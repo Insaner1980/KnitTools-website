@@ -70,9 +70,10 @@ const languages = [
 
 <style>
   .footer-editorial {
-    background: var(--walnut);
-    color: var(--paper);
+    background: var(--paper);
+    color: var(--ink);
     padding: 80px 40px 40px;
+    border-top: 1px solid var(--ink);
   }
   .inner {
     max-width: 1280px;
@@ -89,7 +90,7 @@ const languages = [
     font-size: 11px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--wheat);
+    color: var(--terracotta);
     margin: 0 0 16px;
     font-weight: 400;
   }
@@ -104,15 +105,15 @@ const languages = [
     font-size: 14px;
   }
   ul li a {
-    color: var(--paper);
+    color: var(--ink);
     text-decoration: none;
     transition: color 0.15s ease;
   }
-  ul li a:hover { color: var(--wheat); }
-  .muted { color: rgba(244, 234, 217, 0.6); font-style: italic; }
+  ul li a:hover { color: var(--terracotta); }
+  .muted { color: var(--ink-soft); font-style: italic; }
 
   .bottom-bar {
-    border-top: 1px solid rgba(244, 234, 217, 0.2);
+    border-top: 1px solid rgba(42, 30, 23, 0.2);
     padding: 24px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -123,7 +124,7 @@ const languages = [
     font-family: var(--body-ed);
     font-style: italic;
     font-size: 14px;
-    color: var(--paper);
+    color: var(--ink);
     margin: 0;
     max-width: 440px;
   }
@@ -131,7 +132,7 @@ const languages = [
     font-family: var(--mono);
     font-size: 11px;
     letter-spacing: 0.08em;
-    color: rgba(244, 234, 217, 0.8);
+    color: var(--ink-soft);
     margin: 0;
     text-align: right;
   }
@@ -141,10 +142,10 @@ const languages = [
     font-size: 11px;
     letter-spacing: 0.08em;
     text-align: center;
-    color: rgba(244, 234, 217, 0.6);
+    color: var(--ink-soft);
     margin: 24px 0 0;
     padding-top: 16px;
-    border-top: 1px solid rgba(244, 234, 217, 0.1);
+    border-top: 1px solid rgba(42, 30, 23, 0.1);
   }
 
   @media (max-width: 767px) {
