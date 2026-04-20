@@ -32,6 +32,7 @@ const cards = [
     rest: ' for the label graveyard',
     body:
       'Point the camera at the ball band. AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo. That mystery skein finally has a name.',
+    tint: 'sage',
   },
   {
     lead: 'Four calculators',
@@ -43,6 +44,7 @@ const cards = [
     rest: ', the way it should feel',
     body:
       'Search, save, start a project in one tap. Log in through Ravelry itself. Your password never touches this app.',
+    tint: 'walnut',
   },
   {
     lead: 'Reference',
@@ -80,7 +82,7 @@ const cards = [
     <div class="nine-grid">
       {
         cards.map((c) => (
-          <article class="tool-card">
+          <article class:list={['tool-card', c.tint && `tint-${c.tint}`]}>
             <h3>
               <span class="lead">{c.lead}</span>
               <span class="rest">{c.rest}</span>
@@ -152,6 +154,21 @@ const cards = [
     gap: 14px;
     border-radius: 0;
   }
+  .tool-card.tint-sage {
+    background: var(--sage);
+    color: var(--paper);
+  }
+  .tool-card.tint-sage h3 .lead,
+  .tool-card.tint-sage h3 .rest { color: var(--paper); }
+  .tool-card.tint-sage p { color: rgba(244, 234, 217, 0.9); }
+
+  .tool-card.tint-walnut {
+    background: var(--walnut);
+    color: var(--paper);
+  }
+  .tool-card.tint-walnut h3 .lead { color: var(--wheat); }
+  .tool-card.tint-walnut h3 .rest { color: var(--paper); }
+  .tool-card.tint-walnut p { color: rgba(244, 234, 217, 0.88); }
 
   .tool-card h3 {
     font-family: var(--serif);

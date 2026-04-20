@@ -12,6 +12,7 @@ const columns = [
     lead: 'No tracking.',
     italic: 'No ads.',
     body: 'Your stash, your patterns, your pace. All on your device, none of it sold to anyone.',
+    tint: 'sage',
   },
   {
     eyebrow: 'Languages',
@@ -26,7 +27,7 @@ const columns = [
   <div class="inner">
     {
       columns.map((c) => (
-        <article class="trust-col">
+        <article class:list={['trust-col', c.tint && `tint-${c.tint}`]}>
           <p class="eyebrow">{c.eyebrow}</p>
           <h3>
             {c.lead}
@@ -52,9 +53,22 @@ const columns = [
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 48px;
+    gap: 20px;
   }
-  .trust-col { max-width: 360px; }
+  .trust-col {
+    background: var(--paper-2);
+    border: 1px solid var(--ink);
+    padding: 36px 32px;
+  }
+  .trust-col.tint-sage {
+    background: var(--sage);
+    color: var(--paper);
+  }
+  .trust-col.tint-sage .eyebrow { color: var(--paper); opacity: 0.85; }
+  .trust-col.tint-sage h3 { color: var(--paper); }
+  .trust-col.tint-sage h3 em { color: var(--paper); }
+  .trust-col.tint-sage .body { color: rgba(244, 234, 217, 0.9); }
+
   .eyebrow {
     font-family: var(--mono);
     font-size: 11px;
@@ -85,7 +99,7 @@ const columns = [
   }
 
   @media (max-width: 1023px) {
-    .inner { grid-template-columns: 1fr; gap: 40px; }
+    .inner { grid-template-columns: 1fr; }
   }
   @media (max-width: 640px) {
     .trust-triad { padding: 80px 20px; }
