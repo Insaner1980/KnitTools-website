@@ -19,23 +19,15 @@ const cards = [
     tier: 'free',
     title: 'Row counter with memory',
     body:
-      'A big round button where your thumb already is. Tap without looking. Miscount? Undo. Say "add three" or "next row" — works with no signal.',
+      'A big round button where your thumb already is. Tap without looking. Miscount? Undo. Say "add three" or "next row" without putting your needles down.',
     chips: true,
   },
   {
     tag: '§ Pattern',
-    tier: 'pro',
+    tier: 'free',
     title: 'Pattern viewer that follows along',
     body:
-      "PDF or Ravelry pull-in. The row you're on highlights itself. Tap sl1, k2tog, psso. AI explains what it does, step by step.",
-  },
-  {
-    tag: '§ Stash',
-    tier: 'pro',
-    title: 'Yarn scanner for the label graveyard',
-    body:
-      'Point the camera at the ball band. AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo. That mystery skein finally has a name.',
-    tint: 'sage',
+      'PDF or Ravelry pull-in. Annotate rows, mark your place, find your way back when life interrupts.',
   },
   {
     tag: '§ Calc',
@@ -59,6 +51,14 @@ const cards = [
       'Needles, sizes, chart symbols, abbreviations. Right there in your library, before you remember you needed it.',
   },
   {
+    tag: '§ Stash',
+    tier: 'pro',
+    title: 'Yarn scanner for the label graveyard',
+    body:
+      'Point the camera at the ball band. AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo. That mystery skein finally has a name.',
+    tint: 'sage',
+  },
+  {
     tag: '§ Photos',
     tier: 'pro',
     title: 'Progress photos, just for you',
@@ -73,10 +73,33 @@ const cards = [
   },
   {
     tag: '§ Widget',
-    tier: 'free',
+    tier: 'pro',
     title: 'A widget on your home screen',
     body:
       'Tap to count. No app launch, no loading. The exact amount of friction a row counter should have, which is zero.',
+  },
+];
+
+const aiFeatures = [
+  {
+    n: 'i',
+    t: 'Live voice on the counter',
+    d: 'Say "next row", "set row to 100", or ask "what\'s sl1 k2tog psso" without putting the needles down. Basic commands stay offline.',
+  },
+  {
+    n: 'ii',
+    t: 'Pattern intelligence',
+    d: 'Pattern viewer reads each row aloud for you. Tap any instruction for a plain-language explanation. Paste a gnarly increase sentence and the calculator fills itself.',
+  },
+  {
+    n: 'iii',
+    t: 'Stash and project memory',
+    d: 'Scan a yarn label — fiber, weight, meters, dye lot filed automatically. Ask for a project summary and the AI picks up where you left off, yarn compatibility and all.',
+  },
+  {
+    n: 'iv',
+    t: 'Voice or text journal',
+    d: 'Mumble a session note into the mic or type a quick line. The AI adds date and row, keeps your own words intact.',
   },
 ];
 ---
@@ -86,7 +109,7 @@ const cards = [
     <header class="section-head">
       <div class="num">Nº 01</div>
       <h2 id="nine-heading" class="title">Every tool,<br /><em>talking to each other.</em></h2>
-      <div class="kicker">Nine tools · One app</div>
+      <div class="kicker">Ten tools · One app</div>
     </header>
 
     <div class="nine-grid">
@@ -111,6 +134,59 @@ const cards = [
           </article>
         ))
       }
+
+      <article class="tool-card tint-ink wide ai-card">
+        <div class="card-meta">
+          <span class="tag">§ AI</span>
+          <span class="pill pill-pro">PRO</span>
+        </div>
+        <div class="ai-grid">
+          <div class="ai-intro">
+            <h3>AI that <em>knows knitting.</em></h3>
+            <p>
+              Voice that listens, eyes that read, memory that connects the dots across your projects. In all eleven
+              languages.
+            </p>
+            <div class="waveform" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <p class="mic">🎙 Listening…</p>
+          </div>
+
+          <ol class="ai-list">
+            {
+              aiFeatures.map((f) => (
+                <li>
+                  <span class="n">{f.n}</span>
+                  <div class="body">
+                    <div class="t">{f.t}</div>
+                    <div class="d">{f.d}</div>
+                  </div>
+                </li>
+              ))
+            }
+          </ol>
+
+          <div class="ai-vignette" aria-hidden="true">
+            <div class="vignette-line you">
+              <span class="av">YOU</span>
+              <span class="msg">"Next row."</span>
+            </div>
+            <div class="vignette-line ai">
+              <span class="av">AI</span>
+              <span class="msg">Row 85. Two more before your sleeve increase.</span>
+            </div>
+            <div class="vignette-line you">
+              <span class="av">YOU</span>
+              <span class="msg">"What's sl1 k2tog psso?"</span>
+            </div>
+            <div class="vignette-line ai">
+              <span class="av">AI</span>
+              <span class="msg">Slip one, knit two together, pass the slipped stitch over. <em>Left-leaning double decrease.</em></span>
+            </div>
+          </div>
+        </div>
+      </article>
     </div>
   </div>
 </section>
@@ -152,10 +228,7 @@ const cards = [
     margin: 0;
     color: var(--ink);
   }
-  .section-head .title em {
-    color: var(--terracotta);
-    font-style: italic;
-  }
+  .section-head .title em { color: var(--terracotta); font-style: italic; }
   .section-head .kicker {
     font-family: var(--mono);
     font-size: 11px;
@@ -182,22 +255,34 @@ const cards = [
     gap: 12px;
     border-radius: 0;
   }
+  .tool-card.wide { grid-column: 1 / -1; }
+
   .tool-card.tint-sage {
     background: var(--sage);
     color: var(--paper);
+    border-color: var(--sage);
   }
   .tool-card.tint-sage h3,
-  .tool-card.tint-sage .tag,
-  .tool-card.tint-sage p { color: var(--paper); }
+  .tool-card.tint-sage .tag { color: var(--paper); }
   .tool-card.tint-sage p { color: rgba(244, 234, 217, 0.9); }
 
   .tool-card.tint-walnut {
     background: var(--walnut);
     color: var(--paper);
+    border-color: var(--walnut);
   }
   .tool-card.tint-walnut h3,
   .tool-card.tint-walnut .tag { color: var(--paper); }
   .tool-card.tint-walnut p { color: rgba(244, 234, 217, 0.88); }
+
+  .tool-card.tint-ink {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+  .tool-card.tint-ink h3,
+  .tool-card.tint-ink .tag { color: var(--paper); }
+  .tool-card.tint-ink p { color: rgba(244, 234, 217, 0.85); }
 
   .card-meta {
     display: flex;
@@ -230,7 +315,8 @@ const cards = [
     border-color: var(--terracotta);
   }
   .tool-card.tint-sage .pill-free,
-  .tool-card.tint-walnut .pill-free {
+  .tool-card.tint-walnut .pill-free,
+  .tool-card.tint-ink .pill-free {
     background: transparent;
     color: var(--paper);
     border-color: var(--paper);
@@ -271,8 +357,174 @@ const cards = [
     border-radius: 999px;
   }
 
+  /* ---------- AI wide card ---------- */
+  .ai-card {
+    padding: 40px 44px;
+    position: relative;
+    overflow: hidden;
+  }
+  .ai-card::before {
+    content: "";
+    position: absolute;
+    right: -120px;
+    top: -80px;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--terracotta) 0 45%, transparent 70%);
+    opacity: 0.3;
+    pointer-events: none;
+  }
+  .ai-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    margin-top: 14px;
+    position: relative;
+    z-index: 1;
+  }
+  .ai-intro h3 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 2.8vw, 2.75rem);
+    line-height: 1;
+    letter-spacing: -0.01em;
+    margin: 0 0 14px;
+    color: var(--paper);
+  }
+  .ai-intro h3 em {
+    color: var(--wheat);
+    font-style: italic;
+  }
+  .ai-intro p {
+    font-family: var(--body-ed);
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(244, 234, 217, 0.85);
+    margin: 0 0 22px;
+    max-width: 360px;
+  }
+  .waveform {
+    display: flex;
+    gap: 4px;
+    align-items: flex-end;
+    height: 32px;
+    margin-bottom: 8px;
+  }
+  .waveform span {
+    width: 3px;
+    background: var(--wheat);
+    border-radius: 2px;
+    animation: wave 1.2s ease-in-out infinite;
+    transform-origin: bottom;
+  }
+  .waveform span:nth-child(1) { height: 40%; animation-delay: 0s; }
+  .waveform span:nth-child(2) { height: 80%; animation-delay: 0.1s; }
+  .waveform span:nth-child(3) { height: 60%; animation-delay: 0.2s; }
+  .waveform span:nth-child(4) { height: 100%; animation-delay: 0.3s; }
+  .waveform span:nth-child(5) { height: 55%; animation-delay: 0.4s; }
+  .waveform span:nth-child(6) { height: 75%; animation-delay: 0.5s; }
+  .waveform span:nth-child(7) { height: 35%; animation-delay: 0.6s; }
+  @keyframes wave {
+    0%, 100% { transform: scaleY(0.5); }
+    50% { transform: scaleY(1.15); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .waveform span { animation: none; transform: scaleY(1); }
+  }
+  .ai-intro .mic {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--wheat);
+    margin: 0;
+  }
+
+  .ai-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .ai-list li {
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    gap: 12px;
+    padding: 12px 0;
+    border-top: 1px solid rgba(244, 234, 217, 0.2);
+  }
+  .ai-list li:last-child {
+    border-bottom: 1px solid rgba(244, 234, 217, 0.2);
+  }
+  .ai-list .n {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 22px;
+    color: var(--wheat);
+    line-height: 1;
+  }
+  .ai-list .t {
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.2;
+    color: var(--paper);
+    margin-bottom: 4px;
+  }
+  .ai-list .d {
+    font-family: var(--body-ed);
+    font-size: 13px;
+    line-height: 1.5;
+    color: rgba(244, 234, 217, 0.75);
+  }
+
+  .ai-vignette {
+    background: rgba(244, 234, 217, 0.06);
+    border: 1px solid rgba(244, 234, 217, 0.2);
+    border-radius: 12px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .vignette-line {
+    display: grid;
+    grid-template-columns: 34px 1fr;
+    gap: 12px;
+    align-items: start;
+  }
+  .vignette-line .av {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--paper);
+  }
+  .vignette-line.you .av { background: var(--sage); }
+  .vignette-line.ai .av { background: var(--terracotta); }
+  .vignette-line .msg {
+    font-family: var(--serif);
+    font-size: 15px;
+    line-height: 1.35;
+    font-style: italic;
+  }
+  .vignette-line.you .msg { color: var(--wheat); }
+  .vignette-line.ai .msg { color: var(--paper); }
+  .vignette-line.ai .msg em { color: var(--wheat); font-style: italic; }
+
   @media (max-width: 1024px) {
     .nine-grid { grid-template-columns: repeat(2, 1fr); }
+    .tool-card.wide { grid-column: 1 / -1; }
+    .ai-grid { grid-template-columns: 1fr 1fr; }
+    .ai-vignette { grid-column: 1 / -1; }
   }
   @media (max-width: 767px) {
     .nine-tools { padding: 80px 20px; }
@@ -280,5 +532,7 @@ const cards = [
     .section-head .kicker { text-align: left; padding-bottom: 0; }
     .nine-grid { grid-template-columns: 1fr; }
     .tool-card { padding: 24px 22px 28px; }
+    .ai-card { padding: 28px 24px; }
+    .ai-grid { grid-template-columns: 1fr; gap: 28px; }
   }
 </style>

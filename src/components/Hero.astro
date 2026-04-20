@@ -19,8 +19,8 @@ import counterLight from '../assets/images/counter-light.png';
       <p class="eyebrow">A knitting toolkit for Android · Launching soon</p>
       <h1 id="hero-heading">Pick up where<br />you <em>left off.</em></h1>
       <p class="dek">
-        The row you were on, the yarn you forgot, the pattern that made no sense at midnight. KnitTools remembers it
-        all — so the only thing you need to do is keep knitting.
+        The row you were on, the yarn you forgot, the pattern that made no sense at midnight. <strong>KnitTools
+        remembers it all.</strong> So the only thing you need to do is <strong>keep knitting.</strong>
       </p>
 
       <form class="signup" id="hero-signup" action="#" method="post">
@@ -146,13 +146,9 @@ import counterLight from '../assets/images/counter-light.png';
     margin: 0 0 32px;
     max-width: 560px;
   }
-  .dek::first-letter {
-    font-family: var(--serif);
-    font-size: 64px;
-    float: left;
-    line-height: 0.85;
-    padding: 6px 10px 0 0;
+  .dek strong {
     color: var(--terracotta);
+    font-weight: 600;
   }
 
   .signup { max-width: 520px; }
