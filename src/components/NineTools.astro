@@ -15,57 +15,66 @@ const languages = [
 
 const cards = [
   {
-    lead: 'Row counter',
-    rest: ' with memory',
+    tag: '§ Counter',
+    tier: 'free',
+    title: 'Row counter with memory',
     body:
       'A big round button where your thumb already is. Tap without looking. Miscount? Undo. Say "add three" or "next row" — works with no signal.',
     chips: true,
   },
   {
-    lead: 'Pattern viewer',
-    rest: ' that follows along',
+    tag: '§ Pattern',
+    tier: 'pro',
+    title: 'Pattern viewer that follows along',
     body:
       "PDF or Ravelry pull-in. The row you're on highlights itself. Tap sl1, k2tog, psso. AI explains what it does, step by step.",
   },
   {
-    lead: 'Yarn scanner',
-    rest: ' for the label graveyard',
+    tag: '§ Stash',
+    tier: 'pro',
+    title: 'Yarn scanner for the label graveyard',
     body:
       'Point the camera at the ball band. AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo. That mystery skein finally has a name.',
     tint: 'sage',
   },
   {
-    lead: 'Four calculators',
-    rest: ', quietly working',
+    tag: '§ Calc',
+    tier: 'free',
+    title: 'Four calculators, quietly working',
     body: 'Cast on, gauge, increases, yardage. The math your knitting already asked you to do.',
   },
   {
-    lead: 'Ravelry',
-    rest: ', the way it should feel',
+    tag: '§ Ravelry',
+    tier: 'free',
+    title: 'Ravelry, the way it should feel',
     body:
       'Search, save, start a project in one tap. Log in through Ravelry itself. Your password never touches this app.',
     tint: 'walnut',
   },
   {
-    lead: 'Reference',
-    rest: ', one tap away',
+    tag: '§ Reference',
+    tier: 'free',
+    title: 'Reference, one tap away',
     body:
       'Needles, sizes, chart symbols, abbreviations. Right there in your library, before you remember you needed it.',
   },
   {
-    lead: 'Progress photos',
-    rest: ', just for you',
+    tag: '§ Photos',
+    tier: 'pro',
+    title: 'Progress photos, just for you',
     body: 'One folder per project. Full resolution, on your device, nothing uploaded anywhere.',
   },
   {
-    lead: 'Insights',
-    rest: ' without the pressure',
+    tag: '§ Insights',
+    tier: 'pro',
+    title: 'Insights without the pressure',
     body:
       'Hours at the needles. Rows per hour. Streaks. No leaderboards, no nudges, no comparing. The stats are yours.',
   },
   {
-    lead: 'A widget',
-    rest: ' on your home screen',
+    tag: '§ Widget',
+    tier: 'free',
+    title: 'A widget on your home screen',
     body:
       'Tap to count. No app launch, no loading. The exact amount of friction a row counter should have, which is zero.',
   },
@@ -74,19 +83,23 @@ const cards = [
 
 <section class="nine-tools" aria-labelledby="nine-heading">
   <div class="nine-inner">
-    <div class="nine-head">
-      <p class="eyebrow">What's inside</p>
-      <h2 id="nine-heading">Every tool,<br /><em>talking to each other.</em></h2>
-    </div>
+    <header class="section-head">
+      <div class="num">Nº 01</div>
+      <h2 id="nine-heading" class="title">Every tool,<br /><em>talking to each other.</em></h2>
+      <div class="kicker">Nine tools · One app</div>
+    </header>
 
     <div class="nine-grid">
       {
         cards.map((c) => (
           <article class:list={['tool-card', c.tint && `tint-${c.tint}`]}>
-            <h3>
-              <span class="lead">{c.lead}</span>
-              <span class="rest">{c.rest}</span>
-            </h3>
+            <div class="card-meta">
+              <span class="tag">{c.tag}</span>
+              <span class:list={['pill', `pill-${c.tier}`]}>
+                {c.tier === 'pro' ? 'PRO' : 'FREE'}
+              </span>
+            </div>
+            <h3>{c.title}</h3>
             <p>{c.body}</p>
             {c.chips && (
               <ul class="chip-row" aria-label="Supported languages">
@@ -113,29 +126,44 @@ const cards = [
     max-width: 1280px;
     margin: 0 auto;
   }
-  .nine-head {
-    margin-bottom: 56px;
+
+  .section-head {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 24px;
+    align-items: end;
+    padding-bottom: 18px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 48px;
   }
-  .eyebrow {
-    font-family: var(--mono);
-    font-size: 11px;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
+  .section-head .num {
+    font-family: var(--serif);
+    font-size: clamp(2.25rem, 4vw, 3.5rem);
+    line-height: 0.9;
     color: var(--terracotta);
-    margin: 0 0 18px;
+    font-style: italic;
   }
-  h2 {
+  .section-head .title {
     font-family: var(--serif);
     font-weight: 400;
-    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-size: clamp(2rem, 4vw, 3.75rem);
     line-height: 0.95;
     letter-spacing: -0.02em;
     margin: 0;
     color: var(--ink);
   }
-  h2 em {
+  .section-head .title em {
     color: var(--terracotta);
     font-style: italic;
+  }
+  .section-head .kicker {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding-bottom: 10px;
+    text-align: right;
   }
 
   .nine-grid {
@@ -148,38 +176,75 @@ const cards = [
     background: var(--paper-2);
     color: var(--ink);
     border: 1px solid var(--ink);
-    padding: 36px 32px;
+    padding: 28px 28px 32px;
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 12px;
     border-radius: 0;
   }
   .tool-card.tint-sage {
     background: var(--sage);
     color: var(--paper);
   }
-  .tool-card.tint-sage h3 .lead,
-  .tool-card.tint-sage h3 .rest { color: var(--paper); }
+  .tool-card.tint-sage h3,
+  .tool-card.tint-sage .tag,
+  .tool-card.tint-sage p { color: var(--paper); }
   .tool-card.tint-sage p { color: rgba(244, 234, 217, 0.9); }
 
   .tool-card.tint-walnut {
     background: var(--walnut);
     color: var(--paper);
   }
-  .tool-card.tint-walnut h3 .lead { color: var(--wheat); }
-  .tool-card.tint-walnut h3 .rest { color: var(--paper); }
+  .tool-card.tint-walnut h3,
+  .tool-card.tint-walnut .tag { color: var(--paper); }
   .tool-card.tint-walnut p { color: rgba(244, 234, 217, 0.88); }
+
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--walnut);
+  }
+  .pill {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--ink);
+  }
+  .pill-free {
+    background: var(--paper);
+    color: var(--ink);
+  }
+  .pill-pro {
+    background: var(--terracotta);
+    color: var(--paper);
+    border-color: var(--terracotta);
+  }
+  .tool-card.tint-sage .pill-free,
+  .tool-card.tint-walnut .pill-free {
+    background: transparent;
+    color: var(--paper);
+    border-color: var(--paper);
+  }
 
   .tool-card h3 {
     font-family: var(--serif);
     font-weight: 400;
-    font-size: clamp(1.6rem, 2vw, 2rem);
+    font-size: clamp(1.5rem, 1.9vw, 1.9rem);
     line-height: 1.05;
     letter-spacing: -0.01em;
     margin: 0;
+    color: var(--ink);
   }
-  .tool-card h3 .lead { color: var(--terracotta); font-style: italic; }
-  .tool-card h3 .rest { color: var(--ink); }
   .tool-card p {
     font-family: var(--body-ed);
     font-size: 15px;
@@ -211,7 +276,9 @@ const cards = [
   }
   @media (max-width: 767px) {
     .nine-tools { padding: 80px 20px; }
+    .section-head { grid-template-columns: 1fr; gap: 8px; }
+    .section-head .kicker { text-align: left; padding-bottom: 0; }
     .nine-grid { grid-template-columns: 1fr; }
-    .tool-card { padding: 28px 24px; }
+    .tool-card { padding: 24px 22px 28px; }
   }
 </style>

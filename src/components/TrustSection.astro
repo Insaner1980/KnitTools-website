@@ -23,21 +23,29 @@ const columns = [
 ];
 ---
 
-<section class="trust-triad">
+<section class="trust-triad" aria-labelledby="trust-heading">
   <div class="inner">
-    {
-      columns.map((c) => (
-        <article class:list={['trust-col', c.tint && `tint-${c.tint}`]}>
-          <p class="eyebrow">{c.eyebrow}</p>
-          <h3>
-            {c.lead}
-            <br />
-            <em>{c.italic}</em>
-          </h3>
-          <p class="body">{c.body}</p>
-        </article>
-      ))
-    }
+    <header class="section-head">
+      <div class="num">Nº 02</div>
+      <h2 id="trust-heading" class="title">What stays <em>the same.</em></h2>
+      <div class="kicker">Price · Privacy · Languages</div>
+    </header>
+
+    <div class="cols">
+      {
+        columns.map((c) => (
+          <article class:list={['trust-col', c.tint && `tint-${c.tint}`]}>
+            <p class="eyebrow">{c.eyebrow}</p>
+            <h3>
+              {c.lead}
+              <br />
+              <em>{c.italic}</em>
+            </h3>
+            <p class="body">{c.body}</p>
+          </article>
+        ))
+      }
+    </div>
   </div>
 </section>
 
@@ -51,6 +59,43 @@ const columns = [
   .inner {
     max-width: 1280px;
     margin: 0 auto;
+  }
+  .section-head {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 24px;
+    align-items: end;
+    padding-bottom: 18px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 48px;
+  }
+  .section-head .num {
+    font-family: var(--serif);
+    font-size: clamp(2.25rem, 4vw, 3.5rem);
+    line-height: 0.9;
+    color: var(--terracotta);
+    font-style: italic;
+  }
+  .section-head .title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3.75rem);
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: var(--ink);
+  }
+  .section-head .title em { color: var(--terracotta); font-style: italic; }
+  .section-head .kicker {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding-bottom: 10px;
+    text-align: right;
+  }
+  .cols {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -99,7 +144,11 @@ const columns = [
   }
 
   @media (max-width: 1023px) {
-    .inner { grid-template-columns: 1fr; }
+    .cols { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 767px) {
+    .section-head { grid-template-columns: 1fr; gap: 8px; }
+    .section-head .kicker { text-align: left; padding-bottom: 0; }
   }
   @media (max-width: 640px) {
     .trust-triad { padding: 80px 20px; }
