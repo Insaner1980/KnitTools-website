@@ -1,23 +1,725 @@
 ---
-import PageLayout from '../layouts/PageLayout.astro';
-import Hero from '../components/Hero.astro';
-import Marquee from '../components/Marquee.astro';
-import NineTools from '../components/NineTools.astro';
-import FreeToolsCallout from '../components/FreeToolsCallout.astro';
-import TrustSection from '../components/TrustSection.astro';
-import ClosingCTA from '../components/ClosingCTA.astro';
+import EditorialLayout from '../layouts/EditorialLayout.astro';
+
+const languages = [
+  'English',
+  'Suomi',
+  'Svenska',
+  'Dansk',
+  'Norsk',
+  'Nederlands',
+  'Deutsch',
+  'Français',
+  'Italiano',
+  'Português',
+  'Español',
+];
+
+const features = [
+  {
+    tall: true,
+    section: '§ Counter',
+    badge: 'ROW COUNTER',
+    title: 'A big round button, right where your thumb is.',
+    body:
+      'Tap without looking. Miscount? Undo. Say "add three" or "next row" — voice commands work with no signal needed. Session history accrues quietly in the background.',
+    yarnBall: true,
+  },
+  {
+    section: '§ Pattern',
+    badge: 'VIEWER',
+    title: 'Patterns that follow along.',
+    body:
+      "PDF or Ravelry pull-in. The row you're on highlights itself. Tap sl1, k2tog, psso — the AI explains step by step.",
+  },
+  {
+    sage: true,
+    section: '§ Stash',
+    badge: 'YARN SCANNER',
+    title: 'For the label graveyard.',
+    body:
+      'Point the camera at the ball band. The AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo of the band itself.',
+  },
+  {
+    section: '§ Calc',
+    badge: 'CALCULATORS',
+    title: "Four quiet calculators. The math you'd rather avoid.",
+    body:
+      'Cast on, gauge, increases, yardage. The math your knitting already asked you to do — answered before you put the needles down.',
+  },
+  {
+    dark: true,
+    section: '§ Ravelry',
+    badge: 'SIGNED IN',
+    title: 'Search, save, start a project in one tap.',
+    body:
+      'Log in through Ravelry itself — your password never touches this app. Browse, save, link patterns to your projects.',
+  },
+  {
+    section: '§ Reference',
+    badge: 'BUILT-IN',
+    title: 'Needles, sizes, symbols, abbreviations.',
+    body:
+      "Right there in your library, before you remember you needed it. Six reference tools, each a tap away.",
+  },
+];
+
+const counterChecklist = [
+  { n: 'i', t: 'Voice commands, hands-free', d: 'EN · FI · "Next row"' },
+  { n: 'ii', t: 'Undo and redo every count', d: 'Tap & hold' },
+  { n: 'iii', t: 'Stitch, shape, and repeat side by side', d: 'Three counters' },
+  { n: 'iv', t: 'Row reminders with messages', d: '"Join sleeve"' },
+  { n: 'v', t: 'Session history, row-timestamped', d: 'Auto-saved' },
+  { n: 'vi', t: 'Home-screen widget, one tap to count', d: 'No app launch' },
+];
+
+const patternChecklist = [
+  { n: 'i', t: 'Point your camera at the ball band', d: 'On-device OCR' },
+  { n: 'ii', t: 'AI reads fiber, weight, yardage, gauge', d: 'Auto-filed' },
+  { n: 'iii', t: 'Mystery skeins finally get a name', d: 'Cross-referenced' },
+  { n: 'iv', t: 'Full band photo saved alongside', d: 'Never lost again' },
+];
+
+const voiceBullets = [
+  {
+    n: 'i',
+    t: 'Voice commands, English & Finnish',
+    d: 'Add three, next row, set row, undo. Works with no signal. More languages as they land.',
+  },
+  {
+    n: 'ii',
+    t: 'The AI knows where you are',
+    d: "Which project you're in, which row you're on, how far you've gone today — no need to tell it twice.",
+  },
+  {
+    n: 'iii',
+    t: 'Explains the stitches when you ask',
+    d: 'Tap sl1, k2tog, psso — or ask aloud. The AI walks you through it, step by step.',
+  },
+  {
+    n: 'iv',
+    t: 'Everything on-device where possible',
+    d: 'No cloud round-trip for the basics. AI requests only when you invoke them.',
+  },
+];
+
+const freeToolChecklist = [
+  { n: 'i', t: 'Cast On Calculator', d: '/tools/cast-on-calculator' },
+  { n: 'ii', t: 'Yarn Estimator', d: '/tools/yarn-estimator' },
+  { n: 'iii', t: 'Needle Size Chart', d: '/tools/needle-size-chart' },
+  { n: 'iv', t: 'Yarn Weight Chart', d: '/tools/yarn-weight-chart' },
+  { n: 'v', t: 'Knitting Abbreviations', d: '/tools/knitting-abbreviations' },
+  { n: 'vi', t: 'Size Charts', d: '/tools/knitting-size-charts' },
+];
 ---
 
-<PageLayout
-  title="KnitTools: Every Tool a Knitter Needs. One App."
-  description="Row counter, calculators, yarn scanner, and reference materials in one beautiful offline app. One-time purchase, no subscription, no ads."
+<EditorialLayout
+  title="KnitTools — Every Tool a Knitter Needs. One App."
+  description="A private, on-device knitting studio for Android. Row counter with voice commands, pattern viewer, yarn scanner, calculators, Ravelry sign-in. No subscription, no ads."
   canonicalPath="/"
-  showStripe={true}
 >
-  <Hero />
-  <Marquee />
-  <NineTools />
-  <FreeToolsCallout />
-  <TrustSection />
-  <ClosingCTA />
-</PageLayout>
+  <div class="page">
+    <!-- Masthead -->
+    <header>
+      <div class="sub-mast">
+        <div class="bit mono">Vol. 01 · Pre-launch</div>
+        <div class="bit center mono">Spring Edition · MMXXVI</div>
+        <div class="bit center mono">"Pick up where you left off."</div>
+        <div class="bit right mono">€8.99 · Android</div>
+        <div class="bit right mono">Waitlist open</div>
+      </div>
+      <hr class="thin" style="margin:10px 0 0" />
+      <div class="masthead">
+        <div class="left mono"><span>EST.</span><span class="dot"></span><span>2026</span></div>
+        <div class="wordmark">Knit<em class="amp">&amp;</em><span class="small">Tools</span></div>
+        <div class="right mono"><span>ELEVEN LANGUAGES</span><span class="dot"></span><span>€8.99</span></div>
+      </div>
+      <div class="double"></div>
+      <nav class="top">
+        <a href="#features">The Features</a>
+        <span class="sep">◆</span>
+        <a href="#counter">Counter</a>
+        <span class="sep">◆</span>
+        <a href="#scanner">Yarn Scanner</a>
+        <span class="sep">◆</span>
+        <a href="#voice">Voice &amp; AI</a>
+        <span class="sep">◆</span>
+        <a href="#free">Free Tools</a>
+        <span class="sep">◆</span>
+        <a href="#pricing">Pricing</a>
+        <span class="sep">◆</span>
+        <a href="#privacy">Privacy</a>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div>
+        <div class="issue-tag"><span class="square"></span> A knitting toolkit for Android · Launching soon</div>
+        <h1 class="display">
+          Pick up<br />where you<br /><em>left</em> <span class="knot"></span> <em>off.</em>
+        </h1>
+        <p class="dek">
+          The row you were on, the yarn you forgot, the pattern that made no sense at midnight. KnitTools remembers it
+          all — so the only thing you need to do is keep knitting.
+        </p>
+
+        <form class="hero-signup" id="hero-signup-form" action="#" method="post">
+          <div class="signup-content" id="hero-content-layer">
+            <div class="signup-row">
+              <input
+                type="email"
+                placeholder="your@email.com"
+                required
+                class="signup-input"
+                aria-label="Email address"
+              />
+              <button type="submit" class="btn">Join the list →</button>
+            </div>
+            <p class="signup-meta">
+              Lock in the launch price: <strong>€8.99</strong> → €11.99 two months after launch
+            </p>
+          </div>
+          <div class="signup-success" id="hero-success" aria-hidden="true">
+            <span class="success-label">You're in.</span>
+            <span class="success-sub">We'll email you at launch.</span>
+          </div>
+        </form>
+      </div>
+      <div class="hero-right">
+        <div class="sun"></div>
+        <div class="sun-core"></div>
+
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="screen">
+            <div class="ps-top"><span>9:41 AM</span><span>◐ 82%</span></div>
+            <div class="ps-head">
+              <h3>Harvest Cardigan</h3>
+              <span class="tag">ACTIVE</span>
+            </div>
+            <div class="ps-counter">
+              <div style="display:flex;justify-content:space-between">
+                <span class="lbl">ROW</span>
+                <span class="lbl">INCREASE · +1</span>
+              </div>
+              <div class="num" id="rowNum">84</div>
+              <div class="of">of 142 · sleeve increases</div>
+              <div class="controls">
+                <button class="ps-btn" data-dec aria-label="Decrement row">−</button>
+                <button class="ps-btn plus" data-inc aria-label="Increment row">+1</button>
+              </div>
+            </div>
+            <div class="ps-side">
+              <div class="ps-chip"><span class="k">STITCHES</span><span class="v">126</span></div>
+              <div class="ps-chip"><span class="k">REPEAT</span><span class="v">3 / 8</span></div>
+            </div>
+            <div class="ps-foot">
+              <div style="display:flex;align-items:center;gap:8px">
+                <span class="dot"></span><span class="t">Session · 42 min</span>
+              </div>
+              <span class="t">🎙 Listening…</span>
+            </div>
+            <div class="ps-tabs">
+              <span class="on">COUNTER</span><span>PATTERN</span><span>NOTES</span><span>PHOTOS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="stamp">
+          Private<br />by<br />Design<small>No Cloud · No Ads</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ticker -->
+    <div class="ticker">
+      <div class="ticker-track">
+        <span>Row counter with voice <span class="dot"></span></span>
+        <span>Pattern viewer <span class="dot"></span></span>
+        <span>Yarn OCR scanner <span class="dot"></span></span>
+        <span>Four calculators <span class="dot"></span></span>
+        <span>Ravelry sign-in <span class="dot"></span></span>
+        <span>Eleven languages <span class="dot"></span></span>
+        <span>No subscription <span class="dot"></span></span>
+        <span>All data on device <span class="dot"></span></span>
+        <span>Home-screen widget <span class="dot"></span></span>
+        <span>Row counter with voice <span class="dot"></span></span>
+        <span>Pattern viewer <span class="dot"></span></span>
+        <span>Yarn OCR scanner <span class="dot"></span></span>
+        <span>Four calculators <span class="dot"></span></span>
+        <span>Ravelry sign-in <span class="dot"></span></span>
+        <span>Eleven languages <span class="dot"></span></span>
+        <span>No subscription <span class="dot"></span></span>
+        <span>All data on device <span class="dot"></span></span>
+        <span>Home-screen widget <span class="dot"></span></span>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <section class="section" id="features">
+      <div class="section-head">
+        <div class="section-num">Nº 01</div>
+        <div class="section-title">Every tool, <em>talking to each other.</em></div>
+        <div class="section-kicker">Nine tools · One app</div>
+      </div>
+
+      <div class="features">
+        {
+          features.map((f) => (
+            <div class:list={['cell', f.tall && 'tall', f.dark && 'dark', f.sage && 'sage']}>
+              <div class="k">
+                <span>{f.section}</span>
+                <span class="pill">{f.badge}</span>
+              </div>
+              <h3>{f.title}</h3>
+              <p>{f.body}</p>
+              {f.yarnBall && <div class="yarn-ball" />}
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- Spread 1: Counter -->
+    <section class="spread" id="counter">
+      <div class="fig">
+        <div
+          style="position:absolute;inset:40px;border:1.5px solid var(--ink);display:flex;flex-direction:column;justify-content:space-between;padding:28px;background:var(--paper)"
+        >
+          <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;letter-spacing:.16em">
+            <span>ROW</span><span>REPEAT 3/8</span><span>INCREASE +1</span>
+          </div>
+          <div
+            style="font-family:var(--serif);font-size:200px;text-align:center;color:var(--terracotta);line-height:.9;letter-spacing:-.02em"
+          >
+            84
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px">
+            <div style="border:1.5px solid var(--ink);padding:10px;text-align:center">
+              <div style="font-family:var(--mono);font-size:9px;letter-spacing:.14em">STITCH</div>
+              <div style="font-family:var(--serif);font-size:28px">126</div>
+            </div>
+            <div style="border:1.5px solid var(--ink);padding:10px;text-align:center;background:var(--wheat)">
+              <div style="font-family:var(--mono);font-size:9px;letter-spacing:.14em">SHAPE</div>
+              <div style="font-family:var(--serif);font-size:28px">12/20</div>
+            </div>
+            <div style="border:1.5px solid var(--ink);padding:10px;text-align:center">
+              <div style="font-family:var(--mono);font-size:9px;letter-spacing:.14em">REPEAT</div>
+              <div style="font-family:var(--serif);font-size:28px">3/8</div>
+            </div>
+          </div>
+        </div>
+        <div class="cap">FIG. I · THE ROW COUNTER</div>
+      </div>
+      <div>
+        <div class="mono" style="color:var(--terracotta);margin-bottom:12px">§ 02 — The Counter</div>
+        <h2>Tap without <em>looking.</em></h2>
+        <p class="lead">
+          A big round button where your thumb already is. Miscount? Undo. Say "add three" or "next row" — voice
+          commands work with no signal needed. Stitch, shape, and repeat counters run side by side. Mark a row with a
+          reminder, and it waits politely until you get there.
+        </p>
+        <ul class="checklist">
+          {
+            counterChecklist.map((item) => (
+              <li>
+                <span class="n">{item.n}</span>
+                <span class="t">{item.t}</span>
+                <span class="d">{item.d}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+
+    <!-- Spread 2: Yarn scanner -->
+    <section class="spread alt" id="scanner">
+      <div>
+        <div class="mono" style="color:var(--terracotta);margin-bottom:12px">§ 03 — The Yarn Scanner</div>
+        <h2>Point. Scan. <em>Filed.</em></h2>
+        <p class="lead">
+          The label graveyard, organised at last. Point the camera at the ball band; the AI reads fiber, weight,
+          meters, needle size, gauge, and dye lot. Filed in your stash with a photo of the band itself. That mystery
+          skein finally has a name.
+        </p>
+        <ul class="checklist">
+          {
+            patternChecklist.map((item) => (
+              <li>
+                <span class="n">{item.n}</span>
+                <span class="t">{item.t}</span>
+                <span class="d">{item.d}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <div class="fig">
+        <div
+          style="position:absolute;inset:40px;background:var(--paper);border:1.5px solid var(--ink);padding:26px;overflow:hidden"
+        >
+          <div style="font-family:var(--serif);font-size:28px;font-style:italic;margin-bottom:6px">Drops Karisma</div>
+          <div
+            style="font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--walnut);margin-bottom:16px"
+          >
+            — BALL BAND · SCANNED —
+          </div>
+          <div style="font-family:var(--body);font-size:13px;line-height:1.9;color:var(--ink)">
+            <div>Fiber · 100% pure new wool</div>
+            <div>Weight · DK · 50 g</div>
+            <div>Yardage · 100 m / 110 yd</div>
+            <div style="background:linear-gradient(transparent 60%, #C4A66180 60%);padding:2px 0">
+              Needles · 4.0 mm (US 6)
+            </div>
+            <div>Gauge · 21 sts × 28 rows = 10 cm</div>
+            <div>Dye lot · 5813</div>
+            <div>Care · Machine wash 40°C</div>
+          </div>
+          <div
+            style="position:absolute;right:24px;top:90px;background:var(--wheat);border:1.5px solid var(--ink);padding:6px 10px;font-family:var(--mono);font-size:10px;letter-spacing:.14em;transform:rotate(3deg)"
+          >
+            SCANNED · FILED
+          </div>
+        </div>
+        <div class="cap">FIG. II · ONE CARD PER SKEIN</div>
+      </div>
+    </section>
+
+    <!-- Voice & AI -->
+    <section class="section" id="voice">
+      <div class="section-head">
+        <div class="section-num">Nº 04</div>
+        <div class="section-title">Hands full? <em>Just talk to it.</em></div>
+        <div class="section-kicker">Voice · On-Device</div>
+      </div>
+
+      <div class="voice">
+        <h2>Say "<em>next row</em>" and<br />your needles keep moving.</h2>
+        <div class="grid">
+          <div class="voice-card">
+            <div class="voice-line you">
+              <div class="av">YOU</div>
+              <div class="msg">"Next row."</div>
+              <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            </div>
+            <div class="voice-line ai">
+              <div class="av">AI</div>
+              <div class="msg">Row 85. Two more before your sleeve increase.</div>
+            </div>
+            <div class="voice-line you">
+              <div class="av">YOU</div>
+              <div class="msg">"What's sl1 k2tog psso?"</div>
+            </div>
+            <div class="voice-line ai">
+              <div class="av">AI</div>
+              <div class="msg">Slip one, knit two together, pass the slipped stitch over. A left-leaning double decrease.</div>
+            </div>
+            <div class="voice-line you">
+              <div class="av">YOU</div>
+              <div class="msg">"Add three. How many rows until the neckline?"</div>
+            </div>
+            <div class="voice-line ai">
+              <div class="av">AI</div>
+              <div class="msg">Row 88. Forty-two rows until the neckline. <em>Carry on.</em></div>
+            </div>
+          </div>
+          <div class="bullets">
+            {
+              voiceBullets.map((b) => (
+                <div class="b">
+                  <div class="n">{b.n}</div>
+                  <div class="t">{b.t}</div>
+                  <div class="d">{b.d}</div>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Free browser tools callout -->
+    <section class="spread" id="free">
+      <div>
+        <div class="mono" style="color:var(--terracotta);margin-bottom:12px">§ 05 — Free Browser Tools</div>
+        <h2>Not ready for the app? <em>Try one in your browser.</em></h2>
+        <p class="lead">
+          Six calculators and reference charts, free forever, no install. The same math and tables that ship inside the
+          app — available to anyone with a browser.
+        </p>
+        <ul class="checklist">
+          {
+            freeToolChecklist.map((item) => (
+              <li>
+                <span class="n">{item.n}</span>
+                <span class="t">
+                  <a href={item.d} style="color:inherit;text-decoration:none;border-bottom:1px solid var(--terracotta)">
+                    {item.t}
+                  </a>
+                </span>
+                <span class="d">→</span>
+              </li>
+            ))
+          }
+        </ul>
+        <div style="margin-top:26px">
+          <a class="btn" href="/tools/">Browse all free tools →</a>
+        </div>
+      </div>
+      <div class="fig" style="background:var(--paper-2)">
+        <div
+          style="position:absolute;inset:40px;background:var(--paper);border:1.5px solid var(--ink);padding:26px;display:flex;flex-direction:column;gap:14px"
+        >
+          <div style="font-family:var(--serif);font-size:32px;font-style:italic;line-height:1">Cast On Calculator</div>
+          <div
+            style="font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--walnut)"
+          >
+            — GAUGE · WIDTH · STITCHES —
+          </div>
+          <div
+            style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px"
+          >
+            <div style="border:1.5px solid var(--ink);padding:10px">
+              <div style="font-family:var(--mono);font-size:9px;letter-spacing:.14em">GAUGE</div>
+              <div style="font-family:var(--serif);font-size:28px">22<span style="font-family:var(--mono);font-size:12px;color:var(--walnut)"> sts / 10cm</span></div>
+            </div>
+            <div style="border:1.5px solid var(--ink);padding:10px">
+              <div style="font-family:var(--mono);font-size:9px;letter-spacing:.14em">WIDTH</div>
+              <div style="font-family:var(--serif);font-size:28px">50<span style="font-family:var(--mono);font-size:12px;color:var(--walnut)"> cm</span></div>
+            </div>
+          </div>
+          <div style="border:2px solid var(--ink);background:var(--wheat);padding:18px;text-align:center">
+            <div style="font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--ink)">CAST ON</div>
+            <div
+              style="font-family:var(--serif);font-size:80px;line-height:1;color:var(--terracotta);letter-spacing:-.02em"
+            >
+              110
+            </div>
+            <div style="font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--ink)">stitches</div>
+          </div>
+          <div style="font-family:var(--body);font-size:12px;line-height:1.6;color:var(--ink-soft)">
+            Six free calculators and charts. Gauge, cast-on, yardage, needles, abbreviations — run them right in your
+            browser.
+          </div>
+        </div>
+        <div class="cap">FIG. III · FREE IN YOUR BROWSER</div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section" id="pricing">
+      <div class="section-head">
+        <div class="section-num">Nº 06</div>
+        <div class="section-title">Pay once. <em>Own it.</em></div>
+        <div class="section-kicker">Pricing · No Subscription</div>
+      </div>
+
+      <div class="pricing">
+        <div class="plan">
+          <h3>Free</h3>
+          <div class="price"><span class="big">Forever</span></div>
+          <p style="margin:0;color:var(--ink-soft)">
+            The six browser tools, always free. No account, no trial expiry, no card — just run them and go.
+          </p>
+          <ul>
+            <li>Cast On Calculator</li>
+            <li>Yarn Estimator</li>
+            <li>Needle Size Chart</li>
+            <li>Yarn Weight Chart</li>
+            <li>Knitting Abbreviations</li>
+            <li>Size Charts</li>
+          </ul>
+          <a class="btn ghost cta" style="margin-top:18px" href="/tools/">Browse free tools →</a>
+        </div>
+
+        <div class="plan pro">
+          <div class="tag">LAUNCH PRICE</div>
+          <h3>KnitTools App</h3>
+          <div class="price">
+            <span class="cur">€</span><span class="big">8</span><span class="cur">.99</span>
+            <span class="strike">€11.99</span>
+          </div>
+          <p style="margin:0;color:rgba(244,234,217,.9)">
+            A single, one-time unlock. 14-day free trial, no card. Price rises to €11.99 two months after launch —
+            permanently. No subscription, ever.
+          </p>
+          <ul>
+            <li>Row counter with voice commands (EN · FI)</li>
+            <li>Pattern viewer with AI stitch explanations</li>
+            <li>Yarn OCR scanner · unlimited stash</li>
+            <li>Four calculators · Ravelry sign-in</li>
+            <li>Insights, streaks, pace-over-time</li>
+            <li>Home-screen counter widget</li>
+            <li>Eleven languages</li>
+          </ul>
+          <a
+            class="btn cta"
+            style="background:var(--paper);color:var(--ink);border-color:var(--paper);margin-top:18px"
+            href="#hero-signup-form"
+          >
+            Join the waitlist →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Privacy -->
+    <section class="section" id="privacy" style="padding-top:40px">
+      <div class="privacy">
+        <div class="lead">
+          <div class="k">§ Privacy</div>
+          <h4>Everything stays on the phone.</h4>
+          <p>
+            No accounts. No cloud sync. No ads. No tracking. KnitTools reads from your device and writes to your device
+            — that's the whole architecture.
+          </p>
+        </div>
+        <div>
+          <div class="k">AI Requests</div>
+          <h4>Only when you ask.</h4>
+          <p>AI features run on-device where possible. A request leaves the phone only the moment you invoke it.</p>
+        </div>
+        <div>
+          <div class="k">Ravelry</div>
+          <h4>Your account, your keys.</h4>
+          <p>Sign in through Ravelry itself. Your password never touches this app — no shared server, no middleman.</p>
+        </div>
+        <div>
+          <div class="k">Export</div>
+          <h4>Yours to take.</h4>
+          <p>Projects, notes, and yarn cards export to plain files you own. Leave any time, nothing held hostage.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Languages -->
+    <div class="langs">
+      {languages.map((lang) => <span>{lang}</span>)}
+    </div>
+
+    <!-- Footer -->
+    <footer class="editorial">
+      <div>
+        <div class="fm">Knit<em>&amp;</em>Tools</div>
+        <p style="margin-top:10px;font-size:14px;color:var(--ink-soft);max-width:280px">
+          A quiet companion for the long row ahead. Built for Android, priced once, yours forever.
+        </p>
+      </div>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#voice">Voice &amp; AI</a></li>
+        <li><a href="/tools/">Free Tools</a></li>
+        <li><a href="/articles/">Articles</a></li>
+      </ul>
+      <div class="end">
+        © MMXXVI KnitTools<br />
+        Vol. 01 · Pre-launch<br />
+        Made with two needles<br />and a soldering iron
+      </div>
+    </footer>
+  </div>
+
+  <script is:inline>
+    (() => {
+      const rowEl = document.getElementById('rowNum');
+      if (rowEl) {
+        let row = 84;
+        const flash = () => {
+          rowEl.animate(
+            [{ transform: 'scale(1)' }, { transform: 'scale(1.08)' }, { transform: 'scale(1)' }],
+            { duration: 220 }
+          );
+        };
+        document.querySelector('[data-inc]')?.addEventListener('click', () => {
+          row++;
+          rowEl.textContent = row;
+          flash();
+        });
+        document.querySelector('[data-dec]')?.addEventListener('click', () => {
+          row = Math.max(0, row - 1);
+          rowEl.textContent = row;
+        });
+      }
+
+      const form = document.getElementById('hero-signup-form');
+      const content = document.getElementById('hero-content-layer');
+      const success = document.getElementById('hero-success');
+      if (form && content && success) {
+        form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          content.style.display = 'none';
+          success.style.display = 'flex';
+          success.setAttribute('aria-hidden', 'false');
+        });
+      }
+    })();
+  </script>
+
+  <style is:global>
+    .hero-signup {
+      margin-top: 30px;
+      max-width: 520px;
+      position: relative;
+    }
+    .signup-row {
+      display: flex;
+      gap: 10px;
+      align-items: stretch;
+    }
+    .signup-input {
+      flex: 1;
+      font-family: var(--body);
+      font-size: 16px;
+      padding: 12px 16px;
+      border: 2px solid var(--ink);
+      background: var(--paper);
+      color: var(--ink);
+      border-radius: 999px;
+      min-width: 0;
+    }
+    .signup-input:focus {
+      outline: 2px solid var(--terracotta);
+      outline-offset: 2px;
+    }
+    .signup-meta {
+      margin: 12px 0 0;
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      color: var(--ink-soft);
+      text-transform: uppercase;
+    }
+    .signup-meta strong {
+      color: var(--terracotta);
+      font-weight: 700;
+    }
+    .signup-success {
+      display: none;
+      flex-direction: column;
+      gap: 4px;
+      padding: 16px 0;
+    }
+    .signup-success .success-label {
+      font-family: var(--serif);
+      font-size: 32px;
+      font-style: italic;
+      color: var(--terracotta);
+      line-height: 1;
+    }
+    .signup-success .success-sub {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+    @media (max-width: 520px) {
+      .signup-row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</EditorialLayout>
