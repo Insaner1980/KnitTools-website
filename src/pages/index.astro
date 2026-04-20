@@ -1,0 +1,23 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Hero from '../components/Hero.astro';
+import Marquee from '../components/Marquee.astro';
+import NineTools from '../components/NineTools.astro';
+import FreeToolsCallout from '../components/FreeToolsCallout.astro';
+import TrustSection from '../components/TrustSection.astro';
+import ClosingCTA from '../components/ClosingCTA.astro';
+---
+
+<PageLayout
+  title="KnitTools: Every Tool a Knitter Needs. One App."
+  description="Row counter, calculators, yarn scanner, and reference materials in one beautiful offline app. One-time purchase, no subscription, no ads."
+  canonicalPath="/"
+  showStripe={true}
+>
+  <Hero />
+  <Marquee />
+  <NineTools />
+  <FreeToolsCallout />
+  <TrustSection />
+  <ClosingCTA />
+</PageLayout>

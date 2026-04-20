@@ -1,0 +1,519 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import YarnEstimator from '../../components/YarnEstimator.astro';
+import { Image } from 'astro:assets';
+import faqButton from '../../assets/images/faq-button.webp';
+---
+
+<PageLayout
+  title="Yarn Estimator: How Much Yarn Do I Need?"
+  description="Calculate how many skeins of yarn you need for your knitting project. Enter yardage and skein info. Free, instant, no signup."
+  canonicalPath="/tools/yarn-estimator"
+  showStripe={true}
+>
+  <!-- 1. Tool hero -->
+  <section class="tool-hero">
+    <div class="hero-inner">
+      <a href="/tools/" class="back-link reveal reveal-left">&larr; All tools</a>
+      <h1 class="reveal">Yarn Estimator</h1>
+      <p class="hero-intro reveal reveal-delay-1">Calculate how many skeins of yarn you need for your knitting project.</p>
+      <div class="calc-wrapper reveal reveal-delay-2">
+        <YarnEstimator />
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SEO content -->
+  <section class="seo-content">
+    <div class="content-inner">
+      <h2 class="reveal">How to use this calculator</h2>
+      <p class="reveal reveal-delay-1">Enter the total amount of yarn your project needs in meters (or yards), the length per skein from your yarn label, and the weight per skein. The calculator tells you how many skeins to buy and the total weight of yarn you'll need. Always buy one extra skein. Running out mid-project with a discontinued dye lot is every knitter's nightmare.</p>
+
+      <h2 class="reveal">How much yarn do I need?</h2>
+      <p class="reveal reveal-delay-1">Yarn requirements depend on three things: what you're knitting, what size, and what yarn weight. A fingering-weight adult sweater uses roughly 1200–1500 meters. A bulky hat might need 100 meters. Pattern instructions always list the total yardage. That's the number you enter here.</p>
+
+      <h2 class="reveal">Reading a yarn label</h2>
+      <p class="reveal reveal-delay-1">Every yarn label (or ball band) tells you the weight per skein and the length per skein. These are the two numbers this calculator needs. If you've lost the label, weigh your yarn on a kitchen scale and check the manufacturer's website for the meters-per-gram ratio.</p>
+    </div>
+  </section>
+
+  <!-- 3. FAQ -->
+  <section class="tool-faq">
+    <div class="faq-inner">
+      <h2 class="reveal">Frequently asked questions</h2>
+      <div class="faq">
+        <details class="reveal reveal-delay-1">
+          <summary>How do I know how much yarn my project needs? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>Your pattern lists total yardage or meterage in the materials section. If you're designing without a pattern, search for average yarn requirements by project type and size. There are well-established ranges for most garments.</p>
+        </details>
+        <details class="reveal reveal-delay-1">
+          <summary>Should I buy extra yarn? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>Always. Buy at least one extra skein, especially if your yarn has a dye lot number. Dye lots vary slightly in color, and matching later may be impossible if the lot is sold out.</p>
+        </details>
+        <details class="reveal reveal-delay-1">
+          <summary>What if my yarn label is in grams but the pattern lists yards? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>Convert using your yarn's meters-per-gram ratio. Divide the label's length by its weight to get meters per gram, then multiply by the total grams you have. Or use KnitTools. It handles the math for you.</p>
+        </details>
+        <details class="reveal reveal-delay-1">
+          <summary>Does yarn weight category affect how much I need? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>Yes. Thinner yarn (fingering, sport) requires more meters for the same project than thicker yarn (worsted, bulky) because the stitches are smaller and you need more of them to cover the same area.</p>
+        </details>
+        <details class="reveal reveal-delay-1">
+          <summary>Can I substitute a different yarn than the pattern recommends? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>Yes, if the gauge matches. Knit a swatch with your substitute yarn, check that you get the same stitch count per 10 cm, and use this calculator to figure out how many skeins of the new yarn you need.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Waitlist CTA -->
+  <section class="waitlist-cta">
+    <div class="waitlist-inner">
+      <form class="waitlist-form" action="#" method="post" id="waitlist-form">
+        <div class="waitlist-content-layer" id="waitlist-content-layer">
+          <h2>There's more in the app</h2>
+          <p class="waitlist-desc">Row counter, project management, yarn scanner, and all four calculators, in one app. Join the waitlist to get notified at launch.</p>
+          <div class="waitlist-row" id="waitlist-row">
+            <input type="email" placeholder="your@email.com" required class="waitlist-input" />
+            <button type="submit" class="waitlist-btn" id="waitlist-btn">Join Waitlist</button>
+          </div>
+        </div>
+
+        <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
+          <Image src={faqButton} alt="Loading..." width={112} height={112} class="big-spinner" />
+        </div>
+
+        <div class="waitlist-success" id="waitlist-success" aria-hidden="true">
+          <p class="success-text">
+            <span class="success-label">You're in!</span>
+            <span class="success-sub">We'll notify you at launch.</span>
+          </p>
+        </div>
+      </form>
+    </div>
+  </section>
+</PageLayout>
+
+<script>
+  const waitlistForm = document.getElementById('waitlist-form');
+  const waitlistContentLayer = document.getElementById('waitlist-content-layer');
+  const waitlistLoading = document.getElementById('waitlist-loading');
+  const waitlistSuccess = document.getElementById('waitlist-success');
+
+  if (waitlistForm && waitlistContentLayer && waitlistLoading && waitlistSuccess) {
+    waitlistForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const height = waitlistForm.offsetHeight;
+      waitlistForm.style.minHeight = `${height}px`;
+
+      waitlistContentLayer.classList.add('is-hidden');
+      waitlistLoading.classList.add('is-visible');
+
+      setTimeout(() => {
+        waitlistLoading.classList.remove('is-visible');
+        waitlistLoading.classList.add('is-hidden');
+        waitlistSuccess.classList.add('is-visible');
+      }, 1500);
+    });
+  }
+</script>
+
+<style>
+  /* ---- 1. Tool hero ---- */
+  .tool-hero {
+    padding: 104px 20px 60px;
+    margin-right: 275px;
+  }
+
+  .hero-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .back-link {
+    display: inline-block;
+    color: var(--dark);
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    margin-bottom: 24px;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 200ms;
+  }
+
+  .back-link:hover { opacity: 1; }
+
+  .back-link:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 2px;
+  }
+
+  .tool-hero h1 {
+    font-family: var(--font-label);
+    font-size: var(--bebas-display-size);
+    color: var(--dark);
+    letter-spacing: var(--bebas-display-tracking);
+    text-transform: uppercase;
+    margin: 0 0 12px;
+    line-height: 1.1;
+  }
+
+  .hero-intro {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 1.05rem;
+    color: rgba(46, 42, 38, 0.8);
+    max-width: 500px;
+    margin: 0 0 40px;
+    line-height: 1.5;
+  }
+
+  /* ---- 2. SEO content ---- */
+  .seo-content {
+    padding: 64px 20px;
+  }
+
+  .content-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .seo-content h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1rem;
+    margin-top: 48px;
+  }
+
+  .seo-content h2:first-child {
+    margin-top: 0;
+  }
+
+  .seo-content p {
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+
+  .seo-content p strong {
+    font-weight: 600;
+  }
+
+  /* ---- 3. FAQ ---- */
+  .tool-faq {
+    padding: 48px 20px 64px;
+  }
+
+  .faq-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .tool-faq h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .faq details {
+    border-bottom: 1px solid var(--cream-muted);
+  }
+
+  .faq summary {
+    padding: 1.2rem 0;
+    cursor: pointer;
+    color: var(--dark);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 1.05rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 200ms ease;
+  }
+
+  .faq summary::-webkit-details-marker { display: none; }
+
+  .faq summary:hover {
+    color: var(--accent);
+  }
+
+  .faq summary :global(.faq-icon) {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-left: 1rem;
+    transition: transform 300ms ease;
+    border-radius: 50%;
+  }
+
+  .faq details[open] summary :global(.faq-icon) {
+    transform: rotate(45deg);
+  }
+
+  .faq details p {
+    padding-bottom: 1.2rem;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--text-on-light-muted);
+    line-height: 1.7;
+  }
+
+  /* ---- 4. Waitlist CTA ---- */
+  .waitlist-cta {
+    padding: 48px 20px 80px;
+    text-align: center;
+  }
+
+  .waitlist-inner {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .waitlist-cta h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 12px;
+  }
+
+  .waitlist-desc {
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+
+  .waitlist-form {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-content-layer,
+  .waitlist-loading-state,
+  .waitlist-success {
+    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .waitlist-content-layer {
+    width: 100%;
+  }
+
+  .waitlist-content-layer.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.96);
+    position: absolute;
+  }
+
+  .waitlist-row {
+    display: flex;
+    gap: 0;
+    width: 100%;
+  }
+
+  .waitlist-input {
+    flex: 1;
+    padding: 14px 18px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    background: white;
+    border: 2px solid var(--cream-muted);
+    border-right: none;
+    color: var(--dark);
+    outline: none;
+    border-radius: 0;
+  }
+
+  .waitlist-input::placeholder {
+    color: var(--text-on-light-muted);
+  }
+
+  .waitlist-input:focus {
+    border-color: var(--accent);
+    box-shadow: none;
+  }
+
+  .waitlist-btn {
+    padding: 14px 28px;
+    font-family: var(--font-label);
+    font-size: var(--bebas-ui-size);
+    letter-spacing: var(--bebas-ui-tracking);
+    text-transform: uppercase;
+    background: var(--accent);
+    color: var(--cream);
+    border: 2px solid var(--accent);
+    cursor: pointer;
+    transition: background 200ms;
+    white-space: nowrap;
+  }
+
+  .waitlist-btn:hover {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+  }
+
+  .waitlist-btn:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 2px;
+  }
+
+  .waitlist-loading-state {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.92);
+  }
+
+  .waitlist-loading-state.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+  }
+
+  .waitlist-loading-state.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(1.08);
+  }
+
+  .big-spinner {
+    width: 112px;
+    height: 112px;
+    animation: spin 1.2s linear infinite;
+    border-radius: 50%;
+  }
+
+  .waitlist-success {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.92);
+  }
+
+  .waitlist-success.is-visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .success-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+  }
+
+  .success-label {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 800;
+    color: var(--dark);
+    line-height: 1.1;
+  }
+
+  .success-sub {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--text-on-light-muted);
+    line-height: 1.5;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* ---- Desktop ---- */
+  @media (min-width: 769px) {
+    .tool-hero {
+      padding: 104px 48px 60px;
+    }
+
+    .hero-inner,
+    .content-inner,
+    .faq-inner,
+    .waitlist-inner {
+      padding-right: var(--safe-pr-desktop);
+    }
+
+    .seo-content {
+      padding: 64px 48px;
+    }
+
+    .tool-faq {
+      padding: 48px 48px 64px;
+    }
+
+    .waitlist-cta {
+      padding: 48px 48px 80px;
+    }
+  }
+
+  /* ---- Mobile ---- */
+  @media (max-width: 768px) {
+    .tool-hero {
+      margin-right: 135px;
+    }
+
+    .waitlist-row {
+      flex-direction: column;
+    }
+
+    .waitlist-input {
+      border-right: 2px solid var(--cream-muted);
+      border-bottom: none;
+    }
+
+    .waitlist-input:focus {
+      border-color: var(--accent);
+    }
+
+    .waitlist-btn {
+      width: 100%;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .back-link {
+      transition: none;
+    }
+  }
+</style>

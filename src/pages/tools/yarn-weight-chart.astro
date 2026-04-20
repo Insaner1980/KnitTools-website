@@ -1,0 +1,1273 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { Image } from 'astro:assets';
+import faqButton from '../../assets/images/faq-button.webp';
+
+interface YarnWeightCategory {
+  cyc: number;
+  name: string;
+  regional: string;
+  regionalFull: string;
+  gauge: string;
+  needles: string;
+  wpi: string;
+  uses: string;
+  wpiMin: number;
+  wpiMax: number;
+}
+
+const categories: YarnWeightCategory[] = [
+  {
+    cyc: 0,
+    name: 'Lace',
+    regional: 'Cobweb / Light fingering / 2-ply',
+    regionalFull: 'Lace, Cobweb, Light fingering, 2-ply (UK)',
+    gauge: '33–40+ sts per 4 in / 10 cm',
+    needles: 'US 000–1 (1.5–2.25 mm)',
+    wpi: '30–40+',
+    uses: 'Lace shawls, doilies, delicate openwork',
+    wpiMin: 30,
+    wpiMax: 40,
+  },
+  {
+    cyc: 1,
+    name: 'Super Fine',
+    regional: 'Sock / Fingering / Baby / 4-ply',
+    regionalFull: 'Sock, Fingering, Baby, 4-ply (UK/AUS)',
+    gauge: '27–32 sts per 4 in / 10 cm',
+    needles: 'US 1–3 (2.25–3.25 mm)',
+    wpi: '14–30',
+    uses: 'Socks, baby items, fine shawls, lightweight garments',
+    wpiMin: 14,
+    wpiMax: 30,
+  },
+  {
+    cyc: 2,
+    name: 'Fine',
+    regional: 'Sport / Baby / 5-ply',
+    regionalFull: 'Sport, Baby, 5-ply (UK/AUS)',
+    gauge: '23–26 sts per 4 in / 10 cm',
+    needles: 'US 3–5 (3.25–3.75 mm)',
+    wpi: '12–18',
+    uses: 'Light garments, baby clothes, accessories',
+    wpiMin: 12,
+    wpiMax: 18,
+  },
+  {
+    cyc: 3,
+    name: 'Light',
+    regional: 'DK / Light Worsted / 8-ply',
+    regionalFull: 'DK (Double Knitting), Light Worsted, 8-ply (UK/AUS)',
+    gauge: '21–24 sts per 4 in / 10 cm',
+    needles: 'US 5–7 (3.75–4.5 mm)',
+    wpi: '11–15',
+    uses: 'Sweaters, hats, scarves, baby blankets, year-round garments',
+    wpiMin: 11,
+    wpiMax: 15,
+  },
+  {
+    cyc: 4,
+    name: 'Medium',
+    regional: 'Worsted / Aran / Afghan / 10-ply',
+    regionalFull: 'Worsted, Aran, Afghan, 10-ply (AUS)',
+    gauge: '16–20 sts per 4 in / 10 cm',
+    needles: 'US 7–9 (4.5–5.5 mm)',
+    wpi: '9–12',
+    uses: 'Sweaters, hats, mittens, blankets, most everyday knits',
+    wpiMin: 9,
+    wpiMax: 12,
+  },
+  {
+    cyc: 5,
+    name: 'Bulky',
+    regional: 'Chunky / Craft / Rug / 12-ply',
+    regionalFull: 'Chunky, Craft, Rug, 12-ply (AUS)',
+    gauge: '12–15 sts per 4 in / 10 cm',
+    needles: 'US 9–11 (5.5–8 mm)',
+    wpi: '6–9',
+    uses: 'Thick sweaters, scarves, blankets, quick projects',
+    wpiMin: 6,
+    wpiMax: 9,
+  },
+  {
+    cyc: 6,
+    name: 'Super Bulky',
+    regional: 'Super Chunky / Bulky / Roving',
+    regionalFull: 'Super Chunky, Bulky, Roving',
+    gauge: '7–11 sts per 4 in / 10 cm',
+    needles: 'US 11–17 (8–12.75 mm)',
+    wpi: '5–6',
+    uses: 'Heavy blankets, cowls, quick accessories',
+    wpiMin: 5,
+    wpiMax: 6,
+  },
+  {
+    cyc: 7,
+    name: 'Jumbo',
+    regional: 'Jumbo / Roving',
+    regionalFull: 'Jumbo, Roving',
+    gauge: '0–6 sts per 4 in / 10 cm',
+    needles: 'US 17+ (12.75+ mm)',
+    wpi: '1–4',
+    uses: 'Arm knitting, dramatic texture, oversized blankets',
+    wpiMin: 1,
+    wpiMax: 4,
+  },
+];
+
+const faqs = [
+  {
+    q: "What's the most common yarn weight?",
+    a: "Worsted is still the default in many North American patterns. DK shows up constantly in UK and European knitting. Between those two categories, you can cover the vast majority of garment, accessory, and home decor projects. If you're building a stash around versatility, they're the place to start.",
+  },
+  {
+    q: 'Can you substitute one yarn weight for another?',
+    a: "Yes, but it changes more than size. Fabric drape, yardage requirements, and needle size all shift. Some swaps are forgiving (DK for a light worsted, for example). Others turn into a fundamentally different project. Always swatch before committing, and recalculate yardage using the original pattern's total stitch count as your reference.",
+  },
+  {
+    q: 'What does "held double" mean?',
+    a: "It means knitting two strands together as if they were one thicker yarn. Holding two fingering-weight strands together roughly approximates DK-weight fabric, though fiber content, twist, and loft all push the result lighter or heavier. It's useful when you can't find the right weight in the color or fiber you want. Swatch it, because the results aren't perfectly predictable.",
+  },
+  {
+    q: 'Why does my yarn look thinner or thicker than its label says?',
+    a: "Because yarn weight categories are ranges, not fixed points. One DK yarn sits near the lighter edge of its category, another near the heavier edge. Fiber content changes the visual impression too. Cotton tends to look flatter and thinner than wool at the same WPI, while alpaca can bloom and look thicker after washing. The category on the label is a ballpark, and gauge confirms where your specific yarn actually lands.",
+  },
+];
+---
+
+<PageLayout
+  title="Yarn Weight Chart: All 8 Categories with Gauge, Needle Size & WPI"
+  description="Complete yarn weight chart from lace to jumbo. Find gauge ranges, recommended needles, WPI values, and typical projects for each yarn weight category."
+  canonicalPath="/tools/yarn-weight-chart"
+  showStripe={true}
+>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Yarn Weight Chart",
+    "description": "Complete yarn weight reference chart with gauge ranges, recommended needles, WPI values, and project types for all 8 CYC categories.",
+    "url": "https://knittoolsapp.com/tools/yarn-weight-chart",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  })} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a },
+    })),
+  })} />
+
+  <!-- 1. Tool hero -->
+  <section class="tool-hero">
+    <div class="hero-inner">
+      <a href="/tools/" class="back-link reveal reveal-left">&larr; All tools</a>
+      <h1 class="gs-h1" aria-label="Yarn Weight Chart"><span class="h1-chars">Yarn Weight Chart</span></h1>
+      <p class="hero-intro gs-hero">Eight categories, every gauge range, needle size, and WPI value. Tap any category to expand.</p>
+
+      <div class="cat-list gs-form">
+        {categories.map(cat => (
+          <details class="cat-card">
+            <summary class="cat-summary">
+              <span class="cat-heading">
+                <span class="cat-num">{cat.cyc}</span>
+                <span class="cat-name">&mdash; {cat.name}</span>
+              </span>
+              <span class="cat-regional">{cat.regional}</span>
+              <span class="cat-toggle" aria-hidden="true">+</span>
+            </summary>
+            <div class="cat-body">
+              <dl class="cat-details">
+                <div class="cat-row">
+                  <dt>Gauge range</dt>
+                  <dd>{cat.gauge}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>Recommended needles</dt>
+                  <dd>{cat.needles}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>WPI range</dt>
+                  <dd>{cat.wpi}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>Common uses</dt>
+                  <dd>{cat.uses}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>Regional names</dt>
+                  <dd>{cat.regionalFull}</dd>
+                </div>
+              </dl>
+            </div>
+          </details>
+        ))}
+      </div>
+
+      <!-- WPI identifier -->
+      <div class="wpi-tool gs-form">
+        <h2 class="wpi-heading">Don't know your weight? Try WPI</h2>
+        <p class="wpi-intro">Wrap your yarn around a pencil or ruler, count how many wraps fit in one inch, then enter that number.</p>
+        <div class="wpi-input-wrap">
+          <input
+            type="number"
+            id="wpi-input"
+            class="wpi-input"
+            placeholder="e.g. 10"
+            min="1"
+            max="40"
+            step="1"
+            inputmode="numeric"
+            autocomplete="off"
+          />
+        </div>
+        <p class="wpi-result" id="wpi-result" aria-live="polite">Enter a WPI value between 1 and 40</p>
+        <noscript>
+          <p class="wpi-fallback">JavaScript is disabled. Scroll up and pick the category whose WPI range contains your count.</p>
+        </noscript>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SEO content -->
+  <section class="seo-content">
+    <div class="content-inner">
+      <h2 class="gs-clip-reveal">The name confusion problem</h2>
+      <p class="gs-fade-up">This is where yarn weight gets genuinely messy, and where most substitution mistakes start.</p>
+
+      <h3 class="gs-fade-up">Ply doesn't mean what you think it means</h3>
+      <p class="gs-fade-up">"4-ply" in UK and Australian pattern language usually means fingering weight. But ply actually describes construction, not thickness. A yarn made from four thin plies can absolutely be thinner than a yarn made from two fat ones. Singles (single-ply) yarns can be bulky. A tightly twisted 6-ply can land in sport weight.</p>
+      <p class="gs-fade-up">The term stuck because, decades ago, standard spinning conventions meant a 4-ply yarn reliably came out to a certain thickness. That connection broke down as spinning methods diversified, but the naming convention didn't update. So when a vintage UK pattern calls for "3-ply," it means a specific weight range (close to lace or light fingering), not a yarn literally constructed from three strands.</p>
+      <p class="gs-fade-up">That trips up more people than you'd expect.</p>
+
+      <h3 class="gs-fade-up">Worsted vs. aran: close but not the same</h3>
+      <p class="gs-fade-up">Both sit in CYC category 4 (Medium), but aran tends to run slightly heavier within that range. A pattern written for aran-weight yarn at a specific gauge might knit up too loose if you grab a worsted that sits at the lighter edge of the category. The reverse is also true.</p>
+      <p class="gs-fade-up">Some yarn companies use "worsted" and "aran" interchangeably on labels. Others draw a firm line. The gauge swatch on the ball band is more reliable than the name.</p>
+
+      <h3 class="gs-fade-up">DK, Light Worsted, 8-ply</h3>
+      <p class="gs-fade-up">DK (double knitting) is standard terminology in the UK. American patterns sometimes call the same thickness "Light Worsted." Australian and New Zealand patterns often say "8-ply." All three land in CYC category 3 (Light), but a yarn at the heavier end of DK can overlap with the lighter end of worsted. Category boundaries aren't walls.</p>
+
+      <h3 class="gs-fade-up">When regional names collide</h3>
+      <p class="gs-fade-up">"Sport weight" in North America and "5-ply" in Australian terminology overlap, but they don't map perfectly. "Chunky" in UK patterns usually means CYC category 5 (Bulky), while "chunky" in casual American usage can mean anything from bulky to super bulky.</p>
+      <p class="gs-fade-up">The safest approach when crossing regional pattern languages: ignore the name entirely and match the gauge. If the pattern says 20 stitches per 4 inches on 4mm needles, that's what you need to hit, regardless of what the label calls the yarn.</p>
+
+      <h2 class="gs-clip-reveal">How yarn weight categories work</h2>
+      <p class="gs-fade-up">"Weight" here doesn't mean how heavy the ball feels in your hand. It refers to the thickness of the strand. Thinner yarn produces more stitches per inch. Thicker yarn, fewer.</p>
+      <p class="gs-fade-up">The Craft Yarn Council system assigns each thickness range a number and a name:</p>
+      <ul class="gs-fade-up bullet-list">
+        <li><strong>0 – Lace.</strong> Very fine yarn for lace shawls and openwork fabric.</li>
+        <li><strong>1 – Super Fine.</strong> Fingering and sock-weight territory.</li>
+        <li><strong>2 – Fine.</strong> Sport weight.</li>
+        <li><strong>3 – Light.</strong> DK and similar in-between garment yarns.</li>
+        <li><strong>4 – Medium.</strong> Worsted and aran. The range most knitters spend the most time in.</li>
+        <li><strong>5 – Bulky.</strong> Chunkier yarns that build fabric fast.</li>
+        <li><strong>6 – Super Bulky.</strong> Quick accessories, dramatic texture.</li>
+        <li><strong>7 – Jumbo.</strong> The thickest end of the published chart.</li>
+      </ul>
+      <p class="gs-fade-up">The CYC standard currently runs 0 through 7, though the organization has signaled that additional sizing work is ongoing.</p>
+
+      <h2 class="gs-clip-reveal">How to identify yarn weight without a label</h2>
+      <p class="gs-fade-up">Unlabeled yarn turns up constantly. Someone hands over a bag of stash yarn, the ball band vanished months ago, or the yarn came off a cone with no retail label.</p>
+      <p class="gs-fade-up">The fastest first check is wraps per inch (WPI).</p>
+
+      <h3 class="gs-fade-up">Measuring WPI</h3>
+      <p class="gs-fade-up">Wrap the yarn around a pencil, ruler, or WPI tool. Keep wraps snug and side by side, not stretched or overlapping. Count how many fit in one inch. The CYC guide uses these broad ranges:</p>
+      <ul class="gs-fade-up bullet-list">
+        <li>30 to 40+ WPI → Lace (0)</li>
+        <li>14 to 30 WPI → Super Fine (1)</li>
+        <li>12 to 18 WPI → Fine (2)</li>
+        <li>11 to 15 WPI → Light (3)</li>
+        <li>9 to 12 WPI → Medium (4)</li>
+        <li>6 to 9 WPI → Bulky (5)</li>
+        <li>5 to 6 WPI → Super Bulky (6)</li>
+        <li>1 to 4 WPI → Jumbo (7)</li>
+      </ul>
+      <p class="gs-fade-up">Notice the overlapping ranges. A yarn that wraps at 12 WPI could be Fine, Light, or Medium depending on other factors. That's normal.</p>
+
+      <h3 class="gs-fade-up">When WPI gets tricky</h3>
+      <p class="gs-fade-up">Fuzzy yarns like mohair are awkward to wrap cleanly. Lofty, airy singles can read lighter than they actually knit. Handspun shifts thickness along its length, so measure several spots and average them. Chenille and textured novelty yarns? Good luck getting a clean wrap at all.</p>
+      <p class="gs-fade-up">WPI gets you in the neighborhood. A gauge swatch gets you the answer that actually matters. The <a href="/articles/identify-mystery-yarn">mystery yarn guide</a> covers the full identification process when a label is missing entirely.</p>
+
+      <h2 class="gs-clip-reveal">Choosing yarn weight for your project</h2>
+      <p class="gs-fade-up">Pattern designers pick a weight for the fabric they want, not just for speed. Changing the weight changes drape, density, warmth, and often the entire scale of the finished piece.</p>
+      <p class="gs-fade-up">Lighter weights (0-2) give more drape and sharper stitch definition. Good for socks, shawls, and colorwork that needs crisp detail. Middle weights (3-4), especially DK and worsted, cover enormous ground: sweaters, hats, blankets, baby knits, textured accessories. Heavier weights (5-7) prioritize speed and warmth but create thicker seams and a heavier finished object. Worth noticing before you substitute.</p>
+      <p class="gs-fade-up">If you're substituting outside the original weight category, expect to recalculate. The <a href="/articles/how-to-substitute-yarn">yarn substitution guide</a> covers the process. KnitTools' <a href="/tools/cast-on-calculator">Cast On Calculator</a> helps with stitch counts, and the <a href="/tools/yarn-estimator">Yarn Estimator</a> can sanity-check yardage before you buy.</p>
+
+      <h2 class="gs-clip-reveal">Yarn weight and needle size relationship</h2>
+      <p class="gs-fade-up">Recommended needle sizes are starting points. Not promises. The same DK yarn can make a firm hat fabric on one needle and a loose cardigan fabric on another.</p>
+      <p class="gs-fade-up">This is where gauge takes over. The label can point you in a direction, but your yarn, your tension, and your project decide the final needle size.</p>
+      <p class="gs-fade-up">If you need size systems translated before you can swatch, the <a href="/tools/needle-size-chart">needle size conversion chart</a> is the companion page to keep open.</p>
+    </div>
+  </section>
+
+  <!-- 3. FAQ -->
+  <section class="tool-faq">
+    <div class="faq-inner">
+      <h2 class="gs-clip-reveal">Frequently asked questions</h2>
+      <div class="faq">
+        {faqs.map(f => (
+          <details class="gs-faq-item">
+            <summary>{f.q} <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Waitlist CTA -->
+  <section class="waitlist-cta">
+    <div class="waitlist-inner">
+      <form class="waitlist-form" action="#" method="post" id="waitlist-form">
+        <div class="waitlist-content-layer" id="waitlist-content-layer">
+          <h2 class="gs-clip-reveal">There's more in the app</h2>
+          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators, in one app. Join the waitlist to get notified at launch.</p>
+          <div class="waitlist-row gs-fade-up" id="waitlist-row">
+            <input type="email" placeholder="your@email.com" required class="waitlist-input" />
+            <button type="submit" class="waitlist-btn" id="waitlist-btn">Join Waitlist</button>
+          </div>
+        </div>
+
+        <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
+          <Image src={faqButton} alt="Loading..." width={112} height={112} class="big-spinner" />
+        </div>
+
+        <div class="waitlist-success" id="waitlist-success" aria-hidden="true">
+          <p class="success-text">
+            <span class="success-label">You're in!</span>
+            <span class="success-sub">We'll notify you at launch.</span>
+          </p>
+        </div>
+      </form>
+    </div>
+  </section>
+</PageLayout>
+
+<script>
+  import { gsap } from 'gsap';
+  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // --- WPI identifier ---
+  interface WpiCategory {
+    cyc: number;
+    name: string;
+    regional: string;
+    min: number;
+    max: number;
+  }
+
+  const wpiCategories: WpiCategory[] = [
+    { cyc: 0, name: 'Lace', regional: 'Cobweb/Lace', min: 30, max: 40 },
+    { cyc: 1, name: 'Super Fine', regional: 'Sock/Fingering', min: 14, max: 30 },
+    { cyc: 2, name: 'Fine', regional: 'Sport', min: 12, max: 18 },
+    { cyc: 3, name: 'Light', regional: 'DK/8-ply', min: 11, max: 15 },
+    { cyc: 4, name: 'Medium', regional: 'Worsted/Aran', min: 9, max: 12 },
+    { cyc: 5, name: 'Bulky', regional: 'Chunky', min: 6, max: 9 },
+    { cyc: 6, name: 'Super Bulky', regional: 'Super Chunky', min: 5, max: 6 },
+    { cyc: 7, name: 'Jumbo', regional: 'Jumbo', min: 1, max: 4 },
+  ];
+
+  const wpiInput = document.getElementById('wpi-input') as HTMLInputElement | null;
+  const wpiResult = document.getElementById('wpi-result');
+
+  function formatMatches(matches: WpiCategory[]): string {
+    if (matches.length === 1) {
+      const m = matches[0];
+      return `suggests ${m.name} (CYC ${m.cyc}), ${m.regional} weight`;
+    }
+    const parts = matches.map(m => `${m.name} (CYC ${m.cyc})`);
+    const list =
+      parts.length === 2
+        ? parts.join(' or ')
+        : parts.slice(0, -1).join(', ') + ', or ' + parts[parts.length - 1];
+    return `matches ${list}. Your gauge swatch decides.`;
+  }
+
+  if (wpiInput && wpiResult) {
+    wpiInput.addEventListener('input', () => {
+      const raw = wpiInput.value.trim();
+      if (raw === '') {
+        wpiResult.textContent = 'Enter a WPI value between 1 and 40';
+        return;
+      }
+      const n = Number(raw);
+      if (!Number.isFinite(n) || n < 1 || n > 40) {
+        wpiResult.textContent = 'Enter a WPI value between 1 and 40';
+        return;
+      }
+      const matches = wpiCategories.filter(c => n >= c.min && n <= c.max);
+      if (matches.length === 0) {
+        wpiResult.textContent = `${n} WPI sits between standard categories. Swatch to confirm.`;
+        return;
+      }
+      wpiResult.textContent = `${n} WPI ${formatMatches(matches)}`;
+    });
+  }
+
+  // --- Category card animated expand/collapse ---
+  if (!prefersReducedMotion) {
+    document.querySelectorAll<HTMLDetailsElement>('.cat-card').forEach(details => {
+      const summary = details.querySelector('summary');
+      const body = details.querySelector<HTMLElement>('.cat-body');
+      if (!summary || !body) return;
+
+      summary.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (details.hasAttribute('open')) {
+          gsap.to(body, {
+            height: 0,
+            opacity: 0,
+            duration: 0.25,
+            ease: 'power2.inOut',
+            onComplete: () => {
+              details.removeAttribute('open');
+              gsap.set(body, { height: 'auto', opacity: 1 });
+            },
+          });
+        } else {
+          details.setAttribute('open', '');
+          const h = body.scrollHeight;
+          gsap.set(body, { height: 0, opacity: 0 });
+          gsap.to(body, {
+            height: h,
+            opacity: 1,
+            duration: 0.25,
+            ease: 'power2.out',
+            onComplete: () => {
+              gsap.set(body, { height: 'auto' });
+            },
+          });
+        }
+      });
+    });
+  }
+
+  if (!prefersReducedMotion) {
+    // --- Hero entrance timeline ---
+    const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+
+    heroTl.from('.gs-hero', {
+      opacity: 0,
+      y: 12,
+      duration: 0.5,
+      stagger: 0.15,
+    }, 0.2);
+
+    const h1El = document.querySelector('.h1-chars');
+    if (h1El) {
+      const text = h1El.textContent || '';
+      h1El.textContent = '';
+      const chars: HTMLSpanElement[] = [];
+      for (const c of text) {
+        if (c === ' ') {
+          h1El.appendChild(document.createTextNode(' '));
+        } else {
+          const span = document.createElement('span');
+          span.className = 'h1-char';
+          span.textContent = c;
+          h1El.appendChild(span);
+          chars.push(span);
+        }
+      }
+
+      heroTl.from(chars, {
+        opacity: 0,
+        x: -20,
+        duration: 0.4,
+        stagger: 0.03,
+        ease: 'power2.out',
+      }, 0.1);
+    }
+
+    heroTl.from('.gs-form', {
+      opacity: 0,
+      y: 16,
+      duration: 0.5,
+      stagger: 0.1,
+    }, 0.6);
+
+    // --- Scroll-triggered: clip-reveal H2s ---
+    document.querySelectorAll('.gs-clip-reveal').forEach(el => {
+      gsap.set(el, { clipPath: 'inset(0 100% 0 0)' });
+      gsap.to(el, {
+        clipPath: 'inset(0 0% 0 0)',
+        duration: 0.8,
+        ease: 'power3.inOut',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 85%',
+          once: true,
+        },
+      });
+    });
+
+    document.querySelectorAll('.gs-fade-up').forEach(el => {
+      gsap.from(el, {
+        opacity: 0,
+        y: 24,
+        duration: 0.6,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 88%',
+          once: true,
+        },
+      });
+    });
+
+    const faqItems = document.querySelectorAll('.gs-faq-item');
+    if (faqItems.length) {
+      gsap.from(faqItems, {
+        opacity: 0,
+        y: 16,
+        duration: 0.4,
+        stagger: 0.08,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: faqItems[0],
+          start: 'top 85%',
+          once: true,
+        },
+      });
+    }
+
+    document.querySelectorAll('.gs-faq-item').forEach(details => {
+      const summary = details.querySelector('summary');
+      const content = details.querySelector('p');
+      if (!summary || !content) return;
+
+      summary.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (details.hasAttribute('open')) {
+          gsap.to(content, {
+            height: 0,
+            opacity: 0,
+            duration: 0.3,
+            ease: 'power2.inOut',
+            onComplete: () => {
+              details.removeAttribute('open');
+              gsap.set(content, { height: 'auto', opacity: 1 });
+            },
+          });
+        } else {
+          details.setAttribute('open', '');
+          const h = content.scrollHeight;
+          gsap.set(content, { height: 0, opacity: 0 });
+          gsap.to(content, {
+            height: h,
+            opacity: 1,
+            duration: 0.3,
+            ease: 'power2.out',
+          });
+        }
+      });
+    });
+
+    // --- Waitlist Form Morph Animation ---
+    const waitlistForm = document.getElementById('waitlist-form');
+    const waitlistContentLayer = document.getElementById('waitlist-content-layer');
+    const waitlistLoading = document.getElementById('waitlist-loading');
+    const waitlistSuccess = document.getElementById('waitlist-success');
+
+    if (waitlistForm && waitlistContentLayer && waitlistLoading && waitlistSuccess) {
+      waitlistForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const height = waitlistForm.offsetHeight;
+        waitlistForm.style.minHeight = `${height}px`;
+
+        waitlistContentLayer.classList.add('is-hidden');
+        waitlistLoading.classList.add('is-visible');
+
+        setTimeout(() => {
+          waitlistLoading.classList.remove('is-visible');
+          waitlistLoading.classList.add('is-hidden');
+          waitlistSuccess.classList.add('is-visible');
+        }, 1500);
+      });
+    }
+  }
+</script>
+
+<style>
+  /* ---- 1. Tool hero ---- */
+  .tool-hero {
+    padding: 104px 20px 60px;
+    margin-right: 275px;
+  }
+
+  .hero-inner {
+    max-width: 780px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .back-link {
+    display: inline-block;
+    color: var(--dark);
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    margin-bottom: 24px;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 200ms;
+  }
+
+  .back-link:hover { opacity: 1; }
+
+  .back-link:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 2px;
+  }
+
+  .tool-hero h1 {
+    font-family: var(--font-label);
+    font-size: var(--bebas-display-size);
+    color: var(--dark);
+    letter-spacing: var(--bebas-display-tracking);
+    text-transform: uppercase;
+    margin: 0 0 12px;
+    line-height: 1.1;
+  }
+
+  .tool-hero h1 :global(.h1-char) {
+    display: inline-block;
+  }
+
+  .hero-intro {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 1.05rem;
+    color: rgba(46, 42, 38, 0.8);
+    max-width: 560px;
+    margin: 0 0 40px;
+    line-height: 1.5;
+  }
+
+  /* ---- Category cards ---- */
+  .cat-list {
+    border-top: 2px solid var(--dark);
+    margin-bottom: 48px;
+  }
+
+  .cat-card {
+    border-bottom: 1px solid var(--cream-muted);
+  }
+
+  .cat-summary {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 4px;
+    cursor: pointer;
+    list-style: none;
+    color: var(--dark);
+    transition: color 200ms ease, background-color 200ms ease;
+  }
+
+  .cat-summary::-webkit-details-marker { display: none; }
+
+  .cat-summary:hover {
+    background-color: rgba(46, 42, 38, 0.04);
+  }
+
+  .cat-heading {
+    flex: 0 0 auto;
+    font-family: var(--font-label);
+    font-size: var(--ts-card-heading-size);
+    letter-spacing: var(--ts-card-heading-tracking);
+    text-transform: uppercase;
+    color: var(--dark);
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+  }
+
+  .cat-num {
+    font-weight: 400;
+    color: var(--accent);
+    font-size: var(--ts-card-heading-size);
+  }
+
+  .cat-regional {
+    flex: 1 1 auto;
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 0.95rem;
+    color: var(--dark);
+    opacity: 0.8;
+    text-align: right;
+  }
+
+  .cat-toggle {
+    flex: 0 0 auto;
+    font-family: var(--font-body);
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--dark);
+    width: 24px;
+    text-align: center;
+    transition: transform 200ms ease;
+  }
+
+  .cat-card[open] .cat-toggle {
+    transform: rotate(45deg);
+  }
+
+  .cat-body {
+    overflow: hidden;
+    padding: 0 4px 20px;
+  }
+
+  .cat-details {
+    margin: 0;
+    padding: 4px 0 0;
+    display: grid;
+    gap: 10px;
+  }
+
+  .cat-row {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 20px;
+    padding: 6px 0;
+    border-top: 1px dashed var(--cream-muted);
+  }
+
+  .cat-row:first-child {
+    border-top: none;
+  }
+
+  .cat-row dt {
+    font-family: var(--font-label);
+    font-size: var(--bebas-ui-size);
+    letter-spacing: var(--bebas-ui-tracking);
+    text-transform: uppercase;
+    color: var(--dark);
+    opacity: 0.7;
+    margin: 0;
+  }
+
+  .cat-row dd {
+    font-family: var(--font-body);
+    font-size: 0.98rem;
+    color: var(--dark);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  /* ---- WPI tool ---- */
+  .wpi-tool {
+    margin-top: 8px;
+    padding-top: 32px;
+    border-top: 1px solid var(--cream-muted);
+  }
+
+  .wpi-heading {
+    font-family: var(--font-display);
+    font-weight: var(--ts-h3-weight);
+    font-size: var(--ts-h3-size);
+    color: var(--dark);
+    margin: 0 0 8px;
+  }
+
+  .wpi-intro {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 0.98rem;
+    color: var(--dark);
+    opacity: 0.85;
+    line-height: 1.5;
+    margin: 0 0 18px;
+    max-width: 560px;
+  }
+
+  .wpi-input-wrap {
+    max-width: 220px;
+  }
+
+  .wpi-input {
+    width: 100%;
+    height: 52px;
+    padding: 0 18px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    background-color: transparent;
+    border: 1px solid rgba(46, 42, 38, 0.3);
+    color: var(--dark);
+    outline: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    transition: border-color 300ms ease, background-color 300ms ease, box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  .wpi-input::placeholder {
+    color: var(--cream-muted);
+  }
+
+  .wpi-input:focus {
+    border-color: var(--accent);
+    background-color: var(--cream);
+    box-shadow: 0 4px 16px var(--accent-soft);
+  }
+
+  .wpi-input::-webkit-outer-spin-button,
+  .wpi-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .wpi-input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  .wpi-result {
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--dark);
+    margin: 16px 0 0;
+    line-height: 1.5;
+    min-height: 1.5em;
+  }
+
+  .wpi-fallback {
+    font-family: var(--font-body);
+    font-size: 0.92rem;
+    color: var(--accent);
+    margin: 12px 0 0;
+  }
+
+  /* ---- 2. SEO content ---- */
+  .seo-content {
+    padding: 64px 20px;
+  }
+
+  .content-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .seo-content h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1rem;
+    margin-top: 48px;
+  }
+
+  .seo-content h2:first-child {
+    margin-top: 0;
+  }
+
+  .seo-content h3 {
+    font-family: var(--font-display);
+    font-weight: var(--ts-h3-weight);
+    color: var(--dark);
+    font-size: var(--ts-h3-size);
+    margin: 28px 0 10px;
+    line-height: 1.3;
+  }
+
+  .seo-content p {
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+
+  .seo-content p + p {
+    margin-top: 1rem;
+  }
+
+  .seo-content p strong {
+    font-weight: 600;
+  }
+
+  .bullet-list {
+    margin: 12px 0 0;
+    padding-left: 1.2rem;
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .bullet-list li + li {
+    margin-top: 6px;
+  }
+
+  .bullet-list li strong {
+    font-weight: 600;
+  }
+
+  .seo-content a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .seo-content a:hover {
+    opacity: 0.8;
+  }
+
+  /* ---- 3. FAQ ---- */
+  .tool-faq {
+    padding: 48px 20px 64px;
+  }
+
+  .faq-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .tool-faq h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .faq details {
+    border-bottom: 1px solid var(--cream-muted);
+  }
+
+  .faq summary {
+    padding: 1.2rem 0;
+    cursor: pointer;
+    color: var(--dark);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 1.05rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 200ms ease;
+  }
+
+  .faq summary::-webkit-details-marker { display: none; }
+
+  .faq summary:hover {
+    color: var(--accent);
+  }
+
+  .faq summary :global(.faq-icon) {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-left: 1rem;
+    transition: transform 300ms ease;
+    border-radius: 50%;
+  }
+
+  .faq details[open] summary :global(.faq-icon) {
+    transform: rotate(45deg);
+  }
+
+  .faq details p {
+    padding-bottom: 1.2rem;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--text-on-light-muted);
+    line-height: 1.7;
+  }
+
+  /* ---- 4. Waitlist CTA ---- */
+  .waitlist-cta {
+    padding: 48px 20px 80px;
+    text-align: center;
+  }
+
+  .waitlist-inner {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .waitlist-cta h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 12px;
+  }
+
+  .waitlist-desc {
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+
+  .waitlist-form {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-content-layer,
+  .waitlist-loading-state,
+  .waitlist-success {
+    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .waitlist-content-layer {
+    width: 100%;
+  }
+
+  .waitlist-content-layer.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.96);
+    position: absolute;
+  }
+
+  .waitlist-row {
+    display: flex;
+    gap: 0;
+    width: 100%;
+  }
+
+  .waitlist-input {
+    flex: 1;
+    padding: 14px 18px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    background: white;
+    border: 2px solid var(--cream-muted);
+    border-right: none;
+    color: var(--dark);
+    outline: none;
+    border-radius: 0;
+  }
+
+  .waitlist-input::placeholder {
+    color: var(--text-on-light-muted);
+  }
+
+  .waitlist-input:focus {
+    border-color: var(--accent);
+    box-shadow: none;
+  }
+
+  .waitlist-btn {
+    padding: 14px 28px;
+    font-family: var(--font-label);
+    font-size: var(--bebas-ui-size);
+    letter-spacing: var(--bebas-ui-tracking);
+    text-transform: uppercase;
+    background: var(--accent);
+    color: var(--cream);
+    border: 2px solid var(--accent);
+    cursor: pointer;
+    transition: background 200ms;
+    white-space: nowrap;
+  }
+
+  .waitlist-btn:hover {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+  }
+
+  .waitlist-btn:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+
+  .waitlist-loading-state {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-loading-state.is-visible {
+    position: relative;
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+
+  .waitlist-loading-state.is-hidden {
+    position: absolute;
+    opacity: 0;
+    transform: scale(1.2);
+    pointer-events: none;
+  }
+
+  .big-spinner {
+    animation: waitlistSpin 1.2s cubic-bezier(0.6, 0.1, 0.4, 0.9) infinite;
+  }
+
+  @keyframes waitlistSpin {
+    100% { transform: rotate(360deg); }
+  }
+
+  .waitlist-success {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px) scale(0.98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-success.is-visible {
+    opacity: 1;
+    position: relative;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+    transition-delay: 100ms;
+  }
+
+  .success-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  .success-label {
+    font-family: var(--font-label);
+    font-size: var(--bebas-display-size);
+    color: var(--accent);
+    line-height: 1;
+    letter-spacing: var(--bebas-display-tracking);
+    text-transform: uppercase;
+  }
+
+  .success-sub {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    color: var(--dark);
+    font-weight: 500;
+    margin-top: 8px;
+    letter-spacing: -0.01em;
+  }
+
+  /* ---- Desktop ---- */
+  @media (min-width: 769px) {
+    .tool-hero {
+      padding: 104px 48px 60px;
+    }
+
+    .hero-inner,
+    .content-inner,
+    .faq-inner,
+    .waitlist-inner {
+      padding-right: var(--safe-pr-desktop);
+    }
+
+    .seo-content {
+      padding: 64px 48px;
+    }
+
+    .tool-faq {
+      padding: 48px 48px 64px;
+    }
+
+    .waitlist-cta {
+      padding: 48px 48px 80px;
+    }
+  }
+
+  /* ---- Mobile ---- */
+  @media (max-width: 768px) {
+    .tool-hero {
+      margin-right: 135px;
+    }
+
+    .cat-summary {
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      padding: 14px 4px;
+    }
+
+    .cat-regional {
+      text-align: left;
+      flex-basis: 100%;
+      order: 3;
+    }
+
+    .cat-toggle {
+      order: 2;
+      margin-left: auto;
+    }
+
+    .cat-row {
+      grid-template-columns: 1fr;
+      gap: 2px;
+    }
+
+    .cat-row dt {
+      font-size: 0.8rem;
+    }
+
+    .waitlist-row {
+      flex-direction: column;
+    }
+
+    .waitlist-input {
+      border-right: 2px solid var(--cream-muted);
+      border-bottom: none;
+    }
+
+    .waitlist-input:focus {
+      border-color: var(--accent);
+    }
+
+    .waitlist-btn {
+      border-top: 2px solid var(--accent);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .back-link,
+    .waitlist-btn,
+    .faq summary,
+    .faq summary :global(.faq-icon),
+    .cat-summary,
+    .cat-toggle,
+    .wpi-input {
+      transition: none;
+    }
+  }
+</style>

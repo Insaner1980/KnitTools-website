@@ -1,0 +1,672 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import CastOnCalculator from '../../components/CastOnCalculator.astro';
+import { Image } from 'astro:assets';
+import faqButton from '../../assets/images/faq-button.webp';
+---
+
+<PageLayout
+  title="Cast On Calculator: Free Knitting Stitch Calculator"
+  description="Calculate how many stitches to cast on for any width. Enter your gauge and desired width. Free, instant, no signup required."
+  canonicalPath="/tools/cast-on-calculator"
+  showStripe={true}
+>
+  <!-- 1. Tool hero (terracotta) -->
+  <section class="tool-hero">
+    <div class="hero-inner">
+      <a href="/tools/" class="back-link reveal reveal-left">&larr; All tools</a>
+      <h1 class="gs-h1" aria-label="Cast On Calculator"><span class="h1-chars">Cast On Calculator</span></h1>
+      <p class="hero-intro gs-hero">Calculate how many stitches to cast on for any width and gauge.</p>
+      <div class="calc-wrapper gs-form">
+        <CastOnCalculator />
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SEO content (cream) -->
+  <section class="seo-content">
+    <div class="content-inner">
+      <h2 class="gs-clip-reveal">What is cast on in knitting?</h2>
+      <p class="gs-fade-up">Casting on is the first step in any knitting project: it's how you create the initial row of stitches on your needle. The number of stitches you cast on determines the width of your finished piece. Too few and it's too narrow. Too many and you've wasted yarn and time. Getting this number right from the start saves frogging later.</p>
+
+      <h2 class="gs-clip-reveal">Why gauge matters</h2>
+      <p class="gs-fade-up">Every knitter knits differently. Even with the same yarn and needles, your tension produces a slightly different fabric than someone else's. That's why patterns list a recommended gauge, and why you need to knit a swatch to find yours. Measure how many stitches fit in 10 cm (or 4 inches), and you have the number this calculator needs.</p>
+
+      <h2 class="gs-clip-reveal">How to use this calculator</h2>
+      <p class="gs-fade-up">To calculate your cast on stitches, you need two things: your <strong>gauge</strong> (how many stitches you get in 10 cm or 4 inches of knitting) and the <strong>desired width</strong> of your piece. Knit a gauge swatch first, measure it, and enter those numbers. The calculator rounds to the nearest even number, which is a common knitting convention.</p>
+    </div>
+  </section>
+
+  <!-- 3. FAQ (cream) -->
+  <section class="tool-faq">
+    <div class="faq-inner">
+      <h2 class="gs-clip-reveal">Frequently asked questions</h2>
+      <div class="faq">
+        <details class="gs-faq-item">
+          <summary>Do I really need to knit a gauge swatch? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>Yes. Skipping the swatch is the most common reason knitted pieces come out the wrong size. It takes 20 minutes and saves hours of rework.</p>
+        </details>
+        <details class="gs-faq-item">
+          <summary>Should I count edge stitches in my gauge? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>No. Measure from the center of your swatch, avoiding the first and last two stitches. Edge stitches are often tighter or looser than the rest.</p>
+        </details>
+        <details class="gs-faq-item">
+          <summary>Why does the calculator round to an even number? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>Many stitch patterns (ribbing, cables, colorwork) require an even number of stitches to work correctly. Rounding to the nearest even number gives you a clean repeat.</p>
+        </details>
+        <details class="gs-faq-item">
+          <summary>What if my pattern requires a specific stitch multiple? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>Add or subtract a few stitches to reach the nearest multiple your pattern needs. For example, if your pattern repeats over 4 stitches and the calculator says 46, adjust to 44 or 48.</p>
+        </details>
+        <details class="gs-faq-item">
+          <summary>Can I use this for circular knitting? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>Yes. Enter the full circumference as your desired width. The calculator works the same way for flat and circular knitting.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Waitlist CTA (cream) -->
+  <section class="waitlist-cta">
+    <div class="waitlist-inner">
+      <form class="waitlist-form" action="#" method="post" id="waitlist-form">
+        <!-- Initial Form State (Including headers) -->
+        <div class="waitlist-content-layer" id="waitlist-content-layer">
+          <h2 class="gs-clip-reveal">There's more in the app</h2>
+          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators, in one app. Join the waitlist to get notified at launch.</p>
+          <div class="waitlist-row gs-fade-up" id="waitlist-row">
+            <input type="email" placeholder="your@email.com" required class="waitlist-input" />
+            <button type="submit" class="waitlist-btn" id="waitlist-btn">Join Waitlist</button>
+          </div>
+        </div>
+        
+        <!-- Big Spinner Loading State -->
+        <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
+          <Image src={faqButton} alt="Loading..." width={112} height={112} class="big-spinner" />
+        </div>
+
+        <!-- Success Message State -->
+        <div class="waitlist-success" id="waitlist-success" aria-hidden="true">
+          <p class="success-text">
+            <span class="success-label">You're in!</span>
+            <span class="success-sub">We'll notify you at launch.</span>
+          </p>
+        </div>
+      </form>
+    </div>
+  </section>
+</PageLayout>
+
+<script>
+  import { gsap } from 'gsap';
+  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (!prefersReducedMotion) {
+    // --- Hero entrance timeline ---
+    const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+
+    // Back link + intro fade in
+    heroTl.from('.gs-hero', {
+      opacity: 0,
+      y: 12,
+      duration: 0.5,
+      stagger: 0.15,
+    }, 0.2);
+
+    // H1 letter stagger (safe DOM manipulation)
+    const h1El = document.querySelector('.h1-chars');
+    if (h1El) {
+      const text = h1El.textContent || '';
+      h1El.textContent = '';
+      const chars: HTMLSpanElement[] = [];
+      for (const c of text) {
+        if (c === ' ') {
+          h1El.appendChild(document.createTextNode(' '));
+        } else {
+          const span = document.createElement('span');
+          span.className = 'h1-char';
+          span.textContent = c;
+          h1El.appendChild(span);
+          chars.push(span);
+        }
+      }
+
+      heroTl.from(chars, {
+        opacity: 0,
+        x: -20,
+        duration: 0.4,
+        stagger: 0.03,
+        ease: 'power2.out',
+      }, 0.1);
+    }
+
+    // Form elements stagger
+    heroTl.from('.gs-form .form-group, .gs-form .unit-toggle, .gs-form .calc-btn', {
+      opacity: 0,
+      y: 16,
+      duration: 0.5,
+      stagger: 0.1,
+    }, 0.6);
+
+    // --- Scroll-triggered: clip-reveal H2s ---
+    document.querySelectorAll('.gs-clip-reveal').forEach(el => {
+      gsap.set(el, { clipPath: 'inset(0 100% 0 0)' });
+      gsap.to(el, {
+        clipPath: 'inset(0 0% 0 0)',
+        duration: 0.8,
+        ease: 'power3.inOut',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 85%',
+          once: true,
+        },
+      });
+    });
+
+    // --- Scroll-triggered: fade up paragraphs ---
+    document.querySelectorAll('.gs-fade-up').forEach(el => {
+      gsap.from(el, {
+        opacity: 0,
+        y: 24,
+        duration: 0.6,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 88%',
+          once: true,
+        },
+      });
+    });
+
+    // --- FAQ items staggered on scroll ---
+    const faqItems = document.querySelectorAll('.gs-faq-item');
+    if (faqItems.length) {
+      gsap.from(faqItems, {
+        opacity: 0,
+        y: 16,
+        duration: 0.4,
+        stagger: 0.08,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: faqItems[0],
+          start: 'top 85%',
+          once: true,
+        },
+      });
+    }
+
+    // --- FAQ accordion smooth height ---
+    document.querySelectorAll('.gs-faq-item').forEach(details => {
+      const summary = details.querySelector('summary');
+      const content = details.querySelector('p');
+      if (!summary || !content) return;
+
+      summary.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (details.hasAttribute('open')) {
+          gsap.to(content, {
+            height: 0,
+            opacity: 0,
+            duration: 0.3,
+            ease: 'power2.inOut',
+            onComplete: () => {
+              details.removeAttribute('open');
+              gsap.set(content, { height: 'auto', opacity: 1 });
+            },
+          });
+        } else {
+          details.setAttribute('open', '');
+          const h = content.scrollHeight;
+          gsap.set(content, { height: 0, opacity: 0 });
+          gsap.to(content, {
+            height: h,
+            opacity: 1,
+            duration: 0.3,
+            ease: 'power2.out',
+          });
+        }
+      });
+    });
+
+    // --- Waitlist Form Morph Animation (3-step Full Section) ---
+    const waitlistForm = document.getElementById('waitlist-form');
+    const waitlistContentLayer = document.getElementById('waitlist-content-layer');
+    const waitlistLoading = document.getElementById('waitlist-loading');
+    const waitlistSuccess = document.getElementById('waitlist-success');
+
+    if (waitlistForm && waitlistContentLayer && waitlistLoading && waitlistSuccess) {
+      waitlistForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        // Lock height to prevent page jumping when content becomes absolute
+        const height = waitlistForm.offsetHeight;
+        waitlistForm.style.minHeight = `${height}px`;
+
+        // 1. Morph to Big Spinner Loading state!
+        waitlistContentLayer.classList.add('is-hidden');
+        waitlistLoading.classList.add('is-visible');
+
+        // 2. Simulate API request and morph to Success message
+        setTimeout(() => {
+          waitlistLoading.classList.remove('is-visible');
+          waitlistLoading.classList.add('is-hidden');
+          waitlistSuccess.classList.add('is-visible');
+        }, 1500); // 1.5 seconds simulation
+      });
+    }
+  }
+</script>
+
+<style>
+  /* ---- 1. Tool hero (neutral) ---- */
+  .tool-hero {
+    padding: 104px 20px 60px;
+    margin-right: 275px;
+  }
+
+  .hero-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .back-link {
+    display: inline-block;
+    color: var(--dark);
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    margin-bottom: 24px;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 200ms;
+  }
+
+  .back-link:hover { opacity: 1; }
+
+  .back-link:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 2px;
+  }
+
+  .tool-hero h1 {
+    font-family: var(--font-label);
+    font-size: var(--bebas-display-size);
+    color: var(--dark);
+    letter-spacing: var(--bebas-display-tracking);
+    text-transform: uppercase;
+    margin: 0 0 12px;
+    line-height: 1.1;
+  }
+
+  .tool-hero h1 :global(.h1-char) {
+    display: inline-block;
+  }
+
+  .hero-intro {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 1.05rem;
+    color: rgba(46, 42, 38, 0.8);
+    max-width: 500px;
+    margin: 0 0 40px;
+    line-height: 1.5;
+  }
+
+  /* ---- 2. SEO content (cream) ---- */
+  .seo-content {
+    padding: 64px 20px;
+  }
+
+  .content-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .seo-content h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1rem;
+    margin-top: 48px;
+  }
+
+  .seo-content h2:first-child {
+    margin-top: 0;
+  }
+
+  .seo-content p {
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+
+  .seo-content p strong {
+    font-weight: 600;
+  }
+
+  /* ---- 3. FAQ (cream) ---- */
+  .tool-faq {
+    padding: 48px 20px 64px;
+  }
+
+  .faq-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .tool-faq h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .faq details {
+    border-bottom: 1px solid var(--cream-muted);
+  }
+
+  .faq summary {
+    padding: 1.2rem 0;
+    cursor: pointer;
+    color: var(--dark);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 1.05rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 200ms ease;
+  }
+
+  .faq summary::-webkit-details-marker { display: none; }
+
+  .faq summary:hover {
+    color: var(--accent);
+  }
+
+  .faq summary :global(.faq-icon) {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-left: 1rem;
+    transition: transform 300ms ease;
+    border-radius: 50%;
+  }
+
+  .faq details[open] summary :global(.faq-icon) {
+    transform: rotate(45deg);
+  }
+
+  .faq details p {
+    padding-bottom: 1.2rem;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--text-on-light-muted);
+    line-height: 1.7;
+  }
+
+  /* ---- 4. Waitlist CTA (cream) ---- */
+  .waitlist-cta {
+    padding: 48px 20px 80px;
+    text-align: center;
+  }
+
+  .waitlist-inner {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .waitlist-cta h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 12px;
+  }
+
+  .waitlist-desc {
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+
+  .waitlist-form {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-content-layer,
+  .waitlist-loading-state,
+  .waitlist-success {
+    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .waitlist-content-layer {
+    width: 100%;
+  }
+
+  .waitlist-content-layer.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.96);
+    position: absolute;
+  }
+
+  .waitlist-row {
+    display: flex;
+    gap: 0;
+    width: 100%;
+  }
+
+  .waitlist-input {
+    flex: 1;
+    padding: 14px 18px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    background: white;
+    border: 2px solid var(--cream-muted);
+    border-right: none;
+    color: var(--dark);
+    outline: none;
+    border-radius: 0;
+  }
+
+  .waitlist-input::placeholder {
+    color: var(--text-on-light-muted);
+  }
+
+  .waitlist-input:focus {
+    border-color: var(--accent);
+    box-shadow: none;
+  }
+
+  .waitlist-btn {
+    padding: 14px 28px;
+    font-family: var(--font-label);
+    font-size: var(--bebas-ui-size);
+    letter-spacing: var(--bebas-ui-tracking);
+    text-transform: uppercase;
+    background: var(--accent);
+    color: var(--cream);
+    border: 2px solid var(--accent);
+    cursor: pointer;
+    transition: background 200ms;
+    white-space: nowrap;
+  }
+
+  .waitlist-btn:hover {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+  }
+
+  .waitlist-btn:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+
+  /* Big Spinner Layer */
+  .waitlist-loading-state {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-loading-state.is-visible {
+    position: relative;
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+
+  .waitlist-loading-state.is-hidden {
+    position: absolute;
+    opacity: 0;
+    transform: scale(1.2); /* Expand away softly when finishing */
+    pointer-events: none;
+  }
+
+  .big-spinner {
+    animation: waitlistSpin 1.2s cubic-bezier(0.6, 0.1, 0.4, 0.9) infinite;
+  }
+
+  @keyframes waitlistSpin {
+    100% { transform: rotate(360deg); }
+  }
+
+  /* Success Layer */
+  .waitlist-success {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px) scale(0.98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-success.is-visible {
+    opacity: 1;
+    position: relative;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+    transition-delay: 100ms; /* Let the spin expanding finish first slightly */
+  }
+
+  .success-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  .success-label {
+    font-family: var(--font-label);
+    font-size: var(--bebas-display-size);
+    color: var(--accent);
+    line-height: 1;
+    letter-spacing: var(--bebas-display-tracking);
+    text-transform: uppercase;
+  }
+
+  .success-sub {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    color: var(--dark);
+    font-weight: 500;
+    margin-top: 8px;
+    letter-spacing: -0.01em;
+  }
+
+
+  /* ---- Desktop ---- */
+  @media (min-width: 769px) {
+    .tool-hero {
+      padding: 104px 48px 60px;
+    }
+
+    .hero-inner,
+    .content-inner,
+    .faq-inner,
+    .waitlist-inner {
+      padding-right: var(--safe-pr-desktop);
+    }
+
+    .seo-content {
+      padding: 64px 48px;
+    }
+
+    .tool-faq {
+      padding: 48px 48px 64px;
+    }
+
+    .waitlist-cta {
+      padding: 48px 48px 80px;
+    }
+  }
+
+  /* ---- Mobile ---- */
+  @media (max-width: 768px) {
+    .tool-hero {
+      margin-right: 135px;
+    }
+
+    .waitlist-row {
+      flex-direction: column;
+    }
+
+    .waitlist-input {
+      border-right: 2px solid var(--cream-muted);
+      border-bottom: none;
+    }
+
+    .waitlist-input:focus {
+      border-color: var(--accent);
+    }
+
+    .waitlist-btn {
+      border-top: 2px solid var(--accent);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .back-link,
+    .calc-wrapper :global(.calc-btn),
+    .waitlist-btn {
+      transition: none;
+    }
+  }
+</style>

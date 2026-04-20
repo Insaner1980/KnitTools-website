@@ -1,0 +1,242 @@
+---
+const languages = [
+  'English', 'Finnish', 'Danish', 'Dutch', 'French', 'German',
+  'Italian', 'Norwegian', 'Portuguese', 'Spanish', 'Swedish',
+];
+
+const cards = [
+  {
+    span: 2,
+    feature: 'Row counter',
+    descriptor: ' with memory',
+    body: 'A big round button where your thumb already is. Tap without looking. Miscount? Undo. Say "add three" or "next row" and voice commands work with no signal needed.',
+    chips: true,
+  },
+  {
+    span: 1,
+    feature: 'Pattern viewer',
+    descriptor: ' that follows along',
+    body: "PDF or Ravelry pull-in. The row you're on highlights itself. Tap sl1, k2tog, psso. AI explains what it does, step by step.",
+  },
+  {
+    span: 2,
+    feature: 'Yarn scanner',
+    descriptor: ' for the label graveyard',
+    body: 'Point the camera at the ball band. The AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo of the band itself. That mystery skein finally has a name.',
+  },
+  {
+    span: 1,
+    feature: 'Four calculators',
+    descriptor: ', quietly working',
+    body: 'Cast on, gauge, increases, yardage. The math your knitting already asked you to do.',
+  },
+  {
+    span: 1,
+    feature: 'Ravelry',
+    descriptor: ', the way it should feel',
+    body: 'Search, save, start a project in one tap. Log in through Ravelry itself. Your password never touches this app.',
+  },
+  {
+    span: 1,
+    feature: 'Reference',
+    descriptor: ', one tap away',
+    body: 'Needles, sizes, chart symbols, abbreviations. Right there in your library, before you remember you needed it.',
+  },
+  {
+    span: 1,
+    feature: 'Progress photos',
+    descriptor: ', just for you',
+    body: 'One folder per project. Full resolution, on your device, nothing uploaded anywhere.',
+  },
+  {
+    span: 2,
+    feature: 'Insights',
+    descriptor: ' without the pressure',
+    body: 'Hours at the needles. Rows per hour. Streaks. No leaderboards, no nudges, no comparing yourself to anyone else. The stats are yours.',
+  },
+  {
+    span: 1,
+    feature: 'A widget',
+    descriptor: ' on your home screen',
+    body: 'Tap to count. No app launch, no loading. The exact amount of friction a row counter should have, which is zero.',
+  },
+];
+---
+
+<section class="nine-tools" aria-labelledby="nine-tools-heading">
+  <div class="nine-inner">
+    <div class="nine-intro reveal">
+      <span class="eyebrow bebas-label">What&rsquo;s inside</span>
+      <h2 id="nine-tools-heading" class="nine-heading">
+        <span class="h2-base">Every tool, </span><span class="h2-accent">talking to each other.</span>
+      </h2>
+    </div>
+
+    <div class="bento-grid">
+      {cards.map((c) => (
+        <article class={`bento-card reveal`} data-span={c.span}>
+          <h3>
+            <span class="card-feature">{c.feature}</span><span class="card-descriptor">{c.descriptor}</span>
+          </h3>
+          <p>{c.body}</p>
+          {c.chips && (
+            <ul role="list" class="chip-row">
+              {languages.map((lang) => <li class="chip">{lang}</li>)}
+            </ul>
+          )}
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .nine-tools {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    padding: var(--section-padding-y-mobile) var(--section-padding-x-mobile);
+  }
+
+  .nine-tools::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: var(--stripe-width-mobile);
+    bottom: 0;
+    left: 0;
+    background: var(--stripe-brown);
+    z-index: -1;
+  }
+
+  .nine-inner {
+    max-width: var(--container-content-max);
+    margin: 0 auto;
+  }
+
+  .nine-intro {
+    margin-bottom: 3rem;
+    max-width: var(--container-text-max);
+  }
+
+  .eyebrow {
+    display: block;
+    color: var(--mustard);
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .nine-heading {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    line-height: 1.0;
+    letter-spacing: -0.03em;
+    margin: 0;
+    text-align: left;
+  }
+
+  .h2-base {
+    color: var(--cream);
+  }
+
+  .h2-accent {
+    color: var(--mustard);
+    font-style: italic;
+    font-weight: 800;
+  }
+
+  .bento-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .bento-card {
+    background: var(--cream);
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  .bento-card h3 {
+    margin: 0 0 10px;
+  }
+
+  .card-feature {
+    color: #7A5A14;
+  }
+
+  .card-descriptor {
+    color: var(--text-on-light);
+  }
+
+  .bento-card p {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: var(--text-on-light);
+    margin: 0;
+  }
+
+  .bento-card:has(.chip-row) p {
+    margin: 0 0 12px;
+  }
+
+  .chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .chip {
+    background: rgba(201, 164, 53, 0.2);
+    color: var(--text-on-light);
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 10.5px;
+    padding: 2px 7px;
+    border-radius: 2px;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .bento-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .bento-card[data-span="2"] {
+      grid-column: span 2;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .nine-tools {
+      padding: var(--section-padding-y-desktop) var(--section-padding-x-desktop);
+    }
+
+    .nine-tools::before {
+      right: var(--stripe-width-desktop);
+    }
+
+    .nine-inner {
+      padding-right: var(--safe-pr-desktop);
+    }
+
+    .bento-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .bento-card[data-span="2"] {
+      grid-column: span 2;
+    }
+
+    .bento-card[data-span="1"] {
+      grid-column: span 1;
+    }
+  }
+</style>

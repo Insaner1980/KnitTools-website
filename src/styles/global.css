@@ -1,0 +1,501 @@
+/* KnitTools — Rebuild v5 */
+
+@import './typography.css';
+
+/* --- Fonts --- */
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/geist-variable.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/bebas-neue.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/teko-400.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/teko-500.ttf') format('truetype');
+}
+
+/* --- Colors --- */
+
+:root {
+  --safe-pr-desktop: clamp(48px, calc(320px - (100vw - 1400px) / 2), 320px);
+  --safe-pr-mobile: clamp(20px, calc(155px - (100vw - 1400px) / 2), 155px);
+  --stripe-width-desktop: 275px;
+  --stripe-width-mobile: 135px;
+  --stripe-column-width-desktop: 55px;
+  --stripe-column-width-mobile: 27px;
+  --dark: #2E2A26;
+  --dark-deep: #262320;
+  --dark-surface: #3A3531;
+
+  --cream: #E8E4D0;
+  --cream-muted: #D4D0BD;
+
+  --accent: #C45100;
+  --accent-hover: #A84500;
+  --accent-soft: rgba(196, 81, 0, 0.15);
+
+  /* Stripe-derived palette — used site-wide, not only in the stripe */
+  --stripe-terracotta: #A05038;
+  --stripe-rust: #C2703E;
+  --stripe-sand: #C4A661;
+  --stripe-brown: #6B4332;
+  --stripe-teal: #5B8072;
+
+  /* Semantic aliases — use these in components */
+  --accent-warm: var(--stripe-rust);
+  --accent-cool: var(--stripe-teal);
+  --accent-earth: var(--stripe-sand);
+  --surface-deep: var(--stripe-brown);
+
+  --avocado: #8BA44A;
+  --mustard: #C9A435;
+  --dusty-rose: #B8908F;
+
+  --text-on-dark: #E8E4D0;
+  --text-on-dark-muted: #B8B4A4;
+  --text-on-light: #2E2A26;
+  --text-on-light-muted: #5C5750;
+
+  --font-display: 'Geist', sans-serif;
+  --font-logo: 'Teko', 'Bebas Neue', sans-serif;
+  --font-label: 'Bebas Neue', 'Arial Narrow', sans-serif;
+  --font-body: 'Geist', sans-serif;
+
+  /* Shared Bebas Neue scale — kolme hierarkiatasoa:
+     - ui: labelit (navbar, eyebrow, footer, trust, napit, chipsit)
+     - card: korttien ja osioiden otsikot (bento-kortit, tools-listan kortit)
+     - display: sivun päätason isot otsikot ja tulosluvut (tool-H1, laskurien vastaus) */
+  --bebas-ui-size: 1.05rem;
+  --bebas-ui-weight: 400;
+  --bebas-ui-tracking: 2.5px;
+
+  --bebas-card-size: 1.3rem;
+  --bebas-card-tracking: 0.04em;
+
+  --bebas-display-size: clamp(2rem, 4vw, 3rem);
+  --bebas-display-tracking: 0.04em;
+
+  /* Shared layout containers */
+  --container-page-max: 1200px;
+  --container-content-max: 1100px;
+  --container-compact-max: 900px;
+  --container-narrow-max: 800px;
+  --container-text-max: 720px;
+  --container-copy-max: 620px;
+  --container-form-max: 420px;
+
+  /* Shared section rhythm */
+  --section-padding-y-mobile: 100px;
+  --section-padding-y-desktop: 140px;
+  --section-padding-x-mobile: 20px;
+  --section-padding-x-desktop: 48px;
+  --section-padding-y-compact: 48px;
+
+  /* Shared body/meta type scale */
+  --type-body-lg: clamp(1.12rem, 1.6vw, 1.32rem);
+  --type-body-md: 1rem;
+  --type-body-sm: 0.98rem;
+  --type-meta-md: 1.06rem;
+  --type-meta-sm: 0.98rem;
+  --type-meta-fine: 0.8rem;
+
+  /* Shared label/accent tokens */
+  --label-on-light: var(--accent);
+  --label-on-dark: var(--stripe-sand);
+  --accent-on-light: var(--accent);
+  --accent-on-dark: var(--stripe-sand);
+}
+
+/* --- Reset & Global --- */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--cream);
+}
+
+img { display: block; }
+ul, ol { list-style: none; }
+
+body {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  padding-top: 80px;
+  color: var(--text-on-light);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2 {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-variation-settings: 'SOFT' 80, 'WONK' 1;
+  margin: 0;
+}
+
+h3 {
+  font-family: var(--font-label);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: var(--bebas-ui-tracking);
+  margin: 0;
+}
+
+h1, h2, h3 {
+  /* text-wrap: balance removed to allow precise manual control */
+}
+
+h1 {
+  font-size: clamp(3rem, 6.5vw, 6.875rem);
+  line-height: 1.0;
+  letter-spacing: -0.03em;
+}
+
+.accent-word,
+.accent-italic {
+  font-family: var(--font-display);
+  font-style: normal;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+h2 {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+h3 {
+  font-size: var(--bebas-card-size);
+  letter-spacing: var(--bebas-card-tracking);
+  line-height: 1.2;
+}
+
+a { color: var(--accent); text-decoration: none; }
+p { margin: 0; }
+
+@media (max-width: 768px) {
+  body { padding-top: 80px; }
+  /* h1 and h2 use clamp() — no mobile override needed */
+  h3 { font-size: var(--bebas-card-size); }
+}
+
+/* --- Bebas Neue UI label utility ---
+   Single source of truth for nav, eyebrows, footer headings,
+   trust labels, bento card H3s, section tags, CTA buttons.
+   Do not redefine these four font rules elsewhere — use this class
+   or @extend the same tokens. */
+
+.bebas-label {
+  font-family: var(--font-label);
+  font-size: var(--bebas-ui-size);
+  font-weight: var(--bebas-ui-weight);
+  letter-spacing: var(--bebas-ui-tracking);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+/* --- Section tag --- */
+
+.section-tag {
+  display: block;
+  font-family: var(--font-label);
+  font-size: var(--bebas-ui-size);
+  font-weight: var(--bebas-ui-weight);
+  letter-spacing: var(--bebas-ui-tracking);
+  text-transform: uppercase;
+  color: var(--label-on-light);
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+/* --- Shared waitlist UI --- */
+
+.waitlist-form {
+  max-width: var(--container-form-max);
+}
+
+.waitlist-row {
+  display: flex;
+  gap: 0;
+}
+
+.waitlist-input {
+  flex: 1;
+  padding: 14px 16px;
+  border: 2px solid var(--cream-muted);
+  border-right: none;
+  background: rgba(232, 228, 208, 0.6);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--text-on-light);
+  outline: none;
+}
+
+.waitlist-input::placeholder {
+  color: var(--text-on-light-muted);
+}
+
+.waitlist-input:focus {
+  border-color: var(--accent);
+}
+
+.waitlist-btn {
+  padding: 14px 24px;
+  background: var(--accent);
+  color: var(--cream);
+  border: 2px solid var(--accent);
+  font-family: var(--font-label);
+  font-size: var(--bebas-ui-size);
+  font-weight: var(--bebas-ui-weight);
+  letter-spacing: var(--bebas-ui-tracking);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 200ms;
+  white-space: nowrap;
+}
+
+.waitlist-btn:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+.waitlist-meta {
+  font-family: var(--font-body);
+  font-size: var(--type-meta-md);
+  color: var(--text-on-light-muted);
+  line-height: 1.5;
+}
+
+.waitlist-success {
+  font-family: var(--font-body);
+  font-size: var(--type-body-md);
+  max-width: var(--container-form-max);
+}
+
+@media (max-width: 768px) {
+  .waitlist-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .waitlist-input {
+    border-right: 2px solid var(--cream-muted);
+  }
+
+  .waitlist-btn {
+    width: 100%;
+    padding: 15px 20px;
+  }
+}
+
+/* --- Buttons --- */
+
+.btn-primary {
+  display: inline-block;
+  background: transparent;
+  color: var(--accent);
+  padding: 14px 36px;
+  border-radius: 0;
+  font-family: var(--font-label);
+  font-weight: 400;
+  font-size: var(--bebas-ui-size);
+  letter-spacing: var(--bebas-ui-tracking);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 200ms;
+  border: 2px solid var(--accent);
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: var(--accent);
+  color: var(--cream);
+}
+
+.coming-soon-text {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--text-on-dark-muted);
+}
+
+/* --- Shared --- */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Skip to content --- */
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  z-index: 1000;
+  padding: 8px 16px;
+  background: var(--accent);
+  color: var(--cream);
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.skip-link:focus { top: 8px; color: var(--cream); }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* --- Dot grid backgrounds --- */
+
+.dot-grid-dark,
+.dot-grid-cream {
+  position: relative;
+}
+
+.dot-grid-dark::before,
+.dot-grid-cream::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.dot-grid-dark::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='16' cy='16' r='1' fill='%23E8E4D0' opacity='0.18'/%3E%3C/svg%3E");
+}
+
+.dot-grid-cream::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='16' cy='16' r='1' fill='%232E2A26' opacity='0.14'/%3E%3C/svg%3E");
+}
+
+.dot-grid-dark > *,
+.dot-grid-cream > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* --- Prose --- */
+
+.prose { max-width: 720px; margin: 0 auto; }
+.prose h2 { margin-top: 48px; margin-bottom: 16px; }
+.prose h3 { margin-top: 32px; margin-bottom: 12px; }
+.prose p { margin-bottom: 16px; }
+.prose ul, .prose ol { margin-bottom: 16px; padding-right: 24px; }
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose li { margin-bottom: 8px; }
+.prose img { border-radius: 12px; margin: 32px auto; }
+.prose a { text-decoration: underline; text-underline-offset: 3px; }
+
+/* --- Tags --- */
+
+.tag {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--cream-muted);
+  color: var(--text-on-light-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+}
+
+/* --- Scroll reveal animations --- */
+
+.reveal {
+  --reveal-x: 0px;
+  --reveal-y: 20px;
+  --reveal-delay: 0ms;
+  opacity: 0;
+  transform: translate3d(var(--reveal-x), var(--reveal-y), 0);
+  transition: opacity 600ms ease-out, transform 600ms ease-out;
+  transition-delay: var(--reveal-delay);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.reveal-left {
+  --reveal-x: -24px;
+  --reveal-y: 0px;
+}
+
+.reveal-right {
+  --reveal-x: 24px;
+  --reveal-y: 0px;
+}
+
+.reveal-delay-1 { --reveal-delay: 80ms; }
+.reveal-delay-2 { --reveal-delay: 160ms; }
+.reveal-delay-3 { --reveal-delay: 240ms; }
+.reveal-delay-4 { --reveal-delay: 320ms; }
+
+
+/* --- Page wrapper for stripe ribbon --- */
+
+.page-wrapper {
+  position: relative;
+}
+
+/* --- Reduced motion --- */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  html { scroll-behavior: auto; }
+}
+
+/* --- Safe Stripe Offsets --- */
+.hero-text,
+.feature-text {
+  padding-right: var(--safe-pr-mobile);
+}
+
+@media (min-width: 769px) {
+  .hero-text,
+  .feature-text {
+    padding-right: 0; /* Reset on desktop, handled by layout specifically */
+  }
+}

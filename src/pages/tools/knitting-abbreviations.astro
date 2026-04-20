@@ -1,0 +1,1054 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { Image } from 'astro:assets';
+import faqButton from '../../assets/images/faq-button.webp';
+
+type Category =
+  | 'cast-on-bind-off'
+  | 'increases'
+  | 'decreases'
+  | 'cables'
+  | 'lace'
+  | 'general'
+  | 'stitch-patterns';
+
+interface Abbreviation {
+  abbr: string;
+  def: string;
+  categories: Category[];
+}
+
+const categoryLabels: Record<Category, string> = {
+  'cast-on-bind-off': 'Cast On/Bind Off',
+  'increases': 'Increases',
+  'decreases': 'Decreases',
+  'cables': 'Cables',
+  'lace': 'Lace',
+  'general': 'General',
+  'stitch-patterns': 'Stitch Patterns',
+};
+
+const abbreviations: Abbreviation[] = [
+  // Cast On/Bind Off
+  { abbr: 'CO', def: 'Cast on', categories: ['cast-on-bind-off'] },
+  { abbr: 'BO', def: 'Bind off (US) / Cast off (UK)', categories: ['cast-on-bind-off'] },
+
+  // General
+  { abbr: 'k', def: 'Knit', categories: ['general'] },
+  { abbr: 'p', def: 'Purl', categories: ['general'] },
+  { abbr: 'st(s)', def: 'Stitch(es)', categories: ['general'] },
+  { abbr: 'RS', def: 'Right side', categories: ['general'] },
+  { abbr: 'WS', def: 'Wrong side', categories: ['general'] },
+  { abbr: 'rep', def: 'Repeat', categories: ['general'] },
+  { abbr: 'beg', def: 'Beginning', categories: ['general'] },
+  { abbr: 'rem', def: 'Remaining', categories: ['general'] },
+  { abbr: 'cont', def: 'Continue', categories: ['general'] },
+  { abbr: 'alt', def: 'Alternate', categories: ['general'] },
+  { abbr: 'approx', def: 'Approximately', categories: ['general'] },
+  { abbr: 'tbl', def: 'Through back loop', categories: ['general'] },
+  { abbr: 'wyif', def: 'With yarn in front', categories: ['general'] },
+  { abbr: 'wyib', def: 'With yarn in back', categories: ['general'] },
+  { abbr: 'sl', def: 'Slip', categories: ['general'] },
+  { abbr: 'sl st', def: 'Slip stitch', categories: ['general'] },
+  { abbr: 'pm', def: 'Place marker', categories: ['general'] },
+  { abbr: 'sm', def: 'Slip marker', categories: ['general'] },
+  { abbr: 'MC', def: 'Main color', categories: ['general'] },
+  { abbr: 'CC', def: 'Contrast color', categories: ['general'] },
+  { abbr: 'dpn(s)', def: 'Double-pointed needle(s)', categories: ['general'] },
+  { abbr: 'cn', def: 'Cable needle', categories: ['general'] },
+  { abbr: 'rnd(s)', def: 'Round(s)', categories: ['general'] },
+
+  // Increases
+  { abbr: 'M1', def: 'Make one (generic)', categories: ['increases'] },
+  { abbr: 'M1L', def: 'Make one left', categories: ['increases'] },
+  { abbr: 'M1R', def: 'Make one right', categories: ['increases'] },
+  { abbr: 'kfb', def: 'Knit front and back', categories: ['increases'] },
+  { abbr: 'pfb', def: 'Purl front and back', categories: ['increases'] },
+  { abbr: 'yo', def: 'Yarn over', categories: ['increases', 'lace'] },
+  { abbr: 'inc', def: 'Increase', categories: ['increases'] },
+
+  // Decreases
+  { abbr: 'k2tog', def: 'Knit two together', categories: ['decreases', 'lace'] },
+  { abbr: 'p2tog', def: 'Purl two together', categories: ['decreases'] },
+  { abbr: 'ssk', def: 'Slip, slip, knit (left-leaning decrease)', categories: ['decreases', 'lace'] },
+  { abbr: 'skp', def: 'Slip, knit, pass slipped stitch over', categories: ['decreases'] },
+  { abbr: 'sk2p', def: 'Slip 1, knit 2 together, pass slipped stitch over', categories: ['decreases', 'lace'] },
+  { abbr: 's2kp', def: 'Slip 2, knit 1, pass 2 slipped stitches over (centered double decrease)', categories: ['decreases'] },
+  { abbr: 'CDD', def: 'Centered double decrease', categories: ['decreases'] },
+  { abbr: 'psso', def: 'Pass slipped stitch over', categories: ['decreases'] },
+  { abbr: 'dec', def: 'Decrease', categories: ['decreases'] },
+
+  // Cables
+  { abbr: 'C4F', def: 'Cable 4 front', categories: ['cables'] },
+  { abbr: 'C4B', def: 'Cable 4 back', categories: ['cables'] },
+  { abbr: 'C6F', def: 'Cable 6 front', categories: ['cables'] },
+  { abbr: 'C6B', def: 'Cable 6 back', categories: ['cables'] },
+  { abbr: 'T2F', def: 'Twist 2 front', categories: ['cables'] },
+  { abbr: 'T2B', def: 'Twist 2 back', categories: ['cables'] },
+
+  // Stitch Patterns
+  { abbr: 'St st', def: 'Stockinette stitch / Stocking stitch (UK)', categories: ['stitch-patterns'] },
+  { abbr: 'g st', def: 'Garter stitch', categories: ['stitch-patterns'] },
+  { abbr: 'rev St st', def: 'Reverse stockinette stitch', categories: ['stitch-patterns'] },
+  { abbr: 'rib', def: 'Ribbing', categories: ['stitch-patterns'] },
+  { abbr: 'moss st', def: 'Moss stitch', categories: ['stitch-patterns'] },
+  { abbr: 'seed st', def: 'Seed stitch', categories: ['stitch-patterns'] },
+  { abbr: 'MB', def: 'Make bobble (pattern-specific)', categories: ['stitch-patterns'] },
+];
+
+const filterOrder: Array<Category | 'all'> = [
+  'all',
+  'cast-on-bind-off',
+  'increases',
+  'decreases',
+  'cables',
+  'lace',
+  'general',
+  'stitch-patterns',
+];
+
+const faqs = [
+  {
+    q: 'Are knitting abbreviations the same in US and UK patterns?',
+    a: 'Most are identical. k, p, yo, and k2tog mean the same thing on both sides of the Atlantic. The differences cluster around a handful of terms: US "bind off" is UK "cast off," US "gauge" is UK "tension," and US "stockinette" is UK "stocking stitch." And "seed stitch" and "moss stitch" can swap meanings depending on the source, so trust the stitch definition over the name. When a pattern doesn\'t specify which system it uses, the designer\'s location is usually the best clue.',
+  },
+  {
+    q: 'What does the asterisk mean in a knitting pattern?',
+    a: 'It marks a repeat. Everything between the asterisk and the next matching instruction (usually "rep from *") gets worked over and over across the row. Brackets and parentheses do the same job, grouping a set of actions that repeat a specified number of times. Missing a repeat marker is one of the fastest ways to end up with the wrong stitch count.',
+  },
+  {
+    q: "What if I can't find an abbreviation in a standard list?",
+    a: "It's almost certainly pattern-specific shorthand defined by the designer. Scroll to the top of the pattern and look for an abbreviations or stitch definitions section. Cable and lace patterns are the biggest source of custom shortcuts, since designers often invent compact notation for techniques that only apply to that particular design. If it isn't listed there, the pattern notes or a chart key are the next place to check.",
+  },
+  {
+    q: "What's the difference between ssk and skp?",
+    a: 'Both are left-leaning decreases, and they produce nearly identical results in finished fabric. ssk is the modern standard and shows up in most current patterns. skp appears more often in older patterns. The execution differs slightly, so follow whichever the pattern specifies rather than substituting on the fly.',
+  },
+];
+---
+
+<PageLayout
+  title="Knitting Abbreviations: Searchable List of Pattern Terms & Symbols"
+  description="Look up any knitting abbreviation or search by technique name. Full glossary of pattern terms from k2tog to psso, organized by category."
+  canonicalPath="/tools/knitting-abbreviations"
+  showStripe={true}
+>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Knitting Abbreviations Glossary",
+    "description": "Search any knitting abbreviation or find terms by technique name.",
+    "url": "https://knittoolsapp.com/tools/knitting-abbreviations",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  })} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a },
+    })),
+  })} />
+
+  <!-- 1. Tool hero -->
+  <section class="tool-hero">
+    <div class="hero-inner">
+      <a href="/tools/" class="back-link reveal reveal-left">&larr; All tools</a>
+      <h1 class="gs-h1" aria-label="Knitting Abbreviations"><span class="h1-chars">Knitting Abbreviations</span></h1>
+      <p class="hero-intro gs-hero">Search an abbreviation to see what it means, or search a technique to find its abbreviations.</p>
+
+      <div class="abbr-wrapper gs-form">
+        <input
+          type="text"
+          id="abbr-search"
+          class="search-input"
+          placeholder='Search abbreviation or technique (e.g. "ssk", "decrease")'
+          autocomplete="off"
+        />
+
+        <div class="category-filters" role="group" aria-label="Filter by category">
+          {filterOrder.map((cat, i) => (
+            <button
+              type="button"
+              class={`cat-btn${i === 0 ? ' is-active' : ''}`}
+              data-cat={cat}
+              aria-pressed={i === 0 ? 'true' : 'false'}
+            >
+              {cat === 'all' ? 'All' : categoryLabels[cat as Category]}
+            </button>
+          ))}
+        </div>
+
+        <ul class="abbr-list" id="abbr-list">
+          {abbreviations.map(item => (
+            <li
+              class="abbr-row"
+              data-abbr={item.abbr.toLowerCase()}
+              data-def={item.def.toLowerCase()}
+              data-cats={item.categories.join(' ')}
+              data-catlabels={item.categories.map(c => categoryLabels[c].toLowerCase()).join(' ')}
+            >
+              <span class="abbr-term">{item.abbr}</span>
+              <span class="abbr-def">{item.def}</span>
+            </li>
+          ))}
+        </ul>
+
+        <p class="no-results" id="no-results" hidden>No matching abbreviations found.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SEO content -->
+  <section class="seo-content">
+    <div class="content-inner">
+      <h2 class="gs-clip-reveal">How abbreviations read in context</h2>
+      <p class="gs-fade-up">Most abbreviations sort themselves into a few groups, and recognizing the group helps more than memorizing individual terms.</p>
+      <p class="gs-fade-up"><strong>Basic stitches</strong> are single letters. <code>k</code> is knit, <code>p</code> is purl. A number after the letter tells you how many: <code>k5</code> means knit five stitches. That's the whole system for the simplest ones.</p>
+      <p class="gs-fade-up"><strong>Combined actions</strong> stack letters and numbers. <code>k2tog</code> means knit two stitches together. <code>p2tog</code>, same idea but purled. A lot of knitting shorthand works this way. Slow it down, read it literally.</p>
+      <p class="gs-fade-up"><strong>Directional markers</strong> tell you which side of the fabric you're on. <code>RS</code> is right side, <code>WS</code> is wrong side. Matters because the same hand movement produces a different result depending on whether you're working the public face or the back.</p>
+      <p class="gs-fade-up"><strong>Shaping abbreviations</strong> control how fabric grows or narrows. <code>M1</code>, <code>M1L</code>, <code>M1R</code>, and <code>kfb</code> add stitches. <code>k2tog</code> and <code>ssk</code> remove them. Knowing which ones lean left, which lean right, and which just add or subtract makes patterns easier to read at a glance.</p>
+      <p class="gs-fade-up"><strong>Structure terms</strong> keep the instructions compact. <code>rep</code>, <code>st(s)</code>, <code>beg</code>, <code>rem</code>, <code>cont</code>. Scaffolding, not stitches.</p>
+      <p class="gs-fade-up">Punctuation matters too. Asterisks and semicolons aren't decoration. <code>*k2, p2; rep from *</code> means everything between the asterisk and the semicolon repeats. Brackets and parentheses work similarly, grouping a set of actions that get repeated a specified number of times. Missing a repeat marker is one of the fastest ways to end up with the wrong stitch count.</p>
+
+      <h2 class="gs-clip-reveal">US vs UK differences</h2>
+      <p class="gs-fade-up">A few terms shift across the Atlantic. The big ones:</p>
+      <p class="gs-fade-up">US "bind off" is UK "cast off." US "gauge" is UK "tension." US "stockinette" is UK "stocking stitch." And the classic trap: "seed stitch" and "moss stitch" can swap meanings depending on the source, so a written stitch definition beats the name alone every time.</p>
+      <p class="gs-fade-up">Most common abbreviations (<code>k</code>, <code>p</code>, <code>yo</code>, <code>k2tog</code>) are the same in both systems. If a pattern doesn't specify US or UK conventions, the stitch definitions section usually clears it up. When there's no stitch definition section at all, the designer's location is your best clue.</p>
+
+      <h2 class="gs-clip-reveal">Pattern-specific abbreviations</h2>
+      <p class="gs-fade-up">This is where things get interesting, because plenty of abbreviations won't appear in any standard list. That's normal. They're custom shortcuts invented by the designer for that specific pattern, and they should be defined near the beginning of the instructions.</p>
+      <p class="gs-fade-up">Cable patterns are the biggest source of these. A chart key might define <code>C4F</code>, <code>C6B</code>, or something more specific to the design. The number typically tells you how many stitches cross. The letter at the end (F or B) tells you the direction: front or back, referring to where you hold the cable needle while crossing. But designers aren't always consistent with that convention. Some use L and R instead. Some number the total stitches involved, others number only the stitches that travel. The pattern's own definition is what counts.</p>
+      <p class="gs-fade-up">Lace patterns build compound shortcuts too. One pattern writes <code>CDD</code> for a centered double decrease. Another spells the same thing out as <code>sl2-k1-p2sso</code>. A third uses <code>s2kp</code>. All three point at the same basic idea, but the exact execution can differ between designers, and some of these abbreviations get used for slightly different decreases depending on the source. If an abbreviation looks unfamiliar, check the pattern key before assuming it matches the most common version. Pattern keys exist for exactly this reason.</p>
+      <p class="gs-fade-up">Colorwork patterns sometimes abbreviate color names or assignments. You might see MC (main color) and CC (contrast color), or CC1 and CC2 when multiple contrast colors are in play. Some designers use A, B, C instead. The abbreviations themselves are straightforward, but mixing up which color goes where will show in the finished fabric.</p>
+      <p class="gs-fade-up">Some designers also create shorthand for repeated stitch sequences specific to their design. A pattern might define something like "MB" for a particular bobble method, or "cluster" for a specific combination of wraps and pulls that only applies to that project. These shortcuts save the designer from writing out a multi-step instruction every time it appears in the pattern. They only make sense inside that pattern.</p>
+      <p class="gs-fade-up">The general rule: if you can't find an abbreviation in a standard reference, it's almost certainly defined in the pattern header. Scroll up before searching elsewhere.</p>
+
+      <h2 class="gs-clip-reveal">What the symbols on knitting charts mean</h2>
+      <p class="gs-fade-up">Charts use symbols instead of written-out rows. Each square is one stitch, and the symbol inside it tells you what to do.</p>
+      <p class="gs-fade-up">There's no universal chart symbol standard, but many designers stay close to Craft Yarn Council conventions. An empty square usually means knit on RS and purl on WS. A dash means purl on RS. A circle is <code>yo</code>. A right-leaning slash marks <code>k2tog</code>, a left-leaning one marks <code>ssk</code>.</p>
+      <p class="gs-fade-up">Charts read bottom to top (knitting grows upward). On flat charts, RS rows go right to left, WS rows left to right, matching the direction your needles move. Circular knitting charts read right to left on every row, since you're always working the RS.</p>
+      <p class="gs-fade-up">If a pattern has both written and charted instructions, they should agree. When they don't (and it happens more than anyone would like), the pattern notes should say which takes priority. If they don't say, swatch a repeat before trusting either version.</p>
+
+      <h2 class="gs-clip-reveal">A few abbreviations worth knowing early</h2>
+      <p class="gs-fade-up">There's no need to memorize everything before casting on. A first scarf might only use <code>k</code> and <code>p</code>. A simple hat adds a decrease or two. The rest accumulates naturally with the patterns you choose, and you'll find the same dozen abbreviations cover most of what you knit.</p>
+      <p class="gs-fade-up">One pair that trips people up: <code>ssk</code> and <code>skp</code> are both left-leaning decreases. <code>ssk</code> is the modern standard. <code>skp</code> shows up more in older patterns. They're close in result but differ slightly in execution, so follow the pattern as written unless it gives permission to substitute.</p>
+      <p class="gs-fade-up">Another one worth flagging: <code>psso</code> (pass slipped stitch over) shows up both on its own and as part of compound abbreviations like <code>sl1-k2tog-psso</code>. When you see it standalone, it's usually following a slip instruction from the previous step.</p>
+      <p class="gs-fade-up">The Craft Yarn Council publishes a widely used standard abbreviation list, and most designers follow it for common terms. Beyond those basics, regional habits and pattern-specific shorthand take over. "Check the pattern key" is better advice than "memorize a master list."</p>
+      <p class="gs-fade-up">Keep a reference open while you knit. The <a href="/">KnitTools app</a> includes a searchable abbreviation reference, which is faster than flipping through tabs when your row is halfway worked. If you're also sorting out needle sizes or <a href="/articles/how-to-measure-knitting-gauge">gauge measurements</a>, those references pair well with this glossary. And if you're new to <a href="/articles/how-to-read-knitting-pattern">reading knitting patterns</a>, the abbreviation key in your pattern is the first section to scan before casting on.</p>
+    </div>
+  </section>
+
+  <!-- 3. FAQ -->
+  <section class="tool-faq">
+    <div class="faq-inner">
+      <h2 class="gs-clip-reveal">Frequently asked questions</h2>
+      <div class="faq">
+        {faqs.map(f => (
+          <details class="gs-faq-item">
+            <summary>{f.q} <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Waitlist CTA -->
+  <section class="waitlist-cta">
+    <div class="waitlist-inner">
+      <form class="waitlist-form" action="#" method="post" id="waitlist-form">
+        <div class="waitlist-content-layer" id="waitlist-content-layer">
+          <h2 class="gs-clip-reveal">There's more in the app</h2>
+          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators, in one app. Join the waitlist to get notified at launch.</p>
+          <div class="waitlist-row gs-fade-up" id="waitlist-row">
+            <input type="email" placeholder="your@email.com" required class="waitlist-input" />
+            <button type="submit" class="waitlist-btn" id="waitlist-btn">Join Waitlist</button>
+          </div>
+        </div>
+
+        <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
+          <Image src={faqButton} alt="Loading..." width={112} height={112} class="big-spinner" />
+        </div>
+
+        <div class="waitlist-success" id="waitlist-success" aria-hidden="true">
+          <p class="success-text">
+            <span class="success-label">You're in!</span>
+            <span class="success-sub">We'll notify you at launch.</span>
+          </p>
+        </div>
+      </form>
+    </div>
+  </section>
+</PageLayout>
+
+<script>
+  import { gsap } from 'gsap';
+  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // --- Search + category filtering ---
+  const searchInput = document.getElementById('abbr-search') as HTMLInputElement | null;
+  const list = document.getElementById('abbr-list');
+  const noResults = document.getElementById('no-results');
+  const catButtons = document.querySelectorAll<HTMLButtonElement>('.cat-btn');
+
+  let activeCategory = 'all';
+
+  function applyFilters() {
+    if (!list || !noResults) return;
+    const rows = list.querySelectorAll<HTMLElement>('.abbr-row');
+    const query = (searchInput?.value || '').trim().toLowerCase();
+
+    let visibleCount = 0;
+
+    rows.forEach(row => {
+      const cats = (row.dataset.cats || '').split(' ');
+      const catLabels = row.dataset.catlabels || '';
+      const abbr = row.dataset.abbr || '';
+      const def = row.dataset.def || '';
+
+      const matchesCategory = activeCategory === 'all' || cats.includes(activeCategory);
+
+      let matchesSearch = true;
+      if (query) {
+        matchesSearch =
+          abbr.includes(query) ||
+          def.includes(query) ||
+          catLabels.includes(query);
+      }
+
+      const visible = matchesCategory && matchesSearch;
+      row.style.display = visible ? '' : 'none';
+      if (visible) visibleCount++;
+    });
+
+    noResults.hidden = visibleCount > 0;
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', applyFilters);
+  }
+
+  catButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      catButtons.forEach(b => {
+        b.classList.remove('is-active');
+        b.setAttribute('aria-pressed', 'false');
+      });
+      btn.classList.add('is-active');
+      btn.setAttribute('aria-pressed', 'true');
+      activeCategory = btn.dataset.cat || 'all';
+      applyFilters();
+    });
+  });
+
+  if (!prefersReducedMotion) {
+    // --- Hero entrance timeline ---
+    const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+
+    heroTl.from('.gs-hero', {
+      opacity: 0,
+      y: 12,
+      duration: 0.5,
+      stagger: 0.15,
+    }, 0.2);
+
+    const h1El = document.querySelector('.h1-chars');
+    if (h1El) {
+      const text = h1El.textContent || '';
+      h1El.textContent = '';
+      const chars: HTMLSpanElement[] = [];
+      for (const c of text) {
+        if (c === ' ') {
+          h1El.appendChild(document.createTextNode(' '));
+        } else {
+          const span = document.createElement('span');
+          span.className = 'h1-char';
+          span.textContent = c;
+          h1El.appendChild(span);
+          chars.push(span);
+        }
+      }
+
+      heroTl.from(chars, {
+        opacity: 0,
+        x: -20,
+        duration: 0.4,
+        stagger: 0.03,
+        ease: 'power2.out',
+      }, 0.1);
+    }
+
+    heroTl.from('.gs-form', {
+      opacity: 0,
+      y: 16,
+      duration: 0.5,
+    }, 0.6);
+
+    // --- Scroll-triggered: clip-reveal H2s ---
+    document.querySelectorAll('.gs-clip-reveal').forEach(el => {
+      gsap.set(el, { clipPath: 'inset(0 100% 0 0)' });
+      gsap.to(el, {
+        clipPath: 'inset(0 0% 0 0)',
+        duration: 0.8,
+        ease: 'power3.inOut',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 85%',
+          once: true,
+        },
+      });
+    });
+
+    document.querySelectorAll('.gs-fade-up').forEach(el => {
+      gsap.from(el, {
+        opacity: 0,
+        y: 24,
+        duration: 0.6,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 88%',
+          once: true,
+        },
+      });
+    });
+
+    const faqItems = document.querySelectorAll('.gs-faq-item');
+    if (faqItems.length) {
+      gsap.from(faqItems, {
+        opacity: 0,
+        y: 16,
+        duration: 0.4,
+        stagger: 0.08,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: faqItems[0],
+          start: 'top 85%',
+          once: true,
+        },
+      });
+    }
+
+    document.querySelectorAll('.gs-faq-item').forEach(details => {
+      const summary = details.querySelector('summary');
+      const content = details.querySelector('p');
+      if (!summary || !content) return;
+
+      summary.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (details.hasAttribute('open')) {
+          gsap.to(content, {
+            height: 0,
+            opacity: 0,
+            duration: 0.3,
+            ease: 'power2.inOut',
+            onComplete: () => {
+              details.removeAttribute('open');
+              gsap.set(content, { height: 'auto', opacity: 1 });
+            },
+          });
+        } else {
+          details.setAttribute('open', '');
+          const h = content.scrollHeight;
+          gsap.set(content, { height: 0, opacity: 0 });
+          gsap.to(content, {
+            height: h,
+            opacity: 1,
+            duration: 0.3,
+            ease: 'power2.out',
+          });
+        }
+      });
+    });
+
+    // --- Waitlist Form Morph Animation ---
+    const waitlistForm = document.getElementById('waitlist-form');
+    const waitlistContentLayer = document.getElementById('waitlist-content-layer');
+    const waitlistLoading = document.getElementById('waitlist-loading');
+    const waitlistSuccess = document.getElementById('waitlist-success');
+
+    if (waitlistForm && waitlistContentLayer && waitlistLoading && waitlistSuccess) {
+      waitlistForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const height = waitlistForm.offsetHeight;
+        waitlistForm.style.minHeight = `${height}px`;
+
+        waitlistContentLayer.classList.add('is-hidden');
+        waitlistLoading.classList.add('is-visible');
+
+        setTimeout(() => {
+          waitlistLoading.classList.remove('is-visible');
+          waitlistLoading.classList.add('is-hidden');
+          waitlistSuccess.classList.add('is-visible');
+        }, 1500);
+      });
+    }
+  }
+</script>
+
+<style>
+  /* ---- 1. Tool hero ---- */
+  .tool-hero {
+    padding: 104px 20px 60px;
+    margin-right: 275px;
+  }
+
+  .hero-inner {
+    max-width: 780px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .back-link {
+    display: inline-block;
+    color: var(--dark);
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    margin-bottom: 24px;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 200ms;
+  }
+
+  .back-link:hover { opacity: 1; }
+
+  .back-link:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 2px;
+  }
+
+  .tool-hero h1 {
+    font-family: var(--font-label);
+    font-size: var(--bebas-display-size);
+    color: var(--dark);
+    letter-spacing: var(--bebas-display-tracking);
+    text-transform: uppercase;
+    margin: 0 0 12px;
+    line-height: 1.1;
+  }
+
+  .tool-hero h1 :global(.h1-char) {
+    display: inline-block;
+  }
+
+  .hero-intro {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 1.05rem;
+    color: rgba(46, 42, 38, 0.8);
+    max-width: 560px;
+    margin: 0 0 40px;
+    line-height: 1.5;
+  }
+
+  /* ---- Search input ---- */
+  .search-input {
+    width: 100%;
+    height: 52px;
+    padding: 0 18px 0 44px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    background-color: transparent;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%232E2A2660' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 14px center;
+    border: 1px solid rgba(46, 42, 38, 0.3);
+    color: var(--dark);
+    outline: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    transition: border-color 300ms ease, background-color 300ms ease, box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  .search-input::placeholder {
+    color: var(--cream-muted);
+  }
+
+  .search-input:focus {
+    border-color: var(--accent);
+    background-color: var(--cream);
+    box-shadow: 0 4px 16px var(--accent-soft);
+  }
+
+  /* ---- Category filters ---- */
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 20px 0 8px;
+  }
+
+  .cat-btn {
+    font-family: var(--font-label);
+    font-size: var(--ts-btn-filter-size);
+    letter-spacing: var(--ts-btn-filter-tracking);
+    text-transform: uppercase;
+    padding: var(--ts-btn-filter-padding);
+    background: transparent;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+    white-space: nowrap;
+  }
+
+  .cat-btn:hover {
+    background: var(--accent);
+    color: var(--cream);
+  }
+
+  .cat-btn.is-active {
+    background: var(--accent);
+    color: var(--cream);
+    border-color: var(--accent);
+  }
+
+  .cat-btn:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  /* ---- Abbreviations list ---- */
+  .abbr-list {
+    list-style: none;
+    margin: 16px 0 0;
+    padding: 0;
+    border-top: 2px solid var(--dark);
+  }
+
+  .abbr-row {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 20px;
+    padding: 14px 4px;
+    border-bottom: 1px solid var(--cream-muted);
+    align-items: baseline;
+  }
+
+  .abbr-term {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--dark);
+    letter-spacing: 0.01em;
+  }
+
+  .abbr-def {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 0.98rem;
+    color: var(--dark);
+    opacity: 0.85;
+    line-height: 1.5;
+  }
+
+  .no-results {
+    font-family: var(--font-body);
+    color: var(--accent);
+    font-size: 1rem;
+    padding: 16px 0;
+    margin: 0;
+  }
+
+  /* ---- 2. SEO content ---- */
+  .seo-content {
+    padding: 64px 20px;
+  }
+
+  .content-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .seo-content h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1rem;
+    margin-top: 48px;
+  }
+
+  .seo-content h2:first-child {
+    margin-top: 0;
+  }
+
+  .seo-content p {
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+
+  .seo-content p + p {
+    margin-top: 1rem;
+  }
+
+  .seo-content p strong {
+    font-weight: 600;
+  }
+
+  .seo-content code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.92em;
+    background: rgba(46, 42, 38, 0.08);
+    padding: 1px 6px;
+    border-radius: 2px;
+    color: var(--dark);
+  }
+
+  .seo-content a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .seo-content a:hover {
+    opacity: 0.8;
+  }
+
+  /* ---- 3. FAQ ---- */
+  .tool-faq {
+    padding: 48px 20px 64px;
+  }
+
+  .faq-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .tool-faq h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .faq details {
+    border-bottom: 1px solid var(--cream-muted);
+  }
+
+  .faq summary {
+    padding: 1.2rem 0;
+    cursor: pointer;
+    color: var(--dark);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 1.05rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 200ms ease;
+  }
+
+  .faq summary::-webkit-details-marker { display: none; }
+
+  .faq summary:hover {
+    color: var(--accent);
+  }
+
+  .faq summary :global(.faq-icon) {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-left: 1rem;
+    transition: transform 300ms ease;
+    border-radius: 50%;
+  }
+
+  .faq details[open] summary :global(.faq-icon) {
+    transform: rotate(45deg);
+  }
+
+  .faq details p {
+    padding-bottom: 1.2rem;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--text-on-light-muted);
+    line-height: 1.7;
+  }
+
+  /* ---- 4. Waitlist CTA ---- */
+  .waitlist-cta {
+    padding: 48px 20px 80px;
+    text-align: center;
+  }
+
+  .waitlist-inner {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .waitlist-cta h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 12px;
+  }
+
+  .waitlist-desc {
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+
+  .waitlist-form {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-content-layer,
+  .waitlist-loading-state,
+  .waitlist-success {
+    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .waitlist-content-layer {
+    width: 100%;
+  }
+
+  .waitlist-content-layer.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.96);
+    position: absolute;
+  }
+
+  .waitlist-row {
+    display: flex;
+    gap: 0;
+    width: 100%;
+  }
+
+  .waitlist-input {
+    flex: 1;
+    padding: 14px 18px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    background: white;
+    border: 2px solid var(--cream-muted);
+    border-right: none;
+    color: var(--dark);
+    outline: none;
+    border-radius: 0;
+  }
+
+  .waitlist-input::placeholder {
+    color: var(--text-on-light-muted);
+  }
+
+  .waitlist-input:focus {
+    border-color: var(--accent);
+    box-shadow: none;
+  }
+
+  .waitlist-btn {
+    padding: 14px 28px;
+    font-family: var(--font-label);
+    font-size: var(--bebas-ui-size);
+    letter-spacing: var(--bebas-ui-tracking);
+    text-transform: uppercase;
+    background: var(--accent);
+    color: var(--cream);
+    border: 2px solid var(--accent);
+    cursor: pointer;
+    transition: background 200ms;
+    white-space: nowrap;
+  }
+
+  .waitlist-btn:hover {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+  }
+
+  .waitlist-btn:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+
+  .waitlist-loading-state {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-loading-state.is-visible {
+    position: relative;
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+
+  .waitlist-loading-state.is-hidden {
+    position: absolute;
+    opacity: 0;
+    transform: scale(1.2);
+    pointer-events: none;
+  }
+
+  .big-spinner {
+    animation: waitlistSpin 1.2s cubic-bezier(0.6, 0.1, 0.4, 0.9) infinite;
+  }
+
+  @keyframes waitlistSpin {
+    100% { transform: rotate(360deg); }
+  }
+
+  .waitlist-success {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px) scale(0.98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-success.is-visible {
+    opacity: 1;
+    position: relative;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+    transition-delay: 100ms;
+  }
+
+  .success-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  .success-label {
+    font-family: var(--font-label);
+    font-size: var(--bebas-display-size);
+    color: var(--accent);
+    line-height: 1;
+    letter-spacing: var(--bebas-display-tracking);
+    text-transform: uppercase;
+  }
+
+  .success-sub {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    color: var(--dark);
+    font-weight: 500;
+    margin-top: 8px;
+    letter-spacing: -0.01em;
+  }
+
+  /* ---- Desktop ---- */
+  @media (min-width: 769px) {
+    .tool-hero {
+      padding: 104px 48px 60px;
+    }
+
+    .hero-inner,
+    .content-inner,
+    .faq-inner,
+    .waitlist-inner {
+      padding-right: var(--safe-pr-desktop);
+    }
+
+    .seo-content {
+      padding: 64px 48px;
+    }
+
+    .tool-faq {
+      padding: 48px 48px 64px;
+    }
+
+    .waitlist-cta {
+      padding: 48px 48px 80px;
+    }
+  }
+
+  /* ---- Mobile ---- */
+  @media (max-width: 768px) {
+    .tool-hero {
+      margin-right: 135px;
+    }
+
+    .abbr-row {
+      grid-template-columns: 110px 1fr;
+      gap: 14px;
+      padding: 12px 2px;
+    }
+
+    .cat-btn {
+      font-size: var(--ts-btn-filter-size-sm);
+      padding: var(--ts-btn-filter-padding-sm);
+    }
+
+    .waitlist-row {
+      flex-direction: column;
+    }
+
+    .waitlist-input {
+      border-right: 2px solid var(--cream-muted);
+      border-bottom: none;
+    }
+
+    .waitlist-input:focus {
+      border-color: var(--accent);
+    }
+
+    .waitlist-btn {
+      border-top: 2px solid var(--accent);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .back-link,
+    .waitlist-btn,
+    .faq summary,
+    .faq summary :global(.faq-icon),
+    .cat-btn {
+      transition: none;
+    }
+  }
+</style>

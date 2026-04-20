@@ -1,0 +1,938 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { Image } from 'astro:assets';
+import faqButton from '../../assets/images/faq-button.webp';
+---
+
+<PageLayout
+  title="Knitting Needle Size Chart: US, UK, Metric & Japanese Conversion"
+  description="Convert knitting needle sizes between US, UK, metric (mm), and Japanese systems. Searchable chart with recommended yarn weights per needle size."
+  canonicalPath="/tools/needle-size-chart"
+  showStripe={true}
+>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Knitting Needle Size Chart",
+    "description": "Convert knitting needle sizes between US, UK, metric (mm), and Japanese systems.",
+    "url": "https://knittoolsapp.com/tools/needle-size-chart",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  })} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can I substitute a close needle size if I don't have the exact one?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can, but a 0.5 mm jump often shifts gauge enough to matter. Swatch again for anything fitted."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are needle sizes the same across all brands?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "They should be. In practice there are slight differences, especially on cheaper sets or older needles. If your gauge is persistently off, measure the needle."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What about circular needle sizes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Same sizing as straights. The size describes tip diameter, not cable length. A 4.5 mm circular is a 4.5 mm needle whether the cable is short for a hat or long for magic loop."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need every needle size?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Most knitters live in a handful of sizes matching the yarns they use most. If you're working with Medium and Light yarns, you'll reach for 3.75 to 5.5 mm constantly."
+        }
+      }
+    ]
+  })} />
+
+  <!-- 1. Tool hero -->
+  <section class="tool-hero">
+    <div class="hero-inner">
+      <a href="/tools/" class="back-link reveal reveal-left">&larr; All tools</a>
+      <h1 class="gs-h1" aria-label="Needle Size Chart"><span class="h1-chars">Needle Size Chart</span></h1>
+      <p class="hero-intro gs-hero">Convert between US, UK, metric, and Japanese needle sizes. Type any size to find its match.</p>
+
+      <div class="table-wrapper gs-form">
+        <input
+          type="text"
+          id="needle-search"
+          class="search-input"
+          placeholder='Search any size (e.g. "4.5", "US 7", "UK 7")'
+          autocomplete="off"
+        />
+        <div class="table-scroll">
+          <table class="needle-table" id="needle-table">
+            <thead>
+              <tr>
+                <th>Metric (mm)</th>
+                <th>US</th>
+                <th>UK/Canadian</th>
+                <th>Japanese</th>
+                <th>Yarn Weight</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-mm="1.5" data-us="000" data-uk="" data-jp=""><td class="col-mm">1.5</td><td>000</td><td>&mdash;</td><td>&mdash;</td><td>Lace</td></tr>
+              <tr data-mm="1.75" data-us="00" data-uk="" data-jp=""><td class="col-mm">1.75</td><td>00</td><td>&mdash;</td><td>&mdash;</td><td>Lace</td></tr>
+              <tr data-mm="2.0" data-us="0" data-uk="14" data-jp="0"><td class="col-mm">2.0</td><td>0</td><td>14</td><td>0</td><td>Lace</td></tr>
+              <tr data-mm="2.25" data-us="1" data-uk="13" data-jp=""><td class="col-mm">2.25</td><td>1</td><td>13</td><td>&mdash;</td><td>Super Fine</td></tr>
+              <tr data-mm="2.5" data-us="1.5" data-uk="" data-jp=""><td class="col-mm">2.5</td><td>1.5</td><td>&mdash;</td><td>&mdash;</td><td>Super Fine</td></tr>
+              <tr data-mm="2.75" data-us="2" data-uk="12" data-jp="2"><td class="col-mm">2.75</td><td>2</td><td>12</td><td>2</td><td>Super Fine</td></tr>
+              <tr data-mm="3.0" data-us="2.5" data-uk="11" data-jp="3"><td class="col-mm">3.0</td><td>2.5</td><td>11</td><td>3</td><td>Fine</td></tr>
+              <tr data-mm="3.25" data-us="3" data-uk="10" data-jp=""><td class="col-mm">3.25</td><td>3</td><td>10</td><td>&mdash;</td><td>Fine</td></tr>
+              <tr data-mm="3.5" data-us="4" data-uk="" data-jp="5"><td class="col-mm">3.5</td><td>4</td><td>&mdash;</td><td>5</td><td>Fine</td></tr>
+              <tr data-mm="3.75" data-us="5" data-uk="9" data-jp=""><td class="col-mm">3.75</td><td>5</td><td>9</td><td>&mdash;</td><td>Light</td></tr>
+              <tr data-mm="4.0" data-us="6" data-uk="8" data-jp="6"><td class="col-mm">4.0</td><td>6</td><td>8</td><td>6</td><td>Light</td></tr>
+              <tr data-mm="4.5" data-us="7" data-uk="7" data-jp="8"><td class="col-mm">4.5</td><td>7</td><td>7</td><td>8</td><td>Medium</td></tr>
+              <tr data-mm="5.0" data-us="8" data-uk="6" data-jp="10"><td class="col-mm">5.0</td><td>8</td><td>6</td><td>10</td><td>Medium</td></tr>
+              <tr data-mm="5.5" data-us="9" data-uk="5" data-jp=""><td class="col-mm">5.5</td><td>9</td><td>5</td><td>&mdash;</td><td>Medium</td></tr>
+              <tr data-mm="6.0" data-us="10" data-uk="4" data-jp="13"><td class="col-mm">6.0</td><td>10</td><td>4</td><td>13</td><td>Bulky</td></tr>
+              <tr data-mm="6.5" data-us="10.5" data-uk="3" data-jp=""><td class="col-mm">6.5</td><td>10.5</td><td>3</td><td>&mdash;</td><td>Bulky</td></tr>
+              <tr data-mm="7.0" data-us="" data-uk="2" data-jp=""><td class="col-mm">7.0</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>Bulky</td></tr>
+              <tr data-mm="8.0" data-us="11" data-uk="0" data-jp=""><td class="col-mm">8.0</td><td>11</td><td>0</td><td>&mdash;</td><td>Super Bulky</td></tr>
+              <tr data-mm="9.0" data-us="13" data-uk="00" data-jp=""><td class="col-mm">9.0</td><td>13</td><td>00</td><td>&mdash;</td><td>Super Bulky</td></tr>
+              <tr data-mm="10.0" data-us="15" data-uk="000" data-jp=""><td class="col-mm">10.0</td><td>15</td><td>000</td><td>&mdash;</td><td>Super Bulky</td></tr>
+              <tr data-mm="12.0" data-us="17" data-uk="" data-jp=""><td class="col-mm">12.0</td><td>17</td><td>&mdash;</td><td>&mdash;</td><td>Jumbo</td></tr>
+              <tr data-mm="12.75" data-us="" data-uk="" data-jp=""><td class="col-mm">12.75</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>Jumbo</td></tr>
+              <tr data-mm="15.0" data-us="19" data-uk="" data-jp=""><td class="col-mm">15.0</td><td>19</td><td>&mdash;</td><td>&mdash;</td><td>Jumbo</td></tr>
+              <tr data-mm="16.0" data-us="19" data-uk="" data-jp=""><td class="col-mm">16.0</td><td>19</td><td>&mdash;</td><td>&mdash;</td><td>Jumbo</td></tr>
+              <tr data-mm="19.0" data-us="35" data-uk="" data-jp=""><td class="col-mm">19.0</td><td>35</td><td>&mdash;</td><td>&mdash;</td><td>Jumbo</td></tr>
+              <tr data-mm="25.0" data-us="50" data-uk="" data-jp=""><td class="col-mm">25.0</td><td>50</td><td>&mdash;</td><td>&mdash;</td><td>Jumbo</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="no-results" id="no-results" hidden>No matching needle size found.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SEO content -->
+  <section class="seo-content">
+    <div class="content-inner">
+      <h2 class="gs-clip-reveal">Why there are four different systems</h2>
+      <p class="gs-fade-up">Metric is the only system that tells you what the needle actually measures. A 4.0 mm needle is 4.0 mm. Done.</p>
+      <p class="gs-fade-up">US sizes are labels. A US 7 means 4.5 mm and a US 8 means 5.0 mm, but nothing about those numbers hints at a diameter.</p>
+      <p class="gs-fade-up">Old UK and Canadian sizes run backward. A UK 14 is tiny, and the numbers shrink as needles grow until you hit 0, 00, and 000. Most modern UK patterns give metric, but the old system still shows up on vintage needles and secondhand pattern leaflets.</p>
+      <p class="gs-fade-up">Japanese sizes track close to metric but not perfectly. Japanese size 6 is 3.9 mm, Japanese size 8 is 4.5 mm. That offset matters most in fine gauges where a few tenths of a millimeter change the finished fabric.</p>
+
+      <h2 class="gs-clip-reveal">When metric is the safe bet</h2>
+      <p class="gs-fade-up">Trust the millimeter size first. It's the actual measurement, and it sidesteps conversion mistakes entirely.</p>
+      <p class="gs-fade-up">When a pattern calls for "US 7," what you need in your hand is 4.5 mm. Some brands print both numbers on the needle. Some don't. Old markings wear off. A needle gauge tool is worth keeping nearby for exactly this reason.</p>
+
+      <h2 class="gs-clip-reveal">Common conversion pitfalls</h2>
+      <p class="gs-fade-up">A few sizes trip people up consistently.</p>
+      <p class="gs-fade-up"><strong>The UK reversal.</strong> US sizes go up as needles get bigger. Old UK sizes go down. A US 6 is 4.0 mm. A UK 6 is 5.0 mm. Swap those and your swatch is off by a full millimeter before you've knit a single row. That trips up more people than you'd expect.</p>
+      <p class="gs-fade-up"><strong>The missing one-to-one matches.</strong> Not every metric size has a clean equivalent in every other system. A 3.0 mm needle is sometimes labeled US 2.5 by some brands, while other charts place it between US 2 and US 3. A 3.5 mm needle usually has no old UK equivalent at all. When that happens, go back to the mm size and ignore the rest.</p>
+      <p class="gs-fade-up"><strong>Japanese near-misses.</strong> Japanese sizes don't line up cleanly with US numbers. Japanese size 8 is 4.5 mm (matching US 7), but Japanese size 5 is 3.6 mm and doesn't sit neatly in the US system at all. If you're working from a Japanese pattern, match the mm value. Not the printed number. Always the mm value.</p>
+      <p class="gs-fade-up"><strong>Half sizes and odd sizes are real.</strong> 2.5 mm, 3.0 mm, and 6.5 mm needles are standard production sizes even if your interchangeable set skipped them. This is why "go up half a size" sometimes turns into a rummage through the whole project bag.</p>
+      <p class="gs-fade-up"><strong>Old pattern leaflets give no system label.</strong> A pattern from the 1970s that says "size 6 needles" could mean US 6 (4.0 mm) or UK 6 (5.0 mm) depending on which country published it. Check the publisher, then check the chart.</p>
+
+      <h2 class="gs-clip-reveal">Needle size and yarn weight pairing</h2>
+      <p class="gs-fade-up">The chart can get you into the right neighborhood. Your swatch decides the exact address.</p>
+      <p class="gs-fade-up">The current Craft Yarn Council weight system pairs lace with 1.5 to 2.25 mm, Super Fine with 2.25 to 3.25 mm, Fine with 3.25 to 3.75 mm, Light with 3.75 to 4.5 mm, Medium with 4.5 to 5.5 mm, Bulky with 5.5 to 8 mm, Super Bulky with 8 to 12.75 mm, and Jumbo at 12.75 mm and up.</p>
+      <p class="gs-fade-up">Those ranges overlap on purpose. DK can make a firm hat fabric on a smaller needle or an airy shawl fabric on a larger one. The pattern gauge tells you which direction the designer intended. If you're not sure which yarn category you're holding, the <a href="/tools/yarn-weight-chart">yarn weight chart</a> is the better place to start.</p>
+
+      <h2 class="gs-clip-reveal">How to measure unmarked needles</h2>
+      <p class="gs-fade-up">Vintage needles, hand-turned wooden needles, and well-used interchangeables all end up with missing markings sooner or later. A needle gauge (sometimes called a needle sizer) fixes that. Slide the shaft into the holes until you find the one that fits cleanly without forcing.</p>
+      <p class="gs-fade-up">Measure on the shaft, not the tip. The tapered point reads smaller than the working part of the needle. Wrong answer every time.</p>
+      <p class="gs-fade-up">Most needle gauges show metric and US sizes, some include Japanese sizing too. If yours doesn't, use this needle size guide to find the mm equivalent and then knit a quick <a href="/articles/how-to-measure-knitting-gauge">gauge swatch</a> to confirm before you commit to the full project. If you're also choosing a <a href="/articles/knitting-needle-materials">needle material</a>, that's a separate decision from size.</p>
+    </div>
+  </section>
+
+  <!-- 3. FAQ -->
+  <section class="tool-faq">
+    <div class="faq-inner">
+      <h2 class="gs-clip-reveal">Frequently asked questions</h2>
+      <div class="faq">
+        <details class="gs-faq-item">
+          <summary>Can I substitute a close needle size if I don't have the exact one? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>You can, but a 0.5 mm jump often shifts gauge enough to matter. Swatch again for anything fitted.</p>
+        </details>
+        <details class="gs-faq-item">
+          <summary>Are needle sizes the same across all brands? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>They should be. In practice there are slight differences, especially on cheaper sets or older needles. If your gauge is persistently off, measure the needle.</p>
+        </details>
+        <details class="gs-faq-item">
+          <summary>What about circular needle sizes? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>Same sizing as straights. The size describes tip diameter, not cable length. A 4.5 mm circular is a 4.5 mm needle whether the cable is short for a hat or long for magic loop.</p>
+        </details>
+        <details class="gs-faq-item">
+          <summary>Do I need every needle size? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <p>No. Most knitters live in a handful of sizes matching the yarns they use most. If you're working with Medium and Light yarns, you'll reach for 3.75 to 5.5 mm constantly.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Waitlist CTA -->
+  <section class="waitlist-cta">
+    <div class="waitlist-inner">
+      <form class="waitlist-form" action="#" method="post" id="waitlist-form">
+        <div class="waitlist-content-layer" id="waitlist-content-layer">
+          <h2 class="gs-clip-reveal">There's more in the app</h2>
+          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators, in one app. Join the waitlist to get notified at launch.</p>
+          <div class="waitlist-row gs-fade-up" id="waitlist-row">
+            <input type="email" placeholder="your@email.com" required class="waitlist-input" />
+            <button type="submit" class="waitlist-btn" id="waitlist-btn">Join Waitlist</button>
+          </div>
+        </div>
+
+        <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
+          <Image src={faqButton} alt="Loading..." width={112} height={112} class="big-spinner" />
+        </div>
+
+        <div class="waitlist-success" id="waitlist-success" aria-hidden="true">
+          <p class="success-text">
+            <span class="success-label">You're in!</span>
+            <span class="success-sub">We'll notify you at launch.</span>
+          </p>
+        </div>
+      </form>
+    </div>
+  </section>
+</PageLayout>
+
+<script>
+  import { gsap } from 'gsap';
+  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // --- Search filtering (works regardless of motion preference) ---
+  const searchInput = document.getElementById('needle-search') as HTMLInputElement | null;
+  const table = document.getElementById('needle-table');
+  const noResults = document.getElementById('no-results');
+
+  if (searchInput && table && noResults) {
+    const rows = table.querySelectorAll('tbody tr');
+
+    searchInput.addEventListener('input', () => {
+      const raw = searchInput.value.trim().toLowerCase();
+
+      if (!raw) {
+        rows.forEach(r => (r as HTMLElement).style.display = '');
+        noResults.hidden = true;
+        return;
+      }
+
+      // Detect system prefix
+      let targetCol: string | null = null;
+      let query = raw;
+
+      if (raw.startsWith('us ')) {
+        targetCol = 'us';
+        query = raw.slice(3).trim();
+      } else if (raw.startsWith('uk ')) {
+        targetCol = 'uk';
+        query = raw.slice(3).trim();
+      } else if (raw.startsWith('jp ') || raw.startsWith('japanese ')) {
+        targetCol = 'jp';
+        query = raw.replace(/^(jp|japanese)\s+/, '').trim();
+      }
+
+      let visibleCount = 0;
+
+      rows.forEach(r => {
+        const row = r as HTMLElement;
+        const mm = row.dataset.mm || '';
+        const us = row.dataset.us || '';
+        const uk = row.dataset.uk || '';
+        const jp = row.dataset.jp || '';
+
+        let match = false;
+
+        if (targetCol === 'us') {
+          match = us === query;
+        } else if (targetCol === 'uk') {
+          match = uk === query;
+        } else if (targetCol === 'jp') {
+          match = jp === query;
+        } else {
+          // Search all columns
+          match = mm.startsWith(query) || us === query || uk === query || jp === query;
+        }
+
+        row.style.display = match ? '' : 'none';
+        if (match) visibleCount++;
+      });
+
+      noResults.hidden = visibleCount > 0;
+    });
+
+  }
+
+  if (!prefersReducedMotion) {
+    // --- Hero entrance timeline ---
+    const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+
+    heroTl.from('.gs-hero', {
+      opacity: 0,
+      y: 12,
+      duration: 0.5,
+      stagger: 0.15,
+    }, 0.2);
+
+    const h1El = document.querySelector('.h1-chars');
+    if (h1El) {
+      const text = h1El.textContent || '';
+      h1El.textContent = '';
+      const chars: HTMLSpanElement[] = [];
+      for (const c of text) {
+        if (c === ' ') {
+          h1El.appendChild(document.createTextNode(' '));
+        } else {
+          const span = document.createElement('span');
+          span.className = 'h1-char';
+          span.textContent = c;
+          h1El.appendChild(span);
+          chars.push(span);
+        }
+      }
+
+      heroTl.from(chars, {
+        opacity: 0,
+        x: -20,
+        duration: 0.4,
+        stagger: 0.03,
+        ease: 'power2.out',
+      }, 0.1);
+    }
+
+    // Table + search fade in
+    heroTl.from('.gs-form', {
+      opacity: 0,
+      y: 16,
+      duration: 0.5,
+    }, 0.6);
+
+    // --- Scroll-triggered: clip-reveal H2s ---
+    document.querySelectorAll('.gs-clip-reveal').forEach(el => {
+      gsap.set(el, { clipPath: 'inset(0 100% 0 0)' });
+      gsap.to(el, {
+        clipPath: 'inset(0 0% 0 0)',
+        duration: 0.8,
+        ease: 'power3.inOut',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 85%',
+          once: true,
+        },
+      });
+    });
+
+    // --- Scroll-triggered: fade up paragraphs ---
+    document.querySelectorAll('.gs-fade-up').forEach(el => {
+      gsap.from(el, {
+        opacity: 0,
+        y: 24,
+        duration: 0.6,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 88%',
+          once: true,
+        },
+      });
+    });
+
+    // --- FAQ items staggered on scroll ---
+    const faqItems = document.querySelectorAll('.gs-faq-item');
+    if (faqItems.length) {
+      gsap.from(faqItems, {
+        opacity: 0,
+        y: 16,
+        duration: 0.4,
+        stagger: 0.08,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: faqItems[0],
+          start: 'top 85%',
+          once: true,
+        },
+      });
+    }
+
+    // --- FAQ accordion smooth height ---
+    document.querySelectorAll('.gs-faq-item').forEach(details => {
+      const summary = details.querySelector('summary');
+      const content = details.querySelector('p');
+      if (!summary || !content) return;
+
+      summary.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (details.hasAttribute('open')) {
+          gsap.to(content, {
+            height: 0,
+            opacity: 0,
+            duration: 0.3,
+            ease: 'power2.inOut',
+            onComplete: () => {
+              details.removeAttribute('open');
+              gsap.set(content, { height: 'auto', opacity: 1 });
+            },
+          });
+        } else {
+          details.setAttribute('open', '');
+          const h = content.scrollHeight;
+          gsap.set(content, { height: 0, opacity: 0 });
+          gsap.to(content, {
+            height: h,
+            opacity: 1,
+            duration: 0.3,
+            ease: 'power2.out',
+          });
+        }
+      });
+    });
+
+    // --- Waitlist Form Morph Animation ---
+    const waitlistForm = document.getElementById('waitlist-form');
+    const waitlistContentLayer = document.getElementById('waitlist-content-layer');
+    const waitlistLoading = document.getElementById('waitlist-loading');
+    const waitlistSuccess = document.getElementById('waitlist-success');
+
+    if (waitlistForm && waitlistContentLayer && waitlistLoading && waitlistSuccess) {
+      waitlistForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const height = waitlistForm.offsetHeight;
+        waitlistForm.style.minHeight = `${height}px`;
+
+        waitlistContentLayer.classList.add('is-hidden');
+        waitlistLoading.classList.add('is-visible');
+
+        setTimeout(() => {
+          waitlistLoading.classList.remove('is-visible');
+          waitlistLoading.classList.add('is-hidden');
+          waitlistSuccess.classList.add('is-visible');
+        }, 1500);
+      });
+    }
+  }
+</script>
+
+<style>
+  /* ---- 1. Tool hero ---- */
+  .tool-hero {
+    padding: 104px 20px 60px;
+    margin-right: 275px;
+  }
+
+  .hero-inner {
+    max-width: 780px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .back-link {
+    display: inline-block;
+    color: var(--dark);
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    margin-bottom: 24px;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 200ms;
+  }
+
+  .back-link:hover { opacity: 1; }
+
+  .back-link:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 2px;
+  }
+
+  .tool-hero h1 {
+    font-family: var(--font-label);
+    font-size: var(--bebas-display-size);
+    color: var(--dark);
+    letter-spacing: var(--bebas-display-tracking);
+    text-transform: uppercase;
+    margin: 0 0 12px;
+    line-height: 1.1;
+  }
+
+  .tool-hero h1 :global(.h1-char) {
+    display: inline-block;
+  }
+
+  .hero-intro {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 1.05rem;
+    color: rgba(46, 42, 38, 0.8);
+    max-width: 500px;
+    margin: 0 0 40px;
+    line-height: 1.5;
+  }
+
+  /* ---- Search input ---- */
+  .search-input {
+    width: 100%;
+    height: 52px;
+    padding: 0 18px 0 44px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    background-color: transparent;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%232E2A2660' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 14px center;
+    border: 1px solid rgba(46, 42, 38, 0.3);
+    border-bottom: none;
+    color: var(--dark);
+    outline: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    transition: border-color 300ms ease, background-color 300ms ease, box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  .search-input::placeholder {
+    color: var(--cream-muted);
+  }
+
+  .search-input:focus {
+    border-color: var(--accent);
+    background-color: var(--cream);
+    box-shadow: 0 4px 16px var(--accent-soft);
+  }
+
+  /* ---- Table ---- */
+  .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .needle-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .needle-table th {
+    font-family: var(--font-label);
+    font-size: var(--ts-table-header-size);
+    letter-spacing: var(--ts-table-header-tracking);
+    text-transform: uppercase;
+    color: var(--dark);
+    padding: 12px 14px;
+    text-align: left;
+    border-top: 1px solid rgba(46, 42, 38, 0.3);
+    white-space: nowrap;
+    border-bottom: 2px solid var(--dark);
+  }
+
+  .needle-table td {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: var(--ts-table-cell-size);
+    color: var(--dark);
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--cream-muted);
+  }
+
+  .needle-table tbody tr:nth-child(even) {
+    background-color: var(--cream-muted);
+  }
+
+  .needle-table tbody tr:hover {
+    background-color: rgba(46, 42, 38, 0.08);
+  }
+
+  .col-mm {
+    font-weight: 600;
+  }
+
+  .no-results {
+    font-family: var(--font-body);
+    color: var(--accent);
+    font-size: 1rem;
+    padding: 16px 0;
+    margin: 0;
+  }
+
+  /* ---- 2. SEO content ---- */
+  .seo-content {
+    padding: 64px 20px;
+  }
+
+  .content-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .seo-content h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1rem;
+    margin-top: 48px;
+  }
+
+  .seo-content h2:first-child {
+    margin-top: 0;
+  }
+
+  .seo-content p {
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+
+  .seo-content p + p {
+    margin-top: 1rem;
+  }
+
+  .seo-content p strong {
+    font-weight: 600;
+  }
+
+  .seo-content a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .seo-content a:hover {
+    opacity: 0.8;
+  }
+
+  /* ---- 3. FAQ ---- */
+  .tool-faq {
+    padding: 48px 20px 64px;
+  }
+
+  .faq-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .tool-faq h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .faq details {
+    border-bottom: 1px solid var(--cream-muted);
+  }
+
+  .faq summary {
+    padding: 1.2rem 0;
+    cursor: pointer;
+    color: var(--dark);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 1.05rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 200ms ease;
+  }
+
+  .faq summary::-webkit-details-marker { display: none; }
+
+  .faq summary:hover {
+    color: var(--accent);
+  }
+
+  .faq summary :global(.faq-icon) {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-left: 1rem;
+    transition: transform 300ms ease;
+    border-radius: 50%;
+  }
+
+  .faq details[open] summary :global(.faq-icon) {
+    transform: rotate(45deg);
+  }
+
+  .faq details p {
+    padding-bottom: 1.2rem;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--text-on-light-muted);
+    line-height: 1.7;
+  }
+
+  /* ---- 4. Waitlist CTA ---- */
+  .waitlist-cta {
+    padding: 48px 20px 80px;
+    text-align: center;
+  }
+
+  .waitlist-inner {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .waitlist-cta h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 12px;
+  }
+
+  .waitlist-desc {
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+
+  .waitlist-form {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-content-layer,
+  .waitlist-loading-state,
+  .waitlist-success {
+    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .waitlist-content-layer {
+    width: 100%;
+  }
+
+  .waitlist-content-layer.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.96);
+    position: absolute;
+  }
+
+  .waitlist-row {
+    display: flex;
+    gap: 0;
+    width: 100%;
+  }
+
+  .waitlist-input {
+    flex: 1;
+    padding: 14px 18px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    background: white;
+    border: 2px solid var(--cream-muted);
+    border-right: none;
+    color: var(--dark);
+    outline: none;
+    border-radius: 0;
+  }
+
+  .waitlist-input::placeholder {
+    color: var(--text-on-light-muted);
+  }
+
+  .waitlist-input:focus {
+    border-color: var(--accent);
+    box-shadow: none;
+  }
+
+  .waitlist-btn {
+    padding: 14px 28px;
+    font-family: var(--font-label);
+    font-size: var(--bebas-ui-size);
+    letter-spacing: var(--bebas-ui-tracking);
+    text-transform: uppercase;
+    background: var(--accent);
+    color: var(--cream);
+    border: 2px solid var(--accent);
+    cursor: pointer;
+    transition: background 200ms;
+    white-space: nowrap;
+  }
+
+  .waitlist-btn:hover {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+  }
+
+  .waitlist-btn:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+
+  .waitlist-loading-state {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-loading-state.is-visible {
+    position: relative;
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+
+  .waitlist-loading-state.is-hidden {
+    position: absolute;
+    opacity: 0;
+    transform: scale(1.2);
+    pointer-events: none;
+  }
+
+  .big-spinner {
+    animation: waitlistSpin 1.2s cubic-bezier(0.6, 0.1, 0.4, 0.9) infinite;
+  }
+
+  @keyframes waitlistSpin {
+    100% { transform: rotate(360deg); }
+  }
+
+  .waitlist-success {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px) scale(0.98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-success.is-visible {
+    opacity: 1;
+    position: relative;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+    transition-delay: 100ms;
+  }
+
+  .success-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  .success-label {
+    font-family: var(--font-label);
+    font-size: var(--bebas-display-size);
+    color: var(--accent);
+    line-height: 1;
+    letter-spacing: var(--bebas-display-tracking);
+    text-transform: uppercase;
+  }
+
+  .success-sub {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    color: var(--dark);
+    font-weight: 500;
+    margin-top: 8px;
+    letter-spacing: -0.01em;
+  }
+
+  /* ---- Desktop ---- */
+  @media (min-width: 769px) {
+    .tool-hero {
+      padding: 104px 48px 60px;
+    }
+
+    .hero-inner,
+    .content-inner,
+    .faq-inner,
+    .waitlist-inner {
+      padding-right: var(--safe-pr-desktop);
+    }
+
+    .seo-content {
+      padding: 64px 48px;
+    }
+
+    .tool-faq {
+      padding: 48px 48px 64px;
+    }
+
+    .waitlist-cta {
+      padding: 48px 48px 80px;
+    }
+  }
+
+  /* ---- Mobile ---- */
+  @media (max-width: 768px) {
+    .tool-hero {
+      margin-right: 135px;
+    }
+
+    .waitlist-row {
+      flex-direction: column;
+    }
+
+    .waitlist-input {
+      border-right: 2px solid var(--cream-muted);
+      border-bottom: none;
+    }
+
+    .waitlist-input:focus {
+      border-color: var(--accent);
+    }
+
+    .waitlist-btn {
+      border-top: 2px solid var(--accent);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .back-link,
+    .waitlist-btn,
+    .faq summary,
+    .faq summary :global(.faq-icon) {
+      transition: none;
+    }
+  }
+</style>

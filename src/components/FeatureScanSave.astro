@@ -1,0 +1,190 @@
+---
+import PhoneMockup from './PhoneMockup.astro';
+import yarnCardLight from '../assets/images/yarn-card-light.png';
+---
+
+<section class="feature-scan">
+  <div class="feature-inner">
+    <div class="feature-row">
+      <div class="feature-text reveal reveal-left">
+        <span class="section-tag tag-rose">YARN SCANNER</span>
+        <h2><span class="accent">Scan.</span> Save.<br><span class="accent-italic">Never</span> lose a yarn label again.</h2>
+        <div class="sub-features">
+          <div class="sub-feature">
+            <h3 class="sub-title">Label OCR Scanning</h3>
+            <p>Point your camera at any yarn label. AI reads the details: fiber content, weight, gauge, care symbols. Saves it as a digital yarn card.</p>
+          </div>
+          <div class="sub-feature">
+            <h3 class="sub-title">AI Instruction Parser</h3>
+            <p>Paste your pattern instructions and let AI fill in calculator values automatically.</p>
+          </div>
+        </div>
+      </div>
+      <div class="feature-phones reveal reveal-right reveal-delay-2">
+        <div class="scanner-wrapper">
+          <div class="phone-main">
+            <PhoneMockup screenshot={yarnCardLight} alt="KnitTools yarn card scanner" theme="light" class="phone-lg" />
+          </div>
+          <div class="info-card ic-top-left">Merino Wool 80%</div>
+          <div class="info-card ic-top-right">100g / 200m</div>
+          <div class="info-card ic-bottom-left avocado">DK Weight</div>
+          <div class="info-card ic-bottom-right rose">Care: Machine wash</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .feature-scan {
+    position: relative;
+    z-index: 1;
+    padding: 120px 20px;
+  }
+
+  /* Diagonal background — from right, terracotta */
+  .feature-scan::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 45%;
+    left: 0;
+    right: 275px;
+    background-color: var(--stripe-terracotta);
+    clip-path: polygon(62% 0%, 100% 0%, 100% 100%, 55% 100%);
+    z-index: 0;
+  }
+
+  .feature-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .feature-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .tag-rose { color: var(--dusty-rose); }
+
+  .feature-text {
+    position: relative;
+    z-index: 2;
+  }
+
+  .feature-text h2 {
+    color: var(--text-on-light);
+    margin-bottom: 2rem;
+  }
+
+
+  .sub-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .sub-title {
+    color: var(--accent);
+    font-family: var(--font-label);
+    font-size: var(--bebas-ui-size);
+    letter-spacing: var(--bebas-ui-tracking);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .sub-feature p {
+    color: var(--text-on-light-muted);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    max-width: 480px;
+  }
+
+  .feature-phones {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .scanner-wrapper {
+    position: relative;
+  }
+
+  .phone-main {
+    position: relative;
+    z-index: 2;
+  }
+
+  .phone-main :global(.phone-lg) { width: 300px; }
+
+  .info-card {
+    position: absolute;
+    background: var(--cream);
+    color: var(--text-on-light);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 10px 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    white-space: nowrap;
+    z-index: 3;
+  }
+
+  .info-card.avocado { color: var(--avocado); }
+  .info-card.rose { color: var(--dusty-rose); }
+
+  .ic-top-left { top: 5%; left: -50px; }
+  .ic-top-right { top: 20%; right: -60px; }
+  .ic-bottom-left { bottom: 30%; left: -40px; }
+  .ic-bottom-right { bottom: 15%; right: -50px; }
+
+  @media (min-width: 769px) {
+    .feature-scan { padding: 140px 0 140px 20px; }
+
+    .feature-row {
+      flex-direction: row;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .feature-text { flex: 1.3; }
+    .feature-phones { flex: 1; }
+
+    .phone-main :global(.phone-lg) { width: 320px; }
+
+    .sub-feature p { margin: 0; }
+  }
+
+  @media (max-width: 768px) {
+    .feature-scan { padding: 80px 20px; }
+
+    .feature-scan::before {
+      height: 40%;
+      right: 135px;
+      clip-path: polygon(0% 5%, 100% 0%, 100% 100%, 0% 95%);
+    }
+
+    .feature-text { text-align: center; }
+    .sub-feature p { margin: 0 auto; }
+
+    .phone-main :global(.phone-lg) { width: 240px; }
+
+    .info-card {
+      font-size: 0.7rem;
+      padding: 6px 10px;
+    }
+
+    .ic-top-left { left: -10px; }
+    .ic-top-right { right: -10px; }
+    .ic-bottom-left { left: 0; }
+    .ic-bottom-right { right: 0; }
+  }
+</style>

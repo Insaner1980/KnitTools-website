@@ -1,0 +1,87 @@
+---
+import PageLayout from './PageLayout.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  publishDate: Date;
+  updatedDate?: Date;
+  tags: string[];
+}
+
+const { title, description, publishDate, updatedDate, tags } = Astro.props;
+const formattedDate = publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+const formattedUpdated = updatedDate?.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<PageLayout title={title} description={description}>
+  <article class="article-page">
+    <header class="article-header container">
+      <h1>{title}</h1>
+      <div class="article-meta">
+        <time datetime={publishDate.toISOString()}>{formattedDate}</time>
+        {formattedUpdated && <span class="updated">(Updated {formattedUpdated})</span>}
+        {tags.length > 0 && (
+          <div class="article-tags">
+            {tags.map(tag => <span class="tag">{tag}</span>)}
+          </div>
+        )}
+      </div>
+    </header>
+    <div class="prose container">
+      <slot />
+    </div>
+    <div class="article-cta container">
+      <div class="cta-card">
+        <h3>Try KnitTools for Android</h3>
+        <p>Get more knitting tools: row counter, yarn stash organizer, and more.</p>
+        <span class="coming-soon-text">Coming soon on Android</span>
+      </div>
+    </div>
+  </article>
+</PageLayout>
+
+<style>
+  .article-page {
+    background: var(--cream);
+    padding: 80px 0 96px;
+  }
+
+  .article-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .article-header h1 {
+    color: var(--text-on-light);
+    margin-bottom: 16px;
+  }
+
+  .article-meta {
+    color: var(--text-on-light-muted);
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .updated { color: var(--text-on-light-muted); }
+  .article-tags { display: flex; gap: 8px; }
+
+  .article-cta { margin-top: 80px; }
+
+  .cta-card {
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    border-radius: 24px;
+    padding: 40px 32px;
+    box-shadow: 0 2px 12px rgba(26, 17, 11, 0.06);
+  }
+
+  .cta-card h3 { color: var(--text-on-light); margin-bottom: 8px; }
+  .cta-card p { color: var(--text-on-light-muted); margin-bottom: 16px; }
+</style>

@@ -1,0 +1,175 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import articlesBanner from '../../assets/images/articles-banner.png';
+
+const articles = await getCollection('articles', ({ data }) => !data.draft);
+const sortedArticles = articles.sort(
+  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
+---
+
+<PageLayout
+  title="Knitting Guides & Tips"
+  description="Helpful knitting guides, tips, and tutorials for knitters of all levels."
+  canonicalPath="/articles"
+>
+  <div class="articles-header">
+    <Image
+      src={articlesBanner}
+      alt="Knitting pattern book with terracotta yarn and wooden needles"
+      widths={[800, 1200, 1400]}
+      sizes="100vw"
+      loading="eager"
+    />
+    <h1>Knitting Guides & Tips</h1>
+  </div>
+
+  <div class="articles-body">
+    {sortedArticles.length === 0 ? (
+      <div class="empty-state">
+        <p>Articles coming soon. We're working on helpful knitting guides.</p>
+        <a href="/#tools">Try our free knitting calculators &rarr;</a>
+      </div>
+    ) : (
+      <ul class="article-list">
+        {sortedArticles.map(article => (
+          <li>
+            <a href={`/articles/${article.id}`} class="article-card">
+              <h2>{article.data.title}</h2>
+              <p class="article-desc">{article.data.description}</p>
+              <div class="article-meta">
+                <time datetime={article.data.publishDate.toISOString()}>
+                  {article.data.publishDate.toLocaleDateString('en-US', {
+                    year: 'numeric', month: 'long', day: 'numeric',
+                  })}
+                </time>
+                {article.data.tags.length > 0 && (
+                  <div class="article-tags">
+                    {article.data.tags.map(tag => <span class="tag">{tag}</span>)}
+                  </div>
+                )}
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+</PageLayout>
+
+<style>
+  .articles-header {
+    width: 100%;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .articles-header :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .articles-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 70%;
+    background: linear-gradient(to top, rgba(46, 42, 38, 0.8), transparent);
+  }
+
+  .articles-header h1 {
+    position: absolute;
+    bottom: 32px;
+    left: 48px;
+    color: white;
+    font-size: 2.5rem;
+    z-index: 1;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .articles-body {
+    background: var(--cream);
+    padding: 64px 48px;
+    min-height: 40vh;
+  }
+
+  .empty-state {
+    max-width: 480px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    border-radius: 24px;
+    padding: 48px 32px;
+    box-shadow: 0 2px 12px rgba(26, 17, 11, 0.06);
+  }
+
+  .empty-state p {
+    color: var(--text-on-light-muted);
+    font-size: 1.05rem;
+    margin-bottom: 24px;
+  }
+
+  .empty-state a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .article-list {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .article-card {
+    display: block;
+    background: white;
+    border-radius: 20px;
+    padding: 28px 24px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 2px 12px rgba(26, 17, 11, 0.06);
+    transition: all 300ms;
+  }
+
+  .article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(26, 17, 11, 0.12);
+  }
+
+  .article-card h2 {
+    font-size: 1.3rem;
+    color: var(--text-on-light);
+    margin-bottom: 8px;
+  }
+
+  .article-desc {
+    color: var(--text-on-light-muted);
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+  }
+
+  .article-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 0.85rem;
+    color: var(--text-on-light-muted);
+  }
+
+  .article-tags { display: flex; gap: 8px; }
+
+  @media (max-width: 768px) {
+    .articles-header { height: 200px; }
+    .articles-header h1 { font-size: 2rem; left: 24px; bottom: 24px; }
+    .articles-body { padding: 48px 24px; }
+  }
+</style>

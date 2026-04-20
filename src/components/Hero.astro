@@ -1,0 +1,404 @@
+---
+import { Image } from 'astro:assets';
+import PhoneMockup from './PhoneMockup.astro';
+import counterLight from '../assets/images/counter-light.png';
+import faqButton from '../assets/images/faq-button.webp';
+---
+
+<section class="hero dot-grid-cream">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="section-tag reveal reveal-delay-1">A knitting toolkit for Android &middot; launching soon</span>
+      <h1 class="reveal reveal-delay-1">Pick up where you <em class="accent-italic">left off.</em></h1>
+      <p class="hero-desc reveal reveal-delay-2">The row you were on, the yarn you forgot, the pattern that made no sense at midnight. <strong>KnitTools remembers it all</strong>, so the only thing you need to do is <strong>keep knitting.</strong></p>
+      <form class="hero-signup waitlist-form reveal reveal-delay-3" id="hero-signup-form" action="#" method="post">
+        <div class="waitlist-content-layer" id="hero-content-layer">
+          <div class="signup-row waitlist-row">
+            <input type="email" placeholder="your@email.com" required class="signup-input waitlist-input" />
+            <button type="submit" class="signup-btn waitlist-btn">Join the list</button>
+          </div>
+          <p class="hero-meta waitlist-meta">Lock in the launch price: <strong>&euro;8.99</strong> &rarr; &euro;11.99 two months after launch</p>
+        </div>
+
+        <div class="waitlist-loading-state" id="hero-loading" aria-hidden="true">
+          <Image src={faqButton} alt="Loading..." width={112} height={112} class="big-spinner" />
+        </div>
+
+        <div class="waitlist-success" id="hero-success" aria-hidden="true">
+          <p class="success-text">
+            <span class="success-label">You're in!</span>
+            <span class="success-sub">We'll email you at launch.</span>
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="hero-phone-area reveal reveal-delay-3">
+      <div class="hero-phone-wrapper">
+        <canvas class="hero-phone-canvas" data-screenshot={counterLight.src}></canvas>
+        <div class="hero-phone-fallback">
+          <PhoneMockup screenshot={counterLight} alt="KnitTools row counter showing a live knitting project" theme="light" class="hero-phone" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  let frameId: number;
+
+  async function initHeroPhone() {
+    if (window.innerWidth < 769 || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      return;
+    }
+
+    const canvas = document.querySelector('.hero-phone-canvas') as HTMLCanvasElement;
+    if (!canvas) return;
+
+    try {
+      const THREE = await import('three');
+
+      const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+      renderer.setSize(400, 600);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+      const scene = new THREE.Scene();
+
+      const camera = new THREE.PerspectiveCamera(40, 400 / 600, 0.1, 100);
+      camera.position.z = 6.2;
+
+      const group = new THREE.Group();
+      scene.add(group);
+
+      scene.add(new THREE.AmbientLight(0xffffff, 0.8));
+      const dirLight = new THREE.DirectionalLight(0xffffff, 1.0);
+      dirLight.position.set(5, 5, 5);
+      scene.add(dirLight);
+
+      const shape = new THREE.Shape();
+      const w = 2.0;
+      const h = 4.2;
+      const r = 0.3;
+      shape.moveTo(-w/2 + r, h/2);
+      shape.lineTo(w/2 - r, h/2);
+      shape.quadraticCurveTo(w/2, h/2, w/2, h/2 - r);
+      shape.lineTo(w/2, -h/2 + r);
+      shape.quadraticCurveTo(w/2, -h/2, w/2 - r, -h/2);
+      shape.lineTo(-w/2 + r, -h/2);
+      shape.quadraticCurveTo(-w/2, -h/2, -w/2, -h/2 + r);
+      shape.lineTo(-w/2, h/2 - r);
+      shape.quadraticCurveTo(-w/2, h/2, -w/2 + r, h/2);
+
+      const extrudeSettings = { depth: 0.15, bevelEnabled: true, bevelSegments: 3, steps: 1, bevelSize: 0.03, bevelThickness: 0.03 };
+      const geometry = new THREE.ExtrudeGeometry(shape, extrudeSettings);
+      geometry.translate(0, 0, -0.075);
+
+      const material = new THREE.MeshStandardMaterial({ color: 0x111111, metalness: 0.7, roughness: 0.2 });
+      const phone = new THREE.Mesh(geometry, material);
+      group.add(phone);
+
+      const texUrl = canvas.getAttribute('data-screenshot');
+      if (texUrl) {
+        const texture = new THREE.TextureLoader().load(texUrl);
+        texture.colorSpace = THREE.SRGBColorSpace;
+
+        const screenw = w - 0.1;
+        const screenh = h - 0.1;
+        const screenGeom = new THREE.PlaneGeometry(screenw, screenh);
+        const screenMat = new THREE.MeshBasicMaterial({ map: texture });
+        const screen = new THREE.Mesh(screenGeom, screenMat);
+        screen.position.z = 0.076;
+        group.add(screen);
+      }
+
+      const notchGeom = new THREE.CapsuleGeometry(0.06, 0.5, 4, 8);
+      notchGeom.rotateZ(Math.PI/2);
+      const notchMat = new THREE.MeshBasicMaterial({ color: 0x000000 });
+      const notch = new THREE.Mesh(notchGeom, notchMat);
+      notch.position.set(0, h/2 - 0.12, 0.077);
+      group.add(notch);
+
+      group.rotation.x = 0.08;
+      group.rotation.y = -0.25;
+
+      const clock = new THREE.Clock();
+
+      function animate() {
+        frameId = requestAnimationFrame(animate);
+        const t = clock.getElapsedTime();
+        group.rotation.x = 0.08 + Math.sin(t * 0.3) * 0.03;
+        group.rotation.y = -0.25 + Math.sin(t * 0.5) * 0.1;
+        renderer.render(scene, camera);
+      }
+
+      animate();
+
+    } catch (err) {
+      console.warn("Failed to load Three.js component, falling back to CSS mockup.", err);
+      canvas.style.display = 'none';
+      const fallback = document.querySelector('.hero-phone-fallback') as HTMLElement;
+      if (fallback) fallback.style.display = 'block';
+    }
+  }
+
+  document.addEventListener('astro:page-load', () => {
+    if (frameId) cancelAnimationFrame(frameId);
+    initHeroPhone();
+  });
+
+  initHeroPhone();
+
+  const heroForm = document.getElementById('hero-signup-form') as HTMLFormElement | null;
+  const heroContentLayer = document.getElementById('hero-content-layer');
+  const heroLoading = document.getElementById('hero-loading');
+  const heroSuccess = document.getElementById('hero-success');
+
+  if (heroForm && heroContentLayer && heroLoading && heroSuccess) {
+    heroForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const height = heroForm.offsetHeight;
+      heroForm.style.minHeight = `${height}px`;
+
+      heroContentLayer.classList.add('is-hidden');
+      heroLoading.classList.add('is-visible');
+
+      setTimeout(() => {
+        heroLoading.classList.remove('is-visible');
+        heroLoading.classList.add('is-hidden');
+        heroSuccess.classList.add('is-visible');
+      }, 1500);
+    });
+  }
+</script>
+
+<style>
+  .hero {
+    position: relative;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-inner {
+    max-width: var(--container-page-max);
+    margin: 0 auto;
+    padding: 2.5rem 20px 4.5rem 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    width: 100%;
+  }
+
+  .hero-text {
+    text-align: center;
+    width: 100%;
+    max-width: 440px;
+  }
+
+  .hero h1 {
+    color: var(--text-on-light);
+    margin-bottom: 1rem;
+  }
+
+  .hero .section-tag {
+    margin-bottom: 1.25rem;
+  }
+
+  .hero-desc {
+    font-size: var(--type-body-lg);
+    color: var(--text-on-light-muted);
+    max-width: 420px;
+    line-height: 1.7;
+    margin: 0 auto 1.5rem;
+  }
+
+  .hero-signup {
+    margin: 0 auto 0.75rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: var(--container-form-max);
+  }
+
+  .hero-meta {
+    margin: 0.6rem 0 0;
+  }
+
+  .waitlist-content-layer,
+  .waitlist-loading-state,
+  .waitlist-success {
+    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .waitlist-content-layer {
+    width: 100%;
+  }
+
+  .waitlist-content-layer.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.96);
+    position: absolute;
+  }
+
+  .waitlist-loading-state {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-loading-state.is-visible {
+    position: relative;
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+
+  .waitlist-loading-state.is-hidden {
+    position: absolute;
+    opacity: 0;
+    transform: scale(1.2);
+    pointer-events: none;
+  }
+
+  .big-spinner {
+    animation: heroSpin 1.2s cubic-bezier(0.6, 0.1, 0.4, 0.9) infinite;
+  }
+
+  @keyframes heroSpin {
+    100% { transform: rotate(360deg); }
+  }
+
+  .waitlist-success {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px) scale(0.98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-success.is-visible {
+    opacity: 1;
+    position: relative;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+    transition-delay: 100ms;
+  }
+
+  .success-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  .success-label {
+    font-family: var(--font-label);
+    font-size: var(--bebas-display-size);
+    color: var(--accent);
+    line-height: 1;
+    letter-spacing: var(--bebas-display-tracking);
+    text-transform: uppercase;
+  }
+
+  .success-sub {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--text-on-light-muted);
+    margin-top: 0.5rem;
+  }
+
+  .hero-phone-area {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .hero-phone-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-phone-canvas {
+    display: none;
+    outline: none;
+    filter: drop-shadow(30px 30px 40px rgba(0,0,0,0.15)) drop-shadow(12px 12px 20px rgba(0,0,0,0.1));
+  }
+
+  .hero-phone-fallback {
+    display: block;
+  }
+
+  .hero-phone-fallback :global(.hero-phone) {
+    width: 340px;
+    transform: perspective(800px) rotateY(-15deg) rotateX(5deg);
+  }
+
+  .hero-phone-fallback :global(.hero-phone .phone-body) {
+    box-shadow:
+      30px 30px 80px rgba(0,0,0,0.30),
+      12px 12px 30px rgba(0,0,0,0.18);
+  }
+
+  @media (min-width: 769px) {
+    .hero-phone-canvas {
+      display: block;
+    }
+    .hero-phone-fallback {
+      display: none;
+    }
+
+    .hero-inner {
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 10rem 0 8rem 20px;
+      gap: 0;
+    }
+
+    .hero-text {
+      flex: 1.5;
+      text-align: left;
+    }
+
+    .hero-desc {
+      margin: 0 0 2rem;
+    }
+
+    .hero-signup {
+      margin: 0 0 0.75rem;
+    }
+
+    .hero-phone-area {
+      flex: 1;
+      justify-content: center;
+      margin-top: 7rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      min-height: auto;
+    }
+
+    .hero-phone-fallback :global(.hero-phone) {
+      width: min(72vw, 248px);
+      transform: perspective(800px) rotateY(-8deg) rotateX(3deg);
+    }
+  }
+</style>

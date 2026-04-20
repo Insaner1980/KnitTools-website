@@ -1,0 +1,72 @@
+---
+---
+
+<section class="feature-knit">
+  <div class="feature-inner reveal">
+    <span class="section-tag">ROW COUNTER</span>
+    <h2>Stay on Track</h2>
+    <p class="feature-desc">The row counter tracks every stitch with haptic feedback and an always-on screen. Add pattern repeats, shaping counters, and row reminders. Use voice commands to count hands-free.</p>
+    <div class="feature-pills">
+      <span class="pill">Row Counter</span>
+      <span class="pill">Stitch Tracking</span>
+      <span class="pill">Voice Commands</span>
+      <span class="pill">Row Reminders</span>
+      <span class="pill">Session Timer</span>
+      <span class="pill">Pattern Viewer</span>
+    </div>
+  </div>
+</section>
+
+<style>
+  .feature-knit {
+    position: relative;
+    z-index: 1;
+    padding: 80px 20px;
+  }
+
+  .feature-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .feature-inner h2 {
+    color: var(--text-on-light);
+    margin-bottom: 1.5rem;
+  }
+
+  .feature-desc {
+    color: var(--text-on-light-muted);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  .feature-pills {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .pill {
+    display: inline-block;
+    padding: 6px 16px;
+    background: var(--cream-muted);
+    border-radius: 9999px;
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--text-on-light-muted);
+  }
+
+  @media (min-width: 769px) {
+    .feature-knit {
+      padding: 120px 48px;
+    }
+    .feature-inner {
+      padding-right: var(--safe-pr-desktop);
+    }
+  }
+</style>

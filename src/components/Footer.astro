@@ -1,0 +1,116 @@
+---
+---
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h4 class="footer-heading bebas-label">TOOLS</h4>
+        <a href="/tools/cast-on-calculator">Cast On Calculator</a>
+        <a href="/tools/yarn-estimator">Yarn Estimator</a>
+        <a href="/tools/needle-size-chart">Needle Size Chart</a>
+        <a href="/tools/yarn-weight-chart">Yarn Weight Chart</a>
+        <a href="/tools/knitting-size-charts">Knitting Size Charts</a>
+        <a href="/tools/knitting-abbreviations">Knitting Abbreviations</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading bebas-label">ARTICLES</h4>
+        <a href="/articles?category=gauge">Gauge &amp; Calculations</a>
+        <a href="/articles?category=yarn">Yarn</a>
+        <a href="/articles?category=needles">Needles</a>
+        <a href="/articles?category=techniques">Techniques</a>
+        <a href="/articles?category=app">App &amp; Tools</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading bebas-label">APP</h4>
+        <span class="footer-plain">Launching soon</span>
+        <a href="https://finnvek.com/privacy" target="_blank" rel="noopener noreferrer">Privacy</a>
+      </div>
+    </div>
+
+    <p class="footer-bottom">Finnvek &middot; <a href="mailto:contact@finnvek.com">contact@finnvek.com</a> &middot; &copy; 2026</p>
+  </div>
+</footer>
+
+<style>
+  footer {
+    padding: 40px 20px 32px;
+    background: var(--stripe-brown);
+    color: var(--cream);
+  }
+
+  .footer-inner {
+    max-width: var(--container-page-max);
+    margin: 0 auto;
+  }
+
+  .footer-columns {
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-heading {
+    color: var(--mustard);
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-col a,
+  .footer-plain {
+    font-family: var(--font-body);
+    font-size: var(--type-body-sm);
+    color: var(--cream);
+    text-decoration: none;
+    transition: color 200ms;
+  }
+
+  .footer-col a:hover {
+    color: var(--mustard);
+  }
+
+  .footer-bottom {
+    text-align: center;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: rgba(232, 228, 208, 0.5);
+  }
+
+  .footer-bottom a {
+    color: rgba(232, 228, 208, 0.5);
+    text-decoration: none;
+    transition: color 200ms;
+  }
+
+  .footer-bottom a:hover {
+    color: var(--cream);
+  }
+
+  @media (min-width: 769px) {
+    footer {
+      padding: 48px 20px 32px;
+    }
+
+    .footer-columns,
+    .footer-bottom {
+      margin-right: clamp(0px, calc(290px - (100vw - 1400px) / 2), 290px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-columns {
+      flex-direction: column;
+      gap: 2rem;
+      margin-right: 145px;
+    }
+
+    .footer-bottom {
+      margin-right: 145px;
+    }
+  }
+</style>

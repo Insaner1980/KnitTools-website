@@ -1,0 +1,54 @@
+---
+/**
+ * StripeRibbon — Vertical retro frame.
+ * 
+ * CSS handles the straight sections (dynamically sizing to the viewport).
+ * Goes all the way down the page linearly.
+ */
+
+const colors = [
+  { v: 'var(--stripe-teal)' },
+  { v: 'var(--stripe-rust)' },
+  { v: 'var(--stripe-sand)' },
+  { v: 'var(--stripe-brown)' },
+  { v: 'var(--stripe-terracotta)' }
+];
+---
+
+<div class="stripe-ribbon" aria-hidden="true">
+  {colors.map((col, i) => (
+    <div class="stripe-v" style={`--idx: ${i}; background: ${col.v}`}></div>
+  ))}
+</div>
+
+<style>
+  .stripe-ribbon {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: var(--stripe-width-desktop);
+    z-index: 2;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .stripe-v {
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    width: var(--stripe-column-width-desktop);
+    right: calc(var(--idx) * var(--stripe-column-width-desktop));
+  }
+
+  @media (max-width: 768px) {
+    .stripe-ribbon {
+      width: var(--stripe-width-mobile);
+    }
+
+    .stripe-v {
+      width: var(--stripe-column-width-mobile);
+      right: calc(var(--idx) * var(--stripe-column-width-mobile));
+    }
+  }
+</style>

@@ -1,0 +1,64 @@
+---
+import { Image } from 'astro:assets';
+import logoBadge from '../assets/images/logo-badge.webp';
+---
+
+<a href="/" class="page-brand-mark" aria-label="KnitTools home">
+  <Image src={logoBadge} alt="KnitTools logo" class="page-brand-image" widths={[128, 192, 256, 320]} sizes="(max-width: 768px) 128px, 192px" />
+</a>
+
+<style>
+  .page-brand-mark {
+    position: fixed;
+    top: 8px;
+    left: 24px;
+    z-index: 110;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .page-brand-mark:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 6px;
+  }
+
+  .page-brand-image {
+    width: 192px;
+    flex: 0 0 auto;
+    height: auto;
+  }
+
+  .page-brand-text {
+    display: inline-block;
+    font-family: var(--font-logo);
+    font-size: 2.35rem;
+    font-weight: 500;
+    line-height: 0.9;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent);
+    transform: translateY(2px);
+    text-shadow: 0 6px 18px rgba(46, 42, 38, 0.08);
+  }
+
+  @media (max-width: 768px) {
+    .page-brand-mark {
+      top: 8px;
+      left: 12px;
+      gap: 0;
+    }
+
+    .page-brand-image {
+      width: 128px;
+    }
+
+    .page-brand-text {
+      display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .page-brand-mark {}
+  }
+</style>

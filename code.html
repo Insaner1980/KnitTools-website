@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>KnitTools — Every tool a knitter needs.</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-fixed-dim": "#e4c285",
+                        "on-primary-fixed": "#261900",
+                        "secondary": "#d5c4b3",
+                        "on-primary-fixed-variant": "#5a4312",
+                        "error": "#ffb4ab",
+                        "primary-container": "#c9a96e",
+                        "on-secondary-container": "#c6b6a5",
+                        "tertiary-container": "#b5ac9f",
+                        "on-secondary": "#392f23",
+                        "outline": "#998f81",
+                        "on-primary": "#412d00",
+                        "surface-variant": "#40322a",
+                        "surface-container-high": "#34271f",
+                        "on-tertiary-fixed-variant": "#4c463c",
+                        "on-tertiary-fixed": "#1f1b13",
+                        "surface-container-low": "#251912",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary": "#353026",
+                        "inverse-surface": "#f5ded2",
+                        "inverse-primary": "#745a27",
+                        "outline-variant": "#4d463a",
+                        "tertiary": "#d1c7ba",
+                        "on-secondary-fixed-variant": "#504538",
+                        "surface-tint": "#e4c285",
+                        "secondary-fixed": "#f2e0ce",
+                        "background": "#1c110a",
+                        "on-primary-container": "#543d0c",
+                        "surface-bright": "#44362e",
+                        "tertiary-fixed-dim": "#cec5b8",
+                        "inverse-on-surface": "#3b2e25",
+                        "error-container": "#93000a",
+                        "on-error": "#690005",
+                        "primary-fixed": "#ffdea4",
+                        "surface-container": "#291d15",
+                        "surface": "#1c110a",
+                        "primary": "#e6c487",
+                        "surface-container-highest": "#40322a",
+                        "on-surface": "#f5ded2",
+                        "on-surface-variant": "#d0c5b5",
+                        "on-background": "#f5ded2",
+                        "surface-container-lowest": "#160c06",
+                        "secondary-container": "#53473a",
+                        "on-secondary-fixed": "#231a0f",
+                        "surface-dim": "#1c110a",
+                        "secondary-fixed-dim": "#d5c4b3",
+                        "tertiary-fixed": "#ebe1d3",
+                        "on-tertiary-container": "#464036"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>body {
+    background-color: #1c110a;
+    position: relative
+    }
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuATjbzSh3tU3OTW1w7ajUOhm-Grh8_EzjgtoY1BWTPm0-1_fk4Ipuc0P-EpZ551t40M03RXWit7camXjdjGCnP_Xy3qaDunoL7SreQ0a5XsuGQhdiqY5518oQZ2mdwVUQ-sQ_XSgGYlsc9s8ZqWNqSFZQsUZrgoT63Xvzy60tBBPRCJtUOfE_DJi0NiY_4KWSMYuSwedFG-EwmsazXY8NxNjxZoe6EDGlqm3JKrzYX1tkJo-RZYZiKhgmF0mXy5P_HQerkEC1EEOYrA);
+    opacity: 0.03;
+    pointer-events: none;
+    z-index: 50
+    }
+.editorial-overlay {
+    background: linear-gradient(to bottom, rgba(28, 17, 10, 0.4), rgba(28, 17, 10, 0.9))
+    }
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24
+    }
+.glass-nav {
+    backdrop-filter: blur(20px)
+    }</style>
+</head>
+<body class="font-body text-on-surface antialiased">
+<!-- TopNavBar (Shared Component) -->
+<nav class="fixed top-0 z-[100] w-full glass-nav bg-[#1c110a]/80">
+<div class="flex justify-between items-center w-full px-8 py-6 max-w-7xl mx-auto">
+<div class="text-2xl font-serif italic text-[#e6c487] tracking-wider">KnitTools</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-[#e6c487] border-b border-[#e6c487]/30 pb-1 font-medium transition-colors duration-300" href="#">Features</a>
+<a class="text-[#f5ded2]/70 hover:text-[#e6c487] transition-colors duration-300" href="#">The Atelier</a>
+<a class="text-[#f5ded2]/70 hover:text-[#e6c487] transition-colors duration-300" href="#">Community</a>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-semibold hover:scale-95 transition-all active:scale-90">Get the App</button>
+</div>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<!-- Section 1: Hero -->
+<section class="relative min-height-[921px] pt-32 pb-20 px-8 overflow-hidden">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div class="space-y-8">
+<h1 class="text-5xl md:text-7xl font-serif text-on-surface leading-tight">
+                    Every tool a knitter needs. <span class="italic text-primary">One app.</span>
+</h1>
+<p class="text-lg md:text-xl text-on-surface-variant max-w-lg leading-relaxed">
+                    Row counter, calculators, yarn scanner, and reference guides — all in one beautiful app.
+                </p>
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
+<button class="bg-primary text-on-primary px-10 py-4 rounded-full text-lg font-bold shadow-2xl shadow-primary/10 hover:brightness-110 transition-all">
+                        Get the App
+                    </button>
+<span class="italic text-on-surface-variant font-serif text-lg">Coming soon on Android</span>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -inset-10 bg-primary/5 blur-3xl rounded-full"></div>
+<!-- Phone Mockup Light UI -->
+<div class="relative mx-auto w-full max-w-[320px] aspect-[9/19] bg-[#f5ded2] rounded-[3rem] border-[8px] border-surface-container-highest shadow-2xl overflow-hidden">
+<div class="absolute top-0 w-full h-8 bg-transparent flex justify-center items-end pb-1">
+<div class="w-20 h-5 bg-surface-container-highest rounded-b-xl"></div>
+</div>
+<div class="p-6 pt-12 flex flex-col h-full text-surface">
+<div class="flex justify-between items-center mb-10">
+<h3 class="font-serif text-xl font-bold">Merino Beanie</h3>
+<span class="material-symbols-outlined text-surface/40">more_vert</span>
+</div>
+<div class="flex-1 flex flex-col items-center justify-center space-y-8">
+<div class="text-[8rem] font-serif leading-none text-primary-container">47</div>
+<div class="flex gap-4 w-full">
+<button class="flex-1 aspect-square bg-surface-container-low/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl">remove</span>
+</button>
+<button class="flex-1 aspect-square bg-primary/20 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl text-on-primary-container">add</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-2 mt-auto pt-6 text-[10px] font-bold uppercase tracking-widest text-center">
+<div class="text-primary border-b-2 border-primary pb-2">Projects</div>
+<div class="text-surface/40 pb-2">Tools</div>
+<div class="text-surface/40 pb-2">Reference</div>
+</div>
+</div>
+</div>
+<img class="hidden" data-alt="close-up of a high-end smartphone with a minimal cream colored knitting app interface displayed on screen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA41PJpDDH489u9v02d_8coykwiu41qdujkMNMAxS3r3xbpeeg_rEQjHDyqGE9FswQKCleXwXvbUhdzIcSkrKvIWKgpkolizIGReot5my_tGWiLdyB4T-_CggT4IfPQ3m1Ldkd8dqEBEbReBgUM7aUsfXj99iRPMRg7ayIuPfqBhaHBUYyFvzoSJ0tbPQ4HsN9MGpJ4qtJQmDjXSUBnur2F-EQqZEOJZSC5bkauu6oLRMdrCY5wTj7bdbropPEmXwWsfB6xFOMx1Kc5"/>
+</div>
+</div>
+</section>
+<!-- Section 2: Feature: Calculators -->
+<section class="py-24 px-8 relative overflow-hidden bg-surface-container-lowest">
+<!-- Radial Glow -->
+<div class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-[#f5ded2] opacity-10 blur-[120px] rounded-full"></div>
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+<div class="order-2 md:order-1 relative">
+<!-- Phone Mockup Dark UI -->
+<div class="relative mx-auto w-full max-w-[300px] aspect-[9/19] bg-surface-container-high rounded-[3rem] border-[6px] border-outline-variant shadow-2xl overflow-hidden">
+<div class="p-8 space-y-6">
+<div class="space-y-2 mb-8">
+<h4 class="font-serif text-2xl text-on-surface">Calculators</h4>
+<div class="h-0.5 w-12 bg-primary"></div>
+</div>
+<div class="space-y-4">
+<div class="flex items-center gap-4 p-4 rounded-xl bg-surface-variant/30 border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary">straighten</span>
+<span class="text-sm font-medium">Gauge Calculator</span>
+</div>
+<div class="flex items-center gap-4 p-4 rounded-xl bg-surface-variant/30 border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary">trending_up</span>
+<span class="text-sm font-medium">Increase/Decrease</span>
+</div>
+<div class="flex items-center gap-4 p-4 rounded-xl bg-surface-variant/30 border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary">grid_view</span>
+<span class="text-sm font-medium">Cast On</span>
+</div>
+<div class="flex items-center gap-4 p-4 rounded-xl bg-surface-variant/30 border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary">inventory_2</span>
+<span class="text-sm font-medium">Yarn Estimator</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="order-1 md:order-2 space-y-10">
+<h2 class="text-4xl md:text-5xl font-serif text-on-surface leading-snug">
+                    Four calculators for every <span class="italic">knitting math</span>
+</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+<div class="space-y-2">
+<h5 class="font-bold text-primary">Gauge Perfection</h5>
+<p class="text-on-surface-variant text-sm leading-relaxed">Instantly convert swatch measurements to final project stitch counts.</p>
+</div>
+<div class="space-y-2">
+<h5 class="font-bold text-primary">Inc/Dec Spacing</h5>
+<p class="text-on-surface-variant text-sm leading-relaxed">Mathematically perfect spacing for shaping sleeves and necklines.</p>
+</div>
+<div class="space-y-2">
+<h5 class="font-bold text-primary">Cast-On Master</h5>
+<p class="text-on-surface-variant text-sm leading-relaxed">Determine exactly how many stitches to start with for any size.</p>
+</div>
+<div class="space-y-2">
+<h5 class="font-bold text-primary">Yarn Estimation</h5>
+<p class="text-on-surface-variant text-sm leading-relaxed">Calculate yardage needed based on weight or previous project data.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Feature: Yarn Scanner & AI -->
+<section class="relative min-h-[600px] flex items-center">
+<div class="absolute inset-0 z-0">
+<img alt="yarn texture" class="w-full h-full object-cover" data-alt="atmospheric close-up of luxury wool yarn skeins in soft neutral tones with shallow depth of field and warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGMhp_nYkdJ1RRqeqi19-DkzMv1NW2hkIvayd1eauYzHy8JlV6WZiKPMTQa3bYyHbvrKrESELgSqvmiCcBK0TxBvkhxqD8hVRkhqJO4P0yRynTvGUHwZnEfAkhmhIkx_8G0AtOTcQiaWmL6y1zvSlqBGbxnEV4k-IbbqYgcEaGq8xCrE167cgBLTK070DzwxZEqXE4FAjiBTDaoHgLy3tO02lXRpMr54qWCMIC6RAycgMQP0qPe9dOlf9VlF2KSoXQVh2sTavPOfNh"/>
+<div class="absolute inset-0 bg-surface/70 backdrop-blur-sm"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 w-full grid grid-cols-1 md:grid-cols-2 gap-16 items-center py-24">
+<div class="space-y-8">
+<h2 class="text-4xl md:text-6xl font-serif text-on-surface leading-tight">
+                    Scan. Save. <br/>Never lose a yarn label again.
+                </h2>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary">camera</span>
+</div>
+<div>
+<h4 class="font-bold text-lg">Label OCR Scanning</h4>
+<p class="text-on-surface-variant">Snap a photo and KnitTools extracts weight, fiber content, and yardage instantly.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary">psychology</span>
+</div>
+<div>
+<h4 class="font-bold text-lg">AI Instruction Parser</h4>
+<p class="text-on-surface-variant">Paste complex text patterns and let our AI convert them into interactive row-by-row steps.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="flex justify-center md:justify-end">
+<!-- Phone Mockup Yarn Card -->
+<div class="w-full max-w-[280px] bg-[#f5ded2] rounded-xl shadow-2xl p-4 text-surface">
+<div class="aspect-square rounded-lg mb-4 overflow-hidden">
+<img alt="skein" class="w-full h-full object-cover" data-alt="close-up of a single skein of premium speckled hand-dyed wool on a light neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjwzJQtPlNdgF_SGTxphcRQj5ZWga7NOPEN4LZKK37OuKMEJldmzEqslEXxiBNnaqXxMrcdL9HPIPI56VMiQ9DjucKjmjLlTsg1EiHGKpJclwFaqXAtS5Exj378ureDtA71aJAOXpQjZ3V7bteMycmDxdIBDxzvB_XEbw_h4M4-cbNWxffH9AD4U9bWsoMlEtuQf23CFc-p1M7vs6zrSLb3kWMOP9GyqhOkfAlBEGJqxeq0aWOP-eKpoPjW7gCo1Jk50NssCMKTc2U"/>
+</div>
+<h4 class="font-serif font-bold text-lg">Hedgehog Fibres</h4>
+<p class="text-xs text-surface/60 mb-3">Skinny Singles • "Pollock"</p>
+<div class="grid grid-cols-2 gap-2 text-[10px] font-bold uppercase">
+<div class="bg-surface/5 p-2 rounded">100g / 366m</div>
+<div class="bg-surface/5 p-2 rounded">Fingering</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Trust & Values -->
+<section class="py-32 px-8 bg-surface-container-low text-center">
+<div class="max-w-3xl mx-auto space-y-10">
+<h2 class="text-4xl md:text-6xl font-serif text-on-surface leading-tight whitespace-pre-line">No ads.
+                No subscription.
+                Yours forever.</h2>
+<p class="text-on-surface-variant text-lg tracking-wide uppercase font-medium">
+                One-time purchase. Fully offline. Zero data collection.
+            </p>
+</div>
+</section>
+<!-- Section 5: Free Tools -->
+<section class="py-16 px-8 border-t border-outline-variant/15 max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8">
+<p class="font-serif italic text-xl text-on-surface">Try our free knitting calculators</p>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="group flex items-center gap-2 text-primary font-bold hover:text-primary-fixed-dim transition-colors" href="#">
+                    Cast On Calculator
+                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<a class="group flex items-center gap-2 text-primary font-bold hover:text-primary-fixed-dim transition-colors" href="#">
+                    Yarn Estimator
+                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Section 6: Closing CTA -->
+<section class="relative h-[500px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="closing image" class="w-full h-full object-cover" data-alt="top-down artistic view of warm brown wooden knitting needles resting on a pile of soft cream wool yarn balls" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAT87YOvk3khs1Jysd9-EWf2039YX6O5ZFWMUTzJLsYqSSI_o54-dD2jSr8of-SaQi9vazv5i8l3asvX3l3JOXc3gf3d9XncW5HixpRZ-aJggocYDHQGj1h2tSe_y-EtQe0_pjI0YYoImT7X1W2CeWRT1FyE83afw3gs3mbrs96eaatfcYJW5oqBQmklO9BgbZsRk5OONJGESbvuObGTqTrTr3mqhhwfAVyzV7ju3wrTYDwrZHtSYmGAOZ1L9Ac5FFrvEgz8eKSIdpk"/>
+<div class="absolute inset-0 bg-surface/60"></div>
+</div>
+<div class="relative z-10 text-center space-y-8 px-8">
+<h2 class="text-5xl md:text-7xl font-serif text-on-surface leading-tight">
+                Where every stitch <span class="italic">counts</span>.
+            </h2>
+<div class="flex flex-col items-center gap-4">
+<button class="bg-primary text-on-primary px-12 py-5 rounded-full text-xl font-bold shadow-2xl hover:scale-105 transition-transform">
+                    Get the App
+                </button>
+<span class="italic text-on-surface/80 font-serif text-lg">Coming soon on Android</span>
+</div>
+</div>
+</section>
+<!-- Section 7: Footer (Shared Component Inspired) -->
+<footer class="bg-[#1c110a] py-12 px-8 border-t border-[#4d463a]/15">
+<div class="flex flex-col md:flex-row justify-between items-center w-full max-w-7xl mx-auto space-y-6 md:space-y-0">
+<div class="text-lg font-serif text-[#f5ded2]">Finnvek</div>
+<div class="flex gap-8">
+<a class="text-[#f5ded2]/50 hover:text-[#f5ded2] transition-all text-xs uppercase tracking-widest font-label" href="#">Privacy Policy</a>
+<a class="text-[#f5ded2]/50 hover:text-[#f5ded2] transition-all text-xs uppercase tracking-widest font-label" href="#">Terms of Service</a>
+<a class="text-[#f5ded2]/50 hover:text-[#f5ded2] transition-all text-xs uppercase tracking-widest font-label" href="#">Contact</a>
+</div>
+<div class="text-[#f5ded2]/50 text-xs uppercase tracking-widest font-label">
+                © 2026 Finnvek. All rights reserved.
+            </div>
+</div>
+</footer>
+
+```</body></html>

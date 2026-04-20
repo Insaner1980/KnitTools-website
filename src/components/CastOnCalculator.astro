@@ -1,0 +1,386 @@
+<div class="cast-on-calculator">
+  <fieldset>
+    <legend class="sr-only">Cast On Calculator</legend>
+
+    <div class="form-group">
+      <label for="gauge">Gauge (stitches per 10 cm / 4 in)</label>
+      <div class="number-input-wrap">
+        <button type="button" class="spin-btn spin-down" aria-label="Decrease gauge">−</button>
+        <input type="number" id="gauge" min="1" max="100" step="0.5" placeholder="e.g. 20" />
+        <button type="button" class="spin-btn spin-up" aria-label="Increase gauge">+</button>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="width">Desired width</label>
+      <div class="number-input-wrap">
+        <button type="button" class="spin-btn spin-down" aria-label="Decrease width">−</button>
+        <input type="number" id="width" min="0.1" max="1000" step="0.1" placeholder="e.g. 50" />
+        <button type="button" class="spin-btn spin-up" aria-label="Increase width">+</button>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="unit-toggle" role="radiogroup" aria-label="Unit selection">
+        <label class="unit-option">
+          <input type="radio" name="unit" value="cm" checked />
+          <span>cm</span>
+        </label>
+        <label class="unit-option">
+          <input type="radio" name="unit" value="inches" />
+          <span>inches</span>
+        </label>
+      </div>
+    </div>
+
+    <button type="button" class="btn-primary calc-btn">Calculate</button>
+
+    <div class="result-area" aria-live="polite">
+      <div class="result-wrapper">
+        <div class="result-value" id="cast-on-result"></div>
+      </div>
+    </div>
+  </fieldset>
+</div>
+
+<script>
+  function initCastOnCalculator() {
+    const calculators = document.querySelectorAll('.cast-on-calculator');
+
+    calculators.forEach(calc => {
+      const gaugeInput = calc.querySelector('#gauge') as HTMLInputElement;
+      const widthInput = calc.querySelector('#width') as HTMLInputElement;
+      const unitRadios = calc.querySelectorAll('input[name="unit"]');
+      const calcBtn = calc.querySelector('.calc-btn') as HTMLButtonElement;
+      const resultEl = calc.querySelector('#cast-on-result') as HTMLElement;
+      const resultArea = calc.querySelector('.result-area') as HTMLElement;
+
+      if (!gaugeInput || !widthInput || !calcBtn || !resultEl || !resultArea) return;
+
+      const id = Math.random().toString(36).slice(2, 8);
+      gaugeInput.id = `gauge-${id}`;
+      (gaugeInput.previousElementSibling as HTMLElement).setAttribute('for', gaugeInput.id);
+      widthInput.id = `width-${id}`;
+      (widthInput.previousElementSibling as HTMLElement).setAttribute('for', widthInput.id);
+      resultEl.id = `cast-on-result-${id}`;
+      unitRadios.forEach((r) => { (r as HTMLInputElement).name = `unit-${id}`; });
+
+      calcBtn.addEventListener('click', () => {
+        const gauge = parseFloat(gaugeInput.value);
+        const width = parseFloat(widthInput.value);
+        const unit = (calc.querySelector(`input[name="unit-${id}"]:checked`) as HTMLInputElement)?.value || 'cm';
+
+        // Close it briefly if we want to "refresh", but for now just clear content
+        resultEl.textContent = '';
+        resultEl.className = 'result-value';
+
+        if (!gauge || gauge <= 0 || !width || width <= 0) {
+          const errorSpan = document.createElement('span');
+          errorSpan.className = 'form-error';
+          errorSpan.setAttribute('role', 'alert');
+          errorSpan.textContent = 'Please enter valid gauge and width values.';
+          resultEl.appendChild(errorSpan);
+          resultArea.classList.add('is-open');
+          return;
+        }
+
+        let stitches: number;
+        if (unit === 'cm') { stitches = (gauge / 10) * width; }
+        else { stitches = (gauge / 4) * width; }
+        stitches = Math.round(stitches / 2) * 2;
+
+        const wrapper = document.createElement('div');
+        wrapper.className = 'tool-result';
+        const numberEl = document.createElement('span');
+        numberEl.className = 'result-number';
+        numberEl.textContent = '0';
+        const labelEl = document.createElement('span');
+        labelEl.className = 'result-label';
+        labelEl.textContent = 'stitches to cast on';
+        wrapper.appendChild(numberEl);
+        wrapper.appendChild(labelEl);
+        resultEl.appendChild(wrapper);
+
+        // Open the result area
+        resultArea.classList.add('is-open');
+
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (prefersReducedMotion) {
+          numberEl.textContent = String(stitches);
+        } else {
+          const duration = 800; // slightly longer, better curve
+          const start = performance.now();
+          const animate = (now: number) => {
+            const elapsed = now - start;
+            const progress = Math.min(elapsed / duration, 1);
+            // easeOutExpo function for softer deceleration
+            const eased = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+            numberEl.textContent = String(Math.round(eased * stitches));
+            if (progress < 1) requestAnimationFrame(animate);
+          };
+          requestAnimationFrame(animate);
+        }
+      });
+    });
+  }
+
+  initCastOnCalculator();
+
+  document.querySelectorAll('.spin-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const wrap = btn.closest('.number-input-wrap');
+      if (!wrap) return;
+      const input = wrap.querySelector('input[type="number"]') as HTMLInputElement;
+      if (!input) return;
+      const step = parseFloat(input.step) || 1;
+      const min = parseFloat(input.min);
+      const max = parseFloat(input.max);
+      let val = parseFloat(input.value) || 0;
+      if (btn.classList.contains('spin-up')) {
+        val += step;
+        if (!isNaN(max) && val > max) val = max;
+      } else {
+        val -= step;
+        if (!isNaN(min) && val < min) val = min;
+      }
+      input.value = String(parseFloat(val.toFixed(2)));
+      input.dispatchEvent(new Event('input'));
+    });
+  });
+</script>
+
+<style>
+  .cast-on-calculator fieldset { border: none; }
+
+  .form-group { margin-top: 16px; }
+
+  .cast-on-calculator label {
+    display: block;
+    color: var(--text-on-light-muted);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+
+  .number-input-wrap {
+    display: flex;
+    align-items: stretch;
+    transition: background-color 300ms ease, box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    background: transparent;
+  }
+
+  .number-input-wrap:focus-within {
+    background: var(--cream);
+    box-shadow: 0 4px 16px var(--accent-soft);
+  }
+
+  .cast-on-calculator input[type="number"] {
+    flex: 1;
+    background: transparent;
+    border: 1px solid rgba(46, 42, 38, 0.3);
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    height: 52px;
+    padding: 0 18px;
+    font-size: 16px;
+    color: var(--text-on-light);
+    font-family: var(--font-body);
+    box-sizing: border-box;
+    transition: border-color 300ms ease;
+    appearance: none;
+    -moz-appearance: textfield;
+    text-align: center;
+  }
+
+  .cast-on-calculator input[type="number"]::-webkit-inner-spin-button,
+  .cast-on-calculator input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .spin-btn {
+    width: 48px;
+    background: transparent;
+    border: 1px solid rgba(46, 42, 38, 0.3);
+    color: var(--accent);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 200ms, color 200ms, border-color 200ms, transform 100ms;
+    font-family: var(--font-body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .spin-btn:hover {
+    background: var(--accent);
+    color: var(--cream);
+    border-color: var(--accent);
+  }
+
+  .spin-btn:active {
+    transform: scale(0.92);
+  }
+
+  .cast-on-calculator input::placeholder { color: var(--cream-muted); }
+
+  .cast-on-calculator input:focus {
+    outline: none;
+  }
+
+  .number-input-wrap:focus-within input[type="number"],
+  .number-input-wrap:focus-within .spin-btn {
+    border-color: var(--accent);
+  }
+
+  /* Unit Toggle - Rectangular Sliding Design */
+  .unit-toggle {
+    display: inline-flex;
+    margin-top: 16px;
+    gap: 0;
+    position: relative;
+    background: transparent;
+    border: 2px solid var(--accent);
+    padding: 0;
+    width: max-content;
+  }
+
+  .unit-toggle::before {
+    content: '';
+    position: absolute;
+    top: 0; 
+    bottom: 0; 
+    left: 0;
+    width: 50%;
+    background: var(--accent);
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 0;
+  }
+
+  .unit-toggle:has(label:last-child input:checked)::before {
+    transform: translateX(100%);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .unit-toggle::before { transition: none; }
+  }
+
+  .unit-option {
+    cursor: pointer;
+    margin: 0;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    min-width: 90px;
+  }
+
+  .unit-option input { position: absolute; opacity: 0; width: 0; height: 0; }
+
+  .unit-option span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0 10px;
+    font-size: var(--ts-btn-filter-size);
+    transition: color 300ms ease;
+    color: var(--accent);
+    background: transparent;
+    border: none;
+    font-family: var(--font-label);
+    text-transform: uppercase;
+    letter-spacing: var(--ts-btn-filter-tracking);
+    line-height: 1;
+  }
+
+  .unit-option input:checked + span {
+    color: var(--cream);
+  }
+
+  .unit-option input:focus-visible + span {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+  }
+
+  /* Calculate button explicitly styled to ensure visibility and prevent GSAP clash */
+  .calc-btn { 
+    display: inline-block;
+    margin-top: 24px; 
+    background: var(--accent); 
+    color: var(--cream); 
+    border: 2px solid var(--accent);
+    transition: background-color 200ms, color 200ms, border-color 200ms, transform 100ms !important;
+  }
+
+  .calc-btn:hover {
+    background: var(--dark-deep);
+    border-color: var(--dark-deep);
+  }
+
+  .calc-btn:active {
+    transform: scale(0.96) !important;
+  }
+
+  /* Result Area Subtly Expanding */
+  .result-area {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 500ms cubic-bezier(0.16, 1, 0.3, 1);
+    margin-top: 16px;
+  }
+
+  .result-area.is-open {
+    grid-template-rows: 1fr;
+  }
+
+  .result-wrapper {
+    overflow: hidden;
+  }
+
+  :global(.tool-result) {
+    background: none;
+    border: none;
+    padding: 16px 0;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 400ms ease 200ms, transform 400ms cubic-bezier(0.16, 1, 0.3, 1) 200ms;
+  }
+
+  .result-area.is-open :global(.tool-result) {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  :global(.result-number) {
+    display: block;
+    font-family: var(--font-label);
+    font-size: clamp(3rem, 6vw, 4.5rem);
+    color: var(--accent);
+    line-height: 1;
+    letter-spacing: 0.02em;
+  }
+
+  :global(.result-label) {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--dark);
+    opacity: 0.7;
+    margin-top: 4px;
+  }
+
+  .form-error { 
+    color: var(--accent); 
+    font-size: 0.85rem;
+    display: block;
+    padding-top: 12px;
+  }
+
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0;
+  }
+</style>

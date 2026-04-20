@@ -1,0 +1,1290 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { Image } from 'astro:assets';
+import faqButton from '../../assets/images/faq-button.webp';
+
+interface Cell {
+  cm: string;
+  inch: string;
+}
+
+interface Row {
+  label: string;
+  cells: Cell[];
+}
+
+interface Table {
+  caption?: string;
+  sizeHeader?: string;
+  sizes: string[];
+  rows: Row[];
+}
+
+interface Panel {
+  id: string;
+  label: string;
+  intro?: string;
+  tables: Table[];
+}
+
+const garmentMeasurements = [
+  'Chest',
+  'Back Waist Length',
+  'Cross Back',
+  'Arm Length to Underarm',
+  'Upper Arm',
+  'Armhole Depth',
+  'Waist',
+  'Hips',
+  'Center Back Neck-to-Wrist',
+];
+
+const c = (cm: string, inch: string): Cell => ({ cm, inch });
+
+const panels: Panel[] = [
+  {
+    id: 'baby',
+    label: 'Baby',
+    tables: [
+      {
+        sizes: ['3 mo', '6 mo', '12 mo', '18 mo', '24 mo'],
+        rows: [
+          { label: 'Chest', cells: [c('40.5 cm', '16"'), c('43 cm', '17"'), c('45.5 cm', '18"'), c('48 cm', '19"'), c('50.5 cm', '20"')] },
+          { label: 'Back Waist Length', cells: [c('15.5 cm', '6"'), c('17.5 cm', '7"'), c('19 cm', '7.5"'), c('20.5 cm', '8"'), c('21.5 cm', '8.5"')] },
+          { label: 'Cross Back', cells: [c('18.5 cm', '7.25"'), c('19.5 cm', '7.75"'), c('21 cm', '8.25"'), c('21.5 cm', '8.5"'), c('22 cm', '8.75"')] },
+          { label: 'Arm Length to Underarm', cells: [c('15.5 cm', '6"'), c('16.5 cm', '6.5"'), c('19 cm', '7.5"'), c('20.5 cm', '8"'), c('21.5 cm', '8.5"')] },
+          { label: 'Upper Arm', cells: [c('14 cm', '5.5"'), c('15.5 cm', '6"'), c('16.5 cm', '6.5"'), c('17.5 cm', '7"'), c('19 cm', '7.5"')] },
+          { label: 'Armhole Depth', cells: [c('8.5 cm', '3.25"'), c('9 cm', '3.5"'), c('9.5 cm', '3.75"'), c('10 cm', '4"'), c('10.5 cm', '4.25"')] },
+          { label: 'Waist', cells: [c('45.5 cm', '18"'), c('48 cm', '19"'), c('50.5 cm', '20"'), c('52 cm', '20.5"'), c('53.5 cm', '21"')] },
+          { label: 'Hips', cells: [c('48 cm', '19"'), c('50.5 cm', '20"'), c('50.5 cm', '20"'), c('53.5 cm', '21"'), c('56 cm', '22"')] },
+          { label: 'Center Back Neck-to-Wrist', cells: [c('26.5 cm', '10.5"'), c('29 cm', '11.5"'), c('31.5 cm', '12.5"'), c('35.5 cm', '14"'), c('45.5 cm', '18"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'child',
+    label: 'Child',
+    tables: [
+      {
+        sizes: ['Size 2', 'Size 4', 'Size 6', 'Size 8', 'Size 10'],
+        rows: [
+          { label: 'Chest', cells: [c('53 cm', '21"'), c('58.5 cm', '23"'), c('63.5 cm', '25"'), c('67 cm', '26.5"'), c('71 cm', '28"')] },
+          { label: 'Back Waist Length', cells: [c('21.5 cm', '8.5"'), c('24 cm', '9.5"'), c('26.5 cm', '10.5"'), c('31.5 cm', '12.5"'), c('35.5 cm', '14"')] },
+          { label: 'Cross Back', cells: [c('23.5 cm', '9.25"'), c('25 cm', '9.75"'), c('26 cm', '10.25"'), c('27 cm', '10.75"'), c('28.5 cm', '11.25"')] },
+          { label: 'Arm Length to Underarm', cells: [c('21.5 cm', '8.5"'), c('26.5 cm', '10.5"'), c('29 cm', '11.5"'), c('31.5 cm', '12.5"'), c('34.5 cm', '13.5"')] },
+          { label: 'Upper Arm', cells: [c('17.5 cm', '7"'), c('19 cm', '7.5"'), c('20.5 cm', '8"'), c('21.5 cm', '8.5"'), c('22 cm', '8.75"')] },
+          { label: 'Armhole Depth', cells: [c('10.5 cm', '4.25"'), c('12 cm', '4.75"'), c('12.5 cm', '5"'), c('14 cm', '5.5"'), c('15.5 cm', '6"')] },
+          { label: 'Waist', cells: [c('53.5 cm', '21"'), c('54.5 cm', '21.5"'), c('57 cm', '22.5"'), c('59.5 cm', '23.5"'), c('62 cm', '24.5"')] },
+          { label: 'Hips', cells: [c('56 cm', '22"'), c('59.5 cm', '23.5"'), c('63.5 cm', '25"'), c('71 cm', '28"'), c('75 cm', '29.5"')] },
+          { label: 'Center Back Neck-to-Wrist', cells: [c('45.5 cm', '18"'), c('49.5 cm', '19.5"'), c('52 cm', '20.5"'), c('56 cm', '22"'), c('61 cm', '24"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'youth',
+    label: 'Youth',
+    tables: [
+      {
+        sizes: ['Size 12', 'Size 14', 'Size 16'],
+        rows: [
+          { label: 'Chest', cells: [c('76 cm', '30"'), c('80 cm', '31.5"'), c('82.5 cm', '32.5"')] },
+          { label: 'Back Waist Length', cells: [c('38 cm', '15"'), c('39.5 cm', '15.5"'), c('40.5 cm', '16"')] },
+          { label: 'Cross Back', cells: [c('30.5 cm', '12"'), c('31 cm', '12.25"'), c('33 cm', '13"')] },
+          { label: 'Arm Length to Underarm', cells: [c('38 cm', '15"'), c('40.5 cm', '16"'), c('42 cm', '16.5"')] },
+          { label: 'Upper Arm', cells: [c('23 cm', '9"'), c('23.5 cm', '9.25"'), c('24 cm', '9.5"')] },
+          { label: 'Armhole Depth', cells: [c('16.5 cm', '6.5"'), c('17.5 cm', '7"'), c('19 cm', '7.5"')] },
+          { label: 'Waist', cells: [c('63.5 cm', '25"'), c('67.5 cm', '26.5"'), c('69.5 cm', '27.5"')] },
+          { label: 'Hips', cells: [c('80 cm', '31.5"'), c('83.5 cm', '33"'), c('90 cm', '35.5"')] },
+          { label: 'Center Back Neck-to-Wrist', cells: [c('66 cm', '26"'), c('68.5 cm', '27"'), c('71 cm', '28"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'women',
+    label: 'Women',
+    tables: [
+      {
+        caption: 'Women XS–XL',
+        sizes: ['XS', 'S', 'M', 'L', 'XL'],
+        rows: [
+          { label: 'Chest', cells: [c('71–76 cm', '28–30"'), c('81–86 cm', '32–34"'), c('91.5–96.5 cm', '36–38"'), c('101.5–106.5 cm', '40–42"'), c('111.5–117 cm', '44–46"')] },
+          { label: 'Back Waist Length', cells: [c('42 cm', '16.5"'), c('43 cm', '17"'), c('43.5 cm', '17.25"'), c('44.5 cm', '17.5"'), c('45 cm', '17.75"')] },
+          { label: 'Cross Back', cells: [c('35.5–37 cm', '14–14.5"'), c('37–38 cm', '14.5–15"'), c('39.5–40.5 cm', '15.5–16"'), c('42–43 cm', '16.5–17"'), c('44.5 cm', '17.5"')] },
+          { label: 'Arm Length to Underarm', cells: [c('42 cm', '16.5"'), c('43 cm', '17"'), c('43 cm', '17"'), c('44.5 cm', '17.5"'), c('44.5 cm', '17.5"')] },
+          { label: 'Upper Arm', cells: [c('25 cm', '9.75"'), c('26 cm', '10.25"'), c('28 cm', '11"'), c('30.5 cm', '12"'), c('34.5 cm', '13.5"')] },
+          { label: 'Armhole Depth', cells: [c('15.5–16.5 cm', '6–6.5"'), c('16.5–17.5 cm', '6.5–7"'), c('17.5–19 cm', '7–7.5"'), c('19–20.5 cm', '7.5–8"'), c('20.5–21.5 cm', '8–8.5"')] },
+          { label: 'Waist', cells: [c('58.5–61 cm', '23–24"'), c('63.5–67.5 cm', '25–26.5"'), c('71–76 cm', '28–30"'), c('81.5–86.5 cm', '32–34"'), c('91.5–96.5 cm', '36–38"')] },
+          { label: 'Hips', cells: [c('83.5–86 cm', '33–34"'), c('89–91.5 cm', '35–36"'), c('96.5–101.5 cm', '38–40"'), c('106.5–111.5 cm', '42–44"'), c('116.5–122 cm', '46–48"')] },
+          { label: 'Center Back Neck-to-Wrist', cells: [c('66–68.5 cm', '26–26.5"'), c('68.5–70 cm', '27–27.5"'), c('71–72.5 cm', '28–28.5"'), c('73.5–75 cm', '29–29.5"'), c('73.5–75 cm', '29–29.5"')] },
+        ],
+      },
+      {
+        caption: 'Women 2X–5X',
+        sizes: ['2X', '3X', '4X', '5X'],
+        rows: [
+          { label: 'Chest', cells: [c('122–127 cm', '48–50"'), c('132–137 cm', '52–54"'), c('142–147 cm', '56–58"'), c('152–158 cm', '60–62"')] },
+          { label: 'Back Waist Length', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
+          { label: 'Cross Back', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
+          { label: 'Arm Length to Underarm', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
+          { label: 'Upper Arm', cells: [c('39.5 cm', '15.5"'), c('43 cm', '17"'), c('47 cm', '18.5"'), c('49.5 cm', '18.5"')] },
+          { label: 'Armhole Depth', cells: [c('21.5–23 cm', '8.5–9"'), c('23–24 cm', '9–9.5"'), c('24–25.5 cm', '9.5–10"'), c('25.5–26.5 cm', '10–10.5"')] },
+          { label: 'Waist', cells: [c('101.5–106.5 cm', '40–42"'), c('111.5–114 cm', '44–45"'), c('116.5–119 cm', '46–47"'), c('124–127 cm', '49–50"')] },
+          { label: 'Hips', cells: [c('132–134.5 cm', '52–53"'), c('137–139.5 cm', '54–55"'), c('142–144.5 cm', '56–57"'), c('155–157 cm', '61–62"')] },
+          { label: 'Center Back Neck-to-Wrist', cells: [c('76.5–77.5 cm', '30–30.5"'), c('77.5–79 cm', '30.5–31"'), c('80–81.5 cm', '31.5–32"'), c('80–81.5 cm', '31.5–32"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'men',
+    label: 'Men',
+    tables: [
+      {
+        caption: 'Men S–XL',
+        sizes: ['S', 'M', 'L', 'XL'],
+        rows: [
+          { label: 'Chest', cells: [c('86–91.5 cm', '34–36"'), c('96.5–101.5 cm', '38–40"'), c('106.5–111.5 cm', '42–44"'), c('116.5–122 cm', '46–48"')] },
+          { label: 'Back Waist Length', cells: [c('58.5–61 cm', '23–24"'), c('63.5–66 cm', '25–26"'), c('66–68.5 cm', '26–27"'), c('71 cm', '28"')] },
+          { label: 'Cross Back', cells: [c('39.5–40.5 cm', '15.5–16"'), c('42–43 cm', '16.5–17"'), c('44.5–45.5 cm', '17.5–18"'), c('45.5–47 cm', '18–18.5"')] },
+          { label: 'Arm Length to Underarm', cells: [c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('49.5 cm', '19.5"'), c('50.5 cm', '20"')] },
+          { label: 'Upper Arm', cells: [c('30.5 cm', '12"'), c('33 cm', '13"'), c('38 cm', '15"'), c('39.5 cm', '15.5"')] },
+          { label: 'Armhole Depth', cells: [c('21.5–23 cm', '8.5–9"'), c('23–24 cm', '9–9.5"'), c('24–25.5 cm', '9.5–10"'), c('25.5–26 cm', '10–10.5"')] },
+          { label: 'Waist', cells: [c('71–76 cm', '28–30"'), c('81.5–86.5 cm', '32–34"'), c('91.5–96.5 cm', '36–38"'), c('106.5–112 cm', '42–44"')] },
+          { label: 'Hips', cells: [c('89–94 cm', '35–37"'), c('99–104 cm', '39–41"'), c('109–114 cm', '43–45"'), c('119–124.5 cm', '47–49"')] },
+          { label: 'Center Back Neck-to-Wrist', cells: [c('81–82.5 cm', '32–32.5"'), c('83.5–85 cm', '33–33.5"'), c('86.5–87.5 cm', '34–34.5"'), c('89–90 cm', '35–35.5"')] },
+        ],
+      },
+      {
+        caption: 'Men 2X–5X',
+        sizes: ['2X', '3X', '4X', '5X'],
+        rows: [
+          { label: 'Chest', cells: [c('127–132 cm', '50–52"'), c('137–142 cm', '54–56"'), c('147.5–152 cm', '58–60"'), c('157.5–162.5 cm', '62–64"')] },
+          { label: 'Back Waist Length', cells: [c('73.5 cm', '29"'), c('76 cm', '30"'), c('76 cm', '30"'), c('79 cm', '31"')] },
+          { label: 'Cross Back', cells: [c('48–51 cm', '19–20"'), c('48–51 cm', '20–21"'), c('51–54.5 cm', '21–21.5"'), c('56–57 cm', '22–22.5"')] },
+          { label: 'Arm Length to Underarm', cells: [c('52 cm', '20.5"'), c('52 cm', '20.5"'), c('49.5 cm', '21"'), c('53.5–54.5 cm', '21.5"')] },
+          { label: 'Upper Arm', cells: [c('42 cm', '16.5"'), c('44.5 cm', '17.5"'), c('47 cm', '18.5"'), c('48 cm', '20"')] },
+          { label: 'Armhole Depth', cells: [c('28 cm', '11"'), c('29 cm', '11.5"'), c('30.5 cm', '12"'), c('32 cm', '12.5"')] },
+          { label: 'Waist', cells: [c('117–122 cm', '46–48"'), c('127–132 cm', '50–52"'), c('137–142 cm', '54–56"'), c('147.5–152.5 cm', '58–60"')] },
+          { label: 'Hips', cells: [c('129–134 cm', '51–53"'), c('137–142 cm', '54–56"'), c('142–147.5 cm', '56–58"'), c('147.5–152.5 cm', '58–60"')] },
+          { label: 'Center Back Neck-to-Wrist', cells: [c('91.5–92.5 cm', '36–36.5"'), c('94–95 cm', '37–37.5"'), c('96.5–97.5 cm', '38–38.5"'), c('99–100.5 cm', '39–39.5"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'accessories',
+    label: 'Accessories',
+    intro: 'Head, foot, and hand measurements for hats, socks, mittens, and gloves.',
+    tables: [
+      {
+        caption: 'Head Circumference',
+        sizeHeader: 'Category',
+        sizes: ['Circumference'],
+        rows: [
+          { label: 'Preemie', cells: [c('23–30.5 cm', '9–12"')] },
+          { label: 'Baby', cells: [c('35.5–40.5 cm', '14–16"')] },
+          { label: 'Toddler', cells: [c('40.5–46 cm', '16–18"')] },
+          { label: 'Child', cells: [c('45.5–51 cm', '18–20"')] },
+          { label: 'Tween', cells: [c('51–56 cm', '20–22"')] },
+          { label: 'Woman', cells: [c('53–58.5 cm', '21–23"')] },
+          { label: 'Man', cells: [c('56–61 cm', '22–24"')] },
+        ],
+      },
+      {
+        caption: 'Foot Size',
+        sizeHeader: 'Size',
+        sizes: ['Length'],
+        rows: [
+          { label: 'Baby (0–6 mo)', cells: [c('9 cm', '3.5"')] },
+          { label: 'Baby (6–12 mo)', cells: [c('10–11 cm', '4–4.5"')] },
+          { label: 'Toddler (1–2)', cells: [c('12–13 cm', '4.75–5"')] },
+          { label: 'Child (3–6)', cells: [c('14–18 cm', '5.5–7"')] },
+          { label: 'Child (7–10)', cells: [c('19–21 cm', '7.5–8.25"')] },
+          { label: 'Youth', cells: [c('22–24 cm', '8.5–9.5"')] },
+          { label: 'Women', cells: [c('23–26 cm', '9–10.25"')] },
+          { label: 'Men', cells: [c('25–29 cm', '10–11.5"')] },
+        ],
+      },
+      {
+        caption: 'Hand Size',
+        sizeHeader: 'Size',
+        sizes: ['Circumference'],
+        rows: [
+          { label: 'Baby', cells: [c('10–13 cm', '4–5"')] },
+          { label: 'Toddler', cells: [c('13–15 cm', '5–6"')] },
+          { label: 'Child', cells: [c('15–18 cm', '6–7"')] },
+          { label: 'Youth', cells: [c('18–20 cm', '7–8"')] },
+          { label: 'Women', cells: [c('18–20 cm', '7–8"')] },
+          { label: 'Men', cells: [c('20–23 cm', '8–9"')] },
+        ],
+      },
+    ],
+  },
+];
+
+const defaultPanel = 'women';
+
+const faqs = [
+  {
+    q: 'Are these measurements the same across all knitting patterns?',
+    a: "Most major publishers and independent designers follow Craft Yarn Council standards, but there's no universal enforcement. Some designers use their own sizing, particularly those focused on size-inclusive design with more granular options. Always check the specific pattern's size chart if one is provided.",
+  },
+  {
+    q: 'How do I choose a size if the pattern uses numbered sizes instead of XS/S/M/L?',
+    a: 'Compare the chest measurement listed for each numbered size with the charts above. The chest measurement is what matters. Ignore the label.',
+  },
+  {
+    q: 'Should I measure over clothing or on bare skin?',
+    a: 'Over lightweight clothing: a fitted t-shirt or thin layer. A bulky sweater adds inches that don\'t reflect your body. Bare skin can read slightly smaller than the garment actually needs to accommodate.',
+  },
+  {
+    q: "What if my measurements don't fit neatly into one size?",
+    a: 'Normal. Most people aren\'t a single size across all measurements. Prioritize the measurement most important for the garment: chest for a sweater, hips for a skirt, head circumference for a hat. Many patterns include instructions for lengthening or shortening specific sections.',
+  },
+];
+---
+
+<PageLayout
+  title="Knitting Size Charts: Body Measurements for Baby, Child, Women & Men"
+  description="Standard body measurement charts for knitting. Baby through adult sizes with chest, waist, hips, arm length, and more, in cm and inches."
+  canonicalPath="/tools/knitting-size-charts"
+  showStripe={true}
+>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Knitting Size Charts",
+    "description": "Standard body measurement reference charts for knitting, from baby through adult sizes.",
+    "url": "https://knittoolsapp.com/tools/knitting-size-charts",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  })} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a },
+    })),
+  })} />
+
+  <!-- 1. Tool hero -->
+  <section class="tool-hero">
+    <div class="hero-inner">
+      <a href="/tools/" class="back-link reveal reveal-left">&larr; All tools</a>
+      <h1 class="gs-h1" aria-label="Knitting Size Charts"><span class="h1-chars">Knitting Size Charts</span></h1>
+      <p class="hero-intro gs-hero">Standard body measurements for every knitting project. Pick a category and unit to see the chart.</p>
+      <p class="hero-note gs-hero">These are body measurements, not finished garment measurements. Add ease for the fit you want.</p>
+
+      <div class="chart-controls gs-form">
+        <div class="tab-scroller">
+          <div class="tabs" role="tablist" aria-label="Size category">
+            {panels.map(p => (
+              <button
+                type="button"
+                role="tab"
+                class={`tab-btn${p.id === defaultPanel ? ' is-active' : ''}`}
+                data-tab={p.id}
+                aria-selected={p.id === defaultPanel ? 'true' : 'false'}
+                aria-controls={`panel-${p.id}`}
+                id={`tab-${p.id}`}
+              >
+                {p.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div class="unit-toggle" role="radiogroup" aria-label="Measurement unit">
+          <button
+            type="button"
+            role="radio"
+            class="unit-btn is-active"
+            data-unit="cm"
+            aria-checked="true"
+          >CM</button>
+          <button
+            type="button"
+            role="radio"
+            class="unit-btn"
+            data-unit="inch"
+            aria-checked="false"
+          >Inches</button>
+        </div>
+      </div>
+
+      <div class="chart-wrap show-cm gs-form" id="chart-wrap">
+        {panels.map(p => (
+          <div
+            class={`panel${p.id === defaultPanel ? ' is-active' : ''}`}
+            data-panel={p.id}
+            role="tabpanel"
+            id={`panel-${p.id}`}
+            aria-labelledby={`tab-${p.id}`}
+            hidden={p.id !== defaultPanel}
+          >
+            {p.intro && <p class="panel-intro">{p.intro}</p>}
+            {p.tables.map(t => (
+              <div class="table-block">
+                {t.caption && <h3 class="table-caption">{t.caption}</h3>}
+                <div class="table-scroll">
+                  <table class="size-table">
+                    <thead>
+                      <tr>
+                        <th class="sticky-col">{t.sizeHeader ?? 'Measurement'}</th>
+                        {t.sizes.map(s => <th>{s}</th>)}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {t.rows.map(r => (
+                        <tr>
+                          <th scope="row" class="sticky-col row-label">{r.label}</th>
+                          {r.cells.map(cell => (
+                            <td>
+                              <span class="unit-cm">{cell.cm}</span>
+                              <span class="unit-inch">{cell.inch}</span>
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SEO content -->
+  <section class="seo-content">
+    <div class="content-inner">
+      <h2 class="gs-clip-reveal">How to take body measurements</h2>
+      <p class="gs-fade-up">The measurements in these charts correspond to specific points on the body. Getting an accurate reading requires measuring in the right place.</p>
+      <p class="gs-fade-up"><strong>Chest / Bust:</strong> Measure around the fullest part of the chest, keeping the tape level and snug but not tight. For women, this is at the fullest point of the bust. This is the primary measurement used to determine garment size.</p>
+      <p class="gs-fade-up"><strong>Waist:</strong> Measure at the natural waistline, the narrowest point of the torso, usually just above the navel. Bending to one side helps locate it if you're unsure.</p>
+      <p class="gs-fade-up"><strong>Hips:</strong> Measure around the fullest part of the hips, usually 18–23 cm (7–9 inches) below the waist. Keep the tape level.</p>
+      <p class="gs-fade-up"><strong>Cross Back (shoulder to shoulder):</strong> Measure straight across the back from the tip of one shoulder to the other. This determines the shoulder width of a garment.</p>
+      <p class="gs-fade-up"><strong>Back Waist Length:</strong> Measure from the prominent bone at the back of the neck straight down to the natural waist. This determines how long the torso section of a garment needs to be.</p>
+      <p class="gs-fade-up"><strong>Arm Length to Underarm:</strong> Measure from the wrist bone to the underarm. This is your sleeve length guide.</p>
+      <p class="gs-fade-up"><strong>Upper Arm:</strong> Measure the circumference at the fullest part of the upper arm, with the arm relaxed at the side.</p>
+      <p class="gs-fade-up"><strong>Armhole Depth:</strong> Measure from the top of the shoulder straight down to the underarm. This determines how deep the armhole shaping needs to be.</p>
+      <p class="gs-fade-up"><strong>Center Back Neck-to-Wrist:</strong> Measure from the center back of the neck, across the shoulder and down the arm to the wrist bone. This combined measurement is used for raglan and yoke constructions where the body and sleeve are worked together.</p>
+
+      <h2 class="gs-clip-reveal">Body measurements vs finished garment measurements</h2>
+      <p class="gs-fade-up">This is the most common source of sizing confusion in knitting. These charts show body measurements, the actual dimensions of the person. A finished garment is always larger because it includes ease.</p>
+      <p class="gs-fade-up"><strong>Negative ease (–2.5 to –5 cm):</strong> The garment is smaller than the body. Used for hats, socks, and very fitted ribbed garments that need to grip.</p>
+      <p class="gs-fade-up"><strong>Zero ease:</strong> The garment matches body measurements exactly. Very rare in knitting. The result is skin-tight.</p>
+      <p class="gs-fade-up"><strong>Positive ease (5–10 cm):</strong> The garment is slightly larger than the body. This is standard fit for most sweaters, cardigans, and tops.</p>
+      <p class="gs-fade-up"><strong>Oversized ease (10–20+ cm):</strong> The garment is noticeably larger than the body. Slouchy sweaters, cocoon cardigans, and relaxed-fit garments.</p>
+      <p class="gs-fade-up">When a pattern says "to fit chest 91.5 cm" and gives a finished bust measurement of 101.5 cm, the 10 cm difference is the ease. Your job is to choose the size where the "to fit" measurement matches your body, not the finished measurement.</p>
+      <p class="gs-fade-up">Once you know your target size, the <a href="/tools/yarn-estimator">Yarn Estimator</a> can sanity-check yardage, and the <a href="/articles/how-much-yarn-for-a-sweater">sweater yardage guide</a> walks through sizing calculations in more depth.</p>
+
+      <h2 class="gs-clip-reveal">Choosing between sizes</h2>
+      <p class="gs-fade-up">If your chest measurement falls between two sizes, the right choice depends on the garment's intended fit. For a close-fitting garment, go with the smaller size. For a relaxed or oversized fit, go with the larger size.</p>
+      <p class="gs-fade-up">Also compare other measurements, especially hips for longer garments and upper arm for fitted sleeves. If your chest says M but your hips say L, check the pattern's schematic to see whether the hip difference matters for the garment's length and silhouette.</p>
+      <p class="gs-fade-up">Whichever size you pick, the <a href="/articles/gauge-swatch-step-by-step">gauge swatch</a> decides whether the finished piece actually matches the pattern's numbers. The <a href="/articles/how-to-measure-knitting-gauge">how to measure gauge</a> guide covers the swatching process in full.</p>
+    </div>
+  </section>
+
+  <!-- 3. FAQ -->
+  <section class="tool-faq">
+    <div class="faq-inner">
+      <h2 class="gs-clip-reveal">Frequently asked questions</h2>
+      <div class="faq">
+        {faqs.map(f => (
+          <details class="gs-faq-item">
+            <summary>{f.q} <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Waitlist CTA -->
+  <section class="waitlist-cta">
+    <div class="waitlist-inner">
+      <form class="waitlist-form" action="#" method="post" id="waitlist-form">
+        <div class="waitlist-content-layer" id="waitlist-content-layer">
+          <h2 class="gs-clip-reveal">There's more in the app</h2>
+          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators, in one app. Join the waitlist to get notified at launch.</p>
+          <div class="waitlist-row gs-fade-up" id="waitlist-row">
+            <input type="email" placeholder="your@email.com" required class="waitlist-input" />
+            <button type="submit" class="waitlist-btn" id="waitlist-btn">Join Waitlist</button>
+          </div>
+        </div>
+
+        <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
+          <Image src={faqButton} alt="Loading..." width={112} height={112} class="big-spinner" />
+        </div>
+
+        <div class="waitlist-success" id="waitlist-success" aria-hidden="true">
+          <p class="success-text">
+            <span class="success-label">You're in!</span>
+            <span class="success-sub">We'll notify you at launch.</span>
+          </p>
+        </div>
+      </form>
+    </div>
+  </section>
+</PageLayout>
+
+<script>
+  import { gsap } from 'gsap';
+  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // --- Tab switching ---
+  const tabButtons = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
+  const panels = document.querySelectorAll<HTMLElement>('.panel');
+
+  tabButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = btn.dataset.tab;
+      tabButtons.forEach(b => {
+        const isActive = b.dataset.tab === target;
+        b.classList.toggle('is-active', isActive);
+        b.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+      panels.forEach(p => {
+        const isActive = p.dataset.panel === target;
+        p.classList.toggle('is-active', isActive);
+        if (isActive) {
+          p.removeAttribute('hidden');
+        } else {
+          p.setAttribute('hidden', '');
+        }
+      });
+    });
+  });
+
+  // --- Unit toggle ---
+  const unitButtons = document.querySelectorAll<HTMLButtonElement>('.unit-btn');
+  const chartWrap = document.getElementById('chart-wrap');
+
+  unitButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const unit = btn.dataset.unit;
+      if (!unit || !chartWrap) return;
+      unitButtons.forEach(b => {
+        const isActive = b.dataset.unit === unit;
+        b.classList.toggle('is-active', isActive);
+        b.setAttribute('aria-checked', isActive ? 'true' : 'false');
+      });
+      chartWrap.classList.toggle('show-cm', unit === 'cm');
+      chartWrap.classList.toggle('show-inch', unit === 'inch');
+    });
+  });
+
+  if (!prefersReducedMotion) {
+    // --- Hero entrance timeline ---
+    const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+
+    heroTl.from('.gs-hero', {
+      opacity: 0,
+      y: 12,
+      duration: 0.5,
+      stagger: 0.15,
+    }, 0.2);
+
+    const h1El = document.querySelector('.h1-chars');
+    if (h1El) {
+      const text = h1El.textContent || '';
+      h1El.textContent = '';
+      const chars: HTMLSpanElement[] = [];
+      for (const c of text) {
+        if (c === ' ') {
+          h1El.appendChild(document.createTextNode(' '));
+        } else {
+          const span = document.createElement('span');
+          span.className = 'h1-char';
+          span.textContent = c;
+          h1El.appendChild(span);
+          chars.push(span);
+        }
+      }
+
+      heroTl.from(chars, {
+        opacity: 0,
+        x: -20,
+        duration: 0.4,
+        stagger: 0.03,
+        ease: 'power2.out',
+      }, 0.1);
+    }
+
+    heroTl.from('.gs-form', {
+      opacity: 0,
+      y: 16,
+      duration: 0.5,
+      stagger: 0.1,
+    }, 0.6);
+
+    document.querySelectorAll('.gs-clip-reveal').forEach(el => {
+      gsap.set(el, { clipPath: 'inset(0 100% 0 0)' });
+      gsap.to(el, {
+        clipPath: 'inset(0 0% 0 0)',
+        duration: 0.8,
+        ease: 'power3.inOut',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 85%',
+          once: true,
+        },
+      });
+    });
+
+    document.querySelectorAll('.gs-fade-up').forEach(el => {
+      gsap.from(el, {
+        opacity: 0,
+        y: 24,
+        duration: 0.6,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 88%',
+          once: true,
+        },
+      });
+    });
+
+    const faqItems = document.querySelectorAll('.gs-faq-item');
+    if (faqItems.length) {
+      gsap.from(faqItems, {
+        opacity: 0,
+        y: 16,
+        duration: 0.4,
+        stagger: 0.08,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: faqItems[0],
+          start: 'top 85%',
+          once: true,
+        },
+      });
+    }
+
+    document.querySelectorAll('.gs-faq-item').forEach(details => {
+      const summary = details.querySelector('summary');
+      const content = details.querySelector('p');
+      if (!summary || !content) return;
+
+      summary.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (details.hasAttribute('open')) {
+          gsap.to(content, {
+            height: 0,
+            opacity: 0,
+            duration: 0.3,
+            ease: 'power2.inOut',
+            onComplete: () => {
+              details.removeAttribute('open');
+              gsap.set(content, { height: 'auto', opacity: 1 });
+            },
+          });
+        } else {
+          details.setAttribute('open', '');
+          const h = content.scrollHeight;
+          gsap.set(content, { height: 0, opacity: 0 });
+          gsap.to(content, {
+            height: h,
+            opacity: 1,
+            duration: 0.3,
+            ease: 'power2.out',
+          });
+        }
+      });
+    });
+
+    const waitlistForm = document.getElementById('waitlist-form');
+    const waitlistContentLayer = document.getElementById('waitlist-content-layer');
+    const waitlistLoading = document.getElementById('waitlist-loading');
+    const waitlistSuccess = document.getElementById('waitlist-success');
+
+    if (waitlistForm && waitlistContentLayer && waitlistLoading && waitlistSuccess) {
+      waitlistForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const height = waitlistForm.offsetHeight;
+        waitlistForm.style.minHeight = `${height}px`;
+        waitlistContentLayer.classList.add('is-hidden');
+        waitlistLoading.classList.add('is-visible');
+        setTimeout(() => {
+          waitlistLoading.classList.remove('is-visible');
+          waitlistLoading.classList.add('is-hidden');
+          waitlistSuccess.classList.add('is-visible');
+        }, 1500);
+      });
+    }
+  }
+</script>
+
+<style>
+  /* ---- 1. Tool hero ---- */
+  .tool-hero {
+    padding: 104px 20px 60px;
+    margin-right: 275px;
+  }
+
+  .hero-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .back-link {
+    display: inline-block;
+    color: var(--dark);
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    margin-bottom: 24px;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 200ms;
+  }
+
+  .back-link:hover { opacity: 1; }
+
+  .back-link:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 2px;
+  }
+
+  .tool-hero h1 {
+    font-family: var(--font-label);
+    font-size: var(--bebas-display-size);
+    color: var(--dark);
+    letter-spacing: var(--bebas-display-tracking);
+    text-transform: uppercase;
+    margin: 0 0 12px;
+    line-height: 1.1;
+  }
+
+  .tool-hero h1 :global(.h1-char) {
+    display: inline-block;
+  }
+
+  .hero-intro {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 1.05rem;
+    color: rgba(46, 42, 38, 0.85);
+    max-width: 640px;
+    margin: 0 0 8px;
+    line-height: 1.5;
+  }
+
+  .hero-note {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: rgba(46, 42, 38, 0.65);
+    max-width: 640px;
+    margin: 0 0 32px;
+    line-height: 1.5;
+    font-style: italic;
+  }
+
+  /* ---- Controls ---- */
+  .chart-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+
+  .tab-scroller {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .tab-scroller::-webkit-scrollbar { display: none; }
+
+  .tabs {
+    display: flex;
+    gap: 8px;
+    width: max-content;
+  }
+
+  .tab-btn {
+    font-family: var(--font-label);
+    font-size: var(--ts-btn-filter-size);
+    letter-spacing: var(--ts-btn-filter-tracking);
+    text-transform: uppercase;
+    padding: var(--ts-btn-filter-padding);
+    background: transparent;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 200ms ease, color 200ms ease;
+    white-space: nowrap;
+  }
+
+  .tab-btn:hover {
+    background: var(--accent);
+    color: var(--cream);
+  }
+
+  .tab-btn.is-active {
+    background: var(--accent);
+    color: var(--cream);
+  }
+
+  .tab-btn:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  .unit-toggle {
+    display: inline-flex;
+    border: 2px solid var(--accent);
+    flex-shrink: 0;
+  }
+
+  .unit-btn {
+    font-family: var(--font-label);
+    font-size: var(--ts-btn-filter-size);
+    letter-spacing: var(--ts-btn-filter-tracking);
+    text-transform: uppercase;
+    padding: var(--ts-btn-filter-padding);
+    background: transparent;
+    color: var(--accent);
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 200ms ease, color 200ms ease;
+  }
+
+  .unit-btn + .unit-btn {
+    border-left: 2px solid var(--accent);
+  }
+
+  .unit-btn:hover {
+    background: rgba(196, 81, 0, 0.1);
+  }
+
+  .unit-btn.is-active {
+    background: var(--accent);
+    color: var(--cream);
+  }
+
+  .unit-btn.is-active:hover {
+    background: var(--accent);
+  }
+
+  .unit-btn:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  /* ---- Panels & tables ---- */
+  .panel {
+    display: none;
+  }
+
+  .panel.is-active {
+    display: block;
+  }
+
+  .panel-intro {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--dark);
+    opacity: 0.8;
+    margin: 0 0 16px;
+    line-height: 1.5;
+  }
+
+  .table-block + .table-block {
+    margin-top: 32px;
+  }
+
+  .table-caption {
+    font-family: var(--font-display);
+    font-weight: var(--ts-h3-weight);
+    font-size: var(--ts-h3-size);
+    color: var(--dark);
+    margin: 0 0 12px;
+    letter-spacing: -0.01em;
+  }
+
+  .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .size-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 480px;
+  }
+
+  .size-table th {
+    font-family: var(--font-label);
+    font-size: var(--ts-table-header-size);
+    letter-spacing: var(--ts-table-header-tracking);
+    text-transform: uppercase;
+    color: var(--dark);
+    padding: 12px 14px;
+    text-align: left;
+    border-top: 1px solid rgba(46, 42, 38, 0.3);
+    border-bottom: 2px solid var(--dark);
+    white-space: nowrap;
+    background: var(--cream);
+  }
+
+  .size-table td {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: var(--ts-table-cell-size);
+    color: var(--dark);
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--cream-muted);
+    white-space: nowrap;
+  }
+
+  .size-table tbody tr:nth-child(even) td,
+  .size-table tbody tr:nth-child(even) th.row-label {
+    background-color: var(--cream-muted);
+  }
+
+  .size-table tbody tr:hover td,
+  .size-table tbody tr:hover th.row-label {
+    background-color: rgba(46, 42, 38, 0.08);
+  }
+
+  .sticky-col {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: var(--cream);
+  }
+
+  .row-label {
+    font-family: var(--font-body);
+    font-weight: var(--ts-row-label-weight);
+    font-size: var(--ts-row-label-size);
+    letter-spacing: 0;
+    text-transform: none;
+    border-top: none;
+    border-right: 1px solid var(--cream-muted);
+  }
+
+  /* Unit visibility */
+  .chart-wrap.show-cm .unit-inch { display: none; }
+  .chart-wrap.show-inch .unit-cm { display: none; }
+
+  /* ---- 2. SEO content ---- */
+  .seo-content {
+    padding: 64px 20px;
+  }
+
+  .content-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .seo-content h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1rem;
+    margin-top: 48px;
+  }
+
+  .seo-content h2:first-child {
+    margin-top: 0;
+  }
+
+  .seo-content p {
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+
+  .seo-content p + p {
+    margin-top: 1rem;
+  }
+
+  .seo-content p strong {
+    font-weight: 600;
+  }
+
+  .seo-content a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .seo-content a:hover {
+    opacity: 0.8;
+  }
+
+  /* ---- 3. FAQ ---- */
+  .tool-faq {
+    padding: 48px 20px 64px;
+  }
+
+  .faq-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .tool-faq h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .faq details {
+    border-bottom: 1px solid var(--cream-muted);
+  }
+
+  .faq summary {
+    padding: 1.2rem 0;
+    cursor: pointer;
+    color: var(--dark);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 1.05rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 200ms ease;
+  }
+
+  .faq summary::-webkit-details-marker { display: none; }
+
+  .faq summary:hover {
+    color: var(--accent);
+  }
+
+  .faq summary :global(.faq-icon) {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-left: 1rem;
+    transition: transform 300ms ease;
+    border-radius: 50%;
+  }
+
+  .faq details[open] summary :global(.faq-icon) {
+    transform: rotate(45deg);
+  }
+
+  .faq details p {
+    padding-bottom: 1.2rem;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--text-on-light-muted);
+    line-height: 1.7;
+  }
+
+  /* ---- 4. Waitlist CTA ---- */
+  .waitlist-cta {
+    padding: 48px 20px 80px;
+    text-align: center;
+  }
+
+  .waitlist-inner {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-right: var(--safe-pr-mobile);
+  }
+
+  .waitlist-cta h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--dark);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 12px;
+  }
+
+  .waitlist-desc {
+    font-family: var(--font-body);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+
+  .waitlist-form {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-content-layer,
+  .waitlist-loading-state,
+  .waitlist-success {
+    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .waitlist-content-layer {
+    width: 100%;
+  }
+
+  .waitlist-content-layer.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.96);
+    position: absolute;
+  }
+
+  .waitlist-row {
+    display: flex;
+    gap: 0;
+    width: 100%;
+  }
+
+  .waitlist-input {
+    flex: 1;
+    padding: 14px 18px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    background: white;
+    border: 2px solid var(--cream-muted);
+    border-right: none;
+    color: var(--dark);
+    outline: none;
+    border-radius: 0;
+  }
+
+  .waitlist-input::placeholder {
+    color: var(--text-on-light-muted);
+  }
+
+  .waitlist-input:focus {
+    border-color: var(--accent);
+    box-shadow: none;
+  }
+
+  .waitlist-btn {
+    padding: 14px 28px;
+    font-family: var(--font-label);
+    font-size: var(--bebas-ui-size);
+    letter-spacing: var(--bebas-ui-tracking);
+    text-transform: uppercase;
+    background: var(--accent);
+    color: var(--cream);
+    border: 2px solid var(--accent);
+    cursor: pointer;
+    transition: background 200ms;
+    white-space: nowrap;
+  }
+
+  .waitlist-btn:hover {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+  }
+
+  .waitlist-btn:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+
+  .waitlist-loading-state {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-loading-state.is-visible {
+    position: relative;
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+
+  .waitlist-loading-state.is-hidden {
+    position: absolute;
+    opacity: 0;
+    transform: scale(1.2);
+    pointer-events: none;
+  }
+
+  .big-spinner {
+    animation: waitlistSpin 1.2s cubic-bezier(0.6, 0.1, 0.4, 0.9) infinite;
+  }
+
+  @keyframes waitlistSpin {
+    100% { transform: rotate(360deg); }
+  }
+
+  .waitlist-success {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px) scale(0.98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .waitlist-success.is-visible {
+    opacity: 1;
+    position: relative;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+    transition-delay: 100ms;
+  }
+
+  .success-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  .success-label {
+    font-family: var(--font-label);
+    font-size: var(--bebas-display-size);
+    color: var(--accent);
+    line-height: 1;
+    letter-spacing: var(--bebas-display-tracking);
+    text-transform: uppercase;
+  }
+
+  .success-sub {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    color: var(--dark);
+    font-weight: 500;
+    margin-top: 8px;
+    letter-spacing: -0.01em;
+  }
+
+  /* ---- Desktop ---- */
+  @media (min-width: 769px) {
+    .tool-hero {
+      padding: 104px 48px 60px;
+    }
+
+    .hero-inner,
+    .content-inner,
+    .faq-inner,
+    .waitlist-inner {
+      padding-right: var(--safe-pr-desktop);
+    }
+
+    .seo-content {
+      padding: 64px 48px;
+    }
+
+    .tool-faq {
+      padding: 48px 48px 64px;
+    }
+
+    .waitlist-cta {
+      padding: 48px 48px 80px;
+    }
+  }
+
+  /* ---- Mobile ---- */
+  @media (max-width: 768px) {
+    .tool-hero {
+      margin-right: 135px;
+    }
+
+    .chart-controls {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 12px;
+    }
+
+    .unit-toggle {
+      align-self: flex-start;
+    }
+
+    .tab-btn,
+    .unit-btn {
+      padding: var(--ts-btn-filter-padding-sm);
+      font-size: var(--ts-btn-filter-size-sm);
+    }
+
+    .row-label {
+      min-width: 130px;
+    }
+
+    .size-table td,
+    .size-table th {
+      padding: 8px 10px;
+    }
+
+    .waitlist-row {
+      flex-direction: column;
+    }
+
+    .waitlist-input {
+      border-right: 2px solid var(--cream-muted);
+      border-bottom: none;
+    }
+
+    .waitlist-input:focus {
+      border-color: var(--accent);
+    }
+
+    .waitlist-btn {
+      border-top: 2px solid var(--accent);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .back-link,
+    .waitlist-btn,
+    .faq summary,
+    .faq summary :global(.faq-icon),
+    .tab-btn,
+    .unit-btn {
+      transition: none;
+    }
+  }
+</style>

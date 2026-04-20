@@ -1,0 +1,91 @@
+---
+const tools = [
+  { href: '/tools/cast-on-calculator', label: 'Cast On', color: 'terracotta' },
+  { href: '/tools/yarn-estimator', label: 'Yarn Estimator', color: 'rust' },
+  { href: '/tools/yarn-weight-chart', label: 'Yarn Weights', color: 'sand' },
+  { href: '/tools/needle-size-chart', label: 'Needle Sizes', color: 'teal' },
+  { href: '/tools/knitting-size-charts', label: 'Size Charts', color: 'terracotta' },
+  { href: '/tools/knitting-abbreviations', label: 'Abbreviations', color: 'brown' },
+];
+---
+
+<aside class="free-tools-callout">
+  <div class="callout-inner reveal">
+    <span class="callout-eyebrow bebas-label">Free tools</span>
+    <p class="callout-lede">Not ready for the app? Try one in your browser.</p>
+    <ul class="tool-grid" role="list">
+      {tools.map((t) => (
+        <li>
+          <a class={`tool-chip bebas-label card-${t.color}`} href={t.href}>{t.label}</a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</aside>
+
+<style>
+  .free-tools-callout {
+    position: relative;
+    z-index: 1;
+    padding: var(--section-padding-y-compact) var(--section-padding-x-mobile);
+  }
+
+  .callout-inner {
+    max-width: var(--container-content-max);
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .callout-eyebrow {
+    display: block;
+    color: var(--accent);
+    margin-bottom: 12px;
+  }
+
+  .callout-lede {
+    font-family: var(--font-body);
+    font-size: var(--type-body-md);
+    color: var(--text-on-light);
+    margin: 0 0 24px;
+  }
+
+  .tool-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .card-terracotta { --chip-bg: rgb(from var(--stripe-terracotta) r g b / 0.88); --chip-bg-hover: rgb(from var(--stripe-terracotta) r g b / 0.94); }
+  .card-rust       { --chip-bg: rgb(from var(--stripe-rust) r g b / 0.88);       --chip-bg-hover: rgb(from var(--stripe-rust) r g b / 0.94); }
+  .card-sand       { --chip-bg: rgb(from var(--stripe-sand) r g b / 0.88);       --chip-bg-hover: rgb(from var(--stripe-sand) r g b / 0.94); }
+  .card-teal       { --chip-bg: rgb(from var(--stripe-teal) r g b / 0.88);       --chip-bg-hover: rgb(from var(--stripe-teal) r g b / 0.94); }
+  .card-brown      { --chip-bg: rgb(from var(--stripe-brown) r g b / 0.88);      --chip-bg-hover: rgb(from var(--stripe-brown) r g b / 0.94); }
+
+  .tool-chip {
+    display: inline-block;
+    background-color: var(--chip-bg);
+    color: var(--dark);
+    padding: 6px 16px;
+    border-radius: 0;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 200ms;
+  }
+
+  .tool-chip:hover,
+  .tool-chip:focus-visible {
+    background-color: var(--chip-bg-hover);
+    outline: none;
+  }
+
+  @media (min-width: 769px) {
+    .free-tools-callout {
+      padding: var(--section-padding-y-compact) var(--section-padding-x-desktop);
+      padding-right: var(--safe-pr-desktop);
+    }
+  }
+</style>

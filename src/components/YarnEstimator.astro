@@ -1,0 +1,382 @@
+<div class="yarn-estimator">
+  <fieldset>
+    <legend class="sr-only">Yarn Estimator</legend>
+
+    <div class="form-group">
+      <label for="project-type">Project type</label>
+      <select id="project-type">
+        <optgroup label="ADULT GARMENTS">
+          <option value="sweater">Sweater / Pullover</option>
+          <option value="cardigan">Cardigan</option>
+          <option value="vest">Vest</option>
+          <option value="poncho">Poncho</option>
+        </optgroup>
+        <optgroup label="CHILD GARMENTS">
+          <option value="child-sweater">Child Sweater</option>
+          <option value="child-cardigan">Child Cardigan</option>
+        </optgroup>
+        <optgroup label="BABY GARMENTS">
+          <option value="baby-sweater">Baby Sweater</option>
+          <option value="baby-cardigan">Baby Cardigan</option>
+          <option value="baby-booties">Baby Booties</option>
+        </optgroup>
+        <optgroup label="HATS">
+          <option value="adult-hat">Adult Hat / Beanie</option>
+          <option value="child-hat">Child Hat</option>
+          <option value="baby-hat">Baby Hat</option>
+          <option value="headband">Headband / Ear Warmer</option>
+        </optgroup>
+        <optgroup label="HANDS">
+          <option value="adult-mittens">Adult Mittens</option>
+          <option value="child-mittens">Child Mittens</option>
+          <option value="adult-gloves">Adult Gloves</option>
+          <option value="fingerless-mitts">Fingerless Mitts</option>
+        </optgroup>
+        <optgroup label="FEET">
+          <option value="adult-socks">Adult Socks</option>
+          <option value="child-socks">Child Socks</option>
+          <option value="slippers">Slippers</option>
+        </optgroup>
+        <optgroup label="NECK & SHOULDERS">
+          <option value="scarf">Scarf</option>
+          <option value="cowl">Cowl / Snood</option>
+          <option value="shawl">Shawl</option>
+          <option value="wrap">Wrap / Stole</option>
+        </optgroup>
+        <optgroup label="BLANKETS">
+          <option value="baby-blanket">Baby Blanket</option>
+          <option value="throw-blanket">Throw Blanket</option>
+          <option value="lap-blanket">Lap Blanket</option>
+          <option value="afghan">Afghan / Bed Blanket</option>
+        </optgroup>
+        <optgroup label="HOME">
+          <option value="dishcloth">Dishcloth / Washcloth</option>
+          <option value="pillow-cover">Pillow Cover</option>
+        </optgroup>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="project-size">Size</label>
+      <select id="project-size">
+        <option value="M">M</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="yarn-weight">Yarn weight</label>
+      <select id="yarn-weight">
+        <option value="lace">Lace</option>
+        <option value="fingering">Fingering</option>
+        <option value="sport">Sport</option>
+        <option value="dk">DK</option>
+        <option value="worsted" selected>Worsted</option>
+        <option value="aran">Aran</option>
+        <option value="bulky">Bulky</option>
+        <option value="super-bulky">Super Bulky</option>
+        <option value="jumbo">Jumbo</option>
+      </select>
+    </div>
+
+    <button type="button" class="btn-primary estimate-btn">Estimate</button>
+
+    <div class="result-area" aria-live="polite">
+      <div class="result-wrapper">
+        <div class="result-value" id="yarn-result"></div>
+      </div>
+    </div>
+  </fieldset>
+</div>
+
+<script>
+  function initYarnEstimator() {
+    const PROJECTS: Record<string, Record<string, number>> = {
+      'sweater': { 'XS': 1000, 'S': 1100, 'M': 1200, 'L': 1350, 'XL': 1500, '2XL': 1650, '3XL': 1800, '4XL': 1950, '5XL': 2100 },
+      'cardigan': { 'XS': 1100, 'S': 1250, 'M': 1400, 'L': 1550, 'XL': 1700, '2XL': 1850, '3XL': 2050, '4XL': 2200, '5XL': 2400 },
+      'vest': { 'XS': 550, 'S': 625, 'M': 700, 'L': 800, 'XL': 900, '2XL': 1000, '3XL': 1100 },
+      'poncho': { 'S/M': 900, 'L/XL': 1100, '2XL+': 1300 },
+      'child-sweater': { '2Y': 350, '4Y': 425, '6Y': 525, '8Y': 625, '10Y': 725, '12Y': 850 },
+      'child-cardigan': { '2Y': 400, '4Y': 500, '6Y': 600, '8Y': 725, '10Y': 850, '12Y': 975 },
+      'baby-sweater': { 'Preemie': 125, 'Newborn': 150, '3M': 175, '6M': 200, '12M': 250, '18M': 300, '24M': 350 },
+      'baby-cardigan': { 'Preemie': 150, 'Newborn': 175, '3M': 200, '6M': 250, '12M': 300, '18M': 350, '24M': 400 },
+      'baby-booties': { 'Preemie': 25, 'Newborn': 30, '3-6M': 40, '6-12M': 50, '12-24M': 60 },
+      'adult-hat': { 'S': 100, 'M': 125, 'L': 150 },
+      'child-hat': { 'Toddler': 60, 'Child': 80, 'Teen': 100 },
+      'baby-hat': { 'Preemie': 25, 'Newborn': 35, '3-6M': 45, '6-12M': 55, '12-24M': 65 },
+      'headband': { 'Child': 30, 'Adult': 50 },
+      'adult-mittens': { 'S': 100, 'M': 125, 'L': 150 },
+      'child-mittens': { 'Toddler': 45, 'Child': 65, 'Teen': 85 },
+      'adult-gloves': { 'S': 150, 'M': 175, 'L': 200 },
+      'fingerless-mitts': { 'S': 75, 'M': 90, 'L': 110 },
+      'adult-socks': { 'S (EU 36-38)': 175, 'M (EU 39-41)': 200, 'L (EU 42-44)': 225, 'XL (EU 45-47)': 250 },
+      'child-socks': { 'Toddler': 75, 'Child': 100, 'Teen': 140 },
+      'slippers': { 'S': 100, 'M': 125, 'L': 150 },
+      'scarf': { 'Short (120cm)': 200, 'Medium (150cm)': 275, 'Long (180cm)': 350, 'Extra Long (200cm+)': 425 },
+      'cowl': { 'Short': 125, 'Tall': 200 },
+      'shawl': { 'Small': 350, 'Medium': 550, 'Large': 750 },
+      'wrap': { 'Small': 500, 'Medium': 700, 'Large': 900 },
+      'baby-blanket': { 'Small (60×75cm)': 550, 'Standard (75×100cm)': 750, 'Large (100×100cm)': 950 },
+      'throw-blanket': { 'Small (100×125cm)': 1200, 'Standard (125×150cm)': 1600, 'Large (150×175cm)': 2100 },
+      'lap-blanket': { 'One Size (90×120cm)': 1000 },
+      'afghan': { 'Twin (170×225cm)': 2750, 'Full (195×225cm)': 3200, 'Queen (230×250cm)': 4000, 'King (270×250cm)': 4800 },
+      'dishcloth': { 'One Size': 60 },
+      'pillow-cover': { 'Small (30×30cm)': 150, 'Medium (40×40cm)': 250, 'Large (50×50cm)': 375 },
+    };
+
+    const MULTIPLIERS: Record<string, number> = {
+      'lace': 1.5, 'fingering': 1.35, 'sport': 1.2, 'dk': 1.1,
+      'worsted': 1.0, 'aran': 0.95, 'bulky': 0.8, 'super-bulky': 0.6, 'jumbo': 0.45,
+    };
+
+    document.querySelectorAll('.yarn-estimator').forEach(est => {
+      const projectSelect = est.querySelector('#project-type') as HTMLSelectElement;
+      const sizeSelect = est.querySelector('#project-size') as HTMLSelectElement;
+      const weightSelect = est.querySelector('#yarn-weight') as HTMLSelectElement;
+      const estimateBtn = est.querySelector('.estimate-btn') as HTMLButtonElement;
+      const resultEl = est.querySelector('#yarn-result') as HTMLElement;
+      const resultArea = est.querySelector('.result-area') as HTMLElement;
+      if (!projectSelect || !sizeSelect || !weightSelect || !estimateBtn || !resultEl || !resultArea) return;
+
+      const id = Math.random().toString(36).slice(2, 8);
+      projectSelect.id = `project-type-${id}`;
+      (projectSelect.previousElementSibling as HTMLElement).setAttribute('for', projectSelect.id);
+      sizeSelect.id = `project-size-${id}`;
+      (sizeSelect.previousElementSibling as HTMLElement).setAttribute('for', sizeSelect.id);
+      weightSelect.id = `yarn-weight-${id}`;
+      (weightSelect.previousElementSibling as HTMLElement).setAttribute('for', weightSelect.id);
+      resultEl.id = `yarn-result-${id}`;
+
+      function updateSizes() {
+        const project = PROJECTS[projectSelect.value];
+        if (!project) return;
+        const sizes = Object.keys(project);
+        sizeSelect.textContent = '';
+        sizes.forEach(size => {
+          const option = document.createElement('option');
+          option.value = size;
+          option.textContent = size;
+          sizeSelect.appendChild(option);
+        });
+      }
+      updateSizes();
+      projectSelect.addEventListener('change', updateSizes);
+
+      estimateBtn.addEventListener('click', () => {
+        const project = PROJECTS[projectSelect.value];
+        const size = sizeSelect.value;
+        const yarnWeight = weightSelect.value;
+        resultEl.textContent = '';
+        resultEl.className = 'result-value';
+
+        if (!project || !project[size] || !MULTIPLIERS[yarnWeight]) {
+          const errorSpan = document.createElement('span');
+          errorSpan.className = 'form-error';
+          errorSpan.setAttribute('role', 'alert');
+          errorSpan.textContent = 'Please select valid options.';
+          resultEl.appendChild(errorSpan);
+          resultArea.classList.add('is-open');
+          return;
+        }
+
+        const baseMeters = project[size];
+        const multiplier = MULTIPLIERS[yarnWeight];
+        const meters = Math.round(baseMeters * multiplier);
+        const yards = Math.round(meters * 1.094);
+
+        const wrapper = document.createElement('div');
+        wrapper.className = 'tool-result';
+        const numberEl = document.createElement('span');
+        numberEl.className = 'result-number';
+        numberEl.textContent = '0';
+        const labelEl = document.createElement('span');
+        labelEl.className = 'result-label';
+        labelEl.textContent = `meters (~${yards} yards)`;
+        wrapper.appendChild(numberEl);
+        wrapper.appendChild(labelEl);
+
+        const disclaimer = document.createElement('div');
+        disclaimer.className = 'result-disclaimer';
+        disclaimer.textContent = 'Estimate based on stockinette stitch. Cables, colorwork, and textured stitches use 15–20% more yarn. Always buy one extra skein.';
+        wrapper.appendChild(disclaimer);
+
+        resultEl.appendChild(wrapper);
+        resultArea.classList.add('is-open');
+
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (prefersReducedMotion) {
+          numberEl.textContent = String(meters);
+        } else {
+          const duration = 800;
+          const start = performance.now();
+          const animate = (now: number) => {
+            const elapsed = now - start;
+            const progress = Math.min(elapsed / duration, 1);
+            const eased = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+            numberEl.textContent = String(Math.round(eased * meters));
+            if (progress < 1) requestAnimationFrame(animate);
+          };
+          requestAnimationFrame(animate);
+        }
+      });
+    });
+  }
+  initYarnEstimator();
+</script>
+
+<style>
+  .yarn-estimator fieldset { border: none; }
+
+  .form-group { margin-top: 16px; }
+
+  .yarn-estimator label {
+    display: block;
+    color: var(--text-on-light-muted);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+
+  .yarn-estimator select {
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(46, 42, 38, 0.3);
+    border-radius: 0;
+    height: 52px;
+    padding: 0 18px;
+    padding-right: 44px;
+    font-size: 16px;
+    color: var(--text-on-light);
+    font-family: var(--font-body);
+    box-sizing: border-box;
+    transition: background-color 300ms ease, box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 300ms ease;
+    appearance: none;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23C45100' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+  }
+
+  .yarn-estimator select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 4px 16px var(--accent-soft);
+  }
+
+  .yarn-estimator select {
+    scrollbar-color: #C45100 #E8E4D0;
+    scrollbar-width: thin;
+  }
+
+  .yarn-estimator select::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .yarn-estimator select::-webkit-scrollbar-track {
+    background: #E8E4D0;
+  }
+
+  .yarn-estimator select::-webkit-scrollbar-thumb {
+    background: #C45100;
+    border-radius: 4px;
+  }
+
+  :global(.yarn-estimator select optgroup) {
+    font-weight: 700;
+    color: #5C5750;
+    font-style: normal;
+    background-color: #E8E4D0;
+  }
+
+  :global(.yarn-estimator select option) {
+    font-weight: 400;
+    color: #2E2A26;
+    background-color: #E8E4D0;
+  }
+
+  .estimate-btn {
+    display: inline-block;
+    margin-top: 24px;
+    background: var(--accent);
+    color: var(--cream);
+    border: 2px solid var(--accent);
+    transition: background-color 200ms, color 200ms, border-color 200ms, transform 100ms !important;
+  }
+
+  .estimate-btn:hover {
+    background: var(--dark-deep);
+    border-color: var(--dark-deep);
+  }
+
+  .estimate-btn:active {
+    transform: scale(0.96) !important;
+  }
+
+  /* Result Area — grid-expanding like cast-on calculator */
+  .result-area {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 500ms cubic-bezier(0.16, 1, 0.3, 1);
+    margin-top: 16px;
+  }
+
+  .result-area.is-open {
+    grid-template-rows: 1fr;
+  }
+
+  .result-wrapper {
+    overflow: hidden;
+  }
+
+  :global(.tool-result) {
+    background: none;
+    border: none;
+    padding: 16px 0;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 400ms ease 200ms, transform 400ms cubic-bezier(0.16, 1, 0.3, 1) 200ms;
+  }
+
+  .result-area.is-open :global(.tool-result) {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  :global(.result-number) {
+    display: block;
+    font-family: var(--font-label);
+    font-size: clamp(3rem, 6vw, 4.5rem);
+    color: var(--accent);
+    line-height: 1;
+    letter-spacing: 0.02em;
+  }
+
+  :global(.result-label) {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--dark);
+    opacity: 0.7;
+    margin-top: 4px;
+  }
+
+  :global(.result-disclaimer) {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--text-on-light-muted);
+    margin-top: 12px;
+    font-style: italic;
+  }
+
+  .form-error {
+    color: var(--accent);
+    font-size: 0.85rem;
+    display: block;
+    padding-top: 12px;
+  }
+
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0;
+  }
+</style>
