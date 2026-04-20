@@ -147,9 +147,6 @@ const aiFeatures = [
               Voice that listens, eyes that read, memory that connects the dots across your projects. In all eleven
               languages.
             </p>
-            <div class="waveform" aria-hidden="true">
-              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-            </div>
             <p class="mic">🎙 Listening…</p>
           </div>
 
@@ -168,17 +165,27 @@ const aiFeatures = [
           </ol>
 
           <div class="ai-vignette" aria-hidden="true">
+            <div class="vignette-head">
+              <span class="cap">Transcript · Live</span>
+              <span class="tick">Row 85</span>
+            </div>
             <div class="vignette-line you">
-              <span class="av">YOU</span>
+              <span class="av">You</span>
               <span class="msg">"Next row."</span>
+              <span class="wave" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+              </span>
             </div>
             <div class="vignette-line ai">
               <span class="av">AI</span>
               <span class="msg">Row 85. Two more before your sleeve increase.</span>
             </div>
             <div class="vignette-line you">
-              <span class="av">YOU</span>
+              <span class="av">You</span>
               <span class="msg">"What's sl1 k2tog psso?"</span>
+              <span class="wave" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+              </span>
             </div>
             <div class="vignette-line ai">
               <span class="av">AI</span>
@@ -405,33 +412,9 @@ const aiFeatures = [
     margin: 0 0 22px;
     max-width: 360px;
   }
-  .waveform {
-    display: flex;
-    gap: 4px;
-    align-items: flex-end;
-    height: 32px;
-    margin-bottom: 8px;
-  }
-  .waveform span {
-    width: 3px;
-    background: var(--wheat);
-    border-radius: 2px;
-    animation: wave 1.2s ease-in-out infinite;
-    transform-origin: bottom;
-  }
-  .waveform span:nth-child(1) { height: 40%; animation-delay: 0s; }
-  .waveform span:nth-child(2) { height: 80%; animation-delay: 0.1s; }
-  .waveform span:nth-child(3) { height: 60%; animation-delay: 0.2s; }
-  .waveform span:nth-child(4) { height: 100%; animation-delay: 0.3s; }
-  .waveform span:nth-child(5) { height: 55%; animation-delay: 0.4s; }
-  .waveform span:nth-child(6) { height: 75%; animation-delay: 0.5s; }
-  .waveform span:nth-child(7) { height: 35%; animation-delay: 0.6s; }
   @keyframes wave {
     0%, 100% { transform: scaleY(0.5); }
     50% { transform: scaleY(1.15); }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .waveform span { animation: none; transform: scaleY(1); }
   }
   .ai-intro .mic {
     font-family: var(--mono);
@@ -482,43 +465,83 @@ const aiFeatures = [
   }
 
   .ai-vignette {
-    background: rgba(244, 234, 217, 0.06);
-    border: 1px solid rgba(244, 234, 217, 0.2);
-    border-radius: 12px;
-    padding: 18px;
+    background: var(--wheat);
+    color: var(--ink);
+    border: 1.5px solid var(--ink);
+    border-radius: 0;
+    padding: 20px 22px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0;
+    position: relative;
   }
+  .vignette-head {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink);
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 12px;
+  }
+  .vignette-head .tick { opacity: 0.7; }
+
   .vignette-line {
     display: grid;
-    grid-template-columns: 34px 1fr;
+    grid-template-columns: 42px 1fr auto;
     gap: 12px;
-    align-items: start;
-  }
-  .vignette-line .av {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    font-family: var(--mono);
-    font-size: 9px;
-    font-weight: 700;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    color: var(--paper);
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(42, 30, 23, 0.2);
   }
-  .vignette-line.you .av { background: var(--sage); }
-  .vignette-line.ai .av { background: var(--terracotta); }
+  .vignette-line:last-child { border-bottom: 0; }
+
+  .vignette-line .av {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .vignette-line.you .av { color: var(--terracotta); }
+  .vignette-line.ai .av { color: var(--walnut); }
+
   .vignette-line .msg {
     font-family: var(--serif);
     font-size: 15px;
     line-height: 1.35;
-    font-style: italic;
+    color: var(--ink);
   }
-  .vignette-line.you .msg { color: var(--wheat); }
-  .vignette-line.ai .msg { color: var(--paper); }
-  .vignette-line.ai .msg em { color: var(--wheat); font-style: italic; }
+  .vignette-line.you .msg { font-style: italic; }
+  .vignette-line.ai .msg em { color: var(--terracotta); font-style: italic; }
+
+  .vignette-line .wave {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 40px;
+  }
+  .vignette-line .wave span {
+    width: 4px;
+    background: var(--terracotta);
+    border-radius: 1px;
+    animation: wave 1.2s ease-in-out infinite;
+    transform-origin: bottom;
+  }
+  .vignette-line .wave span:nth-child(1) { height: 40%; animation-delay: 0s; }
+  .vignette-line .wave span:nth-child(2) { height: 75%; animation-delay: 0.08s; }
+  .vignette-line .wave span:nth-child(3) { height: 55%; animation-delay: 0.16s; }
+  .vignette-line .wave span:nth-child(4) { height: 95%; animation-delay: 0.24s; }
+  .vignette-line .wave span:nth-child(5) { height: 65%; animation-delay: 0.32s; }
+  .vignette-line .wave span:nth-child(6) { height: 85%; animation-delay: 0.40s; }
+  .vignette-line .wave span:nth-child(7) { height: 50%; animation-delay: 0.48s; }
+  .vignette-line .wave span:nth-child(8) { height: 70%; animation-delay: 0.56s; }
+  .vignette-line .wave span:nth-child(9) { height: 35%; animation-delay: 0.64s; }
+  @media (prefers-reduced-motion: reduce) {
+    .vignette-line .wave span { animation: none; transform: scaleY(1); }
+  }
 
   @media (max-width: 1024px) {
     .nine-grid { grid-template-columns: repeat(2, 1fr); }
