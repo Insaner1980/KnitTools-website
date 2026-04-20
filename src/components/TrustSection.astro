@@ -1,118 +1,156 @@
 ---
+const columns = [
+  {
+    eyebrow: 'Price',
+    lead: 'Pay once.',
+    italic: 'Own it.',
+    body:
+      "€8.99 for the whole toolkit. After launch the price rises to €11.99, so if you're going to buy it, buy it early. No subscription, ever.",
+  },
+  {
+    eyebrow: 'Privacy',
+    lead: 'No tracking.',
+    italic: 'No ads.',
+    body: 'Your stash, your patterns, your pace. All on your device, none of it sold to anyone.',
+    tint: 'sage',
+  },
+  {
+    eyebrow: 'Languages',
+    lead: 'Speaks',
+    italic: 'your language.',
+    body: "Eleven languages at launch. Because knitting instructions shouldn't need a translator.",
+  },
+];
 ---
 
-<section class="trust">
-  <div class="trust-inner reveal">
-    <div class="trust-items">
-      <div class="trust-item">
-        <span class="trust-label bebas-label">PRICE</span>
-        <p class="trust-headline">Pay once. <em class="accent-italic">Own it.</em></p>
-        <p class="trust-body">&euro;8.99 for the whole toolkit. After launch the price rises to &euro;11.99, so if you&rsquo;re going to buy it, buy it early. No subscription, ever.</p>
-      </div>
-      <div class="trust-item">
-        <span class="trust-label bebas-label">PRIVACY</span>
-        <p class="trust-headline">No tracking. <em class="accent-italic">No ads.</em></p>
-        <p class="trust-body">Your stash, your patterns, your pace. All on your device, none of it sold to anyone.</p>
-      </div>
-      <div class="trust-item">
-        <span class="trust-label bebas-label">LANGUAGES</span>
-        <p class="trust-headline">Speaks <em class="accent-italic">your language.</em></p>
-        <p class="trust-body">Eleven languages at launch. Because knitting instructions shouldn&rsquo;t need a translator.</p>
-      </div>
+<section class="trust-triad" aria-labelledby="trust-heading">
+  <div class="inner">
+    <header class="section-head">
+      <div class="num">Nº 02</div>
+      <h2 id="trust-heading" class="title">What you can <em>count on.</em></h2>
+      <div class="kicker">No subscription · No tracking · No language barrier</div>
+    </header>
+
+    <div class="cols">
+      {
+        columns.map((c) => (
+          <article class:list={['trust-col', c.tint && `tint-${c.tint}`]}>
+            <p class="eyebrow">{c.eyebrow}</p>
+            <h3>
+              {c.lead}
+              <br />
+              <em>{c.italic}</em>
+            </h3>
+            <p class="body">{c.body}</p>
+          </article>
+        ))
+      }
     </div>
   </div>
 </section>
 
 <style>
-  .trust {
-    position: relative;
-    isolation: isolate;
-    z-index: 1;
-    padding: var(--section-padding-y-mobile) var(--section-padding-x-mobile);
+  .trust-triad {
+    background: var(--paper);
+    color: var(--ink);
+    padding: 120px 40px;
+    border-top: 1px solid var(--ink);
   }
-
-  .trust::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: var(--stripe-width-mobile);
-    bottom: 0;
-    left: 0;
-    background: #5B8072;
-    z-index: -1;
-  }
-
-  .trust-inner {
-    max-width: var(--container-compact-max);
+  .inner {
+    max-width: 1280px;
     margin: 0 auto;
-    text-align: center;
   }
-
-  .trust-items {
+  .section-head {
     display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 2rem;
+    grid-template-columns: auto 1fr auto;
+    gap: 24px;
+    align-items: end;
+    padding-bottom: 18px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 48px;
   }
-
-  .trust-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-    max-width: 220px;
+  .section-head .num {
+    font-family: var(--serif);
+    font-size: clamp(2.25rem, 4vw, 3.5rem);
+    line-height: 0.9;
+    color: var(--terracotta);
+    font-style: italic;
   }
-
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .trust-items {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 2.5rem 2rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .trust-items {
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-    }
-  }
-
-  .trust-label {
-    color: var(--label-on-dark);
-  }
-
-  .trust-headline {
-    font-family: var(--font-display);
-    font-weight: 800;
-    font-size: clamp(1.45rem, 2.1vw, 1.75rem);
-    color: var(--cream);
+  .section-head .title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3.75rem);
+    line-height: 0.95;
+    letter-spacing: -0.02em;
     margin: 0;
-    line-height: 1.2;
+    color: var(--ink);
+  }
+  .section-head .title em { color: var(--terracotta); font-style: italic; }
+  .section-head .kicker {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding-bottom: 10px;
+    text-align: right;
+  }
+  .cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .trust-col {
+    background: var(--paper-2);
+    border: 1px solid var(--ink);
+    padding: 36px 32px;
+  }
+  .trust-col.tint-sage {
+    background: var(--sage);
+    color: var(--paper);
+  }
+  .trust-col.tint-sage .eyebrow { color: var(--paper); opacity: 0.85; }
+  .trust-col.tint-sage h3 { color: var(--paper); }
+  .trust-col.tint-sage h3 em { color: var(--paper); }
+  .trust-col.tint-sage .body { color: rgba(244, 234, 217, 0.9); }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sage);
+    margin: 0 0 18px;
+  }
+  h3 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 3vw, 2.75rem);
+    line-height: 1;
+    letter-spacing: -0.01em;
+    margin: 0 0 20px;
+    color: var(--ink);
+  }
+  h3 em {
+    color: var(--sage);
+    font-style: italic;
+  }
+  .body {
+    font-family: var(--body-ed);
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin: 0;
   }
 
-  .trust-body {
-    font-family: var(--font-body);
-    font-size: var(--type-body-md);
-    color: var(--cream-muted);
-    line-height: 1.65;
-    margin: 0.25rem 0 0;
+  @media (max-width: 1023px) {
+    .cols { grid-template-columns: 1fr; }
   }
-
-  @media (min-width: 769px) {
-    .trust {
-      padding: var(--section-padding-y-desktop) var(--section-padding-x-desktop);
-    }
-    .trust::before {
-      right: var(--stripe-width-desktop);
-    }
-    .trust-inner {
-      padding-right: var(--safe-pr-desktop);
-    }
-  }
-
   @media (max-width: 767px) {
-    .trust-item {
-      max-width: 100%;
-    }
+    .section-head { grid-template-columns: 1fr; gap: 8px; }
+    .section-head .kicker { text-align: left; padding-bottom: 0; }
+  }
+  @media (max-width: 640px) {
+    .trust-triad { padding: 80px 20px; }
   }
 </style>

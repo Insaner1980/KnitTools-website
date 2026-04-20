@@ -1,0 +1,220 @@
+---
+const romans = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x'];
+
+const freeBullets = [
+  'Row counter + session history',
+  'Pattern viewer (PDF or Ravelry)',
+  'Four calculators (gauge, cast-on, increases, yardage)',
+  'Ravelry sign-in',
+  'Reference library (needles, sizes, symbols, abbreviations)',
+  'Three projects',
+  'Eleven languages',
+];
+
+const proBullets = [
+  'Unlimited projects',
+  'Yarn OCR scanner · unlimited stash',
+  'Progress photos, row-tagged',
+  'Insights, streaks, pace-over-time',
+  'Home-screen counter widget',
+  'Live AI voice on the counter (all eleven languages)',
+  'AI pattern help: read rows aloud, explain stitches, parse instructions',
+  'AI project summaries + voice journal',
+];
+---
+
+<section class="pricing-section" aria-labelledby="pricing-heading">
+  <div class="inner">
+    <header class="section-head">
+      <div class="num">Nº 03</div>
+      <h2 id="pricing-heading" class="title">Pay once. <em>Own it.</em></h2>
+      <div class="kicker">No monthly · No yearly</div>
+    </header>
+
+    <div class="plans">
+      <article class="card free">
+        <p class="label">§ Free</p>
+        <h3>Forever</h3>
+        <ol>
+          {
+            freeBullets.map((b, i) => (
+              <li>
+                <span class="n">{romans[i]}</span>
+                <span class="t">{b}</span>
+              </li>
+            ))
+          }
+        </ol>
+        <p class="footnote">No account. No trial expiry. No card.</p>
+      </article>
+
+      <article class="card pro">
+        <p class="label">§ Pro</p>
+        <h3>€8.99 <span class="suffix">one-time</span></h3>
+        <p class="includes">Everything in Free, plus:</p>
+        <ol>
+          {
+            proBullets.map((b, i) => (
+              <li>
+                <span class="n">{romans[i]}</span>
+                <span class="t">{b}</span>
+              </li>
+            ))
+          }
+        </ol>
+        <p class="footnote">
+          14-day free trial. No credit card. Rises to €11.99 two months after launch — permanently. No subscription,
+          ever.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<style>
+  .pricing-section {
+    background: var(--paper);
+    padding: 120px 40px;
+    border-top: 1px solid var(--ink);
+  }
+  .inner {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .section-head {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 24px;
+    align-items: end;
+    padding-bottom: 18px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 48px;
+  }
+  .section-head .num {
+    font-family: var(--serif);
+    font-size: clamp(2.25rem, 4vw, 3.5rem);
+    line-height: 0.9;
+    color: var(--terracotta);
+    font-style: italic;
+  }
+  .section-head .title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3.75rem);
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: var(--ink);
+  }
+  .section-head .title em { color: var(--terracotta); font-style: italic; }
+  .section-head .kicker {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding-bottom: 10px;
+    text-align: right;
+  }
+
+  .plans {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .card {
+    border: 1px solid var(--ink);
+    padding: 40px;
+  }
+  .card.free {
+    background: var(--paper-2);
+    color: var(--ink);
+  }
+  .card.pro {
+    background: var(--terracotta);
+    color: var(--paper);
+    border-color: var(--terracotta);
+  }
+  .label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 16px;
+  }
+  .free .label { color: var(--walnut); }
+  .pro .label { color: var(--wheat); }
+
+  .includes {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--wheat);
+    margin: -8px 0 16px;
+  }
+
+  h3 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin: 0 0 24px;
+  }
+  .suffix {
+    font-family: var(--mono);
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-left: 8px;
+  }
+
+  ol {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+  }
+  ol li {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    align-items: baseline;
+    padding: 12px 0;
+    font-family: var(--body-ed);
+    font-size: 15px;
+    line-height: 1.5;
+    border-top: 1px solid rgba(42, 30, 23, 0.2);
+  }
+  .pro ol li { border-top-color: rgba(244, 234, 217, 0.25); }
+  ol li:last-child { border-bottom: 1px solid rgba(42, 30, 23, 0.2); }
+  .pro ol li:last-child { border-bottom-color: rgba(244, 234, 217, 0.25); }
+
+  ol li .n {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1;
+  }
+  .free ol li .n { color: var(--terracotta); }
+  .pro ol li .n { color: var(--wheat); }
+
+  .footnote {
+    font-family: var(--body-ed);
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  .free .footnote { color: var(--ink-soft); }
+  .pro .footnote { color: rgba(244, 234, 217, 0.85); }
+
+  @media (max-width: 767px) {
+    .pricing-section { padding: 80px 20px; }
+    .section-head { grid-template-columns: 1fr; gap: 8px; }
+    .section-head .kicker { text-align: left; padding-bottom: 0; }
+    .plans { grid-template-columns: 1fr; }
+    .card.pro { order: -1; }
+    .card { padding: 32px; }
+  }
+</style>

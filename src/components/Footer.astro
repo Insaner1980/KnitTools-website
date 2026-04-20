@@ -1,116 +1,150 @@
 ---
+const tools = [
+  { label: 'Cast On Calculator', href: '/tools/cast-on-calculator' },
+  { label: 'Yarn Estimator', href: '/tools/yarn-estimator' },
+  { label: 'Needle Size Chart', href: '/tools/needle-size-chart' },
+  { label: 'Yarn Weight Chart', href: '/tools/yarn-weight-chart' },
+  { label: 'Knitting Abbreviations', href: '/tools/knitting-abbreviations' },
+  { label: 'Knitting Size Charts', href: '/tools/knitting-size-charts' },
+];
+
+const articles = [
+  { label: 'Gauge & Calculations', href: '/articles' },
+  { label: 'Yarn', href: '/articles' },
+  { label: 'Needles', href: '/articles' },
+  { label: 'Techniques', href: '/articles' },
+  { label: 'App & Tools', href: '/articles' },
+];
+
+const languages = [
+  'English',
+  'Suomi',
+  'Svenska',
+  'Dansk',
+  'Norsk',
+  'Nederlands',
+  'Deutsch',
+  'Français',
+  'Italiano',
+  'Português',
+  'Español',
+];
 ---
 
-<footer>
-  <div class="footer-inner">
-    <div class="footer-columns">
-      <div class="footer-col">
-        <h4 class="footer-heading bebas-label">TOOLS</h4>
-        <a href="/tools/cast-on-calculator">Cast On Calculator</a>
-        <a href="/tools/yarn-estimator">Yarn Estimator</a>
-        <a href="/tools/needle-size-chart">Needle Size Chart</a>
-        <a href="/tools/yarn-weight-chart">Yarn Weight Chart</a>
-        <a href="/tools/knitting-size-charts">Knitting Size Charts</a>
-        <a href="/tools/knitting-abbreviations">Knitting Abbreviations</a>
-      </div>
-      <div class="footer-col">
-        <h4 class="footer-heading bebas-label">ARTICLES</h4>
-        <a href="/articles?category=gauge">Gauge &amp; Calculations</a>
-        <a href="/articles?category=yarn">Yarn</a>
-        <a href="/articles?category=needles">Needles</a>
-        <a href="/articles?category=techniques">Techniques</a>
-        <a href="/articles?category=app">App &amp; Tools</a>
-      </div>
-      <div class="footer-col">
-        <h4 class="footer-heading bebas-label">APP</h4>
-        <span class="footer-plain">Launching soon</span>
-        <a href="https://finnvek.com/privacy" target="_blank" rel="noopener noreferrer">Privacy</a>
-      </div>
+<footer class="footer-editorial">
+  <div class="inner">
+    <div class="cols">
+      <section>
+        <h4>Tools</h4>
+        <ul>
+          {tools.map((t) => <li><a href={t.href}>{t.label}</a></li>)}
+        </ul>
+      </section>
+      <section>
+        <h4>Articles</h4>
+        <ul>
+          {articles.map((a) => <li><a href={a.href}>{a.label}</a></li>)}
+        </ul>
+      </section>
+      <section>
+        <h4>App</h4>
+        <ul>
+          <li><span class="muted">Launching soon</span></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </section>
     </div>
 
-    <p class="footer-bottom">Finnvek &middot; <a href="mailto:contact@finnvek.com">contact@finnvek.com</a> &middot; &copy; 2026</p>
+    <p class="copyright">
+      © MMXXVI KnitTools · Finnvek
+    </p>
   </div>
 </footer>
 
 <style>
-  footer {
-    padding: 40px 20px 32px;
-    background: var(--stripe-brown);
-    color: var(--cream);
+  .footer-editorial {
+    background: var(--paper);
+    color: var(--ink);
+    padding: 80px 40px 40px;
+    border-top: 1px solid var(--ink);
   }
-
-  .footer-inner {
-    max-width: var(--container-page-max);
+  .inner {
+    max-width: 1280px;
     margin: 0 auto;
   }
-
-  .footer-columns {
-    display: flex;
-    gap: 4rem;
-    margin-bottom: 2rem;
+  .cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    padding-bottom: 48px;
   }
-
-  .footer-col {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  h4 {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 16px;
+    font-weight: 400;
   }
-
-  .footer-heading {
-    color: var(--mustard);
-    margin-bottom: 0.5rem;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
-
-  .footer-col a,
-  .footer-plain {
-    font-family: var(--font-body);
-    font-size: var(--type-body-sm);
-    color: var(--cream);
+  ul li {
+    padding: 6px 0;
+    font-family: var(--body-ed);
+    font-size: 14px;
+  }
+  ul li a {
+    color: var(--ink);
     text-decoration: none;
-    transition: color 200ms;
+    transition: color 0.15s ease;
+  }
+  ul li a:hover { color: var(--terracotta); }
+  .muted { color: var(--ink-soft); font-style: italic; }
+
+  .bottom-bar {
+    border-top: 1px solid rgba(42, 30, 23, 0.2);
+    padding: 24px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: baseline;
+  }
+  .tagline {
+    font-family: var(--body-ed);
+    font-style: italic;
+    font-size: 14px;
+    color: var(--ink);
+    margin: 0;
+    max-width: 440px;
+  }
+  .langs {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--ink-soft);
+    margin: 0;
+    text-align: right;
   }
 
-  .footer-col a:hover {
-    color: var(--mustard);
-  }
-
-  .footer-bottom {
+  .copyright {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
     text-align: center;
-    font-family: var(--font-body);
-    font-size: 0.8rem;
-    color: rgba(232, 228, 208, 0.5);
+    color: var(--ink-soft);
+    margin: 24px 0 0;
+    padding-top: 16px;
+    border-top: 1px solid rgba(42, 30, 23, 0.1);
   }
 
-  .footer-bottom a {
-    color: rgba(232, 228, 208, 0.5);
-    text-decoration: none;
-    transition: color 200ms;
-  }
-
-  .footer-bottom a:hover {
-    color: var(--cream);
-  }
-
-  @media (min-width: 769px) {
-    footer {
-      padding: 48px 20px 32px;
-    }
-
-    .footer-columns,
-    .footer-bottom {
-      margin-right: clamp(0px, calc(290px - (100vw - 1400px) / 2), 290px);
-    }
-  }
-
-  @media (max-width: 768px) {
-    .footer-columns {
-      flex-direction: column;
-      gap: 2rem;
-      margin-right: 145px;
-    }
-
-    .footer-bottom {
-      margin-right: 145px;
-    }
+  @media (max-width: 767px) {
+    .footer-editorial { padding: 60px 20px 32px; }
+    .cols { grid-template-columns: 1fr; gap: 32px; padding-bottom: 32px; }
+    .bottom-bar { grid-template-columns: 1fr; }
+    .langs { text-align: left; }
   }
 </style>

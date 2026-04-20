@@ -1,83 +1,62 @@
 ---
 const items = [
-  'Projects',
   'Row counter',
-  'AI pattern help',
-  'Pattern viewer',
-  'Voice counter',
+  'Voice commands',
   'Yarn scanner',
   'AI journaling',
-  'Live voice chat',
+  'Pattern viewer',
   'Ravelry',
+  'Insights',
   'Progress photos',
-  'Row reminders',
-  'Home screen widget',
-  'Four calculators',
-  'Reference library',
-  'No tracking',
-  'One-time price',
+  'Widget',
 ];
 ---
 
 <div class="marquee" aria-hidden="true">
   <div class="marquee-track">
-    {[...items, ...items].map((item) => (
-      <>
-        <span class="marquee-item">{item}</span>
-        <span class="marquee-sep"></span>
-      </>
-    ))}
+    {
+      [...items, ...items].map((item) => (
+        <span>
+          {item}
+          <span class="dot">·</span>
+        </span>
+      ))
+    }
   </div>
 </div>
 
 <style>
   .marquee {
-    position: relative;
-    z-index: 0;
-    background: var(--accent);
-    padding: 18px 0;
+    background: var(--paper);
+    border-top: 1px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+    padding: 22px 0;
     overflow: hidden;
-    width: 100%;
-  }
-
-  .marquee-track {
-    display: flex;
-    align-items: center;
     white-space: nowrap;
-    animation: marquee 60s linear infinite;
-    width: max-content;
   }
-
-  .marquee-item {
-    font-family: var(--font-label);
-    font-size: clamp(1rem, 1.75vw, 1.4rem);
-    font-weight: 400;
-    color: var(--cream);
-    letter-spacing: 0.1em;
+  .marquee-track {
+    display: inline-flex;
+    animation: scroll 40s linear infinite;
+    font-family: var(--mono);
+    font-size: 14px;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    flex-shrink: 0;
-    line-height: 1.2;
+    color: var(--ink);
   }
-
-  .marquee-sep {
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    background: var(--cream);
-    border-radius: 9999px;
-    margin: 0 2.5rem;
-    opacity: 0.55;
-    flex-shrink: 0;
+  .marquee-track span {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 14px;
   }
-
-  @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+  .marquee-track .dot {
+    padding: 0 0 0 14px;
+    color: var(--terracotta);
   }
-
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
   @media (prefers-reduced-motion: reduce) {
-    .marquee-track {
-      animation: none;
-    }
+    .marquee-track { animation-play-state: paused; }
   }
 </style>

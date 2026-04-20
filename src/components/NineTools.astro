@@ -1,242 +1,561 @@
 ---
 const languages = [
-  'English', 'Finnish', 'Danish', 'Dutch', 'French', 'German',
-  'Italian', 'Norwegian', 'Portuguese', 'Spanish', 'Swedish',
+  'English',
+  'Finnish',
+  'Danish',
+  'Dutch',
+  'French',
+  'German',
+  'Italian',
+  'Norwegian',
+  'Portuguese',
+  'Spanish',
+  'Swedish',
 ];
 
 const cards = [
   {
-    span: 2,
-    feature: 'Row counter',
-    descriptor: ' with memory',
-    body: 'A big round button where your thumb already is. Tap without looking. Miscount? Undo. Say "add three" or "next row" and voice commands work with no signal needed.',
+    tag: '§ Counter',
+    tier: 'free',
+    title: 'Row counter with memory',
+    body:
+      'A big round button where your thumb already is. Tap without looking. Miscount? Undo. Say "add three" or "next row" without putting your needles down.',
     chips: true,
   },
   {
-    span: 1,
-    feature: 'Pattern viewer',
-    descriptor: ' that follows along',
-    body: "PDF or Ravelry pull-in. The row you're on highlights itself. Tap sl1, k2tog, psso. AI explains what it does, step by step.",
+    tag: '§ Pattern',
+    tier: 'free',
+    title: 'Pattern viewer that follows along',
+    body:
+      'PDF or Ravelry pull-in. Annotate rows, mark your place, find your way back when life interrupts.',
   },
   {
-    span: 2,
-    feature: 'Yarn scanner',
-    descriptor: ' for the label graveyard',
-    body: 'Point the camera at the ball band. The AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo of the band itself. That mystery skein finally has a name.',
-  },
-  {
-    span: 1,
-    feature: 'Four calculators',
-    descriptor: ', quietly working',
+    tag: '§ Calc',
+    tier: 'free',
+    title: 'Four calculators, quietly working',
     body: 'Cast on, gauge, increases, yardage. The math your knitting already asked you to do.',
   },
   {
-    span: 1,
-    feature: 'Ravelry',
-    descriptor: ', the way it should feel',
-    body: 'Search, save, start a project in one tap. Log in through Ravelry itself. Your password never touches this app.',
+    tag: '§ Ravelry',
+    tier: 'free',
+    title: 'Ravelry, the way it should feel',
+    body:
+      'Search, save, start a project in one tap. Log in through Ravelry itself. Your password never touches this app.',
+    tint: 'walnut',
   },
   {
-    span: 1,
-    feature: 'Reference',
-    descriptor: ', one tap away',
-    body: 'Needles, sizes, chart symbols, abbreviations. Right there in your library, before you remember you needed it.',
+    tag: '§ Reference',
+    tier: 'free',
+    title: 'Reference, one tap away',
+    body:
+      'Needles, sizes, chart symbols, abbreviations. Right there in your library, before you remember you needed it.',
   },
   {
-    span: 1,
-    feature: 'Progress photos',
-    descriptor: ', just for you',
+    tag: '§ Stash',
+    tier: 'pro',
+    title: 'Yarn scanner for the label graveyard',
+    body:
+      'Point the camera at the ball band. AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo. That mystery skein finally has a name.',
+    tint: 'sage',
+  },
+  {
+    tag: '§ Photos',
+    tier: 'pro',
+    title: 'Progress photos, just for you',
     body: 'One folder per project. Full resolution, on your device, nothing uploaded anywhere.',
   },
   {
-    span: 2,
-    feature: 'Insights',
-    descriptor: ' without the pressure',
-    body: 'Hours at the needles. Rows per hour. Streaks. No leaderboards, no nudges, no comparing yourself to anyone else. The stats are yours.',
+    tag: '§ Insights',
+    tier: 'pro',
+    title: 'Insights without the pressure',
+    body:
+      'Hours at the needles. Rows per hour. Streaks. No leaderboards, no nudges, no comparing. The stats are yours.',
   },
   {
-    span: 1,
-    feature: 'A widget',
-    descriptor: ' on your home screen',
-    body: 'Tap to count. No app launch, no loading. The exact amount of friction a row counter should have, which is zero.',
+    tag: '§ Widget',
+    tier: 'pro',
+    title: 'A widget on your home screen',
+    body:
+      'Tap to count. No app launch, no loading. The exact amount of friction a row counter should have, which is zero.',
+  },
+];
+
+const aiFeatures = [
+  {
+    n: 'i',
+    t: 'Live voice on the counter',
+    d: 'Say "next row", "set row to 100", or ask "what\'s sl1 k2tog psso" without putting the needles down. Basic commands stay offline.',
+  },
+  {
+    n: 'ii',
+    t: 'Pattern intelligence',
+    d: 'Pattern viewer reads each row aloud for you. Tap any instruction for a plain-language explanation. Paste a gnarly increase sentence and the calculator fills itself.',
+  },
+  {
+    n: 'iii',
+    t: 'Stash and project memory',
+    d: 'Scan a yarn label — fiber, weight, meters, dye lot filed automatically. Ask for a project summary and the AI picks up where you left off, yarn compatibility and all.',
+  },
+  {
+    n: 'iv',
+    t: 'Voice or text journal',
+    d: 'Mumble a session note into the mic or type a quick line. The AI adds date and row, keeps your own words intact.',
   },
 ];
 ---
 
-<section class="nine-tools" aria-labelledby="nine-tools-heading">
+<section class="nine-tools" aria-labelledby="nine-heading">
   <div class="nine-inner">
-    <div class="nine-intro reveal">
-      <span class="eyebrow bebas-label">What&rsquo;s inside</span>
-      <h2 id="nine-tools-heading" class="nine-heading">
-        <span class="h2-base">Every tool, </span><span class="h2-accent">talking to each other.</span>
-      </h2>
-    </div>
+    <header class="section-head">
+      <div class="num">Nº 01</div>
+      <h2 id="nine-heading" class="title">Every tool,<br /><em>talking to each other.</em></h2>
+      <div class="kicker">Free core · Pro unlocks</div>
+    </header>
 
-    <div class="bento-grid">
-      {cards.map((c) => (
-        <article class={`bento-card reveal`} data-span={c.span}>
-          <h3>
-            <span class="card-feature">{c.feature}</span><span class="card-descriptor">{c.descriptor}</span>
-          </h3>
-          <p>{c.body}</p>
-          {c.chips && (
-            <ul role="list" class="chip-row">
-              {languages.map((lang) => <li class="chip">{lang}</li>)}
-            </ul>
-          )}
-        </article>
-      ))}
+    <div class="nine-grid">
+      {
+        cards.map((c) => (
+          <article class:list={['tool-card', c.tint && `tint-${c.tint}`]}>
+            <div class="card-meta">
+              <span class="tag">{c.tag}</span>
+              <span class:list={['pill', `pill-${c.tier}`]}>
+                {c.tier === 'pro' ? 'PRO' : 'FREE'}
+              </span>
+            </div>
+            <h3>{c.title}</h3>
+            <p>{c.body}</p>
+            {c.chips && (
+              <ul class="chip-row" aria-label="Supported languages">
+                {languages.map((lang) => (
+                  <li class="chip">{lang}</li>
+                ))}
+              </ul>
+            )}
+          </article>
+        ))
+      }
+
+      <article class="tool-card tint-ink wide ai-card">
+        <div class="card-meta">
+          <span class="tag">§ AI</span>
+          <span class="pill pill-pro">PRO</span>
+        </div>
+        <div class="ai-grid">
+          <div class="ai-intro">
+            <h3>AI that <em>knows knitting.</em></h3>
+            <p>
+              Voice that listens, eyes that read, memory that connects the dots across your projects. In all eleven
+              languages.
+            </p>
+            <p class="mic">🎙 Listening…</p>
+          </div>
+
+          <ol class="ai-list">
+            {
+              aiFeatures.map((f) => (
+                <li>
+                  <span class="n">{f.n}</span>
+                  <div class="body">
+                    <div class="t">{f.t}</div>
+                    <div class="d">{f.d}</div>
+                  </div>
+                </li>
+              ))
+            }
+          </ol>
+
+          <div class="ai-vignette" aria-hidden="true">
+            <div class="vignette-head">
+              <span class="cap">Transcript · Live</span>
+              <span class="tick">Row 85</span>
+            </div>
+            <div class="vignette-line you">
+              <span class="av">You</span>
+              <span class="msg">"Next row."</span>
+              <span class="wave" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+              </span>
+            </div>
+            <div class="vignette-line ai">
+              <span class="av">AI</span>
+              <span class="msg">Row 85. Two more before your sleeve increase.</span>
+            </div>
+            <div class="vignette-line you">
+              <span class="av">You</span>
+              <span class="msg">"What's sl1 k2tog psso?"</span>
+              <span class="wave" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+              </span>
+            </div>
+            <div class="vignette-line ai">
+              <span class="av">AI</span>
+              <span class="msg">Slip one, knit two together, pass the slipped stitch over. <em>Left-leaning double decrease.</em></span>
+            </div>
+          </div>
+        </div>
+      </article>
     </div>
   </div>
 </section>
 
 <style>
   .nine-tools {
-    position: relative;
-    isolation: isolate;
-    z-index: 1;
-    padding: var(--section-padding-y-mobile) var(--section-padding-x-mobile);
+    background: var(--paper);
+    color: var(--ink);
+    padding: 120px 40px;
+    border-top: 1px solid var(--ink);
   }
-
-  .nine-tools::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: var(--stripe-width-mobile);
-    bottom: 0;
-    left: 0;
-    background: var(--stripe-brown);
-    z-index: -1;
-  }
-
   .nine-inner {
-    max-width: var(--container-content-max);
+    max-width: 1280px;
     margin: 0 auto;
   }
 
-  .nine-intro {
-    margin-bottom: 3rem;
-    max-width: var(--container-text-max);
-  }
-
-  .eyebrow {
-    display: block;
-    color: var(--mustard);
-    margin-bottom: 20px;
-    text-align: left;
-  }
-
-  .nine-heading {
-    font-family: var(--font-display);
-    font-weight: 800;
-    font-size: clamp(2.5rem, 5vw, 5rem);
-    line-height: 1.0;
-    letter-spacing: -0.03em;
-    margin: 0;
-    text-align: left;
-  }
-
-  .h2-base {
-    color: var(--cream);
-  }
-
-  .h2-accent {
-    color: var(--mustard);
-    font-style: italic;
-    font-weight: 800;
-  }
-
-  .bento-grid {
+  .section-head {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-columns: auto 1fr auto;
+    gap: 24px;
+    align-items: end;
+    padding-bottom: 18px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 48px;
   }
-
-  .bento-card {
-    background: var(--cream);
-    border-radius: 0;
-    padding: 20px;
+  .section-head .num {
+    font-family: var(--serif);
+    font-size: clamp(2.25rem, 4vw, 3.5rem);
+    line-height: 0.9;
+    color: var(--terracotta);
+    font-style: italic;
   }
-
-  .bento-card h3 {
-    margin: 0 0 10px;
-  }
-
-  .card-feature {
-    color: #7A5A14;
-  }
-
-  .card-descriptor {
-    color: var(--text-on-light);
-  }
-
-  .bento-card p {
-    font-family: var(--font-body);
+  .section-head .title {
+    font-family: var(--serif);
     font-weight: 400;
-    font-size: 13.5px;
-    line-height: 1.55;
-    color: var(--text-on-light);
+    font-size: clamp(2rem, 4vw, 3.75rem);
+    line-height: 0.95;
+    letter-spacing: -0.02em;
     margin: 0;
+    color: var(--ink);
+  }
+  .section-head .title em { color: var(--terracotta); font-style: italic; }
+  .section-head .kicker {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding-bottom: 10px;
+    text-align: right;
   }
 
-  .bento-card:has(.chip-row) p {
-    margin: 0 0 12px;
+  .nine-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .tool-card {
+    background: var(--paper-2);
+    color: var(--ink);
+    border: 1px solid var(--ink);
+    padding: 28px 28px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 0;
+  }
+  .tool-card.wide { grid-column: 1 / -1; }
+
+  .tool-card.tint-sage {
+    background: var(--sage);
+    color: var(--paper);
+    border-color: var(--sage);
+  }
+  .tool-card.tint-sage h3,
+  .tool-card.tint-sage .tag { color: var(--paper); }
+  .tool-card.tint-sage p { color: rgba(244, 234, 217, 0.9); }
+
+  .tool-card.tint-walnut {
+    background: var(--walnut);
+    color: var(--paper);
+    border-color: var(--walnut);
+  }
+  .tool-card.tint-walnut h3,
+  .tool-card.tint-walnut .tag { color: var(--paper); }
+  .tool-card.tint-walnut p { color: rgba(244, 234, 217, 0.88); }
+
+  .tool-card.tint-ink {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+  .tool-card.tint-ink h3,
+  .tool-card.tint-ink .tag { color: var(--paper); }
+  .tool-card.tint-ink p { color: rgba(244, 234, 217, 0.85); }
+
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--walnut);
+  }
+  .pill {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--ink);
+  }
+  .pill-free {
+    background: var(--paper);
+    color: var(--ink);
+  }
+  .pill-pro {
+    background: var(--terracotta);
+    color: var(--paper);
+    border-color: var(--terracotta);
+  }
+  .tool-card.tint-sage .pill-free,
+  .tool-card.tint-walnut .pill-free,
+  .tool-card.tint-ink .pill-free {
+    background: transparent;
+    color: var(--paper);
+    border-color: var(--paper);
+  }
+
+  .tool-card h3 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.9vw, 1.9rem);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    margin: 0;
+    color: var(--ink);
+  }
+  .tool-card p {
+    font-family: var(--body-ed);
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--ink);
+    margin: 0;
   }
 
   .chip-row {
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 3px;
-    list-style: none;
+    gap: 6px;
     padding: 0;
+    margin: 4px 0 0;
+  }
+  .chip {
+    font-family: var(--body-ed);
+    font-size: 11px;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--ink);
+    padding: 3px 10px;
+    border-radius: 999px;
+  }
+
+  /* ---------- AI wide card ---------- */
+  .ai-card {
+    padding: 40px 44px;
+    position: relative;
+    overflow: hidden;
+  }
+  .ai-card::before {
+    content: "";
+    position: absolute;
+    right: -120px;
+    top: -80px;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--terracotta) 0 45%, transparent 70%);
+    opacity: 0.3;
+    pointer-events: none;
+  }
+  .ai-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    margin-top: 14px;
+    position: relative;
+    z-index: 1;
+  }
+  .ai-intro h3 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 2.8vw, 2.75rem);
+    line-height: 1;
+    letter-spacing: -0.01em;
+    margin: 0 0 14px;
+    color: var(--paper);
+  }
+  .ai-intro h3 em {
+    color: var(--wheat);
+    font-style: italic;
+  }
+  .ai-intro p {
+    font-family: var(--body-ed);
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(244, 234, 217, 0.85);
+    margin: 0 0 22px;
+    max-width: 360px;
+  }
+  @keyframes wave {
+    0%, 100% { transform: scaleY(0.5); }
+    50% { transform: scaleY(1.15); }
+  }
+  .ai-intro .mic {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--wheat);
     margin: 0;
   }
 
-  .chip {
-    background: rgba(201, 164, 53, 0.2);
-    color: var(--text-on-light);
-    font-family: var(--font-body);
-    font-weight: 500;
-    font-size: 10.5px;
-    padding: 2px 7px;
-    border-radius: 2px;
+  .ai-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .ai-list li {
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    gap: 12px;
+    padding: 12px 0;
+    border-top: 1px solid rgba(244, 234, 217, 0.2);
+  }
+  .ai-list li:last-child {
+    border-bottom: 1px solid rgba(244, 234, 217, 0.2);
+  }
+  .ai-list .n {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 22px;
+    color: var(--wheat);
+    line-height: 1;
+  }
+  .ai-list .t {
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.2;
+    color: var(--paper);
+    margin-bottom: 4px;
+  }
+  .ai-list .d {
+    font-family: var(--body-ed);
+    font-size: 13px;
+    line-height: 1.5;
+    color: rgba(244, 234, 217, 0.75);
   }
 
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .bento-grid {
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
+  .ai-vignette {
+    background: var(--wheat);
+    color: var(--ink);
+    border: 1.5px solid var(--ink);
+    border-radius: 0;
+    padding: 20px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: relative;
+  }
+  .vignette-head {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink);
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 12px;
+  }
+  .vignette-head .tick { opacity: 0.7; }
 
-    .bento-card[data-span="2"] {
-      grid-column: span 2;
-    }
+  .vignette-line {
+    display: grid;
+    grid-template-columns: 42px 1fr auto;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(42, 30, 23, 0.2);
+  }
+  .vignette-line:last-child { border-bottom: 0; }
+
+  .vignette-line .av {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .vignette-line.you .av { color: var(--terracotta); }
+  .vignette-line.ai .av { color: var(--walnut); }
+
+  .vignette-line .msg {
+    font-family: var(--serif);
+    font-size: 15px;
+    line-height: 1.35;
+    color: var(--ink);
+  }
+  .vignette-line.you .msg { font-style: italic; }
+  .vignette-line.ai .msg em { color: var(--terracotta); font-style: italic; }
+
+  .vignette-line .wave {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 40px;
+  }
+  .vignette-line .wave span {
+    width: 4px;
+    background: var(--terracotta);
+    border-radius: 1px;
+    animation: wave 1.2s ease-in-out infinite;
+    transform-origin: bottom;
+  }
+  .vignette-line .wave span:nth-child(1) { height: 40%; animation-delay: 0s; }
+  .vignette-line .wave span:nth-child(2) { height: 75%; animation-delay: 0.08s; }
+  .vignette-line .wave span:nth-child(3) { height: 55%; animation-delay: 0.16s; }
+  .vignette-line .wave span:nth-child(4) { height: 95%; animation-delay: 0.24s; }
+  .vignette-line .wave span:nth-child(5) { height: 65%; animation-delay: 0.32s; }
+  .vignette-line .wave span:nth-child(6) { height: 85%; animation-delay: 0.40s; }
+  .vignette-line .wave span:nth-child(7) { height: 50%; animation-delay: 0.48s; }
+  .vignette-line .wave span:nth-child(8) { height: 70%; animation-delay: 0.56s; }
+  .vignette-line .wave span:nth-child(9) { height: 35%; animation-delay: 0.64s; }
+  @media (prefers-reduced-motion: reduce) {
+    .vignette-line .wave span { animation: none; transform: scaleY(1); }
   }
 
-  @media (min-width: 1025px) {
-    .nine-tools {
-      padding: var(--section-padding-y-desktop) var(--section-padding-x-desktop);
-    }
-
-    .nine-tools::before {
-      right: var(--stripe-width-desktop);
-    }
-
-    .nine-inner {
-      padding-right: var(--safe-pr-desktop);
-    }
-
-    .bento-grid {
-      grid-template-columns: repeat(3, 1fr);
-      gap: 12px;
-    }
-
-    .bento-card[data-span="2"] {
-      grid-column: span 2;
-    }
-
-    .bento-card[data-span="1"] {
-      grid-column: span 1;
-    }
+  @media (max-width: 1024px) {
+    .nine-grid { grid-template-columns: repeat(2, 1fr); }
+    .tool-card.wide { grid-column: 1 / -1; }
+    .ai-grid { grid-template-columns: 1fr 1fr; }
+    .ai-vignette { grid-column: 1 / -1; }
+  }
+  @media (max-width: 767px) {
+    .nine-tools { padding: 80px 20px; }
+    .section-head { grid-template-columns: 1fr; gap: 8px; }
+    .section-head .kicker { text-align: left; padding-bottom: 0; }
+    .nine-grid { grid-template-columns: 1fr; }
+    .tool-card { padding: 24px 22px 28px; }
+    .ai-card { padding: 28px 24px; }
+    .ai-grid { grid-template-columns: 1fr; gap: 28px; }
   }
 </style>

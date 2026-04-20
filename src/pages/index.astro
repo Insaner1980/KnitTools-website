@@ -5,19 +5,40 @@ import Marquee from '../components/Marquee.astro';
 import NineTools from '../components/NineTools.astro';
 import FreeToolsCallout from '../components/FreeToolsCallout.astro';
 import TrustSection from '../components/TrustSection.astro';
+import PricingCards from '../components/PricingCards.astro';
 import ClosingCTA from '../components/ClosingCTA.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'KnitTools',
+  operatingSystem: 'Android',
+  applicationCategory: 'LifestyleApplication',
+  description:
+    'A private, on-device knitting toolkit for Android. Row counter, pattern viewer, yarn scanner, calculators, Ravelry integration.',
+  offers: {
+    '@type': 'Offer',
+    price: '8.99',
+    priceCurrency: 'EUR',
+    availability: 'https://schema.org/PreOrder',
+  },
+  inLanguage: ['en', 'fi', 'sv', 'da', 'nb', 'nl', 'de', 'fr', 'it', 'pt', 'es'],
+};
 ---
 
 <PageLayout
-  title="KnitTools: Every Tool a Knitter Needs. One App."
-  description="Row counter, calculators, yarn scanner, and reference materials in one beautiful offline app. One-time purchase, no subscription, no ads."
+  title="KnitTools — Every Tool a Knitter Needs. One App."
+  description="A private, on-device knitting toolkit for Android. Row counter, pattern viewer, yarn scanner, calculators. Pay once, €8.99. No subscription, no ads, no cloud."
   canonicalPath="/"
-  showStripe={true}
+  bodyClass="landing"
 >
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>
+
   <Hero />
   <Marquee />
   <NineTools />
   <FreeToolsCallout />
   <TrustSection />
+  <PricingCards />
   <ClosingCTA />
 </PageLayout>
