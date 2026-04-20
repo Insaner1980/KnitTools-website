@@ -1,404 +1,256 @@
 ---
-import { Image } from 'astro:assets';
 import PhoneMockup from './PhoneMockup.astro';
 import counterLight from '../assets/images/counter-light.png';
-import faqButton from '../assets/images/faq-button.webp';
 ---
 
-<section class="hero dot-grid-cream">
+<section class="hero-editorial dot-grid-paper" aria-labelledby="hero-heading">
+  <div class="hero-meta-strip">
+    <div class="rule-double"></div>
+    <div class="meta-row">
+      <span>Vol. 01 · Pre-launch</span>
+      <span>"Pick up where you left off."</span>
+      <span>EST. 2026</span>
+    </div>
+    <div class="rule-double"></div>
+  </div>
+
   <div class="hero-inner">
     <div class="hero-text">
-      <span class="section-tag reveal reveal-delay-1">A knitting toolkit for Android &middot; launching soon</span>
-      <h1 class="reveal reveal-delay-1">Pick up where you <em class="accent-italic">left off.</em></h1>
-      <p class="hero-desc reveal reveal-delay-2">The row you were on, the yarn you forgot, the pattern that made no sense at midnight. <strong>KnitTools remembers it all</strong>, so the only thing you need to do is <strong>keep knitting.</strong></p>
-      <form class="hero-signup waitlist-form reveal reveal-delay-3" id="hero-signup-form" action="#" method="post">
-        <div class="waitlist-content-layer" id="hero-content-layer">
-          <div class="signup-row waitlist-row">
-            <input type="email" placeholder="your@email.com" required class="signup-input waitlist-input" />
-            <button type="submit" class="signup-btn waitlist-btn">Join the list</button>
-          </div>
-          <p class="hero-meta waitlist-meta">Lock in the launch price: <strong>&euro;8.99</strong> &rarr; &euro;11.99 two months after launch</p>
-        </div>
+      <p class="eyebrow">A knitting toolkit for Android · Launching soon</p>
+      <h1 id="hero-heading">Pick up where<br />you <em>left off.</em></h1>
+      <p class="dek">
+        The row you were on, the yarn you forgot, the pattern that made no sense at midnight. KnitTools remembers it
+        all — so the only thing you need to do is keep knitting.
+      </p>
 
-        <div class="waitlist-loading-state" id="hero-loading" aria-hidden="true">
-          <Image src={faqButton} alt="Loading..." width={112} height={112} class="big-spinner" />
+      <form class="signup" id="hero-signup" action="#" method="post">
+        <label for="hero-email" class="visually-hidden">Email address</label>
+        <div class="signup-row" data-content>
+          <input
+            id="hero-email"
+            type="email"
+            placeholder="your@email.com"
+            required
+            autocomplete="email"
+          />
+          <button type="submit" class="btn-primary">Join the list</button>
         </div>
-
-        <div class="waitlist-success" id="hero-success" aria-hidden="true">
-          <p class="success-text">
-            <span class="success-label">You're in!</span>
-            <span class="success-sub">We'll email you at launch.</span>
-          </p>
-        </div>
+        <p class="signup-success" data-success aria-hidden="true">
+          You're in. We'll email you at launch.
+        </p>
+        <p class="signup-meta">
+          Lock in the launch price: <strong>€8.99</strong> → €11.99 two months after launch.
+        </p>
       </form>
     </div>
-    <div class="hero-phone-area reveal reveal-delay-3">
-      <div class="hero-phone-wrapper">
-        <canvas class="hero-phone-canvas" data-screenshot={counterLight.src}></canvas>
-        <div class="hero-phone-fallback">
-          <PhoneMockup screenshot={counterLight} alt="KnitTools row counter showing a live knitting project" theme="light" class="hero-phone" />
-        </div>
-      </div>
+
+    <div class="hero-phone">
+      <div class="phone-glow" aria-hidden="true"></div>
+      <PhoneMockup
+        screenshot={counterLight}
+        alt="KnitTools row counter showing an active project"
+        theme="light"
+      />
     </div>
   </div>
 </section>
 
-<script>
-  let frameId: number;
-
-  async function initHeroPhone() {
-    if (window.innerWidth < 769 || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      return;
-    }
-
-    const canvas = document.querySelector('.hero-phone-canvas') as HTMLCanvasElement;
-    if (!canvas) return;
-
-    try {
-      const THREE = await import('three');
-
-      const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
-      renderer.setSize(400, 600);
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-
-      const scene = new THREE.Scene();
-
-      const camera = new THREE.PerspectiveCamera(40, 400 / 600, 0.1, 100);
-      camera.position.z = 6.2;
-
-      const group = new THREE.Group();
-      scene.add(group);
-
-      scene.add(new THREE.AmbientLight(0xffffff, 0.8));
-      const dirLight = new THREE.DirectionalLight(0xffffff, 1.0);
-      dirLight.position.set(5, 5, 5);
-      scene.add(dirLight);
-
-      const shape = new THREE.Shape();
-      const w = 2.0;
-      const h = 4.2;
-      const r = 0.3;
-      shape.moveTo(-w/2 + r, h/2);
-      shape.lineTo(w/2 - r, h/2);
-      shape.quadraticCurveTo(w/2, h/2, w/2, h/2 - r);
-      shape.lineTo(w/2, -h/2 + r);
-      shape.quadraticCurveTo(w/2, -h/2, w/2 - r, -h/2);
-      shape.lineTo(-w/2 + r, -h/2);
-      shape.quadraticCurveTo(-w/2, -h/2, -w/2, -h/2 + r);
-      shape.lineTo(-w/2, h/2 - r);
-      shape.quadraticCurveTo(-w/2, h/2, -w/2 + r, h/2);
-
-      const extrudeSettings = { depth: 0.15, bevelEnabled: true, bevelSegments: 3, steps: 1, bevelSize: 0.03, bevelThickness: 0.03 };
-      const geometry = new THREE.ExtrudeGeometry(shape, extrudeSettings);
-      geometry.translate(0, 0, -0.075);
-
-      const material = new THREE.MeshStandardMaterial({ color: 0x111111, metalness: 0.7, roughness: 0.2 });
-      const phone = new THREE.Mesh(geometry, material);
-      group.add(phone);
-
-      const texUrl = canvas.getAttribute('data-screenshot');
-      if (texUrl) {
-        const texture = new THREE.TextureLoader().load(texUrl);
-        texture.colorSpace = THREE.SRGBColorSpace;
-
-        const screenw = w - 0.1;
-        const screenh = h - 0.1;
-        const screenGeom = new THREE.PlaneGeometry(screenw, screenh);
-        const screenMat = new THREE.MeshBasicMaterial({ map: texture });
-        const screen = new THREE.Mesh(screenGeom, screenMat);
-        screen.position.z = 0.076;
-        group.add(screen);
-      }
-
-      const notchGeom = new THREE.CapsuleGeometry(0.06, 0.5, 4, 8);
-      notchGeom.rotateZ(Math.PI/2);
-      const notchMat = new THREE.MeshBasicMaterial({ color: 0x000000 });
-      const notch = new THREE.Mesh(notchGeom, notchMat);
-      notch.position.set(0, h/2 - 0.12, 0.077);
-      group.add(notch);
-
-      group.rotation.x = 0.08;
-      group.rotation.y = -0.25;
-
-      const clock = new THREE.Clock();
-
-      function animate() {
-        frameId = requestAnimationFrame(animate);
-        const t = clock.getElapsedTime();
-        group.rotation.x = 0.08 + Math.sin(t * 0.3) * 0.03;
-        group.rotation.y = -0.25 + Math.sin(t * 0.5) * 0.1;
-        renderer.render(scene, camera);
-      }
-
-      animate();
-
-    } catch (err) {
-      console.warn("Failed to load Three.js component, falling back to CSS mockup.", err);
-      canvas.style.display = 'none';
-      const fallback = document.querySelector('.hero-phone-fallback') as HTMLElement;
-      if (fallback) fallback.style.display = 'block';
-    }
-  }
-
-  document.addEventListener('astro:page-load', () => {
-    if (frameId) cancelAnimationFrame(frameId);
-    initHeroPhone();
-  });
-
-  initHeroPhone();
-
-  const heroForm = document.getElementById('hero-signup-form') as HTMLFormElement | null;
-  const heroContentLayer = document.getElementById('hero-content-layer');
-  const heroLoading = document.getElementById('hero-loading');
-  const heroSuccess = document.getElementById('hero-success');
-
-  if (heroForm && heroContentLayer && heroLoading && heroSuccess) {
-    heroForm.addEventListener('submit', (e) => {
+<script is:inline>
+  (() => {
+    const form = document.getElementById('hero-signup');
+    if (!form) return;
+    const content = form.querySelector('[data-content]');
+    const success = form.querySelector('[data-success]');
+    form.addEventListener('submit', (e) => {
       e.preventDefault();
-      const height = heroForm.offsetHeight;
-      heroForm.style.minHeight = `${height}px`;
-
-      heroContentLayer.classList.add('is-hidden');
-      heroLoading.classList.add('is-visible');
-
-      setTimeout(() => {
-        heroLoading.classList.remove('is-visible');
-        heroLoading.classList.add('is-hidden');
-        heroSuccess.classList.add('is-visible');
-      }, 1500);
+      content.style.display = 'none';
+      success.style.display = 'block';
+      success.setAttribute('aria-hidden', 'false');
     });
-  }
+  })();
 </script>
 
 <style>
-  .hero {
+  .hero-editorial {
     position: relative;
-    z-index: 1;
-    min-height: calc(100vh - 80px);
+    padding: 100px 40px 80px;
+    overflow: hidden;
+  }
+  .hero-meta-strip {
+    max-width: 1280px;
+    margin: 0 auto 56px;
+  }
+  .meta-row {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .meta-row span:nth-child(2) {
+    font-style: italic;
+    font-family: var(--serif);
+    font-size: 13px;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--ink);
   }
 
   .hero-inner {
-    max-width: var(--container-page-max);
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 2.5rem 20px 4.5rem 20px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 64px;
     align-items: center;
-    gap: 36px;
-    width: 100%;
-  }
-
-  .hero-text {
-    text-align: center;
-    width: 100%;
-    max-width: 440px;
-  }
-
-  .hero h1 {
-    color: var(--text-on-light);
-    margin-bottom: 1rem;
-  }
-
-  .hero .section-tag {
-    margin-bottom: 1.25rem;
-  }
-
-  .hero-desc {
-    font-size: var(--type-body-lg);
-    color: var(--text-on-light-muted);
-    max-width: 420px;
-    line-height: 1.7;
-    margin: 0 auto 1.5rem;
-  }
-
-  .hero-signup {
-    margin: 0 auto 0.75rem;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: var(--container-form-max);
+    z-index: 1;
   }
 
-  .hero-meta {
-    margin: 0.6rem 0 0;
-  }
+  .hero-text { max-width: 640px; }
 
-  .waitlist-content-layer,
-  .waitlist-loading-state,
-  .waitlist-success {
-    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
-  }
-
-  .waitlist-content-layer {
-    width: 100%;
-  }
-
-  .waitlist-content-layer.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(0.96);
-    position: absolute;
-  }
-
-  .waitlist-loading-state {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .waitlist-loading-state.is-visible {
-    position: relative;
-    opacity: 1;
-    transform: scale(1);
-    pointer-events: auto;
-  }
-
-  .waitlist-loading-state.is-hidden {
-    position: absolute;
-    opacity: 0;
-    transform: scale(1.2);
-    pointer-events: none;
-  }
-
-  .big-spinner {
-    animation: heroSpin 1.2s cubic-bezier(0.6, 0.1, 0.4, 0.9) infinite;
-  }
-
-  @keyframes heroSpin {
-    100% { transform: rotate(360deg); }
-  }
-
-  .waitlist-success {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(8px) scale(0.98);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .waitlist-success.is-visible {
-    opacity: 1;
-    position: relative;
-    transform: translateY(0) scale(1);
-    pointer-events: auto;
-    transition-delay: 100ms;
-  }
-
-  .success-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 12px 0;
-    text-align: center;
-  }
-
-  .success-label {
-    font-family: var(--font-label);
-    font-size: var(--bebas-display-size);
-    color: var(--accent);
-    line-height: 1;
-    letter-spacing: var(--bebas-display-tracking);
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 24px;
   }
 
-  .success-sub {
-    font-family: var(--font-body);
-    font-size: 1rem;
-    color: var(--text-on-light-muted);
-    margin-top: 0.5rem;
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(3.5rem, 8vw, 7rem);
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    margin: 0 0 28px;
+    color: var(--ink);
+  }
+  h1 em {
+    color: var(--terracotta);
+    font-style: italic;
   }
 
-  .hero-phone-area {
+  .dek {
+    font-family: var(--body-ed);
+    font-size: clamp(17px, 1.5vw, 20px);
+    line-height: 1.55;
+    color: var(--ink);
+    margin: 0 0 32px;
+    max-width: 560px;
+  }
+  .dek::first-letter {
+    font-family: var(--serif);
+    font-size: 64px;
+    float: left;
+    line-height: 0.85;
+    padding: 6px 10px 0 0;
+    color: var(--terracotta);
+  }
+
+  .signup { max-width: 520px; }
+  .signup-row {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    gap: 10px;
+    align-items: stretch;
+  }
+  .signup input {
+    flex: 1;
+    font-family: var(--body-ed);
+    font-size: 16px;
+    padding: 14px 20px;
+    border: 1.5px solid var(--ink);
+    background: var(--paper-2);
+    color: var(--ink);
+    border-radius: 999px;
+    min-width: 0;
+  }
+  .signup input:focus {
+    outline: 2px solid var(--amber);
+    outline-offset: 2px;
+  }
+  .btn-primary {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    background: var(--amber);
+    color: var(--paper);
+    border: 2px solid var(--ink);
+    padding: 14px 22px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease;
+  }
+  .btn-primary:hover { background: var(--amber-hover); transform: scale(1.02); }
+  .btn-primary:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset: 3px;
   }
 
-  .hero-phone-wrapper {
+  .signup-success {
+    display: none;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 24px;
+    color: var(--terracotta);
+    margin: 0;
+    padding: 8px 0;
+  }
+  .signup-meta {
+    margin: 14px 0 0;
+    font-family: var(--body-ed);
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+  .signup-meta strong { color: var(--terracotta); font-weight: 600; }
+
+  .hero-phone {
     position: relative;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+  }
+  .hero-phone :global(.phone-mockup) {
+    width: 320px;
+    transform: rotate(-2deg);
+  }
+  .phone-glow {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 50%, rgba(160, 80, 56, 0.15) 0 40%, transparent 70%);
+    filter: blur(40px);
+    z-index: 0;
   }
 
-  .hero-phone-canvas {
-    display: none;
-    outline: none;
-    filter: drop-shadow(30px 30px 40px rgba(0,0,0,0.15)) drop-shadow(12px 12px 20px rgba(0,0,0,0.1));
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
-  .hero-phone-fallback {
-    display: block;
+  @media (max-width: 1023px) {
+    .hero-inner { grid-template-columns: 1fr; gap: 48px; }
+    .hero-phone { justify-content: center; }
   }
-
-  .hero-phone-fallback :global(.hero-phone) {
-    width: 340px;
-    transform: perspective(800px) rotateY(-15deg) rotateX(5deg);
-  }
-
-  .hero-phone-fallback :global(.hero-phone .phone-body) {
-    box-shadow:
-      30px 30px 80px rgba(0,0,0,0.30),
-      12px 12px 30px rgba(0,0,0,0.18);
-  }
-
-  @media (min-width: 769px) {
-    .hero-phone-canvas {
-      display: block;
-    }
-    .hero-phone-fallback {
-      display: none;
-    }
-
-    .hero-inner {
-      flex-direction: row;
-      align-items: flex-start;
-      padding: 10rem 0 8rem 20px;
-      gap: 0;
-    }
-
-    .hero-text {
-      flex: 1.5;
-      text-align: left;
-    }
-
-    .hero-desc {
-      margin: 0 0 2rem;
-    }
-
-    .hero-signup {
-      margin: 0 0 0.75rem;
-    }
-
-    .hero-phone-area {
-      flex: 1;
-      justify-content: center;
-      margin-top: 7rem;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .hero {
-      min-height: auto;
-    }
-
-    .hero-phone-fallback :global(.hero-phone) {
-      width: min(72vw, 248px);
-      transform: perspective(800px) rotateY(-8deg) rotateX(3deg);
-    }
+  @media (max-width: 640px) {
+    .hero-editorial { padding: 90px 20px 60px; }
+    .meta-row { font-size: 10px; gap: 12px; justify-content: center; text-align: center; }
+    .meta-row span:nth-child(2) { order: 3; flex-basis: 100%; }
+    .signup-row { flex-direction: column; }
+    .hero-phone :global(.phone-mockup) { width: min(72vw, 280px); }
   }
 </style>

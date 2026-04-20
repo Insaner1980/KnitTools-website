@@ -1,242 +1,199 @@
 ---
 const languages = [
-  'English', 'Finnish', 'Danish', 'Dutch', 'French', 'German',
-  'Italian', 'Norwegian', 'Portuguese', 'Spanish', 'Swedish',
+  'English',
+  'Finnish',
+  'Danish',
+  'Dutch',
+  'French',
+  'German',
+  'Italian',
+  'Norwegian',
+  'Portuguese',
+  'Spanish',
+  'Swedish',
 ];
 
 const cards = [
   {
-    span: 2,
-    feature: 'Row counter',
-    descriptor: ' with memory',
-    body: 'A big round button where your thumb already is. Tap without looking. Miscount? Undo. Say "add three" or "next row" and voice commands work with no signal needed.',
+    lead: 'Row counter',
+    rest: ' with memory',
+    body:
+      'A big round button where your thumb already is. Tap without looking. Miscount? Undo. Say "add three" or "next row" — works with no signal.',
     chips: true,
   },
   {
-    span: 1,
-    feature: 'Pattern viewer',
-    descriptor: ' that follows along',
-    body: "PDF or Ravelry pull-in. The row you're on highlights itself. Tap sl1, k2tog, psso. AI explains what it does, step by step.",
+    lead: 'Pattern viewer',
+    rest: ' that follows along',
+    body:
+      "PDF or Ravelry pull-in. The row you're on highlights itself. Tap sl1, k2tog, psso. AI explains what it does, step by step.",
   },
   {
-    span: 2,
-    feature: 'Yarn scanner',
-    descriptor: ' for the label graveyard',
-    body: 'Point the camera at the ball band. The AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo of the band itself. That mystery skein finally has a name.',
+    lead: 'Yarn scanner',
+    rest: ' for the label graveyard',
+    body:
+      'Point the camera at the ball band. AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo. That mystery skein finally has a name.',
   },
   {
-    span: 1,
-    feature: 'Four calculators',
-    descriptor: ', quietly working',
+    lead: 'Four calculators',
+    rest: ', quietly working',
     body: 'Cast on, gauge, increases, yardage. The math your knitting already asked you to do.',
   },
   {
-    span: 1,
-    feature: 'Ravelry',
-    descriptor: ', the way it should feel',
-    body: 'Search, save, start a project in one tap. Log in through Ravelry itself. Your password never touches this app.',
+    lead: 'Ravelry',
+    rest: ', the way it should feel',
+    body:
+      'Search, save, start a project in one tap. Log in through Ravelry itself. Your password never touches this app.',
   },
   {
-    span: 1,
-    feature: 'Reference',
-    descriptor: ', one tap away',
-    body: 'Needles, sizes, chart symbols, abbreviations. Right there in your library, before you remember you needed it.',
+    lead: 'Reference',
+    rest: ', one tap away',
+    body:
+      'Needles, sizes, chart symbols, abbreviations. Right there in your library, before you remember you needed it.',
   },
   {
-    span: 1,
-    feature: 'Progress photos',
-    descriptor: ', just for you',
+    lead: 'Progress photos',
+    rest: ', just for you',
     body: 'One folder per project. Full resolution, on your device, nothing uploaded anywhere.',
   },
   {
-    span: 2,
-    feature: 'Insights',
-    descriptor: ' without the pressure',
-    body: 'Hours at the needles. Rows per hour. Streaks. No leaderboards, no nudges, no comparing yourself to anyone else. The stats are yours.',
+    lead: 'Insights',
+    rest: ' without the pressure',
+    body:
+      'Hours at the needles. Rows per hour. Streaks. No leaderboards, no nudges, no comparing. The stats are yours.',
   },
   {
-    span: 1,
-    feature: 'A widget',
-    descriptor: ' on your home screen',
-    body: 'Tap to count. No app launch, no loading. The exact amount of friction a row counter should have, which is zero.',
+    lead: 'A widget',
+    rest: ' on your home screen',
+    body:
+      'Tap to count. No app launch, no loading. The exact amount of friction a row counter should have, which is zero.',
   },
 ];
 ---
 
-<section class="nine-tools" aria-labelledby="nine-tools-heading">
+<section class="nine-tools" aria-labelledby="nine-heading">
   <div class="nine-inner">
-    <div class="nine-intro reveal">
-      <span class="eyebrow bebas-label">What&rsquo;s inside</span>
-      <h2 id="nine-tools-heading" class="nine-heading">
-        <span class="h2-base">Every tool, </span><span class="h2-accent">talking to each other.</span>
-      </h2>
+    <div class="nine-head">
+      <p class="eyebrow">What's inside</p>
+      <h2 id="nine-heading">Every tool,<br /><em>talking to each other.</em></h2>
     </div>
 
-    <div class="bento-grid">
-      {cards.map((c) => (
-        <article class={`bento-card reveal`} data-span={c.span}>
-          <h3>
-            <span class="card-feature">{c.feature}</span><span class="card-descriptor">{c.descriptor}</span>
-          </h3>
-          <p>{c.body}</p>
-          {c.chips && (
-            <ul role="list" class="chip-row">
-              {languages.map((lang) => <li class="chip">{lang}</li>)}
-            </ul>
-          )}
-        </article>
-      ))}
+    <div class="nine-grid">
+      {
+        cards.map((c) => (
+          <article class="tool-card">
+            <h3>
+              <span class="lead">{c.lead}</span>
+              <span class="rest">{c.rest}</span>
+            </h3>
+            <p>{c.body}</p>
+            {c.chips && (
+              <ul class="chip-row" aria-label="Supported languages">
+                {languages.map((lang) => (
+                  <li class="chip">{lang}</li>
+                ))}
+              </ul>
+            )}
+          </article>
+        ))
+      }
     </div>
   </div>
 </section>
 
 <style>
   .nine-tools {
-    position: relative;
-    isolation: isolate;
-    z-index: 1;
-    padding: var(--section-padding-y-mobile) var(--section-padding-x-mobile);
+    background: var(--walnut);
+    color: var(--paper);
+    padding: 120px 40px;
   }
-
-  .nine-tools::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: var(--stripe-width-mobile);
-    bottom: 0;
-    left: 0;
-    background: var(--stripe-brown);
-    z-index: -1;
-  }
-
   .nine-inner {
-    max-width: var(--container-content-max);
+    max-width: 1280px;
     margin: 0 auto;
   }
-
-  .nine-intro {
-    margin-bottom: 3rem;
-    max-width: var(--container-text-max);
+  .nine-head {
+    margin-bottom: 56px;
   }
-
   .eyebrow {
-    display: block;
-    color: var(--mustard);
-    margin-bottom: 20px;
-    text-align: left;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--wheat);
+    margin: 0 0 18px;
   }
-
-  .nine-heading {
-    font-family: var(--font-display);
-    font-weight: 800;
-    font-size: clamp(2.5rem, 5vw, 5rem);
-    line-height: 1.0;
-    letter-spacing: -0.03em;
-    margin: 0;
-    text-align: left;
-  }
-
-  .h2-base {
-    color: var(--cream);
-  }
-
-  .h2-accent {
-    color: var(--mustard);
-    font-style: italic;
-    font-weight: 800;
-  }
-
-  .bento-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-
-  .bento-card {
-    background: var(--cream);
-    border-radius: 0;
-    padding: 20px;
-  }
-
-  .bento-card h3 {
-    margin: 0 0 10px;
-  }
-
-  .card-feature {
-    color: #7A5A14;
-  }
-
-  .card-descriptor {
-    color: var(--text-on-light);
-  }
-
-  .bento-card p {
-    font-family: var(--font-body);
+  h2 {
+    font-family: var(--serif);
     font-weight: 400;
-    font-size: 13.5px;
-    line-height: 1.55;
-    color: var(--text-on-light);
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    line-height: 0.95;
+    letter-spacing: -0.02em;
     margin: 0;
+    color: var(--paper);
+  }
+  h2 em {
+    color: var(--wheat);
+    font-style: italic;
   }
 
-  .bento-card:has(.chip-row) p {
-    margin: 0 0 12px;
+  .nine-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .tool-card {
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--ink);
+    padding: 36px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    border-radius: 0;
+  }
+
+  .tool-card h3 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.6rem, 2vw, 2rem);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+  .tool-card h3 .lead { color: var(--wheat); font-style: italic; }
+  .tool-card h3 .rest { color: var(--ink); }
+  .tool-card p {
+    font-family: var(--body-ed);
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--ink);
+    margin: 0;
   }
 
   .chip-row {
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 3px;
-    list-style: none;
+    gap: 6px;
     padding: 0;
-    margin: 0;
+    margin: 4px 0 0;
   }
-
   .chip {
-    background: rgba(201, 164, 53, 0.2);
-    color: var(--text-on-light);
-    font-family: var(--font-body);
-    font-weight: 500;
-    font-size: 10.5px;
-    padding: 2px 7px;
-    border-radius: 2px;
+    font-family: var(--body-ed);
+    font-size: 11px;
+    color: var(--ink);
+    background: var(--paper-2);
+    border: 1px solid var(--ink);
+    padding: 3px 10px;
+    border-radius: 999px;
   }
 
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .bento-grid {
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
-
-    .bento-card[data-span="2"] {
-      grid-column: span 2;
-    }
+  @media (max-width: 1024px) {
+    .nine-grid { grid-template-columns: repeat(2, 1fr); }
   }
-
-  @media (min-width: 1025px) {
-    .nine-tools {
-      padding: var(--section-padding-y-desktop) var(--section-padding-x-desktop);
-    }
-
-    .nine-tools::before {
-      right: var(--stripe-width-desktop);
-    }
-
-    .nine-inner {
-      padding-right: var(--safe-pr-desktop);
-    }
-
-    .bento-grid {
-      grid-template-columns: repeat(3, 1fr);
-      gap: 12px;
-    }
-
-    .bento-card[data-span="2"] {
-      grid-column: span 2;
-    }
-
-    .bento-card[data-span="1"] {
-      grid-column: span 1;
-    }
+  @media (max-width: 767px) {
+    .nine-tools { padding: 80px 20px; }
+    .nine-grid { grid-template-columns: 1fr; }
+    .tool-card { padding: 28px 24px; }
   }
 </style>

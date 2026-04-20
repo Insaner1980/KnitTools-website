@@ -2,30 +2,22 @@
 import BaseLayout from './BaseLayout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
-import PageBrandMark from '../components/PageBrandMark.astro';
-import StripeRibbon from '../components/StripeRibbon.astro';
 
 interface Props {
   title: string;
   description: string;
   canonicalPath?: string;
   showStripe?: boolean;
+  bodyClass?: string;
 }
 
-const { title, description, canonicalPath, showStripe = false } = Astro.props;
+const { title, description, canonicalPath, bodyClass } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} canonicalPath={canonicalPath}>
-  <div style={showStripe ? 'position: relative;' : ''}>
-    {showStripe && <StripeRibbon />}
-    
-    <Navbar />
-    <PageBrandMark />
-    
-    <main id="main-content" style="position: relative; z-index: 1;">
-      <slot />
-    </main>
-    
-    <Footer />
-  </div>
+<BaseLayout title={title} description={description} canonicalPath={canonicalPath} bodyClass={bodyClass}>
+  <Navbar />
+  <main id="main-content">
+    <slot />
+  </main>
+  <Footer />
 </BaseLayout>

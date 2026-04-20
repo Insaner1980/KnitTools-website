@@ -1,169 +1,85 @@
-<nav class="navbar">
-  <div class="nav-spacer" aria-hidden="true"></div>
-  <button class="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-      <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
-    </svg>
-  </button>
-  <div class="nav-links">
-    <a class="bebas-label" href="/tools/">TOOLS</a>
-    <a class="bebas-label" href="/articles">ARTICLES</a>
-    <a class="bebas-label" href="#final-cta">JOIN THE WAITLIST</a>
-  </div>
-</nav>
+---
+---
 
-<script>
-  const navbar = document.querySelector('.navbar');
-  if (navbar) {
+<header class="nav-editorial" data-nav>
+  <a href="/" class="brand">KnitTools</a>
+  <nav class="nav-links">
+    <a href="/tools/">Tools</a>
+    <a href="/articles">Articles</a>
+    <a href="#join" class="waitlist">Join the waitlist</a>
+  </nav>
+</header>
+
+<script is:inline>
+  (() => {
+    const nav = document.querySelector('[data-nav]');
+    if (!nav) return;
     const onScroll = () => {
-      navbar.classList.toggle('navbar--scrolled', window.scrollY > 10);
+      if (window.scrollY > 80) nav.classList.add('scrolled');
+      else nav.classList.remove('scrolled');
     };
-    window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
-  }
-
-  const btn = document.querySelector('.nav-hamburger');
-  const links = document.querySelector('.nav-links');
-  if (btn && links) {
-    btn.addEventListener('click', () => {
-      const open = links.classList.toggle('open');
-      btn.setAttribute('aria-expanded', String(open));
-    });
-  }
+    window.addEventListener('scroll', onScroll, { passive: true });
+  })();
 </script>
 
 <style>
-  .navbar {
+  .nav-editorial {
     position: fixed;
-    top: 0; left: 0; right: 0;
-    z-index: 100;
-    background: transparent;
-    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 0 48px;
-    transition: background 300ms, backdrop-filter 300ms;
-  }
-
-  .navbar--scrolled {
-    background: rgba(232, 228, 208, 0.85);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-  }
-
-  .nav-spacer {
-    width: clamp(88px, 11vw, 132px);
-    flex: 0 0 auto;
-  }
-
-  .nav-hamburger {
-    display: none;
-    background: none;
-    border: none;
-    color: var(--text-on-light);
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
     align-items: center;
-    justify-content: center;
+    padding: 18px 40px;
+    background: transparent;
+    transition: background 0.2s ease, border-color 0.2s ease;
+    border-bottom: 1px solid transparent;
   }
-
+  .nav-editorial.scrolled {
+    background: var(--paper);
+    border-bottom-color: var(--ink);
+  }
+  .brand {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 22px;
+    color: var(--terracotta);
+    text-decoration: none;
+    letter-spacing: -0.01em;
+  }
   .nav-links {
     display: flex;
+    gap: 28px;
     align-items: center;
-    gap: 12px;
   }
-
   .nav-links a {
-    color: var(--cream);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink);
     text-decoration: none;
-    background: var(--dark);
-    padding: 6px 16px;
-    position: relative;
-    overflow: hidden;
-    z-index: 0;
-    transition: color 200ms;
+    transition: color 0.15s ease;
   }
-
-  .nav-links a::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: var(--accent);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 300ms ease;
-    z-index: -1;
+  .nav-links a:hover { color: var(--terracotta); }
+  .nav-links a.waitlist {
+    background: var(--amber);
+    color: var(--paper);
+    padding: 8px 16px;
+    border-radius: 999px;
+    border: 2px solid var(--ink);
   }
-
-  .nav-links a:hover::before {
-    transform: scaleX(1);
+  .nav-links a.waitlist:hover {
+    background: var(--amber-hover);
+    color: var(--paper);
   }
-
-  .nav-links a:hover {
-    color: var(--cream);
-  }
-
-  .nav-links a:focus-visible {
-    outline: 2px solid var(--dark);
-    outline-offset: 2px;
-  }
-
-  /* Scrolled state: outlined buttons on cream background */
-  .navbar--scrolled .nav-links a {
-    background: transparent;
-    color: var(--dark);
-    border: 1px solid var(--dark);
-  }
-
-  .navbar--scrolled .nav-links a::before {
-    background: var(--dark);
-  }
-
-  .navbar--scrolled .nav-links a:hover {
-    color: var(--cream);
-  }
-
-  @media (max-width: 768px) {
-    .navbar { padding: 0 20px; height: 80px; }
-
-    .nav-spacer {
-      width: 64px;
-    }
-
-    .nav-hamburger { display: flex; }
-
-    .nav-links {
-      display: none;
-      position: absolute;
-      top: 80px;
-      left: 0; right: 0;
-      background: rgba(232, 228, 208, 0.95);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      flex-direction: column;
-      padding: 16px 20px 24px;
-      gap: 12px;
-      align-items: flex-start;
-    }
-
-    .nav-links a {
-      background: transparent;
-      color: var(--dark);
-      border: 1px solid var(--dark);
-      padding: 8px 16px;
-      display: block;
-    }
-
-    .nav-links a::before {
-      background: var(--dark);
-    }
-
-    .nav-links a:hover {
-      color: var(--cream);
-    }
-
-    .nav-links.open { display: flex; }
+  @media (max-width: 640px) {
+    .nav-editorial { padding: 14px 20px; }
+    .nav-links { gap: 14px; }
+    .nav-links a { font-size: 10px; letter-spacing: 0.14em; }
+    .nav-links a.waitlist { padding: 6px 12px; }
   }
 </style>

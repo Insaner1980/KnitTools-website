@@ -1,91 +1,107 @@
 ---
 const tools = [
-  { href: '/tools/cast-on-calculator', label: 'Cast On', color: 'terracotta' },
-  { href: '/tools/yarn-estimator', label: 'Yarn Estimator', color: 'rust' },
-  { href: '/tools/yarn-weight-chart', label: 'Yarn Weights', color: 'sand' },
-  { href: '/tools/needle-size-chart', label: 'Needle Sizes', color: 'teal' },
-  { href: '/tools/knitting-size-charts', label: 'Size Charts', color: 'terracotta' },
-  { href: '/tools/knitting-abbreviations', label: 'Abbreviations', color: 'brown' },
+  { href: '/tools/cast-on-calculator', label: 'Cast On', fill: 'terracotta' },
+  { href: '/tools/yarn-estimator', label: 'Yarn Estimator', fill: 'amber' },
+  { href: '/tools/yarn-weight-chart', label: 'Yarn Weights', fill: 'wheat' },
+  { href: '/tools/needle-size-chart', label: 'Needle Sizes', fill: 'sage' },
+  { href: '/tools/knitting-size-charts', label: 'Size Charts', fill: 'walnut' },
+  { href: '/tools/knitting-abbreviations', label: 'Abbreviations', fill: 'ink' },
 ];
 ---
 
-<aside class="free-tools-callout">
-  <div class="callout-inner reveal">
-    <span class="callout-eyebrow bebas-label">Free tools</span>
-    <p class="callout-lede">Not ready for the app? Try one in your browser.</p>
-    <ul class="tool-grid" role="list">
-      {tools.map((t) => (
-        <li>
-          <a class={`tool-chip bebas-label card-${t.color}`} href={t.href}>{t.label}</a>
-        </li>
-      ))}
+<section class="free-tools-callout" aria-labelledby="free-tools-heading">
+  <div class="inner">
+    <p class="eyebrow">Free tools</p>
+    <h2 id="free-tools-heading">Not ready for the app?<br /><em>Try one in your browser.</em></h2>
+
+    <ul class="pills">
+      {
+        tools.map((t) => (
+          <li>
+            <a class:list={['pill', `fill-${t.fill}`]} href={t.href}>
+              {t.label}
+            </a>
+          </li>
+        ))
+      }
     </ul>
+
+    <a class="see-all" href="/tools/">See all tools →</a>
   </div>
-</aside>
+</section>
 
 <style>
   .free-tools-callout {
-    position: relative;
-    z-index: 1;
-    padding: var(--section-padding-y-compact) var(--section-padding-x-mobile);
+    background: var(--paper);
+    padding: 120px 40px;
   }
-
-  .callout-inner {
-    max-width: var(--container-content-max);
+  .inner {
+    max-width: 900px;
     margin: 0 auto;
     text-align: center;
   }
-
-  .callout-eyebrow {
-    display: block;
-    color: var(--accent);
-    margin-bottom: 12px;
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 18px;
   }
-
-  .callout-lede {
-    font-family: var(--font-body);
-    font-size: var(--type-body-md);
-    color: var(--text-on-light);
-    margin: 0 0 24px;
+  h2 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(26px, 3vw, 38px);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    margin: 0 0 40px;
+    color: var(--ink);
   }
+  h2 em { color: var(--terracotta); font-style: italic; }
 
-  .tool-grid {
+  .pills {
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 0 24px;
   }
-
-  .card-terracotta { --chip-bg: rgb(from var(--stripe-terracotta) r g b / 0.88); --chip-bg-hover: rgb(from var(--stripe-terracotta) r g b / 0.94); }
-  .card-rust       { --chip-bg: rgb(from var(--stripe-rust) r g b / 0.88);       --chip-bg-hover: rgb(from var(--stripe-rust) r g b / 0.94); }
-  .card-sand       { --chip-bg: rgb(from var(--stripe-sand) r g b / 0.88);       --chip-bg-hover: rgb(from var(--stripe-sand) r g b / 0.94); }
-  .card-teal       { --chip-bg: rgb(from var(--stripe-teal) r g b / 0.88);       --chip-bg-hover: rgb(from var(--stripe-teal) r g b / 0.94); }
-  .card-brown      { --chip-bg: rgb(from var(--stripe-brown) r g b / 0.88);      --chip-bg-hover: rgb(from var(--stripe-brown) r g b / 0.94); }
-
-  .tool-chip {
+  .pill {
     display: inline-block;
-    background-color: var(--chip-bg);
-    color: var(--dark);
-    padding: 6px 16px;
-    border-radius: 0;
+    padding: 10px 20px;
+    border-radius: 999px;
+    border: 2px solid var(--ink);
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--paper);
     text-decoration: none;
-    text-align: center;
-    transition: background-color 200ms;
+    transition: transform 0.15s ease;
   }
+  .pill:hover { transform: translateY(-2px); }
+  .fill-terracotta { background: var(--terracotta); }
+  .fill-amber { background: var(--amber); }
+  .fill-wheat { background: var(--wheat); color: var(--ink); }
+  .fill-sage { background: var(--sage); }
+  .fill-walnut { background: var(--walnut); }
+  .fill-ink { background: var(--ink); }
 
-  .tool-chip:hover,
-  .tool-chip:focus-visible {
-    background-color: var(--chip-bg-hover);
-    outline: none;
+  .see-all {
+    display: inline-block;
+    font-family: var(--body-ed);
+    font-style: italic;
+    font-size: 15px;
+    color: var(--ink-soft);
+    text-decoration: none;
+    margin-top: 8px;
   }
+  .see-all:hover { color: var(--terracotta); }
 
-  @media (min-width: 769px) {
-    .free-tools-callout {
-      padding: var(--section-padding-y-compact) var(--section-padding-x-desktop);
-      padding-right: var(--safe-pr-desktop);
-    }
+  @media (max-width: 640px) {
+    .free-tools-callout { padding: 80px 20px; }
+    .pill { padding: 8px 16px; font-size: 11px; }
   }
 </style>
