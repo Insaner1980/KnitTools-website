@@ -17,63 +17,82 @@ const languages = [
 
 const features = [
   {
-    tall: true,
     section: '§ Counter',
-    badge: 'ROW COUNTER',
-    title: 'A big round button, right where your thumb is.',
+    tier: 'free',
+    title: 'Tap without looking.',
     body:
-      'Tap without looking. Miscount? Undo. Say "add three" or "next row" — voice commands work with no signal needed. Session history accrues quietly in the background.',
+      'A big round button where your thumb already is. Miscount? Undo. Session history accrues quietly in the background.',
     yarnBall: true,
   },
   {
+    section: '§ Ravelry',
+    tier: 'free',
+    dark: true,
+    title: 'Signed in. Nothing else shared.',
+    body:
+      'Search, save, start a project in one tap. Log in through Ravelry itself — your password never touches this app.',
+  },
+  {
+    section: '§ Calculators',
+    tier: 'free',
+    title: "The math you'd rather avoid.",
+    body: 'Cast on, gauge, increases, yardage. Four calculators, quietly working the numbers your knitting already asked you to do.',
+  },
+  {
+    section: '§ Reference',
+    tier: 'free',
+    title: 'One tap away, every time.',
+    body:
+      'Needles, sizes, chart symbols, abbreviations. Right there in your library, before you remember you needed it.',
+  },
+  {
+    section: '§ Widget',
+    tier: 'free',
+    title: 'A widget on your home screen.',
+    body:
+      'Tap to count. No app launch, no loading. The exact amount of friction a row counter should have, which is zero.',
+  },
+  {
     section: '§ Pattern',
-    badge: 'VIEWER',
+    tier: 'pro',
+    sage: true,
     title: 'Patterns that follow along.',
     body:
       "PDF or Ravelry pull-in. The row you're on highlights itself. Tap sl1, k2tog, psso — the AI explains step by step.",
   },
   {
-    sage: true,
-    section: '§ Stash',
-    badge: 'YARN SCANNER',
-    title: 'For the label graveyard.',
+    section: '§ Yarn Stash',
+    tier: 'pro',
+    title: 'A cabinet of yarn cards.',
     body:
-      'Point the camera at the ball band. The AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo of the band itself.',
+      'Point the camera at the ball band. Fiber, weight, meters, needle size, gauge, dye lot — one card per skein, searchable.',
   },
   {
-    section: '§ Calc',
-    badge: 'CALCULATORS',
-    title: "Four quiet calculators. The math you'd rather avoid.",
+    section: '§ Insights',
+    tier: 'pro',
+    title: 'Your numbers, quietly kept.',
     body:
-      'Cast on, gauge, increases, yardage. The math your knitting already asked you to do — answered before you put the needles down.',
+      'Hours at the needles. Rows per hour. Streaks. No leaderboards, no nudges, no comparing yourself to anyone else. The stats are yours.',
   },
   {
-    dark: true,
-    section: '§ Ravelry',
-    badge: 'SIGNED IN',
-    title: 'Search, save, start a project in one tap.',
+    section: '§ Progress',
+    tier: 'pro',
+    title: 'Progress photos, just for you.',
     body:
-      'Log in through Ravelry itself — your password never touches this app. Browse, save, link patterns to your projects.',
-  },
-  {
-    section: '§ Reference',
-    badge: 'BUILT-IN',
-    title: 'Needles, sizes, symbols, abbreviations.',
-    body:
-      "Right there in your library, before you remember you needed it. Six reference tools, each a tap away.",
+      'One folder per project. Full resolution, on your device, nothing uploaded anywhere.',
   },
 ];
 
 const counterChecklist = [
-  { n: 'i', t: 'Voice commands, hands-free', d: 'EN · FI · "Next row"' },
-  { n: 'ii', t: 'Undo and redo every count', d: 'Tap & hold' },
-  { n: 'iii', t: 'Stitch, shape, and repeat side by side', d: 'Three counters' },
-  { n: 'iv', t: 'Row reminders with messages', d: '"Join sleeve"' },
+  { n: 'i', t: 'Undo and redo every count', d: 'Tap & hold' },
+  { n: 'ii', t: 'Stitch, shape and repeat side by side', d: 'Three counters' },
+  { n: 'iii', t: 'Row reminders with messages', d: '"Join sleeve"' },
+  { n: 'iv', t: 'Automatic shaping increases', d: 'Every N rows' },
   { n: 'v', t: 'Session history, row-timestamped', d: 'Auto-saved' },
   { n: 'vi', t: 'Home-screen widget, one tap to count', d: 'No app launch' },
 ];
 
-const patternChecklist = [
+const scannerChecklist = [
   { n: 'i', t: 'Point your camera at the ball band', d: 'On-device OCR' },
   { n: 'ii', t: 'AI reads fiber, weight, yardage, gauge', d: 'Auto-filed' },
   { n: 'iii', t: 'Mystery skeins finally get a name', d: 'Cross-referenced' },
@@ -84,38 +103,47 @@ const voiceBullets = [
   {
     n: 'i',
     t: 'Voice commands, English & Finnish',
-    d: 'Add three, next row, set row, undo. Works with no signal. More languages as they land.',
+    d: 'Add three, next row, set row, undo. Works with no signal needed.',
   },
   {
     n: 'ii',
     t: 'The AI knows where you are',
-    d: "Which project you're in, which row you're on, how far you've gone today — no need to tell it twice.",
+    d: "Which project, which row, how far you've gone today — no need to tell it twice.",
   },
   {
     n: 'iii',
     t: 'Explains the stitches when you ask',
-    d: 'Tap sl1, k2tog, psso — or ask aloud. The AI walks you through it, step by step.',
+    d: 'Tap sl1, k2tog, psso — or ask aloud. The AI walks you through it.',
   },
   {
     n: 'iv',
-    t: 'Everything on-device where possible',
+    t: 'On-device where possible',
     d: 'No cloud round-trip for the basics. AI requests only when you invoke them.',
   },
 ];
 
-const freeToolChecklist = [
-  { n: 'i', t: 'Cast On Calculator', d: '/tools/cast-on-calculator' },
-  { n: 'ii', t: 'Yarn Estimator', d: '/tools/yarn-estimator' },
-  { n: 'iii', t: 'Needle Size Chart', d: '/tools/needle-size-chart' },
-  { n: 'iv', t: 'Yarn Weight Chart', d: '/tools/yarn-weight-chart' },
-  { n: 'v', t: 'Knitting Abbreviations', d: '/tools/knitting-abbreviations' },
-  { n: 'vi', t: 'Size Charts', d: '/tools/knitting-size-charts' },
+const freeBrowserTools = [
+  { n: '01', t: 'Cast On Calculator', href: '/tools/cast-on-calculator' },
+  { n: '02', t: 'Yarn Estimator', href: '/tools/yarn-estimator' },
+  { n: '03', t: 'Needle Size Chart', href: '/tools/needle-size-chart' },
+  { n: '04', t: 'Yarn Weight Chart', href: '/tools/yarn-weight-chart' },
+  { n: '05', t: 'Abbreviations', href: '/tools/knitting-abbreviations' },
+  { n: '06', t: 'Size Charts', href: '/tools/knitting-size-charts' },
 ];
+
+const heatmapSeed = [
+  2, 0, 1, 3, 4, 2, 1, 0, 1, 2, 2, 3, 4, 3, 1, 0, 1, 2, 4, 4, 3, 0, 0, 1, 1, 2, 3, 2, 2, 2, 3, 4, 4, 3, 2, 1, 1, 2, 3,
+  3, 2, 1, 0, 1, 2, 2, 3, 4, 3, 2, 3, 3, 4, 4, 4, 3, 1, 2, 2, 3, 3, 2, 1, 0, 0, 1, 2, 3, 3, 2, 2, 2, 3, 4, 4, 3, 2, 1,
+  0, 1, 2, 3, 4, 3, 0, 1, 2, 3, 3, 2, 1, 2, 3, 3, 4, 4, 3, 2, 1, 1, 2, 2, 3, 3, 2, 0, 0, 1, 2, 3, 4, 3, 2, 2, 3, 3, 4,
+  4, 3, 1, 2, 3, 4, 4, 3, 2, 0, 1, 2, 3, 3, 2, 1, 1, 2, 2, 3, 4, 4, 3,
+];
+const heatmapLevels = ['', 'l1', 'l2', 'l3', 'l4'];
+const heatmapCells = 20 * 7;
 ---
 
 <EditorialLayout
   title="KnitTools — Every Tool a Knitter Needs. One App."
-  description="A private, on-device knitting studio for Android. Row counter with voice commands, pattern viewer, yarn scanner, calculators, Ravelry sign-in. No subscription, no ads."
+  description="A private, on-device knitting studio for Android. Free row counter, calculators, Ravelry sign-in. Pro unlocks voice commands, AI, yarn scanner, unlimited projects. No subscription."
   canonicalPath="/"
 >
   <div class="page">
@@ -123,15 +151,15 @@ const freeToolChecklist = [
     <header>
       <div class="sub-mast">
         <div class="bit mono">Vol. 01 · Pre-launch</div>
-        <div class="bit center mono">Spring Edition · MMXXVI</div>
         <div class="bit center mono">"Pick up where you left off."</div>
-        <div class="bit right mono">€8.99 · Android</div>
+        <div class="bit center mono">A private, on-device toolkit</div>
+        <div class="bit right mono">For Android</div>
         <div class="bit right mono">Waitlist open</div>
       </div>
       <hr class="thin" style="margin:10px 0 0" />
       <div class="masthead">
         <div class="left mono"><span>EST.</span><span class="dot"></span><span>2026</span></div>
-        <div class="wordmark">Knit<em class="amp">&amp;</em><span class="small">Tools</span></div>
+        <div class="wordmark">Kni<span class="accent">t</span>Tools</div>
         <div class="right mono"><span>ELEVEN LANGUAGES</span><span class="dot"></span><span>€8.99</span></div>
       </div>
       <div class="double"></div>
@@ -144,7 +172,7 @@ const freeToolChecklist = [
         <span class="sep">◆</span>
         <a href="#voice">Voice &amp; AI</a>
         <span class="sep">◆</span>
-        <a href="#free">Free Tools</a>
+        <a href="#insights">Insights</a>
         <span class="sep">◆</span>
         <a href="#pricing">Pricing</a>
         <span class="sep">◆</span>
@@ -177,7 +205,7 @@ const freeToolChecklist = [
               <button type="submit" class="btn">Join the list →</button>
             </div>
             <p class="signup-meta">
-              Lock in the launch price: <strong>€8.99</strong> → €11.99 two months after launch
+              Free forever with limits. <strong>Pro €8.99</strong> → €11.99 two months after launch.
             </p>
           </div>
           <div class="signup-success" id="hero-success" aria-hidden="true">
@@ -235,24 +263,24 @@ const freeToolChecklist = [
     <!-- Ticker -->
     <div class="ticker">
       <div class="ticker-track">
-        <span>Row counter with voice <span class="dot"></span></span>
+        <span>Row counter <span class="dot"></span></span>
         <span>Pattern viewer <span class="dot"></span></span>
         <span>Yarn OCR scanner <span class="dot"></span></span>
         <span>Four calculators <span class="dot"></span></span>
         <span>Ravelry sign-in <span class="dot"></span></span>
         <span>Eleven languages <span class="dot"></span></span>
+        <span>Voice commands <span class="dot"></span></span>
         <span>No subscription <span class="dot"></span></span>
         <span>All data on device <span class="dot"></span></span>
         <span>Home-screen widget <span class="dot"></span></span>
-        <span>Row counter with voice <span class="dot"></span></span>
+        <span>Row counter <span class="dot"></span></span>
         <span>Pattern viewer <span class="dot"></span></span>
         <span>Yarn OCR scanner <span class="dot"></span></span>
         <span>Four calculators <span class="dot"></span></span>
         <span>Ravelry sign-in <span class="dot"></span></span>
         <span>Eleven languages <span class="dot"></span></span>
+        <span>Voice commands <span class="dot"></span></span>
         <span>No subscription <span class="dot"></span></span>
-        <span>All data on device <span class="dot"></span></span>
-        <span>Home-screen widget <span class="dot"></span></span>
       </div>
     </div>
 
@@ -267,10 +295,10 @@ const freeToolChecklist = [
       <div class="features">
         {
           features.map((f) => (
-            <div class:list={['cell', f.tall && 'tall', f.dark && 'dark', f.sage && 'sage']}>
+            <div class:list={['cell', f.dark && 'dark', f.sage && 'sage']}>
               <div class="k">
                 <span>{f.section}</span>
-                <span class="pill">{f.badge}</span>
+                <span class:list={['pill', f.tier]}>{f.tier === 'pro' ? 'PRO' : 'FREE'}</span>
               </div>
               <h3>{f.title}</h3>
               <p>{f.body}</p>
@@ -278,6 +306,27 @@ const freeToolChecklist = [
             </div>
           ))
         }
+      </div>
+    </section>
+
+    <!-- Free browser tools strip -->
+    <section class="section" style="padding-top:24px;padding-bottom:0">
+      <div class="free-strip">
+        <div class="intro">
+          <div class="k">§ In your browser</div>
+          <h3>Six free tools, no install.</h3>
+          <p>Not ready for the app? The calculators and reference charts run right in your browser, free forever.</p>
+        </div>
+        <div class="links">
+          {
+            freeBrowserTools.map((t) => (
+              <a href={t.href}>
+                <span class="n">{t.n} →</span>
+                <span class="t">{t.t}</span>
+              </a>
+            ))
+          }
+        </div>
       </div>
     </section>
 
@@ -316,9 +365,8 @@ const freeToolChecklist = [
         <div class="mono" style="color:var(--terracotta);margin-bottom:12px">§ 02 — The Counter</div>
         <h2>Tap without <em>looking.</em></h2>
         <p class="lead">
-          A big round button where your thumb already is. Miscount? Undo. Say "add three" or "next row" — voice
-          commands work with no signal needed. Stitch, shape, and repeat counters run side by side. Mark a row with a
-          reminder, and it waits politely until you get there.
+          A big round button where your thumb already is. Miscount? Undo. Stitch, shape, and repeat counters run side
+          by side. Mark a row with a reminder, and it waits politely until you get there.
         </p>
         <ul class="checklist">
           {
@@ -337,7 +385,7 @@ const freeToolChecklist = [
     <!-- Spread 2: Yarn scanner -->
     <section class="spread alt" id="scanner">
       <div>
-        <div class="mono" style="color:var(--terracotta);margin-bottom:12px">§ 03 — The Yarn Scanner</div>
+        <div class="mono" style="color:var(--terracotta);margin-bottom:12px">§ 03 — The Yarn Scanner · Pro</div>
         <h2>Point. Scan. <em>Filed.</em></h2>
         <p class="lead">
           The label graveyard, organised at last. Point the camera at the ball band; the AI reads fiber, weight,
@@ -346,7 +394,7 @@ const freeToolChecklist = [
         </p>
         <ul class="checklist">
           {
-            patternChecklist.map((item) => (
+            scannerChecklist.map((item) => (
               <li>
                 <span class="n">{item.n}</span>
                 <span class="t">{item.t}</span>
@@ -392,7 +440,7 @@ const freeToolChecklist = [
       <div class="section-head">
         <div class="section-num">Nº 04</div>
         <div class="section-title">Hands full? <em>Just talk to it.</em></div>
-        <div class="section-kicker">Voice · On-Device</div>
+        <div class="section-kicker">Voice · On-Device · Pro</div>
       </div>
 
       <div class="voice">
@@ -440,72 +488,101 @@ const freeToolChecklist = [
       </div>
     </section>
 
-    <!-- Free browser tools callout -->
-    <section class="spread" id="free">
-      <div>
-        <div class="mono" style="color:var(--terracotta);margin-bottom:12px">§ 05 — Free Browser Tools</div>
-        <h2>Not ready for the app? <em>Try one in your browser.</em></h2>
-        <p class="lead">
-          Six calculators and reference charts, free forever, no install. The same math and tables that ship inside the
-          app — available to anyone with a browser.
-        </p>
-        <ul class="checklist">
-          {
-            freeToolChecklist.map((item) => (
-              <li>
-                <span class="n">{item.n}</span>
-                <span class="t">
-                  <a href={item.d} style="color:inherit;text-decoration:none;border-bottom:1px solid var(--terracotta)">
-                    {item.t}
-                  </a>
-                </span>
-                <span class="d">→</span>
-              </li>
-            ))
-          }
-        </ul>
-        <div style="margin-top:26px">
-          <a class="btn" href="/tools/">Browse all free tools →</a>
-        </div>
+    <!-- Insights -->
+    <section class="section" id="insights">
+      <div class="section-head">
+        <div class="section-num">Nº 05</div>
+        <div class="section-title">Your numbers, <em>without the pressure.</em></div>
+        <div class="section-kicker">Insights · Pro</div>
       </div>
-      <div class="fig" style="background:var(--paper-2)">
-        <div
-          style="position:absolute;inset:40px;background:var(--paper);border:1.5px solid var(--ink);padding:26px;display:flex;flex-direction:column;gap:14px"
-        >
-          <div style="font-family:var(--serif);font-size:32px;font-style:italic;line-height:1">Cast On Calculator</div>
-          <div
-            style="font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--walnut)"
-          >
-            — GAUGE · WIDTH · STITCHES —
-          </div>
-          <div
-            style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px"
-          >
-            <div style="border:1.5px solid var(--ink);padding:10px">
-              <div style="font-family:var(--mono);font-size:9px;letter-spacing:.14em">GAUGE</div>
-              <div style="font-family:var(--serif);font-size:28px">22<span style="font-family:var(--mono);font-size:12px;color:var(--walnut)"> sts / 10cm</span></div>
+
+      <div class="insights">
+        <div class="col" style="display:grid;gap:16px">
+          <div class="row">
+            <div class="stat-card">
+              <span class="k">Total Time</span>
+              <span class="v">128<span style="font-size:28px;color:var(--walnut)">h</span></span>
+              <span class="u">Since January</span>
             </div>
-            <div style="border:1.5px solid var(--ink);padding:10px">
-              <div style="font-family:var(--mono);font-size:9px;letter-spacing:.14em">WIDTH</div>
-              <div style="font-family:var(--serif);font-size:28px">50<span style="font-family:var(--mono);font-size:12px;color:var(--walnut)"> cm</span></div>
+            <div class="stat-card">
+              <span class="k">Pace</span>
+              <span class="v">42<span style="font-size:28px;color:var(--walnut)">/hr</span></span>
+              <span class="u">Rows per hour</span>
             </div>
           </div>
-          <div style="border:2px solid var(--ink);background:var(--wheat);padding:18px;text-align:center">
-            <div style="font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--ink)">CAST ON</div>
+          <div class="row">
+            <div class="stat-card">
+              <span class="k">Streak</span>
+              <span class="v">14<span style="font-size:28px;color:var(--walnut)">d</span></span>
+              <span class="u">Daily knit</span>
+            </div>
             <div
-              style="font-family:var(--serif);font-size:80px;line-height:1;color:var(--terracotta);letter-spacing:-.02em"
+              class="stat-card"
+              style="background:var(--terracotta);color:var(--paper);border-color:var(--terracotta)"
             >
-              110
+              <span class="k" style="color:rgba(244,234,217,.85)">Active Projects</span>
+              <span class="v" style="color:var(--paper)">3</span>
+              <span class="u" style="color:rgba(244,234,217,.85)">Cardigan · Socks · Hat</span>
             </div>
-            <div style="font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--ink)">stitches</div>
-          </div>
-          <div style="font-family:var(--body);font-size:12px;line-height:1.6;color:var(--ink-soft)">
-            Six free calculators and charts. Gauge, cast-on, yardage, needles, abbreviations — run them right in your
-            browser.
           </div>
         </div>
-        <div class="cap">FIG. III · FREE IN YOUR BROWSER</div>
+        <div class="col" style="display:grid;gap:16px">
+          <div class="chart">
+            <div class="title">PACE OVER TIME · ROWS / HOUR</div>
+            <svg viewBox="0 0 400 160" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="paceGrad" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0" stop-color="#A05038" stop-opacity=".5" />
+                  <stop offset="1" stop-color="#A05038" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+              <g stroke="#2A1E17" stroke-opacity=".15">
+                <line x1="0" y1="40" x2="400" y2="40" />
+                <line x1="0" y1="80" x2="400" y2="80" />
+                <line x1="0" y1="120" x2="400" y2="120" />
+              </g>
+              <path
+                d="M0,120 C40,110 60,90 90,80 S150,50 190,60 S250,100 290,70 S350,30 400,40 L400,160 L0,160 Z"
+                fill="url(#paceGrad)"
+              ></path>
+              <path
+                d="M0,120 C40,110 60,90 90,80 S150,50 190,60 S250,100 290,70 S350,30 400,40"
+                fill="none"
+                stroke="#A05038"
+                stroke-width="2.5"
+              ></path>
+              <g fill="#5B8072">
+                <circle cx="90" cy="80" r="3.5"></circle>
+                <circle cx="190" cy="60" r="3.5"></circle>
+                <circle cx="290" cy="70" r="3.5"></circle>
+                <circle cx="400" cy="40" r="3.5"></circle>
+              </g>
+            </svg>
+          </div>
+          <div>
+            <div
+              style="font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--walnut);text-transform:uppercase;margin-bottom:8px"
+            >
+              Weekday Heatmap · Last 20 Weeks
+            </div>
+            <div class="heatmap">
+              {
+                Array.from({ length: heatmapCells }).map((_, i) => {
+                  const v = heatmapSeed[i % heatmapSeed.length];
+                  const cls = heatmapLevels[v];
+                  return cls ? <div class={cls} /> : <div />;
+                })
+              }
+            </div>
+          </div>
+        </div>
       </div>
+      <p
+        style="margin:28px 0 0;font-family:var(--body);font-size:15px;color:var(--ink-soft);font-style:italic;max-width:640px"
+      >
+        No leaderboards. No nudges. No comparing yourself to anyone else. The stats are yours, and they stay on your
+        phone.
+      </p>
     </section>
 
     <!-- Pricing -->
@@ -521,45 +598,45 @@ const freeToolChecklist = [
           <h3>Free</h3>
           <div class="price"><span class="big">Forever</span></div>
           <p style="margin:0;color:var(--ink-soft)">
-            The six browser tools, always free. No account, no trial expiry, no card — just run them and go.
+            The app, free forever. No account, no trial expiry, no card — just install and knit.
           </p>
           <ul>
-            <li>Cast On Calculator</li>
-            <li>Yarn Estimator</li>
-            <li>Needle Size Chart</li>
-            <li>Yarn Weight Chart</li>
-            <li>Knitting Abbreviations</li>
-            <li>Size Charts</li>
+            <li>Row counter + session history</li>
+            <li>Ravelry sign-in</li>
+            <li>Four calculators (gauge, cast-on, increase, yardage)</li>
+            <li>Reference library (needles, sizes, abbreviations)</li>
+            <li>Three projects</li>
+            <li>Eleven languages</li>
           </ul>
-          <a class="btn ghost cta" style="margin-top:18px" href="/tools/">Browse free tools →</a>
+          <a class="btn ghost cta" style="margin-top:18px" href="#hero-signup-form">Get the app free →</a>
         </div>
 
         <div class="plan pro">
           <div class="tag">LAUNCH PRICE</div>
-          <h3>KnitTools App</h3>
+          <h3>Pro</h3>
           <div class="price">
             <span class="cur">€</span><span class="big">8</span><span class="cur">.99</span>
             <span class="strike">€11.99</span>
           </div>
           <p style="margin:0;color:rgba(244,234,217,.9)">
-            A single, one-time unlock. 14-day free trial, no card. Price rises to €11.99 two months after launch —
+            A single, one-time unlock. 14-day free trial, no card. Rises to €11.99 two months after launch —
             permanently. No subscription, ever.
           </p>
           <ul>
-            <li>Row counter with voice commands (EN · FI)</li>
+            <li>Unlimited projects</li>
+            <li>Voice commands (EN · FI) + live AI assistant</li>
             <li>Pattern viewer with AI stitch explanations</li>
             <li>Yarn OCR scanner · unlimited stash</li>
-            <li>Four calculators · Ravelry sign-in</li>
             <li>Insights, streaks, pace-over-time</li>
+            <li>Progress photos, row-tagged</li>
             <li>Home-screen counter widget</li>
-            <li>Eleven languages</li>
           </ul>
           <a
             class="btn cta"
             style="background:var(--paper);color:var(--ink);border-color:var(--paper);margin-top:18px"
             href="#hero-signup-form"
           >
-            Join the waitlist →
+            Reserve the launch price →
           </a>
         </div>
       </div>
@@ -594,6 +671,27 @@ const freeToolChecklist = [
       </div>
     </section>
 
+    <!-- Closing CTA -->
+    <section class="closing-cta">
+      <h2>Where every stitch <em>counts.</em></h2>
+      <div class="form-wrap">
+        <form id="closing-signup-form" action="#" method="post">
+          <div class="signup-row" id="closing-content">
+            <input
+              type="email"
+              placeholder="your@email.com"
+              required
+              class="signup-input"
+              aria-label="Email address"
+            />
+            <button type="submit" class="btn">Reserve my price →</button>
+          </div>
+          <div class="success" id="closing-success" aria-hidden="true">You're in. We'll email you at launch.</div>
+        </form>
+        <p class="meta">Free at launch · Pro €8.99 → €11.99 after two months · No card required</p>
+      </div>
+    </section>
+
     <!-- Languages -->
     <div class="langs">
       {languages.map((lang) => <span>{lang}</span>)}
@@ -602,7 +700,7 @@ const freeToolChecklist = [
     <!-- Footer -->
     <footer class="editorial">
       <div>
-        <div class="fm">Knit<em>&amp;</em>Tools</div>
+        <div class="fm">Kni<em>t</em>Tools</div>
         <p style="margin-top:10px;font-size:14px;color:var(--ink-soft);max-width:280px">
           A quiet companion for the long row ahead. Built for Android, priced once, yours forever.
         </p>
@@ -644,21 +742,38 @@ const freeToolChecklist = [
         });
       }
 
-      const form = document.getElementById('hero-signup-form');
-      const content = document.getElementById('hero-content-layer');
-      const success = document.getElementById('hero-success');
-      if (form && content && success) {
-        form.addEventListener('submit', (e) => {
+      const heroForm = document.getElementById('hero-signup-form');
+      const heroContent = document.getElementById('hero-content-layer');
+      const heroSuccess = document.getElementById('hero-success');
+      if (heroForm && heroContent && heroSuccess) {
+        heroForm.addEventListener('submit', (e) => {
           e.preventDefault();
-          content.style.display = 'none';
-          success.style.display = 'flex';
-          success.setAttribute('aria-hidden', 'false');
+          heroContent.style.display = 'none';
+          heroSuccess.style.display = 'flex';
+          heroSuccess.setAttribute('aria-hidden', 'false');
+        });
+      }
+
+      const closingForm = document.getElementById('closing-signup-form');
+      const closingContent = document.getElementById('closing-content');
+      const closingSuccess = document.getElementById('closing-success');
+      if (closingForm && closingContent && closingSuccess) {
+        closingForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          closingContent.style.display = 'none';
+          closingSuccess.style.display = 'block';
+          closingSuccess.setAttribute('aria-hidden', 'false');
         });
       }
     })();
   </script>
 
   <style is:global>
+    .wordmark .accent { color: var(--terracotta); font-style: italic; }
+    footer.editorial .fm em {
+      color: var(--terracotta);
+      font-style: italic;
+    }
     .hero-signup {
       margin-top: 30px;
       max-width: 520px;
@@ -669,7 +784,7 @@ const freeToolChecklist = [
       gap: 10px;
       align-items: stretch;
     }
-    .signup-input {
+    .hero-signup .signup-input {
       flex: 1;
       font-family: var(--body);
       font-size: 16px;
@@ -680,7 +795,7 @@ const freeToolChecklist = [
       border-radius: 999px;
       min-width: 0;
     }
-    .signup-input:focus {
+    .hero-signup .signup-input:focus {
       outline: 2px solid var(--terracotta);
       outline-offset: 2px;
     }
@@ -717,9 +832,7 @@ const freeToolChecklist = [
       color: var(--ink-soft);
     }
     @media (max-width: 520px) {
-      .signup-row {
-        flex-direction: column;
-      }
+      .signup-row { flex-direction: column; }
     }
   </style>
 </EditorialLayout>
