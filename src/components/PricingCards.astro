@@ -3,22 +3,23 @@ const romans = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x'];
 
 const freeBullets = [
   'Row counter + session history',
+  'Pattern viewer (PDF or Ravelry)',
+  'Four calculators (gauge, cast-on, increases, yardage)',
   'Ravelry sign-in',
-  'Four calculators (gauge, cast-on, increase, yardage)',
-  'Reference library (needles, sizes, abbreviations)',
+  'Reference library (needles, sizes, symbols, abbreviations)',
   'Three projects',
   'Eleven languages',
 ];
 
 const proBullets = [
   'Unlimited projects',
-  'Voice commands (EN · FI)',
-  'Live AI assistant',
-  'Pattern viewer with AI stitch explanations',
   'Yarn OCR scanner · unlimited stash',
-  'Insights, streaks, pace-over-time',
   'Progress photos, row-tagged',
+  'Insights, streaks, pace-over-time',
   'Home-screen counter widget',
+  'Live AI voice on the counter (all eleven languages)',
+  'AI pattern help: read rows aloud, explain stitches, parse instructions',
+  'AI project summaries + voice journal',
 ];
 ---
 
@@ -27,7 +28,7 @@ const proBullets = [
     <header class="section-head">
       <div class="num">Nº 03</div>
       <h2 id="pricing-heading" class="title">Pay once. <em>Own it.</em></h2>
-      <div class="kicker">Pricing · No subscription</div>
+      <div class="kicker">No monthly · No yearly</div>
     </header>
 
     <div class="plans">
@@ -50,6 +51,7 @@ const proBullets = [
       <article class="card pro">
         <p class="label">§ Pro</p>
         <h3>€8.99 <span class="suffix">one-time</span></h3>
+        <p class="includes">Everything in Free, plus:</p>
         <ol>
           {
             proBullets.map((b, i) => (
@@ -143,6 +145,15 @@ const proBullets = [
   }
   .free .label { color: var(--walnut); }
   .pro .label { color: var(--wheat); }
+
+  .includes {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--wheat);
+    margin: -8px 0 16px;
+  }
 
   h3 {
     font-family: var(--serif);

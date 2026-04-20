@@ -2,7 +2,7 @@
 ---
 
 <header class="nav-editorial" data-nav>
-  <a href="/" class="brand">KnitTools</a>
+  <span class="brand-spacer" aria-hidden="true"></span>
   <nav class="nav-links">
     <a href="/tools/">Tools</a>
     <a href="/articles">Articles</a>
@@ -43,12 +43,18 @@
     border-bottom-color: var(--ink);
   }
   .brand {
-    font-family: var(--serif);
-    font-style: italic;
-    font-size: 22px;
-    color: var(--terracotta);
+    display: inline-flex;
+    align-items: center;
     text-decoration: none;
-    letter-spacing: -0.01em;
+    line-height: 0;
+  }
+  .brand img {
+    width: 112px;
+    height: 112px;
+    display: block;
+  }
+  @media (max-width: 640px) {
+    .brand img { width: 72px; height: 72px; }
   }
   .nav-links {
     display: flex;

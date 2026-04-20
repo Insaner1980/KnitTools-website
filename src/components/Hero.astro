@@ -5,10 +5,13 @@ import counterLight from '../assets/images/counter-light.png';
 
 <section class="hero-editorial dot-grid-paper" aria-labelledby="hero-heading">
   <div class="hero-meta-strip">
+    <a href="/" class="seal-logo" aria-label="KnitTools home">
+      <img src="/logo.webp" alt="KnitTools" width="112" height="112" />
+    </a>
     <div class="rule-double"></div>
     <div class="meta-row">
       <span>Vol. 01 · Pre-launch</span>
-      <span>"Pick up where you left off."</span>
+      <span>One app for every tool a knitter needs</span>
       <span>EST. 2026</span>
     </div>
     <div class="rule-double"></div>
@@ -73,12 +76,31 @@ import counterLight from '../assets/images/counter-light.png';
 <style>
   .hero-editorial {
     position: relative;
-    padding: 100px 40px 80px;
+    padding: 42px 40px 80px;
     overflow: hidden;
   }
   .hero-meta-strip {
     max-width: 1280px;
-    margin: 0 auto 56px;
+    margin: 0 auto 48px;
+    position: relative;
+    padding-left: 140px;
+  }
+  .seal-logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    line-height: 0;
+    text-decoration: none;
+    background: var(--paper);
+    padding: 4px;
+    border-radius: 50%;
+  }
+  .seal-logo img {
+    width: 112px;
+    height: 112px;
+    display: block;
   }
   .meta-row {
     display: flex;
@@ -244,6 +266,8 @@ import counterLight from '../assets/images/counter-light.png';
   }
   @media (max-width: 640px) {
     .hero-editorial { padding: 90px 20px 60px; }
+    .hero-meta-strip { padding-left: 88px; }
+    .seal-logo img { width: 72px; height: 72px; }
     .meta-row { font-size: 10px; gap: 12px; justify-content: center; text-align: center; }
     .meta-row span:nth-child(2) { order: 3; flex-basis: 100%; }
     .signup-row { flex-direction: column; }
