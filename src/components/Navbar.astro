@@ -2,11 +2,11 @@
 ---
 
 <header class="nav-editorial" data-nav>
-  <span class="brand-spacer" aria-hidden="true"></span>
+  <a href="/" class="brand-mark" aria-label="KnitTools home">KnitTools</a>
   <nav class="nav-links">
     <a href="/tools/">Tools</a>
     <a href="/articles">Articles</a>
-    <a href="#join" class="waitlist">Join the waitlist</a>
+    <a href="#join" class="waitlist">Join the list</a>
   </nav>
 </header>
 
@@ -42,20 +42,21 @@
     background: var(--paper);
     border-bottom-color: var(--ink);
   }
-  .brand {
-    display: inline-flex;
-    align-items: center;
+  .brand-mark {
+    font-family: var(--serif);
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    color: var(--ink);
     text-decoration: none;
-    line-height: 0;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    pointer-events: none;
   }
-  .brand img {
-    width: 112px;
-    height: 112px;
-    display: block;
+  .nav-editorial.scrolled .brand-mark {
+    opacity: 1;
+    pointer-events: auto;
   }
-  @media (max-width: 640px) {
-    .brand img { width: 72px; height: 72px; }
-  }
+
   .nav-links {
     display: flex;
     gap: 28px;
@@ -63,27 +64,31 @@
   }
   .nav-links a {
     font-family: var(--mono);
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--ink);
     text-decoration: none;
-    transition: color 0.15s ease;
+    transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
   }
   .nav-links a:hover { color: var(--terracotta); }
+
   .nav-links a.waitlist {
-    background: var(--amber);
-    color: var(--paper);
     padding: 8px 16px;
-    border-radius: 999px;
-    border: 2px solid var(--ink);
+    border: 1.5px solid var(--ink);
+    border-radius: 0;
+    background: transparent;
+    color: var(--ink);
   }
   .nav-links a.waitlist:hover {
-    background: var(--amber-hover);
+    background: var(--ink);
     color: var(--paper);
+    border-color: var(--ink);
   }
+
   @media (max-width: 640px) {
     .nav-editorial { padding: 14px 20px; }
+    .brand-mark { font-size: 15px; }
     .nav-links { gap: 14px; }
     .nav-links a { font-size: 10px; letter-spacing: 0.14em; }
     .nav-links a.waitlist { padding: 6px 12px; }

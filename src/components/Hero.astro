@@ -1,30 +1,28 @@
 ---
-import PhoneMockup from './PhoneMockup.astro';
-import counterLight from '../assets/images/counter-light.png';
 ---
 
-<section class="hero-editorial dot-grid-paper" aria-labelledby="hero-heading">
+<section class="hero-editorial" aria-labelledby="hero-heading">
   <div class="hero-meta-strip">
-    <a href="/" class="seal-logo" aria-label="KnitTools home">
-      <img src="/logo.webp" alt="KnitTools" width="112" height="112" />
-    </a>
-    <div class="rule-double"></div>
-    <div class="meta-row">
-      <span>Vol. 01 · Pre-launch</span>
-      <span>One app for every tool a knitter needs</span>
-      <span>EST. 2026</span>
+    <div class="masthead-block">
+      <div class="masthead" role="img" aria-label="KnitTools">KnitTools</div>
+      <div class="rule-thin-mid"></div>
     </div>
-    <div class="rule-double"></div>
+    <div class="meta-row">
+      <span class="meta-left">Vol. 01. Pre-launch</span>
+      <span class="meta-center"><em>The Knitter's Journal of Craft &amp; Computation</em></span>
+      <span class="meta-right">Est. 2026</span>
+    </div>
+    <div class="rule-thin-bottom"></div>
   </div>
 
   <div class="hero-inner">
     <div class="hero-text">
-      <p class="eyebrow">A knitting toolkit for Android · Launching soon</p>
-      <h1 id="hero-heading">Pick up where<br />you <em>left off.</em></h1>
-      <p class="dek">
-        The row you were on, the yarn you forgot, the pattern that made no sense at midnight. <strong>KnitTools
-        remembers it all.</strong> So the only thing you need to do is <strong>keep knitting.</strong>
-      </p>
+      <p class="eyebrow">An Android app for knitters</p>
+      <h1 id="hero-heading" class="hero-head">
+        <span class="head-line head-1">Every knitting tool.</span>
+        <span class="head-line head-2"><em>One app.</em></span>
+      </h1>
+      <p class="dek">The row you were on, the yarn you forgot, the pattern that made no sense at midnight. <strong>KnitTools remembers it all</strong>, so the only thing you do is keep knitting.</p>
 
       <form class="signup" id="hero-signup" action="#" method="post">
         <label for="hero-email" class="visually-hidden">Email address</label>
@@ -36,26 +34,43 @@ import counterLight from '../assets/images/counter-light.png';
             required
             autocomplete="email"
           />
-          <button type="submit" class="btn-primary">Join the list</button>
+          <button type="submit" class="btn-primary">Notify me at launch</button>
         </div>
         <p class="signup-success" data-success aria-hidden="true">
           You're in. We'll email you at launch.
         </p>
         <p class="signup-meta">
-          Lock in the launch price: <strong>€8.99</strong> → €11.99 two months after launch.
+          Coming 2026 to Google Play and Amazon Appstore. 14-day free trial.<br>
+          Launch price <strong>€8.99</strong>, rises to €11.99 after two months.
         </p>
       </form>
     </div>
 
     <div class="hero-phone">
-      <div class="phone-glow" aria-hidden="true"></div>
-      <PhoneMockup
-        screenshot={counterLight}
-        alt="KnitTools row counter showing an active project"
-        theme="light"
-      />
+      <figure class="hero-figure">
+        <div class="phone-parallax" data-parallax>
+          <div class="phone-frame">
+            <img
+              src="/images/row-counter-mobile.webp"
+              alt="KnitTools row counter running on an Android phone in a walnut frame"
+              class="hero-phone-img"
+              width="344"
+              height="726"
+              loading="eager"
+              decoding="async"
+            />
+            <span class="phone-counter" aria-hidden="true">
+              <span class="phone-counter-num" data-counter>136</span>
+            </span>
+          </div>
+        </div>
+        <figcaption class="figure-caption">
+          <em>Fig. 01. The counter, where most knitting happens.</em>
+        </figcaption>
+      </figure>
     </div>
   </div>
+
 </section>
 
 <script is:inline>
@@ -73,54 +88,141 @@ import counterLight from '../assets/images/counter-light.png';
   })();
 </script>
 
+<script is:inline>
+  (() => {
+    const el = document.querySelector('[data-parallax]');
+    if (!el) return;
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const speed = -0.08;
+    const max = 80;
+    let ticking = false;
+
+    function update() {
+      const rect = el.getBoundingClientRect();
+      const viewportMid = window.innerHeight / 2;
+      const elMid = rect.top + rect.height / 2;
+      const distance = elMid - viewportMid;
+      const y = Math.max(-max, Math.min(max, distance * speed));
+      el.style.setProperty('--parallax-y', y.toFixed(2) + 'px');
+      ticking = false;
+    }
+
+    function onScroll() {
+      if (!ticking) {
+        requestAnimationFrame(update);
+        ticking = true;
+      }
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll, { passive: true });
+    update();
+  })();
+</script>
+
+<script is:inline>
+  (() => {
+    const el = document.querySelector('[data-counter]');
+    if (!el) return;
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    let n = parseInt(el.textContent, 10) || 136;
+    const MIN_INTERVAL = 3400;
+    const JITTER = 1800;
+
+    function getDelta() {
+      const r = Math.random();
+      if (r < 0.65) return 1;                                   // normal tick
+      if (r < 0.80) return 2 + Math.floor(Math.random() * 4);    // +2..+5, catching up
+      if (r < 0.87) return 6 + Math.floor(Math.random() * 4);    // +6..+9, bigger jump
+      if (r < 0.94) return -1;                                   // oops, back one
+      return -(2 + Math.floor(Math.random() * 3));               // -2..-4, bigger undo
+    }
+
+    function clamp(v) {
+      if (v < 1) return 1 + Math.floor(Math.random() * 3);
+      if (v > 999) return 999 - Math.floor(Math.random() * 10);
+      return v;
+    }
+
+    function tick() {
+      el.classList.add('is-ticking');
+      setTimeout(() => {
+        n = clamp(n + getDelta());
+        el.textContent = n;
+        el.classList.remove('is-ticking');
+      }, 220);
+      setTimeout(tick, MIN_INTERVAL + Math.random() * JITTER);
+    }
+
+    // Start only when the counter is visible
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            setTimeout(tick, 1500);
+            io.disconnect();
+          }
+        }
+      },
+      { threshold: 0.4 }
+    );
+    io.observe(el);
+  })();
+</script>
+
 <style>
   .hero-editorial {
     position: relative;
-    padding: 42px 40px 80px;
+    padding: 12px 40px 80px;
     overflow: hidden;
   }
   .hero-meta-strip {
     max-width: 1280px;
     margin: 0 auto 48px;
     position: relative;
-    padding-left: 140px;
+    text-align: center;
   }
-  .seal-logo {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    display: block;
-    line-height: 0;
-    text-decoration: none;
-    background: var(--paper);
-    padding: 4px;
-    border-radius: 50%;
+  .masthead-block { position: relative; }
+
+  .rule-thin-mid,
+  .rule-thin-bottom {
+    height: 1px;
+    background: var(--ink);
+    opacity: 0.6;
   }
-  .seal-logo img {
-    width: 112px;
-    height: 112px;
-    display: block;
+  .masthead {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2.25rem, 5.5vw, 4rem);
+    line-height: 0.95;
+    letter-spacing: -0.035em;
+    color: var(--ink);
+    margin: 6px 0 4px;
+    text-align: center;
   }
   .meta-row {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
     padding: 10px 0;
     font-family: var(--mono);
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--ink-soft);
     gap: 24px;
-    flex-wrap: wrap;
   }
-  .meta-row span:nth-child(2) {
-    font-style: italic;
+  .meta-left  { justify-self: start; }
+  .meta-right { justify-self: end; }
+  .meta-center {
+    justify-self: center;
     font-family: var(--serif);
-    font-size: 13px;
+    font-style: italic;
+    font-size: clamp(13px, 1.1vw, 15px);
+    letter-spacing: 0.01em;
     text-transform: none;
-    letter-spacing: 0;
     color: var(--ink);
   }
 
@@ -137,25 +239,57 @@ import counterLight from '../assets/images/counter-light.png';
 
   .hero-text { max-width: 640px; }
 
+
   .eyebrow {
     font-family: var(--mono);
-    font-size: 11px;
-    letter-spacing: 0.14em;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.24em;
     text-transform: uppercase;
     color: var(--terracotta);
-    margin: 0 0 24px;
+    margin: 0 0 20px;
+  }
+
+  .figure-caption {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 14px;
+    color: var(--ink-soft);
+    text-align: center;
+    margin: 20px auto 0;
+    max-width: 320px;
+    line-height: 1.4;
   }
 
   h1 {
     font-family: var(--serif);
     font-weight: 400;
-    font-size: clamp(3.5rem, 8vw, 7rem);
     line-height: 0.9;
     letter-spacing: -0.02em;
     margin: 0 0 28px;
     color: var(--ink);
   }
-  h1 em {
+  .hero-head {
+    display: block;
+    width: max-content;
+    max-width: 100%;
+  }
+  .head-line {
+    display: block;
+  }
+  .head-1 {
+    font-size: clamp(2.5rem, 5.6vw, 4.75rem);
+    line-height: 0.95;
+    white-space: nowrap;
+  }
+  .head-2 {
+    font-size: clamp(3.75rem, 8.5vw, 7.5rem);
+    line-height: 0.9;
+    margin-top: 6px;
+    text-align: right;
+    transform: translateX(0.06em);
+  }
+  .head-2 em {
     color: var(--terracotta);
     font-style: italic;
   }
@@ -172,11 +306,20 @@ import counterLight from '../assets/images/counter-light.png';
     color: var(--terracotta);
     font-weight: 600;
   }
+  .dek::first-letter {
+    font-family: var(--serif);
+    float: left;
+    font-size: 4.6em;
+    line-height: 0.82;
+    padding: 6px 10px 0 0;
+    color: var(--terracotta);
+    font-weight: 400;
+  }
 
   .signup { max-width: 520px; }
   .signup-row {
     display: flex;
-    gap: 10px;
+    gap: 0;
     align-items: stretch;
   }
   .signup input {
@@ -185,13 +328,14 @@ import counterLight from '../assets/images/counter-light.png';
     font-size: 16px;
     padding: 14px 20px;
     border: 1.5px solid var(--ink);
+    border-right: 0;
     background: var(--paper-2);
     color: var(--ink);
-    border-radius: 999px;
+    border-radius: 0;
     min-width: 0;
   }
   .signup input:focus {
-    outline: 2px solid var(--amber);
+    outline: 2px solid var(--terracotta);
     outline-offset: 2px;
   }
   .btn-primary {
@@ -199,17 +343,20 @@ import counterLight from '../assets/images/counter-light.png';
     font-size: 12px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    background: var(--amber);
+    background: var(--ink);
     color: var(--paper);
-    border: 2px solid var(--ink);
+    border: 1.5px solid var(--ink);
     padding: 14px 22px;
-    border-radius: 999px;
+    border-radius: 0;
     cursor: pointer;
-    transition: transform 0.15s ease, background 0.15s ease;
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
   }
-  .btn-primary:hover { background: var(--amber-hover); transform: scale(1.02); }
+  .btn-primary:hover {
+    background: var(--terracotta);
+    border-color: var(--terracotta);
+  }
   .btn-primary:focus-visible {
-    outline: 2px solid var(--amber);
+    outline: 2px solid var(--terracotta);
     outline-offset: 3px;
   }
 
@@ -236,16 +383,52 @@ import counterLight from '../assets/images/counter-light.png';
     justify-content: center;
     align-items: center;
   }
-  .hero-phone :global(.phone-mockup) {
-    width: 320px;
-    transform: rotate(-2deg);
+  .hero-figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
-  .phone-glow {
+  .phone-parallax {
+    transform: translate3d(0, var(--parallax-y, 0), 0);
+    will-change: transform;
+  }
+  .phone-frame {
+    position: relative;
+    width: clamp(220px, 22vw, 280px);
+    container-type: inline-size;
+  }
+  .hero-phone-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .phone-counter {
     position: absolute;
-    inset: 0;
-    background: radial-gradient(circle at 50% 50%, rgba(160, 80, 56, 0.15) 0 40%, transparent 70%);
-    filter: blur(40px);
-    z-index: 0;
+    top: 56.2%;
+    left: 49.1%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    line-height: 1;
+  }
+  .phone-counter-num {
+    display: inline-block;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 17cqw;
+    letter-spacing: -0.02em;
+    color: #272420;
+    line-height: 1;
+    transition: transform 220ms ease, opacity 220ms ease;
+  }
+  .phone-counter-num.is-ticking {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .phone-parallax { transform: none; }
+    .phone-counter-num { transition: none; }
   }
 
   .visually-hidden {
@@ -265,12 +448,20 @@ import counterLight from '../assets/images/counter-light.png';
     .hero-phone { justify-content: center; }
   }
   @media (max-width: 640px) {
-    .hero-editorial { padding: 90px 20px 60px; }
-    .hero-meta-strip { padding-left: 88px; }
-    .seal-logo img { width: 72px; height: 72px; }
-    .meta-row { font-size: 10px; gap: 12px; justify-content: center; text-align: center; }
-    .meta-row span:nth-child(2) { order: 3; flex-basis: 100%; }
+    .hero-editorial { padding: 32px 20px 48px; }
+    .masthead { letter-spacing: -0.025em; }
+    .meta-row {
+      grid-template-columns: 1fr;
+      gap: 6px;
+      text-align: center;
+      padding: 12px 0;
+    }
+    .meta-left, .meta-right, .meta-center { justify-self: center; }
+    .meta-center { order: -1; font-size: 13px; }
     .signup-row { flex-direction: column; }
-    .hero-phone :global(.phone-mockup) { width: min(72vw, 280px); }
+    .signup input { border-right: 1.5px solid var(--ink); border-bottom: 0; }
+    .phone-frame { width: min(58vw, 220px); }
+    .dek::first-letter { font-size: 4em; padding: 4px 8px 0 0; }
+    .figure-caption { font-size: 13px; margin-top: 14px; }
   }
 </style>

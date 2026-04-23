@@ -1,0 +1,75 @@
+---
+// Editor's Note — a small framed editorial aside between sections.
+---
+
+<aside class="editors-note" aria-label="A note from the editor">
+  <div class="inner">
+    <div class="head">
+      <p class="eyebrow">From the Editor</p>
+      <div class="rule"></div>
+    </div>
+    <div class="body">
+      <p>
+        This issue introduces KnitTools: a full toolkit for Android. Counters, scanners, calculators,
+        reference charts, and AI that reads patterns aloud. All under one roof, paid for once, ever.
+        No subscription, no account, no trial that quietly turns into a charge.
+      </p>
+      <p>
+        The pre-launch list opens through the season. Signing up locks in the launch price for good,
+        and guarantees a note on the day the app ships. No other emails in between.
+      </p>
+    </div>
+  </div>
+</aside>
+
+<style>
+  .editors-note {
+    background: var(--paper);
+    padding: 80px 40px;
+  }
+  .inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 28px 0 26px;
+    border-top: 3px double var(--ink);
+    border-bottom: 1px solid var(--ink);
+    position: relative;
+  }
+
+  .head {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0;
+    white-space: nowrap;
+  }
+  .rule {
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+    opacity: 0.5;
+  }
+
+  .body p {
+    font-family: var(--body-ed);
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--ink);
+    margin: 0 0 14px;
+  }
+  .body p:last-of-type { margin-bottom: 0; }
+
+  @media (max-width: 640px) {
+    .editors-note { padding: 56px 20px; }
+    .inner { padding: 28px 24px 24px; }
+    .body p { font-size: 15px; }
+  }
+</style>

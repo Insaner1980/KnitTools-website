@@ -1,20 +1,21 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
 import CastOnCalculator from '../../components/CastOnCalculator.astro';
-import { Image } from 'astro:assets';
-import faqButton from '../../assets/images/faq-button.webp';
 ---
 
 <PageLayout
   title="Cast On Calculator: Free Knitting Stitch Calculator"
   description="Calculate how many stitches to cast on for any width. Enter your gauge and desired width. Free, instant, no signup required."
   canonicalPath="/tools/cast-on-calculator"
-  showStripe={true}
+  bodyClass="landing"
+  showStripe={false}
 >
-  <!-- 1. Tool hero (terracotta) -->
+  <!-- 1. Tool hero -->
   <section class="tool-hero">
     <div class="hero-inner">
-      <a href="/tools/" class="back-link reveal reveal-left">&larr; All tools</a>
+      <p class="eyebrow">
+        <a href="/tools/" class="eyebrow-back">← All tools</a>
+      </p>
       <h1 class="gs-h1" aria-label="Cast On Calculator"><span class="h1-chars">Cast On Calculator</span></h1>
       <p class="hero-intro gs-hero">Calculate how many stitches to cast on for any width and gauge.</p>
       <div class="calc-wrapper gs-form">
@@ -43,23 +44,23 @@ import faqButton from '../../assets/images/faq-button.webp';
       <h2 class="gs-clip-reveal">Frequently asked questions</h2>
       <div class="faq">
         <details class="gs-faq-item">
-          <summary>Do I really need to knit a gauge swatch? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <summary>Do I really need to knit a gauge swatch? <span class="faq-icon" aria-hidden="true">+</span></summary>
           <p>Yes. Skipping the swatch is the most common reason knitted pieces come out the wrong size. It takes 20 minutes and saves hours of rework.</p>
         </details>
         <details class="gs-faq-item">
-          <summary>Should I count edge stitches in my gauge? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <summary>Should I count edge stitches in my gauge? <span class="faq-icon" aria-hidden="true">+</span></summary>
           <p>No. Measure from the center of your swatch, avoiding the first and last two stitches. Edge stitches are often tighter or looser than the rest.</p>
         </details>
         <details class="gs-faq-item">
-          <summary>Why does the calculator round to an even number? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <summary>Why does the calculator round to an even number? <span class="faq-icon" aria-hidden="true">+</span></summary>
           <p>Many stitch patterns (ribbing, cables, colorwork) require an even number of stitches to work correctly. Rounding to the nearest even number gives you a clean repeat.</p>
         </details>
         <details class="gs-faq-item">
-          <summary>What if my pattern requires a specific stitch multiple? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <summary>What if my pattern requires a specific stitch multiple? <span class="faq-icon" aria-hidden="true">+</span></summary>
           <p>Add or subtract a few stitches to reach the nearest multiple your pattern needs. For example, if your pattern repeats over 4 stitches and the calculator says 46, adjust to 44 or 48.</p>
         </details>
         <details class="gs-faq-item">
-          <summary>Can I use this for circular knitting? <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+          <summary>Can I use this for circular knitting? <span class="faq-icon" aria-hidden="true">+</span></summary>
           <p>Yes. Enter the full circumference as your desired width. The calculator works the same way for flat and circular knitting.</p>
         </details>
       </div>
@@ -72,17 +73,18 @@ import faqButton from '../../assets/images/faq-button.webp';
       <form class="waitlist-form" action="#" method="post" id="waitlist-form">
         <!-- Initial Form State (Including headers) -->
         <div class="waitlist-content-layer" id="waitlist-content-layer">
-          <h2 class="gs-clip-reveal">There's more in the app</h2>
-          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators, in one app. Join the waitlist to get notified at launch.</p>
+          <h2 class="gs-clip-reveal waitlist-head">Every tool. <em>One app.</em></h2>
+          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators.</p>
           <div class="waitlist-row gs-fade-up" id="waitlist-row">
             <input type="email" placeholder="your@email.com" required class="waitlist-input" />
-            <button type="submit" class="waitlist-btn" id="waitlist-btn">Join Waitlist</button>
+            <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
           </div>
+          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play and Amazon Appstore. Launch price <strong>€8.99</strong>.</p>
         </div>
         
         <!-- Big Spinner Loading State -->
         <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
-          <Image src={faqButton} alt="Loading..." width={112} height={112} class="big-spinner" />
+          <span class="big-spinner" aria-live="polite">Sending&hellip;</span>
         </div>
 
         <!-- Success Message State -->
@@ -117,23 +119,28 @@ import faqButton from '../../assets/images/faq-button.webp';
       stagger: 0.15,
     }, 0.2);
 
-    // H1 letter stagger (safe DOM manipulation)
+    // H1 letter stagger — wrap each word so browsers can't break mid-word
     const h1El = document.querySelector('.h1-chars');
     if (h1El) {
       const text = h1El.textContent || '';
       h1El.textContent = '';
       const chars: HTMLSpanElement[] = [];
-      for (const c of text) {
-        if (c === ' ') {
-          h1El.appendChild(document.createTextNode(' '));
-        } else {
+      const words = text.split(' ');
+      words.forEach((word, wi) => {
+        const wordSpan = document.createElement('span');
+        wordSpan.className = 'h1-word';
+        for (const c of word) {
           const span = document.createElement('span');
           span.className = 'h1-char';
           span.textContent = c;
-          h1El.appendChild(span);
+          wordSpan.appendChild(span);
           chars.push(span);
         }
-      }
+        h1El.appendChild(wordSpan);
+        if (wi < words.length - 1) {
+          h1El.appendChild(document.createTextNode(' '));
+        }
+      });
 
       heroTl.from(chars, {
         opacity: 0,
@@ -262,199 +269,235 @@ import faqButton from '../../assets/images/faq-button.webp';
 </script>
 
 <style>
-  /* ---- 1. Tool hero (neutral) ---- */
+  /* ---- Shared section rhythm (v11 editorial) ---- */
+  .tool-hero,
+  .seo-content,
+  .tool-faq,
+  .waitlist-cta {
+    background: var(--paper);
+    color: var(--ink);
+    padding: 80px 40px;
+  }
+
   .tool-hero {
-    padding: 104px 20px 60px;
-    margin-right: 275px;
+    padding-top: 60px;
+    border-bottom: 1px solid var(--ink);
   }
 
-  .hero-inner {
-    max-width: 600px;
+  .seo-content,
+  .tool-faq {
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .waitlist-cta {
+    padding-bottom: 100px;
+  }
+
+  .hero-inner,
+  .content-inner,
+  .faq-inner,
+  .waitlist-inner {
+    max-width: 760px;
     margin: 0 auto;
-    padding-right: var(--safe-pr-mobile);
   }
 
-  .back-link {
-    display: inline-block;
-    color: var(--dark);
-    font-size: 0.9rem;
-    font-family: var(--font-body);
-    margin-bottom: 24px;
+  .content-inner,
+  .faq-inner {
+    max-width: 720px;
+  }
+
+  .waitlist-inner {
+    max-width: 640px;
+  }
+
+  /* ---- 1. Tool hero ---- */
+  .eyebrow {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 24px;
+  }
+  .eyebrow-back {
+    color: var(--ink-soft);
     text-decoration: none;
-    opacity: 0.7;
-    transition: opacity 200ms;
+    transition: color 0.15s ease;
   }
-
-  .back-link:hover { opacity: 1; }
-
-  .back-link:focus-visible {
-    outline: 2px solid var(--dark);
-    outline-offset: 2px;
-  }
+  .eyebrow-back:hover { color: var(--terracotta); }
 
   .tool-hero h1 {
-    font-family: var(--font-label);
-    font-size: var(--bebas-display-size);
-    color: var(--dark);
-    letter-spacing: var(--bebas-display-tracking);
-    text-transform: uppercase;
-    margin: 0 0 12px;
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3.25rem);
     line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    text-transform: none;
+    margin: 0 0 20px;
+    padding-bottom: 0.08em;
   }
 
+  .tool-hero h1 :global(.h1-word) {
+    display: inline-block;
+    white-space: nowrap;
+  }
   .tool-hero h1 :global(.h1-char) {
     display: inline-block;
   }
 
   .hero-intro {
-    font-family: var(--font-body);
-    font-weight: 400;
-    font-size: 1.05rem;
-    color: rgba(46, 42, 38, 0.8);
-    max-width: 500px;
+    font-family: var(--body-ed);
+    font-size: clamp(17px, 1.5vw, 20px);
+    line-height: 1.55;
+    color: var(--ink);
+    max-width: 560px;
     margin: 0 0 40px;
-    line-height: 1.5;
   }
 
-  /* ---- 2. SEO content (cream) ---- */
-  .seo-content {
-    padding: 64px 20px;
-  }
-
-  .content-inner {
-    max-width: 720px;
-    margin: 0 auto;
-    padding-right: var(--safe-pr-mobile);
-  }
-
+  /* ---- 2. SEO content ---- */
   .seo-content h2 {
-    font-family: var(--font-display);
-    font-weight: 800;
-    color: var(--dark);
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    margin-bottom: 1rem;
-    margin-top: 48px;
+    font-family: var(--serif);
+    font-weight: 400;
+    color: var(--ink);
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+    line-height: 1.2;
+    padding-bottom: 0.08em;
+    letter-spacing: -0.02em;
+    margin-top: 56px;
+    margin-bottom: 16px;
+    text-transform: none;
   }
-
-  .seo-content h2:first-child {
-    margin-top: 0;
-  }
+  .seo-content h2:first-child { margin-top: 0; }
 
   .seo-content p {
-    font-family: var(--font-body);
-    color: var(--dark);
-    font-size: 1rem;
-    line-height: 1.7;
+    font-family: var(--body-ed);
+    color: var(--ink);
+    font-size: 17px;
+    line-height: 1.65;
     margin-bottom: 0;
   }
-
   .seo-content p strong {
     font-weight: 600;
+    color: var(--terracotta);
   }
 
-  /* ---- 3. FAQ (cream) ---- */
-  .tool-faq {
-    padding: 48px 20px 64px;
-  }
-
-  .faq-inner {
-    max-width: 720px;
-    margin: 0 auto;
-    padding-right: var(--safe-pr-mobile);
-  }
-
+  /* ---- 3. FAQ ---- */
   .tool-faq h2 {
-    font-family: var(--font-display);
-    font-weight: 800;
-    color: var(--dark);
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    margin-bottom: 1.5rem;
+    font-family: var(--serif);
+    font-weight: 400;
+    color: var(--ink);
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+    line-height: 1.2;
+    padding-bottom: 0.08em;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+    text-transform: none;
   }
 
-  .faq {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-  }
+  .faq { display: flex; flex-direction: column; }
 
   .faq details {
-    border-bottom: 1px solid var(--cream-muted);
+    border-top: 1px solid rgba(42, 30, 23, 0.2);
+  }
+  .faq details:last-child {
+    border-bottom: 1px solid rgba(42, 30, 23, 0.2);
   }
 
   .faq summary {
-    padding: 1.2rem 0;
+    padding: 18px 0;
     cursor: pointer;
-    color: var(--dark);
-    font-family: var(--font-body);
-    font-weight: 600;
-    font-size: 1.05rem;
+    color: var(--ink);
+    font-family: var(--body-ed);
+    font-weight: 500;
+    font-size: 17px;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: color 200ms ease;
   }
-
   .faq summary::-webkit-details-marker { display: none; }
+  .faq summary:hover { color: var(--terracotta); }
 
-  .faq summary:hover {
-    color: var(--accent);
-  }
-
-  .faq summary :global(.faq-icon) {
-    width: 28px;
-    height: 28px;
+  .faq summary .faq-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
     flex-shrink: 0;
     margin-left: 1rem;
-    transition: transform 300ms ease;
-    border-radius: 50%;
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--terracotta);
+    line-height: 1;
+    transition: transform 300ms ease, color 200ms ease;
   }
-
-  .faq details[open] summary :global(.faq-icon) {
+  .faq summary:hover .faq-icon {
+    color: var(--ink);
+  }
+  .faq details[open] summary .faq-icon {
     transform: rotate(45deg);
   }
 
   .faq details p {
-    padding-bottom: 1.2rem;
-    font-family: var(--font-body);
-    font-size: 1rem;
-    color: var(--text-on-light-muted);
-    line-height: 1.7;
+    max-width: 440px;
+    padding-bottom: 18px;
+    font-family: var(--body-ed);
+    font-size: 16px;
+    color: var(--ink-soft);
+    line-height: 1.65;
   }
 
-  /* ---- 4. Waitlist CTA (cream) ---- */
-  .waitlist-cta {
-    padding: 48px 20px 80px;
-    text-align: center;
-  }
-
-  .waitlist-inner {
-    max-width: 500px;
-    margin: 0 auto;
-    padding-right: var(--safe-pr-mobile);
-  }
-
+  /* ---- 4. Waitlist CTA ---- */
   .waitlist-cta h2 {
-    font-family: var(--font-display);
-    font-weight: 800;
-    color: var(--dark);
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    margin-bottom: 12px;
+    font-family: var(--serif);
+    font-weight: 400;
+    color: var(--ink);
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.15;
+    padding-bottom: 0.08em;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+    text-transform: none;
+  }
+  .waitlist-cta h2 em {
+    color: var(--terracotta);
+    font-style: italic;
   }
 
   .waitlist-desc {
-    font-family: var(--font-body);
-    color: var(--dark);
-    font-size: 1rem;
-    line-height: 1.6;
+    font-family: var(--body-ed);
+    font-style: italic;
+    color: var(--ink);
+    font-size: 17px;
+    line-height: 1.5;
     margin-bottom: 28px;
+    max-width: 520px;
+  }
+
+  .waitlist-meta {
+    font-family: var(--body-ed);
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+    margin: 16px 0 0;
+  }
+  .waitlist-meta strong {
+    color: var(--terracotta);
+    font-weight: 600;
   }
 
   .waitlist-form {
     position: relative;
     max-width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
   }
@@ -465,9 +508,7 @@ import faqButton from '../../assets/images/faq-button.webp';
     transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .waitlist-content-layer {
-    width: 100%;
-  }
+  .waitlist-content-layer { width: 100%; }
 
   .waitlist-content-layer.is-hidden {
     opacity: 0;
@@ -484,49 +525,44 @@ import faqButton from '../../assets/images/faq-button.webp';
 
   .waitlist-input {
     flex: 1;
-    padding: 14px 18px;
-    font-size: 1rem;
-    font-family: var(--font-body);
-    background: white;
-    border: 2px solid var(--cream-muted);
-    border-right: none;
-    color: var(--dark);
+    padding: 14px 20px;
+    font-size: 16px;
+    font-family: var(--body-ed);
+    background: var(--paper-2);
+    border: 1.5px solid var(--ink);
+    border-right: 0;
+    color: var(--ink);
     outline: none;
     border-radius: 0;
+    min-width: 0;
   }
-
-  .waitlist-input::placeholder {
-    color: var(--text-on-light-muted);
-  }
-
+  .waitlist-input::placeholder { color: var(--ink-soft); }
   .waitlist-input:focus {
-    border-color: var(--accent);
-    box-shadow: none;
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
   }
 
   .waitlist-btn {
-    padding: 14px 28px;
-    font-family: var(--font-label);
-    font-size: var(--bebas-ui-size);
-    letter-spacing: var(--bebas-ui-tracking);
+    padding: 14px 22px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    background: var(--accent);
-    color: var(--cream);
-    border: 2px solid var(--accent);
+    background: var(--ink);
+    color: var(--paper);
+    border: 1.5px solid var(--ink);
+    border-radius: 0;
     cursor: pointer;
-    transition: background 200ms;
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
     white-space: nowrap;
   }
-
   .waitlist-btn:hover {
-    background: var(--accent-hover);
-    border-color: var(--accent-hover);
+    background: var(--terracotta);
+    border-color: var(--terracotta);
   }
-
   .waitlist-btn:focus-visible {
-    outline: 2px solid var(--dark);
-    outline-offset: 2px;
-    box-shadow: none;
+    outline: 2px solid var(--terracotta);
+    outline-offset: 3px;
   }
 
   /* Big Spinner Layer */
@@ -540,27 +576,34 @@ import faqButton from '../../assets/images/faq-button.webp';
     align-items: center;
     width: 100%;
   }
-
   .waitlist-loading-state.is-visible {
     position: relative;
     opacity: 1;
     transform: scale(1);
     pointer-events: auto;
   }
-
   .waitlist-loading-state.is-hidden {
     position: absolute;
     opacity: 0;
-    transform: scale(1.2); /* Expand away softly when finishing */
+    transform: scale(1.2);
     pointer-events: none;
   }
 
   .big-spinner {
-    animation: waitlistSpin 1.2s cubic-bezier(0.6, 0.1, 0.4, 0.9) infinite;
+    font-family: var(--mono);
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding: 24px 0;
+    animation: waitlistPulse 1.6s ease-in-out infinite;
   }
-
-  @keyframes waitlistSpin {
-    100% { transform: rotate(360deg); }
+  @keyframes waitlistPulse {
+    0%, 100% { opacity: 0.45; }
+    50%      { opacity: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .big-spinner { animation: none; opacity: 0.8; }
   }
 
   /* Success Layer */
@@ -574,13 +617,12 @@ import faqButton from '../../assets/images/faq-button.webp';
     align-items: center;
     width: 100%;
   }
-
   .waitlist-success.is-visible {
     opacity: 1;
     position: relative;
     transform: translateY(0) scale(1);
     pointer-events: auto;
-    transition-delay: 100ms; /* Let the spin expanding finish first slightly */
+    transition-delay: 100ms;
   }
 
   .success-text {
@@ -594,76 +636,41 @@ import faqButton from '../../assets/images/faq-button.webp';
   }
 
   .success-label {
-    font-family: var(--font-label);
-    font-size: var(--bebas-display-size);
-    color: var(--accent);
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: var(--terracotta);
     line-height: 1;
-    letter-spacing: var(--bebas-display-tracking);
-    text-transform: uppercase;
   }
 
   .success-sub {
-    font-family: var(--font-display);
-    font-size: 1.2rem;
-    color: var(--dark);
-    font-weight: 500;
+    font-family: var(--body-ed);
+    font-size: 1.15rem;
+    color: var(--ink);
+    font-style: italic;
     margin-top: 8px;
-    letter-spacing: -0.01em;
-  }
-
-
-  /* ---- Desktop ---- */
-  @media (min-width: 769px) {
-    .tool-hero {
-      padding: 104px 48px 60px;
-    }
-
-    .hero-inner,
-    .content-inner,
-    .faq-inner,
-    .waitlist-inner {
-      padding-right: var(--safe-pr-desktop);
-    }
-
-    .seo-content {
-      padding: 64px 48px;
-    }
-
-    .tool-faq {
-      padding: 48px 48px 64px;
-    }
-
-    .waitlist-cta {
-      padding: 48px 48px 80px;
-    }
   }
 
   /* ---- Mobile ---- */
   @media (max-width: 768px) {
-    .tool-hero {
-      margin-right: 135px;
+    .tool-hero,
+    .seo-content,
+    .tool-faq,
+    .waitlist-cta {
+      padding: 60px 20px;
     }
+    .tool-hero { padding-top: 48px; }
+    .waitlist-cta { padding-bottom: 72px; }
 
-    .waitlist-row {
-      flex-direction: column;
-    }
-
+    .waitlist-row { flex-direction: column; }
     .waitlist-input {
-      border-right: 2px solid var(--cream-muted);
-      border-bottom: none;
-    }
-
-    .waitlist-input:focus {
-      border-color: var(--accent);
-    }
-
-    .waitlist-btn {
-      border-top: 2px solid var(--accent);
+      border-right: 1.5px solid var(--ink);
+      border-bottom: 0;
     }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .back-link,
+    .eyebrow-back,
     .calc-wrapper :global(.calc-btn),
     .waitlist-btn {
       transition: none;

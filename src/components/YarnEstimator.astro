@@ -224,46 +224,56 @@
 </script>
 
 <style>
-  .yarn-estimator fieldset { border: none; }
+  .yarn-estimator fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+  }
 
   .form-group { margin-top: 16px; }
+  .form-group:first-child { margin-top: 0; }
 
   .yarn-estimator label {
     display: block;
-    color: var(--text-on-light-muted);
-    font-size: 0.9rem;
+    font-family: var(--mono);
+    font-size: 11px;
     font-weight: 500;
-    margin-bottom: 6px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin-bottom: 10px;
   }
 
   .yarn-estimator select {
     width: 100%;
     background: transparent;
-    border: 1px solid rgba(46, 42, 38, 0.3);
+    border: 1.5px solid var(--ink);
     border-radius: 0;
     height: 52px;
     padding: 0 18px;
     padding-right: 44px;
     font-size: 16px;
-    color: var(--text-on-light);
-    font-family: var(--font-body);
+    color: var(--ink);
+    font-family: var(--body-ed);
     box-sizing: border-box;
     transition: background-color 300ms ease, box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 300ms ease;
     appearance: none;
     cursor: pointer;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23C45100' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23A05038' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 16px center;
   }
 
   .yarn-estimator select:focus {
     outline: none;
-    border-color: var(--accent);
-    box-shadow: 0 4px 16px var(--accent-soft);
+    background-color: var(--paper-2);
+    border-color: var(--terracotta);
+    box-shadow: 0 4px 16px rgba(160, 80, 56, 0.15);
   }
 
   .yarn-estimator select {
-    scrollbar-color: #C45100 #E8E4D0;
+    scrollbar-color: var(--terracotta) var(--paper);
     scrollbar-width: thin;
   }
 
@@ -272,11 +282,11 @@
   }
 
   .yarn-estimator select::-webkit-scrollbar-track {
-    background: #E8E4D0;
+    background: var(--paper);
   }
 
   .yarn-estimator select::-webkit-scrollbar-thumb {
-    background: #C45100;
+    background: var(--terracotta);
     border-radius: 4px;
   }
 
@@ -284,31 +294,36 @@
     font-weight: 700;
     color: #5C5750;
     font-style: normal;
-    background-color: #E8E4D0;
+    background-color: #F2ECDC;
   }
 
   :global(.yarn-estimator select option) {
     font-weight: 400;
-    color: #2E2A26;
-    background-color: #E8E4D0;
+    color: #2A1E17;
+    background-color: #F2ECDC;
   }
 
+  /* Estimate button — landing hero style (matches cast-on calc-btn) */
   .estimate-btn {
     display: inline-block;
-    margin-top: 24px;
-    background: var(--accent);
-    color: var(--cream);
-    border: 2px solid var(--accent);
-    transition: background-color 200ms, color 200ms, border-color 200ms, transform 100ms !important;
+    margin-top: 28px;
+    padding: 14px 26px;
+    background: var(--ink);
+    color: var(--paper);
+    border: 1.5px solid var(--ink);
+    border-radius: 0;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease !important;
   }
 
   .estimate-btn:hover {
-    background: var(--dark-deep);
-    border-color: var(--dark-deep);
-  }
-
-  .estimate-btn:active {
-    transform: scale(0.96) !important;
+    background: var(--terracotta);
+    border-color: var(--terracotta);
+    color: var(--paper);
   }
 
   /* Result Area — grid-expanding like cast-on calculator */
@@ -344,32 +359,32 @@
 
   :global(.result-number) {
     display: block;
-    font-family: var(--font-label);
+    font-family: var(--mono);
     font-size: clamp(3rem, 6vw, 4.5rem);
-    color: var(--accent);
+    color: var(--terracotta);
     line-height: 1;
     letter-spacing: 0.02em;
   }
 
   :global(.result-label) {
     display: block;
-    font-family: var(--font-body);
+    font-family: var(--body-ed);
     font-size: 1rem;
-    color: var(--dark);
+    color: var(--ink);
     opacity: 0.7;
     margin-top: 4px;
   }
 
   :global(.result-disclaimer) {
-    font-family: var(--font-body);
+    font-family: var(--body-ed);
     font-size: 0.8rem;
-    color: var(--text-on-light-muted);
+    color: var(--ink-soft);
     margin-top: 12px;
     font-style: italic;
   }
 
   .form-error {
-    color: var(--accent);
+    color: var(--terracotta);
     font-size: 0.85rem;
     display: block;
     padding-top: 12px;
