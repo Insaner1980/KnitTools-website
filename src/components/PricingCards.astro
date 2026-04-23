@@ -13,7 +13,7 @@ const freeBullets = [
 
 const proBullets = [
   'Unlimited projects',
-  'Yarn OCR scanner · unlimited stash',
+  'Yarn OCR scanner. Unlimited stash',
   'Progress photos, row-tagged',
   'Insights, streaks, pace-over-time',
   'Home-screen counter widget',
@@ -26,15 +26,17 @@ const proBullets = [
 <section class="pricing-section" aria-labelledby="pricing-heading">
   <div class="inner">
     <header class="section-head">
-      <div class="num">Nº 03</div>
-      <h2 id="pricing-heading" class="title">Pay once. <em>Own it.</em></h2>
-      <div class="kicker">No monthly · No yearly</div>
+      <p class="section-label">
+        <span class="label-num">Nº 03</span>
+        <span class="label-text">Pricing</span>
+      </p>
+      <h2 id="pricing-heading" class="title">Pay once.<br /><em>Own it.</em></h2>
     </header>
 
     <div class="plans">
       <article class="card free">
         <p class="label">§ Free</p>
-        <h3>Forever</h3>
+        <h3>€0 <span class="suffix">forever</span></h3>
         <ol>
           {
             freeBullets.map((b, i) => (
@@ -49,8 +51,10 @@ const proBullets = [
       </article>
 
       <article class="card pro">
+        <span class="badge">Editor's Pick</span>
         <p class="label">§ Pro</p>
         <h3>€8.99 <span class="suffix">one-time</span></h3>
+        <p class="trial">14-day free trial. No credit card required.</p>
         <p class="includes">Everything in Free, plus:</p>
         <ol>
           {
@@ -63,8 +67,7 @@ const proBullets = [
           }
         </ol>
         <p class="footnote">
-          14-day free trial. No credit card. Rises to €11.99 two months after launch — permanently. No subscription,
-          ever.
+          Rises to €11.99 two months after launch. Permanently. No subscription, ever.
         </p>
       </article>
     </div>
@@ -83,20 +86,23 @@ const proBullets = [
   }
 
   .section-head {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    gap: 24px;
-    align-items: end;
     padding-bottom: 18px;
-    border-bottom: 2px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
     margin-bottom: 48px;
   }
-  .section-head .num {
-    font-family: var(--serif);
-    font-size: clamp(2.25rem, 4vw, 3.5rem);
-    line-height: 0.9;
+  .section-head .section-label {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 20px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
     color: var(--terracotta);
-    font-style: italic;
+    margin: 0 0 10px;
+  }
+  .section-head .label-num {
+    color: var(--ink-soft);
   }
   .section-head .title {
     font-family: var(--serif);
@@ -107,15 +113,13 @@ const proBullets = [
     margin: 0;
     color: var(--ink);
   }
-  .section-head .title em { color: var(--terracotta); font-style: italic; }
-  .section-head .kicker {
-    font-family: var(--mono);
-    font-size: 11px;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    padding-bottom: 10px;
-    text-align: right;
+  .section-head .title em {
+    color: var(--terracotta);
+    font-style: italic;
+    font-size: 1.3em;
+    line-height: 1;
+    display: inline-block;
+    margin-top: 6px;
   }
 
   .plans {
@@ -126,33 +130,61 @@ const proBullets = [
   .card {
     border: 1px solid var(--ink);
     padding: 40px;
+    position: relative;
   }
   .card.free {
-    background: var(--paper-2);
-    color: var(--ink);
+    background: var(--wheat);
+    color: #2A1E17;
+    border-color: #2A1E17;
   }
   .card.pro {
-    background: var(--terracotta);
-    color: var(--paper);
-    border-color: var(--terracotta);
+    background: var(--sage);
+    color: #F4EAD9;
+    border: 2px solid #F4EAD9;
   }
-  .label {
+
+  .badge {
+    position: absolute;
+    top: -14px;
+    right: 24px;
+    background: #F4EAD9;
+    color: #2A1E17;
     font-family: var(--mono);
     font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    padding: 7px 14px 6px;
+    border: 1px solid #2A1E17;
+    white-space: nowrap;
+    z-index: 2;
+  }
+
+  .label {
+    font-family: var(--mono);
+    font-size: 12px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     margin: 0 0 16px;
   }
   .free .label { color: var(--walnut); }
-  .pro .label { color: var(--wheat); }
+  .pro .label { color: #F4EAD9; }
 
   .includes {
     font-family: var(--mono);
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--wheat);
+    color: #F4EAD9;
     margin: -8px 0 16px;
+  }
+
+  .pro .trial {
+    font-family: var(--body-ed);
+    font-style: italic;
+    font-size: 14px;
+    color: #F4EAD9;
+    margin: 4px 0 24px;
   }
 
   h3 {
@@ -198,7 +230,7 @@ const proBullets = [
     line-height: 1;
   }
   .free ol li .n { color: var(--terracotta); }
-  .pro ol li .n { color: var(--wheat); }
+  .pro ol li .n { color: #F4EAD9; }
 
   .footnote {
     font-family: var(--body-ed);
@@ -206,15 +238,15 @@ const proBullets = [
     line-height: 1.5;
     margin: 0;
   }
-  .free .footnote { color: var(--ink-soft); }
+  .free .footnote { color: #4A382C; }
   .pro .footnote { color: rgba(244, 234, 217, 0.85); }
 
   @media (max-width: 767px) {
     .pricing-section { padding: 80px 20px; }
-    .section-head { grid-template-columns: 1fr; gap: 8px; }
-    .section-head .kicker { text-align: left; padding-bottom: 0; }
-    .plans { grid-template-columns: 1fr; }
+    .section-head .section-label { gap: 12px; }
+    .plans { grid-template-columns: 1fr; gap: 36px; }
     .card.pro { order: -1; }
     .card { padding: 32px; }
+    .badge { right: 20px; }
   }
 </style>

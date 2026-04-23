@@ -6,7 +6,8 @@ import PageLayout from '../../layouts/PageLayout.astro';
   title="Free Knitting Tools: Calculators & Reference Charts"
   description="Free online knitting calculators and reference charts. Cast on calculator, yarn estimator, needle size chart, yarn weight guide, abbreviations glossary, and body size charts."
   canonicalPath="/tools/"
-  showStripe={true}
+  bodyClass="landing"
+  showStripe={false}
 >
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
@@ -28,7 +29,8 @@ import PageLayout from '../../layouts/PageLayout.astro';
   })} />
 
   <section class="tools-header">
-    <h1>Free knitting tools</h1>
+    <p class="eyebrow">Free tools</p>
+    <h1>Knitting tools, online.</h1>
     <p class="tools-intro">Calculators and reference charts for your knitting projects. No signup, no app required.</p>
   </section>
 
@@ -66,37 +68,50 @@ import PageLayout from '../../layouts/PageLayout.astro';
 
 <style>
   .tools-header {
-    padding-top: 120px;
-    padding-bottom: 48px;
-    padding-left: 48px;
-    padding-right: var(--safe-pr-desktop);
-    max-width: 1200px;
+    background: var(--paper);
+    color: var(--ink);
+    padding: 80px 40px 48px;
+    border-bottom: 1px solid var(--ink);
+    max-width: 1280px;
     margin: 0 auto;
   }
 
+  .tools-header .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 20px;
+  }
+
   .tools-header h1 {
-    font-family: var(--font-display);
-    font-weight: 900;
+    font-family: var(--serif);
+    font-weight: 400;
     font-size: clamp(2.5rem, 5vw, 4rem);
-    color: var(--dark);
-    margin: 0 0 16px;
-    line-height: 1.1;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    text-transform: none;
+    margin: 0 0 20px;
+    padding-bottom: 0.08em;
   }
 
   .tools-intro {
-    font-family: var(--font-body);
+    font-family: var(--body-ed);
     font-weight: 400;
-    color: var(--dark);
-    max-width: 600px;
-    line-height: 1.6;
+    font-size: clamp(17px, 1.5vw, 20px);
+    color: var(--ink);
+    max-width: 560px;
+    line-height: 1.55;
     margin: 0;
   }
 
   .tools-grid-section {
-    padding-bottom: 80px;
-    padding-left: 48px;
-    padding-right: var(--safe-pr-desktop);
-    max-width: 1200px;
+    background: var(--paper);
+    padding: 48px 40px 100px;
+    max-width: 1280px;
     margin: 0 auto;
   }
 
@@ -116,11 +131,11 @@ import PageLayout from '../../layouts/PageLayout.astro';
   .card-bl2 { grid-column: 7 / 10; }
   .card-br2 { grid-column: 10 / 13; }
 
-  .card-terracotta { --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.88); --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 0.94); }
-  .card-rust       { --card-bg: rgb(from var(--stripe-rust) r g b / 0.88);       --card-bg-hover: rgb(from var(--stripe-rust) r g b / 0.94); }
-  .card-sand       { --card-bg: rgb(from var(--stripe-sand) r g b / 0.88);       --card-bg-hover: rgb(from var(--stripe-sand) r g b / 0.94); }
-  .card-teal       { --card-bg: rgb(from var(--stripe-teal) r g b / 0.88);       --card-bg-hover: rgb(from var(--stripe-teal) r g b / 0.94); }
-  .card-brown      { --card-bg: rgb(from var(--stripe-brown) r g b / 0.88);      --card-bg-hover: rgb(from var(--stripe-brown) r g b / 0.94); }
+  .card-terracotta { --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.92); --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 1); }
+  .card-rust       { --card-bg: rgb(from var(--stripe-rust) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-rust) r g b / 1); }
+  .card-sand       { --card-bg: rgb(from var(--stripe-sand) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-sand) r g b / 1); }
+  .card-teal       { --card-bg: rgb(from var(--stripe-teal) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-teal) r g b / 1); }
+  .card-brown      { --card-bg: rgb(from var(--stripe-brown) r g b / 0.92);      --card-bg-hover: rgb(from var(--stripe-brown) r g b / 1); }
 
   .tool-card {
     background-color: var(--card-bg);
@@ -132,14 +147,14 @@ import PageLayout from '../../layouts/PageLayout.astro';
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease, transform 0.3s ease;
   }
 
   /* Top row cards are taller */
   .card-top-left,
   .card-top-right {
-    padding: 36px 32px;
-    min-height: 200px;
+    padding: 40px 32px;
+    min-height: 220px;
   }
 
   .tool-card:hover {
@@ -147,41 +162,41 @@ import PageLayout from '../../layouts/PageLayout.astro';
   }
 
   .tool-card:focus-visible {
-    outline: 2px solid var(--cream);
+    outline: 2px solid var(--ink);
     outline-offset: 2px;
-    background-color: var(--card-bg-hover);
   }
 
   .card-title {
-    font-family: var(--font-label);
+    font-family: var(--serif);
     font-weight: 400;
-    font-size: var(--bebas-card-size);
-    letter-spacing: var(--bebas-card-tracking);
-    color: var(--dark);
-    margin: 0 0 6px;
-    line-height: 1.1;
-    text-transform: uppercase;
+    font-size: clamp(1.15rem, 1.8vw, 1.5rem);
+    color: #2A1E17;
+    margin: 0 0 8px;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    padding-bottom: 0.04em;
+    text-transform: none;
   }
 
   .card-top-left .card-title,
   .card-top-right .card-title {
-    font-size: var(--bebas-display-size);
-    margin-bottom: 10px;
+    font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+    margin-bottom: 12px;
   }
 
   .card-desc {
-    font-family: var(--font-body);
+    font-family: var(--body-ed);
     font-weight: 400;
-    font-size: 0.9rem;
-    color: var(--dark);
+    font-size: 14px;
+    color: #2A1E17;
     line-height: 1.5;
     margin: 0;
-    opacity: 0.75;
+    opacity: 0.82;
   }
 
   .card-top-left .card-desc,
   .card-top-right .card-desc {
-    font-size: 1rem;
+    font-size: 16px;
     max-width: 380px;
   }
 
@@ -200,13 +215,11 @@ import PageLayout from '../../layouts/PageLayout.astro';
 
   @media (max-width: 768px) {
     .tools-header {
-      padding-left: 20px;
-      padding-right: var(--safe-pr-mobile);
+      padding: 60px 20px 36px;
     }
 
     .tools-grid-section {
-      padding-left: 20px;
-      padding-right: var(--safe-pr-mobile);
+      padding: 36px 20px 72px;
     }
 
     .tools-grid {
@@ -229,7 +242,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
 
     .card-top-left .card-title,
     .card-top-right .card-title {
-      font-size: var(--bebas-card-size);
+      font-size: clamp(1.5rem, 6vw, 2rem);
     }
 
     /* No stagger on mobile single column */

@@ -12,7 +12,7 @@ const tools = [
 <section class="free-tools-callout" aria-labelledby="free-tools-heading">
   <div class="inner">
     <p class="eyebrow">Free tools</p>
-    <h2 id="free-tools-heading">Not ready for the app?<br /><em>Try one in your browser.</em></h2>
+    <h2 id="free-tools-heading">Use them right here, no install.</h2>
 
     <ul class="pills">
       {
@@ -36,13 +36,13 @@ const tools = [
     padding: 120px 40px;
   }
   .inner {
-    max-width: 900px;
+    max-width: 1120px;
     margin: 0 auto;
     text-align: center;
   }
   .eyebrow {
     font-family: var(--mono);
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--terracotta);
@@ -70,24 +70,25 @@ const tools = [
   }
   .pill {
     display: inline-block;
-    padding: 10px 20px;
-    border-radius: 999px;
-    border: 2px solid var(--ink);
+    padding: 9px 16px;
+    border-radius: 0;
+    border: 1.5px solid #2A1E17;
+    white-space: nowrap;
     font-family: var(--mono);
     font-size: 12px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--paper);
+    color: #F4EAD9;
     text-decoration: none;
-    transition: transform 0.15s ease;
+    transition: filter 0.15s ease;
   }
-  .pill:hover { transform: translateY(-2px); }
-  .fill-terracotta { background: var(--terracotta); }
+  .pill:hover { filter: brightness(0.88); }
+  .fill-terracotta { background: #A05038; }
   .fill-amber { background: var(--amber); }
-  .fill-wheat { background: var(--wheat); color: var(--ink); }
+  .fill-wheat { background: var(--wheat); color: #2A1E17; }
   .fill-sage { background: var(--sage); }
   .fill-walnut { background: var(--walnut); }
-  .fill-ink { background: var(--ink); }
+  .fill-ink { background: #F4EAD9; color: #2A1E17; }
 
   .see-all {
     display: inline-block;

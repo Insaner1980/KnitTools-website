@@ -2,6 +2,9 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import Hero from '../components/Hero.astro';
 import Marquee from '../components/Marquee.astro';
+import PullQuote from '../components/PullQuote.astro';
+import EditorsNote from '../components/EditorsNote.astro';
+import ArticlesTeaser from '../components/ArticlesTeaser.astro';
 import NineTools from '../components/NineTools.astro';
 import FreeToolsCallout from '../components/FreeToolsCallout.astro';
 import TrustSection from '../components/TrustSection.astro';
@@ -27,7 +30,7 @@ const jsonLd = {
 ---
 
 <PageLayout
-  title="KnitTools — Every Tool a Knitter Needs. One App."
+  title="KnitTools: Every Tool a Knitter Needs. One App."
   description="A private, on-device knitting toolkit for Android. Row counter, pattern viewer, yarn scanner, calculators. Pay once, €8.99. No subscription, no ads, no cloud."
   canonicalPath="/"
   bodyClass="landing"
@@ -39,6 +42,12 @@ const jsonLd = {
   <NineTools />
   <FreeToolsCallout />
   <TrustSection />
+  <PullQuote
+    quote="One tool for every row. One price for every needle. One app for every project."
+    attribution="Vol. 01, No. 02"
+  />
   <PricingCards />
+  <EditorsNote />
+  <ArticlesTeaser />
   <ClosingCTA />
 </PageLayout>

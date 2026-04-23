@@ -1,10 +1,10 @@
 ---
 ---
 
-<section class="closing-cta dot-grid-paper" aria-labelledby="closing-heading">
+<section class="closing-cta" aria-labelledby="closing-heading">
   <div class="inner">
     <p class="eyebrow">Be there at launch</p>
-    <h2 id="closing-heading">Where every<br />stitch <em>counts.</em></h2>
+    <h2 id="closing-heading">Where every stitch<br /><em>counts.</em></h2>
 
     <form class="signup" id="join" action="#" method="post">
       <label for="closing-email" class="visually-hidden">Email address</label>
@@ -23,7 +23,7 @@
       </p>
     </form>
 
-    <p class="meta">Free at launch · Pro €8.99 → €11.99 after two months · No card required</p>
+    <p class="meta">Free tier from day one. No card required.</p>
   </div>
 </section>
 
@@ -57,7 +57,7 @@
   }
   .eyebrow {
     font-family: var(--mono);
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--terracotta);
@@ -72,7 +72,14 @@
     margin: 0 0 48px;
     color: var(--ink);
   }
-  h2 em { color: var(--terracotta); font-style: italic; }
+  h2 em {
+    color: var(--terracotta);
+    font-style: italic;
+    font-size: 1.3em;
+    line-height: 1;
+    display: inline-block;
+    margin-top: 6px;
+  }
 
   .signup { max-width: 520px; margin: 0 auto; }
   .signup-row {
@@ -87,24 +94,27 @@
     border: 1.5px solid var(--ink);
     background: var(--paper-2);
     color: var(--ink);
-    border-radius: 999px;
+    border-radius: 0;
     min-width: 0;
   }
-  .signup input:focus { outline: 2px solid var(--amber); outline-offset: 2px; }
+  .signup input:focus { outline: 2px solid var(--terracotta); outline-offset: 2px; }
   .btn-primary {
     font-family: var(--mono);
     font-size: 12px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    background: var(--amber);
+    background: var(--ink);
     color: var(--paper);
-    border: 2px solid var(--ink);
+    border: 1.5px solid var(--ink);
     padding: 14px 22px;
-    border-radius: 999px;
+    border-radius: 0;
     cursor: pointer;
-    transition: transform 0.15s ease, background 0.15s ease;
+    transition: background 0.15s ease, border-color 0.15s ease;
   }
-  .btn-primary:hover { background: var(--amber-hover); transform: scale(1.02); }
+  .btn-primary:hover {
+    background: var(--terracotta);
+    border-color: var(--terracotta);
+  }
   .signup-success {
     display: none;
     font-family: var(--serif);

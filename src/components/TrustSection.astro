@@ -11,7 +11,7 @@ const columns = [
     eyebrow: 'Privacy',
     lead: 'No tracking.',
     italic: 'No ads.',
-    body: 'Your stash, your patterns, your pace. All on your device, none of it sold to anyone.',
+    body: 'Your stash, your patterns, your pace. No account needed, nothing sold, nothing tracked.',
     tint: 'sage',
   },
   {
@@ -26,9 +26,11 @@ const columns = [
 <section class="trust-triad" aria-labelledby="trust-heading">
   <div class="inner">
     <header class="section-head">
-      <div class="num">Nº 02</div>
-      <h2 id="trust-heading" class="title">What you can <em>count on.</em></h2>
-      <div class="kicker">No subscription · No tracking · No language barrier</div>
+      <p class="section-label">
+        <span class="label-num">Nº 02</span>
+        <span class="label-text">Principles</span>
+      </p>
+      <h2 id="trust-heading" class="title">What you can<br /><em>count on.</em></h2>
     </header>
 
     <div class="cols">
@@ -61,20 +63,23 @@ const columns = [
     margin: 0 auto;
   }
   .section-head {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    gap: 24px;
-    align-items: end;
     padding-bottom: 18px;
-    border-bottom: 2px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
     margin-bottom: 48px;
   }
-  .section-head .num {
-    font-family: var(--serif);
-    font-size: clamp(2.25rem, 4vw, 3.5rem);
-    line-height: 0.9;
+  .section-head .section-label {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 20px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
     color: var(--terracotta);
-    font-style: italic;
+    margin: 0 0 10px;
+  }
+  .section-head .label-num {
+    color: var(--ink-soft);
   }
   .section-head .title {
     font-family: var(--serif);
@@ -85,15 +90,13 @@ const columns = [
     margin: 0;
     color: var(--ink);
   }
-  .section-head .title em { color: var(--terracotta); font-style: italic; }
-  .section-head .kicker {
-    font-family: var(--mono);
-    font-size: 11px;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    padding-bottom: 10px;
-    text-align: right;
+  .section-head .title em {
+    color: var(--terracotta);
+    font-style: italic;
+    font-size: 1.3em;
+    line-height: 1;
+    display: inline-block;
+    margin-top: 6px;
   }
   .cols {
     display: grid;
@@ -101,25 +104,26 @@ const columns = [
     gap: 20px;
   }
   .trust-col {
-    background: var(--paper-2);
-    border: 1px solid var(--ink);
+    background: var(--wheat);
+    color: #2A1E17;
+    border: 1px solid #2A1E17;
     padding: 36px 32px;
   }
   .trust-col.tint-sage {
     background: var(--sage);
-    color: var(--paper);
+    color: #F4EAD9;
   }
-  .trust-col.tint-sage .eyebrow { color: var(--paper); opacity: 0.85; }
-  .trust-col.tint-sage h3 { color: var(--paper); }
-  .trust-col.tint-sage h3 em { color: var(--paper); }
+  .trust-col.tint-sage .eyebrow { color: #F4EAD9; opacity: 0.85; }
+  .trust-col.tint-sage h3 { color: #F4EAD9; }
+  .trust-col.tint-sage h3 em { color: #F4EAD9; }
   .trust-col.tint-sage .body { color: rgba(244, 234, 217, 0.9); }
 
   .eyebrow {
     font-family: var(--mono);
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--sage);
+    color: #2A1E17;
     margin: 0 0 18px;
   }
   h3 {
@@ -129,17 +133,21 @@ const columns = [
     line-height: 1;
     letter-spacing: -0.01em;
     margin: 0 0 20px;
-    color: var(--ink);
+    color: #2A1E17;
   }
   h3 em {
-    color: var(--sage);
+    color: #2A1E17;
     font-style: italic;
+    font-size: 1.3em;
+    line-height: 1;
+    display: inline-block;
+    margin-top: 6px;
   }
   .body {
     font-family: var(--body-ed);
     font-size: 15px;
     line-height: 1.6;
-    color: var(--ink-soft);
+    color: #4A382C;
     margin: 0;
   }
 
@@ -147,8 +155,7 @@ const columns = [
     .cols { grid-template-columns: 1fr; }
   }
   @media (max-width: 767px) {
-    .section-head { grid-template-columns: 1fr; gap: 8px; }
-    .section-head .kicker { text-align: left; padding-bottom: 0; }
+    .section-head .section-label { gap: 12px; }
   }
   @media (max-width: 640px) {
     .trust-triad { padding: 80px 20px; }

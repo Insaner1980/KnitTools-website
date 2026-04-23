@@ -1,16 +1,16 @@
 ---
 const languages = [
   'English',
-  'Finnish',
-  'Danish',
-  'Dutch',
-  'French',
-  'German',
-  'Italian',
-  'Norwegian',
-  'Portuguese',
-  'Spanish',
-  'Swedish',
+  'Suomi',
+  'Svenska',
+  'Dansk',
+  'Norsk',
+  'Nederlands',
+  'Deutsch',
+  'Français',
+  'Italiano',
+  'Português',
+  'Español',
 ];
 
 const cards = [
@@ -21,6 +21,7 @@ const cards = [
     body:
       'A big round button where your thumb already is. Tap without looking. Miscount? Undo. Say "add three" or "next row" without putting your needles down.',
     chips: true,
+    span: 2,
   },
   {
     tag: '§ Pattern',
@@ -28,6 +29,7 @@ const cards = [
     title: 'Pattern viewer that follows along',
     body:
       'PDF or Ravelry pull-in. Annotate rows, mark your place, find your way back when life interrupts.',
+    tint: 'amber',
   },
   {
     tag: '§ Calc',
@@ -57,6 +59,7 @@ const cards = [
     body:
       'Point the camera at the ball band. AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo. That mystery skein finally has a name.',
     tint: 'sage',
+    span: 2,
   },
   {
     tag: '§ Photos',
@@ -77,8 +80,12 @@ const cards = [
     title: 'A widget on your home screen',
     body:
       'Tap to count. No app launch, no loading. The exact amount of friction a row counter should have, which is zero.',
+    tint: 'terracotta',
   },
 ];
+
+const freeCards = cards.filter((c) => c.tier === 'free');
+const proCards = cards.filter((c) => c.tier === 'pro');
 
 const aiFeatures = [
   {
@@ -94,7 +101,7 @@ const aiFeatures = [
   {
     n: 'iii',
     t: 'Stash and project memory',
-    d: 'Scan a yarn label — fiber, weight, meters, dye lot filed automatically. Ask for a project summary and the AI picks up where you left off, yarn compatibility and all.',
+    d: 'Scan a yarn label. Fiber, weight, meters, dye lot filed automatically. Ask for a project summary and the AI picks up where you left off, yarn compatibility and all.',
   },
   {
     n: 'iv',
@@ -107,20 +114,25 @@ const aiFeatures = [
 <section class="nine-tools" aria-labelledby="nine-heading">
   <div class="nine-inner">
     <header class="section-head">
-      <div class="num">Nº 01</div>
+      <p class="section-label">
+        <span class="label-num">Nº 01</span>
+        <span class="label-text">Features</span>
+      </p>
       <h2 id="nine-heading" class="title">Every tool,<br /><em>talking to each other.</em></h2>
-      <div class="kicker">Free core · Pro unlocks</div>
     </header>
+
+    <div class="tier-head" aria-hidden="true">
+      <span class="tier-label">Free forever</span>
+      <span class="tier-count">{freeCards.length} tools</span>
+      <span class="tier-line"></span>
+    </div>
 
     <div class="nine-grid">
       {
-        cards.map((c) => (
-          <article class:list={['tool-card', c.tint && `tint-${c.tint}`]}>
+        freeCards.map((c) => (
+          <article class:list={['tool-card', c.tint && `tint-${c.tint}`, c.span === 2 && 'span-2']}>
             <div class="card-meta">
               <span class="tag">{c.tag}</span>
-              <span class:list={['pill', `pill-${c.tier}`]}>
-                {c.tier === 'pro' ? 'PRO' : 'FREE'}
-              </span>
             </div>
             <h3>{c.title}</h3>
             <p>{c.body}</p>
@@ -134,20 +146,69 @@ const aiFeatures = [
           </article>
         ))
       }
+    </div>
 
-      <article class="tool-card tint-ink wide ai-card">
+    <div class="tier-head tier-head-pro" aria-hidden="true">
+      <span class="tier-label">Pro €8.99</span>
+      <span class="tier-count">{proCards.length} tools + AI</span>
+      <span class="tier-line"></span>
+    </div>
+
+    <div class="nine-grid">
+      {
+        proCards.slice(0, 2).map((c) => (
+          <article class:list={['tool-card', c.tint && `tint-${c.tint}`, c.span === 2 && 'span-2']}>
+            <div class="card-meta">
+              <span class="tag">{c.tag}</span>
+            </div>
+            <h3>{c.title}</h3>
+            <p>{c.body}</p>
+          </article>
+        ))
+      }
+    </div>
+
+    <div class="nine-grid nine-grid-halves">
+      {
+        proCards.slice(2).map((c) => (
+          <article class:list={['tool-card', c.tint && `tint-${c.tint}`]}>
+            <div class="card-meta">
+              <span class="tag">{c.tag}</span>
+            </div>
+            <h3>{c.title}</h3>
+            <p>{c.body}</p>
+          </article>
+        ))
+      }
+    </div>
+
+    <div class="nine-grid">
+      <article class="tool-card tint-sage wide ai-card">
         <div class="card-meta">
           <span class="tag">§ AI</span>
-          <span class="pill pill-pro">PRO</span>
         </div>
         <div class="ai-grid">
           <div class="ai-intro">
-            <h3>AI that <em>knows knitting.</em></h3>
-            <p>
-              Voice that listens, eyes that read, memory that connects the dots across your projects. In all eleven
-              languages.
-            </p>
-            <p class="mic">🎙 Listening…</p>
+            <div class="intro-text">
+              <h3>AI that <em>knows knitting</em></h3>
+              <p>
+                Voice that listens, eyes that read, memory that connects the dots across your projects. In all eleven
+                languages.
+              </p>
+            </div>
+            <div class="mic-area" aria-hidden="true">
+              <div class="mic-stack">
+                <span class="mic-ring"></span>
+                <span class="mic-ring"></span>
+                <span class="mic-ring"></span>
+                <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="9" y="2" width="6" height="12" rx="3" />
+                  <path d="M5 10a7 7 0 0 0 14 0" />
+                  <line x1="12" y1="19" x2="12" y2="22" />
+                </svg>
+              </div>
+              <span class="bc-status">Listening</span>
+            </div>
           </div>
 
           <ol class="ai-list">
@@ -163,33 +224,27 @@ const aiFeatures = [
               ))
             }
           </ol>
+        </div>
 
-          <div class="ai-vignette" aria-hidden="true">
-            <div class="vignette-head">
-              <span class="cap">Transcript · Live</span>
-              <span class="tick">Row 85</span>
+        <div class="ai-broadcast" aria-hidden="true">
+          <div class="bc-center">
+            <div class="big-wave" id="ai-waveform" aria-hidden="true"></div>
+          </div>
+
+          <div class="bc-right">
+            <div class="bc-meta">
+              <span class="bc-live"><span class="bc-dot"></span>Transcript · Live</span>
+              <span class="bc-row">Row 85</span>
             </div>
-            <div class="vignette-line you">
-              <span class="av">You</span>
-              <span class="msg">"Next row."</span>
-              <span class="wave" aria-hidden="true">
-                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-              </span>
-            </div>
-            <div class="vignette-line ai">
-              <span class="av">AI</span>
-              <span class="msg">Row 85. Two more before your sleeve increase.</span>
-            </div>
-            <div class="vignette-line you">
-              <span class="av">You</span>
-              <span class="msg">"What's sl1 k2tog psso?"</span>
-              <span class="wave" aria-hidden="true">
-                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-              </span>
-            </div>
-            <div class="vignette-line ai">
-              <span class="av">AI</span>
-              <span class="msg">Slip one, knit two together, pass the slipped stitch over. <em>Left-leaning double decrease.</em></span>
+            <div class="bc-dialogue">
+              <div class="bc-line you">
+                <span class="av">You</span>
+                <span class="msg" data-msg="you">&nbsp;</span>
+              </div>
+              <div class="bc-line ai">
+                <span class="av">AI</span>
+                <span class="msg" data-msg="ai">&nbsp;</span>
+              </div>
             </div>
           </div>
         </div>
@@ -211,20 +266,23 @@ const aiFeatures = [
   }
 
   .section-head {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    gap: 24px;
-    align-items: end;
     padding-bottom: 18px;
-    border-bottom: 2px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
     margin-bottom: 48px;
   }
-  .section-head .num {
-    font-family: var(--serif);
-    font-size: clamp(2.25rem, 4vw, 3.5rem);
-    line-height: 0.9;
+  .section-head .section-label {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 20px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
     color: var(--terracotta);
-    font-style: italic;
+    margin: 0 0 10px;
+  }
+  .section-head .label-num {
+    color: var(--ink-soft);
   }
   .section-head .title {
     font-family: var(--serif);
@@ -235,27 +293,43 @@ const aiFeatures = [
     margin: 0;
     color: var(--ink);
   }
-  .section-head .title em { color: var(--terracotta); font-style: italic; }
-  .section-head .kicker {
+  .section-head .title em {
+    color: var(--terracotta);
+    font-style: italic;
+    font-size: 1.3em;
+    line-height: 1;
+    display: inline-block;
+    margin-top: 6px;
+  }
+
+  .tier-head {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 24px;
     font-family: var(--mono);
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: var(--ink-soft);
-    padding-bottom: 10px;
-    text-align: right;
   }
+  .tier-head-pro { margin-top: 64px; }
+  .tier-head .tier-label { color: var(--terracotta); white-space: nowrap; }
+  .tier-head .tier-count { color: var(--ink-soft); white-space: nowrap; }
+  .tier-head .tier-line { flex: 1; height: 1px; background: var(--ink); opacity: 0.4; }
 
   .nine-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+  .nine-grid + .nine-grid { margin-top: 20px; }
+  .nine-grid-halves { grid-template-columns: repeat(2, 1fr); }
+  .nine-grid + .tier-head-pro { margin-top: 48px; }
 
   .tool-card {
-    background: var(--paper-2);
-    color: var(--ink);
-    border: 1px solid var(--ink);
+    background: var(--wheat);
+    color: #2A1E17;
+    border: 1px solid #2A1E17;
     padding: 28px 28px 32px;
     display: flex;
     flex-direction: column;
@@ -263,33 +337,47 @@ const aiFeatures = [
     border-radius: 0;
   }
   .tool-card.wide { grid-column: 1 / -1; }
+  .tool-card.span-2 { grid-column: span 2; }
 
   .tool-card.tint-sage {
     background: var(--sage);
-    color: var(--paper);
+    color: #F4EAD9;
     border-color: var(--sage);
   }
-  .tool-card.tint-sage h3,
-  .tool-card.tint-sage .tag { color: var(--paper); }
+  .tool-card.tint-sage h3 { color: #F4EAD9; }
   .tool-card.tint-sage p { color: rgba(244, 234, 217, 0.9); }
 
   .tool-card.tint-walnut {
     background: var(--walnut);
-    color: var(--paper);
+    color: #F4EAD9;
     border-color: var(--walnut);
   }
-  .tool-card.tint-walnut h3,
-  .tool-card.tint-walnut .tag { color: var(--paper); }
+  .tool-card.tint-walnut h3 { color: #F4EAD9; }
   .tool-card.tint-walnut p { color: rgba(244, 234, 217, 0.88); }
+
+  .tool-card.tint-amber {
+    background: var(--amber);
+    color: #F4EAD9;
+    border-color: var(--amber);
+  }
+  .tool-card.tint-amber h3 { color: #F4EAD9; }
+  .tool-card.tint-amber p { color: rgba(244, 234, 217, 0.92); }
+
+  .tool-card.tint-terracotta {
+    background: #A05038;
+    color: #F4EAD9;
+    border-color: #A05038;
+  }
+  .tool-card.tint-terracotta h3 { color: #F4EAD9; }
+  .tool-card.tint-terracotta p { color: rgba(244, 234, 217, 0.92); }
 
   .tool-card.tint-ink {
     background: var(--ink);
     color: var(--paper);
     border-color: var(--ink);
   }
-  .tool-card.tint-ink h3,
-  .tool-card.tint-ink .tag { color: var(--paper); }
-  .tool-card.tint-ink p { color: rgba(244, 234, 217, 0.85); }
+  .tool-card.tint-ink h3 { color: var(--paper); }
+  .tool-card.tint-ink p { color: var(--paper); opacity: 0.85; }
 
   .card-meta {
     display: flex;
@@ -301,7 +389,7 @@ const aiFeatures = [
     font-size: 10px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--walnut);
+    color: #2A1E17;
   }
   .pill {
     font-family: var(--mono);
@@ -336,13 +424,13 @@ const aiFeatures = [
     line-height: 1.05;
     letter-spacing: -0.01em;
     margin: 0;
-    color: var(--ink);
+    color: #2A1E17;
   }
   .tool-card p {
     font-family: var(--body-ed);
     font-size: 15px;
     line-height: 1.55;
-    color: var(--ink);
+    color: #2A1E17;
     margin: 0;
   }
 
@@ -359,8 +447,8 @@ const aiFeatures = [
     font-size: 11px;
     color: var(--ink);
     background: var(--paper);
-    border: 1px solid var(--ink);
-    padding: 3px 10px;
+    border: 0;
+    padding: 4px 11px;
     border-radius: 999px;
   }
 
@@ -370,26 +458,28 @@ const aiFeatures = [
     position: relative;
     overflow: hidden;
   }
-  .ai-card::before {
-    content: "";
-    position: absolute;
-    right: -120px;
-    top: -80px;
-    width: 360px;
-    height: 360px;
-    border-radius: 50%;
-    background: radial-gradient(circle, var(--terracotta) 0 45%, transparent 70%);
-    opacity: 0.3;
-    pointer-events: none;
-  }
   .ai-grid {
     display: grid;
-    grid-template-columns: 1.1fr 1fr 1fr;
-    gap: 40px;
-    align-items: start;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 48px;
+    align-items: stretch;
     margin-top: 14px;
     position: relative;
     z-index: 1;
+  }
+  .ai-intro {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  .mic-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 24px 0;
   }
   .ai-intro h3 {
     font-family: var(--serif);
@@ -398,31 +488,42 @@ const aiFeatures = [
     line-height: 1;
     letter-spacing: -0.01em;
     margin: 0 0 14px;
-    color: var(--paper);
+    color: #F4EAD9;
   }
   .ai-intro h3 em {
-    color: var(--wheat);
+    color: #F4EAD9;
     font-style: italic;
   }
   .ai-intro p {
     font-family: var(--body-ed);
     font-size: 15px;
     line-height: 1.6;
-    color: rgba(244, 234, 217, 0.85);
+    color: rgba(244, 234, 217, 0.88);
     margin: 0 0 22px;
     max-width: 360px;
   }
-  @keyframes wave {
-    0%, 100% { transform: scaleY(0.5); }
-    50% { transform: scaleY(1.15); }
+  @keyframes wave-a {
+    0%, 100% { transform: scaleY(0.22); }
+    50%      { transform: scaleY(1.2); }
   }
-  .ai-intro .mic {
-    font-family: var(--mono);
-    font-size: 10px;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--wheat);
-    margin: 0;
+  @keyframes wave-b {
+    0%, 100% { transform: scaleY(0.3); }
+    32%      { transform: scaleY(0.65); }
+    58%      { transform: scaleY(1.15); }
+    82%      { transform: scaleY(0.4); }
+  }
+  @keyframes wave-c {
+    0%, 100% { transform: scaleY(0.18); }
+    22%      { transform: scaleY(1.05); }
+    44%      { transform: scaleY(0.32); }
+    70%      { transform: scaleY(1.35); }
+    88%      { transform: scaleY(0.55); }
+  }
+  @keyframes wave-d {
+    0%, 100% { transform: scaleY(0.42); }
+    18%      { transform: scaleY(0.85); }
+    48%      { transform: scaleY(0.28); }
+    76%      { transform: scaleY(1.22); }
   }
 
   .ai-list {
@@ -447,115 +548,285 @@ const aiFeatures = [
     font-family: var(--serif);
     font-style: italic;
     font-size: 22px;
-    color: var(--wheat);
+    color: #F4EAD9;
     line-height: 1;
   }
   .ai-list .t {
     font-family: var(--serif);
     font-size: 17px;
     line-height: 1.2;
-    color: var(--paper);
+    color: #F4EAD9;
     margin-bottom: 4px;
   }
   .ai-list .d {
     font-family: var(--body-ed);
     font-size: 13px;
     line-height: 1.5;
-    color: rgba(244, 234, 217, 0.75);
+    color: rgba(244, 234, 217, 0.78);
   }
 
-  .ai-vignette {
-    background: var(--wheat);
-    color: var(--ink);
-    border: 1.5px solid var(--ink);
-    border-radius: 0;
-    padding: 20px 22px;
+  /* ---------- AI broadcast strip ---------- */
+  .ai-broadcast {
+    margin: 40px 0 0;
+    padding: 0;
+    background: transparent;
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    column-gap: 44px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .mic-stack {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F4EAD9;
+  }
+  .mic-icon {
+    width: 34px;
+    height: 34px;
+    position: relative;
+    z-index: 2;
+  }
+  .mic-ring {
+    position: absolute;
+    inset: 0;
+    border: 1.5px solid #F4EAD9;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(1);
+    animation: sonar 2.6s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+  }
+  .mic-ring:nth-child(1) { animation-delay: 0s; }
+  .mic-ring:nth-child(2) { animation-delay: 0.85s; }
+  .mic-ring:nth-child(3) { animation-delay: 1.7s; }
+  @keyframes sonar {
+    0%   { transform: scale(1);    opacity: 0.7; }
+    80%  { opacity: 0; }
+    100% { transform: scale(2.6);  opacity: 0; }
+  }
+  .bc-status {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: #F4EAD9;
+    opacity: 0.82;
+  }
+
+  .big-wave {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    height: 140px;
+    width: 100%;
+  }
+  .big-wave :global(span) {
+    display: block;
+    flex: 1 1 0;
+    min-width: 2px;
+    background: #F4EAD9;
+    border-radius: 2px;
+    transform-origin: center;
+    animation-name: wave-a;
+    animation-duration: var(--wave-dur, 1.1s);
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: var(--wave-delay, 0s);
+  }
+  .big-wave :global(span.v-b) { animation-name: wave-b; }
+  .big-wave :global(span.v-c) { animation-name: wave-c; }
+  .big-wave :global(span.v-d) { animation-name: wave-d; }
+
+  .bc-right {
+    min-width: 0;
     display: flex;
     flex-direction: column;
-    gap: 0;
-    position: relative;
+    gap: 14px;
   }
-  .vignette-head {
+  .bc-meta {
     display: flex;
     justify-content: space-between;
-    font-family: var(--mono);
-    font-size: 10px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--ink);
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--ink);
-    margin-bottom: 12px;
-  }
-  .vignette-head .tick { opacity: 0.7; }
-
-  .vignette-line {
-    display: grid;
-    grid-template-columns: 42px 1fr auto;
-    gap: 12px;
     align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(42, 30, 23, 0.2);
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #F4EAD9;
   }
-  .vignette-line:last-child { border-bottom: 0; }
+  .bc-live { display: inline-flex; align-items: center; gap: 8px; }
+  .bc-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--terracotta);
+    box-shadow: 0 0 0 0 rgba(194, 112, 62, 0.7);
+    animation: dotPulse 1.6s ease-out infinite;
+  }
+  @keyframes dotPulse {
+    0%   { box-shadow: 0 0 0 0 rgba(194, 112, 62, 0.7); }
+    70%  { box-shadow: 0 0 0 10px rgba(194, 112, 62, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(194, 112, 62, 0); }
+  }
+  .bc-row { opacity: 0.7; }
 
-  .vignette-line .av {
+  .bc-dialogue {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 90px;
+  }
+  .bc-line {
+    display: grid;
+    grid-template-columns: 38px 1fr;
+    gap: 10px;
+    align-items: baseline;
+  }
+  .bc-line .av {
     font-family: var(--mono);
     font-size: 10px;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
   }
-  .vignette-line.you .av { color: var(--terracotta); }
-  .vignette-line.ai .av { color: var(--walnut); }
-
-  .vignette-line .msg {
+  .bc-line.you .av { color: #F4EAD9; }
+  .bc-line.ai  .av { color: #F4EAD9; opacity: 0.7; }
+  .bc-line .msg {
     font-family: var(--serif);
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.35;
-    color: var(--ink);
+    color: #F4EAD9;
+    min-height: 1.35em;
   }
-  .vignette-line.you .msg { font-style: italic; }
-  .vignette-line.ai .msg em { color: var(--terracotta); font-style: italic; }
+  .bc-line.you .msg { font-style: italic; }
+  .bc-line .msg::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    margin-left: 3px;
+    background: #F4EAD9;
+    transform: translateY(2px);
+    animation: caret 0.9s steps(2) infinite;
+    opacity: 0;
+  }
+  .bc-line .msg.typing::after { opacity: 1; }
+  @keyframes caret {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
 
-  .vignette-line .wave {
-    display: inline-flex;
-    align-items: flex-end;
-    gap: 3px;
-    height: 40px;
-  }
-  .vignette-line .wave span {
-    width: 4px;
-    background: var(--terracotta);
-    border-radius: 1px;
-    animation: wave 1.2s ease-in-out infinite;
-    transform-origin: bottom;
-  }
-  .vignette-line .wave span:nth-child(1) { height: 40%; animation-delay: 0s; }
-  .vignette-line .wave span:nth-child(2) { height: 75%; animation-delay: 0.08s; }
-  .vignette-line .wave span:nth-child(3) { height: 55%; animation-delay: 0.16s; }
-  .vignette-line .wave span:nth-child(4) { height: 95%; animation-delay: 0.24s; }
-  .vignette-line .wave span:nth-child(5) { height: 65%; animation-delay: 0.32s; }
-  .vignette-line .wave span:nth-child(6) { height: 85%; animation-delay: 0.40s; }
-  .vignette-line .wave span:nth-child(7) { height: 50%; animation-delay: 0.48s; }
-  .vignette-line .wave span:nth-child(8) { height: 70%; animation-delay: 0.56s; }
-  .vignette-line .wave span:nth-child(9) { height: 35%; animation-delay: 0.64s; }
   @media (prefers-reduced-motion: reduce) {
-    .vignette-line .wave span { animation: none; transform: scaleY(1); }
+    .big-wave :global(span),
+    .mic-ring,
+    .bc-dot,
+    .bc-line .msg::after {
+      animation: none;
+    }
+    .big-wave :global(span) { transform: scaleY(0.8); }
   }
 
   @media (max-width: 1024px) {
     .nine-grid { grid-template-columns: repeat(2, 1fr); }
     .tool-card.wide { grid-column: 1 / -1; }
+    .tool-card.span-2 { grid-column: 1 / -1; }
     .ai-grid { grid-template-columns: 1fr 1fr; }
-    .ai-vignette { grid-column: 1 / -1; }
+    .ai-broadcast { column-gap: 32px; }
   }
   @media (max-width: 767px) {
     .nine-tools { padding: 80px 20px; }
-    .section-head { grid-template-columns: 1fr; gap: 8px; }
-    .section-head .kicker { text-align: left; padding-bottom: 0; }
+    .section-head .section-label { gap: 12px; }
     .nine-grid { grid-template-columns: 1fr; }
+    .tool-card.span-2 { grid-column: auto; }
     .tool-card { padding: 24px 22px 28px; }
     .ai-card { padding: 28px 24px; }
     .ai-grid { grid-template-columns: 1fr; gap: 28px; }
+    .mic-area { padding: 12px 0; }
+    .ai-broadcast {
+      margin-top: 28px;
+      grid-template-columns: 1fr;
+      row-gap: 22px;
+    }
+    .big-wave  { height: 80px; }
   }
 </style>
+
+<script is:inline>
+  (() => {
+    const wave = document.getElementById('ai-waveform');
+    if (wave) {
+      const bars = 44;
+      const variants = ['', 'v-b', 'v-c', 'v-d'];
+      for (let i = 0; i < bars; i++) {
+        const bar = document.createElement('span');
+        const h = 18 + Math.round(Math.random() * 82);
+        const dur = (0.7 + Math.random() * 1.6).toFixed(2);
+        const delay = (Math.random() * 1.8).toFixed(2);
+        const v = variants[Math.floor(Math.random() * variants.length)];
+        bar.style.height = h + '%';
+        bar.style.setProperty('--wave-dur', dur + 's');
+        bar.style.setProperty('--wave-delay', delay + 's');
+        if (v) bar.className = v;
+        wave.appendChild(bar);
+      }
+    }
+
+    const pairs = [
+      { you: '"Next row."', ai: 'Row 85. Two more before your sleeve increase.' },
+      { you: '"What\'s sl1 k2tog psso?"', ai: 'Slip one, knit two together, pass the slipped stitch over.' },
+      { you: '"Set row to 100."', ai: 'Counter set to 100. You are halfway through the yoke.' },
+    ];
+
+    const youEl = document.querySelector('[data-msg="you"]');
+    const aiEl  = document.querySelector('[data-msg="ai"]');
+    if (!youEl || !aiEl) return;
+
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+    async function typeInto(el, text) {
+      el.classList.add('typing');
+      el.textContent = '';
+      for (let i = 0; i < text.length; i++) {
+        el.textContent += text[i];
+        await sleep(22 + Math.random() * 24);
+      }
+      el.classList.remove('typing');
+    }
+
+    async function loop() {
+      let idx = 0;
+      if (prefersReduced) {
+        youEl.textContent = pairs[0].you;
+        aiEl.textContent  = pairs[0].ai;
+        return;
+      }
+      while (true) {
+        const p = pairs[idx];
+        youEl.textContent = ' ';
+        aiEl.textContent  = ' ';
+        await sleep(400);
+        await typeInto(youEl, p.you);
+        await sleep(700);
+        await typeInto(aiEl, p.ai);
+        await sleep(3200);
+        idx = (idx + 1) % pairs.length;
+      }
+    }
+
+    const io = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          loop();
+          observer.disconnect();
+        }
+      });
+    }, { threshold: 0.25 });
+    io.observe(document.querySelector('.ai-broadcast'));
+  })();
+</script>

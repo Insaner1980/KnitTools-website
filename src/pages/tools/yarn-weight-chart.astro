@@ -1,7 +1,5 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
-import { Image } from 'astro:assets';
-import faqButton from '../../assets/images/faq-button.webp';
 
 interface YarnWeightCategory {
   cyc: number;
@@ -139,7 +137,8 @@ const faqs = [
   title="Yarn Weight Chart: All 8 Categories with Gauge, Needle Size & WPI"
   description="Complete yarn weight chart from lace to jumbo. Find gauge ranges, recommended needles, WPI values, and typical projects for each yarn weight category."
   canonicalPath="/tools/yarn-weight-chart"
-  showStripe={true}
+  bodyClass="landing"
+  showStripe={false}
 >
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
@@ -169,7 +168,9 @@ const faqs = [
   <!-- 1. Tool hero -->
   <section class="tool-hero">
     <div class="hero-inner">
-      <a href="/tools/" class="back-link reveal reveal-left">&larr; All tools</a>
+      <p class="eyebrow">
+        <a href="/tools/" class="eyebrow-back">← All tools</a>
+      </p>
       <h1 class="gs-h1" aria-label="Yarn Weight Chart"><span class="h1-chars">Yarn Weight Chart</span></h1>
       <p class="hero-intro gs-hero">Eight categories, every gauge range, needle size, and WPI value. Tap any category to expand.</p>
 
@@ -179,7 +180,7 @@ const faqs = [
             <summary class="cat-summary">
               <span class="cat-heading">
                 <span class="cat-num">{cat.cyc}</span>
-                <span class="cat-name">&mdash; {cat.name}</span>
+                <span class="cat-name">{cat.name}</span>
               </span>
               <span class="cat-regional">{cat.regional}</span>
               <span class="cat-toggle" aria-hidden="true">+</span>
@@ -315,7 +316,7 @@ const faqs = [
       <div class="faq">
         {faqs.map(f => (
           <details class="gs-faq-item">
-            <summary>{f.q} <Image src={faqButton} alt="" width={28} height={28} class="faq-icon" /></summary>
+            <summary>{f.q} <span class="faq-icon" aria-hidden="true">+</span></summary>
             <p>{f.a}</p>
           </details>
         ))}
@@ -328,16 +329,17 @@ const faqs = [
     <div class="waitlist-inner">
       <form class="waitlist-form" action="#" method="post" id="waitlist-form">
         <div class="waitlist-content-layer" id="waitlist-content-layer">
-          <h2 class="gs-clip-reveal">There's more in the app</h2>
-          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators, in one app. Join the waitlist to get notified at launch.</p>
+          <h2 class="gs-clip-reveal waitlist-head">Every tool. <em>One app.</em></h2>
+          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators.</p>
           <div class="waitlist-row gs-fade-up" id="waitlist-row">
             <input type="email" placeholder="your@email.com" required class="waitlist-input" />
-            <button type="submit" class="waitlist-btn" id="waitlist-btn">Join Waitlist</button>
+            <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
           </div>
+          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play and Amazon Appstore. Launch price <strong>€8.99</strong>.</p>
         </div>
 
         <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
-          <Image src={faqButton} alt="Loading..." width={112} height={112} class="big-spinner" />
+          <span class="big-spinner" aria-live="polite">Sending&hellip;</span>
         </div>
 
         <div class="waitlist-success" id="waitlist-success" aria-hidden="true">
@@ -470,17 +472,22 @@ const faqs = [
       const text = h1El.textContent || '';
       h1El.textContent = '';
       const chars: HTMLSpanElement[] = [];
-      for (const c of text) {
-        if (c === ' ') {
-          h1El.appendChild(document.createTextNode(' '));
-        } else {
+      const words = text.split(' ');
+      words.forEach((word, wi) => {
+        const wordSpan = document.createElement('span');
+        wordSpan.className = 'h1-word';
+        for (const c of word) {
           const span = document.createElement('span');
           span.className = 'h1-char';
           span.textContent = c;
-          h1El.appendChild(span);
+          wordSpan.appendChild(span);
           chars.push(span);
         }
-      }
+        h1El.appendChild(wordSpan);
+        if (wi < words.length - 1) {
+          h1El.appendChild(document.createTextNode(' '));
+        }
+      });
 
       heroTl.from(chars, {
         opacity: 0,
@@ -602,68 +609,103 @@ const faqs = [
 </script>
 
 <style>
-  /* ---- 1. Tool hero ---- */
+  /* ---- Shared section rhythm (v11 editorial) ---- */
+  .tool-hero,
+  .seo-content,
+  .tool-faq,
+  .waitlist-cta {
+    background: var(--paper);
+    color: var(--ink);
+    padding: 80px 40px;
+  }
+
   .tool-hero {
-    padding: 104px 20px 60px;
-    margin-right: 275px;
+    padding-top: 60px;
+    border-bottom: 1px solid var(--ink);
   }
 
-  .hero-inner {
-    max-width: 780px;
+  .seo-content,
+  .tool-faq {
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .waitlist-cta {
+    padding-bottom: 100px;
+  }
+
+  .hero-inner,
+  .content-inner,
+  .faq-inner,
+  .waitlist-inner {
+    max-width: 760px;
     margin: 0 auto;
-    padding-right: var(--safe-pr-mobile);
   }
 
-  .back-link {
-    display: inline-block;
-    color: var(--dark);
-    font-size: 0.9rem;
-    font-family: var(--font-body);
-    margin-bottom: 24px;
+  .content-inner,
+  .faq-inner {
+    max-width: 720px;
+  }
+
+  .waitlist-inner {
+    max-width: 640px;
+  }
+
+  /* ---- 1. Tool hero ---- */
+  .eyebrow {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 24px;
+  }
+  .eyebrow-back {
+    color: var(--ink-soft);
     text-decoration: none;
-    opacity: 0.7;
-    transition: opacity 200ms;
+    transition: color 0.15s ease;
   }
-
-  .back-link:hover { opacity: 1; }
-
-  .back-link:focus-visible {
-    outline: 2px solid var(--dark);
-    outline-offset: 2px;
-  }
+  .eyebrow-back:hover { color: var(--terracotta); }
 
   .tool-hero h1 {
-    font-family: var(--font-label);
-    font-size: var(--bebas-display-size);
-    color: var(--dark);
-    letter-spacing: var(--bebas-display-tracking);
-    text-transform: uppercase;
-    margin: 0 0 12px;
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3.25rem);
     line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    text-transform: none;
+    margin: 0 0 20px;
+    padding-bottom: 0.08em;
   }
 
+  .tool-hero h1 :global(.h1-word) {
+    display: inline-block;
+    white-space: nowrap;
+  }
   .tool-hero h1 :global(.h1-char) {
     display: inline-block;
   }
 
   .hero-intro {
-    font-family: var(--font-body);
-    font-weight: 400;
-    font-size: 1.05rem;
-    color: rgba(46, 42, 38, 0.8);
+    font-family: var(--body-ed);
+    font-size: clamp(17px, 1.5vw, 20px);
+    line-height: 1.55;
+    color: var(--ink);
     max-width: 560px;
     margin: 0 0 40px;
-    line-height: 1.5;
   }
 
-  /* ---- Category cards ---- */
+  /* ---- Category cards (re-skinned for v11 editorial) ---- */
   .cat-list {
-    border-top: 2px solid var(--dark);
+    border-top: 1.5px solid var(--ink);
     margin-bottom: 48px;
   }
 
   .cat-card {
-    border-bottom: 1px solid var(--cream-muted);
+    border-bottom: 1px solid rgba(244, 234, 217, 0.15);
   }
 
   .cat-summary {
@@ -673,52 +715,59 @@ const faqs = [
     padding: 16px 4px;
     cursor: pointer;
     list-style: none;
-    color: var(--dark);
+    color: var(--ink);
     transition: color 200ms ease, background-color 200ms ease;
   }
 
   .cat-summary::-webkit-details-marker { display: none; }
 
   .cat-summary:hover {
-    background-color: rgba(46, 42, 38, 0.04);
+    background-color: rgba(160, 80, 56, 0.08);
   }
 
   .cat-heading {
     flex: 0 0 auto;
-    font-family: var(--font-label);
-    font-size: var(--ts-card-heading-size);
-    letter-spacing: var(--ts-card-heading-tracking);
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--dark);
+    color: var(--terracotta);
     display: flex;
-    gap: 8px;
+    gap: 10px;
     align-items: baseline;
   }
 
   .cat-num {
     font-weight: 400;
-    color: var(--accent);
-    font-size: var(--ts-card-heading-size);
+    color: var(--terracotta);
+    font-family: var(--mono);
+    font-size: 12px;
+  }
+
+  .cat-name {
+    color: var(--ink);
+    font-family: var(--mono);
+    font-size: 12px;
   }
 
   .cat-regional {
     flex: 1 1 auto;
-    font-family: var(--font-body);
+    font-family: var(--body-ed);
     font-weight: 400;
-    font-size: 0.95rem;
-    color: var(--dark);
-    opacity: 0.8;
+    font-size: 15px;
+    color: var(--ink-soft);
     text-align: right;
   }
 
   .cat-toggle {
     flex: 0 0 auto;
-    font-family: var(--font-body);
-    font-size: 1.3rem;
+    font-family: var(--mono);
+    font-size: 22px;
     font-weight: 300;
-    color: var(--dark);
+    color: var(--terracotta);
     width: 24px;
     text-align: center;
+    line-height: 1;
     transition: transform 200ms ease;
   }
 
@@ -742,8 +791,8 @@ const faqs = [
     display: grid;
     grid-template-columns: 180px 1fr;
     gap: 20px;
-    padding: 6px 0;
-    border-top: 1px dashed var(--cream-muted);
+    padding: 10px 0;
+    border-top: 1px solid rgba(244, 234, 217, 0.12);
   }
 
   .cat-row:first-child {
@@ -751,45 +800,46 @@ const faqs = [
   }
 
   .cat-row dt {
-    font-family: var(--font-label);
-    font-size: var(--bebas-ui-size);
-    letter-spacing: var(--bebas-ui-tracking);
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--dark);
-    opacity: 0.7;
+    color: var(--terracotta);
     margin: 0;
   }
 
   .cat-row dd {
-    font-family: var(--font-body);
-    font-size: 0.98rem;
-    color: var(--dark);
+    font-family: var(--body-ed);
+    font-size: 16px;
+    color: var(--ink);
     margin: 0;
-    line-height: 1.5;
+    line-height: 1.55;
   }
 
   /* ---- WPI tool ---- */
   .wpi-tool {
     margin-top: 8px;
     padding-top: 32px;
-    border-top: 1px solid var(--cream-muted);
+    border-top: 1px solid rgba(244, 234, 217, 0.2);
   }
 
   .wpi-heading {
-    font-family: var(--font-display);
-    font-weight: var(--ts-h3-weight);
-    font-size: var(--ts-h3-size);
-    color: var(--dark);
-    margin: 0 0 8px;
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin: 0 0 10px;
+    text-transform: none;
   }
 
   .wpi-intro {
-    font-family: var(--font-body);
+    font-family: var(--body-ed);
     font-weight: 400;
-    font-size: 0.98rem;
-    color: var(--dark);
-    opacity: 0.85;
-    line-height: 1.5;
+    font-size: 16px;
+    color: var(--ink);
+    line-height: 1.55;
     margin: 0 0 18px;
     max-width: 560px;
   }
@@ -802,25 +852,25 @@ const faqs = [
     width: 100%;
     height: 52px;
     padding: 0 18px;
-    font-size: 1rem;
-    font-family: var(--font-body);
-    background-color: transparent;
-    border: 1px solid rgba(46, 42, 38, 0.3);
-    color: var(--dark);
+    font-size: 16px;
+    font-family: var(--body-ed);
+    background-color: var(--paper-2);
+    border: 1.5px solid var(--ink);
+    color: var(--ink);
     outline: none;
     border-radius: 0;
     box-sizing: border-box;
-    transition: border-color 300ms ease, background-color 300ms ease, box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition: border-color 300ms ease, box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
   }
 
   .wpi-input::placeholder {
-    color: var(--cream-muted);
+    color: var(--ink-soft);
   }
 
   .wpi-input:focus {
-    border-color: var(--accent);
-    background-color: var(--cream);
-    box-shadow: 0 4px 16px var(--accent-soft);
+    border-color: var(--terracotta);
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
   }
 
   .wpi-input::-webkit-outer-spin-button,
@@ -834,60 +884,55 @@ const faqs = [
   }
 
   .wpi-result {
-    font-family: var(--font-body);
-    font-weight: 500;
-    font-size: 1rem;
-    color: var(--dark);
+    font-family: var(--body-ed);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ink);
     margin: 16px 0 0;
     line-height: 1.5;
     min-height: 1.5em;
   }
 
   .wpi-fallback {
-    font-family: var(--font-body);
-    font-size: 0.92rem;
-    color: var(--accent);
+    font-family: var(--body-ed);
+    font-size: 14px;
+    color: var(--terracotta);
     margin: 12px 0 0;
   }
 
   /* ---- 2. SEO content ---- */
-  .seo-content {
-    padding: 64px 20px;
-  }
-
-  .content-inner {
-    max-width: 720px;
-    margin: 0 auto;
-    padding-right: var(--safe-pr-mobile);
-  }
-
   .seo-content h2 {
-    font-family: var(--font-display);
-    font-weight: 800;
-    color: var(--dark);
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    margin-bottom: 1rem;
-    margin-top: 48px;
+    font-family: var(--serif);
+    font-weight: 400;
+    color: var(--ink);
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+    line-height: 1.2;
+    padding-bottom: 0.08em;
+    letter-spacing: -0.02em;
+    margin-top: 56px;
+    margin-bottom: 16px;
+    text-transform: none;
   }
-
-  .seo-content h2:first-child {
-    margin-top: 0;
-  }
+  .seo-content h2:first-child { margin-top: 0; }
 
   .seo-content h3 {
-    font-family: var(--font-display);
-    font-weight: var(--ts-h3-weight);
-    color: var(--dark);
-    font-size: var(--ts-h3-size);
-    margin: 28px 0 10px;
+    font-family: var(--serif);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--ink);
+    font-size: clamp(1.25rem, 2.2vw, 1.5rem);
     line-height: 1.3;
+    letter-spacing: -0.01em;
+    margin: 32px 0 10px;
+    text-transform: none;
   }
 
   .seo-content p {
-    font-family: var(--font-body);
-    color: var(--dark);
-    font-size: 1rem;
-    line-height: 1.7;
+    font-family: var(--body-ed);
+    color: var(--ink);
+    font-size: 17px;
+    line-height: 1.65;
     margin-bottom: 0;
   }
 
@@ -897,14 +942,15 @@ const faqs = [
 
   .seo-content p strong {
     font-weight: 600;
+    color: var(--terracotta);
   }
 
   .bullet-list {
     margin: 12px 0 0;
     padding-left: 1.2rem;
-    font-family: var(--font-body);
-    color: var(--dark);
-    font-size: 1rem;
+    font-family: var(--body-ed);
+    color: var(--ink);
+    font-size: 17px;
     line-height: 1.7;
   }
 
@@ -914,121 +960,133 @@ const faqs = [
 
   .bullet-list li strong {
     font-weight: 600;
+    color: var(--terracotta);
   }
 
   .seo-content a {
-    color: var(--accent);
+    color: var(--terracotta);
     text-decoration: underline;
     text-underline-offset: 2px;
+    transition: opacity 0.15s ease;
   }
 
   .seo-content a:hover {
-    opacity: 0.8;
+    opacity: 0.75;
   }
 
   /* ---- 3. FAQ ---- */
-  .tool-faq {
-    padding: 48px 20px 64px;
-  }
-
-  .faq-inner {
-    max-width: 720px;
-    margin: 0 auto;
-    padding-right: var(--safe-pr-mobile);
-  }
-
   .tool-faq h2 {
-    font-family: var(--font-display);
-    font-weight: 800;
-    color: var(--dark);
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    margin-bottom: 1.5rem;
+    font-family: var(--serif);
+    font-weight: 400;
+    color: var(--ink);
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+    line-height: 1.2;
+    padding-bottom: 0.08em;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+    text-transform: none;
   }
 
-  .faq {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-  }
+  .faq { display: flex; flex-direction: column; }
 
   .faq details {
-    border-bottom: 1px solid var(--cream-muted);
+    border-top: 1px solid rgba(244, 234, 217, 0.2);
+  }
+  .faq details:last-child {
+    border-bottom: 1px solid rgba(244, 234, 217, 0.2);
   }
 
   .faq summary {
-    padding: 1.2rem 0;
+    padding: 18px 0;
     cursor: pointer;
-    color: var(--dark);
-    font-family: var(--font-body);
-    font-weight: 600;
-    font-size: 1.05rem;
+    color: var(--ink);
+    font-family: var(--body-ed);
+    font-weight: 500;
+    font-size: 17px;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: color 200ms ease;
   }
-
   .faq summary::-webkit-details-marker { display: none; }
+  .faq summary:hover { color: var(--terracotta); }
 
-  .faq summary:hover {
-    color: var(--accent);
-  }
-
-  .faq summary :global(.faq-icon) {
-    width: 28px;
-    height: 28px;
+  .faq summary .faq-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
     flex-shrink: 0;
     margin-left: 1rem;
-    transition: transform 300ms ease;
-    border-radius: 50%;
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--terracotta);
+    line-height: 1;
+    transition: transform 300ms ease, color 200ms ease;
   }
-
-  .faq details[open] summary :global(.faq-icon) {
+  .faq summary:hover .faq-icon {
+    color: var(--ink);
+  }
+  .faq details[open] summary .faq-icon {
     transform: rotate(45deg);
   }
 
   .faq details p {
-    padding-bottom: 1.2rem;
-    font-family: var(--font-body);
-    font-size: 1rem;
-    color: var(--text-on-light-muted);
-    line-height: 1.7;
+    max-width: 440px;
+    padding-bottom: 18px;
+    font-family: var(--body-ed);
+    font-size: 16px;
+    color: var(--ink-soft);
+    line-height: 1.65;
   }
 
   /* ---- 4. Waitlist CTA ---- */
-  .waitlist-cta {
-    padding: 48px 20px 80px;
-    text-align: center;
-  }
-
-  .waitlist-inner {
-    max-width: 500px;
-    margin: 0 auto;
-    padding-right: var(--safe-pr-mobile);
-  }
-
   .waitlist-cta h2 {
-    font-family: var(--font-display);
-    font-weight: 800;
-    color: var(--dark);
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    margin-bottom: 12px;
+    font-family: var(--serif);
+    font-weight: 400;
+    color: var(--ink);
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.15;
+    padding-bottom: 0.08em;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+    text-transform: none;
+  }
+  .waitlist-cta h2 em {
+    color: var(--terracotta);
+    font-style: italic;
   }
 
   .waitlist-desc {
-    font-family: var(--font-body);
-    color: var(--dark);
-    font-size: 1rem;
-    line-height: 1.6;
+    font-family: var(--body-ed);
+    font-style: italic;
+    color: var(--ink);
+    font-size: 17px;
+    line-height: 1.5;
     margin-bottom: 28px;
+    max-width: 520px;
+  }
+
+  .waitlist-meta {
+    font-family: var(--body-ed);
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+    margin: 16px 0 0;
+  }
+  .waitlist-meta strong {
+    color: var(--terracotta);
+    font-weight: 600;
   }
 
   .waitlist-form {
     position: relative;
     max-width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
   }
@@ -1039,9 +1097,7 @@ const faqs = [
     transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .waitlist-content-layer {
-    width: 100%;
-  }
+  .waitlist-content-layer { width: 100%; }
 
   .waitlist-content-layer.is-hidden {
     opacity: 0;
@@ -1058,51 +1114,47 @@ const faqs = [
 
   .waitlist-input {
     flex: 1;
-    padding: 14px 18px;
-    font-size: 1rem;
-    font-family: var(--font-body);
-    background: white;
-    border: 2px solid var(--cream-muted);
-    border-right: none;
-    color: var(--dark);
+    padding: 14px 20px;
+    font-size: 16px;
+    font-family: var(--body-ed);
+    background: var(--paper-2);
+    border: 1.5px solid var(--ink);
+    border-right: 0;
+    color: var(--ink);
     outline: none;
     border-radius: 0;
+    min-width: 0;
   }
-
-  .waitlist-input::placeholder {
-    color: var(--text-on-light-muted);
-  }
-
+  .waitlist-input::placeholder { color: var(--ink-soft); }
   .waitlist-input:focus {
-    border-color: var(--accent);
-    box-shadow: none;
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
   }
 
   .waitlist-btn {
-    padding: 14px 28px;
-    font-family: var(--font-label);
-    font-size: var(--bebas-ui-size);
-    letter-spacing: var(--bebas-ui-tracking);
+    padding: 14px 22px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    background: var(--accent);
-    color: var(--cream);
-    border: 2px solid var(--accent);
+    background: var(--ink);
+    color: var(--paper);
+    border: 1.5px solid var(--ink);
+    border-radius: 0;
     cursor: pointer;
-    transition: background 200ms;
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
     white-space: nowrap;
   }
-
   .waitlist-btn:hover {
-    background: var(--accent-hover);
-    border-color: var(--accent-hover);
+    background: var(--terracotta);
+    border-color: var(--terracotta);
   }
-
   .waitlist-btn:focus-visible {
-    outline: 2px solid var(--dark);
-    outline-offset: 2px;
-    box-shadow: none;
+    outline: 2px solid var(--terracotta);
+    outline-offset: 3px;
   }
 
+  /* Big Spinner Layer */
   .waitlist-loading-state {
     position: absolute;
     opacity: 0;
@@ -1113,14 +1165,12 @@ const faqs = [
     align-items: center;
     width: 100%;
   }
-
   .waitlist-loading-state.is-visible {
     position: relative;
     opacity: 1;
     transform: scale(1);
     pointer-events: auto;
   }
-
   .waitlist-loading-state.is-hidden {
     position: absolute;
     opacity: 0;
@@ -1129,13 +1179,23 @@ const faqs = [
   }
 
   .big-spinner {
-    animation: waitlistSpin 1.2s cubic-bezier(0.6, 0.1, 0.4, 0.9) infinite;
+    font-family: var(--mono);
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding: 24px 0;
+    animation: waitlistPulse 1.6s ease-in-out infinite;
+  }
+  @keyframes waitlistPulse {
+    0%, 100% { opacity: 0.45; }
+    50%      { opacity: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .big-spinner { animation: none; opacity: 0.8; }
   }
 
-  @keyframes waitlistSpin {
-    100% { transform: rotate(360deg); }
-  }
-
+  /* Success Layer */
   .waitlist-success {
     position: absolute;
     opacity: 0;
@@ -1146,7 +1206,6 @@ const faqs = [
     align-items: center;
     width: 100%;
   }
-
   .waitlist-success.is-visible {
     opacity: 1;
     position: relative;
@@ -1166,54 +1225,31 @@ const faqs = [
   }
 
   .success-label {
-    font-family: var(--font-label);
-    font-size: var(--bebas-display-size);
-    color: var(--accent);
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: var(--terracotta);
     line-height: 1;
-    letter-spacing: var(--bebas-display-tracking);
-    text-transform: uppercase;
   }
 
   .success-sub {
-    font-family: var(--font-display);
-    font-size: 1.2rem;
-    color: var(--dark);
-    font-weight: 500;
+    font-family: var(--body-ed);
+    font-size: 1.15rem;
+    color: var(--ink);
+    font-style: italic;
     margin-top: 8px;
-    letter-spacing: -0.01em;
-  }
-
-  /* ---- Desktop ---- */
-  @media (min-width: 769px) {
-    .tool-hero {
-      padding: 104px 48px 60px;
-    }
-
-    .hero-inner,
-    .content-inner,
-    .faq-inner,
-    .waitlist-inner {
-      padding-right: var(--safe-pr-desktop);
-    }
-
-    .seo-content {
-      padding: 64px 48px;
-    }
-
-    .tool-faq {
-      padding: 48px 48px 64px;
-    }
-
-    .waitlist-cta {
-      padding: 48px 48px 80px;
-    }
   }
 
   /* ---- Mobile ---- */
   @media (max-width: 768px) {
-    .tool-hero {
-      margin-right: 135px;
+    .tool-hero,
+    .seo-content,
+    .tool-faq,
+    .waitlist-cta {
+      padding: 60px 20px;
     }
+    .tool-hero { padding-top: 48px; }
+    .waitlist-cta { padding-bottom: 72px; }
 
     .cat-summary {
       flex-wrap: wrap;
@@ -1225,6 +1261,7 @@ const faqs = [
       text-align: left;
       flex-basis: 100%;
       order: 3;
+      font-size: 14px;
     }
 
     .cat-toggle {
@@ -1238,32 +1275,21 @@ const faqs = [
     }
 
     .cat-row dt {
-      font-size: 0.8rem;
+      font-size: 11px;
     }
 
-    .waitlist-row {
-      flex-direction: column;
-    }
-
+    .waitlist-row { flex-direction: column; }
     .waitlist-input {
-      border-right: 2px solid var(--cream-muted);
-      border-bottom: none;
-    }
-
-    .waitlist-input:focus {
-      border-color: var(--accent);
-    }
-
-    .waitlist-btn {
-      border-top: 2px solid var(--accent);
+      border-right: 1.5px solid var(--ink);
+      border-bottom: 0;
     }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .back-link,
+    .eyebrow-back,
     .waitlist-btn,
     .faq summary,
-    .faq summary :global(.faq-icon),
+    .faq summary .faq-icon,
     .cat-summary,
     .cat-toggle,
     .wpi-input {
