@@ -5,3 +5,4 @@ dist/
 .remember/
 .claude/
 .codex
+.playwright-mcp/

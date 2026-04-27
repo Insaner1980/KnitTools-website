@@ -6,7 +6,6 @@ import PageLayout from '../../layouts/PageLayout.astro';
   title="Free Knitting Tools: Calculators & Reference Charts"
   description="Free online knitting calculators and reference charts. Cast on calculator, yarn estimator, needle size chart, yarn weight guide, abbreviations glossary, and body size charts."
   canonicalPath="/tools/"
-  bodyClass="landing"
   showStripe={false}
 >
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -29,36 +28,44 @@ import PageLayout from '../../layouts/PageLayout.astro';
   })} />
 
   <section class="tools-header">
-    <p class="eyebrow">Free tools</p>
-    <h1>Knitting tools, online.</h1>
-    <p class="tools-intro">Calculators and reference charts for your knitting projects. No signup, no app required.</p>
+    <div class="tools-header-inner">
+      <p class="eyebrow">Free tools</p>
+      <h1>Knitting tools, online.</h1>
+      <p class="tools-intro">Calculators and reference charts for your knitting projects. No signup, no app required.</p>
+    </div>
   </section>
 
   <section class="tools-grid-section">
     <div class="tools-grid">
       <!-- Row 1: two large calculator cards, 50/50 -->
       <a href="/tools/cast-on-calculator" class="tool-card card-top-left card-terracotta reveal reveal-delay-1">
+        <span class="tag">Stitches</span>
         <h2 class="card-title">Cast On Calculator</h2>
         <p class="card-desc">Calculate how many stitches to cast on for any width and gauge.</p>
       </a>
       <a href="/tools/yarn-estimator" class="tool-card card-top-right card-rust reveal reveal-delay-2">
+        <span class="tag">Yardage</span>
         <h2 class="card-title">Yarn Estimator</h2>
         <p class="card-desc">Estimate yarn requirements by project type, size, and yarn weight.</p>
       </a>
       <!-- Row 2-3: four small reference cards, offset grid -->
       <a href="/tools/yarn-weight-chart" class="tool-card card-bl1 card-sand reveal reveal-delay-1">
+        <span class="tag">Weights</span>
         <h2 class="card-title">Yarn Weight Chart</h2>
         <p class="card-desc">All 8 yarn weight categories with gauge ranges, needles, and WPI.</p>
       </a>
       <a href="/tools/needle-size-chart" class="tool-card card-br1 card-teal reveal reveal-delay-2">
+        <span class="tag">Needles</span>
         <h2 class="card-title">Needle Size Chart</h2>
         <p class="card-desc">Convert between US, UK, metric, and Japanese needle sizes.</p>
       </a>
       <a href="/tools/knitting-size-charts" class="tool-card card-bl2 card-terracotta reveal reveal-delay-1">
+        <span class="tag">Sizes</span>
         <h2 class="card-title">Knitting Size Charts</h2>
         <p class="card-desc">Body measurements for baby through adult, in cm and inches.</p>
       </a>
       <a href="/tools/knitting-abbreviations" class="tool-card card-br2 card-brown reveal reveal-delay-2">
+        <span class="tag">Glossary</span>
         <h2 class="card-title">Knitting Abbreviations</h2>
         <p class="card-desc">Search any abbreviation or find terms by technique.</p>
       </a>
@@ -68,10 +75,12 @@ import PageLayout from '../../layouts/PageLayout.astro';
 
 <style>
   .tools-header {
-    background: var(--paper);
     color: var(--ink);
     padding: 80px 40px 48px;
     border-bottom: 1px solid var(--ink);
+  }
+
+  .tools-header-inner {
     max-width: 1280px;
     margin: 0 auto;
   }
@@ -109,16 +118,15 @@ import PageLayout from '../../layouts/PageLayout.astro';
   }
 
   .tools-grid-section {
-    background: var(--paper);
     padding: 48px 40px 100px;
-    max-width: 1280px;
-    margin: 0 auto;
   }
 
   .tools-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 16px;
+    gap: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
   }
 
   /* Row 1: two large calculator cards, 50/50 */
@@ -131,30 +139,43 @@ import PageLayout from '../../layouts/PageLayout.astro';
   .card-bl2 { grid-column: 7 / 10; }
   .card-br2 { grid-column: 10 / 13; }
 
-  .card-terracotta { --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.92); --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 1); }
-  .card-rust       { --card-bg: rgb(from var(--stripe-rust) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-rust) r g b / 1); }
-  .card-sand       { --card-bg: rgb(from var(--stripe-sand) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-sand) r g b / 1); }
-  .card-teal       { --card-bg: rgb(from var(--stripe-teal) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-teal) r g b / 1); }
-  .card-brown      { --card-bg: rgb(from var(--stripe-brown) r g b / 0.92);      --card-bg-hover: rgb(from var(--stripe-brown) r g b / 1); }
+  .card-terracotta { --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.92); --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 1); --card-fg: #F4EAD9; }
+  .card-rust       { --card-bg: rgb(from var(--stripe-rust) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-rust) r g b / 1);       --card-fg: #F4EAD9; }
+  .card-sand       { --card-bg: rgb(from var(--stripe-sand) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-sand) r g b / 1);       --card-fg: #2A1E17; }
+  .card-teal       { --card-bg: rgb(from var(--stripe-teal) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-teal) r g b / 1);       --card-fg: #F4EAD9; }
+  .card-brown      { --card-bg: rgb(from var(--stripe-brown) r g b / 0.92);      --card-bg-hover: rgb(from var(--stripe-brown) r g b / 1);      --card-fg: #F4EAD9; }
 
   .tool-card {
     background-color: var(--card-bg);
     border-radius: 0;
-    padding: 28px 24px;
+    padding: 28px 28px 32px;
     position: relative;
     overflow: hidden;
     text-decoration: none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    gap: 12px;
     transition: background-color 0.2s ease, transform 0.3s ease;
   }
 
   /* Top row cards are taller */
   .card-top-left,
   .card-top-right {
-    padding: 40px 32px;
     min-height: 220px;
+  }
+
+  .tool-card .tag {
+    align-self: flex-start;
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2A1E17;
+    background: var(--paper);
+    padding: 4px 12px;
+    border-radius: 9999px;
   }
 
   .tool-card:hover {
@@ -170,7 +191,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
     font-family: var(--serif);
     font-weight: 400;
     font-size: clamp(1.15rem, 1.8vw, 1.5rem);
-    color: #2A1E17;
+    color: var(--card-fg);
     margin: 0 0 8px;
     line-height: 1.15;
     letter-spacing: -0.01em;
@@ -188,10 +209,10 @@ import PageLayout from '../../layouts/PageLayout.astro';
     font-family: var(--body-ed);
     font-weight: 400;
     font-size: 14px;
-    color: #2A1E17;
+    color: var(--card-fg);
     line-height: 1.5;
     margin: 0;
-    opacity: 0.82;
+    opacity: 0.88;
   }
 
   .card-top-left .card-desc,

@@ -137,7 +137,6 @@ const faqs = [
   title="Yarn Weight Chart: All 8 Categories with Gauge, Needle Size & WPI"
   description="Complete yarn weight chart from lace to jumbo. Find gauge ranges, recommended needles, WPI values, and typical projects for each yarn weight category."
   canonicalPath="/tools/yarn-weight-chart"
-  bodyClass="landing"
   showStripe={false}
 >
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -174,6 +173,7 @@ const faqs = [
       <h1 class="gs-h1" aria-label="Yarn Weight Chart"><span class="h1-chars">Yarn Weight Chart</span></h1>
       <p class="hero-intro gs-hero">Eight categories, every gauge range, needle size, and WPI value. Tap any category to expand.</p>
 
+      <div class="form-card variant-sand is-wide">
       <div class="cat-list gs-form">
         {categories.map(cat => (
           <details class="cat-card">
@@ -212,8 +212,10 @@ const faqs = [
           </details>
         ))}
       </div>
+      </div>
 
       <!-- WPI identifier -->
+      <div class="form-card variant-sand is-wide">
       <div class="wpi-tool gs-form">
         <h2 class="wpi-heading">Don't know your weight? Try WPI</h2>
         <p class="wpi-intro">Wrap your yarn around a pencil or ruler, count how many wraps fit in one inch, then enter that number.</p>
@@ -234,6 +236,7 @@ const faqs = [
         <noscript>
           <p class="wpi-fallback">JavaScript is disabled. Scroll up and pick the category whose WPI range contains your count.</p>
         </noscript>
+      </div>
       </div>
     </div>
   </section>
@@ -335,7 +338,7 @@ const faqs = [
             <input type="email" placeholder="your@email.com" required class="waitlist-input" />
             <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
           </div>
-          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play and Amazon Appstore. Launch price <strong>€8.99</strong>.</p>
+          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play. Launch price <strong>€8.99</strong>.</p>
         </div>
 
         <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">

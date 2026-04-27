@@ -7,7 +7,6 @@ import YarnEstimator from '../../components/YarnEstimator.astro';
   title="Yarn Estimator: How Much Yarn Do I Need?"
   description="Calculate how many skeins of yarn you need for your knitting project. Enter yardage and skein info. Free, instant, no signup."
   canonicalPath="/tools/yarn-estimator"
-  bodyClass="landing"
   showStripe={false}
 >
   <!-- 1. Tool hero -->
@@ -18,7 +17,7 @@ import YarnEstimator from '../../components/YarnEstimator.astro';
       </p>
       <h1 class="gs-h1" aria-label="Yarn Estimator"><span class="h1-chars">Yarn Estimator</span></h1>
       <p class="hero-intro gs-hero">Calculate how many skeins of yarn you need for your knitting project.</p>
-      <div class="calc-wrapper gs-form">
+      <div class="form-card variant-rust gs-form">
         <YarnEstimator />
       </div>
     </div>
@@ -79,7 +78,7 @@ import YarnEstimator from '../../components/YarnEstimator.astro';
             <input type="email" placeholder="your@email.com" required class="waitlist-input" />
             <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
           </div>
-          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play and Amazon Appstore. Launch price <strong>€8.99</strong>.</p>
+          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play. Launch price <strong>€8.99</strong>.</p>
         </div>
 
         <!-- Big Spinner Loading State -->
