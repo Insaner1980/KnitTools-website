@@ -7,6 +7,14 @@ const articles = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
+    category: z.enum([
+      'Gauge & Calculations',
+      'Yarn',
+      'Needles',
+      'Techniques',
+      'App & Tools',
+    ]),
+    readTime: z.string().optional(),
     publishDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     tags: z.array(z.string()).default([]),

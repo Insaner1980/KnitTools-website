@@ -2,25 +2,13 @@
 ---
 
 <section class="hero-editorial" aria-labelledby="hero-heading">
-  <div class="hero-meta-strip">
-    <div class="masthead-block">
-      <div class="masthead" role="img" aria-label="KnitTools">KnitTools</div>
-      <div class="rule-thin-mid"></div>
-    </div>
-    <div class="meta-row">
-      <span class="meta-left">Vol. 01. Pre-launch</span>
-      <span class="meta-center"><em>The Knitter's Journal of Craft &amp; Computation</em></span>
-      <span class="meta-right">Est. 2026</span>
-    </div>
-    <div class="rule-thin-bottom"></div>
-  </div>
-
   <div class="hero-inner">
     <div class="hero-text">
       <p class="eyebrow">An Android app for knitters</p>
       <h1 id="hero-heading" class="hero-head">
-        <span class="head-line head-1">Every knitting tool.</span>
-        <span class="head-line head-2"><em>One app.</em></span>
+        <span class="head-line head-1">Every</span>
+        <span class="head-line head-2">knitting tool.</span>
+        <span class="head-line head-3"><em>One app.</em></span>
       </h1>
       <p class="dek">The row you were on, the yarn you forgot, the pattern that made no sense at midnight. <strong>KnitTools remembers it all</strong>, so the only thing you do is keep knitting.</p>
 
@@ -40,34 +28,22 @@
           You're in. We'll email you at launch.
         </p>
         <p class="signup-meta">
-          Coming 2026 to Google Play and Amazon Appstore. 14-day free trial.<br>
+          Coming 2026 to Google Play. 14-day free trial.<br>
           Launch price <strong>€8.99</strong>, rises to €11.99 after two months.
         </p>
       </form>
     </div>
 
-    <div class="hero-phone">
-      <figure class="hero-figure">
-        <div class="phone-parallax" data-parallax>
-          <div class="phone-frame">
-            <img
-              src="/images/row-counter-mobile.webp"
-              alt="KnitTools row counter running on an Android phone in a walnut frame"
-              class="hero-phone-img"
-              width="344"
-              height="726"
-              loading="eager"
-              decoding="async"
-            />
-            <span class="phone-counter" aria-hidden="true">
-              <span class="phone-counter-num" data-counter>136</span>
-            </span>
-          </div>
-        </div>
-        <figcaption class="figure-caption">
-          <em>Fig. 01. The counter, where most knitting happens.</em>
-        </figcaption>
-      </figure>
+    <div class="hero-badge" aria-hidden="true">
+      <img
+        src="/coming-soon-badge.png"
+        alt=""
+        width="280"
+        height="280"
+        loading="eager"
+        decoding="async"
+        class="hero-badge-img"
+      />
     </div>
   </div>
 
@@ -88,235 +64,99 @@
   })();
 </script>
 
-<script is:inline>
-  (() => {
-    const el = document.querySelector('[data-parallax]');
-    if (!el) return;
-    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
-    const speed = -0.08;
-    const max = 80;
-    let ticking = false;
-
-    function update() {
-      const rect = el.getBoundingClientRect();
-      const viewportMid = window.innerHeight / 2;
-      const elMid = rect.top + rect.height / 2;
-      const distance = elMid - viewportMid;
-      const y = Math.max(-max, Math.min(max, distance * speed));
-      el.style.setProperty('--parallax-y', y.toFixed(2) + 'px');
-      ticking = false;
-    }
-
-    function onScroll() {
-      if (!ticking) {
-        requestAnimationFrame(update);
-        ticking = true;
-      }
-    }
-
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', onScroll, { passive: true });
-    update();
-  })();
-</script>
-
-<script is:inline>
-  (() => {
-    const el = document.querySelector('[data-counter]');
-    if (!el) return;
-    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
-    let n = parseInt(el.textContent, 10) || 136;
-    const MIN_INTERVAL = 3400;
-    const JITTER = 1800;
-
-    function getDelta() {
-      const r = Math.random();
-      if (r < 0.65) return 1;                                   // normal tick
-      if (r < 0.80) return 2 + Math.floor(Math.random() * 4);    // +2..+5, catching up
-      if (r < 0.87) return 6 + Math.floor(Math.random() * 4);    // +6..+9, bigger jump
-      if (r < 0.94) return -1;                                   // oops, back one
-      return -(2 + Math.floor(Math.random() * 3));               // -2..-4, bigger undo
-    }
-
-    function clamp(v) {
-      if (v < 1) return 1 + Math.floor(Math.random() * 3);
-      if (v > 999) return 999 - Math.floor(Math.random() * 10);
-      return v;
-    }
-
-    function tick() {
-      el.classList.add('is-ticking');
-      setTimeout(() => {
-        n = clamp(n + getDelta());
-        el.textContent = n;
-        el.classList.remove('is-ticking');
-      }, 220);
-      setTimeout(tick, MIN_INTERVAL + Math.random() * JITTER);
-    }
-
-    // Start only when the counter is visible
-    const io = new IntersectionObserver(
-      (entries) => {
-        for (const e of entries) {
-          if (e.isIntersecting) {
-            setTimeout(tick, 1500);
-            io.disconnect();
-          }
-        }
-      },
-      { threshold: 0.4 }
-    );
-    io.observe(el);
-  })();
-</script>
 
 <style>
   .hero-editorial {
     position: relative;
-    padding: 12px 40px 80px;
+    padding: 6rem 2rem;
     overflow: hidden;
-  }
-  .hero-meta-strip {
-    max-width: 1280px;
-    margin: 0 auto 48px;
-    position: relative;
-    text-align: center;
-  }
-  .masthead-block { position: relative; }
-
-  .rule-thin-mid,
-  .rule-thin-bottom {
-    height: 1px;
-    background: var(--ink);
-    opacity: 0.6;
-  }
-  .masthead {
-    font-family: var(--serif);
-    font-weight: 400;
-    font-size: clamp(2.25rem, 5.5vw, 4rem);
-    line-height: 0.95;
-    letter-spacing: -0.035em;
-    color: var(--ink);
-    margin: 6px 0 4px;
-    text-align: center;
-  }
-  .meta-row {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    padding: 10px 0;
-    font-family: var(--mono);
-    font-size: 12px;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    gap: 24px;
-  }
-  .meta-left  { justify-self: start; }
-  .meta-right { justify-self: end; }
-  .meta-center {
-    justify-self: center;
-    font-family: var(--serif);
-    font-style: italic;
-    font-size: clamp(13px, 1.1vw, 15px);
-    letter-spacing: 0.01em;
-    text-transform: none;
-    color: var(--ink);
   }
 
   .hero-inner {
     max-width: 1280px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1.4fr 1fr;
-    gap: 64px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 4rem;
     align-items: center;
-    position: relative;
-    z-index: 1;
   }
 
-  .hero-text { max-width: 640px; }
-
+  .hero-text {
+    max-width: 60ch;
+  }
 
   .eyebrow {
-    font-family: var(--mono);
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.24em;
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--terracotta);
     margin: 0 0 20px;
-  }
-
-  .figure-caption {
-    font-family: var(--serif);
-    font-style: italic;
-    font-size: 14px;
-    color: var(--ink-soft);
-    text-align: center;
-    margin: 20px auto 0;
-    max-width: 320px;
-    line-height: 1.4;
+    text-align: left;
   }
 
   h1 {
-    font-family: var(--serif);
+    font-family: var(--font-display);
     font-weight: 400;
-    line-height: 0.9;
-    letter-spacing: -0.02em;
+    line-height: 1.0;
+    letter-spacing: -0.005em;
     margin: 0 0 28px;
     color: var(--ink);
   }
   .hero-head {
     display: block;
-    width: max-content;
-    max-width: 100%;
+    text-align: left;
+    line-height: 1.0;
+    margin: 0 0 28px;
   }
-  .head-line {
+  .hero-head .head-line {
     display: block;
+    text-align: left;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    text-indent: 0 !important;
+    color: var(--ink);
   }
-  .head-1 {
-    font-size: clamp(2.5rem, 5.6vw, 4.75rem);
+  .hero-head .head-1,
+  .hero-head .head-2 {
+    font-size: clamp(3rem, 6vw, 6.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.005em;
+    font-style: normal;
+    color: var(--ink);
+  }
+  .hero-head .head-3 {
+    font-size: clamp(4rem, 8vw, 8rem);
     line-height: 0.95;
-    white-space: nowrap;
-  }
-  .head-2 {
-    font-size: clamp(3.75rem, 8.5vw, 7.5rem);
-    line-height: 0.9;
-    margin-top: 6px;
-    text-align: right;
-    transform: translateX(0.06em);
-  }
-  .head-2 em {
+    letter-spacing: -0.01em;
+    margin-top: 0.05em;
     color: var(--terracotta);
+  }
+  .hero-head .head-3 em {
     font-style: italic;
+    color: var(--terracotta);
   }
 
   .dek {
     font-family: var(--body-ed);
     font-size: clamp(17px, 1.5vw, 20px);
-    line-height: 1.55;
+    line-height: 1.6;
     color: var(--ink);
-    margin: 0 0 32px;
-    max-width: 560px;
+    max-width: 50ch;
+    margin: 3rem 0 0;
+    text-align: left;
   }
   .dek strong {
     color: var(--terracotta);
     font-weight: 600;
   }
-  .dek::first-letter {
-    font-family: var(--serif);
-    float: left;
-    font-size: 4.6em;
-    line-height: 0.82;
-    padding: 6px 10px 0 0;
-    color: var(--terracotta);
-    font-weight: 400;
-  }
 
-  .signup { max-width: 520px; }
+  .signup {
+    max-width: 480px;
+    margin: 2rem 0 0;
+    width: 100%;
+  }
   .signup-row {
     display: flex;
     gap: 0;
@@ -339,9 +179,10 @@
     outline-offset: 2px;
   }
   .btn-primary {
-    font-family: var(--mono);
-    font-size: 12px;
-    letter-spacing: 0.18em;
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     background: var(--ink);
     color: var(--paper);
@@ -362,73 +203,34 @@
 
   .signup-success {
     display: none;
-    font-family: var(--serif);
+    font-family: var(--font-body);
     font-style: italic;
-    font-size: 24px;
+    font-size: 18px;
     color: var(--terracotta);
     margin: 0;
     padding: 8px 0;
   }
   .signup-meta {
-    margin: 14px 0 0;
+    max-width: 50ch;
+    margin: 1.5rem 0 0;
+    text-align: left;
     font-family: var(--body-ed);
     font-size: 14px;
     color: var(--ink-soft);
   }
   .signup-meta strong { color: var(--terracotta); font-weight: 600; }
 
-  .hero-phone {
-    position: relative;
+  .hero-badge {
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translate(-150px, -130px);
   }
-  .hero-figure {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  .phone-parallax {
-    transform: translate3d(0, var(--parallax-y, 0), 0);
-    will-change: transform;
-  }
-  .phone-frame {
-    position: relative;
-    width: clamp(220px, 22vw, 280px);
-    container-type: inline-size;
-  }
-  .hero-phone-img {
+  .hero-badge-img {
+    width: 280px !important;
+    height: 280px !important;
+    max-width: 280px;
     display: block;
-    width: 100%;
-    height: auto;
-  }
-  .phone-counter {
-    position: absolute;
-    top: 56.2%;
-    left: 49.1%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    line-height: 1;
-  }
-  .phone-counter-num {
-    display: inline-block;
-    font-family: var(--font-display);
-    font-weight: 600;
-    font-size: 17cqw;
-    letter-spacing: -0.02em;
-    color: #272420;
-    line-height: 1;
-    transition: transform 220ms ease, opacity 220ms ease;
-  }
-  .phone-counter-num.is-ticking {
-    opacity: 0;
-    transform: translateY(-4px);
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .phone-parallax { transform: none; }
-    .phone-counter-num { transition: none; }
   }
 
   .visually-hidden {
@@ -443,25 +245,33 @@
     border: 0;
   }
 
-  @media (max-width: 1023px) {
-    .hero-inner { grid-template-columns: 1fr; gap: 48px; }
-    .hero-phone { justify-content: center; }
-  }
-  @media (max-width: 640px) {
-    .hero-editorial { padding: 32px 20px 48px; }
-    .masthead { letter-spacing: -0.025em; }
-    .meta-row {
-      grid-template-columns: 1fr;
-      gap: 6px;
-      text-align: center;
-      padding: 12px 0;
+  @media (max-width: 768px) {
+    .hero-editorial {
+      padding: 4rem 1.5rem;
     }
-    .meta-left, .meta-right, .meta-center { justify-self: center; }
-    .meta-center { order: -1; font-size: 13px; }
+    .hero-inner {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+    .hero-text {
+      max-width: 100%;
+    }
+    .head-1,
+    .head-2 {
+      font-size: clamp(2.5rem, 10vw, 4rem);
+    }
+    .head-3 {
+      font-size: clamp(3rem, 13vw, 5rem);
+    }
+    .hero-badge {
+      order: -1;
+    }
+    .hero-badge-img {
+      width: 180px !important;
+      height: 180px !important;
+      max-width: 180px;
+    }
     .signup-row { flex-direction: column; }
     .signup input { border-right: 1.5px solid var(--ink); border-bottom: 0; }
-    .phone-frame { width: min(58vw, 220px); }
-    .dek::first-letter { font-size: 4em; padding: 4px 8px 0 0; }
-    .figure-caption { font-size: 13px; margin-top: 14px; }
   }
 </style>

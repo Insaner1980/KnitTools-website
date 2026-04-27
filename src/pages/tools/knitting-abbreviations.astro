@@ -129,7 +129,6 @@ const faqs = [
   title="Knitting Abbreviations: Searchable List of Pattern Terms & Symbols"
   description="Look up any knitting abbreviation or search by technique name. Full glossary of pattern terms from k2tog to psso, organized by category."
   canonicalPath="/tools/knitting-abbreviations"
-  bodyClass="landing"
   showStripe={false}
 >
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -166,6 +165,7 @@ const faqs = [
       <h1 class="gs-h1" aria-label="Knitting Abbreviations"><span class="h1-chars">Knitting Abbreviations</span></h1>
       <p class="hero-intro gs-hero">Search an abbreviation to see what it means, or search a technique to find its abbreviations.</p>
 
+      <div class="form-card variant-brown is-wide">
       <div class="abbr-wrapper gs-form">
         <input
           type="text"
@@ -204,6 +204,7 @@ const faqs = [
         </ul>
 
         <p class="no-results" id="no-results" hidden>No matching abbreviations found.</p>
+      </div>
       </div>
     </div>
   </section>
@@ -274,7 +275,7 @@ const faqs = [
             <input type="email" placeholder="your@email.com" required class="waitlist-input" />
             <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
           </div>
-          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play and Amazon Appstore. Launch price <strong>€8.99</strong>.</p>
+          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play. Launch price <strong>€8.99</strong>.</p>
         </div>
 
         <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">

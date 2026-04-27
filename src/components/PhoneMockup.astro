@@ -38,6 +38,8 @@ const isDark = theme === 'dark';
         sizes="360px"
         loading="lazy"
       />
+      {/* Optional overlay content (e.g. animated counter) */}
+      <slot />
       {/* Android gesture navigation bar */}
       <div class="nav-bar">
         <div class="gesture-line"></div>

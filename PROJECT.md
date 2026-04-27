@@ -1,6 +1,6 @@
 # KnitTools Website — Project Documentation
 
-> Tila 2026-04-20. Landing page on v11 editorial-tyyliin. Tool-sivut käyttävät yhä v10-paletti/typografiaa (erillinen myöhempi työ).
+> Tila 2026-04-25. Landing page on v11 retro-tyyliin (Caprasimo + General Sans). Magazine-sanasto poistettu. Tool-sivut perivät uudet fontit CSS-muuttujien kautta, layout pysyy v10-tasolla.
 
 ## Overview
 
@@ -10,7 +10,7 @@ KnitTools on Android-neulontasovelluksen (pre-launch) markkinointisivusto + kuus
 - **Tekijä:** Finnvek
 - **Tila:** Pre-launch — hero ja CTA:t ohjaavat waitlist-lomakkeeseen, ei kauppalinkkejä
 - **Pro-hinta:** €8.99 launch → €11.99 kaksi kuukautta launchin jälkeen. Free tier ilmainen (rajoitettu 3 projektiin)
-- **Riippuvuudet (`package.json`):** `astro ^6.1.3`, `@astrojs/sitemap ^3.7.2`, `sharp ^0.33.5`, `three ^0.183.2` (ei enää käytössä), `gsap ^3.15.0`
+- **Riippuvuudet (`package.json`):** `astro ^6.1.3`, `@astrojs/sitemap ^3.7.2`, `sharp ^0.33.5`, `gsap ^3.15.0`
 - **Skriptit:** `npm run dev` (:4321) · `npm run build` → `dist/` · `npm run preview`
 
 ---
@@ -19,8 +19,8 @@ KnitTools on Android-neulontasovelluksen (pre-launch) markkinointisivusto + kuus
 
 | Polku | Sivu | Tyyli |
 |-------|------|-------|
-| `/` | Landing page | **v11 editorial** (DM Serif Display, Lora, JetBrains Mono) |
-| `/tools/` | Tools bento | v10 (Geist, Bebas Neue, Teko) |
+| `/` | Landing page | **v11 retro** (Caprasimo, General Sans, Teko) |
+| `/tools/` | Tools bento | v10-layout, v11-typografia perittynä |
 | `/tools/cast-on-calculator` | Cast On Calculator | v10 |
 | `/tools/yarn-estimator` | Yarn Estimator | v10 |
 | `/tools/needle-size-chart` | Needle Size Chart | v10 |
@@ -71,32 +71,43 @@ v11-tokenit v10:n rinnalla (tool-sivut yhä tarvitsevat vanhat):
 --ink: #2A1E17;      --ink-soft: #4A382C;
 --terracotta: #A05038;  --sage: #5B8072;  --walnut: #6B4332;
 --amber: #C2703E;    --amber-hover: #A05F32;  --wheat: #C4A661;
---serif: "DM Serif Display";  --body-ed: "Lora";  --mono: "JetBrains Mono";
+
+/* v11 retro typography stack */
+--font-display: "Caprasimo", Georgia, serif;
+--font-body:    "General Sans", -apple-system, sans-serif;
+--font-label:   "Caprasimo", Georgia, serif;
+--font-logo:    "Teko", sans-serif;
+--serif:        "Caprasimo", Georgia, serif;   /* alias for landing/tool components */
+--body-ed:      "General Sans", sans-serif;     /* alias */
+--mono:         "General Sans", sans-serif;     /* alias — uppercase-tracked labels */
 ```
 
 `body.landing`: paper-tausta + hyvin kevyt radial-gradient overlay (5% terracotta + 5% sage). `.dot-grid-paper` utility lisää 3% opaciteetilla radial dot pattern (24 px välein) — käytössä Herossa ja ClosingCTA:ssa.
 
 ### Fontit (`public/fonts/`)
 
-Self-hosted woff2:
+Self-hosted woff2 (v11 retro):
 
 | Tiedosto | Koko | Käyttö |
 |----------|------|--------|
-| `dm-serif-display.woff2` | 24 kB | Display serif |
-| `dm-serif-display-italic.woff2` | 25 kB | Italic-aksentit (`<em>`) |
-| `lora-variable.woff2` | 38 kB | Body 400–700 |
-| `lora-italic-variable.woff2` | 41 kB | Body italic |
-| `jetbrains-mono-variable.woff2` | 31 kB | Eyebrowit, mono-labelit |
+| `caprasimo.woff2` | 21 kB | Display serif (H1, H2, eyebrow-labels, drop cap) |
+| `general-sans-400.woff2` | 23 kB | Body 400 |
+| `general-sans-500.woff2` | 22 kB | Body 500 (strong) |
+| `general-sans-600.woff2` | 23 kB | Body 600 |
+| `teko-400.ttf` / `teko-500.ttf` | 151 kB × 2 | Logo "KnitTools" (Teko, ei muutoksia) |
 
-Kaikki preloadattu `BaseLayout.astro`:ssa. Yhteensä ~160 kB.
+Kaikki neljä woff2-tiedostoa + Teko 500 preloadattu `BaseLayout.astro`:ssa. Caprasimo on yksipainoinen (regular 400). Italic-emfaasi (`<em>`) renderöityy selaimen synthesoituna kursiivina — speccin Open Question (a) -suositus.
 
-### Editorial-motiivit
+Italic-emfaasin tarkistus: synthesoitu kursiivi näkyy useimmissa selaimissa kohtuullisen siistinä, koska Caprasimo on jo pehmeä, character-rich -muotoilu. Jos visuaalinen tarkistus paljastaa ongelmia, fallback on speccin (b)-vaihtoehto: parita `<em>` Fraunces Italicilla. Älä siirry (c):hen ilman erillistä lupaa.
 
-- **Nº 01/02/03** -osionumerot NineToolsin, TrustSectionin ja PricingCardsin yläpuolella (section-head grid: `auto 1fr auto` = num + title + kicker). 2 px ink rule alle.
-- **§-tagit** yksittäisissä korteissa (§ Counter, § Pattern, §:t pricingissa jne.)
-- **Roomalaiset numerot** i–viii pricing-bulleteissa (DM Serif italic, terracotta/wheat)
+### Retro-motiivit
+
+Magazine-sanasto on poistettu v11 retro -pivotissa (ks. Kehityshistoria). Jäljelle jäävät visuaaliset koukut:
+
 - **Pisteruudukko** (3% ink) Herossa + ClosingCTA:ssa
 - **Iso italic-aksentti** jokaisessa H1/H2/H3:ssa — `<em>` terracotta-värillä paperilla, wheat walnut-taustalla
+- **Section-eyebrowt** "FEATURES", "PRINCIPLES", "PRICING" General Sans 600 small-caps tracking -tyylillä, ei numerointia
+- **Pricing- ja AI-bullet-listat** ilman numerointia — pelkät tekstirivit border-top -erottimin
 
 ### Komponentit
 
@@ -105,16 +116,14 @@ Kaikki preloadattu `BaseLayout.astro`:ssa. Yhteensä ~160 kB.
 - Oikealla: Tools / Articles / **Join the waitlist** (amber pill, ink border)
 - Vasen: placeholder (logo nyt hero-masthead-stripissä, ei navbarissa)
 
-#### Hero (`src/components/Hero.astro`, `dot-grid-paper`)
-- Yläreunassa **meta-strippi**: 2 kpl `.rule-double` + `.meta-row` välissä (Vol. 01 · Pre-launch | "One app for every tool a knitter needs" (serif italic keskellä) | EST. 2026)
-- **Logo** (`/logo.webp`, 112×112) absolute-positioitu meta-stripin vasempaan reunaan, pystykeskitys, paper-bg + 4 px padding
-- **Eyebrow:** "A knitting toolkit for Android · Launching soon" (terracotta mono caps)
-- **H1:** *"Pick up where you left off."* (clamp 3.5–7 rem, `<em>` terracotta italic)
-- **Dek:** "The row you were on... **KnitTools remembers it all.** So the only thing you need to do is **keep knitting.**" (terracotta strong emphasis)
-- Waitlist-lomake: email + "Join the list" (amber pill-nappi), submit → success "You're in. We'll email you at launch."
-- Microcopy: "Lock in the launch price: **€8.99** → €11.99 two months after launch."
-- Oikealla: `PhoneMockup` theme="light" + `counter-light.png`, `transform: rotate(-2deg)`, terracotta radial glow
-- Padding-top: 42 px (meta-strippi lähellä navbaria)
+#### Hero (`src/components/Hero.astro`)
+- **Ei meta-strippiä** (v11 retro -pivotissa Vol/Est/Knitter's Journal -masthead poistettu, hr-viivat pois)
+- **Eyebrow:** "An Android app for knitters" (terracotta Caprasimo small-caps)
+- **H1:** "All your knitting tools." + "*In one app.*" (kaksi riviä, jälkimmäinen Caprasimo italic terracotta)
+- **Dek:** "The row you were on... **KnitTools remembers it all**, so the only thing you do is keep knitting." (terracotta drop-cap + bold)
+- **Signup:** email + "Notify me at launch" (square outline-nappi). Success: "You're in. We'll email you at launch."
+- **Microcopy:** "Coming 2026 to Google Play and Amazon Appstore. 14-day free trial. Launch price **€8.99**, rises to €11.99 after two months."
+- **Puhelin:** `PhoneMockup` theme="light" + `row-counter-mobile.webp` (importattu `src/assets/images/`-kansiosta). Counter-overlay (`<span data-counter>136</span>`) renderöityy `<slot />`-elementin kautta moderni-Android-kehyksen sisällä. `phone-parallax`-wrapper antaa kevyen scroll-efektin (`prefers-reduced-motion: reduce` poistaa).
 
 #### Marquee (`src/components/Marquee.astro`)
 - Paper-tausta, 1 px ink top+bottom border
@@ -123,14 +132,14 @@ Kaikki preloadattu `BaseLayout.astro`:ssa. Yhteensä ~160 kB.
 - 40 s CSS `@keyframes scroll`, pausee `prefers-reduced-motion`
 
 #### NineTools (`src/components/NineTools.astro`)
-- **Nº 01** section-head, H2 "Every tool, *talking to each other.*", kicker "Free core · Pro unlocks"
+- Section-eyebrow "FEATURES", H2 "Every tool, *talking to each other.*"
 - **10 korttia** 3×3-ruudukossa + 1 leveä AI-kortti
-- 9 regular-korttia paper-2-täytöllä, 1 px ink-border, 28 × 28 × 32 padding. Kortissa: card-meta (§-tagi mono caps vasemmalla + FREE/PRO-pilli oikealla), h3, p
+- 9 regular-korttia paper-2-täytöllä, 1 px ink-border, 28 × 28 × 32 padding. Kortissa: card-meta (Caprasimo-tagi small-caps vasemmalla + FREE/PRO-pilli oikealla, EI § -prefiksiä), h3, p
 - **5 FREE:** Counter (chips 11 kielestä), Pattern, Calc, Ravelry (walnut-tint), Reference. Counter on 1. kortti chipsirivillä.
 - **5 PRO:** Stash (sage-tint), Photos, Insights, Widget, AI (leveä)
 - **AI-kortti** (`.tool-card.wide.tint-ink`) `grid-column: 1 / -1`, ink-tausta, terracotta glow-ornament. Sisältö 3-sarakkeisena gridinä:
   - Vasen: H3 *"AI that knows knitting."*, intro, 🎙 Listening… mono
-  - Keski: 4 aliominaisuutta (i Live voice · ii Pattern intelligence · iii Stash + project memory · iv Voice or text journal) roomalaisin numeroin
+  - Keski: 4 aliominaisuutta (Live voice on the counter · Pattern intelligence · Stash and project memory · Voice or text journal) puhtaina rivilistana ilman numerointia
   - Oikea: **Transcript · Live wheat-vignette** (terävät kulmat, ink border) 4 puhevuoroa: YOU/AI labelit, viestit. YOU-riveissä animoitu 9-barinen terracotta-ääniraita (40 px korkea, pausee reduced-motion)
 - Tintit: .tint-sage (paper-teksti), .tint-walnut (paper-teksti + wheat lead-sana), .tint-ink (paper-teksti)
 
@@ -142,16 +151,16 @@ Kaikki preloadattu `BaseLayout.astro`:ssa. Yhteensä ~160 kB.
 - "See all tools →" linkkinä `/tools/`:iin
 
 #### TrustSection (`src/components/TrustSection.astro`)
-- **Nº 02** section-head, H2 "What you can *count on.*", kicker "No subscription · No tracking · No language barrier"
+- Section-eyebrow "PRINCIPLES", H2 "What you can *count on.*"
 - 3 kehystettyä korttia paper-2:lla (Price / Privacy / Languages); Privacy-kortti sage-tint + paper-teksti
 - Jokainen kortti: eyebrow (sage tai paper), H3 (2 riviä — lead + italic), body
 
 #### PricingCards (`src/components/PricingCards.astro`)
-- **Nº 03** section-head, H2 "Pay once. *Own it.*", kicker "No monthly · No yearly"
+- Section-eyebrow "PRICING", H2 "Pay once. *Own it.*"
 - 2 korttia rinnakkain (Free paper-2, Pro terracotta-tausta + paper-teksti)
 - Mobiililla Pro-kortti ensin (`order: -1`)
-- **Free-kortti:** § Free, H3 "Forever", 7 bulletia roomalaisin numeroin (i–vii), footnote "No account. No trial expiry. No card."
-- **Pro-kortti:** § Pro (wheat label), H3 "€8.99 one-time", "Everything in Free, plus:" (wheat mono), 8 bulletia i–viii, footnote "14-day free trial. No credit card. Rises to €11.99 two months after launch — permanently. No subscription, ever."
+- **Free-kortti:** "Free" tier-label (General Sans small-caps, ei § -prefiksiä), H3 "Forever", 7 bulletia ilman numerointia, footnote "No account. No trial expiry. No card."
+- **Pro-kortti:** "Pro" tier-label (wheat), H3 "€8.99 one-time", "Everything in Free, plus:", 8 bulletia ilman numerointia, footnote "14-day free trial. No credit card. Rises to €11.99 two months after launch — permanently. No subscription, ever."
 
 #### ClosingCTA (`src/components/ClosingCTA.astro`, `dot-grid-paper`)
 - Eyebrow "BE THERE AT LAUNCH" terracotta
@@ -201,6 +210,16 @@ Rakenteet kullakin tool-sivulla:
 
 ## Git
 
-- Aktiivinen haara: `v2-editorial` (v11 editorial -työ)
+- Aktiivinen haara: `v2-editorial` (v11 retro -pivotin jälkeen edelleen tällä haaralla, nimi pysyy syntaksin vuoksi)
 - Remote: `origin` → `https://github.com/Insaner1980/KnitTools-website`
 - `.gitignore` jättää ulkopuolelle: `node_modules/`, `dist/`, `.astro/`, `.DS_Store`, `.remember/`, `.claude/`, `.codex`
+
+---
+
+## Kehityshistoria
+
+**v11 retro (2026-04-25)** — Pivot away from editorial magazine aesthetic. Caprasimo replaces Bebas Neue and DM Serif Display as the display font. General Sans replaces Geist as the body font. Magazine vocabulary (VOL/EST/FIG/Nº/§ markers, "Knitter's Journal" tagline, hero horizontal rules) removed. Hero headline updated to "All your knitting tools. In one app." Wooden phone frame (which existed only in spec — current code rendered a flat `<img>`) replaced with modern Android `PhoneMockup` frame; counter overlay layered via new `<slot />`. Three.js dropped from dependencies (was unused). PROJECT.md typography section rewritten.
+
+**v11 editorial (2026-04-20 → 2026-04-24)** — DM Serif Display + Lora + JetBrains Mono editorial direction with VOL/EST mastheads, Nº section numbering, § card prefixes, Knitter's Journal tagline. Replaced by v11 retro after one-week visual evaluation.
+
+**v10 (pre-2026-04-20)** — Geist + Bebas Neue + Teko stack. Original tool-pages baseline. Tool-page layouts continue at v10; typography auto-updates via shared CSS variables.

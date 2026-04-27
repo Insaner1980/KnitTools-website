@@ -2,22 +2,38 @@
 
 @import './typography.css';
 
-/* --- Fonts --- */
+/* --- Fonts (v11 retro: Caprasimo display + General Sans body + Teko logo) --- */
 
 @font-face {
-  font-family: 'Geist';
-  src: url('/fonts/geist-variable.woff2') format('woff2-variations');
-  font-weight: 100 900;
-  font-display: swap;
+  font-family: 'Caprasimo';
+  src: url('/fonts/caprasimo.woff2') format('woff2');
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Bebas Neue';
-  font-style: normal;
+  font-family: 'General Sans';
+  src: url('/fonts/general-sans-400.woff2') format('woff2');
   font-weight: 400;
+  font-style: normal;
   font-display: swap;
-  src: url('/fonts/bebas-neue.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('/fonts/general-sans-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('/fonts/general-sans-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -34,48 +50,6 @@
   font-weight: 500;
   font-display: swap;
   src: url('/fonts/teko-500.ttf') format('truetype');
-}
-
-/* v11 editorial landing fonts — self-hosted */
-
-@font-face {
-  font-family: 'DM Serif Display';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/fonts/dm-serif-display.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'DM Serif Display';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/fonts/dm-serif-display-italic.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url('/fonts/lora-variable.woff2') format('woff2-variations');
-}
-
-@font-face {
-  font-family: 'Lora';
-  font-style: italic;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url('/fonts/lora-italic-variable.woff2') format('woff2-variations');
-}
-
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url('/fonts/jetbrains-mono-variable.woff2') format('woff2-variations');
 }
 
 /* --- Colors --- */
@@ -120,12 +94,11 @@
   --text-on-light: #2E2A26;
   --text-on-light-muted: #5C5750;
 
-  --font-display: 'Geist', sans-serif;
-  --font-logo: 'Teko', 'Bebas Neue', sans-serif;
-  --font-label: 'Bebas Neue', 'Arial Narrow', sans-serif;
-  --font-body: 'Geist', sans-serif;
+  --font-display: 'Caprasimo', Georgia, serif;
+  --font-logo: 'Teko', sans-serif;
+  --font-body: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
-  /* Shared Bebas Neue scale — kolme hierarkiatasoa:
+  /* Shared label/display scale (Big Shoulders Display) — kolme hierarkiatasoa:
      - ui: labelit (navbar, eyebrow, footer, trust, napit, chipsit)
      - card: korttien ja osioiden otsikot (bento-kortit, tools-listan kortit)
      - display: sivun päätason isot otsikot ja tulosluvut (tool-H1, laskurien vastaus) */
@@ -181,9 +154,9 @@
   --amber-hover: #A05F32;
   --wheat:       #C4A661;
 
-  --serif:   "DM Serif Display", "Times New Roman", serif;
-  --body-ed: "Lora", Georgia, serif;
-  --mono:    "JetBrains Mono", ui-monospace, monospace;
+  --serif:   "Caprasimo", Georgia, serif;
+  --body-ed: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --mono:    "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* v11 landing-page body scope — inverted palette (dark ink surface, cream ink text) */
@@ -239,16 +212,15 @@ body {
 
 h1, h2 {
   font-family: var(--font-display);
-  font-weight: 900;
-  font-variation-settings: 'SOFT' 80, 'WONK' 1;
+  font-weight: 400;
   margin: 0;
 }
 
 h3 {
-  font-family: var(--font-label);
-  font-weight: 400;
+  font-family: var(--font-body);
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: var(--bebas-ui-tracking);
+  letter-spacing: 0.08em;
   margin: 0;
 }
 
@@ -257,9 +229,9 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: clamp(3rem, 6.5vw, 6.875rem);
-  line-height: 1.0;
-  letter-spacing: -0.03em;
+  font-size: clamp(2.75rem, 6vw, 6.25rem);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
 }
 
 .accent-word,
@@ -275,9 +247,9 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(2.5rem, 5vw, 5rem);
-  line-height: 1.05;
-  letter-spacing: -0.02em;
+  font-size: clamp(2.25rem, 4.5vw, 4.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.005em;
 }
 
 h3 {
@@ -295,17 +267,17 @@ p { margin: 0; }
   h3 { font-size: var(--bebas-card-size); }
 }
 
-/* --- Bebas Neue UI label utility ---
+/* --- Label UI utility (Big Shoulders Display) ---
    Single source of truth for nav, eyebrows, footer headings,
    trust labels, bento card H3s, section tags, CTA buttons.
    Do not redefine these four font rules elsewhere — use this class
    or @extend the same tokens. */
 
 .bebas-label {
-  font-family: var(--font-label);
+  font-family: var(--font-body);
   font-size: var(--bebas-ui-size);
-  font-weight: var(--bebas-ui-weight);
-  letter-spacing: var(--bebas-ui-tracking);
+  font-weight: 500;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   line-height: 1.2;
 }
@@ -314,10 +286,10 @@ p { margin: 0; }
 
 .section-tag {
   display: block;
-  font-family: var(--font-label);
+  font-family: var(--font-body);
   font-size: var(--bebas-ui-size);
-  font-weight: var(--bebas-ui-weight);
-  letter-spacing: var(--bebas-ui-tracking);
+  font-weight: 500;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--label-on-light);
   margin-bottom: 1rem;
@@ -360,10 +332,10 @@ p { margin: 0; }
   background: var(--accent);
   color: var(--cream);
   border: 2px solid var(--accent);
-  font-family: var(--font-label);
+  font-family: var(--font-body);
   font-size: var(--bebas-ui-size);
-  font-weight: var(--bebas-ui-weight);
-  letter-spacing: var(--bebas-ui-tracking);
+  font-weight: 600;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   cursor: pointer;
   transition: background 200ms;
@@ -412,10 +384,10 @@ p { margin: 0; }
   color: var(--accent);
   padding: 14px 36px;
   border-radius: 0;
-  font-family: var(--font-label);
-  font-weight: 400;
+  font-family: var(--font-body);
+  font-weight: 600;
   font-size: var(--bebas-ui-size);
-  letter-spacing: var(--bebas-ui-tracking);
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   text-decoration: none;
   transition: all 200ms;
@@ -548,4 +520,109 @@ p { margin: 0; }
   .feature-text {
     padding-right: 0; /* Reset on desktop, handled by layout specifically */
   }
+}
+
+/* ============================================================
+   Tool-page editorial scaffold (shared across all 6 tool pages)
+   ============================================================ */
+
+/* Kicker: "Nº 01 / Knitting tools" with terracotta rule */
+.hero-kicker {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.kicker-rule {
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: var(--terracotta);
+}
+.kicker-label {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--terracotta);
+}
+
+/* Italic serif subtitle under H1 */
+.hero-sub {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.1rem, 1.6vw, 1.35rem);
+  color: var(--ink-soft);
+  margin: 0 0 20px;
+  line-height: 1.3;
+}
+
+/* ============================================================
+   Form card — colored "island" matching tools/index.astro tile colors
+   Each variant re-defines --paper/--ink/--terracotta so child components
+   automatically pick up correct contrast.
+   ============================================================ */
+
+/* Colored-interior card on cream page bg — same approach as tools/index.astro tiles.
+   Each variant sets --paper/--ink/etc so child components automatically adapt. */
+.form-card {
+  position: relative;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid rgba(46, 42, 38, 0.10);
+  padding: 40px 44px 36px;
+  margin-top: 8px;
+  max-width: 560px;
+}
+
+.form-card.variant-terracotta {
+  --paper:      #A05038;
+  --paper-2:    #8C4530;
+  --ink:        #F4EAD9;
+  --ink-soft:   rgba(244, 234, 217, 0.78);
+  --terracotta: #F4EAD9;
+}
+
+.form-card.variant-rust {
+  --paper:      #C2703E;
+  --paper-2:    #A55F32;
+  --ink:        #F4EAD9;
+  --ink-soft:   rgba(244, 234, 217, 0.82);
+  --terracotta: #F4EAD9;
+}
+
+.form-card.variant-teal {
+  --paper:      #5B8072;
+  --paper-2:    #4A6B60;
+  --ink:        #F4EAD9;
+  --ink-soft:   rgba(244, 234, 217, 0.78);
+  --terracotta: #F4EAD9;
+}
+
+.form-card.variant-brown {
+  --paper:      #6B4332;
+  --paper-2:    #5A3828;
+  --ink:        #F4EAD9;
+  --ink-soft:   rgba(244, 234, 217, 0.72);
+  --terracotta: #F4EAD9;
+}
+
+.form-card.variant-sand {
+  --paper:      #C4A661;
+  --paper-2:    #B0924C;
+  --ink:        #F4EAD9;
+  --ink-soft:   rgba(244, 234, 217, 0.82);
+  --terracotta: #F4EAD9;
+}
+
+/* Wide variant for reference pages (tables, lists) that need more room */
+.form-card.is-wide {
+  max-width: none;
+}
+
+@media (max-width: 768px) {
+  .form-card { padding: 32px 24px 28px; }
+  .hero-kicker { gap: 12px; }
+  .kicker-rule { width: 40px; }
 }

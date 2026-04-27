@@ -6,7 +6,6 @@ import PageLayout from '../../layouts/PageLayout.astro';
   title="Knitting Needle Size Chart: US, UK, Metric & Japanese Conversion"
   description="Convert knitting needle sizes between US, UK, metric (mm), and Japanese systems. Searchable chart with recommended yarn weights per needle size."
   canonicalPath="/tools/needle-size-chart"
-  bodyClass="landing"
   showStripe={false}
 >
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -72,6 +71,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
       <h1 class="gs-h1" aria-label="Needle Size Chart"><span class="h1-chars">Needle Size Chart</span></h1>
       <p class="hero-intro gs-hero">Convert between US, UK, metric, and Japanese needle sizes. Type any size to find its match.</p>
 
+      <div class="form-card variant-teal is-wide">
       <div class="table-wrapper gs-form">
         <input
           type="text"
@@ -122,6 +122,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
           </table>
         </div>
         <p class="no-results" id="no-results" hidden>No matching needle size found.</p>
+      </div>
       </div>
     </div>
   </section>
@@ -195,7 +196,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
             <input type="email" placeholder="your@email.com" required class="waitlist-input" />
             <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
           </div>
-          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play and Amazon Appstore. Launch price <strong>€8.99</strong>.</p>
+          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play. Launch price <strong>€8.99</strong>.</p>
         </div>
 
         <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">

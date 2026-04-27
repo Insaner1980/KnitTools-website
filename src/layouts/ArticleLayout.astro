@@ -1,87 +1,217 @@
 ---
 import PageLayout from './PageLayout.astro';
+import ClosingCTA from '../components/ClosingCTA.astro';
 
 interface Props {
   title: string;
   description: string;
+  category: string;
+  readTime?: string;
   publishDate: Date;
   updatedDate?: Date;
   tags: string[];
 }
 
-const { title, description, publishDate, updatedDate, tags } = Astro.props;
-const formattedDate = publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-const formattedUpdated = updatedDate?.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+const { title, description, category, readTime, publishDate, updatedDate } = Astro.props;
+const formattedUpdated = updatedDate?.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+const formattedPublished = publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+const dateLabel = formattedUpdated ? `Updated ${formattedUpdated}` : `Published ${formattedPublished}`;
 ---
 
-<PageLayout title={title} description={description}>
-  <article class="article-page">
-    <header class="article-header container">
-      <h1>{title}</h1>
-      <div class="article-meta">
-        <time datetime={publishDate.toISOString()}>{formattedDate}</time>
-        {formattedUpdated && <span class="updated">(Updated {formattedUpdated})</span>}
-        {tags.length > 0 && (
-          <div class="article-tags">
-            {tags.map(tag => <span class="tag">{tag}</span>)}
-          </div>
-        )}
+<PageLayout title={title} description={description} canonicalPath={`/articles/${Astro.params.slug}`} bodyClass="article">
+  <article class="article">
+    <header class="article-header">
+      <div class="article-header-inner">
+        <p class="eyebrow">
+          <a href="/articles" class="eyebrow-back">← All articles</a>
+        </p>
+        <p class="article-category">{category}</p>
+        <h1>{title}</h1>
+        <p class="article-meta">
+          <span>By KnitTools</span>
+          {readTime && <span>{readTime}</span>}
+          <span>{dateLabel}</span>
+        </p>
       </div>
     </header>
-    <div class="prose container">
-      <slot />
-    </div>
-    <div class="article-cta container">
-      <div class="cta-card">
-        <h3>Try KnitTools for Android</h3>
-        <p>Get more knitting tools: row counter, yarn stash organizer, and more.</p>
-        <span class="coming-soon-text">Coming soon on Android</span>
+
+    <div class="article-body">
+      <div class="prose">
+        <slot />
       </div>
     </div>
   </article>
+
+  <ClosingCTA />
 </PageLayout>
 
 <style>
-  .article-page {
-    background: var(--cream);
-    padding: 80px 0 96px;
+  .article {
+    color: var(--ink);
   }
 
   .article-header {
-    text-align: center;
-    margin-bottom: 48px;
+    padding: 80px 40px 32px;
   }
 
+  .article-header-inner {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+  .eyebrow-back {
+    color: var(--terracotta);
+    text-decoration: none;
+  }
+  .eyebrow-back:hover { color: var(--ink); }
+  .eyebrow-sep { opacity: 0.5; }
+  .eyebrow-cat { color: var(--ink-soft); }
+
   .article-header h1 {
-    color: var(--text-on-light);
-    margin-bottom: 16px;
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2.25rem, 4.5vw, 3.75rem);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 0 0 24px;
   }
 
   .article-meta {
-    color: var(--text-on-light-muted);
-    font-size: 0.9rem;
+    font-family: var(--font-body);
+    font-size: 14px;
+    color: var(--ink-soft);
+    margin: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
+    align-items: center;
+  }
+  .meta-sep { opacity: 0.5; }
+
+  .article-body {
+    padding: 32px 40px 96px;
+    border-top: 1px solid var(--ink);
   }
 
-  .updated { color: var(--text-on-light-muted); }
-  .article-tags { display: flex; gap: 8px; }
-
-  .article-cta { margin-top: 80px; }
-
-  .cta-card {
-    max-width: 520px;
-    margin: 0 auto;
-    text-align: center;
-    background: white;
-    border-radius: 24px;
-    padding: 40px 32px;
-    box-shadow: 0 2px 12px rgba(26, 17, 11, 0.06);
+  .prose {
+    max-width: 720px;
+    margin: 48px auto 0;
+    font-family: var(--body-ed);
+    font-size: clamp(17px, 1.4vw, 18px);
+    line-height: 1.7;
+    color: var(--ink);
   }
 
-  .cta-card h3 { color: var(--text-on-light); margin-bottom: 8px; }
-  .cta-card p { color: var(--text-on-light-muted); margin-bottom: 16px; }
+  .prose :global(p) {
+    margin: 0 0 1.4em;
+  }
+
+  .prose :global(h2) {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.6rem, 2.6vw, 2.25rem);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 2.5em 0 0.7em;
+  }
+
+  .prose :global(h3) {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+    line-height: 1.2;
+    color: var(--ink);
+    margin: 2em 0 0.6em;
+  }
+
+  .prose :global(a) {
+    color: var(--terracotta);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+  }
+  .prose :global(a:hover) {
+    color: var(--ink);
+  }
+
+  .prose :global(strong) {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  .prose :global(em) {
+    font-style: italic;
+  }
+
+  .prose :global(ul),
+  .prose :global(ol) {
+    margin: 0 0 1.4em;
+    padding-left: 1.4em;
+  }
+  .prose :global(ul) { list-style: disc; }
+  .prose :global(ol) { list-style: decimal; }
+  .prose :global(li) {
+    margin: 0 0 0.4em;
+    padding-left: 0.4em;
+  }
+  .prose :global(li::marker) {
+    color: var(--terracotta);
+  }
+
+  .prose :global(blockquote) {
+    margin: 2em 0;
+    padding: 0.2em 0 0.2em 1.5em;
+    border-left: 3px solid var(--terracotta);
+    font-style: italic;
+    font-size: 1.08em;
+    color: var(--ink-soft);
+  }
+  .prose :global(blockquote p) {
+    margin: 0 0 0.8em;
+  }
+  .prose :global(blockquote p:last-child) {
+    margin-bottom: 0;
+  }
+
+  .prose :global(code) {
+    font-family: var(--mono);
+    font-size: 0.9em;
+    padding: 1px 6px;
+    background: var(--paper-2);
+    border-radius: 0;
+  }
+
+  .prose :global(hr) {
+    border: 0;
+    border-top: 1px solid var(--ink);
+    opacity: 0.4;
+    margin: 3em 0;
+  }
+
+  .prose :global(img) {
+    max-width: 100%;
+    height: auto;
+    margin: 2em 0;
+  }
+
+  @media (max-width: 768px) {
+    .article-header { padding: 60px 20px 28px; }
+    .article-body { padding: 28px 20px 72px; }
+    .prose { margin-top: 32px; }
+  }
 </style>

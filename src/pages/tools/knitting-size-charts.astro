@@ -249,7 +249,6 @@ const faqs = [
   title="Knitting Size Charts: Body Measurements for Baby, Child, Women & Men"
   description="Standard body measurement charts for knitting. Baby through adult sizes with chest, waist, hips, arm length, and more, in cm and inches."
   canonicalPath="/tools/knitting-size-charts"
-  bodyClass="landing"
   showStripe={false}
 >
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -287,6 +286,7 @@ const faqs = [
       <p class="hero-intro gs-hero">Standard body measurements for every knitting project. Pick a category and unit to see the chart.</p>
       <p class="hero-note gs-hero">These are body measurements, not finished garment measurements. Add ease for the fit you want.</p>
 
+      <div class="form-card variant-terracotta is-wide">
       <div class="chart-controls gs-form">
         <div class="tab-scroller">
           <div class="tabs" role="tablist" aria-label="Size category">
@@ -366,6 +366,7 @@ const faqs = [
           </div>
         ))}
       </div>
+      </div>
     </div>
   </section>
 
@@ -426,7 +427,7 @@ const faqs = [
             <input type="email" placeholder="your@email.com" required class="waitlist-input" />
             <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
           </div>
-          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play and Amazon Appstore. Launch price <strong>€8.99</strong>.</p>
+          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play. Launch price <strong>€8.99</strong>.</p>
         </div>
 
         <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
