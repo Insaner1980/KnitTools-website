@@ -2,11 +2,11 @@
 
 @import './typography.css';
 
-/* --- Fonts (v11 retro: Caprasimo display + General Sans body + Teko logo) --- */
+/* --- Fonts (v11 retro: Lalezar display + General Sans body + Teko logo) --- */
 
 @font-face {
-  font-family: 'Caprasimo';
-  src: url('/fonts/caprasimo.woff2') format('woff2');
+  font-family: 'Lalezar';
+  src: url('/fonts/lalezar.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -94,7 +94,7 @@
   --text-on-light: #2E2A26;
   --text-on-light-muted: #5C5750;
 
-  --font-display: 'Caprasimo', Georgia, serif;
+  --font-display: 'Lalezar', Georgia, serif;
   --font-logo: 'Teko', sans-serif;
   --font-body: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
@@ -154,7 +154,7 @@
   --amber-hover: #A05F32;
   --wheat:       #C4A661;
 
-  --serif:   "Caprasimo", Georgia, serif;
+  --serif:   "Lalezar", Georgia, serif;
   --body-ed: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   --mono:    "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -206,7 +206,7 @@ body {
   padding: 0;
   padding-top: 80px;
   color: var(--text-on-light);
-  background: var(--cream);
+  background: var(--paper);
   -webkit-font-smoothing: antialiased;
 }
 

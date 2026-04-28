@@ -1,7 +1,11 @@
 ---
+interface Props {
+  variant?: 'hero' | 'page';
+}
+const { variant = 'hero' } = Astro.props;
 ---
 
-<section class="closing-cta" aria-labelledby="closing-heading">
+<section class:list={['closing-cta', `closing-cta--${variant}`]} aria-labelledby="closing-heading">
   <div class="inner">
     <p class="eyebrow">Be there at launch</p>
     <h2 id="closing-heading">Where every stitch<br /><em>counts.</em></h2>
@@ -45,7 +49,6 @@
 <style>
   .closing-cta {
     position: relative;
-    background: var(--paper);
     padding: 160px 40px;
     text-align: center;
   }
@@ -72,6 +75,14 @@
     letter-spacing: -0.02em;
     margin: 0 0 48px;
     color: var(--ink);
+  }
+  .closing-cta--page h2 {
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    line-height: 1.1;
+    margin: 0 0 32px;
+  }
+  .closing-cta--page {
+    padding: 96px 40px;
   }
   h2 em {
     color: var(--terracotta);

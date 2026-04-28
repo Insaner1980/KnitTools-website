@@ -29,21 +29,17 @@
         </p>
         <p class="signup-meta">
           Coming 2026 to Google Play. 14-day free trial.<br>
-          Launch price <strong>€8.99</strong>, rises to €11.99 after two months.
+          Launch price <strong>$8.99</strong>, rises to $11.99 after two months.
         </p>
       </form>
     </div>
 
     <div class="hero-badge" aria-hidden="true">
-      <img
-        src="/coming-soon-badge.png"
-        alt=""
-        width="280"
-        height="280"
-        loading="eager"
-        decoding="async"
-        class="hero-badge-img"
-      />
+      <svg class="hero-badge-svg" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Coming soon">
+        <circle cx="140" cy="140" r="130" class="badge-circle" />
+        <text x="140" y="135" text-anchor="middle" class="badge-text">COMING</text>
+        <text x="140" y="190" text-anchor="middle" class="badge-text">SOON</text>
+      </svg>
     </div>
   </div>
 
@@ -134,8 +130,10 @@
     color: var(--terracotta);
   }
   .hero-head .head-3 em {
+    display: inline-block;
     font-style: italic;
     color: var(--terracotta);
+    margin-left: -0.18em;
   }
 
   .dek {
@@ -226,11 +224,22 @@
     align-items: center;
     transform: translate(-150px, -130px);
   }
-  .hero-badge-img {
-    width: 280px !important;
-    height: 280px !important;
-    max-width: 280px;
+  .hero-badge-svg {
+    width: 280px;
+    height: 280px;
     display: block;
+    transform: rotate(-10deg);
+  }
+  .badge-circle {
+    fill: var(--terracotta);
+  }
+  .badge-text {
+    fill: var(--paper);
+    font-family: var(--body-ed);
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
   }
 
   .visually-hidden {
@@ -266,10 +275,9 @@
     .hero-badge {
       order: -1;
     }
-    .hero-badge-img {
-      width: 180px !important;
-      height: 180px !important;
-      max-width: 180px;
+    .hero-badge-svg {
+      width: 180px;
+      height: 180px;
     }
     .signup-row { flex-direction: column; }
     .signup input { border-right: 1.5px solid var(--ink); border-bottom: 0; }

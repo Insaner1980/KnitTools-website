@@ -1,0 +1,135 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { CATEGORY_LABELS, CATEGORY_COLORS, type CategorySlug } from '../lib/categories';
+
+interface Props {
+  article: CollectionEntry<'articles'>;
+  featured?: boolean;
+  showCategory?: boolean;
+}
+
+const { article, featured = false, showCategory = true } = Astro.props;
+const category = article.data.category as CategorySlug;
+const colorClass = CATEGORY_COLORS[category];
+const label = CATEGORY_LABELS[category];
+---
+
+<a
+  href={`/articles/${article.id}`}
+  class:list={[
+    'article-card',
+    colorClass,
+    featured ? 'card-featured' : 'card-half',
+  ]}
+>
+  {showCategory && <span class="tag">{label}</span>}
+  <h3 class="card-title">{article.data.title}</h3>
+  <p class="card-desc">{article.data.description}</p>
+  <div class="card-meta">
+    <time datetime={article.data.publishDate.toISOString()}>
+      {article.data.publishDate.toLocaleDateString('en-US', {
+        year: 'numeric', month: 'long', day: 'numeric',
+      })}
+    </time>
+    {article.data.readTime && <span class="dot">·</span>}
+    {article.data.readTime && <span>{article.data.readTime}</span>}
+  </div>
+</a>
+
+<style>
+  .card-featured { grid-column: 1 / -1; min-height: 260px; }
+  .card-half     { grid-column: span 6;  min-height: 220px; }
+
+  .card-terracotta { --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.92); --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 1); --card-fg: #F4EAD9; }
+  .card-rust       { --card-bg: rgb(from var(--stripe-rust) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-rust) r g b / 1);       --card-fg: #F4EAD9; }
+  .card-sand       { --card-bg: rgb(from var(--stripe-sand) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-sand) r g b / 1);       --card-fg: #2A1E17; }
+  .card-teal       { --card-bg: rgb(from var(--stripe-teal) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-teal) r g b / 1);       --card-fg: #F4EAD9; }
+  .card-brown      { --card-bg: rgb(from var(--stripe-brown) r g b / 0.92);      --card-bg-hover: rgb(from var(--stripe-brown) r g b / 1);      --card-fg: #F4EAD9; }
+
+  .article-card {
+    background-color: var(--card-bg);
+    border-radius: 0;
+    padding: 32px 32px 28px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 14px;
+    transition: background-color 0.2s ease;
+  }
+
+  .article-card:hover { background-color: var(--card-bg-hover); }
+  .article-card:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+  .article-card .tag {
+    align-self: flex-start;
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2A1E17;
+    background: var(--paper);
+    padding: 4px 12px;
+    border-radius: 9999px;
+  }
+
+  .card-title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.9vw, 1.9rem);
+    color: var(--card-fg);
+    margin: 0 0 4px;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    padding-bottom: 0.04em;
+    text-transform: none;
+  }
+
+  .card-featured .card-title {
+    font-size: clamp(1.85rem, 2.6vw, 2.6rem);
+  }
+
+  .card-desc {
+    font-family: var(--body-ed);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--card-fg);
+    line-height: 1.5;
+    margin: 0;
+    opacity: 0.9;
+  }
+
+  .card-featured .card-desc {
+    font-size: 16px;
+    max-width: 620px;
+  }
+
+  .card-meta {
+    margin-top: auto;
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: var(--card-fg);
+    opacity: 0.78;
+  }
+
+  .card-meta .dot { opacity: 0.5; }
+
+  @media (max-width: 1024px) {
+    .card-half { grid-column: span 1; }
+  }
+
+  @media (max-width: 768px) {
+    .card-featured, .card-half {
+      grid-column: span 1;
+      min-height: auto;
+      padding: 28px 24px;
+    }
+  }
+</style>

@@ -1,0 +1,189 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../../../layouts/PageLayout.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import {
+  CATEGORY_ORDER,
+  CATEGORY_LABELS,
+  CATEGORY_DESCRIPTIONS,
+  type CategorySlug,
+} from '../../../lib/categories';
+
+export async function getStaticPaths() {
+  return CATEGORY_ORDER.map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const category = slug as CategorySlug;
+const label = CATEGORY_LABELS[category];
+const description = CATEGORY_DESCRIPTIONS[category];
+
+const articles = await getCollection('articles', ({ data }) =>
+  data.category === category && (import.meta.env.DEV ? true : !data.draft)
+);
+const sortedArticles = articles.sort((a, b) => {
+  const dateDiff = b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
+  if (dateDiff !== 0) return dateDiff;
+  return a.data.title.localeCompare(b.data.title);
+});
+---
+
+<PageLayout
+  title={`${label}. Knitting Guides`}
+  description={description}
+  canonicalPath={`/articles/category/${slug}`}
+  showStripe={false}
+>
+  <section class="cat-header-section">
+    <div class="cat-header-inner">
+      <p class="back">
+        <a href="/articles">&larr; All articles</a>
+      </p>
+      <p class="eyebrow">Category</p>
+      <h1>{label}.</h1>
+      <p class="cat-intro">{description}</p>
+    </div>
+  </section>
+
+  <section class="cat-grid-section">
+    {sortedArticles.length === 0 ? (
+      <div class="empty-state">
+        <p class="empty-eyebrow">Coming soon</p>
+        <p class="empty-text">No articles in this category yet.</p>
+        <a href="/articles" class="empty-link">Back to all articles &rarr;</a>
+      </div>
+    ) : (
+      <div class="articles-grid">
+        {sortedArticles.map((article) => (
+          <ArticleCard article={article} showCategory={false} />
+        ))}
+      </div>
+    )}
+  </section>
+</PageLayout>
+
+<style>
+  .cat-header-section {
+    color: var(--ink);
+    padding: 80px 40px 48px;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .cat-header-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .back {
+    margin: 0 0 24px;
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .back a {
+    color: var(--terracotta);
+    text-decoration: none;
+  }
+
+  .back a:hover { color: var(--ink); }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 20px;
+  }
+
+  .cat-header-section h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    text-transform: none;
+    margin: 0 0 20px;
+    padding-bottom: 0.08em;
+  }
+
+  .cat-intro {
+    font-family: var(--body-ed);
+    font-weight: 400;
+    font-size: clamp(17px, 1.5vw, 20px);
+    color: var(--ink);
+    max-width: 640px;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .cat-grid-section {
+    padding: 48px 40px 100px;
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .empty-state {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 40px;
+    border: 1px solid var(--ink);
+    background: var(--paper-2);
+  }
+
+  .empty-eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 14px;
+  }
+
+  .empty-text {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.4rem, 2.4vw, 2rem);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 0 0 20px;
+  }
+
+  .empty-link {
+    font-family: var(--mono);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    text-decoration: none;
+    border-bottom: 1px solid var(--terracotta);
+    padding-bottom: 2px;
+  }
+
+  .empty-link:hover { color: var(--ink); border-bottom-color: var(--ink); }
+
+  @media (max-width: 1024px) {
+    .articles-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 768px) {
+    .cat-header-section { padding: 60px 20px 36px; }
+    .cat-grid-section { padding: 36px 20px 72px; }
+    .articles-grid { grid-template-columns: 1fr; gap: 12px; }
+    .empty-state { padding: 40px 24px; }
+  }
+</style>
