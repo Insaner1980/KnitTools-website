@@ -6,3 +6,7 @@ dist/
 .claude/
 .codex
 .playwright-mcp/
+
+# Python
+__pycache__/
+*.pyc
