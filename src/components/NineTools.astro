@@ -116,6 +116,10 @@ const aiFeatures = [
       <h2 id="nine-heading" class="title">Every tool,<br /><em>talking to each other.</em></h2>
     </header>
 
+    <p class="manifesto">
+      The row you were on, the yarn you forgot, the pattern that made no sense at midnight. <em>KnitTools remembers it all,</em> so the only thing you do is keep knitting.
+    </p>
+
     <div class="tier-head" aria-hidden="true">
       <span class="tier-label">Free forever</span>
       <span class="tier-count">{freeCards.length} tools</span>
@@ -260,7 +264,22 @@ const aiFeatures = [
   .section-head {
     padding-bottom: 18px;
     border-bottom: 1px solid var(--ink);
-    margin-bottom: 48px;
+    margin-bottom: 28px;
+  }
+
+  .manifesto {
+    font-family: var(--body-ed);
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--ink);
+    max-width: 580px;
+    margin: 0 0 40px;
+  }
+  .manifesto em {
+    font-style: italic;
+    font-weight: 500;
+    color: var(--terracotta);
   }
   .section-head .section-label {
     display: inline-flex;
