@@ -5,16 +5,29 @@
   <div class="hero-inner">
     <div class="hero-text">
       <p class="eyebrow">An Android app for knitters</p>
-      <h1 id="hero-heading" class="hero-head">
-        <span class="head-line head-1">Every</span>
-        <span class="head-line head-2">knitting tool.</span>
-        <span class="head-line head-3"><em>One app.</em></span>
+      <h1 id="hero-heading" class="wordmark" aria-label="KnitTools">
+        <span class="wordmark-line">Knit</span>
+        <span class="wordmark-line">Tools</span>
       </h1>
-      <p class="dek">The row you were on, the yarn you forgot, the pattern that made no sense at midnight. <strong>KnitTools remembers it all</strong>, so the only thing you do is keep knitting.</p>
+      <p class="tagline"><em>Every knitting tool. <span class="accent">One app.</span></em></p>
+    </div>
+
+    <aside class="signup-card" aria-label="Launch signup">
+      <h2 class="card-head">Coming May 2026</h2>
+      <p class="card-copy">Be first to know when KnitTools launches on Google Play.</p>
 
       <form class="signup" id="hero-signup" action="#" method="post">
         <label for="hero-email" class="visually-hidden">Email address</label>
-        <div class="signup-row" data-content>
+        <label for="hero-website" class="visually-hidden">Leave this field empty</label>
+        <input
+          id="hero-website"
+          name="website"
+          type="text"
+          class="visually-hidden"
+          tabindex="-1"
+          autocomplete="off"
+        />
+        <div class="signup-rows" data-content>
           <input
             id="hero-email"
             type="email"
@@ -22,63 +35,119 @@
             required
             autocomplete="email"
           />
-          <button type="submit" class="btn-primary">Notify me at launch</button>
+          <button type="submit" class="btn-notify">Notify me at launch</button>
         </div>
         <p class="signup-success" data-success aria-hidden="true">
           You're in. We'll email you at launch.
         </p>
-        <p class="signup-meta">
-          Coming 2026 to Google Play. 14-day free trial.<br>
-          Launch price <strong>$8.99</strong>, rises to $11.99 after two months.
+        <p class="signup-error" data-error aria-hidden="true">
+          Something went wrong. Please try again.
+        </p>
+        <p class="card-caption">
+          $8.99 at launch (rises to $11.99). 14-day free trial.
         </p>
       </form>
-    </div>
-
-    <div class="hero-badge" aria-hidden="true">
-      <svg class="hero-badge-svg" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Coming soon">
-        <circle cx="140" cy="140" r="130" class="badge-circle" />
-        <text x="140" y="135" text-anchor="middle" class="badge-text">COMING</text>
-        <text x="140" y="190" text-anchor="middle" class="badge-text">SOON</text>
-      </svg>
-    </div>
+    </aside>
   </div>
-
 </section>
 
 <script is:inline>
   (() => {
+    const ENDPOINT = 'https://api.finnvek.com/subscribe';
+
     const form = document.getElementById('hero-signup');
     if (!form) return;
+
     const content = form.querySelector('[data-content]');
     const success = form.querySelector('[data-success]');
-    form.addEventListener('submit', (e) => {
+    const errorEl = form.querySelector('[data-error]');
+    const button = form.querySelector('button[type="submit"]');
+    const emailInput = form.querySelector('input[type="email"]');
+    const honeypot = form.querySelector('input[name="website"]');
+    const originalText = button ? button.textContent : 'Notify me at launch';
+
+    const showSuccess = () => {
+      if (content) content.style.display = 'none';
+      if (errorEl) {
+        errorEl.style.display = 'none';
+        errorEl.setAttribute('aria-hidden', 'true');
+      }
+      if (success) {
+        success.style.display = 'block';
+        success.setAttribute('aria-hidden', 'false');
+      }
+    };
+
+    const showError = (message) => {
+      if (button) {
+        button.disabled = false;
+        button.textContent = originalText;
+      }
+      if (errorEl) {
+        errorEl.textContent = message;
+        errorEl.style.display = 'block';
+        errorEl.setAttribute('aria-hidden', 'false');
+      }
+    };
+
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      content.style.display = 'none';
-      success.style.display = 'block';
-      success.setAttribute('aria-hidden', 'false');
+      if (!form.reportValidity()) return;
+
+      if (button) {
+        button.disabled = true;
+        button.textContent = 'Sending…';
+      }
+      if (errorEl) {
+        errorEl.style.display = 'none';
+        errorEl.setAttribute('aria-hidden', 'true');
+      }
+
+      try {
+        const res = await fetch(ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            email: emailInput ? emailInput.value.trim() : '',
+            source: 'knittools',
+            website: honeypot ? honeypot.value : '',
+          }),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (res.ok && data.success) {
+          showSuccess();
+        } else {
+          showError(data.error || 'Something went wrong. Please try again.');
+        }
+      } catch {
+        showError('Network error. Please check your connection.');
+      }
     });
   })();
 </script>
 
-
 <style>
   .hero-editorial {
     position: relative;
-    padding: 6rem 2rem;
+    padding: 4rem 2rem 4rem;
     overflow: hidden;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
   }
 
   .hero-inner {
+    width: 100%;
     max-width: 1280px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 4rem;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 5rem;
     align-items: center;
   }
 
   .hero-text {
-    max-width: 60ch;
+    min-width: 0;
   }
 
   .eyebrow {
@@ -88,86 +157,91 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--terracotta);
-    margin: 0 0 20px;
+    margin: 0 0 28px;
     text-align: left;
   }
 
-  h1 {
-    font-family: var(--font-display);
-    font-weight: 400;
-    line-height: 1.0;
-    letter-spacing: -0.005em;
-    margin: 0 0 28px;
+  .wordmark {
+    font-family: var(--font-logo);
+    font-weight: 500;
+    font-size: clamp(64px, 12vw, 180px);
+    line-height: 0.75;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
     color: var(--ink);
-  }
-  .hero-head {
-    display: block;
+    margin: 0;
+    padding: 0;
     text-align: left;
-    line-height: 1.0;
-    margin: 0 0 28px;
   }
-  .hero-head .head-line {
+  .wordmark-line {
     display: block;
-    text-align: left;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-    text-indent: 0 !important;
-    color: var(--ink);
-  }
-  .hero-head .head-1,
-  .hero-head .head-2 {
-    font-size: clamp(3rem, 6vw, 6.5rem);
-    line-height: 1.05;
-    letter-spacing: -0.005em;
-    font-style: normal;
-    color: var(--ink);
-  }
-  .hero-head .head-3 {
-    font-size: clamp(4rem, 8vw, 8rem);
-    line-height: 0.95;
-    letter-spacing: -0.01em;
-    margin-top: 0.05em;
-    color: var(--terracotta);
-  }
-  .hero-head .head-3 em {
-    display: inline-block;
-    font-style: italic;
-    color: var(--terracotta);
-    margin-left: -0.18em;
+    line-height: 0.75;
+    margin: 0;
+    padding: 0;
   }
 
-  .dek {
+  .tagline {
     font-family: var(--body-ed);
-    font-size: clamp(17px, 1.5vw, 20px);
-    line-height: 1.6;
+    font-size: clamp(28px, 3.4vw, 44px);
+    line-height: 1.2;
     color: var(--ink);
-    max-width: 50ch;
-    margin: 3rem 0 0;
+    margin: 16px 0 0;
+    padding: 0;
     text-align: left;
   }
-  .dek strong {
+  .tagline em {
+    font-style: italic;
+  }
+  .tagline .accent {
     color: var(--terracotta);
+    font-weight: 700;
+  }
+
+  .signup-card {
+    background: var(--paper-2);
+    border: 1.5px solid var(--ink);
+    padding: 2.25rem 2rem;
+    max-width: 460px;
+    width: 100%;
+    justify-self: end;
+    align-self: center;
+  }
+
+  .card-head {
+    font-family: var(--font-body);
+    font-size: 13px;
     font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 12px;
+  }
+
+  .card-copy {
+    font-family: var(--body-ed);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--ink);
+    margin: 0 0 20px;
   }
 
   .signup {
-    max-width: 480px;
-    margin: 2rem 0 0;
+    margin: 0;
     width: 100%;
   }
-  .signup-row {
+  .signup-rows {
     display: flex;
-    gap: 0;
-    align-items: stretch;
+    flex-direction: column;
+    gap: 10px;
   }
   .signup input {
-    flex: 1;
+    width: 100%;
+    box-sizing: border-box;
     font-family: var(--body-ed);
     font-size: 16px;
-    padding: 14px 20px;
+    padding: 14px 16px;
     border: 1.5px solid var(--ink);
-    border-right: 0;
-    background: var(--paper-2);
+    background: var(--paper);
     color: var(--ink);
     border-radius: 0;
     min-width: 0;
@@ -176,7 +250,8 @@
     outline: 2px solid var(--terracotta);
     outline-offset: 2px;
   }
-  .btn-primary {
+  .btn-notify {
+    width: 100%;
     font-family: var(--font-body);
     font-size: 13px;
     font-weight: 600;
@@ -190,11 +265,11 @@
     cursor: pointer;
     transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
   }
-  .btn-primary:hover {
+  .btn-notify:hover {
     background: var(--terracotta);
     border-color: var(--terracotta);
   }
-  .btn-primary:focus-visible {
+  .btn-notify:focus-visible {
     outline: 2px solid var(--terracotta);
     outline-offset: 3px;
   }
@@ -208,38 +283,21 @@
     margin: 0;
     padding: 8px 0;
   }
-  .signup-meta {
-    max-width: 50ch;
-    margin: 1.5rem 0 0;
-    text-align: left;
+  .signup-error {
+    display: none;
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 16px;
+    color: var(--ink-soft, var(--ink));
+    margin: 0;
+    padding: 8px 0;
+  }
+  .card-caption {
+    margin: 14px 0 0;
     font-family: var(--body-ed);
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 1.45;
     color: var(--ink-soft);
-  }
-  .signup-meta strong { color: var(--terracotta); font-weight: 600; }
-
-  .hero-badge {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translate(-150px, -130px);
-  }
-  .hero-badge-svg {
-    width: 280px;
-    height: 280px;
-    display: block;
-    transform: rotate(-10deg);
-  }
-  .badge-circle {
-    fill: var(--terracotta);
-  }
-  .badge-text {
-    fill: var(--paper);
-    font-family: var(--body-ed);
-    font-size: 44px;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
   }
 
   .visually-hidden {
@@ -254,32 +312,21 @@
     border: 0;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     .hero-editorial {
-      padding: 4rem 1.5rem;
+      min-height: auto;
+      padding: 5rem 1.5rem 3.5rem;
     }
     .hero-inner {
       grid-template-columns: 1fr;
       gap: 3rem;
     }
-    .hero-text {
+    .signup-card {
+      justify-self: stretch;
       max-width: 100%;
     }
-    .head-1,
-    .head-2 {
-      font-size: clamp(2.5rem, 10vw, 4rem);
+    .wordmark {
+      font-size: clamp(64px, 18vw, 140px);
     }
-    .head-3 {
-      font-size: clamp(3rem, 13vw, 5rem);
-    }
-    .hero-badge {
-      order: -1;
-    }
-    .hero-badge-svg {
-      width: 180px;
-      height: 180px;
-    }
-    .signup-row { flex-direction: column; }
-    .signup input { border-right: 1.5px solid var(--ink); border-bottom: 0; }
   }
 </style>

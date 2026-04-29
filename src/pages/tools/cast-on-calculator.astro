@@ -70,15 +70,25 @@ import CastOnCalculator from '../../components/CastOnCalculator.astro';
   <section class="waitlist-cta">
     <div class="waitlist-inner">
       <form class="waitlist-form" action="#" method="post" id="waitlist-form">
+        <label class="visually-hidden" for="waitlist-website">Leave this field empty</label>
+        <input
+          class="visually-hidden"
+          id="waitlist-website"
+          name="website"
+          type="text"
+          tabindex="-1"
+          autocomplete="off"
+        />
         <!-- Initial Form State (Including headers) -->
         <div class="waitlist-content-layer" id="waitlist-content-layer">
           <h2 class="gs-clip-reveal waitlist-head">Every tool. <em>One app.</em></h2>
           <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators.</p>
           <div class="waitlist-row gs-fade-up" id="waitlist-row">
-            <input type="email" placeholder="your@email.com" required class="waitlist-input" />
+            <input type="email" name="email" placeholder="your@email.com" required class="waitlist-input" />
             <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
           </div>
-          <p class="gs-fade-up waitlist-meta">Coming 2026 to Google Play. Launch price <strong>$8.99</strong>.</p>
+          <p class="gs-fade-up waitlist-meta">Coming May 2026 to Google Play. Launch price <strong>$8.99</strong>.</p>
+          <p class="waitlist-error" id="waitlist-error" role="alert" aria-live="polite" hidden></p>
         </div>
         
         <!-- Big Spinner Loading State -->
@@ -245,23 +255,67 @@ import CastOnCalculator from '../../components/CastOnCalculator.astro';
     const waitlistSuccess = document.getElementById('waitlist-success');
 
     if (waitlistForm && waitlistContentLayer && waitlistLoading && waitlistSuccess) {
-      waitlistForm.addEventListener('submit', (e) => {
+      waitlistForm.addEventListener('submit', async (e) => {
         e.preventDefault();
-        
+
+        const emailInput = waitlistForm.querySelector('input[type="email"]');
+        const honeypot = waitlistForm.querySelector('input[name="website"]');
+        const errorEl = document.getElementById('waitlist-error');
+
         // Lock height to prevent page jumping when content becomes absolute
         const height = waitlistForm.offsetHeight;
         waitlistForm.style.minHeight = `${height}px`;
 
-        // 1. Morph to Big Spinner Loading state!
+        if (errorEl) {
+          errorEl.hidden = true;
+          errorEl.textContent = '';
+        }
+
+        // 1. Morph to Big Spinner Loading state
         waitlistContentLayer.classList.add('is-hidden');
         waitlistLoading.classList.add('is-visible');
 
-        // 2. Simulate API request and morph to Success message
-        setTimeout(() => {
+        let success = false;
+        let errorMessage = 'Something went wrong. Please try again.';
+
+        try {
+          const res = await fetch('https://api.finnvek.com/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              email: emailInput ? emailInput.value.trim() : '',
+              source: 'knittools',
+              website: honeypot ? honeypot.value : '',
+            }),
+          });
+          const data = await res.json().catch(() => ({}));
+          if (res.ok && data.success) {
+            success = true;
+          } else if (data.error) {
+            errorMessage = data.error;
+          }
+        } catch {
+          errorMessage = 'Network error. Please check your connection.';
+        }
+
+        // Minimum spinner visibility for perceived smoothness
+        await new Promise((r) => setTimeout(r, 600));
+
+        if (success) {
+          // 2. Morph loading -> success
           waitlistLoading.classList.remove('is-visible');
           waitlistLoading.classList.add('is-hidden');
           waitlistSuccess.classList.add('is-visible');
-        }, 1500); // 1.5 seconds simulation
+        } else {
+          // 2b. Revert loading -> content with inline error
+          waitlistLoading.classList.remove('is-visible');
+          waitlistLoading.classList.add('is-hidden');
+          waitlistContentLayer.classList.remove('is-hidden');
+          if (errorEl) {
+            errorEl.textContent = errorMessage;
+            errorEl.hidden = false;
+          }
+        }
       });
     }
   }
@@ -485,6 +539,14 @@ import CastOnCalculator from '../../components/CastOnCalculator.astro';
     color: var(--ink-soft);
     line-height: 1.55;
     margin: 16px 0 0;
+  }
+  .waitlist-error {
+    margin: 16px 0 0;
+    font-family: var(--font-body, var(--body-ed));
+    font-style: italic;
+    font-size: 14px;
+    color: var(--ink-soft, var(--ink));
+    text-align: center;
   }
   .waitlist-meta strong {
     color: var(--terracotta);
