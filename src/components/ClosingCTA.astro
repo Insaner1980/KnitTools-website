@@ -12,9 +12,19 @@ const { variant = 'hero' } = Astro.props;
 
     <form class="signup" id="join" action="#" method="post">
       <label for="closing-email" class="visually-hidden">Email address</label>
+      <label for="closing-website" class="visually-hidden">Leave this field empty</label>
+      <input
+        id="closing-website"
+        name="website"
+        type="text"
+        class="visually-hidden"
+        tabindex="-1"
+        autocomplete="off"
+      />
       <div class="signup-row" data-content>
         <input
           id="closing-email"
+          name="email"
           type="email"
           placeholder="your@email.com"
           required
@@ -25,6 +35,9 @@ const { variant = 'hero' } = Astro.props;
       <p class="signup-success" data-success aria-hidden="true">
         Reserved. See you at launch.
       </p>
+      <p class="signup-error" data-error aria-hidden="true">
+        Something went wrong. Please try again.
+      </p>
     </form>
 
     <p class="meta">Free tier from day one. No card required.</p>
@@ -33,15 +46,75 @@ const { variant = 'hero' } = Astro.props;
 
 <script is:inline>
   (() => {
+    const ENDPOINT = 'https://api.finnvek.com/subscribe';
+
     const form = document.getElementById('join');
     if (!form) return;
+
     const content = form.querySelector('[data-content]');
     const success = form.querySelector('[data-success]');
-    form.addEventListener('submit', (e) => {
+    const errorEl = form.querySelector('[data-error]');
+    const button = form.querySelector('button[type="submit"]');
+    const emailInput = form.querySelector('input[type="email"]');
+    const honeypot = form.querySelector('input[name="website"]');
+    const originalText = button ? button.textContent : 'Reserve my price';
+
+    const showSuccess = () => {
+      if (content) content.style.display = 'none';
+      if (errorEl) {
+        errorEl.style.display = 'none';
+        errorEl.setAttribute('aria-hidden', 'true');
+      }
+      if (success) {
+        success.style.display = 'block';
+        success.setAttribute('aria-hidden', 'false');
+      }
+    };
+
+    const showError = (message) => {
+      if (button) {
+        button.disabled = false;
+        button.textContent = originalText;
+      }
+      if (errorEl) {
+        errorEl.textContent = message;
+        errorEl.style.display = 'block';
+        errorEl.setAttribute('aria-hidden', 'false');
+      }
+    };
+
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      content.style.display = 'none';
-      success.style.display = 'block';
-      success.setAttribute('aria-hidden', 'false');
+      if (!form.reportValidity()) return;
+
+      if (button) {
+        button.disabled = true;
+        button.textContent = 'Sending…';
+      }
+      if (errorEl) {
+        errorEl.style.display = 'none';
+        errorEl.setAttribute('aria-hidden', 'true');
+      }
+
+      try {
+        const res = await fetch(ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            email: emailInput ? emailInput.value.trim() : '',
+            source: 'knittools',
+            website: honeypot ? honeypot.value : '',
+          }),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (res.ok && data.success) {
+          showSuccess();
+        } else {
+          showError(data.error || 'Something went wrong. Please try again.');
+        }
+      } catch {
+        showError('Network error. Please check your connection.');
+      }
     });
   })();
 </script>
@@ -134,6 +207,15 @@ const { variant = 'hero' } = Astro.props;
     font-style: italic;
     font-size: 20px;
     color: var(--terracotta);
+    margin: 0;
+    padding: 8px 0;
+  }
+  .signup-error {
+    display: none;
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 16px;
+    color: var(--ink-soft, var(--ink));
     margin: 0;
     padding: 8px 0;
   }
