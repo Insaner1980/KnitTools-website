@@ -4,7 +4,6 @@ description: "Compare knitting needle materials: metal, wood, bamboo, plastic, a
 publishDate: 2026-05-01
 category: needles
 tags: ["knitting needle material", "best knitting needles material", "wood vs metal needles", "bamboo knitting needles"]
-draft: true
 ---
 Needle material changes how yarn moves, how the needle feels in your hand, and how tired your hands get after an hour. That's why the same knitter can reach for metal on one project and bamboo on the next.
 

@@ -4,7 +4,6 @@ description: "Figure out what yarn you have when the label is missing. Tests for
 publishDate: 2026-05-01
 category: yarn
 tags: ["identify mystery yarn", "yarn without label", "burn test yarn", "WPI test yarn weight"]
-draft: true
 ---
 Most knitters end up with mystery yarn eventually. The label fell off, the yarn came from someone else's stash, or the skein never had much information to begin with. Thrift store bags, inherited collections, odds and ends from swaps.
 

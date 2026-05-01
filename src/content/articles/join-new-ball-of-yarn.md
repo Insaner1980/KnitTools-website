@@ -4,7 +4,6 @@ description: "Learn how to join a new ball of yarn while knitting. Covers the ov
 publishDate: 2026-05-01
 category: techniques
 tags: ["join new ball of yarn knitting", "attach new yarn knitting", "change yarn ball mid row", "yarn joining methods knitting"]
-draft: true
 ---
 The old skein runs out. The new one needs to start. The transition has to be invisible in the finished fabric and secure enough not to unravel.
 

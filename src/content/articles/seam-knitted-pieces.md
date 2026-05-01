@@ -4,7 +4,6 @@ description: "Learn how to join knitted pieces with mattress stitch, whip stitch
 publishDate: 2026-05-01
 category: techniques
 tags: ["seam knitted pieces together", "mattress stitch knitting", "join knitting pieces", "sew knitting together"]
-draft: true
 ---
 Seaming is the least glamorous part of knitting and the part most likely to be procrastinated. A pile of finished sweater pieces can sit in a project bag for weeks because nobody's excited about sewing them together. But a good seam is invisible, and a bad one can ruin an otherwise well-knit garment.
 

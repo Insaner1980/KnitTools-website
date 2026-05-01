@@ -4,7 +4,6 @@ description: "Learn how to knit a hat with this guide to hat construction. Cover
 publishDate: 2026-05-01
 category: techniques
 tags: ["how to knit a hat", "knit hat beginners", "hat knitting guide", "knit beanie pattern"]
-draft: true
 ---
 A hat is one of the best second or third projects after a scarf. It introduces knitting in the round, decreasing, and basic shaping, all in a small, fast project that produces something you'll actually wear. Most worsted weight hats can be finished in a few evenings.
 

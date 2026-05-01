@@ -4,7 +4,6 @@ description: "Calculate how much yarn you need for a knitted sweater. Yardage es
 publishDate: 2026-05-01
 category: yarn
 tags: ["yarn for sweater", "yarn yardage calculator", "how much yarn do I need", "skeins needed", "yarn estimator", "yarn quantity", "sweater knitting"]
-draft: true
 ---
 # How much yarn for a sweater?
 

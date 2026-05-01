@@ -4,7 +4,6 @@ description: "Calculate how much yarn you need for a knitted blanket. Yardage es
 publishDate: 2026-05-01
 category: yarn
 tags: ["yarn for blanket", "yarn yardage calculator", "how much yarn do I need", "skeins needed", "yarn estimator", "yarn quantity", "blanket knitting"]
-draft: true
 ---
 # How much yarn for a blanket?
 

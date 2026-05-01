@@ -4,7 +4,6 @@ description: "Find the best knitting needle size for beginners. Covers recommend
 publishDate: 2026-05-01
 category: needles
 tags: ["what size knitting needles for beginners", "best needle size to learn knitting", "beginner knitting needle size", "first knitting needles"]
-draft: true
 ---
 US 8 (5.0 mm). That's the short answer. If you're buying your first pair and want one recommendation, a US 8 in bamboo or wood, paired with worsted weight yarn, gives you the most forgiving combination for learning.
 

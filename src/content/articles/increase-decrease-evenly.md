@@ -4,7 +4,6 @@ description: "Learn how to space increases and decreases evenly across a row. In
 publishDate: 2026-05-01
 category: gauge-calculations
 tags: ["increase evenly across row knitting", "decrease evenly knitting", "space increases evenly", "evenly distribute stitches"]
-draft: true
 ---
 "Increase 8 stitches evenly across next row." The pattern moves on. You're left staring at your needle doing mental arithmetic.
 

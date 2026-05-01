@@ -5,7 +5,6 @@ publishDate: 2026-05-01
 category: techniques
 categoryRank: 1
 tags: ["how to knit a scarf beginner", "first knitting project scarf", "easy knit scarf", "beginner scarf pattern"]
-draft: true
 ---
 A scarf is the best first knitting project because it's a rectangle. No shaping, no counting rows for specific lengths, no fitting. Cast on, knit until it's long enough, bind off. The skills you practice (casting on, the knit stitch, binding off) are the foundation for everything else you'll ever knit.
 

@@ -4,7 +4,6 @@ description: "Understand the parts of a knitted sock and how sock patterns are s
 publishDate: 2026-05-01
 category: techniques
 tags: ["how to knit socks", "sock knitting guide", "knit socks beginners", "sock pattern anatomy"]
-draft: true
 ---
 Socks look intimidating because they involve techniques you don't encounter in scarves and hats: turning a heel, picking up gusset stitches, grafting the toe with Kitchener stitch. But each section of a sock is individually straightforward. The complexity is in how the parts connect, not in the knitting itself.
 

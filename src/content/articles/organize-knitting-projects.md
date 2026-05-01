@@ -5,7 +5,6 @@ publishDate: 2026-05-01
 category: app-tools
 categoryRank: 3
 tags: ["organize knitting projects", "WIP management", "knitting project tracker", "track knitting progress", "multiple projects", "knitting time tracker"]
-draft: true
 ---
 # How to organize multiple WIP knitting projects
 

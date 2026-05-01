@@ -5,7 +5,6 @@ publishDate: 2026-05-01
 category: yarn
 categoryRank: 3
 tags: ["how to read a yarn label", "yarn label symbols", "yarn ball band", "yarn label care symbols"]
-draft: true
 ---
 That little paper band wrapped around a skein? It's doing more than holding the yarn together. Every symbol, number, and icon on it exists because somebody, somewhere, bought the wrong yarn or ruined a finished sweater in the wash. The label is the cheat sheet they wished they'd read first.
 

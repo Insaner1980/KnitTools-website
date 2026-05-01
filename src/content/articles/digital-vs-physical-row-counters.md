@@ -4,7 +4,6 @@ description: "Mechanical clickers vs row counter apps. An honest comparison. Pro
 publishDate: 2026-05-01
 category: app-tools
 tags: ["digital row counter", "row counter app", "knitting row counter", "stitch counter", "row counter android", "keep track of rows", "hands-free knitting counter"]
-draft: true
 ---
 The barrel-shaped clicker on the end of a needle has been the default knitting row counter for decades. Cheap, no batteries, works. But row counter apps have gotten good, and for knitters working anything more complex than a scarf, the digital version does things the physical one can't.
 

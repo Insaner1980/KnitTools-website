@@ -4,7 +4,6 @@ description: "How to substitute a different yarn weight in a knitting pattern. C
 publishDate: 2026-05-01
 category: yarn
 tags: ["yarn weight substitution", "substitute thicker yarn knitting", "change yarn weight pattern", "knitting different weight yarn"]
-draft: true
 ---
 Switching brands within the same weight category is one thing. Switching the actual yarn weight is a bigger move. Sometimes that's exactly the point. Sometimes it quietly turns into a redesign.
 

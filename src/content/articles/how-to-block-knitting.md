@@ -4,7 +4,6 @@ description: "Learn how to block knitted items with wet blocking, steam blocking
 publishDate: 2026-05-01
 category: techniques
 tags: ["how to block knitting", "wet blocking knitting", "steam blocking", "spray blocking knitting"]
-draft: true
 ---
 Blocking is the process of wetting, steaming, or spraying a finished knitted piece and shaping it to its intended dimensions. It turns lumpy, uneven knitting into finished fabric. Stitches even out, the fabric relaxes to its intended dimensions, and lace opens up from cramped tangles into recognizable designs. Some projects barely need it. Others are unrecognizable without it.
 

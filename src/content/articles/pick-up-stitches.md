@@ -4,7 +4,6 @@ description: "Learn how to pick up stitches along horizontal, vertical, and curv
 publishDate: 2026-05-01
 category: techniques
 tags: ["pick up stitches knitting", "pick up and knit", "pick up stitches along edge", "pick up stitches neckline"]
-draft: true
 ---
 Picking up stitches creates a new row of live stitches along an existing edge, so you can knit a border, neckband, button band, or collar directly onto the piece without sewing anything. Turns a raw edge into a finished one.
 

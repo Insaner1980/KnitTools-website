@@ -5,7 +5,6 @@ publishDate: 2026-05-01
 category: app-tools
 categoryRank: 2
 tags: ["track rows knitting", "knitting row counter", "keep track of rows", "stitch counter", "digital row counter", "row counter app"]
-draft: true
 ---
 You set the project down to answer the door. Pick it back up twenty minutes later. Was that row 14 or 15? In stockinette it might not matter. In a lace pattern where odd and even rows do completely different things, one row off means ripping back.
 

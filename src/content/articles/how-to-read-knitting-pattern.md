@@ -5,7 +5,6 @@ publishDate: 2026-05-01
 category: techniques
 categoryRank: 2
 tags: ["how to read a knitting pattern", "knitting pattern for beginners", "reading knitting instructions", "understand knitting pattern"]
-draft: true
 ---
 Knitting patterns have their own language and formatting conventions. A pattern is structured in predictable sections: materials and gauge at the top, then row-by-row instructions using standardized abbreviations, with sizing presented as parenthetical numbers throughout. The first time you open one, it looks like a wall of shorthand. But once you recognize the sections, the whole thing becomes readable.
 

@@ -4,7 +4,6 @@ description: "Understand how repeats work in knitting patterns. Clear examples o
 publishDate: 2026-05-01
 category: techniques
 tags: ["knitting pattern repeats", "asterisk knitting pattern", "bracket repeat knitting", "how to read knitting repeats"]
-draft: true
 ---
 Repeats are how patterns avoid writing out every stitch across a 200-stitch row. Instead of "k2, p2, k2, p2, k2, p2..." twenty-five times over, the pattern writes "*k2, p2; rep from * to end." Same result, far less space.
 

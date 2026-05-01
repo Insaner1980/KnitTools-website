@@ -4,7 +4,6 @@ description: "Understand why stockinette stitch curls and what to do about it. C
 publishDate: 2026-05-01
 category: techniques
 tags: ["why does knitting curl", "stockinette curl fix", "knitting curling edges", "how to stop knitting from curling"]
-draft: true
 ---
 Stockinette curls. Not a tension problem, not a yarn problem, not something you're doing wrong. It's physics.
 

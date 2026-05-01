@@ -4,7 +4,6 @@ description: "Understand the confusing \"at the same time\" instruction in knitt
 publishDate: 2026-05-01
 category: techniques
 tags: ["at the same time knitting pattern", "simultaneous knitting instructions", "knitting pattern at same time", "concurrent shaping knitting"]
-draft: true
 ---
 It means what it says, which is exactly why it's confusing. Two different things happen on the same rows, and the pattern describes them separately even though you do them together.
 

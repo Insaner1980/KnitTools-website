@@ -4,7 +4,6 @@ description: "Learn how to swap yarn in a knitting pattern without ruining the p
 publishDate: 2026-05-01
 category: yarn
 tags: ["substitute yarn knitting pattern", "yarn substitution guide", "swap yarn knitting", "alternative yarn for pattern"]
-draft: true
 ---
 The pattern yarn is discontinued. Or it's $30 a skein and the budget says otherwise. Or it's 100% wool and the recipient will toss the finished item in the washing machine on day one.
 

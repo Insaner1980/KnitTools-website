@@ -4,7 +4,6 @@ description: "Compare circular, straight, and double-pointed knitting needles. L
 publishDate: 2026-05-01
 category: needles
 tags: ["circular vs straight needles knitting", "when to use DPN needles", "circular needles vs straight", "types of knitting needles"]
-draft: true
 ---
 Three needle types exist because different projects ask different things. Straight needles handle flat work. Circulars handle flat work and tubes. DPNs handle small circumferences. Once that basic logic clicks, needle shopping gets a lot less overwhelming.
 

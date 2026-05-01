@@ -4,7 +4,6 @@ description: "How wool, cotton, acrylic, and fiber blends differ in knitting. Co
 publishDate: 2026-05-01
 category: yarn
 tags: ["yarn fibers compared", "wool vs cotton knitting", "acrylic vs wool yarn", "best yarn fiber for knitting"]
-draft: true
 ---
 Knit the same cable swatch in wool and cotton, hold them side by side, and they'll look like they came from different patterns. The wool version bounces. Cables pop. The cotton version droops a little, hangs flatter, shows every stitch with almost uncomfortable honesty. Same needle, same hands, same stitch count. Completely different fabric.
 
