@@ -134,7 +134,9 @@ import RegionalPricingNote from './RegionalPricingNote.astro';
     position: relative;
     padding: 4rem 2rem 4rem;
     overflow: hidden;
-    min-height: 80vh;
+    /* 80px body padding + ~70px marquee = 150px reserved so the
+       marquee strip lands fully inside the first viewport. */
+    min-height: calc(100vh - 160px);
     display: flex;
     align-items: center;
   }
