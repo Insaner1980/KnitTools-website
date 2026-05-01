@@ -17,7 +17,7 @@ const articles = defineCollection({
     readTime: z.string().optional(),
     publishDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    categoryRank: z.number().int().min(1).max(3).optional(),
+    categoryOrder: z.number().int().min(1).optional(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
   }),

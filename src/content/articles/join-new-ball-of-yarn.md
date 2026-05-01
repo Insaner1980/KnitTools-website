@@ -3,6 +3,7 @@ title: "How to Join a New Ball of Yarn Mid-Row. 4 Methods Compared"
 description: "Learn how to join a new ball of yarn while knitting. Covers the overlap method, Russian join, spit splice, and magic knot, with pros and cons of each."
 publishDate: 2026-05-01
 category: techniques
+categoryOrder: 5
 tags: ["join new ball of yarn knitting", "attach new yarn knitting", "change yarn ball mid row", "yarn joining methods knitting"]
 ---
 The old skein runs out. The new one needs to start. The transition has to be invisible in the finished fabric and secure enough not to unravel.

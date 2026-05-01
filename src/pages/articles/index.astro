@@ -15,35 +15,14 @@ const articles = await getCollection('articles', ({ data }) =>
   import.meta.env.DEV ? true : !data.draft
 );
 
-const sortByDateThenTitle = (a: typeof articles[number], b: typeof articles[number]) => {
-  const dateDiff = b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
-  if (dateDiff !== 0) return dateDiff;
-  return a.data.title.localeCompare(b.data.title);
-};
-
-const sortByCategoryRank = (a: typeof articles[number], b: typeof articles[number]) => {
-  const rankDiff = (a.data.categoryRank ?? 999) - (b.data.categoryRank ?? 999);
-  if (rankDiff !== 0) return rankDiff;
-  return sortByDateThenTitle(a, b);
-};
-
-const getPreviewArticles = (categoryArticles: typeof articles) => {
-  const ranked = categoryArticles
-    .filter((a) => a.data.categoryRank)
-    .sort(sortByCategoryRank);
-  const rankedIds = new Set(ranked.map((a) => a.id));
-  const fallback = categoryArticles
-    .filter((a) => !rankedIds.has(a.id))
-    .sort(sortByDateThenTitle);
-
-  return [...ranked, ...fallback].slice(0, 3);
-};
+const byCategoryOrder = (a: typeof articles[number], b: typeof articles[number]) =>
+  (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999);
 
 const sections = CATEGORY_ORDER.map((slug) => {
   const categoryArticles = articles
     .filter((a) => a.data.category === slug)
-    .sort(sortByDateThenTitle);
-  const previewArticles = getPreviewArticles(categoryArticles);
+    .sort(byCategoryOrder);
+  const previewArticles = categoryArticles.slice(0, 3);
 
   return {
     slug,

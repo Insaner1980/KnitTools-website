@@ -3,7 +3,7 @@ title: "What to Do When Your Gauge Doesn't Match the Pattern"
 description: "Your gauge swatch doesn't match the pattern. Here's how to diagnose the problem and fix it. Needle changes, fabric feel, and when it's fine to ignore it."
 publishDate: 2026-05-01
 category: gauge-calculations
-categoryRank: 3
+categoryOrder: 3
 tags: ["gauge doesn't match", "gauge adjustment", "knitting gauge calculator", "gauge swatch", "pattern gauge", "stitches per inch", "swatch measurement"]
 ---
 Your swatch gives you 19 stitches over 4 inches. The pattern wants 20. One stitch per inch doesn't sound like much until you multiply it across a 40-inch sweater front and realize the finished piece is going to be two inches too wide. That's the difference between a garment that fits and one that hangs off your shoulders.

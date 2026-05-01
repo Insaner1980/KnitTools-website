@@ -3,6 +3,7 @@ title: "Yarn Weight Substitution - When and How to Go Up or Down"
 description: "How to substitute a different yarn weight in a knitting pattern. Covers recalculating stitch counts, adjusting needle size, yardage changes, and when it works vs when it doesn't."
 publishDate: 2026-05-01
 category: yarn
+categoryOrder: 7
 tags: ["yarn weight substitution", "substitute thicker yarn knitting", "change yarn weight pattern", "knitting different weight yarn"]
 ---
 Switching brands within the same weight category is one thing. Switching the actual yarn weight is a bigger move. Sometimes that's exactly the point. Sometimes it quietly turns into a redesign.

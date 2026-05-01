@@ -3,6 +3,7 @@ title: "How Many Stitches to Cast On - Calculating Cast-On Count from Gauge"
 description: "Learn how to calculate the right number of cast-on stitches for any knitting project using your gauge swatch. Covers width, pattern repeats, and edge stitches."
 publishDate: 2026-05-01
 category: gauge-calculations
+categoryOrder: 5
 tags: ["how many stitches to cast on", "cast on calculator knitting", "calculate stitches for width", "knitting stitch count"]
 ---
 Before the first row, before picking a cast-on method, before anything else. You need a number. And that number comes from gauge, not from the yarn label, not from what worked on your last project, and definitely not from a hopeful guess.

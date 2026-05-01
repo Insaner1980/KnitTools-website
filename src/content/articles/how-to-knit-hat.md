@@ -3,6 +3,7 @@ title: "How to Knit a Hat. Choosing the Right Method for Your Skill Level"
 description: "Learn how to knit a hat with this guide to hat construction. Covers bottom-up circular, flat and seamed, sizing, crown shaping, and choosing the right yarn."
 publishDate: 2026-05-01
 category: techniques
+categoryOrder: 12
 tags: ["how to knit a hat", "knit hat beginners", "hat knitting guide", "knit beanie pattern"]
 ---
 A hat is one of the best second or third projects after a scarf. It introduces knitting in the round, decreasing, and basic shaping, all in a small, fast project that produces something you'll actually wear. Most worsted weight hats can be finished in a few evenings.

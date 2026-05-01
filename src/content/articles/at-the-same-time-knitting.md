@@ -3,6 +3,7 @@ title: "What Does \"At the Same Time\" Mean in Knitting Patterns?"
 description: "Understand the confusing \"at the same time\" instruction in knitting patterns. Learn how to track two simultaneous actions with practical examples and tips."
 publishDate: 2026-05-01
 category: techniques
+categoryOrder: 8
 tags: ["at the same time knitting pattern", "simultaneous knitting instructions", "knitting pattern at same time", "concurrent shaping knitting"]
 ---
 It means what it says, which is exactly why it's confusing. Two different things happen on the same rows, and the pattern describes them separately even though you do them together.

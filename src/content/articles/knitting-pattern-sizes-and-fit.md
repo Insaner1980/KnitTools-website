@@ -3,6 +3,7 @@ title: "Understanding Knitting Pattern Sizes and Fit. Ease, Measurements & Choos
 description: "Learn how to choose the right size in a knitting pattern. Covers ease, body measurements, schematic reading, and why pattern sizes don't match store sizes."
 publishDate: 2026-05-01
 category: techniques
+categoryOrder: 7
 tags: ["knitting pattern sizes", "ease in knitting", "how to choose knitting size", "knitting pattern fit"]
 ---
 A pattern labeled "Medium" might fit like a tent on one person and feel tight on another. Pattern sizes aren't clothing store sizes. They're based on finished garment measurements, and the relationship between your body and those measurements determines how the thing actually fits.

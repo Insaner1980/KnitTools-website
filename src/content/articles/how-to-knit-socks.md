@@ -3,6 +3,7 @@ title: "How to Knit Socks. Anatomy of a Sock Pattern"
 description: "Understand the parts of a knitted sock and how sock patterns are structured. Covers cuff-down vs toe-up, heel types, yarn choices, and what makes sock knitting different."
 publishDate: 2026-05-01
 category: techniques
+categoryOrder: 13
 tags: ["how to knit socks", "sock knitting guide", "knit socks beginners", "sock pattern anatomy"]
 ---
 Socks look intimidating because they involve techniques you don't encounter in scarves and hats: turning a heel, picking up gusset stitches, grafting the toe with Kitchener stitch. But each section of a sock is individually straightforward. The complexity is in how the parts connect, not in the knitting itself.
