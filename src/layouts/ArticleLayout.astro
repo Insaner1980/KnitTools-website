@@ -7,13 +7,12 @@ interface Props {
   title: string;
   description: string;
   category: CategorySlug;
-  readTime?: string;
   publishDate: Date;
   updatedDate?: Date;
   tags: string[];
 }
 
-const { title, description, category, readTime, publishDate, updatedDate } = Astro.props;
+const { title, description, category, publishDate, updatedDate } = Astro.props;
 const categoryLabel = CATEGORY_LABELS[category];
 const formattedUpdated = updatedDate?.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
 const formattedPublished = publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
@@ -31,7 +30,6 @@ const dateLabel = formattedUpdated ? `Updated ${formattedUpdated}` : `Published 
         <h1>{title}</h1>
         <p class="article-meta">
           <span>By KnitTools</span>
-          {readTime && <span>{readTime}</span>}
           <span>{dateLabel}</span>
         </p>
       </div>

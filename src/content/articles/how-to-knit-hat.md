@@ -8,7 +8,7 @@ draft: true
 ---
 A hat is one of the best second or third projects after a scarf. It introduces knitting in the round, decreasing, and basic shaping, all in a small, fast project that produces something you'll actually wear. Most worsted weight hats can be finished in a few evenings.
 
-To knit a basic hat, cast on stitches for the head circumference minus 1–2 inches of negative ease, work ribbing for the brim, knit the body in stockinette, then [decrease evenly](/increase-decrease-evenly) at the crown. Several construction methods exist. The right one depends on what techniques you know and what equipment you have.
+To knit a basic hat, cast on stitches for the head circumference minus 1–2 inches of negative ease, work ribbing for the brim, knit the body in stockinette, then [decrease evenly](/articles/increase-decrease-evenly) at the crown. Several construction methods exist. The right one depends on what techniques you know and what equipment you have.
 
 ## Method 1: bottom-up in the round
 
@@ -24,7 +24,7 @@ No seam. Looks clean, feels comfortable. This is how most hat patterns are writt
 
 Knit the hat as a flat rectangle on straight needles, then sew the side seam.
 
-Cast on, work ribbing, knit the body, decrease across RS rows, bind off when a few stitches remain, then sew the seam with [mattress stitch](/seam-knitted-pieces).
+Cast on, work ribbing, knit the body, decrease across RS rows, bind off when a few stitches remain, then sew the seam with [mattress stitch](/articles/seam-knitted-pieces).
 
 Only uses flat knitting skills. Good if you're not ready for circulars. Trade-off: a seam. Mattress stitch makes it nearly invisible, but it adds a step and a slight ridge inside.
 
@@ -81,6 +81,6 @@ Can you knit a hat on straight needles? Yes, using the flat-and-seamed method. T
 
 How do you avoid the jog in stripes? The color change at the round beginning creates a visible step. The jogless jog technique (slip the first stitch of the new color on the second round) minimizes it. Solid-color hats don't have this issue.
 
-What if the hat is too big? Easiest fix on a finished hat: thread elastic through the inside of the brim. For next time, [swatch more carefully](/how-to-measure-knitting-gauge) or choose one size smaller. A slightly small hat stretches to fit. Too big slides off.
+What if the hat is too big? Easiest fix on a finished hat: thread elastic through the inside of the brim. For next time, [swatch more carefully](/articles/how-to-measure-knitting-gauge) or choose one size smaller. A slightly small hat stretches to fit. Too big slides off.
 
 Can you add ear flaps? Yes. Ear flaps are triangular extensions picked up from the brim or cast on as part of it. To add them to a pattern that doesn't include them: identify ear positions (centered over each ear, about one-quarter of the circumference apart), pick up 10–15 stitches at each position, decrease to a point over 8–12 rows.

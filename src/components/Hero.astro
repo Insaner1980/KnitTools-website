@@ -1,4 +1,7 @@
 ---
+import { PRICING } from '../config/pricing';
+import RegionalPrice from './RegionalPrice.astro';
+import RegionalPricingNote from './RegionalPricingNote.astro';
 ---
 
 <section class="hero-editorial" aria-labelledby="hero-heading">
@@ -13,7 +16,7 @@
     </div>
 
     <aside class="signup-card" aria-label="Launch signup">
-      <h2 class="card-head">Coming May 2026</h2>
+      <h2 class="card-head">Coming {PRICING.launchMonthLabel}</h2>
       <p class="card-copy">Be first to know when KnitTools launches on Google Play.</p>
 
       <form class="signup" id="hero-signup" action="#" method="post">
@@ -44,7 +47,7 @@
           Something went wrong. Please try again.
         </p>
         <p class="card-caption">
-          $8.99 at launch (rises to $11.99). 14-day free trial.
+          <RegionalPrice phase="launch" /> at launch (rises to <RegionalPrice phase="permanent" />). {PRICING.trialDays}-day free trial. <RegionalPricingNote />
         </p>
       </form>
     </aside>

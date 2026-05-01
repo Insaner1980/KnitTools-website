@@ -8,13 +8,13 @@ draft: true
 ---
 The old skein runs out. The new one needs to start. The transition has to be invisible in the finished fabric and secure enough not to unravel.
 
-The four main methods are the overlap join (simplest, two tails to weave in), Russian join (no tails, slightly thicker), spit splice (invisible but only for feltable wool), and magic knot (fast but leaves a knot). The best choice depends on the yarn's [fiber content](/yarn-fibers-compared) and how much you care about weaving in ends.
+The four main methods are the overlap join (simplest, two tails to weave in), Russian join (no tails, slightly thicker), spit splice (invisible but only for feltable wool), and magic knot (fast but leaves a knot). The best choice depends on the yarn's [fiber content](/articles/yarn-fibers-compared) and how much you care about weaving in ends.
 
 ## Method 1: the overlap join
 
 Simplest. Start knitting with the new yarn, leaving 6-inch tails on both old and new. Knit the first few stitches with the new yarn, holding the old tail alongside. Drop the old tail after a few stitches. Weave in both ends later.
 
-Works with any yarn, needs no prep, and you can do it mid-row or at the edge. The downside: two tails to weave in, and the overlap stitches can look slightly thicker until the ends are woven in and the fabric is [blocked](/how-to-block-knitting). This is the method most knitters learn first, and it's the right choice whenever weaving in ends doesn't bother you.
+Works with any yarn, needs no prep, and you can do it mid-row or at the edge. The downside: two tails to weave in, and the overlap stitches can look slightly thicker until the ends are woven in and the fabric is [blocked](/articles/how-to-block-knitting). This is the method most knitters learn first, and it's the right choice whenever weaving in ends doesn't bother you.
 
 Some knitters prefer to join at row beginnings rather than mid-row. The tails end up at the edge where they're easier to hide in a seam. For flat pieces that get seamed, this is cleanest. For knitting in the round, there's no edge, so mid-round joining is unavoidable.
 

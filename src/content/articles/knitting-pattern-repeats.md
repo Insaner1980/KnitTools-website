@@ -77,7 +77,7 @@ If you follow the repeat and end up with leftover stitches (or run out too early
 
 4. Check errata. If the math genuinely doesn't work with the right stitch count, the pattern may have an error. Look at the designer's errata page or Ravelry notes.
 
-For the broader context on [reading knitting patterns](/how-to-read-knitting-pattern), including sizes, abbreviations, and charts, that's covered separately.
+For the broader context on [reading knitting patterns](/articles/how-to-read-knitting-pattern), including sizes, abbreviations, and charts, that's covered separately.
 
 ## FAQ
 

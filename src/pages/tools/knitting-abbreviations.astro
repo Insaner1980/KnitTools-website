@@ -1,5 +1,8 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
+import { PRICING } from '../../config/pricing';
+import RegionalPrice from '../../components/RegionalPrice.astro';
+import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
 
 type Category =
   | 'cast-on-bind-off'
@@ -265,7 +268,7 @@ const faqs = [
   </section>
 
   <!-- 4. Waitlist CTA -->
-  <section class="waitlist-cta">
+  <section class="waitlist-cta" id="join">
     <div class="waitlist-inner">
       <form class="waitlist-form" action="#" method="post" id="waitlist-form">
         <label class="visually-hidden" for="waitlist-website">Leave this field empty</label>
@@ -284,7 +287,7 @@ const faqs = [
             <input type="email" name="email" placeholder="your@email.com" required class="waitlist-input" />
             <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
           </div>
-          <p class="gs-fade-up waitlist-meta">Coming May 2026 to Google Play. Launch price <strong>$8.99</strong>.</p>
+          <p class="gs-fade-up waitlist-meta">Coming {PRICING.launchMonthLabel} to Google Play. Launch price <strong><RegionalPrice phase="launch" /></strong>. <RegionalPricingNote /></p>
           <p class="waitlist-error" id="waitlist-error" role="alert" aria-live="polite" hidden></p>
         </div>
 

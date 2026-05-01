@@ -52,7 +52,7 @@ Still a niche choice. Usually more expensive. Worth trying if you're curious, bu
 
 Slippery yarn (silk, bamboo blends) is easier to manage on wood or bamboo because the friction keeps stitches from escaping. Grippy yarn (sticky wool, cotton) moves more freely on metal. For splitty yarn, a rounder tip shape helps more than the material itself. And for fuzzy yarn like mohair held double, a smoother surface prevents catching on every stitch.
 
-The [needle size chart](/needle-size-chart) covers sizing. The [needle type guide](/circular-vs-straight-vs-dpn) covers straight vs circular vs DPN. Material is the feel side, and all three decisions are mostly independent of each other.
+The [needle size chart](/tools/needle-size-chart) covers sizing. The [needle type guide](/articles/circular-vs-straight-vs-dpn) covers straight vs circular vs DPN. Material is the feel side, and all three decisions are mostly independent of each other.
 
 ## FAQ
 

@@ -32,7 +32,7 @@ This is where spacing matters. Rows and stitches aren't the same height. A typic
 
 The standard ratio for stockinette: 3 stitches for every 4 rows. Pick up in each of the first 3 rows, skip the 4th, repeat. Works for most gauges, but your specific numbers may need tweaking.
 
-To figure out the exact ratio: divide row gauge by stitch gauge. If your gauge is 20 stitches and 28 rows per 4 inches, the ratio is 20/28 = 0.71. That's roughly 7 stitches per 10 rows, or about 3 for every 4 (0.75, close enough). If you need to [check your gauge](/how-to-measure-knitting-gauge) first, start there.
+To figure out the exact ratio: divide row gauge by stitch gauge. If your gauge is 20 stitches and 28 rows per 4 inches, the ratio is 20/28 = 0.71. That's roughly 7 stitches per 10 rows, or about 3 for every 4 (0.75, close enough). If you need to [check your gauge](/articles/how-to-measure-knitting-gauge) first, start there.
 
 If the pattern gives an exact pickup count, divide that by the edge length in inches for the rate. Then distribute: pick up at that rate, spacing skipped rows as evenly as you can.
 
@@ -68,7 +68,7 @@ Be consistent along the entire edge. Switching methods mid-edge creates visible 
 
 **Uneven spacing.** Stretched sections and bunched sections. Before picking up, divide the edge into equal segments (mark with pins) and pick up the same count in each.
 
-**Gaps at corners.** Pick up from the very corner stitch and one stitch from each adjacent section. If a small hole persists, close it with a few stitches of yarn during finishing. The [seaming guide](/seam-knitted-pieces) covers closing techniques in more detail.
+**Gaps at corners.** Pick up from the very corner stitch and one stitch from each adjacent section. If a small hole persists, close it with a few stitches of yarn during finishing. The [seaming guide](/articles/seam-knitted-pieces) covers closing techniques in more detail.
 
 **Twisted stitches.** If the picked-up stitch sits with legs crossed, it'll look different when knitted. Leading leg should sit in front of the needle, consistent with your knitting style.
 

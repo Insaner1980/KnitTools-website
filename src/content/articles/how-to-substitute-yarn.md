@@ -14,7 +14,7 @@ Yarn substitution is normal. Most knitters do it more often than not. A successf
 
 This is the fastest filter. A DK pattern and a bulky substitute aren't a casual adjustment. That's a redesign.
 
-Check the Craft Yarn Council category on both the original and the substitute. Same category, same starting point. If one yarn sits at the heavy end and the other at the light end, the swap still works but expect more swatching than usual. The [yarn weight chart](/yarn-weight-chart) is the quickest way to compare when labels are vague or missing.
+Check the Craft Yarn Council category on both the original and the substitute. Same category, same starting point. If one yarn sits at the heavy end and the other at the light end, the swap still works but expect more swatching than usual. The [yarn weight chart](/tools/yarn-weight-chart) is the quickest way to compare when labels are vague or missing.
 
 Worth noting: "worsted weight" and "Aran weight" overlap enough that most swaps between them are manageable. Light fingering to heavy fingering, same story. But jumping a full category almost always means changing needle size, rethinking gauge, and possibly adjusting stitch counts. Not worth it unless the pattern is simple enough to adapt.
 
@@ -30,7 +30,7 @@ Knit with the substitute yarn and see whether you can hit the pattern gauge whil
 
 Weight and gauge tell you about size. Fiber tells you about everything else: how it feels, how it drapes, how it wears, and how it survives washing.
 
-The [fiber comparison guide](/yarn-fibers-compared) covers each fiber in depth, but here's what matters for substitution decisions. **Wool** does a lot of things right. It has elasticity and memory. It bounces back after stretching, holds cables and texture patterns beautifully, and usually responds well to blocking. Wool is forgiving during the knitting process too, because that grip between fibers keeps stitches from sliding around and lets you rip back without the yarn looking shredded. If a pattern was designed for wool and relies on that springy structure, swapping to a plant fiber will change the finished piece more than the gauge swatch will suggest.
+The [fiber comparison guide](/articles/yarn-fibers-compared) covers each fiber in depth, but here's what matters for substitution decisions. **Wool** does a lot of things right. It has elasticity and memory. It bounces back after stretching, holds cables and texture patterns beautifully, and usually responds well to blocking. Wool is forgiving during the knitting process too, because that grip between fibers keeps stitches from sliding around and lets you rip back without the yarn looking shredded. If a pattern was designed for wool and relies on that springy structure, swapping to a plant fiber will change the finished piece more than the gauge swatch will suggest.
 
 **Cotton** is the most common substitute that catches people off guard. It's heavier than wool at the same thickness, has almost no elasticity, and grows with gravity and washing. A cotton sweater will hang differently than a wool one even if gauge matches perfectly. That said, cotton works well in dishcloths, summer tops, and anything where drape rather than structure is the goal. Just don't expect it to hold a cable pattern the way wool does.
 

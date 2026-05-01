@@ -64,7 +64,7 @@ Fingering weight is standard because it produces thin, comfortable fabric that f
 
 Small-circumference tubes, so you need DPNs (set of 4 or 5), a long circular for magic loop, or two short circulars.
 
-Standard needle size for fingering weight sock yarn: US 1–3 (2.25–3.25 mm), depending on tension. [Swatch](/knitting-gauge-swatch) to find yours. Sock fabric should be denser than regular stockinette because socks take friction and weight-bearing.
+Standard needle size for fingering weight sock yarn: US 1–3 (2.25–3.25 mm), depending on tension. [Swatch](/articles/gauge-swatch-step-by-step) to find yours. Sock fabric should be denser than regular stockinette because socks take friction and weight-bearing.
 
 ## Skills you need before starting
 
@@ -73,11 +73,11 @@ Socks bring several techniques together:
 - **Knitting in the round** (DPNs or magic loop)
 - **Ribbing** (for the cuff)
 - **Heel construction** (short rows or heel flap)
-- **Picking up stitches** (for the gusset, covered in the [pick-up guide](/pick-up-stitches))
+- **Picking up stitches** (for the gusset, covered in the [pick-up guide](/articles/pick-up-stitches))
 - **Decreasing** (toe shaping: k2tog and ssk)
 - **Kitchener stitch** (grafting the toe, or a gathered toe as a simpler option)
 
-If you've [knit a hat](/how-to-knit-hat) in the round and can do basic decreases, you have most of what you need. The heel is the new part, and it's worth learning from a video the first time. Written heel-turning instructions can be opaque until you've seen the physical motion.
+If you've [knit a hat](/articles/how-to-knit-hat) in the round and can do basic decreases, you have most of what you need. The heel is the new part, and it's worth learning from a video the first time. Written heel-turning instructions can be opaque until you've seen the physical motion.
 
 ## Second sock syndrome
 

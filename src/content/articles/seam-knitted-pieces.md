@@ -64,7 +64,7 @@ Use a blunt tapestry needle. Sharp needles split yarn and poke through fabric in
 
 Use a long enough piece of yarn. Mid-seam joins create bumps. For long side seams where you need to join, do it at a less visible point.
 
-[Block before seaming](/how-to-block-knitting). Blocked pieces pin to correct dimensions and align more easily. Unblocked pieces may be slightly different sizes.
+[Block before seaming](/articles/how-to-block-knitting). Blocked pieces pin to correct dimensions and align more easily. Unblocked pieces may be slightly different sizes.
 
 Pin before sewing. Don't start at one end and hope the other lines up. Pin top, bottom, and middle first, then fill in. This distributes any length differences evenly.
 
@@ -79,7 +79,7 @@ The project yarn, because it matches. If the project yarn is textured, bulky, or
 Match the pattern across the seam. If both pieces end with a knit column, the seam should create a continuous knit column when closed. Use mattress stitch one half-stitch in: pick up bars at the boundary between knit and purl columns, not at the very edge. This preserves the ribbing across the join.
 
 **Can I avoid seaming entirely?**
-Yes. Choose patterns knit in one piece or in the round. Top-down, bottom-up seamless, circular yokes. These eliminate most or all finishing. [Hats](/how-to-knit-hat) and [socks](/how-to-knit-socks) knit in the round have no side seams at all. If you hate seaming, filter pattern searches for "seamless construction."
+Yes. Choose patterns knit in one piece or in the round. Top-down, bottom-up seamless, circular yokes. These eliminate most or all finishing. [Hats](/articles/how-to-knit-hat) and [socks](/articles/how-to-knit-socks) knit in the round have no side seams at all. If you hate seaming, filter pattern searches for "seamless construction."
 
 **My seam is puckering.**
 Pulling the yarn too tight. Mattress stitch should be snugged gently, not yanked. If you've pulled too tight, ease the yarn back through the last few stitches and re-tension.

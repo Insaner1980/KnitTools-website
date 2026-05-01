@@ -31,14 +31,12 @@ const label = CATEGORY_LABELS[category];
         year: 'numeric', month: 'long', day: 'numeric',
       })}
     </time>
-    {article.data.readTime && <span class="dot">·</span>}
-    {article.data.readTime && <span>{article.data.readTime}</span>}
   </div>
 </a>
 
 <style>
   .card-featured { grid-column: 1 / -1; min-height: 260px; }
-  .card-half     { grid-column: span 6;  min-height: 220px; }
+  .card-half     { grid-column: span 4;  min-height: 280px; }
 
   .card-terracotta { --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.92); --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 1); --card-fg: #F4EAD9; }
   .card-rust       { --card-bg: rgb(from var(--stripe-rust) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-rust) r g b / 1);       --card-fg: #F4EAD9; }
@@ -49,7 +47,7 @@ const label = CATEGORY_LABELS[category];
   .article-card {
     background-color: var(--card-bg);
     border-radius: 0;
-    padding: 32px 32px 28px;
+    padding: 30px 28px 28px;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -77,7 +75,7 @@ const label = CATEGORY_LABELS[category];
   .card-title {
     font-family: var(--serif);
     font-weight: 400;
-    font-size: clamp(1.5rem, 1.9vw, 1.9rem);
+    font-size: clamp(1.35rem, 1.45vw, 1.7rem);
     color: var(--card-fg);
     margin: 0 0 4px;
     line-height: 1.05;
@@ -119,8 +117,6 @@ const label = CATEGORY_LABELS[category];
     opacity: 0.78;
   }
 
-  .card-meta .dot { opacity: 0.5; }
-
   @media (max-width: 1024px) {
     .card-half { grid-column: span 1; }
   }
@@ -130,6 +126,10 @@ const label = CATEGORY_LABELS[category];
       grid-column: span 1;
       min-height: auto;
       padding: 28px 24px;
+    }
+
+    .card-title {
+      font-size: clamp(1.5rem, 7vw, 1.9rem);
     }
   }
 </style>

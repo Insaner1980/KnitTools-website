@@ -28,7 +28,7 @@ The cast-on number is only as good as the swatch behind it. Two mistakes cause p
 
 **Measuring before washing and blocking.** The swatch on the needles isn't the finished fabric. If the yarn changes after washing, your cast-on math changes too.
 
-No swatch yet? [Measuring gauge](/how-to-measure-knitting-gauge) covers the full process.
+No swatch yet? [Measuring gauge](/articles/how-to-measure-knitting-gauge) covers the full process.
 
 ## Adjusting for pattern repeats
 
@@ -64,7 +64,7 @@ When the cast-on is part of the finished fit (sock cuffs, hat brims), tension at
 
 ## Casting on for ribbing
 
-Ribbing pulls narrower than stockinette at the same stitch count. If the pattern calls for [increasing evenly](/increase-decrease-evenly) after the ribbing, that transition row handles the difference. That's the whole point of it. Some patterns keep the same stitch count through ribbing and body, others cast on fewer stitches for the ribbing and increase afterward. If you're designing your own piece, make that choice on purpose.
+Ribbing pulls narrower than stockinette at the same stitch count. If the pattern calls for [increasing evenly](/articles/increase-decrease-evenly) after the ribbing, that transition row handles the difference. That's the whole point of it. Some patterns keep the same stitch count through ribbing and body, others cast on fewer stitches for the ribbing and increase afterward. If you're designing your own piece, make that choice on purpose.
 
 ## Common cast-on counts for standard projects
 

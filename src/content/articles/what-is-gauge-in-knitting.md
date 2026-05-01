@@ -3,6 +3,7 @@ title: "What Is Gauge in Knitting and Why Does It Change?"
 description: "Understand what gauge means in knitting, why it varies between knitters, and what causes it to change mid-project. Practical guide with common causes and fixes."
 publishDate: 2026-05-01
 category: gauge-calculations
+categoryRank: 1
 tags: ["what is gauge in knitting", "knitting gauge explained", "why does gauge change", "knitting tension"]
 draft: true
 ---
@@ -32,7 +33,7 @@ The one that catches a lot of people: circular vs flat knitting. Flat stockinett
 
 The yarn itself adds another layer.
 
-Fiber content affects how stable gauge stays. Wool usually springs back. Cotton hangs heavier and keeps stretching. Superwash wool can shift after washing in ways untreated wool doesn't (the [fiber comparison guide](/yarn-fibers-compared) gets into this more).
+Fiber content affects how stable gauge stays. Wool usually springs back. Cotton hangs heavier and keeps stretching. Superwash wool can shift after washing in ways untreated wool doesn't (the [fiber comparison guide](/articles/yarn-fibers-compared) gets into this more).
 
 Yarn construction matters too. A dense, tightly plied yarn behaves differently from a lofty singles. Handspun can vary from one section to the next, and that variation is part of the deal. Even dye lot differences can shift the hand of the yarn slightly between skeins. Old stash yarn that's been compressed in a bin for two years doesn't always feel the same as a fresh skein.
 
@@ -60,7 +61,7 @@ Stitch gauge controls width. Row gauge controls height.
 
 When a pattern says "knit to 14 inches," row gauge matters less because you stop when the fabric reaches the target length. When the pattern says "knit 96 rows," row gauge matters much more because the length depends entirely on how tall each row is.
 
-For the practical swatch-and-ruler side of all this, the [gauge measurement guide](/how-to-measure-knitting-gauge) walks through the measuring process step by step. If you want a quick [step-by-step swatch walkthrough](/knitting-gauge-swatch) without the theory, that's also available.
+For the practical swatch-and-ruler side of all this, the [gauge measurement guide](/articles/how-to-measure-knitting-gauge) walks through the measuring process step by step. If you want a quick [step-by-step swatch walkthrough](/articles/gauge-swatch-step-by-step) without the theory, that's also available.
 
 ## FAQ
 
@@ -74,4 +75,4 @@ Risky. Yarn familiarity helps, but a different stitch pattern, different needle 
 Common. Stitch gauge and row gauge are related but not identical. Most patterns prioritize stitch gauge because width is harder to fix after the fact than length.
 
 **Does needle material affect gauge?**
-It can. Metal, wood, and bamboo create different friction against the yarn, and that's sometimes enough to shift gauge. The [needle materials guide](/knitting-needle-materials) covers how each affects your knitting. If you swatch on bamboo and knit the project on metal, check again.
+It can. Metal, wood, and bamboo create different friction against the yarn, and that's sometimes enough to shift gauge. The [needle materials guide](/articles/knitting-needle-materials) covers how each affects your knitting. If you swatch on bamboo and knit the project on metal, check again.

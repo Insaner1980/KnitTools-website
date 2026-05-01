@@ -2,12 +2,14 @@
 import { getCollection } from 'astro:content';
 import PageLayout from '../../../layouts/PageLayout.astro';
 import ArticleCard from '../../../components/ArticleCard.astro';
+import ClosingCTA from '../../../components/ClosingCTA.astro';
 import {
   CATEGORY_ORDER,
   CATEGORY_LABELS,
   CATEGORY_DESCRIPTIONS,
   type CategorySlug,
 } from '../../../lib/categories';
+import { PRICING } from '../../../config/pricing';
 
 export async function getStaticPaths() {
   return CATEGORY_ORDER.map((slug) => ({ params: { slug } }));
@@ -48,7 +50,7 @@ const sortedArticles = articles.sort((a, b) => {
   <section class="cat-grid-section">
     {sortedArticles.length === 0 ? (
       <div class="empty-state">
-        <p class="empty-eyebrow">Coming May 2026</p>
+        <p class="empty-eyebrow">Coming {PRICING.launchMonthLabel}</p>
         <p class="empty-text">No articles in this category yet.</p>
         <a href="/articles" class="empty-link">Back to all articles &rarr;</a>
       </div>
@@ -60,6 +62,7 @@ const sortedArticles = articles.sort((a, b) => {
       </div>
     )}
   </section>
+  <ClosingCTA variant="page" />
 </PageLayout>
 
 <style>

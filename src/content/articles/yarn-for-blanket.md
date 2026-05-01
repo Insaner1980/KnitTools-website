@@ -64,7 +64,7 @@ Check the yarn label for yards per skein. Divide total yardage by per-skein yard
 
 Your blanket needs about 2,200 yards. The yarn gives 220 yards per 100 g skein. That's 10 skeins. Buy 11. The extra accounts for gauge variation, cast-on tails, any frogging, and the reality that yarn estimation is a range, not a promise.
 
-Always buy an extra skein or two for blankets. The cost is trivial compared to running short three-quarters of the way through when the dye lot is gone. The [yarn estimation guide](/how-much-yarn-do-i-need) covers the weighing method for checking partial skeins mid-project.
+Always buy an extra skein or two for blankets. The cost is trivial compared to running short three-quarters of the way through when the dye lot is gone. The [yarn estimation guide](/articles/how-much-yarn-do-i-need) covers the weighing method for checking partial skeins mid-project.
 
 ## Dye lot planning
 

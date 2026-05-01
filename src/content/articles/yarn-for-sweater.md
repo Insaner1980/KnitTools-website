@@ -92,7 +92,7 @@ If you're on the edge (barely enough for the estimate) consider modifications th
 The difference is size, not construction. A men's L and a women's L at the same chest measurement use roughly the same yarn. Men's sweaters tend to run in larger size ranges overall, so in practice you often need more. But because the sweater is bigger, not because it's "men's."
 
 **Can I use a different yarn weight than the pattern calls for?**
-Yes, but the yardage changes substantially. Switching from worsted to DK increases total yardage by roughly 30–40% even though the yarn is thinner, because there are more stitches in every direction. The [yarn substitution guide](/how-to-substitute-yarn) covers the full process.
+Yes, but the yardage changes substantially. Switching from worsted to DK increases total yardage by roughly 30–40% even though the yarn is thinner, because there are more stitches in every direction. The [yarn substitution guide](/articles/how-to-substitute-yarn) covers the full process.
 
 **How much yarn does the yoke use on a top-down sweater?**
 The yoke typically accounts for 25–35% of total sweater yardage, depending on depth and shaping. Roughly a quarter to a third of the total for a standard round-yoke construction.

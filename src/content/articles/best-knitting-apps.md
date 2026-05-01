@@ -3,6 +3,7 @@ title: "Best Knitting Apps. What to Look for in a Knitting Toolkit"
 description: "What makes a good knitting app for Android or iOS? Compare features that matter: row counters, calculators, yarn management, and offline access. Find the right app for how you knit."
 publishDate: 2026-05-01
 category: app-tools
+categoryRank: 1
 tags: ["best knitting apps", "knitting app review", "knitting counter app", "knitting calculator app", "best knitting apps android"]
 draft: true
 ---
@@ -18,7 +19,7 @@ The feature most knitters download an app for in the first place. The baseline i
 
 **What separates a good row counter:**
 
-Multiple counters running simultaneously. For ["at the same time" instructions](/at-the-same-time-knitting) (armhole and neckline shaping on different intervals), you need at least two independent counters.
+Multiple counters running simultaneously. For ["at the same time" instructions](/articles/at-the-same-time-knitting) (armhole and neckline shaping on different intervals), you need at least two independent counters.
 
 Project association. A counter that remembers which project it belongs to and lets you switch without losing your place. If you're working on three things, resetting one counter shouldn't erase the others.
 
