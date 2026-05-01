@@ -3,7 +3,7 @@ title: "How Much Yarn Do I Need? Estimating Yarn for Any Knitting Project"
 description: "Calculate how much yarn you need for scarves, sweaters, blankets, and more. Covers estimation methods, yarn weight factors, and what to do with leftovers."
 publishDate: 2026-05-01
 category: yarn
-categoryRank: 2
+categoryOrder: 2
 tags: ["how much yarn do I need knitting", "yarn yardage calculator", "knitting yarn estimation", "how many skeins do I need"]
 ---
 Running out of yarn three-quarters through a project is its own special kind of defeat. The dye lot is gone. The shop is sold out. Or the replacement skein looks close enough in the store and completely wrong once it's knitted up next to the original. Two inches from the bind-off and the whole project stalls. This happens more often than it should, and it's almost always preventable.

@@ -3,7 +3,7 @@ title: "How to Fix Dropped Stitches Without Frogging"
 description: "Learn how to rescue dropped stitches in knitting using a crochet hook. Covers stockinette, purl side, garter stitch, and how to spot a dropped stitch before it runs."
 publishDate: 2026-05-01
 category: techniques
-categoryRank: 3
+categoryOrder: 3
 tags: ["fix dropped stitches knitting", "pick up dropped stitch", "rescue dropped stitch crochet hook", "dropped stitch ladder"]
 ---
 A dropped stitch doesn't mean ripping back the whole piece. In most cases you can rescue it with a crochet hook in under a minute. The stitch slides off the needle, and if you don't catch it, it runs down through the rows below like a ladder in a stocking. But every rung of that ladder is a strand of yarn waiting to be pulled back through, one row at a time, until the stitch is back on the needle.

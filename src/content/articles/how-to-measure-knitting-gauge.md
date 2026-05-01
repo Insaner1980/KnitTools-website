@@ -2,7 +2,7 @@
 title: "How to Measure Knitting Gauge"
 description: "Learn how to knit and measure a gauge swatch correctly. Covers washing, blocking, measuring technique, and what to do when your gauge is off."
 category: "gauge-calculations"
-categoryRank: 2
+categoryOrder: 2
 publishDate: 2026-04-27
 tags: ["gauge", "swatch", "calculations"]
 ---

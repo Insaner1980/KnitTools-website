@@ -3,7 +3,7 @@ title: "How to Knit Your First Scarf. A No-Nonsense Beginner Guide"
 description: "Everything you need to knit your first scarf: yarn, needles, cast on, knit stitch, and bind off. No complicated patterns, just a simple rectangle that actually looks good."
 publishDate: 2026-05-01
 category: techniques
-categoryRank: 1
+categoryOrder: 1
 tags: ["how to knit a scarf beginner", "first knitting project scarf", "easy knit scarf", "beginner scarf pattern"]
 ---
 A scarf is the best first knitting project because it's a rectangle. No shaping, no counting rows for specific lengths, no fitting. Cast on, knit until it's long enough, bind off. The skills you practice (casting on, the knit stitch, binding off) are the foundation for everything else you'll ever knit.

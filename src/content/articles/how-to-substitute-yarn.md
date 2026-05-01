@@ -3,6 +3,7 @@ title: "How to Substitute Yarn in a Knitting Pattern - A Practical Guide"
 description: "Learn how to swap yarn in a knitting pattern without ruining the project. Covers matching weight, gauge, fiber, yardage, and when substitution won't work."
 publishDate: 2026-05-01
 category: yarn
+categoryOrder: 6
 tags: ["substitute yarn knitting pattern", "yarn substitution guide", "swap yarn knitting", "alternative yarn for pattern"]
 ---
 The pattern yarn is discontinued. Or it's $30 a skein and the budget says otherwise. Or it's 100% wool and the recipient will toss the finished item in the washing machine on day one.

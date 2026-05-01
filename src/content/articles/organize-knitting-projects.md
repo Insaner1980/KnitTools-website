@@ -3,7 +3,7 @@ title: "How to Organize Multiple WIP Knitting Projects"
 description: "Managing several knitting projects at once without losing track of needles, yarn, or your place in the pattern. Practical systems that work."
 publishDate: 2026-05-01
 category: app-tools
-categoryRank: 3
+categoryOrder: 3
 tags: ["organize knitting projects", "WIP management", "knitting project tracker", "track knitting progress", "multiple projects", "knitting time tracker"]
 ---
 # How to organize multiple WIP knitting projects

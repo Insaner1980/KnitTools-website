@@ -3,6 +3,7 @@ title: "Free Knitting Calculators. Tools Every Knitter Needs"
 description: "Free online knitting calculators for cast-on stitches, yarn estimation, gauge conversion, and stitch spacing. No signup, no ads. Just accurate results."
 publishDate: 2026-05-01
 category: app-tools
+categoryOrder: 5
 tags: ["knitting calculators", "free knitting calculators", "cast on calculator", "yarn calculator", "gauge converter", "knitting tools"]
 ---
 Knitting involves more arithmetic than most people expect. How many stitches to cast on for a 9-inch-wide scarf at your gauge. How much yarn a blanket will eat. How to space 8 increases evenly across 64 stitches. None of this is hard math, but it comes up constantly, and getting it wrong means frogging.

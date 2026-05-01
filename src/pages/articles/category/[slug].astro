@@ -23,11 +23,9 @@ const description = CATEGORY_DESCRIPTIONS[category];
 const articles = await getCollection('articles', ({ data }) =>
   data.category === category && (import.meta.env.DEV ? true : !data.draft)
 );
-const sortedArticles = articles.sort((a, b) => {
-  const dateDiff = b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
-  if (dateDiff !== 0) return dateDiff;
-  return a.data.title.localeCompare(b.data.title);
-});
+const sortedArticles = articles.sort(
+  (a, b) => (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999)
+);
 ---
 
 <PageLayout

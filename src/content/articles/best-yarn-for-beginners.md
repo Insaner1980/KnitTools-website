@@ -3,7 +3,7 @@ title: "Best Yarn for Beginners. A Practical Guide to Your First Yarn"
 description: "Choose the right yarn for learning to knit. Covers which weight, fiber, and color to start with, what to avoid, and how much to buy for a first project."
 publishDate: 2026-05-01
 category: yarn
-categoryRank: 1
+categoryOrder: 1
 tags: ["best yarn for beginners", "beginner knitting yarn", "what yarn to start knitting", "first knitting project yarn"]
 ---
 The yarn aisle is overwhelming when you don't know what you're looking at. Walls of color, different thicknesses, labels full of unfamiliar terms. The best yarn for learning to knit is worsted weight (CYC category 4) in a light, solid color (acrylic for budget, wool/acrylic blend for a nicer feel) paired with US 7–9 bamboo or wood needles. For a first project, the choice is simpler than it looks. You want something forgiving, easy to work with, and cheap enough that mistakes don't feel expensive.

@@ -3,6 +3,7 @@ title: "How to Increase or Decrease Evenly Across a Knitting Row"
 description: "Learn how to space increases and decreases evenly across a row. Includes the formula, worked examples, and tips for clean results."
 publishDate: 2026-05-01
 category: gauge-calculations
+categoryOrder: 6
 tags: ["increase evenly across row knitting", "decrease evenly knitting", "space increases evenly", "evenly distribute stitches"]
 ---
 "Increase 8 stitches evenly across next row." The pattern moves on. You're left staring at your needle doing mental arithmetic.
