@@ -6,15 +6,16 @@ import Footer from '../components/Footer.astro';
 interface Props {
   title: string;
   description: string;
+  browserTitle?: string;
   canonicalPath?: string;
   showStripe?: boolean;
   bodyClass?: string;
 }
 
-const { title, description, canonicalPath, bodyClass } = Astro.props;
+const { title, description, browserTitle, canonicalPath, bodyClass } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} canonicalPath={canonicalPath} bodyClass={bodyClass}>
+<BaseLayout title={title} description={description} browserTitle={browserTitle} canonicalPath={canonicalPath} bodyClass={bodyClass}>
   <Navbar />
   <main id="main-content">
     <slot />

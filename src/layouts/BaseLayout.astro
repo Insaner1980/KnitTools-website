@@ -5,14 +5,16 @@ import { COUNTRY_TO_TIER, FALLBACK_PRICING_TIER } from '../config/pricing';
 interface Props {
   title: string;
   description: string;
+  browserTitle?: string;
   canonicalPath?: string;
   bodyClass?: string;
 }
 
-const { title, description, canonicalPath = '', bodyClass = '' } = Astro.props;
+const { title, description, browserTitle, canonicalPath = '', bodyClass = '' } = Astro.props;
 const siteUrl = 'https://knittoolsapp.com';
 const canonicalUrl = `${siteUrl}${canonicalPath}`;
 const fullTitle = `${title} | KnitTools`;
+const tabTitle = browserTitle ?? fullTitle;
 ---
 
 <!DOCTYPE html>
@@ -20,7 +22,7 @@ const fullTitle = `${title} | KnitTools`;
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{fullTitle}</title>
+  <title>{tabTitle}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalUrl} />
 
