@@ -2,12 +2,14 @@
 import PageLayout from '../../layouts/PageLayout.astro';
 import { getCollection } from 'astro:content';
 import ArticleCard from '../../components/ArticleCard.astro';
+import ClosingCTA from '../../components/ClosingCTA.astro';
 import {
   CATEGORY_ORDER,
   CATEGORY_LABELS,
   CATEGORY_DESCRIPTIONS,
   type CategorySlug,
 } from '../../lib/categories';
+import { PRICING } from '../../config/pricing';
 
 const articles = await getCollection('articles', ({ data }) =>
   import.meta.env.DEV ? true : !data.draft
@@ -19,14 +21,38 @@ const sortByDateThenTitle = (a: typeof articles[number], b: typeof articles[numb
   return a.data.title.localeCompare(b.data.title);
 };
 
-const sections = CATEGORY_ORDER.map((slug) => ({
-  slug,
-  label: CATEGORY_LABELS[slug],
-  description: CATEGORY_DESCRIPTIONS[slug],
-  articles: articles
+const sortByCategoryRank = (a: typeof articles[number], b: typeof articles[number]) => {
+  const rankDiff = (a.data.categoryRank ?? 999) - (b.data.categoryRank ?? 999);
+  if (rankDiff !== 0) return rankDiff;
+  return sortByDateThenTitle(a, b);
+};
+
+const getPreviewArticles = (categoryArticles: typeof articles) => {
+  const ranked = categoryArticles
+    .filter((a) => a.data.categoryRank)
+    .sort(sortByCategoryRank);
+  const rankedIds = new Set(ranked.map((a) => a.id));
+  const fallback = categoryArticles
+    .filter((a) => !rankedIds.has(a.id))
+    .sort(sortByDateThenTitle);
+
+  return [...ranked, ...fallback].slice(0, 3);
+};
+
+const sections = CATEGORY_ORDER.map((slug) => {
+  const categoryArticles = articles
     .filter((a) => a.data.category === slug)
-    .sort(sortByDateThenTitle),
-})).filter((s) => s.articles.length > 0);
+    .sort(sortByDateThenTitle);
+  const previewArticles = getPreviewArticles(categoryArticles);
+
+  return {
+    slug,
+    label: CATEGORY_LABELS[slug],
+    description: CATEGORY_DESCRIPTIONS[slug],
+    articles: previewArticles,
+    remainingCount: Math.max(categoryArticles.length - previewArticles.length, 0),
+  };
+}).filter((s) => s.articles.length > 0);
 
 const totalCount = articles.length;
 ---
@@ -56,7 +82,7 @@ const totalCount = articles.length;
   {totalCount === 0 ? (
     <section class="empty-section">
       <div class="empty-state">
-        <p class="empty-eyebrow">Coming May 2026</p>
+        <p class="empty-eyebrow">Coming {PRICING.launchMonthLabel}</p>
         <p class="empty-text">Articles are being written. In the meantime, try the calculators.</p>
         <a href="/tools/" class="empty-link">Browse free tools &rarr;</a>
       </div>
@@ -70,9 +96,11 @@ const totalCount = articles.length;
               <p class="cat-eyebrow">{section.label}</p>
               <p class="cat-description">{section.description}</p>
             </div>
-            <a href={`/articles/category/${section.slug}`} class="cat-all-link">
-              View all {section.articles.length} &rarr;
-            </a>
+            {section.remainingCount > 0 && (
+              <a href={`/articles/category/${section.slug}`} class="cat-all-link">
+                View {section.remainingCount} more &rarr;
+              </a>
+            )}
           </header>
           <div class="articles-grid">
             {section.articles.map((article) => (
@@ -83,6 +111,7 @@ const totalCount = articles.length;
       </section>
     ))
   )}
+  <ClosingCTA variant="page" />
 </PageLayout>
 
 <style>

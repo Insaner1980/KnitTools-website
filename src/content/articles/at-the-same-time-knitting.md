@@ -4,7 +4,6 @@ description: "Understand the confusing \"at the same time\" instruction in knitt
 publishDate: 2026-05-01
 category: techniques
 tags: ["at the same time knitting pattern", "simultaneous knitting instructions", "knitting pattern at same time", "concurrent shaping knitting"]
-draft: true
 ---
 It means what it says, which is exactly why it's confusing. Two different things happen on the same rows, and the pattern describes them separately even though you do them together.
 
@@ -61,7 +60,7 @@ Work them separately across the needle. Start with whichever decrease belongs at
 
 Sometimes it's staggered. "Begin armhole shaping" and then three rows later "at the same time, begin neck shaping." The two overlap for part of the work. One starts first, both run simultaneously for a while, then one finishes before the other.
 
-This is where a merged row-by-row plan pays off most. Map the armhole rows. Overlay the neck rows. Mark which rows have just armhole, which have just neck, which have both. Knit from the merged plan. If you're also untangling the rest of the [pattern's structure](/how-to-read-knitting-pattern), that guide covers sizes, repeats, and abbreviations.
+This is where a merged row-by-row plan pays off most. Map the armhole rows. Overlay the neck rows. Mark which rows have just armhole, which have just neck, which have both. Knit from the merged plan. If you're also untangling the rest of the [pattern's structure](/articles/how-to-read-knitting-pattern), that guide covers sizes, repeats, and abbreviations.
 
 ## Common questions
 

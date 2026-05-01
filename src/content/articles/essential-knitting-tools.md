@@ -4,7 +4,6 @@ description: "A practical guide to knitting accessories: stitch markers, tapestr
 publishDate: 2026-05-01
 category: app-tools
 tags: ["essential knitting tools", "knitting accessories", "knitting supplies list", "knitting notions"]
-draft: true
 ---
 Needles and yarn are the minimum. Everything else in a knitter's toolkit makes the process smoother, faster, or less error-prone. Especially for beginners building their first setup. Some tools are genuinely essential from day one. Others earn their place after a few projects. And some are solutions looking for a problem.
 
@@ -50,7 +49,7 @@ Tracks which row you're on. Essential for repeating sequences, shaping intervals
 
 **Mechanical counters** (click-wheel barrels on the needle) are cheap and don't need batteries. But they only count up, and a bump can change the count.
 
-**App counters** do more: multiple counters, project association, session history, haptic feedback. The [KnitTools app](/) includes a row counter built for knitting, with features mechanical counters can't match. The [knitting apps comparison](/best-knitting-apps) covers what to look for in detail.
+**App counters** do more: multiple counters, project association, session history, haptic feedback. The [KnitTools app](/) includes a row counter built for knitting, with features mechanical counters can't match. The [knitting apps comparison](/articles/best-knitting-apps) covers what to look for in detail.
 
 A garter stitch scarf doesn't need a counter. A lace shawl with a 24-row repeat absolutely does.
 
@@ -70,7 +69,7 @@ Buy when you're ready for cables. Not before.
 
 For finishing, not knitting itself. But once you start finishing properly, these are essential.
 
-Blocking mats (interlocking foam tiles. Children's play mats work perfectly and cost less than branded "knitting blocking mats" that are the same product). Rust-proof T-pins or blocking pins. Optionally blocking wires for straight edges on shawls. The [blocking guide](/how-to-block-knitting) covers methods and when each matters.
+Blocking mats (interlocking foam tiles. Children's play mats work perfectly and cost less than branded "knitting blocking mats" that are the same product). Rust-proof T-pins or blocking pins. Optionally blocking wires for straight edges on shawls. The [blocking guide](/articles/how-to-block-knitting) covers methods and when each matters.
 
 ## Nice to have
 
@@ -100,7 +99,7 @@ A knitting machine is a completely different activity. Not a substitute or upgra
 
 ## Common questions
 
-What should a first knitting kit include? [US 8 bamboo straights](/needle-size-for-beginners), one skein of [worsted weight yarn](/best-yarn-for-beginners), scissors, two tapestry needles, a few stitch markers. Under $20 total. Everything else can wait.
+What should a first knitting kit include? [US 8 bamboo straights](/articles/needle-size-for-beginners), one skein of [worsted weight yarn](/articles/best-yarn-for-beginners), scissors, two tapestry needles, a few stitch markers. Under $20 total. Everything else can wait.
 
 Are expensive tools worth it? For needles, yes if you knit regularly. Smoother joins, better tips, longer life. For accessories (markers, holders, scissors), rarely. A $2 set of ring markers works as well as a $15 artisan set.
 

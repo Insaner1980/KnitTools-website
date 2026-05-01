@@ -1,4 +1,6 @@
 ---
+import RegionalPrice from './RegionalPrice.astro';
+
 const languages = [
   'English',
   'Suomi',
@@ -148,7 +150,7 @@ const aiFeatures = [
     </div>
 
     <div class="tier-head tier-head-pro" aria-hidden="true">
-      <span class="tier-label">Pro $8.99</span>
+      <span class="tier-label">Pro <RegionalPrice phase="launch" /></span>
       <span class="tier-count">{proCards.length} tools + AI</span>
       <span class="tier-line"></span>
     </div>

@@ -4,7 +4,6 @@ description: "Learn how to choose the right size in a knitting pattern. Covers e
 publishDate: 2026-05-01
 category: techniques
 tags: ["knitting pattern sizes", "ease in knitting", "how to choose knitting size", "knitting pattern fit"]
-draft: true
 ---
 A pattern labeled "Medium" might fit like a tent on one person and feel tight on another. Pattern sizes aren't clothing store sizes. They're based on finished garment measurements, and the relationship between your body and those measurements determines how the thing actually fits.
 
@@ -82,8 +81,8 @@ If you're substituting a heavier yarn, consider sizing up. The fabric itself eat
 
 If a pattern doesn't list finished measurements, that's a red flag. Without them, you can't know how it'll fit. You can estimate by multiplying cast-on stitches by your gauge, but the designer should provide this information. Check Ravelry's project pages to see what other knitters got.
 
-Before choosing a size, [check your gauge](/how-to-measure-knitting-gauge). If your stitches per inch don't match the pattern, the finished measurements won't either. One trick that works well: lay a sweater that fits you the way you like flat, measure the chest width, double it. That gives a concrete target based on your actual fit preference, which often works better than body measurements plus abstract ease math.
+Before choosing a size, [check your gauge](/articles/how-to-measure-knitting-gauge). If your stitches per inch don't match the pattern, the finished measurements won't either. One trick that works well: lay a sweater that fits you the way you like flat, measure the chest width, double it. That gives a concrete target based on your actual fit preference, which often works better than body measurements plus abstract ease math.
 
-Yarn type matters for fit too. Drapey yarns like cotton and silk hang differently from springy wool, so a cotton sweater and a wool sweater in the same size won't fit the same. If you're [substituting yarn](/how-to-substitute-yarn), factor that in.
+Yarn type matters for fit too. Drapey yarns like cotton and silk hang differently from springy wool, so a cotton sweater and a wool sweater in the same size won't fit the same. If you're [substituting yarn](/articles/how-to-substitute-yarn), factor that in.
 
 If you need one size for your upper body and another for your lower, that's grading. Follow the upper size for yoke and chest, increase or decrease to the lower size at the waist. Some patterns include short-row bust shaping or separate upper/lower sizing. When the pattern doesn't, this modification takes some knitting math.

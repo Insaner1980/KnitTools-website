@@ -1,12 +1,8 @@
 ---
+import RegionalPrice from './RegionalPrice.astro';
+import RegionalPricingNote from './RegionalPricingNote.astro';
+
 const columns = [
-  {
-    eyebrow: 'Price',
-    lead: 'Pay once.',
-    italic: 'Own it.',
-    body:
-      "$8.99 for the whole toolkit. After launch the price rises to $11.99, so if you're going to buy it, buy it early. No subscription, ever.",
-  },
   {
     eyebrow: 'Privacy',
     lead: 'No tracking.',
@@ -33,6 +29,17 @@ const columns = [
     </header>
 
     <div class="cols">
+      <article class="trust-col">
+        <p class="eyebrow">Price</p>
+        <h3>
+          Pay once.
+          <br />
+          <em>Own it.</em>
+        </h3>
+        <p class="body">
+          <RegionalPrice phase="launch" /> for the whole toolkit. After launch the price rises to <RegionalPrice phase="permanent" />, so if you're going to buy it, buy it early. No subscription, ever. <RegionalPricingNote />
+        </p>
+      </article>
       {
         columns.map((c) => (
           <article class:list={['trust-col', c.tint && `tint-${c.tint}`]}>

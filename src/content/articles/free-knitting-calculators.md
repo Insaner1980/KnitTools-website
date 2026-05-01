@@ -4,7 +4,6 @@ description: "Free online knitting calculators for cast-on stitches, yarn estima
 publishDate: 2026-05-01
 category: app-tools
 tags: ["knitting calculators", "free knitting calculators", "cast on calculator", "yarn calculator", "gauge converter", "knitting tools"]
-draft: true
 ---
 Knitting involves more arithmetic than most people expect. How many stitches to cast on for a 9-inch-wide scarf at your gauge. How much yarn a blanket will eat. How to space 8 increases evenly across 64 stitches. None of this is hard math, but it comes up constantly, and getting it wrong means frogging.
 
@@ -16,7 +15,7 @@ You know your gauge (stitches per inch from your swatch) and you know how wide y
 
 The formula is simple enough to do in your head for plain stockinette. It stops being simple when your stitch pattern repeats over 6 stitches plus 2 balancing stitches and you need a number that satisfies both the repeat and the width. That's when a calculator earns its keep.
 
-Reach for it any time you're adapting a pattern to your measurements, designing without a pattern, or [substituting yarn](/how-to-substitute-yarn) where your gauge differs from the pattern's. The [cast-on guide](/how-many-stitches-to-cast-on) covers the math behind it if you want to understand what the calculator is doing.
+Reach for it any time you're adapting a pattern to your measurements, designing without a pattern, or [substituting yarn](/articles/how-to-substitute-yarn) where your gauge differs from the pattern's. The [cast-on guide](/articles/how-many-stitches-to-cast-on) covers the math behind it if you want to understand what the calculator is doing.
 
 ## Yarn estimator
 
@@ -30,7 +29,7 @@ The [Yarn Estimator](/tools/yarn-estimator) on this site covers garments, hats, 
 
 Your swatch gives you 22 stitches over 4 inches but the pattern specifies gauge per 10 cm. Or you measured over 2 inches and need to scale up. Simple division in theory. Easy to mess up when you're converting between metric and imperial and scaling from a small swatch at the same time.
 
-Less frequently needed than the other calculators, but when you need it, doing the conversion by hand is exactly the kind of mental arithmetic that goes wrong while you're also counting stitches. The [gauge measurement guide](/how-to-measure-knitting-gauge) covers how to get an accurate swatch reading before you convert anything.
+Less frequently needed than the other calculators, but when you need it, doing the conversion by hand is exactly the kind of mental arithmetic that goes wrong while you're also counting stitches. The [gauge measurement guide](/articles/how-to-measure-knitting-gauge) covers how to get an accurate swatch reading before you convert anything.
 
 ## Increase/decrease spacing calculator
 
@@ -38,7 +37,7 @@ Pattern says "increase 12 stitches evenly across the next row." 80 stitches on t
 
 Divide 80 by 12 and you get 6.67. Which means some intervals are 6 stitches and some are 7. The calculator tells you exactly which ones, so the distribution actually looks even. Spacing 4 increases by hand is manageable. Spacing 18 increases across 142 stitches is calculator territory.
 
-Any shaping row benefits: sleeve increases, yoke decreases, [ribbing transitions](/increase-decrease-evenly) where the stitch count changes between sections.
+Any shaping row benefits: sleeve increases, yoke decreases, [ribbing transitions](/articles/increase-decrease-evenly) where the stitch count changes between sections.
 
 ## What separates a useful calculator from a bad one
 
@@ -50,7 +49,7 @@ It also needs to work on a phone. Most knitters calculate at the craft table or 
 
 Some knitting math isn't calculation, it's lookup. Which US needle size corresponds to 3.75 mm? What yarn weight fits a gauge of 5 stitches per inch? What does "psso" mean?
 
-The [Needle Size Chart](/needle-size-chart), [Yarn Weight Chart](/yarn-weight-chart), and [Abbreviations Glossary](/knitting-abbreviations) pages on this site are searchable references for these questions. Different from calculators, but you'll reach for them just as often.
+The [Needle Size Chart](/tools/needle-size-chart), [Yarn Weight Chart](/tools/yarn-weight-chart), and [Abbreviations Glossary](/tools/knitting-abbreviations) pages on this site are searchable references for these questions. Different from calculators, but you'll reach for them just as often.
 
 ## Everything in one place
 

@@ -1,0 +1,17 @@
+---
+import { PRICING_TIERS, getPrice, type PricePhase } from '../config/pricing';
+
+interface Props {
+  phase: PricePhase;
+}
+
+const { phase } = Astro.props;
+---
+
+<span
+  data-regional-price={phase}
+  data-us={PRICING_TIERS.US[phase]}
+  data-eu={PRICING_TIERS.EU[phase]}
+  data-uk={PRICING_TIERS.UK[phase]}
+  data-default={PRICING_TIERS.default[phase]}
+>{getPrice(phase)}</span>

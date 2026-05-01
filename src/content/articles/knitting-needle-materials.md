@@ -4,7 +4,6 @@ description: "Compare knitting needle materials: metal, wood, bamboo, plastic, a
 publishDate: 2026-05-01
 category: needles
 tags: ["knitting needle material", "best knitting needles material", "wood vs metal needles", "bamboo knitting needles"]
-draft: true
 ---
 Needle material changes how yarn moves, how the needle feels in your hand, and how tired your hands get after an hour. That's why the same knitter can reach for metal on one project and bamboo on the next.
 
@@ -52,7 +51,7 @@ Still a niche choice. Usually more expensive. Worth trying if you're curious, bu
 
 Slippery yarn (silk, bamboo blends) is easier to manage on wood or bamboo because the friction keeps stitches from escaping. Grippy yarn (sticky wool, cotton) moves more freely on metal. For splitty yarn, a rounder tip shape helps more than the material itself. And for fuzzy yarn like mohair held double, a smoother surface prevents catching on every stitch.
 
-The [needle size chart](/needle-size-chart) covers sizing. The [needle type guide](/circular-vs-straight-vs-dpn) covers straight vs circular vs DPN. Material is the feel side, and all three decisions are mostly independent of each other.
+The [needle size chart](/tools/needle-size-chart) covers sizing. The [needle type guide](/articles/circular-vs-straight-vs-dpn) covers straight vs circular vs DPN. Material is the feel side, and all three decisions are mostly independent of each other.
 
 ## FAQ
 

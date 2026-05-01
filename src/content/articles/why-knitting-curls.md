@@ -4,7 +4,6 @@ description: "Understand why stockinette stitch curls and what to do about it. C
 publishDate: 2026-05-01
 category: techniques
 tags: ["why does knitting curl", "stockinette curl fix", "knitting curling edges", "how to stop knitting from curling"]
-draft: true
 ---
 Stockinette curls. Not a tension problem, not a yarn problem, not something you're doing wrong. It's physics.
 
@@ -28,11 +27,11 @@ Garter stitch border is the most common choice. Garter lies flat because every r
 
 Seed stitch (alternating k1, p1 every stitch and every row) lies completely flat and adds a textured frame. Uses more yarn than garter and takes more attention to knit correctly. Ribbing (k1p1 or k2p2) at top and bottom is the standard for sweater hems and cuffs. Flat, stretchy, gripping.
 
-The border isn't an afterthought. Plan it into the design from the start. Adding one to a finished piece means [picking up stitches](/pick-up-stitches), which works but takes more effort than including it originally.
+The border isn't an afterthought. Plan it into the design from the start. Adding one to a finished piece means [picking up stitches](/articles/pick-up-stitches), which works but takes more effort than including it originally.
 
 ### Blocking
 
-[Wet blocking](/how-to-block-knitting) can reduce curling, especially in wool. Soak the piece, pin flat, let dry. The fabric remembers the shape temporarily. But with use and washing, the curl tends to reassert itself.
+[Wet blocking](/articles/how-to-block-knitting) can reduce curling, especially in wool. Soak the piece, pin flat, let dry. The fabric remembers the shape temporarily. But with use and washing, the curl tends to reassert itself.
 
 Blocking works best as a supplement to a border, not a substitute. A stockinette scarf blocked flat will re-curl after a few wears. A stockinette scarf with a garter border blocked flat stays flat.
 

@@ -3,8 +3,8 @@ title: "How to Organize Multiple WIP Knitting Projects"
 description: "Managing several knitting projects at once without losing track of needles, yarn, or your place in the pattern. Practical systems that work."
 publishDate: 2026-05-01
 category: app-tools
+categoryRank: 3
 tags: ["organize knitting projects", "WIP management", "knitting project tracker", "track knitting progress", "multiple projects", "knitting time tracker"]
-draft: true
 ---
 # How to organize multiple WIP knitting projects
 
@@ -14,7 +14,7 @@ The trouble starts when "a few projects" quietly becomes seven, and you can't re
 
 ## What you need to recover when you pick something up
 
-**Where you stopped.** Row number, position within a pattern repeat, which section of the pattern you're working. This is the information that's most expensive to reconstruct. For a stockinette body, you can count rows in the fabric. For a cable panel or lace chart, losing your place can mean frogging back to a known point. The [row tracking guide](/track-rows-knitting) covers methods in detail.
+**Where you stopped.** Row number, position within a pattern repeat, which section of the pattern you're working. This is the information that's most expensive to reconstruct. For a stockinette body, you can count rows in the fabric. For a cable panel or lace chart, losing your place can mean frogging back to a known point. The [row tracking guide](/articles/track-rows-knitting) covers methods in detail.
 
 **What's in the bag.** Needle size, yarn name and colorway, skeins remaining. Pull a project out of storage after a month and the yarn label has come off the skein. Now you're trying to identify mystery DK-weight beige, which gets old fast. Keep labels with the project, or note the details somewhere accessible.
 

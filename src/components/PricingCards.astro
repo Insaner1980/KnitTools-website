@@ -1,4 +1,8 @@
 ---
+import { PRICING } from '../config/pricing';
+import RegionalPrice from './RegionalPrice.astro';
+import RegionalPricingNote from './RegionalPricingNote.astro';
+
 const freeBullets = [
   'Row counter + session history',
   'Pattern viewer (PDF or Ravelry)',
@@ -49,8 +53,8 @@ const proBullets = [
       <article class="card pro">
         <span class="badge">Editor's Pick</span>
         <p class="label">Pro</p>
-        <h3>$8.99 <span class="suffix">one-time</span></h3>
-        <p class="trial">14-day free trial. No credit card required.</p>
+        <h3><RegionalPrice phase="launch" /> <span class="suffix">one-time</span></h3>
+        <p class="trial">{PRICING.trialDays}-day free trial. No credit card required.</p>
         <p class="includes">Everything in Free, plus:</p>
         <ol>
           {
@@ -62,7 +66,7 @@ const proBullets = [
           }
         </ol>
         <p class="footnote">
-          Rises to $11.99 two months after launch. Permanently. No subscription, ever.
+          Rises to <RegionalPrice phase="permanent" /> {PRICING.permanentPriceStartsAfterMonths} months after launch. Permanently. No subscription, ever. <RegionalPricingNote />
         </p>
       </article>
     </div>

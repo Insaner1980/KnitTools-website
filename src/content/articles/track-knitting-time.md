@@ -4,7 +4,6 @@ description: "Track knitting sessions to see where your time goes and how your s
 publishDate: 2026-05-01
 category: app-tools
 tags: ["track knitting time", "knitting session tracker", "session tracking", "track knitting progress", "knitting time tracker"]
-draft: true
 ---
 # How to track your knitting time and improve your speed
 
@@ -40,7 +39,7 @@ The downside: requires manual entry after every session. If you forget, the data
 
 A knitting time tracker built into a project management app automates the parts that manual methods get wrong. Start a session, knit, end the session. The app records duration, links it to the project, and tracks the row count alongside it.
 
-The [KnitTools app](/) includes session tracking tied to its [row counter](/track-rows-knitting). Every time you count rows, the session timer is running. When you stop, the data saves: date, duration, rows completed, rows per hour. Over time this builds a history per project and across all projects.
+The [KnitTools app](/) includes session tracking tied to its [row counter](/articles/track-rows-knitting). Every time you count rows, the session timer is running. When you stop, the data saves: date, duration, rows completed, rows per hour. Over time this builds a history per project and across all projects.
 
 The advantage over manual methods is consistency. You're already tapping the row counter, so the time tracking happens as a side effect. No separate timer to start, no notebook to update, no spreadsheet to maintain. The data accumulates whether or not you think about it.
 
@@ -80,7 +79,7 @@ If tracking feels like a chore rather than a tool, stop. The data is only worth 
 
 ## Connecting time tracking to project management
 
-Time data becomes more useful when it's connected to your [project organization](/organize-knitting-projects). Knowing that a project hasn't been touched in three weeks is one thing. Knowing you've invested 35 hours and the estimated total is 50 is better context for deciding whether to push through or set it aside.
+Time data becomes more useful when it's connected to your [project organization](/articles/organize-knitting-projects). Knowing that a project hasn't been touched in three weeks is one thing. Knowing you've invested 35 hours and the estimated total is 50 is better context for deciding whether to push through or set it aside.
 
 For multi-project knitters, time-per-project data also reveals allocation patterns. You might discover you're spending 80% of your knitting time on the easy sock and 20% on the sweater you actually want to finish. Sometimes seeing the numbers is enough to shift the balance.
 

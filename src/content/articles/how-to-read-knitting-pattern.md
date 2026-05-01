@@ -3,8 +3,8 @@ title: "How to Read a Knitting Pattern. A Beginner's Guide to Pattern Anatomy"
 description: "Learn how to read a knitting pattern from start to finish. Covers pattern sections, abbreviations, sizing, gauge, and how instructions are structured."
 publishDate: 2026-05-01
 category: techniques
+categoryRank: 2
 tags: ["how to read a knitting pattern", "knitting pattern for beginners", "reading knitting instructions", "understand knitting pattern"]
-draft: true
 ---
 Knitting patterns have their own language and formatting conventions. A pattern is structured in predictable sections: materials and gauge at the top, then row-by-row instructions using standardized abbreviations, with sizing presented as parenthetical numbers throughout. The first time you open one, it looks like a wall of shorthand. But once you recognize the sections, the whole thing becomes readable.
 
@@ -12,11 +12,11 @@ Knitting patterns have their own language and formatting conventions. A pattern 
 
 Every pattern starts with a metadata block listing what to gather before casting on.
 
-The yarn listing names a specific yarn (or a generic weight) and tells you how much to buy, in yardage, skein count, or both. If you're substituting, match the weight category and total yardage, not the brand. The [yarn substitution guide](/how-to-substitute-yarn) covers this in detail.
+The yarn listing names a specific yarn (or a generic weight) and tells you how much to buy, in yardage, skein count, or both. If you're substituting, match the weight category and total yardage, not the brand. The [yarn substitution guide](/articles/how-to-substitute-yarn) covers this in detail.
 
 Needles: the recommended size and sometimes the type (straight, circular, DPNs). Sweaters with ribbed edges often list two sizes here. Smaller for the ribbing, larger for the body.
 
-Gauge is the most important number in the header. Stitches and rows per 4 inches in a specified stitch pattern. If your gauge doesn't match, the finished piece won't be the right size. [Swatch before starting](/how-to-measure-knitting-gauge).
+Gauge is the most important number in the header. Stitches and rows per 4 inches in a specified stitch pattern. If your gauge doesn't match, the finished piece won't be the right size. [Swatch before starting](/articles/how-to-measure-knitting-gauge).
 
 Notions are additional supplies: stitch markers, cable needles, tapestry needles, buttons, zippers. Not every pattern needs them, but when listed, you want them on hand before you cast on.
 
@@ -28,7 +28,7 @@ Multi-size patterns present numbers like this: Cast on 72 (80, 88, 96, 104) stit
 
 Before starting, figure out which size you're making and mark it throughout the pattern. Some knitters highlight with a marker. Others photocopy and circle the relevant numbers. A few write out only their size's numbers on a separate sheet.
 
-Choose based on finished measurements, not the size label. "Medium" means different things to different designers. Look at the actual chest measurement for your size and compare it to your body plus intended ease. The [sizes and fit guide](/knitting-pattern-sizes-and-fit) goes deeper on ease and how to read schematics.
+Choose based on finished measurements, not the size label. "Medium" means different things to different designers. Look at the actual chest measurement for your size and compare it to your body plus intended ease. The [sizes and fit guide](/articles/knitting-pattern-sizes-and-fit) goes deeper on ease and how to read schematics.
 
 ## Abbreviations
 
@@ -36,7 +36,7 @@ The pattern's abbreviation key defines every shorthand in the instructions. Comm
 
 Read the key before starting. Not to memorize it. Just scan for anything unfamiliar. If you spot something you don't recognize, look it up or practice the technique before you encounter it mid-row.
 
-The [knitting abbreviations glossary](/knitting-abbreviations) is a searchable reference covering standard abbreviations.
+The [knitting abbreviations glossary](/tools/knitting-abbreviations) is a searchable reference covering standard abbreviations.
 
 ## Reading the instructions
 
@@ -56,7 +56,7 @@ The part that trips people up most. Patterns use several notation systems.
 
 **Parenthetical repeats:** "(K1, p1) across." Parentheses work like brackets. "Across" means repeat to the end of the row.
 
-Some patterns mix styles. The key is recognizing where the repeat starts, where it ends, and how many times. The [pattern repeats article](/knitting-pattern-repeats) gets into complex and nested repeats.
+Some patterns mix styles. The key is recognizing where the repeat starts, where it ends, and how many times. The [pattern repeats article](/articles/knitting-pattern-repeats) gets into complex and nested repeats.
 
 ## "At the same time"
 
@@ -64,7 +64,7 @@ Two things happening simultaneously over the same rows. Something like: "Continu
 
 You keep working the stitch pattern while also placing decreases at specific intervals. Both happen on the same rows, not one after the other. Common in garment shaping where the fabric narrows while the stitch pattern continues.
 
-One of the more confusing instructions in knitting patterns, and it gets [its own article](/at-the-same-time-knitting).
+One of the more confusing instructions in knitting patterns, and it gets [its own article](/articles/at-the-same-time-knitting).
 
 ## Written vs charted instructions
 

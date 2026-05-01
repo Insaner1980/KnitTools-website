@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { COUNTRY_TO_TIER, FALLBACK_PRICING_TIER } from '../config/pricing';
 
 interface Props {
   title: string;
@@ -70,6 +71,65 @@ const fullTitle = `${title} | KnitTools`;
     } else {
       document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
     }
+  </script>
+  <script define:vars={{ countryToTier: COUNTRY_TO_TIER, fallbackPricingTier: FALLBACK_PRICING_TIER }}>
+    (() => {
+      const getTier = (country) => {
+        if (!country) return '';
+        return countryToTier[String(country).toUpperCase()] || fallbackPricingTier;
+      };
+
+      const getRegion = (locale) => {
+        try {
+          return new Intl.Locale(locale).region || '';
+        } catch {
+          const parts = String(locale).split(/[-_]/);
+          return parts.length > 1 ? parts[parts.length - 1].toUpperCase() : '';
+        }
+      };
+
+      const getLocaleCountry = () => {
+        const locales = navigator.languages?.length ? navigator.languages : [navigator.language];
+        for (const locale of locales) {
+          const region = getRegion(locale);
+          if (region) return region;
+        }
+        return '';
+      };
+
+      const getCloudflareCountry = async () => {
+        try {
+          const controller = new AbortController();
+          const timeout = window.setTimeout(() => controller.abort(), 1200);
+          const response = await fetch('/cdn-cgi/trace', {
+            cache: 'no-store',
+            signal: controller.signal,
+          });
+          window.clearTimeout(timeout);
+          if (!response.ok) return '';
+          const trace = await response.text();
+          return trace.match(/^loc=([A-Z]{2})$/m)?.[1] || '';
+        } catch {
+          return '';
+        }
+      };
+
+      const applyPricingTier = (tier) => {
+        if (!tier) return;
+        document.querySelectorAll('[data-regional-price]').forEach((el) => {
+          const value = el.getAttribute(`data-${tier.toLowerCase()}`);
+          if (value) el.textContent = value;
+        });
+        document.querySelectorAll('[data-regional-pricing-note]').forEach((el) => {
+          el.hidden = tier !== fallbackPricingTier;
+        });
+      };
+
+      getCloudflareCountry().then((country) => {
+        const tier = getTier(country || getLocaleCountry());
+        applyPricingTier(tier);
+      });
+    })();
   </script>
 </body>
 </html>

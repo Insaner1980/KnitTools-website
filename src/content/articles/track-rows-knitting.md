@@ -3,8 +3,8 @@ title: "How to Keep Track of Rows When Knitting. 7 Methods That Work"
 description: "Losing count mid-project? Here are 7 reliable ways to track your knitting rows, from pen and paper to digital row counters with reminders."
 publishDate: 2026-05-01
 category: app-tools
+categoryRank: 2
 tags: ["track rows knitting", "knitting row counter", "keep track of rows", "stitch counter", "digital row counter", "row counter app"]
-draft: true
 ---
 You set the project down to answer the door. Pick it back up twenty minutes later. Was that row 14 or 15? In stockinette it might not matter. In a lace pattern where odd and even rows do completely different things, one row off means ripping back.
 
@@ -74,7 +74,7 @@ These serve different purposes. The counter tells you "row 23." The marker in th
 Right side of the fabric: each V-shaped stitch is one row. Count Vs vertically from the cast-on edge to the needles. On the wrong side, count purl bumps instead. Same number either way.
 
 **Do you count the cast-on row as row 1?**
-Depends on the pattern. Most modern patterns treat the cast-on as row 0 and count the first knitted row as row 1. If the pattern doesn't specify, check whether the total row count makes sense with your reading. The [pattern reading guide](/how-to-read-knitting-pattern) covers these conventions in more detail.
+Depends on the pattern. Most modern patterns treat the cast-on as row 0 and count the first knitted row as row 1. If the pattern doesn't specify, check whether the total row count makes sense with your reading. The [pattern reading guide](/articles/how-to-read-knitting-pattern) covers these conventions in more detail.
 
 **How do you keep track of rows when knitting in the round?**
 Place a stitch marker at the beginning of the round. Every time you pass it, that's one completed round. The marker plus a row counter gives an accurate count. Without the marker, it's easy to lose track of where one round ends and the next begins, especially in plain stockinette where there's no visible join.

@@ -3,8 +3,8 @@ title: "How to Fix Dropped Stitches Without Frogging"
 description: "Learn how to rescue dropped stitches in knitting using a crochet hook. Covers stockinette, purl side, garter stitch, and how to spot a dropped stitch before it runs."
 publishDate: 2026-05-01
 category: techniques
+categoryRank: 3
 tags: ["fix dropped stitches knitting", "pick up dropped stitch", "rescue dropped stitch crochet hook", "dropped stitch ladder"]
-draft: true
 ---
 A dropped stitch doesn't mean ripping back the whole piece. In most cases you can rescue it with a crochet hook in under a minute. The stitch slides off the needle, and if you don't catch it, it runs down through the rows below like a ladder in a stocking. But every rung of that ladder is a strand of yarn waiting to be pulled back through, one row at a time, until the stitch is back on the needle.
 
@@ -52,7 +52,7 @@ Stitch markers help. Place one every 20 stitches and you only need to count with
 
 ## When a stitch runs to the cast-on edge
 
-If the stitch ran all the way down and there's no loop at the bottom, you can still fix it. Use the hook to pull the bottom strand through itself to create a new base loop, then work each strand above it. The base loop differs slightly from a cast-on stitch in structure, but it's stable and invisible after [blocking](/how-to-block-knitting).
+If the stitch ran all the way down and there's no loop at the bottom, you can still fix it. Use the hook to pull the bottom strand through itself to create a new base loop, then work each strand above it. The base loop differs slightly from a cast-on stitch in structure, but it's stable and invisible after [blocking](/articles/how-to-block-knitting).
 
 If the run has gone far and the strands are tangled, pin the area with a locking stitch marker to prevent more damage while you work the repair.
 

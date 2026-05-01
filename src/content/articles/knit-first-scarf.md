@@ -3,16 +3,16 @@ title: "How to Knit Your First Scarf. A No-Nonsense Beginner Guide"
 description: "Everything you need to knit your first scarf: yarn, needles, cast on, knit stitch, and bind off. No complicated patterns, just a simple rectangle that actually looks good."
 publishDate: 2026-05-01
 category: techniques
+categoryRank: 1
 tags: ["how to knit a scarf beginner", "first knitting project scarf", "easy knit scarf", "beginner scarf pattern"]
-draft: true
 ---
 A scarf is the best first knitting project because it's a rectangle. No shaping, no counting rows for specific lengths, no fitting. Cast on, knit until it's long enough, bind off. The skills you practice (casting on, the knit stitch, binding off) are the foundation for everything else you'll ever knit.
 
 ## What you need
 
-One skein of worsted weight yarn in a light, solid color. The [beginner yarn guide](/best-yarn-for-beginners) covers the full reasoning, but the short version: light colors show your stitches clearly, and solids let you see stitch structure better than variegated. Acrylic or a wool/acrylic blend is forgiving and machine washable. Budget about $5–8 for a single skein, enough for a short-to-medium scarf.
+One skein of worsted weight yarn in a light, solid color. The [beginner yarn guide](/articles/best-yarn-for-beginners) covers the full reasoning, but the short version: light colors show your stitches clearly, and solids let you see stitch structure better than variegated. Acrylic or a wool/acrylic blend is forgiving and machine washable. Budget about $5–8 for a single skein, enough for a short-to-medium scarf.
 
-US 8 (5.0 mm) straight needles, 10 or 14 inches long. Bamboo or wood for beginners. The [needle size guide](/needle-size-for-beginners) explains why. The grip keeps stitches from sliding off. A pair costs $4–8.
+US 8 (5.0 mm) straight needles, 10 or 14 inches long. Bamboo or wood for beginners. The [needle size guide](/articles/needle-size-for-beginners) explains why. The grip keeps stitches from sliding off. A pair costs $4–8.
 
 Scissors and a tapestry needle for weaving in tails. That's the full shopping list.
 

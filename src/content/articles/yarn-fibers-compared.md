@@ -4,7 +4,6 @@ description: "How wool, cotton, acrylic, and fiber blends differ in knitting. Co
 publishDate: 2026-05-01
 category: yarn
 tags: ["yarn fibers compared", "wool vs cotton knitting", "acrylic vs wool yarn", "best yarn fiber for knitting"]
-draft: true
 ---
 Knit the same cable swatch in wool and cotton, hold them side by side, and they'll look like they came from different patterns. The wool version bounces. Cables pop. The cotton version droops a little, hangs flatter, shows every stitch with almost uncomfortable honesty. Same needle, same hands, same stitch count. Completely different fabric.
 
@@ -14,7 +13,7 @@ That difference isn't cosmetic. Fiber content shapes how a project feels in the 
 
 Wool is the fiber everything else gets compared to, and that's earned. It's warm, elastic, forgiving of uneven tension, and it responds to blocking like nothing else in knitting.
 
-The elasticity matters most. Wool stretches while being worked and then rebounds. Ribbing stays tight. Cables hold their sculptural depth. Stockinette has a pleasant, lively hand that bounces back after being scrunched. That spring in the fiber is also what makes wool so cooperative during wet blocking. Soak a wool piece, pin it, let it dry, and the fabric often looks like a different (better) project. The [blocking guide](/how-to-block-knitting) covers method by fiber. Lace opens up dramatically. Stitches even out. The transformation can be genuinely startling the first few times.
+The elasticity matters most. Wool stretches while being worked and then rebounds. Ribbing stays tight. Cables hold their sculptural depth. Stockinette has a pleasant, lively hand that bounces back after being scrunched. That spring in the fiber is also what makes wool so cooperative during wet blocking. Soak a wool piece, pin it, let it dry, and the fabric often looks like a different (better) project. The [blocking guide](/articles/how-to-block-knitting) covers method by fiber. Lace opens up dramatically. Stitches even out. The transformation can be genuinely startling the first few times.
 
 Wool insulates in cool, damp conditions better than almost anything else. There's a reason it dominates outdoor garments and winter accessories, and that reason isn't nostalgia.
 
@@ -90,7 +89,7 @@ The answers won't always point to one fiber. But they'll usually eliminate sever
 
 ## A few things worth addressing
 
-If you're new to knitting and choosing your first yarn, the [beginner yarn guide](/best-yarn-for-beginners) narrows the options down. Fiber content affects how much yarn a project needs, though indirectly. Different fibers pack different yardage into the same skein weight, which is why estimating by grams alone can leave a project short. KnitTools' [Yarn Estimator](/tools/yarn-estimator) handles this better than guessing.
+If you're new to knitting and choosing your first yarn, the [beginner yarn guide](/articles/best-yarn-for-beginners) narrows the options down. Fiber content affects how much yarn a project needs, though indirectly. Different fibers pack different yardage into the same skein weight, which is why estimating by grams alone can leave a project short. KnitTools' [Yarn Estimator](/tools/yarn-estimator) handles this better than guessing.
 
 On the durability question that comes up constantly: nylon is the main booster in knitting yarn. That's why it shows up in nearly every sock blend. Linen is also remarkably strong among plant fibers, though it gets less attention for it.
 
