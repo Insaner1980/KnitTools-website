@@ -51,7 +51,7 @@ const totalCount = articles.length;
       {totalCount > 0 && (
         <nav class="cat-nav" aria-label="Article categories">
           {CATEGORY_ORDER.map((slug) => (
-            <a href={`#${slug}`} class="cat-nav-link">{CATEGORY_LABELS[slug]}</a>
+            <a href={`/articles/category/${slug}`} class="cat-nav-link">{CATEGORY_LABELS[slug]}</a>
           ))}
         </nav>
       )}
