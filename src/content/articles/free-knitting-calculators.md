@@ -54,7 +54,7 @@ The [Needle Size Chart](/tools/needle-size-chart), [Yarn Weight Chart](/tools/ya
 
 ## Everything in one place
 
-The free calculators and reference pages on this site handle the most common knitting math. For knitters who want the full set offline (row counting with reminders, project management, yarn label scanning, voice commands, all calculators and references on your phone without an internet connection) the [KnitTools app](/) bundles everything into a single Android app with a one-time purchase. No subscription, no ads.
+The free calculators and reference pages on this site handle the most common knitting math. For knitters who want the full set on their phone (row counting with reminders, project management, all calculators and reference materials without a connection, plus AI yarn label scanning and conversational voice when you do have one) the [KnitTools app](/) bundles everything into a single Android app with a one-time purchase. No subscription, no ads.
 
 ## FAQ
 

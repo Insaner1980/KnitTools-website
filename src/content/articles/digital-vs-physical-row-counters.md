@@ -58,7 +58,7 @@ Complex stitch patterns. Cables, lace, colorwork. Losing your place in a repeat 
 
 Long-term projects. A sweater that takes months benefits from persistence and session history. You can see you last worked on it Tuesday, you were on row 47, the next decrease is at row 52. A clicker tells you "47" and nothing else.
 
-The [KnitTools app](/) is being built for Android and combines tap counting with undo, row reminders, multiple counters per project, voice commands, and session tracking. It is designed to work entirely offline.
+The [KnitTools app](/) is being built for Android and combines tap counting with undo, row reminders, multiple counters per project, voice commands, and session tracking. Counter, calculators, and reference library work without a connection. Basic voice commands too. AI features connect to the cloud when needed.
 
 ## The combination approach
 

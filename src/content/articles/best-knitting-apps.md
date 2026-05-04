@@ -8,7 +8,7 @@ tags: ["best knitting apps", "knitting app review", "knitting counter app", "kni
 ---
 Knitting apps replace the scraps of paper, manual calculations, and mental row counting that knitters have relied on forever. A good app saves time and prevents mistakes. A bad one adds friction, buries features behind confusing menus, or nags you with subscriptions for basic functionality.
 
-A good knitting app needs three core features: a row counter with multiple simultaneous counters, practical calculators (cast-on and yarn estimation at minimum), and offline access for everything. The app market is surprisingly crowded, especially on Android where knitting apps range from simple counters to full toolkits. Rather than ranking specific apps (which change with updates), these are the things worth evaluating, and which features actually matter in practice.
+A good knitting app needs three core features: a row counter with multiple simultaneous counters, practical calculators (cast-on and yarn estimation at minimum), and offline access for the things you actually need on a train. The app market is surprisingly crowded, especially on Android where knitting apps range from simple counters to full toolkits. Rather than ranking specific apps (which change with updates), these are the things worth evaluating, and which features actually matter in practice.
 
 ## The features that matter most
 
@@ -80,7 +80,7 @@ Camera access for yarn scanning is legitimate. But it should be requested when y
 
 Full disclosure: this is the KnitTools website.
 
-[KnitTools](/) is a one-time purchase with no ads and no subscription. Row counter with multiple simultaneous counters, project management, session history. Four calculators (Cast On, Gauge, Increase/Decrease, Yarn Estimator). Yarn label scanner that creates digital yarn cards. AI instruction parser that reads pattern text and fills in calculator fields automatically (on devices with on-device AI support). Offline for everything. Reference materials including needle sizes, yarn weights, abbreviations, and size charts.
+[KnitTools](/) is a one-time purchase with no ads and no subscription. Row counter with multiple simultaneous counters, project management, session history. Four calculators (Cast On, Gauge, Increase/Decrease, Yarn Estimator). Yarn label scanner that creates digital yarn cards. AI instruction parser that reads pattern text and fills in calculator fields automatically (on devices with on-device AI support). Counter, calculators, projects, and reference library work offline. Basic voice commands too. AI features like yarn card scanning, project summaries, and conversational voice connect to the cloud when available. Reference materials including needle sizes, yarn weights, abbreviations, and size charts.
 
 Designed as a complete toolkit rather than a single-purpose app: everything a working knitter needs, in one place, without ongoing costs.
 
