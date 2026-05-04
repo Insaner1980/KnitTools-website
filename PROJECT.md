@@ -1,225 +1,370 @@
 # KnitTools Website — Project Documentation
 
-> Tila 2026-04-25. Landing page on v11 retro-tyyliin (Caprasimo + General Sans). Magazine-sanasto poistettu. Tool-sivut perivät uudet fontit CSS-muuttujien kautta, layout pysyy v10-tasolla.
+> Tila 2026-05-03. Landing page on v11 retro-tyyliin (Lalezar display + General Sans body + Teko logo). Tool-sivut perivät samat fontit jaettujen CSS-muuttujien kautta. 38 SEO-artikkelia 5 kategoriassa julkaistu, regionaalinen hinnoittelu (US/EU/UK) käytössä, MailerLite-signup integroitu.
 
 ## Overview
 
-KnitTools on Android-neulontasovelluksen (pre-launch) markkinointisivusto + kuusi ilmaista selainpohjaista työkalua + (valmis, mutta tyhjä) artikkeliosio. Staattinen Astro 6 -sivusto, `@astrojs/sitemap`.
+KnitTools on Android-neulontasovelluksen (pre-launch) markkinointisivusto + kuusi ilmaista selainpohjaista työkalua + 38 julkaistua SEO-artikkelia. Staattinen Astro 6 -sivusto.
 
-- **URL:** https://knittoolsapp.com
+- **URL:** https://knittoolsapp.com (Cloudflare Pages, manuaalinen `wrangler pages deploy ./dist`)
 - **Tekijä:** Finnvek
 - **Tila:** Pre-launch — hero ja CTA:t ohjaavat waitlist-lomakkeeseen, ei kauppalinkkejä
-- **Pro-hinta:** €8.99 launch → €11.99 kaksi kuukautta launchin jälkeen. Free tier ilmainen (rajoitettu 3 projektiin)
+- **Pro-hinta (default/US):** $9.99 launch → $12.99 kaksi kuukautta launchin jälkeen
+- **Pro-hinta (EU):** €8.99 → €11.99
+- **Pro-hinta (UK):** £7.99 → £10.99
+- **Trial:** 14 päivää, ei luottokorttia
+- **Launch-kuukausi (UI-merkkijono):** "May 2026"
 - **Riippuvuudet (`package.json`):** `astro ^6.1.3`, `@astrojs/sitemap ^3.7.2`, `sharp ^0.33.5`, `gsap ^3.15.0`
 - **Skriptit:** `npm run dev` (:4321) · `npm run build` → `dist/` · `npm run preview`
+- **Astro-config:** `site: 'https://knittoolsapp.com'`, `output: 'static'`, `build.assets: '_assets'`, `@astrojs/sitemap` integraatio
 
 ---
 
 ## Reitit
 
-| Polku | Sivu | Tyyli |
-|-------|------|-------|
-| `/` | Landing page | **v11 retro** (Caprasimo, General Sans, Teko) |
-| `/tools/` | Tools bento | v10-layout, v11-typografia perittynä |
-| `/tools/cast-on-calculator` | Cast On Calculator | v10 |
-| `/tools/yarn-estimator` | Yarn Estimator | v10 |
-| `/tools/needle-size-chart` | Needle Size Chart | v10 |
-| `/tools/yarn-weight-chart` | Yarn Weight Chart | v10 |
-| `/tools/knitting-abbreviations` | Knitting Abbreviations | v10 |
-| `/tools/knitting-size-charts` | Knitting Size Charts | v10 |
-| `/articles` | Artikkelilista | v10 |
-| `/articles/[...slug]` | Artikkeli | v10 |
+| Polku | Sivu |
+|-------|------|
+| `/` | Landing page (v11 retro) |
+| `/tools/` | Tools bento (6 kortin grid) |
+| `/tools/cast-on-calculator` | Cast On Calculator |
+| `/tools/yarn-estimator` | Yarn Estimator |
+| `/tools/needle-size-chart` | Needle Size Chart |
+| `/tools/yarn-weight-chart` | Yarn Weight Chart |
+| `/tools/knitting-abbreviations` | Knitting Abbreviations |
+| `/tools/knitting-size-charts` | Knitting Size Charts |
+| `/articles` | Artikkelilista (5 kategoriasectionia) |
+| `/articles/[...slug]` | Yksittäinen artikkeli |
+| `/articles/category/[slug]` | Kategorian arkistosivu (5 kategoriaa) |
 
 ---
 
 ## Layout-hierarkia
 
 ```
-BaseLayout.astro (meta, OG, Twitter, favicon, font preload, IntersectionObserver
-                  .reveal, skip-link, bodyClass prop)
- └─ PageLayout.astro (Navbar, <main>, Footer — StripeRibbon ja PageBrandMark
-                      poistettu v11:ssä)
-     └─ index.astro  → body.landing, 8 osiota editorial-komponenteista
-     └─ tool-sivut   → käyttävät yhä v10-tyyliä
-     └─ ArticleLayout.astro artikkeleille
+BaseLayout.astro
+ ├─ <head>: title/desc/canonical, OG, Twitter, favicons (.ico/.webp),
+ │  fonttien preload (lalezar.woff2, general-sans-400/500.woff2, teko-500-subset.woff2)
+ ├─ <body class={bodyClass}>: skip-link, .page-wrapper, IntersectionObserver
+ │  .reveal-luokille, regionaalisen hinnan client-script (Cloudflare /cdn-cgi/trace
+ │  → tier-resoluutio → data-{us|eu|uk|default} -attribuutteihin)
+ └─ PageLayout.astro (Navbar + <main id="main-content"> + Footer)
+     └─ index.astro            → Hero, Marquee, NineTools, FreeToolsCallout,
+     │                           TrustSection, PullQuote, PricingCards, ClosingCTA
+     └─ tools/index.astro      → Tools bento + ClosingCTA(variant="page")
+     └─ tools/<slug>.astro     → Tool-sivu (cream hero, calc/chart, SEO, FAQ, CTA)
+     └─ articles/index.astro   → Kategoria-sectionit + ClosingCTA
+     └─ articles/category/[slug].astro → ArticleCard-grid
+     └─ ArticleLayout.astro    → yksittäinen artikkeli (.prose-typografia)
 ```
+
+`PageLayout`-prop `showStripe` on yhä rajapinnassa (vanhojen tool-sivujen vuoksi) mutta **no-op** — StripeRibbon ja PageBrandMark on poistettu käytöstä.
 
 ---
 
-## v11 Editorial Landing
+## Landing page (v11 retro)
 
-`src/pages/index.astro` importoi 7 komponenttia ja lisää JSON-LD SoftwareApplication -schemam. Wrapper: `PageLayout` bodyClass="landing".
+`src/pages/index.astro` importoi 7 osiokomponenttia + Hero, lisää SoftwareApplication JSON-LD:n (offers.price US-hinnasta, availability `https://schema.org/PreOrder`, inLanguage 11 kieltä) ja kääri sisällön `PageLayout`-elementillä.
 
-Osioiden järjestys:
+### Osioiden järjestys
 
 1. `Hero`
 2. `Marquee`
 3. `NineTools`
 4. `FreeToolsCallout`
 5. `TrustSection`
-6. `PricingCards`
-7. `ClosingCTA`
+6. `PullQuote` (lainaus: *"One tool for every row. One price for every needle. One app for every project."*)
+7. `PricingCards`
+8. `ClosingCTA` (variant `"hero"`)
 
-(Navbar + Footer tulee PageLayoutista.)
+(Navbar + Footer tulevat PageLayoutista.)
 
-### Design tokenit (`src/styles/global.css`)
+> Huom: `index.astro` **ei** aseta `bodyClass="landing"`, joten landing renderöityy oletuspaletilla (paper-tausta + ink-teksti). `body.landing`-skooppi (käännetty paletti, ink-tausta) on `global.css`:ssä määriteltynä mutta ei tällä hetkellä käytössä.
 
-v11-tokenit v10:n rinnalla (tool-sivut yhä tarvitsevat vanhat):
+---
+
+## Design-järjestelmä
+
+### Värit (`src/styles/global.css :root`)
+
+**v11 editorial -paletti (landing + uudet tool-sivut käyttävät näitä):**
 
 ```css
---paper: #F4EAD9;    --paper-2: #EADFC9;
---ink: #2A1E17;      --ink-soft: #4A382C;
---terracotta: #A05038;  --sage: #5B8072;  --walnut: #6B4332;
---amber: #C2703E;    --amber-hover: #A05F32;  --wheat: #C4A661;
-
-/* v11 retro typography stack */
---font-display: "Caprasimo", Georgia, serif;
---font-body:    "General Sans", -apple-system, sans-serif;
---font-label:   "Caprasimo", Georgia, serif;
---font-logo:    "Teko", sans-serif;
---serif:        "Caprasimo", Georgia, serif;   /* alias for landing/tool components */
---body-ed:      "General Sans", sans-serif;     /* alias */
---mono:         "General Sans", sans-serif;     /* alias — uppercase-tracked labels */
+--paper:       #F4EAD9;   --paper-2:     #EADFC9;
+--ink:         #2A1E17;   --ink-soft:    #4A382C;
+--terracotta:  #A05038;   --sage:        #5B8072;
+--walnut:      #6B4332;   --amber:       #C2703E;
+--amber-hover: #A05F32;   --wheat:       #C4A661;
 ```
 
-`body.landing`: paper-tausta + hyvin kevyt radial-gradient overlay (5% terracotta + 5% sage). `.dot-grid-paper` utility lisää 3% opaciteetilla radial dot pattern (24 px välein) — käytössä Herossa ja ClosingCTA:ssa.
+**Stripe-johdannainen paletti (käytössä jaettuna kaikille korttivariantteille):**
+
+```css
+--stripe-terracotta: #A05038;  --stripe-rust:  #C2703E;
+--stripe-sand:       #C4A661;  --stripe-brown: #6B4332;
+--stripe-teal:       #5B8072;
+```
+
+**Vanha v10-paletti (`--dark`, `--cream`, `--accent` #C45100, `--avocado`, `--mustard`, `--dusty-rose`) on yhä määritelty taustaa varten — tool-sivujen vanhat scoped-tyylit tarvitsevat osan näistä.**
+
+### Typografia
+
+| Muuttuja | Fontti | Käyttö |
+|----------|--------|--------|
+| `--font-display` / `--serif` | **Lalezar** 400 | H1, H2, H3, kortit, drop caps |
+| `--font-body` / `--body-ed` / `--mono` | **General Sans** 400/500/600 | Body, eyebrow-labelit, napit, microcopy |
+| `--font-logo` | **Teko** 400/500 | Hero-wordmark, navbar-brand |
+
+Lalezar-display on yksipainoinen — italic-emfaasi (`<em>`) renderöityy selaimen synthesoidulla kursiivilla. `--mono`-alias osoittaa General Sansiin (ei oikeaa monospacea), koska "mono"-roolissa käytetään small-caps-tracking-otsikoita.
+
+`<style>`-typografian rinnalla `src/styles/typography.css` määrittelee semanttiset tokenit (`--ts-h1-tool-size`, `--ts-h2-size`, `--ts-faq-summary-weight` jne.) joita tool-sivut yhä hyödyntävät.
 
 ### Fontit (`public/fonts/`)
 
-Self-hosted woff2 (v11 retro):
+| Tiedosto | Käyttö |
+|----------|--------|
+| `lalezar.woff2` | Display 400 (preloaded) |
+| `general-sans-400.woff2` | Body 400 (preloaded) |
+| `general-sans-500.woff2` | Body 500 (preloaded) |
+| `general-sans-600.woff2` | Body 600 |
+| `teko-400-subset.woff2` | Logo 400, KnitTools-sanamerkin subset |
+| `teko-500-subset.woff2` | Logo 500, KnitTools-sanamerkin subset (preloaded) |
 
-| Tiedosto | Koko | Käyttö |
-|----------|------|--------|
-| `caprasimo.woff2` | 21 kB | Display serif (H1, H2, eyebrow-labels, drop cap) |
-| `general-sans-400.woff2` | 23 kB | Body 400 |
-| `general-sans-500.woff2` | 22 kB | Body 500 (strong) |
-| `general-sans-600.woff2` | 23 kB | Body 600 |
-| `teko-400.ttf` / `teko-500.ttf` | 151 kB × 2 | Logo "KnitTools" (Teko, ei muutoksia) |
+### Pisteruudukko-utility
 
-Kaikki neljä woff2-tiedostoa + Teko 500 preloadattu `BaseLayout.astro`:ssa. Caprasimo on yksipainoinen (regular 400). Italic-emfaasi (`<em>`) renderöityy selaimen synthesoituna kursiivina — speccin Open Question (a) -suositus.
-
-Italic-emfaasin tarkistus: synthesoitu kursiivi näkyy useimmissa selaimissa kohtuullisen siistinä, koska Caprasimo on jo pehmeä, character-rich -muotoilu. Jos visuaalinen tarkistus paljastaa ongelmia, fallback on speccin (b)-vaihtoehto: parita `<em>` Fraunces Italicilla. Älä siirry (c):hen ilman erillistä lupaa.
-
-### Retro-motiivit
-
-Magazine-sanasto on poistettu v11 retro -pivotissa (ks. Kehityshistoria). Jäljelle jäävät visuaaliset koukut:
-
-- **Pisteruudukko** (3% ink) Herossa + ClosingCTA:ssa
-- **Iso italic-aksentti** jokaisessa H1/H2/H3:ssa — `<em>` terracotta-värillä paperilla, wheat walnut-taustalla
-- **Section-eyebrowt** "FEATURES", "PRINCIPLES", "PRICING" General Sans 600 small-caps tracking -tyylillä, ei numerointia
-- **Pricing- ja AI-bullet-listat** ilman numerointia — pelkät tekstirivit border-top -erottimin
-
-### Komponentit
-
-#### Navbar (`src/components/Navbar.astro`)
-- Fixed top, transparent default, scrolled-tila (`window.scrollY > 80`) → paper-tausta + 1 px ink border
-- Oikealla: Tools / Articles / **Join the waitlist** (amber pill, ink border)
-- Vasen: placeholder (logo nyt hero-masthead-stripissä, ei navbarissa)
-
-#### Hero (`src/components/Hero.astro`)
-- **Ei meta-strippiä** (v11 retro -pivotissa Vol/Est/Knitter's Journal -masthead poistettu, hr-viivat pois)
-- **Eyebrow:** "An Android app for knitters" (terracotta Caprasimo small-caps)
-- **H1:** "All your knitting tools." + "*In one app.*" (kaksi riviä, jälkimmäinen Caprasimo italic terracotta)
-- **Dek:** "The row you were on... **KnitTools remembers it all**, so the only thing you do is keep knitting." (terracotta drop-cap + bold)
-- **Signup:** email + "Notify me at launch" (square outline-nappi). Success: "You're in. We'll email you at launch."
-- **Microcopy:** "Coming 2026 to Google Play and Amazon Appstore. 14-day free trial. Launch price **€8.99**, rises to €11.99 after two months."
-- **Puhelin:** `PhoneMockup` theme="light" + `row-counter-mobile.webp` (importattu `src/assets/images/`-kansiosta). Counter-overlay (`<span data-counter>136</span>`) renderöityy `<slot />`-elementin kautta moderni-Android-kehyksen sisällä. `phone-parallax`-wrapper antaa kevyen scroll-efektin (`prefers-reduced-motion: reduce` poistaa).
-
-#### Marquee (`src/components/Marquee.astro`)
-- Paper-tausta, 1 px ink top+bottom border
-- 9 termiä duplikoituna: Row counter · Voice commands · Yarn scanner · AI journaling · Pattern viewer · Ravelry · Insights · Progress photos · Widget
-- Mono caps ink-teksti, terracotta-pisteet erottimina
-- 40 s CSS `@keyframes scroll`, pausee `prefers-reduced-motion`
-
-#### NineTools (`src/components/NineTools.astro`)
-- Section-eyebrow "FEATURES", H2 "Every tool, *talking to each other.*"
-- **10 korttia** 3×3-ruudukossa + 1 leveä AI-kortti
-- 9 regular-korttia paper-2-täytöllä, 1 px ink-border, 28 × 28 × 32 padding. Kortissa: card-meta (Caprasimo-tagi small-caps vasemmalla + FREE/PRO-pilli oikealla, EI § -prefiksiä), h3, p
-- **5 FREE:** Counter (chips 11 kielestä), Pattern, Calc, Ravelry (walnut-tint), Reference. Counter on 1. kortti chipsirivillä.
-- **5 PRO:** Stash (sage-tint), Photos, Insights, Widget, AI (leveä)
-- **AI-kortti** (`.tool-card.wide.tint-ink`) `grid-column: 1 / -1`, ink-tausta, terracotta glow-ornament. Sisältö 3-sarakkeisena gridinä:
-  - Vasen: H3 *"AI that knows knitting."*, intro, 🎙 Listening… mono
-  - Keski: 4 aliominaisuutta (Live voice on the counter · Pattern intelligence · Stash and project memory · Voice or text journal) puhtaina rivilistana ilman numerointia
-  - Oikea: **Transcript · Live wheat-vignette** (terävät kulmat, ink border) 4 puhevuoroa: YOU/AI labelit, viestit. YOU-riveissä animoitu 9-barinen terracotta-ääniraita (40 px korkea, pausee reduced-motion)
-- Tintit: .tint-sage (paper-teksti), .tint-walnut (paper-teksti + wheat lead-sana), .tint-ink (paper-teksti)
-
-#### FreeToolsCallout (`src/components/FreeToolsCallout.astro`)
-- Paper-tausta, 900 px max-width, keskitetty
-- Eyebrow "FREE TOOLS" terracotta mono
-- H2 (26–38 px) "Not ready for the app? *Try one in your browser.*"
-- 6 pill-linkkiä stripenvärein: Cast On (terracotta), Yarn Estimator (amber), Yarn Weights (wheat), Needle Sizes (sage), Size Charts (walnut), Abbreviations (ink)
-- "See all tools →" linkkinä `/tools/`:iin
-
-#### TrustSection (`src/components/TrustSection.astro`)
-- Section-eyebrow "PRINCIPLES", H2 "What you can *count on.*"
-- 3 kehystettyä korttia paper-2:lla (Price / Privacy / Languages); Privacy-kortti sage-tint + paper-teksti
-- Jokainen kortti: eyebrow (sage tai paper), H3 (2 riviä — lead + italic), body
-
-#### PricingCards (`src/components/PricingCards.astro`)
-- Section-eyebrow "PRICING", H2 "Pay once. *Own it.*"
-- 2 korttia rinnakkain (Free paper-2, Pro terracotta-tausta + paper-teksti)
-- Mobiililla Pro-kortti ensin (`order: -1`)
-- **Free-kortti:** "Free" tier-label (General Sans small-caps, ei § -prefiksiä), H3 "Forever", 7 bulletia ilman numerointia, footnote "No account. No trial expiry. No card."
-- **Pro-kortti:** "Pro" tier-label (wheat), H3 "€8.99 one-time", "Everything in Free, plus:", 8 bulletia ilman numerointia, footnote "14-day free trial. No credit card. Rises to €11.99 two months after launch — permanently. No subscription, ever."
-
-#### ClosingCTA (`src/components/ClosingCTA.astro`, `dot-grid-paper`)
-- Eyebrow "BE THERE AT LAUNCH" terracotta
-- H2 (clamp 3–6 rem) "Where every stitch *counts.*"
-- Waitlist-lomake (`id="join"`, Navbarin linkki osoittaa tähän): email + "Reserve my price" (amber pill). Success-tila "Reserved. See you at launch."
-- Meta: "Free at launch · Pro €8.99 → €11.99 after two months · No card required"
-
-#### Footer (`src/components/Footer.astro`)
-- Paper-tausta, 1 px ink top-border
-- 3 saraketta: **Tools** (6 työkalua), **Articles** (5 kategorialinkkiä `/articles`:iin), **App** (Launching soon, Privacy Policy)
-- Copyright-rivi: "© MMXXVI KnitTools · Finnvek"
+`.dot-grid-paper` lisää 3% opaciteetilla radial dot patternin — utility on määritelty komponenttitasolla (Hero, ClosingCTA), ei globaalisti.
 
 ---
 
-## Bullet-lista pricingissa
+## Komponentit
 
-**Free (7):** i Row counter + session history · ii Pattern viewer (PDF or Ravelry) · iii Four calculators (gauge, cast-on, increases, yardage) · iv Ravelry sign-in · v Reference library (needles, sizes, symbols, abbreviations) · vi Three projects · vii Eleven languages
+### Navbar (`src/components/Navbar.astro`)
+- Fixed top, `z-index: 50`, transparent default. Scrolli (`window.scrollY > 80`) → `paper`-tausta + `ink`-bottom-border
+- Vasen: `<a class="brand-mark">KnitTools</a>` Teko-fontilla, fontti-koko 28px (mob 22px)
+- Oikea: Tools / Articles / **Join the list** (outline-pill `1.5px ink`-reunuksella, hover → ink-fill cream-tekstillä)
 
-**Pro (8):** i Unlimited projects · ii Yarn OCR scanner · unlimited stash · iii Progress photos, row-tagged · iv Insights, streaks, pace-over-time · v Home-screen counter widget · vi Live AI voice on the counter (all eleven languages) · vii AI pattern help: read rows aloud, explain stitches, parse instructions · viii AI project summaries + voice journal
+### Hero (`src/components/Hero.astro`) — ei puhelinmockia
+Editorial-tyylinen 2-palstainen layout (1.5fr / 1fr, mob: 1 sarake):
+
+- **Vasen (`.hero-text`):**
+  - Eyebrow "An Android app for knitters" (terracotta, General Sans 600 small-caps)
+  - **Wordmark** "Knit / Tools" kahdessa rivissä, Teko 500, `clamp(64px, 12vw, 180px)`, line-height 0.75 — hallitseva visuaalinen ankkuri
+  - Tagline italic: *"Every knitting tool. **One app.**"* (terracotta korostus)
+- **Oikea (`<aside class="signup-card">`):** paper-2-tausta, 1.5px ink reunus
+  - Card-head "Coming May 2026" (terracotta small-caps)
+  - Card-copy "Be first to know when KnitTools launches on Google Play."
+  - Email-form (action `#`, JS-handler postaa `https://api.finnvek.com/subscribe` JSON-bodylla `{ email, source: 'knittools', website }`, `website` on honeypot)
+  - Submit-nappi "Notify me at launch" (ink solid -nappi, hover → terracotta)
+  - Card-caption: hinta launch-tier + permanent-tier `RegionalPrice`-komponentilla, 14-day trial, `RegionalPricingNote`
+  - Success: "You're in. We'll email you at launch."
+  - Error: "Something went wrong. Please try again." / "Network error. Please check your connection."
+
+### Marquee (`src/components/Marquee.astro`)
+- **Terracotta-tausta** `#A05038`, cream-teksti `#F4EAD9`
+- 20 termiä duplikoituna (Projects, Row counter, Pattern viewer, Saved patterns, Yarn label scanner, My Yarn, Gauge calculator, Cast on calculator, Yarn estimator, Increase / decrease, Needle sizes, Size charts, Abbreviations, Chart symbols, Ravelry search, Progress photos, Session history, Insights, Row counter widget, Voice commands)
+- General Sans 500 small-caps 13px, cream-pisteet erottimina
+- 40 s `@keyframes scroll`, pausee `prefers-reduced-motion`-tilassa
+
+### NineTools (`src/components/NineTools.astro`)
+Section-eyebrow "Features", H2 *"Every tool, talking to each other."*, manifesto-paragraph alla.
+
+Sisäinen rakenne kahdessa tieressä **tier-headerillä** (`.tier-head`: tier-label terracotta + tier-count + ohut `ink`-viiva loppuun):
+
+- **Free forever (5 korttia):**
+  - Counter (span 2, chip-rivi 11 kielellä: English, Suomi, Svenska, Dansk, Norsk, Nederlands, Deutsch, Français, Italiano, Português, Español)
+  - Pattern (amber-tint)
+  - Calc
+  - Ravelry (walnut-tint)
+  - Reference
+- **Pro `<RegionalPrice phase="launch" />` (5 korttia):**
+  - Stash (sage-tint, span 2)
+  - Photos
+  - Insights
+  - Widget (terracotta-tint)
+  - **AI-kortti** `<article class="tool-card tint-sage wide ai-card">` koko leveys (`grid-column: 1 / -1`):
+    - Vasen (`.ai-intro`): H3 *"AI that knows knitting"*, intro-paragraph, mic-area (sonar-renkaat + mic-ikoni + "Listening"-status)
+    - Oikea: 4-rivinen `.ai-list` ilman numerointia (Live voice on the counter / Pattern intelligence / Stash and project memory / Voice or text journal)
+    - Alaosa (`.ai-broadcast`): JS-piirretty 44-bar `big-wave` -aaltografiikka (4 random-keyframe-varianttia, pausee reduced-motion) + transcript-paneeli ("Transcript · Live", "Row 85", typing-loop YOU/AI dialogissa kolmen lauseparin yli)
+
+Kortit: oletus `wheat`-tausta + ink-teksti, tint-variantit `tint-sage`, `tint-walnut`, `tint-amber`, `tint-terracotta`, `tint-ink` muuttavat värin paper-tekstiksi. Lalezar H3 (`clamp(1.5rem, 1.9vw, 1.9rem)`), General Sans 11px tag-label.
+
+### FreeToolsCallout (`src/components/FreeToolsCallout.astro`)
+Keskitetty 1120px max-width:
+- Eyebrow "Free tools"
+- H2 "Use them right here, no install."
+- 6 pill-linkkiä stripe-väreillä: Cast On (terracotta), Yarn Estimator (amber), Yarn Weights (wheat — ink-teksti), Needle Sizes (sage), Size Charts (walnut), Abbreviations (paper-fill, ink-teksti)
+- "See all tools →" italic-linkki `/tools/`:iin
+
+### TrustSection (`src/components/TrustSection.astro`)
+3-saraketta (mob 1), section-eyebrow "Principles", H2 *"What you can count on."*
+
+| # | Eyebrow | Otsikko | Tint |
+|---|---------|---------|------|
+| 1 | Price | "Pay once. *Own it.*" | wheat-default |
+| 2 | Privacy | "No tracking. *No ads.*" | sage |
+| 3 | Languages | "Speaks *your language.*" | wheat-default |
+
+Price-kortti renderöi `RegionalPrice phase="launch"` ja `phase="permanent"` + `RegionalPricingNote`.
+
+### PullQuote (`src/components/PullQuote.astro`)
+Aside-elementti, paper-tausta, 72px ylä-/alaviivat, 900px max-width. Lalezar `clamp(1.75rem, 3.5vw, 2.75rem)` italic, terracotta-typograafiset lainausmerkit. Props: `quote: string`, `attribution?: string`.
+
+### PricingCards (`src/components/PricingCards.astro`)
+2-saraketta (mob: 1, **Pro ensin** `order: -1`), `border-top: 1px solid ink`.
+
+Section-eyebrow "Pricing", H2 *"Pay once. Own it."*
+
+- **Free-kortti (`.card.free`, wheat-tausta):**
+  - Label "Free", H3 "$0 forever"
+  - 7 bulletia (`<ol>` ilman numerointia, border-top -erottimet): Row counter + session history · Pattern viewer (PDF or Ravelry) · Four calculators (gauge, cast-on, increases, yardage) · Ravelry sign-in · Reference library (needles, sizes, symbols, abbreviations) · Three projects · Eleven languages
+  - Footnote "No account. No trial expiry. No card."
+- **Pro-kortti (`.card.pro`, sage-tausta + cream-teksti, 2px cream-reunus):**
+  - "Editor's Pick" -badge (paper-tausta, ink-reunus, oikea ylälaita)
+  - Label "Pro", H3 `<RegionalPrice phase="launch" /> one-time`
+  - Trial "14-day free trial. No credit card required."
+  - "Everything in Free, plus:" -otsikko
+  - 8 bulletia: Unlimited projects · Yarn OCR scanner. Unlimited stash · Progress photos, row-tagged · Insights, streaks, pace-over-time · Home-screen counter widget · Live AI voice on the counter (all eleven languages) · AI pattern help: read rows aloud, explain stitches, parse instructions · AI project summaries + voice journal
+  - Footnote "Rises to `<RegionalPrice phase="permanent" />` 2 months after launch. Permanently. No subscription, ever. `<RegionalPricingNote />`"
+
+### ClosingCTA (`src/components/ClosingCTA.astro`)
+Props: `variant?: 'hero' | 'page'` (oletus `hero` = isompi typografia 6rem, `page` = pienempi 3.25rem ja 96px-padding käytössä `/tools/`, `/articles`, kategoriasivut, ArticleLayout).
+
+- Eyebrow "Be there at launch" (terracotta)
+- H2 *"Where every stitch counts."* (italic em terracotta)
+- Form `id="join"` (Navbarin "Join the list" osoittaa tähän) — sama `https://api.finnvek.com/subscribe` -endpoint, honeypot, success: "Reserved. See you at launch.", meta "Free tier from day one. No card required."
+- Submit-nappi "Reserve my price" (ink solid, hover terracotta)
+
+### Footer (`src/components/Footer.astro`)
+Paper-tausta, 1px ink top-border, 80px-padding desktop, kompakti mob.
+- 3 saraketta + sealing-logo (`/logo.webp` 220×220, mob 140×140) flex-alignilla
+  - **Tools** — kaikki 6 työkalua linkkeinä
+  - **Articles** — 5 kategorialinkkiä (`/articles/category/{slug}`): Gauge & Calculations, Yarn, Needles, Techniques, App & Tools
+  - **App** — "Launching soon" (italic ink-soft) + Privacy Policy → `https://finnvek.com/privacy#knittools`
+- Footer-bottom: ohut viiva + copyright "© MMXXVI KnitTools. Finnvek." (Finnvek-linkki finnvek.com)
+- `languages`-array (11 kieltä) on koodissa mutta ei renderöidy
+
+### RegionalPrice + RegionalPricingNote
+- `RegionalPrice.astro` renderöi `<span data-regional-price={phase} data-us=... data-eu=... data-uk=... data-default=...>`-elementin oletuksena US-hinnalla. `BaseLayout`-skripti hakee Cloudflare `/cdn-cgi/trace` -loc-koodin (1.2 s timeout, fallback `navigator.languages` -region), mappaa countryn tieriin (`COUNTRY_TO_TIER`-taulukko `pricing.ts`:ssa), ja päivittää `textContent`-arvon.
+- `RegionalPricingNote.astro`: `<span data-regional-pricing-note hidden>Pricing on Google Play in your local currency.</span>` — näkyväksi kun tier === `default` (eli ei ole US/EU/UK).
+
+### PhoneMockup ja muut käyttämättömät
+**Käytössä:** `Hero`, `Marquee`, `PullQuote`, `NineTools`, `FreeToolsCallout`, `TrustSection`, `PricingCards`, `ClosingCTA`, `RegionalPrice`, `RegionalPricingNote`, `Navbar`, `Footer`, `ArticleCard`, `ToolCard`, `CastOnCalculator`, `YarnEstimator`.
+
+**Ei käytössä — vanha v10-koodi diskillä:** `PhoneMockup.astro`, `FeatureKnit`, `FeatureOrganize`, `FeatureCalculate`, `FeatureScanSave`, `FeatureLearn`, `FreeToolsMention`, `PhoneInset`, `ToolClosingCTA`, `StitchSeam`, `StripeRibbon`, `PageBrandMark`.
 
 ---
 
-## Tool-sivut (v10, ei skopessa)
+## Hinnoittelu (`src/config/pricing.ts`)
 
-Kuusi erillistä tool-sivua yhä käyttävät `PageLayout` `showStripe={true}`, mutta `showStripe`-prop on nyt no-op (StripeRibbon ja PageBrandMark poistettu). Tool-sivut renderöityvät ilman stripeä ja brand-markia, mutta sisältö toimii.
+```ts
+PRICING_TIERS = {
+  US:      { launch: '$9.99', permanent: '$12.99' },
+  EU:      { launch: '€8.99', permanent: '€11.99' },
+  UK:      { launch: '£7.99', permanent: '£10.99' },
+  default: { launch: '$9.99', permanent: '$12.99' },
+}
+DEFAULT_PRICING_TIER  = 'US'      // SSR-renderöinnin lähtöarvo
+FALLBACK_PRICING_TIER = 'default' // jos country tunnistuu mutta ei ole US/EU/UK
+PRICING.trialDays = 14
+PRICING.permanentPriceStartsAfterMonths = 2
+PRICING.launchMonthLabel = 'May 2026'
+LOCAL_CURRENCY_NOTE = 'Pricing on Google Play in your local currency.'
+```
 
-Rakenteet kullakin tool-sivulla:
-1. Hero (cream, Bebas Neue H1, intro)
-2. ToolCard + kalkulaattori/taulukko
-3. SEO-sisältö
-4. FAQ `<details>/<summary>`
-5. Waitlist-CTA
-6. Footer (nyt v11 paper-tausta — yhteinen)
+**EU-tieriin mappaavat maat:** AT, BE, HR, CY, EE, FI, FR, DE, GR, IE, IT, LV, LT, LU, MT, NL, PT, SK, SI, ES.
+**UK:** GB. **US:** US. **Muut:** `default`-tier (US-hinnoittelu + näkyvä `RegionalPricingNote`).
+
+`getStructuredPrice()` palauttaa aina USD-arvon JSON-LD:n `offers.price`-kenttään, irti UI-tieristä.
 
 ---
 
-## Tunnettuja puutteita
+## Artikkelit (`src/content/articles/`)
 
-- **Hero-logo:** kohdistus vielä säädössä (paperitausta saattaa näkyä viivojen päällä logon kohdalla)
-- **Tool-sivut yhä v10-tyylissä** — design-yhtenäistys on erillinen työ
-- **Artikkeleita ei ole luotu** — `/articles`-sivu näyttää tyhjän tilan
-- **StripeRibbon ja PageBrandMark** komponenttitiedostot jäävät diskille käyttämättöminä (cleanup myöhemmin)
-- **Legacy-komponentit** (FeatureKnit, FeatureOrganize, FeatureCalculate, FeatureScanSave, FeatureLearn, FreeToolsMention, PhoneInset, ToolClosingCTA, StitchSeam) jäävät diskille
-- **/privacy-reitti** ei ole olemassa — footerin Privacy Policy osoittaa `#`:iin
+- **38 julkaistua artikkelia** Markdown-tiedostoina, kaikki `draft: false` (`.gitkeep` mukana). Schema (`src/content.config.ts`) Zod-validoitu: `title`, `description`, `category` (enum 5 kategoriaa), `publishDate` (date), `updatedDate?`, `categoryOrder?` (1+ int), `tags[]`, `draft` default false, `readTime?`.
+- **Loader:** `glob({ pattern: '**/*.{md,mdx}', base: './src/content/articles' })`
+- **Kategoriat (`src/lib/categories.ts`):**
+  - `gauge-calculations` → "Gauge & Calculations" → `card-terracotta`
+  - `yarn` → "Yarn" → `card-rust`
+  - `needles` → "Needles" → `card-teal`
+  - `techniques` → "Techniques" → `card-sand`
+  - `app-tools` → "App & Tools" → `card-brown`
+- **Järjestys:** Listalla ja kategoriasivulla `categoryOrder` (asc, default 999).
+- **Artikkelilista (`/articles`):** Otsikko + intro + kategoriapainikkeet (suorat linkit `/articles/category/{slug}`-sivuille), 5 kategoriasectionia á 3 ensimmäistä artikkelia + "View N more →" -linkki kategoriasivulle. Tyhjälle datalle empty-state ("Coming May 2026 / Articles are being written / Browse free tools →").
+- **Kategoriasivu (`/articles/category/[slug]`):** `getStaticPaths` viidelle slugille, ArticleCard-grid 12-col responsive (1024px → 2col, 768px → 1col).
+- **Yksittäinen artikkeli (`/articles/[...slug]`):** ArticleLayout, prose-typografia (Lalezar H2/H3, terracotta-linkit, list-markerit, italic blockquote-vasen-reunus, code paper-2-taustalla).
+- **ArticleCard:** kategoriavärinen kortti (rgba 0.92), Lalezar otsikko, GS-runko, paper-fill rounded tag, julkaisupäivämäärä `<time>`-elementtinä.
+
+---
+
+## Tools-sivut
+
+### `/tools/` — bento listing
+- 12-col grid, ylärivi 50/50 isot kortit (Cast On terracotta + Yarn Estimator rust, min-height 220px)
+- Alarivi 4 referenssikorttia 3-col-leveyksinä (Yarn Weight Chart sand, Needle Size Chart teal, Knitting Size Charts terracotta, Knitting Abbreviations brown)
+- 1024px → 2-sarakkeinen, 768px → 1-sarakkeinen
+- CollectionPage-JSON-LD mainEntity ItemList
+- `ClosingCTA variant="page"` lopussa
+
+### Yksittäinen tool-sivu (kaikki 6)
+Rakenne yhtenäinen:
+1. Tool-hero: eyebrow "← All tools" -linkki, H1 (Lalezar), intro
+2. `<div class="form-card variant-{terracotta|rust|sand|teal|brown}">` jonka sisällä laskuri-/taulukkokomponentti (`CastOnCalculator`, `YarnEstimator`, tai sivun oma sisältö). Variantti määrittelee `--paper`/`--ink`/`--terracotta` -tokenit lapsille.
+3. `.seo-content` H2/p-block (kolme aihealuetta)
+4. `.tool-faq` `<details>/<summary>`-rakenteella, "+/–"-icon
+5. `ClosingCTA variant="page"` lopussa (Waitlist-CTA)
+
+Tool-sivut käyttävät yhä `PageLayout`-propia `showStripe={false}` (no-op).
+
+---
+
+## Layout & SEO
+
+- **BaseLayout:** kanonisessa URL `https://knittoolsapp.com{canonicalPath}`, OG/Twitter-metat, og-image `/images/og-image.png`, favicon (.ico + .webp), Skip-link "Skip to content".
+- **Sitemap:** `@astrojs/sitemap` generoi `/sitemap-index.xml` ja `/sitemap-0.xml` (52 URL:a). `public/_redirects`-tiedosto sisältää `/sitemap.xml /sitemap-index.xml 301` jotta Google Search Console löytää sitemapin standardi-URL:sta.
+- **Robots.txt:** `public/robots.txt` (perustaso).
+- **Security disclosure:** `public/security.txt` (RFC 9116).
+- **Reveal-animaatio:** `.reveal`-luokat saavat IntersectionObserver-pohjaisen fade-in:n (rootMargin -20% bottom). `prefers-reduced-motion: reduce` -tilassa kaikki näytetään heti.
+
+---
+
+## Cloudflare Pages -deployment
+
+- **Branch:** Cloudflare Pages on konfiguroitu deployaamaan `main`-haarasta direct upload -tilassa (ei Git-integraatiota). Ei custom env-vareja.
+- **Workflow:** `npm run build` → `wrangler pages deploy ./dist --project-name knittoolsapp --branch main`
+- `_redirects`-tiedosto kopioituu `public/` → `dist/` buildissa, Cloudflare käsittelee säännöt edge-tasolla.
 
 ---
 
 ## Git
 
-- Aktiivinen haara: `v2-editorial` (v11 retro -pivotin jälkeen edelleen tällä haaralla, nimi pysyy syntaksin vuoksi)
+- Aktiivinen kehityshaara: `v2-editorial`
+- Production: `main` (mergetään PR:ien kautta v2-editorialista)
 - Remote: `origin` → `https://github.com/Insaner1980/KnitTools-website`
 - `.gitignore` jättää ulkopuolelle: `node_modules/`, `dist/`, `.astro/`, `.DS_Store`, `.remember/`, `.claude/`, `.codex`
 
 ---
 
-## Kehityshistoria
+## Tunnettuja puutteita
 
-**v11 retro (2026-04-25)** — Pivot away from editorial magazine aesthetic. Caprasimo replaces Bebas Neue and DM Serif Display as the display font. General Sans replaces Geist as the body font. Magazine vocabulary (VOL/EST/FIG/Nº/§ markers, "Knitter's Journal" tagline, hero horizontal rules) removed. Hero headline updated to "All your knitting tools. In one app." Wooden phone frame (which existed only in spec — current code rendered a flat `<img>`) replaced with modern Android `PhoneMockup` frame; counter overlay layered via new `<slot />`. Three.js dropped from dependencies (was unused). PROJECT.md typography section rewritten.
+- Vanhat tool-sivujen scoped-CSS:t käyttävät yhä v10-tokeneita (`--accent`, `--cream`, `--bebas-*`) jaetun `typography.css`:n kautta. Visuaalinen yhtenäistys v11 retro -tyyliin tehdään palautteen perusteella per sivu.
+- `PhoneMockup.astro` ja muut v10-feature-komponentit jäävät diskille — cleanup myöhemmin kun varmistetaan että mitään ei tarvita.
+- `body.landing`-skooppi (kevyt dark-mode -inversio paletille) on `global.css`:ssä määritelty mutta `index.astro` ei aseta `bodyClass="landing"` — palette pysyy paper/ink-default-tilassa.
+- `Footer.astro`:n `languages`-array on koodissa muttei renderöidy (mahdollisesti tulossa myöhemmin).
+- `/articles`-sivulla `cat-nav-link`-painikkeet linkkaavat suoraan kategoriasivuihin (commit `72f21db`); aiempi anchor-versio poistettu.
 
-**v11 editorial (2026-04-20 → 2026-04-24)** — DM Serif Display + Lora + JetBrains Mono editorial direction with VOL/EST mastheads, Nº section numbering, § card prefixes, Knitter's Journal tagline. Replaced by v11 retro after one-week visual evaluation.
+---
 
-**v10 (pre-2026-04-20)** — Geist + Bebas Neue + Teko stack. Original tool-pages baseline. Tool-page layouts continue at v10; typography auto-updates via shared CSS variables.
+## Kehityshistoria (uusin ensin)
+
+- **2026-05-02 — `v2-editorial`** Linkitys: artikkelilistan kategoriapainikkeet osoittavat suoraan kategoriasivuihin (commit `72f21db`).
+- **2026-05-02** Security disclosure (`public/security.txt`) lisätty.
+- **2026-05-01** Marquee-leikkautuminen ensi-taitteen alarajalla korjattu kahdessa erässä.
+- **2026-05-01** **38 artikkelin julkaisu:** `draft: true` poistettu kaikista artikkeleista (`4f55c7c`). `categoryRank` → `categoryOrder` -uudelleennimentä (`a78d067`) artikkelien järjestyksen yhtenäistämiseksi.
+- **2026-05-01** Sitemap-redirect `_redirects`-tiedoston kautta `/sitemap.xml` → `/sitemap-index.xml` (Google Search Console -korjaus).
+- **2026-04-25** **Display-fontti vaihdettu Caprasimosta Lalezariin** (`f354b5e`). Caprasimo poistettu fonteista; Lalezar 21 kB woff2 self-hosted, käytössä `--font-display`/`--serif`-tokenien kautta.
+- **2026-04-25** **38 SEO-artikkelin lisäys** content collectioniin + 5 kategoriasivua (`db9d31a`).
+- **2026-04-25** Komponenttien hienosäätö v11-editorial-tyyliin (`09ac2a2`).
+- **2026-04-24** MailerLite-signup integraatio kaikkiin lomakkeisiin (`api.finnvek.com/subscribe`, honeypot-suoja, `1ca3e34`).
+- **2026-04-24** Editoriaalisia hienosäätöjä — NineTools-manifesto + "Coming May 2026" (`19ab9a6`).
+- **2026-04-24** v11-fonttipakkauksen siivous: `@img/sharp-linux-x64` poistettu, käyttämättömät fontti-source-hakemistot pois.
+- **2026-04-23** **v11 retro redesign** (`49dacba`): Caprasimo + General Sans, hero/landing-uudistus, magazine-sanasto poistettu, modern Android PhoneMockup hetkeksi käyttöön (poistettu sittemmin Hero:sta).
+- **v10 (pre-2026-04-20)** Geist + Bebas Neue + Teko -stack. Tool-sivujen baseline; tyypografia päivittyy CSS-muuttujien kautta automaattisesti.

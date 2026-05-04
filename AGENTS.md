@@ -126,35 +126,16 @@ Cream hero (H1 Bebas Neue, intro, back-link → /tools/) → Cream laskuri/taulu
 <claude-mem-context>
 # Memory Context
 
-# [KnitTools-website] recent context, 2026-05-01 9:33pm GMT+3
+# [KnitTools-website] recent context, 2026-05-03 5:59am GMT+3
 
 Legend: 🎯session 🔴bugfix 🟣feature 🔄refactor ✅change 🔵discovery ⚖️decision 🚨security_alert 🔐security_note
 Format: ID TIME TYPE TITLE
 Fetch details: get_observations([IDs]) | Search: mem-search skill
 
-Stats: 44 obs (16,158t read) | 221,246t work | 93% savings
+Stats: 50 obs (19,031t read) | 1,943,527t work | 99% savings
 
 ### May 1, 2026
-4625 9:15a 🔵 Article Rendering Issue on Deployed KnitTools Website
-4626 " 🔵 Build Process Generates All 38 Articles Successfully
-4627 9:16a 🔵 Deployment Branch Mismatch Suspected
-4628 " 🔵 Root Cause Found: Main Branch Has Only Initial Commit
-4629 " 🔵 Main Branch Articles Directory Empty - Contains Only .gitkeep
-4630 9:18a 🔵 Cloudflare Pages Configured to Deploy from Main Branch
-4631 " 🔵 Deployment is Direct Upload Without Git Build Process
-4632 9:19a 🔵 Live Site Confirms Only One Article Visible
-4633 " 🔵 Article Pages Exist and Return 200 OK But Missing from Index
-4635 " 🔵 Root Cause: 37 Articles Marked as Draft in Frontmatter
-4634 9:20a 🔵 Local Build Contains All Articles But Deployed Version Shows Only One
-4639 9:22a ✅ Removed Draft Flags from 37 Articles via Bulk Edit
-4640 9:26a ✅ Successful Build With All Articles Now Visible in Index
-4641 " ✅ Category Pages Now Display All 38 Articles Across Five Categories
-4643 " ✅ Deployment Successful But Production Domain Not Yet Updated
-4645 " 🔵 Preview Deployment Shows All 15 Articles While Production Domain Serves Old Content
 4646 9:28a ✅ Draft Removal Changes Committed and Pushed to v2-editorial Branch
-4647 " 🔵 v2-editorial Branch 22 Commits Ahead of Main With Zero Divergence
-4648 " 🔵 Fast-Forward Merge Succeeded Locally But Push to Remote Main Rejected
-4649 " 🔵 Remote Main Branch Already Merged v2-editorial via GitHub Pull Requests
 4650 9:29a 🔵 Branch Divergence Shows 3 New v2-editorial Commits and 5 PR Merge Commits on Main
 4651 9:30a ✅ Merged v2-editorial Into Main With Draft Removal and Recent Changes
 4652 9:31a ✅ Main Branch Successfully Pushed to GitHub With Draft Removal Integration
@@ -170,7 +151,6 @@ Stats: 44 obs (16,158t read) | 221,246t work | 93% savings
 4670 " 🔵 No Custom Environment Variables Required for Deployment
 4671 " ⚖️ Manual Wrangler Deployment Workflow Retained Instead of Git Integration
 4672 " 🔵 Production Deployment Out of Sync with Latest GitHub Commits
-S466 SonarQube plugin startup warnings - missing CLI and unconfigured hooks (May 1, 9:58 AM)
 S467 Resolve SonarQube plugin startup warnings by completing CLI and hook installation (May 1, 10:01 AM)
 S465 SonarQube plugin startup warnings - sonarqube-cli not found and hooks not configured (May 1, 10:01 AM)
 S468 Complete SonarQube plugin integration by installing CLI and configuring authentication (May 1, 10:02 AM)
@@ -181,29 +161,56 @@ S468 Complete SonarQube plugin integration by installing CLI and configuring aut
 S469 User provided SonarQube Cloud organization key for authentication configuration (May 1, 10:43 AM)
 S471 Configure SonarQube Cloud authentication after CLI installation (May 1, 10:46 AM)
 S472 Complete SonarQube Cloud authentication and verify connection status (May 1, 10:47 AM)
-**4679** 11:25a ✅ **SonarQube Claude integration completed with hooks installed**
-Completed SonarQube integration for Claude Code by running the global integration command with non-interactive mode. The setup executed in three phases: Discovery validated the SonarCloud connection and installed sonar-secrets binary (version 2.41.0.10709, Windows x86-64) for secrets scanning; Health Check verified token validity, server availability, and organization access while installing hooks; Final Verification confirmed all components functional. The integration now provides automatic secrets detection in prompts. MCP Server setup was skipped because no container runtime (Docker/Podman/Nerdctl) is installed on the system. This completes all three missing components from the original startup warnings: CLI installed, authentication configured, and hooks set up.
-~415t 🛠️ 3,590
-
+4679 11:25a ✅ SonarQube Claude integration completed with hooks installed
 S470 Initiate SonarQube Cloud authentication with organization key insaner1980 (May 1, 11:25 AM)
 S473 Complete SonarQube plugin integration and explain what's working and what requires Docker (May 1, 11:26 AM)
-**4678** 11:28a ✅ **SonarQube Cloud authentication configured successfully**
-Completed SonarQube Cloud authentication by connecting to the EU instance at sonarcloud.io with organization key insaner1980. The authentication token is securely stored in the operating system's keychain using Bun.secrets native integration (introduced in SonarQube CLI 0.10.0), eliminating the need for external keytar dependency. The sonar auth status command confirmed successful connection and token validation. This resolves the second of three missing components from the original plugin startup warnings.
-~233t 🛠️ 1,456
+4678 11:28a ✅ SonarQube Cloud authentication configured successfully
+S474 Verify SonarQube integration is complete without Docker dependency (May 1, 11:29 AM)
+4680 11:31a 🔵 SonarQube CLI command capabilities explored
+4731 6:13p 🔴 Fixed Google Search Console sitemap URL mismatch
+4733 " ✅ Deployed sitemap redirect fix to Cloudflare Pages production
+4737 " 🔵 Deployed Sitemap Fix Not Working in Production
+4738 9:34p 🔴 Fixed Sitemap XML Issue with Cloudflare Pages _redirects File
+4739 " 🔵 Cloudflare Pages _redirects File Enables URL Routing Without Server Functions
+### May 3, 2026
+4817 3:16a 🔵 PROJECT.md Documentation Outdated Compared to Live Code
+4818 3:17a 🔵 Font System Uses Lalezar Not Caprasimo Despite Documentation
+4819 " 🔵 Landing Page Has 8 Sections Including Undocumented PullQuote
+4820 " 🔵 Hero Component Structure Completely Different From Documentation
+4821 " 🔵 Marquee Contains 20 Feature Items Not 9 As Documented
+4822 " 🔵 Body.landing Implements Inverted Color Palette For Dark Theme
+4823 3:19a 🔵 Articles Section Fully Populated With 38 Published Articles Not Empty As Documented
+4824 " 🔵 Git History Confirms Caprasimo to Lalezar Font Replacement in April 2026
+4825 3:22a ✅ PROJECT.md updated to reflect current KnitTools website state
+S568 Update PROJECT.md documentation to reflect current KnitTools website codebase state (May 3, 3:24 AM)
+4839 5:26a 🔄 Teko Logo Font Subset to KnitTools Glyphs Only
+4840 " 🔄 Removed Unused Caprasimo Display Font
+4841 " 🟣 Teko Logo Font Subsetting Optimization
+4842 5:28a 🟣 Font Optimization Deployed to Production
+4848 5:30a ⚖️ Code Review Triage Decisions
+4849 5:38a 🟣 Pinterest Content Removal and Release Cleanup
+4850 " 🟣 Custom 404 Page Implementation
+4851 " 🔵 Cloudflare Pages Deployment and Wrangler Authentication
+**4843** 5:43a 🔵 **Build Verification Post-Font-Optimization**
+After font optimization changes, production build verified successful. Astro 6 built 64 static pages including 38 articles, 6 tool pages, 12 Pinterest pin pages, and supporting routes. Font subsetting optimization confirmed in production output: Teko fonts reduced from 307KB (original TTF) to 2.4KB (WOFF2 subsets). Font preload declarations in BaseLayout.astro successfully reference the new subset files. @astrojs/sitemap integration generates sitemap-index.xml and sitemap-0.xml with Pinterest routes filtered out as configured.
+~278t 🔍 109,991
 
-**4680** 11:31a 🔵 **SonarQube CLI command capabilities explored**
-Explored SonarQube CLI v0.10.0 command-line capabilities after installation. The CLI provides file-level scanning (verify), targeted workflow analysis (analyze for secrets/code quality), issue and project listing (list), and direct authenticated API access (api). The api command automatically handles V1/V2 API routing for both SonarQube Cloud and Server instances, supporting all HTTP methods with optional JSON request bodies. Integration commands support Claude Code AI agent hooks and Git pre-commit hooks. The tool is designed for terminal-based security vulnerability and code quality detection with comprehensive SonarQube platform access.
-~339t 🔍 1,001
+**4844** " 🔵 **Broken Internal Link Detected**
+Automated link validation script (Node.js with regex scanning all href/src/content attributes) detected one broken internal link in the production build. The knitting-size-charts tool page references an article with slug `how-much-yarn-for-a-sweater` which does not exist. The correct article is published as `yarn-for-sweater`. This is a simple typo in the href value that will result in a 404 if users click the link.
+~217t 🔍 109,991
 
-S474 Verify SonarQube integration is complete without Docker dependency (May 1, 11:32 AM)
-**4731** 6:13p 🔴 **Fixed Google Search Console sitemap URL mismatch**
-The KnitTools website was deployed to Cloudflare Pages with Astro's sitemap integration, which generates sitemap-index.xml as the primary sitemap. When the site was submitted to Google Search Console, the standard /sitemap.xml URL returned HTML content (the homepage) instead of the expected XML sitemap. Investigation revealed that accessing /sitemap-index.xml correctly served XML content with proper MIME type. The fix adds a Cloudflare Pages _redirects file with a 301 permanent redirect from /sitemap.xml to /sitemap-index.xml, ensuring search engines can discover the sitemap at the conventional URL while preserving Astro's default sitemap naming convention. The redirect file is copied to dist/ during build and will be processed by Cloudflare Pages on deployment.
-~360t 🛠️ 32,731
+**4845** " 🔵 **Missing OG Image Asset**
+BaseLayout includes Open Graph and Twitter Card meta tags referencing `/images/og-image.png` for social media previews. This asset does not exist in the public/images/ directory or anywhere in the codebase. When shared on social platforms, the link preview will either show a broken image or fall back to platform defaults. The OG image needs to be created and placed in public/images/ or the meta tag references should be removed/updated.
+~190t 🔍 109,991
 
-**4733** " ✅ **Deployed sitemap redirect fix to Cloudflare Pages production**
-The sitemap redirect fix was successfully deployed to production on Cloudflare Pages. The deployment process used `wrangler pages deploy ./dist --project-name knittoolsapp --branch main` to push the built site including the new `_redirects` file. Cloudflare Pages automatically recognizes and processes the `_redirects` file, implementing the 301 permanent redirect from /sitemap.xml to /sitemap-index.xml. Verification confirmed that accessing https://knittoolsapp.com/sitemap.xml now properly redirects to the Astro-generated sitemap-index.xml file with the correct application/xml MIME type, resolving the Google Search Console issue where /sitemap.xml was previously returning HTML homepage content.
-~354t 🛠️ 54,780
+**4846** " 🔵 **Large Unused Assets Detected**
+Asset size audit revealed three large image files in the public/ directory that appear unused. coming-soon-badge.png (1.1MB) is in the public root, while knit-texture.png and craft-table-flatlay.webp (totaling 1.5MB) are in public/images/. No references to these files were found in source code. These assets are copied to dist/ on every build, adding 2.6MB to the production payload despite potentially having no usage. They may be remnants from previous designs or planned features that were never implemented.
+~243t 🔍 109,991
+
+**4847** " 🟣 **Pinterest Pin Generation Infrastructure**
+Pinterest marketing infrastructure implemented with 12 shareable pin designs covering the 6 free tools. Each tool has two pin variants (save-for-later infographic and click-to-use preview). Pin definitions in pinterest-pins.ts specify content, layout kind (steps, calculator mock, table, comparison cards, etc), variant color, and text tone. PinterestPinLayout component renders fixed 1000×1500px pages styled with the v11 editorial palette and typography. Automated screenshot generation script launches Playwright browser in headless mode, navigates to each /pinterest/[slug]/ route, waits for fonts to load, captures full-page screenshot at 2x scale, validates dimensions (2000×3000), and saves to gitignored pinterest-images/ directory. SEO properly configured: sitemap filter excludes Pinterest routes, robots.txt disallows crawling. This workflow allows updating pin content via TypeScript data edits and regenerating all 12 PNGs with a single command.
+~462t 🛠️ 109,991
 
 
-Access 221k tokens of past work via get_observations([IDs]) or mem-search skill.
+Access 1944k tokens of past work via get_observations([IDs]) or mem-search skill.
 </claude-mem-context>
