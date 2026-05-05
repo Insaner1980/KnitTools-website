@@ -8,7 +8,7 @@ import FreeToolsCallout from '../components/FreeToolsCallout.astro';
 import TrustSection from '../components/TrustSection.astro';
 import PricingCards from '../components/PricingCards.astro';
 import ClosingCTA from '../components/ClosingCTA.astro';
-import { getPrice, getStructuredPrice } from '../config/pricing';
+import { getStructuredPrice } from '../config/pricing';
 
 const structuredPrice = getStructuredPrice();
 
@@ -19,7 +19,7 @@ const jsonLd = {
   operatingSystem: 'Android',
   applicationCategory: 'LifestyleApplication',
   description:
-    'A private, on-device knitting toolkit for Android. Row counter, pattern viewer, yarn scanner, calculators, Ravelry integration.',
+    'An all-in-one knitting toolkit for Android. Row counter with voice commands, pattern viewer with AI help, AI yarn label scanner, four calculators, project summaries, Ravelry integration, and progress photos. One-time purchase, no subscription.',
   offers: {
     '@type': 'Offer',
     price: structuredPrice.price,
@@ -33,7 +33,7 @@ const jsonLd = {
 <PageLayout
   title="KnitTools: Every Tool a Knitter Needs. One App."
   browserTitle="KnitTools"
-  description={`A private, on-device knitting toolkit for Android. Row counter, pattern viewer, yarn scanner, calculators. Pay once, ${getPrice('launch')}. No subscription, no ads, no cloud.`}
+  description="An Android knitting toolkit with AI built in. Row counter, pattern viewer, yarn scanner, four calculators, Ravelry, voice commands. One-time purchase, no subscription."
   canonicalPath="/"
 >
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>
