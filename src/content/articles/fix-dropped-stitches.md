@@ -52,7 +52,7 @@ Stitch markers help. Place one every 20 stitches and you only need to count with
 
 ## When a stitch runs to the cast-on edge
 
-If the stitch ran all the way down and there's no loop at the bottom, you can still fix it. Use the hook to pull the bottom strand through itself to create a new base loop, then work each strand above it. The base loop differs slightly from a cast-on stitch in structure, but it's stable and invisible after [blocking](/articles/how-to-block-knitting).
+If the stitch ran all the way down and there's no loop at the bottom, you can still fix it. Use the hook to pull the bottom strand through itself to create a new base loop, then work each strand above it. The base loop differs slightly from a cast-on stitch in structure, but it's stable and invisible after [blocking](/articles/how-to-block-knitting/).
 
 If the run has gone far and the strands are tangled, pin the area with a locking stitch marker to prevent more damage while you work the repair.
 

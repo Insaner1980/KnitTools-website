@@ -36,9 +36,9 @@ Remainders get handled the same way. Distribute decreases the same as increases,
 
 Bunched increases make one area flare while the rest stays flat. Bunched decreases pull the fabric inward in the wrong spot.
 
-The most common place you'll see "increase evenly" is right after ribbing. Ribbing pulls in, the body needs more stitches, and one transition row handles that change. Even spacing keeps it from looking abrupt. If you need to figure out the starting stitch count first, the [cast-on calculation guide](/articles/how-many-stitches-to-cast-on) covers that step.
+The most common place you'll see "increase evenly" is right after ribbing. Ribbing pulls in, the body needs more stitches, and one transition row handles that change. Even spacing keeps it from looking abrupt. If you need to figure out the starting stitch count first, the [cast-on calculation guide](/articles/how-many-stitches-to-cast-on/) covers that step.
 
-[Hat crowns](/articles/how-to-knit-hat) are the other familiar case. Decreases repeated evenly over several rounds create those tidy lines toward the top. Messy spacing gives you a messier crown.
+[Hat crowns](/articles/how-to-knit-hat/) are the other familiar case. Decreases repeated evenly over several rounds create those tidy lines toward the top. Messy spacing gives you a messier crown.
 
 ## Which increase method to use
 

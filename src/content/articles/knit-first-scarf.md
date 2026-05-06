@@ -10,9 +10,9 @@ A scarf is the best first knitting project because it's a rectangle. No shaping,
 
 ## What you need
 
-One skein of worsted weight yarn in a light, solid color. The [beginner yarn guide](/articles/best-yarn-for-beginners) covers the full reasoning, but the short version: light colors show your stitches clearly, and solids let you see stitch structure better than variegated. Acrylic or a wool/acrylic blend is forgiving and machine washable. Budget about $5–8 for a single skein, enough for a short-to-medium scarf.
+One skein of worsted weight yarn in a light, solid color. The [beginner yarn guide](/articles/best-yarn-for-beginners/) covers the full reasoning, but the short version: light colors show your stitches clearly, and solids let you see stitch structure better than variegated. Acrylic or a wool/acrylic blend is forgiving and machine washable. Budget about $5–8 for a single skein, enough for a short-to-medium scarf.
 
-US 8 (5.0 mm) straight needles, 10 or 14 inches long. Bamboo or wood for beginners. The [needle size guide](/articles/needle-size-for-beginners) explains why. The grip keeps stitches from sliding off. A pair costs $4–8.
+US 8 (5.0 mm) straight needles, 10 or 14 inches long. Bamboo or wood for beginners. The [needle size guide](/articles/needle-size-for-beginners/) explains why. The grip keeps stitches from sliding off. A pair costs $4–8.
 
 Scissors and a tapestry needle for weaving in tails. That's the full shopping list.
 

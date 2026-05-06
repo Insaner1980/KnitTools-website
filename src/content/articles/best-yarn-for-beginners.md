@@ -66,9 +66,9 @@ Don't overbuy. One or two skeins is plenty. If knitting isn't for you, you haven
 
 ## After the first project
 
-Once you've finished a project or two (a [scarf](/articles/knit-first-scarf) is the classic start) and have basic tension control, the yarn world opens up. You'll start developing preferences for fiber feel, needle materials, specific brands. Probably want to try merino. Maybe sock yarn eventually. Something hand-dyed.
+Once you've finished a project or two (a [scarf](/articles/knit-first-scarf/) is the classic start) and have basic tension control, the yarn world opens up. You'll start developing preferences for fiber feel, needle materials, specific brands. Probably want to try merino. Maybe sock yarn eventually. Something hand-dyed.
 
-If you're also choosing needles, the [beginner needle guide](/articles/needle-size-for-beginners) is the companion to this page. The [yarn weight chart](/tools/yarn-weight-chart) covers the categories as you branch out. The [yarn fibers guide](/articles/yarn-fibers-compared) compares how different fibers behave, which matters once you're choosing yarn for how the finished item will feel rather than just what's easiest to learn with.
+If you're also choosing needles, the [beginner needle guide](/articles/needle-size-for-beginners/) is the companion to this page. The [yarn weight chart](/tools/yarn-weight-chart/) covers the categories as you branch out. The [yarn fibers guide](/articles/yarn-fibers-compared/) compares how different fibers behave, which matters once you're choosing yarn for how the finished item will feel rather than just what's easiest to learn with.
 
 ## FAQ
 
@@ -76,7 +76,7 @@ If you're also choosing needles, the [beginner needle guide](/articles/needle-si
 No. Expensive yarn is better for finished items you want to keep. For learning, cheap is ideal because you won't hesitate to rip back, make mistakes, or abandon a practice piece. Learning happens fastest when mistakes cost nothing.
 
 **Can I learn with yarn I already have?**
-Probably. If it's worsted or DK, not too dark, not novelty, not extremely slippery, it'll work. Check the label. If there's no label, the [mystery yarn guide](/articles/identify-mystery-yarn) can help figure out what you have.
+Probably. If it's worsted or DK, not too dark, not novelty, not extremely slippery, it'll work. Check the label. If there's no label, the [mystery yarn guide](/articles/identify-mystery-yarn/) can help figure out what you have.
 
 **Does the brand matter?**
 Not much for a first project. Any worsted weight acrylic from a craft store works. You'll develop preferences with experience, but for now, pick a color you like in the right weight and fiber.

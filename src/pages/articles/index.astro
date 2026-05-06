@@ -39,7 +39,7 @@ const totalCount = articles.length;
 <PageLayout
   title="Knitting Guides & Tips"
   description="Helpful knitting guides, tips, and tutorials for knitters of all levels. Gauge, yarn, needles, techniques, and app know-how."
-  canonicalPath="/articles"
+  canonicalPath="/articles/"
   showStripe={false}
 >
   <section class="articles-header">
@@ -76,7 +76,7 @@ const totalCount = articles.length;
               <p class="cat-description">{section.description}</p>
             </div>
             {section.remainingCount > 0 && (
-              <a href={`/articles/category/${section.slug}`} class="cat-all-link">
+              <a href={`/articles/category/${section.slug}/`} class="cat-all-link">
                 View {section.remainingCount} more &rarr;
               </a>
             )}

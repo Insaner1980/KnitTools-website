@@ -8,7 +8,7 @@ tags: ["what size knitting needles for beginners", "best needle size to learn kn
 ---
 US 8 (5.0 mm). That's the short answer. If you're buying your first pair and want one recommendation, a US 8 in bamboo or wood, paired with worsted weight yarn, gives you the most forgiving combination for learning.
 
-That size works for a reason. And there are situations where something different makes more sense. If you're also picking yarn, the [beginner yarn guide](/articles/best-yarn-for-beginners) pairs with this one.
+That size works for a reason. And there are situations where something different makes more sense. If you're also picking yarn, the [beginner yarn guide](/articles/best-yarn-for-beginners/) pairs with this one.
 
 ## Why US 7–9 is the sweet spot
 
@@ -34,7 +34,7 @@ Bamboo or wood. The grip holds stitches in place while you're learning to contro
 
 Bamboo is the standard beginner recommendation: lightweight, warm, quiet, cheap. Clover Takumi bamboo needles are widely available and well-finished. KnitPro birch wood is another solid option at a similar price.
 
-After a few projects, once your tension is more consistent and stitches aren't falling off the needle, you might want to try metal. The [needle materials guide](/articles/knitting-needle-materials) compares how each material affects your knitting. Many knitters eventually settle on metal for speed. No rush, though.
+After a few projects, once your tension is more consistent and stitches aren't falling off the needle, you might want to try metal. The [needle materials guide](/articles/knitting-needle-materials/) compares how each material affects your knitting. Many knitters eventually settle on metal for speed. No rush, though.
 
 ## What to buy first
 
@@ -52,7 +52,7 @@ Most knitters accumulate needles organically. Each new pattern needs a size you 
 
 An interchangeable circular needle set is worth considering once you know knitting will stick. A single set covers US 2–11 in multiple cable lengths, replacing dozens of individual purchases. But the upfront cost is higher ($50–150 depending on brand), and there's no reason to invest before you're sure.
 
-The [needle size chart](/tools/needle-size-chart) shows all sizes with metric and US equivalents, plus which yarn weights pair with each. Useful when a pattern calls for a size you haven't encountered before.
+The [needle size chart](/tools/needle-size-chart/) shows all sizes with metric and US equivalents, plus which yarn weights pair with each. Useful when a pattern calls for a size you haven't encountered before.
 
 ## FAQ
 

@@ -18,7 +18,7 @@ The feature most knitters download an app for in the first place. The baseline i
 
 **What separates a good row counter:**
 
-Multiple counters running simultaneously. For ["at the same time" instructions](/articles/at-the-same-time-knitting) (armhole and neckline shaping on different intervals), you need at least two independent counters.
+Multiple counters running simultaneously. For ["at the same time" instructions](/articles/at-the-same-time-knitting/) (armhole and neckline shaping on different intervals), you need at least two independent counters.
 
 Project association. A counter that remembers which project it belongs to and lets you switch without losing your place. If you're working on three things, resetting one counter shouldn't erase the others.
 
@@ -93,7 +93,7 @@ No. Knitters managed with paper and pencil for centuries. An app is a convenienc
 Sure. Some knitters use one for the counter and another for calculations, or an app plus Ravelry for pattern management. No requirement to consolidate. But a single app that handles core functions is simpler.
 
 **Are there good free knitting calculators online?**
-Yes. The [Cast On Calculator](/tools/cast-on-calculator) and [Yarn Estimator](/tools/yarn-estimator) on this site are free, browser-based, and don't need an account or install. For occasional use, perfectly adequate.
+Yes. The [Cast On Calculator](/tools/cast-on-calculator/) and [Yarn Estimator](/tools/yarn-estimator/) on this site are free, browser-based, and don't need an account or install. For occasional use, perfectly adequate.
 
 **What about Ravelry?**
 Ravelry is the largest knitting community and pattern database. Different category from a toolkit app. It excels at pattern discovery, project logging, yarn database, and community. It doesn't have built-in calculators, row counters, or yarn scanning. The two serve different purposes and complement each other.

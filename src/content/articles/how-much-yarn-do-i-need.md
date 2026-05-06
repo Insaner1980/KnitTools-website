@@ -20,7 +20,7 @@ Adult sweaters are four-figure yardage projects. A close-fitting pullover in DK 
 
 That's scale, not precision. A cabled hat needs more yarn than a plain one. A cropped sweater and a tunic-length sweater aren't even in the same neighborhood. A blanket with heavy texture eats more yarn than a plain stockinette rectangle.
 
-For something project-specific, KnitTools' [Yarn Estimator](/tools/yarn-estimator) works from your gauge and dimensions instead of averages.
+For something project-specific, KnitTools' [Yarn Estimator](/tools/yarn-estimator/) works from your gauge and dimensions instead of averages.
 
 ## How yarn weight changes the total
 
@@ -28,7 +28,7 @@ Thinner yarn means more stitches per inch. More stitches per inch means more tot
 
 But here's the thing. Skeins don't all carry the same number of yards. Fingering-weight yarn packs far more yardage into 100 g than worsted does, so a fingering sweater might need more yards while using roughly the same total weight of yarn. A 100 g skein of fingering could hold 400 yards. A 100 g skein of bulky might hold 110. Same weight on the scale, wildly different lengths.
 
-This is why yardage or meterage is the number that matters, not "how many skeins." Two 100 g skeins can hold very different lengths of yarn depending on fiber and brand. Silk packs differently than wool. A singles yarn behaves differently than a plied construction. One company's 100 g skein can contain dramatically more yarn than another's. If you're not sure which weight category your yarn falls in, the [yarn weight chart](/tools/yarn-weight-chart) breaks it down.
+This is why yardage or meterage is the number that matters, not "how many skeins." Two 100 g skeins can hold very different lengths of yarn depending on fiber and brand. Silk packs differently than wool. A singles yarn behaves differently than a plied construction. One company's 100 g skein can contain dramatically more yarn than another's. If you're not sure which weight category your yarn falls in, the [yarn weight chart](/tools/yarn-weight-chart/) breaks it down.
 
 ## Calculating from your gauge
 
@@ -38,7 +38,7 @@ Gauge tells you how many stitches and rows fit into a measurement. Project dimen
 
 Here's how this works in practice. Say your swatch gives you 18 stitches and 24 rows over 4 inches. The front of a sweater is 20 inches wide and 25 inches long. That's 90 stitches across and 150 rows down. Multiply those together: 13,500 stitches for the front panel alone. From there, knowing how many yards each stitch consumes (something you can measure or estimate from your gauge swatch), the total yardage becomes a math problem instead of a guess.
 
-You don't need to do that math by hand. A yarn calculator like the [Yarn Estimator](/tools/yarn-estimator) handles the calculation and is far less likely to lose track of a row repeat than a notebook margin.
+You don't need to do that math by hand. A yarn calculator like the [Yarn Estimator](/tools/yarn-estimator/) handles the calculation and is far less likely to lose track of a row repeat than a notebook margin.
 
 It still helps to understand scale, though. If a calculator claims 400 yards for a bed blanket, something's wrong. Thousands? At least plausible. That gut check catches input errors before you buy yarn based on them. And even a rough gauge swatch gets you closer than skipping the step entirely. A swatch knit in the evening, blocked overnight, measured in the morning. Not a huge time commitment for the confidence it gives you.
 
@@ -86,9 +86,9 @@ But pattern yardage has limits. It assumes you're making the exact size listed, 
 
 Designing from scratch or making big changes? The pattern's yardage stops being reliable. Extra body length, larger sizes, different stitch patterns, or a swap to a different yarn weight all move the total. Adding 3 inches of body length to a worsted sweater can easily add 100-200 yards to the project.
 
-When [substituting yarn](/articles/how-to-substitute-yarn), match the total yardage rather than the skein count. A pattern calling for "8 skeins" is only useful if you're using the same yarn. If you've swapped to something with different put-up lengths, the skein count becomes meaningless. Match the yards. Then check that the yarn weight is close enough and [swatch to confirm the gauge](/articles/how-to-measure-knitting-gauge) still works.
+When [substituting yarn](/articles/how-to-substitute-yarn/), match the total yardage rather than the skein count. A pattern calling for "8 skeins" is only useful if you're using the same yarn. If you've swapped to something with different put-up lengths, the skein count becomes meaningless. Match the yards. Then check that the yarn weight is close enough and [swatch to confirm the gauge](/articles/how-to-measure-knitting-gauge/) still works.
 
-That's where the [Yarn Estimator](/tools/yarn-estimator) earns its keep. Whether you're checking a pattern number against your own gauge or building an estimate from nothing.
+That's where the [Yarn Estimator](/tools/yarn-estimator/) earns its keep. Whether you're checking a pattern number against your own gauge or building an estimate from nothing.
 
 ## FAQ
 

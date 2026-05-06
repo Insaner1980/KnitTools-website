@@ -14,7 +14,7 @@ A gauge mismatch is fixable. The response depends on how far off you are, what k
 
 Before changing anything, rule out measurement error. Lay the swatch flat on a hard surface without stretching it. Ruler across the center, not near the cast-on or bind-off edges where stitches behave differently.
 
-Count stitches across 4 inches. Include half-stitches. They matter. A swatch that reads "20 stitches" when you round versus "19.5 stitches" when you count honestly is a real difference across a full garment. The [gauge measurement guide](/articles/how-to-measure-knitting-gauge) covers the full process, but the short version: measure in the center, count precisely, don't stretch.
+Count stitches across 4 inches. Include half-stitches. They matter. A swatch that reads "20 stitches" when you round versus "19.5 stitches" when you count honestly is a real difference across a full garment. The [gauge measurement guide](/articles/how-to-measure-knitting-gauge/) covers the full process, but the short version: measure in the center, count precisely, don't stretch.
 
 If the swatch is smaller than about 6 inches square, the edge distortions eat into your measurement area and the reading gets unreliable. Bigger swatches give more honest numbers.
 
@@ -30,7 +30,7 @@ Sometimes you need to go up two sizes. That's fine. The needle size printed in t
 
 Fewer stitches means larger stitches. The finished piece comes out bigger.
 
-**Go down a needle size.** US 6 to US 5 (3.75 mm), swatch again. If going down a full size overshoots the correction and your ideal gauge sits between two needle sizes, some manufacturers make intermediate sizes (3.75 mm between 3.5 and 4.0). Worth checking whether your needle brand offers them. The [needle size chart](/tools/needle-size-chart) shows all available sizes across systems.
+**Go down a needle size.** US 6 to US 5 (3.75 mm), swatch again. If going down a full size overshoots the correction and your ideal gauge sits between two needle sizes, some manufacturers make intermediate sizes (3.75 mm between 3.5 and 4.0). Worth checking whether your needle brand offers them. The [needle size chart](/tools/needle-size-chart/) shows all available sizes across systems.
 
 ## Row gauge: the one people skip
 
@@ -46,7 +46,7 @@ Sometimes you hit the pattern gauge but the fabric feels wrong. Too stiff, too f
 
 This usually means the yarn isn't a good match for the pattern, even if the weight category is the same. A dense, tightly spun worsted and a lofty, loosely spun worsted can both hit 20 stitches per 4 inches on different needles and produce noticeably different fabric. Cotton tends to create denser, flatter fabric. Wool blooms and fills in gaps. Acrylic drapes differently from both.
 
-If the fabric quality is off at correct gauge, the options are: try a different yarn closer to the original's fiber content, or accept that this yarn-pattern combination isn't going to work. Not every yarn suits every pattern, even when the math cooperates. The [yarn substitution guide](/articles/how-to-substitute-yarn) covers the fiber-matching side of this problem.
+If the fabric quality is off at correct gauge, the options are: try a different yarn closer to the original's fiber content, or accept that this yarn-pattern combination isn't going to work. Not every yarn suits every pattern, even when the math cooperates. The [yarn substitution guide](/articles/how-to-substitute-yarn/) covers the fiber-matching side of this problem.
 
 ## When gauge doesn't matter (much)
 
@@ -54,7 +54,7 @@ A scarf that's an inch wider than the pattern intended is still a perfectly good
 
 For accessories without specific fit requirements, shawls, cowls, blankets, close is close enough. Swatch to make sure the fabric feels right (not cardboard, not fishnet), but hitting the exact stitch count isn't worth three swatches.
 
-One exception: gauge affects yardage. A looser gauge on a blanket means more yarn per row and a real risk of running short. If your gauge is off from the pattern's, recalculate yardage with the [Yarn Estimator](/tools/yarn-estimator) before buying.
+One exception: gauge affects yardage. A looser gauge on a blanket means more yarn per row and a real risk of running short. If your gauge is off from the pattern's, recalculate yardage with the [Yarn Estimator](/tools/yarn-estimator/) before buying.
 
 ## The half-stitch problem
 
@@ -72,7 +72,7 @@ Measure your swatch carefully, counting halves. If you're off by more than half 
 
 If you've changed needles twice and still can't match the pattern gauge, check whether your yarn is actually the same weight category as what the pattern calls for. "DK" from one manufacturer doesn't always match "DK" from another. Compare the yardage per 100 g on your yarn label to the pattern's recommended yarn. If they're far apart, gauge problems follow.
 
-The [Cast On Calculator](/tools/cast-on-calculator) adjusts stitch counts based on your actual gauge, so even if you're slightly off from the pattern, you can calculate the right cast-on number for your measurements. Useful for getting a fitted result without endless swatching.
+The [Cast On Calculator](/tools/cast-on-calculator/) adjusts stitch counts based on your actual gauge, so even if you're slightly off from the pattern, you can calculate the right cast-on number for your measurements. Useful for getting a fitted result without endless swatching.
 
 ## FAQ
 
@@ -80,7 +80,7 @@ The [Cast On Calculator](/tools/cast-on-calculator) adjusts stitch counts based 
 For fitted garments, aim for an exact match on stitch gauge. For accessories, within a quarter-stitch per inch is usually fine. Row gauge tolerances are wider since most patterns work to measurements rather than row counts.
 
 **Should I wash my gauge swatch before measuring?**
-If the finished item will be washed, yes. Some yarns change gauge noticeably after washing. Superwash wool can grow in length, cotton relaxes. Knit the swatch, wash and block it the way you'll treat the finished piece, let it dry completely, then measure. The [gauge swatch walkthrough](/articles/gauge-swatch-step-by-step) covers the full process.
+If the finished item will be washed, yes. Some yarns change gauge noticeably after washing. Superwash wool can grow in length, cotton relaxes. Knit the swatch, wash and block it the way you'll treat the finished piece, let it dry completely, then measure. The [gauge swatch walkthrough](/articles/gauge-swatch-step-by-step/) covers the full process.
 
 **Does blocking affect gauge?**
 Wet blocking tends to open up stitches slightly, especially in lace and looser fabrics. Wool can be stretched and pinned to a target measurement. Cotton holds its shape more rigidly. Always measure your swatch after blocking. The pre-blocked number isn't the number that matters.

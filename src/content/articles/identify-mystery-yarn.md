@@ -29,11 +29,11 @@ The Craft Yarn Council guide uses these broad ranges:
 
 Yes, those ranges overlap. WPI gets you into the neighborhood, not the exact address. Measure in more than one spot, especially if the yarn is textured, fuzzy, or handspun.
 
-Once you have a range, the [yarn weight chart](/tools/yarn-weight-chart) is the better place to compare likely gauge and needle size.
+Once you have a range, the [yarn weight chart](/tools/yarn-weight-chart/) is the better place to compare likely gauge and needle size.
 
 ## Step two: identify the fiber
 
-This matters for care and for how the fabric behaves. The [fiber comparison guide](/articles/yarn-fibers-compared) covers each fiber type in depth, but here's what to look for in a quick home test. A wool mystery yarn and an acrylic mystery yarn can look similar in the ball and act nothing alike once knitted and washed.
+This matters for care and for how the fabric behaves. The [fiber comparison guide](/articles/yarn-fibers-compared/) covers each fiber type in depth, but here's what to look for in a quick home test. A wool mystery yarn and an acrylic mystery yarn can look similar in the ball and act nothing alike once knitted and washed.
 
 ### The burn test
 

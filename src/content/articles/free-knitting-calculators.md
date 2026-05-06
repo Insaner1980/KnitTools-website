@@ -12,11 +12,11 @@ Four types of knitting calculators cover the vast majority of what you'll need. 
 
 ## Cast on calculator
 
-You know your gauge (stitches per inch from your swatch) and you know how wide you want the piece. The [Cast On Calculator](/tools/cast-on-calculator) multiplies those together and handles the details that trip people up: rounding to an even number, accounting for edge stitches, adjusting for a stitch pattern that needs a specific multiple.
+You know your gauge (stitches per inch from your swatch) and you know how wide you want the piece. The [Cast On Calculator](/tools/cast-on-calculator/) multiplies those together and handles the details that trip people up: rounding to an even number, accounting for edge stitches, adjusting for a stitch pattern that needs a specific multiple.
 
 The formula is simple enough to do in your head for plain stockinette. It stops being simple when your stitch pattern repeats over 6 stitches plus 2 balancing stitches and you need a number that satisfies both the repeat and the width. That's when a calculator earns its keep.
 
-Reach for it any time you're adapting a pattern to your measurements, designing without a pattern, or [substituting yarn](/articles/how-to-substitute-yarn) where your gauge differs from the pattern's. The [cast-on guide](/articles/how-many-stitches-to-cast-on) covers the math behind it if you want to understand what the calculator is doing.
+Reach for it any time you're adapting a pattern to your measurements, designing without a pattern, or [substituting yarn](/articles/how-to-substitute-yarn/) where your gauge differs from the pattern's. The [cast-on guide](/articles/how-many-stitches-to-cast-on/) covers the math behind it if you want to understand what the calculator is doing.
 
 ## Yarn estimator
 
@@ -24,13 +24,13 @@ Will three skeins be enough? The question haunts every yarn purchase, and guessi
 
 A yarn calculator works from project type, dimensions, yarn weight, and stitch pattern. A cable-heavy sweater uses noticeably more yarn than a stockinette sweater of the same dimensions because cables compress the fabric horizontally, consuming more yarn per inch of width.
 
-The [Yarn Estimator](/tools/yarn-estimator) on this site covers garments, hats, gloves, socks, blankets, and home goods with size and yarn weight adjustments. It also matters when substituting yarn. If the original pattern calls for a yarn at 220 yards per 100 g and your substitute is 164 yards per 100 g, you need more skeins even when the weight category matches.
+The [Yarn Estimator](/tools/yarn-estimator/) on this site covers garments, hats, gloves, socks, blankets, and home goods with size and yarn weight adjustments. It also matters when substituting yarn. If the original pattern calls for a yarn at 220 yards per 100 g and your substitute is 164 yards per 100 g, you need more skeins even when the weight category matches.
 
 ## Gauge converter
 
 Your swatch gives you 22 stitches over 4 inches but the pattern specifies gauge per 10 cm. Or you measured over 2 inches and need to scale up. Simple division in theory. Easy to mess up when you're converting between metric and imperial and scaling from a small swatch at the same time.
 
-Less frequently needed than the other calculators, but when you need it, doing the conversion by hand is exactly the kind of mental arithmetic that goes wrong while you're also counting stitches. The [gauge measurement guide](/articles/how-to-measure-knitting-gauge) covers how to get an accurate swatch reading before you convert anything.
+Less frequently needed than the other calculators, but when you need it, doing the conversion by hand is exactly the kind of mental arithmetic that goes wrong while you're also counting stitches. The [gauge measurement guide](/articles/how-to-measure-knitting-gauge/) covers how to get an accurate swatch reading before you convert anything.
 
 ## Increase/decrease spacing calculator
 
@@ -38,7 +38,7 @@ Pattern says "increase 12 stitches evenly across the next row." 80 stitches on t
 
 Divide 80 by 12 and you get 6.67. Which means some intervals are 6 stitches and some are 7. The calculator tells you exactly which ones, so the distribution actually looks even. Spacing 4 increases by hand is manageable. Spacing 18 increases across 142 stitches is calculator territory.
 
-Any shaping row benefits: sleeve increases, yoke decreases, [ribbing transitions](/articles/increase-decrease-evenly) where the stitch count changes between sections.
+Any shaping row benefits: sleeve increases, yoke decreases, [ribbing transitions](/articles/increase-decrease-evenly/) where the stitch count changes between sections.
 
 ## What separates a useful calculator from a bad one
 
@@ -50,7 +50,7 @@ It also needs to work on a phone. Most knitters calculate at the craft table or 
 
 Some knitting math isn't calculation, it's lookup. Which US needle size corresponds to 3.75 mm? What yarn weight fits a gauge of 5 stitches per inch? What does "psso" mean?
 
-The [Needle Size Chart](/tools/needle-size-chart), [Yarn Weight Chart](/tools/yarn-weight-chart), and [Abbreviations Glossary](/tools/knitting-abbreviations) pages on this site are searchable references for these questions. Different from calculators, but you'll reach for them just as often.
+The [Needle Size Chart](/tools/needle-size-chart/), [Yarn Weight Chart](/tools/yarn-weight-chart/), and [Abbreviations Glossary](/tools/knitting-abbreviations/) pages on this site are searchable references for these questions. Different from calculators, but you'll reach for them just as often.
 
 ## Everything in one place
 

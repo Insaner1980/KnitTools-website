@@ -31,13 +31,13 @@ const sortedArticles = articles.sort(
 <PageLayout
   title={`${label}. Knitting Guides`}
   description={description}
-  canonicalPath={`/articles/category/${slug}`}
+  canonicalPath={`/articles/category/${slug}/`}
   showStripe={false}
 >
   <section class="cat-header-section">
     <div class="cat-header-inner">
       <p class="back">
-        <a href="/articles">&larr; All articles</a>
+        <a href="/articles/">&larr; All articles</a>
       </p>
       <p class="eyebrow">Category</p>
       <h1>{label}.</h1>
@@ -50,7 +50,7 @@ const sortedArticles = articles.sort(
       <div class="empty-state">
         <p class="empty-eyebrow">Coming {PRICING.launchMonthLabel}</p>
         <p class="empty-text">No articles in this category yet.</p>
-        <a href="/articles" class="empty-link">Back to all articles &rarr;</a>
+        <a href="/articles/" class="empty-link">Back to all articles &rarr;</a>
       </div>
     ) : (
       <div class="articles-grid">

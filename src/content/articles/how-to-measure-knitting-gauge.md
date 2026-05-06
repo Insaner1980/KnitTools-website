@@ -57,13 +57,13 @@ If you have a gauge window tool, use it. If not, a plain ruler works fine.
 
 It often won't match on the first try. That's normal. Tension is personal, and two knitters can use the same yarn and the same needle and still get different fabric.
 
-**Too many stitches per inch.** Your fabric is tighter than the designer's. Go up a needle size and swatch again. If you need to check what the next size up looks like in a different system, the [needle size conversion chart](/tools/needle-size-chart) is the fast reference.
+**Too many stitches per inch.** Your fabric is tighter than the designer's. Go up a needle size and swatch again. If you need to check what the next size up looks like in a different system, the [needle size conversion chart](/tools/needle-size-chart/) is the fast reference.
 
 **Too few stitches per inch.** Your fabric is looser. Go down a needle size and swatch again.
 
 Sometimes one size fixes it. Sometimes it takes two jumps. Occasionally stitch gauge and row gauge refuse to line up at the same time. When that happens, stitch gauge usually gets priority because it controls the width of the fabric. Row gauge still matters, especially for sleeve caps, yokes, and vertical pattern placement, but width problems are harder to fix mid-project than length problems.
 
-If you want to understand [why gauge varies between knitters](/articles/what-is-gauge-in-knitting) and why it drifts mid-project, that's a deeper topic. Don't let multiple swatches feel like failure. Experienced knitters expect them. Some knitters reliably run tight, others reliably run loose, and knowing your tendency is useful. But it never replaces the swatch because yarn fiber, needle material, and stitch pattern all push the fabric around in their own ways.
+If you want to understand [why gauge varies between knitters](/articles/what-is-gauge-in-knitting/) and why it drifts mid-project, that's a deeper topic. Don't let multiple swatches feel like failure. Experienced knitters expect them. Some knitters reliably run tight, others reliably run loose, and knowing your tendency is useful. But it never replaces the swatch because yarn fiber, needle material, and stitch pattern all push the fabric around in their own ways.
 
 ## Gauge over pattern stitch vs stockinette
 
@@ -83,7 +83,7 @@ If the project is worked in the round, swatch in the round. A small tube on DPNs
 
 ## How gauge connects to project planning
 
-Once gauge is known, the rest of the planning gets easier. KnitTools' [Cast On Calculator](/tools/cast-on-calculator) uses it to calculate stitch counts for a target width. The [Yarn Estimator](/tools/yarn-estimator) uses it alongside dimensions to get closer to a realistic yardage estimate. For a [step-by-step swatch walkthrough](/articles/gauge-swatch-step-by-step) without the theory, that's a separate page.
+Once gauge is known, the rest of the planning gets easier. KnitTools' [Cast On Calculator](/tools/cast-on-calculator/) uses it to calculate stitch counts for a target width. The [Yarn Estimator](/tools/yarn-estimator/) uses it alongside dimensions to get closer to a realistic yardage estimate. For a [step-by-step swatch walkthrough](/articles/gauge-swatch-step-by-step/) without the theory, that's a separate page.
 
 That chain matters. Gauge drives stitch count. Stitch count drives dimensions. Dimensions drive yardage. If the first number is off, everything downstream drifts with it.
 

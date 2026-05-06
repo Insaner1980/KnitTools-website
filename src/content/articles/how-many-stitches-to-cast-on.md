@@ -18,7 +18,7 @@ Your gauge reads 5 stitches per inch and you want something 10 inches wide? Cast
 
 If your gauge was measured over 4 inches, divide first. 20 stitches over 4 inches gives you 5 stitches per inch.
 
-KnitTools' [Cast On Calculator](/tools/cast-on-calculator) handles all the arithmetic, but it still helps to know what a reasonable answer looks like. If a 20-inch-wide worsted-weight blanket panel supposedly needs only a few dozen stitches, something's off.
+KnitTools' [Cast On Calculator](/tools/cast-on-calculator/) handles all the arithmetic, but it still helps to know what a reasonable answer looks like. If a 20-inch-wide worsted-weight blanket panel supposedly needs only a few dozen stitches, something's off.
 
 ## Measure your gauge correctly
 
@@ -28,7 +28,7 @@ The cast-on number is only as good as the swatch behind it. Two mistakes cause p
 
 **Measuring before washing and blocking.** The swatch on the needles isn't the finished fabric. If the yarn changes after washing, your cast-on math changes too.
 
-No swatch yet? [Measuring gauge](/articles/how-to-measure-knitting-gauge) covers the full process.
+No swatch yet? [Measuring gauge](/articles/how-to-measure-knitting-gauge/) covers the full process.
 
 ## Adjusting for pattern repeats
 
@@ -40,7 +40,7 @@ Say the base math gives you 97 stitches, but your stitch pattern repeats over 6.
 
 Here's the part people miss: some patterns also need edge or balancing stitches outside the repeat. If the instructions say something like `k2, *p2, k2; rep from *`, those extra stitches are part of the required setup. Not optional decoration. Skip them and the pattern won't balance across the row.
 
-When you're working with a pattern repeat of, say, 8 stitches plus 2 balancing stitches, your target isn't just "a multiple of 8." It's "a multiple of 8, plus 2." The [Cast On Calculator](/tools/cast-on-calculator) can sort this out quickly, but understanding why it matters keeps you from blindly trusting a number that doesn't account for the full repeat.
+When you're working with a pattern repeat of, say, 8 stitches plus 2 balancing stitches, your target isn't just "a multiple of 8." It's "a multiple of 8, plus 2." The [Cast On Calculator](/tools/cast-on-calculator/) can sort this out quickly, but understanding why it matters keeps you from blindly trusting a number that doesn't account for the full repeat.
 
 Worth noting: the wider the piece, the less a small adjustment matters. Adding or dropping 4 stitches on a blanket panel barely changes anything. On a sock? That's a different story.
 
@@ -64,7 +64,7 @@ When the cast-on is part of the finished fit (sock cuffs, hat brims), tension at
 
 ## Casting on for ribbing
 
-Ribbing pulls narrower than stockinette at the same stitch count. If the pattern calls for [increasing evenly](/articles/increase-decrease-evenly) after the ribbing, that transition row handles the difference. That's the whole point of it. Some patterns keep the same stitch count through ribbing and body, others cast on fewer stitches for the ribbing and increase afterward. If you're designing your own piece, make that choice on purpose.
+Ribbing pulls narrower than stockinette at the same stitch count. If the pattern calls for [increasing evenly](/articles/increase-decrease-evenly/) after the ribbing, that transition row handles the difference. That's the whole point of it. Some patterns keep the same stitch count through ribbing and body, others cast on fewer stitches for the ribbing and increase afterward. If you're designing your own piece, make that choice on purpose.
 
 ## Common cast-on counts for standard projects
 
@@ -76,7 +76,7 @@ Quick reference, assuming a typical worsted-weight gauge around 5 stitches per i
 
 Sweater pieces vary too much for a single useful range. That's exactly why patterns list separate counts by size, and why gauge-based calculation matters when you're modifying anything.
 
-For all of these, the [Cast On Calculator](/tools/cast-on-calculator) is the faster route once your gauge is known.
+For all of these, the [Cast On Calculator](/tools/cast-on-calculator/) is the faster route once your gauge is known.
 
 ## FAQ
 

@@ -16,13 +16,13 @@ The skein-shaped icon with a number inside is the Craft Yarn Council weight cate
 
 The text next to it usually says something like DK, Worsted, or Bulky. Not every brand prints the CYC icon, but most include some version of the weight name. If the label only gives a brand-specific name like "Studio" or "Soft Touch," check the gauge box instead for clues.
 
-The [yarn weight chart](/tools/yarn-weight-chart) breaks down all the categories with their gauge ranges and typical needle sizes.
+The [yarn weight chart](/tools/yarn-weight-chart/) breaks down all the categories with their gauge ranges and typical needle sizes.
 
 ## Fiber content
 
 Listed as percentages. `100% Merino Wool`. `75% Acrylic, 25% Wool`. `60% Cotton, 40% Modal`. This is the "made from" section, and it affects everything about how the finished fabric will feel, drape, stretch, and wear over time.
 
-Pay attention here when [substituting yarn](/articles/how-to-substitute-yarn). A wool DK and a cotton DK are both DK. They'll knit up at similar gauges. But the fabric won't behave the same way at all. The [fiber comparison guide](/articles/yarn-fibers-compared) covers those differences.
+Pay attention here when [substituting yarn](/articles/how-to-substitute-yarn/). A wool DK and a cotton DK are both DK. They'll knit up at similar gauges. But the fabric won't behave the same way at all. The [fiber comparison guide](/articles/yarn-fibers-compared/) covers those differences.
 
 Labels sometimes note whether the yarn is superwash, mercerized, or brushed. Those aren't decorative words. Superwash wool handles machine washing. Non-superwash wool doesn't. That's a detail worth catching before you cast on 300 stitches for a baby blanket.
 
@@ -34,7 +34,7 @@ This is a starting point. The manufacturer knit a swatch at their chosen tension
 
 ## Put-up information
 
-Skein weight in grams and yarn length in yards, meters, or both. Two numbers, but the length is the one that matters for project planning. Two 100 g skeins can contain very different amounts of yarn depending on fiber density. This is why the [yarn estimation guide](/articles/how-much-yarn-do-i-need) works from yardage, not skein count.
+Skein weight in grams and yarn length in yards, meters, or both. Two numbers, but the length is the one that matters for project planning. Two 100 g skeins can contain very different amounts of yarn depending on fiber density. This is why the [yarn estimation guide](/articles/how-much-yarn-do-i-need/) works from yardage, not skein count.
 
 ## Care symbols
 

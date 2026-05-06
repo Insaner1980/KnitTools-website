@@ -74,7 +74,7 @@ These serve different purposes. The counter tells you "row 23." The marker in th
 Right side of the fabric: each V-shaped stitch is one row. Count Vs vertically from the cast-on edge to the needles. On the wrong side, count purl bumps instead. Same number either way.
 
 **Do you count the cast-on row as row 1?**
-Depends on the pattern. Most modern patterns treat the cast-on as row 0 and count the first knitted row as row 1. If the pattern doesn't specify, check whether the total row count makes sense with your reading. The [pattern reading guide](/articles/how-to-read-knitting-pattern) covers these conventions in more detail.
+Depends on the pattern. Most modern patterns treat the cast-on as row 0 and count the first knitted row as row 1. If the pattern doesn't specify, check whether the total row count makes sense with your reading. The [pattern reading guide](/articles/how-to-read-knitting-pattern/) covers these conventions in more detail.
 
 **How do you keep track of rows when knitting in the round?**
 Place a stitch marker at the beginning of the round. Every time you pass it, that's one completed round. The marker plus a row counter gives an accurate count. Without the marker, it's easy to lose track of where one round ends and the next begins, especially in plain stockinette where there's no visible join.

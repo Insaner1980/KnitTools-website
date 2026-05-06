@@ -19,12 +19,12 @@ const formattedPublished = publishDate.toLocaleDateString('en-US', { year: 'nume
 const dateLabel = formattedUpdated ? `Updated ${formattedUpdated}` : `Published ${formattedPublished}`;
 ---
 
-<PageLayout title={title} description={description} canonicalPath={`/articles/${Astro.params.slug}`} bodyClass="article">
+<PageLayout title={title} description={description} canonicalPath={`/articles/${Astro.params.slug}/`} bodyClass="article">
   <article class="article">
     <header class="article-header">
       <div class="article-header-inner">
         <p class="eyebrow">
-          <a href="/articles" class="eyebrow-back">← All articles</a>
+          <a href="/articles/" class="eyebrow-back">← All articles</a>
         </p>
         <p class="article-category">{categoryLabel}</p>
         <h1>{title}</h1>

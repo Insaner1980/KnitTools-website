@@ -26,7 +26,7 @@ They get bumped. Toss the project bag in the car, the dial shifts, and now you'r
 
 A row counter app replaces the clicker with a tap on your phone. The count saves automatically. Most apps add features on top: undo, multiple counters, reminders, session tracking.
 
-**What they do well.** They remember everything. Close the app, turn off the phone, pick up the project next week. The count is exactly where you left it. For knitters juggling [multiple projects](/articles/organize-knitting-projects), seeing all of them in one list with current row counts and last-worked dates saves the "wait, what row was I on?" moment every time you switch.
+**What they do well.** They remember everything. Close the app, turn off the phone, pick up the project next week. The count is exactly where you left it. For knitters juggling [multiple projects](/articles/organize-knitting-projects/), seeing all of them in one list with current row counts and last-worked dates saves the "wait, what row was I on?" moment every time you switch.
 
 Row reminders are the feature physical counters genuinely can't replicate. Set a reminder at row 15 for a buttonhole, row 30 for a decrease, row 45 for a bind-off. The app alerts you when you get there. For patterns with shaping at intervals, this eliminates the mental tracking that otherwise means constantly checking the pattern.
 

@@ -4,6 +4,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://knittoolsapp.com',
   output: 'static',
+  trailingSlash: 'always',
   build: {
     assets: '_assets',
   },

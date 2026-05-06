@@ -28,7 +28,7 @@ Cable length matters. For knitting in the round, the cable needs to suit the cir
 
 Short needles (5 to 8 inches) with points on both ends, used in sets of 4 or 5. Distribute your stitches across 3 or 4 needles, knit with the remaining one.
 
-DPNs are the standard tool for small tubes: [sock](/articles/how-to-knit-socks) toes, mitten thumbs, [hat](/articles/how-to-knit-hat) crowns, narrow sleeves. They feel fiddly at first. The loose ends are annoying, and ladders at the joins between needles are common until you develop the habit of tugging the first stitch a little tighter.
+DPNs are the standard tool for small tubes: [sock](/articles/how-to-knit-socks/) toes, mitten thumbs, [hat](/articles/how-to-knit-hat/) crowns, narrow sleeves. They feel fiddly at first. The loose ends are annoying, and ladders at the joins between needles are common until you develop the habit of tugging the first stitch a little tighter.
 
 Some knitters avoid DPNs entirely in favor of magic loop. Others use them for socks and mittens forever because they're compact and fast once you stop fighting them. Strong opinions on both sides.
 
@@ -46,7 +46,7 @@ A flat scarf works on straight needles or circulars used flat. A hat usually sta
 
 The practical takeaway: a set of circulars plus either DPNs or magic loop skill covers nearly everything. Straight needles are optional unless you already own them and prefer them.
 
-If you're also sorting out which [size](/tools/needle-size-chart) or [material](/articles/knitting-needle-materials) to choose, those are separate decisions from needle type.
+If you're also sorting out which [size](/tools/needle-size-chart/) or [material](/articles/knitting-needle-materials/) to choose, those are separate decisions from needle type.
 
 ## A few common questions
 

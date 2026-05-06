@@ -52,7 +52,7 @@ How long it lasts depends on fiber. Wool holds blocking well because the fibers 
 
 Non-superwash wool: wet blocking, best results. Handle carefully (lukewarm water, no agitation) to avoid felting.
 
-Superwash wool: also wet blocks well, but can grow lengthwise when wet. Pin to dimensions rather than air-drying unpinned. If you need to [measure your gauge](/articles/how-to-measure-knitting-gauge), block the swatch the same way you'll block the project.
+Superwash wool: also wet blocks well, but can grow lengthwise when wet. Pin to dimensions rather than air-drying unpinned. If you need to [measure your gauge](/articles/how-to-measure-knitting-gauge/), block the swatch the same way you'll block the project.
 
 Alpaca: stretches when wet and doesn't bounce back like wool. Pin conservatively.
 
@@ -62,7 +62,7 @@ Acrylic: responds to steam, not water. Be cautious with heat.
 
 Silk: wet or spray blocks well, doesn't tolerate high heat. Keep water lukewarm.
 
-Blends: follow the most sensitive fiber. Wool/silk gets lukewarm wet blocking. Wool/acrylic can go either way. The [fiber comparison guide](/articles/yarn-fibers-compared) covers each fiber's behavior in more detail.
+Blends: follow the most sensitive fiber. Wool/silk gets lukewarm wet blocking. Wool/acrylic can go either way. The [fiber comparison guide](/articles/yarn-fibers-compared/) covers each fiber's behavior in more detail.
 
 ## Equipment
 
@@ -82,4 +82,4 @@ You can over-stretch, especially alpaca and superwash wool. Pinning beyond the f
 After every wash, lay flat in the correct shape to dry. That's essentially re-blocking. If the sweater just needs a shape reset between washes, a light spray blocking works.
 
 **Block pieces before seaming, or the whole garment?**
-Both work. Blocking before [seaming](/articles/seam-knitted-pieces) makes pieces easier to pin to exact dimensions and the seaming process cleaner. Blocking the finished garment is faster and handles any distortion from assembly. Many knitters do both: block pieces first, light final blocking after seaming.
+Both work. Blocking before [seaming](/articles/seam-knitted-pieces/) makes pieces easier to pin to exact dimensions and the seaming process cleaner. Blocking the finished garment is faster and handles any distortion from assembly. Many knitters do both: block pieces first, light final blocking after seaming.

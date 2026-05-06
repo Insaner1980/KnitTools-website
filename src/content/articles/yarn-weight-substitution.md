@@ -26,7 +26,7 @@ Going more than one weight in either direction makes the fabric and proportions 
 
 Fitted garments are the biggest risk. Ease, shaping, and proportions were all calculated for the original gauge. Changing the weight there pushes you toward genuine pattern redrafting, not just substitution. Lace depends on scale and openness, so a weight change can alter the whole point of the design. Stranded colorwork gets thick quickly as yarn weight increases. Two strands of bulky behind every stitch makes a stiff fabric.
 
-For same-weight substitution (swapping brands rather than categories), the [yarn substitution guide](/articles/how-to-substitute-yarn) covers that side.
+For same-weight substitution (swapping brands rather than categories), the [yarn substitution guide](/articles/how-to-substitute-yarn/) covers that side.
 
 ## How to recalculate
 
@@ -38,11 +38,11 @@ If you decide to go ahead, the process looks like this:
 
 3. Adjust for stitch repeats and balancing stitches.
 
-4. Recalculate yardage. The [Yarn Estimator](/tools/yarn-estimator) is more useful here than the original pattern's yardage total, which was calculated for a different weight.
+4. Recalculate yardage. The [Yarn Estimator](/tools/yarn-estimator/) is more useful here than the original pattern's yardage total, which was calculated for a different weight.
 
 5. Recalculate row counts anywhere the pattern relies on rows instead of measurements.
 
-KnitTools' [Cast On Calculator](/tools/cast-on-calculator) handles the width-to-stitch-count math. Full garment shaping still needs to be checked section by section.
+KnitTools' [Cast On Calculator](/tools/cast-on-calculator/) handles the width-to-stitch-count math. Full garment shaping still needs to be checked section by section.
 
 ## Holding yarn double as a weight change
 
@@ -58,4 +58,4 @@ Going down a weight to make a pattern lighter and more delicate works, with the 
 
 The pattern's needle size almost certainly needs to change. Start from the new yarn's recommended range and then trust the swatch.
 
-If you want to understand [why gauge varies](/articles/what-is-gauge-in-knitting) and what causes it to shift, that context helps here. Whether the original shaping still works depends on complexity. For simple shaping, usually yes. For complex garment construction, probably not without more redesign work than the phrase "yarn substitution" implies. The [gauge measurement guide](/articles/how-to-measure-knitting-gauge) is the place to start once you have the new yarn in hand.
+If you want to understand [why gauge varies](/articles/what-is-gauge-in-knitting/) and what causes it to shift, that context helps here. Whether the original shaping still works depends on complexity. For simple shaping, usually yes. For complex garment construction, probably not without more redesign work than the phrase "yarn substitution" implies. The [gauge measurement guide](/articles/how-to-measure-knitting-gauge/) is the place to start once you have the new yarn in hand.

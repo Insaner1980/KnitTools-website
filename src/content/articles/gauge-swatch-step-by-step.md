@@ -6,7 +6,7 @@ category: gauge-calculations
 categoryOrder: 4
 tags: ["knitting gauge swatch", "how to knit a swatch", "gauge swatch step by step", "make a gauge swatch"]
 ---
-A gauge swatch is a test square knit in your project yarn and stitch pattern, washed and blocked, then measured over 4 inches to check whether your stitches match the pattern's requirements. This is the practical how-to. If you want to understand why gauge matters and what to do when yours doesn't match, the [gauge guide](/articles/how-to-measure-knitting-gauge) covers the full picture. This page is for when you already know why and just want the steps.
+A gauge swatch is a test square knit in your project yarn and stitch pattern, washed and blocked, then measured over 4 inches to check whether your stitches match the pattern's requirements. This is the practical how-to. If you want to understand why gauge matters and what to do when yours doesn't match, the [gauge guide](/articles/how-to-measure-knitting-gauge/) covers the full picture. This page is for when you already know why and just want the steps.
 
 ## What you need
 
@@ -30,7 +30,7 @@ Bind off loosely.
 
 This step gets skipped the most and matters the most.
 
-Soak in lukewarm water for 15 minutes. Squeeze gently in a towel (don't wring). Lay flat and let dry completely. If the yarn is acrylic, steam lightly instead. The [blocking guide](/articles/how-to-block-knitting) covers fiber-specific methods in detail.
+Soak in lukewarm water for 15 minutes. Squeeze gently in a towel (don't wring). Lay flat and let dry completely. If the yarn is acrylic, steam lightly instead. The [blocking guide](/articles/how-to-block-knitting/) covers fiber-specific methods in detail.
 
 Yarn changes when it gets wet. Wool blooms. Cotton relaxes. Superwash stretches. The swatch off the needles is not the swatch after its first wash, and your project will get washed. Measure the washed swatch, not the raw one.
 
