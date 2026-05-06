@@ -1,6 +1,6 @@
 ---
 title: "How to Knit Socks. Anatomy of a Sock Pattern"
-description: "Understand the parts of a knitted sock and how sock patterns are structured. Covers cuff-down vs toe-up, heel types, yarn choices, and what makes sock knitting different."
+description: "Understand the parts of a knitted sock and how patterns work. Cuff-down vs toe-up, heel types, yarn choices, and what makes sock knitting different."
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 13

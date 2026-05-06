@@ -1,6 +1,6 @@
 ---
 title: "How to Fix Dropped Stitches Without Frogging"
-description: "Learn how to rescue dropped stitches in knitting using a crochet hook. Covers stockinette, purl side, garter stitch, and how to spot a dropped stitch before it runs."
+description: "Rescue dropped stitches in knitting using a crochet hook. Covers stockinette, purl side, garter stitch, and how to spot a drop before it runs."
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 3

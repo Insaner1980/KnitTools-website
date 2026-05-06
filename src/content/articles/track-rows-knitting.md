@@ -1,6 +1,6 @@
 ---
 title: "How to Keep Track of Rows When Knitting"
-description: "Losing count mid-project? Here are 7 reliable ways to track your knitting rows, from pen and paper to digital row counters with reminders."
+description: "Losing count mid-project? Here are 7 reliable ways to track your knitting rows, from pen and paper to digital counters and home-screen widgets."
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 2

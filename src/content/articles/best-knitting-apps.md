@@ -1,6 +1,6 @@
 ---
 title: "Best Knitting Apps: What to Look For"
-description: "What makes a good knitting app for Android or iOS? Compare features that matter: row counters, calculators, yarn management, and offline access. Find the right app for how you knit."
+description: "What makes a good knitting app for Android? Compare row counters, calculators, yarn management, and offline access to find the right toolkit."
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 1
