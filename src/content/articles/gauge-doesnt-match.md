@@ -1,5 +1,5 @@
 ---
-title: "What to Do When Your Gauge Doesn't Match the Pattern"
+title: "When Your Gauge Doesn't Match the Pattern"
 description: "Your gauge swatch doesn't match the pattern. Here's how to diagnose the problem and fix it. Needle changes, fabric feel, and when it's fine to ignore it."
 publishDate: 2026-05-01
 category: gauge-calculations

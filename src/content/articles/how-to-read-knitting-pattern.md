@@ -1,5 +1,5 @@
 ---
-title: "How to Read a Knitting Pattern. A Beginner's Guide to Pattern Anatomy"
+title: "How to Read a Knitting Pattern: Beginner's Guide"
 description: "Learn how to read a knitting pattern from start to finish. Covers pattern sections, abbreviations, sizing, gauge, and how instructions are structured."
 publishDate: 2026-05-01
 category: techniques

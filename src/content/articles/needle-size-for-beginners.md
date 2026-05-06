@@ -1,5 +1,5 @@
 ---
-title: "What Size Knitting Needles for Beginners? A Practical Starting Point"
+title: "What Size Knitting Needles for Beginners?"
 description: "Find the best knitting needle size for beginners. Covers recommended sizes, why medium needles work best for learning, and what to buy first."
 publishDate: 2026-05-01
 category: needles

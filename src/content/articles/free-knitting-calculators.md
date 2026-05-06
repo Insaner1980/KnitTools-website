@@ -1,5 +1,5 @@
 ---
-title: "Free Knitting Calculators. Tools Every Knitter Needs"
+title: "Free Knitting Calculators Every Knitter Needs"
 description: "Free online knitting calculators for cast-on stitches, yarn estimation, gauge conversion, and stitch spacing. No signup, no ads. Just accurate results."
 publishDate: 2026-05-01
 category: app-tools

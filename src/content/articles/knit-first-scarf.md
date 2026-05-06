@@ -1,5 +1,5 @@
 ---
-title: "How to Knit Your First Scarf. A No-Nonsense Beginner Guide"
+title: "How to Knit Your First Scarf: Beginner Guide"
 description: "Everything you need to knit your first scarf: yarn, needles, cast on, knit stitch, and bind off. No complicated patterns, just a simple rectangle that actually looks good."
 publishDate: 2026-05-01
 category: techniques

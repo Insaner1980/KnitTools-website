@@ -1,5 +1,5 @@
 ---
-title: "How to Knit a Hat. Choosing the Right Method for Your Skill Level"
+title: "How to Knit a Hat: Methods for Every Skill"
 description: "Learn how to knit a hat with this guide to hat construction. Covers bottom-up circular, flat and seamed, sizing, crown shaping, and choosing the right yarn."
 publishDate: 2026-05-01
 category: techniques

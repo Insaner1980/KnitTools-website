@@ -1,5 +1,5 @@
 ---
-title: "Circular vs Straight vs DPN Needles - When to Use Which"
+title: "Circular vs Straight vs DPN: When to Use Each"
 description: "Compare circular, straight, and double-pointed knitting needles. Learn which type works best for different projects, plus pros and cons of each."
 publishDate: 2026-05-01
 category: needles

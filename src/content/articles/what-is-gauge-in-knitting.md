@@ -1,5 +1,5 @@
 ---
-title: "What Is Gauge in Knitting and Why Does It Change?"
+title: "What Is Gauge in Knitting? Why It Changes"
 description: "Understand what gauge means in knitting, why it varies between knitters, and what causes it to change mid-project. Practical guide with common causes and fixes."
 publishDate: 2026-05-01
 category: gauge-calculations

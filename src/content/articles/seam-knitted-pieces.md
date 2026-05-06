@@ -1,5 +1,5 @@
 ---
-title: "How to Seam Knitted Pieces Together. Mattress Stitch & More"
+title: "How to Seam Knitted Pieces: Mattress Stitch"
 description: "Learn how to join knitted pieces with mattress stitch, whip stitch, and three-needle bind off. Covers vertical seams, horizontal seams, and setting in sleeves."
 publishDate: 2026-05-01
 category: techniques

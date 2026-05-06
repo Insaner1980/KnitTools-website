@@ -1,5 +1,5 @@
 ---
-title: "Yarn Weight Substitution - When and How to Go Up or Down"
+title: "Yarn Weight Substitution: When and How"
 description: "How to substitute a different yarn weight in a knitting pattern. Covers recalculating stitch counts, adjusting needle size, yardage changes, and when it works vs when it doesn't."
 publishDate: 2026-05-01
 category: yarn

@@ -1,5 +1,5 @@
 ---
-title: "How to Block Knitting. Wet, Steam & Spray Blocking Explained"
+title: "How to Block Knitting: Wet, Steam & Spray"
 description: "Learn how to block knitted items with wet blocking, steam blocking, and spray blocking. Covers which method suits which fiber and when blocking matters most."
 publishDate: 2026-05-01
 category: techniques

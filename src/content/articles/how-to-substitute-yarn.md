@@ -1,5 +1,5 @@
 ---
-title: "How to Substitute Yarn in a Knitting Pattern - A Practical Guide"
+title: "How to Substitute Yarn in a Knitting Pattern"
 description: "Learn how to swap yarn in a knitting pattern without ruining the project. Covers matching weight, gauge, fiber, yardage, and when substitution won't work."
 publishDate: 2026-05-01
 category: yarn

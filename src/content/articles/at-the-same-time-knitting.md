@@ -1,5 +1,5 @@
 ---
-title: "What Does \"At the Same Time\" Mean in Knitting Patterns?"
+title: '"At the Same Time" in Knitting Patterns'
 description: "Understand the confusing \"at the same time\" instruction in knitting patterns. Learn how to track two simultaneous actions with practical examples and tips."
 publishDate: 2026-05-01
 category: techniques

@@ -1,5 +1,5 @@
 ---
-title: "Digital vs Physical Row Counters: Which Is Better for Knitting?"
+title: "Digital vs Physical Row Counters Compared"
 description: "Mechanical clickers vs row counter apps. An honest comparison. Pros, cons, and which works best for different projects and knitting styles."
 publishDate: 2026-05-01
 category: app-tools

@@ -1,5 +1,5 @@
 ---
-title: "Best Yarn for Beginners. A Practical Guide to Your First Yarn"
+title: "Best Yarn for Beginners: Practical Guide"
 description: "Choose the right yarn for learning to knit. Covers which weight, fiber, and color to start with, what to avoid, and how much to buy for a first project."
 publishDate: 2026-05-01
 category: yarn

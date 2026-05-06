@@ -1,5 +1,5 @@
 ---
-title: "How to Read a Yarn Label - Every Symbol and Number Explained"
+title: "How to Read a Yarn Label: Symbols Explained"
 description: "Decode yarn labels: fiber content, weight symbols, gauge, care instructions, dye lot numbers, and what each icon means. Never buy the wrong yarn again."
 publishDate: 2026-05-01
 category: yarn

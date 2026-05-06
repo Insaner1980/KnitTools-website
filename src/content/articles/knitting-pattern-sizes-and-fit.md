@@ -1,5 +1,5 @@
 ---
-title: "Understanding Knitting Pattern Sizes and Fit. Ease, Measurements & Choosing Your Size"
+title: "Knitting Pattern Sizes: Ease & Measurements"
 description: "Learn how to choose the right size in a knitting pattern. Covers ease, body measurements, schematic reading, and why pattern sizes don't match store sizes."
 publishDate: 2026-05-01
 category: techniques

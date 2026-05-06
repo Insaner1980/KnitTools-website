@@ -1,5 +1,5 @@
 ---
-title: "How Much Yarn for a Sweater? Calculator & Yardage Guide"
+title: "How Much Yarn for a Sweater? Yardage Guide"
 description: "Calculate how much yarn you need for a knitted sweater. Yardage estimates by size and yarn weight, plus what sleeves, cables, and cardigans add."
 publishDate: 2026-05-01
 category: yarn

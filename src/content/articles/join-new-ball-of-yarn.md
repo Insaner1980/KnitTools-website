@@ -1,5 +1,5 @@
 ---
-title: "How to Join a New Ball of Yarn Mid-Row. 4 Methods Compared"
+title: "How to Join a New Ball of Yarn Mid-Row"
 description: "Learn how to join a new ball of yarn while knitting. Covers the overlap method, Russian join, spit splice, and magic knot, with pros and cons of each."
 publishDate: 2026-05-01
 category: techniques

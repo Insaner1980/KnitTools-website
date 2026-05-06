@@ -1,5 +1,5 @@
 ---
-title: "How Much Yarn for a Blanket? Calculator & Yardage Guide"
+title: "How Much Yarn for a Blanket? Yardage Guide"
 description: "Calculate how much yarn you need for a knitted blanket. Yardage estimates by blanket size and yarn weight, from baby blankets to king-size throws."
 publishDate: 2026-05-01
 category: yarn

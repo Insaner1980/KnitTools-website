@@ -1,5 +1,5 @@
 ---
-title: "Yarn Fibers Compared - Wool vs Cotton vs Acrylic vs Blends"
+title: "Yarn Fibers Compared: Wool, Cotton & Acrylic"
 description: "How wool, cotton, acrylic, and fiber blends differ in knitting. Covers warmth, drape, durability, care, blocking behavior, and best uses for each fiber."
 publishDate: 2026-05-01
 category: yarn

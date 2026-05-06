@@ -1,5 +1,5 @@
 ---
-title: "How to Increase or Decrease Evenly Across a Knitting Row"
+title: "How to Increase or Decrease Evenly Across a Row"
 description: "Learn how to space increases and decreases evenly across a row. Includes the formula, worked examples, and tips for clean results."
 publishDate: 2026-05-01
 category: gauge-calculations

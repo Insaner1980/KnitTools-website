@@ -1,5 +1,5 @@
 ---
-title: "How Much Yarn Do I Need? Estimating Yarn for Any Knitting Project"
+title: "How Much Yarn Do I Need? Estimating Yardage"
 description: "Calculate how much yarn you need for scarves, sweaters, blankets, and more. Covers estimation methods, yarn weight factors, and what to do with leftovers."
 publishDate: 2026-05-01
 category: yarn
