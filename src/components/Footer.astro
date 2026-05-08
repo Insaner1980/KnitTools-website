@@ -1,34 +1,48 @@
 ---
-const tools = [
-  { label: 'Cast On Calculator', href: '/tools/cast-on-calculator/' },
-  { label: 'Yarn Estimator', href: '/tools/yarn-estimator/' },
-  { label: 'Needle Size Chart', href: '/tools/needle-size-chart/' },
-  { label: 'Yarn Weight Chart', href: '/tools/yarn-weight-chart/' },
-  { label: 'Knitting Abbreviations', href: '/tools/knitting-abbreviations/' },
-  { label: 'Knitting Size Charts', href: '/tools/knitting-size-charts/' },
-];
+import { routes } from '../i18n/routes';
+import { useTranslations } from '../i18n/ui';
+import type { Lang } from '../i18n/config';
 
-const articles = [
-  { label: 'Gauge & Calculations', href: '/articles/category/gauge-calculations/' },
-  { label: 'Yarn', href: '/articles/category/yarn/' },
-  { label: 'Needles', href: '/articles/category/needles/' },
-  { label: 'Techniques', href: '/articles/category/techniques/' },
-  { label: 'App & Tools', href: '/articles/category/app-tools/' },
-];
+interface Props {
+  lang?: Lang;
+}
 
-const languages = [
-  'English',
-  'Suomi',
-  'Svenska',
-  'Dansk',
-  'Norsk',
-  'Nederlands',
-  'Deutsch',
-  'Français',
-  'Italiano',
-  'Português',
-  'Español',
-];
+const { lang = 'en' } = Astro.props;
+const t = useTranslations(lang);
+
+const tools = lang === 'fi'
+  ? [
+      { label: 'Silmukkalaskuri', href: routes.tool.castOnCalculator.fi },
+      { label: 'Lankamuunnin', href: routes.tool.yarnEstimator.fi },
+      { label: 'Puikkokoot', href: routes.tool.needleSizeChart.fi },
+      { label: 'Lankavahvuudet', href: routes.tool.yarnWeightChart.fi },
+      { label: 'Neulelyhenteet', href: routes.tool.knittingAbbreviations.fi },
+      { label: 'Neulekokotaulukot', href: routes.tool.knittingSizeCharts.fi },
+    ]
+  : [
+      { label: 'Cast On Calculator', href: routes.tool.castOnCalculator.en },
+      { label: 'Yarn Estimator', href: routes.tool.yarnEstimator.en },
+      { label: 'Needle Size Chart', href: routes.tool.needleSizeChart.en },
+      { label: 'Yarn Weight Chart', href: routes.tool.yarnWeightChart.en },
+      { label: 'Knitting Abbreviations', href: routes.tool.knittingAbbreviations.en },
+      { label: 'Knitting Size Charts', href: routes.tool.knittingSizeCharts.en },
+    ];
+
+const articles = lang === 'fi'
+  ? [
+      { label: 'Neuletiheys ja laskurit', href: routes.category['gauge-calculations'].fi },
+      { label: 'Langat', href: routes.category.yarn.fi },
+      { label: 'Puikot', href: routes.category.needles.fi },
+      { label: 'Tekniikat', href: routes.category.techniques.fi },
+      { label: 'Sovellus ja työkalut', href: routes.category['app-tools'].fi },
+    ]
+  : [
+      { label: 'Gauge & Calculations', href: routes.category['gauge-calculations'].en },
+      { label: 'Yarn', href: routes.category.yarn.en },
+      { label: 'Needles', href: routes.category.needles.en },
+      { label: 'Techniques', href: routes.category.techniques.en },
+      { label: 'App & Tools', href: routes.category['app-tools'].en },
+    ];
 ---
 
 <footer class="footer-editorial">
@@ -36,22 +50,22 @@ const languages = [
     <div class="cols-row">
       <div class="cols">
         <section>
-          <h4>Tools</h4>
+          <h4>{t('tools')}</h4>
           <ul>
             {tools.map((t) => <li><a href={t.href}>{t.label}</a></li>)}
           </ul>
         </section>
         <section>
-          <h4>Articles</h4>
+          <h4>{t('articles')}</h4>
           <ul>
             {articles.map((a) => <li><a href={a.href}>{a.label}</a></li>)}
           </ul>
         </section>
         <section>
-          <h4>App</h4>
+          <h4>{t('app')}</h4>
           <ul>
-            <li><span class="muted">Launching soon</span></li>
-            <li><a href="https://finnvek.com/privacy#knittools" target="_blank" rel="noopener">Privacy Policy</a></li>
+            <li><span class="muted">{t('launchingSoon')}</span></li>
+            <li><a href="https://finnvek.com/privacy#knittools" target="_blank" rel="noopener">{t('privacyPolicy')}</a></li>
           </ul>
         </section>
       </div>

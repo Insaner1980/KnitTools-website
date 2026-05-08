@@ -1,0 +1,179 @@
+---
+import FinnishToolPage from '../../../components/FinnishToolPage.astro';
+import { routes } from '../../../i18n/routes';
+
+const rows = [
+  ['1.5', '000', '-', '-', 'Lace'],
+  ['1.75', '00', '-', '-', 'Lace'],
+  ['2.0', '0', '14', '0', 'Lace'],
+  ['2.25', '1', '13', '-', 'Super Fine'],
+  ['2.5', '1.5', '-', '-', 'Super Fine'],
+  ['2.75', '2', '12', '2', 'Super Fine'],
+  ['3.0', '2.5', '11', '3', 'Fine'],
+  ['3.25', '3', '10', '-', 'Fine'],
+  ['3.5', '4', '-', '5', 'Fine'],
+  ['3.75', '5', '9', '-', 'Light'],
+  ['4.0', '6', '8', '6', 'Light'],
+  ['4.5', '7', '7', '8', 'Medium'],
+  ['5.0', '8', '6', '10', 'Medium'],
+  ['5.5', '9', '5', '-', 'Medium'],
+  ['6.0', '10', '4', '13', 'Bulky'],
+  ['6.5', '10.5', '3', '-', 'Bulky'],
+  ['7.0', '-', '2', '-', 'Bulky'],
+  ['8.0', '11', '0', '-', 'Super Bulky'],
+  ['9.0', '13', '00', '-', 'Super Bulky'],
+  ['10.0', '15', '000', '-', 'Super Bulky'],
+  ['12.0', '17', '-', '-', 'Jumbo'],
+  ['12.75', '-', '-', '-', 'Jumbo'],
+  ['15.0', '19', '-', '-', 'Jumbo'],
+  ['16.0', '19', '-', '-', 'Jumbo'],
+  ['19.0', '35', '-', '-', 'Jumbo'],
+  ['25.0', '50', '-', '-', 'Jumbo'],
+];
+
+const faqs = [
+  {
+    q: 'Voinko käyttää melkein samaa puikkokokoa?',
+    a: 'Voit kokeilla, mutta jo 0,5 mm muutos voi näkyä neuletiheydessä. Istuviin vaatteisiin kannattaa neuloa uusi mallitilkku.',
+  },
+  {
+    q: 'Ovatko puikkokoot samoja kaikilla merkeillä?',
+    a: 'Niiden pitäisi olla, mutta vanhoissa tai halvoissa puikoissa voi olla pientä heittoa. Jos neuletiheys ei millään täsmää, mittaa puikko puikkomitalla.',
+  },
+  {
+    q: 'Onko pyöröpuikon koko eri asia kuin suoran puikon?',
+    a: 'Ei. Koko kertoo kärjen halkaisijan. Kaapelin pituus on erillinen asia.',
+  },
+  {
+    q: 'Tarvitsenko jokaisen puikkokoon?',
+    a: 'Et. Useimmat neulojat käyttävät toistuvasti vain muutamia kokoja, jotka sopivat heidän tavallisimpiin lankoihinsa. Jos neulot paljon DK- ja worsted-vahvuisilla langoilla, 3,75-5,5 mm puikot tulevat vastaan usein.',
+  },
+];
+---
+
+<FinnishToolPage
+  title="Puikkokoot: US, UK ja millimetrit"
+  description="Muunna neulepuikkojen koot metrisen, US-, UK- ja japanilaisen järjestelmän välillä."
+  canonicalPath={routes.tool.needleSizeChart.fi}
+  alternates={routes.tool.needleSizeChart}
+  intro="Tarkista puikkokoko millimetreinä ja vertaa sitä US-, UK- ja japanilaisiin kokomerkintöihin. Hae millimetreillä tai esimerkiksi muodossa US 7."
+  schemaName="Puikkokokotaulukko"
+  schemaDescription="Muuntaa neulepuikkojen koot metrisen, US-, UK- ja japanilaisen järjestelmän välillä."
+  faqs={faqs}
+  variant="teal"
+>
+  <div slot="tool">
+    <div class="table-wrapper">
+      <input
+        type="text"
+        id="needle-search"
+        class="search-input"
+        placeholder='Hae kokoa, esim. "4.5", "US 7" tai "UK 7"'
+        autocomplete="off"
+      />
+      <div class="table-scroll">
+        <table class="needle-table" id="needle-table">
+          <thead>
+            <tr>
+              <th>Millimetrit</th>
+              <th>US</th>
+              <th>UK/Canada</th>
+              <th>Japani</th>
+              <th>Lankavahvuus</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((row) => (
+              <tr data-mm={row[0]} data-us={row[1] === '-' ? '' : row[1]} data-uk={row[2] === '-' ? '' : row[2]} data-jp={row[3] === '-' ? '' : row[3]}>
+                <td class="col-mm">{row[0]}</td>
+                {row.slice(1).map((cell) => <td>{cell === '-' ? '—' : cell}</td>)}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="no-results" id="no-results" hidden>Kokoa ei löytynyt.</p>
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Miksi järjestelmiä on monta?</h2>
+    <p>Millimetrit kertovat puikon todellisen halkaisijan. US- ja vanhat UK-koot ovat nimilappuja, eivät mittoja. UK-järjestelmä on vieläpä käänteinen: pieni numero tarkoittaa paksumpaa puikkoa. Siinä kohtaa virhe tulee helposti, varsinkin vanhojen ohjeiden kanssa.</p>
+
+    <h2>Millimetrit ovat varmin valinta</h2>
+    <p>Jos ohje antaa sekä US-koon että millimetrit, seuraa millimetrejä. US 7 tarkoittaa 4,5 mm, mutta numero seitsemän ei itsessään kerro halkaisijasta mitään. Kun puikon merkintä on kulunut pois, puikkomitta on nopeampi kuin arvaaminen.</p>
+
+    <h2>Yleiset muunnosvirheet</h2>
+    <p>US- ja UK-koot voivat näyttää samankaltaisilta mutta tarkoittaa eri asioita. US 8 on 5,0 mm, kun vanha UK 8 on 4,0 mm. Lisäksi UK-järjestelmä kulkee vastakkaiseen suuntaan: mitä pienempi numero, sitä paksumpi puikko. Siksi vanhoissa ohjeissa kannattaa tarkistaa aina millimetrit, jos ne on annettu.</p>
+
+    <h2>Puikko ja lanka eivät päätä yksin</h2>
+    <p>Lankavyöte antaa suosituksen, mutta valmis neulepinta ratkaisee. Sama DK-lanka voi olla napakka pipossa ja aivan liian kova neuletakissa. Mallitilkku näyttää, onko puikko oikea juuri tähän työhön.</p>
+
+    <h2>Puikkokoko ja lankavahvuus kulkevat yhdessä</h2>
+    <p>Ohut lanka tarvitsee yleensä pienemmät puikot ja paksu lanka suuremmat puikot. Suositus ei silti ole sääntö. Jos haluat ilmavan pitsihuivin, puikko voi olla vyötteen suositusta suurempi. Jos haluat napakat lapaset, puikko voi olla pienempi.</p>
+
+    <h2>Miten merkitsemätön puikko mitataan?</h2>
+    <p>Käytä puikkomittaa eli levyä, jossa on millimetrireiät. Työnnä puikko varovasti reikään, johon se istuu ilman puristamista. Älä mittaa kaapelia pyöröpuikosta: koko tarkoittaa kärjen halkaisijaa.</p>
+  </div>
+</FinnishToolPage>
+
+<script>
+  const searchInput = document.getElementById('needle-search') as HTMLInputElement | null;
+  const table = document.getElementById('needle-table');
+  const noResults = document.getElementById('no-results');
+
+  if (searchInput && table && noResults) {
+    const rows = table.querySelectorAll<HTMLElement>('tbody tr');
+
+    searchInput.addEventListener('input', () => {
+      const raw = searchInput.value.trim().toLowerCase();
+
+      if (!raw) {
+        rows.forEach((row) => {
+          row.style.display = '';
+        });
+        noResults.hidden = true;
+        return;
+      }
+
+      let targetCol: string | null = null;
+      let query = raw;
+
+      if (raw.startsWith('us ')) {
+        targetCol = 'us';
+        query = raw.slice(3).trim();
+      } else if (raw.startsWith('uk ')) {
+        targetCol = 'uk';
+        query = raw.slice(3).trim();
+      } else if (raw.startsWith('jp ') || raw.startsWith('japani ') || raw.startsWith('japanese ')) {
+        targetCol = 'jp';
+        query = raw.replace(/^(jp|japani|japanese)\s+/, '').trim();
+      }
+
+      let visibleCount = 0;
+
+      rows.forEach((row) => {
+        const mm = row.dataset.mm || '';
+        const us = row.dataset.us || '';
+        const uk = row.dataset.uk || '';
+        const jp = row.dataset.jp || '';
+
+        let match = false;
+        if (targetCol === 'us') {
+          match = us === query;
+        } else if (targetCol === 'uk') {
+          match = uk === query;
+        } else if (targetCol === 'jp') {
+          match = jp === query;
+        } else {
+          match = mm.startsWith(query) || us === query || uk === query || jp === query;
+        }
+
+        row.style.display = match ? '' : 'none';
+        if (match) visibleCount++;
+      });
+
+      noResults.hidden = visibleCount > 0;
+    });
+  }
+</script>

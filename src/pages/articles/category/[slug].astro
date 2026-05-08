@@ -5,11 +5,13 @@ import ArticleCard from '../../../components/ArticleCard.astro';
 import ClosingCTA from '../../../components/ClosingCTA.astro';
 import {
   CATEGORY_ORDER,
-  CATEGORY_LABELS,
-  CATEGORY_DESCRIPTIONS,
+  getCategoryDescription,
+  getCategoryLabel,
   type CategorySlug,
 } from '../../../lib/categories';
 import { PRICING } from '../../../config/pricing';
+import { isEnglishArticle } from '../../../i18n/articles';
+import { routes } from '../../../i18n/routes';
 
 export async function getStaticPaths() {
   return CATEGORY_ORDER.map((slug) => ({ params: { slug } }));
@@ -17,12 +19,13 @@ export async function getStaticPaths() {
 
 const { slug } = Astro.params;
 const category = slug as CategorySlug;
-const label = CATEGORY_LABELS[category];
-const description = CATEGORY_DESCRIPTIONS[category];
+const label = getCategoryLabel(category);
+const description = getCategoryDescription(category);
 
 const articles = await getCollection('articles', ({ data }) =>
-  data.category === category && (import.meta.env.DEV ? true : !data.draft)
+  data.category === category && data.lang !== 'fi' && (import.meta.env.DEV ? true : !data.draft)
 );
+const englishArticles = articles.filter(isEnglishArticle);
 const sortedArticles = articles.sort(
   (a, b) => (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999)
 );
@@ -31,7 +34,8 @@ const sortedArticles = articles.sort(
 <PageLayout
   title={`${label}. Knitting Guides`}
   description={description}
-  canonicalPath={`/articles/category/${slug}/`}
+  canonicalPath={routes.category[category].en}
+  alternates={routes.category[category]}
   showStripe={false}
 >
   <section class="cat-header-section">
@@ -46,7 +50,7 @@ const sortedArticles = articles.sort(
   </section>
 
   <section class="cat-grid-section">
-    {sortedArticles.length === 0 ? (
+    {englishArticles.length === 0 ? (
       <div class="empty-state">
         <p class="empty-eyebrow">Coming {PRICING.launchMonthLabel}</p>
         <p class="empty-text">No articles in this category yet.</p>

@@ -21,6 +21,14 @@ export const CATEGORY_LABELS: Record<CategorySlug, string> = {
   'app-tools': 'App & Tools',
 };
 
+export const CATEGORY_LABELS_FI: Record<CategorySlug, string> = {
+  'gauge-calculations': 'Neuletiheys ja laskurit',
+  'yarn': 'Langat',
+  'needles': 'Puikot',
+  'techniques': 'Tekniikat',
+  'app-tools': 'Sovellus ja työkalut',
+};
+
 export const CATEGORY_COLORS: Record<CategorySlug, string> = {
   'gauge-calculations': 'card-terracotta',
   'yarn': 'card-rust',
@@ -41,3 +49,24 @@ export const CATEGORY_DESCRIPTIONS: Record<CategorySlug, string> = {
   'app-tools':
     'Apps, calculators, and physical tools that make tracking, planning, and organizing knitting projects easier.',
 };
+
+export const CATEGORY_DESCRIPTIONS_FI: Record<CategorySlug, string> = {
+  'gauge-calculations':
+    'Neuletiheys, mallitilkut ja silmukkamäärät. Ne laskut, joista valmiin neuleen koko lopulta riippuu.',
+  'yarn':
+    'Langan valinta, korvaaminen, vyötteen lukeminen ja menekin arviointi silloin kun ohjeen numerot eivät yksin riitä.',
+  'needles':
+    'Puikkokoot, materiaalit ja puikkotyypit. Mitä kannattaa ostaa ja milloin mikäkin puikko tuntuu oikealta työssä.',
+  'techniques':
+    'Käytännön tekniikkaohjeita. Virheiden korjaamista, viimeistelyä ja ohjeiden lukemista luomisesta päättelyyn.',
+  'app-tools':
+    'Sovellukset, laskurit ja apuvälineet, joilla neuleprojektien seuraaminen ja suunnittelu pysyy helpompana.',
+};
+
+export function getCategoryLabel(slug: CategorySlug, lang: 'en' | 'fi' = 'en') {
+  return lang === 'fi' ? CATEGORY_LABELS_FI[slug] : CATEGORY_LABELS[slug];
+}
+
+export function getCategoryDescription(slug: CategorySlug, lang: 'en' | 'fi' = 'en') {
+  return lang === 'fi' ? CATEGORY_DESCRIPTIONS_FI[slug] : CATEGORY_DESCRIPTIONS[slug];
+}

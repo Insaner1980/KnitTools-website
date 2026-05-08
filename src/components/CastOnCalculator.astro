@@ -1,39 +1,80 @@
-<div class="cast-on-calculator">
+---
+interface Props {
+  lang?: 'en' | 'fi';
+}
+
+const { lang = 'en' } = Astro.props;
+const copy = lang === 'fi'
+  ? {
+      legend: 'Silmukkalaskuri',
+      gauge: 'Neuletiheys (silmukkaa / 10 cm tai 4 in)',
+      decreaseGauge: 'Pienennä neuletiheyttä',
+      increaseGauge: 'Suurenna neuletiheyttä',
+      gaugePlaceholder: 'esim. 20',
+      width: 'Haluttu leveys',
+      decreaseWidth: 'Pienennä leveyttä',
+      increaseWidth: 'Suurenna leveyttä',
+      widthPlaceholder: 'esim. 50',
+      unitSelection: 'Mittayksikkö',
+      inches: 'tuumaa',
+      calculate: 'Laske',
+      error: 'Syötä kelvollinen neuletiheys ja leveys.',
+      resultLabel: 'luotavaa silmukkaa',
+    }
+  : {
+      legend: 'Cast On Calculator',
+      gauge: 'Gauge (stitches per 10 cm / 4 in)',
+      decreaseGauge: 'Decrease gauge',
+      increaseGauge: 'Increase gauge',
+      gaugePlaceholder: 'e.g. 20',
+      width: 'Desired width',
+      decreaseWidth: 'Decrease width',
+      increaseWidth: 'Increase width',
+      widthPlaceholder: 'e.g. 50',
+      unitSelection: 'Unit selection',
+      inches: 'inches',
+      calculate: 'Calculate',
+      error: 'Please enter valid gauge and width values.',
+      resultLabel: 'stitches to cast on',
+    };
+---
+
+<div class="cast-on-calculator" data-error={copy.error} data-result-label={copy.resultLabel}>
   <fieldset>
-    <legend class="sr-only">Cast On Calculator</legend>
+    <legend class="sr-only">{copy.legend}</legend>
 
     <div class="form-group">
-      <label for="gauge">Gauge (stitches per 10 cm / 4 in)</label>
+      <label for="gauge">{copy.gauge}</label>
       <div class="number-input-wrap">
-        <button type="button" class="spin-btn spin-down" aria-label="Decrease gauge">−</button>
-        <input type="number" id="gauge" min="1" max="100" step="0.5" placeholder="e.g. 20" />
-        <button type="button" class="spin-btn spin-up" aria-label="Increase gauge">+</button>
+        <button type="button" class="spin-btn spin-down" aria-label={copy.decreaseGauge}>−</button>
+        <input type="number" id="gauge" min="1" max="100" step="0.5" placeholder={copy.gaugePlaceholder} />
+        <button type="button" class="spin-btn spin-up" aria-label={copy.increaseGauge}>+</button>
       </div>
     </div>
 
     <div class="form-group">
-      <label for="width">Desired width</label>
+      <label for="width">{copy.width}</label>
       <div class="number-input-wrap">
-        <button type="button" class="spin-btn spin-down" aria-label="Decrease width">−</button>
-        <input type="number" id="width" min="0.1" max="1000" step="0.1" placeholder="e.g. 50" />
-        <button type="button" class="spin-btn spin-up" aria-label="Increase width">+</button>
+        <button type="button" class="spin-btn spin-down" aria-label={copy.decreaseWidth}>−</button>
+        <input type="number" id="width" min="0.1" max="1000" step="0.1" placeholder={copy.widthPlaceholder} />
+        <button type="button" class="spin-btn spin-up" aria-label={copy.increaseWidth}>+</button>
       </div>
     </div>
 
     <div class="form-group">
-      <div class="unit-toggle" role="radiogroup" aria-label="Unit selection">
+      <div class="unit-toggle" role="radiogroup" aria-label={copy.unitSelection}>
         <label class="unit-option">
           <input type="radio" name="unit" value="cm" checked />
           <span>cm</span>
         </label>
         <label class="unit-option">
           <input type="radio" name="unit" value="inches" />
-          <span>inches</span>
+          <span>{copy.inches}</span>
         </label>
       </div>
     </div>
 
-    <button type="button" class="btn-primary calc-btn">Calculate</button>
+    <button type="button" class="btn-primary calc-btn">{copy.calculate}</button>
 
     <div class="result-area" aria-live="polite">
       <div class="result-wrapper">
@@ -77,7 +118,7 @@
           const errorSpan = document.createElement('span');
           errorSpan.className = 'form-error';
           errorSpan.setAttribute('role', 'alert');
-          errorSpan.textContent = 'Please enter valid gauge and width values.';
+          errorSpan.textContent = calc.getAttribute('data-error') || '';
           resultEl.appendChild(errorSpan);
           resultArea.classList.add('is-open');
           return;
@@ -95,7 +136,7 @@
         numberEl.textContent = '0';
         const labelEl = document.createElement('span');
         labelEl.className = 'result-label';
-        labelEl.textContent = 'stitches to cast on';
+        labelEl.textContent = calc.getAttribute('data-result-label') || '';
         wrapper.appendChild(numberEl);
         wrapper.appendChild(labelEl);
         resultEl.appendChild(wrapper);

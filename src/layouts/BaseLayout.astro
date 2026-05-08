@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import { COUNTRY_TO_TIER, FALLBACK_PRICING_TIER } from '../config/pricing';
+import { getLocale, type Lang } from '../i18n/config';
 
 interface Props {
   title: string;
@@ -8,23 +9,30 @@ interface Props {
   browserTitle?: string;
   canonicalPath?: string;
   bodyClass?: string;
+  lang?: Lang;
+  alternates?: Partial<Record<Lang, string>>;
 }
 
-const { title, description, browserTitle, canonicalPath = '', bodyClass = '' } = Astro.props;
+const { title, description, browserTitle, canonicalPath = '', bodyClass = '', lang = 'en', alternates } = Astro.props;
 const siteUrl = 'https://knittoolsapp.com';
 const canonicalUrl = `${siteUrl}${canonicalPath}`;
 const fullTitle = `${title} | KnitTools`;
 const pageTitle = browserTitle ?? fullTitle;
+const ogLocale = getLocale(lang);
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang={lang}>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{pageTitle}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalUrl} />
+  {alternates && Object.entries(alternates).map(([alternateLang, path]) => (
+    <link rel="alternate" hreflang={alternateLang} href={`${siteUrl}${path}`} />
+  ))}
+  {alternates && alternates.en && <link rel="alternate" hreflang="x-default" href={`${siteUrl}${alternates.en}`} />}
 
   <!-- Open Graph -->
   <meta property="og:title" content={pageTitle} />
@@ -32,6 +40,7 @@ const pageTitle = browserTitle ?? fullTitle;
   <meta property="og:image" content={`${siteUrl}/images/og-image.png`} />
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:type" content="website" />
+  <meta property="og:locale" content={ogLocale} />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -54,7 +63,7 @@ const pageTitle = browserTitle ?? fullTitle;
   <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "90537a60e26f433485a8fdaf6b076843"}'></script><!-- End Cloudflare Web Analytics -->
 </head>
 <body class={bodyClass}>
-  <a href="#main-content" class="skip-link">Skip to content</a>
+  <a href="#main-content" class="skip-link">{lang === 'fi' ? 'Siirry sisältöön' : 'Skip to content'}</a>
   <div class="page-wrapper">
     <slot />
   </div>

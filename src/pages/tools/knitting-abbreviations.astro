@@ -3,6 +3,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
 import { PRICING } from '../../config/pricing';
 import RegionalPrice from '../../components/RegionalPrice.astro';
 import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
+import { routes } from '../../i18n/routes';
 
 type Category =
   | 'cast-on-bind-off'
@@ -132,6 +133,7 @@ const faqs = [
   title="Knitting Abbreviations: Searchable Glossary"
   description="Look up any knitting abbreviation or search by technique name. Full glossary of pattern terms from k2tog to psso, organized by category."
   canonicalPath="/tools/knitting-abbreviations/"
+  alternates={routes.tool.knittingAbbreviations}
   showStripe={false}
 >
   <script type="application/ld+json" set:html={JSON.stringify({

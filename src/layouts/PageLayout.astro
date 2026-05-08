@@ -2,6 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+import type { Lang } from '../i18n/config';
 
 interface Props {
   title: string;
@@ -10,15 +11,17 @@ interface Props {
   canonicalPath?: string;
   showStripe?: boolean;
   bodyClass?: string;
+  lang?: Lang;
+  alternates?: Partial<Record<Lang, string>>;
 }
 
-const { title, description, browserTitle, canonicalPath, bodyClass } = Astro.props;
+const { title, description, browserTitle, canonicalPath, bodyClass, lang = 'en', alternates } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} browserTitle={browserTitle} canonicalPath={canonicalPath} bodyClass={bodyClass}>
-  <Navbar />
+<BaseLayout title={title} description={description} browserTitle={browserTitle} canonicalPath={canonicalPath} bodyClass={bodyClass} lang={lang} alternates={alternates}>
+  <Navbar lang={lang} />
   <main id="main-content">
     <slot />
   </main>
-  <Footer />
+  <Footer lang={lang} />
 </BaseLayout>

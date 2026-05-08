@@ -3,6 +3,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
 import { PRICING } from '../../config/pricing';
 import RegionalPrice from '../../components/RegionalPrice.astro';
 import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
+import { routes } from '../../i18n/routes';
 
 interface Cell {
   cm: string;
@@ -123,8 +124,8 @@ const panels: Panel[] = [
         ],
       },
       {
-        caption: 'Women 2X–5X',
-        sizes: ['2X', '3X', '4X', '5X'],
+        caption: 'Women 2XL–5XL',
+        sizes: ['2XL', '3XL', '4XL', '5XL'],
         rows: [
           { label: 'Chest', cells: [c('122–127 cm', '48–50"'), c('132–137 cm', '52–54"'), c('142–147 cm', '56–58"'), c('152–158 cm', '60–62"')] },
           { label: 'Back Waist Length', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
@@ -159,8 +160,8 @@ const panels: Panel[] = [
         ],
       },
       {
-        caption: 'Men 2X–5X',
-        sizes: ['2X', '3X', '4X', '5X'],
+        caption: 'Men 2XL–5XL',
+        sizes: ['2XL', '3XL', '4XL', '5XL'],
         rows: [
           { label: 'Chest', cells: [c('127–132 cm', '50–52"'), c('137–142 cm', '54–56"'), c('147.5–152 cm', '58–60"'), c('157.5–162.5 cm', '62–64"')] },
           { label: 'Back Waist Length', cells: [c('73.5 cm', '29"'), c('76 cm', '30"'), c('76 cm', '30"'), c('79 cm', '31"')] },
@@ -252,6 +253,7 @@ const faqs = [
   title="Knitting Size Charts: Baby, Child, Women & Men"
   description="Standard body measurement charts for knitting. Baby through adult sizes with chest, waist, hips, arm length, and more, in cm and inches."
   canonicalPath="/tools/knitting-size-charts/"
+  alternates={routes.tool.knittingSizeCharts}
   showStripe={false}
 >
   <script type="application/ld+json" set:html={JSON.stringify({

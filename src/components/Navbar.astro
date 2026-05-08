@@ -1,12 +1,24 @@
 ---
+import { routes } from '../i18n/routes';
+import { useTranslations } from '../i18n/ui';
+import type { Lang } from '../i18n/config';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+const t = useTranslations(lang);
+const homeHref = '/';
+const joinHref = lang === 'fi' ? `${routes.toolsIndex.fi}#join` : '/#join';
 ---
 
 <header class="nav-editorial" data-nav>
-  <a href="/" class="brand-mark" aria-label="KnitTools home">KnitTools</a>
+  <a href={homeHref} class="brand-mark" aria-label={t('navHome')}>KnitTools</a>
   <nav class="nav-links">
-    <a href="/tools/">Tools</a>
-    <a href="/articles/">Articles</a>
-    <a href="#join" class="waitlist">Join the list</a>
+    <a href={routes.toolsIndex[lang]}>{t('navTools')}</a>
+    <a href={routes.articlesIndex[lang]}>{t('navArticles')}</a>
+    <a href={joinHref} class="waitlist">{t('navJoin')}</a>
   </nav>
 </header>
 

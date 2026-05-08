@@ -1,0 +1,386 @@
+---
+import FinnishToolPage from '../../../components/FinnishToolPage.astro';
+import { routes } from '../../../i18n/routes';
+
+interface Cell {
+  cm: string;
+  inch: string;
+}
+
+interface Row {
+  label: string;
+  cells: Cell[];
+}
+
+interface Table {
+  caption?: string;
+  sizeHeader?: string;
+  sizes: string[];
+  rows: Row[];
+}
+
+interface Panel {
+  id: string;
+  label: string;
+  intro?: string;
+  tables: Table[];
+}
+
+const c = (cm: string, inch: string): Cell => ({ cm, inch });
+
+const panels: Panel[] = [
+  {
+    id: 'vauva',
+    label: 'Vauva',
+    tables: [
+      {
+        sizes: ['3 kk', '6 kk', '12 kk', '18 kk', '24 kk'],
+        rows: [
+          { label: 'Rinnanympärys', cells: [c('40.5 cm', '16"'), c('43 cm', '17"'), c('45.5 cm', '18"'), c('48 cm', '19"'), c('50.5 cm', '20"')] },
+          { label: 'Selän pituus vyötärölle', cells: [c('15.5 cm', '6"'), c('17.5 cm', '7"'), c('19 cm', '7.5"'), c('20.5 cm', '8"'), c('21.5 cm', '8.5"')] },
+          { label: 'Selän leveys', cells: [c('18.5 cm', '7.25"'), c('19.5 cm', '7.75"'), c('21 cm', '8.25"'), c('21.5 cm', '8.5"'), c('22 cm', '8.75"')] },
+          { label: 'Hihan sisäpituus', cells: [c('15.5 cm', '6"'), c('16.5 cm', '6.5"'), c('19 cm', '7.5"'), c('20.5 cm', '8"'), c('21.5 cm', '8.5"')] },
+          { label: 'Olkavarren ympärys', cells: [c('14 cm', '5.5"'), c('15.5 cm', '6"'), c('16.5 cm', '6.5"'), c('17.5 cm', '7"'), c('19 cm', '7.5"')] },
+          { label: 'Kädentien syvyys', cells: [c('8.5 cm', '3.25"'), c('9 cm', '3.5"'), c('9.5 cm', '3.75"'), c('10 cm', '4"'), c('10.5 cm', '4.25"')] },
+          { label: 'Vyötärö', cells: [c('45.5 cm', '18"'), c('48 cm', '19"'), c('50.5 cm', '20"'), c('52 cm', '20.5"'), c('53.5 cm', '21"')] },
+          { label: 'Lantio', cells: [c('48 cm', '19"'), c('50.5 cm', '20"'), c('50.5 cm', '20"'), c('53.5 cm', '21"'), c('56 cm', '22"')] },
+          { label: 'Niskasta ranteeseen', cells: [c('26.5 cm', '10.5"'), c('29 cm', '11.5"'), c('31.5 cm', '12.5"'), c('35.5 cm', '14"'), c('45.5 cm', '18"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'lapsi',
+    label: 'Lapsi',
+    tables: [
+      {
+        sizes: ['Koko 2', 'Koko 4', 'Koko 6', 'Koko 8', 'Koko 10'],
+        rows: [
+          { label: 'Rinnanympärys', cells: [c('53 cm', '21"'), c('58.5 cm', '23"'), c('63.5 cm', '25"'), c('67 cm', '26.5"'), c('71 cm', '28"')] },
+          { label: 'Selän pituus vyötärölle', cells: [c('21.5 cm', '8.5"'), c('24 cm', '9.5"'), c('26.5 cm', '10.5"'), c('31.5 cm', '12.5"'), c('35.5 cm', '14"')] },
+          { label: 'Selän leveys', cells: [c('23.5 cm', '9.25"'), c('25 cm', '9.75"'), c('26 cm', '10.25"'), c('27 cm', '10.75"'), c('28.5 cm', '11.25"')] },
+          { label: 'Hihan sisäpituus', cells: [c('21.5 cm', '8.5"'), c('26.5 cm', '10.5"'), c('29 cm', '11.5"'), c('31.5 cm', '12.5"'), c('34.5 cm', '13.5"')] },
+          { label: 'Olkavarren ympärys', cells: [c('17.5 cm', '7"'), c('19 cm', '7.5"'), c('20.5 cm', '8"'), c('21.5 cm', '8.5"'), c('22 cm', '8.75"')] },
+          { label: 'Kädentien syvyys', cells: [c('10.5 cm', '4.25"'), c('12 cm', '4.75"'), c('12.5 cm', '5"'), c('14 cm', '5.5"'), c('15.5 cm', '6"')] },
+          { label: 'Vyötärö', cells: [c('53.5 cm', '21"'), c('54.5 cm', '21.5"'), c('57 cm', '22.5"'), c('59.5 cm', '23.5"'), c('62 cm', '24.5"')] },
+          { label: 'Lantio', cells: [c('56 cm', '22"'), c('59.5 cm', '23.5"'), c('63.5 cm', '25"'), c('71 cm', '28"'), c('75 cm', '29.5"')] },
+          { label: 'Niskasta ranteeseen', cells: [c('45.5 cm', '18"'), c('49.5 cm', '19.5"'), c('52 cm', '20.5"'), c('56 cm', '22"'), c('61 cm', '24"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'nuori',
+    label: 'Nuori',
+    tables: [
+      {
+        sizes: ['Koko 12', 'Koko 14', 'Koko 16'],
+        rows: [
+          { label: 'Rinnanympärys', cells: [c('76 cm', '30"'), c('80 cm', '31.5"'), c('82.5 cm', '32.5"')] },
+          { label: 'Selän pituus vyötärölle', cells: [c('38 cm', '15"'), c('39.5 cm', '15.5"'), c('40.5 cm', '16"')] },
+          { label: 'Selän leveys', cells: [c('30.5 cm', '12"'), c('31 cm', '12.25"'), c('33 cm', '13"')] },
+          { label: 'Hihan sisäpituus', cells: [c('38 cm', '15"'), c('40.5 cm', '16"'), c('42 cm', '16.5"')] },
+          { label: 'Olkavarren ympärys', cells: [c('23 cm', '9"'), c('23.5 cm', '9.25"'), c('24 cm', '9.5"')] },
+          { label: 'Kädentien syvyys', cells: [c('16.5 cm', '6.5"'), c('17.5 cm', '7"'), c('19 cm', '7.5"')] },
+          { label: 'Vyötärö', cells: [c('63.5 cm', '25"'), c('67.5 cm', '26.5"'), c('69.5 cm', '27.5"')] },
+          { label: 'Lantio', cells: [c('80 cm', '31.5"'), c('83.5 cm', '33"'), c('90 cm', '35.5"')] },
+          { label: 'Niskasta ranteeseen', cells: [c('66 cm', '26"'), c('68.5 cm', '27"'), c('71 cm', '28"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'naiset',
+    label: 'Naiset',
+    tables: [
+      {
+        caption: 'Naiset XS-XL',
+        sizes: ['XS', 'S', 'M', 'L', 'XL'],
+        rows: [
+          { label: 'Rinnanympärys', cells: [c('71-76 cm', '28-30"'), c('81-86 cm', '32-34"'), c('91.5-96.5 cm', '36-38"'), c('101.5-106.5 cm', '40-42"'), c('111.5-117 cm', '44-46"')] },
+          { label: 'Selän pituus vyötärölle', cells: [c('42 cm', '16.5"'), c('43 cm', '17"'), c('43.5 cm', '17.25"'), c('44.5 cm', '17.5"'), c('45 cm', '17.75"')] },
+          { label: 'Selän leveys', cells: [c('35.5-37 cm', '14-14.5"'), c('37-38 cm', '14.5-15"'), c('39.5-40.5 cm', '15.5-16"'), c('42-43 cm', '16.5-17"'), c('44.5 cm', '17.5"')] },
+          { label: 'Hihan sisäpituus', cells: [c('42 cm', '16.5"'), c('43 cm', '17"'), c('43 cm', '17"'), c('44.5 cm', '17.5"'), c('44.5 cm', '17.5"')] },
+          { label: 'Olkavarren ympärys', cells: [c('25 cm', '9.75"'), c('26 cm', '10.25"'), c('28 cm', '11"'), c('30.5 cm', '12"'), c('34.5 cm', '13.5"')] },
+          { label: 'Kädentien syvyys', cells: [c('15.5-16.5 cm', '6-6.5"'), c('16.5-17.5 cm', '6.5-7"'), c('17.5-19 cm', '7-7.5"'), c('19-20.5 cm', '7.5-8"'), c('20.5-21.5 cm', '8-8.5"')] },
+          { label: 'Vyötärö', cells: [c('58.5-61 cm', '23-24"'), c('63.5-67.5 cm', '25-26.5"'), c('71-76 cm', '28-30"'), c('81.5-86.5 cm', '32-34"'), c('91.5-96.5 cm', '36-38"')] },
+          { label: 'Lantio', cells: [c('83.5-86 cm', '33-34"'), c('89-91.5 cm', '35-36"'), c('96.5-101.5 cm', '38-40"'), c('106.5-111.5 cm', '42-44"'), c('116.5-122 cm', '46-48"')] },
+          { label: 'Niskasta ranteeseen', cells: [c('66-68.5 cm', '26-26.5"'), c('68.5-70 cm', '27-27.5"'), c('71-72.5 cm', '28-28.5"'), c('73.5-75 cm', '29-29.5"'), c('73.5-75 cm', '29-29.5"')] },
+        ],
+      },
+      {
+        caption: 'Naiset 2XL-5XL',
+        sizes: ['2XL', '3XL', '4XL', '5XL'],
+        rows: [
+          { label: 'Rinnanympärys', cells: [c('122-127 cm', '48-50"'), c('132-137 cm', '52-54"'), c('142-147 cm', '56-58"'), c('152-158 cm', '60-62"')] },
+          { label: 'Selän pituus vyötärölle', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
+          { label: 'Selän leveys', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
+          { label: 'Hihan sisäpituus', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
+          { label: 'Olkavarren ympärys', cells: [c('39.5 cm', '15.5"'), c('43 cm', '17"'), c('47 cm', '18.5"'), c('49.5 cm', '18.5"')] },
+          { label: 'Kädentien syvyys', cells: [c('21.5-23 cm', '8.5-9"'), c('23-24 cm', '9-9.5"'), c('24-25.5 cm', '9.5-10"'), c('25.5-26.5 cm', '10-10.5"')] },
+          { label: 'Vyötärö', cells: [c('101.5-106.5 cm', '40-42"'), c('111.5-114 cm', '44-45"'), c('116.5-119 cm', '46-47"'), c('124-127 cm', '49-50"')] },
+          { label: 'Lantio', cells: [c('132-134.5 cm', '52-53"'), c('137-139.5 cm', '54-55"'), c('142-144.5 cm', '56-57"'), c('155-157 cm', '61-62"')] },
+          { label: 'Niskasta ranteeseen', cells: [c('76.5-77.5 cm', '30-30.5"'), c('77.5-79 cm', '30.5-31"'), c('80-81.5 cm', '31.5-32"'), c('80-81.5 cm', '31.5-32"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'miehet',
+    label: 'Miehet',
+    tables: [
+      {
+        caption: 'Miehet S-XL',
+        sizes: ['S', 'M', 'L', 'XL'],
+        rows: [
+          { label: 'Rinnanympärys', cells: [c('86-91.5 cm', '34-36"'), c('96.5-101.5 cm', '38-40"'), c('106.5-111.5 cm', '42-44"'), c('116.5-122 cm', '46-48"')] },
+          { label: 'Selän pituus vyötärölle', cells: [c('58.5-61 cm', '23-24"'), c('63.5-66 cm', '25-26"'), c('66-68.5 cm', '26-27"'), c('71 cm', '28"')] },
+          { label: 'Selän leveys', cells: [c('39.5-40.5 cm', '15.5-16"'), c('42-43 cm', '16.5-17"'), c('44.5-45.5 cm', '17.5-18"'), c('45.5-47 cm', '18-18.5"')] },
+          { label: 'Hihan sisäpituus', cells: [c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('49.5 cm', '19.5"'), c('50.5 cm', '20"')] },
+          { label: 'Olkavarren ympärys', cells: [c('30.5 cm', '12"'), c('33 cm', '13"'), c('38 cm', '15"'), c('39.5 cm', '15.5"')] },
+          { label: 'Kädentien syvyys', cells: [c('21.5-23 cm', '8.5-9"'), c('23-24 cm', '9-9.5"'), c('24-25.5 cm', '9.5-10"'), c('25.5-26 cm', '10-10.5"')] },
+          { label: 'Vyötärö', cells: [c('71-76 cm', '28-30"'), c('81.5-86.5 cm', '32-34"'), c('91.5-96.5 cm', '36-38"'), c('106.5-112 cm', '42-44"')] },
+          { label: 'Lantio', cells: [c('89-94 cm', '35-37"'), c('99-104 cm', '39-41"'), c('109-114 cm', '43-45"'), c('119-124.5 cm', '47-49"')] },
+          { label: 'Niskasta ranteeseen', cells: [c('81-82.5 cm', '32-32.5"'), c('83.5-85 cm', '33-33.5"'), c('86.5-87.5 cm', '34-34.5"'), c('89-90 cm', '35-35.5"')] },
+        ],
+      },
+      {
+        caption: 'Miehet 2XL-5XL',
+        sizes: ['2XL', '3XL', '4XL', '5XL'],
+        rows: [
+          { label: 'Rinnanympärys', cells: [c('127-132 cm', '50-52"'), c('137-142 cm', '54-56"'), c('147.5-152 cm', '58-60"'), c('157.5-162.5 cm', '62-64"')] },
+          { label: 'Selän pituus vyötärölle', cells: [c('73.5 cm', '29"'), c('76 cm', '30"'), c('76 cm', '30"'), c('79 cm', '31"')] },
+          { label: 'Selän leveys', cells: [c('48-51 cm', '19-20"'), c('48-51 cm', '20-21"'), c('51-54.5 cm', '21-21.5"'), c('56-57 cm', '22-22.5"')] },
+          { label: 'Hihan sisäpituus', cells: [c('52 cm', '20.5"'), c('52 cm', '20.5"'), c('49.5 cm', '21"'), c('53.5-54.5 cm', '21.5"')] },
+          { label: 'Olkavarren ympärys', cells: [c('42 cm', '16.5"'), c('44.5 cm', '17.5"'), c('47 cm', '18.5"'), c('48 cm', '20"')] },
+          { label: 'Kädentien syvyys', cells: [c('28 cm', '11"'), c('29 cm', '11.5"'), c('30.5 cm', '12"'), c('32 cm', '12.5"')] },
+          { label: 'Vyötärö', cells: [c('117-122 cm', '46-48"'), c('127-132 cm', '50-52"'), c('137-142 cm', '54-56"'), c('147.5-152.5 cm', '58-60"')] },
+          { label: 'Lantio', cells: [c('129-134 cm', '51-53"'), c('137-142 cm', '54-56"'), c('142-147.5 cm', '56-58"'), c('147.5-152.5 cm', '58-60"')] },
+          { label: 'Niskasta ranteeseen', cells: [c('91.5-92.5 cm', '36-36.5"'), c('94-95 cm', '37-37.5"'), c('96.5-97.5 cm', '38-38.5"'), c('99-100.5 cm', '39-39.5"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'asusteet',
+    label: 'Asusteet',
+    intro: 'Pään, jalan ja käden mittoja pipoihin, sukkiin, lapasiin ja käsineisiin.',
+    tables: [
+      {
+        caption: 'Päänympärys',
+        sizeHeader: 'Ryhmä',
+        sizes: ['Ympärys'],
+        rows: [
+          { label: 'Keskonen', cells: [c('23-30.5 cm', '9-12"')] },
+          { label: 'Vauva', cells: [c('35.5-40.5 cm', '14-16"')] },
+          { label: 'Taapero', cells: [c('40.5-46 cm', '16-18"')] },
+          { label: 'Lapsi', cells: [c('45.5-51 cm', '18-20"')] },
+          { label: 'Nuori', cells: [c('51-56 cm', '20-22"')] },
+          { label: 'Nainen', cells: [c('53-58.5 cm', '21-23"')] },
+          { label: 'Mies', cells: [c('56-61 cm', '22-24"')] },
+        ],
+      },
+      {
+        caption: 'Jalkaterän pituus',
+        sizeHeader: 'Koko',
+        sizes: ['Pituus'],
+        rows: [
+          { label: 'Vauva 0-6 kk', cells: [c('9 cm', '3.5"')] },
+          { label: 'Vauva 6-12 kk', cells: [c('10-11 cm', '4-4.5"')] },
+          { label: 'Taapero 1-2 v', cells: [c('12-13 cm', '4.75-5"')] },
+          { label: 'Lapsi 3-6 v', cells: [c('14-18 cm', '5.5-7"')] },
+          { label: 'Lapsi 7-10 v', cells: [c('19-21 cm', '7.5-8.25"')] },
+          { label: 'Nuori', cells: [c('22-24 cm', '8.5-9.5"')] },
+          { label: 'Naiset', cells: [c('23-26 cm', '9-10.25"')] },
+          { label: 'Miehet', cells: [c('25-29 cm', '10-11.5"')] },
+        ],
+      },
+      {
+        caption: 'Käden ympärys',
+        sizeHeader: 'Koko',
+        sizes: ['Ympärys'],
+        rows: [
+          { label: 'Vauva', cells: [c('10-13 cm', '4-5"')] },
+          { label: 'Taapero', cells: [c('13-15 cm', '5-6"')] },
+          { label: 'Lapsi', cells: [c('15-18 cm', '6-7"')] },
+          { label: 'Nuori', cells: [c('18-20 cm', '7-8"')] },
+          { label: 'Naiset', cells: [c('18-20 cm', '7-8"')] },
+          { label: 'Miehet', cells: [c('20-23 cm', '8-9"')] },
+        ],
+      },
+    ],
+  },
+];
+
+const defaultPanel = 'naiset';
+
+const faqs = [
+  {
+    q: 'Valitaanko koko rinnanympäryksen vai valmiin vaatteen mukaan?',
+    a: 'Usein ensin katsotaan vartalon rinnanympärys ja sitten ohjeen väljyys. Valmiin neuleen mitta ei ole sama asia kuin kehon mitta.',
+  },
+  {
+    q: 'Mitä jos mitat osuvat kahden koon väliin?',
+    a: 'Katso neuleen malli. Väljässä paidassa isompi koko voi toimia, mutta istuvassa neuleessa olkapää, yläkäsivarsi ja lantio ratkaisevat paljon.',
+  },
+  {
+    q: 'Mitataanko vaatteiden päältä vai paljaalta iholta?',
+    a: 'Mittaa kevyen vaatteen päältä, esimerkiksi istuvan t-paidan tai ohuen aluskerroksen päältä. Paksu neule lisää senttejä, jotka eivät kuvaa vartalon todellista mittaa. Paljas iho voi taas antaa hieman pienemmän luvun kuin vaate käytännössä tarvitsee.',
+  },
+  {
+    q: 'Voiko taulukkoa käyttää lastenvaatteisiin suoraan?',
+    a: 'Taulukko antaa lähtökohdan. Lapsilla pituus, hartiat ja kasvuvara vaihtelevat paljon, joten valmisvaatteen mitat kannattaa tarkistaa ohjeen kaaviosta.',
+  },
+];
+---
+
+<FinnishToolPage
+  title="Neulekokotaulukot: vauvat, lapset ja aikuiset"
+  description="Vartalon mittataulukot neuleohjeiden koon valintaan vauvoista aikuisiin senttimetreinä ja tuumina."
+  canonicalPath={routes.tool.knittingSizeCharts.fi}
+  alternates={routes.tool.knittingSizeCharts}
+  intro="Käytä mittoja lähtökohtana, kun valitset neuleohjeesta kokoa tai tarkistat valmiin vaatteen väljyyttä. Valitse ensin ryhmä ja mittayksikkö."
+  schemaName="Neulekokotaulukot"
+  schemaDescription="Vartalon mittataulukot neuleohjeiden koon valintaan."
+  faqs={faqs}
+  variant="terracotta"
+>
+  <div slot="tool">
+    <div class="chart-controls">
+      <div class="tab-scroller">
+        <div class="tabs" role="tablist" aria-label="Kokoryhmä">
+          {panels.map((panel) => (
+            <button
+              type="button"
+              role="tab"
+              class={`tab-btn${panel.id === defaultPanel ? ' is-active' : ''}`}
+              data-tab={panel.id}
+              aria-selected={panel.id === defaultPanel ? 'true' : 'false'}
+              aria-controls={`panel-${panel.id}`}
+              id={`tab-${panel.id}`}
+            >
+              {panel.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div class="unit-toggle" role="radiogroup" aria-label="Mittayksikkö">
+        <button
+          type="button"
+          role="radio"
+          class="unit-btn is-active"
+          data-unit="cm"
+          aria-checked="true"
+        >CM</button>
+        <button
+          type="button"
+          role="radio"
+          class="unit-btn"
+          data-unit="inch"
+          aria-checked="false"
+        >Tuumat</button>
+      </div>
+    </div>
+
+    <div class="chart-wrap show-cm" id="fi-size-chart-wrap">
+      {panels.map((panel) => (
+        <div
+          class={`panel${panel.id === defaultPanel ? ' is-active' : ''}`}
+          data-panel={panel.id}
+          role="tabpanel"
+          id={`panel-${panel.id}`}
+          aria-labelledby={`tab-${panel.id}`}
+          hidden={panel.id !== defaultPanel}
+        >
+          {panel.intro && <p class="panel-intro">{panel.intro}</p>}
+          {panel.tables.map((table) => (
+            <div class="table-block">
+              {table.caption && <h3 class="table-caption">{table.caption}</h3>}
+              <div class="table-scroll">
+                <table class="size-table">
+                  <thead>
+                    <tr>
+                      <th class="sticky-col">{table.sizeHeader ?? 'Mitta'}</th>
+                      {table.sizes.map((size) => <th>{size}</th>)}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {table.rows.map((row) => (
+                      <tr>
+                        <th scope="row" class="sticky-col row-label">{row.label}</th>
+                        {row.cells.map((cell) => (
+                          <td>
+                            <span class="unit-cm">{cell.cm}</span>
+                            <span class="unit-inch">{cell.inch}</span>
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Mittaa keho, älä vanhaa vaatetta</h2>
+    <p>Neuleohjeen koko valitaan yleensä kehon mittojen ja suunnitellun väljyyden perusteella. Vanha lempipaita voi auttaa hahmottamaan tuntumaa, mutta se ei korvaa rinnanympäryksen, lantion ja hihan mittaamista.</p>
+
+    <h2>Vartalon mitta ja valmis mitta ovat eri asioita</h2>
+    <p>Jos rinnanympärys on 96 cm ja ohjeen valmis mitta on 106 cm, väljyys on 10 cm. Se voi olla juuri oikein rennossa villapaidassa ja liikaa istuvassa neuletakissa. Ohjeen kaavio kertoo, mihin suunnittelija on jättänyt tilaa.</p>
+
+    <h2>Valitse koko neuleen mallin mukaan</h2>
+    <p>Rinnanympärys ei ratkaise kaikkea. Pitkässä neuleessa lantio voi olla tärkein mitta. Istuvassa hihassa yläkäsivarsi voi ratkaista, vaikka rinnanympärys osuisi oikeaan kokoon. Tarkista muutama mitta ennen kuin päätät.</p>
+  </div>
+</FinnishToolPage>
+
+<script>
+  const tabButtons = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
+  const panels = document.querySelectorAll<HTMLElement>('.panel');
+
+  tabButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const target = button.dataset.tab;
+
+      tabButtons.forEach((tab) => {
+        const isActive = tab.dataset.tab === target;
+        tab.classList.toggle('is-active', isActive);
+        tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+
+      panels.forEach((panel) => {
+        const isActive = panel.dataset.panel === target;
+        panel.classList.toggle('is-active', isActive);
+        if (isActive) {
+          panel.removeAttribute('hidden');
+        } else {
+          panel.setAttribute('hidden', '');
+        }
+      });
+    });
+  });
+
+  const unitButtons = document.querySelectorAll<HTMLButtonElement>('.unit-btn');
+  const chartWrap = document.getElementById('fi-size-chart-wrap');
+
+  unitButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const unit = button.dataset.unit;
+      if (!unit || !chartWrap) return;
+
+      unitButtons.forEach((unitButton) => {
+        const isActive = unitButton.dataset.unit === unit;
+        unitButton.classList.toggle('is-active', isActive);
+        unitButton.setAttribute('aria-checked', isActive ? 'true' : 'false');
+      });
+
+      chartWrap.classList.toggle('show-cm', unit === 'cm');
+      chartWrap.classList.toggle('show-inch', unit === 'inch');
+    });
+  });
+</script>

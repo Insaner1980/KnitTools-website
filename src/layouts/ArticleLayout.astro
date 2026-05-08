@@ -1,7 +1,9 @@
 ---
 import PageLayout from './PageLayout.astro';
 import ClosingCTA from '../components/ClosingCTA.astro';
-import { CATEGORY_LABELS, type CategorySlug } from '../lib/categories';
+import { getCategoryLabel, type CategorySlug } from '../lib/categories';
+import { useTranslations } from '../i18n/ui';
+import type { Lang } from '../i18n/config';
 
 interface Props {
   title: string;
@@ -10,26 +12,32 @@ interface Props {
   publishDate: Date;
   updatedDate?: Date;
   tags: string[];
+  lang?: Lang;
+  canonicalPath?: string;
+  alternates?: Partial<Record<Lang, string>>;
 }
 
-const { title, description, category, publishDate, updatedDate } = Astro.props;
-const categoryLabel = CATEGORY_LABELS[category];
-const formattedUpdated = updatedDate?.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
-const formattedPublished = publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
-const dateLabel = formattedUpdated ? `Updated ${formattedUpdated}` : `Published ${formattedPublished}`;
+const { title, description, category, publishDate, updatedDate, lang = 'en', canonicalPath, alternates } = Astro.props;
+const t = useTranslations(lang);
+const categoryLabel = getCategoryLabel(category, lang);
+const dateLocale = lang === 'fi' ? 'fi-FI' : 'en-US';
+const formattedUpdated = updatedDate?.toLocaleDateString(dateLocale, { year: 'numeric', month: 'long' });
+const formattedPublished = publishDate.toLocaleDateString(dateLocale, { year: 'numeric', month: 'long' });
+const dateLabel = formattedUpdated ? `${t('updated')} ${formattedUpdated}` : `${t('published')} ${formattedPublished}`;
+const articlesPath = lang === 'fi' ? '/fi/artikkelit/' : '/articles/';
 ---
 
-<PageLayout title={title} description={description} canonicalPath={`/articles/${Astro.params.slug}/`} bodyClass="article">
+<PageLayout title={title} description={description} canonicalPath={canonicalPath ?? `/articles/${Astro.params.slug}/`} bodyClass="article" lang={lang} alternates={alternates}>
   <article class="article">
     <header class="article-header">
       <div class="article-header-inner">
         <p class="eyebrow">
-          <a href="/articles/" class="eyebrow-back">← All articles</a>
+          <a href={articlesPath} class="eyebrow-back">← {t('allArticles')}</a>
         </p>
         <p class="article-category">{categoryLabel}</p>
         <h1>{title}</h1>
         <p class="article-meta">
-          <span>By KnitTools</span>
+          <span>{t('byline')}</span>
           <span>{dateLabel}</span>
         </p>
       </div>
@@ -42,7 +50,7 @@ const dateLabel = formattedUpdated ? `Updated ${formattedUpdated}` : `Published 
     </div>
   </article>
 
-  <ClosingCTA variant="page" />
+  <ClosingCTA variant="page" lang={lang} />
 </PageLayout>
 
 <style>
