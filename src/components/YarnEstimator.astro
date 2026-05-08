@@ -1,70 +1,183 @@
-<div class="yarn-estimator">
+---
+interface Props {
+  lang?: 'en' | 'fi';
+}
+
+const { lang = 'en' } = Astro.props;
+const copy = lang === 'fi'
+  ? {
+      legend: 'Lankamuunnin',
+      projectType: 'Työn tyyppi',
+      adultGarments: 'AIKUISTEN VAATTEET',
+      childGarments: 'LASTEN VAATTEET',
+      babyGarments: 'VAUVAN VAATTEET',
+      hats: 'PÄÄHINEET',
+      hands: 'KÄDET',
+      feet: 'JALAT',
+      neck: 'KAULA JA HARTIAT',
+      blankets: 'PEITOT',
+      home: 'KOTI',
+      size: 'Koko',
+      yarnWeight: 'Lankavahvuus',
+      estimate: 'Arvioi',
+      error: 'Valitse kelvolliset vaihtoehdot.',
+      metersLabel: 'metriä',
+      yardsLabel: 'jaardia',
+      disclaimer: 'Arvio perustuu sileään neuleeseen. Palmikot, kirjoneule ja pintaneuleet vievät usein 15-20 % enemmän lankaa. Osta yleensä yksi kerä varalle.',
+      options: {
+        sweater: 'Neulepaita / pusero',
+        cardigan: 'Neuletakki',
+        vest: 'Liivi',
+        poncho: 'Poncho',
+        childSweater: 'Lapsen neulepaita',
+        childCardigan: 'Lapsen neuletakki',
+        babySweater: 'Vauvan neulepaita',
+        babyCardigan: 'Vauvan neuletakki',
+        babyBooties: 'Vauvan tossut',
+        adultHat: 'Aikuisen pipo',
+        childHat: 'Lapsen pipo',
+        babyHat: 'Vauvan pipo',
+        headband: 'Panta / korvanlämmitin',
+        adultMittens: 'Aikuisen lapaset',
+        childMittens: 'Lapsen lapaset',
+        adultGloves: 'Aikuisen sormikkaat',
+        fingerlessMitts: 'Kämmekkäät',
+        adultSocks: 'Aikuisen sukat',
+        childSocks: 'Lapsen sukat',
+        slippers: 'Tossut',
+        scarf: 'Huivi',
+        cowl: 'Tuubihuivi / kauluri',
+        shawl: 'Hartiahuivi',
+        wrap: 'Iso huivi / stole',
+        babyBlanket: 'Vauvanpeitto',
+        throwBlanket: 'Torkkupeitto',
+        lapBlanket: 'Sylissä pidettävä peitto',
+        afghan: 'Iso peitto',
+        dishcloth: 'Tiskirätti / pesulappu',
+        pillowCover: 'Tyynynpäällinen',
+      },
+    }
+  : {
+      legend: 'Yarn Estimator',
+      projectType: 'Project type',
+      adultGarments: 'ADULT GARMENTS',
+      childGarments: 'CHILD GARMENTS',
+      babyGarments: 'BABY GARMENTS',
+      hats: 'HATS',
+      hands: 'HANDS',
+      feet: 'FEET',
+      neck: 'NECK & SHOULDERS',
+      blankets: 'BLANKETS',
+      home: 'HOME',
+      size: 'Size',
+      yarnWeight: 'Yarn weight',
+      estimate: 'Estimate',
+      error: 'Please select valid options.',
+      metersLabel: 'meters',
+      yardsLabel: 'yards',
+      disclaimer: 'Estimate based on stockinette stitch. Cables, colorwork, and textured stitches use 15-20% more yarn. Always buy one extra skein.',
+      options: {
+        sweater: 'Sweater / Pullover',
+        cardigan: 'Cardigan',
+        vest: 'Vest',
+        poncho: 'Poncho',
+        childSweater: 'Child Sweater',
+        childCardigan: 'Child Cardigan',
+        babySweater: 'Baby Sweater',
+        babyCardigan: 'Baby Cardigan',
+        babyBooties: 'Baby Booties',
+        adultHat: 'Adult Hat / Beanie',
+        childHat: 'Child Hat',
+        babyHat: 'Baby Hat',
+        headband: 'Headband / Ear Warmer',
+        adultMittens: 'Adult Mittens',
+        childMittens: 'Child Mittens',
+        adultGloves: 'Adult Gloves',
+        fingerlessMitts: 'Fingerless Mitts',
+        adultSocks: 'Adult Socks',
+        childSocks: 'Child Socks',
+        slippers: 'Slippers',
+        scarf: 'Scarf',
+        cowl: 'Cowl / Snood',
+        shawl: 'Shawl',
+        wrap: 'Wrap / Stole',
+        babyBlanket: 'Baby Blanket',
+        throwBlanket: 'Throw Blanket',
+        lapBlanket: 'Lap Blanket',
+        afghan: 'Afghan / Bed Blanket',
+        dishcloth: 'Dishcloth / Washcloth',
+        pillowCover: 'Pillow Cover',
+      },
+    };
+---
+
+<div class="yarn-estimator" data-error={copy.error} data-meters-label={copy.metersLabel} data-yards-label={copy.yardsLabel} data-disclaimer={copy.disclaimer}>
   <fieldset>
-    <legend class="sr-only">Yarn Estimator</legend>
+    <legend class="sr-only">{copy.legend}</legend>
 
     <div class="form-group">
-      <label for="project-type">Project type</label>
+      <label for="project-type">{copy.projectType}</label>
       <select id="project-type">
-        <optgroup label="ADULT GARMENTS">
-          <option value="sweater">Sweater / Pullover</option>
-          <option value="cardigan">Cardigan</option>
-          <option value="vest">Vest</option>
+        <optgroup label={copy.adultGarments}>
+          <option value="sweater">{copy.options.sweater}</option>
+          <option value="cardigan">{copy.options.cardigan}</option>
+          <option value="vest">{copy.options.vest}</option>
           <option value="poncho">Poncho</option>
         </optgroup>
-        <optgroup label="CHILD GARMENTS">
-          <option value="child-sweater">Child Sweater</option>
-          <option value="child-cardigan">Child Cardigan</option>
+        <optgroup label={copy.childGarments}>
+          <option value="child-sweater">{copy.options.childSweater}</option>
+          <option value="child-cardigan">{copy.options.childCardigan}</option>
         </optgroup>
-        <optgroup label="BABY GARMENTS">
-          <option value="baby-sweater">Baby Sweater</option>
-          <option value="baby-cardigan">Baby Cardigan</option>
-          <option value="baby-booties">Baby Booties</option>
+        <optgroup label={copy.babyGarments}>
+          <option value="baby-sweater">{copy.options.babySweater}</option>
+          <option value="baby-cardigan">{copy.options.babyCardigan}</option>
+          <option value="baby-booties">{copy.options.babyBooties}</option>
         </optgroup>
-        <optgroup label="HATS">
-          <option value="adult-hat">Adult Hat / Beanie</option>
-          <option value="child-hat">Child Hat</option>
-          <option value="baby-hat">Baby Hat</option>
-          <option value="headband">Headband / Ear Warmer</option>
+        <optgroup label={copy.hats}>
+          <option value="adult-hat">{copy.options.adultHat}</option>
+          <option value="child-hat">{copy.options.childHat}</option>
+          <option value="baby-hat">{copy.options.babyHat}</option>
+          <option value="headband">{copy.options.headband}</option>
         </optgroup>
-        <optgroup label="HANDS">
-          <option value="adult-mittens">Adult Mittens</option>
-          <option value="child-mittens">Child Mittens</option>
-          <option value="adult-gloves">Adult Gloves</option>
-          <option value="fingerless-mitts">Fingerless Mitts</option>
+        <optgroup label={copy.hands}>
+          <option value="adult-mittens">{copy.options.adultMittens}</option>
+          <option value="child-mittens">{copy.options.childMittens}</option>
+          <option value="adult-gloves">{copy.options.adultGloves}</option>
+          <option value="fingerless-mitts">{copy.options.fingerlessMitts}</option>
         </optgroup>
-        <optgroup label="FEET">
-          <option value="adult-socks">Adult Socks</option>
-          <option value="child-socks">Child Socks</option>
-          <option value="slippers">Slippers</option>
+        <optgroup label={copy.feet}>
+          <option value="adult-socks">{copy.options.adultSocks}</option>
+          <option value="child-socks">{copy.options.childSocks}</option>
+          <option value="slippers">{copy.options.slippers}</option>
         </optgroup>
-        <optgroup label="NECK & SHOULDERS">
-          <option value="scarf">Scarf</option>
-          <option value="cowl">Cowl / Snood</option>
-          <option value="shawl">Shawl</option>
-          <option value="wrap">Wrap / Stole</option>
+        <optgroup label={copy.neck}>
+          <option value="scarf">{copy.options.scarf}</option>
+          <option value="cowl">{copy.options.cowl}</option>
+          <option value="shawl">{copy.options.shawl}</option>
+          <option value="wrap">{copy.options.wrap}</option>
         </optgroup>
-        <optgroup label="BLANKETS">
-          <option value="baby-blanket">Baby Blanket</option>
-          <option value="throw-blanket">Throw Blanket</option>
-          <option value="lap-blanket">Lap Blanket</option>
-          <option value="afghan">Afghan / Bed Blanket</option>
+        <optgroup label={copy.blankets}>
+          <option value="baby-blanket">{copy.options.babyBlanket}</option>
+          <option value="throw-blanket">{copy.options.throwBlanket}</option>
+          <option value="lap-blanket">{copy.options.lapBlanket}</option>
+          <option value="afghan">{copy.options.afghan}</option>
         </optgroup>
-        <optgroup label="HOME">
-          <option value="dishcloth">Dishcloth / Washcloth</option>
-          <option value="pillow-cover">Pillow Cover</option>
+        <optgroup label={copy.home}>
+          <option value="dishcloth">{copy.options.dishcloth}</option>
+          <option value="pillow-cover">{copy.options.pillowCover}</option>
         </optgroup>
       </select>
     </div>
 
     <div class="form-group">
-      <label for="project-size">Size</label>
+      <label for="project-size">{copy.size}</label>
       <select id="project-size">
         <option value="M">M</option>
       </select>
     </div>
 
     <div class="form-group">
-      <label for="yarn-weight">Yarn weight</label>
+      <label for="yarn-weight">{copy.yarnWeight}</label>
       <select id="yarn-weight">
         <option value="lace">Lace</option>
         <option value="fingering">Fingering</option>
@@ -78,7 +191,7 @@
       </select>
     </div>
 
-    <button type="button" class="btn-primary estimate-btn">Estimate</button>
+    <button type="button" class="btn-primary estimate-btn">{copy.estimate}</button>
 
     <div class="result-area" aria-live="polite">
       <div class="result-wrapper">
@@ -172,7 +285,7 @@
           const errorSpan = document.createElement('span');
           errorSpan.className = 'form-error';
           errorSpan.setAttribute('role', 'alert');
-          errorSpan.textContent = 'Please select valid options.';
+          errorSpan.textContent = est.getAttribute('data-error') || '';
           resultEl.appendChild(errorSpan);
           resultArea.classList.add('is-open');
           return;
@@ -190,13 +303,15 @@
         numberEl.textContent = '0';
         const labelEl = document.createElement('span');
         labelEl.className = 'result-label';
-        labelEl.textContent = `meters (~${yards} yards)`;
+        const metersLabel = est.getAttribute('data-meters-label') || '';
+        const yardsLabel = est.getAttribute('data-yards-label') || '';
+        labelEl.textContent = `${metersLabel} (~${yards} ${yardsLabel})`;
         wrapper.appendChild(numberEl);
         wrapper.appendChild(labelEl);
 
         const disclaimer = document.createElement('div');
         disclaimer.className = 'result-disclaimer';
-        disclaimer.textContent = 'Estimate based on stockinette stitch. Cables, colorwork, and textured stitches use 15–20% more yarn. Always buy one extra skein.';
+        disclaimer.textContent = est.getAttribute('data-disclaimer') || '';
         wrapper.appendChild(disclaimer);
 
         resultEl.appendChild(wrapper);

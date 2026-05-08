@@ -4,12 +4,14 @@ import CastOnCalculator from '../../components/CastOnCalculator.astro';
 import { PRICING } from '../../config/pricing';
 import RegionalPrice from '../../components/RegionalPrice.astro';
 import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
+import { routes } from '../../i18n/routes';
 ---
 
 <PageLayout
   title="Cast On Calculator for Knitting Patterns"
   description="Calculate how many stitches to cast on for any width. Enter your gauge and target measurement for an instant count. Works for sweaters, scarves & blankets."
   canonicalPath="/tools/cast-on-calculator/"
+  alternates={routes.tool.castOnCalculator}
   showStripe={false}
 >
   <!-- 1. Tool hero -->

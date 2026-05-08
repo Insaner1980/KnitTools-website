@@ -1,0 +1,56 @@
+---
+import FinnishToolPage from '../../../components/FinnishToolPage.astro';
+import CastOnCalculator from '../../../components/CastOnCalculator.astro';
+import { routes } from '../../../i18n/routes';
+
+const faqs = [
+  {
+    q: 'Pitääkö mallitilkku oikeasti neuloa?',
+    a: 'Kyllä, jos työn koolla on väliä. Mallitilkku kertoo oman neuletiheytesi sillä langalla, puikolla ja neulepinnalla, jota aiot käyttää.',
+  },
+  {
+    q: 'Lasketaanko reunasilmukat mukaan neuletiheyteen?',
+    a: 'Ei yleensä. Mittaa mallitilkun keskeltä, ei heti luomisreunasta tai sivureunasta. Reunat ovat helposti muuta neuletta tiukempia tai löysempiä.',
+  },
+  {
+    q: 'Miksi laskuri pyöristää parilliseen silmukkamäärään?',
+    a: 'Moni joustin, palmikko ja kirjoneule toimii siistimmin parillisella silmukkamäärällä. Jos ohje vaatii tietyn silmukkajaon, säädä lopuksi lähimpään sopivaan jakoon.',
+  },
+  {
+    q: 'Mitä jos ohje vaatii tietyn silmukkajaon?',
+    a: 'Lisää tai vähennä muutama silmukka, jotta pääset ohjeen vaatimaan jakoon. Jos kuvio toistuu esimerkiksi neljällä silmukalla ja laskuri antaa 46, säädä määrä 44:ään tai 48:aan.',
+  },
+  {
+    q: 'Voiko tätä käyttää suljettuun neuleeseen?',
+    a: 'Voi. Syötä haluttu ympärysmitta leveydeksi. Lasku on sama, mutta suljetussa neuleessa jaot, merkit ja mahdollinen joustin kannattaa tarkistaa erikseen.',
+  },
+];
+---
+
+<FinnishToolPage
+  title="Silmukkalaskuri neuletiheydellä"
+  description="Laske, montako silmukkaa pitää luoda haluttuun leveyteen oman neuletiheyden perusteella. Sopii paitoihin, huiveihin ja peittoihin."
+  canonicalPath={routes.tool.castOnCalculator.fi}
+  alternates={routes.tool.castOnCalculator}
+  intro="Syötä neuletiheys ja haluttu leveys. Laskuri kertoo, montako silmukkaa kannattaa luoda."
+  schemaName="Silmukkalaskuri"
+  schemaDescription="Laskee luotavien silmukoiden määrän neuletiheyden ja halutun leveyden perusteella."
+  faqs={faqs}
+>
+  <div slot="tool">
+    <CastOnCalculator lang="fi" />
+  </div>
+
+  <div slot="content">
+    <h2>Mitä silmukoiden luominen tarkoittaa?</h2>
+    <p>Silmukoiden luominen on neuleen ensimmäinen rivi. Siinä tehdään puikolle ne silmukat, joista työ lähtee kasvamaan. Määrä ratkaisee leveyden. Liian vähän silmukoita, ja kappaleesta tulee kapea. Liian paljon, ja työ alkaa väärässä koossa jo ennen ensimmäistä varsinaista kerrosta.</p>
+
+    <h2>Miksi neuletiheys ratkaisee</h2>
+    <p>Sama lanka ja sama puikkokoko eivät tuota kaikille samaa neulepintaa. Yksi neuloo tiukasti, toinen rennommin. Siksi ohjeen neuletiheys on lähtökohta, ei lupaus. Neulo mallitilkku, kastele tai viimeistele se samalla tavalla kuin valmis työ, ja mittaa silmukat 10 cm matkalta keskeltä tilkkua.</p>
+
+    <h2>Näin käytät laskuria</h2>
+    <p>Tarvitset kaksi lukua: neuletiheyden eli montako silmukkaa saat 10 cm tai 4 tuuman matkalle, sekä halutun leveyden. Jos neulot esimerkiksi 20 silmukkaa / 10 cm ja tarvitset 50 cm leveän kappaleen, lasku antaa 100 silmukkaa. Sen jälkeen tarkistetaan vielä ohjeen silmukkajako.</p>
+
+    <p>Jos reunaan tulee joustinneule, palmikko tai pitsikuvio, lopullinen silmukkamäärä voi vaatia pienen säädön. Laskuri antaa järkevän lähtöpisteen. Ohjeen toisto kertoo viimeisen sanan.</p>
+  </div>
+</FinnishToolPage>

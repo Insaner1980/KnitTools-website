@@ -1,0 +1,239 @@
+---
+interface WpiCategory {
+  cyc: number;
+  name: string;
+  regional: string;
+  min: number;
+  max: number;
+}
+
+interface Copy {
+  heading: string;
+  intro: string;
+  placeholder: string;
+  prompt: string;
+  invalid: string;
+  between: string;
+  swatch: string;
+  suggests: string;
+  matches: string;
+  or: string;
+  fallback: string;
+}
+
+interface Props {
+  lang?: 'en' | 'fi';
+}
+
+const { lang = 'en' } = Astro.props;
+
+const copy: Copy = lang === 'fi'
+  ? {
+      heading: 'Etkö tiedä lankavahvuutta? Kokeile WPI:tä',
+      intro: 'Kierrä lanka kynän tai viivaimen ympärille, laske montako kierrosta mahtuu yhden tuuman matkalle ja syötä luku.',
+      placeholder: 'esim. 10',
+      prompt: 'Syötä WPI-arvo väliltä 1-40',
+      invalid: 'Syötä WPI-arvo väliltä 1-40',
+      between: 'osuu vakioluokkien väliin. Varmista mallitilkulla.',
+      swatch: 'Mallitilkku ratkaisee.',
+      suggests: 'viittaa vahvuuteen',
+      matches: 'osuu luokkiin',
+      or: 'tai',
+      fallback: 'JavaScript ei ole käytössä. Valitse yllä oleva kategoria, jonka WPI-väliin laskemasi arvo osuu.',
+    }
+  : {
+      heading: "Don't know your weight? Try WPI",
+      intro: 'Wrap your yarn around a pencil or ruler, count how many wraps fit in one inch, then enter that number.',
+      placeholder: 'e.g. 10',
+      prompt: 'Enter a WPI value between 1 and 40',
+      invalid: 'Enter a WPI value between 1 and 40',
+      between: 'sits between standard categories. Swatch to confirm.',
+      swatch: 'Your gauge swatch decides.',
+      suggests: 'suggests',
+      matches: 'matches',
+      or: 'or',
+      fallback: 'JavaScript is disabled. Scroll up and pick the category whose WPI range contains your count.',
+    };
+
+const categories: WpiCategory[] = lang === 'fi'
+  ? [
+      { cyc: 0, name: 'Lace', regional: 'Cobweb/Lace', min: 30, max: 40 },
+      { cyc: 1, name: 'Super Fine', regional: 'Sock/Fingering', min: 14, max: 30 },
+      { cyc: 2, name: 'Fine', regional: 'Sport', min: 12, max: 18 },
+      { cyc: 3, name: 'Light', regional: 'DK/8-ply', min: 11, max: 15 },
+      { cyc: 4, name: 'Medium', regional: 'Worsted/Aran', min: 9, max: 12 },
+      { cyc: 5, name: 'Bulky', regional: 'Chunky', min: 6, max: 9 },
+      { cyc: 6, name: 'Super Bulky', regional: 'Super Chunky', min: 5, max: 6 },
+      { cyc: 7, name: 'Jumbo', regional: 'Jumbo', min: 1, max: 4 },
+    ]
+  : [
+      { cyc: 0, name: 'Lace', regional: 'Cobweb/Lace', min: 30, max: 40 },
+      { cyc: 1, name: 'Super Fine', regional: 'Sock/Fingering', min: 14, max: 30 },
+      { cyc: 2, name: 'Fine', regional: 'Sport', min: 12, max: 18 },
+      { cyc: 3, name: 'Light', regional: 'DK/8-ply', min: 11, max: 15 },
+      { cyc: 4, name: 'Medium', regional: 'Worsted/Aran', min: 9, max: 12 },
+      { cyc: 5, name: 'Bulky', regional: 'Chunky', min: 6, max: 9 },
+      { cyc: 6, name: 'Super Bulky', regional: 'Super Chunky', min: 5, max: 6 },
+      { cyc: 7, name: 'Jumbo', regional: 'Jumbo', min: 1, max: 4 },
+    ];
+---
+
+<div class="wpi-tool gs-form" data-wpi-tool>
+  <h2 class="wpi-heading">{copy.heading}</h2>
+  <p class="wpi-intro">{copy.intro}</p>
+  <div class="wpi-input-wrap">
+    <input
+      type="number"
+      class="wpi-input"
+      placeholder={copy.placeholder}
+      min="1"
+      max="40"
+      step="1"
+      inputmode="numeric"
+      autocomplete="off"
+      data-wpi-input
+    />
+  </div>
+  <p class="wpi-result" aria-live="polite" data-wpi-result>{copy.prompt}</p>
+  <noscript>
+    <p class="wpi-fallback">{copy.fallback}</p>
+  </noscript>
+</div>
+
+<script
+  is:inline
+  define:vars={{
+    wpiCategories: categories,
+    wpiCopy: copy,
+  }}
+>
+  (() => {
+    const tool = document.currentScript?.previousElementSibling;
+    if (!tool || !tool.matches('[data-wpi-tool]')) return;
+
+    const input = tool.querySelector('[data-wpi-input]');
+    const result = tool.querySelector('[data-wpi-result]');
+    if (!input || !result) return;
+
+    const joinParts = (parts) => {
+      if (parts.length === 1) return parts[0];
+      if (parts.length === 2) return `${parts[0]} ${wpiCopy.or} ${parts[1]}`;
+      return `${parts.slice(0, -1).join(', ')} ${wpiCopy.or} ${parts[parts.length - 1]}`;
+    };
+
+    const formatMatches = (matches) => {
+      if (matches.length === 1) {
+        const match = matches[0];
+        return `${wpiCopy.suggests} ${match.name} (CYC ${match.cyc}), ${match.regional}`;
+      }
+
+      const parts = matches.map((match) => `${match.name} (CYC ${match.cyc})`);
+      return `${wpiCopy.matches} ${joinParts(parts)}. ${wpiCopy.swatch}`;
+    };
+
+    input.addEventListener('input', () => {
+      const raw = input.value.trim();
+      if (raw === '') {
+        result.textContent = wpiCopy.prompt;
+        return;
+      }
+
+      const value = Number(raw);
+      if (!Number.isFinite(value) || value < 1 || value > 40) {
+        result.textContent = wpiCopy.invalid;
+        return;
+      }
+
+      const matches = wpiCategories.filter((category) => value >= category.min && value <= category.max);
+      result.textContent = matches.length === 0
+        ? `${value} WPI ${wpiCopy.between}`
+        : `${value} WPI ${formatMatches(matches)}`;
+    });
+  })();
+</script>
+
+<style>
+  .wpi-tool {
+    margin-top: 8px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(244, 234, 217, 0.2);
+  }
+
+  .wpi-heading {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin: 0 0 10px;
+    text-transform: none;
+  }
+
+  .wpi-intro {
+    font-family: var(--body-ed);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ink);
+    line-height: 1.55;
+    margin: 0 0 18px;
+    max-width: 560px;
+  }
+
+  .wpi-input-wrap {
+    max-width: 220px;
+  }
+
+  .wpi-input {
+    width: 100%;
+    height: 52px;
+    padding: 0 18px;
+    font-size: 16px;
+    font-family: var(--body-ed);
+    background-color: var(--paper-2);
+    border: 1.5px solid var(--ink);
+    color: var(--ink);
+    outline: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    transition: border-color 300ms ease, box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  .wpi-input::placeholder {
+    color: var(--ink-soft);
+  }
+
+  .wpi-input:focus {
+    border-color: var(--terracotta);
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
+  }
+
+  .wpi-input::-webkit-outer-spin-button,
+  .wpi-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .wpi-input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  .wpi-result {
+    font-family: var(--body-ed);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ink);
+    margin: 16px 0 0;
+    line-height: 1.5;
+    min-height: 1.5em;
+  }
+
+  .wpi-fallback {
+    font-family: var(--body-ed);
+    font-size: 14px;
+    color: var(--terracotta);
+    margin: 12px 0 0;
+  }
+</style>

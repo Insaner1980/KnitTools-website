@@ -1,0 +1,249 @@
+---
+import FinnishToolPage from '../../../components/FinnishToolPage.astro';
+import { routes } from '../../../i18n/routes';
+
+type Category =
+  | 'cast-on-bind-off'
+  | 'increases'
+  | 'decreases'
+  | 'cables'
+  | 'lace'
+  | 'general'
+  | 'stitch-patterns';
+
+interface Abbreviation {
+  abbr: string;
+  def: string;
+  search: string;
+  categories: Category[];
+}
+
+const categoryLabels: Record<Category, string> = {
+  'cast-on-bind-off': 'Luominen / päättely',
+  increases: 'Lisäykset',
+  decreases: 'Kavennukset',
+  cables: 'Palmikot',
+  lace: 'Pitsi',
+  general: 'Yleiset',
+  'stitch-patterns': 'Mallineuleet',
+};
+
+const abbreviations: Abbreviation[] = [
+  { abbr: 'CO', def: 'luo silmukat (cast on)', search: 'cast on luo silmukat silmukoiden luominen', categories: ['cast-on-bind-off'] },
+  { abbr: 'BO', def: 'päättele (bind off US / cast off UK)', search: 'bind off cast off päättele päättely', categories: ['cast-on-bind-off'] },
+
+  { abbr: 'k', def: 'neulo oikein (knit)', search: 'knit oikein neulo oikein', categories: ['general'] },
+  { abbr: 'p', def: 'neulo nurin (purl)', search: 'purl nurin neulo nurin', categories: ['general'] },
+  { abbr: 'st(s)', def: 'silmukka / silmukat (stitch/es)', search: 'stitch stitches silmukka silmukat', categories: ['general'] },
+  { abbr: 'RS', def: 'työn oikea puoli (right side)', search: 'right side oikea puoli', categories: ['general'] },
+  { abbr: 'WS', def: 'työn nurja puoli (wrong side)', search: 'wrong side nurja puoli', categories: ['general'] },
+  { abbr: 'rep', def: 'toista (repeat)', search: 'repeat toista toisto', categories: ['general'] },
+  { abbr: 'beg', def: 'alku (beginning)', search: 'beginning alku alussa', categories: ['general'] },
+  { abbr: 'rem', def: 'jäljellä olevat (remaining)', search: 'remaining jäljellä jäljellä olevat', categories: ['general'] },
+  { abbr: 'cont', def: 'jatka (continue)', search: 'continue jatka', categories: ['general'] },
+  { abbr: 'alt', def: 'vuorottele / vaihtoehtoinen (alternate)', search: 'alternate vuorottele vaihtoehtoinen', categories: ['general'] },
+  { abbr: 'approx', def: 'noin (approximately)', search: 'approximately noin suunnilleen', categories: ['general'] },
+  { abbr: 'tbl', def: 'takareunasta (through back loop)', search: 'through back loop takareuna takareunasta', categories: ['general'] },
+  { abbr: 'wyif', def: 'lanka työn edessä (with yarn in front)', search: 'with yarn in front lanka edessä', categories: ['general'] },
+  { abbr: 'wyib', def: 'lanka työn takana (with yarn in back)', search: 'with yarn in back lanka takana', categories: ['general'] },
+  { abbr: 'sl', def: 'nosta silmukka (slip)', search: 'slip nosta silmukka', categories: ['general'] },
+  { abbr: 'sl st', def: 'nostettu silmukka (slip stitch)', search: 'slip stitch nostettu silmukka', categories: ['general'] },
+  { abbr: 'pm', def: 'aseta silmukkamerkki (place marker)', search: 'place marker aseta silmukkamerkki merkki', categories: ['general'] },
+  { abbr: 'sm', def: 'siirrä silmukkamerkki (slip marker)', search: 'slip marker siirrä silmukkamerkki merkki', categories: ['general'] },
+  { abbr: 'MC', def: 'pääväri (main color)', search: 'main color pääväri', categories: ['general'] },
+  { abbr: 'CC', def: 'kontrastiväri (contrast color)', search: 'contrast color kontrastiväri', categories: ['general'] },
+  { abbr: 'dpn(s)', def: 'sukkapuikko / sukkapuikot (double-pointed needle/s)', search: 'double pointed needles sukkapuikot sukkapuikko dpns', categories: ['general'] },
+  { abbr: 'cn', def: 'palmikkopuikko (cable needle)', search: 'cable needle palmikkopuikko', categories: ['general'] },
+  { abbr: 'rnd(s)', def: 'kerros suljetussa neuleessa (round/s)', search: 'round rounds kerros suljettu neule', categories: ['general'] },
+
+  { abbr: 'M1', def: 'lisää yksi silmukka (make one)', search: 'make one lisää yksi silmukka lisäys', categories: ['increases'] },
+  { abbr: 'M1L', def: 'lisää yksi vasemmalle kallistuen (make one left)', search: 'make one left lisää vasemmalle kallistuva lisäys', categories: ['increases'] },
+  { abbr: 'M1R', def: 'lisää yksi oikealle kallistuen (make one right)', search: 'make one right lisää oikealle kallistuva lisäys', categories: ['increases'] },
+  { abbr: 'kfb', def: 'neulo etu- ja takareunasta (knit front and back)', search: 'knit front and back etureuna takareuna lisäys', categories: ['increases'] },
+  { abbr: 'pfb', def: 'neulo nurin etu- ja takareunasta (purl front and back)', search: 'purl front and back nurin etureuna takareuna lisäys', categories: ['increases'] },
+  { abbr: 'yo', def: 'langankierto (yarn over)', search: 'yarn over langankierto pitsi lisäys', categories: ['increases', 'lace'] },
+  { abbr: 'inc', def: 'lisää / lisäys (increase)', search: 'increase lisää lisäys', categories: ['increases'] },
+
+  { abbr: 'k2tog', def: 'neulo 2 oikein yhteen, oikealle kallistuva kavennus', search: 'knit two together neulo kaksi oikein yhteen oikealle kallistuva kavennus', categories: ['decreases', 'lace'] },
+  { abbr: 'p2tog', def: 'neulo 2 nurin yhteen (purl two together)', search: 'purl two together neulo kaksi nurin yhteen kavennus', categories: ['decreases'] },
+  { abbr: 'ssk', def: 'vasemmalle kallistuva kavennus (slip, slip, knit)', search: 'slip slip knit vasemmalle kallistuva kavennus', categories: ['decreases', 'lace'] },
+  { abbr: 'skp', def: 'nosta, neulo, vedä nostettu yli', search: 'slip knit pass slipped stitch over nosta neulo vedä nostettu yli kavennus', categories: ['decreases'] },
+  { abbr: 'sk2p', def: 'nosta 1, neulo 2 oikein yhteen, vedä nostettu yli', search: 'slip one knit two together pass slipped stitch over keskitetty kavennus', categories: ['decreases', 'lace'] },
+  { abbr: 's2kp', def: 'nosta 2, neulo 1, vedä nostetut yli', search: 'slip two knit one pass two slipped stitches over keskitetty kaksoiskavennus', categories: ['decreases'] },
+  { abbr: 'CDD', def: 'keskitetty kaksoiskavennus (centered double decrease)', search: 'centered double decrease keskitetty kaksoiskavennus kavennus', categories: ['decreases'] },
+  { abbr: 'psso', def: 'vedä nostettu silmukka yli (pass slipped stitch over)', search: 'pass slipped stitch over vedä nostettu silmukka yli kavennus', categories: ['decreases'] },
+  { abbr: 'dec', def: 'kavenna / kavennus (decrease)', search: 'decrease kavenna kavennus', categories: ['decreases'] },
+
+  { abbr: 'C4F', def: '4 silmukan palmikko eteen (cable 4 front)', search: 'cable four front palmikko eteen', categories: ['cables'] },
+  { abbr: 'C4B', def: '4 silmukan palmikko taakse (cable 4 back)', search: 'cable four back palmikko taakse', categories: ['cables'] },
+  { abbr: 'C6F', def: '6 silmukan palmikko eteen (cable 6 front)', search: 'cable six front palmikko eteen', categories: ['cables'] },
+  { abbr: 'C6B', def: '6 silmukan palmikko taakse (cable 6 back)', search: 'cable six back palmikko taakse', categories: ['cables'] },
+  { abbr: 'T2F', def: '2 silmukan kierto eteen (twist 2 front)', search: 'twist two front kierto eteen palmikko', categories: ['cables'] },
+  { abbr: 'T2B', def: '2 silmukan kierto taakse (twist 2 back)', search: 'twist two back kierto taakse palmikko', categories: ['cables'] },
+
+  { abbr: 'St st', def: 'sileä neule (stockinette / stocking stitch)', search: 'stockinette stocking stitch sileä neule', categories: ['stitch-patterns'] },
+  { abbr: 'g st', def: 'ainaoikeinneule (garter stitch)', search: 'garter stitch ainaoikein ainaoikeinneule', categories: ['stitch-patterns'] },
+  { abbr: 'rev St st', def: 'nurja sileä neule (reverse stockinette)', search: 'reverse stockinette nurja sileä neule', categories: ['stitch-patterns'] },
+  { abbr: 'rib', def: 'joustinneule (ribbing)', search: 'ribbing joustin joustinneule', categories: ['stitch-patterns'] },
+  { abbr: 'moss st', def: 'moss stitch, tarkista ohjeen määritelmä', search: 'moss stitch moss neule mallineule', categories: ['stitch-patterns'] },
+  { abbr: 'seed st', def: 'seed stitch, tarkista ohjeen määritelmä', search: 'seed stitch seed neule mallineule', categories: ['stitch-patterns'] },
+  { abbr: 'MB', def: 'tee nyppy / bobble ohjeen mukaan (make bobble)', search: 'make bobble nyppy bobble mallineule', categories: ['stitch-patterns'] },
+];
+
+const filterOrder: Array<Category | 'all'> = [
+  'all',
+  'cast-on-bind-off',
+  'increases',
+  'decreases',
+  'cables',
+  'lace',
+  'general',
+  'stitch-patterns',
+];
+
+const faqs = [
+  {
+    q: 'Ovatko englannin ja suomen lyhenteet samoja?',
+    a: 'Eivät yleensä. Suomenkielisissä ohjeissa käytetään usein o, n, krs ja s -tyyppisiä lyhenteitä. Englanninkielisissä ohjeissa vastaan tulevat k, p, yo, ssk ja muut kansainväliset lyhenteet.',
+  },
+  {
+    q: 'Mitä tähti tarkoittaa neuleohjeessa?',
+    a: 'Tähti merkitsee yleensä toistoa. Kaikki tähdestä seuraavaan toisto-ohjeeseen, kuten "toista *-kohdasta", neulotaan uudelleen kerroksen tai jakson yli. Sulkeet ja hakasulkeet ryhmittelevät samalla tavalla ohjeen osia, jotka tehdään useamman kerran.',
+  },
+  {
+    q: 'Mitä jos ohje käyttää omaa lyhennettä?',
+    a: 'Tarkista aina ohjeen oma lyhenneluettelo. Suunnittelija voi määritellä saman lyhenteen hieman eri tavalla, etenkin erikoissilmukoissa.',
+  },
+  {
+    q: 'Mitä eroa on lyhenteillä ssk ja skp?',
+    a: 'Molemmat ovat vasemmalle kallistuvia kavennuksia ja näyttävät valmiissa neuleessa hyvin samanlaisilta. ssk on nykyohjeissa yleisempi, skp tulee vastaan useammin vanhemmissa ohjeissa. Tee se kavennus, jonka ohje pyytää.',
+  },
+  {
+    q: 'Kannattaako lyhenteet opetella ulkoa?',
+    a: 'Peruslyhenteet jäävät nopeasti mieleen, mutta kaikkea ei tarvitse muistaa. Hyvä sanasto on parempi kuin väärin arvattu kavennus.',
+  },
+];
+---
+
+<FinnishToolPage
+  title="Neulelyhenteet: haettava sanasto"
+  description="Neuleohjeiden lyhenteet suomeksi: hae englanninkielinen lyhenne ja tarkista, mitä se tarkoittaa käytännössä."
+  canonicalPath={routes.tool.knittingAbbreviations.fi}
+  alternates={routes.tool.knittingAbbreviations}
+  intro="Hae lyhenne tai tekniikka. Sanasto auttaa lukemaan englanninkielisiä neuleohjeita suomeksi."
+  schemaName="Neulelyhenteet"
+  schemaDescription="Haettava neuleohjeiden lyhennesanasto englanninkielisille ja suomenkielisille termeille."
+  faqs={faqs}
+  variant="brown"
+>
+  <div slot="tool">
+    <div class="abbr-wrapper">
+      <input
+        type="text"
+        id="abbr-search"
+        class="search-input"
+        placeholder='Hae lyhennettä tai tekniikkaa, esim. "ssk" tai "kavennus"'
+        autocomplete="off"
+      />
+
+      <div class="category-filters" role="group" aria-label="Suodata kategorian mukaan">
+        {filterOrder.map((cat, index) => (
+          <button
+            type="button"
+            class={`cat-btn${index === 0 ? ' is-active' : ''}`}
+            data-cat={cat}
+            aria-pressed={index === 0 ? 'true' : 'false'}
+          >
+            {cat === 'all' ? 'Kaikki' : categoryLabels[cat as Category]}
+          </button>
+        ))}
+      </div>
+
+      <ul class="abbr-list" id="abbr-list" aria-label="Neulelyhenteet suomeksi">
+        {abbreviations.map((item) => (
+          <li
+            class="abbr-row"
+            data-abbr={item.abbr.toLowerCase()}
+            data-def={item.def.toLowerCase()}
+            data-search={item.search.toLowerCase()}
+            data-cats={item.categories.join(' ')}
+            data-catlabels={item.categories.map((cat) => categoryLabels[cat].toLowerCase()).join(' ')}
+          >
+            <span class="abbr-term">{item.abbr}</span>
+            <span class="abbr-def">{item.def}</span>
+          </li>
+        ))}
+      </ul>
+
+      <p class="no-results" id="no-results" hidden>Hakua vastaavia lyhenteitä ei löytynyt.</p>
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Lyhenne pitää lukea ohjeen yhteydessä</h2>
+    <p>Sama lyhenne voi olla helppo, mutta kohta ohjeessa ratkaisee. K2tog ei ole vain kaksi silmukkaa yhteen, vaan oikealle kallistuva kavennus. Jos työn symmetria näkyy valmiissa neuleessa, kallistussuunnalla on väliä.</p>
+
+    <h2>US- ja UK-ohjeissa on eroja</h2>
+    <p>Englanninkielinen ohje ei aina tarkoita amerikkalaista ohjetta. UK-termeissä voi tulla vastaan cast off siinä missä US-ohjeessa lukee bind off. Puikkokoot ja lankavahvuuksien nimet voivat myös vaihtua alueen mukaan.</p>
+
+    <h2>Ohjekohtaiset lyhenteet</h2>
+    <p>Kaikkia lyhenteitä ei löydy yleisestä sanastosta. Pitsi- ja palmikko-ohjeissa suunnittelija voi keksiä tiiviin merkinnän tekniikalle, joka koskee vain kyseistä mallia. Siksi ohjeen alun lyhenneluettelo, stitch definitions -osio ja kaavion merkkiselite ovat ensisijaisia lähteitä.</p>
+
+    <h2>Merkkikaavioissa symboli on oma kielensä</h2>
+    <p>Kaavio ei aina käytä samaa lyhennettä kuin tekstiohje. Tarkista kaavion symboliavain ennen kuin aloitat. Pieni piste, viiva tai kallistuva merkki voi tarkoittaa täysin eri silmukkaa.</p>
+
+    <h2>Muutama lyhenne kannattaa oppia alussa</h2>
+    <p>Alussa tärkeimmät ovat k, p, st(s), RS, WS, rep, yo, k2tog ja ssk. Niillä pääsee pitkälle perusohjeissa. Kun vastaan tulee palmikoita, pitsiä tai muotoiluja, sanastoa voi täydentää tarpeen mukaan.</p>
+  </div>
+</FinnishToolPage>
+
+<script>
+  const searchInput = document.getElementById('abbr-search') as HTMLInputElement | null;
+  const list = document.getElementById('abbr-list');
+  const noResults = document.getElementById('no-results');
+  const catButtons = document.querySelectorAll<HTMLButtonElement>('.cat-btn');
+
+  let activeCategory = 'all';
+
+  function applyFilters() {
+    if (!list || !noResults) return;
+    const rows = list.querySelectorAll<HTMLElement>('.abbr-row');
+    const query = (searchInput?.value || '').trim().toLowerCase();
+    let visibleCount = 0;
+
+    rows.forEach((row) => {
+      const cats = (row.dataset.cats || '').split(' ');
+      const haystack = [
+        row.dataset.abbr,
+        row.dataset.def,
+        row.dataset.search,
+        row.dataset.catlabels,
+      ].join(' ');
+
+      const matchesCategory = activeCategory === 'all' || cats.includes(activeCategory);
+      const matchesSearch = !query || haystack.includes(query);
+      const visible = matchesCategory && matchesSearch;
+
+      row.style.display = visible ? '' : 'none';
+      if (visible) visibleCount++;
+    });
+
+    noResults.hidden = visibleCount > 0;
+  }
+
+  searchInput?.addEventListener('input', applyFilters);
+
+  catButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      catButtons.forEach((item) => {
+        item.classList.remove('is-active');
+        item.setAttribute('aria-pressed', 'false');
+      });
+
+      button.classList.add('is-active');
+      button.setAttribute('aria-pressed', 'true');
+      activeCategory = button.dataset.cat || 'all';
+      applyFilters();
+    });
+  });
+</script>

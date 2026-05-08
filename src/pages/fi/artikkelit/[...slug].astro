@@ -1,12 +1,12 @@
 ---
 import { getCollection, render } from 'astro:content';
-import ArticleLayout from '../../layouts/ArticleLayout.astro';
-import { getArticleAlternates, getArticlePath, getArticleSlug, isEnglishArticle } from '../../i18n/articles';
+import ArticleLayout from '../../../layouts/ArticleLayout.astro';
+import { getArticleAlternates, getArticlePath, getFinnishArticleRouteSlug, isFinnishArticle, type TranslationKey } from '../../../i18n/articles';
 
 export async function getStaticPaths() {
-  const articles = await getCollection('articles', isEnglishArticle);
-  return articles.map(article => ({
-    params: { slug: getArticleSlug(article.id) },
+  const articles = await getCollection('articles', isFinnishArticle);
+  return articles.map((article) => ({
+    params: { slug: getFinnishArticleRouteSlug(article.data.translationKey as TranslationKey) },
     props: { article },
   }));
 }
@@ -22,8 +22,8 @@ const { Content } = await render(article);
   publishDate={article.data.publishDate}
   updatedDate={article.data.updatedDate}
   tags={article.data.tags}
-  lang="en"
-  canonicalPath={getArticlePath(article, 'en')}
+  lang="fi"
+  canonicalPath={getArticlePath(article, 'fi')}
   alternates={getArticleAlternates(article)}
 >
   <Content />

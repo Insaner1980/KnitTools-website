@@ -1,0 +1,64 @@
+---
+import FinnishToolPage from '../../../components/FinnishToolPage.astro';
+import YarnEstimator from '../../../components/YarnEstimator.astro';
+import { routes } from '../../../i18n/routes';
+
+const faqs = [
+  {
+    q: 'Mistä tiedän, paljonko lankaa ohje tarvitsee?',
+    a: 'Useimmat ohjeet kertovat langan kokonaismenekin materiaalitiedoissa metreinä tai jaardeina. Jos teet ilman ohjetta, käytä vastaavan työn ja koon keskiarvoja vain lähtökohtana.',
+  },
+  {
+    q: 'Kannattaako lankaa ostaa varalle?',
+    a: 'Yleensä kyllä. Yksi ylimääräinen kerä säästää harmilta, varsinkin jos langassa on värjäyserä. Samaa erää voi olla myöhemmin mahdoton löytää.',
+  },
+  {
+    q: 'Mitä jos ohje ilmoittaa langan jaardeina tai grammoina?',
+    a: 'Muunnin näyttää arvion metreinä ja jaardeina. Jos ohje antaa vain grammoja, tarkista vyötteestä metrit per kerä tai laske metrit grammoista saman langan metrimäärän perusteella. Pelkkä paino ei riitä, koska kaksi 50 gramman kerää voi sisältää eri määrän lankaa.',
+  },
+  {
+    q: 'Vaikuttaako lankavahvuus menekkiin?',
+    a: 'Vaikuttaa. Ohuempi lanka vaatii enemmän metrejä samaan pinta-alaan kuin paksu lanka. Myös palmikot, kirjoneule ja pintaneuleet syövät lankaa enemmän kuin sileä neule.',
+  },
+  {
+    q: 'Voinko korvata ohjeen langan toisella?',
+    a: 'Voit, jos saat neuletiheyden täsmäämään ja kangas tuntuu oikealta. Tarkista myös metrimäärä, älä vain kerien lukumäärää.',
+  },
+];
+---
+
+<FinnishToolPage
+  title="Lankamuunnin: menekki metreinä"
+  description="Arvioi ja muunna, paljonko lankaa neuleprojektiin tarvitaan työn tyypin, koon ja lankavahvuuden perusteella."
+  canonicalPath={routes.tool.yarnEstimator.fi}
+  alternates={routes.tool.yarnEstimator}
+  intro="Valitse työn tyyppi, koko ja lankavahvuus. Muunnin antaa langan tarpeen metreinä ja jaardeina."
+  schemaName="Lankamuunnin"
+  schemaDescription="Arvioi ja muuntaa langan tarpeen neuleprojektille työn tyypin, koon ja lankavahvuuden perusteella."
+  faqs={faqs}
+  variant="rust"
+>
+  <div slot="tool">
+    <YarnEstimator lang="fi" />
+  </div>
+
+  <div slot="content">
+    <h2>Näin käytät muunninta</h2>
+    <p>Valitse ensin työn tyyppi, sen jälkeen koko ja lopuksi lankavahvuus. Muunnin antaa arvion metreinä ja jaardeina. Arvio perustuu sileään neuleeseen, joten palmikot, kirjoneule, pitsi ja muut pintaneuleet voivat muuttaa menekkiä.</p>
+
+    <p>Tulos on suunnittelun lähtökohta, ei lupaus. Jos ohje antaa oman metrimäärän, käytä aina ensisijaisesti ohjetta. Jos suunnittelet ilman ohjetta, muunnin auttaa hahmottamaan, millaisessa suuruusluokassa liikutaan.</p>
+
+    <h2>Paljonko lankaa tarvitaan?</h2>
+    <p>Langanmenekki riippuu kolmesta asiasta: mitä neulot, minkä kokoisena ja millä lankavahvuudella. Fingering-vahvuinen aikuisen villapaita voi viedä noin 1200-1500 metriä. Paksusta langasta tehty pipo voi valmistua noin sadalla metrillä.</p>
+
+    <p>Ohuempi lanka tarvitsee enemmän metrejä samaan pinta-alaan, koska silmukoita on enemmän. Paksumpi lanka valmistuu nopeammin, mutta valmis neule voi olla painavampi ja jäykempi. Siksi langan määrä ja valmis pinta pitää ajatella yhdessä.</p>
+
+    <h2>Lue vyötteen metrit, älä vain grammoja</h2>
+    <p>Vyöte kertoo yleensä kerän painon ja metrit tai jaardit per kerä. Juuri metrimäärä ratkaisee. Kaksi 50 gramman kerää eivät välttämättä sisällä samaa määrää lankaa: toinen voi olla 90 metriä, toinen 175 metriä.</p>
+
+    <p>Jos vyöte on kadonnut, punnitse lanka keittiövaa'alla ja etsi valmistajan tiedoista saman langan metrit per gramma. Jos et löydä tietoa, käytä arviota vain pieniin tai joustaviin projekteihin, joissa muutaman metrin heitto ei pilaa lopputulosta.</p>
+
+    <h2>Miksi varakerä on usein järkevä</h2>
+    <p>Neuletiheys, mallineule ja oma käsiala vaikuttavat menekkiin. Palmikot vetävät lankaa, kirjoneuleessa lankaa kulkee myös nurjalla, ja huivit venyvät helposti suunniteltua isommiksi. Jos lanka on värjäyserällistä, myöhemmin ostettu kerä voi näyttää erilaiselta. Pieni varmuusvara on tylsä ostos, kunnes sitä tarvitaan.</p>
+  </div>
+</FinnishToolPage>

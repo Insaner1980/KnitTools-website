@@ -3,12 +3,14 @@ import PageLayout from '../../layouts/PageLayout.astro';
 import { PRICING } from '../../config/pricing';
 import RegionalPrice from '../../components/RegionalPrice.astro';
 import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
+import { routes } from '../../i18n/routes';
 ---
 
 <PageLayout
   title="Needle Size Chart: US, UK, Metric & Japanese"
   description="Convert knitting needle sizes between US, UK, metric (mm), and Japanese systems. Searchable chart with recommended yarn weights per needle size."
   canonicalPath="/tools/needle-size-chart/"
+  alternates={routes.tool.needleSizeChart}
   showStripe={false}
 >
   <script type="application/ld+json" set:html={JSON.stringify({

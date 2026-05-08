@@ -1,21 +1,26 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import { CATEGORY_LABELS, CATEGORY_COLORS, type CategorySlug } from '../lib/categories';
+import { CATEGORY_COLORS, getCategoryLabel, type CategorySlug } from '../lib/categories';
+import { getArticlePath } from '../i18n/articles';
+import type { Lang } from '../i18n/config';
 
 interface Props {
   article: CollectionEntry<'articles'>;
   featured?: boolean;
   showCategory?: boolean;
+  lang?: Lang;
 }
 
-const { article, featured = false, showCategory = true } = Astro.props;
+const { article, featured = false, showCategory = true, lang = (article.data.lang ?? 'en') } = Astro.props;
 const category = article.data.category as CategorySlug;
 const colorClass = CATEGORY_COLORS[category];
-const label = CATEGORY_LABELS[category];
+const label = getCategoryLabel(category, lang);
+const articlePath = getArticlePath(article, lang);
+const dateLocale = lang === 'fi' ? 'fi-FI' : 'en-US';
 ---
 
 <a
-  href={`/articles/${article.id}/`}
+  href={articlePath}
   class:list={[
     'article-card',
     colorClass,
@@ -27,7 +32,7 @@ const label = CATEGORY_LABELS[category];
   <p class="card-desc">{article.data.description}</p>
   <div class="card-meta">
     <time datetime={article.data.publishDate.toISOString()}>
-      {article.data.publishDate.toLocaleDateString('en-US', {
+      {article.data.publishDate.toLocaleDateString(dateLocale, {
         year: 'numeric', month: 'long', day: 'numeric',
       })}
     </time>

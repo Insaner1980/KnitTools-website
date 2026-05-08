@@ -3,6 +3,8 @@ import PageLayout from '../../layouts/PageLayout.astro';
 import { PRICING } from '../../config/pricing';
 import RegionalPrice from '../../components/RegionalPrice.astro';
 import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
+import WpiIdentifier from '../../components/WpiIdentifier.astro';
+import { routes } from '../../i18n/routes';
 
 interface YarnWeightCategory {
   cyc: number;
@@ -140,6 +142,7 @@ const faqs = [
   title="Yarn Weight Chart: 8 Categories, Gauge & WPI"
   description="Complete yarn weight chart from lace to jumbo. Find gauge ranges, recommended needles, WPI values, and typical projects for each yarn weight category."
   canonicalPath="/tools/yarn-weight-chart/"
+  alternates={routes.tool.yarnWeightChart}
   showStripe={false}
 >
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -219,27 +222,7 @@ const faqs = [
 
       <!-- WPI identifier -->
       <div class="form-card variant-sand is-wide">
-      <div class="wpi-tool gs-form">
-        <h2 class="wpi-heading">Don't know your weight? Try WPI</h2>
-        <p class="wpi-intro">Wrap your yarn around a pencil or ruler, count how many wraps fit in one inch, then enter that number.</p>
-        <div class="wpi-input-wrap">
-          <input
-            type="number"
-            id="wpi-input"
-            class="wpi-input"
-            placeholder="e.g. 10"
-            min="1"
-            max="40"
-            step="1"
-            inputmode="numeric"
-            autocomplete="off"
-          />
-        </div>
-        <p class="wpi-result" id="wpi-result" aria-live="polite">Enter a WPI value between 1 and 40</p>
-        <noscript>
-          <p class="wpi-fallback">JavaScript is disabled. Scroll up and pick the category whose WPI range contains your count.</p>
-        </noscript>
-      </div>
+        <WpiIdentifier />
       </div>
     </div>
   </section>
@@ -376,63 +359,6 @@ const faqs = [
   gsap.registerPlugin(ScrollTrigger);
 
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  // --- WPI identifier ---
-  interface WpiCategory {
-    cyc: number;
-    name: string;
-    regional: string;
-    min: number;
-    max: number;
-  }
-
-  const wpiCategories: WpiCategory[] = [
-    { cyc: 0, name: 'Lace', regional: 'Cobweb/Lace', min: 30, max: 40 },
-    { cyc: 1, name: 'Super Fine', regional: 'Sock/Fingering', min: 14, max: 30 },
-    { cyc: 2, name: 'Fine', regional: 'Sport', min: 12, max: 18 },
-    { cyc: 3, name: 'Light', regional: 'DK/8-ply', min: 11, max: 15 },
-    { cyc: 4, name: 'Medium', regional: 'Worsted/Aran', min: 9, max: 12 },
-    { cyc: 5, name: 'Bulky', regional: 'Chunky', min: 6, max: 9 },
-    { cyc: 6, name: 'Super Bulky', regional: 'Super Chunky', min: 5, max: 6 },
-    { cyc: 7, name: 'Jumbo', regional: 'Jumbo', min: 1, max: 4 },
-  ];
-
-  const wpiInput = document.getElementById('wpi-input') as HTMLInputElement | null;
-  const wpiResult = document.getElementById('wpi-result');
-
-  function formatMatches(matches: WpiCategory[]): string {
-    if (matches.length === 1) {
-      const m = matches[0];
-      return `suggests ${m.name} (CYC ${m.cyc}), ${m.regional} weight`;
-    }
-    const parts = matches.map(m => `${m.name} (CYC ${m.cyc})`);
-    const list =
-      parts.length === 2
-        ? parts.join(' or ')
-        : parts.slice(0, -1).join(', ') + ', or ' + parts[parts.length - 1];
-    return `matches ${list}. Your gauge swatch decides.`;
-  }
-
-  if (wpiInput && wpiResult) {
-    wpiInput.addEventListener('input', () => {
-      const raw = wpiInput.value.trim();
-      if (raw === '') {
-        wpiResult.textContent = 'Enter a WPI value between 1 and 40';
-        return;
-      }
-      const n = Number(raw);
-      if (!Number.isFinite(n) || n < 1 || n > 40) {
-        wpiResult.textContent = 'Enter a WPI value between 1 and 40';
-        return;
-      }
-      const matches = wpiCategories.filter(c => n >= c.min && n <= c.max);
-      if (matches.length === 0) {
-        wpiResult.textContent = `${n} WPI sits between standard categories. Swatch to confirm.`;
-        return;
-      }
-      wpiResult.textContent = `${n} WPI ${formatMatches(matches)}`;
-    });
-  }
 
   // --- Category card animated expand/collapse ---
   if (!prefersReducedMotion) {
@@ -876,91 +802,6 @@ const faqs = [
     color: var(--ink);
     margin: 0;
     line-height: 1.55;
-  }
-
-  /* ---- WPI tool ---- */
-  .wpi-tool {
-    margin-top: 8px;
-    padding-top: 32px;
-    border-top: 1px solid rgba(244, 234, 217, 0.2);
-  }
-
-  .wpi-heading {
-    font-family: var(--serif);
-    font-weight: 400;
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    line-height: 1.2;
-    letter-spacing: -0.02em;
-    color: var(--ink);
-    margin: 0 0 10px;
-    text-transform: none;
-  }
-
-  .wpi-intro {
-    font-family: var(--body-ed);
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--ink);
-    line-height: 1.55;
-    margin: 0 0 18px;
-    max-width: 560px;
-  }
-
-  .wpi-input-wrap {
-    max-width: 220px;
-  }
-
-  .wpi-input {
-    width: 100%;
-    height: 52px;
-    padding: 0 18px;
-    font-size: 16px;
-    font-family: var(--body-ed);
-    background-color: var(--paper-2);
-    border: 1.5px solid var(--ink);
-    color: var(--ink);
-    outline: none;
-    border-radius: 0;
-    box-sizing: border-box;
-    transition: border-color 300ms ease, box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
-  }
-
-  .wpi-input::placeholder {
-    color: var(--ink-soft);
-  }
-
-  .wpi-input:focus {
-    border-color: var(--terracotta);
-    outline: 2px solid var(--terracotta);
-    outline-offset: 2px;
-  }
-
-  .wpi-input::-webkit-outer-spin-button,
-  .wpi-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-
-  .wpi-input[type="number"] {
-    -moz-appearance: textfield;
-  }
-
-  .wpi-result {
-    font-family: var(--body-ed);
-    font-style: italic;
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--ink);
-    margin: 16px 0 0;
-    line-height: 1.5;
-    min-height: 1.5em;
-  }
-
-  .wpi-fallback {
-    font-family: var(--body-ed);
-    font-size: 14px;
-    color: var(--terracotta);
-    margin: 12px 0 0;
   }
 
   /* ---- 2. SEO content ---- */

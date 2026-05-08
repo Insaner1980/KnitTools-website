@@ -4,12 +4,14 @@ import YarnEstimator from '../../components/YarnEstimator.astro';
 import { PRICING } from '../../config/pricing';
 import RegionalPrice from '../../components/RegionalPrice.astro';
 import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
+import { routes } from '../../i18n/routes';
 ---
 
 <PageLayout
   title="Yarn Estimator: How Much Yarn Do I Need?"
-  description="Calculate how many skeins of yarn you need for any knitting project. Enter target yardage and skein length. Plan stash for sweaters, scarves & shawls."
+  description="Estimate how much yarn your knitting project needs by project type, size, and yarn weight. Plan yardage for sweaters, scarves, shawls, and more."
   canonicalPath="/tools/yarn-estimator/"
+  alternates={routes.tool.yarnEstimator}
   showStripe={false}
 >
   <!-- 1. Tool hero -->
@@ -19,7 +21,7 @@ import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
         <a href="/tools/" class="eyebrow-back">← All tools</a>
       </p>
       <h1 class="gs-h1" aria-label="Yarn Estimator"><span class="h1-chars">Yarn Estimator</span></h1>
-      <p class="hero-intro gs-hero">Calculate how many skeins of yarn you need for your knitting project.</p>
+      <p class="hero-intro gs-hero">Estimate how much yarn your knitting project needs by project type, size, and yarn weight.</p>
       <div class="form-card variant-rust gs-form">
         <YarnEstimator />
       </div>
@@ -30,13 +32,13 @@ import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
   <section class="seo-content">
     <div class="content-inner">
       <h2 class="gs-clip-reveal">How to use this calculator</h2>
-      <p class="gs-fade-up">Enter the total amount of yarn your project needs in meters (or yards), the length per skein from your yarn label, and the weight per skein. The calculator tells you how many skeins to buy and the total weight of yarn you'll need. Always buy one extra skein. Running out mid-project with a discontinued dye lot is every knitter's nightmare.</p>
+      <p class="gs-fade-up">Choose the project type, the size, and the yarn weight. The estimator gives you an approximate yarn requirement in meters and yards. Use it as a planning baseline, then add a safety margin before buying yarn. Running out mid-project with a discontinued dye lot is every knitter's nightmare.</p>
 
       <h2 class="gs-clip-reveal">How much yarn do I need?</h2>
-      <p class="gs-fade-up">Yarn requirements depend on three things: what you're knitting, what size, and what yarn weight. A fingering-weight adult sweater uses roughly 1200–1500 meters. A bulky hat might need 100 meters. Pattern instructions always list the total yardage. That's the number you enter here.</p>
+      <p class="gs-fade-up">Yarn requirements depend on three things: what you're knitting, what size, and what yarn weight. A fingering-weight adult sweater uses roughly 1200–1500 meters. A bulky hat might need 100 meters. If a pattern gives its own yardage, use that first; this estimator is most useful when planning without a pattern or checking whether a yarn quantity is realistic.</p>
 
       <h2 class="gs-clip-reveal">Reading a yarn label</h2>
-      <p class="gs-fade-up">Every yarn label (or ball band) tells you the weight per skein and the length per skein. These are the two numbers this calculator needs. If you've lost the label, weigh your yarn on a kitchen scale and check the manufacturer's website for the meters-per-gram ratio.</p>
+      <p class="gs-fade-up">Every yarn label (or ball band) tells you the length per skein or ball. After you have an estimated total, divide that number by the label's meters or yards per skein to work out how much to buy. If you've lost the label, weigh your yarn on a kitchen scale and check the manufacturer's website for the meters-per-gram ratio.</p>
     </div>
   </section>
 
@@ -54,8 +56,8 @@ import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
           <p>Always. Buy at least one extra skein, especially if your yarn has a dye lot number. Dye lots vary slightly in color, and matching later may be impossible if the lot is sold out.</p>
         </details>
         <details class="gs-faq-item">
-          <summary>What if my yarn label is in grams but the pattern lists yards? <span class="faq-icon" aria-hidden="true">+</span></summary>
-          <p>Convert using your yarn's meters-per-gram ratio. Divide the label's length by its weight to get meters per gram, then multiply by the total grams you have. Or use KnitTools. It handles the math for you.</p>
+          <summary>What if my pattern lists yards or grams? <span class="faq-icon" aria-hidden="true">+</span></summary>
+          <p>The estimator shows both meters and yards. If your pattern or stash is listed only in grams, check the yarn label for meters or yards per skein and convert from that. Weight alone is not enough, because two 50 g skeins can contain very different lengths of yarn.</p>
         </details>
         <details class="gs-faq-item">
           <summary>Does yarn weight category affect how much I need? <span class="faq-icon" aria-hidden="true">+</span></summary>
@@ -63,7 +65,7 @@ import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
         </details>
         <details class="gs-faq-item">
           <summary>Can I substitute a different yarn than the pattern recommends? <span class="faq-icon" aria-hidden="true">+</span></summary>
-          <p>Yes, if the gauge matches. Knit a swatch with your substitute yarn, check that you get the same stitch count per 10 cm, and use this calculator to figure out how many skeins of the new yarn you need.</p>
+          <p>Yes, if the gauge matches. Knit a swatch with your substitute yarn, check that you get the same stitch count per 10 cm, and use this calculator to estimate the total yarn requirement for the new yarn.</p>
         </details>
       </div>
     </div>

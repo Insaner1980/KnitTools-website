@@ -1,18 +1,23 @@
 ---
+import { useTranslations } from '../i18n/ui';
+
 interface Props {
   variant?: 'hero' | 'page';
+  lang?: 'en' | 'fi';
 }
-const { variant = 'hero' } = Astro.props;
+
+const { variant = 'hero', lang = 'en' } = Astro.props;
+const t = useTranslations(lang);
 ---
 
 <section class:list={['closing-cta', `closing-cta--${variant}`]} aria-labelledby="closing-heading">
   <div class="inner">
-    <p class="eyebrow">Be there at launch</p>
-    <h2 id="closing-heading">Where every stitch<br /><em>counts.</em></h2>
+    <p class="eyebrow">{t('closingEyebrow')}</p>
+    <h2 id="closing-heading">{t('closingHeadingStart')}<br /><em>{t('closingHeadingEm')}</em></h2>
 
     <form class="signup" id="join" action="#" method="post">
-      <label for="closing-email" class="visually-hidden">Email address</label>
-      <label for="closing-website" class="visually-hidden">Leave this field empty</label>
+      <label for="closing-email" class="visually-hidden">{t('emailAddress')}</label>
+      <label for="closing-website" class="visually-hidden">{t('honeypot')}</label>
       <input
         id="closing-website"
         name="website"
@@ -26,25 +31,33 @@ const { variant = 'hero' } = Astro.props;
           id="closing-email"
           name="email"
           type="email"
-          placeholder="your@email.com"
+          placeholder={t('emailPlaceholder')}
           required
           autocomplete="email"
         />
-        <button type="submit" class="btn-primary">Reserve my price</button>
+        <button type="submit" class="btn-primary">{t('reservePrice')}</button>
       </div>
       <p class="signup-success" data-success aria-hidden="true">
-        Reserved. See you at launch.
+        {t('reserved')}
       </p>
       <p class="signup-error" data-error aria-hidden="true">
-        Something went wrong. Please try again.
+        {t('genericError')}
       </p>
     </form>
 
-    <p class="meta">Free tier from day one. No card required.</p>
+    <p class="meta">{t('closingMeta')}</p>
   </div>
 </section>
 
-<script is:inline>
+<script
+  is:inline
+  define:vars={{
+    reservePriceText: t('reservePrice'),
+    sendingText: t('sending'),
+    genericErrorText: t('genericError'),
+    networkErrorText: t('networkError'),
+  }}
+>
   (() => {
     const ENDPOINT = 'https://api.finnvek.com/subscribe';
 
@@ -57,7 +70,7 @@ const { variant = 'hero' } = Astro.props;
     const button = form.querySelector('button[type="submit"]');
     const emailInput = form.querySelector('input[type="email"]');
     const honeypot = form.querySelector('input[name="website"]');
-    const originalText = button ? button.textContent : 'Reserve my price';
+    const originalText = button ? button.textContent : reservePriceText;
 
     const showSuccess = () => {
       if (content) content.style.display = 'none';
@@ -89,7 +102,7 @@ const { variant = 'hero' } = Astro.props;
 
       if (button) {
         button.disabled = true;
-        button.textContent = 'Sending…';
+        button.textContent = sendingText;
       }
       if (errorEl) {
         errorEl.style.display = 'none';
@@ -110,10 +123,10 @@ const { variant = 'hero' } = Astro.props;
         if (res.ok && data.success) {
           showSuccess();
         } else {
-          showError(data.error || 'Something went wrong. Please try again.');
+          showError(data.error || genericErrorText);
         }
       } catch {
-        showError('Network error. Please check your connection.');
+        showError(networkErrorText);
       }
     });
   })();

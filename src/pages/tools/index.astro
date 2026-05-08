@@ -1,12 +1,59 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
 import ClosingCTA from '../../components/ClosingCTA.astro';
+import { routes } from '../../i18n/routes';
+
+const tools = [
+  {
+    tag: 'Stitches',
+    title: 'Cast On Calculator',
+    description: 'Calculate how many stitches to cast on for any width and gauge.',
+    href: '/tools/cast-on-calculator/',
+    className: 'card-terracotta card-top-left reveal-delay-1',
+  },
+  {
+    tag: 'Yardage',
+    title: 'Yarn Estimator',
+    description: 'Estimate yarn requirements by project type, size, and yarn weight.',
+    href: '/tools/yarn-estimator/',
+    className: 'card-rust card-top-right reveal-delay-2',
+  },
+  {
+    tag: 'Weights',
+    title: 'Yarn Weight Chart',
+    description: 'All 8 yarn weight categories with gauge ranges, needles, and WPI.',
+    href: '/tools/yarn-weight-chart/',
+    className: 'card-sand card-bl1 reveal-delay-1',
+  },
+  {
+    tag: 'Needles',
+    title: 'Needle Size Chart',
+    description: 'Convert between US, UK, metric, and Japanese needle sizes.',
+    href: '/tools/needle-size-chart/',
+    className: 'card-teal card-br1 reveal-delay-2',
+  },
+  {
+    tag: 'Sizes',
+    title: 'Knitting Size Charts',
+    description: 'Body measurements for baby through adult, in cm and inches.',
+    href: '/tools/knitting-size-charts/',
+    className: 'card-terracotta card-bl2 reveal-delay-1',
+  },
+  {
+    tag: 'Glossary',
+    title: 'Knitting Abbreviations',
+    description: 'Search any abbreviation or find terms by technique.',
+    href: '/tools/knitting-abbreviations/',
+    className: 'card-brown card-br2 reveal-delay-2',
+  },
+];
 ---
 
 <PageLayout
   title="Free Knitting Tools: Calculators & Charts"
   description="Free online knitting calculators and reference charts: cast on, yarn estimator, needle sizes, yarn weights, abbreviations, and body size charts."
   canonicalPath="/tools/"
+  alternates={routes.toolsIndex}
   showStripe={false}
 >
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -17,14 +64,11 @@ import ClosingCTA from '../../components/ClosingCTA.astro';
     "url": "https://knittoolsapp.com/tools/",
     "mainEntity": {
       "@type": "ItemList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "url": "https://knittoolsapp.com/tools/cast-on-calculator/" },
-        { "@type": "ListItem", "position": 2, "url": "https://knittoolsapp.com/tools/yarn-estimator/" },
-        { "@type": "ListItem", "position": 3, "url": "https://knittoolsapp.com/tools/needle-size-chart/" },
-        { "@type": "ListItem", "position": 4, "url": "https://knittoolsapp.com/tools/yarn-weight-chart/" },
-        { "@type": "ListItem", "position": 5, "url": "https://knittoolsapp.com/tools/knitting-abbreviations/" },
-        { "@type": "ListItem", "position": 6, "url": "https://knittoolsapp.com/tools/knitting-size-charts/" }
-      ]
+      "itemListElement": tools.map((tool, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "url": `https://knittoolsapp.com${tool.href}`,
+      }))
     }
   })} />
 
@@ -38,38 +82,13 @@ import ClosingCTA from '../../components/ClosingCTA.astro';
 
   <section class="tools-grid-section">
     <div class="tools-grid">
-      <!-- Row 1: two large calculator cards, 50/50 -->
-      <a href="/tools/cast-on-calculator/" class="tool-card card-top-left card-terracotta reveal reveal-delay-1">
-        <span class="tag">Stitches</span>
-        <h2 class="card-title">Cast On Calculator</h2>
-        <p class="card-desc">Calculate how many stitches to cast on for any width and gauge.</p>
-      </a>
-      <a href="/tools/yarn-estimator/" class="tool-card card-top-right card-rust reveal reveal-delay-2">
-        <span class="tag">Yardage</span>
-        <h2 class="card-title">Yarn Estimator</h2>
-        <p class="card-desc">Estimate yarn requirements by project type, size, and yarn weight.</p>
-      </a>
-      <!-- Row 2-3: four small reference cards, offset grid -->
-      <a href="/tools/yarn-weight-chart/" class="tool-card card-bl1 card-sand reveal reveal-delay-1">
-        <span class="tag">Weights</span>
-        <h2 class="card-title">Yarn Weight Chart</h2>
-        <p class="card-desc">All 8 yarn weight categories with gauge ranges, needles, and WPI.</p>
-      </a>
-      <a href="/tools/needle-size-chart/" class="tool-card card-br1 card-teal reveal reveal-delay-2">
-        <span class="tag">Needles</span>
-        <h2 class="card-title">Needle Size Chart</h2>
-        <p class="card-desc">Convert between US, UK, metric, and Japanese needle sizes.</p>
-      </a>
-      <a href="/tools/knitting-size-charts/" class="tool-card card-bl2 card-terracotta reveal reveal-delay-1">
-        <span class="tag">Sizes</span>
-        <h2 class="card-title">Knitting Size Charts</h2>
-        <p class="card-desc">Body measurements for baby through adult, in cm and inches.</p>
-      </a>
-      <a href="/tools/knitting-abbreviations/" class="tool-card card-br2 card-brown reveal reveal-delay-2">
-        <span class="tag">Glossary</span>
-        <h2 class="card-title">Knitting Abbreviations</h2>
-        <p class="card-desc">Search any abbreviation or find terms by technique.</p>
-      </a>
+      {tools.map((tool) => (
+        <a href={tool.href} class:list={['tool-card', 'reveal', tool.className]}>
+          <span class="tag">{tool.tag}</span>
+          <h2 class="card-title">{tool.title}</h2>
+          <p class="card-desc">{tool.description}</p>
+        </a>
+      ))}
     </div>
   </section>
   <ClosingCTA variant="page" />
