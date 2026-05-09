@@ -62,9 +62,9 @@ Social features (feeds, progress sharing, community) rarely reach critical mass.
 
 ## Pricing models
 
-**One-time purchase** ($2–5) is the most knitter-friendly model. Pay once, own the app. You're not paying monthly for a row counter.
+**One-time purchase** is the most knitter-friendly model. Pay once, own the app. You're not paying monthly for a row counter.
 
-**Subscription** ($3–8/month) can be justified for genuinely premium features like a large pattern database or AI-powered tools, but most knitters don't need monthly access to a calculator. Check what the free tier includes and whether you'd actually use the paid features weekly.
+**Subscription pricing** can be justified for genuinely premium features like a large pattern database or AI-powered tools, but most knitters don't need monthly access to a calculator. Check what the free tier includes and whether you'd actually use the paid features weekly.
 
 **Free with ads** works but annoys. Ads in a row counter interrupt the flow. If ads pop up when you tap the counter, pay for the upgrade. **Freemium** (basic free, advanced paid) is reasonable if the free tier includes a usable counter and at least one calculator. Less reasonable if it locks everything behind a paywall.
 
@@ -80,7 +80,7 @@ Camera access for yarn scanning is legitimate. But it should be requested when y
 
 Full disclosure: this is the KnitTools website.
 
-[KnitTools](/) is a one-time purchase with no ads and no subscription. Row counter with multiple simultaneous counters, project management, session history. Four calculators (Cast On, Gauge, Increase/Decrease, Yarn Estimator). Yarn label scanner that creates digital yarn cards. AI instruction parser that reads pattern text and fills in calculator fields automatically (on devices with on-device AI support). Counter, calculators, projects, and reference library work offline. Basic voice commands too. AI features like yarn card scanning, project summaries, and conversational voice connect to the cloud when available. Reference materials including needle sizes, yarn weights, abbreviations, and size charts.
+[KnitTools](/) is a one-time purchase with no ads and no subscription. Row counter with multiple simultaneous counters, project management, session history. Four calculators (Cast On, Gauge, Increase/Decrease, Yarn Estimator). Yarn label scanner that creates digital yarn cards. AI instruction parser that reads pattern text and fills in calculator fields automatically. Counter, four calculators, projects, saved PDF patterns, and reference library all work offline. Basic voice commands work offline too, in 11 languages. AI features (yarn card scanning, project summaries, voice journal, conversational voice, pattern instruction lookup) require an internet connection. Reference materials including needle sizes, yarn weights, abbreviations, and size charts.
 
 Designed as a complete toolkit rather than a single-purpose app: everything a working knitter needs, in one place, without ongoing costs.
 

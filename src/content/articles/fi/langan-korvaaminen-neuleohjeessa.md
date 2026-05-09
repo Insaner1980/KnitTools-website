@@ -26,13 +26,13 @@ Kaksi samaan vahvuusluokkaan kuuluvaa lankaa voi silti neuloontua eri tavalla. T
 
 Vyöte on ehdotus. Mallitilkku on testi.
 
-Neulo korvaavalla langalla ja katso, saatko ohjeen neuletiheyden niin, että neulepinta on sellainen, jota oikeasti haluat käyttää. Oikeat numerot jäykässä ja elottomassa kankaassa eivät ole onnistunut korvaus.
+Neulo korvaavalla langalla ja katso, saatko ohjeen neuletiheyden niin, että neulepinta on sellainen, jota oikeasti haluat käyttää. Oikeat numerot jäykässä ja elottomassa neulepinnassa eivät ole onnistunut korvaus.
 
 ## Huomioi kuidun käyttäytyminen
 
 Lankavahvuus ja neuletiheys kertovat koosta. Kuitu kertoo melkein kaikesta muusta: tunnusta, laskeutuvuudesta, kulumisesta ja pesunkestosta.
 
-[Kuituvertailu](/articles/yarn-fibers-compared/) käsittelee kuidut tarkemmin, mutta langan korvaamisessa tärkeintä on tämä. **Villa** tekee monta asiaa hyvin. Se joustaa ja palautuu. Se pitää palmikot ja pintaneuleet kauniina ja reagoi yleensä hyvin viimeistelyyn. Villa on myös neulottaessa anteeksiantava, koska kuidun pito pitää silmukat hallinnassa ja purkaminen onnistuu ilman että lanka näyttää heti kuluneelta. Jos ohje on suunniteltu villalle ja nojaa sen joustavaan rakenteeseen, vaihtaminen kasvikuituun muuttaa valmista työtä enemmän kuin mallitilkku vihjaa.
+[Kuituvertailu](/fi/artikkelit/lankakuidut-vertailussa/) käsittelee kuidut tarkemmin, mutta langan korvaamisessa tärkeintä on tämä. **Villa** tekee monta asiaa hyvin. Se joustaa ja palautuu. Se pitää palmikot ja pintaneuleet kauniina ja reagoi yleensä hyvin viimeistelyyn. Villa on myös neulottaessa anteeksiantava, koska kuidun pito pitää silmukat hallinnassa ja purkaminen onnistuu ilman että lanka näyttää heti kuluneelta. Jos ohje on suunniteltu villalle ja nojaa sen joustavaan rakenteeseen, vaihtaminen kasvikuituun muuttaa valmista työtä enemmän kuin mallitilkku vihjaa.
 
 **Puuvilla** on yleinen korvaaja, joka yllättää. Se on samaa paksuutta raskaampaa kuin villa, siinä on lähes olematon jousto ja se kasvaa painovoiman ja pesun myötä. Puuvillapaita roikkuu eri tavalla kuin villapaita, vaikka neuletiheys olisi täydellinen. Puuvilla toimii silti hyvin tiskiräteissä, kesätopeissa ja kaikessa, missä laskeutuvuus on tavoite eikä rakenne.
 
@@ -46,9 +46,9 @@ Lankavahvuus ja neuletiheys kertovat koosta. Kuitu kertoo melkein kaikesta muust
 
 Ohje sanoo 5 kerää. Se luku merkitsee vain, jos korvaava lanka on täsmälleen samankokoisissa kerissä.
 
-Kerro ohjeen kerämäärä alkuperäisen kerän jaardimäärällä. Se on tarvitsemasi kokonaismäärä.
+Kerro ohjeen kerämäärä alkuperäisen kerän metrimäärällä. Se on tarvitsemasi kokonaismäärä.
 
-**Esimerkki:** 5 kerää, 220 jaardia per kerä = 1100 jaardia yhteensä. Jos korvaavassa langassa on 164 jaardia per kerä, jaa 1100 luvulla 164 ja pyöristä ylöspäin. Seitsemän kerää.
+**Esimerkki:** 5 kerää, 200 metriä per kerä = 1000 metriä yhteensä. Jos korvaavassa langassa on 150 metriä per kerä, jaa 1000 luvulla 150 ja pyöristä ylöspäin. Seitsemän kerää.
 
 Kun kuitusisältö muuttuu, metrit merkitsevät vielä enemmän. Sama paino per kerä voi peittää hyvin erilaisen määrän lankaa.
 
@@ -58,7 +58,7 @@ Kun kuitusisältö muuttuu, metrit merkitsevät vielä enemmän. Sama paino per 
 
 Kaikki projektit eivät siedä langanvaihtoa yhtä hyvin. Tämä kannattaa sanoa ääneen ennen kuin ostat kahdeksan kerää korvaajaa.
 
-**Matala riski:** huivit, hartiahuivit, peitot ja tiskirätit. Puolen silmukan heitto tuumaa kohti muuttaa kokoa vähän. Harva huomaa. Näissä korvaaminen onnistuu useimmiten.
+**Matala riski:** huivit, hartiahuivit, peitot ja tiskirätit. Parin silmukan heitto 10 cm matkalla muuttaa kokoa vähän. Harva huomaa. Näissä korvaaminen onnistuu useimmiten.
 
 **Keskiriski:** pipot, kaulurit ja laukut. Istuvuus ja rakenne merkitsevät enemmän, mutta pieniä eroja voi vielä sietää. Hieman liian ison pipon voi pingottaa pienemmäksi tai antaa isopäisemmälle.
 
@@ -80,12 +80,12 @@ Ostamisen jälkeen:
 
 6. Neulo mallitilkku ohjeen mallineuleessa suositelluilla puikoilla.
 7. Pese ja viimeistele mallitilkku samalla tavalla kuin valmis työ. Tätä kohtaa ohitetaan jatkuvasti. Älä ohita.
-8. Mittaa neuletiheys ja katso kangasta. Jos sekä numerot että tuntu ovat oikeat, jatka. Jos numerot osuvat mutta kangas on väärä, kokeile toista puikkokokoa tai toista lankaa.
+8. Mittaa neuletiheys ja katso neulepintaa. Jos sekä numerot että tuntu ovat oikeat, jatka. Jos numerot osuvat mutta neulepinta on väärä, kokeile toista puikkokokoa tai toista lankaa.
 
 ## FAQ
 
 **Voinko korvata eri vahvuisella langalla, jos vaihdan puikkokokoa?**
-Teknisesti joskus, mutta se muuttaa kankaan luonteen. Paksumpi lanka pienillä puikoilla muuttuu tiiviiksi ja jäykäksi. Ohuempi lanka isoilla puikoilla muuttuu löysäksi ja avoimeksi. Joissakin projekteissa se sopii, toisissa se tuhoaa suunnittelun idean.
+Teknisesti joskus, mutta se muuttaa neulepinnan luonteen. Paksumpi lanka pienillä puikoilla muuttuu tiiviiksi ja jäykäksi. Ohuempi lanka isoilla puikoilla muuttuu löysäksi ja avoimeksi. Joissakin projekteissa se sopii, toisissa se tuhoaa suunnittelun idean.
 
 **Ohjeen lanka on lopetettu. Miten löydän hyvän korvaajan?**
 Ravelryn lankatietokanta on hyvä lähtökohta, koska sillä voi vertailla vahvuutta, kuitua ja neuletiheysalueita. Hyvä lankakauppa auttaa myös, jos tuot tarkat tiedot: ohjeen neuletiheys, kokonaismetrit ja kuitusisältö.

@@ -6,8 +6,6 @@ category: app-tools
 categoryOrder: 7
 tags: ["track knitting time", "knitting session tracker", "session tracking", "track knitting progress", "knitting time tracker"]
 ---
-# How to track your knitting time and improve your speed
-
 Most knitters have a vague sense of how long projects take. "The sweater took a few months." "The socks were pretty quick." But vague doesn't help when you're trying to decide whether to start a cardigan six weeks before Christmas, or figure out why a hat pattern that should take one evening is stretching into three.
 
 Tracking knitting time turns vague impressions into actual data. How many hours went into the sweater. How many rows you average per session. Whether you knit faster on stockinette or on cables (the answer is always stockinette, but by how much?). The numbers won't make your hands move faster, but they'll help you plan better and notice when something is quietly going wrong.

@@ -20,11 +20,11 @@ interface Props {
 const { title, description, category, publishDate, updatedDate, lang = 'en', canonicalPath, alternates } = Astro.props;
 const t = useTranslations(lang);
 const categoryLabel = getCategoryLabel(category, lang);
-const dateLocale = lang === 'fi' ? 'fi-FI' : 'en-US';
+const dateLocale = lang === 'fi' ? 'fi-FI' : lang === 'de' ? 'de-DE' : 'en-US';
 const formattedUpdated = updatedDate?.toLocaleDateString(dateLocale, { year: 'numeric', month: 'long' });
 const formattedPublished = publishDate.toLocaleDateString(dateLocale, { year: 'numeric', month: 'long' });
 const dateLabel = formattedUpdated ? `${t('updated')} ${formattedUpdated}` : `${t('published')} ${formattedPublished}`;
-const articlesPath = lang === 'fi' ? '/fi/artikkelit/' : '/articles/';
+const articlesPath = lang === 'fi' ? '/fi/artikkelit/' : lang === 'de' ? '/de/artikel/' : '/articles/';
 ---
 
 <PageLayout title={title} description={description} canonicalPath={canonicalPath ?? `/articles/${Astro.params.slug}/`} bodyClass="article" lang={lang} alternates={alternates}>

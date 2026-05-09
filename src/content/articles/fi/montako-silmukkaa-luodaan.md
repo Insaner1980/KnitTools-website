@@ -10,15 +10,15 @@ translationKey: "how-many-stitches-to-cast-on"
 ---
 Ennen ensimmäistä kerrosta, ennen luomistavan valintaa, ennen mitään muuta tarvitset numeron. Se numero tulee neuletiheydestä, ei lankavyötteestä, ei edellisestä projektista eikä toiveikkaasta arvauksesta.
 
-Laske luotavien silmukoiden määrä kertomalla oma neuletiheys silmukoina tuumalla halutulla leveydellä tuumina. Sen jälkeen säädä tulos mallikerran, reunasilmukoiden ja mahdollisten jakovaatimusten mukaan. Lasku on yksinkertainen. Oikeiden lähtötietojen saaminen on se osa, jolla on väliä.
+Laske luotavien silmukoiden määrä kertomalla oma neuletiheys silmukoina senttiä kohti halutulla leveydellä sentteinä. Sen jälkeen säädä tulos mallikerran, reunasilmukoiden ja mahdollisten jakovaatimusten mukaan. Lasku on yksinkertainen. Oikeiden lähtötietojen saaminen on se osa, jolla on väliä.
 
 ## Peruslasku
 
-Oman mallitilkun silmukkaa per tuuma kerrottuna halutulla leveydellä. Siinä on perusluomismäärä.
+Oman mallitilkun silmukkatiheys kerrottuna halutulla leveydellä. Siinä on perusluomismäärä.
 
-Jos neuletiheytesi on 5 silmukkaa tuumalla ja haluat 10 tuumaa leveän kappaleen, luo 50 silmukkaa.
+Jos neuletiheytesi on 20 silmukkaa 10 cm matkalla ja haluat 25 cm leveän kappaleen, luo 50 silmukkaa.
 
-Jos neuletiheys on mitattu 10 cm tai 4 tuuman matkalla, jaa ensin. 20 silmukkaa 4 tuumalla tarkoittaa 5 silmukkaa tuumalla.
+Jos neuletiheys on mitattu 10 cm matkalla, jaa ensin kymmenellä. 20 silmukkaa 10 cm matkalla tarkoittaa 2 silmukkaa senttimetriä kohti.
 
 KnitToolsin [silmukkalaskuri](/fi/tyokalut/silmukkalaskuri/) hoitaa laskun puolestasi, mutta järkevän vastauksen mittakaava kannattaa silti ymmärtää. Jos 50 cm leveä worsted-vahvuinen peittopaneeli väittää tarvitsevansa vain muutamia kymmeniä silmukoita, jokin lähtötiedoissa on pielessä.
 
@@ -28,7 +28,7 @@ Luomismäärä on yhtä hyvä kuin sen taustalla oleva mallitilkku. Kaksi virhet
 
 **Mittaus mallitilkun reunasta.** Reunasilmukat eivät ole luotettavia. Mittaa keskeltä, kaukana luomisreunasta, päättelyreunasta ja sivuista.
 
-**Mittaus ennen pesua ja viimeistelyä.** Puikoilla oleva tilkku ei ole valmis kangas. Jos lanka muuttuu pesussa, myös luomislaskelma muuttuu.
+**Mittaus ennen pesua ja viimeistelyä.** Puikoilla oleva tilkku ei ole valmis neulepinta. Jos lanka muuttuu pesussa, myös luomislaskelma muuttuu.
 
 Jos mallitilkku on vielä tekemättä, [neuletiheyden mittaaminen](/fi/artikkelit/neuletiheyden-mittaaminen/) käy prosessin läpi.
 
@@ -66,11 +66,11 @@ Kun luomisreuna on osa istuvuutta, kuten sukan varressa tai pipon reunassa, reun
 
 ## Silmukoiden luominen joustinta varten
 
-Joustin vetää kapeammaksi kuin sileä neule samalla silmukkamäärällä. Jos ohje pyytää [lisäämään tasaisesti](/articles/increase-decrease-evenly/) joustimen jälkeen, siirtymäkerros hoitaa tämän eron. Se on sen tarkoitus. Jotkut ohjeet pitävät saman silmukkamäärän joustimessa ja vartalossa, toiset luovat joustimeen vähemmän silmukoita ja lisäävät myöhemmin. Jos suunnittelet itse, tee valinta tietoisesti.
+Joustin vetää kapeammaksi kuin sileä neule samalla silmukkamäärällä. Jos ohje pyytää [lisäämään tasaisesti](/fi/artikkelit/lisaysten-ja-kavennusten-jakaminen/) joustimen jälkeen, siirtymäkerros hoitaa tämän eron. Se on sen tarkoitus. Jotkut ohjeet pitävät saman silmukkamäärän joustimessa ja vartalossa, toiset luovat joustimeen vähemmän silmukoita ja lisäävät myöhemmin. Jos suunnittelet itse, tee valinta tietoisesti.
 
 ## Tavallisia luomismääriä perusprojekteihin
 
-Nopea viite, jos neuletiheys on tyypillinen worsted-vahvuuden noin 5 silmukkaa tuumalla:
+Nopea viite, jos neuletiheys on tyypillinen worsted-vahvuuden noin 20 silmukkaa 10 cm matkalla:
 
 - **Tiskirätti:** noin 40-50 silmukkaa
 - **Huivi:** noin 30-45 silmukkaa leveydestä riippuen

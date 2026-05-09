@@ -1,9 +1,10 @@
 ---
 import { useTranslations } from '../i18n/ui';
+import type { Lang } from '../i18n/config';
 
 interface Props {
   variant?: 'hero' | 'page';
-  lang?: 'en' | 'fi';
+  lang?: Lang;
 }
 
 const { variant = 'hero', lang = 'en' } = Astro.props;

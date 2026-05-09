@@ -36,7 +36,7 @@ Bambu tai puu. Niiden pito pitää silmukat paremmin paikoillaan, kun opettelet 
 
 Bambu on tavallinen aloittelijasuositus: kevyt, lämmin, hiljainen ja edullinen. Clover Takumi -bambupuikkoja löytyy laajasti. KnitPro-koivupuikot ovat toinen toimiva vaihtoehto samaan hintaluokkaan.
 
-Kun muutama projekti on takana, kireys tasoittuu ja silmukat eivät enää putoile, metallipuikot voivat alkaa houkutella. [Puikkomateriaalien opas](/articles/knitting-needle-materials/) vertailee materiaaleja. Moni päätyy lopulta metalliin nopeuden vuoksi. Kiirettä ei ole.
+Kun muutama projekti on takana, kireys tasoittuu ja silmukat eivät enää putoile, metallipuikot voivat alkaa houkutella. [Puikkomateriaalien opas](/fi/artikkelit/puikkomateriaalit-metalli-puu-bambu/) vertailee materiaaleja. Moni päätyy lopulta metalliin nopeuden vuoksi. Kiirettä ei ole.
 
 ## Mitä ostaa ensin
 
@@ -68,4 +68,4 @@ Kyllä. Moni oppii pyöröpuikoilla eikä koskaan omista suoria puikkoja. Käyt�
 Kyllä. Ne ovat eri välineitä. Virkkuukoukussa on koukku ja sitä käytetään yksin. Neulepuikoissa on kärjet ja niitä käytetään pareina tai setteihin jaettuna. Niitä ei voi korvata toisillaan.
 
 **Mitä jos ohje pyytää kokoa, jota minulla ei ole?**
-Osta ohjeen koko ja tee mallitilkku. Jos olet lähellä, esimerkiksi alle puolen silmukan päässä tuumaa kohti, lähin omistamasi koko voi riittää. Istuvissa töissä oikealla koolla ja neuletiheydellä on enemmän väliä.
+Osta ohjeen koko ja tee mallitilkku. Jos olet lähellä, esimerkiksi alle kahden silmukan päässä 10 cm matkalla, lähin omistamasi koko voi riittää. Istuvissa töissä oikealla koolla ja neuletiheydellä on enemmän väliä.

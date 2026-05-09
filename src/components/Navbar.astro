@@ -10,15 +10,19 @@ interface Props {
 const { lang = 'en' } = Astro.props;
 const t = useTranslations(lang);
 const homeHref = '/';
-const joinHref = lang === 'fi' ? `${routes.toolsIndex.fi}#join` : '/#join';
+const joinHref = lang === 'en' ? '/#join' : `${routes.toolsIndex[lang]}#join`;
+const articlesHref = routes.articlesIndex[lang] ?? routes.articlesIndex.en;
 ---
 
 <header class="nav-editorial" data-nav>
   <a href={homeHref} class="brand-mark" aria-label={t('navHome')}>KnitTools</a>
   <nav class="nav-links">
     <a href={routes.toolsIndex[lang]}>{t('navTools')}</a>
-    <a href={routes.articlesIndex[lang]}>{t('navArticles')}</a>
-    <a href={joinHref} class="waitlist">{t('navJoin')}</a>
+    <a href={articlesHref}>{t('navArticles')}</a>
+    <a href={joinHref} class="waitlist" aria-label={t('navJoin')}>
+      <span class="label-full">{t('navJoin')}</span>
+      <span class="label-short" aria-hidden="true">{t('navJoinShort')}</span>
+    </a>
   </nav>
 </header>
 
@@ -45,6 +49,7 @@ const joinHref = lang === 'fi' ? `${routes.toolsIndex.fi}#join` : '/#join';
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 24px;
     padding: 18px 40px;
     background: transparent;
     transition: background 0.2s ease, border-color 0.2s ease;
@@ -63,12 +68,15 @@ const joinHref = lang === 'fi' ? `${routes.toolsIndex.fi}#join` : '/#join';
     color: var(--ink);
     text-decoration: none;
     line-height: 1;
+    flex: 0 0 auto;
   }
 
   .nav-links {
     display: flex;
     gap: 28px;
     align-items: center;
+    flex: 0 1 auto;
+    min-width: 0;
   }
   .nav-links a {
     font-family: var(--font-body);
@@ -78,6 +86,7 @@ const joinHref = lang === 'fi' ? `${routes.toolsIndex.fi}#join` : '/#join';
     text-transform: uppercase;
     color: var(--ink);
     text-decoration: none;
+    white-space: nowrap;
     transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
   }
   .nav-links a:hover { color: var(--terracotta); }
@@ -95,11 +104,34 @@ const joinHref = lang === 'fi' ? `${routes.toolsIndex.fi}#join` : '/#join';
     border-color: var(--ink);
   }
 
+  .label-short {
+    display: none;
+  }
+
   @media (max-width: 640px) {
-    .nav-editorial { padding: 14px 20px; }
+    .nav-editorial {
+      gap: 12px;
+      padding: 14px 20px;
+    }
     .brand-mark { font-size: 22px; }
     .nav-links { gap: 14px; }
     .nav-links a { font-size: 12px; letter-spacing: 0.12em; }
     .nav-links a.waitlist { padding: 6px 12px; }
+    .label-full { display: none; }
+    .label-short { display: inline; }
+  }
+
+  @media (max-width: 430px) {
+    .nav-editorial {
+      gap: 10px;
+      padding: 14px 12px;
+    }
+    .brand-mark { font-size: 20px; }
+    .nav-links { gap: 10px; }
+    .nav-links a {
+      font-size: 11px;
+      letter-spacing: 0.08em;
+    }
+    .nav-links a.waitlist { padding: 5px 10px; }
   }
 </style>

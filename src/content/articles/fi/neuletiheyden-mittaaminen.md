@@ -17,13 +17,13 @@ Se ei ole. Ei oikeasti. Mittaa neuletiheys neulomalla vähintään noin 15 cm le
 
 Neuletiheys tarkoittaa sitä, montako silmukkaa ja kerrosta mahtuu tiettyyn mittaan neulepintaa. Ohje voi kirjoittaa sen esimerkiksi näin: "20 s ja 26 krs = 10 cm sileää neuletta 4,5 mm puikoilla."
 
-Tämä rivi kertoo, millainen suunnittelijan valmis neulepinta oli. Jos oma neuleesi vastaa sitä, valmiit mitat osuvat todennäköisemmin oikein. Jos ei vastaa, työn mitat alkavat muuttua heti. Eron ei tarvitse olla suuri. Puoli silmukkaa tuumaa kohti kertyy nopeasti. 40 tuuman paidassa se voi tarkoittaa noin neljää ylimääräistä tuumaa ympäryksessä. Siinä on ero "tarpeeksi lähellä" ja "miksi tämä roikkuu hartioilta" välillä.
+Tämä rivi kertoo, millainen suunnittelijan valmis neulepinta oli. Jos oma neuleesi vastaa sitä, valmiit mitat osuvat todennäköisemmin oikein. Jos ei vastaa, työn mitat alkavat muuttua heti. Eron ei tarvitse olla suuri. Kahden silmukan ero 10 cm matkalla kertyy nopeasti. 100 cm ympäryksessä se voi tarkoittaa noin 10 cm ylimääräistä leveyttä. Siinä on ero "tarpeeksi lähellä" ja "miksi tämä roikkuu hartioilta" välillä.
 
 ## Miten mallitilkku neulotaan
 
 Mallitilkku on pieni testipala, joka tehdään omalla langalla, omilla puikoilla ja sillä neulepinnalla, jota projekti käyttää. Siinä koko ajatus. Yksityiskohdilla on silti väliä.
 
-Luo tarpeeksi silmukoita, jotta tilkusta tulee vähintään noin 15 cm leveä. Hieman suurempi on parempi, jos lanka elää paljon tai projektin pitää istua tarkasti. Neuletiheyttä, joka on ilmoitettu 10 cm matkalle, ei koskaan pitäisi mitata reunasta reunaan. Luomisreuna, päättelyreuna ja sivusilmukat käyttäytyvät eri tavalla kuin tilkun keskiosa. Tarvitset mittausalueen ympärille ylimääräistä neuletta, jotta luet oikeaa kangasta etkä reunojen vääristymiä.
+Luo tarpeeksi silmukoita, jotta tilkusta tulee vähintään noin 15 cm leveä. Hieman suurempi on parempi, jos lanka elää paljon tai projektin pitää istua tarkasti. Neuletiheyttä, joka on ilmoitettu 10 cm matkalle, ei koskaan pitäisi mitata reunasta reunaan. Luomisreuna, päättelyreuna ja sivusilmukat käyttäytyvät eri tavalla kuin tilkun keskiosa. Tarvitset mittausalueen ympärille ylimääräistä neuletta, jotta luet oikeaa neulepintaa etkä reunojen vääristymiä.
 
 Jos ohje sanoo "sileässä neuleessa", tee mallitilkku sileänä neuleena. Jos ohje sanoo "mallineuleessa", käytä projektin mallineuletta. Tämä merkitsee enemmän kuin moni odottaa. Palmikot vetävät kasaan. Pitsi avautuu. Joustin painuu kapeammaksi. Mikään niistä ei käyttäydy kuin tavallinen sileä neule.
 
@@ -33,11 +33,11 @@ Tässä vaiheessa moni tarttuu viivaimeen liian aikaisin. Älä mittaa vielä.
 
 ## Pese ja viimeistele mallitilkku
 
-Tässä kohdassa suurin osa neuletiheysvirheistä syntyy. Puikoilta juuri tullut kangas ei ole vielä se kangas, jota käytät. Lanka muuttuu kastuessaan ja kuivuessaan. Joskus vähän, joskus paljon.
+Tässä kohdassa suurin osa neuletiheysvirheistä syntyy. Puikoilta juuri tullut neulepinta ei ole vielä se neulepinta, jota käytät. Lanka muuttuu kastuessaan ja kuivuessaan. Joskus vähän, joskus paljon.
 
 Villa pöyhistyy ja silmukat täyttyvät, jolloin pinta voi leventyä ja pehmetä. Puuvilla rentoutuu ja laskeutuu enemmän. Superwash-merino voi kasvaa selvästi pituutta. Pellava pehmenee pesussa. Akryyli asettuu käsittelyn ja pesun jälkeen. Jokainen kuitu tekee jotakin, ja ainoa tapa tietää, mitä juuri sinun lankasi tekee, on kastella mallitilkku.
 
-Jos ohitat tämän, mittaat väärää kangasta. Mallitilkku täsmää suoraan puikoilta, valmis paita pestään ensimmäisen kerran ja yhtäkkiä se on kokoa suurempi. Tätä tapahtuu jatkuvasti.
+Jos ohitat tämän, mittaat väärää neulepintaa. Mallitilkku täsmää suoraan puikoilta, valmis paita pestään ensimmäisen kerran ja yhtäkkiä se on kokoa suurempi. Tätä tapahtuu jatkuvasti.
 
 Käsittele mallitilkkua samalla tavalla kuin valmista työtä. Jos paita pestään käsin ja kuivataan tasossa, tee se tilkulle. Jos lanka on konepestävä ja valmis työ aiotaan pestä koneessa, pese myös tilkku koneessa. Tarkoitus on jäljitellä vaatteen todellista elämää.
 
@@ -59,9 +59,9 @@ Jos sinulla on neuletiheysikkuna, käytä sitä. Tavallinen viivain toimii myös
 
 Ensimmäinen mallitilkku ei usein täsmää. Se on normaalia. Käsiala on henkilökohtainen, ja kaksi neulojaa voi saada samalla langalla ja samalla puikolla eri neulepinnan.
 
-**Liikaa silmukoita sentillä.** Neuleesi on tiukempaa kuin suunnittelijan. Vaihda suurempaan puikkokokoon ja tee uusi mallitilkku. Jos haluat tarkistaa seuraavan koon toisessa järjestelmässä, [puikkokokotaulukko](/fi/tyokalut/puikkokoot/) on nopea apu.
+**Liikaa silmukoita 10 cm matkalla.** Neuleesi on tiukempaa kuin suunnittelijan. Vaihda suurempaan puikkokokoon ja tee uusi mallitilkku. Jos haluat tarkistaa seuraavan koon toisessa järjestelmässä, [puikkokokotaulukko](/fi/tyokalut/puikkokoot/) on nopea apu.
 
-**Liian vähän silmukoita sentillä.** Neuleesi on löysempää. Vaihda pienempään puikkokokoon ja tee uusi mallitilkku.
+**Liian vähän silmukoita 10 cm matkalla.** Neuleesi on löysempää. Vaihda pienempään puikkokokoon ja tee uusi mallitilkku.
 
 Joskus yksi koko riittää. Joskus tarvitaan kaksi hyppyä. Joskus silmukkatiheys ja kerrostiheys eivät osu samaan aikaan. Silloin silmukkatiheys saa yleensä etusijan, koska se hallitsee leveyttä. Kerrostiheydellä on silti merkitystä erityisesti hihanpyöriöissä, kaarrokkeissa ja pystysuuntaisessa kuvion sijoittelussa.
 
@@ -85,7 +85,7 @@ Jos projekti neulotaan suljettuna, tee mallitilkku suljettuna. Pieni putki sukka
 
 ## Miten neuletiheys liittyy projektin suunnitteluun
 
-Kun neuletiheys tiedetään, muu suunnittelu helpottuu. KnitToolsin [silmukkalaskuri](/fi/tyokalut/silmukkalaskuri/) käyttää sitä silmukkamäärän laskemiseen tavoiteleveyttä varten. [Lankamuunnin](/fi/tyokalut/lankamuunnin/) käyttää mittoja ja lankavahvuutta realistisemman langanmenekin arviointiin. Jos haluat vaiheittaisen mallitilkkuohjeen ilman teoriaa, sille on erillinen [mallitilkkuartikkeli](/articles/gauge-swatch-step-by-step/).
+Kun neuletiheys tiedetään, muu suunnittelu helpottuu. KnitToolsin [silmukkalaskuri](/fi/tyokalut/silmukkalaskuri/) käyttää sitä silmukkamäärän laskemiseen tavoiteleveyttä varten. [Lankamuunnin](/fi/tyokalut/lankamuunnin/) käyttää mittoja ja lankavahvuutta realistisemman langanmenekin arviointiin. Jos haluat vaiheittaisen mallitilkkuohjeen ilman teoriaa, sille on erillinen [mallitilkkuartikkeli](/fi/artikkelit/mallitilkun-neulominen-vaiheittain/).
 
 Ketju on tärkeä. Neuletiheys ohjaa silmukkamäärää. Silmukkamäärä ohjaa mittoja. Mitat ohjaavat langanmenekkiä. Jos ensimmäinen luku on pielessä, kaikki sen jälkeen liikkuu mukana.
 
@@ -98,10 +98,10 @@ Pieni mittausalue suurentaa jokaisen laskuvirheen vaikutusta. Jo neljäsosasilmu
 Yksi on minimi. Jos ensimmäinen ei osu ja vaihdat puikkokokoa, tarvitset uuden. Istuviin vaatteisiin kaksi tai kolme mallitilkkua ennen aloitusta on täysin tavallista. Huiveissa ja peitoissa toleranssi on väljempi.
 
 **Vaikuttaako lankavahvuus siihen, kuinka tärkeä neuletiheys on?**
-Paksu lanka suurentaa kokovirheitä nopeammin, koska jokainen silmukka on fyysisesti isompi. Puolen silmukan ero tuumaa kohti liikuttaa bulky-lankaa enemmän kuin fingering-lankaa. Istuviin vaatteisiin neuletiheys on tärkeä kaikilla vahvuuksilla.
+Paksu lanka suurentaa kokovirheitä nopeammin, koska jokainen silmukka on fyysisesti isompi. Kahden silmukan ero 10 cm matkalla liikuttaa bulky-lankaa enemmän kuin fingering-lankaa. Istuviin vaatteisiin neuletiheys on tärkeä kaikilla vahvuuksilla.
 
 **Neuletiheys täsmää viimeistelyn jälkeen mutta ei ennen sitä. Kumpi lasketaan?**
-Viimeistelty neuletiheys. Aina. Se on kangas, jota käytät. Ennen pesua mitattu lukema on vain kuva siitä, mitä lanka tekee puikolla jännityksessä.
+Viimeistelty neuletiheys. Aina. Se on se neulepinta, jota käytät. Ennen pesua mitattu lukema on vain kuva siitä, mitä lanka tekee puikolla jännityksessä.
 
 **Pitääkö mallitilkut säilyttää?**
 Säilyttäminen on hyödyllistä erityisesti villapaidoissa ja muissa töissä, joissa neuletiheyttä voi joutua tarkistamaan kesken projektin. Osa merkitsee tilkkuun puikkokoon ja langan. Osa purkaa sen, kun työ on turvallisesti alkanut. Molemmat toimivat, kunhan tilkku on ensin tehnyt tehtävänsä.

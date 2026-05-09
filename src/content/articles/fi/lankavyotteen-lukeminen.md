@@ -24,19 +24,19 @@ Vieressä lukee usein DK, Worsted tai Bulky. Kaikki merkit eivät paina CYC-symb
 
 Kuitusisältö ilmoitetaan prosentteina: `100 % merinovilla`, `75 % akryyli, 25 % villa`, `60 % puuvilla, 40 % modaali`. Tämä kertoo, mistä lanka on tehty, ja vaikuttaa valmiin neuleen tuntuun, laskeutuvuuteen, joustoon ja kestoon.
 
-Tämä kohta on tärkeä, kun [korvaat langan](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/). Villa-DK ja puuvilla-DK ovat molemmat DK-vahvuisia ja voivat neuloontua samaan neuletiheyteen, mutta valmis kangas ei käyttäydy samalla tavalla. [Kuituvertailu](/articles/yarn-fibers-compared/) käy eroja läpi tarkemmin.
+Tämä kohta on tärkeä, kun [korvaat langan](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/). Villa-DK ja puuvilla-DK ovat molemmat DK-vahvuisia ja voivat neuloontua samaan neuletiheyteen, mutta valmis neulepinta ei käyttäydy samalla tavalla. [Kuituvertailu](/fi/artikkelit/lankakuidut-vertailussa/) käy eroja läpi tarkemmin.
 
 Vyöte voi myös kertoa, onko lanka superwash-käsitelty, merseroitu tai harjattu. Nämä eivät ole koristeellisia sanoja. Superwash-villa kestää konepesua. Tavallinen villa ei. Se kannattaa huomata ennen kuin luot 300 silmukkaa vauvanpeittoon.
 
 ## Neuletiheystiedot
 
-Neuletiheysruutu näyttää silmukka- ja kerrosmäärän vakiomallitilkulla, yleensä 10 cm tai 4 tuuman matkalla, sekä suositellun puikko- tai koukkukoon.
+Neuletiheysruutu näyttää silmukka- ja kerrosmäärän vakiomallitilkulla, yleensä 10 cm matkalla, sekä suositellun puikko- tai koukkukoon. Englanninkielisissä vyötteissä sama alue voidaan ilmoittaa 4 tuumana.
 
 Tämä on lähtöpiste. Valmistaja on neulonut mallitilkun omalla käsialallaan ja kirjannut tuloksen. Sinun kätesi, puikkosi ja haluamasi neulepinnan tiheys voivat tuottaa toisen lukeman. Tee silti oma mallitilkku.
 
 ## Kerän paino ja metrit
 
-Vyöte kertoo kerän painon grammoina ja langan pituuden metreinä, jaardeina tai molempina. Molemmat ovat hyödyllisiä, mutta projektin suunnittelussa pituus on tärkein. Kaksi 100 gramman kerää voi sisältää aivan eri määrän lankaa kuitutiheyden mukaan. Siksi [langanmenekin opas](/fi/artikkelit/paljonko-lankaa-tarvitaan/) käyttää metrejä tai jaardeja, ei pelkkää kerien lukumäärää.
+Vyöte kertoo kerän painon grammoina ja langan pituuden metreinä, joskus myös jaardeina. Molemmat ovat hyödyllisiä, mutta projektin suunnittelussa pituus on tärkein. Kaksi 100 gramman kerää voi sisältää aivan eri määrän lankaa kuitutiheyden mukaan. Siksi [langanmenekin opas](/fi/artikkelit/paljonko-lankaa-tarvitaan/) käyttää metrejä, ei pelkkää kerien lukumäärää.
 
 ## Hoitosymbolit
 
@@ -80,7 +80,7 @@ Vyötteessä on merkin nimi, lankasarja ja alkuperämaa. Nämä ovat hyödyllisi
 
 Vyöte kertoo paljon, mutta ei kaikkea.
 
-Se ei kerro, miltä lanka näyttää neulottuna. Rauhallinen yksivärinen kerä voi tuottaa kauniin kankaan. Näyttävä käsinvärjätty kerä voi lammikoitua laikukkaaksi pinnaksi. Sitä ei voi päätellä vyötteestä varmasti.
+Se ei kerro, miltä lanka näyttää neulottuna. Rauhallinen yksivärinen kerä voi tuottaa kauniin neulepinnan. Näyttävä käsinvärjätty kerä voi lammikoitua laikukkaaksi pinnaksi. Sitä ei voi päätellä vyötteestä varmasti.
 
 Vyöte ei myöskään kerro kestosta. Nukkaantuuko lanka, pehmeneekö tai kovettuuko se pesussa, kestääkö se talven päivittäistä käyttöä. Nämä vastaukset tulevat kokemuksesta ja arvioista, eivät paperinauhasta.
 
@@ -93,8 +93,8 @@ KnitToolsin Yarn Label Scanner lukee vyötteen puhelimen kameralla ja tallentaa 
 **Mitä jos vyöte on kielellä, jota en ymmärrä?**
 Hoitosymbolit ja vahvuuskuvake ovat kansainvälisiä. Ne näyttävät samalta kielestä riippumatta.
 
-**Vyöte antaa neuletiheyden 10 cm matkalle, mutta ohje käyttää 4 tuumaa. Onko se sama?**
-Käytännössä kyllä. 10 cm on 3,937 tuumaa, ja useimmat neulojat käsittelevät niitä samana mittana.
+**Vyöte antaa neuletiheyden 10 cm matkalle, mutta englanninkielinen ohje käyttää 4 tuumaa. Onko se sama?**
+Käytännössä kyllä. Neljä tuumaa on 10,16 cm, ja useimmat neulojat käsittelevät niitä samana mittana.
 
 **Kannattaako lankavyöte säilyttää?**
 Kyllä. Ainakin siihen asti, että projekti on valmis ja pesty.

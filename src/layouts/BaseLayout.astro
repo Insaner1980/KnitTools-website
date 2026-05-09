@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import { COUNTRY_TO_TIER, FALLBACK_PRICING_TIER } from '../config/pricing';
 import { getLocale, type Lang } from '../i18n/config';
+import { useTranslations } from '../i18n/ui';
 
 interface Props {
   title: string;
@@ -19,6 +20,7 @@ const canonicalUrl = `${siteUrl}${canonicalPath}`;
 const fullTitle = `${title} | KnitTools`;
 const pageTitle = browserTitle ?? fullTitle;
 const ogLocale = getLocale(lang);
+const t = useTranslations(lang);
 ---
 
 <!DOCTYPE html>
@@ -63,7 +65,7 @@ const ogLocale = getLocale(lang);
   <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "90537a60e26f433485a8fdaf6b076843"}'></script><!-- End Cloudflare Web Analytics -->
 </head>
 <body class={bodyClass}>
-  <a href="#main-content" class="skip-link">{lang === 'fi' ? 'Siirry sisältöön' : 'Skip to content'}</a>
+  <a href="#main-content" class="skip-link">{t('skipToContent')}</a>
   <div class="page-wrapper">
     <slot />
   </div>

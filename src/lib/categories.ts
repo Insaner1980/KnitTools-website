@@ -29,6 +29,14 @@ export const CATEGORY_LABELS_FI: Record<CategorySlug, string> = {
   'app-tools': 'Sovellus ja työkalut',
 };
 
+export const CATEGORY_LABELS_DE: Record<CategorySlug, string> = {
+  'gauge-calculations': 'Maschenprobe und Rechner',
+  yarn: 'Garn',
+  needles: 'Nadeln',
+  techniques: 'Techniken',
+  'app-tools': 'App und Tools',
+};
+
 export const CATEGORY_COLORS: Record<CategorySlug, string> = {
   'gauge-calculations': 'card-terracotta',
   'yarn': 'card-rust',
@@ -63,10 +71,27 @@ export const CATEGORY_DESCRIPTIONS_FI: Record<CategorySlug, string> = {
     'Sovellukset, laskurit ja apuvälineet, joilla neuleprojektien seuraaminen ja suunnittelu pysyy helpompana.',
 };
 
-export function getCategoryLabel(slug: CategorySlug, lang: 'en' | 'fi' = 'en') {
-  return lang === 'fi' ? CATEGORY_LABELS_FI[slug] : CATEGORY_LABELS[slug];
+export const CATEGORY_DESCRIPTIONS_DE: Record<CategorySlug, string> = {
+  'gauge-calculations':
+    'Maschenprobe, Probestücke und Maschenzahlen. Die Rechnungen, die entscheiden, ob dein Strickstück am Ende die geplante Größe hat.',
+  yarn:
+    'Garn auswählen, ersetzen, Banderolen lesen und einschätzen, wie viel Garn ein Projekt wirklich braucht.',
+  needles:
+    'Nadelstärken, Materialien und Nadeltypen. Was sinnvoll ist und wann welche Nadel zum Projekt passt.',
+  techniques:
+    'Praktische Technik-Anleitungen. Fehler beheben, sauber fertigstellen und Strickanleitungen von Anschlag bis Abketten lesen.',
+  'app-tools':
+    'Apps, Rechner und Hilfsmittel, mit denen sich Strickprojekte leichter planen, verfolgen und organisieren lassen.',
+};
+
+export function getCategoryLabel(slug: CategorySlug, lang: 'en' | 'fi' | 'de' = 'en') {
+  if (lang === 'fi') return CATEGORY_LABELS_FI[slug];
+  if (lang === 'de') return CATEGORY_LABELS_DE[slug];
+  return CATEGORY_LABELS[slug];
 }
 
-export function getCategoryDescription(slug: CategorySlug, lang: 'en' | 'fi' = 'en') {
-  return lang === 'fi' ? CATEGORY_DESCRIPTIONS_FI[slug] : CATEGORY_DESCRIPTIONS[slug];
+export function getCategoryDescription(slug: CategorySlug, lang: 'en' | 'fi' | 'de' = 'en') {
+  if (lang === 'fi') return CATEGORY_DESCRIPTIONS_FI[slug];
+  if (lang === 'de') return CATEGORY_DESCRIPTIONS_DE[slug];
+  return CATEGORY_DESCRIPTIONS[slug];
 }

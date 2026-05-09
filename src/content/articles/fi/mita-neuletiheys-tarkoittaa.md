@@ -34,7 +34,7 @@ Yksi yleinen yllätys on suljettu neule verrattuna tasona neulomiseen. Tasona si
 
 Myös lanka vaikuttaa.
 
-Kuitusisältö vaikuttaa siihen, miten vakaana neuletiheys pysyy. Villa palautuu yleensä hyvin. Puuvilla roikkuu painavampana ja venyy helpommin. Superwash-villa voi muuttua pesussa tavalla, jota käsittelemätön villa ei tee. [Kuituvertailu](/articles/yarn-fibers-compared/) avaa näitä eroja tarkemmin.
+Kuitusisältö vaikuttaa siihen, miten vakaana neuletiheys pysyy. Villa palautuu yleensä hyvin. Puuvilla roikkuu painavampana ja venyy helpommin. Superwash-villa voi muuttua pesussa tavalla, jota käsittelemätön villa ei tee. [Kuituvertailu](/fi/artikkelit/lankakuidut-vertailussa/) avaa näitä eroja tarkemmin.
 
 Langan rakenne merkitsee myös. Tiivis, vahvasti kerrattu lanka käyttäytyy eri tavalla kuin ilmava yksisäikeinen lanka. Käsinkehrätty lanka voi vaihdella kohdasta toiseen, ja se kuuluu asiaan. Jopa värjäyserän erot voivat muuttaa langan tuntumaa vähän kerästä toiseen. Kaksi vuotta laatikossa puristuksissa ollut jämäkerä ei aina tunnu samalta kuin tuore kerä.
 
@@ -60,9 +60,9 @@ Isommassa heitossa purkaminen on aina vaihtoehto, mutta päätös on paljon help
 
 Silmukkatiheys määrää leveyden. Kerrostiheys määrää korkeuden.
 
-Kun ohje sanoo "neulo 35 cm", kerrostiheydellä on vähemmän merkitystä, koska lopetat, kun kangas on oikean mittainen. Kun ohje sanoo "neulo 96 kerrosta", kerrostiheydellä on paljon enemmän merkitystä, koska pituus riippuu täysin siitä, miten korkeita kerrokset ovat.
+Kun ohje sanoo "neulo 35 cm", kerrostiheydellä on vähemmän merkitystä, koska lopetat, kun työ on oikean mittainen. Kun ohje sanoo "neulo 96 kerrosta", kerrostiheydellä on paljon enemmän merkitystä, koska pituus riippuu täysin siitä, miten korkeita kerrokset ovat.
 
-Käytännön mallitilkku- ja viivainpuoleen löytyy tarkempi ohje artikkelista [neuletiheyden mittaaminen](/fi/artikkelit/neuletiheyden-mittaaminen/). Jos haluat erillisen vaiheittaisen mallitilkkuohjeen ilman teoriaa, [mallitilkkuohje](/articles/gauge-swatch-step-by-step/) on sitä varten.
+Käytännön mallitilkku- ja viivainpuoleen löytyy tarkempi ohje artikkelista [neuletiheyden mittaaminen](/fi/artikkelit/neuletiheyden-mittaaminen/). Jos haluat erillisen vaiheittaisen mallitilkkuohjeen ilman teoriaa, [mallitilkkuohje](/fi/artikkelit/mallitilkun-neulominen-vaiheittain/) on sitä varten.
 
 ## FAQ
 
@@ -76,4 +76,4 @@ Se on riski. Langan tuttuus auttaa, mutta eri mallineule, eri puikkomateriaali t
 Se on tavallista. Silmukkatiheys ja kerrostiheys liittyvät toisiinsa, mutta eivät ole sama asia. Useimmat ohjeet painottavat silmukkatiheyttä, koska leveyttä on vaikeampi korjata jälkikäteen kuin pituutta.
 
 **Vaikuttaako puikon materiaali neuletiheyteen?**
-Voi vaikuttaa. Metalli, puu ja bambu luovat langalle eri määrän kitkaa, ja se voi riittää muuttamaan tiheyttä. [Puikkomateriaalien opas](/articles/knitting-needle-materials/) kertoo, miten materiaalit vaikuttavat neulomiseen. Jos teet mallitilkun bambupuikoilla ja neulot projektin metallipuikoilla, tarkista neuletiheys uudelleen.
+Voi vaikuttaa. Metalli, puu ja bambu luovat langalle eri määrän kitkaa, ja se voi riittää muuttamaan tiheyttä. [Puikkomateriaalien opas](/fi/artikkelit/puikkomateriaalit-metalli-puu-bambu/) kertoo, miten materiaalit vaikuttavat neulomiseen. Jos teet mallitilkun bambupuikoilla ja neulot projektin metallipuikoilla, tarkista neuletiheys uudelleen.
