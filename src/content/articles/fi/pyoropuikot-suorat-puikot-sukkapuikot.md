@@ -32,7 +32,7 @@ Kaapelin pituudella on väliä. Suljetussa neuleessa kaapelin pitää sopia proj
 
 Lyhyet, 13-20 cm puikot, joissa on kärki molemmissa päissä. Niitä käytetään yleensä neljän tai viiden puikon settinä. Silmukat jaetaan kolmelle tai neljälle puikolle ja jäljelle jäävällä puikolla neulotaan.
 
-Sukkapuikot ovat perinteinen väline pieniin putkiin: [sukan](/articles/how-to-knit-socks/) kärjet, lapasen peukalot, [pipon](/articles/how-to-knit-hat/) kavennukset ja kapeat hihat. Ne tuntuvat aluksi hankalilta. Irralliset päät ovat tiellä, ja puikkojen väliin syntyy helposti tikapuita, kunnes opit kiristämään ensimmäisen silmukan hieman napakammin.
+Sukkapuikot ovat perinteinen väline pieniin putkiin: [sukan](/fi/artikkelit/sukkien-neulominen/) kärjet, lapasen peukalot, [pipon](/fi/artikkelit/pipon-neulominen/) kavennukset ja kapeat hihat. Ne tuntuvat aluksi hankalilta. Irralliset päät ovat tiellä, ja puikkojen väliin syntyy helposti tikapuita, kunnes opit kiristämään ensimmäisen silmukan hieman napakammin.
 
 Osa neulojista välttelee sukkapuikkoja kokonaan ja käyttää magic loopia. Toiset neulovat sukat ja lapaset sukkapuikoilla aina, koska ne ovat kompaktit ja nopeat, kun et enää taistele niitä vastaan. Molemmilla puolilla on vahvoja mielipiteitä.
 
@@ -52,12 +52,12 @@ Kappaleina neulottu villapaita toimii suorilla puikoilla tai pyöröpuikoilla ta
 
 Käytännön päätelmä: pyöröpuikot plus joko sukkapuikot tai magic loop -taito kattavat lähes kaiken. Suorat puikot ovat valinta, eivät välttämättömyys, ellei niitä jo omista ja pidä niistä.
 
-Jos mietit myös [puikkokokoa](/fi/tyokalut/puikkokoot/) tai [materiaalia](/articles/knitting-needle-materials/), ne ovat erillisiä päätöksiä puikkotyypistä.
+Jos mietit myös [puikkokokoa](/fi/tyokalut/puikkokoot/) tai [materiaalia](/fi/artikkelit/puikkomateriaalit-metalli-puu-bambu/), ne ovat erillisiä päätöksiä puikkotyypistä.
 
-## Muutama yleinen kysymys
+## FAQ
 
-Voivatko pyöröpuikot korvata suorat tasoneuleessa? Kyllä. Suorat puikot ovat nykyään enemmän mieltymys kuin vaatimus.
+**Voivatko pyöröpuikot korvata suorat tasoneuleessa?** Kyllä. Suorat puikot ovat nykyään enemmän mieltymys kuin vaatimus.
 
-Pyöröpuikon kaapelin pituus valitaan suljetussa neuleessa projektin ympärysmitan mukaan. Tasoneuleessa pidempi kaapeli vain antaa lisää tilaa. Sukkapuikoissa lyhyemmät, 13-15 cm puikot sopivat hyvin pieniin töihin, pidemmät 18-20 cm puikot antavat tilaa mutta voivat tuntua kömpelöiltä.
+**Miten pyöröpuikon kaapelin tai sukkapuikkojen pituus valitaan?** Pyöröpuikon kaapelin pituus valitaan suljetussa neuleessa projektin ympärysmitan mukaan. Tasoneuleessa pidempi kaapeli vain antaa lisää tilaa. Sukkapuikoissa lyhyemmät, 13-15 cm puikot sopivat hyvin pieniin töihin, pidemmät 18-20 cm puikot antavat tilaa mutta voivat tuntua kömpelöiltä.
 
-23 cm pyöröpuikkoja kannattaa kokeilla kerran hihoihin tai sukkiin. Niitä ei kannata ostaa joka koossa ennen kuin tiedät, sopivatko pienet kärjet omiin käsiisi.
+**Kannattaako 23 cm pyöröpuikkoja ostaa?** 23 cm pyöröpuikkoja kannattaa kokeilla kerran hihoihin tai sukkiin. Niitä ei kannata ostaa joka koossa ennen kuin tiedät, sopivatko pienet kärjet omiin käsiisi.

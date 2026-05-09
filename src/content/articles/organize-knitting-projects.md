@@ -6,8 +6,6 @@ category: app-tools
 categoryOrder: 3
 tags: ["organize knitting projects", "WIP management", "knitting project tracker", "track knitting progress", "multiple projects", "knitting time tracker"]
 ---
-# How to organize multiple WIP knitting projects
-
 Most knitters have more than one project going at once. A complex sweater for focused evening sessions. A simple sock for commuting. A mindless garter stitch blanket for TV knitting. Different projects for different moods and energy levels. This is normal.
 
 The trouble starts when "a few projects" quietly becomes seven, and you can't remember which needle size is in the half-finished hat, what row you stopped on in the cardigan, or whether you already bought the second skein for the cowl. WIP management isn't about limiting how many projects you have. It's about being able to pick up any one of them without spending ten minutes figuring out where you left off.

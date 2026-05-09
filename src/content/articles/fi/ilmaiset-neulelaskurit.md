@@ -14,7 +14,7 @@ Neljä neulelaskurityyppiä kattaa suurimman osan tarpeista. Tämän sivuston il
 
 ## Silmukkalaskuri
 
-Tiedät neuletiheyden eli mallitilkun silmukat tuumaa tai 10 cm kohti, ja tiedät halutun leveyden. [Silmukkalaskuri](/fi/tyokalut/silmukkalaskuri/) kertoo luotavien silmukoiden määrän ja auttaa siinä, missä käsin laskeminen helposti lipsuu: pyöristäminen parilliseen lukuun, reunasilmukat ja mallineuleen vaatima silmukkajako.
+Tiedät neuletiheyden eli mallitilkun silmukat 10 cm matkalla, ja tiedät halutun leveyden. [Silmukkalaskuri](/fi/tyokalut/silmukkalaskuri/) kertoo luotavien silmukoiden määrän ja auttaa siinä, missä käsin laskeminen helposti lipsuu: pyöristäminen parilliseen lukuun, reunasilmukat ja mallineuleen vaatima silmukkajako.
 
 Kaava on tarpeeksi helppo päässä laskettavaksi, jos kyseessä on tavallinen sileä neule. Se lakkaa olemasta helppo, kun mallineule toistuu 6 silmukalla plus 2 tasapainottavaa silmukkaa ja luvun pitää täyttää sekä leveys että toisto. Silloin laskuri ansaitsee paikkansa.
 
@@ -24,13 +24,13 @@ Käytä sitä, kun sovitat ohjetta omiin mittoihin, suunnittelet ilman ohjetta t
 
 Riittääkö kolme kerää? Kysymys varjostaa jokaista lankaostosta. Väärä arvaus tarkoittaa joko langan loppumista kesken hihan, kun värjäyserä on jo poissa, tai kallista jämälankaa.
 
-Langanmenekkilaskuri käyttää työn tyyppiä, mittoja, lankavahvuutta ja mallineuletta. Palmikkoinen villapaita tarvitsee selvästi enemmän lankaa kuin samankokoinen sileä villapaita, koska palmikot vetävät kangasta kasaan ja kuluttavat enemmän lankaa leveyttä kohti.
+Langanmenekkilaskuri käyttää työn tyyppiä, mittoja, lankavahvuutta ja mallineuletta. Palmikkoinen villapaita tarvitsee selvästi enemmän lankaa kuin samankokoinen sileä villapaita, koska palmikot vetävät neulepintaa kasaan ja kuluttavat enemmän lankaa leveyttä kohti.
 
-Tämän sivuston [lankamuunnin](/fi/tyokalut/lankamuunnin/) kattaa vaatteet, pipot, käsineet, sukat, peitot ja kodin tekstiilit koko- ja lankavahvuussäädöillä. Se on tärkeä myös langan korvaamisessa. Jos alkuperäinen lanka on 220 jaardia per 100 g ja korvaava lanka 164 jaardia per 100 g, tarvitset enemmän keriä, vaikka vahvuusluokka olisi sama.
+Tämän sivuston [lankamuunnin](/fi/tyokalut/lankamuunnin/) kattaa vaatteet, pipot, käsineet, sukat, peitot ja kodin tekstiilit koko- ja lankavahvuussäädöillä. Se on tärkeä myös langan korvaamisessa. Jos alkuperäinen lanka on 200 metriä per 100 g ja korvaava lanka 150 metriä per 100 g, tarvitset enemmän keriä, vaikka vahvuusluokka olisi sama.
 
 ## Neuletiheyden muunnin
 
-Mallitilkku antaa 22 silmukkaa 4 tuumalla, mutta ohje ilmoittaa neuletiheyden 10 cm matkalle. Tai mittasit 5 cm alueelta ja pitää skaalata suuremmaksi. Teoriassa pelkkää jakolaskua. Käytännössä helppo sotkea, kun muutat samaan aikaan metri- ja tuumajärjestelmän välillä.
+Mallitilkku antaa 22 silmukkaa 10 cm matkalla, mutta ohje ilmoittaa neuletiheyden pienemmältä mittausalueelta. Tai mittasit 5 cm alueelta ja pitää skaalata suuremmaksi. Teoriassa pelkkää jakolaskua. Käytännössä helppo sotkea, kun muutat samaan aikaan mittausalueen kokoa.
 
 Tätä tarvitaan harvemmin kuin muita laskureita, mutta silloin kun sitä tarvitaan, käsin tehty päässälasku on juuri sellainen asia, joka menee pieleen samalla kun lasket silmukoita. [Neuletiheyden mittausohje](/fi/artikkelit/neuletiheyden-mittaaminen/) kertoo, miten saat tarkan mallitilkkulukeman ennen kuin muunnat mitään.
 
@@ -40,7 +40,7 @@ Ohje sanoo "lisää 12 silmukkaa tasaisesti seuraavalla kerroksella". Puikolla o
 
 80 jaettuna 12:lla on 6,67. Osa väleistä on siis 6 silmukkaa ja osa 7. Laskuri kertoo tarkasti, mitkä välit ovat mitkä, jotta lisäykset näyttävät oikeasti tasaisilta. Neljän lisäyksen jakaminen käsin onnistuu. 18 lisäyksen jakaminen 142 silmukalle on laskurin työtä.
 
-Kaikki muotoilukerrokset hyötyvät tästä: hihan lisäykset, kaarrokkeen kavennukset ja [joustimen siirtymät](/articles/increase-decrease-evenly/), joissa silmukkamäärä muuttuu osioiden välillä.
+Kaikki muotoilukerrokset hyötyvät tästä: hihan lisäykset, kaarrokkeen kavennukset ja [joustimen siirtymät](/fi/artikkelit/lisaysten-ja-kavennusten-jakaminen/), joissa silmukkamäärä muuttuu osioiden välillä.
 
 ## Mikä erottaa hyvän laskurin huonosta
 
@@ -50,7 +50,7 @@ Laskurin pitää myös toimia puhelimella. Useimmat neulojat laskevat lankakaupa
 
 ## Laskureiden lisäksi: viitetaulukot
 
-Kaikki neulematematiikka ei ole laskemista. Osa on hakemista. Mikä US-puikkokoko vastaa 3,75 mm kokoa? Mikä lankavahvuus sopii neuletiheyteen 5 silmukkaa tuumalla? Mitä "psso" tarkoittaa?
+Kaikki neulematematiikka ei ole laskemista. Osa on hakemista. Mikä US-puikkokoko vastaa 3,75 mm kokoa? Mikä lankavahvuus sopii neuletiheyteen 20 silmukkaa 10 cm matkalla? Mitä "psso" tarkoittaa?
 
 Tämän sivuston [puikkokokotaulukko](/fi/tyokalut/puikkokoot/), [lankavahvuustaulukko](/fi/tyokalut/lankavahvuudet/) ja [neulelyhenteiden sanasto](/fi/tyokalut/neulelyhenteet/) ovat haettavia viitteitä näihin kysymyksiin. Ne eivät ole laskureita, mutta niihin palaa yhtä usein.
 

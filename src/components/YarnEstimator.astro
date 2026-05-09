@@ -1,11 +1,65 @@
 ---
+import type { Lang } from '../i18n/config';
+
 interface Props {
-  lang?: 'en' | 'fi';
+  lang?: Lang;
 }
 
 const { lang = 'en' } = Astro.props;
-const copy = lang === 'fi'
-  ? {
+const copy = {
+  en: {
+    legend: 'Yarn Estimator',
+    projectType: 'Project type',
+    adultGarments: 'ADULT GARMENTS',
+    childGarments: 'CHILD GARMENTS',
+    babyGarments: 'BABY GARMENTS',
+    hats: 'HATS',
+    hands: 'HANDS',
+    feet: 'FEET',
+    neck: 'NECK & SHOULDERS',
+    blankets: 'BLANKETS',
+    home: 'HOME',
+    size: 'Size',
+    yarnWeight: 'Yarn weight',
+    estimate: 'Estimate',
+    error: 'Please select valid options.',
+    metersLabel: 'meters',
+    yardsLabel: 'yards',
+    disclaimer: 'Estimate based on stockinette stitch. Cables, colorwork, and textured stitches use 15-20% more yarn. Always buy one extra skein.',
+    options: {
+      sweater: 'Sweater / Pullover',
+      cardigan: 'Cardigan',
+      vest: 'Vest',
+      poncho: 'Poncho',
+      childSweater: 'Child Sweater',
+      childCardigan: 'Child Cardigan',
+      babySweater: 'Baby Sweater',
+      babyCardigan: 'Baby Cardigan',
+      babyBooties: 'Baby Booties',
+      adultHat: 'Adult Hat / Beanie',
+      childHat: 'Child Hat',
+      babyHat: 'Baby Hat',
+      headband: 'Headband / Ear Warmer',
+      adultMittens: 'Adult Mittens',
+      childMittens: 'Child Mittens',
+      adultGloves: 'Adult Gloves',
+      fingerlessMitts: 'Fingerless Mitts',
+      adultSocks: 'Adult Socks',
+      childSocks: 'Child Socks',
+      slippers: 'Slippers',
+      scarf: 'Scarf',
+      cowl: 'Cowl / Snood',
+      shawl: 'Shawl',
+      wrap: 'Wrap / Stole',
+      babyBlanket: 'Baby Blanket',
+      throwBlanket: 'Throw Blanket',
+      lapBlanket: 'Lap Blanket',
+      afghan: 'Afghan / Bed Blanket',
+      dishcloth: 'Dishcloth / Washcloth',
+      pillowCover: 'Pillow Cover',
+    },
+  },
+  fi: {
       legend: 'Lankamuunnin',
       projectType: 'Työn tyyppi',
       adultGarments: 'AIKUISTEN VAATTEET',
@@ -56,59 +110,96 @@ const copy = lang === 'fi'
         dishcloth: 'Tiskirätti / pesulappu',
         pillowCover: 'Tyynynpäällinen',
       },
-    }
-  : {
-      legend: 'Yarn Estimator',
-      projectType: 'Project type',
-      adultGarments: 'ADULT GARMENTS',
-      childGarments: 'CHILD GARMENTS',
-      babyGarments: 'BABY GARMENTS',
-      hats: 'HATS',
-      hands: 'HANDS',
-      feet: 'FEET',
-      neck: 'NECK & SHOULDERS',
-      blankets: 'BLANKETS',
-      home: 'HOME',
-      size: 'Size',
-      yarnWeight: 'Yarn weight',
-      estimate: 'Estimate',
-      error: 'Please select valid options.',
-      metersLabel: 'meters',
-      yardsLabel: 'yards',
-      disclaimer: 'Estimate based on stockinette stitch. Cables, colorwork, and textured stitches use 15-20% more yarn. Always buy one extra skein.',
-      options: {
-        sweater: 'Sweater / Pullover',
-        cardigan: 'Cardigan',
-        vest: 'Vest',
-        poncho: 'Poncho',
-        childSweater: 'Child Sweater',
-        childCardigan: 'Child Cardigan',
-        babySweater: 'Baby Sweater',
-        babyCardigan: 'Baby Cardigan',
-        babyBooties: 'Baby Booties',
-        adultHat: 'Adult Hat / Beanie',
-        childHat: 'Child Hat',
-        babyHat: 'Baby Hat',
-        headband: 'Headband / Ear Warmer',
-        adultMittens: 'Adult Mittens',
-        childMittens: 'Child Mittens',
-        adultGloves: 'Adult Gloves',
-        fingerlessMitts: 'Fingerless Mitts',
-        adultSocks: 'Adult Socks',
-        childSocks: 'Child Socks',
-        slippers: 'Slippers',
-        scarf: 'Scarf',
-        cowl: 'Cowl / Snood',
-        shawl: 'Shawl',
-        wrap: 'Wrap / Stole',
-        babyBlanket: 'Baby Blanket',
-        throwBlanket: 'Throw Blanket',
-        lapBlanket: 'Lap Blanket',
-        afghan: 'Afghan / Bed Blanket',
-        dishcloth: 'Dishcloth / Washcloth',
-        pillowCover: 'Pillow Cover',
-      },
-    };
+  },
+  de: {
+    legend: 'Garnbedarfsrechner',
+    projectType: 'Projektart',
+    adultGarments: 'ERWACHSENENBEKLEIDUNG',
+    childGarments: 'KINDERBEKLEIDUNG',
+    babyGarments: 'BABYSACHEN',
+    hats: 'MÜTZEN',
+    hands: 'HÄNDE',
+    feet: 'FÜSSE',
+    neck: 'HALS & SCHULTERN',
+    blankets: 'DECKEN',
+    home: 'ZUHAUSE',
+    size: 'Größe',
+    yarnWeight: 'Garnstärke',
+    estimate: 'Schätzen',
+    error: 'Wähle gültige Optionen aus.',
+    metersLabel: 'Meter',
+    yardsLabel: 'Yards',
+    disclaimer: 'Schätzung basiert auf glatt rechts. Zopfmuster, mehrfarbiges Stricken und Strukturmuster brauchen oft 15-20 % mehr Garn. Kaufe meistens ein Knäuel extra.',
+    options: {
+      sweater: 'Pullover',
+      cardigan: 'Cardigan / Strickjacke',
+      vest: 'Pullunder / Weste',
+      poncho: 'Poncho',
+      childSweater: 'Kinderpullover',
+      childCardigan: 'Kinder-Cardigan',
+      babySweater: 'Babypullover',
+      babyCardigan: 'Baby-Cardigan',
+      babyBooties: 'Babyschühchen',
+      adultHat: 'Mütze für Erwachsene',
+      childHat: 'Kindermütze',
+      babyHat: 'Babymütze',
+      headband: 'Stirnband / Ohrwärmer',
+      adultMittens: 'Fäustlinge für Erwachsene',
+      childMittens: 'Kinderfäustlinge',
+      adultGloves: 'Handschuhe für Erwachsene',
+      fingerlessMitts: 'Stulpen',
+      adultSocks: 'Socken für Erwachsene',
+      childSocks: 'Kindersocken',
+      slippers: 'Hausschuhe',
+      scarf: 'Schal',
+      cowl: 'Loop / Schlauchschal',
+      shawl: 'Tuch',
+      wrap: 'Stola',
+      babyBlanket: 'Babydecke',
+      throwBlanket: 'Sofadecke',
+      lapBlanket: 'Kleine Decke',
+      afghan: 'Große Decke',
+      dishcloth: 'Spültuch / Waschlappen',
+      pillowCover: 'Kissenhülle',
+    },
+  },
+}[lang];
+
+const yarnWeightLabels = {
+  en: {
+    lace: 'Lace',
+    fingering: 'Fingering',
+    sport: 'Sport',
+    dk: 'DK',
+    worsted: 'Worsted',
+    aran: 'Aran',
+    bulky: 'Bulky',
+    superBulky: 'Super Bulky',
+    jumbo: 'Jumbo',
+  },
+  fi: {
+    lace: 'Lace',
+    fingering: 'Fingering',
+    sport: 'Sport',
+    dk: 'DK',
+    worsted: 'Worsted',
+    aran: 'Aran',
+    bulky: 'Bulky',
+    superBulky: 'Super Bulky',
+    jumbo: 'Jumbo',
+  },
+  de: {
+    lace: 'Lace',
+    fingering: 'Fingering / Sockengarn',
+    sport: 'Sport',
+    dk: 'DK / Light',
+    worsted: 'Worsted / Medium',
+    aran: 'Aran',
+    bulky: 'Bulky / Chunky',
+    superBulky: 'Super Bulky / Super Chunky',
+    jumbo: 'Jumbo',
+  },
+}[lang];
 ---
 
 <div class="yarn-estimator" data-error={copy.error} data-meters-label={copy.metersLabel} data-yards-label={copy.yardsLabel} data-disclaimer={copy.disclaimer}>
@@ -179,15 +270,15 @@ const copy = lang === 'fi'
     <div class="form-group">
       <label for="yarn-weight">{copy.yarnWeight}</label>
       <select id="yarn-weight">
-        <option value="lace">Lace</option>
-        <option value="fingering">Fingering</option>
-        <option value="sport">Sport</option>
-        <option value="dk">DK</option>
-        <option value="worsted" selected>Worsted</option>
-        <option value="aran">Aran</option>
-        <option value="bulky">Bulky</option>
-        <option value="super-bulky">Super Bulky</option>
-        <option value="jumbo">Jumbo</option>
+        <option value="lace">{yarnWeightLabels.lace}</option>
+        <option value="fingering">{yarnWeightLabels.fingering}</option>
+        <option value="sport">{yarnWeightLabels.sport}</option>
+        <option value="dk">{yarnWeightLabels.dk}</option>
+        <option value="worsted" selected>{yarnWeightLabels.worsted}</option>
+        <option value="aran">{yarnWeightLabels.aran}</option>
+        <option value="bulky">{yarnWeightLabels.bulky}</option>
+        <option value="super-bulky">{yarnWeightLabels.superBulky}</option>
+        <option value="jumbo">{yarnWeightLabels.jumbo}</option>
       </select>
     </div>
 

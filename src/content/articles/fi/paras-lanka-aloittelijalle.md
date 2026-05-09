@@ -52,7 +52,7 @@ Tämä on väliaikainen rajoitus. Kun perusasiat sujuvat, neulo millä värillä
 
 Ensimmäiseen projektiin, kuten huiviin tai tiskirättiin:
 
-Yksi kerä worsted-vahvuista lankaa, tyypillisesti 200-220 jaardia per 100 g, riittää lyhyeen noin 100-125 cm huiviin, jos leveys on 12-15 cm, tai useampaan tiskirättiin.
+Yksi kerä worsted-vahvuista lankaa, tyypillisesti 180-200 metriä per 100 g, riittää lyhyeen noin 100-125 cm huiviin, jos leveys on 12-15 cm, tai useampaan tiskirättiin.
 
 Pidempään huiviin osta kaksi kerää samasta värjäyserästä.
 
@@ -70,9 +70,9 @@ Pidempään huiviin osta kaksi kerää samasta värjäyserästä.
 
 ## Ensimmäisen projektin jälkeen
 
-Kun olet tehnyt yhden tai kaksi projektia, esimerkiksi klassisen [ensimmäisen huivin](/articles/knit-first-scarf/), ja käsiala alkaa tasoittua, lankamaailma avautuu. Alat huomata mistä kuitutuntumasta pidät, millaiset puikot sopivat käteen ja mitkä merkit toimivat. Ehkä haluat kokeilla merinoa. Ehkä joskus sukkalankaa. Ehkä käsinvärjättyä.
+Kun olet tehnyt yhden tai kaksi projektia, esimerkiksi klassisen [ensimmäisen huivin](/fi/artikkelit/ensimmaisen-huivin-neulominen/), ja käsiala alkaa tasoittua, lankamaailma avautuu. Alat huomata mistä kuitutuntumasta pidät, millaiset puikot sopivat käteen ja mitkä merkit toimivat. Ehkä haluat kokeilla merinoa. Ehkä joskus sukkalankaa. Ehkä käsinvärjättyä.
 
-Jos valitset samalla puikkoja, [aloittelijan puikko-opas](/fi/artikkelit/puikkokoko-aloittelijalle/) täydentää tätä artikkelia. [Lankavahvuustaulukko](/fi/tyokalut/lankavahvuudet/) auttaa, kun alat kokeilla muita kategorioita. [Kuituopas](/articles/yarn-fibers-compared/) vertailee eri kuitujen käyttäytymistä, mikä alkaa merkitä, kun valitset lankaa valmiin työn tuntuman etkä vain opettelun helppouden perusteella.
+Jos valitset samalla puikkoja, [aloittelijan puikko-opas](/fi/artikkelit/puikkokoko-aloittelijalle/) täydentää tätä artikkelia. [Lankavahvuustaulukko](/fi/tyokalut/lankavahvuudet/) auttaa, kun alat kokeilla muita kategorioita. [Kuituopas](/fi/artikkelit/lankakuidut-vertailussa/) vertailee eri kuitujen käyttäytymistä, mikä alkaa merkitä, kun valitset lankaa valmiin työn tuntuman etkä vain opettelun helppouden perusteella.
 
 ## FAQ
 
@@ -80,7 +80,7 @@ Jos valitset samalla puikkoja, [aloittelijan puikko-opas](/fi/artikkelit/puikkok
 Ei. Kallis lanka on parempi valmiisiin töihin, jotka haluat säilyttää. Opetteluun edullinen on ihanteellinen, koska et epäröi purkaa, tehdä virheitä tai hylätä harjoituspalaa. Oppiminen nopeutuu, kun virheet eivät maksa.
 
 **Voinko opetella langalla, joka minulla jo on?**
-Todennäköisesti. Jos se on worsted- tai DK-vahvuista, ei liian tummaa, ei efektilankaa eikä erittäin liukasta, se käy. Tarkista vyöte. Jos vyötettä ei ole, [tuntemattoman langan opas](/articles/identify-mystery-yarn/) auttaa selvittämään mitä sinulla on.
+Todennäköisesti. Jos se on worsted- tai DK-vahvuista, ei liian tummaa, ei efektilankaa eikä erittäin liukasta, se käy. Tarkista vyöte. Jos vyötettä ei ole, [tuntemattoman langan opas](/fi/artikkelit/tuntemattoman-langan-tunnistaminen/) auttaa selvittämään mitä sinulla on.
 
 **Onko merkillä väliä?**
 Ei paljon ensimmäisessä projektissa. Mikä tahansa askartelukaupan worsted-akryyli toimii. Kokemuksen myötä löydät mieltymykset, mutta nyt riittää oikea vahvuus, helppo kuitu ja väri, josta pidät.

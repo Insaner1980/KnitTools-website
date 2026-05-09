@@ -1,4 +1,6 @@
 ---
+import type { Lang } from '../i18n/config';
+
 interface WpiCategory {
   cyc: number;
   name: string;
@@ -22,15 +24,28 @@ interface Copy {
 }
 
 interface Props {
-  lang?: 'en' | 'fi';
+  lang?: Lang;
 }
 
 const { lang = 'en' } = Astro.props;
 
-const copy: Copy = lang === 'fi'
-  ? {
+const copy: Copy = {
+  en: {
+    heading: "Don't know your weight? Try WPI",
+    intro: 'Wrap your yarn around a pencil or ruler, count how many wraps fit in one inch, then enter that number.',
+    placeholder: 'e.g. 10',
+    prompt: 'Enter a WPI value between 1 and 40',
+    invalid: 'Enter a WPI value between 1 and 40',
+    between: 'sits between standard categories. Swatch to confirm.',
+    swatch: 'Your gauge swatch decides.',
+    suggests: 'suggests',
+    matches: 'matches',
+    or: 'or',
+    fallback: 'JavaScript is disabled. Scroll up and pick the category whose WPI range contains your count.',
+  },
+  fi: {
       heading: 'Etkö tiedä lankavahvuutta? Kokeile WPI:tä',
-      intro: 'Kierrä lanka kynän tai viivaimen ympärille, laske montako kierrosta mahtuu yhden tuuman matkalle ja syötä luku.',
+      intro: 'Kierrä lanka kynän tai viivaimen ympärille, laske montako kierrosta mahtuu noin 2,5 cm matkalle ja syötä luku.',
       placeholder: 'esim. 10',
       prompt: 'Syötä WPI-arvo väliltä 1-40',
       invalid: 'Syötä WPI-arvo väliltä 1-40',
@@ -40,20 +55,21 @@ const copy: Copy = lang === 'fi'
       matches: 'osuu luokkiin',
       or: 'tai',
       fallback: 'JavaScript ei ole käytössä. Valitse yllä oleva kategoria, jonka WPI-väliin laskemasi arvo osuu.',
-    }
-  : {
-      heading: "Don't know your weight? Try WPI",
-      intro: 'Wrap your yarn around a pencil or ruler, count how many wraps fit in one inch, then enter that number.',
-      placeholder: 'e.g. 10',
-      prompt: 'Enter a WPI value between 1 and 40',
-      invalid: 'Enter a WPI value between 1 and 40',
-      between: 'sits between standard categories. Swatch to confirm.',
-      swatch: 'Your gauge swatch decides.',
-      suggests: 'suggests',
-      matches: 'matches',
-      or: 'or',
-      fallback: 'JavaScript is disabled. Scroll up and pick the category whose WPI range contains your count.',
-    };
+  },
+  de: {
+    heading: 'Garnstärke unsicher? Miss WPI',
+    intro: 'Wickle das Garn um einen Stift oder ein Lineal, zähle die Wicklungen auf 2,5 cm (1 inch) und gib die Zahl ein.',
+    placeholder: 'z. B. 10',
+    prompt: 'Gib einen WPI-Wert von 1 bis 40 ein',
+    invalid: 'Gib einen WPI-Wert von 1 bis 40 ein',
+    between: 'liegt zwischen den Standardkategorien. Prüfe es mit einer Maschenprobe.',
+    swatch: 'Die Maschenprobe entscheidet.',
+    suggests: 'weist auf',
+    matches: 'passt zu',
+    or: 'oder',
+    fallback: 'JavaScript ist deaktiviert. Wähle oben die Kategorie, deren WPI-Bereich deine Zahl enthält.',
+  },
+}[lang];
 
 const categories: WpiCategory[] = lang === 'fi'
   ? [
@@ -66,6 +82,17 @@ const categories: WpiCategory[] = lang === 'fi'
       { cyc: 6, name: 'Super Bulky', regional: 'Super Chunky', min: 5, max: 6 },
       { cyc: 7, name: 'Jumbo', regional: 'Jumbo', min: 1, max: 4 },
     ]
+  : lang === 'de'
+    ? [
+        { cyc: 0, name: 'Lace', regional: 'Cobweb/Lace', min: 30, max: 40 },
+        { cyc: 1, name: 'Fingering / Sockengarn', regional: 'Super Fine', min: 14, max: 30 },
+        { cyc: 2, name: 'Sport', regional: 'Fine', min: 12, max: 18 },
+        { cyc: 3, name: 'DK / Light', regional: 'Light', min: 11, max: 15 },
+        { cyc: 4, name: 'Worsted / Aran / Medium', regional: 'Medium', min: 9, max: 12 },
+        { cyc: 5, name: 'Bulky / Chunky', regional: 'Bulky', min: 6, max: 9 },
+        { cyc: 6, name: 'Super Bulky / Super Chunky', regional: 'Super Bulky', min: 5, max: 6 },
+        { cyc: 7, name: 'Jumbo', regional: 'Jumbo', min: 1, max: 4 },
+      ]
   : [
       { cyc: 0, name: 'Lace', regional: 'Cobweb/Lace', min: 30, max: 40 },
       { cyc: 1, name: 'Super Fine', regional: 'Sock/Fingering', min: 14, max: 30 },

@@ -1,0 +1,140 @@
+---
+import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
+import WpiIdentifier from '../../../components/WpiIdentifier.astro';
+import { routes } from '../../../i18n/routes';
+
+const rows = [
+  ['0', 'Lace', 'Cobweb / Light fingering / 2-ply', '33-40+ M / 10 cm', '1.5-2.25 mm', '30-40+ WPI', 'Lochmustertücher, Deckchen und sehr feine Spitzenmuster', 'Lace, Cobweb, Light fingering, 2-ply (UK)'],
+  ['1', 'Fingering / Sockengarn', 'Super Fine / Sock / Baby / 4-ply', '27-32 M / 10 cm', '2.25-3.25 mm', '14-30 WPI', 'Socken, Babysachen, feine Tücher und leichte Kleidung', 'Sock, Fingering, Baby, 4-ply (UK/AUS)'],
+  ['2', 'Sport', 'Fine / Baby / 5-ply', '23-26 M / 10 cm', '3.25-3.75 mm', '12-18 WPI', 'Leichte Kleidung, Babysachen und Accessoires', 'Sport, Baby, 5-ply (UK/AUS)'],
+  ['3', 'DK / Light', 'DK / Light Worsted / 8-ply', '21-24 M / 10 cm', '3.75-4.5 mm', '11-15 WPI', 'Pullover, Mützen, Schals, Babydecken und Kleidung fürs ganze Jahr', 'DK (Double Knitting), Light Worsted, 8-ply (UK/AUS)'],
+  ['4', 'Worsted / Aran / Medium', 'Worsted / Aran / Afghan / 10-ply', '16-20 M / 10 cm', '4.5-5.5 mm', '9-12 WPI', 'Pullover, Mützen, Fäustlinge, Decken und viele Alltagsprojekte', 'Worsted, Aran, Afghan, 10-ply (AUS)'],
+  ['5', 'Bulky / Chunky', 'Chunky / Craft / Rug / 12-ply', '12-15 M / 10 cm', '5.5-8 mm', '6-9 WPI', 'Dicke Pullover, Schals, Decken und schnelle Projekte', 'Chunky, Craft, Rug, 12-ply (AUS)'],
+  ['6', 'Super Bulky / Super Chunky', 'Super Chunky / Bulky / Roving', '7-11 M / 10 cm', '8-12.75 mm', '5-6 WPI', 'Dicke Decken, Loops und schnell gestrickte Accessoires', 'Super Chunky, Bulky, Roving'],
+  ['7', 'Jumbo', 'Jumbo / Roving', '0-6 M / 10 cm', '12.75+ mm', '1-4 WPI', 'Armstricken, starke Struktur und sehr dicke Decken', 'Jumbo, Roving'],
+];
+
+const faqs = [
+  {
+    q: 'Welche Garnstärke ist am häufigsten?',
+    a: 'In nordamerikanischen Anleitungen ist Worsted sehr häufig. In europäischen und UK-Anleitungen begegnet dir DK ständig. Mit diesen beiden Bereichen deckst du viele Kleidungsstücke, Accessoires und Wohnprojekte ab.',
+  },
+  {
+    q: 'Kann ich eine Garnstärke durch eine andere ersetzen?',
+    a: 'Ja, aber Maschenprobe, Fall, Nadelstärke und Garnbedarf verändern sich. Nahe beieinanderliegende Stärken sind einfacher als ein großer Sprung von sehr dünn zu sehr dick.',
+  },
+  {
+    q: 'Was bedeutet zweifädig stricken?',
+    a: 'Du strickst zwei Fäden zusammen, als wären sie ein dickeres Garn. Zwei Fingering-Fäden können ungefähr DK ergeben, aber Faser, Drehung und Luftigkeit verschieben das Ergebnis.',
+  },
+  {
+    q: 'Warum wirkt mein Garn dünner oder dicker als die Banderole sagt?',
+    a: 'Garnstärken sind Bereiche, keine festen Punkte. Ein DK-Garn kann am leichten Rand liegen, ein anderes fast bei Worsted. Auch die Faser verändert den Eindruck: Baumwolle wirkt oft flacher, Alpaka kann nach dem Waschen aufblühen. Die Maschenprobe bestätigt, wo dein Garn praktisch landet.',
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Garnstärken-Tabelle"
+  description="Garnstärken-Tabelle mit Maschenprobe, Nadelstärke, WPI und typischen Projekten von Lace bis Jumbo."
+  canonicalPath={routes.tool.yarnWeightChart.de}
+  lang="de"
+  alternates={routes.tool.yarnWeightChart}
+  intro="Vergleiche Garnstärken und prüfe, welche Maschenprobe, Nadelstärke und WPI-Werte typischerweise dazugehören."
+  schemaName="Garnstärken-Tabelle"
+  schemaDescription="Tabelle der Garnstärken mit Maschenprobe, Nadelstärken und WPI-Werten."
+  faqs={faqs}
+  variant="sand"
+>
+  <div slot="tool">
+    <div class="cat-list">
+      {rows.map((row, index) => (
+        <details class="cat-card" open={index === 0}>
+          <summary class="cat-summary">
+            <span class="cat-heading">
+              <span>{row[0]}</span>
+              <span class="cat-name">{row[1]}</span>
+            </span>
+            <span class="cat-regional">{row[2]}</span>
+            <span class="cat-toggle" aria-hidden="true">+</span>
+          </summary>
+          <div class="cat-body">
+            <dl class="cat-details">
+              <div class="cat-row">
+                <dt>Maschenprobe</dt>
+                <dd>{row[3]}</dd>
+              </div>
+              <div class="cat-row">
+                <dt>Nadeln</dt>
+                <dd>{row[4]}</dd>
+              </div>
+              <div class="cat-row">
+                <dt>WPI</dt>
+                <dd>{row[5]}</dd>
+              </div>
+              <div class="cat-row">
+                <dt>Verwendung</dt>
+                <dd>{row[6]}</dd>
+              </div>
+              <div class="cat-row">
+                <dt>Regionale Namen</dt>
+                <dd>{row[7]}</dd>
+              </div>
+            </dl>
+          </div>
+        </details>
+      ))}
+    </div>
+    <WpiIdentifier lang="de" />
+  </div>
+
+  <div slot="content">
+    <h2>Warum Garnstärken schnell verwirrend werden</h2>
+    <p>Garnstärke bedeutet nicht, wie schwer ein Knäuel ist. Gemeint ist die Dicke des Fadens. Die Namen sind aber keine sauberen Schubladen. Dasselbe Garn kann in einer Region DK heißen, in einer anderen 8-ply und in einer dritten Light Worsted.</p>
+
+    <h3>Ply bedeutet nicht automatisch Fadenstärke</h3>
+    <p>Ply beschreibt ursprünglich die Anzahl der Einzelfäden. In heutigen Garnnamen ist es oft eher eine regionale Stärkenbezeichnung. Ein vierfädiges Garn ist nicht automatisch 4-ply-stark, und ein einfädiges Garn kann sehr dick sein.</p>
+
+    <h3>Worsted und Aran liegen nah beieinander</h3>
+    <p>Worsted und Aran liegen beide im mittleren Bereich, aber Aran ist in vielen Anleitungen etwas schwerer. Wenn du zwischen beiden wechselst, prüfe die Maschenprobe, bevor du ein Kleidungsstück beginnst.</p>
+
+    <h3>DK, Light Worsted und 8-ply</h3>
+    <p>Diese Namen können eine ähnliche Garnstärke beschreiben, aber die Grenzen überlappen. Deshalb sind die Maschenprobe auf der Banderole und deine eigene Probe verlässlicher als der Name allein.</p>
+
+    <h3>Wenn regionale Namen kollidieren</h3>
+    <p>US-, UK-, australische und europäische Bezeichnungen passen nicht immer eins zu eins zusammen. Wenn Anleitung und Garn aus verschiedenen Systemen kommen, vergleiche Millimeter, Maschenprobe und Meter statt nur den Namen.</p>
+
+    <h2>Wie Garnstärken-Kategorien funktionieren</h2>
+    <p>Die Kategorien sind praktische Bereiche. CYC 0-7 zeigt grob, ob ein Garn lacefein, sockengarnstark, DK, Worsted oder sehr dick ist. Jeder Bereich hat typische Maschenproben, Nadelstärken und WPI-Werte.</p>
+
+    <p>Die Bereiche überlappen absichtlich. Drehung, Faser und Ausrüstung verändern, wie ein Garn auf der Nadel wirkt und welche Strickfläche entsteht.</p>
+
+    <h2>WPI hilft, wenn die Banderole fehlt</h2>
+    <p>Der schnellste erste Test ist Wraps per Inch (WPI).</p>
+
+    <h3>WPI messen</h3>
+    <p>Wickle das Garn um einen Stift, ein Lineal oder ein WPI-Werkzeug. Die Wicklungen sollen nebeneinander liegen, nicht übereinander, und das Garn darf nicht gedehnt werden. Zähle, wie viele Wicklungen auf 2,5 cm passen. Die CYC-Bereiche sind bewusst breit:</p>
+
+    <ul>
+      <li>30-40+ WPI -> Lace (0)</li>
+      <li>14-30 WPI -> Fingering / Sockengarn (1)</li>
+      <li>12-18 WPI -> Sport (2)</li>
+      <li>11-15 WPI -> DK / Light (3)</li>
+      <li>9-12 WPI -> Worsted / Aran / Medium (4)</li>
+      <li>6-9 WPI -> Bulky / Chunky (5)</li>
+      <li>5-6 WPI -> Super Bulky / Super Chunky (6)</li>
+      <li>1-4 WPI -> Jumbo (7)</li>
+    </ul>
+
+    <p>Die Überlappungen sind normal. Ein Garn mit 12 WPI kann je nach Faser, Drehung und Strickfläche in mehrere Bereiche fallen.</p>
+
+    <h3>Wann WPI schwierig wird</h3>
+    <p>Flauschige, locker gedrehte oder bandartige Garne können beim Wickeln anders wirken als beim Stricken. Mohair kann luftig aufstricken, Baumwolle dichter und flacher. WPI bringt dich in die Nähe. Die Maschenprobe gibt die Antwort, die wirklich zählt.</p>
+
+    <h2>Garnstärke fürs Projekt wählen</h2>
+    <p>Dünneres Garn ergibt leichtere, langsamere Projekte. Dickeres Garn wächst schnell, kann aber warm, schwer und steif werden. Ein Tuch verzeiht mehr Experimente als ein sitzender Pullover. Bei Kleidung solltest du die Maschenprobe der Anleitung genauer treffen.</p>
+
+    <h2>Garnstärke und Nadelstärke gehören zusammen</h2>
+    <p>Die empfohlene Nadelstärke ist ein Ausgangspunkt. Dasselbe Worsted-Garn kann mit 4,5 mm feste Fäustlinge und mit 5,5 mm einen weicheren Schal ergeben. Die Nadel definiert die Garnstärke nicht, aber sie verändert Dichte, Fall und Verbrauch.</p>
+  </div>
+</LocalizedToolPage>

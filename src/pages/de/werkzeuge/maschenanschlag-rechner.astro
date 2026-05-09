@@ -1,0 +1,57 @@
+---
+import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
+import CastOnCalculator from '../../../components/CastOnCalculator.astro';
+import { routes } from '../../../i18n/routes';
+
+const faqs = [
+  {
+    q: 'Muss ich wirklich eine Maschenprobe stricken?',
+    a: 'Ja, wenn die Größe wichtig ist. Die Maschenprobe zeigt, wie viele Maschen du mit genau diesem Garn, dieser Nadelstärke und diesem Muster auf 10 cm bekommst.',
+  },
+  {
+    q: 'Zähle ich Randmaschen in der Maschenprobe mit?',
+    a: 'Normalerweise nicht. Miss in der Mitte der Maschenprobe und meide Anschlagkante und Seitenränder, weil sie oft fester oder lockerer sind.',
+  },
+  {
+    q: 'Warum rundet der Rechner auf eine gerade Maschenzahl?',
+    a: 'Viele Rippenmuster, Zöpfe und mehrfarbige Muster funktionieren sauberer mit einer geraden Maschenzahl. Wenn deine Anleitung einen bestimmten Rapport braucht, passe die Zahl danach daran an.',
+  },
+  {
+    q: 'Was mache ich, wenn die Anleitung ein bestimmtes Vielfaches verlangt?',
+    a: 'Addiere oder ziehe ein paar Maschen ab, bis die Zahl zum Rapport passt. Wenn der Rapport über 4 Maschen läuft und der Rechner 46 ergibt, nimm zum Beispiel 44 oder 48.',
+  },
+  {
+    q: 'Kann ich den Rechner fürs Stricken in Runden nutzen?',
+    a: 'Ja. Gib den gesamten Umfang als gewünschte Breite ein. Die Rechnung ist gleich, nur Rapport, Markierer und Bündchen solltest du separat prüfen.',
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Maschenanschlag-Rechner"
+  description="Berechne, wie viele Maschen du für eine gewünschte Breite anschlagen solltest. Gib Maschenprobe und Maß ein und erhalte sofort die Maschenzahl."
+  canonicalPath={routes.tool.castOnCalculator.de}
+  lang="de"
+  alternates={routes.tool.castOnCalculator}
+  intro="Gib deine Maschenprobe und die gewünschte Breite ein. Der Rechner sagt dir, wie viele Maschen du anschlagen solltest."
+  schemaName="Maschenanschlag-Rechner"
+  schemaDescription="Berechnet die Maschenzahl für den Anschlag anhand von Maschenprobe und gewünschter Breite."
+  faqs={faqs}
+>
+  <div slot="tool">
+    <CastOnCalculator lang="de" />
+  </div>
+
+  <div slot="content">
+    <h2>Was bedeutet Maschen anschlagen?</h2>
+    <p>Maschen anschlagen ist der erste Schritt eines Strickprojekts. Dabei entstehen die Anfangsmaschen auf der Nadel, aus denen dein Strickstück wächst. Die Maschenzahl bestimmt die Breite. Zu wenige Maschen machen das Stück zu schmal, zu viele lassen es schon vor der ersten richtigen Reihe in der falschen Größe starten.</p>
+
+    <h2>Warum die Maschenprobe entscheidet</h2>
+    <p>Dasselbe Garn und dieselbe Nadelstärke ergeben nicht bei allen dieselbe Strickfläche. Manche stricken fest, andere lockerer. Deshalb ist die Maschenprobe in der Anleitung ein Zielwert, kein Versprechen. Stricke eine Maschenprobe, wasche oder spanne sie wie das fertige Stück und miss die Maschen in der Mitte über 10 cm.</p>
+
+    <h2>So nutzt du den Rechner</h2>
+    <p>Du brauchst zwei Zahlen: deine Maschenprobe, also Maschen pro 10 cm oder 4 in, und die gewünschte Breite. Wenn du 20 Maschen auf 10 cm hast und ein 50 cm breites Stück brauchst, ergibt das 100 Maschen. Danach prüfst du noch den Rapport deiner Anleitung.</p>
+
+    <p>Wenn am Rand ein Bündchenmuster, ein Zopf oder ein Lochmuster sitzt, kann die endgültige Maschenzahl eine kleine Anpassung brauchen. Der Rechner gibt dir einen sauberen Ausgangspunkt. Die Anleitung hat beim Rapport das letzte Wort.</p>
+  </div>
+</LocalizedToolPage>

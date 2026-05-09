@@ -1,11 +1,29 @@
 ---
+import type { Lang } from '../i18n/config';
+
 interface Props {
-  lang?: 'en' | 'fi';
+  lang?: Lang;
 }
 
 const { lang = 'en' } = Astro.props;
-const copy = lang === 'fi'
-  ? {
+const copy = {
+  en: {
+    legend: 'Cast On Calculator',
+    gauge: 'Gauge (stitches per 10 cm / 4 in)',
+    decreaseGauge: 'Decrease gauge',
+    increaseGauge: 'Increase gauge',
+    gaugePlaceholder: 'e.g. 20',
+    width: 'Desired width',
+    decreaseWidth: 'Decrease width',
+    increaseWidth: 'Increase width',
+    widthPlaceholder: 'e.g. 50',
+    unitSelection: 'Unit selection',
+    inches: 'inches',
+    calculate: 'Calculate',
+    error: 'Please enter valid gauge and width values.',
+    resultLabel: 'stitches to cast on',
+  },
+  fi: {
       legend: 'Silmukkalaskuri',
       gauge: 'Neuletiheys (silmukkaa / 10 cm tai 4 in)',
       decreaseGauge: 'Pienennä neuletiheyttä',
@@ -20,23 +38,24 @@ const copy = lang === 'fi'
       calculate: 'Laske',
       error: 'Syötä kelvollinen neuletiheys ja leveys.',
       resultLabel: 'luotavaa silmukkaa',
-    }
-  : {
-      legend: 'Cast On Calculator',
-      gauge: 'Gauge (stitches per 10 cm / 4 in)',
-      decreaseGauge: 'Decrease gauge',
-      increaseGauge: 'Increase gauge',
-      gaugePlaceholder: 'e.g. 20',
-      width: 'Desired width',
-      decreaseWidth: 'Decrease width',
-      increaseWidth: 'Increase width',
-      widthPlaceholder: 'e.g. 50',
-      unitSelection: 'Unit selection',
-      inches: 'inches',
-      calculate: 'Calculate',
-      error: 'Please enter valid gauge and width values.',
-      resultLabel: 'stitches to cast on',
-    };
+  },
+  de: {
+    legend: 'Maschenanschlag-Rechner',
+    gauge: 'Maschenprobe (Maschen pro 10 cm / 4 in)',
+    decreaseGauge: 'Maschenprobe verkleinern',
+    increaseGauge: 'Maschenprobe vergrößern',
+    gaugePlaceholder: 'z. B. 20',
+    width: 'Gewünschte Breite',
+    decreaseWidth: 'Breite verkleinern',
+    increaseWidth: 'Breite vergrößern',
+    widthPlaceholder: 'z. B. 50',
+    unitSelection: 'Einheit',
+    inches: 'Zoll',
+    calculate: 'Berechnen',
+    error: 'Gib eine gültige Maschenprobe und Breite ein.',
+    resultLabel: 'anzuschlagende Maschen',
+  },
+}[lang];
 ---
 
 <div class="cast-on-calculator" data-error={copy.error} data-result-label={copy.resultLabel}>

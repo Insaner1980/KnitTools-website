@@ -6,8 +6,6 @@ category: yarn
 categoryOrder: 4
 tags: ["yarn for sweater", "yarn yardage calculator", "how much yarn do I need", "skeins needed", "yarn estimator", "yarn quantity", "sweater knitting"]
 ---
-# How much yarn for a sweater?
-
 A sweater is the largest garment most knitters make, and the yardage reflects it. Underestimate and you're chasing a discontinued dye lot with half a sleeve left to knit. Overestimate by too much and expensive yarn sits in the stash indefinitely.
 
 The right amount depends on three things: the sweater's size, the yarn weight, and the construction style. A cropped pullover in bulky might need 650 yards. A longline cardigan in fingering can push past 2,800. The ranges below cover the common ground.

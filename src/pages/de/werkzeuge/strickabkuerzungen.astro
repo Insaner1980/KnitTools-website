@@ -1,0 +1,250 @@
+---
+import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
+import { routes } from '../../../i18n/routes';
+
+type Category =
+  | 'cast-on-bind-off'
+  | 'increases'
+  | 'decreases'
+  | 'cables'
+  | 'lace'
+  | 'general'
+  | 'stitch-patterns';
+
+interface Abbreviation {
+  abbr: string;
+  def: string;
+  search: string;
+  categories: Category[];
+}
+
+const categoryLabels: Record<Category, string> = {
+  'cast-on-bind-off': 'Anschlag / Abketten',
+  increases: 'Zunahmen',
+  decreases: 'Abnahmen',
+  cables: 'Zöpfe',
+  lace: 'Lochmuster',
+  general: 'Allgemein',
+  'stitch-patterns': 'Muster',
+};
+
+const abbreviations: Abbreviation[] = [
+  { abbr: 'CO', def: 'Maschen anschlagen (cast on)', search: 'cast on maschen anschlagen anschlag', categories: ['cast-on-bind-off'] },
+  { abbr: 'BO', def: 'abketten (bind off US / cast off UK)', search: 'bind off cast off abketten abkettkante', categories: ['cast-on-bind-off'] },
+
+  { abbr: 'k', def: 'rechte Masche stricken (knit)', search: 'knit rechte masche rechts stricken', categories: ['general'] },
+  { abbr: 'p', def: 'linke Masche stricken (purl)', search: 'purl linke masche links stricken', categories: ['general'] },
+  { abbr: 'st(s)', def: 'Masche / Maschen (stitch/es)', search: 'stitch stitches masche maschen', categories: ['general'] },
+  { abbr: 'RS', def: 'rechte Seite (right side)', search: 'right side rechte seite vorderseite', categories: ['general'] },
+  { abbr: 'WS', def: 'linke Seite (wrong side)', search: 'wrong side linke seite rückseite', categories: ['general'] },
+  { abbr: 'rep', def: 'wiederholen (repeat)', search: 'repeat wiederholen wiederholung rapport', categories: ['general'] },
+  { abbr: 'beg', def: 'Anfang (beginning)', search: 'beginning anfang beginn', categories: ['general'] },
+  { abbr: 'rem', def: 'verbleibend (remaining)', search: 'remaining verbleibend rest', categories: ['general'] },
+  { abbr: 'cont', def: 'fortfahren (continue)', search: 'continue fortfahren weiterstricken', categories: ['general'] },
+  { abbr: 'alt', def: 'abwechselnd / alternativ (alternate)', search: 'alternate abwechselnd alternativ', categories: ['general'] },
+  { abbr: 'approx', def: 'ungefähr (approximately)', search: 'approximately ungefähr etwa circa', categories: ['general'] },
+  { abbr: 'tbl', def: 'durchs hintere Maschenglied (through back loop)', search: 'through back loop hinteres maschenglied verschränkt', categories: ['general'] },
+  { abbr: 'wyif', def: 'Faden vor der Arbeit (with yarn in front)', search: 'with yarn in front faden vorne vor der arbeit', categories: ['general'] },
+  { abbr: 'wyib', def: 'Faden hinter der Arbeit (with yarn in back)', search: 'with yarn in back faden hinten hinter der arbeit', categories: ['general'] },
+  { abbr: 'sl', def: 'Masche abheben (slip)', search: 'slip masche abheben', categories: ['general'] },
+  { abbr: 'sl st', def: 'abgehobene Masche (slip stitch)', search: 'slip stitch abgehobene masche', categories: ['general'] },
+  { abbr: 'pm', def: 'Maschenmarkierer setzen (place marker)', search: 'place marker maschenmarkierer setzen', categories: ['general'] },
+  { abbr: 'sm', def: 'Maschenmarkierer abheben (slip marker)', search: 'slip marker maschenmarkierer abheben', categories: ['general'] },
+  { abbr: 'MC', def: 'Hauptfarbe (main color)', search: 'main color hauptfarbe', categories: ['general'] },
+  { abbr: 'CC', def: 'Kontrastfarbe (contrast color)', search: 'contrast color kontrastfarbe', categories: ['general'] },
+  { abbr: 'dpn(s)', def: 'Nadelspiel (double-pointed needle/s)', search: 'double pointed needles nadelspiel sockennadeln', categories: ['general'] },
+  { abbr: 'cn', def: 'Zopfnadel (cable needle)', search: 'cable needle zopfnadel', categories: ['general'] },
+  { abbr: 'rnd(s)', def: 'Runde / Runden (round/s)', search: 'round rounds runde runden', categories: ['general'] },
+
+  { abbr: 'M1', def: 'eine Masche zunehmen (make one)', search: 'make one masche zunehmen zunahme', categories: ['increases'] },
+  { abbr: 'M1L', def: 'eine nach links geneigte Masche zunehmen', search: 'make one left links geneigte zunahme', categories: ['increases'] },
+  { abbr: 'M1R', def: 'eine nach rechts geneigte Masche zunehmen', search: 'make one right rechts geneigte zunahme', categories: ['increases'] },
+  { abbr: 'kfb', def: 'aus einer Masche vorn und hinten rechts stricken', search: 'knit front and back vorn hinten zunehmen', categories: ['increases'] },
+  { abbr: 'pfb', def: 'aus einer Masche vorn und hinten links stricken', search: 'purl front and back vorn hinten zunehmen', categories: ['increases'] },
+  { abbr: 'yo', def: 'Umschlag', search: 'yarn over umschlag lochmuster zunahme', categories: ['increases', 'lace'] },
+  { abbr: 'inc', def: 'zunehmen / Zunahme (increase)', search: 'increase zunehmen zunahme', categories: ['increases'] },
+
+  { abbr: 'k2tog', def: '2 M rechts zusammenstricken, rechts geneigte Abnahme', search: 'knit two together zwei maschen rechts zusammenstricken abnahme', categories: ['decreases', 'lace'] },
+  { abbr: 'p2tog', def: '2 M links zusammenstricken', search: 'purl two together zwei maschen links zusammenstricken abnahme', categories: ['decreases'] },
+  { abbr: 'ssk', def: 'ssk, links geneigte Abnahme', search: 'slip slip knit abheben abheben stricken links geneigte abnahme', categories: ['decreases', 'lace'] },
+  { abbr: 'skp', def: 'Masche abheben, rechts stricken, abgehobene Masche überziehen', search: 'slip knit pass slipped stitch over abgehobene masche überziehen', categories: ['decreases'] },
+  { abbr: 'sk2p', def: '1 M abheben, 2 M rechts zusammenstricken, abgehobene Masche überziehen', search: 'slip one knit two together pass slipped stitch over doppelte abnahme', categories: ['decreases', 'lace'] },
+  { abbr: 's2kp', def: '2 M abheben, 1 M stricken, abgehobene Maschen überziehen', search: 'slip two knit one pass two slipped stitches over zentrierte doppelte abnahme', categories: ['decreases'] },
+  { abbr: 'CDD', def: 'zentrierte doppelte Abnahme', search: 'centered double decrease zentrierte doppelte abnahme', categories: ['decreases'] },
+  { abbr: 'psso', def: 'abgehobene Masche überziehen', search: 'pass slipped stitch over abgehobene masche überziehen', categories: ['decreases'] },
+  { abbr: 'dec', def: 'abnehmen / Abnahme (decrease)', search: 'decrease abnehmen abnahme', categories: ['decreases'] },
+
+  { abbr: 'C4F', def: 'Zopf über 4 Maschen nach vorn', search: 'cable four front zopf vorn vorne', categories: ['cables'] },
+  { abbr: 'C4B', def: 'Zopf über 4 Maschen nach hinten', search: 'cable four back zopf hinten', categories: ['cables'] },
+  { abbr: 'C6F', def: 'Zopf über 6 Maschen nach vorn', search: 'cable six front zopf vorn vorne', categories: ['cables'] },
+  { abbr: 'C6B', def: 'Zopf über 6 Maschen nach hinten', search: 'cable six back zopf hinten', categories: ['cables'] },
+  { abbr: 'T2F', def: '2 Maschen nach vorn verkreuzen', search: 'twist two front verkreuzen zopf vorn', categories: ['cables'] },
+  { abbr: 'T2B', def: '2 Maschen nach hinten verkreuzen', search: 'twist two back verkreuzen zopf hinten', categories: ['cables'] },
+
+  { abbr: 'St st', def: 'glatt rechts (stockinette / stocking stitch)', search: 'stockinette stocking stitch glatt rechts', categories: ['stitch-patterns'] },
+  { abbr: 'g st', def: 'kraus rechts (garter stitch)', search: 'garter stitch kraus rechts', categories: ['stitch-patterns'] },
+  { abbr: 'rev St st', def: 'glatt links (reverse stockinette)', search: 'reverse stockinette glatt links', categories: ['stitch-patterns'] },
+  { abbr: 'rib', def: 'Rippenmuster / Bündchenmuster', search: 'ribbing rippenmuster bündchenmuster', categories: ['stitch-patterns'] },
+  { abbr: 'moss st', def: 'Moss stitch, Definition der Anleitung prüfen', search: 'moss stitch perlmuster strickmuster', categories: ['stitch-patterns'] },
+  { abbr: 'seed st', def: 'Seed stitch, Definition der Anleitung prüfen', search: 'seed stitch perlmuster strickmuster', categories: ['stitch-patterns'] },
+  { abbr: 'MB', def: 'Noppe nach Anleitung arbeiten (make bobble)', search: 'make bobble noppe bobble', categories: ['stitch-patterns'] },
+];
+
+const filterOrder: Array<Category | 'all'> = [
+  'all',
+  'cast-on-bind-off',
+  'increases',
+  'decreases',
+  'cables',
+  'lace',
+  'general',
+  'stitch-patterns',
+];
+
+const faqs = [
+  {
+    q: 'Sind Strickabkürzungen in deutschen und englischen Anleitungen gleich?',
+    a: 'Nein, nicht immer. Deutsche Anleitungen verwenden oft eigene Kürzel wie re M, li M, M und R. Englische Anleitungen nutzen k, p, yo, ssk und ähnliche Abkürzungen. Prüfe deshalb immer die Abkürzungsliste der jeweiligen Anleitung.',
+  },
+  {
+    q: 'Was bedeutet ein Stern in einer Strickanleitung?',
+    a: 'Ein Stern markiert meistens einen Rapport. Alles ab dem Stern bis zur Wiederholungsanweisung wird erneut gearbeitet. Klammern und eckige Klammern gruppieren ebenfalls Schritte, die mehrfach gestrickt werden.',
+  },
+  {
+    q: 'Was mache ich bei einer unbekannten Abkürzung?',
+    a: 'Suche zuerst in der Anleitung selbst. Designerinnen und Designer definieren eigene Kürzel besonders oft bei Zöpfen, Lochmustern und besonderen Maschen.',
+  },
+  {
+    q: 'Was ist der Unterschied zwischen ssk und skp?',
+    a: 'Beides sind links geneigte Abnahmen, und sie sehen im fertigen Gestrick ähnlich aus. ssk ist in modernen englischen Anleitungen häufiger, skp kommt öfter in älteren Anleitungen vor. Arbeite die Abnahme, die die Anleitung nennt.',
+  },
+  {
+    q: 'Muss ich alle Abkürzungen auswendig lernen?',
+    a: 'Nein. Die häufigsten Kürzel bleiben schnell hängen. Für seltene Abnahmen, Zöpfe und Lochmuster ist ein gutes Glossar zuverlässiger als Raten.',
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Strickabkürzungen"
+  description="Suche englische und internationale Strickabkürzungen und lies die deutsche Bedeutung. Mit Kategorien für Zunahmen, Abnahmen, Zöpfe und Muster."
+  canonicalPath={routes.tool.knittingAbbreviations.de}
+  lang="de"
+  alternates={routes.tool.knittingAbbreviations}
+  intro="Suche eine Abkürzung oder Technik. Das Glossar hilft dir, englische Strickanleitungen auf Deutsch zu lesen."
+  schemaName="Strickabkürzungen"
+  schemaDescription="Durchsuchbares Glossar für Strickabkürzungen und Stricktechniken."
+  faqs={faqs}
+  variant="brown"
+>
+  <div slot="tool">
+    <div class="abbr-wrapper">
+      <input
+        type="text"
+        id="abbr-search"
+        class="search-input"
+        placeholder='Abkürzung oder Technik suchen, z. B. "ssk" oder "Abnahme"'
+        autocomplete="off"
+      />
+
+      <div class="category-filters" role="group" aria-label="Nach Kategorie filtern">
+        {filterOrder.map((cat, index) => (
+          <button
+            type="button"
+            class={`cat-btn${index === 0 ? ' is-active' : ''}`}
+            data-cat={cat}
+            aria-pressed={index === 0 ? 'true' : 'false'}
+          >
+            {cat === 'all' ? 'Alle' : categoryLabels[cat as Category]}
+          </button>
+        ))}
+      </div>
+
+      <ul class="abbr-list" id="abbr-list" aria-label="Strickabkürzungen">
+        {abbreviations.map((item) => (
+          <li
+            class="abbr-row"
+            data-abbr={item.abbr.toLowerCase()}
+            data-def={item.def.toLowerCase()}
+            data-search={item.search.toLowerCase()}
+            data-cats={item.categories.join(' ')}
+            data-catlabels={item.categories.map((cat) => categoryLabels[cat].toLowerCase()).join(' ')}
+          >
+            <span class="abbr-term">{item.abbr}</span>
+            <span class="abbr-def">{item.def}</span>
+          </li>
+        ))}
+      </ul>
+
+      <p class="no-results" id="no-results" hidden>Keine passenden Abkürzungen gefunden.</p>
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Abkürzungen im Zusammenhang lesen</h2>
+    <p>Eine Abkürzung ist nur der Anfang. <code>k2tog</code> bedeutet nicht nur zwei Maschen zusammenstricken, sondern eine rechts geneigte Abnahme. Wenn Symmetrie sichtbar ist, zählt die Richtung.</p>
+
+    <h2>US- und UK-Anleitungen unterscheiden sich</h2>
+    <p>Englisch heißt nicht automatisch amerikanisch. In UK-Anleitungen kann <code>cast off</code> stehen, wo US-Anleitungen <code>bind off</code> schreiben. Auch Nadelstärken und Garnstärken können regional anders benannt sein.</p>
+
+    <h2>Anleitungsspezifische Abkürzungen</h2>
+    <p>Nicht jedes Kürzel steht in Standardlisten. Bei Zopf- und Lochmustern definieren Designer oft kurze Zeichenfolgen für Techniken, die nur in diesem Muster vorkommen. Die Abkürzungsliste, die stitch definitions und die Legende einer Strickschrift sind deshalb die wichtigste Quelle.</p>
+
+    <h2>Strickschriften haben eigene Symbole</h2>
+    <p>Eine Strickschrift verwendet nicht immer dieselbe Abkürzung wie die schriftliche Anleitung. Lies die Legende, bevor du beginnst. Ein Punkt, Strich oder geneigtes Symbol kann je nach Anleitung etwas anderes bedeuten.</p>
+
+    <h2>Diese Kürzel lohnen sich früh</h2>
+    <p>Für den Anfang reichen oft <code>k</code>, <code>p</code>, <code>st(s)</code>, <code>RS</code>, <code>WS</code>, <code>rep</code>, <code>yo</code>, <code>k2tog</code> und <code>ssk</code>. Zöpfe, Lochmuster und Formgebung bringen den Rest nach und nach dazu.</p>
+  </div>
+</LocalizedToolPage>
+
+<script>
+  const searchInput = document.getElementById('abbr-search') as HTMLInputElement | null;
+  const list = document.getElementById('abbr-list');
+  const noResults = document.getElementById('no-results');
+  const catButtons = document.querySelectorAll<HTMLButtonElement>('.cat-btn');
+
+  let activeCategory = 'all';
+
+  function applyFilters() {
+    if (!list || !noResults) return;
+    const rows = list.querySelectorAll<HTMLElement>('.abbr-row');
+    const query = (searchInput?.value || '').trim().toLowerCase();
+    let visibleCount = 0;
+
+    rows.forEach((row) => {
+      const cats = (row.dataset.cats || '').split(' ');
+      const haystack = [
+        row.dataset.abbr,
+        row.dataset.def,
+        row.dataset.search,
+        row.dataset.catlabels,
+      ].join(' ');
+
+      const matchesCategory = activeCategory === 'all' || cats.includes(activeCategory);
+      const matchesSearch = !query || haystack.includes(query);
+      const visible = matchesCategory && matchesSearch;
+
+      row.style.display = visible ? '' : 'none';
+      if (visible) visibleCount++;
+    });
+
+    noResults.hidden = visibleCount > 0;
+  }
+
+  searchInput?.addEventListener('input', applyFilters);
+
+  catButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      catButtons.forEach((item) => {
+        item.classList.remove('is-active');
+        item.setAttribute('aria-pressed', 'false');
+      });
+
+      button.classList.add('is-active');
+      button.setAttribute('aria-pressed', 'true');
+      activeCategory = button.dataset.cat || 'all';
+      applyFilters();
+    });
+  });
+</script>

@@ -14,11 +14,11 @@ Neuleohjeilla on oma kielensä ja oma tapansa jäsentää tietoa. Ohje rakentuu 
 
 Jokainen ohje alkaa tiedoilla, jotka kertovat mitä pitää hankkia ennen silmukoiden luomista.
 
-Lankatieto nimeää tietyn langan tai yleisen lankavahvuuden ja kertoo, paljonko sitä ostetaan metreinä, jaardeina, kerinä tai näiden yhdistelmänä. Jos korvaat langan, täsmää lankavahvuus ja kokonaismetrit, älä merkkiä. [Langan korvaamisen opas](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/) käsittelee tätä tarkemmin.
+Lankatieto nimeää tietyn langan tai yleisen lankavahvuuden ja kertoo, paljonko sitä ostetaan metreinä, kerinä tai näiden yhdistelmänä. Englanninkielisissä ohjeissa määrä voi olla jaardeina. Jos korvaat langan, täsmää lankavahvuus ja kokonaismetrit, älä merkkiä. [Langan korvaamisen opas](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/) käsittelee tätä tarkemmin.
 
 Puikot: suositeltu koko ja joskus myös tyyppi, kuten suorat, pyöröpuikot tai sukkapuikot. Villapaidoissa, joissa on joustinreunoja, listataan usein kaksi kokoa: pienempi joustimeen ja suurempi vartaloon.
 
-Neuletiheys on aloitustietojen tärkein numero. Se kertoo silmukat ja kerrokset 10 cm tai 4 tuuman matkalla tietyssä neulepinnassa. Jos oma neuletiheys ei täsmää, valmis työ ei ole oikean kokoinen. [Tee mallitilkku ennen aloitusta](/fi/artikkelit/neuletiheyden-mittaaminen/).
+Neuletiheys on aloitustietojen tärkein numero. Se kertoo silmukat ja kerrokset 10 cm matkalla tietyssä neulepinnassa. Englanninkielisissä ohjeissa sama voidaan ilmoittaa 4 tuuman matkalla. Jos oma neuletiheys ei täsmää, valmis työ ei ole oikean kokoinen. [Tee mallitilkku ennen aloitusta](/fi/artikkelit/neuletiheyden-mittaaminen/).
 
 Tarvikkeet eli notions ovat lisävarusteita: silmukkamerkit, palmikkopuikot, päättelyneula, napit, vetoketjut. Kaikki ohjeet eivät tarvitse niitä, mutta jos ne on listattu, hanki ne ennen aloitusta.
 
@@ -30,7 +30,7 @@ Monikokoisissa ohjeissa luvut esitetään näin: Luo 72 (80, 88, 96, 104) silmuk
 
 Ennen aloitusta päätä, mitä kokoa teet, ja merkitse sen luvut koko ohjeessa. Osa käyttää korostuskynää. Osa kopioi ohjeen ja ympyröi oikeat numerot. Osa kirjoittaa vain oman koon luvut erilliselle paperille.
 
-Valitse koko valmiiden mittojen perusteella, älä kokolapun perusteella. Medium tarkoittaa eri suunnittelijoille eri asioita. Katso todellinen rinnanympärys ja vertaa sitä omaan mittaasi plus haluttuun väljyyteen. [Koon ja istuvuuden opas](/articles/knitting-pattern-sizes-and-fit/) käsittelee väljyyttä ja kaavioita tarkemmin.
+Valitse koko valmiiden mittojen perusteella, älä kokolapun perusteella. Medium tarkoittaa eri suunnittelijoille eri asioita. Katso todellinen rinnanympärys ja vertaa sitä omaan mittaasi plus haluttuun väljyyteen. [Koon ja istuvuuden opas](/fi/artikkelit/neuleohjeen-koot-ja-istuvuus/) käsittelee väljyyttä ja kaavioita tarkemmin.
 
 ## Lyhenteet
 
@@ -58,15 +58,15 @@ Tämä on kohta, jossa moni kompastuu. Ohjeissa käytetään useita toistomerkin
 
 **Sulkeet:** "(K1, p1) across." Sulkeet toimivat kuten hakasulkeet. "Across" tarkoittaa toista kerroksen loppuun.
 
-Jotkut ohjeet sekoittavat tapoja. Tärkeintä on tunnistaa, mistä toisto alkaa, mihin se päättyy ja montako kertaa se tehdään. [Mallikertojen opas](/articles/knitting-pattern-repeats/) käsittelee monimutkaisempia ja sisäkkäisiä toistoja.
+Jotkut ohjeet sekoittavat tapoja. Tärkeintä on tunnistaa, mistä toisto alkaa, mihin se päättyy ja montako kertaa se tehdään. [Mallikertojen opas](/fi/artikkelit/neuleohjeen-toistot/) käsittelee monimutkaisempia ja sisäkkäisiä toistoja.
 
 ## "At the same time"
 
 Tämä tarkoittaa, että kaksi asiaa tapahtuu samaan aikaan samoilla kerroksilla. Esimerkiksi: "Continue in pattern, and AT THE SAME TIME, decrease 1 stitch at each end of every 4th row."
 
-Jatkat mallineuletta ja teet samalla kavennukset tietyin välein. Molemmat tapahtuvat samoilla kerroksilla, eivät peräkkäisinä vaiheina. Tämä on yleistä vaatteiden muotoilussa, kun kangas kapenee mutta mallineule jatkuu.
+Jatkat mallineuletta ja teet samalla kavennukset tietyin välein. Molemmat tapahtuvat samoilla kerroksilla, eivät peräkkäisinä vaiheina. Tämä on yleistä vaatteiden muotoilussa, kun kappale kapenee mutta mallineule jatkuu.
 
-Se on yksi hämmentävimmistä ohjemerkinnöistä, ja siitä on [oma artikkelinsa](/articles/at-the-same-time-knitting/).
+Se on yksi hämmentävimmistä ohjemerkinnöistä, ja siitä on [oma artikkelinsa](/fi/artikkelit/samaan-aikaan-neuleohjeessa/).
 
 ## Tekstiohjeet ja kaaviot
 

@@ -1,0 +1,387 @@
+---
+import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
+import { routes } from '../../../i18n/routes';
+
+interface Cell {
+  cm: string;
+  inch: string;
+}
+
+interface Row {
+  label: string;
+  cells: Cell[];
+}
+
+interface Table {
+  caption?: string;
+  sizeHeader?: string;
+  sizes: string[];
+  rows: Row[];
+}
+
+interface Panel {
+  id: string;
+  label: string;
+  intro?: string;
+  tables: Table[];
+}
+
+const c = (cm: string, inch: string): Cell => ({ cm, inch });
+
+const panels: Panel[] = [
+  {
+    id: 'baby',
+    label: 'Baby',
+    tables: [
+      {
+        sizes: ['3 M', '6 M', '12 M', '18 M', '24 M'],
+        rows: [
+          { label: 'Brustumfang', cells: [c('40.5 cm', '16"'), c('43 cm', '17"'), c('45.5 cm', '18"'), c('48 cm', '19"'), c('50.5 cm', '20"')] },
+          { label: 'Rückenlänge bis Taille', cells: [c('15.5 cm', '6"'), c('17.5 cm', '7"'), c('19 cm', '7.5"'), c('20.5 cm', '8"'), c('21.5 cm', '8.5"')] },
+          { label: 'Rückenbreite', cells: [c('18.5 cm', '7.25"'), c('19.5 cm', '7.75"'), c('21 cm', '8.25"'), c('21.5 cm', '8.5"'), c('22 cm', '8.75"')] },
+          { label: 'Ärmellänge bis Unterarm', cells: [c('15.5 cm', '6"'), c('16.5 cm', '6.5"'), c('19 cm', '7.5"'), c('20.5 cm', '8"'), c('21.5 cm', '8.5"')] },
+          { label: 'Oberarmumfang', cells: [c('14 cm', '5.5"'), c('15.5 cm', '6"'), c('16.5 cm', '6.5"'), c('17.5 cm', '7"'), c('19 cm', '7.5"')] },
+          { label: 'Armausschnitttiefe', cells: [c('8.5 cm', '3.25"'), c('9 cm', '3.5"'), c('9.5 cm', '3.75"'), c('10 cm', '4"'), c('10.5 cm', '4.25"')] },
+          { label: 'Taille', cells: [c('45.5 cm', '18"'), c('48 cm', '19"'), c('50.5 cm', '20"'), c('52 cm', '20.5"'), c('53.5 cm', '21"')] },
+          { label: 'Hüfte', cells: [c('48 cm', '19"'), c('50.5 cm', '20"'), c('50.5 cm', '20"'), c('53.5 cm', '21"'), c('56 cm', '22"')] },
+          { label: 'Nacken bis Handgelenk', cells: [c('26.5 cm', '10.5"'), c('29 cm', '11.5"'), c('31.5 cm', '12.5"'), c('35.5 cm', '14"'), c('45.5 cm', '18"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'kind',
+    label: 'Kind',
+    tables: [
+      {
+        sizes: ['Größe 2', 'Größe 4', 'Größe 6', 'Größe 8', 'Größe 10'],
+        rows: [
+          { label: 'Brustumfang', cells: [c('53 cm', '21"'), c('58.5 cm', '23"'), c('63.5 cm', '25"'), c('67 cm', '26.5"'), c('71 cm', '28"')] },
+          { label: 'Rückenlänge bis Taille', cells: [c('21.5 cm', '8.5"'), c('24 cm', '9.5"'), c('26.5 cm', '10.5"'), c('31.5 cm', '12.5"'), c('35.5 cm', '14"')] },
+          { label: 'Rückenbreite', cells: [c('23.5 cm', '9.25"'), c('25 cm', '9.75"'), c('26 cm', '10.25"'), c('27 cm', '10.75"'), c('28.5 cm', '11.25"')] },
+          { label: 'Ärmellänge bis Unterarm', cells: [c('21.5 cm', '8.5"'), c('26.5 cm', '10.5"'), c('29 cm', '11.5"'), c('31.5 cm', '12.5"'), c('34.5 cm', '13.5"')] },
+          { label: 'Oberarmumfang', cells: [c('17.5 cm', '7"'), c('19 cm', '7.5"'), c('20.5 cm', '8"'), c('21.5 cm', '8.5"'), c('22 cm', '8.75"')] },
+          { label: 'Armausschnitttiefe', cells: [c('10.5 cm', '4.25"'), c('12 cm', '4.75"'), c('12.5 cm', '5"'), c('14 cm', '5.5"'), c('15.5 cm', '6"')] },
+          { label: 'Taille', cells: [c('53.5 cm', '21"'), c('54.5 cm', '21.5"'), c('57 cm', '22.5"'), c('59.5 cm', '23.5"'), c('62 cm', '24.5"')] },
+          { label: 'Hüfte', cells: [c('56 cm', '22"'), c('59.5 cm', '23.5"'), c('63.5 cm', '25"'), c('71 cm', '28"'), c('75 cm', '29.5"')] },
+          { label: 'Nacken bis Handgelenk', cells: [c('45.5 cm', '18"'), c('49.5 cm', '19.5"'), c('52 cm', '20.5"'), c('56 cm', '22"'), c('61 cm', '24"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'jugend',
+    label: 'Jugend',
+    tables: [
+      {
+        sizes: ['Größe 12', 'Größe 14', 'Größe 16'],
+        rows: [
+          { label: 'Brustumfang', cells: [c('76 cm', '30"'), c('80 cm', '31.5"'), c('82.5 cm', '32.5"')] },
+          { label: 'Rückenlänge bis Taille', cells: [c('38 cm', '15"'), c('39.5 cm', '15.5"'), c('40.5 cm', '16"')] },
+          { label: 'Rückenbreite', cells: [c('30.5 cm', '12"'), c('31 cm', '12.25"'), c('33 cm', '13"')] },
+          { label: 'Ärmellänge bis Unterarm', cells: [c('38 cm', '15"'), c('40.5 cm', '16"'), c('42 cm', '16.5"')] },
+          { label: 'Oberarmumfang', cells: [c('23 cm', '9"'), c('23.5 cm', '9.25"'), c('24 cm', '9.5"')] },
+          { label: 'Armausschnitttiefe', cells: [c('16.5 cm', '6.5"'), c('17.5 cm', '7"'), c('19 cm', '7.5"')] },
+          { label: 'Taille', cells: [c('63.5 cm', '25"'), c('67.5 cm', '26.5"'), c('69.5 cm', '27.5"')] },
+          { label: 'Hüfte', cells: [c('80 cm', '31.5"'), c('83.5 cm', '33"'), c('90 cm', '35.5"')] },
+          { label: 'Nacken bis Handgelenk', cells: [c('66 cm', '26"'), c('68.5 cm', '27"'), c('71 cm', '28"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'frauen',
+    label: 'Frauen',
+    tables: [
+      {
+        caption: 'Frauen XS-XL',
+        sizes: ['XS', 'S', 'M', 'L', 'XL'],
+        rows: [
+          { label: 'Brustumfang', cells: [c('71-76 cm', '28-30"'), c('81-86 cm', '32-34"'), c('91.5-96.5 cm', '36-38"'), c('101.5-106.5 cm', '40-42"'), c('111.5-117 cm', '44-46"')] },
+          { label: 'Rückenlänge bis Taille', cells: [c('42 cm', '16.5"'), c('43 cm', '17"'), c('43.5 cm', '17.25"'), c('44.5 cm', '17.5"'), c('45 cm', '17.75"')] },
+          { label: 'Rückenbreite', cells: [c('35.5-37 cm', '14-14.5"'), c('37-38 cm', '14.5-15"'), c('39.5-40.5 cm', '15.5-16"'), c('42-43 cm', '16.5-17"'), c('44.5 cm', '17.5"')] },
+          { label: 'Ärmellänge bis Unterarm', cells: [c('42 cm', '16.5"'), c('43 cm', '17"'), c('43 cm', '17"'), c('44.5 cm', '17.5"'), c('44.5 cm', '17.5"')] },
+          { label: 'Oberarmumfang', cells: [c('25 cm', '9.75"'), c('26 cm', '10.25"'), c('28 cm', '11"'), c('30.5 cm', '12"'), c('34.5 cm', '13.5"')] },
+          { label: 'Armausschnitttiefe', cells: [c('15.5-16.5 cm', '6-6.5"'), c('16.5-17.5 cm', '6.5-7"'), c('17.5-19 cm', '7-7.5"'), c('19-20.5 cm', '7.5-8"'), c('20.5-21.5 cm', '8-8.5"')] },
+          { label: 'Taille', cells: [c('58.5-61 cm', '23-24"'), c('63.5-67.5 cm', '25-26.5"'), c('71-76 cm', '28-30"'), c('81.5-86.5 cm', '32-34"'), c('91.5-96.5 cm', '36-38"')] },
+          { label: 'Hüfte', cells: [c('83.5-86 cm', '33-34"'), c('89-91.5 cm', '35-36"'), c('96.5-101.5 cm', '38-40"'), c('106.5-111.5 cm', '42-44"'), c('116.5-122 cm', '46-48"')] },
+          { label: 'Nacken bis Handgelenk', cells: [c('66-68.5 cm', '26-26.5"'), c('68.5-70 cm', '27-27.5"'), c('71-72.5 cm', '28-28.5"'), c('73.5-75 cm', '29-29.5"'), c('73.5-75 cm', '29-29.5"')] },
+        ],
+      },
+      {
+        caption: 'Frauen 2XL-5XL',
+        sizes: ['2XL', '3XL', '4XL', '5XL'],
+        rows: [
+          { label: 'Brustumfang', cells: [c('122-127 cm', '48-50"'), c('132-137 cm', '52-54"'), c('142-147 cm', '56-58"'), c('152-158 cm', '60-62"')] },
+          { label: 'Rückenlänge bis Taille', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
+          { label: 'Rückenbreite', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
+          { label: 'Ärmellänge bis Unterarm', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
+          { label: 'Oberarmumfang', cells: [c('39.5 cm', '15.5"'), c('43 cm', '17"'), c('47 cm', '18.5"'), c('49.5 cm', '18.5"')] },
+          { label: 'Armausschnitttiefe', cells: [c('21.5-23 cm', '8.5-9"'), c('23-24 cm', '9-9.5"'), c('24-25.5 cm', '9.5-10"'), c('25.5-26.5 cm', '10-10.5"')] },
+          { label: 'Taille', cells: [c('101.5-106.5 cm', '40-42"'), c('111.5-114 cm', '44-45"'), c('116.5-119 cm', '46-47"'), c('124-127 cm', '49-50"')] },
+          { label: 'Hüfte', cells: [c('132-134.5 cm', '52-53"'), c('137-139.5 cm', '54-55"'), c('142-144.5 cm', '56-57"'), c('155-157 cm', '61-62"')] },
+          { label: 'Nacken bis Handgelenk', cells: [c('76.5-77.5 cm', '30-30.5"'), c('77.5-79 cm', '30.5-31"'), c('80-81.5 cm', '31.5-32"'), c('80-81.5 cm', '31.5-32"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'maenner',
+    label: 'Männer',
+    tables: [
+      {
+        caption: 'Männer S-XL',
+        sizes: ['S', 'M', 'L', 'XL'],
+        rows: [
+          { label: 'Brustumfang', cells: [c('86-91.5 cm', '34-36"'), c('96.5-101.5 cm', '38-40"'), c('106.5-111.5 cm', '42-44"'), c('116.5-122 cm', '46-48"')] },
+          { label: 'Rückenlänge bis Taille', cells: [c('58.5-61 cm', '23-24"'), c('63.5-66 cm', '25-26"'), c('66-68.5 cm', '26-27"'), c('71 cm', '28"')] },
+          { label: 'Rückenbreite', cells: [c('39.5-40.5 cm', '15.5-16"'), c('42-43 cm', '16.5-17"'), c('44.5-45.5 cm', '17.5-18"'), c('45.5-47 cm', '18-18.5"')] },
+          { label: 'Ärmellänge bis Unterarm', cells: [c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('49.5 cm', '19.5"'), c('50.5 cm', '20"')] },
+          { label: 'Oberarmumfang', cells: [c('30.5 cm', '12"'), c('33 cm', '13"'), c('38 cm', '15"'), c('39.5 cm', '15.5"')] },
+          { label: 'Armausschnitttiefe', cells: [c('21.5-23 cm', '8.5-9"'), c('23-24 cm', '9-9.5"'), c('24-25.5 cm', '9.5-10"'), c('25.5-26 cm', '10-10.5"')] },
+          { label: 'Taille', cells: [c('71-76 cm', '28-30"'), c('81.5-86.5 cm', '32-34"'), c('91.5-96.5 cm', '36-38"'), c('106.5-112 cm', '42-44"')] },
+          { label: 'Hüfte', cells: [c('89-94 cm', '35-37"'), c('99-104 cm', '39-41"'), c('109-114 cm', '43-45"'), c('119-124.5 cm', '47-49"')] },
+          { label: 'Nacken bis Handgelenk', cells: [c('81-82.5 cm', '32-32.5"'), c('83.5-85 cm', '33-33.5"'), c('86.5-87.5 cm', '34-34.5"'), c('89-90 cm', '35-35.5"')] },
+        ],
+      },
+      {
+        caption: 'Männer 2XL-5XL',
+        sizes: ['2XL', '3XL', '4XL', '5XL'],
+        rows: [
+          { label: 'Brustumfang', cells: [c('127-132 cm', '50-52"'), c('137-142 cm', '54-56"'), c('147.5-152 cm', '58-60"'), c('157.5-162.5 cm', '62-64"')] },
+          { label: 'Rückenlänge bis Taille', cells: [c('73.5 cm', '29"'), c('76 cm', '30"'), c('76 cm', '30"'), c('79 cm', '31"')] },
+          { label: 'Rückenbreite', cells: [c('48-51 cm', '19-20"'), c('48-51 cm', '20-21"'), c('51-54.5 cm', '21-21.5"'), c('56-57 cm', '22-22.5"')] },
+          { label: 'Ärmellänge bis Unterarm', cells: [c('52 cm', '20.5"'), c('52 cm', '20.5"'), c('49.5 cm', '21"'), c('53.5-54.5 cm', '21.5"')] },
+          { label: 'Oberarmumfang', cells: [c('42 cm', '16.5"'), c('44.5 cm', '17.5"'), c('47 cm', '18.5"'), c('48 cm', '20"')] },
+          { label: 'Armausschnitttiefe', cells: [c('28 cm', '11"'), c('29 cm', '11.5"'), c('30.5 cm', '12"'), c('32 cm', '12.5"')] },
+          { label: 'Taille', cells: [c('117-122 cm', '46-48"'), c('127-132 cm', '50-52"'), c('137-142 cm', '54-56"'), c('147.5-152.5 cm', '58-60"')] },
+          { label: 'Hüfte', cells: [c('129-134 cm', '51-53"'), c('137-142 cm', '54-56"'), c('142-147.5 cm', '56-58"'), c('147.5-152.5 cm', '58-60"')] },
+          { label: 'Nacken bis Handgelenk', cells: [c('91.5-92.5 cm', '36-36.5"'), c('94-95 cm', '37-37.5"'), c('96.5-97.5 cm', '38-38.5"'), c('99-100.5 cm', '39-39.5"')] },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'accessoires',
+    label: 'Accessoires',
+    intro: 'Kopf-, Fuß- und Handmaße für Mützen, Socken, Fäustlinge und Handschuhe.',
+    tables: [
+      {
+        caption: 'Kopfumfang',
+        sizeHeader: 'Gruppe',
+        sizes: ['Umfang'],
+        rows: [
+          { label: 'Frühchen', cells: [c('23-30.5 cm', '9-12"')] },
+          { label: 'Baby', cells: [c('35.5-40.5 cm', '14-16"')] },
+          { label: 'Kleinkind', cells: [c('40.5-46 cm', '16-18"')] },
+          { label: 'Kind', cells: [c('45.5-51 cm', '18-20"')] },
+          { label: 'Teen', cells: [c('51-56 cm', '20-22"')] },
+          { label: 'Frau', cells: [c('53-58.5 cm', '21-23"')] },
+          { label: 'Mann', cells: [c('56-61 cm', '22-24"')] },
+        ],
+      },
+      {
+        caption: 'Fußlänge',
+        sizeHeader: 'Größe',
+        sizes: ['Länge'],
+        rows: [
+          { label: 'Baby 0-6 M', cells: [c('9 cm', '3.5"')] },
+          { label: 'Baby 6-12 M', cells: [c('10-11 cm', '4-4.5"')] },
+          { label: 'Kleinkind 1-2 J', cells: [c('12-13 cm', '4.75-5"')] },
+          { label: 'Kind 3-6 J', cells: [c('14-18 cm', '5.5-7"')] },
+          { label: 'Kind 7-10 J', cells: [c('19-21 cm', '7.5-8.25"')] },
+          { label: 'Jugend', cells: [c('22-24 cm', '8.5-9.5"')] },
+          { label: 'Frauen', cells: [c('23-26 cm', '9-10.25"')] },
+          { label: 'Männer', cells: [c('25-29 cm', '10-11.5"')] },
+        ],
+      },
+      {
+        caption: 'Handumfang',
+        sizeHeader: 'Größe',
+        sizes: ['Umfang'],
+        rows: [
+          { label: 'Baby', cells: [c('10-13 cm', '4-5"')] },
+          { label: 'Kleinkind', cells: [c('13-15 cm', '5-6"')] },
+          { label: 'Kind', cells: [c('15-18 cm', '6-7"')] },
+          { label: 'Jugend', cells: [c('18-20 cm', '7-8"')] },
+          { label: 'Frauen', cells: [c('18-20 cm', '7-8"')] },
+          { label: 'Männer', cells: [c('20-23 cm', '8-9"')] },
+        ],
+      },
+    ],
+  },
+];
+
+const defaultPanel = 'frauen';
+
+const faqs = [
+  {
+    q: 'Wähle ich die Größe nach Körpermaß oder Fertigmaß?',
+    a: 'Meistens startest du mit dem Körpermaß und vergleichst es dann mit der gewünschten Mehrweite. Das Fertigmaß des Strickstücks ist nicht dasselbe wie dein Körpermaß.',
+  },
+  {
+    q: 'Was mache ich, wenn meine Maße zwischen zwei Größen liegen?',
+    a: 'Schau auf die Form des Modells. Bei einem lockeren Pullover kann die größere Größe passen, bei einem körpernahen Stück sind Schulter, Oberarm und Hüfte oft entscheidend.',
+  },
+  {
+    q: 'Messe ich über Kleidung oder auf der Haut?',
+    a: 'Miss über leichter Kleidung, zum Beispiel über einem anliegenden T-Shirt. Ein dicker Pullover addiert Zentimeter, die dein Körpermaß nicht widerspiegeln. Direkt auf der Haut kann der Wert etwas kleiner sein als das, was ein Kleidungsstück praktisch braucht.',
+  },
+  {
+    q: 'Kann ich die Tabelle direkt für Kinderkleidung verwenden?',
+    a: 'Die Tabelle gibt einen Ausgangspunkt. Bei Kindern variieren Länge, Schultern und Wachstumsspielraum stark, deshalb solltest du die Fertigmaße der Anleitung prüfen.',
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Größentabellen fürs Stricken"
+  description="Körpermaße für Strickanleitungen von Baby bis Erwachsene. Tabellen mit Brustumfang, Taille, Hüfte, Ärmellänge und mehr in cm und Zoll."
+  canonicalPath={routes.tool.knittingSizeCharts.de}
+  lang="de"
+  alternates={routes.tool.knittingSizeCharts}
+  intro="Nutze die Maße als Ausgangspunkt, wenn du eine Größe in einer Strickanleitung auswählst oder die Mehrweite prüfst. Wähle zuerst Gruppe und Einheit."
+  schemaName="Größentabellen fürs Stricken"
+  schemaDescription="Körpermaßtabellen zur Größenwahl in Strickanleitungen."
+  faqs={faqs}
+  variant="terracotta"
+>
+  <div slot="tool">
+    <div class="chart-controls">
+      <div class="tab-scroller">
+        <div class="tabs" role="tablist" aria-label="Größengruppe">
+          {panels.map((panel) => (
+            <button
+              type="button"
+              role="tab"
+              class={`tab-btn${panel.id === defaultPanel ? ' is-active' : ''}`}
+              data-tab={panel.id}
+              aria-selected={panel.id === defaultPanel ? 'true' : 'false'}
+              aria-controls={`panel-${panel.id}`}
+              id={`tab-${panel.id}`}
+            >
+              {panel.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div class="unit-toggle" role="radiogroup" aria-label="Einheit">
+        <button
+          type="button"
+          role="radio"
+          class="unit-btn is-active"
+          data-unit="cm"
+          aria-checked="true"
+        >CM</button>
+        <button
+          type="button"
+          role="radio"
+          class="unit-btn"
+          data-unit="inch"
+          aria-checked="false"
+        >Zoll</button>
+      </div>
+    </div>
+
+    <div class="chart-wrap show-cm" id="de-size-chart-wrap">
+      {panels.map((panel) => (
+        <div
+          class={`panel${panel.id === defaultPanel ? ' is-active' : ''}`}
+          data-panel={panel.id}
+          role="tabpanel"
+          id={`panel-${panel.id}`}
+          aria-labelledby={`tab-${panel.id}`}
+          hidden={panel.id !== defaultPanel}
+        >
+          {panel.intro && <p class="panel-intro">{panel.intro}</p>}
+          {panel.tables.map((table) => (
+            <div class="table-block">
+              {table.caption && <h3 class="table-caption">{table.caption}</h3>}
+              <div class="table-scroll">
+                <table class="size-table">
+                  <thead>
+                    <tr>
+                      <th class="sticky-col">{table.sizeHeader ?? 'Maß'}</th>
+                      {table.sizes.map((size) => <th>{size}</th>)}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {table.rows.map((row) => (
+                      <tr>
+                        <th scope="row" class="sticky-col row-label">{row.label}</th>
+                        {row.cells.map((cell) => (
+                          <td>
+                            <span class="unit-cm">{cell.cm}</span>
+                            <span class="unit-inch">{cell.inch}</span>
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Körper messen, nicht nur ein altes Kleidungsstück</h2>
+    <p>Die Größe einer Strickanleitung wählst du meistens aus Körpermaßen und geplanter Mehrweite. Ein Lieblingspullover kann helfen, das Gefühl einzuschätzen, ersetzt aber nicht Brustumfang, Hüfte und Ärmellänge.</p>
+
+    <h2>Körpermaß und Fertigmaß sind verschieden</h2>
+    <p>Wenn dein Brustumfang 96 cm ist und das fertige Strickstück 106 cm misst, hat es 10 cm Mehrweite. Das kann für einen lockeren Pullover genau richtig und für einen körpernahen Cardigan zu viel sein. Die Schemazeichnung der Anleitung zeigt, wo die Designerin Platz eingeplant hat.</p>
+
+    <h2>Wähle die Größe nach dem Modell</h2>
+    <p>Der Brustumfang entscheidet nicht alles. Bei langen Stücken kann die Hüfte wichtiger sein. Bei einem schmalen Ärmel kann der Oberarm ausschlaggebend sein, selbst wenn der Brustumfang passt. Prüfe ein paar Schlüsselmaße, bevor du dich festlegst.</p>
+  </div>
+</LocalizedToolPage>
+
+<script>
+  const tabButtons = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
+  const panels = document.querySelectorAll<HTMLElement>('.panel');
+
+  tabButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const target = button.dataset.tab;
+
+      tabButtons.forEach((tab) => {
+        const isActive = tab.dataset.tab === target;
+        tab.classList.toggle('is-active', isActive);
+        tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+
+      panels.forEach((panel) => {
+        const isActive = panel.dataset.panel === target;
+        panel.classList.toggle('is-active', isActive);
+        if (isActive) {
+          panel.removeAttribute('hidden');
+        } else {
+          panel.setAttribute('hidden', '');
+        }
+      });
+    });
+  });
+
+  const unitButtons = document.querySelectorAll<HTMLButtonElement>('.unit-btn');
+  const chartWrap = document.getElementById('de-size-chart-wrap');
+
+  unitButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const unit = button.dataset.unit;
+      if (!unit || !chartWrap) return;
+
+      unitButtons.forEach((unitButton) => {
+        const isActive = unitButton.dataset.unit === unit;
+        unitButton.classList.toggle('is-active', isActive);
+        unitButton.setAttribute('aria-checked', isActive ? 'true' : 'false');
+      });
+
+      chartWrap.classList.toggle('show-cm', unit === 'cm');
+      chartWrap.classList.toggle('show-inch', unit === 'inch');
+    });
+  });
+</script>

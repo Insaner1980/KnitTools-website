@@ -19,7 +19,16 @@ const tools = lang === 'fi'
       { label: 'Neulelyhenteet', href: routes.tool.knittingAbbreviations.fi },
       { label: 'Neulekokotaulukot', href: routes.tool.knittingSizeCharts.fi },
     ]
-  : [
+  : lang === 'de'
+    ? [
+        { label: 'Maschenanschlag-Rechner', href: routes.tool.castOnCalculator.de },
+        { label: 'Garnbedarfsrechner', href: routes.tool.yarnEstimator.de },
+        { label: 'Nadelstärken-Tabelle', href: routes.tool.needleSizeChart.de },
+        { label: 'Garnstärken-Tabelle', href: routes.tool.yarnWeightChart.de },
+        { label: 'Strickabkürzungen', href: routes.tool.knittingAbbreviations.de },
+        { label: 'Größentabellen fürs Stricken', href: routes.tool.knittingSizeCharts.de },
+      ]
+    : [
       { label: 'Cast On Calculator', href: routes.tool.castOnCalculator.en },
       { label: 'Yarn Estimator', href: routes.tool.yarnEstimator.en },
       { label: 'Needle Size Chart', href: routes.tool.needleSizeChart.en },
@@ -36,6 +45,14 @@ const articles = lang === 'fi'
       { label: 'Tekniikat', href: routes.category.techniques.fi },
       { label: 'Sovellus ja työkalut', href: routes.category['app-tools'].fi },
     ]
+  : lang === 'de'
+    ? [
+        { label: 'Maschenprobe und Rechner', href: routes.category['gauge-calculations'].de },
+        { label: 'Garn', href: routes.category.yarn.de },
+        { label: 'Nadeln', href: routes.category.needles.de },
+        { label: 'Techniken', href: routes.category.techniques.de },
+        { label: 'App und Tools', href: routes.category['app-tools'].de },
+      ]
   : [
       { label: 'Gauge & Calculations', href: routes.category['gauge-calculations'].en },
       { label: 'Yarn', href: routes.category.yarn.en },

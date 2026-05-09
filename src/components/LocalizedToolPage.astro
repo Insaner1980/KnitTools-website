@@ -1,0 +1,688 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import ClosingCTA from './ClosingCTA.astro';
+import type { Lang } from '../i18n/config';
+import { routes, type LocalizedPath } from '../i18n/routes';
+import { useTranslations } from '../i18n/ui';
+
+interface Faq {
+  q: string;
+  a: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  alternates: LocalizedPath;
+  lang?: Lang;
+  eyebrow?: string;
+  intro: string;
+  schemaName: string;
+  schemaDescription: string;
+  faqs: Faq[];
+  variant?: 'terracotta' | 'rust' | 'teal' | 'sand' | 'brown';
+}
+
+const {
+  title,
+  description,
+  canonicalPath,
+  alternates,
+  lang = 'fi',
+  eyebrow,
+  intro,
+  schemaName,
+  schemaDescription,
+  faqs,
+  variant = 'terracotta',
+} = Astro.props;
+
+const t = useTranslations(lang);
+const toolEyebrow = eyebrow ?? t('tools');
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  lang={lang}
+  alternates={alternates}
+  showStripe={false}
+>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: schemaName,
+    description: schemaDescription,
+    url: `https://knittoolsapp.com${canonicalPath}`,
+    applicationCategory: 'UtilityApplication',
+    operatingSystem: 'Any',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'EUR',
+    },
+  })} />
+
+  {faqs.length > 0 && (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqs.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    })} />
+  )}
+
+  <section class="tool-hero">
+    <div class="hero-inner">
+      <p class="eyebrow">
+        <a href={routes.toolsIndex[lang]} class="eyebrow-back">← {t('allTools')}</a>
+      </p>
+      <p class="tool-eyebrow">{toolEyebrow}</p>
+      <h1>{title}</h1>
+      <p class="hero-intro">{intro}</p>
+      <div class:list={['form-card', `variant-${variant}`, 'is-wide']}>
+        <slot name="tool" />
+      </div>
+    </div>
+  </section>
+
+  <section class="seo-content">
+    <div class="content-inner">
+      <slot name="content" />
+    </div>
+  </section>
+
+  <section class="tool-faq">
+    <div class="faq-inner">
+      <h2>{t('frequentlyAskedQuestions')}</h2>
+      <div class="faq">
+        {faqs.map((f) => (
+          <details>
+            <summary>{f.q} <span aria-hidden="true">+</span></summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <ClosingCTA variant="page" lang={lang} />
+</PageLayout>
+
+<style>
+  .tool-hero {
+    color: var(--ink);
+    padding: 80px 40px 48px;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .hero-inner,
+  .content-inner,
+  .faq-inner {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .eyebrow,
+  .tool-eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 16px;
+  }
+
+  .eyebrow-back {
+    color: var(--terracotta);
+    text-decoration: none;
+  }
+
+  .eyebrow-back:hover {
+    color: var(--ink);
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2.3rem, 5vw, 4.4rem);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin: 0 0 20px;
+  }
+
+  .hero-intro {
+    font-family: var(--body-ed);
+    font-size: clamp(17px, 1.5vw, 20px);
+    line-height: 1.55;
+    max-width: 640px;
+    margin: 0 0 32px;
+  }
+
+  .form-card {
+    overflow: hidden;
+  }
+
+  .form-card :global(.table-wrapper) {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .form-card :global(.table-scroll) {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .form-card :global(.abbr-wrapper) {
+    width: 100%;
+  }
+
+  .form-card :global(.search-input) {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 20px 14px 44px;
+    font-size: 16px;
+    font-family: var(--body-ed);
+    background-color: var(--paper-2);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%23F4EAD960' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 14px center;
+    border: 1.5px solid var(--ink);
+    color: var(--ink);
+    outline: none;
+    border-radius: 0;
+    transition: outline 0.15s ease;
+  }
+
+  .form-card :global(.search-input::placeholder) {
+    color: var(--ink-soft);
+  }
+
+  .form-card :global(.search-input:focus) {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
+  }
+
+  .form-card :global(.category-filters) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 20px 0 8px;
+  }
+
+  .form-card :global(.cat-btn) {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 10px 2px;
+    background: transparent;
+    color: var(--ink-soft);
+    border: 0;
+    border-bottom: 1.5px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    transition: color 200ms ease, border-color 200ms ease;
+    white-space: nowrap;
+    line-height: 1;
+  }
+
+  .form-card :global(.cat-btn:hover),
+  .form-card :global(.cat-btn.is-active) {
+    color: var(--terracotta);
+  }
+
+  .form-card :global(.cat-btn.is-active) {
+    border-bottom-color: var(--terracotta);
+  }
+
+  .form-card :global(.cat-btn:focus-visible) {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 4px;
+  }
+
+  .form-card :global(.chart-controls) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 32px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 32px;
+    border-bottom: 1px solid rgba(244, 234, 217, 0.15);
+  }
+
+  .form-card :global(.tab-scroller) {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .form-card :global(.tab-scroller::-webkit-scrollbar) {
+    display: none;
+  }
+
+  .form-card :global(.tabs) {
+    display: flex;
+    gap: 24px;
+    width: max-content;
+  }
+
+  .form-card :global(.tab-btn),
+  .form-card :global(.unit-btn) {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 10px 2px;
+    background: transparent;
+    color: var(--ink-soft);
+    border: 0;
+    border-bottom: 1.5px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .form-card :global(.tab-btn:hover),
+  .form-card :global(.unit-btn:hover),
+  .form-card :global(.tab-btn.is-active),
+  .form-card :global(.unit-btn.is-active) {
+    color: var(--terracotta);
+  }
+
+  .form-card :global(.tab-btn.is-active),
+  .form-card :global(.unit-btn.is-active) {
+    border-bottom-color: var(--terracotta);
+  }
+
+  .form-card :global(.tab-btn:focus-visible),
+  .form-card :global(.unit-btn:focus-visible) {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 3px;
+  }
+
+  .form-card :global(.unit-toggle) {
+    display: inline-flex;
+    gap: 20px;
+    flex-shrink: 0;
+  }
+
+  .form-card :global(.panel) {
+    display: none;
+  }
+
+  .form-card :global(.panel.is-active) {
+    display: block;
+  }
+
+  .form-card :global(.panel-intro) {
+    font-family: var(--body-ed);
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--ink-soft);
+    margin: 0 0 24px;
+  }
+
+  .form-card :global(.table-block + .table-block) {
+    margin-top: 40px;
+  }
+
+  .form-card :global(table) {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: transparent;
+    margin: 0;
+  }
+
+  .form-card :global(thead th) {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    padding: 16px 12px;
+    text-align: left;
+    white-space: nowrap;
+    border-bottom: 1.5px solid var(--ink);
+    background: transparent;
+  }
+
+  .form-card :global(tbody td),
+  .form-card :global(tbody th) {
+    font-family: var(--body-ed);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ink);
+    padding: 14px 12px;
+    border-bottom: 1px solid rgba(244, 234, 217, 0.15);
+    text-align: left;
+    vertical-align: top;
+    background: transparent;
+  }
+
+  .form-card :global(tbody tr:hover td),
+  .form-card :global(tbody tr:hover th) {
+    background-color: rgba(160, 80, 56, 0.08);
+  }
+
+  .form-card :global(.needle-table thead th:first-child),
+  .form-card :global(.needle-table tbody td:first-child),
+  .form-card :global(.size-table .sticky-col) {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: var(--paper);
+  }
+
+  .form-card :global(.needle-table .col-mm),
+  .form-card :global(.table-caption),
+  .form-card :global(.row-label) {
+    color: var(--terracotta);
+    font-weight: 600;
+  }
+
+  .form-card :global(.size-table) {
+    min-width: 640px;
+  }
+
+  .form-card :global(.chart-wrap.show-cm .unit-inch),
+  .form-card :global(.chart-wrap.show-inch .unit-cm) {
+    display: none;
+  }
+
+  .form-card :global(.cat-list) {
+    border-top: 1.5px solid var(--ink);
+  }
+
+  .form-card :global(.cat-card) {
+    border-bottom: 1px solid rgba(244, 234, 217, 0.15);
+  }
+
+  .form-card :global(.cat-summary) {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 4px;
+    cursor: pointer;
+    list-style: none;
+    color: var(--ink);
+    transition: background-color 200ms ease;
+  }
+
+  .form-card :global(.cat-summary::-webkit-details-marker) {
+    display: none;
+  }
+
+  .form-card :global(.cat-summary:hover),
+  .form-card :global(.abbr-row:hover) {
+    background-color: rgba(160, 80, 56, 0.08);
+  }
+
+  .form-card :global(.cat-heading) {
+    flex: 0 0 auto;
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+  }
+
+  .form-card :global(.cat-name) {
+    color: var(--ink);
+  }
+
+  .form-card :global(.cat-regional) {
+    flex: 1 1 auto;
+    font-family: var(--body-ed);
+    font-size: 15px;
+    color: var(--ink-soft);
+    text-align: right;
+  }
+
+  .form-card :global(.cat-toggle) {
+    flex: 0 0 auto;
+    width: 24px;
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 22px;
+    line-height: 1;
+    color: var(--terracotta);
+    transition: transform 200ms ease;
+  }
+
+  .form-card :global(.cat-card[open] .cat-toggle) {
+    transform: rotate(45deg);
+  }
+
+  .form-card :global(.cat-body) {
+    padding: 0 4px 20px;
+  }
+
+  .form-card :global(.cat-details) {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    padding: 4px 0 0;
+  }
+
+  .form-card :global(.cat-row) {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 20px;
+    padding: 10px 0;
+    border-top: 1px solid rgba(244, 234, 217, 0.12);
+  }
+
+  .form-card :global(.cat-row:first-child) {
+    border-top: none;
+  }
+
+  .form-card :global(.cat-row dt) {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0;
+  }
+
+  .form-card :global(.cat-row dd) {
+    font-family: var(--body-ed);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--ink);
+    margin: 0;
+  }
+
+  .form-card :global(.abbr-list) {
+    list-style: none;
+    margin: 24px 0 0;
+    padding: 0;
+    border-top: 1px solid rgba(244, 234, 217, 0.25);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+
+  .form-card :global(.abbr-row) {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 16px;
+    align-items: baseline;
+    padding: 14px 16px 14px 0;
+    border-bottom: 1px solid rgba(244, 234, 217, 0.15);
+    transition: background-color 150ms ease;
+  }
+
+  .form-card :global(.abbr-term) {
+    font-family: var(--mono);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--terracotta);
+    letter-spacing: 0.02em;
+  }
+
+  .form-card :global(.abbr-def) {
+    font-family: var(--body-ed);
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--ink);
+  }
+
+  .form-card :global(.no-results) {
+    font-family: var(--body-ed);
+    font-style: italic;
+    color: var(--terracotta);
+    font-size: 16px;
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  .seo-content,
+  .tool-faq {
+    padding: 56px 40px;
+    border-bottom: 1px solid rgba(42, 30, 23, 0.14);
+  }
+
+  .content-inner {
+    font-family: var(--body-ed);
+    font-size: clamp(17px, 1.3vw, 18px);
+    line-height: 1.68;
+  }
+
+  .content-inner :global(h2),
+  .faq-inner h2 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.7rem, 3vw, 2.4rem);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    margin: 0 0 18px;
+    color: var(--ink);
+  }
+
+  .content-inner :global(h2) {
+    margin-top: 2.2em;
+  }
+
+  .content-inner :global(h2:first-child) {
+    margin-top: 0;
+  }
+
+  .content-inner :global(h3) {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 1.35rem;
+    margin: 1.7em 0 0.45em;
+  }
+
+  .content-inner :global(p),
+  .content-inner :global(ul) {
+    margin: 0 0 1.2em;
+  }
+
+  .content-inner :global(a) {
+    color: var(--terracotta);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .content-inner :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0 32px;
+    font-size: 15px;
+  }
+
+  .content-inner :global(th),
+  .content-inner :global(td) {
+    border: 1px solid rgba(42, 30, 23, 0.25);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .content-inner :global(th) {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    background: var(--paper);
+  }
+
+  .faq {
+    border-top: 1px solid var(--ink);
+  }
+
+  .faq details {
+    border-bottom: 1px solid rgba(42, 30, 23, 0.22);
+    padding: 18px 0;
+  }
+
+  .faq summary {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: var(--body-ed);
+    font-size: 18px;
+    color: var(--ink);
+  }
+
+  .faq summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq p {
+    font-family: var(--body-ed);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    max-width: 720px;
+    margin: 14px 0 0;
+  }
+
+  @media (max-width: 768px) {
+    .tool-hero,
+    .seo-content,
+    .tool-faq {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .form-card :global(.cat-summary) {
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .form-card :global(.cat-regional) {
+      flex-basis: 100%;
+      text-align: left;
+    }
+
+    .form-card :global(.cat-row) {
+      grid-template-columns: 1fr;
+      gap: 4px;
+    }
+
+    .form-card :global(.abbr-list) {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
