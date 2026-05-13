@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: yarn
 categoryOrder: 8
 tags: ["Garnfasern Vergleich", "Wolle oder Baumwolle Stricken", "Acryl oder Wolle Garn", "beste Garnfaser Stricken"]
-draft: true
+draft: false
 lang: de
 translationKey: "yarn-fibers-compared"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "How to Track Your Knitting Time and Speed"
-description: "Track knitting sessions to see where your time goes and how your speed changes over time. Practical methods from simple timers to dedicated session trackers."
+description: "Track knitting sessions to see where your time goes and how speed changes. Practical methods from simple timers to dedicated session trackers."
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 7

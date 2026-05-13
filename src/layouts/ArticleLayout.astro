@@ -2,6 +2,7 @@
 import PageLayout from './PageLayout.astro';
 import ClosingCTA from '../components/ClosingCTA.astro';
 import { getCategoryLabel, type CategorySlug } from '../lib/categories';
+import { getArticlesIndexPath } from '../i18n/articles';
 import { useTranslations } from '../i18n/ui';
 import type { Lang } from '../i18n/config';
 
@@ -20,11 +21,11 @@ interface Props {
 const { title, description, category, publishDate, updatedDate, lang = 'en', canonicalPath, alternates } = Astro.props;
 const t = useTranslations(lang);
 const categoryLabel = getCategoryLabel(category, lang);
-const dateLocale = lang === 'fi' ? 'fi-FI' : lang === 'de' ? 'de-DE' : 'en-US';
+const dateLocale = lang === 'fi' ? 'fi-FI' : lang === 'de' ? 'de-DE' : lang === 'sv' ? 'sv-SE' : lang === 'no' ? 'nb-NO' : lang === 'fr' ? 'fr-FR' : 'en-US';
 const formattedUpdated = updatedDate?.toLocaleDateString(dateLocale, { year: 'numeric', month: 'long' });
 const formattedPublished = publishDate.toLocaleDateString(dateLocale, { year: 'numeric', month: 'long' });
 const dateLabel = formattedUpdated ? `${t('updated')} ${formattedUpdated}` : `${t('published')} ${formattedPublished}`;
-const articlesPath = lang === 'fi' ? '/fi/artikkelit/' : lang === 'de' ? '/de/artikel/' : '/articles/';
+const articlesPath = getArticlesIndexPath(lang);
 ---
 
 <PageLayout title={title} description={description} canonicalPath={canonicalPath ?? `/articles/${Astro.params.slug}/`} bodyClass="article" lang={lang} alternates={alternates}>
@@ -202,6 +203,49 @@ const articlesPath = lang === 'fi' ? '/fi/artikkelit/' : lang === 'de' ? '/de/ar
     padding: 1px 6px;
     background: var(--paper-2);
     border-radius: 0;
+  }
+
+  .prose :global(pre) {
+    margin: 1.8em 0;
+    padding: 18px 20px;
+    overflow-x: auto;
+    background-color: var(--paper-2) !important;
+    color: var(--ink) !important;
+  }
+
+  .prose :global(pre code) {
+    display: block;
+    padding: 0;
+    background: transparent;
+    color: inherit;
+    line-height: 1.6;
+  }
+
+  .prose :global(table) {
+    width: 100%;
+    margin: 1.8em 0;
+    border-collapse: collapse;
+    font-size: var(--ts-table-cell-size);
+    line-height: 1.45;
+  }
+
+  .prose :global(th),
+  .prose :global(td) {
+    padding: 0.55em 1.1em 0.55em 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--ink) 18%, transparent);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .prose :global(th) {
+    font-size: var(--ts-table-header-size);
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .prose :global(th:last-child),
+  .prose :global(td:last-child) {
+    padding-right: 0;
   }
 
   .prose :global(hr) {

@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: needles
 categoryOrder: 3
 tags: ["Nadelstärke Anfänger", "erste Stricknadeln", "Stricken lernen Nadelstärke", "beste Nadeln für Anfänger"]
-draft: true
+draft: false
 lang: de
 translationKey: "needle-size-for-beginners"
 ---

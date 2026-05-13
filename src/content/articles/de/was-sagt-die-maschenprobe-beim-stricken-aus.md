@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 1
 tags: ["Maschenprobe", "Maschenprobe Stricken", "warum ändert sich die Maschenprobe", "Strickspannung"]
-draft: true
+draft: false
 lang: de
 translationKey: "what-is-gauge-in-knitting"
 ---

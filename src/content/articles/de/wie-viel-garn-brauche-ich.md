@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: yarn
 categoryOrder: 2
 tags: ["wie viel Garn brauche ich", "Garnbedarf berechnen", "Garnmenge Stricken", "wie viele Knäuel brauche ich"]
-draft: true
+draft: false
 lang: de
 translationKey: "how-much-yarn-do-i-need"
 ---

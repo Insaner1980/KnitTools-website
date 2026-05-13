@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 8
 tags: ["gleichzeitig Strickanleitung", "gleichzeitig stricken", "parallele Strickanweisungen", "Formgebung gleichzeitig stricken"]
-draft: true
+draft: false
 lang: de
 translationKey: "at-the-same-time-knitting"
 ---

@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: yarn
 categoryOrder: 6
 tags: ["Garn ersetzen Strickanleitung", "Garnersatz Stricken", "anderes Garn für Anleitung", "Garn austauschen Stricken"]
-draft: true
+draft: false
 lang: de
 translationKey: "how-to-substitute-yarn"
 ---

@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 2
 tags: ["Strickanleitung lesen", "Strickanleitung Anfänger", "Strickanleitung verstehen", "Strickabkürzungen lesen"]
-draft: true
+draft: false
 lang: de
 translationKey: "how-to-read-knitting-pattern"
 ---

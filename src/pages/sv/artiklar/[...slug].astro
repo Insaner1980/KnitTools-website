@@ -1,0 +1,32 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '../../../layouts/ArticleLayout.astro';
+import { getArticleAlternates, getArticlePath, getArticleSlug, getSwedishArticleRouteSlug } from '../../../i18n/articles';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles', ({ data }) =>
+    data.lang === 'sv' && (import.meta.env.DEV ? true : !data.draft)
+  );
+  return articles.map((article) => ({
+    params: { slug: getSwedishArticleRouteSlug(article.data.translationKey ?? getArticleSlug(article.id), getArticleSlug(article.id)) },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+---
+
+<ArticleLayout
+  title={article.data.title}
+  description={article.data.description}
+  category={article.data.category}
+  publishDate={article.data.publishDate}
+  updatedDate={article.data.updatedDate}
+  tags={article.data.tags}
+  lang="sv"
+  canonicalPath={getArticlePath(article, 'sv')}
+  alternates={getArticleAlternates(article)}
+>
+  <Content />
+</ArticleLayout>

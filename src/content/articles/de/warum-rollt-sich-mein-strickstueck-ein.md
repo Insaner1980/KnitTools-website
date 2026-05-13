@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 4
 tags: ["glatt rechts rollt sich", "Strickstück rollt sich ein", "Strickkante rollt sich", "Rollkante Stricken"]
-draft: true
+draft: false
 lang: de
 translationKey: "why-knitting-curls"
 ---

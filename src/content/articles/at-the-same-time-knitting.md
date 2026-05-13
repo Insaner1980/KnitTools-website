@@ -1,5 +1,5 @@
 ---
-title: '"At the Same Time" in Knitting Patterns'
+title: "At the Same Time in Knitting"
 description: "Understand the 'at the same time' instruction in knitting patterns. Track two simultaneous actions with examples and tips for sleeves and shaping."
 publishDate: 2026-05-01
 category: techniques

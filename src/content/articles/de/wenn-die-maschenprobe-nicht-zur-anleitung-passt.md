@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 3
 tags: ["Maschenprobe passt nicht", "Maschenprobe korrigieren", "Nadelstärke ändern", "Maschenprobe Anleitung"]
-draft: true
+draft: false
 lang: de
 translationKey: "gauge-doesnt-match"
 ---

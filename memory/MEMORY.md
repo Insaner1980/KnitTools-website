@@ -41,3 +41,145 @@
 - Saksankieliset artikkelit käyttävät `/de/artikel/`-prefiksiä ja kategoriat `/de/artikel/kategorie/`. Reitit ovat devissä käytössä myös draft-käännösten tarkistusta varten, mutta tuotantobuild suodattaa `draft: true` -artikkelit pois.
 - `src/content.config.ts` hyväksyy nyt artikkelien `lang: de` -arvon. `src/pages/de/artikel/[...slug].astro` käyttää tiedostonimeen perustuvaa fallback-slugia julkaisemattomille saksankielisille drafteille, jotta niitä ei tarvitse lisätä `articleTranslations`-karttaan ennen hyväksyntää.
 - Ensimmäinen saksankielinen artikkelidraftierä sisältää 10 artikkelia: Maschenprobe-perusartikkelit, Maschenanschlag, Zunahmen/Abnahmen, kostenlose Strickrechner sekä kolme Nadel-artikkelia. Kaikki pidetään `draft: true` -tilassa käyttäjän tarkistusta varten.
+
+## 2026-05-10: ruotsinkielisten työkalusivujen rakenne
+
+- Ruotsinkieliset tools-sivut lisättiin `/sv/verktyg/`-prefiksiin: `/upplaggningskalkylator/`, `/garnatgangskalkylator/`, `/stickstorlekar/`, `/garntjocklekar/`, `/stickforkortningar/` ja `/storlekstabeller-stickning/`.
+- `src/i18n/config.ts`, `src/i18n/routes.ts`, `src/i18n/ui.ts`, `Navbar`, `Footer`, `CastOnCalculator`, `YarnEstimator` ja `WpiIdentifier` tukevat nyt `sv`-kieltä tools-käytössä.
+- Ruotsinkielisiä artikkeleita ei lisätty. Ruotsin navigaation artikkelilinkki fallbackaa englanninkieliseen artikkeliosioon, kunnes `/sv/artiklar/`-sisältö tehdään ja hyväksytään.
+- Ruotsin termilinja seuraa `SWEDISH_TRANSLATION_GUIDE.md`-ohjetta: `stickfasthet`, `stickprov`, `lägga upp maskor`, `maska av`, `garntjocklek`, `garnåtgång`, `löplängd`, `stickstorlek`, `rundsticka` ja `strumpstickor`.
+- Ruotsinkielisiä sivuja ei saa deployata tuotantoon ennen käyttäjän hyväksyntää; paikallinen build/dev/preview on tarkoitettu tarkistusta varten.
+
+## 2026-05-10: ruotsinkielisten artikkelidraftien ensimmäinen erä
+
+- `src/content.config.ts` hyväksyy nyt artikkelien `lang: sv` -arvon. Ruotsinkieliset artikkelit elävät `src/content/articles/sv/`-kansiossa ja pidetään `draft: true` -tilassa käyttäjän tarkistusta varten.
+- `src/pages/sv/artiklar/[...slug].astro` generoi ruotsinkieliset artikkelidraftit vain dev-ympäristössä. Tuotantobuild suodattaa draftit pois, eikä `/sv/artiklar/`-indexiä tai kategoriasivuja ole vielä julkaistu.
+- Ensimmäinen ruotsinkielinen artikkelidraftierä sisältää 10 artikkelia translationKey-järjestyksessä: `at-the-same-time-knitting`, `best-knitting-apps`, `best-yarn-for-beginners`, `circular-vs-straight-vs-dpn`, `digital-vs-physical-row-counters`, `essential-knitting-tools`, `fix-dropped-stitches`, `free-knitting-calculators`, `what-is-gauge-in-knitting` ja `how-to-measure-knitting-gauge`.
+- Ruotsinkielisiä artikkelidrafteja ei lisätä `articleTranslations`-karttaan ennen hyväksyntää, jotta canonical/hreflang-linkit eivät osoita julkaisemattomiin sivuihin.
+
+## 2026-05-10: ruotsinkielisten artikkelidraftien toinen erä
+
+- Toinen ruotsinkielinen artikkelidraftierä lisättiin `src/content/articles/sv/`-kansioon `draft: true` -tilassa. Ruotsinkielisiä artikkelidrafteja on nyt 20.
+- Toisen erän translationKeyt: `gauge-doesnt-match`, `gauge-swatch-step-by-step`, `how-many-stitches-to-cast-on`, `how-much-yarn-do-i-need`, `how-to-block-knitting`, `how-to-knit-hat`, `how-to-knit-socks`, `how-to-read-yarn-label`, `how-to-substitute-yarn` ja `identify-mystery-yarn`.
+- Toisessa erässä yksiköt lokalisoitiin ruotsalaiselle lukijalle (`10 cm`, `mm`, `m`, `g`) ja termilinja pidettiin `SWEDISH_TRANSLATION_GUIDE.md`-ohjeen mukaisena: `stickfasthet`, `provlapp`, `garnåtgång`, `löplängd`, `banderoll`, `rundsticka`, `strumpstickor`, `maska av`.
+- Artikkelit ovat edelleen dev-preview-sisältöä; niitä ei ole lisätty `articleTranslations`-karttaan eikä tuotantobuild generoi `/sv/artiklar/`-outputia ennen hyväksyntää.
+
+## 2026-05-10: ruotsinkielisten artikkelidraftien kolmas erä
+
+- Kolmas ruotsinkielinen artikkelidraftierä lisättiin `src/content/articles/sv/`-kansioon `draft: true` -tilassa. Ruotsinkielisiä artikkelidrafteja on nyt 29.
+- Kolmannen erän translationKeyt: `increase-decrease-evenly`, `join-new-ball-of-yarn`, `knit-first-scarf`, `knitting-needle-materials`, `knitting-pattern-repeats`, `knitting-pattern-sizes-and-fit`, `needle-size-for-beginners`, `organize-knitting-projects` ja `how-to-read-knitting-pattern`.
+- Kolmannessa erässä säilytettiin englanninkielisten lähdeartikkelien otsikkorakenne, frontmatterin julkaisu- ja kategoriatiedot sekä sisältöjärjestys. Linkit ohjattiin ruotsinkielisiin draft-vastineisiin silloin kun vastine on jo olemassa, muuten englanninkieliseen julkaistuun artikkeliin.
+- Artikkelit ovat edelleen dev-preview-sisältöä; niitä ei ole lisätty `articleTranslations`-karttaan eikä tuotantobuild generoi `/sv/artiklar/`-outputia ennen hyväksyntää.
+
+## 2026-05-10: ruotsinkielisten artikkelidraftien neljäs erä
+
+- Neljäs ruotsinkielinen artikkelidraftierä lisättiin `src/content/articles/sv/`-kansioon `draft: true` -tilassa. Kaikki 38 englanninkielistä artikkelia on nyt käännetty ruotsinkielisiksi drafteiksi.
+- Neljännen erän translationKeyt: `pick-up-stitches`, `seam-knitted-pieces`, `track-knitting-time`, `track-rows-knitting`, `why-knitting-curls`, `yarn-fibers-compared`, `yarn-for-blanket`, `yarn-for-sweater` ja `yarn-weight-substitution`.
+- Neljännessä erässä lanka-artikkelien jaardeihin perustuvat esimerkit lokalisoitiin metreiksi ja senttimetreiksi, mutta lähdeartikkelien käytännön sisältö, varoitukset, FAQ:t ja rakenne säilytettiin.
+- Ruotsinkieliset artikkelit ovat edelleen julkaisemattomia drafteja. Niitä ei ole lisätty `articleTranslations`-karttaan ennen käyttäjän hyväksyntää, joten tuotantobuild ei generoi `/sv/artiklar/`-artikkelisivuja eikä hreflang osoita niihin.
+
+## 2026-05-11: ruotsinkielisten artikkelilinkkien tarkistus
+
+- Ruotsinkieliselle artikkelisisällölle lisättiin `/sv/artiklar/`-index ja `/sv/artiklar/kategori/[slug]/`-kategoriat, jotta ruotsinkielisen draft-artikkelin navbar-, takaisin- ja footer-linkit osoittavat ruotsinkielisiin näkymiin dev-tarkistuksessa.
+- `src/i18n/routes.ts` sisältää nyt ruotsinkieliset artikkeli- ja kategoriapolut. `Navbar`, `Footer` ja `ArticleLayout` käyttävät näitä reittejä `lang="sv"`-sivuilla.
+- Draft-suoja säilyy: ruotsinkielisiä artikkeleita ei lisätty `articleTranslations`-karttaan, ja artikkelikokoelmat suodatetaan tuotannossa `draft: true` -tilan perusteella.
+
+## 2026-05-11: ruotsinkielisten SEO- ja sisälinkkitarkistus
+
+- Ruotsinkielisten sivujen SEO-tarkistus ajettiin renderöityjä dev-sivuja vasten: 51 sivua, eli 7 tools/artikkelilista- ja kategoriasivua sekä 38 ruotsinkielistä artikkelidraftia.
+- Kaikkien tarkistettujen ruotsinkielisten sivujen `<title>` jäi enintään 60 merkkiin ja meta description enintään 155 merkkiin. Liian pitkät tools- ja artikkeliotsikot lyhennettiin ilman sisällön muuttamista.
+- Renderöidyillä ruotsinkielisillä sivuilla canonical-polut osoittavat `/sv/`-osoitteisiin ja `og:locale` on `sv_SE`. Ruotsinkielisiä artikkelidrafteja ei silti lisätty `articleTranslations`-karttaan ennen hyväksyntää.
+- Ruotsinkielisten artikkelien ja työkalusivujen tekstissä olleet englanninkieliset `/articles/...`-sisälinkit korvattiin ruotsinkielisillä `/sv/artiklar/...`-draft-vastineilla. Tarkistus kävi läpi 59 paikallista linkkiä ilman 4xx-virheitä.
+- `npm run build` onnistui muutosten jälkeen. Staattinen build generoi ruotsinkieliset tools-, artikkelilista- ja kategoriasivut, mutta ei ruotsinkielisiä draft-artikkelidetail-sivuja ennen hyväksyntää.
+
+## 2026-05-11: monikielinen julkaisukunto
+
+- Kaikki 38 saksankielistä ja 38 ruotsinkielistä artikkelia vaihdettiin `draft: false` -tilaan julkaisua varten.
+- `src/i18n/articles.ts` sisältää nyt jokaiselle 38 artikkelille `en`, `fi`, `de` ja `sv` -polut, joten artikkelidetailien canonicalit, artikkelikortit ja hreflangit käyttävät samaa nelikielistä lähdettä.
+- Ruotsinkieliset tools-, artikkelilista-, kategoria- ja artikkelidetail-sivut ovat mukana tuotantobuildissä. Saksankieliset artikkelidetailit ovat myös mukana tuotantobuildissä.
+- Vanhoja liian pitkiä englannin ja suomen SEO-title/metakuvaus-arvoja lyhennettiin niin, että buildattu output pysyy alle sovittujen pituusrajojen.
+- `npm run build` onnistui ja buildattu `dist` validoitiin: 205 varsinaista reittiä, 38 artikkeliryhmää neljällä kielellä, 227 paikallista hrefiä, 205 sitemap-locia. Tarkistus varmisti title/description-pituudet, canonicalit, `og:locale`-arvot, artikkelien en/fi/de/sv-hreflangit ja sitemapin kattavuuden.
+
+## 2026-05-11: monikielinen tuotantojulkaisu
+
+- Monikielinen julkaisu deployattiin Cloudflare Pagesiin komennolla `npx wrangler pages deploy ./dist --project-name knittoolsapp --branch main`.
+- Deploy latasi 205 tiedostoa ja valmistui onnistuneesti. Cloudflare Pages deployment URL oli `https://d2c7664a.knittoolsapp.pages.dev`.
+- Tuotannosta varmistettiin 200-status etusivulle, sitemapeille, ruotsin tools-indexille, ruotsin artikkelidetailille, saksan artikkelidetailille, suomen puikkokokosivulle ja englannin cast-on calculatorille.
+- Tuotannon `https://knittoolsapp.com/sitemap-0.xml` sisältää 205 URLia julkaisun jälkeen.
+
+## 2026-05-12: norjankielisten työkalusivujen rakenne
+
+- Norjankieliset tools-sivut lisättiin paikalliseen koodiin `/no/verktoy/`-prefiksillä: `/oppleggskalkulator/`, `/garnberegner/`, `/pinnestorrelser/`, `/garntykkelser/`, `/strikkeforkortelser/` ja `/storrelsestabeller-strikking/`.
+- `src/i18n/config.ts` tukee nyt sisäistä `no`-avainta, mutta `BaseLayout` mapppaa renderöidyn `<html lang>`- ja `hreflang`-arvon Bokmål-muotoon `nb`. Open Graph locale on `nb_NO`.
+- Norjan yhteiset UI-tekstit, footer/nav-linkit, `CastOnCalculator`, `YarnEstimator` ja `WpiIdentifier` käyttävät `NORWEGIAN_TRANSLATION_GUIDE.md`-terminologiaa: `strikkefasthet`, `prøvelapp`, `legge opp masker`, `felle av`, `garntykkelse`, `pinnestørrelse` ja `garnmengde`.
+- Norjankielisiä artikkeleita ei vielä lisätty eikä norjapolkuja lisätty `articleTranslations`-karttaan. Tools-sivujen artikkelisisälinkit osoittavat toistaiseksi englanninkielisiin julkaistuihin artikkeleihin, kunnes norjankieliset artikkelidraftit tehdään ja hyväksytään erissä.
+- Norjankielisiä sivuja ei ole deployattu tai julkaistu tuotantoon tämän muutoksen yhteydessä; ne ovat paikallista tarkistusta varten.
+
+## 2026-05-12: norjankielisten artikkelidraftien esikatselu
+
+- Kaikki 38 norjankielistä artikkelia elävät `src/content/articles/no/`-kansiossa `draft: true` -tilassa. Sisältöä ei ole julkaistu eikä deployattu.
+- `src/pages/no/artikler/[...slug].astro` tarjoaa dev-only catch-all-esikatselun artikkelilistalle, kategorioille ja artikkelidetaileille. Kun kaikki Norja-artikkelit ovat draft-tilassa, tuotantobuild palauttaa tyhjän `getStaticPaths()`-listan eikä generoi `/no/artikler/`-reittejä.
+- `src/i18n/articles.ts` sisältää norjan dev-preview-polut `norwegianArticlePreviewRoutes`-vakiossa. `src/i18n/routes.ts` ei sisällä norjan artikkelipolkuja, jotta julkaistujen en/fi/de/sv-lista- ja kategoriasivujen hreflang-linkit eivät osoita julkaisemattomiin Norja-sivuihin. `articleTranslations`-karttaan ei lisätä `no`-polkuja ennen käyttäjän hyväksyntää.
+- Dev-esikatselussa norjankieliset nav-, footer-, tools- ja artikkelisisälinkit ohjaavat norjankielisiin `/no/artikler/`-drafteihin silloin kun vastine on olemassa. Tuotantobuildissä Norjan tools-sivujen artikkelilinkit fallbackaavat edelleen englanninkielisiin julkaistuihin artikkeleihin, jotta staattinen output ei linkitä julkaisemattomiin draft-reitteihin.
+
+## 2026-05-12: norjankielisten artikkelien julkaisu
+
+- Kaikki 38 norjankielistä artikkelia julkaistiin `draft: false` -tilaan ja lisättiin `articleTranslations`-karttaan `no`-poluilla.
+- `src/i18n/routes.ts` sisältää nyt norjankieliset artikkelilista- ja kategoriapolut: `/no/artikler/` ja `/no/artikler/kategori/.../`.
+- `norwegianArticlePreviewRoutes` poistettiin käytöstä. `Navbar`, `Footer`, `ArticleLayout` ja norjan artikkelien catch-all-reitti käyttävät samaa `routes.ts`-lähdettä kuin muut julkaistut kielet.
+- Norjankielisten tools-sivujen artikkelilinkit osoittavat tuotannossa norjankielisiin `/no/artikler/.../`-sivuihin englanninkielisten fallbackien sijaan.
+- Julkaisu deployattiin Cloudflare Pagesiin komennolla `npx wrangler pages deploy ./dist --project-name knittoolsapp --branch main`. Deployment URL oli `https://0d0e1720.knittoolsapp.pages.dev`.
+- Tuotannosta varmistettiin 200-status, canonical, `hreflang="nb"` ja `<html lang="nb">` reiteille `/no/artikler/`, `/no/artikler/beste-garn-for-nybegynnere/`, `/no/artikler/kategori/garn/` ja `/no/verktoy/garntykkelser/`. Sitemapissa on 256 URLia ja norjan artikkelireitit mukana.
+
+## 2026-05-12: ranskankielisten työkalusivujen rakenne
+
+- Ranskankieliset tools-sivut lisättiin paikalliseen koodiin `/fr/outils/`-prefiksillä: `/calculateur-mailles-a-monter/`, `/estimateur-quantite-laine/`, `/tailles-aiguilles/`, `/epaisseurs-de-fil/`, `/abreviations-tricot/` ja `/tableaux-tailles-tricot/`.
+- `src/i18n/config.ts`, `src/i18n/routes.ts`, `src/i18n/ui.ts`, `Footer`, `CastOnCalculator`, `YarnEstimator` ja `WpiIdentifier` tukevat nyt `fr`-kieltä tools-käytössä.
+- Ranskan termilinja seuraa `FRENCH_TRANSLATION_GUIDE.md`-ohjetta: `échantillon`, `mailles`, `rangs`, `tours`, `monter les mailles`, `rabattre les mailles`, `aiguilles`, `fil`, `pelote`, `métrage` ja `épaisseur de fil`. Käyttöliittymä käyttää metriyksiköitä ensisijaisesti ja ranskalaista desimaalipilkkua näkyvässä tekstissä.
+- Ranskankielisiä artikkeleita ei lisätty eikä ranskan artikkelireittejä julkaistu. Ranskan tools-sivujen artikkelisisälinkit osoittavat toistaiseksi englanninkielisiin julkaistuihin artikkeleihin, kunnes ranskankieliset artikkelit tehdään ja hyväksytään erissä.
+- Ranskankielisiä sivuja ei ole deployattu tai julkaistu tuotantoon tämän muutoksen yhteydessä; ne ovat paikallista tarkistusta varten.
+
+## 2026-05-12: ranskankielisten artikkelidraftien ensimmäinen erä
+
+- Ensimmäinen ranskankielinen artikkelidraftierä lisättiin `src/content/articles/fr/`-kansioon `draft: true` -tilassa. Erä kattaa 10 englanninkielistä lähdeartikkelia aakkosjärjestyksen alusta.
+- Ensimmäisen erän translationKeyt: `at-the-same-time-knitting`, `best-knitting-apps`, `best-yarn-for-beginners`, `circular-vs-straight-vs-dpn`, `digital-vs-physical-row-counters`, `essential-knitting-tools`, `fix-dropped-stitches`, `free-knitting-calculators`, `gauge-doesnt-match` ja `gauge-swatch-step-by-step`.
+- `src/content.config.ts` hyväksyy nyt artikkelien `lang: fr` -arvon. `src/pages/fr/articles/[...slug].astro` tarjoaa ranskankielisen dev-only catch-all-esikatselun artikkelilistalle, kategorioille ja artikkelidetaileille. Kun kaikki ranskan artikkelit ovat draft-tilassa, tuotantobuild ei generoi `/fr/articles/`-reittejä.
+- `src/lib/categories.ts`, `src/i18n/articles.ts`, `ArticleLayout`, `ArticleCard`, `Navbar` ja `Footer` tukevat nyt ranskan artikkeliesikatselua ja kategoriakopioita dev-tarkistusta varten. Ranskan artikkelipolut elävät `frenchArticlePreviewRoutes`-vakiossa, eivät julkisessa `routes.ts`-alternates-lähteessä. Artikkelit eivät ole `articleTranslations`-kartassa ennen käyttäjän hyväksyntää, jotta hreflang ei osoita julkaisemattomiin sivuihin.
+- Erässä lokalisoitiin näkyvät mittayksiköt eurooppalaisiksi: `10 cm`, `15 cm`, `mm`, `m`, `g`, eurohinnat ja desimaalipilkku ranskan prose-käytössä. Sisälinkit osoittavat ranskankielisiin draft-vastineisiin vain silloin kun vastine on jo tässä erässä tai työkalusivulla olemassa.
+
+## 2026-05-13: ranskankielisten artikkelidraftien toinen erä
+
+- Toinen ranskankielinen artikkelidraftierä lisättiin `src/content/articles/fr/`-kansioon `draft: true` -tilassa. Erä jatkaa englanninkielisten lähdeartikkelien aakkosjärjestystä ensimmäisen 10 artikkelin jälkeen.
+- Toisen erän translationKeyt: `how-many-stitches-to-cast-on`, `how-much-yarn-do-i-need`, `how-to-block-knitting`, `how-to-knit-hat`, `how-to-knit-socks`, `how-to-measure-knitting-gauge`, `how-to-read-knitting-pattern`, `how-to-read-yarn-label`, `how-to-substitute-yarn` ja `identify-mystery-yarn`.
+- Ranskan artikkelidraftit pysyvät julkaisemattomina: `articleTranslations`-karttaan ei lisätty `fr`-polkuja, ja tuotantobuildin kuuluu edelleen olla generoimatta `/fr/articles/`-reittejä.
+- Jo olemassa olevien ranskankielisten draftien sisälinkkejä päivitettiin osoittamaan toisen erän ranskankielisiin vastineisiin silloin kun kohde on nyt olemassa. Muut artikkelisisälinkit jäävät englanninkielisiin julkaistuihin artikkeleihin, kunnes niiden ranskankieliset vastineet lisätään myöhemmissä erissä.
+
+## 2026-05-13: ranskankielisten artikkelidraftien kolmas erä
+
+- Kolmas ranskankielinen artikkelidraftierä lisättiin `src/content/articles/fr/`-kansioon `draft: true` -tilassa. Erä jatkaa englanninkielisten lähdeartikkelien aakkosjärjestystä toisen erän jälkeen.
+- Kolmannen erän translationKeyt: `increase-decrease-evenly`, `join-new-ball-of-yarn`, `knit-first-scarf`, `knitting-needle-materials`, `knitting-pattern-repeats`, `knitting-pattern-sizes-and-fit`, `needle-size-for-beginners`, `organize-knitting-projects`, `pick-up-stitches` ja `seam-knitted-pieces`.
+- Ranskan artikkelidraftit pysyvät julkaisemattomina: `articleTranslations`-karttaan ei lisätty `fr`-polkuja, ja tuotantobuildin kuuluu edelleen olla generoimatta `/fr/articles/`-reittejä.
+- Olemassa olevien ranskankielisten draftien sisälinkkejä päivitettiin osoittamaan kolmannen erän ranskankielisiin vastineisiin silloin kun kohde on nyt olemassa. Näkyvät mitat on lokalisoitu metriyksiköihin ja hinnat euroihin lähteen sisältöä muuttamatta.
+
+## 2026-05-13: ranskankielisten artikkelidraftien neljäs erä
+
+- Neljäs ja viimeinen ranskankielinen artikkelidraftierä lisättiin `src/content/articles/fr/`-kansioon `draft: true` -tilassa. Ranskankielisiä artikkelidrafteja on nyt 38, eli jokaisella englanninkielisellä artikkelilla on `translationKey`-vastine.
+- Neljännen erän translationKeyt: `track-knitting-time`, `track-rows-knitting`, `what-is-gauge-in-knitting`, `why-knitting-curls`, `yarn-fibers-compared`, `yarn-for-blanket`, `yarn-for-sweater` ja `yarn-weight-substitution`.
+- Ranskan artikkelidraftit pysyvät julkaisemattomina: `articleTranslations`-karttaan ei lisätty `fr`-polkuja, eikä ranskan artikkelipolkuja lisätty julkiseen hreflang-lähteeseen ennen käyttäjän hyväksyntää.
+- Kaikkien ranskankielisten draftien artikkelisisälinkit päivitettiin osoittamaan ranskankielisiin `/fr/articles/.../`-draft-vastineisiin, kun kohde on olemassa. Neljännessä erässä lankamäärät lokalisoitiin eurooppalaisiksi metreiksi, senteiksi, grammoiksi ja desimaalipilkuiksi lähdesisältöä muuttamatta.
+
+## 2026-05-13: ranskankielisten UI-linkkien fallback-korjaus
+
+- Tuotantobuildin ranskankielisiltä tools-sivuilta löytyi englanninkielisiä artikkelilinkkejä: `Navbar` fallbackasi `/articles/`-polkuun ja `Footer` fallbackasi `/articles/category/...`-kategorioihin, koska ranskan artikkelireitit eivät ole julkisessa `routes.ts`-alternates-lähteessä.
+- Lisättiin `getArticlesIndexPath(lang)` helperiin `src/i18n/articles.ts`, jotta ranskan article-index-linkit käyttävät `frenchArticlePreviewRoutes.articlesIndex`-polkua ilman että `routes.ts` alkaa tuottaa julkaisemattomia ranskan `hreflang`-viittauksia.
+- `Navbar`, `ArticleLayout` ja `Footer` käyttävät nyt ranskan kontekstissa `/fr/articles/` ja `/fr/articles/categorie/.../` -polkuja englannin fallbackien sijaan. Ranskan artikkelit pysyvät silti `draft: true` -tilassa eikä niitä lisätty `articleTranslations`-karttaan.
+
+## 2026-05-13: ranskankielisten sivujen julkaisuvalmistelu
+
+- Live-tarkistus ennen julkaisua vahvisti, että `https://knittoolsapp.com/fr/outils/` ja `https://knittoolsapp.com/fr/articles/` palauttivat 404, eli ranskankielisiä sivuja ei ollut vielä tuotannossa.
+- Kaikki 38 ranskankielistä artikkelia vaihdettiin `draft: false` -tilaan ja lisättiin `articleTranslations`-karttaan `fr`-poluilla.
+- `src/i18n/routes.ts` sisältää nyt ranskankieliset artikkelilista- ja kategoriapolut: `/fr/articles/` ja `/fr/articles/categorie/.../`.
+- `frenchArticlePreviewRoutes` poistettiin käytöstä. `Navbar`, `Footer`, `ArticleLayout` ja ranskan artikkelien catch-all-reitti käyttävät samaa `routes.ts`-lähdettä kuin muut julkaistut kielet.
+- Ranskankieliset tools-, artikkelilista-, kategoria- ja artikkelidetail-sivut julkaistiin Cloudflare Pagesiin komennolla `npx wrangler pages deploy ./dist --project-name knittoolsapp --branch main`. Deployment URL oli `https://4cbbac07.knittoolsapp.pages.dev`.
+- Tuotantoverifiointi `https://knittoolsapp.com`-domainissa palautti 200-statukset reiteille `/fr/outils/`, `/fr/outils/epaisseurs-de-fil/`, `/fr/articles/`, `/fr/articles/accessoires-tricot-indispensables/` ja `/fr/articles/categorie/fils-et-laine/`.
+- SEO-verifiointi vahvisti ranskankielisellä artikkelilla canonicalin, `og:locale`-arvon `fr_FR` sekä `fr`, `en` ja `x-default` hreflangit. Paikallinen ja live-sitemap ovat identtiset: 307 URLia, joista 51 ranskankielisiä.

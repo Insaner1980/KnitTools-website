@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 3
 tags: ["fallengelassene Masche", "Masche aufnehmen Stricken", "Laufmasche reparieren", "Masche mit Häkelnadel retten"]
-draft: true
+draft: false
 lang: de
 translationKey: "fix-dropped-stitches"
 ---

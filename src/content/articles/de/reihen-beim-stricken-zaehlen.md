@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 2
 tags: ["Reihen zählen Stricken", "Reihenzähler Stricken", "Reihenzahl verfolgen", "digitaler Reihenzähler", "Reihenzähler App"]
-draft: true
+draft: false
 lang: de
 translationKey: "track-rows-knitting"
 ---

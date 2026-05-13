@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 6
 tags: ["Rapporte Strickanleitung", "Stern Strickanleitung", "Klammern Strickanleitung", "Strickanleitung Wiederholung"]
-draft: true
+draft: false
 lang: de
 translationKey: "knitting-pattern-repeats"
 ---

@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: yarn
 categoryOrder: 3
 tags: ["Garnbanderole lesen", "Garnbanderole Symbole", "Banderole Garn", "Pflegesymbole Garn"]
-draft: true
+draft: false
 lang: de
 translationKey: "how-to-read-yarn-label"
 ---

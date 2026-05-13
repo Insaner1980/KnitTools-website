@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 9
 tags: ["Strickstück spannen", "Nassspannen Stricken", "Stricken mit Dampf spannen", "Strickstück anfeuchten und spannen"]
-draft: true
+draft: false
 lang: de
 translationKey: "how-to-block-knitting"
 ---

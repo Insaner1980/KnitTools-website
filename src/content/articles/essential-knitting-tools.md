@@ -1,6 +1,6 @@
 ---
 title: "Essential Knitting Tools Beyond Needles and Yarn"
-description: "A practical guide to knitting accessories: stitch markers, tapestry needles, row counters, blocking supplies, and more. What you actually need vs what's nice to have."
+description: "A practical guide to knitting accessories: stitch markers, tapestry needles, row counters, blocking supplies, and what you actually need."
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 6

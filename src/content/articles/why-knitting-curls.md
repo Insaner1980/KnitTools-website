@@ -1,6 +1,6 @@
 ---
 title: "Why Does My Knitting Curl? Causes and Fixes"
-description: "Understand why stockinette stitch curls and what to do about it. Covers the physics of curling, border solutions, blocking, and stitch patterns that lie flat."
+description: "Understand why stockinette curls and what to do about it. Covers curling, border solutions, blocking, and stitch patterns that lie flat."
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 4

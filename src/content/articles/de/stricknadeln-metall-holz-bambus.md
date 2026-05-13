@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: needles
 categoryOrder: 2
 tags: ["Stricknadeln Material", "Metallnadeln oder Holznadeln", "Bambusnadeln", "beste Stricknadeln Material"]
-draft: true
+draft: false
 lang: de
 translationKey: "knitting-needle-materials"
 ---

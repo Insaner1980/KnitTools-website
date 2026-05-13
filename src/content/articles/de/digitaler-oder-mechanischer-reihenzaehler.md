@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 4
 tags: ["digitaler Reihenzähler", "Reihenzähler App", "Strick Reihenzähler", "mechanischer Reihenzähler", "sprachgesteuerter Reihenzähler"]
-draft: true
+draft: false
 lang: de
 translationKey: "digital-vs-physical-row-counters"
 ---

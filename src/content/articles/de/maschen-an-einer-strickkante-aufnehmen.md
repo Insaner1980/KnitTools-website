@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 11
 tags: ["Maschen aufnehmen", "Maschen aus Kante aufnehmen", "Maschen aufnehmen Halsausschnitt", "Knopfleiste Maschen aufnehmen"]
-draft: true
+draft: false
 lang: de
 translationKey: "pick-up-stitches"
 ---

@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: yarn
 categoryOrder: 5
 tags: ["Garn für Decke", "Decke Garnbedarf", "wie viel Garn für Decke", "wie viele Knäuel Decke"]
-draft: true
+draft: false
 lang: de
 translationKey: "yarn-for-blanket"
 ---

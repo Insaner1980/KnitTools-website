@@ -1,6 +1,6 @@
 ---
 title: "How to Pick Up Stitches Along a Knitted Edge"
-description: "Learn how to pick up stitches along horizontal, vertical, and curved edges in knitting. Covers spacing ratios, necklines, button bands, and common mistakes."
+description: "Learn how to pick up stitches along horizontal, vertical, and curved edges. Covers spacing ratios, necklines, button bands, and mistakes."
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 11

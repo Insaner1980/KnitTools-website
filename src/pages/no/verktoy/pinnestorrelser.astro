@@ -1,0 +1,193 @@
+---
+import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
+import { routes } from '../../../i18n/routes';
+
+const rows = [
+  ['1.5', '000', '-', '-', 'Lace'],
+  ['1.75', '00', '-', '-', 'Lace'],
+  ['2.0', '0', '14', '0', 'Lace'],
+  ['2.25', '1', '13', '-', 'Lace'],
+  ['2.5', '1.5', '-', '-', 'Super Fine'],
+  ['2.75', '2', '12', '2', 'Super Fine'],
+  ['3.0', '2.5', '11', '3', 'Fine'],
+  ['3.25', '3', '10', '-', 'Fine'],
+  ['3.5', '4', '-', '5', 'Fine'],
+  ['3.75', '5', '9', '-', 'Light'],
+  ['4.0', '6', '8', '6', 'Light'],
+  ['4.5', '7', '7', '8', 'Medium'],
+  ['5.0', '8', '6', '10', 'Medium'],
+  ['5.5', '9', '5', '-', 'Medium'],
+  ['6.0', '10', '4', '13', 'Bulky'],
+  ['6.5', '10.5', '3', '-', 'Bulky'],
+  ['7.0', '-', '2', '-', 'Bulky'],
+  ['8.0', '11', '0', '-', 'Super Bulky'],
+  ['9.0', '13', '00', '-', 'Super Bulky'],
+  ['10.0', '15', '000', '-', 'Super Bulky'],
+  ['12.0', '17', '-', '-', 'Jumbo'],
+  ['12.75', '-', '-', '-', 'Jumbo'],
+  ['15.0', '19', '-', '-', 'Jumbo'],
+  ['16.0', '19', '-', '-', 'Jumbo'],
+  ['19.0', '35', '-', '-', 'Jumbo'],
+  ['25.0', '50', '-', '-', 'Jumbo'],
+];
+
+const formatMm = (value: string) => value.replace('.', ',');
+
+const faqs = [
+  {
+    q: 'Kan jeg bruke en nesten lik pinnestørrelse hvis jeg ikke har den riktige?',
+    a: 'Det går, men et hopp på 0,5 mm endrer ofte strikkefastheten nok til at det merkes. Strikk en ny prøvelapp for alt som skal passe på kroppen.',
+  },
+  {
+    q: 'Er pinnestørrelser like hos alle merker?',
+    a: 'De bør være det. I praksis finnes små forskjeller, særlig på billige sett eller eldre pinner. Hvis strikkefastheten stadig blir feil, mål pinnen.',
+  },
+  {
+    q: 'Hva med rundpinner?',
+    a: 'Samme størrelser som for rette pinner. Størrelsen beskriver diameteren på spissen, ikke lengden på vaieren. En rundpinne på 4,5 mm er en pinne på 4,5 mm enten vaieren er kort til en lue eller lang til magic loop.',
+  },
+  {
+    q: 'Trenger jeg alle pinnestørrelser?',
+    a: 'Nei. De fleste strikkere bruker noen få størrelser som passer garnet de strikker mest med. Hvis du strikker mye med Medium- og Light-garn, tar du ofte fram 3,75 til 5,5 mm.',
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Pinnestørrelser: US, UK, metrisk og japansk"
+  description="Gjør om pinnestørrelser mellom US-, UK-, metriske (mm) og japanske systemer. Søkbar tabell med anbefalt garntykkelse per pinnestørrelse."
+  canonicalPath={routes.tool.needleSizeChart.no}
+  lang="no"
+  alternates={routes.tool.needleSizeChart}
+  intro="Gjør om mellom US-, UK-, metriske og japanske pinnestørrelser. Skriv inn en størrelse for å finne tilsvarende mål."
+  schemaName="Tabell over pinnestørrelser"
+  schemaDescription="Gjør om pinnestørrelser mellom US-, UK-, metriske og japanske systemer."
+  faqs={faqs}
+  variant="teal"
+>
+  <div slot="tool">
+    <div class="table-wrapper">
+      <input
+        type="text"
+        id="needle-search"
+        class="search-input"
+        placeholder='Søk en størrelse, f.eks. "4,5", "US 7" eller "UK 7"'
+        autocomplete="off"
+      />
+      <div class="table-scroll">
+        <table class="needle-table" id="needle-table">
+          <thead>
+            <tr>
+              <th>Millimeter</th>
+              <th>US</th>
+              <th>UK/Canada</th>
+              <th>Japan</th>
+              <th>Garntykkelse</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((row) => (
+              <tr data-mm={row[0]} data-us={row[1] === '-' ? '' : row[1]} data-uk={row[2] === '-' ? '' : row[2]} data-jp={row[3] === '-' ? '' : row[3]}>
+                <td class="col-mm">{formatMm(row[0])}</td>
+                {row.slice(1).map((cell) => <td>{cell === '-' ? '—' : cell}</td>)}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="no-results" id="no-results" hidden>Fant ingen pinnestørrelse som passer.</p>
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Hvorfor finnes det fire ulike systemer?</h2>
+    <p>Metrisk er det eneste systemet som sier hva pinnen faktisk måler. En pinne på 4,0 mm er 4,0 mm. Ferdig med det.</p>
+    <p>US-størrelser er etiketter. US 7 betyr 4,5 mm og US 8 betyr 5,0 mm, men tallene sier ingenting om diameteren.</p>
+    <p>Gamle UK- og canadiske størrelser går baklengs. UK 14 er svært tynn, og tallene blir lavere når pinnene blir tykkere, helt til 0, 00 og 000. De fleste moderne britiske oppskrifter oppgir metrisk størrelse, men det gamle systemet dukker fortsatt opp på vintagepinner og eldre oppskriftshefter.</p>
+    <p>Japanske størrelser ligger nær metrisk, men ikke helt. Japansk størrelse 6 er 3,9 mm, japansk størrelse 8 er 4,5 mm. Det merkes mest ved fin strikkefasthet, der noen tideler kan endre det ferdige stoffet.</p>
+
+    <h2>Når metrisk er tryggest</h2>
+    <p>Stol på millimeterstørrelsen først. Det er det faktiske målet, og det fjerner omregningsfeil.</p>
+    <p>Når en oppskrift ber om "US 7", er det du trenger i hånden 4,5 mm. Noen merker trykker begge tallene på pinnen. Andre gjør det ikke. Gamle merker slites bort. En pinnemåler er nyttig nettopp derfor.</p>
+
+    <h2>Vanlige omregningsfeller</h2>
+    <p>Noen størrelser skaper forvirring igjen og igjen.</p>
+    <p><strong>UK-systemet går motsatt vei.</strong> US-størrelser blir høyere når pinnene blir tykkere. Gamle UK-størrelser blir lavere. US 6 er 4,0 mm. UK 6 er 5,0 mm. Blander du dem, er prøvelappen en hel millimeter feil før du har strikket første pinne. Det skjer oftere enn man skulle tro.</p>
+    <p><strong>Ikke alle størrelser har en perfekt match.</strong> Alle metriske størrelser har ikke en ren tilsvarende størrelse i hvert annet system. En pinne på 3,0 mm merkes noen ganger som US 2.5, mens andre tabeller legger den mellom US 2 og US 3. En pinne på 3,5 mm mangler ofte gammel UK-motpart helt. Når det skjer, gå tilbake til millimeterstørrelsen og se bort fra resten.</p>
+    <p><strong>Japanske nesten-treff.</strong> Japanske størrelser følger ikke US-numrene rent. Japansk størrelse 8 er 4,5 mm og tilsvarer US 7, men japansk størrelse 5 er 3,6 mm og passer ikke pent inn i US-systemet. Strikker du etter en japansk oppskrift, match millimeterverdien. Ikke tallet som står trykt. Alltid millimeterverdien.</p>
+    <p><strong>Halvstørrelser og uvanlige størrelser finnes.</strong> Pinner på 2,5 mm, 3,0 mm og 6,5 mm er standardstørrelser selv om det utskiftbare settet ditt hoppet over dem. Derfor kan "gå opp en halv størrelse" bety en runde gjennom hele prosjektvesken.</p>
+    <p><strong>Eldre oppskriftshefter oppgir noen ganger ikke system.</strong> En oppskrift fra 1970-tallet som sier "size 6 needles" kan mene US 6 (4,0 mm) eller UK 6 (5,0 mm), avhengig av landet den ble utgitt i. Sjekk forlaget, og sjekk deretter tabellen.</p>
+
+    <h2>Pinnestørrelse og garntykkelse henger sammen</h2>
+    <p>Tabellen kan få deg til riktig område. Prøvelappen avgjør den nøyaktige adressen.</p>
+    <p>Craft Yarn Councils nåværende system kobler Lace til 1,5-2,25 mm, Super Fine til 2,25-3,25 mm, Fine til 3,25-3,75 mm, Light til 3,75-4,5 mm, Medium til 4,5-5,5 mm, Bulky til 5,5-8 mm, Super Bulky til 8-12,75 mm og Jumbo fra 12,75 mm og oppover.</p>
+    <p>Intervallene overlapper med vilje. DK kan gi et fast lue-stoff på en mindre pinne eller et luftig sjal på en større. Strikkefastheten i oppskriften forteller hvilken vei designeren har tenkt. Hvis du ikke er sikker på hvilken garntykkelse du holder i, er <a href={routes.tool.yarnWeightChart.no}>tabellen over garntykkelser</a> et bedre sted å starte.</p>
+
+    <h2>Slik måler du umerkede pinner</h2>
+    <p>Vintagepinner, håndlagde trepinner og godt brukte utskiftbare pinner mister merkingen før eller siden. En pinnemåler løser det. Før skaftet gjennom hullene til du finner det som passer rent uten å presses gjennom.</p>
+    <p>Mål på skaftet, ikke på spissen. Den avsmalnende spissen viser et mindre mål enn den delen av pinnen du faktisk strikker med. Feil svar hver gang.</p>
+    <p>De fleste pinnemålere viser metriske og US-størrelser, og noen tar med japanske størrelser også. Hvis din ikke gjør det, bruk denne guiden til å finne tilsvarende millimeterstørrelse og strikk deretter en rask <a href={'/no/artikler/male-strikkefasthet/'}>prøvelapp</a> før du starter hele prosjektet. Hvis du også velger <a href={'/no/artikler/strikkepinner-metall-tre-bambus/'}>pinnemateriale</a>, er det et eget valg ved siden av størrelsen.</p>
+  </div>
+</LocalizedToolPage>
+
+<script>
+  const searchInput = document.getElementById('needle-search') as HTMLInputElement | null;
+  const table = document.getElementById('needle-table');
+  const noResults = document.getElementById('no-results');
+
+  if (searchInput && table && noResults) {
+    const rows = table.querySelectorAll<HTMLElement>('tbody tr');
+
+    searchInput.addEventListener('input', () => {
+      const raw = searchInput.value.trim().toLowerCase();
+      const normalizedRaw = raw.replace(',', '.');
+
+      if (!raw) {
+        rows.forEach((row) => {
+          row.style.display = '';
+        });
+        noResults.hidden = true;
+        return;
+      }
+
+      let targetCol: string | null = null;
+      let query = normalizedRaw;
+
+      if (normalizedRaw.startsWith('us ')) {
+        targetCol = 'us';
+        query = normalizedRaw.slice(3).trim();
+      } else if (normalizedRaw.startsWith('uk ')) {
+        targetCol = 'uk';
+        query = normalizedRaw.slice(3).trim();
+      } else if (normalizedRaw.startsWith('jp ') || normalizedRaw.startsWith('japan ') || normalizedRaw.startsWith('japansk ')) {
+        targetCol = 'jp';
+        query = normalizedRaw.replace(/^(jp|japan|japansk)\s+/, '').trim();
+      }
+
+      let visibleCount = 0;
+
+      rows.forEach((row) => {
+        const mm = row.dataset.mm || '';
+        const us = row.dataset.us || '';
+        const uk = row.dataset.uk || '';
+        const jp = row.dataset.jp || '';
+
+        let match = false;
+        if (targetCol === 'us') {
+          match = us === query;
+        } else if (targetCol === 'uk') {
+          match = uk === query;
+        } else if (targetCol === 'jp') {
+          match = jp === query;
+        } else {
+          match = mm.startsWith(query) || us === query || uk === query || jp === query;
+        }
+
+        row.style.display = match ? '' : 'none';
+        if (match) visibleCount++;
+      });
+
+      noResults.hidden = visibleCount > 0;
+    });
+  }
+</script>

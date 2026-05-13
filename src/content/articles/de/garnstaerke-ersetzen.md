@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: yarn
 categoryOrder: 7
 tags: ["Garnstärke ersetzen", "dickeres Garn Strickanleitung", "dünneres Garn Strickanleitung", "andere Garnstärke Stricken"]
-draft: true
+draft: false
 lang: de
 translationKey: "yarn-weight-substitution"
 ---

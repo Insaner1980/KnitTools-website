@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 5
 tags: ["Strickrechner", "kostenlose Strickrechner", "Maschenanschlag Rechner", "Garnrechner", "Maschenprobe Rechner"]
-draft: true
+draft: false
 lang: de
 translationKey: "free-knitting-calculators"
 ---
