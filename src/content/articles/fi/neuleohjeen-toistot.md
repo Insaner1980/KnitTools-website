@@ -1,6 +1,6 @@
 ---
 title: "Neuleohjeen toistot: tähdet ja hakasulkeet"
-description: "Näin toistot toimivat neuleohjeissa. Selkeät esimerkit tähdistä, hakasulkeista, sisäkkäisistä toistoista, ylijäävistä silmukoista ja monen kerroksen toistoista."
+description: "Näin toistot toimivat neuleohjeissa. Esimerkit tähdistä, hakasulkeista, sisäkkäisistä toistoista ja ylijäävistä silmukoista."
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 6

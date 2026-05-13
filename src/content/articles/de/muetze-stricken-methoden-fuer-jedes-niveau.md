@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 12
 tags: ["Mütze stricken", "Mütze stricken Anfänger", "Beanie stricken", "Mützenabnahmen", "Mützengröße berechnen"]
-draft: true
+draft: false
 lang: de
 translationKey: "how-to-knit-hat"
 ---

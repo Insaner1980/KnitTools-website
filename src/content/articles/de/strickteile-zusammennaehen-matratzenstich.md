@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 10
 tags: ["Strickteile zusammennähen", "Matratzenstich Stricken", "Strickteile verbinden", "Stricknaht nähen"]
-draft: true
+draft: false
 lang: de
 translationKey: "seam-knitted-pieces"
 ---

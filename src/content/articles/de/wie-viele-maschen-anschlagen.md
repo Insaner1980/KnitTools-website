@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 5
 tags: ["wie viele Maschen anschlagen", "Maschenanschlag berechnen", "Maschenzahl berechnen", "Maschenprobe Rechner"]
-draft: true
+draft: false
 lang: de
 translationKey: "how-many-stitches-to-cast-on"
 ---

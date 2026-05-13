@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: yarn
 categoryOrder: 9
 tags: ["unbekanntes Garn", "Garn ohne Banderole", "Brennprobe Garn", "WPI Garnstärke"]
-draft: true
+draft: false
 lang: de
 translationKey: "identify-mystery-yarn"
 ---

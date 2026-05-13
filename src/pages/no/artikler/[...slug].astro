@@ -1,0 +1,393 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import PageLayout from '../../../layouts/PageLayout.astro';
+import ArticleLayout from '../../../layouts/ArticleLayout.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import ClosingCTA from '../../../components/ClosingCTA.astro';
+import {
+  CATEGORY_ORDER,
+  getCategoryDescription,
+  getCategoryLabel,
+  type CategorySlug,
+} from '../../../lib/categories';
+import {
+  getArticleAlternates,
+  getArticlePath,
+  getArticleSlug,
+  getNorwegianCategoryRouteSlug,
+  getNorwegianArticleRouteSlug,
+  isNorwegianArticle,
+} from '../../../i18n/articles';
+import { routes } from '../../../i18n/routes';
+
+type ArticleEntry = CollectionEntry<'articles'>;
+
+interface CategorySection {
+  slug: CategorySlug;
+  label: string;
+  description: string;
+  articles: ArticleEntry[];
+  remainingCount: number;
+}
+
+export async function getStaticPaths() {
+  const byCategoryOrder = (a: ArticleEntry, b: ArticleEntry) =>
+    (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999);
+  const buildSections = (items: ArticleEntry[]): CategorySection[] =>
+    CATEGORY_ORDER.map((slug) => {
+      const categoryArticles = items
+        .filter((item) => item.data.category === slug)
+        .sort(byCategoryOrder);
+      const previewArticles = categoryArticles.slice(0, 3);
+
+      return {
+        slug,
+        label: getCategoryLabel(slug, 'no'),
+        description: getCategoryDescription(slug, 'no'),
+        articles: previewArticles,
+        remainingCount: Math.max(categoryArticles.length - previewArticles.length, 0),
+      };
+    }).filter((section) => section.articles.length > 0);
+
+  const articles = await getCollection('articles', ({ data }) =>
+    data.lang === 'no' && (import.meta.env.DEV ? true : !data.draft)
+  );
+  const norwegianArticles = articles.filter(isNorwegianArticle).sort(byCategoryOrder);
+
+  if (!import.meta.env.DEV && norwegianArticles.length === 0) {
+    return [];
+  }
+
+  const categoryPaths = CATEGORY_ORDER.filter((category) =>
+    norwegianArticles.some((article) => article.data.category === category)
+  ).map((category) => ({
+    params: { slug: `kategori/${getNorwegianCategoryRouteSlug(category)}` },
+    props: {
+      view: 'category' as const,
+      category,
+      articles: norwegianArticles
+        .filter((article) => article.data.category === category)
+        .sort(byCategoryOrder),
+    },
+  }));
+
+  const articlePaths = norwegianArticles.map((article) => ({
+    params: {
+      slug: getNorwegianArticleRouteSlug(
+        article.data.translationKey ?? getArticleSlug(article.id),
+        getArticleSlug(article.id)
+      ),
+    },
+    props: { view: 'article' as const, article },
+  }));
+
+  return [
+    {
+      params: { slug: undefined },
+      props: { view: 'index' as const, sections: buildSections(norwegianArticles) },
+    },
+    ...categoryPaths,
+    ...articlePaths,
+  ];
+}
+
+const {
+  view,
+  sections = [],
+  category,
+  articles = [],
+  article,
+} = Astro.props as {
+  view: 'index' | 'category' | 'article';
+  sections?: CategorySection[];
+  category?: CategorySlug;
+  articles?: ArticleEntry[];
+  article?: ArticleEntry;
+};
+
+const renderedArticle = view === 'article' && article ? await render(article) : undefined;
+const Content = renderedArticle?.Content;
+const categoryLabel = category ? getCategoryLabel(category, 'no') : '';
+const categoryDescription = category ? getCategoryDescription(category, 'no') : '';
+---
+
+{view === 'article' && article && Content ? (
+  <ArticleLayout
+    title={article.data.title}
+    description={article.data.description}
+    category={article.data.category}
+    publishDate={article.data.publishDate}
+    updatedDate={article.data.updatedDate}
+    tags={article.data.tags}
+    lang="no"
+    canonicalPath={getArticlePath(article, 'no')}
+    alternates={getArticleAlternates(article)}
+  >
+    <Content />
+  </ArticleLayout>
+) : view === 'category' && category ? (
+  <PageLayout
+    title={`${categoryLabel}. Strikkeartikler`}
+    description={categoryDescription}
+    canonicalPath={routes.category[category].no}
+    lang="no"
+    alternates={routes.category[category]}
+    showStripe={false}
+  >
+    <section class="cat-header-section">
+      <div class="cat-header-inner">
+        <p class="back"><a href={routes.articlesIndex.no}>← Alle artikler</a></p>
+        <p class="eyebrow">Kategori</p>
+        <h1>{categoryLabel}.</h1>
+        <p class="cat-intro">{categoryDescription}</p>
+      </div>
+    </section>
+
+    <section class="cat-grid-section">
+      <div class="articles-grid">
+        {articles.map((categoryArticle) => (
+          <ArticleCard article={categoryArticle} showCategory={false} lang="no" />
+        ))}
+      </div>
+    </section>
+    <ClosingCTA variant="page" lang="no" />
+  </PageLayout>
+) : (
+  <PageLayout
+    title="Strikkeartikler og praktiske tips"
+    description="Praktiske strikkeartikler om strikkefasthet, garn, pinner, teknikker og KnitTools."
+    canonicalPath={routes.articlesIndex.no}
+    lang="no"
+    alternates={routes.articlesIndex}
+    showStripe={false}
+  >
+    <section class="articles-header">
+      <div class="articles-header-inner">
+        <p class="eyebrow">Artikler</p>
+        <h1>Strikkekunnskap for ekte prosjekter.</h1>
+        <p class="articles-intro">Artikler for strikkere som vil ha tydelige svar: strikkefasthet, garnvalg, pinnestørrelser, oppskriftslesing, kalkulatorer og praktiske verktøy.</p>
+
+        {sections.length > 0 && (
+          <nav class="cat-nav" aria-label="Artikkelkategorier">
+            {sections.map((section) => (
+              <a href={`#${section.slug}`} class="cat-nav-link">{section.label}</a>
+            ))}
+          </nav>
+        )}
+      </div>
+    </section>
+
+    {sections.length === 0 ? (
+      <section class="empty-section">
+        <div class="empty-state">
+          <p class="empty-eyebrow">På gang</p>
+          <p class="empty-text">De norske artiklene klargjøres for gjennomgang.</p>
+          <a href={routes.toolsIndex.no} class="empty-link">Vis verktøyene &rarr;</a>
+        </div>
+      </section>
+    ) : (
+      sections.map((section) => (
+        <section class="cat-section" id={section.slug}>
+          <div class="cat-section-inner">
+            <header class="cat-header">
+              <div class="cat-header-text">
+                <p class="cat-eyebrow">{section.label}</p>
+                <p class="cat-description">{section.description}</p>
+              </div>
+              {section.remainingCount > 0 && (
+                <a href={routes.category[section.slug].no} class="cat-all-link">
+                  Vis {section.remainingCount} til &rarr;
+                </a>
+              )}
+            </header>
+            <div class="articles-grid">
+              {section.articles.map((sectionArticle) => (
+                <ArticleCard article={sectionArticle} showCategory={false} lang="no" />
+              ))}
+            </div>
+          </div>
+        </section>
+      ))
+    )}
+    <ClosingCTA variant="page" lang="no" />
+  </PageLayout>
+)}
+
+<style>
+  .articles-header,
+  .cat-header-section {
+    color: var(--ink);
+    padding: 80px 40px 40px;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .cat-header-section {
+    padding-bottom: 48px;
+  }
+
+  .articles-header-inner,
+  .cat-section-inner,
+  .cat-header-inner,
+  .articles-grid {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .eyebrow,
+  .back {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 20px;
+  }
+
+  .back a {
+    color: var(--terracotta);
+    text-decoration: none;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin: 0 0 20px;
+  }
+
+  .articles-intro,
+  .cat-description,
+  .cat-intro {
+    font-family: var(--body-ed);
+    font-size: clamp(16px, 1.25vw, 18px);
+    line-height: 1.55;
+    max-width: 680px;
+    margin: 0;
+  }
+
+  .cat-intro {
+    font-size: clamp(17px, 1.5vw, 20px);
+  }
+
+  .cat-nav {
+    margin-top: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+  }
+
+  .cat-nav-link,
+  .cat-all-link {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink);
+    text-decoration: none;
+    border: 1px solid var(--ink);
+    padding: 6px 14px;
+  }
+
+  .cat-all-link {
+    color: var(--terracotta);
+    border: 0;
+    border-bottom: 1px solid var(--terracotta);
+    padding: 0 0 2px;
+    white-space: nowrap;
+  }
+
+  .cat-section {
+    padding: 56px 40px 24px;
+    border-bottom: 1px solid rgba(42, 30, 23, 0.15);
+  }
+
+  .cat-grid-section {
+    padding: 48px 40px 100px;
+  }
+
+  .cat-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 28px;
+  }
+
+  .cat-eyebrow {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.6rem, 2.6vw, 2.5rem);
+    line-height: 1.05;
+    margin: 0 0 8px;
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+  }
+
+  .empty-section {
+    padding: 56px 40px 100px;
+  }
+
+  .empty-state {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 40px;
+    border: 1px solid var(--ink);
+    background: var(--paper-2);
+  }
+
+  .empty-eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 14px;
+  }
+
+  .empty-text {
+    font-family: var(--serif);
+    font-size: clamp(1.4rem, 2.4vw, 2rem);
+    line-height: 1.15;
+    margin: 0 0 20px;
+  }
+
+  .empty-link {
+    font-family: var(--mono);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    text-decoration: none;
+    border-bottom: 1px solid var(--terracotta);
+    padding-bottom: 2px;
+  }
+
+  @media (max-width: 1024px) {
+    .articles-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 768px) {
+    .articles-header,
+    .cat-header-section,
+    .cat-section,
+    .cat-grid-section,
+    .empty-section {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .articles-grid { grid-template-columns: 1fr; gap: 12px; }
+    .cat-header { flex-direction: column; align-items: flex-start; gap: 12px; }
+    .empty-state { padding: 40px 24px; }
+  }
+</style>

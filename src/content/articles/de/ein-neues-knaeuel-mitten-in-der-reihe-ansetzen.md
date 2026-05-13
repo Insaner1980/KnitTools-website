@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 5
 tags: ["neues Knäuel ansetzen", "Garn ansetzen Stricken", "Garn verbinden Stricken", "Russian Join", "Magic Knot"]
-draft: true
+draft: false
 lang: de
 translationKey: "join-new-ball-of-yarn"
 ---

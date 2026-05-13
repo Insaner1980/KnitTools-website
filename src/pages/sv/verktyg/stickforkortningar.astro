@@ -1,0 +1,266 @@
+---
+import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
+import { routes } from '../../../i18n/routes';
+
+type Category =
+  | 'cast-on-bind-off'
+  | 'increases'
+  | 'decreases'
+  | 'cables'
+  | 'lace'
+  | 'general'
+  | 'stitch-patterns';
+
+interface Abbreviation {
+  abbr: string;
+  def: string;
+  search: string;
+  categories: Category[];
+}
+
+const categoryLabels: Record<Category, string> = {
+  'cast-on-bind-off': 'Uppläggning / avmaskning',
+  increases: 'Ökningar',
+  decreases: 'Minskningar',
+  cables: 'Flätor',
+  lace: 'Spets',
+  general: 'Allmänt',
+  'stitch-patterns': 'Maskmönster',
+};
+
+const abbreviations: Abbreviation[] = [
+  { abbr: 'CO', def: 'lägga upp maskor (cast on)', search: 'cast on lägga upp maskor uppläggning', categories: ['cast-on-bind-off'] },
+  { abbr: 'BO', def: 'maska av (bind off US / cast off UK)', search: 'bind off cast off maska av avmaskning', categories: ['cast-on-bind-off'] },
+
+  { abbr: 'k', def: 'sticka räta maskor (knit)', search: 'knit räta maskor sticka rätt', categories: ['general'] },
+  { abbr: 'p', def: 'sticka aviga maskor (purl)', search: 'purl aviga maskor sticka avigt', categories: ['general'] },
+  { abbr: 'st(s)', def: 'maska / maskor (stitch/es)', search: 'stitch stitches maska maskor', categories: ['general'] },
+  { abbr: 'RS', def: 'rätsida (right side)', search: 'right side rätsida', categories: ['general'] },
+  { abbr: 'WS', def: 'avigsida (wrong side)', search: 'wrong side avigsida', categories: ['general'] },
+  { abbr: 'rep', def: 'upprepa (repeat)', search: 'repeat upprepa rapport', categories: ['general'] },
+  { abbr: 'beg', def: 'början (beginning)', search: 'beginning början start', categories: ['general'] },
+  { abbr: 'rem', def: 'återstående (remaining)', search: 'remaining återstående kvar', categories: ['general'] },
+  { abbr: 'cont', def: 'fortsätt (continue)', search: 'continue fortsätt', categories: ['general'] },
+  { abbr: 'alt', def: 'växelvis / alternativt (alternate)', search: 'alternate växelvis alternativt', categories: ['general'] },
+  { abbr: 'approx', def: 'ungefär (approximately)', search: 'approximately ungefär cirka', categories: ['general'] },
+  { abbr: 'tbl', def: 'genom bakre maskbågen (through back loop)', search: 'through back loop bakre maskbågen', categories: ['general'] },
+  { abbr: 'wyif', def: 'med garnet framför arbetet (with yarn in front)', search: 'with yarn in front garnet framför arbetet', categories: ['general'] },
+  { abbr: 'wyib', def: 'med garnet bakom arbetet (with yarn in back)', search: 'with yarn in back garnet bakom arbetet', categories: ['general'] },
+  { abbr: 'sl', def: 'lyft maska (slip)', search: 'slip lyft maska', categories: ['general'] },
+  { abbr: 'sl st', def: 'lyft maska (slip stitch)', search: 'slip stitch lyft maska', categories: ['general'] },
+  { abbr: 'pm', def: 'placera markör (place marker)', search: 'place marker placera markör maskmarkör', categories: ['general'] },
+  { abbr: 'sm', def: 'flytta markör (slip marker)', search: 'slip marker flytta markör maskmarkör', categories: ['general'] },
+  { abbr: 'MC', def: 'huvudfärg (main color)', search: 'main color huvudfärg', categories: ['general'] },
+  { abbr: 'CC', def: 'kontrastfärg (contrast color)', search: 'contrast color kontrastfärg', categories: ['general'] },
+  { abbr: 'dpn(s)', def: 'strumpsticka / strumpstickor (double-pointed needle/s)', search: 'double pointed needles strumpstickor dpns', categories: ['general'] },
+  { abbr: 'cn', def: 'flätsticka (cable needle)', search: 'cable needle flätsticka hjälpsticka', categories: ['general'] },
+  { abbr: 'rnd(s)', def: 'varv i rundstickning (round/s)', search: 'round rounds varv rundstickning', categories: ['general'] },
+
+  { abbr: 'M1', def: 'öka 1 maska (make one)', search: 'make one öka en maska ökning', categories: ['increases'] },
+  { abbr: 'M1L', def: 'öka 1 maska vänsterlutande (make one left)', search: 'make one left vänsterlutande ökning', categories: ['increases'] },
+  { abbr: 'M1R', def: 'öka 1 maska högerlutande (make one right)', search: 'make one right högerlutande ökning', categories: ['increases'] },
+  { abbr: 'kfb', def: 'sticka i främre och bakre maskbågen (knit front and back)', search: 'knit front and back främre bakre maskbågen ökning', categories: ['increases'] },
+  { abbr: 'pfb', def: 'sticka avigt i främre och bakre maskbågen (purl front and back)', search: 'purl front and back avigt främre bakre maskbågen ökning', categories: ['increases'] },
+  { abbr: 'yo', def: 'omslag (yarn over)', search: 'yarn over omslag spets ökning', categories: ['increases', 'lace'] },
+  { abbr: 'inc', def: 'öka / ökning (increase)', search: 'increase öka ökning', categories: ['increases'] },
+
+  { abbr: 'k2tog', def: 'sticka 2 räta tillsammans, högerlutande minskning', search: 'knit two together sticka två räta tillsammans högerlutande minskning', categories: ['decreases', 'lace'] },
+  { abbr: 'p2tog', def: 'sticka 2 aviga tillsammans (purl two together)', search: 'purl two together sticka två aviga tillsammans minskning', categories: ['decreases'] },
+  { abbr: 'ssk', def: 'lyft, lyft, sticka, vänsterlutande minskning', search: 'slip slip knit vänsterlutande minskning', categories: ['decreases', 'lace'] },
+  { abbr: 'skp', def: 'lyft, sticka, dra den lyfta maskan över', search: 'slip knit pass slipped stitch over lyft sticka dra över minskning', categories: ['decreases'] },
+  { abbr: 'sk2p', def: 'lyft 1, sticka 2 räta tillsammans, dra den lyfta maskan över', search: 'slip one knit two together pass slipped stitch over dubbel minskning', categories: ['decreases', 'lace'] },
+  { abbr: 's2kp', def: 'lyft 2, sticka 1, dra de 2 lyfta maskorna över, centrerad dubbel minskning', search: 'slip two knit one pass two slipped stitches over centrerad dubbel minskning', categories: ['decreases'] },
+  { abbr: 'CDD', def: 'centrerad dubbel minskning (centered double decrease)', search: 'centered double decrease centrerad dubbel minskning', categories: ['decreases'] },
+  { abbr: 'psso', def: 'dra lyft maska över (pass slipped stitch over)', search: 'pass slipped stitch over dra lyft maska över minskning', categories: ['decreases'] },
+  { abbr: 'dec', def: 'minska / minskning (decrease)', search: 'decrease minska minskning', categories: ['decreases'] },
+
+  { abbr: 'C4F', def: 'fläta över 4 maskor framåt (cable 4 front)', search: 'cable four front fläta framåt', categories: ['cables'] },
+  { abbr: 'C4B', def: 'fläta över 4 maskor bakåt (cable 4 back)', search: 'cable four back fläta bakåt', categories: ['cables'] },
+  { abbr: 'C6F', def: 'fläta över 6 maskor framåt (cable 6 front)', search: 'cable six front fläta framåt', categories: ['cables'] },
+  { abbr: 'C6B', def: 'fläta över 6 maskor bakåt (cable 6 back)', search: 'cable six back fläta bakåt', categories: ['cables'] },
+  { abbr: 'T2F', def: 'vrid 2 maskor framåt (twist 2 front)', search: 'twist two front vrid framåt fläta', categories: ['cables'] },
+  { abbr: 'T2B', def: 'vrid 2 maskor bakåt (twist 2 back)', search: 'twist two back vrid bakåt fläta', categories: ['cables'] },
+
+  { abbr: 'St st', def: 'slätstickning (stockinette / stocking stitch)', search: 'stockinette stocking stitch slätstickning', categories: ['stitch-patterns'] },
+  { abbr: 'g st', def: 'rätstickning (garter stitch)', search: 'garter stitch rätstickning', categories: ['stitch-patterns'] },
+  { abbr: 'rev St st', def: 'avig slätstickning (reverse stockinette)', search: 'reverse stockinette avig slätstickning', categories: ['stitch-patterns'] },
+  { abbr: 'rib', def: 'resår (ribbing)', search: 'ribbing resår', categories: ['stitch-patterns'] },
+  { abbr: 'moss st', def: 'moss stitch, kontrollera mönstrets definition', search: 'moss stitch moss maskmönster', categories: ['stitch-patterns'] },
+  { abbr: 'seed st', def: 'seed stitch, kontrollera mönstrets definition', search: 'seed stitch seed maskmönster', categories: ['stitch-patterns'] },
+  { abbr: 'MB', def: 'gör bobble enligt mönstret (make bobble)', search: 'make bobble bobble noppa maskmönster', categories: ['stitch-patterns'] },
+];
+
+const filterOrder: Array<Category | 'all'> = [
+  'all',
+  'cast-on-bind-off',
+  'increases',
+  'decreases',
+  'cables',
+  'lace',
+  'general',
+  'stitch-patterns',
+];
+
+const faqs = [
+  {
+    q: 'Är stickförkortningar samma i amerikanska och brittiska mönster?',
+    a: 'De flesta är identiska. k, p, yo och k2tog betyder samma sak på båda sidor av Atlanten. Skillnaderna samlas kring några termer: amerikanskt "bind off" är brittiskt "cast off", amerikanskt "gauge" är brittiskt "tension", och amerikanskt "stockinette" är brittiskt "stocking stitch". Dessutom kan "seed stitch" och "moss stitch" byta betydelse beroende på källan, så lita på maskdefinitionen mer än namnet. När ett mönster inte anger vilket system det använder är designerns plats oftast bästa ledtråden.',
+  },
+  {
+    q: 'Vad betyder asterisken i ett stickmönster?',
+    a: 'Den markerar en upprepning. Allt mellan asterisken och nästa matchande instruktion, oftast "rep from *", stickas om och om igen över varvet. Hakparenteser och parenteser gör samma jobb: de grupperar en serie moment som upprepas ett visst antal gånger. Att missa en upprepningsmarkör är ett av de snabbaste sätten att få fel maskantal.',
+  },
+  {
+    q: 'Vad gör jag om jag inte hittar en förkortning i en standardlista?',
+    a: 'Det är nästan säkert en mönsterspecifik förkortning som designern har definierat. Gå upp till början av mönstret och leta efter en förkortningslista eller avsnitt med maskdefinitioner. Flät- och spetsmönster är den största källan till egna kortformer, eftersom designers ofta hittar på kompakt notation för tekniker som bara gäller just den designen. Om den inte finns där är mönsteranteckningar eller diagramnyckel nästa ställe att kontrollera.',
+  },
+  {
+    q: 'Vad är skillnaden mellan ssk och skp?',
+    a: 'Båda är vänsterlutande minskningar och ger nästan samma resultat i den färdiga stickningen. ssk är modern standard och syns i de flesta nya mönster. skp förekommer oftare i äldre mönster. Utförandet skiljer sig lite, så följ den förkortning som mönstret anger i stället för att byta fritt.',
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Stickförkortningar: sökbar ordlista"
+  description="Slå upp stickförkortningar eller sök efter tekniknamn. Komplett ordlista över mönstertermer från k2tog till psso, ordnad efter kategori."
+  canonicalPath={routes.tool.knittingAbbreviations.sv}
+  lang="sv"
+  alternates={routes.tool.knittingAbbreviations}
+  intro="Sök en förkortning för att se vad den betyder, eller sök en teknik för att hitta dess förkortningar."
+  schemaName="Stickförkortningar"
+  schemaDescription="Sökbar ordlista över stickförkortningar och tekniknamn."
+  faqs={faqs}
+  variant="brown"
+>
+  <div slot="tool">
+    <div class="abbr-wrapper">
+      <input
+        type="text"
+        id="abbr-search"
+        class="search-input"
+        placeholder='Sök förkortning eller teknik, t.ex. "ssk" eller "minskning"'
+        autocomplete="off"
+      />
+
+      <div class="category-filters" role="group" aria-label="Filtrera efter kategori">
+        {filterOrder.map((cat, index) => (
+          <button
+            type="button"
+            class={`cat-btn${index === 0 ? ' is-active' : ''}`}
+            data-cat={cat}
+            aria-pressed={index === 0 ? 'true' : 'false'}
+          >
+            {cat === 'all' ? 'Alla' : categoryLabels[cat as Category]}
+          </button>
+        ))}
+      </div>
+
+      <ul class="abbr-list" id="abbr-list" aria-label="Stickförkortningar">
+        {abbreviations.map((item) => (
+          <li
+            class="abbr-row"
+            data-abbr={item.abbr.toLowerCase()}
+            data-def={item.def.toLowerCase()}
+            data-search={item.search.toLowerCase()}
+            data-cats={item.categories.join(' ')}
+            data-catlabels={item.categories.map((cat) => categoryLabels[cat].toLowerCase()).join(' ')}
+          >
+            <span class="abbr-term">{item.abbr}</span>
+            <span class="abbr-def">{item.def}</span>
+          </li>
+        ))}
+      </ul>
+
+      <p class="no-results" id="no-results" hidden>Inga matchande förkortningar hittades.</p>
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Så läses förkortningar i sitt sammanhang</h2>
+    <p>De flesta förkortningar sorterar sig i några grupper, och att känna igen gruppen hjälper mer än att memorera varje enskild term.</p>
+    <p><strong>Grundmaskor</strong> är enstaka bokstäver. <code>k</code> är knit, räta maskor, och <code>p</code> är purl, aviga maskor. En siffra efter bokstaven säger hur många: <code>k5</code> betyder sticka fem räta maskor. Det är hela systemet för de enklaste.</p>
+    <p><strong>Kombinerade moment</strong> staplar bokstäver och siffror. <code>k2tog</code> betyder sticka två maskor tillsammans. <code>p2tog</code> är samma idé men avigt. Mycket stickförkortning fungerar så. Sakta ner och läs det bokstavligt.</p>
+    <p><strong>Sidmarkörer</strong> berättar vilken sida av arbetet du är på. <code>RS</code> är rätsida, <code>WS</code> är avigsida. Det spelar roll eftersom samma handrörelse ger olika resultat beroende på om du arbetar på den synliga sidan eller baksidan.</p>
+    <p><strong>Formningsförkortningar</strong> styr hur tyget växer eller smalnar av. <code>M1</code>, <code>M1L</code>, <code>M1R</code> och <code>kfb</code> lägger till maskor. <code>k2tog</code> och <code>ssk</code> tar bort dem. När du vet vilka som lutar åt vänster, vilka som lutar åt höger och vilka som bara lägger till eller tar bort blir mönster lättare att läsa snabbt.</p>
+    <p><strong>Strukturtermer</strong> håller instruktionerna kompakta. <code>rep</code>, <code>st(s)</code>, <code>beg</code>, <code>rem</code>, <code>cont</code>. Stomme, inte maskor.</p>
+    <p>Interpunktion spelar också roll. Asterisker och semikolon är inte dekoration. <code>*k2, p2; rep from *</code> betyder att allt mellan asterisken och semikolonet upprepas. Hakparenteser och parenteser fungerar på liknande sätt och grupperar moment som upprepas ett visst antal gånger. Att missa en upprepningsmarkör är ett av de snabbaste sätten att få fel maskantal.</p>
+
+    <h2>Skillnader mellan US och UK</h2>
+    <p>Några termer skiftar över Atlanten. De stora är:</p>
+    <p>Amerikanskt "bind off" är brittiskt "cast off". Amerikanskt "gauge" är brittiskt "tension". Amerikanskt "stockinette" är brittiskt "stocking stitch". Och den klassiska fällan: "seed stitch" och "moss stitch" kan byta betydelse beroende på källan, så en skriven maskdefinition slår alltid namnet.</p>
+    <p>De flesta vanliga förkortningar, som <code>k</code>, <code>p</code>, <code>yo</code> och <code>k2tog</code>, är samma i båda systemen. Om ett mönster inte anger amerikanska eller brittiska konventioner brukar avsnittet med maskdefinitioner reda ut det. Om det inte finns någon sådan del alls är designerns plats bästa ledtråden.</p>
+
+    <h2>Mönsterspecifika förkortningar</h2>
+    <p>Det är här det blir intressant, för många förkortningar finns inte i någon standardlista. Det är normalt. De är egna kortformer som designern har hittat på för just det mönstret, och de ska definieras nära början av instruktionerna.</p>
+    <p>Flätmönster är den största källan till sådana. En diagramnyckel kan definiera <code>C4F</code>, <code>C6B</code> eller något mer specifikt för designen. Siffran anger oftast hur många maskor som korsas. Bokstaven i slutet, F eller B, anger riktning: front eller back, alltså var du håller flätstickan när du korsar. Men designers är inte alltid konsekventa med den konventionen. Vissa använder L och R i stället. Vissa räknar alla maskor som ingår, andra bara maskorna som flyttas. Mönstrets egen definition är det som gäller.</p>
+    <p>Spetsmönster bygger också sammansatta kortformer. Ett mönster skriver <code>CDD</code> för en centrerad dubbel minskning. Ett annat skriver ut samma sak som <code>sl2-k1-p2sso</code>. Ett tredje använder <code>s2kp</code>. Alla tre pekar på samma grundidé, men exakt utförande kan skilja mellan designers, och vissa förkortningar används för lite olika minskningar beroende på källa. Om en förkortning ser obekant ut, kontrollera mönsternyckeln innan du antar att den är den vanligaste versionen. Mönsternycklar finns just därför.</p>
+    <p>Flerfärgsstickning förkortar ibland färgnamn eller färgtilldelning. Du kan se MC, main color, och CC, contrast color, eller CC1 och CC2 när flera kontrastfärger används. Vissa designers använder A, B, C i stället. Förkortningarna är enkla, men om du blandar ihop vilken färg som ska vara var syns det i det färdiga arbetet.</p>
+    <p>Vissa designers skapar också kortformer för upprepade masksekvenser som bara finns i deras design. Ett mönster kan definiera något som "MB" för en viss bobble-metod, eller "cluster" för en särskild kombination av omslag och genomdragningar som bara gäller det projektet. De sparar designern från att skriva ut ett flerstegsmoment varje gång det dyker upp. De är bara begripliga inuti det mönstret.</p>
+    <p>Grundregeln: om du inte hittar en förkortning i en standardreferens är den nästan säkert definierad i mönsterhuvudet. Bläddra upp innan du söker vidare.</p>
+
+    <h2>Vad symbolerna i stickdiagram betyder</h2>
+    <p>Diagram använder symboler i stället för utskrivna varv. Varje ruta är en maska, och symbolen i rutan säger vad du ska göra.</p>
+    <p>Det finns ingen universell standard för diagramsymboler, men många designers ligger nära Craft Yarn Councils konventioner. En tom ruta betyder oftast rät maska på RS och avig maska på WS. Ett streck betyder avig maska på RS. En cirkel är <code>yo</code>. Ett högerlutande snedstreck markerar <code>k2tog</code>, ett vänsterlutande markerar <code>ssk</code>.</p>
+    <p>Diagram läses nedifrån och upp, eftersom stickningen växer uppåt. På plana diagram går RS-varv från höger till vänster och WS-varv från vänster till höger, i samma riktning som stickorna rör sig. Diagram för rundstickning läses från höger till vänster på varje varv, eftersom du alltid arbetar från rätsidan.</p>
+    <p>Om ett mönster har både skrivna instruktioner och diagram ska de stämma överens. När de inte gör det, och det händer oftare än man vill, bör mönsteranteckningarna säga vilket som gäller. Om de inte säger det, sticka en rapport som prov innan du litar på någon av versionerna.</p>
+
+    <h2>Några förkortningar att kunna tidigt</h2>
+    <p>Du behöver inte memorera allt innan du lägger upp. En första halsduk kanske bara använder <code>k</code> och <code>p</code>. En enkel mössa lägger till någon minskning. Resten kommer naturligt med mönstren du väljer, och samma dussin förkortningar täcker det mesta du stickar.</p>
+    <p>Ett par som ofta ställer till det: <code>ssk</code> och <code>skp</code> är båda vänsterlutande minskningar. <code>ssk</code> är modern standard. <code>skp</code> syns mer i äldre mönster. De blir lika i resultatet men skiljer sig lite i utförande, så följ mönstret som det står om det inte ger tillåtelse att byta.</p>
+    <p>En annan värd att flagga: <code>psso</code>, pass slipped stitch over, dyker upp både ensam och som del av sammansatta förkortningar som <code>sl1-k2tog-psso</code>. När du ser den ensam följer den oftast på en lyft maska från föregående steg.</p>
+    <p>Craft Yarn Council publicerar en mycket använd standardlista över förkortningar, och de flesta designers följer den för vanliga termer. Utöver grunderna tar regionala vanor och mönsterspecifika kortformer över. "Kontrollera mönsternyckeln" är bättre råd än "memorera en huvudlista".</p>
+    <p>Ha en referens öppen medan du stickar. <a href="/">KnitTools-appen</a> innehåller en sökbar förkortningsreferens, snabbare än att växla mellan flikar när du är mitt i ett varv. Om du också reder ut stickstorlekar eller <a href="/sv/artiklar/sa-mater-du-stickfasthet/">stickfasthet</a> passar de referenserna bra ihop med ordlistan. Och om du är ny på att <a href="/sv/artiklar/lasa-stickmonster-nyborjarguide/">läsa stickmönster</a> är förkortningsnyckeln i mönstret den första delen att skanna innan du lägger upp.</p>
+  </div>
+</LocalizedToolPage>
+
+<script>
+  const searchInput = document.getElementById('abbr-search') as HTMLInputElement | null;
+  const list = document.getElementById('abbr-list');
+  const noResults = document.getElementById('no-results');
+  const catButtons = document.querySelectorAll<HTMLButtonElement>('.cat-btn');
+
+  let activeCategory = 'all';
+
+  function applyFilters() {
+    if (!list || !noResults) return;
+    const rows = list.querySelectorAll<HTMLElement>('.abbr-row');
+    const query = (searchInput?.value || '').trim().toLowerCase();
+    let visibleCount = 0;
+
+    rows.forEach((row) => {
+      const cats = (row.dataset.cats || '').split(' ');
+      const haystack = [
+        row.dataset.abbr,
+        row.dataset.def,
+        row.dataset.search,
+        row.dataset.catlabels,
+      ].join(' ');
+
+      const matchesCategory = activeCategory === 'all' || cats.includes(activeCategory);
+      const matchesSearch = !query || haystack.includes(query);
+      const visible = matchesCategory && matchesSearch;
+
+      row.style.display = visible ? '' : 'none';
+      if (visible) visibleCount++;
+    });
+
+    noResults.hidden = visibleCount > 0;
+  }
+
+  searchInput?.addEventListener('input', applyFilters);
+
+  catButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      catButtons.forEach((item) => {
+        item.classList.remove('is-active');
+        item.setAttribute('aria-pressed', 'false');
+      });
+
+      button.classList.add('is-active');
+      button.setAttribute('aria-pressed', 'true');
+      activeCategory = button.dataset.cat || 'all';
+      applyFilters();
+    });
+  });
+</script>

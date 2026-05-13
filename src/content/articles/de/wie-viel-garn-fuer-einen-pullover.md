@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: yarn
 categoryOrder: 4
 tags: ["Garn für Pullover", "Pullover Garnbedarf", "wie viel Garn für Pullover", "wie viele Knäuel Pullover"]
-draft: true
+draft: false
 lang: de
 translationKey: "yarn-for-sweater"
 ---

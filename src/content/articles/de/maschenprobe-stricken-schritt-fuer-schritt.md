@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 4
 tags: ["Maschenprobe stricken", "Maschenprobe Schritt für Schritt", "Maschenprobe messen", "Probestück stricken"]
-draft: true
+draft: false
 lang: de
 translationKey: "gauge-swatch-step-by-step"
 ---

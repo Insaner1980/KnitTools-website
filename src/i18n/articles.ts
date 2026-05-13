@@ -1,158 +1,316 @@
 import type { CollectionEntry } from 'astro:content';
+import type { CategorySlug } from '../lib/categories';
 import type { Lang } from './config';
+import { pathFor, routes } from './routes';
+
+export function getArticlesIndexPath(lang: Lang): string {
+  return pathFor(routes.articlesIndex, lang);
+}
 
 export const articleTranslations = {
   'at-the-same-time-knitting': {
     en: '/articles/at-the-same-time-knitting/',
     fi: '/fi/artikkelit/samaan-aikaan-neuleohjeessa/',
+    de: '/de/artikel/gleichzeitig-in-strickanleitungen/',
+    sv: '/sv/artiklar/samtidigt-i-stickmonster/',
+    no: '/no/artikler/samtidig-i-strikkeoppskrifter/',
+    fr: '/fr/articles/au-meme-temps-dans-un-modele-tricot/',
   },
   'best-knitting-apps': {
     en: '/articles/best-knitting-apps/',
     fi: '/fi/artikkelit/parhaat-neulesovellukset/',
+    de: '/de/artikel/die-besten-strick-apps-worauf-es-ankommt/',
+    sv: '/sv/artiklar/basta-stickappar-vad-du-ska-titta-efter/',
+    no: '/no/artikler/beste-strikkeapper-hva-du-bor-se-etter/',
+    fr: '/fr/articles/meilleures-applications-tricot/',
   },
   'best-yarn-for-beginners': {
     en: '/articles/best-yarn-for-beginners/',
     fi: '/fi/artikkelit/paras-lanka-aloittelijalle/',
+    de: '/de/artikel/das-beste-garn-fuer-den-einstieg-ins-stricken/',
+    sv: '/sv/artiklar/basta-garnet-for-nyborjare-praktisk-guide/',
+    no: '/no/artikler/beste-garn-for-nybegynnere/',
+    fr: '/fr/articles/meilleur-fil-pour-debuter-le-tricot/',
   },
   'circular-vs-straight-vs-dpn': {
     en: '/articles/circular-vs-straight-vs-dpn/',
     fi: '/fi/artikkelit/pyoropuikot-suorat-puikot-sukkapuikot/',
+    de: '/de/artikel/rundstricknadel-gerade-nadeln-oder-nadelspiel/',
+    sv: '/sv/artiklar/rundsticka-raka-stickor-strumpstickor/',
+    no: '/no/artikler/rundpinne-rette-pinner-strompepinner/',
+    fr: '/fr/articles/aiguilles-circulaires-droites-doubles-pointes/',
   },
   'digital-vs-physical-row-counters': {
     en: '/articles/digital-vs-physical-row-counters/',
     fi: '/fi/artikkelit/digitaalinen-vs-mekaaninen-kerroslaskuri/',
+    de: '/de/artikel/digitaler-oder-mechanischer-reihenzaehler/',
+    sv: '/sv/artiklar/digital-eller-mekanisk-varvraknare/',
+    no: '/no/artikler/digital-eller-mekanisk-omgangsteller/',
+    fr: '/fr/articles/compteur-rangs-numerique-ou-mecanique/',
   },
   'essential-knitting-tools': {
     en: '/articles/essential-knitting-tools/',
     fi: '/fi/artikkelit/valttamattomat-neuletarvikkeet/',
+    de: '/de/artikel/strickzubehoer-ausser-nadeln-und-garn/',
+    sv: '/sv/artiklar/viktiga-stickverktyg-utover-stickor-och-garn/',
+    no: '/no/artikler/viktig-strikketilbehor-utover-pinner-og-garn/',
+    fr: '/fr/articles/accessoires-tricot-indispensables/',
   },
   'fix-dropped-stitches': {
     en: '/articles/fix-dropped-stitches/',
     fi: '/fi/artikkelit/pudonneen-silmukan-korjaaminen/',
+    de: '/de/artikel/fallengelassene-maschen-retten-ohne-aufzuribbeln/',
+    sv: '/sv/artiklar/fixa-tappade-maskor-utan-att-repa-upp/',
+    no: '/no/artikler/redde-mistede-masker-uten-a-rekke-opp/',
+    fr: '/fr/articles/rattraper-maille-tombee/',
   },
   'free-knitting-calculators': {
     en: '/articles/free-knitting-calculators/',
     fi: '/fi/artikkelit/ilmaiset-neulelaskurit/',
+    de: '/de/artikel/kostenlose-strickrechner/',
+    sv: '/sv/artiklar/gratis-stickkalkylatorer/',
+    no: '/no/artikler/gratis-strikkekalkulatorer/',
+    fr: '/fr/articles/calculateurs-tricot-gratuits/',
   },
   'what-is-gauge-in-knitting': {
     en: '/articles/what-is-gauge-in-knitting/',
     fi: '/fi/artikkelit/mita-neuletiheys-tarkoittaa/',
+    de: '/de/artikel/was-sagt-die-maschenprobe-beim-stricken-aus/',
+    sv: '/sv/artiklar/vad-ar-stickfasthet/',
+    no: '/no/artikler/hva-er-strikkefasthet/',
+    fr: '/fr/articles/comprendre-l-echantillon-au-tricot/',
   },
   'how-to-measure-knitting-gauge': {
     en: '/articles/how-to-measure-knitting-gauge/',
     fi: '/fi/artikkelit/neuletiheyden-mittaaminen/',
+    de: '/de/artikel/maschenprobe-messen/',
+    sv: '/sv/artiklar/sa-mater-du-stickfasthet/',
+    no: '/no/artikler/male-strikkefasthet/',
+    fr: '/fr/articles/mesurer-un-echantillon-tricot/',
   },
   'gauge-doesnt-match': {
     en: '/articles/gauge-doesnt-match/',
     fi: '/fi/artikkelit/kun-neuletiheys-ei-tasmaa/',
+    de: '/de/artikel/wenn-die-maschenprobe-nicht-zur-anleitung-passt/',
+    sv: '/sv/artiklar/nar-stickfastheten-inte-stammer/',
+    no: '/no/artikler/nar-strikkefastheten-ikke-stemmer/',
+    fr: '/fr/articles/quand-echantillon-ne-correspond-pas/',
   },
   'gauge-swatch-step-by-step': {
     en: '/articles/gauge-swatch-step-by-step/',
     fi: '/fi/artikkelit/mallitilkun-neulominen-vaiheittain/',
+    de: '/de/artikel/maschenprobe-stricken-schritt-fuer-schritt/',
+    sv: '/sv/artiklar/sticka-provlapp-steg-for-steg/',
+    no: '/no/artikler/strikke-provelapp-steg-for-steg/',
+    fr: '/fr/articles/tricoter-un-echantillon-etape-par-etape/',
   },
   'how-many-stitches-to-cast-on': {
     en: '/articles/how-many-stitches-to-cast-on/',
     fi: '/fi/artikkelit/montako-silmukkaa-luodaan/',
+    de: '/de/artikel/wie-viele-maschen-anschlagen/',
+    sv: '/sv/artiklar/hur-manga-maskor-ska-laggas-upp/',
+    no: '/no/artikler/hvor-mange-masker-skal-du-legge-opp/',
+    fr: '/fr/articles/combien-de-mailles-monter/',
   },
   'how-much-yarn-do-i-need': {
     en: '/articles/how-much-yarn-do-i-need/',
     fi: '/fi/artikkelit/paljonko-lankaa-tarvitaan/',
+    de: '/de/artikel/wie-viel-garn-brauche-ich/',
+    sv: '/sv/artiklar/hur-mycket-garn-behover-jag/',
+    no: '/no/artikler/hvor-mye-garn-trenger-jeg/',
+    fr: '/fr/articles/combien-de-fil-faut-il/',
   },
   'how-to-block-knitting': {
     en: '/articles/how-to-block-knitting/',
     fi: '/fi/artikkelit/neuleen-pingotus/',
+    de: '/de/artikel/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche/',
+    sv: '/sv/artiklar/blocka-stickning-vat-anga-spray/',
+    no: '/no/artikler/blokke-strikk-vatt-damp-spray/',
+    fr: '/fr/articles/bloquer-un-tricot/',
   },
   'how-to-knit-hat': {
     en: '/articles/how-to-knit-hat/',
     fi: '/fi/artikkelit/pipon-neulominen/',
+    de: '/de/artikel/muetze-stricken-methoden-fuer-jedes-niveau/',
+    sv: '/sv/artiklar/sticka-mossa-metoder-for-alla-nivaer/',
+    no: '/no/artikler/strikke-lue-metoder-for-alle-nivaer/',
+    fr: '/fr/articles/tricoter-un-bonnet/',
   },
   'how-to-knit-socks': {
     en: '/articles/how-to-knit-socks/',
     fi: '/fi/artikkelit/sukkien-neulominen/',
+    de: '/de/artikel/socken-stricken-aufbau-einer-sockenanleitung/',
+    sv: '/sv/artiklar/sticka-sockor-sockmonstrets-delar/',
+    no: '/no/artikler/strikke-sokker-sokkeoppskriftens-deler/',
+    fr: '/fr/articles/tricoter-des-chaussettes/',
   },
   'how-to-read-yarn-label': {
     en: '/articles/how-to-read-yarn-label/',
     fi: '/fi/artikkelit/lankavyotteen-lukeminen/',
+    de: '/de/artikel/garnbanderole-lesen/',
+    sv: '/sv/artiklar/lasa-garnbanderoll-symboler/',
+    no: '/no/artikler/lese-garnetikett-symboler/',
+    fr: '/fr/articles/lire-une-etiquette-de-pelote/',
   },
   'how-to-substitute-yarn': {
     en: '/articles/how-to-substitute-yarn/',
     fi: '/fi/artikkelit/langan-korvaaminen-neuleohjeessa/',
+    de: '/de/artikel/garn-in-einer-strickanleitung-ersetzen/',
+    sv: '/sv/artiklar/byta-garn-i-stickmonster/',
+    no: '/no/artikler/bytte-garn-i-strikkeoppskrift/',
+    fr: '/fr/articles/remplacer-un-fil-dans-un-modele/',
   },
   'identify-mystery-yarn': {
     en: '/articles/identify-mystery-yarn/',
     fi: '/fi/artikkelit/tuntemattoman-langan-tunnistaminen/',
+    de: '/de/artikel/unbekanntes-garn-ohne-banderole-bestimmen/',
+    sv: '/sv/artiklar/identifiera-okant-garn-utan-banderoll/',
+    no: '/no/artikler/ukjent-garn-uten-garnetikett/',
+    fr: '/fr/articles/identifier-un-fil-sans-etiquette/',
   },
   'increase-decrease-evenly': {
     en: '/articles/increase-decrease-evenly/',
     fi: '/fi/artikkelit/lisaysten-ja-kavennusten-jakaminen/',
+    de: '/de/artikel/zunahmen-und-abnahmen-gleichmaessig-verteilen/',
+    sv: '/sv/artiklar/oka-eller-minska-jamnt-over-ett-varv/',
+    no: '/no/artikler/fordele-okninger-og-fellinger-jevnt/',
+    fr: '/fr/articles/repartir-augmentations-diminutions-regulierement/',
   },
   'join-new-ball-of-yarn': {
     en: '/articles/join-new-ball-of-yarn/',
     fi: '/fi/artikkelit/uuden-lankakeran-liittaminen/',
+    de: '/de/artikel/ein-neues-knaeuel-mitten-in-der-reihe-ansetzen/',
+    sv: '/sv/artiklar/skarva-nytt-nystan-mitt-i-varvet/',
+    no: '/no/artikler/nytt-noste-midt-pa-pinnen/',
+    fr: '/fr/articles/changer-de-pelote-au-milieu-du-rang/',
   },
   'knit-first-scarf': {
     en: '/articles/knit-first-scarf/',
     fi: '/fi/artikkelit/ensimmaisen-huivin-neulominen/',
+    de: '/de/artikel/den-ersten-schal-stricken/',
+    sv: '/sv/artiklar/sticka-forsta-halsduken/',
+    no: '/no/artikler/strikke-forste-skjerf/',
+    fr: '/fr/articles/tricoter-sa-premiere-echarpe/',
   },
   'knitting-needle-materials': {
     en: '/articles/knitting-needle-materials/',
     fi: '/fi/artikkelit/puikkomateriaalit-metalli-puu-bambu/',
+    de: '/de/artikel/stricknadeln-metall-holz-bambus/',
+    sv: '/sv/artiklar/stickmaterial-metall-tra-bambu/',
+    no: '/no/artikler/strikkepinner-metall-tre-bambus/',
+    fr: '/fr/articles/aiguilles-a-tricoter-metal-bois-bambou/',
   },
   'knitting-pattern-repeats': {
     en: '/articles/knitting-pattern-repeats/',
     fi: '/fi/artikkelit/neuleohjeen-toistot/',
+    de: '/de/artikel/rapporte-in-strickanleitungen-sterne-und-klammern/',
+    sv: '/sv/artiklar/rapporter-i-stickmonster-asterisker-och-hakparenteser/',
+    no: '/no/artikler/rapporter-i-strikkeoppskrifter/',
+    fr: '/fr/articles/repetitions-dans-les-modeles-de-tricot/',
   },
   'knitting-pattern-sizes-and-fit': {
     en: '/articles/knitting-pattern-sizes-and-fit/',
     fi: '/fi/artikkelit/neuleohjeen-koot-ja-istuvuus/',
+    de: '/de/artikel/groessen-in-strickanleitungen-mehrweite-und-masse/',
+    sv: '/sv/artiklar/storlekar-i-stickmonster-rorelsevidd-och-matt/',
+    no: '/no/artikler/storrelser-i-strikkeoppskrifter/',
+    fr: '/fr/articles/tailles-dans-les-modeles-de-tricot/',
   },
   'needle-size-for-beginners': {
     en: '/articles/needle-size-for-beginners/',
     fi: '/fi/artikkelit/puikkokoko-aloittelijalle/',
+    de: '/de/artikel/welche-nadelstaerke-fuer-den-einstieg/',
+    sv: '/sv/artiklar/vilken-stickstorlek-for-nyborjare/',
+    no: '/no/artikler/pinnestorrelse-for-nybegynnere/',
+    fr: '/fr/articles/taille-aiguilles-pour-debuter/',
   },
   'organize-knitting-projects': {
     en: '/articles/organize-knitting-projects/',
     fi: '/fi/artikkelit/neuleprojektien-jarjestaminen/',
+    de: '/de/artikel/mehrere-strickprojekte-organisieren/',
+    sv: '/sv/artiklar/organisera-flera-stickprojekt/',
+    no: '/no/artikler/holde-orden-pa-strikkeprosjekter/',
+    fr: '/fr/articles/organiser-ses-projets-tricot/',
   },
   'how-to-read-knitting-pattern': {
     en: '/articles/how-to-read-knitting-pattern/',
     fi: '/fi/artikkelit/neuleohjeen-lukeminen/',
+    de: '/de/artikel/strickanleitung-lesen/',
+    sv: '/sv/artiklar/lasa-stickmonster-nyborjarguide/',
+    no: '/no/artikler/lese-strikkeoppskrift-nybegynnerguide/',
+    fr: '/fr/articles/lire-un-modele-de-tricot/',
   },
   'pick-up-stitches': {
     en: '/articles/pick-up-stitches/',
     fi: '/fi/artikkelit/silmukoiden-poimiminen/',
+    de: '/de/artikel/maschen-an-einer-strickkante-aufnehmen/',
+    sv: '/sv/artiklar/plocka-upp-maskor-langs-stickad-kant/',
+    no: '/no/artikler/plukke-opp-masker-langs-strikket-kant/',
+    fr: '/fr/articles/relever-des-mailles/',
   },
   'seam-knitted-pieces': {
     en: '/articles/seam-knitted-pieces/',
     fi: '/fi/artikkelit/neulekappaleiden-yhdistaminen/',
+    de: '/de/artikel/strickteile-zusammennaehen-matratzenstich/',
+    sv: '/sv/artiklar/sy-ihop-stickade-delar-madrassom/',
+    no: '/no/artikler/sy-sammen-strikkede-deler-madrassting/',
+    fr: '/fr/articles/assembler-des-pieces-tricotees/',
   },
   'track-knitting-time': {
     en: '/articles/track-knitting-time/',
     fi: '/fi/artikkelit/neulonta-ajan-seuraaminen/',
+    de: '/de/artikel/strickzeit-und-tempo-verfolgen/',
+    sv: '/sv/artiklar/folja-sticktid-och-hastighet/',
+    no: '/no/artikler/folge-med-pa-strikketid-og-tempo/',
+    fr: '/fr/articles/suivre-son-temps-et-sa-vitesse-de-tricot/',
   },
   'track-rows-knitting': {
     en: '/articles/track-rows-knitting/',
     fi: '/fi/artikkelit/kerrosten-seuraaminen-neuloessa/',
+    de: '/de/artikel/reihen-beim-stricken-zaehlen/',
+    sv: '/sv/artiklar/halla-koll-pa-varv-nar-du-stickar/',
+    no: '/no/artikler/holde-styr-pa-pinner-og-omganger/',
+    fr: '/fr/articles/suivre-les-rangs-au-tricot/',
   },
   'why-knitting-curls': {
     en: '/articles/why-knitting-curls/',
     fi: '/fi/artikkelit/miksi-neule-kaartuu/',
+    de: '/de/artikel/warum-rollt-sich-mein-strickstueck-ein/',
+    sv: '/sv/artiklar/varfor-rullar-stickningen-sig/',
+    no: '/no/artikler/hvorfor-ruller-strikketoyet-seg/',
+    fr: '/fr/articles/pourquoi-le-tricot-roule/',
   },
   'yarn-fibers-compared': {
     en: '/articles/yarn-fibers-compared/',
     fi: '/fi/artikkelit/lankakuidut-vertailussa/',
+    de: '/de/artikel/garnfasern-im-vergleich/',
+    sv: '/sv/artiklar/garnfibrer-jamforda-ull-bomull-akryl/',
+    no: '/no/artikler/garnfibre-sammenlignet/',
+    fr: '/fr/articles/fibres-de-fil-laine-coton-acrylique/',
   },
   'yarn-for-blanket': {
     en: '/articles/yarn-for-blanket/',
     fi: '/fi/artikkelit/paljonko-lankaa-peittoon/',
+    de: '/de/artikel/wie-viel-garn-fuer-eine-decke/',
+    sv: '/sv/artiklar/hur-mycket-garn-till-filt/',
+    no: '/no/artikler/hvor-mye-garn-til-teppe/',
+    fr: '/fr/articles/combien-de-fil-pour-une-couverture/',
   },
   'yarn-for-sweater': {
     en: '/articles/yarn-for-sweater/',
     fi: '/fi/artikkelit/paljonko-lankaa-villapaitaan/',
+    de: '/de/artikel/wie-viel-garn-fuer-einen-pullover/',
+    sv: '/sv/artiklar/hur-mycket-garn-till-troja/',
+    no: '/no/artikler/hvor-mye-garn-til-genser/',
+    fr: '/fr/articles/combien-de-fil-pour-un-pull/',
   },
   'yarn-weight-substitution': {
     en: '/articles/yarn-weight-substitution/',
     fi: '/fi/artikkelit/langan-korvaaminen-eri-vahvuudella/',
+    de: '/de/artikel/garnstaerke-ersetzen/',
+    sv: '/sv/artiklar/byta-garntjocklek-i-stickmonster/',
+    no: '/no/artikler/bytte-garntykkelse-i-strikkeoppskrift/',
+    fr: '/fr/articles/remplacer-par-une-autre-epaisseur-de-fil/',
   },
 } as const;
 
@@ -174,6 +332,18 @@ export function isGermanArticle(article: CollectionEntry<'articles'>): boolean {
   return article.data.lang === 'de';
 }
 
+export function isSwedishArticle(article: CollectionEntry<'articles'>): boolean {
+  return article.data.lang === 'sv';
+}
+
+export function isNorwegianArticle(article: CollectionEntry<'articles'>): boolean {
+  return article.data.lang === 'no';
+}
+
+export function isFrenchArticle(article: CollectionEntry<'articles'>): boolean {
+  return article.data.lang === 'fr';
+}
+
 export function getArticleSlug(id: string): string {
   return id.split('/').pop() ?? id;
 }
@@ -181,6 +351,9 @@ export function getArticleSlug(id: string): string {
 function fallbackArticlePath(lang: Lang, slug: string): string {
   if (lang === 'fi') return `/fi/artikkelit/${slug}/`;
   if (lang === 'de') return `/de/artikel/${slug}/`;
+  if (lang === 'sv') return `/sv/artiklar/${slug}/`;
+  if (lang === 'no') return `/no/artikler/${slug}/`;
+  if (lang === 'fr') return `/fr/articles/${slug}/`;
   return `/articles/${slug}/`;
 }
 
@@ -211,4 +384,40 @@ export function getGermanArticleRouteSlug(key: string, fallbackSlug = key): stri
     if (dePath) return dePath.replace('/de/artikel/', '').replace(/\/$/, '');
   }
   return fallbackSlug;
+}
+
+export function getSwedishArticleRouteSlug(key: string, fallbackSlug = key): string {
+  if (isTranslatedArticle(key)) {
+    const svPath = (articleTranslations[key] as Partial<Record<Lang, string>>).sv;
+    if (svPath) return svPath.replace('/sv/artiklar/', '').replace(/\/$/, '');
+  }
+  return fallbackSlug;
+}
+
+export function getNorwegianArticleRouteSlug(key: string, fallbackSlug = key): string {
+  if (isTranslatedArticle(key)) {
+    const noPath = (articleTranslations[key] as Partial<Record<Lang, string>>).no;
+    if (noPath) return noPath.replace('/no/artikler/', '').replace(/\/$/, '');
+  }
+  return fallbackSlug;
+}
+
+export function getFrenchArticleRouteSlug(key: string, fallbackSlug = key): string {
+  if (isTranslatedArticle(key)) {
+    const frPath = (articleTranslations[key] as Partial<Record<Lang, string>>).fr;
+    if (frPath) return frPath.replace('/fr/articles/', '').replace(/\/$/, '');
+  }
+  return fallbackSlug;
+}
+
+export function getNorwegianCategoryRouteSlug(category: CategorySlug): string {
+  return routes.category[category].no
+    .replace('/no/artikler/kategori/', '')
+    .replace(/\/$/, '');
+}
+
+export function getFrenchCategoryRouteSlug(category: CategorySlug): string {
+  return routes.category[category].fr
+    .replace('/fr/articles/categorie/', '')
+    .replace(/\/$/, '');
 }

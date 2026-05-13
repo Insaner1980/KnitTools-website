@@ -1,0 +1,137 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../../../../layouts/PageLayout.astro';
+import ArticleCard from '../../../../components/ArticleCard.astro';
+import ClosingCTA from '../../../../components/ClosingCTA.astro';
+import {
+  CATEGORY_ORDER,
+  getCategoryDescription,
+  getCategoryLabel,
+  type CategorySlug,
+} from '../../../../lib/categories';
+import { isSwedishArticle } from '../../../../i18n/articles';
+import { routes } from '../../../../i18n/routes';
+
+const slugMap: Record<string, CategorySlug> = {
+  'stickfasthet-och-berakningar': 'gauge-calculations',
+  garn: 'yarn',
+  stickor: 'needles',
+  tekniker: 'techniques',
+  'app-och-verktyg': 'app-tools',
+};
+
+export async function getStaticPaths() {
+  return CATEGORY_ORDER.map((category) => ({
+    params: { slug: routes.category[category].sv.replace('/sv/artiklar/kategori/', '').replace(/\/$/, '') },
+  }));
+}
+
+const category = slugMap[Astro.params.slug ?? ''];
+const label = getCategoryLabel(category, 'sv');
+const description = getCategoryDescription(category, 'sv');
+
+const articles = await getCollection('articles', ({ data }) =>
+  data.lang === 'sv' && data.category === category && (import.meta.env.DEV ? true : !data.draft)
+);
+const sortedArticles = articles.filter(isSwedishArticle).sort(
+  (a, b) => (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999)
+);
+---
+
+<PageLayout
+  title={`${label}. Stickartiklar`}
+  description={description}
+  canonicalPath={routes.category[category].sv}
+  lang="sv"
+  alternates={routes.category[category]}
+  showStripe={false}
+>
+  <section class="cat-header-section">
+    <div class="cat-header-inner">
+      <p class="back"><a href={routes.articlesIndex.sv}>← Alla artiklar</a></p>
+      <p class="eyebrow">Kategori</p>
+      <h1>{label}.</h1>
+      <p class="cat-intro">{description}</p>
+    </div>
+  </section>
+
+  <section class="cat-grid-section">
+    <div class="articles-grid">
+      {sortedArticles.map((article) => (
+        <ArticleCard article={article} showCategory={false} lang="sv" />
+      ))}
+    </div>
+  </section>
+  <ClosingCTA variant="page" lang="sv" />
+</PageLayout>
+
+<style>
+  .cat-header-section {
+    color: var(--ink);
+    padding: 80px 40px 48px;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .cat-header-inner,
+  .articles-grid {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .back,
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+  }
+
+  .back a,
+  .eyebrow {
+    color: var(--terracotta);
+    text-decoration: none;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin: 0 0 20px;
+  }
+
+  .cat-intro {
+    font-family: var(--body-ed);
+    font-size: clamp(17px, 1.5vw, 20px);
+    line-height: 1.55;
+    max-width: 680px;
+    margin: 0;
+  }
+
+  .cat-grid-section {
+    padding: 48px 40px 100px;
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+  }
+
+  @media (max-width: 1024px) {
+    .articles-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 768px) {
+    .cat-header-section,
+    .cat-grid-section {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .articles-grid { grid-template-columns: 1fr; gap: 12px; }
+  }
+</style>

@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: yarn
 categoryOrder: 1
 tags: ["Garn für Anfänger", "Anfängergarn Stricken", "mit welchem Garn Stricken lernen", "erstes Strickprojekt Garn"]
-draft: true
+draft: false
 lang: de
 translationKey: "best-yarn-for-beginners"
 ---

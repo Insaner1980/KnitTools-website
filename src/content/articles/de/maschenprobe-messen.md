@@ -5,7 +5,7 @@ category: "gauge-calculations"
 categoryOrder: 2
 publishDate: 2026-04-27
 tags: ["Maschenprobe messen", "Maschenprobe stricken", "Maschen und Reihen pro 10 cm", "Nadelstärke anpassen"]
-draft: true
+draft: false
 lang: de
 translationKey: "how-to-measure-knitting-gauge"
 ---

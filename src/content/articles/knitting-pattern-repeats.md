@@ -1,6 +1,6 @@
 ---
-title: "Knitting Pattern Repeats: Asterisks & Brackets"
-description: "Understand how repeats work in knitting patterns. Clear examples of asterisk, bracket, and nested repeats, plus how to handle remainders and multi-row repeats."
+title: "Knitting Pattern Repeats"
+description: "Understand repeats in knitting patterns. Clear examples of asterisk, bracket, and nested repeats, plus remainders and multi-row repeats."
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 6

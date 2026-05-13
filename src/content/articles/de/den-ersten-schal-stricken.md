@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 1
 tags: ["Schal stricken Anfänger", "erstes Strickprojekt Schal", "einfacher Strickschal", "Anfänger Schal stricken"]
-draft: true
+draft: false
 lang: de
 translationKey: "knit-first-scarf"
 ---

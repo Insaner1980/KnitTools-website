@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: needles
 categoryOrder: 1
 tags: ["Rundstricknadel oder gerade Nadeln", "wann Nadelspiel verwenden", "Stricknadeln Arten", "Nadelspiel Rundstricknadel"]
-draft: true
+draft: false
 lang: de
 translationKey: "circular-vs-straight-vs-dpn"
 ---

@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 6
 tags: ["Zunahmen gleichmäßig verteilen", "Abnahmen gleichmäßig verteilen", "Zunahmen berechnen", "Abnahmen Stricken"]
-draft: true
+draft: false
 lang: de
 translationKey: "increase-decrease-evenly"
 ---

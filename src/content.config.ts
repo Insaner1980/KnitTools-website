@@ -20,7 +20,7 @@ const articles = defineCollection({
     categoryOrder: z.number().int().min(1).optional(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
-    lang: z.enum(['en', 'fi', 'de']).default('en'),
+    lang: z.enum(['en', 'fi', 'de', 'sv', 'no', 'fr']).default('en'),
     translationKey: z.string().optional(),
   }),
 });

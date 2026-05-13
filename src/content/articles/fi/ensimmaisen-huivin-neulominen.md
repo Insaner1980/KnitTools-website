@@ -1,6 +1,6 @@
 ---
 title: "Ensimmäisen huivin neulominen"
-description: "Kaikki mitä tarvitset ensimmäiseen huiviin: lanka, puikot, silmukoiden luominen, oikea silmukka ja päättely. Ei monimutkaista ohjetta, vain toimiva suorakulmio."
+description: "Kaikki mitä tarvitset ensimmäiseen huiviin: lanka, puikot, silmukoiden luominen, oikea silmukka ja päättely. Selkeä suorakulmio ilman mutkia."
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 1

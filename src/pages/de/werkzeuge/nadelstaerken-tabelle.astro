@@ -3,32 +3,32 @@ import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
 import { routes } from '../../../i18n/routes';
 
 const rows = [
-  ['1.5', '000', '-', '-', 'Lace'],
-  ['1.75', '00', '-', '-', 'Lace'],
-  ['2.0', '0', '14', '0', 'Lace'],
-  ['2.25', '1', '13', '-', 'Fingering / Sockengarn'],
-  ['2.5', '1.5', '-', '-', 'Fingering / Sockengarn'],
-  ['2.75', '2', '12', '2', 'Fingering / Sockengarn'],
-  ['3.0', '2.5', '11', '3', 'Sport'],
-  ['3.25', '3', '10', '-', 'Sport'],
-  ['3.5', '4', '-', '5', 'Sport'],
-  ['3.75', '5', '9', '-', 'DK / Light'],
-  ['4.0', '6', '8', '6', 'DK / Light'],
-  ['4.5', '7', '7', '8', 'Worsted / Medium'],
-  ['5.0', '8', '6', '10', 'Worsted / Medium'],
-  ['5.5', '9', '5', '-', 'Worsted / Medium'],
-  ['6.0', '10', '4', '13', 'Bulky / Chunky'],
-  ['6.5', '10.5', '3', '-', 'Bulky / Chunky'],
-  ['7.0', '-', '2', '-', 'Bulky / Chunky'],
-  ['8.0', '11', '0', '-', 'Super Bulky'],
-  ['9.0', '13', '00', '-', 'Super Bulky'],
-  ['10.0', '15', '000', '-', 'Super Bulky'],
-  ['12.0', '17', '-', '-', 'Jumbo'],
-  ['12.75', '-', '-', '-', 'Jumbo'],
-  ['15.0', '19', '-', '-', 'Jumbo'],
-  ['16.0', '19', '-', '-', 'Jumbo'],
-  ['19.0', '35', '-', '-', 'Jumbo'],
-  ['25.0', '50', '-', '-', 'Jumbo'],
+  ['1,5', '000', '-', '-', 'Lace'],
+  ['1,75', '00', '-', '-', 'Lace'],
+  ['2,0', '0', '14', '0', 'Lace'],
+  ['2,25', '1', '13', '-', 'Fingering / Sockengarn'],
+  ['2,5', '1,5', '-', '-', 'Fingering / Sockengarn'],
+  ['2,75', '2', '12', '2', 'Fingering / Sockengarn'],
+  ['3,0', '2,5', '11', '3', 'Sport'],
+  ['3,25', '3', '10', '-', 'Sport'],
+  ['3,5', '4', '-', '5', 'Sport'],
+  ['3,75', '5', '9', '-', 'DK / Light'],
+  ['4,0', '6', '8', '6', 'DK / Light'],
+  ['4,5', '7', '7', '8', 'Worsted / Medium'],
+  ['5,0', '8', '6', '10', 'Worsted / Medium'],
+  ['5,5', '9', '5', '-', 'Worsted / Medium'],
+  ['6,0', '10', '4', '13', 'Bulky / Chunky'],
+  ['6,5', '10,5', '3', '-', 'Bulky / Chunky'],
+  ['7,0', '-', '2', '-', 'Bulky / Chunky'],
+  ['8,0', '11', '0', '-', 'Super Bulky'],
+  ['9,0', '13', '00', '-', 'Super Bulky'],
+  ['10,0', '15', '000', '-', 'Super Bulky'],
+  ['12,0', '17', '-', '-', 'Jumbo'],
+  ['12,75', '-', '-', '-', 'Jumbo'],
+  ['15,0', '19', '-', '-', 'Jumbo'],
+  ['16,0', '19', '-', '-', 'Jumbo'],
+  ['19,0', '35', '-', '-', 'Jumbo'],
+  ['25,0', '50', '-', '-', 'Jumbo'],
 ];
 
 const faqs = [
@@ -69,7 +69,7 @@ const faqs = [
         type="text"
         id="needle-search"
         class="search-input"
-        placeholder='Größe suchen, z. B. "4.5", "US 7" oder "UK 7"'
+        placeholder='Größe suchen, z. B. "4,5", "US 7" oder "UK 7"'
         autocomplete="off"
       />
       <div class="table-scroll">
@@ -139,6 +139,7 @@ const faqs = [
 
       let targetCol: string | null = null;
       let query = raw;
+      const normalizeNumber = (value: string) => value.replace(',', '.');
 
       if (raw.startsWith('us ')) {
         targetCol = 'us';
@@ -161,13 +162,17 @@ const faqs = [
 
         let match = false;
         if (targetCol === 'us') {
-          match = us === query;
+          match = normalizeNumber(us) === normalizeNumber(query);
         } else if (targetCol === 'uk') {
-          match = uk === query;
+          match = normalizeNumber(uk) === normalizeNumber(query);
         } else if (targetCol === 'jp') {
-          match = jp === query;
+          match = normalizeNumber(jp) === normalizeNumber(query);
         } else {
-          match = mm.startsWith(query) || us === query || uk === query || jp === query;
+          const normalizedQuery = normalizeNumber(query);
+          match = normalizeNumber(mm).startsWith(normalizedQuery)
+            || normalizeNumber(us) === normalizedQuery
+            || normalizeNumber(uk) === normalizedQuery
+            || normalizeNumber(jp) === normalizedQuery;
         }
 
         row.style.display = match ? '' : 'none';

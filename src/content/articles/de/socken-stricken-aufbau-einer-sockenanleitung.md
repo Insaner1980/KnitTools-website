@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 13
 tags: ["Socken stricken", "Sockenanleitung verstehen", "Socken stricken Anfänger", "Aufbau einer Socke", "Ferse stricken"]
-draft: true
+draft: false
 lang: de
 translationKey: "how-to-knit-socks"
 ---

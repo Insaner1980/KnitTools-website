@@ -6,6 +6,9 @@ interface Props {
 }
 
 const { lang = 'en' } = Astro.props;
+const usesDecimalComma = lang === 'fr';
+const metricOnly = lang === 'fr';
+const numericInputType = usesDecimalComma ? 'text' : 'number';
 const copy = {
   en: {
     legend: 'Cast On Calculator',
@@ -55,6 +58,54 @@ const copy = {
     error: 'Gib eine gültige Maschenprobe und Breite ein.',
     resultLabel: 'anzuschlagende Maschen',
   },
+  sv: {
+    legend: 'Uppläggningskalkylator',
+    gauge: 'Stickfasthet (maskor per 10 cm)',
+    decreaseGauge: 'Minska stickfasthet',
+    increaseGauge: 'Öka stickfasthet',
+    gaugePlaceholder: 't.ex. 20',
+    width: 'Önskad bredd',
+    decreaseWidth: 'Minska bredd',
+    increaseWidth: 'Öka bredd',
+    widthPlaceholder: 't.ex. 50',
+    unitSelection: 'Måttenhet',
+    inches: 'tum',
+    calculate: 'Räkna ut',
+    error: 'Ange giltiga värden för stickfasthet och bredd.',
+    resultLabel: 'maskor att lägga upp',
+  },
+  no: {
+    legend: 'Oppleggskalkulator',
+    gauge: 'Strikkefasthet (masker per 10 cm / 4 in)',
+    decreaseGauge: 'Senk strikkefasthet',
+    increaseGauge: 'Øk strikkefasthet',
+    gaugePlaceholder: 'f.eks. 20',
+    width: 'Ønsket bredde',
+    decreaseWidth: 'Senk bredde',
+    increaseWidth: 'Øk bredde',
+    widthPlaceholder: 'f.eks. 50',
+    unitSelection: 'Måleenhet',
+    inches: 'tommer',
+    calculate: 'Beregn',
+    error: 'Skriv inn gyldig strikkefasthet og bredde.',
+    resultLabel: 'masker å legge opp',
+  },
+  fr: {
+    legend: 'Calculateur de mailles à monter',
+    gauge: 'Échantillon (mailles pour 10 cm)',
+    decreaseGauge: "Réduire l'échantillon",
+    increaseGauge: "Augmenter l'échantillon",
+    gaugePlaceholder: 'ex. 20',
+    width: 'Largeur souhaitée (cm)',
+    decreaseWidth: 'Réduire la largeur',
+    increaseWidth: 'Augmenter la largeur',
+    widthPlaceholder: 'ex. 50',
+    unitSelection: 'Unité',
+    inches: 'pouces',
+    calculate: 'Calculer',
+    error: 'Entre un échantillon et une largeur valides.',
+    resultLabel: 'mailles à monter',
+  },
 }[lang];
 ---
 
@@ -66,7 +117,7 @@ const copy = {
       <label for="gauge">{copy.gauge}</label>
       <div class="number-input-wrap">
         <button type="button" class="spin-btn spin-down" aria-label={copy.decreaseGauge}>−</button>
-        <input type="number" id="gauge" min="1" max="100" step="0.5" placeholder={copy.gaugePlaceholder} />
+        <input type={numericInputType} inputmode="decimal" id="gauge" min="1" max="100" step="0.5" placeholder={copy.gaugePlaceholder} />
         <button type="button" class="spin-btn spin-up" aria-label={copy.increaseGauge}>+</button>
       </div>
     </div>
@@ -75,23 +126,25 @@ const copy = {
       <label for="width">{copy.width}</label>
       <div class="number-input-wrap">
         <button type="button" class="spin-btn spin-down" aria-label={copy.decreaseWidth}>−</button>
-        <input type="number" id="width" min="0.1" max="1000" step="0.1" placeholder={copy.widthPlaceholder} />
+        <input type={numericInputType} inputmode="decimal" id="width" min="0.1" max="1000" step="0.1" placeholder={copy.widthPlaceholder} />
         <button type="button" class="spin-btn spin-up" aria-label={copy.increaseWidth}>+</button>
       </div>
     </div>
 
-    <div class="form-group">
-      <div class="unit-toggle" role="radiogroup" aria-label={copy.unitSelection}>
-        <label class="unit-option">
-          <input type="radio" name="unit" value="cm" checked />
-          <span>cm</span>
-        </label>
-        <label class="unit-option">
-          <input type="radio" name="unit" value="inches" />
-          <span>{copy.inches}</span>
-        </label>
+    {!metricOnly && (
+      <div class="form-group">
+        <div class="unit-toggle" role="radiogroup" aria-label={copy.unitSelection}>
+          <label class="unit-option">
+            <input type="radio" name="unit" value="cm" checked />
+            <span>cm</span>
+          </label>
+          <label class="unit-option">
+            <input type="radio" name="unit" value="inches" />
+            <span>{copy.inches}</span>
+          </label>
+        </div>
       </div>
-    </div>
+    )}
 
     <button type="button" class="btn-primary calc-btn">{copy.calculate}</button>
 
@@ -125,9 +178,20 @@ const copy = {
       resultEl.id = `cast-on-result-${id}`;
       unitRadios.forEach((r) => { (r as HTMLInputElement).name = `unit-${id}`; });
 
+      const usesDecimalComma = gaugeInput.type === 'text';
+      const parseInputNumber = (raw: string) => {
+        const normalized = raw.trim().replace(/\s+/g, '').replace(',', '.');
+        const value = Number(normalized);
+        return Number.isFinite(value) ? value : NaN;
+      };
+      const formatInputNumber = (value: number) => {
+        const formatted = String(Number(value.toFixed(2)));
+        return usesDecimalComma ? formatted.replace('.', ',') : formatted;
+      };
+
       calcBtn.addEventListener('click', () => {
-        const gauge = parseFloat(gaugeInput.value);
-        const width = parseFloat(widthInput.value);
+        const gauge = parseInputNumber(gaugeInput.value);
+        const width = parseInputNumber(widthInput.value);
         const unit = (calc.querySelector(`input[name="unit-${id}"]:checked`) as HTMLInputElement)?.value || 'cm';
 
         resultEl.textContent = '';
@@ -187,12 +251,23 @@ const copy = {
     btn.addEventListener('click', () => {
       const wrap = btn.closest('.number-input-wrap');
       if (!wrap) return;
-      const input = wrap.querySelector('input[type="number"]') as HTMLInputElement;
+      const input = wrap.querySelector('input') as HTMLInputElement;
       if (!input) return;
-      const step = parseFloat(input.step) || 1;
-      const min = parseFloat(input.min);
-      const max = parseFloat(input.max);
-      let val = parseFloat(input.value) || 0;
+      const usesDecimalComma = input.type === 'text';
+      const parseInputNumber = (raw: string | null) => {
+        const normalized = (raw || '').trim().replace(/\s+/g, '').replace(',', '.');
+        const value = Number(normalized);
+        return Number.isFinite(value) ? value : NaN;
+      };
+      const formatInputNumber = (value: number) => {
+        const formatted = String(Number(value.toFixed(2)));
+        return usesDecimalComma ? formatted.replace('.', ',') : formatted;
+      };
+
+      const step = parseInputNumber(input.getAttribute('step')) || 1;
+      const min = parseInputNumber(input.getAttribute('min'));
+      const max = parseInputNumber(input.getAttribute('max'));
+      let val = parseInputNumber(input.value) || 0;
       if (btn.classList.contains('spin-up')) {
         val += step;
         if (!isNaN(max) && val > max) val = max;
@@ -200,7 +275,7 @@ const copy = {
         val -= step;
         if (!isNaN(min) && val < min) val = min;
       }
-      input.value = String(parseFloat(val.toFixed(2)));
+      input.value = formatInputNumber(val);
       input.dispatchEvent(new Event('input'));
     });
   });
@@ -243,7 +318,7 @@ const copy = {
     box-shadow: 0 4px 16px rgba(160, 80, 56, 0.15);
   }
 
-  .cast-on-calculator input[type="number"] {
+  .cast-on-calculator input:is([type="number"], [type="text"]) {
     flex: 1;
     background: transparent;
     border: 0;
@@ -298,7 +373,7 @@ const copy = {
 
   .cast-on-calculator input:focus { outline: none; }
 
-  .number-input-wrap:focus-within input[type="number"] {
+  .number-input-wrap:focus-within input:is([type="number"], [type="text"]) {
     border-color: var(--terracotta);
   }
 

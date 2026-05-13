@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: techniques
 categoryOrder: 7
 tags: ["Größen Strickanleitung", "Mehrweite Stricken", "Strickgröße wählen", "Passform Strickanleitung"]
-draft: true
+draft: false
 lang: de
 translationKey: "knitting-pattern-sizes-and-fit"
 ---

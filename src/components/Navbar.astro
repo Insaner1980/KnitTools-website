@@ -1,5 +1,6 @@
 ---
 import { routes } from '../i18n/routes';
+import { getArticlesIndexPath } from '../i18n/articles';
 import { useTranslations } from '../i18n/ui';
 import type { Lang } from '../i18n/config';
 
@@ -11,7 +12,7 @@ const { lang = 'en' } = Astro.props;
 const t = useTranslations(lang);
 const homeHref = '/';
 const joinHref = lang === 'en' ? '/#join' : `${routes.toolsIndex[lang]}#join`;
-const articlesHref = routes.articlesIndex[lang] ?? routes.articlesIndex.en;
+const articlesHref = getArticlesIndexPath(lang);
 ---
 
 <header class="nav-editorial" data-nav>

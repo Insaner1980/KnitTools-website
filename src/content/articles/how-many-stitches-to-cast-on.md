@@ -1,6 +1,6 @@
 ---
 title: "How Many Stitches to Cast On (with Gauge)"
-description: "Learn how to calculate the right number of cast-on stitches for any knitting project using your gauge swatch. Covers width, pattern repeats, and edge stitches."
+description: "Calculate the right number of cast-on stitches from your gauge swatch. Covers project width, pattern repeats, and edge stitches."
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 5

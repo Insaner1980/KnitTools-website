@@ -5,7 +5,7 @@ publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 3
 tags: ["Strickprojekte organisieren", "WIP organisieren", "Strickprojekt Tracker", "Strickfortschritt verfolgen", "mehrere Strickprojekte"]
-draft: true
+draft: false
 lang: de
 translationKey: "organize-knitting-projects"
 ---
