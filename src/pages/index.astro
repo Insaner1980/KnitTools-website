@@ -9,35 +9,59 @@ import TrustSection from "../components/TrustSection.astro";
 import PricingCards from "../components/PricingCards.astro";
 import ClosingCTA from "../components/ClosingCTA.astro";
 import { getStructuredPrice } from "../config/pricing";
+import {
+  CONTACT_MAILTO,
+  FINNVEK_URL,
+  ORGANIZATION_ID,
+  SOCIAL_PROFILE_URLS,
+  SOFTWARE_APPLICATION_ID,
+  SITE_URL,
+} from "../config/brand";
 
 const structuredPrice = getStructuredPrice();
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  name: "KnitTools",
-  operatingSystem: "Android",
-  applicationCategory: "LifestyleApplication",
-  description:
-    "An all-in-one knitting toolkit for Android. Row counter with voice commands, pattern viewer with AI help, AI yarn label scanner, four calculators, project summaries, Ravelry integration, and progress photos. One-time purchase, no subscription.",
-  offers: {
-    "@type": "Offer",
-    price: structuredPrice.price,
-    priceCurrency: structuredPrice.priceCurrency,
-    availability: "https://schema.org/PreOrder",
-  },
-  inLanguage: [
-    "en",
-    "fi",
-    "sv",
-    "da",
-    "nb",
-    "nl",
-    "de",
-    "fr",
-    "it",
-    "pt",
-    "es",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": ORGANIZATION_ID,
+      name: "Finnvek",
+      url: FINNVEK_URL,
+      email: CONTACT_MAILTO,
+      sameAs: SOCIAL_PROFILE_URLS,
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": SOFTWARE_APPLICATION_ID,
+      name: "KnitTools",
+      url: `${SITE_URL}/`,
+      operatingSystem: "Android",
+      applicationCategory: "LifestyleApplication",
+      publisher: {
+        "@id": ORGANIZATION_ID,
+      },
+      description:
+        "An all-in-one knitting toolkit for Android. Row counter with voice commands, pattern viewer with AI help, AI yarn label scanner, four calculators, project summaries, Ravelry integration, and progress photos. One-time purchase, no subscription.",
+      offers: {
+        "@type": "Offer",
+        price: structuredPrice.price,
+        priceCurrency: structuredPrice.priceCurrency,
+      },
+      inLanguage: [
+        "en",
+        "fi",
+        "sv",
+        "da",
+        "nb",
+        "nl",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "es",
+      ],
+    },
   ],
 };
 ---

@@ -11,6 +11,9 @@ reports/
 .codex
 .playwright-mcp/
 AGENTS.md
+IG_brand_asset_pack_2023/
+logo-pack/
+youtube-icon/
 
 # Python
 __pycache__/

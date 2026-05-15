@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import { COUNTRY_TO_TIER, FALLBACK_PRICING_TIER } from "../config/pricing";
+import { SITE_URL, SOCIAL_PROFILE_URLS } from "../config/brand";
 import { getHtmlLang, getLocale, type Lang } from "../i18n/config";
 import { useTranslations } from "../i18n/ui";
 
@@ -23,8 +24,7 @@ const {
   lang = "en",
   alternates,
 } = Astro.props;
-const siteUrl = "https://knittoolsapp.com";
-const canonicalUrl = `${siteUrl}${canonicalPath}`;
+const canonicalUrl = `${SITE_URL}${canonicalPath}`;
 const fullTitle = `${title} | KnitTools`;
 const pageTitle = browserTitle ?? fullTitle;
 const ogLocale = getLocale(lang);
@@ -46,7 +46,7 @@ const t = useTranslations(lang);
           <link
             rel="alternate"
             hreflang={getHtmlLang(alternateLang as Lang)}
-            href={`${siteUrl}${path}`}
+            href={`${SITE_URL}${path}`}
           />
         ))
     }
@@ -55,7 +55,7 @@ const t = useTranslations(lang);
         <link
           rel="alternate"
           hreflang="x-default"
-          href={`${siteUrl}${alternates.en}`}
+          href={`${SITE_URL}${alternates.en}`}
         />
       )
     }
@@ -63,16 +63,19 @@ const t = useTranslations(lang);
     <!-- Open Graph -->
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={`${siteUrl}/images/og-image.png`} />
+    <meta property="og:image" content={`${SITE_URL}/images/og-image.png`} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="KnitTools" />
     <meta property="og:locale" content={ogLocale} />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={`${siteUrl}/images/og-image.png`} />
+    <meta name="twitter:image" content={`${SITE_URL}/images/og-image.png`} />
+
+    {SOCIAL_PROFILE_URLS.map((href) => <link rel="me" href={href} />)}
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />

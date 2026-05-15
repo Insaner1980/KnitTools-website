@@ -1,0 +1,202 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+import ClosingCTA from "../components/ClosingCTA.astro";
+import {
+  CONTACT_MAILTO,
+  FINNVEK_URL,
+  ORGANIZATION_ID,
+  SOCIAL_PROFILE_URLS,
+  SOFTWARE_APPLICATION_ID,
+  SITE_URL,
+} from "../config/brand";
+
+const aboutDescription =
+  "Learn who builds KnitTools, why the Android knitting app exists, and how Finnvek approaches independent software for knitters.";
+const aboutJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": ORGANIZATION_ID,
+      name: "Finnvek",
+      url: FINNVEK_URL,
+      email: CONTACT_MAILTO,
+      sameAs: SOCIAL_PROFILE_URLS,
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": SOFTWARE_APPLICATION_ID,
+      name: "KnitTools",
+      url: `${SITE_URL}/`,
+      operatingSystem: "Android",
+      applicationCategory: "LifestyleApplication",
+      publisher: {
+        "@id": ORGANIZATION_ID,
+      },
+    },
+    {
+      "@type": "AboutPage",
+      "@id": `${SITE_URL}/about/#webpage`,
+      url: `${SITE_URL}/about/`,
+      name: "About KnitTools",
+      description: aboutDescription,
+      inLanguage: "en",
+      about: [
+        {
+          "@id": SOFTWARE_APPLICATION_ID,
+        },
+        {
+          "@id": ORGANIZATION_ID,
+        },
+      ],
+      publisher: {
+        "@id": ORGANIZATION_ID,
+      },
+      mainEntity: {
+        "@id": SOFTWARE_APPLICATION_ID,
+      },
+      breadcrumb: {
+        "@id": `${SITE_URL}/about/#breadcrumb`,
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${SITE_URL}/about/#breadcrumb`,
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: `${SITE_URL}/`,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "About",
+          item: `${SITE_URL}/about/`,
+        },
+      ],
+    },
+  ],
+};
+---
+
+<PageLayout
+  title="About KnitTools"
+  browserTitle="About KnitTools"
+  description={aboutDescription}
+  canonicalPath="/about/"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(aboutJsonLd)} />
+
+  <section class="about-header" aria-labelledby="about-heading">
+    <div class="about-header-inner">
+      <p class="eyebrow">Independent software for knitters</p>
+      <h1 id="about-heading">About KnitTools</h1>
+      <p class="about-intro">
+        Practical software for real knitting projects, built carefully by
+        Finnvek.
+      </p>
+    </div>
+  </section>
+
+  <section class="about-body">
+    <div class="about-body-inner">
+      <div class="about-copy">
+        <p>
+          KnitTools is built by Finnvek, independent software from Turku,
+          Finland. It is made for knitters who want practical tools without ads,
+          subscriptions, or rushed releases. The app brings row counting,
+          project notes, calculators, pattern help, and yarn tools into one
+          Android toolkit.
+        </p>
+        <p>
+          Finnvek exists for ideas worth following carefully. Every product is
+          its own thing: built to work well, released without shortcuts, and
+          maintained with a long-term mindset.
+        </p>
+        <p>
+          KnitTools is the first Finnvek product. It is designed for real
+          knitting projects, from quick row counting to keeping pattern notes,
+          yarn details, calculations, and project progress in one place.
+        </p>
+        <p>
+          No ads. No tracking. No subscription. Just practical software for
+          knitters.
+        </p>
+      </div>
+    </div>
+  </section>
+  <ClosingCTA variant="page" />
+</PageLayout>
+
+<style>
+  .about-header {
+    color: var(--ink);
+    padding: 80px 40px 40px;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .about-header-inner,
+  .about-body-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 20px;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    text-transform: none;
+    max-width: 760px;
+    margin: 0 0 20px;
+    padding-bottom: 0.08em;
+  }
+
+  .about-intro {
+    font-family: var(--body-ed);
+    font-weight: 400;
+    font-size: clamp(17px, 1.5vw, 20px);
+    color: var(--ink);
+    max-width: 620px;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .about-body {
+    padding: 56px 40px 100px;
+  }
+
+  .about-copy {
+    max-width: 720px;
+    display: grid;
+    gap: 20px;
+    font-family: var(--body-ed);
+    font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+    line-height: 1.7;
+    color: var(--ink-soft);
+  }
+
+  @media (max-width: 767px) {
+    .about-header {
+      padding: 60px 20px 32px;
+    }
+
+    .about-body {
+      padding: 40px 20px 72px;
+    }
+  }
+</style>
