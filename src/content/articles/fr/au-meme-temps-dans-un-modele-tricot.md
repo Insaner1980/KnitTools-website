@@ -4,11 +4,18 @@ description: "Comprendre l'instruction en même temps dans un modèle de tricot.
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 8
-tags: ["en même temps modèle tricot", "instructions simultanées tricot", "modèle tricot en même temps", "façonnage tricot simultané"]
+tags:
+  [
+    "en même temps modèle tricot",
+    "instructions simultanées tricot",
+    "modèle tricot en même temps",
+    "façonnage tricot simultané",
+  ]
 draft: false
 lang: fr
 translationKey: "at-the-same-time-knitting"
 ---
+
 Cela veut dire exactement ce que cela dit, et c'est bien pour cela que c'est déroutant. Deux choses différentes se passent sur les mêmes rangs, et le modèle les décrit séparément alors que tu les tricotes ensemble.
 
 "En même temps" dans un modèle de tricot signifie que deux groupes d'instructions se déroulent simultanément sur les mêmes rangs. Le plus souvent, une action de façonnage vient se superposer à un point ou à un motif déjà en cours. On voit surtout cela dans les vêtements. Le modèle ne peut pas toujours décrire les deux choses clairement sur une seule ligne, donc il décrit une action, puis ajoute "en même temps" et décrit l'autre.

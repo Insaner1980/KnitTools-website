@@ -4,8 +4,15 @@ description: "Understand the 'at the same time' instruction in knitting patterns
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 8
-tags: ["at the same time knitting pattern", "simultaneous knitting instructions", "knitting pattern at same time", "concurrent shaping knitting"]
+tags:
+  [
+    "at the same time knitting pattern",
+    "simultaneous knitting instructions",
+    "knitting pattern at same time",
+    "concurrent shaping knitting",
+  ]
 ---
+
 It means what it says, which is exactly why it's confusing. Two different things happen on the same rows, and the pattern describes them separately even though you do them together.
 
 "At the same time" in a knitting pattern means two sets of instructions happen simultaneously over the same rows. Typically one shaping action layered on top of an ongoing stitch pattern. This shows up most in garment shaping. The pattern can't easily describe both in a single line, so it describes one action, then says "at the same time" and describes the other.

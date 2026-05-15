@@ -4,10 +4,17 @@ description: "Näin vaihdat neuleohjeen langan pilaamatta projektia. Tarkista la
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 6
-tags: ["langan korvaaminen neuleohjeessa", "langan korvaamisopas", "neulelangan vaihtaminen", "vaihtoehtoinen lanka ohjeeseen"]
+tags:
+  [
+    "langan korvaaminen neuleohjeessa",
+    "langan korvaamisopas",
+    "neulelangan vaihtaminen",
+    "vaihtoehtoinen lanka ohjeeseen",
+  ]
 lang: fi
 translationKey: "how-to-substitute-yarn"
 ---
+
 Ohjeen lanka on lopetettu. Tai se maksaa 30 euroa kerältä ja budjetti sanoo ei. Tai se on 100 % villaa ja lahjan saaja heittää valmiin työn koneeseen ensimmäisenä päivänä.
 
 Langan korvaaminen on normaalia. Useimmat neulojat tekevät sitä usein. Onnistunut korvaus tarkoittaa, että alkuperäisen ja korvaavan langan neljä asiaa vastaavat toisiaan: lankavahvuus, neuletiheys, kuidun käyttäytyminen ja kokonaismetrit. Jos yksi puuttuu, projekti alkaa liikkua. Jos kaksi puuttuu, kyseessä on jo eri projekti.

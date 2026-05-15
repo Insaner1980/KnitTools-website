@@ -1,23 +1,27 @@
 ---
-import PageLayout from '../../../layouts/PageLayout.astro';
-import { getCollection } from 'astro:content';
-import ArticleCard from '../../../components/ArticleCard.astro';
-import ClosingCTA from '../../../components/ClosingCTA.astro';
+import PageLayout from "../../../layouts/PageLayout.astro";
+import { getCollection } from "astro:content";
+import ArticleCard from "../../../components/ArticleCard.astro";
+import ClosingCTA from "../../../components/ClosingCTA.astro";
 import {
   CATEGORY_ORDER,
   getCategoryDescription,
   getCategoryLabel,
-} from '../../../lib/categories';
-import { isGermanArticle } from '../../../i18n/articles';
-import { routes } from '../../../i18n/routes';
+} from "../../../lib/categories";
+import { isGermanArticle } from "../../../i18n/articles";
+import { routes } from "../../../i18n/routes";
 
-const articles = await getCollection('articles', ({ data }) =>
-  data.lang === 'de' && (import.meta.env.DEV ? true : !data.draft)
+const articles = await getCollection(
+  "articles",
+  ({ data }) =>
+    data.lang === "de" && (import.meta.env.DEV ? true : !data.draft),
 );
 const germanArticles = articles.filter(isGermanArticle);
 
-const byCategoryOrder = (a: typeof articles[number], b: typeof articles[number]) =>
-  (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999);
+const byCategoryOrder = (
+  a: (typeof articles)[number],
+  b: (typeof articles)[number],
+) => (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999);
 
 const sections = CATEGORY_ORDER.map((slug) => {
   const categoryArticles = germanArticles
@@ -27,10 +31,13 @@ const sections = CATEGORY_ORDER.map((slug) => {
 
   return {
     slug,
-    label: getCategoryLabel(slug, 'de'),
-    description: getCategoryDescription(slug, 'de'),
+    label: getCategoryLabel(slug, "de"),
+    description: getCategoryDescription(slug, "de"),
     articles: previewArticles,
-    remainingCount: Math.max(categoryArticles.length - previewArticles.length, 0),
+    remainingCount: Math.max(
+      categoryArticles.length - previewArticles.length,
+      0,
+    ),
   };
 }).filter((section) => section.articles.length > 0);
 ---
@@ -47,50 +54,64 @@ const sections = CATEGORY_ORDER.map((slug) => {
     <div class="articles-header-inner">
       <p class="eyebrow">Artikel</p>
       <h1>Strickwissen für die Praxis.</h1>
-      <p class="articles-intro">Artikel für alle, die beim Stricken klare Antworten brauchen: Maschenprobe, Garnwahl, Nadelstärke, Anleitungen, Rechner und hilfreiche Werkzeuge.</p>
+      <p class="articles-intro">
+        Artikel für alle, die beim Stricken klare Antworten brauchen:
+        Maschenprobe, Garnwahl, Nadelstärke, Anleitungen, Rechner und hilfreiche
+        Werkzeuge.
+      </p>
 
-      {sections.length > 0 && (
-        <nav class="cat-nav" aria-label="Artikelkategorien">
-          {sections.map((section) => (
-            <a href={`#${section.slug}`} class="cat-nav-link">{section.label}</a>
-          ))}
-        </nav>
-      )}
+      {
+        sections.length > 0 && (
+          <nav class="cat-nav" aria-label="Artikelkategorien">
+            {sections.map((section) => (
+              <a href={`#${section.slug}`} class="cat-nav-link">
+                {section.label}
+              </a>
+            ))}
+          </nav>
+        )
+      }
     </div>
   </section>
 
-  {sections.length === 0 ? (
-    <section class="empty-section">
-      <div class="empty-state">
-        <p class="empty-eyebrow">In Arbeit</p>
-        <p class="empty-text">Die deutschen Artikel werden gerade übersetzt.</p>
-        <a href={routes.toolsIndex.de} class="empty-link">Werkzeuge ansehen &rarr;</a>
-      </div>
-    </section>
-  ) : (
-    sections.map((section) => (
-      <section class="cat-section" id={section.slug}>
-        <div class="cat-section-inner">
-          <header class="cat-header">
-            <div class="cat-header-text">
-              <p class="cat-eyebrow">{section.label}</p>
-              <p class="cat-description">{section.description}</p>
-            </div>
-            {section.remainingCount > 0 && (
-              <a href={routes.category[section.slug].de} class="cat-all-link">
-                {section.remainingCount} weitere anzeigen &rarr;
-              </a>
-            )}
-          </header>
-          <div class="articles-grid">
-            {section.articles.map((article) => (
-              <ArticleCard article={article} showCategory={false} lang="de" />
-            ))}
-          </div>
+  {
+    sections.length === 0 ? (
+      <section class="empty-section">
+        <div class="empty-state">
+          <p class="empty-eyebrow">In Arbeit</p>
+          <p class="empty-text">
+            Die deutschen Artikel werden gerade übersetzt.
+          </p>
+          <a href={routes.toolsIndex.de} class="empty-link">
+            Werkzeuge ansehen &rarr;
+          </a>
         </div>
       </section>
-    ))
-  )}
+    ) : (
+      sections.map((section) => (
+        <section class="cat-section" id={section.slug}>
+          <div class="cat-section-inner">
+            <header class="cat-header">
+              <div class="cat-header-text">
+                <p class="cat-eyebrow">{section.label}</p>
+                <p class="cat-description">{section.description}</p>
+              </div>
+              {section.remainingCount > 0 && (
+                <a href={routes.category[section.slug].de} class="cat-all-link">
+                  {section.remainingCount} weitere anzeigen &rarr;
+                </a>
+              )}
+            </header>
+            <div class="articles-grid">
+              {section.articles.map((article) => (
+                <ArticleCard article={article} showCategory={false} lang="de" />
+              ))}
+            </div>
+          </div>
+        </section>
+      ))
+    )
+  }
   <ClosingCTA variant="page" lang="de" />
 </PageLayout>
 
@@ -232,7 +253,9 @@ const sections = CATEGORY_ORDER.map((slug) => {
   }
 
   @media (max-width: 1024px) {
-    .articles-grid { grid-template-columns: repeat(2, 1fr); }
+    .articles-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   @media (max-width: 768px) {
@@ -243,8 +266,17 @@ const sections = CATEGORY_ORDER.map((slug) => {
       padding-right: 20px;
     }
 
-    .articles-grid { grid-template-columns: 1fr; gap: 12px; }
-    .cat-header { flex-direction: column; align-items: flex-start; gap: 12px; }
-    .empty-state { padding: 40px 24px; }
+    .articles-grid {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    .cat-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .empty-state {
+      padding: 40px 24px;
+    }
   }
 </style>

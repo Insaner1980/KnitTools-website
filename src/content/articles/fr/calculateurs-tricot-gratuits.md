@@ -4,11 +4,20 @@ description: "Calculateurs tricot gratuits en ligne pour mailles à monter, quan
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 5
-tags: ["calculateurs tricot", "calculateurs tricot gratuits", "calculateur mailles à monter", "calculateur laine", "convertisseur échantillon", "outils tricot"]
+tags:
+  [
+    "calculateurs tricot",
+    "calculateurs tricot gratuits",
+    "calculateur mailles à monter",
+    "calculateur laine",
+    "convertisseur échantillon",
+    "outils tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "free-knitting-calculators"
 ---
+
 Le tricot contient plus de calculs qu'on ne l'imagine. Combien de mailles monter pour une écharpe de 23 cm de large avec ton échantillon. Combien de fil une couverture va avaler. Comment répartir 8 augmentations régulièrement sur 64 mailles. Rien de tout cela n'est des maths difficiles, mais cela revient sans arrêt, et se tromper veut dire défaire.
 
 Quatre types de calculateurs tricot couvrent la grande majorité des besoins. Les versions gratuites de ce site fonctionnent dans n'importe quel navigateur, sans inscription.

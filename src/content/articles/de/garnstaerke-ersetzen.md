@@ -4,11 +4,18 @@ description: "So ersetzt du Garn durch eine andere Garnstärke. Maschenprobe, Na
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 7
-tags: ["Garnstärke ersetzen", "dickeres Garn Strickanleitung", "dünneres Garn Strickanleitung", "andere Garnstärke Stricken"]
+tags:
+  [
+    "Garnstärke ersetzen",
+    "dickeres Garn Strickanleitung",
+    "dünneres Garn Strickanleitung",
+    "andere Garnstärke Stricken",
+  ]
 draft: false
 lang: de
 translationKey: "yarn-weight-substitution"
 ---
+
 Innerhalb derselben Garnstärke die Marke zu wechseln ist eine Sache. Die eigentliche Garnstärke zu wechseln ist eine größere Entscheidung. Manchmal ist genau das der Punkt. Manchmal wird daraus still eine Neugestaltung der ganzen Anleitung.
 
 Garnstärke zu ersetzen bedeutet, dass du ein dickeres oder dünneres Garn verwendest als die Anleitung vorgibt. Dann musst du Maschenzahlen, Nadelstärke und Garnbedarf aus der neuen Maschenprobe neu berechnen. Die eigentliche Frage ist nicht, ob sich die Mathematik irgendwie passend machen lässt. Die Frage ist, ob das fertige Gestrick für dieses Projekt noch sinnvoll ist.

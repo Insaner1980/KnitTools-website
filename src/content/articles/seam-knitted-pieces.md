@@ -4,8 +4,15 @@ description: "Join knitted pieces with mattress stitch, whip stitch, and three-n
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 10
-tags: ["seam knitted pieces together", "mattress stitch knitting", "join knitting pieces", "sew knitting together"]
+tags:
+  [
+    "seam knitted pieces together",
+    "mattress stitch knitting",
+    "join knitting pieces",
+    "sew knitting together",
+  ]
 ---
+
 Seaming is the least glamorous part of knitting and the part most likely to be procrastinated. A pile of finished sweater pieces can sit in a project bag for weeks because nobody's excited about sewing them together. But a good seam is invisible, and a bad one can ruin an otherwise well-knit garment.
 
 Mattress stitch creates an invisible seam by picking up horizontal bars one stitch in from the edge on each piece, drawing them together so the join looks like continuous fabric. The method you use depends on the seam direction: vertical edges (side seams), horizontal edges (shoulder seams), or shaped pieces into openings (sleeves).

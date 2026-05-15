@@ -4,11 +4,18 @@ description: "Comparer aiguilles circulaires, droites et doubles pointes. Quel t
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 1
-tags: ["aiguilles circulaires ou droites", "quand utiliser aiguilles doubles pointes", "aiguilles circulaires vs droites", "types d'aiguilles à tricoter"]
+tags:
+  [
+    "aiguilles circulaires ou droites",
+    "quand utiliser aiguilles doubles pointes",
+    "aiguilles circulaires vs droites",
+    "types d'aiguilles à tricoter",
+  ]
 draft: false
 lang: fr
 translationKey: "circular-vs-straight-vs-dpn"
 ---
+
 Il existe trois grands types d'aiguilles parce que les projets ne demandent pas tous la même chose. Les aiguilles droites gèrent le tricot à plat. Les circulaires gèrent le tricot à plat et les tubes. Les doubles pointes gèrent les petites circonférences. Une fois cette logique comprise, acheter des aiguilles devient beaucoup moins intimidant.
 
 ## Aiguilles droites

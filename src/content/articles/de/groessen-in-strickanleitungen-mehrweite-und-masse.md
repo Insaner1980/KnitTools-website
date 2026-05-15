@@ -4,11 +4,18 @@ description: "So wählst du die richtige Größe in einer Strickanleitung: Mehrw
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 7
-tags: ["Größen Strickanleitung", "Mehrweite Stricken", "Strickgröße wählen", "Passform Strickanleitung"]
+tags:
+  [
+    "Größen Strickanleitung",
+    "Mehrweite Stricken",
+    "Strickgröße wählen",
+    "Passform Strickanleitung",
+  ]
 draft: false
 lang: de
 translationKey: "knitting-pattern-sizes-and-fit"
 ---
+
 Eine Anleitung mit der Größe „Medium“ kann an einer Person wie ein Zelt sitzen und an einer anderen eng wirken. Größen in Strickanleitungen sind keine Kaufgrößen. Sie beruhen auf Fertigmaßen, und die Beziehung zwischen deinem Körper und diesen Maßen entscheidet, wie das Stück wirklich sitzt.
 
 ## Körpermaße und Fertigmaße

@@ -4,11 +4,18 @@ description: "Forstå garnetiketter: fiberinnhold, garntykkelse, strikkefasthet,
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 3
-tags: ["lese garnetikett", "symboler på garnetikett", "garnbanderole", "vaske symboler garn"]
+tags:
+  [
+    "lese garnetikett",
+    "symboler på garnetikett",
+    "garnbanderole",
+    "vaske symboler garn",
+  ]
 draft: false
 lang: no
 translationKey: "how-to-read-yarn-label"
 ---
+
 Den lille papirremmen rundt nøstet gjør mer enn å holde garnet sammen. Hvert symbol, tall og ikon finnes fordi noen, et sted, kjøpte feil garn eller ødela en ferdig genser i vask. Etiketten er jukselappen de skulle ønske de hadde lest først.
 
 En garnetikett forteller fiberinnhold, garntykkelse, anbefalt strikkefasthet, pinnestørrelse, vaskeanvisning og fargeparti. Alt du trenger for å velge, bruke og ta vare på garnet riktig. Ta et nøste fra hylla eller finn et i garnlageret. Dette er hva hver del faktisk sier.

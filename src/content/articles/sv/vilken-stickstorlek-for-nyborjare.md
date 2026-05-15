@@ -4,11 +4,18 @@ description: "Hitta bästa stickstorleken för nybörjare. Om rekommenderade sto
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 3
-tags: ["vilken stickstorlek nybörjare", "bästa stickstorlek lära sig sticka", "nybörjare stickstorlek", "första stickorna"]
+tags:
+  [
+    "vilken stickstorlek nybörjare",
+    "bästa stickstorlek lära sig sticka",
+    "nybörjare stickstorlek",
+    "första stickorna",
+  ]
 draft: false
 lang: sv
 translationKey: "needle-size-for-beginners"
 ---
+
 5,0 mm. Det är det korta svaret. Om du köper ditt första par och vill ha en enda rekommendation ger 5,0 mm i bambu eller trä, tillsammans med worsted-garn, den mest förlåtande kombinationen för att lära sig.
 
 Den storleken fungerar av en anledning. Och det finns situationer där något annat passar bättre. Om du också väljer garn hör [nybörjarguiden till garn](/sv/artiklar/basta-garnet-for-nyborjare-praktisk-guide/) ihop med den här.

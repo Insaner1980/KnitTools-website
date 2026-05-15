@@ -4,11 +4,18 @@ description: "Welche Nadelstärke eignet sich für Anfänger? Empfohlene Größe
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 3
-tags: ["Nadelstärke Anfänger", "erste Stricknadeln", "Stricken lernen Nadelstärke", "beste Nadeln für Anfänger"]
+tags:
+  [
+    "Nadelstärke Anfänger",
+    "erste Stricknadeln",
+    "Stricken lernen Nadelstärke",
+    "beste Nadeln für Anfänger",
+  ]
 draft: false
 lang: de
 translationKey: "needle-size-for-beginners"
 ---
+
 5,0 mm. Das ist die kurze Antwort. Wenn du deine ersten Nadeln kaufst und nur eine Empfehlung möchtest, ist eine 5,0-mm-Nadel aus Bambus oder Holz zusammen mit Worsted-Garn die verzeihendste Kombination zum Lernen.
 
 Diese Größe funktioniert aus gutem Grund. Es gibt aber Situationen, in denen etwas anderes sinnvoller ist. Wenn du gleichzeitig Garn auswählst, passt der [Anfängerleitfaden für Garn](/de/artikel/das-beste-garn-fuer-den-einstieg-ins-stricken/) dazu.

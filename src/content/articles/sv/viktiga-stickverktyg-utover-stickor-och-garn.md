@@ -4,11 +4,18 @@ description: "En praktisk guide till sticktillbehör: markörer, stoppnålar, va
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 6
-tags: ["viktiga stickverktyg", "sticktillbehör", "lista stickutrustning", "stickprylar"]
+tags:
+  [
+    "viktiga stickverktyg",
+    "sticktillbehör",
+    "lista stickutrustning",
+    "stickprylar",
+  ]
 draft: false
 lang: sv
 translationKey: "essential-knitting-tools"
 ---
+
 Stickor och garn är minimum. Allt annat i en stickares verktygslåda gör arbetet smidigare, snabbare eller mindre felkänsligt. Särskilt för nybörjare som bygger sin första uppsättning. Vissa verktyg är faktiskt nödvändiga från dag ett. Andra förtjänar sin plats efter några projekt. Och några är lösningar som letar efter ett problem.
 
 Det viktigaste från första dagen är stoppnålar, sax, markörer och måttband. Allt annat kan vänta tills ett särskilt projekt behöver det. Ungefär i den ordning du kommer att behöva dem:

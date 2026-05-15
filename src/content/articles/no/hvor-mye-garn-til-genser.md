@@ -4,11 +4,21 @@ description: "Beregn hvor mye garn du trenger til en strikket genser. Anslag ett
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 4
-tags: ["garn til genser", "garnmengde kalkulator", "hvor mye garn trenger jeg", "antall nøster", "garnberegner", "garnmengde", "strikke genser"]
+tags:
+  [
+    "garn til genser",
+    "garnmengde kalkulator",
+    "hvor mye garn trenger jeg",
+    "antall nøster",
+    "garnberegner",
+    "garnmengde",
+    "strikke genser",
+  ]
 draft: false
 lang: no
 translationKey: "yarn-for-sweater"
 ---
+
 En genser er det største plagget de fleste strikkere lager, og garnmengden viser det. Undervurder, og du jakter utgått fargeparti med et halvt erme igjen. Overvurder for mye, og dyrt garn blir liggende i lageret på ubestemt tid.
 
 Riktig mengde avhenger av tre ting: genserens størrelse, garntykkelsen og konstruksjonsstilen. En kort pullover i Bulky kan trenge 600 m. En lang cardigan i Fingering kan passere 2 500 m. Intervallene under dekker det vanlige området.

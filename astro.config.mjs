@@ -1,16 +1,16 @@
-import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
+import { defineConfig } from "astro/config";
+import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: 'https://knittoolsapp.com',
-  output: 'static',
-  trailingSlash: 'always',
+  site: "https://knittoolsapp.com",
+  output: "static",
+  trailingSlash: "always",
   build: {
-    assets: '_assets',
+    assets: "_assets",
   },
   markdown: {
     shikiConfig: {
-      theme: 'github-light',
+      theme: "github-light",
     },
   },
   integrations: [sitemap()],

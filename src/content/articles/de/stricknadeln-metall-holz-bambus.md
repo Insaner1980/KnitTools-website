@@ -4,11 +4,18 @@ description: "Vergleich von Stricknadel-Materialien: Metall, Holz, Bambus, Kunst
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 2
-tags: ["Stricknadeln Material", "Metallnadeln oder Holznadeln", "Bambusnadeln", "beste Stricknadeln Material"]
+tags:
+  [
+    "Stricknadeln Material",
+    "Metallnadeln oder Holznadeln",
+    "Bambusnadeln",
+    "beste Stricknadeln Material",
+  ]
 draft: false
 lang: de
 translationKey: "knitting-needle-materials"
 ---
+
 Das Nadelmaterial verändert, wie sich Garn bewegt, wie die Nadel in der Hand liegt und wie müde deine Hände nach einer Stunde sind. Darum kann dieselbe Person bei einem Projekt zu Metall greifen und beim nächsten zu Bambus.
 
 Metallnadeln sind am schnellsten und am haltbarsten, Holz fühlt sich warm an und gibt mäßigen Halt, Bambus hat die meiste Reibung. Dadurch ist Bambus oft am verzeihendsten für Anfänger. Es gibt kein allgemein bestes Material. Es gibt nur die bessere Kombination aus Garn, Projekt und deiner Art zu stricken.

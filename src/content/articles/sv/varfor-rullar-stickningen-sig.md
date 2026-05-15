@@ -4,11 +4,18 @@ description: "Förstå varför slätstickning rullar sig och vad du kan göra å
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 4
-tags: ["varför rullar stickningen sig", "slätstickning rullar sig lösning", "stickade kanter rullar sig", "stoppa stickning från att rulla sig"]
+tags:
+  [
+    "varför rullar stickningen sig",
+    "slätstickning rullar sig lösning",
+    "stickade kanter rullar sig",
+    "stoppa stickning från att rulla sig",
+  ]
 draft: false
 lang: sv
 translationKey: "why-knitting-curls"
 ---
+
 Slätstickning rullar sig. Det är inte ett problem med stickfastheten, inte ett garnproblem och inte något du gör fel. Det är fysik.
 
 Räta maskor är lite smalare än aviga maskor. I slätstickning (räta maskor på rätsidan, aviga maskor på avigsidan) drar den smalare rätsidan den bredare avigsidan inåt. Arbetet rullar mot den räta sidan upptill och nedtill, och mot den aviga sidan längs höger och vänster kant.

@@ -4,7 +4,14 @@ description: "Estimer la quantité de fil pour un pull tricoté : métrages par 
 publishDate: 2026-05-01
 category: "yarn"
 categoryOrder: 4
-tags: ["fil pour pull", "métrage pull tricot", "combien de fil", "nombre de pelotes", "estimateur de fil"]
+tags:
+  [
+    "fil pour pull",
+    "métrage pull tricot",
+    "combien de fil",
+    "nombre de pelotes",
+    "estimateur de fil",
+  ]
 draft: false
 lang: fr
 translationKey: "yarn-for-sweater"
@@ -101,4 +108,3 @@ L'empiècement représente généralement 25 à 35 % du métrage total du pull, 
 
 **Vaut-il mieux acheter trop de fil ou risquer d'en manquer ?**  
 Achète toujours un peu plus. Une pelote non utilisée peut souvent être retournée si elle n'est pas bobinée, servir à un accessoire ou rester disponible pour les réparations. Un pull à moitié fini qu'on ne peut pas terminer parce que le bain a disparu est un bien pire résultat.
-

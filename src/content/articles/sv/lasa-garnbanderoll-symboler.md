@@ -4,11 +4,18 @@ description: "Tolka garnbanderoller: fiberinnehåll, garntjocklek, stickfasthet,
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 3
-tags: ["läsa garnbanderoll", "symboler på garnbanderoll", "garnetikett", "tvättråd garn symboler"]
+tags:
+  [
+    "läsa garnbanderoll",
+    "symboler på garnbanderoll",
+    "garnetikett",
+    "tvättråd garn symboler",
+  ]
 draft: false
 lang: sv
 translationKey: "how-to-read-yarn-label"
 ---
+
 Den lilla pappersremsan runt nystanet? Den gör mer än att hålla ihop garnet. Varje symbol, siffra och ikon finns där för att någon någonstans har köpt fel garn eller förstört en färdig tröja i tvätten. Banderollen är fusklappen de önskade att de hade läst först.
 
 En garnbanderoll berättar fiberinnehåll, garntjocklek, rekommenderad stickfasthet, stickstorlek, skötselråd och färgbad. Allt som behövs för att välja, använda och sköta garnet rätt. Ta ett nystan från hyllan eller leta fram ett ur förrådet. Det här är vad varje del faktiskt säger.

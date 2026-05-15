@@ -4,11 +4,18 @@ description: "Wie Wolle, Baumwolle, Acryl und Mischgarne sich beim Stricken verh
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 8
-tags: ["Garnfasern Vergleich", "Wolle oder Baumwolle Stricken", "Acryl oder Wolle Garn", "beste Garnfaser Stricken"]
+tags:
+  [
+    "Garnfasern Vergleich",
+    "Wolle oder Baumwolle Stricken",
+    "Acryl oder Wolle Garn",
+    "beste Garnfaser Stricken",
+  ]
 draft: false
 lang: de
 translationKey: "yarn-fibers-compared"
 ---
+
 Strick dieselbe Zopfprobe aus Wolle und aus Baumwolle, leg beide nebeneinander, und sie sehen aus, als kämen sie aus verschiedenen Anleitungen. Die Wollversion federt. Zöpfe treten hervor. Die Baumwollversion hängt etwas, liegt flacher und zeigt jede Masche fast unangenehm ehrlich. Gleiche Nadel, gleiche Hände, gleiche Maschenzahl. Völlig anderes Gestrick.
 
 Dieser Unterschied ist nicht nur Optik. Die Materialzusammensetzung bestimmt, wie sich ein Projekt beim Stricken in den Händen anfühlt, wie es sich spannen lässt, wie es sich über Monate und Jahre trägt und ob es seine Form hält oder langsam der Schwerkraft nachgibt. Wolle bringt Elastizität und gute Spannbarkeit, Baumwolle bringt Fall und Waschbarkeit, Acryl bringt niedrige Kosten und robuste Maschinenwäsche. Die Faserangabe auf der Banderole ist kein Kleingedrucktes. Sie ist die nützlichste Information darüber, was dieses Garn wirklich tun wird.

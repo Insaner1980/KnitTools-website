@@ -4,11 +4,18 @@ description: "Jämför rundstickor, raka stickor och strumpstickor. Lär dig vil
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 1
-tags: ["rundsticka eller raka stickor", "när använda strumpstickor", "rundstickor vs raka stickor", "typer av stickor"]
+tags:
+  [
+    "rundsticka eller raka stickor",
+    "när använda strumpstickor",
+    "rundstickor vs raka stickor",
+    "typer av stickor",
+  ]
 draft: false
 lang: sv
 translationKey: "circular-vs-straight-vs-dpn"
 ---
+
 Det finns tre typer av stickor eftersom olika projekt kräver olika saker. Raka stickor passar för plant arbete. Rundstickor passar både plant arbete och tuber. Strumpstickor passar små omkretsar. När den grundlogiken sitter blir det mycket mindre rörigt att köpa stickor.
 
 ## Raka stickor

@@ -4,10 +4,17 @@ description: "Näin lasket oikean luotavien silmukoiden määrän mallitilkun pe
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 5
-tags: ["montako silmukkaa luodaan", "silmukkalaskuri neulonta", "laske silmukat leveyteen", "neuleen silmukkamäärä"]
+tags:
+  [
+    "montako silmukkaa luodaan",
+    "silmukkalaskuri neulonta",
+    "laske silmukat leveyteen",
+    "neuleen silmukkamäärä",
+  ]
 lang: fi
 translationKey: "how-many-stitches-to-cast-on"
 ---
+
 Ennen ensimmäistä kerrosta, ennen luomistavan valintaa, ennen mitään muuta tarvitset numeron. Se numero tulee neuletiheydestä, ei lankavyötteestä, ei edellisestä projektista eikä toiveikkaasta arvauksesta.
 
 Laske luotavien silmukoiden määrä kertomalla oma neuletiheys silmukoina senttiä kohti halutulla leveydellä sentteinä. Sen jälkeen säädä tulos mallikerran, reunasilmukoiden ja mahdollisten jakovaatimusten mukaan. Lasku on yksinkertainen. Oikeiden lähtötietojen saaminen on se osa, jolla on väliä.

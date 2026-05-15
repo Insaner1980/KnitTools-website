@@ -1,32 +1,44 @@
 ---
-import PageLayout from '../layouts/PageLayout.astro';
-import Hero from '../components/Hero.astro';
-import Marquee from '../components/Marquee.astro';
-import PullQuote from '../components/PullQuote.astro';
-import NineTools from '../components/NineTools.astro';
-import FreeToolsCallout from '../components/FreeToolsCallout.astro';
-import TrustSection from '../components/TrustSection.astro';
-import PricingCards from '../components/PricingCards.astro';
-import ClosingCTA from '../components/ClosingCTA.astro';
-import { getStructuredPrice } from '../config/pricing';
+import PageLayout from "../layouts/PageLayout.astro";
+import Hero from "../components/Hero.astro";
+import Marquee from "../components/Marquee.astro";
+import PullQuote from "../components/PullQuote.astro";
+import NineTools from "../components/NineTools.astro";
+import FreeToolsCallout from "../components/FreeToolsCallout.astro";
+import TrustSection from "../components/TrustSection.astro";
+import PricingCards from "../components/PricingCards.astro";
+import ClosingCTA from "../components/ClosingCTA.astro";
+import { getStructuredPrice } from "../config/pricing";
 
 const structuredPrice = getStructuredPrice();
 
 const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'SoftwareApplication',
-  name: 'KnitTools',
-  operatingSystem: 'Android',
-  applicationCategory: 'LifestyleApplication',
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "KnitTools",
+  operatingSystem: "Android",
+  applicationCategory: "LifestyleApplication",
   description:
-    'An all-in-one knitting toolkit for Android. Row counter with voice commands, pattern viewer with AI help, AI yarn label scanner, four calculators, project summaries, Ravelry integration, and progress photos. One-time purchase, no subscription.',
+    "An all-in-one knitting toolkit for Android. Row counter with voice commands, pattern viewer with AI help, AI yarn label scanner, four calculators, project summaries, Ravelry integration, and progress photos. One-time purchase, no subscription.",
   offers: {
-    '@type': 'Offer',
+    "@type": "Offer",
     price: structuredPrice.price,
     priceCurrency: structuredPrice.priceCurrency,
-    availability: 'https://schema.org/PreOrder',
+    availability: "https://schema.org/PreOrder",
   },
-  inLanguage: ['en', 'fi', 'sv', 'da', 'nb', 'nl', 'de', 'fr', 'it', 'pt', 'es'],
+  inLanguage: [
+    "en",
+    "fi",
+    "sv",
+    "da",
+    "nb",
+    "nl",
+    "de",
+    "fr",
+    "it",
+    "pt",
+    "es",
+  ],
 };
 ---
 
@@ -36,7 +48,7 @@ const jsonLd = {
   description="An Android knitting app with AI. Row counter, pattern viewer, yarn scanner, four calculators, Ravelry, voice commands. One-time purchase, 14-day trial."
   canonicalPath="/"
 >
-  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
   <Hero />
   <Marquee />

@@ -1,0 +1,697 @@
+---
+import LocalizedToolPage from "../LocalizedToolPage.astro";
+import { danishToolAlternates, danishToolRoutes } from "../../i18n/danishTools";
+
+type Category =
+  | "cast-on-bind-off"
+  | "increases"
+  | "decreases"
+  | "cables"
+  | "lace"
+  | "general"
+  | "stitch-patterns";
+
+interface Abbreviation {
+  abbr: string;
+  def: string;
+  search: string;
+  categories: Category[];
+}
+
+const categoryLabels: Record<Category, string> = {
+  "cast-on-bind-off": "Opslag / aflukning",
+  increases: "Udtagninger",
+  decreases: "Indtagninger",
+  cables: "Snoninger",
+  lace: "Hulmønster",
+  general: "Generelt",
+  "stitch-patterns": "Maskemønstre",
+};
+
+const abbreviations: Abbreviation[] = [
+  {
+    abbr: "CO",
+    def: "slå masker op (cast on)",
+    search: "cast on slå masker op opslag",
+    categories: ["cast-on-bind-off"],
+  },
+  {
+    abbr: "BO",
+    def: "lukke af (bind off US / cast off UK)",
+    search: "bind off cast off lukke af aflukning",
+    categories: ["cast-on-bind-off"],
+  },
+
+  {
+    abbr: "k",
+    def: "strikke ret / retmaske (knit)",
+    search: "knit strikke ret retmaske r",
+    categories: ["general"],
+  },
+  {
+    abbr: "p",
+    def: "strikke vrang / vrangmaske (purl)",
+    search: "purl strikke vrang vrangmaske vr",
+    categories: ["general"],
+  },
+  {
+    abbr: "st(s)",
+    def: "maske / masker",
+    search: "stitch stitches maske masker m",
+    categories: ["general"],
+  },
+  {
+    abbr: "RS",
+    def: "retsiden (right side)",
+    search: "right side retsiden rs",
+    categories: ["general"],
+  },
+  {
+    abbr: "WS",
+    def: "vrangsiden (wrong side)",
+    search: "wrong side vrangsiden vs",
+    categories: ["general"],
+  },
+  {
+    abbr: "rep",
+    def: "gentage / gentagelse (repeat)",
+    search: "repeat gentage gentagelse rapport",
+    categories: ["general"],
+  },
+  {
+    abbr: "beg",
+    def: "begyndelse (beginning)",
+    search: "beginning begyndelse begynd",
+    categories: ["general"],
+  },
+  {
+    abbr: "rem",
+    def: "resterende / tilbage (remaining)",
+    search: "remaining resterende tilbage",
+    categories: ["general"],
+  },
+  {
+    abbr: "cont",
+    def: "fortsæt (continue)",
+    search: "continue fortsæt videre strik",
+    categories: ["general"],
+  },
+  {
+    abbr: "alt",
+    def: "skiftevis / skifte (alternate)",
+    search: "alternate skiftevis skifte",
+    categories: ["general"],
+  },
+  {
+    abbr: "approx",
+    def: "cirka (approximately)",
+    search: "approximately cirka ca omtrent",
+    categories: ["general"],
+  },
+  {
+    abbr: "tbl",
+    def: "i bagerste maskeled (through back loop)",
+    search: "through back loop bagerste maskeled drejet",
+    categories: ["general"],
+  },
+  {
+    abbr: "wyif",
+    def: "med garnet foran arbejdet (with yarn in front)",
+    search: "with yarn in front garn foran arbejde",
+    categories: ["general"],
+  },
+  {
+    abbr: "wyib",
+    def: "med garnet bag arbejdet (with yarn in back)",
+    search: "with yarn in back garn bag arbejde",
+    categories: ["general"],
+  },
+  {
+    abbr: "sl",
+    def: "tage en maske løst af (slip)",
+    search: "slip tage maske løst af løs maske",
+    categories: ["general"],
+  },
+  {
+    abbr: "sl st",
+    def: "løs maske (slip stitch)",
+    search: "slip stitch løs maske",
+    categories: ["general"],
+  },
+  {
+    abbr: "pm",
+    def: "placer maskemarkør (place marker)",
+    search: "place marker maskemarkør markør placer",
+    categories: ["general"],
+  },
+  {
+    abbr: "sm",
+    def: "flyt maskemarkør (slip marker)",
+    search: "slip marker flyt maskemarkør markør",
+    categories: ["general"],
+  },
+  {
+    abbr: "MC",
+    def: "hovedfarve (main color)",
+    search: "main color hovedfarve farve",
+    categories: ["general"],
+  },
+  {
+    abbr: "CC",
+    def: "kontrastfarve (contrast color)",
+    search: "contrast color kontrastfarve farve",
+    categories: ["general"],
+  },
+  {
+    abbr: "dpn(s)",
+    def: "strømpepind(e) (double-pointed needles)",
+    search: "double pointed needles dpns strømpepinde",
+    categories: ["general"],
+  },
+  {
+    abbr: "cn",
+    def: "snoningspind / hjælpepind (cable needle)",
+    search: "cable needle snoningspind hjælpepind",
+    categories: ["general"],
+  },
+  {
+    abbr: "rnd(s)",
+    def: "omgang(e) i rundstrik (round/s)",
+    search: "round rounds omgang omg rundstrik",
+    categories: ["general"],
+  },
+
+  {
+    abbr: "M1",
+    def: "tag 1 maske ud (make one)",
+    search: "make one tage ud udtagning",
+    categories: ["increases"],
+  },
+  {
+    abbr: "M1L",
+    def: "venstrehældende udtagning (make one left)",
+    search: "make one left venstrehældende udtagning",
+    categories: ["increases"],
+  },
+  {
+    abbr: "M1R",
+    def: "højrehældende udtagning (make one right)",
+    search: "make one right højrehældende udtagning",
+    categories: ["increases"],
+  },
+  {
+    abbr: "kfb",
+    def: "strik ret i forreste og bagerste maskeled (knit front and back)",
+    search: "knit front and back forreste bagerste maskeled udtagning",
+    categories: ["increases"],
+  },
+  {
+    abbr: "pfb",
+    def: "strik vrang i forreste og bagerste maskeled (purl front and back)",
+    search: "purl front and back forreste bagerste maskeled udtagning",
+    categories: ["increases"],
+  },
+  {
+    abbr: "yo",
+    def: "slå om / omslag (yarn over)",
+    search: "yarn over slå om omslag hulmønster udtagning",
+    categories: ["increases", "lace"],
+  },
+  {
+    abbr: "inc",
+    def: "tage ud / udtagning (increase)",
+    search: "increase tage ud udtagning",
+    categories: ["increases"],
+  },
+
+  {
+    abbr: "k2tog",
+    def: "2 masker ret sammen, højrehældende indtagning",
+    search: "knit two together 2 ret sammen indtagning højre",
+    categories: ["decreases", "lace"],
+  },
+  {
+    abbr: "p2tog",
+    def: "2 masker vrang sammen (purl two together)",
+    search: "purl two together 2 vrang sammen indtagning",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "ssk",
+    def: "ssk, venstrehældende indtagning",
+    search: "slip slip knit ssk venstrehældende indtagning",
+    categories: ["decreases", "lace"],
+  },
+  {
+    abbr: "skp",
+    def: "tag 1 maske løst af, strik ret, træk den løse maske over",
+    search: "slip knit pass slipped stitch over overtrækning indtagning",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "sk2p",
+    def: "tag 1 maske løst af, strik 2 ret sammen, træk den løse maske over",
+    search:
+      "slip one knit two together pass slipped stitch over dobbelt indtagning",
+    categories: ["decreases", "lace"],
+  },
+  {
+    abbr: "s2kp",
+    def: "tag 2 masker løst af, strik 1 ret, træk de 2 løse masker over, centreret dobbeltindtagning",
+    search:
+      "slip two knit one pass two slipped stitches over centreret dobbeltindtagning",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "CDD",
+    def: "centreret dobbeltindtagning (centered double decrease)",
+    search: "centered double decrease centreret dobbeltindtagning",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "psso",
+    def: "træk den løse maske over (pass slipped stitch over)",
+    search:
+      "pass slipped stitch over træk løs maske over overtrækning indtagning",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "dec",
+    def: "tage ind / indtagning (decrease)",
+    search: "decrease tage ind indtagning",
+    categories: ["decreases"],
+  },
+
+  {
+    abbr: "C4F",
+    def: "snoning over 4 masker foran (cable 4 front)",
+    search: "cable four front snoning foran",
+    categories: ["cables"],
+  },
+  {
+    abbr: "C4B",
+    def: "snoning over 4 masker bagved (cable 4 back)",
+    search: "cable four back snoning bagved",
+    categories: ["cables"],
+  },
+  {
+    abbr: "C6F",
+    def: "snoning over 6 masker foran (cable 6 front)",
+    search: "cable six front snoning foran",
+    categories: ["cables"],
+  },
+  {
+    abbr: "C6B",
+    def: "snoning over 6 masker bagved (cable 6 back)",
+    search: "cable six back snoning bagved",
+    categories: ["cables"],
+  },
+  {
+    abbr: "T2F",
+    def: "kryds 2 masker foran (twist 2 front)",
+    search: "twist two front kryds snoning foran",
+    categories: ["cables"],
+  },
+  {
+    abbr: "T2B",
+    def: "kryds 2 masker bagved (twist 2 back)",
+    search: "twist two back kryds snoning bagved",
+    categories: ["cables"],
+  },
+
+  {
+    abbr: "St st",
+    def: "glatstrik (stockinette / stocking stitch)",
+    search: "stockinette stocking stitch glatstrik",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "g st",
+    def: "retstrik (garter stitch)",
+    search: "garter stitch retstrik",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "rev St st",
+    def: "omvendt glatstrik (reverse stockinette)",
+    search: "reverse stockinette omvendt glatstrik",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "rib",
+    def: "rib / ribkant (ribbing)",
+    search: "ribbing rib ribkant",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "moss st",
+    def: "perlestrik eller dobbelt perlestrik, afhængigt af opskriften",
+    search: "moss stitch perlestrik dobbelt perlestrik",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "seed st",
+    def: "perlestrik, afhængigt af opskriften",
+    search: "seed stitch perlestrik",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "MB",
+    def: "lav en knop efter opskriften (make bobble)",
+    search: "make bobble knop boble strukturmaske",
+    categories: ["stitch-patterns"],
+  },
+];
+
+const filterOrder: Array<Category | "all"> = [
+  "all",
+  "cast-on-bind-off",
+  "increases",
+  "decreases",
+  "cables",
+  "lace",
+  "general",
+  "stitch-patterns",
+];
+
+const faqs = [
+  {
+    q: "Er strikkeforkortelser ens i US- og UK-opskrifter?",
+    a: 'De fleste er ens. k, p, yo og k2tog betyder det samme på begge sider af Atlanten. Forskellene samler sig om nogle få termer: US "bind off" er UK "cast off", US "gauge" er UK "tension", og US "stockinette" er UK "stocking stitch". På dansk kigger du især efter strikkefasthed og definitionen af maskemønstret. "Seed stitch" og "moss stitch" kan også skifte betydning efter kilde, så stol på maskedefinitionen frem for navnet.',
+  },
+  {
+    q: "Hvad betyder stjernen i en strikkeopskrift?",
+    a: 'Den markerer en gentagelse. Alt mellem stjernen og den tilhørende instruktion, ofte "rep from *", strikkes igen og igen hen over pinden. Parenteser og klammer gør det samme: de samler en række handlinger, der gentages et bestemt antal gange. At overse en gentagelsesmarkering er en hurtig vej til forkert maskeantal.',
+  },
+  {
+    q: "Hvad hvis jeg ikke kan finde en forkortelse i en standardliste?",
+    a: "Så er det næsten helt sikkert en opskriftsspecifik forkortelse fra designeren. Gå tilbage til begyndelsen af opskriften og se efter en liste med forkortelser eller maskedefinitioner. Snoninger og hulmønstre giver flest egne forkortelser, fordi designere laver kompakt notation til teknikker, der kun bruges i netop det design. Står den ikke der, er opskriftsnoter eller diagramnøgle næste sted at kigge.",
+  },
+  {
+    q: "Hvad er forskellen på ssk og skp?",
+    a: "Begge er venstrehældende indtagninger og giver næsten samme resultat i det færdige strik. ssk er den moderne standard og står i de fleste nye opskrifter. skp ses oftere i ældre opskrifter. Udførelsen er lidt forskellig, så følg det, opskriften angiver, i stedet for bare at skifte.",
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Strikkeforkortelser: søgbar ordliste"
+  description="Slå en strikkeforkortelse eller teknik op. Komplet ordliste med opskriftstermer fra k2tog til psso, ordnet efter kategori."
+  canonicalPath={danishToolRoutes.knittingAbbreviations}
+  lang="da"
+  alternates={danishToolAlternates.tool.knittingAbbreviations}
+  intro="Søg en forkortelse for at se, hvad den betyder, eller søg på en teknik for at finde de tilhørende forkortelser."
+  schemaName="Strikkeforkortelser"
+  schemaDescription="Søgbar ordliste med strikkeforkortelser og tekniske termer."
+  faqs={faqs}
+  variant="brown"
+>
+  <div slot="tool">
+    <div class="abbr-wrapper">
+      <input
+        type="text"
+        id="abbr-search"
+        class="search-input"
+        placeholder='Søg forkortelse eller teknik, fx "ssk" eller "indtagning"'
+        autocomplete="off"
+      />
+
+      <div
+        class="category-filters"
+        role="group"
+        aria-label="Filtrer efter kategori"
+      >
+        {
+          filterOrder.map((cat, index) => (
+            <button
+              type="button"
+              class={`cat-btn${index === 0 ? " is-active" : ""}`}
+              data-cat={cat}
+              aria-pressed={index === 0 ? "true" : "false"}
+            >
+              {cat === "all" ? "Alle" : categoryLabels[cat as Category]}
+            </button>
+          ))
+        }
+      </div>
+
+      <ul class="abbr-list" id="abbr-list" aria-label="Strikkeforkortelser">
+        {
+          abbreviations.map((item) => (
+            <li
+              class="abbr-row"
+              data-abbr={item.abbr.toLowerCase()}
+              data-def={item.def.toLowerCase()}
+              data-search={item.search.toLowerCase()}
+              data-cats={item.categories.join(" ")}
+              data-catlabels={item.categories
+                .map((cat) => categoryLabels[cat].toLowerCase())
+                .join(" ")}
+            >
+              <span class="abbr-term">{item.abbr}</span>
+              <span class="abbr-def">{item.def}</span>
+            </li>
+          ))
+        }
+      </ul>
+
+      <p class="no-results" id="no-results" hidden>
+        Ingen passende forkortelser fundet.
+      </p>
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Forkortelser læst i sammenhæng</h2>
+    <p>
+      De fleste forkortelser falder i nogle få grupper, og det hjælper mere at
+      genkende gruppen end at lære hvert udtryk udenad.
+    </p>
+    <p>
+      <strong>Grundmasker</strong> er enkelte bogstaver. <code>k</code> betyder knit,
+      altså strikke ret, og <code>p</code> betyder purl, altså strikke vrang. Et tal
+      efter bogstavet fortæller hvor mange: <code>k5</code> betyder strik fem masker
+      ret. Det er hele systemet for de enkleste forkortelser.
+    </p>
+    <p>
+      <strong>Kombinerede handlinger</strong> stabler bogstaver og tal. <code
+        >k2tog</code
+      > betyder to masker ret sammen. <code>p2tog</code> er samme idé, men vrang.
+      Mange opskriftsforkortelser fungerer sådan. Læs langsomt og bogstaveligt.
+    </p>
+    <p>
+      <strong>Sidemarkeringer</strong> fortæller, hvilken side af arbejdet du er på.
+      <code>RS</code> er retsiden, <code>WS</code> er vrangsiden. Det betyder noget,
+      fordi samme håndbevægelse kan give forskelligt resultat afhængigt af, om du
+      arbejder på den synlige side eller bagsiden.
+    </p>
+    <p>
+      <strong>Formgivningsforkortelser</strong> styrer, hvordan arbejdet bliver bredere
+      eller smallere. <code>M1</code>, <code>M1L</code>, <code>M1R</code> og <code
+        >kfb</code
+      > lægger masker til. <code>k2tog</code> og <code>ssk</code> fjerner dem. At
+      vide hvilke der hælder mod venstre, hvilke der hælder mod højre, og hvilke der
+      bare lægger til eller trækker fra, gør opskrifter hurtigere at læse.
+    </p>
+    <p>
+      <strong>Strukturtermer</strong> holder instruktionerne korte. <code
+        >rep</code
+      >, <code>st(s)</code>, <code>beg</code>, <code>rem</code>, <code
+        >cont</code
+      >. Det er rammen, ikke maskerne.
+    </p>
+    <p>
+      Tegnsætning tæller også. Stjerner og semikoloner er ikke pynt. <code
+        >*k2, p2; rep from *</code
+      > betyder, at alt mellem stjernen og semikolonet gentages. Parenteser og klammer
+      fungerer på samme måde og samler handlinger, der gentages et bestemt antal gange.
+      At overse en gentagelsesmarkering er en af de hurtigste måder at ende med forkert
+      maskeantal.
+    </p>
+
+    <h2>Forskelle mellem US og UK</h2>
+    <p>Nogle få termer flytter sig over Atlanten. De vigtigste:</p>
+    <p>
+      US "bind off" er UK "cast off". US "gauge" er UK "tension"; på dansk taler
+      man normalt om strikkefasthed. US "stockinette" er UK "stocking stitch".
+      Og den klassiske fælde: "seed stitch" og "moss stitch" kan skifte
+      betydning efter kilde, så en udskrevet maskedefinition vinder altid over
+      navnet alene.
+    </p>
+    <p>
+      De fleste almindelige forkortelser, som <code>k</code>, <code>p</code>, <code
+        >yo</code
+      > og <code>k2tog</code>, er ens i begge systemer. Hvis en opskrift ikke
+      siger, om den bruger US- eller UK-konventioner, gør afsnittet med
+      maskedefinitioner det som regel klart. Er det afsnit der ikke, er
+      designerens placering ofte det bedste spor.
+    </p>
+
+    <h2>Opskriftsspecifikke forkortelser</h2>
+    <p>
+      Her bliver det interessant, for mange forkortelser står ikke i nogen
+      standardliste. Det er normalt. De er genveje, designeren har lavet til den
+      konkrete opskrift, og de bør forklares nær begyndelsen af instruktionerne.
+    </p>
+    <p>
+      Snoningsmønstre er den største kilde. En diagramnøgle kan definere <code
+        >C4F</code
+      >, <code>C6B</code> eller noget mere specifikt for designet. Tallet angiver
+      typisk, hvor mange masker der krydser. Bogstavet til sidst, F eller B, angiver
+      retningen: front eller back, altså hvor du holder snoningspinden, mens du krydser.
+      Men designere er ikke altid konsekvente med den konvention. Nogle bruger L og
+      R. Nogle tæller alle involverede masker, andre kun dem der flytter sig. Opskriftens
+      egen definition er det, der tæller.
+    </p>
+    <p>
+      Hulmønstre bygger også sammensatte forkortelser. En opskrift skriver <code
+        >CDD</code
+      > for en centreret dobbeltindtagning. En anden skriver samme idé som <code
+        >sl2-k1-p2sso</code
+      >. En tredje bruger <code>s2kp</code>. Alle tre peger på samme grundidé,
+      men den præcise udførelse kan variere mellem designere, og nogle
+      forkortelser bruges til lidt forskellige indtagninger afhængigt af kilden.
+      Ser en forkortelse ukendt ud, så tjek opskriftsnøglen, før du antager, at
+      den svarer til den mest almindelige version.
+    </p>
+    <p>
+      Mønsterstrik forkorter nogle gange farvenavne eller farvetildelinger. Du
+      ser MC, main color, og CC, contrast color, eller CC1 og CC2 når der er
+      flere kontrastfarver. Nogle designs bruger A, B, C. Forkortelserne er
+      enkle, men blander du farverne sammen, kan det ses i det færdige arbejde.
+    </p>
+    <p>
+      Nogle designere laver også forkortelser for gentagne maskesekvenser, som
+      kun findes i deres design. En opskrift kan definere "MB" for en bestemt
+      knop, eller "cluster" for en bestemt kombination af omslag og
+      overtrækninger, der kun gælder i det projekt. Så slipper designeren for at
+      skrive en flertrinsinstruktion ud hver gang. De genveje giver kun mening
+      inde i den opskrift.
+    </p>
+    <p>
+      Den praktiske regel: finder du ikke en forkortelse i en standardreference,
+      står den næsten sikkert i opskriftens begyndelse. Rul op, før du søger
+      andre steder.
+    </p>
+
+    <h2>Hvad symboler i diagrammer betyder</h2>
+    <p>
+      Diagrammer bruger symboler i stedet for udskrevne pinde. Hver rude er én
+      maske, og symbolet i ruden fortæller, hvad du skal gøre.
+    </p>
+    <p>
+      Der findes ingen universel standard for alle diagramsymboler, men mange
+      designere holder sig tæt på Craft Yarn Councils konventioner. En tom rude
+      betyder ofte ret på retsiden og vrang på vrangsiden. En streg betyder
+      vrang på retsiden. En cirkel er <code>yo</code>. En højrehældende
+      skråstreg markerer <code>k2tog</code>, og en venstrehældende markerer <code
+        >ssk</code
+      >.
+    </p>
+    <p>
+      Diagrammer læses nedefra og op, fordi strik vokser opad. Ved fladstrik
+      læses pinde på retsiden fra højre mod venstre og pinde på vrangsiden fra
+      venstre mod højre, i samme retning som pindene bevæger sig. Ved rundstrik
+      læses hver omgang fra højre mod venstre, fordi du altid arbejder på
+      retsiden.
+    </p>
+    <p>
+      Hvis en opskrift har både skrevne instruktioner og diagram, bør de være
+      enige. Hvis de ikke er det, og det sker oftere end behageligt, bør
+      opskriftsnoterne sige, hvad der har forrang. Står det ikke der, så strik
+      én rapport som prøve, før du stoler på den ene eller den anden version.
+    </p>
+
+    <h2>Nogle forkortelser der er værd at kende tidligt</h2>
+    <p>
+      Du behøver ikke lære alt udenad, før du slår masker op. Et første tørklæde
+      bruger måske kun <code>k</code> og <code>p</code>. En simpel hue tilføjer
+      et par indtagninger. Resten kommer naturligt med de opskrifter, du vælger,
+      og de samme tolv forkortelser dækker det meste af det, du strikker.
+    </p>
+    <p>
+      Et par mange snubler over: <code>ssk</code> og <code>skp</code> er begge venstrehældende
+      indtagninger. <code>ssk</code> er den moderne standard. <code>skp</code> står
+      oftere i ældre opskrifter. Resultatet ligner hinanden, men udførelsen er lidt
+      forskellig, så følg opskriften, som den er skrevet, medmindre den giver lov
+      til at skifte.
+    </p>
+    <p>
+      En anden, der er værd at markere: <code>psso</code>, pass slipped stitch
+      over, optræder både alene og som del af sammensatte forkortelser som <code
+        >sl1-k2tog-psso</code
+      >. Når du ser den alene, følger den som regel efter en maske, der blev
+      taget løst af i forrige trin.
+    </p>
+    <p>
+      Craft Yarn Council udgiver en meget brugt standardliste over forkortelser,
+      og de fleste designere følger den for almindelige termer. Derudover tager
+      regionale vaner og opskriftsspecifikke genveje over. "Tjek
+      opskriftsnøglen" er bedre råd end "lær en komplet liste udenad".
+    </p>
+    <p>
+      Hold en reference åben, mens du strikker. <a href="/">KnitTools-appen</a> har
+      en søgbar forkortelsesreference, hurtigere end at skifte mellem faner midt på
+      en pind. Hvis du også er ved at finde pindestørrelser eller <a
+        href="/da/artikler/maal-strikkefasthed/">måle strikkefasthed</a
+      >, passer de referencer godt sammen med ordlisten. Og hvis du er ny til at <a
+        href="/da/artikler/laes-strikkeopskrift/">læse strikkeopskrifter</a
+      >, er forkortelseslisten i opskriften det første afsnit, du bør skimme,
+      før du slår masker op.
+    </p>
+  </div>
+</LocalizedToolPage>
+
+<script>
+  const searchInput = document.getElementById(
+    "abbr-search",
+  ) as HTMLInputElement | null;
+  const list = document.getElementById("abbr-list");
+  const noResults = document.getElementById("no-results");
+  const catButtons = document.querySelectorAll<HTMLButtonElement>(".cat-btn");
+
+  let activeCategory = "all";
+
+  function applyFilters() {
+    if (!list || !noResults) return;
+    const rows = list.querySelectorAll<HTMLElement>(".abbr-row");
+    const query = (searchInput?.value || "").trim().toLowerCase();
+    let visibleCount = 0;
+
+    rows.forEach((row) => {
+      const cats = (row.dataset.cats || "").split(" ");
+      const haystack = [
+        row.dataset.abbr,
+        row.dataset.def,
+        row.dataset.search,
+        row.dataset.catlabels,
+      ].join(" ");
+
+      const matchesCategory =
+        activeCategory === "all" || cats.includes(activeCategory);
+      const matchesSearch = !query || haystack.includes(query);
+      const visible = matchesCategory && matchesSearch;
+
+      row.style.display = visible ? "" : "none";
+      if (visible) visibleCount++;
+    });
+
+    noResults.hidden = visibleCount > 0;
+  }
+
+  searchInput?.addEventListener("input", applyFilters);
+
+  catButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      catButtons.forEach((item) => {
+        item.classList.remove("is-active");
+        item.setAttribute("aria-pressed", "false");
+      });
+
+      button.classList.add("is-active");
+      button.setAttribute("aria-pressed", "true");
+      activeCategory = button.dataset.cat || "all";
+      applyFilters();
+    });
+  });
+</script>

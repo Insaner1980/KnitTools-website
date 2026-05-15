@@ -4,11 +4,18 @@ description: "Beregn hvor mye garn du trenger til skjerf, gensere, tepper og mer
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 2
-tags: ["hvor mye garn trenger jeg", "garnmengde kalkulator", "garnberegning strikking", "hvor mange nøster trenger jeg"]
+tags:
+  [
+    "hvor mye garn trenger jeg",
+    "garnmengde kalkulator",
+    "garnberegning strikking",
+    "hvor mange nøster trenger jeg",
+  ]
 draft: false
 lang: no
 translationKey: "how-much-yarn-do-i-need"
 ---
+
 Å gå tom for garn tre fjerdedeler inn i et prosjekt er sin egen type nederlag. Fargepartiet er borte. Butikken er utsolgt. Eller erstatningsnøstet ser nært nok ut i butikken og helt feil når det strikkes ved siden av originalen. To centimeter før avfelling stopper hele prosjektet. Dette skjer oftere enn det burde, og det kan nesten alltid forebygges.
 
 Hvor mye garn et strikkeprosjekt trenger avhenger av fire ting: prosjektmål, garntykkelse, maskemønster og strikkefasthet. God beregning er ikke gjetting. Det handler om å få de fire tallene riktig. Får du dem riktig, blir anslaget overraskende nært. Ignorer ett av dem, og du gambler.

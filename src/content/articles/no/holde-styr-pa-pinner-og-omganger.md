@@ -4,11 +4,20 @@ description: "Mister du tellingen? Her er 7 måter å følge pinner og omganger 
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 2
-tags: ["holde styr på pinner strikking", "omgangsteller strikking", "følge pinner", "maskecounter", "digital omgangsteller", "omgangsteller app"]
+tags:
+  [
+    "holde styr på pinner strikking",
+    "omgangsteller strikking",
+    "følge pinner",
+    "maskecounter",
+    "digital omgangsteller",
+    "omgangsteller app",
+  ]
 draft: false
 lang: no
 translationKey: "track-rows-knitting"
 ---
+
 Du legger prosjektet fra deg for å åpne døren. Tar det opp igjen tjue minutter senere. Var det pinne 14 eller 15? I glattstrikk betyr det kanskje ikke mye. I et hullmønster der oddetalls- og partallspinner gjør helt ulike ting, betyr én pinne feil å rekke opp.
 
 Ingen metode fungerer for alle prosjekter. Disse sju går fra null teknologi til appbasert, og de fleste strikkere ender med mer enn én.

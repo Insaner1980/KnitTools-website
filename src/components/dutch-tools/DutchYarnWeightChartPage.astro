@@ -1,0 +1,362 @@
+---
+import LocalizedToolPage from "../LocalizedToolPage.astro";
+import WpiIdentifier from "../WpiIdentifier.astro";
+import { dutchToolRoutes } from "../../i18n/dutchTools";
+import { routes } from "../../i18n/routes";
+
+const rows = [
+  [
+    "0",
+    "Lace",
+    "Cobweb / Light fingering / 2-ply",
+    "33-40+ st. / 10 cm",
+    "1,5-2,25 mm",
+    "30-40+ WPI",
+    "Kanten omslagdoeken, kleedjes, fijn open ajourwerk",
+    "Lace, Cobweb, Light fingering, 2-ply (UK)",
+  ],
+  [
+    "1",
+    "Fingering / sokkengaren",
+    "Sock / Fingering / Baby / 4-ply",
+    "27-32 st. / 10 cm",
+    "2,25-3,25 mm",
+    "14-30 WPI",
+    "Sokken, babykleding, fijne omslagdoeken, lichte kleding",
+    "Sock, Fingering, Baby, 4-ply (UK/AUS)",
+  ],
+  [
+    "2",
+    "Sport",
+    "Sport / Baby / 5-ply",
+    "23-26 st. / 10 cm",
+    "3,25-3,75 mm",
+    "12-18 WPI",
+    "Lichte kleding, babykleding, accessoires",
+    "Sport, Baby, 5-ply (UK/AUS)",
+  ],
+  [
+    "3",
+    "DK / Light Worsted",
+    "DK / Light Worsted / 8-ply",
+    "21-24 st. / 10 cm",
+    "3,75-4,5 mm",
+    "11-15 WPI",
+    "Truien, mutsen, sjaals, babydekens, kleding voor elk seizoen",
+    "DK (Double Knitting), Light Worsted, 8-ply (UK/AUS)",
+  ],
+  [
+    "4",
+    "Worsted / Aran / Medium",
+    "Worsted / Aran / Afghan / 10-ply",
+    "16-20 st. / 10 cm",
+    "4,5-5,5 mm",
+    "9-12 WPI",
+    "Truien, mutsen, wanten, dekens, veel dagelijks breiwerk",
+    "Worsted, Aran, Afghan, 10-ply (AUS)",
+  ],
+  [
+    "5",
+    "Bulky / Chunky",
+    "Chunky / Craft / Rug / 12-ply",
+    "12-15 st. / 10 cm",
+    "5,5-8 mm",
+    "6-9 WPI",
+    "Dikke truien, sjaals, dekens, snelle projecten",
+    "Chunky, Craft, Rug, 12-ply (AUS)",
+  ],
+  [
+    "6",
+    "Super Bulky / Super Chunky",
+    "Super Chunky / Bulky / Roving",
+    "7-11 st. / 10 cm",
+    "8-12,75 mm",
+    "5-6 WPI",
+    "Zware dekens, cols, snelle accessoires",
+    "Super Chunky, Bulky, Roving",
+  ],
+  [
+    "7",
+    "Jumbo",
+    "Jumbo / Roving",
+    "0-6 st. / 10 cm",
+    "12,75+ mm",
+    "1-4 WPI",
+    "Armbreien, uitgesproken textuur, oversized dekens",
+    "Jumbo, Roving",
+  ],
+];
+
+const faqs = [
+  {
+    q: "Wat is de meest gebruikte garendikte?",
+    a: "Worsted is nog steeds de standaard in veel Noord-Amerikaanse patronen. DK komt voortdurend terug in Britse en Europese patronen. Met die twee categorieën kun je het grootste deel van kleding, accessoires en woonprojecten breien. Bouw je een veelzijdige voorraad op, dan zijn ze een logisch beginpunt.",
+  },
+  {
+    q: "Kun je de ene garendikte vervangen door een andere?",
+    a: "Ja, maar er verandert meer dan alleen de maat. Valling, benodigde meters en naalddikte verschuiven allemaal. Sommige wissels zijn vergevingsgezind, bijvoorbeeld DK voor een lichte worsted. Andere maken er eigenlijk een ander project van. Brei altijd een proeflapje voordat je beslist, en reken het garenverbruik opnieuw uit met het totale aantal steken van het oorspronkelijke patroon als referentie.",
+  },
+  {
+    q: 'Wat betekent "held double"?',
+    a: "Dat betekent dat je twee draden samen breit alsof ze een dikkere draad zijn. Twee draden fingering samen komen ongeveer in de buurt van DK, maar vezelsamenstelling, twist en luchtigheid kunnen het resultaat lichter of zwaarder maken. Het is handig als je de juiste dikte niet vindt in de kleur of vezel die je wilt. Brei een proeflapje, want de uitkomst is niet helemaal voorspelbaar.",
+  },
+  {
+    q: "Waarom lijkt mijn garen dunner of dikker dan het label zegt?",
+    a: "Omdat garendiktecategorieën bereiken zijn, geen vaste punten. Het ene DK-garen zit aan de dunne kant, het andere aan de dikke kant. Vezelsamenstelling verandert ook hoe het oogt. Katoen lijkt vaak platter en dunner dan wol bij dezelfde WPI, terwijl alpaca na het wassen kan opbloeien en dikker lijkt. De categorie op het label is een richtgebied; je proeflapje bevestigt waar jouw garen echt valt.",
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Garendiktes: tabel met WPI"
+  description="Complete tabel met garendiktes, van lace tot jumbo. Bekijk stekenverhouding, aanbevolen naalden, WPI en typische projecten."
+  canonicalPath={dutchToolRoutes.yarnWeightChart}
+  lang="nl"
+  alternates={routes.tool.yarnWeightChart}
+  intro="Acht categorieën, met bereiken voor stekenverhouding, naalddikte en WPI. Open een categorie voor details."
+  schemaName="Tabel met garendiktes"
+  schemaDescription="Referentietabel voor garendiktes met stekenverhouding, aanbevolen naalden, WPI en projecttypes voor de 8 CYC-categorieën."
+  faqs={faqs}
+  variant="sand"
+>
+  <div slot="tool">
+    <div class="cat-list">
+      {
+        rows.map((row) => (
+          <details class="cat-card">
+            <summary class="cat-summary">
+              <span class="cat-heading">
+                <span>{row[0]}</span>
+                <span class="cat-name">{row[1]}</span>
+              </span>
+              <span class="cat-regional">{row[2]}</span>
+              <span class="cat-toggle" aria-hidden="true">
+                +
+              </span>
+            </summary>
+            <div class="cat-body">
+              <dl class="cat-details">
+                <div class="cat-row">
+                  <dt>Stekenverhouding</dt>
+                  <dd>{row[3]}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>Naalden</dt>
+                  <dd>{row[4]}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>WPI</dt>
+                  <dd>{row[5]}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>Veel gebruikt voor</dt>
+                  <dd>{row[6]}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>Regionale namen</dt>
+                  <dd>{row[7]}</dd>
+                </div>
+              </dl>
+            </div>
+          </details>
+        ))
+      }
+    </div>
+    <WpiIdentifier lang="nl" />
+  </div>
+
+  <div slot="content">
+    <h2>Het probleem met namen</h2>
+    <p>
+      Hier wordt garendikte echt rommelig, en hier beginnen de meeste fouten bij
+      garen vervangen.
+    </p>
+
+    <h3>Ply betekent niet wat je denkt</h3>
+    <p>
+      "4-ply" betekent in Britse en Australische patroontaal meestal fingering.
+      Maar ply beschrijft eigenlijk de constructie van het garen, niet de dikte.
+      Een garen uit vier heel dunne draadjes kan prima dunner zijn dan een garen
+      uit twee dikke. Singles, dus enkeldraadse garens, kunnen bulky zijn. Een
+      strak getwijnd 6-ply kan in sport vallen.
+    </p>
+    <p>
+      De term bleef hangen omdat oude spinconventies ervoor zorgden dat 4-ply
+      vrij betrouwbaar op een bepaalde dikte uitkwam. Die koppeling verdween
+      toen spinmethodes gevarieerder werden, maar de naamgeving veranderde niet
+      mee. Dus als een vintage Brits patroon om "3-ply" vraagt, bedoelt het een
+      specifiek diktebereik, dicht bij lace of light fingering, niet letterlijk
+      een draad uit drie plies.
+    </p>
+    <p>Daar struikelen meer mensen over dan je zou verwachten.</p>
+
+    <h3>Worsted en aran: dichtbij, maar niet hetzelfde</h3>
+    <p>
+      Beide zitten in CYC-categorie 4, Medium, maar aran is vaak iets zwaarder
+      binnen dat bereik. Een patroon geschreven voor aran bij een bepaalde
+      stekenverhouding kan te los uitvallen als je een worsted pakt die aan de
+      lichte kant van de categorie zit. Omgekeerd geldt hetzelfde.
+    </p>
+    <p>
+      Sommige garenmerken gebruiken "worsted" en "aran" bijna door elkaar op
+      labels. Andere maken duidelijk onderscheid. De stekenverhouding op de
+      banderol is betrouwbaarder dan de naam.
+    </p>
+
+    <h3>DK, Light Worsted, 8-ply</h3>
+    <p>
+      DK, double knitting, is standaardtaal in het Verenigd Koninkrijk.
+      Amerikaanse patronen noemen dezelfde dikte soms "Light Worsted".
+      Australische en Nieuw-Zeelandse patronen zeggen vaak "8-ply". Alle drie
+      vallen in CYC-categorie 3, Light, maar een DK aan de dikke kant kan
+      overlappen met een worsted aan de dunne kant. Categoriegrenzen zijn geen
+      muren.
+    </p>
+
+    <h3>Als regionale namen botsen</h3>
+    <p>
+      "Sport weight" in Noord-Amerika en "5-ply" in Australische terminologie
+      overlappen, maar passen niet perfect op elkaar. "Chunky" in Britse
+      patronen betekent meestal CYC 5, Bulky, terwijl "chunky" in informeel
+      Amerikaans gebruik van bulky tot super bulky kan betekenen.
+    </p>
+    <p>
+      De veiligste aanpak als je tussen regionale patroontalen wisselt: negeer
+      de naam en match de stekenverhouding. Als het patroon 20 steken per 10 cm
+      vraagt op naalden van 4 mm, is dat wat je moet halen, wat het label ook
+      over het garen zegt.
+    </p>
+
+    <h2>Hoe garendiktecategorieën werken</h2>
+    <p>
+      "Weight" betekent hier niet hoe zwaar de bol in je hand voelt. Het gaat om
+      de dikte van de draad. Dunner garen geeft meer steken per 10 cm. Dikker
+      garen minder.
+    </p>
+    <p>
+      Het systeem van de Craft Yarn Council geeft elk diktebereik een nummer en
+      naam:
+    </p>
+    <ul>
+      <li>
+        <strong>0 - Lace.</strong> Heel fijn garen voor kanten omslagdoeken en open
+        ajourwerk.
+      </li>
+      <li>
+        <strong>1 - Super Fine.</strong> Het gebied van fingering en sokkengaren.
+      </li>
+      <li><strong>2 - Fine.</strong> Sport.</li>
+      <li>
+        <strong>3 - Light.</strong> DK en vergelijkbare tussenliggende kledinggarens.
+      </li>
+      <li>
+        <strong>4 - Medium.</strong> Worsted en aran. Het bereik waar veel breiers
+        het vaakst in werken.
+      </li>
+      <li>
+        <strong>5 - Bulky.</strong> Dikkere garens waarmee je snel stof opbouwt.
+      </li>
+      <li>
+        <strong>6 - Super Bulky.</strong> Snelle accessoires, uitgesproken textuur.
+      </li>
+      <li>
+        <strong>7 - Jumbo.</strong> De dikste kant van de gepubliceerde tabel.
+      </li>
+    </ul>
+    <p>
+      De CYC-standaard loopt nu van 0 tot 7, al heeft de organisatie aangegeven
+      dat er aan verdere maatvoering wordt gewerkt.
+    </p>
+
+    <h2>Garendikte herkennen zonder label</h2>
+    <p>
+      Garen zonder label duikt steeds op. Iemand geeft een zak voorraadgaren, de
+      banderol is maanden geleden verdwenen, of het garen kwam van een cone
+      zonder winkellabel.
+    </p>
+    <p>
+      De snelste eerste check is wraps per inch (WPI), oftewel wikkelingen per
+      inch.
+    </p>
+
+    <h3>WPI meten</h3>
+    <p>
+      Wikkel het garen om een potlood, liniaal of WPI-tool. Houd de wikkelingen
+      netjes naast elkaar, vrij aangesloten, niet uitgerekt en niet over elkaar.
+      Tel hoeveel er op 2,5 cm passen. De CYC-gids gebruikt deze brede bereiken:
+    </p>
+    <ul>
+      <li>30-40+ WPI -&gt; Lace (0)</li>
+      <li>14-30 WPI -&gt; Super Fine (1)</li>
+      <li>12-18 WPI -&gt; Fine (2)</li>
+      <li>11-15 WPI -&gt; Light (3)</li>
+      <li>9-12 WPI -&gt; Medium (4)</li>
+      <li>6-9 WPI -&gt; Bulky (5)</li>
+      <li>5-6 WPI -&gt; Super Bulky (6)</li>
+      <li>1-4 WPI -&gt; Jumbo (7)</li>
+    </ul>
+    <p>
+      Let op de overlappende bereiken. Garen dat op 12 WPI uitkomt kan Fine,
+      Light of Medium zijn, afhankelijk van andere factoren. Dat is normaal.
+    </p>
+
+    <h3>Wanneer WPI lastig wordt</h3>
+    <p>
+      Harige garens zoals mohair zijn lastig netjes te wikkelen. Luchtige
+      singles kunnen dunner lijken dan ze breien. Handgesponnen garen wisselt in
+      dikte over de lengte, dus meet op meerdere plekken en neem het gemiddelde.
+      Chenille en fantasiegaren met veel textuur? Succes met een nette
+      wikkeling.
+    </p>
+    <p>
+      WPI brengt je in de buurt. Een proeflapje geeft het antwoord dat echt
+      telt. De <a href="/nl/artikelen/onbekend-garen-herkennen-zonder-label/"
+        >gids voor onbekend garen</a
+      > behandelt het hele herkenningsproces als het label helemaal ontbreekt.
+    </p>
+
+    <h2>Garendikte kiezen voor je project</h2>
+    <p>
+      Ontwerpers kiezen een dikte voor de stof die ze willen, niet alleen om
+      snel te kunnen breien. Verander je de dikte, dan veranderen valling,
+      dichtheid, warmte en vaak de hele schaal van het afgewerkte werk.
+    </p>
+    <p>
+      Dunnere diktes, 0-2, geven meer valling en scherpere steekdefinitie. Goed
+      voor sokken, omslagdoeken en kleurwerk dat heldere details nodig heeft.
+      Middeldiktes, 3-4, vooral DK en worsted, dekken enorm veel af: truien,
+      mutsen, dekens, babybreiwerk, accessoires met structuur. Dikkere garens,
+      5-7, geven snelheid en warmte, maar ook dikkere naden en een zwaarder
+      afgewerkt stuk. Dat wil je zien voordat je vervangt.
+    </p>
+    <p>
+      Vervang je buiten de oorspronkelijke garendiktecategorie, reken dan op
+      opnieuw rekenen. De <a
+        href="/nl/artikelen/garen-vervangen-in-een-breipatroon/"
+        >gids voor garen vervangen</a
+      > legt de werkwijze uit. De <a href={dutchToolRoutes.castOnCalculator}
+        >opzetcalculator</a
+      > van KnitTools helpt met het aantal steken, en de <a
+        href={dutchToolRoutes.yarnEstimator}>garenberekenaar</a
+      > kan controleren of het aantal meters logisch is voordat je koopt.
+    </p>
+
+    <h2>Het verband tussen garendikte en naalddikte</h2>
+    <p>
+      Aanbevolen naalddiktes zijn startpunten. Geen beloftes. Hetzelfde DK-garen
+      kan op de ene naald een stevige mutsstof maken en op de andere een los
+      vest.
+    </p>
+    <p>
+      Hier neemt stekenverhouding het over. Het label kan richting geven, maar
+      jouw garen, jouw hand van breien en je project bepalen de uiteindelijke
+      naalddikte.
+    </p>
+    <p>
+      Moet je eerst maatsystemen omzetten voordat je een proeflapje kunt breien,
+      houd dan de <a href={dutchToolRoutes.needleSizeChart}
+        >tabel met naalddiktes</a
+      > erbij.
+    </p>
+  </div>
+</LocalizedToolPage>

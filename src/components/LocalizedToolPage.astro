@@ -1,9 +1,10 @@
 ---
-import PageLayout from '../layouts/PageLayout.astro';
-import ClosingCTA from './ClosingCTA.astro';
-import type { Lang } from '../i18n/config';
-import { routes, type LocalizedPath } from '../i18n/routes';
-import { useTranslations } from '../i18n/ui';
+import PageLayout from "../layouts/PageLayout.astro";
+import ClosingCTA from "./ClosingCTA.astro";
+import type { Lang } from "../i18n/config";
+import { type LocalizedPath } from "../i18n/routes";
+import { getToolsIndexPath } from "../i18n/tools";
+import { useTranslations } from "../i18n/ui";
 
 interface Faq {
   q: string;
@@ -21,7 +22,7 @@ interface Props {
   schemaName: string;
   schemaDescription: string;
   faqs: Faq[];
-  variant?: 'terracotta' | 'rust' | 'teal' | 'sand' | 'brown';
+  variant?: "terracotta" | "rust" | "teal" | "sand" | "brown";
 }
 
 const {
@@ -29,17 +30,18 @@ const {
   description,
   canonicalPath,
   alternates,
-  lang = 'fi',
+  lang = "fi",
   eyebrow,
   intro,
   schemaName,
   schemaDescription,
   faqs,
-  variant = 'terracotta',
+  variant = "terracotta",
 } = Astro.props;
 
 const t = useTranslations(lang);
-const toolEyebrow = eyebrow ?? t('tools');
+const toolEyebrow = eyebrow ?? t("tools");
+const toolsIndexPath = getToolsIndexPath(lang);
 ---
 
 <PageLayout
@@ -50,42 +52,50 @@ const toolEyebrow = eyebrow ?? t('tools');
   alternates={alternates}
   showStripe={false}
 >
-  <script type="application/ld+json" set:html={JSON.stringify({
-    '@context': 'https://schema.org',
-    '@type': 'WebApplication',
-    name: schemaName,
-    description: schemaDescription,
-    url: `https://knittoolsapp.com${canonicalPath}`,
-    applicationCategory: 'UtilityApplication',
-    operatingSystem: 'Any',
-    offers: {
-      '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'EUR',
-    },
-  })} />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      name: schemaName,
+      description: schemaDescription,
+      url: `https://knittoolsapp.com${canonicalPath}`,
+      applicationCategory: "UtilityApplication",
+      operatingSystem: "Any",
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "EUR",
+      },
+    })}
+  />
 
-  {faqs.length > 0 && (
-    <script type="application/ld+json" set:html={JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'FAQPage',
-      mainEntity: faqs.map((f) => ({
-        '@type': 'Question',
-        name: f.q,
-        acceptedAnswer: { '@type': 'Answer', text: f.a },
-      })),
-    })} />
-  )}
+  {
+    faqs.length > 0 && (
+      <script
+        type="application/ld+json"
+        set:html={JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+          })),
+        })}
+      />
+    )
+  }
 
   <section class="tool-hero">
     <div class="hero-inner">
       <p class="eyebrow">
-        <a href={routes.toolsIndex[lang]} class="eyebrow-back">← {t('allTools')}</a>
+        <a href={toolsIndexPath} class="eyebrow-back">← {t("allTools")}</a>
       </p>
       <p class="tool-eyebrow">{toolEyebrow}</p>
       <h1>{title}</h1>
       <p class="hero-intro">{intro}</p>
-      <div class:list={['form-card', `variant-${variant}`, 'is-wide']}>
+      <div class:list={["form-card", `variant-${variant}`, "is-wide"]}>
         <slot name="tool" />
       </div>
     </div>
@@ -99,14 +109,18 @@ const toolEyebrow = eyebrow ?? t('tools');
 
   <section class="tool-faq">
     <div class="faq-inner">
-      <h2>{t('frequentlyAskedQuestions')}</h2>
+      <h2>{t("frequentlyAskedQuestions")}</h2>
       <div class="faq">
-        {faqs.map((f) => (
-          <details>
-            <summary>{f.q} <span aria-hidden="true">+</span></summary>
-            <p>{f.a}</p>
-          </details>
-        ))}
+        {
+          faqs.map((f) => (
+            <details>
+              <summary>
+                {f.q} <span aria-hidden="true">+</span>
+              </summary>
+              <p>{f.a}</p>
+            </details>
+          ))
+        }
       </div>
     </div>
   </section>
@@ -229,7 +243,9 @@ const toolEyebrow = eyebrow ?? t('tools');
     border-bottom: 1.5px solid transparent;
     border-radius: 0;
     cursor: pointer;
-    transition: color 200ms ease, border-color 200ms ease;
+    transition:
+      color 200ms ease,
+      border-color 200ms ease;
     white-space: nowrap;
     line-height: 1;
   }
@@ -289,7 +305,9 @@ const toolEyebrow = eyebrow ?? t('tools');
     border-bottom: 1.5px solid transparent;
     border-radius: 0;
     cursor: pointer;
-    transition: color 0.15s ease, border-color 0.15s ease;
+    transition:
+      color 0.15s ease,
+      border-color 0.15s ease;
     white-space: nowrap;
   }
 

@@ -4,10 +4,19 @@ description: "Menikö kerrosluku sekaisin kesken työn? Tässä 7 luotettavaa ta
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 2
-tags: ["kerrosten seuraaminen neuloessa", "neuleen kerroslaskuri", "kerrosmäärän seuraaminen", "silmukkalaskuri", "digitaalinen kerroslaskuri", "kerroslaskuri-sovellus"]
+tags:
+  [
+    "kerrosten seuraaminen neuloessa",
+    "neuleen kerroslaskuri",
+    "kerrosmäärän seuraaminen",
+    "silmukkalaskuri",
+    "digitaalinen kerroslaskuri",
+    "kerroslaskuri-sovellus",
+  ]
 lang: fi
 translationKey: "track-rows-knitting"
 ---
+
 Lasket työn käsistä avataksesi oven. Otat sen takaisin kahdenkymmenen minuutin päästä. Oliko tämä kerros 14 vai 15? Sileässä neuleessa sillä ei ehkä ole väliä. Pitsissä, jossa parittomat ja parilliset kerrokset tekevät täysin eri asioita, yhden kerroksen heitto tarkoittaa purkamista.
 
 Yksi tapa ei toimi joka projektissa. Nämä seitsemän vaihtelevat täysin tekniikattomasta sovelluspohjaiseen, ja useimmat neulojat päätyvät käyttämään useampaa kuin yhtä.

@@ -1,14 +1,21 @@
 ---
 title: '"Samtidig" i strikkeoppskrifter'
-description: "Forstå instruksjonen \"samtidig\" i strikkeoppskrifter. Følg to handlinger på samme pinner, med eksempler for ermer og forming."
+description: 'Forstå instruksjonen "samtidig" i strikkeoppskrifter. Følg to handlinger på samme pinner, med eksempler for ermer og forming.'
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 8
-tags: ["samtidig i strikkeoppskrift", "samtidige strikkeinstruksjoner", "forming i strikkeoppskrift", "strikke to instrukser samtidig"]
+tags:
+  [
+    "samtidig i strikkeoppskrift",
+    "samtidige strikkeinstruksjoner",
+    "forming i strikkeoppskrift",
+    "strikke to instrukser samtidig",
+  ]
 draft: false
 lang: no
 translationKey: "at-the-same-time-knitting"
 ---
+
 Det betyr akkurat det som står, og det er nettopp derfor det blir forvirrende. To forskjellige ting skjer på de samme pinnene, og oppskriften beskriver dem hver for seg selv om du gjør dem samtidig.
 
 "Samtidig" i en strikkeoppskrift betyr at to sett med instruksjoner skjer parallelt over de samme pinnene. Som regel er det en formingsinstruksjon som legges oppå et maskemønster du allerede arbeider med. Dette dukker oftest opp i plaggforming. Oppskriften kan ikke alltid beskrive begge deler pent i én linje, så den beskriver én handling, sier "samtidig", og beskriver den andre.

@@ -4,11 +4,20 @@ description: "Prøvelappen stemmer ikke med oppskriften. Slik finner du årsaken
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 3
-tags: ["strikkefasthet stemmer ikke", "justere strikkefasthet", "strikkefasthet kalkulator", "prøvelapp", "oppskriftens strikkefasthet", "masker per 10 cm"]
+tags:
+  [
+    "strikkefasthet stemmer ikke",
+    "justere strikkefasthet",
+    "strikkefasthet kalkulator",
+    "prøvelapp",
+    "oppskriftens strikkefasthet",
+    "masker per 10 cm",
+  ]
 draft: false
 lang: no
 translationKey: "gauge-doesnt-match"
 ---
+
 Prøvelappen din gir 19 masker over 10 cm. Oppskriften vil ha 20. Én maske per 10 cm høres ikke mye ut, før du ganger det over forstykket på en genser og ser at det ferdige plagget blir flere centimeter bredere enn planlagt. Det er forskjellen mellom et plagg som passer og ett som henger fra skuldrene.
 
 Strikkefasthet som ikke stemmer kan rettes. Hva du gjør avhenger av hvor mye du bommer, hva slags prosjekt du lager, og om selve stoffet føles riktig på pinnen.

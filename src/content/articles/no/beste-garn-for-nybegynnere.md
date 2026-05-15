@@ -4,11 +4,18 @@ description: "Velg riktig garn når du skal lære å strikke. Om garntykkelse, f
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 1
-tags: ["beste garn for nybegynnere", "nybegynnergarn strikking", "hvilket garn starte med", "garn til første strikkeprosjekt"]
+tags:
+  [
+    "beste garn for nybegynnere",
+    "nybegynnergarn strikking",
+    "hvilket garn starte med",
+    "garn til første strikkeprosjekt",
+  ]
 draft: false
 lang: no
 translationKey: "best-yarn-for-beginners"
 ---
+
 Garnhylla er overveldende når du ikke vet hva du ser på. Vegger med farger, ulike tykkelser, etiketter fulle av ukjente ord. Det beste garnet for å lære å strikke er worsted weight (CYC kategori 4) i en lys, ensfarget farge, akryl for budsjett, ull/akryl-blanding for en bedre følelse, sammen med bambus- eller trepinner i 4,5-5,5 mm. Til et første prosjekt er valget enklere enn det ser ut. Du vil ha noe tilgivende, lett å jobbe med og billig nok til at feil ikke føles dyre.
 
 ## Tykkelse: start med worsted

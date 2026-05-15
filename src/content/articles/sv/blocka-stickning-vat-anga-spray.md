@@ -4,11 +4,18 @@ description: "Lär dig blocka stickat med våtblockning, ångblockning och spray
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 9
-tags: ["blocka stickning", "våtblockning stickning", "ångblockning", "sprayblockning stickning"]
+tags:
+  [
+    "blocka stickning",
+    "våtblockning stickning",
+    "ångblockning",
+    "sprayblockning stickning",
+  ]
 draft: false
 lang: sv
 translationKey: "how-to-block-knitting"
 ---
+
 Blockning är processen där ett färdigt stickat stycke fuktas, ångas eller sprayas och formas till sina tänkta mått. Det förvandlar knölig, ojämn stickning till färdigt tyg. Maskorna jämnar ut sig, tyget slappnar av till rätt form och spetsmönster öppnar sig från hopträngda trassel till igenkännliga mönster. Vissa projekt behöver det knappt. Andra går nästan inte att känna igen utan det.
 
 Metoden beror på fibern. Ull svarar på våtblockning. Akryl svarar på ånga. Bomull svarar inte särskilt starkt på något, men mår bra av en ordentlig blötläggning och press.

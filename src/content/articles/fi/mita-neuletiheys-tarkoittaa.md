@@ -4,10 +4,17 @@ description: "Ymmärrä, mitä neuletiheys tarkoittaa, miksi se vaihtelee neuloj
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 1
-tags: ["mitä neuletiheys tarkoittaa", "neuletiheys selitettynä", "miksi neuletiheys muuttuu", "neulekäsiala"]
+tags:
+  [
+    "mitä neuletiheys tarkoittaa",
+    "neuletiheys selitettynä",
+    "miksi neuletiheys muuttuu",
+    "neulekäsiala",
+  ]
 lang: fi
 translationKey: "what-is-gauge-in-knitting"
 ---
+
 Neuletiheys kertoo, montako silmukkaa ja kerrosta mahtuu tiettyyn neulepinnan mittaan. Kun ohje sanoo "20 silmukkaa ja 28 kerrosta = 10 cm sileää neuletta", se kertoo, millainen suunnittelijan neulepinta oli. Kun osut samaan tiheyteen, valmiilla työllä on paljon parempi mahdollisuus tulla oikean kokoiseksi.
 
 Tämä on lyhyt versio. Hyödyllisempi versio on ymmärtää, miksi kaksi neulojaa voi saada täysin eri neuletiheyden samalla langalla ja samoilla puikoilla, ja miksi oma neuletiheys voi muuttua saman projektin aikana.

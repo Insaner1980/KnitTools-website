@@ -4,11 +4,18 @@ description: "Remplacer un fil sans gâcher le projet : épaisseur, échantillon
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 6
-tags: ["remplacer fil tricot", "substitution fil tricot", "changer laine modèle", "fil alternatif modèle tricot"]
+tags:
+  [
+    "remplacer fil tricot",
+    "substitution fil tricot",
+    "changer laine modèle",
+    "fil alternatif modèle tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "how-to-substitute-yarn"
 ---
+
 Le fil du modèle n'existe plus. Ou il coûte 30 € la pelote et le budget dit non. Ou c'est 100 % laine et la personne qui recevra l'ouvrage le mettra en machine dès le premier jour.
 
 Remplacer un fil est normal. La plupart des tricoteuses le font plus souvent qu'autrement. Une substitution réussie consiste à faire correspondre quatre choses entre le fil d'origine et le fil de remplacement : catégorie d'épaisseur, échantillon, comportement de la fibre et métrage total. Si tu en rates une, le projet dérive. Si tu en rates deux, c'est carrément un autre projet.

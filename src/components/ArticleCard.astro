@@ -1,30 +1,54 @@
 ---
-import type { CollectionEntry } from 'astro:content';
-import { CATEGORY_COLORS, getCategoryLabel, type CategorySlug } from '../lib/categories';
-import { getArticlePath } from '../i18n/articles';
-import type { Lang } from '../i18n/config';
+import type { CollectionEntry } from "astro:content";
+import {
+  CATEGORY_COLORS,
+  getCategoryLabel,
+  type CategorySlug,
+} from "../lib/categories";
+import { getArticlePath } from "../i18n/articles";
+import type { Lang } from "../i18n/config";
 
 interface Props {
-  article: CollectionEntry<'articles'>;
+  article: CollectionEntry<"articles">;
   featured?: boolean;
   showCategory?: boolean;
   lang?: Lang;
 }
 
-const { article, featured = false, showCategory = true, lang = (article.data.lang ?? 'en') } = Astro.props;
+const {
+  article,
+  featured = false,
+  showCategory = true,
+  lang = article.data.lang ?? "en",
+} = Astro.props;
 const category = article.data.category as CategorySlug;
 const colorClass = CATEGORY_COLORS[category];
 const label = getCategoryLabel(category, lang);
 const articlePath = getArticlePath(article, lang);
-const dateLocale = lang === 'fi' ? 'fi-FI' : lang === 'de' ? 'de-DE' : lang === 'sv' ? 'sv-SE' : lang === 'no' ? 'nb-NO' : lang === 'fr' ? 'fr-FR' : 'en-US';
+const dateLocale =
+  lang === "fi"
+    ? "fi-FI"
+    : lang === "de"
+      ? "de-DE"
+      : lang === "sv"
+        ? "sv-SE"
+        : lang === "no"
+          ? "nb-NO"
+          : lang === "fr"
+            ? "fr-FR"
+            : lang === "nl"
+              ? "nl-NL"
+              : lang === "da"
+                ? "da-DK"
+                : "en-US";
 ---
 
 <a
   href={articlePath}
   class:list={[
-    'article-card',
+    "article-card",
     colorClass,
-    featured ? 'card-featured' : 'card-half',
+    featured ? "card-featured" : "card-half",
   ]}
 >
   {showCategory && <span class="tag">{label}</span>}
@@ -32,22 +56,52 @@ const dateLocale = lang === 'fi' ? 'fi-FI' : lang === 'de' ? 'de-DE' : lang === 
   <p class="card-desc">{article.data.description}</p>
   <div class="card-meta">
     <time datetime={article.data.publishDate.toISOString()}>
-      {article.data.publishDate.toLocaleDateString(dateLocale, {
-        year: 'numeric', month: 'long', day: 'numeric',
-      })}
+      {
+        article.data.publishDate.toLocaleDateString(dateLocale, {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })
+      }
     </time>
   </div>
 </a>
 
 <style>
-  .card-featured { grid-column: 1 / -1; min-height: 260px; }
-  .card-half     { grid-column: span 4;  min-height: 280px; }
+  .card-featured {
+    grid-column: 1 / -1;
+    min-height: 260px;
+  }
+  .card-half {
+    grid-column: span 4;
+    min-height: 280px;
+  }
 
-  .card-terracotta { --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.92); --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 1); --card-fg: #F4EAD9; }
-  .card-rust       { --card-bg: rgb(from var(--stripe-rust) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-rust) r g b / 1);       --card-fg: #F4EAD9; }
-  .card-sand       { --card-bg: rgb(from var(--stripe-sand) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-sand) r g b / 1);       --card-fg: #2A1E17; }
-  .card-teal       { --card-bg: rgb(from var(--stripe-teal) r g b / 0.92);       --card-bg-hover: rgb(from var(--stripe-teal) r g b / 1);       --card-fg: #F4EAD9; }
-  .card-brown      { --card-bg: rgb(from var(--stripe-brown) r g b / 0.92);      --card-bg-hover: rgb(from var(--stripe-brown) r g b / 1);      --card-fg: #F4EAD9; }
+  .card-terracotta {
+    --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 1);
+    --card-fg: #f4ead9;
+  }
+  .card-rust {
+    --card-bg: rgb(from var(--stripe-rust) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-rust) r g b / 1);
+    --card-fg: #f4ead9;
+  }
+  .card-sand {
+    --card-bg: rgb(from var(--stripe-sand) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-sand) r g b / 1);
+    --card-fg: #2a1e17;
+  }
+  .card-teal {
+    --card-bg: rgb(from var(--stripe-teal) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-teal) r g b / 1);
+    --card-fg: #f4ead9;
+  }
+  .card-brown {
+    --card-bg: rgb(from var(--stripe-brown) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-brown) r g b / 1);
+    --card-fg: #f4ead9;
+  }
 
   .article-card {
     background-color: var(--card-bg);
@@ -61,8 +115,13 @@ const dateLocale = lang === 'fi' ? 'fi-FI' : lang === 'de' ? 'de-DE' : lang === 
     transition: background-color 0.2s ease;
   }
 
-  .article-card:hover { background-color: var(--card-bg-hover); }
-  .article-card:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .article-card:hover {
+    background-color: var(--card-bg-hover);
+  }
+  .article-card:focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
+  }
 
   .article-card .tag {
     align-self: flex-start;
@@ -71,7 +130,7 @@ const dateLocale = lang === 'fi' ? 'fi-FI' : lang === 'de' ? 'de-DE' : lang === 
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #2A1E17;
+    color: #2a1e17;
     background: var(--paper);
     padding: 4px 12px;
     border-radius: 9999px;
@@ -123,11 +182,14 @@ const dateLocale = lang === 'fi' ? 'fi-FI' : lang === 'de' ? 'de-DE' : lang === 
   }
 
   @media (max-width: 1024px) {
-    .card-half { grid-column: span 1; }
+    .card-half {
+      grid-column: span 1;
+    }
   }
 
   @media (max-width: 768px) {
-    .card-featured, .card-half {
+    .card-featured,
+    .card-half {
       grid-column: span 1;
       min-height: auto;
       padding: 28px 24px;

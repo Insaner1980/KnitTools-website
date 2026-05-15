@@ -4,11 +4,18 @@ description: "Apprends à lire un modèle de tricot du début à la fin : sectio
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 2
-tags: ["lire un modèle de tricot", "modèle tricot débutant", "lire explications tricot", "comprendre modèle tricot"]
+tags:
+  [
+    "lire un modèle de tricot",
+    "modèle tricot débutant",
+    "lire explications tricot",
+    "comprendre modèle tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "how-to-read-knitting-pattern"
 ---
+
 Les modèles de tricot ont leur propre langue et leurs propres conventions de mise en page. Un modèle est structuré en sections prévisibles : matériel et échantillon en haut, puis instructions rang par rang avec des abréviations standardisées, et tailles présentées sous forme de nombres entre parenthèses. La première fois qu'on en ouvre un, on voit surtout un mur de raccourcis. Mais une fois les sections reconnues, l'ensemble devient lisible.
 
 ## L'en-tête : ce qu'il faut avant de commencer
@@ -53,7 +60,7 @@ Les instructions se lisent de gauche à droite : "5 m. end., 3 m. env., 2 m. ens
 
 C'est la partie qui fait le plus trébucher. Les modèles utilisent plusieurs systèmes.
 
-**Répétitions avec astérisque :** "*2 m. end., 2 m. env.; rép. depuis * jusqu'à la fin." L'astérisque marque le début de la répétition. Tout ce qui se trouve entre l'astérisque et l'instruction de répétition est une unité. "Rép. depuis *" veut dire revenir et recommencer. "Jusqu'à la fin" veut dire répéter jusqu'à manquer de mailles.
+**Répétitions avec astérisque :** "_2 m. end., 2 m. env.; rép. depuis _ jusqu'à la fin." L'astérisque marque le début de la répétition. Tout ce qui se trouve entre l'astérisque et l'instruction de répétition est une unité. "Rép. depuis \*" veut dire revenir et recommencer. "Jusqu'à la fin" veut dire répéter jusqu'à manquer de mailles.
 
 **Répétitions entre crochets :** "[2 m. end., 2 m. env.] 5 fois." Les crochets définissent la section, le nombre indique combien de fois. Plus explicite que les astérisques, mais fonctionnellement identique.
 

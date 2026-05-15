@@ -1,25 +1,25 @@
 ---
 const items = [
-  'Projects',
-  'Row counter',
-  'Pattern viewer',
-  'Saved patterns',
-  'Yarn label scanner',
-  'My Yarn',
-  'Gauge calculator',
-  'Cast on calculator',
-  'Yarn estimator',
-  'Increase / decrease',
-  'Needle sizes',
-  'Size charts',
-  'Abbreviations',
-  'Chart symbols',
-  'Ravelry search',
-  'Progress photos',
-  'Session history',
-  'Insights',
-  'Row counter widget',
-  'Voice commands',
+  "Projects",
+  "Row counter",
+  "Pattern viewer",
+  "Saved patterns",
+  "Yarn label scanner",
+  "My Yarn",
+  "Gauge calculator",
+  "Cast on calculator",
+  "Yarn estimator",
+  "Increase / decrease",
+  "Needle sizes",
+  "Size charts",
+  "Abbreviations",
+  "Chart symbols",
+  "Ravelry search",
+  "Progress photos",
+  "Session history",
+  "Insights",
+  "Row counter widget",
+  "Voice commands",
 ];
 ---
 
@@ -29,7 +29,7 @@ const items = [
       [...items, ...items].map((item) => (
         <span>
           {item}
-          <span class="dot" aria-hidden="true"></span>
+          <span class="dot" aria-hidden="true" />
         </span>
       ))
     }
@@ -51,7 +51,7 @@ const items = [
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #F4EAD9;
+    color: #f4ead9;
   }
   .marquee-track > span {
     display: inline-flex;
@@ -64,15 +64,21 @@ const items = [
     height: 8px;
     margin-left: 18px;
     border-radius: 50%;
-    background: #F4EAD9;
+    background: #f4ead9;
     vertical-align: middle;
     transform: translateY(-1px);
   }
   @keyframes scroll {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
   }
   @media (prefers-reduced-motion: reduce) {
-    .marquee-track { animation-play-state: paused; }
+    .marquee-track {
+      animation-play-state: paused;
+    }
   }
 </style>

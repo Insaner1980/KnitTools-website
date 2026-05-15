@@ -4,11 +4,18 @@ description: "Lær å strikke lue nedenfra og opp rundt, flatt og sydd sammen. O
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 12
-tags: ["strikke lue", "strikke lue nybegynner", "lue strikke guide", "strikke beanie oppskrift"]
+tags:
+  [
+    "strikke lue",
+    "strikke lue nybegynner",
+    "lue strikke guide",
+    "strikke beanie oppskrift",
+  ]
 draft: false
 lang: no
 translationKey: "how-to-knit-hat"
 ---
+
 En lue er et av de beste andre- eller tredjeprosjektene etter et skjerf. Den introduserer rundstrikking, felling og enkel forming, alt i et lite, raskt prosjekt som blir noe du faktisk kan bruke. De fleste luer i worsted kan fullføres på noen kvelder.
 
 For å strikke en enkel lue legger du opp masker til hodeomkrets minus 2,5-5 cm negativ bevegelsesvidde, strikker vrangbord til kanten, strikker kroppen i glattstrikk og [feller jevnt](/no/artikler/fordele-okninger-og-fellinger-jevnt/) i toppen. Det finnes flere konstruksjonsmetoder. Riktig metode avhenger av hvilke teknikker du kan og hvilket utstyr du har.
@@ -51,9 +58,9 @@ Vanlig metode: del maskene i 6 eller 8 like seksjoner, med maskemarkører mellom
 
 For 96 masker i 8 seksjoner på 12:
 
-Omgang 1: *K10, k2tog; rep from * rundt. (88 m)
+Omgang 1: _K10, k2tog; rep from _ rundt. (88 m)
 Omgang 2: Strikk.
-Omgang 3: *K9, k2tog; rep from * rundt. (80 m)
+Omgang 3: _K9, k2tog; rep from _ rundt. (80 m)
 Omgang 4: Strikk.
 
 Fortsett til 8-16 masker gjenstår. Klipp garnet, tre gjennom resten med stoppenål, stram og fest på innsiden.

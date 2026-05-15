@@ -4,11 +4,18 @@ description: "So ersetzt du Garn in einer Strickanleitung, ohne das Projekt zu r
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 6
-tags: ["Garn ersetzen Strickanleitung", "Garnersatz Stricken", "anderes Garn für Anleitung", "Garn austauschen Stricken"]
+tags:
+  [
+    "Garn ersetzen Strickanleitung",
+    "Garnersatz Stricken",
+    "anderes Garn für Anleitung",
+    "Garn austauschen Stricken",
+  ]
 draft: false
 lang: de
 translationKey: "how-to-substitute-yarn"
 ---
+
 Das Garn aus der Anleitung ist eingestellt. Oder es kostet 30 Euro pro Knäuel und das Budget sagt nein. Oder es ist 100 % Wolle, und die beschenkte Person wirft das fertige Stück am ersten Tag in die Waschmaschine.
 
 Garn zu ersetzen ist normal. Die meisten Strickenden tun es häufig. Ein gelungener Garnersatz bedeutet, dass vier Dinge zwischen Original und Ersatz zusammenpassen: Garnstärke, Maschenprobe, Faserverhalten und Gesamtmeter. Fehlt eines davon, beginnt das Projekt zu wandern. Fehlen zwei, ist es im Grunde ein anderes Projekt.

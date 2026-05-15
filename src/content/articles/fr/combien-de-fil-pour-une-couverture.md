@@ -4,7 +4,14 @@ description: "Estimer la quantité de fil pour une couverture tricotée : métra
 publishDate: 2026-05-01
 category: "yarn"
 categoryOrder: 5
-tags: ["fil pour couverture", "métrage couverture tricot", "combien de fil", "nombre de pelotes", "estimateur de fil"]
+tags:
+  [
+    "fil pour couverture",
+    "métrage couverture tricot",
+    "combien de fil",
+    "nombre de pelotes",
+    "estimateur de fil",
+  ]
 draft: false
 lang: fr
 translationKey: "yarn-for-blanket"
@@ -99,4 +106,3 @@ Un plaid en super bulky peut prendre 20 à 30 heures. En worsted, 60 à 100 heur
 
 **Faut-il tricoter une couverture à plat ou en rond ?**  
 La plupart des couvertures se tricotent à plat sur de longues aiguilles circulaires, utilisées en allers-retours sans fermer en rond. Certains modèles modulaires, comme les carrés ou hexagones, se tricotent séparément puis s'assemblent. La construction circulaire existe pour les couvertures rondes, mais elle est rare pour les plaids rectangulaires.
-

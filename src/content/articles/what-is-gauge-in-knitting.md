@@ -4,8 +4,15 @@ description: "Understand gauge in knitting, why it varies between knitters, and 
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 1
-tags: ["what is gauge in knitting", "knitting gauge explained", "why does gauge change", "knitting tension"]
+tags:
+  [
+    "what is gauge in knitting",
+    "knitting gauge explained",
+    "why does gauge change",
+    "knitting tension",
+  ]
 ---
+
 Gauge is the number of stitches and rows that fit into a measured section of knitted fabric. When a pattern says "20 stitches and 28 rows = 4 inches in stockinette," that's what the designer's fabric looked like. Match that density and your project has a much better chance of coming out the right size.
 
 That's the short version. The more useful version is understanding why two knitters can get completely different gauge from the same yarn and needles, and why your own gauge can drift partway through a single project.

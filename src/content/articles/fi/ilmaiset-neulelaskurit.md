@@ -4,10 +4,19 @@ description: "Ilmaiset neulelaskurit silmukoiden luomiseen, langanmenekkiin, neu
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 5
-tags: ["neulelaskurit", "ilmaiset neulelaskurit", "silmukkalaskuri", "langanmenekkilaskuri", "neuletiheyslaskuri", "neuletyökalut"]
+tags:
+  [
+    "neulelaskurit",
+    "ilmaiset neulelaskurit",
+    "silmukkalaskuri",
+    "langanmenekkilaskuri",
+    "neuletiheyslaskuri",
+    "neuletyökalut",
+  ]
 lang: fi
 translationKey: "free-knitting-calculators"
 ---
+
 Neulomiseen kuuluu enemmän laskemista kuin moni odottaa. Montako silmukkaa luodaan 23 cm leveään huiviin omalla neuletiheydellä. Paljonko lankaa peitto vie. Miten 8 lisäystä jaetaan tasaisesti 64 silmukan kerrokselle. Tämä ei ole vaikeaa matematiikkaa, mutta sitä tulee vastaan jatkuvasti, ja väärä vastaus tarkoittaa purkamista.
 
 Neljä neulelaskurityyppiä kattaa suurimman osan tarpeista. Tämän sivuston ilmaiset versiot toimivat selaimessa ilman kirjautumista.

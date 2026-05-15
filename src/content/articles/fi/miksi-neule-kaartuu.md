@@ -4,10 +4,17 @@ description: "Miksi sileä neule rullautuu ja miten sitä voi hallita. Reunukset
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 4
-tags: ["miksi neule kaartuu", "sileä neule rullautuu", "neuleen reuna rullautuu", "stockinette curl"]
+tags:
+  [
+    "miksi neule kaartuu",
+    "sileä neule rullautuu",
+    "neuleen reuna rullautuu",
+    "stockinette curl",
+  ]
 lang: fi
 translationKey: "why-knitting-curls"
 ---
+
 Sileä neule rullautuu. Se ei ole käsialaongelma, lankaongelma tai merkki siitä, että teet jotain väärin. Se on fysiikkaa.
 
 Oikeat silmukat ovat hieman kapeampia kuin nurjat silmukat. Sileässä neuleessa, jossa oikealla puolella neulotaan oikein ja nurjalla nurin, kapeampi oikea puoli vetää leveämpää nurjaa puolta sisäänpäin. Kangas rullautuu ylä- ja alareunassa oikeaa puolta kohti, sivureunoissa nurjaa puolta kohti.

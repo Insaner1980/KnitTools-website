@@ -4,10 +4,17 @@ description: "Miten villa, puuvilla, akryyli ja sekoitteet käyttäytyvät neule
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 8
-tags: ["lankakuidut", "villa vai puuvilla", "akryyli vai villa", "neulelangan kuitu"]
+tags:
+  [
+    "lankakuidut",
+    "villa vai puuvilla",
+    "akryyli vai villa",
+    "neulelangan kuitu",
+  ]
 lang: fi
 translationKey: "yarn-fibers-compared"
 ---
+
 Neulo sama palmikkotilkku villasta ja puuvillasta, pidä niitä vierekkäin, ja ne näyttävät kuin eri ohjeista tulleilta. Villaversio joustaa. Palmikot nousevat esiin. Puuvillaversio roikkuu vähän, asettuu litteämmin ja näyttää jokaisen silmukan melkein kiusallisen rehellisesti. Sama puikko, samat kädet, sama silmukkamäärä. Täysin eri neulepinta.
 
 Ero ei ole vain ulkonäköä. Kuitusisältö vaikuttaa siihen, miltä lanka tuntuu neuloessa, miten se käyttäytyy viimeistelyssä, miten se kestää kuukausien ja vuosien käytössä ja pitääkö valmis neule muotonsa vai antautuuko se vähitellen painovoimalle. Kuitusisältö määrittää valmiin neulepinnan tunnun, laskeutuvuuden, viimeistelyn ja kestävyyden. Villa antaa joustoa ja muotoutuu viimeistelyssä, puuvilla antaa laskeutuvuutta ja pestävyyttä, akryyli antaa edullisuutta ja konepesun kestävää käytännöllisyyttä. Vyötteen kuitutieto ei ole pientä pränttiä. Se on hyödyllisin tieto siitä, mitä lanka oikeasti tekee.

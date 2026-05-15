@@ -4,11 +4,18 @@ description: "Tout ce qu'il faut pour tricoter une première écharpe : fil, aig
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 1
-tags: ["tricoter une écharpe débutant", "premier projet tricot écharpe", "écharpe facile tricot", "modèle écharpe débutant"]
+tags:
+  [
+    "tricoter une écharpe débutant",
+    "premier projet tricot écharpe",
+    "écharpe facile tricot",
+    "modèle écharpe débutant",
+  ]
 draft: false
 lang: fr
 translationKey: "knit-first-scarf"
 ---
+
 Une écharpe est le meilleur premier projet de tricot parce que c'est un rectangle. Pas de façonnage, pas de nombre de rangs à viser pour une longueur précise, pas d'ajustement. Monte les mailles, tricote jusqu'à ce que ce soit assez long, rabats. Les gestes que tu pratiques, monter les mailles, tricoter à l'endroit, rabattre, sont la base de tout ce que tu tricoteras ensuite.
 
 ## Ce qu'il te faut

@@ -4,8 +4,15 @@ description: "Figure out what yarn you have when the label is missing. Tests for
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 9
-tags: ["identify mystery yarn", "yarn without label", "burn test yarn", "WPI test yarn weight"]
+tags:
+  [
+    "identify mystery yarn",
+    "yarn without label",
+    "burn test yarn",
+    "WPI test yarn weight",
+  ]
 ---
+
 Most knitters end up with mystery yarn eventually. The label fell off, the yarn came from someone else's stash, or the skein never had much information to begin with. Thrift store bags, inherited collections, odds and ends from swaps.
 
 To identify mystery yarn, start with wraps per inch (WPI) to determine the weight category, then use burn and water tests to narrow down the fiber family. You won't always get the exact brand or percentage, but the weight range and broad fiber type are usually enough.

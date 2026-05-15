@@ -4,11 +4,20 @@ description: "Hantera flera stickprojekt samtidigt utan att tappa bort stickor, 
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 3
-tags: ["organisera stickprojekt", "WIP-hantering", "stickprojekt tracker", "följa stickningens framsteg", "flera projekt", "sticktid tracker"]
+tags:
+  [
+    "organisera stickprojekt",
+    "WIP-hantering",
+    "stickprojekt tracker",
+    "följa stickningens framsteg",
+    "flera projekt",
+    "sticktid tracker",
+  ]
 draft: false
 lang: sv
 translationKey: "organize-knitting-projects"
 ---
+
 De flesta stickare har mer än ett projekt igång samtidigt. En avancerad tröja för kvällar när du kan koncentrera dig. En enkel socka för pendlingen. En rätstickad filt som går av sig själv framför tv:n. Olika projekt passar olika humör och olika mycket ork. Det är helt normalt.
 
 Problemet börjar när "några projekt" tyst blir sju, och du inte längre minns vilken stickstorlek som sitter i den halvfärdiga mössan, vilket varv du slutade på i koftan eller om du redan köpte det andra nystanet till halskragen. WIP-hantering handlar inte om att begränsa hur många projekt du får ha. Det handlar om att kunna plocka upp vilket som helst av dem utan att lägga tio minuter på att lista ut var du var.

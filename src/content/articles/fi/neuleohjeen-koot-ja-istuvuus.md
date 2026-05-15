@@ -4,10 +4,17 @@ description: "Näin valitset oikean koon neuleohjeesta. Opas väljyyteen, vartal
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 7
-tags: ["neuleohjeen koot", "väljyys neuleessa", "miten valita neulekoko", "neuleohjeen istuvuus"]
+tags:
+  [
+    "neuleohjeen koot",
+    "väljyys neuleessa",
+    "miten valita neulekoko",
+    "neuleohjeen istuvuus",
+  ]
 lang: fi
 translationKey: "knitting-pattern-sizes-and-fit"
 ---
+
 Ohjeen "Medium" voi näyttää yhdellä ihmisellä teltalta ja tuntua toisella tiukalta. Neuleohjeiden koot eivät ole vaatekaupan kokoja. Ne perustuvat valmiin vaatteen mittoihin, ja istuvuus syntyy siitä, miten nuo mitat suhteutuvat omaan vartaloon.
 
 ## Vartalonmitat ja valmiin vaatteen mitat

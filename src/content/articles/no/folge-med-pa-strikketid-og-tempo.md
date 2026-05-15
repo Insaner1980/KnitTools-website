@@ -4,11 +4,19 @@ description: "Følg strikkeøkter for å se hvor tiden går og hvordan tempoet e
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 7
-tags: ["følge strikketid", "strikkeøkt tracker", "øktsporing", "følge strikkefremdrift", "strikketid tracker"]
+tags:
+  [
+    "følge strikketid",
+    "strikkeøkt tracker",
+    "øktsporing",
+    "følge strikkefremdrift",
+    "strikketid tracker",
+  ]
 draft: false
 lang: no
 translationKey: "track-knitting-time"
 ---
+
 De fleste strikkere har en vag følelse av hvor lang tid prosjekter tar. "Genseren tok noen måneder." "Sokkene gikk ganske raskt." Men vagt hjelper lite når du vurderer om du skal starte en cardigan seks uker før jul, eller prøver å finne ut hvorfor en lue som burde ta én kveld drar ut til tre.
 
 Å følge strikketid gjør vage inntrykk til faktiske data. Hvor mange timer som gikk inn i genseren. Hvor mange pinner du gjennomsnittlig strikker per økt. Om du strikker raskere i glattstrikk enn i fletter, svaret er alltid glattstrikk, men hvor mye? Tallene får ikke hendene til å gå raskere, men de hjelper deg å planlegge bedre og merke når noe stille går galt.

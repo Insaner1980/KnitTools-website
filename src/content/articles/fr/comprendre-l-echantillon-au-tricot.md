@@ -4,7 +4,13 @@ description: "Comprendre l'échantillon au tricot, pourquoi il change, comment l
 category: "gauge-calculations"
 categoryOrder: 1
 publishDate: 2026-04-27
-tags: ["échantillon tricot", "tension tricot", "mailles pour 10 cm", "taille tricot"]
+tags:
+  [
+    "échantillon tricot",
+    "tension tricot",
+    "mailles pour 10 cm",
+    "taille tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "what-is-gauge-in-knitting"
@@ -100,4 +106,3 @@ Pas toujours. L'échantillon en mailles est souvent prioritaire. Mais si le mod�
 
 **Puis-je changer de taille d'aiguille pour obtenir l'échantillon ?**  
 Oui. C'est la correction normale. Aiguille plus grosse si ton tissu est trop serré, aiguille plus fine s'il est trop lâche.
-

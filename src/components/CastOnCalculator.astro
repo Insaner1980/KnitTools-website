@@ -1,150 +1,224 @@
 ---
-import type { Lang } from '../i18n/config';
+import type { Lang } from "../i18n/config";
 
 interface Props {
   lang?: Lang;
 }
 
-const { lang = 'en' } = Astro.props;
-const usesDecimalComma = lang === 'fr';
-const metricOnly = lang === 'fr';
-const numericInputType = usesDecimalComma ? 'text' : 'number';
+const { lang = "en" } = Astro.props;
+const usesDecimalComma = lang === "fr" || lang === "nl" || lang === "da";
+const metricOnly = lang === "fr" || lang === "nl" || lang === "da";
+const numericInputType = usesDecimalComma ? "text" : "number";
 const copy = {
   en: {
-    legend: 'Cast On Calculator',
-    gauge: 'Gauge (stitches per 10 cm / 4 in)',
-    decreaseGauge: 'Decrease gauge',
-    increaseGauge: 'Increase gauge',
-    gaugePlaceholder: 'e.g. 20',
-    width: 'Desired width',
-    decreaseWidth: 'Decrease width',
-    increaseWidth: 'Increase width',
-    widthPlaceholder: 'e.g. 50',
-    unitSelection: 'Unit selection',
-    inches: 'inches',
-    calculate: 'Calculate',
-    error: 'Please enter valid gauge and width values.',
-    resultLabel: 'stitches to cast on',
+    legend: "Cast On Calculator",
+    gauge: "Gauge (stitches per 10 cm / 4 in)",
+    decreaseGauge: "Decrease gauge",
+    increaseGauge: "Increase gauge",
+    gaugePlaceholder: "e.g. 20",
+    width: "Desired width",
+    decreaseWidth: "Decrease width",
+    increaseWidth: "Increase width",
+    widthPlaceholder: "e.g. 50",
+    unitSelection: "Unit selection",
+    inches: "inches",
+    calculate: "Calculate",
+    error: "Please enter valid gauge and width values.",
+    resultLabel: "stitches to cast on",
   },
   fi: {
-      legend: 'Silmukkalaskuri',
-      gauge: 'Neuletiheys (silmukkaa / 10 cm tai 4 in)',
-      decreaseGauge: 'Pienennä neuletiheyttä',
-      increaseGauge: 'Suurenna neuletiheyttä',
-      gaugePlaceholder: 'esim. 20',
-      width: 'Haluttu leveys',
-      decreaseWidth: 'Pienennä leveyttä',
-      increaseWidth: 'Suurenna leveyttä',
-      widthPlaceholder: 'esim. 50',
-      unitSelection: 'Mittayksikkö',
-      inches: 'tuumaa',
-      calculate: 'Laske',
-      error: 'Syötä kelvollinen neuletiheys ja leveys.',
-      resultLabel: 'luotavaa silmukkaa',
+    legend: "Silmukkalaskuri",
+    gauge: "Neuletiheys (silmukkaa / 10 cm tai 4 in)",
+    decreaseGauge: "Pienennä neuletiheyttä",
+    increaseGauge: "Suurenna neuletiheyttä",
+    gaugePlaceholder: "esim. 20",
+    width: "Haluttu leveys",
+    decreaseWidth: "Pienennä leveyttä",
+    increaseWidth: "Suurenna leveyttä",
+    widthPlaceholder: "esim. 50",
+    unitSelection: "Mittayksikkö",
+    inches: "tuumaa",
+    calculate: "Laske",
+    error: "Syötä kelvollinen neuletiheys ja leveys.",
+    resultLabel: "luotavaa silmukkaa",
   },
   de: {
-    legend: 'Maschenanschlag-Rechner',
-    gauge: 'Maschenprobe (Maschen pro 10 cm / 4 in)',
-    decreaseGauge: 'Maschenprobe verkleinern',
-    increaseGauge: 'Maschenprobe vergrößern',
-    gaugePlaceholder: 'z. B. 20',
-    width: 'Gewünschte Breite',
-    decreaseWidth: 'Breite verkleinern',
-    increaseWidth: 'Breite vergrößern',
-    widthPlaceholder: 'z. B. 50',
-    unitSelection: 'Einheit',
-    inches: 'Zoll',
-    calculate: 'Berechnen',
-    error: 'Gib eine gültige Maschenprobe und Breite ein.',
-    resultLabel: 'anzuschlagende Maschen',
+    legend: "Maschenanschlag-Rechner",
+    gauge: "Maschenprobe (Maschen pro 10 cm / 4 in)",
+    decreaseGauge: "Maschenprobe verkleinern",
+    increaseGauge: "Maschenprobe vergrößern",
+    gaugePlaceholder: "z. B. 20",
+    width: "Gewünschte Breite",
+    decreaseWidth: "Breite verkleinern",
+    increaseWidth: "Breite vergrößern",
+    widthPlaceholder: "z. B. 50",
+    unitSelection: "Einheit",
+    inches: "Zoll",
+    calculate: "Berechnen",
+    error: "Gib eine gültige Maschenprobe und Breite ein.",
+    resultLabel: "anzuschlagende Maschen",
   },
   sv: {
-    legend: 'Uppläggningskalkylator',
-    gauge: 'Stickfasthet (maskor per 10 cm)',
-    decreaseGauge: 'Minska stickfasthet',
-    increaseGauge: 'Öka stickfasthet',
-    gaugePlaceholder: 't.ex. 20',
-    width: 'Önskad bredd',
-    decreaseWidth: 'Minska bredd',
-    increaseWidth: 'Öka bredd',
-    widthPlaceholder: 't.ex. 50',
-    unitSelection: 'Måttenhet',
-    inches: 'tum',
-    calculate: 'Räkna ut',
-    error: 'Ange giltiga värden för stickfasthet och bredd.',
-    resultLabel: 'maskor att lägga upp',
+    legend: "Uppläggningskalkylator",
+    gauge: "Stickfasthet (maskor per 10 cm)",
+    decreaseGauge: "Minska stickfasthet",
+    increaseGauge: "Öka stickfasthet",
+    gaugePlaceholder: "t.ex. 20",
+    width: "Önskad bredd",
+    decreaseWidth: "Minska bredd",
+    increaseWidth: "Öka bredd",
+    widthPlaceholder: "t.ex. 50",
+    unitSelection: "Måttenhet",
+    inches: "tum",
+    calculate: "Räkna ut",
+    error: "Ange giltiga värden för stickfasthet och bredd.",
+    resultLabel: "maskor att lägga upp",
   },
   no: {
-    legend: 'Oppleggskalkulator',
-    gauge: 'Strikkefasthet (masker per 10 cm / 4 in)',
-    decreaseGauge: 'Senk strikkefasthet',
-    increaseGauge: 'Øk strikkefasthet',
-    gaugePlaceholder: 'f.eks. 20',
-    width: 'Ønsket bredde',
-    decreaseWidth: 'Senk bredde',
-    increaseWidth: 'Øk bredde',
-    widthPlaceholder: 'f.eks. 50',
-    unitSelection: 'Måleenhet',
-    inches: 'tommer',
-    calculate: 'Beregn',
-    error: 'Skriv inn gyldig strikkefasthet og bredde.',
-    resultLabel: 'masker å legge opp',
+    legend: "Oppleggskalkulator",
+    gauge: "Strikkefasthet (masker per 10 cm / 4 in)",
+    decreaseGauge: "Senk strikkefasthet",
+    increaseGauge: "Øk strikkefasthet",
+    gaugePlaceholder: "f.eks. 20",
+    width: "Ønsket bredde",
+    decreaseWidth: "Senk bredde",
+    increaseWidth: "Øk bredde",
+    widthPlaceholder: "f.eks. 50",
+    unitSelection: "Måleenhet",
+    inches: "tommer",
+    calculate: "Beregn",
+    error: "Skriv inn gyldig strikkefasthet og bredde.",
+    resultLabel: "masker å legge opp",
   },
   fr: {
-    legend: 'Calculateur de mailles à monter',
-    gauge: 'Échantillon (mailles pour 10 cm)',
+    legend: "Calculateur de mailles à monter",
+    gauge: "Échantillon (mailles pour 10 cm)",
     decreaseGauge: "Réduire l'échantillon",
     increaseGauge: "Augmenter l'échantillon",
-    gaugePlaceholder: 'ex. 20',
-    width: 'Largeur souhaitée (cm)',
-    decreaseWidth: 'Réduire la largeur',
-    increaseWidth: 'Augmenter la largeur',
-    widthPlaceholder: 'ex. 50',
-    unitSelection: 'Unité',
-    inches: 'pouces',
-    calculate: 'Calculer',
-    error: 'Entre un échantillon et une largeur valides.',
-    resultLabel: 'mailles à monter',
+    gaugePlaceholder: "ex. 20",
+    width: "Largeur souhaitée (cm)",
+    decreaseWidth: "Réduire la largeur",
+    increaseWidth: "Augmenter la largeur",
+    widthPlaceholder: "ex. 50",
+    unitSelection: "Unité",
+    inches: "pouces",
+    calculate: "Calculer",
+    error: "Entre un échantillon et une largeur valides.",
+    resultLabel: "mailles à monter",
+  },
+  nl: {
+    legend: "Opzetcalculator",
+    gauge: "Stekenverhouding (steken per 10 cm)",
+    decreaseGauge: "Stekenverhouding verlagen",
+    increaseGauge: "Stekenverhouding verhogen",
+    gaugePlaceholder: "bijv. 20",
+    width: "Gewenste breedte (cm)",
+    decreaseWidth: "Breedte verlagen",
+    increaseWidth: "Breedte verhogen",
+    widthPlaceholder: "bijv. 50",
+    unitSelection: "Maateenheid",
+    inches: "inch",
+    calculate: "Berekenen",
+    error: "Vul een geldige stekenverhouding en breedte in.",
+    resultLabel: "op te zetten steken",
+  },
+  da: {
+    legend: "Opslagsberegner",
+    gauge: "Strikkefasthed (masker pr. 10 cm)",
+    decreaseGauge: "Sænk strikkefastheden",
+    increaseGauge: "Øg strikkefastheden",
+    gaugePlaceholder: "fx 20",
+    width: "Ønsket bredde (cm)",
+    decreaseWidth: "Sænk bredden",
+    increaseWidth: "Øg bredden",
+    widthPlaceholder: "fx 50",
+    unitSelection: "Måleenhed",
+    inches: "inch",
+    calculate: "Beregn",
+    error: "Skriv en gyldig strikkefasthed og bredde.",
+    resultLabel: "masker der skal slås op",
   },
 }[lang];
 ---
 
-<div class="cast-on-calculator" data-error={copy.error} data-result-label={copy.resultLabel}>
+<div
+  class="cast-on-calculator"
+  data-error={copy.error}
+  data-result-label={copy.resultLabel}
+>
   <fieldset>
     <legend class="sr-only">{copy.legend}</legend>
 
     <div class="form-group">
       <label for="gauge">{copy.gauge}</label>
       <div class="number-input-wrap">
-        <button type="button" class="spin-btn spin-down" aria-label={copy.decreaseGauge}>−</button>
-        <input type={numericInputType} inputmode="decimal" id="gauge" min="1" max="100" step="0.5" placeholder={copy.gaugePlaceholder} />
-        <button type="button" class="spin-btn spin-up" aria-label={copy.increaseGauge}>+</button>
+        <button
+          type="button"
+          class="spin-btn spin-down"
+          aria-label={copy.decreaseGauge}>−</button
+        >
+        <input
+          type={numericInputType}
+          inputmode="decimal"
+          id="gauge"
+          min="1"
+          max="100"
+          step="0.5"
+          placeholder={copy.gaugePlaceholder}
+        />
+        <button
+          type="button"
+          class="spin-btn spin-up"
+          aria-label={copy.increaseGauge}>+</button
+        >
       </div>
     </div>
 
     <div class="form-group">
       <label for="width">{copy.width}</label>
       <div class="number-input-wrap">
-        <button type="button" class="spin-btn spin-down" aria-label={copy.decreaseWidth}>−</button>
-        <input type={numericInputType} inputmode="decimal" id="width" min="0.1" max="1000" step="0.1" placeholder={copy.widthPlaceholder} />
-        <button type="button" class="spin-btn spin-up" aria-label={copy.increaseWidth}>+</button>
+        <button
+          type="button"
+          class="spin-btn spin-down"
+          aria-label={copy.decreaseWidth}>−</button
+        >
+        <input
+          type={numericInputType}
+          inputmode="decimal"
+          id="width"
+          min="0.1"
+          max="1000"
+          step="0.1"
+          placeholder={copy.widthPlaceholder}
+        />
+        <button
+          type="button"
+          class="spin-btn spin-up"
+          aria-label={copy.increaseWidth}>+</button
+        >
       </div>
     </div>
 
-    {!metricOnly && (
-      <div class="form-group">
-        <div class="unit-toggle" role="radiogroup" aria-label={copy.unitSelection}>
-          <label class="unit-option">
-            <input type="radio" name="unit" value="cm" checked />
-            <span>cm</span>
-          </label>
-          <label class="unit-option">
-            <input type="radio" name="unit" value="inches" />
-            <span>{copy.inches}</span>
-          </label>
+    {
+      !metricOnly && (
+        <div class="form-group">
+          <div
+            class="unit-toggle"
+            role="radiogroup"
+            aria-label={copy.unitSelection}
+          >
+            <label class="unit-option">
+              <input type="radio" name="unit" value="cm" checked />
+              <span>cm</span>
+            </label>
+            <label class="unit-option">
+              <input type="radio" name="unit" value="inches" />
+              <span>{copy.inches}</span>
+            </label>
+          </div>
         </div>
-      </div>
-    )}
+      )
+    }
 
     <button type="button" class="btn-primary calc-btn">{copy.calculate}</button>
 
@@ -158,75 +232,89 @@ const copy = {
 
 <script>
   function initCastOnCalculator() {
-    const calculators = document.querySelectorAll('.cast-on-calculator');
+    const calculators = document.querySelectorAll(".cast-on-calculator");
 
-    calculators.forEach(calc => {
-      const gaugeInput = calc.querySelector('#gauge') as HTMLInputElement;
-      const widthInput = calc.querySelector('#width') as HTMLInputElement;
+    calculators.forEach((calc) => {
+      const gaugeInput = calc.querySelector("#gauge") as HTMLInputElement;
+      const widthInput = calc.querySelector("#width") as HTMLInputElement;
       const unitRadios = calc.querySelectorAll('input[name="unit"]');
-      const calcBtn = calc.querySelector('.calc-btn') as HTMLButtonElement;
-      const resultEl = calc.querySelector('#cast-on-result') as HTMLElement;
-      const resultArea = calc.querySelector('.result-area') as HTMLElement;
+      const calcBtn = calc.querySelector(".calc-btn") as HTMLButtonElement;
+      const resultEl = calc.querySelector("#cast-on-result") as HTMLElement;
+      const resultArea = calc.querySelector(".result-area") as HTMLElement;
 
-      if (!gaugeInput || !widthInput || !calcBtn || !resultEl || !resultArea) return;
+      if (!gaugeInput || !widthInput || !calcBtn || !resultEl || !resultArea)
+        return;
 
       const id = Math.random().toString(36).slice(2, 8);
       gaugeInput.id = `gauge-${id}`;
-      (gaugeInput.previousElementSibling as HTMLElement).setAttribute('for', gaugeInput.id);
+      (gaugeInput.previousElementSibling as HTMLElement).setAttribute(
+        "for",
+        gaugeInput.id,
+      );
       widthInput.id = `width-${id}`;
-      (widthInput.previousElementSibling as HTMLElement).setAttribute('for', widthInput.id);
+      (widthInput.previousElementSibling as HTMLElement).setAttribute(
+        "for",
+        widthInput.id,
+      );
       resultEl.id = `cast-on-result-${id}`;
-      unitRadios.forEach((r) => { (r as HTMLInputElement).name = `unit-${id}`; });
+      unitRadios.forEach((r) => {
+        (r as HTMLInputElement).name = `unit-${id}`;
+      });
 
-      const usesDecimalComma = gaugeInput.type === 'text';
       const parseInputNumber = (raw: string) => {
-        const normalized = raw.trim().replace(/\s+/g, '').replace(',', '.');
+        const normalized = raw.trim().replace(/\s+/g, "").replace(",", ".");
         const value = Number(normalized);
         return Number.isFinite(value) ? value : NaN;
       };
-      const formatInputNumber = (value: number) => {
-        const formatted = String(Number(value.toFixed(2)));
-        return usesDecimalComma ? formatted.replace('.', ',') : formatted;
-      };
 
-      calcBtn.addEventListener('click', () => {
+      calcBtn.addEventListener("click", () => {
         const gauge = parseInputNumber(gaugeInput.value);
         const width = parseInputNumber(widthInput.value);
-        const unit = (calc.querySelector(`input[name="unit-${id}"]:checked`) as HTMLInputElement)?.value || 'cm';
+        const unit =
+          (
+            calc.querySelector(
+              `input[name="unit-${id}"]:checked`,
+            ) as HTMLInputElement
+          )?.value || "cm";
 
-        resultEl.textContent = '';
-        resultEl.className = 'result-value';
+        resultEl.textContent = "";
+        resultEl.className = "result-value";
 
         if (!gauge || gauge <= 0 || !width || width <= 0) {
-          const errorSpan = document.createElement('span');
-          errorSpan.className = 'form-error';
-          errorSpan.setAttribute('role', 'alert');
-          errorSpan.textContent = calc.getAttribute('data-error') || '';
+          const errorSpan = document.createElement("span");
+          errorSpan.className = "form-error";
+          errorSpan.setAttribute("role", "alert");
+          errorSpan.textContent = calc.getAttribute("data-error") || "";
           resultEl.appendChild(errorSpan);
-          resultArea.classList.add('is-open');
+          resultArea.classList.add("is-open");
           return;
         }
 
         let stitches: number;
-        if (unit === 'cm') { stitches = (gauge / 10) * width; }
-        else { stitches = (gauge / 4) * width; }
+        if (unit === "cm") {
+          stitches = (gauge / 10) * width;
+        } else {
+          stitches = (gauge / 4) * width;
+        }
         stitches = Math.round(stitches / 2) * 2;
 
-        const wrapper = document.createElement('div');
-        wrapper.className = 'tool-result';
-        const numberEl = document.createElement('span');
-        numberEl.className = 'result-number';
-        numberEl.textContent = '0';
-        const labelEl = document.createElement('span');
-        labelEl.className = 'result-label';
-        labelEl.textContent = calc.getAttribute('data-result-label') || '';
+        const wrapper = document.createElement("div");
+        wrapper.className = "tool-result";
+        const numberEl = document.createElement("span");
+        numberEl.className = "result-number";
+        numberEl.textContent = "0";
+        const labelEl = document.createElement("span");
+        labelEl.className = "result-label";
+        labelEl.textContent = calc.getAttribute("data-result-label") || "";
         wrapper.appendChild(numberEl);
         wrapper.appendChild(labelEl);
         resultEl.appendChild(wrapper);
 
-        resultArea.classList.add('is-open');
+        resultArea.classList.add("is-open");
 
-        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const prefersReducedMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches;
         if (prefersReducedMotion) {
           numberEl.textContent = String(stitches);
         } else {
@@ -247,28 +335,31 @@ const copy = {
 
   initCastOnCalculator();
 
-  document.querySelectorAll('.spin-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const wrap = btn.closest('.number-input-wrap');
+  document.querySelectorAll(".spin-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const wrap = btn.closest(".number-input-wrap");
       if (!wrap) return;
-      const input = wrap.querySelector('input') as HTMLInputElement;
+      const input = wrap.querySelector("input") as HTMLInputElement;
       if (!input) return;
-      const usesDecimalComma = input.type === 'text';
+      const usesDecimalComma = input.type === "text";
       const parseInputNumber = (raw: string | null) => {
-        const normalized = (raw || '').trim().replace(/\s+/g, '').replace(',', '.');
+        const normalized = (raw || "")
+          .trim()
+          .replace(/\s+/g, "")
+          .replace(",", ".");
         const value = Number(normalized);
         return Number.isFinite(value) ? value : NaN;
       };
       const formatInputNumber = (value: number) => {
         const formatted = String(Number(value.toFixed(2)));
-        return usesDecimalComma ? formatted.replace('.', ',') : formatted;
+        return usesDecimalComma ? formatted.replace(".", ",") : formatted;
       };
 
-      const step = parseInputNumber(input.getAttribute('step')) || 1;
-      const min = parseInputNumber(input.getAttribute('min'));
-      const max = parseInputNumber(input.getAttribute('max'));
+      const step = parseInputNumber(input.getAttribute("step")) || 1;
+      const min = parseInputNumber(input.getAttribute("min"));
+      const max = parseInputNumber(input.getAttribute("max"));
       let val = parseInputNumber(input.value) || 0;
-      if (btn.classList.contains('spin-up')) {
+      if (btn.classList.contains("spin-up")) {
         val += step;
         if (!isNaN(max) && val > max) val = max;
       } else {
@@ -276,7 +367,7 @@ const copy = {
         if (!isNaN(min) && val < min) val = min;
       }
       input.value = formatInputNumber(val);
-      input.dispatchEvent(new Event('input'));
+      input.dispatchEvent(new Event("input"));
     });
   });
 </script>
@@ -289,8 +380,12 @@ const copy = {
     min-width: 0;
   }
 
-  .form-group { margin-top: 16px; }
-  .form-group:first-child { margin-top: 0; }
+  .form-group {
+    margin-top: 16px;
+  }
+  .form-group:first-child {
+    margin-top: 0;
+  }
 
   .cast-on-calculator label {
     display: block;
@@ -309,7 +404,10 @@ const copy = {
     max-width: 380px;
     border: 1.5px solid var(--ink);
     background: transparent;
-    transition: background-color 300ms ease, border-color 300ms ease, box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition:
+      background-color 300ms ease,
+      border-color 300ms ease,
+      box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
   }
 
   .number-input-wrap:focus-within {
@@ -352,7 +450,10 @@ const copy = {
     font-size: 1.35rem;
     line-height: 1;
     cursor: pointer;
-    transition: background-color 200ms, color 200ms, transform 100ms;
+    transition:
+      background-color 200ms,
+      color 200ms,
+      transform 100ms;
     font-family: var(--body-ed);
     display: flex;
     align-items: center;
@@ -369,9 +470,13 @@ const copy = {
     transform: scale(0.92);
   }
 
-  .cast-on-calculator input::placeholder { color: var(--ink-soft); }
+  .cast-on-calculator input::placeholder {
+    color: var(--ink-soft);
+  }
 
-  .cast-on-calculator input:focus { outline: none; }
+  .cast-on-calculator input:focus {
+    outline: none;
+  }
 
   .number-input-wrap:focus-within input:is([type="number"], [type="text"]) {
     border-color: var(--terracotta);
@@ -394,7 +499,12 @@ const copy = {
     position: relative;
   }
 
-  .unit-option input { position: absolute; opacity: 0; width: 0; height: 0; }
+  .unit-option input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
 
   .unit-option span {
     display: block;
@@ -405,7 +515,9 @@ const copy = {
     text-transform: uppercase;
     color: var(--ink-soft);
     border-bottom: 1.5px solid transparent;
-    transition: color 200ms ease, border-color 200ms ease;
+    transition:
+      color 200ms ease,
+      border-color 200ms ease;
     line-height: 1;
   }
 
@@ -437,7 +549,10 @@ const copy = {
     letter-spacing: 0.18em;
     text-transform: uppercase;
     cursor: pointer;
-    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease !important;
+    transition:
+      background 0.15s ease,
+      border-color 0.15s ease,
+      color 0.15s ease !important;
   }
 
   .calc-btn:hover {
@@ -469,7 +584,9 @@ const copy = {
     text-align: left;
     opacity: 0;
     transform: translateY(12px);
-    transition: opacity 400ms ease 200ms, transform 400ms cubic-bezier(0.16, 1, 0.3, 1) 200ms;
+    transition:
+      opacity 400ms ease 200ms,
+      transform 400ms cubic-bezier(0.16, 1, 0.3, 1) 200ms;
   }
 
   .result-area.is-open :global(.tool-result) {
@@ -503,7 +620,14 @@ const copy = {
   }
 
   .sr-only {
-    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
-    overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
   }
 </style>

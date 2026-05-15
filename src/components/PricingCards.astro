@@ -1,27 +1,27 @@
 ---
-import { PRICING } from '../config/pricing';
-import RegionalPrice from './RegionalPrice.astro';
-import RegionalPricingNote from './RegionalPricingNote.astro';
+import { PRICING } from "../config/pricing";
+import RegionalPrice from "./RegionalPrice.astro";
+import RegionalPricingNote from "./RegionalPricingNote.astro";
 
 const freeBullets = [
-  'Row counter + session history',
-  'Pattern viewer (PDF or Ravelry)',
-  'Four calculators (gauge, cast-on, increases, yardage)',
-  'Ravelry sign-in',
-  'Reference library (needles, sizes, symbols, abbreviations)',
-  'Three projects',
-  'Eleven languages',
+  "Row counter + session history",
+  "Pattern viewer (PDF or Ravelry)",
+  "Four calculators (gauge, cast-on, increases, yardage)",
+  "Ravelry sign-in",
+  "Reference library (needles, sizes, symbols, abbreviations)",
+  "Three projects",
+  "Eleven languages",
 ];
 
 const proBullets = [
-  'Unlimited projects',
-  'Yarn OCR scanner. Unlimited stash',
-  'Progress photos, row-tagged',
-  'Insights, streaks, pace-over-time',
-  'Home-screen counter widget',
-  'Live AI voice on the counter (all eleven languages)',
-  'AI pattern help: read rows aloud, explain stitches, parse instructions',
-  'AI project summaries + voice journal',
+  "Unlimited projects",
+  "Yarn OCR scanner. Unlimited stash",
+  "Progress photos, row-tagged",
+  "Insights, streaks, pace-over-time",
+  "Home-screen counter widget",
+  "Live AI voice on the counter (all eleven languages)",
+  "AI pattern help: read rows aloud, explain stitches, parse instructions",
+  "AI project summaries + voice journal",
 ];
 ---
 
@@ -31,7 +31,9 @@ const proBullets = [
       <p class="section-label">
         <span class="label-text">Pricing</span>
       </p>
-      <h2 id="pricing-heading" class="title">Pay once.<br /><em>Own it.</em></h2>
+      <h2 id="pricing-heading" class="title">
+        Pay once.<br /><em>Own it.</em>
+      </h2>
     </header>
 
     <div class="plans">
@@ -53,8 +55,13 @@ const proBullets = [
       <article class="card pro">
         <span class="badge">Editor's Pick</span>
         <p class="label">Pro</p>
-        <h3><RegionalPrice phase="launch" /> <span class="suffix">one-time</span></h3>
-        <p class="trial">{PRICING.trialDays}-day free trial. No credit card required.</p>
+        <h3>
+          <RegionalPrice phase="launch" />
+          <span class="suffix">one-time</span>
+        </h3>
+        <p class="trial">
+          {PRICING.trialDays}-day free trial. No credit card required.
+        </p>
         <p class="includes">Everything in Free, plus:</p>
         <ol>
           {
@@ -66,7 +73,9 @@ const proBullets = [
           }
         </ol>
         <p class="footnote">
-          Rises to <RegionalPrice phase="permanent" /> {PRICING.permanentPriceStartsAfterMonths} months after launch. Permanently. No subscription, ever. <RegionalPricingNote />
+          Rises to <RegionalPrice phase="permanent" />
+          {PRICING.permanentPriceStartsAfterMonths} months after launch. Permanently.
+          No subscription, ever. <RegionalPricingNote />
         </p>
       </article>
     </div>
@@ -130,28 +139,28 @@ const proBullets = [
   }
   .card.free {
     background: var(--wheat);
-    color: #2A1E17;
-    border-color: #2A1E17;
+    color: #2a1e17;
+    border-color: #2a1e17;
   }
   .card.pro {
     background: var(--sage);
-    color: #F4EAD9;
-    border: 2px solid #F4EAD9;
+    color: #f4ead9;
+    border: 2px solid #f4ead9;
   }
 
   .badge {
     position: absolute;
     top: -14px;
     right: 24px;
-    background: #F4EAD9;
-    color: #2A1E17;
+    background: #f4ead9;
+    color: #2a1e17;
     font-family: var(--font-body);
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 7px 14px 6px;
-    border: 1px solid #2A1E17;
+    border: 1px solid #2a1e17;
     white-space: nowrap;
     z-index: 2;
   }
@@ -164,8 +173,12 @@ const proBullets = [
     text-transform: uppercase;
     margin: 0 0 16px;
   }
-  .free .label { color: var(--walnut); }
-  .pro .label { color: #F4EAD9; }
+  .free .label {
+    color: var(--walnut);
+  }
+  .pro .label {
+    color: #f4ead9;
+  }
 
   .includes {
     font-family: var(--font-body);
@@ -173,7 +186,7 @@ const proBullets = [
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #F4EAD9;
+    color: #f4ead9;
     margin: -8px 0 16px;
   }
 
@@ -181,7 +194,7 @@ const proBullets = [
     font-family: var(--body-ed);
     font-style: italic;
     font-size: 14px;
-    color: #F4EAD9;
+    color: #f4ead9;
     margin: 4px 0 24px;
   }
 
@@ -215,9 +228,15 @@ const proBullets = [
     line-height: 1.5;
     border-top: 1px solid rgba(42, 30, 23, 0.2);
   }
-  .pro ol li { border-top-color: rgba(244, 234, 217, 0.25); }
-  ol li:last-child { border-bottom: 1px solid rgba(42, 30, 23, 0.2); }
-  .pro ol li:last-child { border-bottom-color: rgba(244, 234, 217, 0.25); }
+  .pro ol li {
+    border-top-color: rgba(244, 234, 217, 0.25);
+  }
+  ol li:last-child {
+    border-bottom: 1px solid rgba(42, 30, 23, 0.2);
+  }
+  .pro ol li:last-child {
+    border-bottom-color: rgba(244, 234, 217, 0.25);
+  }
 
   .footnote {
     font-family: var(--body-ed);
@@ -225,15 +244,32 @@ const proBullets = [
     line-height: 1.5;
     margin: 0;
   }
-  .free .footnote { color: #4A382C; }
-  .pro .footnote { color: rgba(244, 234, 217, 0.85); }
+  .free .footnote {
+    color: #4a382c;
+  }
+  .pro .footnote {
+    color: rgba(244, 234, 217, 0.85);
+  }
 
   @media (max-width: 767px) {
-    .pricing-section { padding: 80px 20px; }
-    .section-head .section-label { gap: 12px; }
-    .plans { grid-template-columns: 1fr; gap: 36px; }
-    .card.pro { order: -1; }
-    .card { padding: 32px; }
-    .badge { right: 20px; }
+    .pricing-section {
+      padding: 80px 20px;
+    }
+    .section-head .section-label {
+      gap: 12px;
+    }
+    .plans {
+      grid-template-columns: 1fr;
+      gap: 36px;
+    }
+    .card.pro {
+      order: -1;
+    }
+    .card {
+      padding: 32px;
+    }
+    .badge {
+      right: 20px;
+    }
   }
 </style>

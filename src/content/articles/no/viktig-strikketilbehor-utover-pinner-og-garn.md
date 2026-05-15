@@ -4,11 +4,18 @@ description: "En praktisk guide til strikketilbehør: maskemarkører, stoppenål
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 6
-tags: ["viktig strikketilbehør", "strikketilbehør", "strikkeutstyr liste", "strikkenotions"]
+tags:
+  [
+    "viktig strikketilbehør",
+    "strikketilbehør",
+    "strikkeutstyr liste",
+    "strikkenotions",
+  ]
 draft: false
 lang: no
 translationKey: "essential-knitting-tools"
 ---
+
 Pinner og garn er minimumet. Alt annet i en strikkers verktøykasse gjør prosessen glattere, raskere eller mindre feilutsatt. Særlig for nybegynnere som bygger sitt første oppsett. Noen verktøy er faktisk nødvendige fra dag én. Andre fortjener plassen etter noen prosjekter. Og noen er løsninger på problemer du kanskje aldri får.
 
 Det du trenger fra dag én er stoppenåler, saks, maskemarkører og målebånd. Alt annet kan vente til et konkret prosjekt ber om det. Omtrent i den rekkefølgen du får bruk for dem:

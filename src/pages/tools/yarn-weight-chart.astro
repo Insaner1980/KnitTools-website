@@ -1,10 +1,10 @@
 ---
-import PageLayout from '../../layouts/PageLayout.astro';
-import { PRICING } from '../../config/pricing';
-import RegionalPrice from '../../components/RegionalPrice.astro';
-import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
-import WpiIdentifier from '../../components/WpiIdentifier.astro';
-import { routes } from '../../i18n/routes';
+import PageLayout from "../../layouts/PageLayout.astro";
+import { PRICING } from "../../config/pricing";
+import RegionalPrice from "../../components/RegionalPrice.astro";
+import RegionalPricingNote from "../../components/RegionalPricingNote.astro";
+import WpiIdentifier from "../../components/WpiIdentifier.astro";
+import { routes } from "../../i18n/routes";
 
 interface YarnWeightCategory {
   cyc: number;
@@ -22,97 +22,97 @@ interface YarnWeightCategory {
 const categories: YarnWeightCategory[] = [
   {
     cyc: 0,
-    name: 'Lace',
-    regional: 'Cobweb / Light fingering / 2-ply',
-    regionalFull: 'Lace, Cobweb, Light fingering, 2-ply (UK)',
-    gauge: '33–40+ sts per 4 in / 10 cm',
-    needles: 'US 000–1 (1.5–2.25 mm)',
-    wpi: '30–40+',
-    uses: 'Lace shawls, doilies, delicate openwork',
+    name: "Lace",
+    regional: "Cobweb / Light fingering / 2-ply",
+    regionalFull: "Lace, Cobweb, Light fingering, 2-ply (UK)",
+    gauge: "33–40+ sts per 4 in / 10 cm",
+    needles: "US 000–1 (1.5–2.25 mm)",
+    wpi: "30–40+",
+    uses: "Lace shawls, doilies, delicate openwork",
     wpiMin: 30,
     wpiMax: 40,
   },
   {
     cyc: 1,
-    name: 'Super Fine',
-    regional: 'Sock / Fingering / Baby / 4-ply',
-    regionalFull: 'Sock, Fingering, Baby, 4-ply (UK/AUS)',
-    gauge: '27–32 sts per 4 in / 10 cm',
-    needles: 'US 1–3 (2.25–3.25 mm)',
-    wpi: '14–30',
-    uses: 'Socks, baby items, fine shawls, lightweight garments',
+    name: "Super Fine",
+    regional: "Sock / Fingering / Baby / 4-ply",
+    regionalFull: "Sock, Fingering, Baby, 4-ply (UK/AUS)",
+    gauge: "27–32 sts per 4 in / 10 cm",
+    needles: "US 1–3 (2.25–3.25 mm)",
+    wpi: "14–30",
+    uses: "Socks, baby items, fine shawls, lightweight garments",
     wpiMin: 14,
     wpiMax: 30,
   },
   {
     cyc: 2,
-    name: 'Fine',
-    regional: 'Sport / Baby / 5-ply',
-    regionalFull: 'Sport, Baby, 5-ply (UK/AUS)',
-    gauge: '23–26 sts per 4 in / 10 cm',
-    needles: 'US 3–5 (3.25–3.75 mm)',
-    wpi: '12–18',
-    uses: 'Light garments, baby clothes, accessories',
+    name: "Fine",
+    regional: "Sport / Baby / 5-ply",
+    regionalFull: "Sport, Baby, 5-ply (UK/AUS)",
+    gauge: "23–26 sts per 4 in / 10 cm",
+    needles: "US 3–5 (3.25–3.75 mm)",
+    wpi: "12–18",
+    uses: "Light garments, baby clothes, accessories",
     wpiMin: 12,
     wpiMax: 18,
   },
   {
     cyc: 3,
-    name: 'Light',
-    regional: 'DK / Light Worsted / 8-ply',
-    regionalFull: 'DK (Double Knitting), Light Worsted, 8-ply (UK/AUS)',
-    gauge: '21–24 sts per 4 in / 10 cm',
-    needles: 'US 5–7 (3.75–4.5 mm)',
-    wpi: '11–15',
-    uses: 'Sweaters, hats, scarves, baby blankets, year-round garments',
+    name: "Light",
+    regional: "DK / Light Worsted / 8-ply",
+    regionalFull: "DK (Double Knitting), Light Worsted, 8-ply (UK/AUS)",
+    gauge: "21–24 sts per 4 in / 10 cm",
+    needles: "US 5–7 (3.75–4.5 mm)",
+    wpi: "11–15",
+    uses: "Sweaters, hats, scarves, baby blankets, year-round garments",
     wpiMin: 11,
     wpiMax: 15,
   },
   {
     cyc: 4,
-    name: 'Medium',
-    regional: 'Worsted / Aran / Afghan / 10-ply',
-    regionalFull: 'Worsted, Aran, Afghan, 10-ply (AUS)',
-    gauge: '16–20 sts per 4 in / 10 cm',
-    needles: 'US 7–9 (4.5–5.5 mm)',
-    wpi: '9–12',
-    uses: 'Sweaters, hats, mittens, blankets, most everyday knits',
+    name: "Medium",
+    regional: "Worsted / Aran / Afghan / 10-ply",
+    regionalFull: "Worsted, Aran, Afghan, 10-ply (AUS)",
+    gauge: "16–20 sts per 4 in / 10 cm",
+    needles: "US 7–9 (4.5–5.5 mm)",
+    wpi: "9–12",
+    uses: "Sweaters, hats, mittens, blankets, most everyday knits",
     wpiMin: 9,
     wpiMax: 12,
   },
   {
     cyc: 5,
-    name: 'Bulky',
-    regional: 'Chunky / Craft / Rug / 12-ply',
-    regionalFull: 'Chunky, Craft, Rug, 12-ply (AUS)',
-    gauge: '12–15 sts per 4 in / 10 cm',
-    needles: 'US 9–11 (5.5–8 mm)',
-    wpi: '6–9',
-    uses: 'Thick sweaters, scarves, blankets, quick projects',
+    name: "Bulky",
+    regional: "Chunky / Craft / Rug / 12-ply",
+    regionalFull: "Chunky, Craft, Rug, 12-ply (AUS)",
+    gauge: "12–15 sts per 4 in / 10 cm",
+    needles: "US 9–11 (5.5–8 mm)",
+    wpi: "6–9",
+    uses: "Thick sweaters, scarves, blankets, quick projects",
     wpiMin: 6,
     wpiMax: 9,
   },
   {
     cyc: 6,
-    name: 'Super Bulky',
-    regional: 'Super Chunky / Bulky / Roving',
-    regionalFull: 'Super Chunky, Bulky, Roving',
-    gauge: '7–11 sts per 4 in / 10 cm',
-    needles: 'US 11–17 (8–12.75 mm)',
-    wpi: '5–6',
-    uses: 'Heavy blankets, cowls, quick accessories',
+    name: "Super Bulky",
+    regional: "Super Chunky / Bulky / Roving",
+    regionalFull: "Super Chunky, Bulky, Roving",
+    gauge: "7–11 sts per 4 in / 10 cm",
+    needles: "US 11–17 (8–12.75 mm)",
+    wpi: "5–6",
+    uses: "Heavy blankets, cowls, quick accessories",
     wpiMin: 5,
     wpiMax: 6,
   },
   {
     cyc: 7,
-    name: 'Jumbo',
-    regional: 'Jumbo / Roving',
-    regionalFull: 'Jumbo, Roving',
-    gauge: '0–6 sts per 4 in / 10 cm',
-    needles: 'US 17+ (12.75+ mm)',
-    wpi: '1–4',
-    uses: 'Arm knitting, dramatic texture, oversized blankets',
+    name: "Jumbo",
+    regional: "Jumbo / Roving",
+    regionalFull: "Jumbo, Roving",
+    gauge: "0–6 sts per 4 in / 10 cm",
+    needles: "US 17+ (12.75+ mm)",
+    wpi: "1–4",
+    uses: "Arm knitting, dramatic texture, oversized blankets",
     wpiMin: 1,
     wpiMax: 4,
   },
@@ -124,7 +124,7 @@ const faqs = [
     a: "Worsted is still the default in many North American patterns. DK shows up constantly in UK and European knitting. Between those two categories, you can cover the vast majority of garment, accessory, and home decor projects. If you're building a stash around versatility, they're the place to start.",
   },
   {
-    q: 'Can you substitute one yarn weight for another?',
+    q: "Can you substitute one yarn weight for another?",
     a: "Yes, but it changes more than size. Fabric drape, yardage requirements, and needle size all shift. Some swaps are forgiving (DK for a light worsted, for example). Others turn into a fundamentally different project. Always swatch before committing, and recalculate yardage using the original pattern's total stitch count as your reference.",
   },
   {
@@ -132,7 +132,7 @@ const faqs = [
     a: "It means knitting two strands together as if they were one thicker yarn. Holding two fingering-weight strands together roughly approximates DK-weight fabric, though fiber content, twist, and loft all push the result lighter or heavier. It's useful when you can't find the right weight in the color or fiber you want. Swatch it, because the results aren't perfectly predictable.",
   },
   {
-    q: 'Why does my yarn look thinner or thicker than its label says?',
+    q: "Why does my yarn look thinner or thicker than its label says?",
     a: "Because yarn weight categories are ranges, not fixed points. One DK yarn sits near the lighter edge of its category, another near the heavier edge. Fiber content changes the visual impression too. Cotton tends to look flatter and thinner than wool at the same WPI, while alpaca can bloom and look thicker after washing. The category on the label is a ballpark, and gauge confirms where your specific yarn actually lands.",
   },
 ];
@@ -145,30 +145,37 @@ const faqs = [
   alternates={routes.tool.yarnWeightChart}
   showStripe={false}
 >
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Yarn Weight Chart",
-    "description": "Complete yarn weight reference chart with gauge ranges, recommended needles, WPI values, and project types for all 8 CYC categories.",
-    "url": "https://knittoolsapp.com/tools/yarn-weight-chart/",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "Any",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    }
-  })} />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      name: "Yarn Weight Chart",
+      description:
+        "Complete yarn weight reference chart with gauge ranges, recommended needles, WPI values, and project types for all 8 CYC categories.",
+      url: "https://knittoolsapp.com/tools/yarn-weight-chart/",
+      applicationCategory: "UtilityApplication",
+      operatingSystem: "Any",
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "USD",
+      },
+    })}
+  />
 
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqs.map(f => ({
-      "@type": "Question",
-      "name": f.q,
-      "acceptedAnswer": { "@type": "Answer", "text": f.a },
-    })),
-  })} />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqs.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    })}
+  />
 
   <!-- 1. Tool hero -->
   <section class="tool-hero">
@@ -176,48 +183,57 @@ const faqs = [
       <p class="eyebrow">
         <a href="/tools/" class="eyebrow-back">← All tools</a>
       </p>
-      <h1 class="gs-h1" aria-label="Yarn Weight Chart"><span class="h1-chars">Yarn Weight Chart</span></h1>
-      <p class="hero-intro gs-hero">Eight categories, every gauge range, needle size, and WPI value. Tap any category to expand.</p>
+      <h1 class="gs-h1" aria-label="Yarn Weight Chart">
+        <span class="h1-chars">Yarn Weight Chart</span>
+      </h1>
+      <p class="hero-intro gs-hero">
+        Eight categories, every gauge range, needle size, and WPI value. Tap any
+        category to expand.
+      </p>
 
       <div class="form-card variant-sand is-wide">
-      <div class="cat-list gs-form">
-        {categories.map(cat => (
-          <details class="cat-card">
-            <summary class="cat-summary">
-              <span class="cat-heading">
-                <span class="cat-num">{cat.cyc}</span>
-                <span class="cat-name">{cat.name}</span>
-              </span>
-              <span class="cat-regional">{cat.regional}</span>
-              <span class="cat-toggle" aria-hidden="true">+</span>
-            </summary>
-            <div class="cat-body">
-              <dl class="cat-details">
-                <div class="cat-row">
-                  <dt>Gauge range</dt>
-                  <dd>{cat.gauge}</dd>
+        <div class="cat-list gs-form">
+          {
+            categories.map((cat) => (
+              <details class="cat-card">
+                <summary class="cat-summary">
+                  <span class="cat-heading">
+                    <span class="cat-num">{cat.cyc}</span>
+                    <span class="cat-name">{cat.name}</span>
+                  </span>
+                  <span class="cat-regional">{cat.regional}</span>
+                  <span class="cat-toggle" aria-hidden="true">
+                    +
+                  </span>
+                </summary>
+                <div class="cat-body">
+                  <dl class="cat-details">
+                    <div class="cat-row">
+                      <dt>Gauge range</dt>
+                      <dd>{cat.gauge}</dd>
+                    </div>
+                    <div class="cat-row">
+                      <dt>Recommended needles</dt>
+                      <dd>{cat.needles}</dd>
+                    </div>
+                    <div class="cat-row">
+                      <dt>WPI range</dt>
+                      <dd>{cat.wpi}</dd>
+                    </div>
+                    <div class="cat-row">
+                      <dt>Common uses</dt>
+                      <dd>{cat.uses}</dd>
+                    </div>
+                    <div class="cat-row">
+                      <dt>Regional names</dt>
+                      <dd>{cat.regionalFull}</dd>
+                    </div>
+                  </dl>
                 </div>
-                <div class="cat-row">
-                  <dt>Recommended needles</dt>
-                  <dd>{cat.needles}</dd>
-                </div>
-                <div class="cat-row">
-                  <dt>WPI range</dt>
-                  <dd>{cat.wpi}</dd>
-                </div>
-                <div class="cat-row">
-                  <dt>Common uses</dt>
-                  <dd>{cat.uses}</dd>
-                </div>
-                <div class="cat-row">
-                  <dt>Regional names</dt>
-                  <dd>{cat.regionalFull}</dd>
-                </div>
-              </dl>
-            </div>
-          </details>
-        ))}
-      </div>
+              </details>
+            ))
+          }
+        </div>
       </div>
 
       <!-- WPI identifier -->
@@ -231,45 +247,121 @@ const faqs = [
   <section class="seo-content">
     <div class="content-inner">
       <h2 class="gs-clip-reveal">The name confusion problem</h2>
-      <p class="gs-fade-up">This is where yarn weight gets genuinely messy, and where most substitution mistakes start.</p>
+      <p class="gs-fade-up">
+        This is where yarn weight gets genuinely messy, and where most
+        substitution mistakes start.
+      </p>
 
       <h3 class="gs-fade-up">Ply doesn't mean what you think it means</h3>
-      <p class="gs-fade-up">"4-ply" in UK and Australian pattern language usually means fingering weight. But ply actually describes construction, not thickness. A yarn made from four thin plies can absolutely be thinner than a yarn made from two fat ones. Singles (single-ply) yarns can be bulky. A tightly twisted 6-ply can land in sport weight.</p>
-      <p class="gs-fade-up">The term stuck because, decades ago, standard spinning conventions meant a 4-ply yarn reliably came out to a certain thickness. That connection broke down as spinning methods diversified, but the naming convention didn't update. So when a vintage UK pattern calls for "3-ply," it means a specific weight range (close to lace or light fingering), not a yarn literally constructed from three strands.</p>
+      <p class="gs-fade-up">
+        "4-ply" in UK and Australian pattern language usually means fingering
+        weight. But ply actually describes construction, not thickness. A yarn
+        made from four thin plies can absolutely be thinner than a yarn made
+        from two fat ones. Singles (single-ply) yarns can be bulky. A tightly
+        twisted 6-ply can land in sport weight.
+      </p>
+      <p class="gs-fade-up">
+        The term stuck because, decades ago, standard spinning conventions meant
+        a 4-ply yarn reliably came out to a certain thickness. That connection
+        broke down as spinning methods diversified, but the naming convention
+        didn't update. So when a vintage UK pattern calls for "3-ply," it means
+        a specific weight range (close to lace or light fingering), not a yarn
+        literally constructed from three strands.
+      </p>
       <p class="gs-fade-up">That trips up more people than you'd expect.</p>
 
       <h3 class="gs-fade-up">Worsted vs. aran: close but not the same</h3>
-      <p class="gs-fade-up">Both sit in CYC category 4 (Medium), but aran tends to run slightly heavier within that range. A pattern written for aran-weight yarn at a specific gauge might knit up too loose if you grab a worsted that sits at the lighter edge of the category. The reverse is also true.</p>
-      <p class="gs-fade-up">Some yarn companies use "worsted" and "aran" interchangeably on labels. Others draw a firm line. The gauge swatch on the ball band is more reliable than the name.</p>
+      <p class="gs-fade-up">
+        Both sit in CYC category 4 (Medium), but aran tends to run slightly
+        heavier within that range. A pattern written for aran-weight yarn at a
+        specific gauge might knit up too loose if you grab a worsted that sits
+        at the lighter edge of the category. The reverse is also true.
+      </p>
+      <p class="gs-fade-up">
+        Some yarn companies use "worsted" and "aran" interchangeably on labels.
+        Others draw a firm line. The gauge swatch on the ball band is more
+        reliable than the name.
+      </p>
 
       <h3 class="gs-fade-up">DK, Light Worsted, 8-ply</h3>
-      <p class="gs-fade-up">DK (double knitting) is standard terminology in the UK. American patterns sometimes call the same thickness "Light Worsted." Australian and New Zealand patterns often say "8-ply." All three land in CYC category 3 (Light), but a yarn at the heavier end of DK can overlap with the lighter end of worsted. Category boundaries aren't walls.</p>
+      <p class="gs-fade-up">
+        DK (double knitting) is standard terminology in the UK. American
+        patterns sometimes call the same thickness "Light Worsted." Australian
+        and New Zealand patterns often say "8-ply." All three land in CYC
+        category 3 (Light), but a yarn at the heavier end of DK can overlap with
+        the lighter end of worsted. Category boundaries aren't walls.
+      </p>
 
       <h3 class="gs-fade-up">When regional names collide</h3>
-      <p class="gs-fade-up">"Sport weight" in North America and "5-ply" in Australian terminology overlap, but they don't map perfectly. "Chunky" in UK patterns usually means CYC category 5 (Bulky), while "chunky" in casual American usage can mean anything from bulky to super bulky.</p>
-      <p class="gs-fade-up">The safest approach when crossing regional pattern languages: ignore the name entirely and match the gauge. If the pattern says 20 stitches per 4 inches on 4mm needles, that's what you need to hit, regardless of what the label calls the yarn.</p>
+      <p class="gs-fade-up">
+        "Sport weight" in North America and "5-ply" in Australian terminology
+        overlap, but they don't map perfectly. "Chunky" in UK patterns usually
+        means CYC category 5 (Bulky), while "chunky" in casual American usage
+        can mean anything from bulky to super bulky.
+      </p>
+      <p class="gs-fade-up">
+        The safest approach when crossing regional pattern languages: ignore the
+        name entirely and match the gauge. If the pattern says 20 stitches per 4
+        inches on 4mm needles, that's what you need to hit, regardless of what
+        the label calls the yarn.
+      </p>
 
       <h2 class="gs-clip-reveal">How yarn weight categories work</h2>
-      <p class="gs-fade-up">"Weight" here doesn't mean how heavy the ball feels in your hand. It refers to the thickness of the strand. Thinner yarn produces more stitches per inch. Thicker yarn, fewer.</p>
-      <p class="gs-fade-up">The Craft Yarn Council system assigns each thickness range a number and a name:</p>
+      <p class="gs-fade-up">
+        "Weight" here doesn't mean how heavy the ball feels in your hand. It
+        refers to the thickness of the strand. Thinner yarn produces more
+        stitches per inch. Thicker yarn, fewer.
+      </p>
+      <p class="gs-fade-up">
+        The Craft Yarn Council system assigns each thickness range a number and
+        a name:
+      </p>
       <ul class="gs-fade-up bullet-list">
-        <li><strong>0 – Lace.</strong> Very fine yarn for lace shawls and openwork fabric.</li>
-        <li><strong>1 – Super Fine.</strong> Fingering and sock-weight territory.</li>
+        <li>
+          <strong>0 – Lace.</strong> Very fine yarn for lace shawls and openwork fabric.
+        </li>
+        <li>
+          <strong>1 – Super Fine.</strong> Fingering and sock-weight territory.
+        </li>
         <li><strong>2 – Fine.</strong> Sport weight.</li>
-        <li><strong>3 – Light.</strong> DK and similar in-between garment yarns.</li>
-        <li><strong>4 – Medium.</strong> Worsted and aran. The range most knitters spend the most time in.</li>
-        <li><strong>5 – Bulky.</strong> Chunkier yarns that build fabric fast.</li>
-        <li><strong>6 – Super Bulky.</strong> Quick accessories, dramatic texture.</li>
-        <li><strong>7 – Jumbo.</strong> The thickest end of the published chart.</li>
+        <li>
+          <strong>3 – Light.</strong> DK and similar in-between garment yarns.
+        </li>
+        <li>
+          <strong>4 – Medium.</strong> Worsted and aran. The range most knitters spend
+          the most time in.
+        </li>
+        <li>
+          <strong>5 – Bulky.</strong> Chunkier yarns that build fabric fast.
+        </li>
+        <li>
+          <strong>6 – Super Bulky.</strong> Quick accessories, dramatic texture.
+        </li>
+        <li>
+          <strong>7 – Jumbo.</strong> The thickest end of the published chart.
+        </li>
       </ul>
-      <p class="gs-fade-up">The CYC standard currently runs 0 through 7, though the organization has signaled that additional sizing work is ongoing.</p>
+      <p class="gs-fade-up">
+        The CYC standard currently runs 0 through 7, though the organization has
+        signaled that additional sizing work is ongoing.
+      </p>
 
-      <h2 class="gs-clip-reveal">How to identify yarn weight without a label</h2>
-      <p class="gs-fade-up">Unlabeled yarn turns up constantly. Someone hands over a bag of stash yarn, the ball band vanished months ago, or the yarn came off a cone with no retail label.</p>
+      <h2 class="gs-clip-reveal">
+        How to identify yarn weight without a label
+      </h2>
+      <p class="gs-fade-up">
+        Unlabeled yarn turns up constantly. Someone hands over a bag of stash
+        yarn, the ball band vanished months ago, or the yarn came off a cone
+        with no retail label.
+      </p>
       <p class="gs-fade-up">The fastest first check is wraps per inch (WPI).</p>
 
       <h3 class="gs-fade-up">Measuring WPI</h3>
-      <p class="gs-fade-up">Wrap the yarn around a pencil, ruler, or WPI tool. Keep wraps snug and side by side, not stretched or overlapping. Count how many fit in one inch. The CYC guide uses these broad ranges:</p>
+      <p class="gs-fade-up">
+        Wrap the yarn around a pencil, ruler, or WPI tool. Keep wraps snug and
+        side by side, not stretched or overlapping. Count how many fit in one
+        inch. The CYC guide uses these broad ranges:
+      </p>
       <ul class="gs-fade-up bullet-list">
         <li>30 to 40+ WPI → Lace (0)</li>
         <li>14 to 30 WPI → Super Fine (1)</li>
@@ -280,21 +372,66 @@ const faqs = [
         <li>5 to 6 WPI → Super Bulky (6)</li>
         <li>1 to 4 WPI → Jumbo (7)</li>
       </ul>
-      <p class="gs-fade-up">Notice the overlapping ranges. A yarn that wraps at 12 WPI could be Fine, Light, or Medium depending on other factors. That's normal.</p>
+      <p class="gs-fade-up">
+        Notice the overlapping ranges. A yarn that wraps at 12 WPI could be
+        Fine, Light, or Medium depending on other factors. That's normal.
+      </p>
 
       <h3 class="gs-fade-up">When WPI gets tricky</h3>
-      <p class="gs-fade-up">Fuzzy yarns like mohair are awkward to wrap cleanly. Lofty, airy singles can read lighter than they actually knit. Handspun shifts thickness along its length, so measure several spots and average them. Chenille and textured novelty yarns? Good luck getting a clean wrap at all.</p>
-      <p class="gs-fade-up">WPI gets you in the neighborhood. A gauge swatch gets you the answer that actually matters. The <a href="/articles/identify-mystery-yarn/">mystery yarn guide</a> covers the full identification process when a label is missing entirely.</p>
+      <p class="gs-fade-up">
+        Fuzzy yarns like mohair are awkward to wrap cleanly. Lofty, airy singles
+        can read lighter than they actually knit. Handspun shifts thickness
+        along its length, so measure several spots and average them. Chenille
+        and textured novelty yarns? Good luck getting a clean wrap at all.
+      </p>
+      <p class="gs-fade-up">
+        WPI gets you in the neighborhood. A gauge swatch gets you the answer
+        that actually matters. The <a href="/articles/identify-mystery-yarn/"
+          >mystery yarn guide</a
+        > covers the full identification process when a label is missing entirely.
+      </p>
 
       <h2 class="gs-clip-reveal">Choosing yarn weight for your project</h2>
-      <p class="gs-fade-up">Pattern designers pick a weight for the fabric they want, not just for speed. Changing the weight changes drape, density, warmth, and often the entire scale of the finished piece.</p>
-      <p class="gs-fade-up">Lighter weights (0-2) give more drape and sharper stitch definition. Good for socks, shawls, and colorwork that needs crisp detail. Middle weights (3-4), especially DK and worsted, cover enormous ground: sweaters, hats, blankets, baby knits, textured accessories. Heavier weights (5-7) prioritize speed and warmth but create thicker seams and a heavier finished object. Worth noticing before you substitute.</p>
-      <p class="gs-fade-up">If you're substituting outside the original weight category, expect to recalculate. The <a href="/articles/how-to-substitute-yarn/">yarn substitution guide</a> covers the process. KnitTools' <a href="/tools/cast-on-calculator/">Cast On Calculator</a> helps with stitch counts, and the <a href="/tools/yarn-estimator/">Yarn Estimator</a> can sanity-check yardage before you buy.</p>
+      <p class="gs-fade-up">
+        Pattern designers pick a weight for the fabric they want, not just for
+        speed. Changing the weight changes drape, density, warmth, and often the
+        entire scale of the finished piece.
+      </p>
+      <p class="gs-fade-up">
+        Lighter weights (0-2) give more drape and sharper stitch definition.
+        Good for socks, shawls, and colorwork that needs crisp detail. Middle
+        weights (3-4), especially DK and worsted, cover enormous ground:
+        sweaters, hats, blankets, baby knits, textured accessories. Heavier
+        weights (5-7) prioritize speed and warmth but create thicker seams and a
+        heavier finished object. Worth noticing before you substitute.
+      </p>
+      <p class="gs-fade-up">
+        If you're substituting outside the original weight category, expect to
+        recalculate. The <a href="/articles/how-to-substitute-yarn/"
+          >yarn substitution guide</a
+        > covers the process. KnitTools' <a href="/tools/cast-on-calculator/"
+          >Cast On Calculator</a
+        > helps with stitch counts, and the <a href="/tools/yarn-estimator/"
+          >Yarn Estimator</a
+        > can sanity-check yardage before you buy.
+      </p>
 
       <h2 class="gs-clip-reveal">Yarn weight and needle size relationship</h2>
-      <p class="gs-fade-up">Recommended needle sizes are starting points. Not promises. The same DK yarn can make a firm hat fabric on one needle and a loose cardigan fabric on another.</p>
-      <p class="gs-fade-up">This is where gauge takes over. The label can point you in a direction, but your yarn, your tension, and your project decide the final needle size.</p>
-      <p class="gs-fade-up">If you need size systems translated before you can swatch, the <a href="/tools/needle-size-chart/">needle size conversion chart</a> is the companion page to keep open.</p>
+      <p class="gs-fade-up">
+        Recommended needle sizes are starting points. Not promises. The same DK
+        yarn can make a firm hat fabric on one needle and a loose cardigan
+        fabric on another.
+      </p>
+      <p class="gs-fade-up">
+        This is where gauge takes over. The label can point you in a direction,
+        but your yarn, your tension, and your project decide the final needle
+        size.
+      </p>
+      <p class="gs-fade-up">
+        If you need size systems translated before you can swatch, the <a
+          href="/tools/needle-size-chart/">needle size conversion chart</a
+        > is the companion page to keep open.
+      </p>
     </div>
   </section>
 
@@ -303,12 +440,19 @@ const faqs = [
     <div class="faq-inner">
       <h2 class="gs-clip-reveal">Frequently asked questions</h2>
       <div class="faq">
-        {faqs.map(f => (
-          <details class="gs-faq-item">
-            <summary>{f.q} <span class="faq-icon" aria-hidden="true">+</span></summary>
-            <p>{f.a}</p>
-          </details>
-        ))}
+        {
+          faqs.map((f) => (
+            <details class="gs-faq-item">
+              <summary>
+                {f.q}{" "}
+                <span class="faq-icon" aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <p>{f.a}</p>
+            </details>
+          ))
+        }
       </div>
     </div>
   </section>
@@ -317,7 +461,9 @@ const faqs = [
   <section class="waitlist-cta" id="join">
     <div class="waitlist-inner">
       <form class="waitlist-form" action="#" method="post" id="waitlist-form">
-        <label class="visually-hidden" for="waitlist-website">Leave this field empty</label>
+        <label class="visually-hidden" for="waitlist-website"
+          >Leave this field empty</label
+        >
         <input
           class="visually-hidden"
           id="waitlist-website"
@@ -327,17 +473,45 @@ const faqs = [
           autocomplete="off"
         />
         <div class="waitlist-content-layer" id="waitlist-content-layer">
-          <h2 class="gs-clip-reveal waitlist-head">Every tool. <em>One app.</em></h2>
-          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators.</p>
+          <h2 class="gs-clip-reveal waitlist-head">
+            Every tool. <em>One app.</em>
+          </h2>
+          <p class="gs-fade-up waitlist-desc">
+            Row counter, project management, yarn scanner, and all four
+            calculators.
+          </p>
           <div class="waitlist-row gs-fade-up" id="waitlist-row">
-            <input type="email" name="email" placeholder="your@email.com" required class="waitlist-input" />
-            <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
+            <input
+              type="email"
+              name="email"
+              placeholder="your@email.com"
+              required
+              class="waitlist-input"
+            />
+            <button type="submit" class="waitlist-btn" id="waitlist-btn"
+              >Notify me at launch</button
+            >
           </div>
-          <p class="gs-fade-up waitlist-meta">Coming {PRICING.launchMonthLabel} to Google Play. Launch price <strong><RegionalPrice phase="launch" /></strong>. <RegionalPricingNote /></p>
-          <p class="waitlist-error" id="waitlist-error" role="alert" aria-live="polite" hidden></p>
+          <p class="gs-fade-up waitlist-meta">
+            Coming {PRICING.launchMonthLabel} to Google Play. Launch price <strong
+              ><RegionalPrice phase="launch" /></strong
+            >. <RegionalPricingNote />
+          </p>
+          <p
+            class="waitlist-error"
+            id="waitlist-error"
+            role="alert"
+            aria-live="polite"
+            hidden
+          >
+          </p>
         </div>
 
-        <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
+        <div
+          class="waitlist-loading-state"
+          id="waitlist-loading"
+          aria-hidden="true"
+        >
           <span class="big-spinner" aria-live="polite">Sending&hellip;</span>
         </div>
 
@@ -353,190 +527,217 @@ const faqs = [
 </PageLayout>
 
 <script>
-  import { gsap } from 'gsap';
-  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
 
   gsap.registerPlugin(ScrollTrigger);
 
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const prefersReducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+  ).matches;
 
   // --- Category card animated expand/collapse ---
   if (!prefersReducedMotion) {
-    document.querySelectorAll<HTMLDetailsElement>('.cat-card').forEach(details => {
-      const summary = details.querySelector('summary');
-      const body = details.querySelector<HTMLElement>('.cat-body');
-      if (!summary || !body) return;
+    document
+      .querySelectorAll<HTMLDetailsElement>(".cat-card")
+      .forEach((details) => {
+        const summary = details.querySelector("summary");
+        const body = details.querySelector<HTMLElement>(".cat-body");
+        if (!summary || !body) return;
 
-      summary.addEventListener('click', (e) => {
-        e.preventDefault();
-        if (details.hasAttribute('open')) {
-          gsap.to(body, {
-            height: 0,
-            opacity: 0,
-            duration: 0.25,
-            ease: 'power2.inOut',
-            onComplete: () => {
-              details.removeAttribute('open');
-              gsap.set(body, { height: 'auto', opacity: 1 });
-            },
-          });
-        } else {
-          details.setAttribute('open', '');
-          const h = body.scrollHeight;
-          gsap.set(body, { height: 0, opacity: 0 });
-          gsap.to(body, {
-            height: h,
-            opacity: 1,
-            duration: 0.25,
-            ease: 'power2.out',
-            onComplete: () => {
-              gsap.set(body, { height: 'auto' });
-            },
-          });
-        }
+        summary.addEventListener("click", (e) => {
+          e.preventDefault();
+          if (details.hasAttribute("open")) {
+            gsap.to(body, {
+              height: 0,
+              opacity: 0,
+              duration: 0.25,
+              ease: "power2.inOut",
+              onComplete: () => {
+                details.removeAttribute("open");
+                gsap.set(body, { height: "auto", opacity: 1 });
+              },
+            });
+          } else {
+            details.setAttribute("open", "");
+            const h = body.scrollHeight;
+            gsap.set(body, { height: 0, opacity: 0 });
+            gsap.to(body, {
+              height: h,
+              opacity: 1,
+              duration: 0.25,
+              ease: "power2.out",
+              onComplete: () => {
+                gsap.set(body, { height: "auto" });
+              },
+            });
+          }
+        });
       });
-    });
   }
 
   if (!prefersReducedMotion) {
     // --- Hero entrance timeline ---
-    const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
-    heroTl.from('.gs-hero', {
-      opacity: 0,
-      y: 12,
-      duration: 0.5,
-      stagger: 0.15,
-    }, 0.2);
+    heroTl.from(
+      ".gs-hero",
+      {
+        opacity: 0,
+        y: 12,
+        duration: 0.5,
+        stagger: 0.15,
+      },
+      0.2,
+    );
 
-    const h1El = document.querySelector('.h1-chars');
+    const h1El = document.querySelector(".h1-chars");
     if (h1El) {
-      const text = h1El.textContent || '';
-      h1El.textContent = '';
+      const text = h1El.textContent || "";
+      h1El.textContent = "";
       const chars: HTMLSpanElement[] = [];
-      const words = text.split(' ');
+      const words = text.split(" ");
       words.forEach((word, wi) => {
-        const wordSpan = document.createElement('span');
-        wordSpan.className = 'h1-word';
+        const wordSpan = document.createElement("span");
+        wordSpan.className = "h1-word";
         for (const c of word) {
-          const span = document.createElement('span');
-          span.className = 'h1-char';
+          const span = document.createElement("span");
+          span.className = "h1-char";
           span.textContent = c;
           wordSpan.appendChild(span);
           chars.push(span);
         }
         h1El.appendChild(wordSpan);
         if (wi < words.length - 1) {
-          h1El.appendChild(document.createTextNode(' '));
+          h1El.appendChild(document.createTextNode(" "));
         }
       });
 
-      heroTl.from(chars, {
-        opacity: 0,
-        x: -20,
-        duration: 0.4,
-        stagger: 0.03,
-        ease: 'power2.out',
-      }, 0.1);
+      heroTl.from(
+        chars,
+        {
+          opacity: 0,
+          x: -20,
+          duration: 0.4,
+          stagger: 0.03,
+          ease: "power2.out",
+        },
+        0.1,
+      );
     }
 
-    heroTl.from('.gs-form', {
-      opacity: 0,
-      y: 16,
-      duration: 0.5,
-      stagger: 0.1,
-    }, 0.6);
+    heroTl.from(
+      ".gs-form",
+      {
+        opacity: 0,
+        y: 16,
+        duration: 0.5,
+        stagger: 0.1,
+      },
+      0.6,
+    );
 
     // --- Scroll-triggered: clip-reveal H2s ---
-    document.querySelectorAll('.gs-clip-reveal').forEach(el => {
-      gsap.set(el, { clipPath: 'inset(0 100% 0 0)' });
+    document.querySelectorAll(".gs-clip-reveal").forEach((el) => {
+      gsap.set(el, { clipPath: "inset(0 100% 0 0)" });
       gsap.to(el, {
-        clipPath: 'inset(0 0% 0 0)',
+        clipPath: "inset(0 0% 0 0)",
         duration: 0.8,
-        ease: 'power3.inOut',
+        ease: "power3.inOut",
         scrollTrigger: {
           trigger: el,
-          start: 'top 85%',
+          start: "top 85%",
           once: true,
         },
       });
     });
 
-    document.querySelectorAll('.gs-fade-up').forEach(el => {
+    document.querySelectorAll(".gs-fade-up").forEach((el) => {
       gsap.from(el, {
         opacity: 0,
         y: 24,
         duration: 0.6,
-        ease: 'power2.out',
+        ease: "power2.out",
         scrollTrigger: {
           trigger: el,
-          start: 'top 88%',
+          start: "top 88%",
           once: true,
         },
       });
     });
 
-    const faqItems = document.querySelectorAll('.gs-faq-item');
+    const faqItems = document.querySelectorAll(".gs-faq-item");
     if (faqItems.length) {
       gsap.from(faqItems, {
         opacity: 0,
         y: 16,
         duration: 0.4,
         stagger: 0.08,
-        ease: 'power2.out',
+        ease: "power2.out",
         scrollTrigger: {
           trigger: faqItems[0],
-          start: 'top 85%',
+          start: "top 85%",
           once: true,
         },
       });
     }
 
-    document.querySelectorAll('.gs-faq-item').forEach(details => {
-      const summary = details.querySelector('summary');
-      const content = details.querySelector('p');
+    document.querySelectorAll(".gs-faq-item").forEach((details) => {
+      const summary = details.querySelector("summary");
+      const content = details.querySelector("p");
       if (!summary || !content) return;
 
-      summary.addEventListener('click', (e) => {
+      summary.addEventListener("click", (e) => {
         e.preventDefault();
-        if (details.hasAttribute('open')) {
+        if (details.hasAttribute("open")) {
           gsap.to(content, {
             height: 0,
             opacity: 0,
             duration: 0.3,
-            ease: 'power2.inOut',
+            ease: "power2.inOut",
             onComplete: () => {
-              details.removeAttribute('open');
-              gsap.set(content, { height: 'auto', opacity: 1 });
+              details.removeAttribute("open");
+              gsap.set(content, { height: "auto", opacity: 1 });
             },
           });
         } else {
-          details.setAttribute('open', '');
+          details.setAttribute("open", "");
           const h = content.scrollHeight;
           gsap.set(content, { height: 0, opacity: 0 });
           gsap.to(content, {
             height: h,
             opacity: 1,
             duration: 0.3,
-            ease: 'power2.out',
+            ease: "power2.out",
           });
         }
       });
     });
 
     // --- Waitlist Form Morph Animation ---
-    const waitlistForm = document.getElementById('waitlist-form');
-    const waitlistContentLayer = document.getElementById('waitlist-content-layer');
-    const waitlistLoading = document.getElementById('waitlist-loading');
-    const waitlistSuccess = document.getElementById('waitlist-success');
+    const waitlistForm = document.getElementById("waitlist-form");
+    const waitlistContentLayer = document.getElementById(
+      "waitlist-content-layer",
+    );
+    const waitlistLoading = document.getElementById("waitlist-loading");
+    const waitlistSuccess = document.getElementById("waitlist-success");
 
-    if (waitlistForm && waitlistContentLayer && waitlistLoading && waitlistSuccess) {
-      waitlistForm.addEventListener('submit', async (e) => {
+    if (
+      waitlistForm &&
+      waitlistContentLayer &&
+      waitlistLoading &&
+      waitlistSuccess
+    ) {
+      waitlistForm.addEventListener("submit", async (e) => {
         e.preventDefault();
 
-        const emailInput = waitlistForm.querySelector('input[type="email"]');
-        const honeypot = waitlistForm.querySelector('input[name="website"]');
-        const errorEl = document.getElementById('waitlist-error');
+        const emailInput = waitlistForm.querySelector<HTMLInputElement>(
+          'input[type="email"]',
+        );
+        const honeypot = waitlistForm.querySelector<HTMLInputElement>(
+          'input[name="website"]',
+        );
+        const errorEl = document.getElementById("waitlist-error");
 
         // Lock height to prevent page jumping when content becomes absolute
         const height = waitlistForm.offsetHeight;
@@ -544,24 +745,24 @@ const faqs = [
 
         if (errorEl) {
           errorEl.hidden = true;
-          errorEl.textContent = '';
+          errorEl.textContent = "";
         }
 
         // 1. Morph to Big Spinner Loading state
-        waitlistContentLayer.classList.add('is-hidden');
-        waitlistLoading.classList.add('is-visible');
+        waitlistContentLayer.classList.add("is-hidden");
+        waitlistLoading.classList.add("is-visible");
 
         let success = false;
-        let errorMessage = 'Something went wrong. Please try again.';
+        let errorMessage = "Something went wrong. Please try again.";
 
         try {
-          const res = await fetch('https://api.finnvek.com/subscribe', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+          const res = await fetch("https://api.finnvek.com/subscribe", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
-              email: emailInput ? emailInput.value.trim() : '',
-              source: 'knittools',
-              website: honeypot ? honeypot.value : '',
+              email: emailInput ? emailInput.value.trim() : "",
+              source: "knittools",
+              website: honeypot ? honeypot.value : "",
             }),
           });
           const data = await res.json().catch(() => ({}));
@@ -571,7 +772,7 @@ const faqs = [
             errorMessage = data.error;
           }
         } catch {
-          errorMessage = 'Network error. Please check your connection.';
+          errorMessage = "Network error. Please check your connection.";
         }
 
         // Minimum spinner visibility for perceived smoothness
@@ -579,14 +780,14 @@ const faqs = [
 
         if (success) {
           // 2. Morph loading -> success
-          waitlistLoading.classList.remove('is-visible');
-          waitlistLoading.classList.add('is-hidden');
-          waitlistSuccess.classList.add('is-visible');
+          waitlistLoading.classList.remove("is-visible");
+          waitlistLoading.classList.add("is-hidden");
+          waitlistSuccess.classList.add("is-visible");
         } else {
           // 2b. Revert loading -> content with inline error
-          waitlistLoading.classList.remove('is-visible');
-          waitlistLoading.classList.add('is-hidden');
-          waitlistContentLayer.classList.remove('is-hidden');
+          waitlistLoading.classList.remove("is-visible");
+          waitlistLoading.classList.add("is-hidden");
+          waitlistContentLayer.classList.remove("is-hidden");
           if (errorEl) {
             errorEl.textContent = errorMessage;
             errorEl.hidden = false;
@@ -655,7 +856,9 @@ const faqs = [
     text-decoration: none;
     transition: color 0.15s ease;
   }
-  .eyebrow-back:hover { color: var(--terracotta); }
+  .eyebrow-back:hover {
+    color: var(--terracotta);
+  }
 
   .tool-hero h1 {
     font-family: var(--serif);
@@ -704,10 +907,14 @@ const faqs = [
     cursor: pointer;
     list-style: none;
     color: var(--ink);
-    transition: color 200ms ease, background-color 200ms ease;
+    transition:
+      color 200ms ease,
+      background-color 200ms ease;
   }
 
-  .cat-summary::-webkit-details-marker { display: none; }
+  .cat-summary::-webkit-details-marker {
+    display: none;
+  }
 
   .cat-summary:hover {
     background-color: rgba(160, 80, 56, 0.08);
@@ -817,7 +1024,9 @@ const faqs = [
     margin-bottom: 16px;
     text-transform: none;
   }
-  .seo-content h2:first-child { margin-top: 0; }
+  .seo-content h2:first-child {
+    margin-top: 0;
+  }
 
   .seo-content h3 {
     font-family: var(--serif);
@@ -890,7 +1099,10 @@ const faqs = [
     text-transform: none;
   }
 
-  .faq { display: flex; flex-direction: column; }
+  .faq {
+    display: flex;
+    flex-direction: column;
+  }
 
   .faq details {
     border-top: 1px solid rgba(244, 234, 217, 0.2);
@@ -912,8 +1124,12 @@ const faqs = [
     align-items: center;
     transition: color 200ms ease;
   }
-  .faq summary::-webkit-details-marker { display: none; }
-  .faq summary:hover { color: var(--terracotta); }
+  .faq summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq summary:hover {
+    color: var(--terracotta);
+  }
 
   .faq summary .faq-icon {
     display: inline-flex;
@@ -928,7 +1144,9 @@ const faqs = [
     font-weight: 300;
     color: var(--terracotta);
     line-height: 1;
-    transition: transform 300ms ease, color 200ms ease;
+    transition:
+      transform 300ms ease,
+      color 200ms ease;
   }
   .faq summary:hover .faq-icon {
     color: var(--ink);
@@ -1005,10 +1223,14 @@ const faqs = [
   .waitlist-content-layer,
   .waitlist-loading-state,
   .waitlist-success {
-    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+    transition:
+      opacity 400ms cubic-bezier(0.4, 0, 0.2, 1),
+      transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .waitlist-content-layer { width: 100%; }
+  .waitlist-content-layer {
+    width: 100%;
+  }
 
   .waitlist-content-layer.is-hidden {
     opacity: 0;
@@ -1036,7 +1258,9 @@ const faqs = [
     border-radius: 0;
     min-width: 0;
   }
-  .waitlist-input::placeholder { color: var(--ink-soft); }
+  .waitlist-input::placeholder {
+    color: var(--ink-soft);
+  }
   .waitlist-input:focus {
     outline: 2px solid var(--terracotta);
     outline-offset: 2px;
@@ -1053,7 +1277,10 @@ const faqs = [
     border: 1.5px solid var(--ink);
     border-radius: 0;
     cursor: pointer;
-    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    transition:
+      background 0.15s ease,
+      border-color 0.15s ease,
+      color 0.15s ease;
     white-space: nowrap;
   }
   .waitlist-btn:hover {
@@ -1099,11 +1326,19 @@ const faqs = [
     animation: waitlistPulse 1.6s ease-in-out infinite;
   }
   @keyframes waitlistPulse {
-    0%, 100% { opacity: 0.45; }
-    50%      { opacity: 1; }
+    0%,
+    100% {
+      opacity: 0.45;
+    }
+    50% {
+      opacity: 1;
+    }
   }
   @media (prefers-reduced-motion: reduce) {
-    .big-spinner { animation: none; opacity: 0.8; }
+    .big-spinner {
+      animation: none;
+      opacity: 0.8;
+    }
   }
 
   /* Success Layer */
@@ -1159,8 +1394,12 @@ const faqs = [
     .waitlist-cta {
       padding: 60px 20px;
     }
-    .tool-hero { padding-top: 48px; }
-    .waitlist-cta { padding-bottom: 72px; }
+    .tool-hero {
+      padding-top: 48px;
+    }
+    .waitlist-cta {
+      padding-bottom: 72px;
+    }
 
     .cat-summary {
       flex-wrap: wrap;
@@ -1189,7 +1428,9 @@ const faqs = [
       font-size: 11px;
     }
 
-    .waitlist-row { flex-direction: column; }
+    .waitlist-row {
+      flex-direction: column;
+    }
     .waitlist-input {
       border-right: 1.5px solid var(--ink);
       border-bottom: 0;

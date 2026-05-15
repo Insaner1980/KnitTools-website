@@ -4,11 +4,18 @@ description: "Förstå vad samtidigt betyder i stickmönster. Följ två saker p
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 8
-tags: ["samtidigt i stickmönster", "parallella stickinstruktioner", "stickmönster samtidigt", "formning samtidigt stickning"]
+tags:
+  [
+    "samtidigt i stickmönster",
+    "parallella stickinstruktioner",
+    "stickmönster samtidigt",
+    "formning samtidigt stickning",
+  ]
 draft: false
 lang: sv
 translationKey: "at-the-same-time-knitting"
 ---
+
 Det betyder precis vad det säger, och det är just därför det blir förvirrande. Två olika saker händer på samma varv, och mönstret beskriver dem var för sig fast du gör dem samtidigt.
 
 "Samtidigt" i ett stickmönster betyder att två uppsättningar instruktioner pågår parallellt över samma varv. Ofta handlar det om en formning som ligger ovanpå ett pågående strukturmönster. Det dyker oftast upp i plagg. Mönstret kan inte alltid beskriva båda sakerna tydligt på en enda rad, så det beskriver först den ena åtgärden, skriver sedan "samtidigt" och beskriver den andra.

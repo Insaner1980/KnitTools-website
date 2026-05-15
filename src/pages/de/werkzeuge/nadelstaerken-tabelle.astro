@@ -1,52 +1,52 @@
 ---
-import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
-import { routes } from '../../../i18n/routes';
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
+import { routes } from "../../../i18n/routes";
 
 const rows = [
-  ['1,5', '000', '-', '-', 'Lace'],
-  ['1,75', '00', '-', '-', 'Lace'],
-  ['2,0', '0', '14', '0', 'Lace'],
-  ['2,25', '1', '13', '-', 'Fingering / Sockengarn'],
-  ['2,5', '1,5', '-', '-', 'Fingering / Sockengarn'],
-  ['2,75', '2', '12', '2', 'Fingering / Sockengarn'],
-  ['3,0', '2,5', '11', '3', 'Sport'],
-  ['3,25', '3', '10', '-', 'Sport'],
-  ['3,5', '4', '-', '5', 'Sport'],
-  ['3,75', '5', '9', '-', 'DK / Light'],
-  ['4,0', '6', '8', '6', 'DK / Light'],
-  ['4,5', '7', '7', '8', 'Worsted / Medium'],
-  ['5,0', '8', '6', '10', 'Worsted / Medium'],
-  ['5,5', '9', '5', '-', 'Worsted / Medium'],
-  ['6,0', '10', '4', '13', 'Bulky / Chunky'],
-  ['6,5', '10,5', '3', '-', 'Bulky / Chunky'],
-  ['7,0', '-', '2', '-', 'Bulky / Chunky'],
-  ['8,0', '11', '0', '-', 'Super Bulky'],
-  ['9,0', '13', '00', '-', 'Super Bulky'],
-  ['10,0', '15', '000', '-', 'Super Bulky'],
-  ['12,0', '17', '-', '-', 'Jumbo'],
-  ['12,75', '-', '-', '-', 'Jumbo'],
-  ['15,0', '19', '-', '-', 'Jumbo'],
-  ['16,0', '19', '-', '-', 'Jumbo'],
-  ['19,0', '35', '-', '-', 'Jumbo'],
-  ['25,0', '50', '-', '-', 'Jumbo'],
+  ["1,5", "000", "-", "-", "Lace"],
+  ["1,75", "00", "-", "-", "Lace"],
+  ["2,0", "0", "14", "0", "Lace"],
+  ["2,25", "1", "13", "-", "Fingering / Sockengarn"],
+  ["2,5", "1,5", "-", "-", "Fingering / Sockengarn"],
+  ["2,75", "2", "12", "2", "Fingering / Sockengarn"],
+  ["3,0", "2,5", "11", "3", "Sport"],
+  ["3,25", "3", "10", "-", "Sport"],
+  ["3,5", "4", "-", "5", "Sport"],
+  ["3,75", "5", "9", "-", "DK / Light"],
+  ["4,0", "6", "8", "6", "DK / Light"],
+  ["4,5", "7", "7", "8", "Worsted / Medium"],
+  ["5,0", "8", "6", "10", "Worsted / Medium"],
+  ["5,5", "9", "5", "-", "Worsted / Medium"],
+  ["6,0", "10", "4", "13", "Bulky / Chunky"],
+  ["6,5", "10,5", "3", "-", "Bulky / Chunky"],
+  ["7,0", "-", "2", "-", "Bulky / Chunky"],
+  ["8,0", "11", "0", "-", "Super Bulky"],
+  ["9,0", "13", "00", "-", "Super Bulky"],
+  ["10,0", "15", "000", "-", "Super Bulky"],
+  ["12,0", "17", "-", "-", "Jumbo"],
+  ["12,75", "-", "-", "-", "Jumbo"],
+  ["15,0", "19", "-", "-", "Jumbo"],
+  ["16,0", "19", "-", "-", "Jumbo"],
+  ["19,0", "35", "-", "-", "Jumbo"],
+  ["25,0", "50", "-", "-", "Jumbo"],
 ];
 
 const faqs = [
   {
-    q: 'Kann ich eine ähnliche Nadelstärke nehmen, wenn ich die genaue nicht habe?',
-    a: 'Du kannst es probieren, aber schon 0,5 mm können die Maschenprobe sichtbar verändern. Für passgenaue Kleidung solltest du neu probestricken.',
+    q: "Kann ich eine ähnliche Nadelstärke nehmen, wenn ich die genaue nicht habe?",
+    a: "Du kannst es probieren, aber schon 0,5 mm können die Maschenprobe sichtbar verändern. Für passgenaue Kleidung solltest du neu probestricken.",
   },
   {
-    q: 'Sind Nadelstärken bei allen Marken gleich?',
-    a: 'Eigentlich sollten sie gleich sein. In der Praxis gibt es kleine Abweichungen, besonders bei alten Nadeln oder sehr günstigen Sets. Wenn die Maschenprobe dauerhaft nicht passt, miss die Nadel nach.',
+    q: "Sind Nadelstärken bei allen Marken gleich?",
+    a: "Eigentlich sollten sie gleich sein. In der Praxis gibt es kleine Abweichungen, besonders bei alten Nadeln oder sehr günstigen Sets. Wenn die Maschenprobe dauerhaft nicht passt, miss die Nadel nach.",
   },
   {
-    q: 'Gilt die Nadelstärke auch für Rundstricknadeln?',
-    a: 'Ja. Die Nadelstärke beschreibt den Durchmesser der Spitze, nicht die Kabellänge. Eine Rundstricknadel mit 4,5 mm hat dieselbe Stärke wie eine gerade Nadel mit 4,5 mm.',
+    q: "Gilt die Nadelstärke auch für Rundstricknadeln?",
+    a: "Ja. Die Nadelstärke beschreibt den Durchmesser der Spitze, nicht die Kabellänge. Eine Rundstricknadel mit 4,5 mm hat dieselbe Stärke wie eine gerade Nadel mit 4,5 mm.",
   },
   {
-    q: 'Brauche ich jede Nadelstärke?',
-    a: 'Nein. Die meisten nutzen immer wieder einige wenige Stärken, die zu ihren häufigsten Garnen passen. Wenn du viel DK und Worsted strickst, brauchst du 3,75-5,5 mm besonders oft.',
+    q: "Brauche ich jede Nadelstärke?",
+    a: "Nein. Die meisten nutzen immer wieder einige wenige Stärken, die zu ihren häufigsten Garnen passen. Wenn du viel DK und Worsted strickst, brauchst du 3,75-5,5 mm besonders oft.",
   },
 ];
 ---
@@ -84,54 +84,97 @@ const faqs = [
             </tr>
           </thead>
           <tbody>
-            {rows.map((row) => (
-              <tr data-mm={row[0]} data-us={row[1] === '-' ? '' : row[1]} data-uk={row[2] === '-' ? '' : row[2]} data-jp={row[3] === '-' ? '' : row[3]}>
-                <td class="col-mm">{row[0]}</td>
-                {row.slice(1).map((cell) => <td>{cell === '-' ? '—' : cell}</td>)}
-              </tr>
-            ))}
+            {
+              rows.map((row) => (
+                <tr
+                  data-mm={row[0]}
+                  data-us={row[1] === "-" ? "" : row[1]}
+                  data-uk={row[2] === "-" ? "" : row[2]}
+                  data-jp={row[3] === "-" ? "" : row[3]}
+                >
+                  <td class="col-mm">{row[0]}</td>
+                  {row.slice(1).map((cell) => (
+                    <td>{cell === "-" ? "—" : cell}</td>
+                  ))}
+                </tr>
+              ))
+            }
           </tbody>
         </table>
       </div>
-      <p class="no-results" id="no-results" hidden>Keine passende Nadelstärke gefunden.</p>
+      <p class="no-results" id="no-results" hidden>
+        Keine passende Nadelstärke gefunden.
+      </p>
     </div>
   </div>
 
   <div slot="content">
     <h2>Warum es mehrere Größensysteme gibt</h2>
-    <p>Millimeter geben den tatsächlichen Durchmesser der Nadel an. US- und alte UK-Größen sind dagegen Bezeichnungen. Das alte UK-System läuft außerdem rückwärts: Eine kleinere Zahl steht für eine dickere Nadel. Genau dort passieren bei alten Anleitungen schnell Fehler.</p>
+    <p>
+      Millimeter geben den tatsächlichen Durchmesser der Nadel an. US- und alte
+      UK-Größen sind dagegen Bezeichnungen. Das alte UK-System läuft außerdem
+      rückwärts: Eine kleinere Zahl steht für eine dickere Nadel. Genau dort
+      passieren bei alten Anleitungen schnell Fehler.
+    </p>
 
     <h2>Millimeter sind die sichere Wahl</h2>
-    <p>Wenn eine Anleitung sowohl US-Größe als auch Millimeter nennt, folge den Millimetern. US 7 bedeutet 4,5 mm, aber die Zahl 7 sagt nichts über den Durchmesser aus. Wenn die Markierung auf der Nadel abgerieben ist, ist ein Nadelmaß schneller als Raten.</p>
+    <p>
+      Wenn eine Anleitung sowohl US-Größe als auch Millimeter nennt, folge den
+      Millimetern. US 7 bedeutet 4,5 mm, aber die Zahl 7 sagt nichts über den
+      Durchmesser aus. Wenn die Markierung auf der Nadel abgerieben ist, ist ein
+      Nadelmaß schneller als Raten.
+    </p>
 
     <h2>Häufige Umrechnungsfehler</h2>
-    <p>US- und UK-Größen können ähnlich aussehen und trotzdem unterschiedliche Nadeln meinen. US 8 ist 5,0 mm, während UK 8 im alten System 4,0 mm ist. Prüfe bei Vintage-Anleitungen immer das Land und die Millimeterangabe, falls sie vorhanden ist.</p>
+    <p>
+      US- und UK-Größen können ähnlich aussehen und trotzdem unterschiedliche
+      Nadeln meinen. US 8 ist 5,0 mm, während UK 8 im alten System 4,0 mm ist.
+      Prüfe bei Vintage-Anleitungen immer das Land und die Millimeterangabe,
+      falls sie vorhanden ist.
+    </p>
 
     <h2>Nadel und Garn entscheiden nicht allein</h2>
-    <p>Die Garnbanderole gibt eine Empfehlung, aber die fertige Strickfläche entscheidet. Dasselbe DK-Garn kann auf kleineren Nadeln eine feste Mütze ergeben und auf größeren Nadeln einen weichen Cardigan. Die Maschenprobe zeigt, ob die Nadel zu deinem Projekt passt.</p>
+    <p>
+      Die Garnbanderole gibt eine Empfehlung, aber die fertige Strickfläche
+      entscheidet. Dasselbe DK-Garn kann auf kleineren Nadeln eine feste Mütze
+      ergeben und auf größeren Nadeln einen weichen Cardigan. Die Maschenprobe
+      zeigt, ob die Nadel zu deinem Projekt passt.
+    </p>
 
     <h2>Nadelstärke und Garnstärke gehören zusammen</h2>
-    <p>Dünne Garne brauchen meist kleinere Nadeln, dicke Garne größere. Das ist trotzdem keine Regel. Für ein luftiges Tuch kann die Nadel größer sein als die Empfehlung auf der Banderole. Für feste Fäustlinge kann sie kleiner sein.</p>
+    <p>
+      Dünne Garne brauchen meist kleinere Nadeln, dicke Garne größere. Das ist
+      trotzdem keine Regel. Für ein luftiges Tuch kann die Nadel größer sein als
+      die Empfehlung auf der Banderole. Für feste Fäustlinge kann sie kleiner
+      sein.
+    </p>
 
     <h2>Wie misst du unmarkierte Nadeln?</h2>
-    <p>Nutze ein Nadelmaß mit Millimeterlöchern. Schiebe den Schaft der Nadel vorsichtig in das Loch, in das er ohne Druck passt. Miss nicht die Spitze und nicht das Kabel einer Rundstricknadel: Die Nadelstärke meint den Durchmesser des arbeitenden Nadelschafts.</p>
+    <p>
+      Nutze ein Nadelmaß mit Millimeterlöchern. Schiebe den Schaft der Nadel
+      vorsichtig in das Loch, in das er ohne Druck passt. Miss nicht die Spitze
+      und nicht das Kabel einer Rundstricknadel: Die Nadelstärke meint den
+      Durchmesser des arbeitenden Nadelschafts.
+    </p>
   </div>
 </LocalizedToolPage>
 
 <script>
-  const searchInput = document.getElementById('needle-search') as HTMLInputElement | null;
-  const table = document.getElementById('needle-table');
-  const noResults = document.getElementById('no-results');
+  const searchInput = document.getElementById(
+    "needle-search",
+  ) as HTMLInputElement | null;
+  const table = document.getElementById("needle-table");
+  const noResults = document.getElementById("no-results");
 
   if (searchInput && table && noResults) {
-    const rows = table.querySelectorAll<HTMLElement>('tbody tr');
+    const rows = table.querySelectorAll<HTMLElement>("tbody tr");
 
-    searchInput.addEventListener('input', () => {
+    searchInput.addEventListener("input", () => {
       const raw = searchInput.value.trim().toLowerCase();
 
       if (!raw) {
         rows.forEach((row) => {
-          row.style.display = '';
+          row.style.display = "";
         });
         noResults.hidden = true;
         return;
@@ -139,43 +182,45 @@ const faqs = [
 
       let targetCol: string | null = null;
       let query = raw;
-      const normalizeNumber = (value: string) => value.replace(',', '.');
+      const normalizeNumber = (value: string) => value.replace(",", ".");
 
-      if (raw.startsWith('us ')) {
-        targetCol = 'us';
+      if (raw.startsWith("us ")) {
+        targetCol = "us";
         query = raw.slice(3).trim();
-      } else if (raw.startsWith('uk ')) {
-        targetCol = 'uk';
+      } else if (raw.startsWith("uk ")) {
+        targetCol = "uk";
         query = raw.slice(3).trim();
-      } else if (raw.startsWith('jp ') || raw.startsWith('japan ') || raw.startsWith('japanisch ')) {
-        targetCol = 'jp';
-        query = raw.replace(/^(jp|japan|japanisch)\s+/, '').trim();
+      } else if (
+        raw.startsWith("jp ") ||
+        raw.startsWith("japan ") ||
+        raw.startsWith("japanisch ")
+      ) {
+        targetCol = "jp";
+        query = raw.replace(/^(jp|japan|japanisch)\s+/, "").trim();
       }
 
       let visibleCount = 0;
 
       rows.forEach((row) => {
-        const mm = row.dataset.mm || '';
-        const us = row.dataset.us || '';
-        const uk = row.dataset.uk || '';
-        const jp = row.dataset.jp || '';
+        const mm = row.dataset.mm || "";
+        const us = row.dataset.us || "";
+        const uk = row.dataset.uk || "";
+        const jp = row.dataset.jp || "";
 
-        let match = false;
-        if (targetCol === 'us') {
-          match = normalizeNumber(us) === normalizeNumber(query);
-        } else if (targetCol === 'uk') {
-          match = normalizeNumber(uk) === normalizeNumber(query);
-        } else if (targetCol === 'jp') {
-          match = normalizeNumber(jp) === normalizeNumber(query);
-        } else {
-          const normalizedQuery = normalizeNumber(query);
-          match = normalizeNumber(mm).startsWith(normalizedQuery)
-            || normalizeNumber(us) === normalizedQuery
-            || normalizeNumber(uk) === normalizedQuery
-            || normalizeNumber(jp) === normalizedQuery;
-        }
+        const normalizedQuery = normalizeNumber(query);
+        const match =
+          targetCol === "us"
+            ? normalizeNumber(us) === normalizedQuery
+            : targetCol === "uk"
+              ? normalizeNumber(uk) === normalizedQuery
+              : targetCol === "jp"
+                ? normalizeNumber(jp) === normalizedQuery
+                : normalizeNumber(mm).startsWith(normalizedQuery) ||
+                  normalizeNumber(us) === normalizedQuery ||
+                  normalizeNumber(uk) === normalizedQuery ||
+                  normalizeNumber(jp) === normalizedQuery;
 
-        row.style.display = match ? '' : 'none';
+        row.style.display = match ? "" : "none";
         if (match) visibleCount++;
       });
 

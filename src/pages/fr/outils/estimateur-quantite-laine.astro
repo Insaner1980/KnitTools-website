@@ -1,27 +1,27 @@
 ---
-import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
-import YarnEstimator from '../../../components/YarnEstimator.astro';
-import { routes } from '../../../i18n/routes';
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
+import YarnEstimator from "../../../components/YarnEstimator.astro";
+import { routes } from "../../../i18n/routes";
 
 const faqs = [
   {
-    q: 'Comment savoir combien de laine mon projet demande ?',
-    a: 'Le modèle indique normalement le métrage total dans la partie matériel. Si tu prépares un projet sans modèle, cherche les quantités moyennes pour le même type de projet et la même taille. Il existe des fourchettes assez établies pour la plupart des vêtements.',
+    q: "Comment savoir combien de laine mon projet demande ?",
+    a: "Le modèle indique normalement le métrage total dans la partie matériel. Si tu prépares un projet sans modèle, cherche les quantités moyennes pour le même type de projet et la même taille. Il existe des fourchettes assez établies pour la plupart des vêtements.",
   },
   {
-    q: 'Faut-il acheter du fil en plus ?',
+    q: "Faut-il acheter du fil en plus ?",
     a: "Toujours. Achète au moins une pelote de plus, surtout si le fil a un numéro de bain. Les bains peuvent varier légèrement en couleur, et retrouver le même plus tard peut être impossible si le lot est épuisé.",
   },
   {
-    q: 'Que faire si mon modèle donne des yards ou des grammes ?',
+    q: "Que faire si mon modèle donne des yards ou des grammes ?",
     a: "L'estimateur affiche les mètres. Si ton modèle donne des yards, convertis d'abord en mètres. Si le modèle ou ton stock n'est indiqué qu'en grammes, regarde l'étiquette pour connaître les mètres par pelote et calcule à partir de là. Le poids seul ne suffit pas, car deux pelotes de 50 g peuvent contenir des longueurs de fil très différentes.",
   },
   {
     q: "L'épaisseur du fil change-t-elle la quantité nécessaire ?",
-    a: 'Oui. Un fil fin, comme fingering ou sport, demande plus de mètres pour le même projet qu’un fil plus épais, comme worsted ou bulky, parce que les mailles sont plus petites et qu’il en faut davantage pour couvrir la même surface.',
+    a: "Oui. Un fil fin, comme fingering ou sport, demande plus de mètres pour le même projet qu’un fil plus épais, comme worsted ou bulky, parce que les mailles sont plus petites et qu’il en faut davantage pour couvrir la même surface.",
   },
   {
-    q: 'Puis-je remplacer le fil recommandé par un autre ?',
+    q: "Puis-je remplacer le fil recommandé par un autre ?",
     a: "Oui, si l'échantillon correspond. Tricote un échantillon avec le fil de remplacement, vérifie que tu obtiens le même nombre de mailles pour 10 cm, puis utilise ce calculateur pour estimer la quantité totale avec ce nouveau fil.",
   },
 ];
@@ -45,12 +45,31 @@ const faqs = [
 
   <div slot="content">
     <h2>Comment utiliser ce calculateur</h2>
-    <p>Choisis le type de projet, la taille et l'épaisseur du fil. L'estimateur donne une quantité approximative en mètres. Utilise-la comme base de planification, puis ajoute une marge de sécurité avant d'acheter ton fil. Tomber à court au milieu d'un projet avec un bain introuvable, c'est le cauchemar classique.</p>
+    <p>
+      Choisis le type de projet, la taille et l'épaisseur du fil. L'estimateur
+      donne une quantité approximative en mètres. Utilise-la comme base de
+      planification, puis ajoute une marge de sécurité avant d'acheter ton fil.
+      Tomber à court au milieu d'un projet avec un bain introuvable, c'est le
+      cauchemar classique.
+    </p>
 
     <h2>De combien de laine ai-je besoin ?</h2>
-    <p>La quantité de fil dépend de trois choses : ce que tu tricotes, la taille et l'épaisseur du fil. Un pull adulte en fingering demande environ 1 200 à 1 500 mètres. Un bonnet en bulky peut se contenter de 100 mètres. Si un modèle donne son propre métrage, utilise-le en priorité ; cet estimateur sert surtout à planifier sans modèle ou à vérifier si une quantité de fil est réaliste.</p>
+    <p>
+      La quantité de fil dépend de trois choses : ce que tu tricotes, la taille
+      et l'épaisseur du fil. Un pull adulte en fingering demande environ 1 200 à
+      1 500 mètres. Un bonnet en bulky peut se contenter de 100 mètres. Si un
+      modèle donne son propre métrage, utilise-le en priorité ; cet estimateur
+      sert surtout à planifier sans modèle ou à vérifier si une quantité de fil
+      est réaliste.
+    </p>
 
     <h2>Lire une étiquette de pelote</h2>
-    <p>Chaque étiquette, ou bande de pelote, indique la longueur par pelote. Une fois que tu as une estimation totale, divise ce nombre par les mètres par pelote indiqués sur l'étiquette pour savoir combien acheter. Si tu as perdu l'étiquette, pèse ton fil sur une balance de cuisine et vérifie sur le site du fabricant le ratio mètres par gramme.</p>
+    <p>
+      Chaque étiquette, ou bande de pelote, indique la longueur par pelote. Une
+      fois que tu as une estimation totale, divise ce nombre par les mètres par
+      pelote indiqués sur l'étiquette pour savoir combien acheter. Si tu as
+      perdu l'étiquette, pèse ton fil sur une balance de cuisine et vérifie sur
+      le site du fabricant le ratio mètres par gramme.
+    </p>
   </div>
 </LocalizedToolPage>

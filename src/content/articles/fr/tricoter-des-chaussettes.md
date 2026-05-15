@@ -4,11 +4,18 @@ description: "Comprendre les parties d'une chaussette tricotée : bord, jambe, t
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 13
-tags: ["tricoter des chaussettes", "guide chaussettes tricot", "chaussettes tricot débutant", "anatomie modèle chaussette"]
+tags:
+  [
+    "tricoter des chaussettes",
+    "guide chaussettes tricot",
+    "chaussettes tricot débutant",
+    "anatomie modèle chaussette",
+  ]
 draft: false
 lang: fr
 translationKey: "how-to-knit-socks"
 ---
+
 Les chaussettes impressionnent parce qu'elles utilisent des techniques qu'on ne croise pas dans les écharpes et les bonnets : tourner un talon, relever des mailles de gousset, fermer la pointe au grafting. Mais chaque partie d'une chaussette est assez simple séparément. La complexité vient de la façon dont les morceaux s'enchaînent, pas du tricot lui-même.
 
 Une chaussette tricotée a six parties (bord, jambe, talon, gousset, pied et pointe) et peut se construire soit du haut vers la pointe, soit de la pointe vers le haut. Comprendre l'anatomie rend n'importe quel modèle de chaussettes beaucoup moins mystérieux.

@@ -71,44 +71,48 @@ def transform_site(content: str) -> str:
     return content
 
 
-def main():
-    dry_run = '--dry-run' in sys.argv
-    article_count = 0
-    site_count = 0
+def update_file(path: Path, transformer, dry_run: bool) -> tuple[bool, int]:
+    original = path.read_text(encoding='utf-8')
+    new = transformer(original)
+    before = original.count(EMD)
+    after = new.count(EMD)
+    if after > 0:
+        print(f"  REMAINING {after} em dash(es) in {path}")
+    if new != original:
+        print(f"  {path}: {before} -> {after}")
+        if not dry_run:
+            path.write_text(new, encoding='utf-8')
+        return True, after
+    return False, after
+
+
+def process_files(paths, transformer, dry_run: bool) -> tuple[int, int]:
+    changed_count = 0
     remaining = 0
+    for path in paths:
+        changed, after = update_file(path, transformer, dry_run)
+        if changed:
+            changed_count += 1
+        remaining += after
+    return changed_count, remaining
 
-    for md in sorted(ARTICLES_DIR.glob('*.md')):
-        original = md.read_text(encoding='utf-8')
-        new = transform_article(original)
-        before = original.count(EMD)
-        after = new.count(EMD)
-        if after > 0:
-            remaining += after
-            print(f"  REMAINING {after} em dash(es) in {md.name}")
-        if new != original:
-            article_count += 1
-            print(f"  {md.name}: {before} -> {after}")
-            if not dry_run:
-                md.write_text(new, encoding='utf-8')
 
-    for f in SITE_FILES:
-        original = f.read_text(encoding='utf-8')
-        new = transform_site(original)
-        before = original.count(EMD)
-        after = new.count(EMD)
-        if after > 0:
-            remaining += after
-            print(f"  REMAINING {after} em dash(es) in {f}")
-        if new != original:
-            site_count += 1
-            print(f"  {f}: {before} -> {after}")
-            if not dry_run:
-                f.write_text(new, encoding='utf-8')
-
+def print_summary(dry_run: bool, article_count: int, site_count: int, remaining: int) -> None:
     print(f"\nMode: {'dry-run' if dry_run else 'write'}")
     print(f"Articles updated: {article_count}")
     print(f"Site files updated: {site_count}")
     print(f"Remaining em dashes: {remaining}")
+
+
+def main():
+    dry_run = '--dry-run' in sys.argv
+    article_count, article_remaining = process_files(
+        sorted(ARTICLES_DIR.glob('*.md')),
+        transform_article,
+        dry_run,
+    )
+    site_count, site_remaining = process_files(SITE_FILES, transform_site, dry_run)
+    print_summary(dry_run, article_count, site_count, article_remaining + site_remaining)
 
 
 if __name__ == '__main__':

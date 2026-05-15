@@ -1,25 +1,26 @@
 ---
-import PageLayout from '../../layouts/PageLayout.astro';
-import { getCollection } from 'astro:content';
-import ArticleCard from '../../components/ArticleCard.astro';
-import ClosingCTA from '../../components/ClosingCTA.astro';
+import PageLayout from "../../layouts/PageLayout.astro";
+import { getCollection } from "astro:content";
+import ArticleCard from "../../components/ArticleCard.astro";
+import ClosingCTA from "../../components/ClosingCTA.astro";
 import {
   CATEGORY_ORDER,
   getCategoryDescription,
   getCategoryLabel,
-  type CategorySlug,
-} from '../../lib/categories';
-import { PRICING } from '../../config/pricing';
-import { isEnglishArticle } from '../../i18n/articles';
-import { routes } from '../../i18n/routes';
+} from "../../lib/categories";
+import { PRICING } from "../../config/pricing";
+import { isEnglishArticle } from "../../i18n/articles";
+import { routes } from "../../i18n/routes";
 
-const articles = await getCollection('articles', ({ data }) =>
-  (import.meta.env.DEV ? true : !data.draft)
+const articles = await getCollection("articles", ({ data }) =>
+  import.meta.env.DEV ? true : !data.draft,
 );
 const englishArticles = articles.filter(isEnglishArticle);
 
-const byCategoryOrder = (a: typeof articles[number], b: typeof articles[number]) =>
-  (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999);
+const byCategoryOrder = (
+  a: (typeof articles)[number],
+  b: (typeof articles)[number],
+) => (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999);
 
 const sections = CATEGORY_ORDER.map((slug) => {
   const categoryArticles = englishArticles
@@ -32,7 +33,10 @@ const sections = CATEGORY_ORDER.map((slug) => {
     label: getCategoryLabel(slug),
     description: getCategoryDescription(slug),
     articles: previewArticles,
-    remainingCount: Math.max(categoryArticles.length - previewArticles.length, 0),
+    remainingCount: Math.max(
+      categoryArticles.length - previewArticles.length,
+      0,
+    ),
   };
 }).filter((s) => s.articles.length > 0);
 
@@ -50,50 +54,66 @@ const totalCount = englishArticles.length;
     <div class="articles-header-inner">
       <p class="eyebrow">Articles</p>
       <h1>Knitting guides &amp; tips.</h1>
-      <p class="articles-intro">Practical writing for working knitters. Gauge math, yarn choices, needle picks, technique walk-throughs, and how to get the most out of the app.</p>
+      <p class="articles-intro">
+        Practical writing for working knitters. Gauge math, yarn choices, needle
+        picks, technique walk-throughs, and how to get the most out of the app.
+      </p>
 
-      {totalCount > 0 && (
-        <nav class="cat-nav" aria-label="Article categories">
-          {CATEGORY_ORDER.map((slug) => (
-            <a href={`#${slug}`} class="cat-nav-link">{getCategoryLabel(slug)}</a>
-          ))}
-        </nav>
-      )}
+      {
+        totalCount > 0 && (
+          <nav class="cat-nav" aria-label="Article categories">
+            {CATEGORY_ORDER.map((slug) => (
+              <a href={`#${slug}`} class="cat-nav-link">
+                {getCategoryLabel(slug)}
+              </a>
+            ))}
+          </nav>
+        )
+      }
     </div>
   </section>
 
-  {totalCount === 0 ? (
-    <section class="empty-section">
-      <div class="empty-state">
-        <p class="empty-eyebrow">Coming {PRICING.launchMonthLabel}</p>
-        <p class="empty-text">Articles are being written. In the meantime, try the calculators.</p>
-        <a href="/tools/" class="empty-link">Browse free tools &rarr;</a>
-      </div>
-    </section>
-  ) : (
-    sections.map((section) => (
-      <section class="cat-section" id={section.slug}>
-        <div class="cat-section-inner">
-          <header class="cat-header">
-            <div class="cat-header-text">
-              <p class="cat-eyebrow">{section.label}</p>
-              <p class="cat-description">{section.description}</p>
-            </div>
-            {section.remainingCount > 0 && (
-              <a href={`/articles/category/${section.slug}/`} class="cat-all-link">
-                View {section.remainingCount} more &rarr;
-              </a>
-            )}
-          </header>
-          <div class="articles-grid">
-            {section.articles.map((article) => (
-              <ArticleCard article={article} showCategory={false} />
-            ))}
-          </div>
+  {
+    totalCount === 0 ? (
+      <section class="empty-section">
+        <div class="empty-state">
+          <p class="empty-eyebrow">Coming {PRICING.launchMonthLabel}</p>
+          <p class="empty-text">
+            Articles are being written. In the meantime, try the calculators.
+          </p>
+          <a href="/tools/" class="empty-link">
+            Browse free tools &rarr;
+          </a>
         </div>
       </section>
-    ))
-  )}
+    ) : (
+      sections.map((section) => (
+        <section class="cat-section" id={section.slug}>
+          <div class="cat-section-inner">
+            <header class="cat-header">
+              <div class="cat-header-text">
+                <p class="cat-eyebrow">{section.label}</p>
+                <p class="cat-description">{section.description}</p>
+              </div>
+              {section.remainingCount > 0 && (
+                <a
+                  href={`/articles/category/${section.slug}/`}
+                  class="cat-all-link"
+                >
+                  View {section.remainingCount} more &rarr;
+                </a>
+              )}
+            </header>
+            <div class="articles-grid">
+              {section.articles.map((article) => (
+                <ArticleCard article={article} showCategory={false} />
+              ))}
+            </div>
+          </div>
+        </section>
+      ))
+    )
+  }
   <ClosingCTA variant="page" />
 </PageLayout>
 
@@ -158,7 +178,9 @@ const totalCount = englishArticles.length;
     text-decoration: none;
     padding: 6px 14px;
     border: 1px solid var(--ink);
-    transition: background 0.15s ease, color 0.15s ease;
+    transition:
+      background 0.15s ease,
+      color 0.15s ease;
   }
 
   .cat-nav-link:hover {
@@ -192,7 +214,10 @@ const totalCount = englishArticles.length;
     margin-bottom: 28px;
   }
 
-  .cat-header-text { flex: 1; min-width: 0; }
+  .cat-header-text {
+    flex: 1;
+    min-width: 0;
+  }
 
   .cat-eyebrow {
     font-family: var(--serif);
@@ -227,7 +252,10 @@ const totalCount = englishArticles.length;
     flex-shrink: 0;
   }
 
-  .cat-all-link:hover { color: var(--ink); border-bottom-color: var(--ink); }
+  .cat-all-link:hover {
+    color: var(--ink);
+    border-bottom-color: var(--ink);
+  }
 
   .articles-grid {
     display: grid;
@@ -279,19 +307,41 @@ const totalCount = englishArticles.length;
     padding-bottom: 2px;
   }
 
-  .empty-link:hover { color: var(--ink); border-bottom-color: var(--ink); }
+  .empty-link:hover {
+    color: var(--ink);
+    border-bottom-color: var(--ink);
+  }
 
   @media (max-width: 1024px) {
-    .articles-grid { grid-template-columns: repeat(2, 1fr); }
+    .articles-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   @media (max-width: 768px) {
-    .articles-header { padding: 60px 20px 32px; }
-    .cat-section { padding: 40px 20px 16px; }
-    .cat-section:last-of-type { padding-bottom: 72px; }
-    .empty-section { padding: 40px 20px 72px; }
-    .articles-grid { grid-template-columns: 1fr; gap: 12px; }
-    .cat-header { flex-direction: column; align-items: flex-start; gap: 12px; }
-    .empty-state { padding: 40px 24px; }
+    .articles-header {
+      padding: 60px 20px 32px;
+    }
+    .cat-section {
+      padding: 40px 20px 16px;
+    }
+    .cat-section:last-of-type {
+      padding-bottom: 72px;
+    }
+    .empty-section {
+      padding: 40px 20px 72px;
+    }
+    .articles-grid {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    .cat-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .empty-state {
+      padding: 40px 24px;
+    }
   }
 </style>

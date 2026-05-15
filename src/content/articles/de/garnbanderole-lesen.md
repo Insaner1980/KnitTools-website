@@ -4,11 +4,18 @@ description: "So liest du eine Garnbanderole: Materialzusammensetzung, Garnstär
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 3
-tags: ["Garnbanderole lesen", "Garnbanderole Symbole", "Banderole Garn", "Pflegesymbole Garn"]
+tags:
+  [
+    "Garnbanderole lesen",
+    "Garnbanderole Symbole",
+    "Banderole Garn",
+    "Pflegesymbole Garn",
+  ]
 draft: false
 lang: de
 translationKey: "how-to-read-yarn-label"
 ---
+
 Diese kleine Papierbanderole um das Knäuel macht mehr, als das Garn zusammenzuhalten. Jedes Symbol, jede Zahl und jedes Icon steht dort, weil irgendwann jemand das falsche Garn gekauft oder einen fertigen Pullover in der Wäsche ruiniert hat. Die Banderole ist der Spickzettel, den man besser vorher gelesen hätte.
 
 Eine Garnbanderole nennt Materialzusammensetzung, Garnstärke, empfohlene Maschenprobe, Nadelstärke, Pflegehinweise und Farbpartie. Also alles, was du brauchst, um das Garn richtig auszuwählen, zu verarbeiten und zu pflegen. Nimm ein Knäuel aus dem Regal oder such eine Banderole aus deinem Garnvorrat. Das sagen die einzelnen Bereiche wirklich.

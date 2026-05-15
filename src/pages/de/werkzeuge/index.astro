@@ -1,50 +1,54 @@
 ---
-import PageLayout from '../../../layouts/PageLayout.astro';
-import ClosingCTA from '../../../components/ClosingCTA.astro';
-import { routes } from '../../../i18n/routes';
+import PageLayout from "../../../layouts/PageLayout.astro";
+import ClosingCTA from "../../../components/ClosingCTA.astro";
+import { routes } from "../../../i18n/routes";
 
 const tools = [
   {
-    tag: 'Maschen',
-    title: 'Maschenanschlag-Rechner',
-    description: 'Berechne, wie viele Maschen du für eine gewünschte Breite und Maschenprobe anschlagen solltest.',
+    tag: "Maschen",
+    title: "Maschenanschlag-Rechner",
+    description:
+      "Berechne, wie viele Maschen du für eine gewünschte Breite und Maschenprobe anschlagen solltest.",
     href: routes.tool.castOnCalculator.de,
-    className: 'card-terracotta card-top-left',
+    className: "card-terracotta card-top-left",
   },
   {
-    tag: 'Garnbedarf',
-    title: 'Garnbedarfsrechner',
-    description: 'Schätze den Garnbedarf nach Projektart, Größe und Garnstärke.',
+    tag: "Garnbedarf",
+    title: "Garnbedarfsrechner",
+    description:
+      "Schätze den Garnbedarf nach Projektart, Größe und Garnstärke.",
     href: routes.tool.yarnEstimator.de,
-    className: 'card-rust card-top-right',
+    className: "card-rust card-top-right",
   },
   {
-    tag: 'Garnstärken',
-    title: 'Garnstärken-Tabelle',
-    description: 'Garnstärken, Maschenproben, Nadelstärken und WPI an einem Ort.',
+    tag: "Garnstärken",
+    title: "Garnstärken-Tabelle",
+    description:
+      "Garnstärken, Maschenproben, Nadelstärken und WPI an einem Ort.",
     href: routes.tool.yarnWeightChart.de,
-    className: 'card-sand card-bl1',
+    className: "card-sand card-bl1",
   },
   {
-    tag: 'Nadeln',
-    title: 'Nadelstärken-Tabelle',
-    description: 'Vergleiche metrische, US-, UK- und japanische Nadelstärken.',
+    tag: "Nadeln",
+    title: "Nadelstärken-Tabelle",
+    description: "Vergleiche metrische, US-, UK- und japanische Nadelstärken.",
     href: routes.tool.needleSizeChart.de,
-    className: 'card-teal card-br1',
+    className: "card-teal card-br1",
   },
   {
-    tag: 'Größen',
-    title: 'Größentabellen fürs Stricken',
-    description: 'Körpermaße von Baby bis Erwachsene in Zentimetern und Zoll.',
+    tag: "Größen",
+    title: "Größentabellen fürs Stricken",
+    description: "Körpermaße von Baby bis Erwachsene in Zentimetern und Zoll.",
     href: routes.tool.knittingSizeCharts.de,
-    className: 'card-terracotta card-bl2',
+    className: "card-terracotta card-bl2",
   },
   {
-    tag: 'Glossar',
-    title: 'Strickabkürzungen',
-    description: 'Suche Abkürzungen aus Strickanleitungen oder finde Begriffe nach Technik.',
+    tag: "Glossar",
+    title: "Strickabkürzungen",
+    description:
+      "Suche Abkürzungen aus Strickanleitungen oder finde Begriffe nach Technik.",
     href: routes.tool.knittingAbbreviations.de,
-    className: 'card-brown card-br2',
+    className: "card-brown card-br2",
   },
 ];
 ---
@@ -57,39 +61,47 @@ const tools = [
   alternates={routes.toolsIndex}
   showStripe={false}
 >
-  <script type="application/ld+json" set:html={JSON.stringify({
-    '@context': 'https://schema.org',
-    '@type': 'CollectionPage',
-    name: 'Kostenlose Stricktools',
-    description: 'Kostenlose Strickrechner und Referenztabellen.',
-    url: 'https://knittoolsapp.com/de/werkzeuge/',
-    mainEntity: {
-      '@type': 'ItemList',
-      itemListElement: tools.map((tool, index) => ({
-        '@type': 'ListItem',
-        position: index + 1,
-        url: `https://knittoolsapp.com${tool.href}`,
-      })),
-    },
-  })} />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Kostenlose Stricktools",
+      description: "Kostenlose Strickrechner und Referenztabellen.",
+      url: "https://knittoolsapp.com/de/werkzeuge/",
+      mainEntity: {
+        "@type": "ItemList",
+        itemListElement: tools.map((tool, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          url: `https://knittoolsapp.com${tool.href}`,
+        })),
+      },
+    })}
+  />
 
   <section class="tools-header">
     <div class="tools-header-inner">
       <p class="eyebrow">Kostenlose Tools</p>
       <h1>Stricktools online.</h1>
-      <p class="tools-intro">Rechner und Tabellen für deine Strickprojekte. Ohne Anmeldung, ohne App-Installation.</p>
+      <p class="tools-intro">
+        Rechner und Tabellen für deine Strickprojekte. Ohne Anmeldung, ohne
+        App-Installation.
+      </p>
     </div>
   </section>
 
   <section class="tools-grid-section">
     <div class="tools-grid">
-      {tools.map((tool) => (
-        <a href={tool.href} class:list={['tool-card', tool.className]}>
-          <span class="tag">{tool.tag}</span>
-          <h2 class="card-title">{tool.title}</h2>
-          <p class="card-desc">{tool.description}</p>
-        </a>
-      ))}
+      {
+        tools.map((tool) => (
+          <a href={tool.href} class:list={["tool-card", tool.className]}>
+            <span class="tag">{tool.tag}</span>
+            <h2 class="card-title">{tool.title}</h2>
+            <p class="card-desc">{tool.description}</p>
+          </a>
+        ))
+      }
     </div>
   </section>
   <ClosingCTA variant="page" lang="de" />
@@ -146,18 +158,52 @@ const tools = [
     gap: 20px;
   }
 
-  .card-top-left { grid-column: 1 / 7; min-height: 220px; }
-  .card-top-right { grid-column: 7 / 13; min-height: 220px; }
-  .card-bl1 { grid-column: 1 / 4; }
-  .card-br1 { grid-column: 4 / 7; }
-  .card-bl2 { grid-column: 7 / 10; }
-  .card-br2 { grid-column: 10 / 13; }
+  .card-top-left {
+    grid-column: 1 / 7;
+    min-height: 220px;
+  }
+  .card-top-right {
+    grid-column: 7 / 13;
+    min-height: 220px;
+  }
+  .card-bl1 {
+    grid-column: 1 / 4;
+  }
+  .card-br1 {
+    grid-column: 4 / 7;
+  }
+  .card-bl2 {
+    grid-column: 7 / 10;
+  }
+  .card-br2 {
+    grid-column: 10 / 13;
+  }
 
-  .card-terracotta { --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.92); --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 1); --card-fg: #F4EAD9; }
-  .card-rust { --card-bg: rgb(from var(--stripe-rust) r g b / 0.92); --card-bg-hover: rgb(from var(--stripe-rust) r g b / 1); --card-fg: #F4EAD9; }
-  .card-sand { --card-bg: rgb(from var(--stripe-sand) r g b / 0.92); --card-bg-hover: rgb(from var(--stripe-sand) r g b / 1); --card-fg: #2A1E17; }
-  .card-teal { --card-bg: rgb(from var(--stripe-teal) r g b / 0.92); --card-bg-hover: rgb(from var(--stripe-teal) r g b / 1); --card-fg: #F4EAD9; }
-  .card-brown { --card-bg: rgb(from var(--stripe-brown) r g b / 0.92); --card-bg-hover: rgb(from var(--stripe-brown) r g b / 1); --card-fg: #F4EAD9; }
+  .card-terracotta {
+    --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 1);
+    --card-fg: #f4ead9;
+  }
+  .card-rust {
+    --card-bg: rgb(from var(--stripe-rust) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-rust) r g b / 1);
+    --card-fg: #f4ead9;
+  }
+  .card-sand {
+    --card-bg: rgb(from var(--stripe-sand) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-sand) r g b / 1);
+    --card-fg: #2a1e17;
+  }
+  .card-teal {
+    --card-bg: rgb(from var(--stripe-teal) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-teal) r g b / 1);
+    --card-fg: #f4ead9;
+  }
+  .card-brown {
+    --card-bg: rgb(from var(--stripe-brown) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-brown) r g b / 1);
+    --card-fg: #f4ead9;
+  }
 
   .tool-card {
     background-color: var(--card-bg);
@@ -181,7 +227,7 @@ const tools = [
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #2A1E17;
+    color: #2a1e17;
     background: var(--paper);
     padding: 4px 12px;
     border-radius: 9999px;

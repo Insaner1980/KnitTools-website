@@ -4,11 +4,18 @@ description: "Assembler des pièces tricotées au point de matelas, surjet et ra
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 10
-tags: ["assembler pièces tricot", "point de matelas tricot", "coudre tricot", "assembler tricot"]
+tags:
+  [
+    "assembler pièces tricot",
+    "point de matelas tricot",
+    "coudre tricot",
+    "assembler tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "seam-knitted-pieces"
 ---
+
 L'assemblage est la partie la moins glamour du tricot et celle qu'on remet le plus facilement. Un tas de pièces de pull finies peut rester des semaines dans un sac à projet parce que personne n'est impatiente de les coudre. Mais une bonne couture est invisible, et une mauvaise peut gâcher un vêtement par ailleurs bien tricoté.
 
 Le point de matelas crée une couture invisible en prenant les barres horizontales une maille à l'intérieur du bord sur chaque pièce, puis en les rapprochant pour que la jonction ressemble à un tissu continu. La méthode dépend du sens de la couture : bords verticaux (côtés), bords horizontaux (épaules), ou pièces façonnées dans des ouvertures (manches).

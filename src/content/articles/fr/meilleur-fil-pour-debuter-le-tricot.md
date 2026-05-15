@@ -4,11 +4,18 @@ description: "Choisir le bon fil pour apprendre à tricoter : épaisseur, fibre,
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 1
-tags: ["meilleur fil débuter tricot", "laine débutant tricot", "quel fil pour commencer le tricot", "fil premier projet tricot"]
+tags:
+  [
+    "meilleur fil débuter tricot",
+    "laine débutant tricot",
+    "quel fil pour commencer le tricot",
+    "fil premier projet tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "best-yarn-for-beginners"
 ---
+
 Le rayon laine est intimidant quand on ne sait pas ce qu'on regarde. Des murs de couleurs, des épaisseurs différentes, des étiquettes pleines de termes inconnus. Le meilleur fil pour apprendre à tricoter est un worsted (catégorie CYC 4), de couleur claire et unie, en acrylique pour un petit budget ou en mélange laine/acrylique pour un toucher plus agréable, avec des aiguilles en bambou ou en bois 4,5 à 5,5 mm. Pour un premier projet, le choix est plus simple qu'il n'en a l'air. Il te faut quelque chose de tolérant, facile à travailler, et assez abordable pour que les erreurs ne coûtent pas cher.
 
 ## Épaisseur : commence avec du worsted

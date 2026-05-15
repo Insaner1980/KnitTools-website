@@ -4,11 +4,19 @@ description: "So strickst du eine Mütze: Aufbau, Rundstricken, flach gestrickte
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 12
-tags: ["Mütze stricken", "Mütze stricken Anfänger", "Beanie stricken", "Mützenabnahmen", "Mützengröße berechnen"]
+tags:
+  [
+    "Mütze stricken",
+    "Mütze stricken Anfänger",
+    "Beanie stricken",
+    "Mützenabnahmen",
+    "Mützengröße berechnen",
+  ]
 draft: false
 lang: de
 translationKey: "how-to-knit-hat"
 ---
+
 Eine Mütze ist ein gutes zweites oder drittes Projekt nach einem Schal. Sie bringt Rundstricken, Abnahmen und einfache Formgebung dazu, bleibt aber klein genug, dass das Projekt überschaubar ist und am Ende etwas Tragbares entsteht. Die meisten Mützen aus Worsted-Garn lassen sich in ein paar Abenden stricken.
 
 Eine einfache Mütze funktioniert so: Maschen für den Kopfumfang anschlagen, mit etwa 2,5-5 cm negativer Mehrweite, ein Bündchen stricken, den Körper in glatt rechts arbeiten und an der Spitze [gleichmäßig abnehmen](/de/artikel/zunahmen-und-abnahmen-gleichmaessig-verteilen/). Es gibt mehrere Konstruktionen. Die richtige hängt davon ab, welche Techniken du schon kennst und welches Werkzeug du hast.
@@ -51,9 +59,9 @@ Häufige Methode: Maschen in 6 oder 8 gleiche Abschnitte teilen, Maschenmarkiere
 
 Für 96 Maschen in 8 Abschnitten mit 12 Maschen:
 
-Runde 1: *10 M rechts, 2 M rechts zusammenstricken; ab * bis Rundenende wiederholen. (88 M)  
+Runde 1: _10 M rechts, 2 M rechts zusammenstricken; ab _ bis Rundenende wiederholen. (88 M)  
 Runde 2: rechts stricken.  
-Runde 3: *9 M rechts, 2 M rechts zusammenstricken; ab * bis Rundenende wiederholen. (80 M)  
+Runde 3: _9 M rechts, 2 M rechts zusammenstricken; ab _ bis Rundenende wiederholen. (80 M)  
 Runde 4: rechts stricken.
 
 Weiterarbeiten, bis 8-16 Maschen übrig sind. Faden abschneiden, mit einer Wollnadel durch die restlichen Maschen ziehen, festziehen und innen sichern.

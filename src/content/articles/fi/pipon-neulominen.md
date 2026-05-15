@@ -4,10 +4,18 @@ description: "Opi pipon rakenne ja neulontatavat. Opas pyörönä alhaalta ylös
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 12
-tags: ["pipon neulominen", "neulo pipo aloittelijalle", "pipo neuleohje", "pipon koko", "pipon kavennukset"]
+tags:
+  [
+    "pipon neulominen",
+    "neulo pipo aloittelijalle",
+    "pipo neuleohje",
+    "pipon koko",
+    "pipon kavennukset",
+  ]
 lang: fi
 translationKey: "how-to-knit-hat"
 ---
+
 Pipo on yksi parhaista toisista tai kolmansista projekteista huivin jälkeen. Se tuo mukaan suljettuna neulomisen, kavennukset ja perusmuotoilun, mutta pysyy pienenä ja nopeana työnä, josta tulee jotain mitä oikeasti käytät. Useimmat worsted-vahvuiset pipot valmistuvat muutamassa illassa.
 
 Peruspipo neulotaan näin: luo silmukat päänympäryksen mukaan niin, että valmiissa pipossa on noin 2,5-5 cm negatiivista väljyyttä, neulo reunaan joustinta, jatka vartalo sileänä neuleena ja [kavenna tasaisesti](/fi/artikkelit/lisaysten-ja-kavennusten-jakaminen/) päälaella. Rakennustapoja on useita. Sopiva riippuu siitä, mitä tekniikoita osaat ja mitä välineitä sinulla on.
@@ -50,9 +58,9 @@ Yleinen tapa: jaa silmukat 6 tai 8 yhtä suureen osioon, silmukkamerkki osioiden
 
 96 silmukkaa 8 osiossa, 12 silmukkaa per osio:
 
-Kierros 1: *10 o, k2tog; toista * kierroksen loppuun. (88 s)  
+Kierros 1: _10 o, k2tog; toista _ kierroksen loppuun. (88 s)  
 Kierros 2: neulo oikein.  
-Kierros 3: *9 o, k2tog; toista * kierroksen loppuun. (80 s)  
+Kierros 3: _9 o, k2tog; toista _ kierroksen loppuun. (80 s)  
 Kierros 4: neulo oikein.
 
 Jatka, kunnes jäljellä on 8-16 silmukkaa. Katkaise lanka, pujota jäljellä olevien silmukoiden läpi päättelyneulalla, kiristä ja päättele sisäpuolelle.

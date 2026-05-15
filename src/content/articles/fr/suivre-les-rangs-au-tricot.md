@@ -4,7 +4,13 @@ description: "Sept façons fiables de compter les rangs au tricot : marques, com
 category: "app-tools"
 categoryOrder: 2
 publishDate: 2026-05-01
-tags: ["compter les rangs", "suivre les rangs tricot", "compteur de rangs", "application tricot"]
+tags:
+  [
+    "compter les rangs",
+    "suivre les rangs tricot",
+    "compteur de rangs",
+    "application tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "track-rows-knitting"
@@ -63,11 +69,11 @@ Pour les projets longs, une note numérique ou un tableur peut mieux fonctionner
 
 Un format simple suffit :
 
-| Section | Rang actuel | Notes |
-| --- | --- | --- |
-| Corps | 48 | Augmentations faites aux rangs 12, 24, 36, 48 |
-| Manche 1 | 32 | Diminution au prochain rang |
-| Manche 2 | 32 | Correspond à la manche 1 |
+| Section  | Rang actuel | Notes                                         |
+| -------- | ----------- | --------------------------------------------- |
+| Corps    | 48          | Augmentations faites aux rangs 12, 24, 36, 48 |
+| Manche 1 | 32          | Diminution au prochain rang                   |
+| Manche 2 | 32          | Correspond à la manche 1                      |
 
 Le plus important est de pouvoir reprendre après une pause. Si tu ouvres le projet deux semaines plus tard, la note doit te dire exactement où recommencer.
 

@@ -4,11 +4,18 @@ description: "Lär dig byta garn i ett stickmönster utan att förstöra projekt
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 6
-tags: ["byta garn stickmönster", "garnsubstitution guide", "ersätta garn stickning", "alternativt garn till mönster"]
+tags:
+  [
+    "byta garn stickmönster",
+    "garnsubstitution guide",
+    "ersätta garn stickning",
+    "alternativt garn till mönster",
+  ]
 draft: false
 lang: sv
 translationKey: "how-to-substitute-yarn"
 ---
+
 Mönstergarnet har utgått. Eller kostar 30 euro nystanet och budgeten säger nej. Eller är 100 procent ull och mottagaren kommer att slänga det färdiga plagget i tvättmaskinen dag ett.
 
 Att byta garn är normalt. De flesta stickare gör det oftare än inte. Ett lyckat byte betyder att fyra saker matchar mellan originalet och ersättningen: garntjocklek, stickfasthet, fiberbeteende och total löplängd. Missa en, och projektet glider. Missa två, och det är ett annat projekt.

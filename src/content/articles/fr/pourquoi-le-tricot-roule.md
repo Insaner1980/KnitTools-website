@@ -4,7 +4,8 @@ description: "Pourquoi le jersey roule, quels points évitent les bords qui s'en
 category: "techniques"
 categoryOrder: 4
 publishDate: 2026-05-01
-tags: ["tricot qui roule", "jersey qui roule", "bordure tricot", "bloquer tricot"]
+tags:
+  ["tricot qui roule", "jersey qui roule", "bordure tricot", "bloquer tricot"]
 draft: false
 lang: fr
 translationKey: "why-knitting-curls"
@@ -107,4 +108,3 @@ Souvent oui. Tu peux relever des mailles et ajouter une bordure, ou bloquer la p
 
 **Pourquoi mon échantillon ne roulait-il pas autant ?**  
 Les petits échantillons cachent parfois le problème. Plus la pièce est grande et souple, plus le roulotté a de place pour se développer.
-

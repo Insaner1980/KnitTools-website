@@ -4,10 +4,19 @@ description: "Näin hallitset useita neuleprojekteja yhtä aikaa kadottamatta pu
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 3
-tags: ["neuleprojektien järjestäminen", "WIP-hallinta", "neuleprojektien seuranta", "neuleen edistymisen seuranta", "useita neuleprojekteja", "neulonta-ajan seuranta"]
+tags:
+  [
+    "neuleprojektien järjestäminen",
+    "WIP-hallinta",
+    "neuleprojektien seuranta",
+    "neuleen edistymisen seuranta",
+    "useita neuleprojekteja",
+    "neulonta-ajan seuranta",
+  ]
 lang: fi
 translationKey: "organize-knitting-projects"
 ---
+
 Useimmilla neulojilla on kesken enemmän kuin yksi projekti. Monimutkainen villapaita keskittyneisiin iltoihin. Helppo sukka matkalle. Aivoton ainaoikea peitto television ääreen. Eri projektit eri mielialoihin ja energiatasoihin. Normaalia.
 
 Ongelma alkaa, kun "muutama projekti" muuttuu hiljaa seitsemäksi, etkä muista mikä puikkokoko on puolivalmiissa pipossa, mille kerrokselle neuletakissa jäit tai ostitko jo toisen kerän kauluria varten. WIP-hallinta ei tarkoita projektien määrän rajoittamista. Se tarkoittaa, että voit nostaa minkä tahansa niistä käteen ilman kymmenen minuutin selvitystyötä.

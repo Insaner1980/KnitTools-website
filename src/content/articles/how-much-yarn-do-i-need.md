@@ -4,8 +4,15 @@ description: "Calculate how much yarn you need for scarves, sweaters, blankets, 
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 2
-tags: ["how much yarn do I need knitting", "yarn yardage calculator", "knitting yarn estimation", "how many skeins do I need"]
+tags:
+  [
+    "how much yarn do I need knitting",
+    "yarn yardage calculator",
+    "knitting yarn estimation",
+    "how many skeins do I need",
+  ]
 ---
+
 Running out of yarn three-quarters through a project is its own special kind of defeat. The dye lot is gone. The shop is sold out. Or the replacement skein looks close enough in the store and completely wrong once it's knitted up next to the original. Two inches from the bind-off and the whole project stalls. This happens more often than it should, and it's almost always preventable.
 
 The amount of yarn a knitting project needs depends on four things: project dimensions, yarn weight, stitch pattern, and gauge. Good estimation isn't guesswork. It comes down to getting those four inputs right. Get those right and the estimate gets surprisingly close. Ignore any one of them and you're gambling.

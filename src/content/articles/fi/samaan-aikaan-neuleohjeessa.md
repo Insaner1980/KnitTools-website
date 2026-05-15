@@ -4,10 +4,17 @@ description: "Mitä neuleohjeen samaan aikaan -merkintä tarkoittaa? Näin seura
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 8
-tags: ["samaan aikaan neuleohjeessa", "samanaikaiset neuleohjeet", "neuleohje samaan aikaan", "neuleen muotoilu samaan aikaan"]
+tags:
+  [
+    "samaan aikaan neuleohjeessa",
+    "samanaikaiset neuleohjeet",
+    "neuleohje samaan aikaan",
+    "neuleen muotoilu samaan aikaan",
+  ]
 lang: fi
 translationKey: "at-the-same-time-knitting"
 ---
+
 Se tarkoittaa juuri sitä mitä sanoo, ja siksi se on hämmentävä. Kaksi eri asiaa tapahtuu samoilla kerroksilla. Ohje kuvaa ne erillään, vaikka ne tehdään yhtä aikaa.
 
 "Samaan aikaan" neuleohjeessa tarkoittaa, että kaksi ohjekokonaisuutta kulkee päällekkäin samoilla kerroksilla. Usein yksi niistä on muotoilu, joka tehdään jatkuvan mallineuleen sisällä. Tämä näkyy eniten vaatteissa. Ohjetta ei ole helppo kirjoittaa yhdeksi selkeäksi riviksi, joten se kertoo ensin yhden toiminnon, sanoo sitten "samaan aikaan" ja antaa toisen.

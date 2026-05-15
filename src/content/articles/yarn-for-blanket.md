@@ -4,8 +4,18 @@ description: "Calculate how much yarn you need for a knitted blanket. Yardage es
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 5
-tags: ["yarn for blanket", "yarn yardage calculator", "how much yarn do I need", "skeins needed", "yarn estimator", "yarn quantity", "blanket knitting"]
+tags:
+  [
+    "yarn for blanket",
+    "yarn yardage calculator",
+    "how much yarn do I need",
+    "skeins needed",
+    "yarn estimator",
+    "yarn quantity",
+    "blanket knitting",
+  ]
 ---
+
 Blankets eat yarn. Even a small baby blanket uses more yardage than most garments, and a full-size throw can push past 2,500 yards of worsted weight. Running out partway through (especially with a discontinued dye lot) is the specific kind of knitting misery that's entirely preventable with decent planning.
 
 The estimates below give a starting range. Your actual yardage depends on gauge, stitch pattern, and dimensions, but these numbers get you close enough to buy with confidence.

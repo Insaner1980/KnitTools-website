@@ -1,0 +1,356 @@
+---
+import LocalizedToolPage from "../LocalizedToolPage.astro";
+import WpiIdentifier from "../WpiIdentifier.astro";
+import { danishToolAlternates, danishToolRoutes } from "../../i18n/danishTools";
+
+const rows = [
+  [
+    "0",
+    "Lace",
+    "Cobweb / Light fingering / 2-ply",
+    "33-40+ masker pr. 10 cm",
+    "1,5-2,25 mm",
+    "30-40+ WPI",
+    "Lace-sjaler, små duge, fint åbent hulmønster",
+    "Lace, Cobweb, Light fingering, 2-ply (UK)",
+  ],
+  [
+    "1",
+    "Fingering / strømpegarn",
+    "Sock / Fingering / Baby / 4-ply",
+    "27-32 masker pr. 10 cm",
+    "2,25-3,25 mm",
+    "14-30 WPI",
+    "Strømper, babystrik, fine sjaler, lette beklædningsdele",
+    "Sock, Fingering, Baby, 4-ply (UK/AUS)",
+  ],
+  [
+    "2",
+    "Sport",
+    "Sport / Baby / 5-ply",
+    "23-26 masker pr. 10 cm",
+    "3,25-3,75 mm",
+    "12-18 WPI",
+    "Lette beklædningsdele, babystrik, tilbehør",
+    "Sport, Baby, 5-ply (UK/AUS)",
+  ],
+  [
+    "3",
+    "DK / Light Worsted",
+    "DK / Light Worsted / 8-ply",
+    "21-24 masker pr. 10 cm",
+    "3,75-4,5 mm",
+    "11-15 WPI",
+    "Sweatere, huer, tørklæder, babytæpper, helårsstrik",
+    "DK (Double Knitting), Light Worsted, 8-ply (UK/AUS)",
+  ],
+  [
+    "4",
+    "Worsted / Aran / Medium",
+    "Worsted / Aran / Afghan / 10-ply",
+    "16-20 masker pr. 10 cm",
+    "4,5-5,5 mm",
+    "9-12 WPI",
+    "Sweatere, huer, vanter, tæpper, meget hverdagsstrik",
+    "Worsted, Aran, Afghan, 10-ply (AUS)",
+  ],
+  [
+    "5",
+    "Bulky / Chunky",
+    "Chunky / Craft / Rug / 12-ply",
+    "12-15 masker pr. 10 cm",
+    "5,5-8 mm",
+    "6-9 WPI",
+    "Tykke sweatere, tørklæder, tæpper, hurtige projekter",
+    "Chunky, Craft, Rug, 12-ply (AUS)",
+  ],
+  [
+    "6",
+    "Super Bulky / Super Chunky",
+    "Super Chunky / Bulky / Roving",
+    "7-11 masker pr. 10 cm",
+    "8-12,75 mm",
+    "5-6 WPI",
+    "Tunge tæpper, halsrør, hurtigt tilbehør",
+    "Super Chunky, Bulky, Roving",
+  ],
+  [
+    "7",
+    "Jumbo",
+    "Jumbo / Roving",
+    "0-6 masker pr. 10 cm",
+    "12,75+ mm",
+    "1-4 WPI",
+    "Armstrik, tydelig tekstur, oversized tæpper",
+    "Jumbo, Roving",
+  ],
+];
+
+const faqs = [
+  {
+    q: "Hvad er den mest almindelige garntykkelse?",
+    a: "Worsted er stadig standard i mange nordamerikanske opskrifter. DK dukker hele tiden op i britisk og europæisk strik. Med de to kategorier kan du dække langt de fleste beklædningsdele, tilbehør og boligprojekter. Bygger du et alsidigt garnlager, er de et logisk sted at begynde.",
+  },
+  {
+    q: "Kan man erstatte én garntykkelse med en anden?",
+    a: "Ja, men der ændrer sig mere end størrelsen. Fald, garnforbrug og pindestørrelse flytter sig alle sammen. Nogle skift er tilgivende, for eksempel DK i stedet for en let worsted. Andre gør i praksis projektet til noget andet. Strik altid en prøve, før du beslutter dig, og beregn garnforbruget igen med opskriftens samlede maskeantal som reference.",
+  },
+  {
+    q: 'Hvad betyder "held double" i en opskrift?',
+    a: '"Held double" betyder, at du strikker med to tråde sammen, som om de var én tykkere tråd. To tråde fingering sammen ligger omtrent tæt på DK, men fiberindhold, twist og luftighed kan gøre resultatet lettere eller tungere. Det er nyttigt, når du ikke kan finde den rigtige tykkelse i den farve eller fiber, du vil bruge. Strik en prøve, for resultatet er ikke helt forudsigeligt.',
+  },
+  {
+    q: "Hvorfor ser mit garn tyndere eller tykkere ud end banderolen siger?",
+    a: "Fordi garntykkelseskategorier er intervaller, ikke faste punkter. Det ene DK-garn ligger i den tynde ende, det andet i den tykke. Fiberindhold ændrer også udtrykket. Bomuld ser ofte fladere og tyndere ud end uld ved samme WPI, mens alpaka kan blomstre op efter vask og se tykkere ud. Kategorien på banderolen er et pejlemærke; strikkeprøven bekræfter, hvor dit garn faktisk ligger.",
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Garntykkelser: tabel med WPI"
+  description="Tabel over garntykkelser fra lace til jumbo. Se strikkefasthed, pindestørrelser, WPI, regionale navne og typiske strikkeprojekter."
+  canonicalPath={danishToolRoutes.yarnWeightChart}
+  lang="da"
+  alternates={danishToolAlternates.tool.yarnWeightChart}
+  intro="CYC-kategorier med intervaller for strikkefasthed, pindestørrelse og WPI. Åbn en kategori for detaljer."
+  schemaName="Tabel over garntykkelser"
+  schemaDescription="Referencetabel for garntykkelser med strikkefasthed, anbefalede pinde, WPI og projekttyper for CYC-kategorierne."
+  faqs={faqs}
+  variant="sand"
+>
+  <div slot="tool">
+    <div class="cat-list">
+      {
+        rows.map((row) => (
+          <details class="cat-card">
+            <summary class="cat-summary">
+              <span class="cat-heading">
+                <span>{row[0]}</span>
+                <span class="cat-name">{row[1]}</span>
+              </span>
+              <span class="cat-regional">{row[2]}</span>
+              <span class="cat-toggle" aria-hidden="true">
+                +
+              </span>
+            </summary>
+            <div class="cat-body">
+              <dl class="cat-details">
+                <div class="cat-row">
+                  <dt>Strikkefasthed</dt>
+                  <dd>{row[3]}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>Pinde</dt>
+                  <dd>{row[4]}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>WPI</dt>
+                  <dd>{row[5]}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>Bruges ofte til</dt>
+                  <dd>{row[6]}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>Regionale navne</dt>
+                  <dd>{row[7]}</dd>
+                </div>
+              </dl>
+            </div>
+          </details>
+        ))
+      }
+    </div>
+    <WpiIdentifier lang="da" />
+  </div>
+
+  <div slot="content">
+    <h2>Problemet med navnene</h2>
+    <p>
+      Det er her, garntykkelse bliver reelt rodet, og her de fleste fejl ved
+      garnskift begynder.
+    </p>
+
+    <h3>Ply betyder ikke det, du tror</h3>
+    <p>
+      "4-ply" betyder i britisk og australsk opskriftssprog normalt fingering.
+      Men ply beskriver egentlig garnets konstruktion, ikke tykkelsen. Et garn
+      lavet af fire meget tynde tråde kan sagtens være tyndere end et garn lavet
+      af to tykke. Singles, altså entrådede garner, kan være bulky. Et hårdt
+      tvundet 6-ply kan lande i sport.
+    </p>
+    <p>
+      Udtrykket blev hængende, fordi ældre spindekonventioner gjorde, at 4-ply
+      ret pålideligt ramte en bestemt tykkelse. Den kobling forsvandt, da
+      spindemetoderne blev mere varierede, men navnene fulgte ikke med. Så når
+      en vintage britisk opskrift beder om "3-ply", betyder det et bestemt
+      tykkelsesinterval tæt på lace eller light fingering, ikke bogstaveligt et
+      garn af tre tråde.
+    </p>
+    <p>Det snubler flere over, end man skulle tro.</p>
+
+    <h3>Worsted og aran: tæt på, men ikke det samme</h3>
+    <p>
+      Begge ligger i CYC-kategori 4, Medium, men aran er ofte lidt tungere inden
+      for intervallet. En opskrift skrevet til aran-garn ved en bestemt
+      strikkefasthed kan blive for løs, hvis du tager en worsted, der ligger i
+      den lette ende af kategorien. Det omvendte gælder også.
+    </p>
+    <p>
+      Nogle garnfirmaer bruger "worsted" og "aran" næsten i flæng på banderoler.
+      Andre skelner tydeligt. Strikkefastheden på banderolen er mere pålidelig
+      end navnet.
+    </p>
+
+    <h3>DK, Light Worsted, 8-ply</h3>
+    <p>
+      DK, double knitting, er standardsprog i Storbritannien. Amerikanske
+      opskrifter kalder nogle gange samme tykkelse "Light Worsted". Australske
+      og newzealandske opskrifter siger ofte "8-ply". Alle tre lander i
+      CYC-kategori 3, Light, men en DK i den tykke ende kan overlappe med en
+      worsted i den tynde ende. Kategorigrænser er ikke mure.
+    </p>
+
+    <h3>Når regionale navne kolliderer</h3>
+    <p>
+      "Sport weight" i Nordamerika og "5-ply" i australsk terminologi
+      overlapper, men passer ikke perfekt sammen. "Chunky" i britiske opskrifter
+      betyder normalt CYC 5, Bulky, mens "chunky" i uformelt amerikansk brug kan
+      betyde alt fra bulky til super bulky.
+    </p>
+    <p>
+      Den sikreste metode, når du krydser regionale opskriftssprog: ignorér
+      navnet og match strikkefastheden. Hvis opskriften siger 20 masker pr. 10
+      cm på pind 4 mm, er det det, du skal ramme, uanset hvad banderolen kalder
+      garnet.
+    </p>
+
+    <h2>Sådan fungerer garntykkelseskategorier</h2>
+    <p>
+      Det engelske "weight" betyder her ikke, hvor tungt nøglet føles i hånden.
+      Det handler om trådens tykkelse. Tyndere garn giver flere masker pr. 10
+      cm. Tykkere garn giver færre.
+    </p>
+    <p>
+      Craft Yarn Council-systemet giver hvert tykkelsesinterval et nummer og et
+      navn:
+    </p>
+    <ul>
+      <li>
+        <strong>0 - Lace.</strong> Meget fint garn til lace-sjaler og åbent hulmønster.
+      </li>
+      <li>
+        <strong>1 - Super Fine.</strong> Området for fingering og strømpegarn.
+      </li>
+      <li><strong>2 - Fine.</strong> Sport.</li>
+      <li>
+        <strong>3 - Light.</strong> DK og lignende mellemkraftige beklædningsgarner.
+      </li>
+      <li>
+        <strong>4 - Medium.</strong> Worsted og aran. Det interval mange strikkere
+        bruger mest tid i.
+      </li>
+      <li>
+        <strong>5 - Bulky.</strong> Tykkere garner, der bygger stof hurtigt.
+      </li>
+      <li>
+        <strong>6 - Super Bulky.</strong> Hurtigt tilbehør og tydelig tekstur.
+      </li>
+      <li>
+        <strong>7 - Jumbo.</strong> Den tykkeste ende i de publicerede WPI-intervaller.
+      </li>
+    </ul>
+    <p>
+      CYC's publicerede WPI-intervaller dækker 0-7. Tjek altid banderolen, hvis
+      et garn bruger nyere symboler eller producentens egne betegnelser.
+    </p>
+
+    <h2>At kende garntykkelsen uden banderole</h2>
+    <p>
+      Garn uden banderole dukker hele tiden op. Nogen giver dig en pose
+      lagergarn, banderolen forsvandt for måneder siden, eller garnet kom fra en
+      cone uden butiksetiket.
+    </p>
+    <p>
+      Den hurtigste første test er WPI: hvor mange omviklinger der ligger på ca.
+      2,5 cm (1 inch).
+    </p>
+
+    <h3>At måle WPI</h3>
+    <p>
+      Vikl garnet om en blyant, lineal eller WPI-måler. Hold omviklingerne pænt
+      ved siden af hinanden, tæt men ikke strukket og ikke oven på hinanden. Tæl
+      hvor mange der passer på 2,5 cm. CYC-guiden bruger disse brede
+      intervaller:
+    </p>
+    <ul>
+      <li>30-40+ WPI -&gt; Lace (0)</li>
+      <li>14-30 WPI -&gt; Super Fine (1)</li>
+      <li>12-18 WPI -&gt; Fine (2)</li>
+      <li>11-15 WPI -&gt; Light (3)</li>
+      <li>9-12 WPI -&gt; Medium (4)</li>
+      <li>6-9 WPI -&gt; Bulky (5)</li>
+      <li>5-6 WPI -&gt; Super Bulky (6)</li>
+      <li>1-4 WPI -&gt; Jumbo (7)</li>
+    </ul>
+    <p>
+      Læg mærke til de overlappende intervaller. Garn, der rammer 12 WPI, kan
+      være Fine, Light eller Medium afhængigt af andre faktorer. Det er normalt.
+    </p>
+
+    <h3>Når WPI bliver besværligt</h3>
+    <p>
+      Hårede garner som mohair er svære at vikle pænt. Luftige singles kan se
+      tyndere ud, end de strikker. Håndspundet garn skifter tykkelse over
+      længden, så mål flere steder og tag gennemsnittet. Chenille og effektgarn
+      med meget tekstur? Held og lykke med en ren omvikling.
+    </p>
+    <p>
+      WPI får dig tæt på. En strikkeprøve giver svaret, der faktisk betyder
+      noget. <a href="/da/artikler/ukendt-garn-uden-banderole/"
+        >Guiden til ukendt garn</a
+      > gennemgår hele processen, når banderolen mangler helt.
+    </p>
+
+    <h2>At vælge garntykkelse til dit projekt</h2>
+    <p>
+      Designere vælger en tykkelse for den strikkede flade, de vil have, ikke
+      kun for at få projektet hurtigt færdigt. Ændrer du tykkelsen, ændrer du
+      fald, tæthed, varme og ofte hele størrelsen på det færdige arbejde.
+    </p>
+    <p>
+      Tyndere garntykkelser, 0-2, giver mere fald og skarpere maskedefinition.
+      Godt til strømper, sjaler og mønsterstrik, der kræver tydelige detaljer.
+      Mellemtykkelser, 3-4, især DK og worsted, dækker enormt meget: sweatere,
+      huer, tæpper, babystrik og tilbehør med struktur. Tykkere garner, 5-7,
+      prioriterer fart og varme, men giver også tykkere sømme og et tungere
+      færdigt stykke. Det er værd at se, før du erstatter.
+    </p>
+    <p>
+      Erstatter du uden for den oprindelige garntykkelseskategori, skal du regne
+      med at beregne om. <a href="/da/artikler/skift-garn-i-strikkeopskrift/"
+        >Guiden til garnalternativer</a
+      > forklarer processen. KnitTools' <a
+        href={danishToolRoutes.castOnCalculator}>opslagsberegner</a
+      > hjælper med maskeantallet, og <a href={danishToolRoutes.yarnEstimator}
+        >garnberegneren</a
+      > kan tjekke, om meterantallet virker fornuftigt, før du køber.
+    </p>
+
+    <h2>Sammenhængen mellem garntykkelse og pindestørrelse</h2>
+    <p>
+      Anbefalede pindestørrelser er startpunkter. Ikke løfter. Det samme DK-garn
+      kan blive til en fast hue på én pind og en løs cardigan på en anden.
+    </p>
+    <p>
+      Her tager strikkefastheden over. Banderolen kan pege dig i en retning, men
+      dit garn, din hånd og dit projekt bestemmer den endelige pindestørrelse.
+    </p>
+    <p>
+      Hvis du først skal omregne størrelsessystemer, før du kan strikke en
+      prøve, så hav <a href={danishToolRoutes.needleSizeChart}
+        >tabellen over pindestørrelser</a
+      > åben ved siden af.
+    </p>
+  </div>
+</LocalizedToolPage>

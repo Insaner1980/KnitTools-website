@@ -9,6 +9,7 @@ draft: false
 lang: no
 translationKey: "how-to-block-knitting"
 ---
+
 Blokking er prosessen der du fukter, damper eller sprayer et ferdig strikket arbeid og former det til riktige mål. Det gjør klumpete, ujevnt strikk til ferdig stoff. Maskene jevner seg ut, stoffet slapper av til planlagt størrelse, og hullmønster åpner seg fra sammenpressede krøller til et mønster du faktisk ser. Noen prosjekter trenger det knapt. Andre er nesten ugjenkjennelige uten.
 
 Metoden avhenger av fiber. Ull reagerer på våtblokking. Akryl reagerer på damp. Bomull reagerer ikke voldsomt på noe, men har nytte av en god bløtlegging og lett pressing.

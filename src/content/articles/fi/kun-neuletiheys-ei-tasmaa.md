@@ -4,10 +4,20 @@ description: "Mallitilkun neuletiheys ei täsmää ohjeeseen? Näin selvität sy
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 3
-tags: ["neuletiheys ei täsmää", "neuletiheyden säätö", "neulelaskuri", "mallitilkku", "ohjeen neuletiheys", "silmukkaa 10 cm matkalla", "mallitilkun mittaus"]
+tags:
+  [
+    "neuletiheys ei täsmää",
+    "neuletiheyden säätö",
+    "neulelaskuri",
+    "mallitilkku",
+    "ohjeen neuletiheys",
+    "silmukkaa 10 cm matkalla",
+    "mallitilkun mittaus",
+  ]
 lang: fi
 translationKey: "gauge-doesnt-match"
 ---
+
 Mallitilkkusi antaa 19 silmukkaa 10 cm matkalla. Ohje haluaa 20. Yksi silmukka ei kuulosta paljolta ennen kuin kerrot sen 100 cm ympärykseen ja huomaat, että valmiista vaatteesta tulee useita senttejä liian leveä. Se on ero istuvan vaatteen ja hartioilta roikkuvan vaatteen välillä.
 
 Neuletiheyden heitto on korjattavissa. Ratkaisu riippuu siitä, kuinka paljon heittoa on, millaista projektia teet ja tuntuuko neulepinta itsessään oikealta.

@@ -4,11 +4,18 @@ description: "Allt du behöver för att sticka din första halsduk: garn, sticko
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 1
-tags: ["sticka halsduk nybörjare", "första stickprojektet halsduk", "enkel stickad halsduk", "nybörjarmönster halsduk"]
+tags:
+  [
+    "sticka halsduk nybörjare",
+    "första stickprojektet halsduk",
+    "enkel stickad halsduk",
+    "nybörjarmönster halsduk",
+  ]
 draft: false
 lang: sv
 translationKey: "knit-first-scarf"
 ---
+
 En halsduk är det bästa första stickprojektet eftersom den är en rektangel. Ingen formning, inget varvräknande till särskilda längder, ingen passform. Lägg upp, sticka tills den är lång nog, maska av. Kunskaperna du övar (lägga upp maskor, räta maskor, maska av) är grunden för allt annat du kommer att sticka.
 
 ## Vad du behöver

@@ -4,7 +4,13 @@ description: "So strickst und misst du eine Maschenprobe richtig: Waschen, Spann
 category: "gauge-calculations"
 categoryOrder: 2
 publishDate: 2026-04-27
-tags: ["Maschenprobe messen", "Maschenprobe stricken", "Maschen und Reihen pro 10 cm", "Nadelstärke anpassen"]
+tags:
+  [
+    "Maschenprobe messen",
+    "Maschenprobe stricken",
+    "Maschen und Reihen pro 10 cm",
+    "Nadelstärke anpassen",
+  ]
 draft: false
 lang: de
 translationKey: "how-to-measure-knitting-gauge"

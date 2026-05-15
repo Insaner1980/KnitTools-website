@@ -4,8 +4,15 @@ description: "Learn how to read a knitting pattern from start to finish. Covers 
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 2
-tags: ["how to read a knitting pattern", "knitting pattern for beginners", "reading knitting instructions", "understand knitting pattern"]
+tags:
+  [
+    "how to read a knitting pattern",
+    "knitting pattern for beginners",
+    "reading knitting instructions",
+    "understand knitting pattern",
+  ]
 ---
+
 Knitting patterns have their own language and formatting conventions. A pattern is structured in predictable sections: materials and gauge at the top, then row-by-row instructions using standardized abbreviations, with sizing presented as parenthetical numbers throughout. The first time you open one, it looks like a wall of shorthand. But once you recognize the sections, the whole thing becomes readable.
 
 ## The header: what you need before you start
@@ -50,7 +57,7 @@ Stitch instructions read left to right: "K5, p3, k2tog, yo, k to end" means knit
 
 The part that trips people up most. Patterns use several notation systems.
 
-**Asterisk repeats:** "*K2, p2; rep from * to end." The asterisk marks where the repeat starts. Everything between the asterisk and the repeat instruction is one unit. "Rep from *" means go back and do it again. "To end" means keep repeating until you're out of stitches.
+**Asterisk repeats:** "_K2, p2; rep from _ to end." The asterisk marks where the repeat starts. Everything between the asterisk and the repeat instruction is one unit. "Rep from \*" means go back and do it again. "To end" means keep repeating until you're out of stitches.
 
 **Bracket repeats:** "[K2, p2] 5 times." Brackets define the section, the number says how many times. More explicit than asterisks but functionally identical.
 

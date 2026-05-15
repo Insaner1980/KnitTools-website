@@ -1,0 +1,706 @@
+---
+import LocalizedToolPage from "../LocalizedToolPage.astro";
+import { dutchToolRoutes } from "../../i18n/dutchTools";
+import { routes } from "../../i18n/routes";
+
+type Category =
+  | "cast-on-bind-off"
+  | "increases"
+  | "decreases"
+  | "cables"
+  | "lace"
+  | "general"
+  | "stitch-patterns";
+
+interface Abbreviation {
+  abbr: string;
+  def: string;
+  search: string;
+  categories: Category[];
+}
+
+const categoryLabels: Record<Category, string> = {
+  "cast-on-bind-off": "Opzetten / afkanten",
+  increases: "Meerderingen",
+  decreases: "Minderingen",
+  cables: "Kabels",
+  lace: "Ajour",
+  general: "Algemeen",
+  "stitch-patterns": "Steekpatronen",
+};
+
+const abbreviations: Abbreviation[] = [
+  {
+    abbr: "CO",
+    def: "steken opzetten (cast on)",
+    search: "cast on steken opzetten opzet",
+    categories: ["cast-on-bind-off"],
+  },
+  {
+    abbr: "BO",
+    def: "afkanten (bind off US / cast off UK)",
+    search: "bind off cast off afkanten afkantrand",
+    categories: ["cast-on-bind-off"],
+  },
+
+  {
+    abbr: "k",
+    def: "recht breien / rechte steek (knit)",
+    search: "knit recht breien rechte steek",
+    categories: ["general"],
+  },
+  {
+    abbr: "p",
+    def: "averecht breien / averechte steek (purl)",
+    search: "purl averecht breien averechte steek",
+    categories: ["general"],
+  },
+  {
+    abbr: "st(s)",
+    def: "steek / steken",
+    search: "stitch stitches steek steken st",
+    categories: ["general"],
+  },
+  {
+    abbr: "RS",
+    def: "goede kant (right side)",
+    search: "right side goede kant GK",
+    categories: ["general"],
+  },
+  {
+    abbr: "WS",
+    def: "verkeerde kant (wrong side)",
+    search: "wrong side verkeerde kant VK",
+    categories: ["general"],
+  },
+  {
+    abbr: "rep",
+    def: "herhalen / herhaling (repeat)",
+    search: "repeat herhalen herhaling rapport",
+    categories: ["general"],
+  },
+  {
+    abbr: "beg",
+    def: "begin (beginning)",
+    search: "beginning begin beginnen",
+    categories: ["general"],
+  },
+  {
+    abbr: "rem",
+    def: "resterend / over (remaining)",
+    search: "remaining resterend over",
+    categories: ["general"],
+  },
+  {
+    abbr: "cont",
+    def: "doorgaan (continue)",
+    search: "continue doorgaan verder breien",
+    categories: ["general"],
+  },
+  {
+    abbr: "alt",
+    def: "afwisselen / afwisselend (alternate)",
+    search: "alternate afwisselen afwisselend",
+    categories: ["general"],
+  },
+  {
+    abbr: "approx",
+    def: "ongeveer (approximately)",
+    search: "approximately ongeveer circa",
+    categories: ["general"],
+  },
+  {
+    abbr: "tbl",
+    def: "door de achterste lus (through back loop)",
+    search: "through back loop achterste lus gedraaid",
+    categories: ["general"],
+  },
+  {
+    abbr: "wyif",
+    def: "met draad voor het werk (with yarn in front)",
+    search: "with yarn in front draad voor werk",
+    categories: ["general"],
+  },
+  {
+    abbr: "wyib",
+    def: "met draad achter het werk (with yarn in back)",
+    search: "with yarn in back draad achter werk",
+    categories: ["general"],
+  },
+  {
+    abbr: "sl",
+    def: "steek afhalen (slip)",
+    search: "slip steek afhalen afgehaalde steek",
+    categories: ["general"],
+  },
+  {
+    abbr: "sl st",
+    def: "afgehaalde steek (slip stitch)",
+    search: "slip stitch afgehaalde steek",
+    categories: ["general"],
+  },
+  {
+    abbr: "pm",
+    def: "stekenmarkeerder plaatsen (place marker)",
+    search: "place marker stekenmarkeerder markeerder plaatsen",
+    categories: ["general"],
+  },
+  {
+    abbr: "sm",
+    def: "markeerder afhalen (slip marker)",
+    search: "slip marker markeerder afhalen",
+    categories: ["general"],
+  },
+  {
+    abbr: "MC",
+    def: "hoofdkleur (main color)",
+    search: "main color hoofdkleur kleur",
+    categories: ["general"],
+  },
+  {
+    abbr: "CC",
+    def: "contrastkleur (contrast color)",
+    search: "contrast color contrastkleur kleur",
+    categories: ["general"],
+  },
+  {
+    abbr: "dpn(s)",
+    def: "sokkennaald(en) / breinaalden zonder knop",
+    search: "double pointed needles dpns sokkennaalden breinaalden zonder knop",
+    categories: ["general"],
+  },
+  {
+    abbr: "cn",
+    def: "kabelnaald (cable needle)",
+    search: "cable needle kabelnaald hulpnaald",
+    categories: ["general"],
+  },
+  {
+    abbr: "rnd(s)",
+    def: "toer(en) in het rond (round/s)",
+    search: "round rounds toer toeren rondbreien",
+    categories: ["general"],
+  },
+
+  {
+    abbr: "M1",
+    def: "1 steek meerderen (make one)",
+    search: "make one meerderen meerdering",
+    categories: ["increases"],
+  },
+  {
+    abbr: "M1L",
+    def: "links hellende meerdering (make one left)",
+    search: "make one left links hellende meerdering",
+    categories: ["increases"],
+  },
+  {
+    abbr: "M1R",
+    def: "rechts hellende meerdering (make one right)",
+    search: "make one right rechts hellende meerdering",
+    categories: ["increases"],
+  },
+  {
+    abbr: "kfb",
+    def: "recht in voorste en achterste lus breien (knit front and back)",
+    search: "knit front and back voorste achterste lus meerdering",
+    categories: ["increases"],
+  },
+  {
+    abbr: "pfb",
+    def: "averecht in voorste en achterste lus breien (purl front and back)",
+    search: "purl front and back voorste achterste lus meerdering",
+    categories: ["increases"],
+  },
+  {
+    abbr: "yo",
+    def: "omslag (yarn over)",
+    search: "yarn over omslag ajour meerdering",
+    categories: ["increases", "lace"],
+  },
+  {
+    abbr: "inc",
+    def: "meerderen / meerdering (increase)",
+    search: "increase meerderen meerdering",
+    categories: ["increases"],
+  },
+
+  {
+    abbr: "k2tog",
+    def: "2 steken recht samenbreien, rechts hellende mindering",
+    search: "knit two together twee steken recht samenbreien mindering rechts",
+    categories: ["decreases", "lace"],
+  },
+  {
+    abbr: "p2tog",
+    def: "2 steken averecht samenbreien (purl two together)",
+    search: "purl two together twee steken averecht samenbreien mindering",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "ssk",
+    def: "afhalen, afhalen, breien, links hellende mindering",
+    search: "slip slip knit ssk afhalen afhalen breien AAB mindering links",
+    categories: ["decreases", "lace"],
+  },
+  {
+    abbr: "skp",
+    def: "afhalen, recht breien, afgehaalde steek overhalen",
+    search: "slip knit pass slipped stitch over overhalen mindering",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "sk2p",
+    def: "1 afhalen, 2 recht samenbreien, afgehaalde steek overhalen",
+    search:
+      "slip one knit two together pass slipped stitch over dubbele mindering",
+    categories: ["decreases", "lace"],
+  },
+  {
+    abbr: "s2kp",
+    def: "2 afhalen, 1 recht breien, 2 afgehaalde steken overhalen, gecentreerde dubbele mindering",
+    search:
+      "slip two knit one pass two slipped stitches over gecentreerde dubbele mindering",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "CDD",
+    def: "gecentreerde dubbele mindering (centered double decrease)",
+    search: "centered double decrease gecentreerde dubbele mindering",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "psso",
+    def: "afgehaalde steek overhalen (pass slipped stitch over)",
+    search: "pass slipped stitch over afgehaalde steek overhalen mindering",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "dec",
+    def: "minderen / mindering (decrease)",
+    search: "decrease minderen mindering",
+    categories: ["decreases"],
+  },
+
+  {
+    abbr: "C4F",
+    def: "kabel over 4 steken naar voren (cable 4 front)",
+    search: "cable four front kabel naar voren",
+    categories: ["cables"],
+  },
+  {
+    abbr: "C4B",
+    def: "kabel over 4 steken naar achteren (cable 4 back)",
+    search: "cable four back kabel naar achteren",
+    categories: ["cables"],
+  },
+  {
+    abbr: "C6F",
+    def: "kabel over 6 steken naar voren (cable 6 front)",
+    search: "cable six front kabel naar voren",
+    categories: ["cables"],
+  },
+  {
+    abbr: "C6B",
+    def: "kabel over 6 steken naar achteren (cable 6 back)",
+    search: "cable six back kabel naar achteren",
+    categories: ["cables"],
+  },
+  {
+    abbr: "T2F",
+    def: "2 steken naar voren kruisen (twist 2 front)",
+    search: "twist two front kruisen kabel naar voren",
+    categories: ["cables"],
+  },
+  {
+    abbr: "T2B",
+    def: "2 steken naar achteren kruisen (twist 2 back)",
+    search: "twist two back kruisen kabel naar achteren",
+    categories: ["cables"],
+  },
+
+  {
+    abbr: "St st",
+    def: "tricotsteek (stockinette / stocking stitch)",
+    search: "stockinette stocking stitch tricotsteek",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "g st",
+    def: "ribbelsteek (garter stitch)",
+    search: "garter stitch ribbelsteek",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "rev St st",
+    def: "omgekeerde tricotsteek (reverse stockinette)",
+    search: "reverse stockinette omgekeerde tricotsteek",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "rib",
+    def: "boordsteek / boord (ribbing)",
+    search: "ribbing boordsteek boord",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "moss st",
+    def: "dubbele gerstekorrel of rijstekorrel, afhankelijk van het patroon",
+    search: "moss stitch dubbele gerstekorrel rijstekorrel",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "seed st",
+    def: "gerstekorrelsteek, afhankelijk van het patroon",
+    search: "seed stitch gerstekorrelsteek",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "MB",
+    def: "nop maken volgens het patroon (make bobble)",
+    search: "make bobble nop bobbel structuursteek",
+    categories: ["stitch-patterns"],
+  },
+];
+
+const filterOrder: Array<Category | "all"> = [
+  "all",
+  "cast-on-bind-off",
+  "increases",
+  "decreases",
+  "cables",
+  "lace",
+  "general",
+  "stitch-patterns",
+];
+
+const faqs = [
+  {
+    q: "Zijn breiafkortingen hetzelfde in US- en UK-patronen?",
+    a: 'De meeste wel. k, p, yo en k2tog betekenen aan beide kanten van de Atlantische Oceaan hetzelfde. De verschillen zitten vooral in een paar termen: US "bind off" is UK "cast off", US "gauge" is UK "tension", en US "stockinette" is UK "stocking stitch". In het Nederlands kijk je vooral naar de stekenverhouding en de uitleg van het steekpatroon. "Seed stitch" en "moss stitch" kunnen ook van betekenis wisselen per bron, dus vertrouw de definitie van de steek boven de naam.',
+  },
+  {
+    q: "Wat betekent het sterretje in een breipatroon?",
+    a: 'Het markeert een herhaling. Alles tussen het sterretje en de bijbehorende instructie, vaak "rep from *", wordt steeds opnieuw over de toer gebreid. Haakjes en vierkante haken doen hetzelfde: ze groeperen een reeks handelingen die een bepaald aantal keer wordt herhaald. Een herhalingsmarkering missen is een snelle manier om op het verkeerde aantal steken uit te komen.',
+  },
+  {
+    q: "Wat als ik een afkorting niet in een standaardlijst vind?",
+    a: "Dan is het bijna zeker patroonspecifieke afkorting van de ontwerper. Ga terug naar het begin van het patroon en zoek naar een lijst met afkortingen of steekdefinities. Kabel- en ajourpatronen leveren de meeste eigen afkortingen op, omdat ontwerpers compacte notatie maken voor technieken die alleen in dat ontwerp voorkomen. Staat het daar niet, kijk dan in de patroonnotities of de sleutel bij het telpatroon.",
+  },
+  {
+    q: "Wat is het verschil tussen ssk en skp?",
+    a: "Beide zijn links hellende minderingen en geven in het afgewerkte breiwerk bijna hetzelfde resultaat. ssk is de moderne standaard en staat in de meeste huidige patronen. skp zie je vaker in oudere patronen. De uitvoering verschilt iets, dus volg wat het patroon aangeeft in plaats van zomaar te wisselen.",
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Breiafkortingen: zoekbare woordenlijst"
+  description="Zoek een breiafkorting of technieknaam op. Volledige woordenlijst met patroontermen van k2tog tot psso, geordend per categorie."
+  canonicalPath={dutchToolRoutes.knittingAbbreviations}
+  lang="nl"
+  alternates={routes.tool.knittingAbbreviations}
+  intro="Zoek een afkorting om te zien wat die betekent, of zoek een techniek om de bijbehorende afkortingen te vinden."
+  schemaName="Breiafkortingen"
+  schemaDescription="Zoekbare woordenlijst met breiafkortingen en techniektermen."
+  faqs={faqs}
+  variant="brown"
+>
+  <div slot="tool">
+    <div class="abbr-wrapper">
+      <input
+        type="text"
+        id="abbr-search"
+        class="search-input"
+        placeholder='Zoek afkorting of techniek, bijv. "ssk" of "mindering"'
+        autocomplete="off"
+      />
+
+      <div
+        class="category-filters"
+        role="group"
+        aria-label="Filteren op categorie"
+      >
+        {
+          filterOrder.map((cat, index) => (
+            <button
+              type="button"
+              class={`cat-btn${index === 0 ? " is-active" : ""}`}
+              data-cat={cat}
+              aria-pressed={index === 0 ? "true" : "false"}
+            >
+              {cat === "all" ? "Alles" : categoryLabels[cat as Category]}
+            </button>
+          ))
+        }
+      </div>
+
+      <ul class="abbr-list" id="abbr-list" aria-label="Breiafkortingen">
+        {
+          abbreviations.map((item) => (
+            <li
+              class="abbr-row"
+              data-abbr={item.abbr.toLowerCase()}
+              data-def={item.def.toLowerCase()}
+              data-search={item.search.toLowerCase()}
+              data-cats={item.categories.join(" ")}
+              data-catlabels={item.categories
+                .map((cat) => categoryLabels[cat].toLowerCase())
+                .join(" ")}
+            >
+              <span class="abbr-term">{item.abbr}</span>
+              <span class="abbr-def">{item.def}</span>
+            </li>
+          ))
+        }
+      </ul>
+
+      <p class="no-results" id="no-results" hidden>
+        Geen passende afkortingen gevonden.
+      </p>
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Afkortingen lezen in context</h2>
+    <p>
+      De meeste afkortingen vallen in een paar groepen, en die groep herkennen
+      helpt meer dan elke term los uit je hoofd leren.
+    </p>
+    <p>
+      <strong>Basissteken</strong> zijn losse letters. <code>k</code> betekent knit,
+      dus recht breien, en <code>p</code> betekent purl, averecht breien. Een getal
+      na de letter vertelt hoeveel: <code>k5</code> betekent vijf steken recht breien.
+      Dat is het hele systeem voor de eenvoudigste afkortingen.
+    </p>
+    <p>
+      <strong>Gecombineerde handelingen</strong> stapelen letters en cijfers. <code
+        >k2tog</code
+      > betekent twee steken recht samenbreien. <code>p2tog</code> is hetzelfde idee,
+      maar averecht. Veel breiafkortingen werken zo. Lees langzaam en letterlijk.
+    </p>
+    <p>
+      <strong>Kantmarkeringen</strong> vertellen aan welke kant van het breiwerk je
+      werkt. <code>RS</code> is de goede kant, <code>WS</code> de verkeerde kant.
+      Dat telt, omdat dezelfde handbeweging een ander resultaat kan geven op de zichtbare
+      kant dan op de achterkant.
+    </p>
+    <p>
+      <strong>Vormgevingsafkortingen</strong> sturen hoe de stof breder of smaller
+      wordt. <code>M1</code>, <code>M1L</code>, <code>M1R</code> en <code
+        >kfb</code
+      > voegen steken toe. <code>k2tog</code> en <code>ssk</code> halen ze weg. Weten
+      welke naar links hellen, welke naar rechts hellen en welke gewoon toevoegen
+      of minderen maakt patronen sneller leesbaar.
+    </p>
+    <p>
+      <strong>Structuurtermen</strong> houden instructies compact. <code
+        >rep</code
+      >, <code>st(s)</code>, <code>beg</code>, <code>rem</code>, <code
+        >cont</code
+      >. Dat is het raamwerk, niet de steek zelf.
+    </p>
+    <p>
+      Interpunctie telt ook. Sterretjes en puntkomma's zijn geen versiering. <code
+        >*k2, p2; rep from *</code
+      > betekent dat alles tussen het sterretje en de puntkomma wordt herhaald. Haakjes
+      en vierkante haken werken vergelijkbaar en groeperen handelingen die een bepaald
+      aantal keer herhaald worden. Een herhalingsmarkering missen is een van de snelste
+      manieren om met het verkeerde aantal steken te eindigen.
+    </p>
+
+    <h2>Verschillen tussen US en UK</h2>
+    <p>
+      Een paar termen verschuiven over de Atlantische Oceaan. De belangrijkste:
+    </p>
+    <p>
+      US "bind off" is UK "cast off". US "gauge" is UK "tension"; in het
+      Nederlands heb je het meestal over stekenverhouding. US "stockinette" is
+      UK "stocking stitch". En de klassieke valkuil: "seed stitch" en "moss
+      stitch" kunnen per bron wisselen, dus een uitgeschreven steekdefinitie
+      wint altijd van de naam alleen.
+    </p>
+    <p>
+      De meeste gewone afkortingen, zoals <code>k</code>, <code>p</code>, <code
+        >yo</code
+      > en <code>k2tog</code>, zijn in beide systemen hetzelfde. Als een patroon
+      niet zegt of het US- of UK-conventies gebruikt, maakt de sectie met
+      steekdefinities het meestal duidelijk. Is die er niet, dan is de locatie
+      van de ontwerper vaak de beste aanwijzing.
+    </p>
+
+    <h2>Patroonspecifieke afkortingen</h2>
+    <p>
+      Hier wordt het interessant, want veel afkortingen staan in geen enkele
+      standaardlijst. Dat is normaal. Het zijn eigen snelkoppelingen die de
+      ontwerper voor dat specifieke patroon heeft gemaakt, en ze horen aan het
+      begin van de instructies uitgelegd te worden.
+    </p>
+    <p>
+      Kabelpatronen leveren de meeste van dit soort afkortingen. Een sleutel bij
+      een telpatroon kan <code>C4F</code>, <code>C6B</code> of iets heel specifieks
+      voor het ontwerp definiëren. Het getal geeft meestal aan hoeveel steken kruisen.
+      De letter aan het eind, F of B, geeft de richting aan: front of back, dus waar
+      je de kabelnaald houdt tijdens het kruisen. Maar ontwerpers zijn niet altijd
+      consequent met die afspraak. Sommigen gebruiken L en R. Sommigen tellen alle
+      betrokken steken, anderen alleen de steken die verplaatsen. De definitie in
+      het patroon is wat telt.
+    </p>
+    <p>
+      Ajourpatronen bouwen ook samengestelde afkortingen. Het ene patroon
+      schrijft <code>CDD</code> voor een gecentreerde dubbele mindering. Een ander
+      schrijft hetzelfde idee als <code>sl2-k1-p2sso</code>. Een derde gebruikt <code
+        >s2kp</code
+      >. Alle drie wijzen naar hetzelfde basisidee, maar de exacte uitvoering
+      kan per ontwerper verschillen, en sommige afkortingen worden afhankelijk
+      van de bron voor net andere minderingen gebruikt. Lijkt een afkorting
+      onbekend, check dan de patroonsleutel voordat je aanneemt dat hij
+      overeenkomt met de meest gangbare versie.
+    </p>
+    <p>
+      Kleurwerkpatronen korten soms kleurnamen of kleurtoewijzingen af. Je ziet
+      MC, main color, en CC, contrast color, of CC1 en CC2 als er meerdere
+      contrastkleuren zijn. Sommige ontwerpen gebruiken A, B, C. De afkortingen
+      zijn simpel, maar kleuren door elkaar halen zie je meteen in het
+      afgewerkte breiwerk.
+    </p>
+    <p>
+      Sommige ontwerpers maken ook afkortingen voor herhaalde steekreeksen die
+      alleen in hun ontwerp voorkomen. Een patroon kan "MB" definiëren voor een
+      bepaalde nop, of "cluster" voor een specifieke combinatie van omslagen en
+      overhalingen die alleen voor dat project geldt. Zo hoeft de ontwerper niet
+      elke keer een meerstapsinstructie uit te schrijven. Die snelkoppelingen
+      hebben alleen betekenis binnen dat patroon.
+    </p>
+    <p>
+      De praktische regel: vind je een afkorting niet in een
+      standaardreferentie, dan staat hij vrijwel zeker in de kop van het
+      patroon. Scroll omhoog voordat je elders zoekt.
+    </p>
+
+    <h2>Wat symbolen in telpatronen betekenen</h2>
+    <p>
+      Telpatronen gebruiken symbolen in plaats van uitgeschreven toeren. Elk
+      vakje is een steek, en het symbool in het vakje vertelt wat je doet.
+    </p>
+    <p>
+      Er is geen universele standaard voor alle telpatroonsymbolen, maar veel
+      ontwerpers blijven dicht bij de conventies van de Craft Yarn Council. Een
+      leeg vakje betekent vaak recht op de goede kant en averecht op de
+      verkeerde kant. Een streepje betekent averecht op de goede kant. Een
+      cirkel is <code>yo</code>. Een schuine streep naar rechts markeert <code
+        >k2tog</code
+      >, een schuine streep naar links markeert <code>ssk</code>.
+    </p>
+    <p>
+      Telpatronen lees je van onder naar boven, omdat breiwerk omhoog groeit.
+      Bij plat breien lees je toeren aan de goede kant van rechts naar links en
+      toeren aan de verkeerde kant van links naar rechts, in de richting waarin
+      je naalden werken. Bij rondbreien lees je elke toer van rechts naar links,
+      omdat je altijd op de goede kant werkt.
+    </p>
+    <p>
+      Als een patroon zowel geschreven als getekende instructies geeft, zouden
+      die moeten kloppen met elkaar. Als dat niet zo is, en dat gebeurt vaker
+      dan prettig is, moeten de patroonnotities zeggen welke voorrang heeft.
+      Staat het er niet bij, brei dan eerst een herhaling als proef voordat je
+      op een van beide vertrouwt.
+    </p>
+
+    <h2>Een paar afkortingen om vroeg te kennen</h2>
+    <p>
+      Je hoeft niet alles uit je hoofd te kennen voordat je steken opzet. Een
+      eerste sjaal gebruikt misschien alleen <code>k</code> en <code>p</code>.
+      Een simpele muts voegt een paar minderingen toe. De rest komt vanzelf met
+      de patronen die je kiest, en dezelfde twaalf afkortingen dekken het
+      grootste deel van wat je breit.
+    </p>
+    <p>
+      Een duo waar mensen vaak over struikelen: <code>ssk</code> en <code
+        >skp</code
+      > zijn allebei links hellende minderingen. <code>ssk</code> is de moderne standaard.
+      <code>skp</code> staat vaker in oudere patronen. Het resultaat lijkt op elkaar,
+      maar de uitvoering verschilt iets, dus volg het patroon zoals het geschreven
+      is tenzij het vervanging toestaat.
+    </p>
+    <p>
+      Nog een om te markeren: <code>psso</code>, pass slipped stitch over,
+      verschijnt los of als onderdeel van samengestelde afkortingen zoals <code
+        >sl1-k2tog-psso</code
+      >. Zie je hem los, dan volgt hij meestal op een afgehaalde steek uit de
+      vorige stap.
+    </p>
+    <p>
+      De Craft Yarn Council publiceert een veelgebruikte standaardlijst met
+      afkortingen, en de meeste ontwerpers volgen die voor gangbare termen.
+      Daarbuiten nemen regionale gewoontes en patroonspecifieke snelkoppelingen
+      het over. "Check de patroonsleutel" is beter advies dan "leer een
+      volledige lijst uit je hoofd".
+    </p>
+    <p>
+      Houd een referentie open terwijl je breit. De <a href="/">KnitTools-app</a
+      > bevat een zoekbare afkortingenreferentie, sneller dan halverwege een toer
+      tussen tabbladen wisselen. Ben je ook bezig met naalddiktes of <a
+        href="/nl/artikelen/stekenverhouding-meten/">stekenverhouding meten</a
+      >, dan passen die referenties goed bij deze woordenlijst. En als je net
+      begint met <a href="/nl/artikelen/een-breipatroon-lezen/"
+        >breipatronen lezen</a
+      >, is de afkortingenlijst in je patroon de eerste sectie om te scannen
+      voordat je steken opzet.
+    </p>
+  </div>
+</LocalizedToolPage>
+
+<script>
+  const searchInput = document.getElementById(
+    "abbr-search",
+  ) as HTMLInputElement | null;
+  const list = document.getElementById("abbr-list");
+  const noResults = document.getElementById("no-results");
+  const catButtons = document.querySelectorAll<HTMLButtonElement>(".cat-btn");
+
+  let activeCategory = "all";
+
+  function applyFilters() {
+    if (!list || !noResults) return;
+    const rows = list.querySelectorAll<HTMLElement>(".abbr-row");
+    const query = (searchInput?.value || "").trim().toLowerCase();
+    let visibleCount = 0;
+
+    rows.forEach((row) => {
+      const cats = (row.dataset.cats || "").split(" ");
+      const haystack = [
+        row.dataset.abbr,
+        row.dataset.def,
+        row.dataset.search,
+        row.dataset.catlabels,
+      ].join(" ");
+
+      const matchesCategory =
+        activeCategory === "all" || cats.includes(activeCategory);
+      const matchesSearch = !query || haystack.includes(query);
+      const visible = matchesCategory && matchesSearch;
+
+      row.style.display = visible ? "" : "none";
+      if (visible) visibleCount++;
+    });
+
+    noResults.hidden = visibleCount > 0;
+  }
+
+  searchInput?.addEventListener("input", applyFilters);
+
+  catButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      catButtons.forEach((item) => {
+        item.classList.remove("is-active");
+        item.setAttribute("aria-pressed", "false");
+      });
+
+      button.classList.add("is-active");
+      button.setAttribute("aria-pressed", "true");
+      activeCategory = button.dataset.cat || "all";
+      applyFilters();
+    });
+  });
+</script>

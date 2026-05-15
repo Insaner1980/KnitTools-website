@@ -3,7 +3,7 @@ export interface Props {
   quote: string;
   attribution?: string;
 }
-const { quote, attribution } = Astro.props;
+const { quote } = Astro.props;
 ---
 
 <aside class="pull-quote" aria-label="Pull quote">
@@ -26,7 +26,8 @@ const { quote, attribution } = Astro.props;
     margin: 0 auto;
     text-align: center;
   }
-  .rule-top, .rule-bottom {
+  .rule-top,
+  .rule-bottom {
     width: 72px;
     height: 1px;
     background: var(--ink);
@@ -56,7 +57,11 @@ const { quote, attribution } = Astro.props;
     margin-left: 0.05em;
   }
   @media (max-width: 640px) {
-    .pull-quote { padding: 48px 20px; }
-    blockquote { margin: 20px 0; }
+    .pull-quote {
+      padding: 48px 20px;
+    }
+    blockquote {
+      margin: 20px 0;
+    }
   }
 </style>

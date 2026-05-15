@@ -4,11 +4,18 @@ description: "Apprends à tricoter un bonnet en rond par le bas ou à plat avec 
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 12
-tags: ["tricoter un bonnet", "bonnet tricot débutant", "guide bonnet tricot", "modèle bonnet tricot"]
+tags:
+  [
+    "tricoter un bonnet",
+    "bonnet tricot débutant",
+    "guide bonnet tricot",
+    "modèle bonnet tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "how-to-knit-hat"
 ---
+
 Un bonnet est l'un des meilleurs deuxième ou troisième projets après une écharpe. Il introduit le tricot en rond, les diminutions et le façonnage de base, dans un petit projet rapide qui donne quelque chose que tu porteras vraiment. La plupart des bonnets en worsted se terminent en quelques soirées.
 
 Pour tricoter un bonnet simple, monte les mailles correspondant au tour de tête moins 2,5 à 5 cm d'aisance négative, tricote des côtes pour le bord, continue le corps en jersey, puis [diminue régulièrement](/fr/articles/repartir-augmentations-diminutions-regulierement/) au sommet. Plusieurs méthodes existent. La bonne dépend des techniques que tu connais et du matériel que tu as.
@@ -51,9 +58,9 @@ Approche courante : diviser les mailles en 6 ou 8 sections égales, avec des mar
 
 Pour 96 mailles en 8 sections de 12 :
 
-Tour 1 : *10 m. end., 2 m. ens. à l'end.; rép. depuis * tout le tour. (88 m.)
+Tour 1 : _10 m. end., 2 m. ens. à l'end.; rép. depuis _ tout le tour. (88 m.)
 Tour 2 : tricoter à l'endroit.
-Tour 3 : *9 m. end., 2 m. ens. à l'end.; rép. depuis * tout le tour. (80 m.)
+Tour 3 : _9 m. end., 2 m. ens. à l'end.; rép. depuis _ tout le tour. (80 m.)
 Tour 4 : tricoter à l'endroit.
 
 Continue jusqu'à ce qu'il reste 8 à 16 mailles. Coupe le fil, passe-le dans les mailles restantes avec une aiguille à laine, serre et fixe à l'intérieur.

@@ -4,10 +4,18 @@ description: "Seuraa neulesessioita ja näe, mihin aika kuluu ja miten vauhti mu
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 7
-tags: ["neulonta-ajan seuraaminen", "neulesession seuranta", "sessioseuranta", "neuleen edistymisen seuranta", "neulonta-ajan mittaus"]
+tags:
+  [
+    "neulonta-ajan seuraaminen",
+    "neulesession seuranta",
+    "sessioseuranta",
+    "neuleen edistymisen seuranta",
+    "neulonta-ajan mittaus",
+  ]
 lang: fi
 translationKey: "track-knitting-time"
 ---
+
 Useimmilla neulojilla on epämääräinen tunne siitä, kauanko projektit vievät. "Villapaita kesti pari kuukautta." "Sukat valmistuivat aika nopeasti." Epämääräisyys ei auta, kun mietit kannattaako neuletakki aloittaa kuusi viikkoa ennen joulua tai miksi pipo-ohje, jonka piti valmistua yhdessä illassa, venyy kolmeen.
 
 Neulonta-ajan seuraaminen muuttaa tuntumat oikeaksi dataksi. Montako tuntia villapaitaan meni. Montako kerrosta teet keskimäärin yhdessä sessiossa. Neulotko nopeammin sileää neuletta vai palmikoita, vastaus on aina sileää, mutta kuinka paljon? Numerot eivät saa käsiä liikkumaan nopeammin, mutta ne auttavat suunnittelemaan paremmin ja huomaamaan, kun jokin alkaa hiljaa mennä pieleen.

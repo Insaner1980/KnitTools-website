@@ -4,10 +4,18 @@ description: "Näin liität uuden langan neuleeseen. Ohje päällekkäisliitokse
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 5
-tags: ["uuden langan liittäminen", "lankakerän vaihtaminen", "langan jatkaminen neuleessa", "magic knot", "russian join"]
+tags:
+  [
+    "uuden langan liittäminen",
+    "lankakerän vaihtaminen",
+    "langan jatkaminen neuleessa",
+    "magic knot",
+    "russian join",
+  ]
 lang: fi
 translationKey: "join-new-ball-of-yarn"
 ---
+
 Vanha kerä loppuu. Uusi pitää aloittaa. Siirtymän pitää olla valmiissa neuleessa näkymätön ja tarpeeksi tukeva, ettei se purkaudu.
 
 Neljä päämenetelmää ovat päällekkäisliitos (helpoin, kaksi pääteltävää langanpäätä), Russian join (ei päitä, hieman paksumpi kohta), huopaliitos eli spit splice (näkymätön, mutta vain huopuville villoille) ja magic knot (nopea, mutta jättää solmun). Paras valinta riippuu langan [kuitusisällöstä](/fi/artikkelit/lankakuidut-vertailussa/) ja siitä, kuinka paljon langanpäiden päättely häiritsee.

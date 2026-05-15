@@ -4,11 +4,19 @@ description: "So verwaltest du mehrere Strickprojekte gleichzeitig, ohne Nadeln,
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 3
-tags: ["Strickprojekte organisieren", "WIP organisieren", "Strickprojekt Tracker", "Strickfortschritt verfolgen", "mehrere Strickprojekte"]
+tags:
+  [
+    "Strickprojekte organisieren",
+    "WIP organisieren",
+    "Strickprojekt Tracker",
+    "Strickfortschritt verfolgen",
+    "mehrere Strickprojekte",
+  ]
 draft: false
 lang: de
 translationKey: "organize-knitting-projects"
 ---
+
 Die meisten Strickenden haben mehr als ein Projekt gleichzeitig auf den Nadeln. Ein komplexer Pullover für konzentrierte Abende. Eine einfache Socke für unterwegs. Eine gedankenlose Decke in kraus rechts fürs Fernsehen. Verschiedene Projekte für unterschiedliche Stimmungen und Energielevel. Das ist normal.
 
 Der Ärger beginnt, wenn „ein paar Projekte“ leise zu sieben werden und du nicht mehr weißt, welche Nadelstärke in der halbfertigen Mütze steckt, in welcher Reihe du beim Cardigan aufgehört hast oder ob du das zweite Knäuel für den Cowl schon gekauft hast. WIP-Management heißt nicht, die Projektzahl streng zu begrenzen. Es heißt, jedes davon wieder aufnehmen zu können, ohne zehn Minuten zu rekonstruieren, wo du warst.

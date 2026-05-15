@@ -4,10 +4,17 @@ description: "Laske, paljonko lankaa tarvitset huiveihin, paitoihin, peittoihin 
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 2
-tags: ["paljonko lankaa tarvitaan", "langanmenekkilaskuri", "neuleen langanmenekki", "montako kerää tarvitaan"]
+tags:
+  [
+    "paljonko lankaa tarvitaan",
+    "langanmenekkilaskuri",
+    "neuleen langanmenekki",
+    "montako kerää tarvitaan",
+  ]
 lang: fi
 translationKey: "how-much-yarn-do-i-need"
 ---
+
 Langan loppuminen kolme neljäsosaa projektin jälkeen on oma erityinen tappionsa. Värjäyserä on loppu. Kauppa on myynyt langan pois. Tai korvaava kerä näyttää kaupassa tarpeeksi samalta ja neulottuna alkuperäisen vieressä täysin väärältä. Kaksi senttiä ennen päättelyä koko työ pysähtyy. Tätä tapahtuu useammin kuin pitäisi, ja se on lähes aina vältettävissä.
 
 Neuleprojektin langanmenekki riippuu neljästä asiasta: työn mitoista, lankavahvuudesta, mallineuleesta ja neuletiheydestä. Hyvä arvio ei ole arvailua. Se perustuu siihen, että nämä neljä lähtötietoa ovat kunnossa. Kun ne ovat oikein, arvio osuu yllättävän lähelle. Jos ohitat yhdenkin, pelaat riskillä.

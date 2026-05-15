@@ -4,11 +4,18 @@ description: "Verstehe, was die Maschenprobe bedeutet, warum sie zwischen Strick
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 1
-tags: ["Maschenprobe", "Maschenprobe Stricken", "warum ändert sich die Maschenprobe", "Strickspannung"]
+tags:
+  [
+    "Maschenprobe",
+    "Maschenprobe Stricken",
+    "warum ändert sich die Maschenprobe",
+    "Strickspannung",
+  ]
 draft: false
 lang: de
 translationKey: "what-is-gauge-in-knitting"
 ---
+
 Die Maschenprobe sagt, wie viele Maschen und Reihen in einen gemessenen Abschnitt deines Gestricks passen. Wenn eine Anleitung schreibt: "20 Maschen und 28 Reihen = 10 cm glatt rechts", beschreibt das die Stoffdichte der Designerin oder des Designers. Triffst du diese Dichte, hat dein Projekt eine deutlich bessere Chance, die geplante Größe zu bekommen.
 
 Das ist die kurze Version. Nützlicher ist zu verstehen, warum zwei Menschen mit demselben Garn und derselben Nadelstärke völlig unterschiedliche Maschenproben bekommen können, und warum sich deine eigene Maschenprobe im Lauf eines Projekts verändern kann.

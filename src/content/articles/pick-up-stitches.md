@@ -4,8 +4,15 @@ description: "Learn how to pick up stitches along horizontal, vertical, and curv
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 11
-tags: ["pick up stitches knitting", "pick up and knit", "pick up stitches along edge", "pick up stitches neckline"]
+tags:
+  [
+    "pick up stitches knitting",
+    "pick up and knit",
+    "pick up stitches along edge",
+    "pick up stitches neckline",
+  ]
 ---
+
 Picking up stitches creates a new row of live stitches along an existing edge, so you can knit a border, neckband, button band, or collar directly onto the piece without sewing anything. Turns a raw edge into a finished one.
 
 The standard ratio for picking up stitches along a vertical stockinette edge is 3 stitches for every 4 rows, compensating for the difference between stitch width and row height. The motion itself is quick to learn. The tricky part is spacing: how many to pick up across a given length, and how to distribute them evenly.

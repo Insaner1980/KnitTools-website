@@ -1,24 +1,33 @@
 ---
-import { useTranslations } from '../i18n/ui';
-import type { Lang } from '../i18n/config';
+import { useTranslations } from "../i18n/ui";
+import type { Lang } from "../i18n/config";
 
 interface Props {
-  variant?: 'hero' | 'page';
+  variant?: "hero" | "page";
   lang?: Lang;
 }
 
-const { variant = 'hero', lang = 'en' } = Astro.props;
+const { variant = "hero", lang = "en" } = Astro.props;
 const t = useTranslations(lang);
 ---
 
-<section class:list={['closing-cta', `closing-cta--${variant}`]} aria-labelledby="closing-heading">
+<section
+  class:list={["closing-cta", `closing-cta--${variant}`]}
+  aria-labelledby="closing-heading"
+>
   <div class="inner">
-    <p class="eyebrow">{t('closingEyebrow')}</p>
-    <h2 id="closing-heading">{t('closingHeadingStart')}<br /><em>{t('closingHeadingEm')}</em></h2>
+    <p class="eyebrow">{t("closingEyebrow")}</p>
+    <h2 id="closing-heading">
+      {t("closingHeadingStart")}<br /><em>{t("closingHeadingEm")}</em>
+    </h2>
 
     <form class="signup" id="join" action="#" method="post">
-      <label for="closing-email" class="visually-hidden">{t('emailAddress')}</label>
-      <label for="closing-website" class="visually-hidden">{t('honeypot')}</label>
+      <label for="closing-email" class="visually-hidden"
+        >{t("emailAddress")}</label
+      >
+      <label for="closing-website" class="visually-hidden"
+        >{t("honeypot")}</label
+      >
       <input
         id="closing-website"
         name="website"
@@ -32,56 +41,56 @@ const t = useTranslations(lang);
           id="closing-email"
           name="email"
           type="email"
-          placeholder={t('emailPlaceholder')}
+          placeholder={t("emailPlaceholder")}
           required
           autocomplete="email"
         />
-        <button type="submit" class="btn-primary">{t('reservePrice')}</button>
+        <button type="submit" class="btn-primary">{t("reservePrice")}</button>
       </div>
       <p class="signup-success" data-success aria-hidden="true">
-        {t('reserved')}
+        {t("reserved")}
       </p>
       <p class="signup-error" data-error aria-hidden="true">
-        {t('genericError')}
+        {t("genericError")}
       </p>
     </form>
 
-    <p class="meta">{t('closingMeta')}</p>
+    <p class="meta">{t("closingMeta")}</p>
   </div>
 </section>
 
 <script
   is:inline
   define:vars={{
-    reservePriceText: t('reservePrice'),
-    sendingText: t('sending'),
-    genericErrorText: t('genericError'),
-    networkErrorText: t('networkError'),
+    reservePriceText: t("reservePrice"),
+    sendingText: t("sending"),
+    genericErrorText: t("genericError"),
+    networkErrorText: t("networkError"),
   }}
 >
   (() => {
-    const ENDPOINT = 'https://api.finnvek.com/subscribe';
+    const ENDPOINT = "https://api.finnvek.com/subscribe";
 
-    const form = document.getElementById('join');
+    const form = document.getElementById("join");
     if (!form) return;
 
-    const content = form.querySelector('[data-content]');
-    const success = form.querySelector('[data-success]');
-    const errorEl = form.querySelector('[data-error]');
+    const content = form.querySelector("[data-content]");
+    const success = form.querySelector("[data-success]");
+    const errorEl = form.querySelector("[data-error]");
     const button = form.querySelector('button[type="submit"]');
     const emailInput = form.querySelector('input[type="email"]');
     const honeypot = form.querySelector('input[name="website"]');
     const originalText = button ? button.textContent : reservePriceText;
 
     const showSuccess = () => {
-      if (content) content.style.display = 'none';
+      if (content) content.style.display = "none";
       if (errorEl) {
-        errorEl.style.display = 'none';
-        errorEl.setAttribute('aria-hidden', 'true');
+        errorEl.style.display = "none";
+        errorEl.setAttribute("aria-hidden", "true");
       }
       if (success) {
-        success.style.display = 'block';
-        success.setAttribute('aria-hidden', 'false');
+        success.style.display = "block";
+        success.setAttribute("aria-hidden", "false");
       }
     };
 
@@ -92,12 +101,12 @@ const t = useTranslations(lang);
       }
       if (errorEl) {
         errorEl.textContent = message;
-        errorEl.style.display = 'block';
-        errorEl.setAttribute('aria-hidden', 'false');
+        errorEl.style.display = "block";
+        errorEl.setAttribute("aria-hidden", "false");
       }
     };
 
-    form.addEventListener('submit', async (e) => {
+    form.addEventListener("submit", async (e) => {
       e.preventDefault();
       if (!form.reportValidity()) return;
 
@@ -106,18 +115,18 @@ const t = useTranslations(lang);
         button.textContent = sendingText;
       }
       if (errorEl) {
-        errorEl.style.display = 'none';
-        errorEl.setAttribute('aria-hidden', 'true');
+        errorEl.style.display = "none";
+        errorEl.setAttribute("aria-hidden", "true");
       }
 
       try {
         const res = await fetch(ENDPOINT, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            email: emailInput ? emailInput.value.trim() : '',
-            source: 'knittools',
-            website: honeypot ? honeypot.value : '',
+            email: emailInput ? emailInput.value.trim() : "",
+            source: "knittools",
+            website: honeypot ? honeypot.value : "",
           }),
         });
         const data = await res.json().catch(() => ({}));
@@ -180,7 +189,10 @@ const t = useTranslations(lang);
     margin-top: 6px;
   }
 
-  .signup { max-width: 520px; margin: 0 auto; }
+  .signup {
+    max-width: 520px;
+    margin: 0 auto;
+  }
   .signup-row {
     display: flex;
     gap: 10px;
@@ -196,7 +208,10 @@ const t = useTranslations(lang);
     border-radius: 0;
     min-width: 0;
   }
-  .signup input:focus { outline: 2px solid var(--terracotta); outline-offset: 2px; }
+  .signup input:focus {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
+  }
   .btn-primary {
     font-family: var(--font-body);
     font-size: 13px;
@@ -209,7 +224,9 @@ const t = useTranslations(lang);
     padding: 14px 22px;
     border-radius: 0;
     cursor: pointer;
-    transition: background 0.15s ease, border-color 0.15s ease;
+    transition:
+      background 0.15s ease,
+      border-color 0.15s ease;
   }
   .btn-primary:hover {
     background: var(--terracotta);
@@ -253,7 +270,11 @@ const t = useTranslations(lang);
   }
 
   @media (max-width: 640px) {
-    .closing-cta { padding: 100px 20px; }
-    .signup-row { flex-direction: column; }
+    .closing-cta {
+      padding: 100px 20px;
+    }
+    .signup-row {
+      flex-direction: column;
+    }
   }
 </style>

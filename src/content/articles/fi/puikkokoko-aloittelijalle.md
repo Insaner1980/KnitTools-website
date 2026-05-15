@@ -4,10 +4,17 @@ description: "Löydä paras puikkokoko neulomisen aloittamiseen. Suositellut koo
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 3
-tags: ["mikä puikkokoko aloittelijalle", "paras puikkokoko neulomisen opetteluun", "aloittelijan neulepuikot", "ensimmäiset neulepuikot"]
+tags:
+  [
+    "mikä puikkokoko aloittelijalle",
+    "paras puikkokoko neulomisen opetteluun",
+    "aloittelijan neulepuikot",
+    "ensimmäiset neulepuikot",
+  ]
 lang: fi
 translationKey: "needle-size-for-beginners"
 ---
+
 5,0 mm. Se on lyhyt vastaus. Jos ostat ensimmäiset puikot ja haluat yhden suosituksen, 5,0 mm bambu- tai puupuikot worsted-vahvuisen langan kanssa antavat anteeksiantavimman yhdistelmän opetteluun.
 
 Koko toimii syystä. Ja joskus jokin muu koko on järkevämpi. Jos valitset samalla lankaa, [aloittelijan lankaopas](/fi/artikkelit/paras-lanka-aloittelijalle/) sopii tämän pariksi.

@@ -4,11 +4,19 @@ description: "Kostenlose Online-Strickrechner für Maschenanschlag, Garnbedarf, 
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 5
-tags: ["Strickrechner", "kostenlose Strickrechner", "Maschenanschlag Rechner", "Garnrechner", "Maschenprobe Rechner"]
+tags:
+  [
+    "Strickrechner",
+    "kostenlose Strickrechner",
+    "Maschenanschlag Rechner",
+    "Garnrechner",
+    "Maschenprobe Rechner",
+  ]
 draft: false
 lang: de
 translationKey: "free-knitting-calculators"
 ---
+
 Beim Stricken steckt mehr Rechnen dahinter, als viele erwarten. Wie viele Maschen brauchst du für einen 23 cm breiten Schal bei deiner Maschenprobe? Wie viel Garn frisst eine Decke? Wie verteilst du 8 Zunahmen gleichmäßig über 64 Maschen? Das ist keine schwierige Mathematik, aber sie taucht ständig auf, und falsche Zahlen bedeuten Aufribbeln.
 
 Vier Arten von Strickrechnern decken den Großteil dessen ab, was du brauchst. Die kostenlosen Versionen auf dieser Seite funktionieren in jedem Browser ohne Anmeldung.

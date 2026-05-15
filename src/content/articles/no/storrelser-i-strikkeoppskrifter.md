@@ -4,11 +4,18 @@ description: "Lær å velge riktig størrelse i en strikkeoppskrift. Om bevegels
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 7
-tags: ["størrelser i strikkeoppskrift", "bevegelsesvidde strikking", "velge størrelse strikking", "passform strikkeoppskrift"]
+tags:
+  [
+    "størrelser i strikkeoppskrift",
+    "bevegelsesvidde strikking",
+    "velge størrelse strikking",
+    "passform strikkeoppskrift",
+  ]
 draft: false
 lang: no
 translationKey: "knitting-pattern-sizes-and-fit"
 ---
+
 En oppskrift merket "Medium" kan sitte som et telt på én person og føles trang på en annen. Oppskriftsstørrelser er ikke butikkstørrelser. De bygger på ferdige plaggmål, og forholdet mellom kroppen din og de målene avgjør hvordan plagget faktisk sitter.
 
 ## Kroppsmål mot ferdige mål

@@ -4,8 +4,15 @@ description: "How wool, cotton, acrylic, and fiber blends differ in knitting. Co
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 8
-tags: ["yarn fibers compared", "wool vs cotton knitting", "acrylic vs wool yarn", "best yarn fiber for knitting"]
+tags:
+  [
+    "yarn fibers compared",
+    "wool vs cotton knitting",
+    "acrylic vs wool yarn",
+    "best yarn fiber for knitting",
+  ]
 ---
+
 Knit the same cable swatch in wool and cotton, hold them side by side, and they'll look like they came from different patterns. The wool version bounces. Cables pop. The cotton version droops a little, hangs flatter, shows every stitch with almost uncomfortable honesty. Same needle, same hands, same stitch count. Completely different fabric.
 
 That difference isn't cosmetic. Fiber content shapes how a project feels in the hands while knitting, how it blocks, how it wears over months and years, and whether it'll hold its shape or slowly surrender to gravity. Fiber content determines how the finished fabric feels, drapes, blocks, and holds up over time. Wool provides elasticity and blocking potential, cotton gives drape and washability, acrylic offers affordability and machine-wash durability. The label on a skein isn't fine print. It's the single most useful piece of information about what that yarn will actually do.

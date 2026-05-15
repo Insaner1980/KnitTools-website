@@ -1,19 +1,19 @@
 ---
-import RegionalPrice from './RegionalPrice.astro';
-import RegionalPricingNote from './RegionalPricingNote.astro';
+import RegionalPrice from "./RegionalPrice.astro";
+import RegionalPricingNote from "./RegionalPricingNote.astro";
 
 const columns = [
   {
-    eyebrow: 'Privacy',
-    lead: 'No tracking.',
-    italic: 'No ads.',
-    body: 'Your stash, your patterns, your pace. No account needed, nothing sold, nothing tracked.',
-    tint: 'sage',
+    eyebrow: "Privacy",
+    lead: "No tracking.",
+    italic: "No ads.",
+    body: "Your stash, your patterns, your pace. No account needed, nothing sold, nothing tracked.",
+    tint: "sage",
   },
   {
-    eyebrow: 'Languages',
-    lead: 'Speaks',
-    italic: 'your language.',
+    eyebrow: "Languages",
+    lead: "Speaks",
+    italic: "your language.",
     body: "Eleven languages at launch. Because knitting instructions shouldn't need a translator.",
   },
 ];
@@ -25,7 +25,9 @@ const columns = [
       <p class="section-label">
         <span class="label-text">Principles</span>
       </p>
-      <h2 id="trust-heading" class="title">What you can<br /><em>count on.</em></h2>
+      <h2 id="trust-heading" class="title">
+        What you can<br /><em>count on.</em>
+      </h2>
     </header>
 
     <div class="cols">
@@ -37,12 +39,15 @@ const columns = [
           <em>Own it.</em>
         </h3>
         <p class="body">
-          <RegionalPrice phase="launch" /> for the whole toolkit. After launch the price rises to <RegionalPrice phase="permanent" />, so if you're going to buy it, buy it early. No subscription, ever. <RegionalPricingNote />
+          <RegionalPrice phase="launch" /> for the whole toolkit. After launch the
+          price rises to <RegionalPrice phase="permanent" />, so if you're going
+          to buy it, buy it early. No subscription, ever. <RegionalPricingNote
+          />
         </p>
       </article>
       {
         columns.map((c) => (
-          <article class:list={['trust-col', c.tint && `tint-${c.tint}`]}>
+          <article class:list={["trust-col", c.tint && `tint-${c.tint}`]}>
             <p class="eyebrow">{c.eyebrow}</p>
             <h3>
               {c.lead}
@@ -108,18 +113,27 @@ const columns = [
   }
   .trust-col {
     background: var(--wheat);
-    color: #2A1E17;
-    border: 1px solid #2A1E17;
+    color: #2a1e17;
+    border: 1px solid #2a1e17;
     padding: 36px 32px;
   }
   .trust-col.tint-sage {
     background: var(--sage);
-    color: #F4EAD9;
+    color: #f4ead9;
   }
-  .trust-col.tint-sage .eyebrow { color: #F4EAD9; opacity: 0.85; }
-  .trust-col.tint-sage h3 { color: #F4EAD9; }
-  .trust-col.tint-sage h3 em { color: #F4EAD9; }
-  .trust-col.tint-sage .body { color: rgba(244, 234, 217, 0.9); }
+  .trust-col.tint-sage .eyebrow {
+    color: #f4ead9;
+    opacity: 0.85;
+  }
+  .trust-col.tint-sage h3 {
+    color: #f4ead9;
+  }
+  .trust-col.tint-sage h3 em {
+    color: #f4ead9;
+  }
+  .trust-col.tint-sage .body {
+    color: rgba(244, 234, 217, 0.9);
+  }
 
   .eyebrow {
     font-family: var(--font-body);
@@ -127,7 +141,7 @@ const columns = [
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #2A1E17;
+    color: #2a1e17;
     margin: 0 0 18px;
   }
   h3 {
@@ -138,10 +152,10 @@ const columns = [
     letter-spacing: -0.01em;
     text-transform: none;
     margin: 0 0 20px;
-    color: #2A1E17;
+    color: #2a1e17;
   }
   h3 em {
-    color: #2A1E17;
+    color: #2a1e17;
     font-style: italic;
     font-size: 1.3em;
     line-height: 1;
@@ -152,17 +166,23 @@ const columns = [
     font-family: var(--body-ed);
     font-size: 15px;
     line-height: 1.6;
-    color: #4A382C;
+    color: #4a382c;
     margin: 0;
   }
 
   @media (max-width: 1023px) {
-    .cols { grid-template-columns: 1fr; }
+    .cols {
+      grid-template-columns: 1fr;
+    }
   }
   @media (max-width: 767px) {
-    .section-head .section-label { gap: 12px; }
+    .section-head .section-label {
+      gap: 12px;
+    }
   }
   @media (max-width: 640px) {
-    .trust-triad { padding: 80px 20px; }
+    .trust-triad {
+      padding: 80px 20px;
+    }
   }
 </style>

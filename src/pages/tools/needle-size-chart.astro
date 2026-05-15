@@ -1,9 +1,9 @@
 ---
-import PageLayout from '../../layouts/PageLayout.astro';
-import { PRICING } from '../../config/pricing';
-import RegionalPrice from '../../components/RegionalPrice.astro';
-import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
-import { routes } from '../../i18n/routes';
+import PageLayout from "../../layouts/PageLayout.astro";
+import { PRICING } from "../../config/pricing";
+import RegionalPrice from "../../components/RegionalPrice.astro";
+import RegionalPricingNote from "../../components/RegionalPricingNote.astro";
+import { routes } from "../../i18n/routes";
 ---
 
 <PageLayout
@@ -13,59 +13,66 @@ import { routes } from '../../i18n/routes';
   alternates={routes.tool.needleSizeChart}
   showStripe={false}
 >
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Knitting Needle Size Chart",
-    "description": "Convert knitting needle sizes between US, UK, metric (mm), and Japanese systems.",
-    "url": "https://knittoolsapp.com/tools/needle-size-chart/",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "Any",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    }
-  })} />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      name: "Knitting Needle Size Chart",
+      description:
+        "Convert knitting needle sizes between US, UK, metric (mm), and Japanese systems.",
+      url: "https://knittoolsapp.com/tools/needle-size-chart/",
+      applicationCategory: "UtilityApplication",
+      operatingSystem: "Any",
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "USD",
+      },
+    })}
+  />
 
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Can I substitute a close needle size if I don't have the exact one?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You can, but a 0.5 mm jump often shifts gauge enough to matter. Swatch again for anything fitted."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Are needle sizes the same across all brands?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "They should be. In practice there are slight differences, especially on cheaper sets or older needles. If your gauge is persistently off, measure the needle."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What about circular needle sizes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Same sizing as straights. The size describes tip diameter, not cable length. A 4.5 mm circular is a 4.5 mm needle whether the cable is short for a hat or long for magic loop."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do I need every needle size?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. Most knitters live in a handful of sizes matching the yarns they use most. If you're working with Medium and Light yarns, you'll reach for 3.75 to 5.5 mm constantly."
-        }
-      }
-    ]
-  })} />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Can I substitute a close needle size if I don't have the exact one?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "You can, but a 0.5 mm jump often shifts gauge enough to matter. Swatch again for anything fitted.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Are needle sizes the same across all brands?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "They should be. In practice there are slight differences, especially on cheaper sets or older needles. If your gauge is persistently off, measure the needle.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What about circular needle sizes?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Same sizing as straights. The size describes tip diameter, not cable length. A 4.5 mm circular is a 4.5 mm needle whether the cable is short for a hat or long for magic loop.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do I need every needle size?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. Most knitters live in a handful of sizes matching the yarns they use most. If you're working with Medium and Light yarns, you'll reach for 3.75 to 5.5 mm constantly.",
+          },
+        },
+      ],
+    })}
+  />
 
   <!-- 1. Tool hero -->
   <section class="tool-hero">
@@ -73,61 +80,168 @@ import { routes } from '../../i18n/routes';
       <p class="eyebrow">
         <a href="/tools/" class="eyebrow-back">← All tools</a>
       </p>
-      <h1 class="gs-h1" aria-label="Needle Size Chart"><span class="h1-chars">Needle Size Chart</span></h1>
-      <p class="hero-intro gs-hero">Convert between US, UK, metric, and Japanese needle sizes. Type any size to find its match.</p>
+      <h1 class="gs-h1" aria-label="Needle Size Chart">
+        <span class="h1-chars">Needle Size Chart</span>
+      </h1>
+      <p class="hero-intro gs-hero">
+        Convert between US, UK, metric, and Japanese needle sizes. Type any size
+        to find its match.
+      </p>
 
       <div class="form-card variant-teal is-wide">
-      <div class="table-wrapper gs-form">
-        <input
-          type="text"
-          id="needle-search"
-          class="search-input"
-          placeholder='Search any size (e.g. "4.5", "US 7", "UK 7")'
-          autocomplete="off"
-        />
-        <div class="table-scroll">
-          <table class="needle-table" id="needle-table">
-            <thead>
-              <tr>
-                <th>Metric (mm)</th>
-                <th>US</th>
-                <th>UK/Canadian</th>
-                <th>Japanese</th>
-                <th>Yarn Weight</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr data-mm="1.5" data-us="000" data-uk="" data-jp=""><td class="col-mm">1.5</td><td>000</td><td>&mdash;</td><td>&mdash;</td><td>Lace</td></tr>
-              <tr data-mm="1.75" data-us="00" data-uk="" data-jp=""><td class="col-mm">1.75</td><td>00</td><td>&mdash;</td><td>&mdash;</td><td>Lace</td></tr>
-              <tr data-mm="2.0" data-us="0" data-uk="14" data-jp="0"><td class="col-mm">2.0</td><td>0</td><td>14</td><td>0</td><td>Lace</td></tr>
-              <tr data-mm="2.25" data-us="1" data-uk="13" data-jp=""><td class="col-mm">2.25</td><td>1</td><td>13</td><td>&mdash;</td><td>Super Fine</td></tr>
-              <tr data-mm="2.5" data-us="1.5" data-uk="" data-jp=""><td class="col-mm">2.5</td><td>1.5</td><td>&mdash;</td><td>&mdash;</td><td>Super Fine</td></tr>
-              <tr data-mm="2.75" data-us="2" data-uk="12" data-jp="2"><td class="col-mm">2.75</td><td>2</td><td>12</td><td>2</td><td>Super Fine</td></tr>
-              <tr data-mm="3.0" data-us="2.5" data-uk="11" data-jp="3"><td class="col-mm">3.0</td><td>2.5</td><td>11</td><td>3</td><td>Fine</td></tr>
-              <tr data-mm="3.25" data-us="3" data-uk="10" data-jp=""><td class="col-mm">3.25</td><td>3</td><td>10</td><td>&mdash;</td><td>Fine</td></tr>
-              <tr data-mm="3.5" data-us="4" data-uk="" data-jp="5"><td class="col-mm">3.5</td><td>4</td><td>&mdash;</td><td>5</td><td>Fine</td></tr>
-              <tr data-mm="3.75" data-us="5" data-uk="9" data-jp=""><td class="col-mm">3.75</td><td>5</td><td>9</td><td>&mdash;</td><td>Light</td></tr>
-              <tr data-mm="4.0" data-us="6" data-uk="8" data-jp="6"><td class="col-mm">4.0</td><td>6</td><td>8</td><td>6</td><td>Light</td></tr>
-              <tr data-mm="4.5" data-us="7" data-uk="7" data-jp="8"><td class="col-mm">4.5</td><td>7</td><td>7</td><td>8</td><td>Medium</td></tr>
-              <tr data-mm="5.0" data-us="8" data-uk="6" data-jp="10"><td class="col-mm">5.0</td><td>8</td><td>6</td><td>10</td><td>Medium</td></tr>
-              <tr data-mm="5.5" data-us="9" data-uk="5" data-jp=""><td class="col-mm">5.5</td><td>9</td><td>5</td><td>&mdash;</td><td>Medium</td></tr>
-              <tr data-mm="6.0" data-us="10" data-uk="4" data-jp="13"><td class="col-mm">6.0</td><td>10</td><td>4</td><td>13</td><td>Bulky</td></tr>
-              <tr data-mm="6.5" data-us="10.5" data-uk="3" data-jp=""><td class="col-mm">6.5</td><td>10.5</td><td>3</td><td>&mdash;</td><td>Bulky</td></tr>
-              <tr data-mm="7.0" data-us="" data-uk="2" data-jp=""><td class="col-mm">7.0</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>Bulky</td></tr>
-              <tr data-mm="8.0" data-us="11" data-uk="0" data-jp=""><td class="col-mm">8.0</td><td>11</td><td>0</td><td>&mdash;</td><td>Super Bulky</td></tr>
-              <tr data-mm="9.0" data-us="13" data-uk="00" data-jp=""><td class="col-mm">9.0</td><td>13</td><td>00</td><td>&mdash;</td><td>Super Bulky</td></tr>
-              <tr data-mm="10.0" data-us="15" data-uk="000" data-jp=""><td class="col-mm">10.0</td><td>15</td><td>000</td><td>&mdash;</td><td>Super Bulky</td></tr>
-              <tr data-mm="12.0" data-us="17" data-uk="" data-jp=""><td class="col-mm">12.0</td><td>17</td><td>&mdash;</td><td>&mdash;</td><td>Jumbo</td></tr>
-              <tr data-mm="12.75" data-us="" data-uk="" data-jp=""><td class="col-mm">12.75</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>Jumbo</td></tr>
-              <tr data-mm="15.0" data-us="19" data-uk="" data-jp=""><td class="col-mm">15.0</td><td>19</td><td>&mdash;</td><td>&mdash;</td><td>Jumbo</td></tr>
-              <tr data-mm="16.0" data-us="19" data-uk="" data-jp=""><td class="col-mm">16.0</td><td>19</td><td>&mdash;</td><td>&mdash;</td><td>Jumbo</td></tr>
-              <tr data-mm="19.0" data-us="35" data-uk="" data-jp=""><td class="col-mm">19.0</td><td>35</td><td>&mdash;</td><td>&mdash;</td><td>Jumbo</td></tr>
-              <tr data-mm="25.0" data-us="50" data-uk="" data-jp=""><td class="col-mm">25.0</td><td>50</td><td>&mdash;</td><td>&mdash;</td><td>Jumbo</td></tr>
-            </tbody>
-          </table>
+        <div class="table-wrapper gs-form">
+          <input
+            type="text"
+            id="needle-search"
+            class="search-input"
+            placeholder='Search any size (e.g. "4.5", "US 7", "UK 7")'
+            autocomplete="off"
+          />
+          <div class="table-scroll">
+            <table class="needle-table" id="needle-table">
+              <thead>
+                <tr>
+                  <th>Metric (mm)</th>
+                  <th>US</th>
+                  <th>UK/Canadian</th>
+                  <th>Japanese</th>
+                  <th>Yarn Weight</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr data-mm="1.5" data-us="000" data-uk="" data-jp=""
+                  ><td class="col-mm">1.5</td><td>000</td><td>&mdash;</td><td
+                    >&mdash;</td
+                  ><td>Lace</td></tr
+                >
+                <tr data-mm="1.75" data-us="00" data-uk="" data-jp=""
+                  ><td class="col-mm">1.75</td><td>00</td><td>&mdash;</td><td
+                    >&mdash;</td
+                  ><td>Lace</td></tr
+                >
+                <tr data-mm="2.0" data-us="0" data-uk="14" data-jp="0"
+                  ><td class="col-mm">2.0</td><td>0</td><td>14</td><td>0</td><td
+                    >Lace</td
+                  ></tr
+                >
+                <tr data-mm="2.25" data-us="1" data-uk="13" data-jp=""
+                  ><td class="col-mm">2.25</td><td>1</td><td>13</td><td
+                    >&mdash;</td
+                  ><td>Super Fine</td></tr
+                >
+                <tr data-mm="2.5" data-us="1.5" data-uk="" data-jp=""
+                  ><td class="col-mm">2.5</td><td>1.5</td><td>&mdash;</td><td
+                    >&mdash;</td
+                  ><td>Super Fine</td></tr
+                >
+                <tr data-mm="2.75" data-us="2" data-uk="12" data-jp="2"
+                  ><td class="col-mm">2.75</td><td>2</td><td>12</td><td>2</td
+                  ><td>Super Fine</td></tr
+                >
+                <tr data-mm="3.0" data-us="2.5" data-uk="11" data-jp="3"
+                  ><td class="col-mm">3.0</td><td>2.5</td><td>11</td><td>3</td
+                  ><td>Fine</td></tr
+                >
+                <tr data-mm="3.25" data-us="3" data-uk="10" data-jp=""
+                  ><td class="col-mm">3.25</td><td>3</td><td>10</td><td
+                    >&mdash;</td
+                  ><td>Fine</td></tr
+                >
+                <tr data-mm="3.5" data-us="4" data-uk="" data-jp="5"
+                  ><td class="col-mm">3.5</td><td>4</td><td>&mdash;</td><td
+                    >5</td
+                  ><td>Fine</td></tr
+                >
+                <tr data-mm="3.75" data-us="5" data-uk="9" data-jp=""
+                  ><td class="col-mm">3.75</td><td>5</td><td>9</td><td
+                    >&mdash;</td
+                  ><td>Light</td></tr
+                >
+                <tr data-mm="4.0" data-us="6" data-uk="8" data-jp="6"
+                  ><td class="col-mm">4.0</td><td>6</td><td>8</td><td>6</td><td
+                    >Light</td
+                  ></tr
+                >
+                <tr data-mm="4.5" data-us="7" data-uk="7" data-jp="8"
+                  ><td class="col-mm">4.5</td><td>7</td><td>7</td><td>8</td><td
+                    >Medium</td
+                  ></tr
+                >
+                <tr data-mm="5.0" data-us="8" data-uk="6" data-jp="10"
+                  ><td class="col-mm">5.0</td><td>8</td><td>6</td><td>10</td><td
+                    >Medium</td
+                  ></tr
+                >
+                <tr data-mm="5.5" data-us="9" data-uk="5" data-jp=""
+                  ><td class="col-mm">5.5</td><td>9</td><td>5</td><td
+                    >&mdash;</td
+                  ><td>Medium</td></tr
+                >
+                <tr data-mm="6.0" data-us="10" data-uk="4" data-jp="13"
+                  ><td class="col-mm">6.0</td><td>10</td><td>4</td><td>13</td
+                  ><td>Bulky</td></tr
+                >
+                <tr data-mm="6.5" data-us="10.5" data-uk="3" data-jp=""
+                  ><td class="col-mm">6.5</td><td>10.5</td><td>3</td><td
+                    >&mdash;</td
+                  ><td>Bulky</td></tr
+                >
+                <tr data-mm="7.0" data-us="" data-uk="2" data-jp=""
+                  ><td class="col-mm">7.0</td><td>&mdash;</td><td>2</td><td
+                    >&mdash;</td
+                  ><td>Bulky</td></tr
+                >
+                <tr data-mm="8.0" data-us="11" data-uk="0" data-jp=""
+                  ><td class="col-mm">8.0</td><td>11</td><td>0</td><td
+                    >&mdash;</td
+                  ><td>Super Bulky</td></tr
+                >
+                <tr data-mm="9.0" data-us="13" data-uk="00" data-jp=""
+                  ><td class="col-mm">9.0</td><td>13</td><td>00</td><td
+                    >&mdash;</td
+                  ><td>Super Bulky</td></tr
+                >
+                <tr data-mm="10.0" data-us="15" data-uk="000" data-jp=""
+                  ><td class="col-mm">10.0</td><td>15</td><td>000</td><td
+                    >&mdash;</td
+                  ><td>Super Bulky</td></tr
+                >
+                <tr data-mm="12.0" data-us="17" data-uk="" data-jp=""
+                  ><td class="col-mm">12.0</td><td>17</td><td>&mdash;</td><td
+                    >&mdash;</td
+                  ><td>Jumbo</td></tr
+                >
+                <tr data-mm="12.75" data-us="" data-uk="" data-jp=""
+                  ><td class="col-mm">12.75</td><td>&mdash;</td><td>&mdash;</td
+                  ><td>&mdash;</td><td>Jumbo</td></tr
+                >
+                <tr data-mm="15.0" data-us="19" data-uk="" data-jp=""
+                  ><td class="col-mm">15.0</td><td>19</td><td>&mdash;</td><td
+                    >&mdash;</td
+                  ><td>Jumbo</td></tr
+                >
+                <tr data-mm="16.0" data-us="19" data-uk="" data-jp=""
+                  ><td class="col-mm">16.0</td><td>19</td><td>&mdash;</td><td
+                    >&mdash;</td
+                  ><td>Jumbo</td></tr
+                >
+                <tr data-mm="19.0" data-us="35" data-uk="" data-jp=""
+                  ><td class="col-mm">19.0</td><td>35</td><td>&mdash;</td><td
+                    >&mdash;</td
+                  ><td>Jumbo</td></tr
+                >
+                <tr data-mm="25.0" data-us="50" data-uk="" data-jp=""
+                  ><td class="col-mm">25.0</td><td>50</td><td>&mdash;</td><td
+                    >&mdash;</td
+                  ><td>Jumbo</td></tr
+                >
+              </tbody>
+            </table>
+          </div>
+          <p class="no-results" id="no-results" hidden>
+            No matching needle size found.
+          </p>
         </div>
-        <p class="no-results" id="no-results" hidden>No matching needle size found.</p>
-      </div>
       </div>
     </div>
   </section>
@@ -136,32 +250,114 @@ import { routes } from '../../i18n/routes';
   <section class="seo-content">
     <div class="content-inner">
       <h2 class="gs-clip-reveal">Why there are four different systems</h2>
-      <p class="gs-fade-up">Metric is the only system that tells you what the needle actually measures. A 4.0 mm needle is 4.0 mm. Done.</p>
-      <p class="gs-fade-up">US sizes are labels. A US 7 means 4.5 mm and a US 8 means 5.0 mm, but nothing about those numbers hints at a diameter.</p>
-      <p class="gs-fade-up">Old UK and Canadian sizes run backward. A UK 14 is tiny, and the numbers shrink as needles grow until you hit 0, 00, and 000. Most modern UK patterns give metric, but the old system still shows up on vintage needles and secondhand pattern leaflets.</p>
-      <p class="gs-fade-up">Japanese sizes track close to metric but not perfectly. Japanese size 6 is 3.9 mm, Japanese size 8 is 4.5 mm. That offset matters most in fine gauges where a few tenths of a millimeter change the finished fabric.</p>
+      <p class="gs-fade-up">
+        Metric is the only system that tells you what the needle actually
+        measures. A 4.0 mm needle is 4.0 mm. Done.
+      </p>
+      <p class="gs-fade-up">
+        US sizes are labels. A US 7 means 4.5 mm and a US 8 means 5.0 mm, but
+        nothing about those numbers hints at a diameter.
+      </p>
+      <p class="gs-fade-up">
+        Old UK and Canadian sizes run backward. A UK 14 is tiny, and the numbers
+        shrink as needles grow until you hit 0, 00, and 000. Most modern UK
+        patterns give metric, but the old system still shows up on vintage
+        needles and secondhand pattern leaflets.
+      </p>
+      <p class="gs-fade-up">
+        Japanese sizes track close to metric but not perfectly. Japanese size 6
+        is 3.9 mm, Japanese size 8 is 4.5 mm. That offset matters most in fine
+        gauges where a few tenths of a millimeter change the finished fabric.
+      </p>
 
       <h2 class="gs-clip-reveal">When metric is the safe bet</h2>
-      <p class="gs-fade-up">Trust the millimeter size first. It's the actual measurement, and it sidesteps conversion mistakes entirely.</p>
-      <p class="gs-fade-up">When a pattern calls for "US 7," what you need in your hand is 4.5 mm. Some brands print both numbers on the needle. Some don't. Old markings wear off. A needle gauge tool is worth keeping nearby for exactly this reason.</p>
+      <p class="gs-fade-up">
+        Trust the millimeter size first. It's the actual measurement, and it
+        sidesteps conversion mistakes entirely.
+      </p>
+      <p class="gs-fade-up">
+        When a pattern calls for "US 7," what you need in your hand is 4.5 mm.
+        Some brands print both numbers on the needle. Some don't. Old markings
+        wear off. A needle gauge tool is worth keeping nearby for exactly this
+        reason.
+      </p>
 
       <h2 class="gs-clip-reveal">Common conversion pitfalls</h2>
       <p class="gs-fade-up">A few sizes trip people up consistently.</p>
-      <p class="gs-fade-up"><strong>The UK reversal.</strong> US sizes go up as needles get bigger. Old UK sizes go down. A US 6 is 4.0 mm. A UK 6 is 5.0 mm. Swap those and your swatch is off by a full millimeter before you've knit a single row. That trips up more people than you'd expect.</p>
-      <p class="gs-fade-up"><strong>The missing one-to-one matches.</strong> Not every metric size has a clean equivalent in every other system. A 3.0 mm needle is sometimes labeled US 2.5 by some brands, while other charts place it between US 2 and US 3. A 3.5 mm needle usually has no old UK equivalent at all. When that happens, go back to the mm size and ignore the rest.</p>
-      <p class="gs-fade-up"><strong>Japanese near-misses.</strong> Japanese sizes don't line up cleanly with US numbers. Japanese size 8 is 4.5 mm (matching US 7), but Japanese size 5 is 3.6 mm and doesn't sit neatly in the US system at all. If you're working from a Japanese pattern, match the mm value. Not the printed number. Always the mm value.</p>
-      <p class="gs-fade-up"><strong>Half sizes and odd sizes are real.</strong> 2.5 mm, 3.0 mm, and 6.5 mm needles are standard production sizes even if your interchangeable set skipped them. This is why "go up half a size" sometimes turns into a rummage through the whole project bag.</p>
-      <p class="gs-fade-up"><strong>Old pattern leaflets give no system label.</strong> A pattern from the 1970s that says "size 6 needles" could mean US 6 (4.0 mm) or UK 6 (5.0 mm) depending on which country published it. Check the publisher, then check the chart.</p>
+      <p class="gs-fade-up">
+        <strong>The UK reversal.</strong> US sizes go up as needles get bigger. Old
+        UK sizes go down. A US 6 is 4.0 mm. A UK 6 is 5.0 mm. Swap those and your
+        swatch is off by a full millimeter before you've knit a single row. That trips
+        up more people than you'd expect.
+      </p>
+      <p class="gs-fade-up">
+        <strong>The missing one-to-one matches.</strong> Not every metric size has
+        a clean equivalent in every other system. A 3.0 mm needle is sometimes labeled
+        US 2.5 by some brands, while other charts place it between US 2 and US 3.
+        A 3.5 mm needle usually has no old UK equivalent at all. When that happens,
+        go back to the mm size and ignore the rest.
+      </p>
+      <p class="gs-fade-up">
+        <strong>Japanese near-misses.</strong> Japanese sizes don't line up cleanly
+        with US numbers. Japanese size 8 is 4.5 mm (matching US 7), but Japanese size
+        5 is 3.6 mm and doesn't sit neatly in the US system at all. If you're working
+        from a Japanese pattern, match the mm value. Not the printed number. Always
+        the mm value.
+      </p>
+      <p class="gs-fade-up">
+        <strong>Half sizes and odd sizes are real.</strong> 2.5 mm, 3.0 mm, and 6.5
+        mm needles are standard production sizes even if your interchangeable set
+        skipped them. This is why "go up half a size" sometimes turns into a rummage
+        through the whole project bag.
+      </p>
+      <p class="gs-fade-up">
+        <strong>Old pattern leaflets give no system label.</strong> A pattern from
+        the 1970s that says "size 6 needles" could mean US 6 (4.0 mm) or UK 6 (5.0
+        mm) depending on which country published it. Check the publisher, then check
+        the chart.
+      </p>
 
       <h2 class="gs-clip-reveal">Needle size and yarn weight pairing</h2>
-      <p class="gs-fade-up">The chart can get you into the right neighborhood. Your swatch decides the exact address.</p>
-      <p class="gs-fade-up">The current Craft Yarn Council weight system pairs lace with 1.5 to 2.25 mm, Super Fine with 2.25 to 3.25 mm, Fine with 3.25 to 3.75 mm, Light with 3.75 to 4.5 mm, Medium with 4.5 to 5.5 mm, Bulky with 5.5 to 8 mm, Super Bulky with 8 to 12.75 mm, and Jumbo at 12.75 mm and up.</p>
-      <p class="gs-fade-up">Those ranges overlap on purpose. DK can make a firm hat fabric on a smaller needle or an airy shawl fabric on a larger one. The pattern gauge tells you which direction the designer intended. If you're not sure which yarn category you're holding, the <a href="/tools/yarn-weight-chart/">yarn weight chart</a> is the better place to start.</p>
+      <p class="gs-fade-up">
+        The chart can get you into the right neighborhood. Your swatch decides
+        the exact address.
+      </p>
+      <p class="gs-fade-up">
+        The current Craft Yarn Council weight system pairs lace with 1.5 to 2.25
+        mm, Super Fine with 2.25 to 3.25 mm, Fine with 3.25 to 3.75 mm, Light
+        with 3.75 to 4.5 mm, Medium with 4.5 to 5.5 mm, Bulky with 5.5 to 8 mm,
+        Super Bulky with 8 to 12.75 mm, and Jumbo at 12.75 mm and up.
+      </p>
+      <p class="gs-fade-up">
+        Those ranges overlap on purpose. DK can make a firm hat fabric on a
+        smaller needle or an airy shawl fabric on a larger one. The pattern
+        gauge tells you which direction the designer intended. If you're not
+        sure which yarn category you're holding, the <a
+          href="/tools/yarn-weight-chart/">yarn weight chart</a
+        > is the better place to start.
+      </p>
 
       <h2 class="gs-clip-reveal">How to measure unmarked needles</h2>
-      <p class="gs-fade-up">Vintage needles, hand-turned wooden needles, and well-used interchangeables all end up with missing markings sooner or later. A needle gauge (sometimes called a needle sizer) fixes that. Slide the shaft into the holes until you find the one that fits cleanly without forcing.</p>
-      <p class="gs-fade-up">Measure on the shaft, not the tip. The tapered point reads smaller than the working part of the needle. Wrong answer every time.</p>
-      <p class="gs-fade-up">Most needle gauges show metric and US sizes, some include Japanese sizing too. If yours doesn't, use this needle size guide to find the mm equivalent and then knit a quick <a href="/articles/how-to-measure-knitting-gauge/">gauge swatch</a> to confirm before you commit to the full project. If you're also choosing a <a href="/articles/knitting-needle-materials/">needle material</a>, that's a separate decision from size.</p>
+      <p class="gs-fade-up">
+        Vintage needles, hand-turned wooden needles, and well-used
+        interchangeables all end up with missing markings sooner or later. A
+        needle gauge (sometimes called a needle sizer) fixes that. Slide the
+        shaft into the holes until you find the one that fits cleanly without
+        forcing.
+      </p>
+      <p class="gs-fade-up">
+        Measure on the shaft, not the tip. The tapered point reads smaller than
+        the working part of the needle. Wrong answer every time.
+      </p>
+      <p class="gs-fade-up">
+        Most needle gauges show metric and US sizes, some include Japanese
+        sizing too. If yours doesn't, use this needle size guide to find the mm
+        equivalent and then knit a quick <a
+          href="/articles/how-to-measure-knitting-gauge/">gauge swatch</a
+        > to confirm before you commit to the full project. If you're also choosing
+        a <a href="/articles/knitting-needle-materials/">needle material</a>,
+        that's a separate decision from size.
+      </p>
     </div>
   </section>
 
@@ -171,20 +367,55 @@ import { routes } from '../../i18n/routes';
       <h2 class="gs-clip-reveal">Frequently asked questions</h2>
       <div class="faq">
         <details class="gs-faq-item">
-          <summary>Can I substitute a close needle size if I don't have the exact one? <span class="faq-icon" aria-hidden="true">+</span></summary>
-          <p>You can, but a 0.5 mm jump often shifts gauge enough to matter. Swatch again for anything fitted.</p>
+          <summary
+            >Can I substitute a close needle size if I don't have the exact one? <span
+              class="faq-icon"
+              aria-hidden="true">+</span
+            ></summary
+          >
+          <p>
+            You can, but a 0.5 mm jump often shifts gauge enough to matter.
+            Swatch again for anything fitted.
+          </p>
         </details>
         <details class="gs-faq-item">
-          <summary>Are needle sizes the same across all brands? <span class="faq-icon" aria-hidden="true">+</span></summary>
-          <p>They should be. In practice there are slight differences, especially on cheaper sets or older needles. If your gauge is persistently off, measure the needle.</p>
+          <summary
+            >Are needle sizes the same across all brands? <span
+              class="faq-icon"
+              aria-hidden="true">+</span
+            ></summary
+          >
+          <p>
+            They should be. In practice there are slight differences, especially
+            on cheaper sets or older needles. If your gauge is persistently off,
+            measure the needle.
+          </p>
         </details>
         <details class="gs-faq-item">
-          <summary>What about circular needle sizes? <span class="faq-icon" aria-hidden="true">+</span></summary>
-          <p>Same sizing as straights. The size describes tip diameter, not cable length. A 4.5 mm circular is a 4.5 mm needle whether the cable is short for a hat or long for magic loop.</p>
+          <summary
+            >What about circular needle sizes? <span
+              class="faq-icon"
+              aria-hidden="true">+</span
+            ></summary
+          >
+          <p>
+            Same sizing as straights. The size describes tip diameter, not cable
+            length. A 4.5 mm circular is a 4.5 mm needle whether the cable is
+            short for a hat or long for magic loop.
+          </p>
         </details>
         <details class="gs-faq-item">
-          <summary>Do I need every needle size? <span class="faq-icon" aria-hidden="true">+</span></summary>
-          <p>No. Most knitters live in a handful of sizes matching the yarns they use most. If you're working with Medium and Light yarns, you'll reach for 3.75 to 5.5 mm constantly.</p>
+          <summary
+            >Do I need every needle size? <span
+              class="faq-icon"
+              aria-hidden="true">+</span
+            ></summary
+          >
+          <p>
+            No. Most knitters live in a handful of sizes matching the yarns they
+            use most. If you're working with Medium and Light yarns, you'll
+            reach for 3.75 to 5.5 mm constantly.
+          </p>
         </details>
       </div>
     </div>
@@ -194,7 +425,9 @@ import { routes } from '../../i18n/routes';
   <section class="waitlist-cta" id="join">
     <div class="waitlist-inner">
       <form class="waitlist-form" action="#" method="post" id="waitlist-form">
-        <label class="visually-hidden" for="waitlist-website">Leave this field empty</label>
+        <label class="visually-hidden" for="waitlist-website"
+          >Leave this field empty</label
+        >
         <input
           class="visually-hidden"
           id="waitlist-website"
@@ -204,17 +437,45 @@ import { routes } from '../../i18n/routes';
           autocomplete="off"
         />
         <div class="waitlist-content-layer" id="waitlist-content-layer">
-          <h2 class="gs-clip-reveal waitlist-head">Every tool. <em>One app.</em></h2>
-          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators.</p>
+          <h2 class="gs-clip-reveal waitlist-head">
+            Every tool. <em>One app.</em>
+          </h2>
+          <p class="gs-fade-up waitlist-desc">
+            Row counter, project management, yarn scanner, and all four
+            calculators.
+          </p>
           <div class="waitlist-row gs-fade-up" id="waitlist-row">
-            <input type="email" name="email" placeholder="your@email.com" required class="waitlist-input" />
-            <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
+            <input
+              type="email"
+              name="email"
+              placeholder="your@email.com"
+              required
+              class="waitlist-input"
+            />
+            <button type="submit" class="waitlist-btn" id="waitlist-btn"
+              >Notify me at launch</button
+            >
           </div>
-          <p class="gs-fade-up waitlist-meta">Coming {PRICING.launchMonthLabel} to Google Play. Launch price <strong><RegionalPrice phase="launch" /></strong>. <RegionalPricingNote /></p>
-          <p class="waitlist-error" id="waitlist-error" role="alert" aria-live="polite" hidden></p>
+          <p class="gs-fade-up waitlist-meta">
+            Coming {PRICING.launchMonthLabel} to Google Play. Launch price <strong
+              ><RegionalPrice phase="launch" /></strong
+            >. <RegionalPricingNote />
+          </p>
+          <p
+            class="waitlist-error"
+            id="waitlist-error"
+            role="alert"
+            aria-live="polite"
+            hidden
+          >
+          </p>
         </div>
 
-        <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
+        <div
+          class="waitlist-loading-state"
+          id="waitlist-loading"
+          aria-hidden="true"
+        >
           <span class="big-spinner" aria-live="polite">Sending&hellip;</span>
         </div>
 
@@ -230,26 +491,30 @@ import { routes } from '../../i18n/routes';
 </PageLayout>
 
 <script>
-  import { gsap } from 'gsap';
-  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
 
   gsap.registerPlugin(ScrollTrigger);
 
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const prefersReducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+  ).matches;
 
   // --- Search filtering (works regardless of motion preference) ---
-  const searchInput = document.getElementById('needle-search') as HTMLInputElement | null;
-  const table = document.getElementById('needle-table');
-  const noResults = document.getElementById('no-results');
+  const searchInput = document.getElementById(
+    "needle-search",
+  ) as HTMLInputElement | null;
+  const table = document.getElementById("needle-table");
+  const noResults = document.getElementById("no-results");
 
   if (searchInput && table && noResults) {
-    const rows = table.querySelectorAll('tbody tr');
+    const rows = table.querySelectorAll("tbody tr");
 
-    searchInput.addEventListener('input', () => {
+    searchInput.addEventListener("input", () => {
       const raw = searchInput.value.trim().toLowerCase();
 
       if (!raw) {
-        rows.forEach(r => (r as HTMLElement).style.display = '');
+        rows.forEach((r) => ((r as HTMLElement).style.display = ""));
         noResults.hidden = true;
         return;
       }
@@ -258,191 +523,212 @@ import { routes } from '../../i18n/routes';
       let targetCol: string | null = null;
       let query = raw;
 
-      if (raw.startsWith('us ')) {
-        targetCol = 'us';
+      if (raw.startsWith("us ")) {
+        targetCol = "us";
         query = raw.slice(3).trim();
-      } else if (raw.startsWith('uk ')) {
-        targetCol = 'uk';
+      } else if (raw.startsWith("uk ")) {
+        targetCol = "uk";
         query = raw.slice(3).trim();
-      } else if (raw.startsWith('jp ') || raw.startsWith('japanese ')) {
-        targetCol = 'jp';
-        query = raw.replace(/^(jp|japanese)\s+/, '').trim();
+      } else if (raw.startsWith("jp ") || raw.startsWith("japanese ")) {
+        targetCol = "jp";
+        query = raw.replace(/^(jp|japanese)\s+/, "").trim();
       }
 
       let visibleCount = 0;
 
-      rows.forEach(r => {
+      rows.forEach((r) => {
         const row = r as HTMLElement;
-        const mm = row.dataset.mm || '';
-        const us = row.dataset.us || '';
-        const uk = row.dataset.uk || '';
-        const jp = row.dataset.jp || '';
+        const mm = row.dataset.mm || "";
+        const us = row.dataset.us || "";
+        const uk = row.dataset.uk || "";
+        const jp = row.dataset.jp || "";
 
-        let match = false;
+        const match =
+          targetCol === "us"
+            ? us === query
+            : targetCol === "uk"
+              ? uk === query
+              : targetCol === "jp"
+                ? jp === query
+                : mm.startsWith(query) ||
+                  us === query ||
+                  uk === query ||
+                  jp === query;
 
-        if (targetCol === 'us') {
-          match = us === query;
-        } else if (targetCol === 'uk') {
-          match = uk === query;
-        } else if (targetCol === 'jp') {
-          match = jp === query;
-        } else {
-          // Search all columns
-          match = mm.startsWith(query) || us === query || uk === query || jp === query;
-        }
-
-        row.style.display = match ? '' : 'none';
+        row.style.display = match ? "" : "none";
         if (match) visibleCount++;
       });
 
       noResults.hidden = visibleCount > 0;
     });
-
   }
 
   if (!prefersReducedMotion) {
     // --- Hero entrance timeline ---
-    const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
-    heroTl.from('.gs-hero', {
-      opacity: 0,
-      y: 12,
-      duration: 0.5,
-      stagger: 0.15,
-    }, 0.2);
+    heroTl.from(
+      ".gs-hero",
+      {
+        opacity: 0,
+        y: 12,
+        duration: 0.5,
+        stagger: 0.15,
+      },
+      0.2,
+    );
 
     // H1 letter stagger — wrap each word so browsers can't break mid-word
-    const h1El = document.querySelector('.h1-chars');
+    const h1El = document.querySelector(".h1-chars");
     if (h1El) {
-      const text = h1El.textContent || '';
-      h1El.textContent = '';
+      const text = h1El.textContent || "";
+      h1El.textContent = "";
       const chars: HTMLSpanElement[] = [];
-      const words = text.split(' ');
+      const words = text.split(" ");
       words.forEach((word, wi) => {
-        const wordSpan = document.createElement('span');
-        wordSpan.className = 'h1-word';
+        const wordSpan = document.createElement("span");
+        wordSpan.className = "h1-word";
         for (const c of word) {
-          const span = document.createElement('span');
-          span.className = 'h1-char';
+          const span = document.createElement("span");
+          span.className = "h1-char";
           span.textContent = c;
           wordSpan.appendChild(span);
           chars.push(span);
         }
         h1El.appendChild(wordSpan);
         if (wi < words.length - 1) {
-          h1El.appendChild(document.createTextNode(' '));
+          h1El.appendChild(document.createTextNode(" "));
         }
       });
 
-      heroTl.from(chars, {
-        opacity: 0,
-        x: -20,
-        duration: 0.4,
-        stagger: 0.03,
-        ease: 'power2.out',
-      }, 0.1);
+      heroTl.from(
+        chars,
+        {
+          opacity: 0,
+          x: -20,
+          duration: 0.4,
+          stagger: 0.03,
+          ease: "power2.out",
+        },
+        0.1,
+      );
     }
 
     // Table + search fade in
-    heroTl.from('.gs-form', {
-      opacity: 0,
-      y: 16,
-      duration: 0.5,
-    }, 0.6);
+    heroTl.from(
+      ".gs-form",
+      {
+        opacity: 0,
+        y: 16,
+        duration: 0.5,
+      },
+      0.6,
+    );
 
     // --- Scroll-triggered: clip-reveal H2s ---
-    document.querySelectorAll('.gs-clip-reveal').forEach(el => {
-      gsap.set(el, { clipPath: 'inset(0 100% 0 0)' });
+    document.querySelectorAll(".gs-clip-reveal").forEach((el) => {
+      gsap.set(el, { clipPath: "inset(0 100% 0 0)" });
       gsap.to(el, {
-        clipPath: 'inset(0 0% 0 0)',
+        clipPath: "inset(0 0% 0 0)",
         duration: 0.8,
-        ease: 'power3.inOut',
+        ease: "power3.inOut",
         scrollTrigger: {
           trigger: el,
-          start: 'top 85%',
+          start: "top 85%",
           once: true,
         },
       });
     });
 
     // --- Scroll-triggered: fade up paragraphs ---
-    document.querySelectorAll('.gs-fade-up').forEach(el => {
+    document.querySelectorAll(".gs-fade-up").forEach((el) => {
       gsap.from(el, {
         opacity: 0,
         y: 24,
         duration: 0.6,
-        ease: 'power2.out',
+        ease: "power2.out",
         scrollTrigger: {
           trigger: el,
-          start: 'top 88%',
+          start: "top 88%",
           once: true,
         },
       });
     });
 
     // --- FAQ items staggered on scroll ---
-    const faqItems = document.querySelectorAll('.gs-faq-item');
+    const faqItems = document.querySelectorAll(".gs-faq-item");
     if (faqItems.length) {
       gsap.from(faqItems, {
         opacity: 0,
         y: 16,
         duration: 0.4,
         stagger: 0.08,
-        ease: 'power2.out',
+        ease: "power2.out",
         scrollTrigger: {
           trigger: faqItems[0],
-          start: 'top 85%',
+          start: "top 85%",
           once: true,
         },
       });
     }
 
     // --- FAQ accordion smooth height ---
-    document.querySelectorAll('.gs-faq-item').forEach(details => {
-      const summary = details.querySelector('summary');
-      const content = details.querySelector('p');
+    document.querySelectorAll(".gs-faq-item").forEach((details) => {
+      const summary = details.querySelector("summary");
+      const content = details.querySelector("p");
       if (!summary || !content) return;
 
-      summary.addEventListener('click', (e) => {
+      summary.addEventListener("click", (e) => {
         e.preventDefault();
-        if (details.hasAttribute('open')) {
+        if (details.hasAttribute("open")) {
           gsap.to(content, {
             height: 0,
             opacity: 0,
             duration: 0.3,
-            ease: 'power2.inOut',
+            ease: "power2.inOut",
             onComplete: () => {
-              details.removeAttribute('open');
-              gsap.set(content, { height: 'auto', opacity: 1 });
+              details.removeAttribute("open");
+              gsap.set(content, { height: "auto", opacity: 1 });
             },
           });
         } else {
-          details.setAttribute('open', '');
+          details.setAttribute("open", "");
           const h = content.scrollHeight;
           gsap.set(content, { height: 0, opacity: 0 });
           gsap.to(content, {
             height: h,
             opacity: 1,
             duration: 0.3,
-            ease: 'power2.out',
+            ease: "power2.out",
           });
         }
       });
     });
 
     // --- Waitlist Form Morph Animation ---
-    const waitlistForm = document.getElementById('waitlist-form');
-    const waitlistContentLayer = document.getElementById('waitlist-content-layer');
-    const waitlistLoading = document.getElementById('waitlist-loading');
-    const waitlistSuccess = document.getElementById('waitlist-success');
+    const waitlistForm = document.getElementById("waitlist-form");
+    const waitlistContentLayer = document.getElementById(
+      "waitlist-content-layer",
+    );
+    const waitlistLoading = document.getElementById("waitlist-loading");
+    const waitlistSuccess = document.getElementById("waitlist-success");
 
-    if (waitlistForm && waitlistContentLayer && waitlistLoading && waitlistSuccess) {
-      waitlistForm.addEventListener('submit', async (e) => {
+    if (
+      waitlistForm &&
+      waitlistContentLayer &&
+      waitlistLoading &&
+      waitlistSuccess
+    ) {
+      waitlistForm.addEventListener("submit", async (e) => {
         e.preventDefault();
 
-        const emailInput = waitlistForm.querySelector('input[type="email"]');
-        const honeypot = waitlistForm.querySelector('input[name="website"]');
-        const errorEl = document.getElementById('waitlist-error');
+        const emailInput = waitlistForm.querySelector<HTMLInputElement>(
+          'input[type="email"]',
+        );
+        const honeypot = waitlistForm.querySelector<HTMLInputElement>(
+          'input[name="website"]',
+        );
+        const errorEl = document.getElementById("waitlist-error");
 
         // Lock height to prevent page jumping when content becomes absolute
         const height = waitlistForm.offsetHeight;
@@ -450,24 +736,24 @@ import { routes } from '../../i18n/routes';
 
         if (errorEl) {
           errorEl.hidden = true;
-          errorEl.textContent = '';
+          errorEl.textContent = "";
         }
 
         // 1. Morph to Big Spinner Loading state
-        waitlistContentLayer.classList.add('is-hidden');
-        waitlistLoading.classList.add('is-visible');
+        waitlistContentLayer.classList.add("is-hidden");
+        waitlistLoading.classList.add("is-visible");
 
         let success = false;
-        let errorMessage = 'Something went wrong. Please try again.';
+        let errorMessage = "Something went wrong. Please try again.";
 
         try {
-          const res = await fetch('https://api.finnvek.com/subscribe', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+          const res = await fetch("https://api.finnvek.com/subscribe", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
-              email: emailInput ? emailInput.value.trim() : '',
-              source: 'knittools',
-              website: honeypot ? honeypot.value : '',
+              email: emailInput ? emailInput.value.trim() : "",
+              source: "knittools",
+              website: honeypot ? honeypot.value : "",
             }),
           });
           const data = await res.json().catch(() => ({}));
@@ -477,7 +763,7 @@ import { routes } from '../../i18n/routes';
             errorMessage = data.error;
           }
         } catch {
-          errorMessage = 'Network error. Please check your connection.';
+          errorMessage = "Network error. Please check your connection.";
         }
 
         // Minimum spinner visibility for perceived smoothness
@@ -485,14 +771,14 @@ import { routes } from '../../i18n/routes';
 
         if (success) {
           // 2. Morph loading -> success
-          waitlistLoading.classList.remove('is-visible');
-          waitlistLoading.classList.add('is-hidden');
-          waitlistSuccess.classList.add('is-visible');
+          waitlistLoading.classList.remove("is-visible");
+          waitlistLoading.classList.add("is-hidden");
+          waitlistSuccess.classList.add("is-visible");
         } else {
           // 2b. Revert loading -> content with inline error
-          waitlistLoading.classList.remove('is-visible');
-          waitlistLoading.classList.add('is-hidden');
-          waitlistContentLayer.classList.remove('is-hidden');
+          waitlistLoading.classList.remove("is-visible");
+          waitlistLoading.classList.add("is-hidden");
+          waitlistContentLayer.classList.remove("is-hidden");
           if (errorEl) {
             errorEl.textContent = errorMessage;
             errorEl.hidden = false;
@@ -561,7 +847,9 @@ import { routes } from '../../i18n/routes';
     text-decoration: none;
     transition: color 0.15s ease;
   }
-  .eyebrow-back:hover { color: var(--terracotta); }
+  .eyebrow-back:hover {
+    color: var(--terracotta);
+  }
 
   .tool-hero h1 {
     font-family: var(--serif);
@@ -612,7 +900,9 @@ import { routes } from '../../i18n/routes';
     box-sizing: border-box;
     transition: outline-color 0.15s ease;
   }
-  .search-input::placeholder { color: var(--ink-soft); }
+  .search-input::placeholder {
+    color: var(--ink-soft);
+  }
   .search-input:focus {
     outline: 2px solid var(--terracotta);
     outline-offset: 2px;
@@ -656,7 +946,11 @@ import { routes } from '../../i18n/routes';
   }
 
   .needle-table tbody tr:hover td {
-    background-color: color-mix(in srgb, var(--paper) 92%, var(--terracotta) 8%);
+    background-color: color-mix(
+      in srgb,
+      var(--paper) 92%,
+      var(--terracotta) 8%
+    );
   }
 
   /* Sticky first column (mm size) stays visible when scrolling horizontally */
@@ -694,7 +988,9 @@ import { routes } from '../../i18n/routes';
     margin-bottom: 16px;
     text-transform: none;
   }
-  .seo-content h2:first-child { margin-top: 0; }
+  .seo-content h2:first-child {
+    margin-top: 0;
+  }
 
   .seo-content p {
     font-family: var(--body-ed);
@@ -732,7 +1028,10 @@ import { routes } from '../../i18n/routes';
     text-transform: none;
   }
 
-  .faq { display: flex; flex-direction: column; }
+  .faq {
+    display: flex;
+    flex-direction: column;
+  }
 
   .faq details {
     border-top: 1px solid rgba(42, 30, 23, 0.2);
@@ -754,8 +1053,12 @@ import { routes } from '../../i18n/routes';
     align-items: center;
     transition: color 200ms ease;
   }
-  .faq summary::-webkit-details-marker { display: none; }
-  .faq summary:hover { color: var(--terracotta); }
+  .faq summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq summary:hover {
+    color: var(--terracotta);
+  }
 
   .faq summary .faq-icon {
     display: inline-flex;
@@ -770,7 +1073,9 @@ import { routes } from '../../i18n/routes';
     font-weight: 300;
     color: var(--terracotta);
     line-height: 1;
-    transition: transform 300ms ease, color 200ms ease;
+    transition:
+      transform 300ms ease,
+      color 200ms ease;
   }
   .faq summary:hover .faq-icon {
     color: var(--ink);
@@ -847,10 +1152,14 @@ import { routes } from '../../i18n/routes';
   .waitlist-content-layer,
   .waitlist-loading-state,
   .waitlist-success {
-    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+    transition:
+      opacity 400ms cubic-bezier(0.4, 0, 0.2, 1),
+      transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .waitlist-content-layer { width: 100%; }
+  .waitlist-content-layer {
+    width: 100%;
+  }
 
   .waitlist-content-layer.is-hidden {
     opacity: 0;
@@ -878,7 +1187,9 @@ import { routes } from '../../i18n/routes';
     border-radius: 0;
     min-width: 0;
   }
-  .waitlist-input::placeholder { color: var(--ink-soft); }
+  .waitlist-input::placeholder {
+    color: var(--ink-soft);
+  }
   .waitlist-input:focus {
     outline: 2px solid var(--terracotta);
     outline-offset: 2px;
@@ -895,7 +1206,10 @@ import { routes } from '../../i18n/routes';
     border: 1.5px solid var(--ink);
     border-radius: 0;
     cursor: pointer;
-    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    transition:
+      background 0.15s ease,
+      border-color 0.15s ease,
+      color 0.15s ease;
     white-space: nowrap;
   }
   .waitlist-btn:hover {
@@ -941,11 +1255,19 @@ import { routes } from '../../i18n/routes';
     animation: waitlistPulse 1.6s ease-in-out infinite;
   }
   @keyframes waitlistPulse {
-    0%, 100% { opacity: 0.45; }
-    50%      { opacity: 1; }
+    0%,
+    100% {
+      opacity: 0.45;
+    }
+    50% {
+      opacity: 1;
+    }
   }
   @media (prefers-reduced-motion: reduce) {
-    .big-spinner { animation: none; opacity: 0.8; }
+    .big-spinner {
+      animation: none;
+      opacity: 0.8;
+    }
   }
 
   /* Success Layer */
@@ -1001,10 +1323,16 @@ import { routes } from '../../i18n/routes';
     .waitlist-cta {
       padding: 60px 20px;
     }
-    .tool-hero { padding-top: 48px; }
-    .waitlist-cta { padding-bottom: 72px; }
+    .tool-hero {
+      padding-top: 48px;
+    }
+    .waitlist-cta {
+      padding-bottom: 72px;
+    }
 
-    .waitlist-row { flex-direction: column; }
+    .waitlist-row {
+      flex-direction: column;
+    }
     .waitlist-input {
       border-right: 1.5px solid var(--ink);
       border-bottom: 0;
@@ -1025,5 +1353,3 @@ import { routes } from '../../i18n/routes';
     }
   }
 </style>
-</content>
-</invoke>

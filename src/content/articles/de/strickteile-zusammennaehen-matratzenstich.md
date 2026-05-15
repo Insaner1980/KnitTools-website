@@ -4,11 +4,18 @@ description: "So nähst du Strickteile zusammen: Matratzenstich, Überwendlichst
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 10
-tags: ["Strickteile zusammennähen", "Matratzenstich Stricken", "Strickteile verbinden", "Stricknaht nähen"]
+tags:
+  [
+    "Strickteile zusammennähen",
+    "Matratzenstich Stricken",
+    "Strickteile verbinden",
+    "Stricknaht nähen",
+  ]
 draft: false
 lang: de
 translationKey: "seam-knitted-pieces"
 ---
+
 Zusammennähen ist der am wenigsten glamouröse Teil des Strickens und der, der am leichtesten liegen bleibt. Ein Stapel fertiger Pulloverteile kann wochenlang im Projektbeutel bleiben, weil niemand Lust hat, ihn zusammenzunähen. Aber eine gute Naht ist unsichtbar, und eine schlechte kann ein sonst gut gestricktes Kleidungsstück ruinieren.
 
 Matratzenstich erzeugt eine unsichtbare Naht, indem waagerechte Fäden eine Masche vom Rand entfernt auf beiden Teilen aufgenommen und zusammengezogen werden. Die Verbindung sieht danach wie durchgehender Stoff aus. Welche Methode du nutzt, hängt von der Richtung der Naht ab: senkrechte Kanten, waagerechte Kanten oder geformte Teile in Öffnungen, etwa Ärmel.

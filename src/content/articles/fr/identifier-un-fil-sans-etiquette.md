@@ -4,11 +4,18 @@ description: "Retrouver ce qu'est un fil sans étiquette : tests de fibre, WPI p
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 9
-tags: ["identifier fil sans étiquette", "laine sans étiquette", "test brûlage laine", "test WPI épaisseur fil"]
+tags:
+  [
+    "identifier fil sans étiquette",
+    "laine sans étiquette",
+    "test brûlage laine",
+    "test WPI épaisseur fil",
+  ]
 draft: false
 lang: fr
 translationKey: "identify-mystery-yarn"
 ---
+
 La plupart des tricoteuses finissent avec du fil mystère. L'étiquette est tombée, le fil vient du stock de quelqu'un d'autre, ou la pelote n'a jamais eu beaucoup d'informations. Sacs de friperie, collections héritées, restes d'échanges.
 
 Pour identifier un fil mystère, commence par le WPI, c'est-à-dire le nombre de tours sur 2,5 cm, afin d'estimer l'épaisseur, puis utilise les tests de brûlage et d'eau pour réduire la famille de fibres. Tu n'obtiendras pas toujours la marque exacte ni le pourcentage précis, mais l'épaisseur probable et le type de fibre général suffisent souvent.

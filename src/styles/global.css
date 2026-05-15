@@ -1,6 +1,6 @@
 /* KnitTools — Rebuild v5 */
 
-@import './typography.css';
+@import "./typography.css";
 
 /* Globaali visually-hidden — käytössä signup-formien honeypotissa
    ja aria-labeleissa kaikilla sivuilla, myös tool-sivuilla. */
@@ -19,51 +19,51 @@
 /* --- Fonts (v11 retro: Lalezar display + General Sans body + Teko logo) --- */
 
 @font-face {
-  font-family: 'Lalezar';
-  src: url('/fonts/lalezar.woff2') format('woff2');
+  font-family: "Lalezar";
+  src: url("/fonts/lalezar.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'General Sans';
-  src: url('/fonts/general-sans-400.woff2') format('woff2');
+  font-family: "General Sans";
+  src: url("/fonts/general-sans-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'General Sans';
-  src: url('/fonts/general-sans-500.woff2') format('woff2');
+  font-family: "General Sans";
+  src: url("/fonts/general-sans-500.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'General Sans';
-  src: url('/fonts/general-sans-600.woff2') format('woff2');
+  font-family: "General Sans";
+  src: url("/fonts/general-sans-600.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Teko';
+  font-family: "Teko";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/teko-400-subset.woff2') format('woff2');
+  src: url("/fonts/teko-400-subset.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Teko';
+  font-family: "Teko";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('/fonts/teko-500-subset.woff2') format('woff2');
+  src: url("/fonts/teko-500-subset.woff2") format("woff2");
 }
 
 /* --- Colors --- */
@@ -75,23 +75,23 @@
   --stripe-width-mobile: 135px;
   --stripe-column-width-desktop: 55px;
   --stripe-column-width-mobile: 27px;
-  --dark: #2E2A26;
+  --dark: #2e2a26;
   --dark-deep: #262320;
-  --dark-surface: #3A3531;
+  --dark-surface: #3a3531;
 
-  --cream: #E8E4D0;
-  --cream-muted: #D4D0BD;
+  --cream: #e8e4d0;
+  --cream-muted: #d4d0bd;
 
-  --accent: #C45100;
-  --accent-hover: #A84500;
+  --accent: #c45100;
+  --accent-hover: #a84500;
   --accent-soft: rgba(196, 81, 0, 0.15);
 
   /* Stripe-derived palette — used site-wide, not only in the stripe */
-  --stripe-terracotta: #A05038;
-  --stripe-rust: #C2703E;
-  --stripe-sand: #C4A661;
-  --stripe-brown: #6B4332;
-  --stripe-teal: #5B8072;
+  --stripe-terracotta: #a05038;
+  --stripe-rust: #c2703e;
+  --stripe-sand: #c4a661;
+  --stripe-brown: #6b4332;
+  --stripe-teal: #5b8072;
 
   /* Semantic aliases — use these in components */
   --accent-warm: var(--stripe-rust);
@@ -99,18 +99,19 @@
   --accent-earth: var(--stripe-sand);
   --surface-deep: var(--stripe-brown);
 
-  --avocado: #8BA44A;
-  --mustard: #C9A435;
-  --dusty-rose: #B8908F;
+  --avocado: #8ba44a;
+  --mustard: #c9a435;
+  --dusty-rose: #b8908f;
 
-  --text-on-dark: #E8E4D0;
-  --text-on-dark-muted: #B8B4A4;
-  --text-on-light: #2E2A26;
-  --text-on-light-muted: #5C5750;
+  --text-on-dark: #e8e4d0;
+  --text-on-dark-muted: #b8b4a4;
+  --text-on-light: #2e2a26;
+  --text-on-light-muted: #5c5750;
 
-  --font-display: 'Lalezar', Georgia, serif;
-  --font-logo: 'Teko', sans-serif;
-  --font-body: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: "Lalezar", Georgia, serif;
+  --font-logo: "Teko", sans-serif;
+  --font-body:
+    "General Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
   /* Shared label/display scale (Big Shoulders Display) — kolme hierarkiatasoa:
      - ui: labelit (navbar, eyebrow, footer, trust, napit, chipsit)
@@ -157,29 +158,29 @@
   --accent-on-dark: var(--stripe-sand);
 
   /* v11 editorial palette — used on landing page only */
-  --paper:       #F4EAD9;
-  --paper-2:     #EADFC9;
-  --ink:         #2A1E17;
-  --ink-soft:    #4A382C;
-  --terracotta:  #A05038;
-  --sage:        #5B8072;
-  --walnut:      #6B4332;
-  --amber:       #C2703E;
-  --amber-hover: #A05F32;
-  --wheat:       #C4A661;
+  --paper: #f4ead9;
+  --paper-2: #eadfc9;
+  --ink: #2a1e17;
+  --ink-soft: #4a382c;
+  --terracotta: #a05038;
+  --sage: #5b8072;
+  --walnut: #6b4332;
+  --amber: #c2703e;
+  --amber-hover: #a05f32;
+  --wheat: #c4a661;
 
-  --serif:   "Lalezar", Georgia, serif;
+  --serif: "Lalezar", Georgia, serif;
   --body-ed: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-  --mono:    "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --mono: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* v11 landing-page body scope — inverted palette (dark ink surface, cream ink text) */
 body.landing {
-  --paper:    #2A1E17;
-  --paper-2:  #3A2A22;
-  --ink:      #F4EAD9;
-  --ink-soft: #C8BDA7;
-  --terracotta: #C2703E;
+  --paper: #2a1e17;
+  --paper-2: #3a2a22;
+  --ink: #f4ead9;
+  --ink-soft: #c8bda7;
+  --terracotta: #c2703e;
 
   background: var(--paper);
   color: var(--ink);
@@ -188,7 +189,12 @@ body.landing {
   line-height: 1.55;
 }
 
-body.landing .rule-thin { height: 1px; background: var(--ink); opacity: 0.6; border: 0; }
+body.landing .rule-thin {
+  height: 1px;
+  background: var(--ink);
+  opacity: 0.6;
+  border: 0;
+}
 body.landing .rule-double {
   border-top: 1px solid var(--ink);
   border-bottom: 1px solid var(--ink);
@@ -197,7 +203,13 @@ body.landing .rule-double {
 
 /* --- Reset & Global --- */
 
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 html {
   scroll-behavior: smooth;
@@ -209,8 +221,13 @@ html {
   color: var(--cream);
 }
 
-img { display: block; }
-ul, ol { list-style: none; }
+img {
+  display: block;
+}
+ul,
+ol {
+  list-style: none;
+}
 
 body {
   font-family: var(--font-body);
@@ -224,7 +241,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: var(--font-display);
   font-weight: 400;
   margin: 0;
@@ -232,13 +250,17 @@ h1, h2 {
 
 h3 {
   font-family: var(--font-body);
+  font-size: var(--bebas-card-size);
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: var(--bebas-card-tracking);
+  line-height: 1.2;
   margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   /* text-wrap: balance removed to allow precise manual control */
 }
 
@@ -266,19 +288,22 @@ h2 {
   letter-spacing: -0.005em;
 }
 
-h3 {
-  font-size: var(--bebas-card-size);
-  letter-spacing: var(--bebas-card-tracking);
-  line-height: 1.2;
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+p {
+  margin: 0;
 }
 
-a { color: var(--accent); text-decoration: none; }
-p { margin: 0; }
-
 @media (max-width: 768px) {
-  body { padding-top: 80px; }
+  body {
+    padding-top: 80px;
+  }
   /* h1 and h2 use clamp() — no mobile override needed */
-  h3 { font-size: var(--bebas-card-size); }
+  h3 {
+    font-size: var(--bebas-card-size);
+  }
 }
 
 /* --- Label UI utility (Big Shoulders Display) ---
@@ -424,8 +449,14 @@ p { margin: 0; }
 /* --- Shared --- */
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* --- Skip to content --- */
@@ -442,7 +473,10 @@ p { margin: 0; }
   font-weight: 600;
 }
 
-.skip-link:focus { top: 8px; color: var(--cream); }
+.skip-link:focus {
+  top: 8px;
+  color: var(--cream);
+}
 
 :focus-visible {
   outline: 2px solid var(--accent);
@@ -451,16 +485,43 @@ p { margin: 0; }
 
 /* --- Prose --- */
 
-.prose { max-width: 720px; margin: 0 auto; }
-.prose h2 { margin-top: 48px; margin-bottom: 16px; }
-.prose h3 { margin-top: 32px; margin-bottom: 12px; }
-.prose p { margin-bottom: 16px; }
-.prose ul, .prose ol { margin-bottom: 16px; padding-right: 24px; }
-.prose ul { list-style: disc; }
-.prose ol { list-style: decimal; }
-.prose li { margin-bottom: 8px; }
-.prose img { border-radius: 12px; margin: 32px auto; }
-.prose a { text-decoration: underline; text-underline-offset: 3px; }
+.prose {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.prose h2 {
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+.prose h3 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+.prose p {
+  margin-bottom: 16px;
+}
+.prose ul,
+.prose ol {
+  margin-bottom: 16px;
+  padding-right: 24px;
+}
+.prose ul {
+  list-style: disc;
+}
+.prose ol {
+  list-style: decimal;
+}
+.prose li {
+  margin-bottom: 8px;
+}
+.prose img {
+  border-radius: 12px;
+  margin: 32px auto;
+}
+.prose a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 
 /* --- Tags --- */
 
@@ -482,7 +543,9 @@ p { margin: 0; }
   --reveal-delay: 0ms;
   opacity: 0;
   transform: translate3d(var(--reveal-x), var(--reveal-y), 0);
-  transition: opacity 600ms ease-out, transform 600ms ease-out;
+  transition:
+    opacity 600ms ease-out,
+    transform 600ms ease-out;
   transition-delay: var(--reveal-delay);
 }
 
@@ -501,11 +564,18 @@ p { margin: 0; }
   --reveal-y: 0px;
 }
 
-.reveal-delay-1 { --reveal-delay: 80ms; }
-.reveal-delay-2 { --reveal-delay: 160ms; }
-.reveal-delay-3 { --reveal-delay: 240ms; }
-.reveal-delay-4 { --reveal-delay: 320ms; }
-
+.reveal-delay-1 {
+  --reveal-delay: 80ms;
+}
+.reveal-delay-2 {
+  --reveal-delay: 160ms;
+}
+.reveal-delay-3 {
+  --reveal-delay: 240ms;
+}
+.reveal-delay-4 {
+  --reveal-delay: 320ms;
+}
 
 /* --- Page wrapper for stripe ribbon --- */
 
@@ -516,11 +586,15 @@ p { margin: 0; }
 /* --- Reduced motion --- */
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
-  html { scroll-behavior: auto; }
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 /* --- Safe Stripe Offsets --- */
@@ -584,50 +658,50 @@ p { margin: 0; }
   position: relative;
   background: var(--paper);
   color: var(--ink);
-  border: 1px solid rgba(46, 42, 38, 0.10);
+  border: 1px solid rgba(46, 42, 38, 0.1);
   padding: 40px 44px 36px;
   margin-top: 8px;
   max-width: 560px;
 }
 
 .form-card.variant-terracotta {
-  --paper:      #A05038;
-  --paper-2:    #8C4530;
-  --ink:        #F4EAD9;
-  --ink-soft:   rgba(244, 234, 217, 0.78);
-  --terracotta: #F4EAD9;
+  --paper: #a05038;
+  --paper-2: #8c4530;
+  --ink: #f4ead9;
+  --ink-soft: rgba(244, 234, 217, 0.78);
+  --terracotta: #f4ead9;
 }
 
 .form-card.variant-rust {
-  --paper:      #C2703E;
-  --paper-2:    #A55F32;
-  --ink:        #F4EAD9;
-  --ink-soft:   rgba(244, 234, 217, 0.82);
-  --terracotta: #F4EAD9;
+  --paper: #c2703e;
+  --paper-2: #a55f32;
+  --ink: #f4ead9;
+  --ink-soft: rgba(244, 234, 217, 0.82);
+  --terracotta: #f4ead9;
 }
 
 .form-card.variant-teal {
-  --paper:      #5B8072;
-  --paper-2:    #4A6B60;
-  --ink:        #F4EAD9;
-  --ink-soft:   rgba(244, 234, 217, 0.78);
-  --terracotta: #F4EAD9;
+  --paper: #5b8072;
+  --paper-2: #4a6b60;
+  --ink: #f4ead9;
+  --ink-soft: rgba(244, 234, 217, 0.78);
+  --terracotta: #f4ead9;
 }
 
 .form-card.variant-brown {
-  --paper:      #6B4332;
-  --paper-2:    #5A3828;
-  --ink:        #F4EAD9;
-  --ink-soft:   rgba(244, 234, 217, 0.72);
-  --terracotta: #F4EAD9;
+  --paper: #6b4332;
+  --paper-2: #5a3828;
+  --ink: #f4ead9;
+  --ink-soft: rgba(244, 234, 217, 0.72);
+  --terracotta: #f4ead9;
 }
 
 .form-card.variant-sand {
-  --paper:      #C4A661;
-  --paper-2:    #B0924C;
-  --ink:        #F4EAD9;
-  --ink-soft:   rgba(244, 234, 217, 0.82);
-  --terracotta: #F4EAD9;
+  --paper: #c4a661;
+  --paper-2: #b0924c;
+  --ink: #f4ead9;
+  --ink-soft: rgba(244, 234, 217, 0.82);
+  --terracotta: #f4ead9;
 }
 
 /* Wide variant for reference pages (tables, lists) that need more room */
@@ -636,7 +710,13 @@ p { margin: 0; }
 }
 
 @media (max-width: 768px) {
-  .form-card { padding: 32px 24px 28px; }
-  .hero-kicker { gap: 12px; }
-  .kicker-rule { width: 40px; }
+  .form-card {
+    padding: 32px 24px 28px;
+  }
+  .hero-kicker {
+    gap: 12px;
+  }
+  .kicker-rule {
+    width: 40px;
+  }
 }

@@ -9,6 +9,7 @@ draft: false
 lang: no
 translationKey: "how-to-measure-knitting-gauge"
 ---
+
 Strikkefasthet er den delen strikkere hopper over rett før prosjektet får feil størrelse. Lua som ble slapp. Genseren som vokste til et telt. Ermet som ble fem centimeter lengre enn skjemaet lovet. Nesten alle slike historier begynner likt: "prøvelappen virket valgfri."
 
 Det er den ikke. Ikke egentlig. For å måle strikkefasthet strikker du en prøvelapp på minst 15 x 15 cm i maskemønsteret, vasker og blokker den, og teller deretter masker og pinner over 10 cm i midten. Den lille omveien sparer langt mer tid enn å rekke opp halve plagget senere. Matematikken er ikke det vanskelige. Det vanskelige er å overbevise seg selv om å gjøre det før du legger opp til det egentlige arbeidet.

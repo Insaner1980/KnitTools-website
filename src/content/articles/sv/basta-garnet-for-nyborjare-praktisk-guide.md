@@ -4,11 +4,18 @@ description: "Välj rätt garn när du ska lära dig sticka. Om tjocklek, fiber,
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 1
-tags: ["bästa garnet för nybörjare", "nybörjargarn stickning", "vilket garn börja sticka med", "garn till första stickprojektet"]
+tags:
+  [
+    "bästa garnet för nybörjare",
+    "nybörjargarn stickning",
+    "vilket garn börja sticka med",
+    "garn till första stickprojektet",
+  ]
 draft: false
 lang: sv
 translationKey: "best-yarn-for-beginners"
 ---
+
 Garnhyllan är överväldigande när du inte vet vad du tittar på. Väggar av färg, olika tjocklekar, banderoller fulla av okända ord. Det bästa garnet för att lära sig sticka är worsted weight (CYC kategori 4) i en ljus, enfärgad nyans (akryl för budget, ull/akrylblandning för skönare känsla) tillsammans med bambu- eller trästickor i 4,5-5,5 mm. För ett första projekt är valet enklare än det ser ut. Du vill ha något förlåtande, lätt att arbeta med och tillräckligt billigt för att misstag inte ska kännas dyra.
 
 ## Tjocklek: börja med worsted

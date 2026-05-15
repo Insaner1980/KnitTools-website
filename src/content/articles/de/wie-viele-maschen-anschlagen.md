@@ -4,11 +4,18 @@ description: "So berechnest du die richtige Anschlagszahl für dein Strickprojek
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 5
-tags: ["wie viele Maschen anschlagen", "Maschenanschlag berechnen", "Maschenzahl berechnen", "Maschenprobe Rechner"]
+tags:
+  [
+    "wie viele Maschen anschlagen",
+    "Maschenanschlag berechnen",
+    "Maschenzahl berechnen",
+    "Maschenprobe Rechner",
+  ]
 draft: false
 lang: de
 translationKey: "how-many-stitches-to-cast-on"
 ---
+
 Vor der ersten Reihe, vor der Wahl der Anschlagmethode, vor allem anderen brauchst du eine Zahl. Diese Zahl kommt aus der Maschenprobe, nicht von der Banderole, nicht aus dem letzten Projekt und ganz sicher nicht aus einer hoffnungsvollen Schätzung.
 
 Um die Anschlagszahl zu berechnen, multiplizierst du deine Maschenprobe in Maschen pro Zentimeter mit der gewünschten Breite in Zentimetern. Danach passt du das Ergebnis an Musterrapporte, Randmaschen und eventuelle Teilbarkeitsregeln an. Die Rechnung ist wirklich einfach. Die richtigen Ausgangswerte sind der Teil, der zählt.

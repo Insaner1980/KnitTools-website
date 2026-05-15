@@ -4,11 +4,18 @@ description: "Lär dig placera ökningar och minskningar jämnt över ett varv. 
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 6
-tags: ["öka jämnt över varv stickning", "minska jämnt stickning", "fördela ökningar jämnt", "fördela maskor jämnt"]
+tags:
+  [
+    "öka jämnt över varv stickning",
+    "minska jämnt stickning",
+    "fördela ökningar jämnt",
+    "fördela maskor jämnt",
+  ]
 draft: false
 lang: sv
 translationKey: "increase-decrease-evenly"
 ---
+
 "Öka 8 maskor jämnt över nästa varv." Mönstret går vidare. Du blir kvar med stickan i handen och huvudräkning i huvudet.
 
 Oavsett om du behöver öka maskor jämnt eller minska maskor jämnt är matematiken densamma: dela ditt nuvarande maskantal med antalet ändringar. Resultatet är intervallet mellan varje formningspunkt. Här är formeln, plus hur du hanterar resten som nästan alltid dyker upp.

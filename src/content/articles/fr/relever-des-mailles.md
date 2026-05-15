@@ -4,11 +4,18 @@ description: "Apprends à relever des mailles sur des bords horizontaux, vertica
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 11
-tags: ["relever des mailles tricot", "relever et tricoter", "relever mailles bord", "relever mailles encolure"]
+tags:
+  [
+    "relever des mailles tricot",
+    "relever et tricoter",
+    "relever mailles bord",
+    "relever mailles encolure",
+  ]
 draft: false
 lang: fr
 translationKey: "pick-up-stitches"
 ---
+
 Relever des mailles crée un nouveau rang de mailles vivantes le long d'un bord existant, pour tricoter une bordure, une encolure, une bande de boutonnage ou un col directement sur la pièce sans couture. Un bord brut devient un bord fini.
 
 Le ratio standard pour relever des mailles le long d'un bord vertical en jersey est 3 mailles pour 4 rangs, afin de compenser la différence entre la largeur d'une maille et la hauteur d'un rang. Le geste lui-même s'apprend vite. La partie délicate, c'est l'espacement : combien de mailles relever sur une longueur donnée, et comment les répartir régulièrement.

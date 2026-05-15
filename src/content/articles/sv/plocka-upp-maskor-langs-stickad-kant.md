@@ -4,11 +4,18 @@ description: "Lär dig plocka upp maskor längs horisontella, vertikala och rund
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 11
-tags: ["plocka upp maskor stickning", "plocka upp och sticka", "plocka upp maskor längs kant", "plocka upp maskor halsringning"]
+tags:
+  [
+    "plocka upp maskor stickning",
+    "plocka upp och sticka",
+    "plocka upp maskor längs kant",
+    "plocka upp maskor halsringning",
+  ]
 draft: false
 lang: sv
 translationKey: "pick-up-stitches"
 ---
+
 Att plocka upp maskor skapar en ny rad levande maskor längs en befintlig kant, så att du kan sticka en kant, halskant, knappkant eller krage direkt på arbetet utan att sy fast något. En rå kant blir en färdig kant.
 
 Standardförhållandet för att plocka upp maskor längs en vertikal slätstickad kant är 3 maskor på 4 varv, eftersom maskbredd och varvhöjd inte är samma sak. Själva rörelsen går snabbt att lära sig. Det svåra är avståndet: hur många maskor du ska plocka upp över en viss längd, och hur du fördelar dem jämnt.

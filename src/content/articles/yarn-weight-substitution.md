@@ -4,8 +4,15 @@ description: "How to substitute a different yarn weight in a pattern. Covers sti
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 7
-tags: ["yarn weight substitution", "substitute thicker yarn knitting", "change yarn weight pattern", "knitting different weight yarn"]
+tags:
+  [
+    "yarn weight substitution",
+    "substitute thicker yarn knitting",
+    "change yarn weight pattern",
+    "knitting different weight yarn",
+  ]
 ---
+
 Switching brands within the same weight category is one thing. Switching the actual yarn weight is a bigger move. Sometimes that's exactly the point. Sometimes it quietly turns into a redesign.
 
 Yarn weight substitution means using a different thickness yarn than a pattern specifies. It requires recalculating stitch counts, needle size, and yardage from the new gauge. The real question isn't whether the math can be forced to work. It's whether the finished fabric will still make sense for the project.

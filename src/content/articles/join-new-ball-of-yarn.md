@@ -4,8 +4,15 @@ description: "Learn how to join a new ball of yarn while knitting. Covers the ov
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 5
-tags: ["join new ball of yarn knitting", "attach new yarn knitting", "change yarn ball mid row", "yarn joining methods knitting"]
+tags:
+  [
+    "join new ball of yarn knitting",
+    "attach new yarn knitting",
+    "change yarn ball mid row",
+    "yarn joining methods knitting",
+  ]
 ---
+
 The old skein runs out. The new one needs to start. The transition has to be invisible in the finished fabric and secure enough not to unravel.
 
 The four main methods are the overlap join (simplest, two tails to weave in), Russian join (no tails, slightly thicker), spit splice (invisible but only for feltable wool), and magic knot (fast but leaves a knot). The best choice depends on the yarn's [fiber content](/articles/yarn-fibers-compared/) and how much you care about weaving in ends.

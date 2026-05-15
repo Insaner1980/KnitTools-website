@@ -4,11 +4,18 @@ description: "Lær å fordele økninger og fellinger jevnt over en pinne. Med fo
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 6
-tags: ["øke jevnt over pinne", "felle jevnt strikking", "fordele økninger jevnt", "jevnt fordele masker"]
+tags:
+  [
+    "øke jevnt over pinne",
+    "felle jevnt strikking",
+    "fordele økninger jevnt",
+    "jevnt fordele masker",
+  ]
 draft: false
 lang: no
 translationKey: "increase-decrease-evenly"
 ---
+
 "Øk 8 masker jevnt over neste pinne." Oppskriften går videre. Du sitter igjen og ser på pinnen mens hoderegningen starter.
 
 Enten du skal øke masker jevnt eller felle masker jevnt, er matematikken den samme: del nåværende maskeantall på antall endringer. Svaret er intervallet mellom hvert formingspunkt. Her er formelen, og hvordan du håndterer restene som alltid ser ut til å dukke opp.

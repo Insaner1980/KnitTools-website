@@ -1,28 +1,28 @@
 ---
-import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
-import YarnEstimator from '../../../components/YarnEstimator.astro';
-import { routes } from '../../../i18n/routes';
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
+import YarnEstimator from "../../../components/YarnEstimator.astro";
+import { routes } from "../../../i18n/routes";
 
 const faqs = [
   {
-    q: 'Hur vet jag hur mycket garn mitt projekt behöver?',
-    a: 'Mönstret anger oftast total garnåtgång i materialdelen, helst i meter. Om du planerar utan mönster, sök efter normal garnåtgång för samma typ av projekt och storlek. Det finns etablerade ungefärliga intervall för de flesta plagg.',
+    q: "Hur vet jag hur mycket garn mitt projekt behöver?",
+    a: "Mönstret anger oftast total garnåtgång i materialdelen, helst i meter. Om du planerar utan mönster, sök efter normal garnåtgång för samma typ av projekt och storlek. Det finns etablerade ungefärliga intervall för de flesta plagg.",
   },
   {
-    q: 'Ska jag köpa extra garn?',
-    a: 'Alltid. Köp minst ett extra nystan, särskilt om garnet har färgbad. Färgbad kan skilja lite i färg, och det kan vara omöjligt att hitta samma senare om partiet är slut.',
+    q: "Ska jag köpa extra garn?",
+    a: "Alltid. Köp minst ett extra nystan, särskilt om garnet har färgbad. Färgbad kan skilja lite i färg, och det kan vara omöjligt att hitta samma senare om partiet är slut.",
   },
   {
-    q: 'Vad gör jag om mönstret anger yards eller gram?',
-    a: 'Kalkylatorn visar meter. Om mönstret anger yards, omvandla först till meter. Om mönstret eller garnlagret bara anges i gram, kontrollera banderollen för meter per nystan och räkna därifrån. Enbart vikt räcker inte, eftersom två nystan på 50 g kan innehålla helt olika längd garn.',
+    q: "Vad gör jag om mönstret anger yards eller gram?",
+    a: "Kalkylatorn visar meter. Om mönstret anger yards, omvandla först till meter. Om mönstret eller garnlagret bara anges i gram, kontrollera banderollen för meter per nystan och räkna därifrån. Enbart vikt räcker inte, eftersom två nystan på 50 g kan innehålla helt olika längd garn.",
   },
   {
-    q: 'Påverkar garntjockleken hur mycket jag behöver?',
-    a: 'Ja. Tunnare garn, som fingering och sport, kräver fler meter för samma projekt än tjockare garn, som worsted och bulky, eftersom maskorna är mindre och du behöver fler av dem för att täcka samma yta.',
+    q: "Påverkar garntjockleken hur mycket jag behöver?",
+    a: "Ja. Tunnare garn, som fingering och sport, kräver fler meter för samma projekt än tjockare garn, som worsted och bulky, eftersom maskorna är mindre och du behöver fler av dem för att täcka samma yta.",
   },
   {
-    q: 'Kan jag byta till ett annat garn än mönstret rekommenderar?',
-    a: 'Ja, om stickfastheten stämmer. Sticka ett prov med ersättningsgarnet, kontrollera att du får samma maskantal per 10 cm och använd kalkylatorn för att uppskatta den totala garnåtgången för det nya garnet.',
+    q: "Kan jag byta till ett annat garn än mönstret rekommenderar?",
+    a: "Ja, om stickfastheten stämmer. Sticka ett prov med ersättningsgarnet, kontrollera att du får samma maskantal per 10 cm och använd kalkylatorn för att uppskatta den totala garnåtgången för det nya garnet.",
   },
 ];
 ---
@@ -45,12 +45,30 @@ const faqs = [
 
   <div slot="content">
     <h2>Så använder du kalkylatorn</h2>
-    <p>Välj typ av projekt, storlek och garntjocklek. Kalkylatorn ger en ungefärlig garnåtgång i meter. Använd den som utgångspunkt i planeringen och lägg sedan på en säkerhetsmarginal innan du köper garn. Att få slut på garn mitt i ett projekt när färgbadet inte längre finns är varje stickares mardröm.</p>
+    <p>
+      Välj typ av projekt, storlek och garntjocklek. Kalkylatorn ger en
+      ungefärlig garnåtgång i meter. Använd den som utgångspunkt i planeringen
+      och lägg sedan på en säkerhetsmarginal innan du köper garn. Att få slut på
+      garn mitt i ett projekt när färgbadet inte längre finns är varje stickares
+      mardröm.
+    </p>
 
     <h2>Hur mycket garn behöver jag?</h2>
-    <p>Garnåtgång beror på tre saker: vad du stickar, vilken storlek och vilken garntjocklek. En vuxentröja i fingering kan behöva ungefär 1200-1500 meter. En mössa i bulky kan klara sig på 100 meter. Om ett mönster anger egen garnåtgång, använd den först. Den här kalkylatorn är mest användbar när du planerar utan mönster eller vill kontrollera om en viss garnmängd är realistisk.</p>
+    <p>
+      Garnåtgång beror på tre saker: vad du stickar, vilken storlek och vilken
+      garntjocklek. En vuxentröja i fingering kan behöva ungefär 1200-1500
+      meter. En mössa i bulky kan klara sig på 100 meter. Om ett mönster anger
+      egen garnåtgång, använd den först. Den här kalkylatorn är mest användbar
+      när du planerar utan mönster eller vill kontrollera om en viss garnmängd
+      är realistisk.
+    </p>
 
     <h2>Att läsa en banderoll</h2>
-    <p>Varje banderoll anger löplängden per nystan. När du har en uppskattad totalmängd delar du den med banderollens meter per nystan för att räkna ut hur mycket du ska köpa. Om banderollen saknas, väg garnet på en köksvåg och kontrollera tillverkarens webbplats för meter per gram.</p>
+    <p>
+      Varje banderoll anger löplängden per nystan. När du har en uppskattad
+      totalmängd delar du den med banderollens meter per nystan för att räkna ut
+      hur mycket du ska köpa. Om banderollen saknas, väg garnet på en köksvåg
+      och kontrollera tillverkarens webbplats för meter per gram.
+    </p>
   </div>
 </LocalizedToolPage>

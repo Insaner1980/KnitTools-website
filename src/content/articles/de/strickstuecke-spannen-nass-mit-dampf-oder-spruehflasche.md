@@ -4,11 +4,18 @@ description: "So spannst du Strickstücke nass, mit Dampf oder durch Anfeuchten.
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 9
-tags: ["Strickstück spannen", "Nassspannen Stricken", "Stricken mit Dampf spannen", "Strickstück anfeuchten und spannen"]
+tags:
+  [
+    "Strickstück spannen",
+    "Nassspannen Stricken",
+    "Stricken mit Dampf spannen",
+    "Strickstück anfeuchten und spannen",
+  ]
 draft: false
 lang: de
 translationKey: "how-to-block-knitting"
 ---
+
 Spannen bedeutet, ein fertiges Strickstück zu waschen, zu dämpfen oder anzufeuchten und in die vorgesehenen Maße zu bringen. Aus unruhigem, ungleichmäßigem Gestrick wird ein fertiger Stoff. Maschen gleichen sich aus, das Material entspannt sich in seine Form, und Lochmuster öffnen sich aus einem engen Gewirr zu erkennbaren Mustern. Manche Projekte brauchen es kaum. Andere sehen ohne Spannen fast unfertig aus.
 
 Die Methode hängt von der Faser ab. Wolle reagiert gut auf Nassspannen. Acryl reagiert auf Dampf. Baumwolle reagiert auf keine Methode besonders stark, profitiert aber von einem guten Bad und sorgfältigem Auslegen.

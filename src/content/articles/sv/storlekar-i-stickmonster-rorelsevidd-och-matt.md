@@ -4,11 +4,18 @@ description: "Lär dig välja rätt storlek i ett stickmönster. Om rörelsevidd
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 7
-tags: ["storlekar i stickmönster", "rörelsevidd stickning", "välja storlek stickmönster", "passform stickning"]
+tags:
+  [
+    "storlekar i stickmönster",
+    "rörelsevidd stickning",
+    "välja storlek stickmönster",
+    "passform stickning",
+  ]
 draft: false
 lang: sv
 translationKey: "knitting-pattern-sizes-and-fit"
 ---
+
 Ett mönster märkt "Medium" kan sitta som ett tält på en person och kännas tajt på en annan. Mönsterstorlekar är inte butikstorlekar. De bygger på färdiga plaggets mått, och relationen mellan kroppen och de måtten avgör hur plagget faktiskt sitter.
 
 ## Kroppsmått jämfört med färdiga mått

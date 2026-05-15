@@ -1,11 +1,19 @@
 ---
 const tools = [
-  { href: '/tools/cast-on-calculator/', label: 'Cast On', fill: 'terracotta' },
-  { href: '/tools/yarn-estimator/', label: 'Yarn Estimator', fill: 'amber' },
-  { href: '/tools/yarn-weight-chart/', label: 'Yarn Weights', fill: 'wheat' },
-  { href: '/tools/needle-size-chart/', label: 'Needle Sizes', fill: 'sage' },
-  { href: '/tools/knitting-size-charts/', label: 'Size Charts', fill: 'walnut' },
-  { href: '/tools/knitting-abbreviations/', label: 'Abbreviations', fill: 'ink' },
+  { href: "/tools/cast-on-calculator/", label: "Cast On", fill: "terracotta" },
+  { href: "/tools/yarn-estimator/", label: "Yarn Estimator", fill: "amber" },
+  { href: "/tools/yarn-weight-chart/", label: "Yarn Weights", fill: "wheat" },
+  { href: "/tools/needle-size-chart/", label: "Needle Sizes", fill: "sage" },
+  {
+    href: "/tools/knitting-size-charts/",
+    label: "Size Charts",
+    fill: "walnut",
+  },
+  {
+    href: "/tools/knitting-abbreviations/",
+    label: "Abbreviations",
+    fill: "ink",
+  },
 ];
 ---
 
@@ -18,7 +26,7 @@ const tools = [
       {
         tools.map((t) => (
           <li>
-            <a class:list={['pill', `fill-${t.fill}`]} href={t.href}>
+            <a class:list={["pill", `fill-${t.fill}`]} href={t.href}>
               {t.label}
             </a>
           </li>
@@ -57,7 +65,10 @@ const tools = [
     margin: 0 0 40px;
     color: var(--ink);
   }
-  h2 em { color: var(--terracotta); font-style: italic; }
+  h2 em {
+    color: var(--terracotta);
+    font-style: italic;
+  }
 
   .pills {
     list-style: none;
@@ -72,24 +83,40 @@ const tools = [
     display: inline-block;
     padding: 9px 16px;
     border-radius: 0;
-    border: 1.5px solid #2A1E17;
+    border: 1.5px solid #2a1e17;
     white-space: nowrap;
     font-family: var(--font-body);
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #F4EAD9;
+    color: #f4ead9;
     text-decoration: none;
     transition: filter 0.15s ease;
   }
-  .pill:hover { filter: brightness(0.88); }
-  .fill-terracotta { background: #A05038; }
-  .fill-amber { background: var(--amber); }
-  .fill-wheat { background: var(--wheat); color: #2A1E17; }
-  .fill-sage { background: var(--sage); }
-  .fill-walnut { background: var(--walnut); }
-  .fill-ink { background: #F4EAD9; color: #2A1E17; }
+  .pill:hover {
+    filter: brightness(0.88);
+  }
+  .fill-terracotta {
+    background: #a05038;
+  }
+  .fill-amber {
+    background: var(--amber);
+  }
+  .fill-wheat {
+    background: var(--wheat);
+    color: #2a1e17;
+  }
+  .fill-sage {
+    background: var(--sage);
+  }
+  .fill-walnut {
+    background: var(--walnut);
+  }
+  .fill-ink {
+    background: #f4ead9;
+    color: #2a1e17;
+  }
 
   .see-all {
     display: inline-block;
@@ -100,10 +127,17 @@ const tools = [
     text-decoration: none;
     margin-top: 8px;
   }
-  .see-all:hover { color: var(--terracotta); }
+  .see-all:hover {
+    color: var(--terracotta);
+  }
 
   @media (max-width: 640px) {
-    .free-tools-callout { padding: 80px 20px; }
-    .pill { padding: 8px 16px; font-size: 11px; }
+    .free-tools-callout {
+      padding: 80px 20px;
+    }
+    .pill {
+      padding: 8px 16px;
+      font-size: 11px;
+    }
   }
 </style>

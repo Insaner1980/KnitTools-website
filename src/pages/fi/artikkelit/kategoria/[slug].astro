@@ -1,41 +1,51 @@
 ---
-import { getCollection } from 'astro:content';
-import PageLayout from '../../../../layouts/PageLayout.astro';
-import ArticleCard from '../../../../components/ArticleCard.astro';
-import ClosingCTA from '../../../../components/ClosingCTA.astro';
+import { getCollection } from "astro:content";
+import PageLayout from "../../../../layouts/PageLayout.astro";
+import ArticleCard from "../../../../components/ArticleCard.astro";
+import ClosingCTA from "../../../../components/ClosingCTA.astro";
 import {
   CATEGORY_ORDER,
   getCategoryDescription,
   getCategoryLabel,
   type CategorySlug,
-} from '../../../../lib/categories';
-import { isFinnishArticle } from '../../../../i18n/articles';
-import { routes } from '../../../../i18n/routes';
+} from "../../../../lib/categories";
+import { isFinnishArticle } from "../../../../i18n/articles";
+import { routes } from "../../../../i18n/routes";
 
 const slugMap: Record<string, CategorySlug> = {
-  'neuletiheys-ja-laskurit': 'gauge-calculations',
-  langat: 'yarn',
-  puikot: 'needles',
-  tekniikat: 'techniques',
-  'sovellus-ja-tyokalut': 'app-tools',
+  "neuletiheys-ja-laskurit": "gauge-calculations",
+  langat: "yarn",
+  puikot: "needles",
+  tekniikat: "techniques",
+  "sovellus-ja-tyokalut": "app-tools",
 };
 
 export async function getStaticPaths() {
   return CATEGORY_ORDER.map((category) => ({
-    params: { slug: routes.category[category].fi.replace('/fi/artikkelit/kategoria/', '').replace(/\/$/, '') },
+    params: {
+      slug: routes.category[category].fi
+        .replace("/fi/artikkelit/kategoria/", "")
+        .replace(/\/$/, ""),
+    },
   }));
 }
 
-const category = slugMap[Astro.params.slug ?? ''];
-const label = getCategoryLabel(category, 'fi');
-const description = getCategoryDescription(category, 'fi');
+const category = slugMap[Astro.params.slug ?? ""];
+const label = getCategoryLabel(category, "fi");
+const description = getCategoryDescription(category, "fi");
 
-const articles = await getCollection('articles', ({ data }) =>
-  data.lang === 'fi' && data.category === category && (import.meta.env.DEV ? true : !data.draft)
+const articles = await getCollection(
+  "articles",
+  ({ data }) =>
+    data.lang === "fi" &&
+    data.category === category &&
+    (import.meta.env.DEV ? true : !data.draft),
 );
-const sortedArticles = articles.filter(isFinnishArticle).sort(
-  (a, b) => (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999)
-);
+const sortedArticles = articles
+  .filter(isFinnishArticle)
+  .sort(
+    (a, b) => (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999),
+  );
 ---
 
 <PageLayout
@@ -48,7 +58,9 @@ const sortedArticles = articles.filter(isFinnishArticle).sort(
 >
   <section class="cat-header-section">
     <div class="cat-header-inner">
-      <p class="back"><a href={routes.articlesIndex.fi}>← Kaikki artikkelit</a></p>
+      <p class="back">
+        <a href={routes.articlesIndex.fi}>← Kaikki artikkelit</a>
+      </p>
       <p class="eyebrow">Kategoria</p>
       <h1>{label}.</h1>
       <p class="cat-intro">{description}</p>
@@ -57,9 +69,11 @@ const sortedArticles = articles.filter(isFinnishArticle).sort(
 
   <section class="cat-grid-section">
     <div class="articles-grid">
-      {sortedArticles.map((article) => (
-        <ArticleCard article={article} showCategory={false} lang="fi" />
-      ))}
+      {
+        sortedArticles.map((article) => (
+          <ArticleCard article={article} showCategory={false} lang="fi" />
+        ))
+      }
     </div>
   </section>
   <ClosingCTA variant="page" lang="fi" />
@@ -122,7 +136,9 @@ const sortedArticles = articles.filter(isFinnishArticle).sort(
   }
 
   @media (max-width: 1024px) {
-    .articles-grid { grid-template-columns: repeat(2, 1fr); }
+    .articles-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   @media (max-width: 768px) {
@@ -132,6 +148,9 @@ const sortedArticles = articles.filter(isFinnishArticle).sort(
       padding-right: 20px;
     }
 
-    .articles-grid { grid-template-columns: 1fr; gap: 12px; }
+    .articles-grid {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
   }
 </style>

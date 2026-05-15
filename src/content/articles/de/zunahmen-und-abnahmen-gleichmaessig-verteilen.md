@@ -4,11 +4,18 @@ description: "So verteilst du Zunahmen und Abnahmen gleichmäßig über eine Rei
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 6
-tags: ["Zunahmen gleichmäßig verteilen", "Abnahmen gleichmäßig verteilen", "Zunahmen berechnen", "Abnahmen Stricken"]
+tags:
+  [
+    "Zunahmen gleichmäßig verteilen",
+    "Abnahmen gleichmäßig verteilen",
+    "Zunahmen berechnen",
+    "Abnahmen Stricken",
+  ]
 draft: false
 lang: de
 translationKey: "increase-decrease-evenly"
 ---
+
 "In der nächsten Reihe 8 Maschen gleichmäßig zunehmen." Die Anleitung macht weiter. Du sitzt vor der Nadel und rechnest im Kopf.
 
 Ob du Maschen gleichmäßig zunehmen oder abnehmen musst, die Grundrechnung ist dieselbe: Teile deine aktuelle Maschenzahl durch die Anzahl der Änderungen. Das Ergebnis ist der Abstand zwischen den Formgebungspunkten. Hier ist die Formel, plus der Umgang mit den Resten, die fast immer auftauchen.

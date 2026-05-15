@@ -4,11 +4,19 @@ description: "So setzt du beim Stricken neues Garn an: Überlappung, Russian Joi
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 5
-tags: ["neues Knäuel ansetzen", "Garn ansetzen Stricken", "Garn verbinden Stricken", "Russian Join", "Magic Knot"]
+tags:
+  [
+    "neues Knäuel ansetzen",
+    "Garn ansetzen Stricken",
+    "Garn verbinden Stricken",
+    "Russian Join",
+    "Magic Knot",
+  ]
 draft: false
 lang: de
 translationKey: "join-new-ball-of-yarn"
 ---
+
 Das alte Knäuel ist fast leer. Das neue muss beginnen. Der Übergang soll im fertigen Gestrick unsichtbar sein und sicher genug, dass nichts aufgeht.
 
 Die vier wichtigsten Methoden sind die Überlappung, einfach und mit zwei Fäden zum Vernähen, der Russian Join, ohne Fadenenden, aber etwas dicker, die Filzverbindung oder Spit Splice, unsichtbar, aber nur für filzbare Wolle, und der Magic Knot, schnell, aber mit Knoten. Die beste Wahl hängt von der [Faserzusammensetzung](/de/artikel/garnfasern-im-vergleich/) deines Garns ab und davon, wie sehr dich Fäden vernähen stört.

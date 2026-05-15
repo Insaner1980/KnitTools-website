@@ -4,11 +4,21 @@ description: "Din provlapp stämmer inte med mönstret. Så felsöker du och rä
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 3
-tags: ["stickfastheten stämmer inte", "justera stickfasthet", "stickfasthetskalkylator", "provlapp", "mönstrets stickfasthet", "maskor per cm", "mäta provlapp"]
+tags:
+  [
+    "stickfastheten stämmer inte",
+    "justera stickfasthet",
+    "stickfasthetskalkylator",
+    "provlapp",
+    "mönstrets stickfasthet",
+    "maskor per cm",
+    "mäta provlapp",
+  ]
 draft: false
 lang: sv
 translationKey: "gauge-doesnt-match"
 ---
+
 Din provlapp visar 19 maskor över 10 cm. Mönstret vill ha 20. En maska på 10 cm låter inte som mycket förrän du multiplicerar det över en tröja på 100 cm och inser att det färdiga plagget blir ungefär 5 cm för brett. Det är skillnaden mellan ett plagg som sitter bra och ett som hänger från axlarna.
 
 En stickfasthet som inte stämmer går att fixa. Vad du gör beror på hur långt från målet du är, vilken typ av projekt du stickar och om tyget i sig känns rätt på stickan.
