@@ -4,11 +4,18 @@ description: "So liest du eine Strickanleitung von Anfang bis Ende: Aufbau, Abk�
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 2
-tags: ["Strickanleitung lesen", "Strickanleitung Anfänger", "Strickanleitung verstehen", "Strickabkürzungen lesen"]
+tags:
+  [
+    "Strickanleitung lesen",
+    "Strickanleitung Anfänger",
+    "Strickanleitung verstehen",
+    "Strickabkürzungen lesen",
+  ]
 draft: false
 lang: de
 translationKey: "how-to-read-knitting-pattern"
 ---
+
 Strickanleitungen haben ihre eigene Sprache und eigene Formatregeln. Eine Anleitung besteht meist aus vorhersehbaren Teilen: Material und Maschenprobe am Anfang, danach Reihenanweisungen mit standardisierten Abkürzungen, und Größenangaben erscheinen als Zahlen in Klammern im ganzen Text. Beim ersten Öffnen wirkt das wie eine Wand aus Kurzschrift. Sobald du die Abschnitte erkennst, wird die Anleitung lesbar.
 
 ## Kopfbereich: was du vor dem Anfang brauchst
@@ -53,7 +60,7 @@ Maschenanweisungen liest du von links nach rechts: „K5, p3, k2tog, yo, k to en
 
 Hier stolpern viele. Anleitungen nutzen verschiedene Notationssysteme.
 
-**Stern-Rapporte:** „*K2, p2; rep from * to end.“ Der Stern markiert den Anfang des Rapports. Alles zwischen Stern und Wiederholungsanweisung ist eine Einheit. „Rep from *“ heißt: zurück zum Stern und erneut arbeiten. „To end“ heißt: bis zum Reihenende wiederholen.
+**Stern-Rapporte:** „_K2, p2; rep from _ to end.“ Der Stern markiert den Anfang des Rapports. Alles zwischen Stern und Wiederholungsanweisung ist eine Einheit. „Rep from \*“ heißt: zurück zum Stern und erneut arbeiten. „To end“ heißt: bis zum Reihenende wiederholen.
 
 **Klammer-Rapporte:** „[K2, p2] 5 times.“ Die Klammern definieren den Abschnitt, die Zahl sagt, wie oft. Ausdrücklicher als Sterne, aber funktional dasselbe.
 

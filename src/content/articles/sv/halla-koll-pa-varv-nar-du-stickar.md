@@ -4,11 +4,20 @@ description: "Tappar du räkningen mitt i projektet? Här är 7 pålitliga sätt
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 2
-tags: ["hålla koll på varv stickning", "varvräknare stickning", "räkna varv", "maskräknare", "digital varvräknare", "varvräknarapp"]
+tags:
+  [
+    "hålla koll på varv stickning",
+    "varvräknare stickning",
+    "räkna varv",
+    "maskräknare",
+    "digital varvräknare",
+    "varvräknarapp",
+  ]
 draft: false
 lang: sv
 translationKey: "track-rows-knitting"
 ---
+
 Du lägger ner projektet för att öppna dörren. Tar upp det igen tjugo minuter senare. Var det varv 14 eller 15? I slätstickning spelar det kanske ingen roll. I ett spetsmönster där udda och jämna varv gör helt olika saker betyder ett varv fel att du får repa upp.
 
 Ingen metod fungerar för alla projekt. De här sju går från helt analogt till appbaserat, och de flesta stickare landar i att använda mer än en.

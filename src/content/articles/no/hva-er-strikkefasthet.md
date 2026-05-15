@@ -4,11 +4,18 @@ description: "Forstå strikkefasthet, hvorfor den varierer mellom strikkere, og 
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 1
-tags: ["hva er strikkefasthet", "strikkefasthet forklart", "hvorfor endrer strikkefasthet seg", "strikkespenning"]
+tags:
+  [
+    "hva er strikkefasthet",
+    "strikkefasthet forklart",
+    "hvorfor endrer strikkefasthet seg",
+    "strikkespenning",
+  ]
 draft: false
 lang: no
 translationKey: "what-is-gauge-in-knitting"
 ---
+
 Strikkefasthet er antall masker og pinner som får plass i et målt område med strikket stoff. Når en oppskrift sier "20 masker og 28 pinner = 10 cm i glattstrikk", er det slik designerens stoff så ut. Treffer du den tettheten, har prosjektet mye større sjanse til å få riktig størrelse.
 
 Det er kortversjonen. Den mer nyttige versjonen er å forstå hvorfor to strikkere kan få helt ulik strikkefasthet med samme garn og pinner, og hvorfor din egen strikkefasthet kan drive underveis i ett prosjekt.

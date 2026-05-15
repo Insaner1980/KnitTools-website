@@ -1,11 +1,11 @@
 ---
-import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
-import CastOnCalculator from '../../../components/CastOnCalculator.astro';
-import { routes } from '../../../i18n/routes';
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
+import CastOnCalculator from "../../../components/CastOnCalculator.astro";
+import { routes } from "../../../i18n/routes";
 
 const faqs = [
   {
-    q: 'Est-ce que je dois vraiment tricoter un échantillon ?',
+    q: "Est-ce que je dois vraiment tricoter un échantillon ?",
     a: "Oui. Sauter l'échantillon est la raison la plus fréquente pour laquelle un ouvrage ne sort pas à la bonne taille. Cela prend 20 minutes et peut éviter des heures à détricoter.",
   },
   {
@@ -13,16 +13,16 @@ const faqs = [
     a: "Non. Mesure au centre de l'échantillon, en évitant les deux premières et les deux dernières mailles. Les mailles de bord sont souvent plus serrées ou plus lâches que le reste.",
   },
   {
-    q: 'Pourquoi le calculateur arrondit-il à un nombre pair ?',
-    a: 'Beaucoup de points, comme les côtes, les torsades ou le jacquard, ont besoin d’un nombre pair de mailles pour tomber juste. Arrondir au nombre pair le plus proche donne une répétition propre.',
+    q: "Pourquoi le calculateur arrondit-il à un nombre pair ?",
+    a: "Beaucoup de points, comme les côtes, les torsades ou le jacquard, ont besoin d’un nombre pair de mailles pour tomber juste. Arrondir au nombre pair le plus proche donne une répétition propre.",
   },
   {
-    q: 'Et si mon modèle demande un multiple précis ?',
+    q: "Et si mon modèle demande un multiple précis ?",
     a: "Ajoute ou enlève quelques mailles pour atteindre le multiple le plus proche demandé par le modèle. Par exemple, si le motif se répète sur 4 mailles et que le calculateur donne 46, ajuste à 44 ou 48.",
   },
   {
-    q: 'Puis-je l’utiliser pour tricoter en rond ?',
-    a: 'Oui. Entre la circonférence complète comme largeur souhaitée. Le calcul fonctionne de la même façon pour le tricot à plat et le tricot en rond.',
+    q: "Puis-je l’utiliser pour tricoter en rond ?",
+    a: "Oui. Entre la circonférence complète comme largeur souhaitée. Le calcul fonctionne de la même façon pour le tricot à plat et le tricot en rond.",
   },
 ];
 ---
@@ -44,12 +44,33 @@ const faqs = [
 
   <div slot="content">
     <h2>Que veut dire monter les mailles ?</h2>
-    <p>Monter les mailles est la première étape de presque tous les projets tricot : c'est la façon de créer le premier rang de mailles sur l'aiguille. Le nombre de mailles montées détermine la largeur de l'ouvrage fini. Trop peu, et il sera trop étroit. Trop, et tu auras perdu du fil et du temps. Avoir le bon nombre dès le départ évite de détricoter plus tard.</p>
+    <p>
+      Monter les mailles est la première étape de presque tous les projets
+      tricot : c'est la façon de créer le premier rang de mailles sur
+      l'aiguille. Le nombre de mailles montées détermine la largeur de l'ouvrage
+      fini. Trop peu, et il sera trop étroit. Trop, et tu auras perdu du fil et
+      du temps. Avoir le bon nombre dès le départ évite de détricoter plus tard.
+    </p>
 
     <h2>Pourquoi l'échantillon compte</h2>
-    <p>Chaque personne tricote différemment. Même avec le même fil et les mêmes aiguilles, ta tension produit une matière un peu différente de celle de quelqu'un d'autre. C'est pour cela que les modèles donnent un échantillon recommandé, et que tu dois tricoter un échantillon pour trouver le tien. Mesure combien de mailles tiennent sur 10 cm, et tu as le nombre dont le calculateur a besoin.</p>
+    <p>
+      Chaque personne tricote différemment. Même avec le même fil et les mêmes
+      aiguilles, ta tension produit une matière un peu différente de celle de
+      quelqu'un d'autre. C'est pour cela que les modèles donnent un échantillon
+      recommandé, et que tu dois tricoter un échantillon pour trouver le tien.
+      Mesure combien de mailles tiennent sur 10 cm, et tu as le nombre dont le
+      calculateur a besoin.
+    </p>
 
     <h2>Comment utiliser ce calculateur</h2>
-    <p>Pour calculer tes mailles à monter, il te faut deux choses : ton <strong>échantillon</strong>, c'est-à-dire le nombre de mailles obtenues sur 10 cm de tricot, et la <strong>largeur souhaitée</strong> de l'ouvrage. Tricote d'abord un échantillon, mesure-le, puis entre ces valeurs. Le calculateur arrondit au nombre pair le plus proche, une convention fréquente en tricot.</p>
+    <p>
+      Pour calculer tes mailles à monter, il te faut deux choses : ton <strong
+        >échantillon</strong
+      >, c'est-à-dire le nombre de mailles obtenues sur 10 cm de tricot, et la <strong
+        >largeur souhaitée</strong
+      > de l'ouvrage. Tricote d'abord un échantillon, mesure-le, puis entre ces valeurs.
+      Le calculateur arrondit au nombre pair le plus proche, une convention fréquente
+      en tricot.
+    </p>
   </div>
 </LocalizedToolPage>

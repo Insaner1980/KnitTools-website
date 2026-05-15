@@ -4,11 +4,21 @@ description: "Räkna ut hur mycket garn du behöver till en stickad tröja. Upps
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 4
-tags: ["garn till tröja", "garnåtgångskalkylator", "hur mycket garn behöver jag", "antal nystan", "garnkalkylator", "garnmängd", "sticka tröja"]
+tags:
+  [
+    "garn till tröja",
+    "garnåtgångskalkylator",
+    "hur mycket garn behöver jag",
+    "antal nystan",
+    "garnkalkylator",
+    "garnmängd",
+    "sticka tröja",
+  ]
 draft: false
 lang: sv
 translationKey: "yarn-for-sweater"
 ---
+
 En tröja är det största plagget de flesta stickare gör, och garnåtgången visar det. Underskatta och du jagar ett utgånget färgbad med en halv ärm kvar att sticka. Överskatta för mycket och dyrt garn blir liggande i garnlagret på obestämd tid.
 
 Rätt mängd beror på tre saker: tröjans storlek, garntjockleken och konstruktionen. En kort pullover i Bulky kan behöva 600 m. En lång kofta i Fingering kan gå över 2 600 m. Spannet nedan täcker det vanligaste.

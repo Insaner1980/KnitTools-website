@@ -4,11 +4,20 @@ description: "Gratis stickkalkylatorer online för uppläggning, garnåtgång, s
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 5
-tags: ["stickkalkylatorer", "gratis stickkalkylatorer", "uppläggningskalkylator", "garnkalkylator", "stickfasthetsomvandlare", "stickverktyg"]
+tags:
+  [
+    "stickkalkylatorer",
+    "gratis stickkalkylatorer",
+    "uppläggningskalkylator",
+    "garnkalkylator",
+    "stickfasthetsomvandlare",
+    "stickverktyg",
+  ]
 draft: false
 lang: sv
 translationKey: "free-knitting-calculators"
 ---
+
 Stickning innehåller mer matte än de flesta väntar sig. Hur många maskor du ska lägga upp till en 23 cm bred halsduk med din stickfasthet. Hur mycket garn en filt slukar. Hur 8 ökningar placeras jämnt över 64 maskor. Inget av det är svår matematik, men det dyker upp hela tiden, och fel svar betyder ofta att du får repa upp.
 
 Fyra typer av stickkalkylatorer täcker det mesta du kommer att behöva. Gratisversionerna på den här sidan fungerar i vilken webbläsare som helst utan konto.

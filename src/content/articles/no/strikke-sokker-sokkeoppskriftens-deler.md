@@ -4,11 +4,18 @@ description: "Forstå delene i en strikket sokk og hvordan sokkeoppskrifter fung
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 13
-tags: ["strikke sokker", "sokkestrikking guide", "strikke sokker nybegynner", "sokkeoppskrift deler"]
+tags:
+  [
+    "strikke sokker",
+    "sokkestrikking guide",
+    "strikke sokker nybegynner",
+    "sokkeoppskrift deler",
+  ]
 draft: false
 lang: no
 translationKey: "how-to-knit-socks"
 ---
+
 Sokker ser skremmende ut fordi de inneholder teknikker du ikke møter i skjerf og luer: hælvending, å plukke opp masker til kile, og å maske sammen tåen med Kitchener stitch. Men hver del av en sokk er ganske rett frem. Kompleksiteten ligger i hvordan delene kobles sammen, ikke i selve strikkingen.
 
 En strikket sokk har seks deler, vrangbord, skaft, hæl, kile, fot og tå, og kan bygges ovenfra og ned (cuff-down) eller fra tåen og opp (toe-up). Når du forstår anatomien, blir enhver sokkeoppskrift mindre mystisk.

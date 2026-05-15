@@ -4,11 +4,19 @@ description: "Reihenzahl verloren? Sieben zuverlässige Wege, Reihen beim Strick
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 2
-tags: ["Reihen zählen Stricken", "Reihenzähler Stricken", "Reihenzahl verfolgen", "digitaler Reihenzähler", "Reihenzähler App"]
+tags:
+  [
+    "Reihen zählen Stricken",
+    "Reihenzähler Stricken",
+    "Reihenzahl verfolgen",
+    "digitaler Reihenzähler",
+    "Reihenzähler App",
+  ]
 draft: false
 lang: de
 translationKey: "track-rows-knitting"
 ---
+
 Du legst das Projekt weg, um die Tür zu öffnen. Zwanzig Minuten später nimmst du es wieder auf. War das Reihe 14 oder 15? In glatt rechts ist das vielleicht egal. In einem Lochmuster, in dem ungerade und gerade Reihen völlig unterschiedliche Dinge tun, bedeutet eine Reihe daneben: zurückribbeln.
 
 Keine Methode passt zu jedem Projekt. Diese sieben reichen von ganz ohne Technik bis zur App, und die meisten Strickenden landen bei mehr als einer.

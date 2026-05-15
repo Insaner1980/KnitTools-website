@@ -4,7 +4,13 @@ description: "Comment suivre ton temps de tricot, comparer ta vitesse selon les 
 category: "app-tools"
 categoryOrder: 7
 publishDate: 2026-05-01
-tags: ["temps de tricot", "vitesse de tricot", "suivre projet tricot", "application tricot"]
+tags:
+  [
+    "temps de tricot",
+    "vitesse de tricot",
+    "suivre projet tricot",
+    "application tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "track-knitting-time"
@@ -36,11 +42,11 @@ Il faut quand même accepter une petite imperfection. Tu oublieras parfois de la
 
 Si tu veux plus de détail, un tableau simple fonctionne bien :
 
-| Date | Projet | Section | Temps | Notes |
-| --- | --- | --- | --- | --- |
-| 12 mai | Gilet bleu | Dos | 45 min | Jersey |
-| 13 mai | Gilet bleu | Dos | 1 h 10 | Un rang défait |
-| 14 mai | Chaussette | Talon | 35 min | Rythme lent |
+| Date   | Projet     | Section | Temps  | Notes          |
+| ------ | ---------- | ------- | ------ | -------------- |
+| 12 mai | Gilet bleu | Dos     | 45 min | Jersey         |
+| 13 mai | Gilet bleu | Dos     | 1 h 10 | Un rang défait |
+| 14 mai | Chaussette | Talon   | 35 min | Rythme lent    |
 
 Au bout de quelques projets, tu verras des motifs apparaître. Les talons prennent toujours plus longtemps que prévu. Les côtes prennent moins de temps que prévu. Les torsades ralentissent tout. La dentelle dépend fortement du degré d'attention demandé par le motif.
 
@@ -131,4 +137,3 @@ Suis quelques séances, calcule tes rangs ou centimètres par heure, puis appliq
 
 **Le suivi du temps convient-il aux cadeaux tricotés ?**  
 Oui. C'est même l'un de ses meilleurs usages. Savoir qu'une chaussette prend huit heures ou qu'une couverture prend 80 heures évite de promettre l'impossible.
-

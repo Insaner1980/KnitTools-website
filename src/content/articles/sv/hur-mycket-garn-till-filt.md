@@ -4,11 +4,21 @@ description: "Räkna ut hur mycket garn du behöver till en stickad filt. Uppska
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 5
-tags: ["garn till filt", "garnåtgångskalkylator", "hur mycket garn behöver jag", "antal nystan", "garnkalkylator", "garnmängd", "sticka filt"]
+tags:
+  [
+    "garn till filt",
+    "garnåtgångskalkylator",
+    "hur mycket garn behöver jag",
+    "antal nystan",
+    "garnkalkylator",
+    "garnmängd",
+    "sticka filt",
+  ]
 draft: false
 lang: sv
 translationKey: "yarn-for-blanket"
 ---
+
 Filtar äter garn. Till och med en liten babyfilt använder mer löplängd än de flesta plagg, och en stor pläd kan passera 2 300 meter i Worsted. Att få slut mitt i, särskilt med ett utgånget färgbad, är precis den sortens stickelände som går att undvika med rimlig planering.
 
 Uppskattningarna nedan ger ett startspann. Din faktiska garnåtgång beror på stickfasthet, struktur och mått, men siffrorna tar dig tillräckligt nära för att kunna köpa med självförtroende.

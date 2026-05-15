@@ -4,11 +4,20 @@ description: "Gérer plusieurs projets tricot à la fois sans perdre les aiguill
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 3
-tags: ["organiser projets tricot", "encours tricot", "suivi projet tricot", "suivre progression tricot", "plusieurs projets tricot", "suivi temps tricot"]
+tags:
+  [
+    "organiser projets tricot",
+    "encours tricot",
+    "suivi projet tricot",
+    "suivre progression tricot",
+    "plusieurs projets tricot",
+    "suivi temps tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "organize-knitting-projects"
 ---
+
 La plupart des tricoteuses ont plus d'un projet en cours. Un pull complexe pour les soirées concentrées. Une chaussette simple pour les trajets. Une couverture en point mousse sans réflexion pour tricoter devant la télé. Des projets différents pour des humeurs et des niveaux d'énergie différents. C'est normal.
 
 Les ennuis commencent quand "quelques projets" deviennent discrètement sept, et que tu ne sais plus quelle taille d'aiguille est dans le bonnet à moitié fait, à quel rang tu t'es arrêtée dans le gilet, ou si tu as déjà acheté la deuxième pelote pour le col. Gérer les encours ne veut pas dire limiter le nombre de projets. Cela veut dire pouvoir reprendre n'importe lequel sans passer dix minutes à retrouver où tu en étais.

@@ -1,28 +1,28 @@
 ---
-import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
-import YarnEstimator from '../../../components/YarnEstimator.astro';
-import { routes } from '../../../i18n/routes';
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
+import YarnEstimator from "../../../components/YarnEstimator.astro";
+import { routes } from "../../../i18n/routes";
 
 const faqs = [
   {
-    q: 'Woher weiß ich, wie viel Garn meine Anleitung braucht?',
-    a: 'Die meisten Anleitungen nennen den gesamten Garnbedarf im Materialteil, oft in Metern oder Yards. Wenn du ohne Anleitung planst, sind Durchschnittswerte nach Projektart und Größe nur ein Ausgangspunkt.',
+    q: "Woher weiß ich, wie viel Garn meine Anleitung braucht?",
+    a: "Die meisten Anleitungen nennen den gesamten Garnbedarf im Materialteil, oft in Metern oder Yards. Wenn du ohne Anleitung planst, sind Durchschnittswerte nach Projektart und Größe nur ein Ausgangspunkt.",
   },
   {
-    q: 'Sollte ich extra Garn kaufen?',
-    a: 'Meistens ja. Ein zusätzliches Knäuel spart Ärger, besonders bei Garn mit Farbpartie. Genau dieselbe Partie kann später schwer oder unmöglich zu finden sein.',
+    q: "Sollte ich extra Garn kaufen?",
+    a: "Meistens ja. Ein zusätzliches Knäuel spart Ärger, besonders bei Garn mit Farbpartie. Genau dieselbe Partie kann später schwer oder unmöglich zu finden sein.",
   },
   {
-    q: 'Was ist, wenn die Anleitung Yards oder Gramm angibt?',
-    a: 'Der Rechner zeigt Meter und Yards. Wenn du nur Gramm hast, prüfe auf der Banderole die Meter oder Yards pro Knäuel. Gewicht allein reicht nicht, weil zwei 50-g-Knäuel sehr unterschiedliche Lauflängen haben können.',
+    q: "Was ist, wenn die Anleitung Yards oder Gramm angibt?",
+    a: "Der Rechner zeigt Meter und Yards. Wenn du nur Gramm hast, prüfe auf der Banderole die Meter oder Yards pro Knäuel. Gewicht allein reicht nicht, weil zwei 50-g-Knäuel sehr unterschiedliche Lauflängen haben können.",
   },
   {
-    q: 'Beeinflusst die Garnstärke den Garnbedarf?',
-    a: 'Ja. Dünneres Garn braucht für dieselbe Fläche mehr Meter als dickeres Garn. Zopfmuster, mehrfarbiges Stricken und Strukturmuster verbrauchen außerdem oft mehr Garn als glatt rechts.',
+    q: "Beeinflusst die Garnstärke den Garnbedarf?",
+    a: "Ja. Dünneres Garn braucht für dieselbe Fläche mehr Meter als dickeres Garn. Zopfmuster, mehrfarbiges Stricken und Strukturmuster verbrauchen außerdem oft mehr Garn als glatt rechts.",
   },
   {
-    q: 'Kann ich das empfohlene Garn ersetzen?',
-    a: 'Ja, wenn die Maschenprobe passt und die Strickfläche sich richtig anfühlt. Prüfe den Garnbedarf in Metern, nicht nur die Anzahl der Knäuel.',
+    q: "Kann ich das empfohlene Garn ersetzen?",
+    a: "Ja, wenn die Maschenprobe passt und die Strickfläche sich richtig anfühlt. Prüfe den Garnbedarf in Metern, nicht nur die Anzahl der Knäuel.",
   },
 ];
 ---
@@ -45,21 +45,55 @@ const faqs = [
 
   <div slot="content">
     <h2>So nutzt du den Garnbedarfsrechner</h2>
-    <p>Wähle zuerst die Projektart, dann die Größe und zuletzt die Garnstärke. Der Rechner gibt dir eine Schätzung in Metern und Yards. Die Werte gehen von glatt rechts aus, deshalb können Zöpfe, Lochmuster, Jacquardmuster und andere Strukturmuster den Bedarf verändern.</p>
+    <p>
+      Wähle zuerst die Projektart, dann die Größe und zuletzt die Garnstärke.
+      Der Rechner gibt dir eine Schätzung in Metern und Yards. Die Werte gehen
+      von glatt rechts aus, deshalb können Zöpfe, Lochmuster, Jacquardmuster und
+      andere Strukturmuster den Bedarf verändern.
+    </p>
 
-    <p>Das Ergebnis ist eine Planungsgrundlage, kein Versprechen. Wenn deine Anleitung einen eigenen Garnbedarf nennt, nutze zuerst diese Angabe. Wenn du ohne Anleitung planst, hilft der Rechner dabei, die richtige Größenordnung einzuschätzen.</p>
+    <p>
+      Das Ergebnis ist eine Planungsgrundlage, kein Versprechen. Wenn deine
+      Anleitung einen eigenen Garnbedarf nennt, nutze zuerst diese Angabe. Wenn
+      du ohne Anleitung planst, hilft der Rechner dabei, die richtige
+      Größenordnung einzuschätzen.
+    </p>
 
     <h2>Wie viel Garn brauche ich?</h2>
-    <p>Der Garnbedarf hängt vor allem von drei Dingen ab: was du strickst, in welcher Größe und mit welcher Garnstärke. Ein Pullover für Erwachsene aus Fingering-Garn kann ungefähr 1200-1500 m brauchen. Eine Mütze aus dickem Garn kann mit etwa 100 m auskommen.</p>
+    <p>
+      Der Garnbedarf hängt vor allem von drei Dingen ab: was du strickst, in
+      welcher Größe und mit welcher Garnstärke. Ein Pullover für Erwachsene aus
+      Fingering-Garn kann ungefähr 1200-1500 m brauchen. Eine Mütze aus dickem
+      Garn kann mit etwa 100 m auskommen.
+    </p>
 
-    <p>Dünneres Garn braucht mehr Meter für dieselbe Fläche, weil mehr Maschen entstehen. Dickeres Garn wächst schneller, kann aber schwerer und steifer werden. Garnmenge und fertige Strickfläche gehören deshalb zusammen.</p>
+    <p>
+      Dünneres Garn braucht mehr Meter für dieselbe Fläche, weil mehr Maschen
+      entstehen. Dickeres Garn wächst schneller, kann aber schwerer und steifer
+      werden. Garnmenge und fertige Strickfläche gehören deshalb zusammen.
+    </p>
 
     <h2>Lies die Meter auf der Banderole</h2>
-    <p>Die Banderole nennt meistens Gewicht und Lauflänge pro Knäuel. Für den Einkauf zählt vor allem die Lauflänge. Zwei 50-g-Knäuel können völlig unterschiedliche Meterzahlen enthalten.</p>
+    <p>
+      Die Banderole nennt meistens Gewicht und Lauflänge pro Knäuel. Für den
+      Einkauf zählt vor allem die Lauflänge. Zwei 50-g-Knäuel können völlig
+      unterschiedliche Meterzahlen enthalten.
+    </p>
 
-    <p>Wenn die Banderole fehlt, wiege das Garn und suche beim Hersteller nach der Lauflänge des gleichen Garns. Wenn du nichts findest, nutze die Schätzung nur für kleine oder flexible Projekte, bei denen ein paar Meter Abweichung nicht kritisch sind.</p>
+    <p>
+      Wenn die Banderole fehlt, wiege das Garn und suche beim Hersteller nach
+      der Lauflänge des gleichen Garns. Wenn du nichts findest, nutze die
+      Schätzung nur für kleine oder flexible Projekte, bei denen ein paar Meter
+      Abweichung nicht kritisch sind.
+    </p>
 
     <h2>Warum ein Reserveknäuel oft sinnvoll ist</h2>
-    <p>Maschenprobe, Muster und persönliche Strickweise verändern den Verbrauch. Zöpfe ziehen Garn, mehrfarbiges Stricken führt Fäden auf der Rückseite mit, und Tücher werden schnell größer als geplant. Wenn das Garn eine Farbpartie hat, kann ein später gekauftes Knäuel sichtbar anders aussehen. Reservegarn ist langweilig, bis du es brauchst.</p>
+    <p>
+      Maschenprobe, Muster und persönliche Strickweise verändern den Verbrauch.
+      Zöpfe ziehen Garn, mehrfarbiges Stricken führt Fäden auf der Rückseite
+      mit, und Tücher werden schnell größer als geplant. Wenn das Garn eine
+      Farbpartie hat, kann ein später gekauftes Knäuel sichtbar anders aussehen.
+      Reservegarn ist langweilig, bis du es brauchst.
+    </p>
   </div>
 </LocalizedToolPage>

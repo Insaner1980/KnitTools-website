@@ -4,11 +4,18 @@ description: "Vergleiche Rundstricknadeln, gerade Stricknadeln und Nadelspiel. E
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 1
-tags: ["Rundstricknadel oder gerade Nadeln", "wann Nadelspiel verwenden", "Stricknadeln Arten", "Nadelspiel Rundstricknadel"]
+tags:
+  [
+    "Rundstricknadel oder gerade Nadeln",
+    "wann Nadelspiel verwenden",
+    "Stricknadeln Arten",
+    "Nadelspiel Rundstricknadel",
+  ]
 draft: false
 lang: de
 translationKey: "circular-vs-straight-vs-dpn"
 ---
+
 Drei Nadeltypen gibt es, weil verschiedene Projekte verschiedene Dinge verlangen. Gerade Nadeln machen flache Teile. Rundstricknadeln machen flache Teile und Schläuche. Nadelspiele machen kleine Umfänge. Sobald diese Logik sitzt, wirkt der Nadeldschungel deutlich weniger überwältigend.
 
 ## Gerade Stricknadeln

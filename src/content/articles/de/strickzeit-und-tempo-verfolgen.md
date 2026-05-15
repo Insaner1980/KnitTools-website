@@ -4,11 +4,19 @@ description: "Verfolge Stricksitzungen und erkenne, wohin die Zeit geht und wie 
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 7
-tags: ["Strickzeit verfolgen", "Stricksitzung verfolgen", "Session Tracking Stricken", "Strickfortschritt verfolgen", "Stricktempo"]
+tags:
+  [
+    "Strickzeit verfolgen",
+    "Stricksitzung verfolgen",
+    "Session Tracking Stricken",
+    "Strickfortschritt verfolgen",
+    "Stricktempo",
+  ]
 draft: false
 lang: de
 translationKey: "track-knitting-time"
 ---
+
 Die meisten Strickenden haben ein vages Gefühl dafür, wie lange Projekte dauern. „Der Pullover hat ein paar Monate gedauert.“ „Die Socken waren ziemlich schnell.“ Vage hilft nicht, wenn du entscheiden willst, ob du sechs Wochen vor Weihnachten noch einen Cardigan anfangen solltest, oder warum eine Mütze, die an einem Abend fertig sein sollte, auf drei Abende anwächst.
 
 Strickzeit zu verfolgen macht aus Eindrücken Daten. Wie viele Stunden im Pullover stecken. Wie viele Reihen du pro Sitzung durchschnittlich schaffst. Ob du glatt rechts schneller strickst als Zöpfe, die Antwort ist immer glatt rechts, aber um wie viel? Die Zahlen bewegen deine Hände nicht schneller, aber sie helfen beim Planen und zeigen, wenn etwas leise schiefläuft.

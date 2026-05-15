@@ -4,11 +4,18 @@ description: "Choisir la bonne taille dans un modèle de tricot : aisance, mensu
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 7
-tags: ["tailles modèle tricot", "aisance tricot", "choisir taille tricot", "ajustement tricot"]
+tags:
+  [
+    "tailles modèle tricot",
+    "aisance tricot",
+    "choisir taille tricot",
+    "ajustement tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "knitting-pattern-sizes-and-fit"
 ---
+
 Un modèle étiqueté "Medium" peut tomber comme une tente sur une personne et sembler serré sur une autre. Les tailles de modèles ne sont pas les tailles de magasin. Elles se basent sur les mesures du vêtement terminé, et c'est la relation entre ton corps et ces mesures qui détermine vraiment le tombé.
 
 ## Mensurations et mesures finies

@@ -1,0 +1,44 @@
+---
+import DanishToolsIndex from "../../../components/danish-tools/DanishToolsIndex.astro";
+import DanishCastOnPage from "../../../components/danish-tools/DanishCastOnPage.astro";
+import DanishYarnEstimatorPage from "../../../components/danish-tools/DanishYarnEstimatorPage.astro";
+import DanishNeedleSizeChartPage from "../../../components/danish-tools/DanishNeedleSizeChartPage.astro";
+import DanishYarnWeightChartPage from "../../../components/danish-tools/DanishYarnWeightChartPage.astro";
+import DanishKnittingAbbreviationsPage from "../../../components/danish-tools/DanishKnittingAbbreviationsPage.astro";
+import DanishKnittingSizeChartsPage from "../../../components/danish-tools/DanishKnittingSizeChartsPage.astro";
+
+const pageComponents = {
+  index: DanishToolsIndex,
+  castOn: DanishCastOnPage,
+  yarnEstimator: DanishYarnEstimatorPage,
+  needleSizeChart: DanishNeedleSizeChartPage,
+  yarnWeightChart: DanishYarnWeightChartPage,
+  knittingAbbreviations: DanishKnittingAbbreviationsPage,
+  knittingSizeCharts: DanishKnittingSizeChartsPage,
+};
+
+export function getStaticPaths() {
+  return [
+    { params: { slug: undefined }, props: { page: "index" } },
+    { params: { slug: "opslagsberegner" }, props: { page: "castOn" } },
+    { params: { slug: "garnberegner" }, props: { page: "yarnEstimator" } },
+    {
+      params: { slug: "pindestoerrelser" },
+      props: { page: "needleSizeChart" },
+    },
+    { params: { slug: "garntykkelser" }, props: { page: "yarnWeightChart" } },
+    {
+      params: { slug: "strikkeforkortelser" },
+      props: { page: "knittingAbbreviations" },
+    },
+    {
+      params: { slug: "stoerrelsestabeller-strik" },
+      props: { page: "knittingSizeCharts" },
+    },
+  ];
+}
+
+const Page = pageComponents[Astro.props.page as keyof typeof pageComponents];
+---
+
+<Page />

@@ -1,5 +1,13 @@
 # KnitTools Website Memory
 
+## 2026-05-15: SonarCloud-paikallisskannaus
+
+- Projekti on konfiguroitu SonarCloudiin samalla paikallisella `sonar`-työnkululla kuin KnitTools- ja dBcheck-Android-projektit: argumentiton `sonar` etsii `tools/sonar.ps1`-wrapperin, ajaa skannauksen ja tallentaa raportit `reports/`-kansioon.
+- SonarCloud project key on `Insaner1980_KnitTools-website` ja organization `insaner1980`. Asetukset ovat `sonar-project.properties`-tiedostossa.
+- Astro/JS/TS/CSS-skannaus käyttää NPM-pohjaista `@sonar/scan@4.3.5`-scanneria. `sonar auth login/status/...` ohjautuu edelleen SonarQube CLI:lle, mutta varsinainen skannaus tarvitsee `SONAR_TOKEN`-ympäristömuuttujan.
+- Manuaalinen scanner-ajo edellyttää, että SonarCloud-projektin Automatic Analysis poistetaan käytöstä Project > Administration > Analysis Method -näkymästä; muuten SonarCloud hylkää paikallisen analyysin duplikaattina.
+- `reports/`, `.sonar/`, `.scannerwork/`, `.astro/` ja muut generoidut analyysi-/build-kansiot pidetään pois gitistä.
+
 ## 2026-05-08: suomenkielisen sisällön i18n-rakenne
 
 - Englanti säilyy oletuskielenä ilman `/en/`-prefiksiä. Nykyisiä `/`, `/tools/`, `/articles/` ja `/articles/[slug]/` URL:eja ei saa siirtää.
@@ -183,3 +191,118 @@
 - Ranskankieliset tools-, artikkelilista-, kategoria- ja artikkelidetail-sivut julkaistiin Cloudflare Pagesiin komennolla `npx wrangler pages deploy ./dist --project-name knittoolsapp --branch main`. Deployment URL oli `https://4cbbac07.knittoolsapp.pages.dev`.
 - Tuotantoverifiointi `https://knittoolsapp.com`-domainissa palautti 200-statukset reiteille `/fr/outils/`, `/fr/outils/epaisseurs-de-fil/`, `/fr/articles/`, `/fr/articles/accessoires-tricot-indispensables/` ja `/fr/articles/categorie/fils-et-laine/`.
 - SEO-verifiointi vahvisti ranskankielisellä artikkelilla canonicalin, `og:locale`-arvon `fr_FR` sekä `fr`, `en` ja `x-default` hreflangit. Paikallinen ja live-sitemap ovat identtiset: 307 URLia, joista 51 ranskankielisiä.
+
+## 2026-05-13: hollanninkielisten työkalusivujen dev-only-rakenne
+
+- Hollanninkieliset tools-sivut lisättiin paikalliseen koodiin dev-only-drafteina `/nl/breitools/`-prefiksillä: `/opzetcalculator/`, `/garenberekenaar/`, `/naalddiktes/`, `/garendiktes/`, `/breiafkortingen/` ja `/maattabellen-breien/`.
+- `src/i18n/config.ts`, `src/i18n/ui.ts`, `Navbar`, `Footer`, `LocalizedToolPage`, `CastOnCalculator`, `YarnEstimator` ja `WpiIdentifier` tukevat nyt `nl`-kieltä tools-esikatselussa.
+- NL-reitit elävät `src/i18n/dutchTools.ts`-tiedostossa, eivät julkisessa `src/i18n/routes.ts`-alternates-lähteessä. Näin julkaistut sivut eivät saa `nl`-hreflang-linkkejä ennen hyväksyntää.
+- `src/pages/nl/breitools/[...slug].astro` palauttaa tuotantobuildissä tyhjän `getStaticPaths()`-listan, joten staattinen build ei generoi `/nl/breitools/`-outputia eikä sitemapia. Sivut on tarkoitettu vain paikalliseen dev-tarkistukseen.
+- Hollannin sisältö noudattaa `DUTCH_TRANSLATION_GUIDE.md`-linjaa: luonnollinen Alankomaiden hollanti neulojille, eurooppalaiset mittayksiköt ja desimaalipilkku näkyvissä luvuissa.
+
+## 2026-05-13: hollanninkielisten artikkelidraftien ensimmäinen erä
+
+- Ensimmäinen hollanninkielinen artikkelidraftierä lisättiin `src/content/articles/nl/`-kansioon `draft: true` -tilassa. Erä kattaa 10 englanninkielistä lähdeartikkelia aakkosjärjestyksen alusta.
+- Ensimmäisen erän translationKeyt: `at-the-same-time-knitting`, `best-knitting-apps`, `best-yarn-for-beginners`, `circular-vs-straight-vs-dpn`, `digital-vs-physical-row-counters`, `essential-knitting-tools`, `fix-dropped-stitches`, `free-knitting-calculators`, `gauge-doesnt-match` ja `gauge-swatch-step-by-step`.
+- `src/content.config.ts` hyväksyy nyt artikkelien `lang: nl` -arvon. `src/pages/nl/artikelen/[...slug].astro` tarjoaa hollanninkielisen dev-only catch-all-esikatselun artikkelilistalle, kategorioille ja artikkelidetaileille.
+- Hollanninkielisiä artikkeleita ei lisätty `articleTranslations`-karttaan eikä `src/i18n/routes.ts`-julkiseen route-lähteeseen. Tuotantobuildin kuuluu generoida nolla `/nl/artikelen/`-sivua ennen käyttäjän hyväksyntää.
+- Erässä lokalisoitiin näkyvät mitat ja hinnat eurooppalaisiksi (`cm`, `mm`, `m`, `g`, eurohinnat) ja desimaalipilkuiksi. Sisälinkit osoittavat hollanninkielisiin drafteihin vain silloin kun kohde on jo tässä erässä tai hollanninkielisellä tools-sivulla olemassa.
+
+## 2026-05-14: hollanninkielisten artikkelidraftien toinen erä
+
+- Toinen hollanninkielinen artikkelidraftierä lisättiin `src/content/articles/nl/`-kansioon `draft: true` -tilassa. Erä jatkaa englanninkielisten lähdeartikkelien aakkosjärjestystä ensimmäisen 10 artikkelin jälkeen.
+- Toisen erän translationKeyt: `how-many-stitches-to-cast-on`, `how-much-yarn-do-i-need`, `how-to-block-knitting`, `how-to-knit-hat`, `how-to-knit-socks`, `how-to-measure-knitting-gauge`, `how-to-read-knitting-pattern`, `how-to-read-yarn-label`, `how-to-substitute-yarn` ja `identify-mystery-yarn`.
+- Hollanninkieliset artikkelit pysyvät julkaisemattomina: `articleTranslations`-karttaan ei lisätty `nl`-polkuja, eikä hollannin artikkelipolkuja lisätty julkiseen `routes.ts`/hreflang-lähteeseen.
+- Ensimmäisen erän hollanninkielisten draftien sisälinkkejä päivitettiin osoittamaan toisen erän hollanninkielisiin vastineisiin silloin kun kohde on nyt olemassa. Muut artikkelisisälinkit jäävät englanninkielisiin julkaistuihin artikkeleihin, kunnes niiden hollanninkieliset vastineet lisätään myöhemmissä erissä.
+- Näkyvät mittayksiköt lokalisoitiin eurooppalaisiksi (`cm`, `mm`, `m`, `g`, eurohinnat), ja desimaalit kirjoitettiin hollannin desimaalipilkulla käyttäjälle näkyvässä tekstissä.
+
+## 2026-05-14: hollanninkielisten artikkelidraftien kolmas erä
+
+- Kolmas hollanninkielinen artikkelidraftierä lisättiin `src/content/articles/nl/`-kansioon `draft: true` -tilassa. Erä jatkaa englanninkielisten lähdeartikkelien aakkosjärjestystä toisen erän jälkeen.
+- Kolmannen erän translationKeyt: `increase-decrease-evenly`, `join-new-ball-of-yarn`, `knit-first-scarf`, `knitting-needle-materials`, `knitting-pattern-repeats`, `knitting-pattern-sizes-and-fit`, `needle-size-for-beginners`, `organize-knitting-projects`, `pick-up-stitches` ja `seam-knitted-pieces`.
+- Hollanninkieliset artikkelit pysyvät julkaisemattomina: `articleTranslations`-karttaan ei lisätty `nl`-polkuja, eikä hollannin artikkelipolkuja lisätty julkiseen `routes.ts`/hreflang-lähteeseen.
+- Ensimmäisen ja toisen erän hollanninkielisiä sisälinkkejä päivitettiin osoittamaan kolmannen erän hollanninkielisiin draft-vastineisiin silloin kun kohde on nyt olemassa. Vielä kääntämättömät neljännen erän kohteet jäävät englanninkielisiin julkaistuihin artikkeleihin.
+- Näkyvät mitat ja hinnat lokalisoitiin eurooppalaisiksi (`cm`, `mm`, `m`, eurohinnat) ja desimaalipilkuiksi lähdesisältöä muuttamatta.
+
+## 2026-05-14: hollanninkielisten artikkelidraftien viimeinen erä
+
+- Viimeinen hollanninkielinen artikkelidraftierä lisättiin `src/content/articles/nl/`-kansioon `draft: true` -tilassa. Hollanninkielisiä artikkelidrafteja on nyt 38, eli jokaisella englanninkielisellä artikkelilla on `translationKey`-vastine.
+- Viimeisen erän translationKeyt: `track-knitting-time`, `track-rows-knitting`, `what-is-gauge-in-knitting`, `why-knitting-curls`, `yarn-fibers-compared`, `yarn-for-blanket`, `yarn-for-sweater` ja `yarn-weight-substitution`.
+- Hollanninkieliset artikkelit pysyvät julkaisemattomina: `articleTranslations`-karttaan ei lisätty `nl`-polkuja, eikä hollannin artikkelipolkuja lisätty julkiseen `routes.ts`/hreflang-lähteeseen.
+- Kaikkien hollanninkielisten draftien artikkelisisälinkit päivitettiin osoittamaan hollanninkielisiin `/nl/artikelen/.../`-draft-vastineisiin, kun kohde on olemassa. Näkyvät lankamäärät ja mitat lokalisoitiin metreiksi, senteiksi, grammoiksi ja desimaalipilkuiksi lähdesisältöä muuttamatta.
+
+## 2026-05-14: hollanninkielisten sivujen julkaisuvalmistelu
+
+- Hollanninkieliset tools-sivut ja artikkelit muutettiin dev-only-rakenteesta julkisiksi tuotantosivuiksi. `src/pages/nl/breitools/[...slug].astro` ja `src/pages/nl/artikelen/[...slug].astro` eivät enää palauta tuotannossa tyhjää `getStaticPaths()`-listaa.
+- `src/i18n/routes.ts` on nyt myös NL-tools-, NL-artikkelilista- ja NL-kategoriareittien julkinen lähde. `src/i18n/dutchTools.ts` johtaa omat linkkinsä `routes.ts`-lähteestä.
+- `dutchArticlePreviewRoutes` korvattiin `dutchArticleRoutes`-rakenteella, joka johtaa polut `routes.ts`-lähteestä. `Footer`, NL-artikkelilistat ja kategoriat käyttävät julkaistuja NL-polkuja.
+- Kaikki 38 hollanninkielistä artikkelia muutettiin `draft: false` -tilaan ja niiden `nl`-polut lisättiin `articleTranslations`-karttaan, jotta canonicalit ja hreflangit osoittavat julkaistuihin hollanninkielisiin sivuihin.
+- Uudet tarkistamattomat hollanninkieliset artikkelit pidetään jatkossa `draft: true` -tilassa eikä niitä lisätä `articleTranslations`-karttaan ennen erillistä hyväksyntää.
+
+## 2026-05-14: tanskankielisten tools-sivujen dev-only-esikatselu
+
+- Tanskankieliset tools-sivut lisättiin paikalliseen koodiin dev-only-drafteina `/da/strikkevaerktoejer/`-prefiksillä: `/opslagsberegner/`, `/garnberegner/`, `/pindestoerrelser/`, `/garntykkelser/`, `/strikkeforkortelser/` ja `/stoerrelsestabeller-strik/`.
+- `src/i18n/config.ts`, `src/i18n/ui.ts`, `src/i18n/tools.ts`, `src/lib/categories.ts`, `Navbar`, `Footer`, `LocalizedToolPage`, `CastOnCalculator`, `YarnEstimator` ja `WpiIdentifier` tukevat nyt `da`-kieltä tools-esikatselussa.
+- DA-reitit elävät `src/i18n/danishTools.ts`-tiedostossa, eivät julkisessa `src/i18n/routes.ts`-alternates-lähteessä. Näin julkaistut sivut eivät saa `da`-hreflang-linkkejä ennen hyväksyntää.
+- `src/i18n/danishTools.ts` sisältää `danishToolAlternates`-rakenteen, joka lisää tanskan dev-only tools-sivuille oman `da` self-hreflangin yhdistämällä paikalliset DA-polut julkisiin muiden kielten alternates-polkuhin. Tätä ei pidä siirtää `routes.ts`-lähteeseen ennen tanskankielisten sivujen hyväksyntää.
+- `src/pages/da/strikkevaerktoejer/[...slug].astro` palauttaa tuotantobuildissä tyhjän `getStaticPaths()`-listan, joten staattinen build ei generoi `/da/strikkevaerktoejer/`-outputia eikä sitemapia. Sivut on tarkoitettu vain paikalliseen dev-tarkistukseen.
+- Tanskan sisältö noudattaa `DANISH_TRANSLATION_GUIDE.md`-linjaa: luonnollinen Tanskan tanska neulojille, eurooppalaiset mittayksiköt ja desimaalipilkku näkyvissä luvuissa. Tanskankielisiä artikkeleita ei lisätä `articleTranslations`-karttaan ennen käyttäjän hyväksyntää.
+
+## 2026-05-14: tanskankielisten artikkelidraftien ensimmäinen erä
+
+- Ensimmäinen tanskankielinen artikkelidraftierä lisättiin `src/content/articles/da/`-kansioon `draft: true` -tilassa. Erä sisältää 10 englanninkielisen lähdeartikkelin vastinetta translationKey-järjestyksen alusta.
+- Ensimmäisen erän translationKeyt: `at-the-same-time-knitting`, `best-knitting-apps`, `best-yarn-for-beginners`, `circular-vs-straight-vs-dpn`, `digital-vs-physical-row-counters`, `essential-knitting-tools`, `fix-dropped-stitches`, `free-knitting-calculators`, `what-is-gauge-in-knitting` ja `how-to-measure-knitting-gauge`.
+- `src/content.config.ts` hyväksyy nyt artikkelien `lang: da` -arvon. `articleTranslations`-karttaan ei lisätty `da`-polkuja, eikä julkiseen `routes.ts`-lähteeseen lisätty DA-artikkelireittejä.
+- Staattinen build ei generoi `/da/`-outputia. Tanskankieliset artikkelit pysyvät julkaisemattomina drafteina, kunnes käyttäjä hyväksyy ne ja julkaisurakenne avataan erikseen.
+
+## 2026-05-14: tanskankielisten artikkelidraftien toinen erä
+
+- Toinen tanskankielinen artikkelidraftierä lisättiin `src/content/articles/da/`-kansioon `draft: true` -tilassa. Tanskankielisiä artikkelidrafteja on nyt 20.
+- Toisen erän translationKeyt: `gauge-doesnt-match`, `gauge-swatch-step-by-step`, `how-many-stitches-to-cast-on`, `how-much-yarn-do-i-need`, `how-to-block-knitting`, `how-to-knit-hat`, `how-to-knit-socks`, `how-to-read-yarn-label`, `how-to-substitute-yarn` ja `identify-mystery-yarn`.
+- Tanskankieliset artikkelit pysyvät julkaisemattomina: `articleTranslations`-karttaan ei lisätty `da`-polkuja, eikä julkiseen `routes.ts`/hreflang-lähteeseen lisätty DA-artikkelireittejä.
+- Näkyvät mitat ja lankamäärät lokalisoitiin eurooppalaisiksi (`cm`, `mm`, `m`, `g`) ja desimaalipilkuiksi. Sisälinkit osoittavat tanskan `/da/artikler/.../`-draft-vastineisiin ja tanskan dev-only tools-sivuihin, kun kohde on tanskaksi nimetty.
+
+## 2026-05-14: tanskankielisten artikkelidraftien kolmas erä
+
+- Kolmas tanskankielinen artikkelidraftierä lisättiin `src/content/articles/da/`-kansioon `draft: true` -tilassa. Tanskankielisiä artikkelidrafteja on nyt 30.
+- Kolmannen erän translationKeyt: `increase-decrease-evenly`, `join-new-ball-of-yarn`, `knit-first-scarf`, `knitting-needle-materials`, `knitting-pattern-repeats`, `knitting-pattern-sizes-and-fit`, `needle-size-for-beginners`, `organize-knitting-projects`, `how-to-read-knitting-pattern` ja `pick-up-stitches`.
+- Tanskankieliset artikkelit pysyvät julkaisemattomina: `articleTranslations`-karttaan ei lisätty `da`-polkuja, eikä julkiseen `routes.ts`/hreflang-lähteeseen lisätty DA-artikkelireittejä.
+- Kolmannessa erässä näkyvät mitat, pindestørrelser, længder ja hinnat lokalisoitiin tanskalaiselle lukijalle (`cm`, `mm`, `m`, `g`, kr.) ja desimaalipilkuiksi. Sisälinkit osoittavat tanskan `/da/artikler/.../`-draft-vastineisiin ja tanskan dev-only tools-sivuihin, kun kohde on tanskaksi nimetty.
+
+## 2026-05-14: tanskankielisten artikkelidraftien neljäs erä
+
+- Neljäs ja viimeinen alkuperäisen eräjaon mukainen tanskankielinen artikkelidraftierä lisättiin `src/content/articles/da/`-kansioon `draft: true` -tilassa. Tanskankielisiä artikkelidrafteja on nyt 38 eli kaikki englanninkieliset artikkelit kattava draft-vastineisto.
+- Neljännen erän translationKeyt: `seam-knitted-pieces`, `track-knitting-time`, `track-rows-knitting`, `why-knitting-curls`, `yarn-fibers-compared`, `yarn-for-blanket`, `yarn-for-sweater` ja `yarn-weight-substitution`.
+- Tanskankieliset artikkelit pysyvät julkaisemattomina: `articleTranslations`-karttaan ei lisätty `da`-polkuja, eikä julkiseen `routes.ts`/hreflang-lähteeseen lisätty DA-artikkelireittejä.
+- Neljännessä erässä lanka- ja projektimäärät lokalisoitiin metriyksiköihin (`cm`, `m`, `g`), eurooppalaiseen lukumuotoon ja tanskalaisiin neuletermeihin. Sisälinkit osoittavat tanskan `/da/artikler/.../`-draft-vastineisiin ja tanskan dev-only tools-sivuihin, kun kohde on tanskaksi nimetty.
+
+### 2026-05-14 - Tanskan artikkelireittien dev-preview
+- Lisättiin `src/pages/da/artikler/[...slug].astro`, joka näyttää tanskankielisen artikkelilistan, kategoriat ja yksittäiset artikkelidraftit paikallisessa dev-ympäristössä.
+- `src/i18n/articles.ts` sisältää nyt `danishArticleRoutes`-dev-preview-polut, `isDanishArticle`-tarkistuksen sekä tanskan artikkeli- ja kategoriarouttaushelperit. `getArticlePath()` ja `getArticlesIndexPath()` palauttavat `lang="da"`-kontekstissa `/da/artikler/.../`-fallback-polut.
+- Tuotantobuild palauttaa DA-artikkelireitille tyhjän `getStaticPaths()`-listan. `da`-polkuja ei lisätty `articleTranslations`-karttaan eikä julkiseen `routes.ts`/hreflang-lähteeseen ennen hyväksyntää.
+
+### 2026-05-15 - Tanskan artikkelien SEO-tarkistus, erä 1
+- Ensimmäisen tanskankielisen artikkelierän SEO-frontmatter tarkistettiin: 10 artikkelia pysyvät `draft: true` -tilassa, `lang: da` ja `translationKey` vastaavat englanninkielisiä lähdeartikkeleita.
+- Korjattiin `bedste-strikkeapps.md`-otsikko lyhyemmäksi ja `hvad-er-strikkefasthed.md`-metakuvaus yli 120 merkin laatualarajan. Ensimmäisen erän title-pituudet ovat enintään 60 merkkiä muodossa `<title> | KnitTools`, ja descriptionit ovat 120-155 merkkiä.
+- Lisättiin `getDanishArticleAlternates(article)` helperiin `src/i18n/articles.ts` ja vaihdettiin `src/pages/da/artikler/[...slug].astro` käyttämään sitä artikkelidetailissa. Helper lisää vain dev-preview-sivun `da` self-hreflangin fallback-polusta eikä lisää `da`-polkuja `articleTranslations`-karttaan.
+
+### 2026-05-15 - Tanskan artikkelien SEO-tarkistus, erä 2
+- Toisen tanskankielisen artikkelierän SEO-frontmatter tarkistettiin translationKey-järjestyksen artikkeleille `gauge-doesnt-match` - `identify-mystery-yarn`. Kaikki 10 artikkelia pysyvät `draft: true` -tilassa, `lang: da` ja `translationKey` vastaavat englanninkielisiä lähdeartikkeleita.
+- Korjattiin viiden artikkelin SEO-frontmatter: `hvor-mange-masker-skal-du-slaa-op.md`, `hvor-meget-garn-skal-du-bruge.md`, `strik-hue-metoder.md`, `strik-stroemper-stroempeopskrift.md` ja `laes-banderole-symboler.md`. Korjaukset koskivat liian lyhyitä metakuvauksia sekä yli 60 merkin titlejä muodossa `<title> | KnitTools`.
+- Toisen erän title-pituudet ovat 38-59 merkkiä ja descriptionit 120-147 merkkiä. Dev-renderöinnissä kaikilla 10 DA-artikkelidraftilla on oikea canonical, `<html lang="da">`, `da` self-hreflang ja `x-default`; tuotantobuild ei generoi `/da/`-outputia.
+
+### 2026-05-15 - Tanskan artikkelien SEO-tarkistus, erä 3
+- Kolmannen tanskankielisen artikkelierän SEO-frontmatter tarkistettiin translationKey-järjestyksen artikkeleille `increase-decrease-evenly` - `pick-up-stitches`. Kaikki 10 artikkelia pysyvät `draft: true` -tilassa, `lang: da` ja `translationKey` vastaavat englanninkielisiä lähdeartikkeleita.
+- Korjattiin `fordel-udtagninger-indtagninger-jaevnt.md`-artikkelin metakuvaus yli 120 merkin laatualarajan. Muut kolmannen erän title- ja description-pituudet olivat jo sovituissa rajoissa.
+- Kolmannen erän title-pituudet ovat 37-56 merkkiä ja descriptionit 120-150 merkkiä. Dev-renderöinnissä kaikilla 10 DA-artikkelidraftilla on oikea canonical, `<html lang="da">`, `da` self-hreflang ja `x-default`; tuotantobuild ei generoi `/da/`-outputia.
+
+### 2026-05-15 - Tanskan artikkelien SEO-tarkistus, erä 4
+- Neljännen tanskankielisen artikkelierän SEO-frontmatter tarkistettiin translationKey-järjestyksen artikkeleille `seam-knitted-pieces` - `yarn-weight-substitution`. Kaikki 8 artikkelia pysyvät `draft: true` -tilassa, `lang: da` ja `translationKey` vastaavat englanninkielisiä lähdeartikkeleita.
+- Korjattiin `hvor-meget-garn-til-sweater.md`-artikkelin metakuvaus alle 155 merkin ylärajan. Muut neljännen erän title- ja description-pituudet olivat jo sovituissa rajoissa.
+- Neljännen erän title-pituudet ovat 44-58 merkkiä ja descriptionit 127-154 merkkiä. Dev-renderöinnissä kaikilla 8 DA-artikkelidraftilla on oikea canonical, `<html lang="da">`, `da` self-hreflang ja `x-default`; tuotantobuild ei generoi `/da/`-outputia.
+
+### 2026-05-15 - Tanskankielisten sivujen julkaisuvalmistelu
+- Tanskankieliset tools- ja artikkelireitit avattiin julkisiksi tuotantobuildiin: `src/i18n/routes.ts` sisältää nyt DA tools-, artikkelilista- ja kategoriapolut, ja `src/pages/da/**/[...slug].astro` generoi reitit myös tuotannossa.
+- Kaikki 38 `src/content/articles/da/`-artikkelia muutettiin `draft: false` -tilaan ja lisättiin `articleTranslations`-karttaan `da`-poluilla, jotta canonicalit ja hreflangit käyttävät samaa lähdettä kuin muissa julkisissa kielissä.
+- Tanskan tools-linkit johdetaan nyt `routes.ts`-lähteestä `src/i18n/danishTools.ts`-helperissä. Kuollut dev-only `getDanishArticleAlternates(article)` poistettiin, koska julkaistut artikkelit käyttävät yleistä `getArticleAlternates()`-logiikkaa.
+- Build ja live-tarkistus vahvistivat 51 tanskankielistä tuotantosivua: kaikki palauttavat 200-statuksen `https://knittoolsapp.com/da/...`-osoitteissa, canonical osoittaa omaan URLiin, `<html lang="da">` on oikein, sitemap sisältää DA-polut ja sisäiset linkit sekä buildatut assetit ratkeavat. Tuotantodeploy tehtiin Cloudflare Pagesiin `main`-ympäristöön deploymentilla `75deb286-7a42-4264-b883-8cdfebbbdde1`.

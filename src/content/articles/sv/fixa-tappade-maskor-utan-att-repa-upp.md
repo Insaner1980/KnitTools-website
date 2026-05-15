@@ -4,11 +4,18 @@ description: "Rädda tappade maskor med en virknål. Går igenom slätstickning,
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 3
-tags: ["fixa tappad maska stickning", "plocka upp tappad maska", "rädda tappad maska virknål", "tappad maska stege"]
+tags:
+  [
+    "fixa tappad maska stickning",
+    "plocka upp tappad maska",
+    "rädda tappad maska virknål",
+    "tappad maska stege",
+  ]
 draft: false
 lang: sv
 translationKey: "fix-dropped-stitches"
 ---
+
 En tappad maska betyder inte att du måste repa upp hela arbetet. I de flesta fall kan du rädda den med en virknål på under en minut. Maskan glider av stickan, och om du inte fångar den löper den ner genom varven under som en maska i en strumpa. Men varje "pinne" i den där stegen är en garntråd som väntar på att dras tillbaka genom maskan, ett varv i taget, tills maskan är tillbaka på stickan.
 
 För att fixa en tappad maska: för in en virknål genom den lösa öglan, fånga den horisontella tråden bakom den och dra tråden igenom. Upprepa för varje varv som maskan har löpt ner. Ha en virknål i ungefär samma storlek som stickorna i tillbehörsväskan. Du kommer att använda den.

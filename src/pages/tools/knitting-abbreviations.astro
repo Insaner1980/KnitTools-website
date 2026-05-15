@@ -1,18 +1,18 @@
 ---
-import PageLayout from '../../layouts/PageLayout.astro';
-import { PRICING } from '../../config/pricing';
-import RegionalPrice from '../../components/RegionalPrice.astro';
-import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
-import { routes } from '../../i18n/routes';
+import PageLayout from "../../layouts/PageLayout.astro";
+import { PRICING } from "../../config/pricing";
+import RegionalPrice from "../../components/RegionalPrice.astro";
+import RegionalPricingNote from "../../components/RegionalPricingNote.astro";
+import { routes } from "../../i18n/routes";
 
 type Category =
-  | 'cast-on-bind-off'
-  | 'increases'
-  | 'decreases'
-  | 'cables'
-  | 'lace'
-  | 'general'
-  | 'stitch-patterns';
+  | "cast-on-bind-off"
+  | "increases"
+  | "decreases"
+  | "cables"
+  | "lace"
+  | "general"
+  | "stitch-patterns";
 
 interface Abbreviation {
   abbr: string;
@@ -21,101 +21,137 @@ interface Abbreviation {
 }
 
 const categoryLabels: Record<Category, string> = {
-  'cast-on-bind-off': 'Cast On/Bind Off',
-  'increases': 'Increases',
-  'decreases': 'Decreases',
-  'cables': 'Cables',
-  'lace': 'Lace',
-  'general': 'General',
-  'stitch-patterns': 'Stitch Patterns',
+  "cast-on-bind-off": "Cast On/Bind Off",
+  increases: "Increases",
+  decreases: "Decreases",
+  cables: "Cables",
+  lace: "Lace",
+  general: "General",
+  "stitch-patterns": "Stitch Patterns",
 };
 
 const abbreviations: Abbreviation[] = [
   // Cast On/Bind Off
-  { abbr: 'CO', def: 'Cast on', categories: ['cast-on-bind-off'] },
-  { abbr: 'BO', def: 'Bind off (US) / Cast off (UK)', categories: ['cast-on-bind-off'] },
+  { abbr: "CO", def: "Cast on", categories: ["cast-on-bind-off"] },
+  {
+    abbr: "BO",
+    def: "Bind off (US) / Cast off (UK)",
+    categories: ["cast-on-bind-off"],
+  },
 
   // General
-  { abbr: 'k', def: 'Knit', categories: ['general'] },
-  { abbr: 'p', def: 'Purl', categories: ['general'] },
-  { abbr: 'st(s)', def: 'Stitch(es)', categories: ['general'] },
-  { abbr: 'RS', def: 'Right side', categories: ['general'] },
-  { abbr: 'WS', def: 'Wrong side', categories: ['general'] },
-  { abbr: 'rep', def: 'Repeat', categories: ['general'] },
-  { abbr: 'beg', def: 'Beginning', categories: ['general'] },
-  { abbr: 'rem', def: 'Remaining', categories: ['general'] },
-  { abbr: 'cont', def: 'Continue', categories: ['general'] },
-  { abbr: 'alt', def: 'Alternate', categories: ['general'] },
-  { abbr: 'approx', def: 'Approximately', categories: ['general'] },
-  { abbr: 'tbl', def: 'Through back loop', categories: ['general'] },
-  { abbr: 'wyif', def: 'With yarn in front', categories: ['general'] },
-  { abbr: 'wyib', def: 'With yarn in back', categories: ['general'] },
-  { abbr: 'sl', def: 'Slip', categories: ['general'] },
-  { abbr: 'sl st', def: 'Slip stitch', categories: ['general'] },
-  { abbr: 'pm', def: 'Place marker', categories: ['general'] },
-  { abbr: 'sm', def: 'Slip marker', categories: ['general'] },
-  { abbr: 'MC', def: 'Main color', categories: ['general'] },
-  { abbr: 'CC', def: 'Contrast color', categories: ['general'] },
-  { abbr: 'dpn(s)', def: 'Double-pointed needle(s)', categories: ['general'] },
-  { abbr: 'cn', def: 'Cable needle', categories: ['general'] },
-  { abbr: 'rnd(s)', def: 'Round(s)', categories: ['general'] },
+  { abbr: "k", def: "Knit", categories: ["general"] },
+  { abbr: "p", def: "Purl", categories: ["general"] },
+  { abbr: "st(s)", def: "Stitch(es)", categories: ["general"] },
+  { abbr: "RS", def: "Right side", categories: ["general"] },
+  { abbr: "WS", def: "Wrong side", categories: ["general"] },
+  { abbr: "rep", def: "Repeat", categories: ["general"] },
+  { abbr: "beg", def: "Beginning", categories: ["general"] },
+  { abbr: "rem", def: "Remaining", categories: ["general"] },
+  { abbr: "cont", def: "Continue", categories: ["general"] },
+  { abbr: "alt", def: "Alternate", categories: ["general"] },
+  { abbr: "approx", def: "Approximately", categories: ["general"] },
+  { abbr: "tbl", def: "Through back loop", categories: ["general"] },
+  { abbr: "wyif", def: "With yarn in front", categories: ["general"] },
+  { abbr: "wyib", def: "With yarn in back", categories: ["general"] },
+  { abbr: "sl", def: "Slip", categories: ["general"] },
+  { abbr: "sl st", def: "Slip stitch", categories: ["general"] },
+  { abbr: "pm", def: "Place marker", categories: ["general"] },
+  { abbr: "sm", def: "Slip marker", categories: ["general"] },
+  { abbr: "MC", def: "Main color", categories: ["general"] },
+  { abbr: "CC", def: "Contrast color", categories: ["general"] },
+  { abbr: "dpn(s)", def: "Double-pointed needle(s)", categories: ["general"] },
+  { abbr: "cn", def: "Cable needle", categories: ["general"] },
+  { abbr: "rnd(s)", def: "Round(s)", categories: ["general"] },
 
   // Increases
-  { abbr: 'M1', def: 'Make one (generic)', categories: ['increases'] },
-  { abbr: 'M1L', def: 'Make one left', categories: ['increases'] },
-  { abbr: 'M1R', def: 'Make one right', categories: ['increases'] },
-  { abbr: 'kfb', def: 'Knit front and back', categories: ['increases'] },
-  { abbr: 'pfb', def: 'Purl front and back', categories: ['increases'] },
-  { abbr: 'yo', def: 'Yarn over', categories: ['increases', 'lace'] },
-  { abbr: 'inc', def: 'Increase', categories: ['increases'] },
+  { abbr: "M1", def: "Make one (generic)", categories: ["increases"] },
+  { abbr: "M1L", def: "Make one left", categories: ["increases"] },
+  { abbr: "M1R", def: "Make one right", categories: ["increases"] },
+  { abbr: "kfb", def: "Knit front and back", categories: ["increases"] },
+  { abbr: "pfb", def: "Purl front and back", categories: ["increases"] },
+  { abbr: "yo", def: "Yarn over", categories: ["increases", "lace"] },
+  { abbr: "inc", def: "Increase", categories: ["increases"] },
 
   // Decreases
-  { abbr: 'k2tog', def: 'Knit two together', categories: ['decreases', 'lace'] },
-  { abbr: 'p2tog', def: 'Purl two together', categories: ['decreases'] },
-  { abbr: 'ssk', def: 'Slip, slip, knit (left-leaning decrease)', categories: ['decreases', 'lace'] },
-  { abbr: 'skp', def: 'Slip, knit, pass slipped stitch over', categories: ['decreases'] },
-  { abbr: 'sk2p', def: 'Slip 1, knit 2 together, pass slipped stitch over', categories: ['decreases', 'lace'] },
-  { abbr: 's2kp', def: 'Slip 2, knit 1, pass 2 slipped stitches over (centered double decrease)', categories: ['decreases'] },
-  { abbr: 'CDD', def: 'Centered double decrease', categories: ['decreases'] },
-  { abbr: 'psso', def: 'Pass slipped stitch over', categories: ['decreases'] },
-  { abbr: 'dec', def: 'Decrease', categories: ['decreases'] },
+  {
+    abbr: "k2tog",
+    def: "Knit two together",
+    categories: ["decreases", "lace"],
+  },
+  { abbr: "p2tog", def: "Purl two together", categories: ["decreases"] },
+  {
+    abbr: "ssk",
+    def: "Slip, slip, knit (left-leaning decrease)",
+    categories: ["decreases", "lace"],
+  },
+  {
+    abbr: "skp",
+    def: "Slip, knit, pass slipped stitch over",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "sk2p",
+    def: "Slip 1, knit 2 together, pass slipped stitch over",
+    categories: ["decreases", "lace"],
+  },
+  {
+    abbr: "s2kp",
+    def: "Slip 2, knit 1, pass 2 slipped stitches over (centered double decrease)",
+    categories: ["decreases"],
+  },
+  { abbr: "CDD", def: "Centered double decrease", categories: ["decreases"] },
+  { abbr: "psso", def: "Pass slipped stitch over", categories: ["decreases"] },
+  { abbr: "dec", def: "Decrease", categories: ["decreases"] },
 
   // Cables
-  { abbr: 'C4F', def: 'Cable 4 front', categories: ['cables'] },
-  { abbr: 'C4B', def: 'Cable 4 back', categories: ['cables'] },
-  { abbr: 'C6F', def: 'Cable 6 front', categories: ['cables'] },
-  { abbr: 'C6B', def: 'Cable 6 back', categories: ['cables'] },
-  { abbr: 'T2F', def: 'Twist 2 front', categories: ['cables'] },
-  { abbr: 'T2B', def: 'Twist 2 back', categories: ['cables'] },
+  { abbr: "C4F", def: "Cable 4 front", categories: ["cables"] },
+  { abbr: "C4B", def: "Cable 4 back", categories: ["cables"] },
+  { abbr: "C6F", def: "Cable 6 front", categories: ["cables"] },
+  { abbr: "C6B", def: "Cable 6 back", categories: ["cables"] },
+  { abbr: "T2F", def: "Twist 2 front", categories: ["cables"] },
+  { abbr: "T2B", def: "Twist 2 back", categories: ["cables"] },
 
   // Stitch Patterns
-  { abbr: 'St st', def: 'Stockinette stitch / Stocking stitch (UK)', categories: ['stitch-patterns'] },
-  { abbr: 'g st', def: 'Garter stitch', categories: ['stitch-patterns'] },
-  { abbr: 'rev St st', def: 'Reverse stockinette stitch', categories: ['stitch-patterns'] },
-  { abbr: 'rib', def: 'Ribbing', categories: ['stitch-patterns'] },
-  { abbr: 'moss st', def: 'Moss stitch', categories: ['stitch-patterns'] },
-  { abbr: 'seed st', def: 'Seed stitch', categories: ['stitch-patterns'] },
-  { abbr: 'MB', def: 'Make bobble (pattern-specific)', categories: ['stitch-patterns'] },
+  {
+    abbr: "St st",
+    def: "Stockinette stitch / Stocking stitch (UK)",
+    categories: ["stitch-patterns"],
+  },
+  { abbr: "g st", def: "Garter stitch", categories: ["stitch-patterns"] },
+  {
+    abbr: "rev St st",
+    def: "Reverse stockinette stitch",
+    categories: ["stitch-patterns"],
+  },
+  { abbr: "rib", def: "Ribbing", categories: ["stitch-patterns"] },
+  { abbr: "moss st", def: "Moss stitch", categories: ["stitch-patterns"] },
+  { abbr: "seed st", def: "Seed stitch", categories: ["stitch-patterns"] },
+  {
+    abbr: "MB",
+    def: "Make bobble (pattern-specific)",
+    categories: ["stitch-patterns"],
+  },
 ];
 
-const filterOrder: Array<Category | 'all'> = [
-  'all',
-  'cast-on-bind-off',
-  'increases',
-  'decreases',
-  'cables',
-  'lace',
-  'general',
-  'stitch-patterns',
+const filterOrder: Array<Category | "all"> = [
+  "all",
+  "cast-on-bind-off",
+  "increases",
+  "decreases",
+  "cables",
+  "lace",
+  "general",
+  "stitch-patterns",
 ];
 
 const faqs = [
   {
-    q: 'Are knitting abbreviations the same in US and UK patterns?',
+    q: "Are knitting abbreviations the same in US and UK patterns?",
     a: 'Most are identical. k, p, yo, and k2tog mean the same thing on both sides of the Atlantic. The differences cluster around a handful of terms: US "bind off" is UK "cast off," US "gauge" is UK "tension," and US "stockinette" is UK "stocking stitch." And "seed stitch" and "moss stitch" can swap meanings depending on the source, so trust the stitch definition over the name. When a pattern doesn\'t specify which system it uses, the designer\'s location is usually the best clue.',
   },
   {
-    q: 'What does the asterisk mean in a knitting pattern?',
+    q: "What does the asterisk mean in a knitting pattern?",
     a: 'It marks a repeat. Everything between the asterisk and the next matching instruction (usually "rep from *") gets worked over and over across the row. Brackets and parentheses do the same job, grouping a set of actions that repeat a specified number of times. Missing a repeat marker is one of the fastest ways to end up with the wrong stitch count.',
   },
   {
@@ -124,7 +160,7 @@ const faqs = [
   },
   {
     q: "What's the difference between ssk and skp?",
-    a: 'Both are left-leaning decreases, and they produce nearly identical results in finished fabric. ssk is the modern standard and shows up in most current patterns. skp appears more often in older patterns. The execution differs slightly, so follow whichever the pattern specifies rather than substituting on the fly.',
+    a: "Both are left-leaning decreases, and they produce nearly identical results in finished fabric. ssk is the modern standard and shows up in most current patterns. skp appears more often in older patterns. The execution differs slightly, so follow whichever the pattern specifies rather than substituting on the fly.",
   },
 ];
 ---
@@ -136,30 +172,37 @@ const faqs = [
   alternates={routes.tool.knittingAbbreviations}
   showStripe={false}
 >
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Knitting Abbreviations Glossary",
-    "description": "Search any knitting abbreviation or find terms by technique name.",
-    "url": "https://knittoolsapp.com/tools/knitting-abbreviations/",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "Any",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    }
-  })} />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      name: "Knitting Abbreviations Glossary",
+      description:
+        "Search any knitting abbreviation or find terms by technique name.",
+      url: "https://knittoolsapp.com/tools/knitting-abbreviations/",
+      applicationCategory: "UtilityApplication",
+      operatingSystem: "Any",
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "USD",
+      },
+    })}
+  />
 
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqs.map(f => ({
-      "@type": "Question",
-      "name": f.q,
-      "acceptedAnswer": { "@type": "Answer", "text": f.a },
-    })),
-  })} />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqs.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    })}
+  />
 
   <!-- 1. Tool hero -->
   <section class="tool-hero">
@@ -167,49 +210,66 @@ const faqs = [
       <p class="eyebrow">
         <a href="/tools/" class="eyebrow-back">← All tools</a>
       </p>
-      <h1 class="gs-h1" aria-label="Knitting Abbreviations"><span class="h1-chars">Knitting Abbreviations</span></h1>
-      <p class="hero-intro gs-hero">Search an abbreviation to see what it means, or search a technique to find its abbreviations.</p>
+      <h1 class="gs-h1" aria-label="Knitting Abbreviations">
+        <span class="h1-chars">Knitting Abbreviations</span>
+      </h1>
+      <p class="hero-intro gs-hero">
+        Search an abbreviation to see what it means, or search a technique to
+        find its abbreviations.
+      </p>
 
       <div class="form-card variant-brown is-wide">
-      <div class="abbr-wrapper gs-form">
-        <input
-          type="text"
-          id="abbr-search"
-          class="search-input"
-          placeholder='Search abbreviation or technique (e.g. "ssk", "decrease")'
-          autocomplete="off"
-        />
+        <div class="abbr-wrapper gs-form">
+          <input
+            type="text"
+            id="abbr-search"
+            class="search-input"
+            placeholder='Search abbreviation or technique (e.g. "ssk", "decrease")'
+            autocomplete="off"
+          />
 
-        <div class="category-filters" role="group" aria-label="Filter by category">
-          {filterOrder.map((cat, i) => (
-            <button
-              type="button"
-              class={`cat-btn${i === 0 ? ' is-active' : ''}`}
-              data-cat={cat}
-              aria-pressed={i === 0 ? 'true' : 'false'}
-            >
-              {cat === 'all' ? 'All' : categoryLabels[cat as Category]}
-            </button>
-          ))}
+          <div
+            class="category-filters"
+            role="group"
+            aria-label="Filter by category"
+          >
+            {
+              filterOrder.map((cat, i) => (
+                <button
+                  type="button"
+                  class={`cat-btn${i === 0 ? " is-active" : ""}`}
+                  data-cat={cat}
+                  aria-pressed={i === 0 ? "true" : "false"}
+                >
+                  {cat === "all" ? "All" : categoryLabels[cat as Category]}
+                </button>
+              ))
+            }
+          </div>
+
+          <ul class="abbr-list" id="abbr-list">
+            {
+              abbreviations.map((item) => (
+                <li
+                  class="abbr-row"
+                  data-abbr={item.abbr.toLowerCase()}
+                  data-def={item.def.toLowerCase()}
+                  data-cats={item.categories.join(" ")}
+                  data-catlabels={item.categories
+                    .map((c) => categoryLabels[c].toLowerCase())
+                    .join(" ")}
+                >
+                  <span class="abbr-term">{item.abbr}</span>
+                  <span class="abbr-def">{item.def}</span>
+                </li>
+              ))
+            }
+          </ul>
+
+          <p class="no-results" id="no-results" hidden>
+            No matching abbreviations found.
+          </p>
         </div>
-
-        <ul class="abbr-list" id="abbr-list">
-          {abbreviations.map(item => (
-            <li
-              class="abbr-row"
-              data-abbr={item.abbr.toLowerCase()}
-              data-def={item.def.toLowerCase()}
-              data-cats={item.categories.join(' ')}
-              data-catlabels={item.categories.map(c => categoryLabels[c].toLowerCase()).join(' ')}
-            >
-              <span class="abbr-term">{item.abbr}</span>
-              <span class="abbr-def">{item.def}</span>
-            </li>
-          ))}
-        </ul>
-
-        <p class="no-results" id="no-results" hidden>No matching abbreviations found.</p>
-      </div>
       </div>
     </div>
   </section>
@@ -218,39 +278,189 @@ const faqs = [
   <section class="seo-content">
     <div class="content-inner">
       <h2 class="gs-clip-reveal">How abbreviations read in context</h2>
-      <p class="gs-fade-up">Most abbreviations sort themselves into a few groups, and recognizing the group helps more than memorizing individual terms.</p>
-      <p class="gs-fade-up"><strong>Basic stitches</strong> are single letters. <code>k</code> is knit, <code>p</code> is purl. A number after the letter tells you how many: <code>k5</code> means knit five stitches. That's the whole system for the simplest ones.</p>
-      <p class="gs-fade-up"><strong>Combined actions</strong> stack letters and numbers. <code>k2tog</code> means knit two stitches together. <code>p2tog</code>, same idea but purled. A lot of knitting shorthand works this way. Slow it down, read it literally.</p>
-      <p class="gs-fade-up"><strong>Directional markers</strong> tell you which side of the fabric you're on. <code>RS</code> is right side, <code>WS</code> is wrong side. Matters because the same hand movement produces a different result depending on whether you're working the public face or the back.</p>
-      <p class="gs-fade-up"><strong>Shaping abbreviations</strong> control how fabric grows or narrows. <code>M1</code>, <code>M1L</code>, <code>M1R</code>, and <code>kfb</code> add stitches. <code>k2tog</code> and <code>ssk</code> remove them. Knowing which ones lean left, which lean right, and which just add or subtract makes patterns easier to read at a glance.</p>
-      <p class="gs-fade-up"><strong>Structure terms</strong> keep the instructions compact. <code>rep</code>, <code>st(s)</code>, <code>beg</code>, <code>rem</code>, <code>cont</code>. Scaffolding, not stitches.</p>
-      <p class="gs-fade-up">Punctuation matters too. Asterisks and semicolons aren't decoration. <code>*k2, p2; rep from *</code> means everything between the asterisk and the semicolon repeats. Brackets and parentheses work similarly, grouping a set of actions that get repeated a specified number of times. Missing a repeat marker is one of the fastest ways to end up with the wrong stitch count.</p>
+      <p class="gs-fade-up">
+        Most abbreviations sort themselves into a few groups, and recognizing
+        the group helps more than memorizing individual terms.
+      </p>
+      <p class="gs-fade-up">
+        <strong>Basic stitches</strong> are single letters. <code>k</code> is knit,
+        <code>p</code> is purl. A number after the letter tells you how many: <code
+          >k5</code
+        > means knit five stitches. That's the whole system for the simplest ones.
+      </p>
+      <p class="gs-fade-up">
+        <strong>Combined actions</strong> stack letters and numbers. <code
+          >k2tog</code
+        > means knit two stitches together. <code>p2tog</code>, same idea but
+        purled. A lot of knitting shorthand works this way. Slow it down, read
+        it literally.
+      </p>
+      <p class="gs-fade-up">
+        <strong>Directional markers</strong> tell you which side of the fabric you're
+        on. <code>RS</code> is right side, <code>WS</code> is wrong side. Matters
+        because the same hand movement produces a different result depending on whether
+        you're working the public face or the back.
+      </p>
+      <p class="gs-fade-up">
+        <strong>Shaping abbreviations</strong> control how fabric grows or narrows.
+        <code>M1</code>, <code>M1L</code>, <code>M1R</code>, and <code>kfb</code
+        > add stitches. <code>k2tog</code> and <code>ssk</code> remove them. Knowing
+        which ones lean left, which lean right, and which just add or subtract makes
+        patterns easier to read at a glance.
+      </p>
+      <p class="gs-fade-up">
+        <strong>Structure terms</strong> keep the instructions compact. <code
+          >rep</code
+        >, <code>st(s)</code>, <code>beg</code>, <code>rem</code>, <code
+          >cont</code
+        >. Scaffolding, not stitches.
+      </p>
+      <p class="gs-fade-up">
+        Punctuation matters too. Asterisks and semicolons aren't decoration. <code
+          >*k2, p2; rep from *</code
+        > means everything between the asterisk and the semicolon repeats. Brackets
+        and parentheses work similarly, grouping a set of actions that get repeated
+        a specified number of times. Missing a repeat marker is one of the fastest
+        ways to end up with the wrong stitch count.
+      </p>
 
       <h2 class="gs-clip-reveal">US vs UK differences</h2>
-      <p class="gs-fade-up">A few terms shift across the Atlantic. The big ones:</p>
-      <p class="gs-fade-up">US "bind off" is UK "cast off." US "gauge" is UK "tension." US "stockinette" is UK "stocking stitch." And the classic trap: "seed stitch" and "moss stitch" can swap meanings depending on the source, so a written stitch definition beats the name alone every time.</p>
-      <p class="gs-fade-up">Most common abbreviations (<code>k</code>, <code>p</code>, <code>yo</code>, <code>k2tog</code>) are the same in both systems. If a pattern doesn't specify US or UK conventions, the stitch definitions section usually clears it up. When there's no stitch definition section at all, the designer's location is your best clue.</p>
+      <p class="gs-fade-up">
+        A few terms shift across the Atlantic. The big ones:
+      </p>
+      <p class="gs-fade-up">
+        US "bind off" is UK "cast off." US "gauge" is UK "tension." US
+        "stockinette" is UK "stocking stitch." And the classic trap: "seed
+        stitch" and "moss stitch" can swap meanings depending on the source, so
+        a written stitch definition beats the name alone every time.
+      </p>
+      <p class="gs-fade-up">
+        Most common abbreviations (<code>k</code>, <code>p</code>, <code
+          >yo</code
+        >, <code>k2tog</code>) are the same in both systems. If a pattern
+        doesn't specify US or UK conventions, the stitch definitions section
+        usually clears it up. When there's no stitch definition section at all,
+        the designer's location is your best clue.
+      </p>
 
       <h2 class="gs-clip-reveal">Pattern-specific abbreviations</h2>
-      <p class="gs-fade-up">This is where things get interesting, because plenty of abbreviations won't appear in any standard list. That's normal. They're custom shortcuts invented by the designer for that specific pattern, and they should be defined near the beginning of the instructions.</p>
-      <p class="gs-fade-up">Cable patterns are the biggest source of these. A chart key might define <code>C4F</code>, <code>C6B</code>, or something more specific to the design. The number typically tells you how many stitches cross. The letter at the end (F or B) tells you the direction: front or back, referring to where you hold the cable needle while crossing. But designers aren't always consistent with that convention. Some use L and R instead. Some number the total stitches involved, others number only the stitches that travel. The pattern's own definition is what counts.</p>
-      <p class="gs-fade-up">Lace patterns build compound shortcuts too. One pattern writes <code>CDD</code> for a centered double decrease. Another spells the same thing out as <code>sl2-k1-p2sso</code>. A third uses <code>s2kp</code>. All three point at the same basic idea, but the exact execution can differ between designers, and some of these abbreviations get used for slightly different decreases depending on the source. If an abbreviation looks unfamiliar, check the pattern key before assuming it matches the most common version. Pattern keys exist for exactly this reason.</p>
-      <p class="gs-fade-up">Colorwork patterns sometimes abbreviate color names or assignments. You might see MC (main color) and CC (contrast color), or CC1 and CC2 when multiple contrast colors are in play. Some designers use A, B, C instead. The abbreviations themselves are straightforward, but mixing up which color goes where will show in the finished fabric.</p>
-      <p class="gs-fade-up">Some designers also create shorthand for repeated stitch sequences specific to their design. A pattern might define something like "MB" for a particular bobble method, or "cluster" for a specific combination of wraps and pulls that only applies to that project. These shortcuts save the designer from writing out a multi-step instruction every time it appears in the pattern. They only make sense inside that pattern.</p>
-      <p class="gs-fade-up">The general rule: if you can't find an abbreviation in a standard reference, it's almost certainly defined in the pattern header. Scroll up before searching elsewhere.</p>
+      <p class="gs-fade-up">
+        This is where things get interesting, because plenty of abbreviations
+        won't appear in any standard list. That's normal. They're custom
+        shortcuts invented by the designer for that specific pattern, and they
+        should be defined near the beginning of the instructions.
+      </p>
+      <p class="gs-fade-up">
+        Cable patterns are the biggest source of these. A chart key might define <code
+          >C4F</code
+        >, <code>C6B</code>, or something more specific to the design. The
+        number typically tells you how many stitches cross. The letter at the
+        end (F or B) tells you the direction: front or back, referring to where
+        you hold the cable needle while crossing. But designers aren't always
+        consistent with that convention. Some use L and R instead. Some number
+        the total stitches involved, others number only the stitches that
+        travel. The pattern's own definition is what counts.
+      </p>
+      <p class="gs-fade-up">
+        Lace patterns build compound shortcuts too. One pattern writes <code
+          >CDD</code
+        > for a centered double decrease. Another spells the same thing out as <code
+          >sl2-k1-p2sso</code
+        >. A third uses <code>s2kp</code>. All three point at the same basic
+        idea, but the exact execution can differ between designers, and some of
+        these abbreviations get used for slightly different decreases depending
+        on the source. If an abbreviation looks unfamiliar, check the pattern
+        key before assuming it matches the most common version. Pattern keys
+        exist for exactly this reason.
+      </p>
+      <p class="gs-fade-up">
+        Colorwork patterns sometimes abbreviate color names or assignments. You
+        might see MC (main color) and CC (contrast color), or CC1 and CC2 when
+        multiple contrast colors are in play. Some designers use A, B, C
+        instead. The abbreviations themselves are straightforward, but mixing up
+        which color goes where will show in the finished fabric.
+      </p>
+      <p class="gs-fade-up">
+        Some designers also create shorthand for repeated stitch sequences
+        specific to their design. A pattern might define something like "MB" for
+        a particular bobble method, or "cluster" for a specific combination of
+        wraps and pulls that only applies to that project. These shortcuts save
+        the designer from writing out a multi-step instruction every time it
+        appears in the pattern. They only make sense inside that pattern.
+      </p>
+      <p class="gs-fade-up">
+        The general rule: if you can't find an abbreviation in a standard
+        reference, it's almost certainly defined in the pattern header. Scroll
+        up before searching elsewhere.
+      </p>
 
       <h2 class="gs-clip-reveal">What the symbols on knitting charts mean</h2>
-      <p class="gs-fade-up">Charts use symbols instead of written-out rows. Each square is one stitch, and the symbol inside it tells you what to do.</p>
-      <p class="gs-fade-up">There's no universal chart symbol standard, but many designers stay close to Craft Yarn Council conventions. An empty square usually means knit on RS and purl on WS. A dash means purl on RS. A circle is <code>yo</code>. A right-leaning slash marks <code>k2tog</code>, a left-leaning one marks <code>ssk</code>.</p>
-      <p class="gs-fade-up">Charts read bottom to top (knitting grows upward). On flat charts, RS rows go right to left, WS rows left to right, matching the direction your needles move. Circular knitting charts read right to left on every row, since you're always working the RS.</p>
-      <p class="gs-fade-up">If a pattern has both written and charted instructions, they should agree. When they don't (and it happens more than anyone would like), the pattern notes should say which takes priority. If they don't say, swatch a repeat before trusting either version.</p>
+      <p class="gs-fade-up">
+        Charts use symbols instead of written-out rows. Each square is one
+        stitch, and the symbol inside it tells you what to do.
+      </p>
+      <p class="gs-fade-up">
+        There's no universal chart symbol standard, but many designers stay
+        close to Craft Yarn Council conventions. An empty square usually means
+        knit on RS and purl on WS. A dash means purl on RS. A circle is <code
+          >yo</code
+        >. A right-leaning slash marks <code>k2tog</code>, a left-leaning one
+        marks <code>ssk</code>.
+      </p>
+      <p class="gs-fade-up">
+        Charts read bottom to top (knitting grows upward). On flat charts, RS
+        rows go right to left, WS rows left to right, matching the direction
+        your needles move. Circular knitting charts read right to left on every
+        row, since you're always working the RS.
+      </p>
+      <p class="gs-fade-up">
+        If a pattern has both written and charted instructions, they should
+        agree. When they don't (and it happens more than anyone would like), the
+        pattern notes should say which takes priority. If they don't say, swatch
+        a repeat before trusting either version.
+      </p>
 
       <h2 class="gs-clip-reveal">A few abbreviations worth knowing early</h2>
-      <p class="gs-fade-up">There's no need to memorize everything before casting on. A first scarf might only use <code>k</code> and <code>p</code>. A simple hat adds a decrease or two. The rest accumulates naturally with the patterns you choose, and you'll find the same dozen abbreviations cover most of what you knit.</p>
-      <p class="gs-fade-up">One pair that trips people up: <code>ssk</code> and <code>skp</code> are both left-leaning decreases. <code>ssk</code> is the modern standard. <code>skp</code> shows up more in older patterns. They're close in result but differ slightly in execution, so follow the pattern as written unless it gives permission to substitute.</p>
-      <p class="gs-fade-up">Another one worth flagging: <code>psso</code> (pass slipped stitch over) shows up both on its own and as part of compound abbreviations like <code>sl1-k2tog-psso</code>. When you see it standalone, it's usually following a slip instruction from the previous step.</p>
-      <p class="gs-fade-up">The Craft Yarn Council publishes a widely used standard abbreviation list, and most designers follow it for common terms. Beyond those basics, regional habits and pattern-specific shorthand take over. "Check the pattern key" is better advice than "memorize a master list."</p>
-      <p class="gs-fade-up">Keep a reference open while you knit. The <a href="/">KnitTools app</a> includes a searchable abbreviation reference, which is faster than flipping through tabs when your row is halfway worked. If you're also sorting out needle sizes or <a href="/articles/how-to-measure-knitting-gauge/">gauge measurements</a>, those references pair well with this glossary. And if you're new to <a href="/articles/how-to-read-knitting-pattern/">reading knitting patterns</a>, the abbreviation key in your pattern is the first section to scan before casting on.</p>
+      <p class="gs-fade-up">
+        There's no need to memorize everything before casting on. A first scarf
+        might only use <code>k</code> and <code>p</code>. A simple hat adds a
+        decrease or two. The rest accumulates naturally with the patterns you
+        choose, and you'll find the same dozen abbreviations cover most of what
+        you knit.
+      </p>
+      <p class="gs-fade-up">
+        One pair that trips people up: <code>ssk</code> and <code>skp</code> are both
+        left-leaning decreases. <code>ssk</code> is the modern standard. <code
+          >skp</code
+        > shows up more in older patterns. They're close in result but differ slightly
+        in execution, so follow the pattern as written unless it gives permission
+        to substitute.
+      </p>
+      <p class="gs-fade-up">
+        Another one worth flagging: <code>psso</code> (pass slipped stitch over) shows
+        up both on its own and as part of compound abbreviations like <code
+          >sl1-k2tog-psso</code
+        >. When you see it standalone, it's usually following a slip instruction
+        from the previous step.
+      </p>
+      <p class="gs-fade-up">
+        The Craft Yarn Council publishes a widely used standard abbreviation
+        list, and most designers follow it for common terms. Beyond those
+        basics, regional habits and pattern-specific shorthand take over. "Check
+        the pattern key" is better advice than "memorize a master list."
+      </p>
+      <p class="gs-fade-up">
+        Keep a reference open while you knit. The <a href="/">KnitTools app</a> includes
+        a searchable abbreviation reference, which is faster than flipping through
+        tabs when your row is halfway worked. If you're also sorting out needle sizes
+        or <a href="/articles/how-to-measure-knitting-gauge/"
+          >gauge measurements</a
+        >, those references pair well with this glossary. And if you're new to <a
+          href="/articles/how-to-read-knitting-pattern/"
+          >reading knitting patterns</a
+        >, the abbreviation key in your pattern is the first section to scan
+        before casting on.
+      </p>
     </div>
   </section>
 
@@ -259,12 +469,19 @@ const faqs = [
     <div class="faq-inner">
       <h2 class="gs-clip-reveal">Frequently asked questions</h2>
       <div class="faq">
-        {faqs.map(f => (
-          <details class="gs-faq-item">
-            <summary>{f.q} <span class="faq-icon" aria-hidden="true">+</span></summary>
-            <p>{f.a}</p>
-          </details>
-        ))}
+        {
+          faqs.map((f) => (
+            <details class="gs-faq-item">
+              <summary>
+                {f.q}{" "}
+                <span class="faq-icon" aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <p>{f.a}</p>
+            </details>
+          ))
+        }
       </div>
     </div>
   </section>
@@ -273,7 +490,9 @@ const faqs = [
   <section class="waitlist-cta" id="join">
     <div class="waitlist-inner">
       <form class="waitlist-form" action="#" method="post" id="waitlist-form">
-        <label class="visually-hidden" for="waitlist-website">Leave this field empty</label>
+        <label class="visually-hidden" for="waitlist-website"
+          >Leave this field empty</label
+        >
         <input
           class="visually-hidden"
           id="waitlist-website"
@@ -283,17 +502,45 @@ const faqs = [
           autocomplete="off"
         />
         <div class="waitlist-content-layer" id="waitlist-content-layer">
-          <h2 class="gs-clip-reveal waitlist-head">Every tool. <em>One app.</em></h2>
-          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators.</p>
+          <h2 class="gs-clip-reveal waitlist-head">
+            Every tool. <em>One app.</em>
+          </h2>
+          <p class="gs-fade-up waitlist-desc">
+            Row counter, project management, yarn scanner, and all four
+            calculators.
+          </p>
           <div class="waitlist-row gs-fade-up" id="waitlist-row">
-            <input type="email" name="email" placeholder="your@email.com" required class="waitlist-input" />
-            <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
+            <input
+              type="email"
+              name="email"
+              placeholder="your@email.com"
+              required
+              class="waitlist-input"
+            />
+            <button type="submit" class="waitlist-btn" id="waitlist-btn"
+              >Notify me at launch</button
+            >
           </div>
-          <p class="gs-fade-up waitlist-meta">Coming {PRICING.launchMonthLabel} to Google Play. Launch price <strong><RegionalPrice phase="launch" /></strong>. <RegionalPricingNote /></p>
-          <p class="waitlist-error" id="waitlist-error" role="alert" aria-live="polite" hidden></p>
+          <p class="gs-fade-up waitlist-meta">
+            Coming {PRICING.launchMonthLabel} to Google Play. Launch price <strong
+              ><RegionalPrice phase="launch" /></strong
+            >. <RegionalPricingNote />
+          </p>
+          <p
+            class="waitlist-error"
+            id="waitlist-error"
+            role="alert"
+            aria-live="polite"
+            hidden
+          >
+          </p>
         </div>
 
-        <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
+        <div
+          class="waitlist-loading-state"
+          id="waitlist-loading"
+          aria-hidden="true"
+        >
           <span class="big-spinner" aria-live="polite">Sending&hellip;</span>
         </div>
 
@@ -309,35 +556,40 @@ const faqs = [
 </PageLayout>
 
 <script>
-  import { gsap } from 'gsap';
-  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
 
   gsap.registerPlugin(ScrollTrigger);
 
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const prefersReducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+  ).matches;
 
   // --- Search + category filtering ---
-  const searchInput = document.getElementById('abbr-search') as HTMLInputElement | null;
-  const list = document.getElementById('abbr-list');
-  const noResults = document.getElementById('no-results');
-  const catButtons = document.querySelectorAll<HTMLButtonElement>('.cat-btn');
+  const searchInput = document.getElementById(
+    "abbr-search",
+  ) as HTMLInputElement | null;
+  const list = document.getElementById("abbr-list");
+  const noResults = document.getElementById("no-results");
+  const catButtons = document.querySelectorAll<HTMLButtonElement>(".cat-btn");
 
-  let activeCategory = 'all';
+  let activeCategory = "all";
 
   function applyFilters() {
     if (!list || !noResults) return;
-    const rows = list.querySelectorAll<HTMLElement>('.abbr-row');
-    const query = (searchInput?.value || '').trim().toLowerCase();
+    const rows = list.querySelectorAll<HTMLElement>(".abbr-row");
+    const query = (searchInput?.value || "").trim().toLowerCase();
 
     let visibleCount = 0;
 
-    rows.forEach(row => {
-      const cats = (row.dataset.cats || '').split(' ');
-      const catLabels = row.dataset.catlabels || '';
-      const abbr = row.dataset.abbr || '';
-      const def = row.dataset.def || '';
+    rows.forEach((row) => {
+      const cats = (row.dataset.cats || "").split(" ");
+      const catLabels = row.dataset.catlabels || "";
+      const abbr = row.dataset.abbr || "";
+      const def = row.dataset.def || "";
 
-      const matchesCategory = activeCategory === 'all' || cats.includes(activeCategory);
+      const matchesCategory =
+        activeCategory === "all" || cats.includes(activeCategory);
 
       let matchesSearch = true;
       if (query) {
@@ -348,7 +600,7 @@ const faqs = [
       }
 
       const visible = matchesCategory && matchesSearch;
-      row.style.display = visible ? '' : 'none';
+      row.style.display = visible ? "" : "none";
       if (visible) visibleCount++;
     });
 
@@ -356,161 +608,184 @@ const faqs = [
   }
 
   if (searchInput) {
-    searchInput.addEventListener('input', applyFilters);
+    searchInput.addEventListener("input", applyFilters);
   }
 
-  catButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      catButtons.forEach(b => {
-        b.classList.remove('is-active');
-        b.setAttribute('aria-pressed', 'false');
+  catButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      catButtons.forEach((b) => {
+        b.classList.remove("is-active");
+        b.setAttribute("aria-pressed", "false");
       });
-      btn.classList.add('is-active');
-      btn.setAttribute('aria-pressed', 'true');
-      activeCategory = btn.dataset.cat || 'all';
+      btn.classList.add("is-active");
+      btn.setAttribute("aria-pressed", "true");
+      activeCategory = btn.dataset.cat || "all";
       applyFilters();
     });
   });
 
   if (!prefersReducedMotion) {
     // --- Hero entrance timeline ---
-    const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
-    heroTl.from('.gs-hero', {
-      opacity: 0,
-      y: 12,
-      duration: 0.5,
-      stagger: 0.15,
-    }, 0.2);
+    heroTl.from(
+      ".gs-hero",
+      {
+        opacity: 0,
+        y: 12,
+        duration: 0.5,
+        stagger: 0.15,
+      },
+      0.2,
+    );
 
     // H1 letter stagger — wrap each word so browsers can't break mid-word
-    const h1El = document.querySelector('.h1-chars');
+    const h1El = document.querySelector(".h1-chars");
     if (h1El) {
-      const text = h1El.textContent || '';
-      h1El.textContent = '';
+      const text = h1El.textContent || "";
+      h1El.textContent = "";
       const chars: HTMLSpanElement[] = [];
-      const words = text.split(' ');
+      const words = text.split(" ");
       words.forEach((word, wi) => {
-        const wordSpan = document.createElement('span');
-        wordSpan.className = 'h1-word';
+        const wordSpan = document.createElement("span");
+        wordSpan.className = "h1-word";
         for (const c of word) {
-          const span = document.createElement('span');
-          span.className = 'h1-char';
+          const span = document.createElement("span");
+          span.className = "h1-char";
           span.textContent = c;
           wordSpan.appendChild(span);
           chars.push(span);
         }
         h1El.appendChild(wordSpan);
         if (wi < words.length - 1) {
-          h1El.appendChild(document.createTextNode(' '));
+          h1El.appendChild(document.createTextNode(" "));
         }
       });
 
-      heroTl.from(chars, {
-        opacity: 0,
-        x: -20,
-        duration: 0.4,
-        stagger: 0.03,
-        ease: 'power2.out',
-      }, 0.1);
+      heroTl.from(
+        chars,
+        {
+          opacity: 0,
+          x: -20,
+          duration: 0.4,
+          stagger: 0.03,
+          ease: "power2.out",
+        },
+        0.1,
+      );
     }
 
-    heroTl.from('.gs-form', {
-      opacity: 0,
-      y: 16,
-      duration: 0.5,
-    }, 0.6);
+    heroTl.from(
+      ".gs-form",
+      {
+        opacity: 0,
+        y: 16,
+        duration: 0.5,
+      },
+      0.6,
+    );
 
     // --- Scroll-triggered: clip-reveal H2s ---
-    document.querySelectorAll('.gs-clip-reveal').forEach(el => {
-      gsap.set(el, { clipPath: 'inset(0 100% 0 0)' });
+    document.querySelectorAll(".gs-clip-reveal").forEach((el) => {
+      gsap.set(el, { clipPath: "inset(0 100% 0 0)" });
       gsap.to(el, {
-        clipPath: 'inset(0 0% 0 0)',
+        clipPath: "inset(0 0% 0 0)",
         duration: 0.8,
-        ease: 'power3.inOut',
+        ease: "power3.inOut",
         scrollTrigger: {
           trigger: el,
-          start: 'top 85%',
+          start: "top 85%",
           once: true,
         },
       });
     });
 
-    document.querySelectorAll('.gs-fade-up').forEach(el => {
+    document.querySelectorAll(".gs-fade-up").forEach((el) => {
       gsap.from(el, {
         opacity: 0,
         y: 24,
         duration: 0.6,
-        ease: 'power2.out',
+        ease: "power2.out",
         scrollTrigger: {
           trigger: el,
-          start: 'top 88%',
+          start: "top 88%",
           once: true,
         },
       });
     });
 
-    const faqItems = document.querySelectorAll('.gs-faq-item');
+    const faqItems = document.querySelectorAll(".gs-faq-item");
     if (faqItems.length) {
       gsap.from(faqItems, {
         opacity: 0,
         y: 16,
         duration: 0.4,
         stagger: 0.08,
-        ease: 'power2.out',
+        ease: "power2.out",
         scrollTrigger: {
           trigger: faqItems[0],
-          start: 'top 85%',
+          start: "top 85%",
           once: true,
         },
       });
     }
 
-    document.querySelectorAll('.gs-faq-item').forEach(details => {
-      const summary = details.querySelector('summary');
-      const content = details.querySelector('p');
+    document.querySelectorAll(".gs-faq-item").forEach((details) => {
+      const summary = details.querySelector("summary");
+      const content = details.querySelector("p");
       if (!summary || !content) return;
 
-      summary.addEventListener('click', (e) => {
+      summary.addEventListener("click", (e) => {
         e.preventDefault();
-        if (details.hasAttribute('open')) {
+        if (details.hasAttribute("open")) {
           gsap.to(content, {
             height: 0,
             opacity: 0,
             duration: 0.3,
-            ease: 'power2.inOut',
+            ease: "power2.inOut",
             onComplete: () => {
-              details.removeAttribute('open');
-              gsap.set(content, { height: 'auto', opacity: 1 });
+              details.removeAttribute("open");
+              gsap.set(content, { height: "auto", opacity: 1 });
             },
           });
         } else {
-          details.setAttribute('open', '');
+          details.setAttribute("open", "");
           const h = content.scrollHeight;
           gsap.set(content, { height: 0, opacity: 0 });
           gsap.to(content, {
             height: h,
             opacity: 1,
             duration: 0.3,
-            ease: 'power2.out',
+            ease: "power2.out",
           });
         }
       });
     });
 
     // --- Waitlist Form Morph Animation ---
-    const waitlistForm = document.getElementById('waitlist-form');
-    const waitlistContentLayer = document.getElementById('waitlist-content-layer');
-    const waitlistLoading = document.getElementById('waitlist-loading');
-    const waitlistSuccess = document.getElementById('waitlist-success');
+    const waitlistForm = document.getElementById("waitlist-form");
+    const waitlistContentLayer = document.getElementById(
+      "waitlist-content-layer",
+    );
+    const waitlistLoading = document.getElementById("waitlist-loading");
+    const waitlistSuccess = document.getElementById("waitlist-success");
 
-    if (waitlistForm && waitlistContentLayer && waitlistLoading && waitlistSuccess) {
-      waitlistForm.addEventListener('submit', async (e) => {
+    if (
+      waitlistForm &&
+      waitlistContentLayer &&
+      waitlistLoading &&
+      waitlistSuccess
+    ) {
+      waitlistForm.addEventListener("submit", async (e) => {
         e.preventDefault();
 
-        const emailInput = waitlistForm.querySelector('input[type="email"]');
-        const honeypot = waitlistForm.querySelector('input[name="website"]');
-        const errorEl = document.getElementById('waitlist-error');
+        const emailInput = waitlistForm.querySelector<HTMLInputElement>(
+          'input[type="email"]',
+        );
+        const honeypot = waitlistForm.querySelector<HTMLInputElement>(
+          'input[name="website"]',
+        );
+        const errorEl = document.getElementById("waitlist-error");
 
         // Lock height to prevent page jumping when content becomes absolute
         const height = waitlistForm.offsetHeight;
@@ -518,24 +793,24 @@ const faqs = [
 
         if (errorEl) {
           errorEl.hidden = true;
-          errorEl.textContent = '';
+          errorEl.textContent = "";
         }
 
         // 1. Morph to Big Spinner Loading state
-        waitlistContentLayer.classList.add('is-hidden');
-        waitlistLoading.classList.add('is-visible');
+        waitlistContentLayer.classList.add("is-hidden");
+        waitlistLoading.classList.add("is-visible");
 
         let success = false;
-        let errorMessage = 'Something went wrong. Please try again.';
+        let errorMessage = "Something went wrong. Please try again.";
 
         try {
-          const res = await fetch('https://api.finnvek.com/subscribe', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+          const res = await fetch("https://api.finnvek.com/subscribe", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
-              email: emailInput ? emailInput.value.trim() : '',
-              source: 'knittools',
-              website: honeypot ? honeypot.value : '',
+              email: emailInput ? emailInput.value.trim() : "",
+              source: "knittools",
+              website: honeypot ? honeypot.value : "",
             }),
           });
           const data = await res.json().catch(() => ({}));
@@ -545,7 +820,7 @@ const faqs = [
             errorMessage = data.error;
           }
         } catch {
-          errorMessage = 'Network error. Please check your connection.';
+          errorMessage = "Network error. Please check your connection.";
         }
 
         // Minimum spinner visibility for perceived smoothness
@@ -553,14 +828,14 @@ const faqs = [
 
         if (success) {
           // 2. Morph loading -> success
-          waitlistLoading.classList.remove('is-visible');
-          waitlistLoading.classList.add('is-hidden');
-          waitlistSuccess.classList.add('is-visible');
+          waitlistLoading.classList.remove("is-visible");
+          waitlistLoading.classList.add("is-hidden");
+          waitlistSuccess.classList.add("is-visible");
         } else {
           // 2b. Revert loading -> content with inline error
-          waitlistLoading.classList.remove('is-visible');
-          waitlistLoading.classList.add('is-hidden');
-          waitlistContentLayer.classList.remove('is-hidden');
+          waitlistLoading.classList.remove("is-visible");
+          waitlistLoading.classList.add("is-hidden");
+          waitlistContentLayer.classList.remove("is-hidden");
           if (errorEl) {
             errorEl.textContent = errorMessage;
             errorEl.hidden = false;
@@ -629,7 +904,9 @@ const faqs = [
     text-decoration: none;
     transition: color 0.15s ease;
   }
-  .eyebrow-back:hover { color: var(--terracotta); }
+  .eyebrow-back:hover {
+    color: var(--terracotta);
+  }
 
   .tool-hero h1 {
     font-family: var(--serif);
@@ -681,7 +958,9 @@ const faqs = [
     border-radius: 0;
     transition: outline 0.15s ease;
   }
-  .search-input::placeholder { color: var(--ink-soft); }
+  .search-input::placeholder {
+    color: var(--ink-soft);
+  }
   .search-input:focus {
     outline: 2px solid var(--terracotta);
     outline-offset: 2px;
@@ -707,7 +986,9 @@ const faqs = [
     border-bottom: 1.5px solid transparent;
     border-radius: 0;
     cursor: pointer;
-    transition: color 200ms ease, border-color 200ms ease;
+    transition:
+      color 200ms ease,
+      border-color 200ms ease;
     white-space: nowrap;
     line-height: 1;
   }
@@ -785,7 +1066,9 @@ const faqs = [
     margin-bottom: 16px;
     text-transform: none;
   }
-  .seo-content h2:first-child { margin-top: 0; }
+  .seo-content h2:first-child {
+    margin-top: 0;
+  }
 
   .seo-content p {
     font-family: var(--body-ed);
@@ -834,7 +1117,10 @@ const faqs = [
     text-transform: none;
   }
 
-  .faq { display: flex; flex-direction: column; }
+  .faq {
+    display: flex;
+    flex-direction: column;
+  }
 
   .faq details {
     border-top: 1px solid rgba(244, 234, 217, 0.2);
@@ -856,8 +1142,12 @@ const faqs = [
     align-items: center;
     transition: color 200ms ease;
   }
-  .faq summary::-webkit-details-marker { display: none; }
-  .faq summary:hover { color: var(--terracotta); }
+  .faq summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq summary:hover {
+    color: var(--terracotta);
+  }
 
   .faq summary .faq-icon {
     display: inline-flex;
@@ -872,7 +1162,9 @@ const faqs = [
     font-weight: 300;
     color: var(--terracotta);
     line-height: 1;
-    transition: transform 300ms ease, color 200ms ease;
+    transition:
+      transform 300ms ease,
+      color 200ms ease;
   }
   .faq summary:hover .faq-icon {
     color: var(--ink);
@@ -949,10 +1241,14 @@ const faqs = [
   .waitlist-content-layer,
   .waitlist-loading-state,
   .waitlist-success {
-    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+    transition:
+      opacity 400ms cubic-bezier(0.4, 0, 0.2, 1),
+      transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .waitlist-content-layer { width: 100%; }
+  .waitlist-content-layer {
+    width: 100%;
+  }
 
   .waitlist-content-layer.is-hidden {
     opacity: 0;
@@ -980,7 +1276,9 @@ const faqs = [
     border-radius: 0;
     min-width: 0;
   }
-  .waitlist-input::placeholder { color: var(--ink-soft); }
+  .waitlist-input::placeholder {
+    color: var(--ink-soft);
+  }
   .waitlist-input:focus {
     outline: 2px solid var(--terracotta);
     outline-offset: 2px;
@@ -997,7 +1295,10 @@ const faqs = [
     border: 1.5px solid var(--ink);
     border-radius: 0;
     cursor: pointer;
-    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    transition:
+      background 0.15s ease,
+      border-color 0.15s ease,
+      color 0.15s ease;
     white-space: nowrap;
   }
   .waitlist-btn:hover {
@@ -1043,11 +1344,19 @@ const faqs = [
     animation: waitlistPulse 1.6s ease-in-out infinite;
   }
   @keyframes waitlistPulse {
-    0%, 100% { opacity: 0.45; }
-    50%      { opacity: 1; }
+    0%,
+    100% {
+      opacity: 0.45;
+    }
+    50% {
+      opacity: 1;
+    }
   }
   @media (prefers-reduced-motion: reduce) {
-    .big-spinner { animation: none; opacity: 0.8; }
+    .big-spinner {
+      animation: none;
+      opacity: 0.8;
+    }
   }
 
   /* Success Layer */
@@ -1103,8 +1412,12 @@ const faqs = [
     .waitlist-cta {
       padding: 60px 20px;
     }
-    .tool-hero { padding-top: 48px; }
-    .waitlist-cta { padding-bottom: 72px; }
+    .tool-hero {
+      padding-top: 48px;
+    }
+    .waitlist-cta {
+      padding-bottom: 72px;
+    }
 
     .abbr-list {
       grid-template-columns: 1fr;
@@ -1115,14 +1428,18 @@ const faqs = [
       padding: 12px 0;
     }
 
-    .category-filters { gap: 18px; }
+    .category-filters {
+      gap: 18px;
+    }
     .cat-btn {
       font-size: 11px;
       padding: 8px 2px;
       letter-spacing: 0.18em;
     }
 
-    .waitlist-row { flex-direction: column; }
+    .waitlist-row {
+      flex-direction: column;
+    }
     .waitlist-input {
       border-right: 1.5px solid var(--ink);
       border-bottom: 0;

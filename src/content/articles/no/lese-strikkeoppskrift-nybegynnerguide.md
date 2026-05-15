@@ -4,11 +4,18 @@ description: "Lær å lese en strikkeoppskrift fra start til slutt. Om oppskrift
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 2
-tags: ["lese strikkeoppskrift", "strikkeoppskrift nybegynner", "forstå strikkeinstruksjoner", "strikkeoppskrift guide"]
+tags:
+  [
+    "lese strikkeoppskrift",
+    "strikkeoppskrift nybegynner",
+    "forstå strikkeinstruksjoner",
+    "strikkeoppskrift guide",
+  ]
 draft: false
 lang: no
 translationKey: "how-to-read-knitting-pattern"
 ---
+
 Strikkeoppskrifter har sitt eget språk og sine egne formateringsvaner. En oppskrift er bygget opp i forutsigbare deler: materialer og strikkefasthet øverst, deretter pinne-for-pinne-instruksjoner med standardforkortelser, og størrelser presentert som tall i parentes gjennom hele teksten. Første gang du åpner en, kan den se ut som en vegg av kortskrift. Når du kjenner igjen delene, blir hele greia lesbar.
 
 ## Overskriften: det du trenger før du starter
@@ -53,7 +60,7 @@ Maskeinstruksjoner leses fra venstre mot høyre: "K5, p3, k2tog, yo, k to end" b
 
 Dette er delen som snubler flest. Oppskrifter bruker flere notasjonssystemer.
 
-**Stjernerapporter:** "*K2, p2; rep from * to end." Stjernen markerer hvor rapporten starter. Alt mellom stjernen og gjenta-instruksjonen er én enhet. "Rep from *" betyr gå tilbake og gjør det igjen. "To end" betyr gjenta til pinnen er ferdig.
+**Stjernerapporter:** "_K2, p2; rep from _ to end." Stjernen markerer hvor rapporten starter. Alt mellom stjernen og gjenta-instruksjonen er én enhet. "Rep from \*" betyr gå tilbake og gjør det igjen. "To end" betyr gjenta til pinnen er ferdig.
 
 **Klammerapporter:** "[K2, p2] 5 times." Klammer definerer seksjonen, tallet sier hvor mange ganger. Mer eksplisitt enn stjerner, men fungerer likt.
 

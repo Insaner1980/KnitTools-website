@@ -4,11 +4,18 @@ description: "Lär dig foga ihop stickade delar med madrassöm, kaststygn och av
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 10
-tags: ["sy ihop stickade delar", "madrassöm stickning", "foga ihop stickade delar", "montera stickning"]
+tags:
+  [
+    "sy ihop stickade delar",
+    "madrassöm stickning",
+    "foga ihop stickade delar",
+    "montera stickning",
+  ]
 draft: false
 lang: sv
 translationKey: "seam-knitted-pieces"
 ---
+
 Montering är den minst glamorösa delen av stickning och den som lättast skjuts upp. En hög färdiga tröjdelar kan ligga i en projektpåse i veckor, för ingen längtar efter att sy ihop dem. Men en bra söm är osynlig, och en dålig söm kan förstöra ett annars välstickat plagg.
 
 Madrassöm skapar en osynlig söm genom att plocka upp horisontella trådar en maska in från kanten på varje del och dra ihop dem så att skarven ser ut som sammanhängande tyg. Metoden beror på sömmens riktning: vertikala kanter (sidsömmar), horisontella kanter (axelsömmar) eller formade delar in i öppningar (ärmar).

@@ -4,11 +4,20 @@ description: "Slik håndterer du flere WIP-strikkeprosjekter uten å miste overs
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 3
-tags: ["holde orden på strikkeprosjekter", "WIP strikking", "strikkeprosjekt tracker", "følge strikkefremdrift", "flere strikkeprosjekter", "strikketid tracker"]
+tags:
+  [
+    "holde orden på strikkeprosjekter",
+    "WIP strikking",
+    "strikkeprosjekt tracker",
+    "følge strikkefremdrift",
+    "flere strikkeprosjekter",
+    "strikketid tracker",
+  ]
 draft: false
 lang: no
 translationKey: "organize-knitting-projects"
 ---
+
 De fleste strikkere har mer enn ett prosjekt på gang. En komplisert genser til fokuserte kvelder. En enkel sokk til pendling. Et tankeløst rillestrikket teppe til TV-strikking. Ulike prosjekter for ulike humør og energinivåer. Helt normalt.
 
 Problemet begynner når "noen få prosjekter" stille blir syv, og du ikke husker hvilken pinnestørrelse som står i den halvferdige lua, hvilken pinne du stoppet på i cardiganen, eller om du allerede kjøpte nøste nummer to til halsen. WIP-håndtering handler ikke om å begrense hvor mange prosjekter du har. Det handler om å kunne plukke opp ett av dem uten å bruke ti minutter på å finne ut hvor du slapp.

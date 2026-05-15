@@ -4,11 +4,18 @@ description: "Lær å sette til nytt garn mens du strikker. Dekker overlapp, Rus
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 5
-tags: ["sette til nytt nøste strikking", "feste nytt garn strikking", "bytte nøste midt på pinnen", "sammenføye garn strikking"]
+tags:
+  [
+    "sette til nytt nøste strikking",
+    "feste nytt garn strikking",
+    "bytte nøste midt på pinnen",
+    "sammenføye garn strikking",
+  ]
 draft: false
 lang: no
 translationKey: "join-new-ball-of-yarn"
 ---
+
 Det gamle nøstet tar slutt. Det nye må inn. Overgangen må være usynlig i ferdig stoff og sikker nok til at den ikke går opp.
 
 De fire vanligste metodene er overlapp, enklest, to tråder å feste, Russian join, ingen tråder men litt tykkere, spit splice, usynlig men bare for filtbar ull, og magic knot, rask men med knute. Beste valg avhenger av garnets [fiberinnhold](/no/artikler/garnfibre-sammenlignet/) og hvor mye du bryr deg om trådfesting.

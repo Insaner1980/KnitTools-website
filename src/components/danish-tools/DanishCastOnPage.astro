@@ -1,0 +1,74 @@
+---
+import LocalizedToolPage from "../LocalizedToolPage.astro";
+import CastOnCalculator from "../CastOnCalculator.astro";
+import { danishToolAlternates, danishToolRoutes } from "../../i18n/danishTools";
+
+const faqs = [
+  {
+    q: "Skal jeg virkelig strikke en strikkeprøve først?",
+    a: "Ja. At springe strikkeprøven over er den mest almindelige grund til, at strik får forkert størrelse. Det tager omkring 20 minutter og kan spare timers optrævling.",
+  },
+  {
+    q: "Tæller kantmasker med i strikkefastheden?",
+    a: "Nej. Mål midt på strikkeprøven og undgå de første og sidste to masker. Kantmasker er ofte strammere eller løsere end resten.",
+  },
+  {
+    q: "Hvorfor runder beregneren af til et lige antal?",
+    a: "Mange maskemønstre, som rib, snoninger og mønsterstrik, fungerer pænere med et lige antal masker. Afrunding til nærmeste lige antal giver en ren gentagelse.",
+  },
+  {
+    q: "Hvad hvis min opskrift kræver en bestemt maskerapport?",
+    a: "Læg et par masker til eller træk et par fra, indtil maskeantallet passer med rapporten i opskriften. Hvis mønstret for eksempel gentages over 4 masker og beregneren siger 46, justerer du til 44 eller 48.",
+  },
+  {
+    q: "Kan jeg bruge den til rundstrik?",
+    a: "Ja. Skriv hele omkredsen ind som ønsket bredde. Beregningen fungerer på samme måde til fladstrik og rundstrik.",
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Opslagsberegner"
+  description="Beregn hvor mange masker du skal slå op til en bestemt bredde. Skriv din strikkefasthed og ønskede måling ind for at få maskeantallet."
+  canonicalPath={danishToolRoutes.castOnCalculator}
+  lang="da"
+  alternates={danishToolAlternates.tool.castOnCalculator}
+  intro="Beregn hvor mange masker du skal slå op til en bestemt bredde og strikkefasthed."
+  schemaName="Opslagsberegner"
+  schemaDescription="Beregner antallet af masker der skal slås op ud fra strikkefasthed og ønsket bredde."
+  faqs={faqs}
+>
+  <div slot="tool">
+    <CastOnCalculator lang="da" />
+  </div>
+
+  <div slot="content">
+    <h2>Hvad betyder opslag i strik?</h2>
+    <p>
+      At slå masker op er første trin i næsten ethvert strikkeprojekt: det er
+      sådan, du får de første masker på pinden. Antallet af masker, du slår op,
+      bestemmer bredden på det færdige arbejde. For få, og det bliver for smalt.
+      For mange, og du bruger garn og tid unødigt. At ramme tallet fra starten
+      sparer optrævling senere.
+    </p>
+
+    <h2>Hvorfor strikkefasthed betyder noget</h2>
+    <p>
+      Alle strikker forskelligt. Selv med samme garn og samme pinde giver din
+      hånd en lidt anden strikket flade end en andens. Derfor angiver opskrifter
+      en anbefalet strikkefasthed, og derfor skal du strikke en strikkeprøve for
+      at finde din. Mål hvor mange masker der går på 10 cm, og du har tallet,
+      beregneren skal bruge.
+    </p>
+
+    <h2>Sådan bruger du beregneren</h2>
+    <p>
+      For at beregne dine opslagmasker skal du bruge to ting: din <strong
+        >strikkefasthed</strong
+      >, altså hvor mange masker du får på 10 cm strik, og den <strong
+        >ønskede bredde</strong
+      > på arbejdet. Strik først en strikkeprøve, mål den, og skriv tallene ind. Beregneren
+      runder af til nærmeste lige antal, en almindelig strikkekonvention.
+    </p>
+  </div>
+</LocalizedToolPage>

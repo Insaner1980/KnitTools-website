@@ -1,0 +1,292 @@
+---
+import LocalizedToolPage from "../LocalizedToolPage.astro";
+import { danishToolAlternates, danishToolRoutes } from "../../i18n/danishTools";
+
+const rows = [
+  ["1.5", "000", "-", "-", "Lace"],
+  ["1.75", "00", "-", "-", "Lace"],
+  ["2.0", "0", "14", "0", "Lace"],
+  ["2.25", "1", "13", "-", "Fingering / strømpegarn"],
+  ["2.5", "1.5", "-", "-", "Fingering / strømpegarn"],
+  ["2.75", "2", "12", "2", "Fingering / strømpegarn"],
+  ["3.0", "2.5", "11", "3", "Sport"],
+  ["3.25", "3", "10", "-", "Sport"],
+  ["3.5", "4", "-", "5", "Sport"],
+  ["3.75", "5", "9", "-", "DK / Light Worsted"],
+  ["4.0", "6", "8", "6", "DK / Light Worsted"],
+  ["4.5", "7", "7", "8", "Worsted / Aran / Medium"],
+  ["5.0", "8", "6", "10", "Worsted / Aran / Medium"],
+  ["5.5", "9", "5", "-", "Worsted / Aran / Medium"],
+  ["6.0", "10", "4", "13", "Bulky / Chunky"],
+  ["6.5", "10.5", "3", "-", "Bulky / Chunky"],
+  ["7.0", "-", "2", "-", "Bulky / Chunky"],
+  ["8.0", "11", "0", "-", "Super Bulky / Super Chunky"],
+  ["9.0", "13", "00", "-", "Super Bulky / Super Chunky"],
+  ["10.0", "15", "000", "-", "Super Bulky / Super Chunky"],
+  ["12.0", "17", "-", "-", "Jumbo"],
+  ["12.75", "-", "-", "-", "Jumbo"],
+  ["15.0", "19", "-", "-", "Jumbo"],
+  ["16.0", "19", "-", "-", "Jumbo"],
+  ["19.0", "35", "-", "-", "Jumbo"],
+  ["25.0", "50", "-", "-", "Jumbo"],
+];
+
+const formatNumber = (value: string) => value.replaceAll(".", ",");
+const formatReferenceCell = (value: string) =>
+  value === "-" ? "—" : formatNumber(value);
+
+const faqs = [
+  {
+    q: "Kan jeg bruge en pindestørrelse tæt på, hvis jeg ikke har den præcise?",
+    a: "Det kan du, men et spring på 0,5 mm ændrer ofte strikkefastheden nok til at betyde noget. Strik en ny prøve til alt, der skal passe i størrelsen.",
+  },
+  {
+    q: "Er pindestørrelser ens hos alle mærker?",
+    a: "Det burde de være. I praksis er der små forskelle, især i billige sæt eller på ældre pinde. Hvis din strikkefasthed bliver ved med at ramme forkert, så mål pinden.",
+  },
+  {
+    q: "Hvad med rundpinde?",
+    a: "Størrelsen fungerer på samme måde som ved jumperpinde. Størrelsen beskriver spidsens diameter, ikke wirens længde. En rundpind på 4,5 mm er stadig en pind på 4,5 mm, uanset om wiren er kort til en hue eller lang til magic loop.",
+  },
+  {
+    q: "Har jeg brug for alle pindestørrelser?",
+    a: "Nej. De fleste strikkere bruger især en håndfuld størrelser, der passer til de garntykkelser, de bruger mest. Strikker du meget med DK eller worsted, bruger du ofte 3,75 til 5,5 mm.",
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Pindestørrelser: US, UK, metrisk og japansk"
+  description="Omregn strikkepindestørrelser mellem US, UK, metrisk (mm) og japansk. Søgbar tabel med anbefalede garntykkelser pr. pindestørrelse."
+  canonicalPath={danishToolRoutes.needleSizeChart}
+  lang="da"
+  alternates={danishToolAlternates.tool.needleSizeChart}
+  intro="Omregn mellem US, UK, metriske og japanske pindestørrelser. Skriv en størrelse for at finde det tilsvarende mål."
+  schemaName="Tabel over pindestørrelser"
+  schemaDescription="Omregner strikkepindestørrelser mellem US, UK, metrisk og japansk."
+  faqs={faqs}
+  variant="teal"
+>
+  <div slot="tool">
+    <div class="table-wrapper">
+      <input
+        type="text"
+        id="needle-search"
+        class="search-input"
+        placeholder='Søg en størrelse, fx "4,5", "US 7" eller "UK 7"'
+        autocomplete="off"
+      />
+      <div class="table-scroll">
+        <table class="needle-table" id="needle-table">
+          <thead>
+            <tr>
+              <th>Millimeter</th>
+              <th>US</th>
+              <th>UK/Canada</th>
+              <th>Japansk</th>
+              <th>Garntykkelse</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              rows.map((row) => (
+                <tr
+                  data-mm={row[0]}
+                  data-us={row[1] === "-" ? "" : row[1]}
+                  data-uk={row[2] === "-" ? "" : row[2]}
+                  data-jp={row[3] === "-" ? "" : row[3]}
+                >
+                  <td class="col-mm">{formatNumber(row[0])}</td>
+                  {row.slice(1).map((cell) => (
+                    <td>{formatReferenceCell(cell)}</td>
+                  ))}
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+      <p class="no-results" id="no-results" hidden>
+        Ingen passende pindestørrelse fundet.
+      </p>
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Hvorfor der findes fire systemer</h2>
+    <p>
+      Det metriske system er det eneste system, der fortæller, hvad pinden
+      faktisk måler. En pind på 4,0 mm er 4,0 mm. Punktum.
+    </p>
+    <p>
+      US-størrelser er etiketter. US 7 betyder 4,5 mm, og US 8 betyder 5,0 mm,
+      men tallene siger intet om diameteren.
+    </p>
+    <p>
+      Gamle UK- og canadiske størrelser går baglæns. UK 14 er meget tynd, og
+      tallene bliver mindre, efterhånden som pindene bliver tykkere, indtil du
+      rammer 0, 00 og 000. De fleste moderne britiske opskrifter angiver
+      metriske størrelser, men det gamle system findes stadig på vintagepinde og
+      brugte opskriftshæfter.
+    </p>
+    <p>
+      Japanske størrelser ligger tæt på metrisk, men ikke helt. Japansk
+      størrelse 6 er 3,9 mm, japansk størrelse 8 er 4,5 mm. Den forskel betyder
+      især noget ved tætte strikkefastheder, hvor få tiendedele millimeter
+      ændrer stoffet.
+    </p>
+
+    <h2>Hvornår metrisk er det sikreste valg</h2>
+    <p>
+      Stol først på størrelsen i millimeter. Det er den egentlige måling og
+      fjerner konverteringsfejl helt.
+    </p>
+    <p>
+      Når en opskrift beder om "US 7", skal du have 4,5 mm i hånden. Nogle
+      mærker trykker begge tal på pinden. Andre gør ikke. Gamle markeringer
+      slides af. Netop derfor er en pindemåler værd at have ved hånden.
+    </p>
+
+    <h2>Almindelige konverteringsfælder</h2>
+    <p>Nogle størrelser skaber forvirring igen og igen.</p>
+    <p>
+      <strong>UK-systemet er omvendt.</strong> US-størrelser går op, når pinden bliver
+      tykkere. Gamle UK-størrelser går ned. US 6 er 4,0 mm. UK 6 er 5,0 mm. Bytter
+      du rundt på dem, er din strikkeprøve en hel millimeter forkert, før du har strikket
+      en eneste pind. Det sker oftere, end man skulle tro.
+    </p>
+    <p>
+      <strong>Ikke alle størrelser har en ren en-til-en-match.</strong> Ikke alle
+      metriske størrelser har en pæn modpart i hvert andet system. En pind på 3,0
+      mm kaldes af nogle mærker US 2,5, mens andre tabeller placerer den mellem US
+      2 og US 3. En pind på 3,5 mm har ofte slet ingen gammel UK-modpart. Gå tilbage
+      til millimeterstørrelsen og ignorér resten.
+    </p>
+    <p>
+      <strong>Japanske næsten-matches.</strong> Japanske størrelser passer ikke rent
+      med US-numre. Japansk størrelse 8 er 4,5 mm og svarer derfor til US 7, men japansk
+      størrelse 5 er 3,6 mm og passer ikke rigtigt ind i US-systemet. Strikker du
+      efter en japansk opskrift, så følg mm-værdien. Ikke det trykte nummer. Altid
+      mm-værdien.
+    </p>
+    <p>
+      <strong>Halve og usædvanlige størrelser findes.</strong> Pinde på 2,5 mm, 3,0
+      mm og 6,5 mm er standardstørrelser, også hvis dit udskiftelige sæt springer
+      dem over. Derfor bliver "gå en halv størrelse op" nogle gange til at rode hele
+      projektposen igennem.
+    </p>
+    <p>
+      <strong>Gamle opskrifter angiver nogle gange ikke systemet.</strong> En opskrift
+      fra 1970'erne, der skriver "size 6 needles", kan mene US 6 (4,0 mm) eller UK
+      6 (5,0 mm), afhængigt af hvilket land den er udgivet i. Tjek udgiveren, og tjek
+      derefter tabellen.
+    </p>
+
+    <h2>At kombinere pindestørrelse og garntykkelse</h2>
+    <p>Tabellen får dig tæt på. Strikkeprøven afgør den præcise adresse.</p>
+    <p>
+      De publicerede CYC-intervaller i denne tabel kobler Lace til 1,5-2,25 mm,
+      Fingering / strømpegarn til 2,25-3,25 mm, Sport til 3,25-3,75 mm, DK /
+      Light Worsted til 3,75-4,5 mm, Worsted / Aran / Medium til 4,5-5,5 mm,
+      Bulky / Chunky til 5,5-8 mm, Super Bulky / Super Chunky til 8-12,75 mm og
+      Jumbo fra 12,75 mm og opefter.
+    </p>
+    <p>
+      Intervallerne overlapper med vilje. DK kan give en fast hue på en mindre
+      pind eller et luftigt sjal på en større. Strikkefastheden i opskriften
+      fortæller, hvilken vej designeren mente. Er du ikke sikker på, hvilken
+      garntykkelse du står med, er <a href={danishToolRoutes.yarnWeightChart}
+        >tabellen over garntykkelser</a
+      > det bedre sted at starte.
+    </p>
+
+    <h2>At måle umarkerede pinde</h2>
+    <p>
+      Vintagepinde, hånddrejede træpinde og velbrugte udskiftelige spidser
+      mister før eller siden markeringen. En pindemåler løser det. Skub skaftet
+      gennem hullerne, indtil du finder det hul, der passer rent uden at tvinge
+      pinden igennem.
+    </p>
+    <p>
+      Mål på skaftet, ikke på spidsen. Den tilspidsede spids måler mindre end
+      den del, du faktisk strikker med. Det giver forkert svar hver gang.
+    </p>
+    <p>
+      De fleste pindemålere viser metriske og US-størrelser, nogle har også
+      japanske størrelser. Hvis din ikke har det, kan du bruge denne
+      pindestørrelsesguide til at finde mm-værdien og derefter strikke en lille <a
+        href="/da/artikler/maal-strikkefasthed/">strikkeprøve</a
+      >, før du går i gang med hele projektet. Hvis du også vælger <a
+        href="/da/artikler/strikkepinde-metal-trae-bambus/">pindemateriale</a
+      >, er det en separat beslutning ved siden af størrelsen.
+    </p>
+  </div>
+</LocalizedToolPage>
+
+<script>
+  const searchInput = document.getElementById(
+    "needle-search",
+  ) as HTMLInputElement | null;
+  const table = document.getElementById("needle-table");
+  const noResults = document.getElementById("no-results");
+
+  if (searchInput && table && noResults) {
+    const rows = table.querySelectorAll<HTMLElement>("tbody tr");
+
+    searchInput.addEventListener("input", () => {
+      const raw = searchInput.value.trim().toLowerCase();
+      const normalizedRaw = raw.replace(",", ".");
+
+      if (!raw) {
+        rows.forEach((row) => {
+          row.style.display = "";
+        });
+        noResults.hidden = true;
+        return;
+      }
+
+      let targetCol: string | null = null;
+      let query = normalizedRaw;
+
+      if (normalizedRaw.startsWith("us ")) {
+        targetCol = "us";
+        query = normalizedRaw.slice(3).trim();
+      } else if (normalizedRaw.startsWith("uk ")) {
+        targetCol = "uk";
+        query = normalizedRaw.slice(3).trim();
+      } else if (
+        normalizedRaw.startsWith("jp ") ||
+        normalizedRaw.startsWith("japansk ")
+      ) {
+        targetCol = "jp";
+        query = normalizedRaw.replace(/^(jp|japansk)\s+/, "").trim();
+      }
+
+      let visibleCount = 0;
+
+      rows.forEach((row) => {
+        const mm = row.dataset.mm || "";
+        const us = row.dataset.us || "";
+        const uk = row.dataset.uk || "";
+        const jp = row.dataset.jp || "";
+
+        const match =
+          targetCol === "us"
+            ? us === query
+            : targetCol === "uk"
+              ? uk === query
+              : targetCol === "jp"
+                ? jp === query
+                : mm.startsWith(query) ||
+                  us === query ||
+                  uk === query ||
+                  jp === query;
+
+        row.style.display = match ? "" : "none";
+        if (match) visibleCount++;
+      });
+
+      noResults.hidden = visibleCount > 0;
+    });
+  }
+</script>

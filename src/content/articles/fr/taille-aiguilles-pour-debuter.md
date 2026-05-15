@@ -4,11 +4,18 @@ description: "Trouver la meilleure taille d'aiguilles pour commencer le tricot :
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 3
-tags: ["taille aiguilles débutant", "meilleure taille aiguilles tricot", "aiguilles pour apprendre le tricot", "premières aiguilles tricot"]
+tags:
+  [
+    "taille aiguilles débutant",
+    "meilleure taille aiguilles tricot",
+    "aiguilles pour apprendre le tricot",
+    "premières aiguilles tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "needle-size-for-beginners"
 ---
+
 5 mm. C'est la réponse courte. Si tu achètes ta première paire et que tu veux une seule recommandation, des aiguilles 5 mm en bambou ou en bois, avec un fil worsted, donnent la combinaison la plus tolérante pour apprendre.
 
 Cette taille fonctionne pour une raison. Et il y a des situations où autre chose a plus de sens. Si tu choisis aussi ton fil, le [guide du fil pour débuter](/fr/articles/meilleur-fil-pour-debuter-le-tricot/) complète celui-ci.

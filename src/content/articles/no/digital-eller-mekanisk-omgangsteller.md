@@ -4,11 +4,21 @@ description: "Mekanisk klikkteller eller omgangsteller-app? En ærlig sammenlign
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 4
-tags: ["digital omgangsteller", "omgangsteller app", "strikke omgangsteller", "maskemarkør teller", "rad teller android", "holde styr på pinner", "handsfree strikketeller"]
+tags:
+  [
+    "digital omgangsteller",
+    "omgangsteller app",
+    "strikke omgangsteller",
+    "maskemarkør teller",
+    "rad teller android",
+    "holde styr på pinner",
+    "handsfree strikketeller",
+  ]
 draft: false
 lang: no
 translationKey: "digital-vs-physical-row-counters"
 ---
+
 Den lille tønneformede telleren på enden av en pinne har vært standard strikketeller i tiår. Billig, ingen batterier, fungerer. Men omgangsteller-apper har blitt gode, og for strikkere som jobber med noe mer komplisert enn et skjerf, gjør den digitale versjonen ting den fysiske ikke kan.
 
 Når det er sagt. Ikke alle trenger det den digitale versjonen tilbyr. Riktig valg avhenger av prosjektet.

@@ -4,11 +4,20 @@ description: "Gratis strikkekalkulatorer for opplegg, garnmengde, strikkefasthet
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 5
-tags: ["strikkekalkulatorer", "gratis strikkekalkulatorer", "oppleggskalkulator", "garnkalkulator", "strikkefasthet kalkulator", "strikkeverktøy"]
+tags:
+  [
+    "strikkekalkulatorer",
+    "gratis strikkekalkulatorer",
+    "oppleggskalkulator",
+    "garnkalkulator",
+    "strikkefasthet kalkulator",
+    "strikkeverktøy",
+  ]
 draft: false
 lang: no
 translationKey: "free-knitting-calculators"
 ---
+
 Strikking inneholder mer regning enn mange forventer. Hvor mange masker du skal legge opp til et skjerf som er 23 cm bredt med din strikkefasthet. Hvor mye garn et teppe sluker. Hvordan du fordeler 8 økninger jevnt over 64 masker. Ingen av dette er vanskelig matte, men det dukker opp hele tiden, og feil svar betyr å rekke opp.
 
 Fire typer strikkekalkulatorer dekker det meste du trenger. Gratisversjonene på dette nettstedet fungerer i alle nettlesere uten registrering.

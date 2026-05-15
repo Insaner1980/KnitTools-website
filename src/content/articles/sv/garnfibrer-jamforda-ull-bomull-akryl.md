@@ -4,11 +4,18 @@ description: "Hur ull, bomull, akryl och fiberblandningar skiljer sig i sticknin
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 8
-tags: ["garnfibrer jämförda", "ull vs bomull stickning", "akryl vs ull garn", "bästa garnfiber för stickning"]
+tags:
+  [
+    "garnfibrer jämförda",
+    "ull vs bomull stickning",
+    "akryl vs ull garn",
+    "bästa garnfiber för stickning",
+  ]
 draft: false
 lang: sv
 translationKey: "yarn-fibers-compared"
 ---
+
 Sticka samma flätprov i ull och bomull, håll dem bredvid varandra, och de ser ut som om de kom från olika mönster. Ullversionen fjädrar. Flätorna poppar. Bomullsversionen hänger lite, faller plattare och visar varje maska med nästan obekväm ärlighet. Samma sticka, samma händer, samma maskantal. Helt olika tyg.
 
 Skillnaden är inte kosmetisk. Fiberinnehållet styr hur ett projekt känns i händerna medan du stickar, hur det blockas, hur det slits över månader och år, och om det håller formen eller långsamt ger efter för gravitationen. Fiberinnehållet avgör hur det färdiga tyget känns, faller, blockas och håller över tid. Ull ger elasticitet och blockningsmöjlighet, bomull ger fall och tvättbarhet, akryl ger lågt pris och maskintvättbar slitstyrka. Banderollen på ett nystan är inte finstilt text. Den är den enskilt mest användbara informationen om vad garnet faktiskt kommer att göra.

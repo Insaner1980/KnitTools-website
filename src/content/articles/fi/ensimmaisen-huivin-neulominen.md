@@ -4,10 +4,17 @@ description: "Kaikki mitä tarvitset ensimmäiseen huiviin: lanka, puikot, silmu
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 1
-tags: ["huivin neulominen aloittelijalle", "ensimmäinen neuleprojekti huivi", "helppo neulehuivi", "aloittelijan huiviohje"]
+tags:
+  [
+    "huivin neulominen aloittelijalle",
+    "ensimmäinen neuleprojekti huivi",
+    "helppo neulehuivi",
+    "aloittelijan huiviohje",
+  ]
 lang: fi
 translationKey: "knit-first-scarf"
 ---
+
 Huivi on paras ensimmäinen neuleprojekti, koska se on suorakulmio. Ei muotoiluja, ei tarkkaa kerrosmäärän laskemista tiettyä pituutta varten, ei sovittamista. Luo silmukat, neulo kunnes pituus riittää, päättele. Samalla harjoittelet taidot, joiden päälle kaikki myöhempi neulominen rakentuu: silmukoiden luominen, oikea silmukka ja päättely.
 
 ## Mitä tarvitset

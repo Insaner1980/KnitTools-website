@@ -4,10 +4,18 @@ description: "Näin pingotat neuleen märkäpingotuksella, höyryllä tai suihku
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 9
-tags: ["neuleen pingotus", "märkäpingotus", "höyrypingotus", "neuleen viimeistely", "pingottaa neule"]
+tags:
+  [
+    "neuleen pingotus",
+    "märkäpingotus",
+    "höyrypingotus",
+    "neuleen viimeistely",
+    "pingottaa neule",
+  ]
 lang: fi
 translationKey: "how-to-block-knitting"
 ---
+
 Pingotus on valmiin neulekappaleen kostuttamista, höyryttämistä tai suihkuttamista ja muotoilua tarkoitettuihin mittoihin. Se muuttaa möykkyisen ja epätasaisen neuleen valmiiksi kankaaksi. Silmukat tasoittuvat, kangas rentoutuu mittoihinsa ja pitsi avautuu ahtaasta mytystä tunnistettavaksi kuvioksi. Osa projekteista tarvitsee sitä tuskin lainkaan. Osa on melkein tunnistamaton ilman sitä.
 
 Menetelmä riippuu kuidusta. Villa reagoi märkäpingotukseen. Akryyli reagoi höyryyn. Puuvilla ei reagoi erityisen dramaattisesti mihinkään, mutta hyvä liotus ja muotoilu auttaa sitäkin.

@@ -4,11 +4,18 @@ description: "Rattraper une maille tombée avec un crochet : jersey, envers, poi
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 3
-tags: ["rattraper maille tombée tricot", "reprendre maille tombée", "maille tombée crochet", "échelle maille tombée"]
+tags:
+  [
+    "rattraper maille tombée tricot",
+    "reprendre maille tombée",
+    "maille tombée crochet",
+    "échelle maille tombée",
+  ]
 draft: false
 lang: fr
 translationKey: "fix-dropped-stitches"
 ---
+
 Une maille tombée ne veut pas dire qu'il faut défaire tout l'ouvrage. Dans la plupart des cas, tu peux la rattraper avec un crochet en moins d'une minute. La maille glisse de l'aiguille, et si tu ne la rattrapes pas, elle file dans les rangs en dessous comme une échelle dans un collant. Mais chaque barreau de cette échelle est un brin de fil qui attend d'être repassé dans la maille, rang après rang, jusqu'à ce qu'elle revienne sur l'aiguille.
 
 Pour rattraper une maille tombée, passe un crochet dans la boucle lâche, attrape le brin horizontal derrière elle et tire-le à travers. Répète pour chaque rang que la maille a descendu. Garde dans ta trousse un crochet d'une taille proche de tes aiguilles. Tu t'en serviras.

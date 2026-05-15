@@ -1,0 +1,76 @@
+---
+import LocalizedToolPage from "../LocalizedToolPage.astro";
+import CastOnCalculator from "../CastOnCalculator.astro";
+import { dutchToolRoutes } from "../../i18n/dutchTools";
+import { routes } from "../../i18n/routes";
+
+const faqs = [
+  {
+    q: "Moet ik echt eerst een proeflapje breien?",
+    a: "Ja. Een proeflapje overslaan is de meest voorkomende reden dat breiwerk niet de juiste maat krijgt. Het kost ongeveer 20 minuten en kan uren uithalen besparen.",
+  },
+  {
+    q: "Tel ik kantsteken mee in mijn stekenverhouding?",
+    a: "Nee. Meet in het midden van je proeflapje en vermijd de eerste en laatste twee steken. Kantsteken zijn vaak strakker of losser dan de rest.",
+  },
+  {
+    q: "Waarom rondt de calculator af naar een even aantal?",
+    a: "Veel steekpatronen, zoals boordsteek, kabels en kleurwerk, werken netter met een even aantal steken. Afronden naar het dichtstbijzijnde even aantal geeft een schone herhaling.",
+  },
+  {
+    q: "Wat als mijn patroon een bepaald veelvoud vraagt?",
+    a: "Tel er een paar steken bij of haal er een paar af tot je bij het dichtstbijzijnde veelvoud komt dat je patroon nodig heeft. Als het motief bijvoorbeeld over 4 steken herhaalt en de calculator 46 geeft, pas je aan naar 44 of 48.",
+  },
+  {
+    q: "Kan ik dit gebruiken voor rondbreien?",
+    a: "Ja. Vul de volledige omtrek in als gewenste breedte. De berekening werkt hetzelfde voor plat breien en rondbreien.",
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Opzetcalculator"
+  description="Bereken hoeveel steken je moet opzetten voor een bepaalde breedte. Vul je stekenverhouding en gewenste maat in voor het aantal steken."
+  canonicalPath={dutchToolRoutes.castOnCalculator}
+  lang="nl"
+  alternates={routes.tool.castOnCalculator}
+  intro="Bereken hoeveel steken je moet opzetten voor een bepaalde breedte en stekenverhouding."
+  schemaName="Opzetcalculator"
+  schemaDescription="Berekent het aantal op te zetten steken op basis van stekenverhouding en gewenste breedte."
+  faqs={faqs}
+>
+  <div slot="tool">
+    <CastOnCalculator lang="nl" />
+  </div>
+
+  <div slot="content">
+    <h2>Wat betekent steken opzetten?</h2>
+    <p>
+      Steken opzetten is de eerste stap van bijna elk breiproject: zo zet je de
+      eerste steken op je naald. Het aantal steken dat je opzet bepaalt de
+      breedte van het afgewerkte werk. Te weinig, en het wordt te smal. Te veel,
+      en je verspilt garen en tijd. Vanaf het begin op het juiste aantal zitten
+      voorkomt later uithalen.
+    </p>
+
+    <h2>Waarom stekenverhouding telt</h2>
+    <p>
+      Iedereen breit anders. Zelfs met hetzelfde garen en dezelfde naalden maakt
+      jouw hand van breien een iets andere stof dan die van iemand anders.
+      Daarom geven patronen een aanbevolen stekenverhouding, en daarom moet je
+      een proeflapje breien om die van jou te vinden. Meet hoeveel steken in 10
+      cm passen, en je hebt het getal dat deze calculator nodig heeft.
+    </p>
+
+    <h2>Zo gebruik je deze calculator</h2>
+    <p>
+      Om je opzetsteken te berekenen heb je twee dingen nodig: je <strong
+        >stekenverhouding</strong
+      >, dus hoeveel steken je krijgt op 10 cm breiwerk, en de <strong
+        >gewenste breedte</strong
+      > van je werk. Brei eerst een proeflapje, meet het, en vul die waarden in. De
+      calculator rondt af naar het dichtstbijzijnde even aantal, een veelgebruikte
+      breiconventie.
+    </p>
+  </div>
+</LocalizedToolPage>

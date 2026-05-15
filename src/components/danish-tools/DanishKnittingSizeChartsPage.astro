@@ -1,0 +1,1022 @@
+---
+import LocalizedToolPage from "../LocalizedToolPage.astro";
+import { danishToolAlternates, danishToolRoutes } from "../../i18n/danishTools";
+
+interface Cell {
+  cm: string;
+  inch: string;
+}
+
+interface Row {
+  label: string;
+  cells: Cell[];
+}
+
+interface Table {
+  caption?: string;
+  sizeHeader?: string;
+  sizes: string[];
+  rows: Row[];
+}
+
+interface Panel {
+  id: string;
+  label: string;
+  intro?: string;
+  tables: Table[];
+}
+
+const c = (cm: string, inch: string): Cell => ({ cm, inch });
+const formatNumberText = (value: string) => value.replaceAll(".", ",");
+
+const panels: Panel[] = [
+  {
+    id: "baby",
+    label: "Baby",
+    tables: [
+      {
+        sizes: ["3 mdr.", "6 mdr.", "12 mdr.", "18 mdr.", "24 mdr."],
+        rows: [
+          {
+            label: "Brystmål",
+            cells: [
+              c("40.5 cm", '16"'),
+              c("43 cm", '17"'),
+              c("45.5 cm", '18"'),
+              c("48 cm", '19"'),
+              c("50.5 cm", '20"'),
+            ],
+          },
+          {
+            label: "Ryglængde til talje",
+            cells: [
+              c("15.5 cm", '6"'),
+              c("17.5 cm", '7"'),
+              c("19 cm", '7.5"'),
+              c("20.5 cm", '8"'),
+              c("21.5 cm", '8.5"'),
+            ],
+          },
+          {
+            label: "Rygbredde",
+            cells: [
+              c("18.5 cm", '7.25"'),
+              c("19.5 cm", '7.75"'),
+              c("21 cm", '8.25"'),
+              c("21.5 cm", '8.5"'),
+              c("22 cm", '8.75"'),
+            ],
+          },
+          {
+            label: "Ærmelængde til ærmegab",
+            cells: [
+              c("15.5 cm", '6"'),
+              c("16.5 cm", '6.5"'),
+              c("19 cm", '7.5"'),
+              c("20.5 cm", '8"'),
+              c("21.5 cm", '8.5"'),
+            ],
+          },
+          {
+            label: "Overarm",
+            cells: [
+              c("14 cm", '5.5"'),
+              c("15.5 cm", '6"'),
+              c("16.5 cm", '6.5"'),
+              c("17.5 cm", '7"'),
+              c("19 cm", '7.5"'),
+            ],
+          },
+          {
+            label: "Ærmegabsdybde",
+            cells: [
+              c("8.5 cm", '3.25"'),
+              c("9 cm", '3.5"'),
+              c("9.5 cm", '3.75"'),
+              c("10 cm", '4"'),
+              c("10.5 cm", '4.25"'),
+            ],
+          },
+          {
+            label: "Talje",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("48 cm", '19"'),
+              c("50.5 cm", '20"'),
+              c("52 cm", '20.5"'),
+              c("53.5 cm", '21"'),
+            ],
+          },
+          {
+            label: "Hofter",
+            cells: [
+              c("48 cm", '19"'),
+              c("50.5 cm", '20"'),
+              c("50.5 cm", '20"'),
+              c("53.5 cm", '21"'),
+              c("56 cm", '22"'),
+            ],
+          },
+          {
+            label: "Midt bag i nakken til håndled",
+            cells: [
+              c("26.5 cm", '10.5"'),
+              c("29 cm", '11.5"'),
+              c("31.5 cm", '12.5"'),
+              c("35.5 cm", '14"'),
+              c("45.5 cm", '18"'),
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "barn",
+    label: "Barn",
+    tables: [
+      {
+        sizes: ["Str. 2", "Str. 4", "Str. 6", "Str. 8", "Str. 10"],
+        rows: [
+          {
+            label: "Brystmål",
+            cells: [
+              c("53 cm", '21"'),
+              c("58.5 cm", '23"'),
+              c("63.5 cm", '25"'),
+              c("67 cm", '26.5"'),
+              c("71 cm", '28"'),
+            ],
+          },
+          {
+            label: "Ryglængde til talje",
+            cells: [
+              c("21.5 cm", '8.5"'),
+              c("24 cm", '9.5"'),
+              c("26.5 cm", '10.5"'),
+              c("31.5 cm", '12.5"'),
+              c("35.5 cm", '14"'),
+            ],
+          },
+          {
+            label: "Rygbredde",
+            cells: [
+              c("23.5 cm", '9.25"'),
+              c("25 cm", '9.75"'),
+              c("26 cm", '10.25"'),
+              c("27 cm", '10.75"'),
+              c("28.5 cm", '11.25"'),
+            ],
+          },
+          {
+            label: "Ærmelængde til ærmegab",
+            cells: [
+              c("21.5 cm", '8.5"'),
+              c("26.5 cm", '10.5"'),
+              c("29 cm", '11.5"'),
+              c("31.5 cm", '12.5"'),
+              c("34.5 cm", '13.5"'),
+            ],
+          },
+          {
+            label: "Overarm",
+            cells: [
+              c("17.5 cm", '7"'),
+              c("19 cm", '7.5"'),
+              c("20.5 cm", '8"'),
+              c("21.5 cm", '8.5"'),
+              c("22 cm", '8.75"'),
+            ],
+          },
+          {
+            label: "Ærmegabsdybde",
+            cells: [
+              c("10.5 cm", '4.25"'),
+              c("12 cm", '4.75"'),
+              c("12.5 cm", '5"'),
+              c("14 cm", '5.5"'),
+              c("15.5 cm", '6"'),
+            ],
+          },
+          {
+            label: "Talje",
+            cells: [
+              c("53.5 cm", '21"'),
+              c("54.5 cm", '21.5"'),
+              c("57 cm", '22.5"'),
+              c("59.5 cm", '23.5"'),
+              c("62 cm", '24.5"'),
+            ],
+          },
+          {
+            label: "Hofter",
+            cells: [
+              c("56 cm", '22"'),
+              c("59.5 cm", '23.5"'),
+              c("63.5 cm", '25"'),
+              c("71 cm", '28"'),
+              c("75 cm", '29.5"'),
+            ],
+          },
+          {
+            label: "Midt bag i nakken til håndled",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("49.5 cm", '19.5"'),
+              c("52 cm", '20.5"'),
+              c("56 cm", '22"'),
+              c("61 cm", '24"'),
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "teenager",
+    label: "Teenager",
+    tables: [
+      {
+        sizes: ["Str. 12", "Str. 14", "Str. 16"],
+        rows: [
+          {
+            label: "Brystmål",
+            cells: [
+              c("76 cm", '30"'),
+              c("80 cm", '31.5"'),
+              c("82.5 cm", '32.5"'),
+            ],
+          },
+          {
+            label: "Ryglængde til talje",
+            cells: [
+              c("38 cm", '15"'),
+              c("39.5 cm", '15.5"'),
+              c("40.5 cm", '16"'),
+            ],
+          },
+          {
+            label: "Rygbredde",
+            cells: [
+              c("30.5 cm", '12"'),
+              c("31 cm", '12.25"'),
+              c("33 cm", '13"'),
+            ],
+          },
+          {
+            label: "Ærmelængde til ærmegab",
+            cells: [
+              c("38 cm", '15"'),
+              c("40.5 cm", '16"'),
+              c("42 cm", '16.5"'),
+            ],
+          },
+          {
+            label: "Overarm",
+            cells: [
+              c("23 cm", '9"'),
+              c("23.5 cm", '9.25"'),
+              c("24 cm", '9.5"'),
+            ],
+          },
+          {
+            label: "Ærmegabsdybde",
+            cells: [
+              c("16.5 cm", '6.5"'),
+              c("17.5 cm", '7"'),
+              c("19 cm", '7.5"'),
+            ],
+          },
+          {
+            label: "Talje",
+            cells: [
+              c("63.5 cm", '25"'),
+              c("67.5 cm", '26.5"'),
+              c("69.5 cm", '27.5"'),
+            ],
+          },
+          {
+            label: "Hofter",
+            cells: [
+              c("80 cm", '31.5"'),
+              c("83.5 cm", '33"'),
+              c("90 cm", '35.5"'),
+            ],
+          },
+          {
+            label: "Midt bag i nakken til håndled",
+            cells: [c("66 cm", '26"'), c("68.5 cm", '27"'), c("71 cm", '28"')],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kvinde",
+    label: "Kvinde",
+    tables: [
+      {
+        caption: "Kvinde XS-XL",
+        sizes: ["XS", "S", "M", "L", "XL"],
+        rows: [
+          {
+            label: "Brystmål",
+            cells: [
+              c("71-76 cm", '28-30"'),
+              c("81-86 cm", '32-34"'),
+              c("91.5-96.5 cm", '36-38"'),
+              c("101.5-106.5 cm", '40-42"'),
+              c("111.5-117 cm", '44-46"'),
+            ],
+          },
+          {
+            label: "Ryglængde til talje",
+            cells: [
+              c("42 cm", '16.5"'),
+              c("43 cm", '17"'),
+              c("43.5 cm", '17.25"'),
+              c("44.5 cm", '17.5"'),
+              c("45 cm", '17.75"'),
+            ],
+          },
+          {
+            label: "Rygbredde",
+            cells: [
+              c("35.5-37 cm", '14-14.5"'),
+              c("37-38 cm", '14.5-15"'),
+              c("39.5-40.5 cm", '15.5-16"'),
+              c("42-43 cm", '16.5-17"'),
+              c("44.5 cm", '17.5"'),
+            ],
+          },
+          {
+            label: "Ærmelængde til ærmegab",
+            cells: [
+              c("42 cm", '16.5"'),
+              c("43 cm", '17"'),
+              c("43 cm", '17"'),
+              c("44.5 cm", '17.5"'),
+              c("44.5 cm", '17.5"'),
+            ],
+          },
+          {
+            label: "Overarm",
+            cells: [
+              c("25 cm", '9.75"'),
+              c("26 cm", '10.25"'),
+              c("28 cm", '11"'),
+              c("30.5 cm", '12"'),
+              c("34.5 cm", '13.5"'),
+            ],
+          },
+          {
+            label: "Ærmegabsdybde",
+            cells: [
+              c("15.5-16.5 cm", '6-6.5"'),
+              c("16.5-17.5 cm", '6.5-7"'),
+              c("17.5-19 cm", '7-7.5"'),
+              c("19-20.5 cm", '7.5-8"'),
+              c("20.5-21.5 cm", '8-8.5"'),
+            ],
+          },
+          {
+            label: "Talje",
+            cells: [
+              c("58.5-61 cm", '23-24"'),
+              c("63.5-67.5 cm", '25-26.5"'),
+              c("71-76 cm", '28-30"'),
+              c("81.5-86.5 cm", '32-34"'),
+              c("91.5-96.5 cm", '36-38"'),
+            ],
+          },
+          {
+            label: "Hofter",
+            cells: [
+              c("83.5-86 cm", '33-34"'),
+              c("89-91.5 cm", '35-36"'),
+              c("96.5-101.5 cm", '38-40"'),
+              c("106.5-111.5 cm", '42-44"'),
+              c("116.5-122 cm", '46-48"'),
+            ],
+          },
+          {
+            label: "Midt bag i nakken til håndled",
+            cells: [
+              c("66-68.5 cm", '26-26.5"'),
+              c("68.5-70 cm", '27-27.5"'),
+              c("71-72.5 cm", '28-28.5"'),
+              c("73.5-75 cm", '29-29.5"'),
+              c("73.5-75 cm", '29-29.5"'),
+            ],
+          },
+        ],
+      },
+      {
+        caption: "Kvinde 2XL-5XL",
+        sizes: ["2XL", "3XL", "4XL", "5XL"],
+        rows: [
+          {
+            label: "Brystmål",
+            cells: [
+              c("122-127 cm", '48-50"'),
+              c("132-137 cm", '52-54"'),
+              c("142-147 cm", '56-58"'),
+              c("152-158 cm", '60-62"'),
+            ],
+          },
+          {
+            label: "Ryglængde til talje",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("45.5 cm", '18"'),
+              c("47 cm", '18.5"'),
+              c("47 cm", '18.5"'),
+            ],
+          },
+          {
+            label: "Rygbredde",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("45.5 cm", '18"'),
+              c("47 cm", '18.5"'),
+              c("47 cm", '18.5"'),
+            ],
+          },
+          {
+            label: "Ærmelængde til ærmegab",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("45.5 cm", '18"'),
+              c("47 cm", '18.5"'),
+              c("47 cm", '18.5"'),
+            ],
+          },
+          {
+            label: "Overarm",
+            cells: [
+              c("39.5 cm", '15.5"'),
+              c("43 cm", '17"'),
+              c("47 cm", '18.5"'),
+              c("49.5 cm", '18.5"'),
+            ],
+          },
+          {
+            label: "Ærmegabsdybde",
+            cells: [
+              c("21.5-23 cm", '8.5-9"'),
+              c("23-24 cm", '9-9.5"'),
+              c("24-25.5 cm", '9.5-10"'),
+              c("25.5-26.5 cm", '10-10.5"'),
+            ],
+          },
+          {
+            label: "Talje",
+            cells: [
+              c("101.5-106.5 cm", '40-42"'),
+              c("111.5-114 cm", '44-45"'),
+              c("116.5-119 cm", '46-47"'),
+              c("124-127 cm", '49-50"'),
+            ],
+          },
+          {
+            label: "Hofter",
+            cells: [
+              c("132-134.5 cm", '52-53"'),
+              c("137-139.5 cm", '54-55"'),
+              c("142-144.5 cm", '56-57"'),
+              c("155-157 cm", '61-62"'),
+            ],
+          },
+          {
+            label: "Midt bag i nakken til håndled",
+            cells: [
+              c("76.5-77.5 cm", '30-30.5"'),
+              c("77.5-79 cm", '30.5-31"'),
+              c("80-81.5 cm", '31.5-32"'),
+              c("80-81.5 cm", '31.5-32"'),
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "mand",
+    label: "Mand",
+    tables: [
+      {
+        caption: "Mand S-XL",
+        sizes: ["S", "M", "L", "XL"],
+        rows: [
+          {
+            label: "Brystmål",
+            cells: [
+              c("86-91.5 cm", '34-36"'),
+              c("96.5-101.5 cm", '38-40"'),
+              c("106.5-111.5 cm", '42-44"'),
+              c("116.5-122 cm", '46-48"'),
+            ],
+          },
+          {
+            label: "Ryglængde til talje",
+            cells: [
+              c("58.5-61 cm", '23-24"'),
+              c("63.5-66 cm", '25-26"'),
+              c("66-68.5 cm", '26-27"'),
+              c("71 cm", '28"'),
+            ],
+          },
+          {
+            label: "Rygbredde",
+            cells: [
+              c("39.5-40.5 cm", '15.5-16"'),
+              c("42-43 cm", '16.5-17"'),
+              c("44.5-45.5 cm", '17.5-18"'),
+              c("45.5-47 cm", '18-18.5"'),
+            ],
+          },
+          {
+            label: "Ærmelængde til ærmegab",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("47 cm", '18.5"'),
+              c("49.5 cm", '19.5"'),
+              c("50.5 cm", '20"'),
+            ],
+          },
+          {
+            label: "Overarm",
+            cells: [
+              c("30.5 cm", '12"'),
+              c("33 cm", '13"'),
+              c("38 cm", '15"'),
+              c("39.5 cm", '15.5"'),
+            ],
+          },
+          {
+            label: "Ærmegabsdybde",
+            cells: [
+              c("21.5-23 cm", '8.5-9"'),
+              c("23-24 cm", '9-9.5"'),
+              c("24-25.5 cm", '9.5-10"'),
+              c("25.5-26 cm", '10-10.5"'),
+            ],
+          },
+          {
+            label: "Talje",
+            cells: [
+              c("71-76 cm", '28-30"'),
+              c("81.5-86.5 cm", '32-34"'),
+              c("91.5-96.5 cm", '36-38"'),
+              c("106.5-112 cm", '42-44"'),
+            ],
+          },
+          {
+            label: "Hofter",
+            cells: [
+              c("89-94 cm", '35-37"'),
+              c("99-104 cm", '39-41"'),
+              c("109-114 cm", '43-45"'),
+              c("119-124.5 cm", '47-49"'),
+            ],
+          },
+          {
+            label: "Midt bag i nakken til håndled",
+            cells: [
+              c("81-82.5 cm", '32-32.5"'),
+              c("83.5-85 cm", '33-33.5"'),
+              c("86.5-87.5 cm", '34-34.5"'),
+              c("89-90 cm", '35-35.5"'),
+            ],
+          },
+        ],
+      },
+      {
+        caption: "Mand 2XL-5XL",
+        sizes: ["2XL", "3XL", "4XL", "5XL"],
+        rows: [
+          {
+            label: "Brystmål",
+            cells: [
+              c("127-132 cm", '50-52"'),
+              c("137-142 cm", '54-56"'),
+              c("147.5-152 cm", '58-60"'),
+              c("157.5-162.5 cm", '62-64"'),
+            ],
+          },
+          {
+            label: "Ryglængde til talje",
+            cells: [
+              c("73.5 cm", '29"'),
+              c("76 cm", '30"'),
+              c("76 cm", '30"'),
+              c("79 cm", '31"'),
+            ],
+          },
+          {
+            label: "Rygbredde",
+            cells: [
+              c("48-51 cm", '19-20"'),
+              c("48-51 cm", '20-21"'),
+              c("51-54.5 cm", '21-21.5"'),
+              c("56-57 cm", '22-22.5"'),
+            ],
+          },
+          {
+            label: "Ærmelængde til ærmegab",
+            cells: [
+              c("52 cm", '20.5"'),
+              c("52 cm", '20.5"'),
+              c("49.5 cm", '21"'),
+              c("53.5-54.5 cm", '21.5"'),
+            ],
+          },
+          {
+            label: "Overarm",
+            cells: [
+              c("42 cm", '16.5"'),
+              c("44.5 cm", '17.5"'),
+              c("47 cm", '18.5"'),
+              c("48 cm", '20"'),
+            ],
+          },
+          {
+            label: "Ærmegabsdybde",
+            cells: [
+              c("28 cm", '11"'),
+              c("29 cm", '11.5"'),
+              c("30.5 cm", '12"'),
+              c("32 cm", '12.5"'),
+            ],
+          },
+          {
+            label: "Talje",
+            cells: [
+              c("117-122 cm", '46-48"'),
+              c("127-132 cm", '50-52"'),
+              c("137-142 cm", '54-56"'),
+              c("147.5-152.5 cm", '58-60"'),
+            ],
+          },
+          {
+            label: "Hofter",
+            cells: [
+              c("129-134 cm", '51-53"'),
+              c("137-142 cm", '54-56"'),
+              c("142-147.5 cm", '56-58"'),
+              c("147.5-152.5 cm", '58-60"'),
+            ],
+          },
+          {
+            label: "Midt bag i nakken til håndled",
+            cells: [
+              c("91.5-92.5 cm", '36-36.5"'),
+              c("94-95 cm", '37-37.5"'),
+              c("96.5-97.5 cm", '38-38.5"'),
+              c("99-100.5 cm", '39-39.5"'),
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "tilbehoer",
+    label: "Tilbehør",
+    intro: "Mål til hoved, fod og hånd til huer, strømper, vanter og handsker.",
+    tables: [
+      {
+        caption: "Hovedomkreds",
+        sizeHeader: "Kategori",
+        sizes: ["Omkreds"],
+        rows: [
+          { label: "For tidligt født", cells: [c("23-30.5 cm", '9-12"')] },
+          { label: "Baby", cells: [c("35.5-40.5 cm", '14-16"')] },
+          { label: "Tumling", cells: [c("40.5-46 cm", '16-18"')] },
+          { label: "Barn", cells: [c("45.5-51 cm", '18-20"')] },
+          { label: "Teenager", cells: [c("51-56 cm", '20-22"')] },
+          { label: "Kvinde", cells: [c("53-58.5 cm", '21-23"')] },
+          { label: "Mand", cells: [c("56-61 cm", '22-24"')] },
+        ],
+      },
+      {
+        caption: "Fodlængde",
+        sizeHeader: "Størrelse",
+        sizes: ["Længde"],
+        rows: [
+          { label: "Baby (0-6 mdr.)", cells: [c("9 cm", '3.5"')] },
+          { label: "Baby (6-12 mdr.)", cells: [c("10-11 cm", '4-4.5"')] },
+          { label: "Tumling (1-2)", cells: [c("12-13 cm", '4.75-5"')] },
+          { label: "Barn (3-6)", cells: [c("14-18 cm", '5.5-7"')] },
+          { label: "Barn (7-10)", cells: [c("19-21 cm", '7.5-8.25"')] },
+          { label: "Teenager", cells: [c("22-24 cm", '8.5-9.5"')] },
+          { label: "Kvinde", cells: [c("23-26 cm", '9-10.25"')] },
+          { label: "Mand", cells: [c("25-29 cm", '10-11.5"')] },
+        ],
+      },
+      {
+        caption: "Håndomkreds",
+        sizeHeader: "Størrelse",
+        sizes: ["Omkreds"],
+        rows: [
+          { label: "Baby", cells: [c("10-13 cm", '4-5"')] },
+          { label: "Tumling", cells: [c("13-15 cm", '5-6"')] },
+          { label: "Barn", cells: [c("15-18 cm", '6-7"')] },
+          { label: "Teenager", cells: [c("18-20 cm", '7-8"')] },
+          { label: "Kvinde", cells: [c("18-20 cm", '7-8"')] },
+          { label: "Mand", cells: [c("20-23 cm", '8-9"')] },
+        ],
+      },
+    ],
+  },
+];
+
+const defaultPanel = "kvinde";
+
+const faqs = [
+  {
+    q: "Er målene ens i alle strikkeopskrifter?",
+    a: "De fleste store udgivere og uafhængige designere følger Craft Yarn Councils standarder, men der findes ingen fælles kontrol. Nogle designere bruger deres egne størrelsesskemaer, især når opskriften har mange størrelser. Tjek altid opskriftens egen størrelsestabel, hvis den findes.",
+  },
+  {
+    q: "Hvordan vælger jeg størrelse, hvis opskriften bruger numre i stedet for XS/S/M/L?",
+    a: "Sammenlign brystmålet for hver nummereret størrelse med tabellerne ovenfor. Det er brystmålet, der betyder noget. Ignorér selve etiketten.",
+  },
+  {
+    q: "Skal jeg måle over tøj eller direkte på kroppen?",
+    a: "Mål over let tøj: en tætsiddende T-shirt eller et tyndt lag. En tyk sweater lægger centimeter til, som ikke hører til kroppen. Måler du direkte på huden, kan tallet blive lidt mindre end det, det færdige stykke faktisk skal kunne rumme.",
+  },
+  {
+    q: "Hvad hvis mine mål ikke passer pænt i én størrelse?",
+    a: "Det er normalt. De fleste kroppe har ikke samme størrelse alle steder. Prioritér det vigtigste mål for projektet: bryst til en sweater, hofter til en nederdel, hovedomkreds til en hue. Mange opskrifter forklarer, hvordan bestemte dele kan gøres længere eller kortere.",
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Størrelsestabeller til strik"
+  description="Standard kropsmål til strik fra baby til voksen. Se bryst, talje, hofter, ærmelængde og andre mål i cm og inch, når du vælger størrelse."
+  canonicalPath={danishToolRoutes.knittingSizeCharts}
+  lang="da"
+  alternates={danishToolAlternates.tool.knittingSizeCharts}
+  intro="Standard kropsmål i cm til strikkeprojekter. Skift til inch, når du sammenligner med en US- eller UK-opskrift."
+  schemaName="Størrelsestabeller til strik"
+  schemaDescription="Referencetabeller med standard kropsmål til strik, fra baby til voksen."
+  faqs={faqs}
+  variant="terracotta"
+>
+  <div slot="tool">
+    <p class="panel-intro">
+      Det er kropsmål, ikke mål på det færdige arbejde. Læg bevægelsesrum til
+      for den pasform, du vil have.
+    </p>
+    <div class="chart-controls">
+      <div class="tab-scroller">
+        <div class="tabs" role="tablist" aria-label="Størrelseskategori">
+          {
+            panels.map((panel) => (
+              <button
+                type="button"
+                role="tab"
+                class={`tab-btn${panel.id === defaultPanel ? " is-active" : ""}`}
+                data-tab={panel.id}
+                aria-selected={panel.id === defaultPanel ? "true" : "false"}
+                aria-controls={`panel-${panel.id}`}
+                id={`tab-${panel.id}`}
+              >
+                {panel.label}
+              </button>
+            ))
+          }
+        </div>
+      </div>
+
+      <div class="unit-toggle" role="radiogroup" aria-label="Måleenhed">
+        <button
+          type="button"
+          role="radio"
+          class="unit-btn is-active"
+          data-unit="cm"
+          aria-checked="true">CM</button
+        >
+        <button
+          type="button"
+          role="radio"
+          class="unit-btn"
+          data-unit="inch"
+          aria-checked="false">inch</button
+        >
+      </div>
+    </div>
+
+    <div class="chart-wrap show-cm" id="da-size-chart-wrap">
+      {
+        panels.map((panel) => (
+          <div
+            class={`panel${panel.id === defaultPanel ? " is-active" : ""}`}
+            data-panel={panel.id}
+            role="tabpanel"
+            id={`panel-${panel.id}`}
+            aria-labelledby={`tab-${panel.id}`}
+            hidden={panel.id !== defaultPanel}
+          >
+            {panel.intro && <p class="panel-intro">{panel.intro}</p>}
+            {panel.tables.map((table) => (
+              <div class="table-block">
+                {table.caption && (
+                  <h3 class="table-caption">{table.caption}</h3>
+                )}
+                <div class="table-scroll">
+                  <table class="size-table">
+                    <thead>
+                      <tr>
+                        <th class="sticky-col">
+                          {table.sizeHeader ?? "Størrelse"}
+                        </th>
+                        {table.sizes.map((size) => (
+                          <th>{size}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {table.rows.map((row) => (
+                        <tr>
+                          <th scope="row" class="sticky-col row-label">
+                            {row.label}
+                          </th>
+                          {row.cells.map((cell) => (
+                            <td>
+                              <span class="unit-cm">
+                                {formatNumberText(cell.cm)}
+                              </span>
+                              <span class="unit-inch">
+                                {formatNumberText(cell.inch)}
+                              </span>
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ))}
+          </div>
+        ))
+      }
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Sådan tager du kropsmål</h2>
+    <p>
+      Målene i tabellerne hører til bestemte steder på kroppen. Hvis tallet skal
+      bruges til en strikkeopskrift, skal du måle samme sted hver gang.
+    </p>
+    <p>
+      <strong>Brystmål:</strong> Mål rundt om det bredeste sted på brystet, med målebåndet
+      vandret, tæt på kroppen men uden at stramme. Hos kvinder er det over det fyldigste
+      sted på brystet. Det er det vigtigste mål til overdele.
+    </p>
+    <p>
+      <strong>Talje:</strong> Mål rundt om den naturlige talje, det smalleste sted
+      på kroppen, ofte lige over navlen. Er du i tvivl, så bøj dig til siden; folden
+      viser, hvor taljen sidder.
+    </p>
+    <p>
+      <strong>Hofter:</strong> Mål rundt om det bredeste sted på hofterne, ofte 18-23
+      cm under taljen. Hold målebåndet vandret.
+    </p>
+    <p>
+      <strong>Rygbredde:</strong> Mål lige hen over ryggen, fra skulderpunkt til skulderpunkt.
+      Det bestemmer skulderbredden i det færdige arbejde.
+    </p>
+    <p>
+      <strong>Ryglængde til talje:</strong> Mål fra knoglen nederst i nakken til den
+      naturlige talje. Det viser, hvor lang kroppen i modellen skal være.
+    </p>
+    <p>
+      <strong>Ærmelængde til ærmegab:</strong> Mål fra håndledsknoglen til armhulen.
+      Det er udgangspunktet for ærmelængden.
+    </p>
+    <p>
+      <strong>Overarm:</strong> Mål rundt om det bredeste sted på overarmen, mens
+      armen hænger afslappet ned langs kroppen.
+    </p>
+    <p>
+      <strong>Ærmegabsdybde:</strong> Mål fra toppen af skulderen ned til armhulen.
+      Det bestemmer dybden på ærmegabet.
+    </p>
+    <p>
+      <strong>Midt bag i nakken til håndled:</strong> Mål fra midt bag i nakken, over
+      skulderen og langs armen til håndledsknoglen. Det samlede mål er nyttigt ved
+      raglan og bærestykker, hvor krop og ærmer hænger sammen.
+    </p>
+
+    <h2>Kropsmål eller færdige mål</h2>
+    <p>
+      Det er den mest almindelige forvirring ved størrelser i strik. Tabellerne
+      viser kropsmål, altså kroppens faktiske mål. Et færdigt stykke strik er
+      som regel større, fordi der er bevægelsesrum i det.
+    </p>
+    <p>
+      <strong>Negativt bevægelsesrum (-2,5 til -5 cm):</strong> Arbejdet er mindre
+      end kroppen. Det bruges til huer, strømper og tætsiddende rib, der skal blive
+      siddende.
+    </p>
+    <p>
+      <strong>Intet bevægelsesrum:</strong> Arbejdet svarer nøjagtigt til kropsmålet.
+      Det er sjældent i strik. Resultatet bliver meget kropsnært.
+    </p>
+    <p>
+      <strong>Positivt bevægelsesrum (5-10 cm):</strong> Arbejdet er lidt større end
+      kroppen. Det er standardpasformen for de fleste sweatre, cardigans og toppe.
+    </p>
+    <p>
+      <strong>Oversize bevægelsesrum (10-20+ cm):</strong> Arbejdet er tydeligt større
+      end kroppen. Rummelige sweatre, cocoon-cardigans og afslappede pasformer ligger
+      her.
+    </p>
+    <p>
+      Hvis en opskrift skriver "passer til brystmål 91,5 cm" og derefter angiver
+      en færdig overvidde på 101,5 cm, er forskellen på 10 cm bevægelsesrummet.
+      Din opgave er at vælge den størrelse, hvor "passer til"-målet matcher
+      kroppen, ikke de færdige mål.
+    </p>
+    <p>
+      Når du har valgt mål, kan <a href={danishToolRoutes.yarnEstimator}
+        >garnberegneren</a
+      > tjekke, om garnmængden virker realistisk, og <a
+        href="/da/artikler/hvor-meget-garn-til-sweater/"
+        >guiden til garn til en sweater</a
+      > går dybere ned i størrelsesberegninger.
+    </p>
+
+    <h2>At vælge mellem to størrelser</h2>
+    <p>
+      Ligger dit brystmål mellem to størrelser, afhænger valget af den pasform,
+      opskriften er tænkt til. Til en tæt model vælger du den mindre. Til en
+      afslappet eller oversize pasform vælger du den større.
+    </p>
+    <p>
+      Sammenlign også de andre mål, især hofter på længere modeller og overarm
+      på tætsiddende ærmer. Hvis brystet siger M, men hofterne siger L, så kig
+      på opskriftens målskema og se, om forskellen ved hofterne betyder noget
+      for længde og form.
+    </p>
+    <p>
+      Uanset hvilken størrelse du vælger, afgør <a
+        href="/da/artikler/strikkeproeve-trin-for-trin/">strikkeprøven</a
+      >, om det færdige arbejde faktisk passer til tallene i opskriften. Guiden <a
+        href="/da/artikler/maal-strikkefasthed/"
+        >sådan måler du strikkefasthed</a
+      > forklarer metoden.
+    </p>
+  </div>
+</LocalizedToolPage>
+
+<script>
+  const tabButtons = document.querySelectorAll<HTMLButtonElement>(".tab-btn");
+  const panels = document.querySelectorAll<HTMLElement>(".panel");
+
+  tabButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const target = button.dataset.tab;
+
+      tabButtons.forEach((tab) => {
+        const isActive = tab.dataset.tab === target;
+        tab.classList.toggle("is-active", isActive);
+        tab.setAttribute("aria-selected", isActive ? "true" : "false");
+      });
+
+      panels.forEach((panel) => {
+        const isActive = panel.dataset.panel === target;
+        panel.classList.toggle("is-active", isActive);
+        if (isActive) {
+          panel.removeAttribute("hidden");
+        } else {
+          panel.setAttribute("hidden", "");
+        }
+      });
+    });
+  });
+
+  const unitButtons = document.querySelectorAll<HTMLButtonElement>(".unit-btn");
+  const chartWrap = document.getElementById("da-size-chart-wrap");
+
+  unitButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const unit = button.dataset.unit;
+      if (!unit || !chartWrap) return;
+
+      unitButtons.forEach((unitButton) => {
+        const isActive = unitButton.dataset.unit === unit;
+        unitButton.classList.toggle("is-active", isActive);
+        unitButton.setAttribute("aria-checked", isActive ? "true" : "false");
+      });
+
+      chartWrap.classList.toggle("show-cm", unit === "cm");
+      chartWrap.classList.toggle("show-inch", unit === "inch");
+    });
+  });
+</script>

@@ -4,11 +4,18 @@ description: "Blocage humide, blocage à la vapeur et blocage léger au vaporisa
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 9
-tags: ["bloquer un tricot", "blocage humide tricot", "blocage vapeur", "bloquer au vaporisateur"]
+tags:
+  [
+    "bloquer un tricot",
+    "blocage humide tricot",
+    "blocage vapeur",
+    "bloquer au vaporisateur",
+  ]
 draft: false
 lang: fr
 translationKey: "how-to-block-knitting"
 ---
+
 Bloquer un tricot consiste à mouiller, vaporiser ou passer à la vapeur une pièce finie, puis à la mettre en forme aux dimensions prévues. Cela transforme un tricot bosselé et irrégulier en tissu fini. Les mailles se régularisent, le tissu se détend aux bonnes mesures, et la dentelle s'ouvre au lieu de rester tassée. Certains projets en ont à peine besoin. D'autres sont méconnaissables sans blocage.
 
 La méthode dépend de la fibre. La laine réagit au blocage humide. L'acrylique réagit à la vapeur. Le coton ne réagit franchement pas très bien à grand-chose, mais il profite d'un bon trempage et d'une mise en forme à plat.

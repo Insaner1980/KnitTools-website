@@ -1,15 +1,15 @@
 ---
-import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
-import { routes } from '../../../i18n/routes';
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
+import { routes } from "../../../i18n/routes";
 
 type Category =
-  | 'cast-on-bind-off'
-  | 'increases'
-  | 'decreases'
-  | 'cables'
-  | 'lace'
-  | 'general'
-  | 'stitch-patterns';
+  | "cast-on-bind-off"
+  | "increases"
+  | "decreases"
+  | "cables"
+  | "lace"
+  | "general"
+  | "stitch-patterns";
 
 interface Abbreviation {
   abbr: string;
@@ -19,104 +19,376 @@ interface Abbreviation {
 }
 
 const categoryLabels: Record<Category, string> = {
-  'cast-on-bind-off': 'Montage / rabattage',
-  increases: 'Augmentations',
-  decreases: 'Diminutions',
-  cables: 'Torsades',
-  lace: 'Dentelle',
-  general: 'Général',
-  'stitch-patterns': 'Points',
+  "cast-on-bind-off": "Montage / rabattage",
+  increases: "Augmentations",
+  decreases: "Diminutions",
+  cables: "Torsades",
+  lace: "Dentelle",
+  general: "Général",
+  "stitch-patterns": "Points",
 };
 
 const abbreviations: Abbreviation[] = [
-  { abbr: 'CO', def: 'monter les mailles (cast on)', search: 'cast on monter les mailles montage', categories: ['cast-on-bind-off'] },
-  { abbr: 'BO', def: 'rabattre les mailles (bind off US / cast off UK)', search: 'bind off cast off rabattre les mailles rabattage', categories: ['cast-on-bind-off'] },
+  {
+    abbr: "CO",
+    def: "monter les mailles (cast on)",
+    search: "cast on monter les mailles montage",
+    categories: ["cast-on-bind-off"],
+  },
+  {
+    abbr: "BO",
+    def: "rabattre les mailles (bind off US / cast off UK)",
+    search: "bind off cast off rabattre les mailles rabattage",
+    categories: ["cast-on-bind-off"],
+  },
 
-  { abbr: 'k', def: "maille endroit / tricoter à l'endroit (knit)", search: 'knit endroit maille endroit tricoter endroit', categories: ['general'] },
-  { abbr: 'p', def: "maille envers / tricoter à l'envers (purl)", search: 'purl envers maille envers tricoter envers', categories: ['general'] },
-  { abbr: 'st(s)', def: 'maille(s) (stitch/es)', search: 'stitch stitches maille mailles', categories: ['general'] },
-  { abbr: 'RS', def: "endroit de l'ouvrage (right side)", search: 'right side endroit ouvrage', categories: ['general'] },
-  { abbr: 'WS', def: "envers de l'ouvrage (wrong side)", search: 'wrong side envers ouvrage', categories: ['general'] },
-  { abbr: 'rep', def: 'répéter (repeat)', search: 'repeat répéter répétition rapport', categories: ['general'] },
-  { abbr: 'beg', def: 'début (beginning)', search: 'beginning début commencer', categories: ['general'] },
-  { abbr: 'rem', def: 'restant / restantes (remaining)', search: 'remaining restant restantes', categories: ['general'] },
-  { abbr: 'cont', def: 'continuer (continue)', search: 'continue continuer', categories: ['general'] },
-  { abbr: 'alt', def: 'alterner / alternativement (alternate)', search: 'alternate alterner alternativement', categories: ['general'] },
-  { abbr: 'approx', def: 'environ (approximately)', search: 'approximately environ approximativement', categories: ['general'] },
-  { abbr: 'tbl', def: 'par le brin arrière (through back loop)', search: 'through back loop brin arrière maille torse', categories: ['general'] },
-  { abbr: 'wyif', def: 'fil devant le travail (with yarn in front)', search: 'with yarn in front fil devant travail', categories: ['general'] },
-  { abbr: 'wyib', def: 'fil derrière le travail (with yarn in back)', search: 'with yarn in back fil derrière travail', categories: ['general'] },
-  { abbr: 'sl', def: 'glisser une maille (slip)', search: 'slip glisser maille glissée', categories: ['general'] },
-  { abbr: 'sl st', def: 'maille glissée (slip stitch)', search: 'slip stitch maille glissée', categories: ['general'] },
-  { abbr: 'pm', def: 'placer un marqueur (place marker)', search: 'place marker placer marqueur maille', categories: ['general'] },
-  { abbr: 'sm', def: 'glisser le marqueur (slip marker)', search: 'slip marker glisser marqueur', categories: ['general'] },
-  { abbr: 'MC', def: 'couleur principale (main color)', search: 'main color couleur principale', categories: ['general'] },
-  { abbr: 'CC', def: 'couleur contrastante (contrast color)', search: 'contrast color couleur contrastante', categories: ['general'] },
-  { abbr: 'dpn(s)', def: 'aiguille(s) doubles pointes (double-pointed needle/s)', search: 'double pointed needles aiguilles doubles pointes dpns', categories: ['general'] },
-  { abbr: 'cn', def: 'aiguille à torsade (cable needle)', search: 'cable needle aiguille torsade auxiliaire', categories: ['general'] },
-  { abbr: 'rnd(s)', def: 'tour(s) (round/s)', search: 'round rounds tour tours circulaire', categories: ['general'] },
+  {
+    abbr: "k",
+    def: "maille endroit / tricoter à l'endroit (knit)",
+    search: "knit endroit maille endroit tricoter endroit",
+    categories: ["general"],
+  },
+  {
+    abbr: "p",
+    def: "maille envers / tricoter à l'envers (purl)",
+    search: "purl envers maille envers tricoter envers",
+    categories: ["general"],
+  },
+  {
+    abbr: "st(s)",
+    def: "maille(s) (stitch/es)",
+    search: "stitch stitches maille mailles",
+    categories: ["general"],
+  },
+  {
+    abbr: "RS",
+    def: "endroit de l'ouvrage (right side)",
+    search: "right side endroit ouvrage",
+    categories: ["general"],
+  },
+  {
+    abbr: "WS",
+    def: "envers de l'ouvrage (wrong side)",
+    search: "wrong side envers ouvrage",
+    categories: ["general"],
+  },
+  {
+    abbr: "rep",
+    def: "répéter (repeat)",
+    search: "repeat répéter répétition rapport",
+    categories: ["general"],
+  },
+  {
+    abbr: "beg",
+    def: "début (beginning)",
+    search: "beginning début commencer",
+    categories: ["general"],
+  },
+  {
+    abbr: "rem",
+    def: "restant / restantes (remaining)",
+    search: "remaining restant restantes",
+    categories: ["general"],
+  },
+  {
+    abbr: "cont",
+    def: "continuer (continue)",
+    search: "continue continuer",
+    categories: ["general"],
+  },
+  {
+    abbr: "alt",
+    def: "alterner / alternativement (alternate)",
+    search: "alternate alterner alternativement",
+    categories: ["general"],
+  },
+  {
+    abbr: "approx",
+    def: "environ (approximately)",
+    search: "approximately environ approximativement",
+    categories: ["general"],
+  },
+  {
+    abbr: "tbl",
+    def: "par le brin arrière (through back loop)",
+    search: "through back loop brin arrière maille torse",
+    categories: ["general"],
+  },
+  {
+    abbr: "wyif",
+    def: "fil devant le travail (with yarn in front)",
+    search: "with yarn in front fil devant travail",
+    categories: ["general"],
+  },
+  {
+    abbr: "wyib",
+    def: "fil derrière le travail (with yarn in back)",
+    search: "with yarn in back fil derrière travail",
+    categories: ["general"],
+  },
+  {
+    abbr: "sl",
+    def: "glisser une maille (slip)",
+    search: "slip glisser maille glissée",
+    categories: ["general"],
+  },
+  {
+    abbr: "sl st",
+    def: "maille glissée (slip stitch)",
+    search: "slip stitch maille glissée",
+    categories: ["general"],
+  },
+  {
+    abbr: "pm",
+    def: "placer un marqueur (place marker)",
+    search: "place marker placer marqueur maille",
+    categories: ["general"],
+  },
+  {
+    abbr: "sm",
+    def: "glisser le marqueur (slip marker)",
+    search: "slip marker glisser marqueur",
+    categories: ["general"],
+  },
+  {
+    abbr: "MC",
+    def: "couleur principale (main color)",
+    search: "main color couleur principale",
+    categories: ["general"],
+  },
+  {
+    abbr: "CC",
+    def: "couleur contrastante (contrast color)",
+    search: "contrast color couleur contrastante",
+    categories: ["general"],
+  },
+  {
+    abbr: "dpn(s)",
+    def: "aiguille(s) doubles pointes (double-pointed needle/s)",
+    search: "double pointed needles aiguilles doubles pointes dpns",
+    categories: ["general"],
+  },
+  {
+    abbr: "cn",
+    def: "aiguille à torsade (cable needle)",
+    search: "cable needle aiguille torsade auxiliaire",
+    categories: ["general"],
+  },
+  {
+    abbr: "rnd(s)",
+    def: "tour(s) (round/s)",
+    search: "round rounds tour tours circulaire",
+    categories: ["general"],
+  },
 
-  { abbr: 'M1', def: 'augmenter 1 maille (make one)', search: 'make one augmenter augmentation', categories: ['increases'] },
-  { abbr: 'M1L', def: 'augmentation inclinée à gauche (make one left)', search: 'make one left augmentation gauche', categories: ['increases'] },
-  { abbr: 'M1R', def: 'augmentation inclinée à droite (make one right)', search: 'make one right augmentation droite', categories: ['increases'] },
-  { abbr: 'kfb', def: 'tricoter dans le brin avant puis arrière (knit front and back)', search: 'knit front and back brin avant arrière augmentation', categories: ['increases'] },
-  { abbr: 'pfb', def: "tricoter à l'envers dans le brin avant puis arrière (purl front and back)", search: 'purl front and back brin avant arrière augmentation', categories: ['increases'] },
-  { abbr: 'yo', def: 'jeté (yarn over)', search: 'yarn over jeté dentelle augmentation', categories: ['increases', 'lace'] },
-  { abbr: 'inc', def: 'augmenter / augmentation (increase)', search: 'increase augmenter augmentation', categories: ['increases'] },
+  {
+    abbr: "M1",
+    def: "augmenter 1 maille (make one)",
+    search: "make one augmenter augmentation",
+    categories: ["increases"],
+  },
+  {
+    abbr: "M1L",
+    def: "augmentation inclinée à gauche (make one left)",
+    search: "make one left augmentation gauche",
+    categories: ["increases"],
+  },
+  {
+    abbr: "M1R",
+    def: "augmentation inclinée à droite (make one right)",
+    search: "make one right augmentation droite",
+    categories: ["increases"],
+  },
+  {
+    abbr: "kfb",
+    def: "tricoter dans le brin avant puis arrière (knit front and back)",
+    search: "knit front and back brin avant arrière augmentation",
+    categories: ["increases"],
+  },
+  {
+    abbr: "pfb",
+    def: "tricoter à l'envers dans le brin avant puis arrière (purl front and back)",
+    search: "purl front and back brin avant arrière augmentation",
+    categories: ["increases"],
+  },
+  {
+    abbr: "yo",
+    def: "jeté (yarn over)",
+    search: "yarn over jeté dentelle augmentation",
+    categories: ["increases", "lace"],
+  },
+  {
+    abbr: "inc",
+    def: "augmenter / augmentation (increase)",
+    search: "increase augmenter augmentation",
+    categories: ["increases"],
+  },
 
-  { abbr: 'k2tog', def: "2 m. ens. à l'endroit, diminution inclinée à droite", search: 'knit two together deux mailles ensemble endroit diminution droite', categories: ['decreases', 'lace'] },
-  { abbr: 'p2tog', def: "2 m. ens. à l'envers (purl two together)", search: 'purl two together deux mailles ensemble envers diminution', categories: ['decreases'] },
-  { abbr: 'ssk', def: 'glisser, glisser, tricoter, diminution inclinée à gauche', search: 'slip slip knit ssk glisser glisser tricoter diminution gauche', categories: ['decreases', 'lace'] },
-  { abbr: 'skp', def: 'glisser, tricoter, passer la maille glissée par-dessus', search: 'slip knit pass slipped stitch over surjet simple diminution', categories: ['decreases'] },
-  { abbr: 'sk2p', def: 'glisser 1, tricoter 2 m. ensemble, passer la maille glissée par-dessus', search: 'slip one knit two together pass slipped stitch over double diminution', categories: ['decreases', 'lace'] },
-  { abbr: 's2kp', def: 'glisser 2, tricoter 1, passer les 2 mailles glissées par-dessus, double diminution centrée', search: 'slip two knit one pass two slipped stitches over diminution centrée', categories: ['decreases'] },
-  { abbr: 'CDD', def: 'double diminution centrée (centered double decrease)', search: 'centered double decrease double diminution centrée', categories: ['decreases'] },
-  { abbr: 'psso', def: 'passer la maille glissée par-dessus (pass slipped stitch over)', search: 'pass slipped stitch over passer maille glissée dessus diminution', categories: ['decreases'] },
-  { abbr: 'dec', def: 'diminuer / diminution (decrease)', search: 'decrease diminuer diminution', categories: ['decreases'] },
+  {
+    abbr: "k2tog",
+    def: "2 m. ens. à l'endroit, diminution inclinée à droite",
+    search: "knit two together deux mailles ensemble endroit diminution droite",
+    categories: ["decreases", "lace"],
+  },
+  {
+    abbr: "p2tog",
+    def: "2 m. ens. à l'envers (purl two together)",
+    search: "purl two together deux mailles ensemble envers diminution",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "ssk",
+    def: "glisser, glisser, tricoter, diminution inclinée à gauche",
+    search: "slip slip knit ssk glisser glisser tricoter diminution gauche",
+    categories: ["decreases", "lace"],
+  },
+  {
+    abbr: "skp",
+    def: "glisser, tricoter, passer la maille glissée par-dessus",
+    search: "slip knit pass slipped stitch over surjet simple diminution",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "sk2p",
+    def: "glisser 1, tricoter 2 m. ensemble, passer la maille glissée par-dessus",
+    search:
+      "slip one knit two together pass slipped stitch over double diminution",
+    categories: ["decreases", "lace"],
+  },
+  {
+    abbr: "s2kp",
+    def: "glisser 2, tricoter 1, passer les 2 mailles glissées par-dessus, double diminution centrée",
+    search:
+      "slip two knit one pass two slipped stitches over diminution centrée",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "CDD",
+    def: "double diminution centrée (centered double decrease)",
+    search: "centered double decrease double diminution centrée",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "psso",
+    def: "passer la maille glissée par-dessus (pass slipped stitch over)",
+    search: "pass slipped stitch over passer maille glissée dessus diminution",
+    categories: ["decreases"],
+  },
+  {
+    abbr: "dec",
+    def: "diminuer / diminution (decrease)",
+    search: "decrease diminuer diminution",
+    categories: ["decreases"],
+  },
 
-  { abbr: 'C4F', def: 'torsade sur 4 mailles vers l’avant (cable 4 front)', search: 'cable four front torsade avant', categories: ['cables'] },
-  { abbr: 'C4B', def: 'torsade sur 4 mailles vers l’arrière (cable 4 back)', search: 'cable four back torsade arrière', categories: ['cables'] },
-  { abbr: 'C6F', def: 'torsade sur 6 mailles vers l’avant (cable 6 front)', search: 'cable six front torsade avant', categories: ['cables'] },
-  { abbr: 'C6B', def: 'torsade sur 6 mailles vers l’arrière (cable 6 back)', search: 'cable six back torsade arrière', categories: ['cables'] },
-  { abbr: 'T2F', def: 'croiser 2 mailles vers l’avant (twist 2 front)', search: 'twist two front croiser torsade avant', categories: ['cables'] },
-  { abbr: 'T2B', def: 'croiser 2 mailles vers l’arrière (twist 2 back)', search: 'twist two back croiser torsade arrière', categories: ['cables'] },
+  {
+    abbr: "C4F",
+    def: "torsade sur 4 mailles vers l’avant (cable 4 front)",
+    search: "cable four front torsade avant",
+    categories: ["cables"],
+  },
+  {
+    abbr: "C4B",
+    def: "torsade sur 4 mailles vers l’arrière (cable 4 back)",
+    search: "cable four back torsade arrière",
+    categories: ["cables"],
+  },
+  {
+    abbr: "C6F",
+    def: "torsade sur 6 mailles vers l’avant (cable 6 front)",
+    search: "cable six front torsade avant",
+    categories: ["cables"],
+  },
+  {
+    abbr: "C6B",
+    def: "torsade sur 6 mailles vers l’arrière (cable 6 back)",
+    search: "cable six back torsade arrière",
+    categories: ["cables"],
+  },
+  {
+    abbr: "T2F",
+    def: "croiser 2 mailles vers l’avant (twist 2 front)",
+    search: "twist two front croiser torsade avant",
+    categories: ["cables"],
+  },
+  {
+    abbr: "T2B",
+    def: "croiser 2 mailles vers l’arrière (twist 2 back)",
+    search: "twist two back croiser torsade arrière",
+    categories: ["cables"],
+  },
 
-  { abbr: 'St st', def: 'jersey endroit (stockinette / stocking stitch)', search: 'stockinette stocking stitch jersey endroit', categories: ['stitch-patterns'] },
-  { abbr: 'g st', def: 'point mousse (garter stitch)', search: 'garter stitch point mousse', categories: ['stitch-patterns'] },
-  { abbr: 'rev St st', def: 'jersey envers (reverse stockinette)', search: 'reverse stockinette jersey envers', categories: ['stitch-patterns'] },
-  { abbr: 'rib', def: 'côtes (ribbing)', search: 'ribbing côtes', categories: ['stitch-patterns'] },
-  { abbr: 'moss st', def: 'point de blé ou point de riz double selon le modèle (moss stitch)', search: 'moss stitch point de blé point de riz double', categories: ['stitch-patterns'] },
-  { abbr: 'seed st', def: 'point de riz selon le modèle (seed stitch)', search: 'seed stitch point de riz', categories: ['stitch-patterns'] },
-  { abbr: 'MB', def: 'faire une noppe selon le modèle (make bobble)', search: 'make bobble noppe point relief', categories: ['stitch-patterns'] },
+  {
+    abbr: "St st",
+    def: "jersey endroit (stockinette / stocking stitch)",
+    search: "stockinette stocking stitch jersey endroit",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "g st",
+    def: "point mousse (garter stitch)",
+    search: "garter stitch point mousse",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "rev St st",
+    def: "jersey envers (reverse stockinette)",
+    search: "reverse stockinette jersey envers",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "rib",
+    def: "côtes (ribbing)",
+    search: "ribbing côtes",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "moss st",
+    def: "point de blé ou point de riz double selon le modèle (moss stitch)",
+    search: "moss stitch point de blé point de riz double",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "seed st",
+    def: "point de riz selon le modèle (seed stitch)",
+    search: "seed stitch point de riz",
+    categories: ["stitch-patterns"],
+  },
+  {
+    abbr: "MB",
+    def: "faire une noppe selon le modèle (make bobble)",
+    search: "make bobble noppe point relief",
+    categories: ["stitch-patterns"],
+  },
 ];
 
-const filterOrder: Array<Category | 'all'> = [
-  'all',
-  'cast-on-bind-off',
-  'increases',
-  'decreases',
-  'cables',
-  'lace',
-  'general',
-  'stitch-patterns',
+const filterOrder: Array<Category | "all"> = [
+  "all",
+  "cast-on-bind-off",
+  "increases",
+  "decreases",
+  "cables",
+  "lace",
+  "general",
+  "stitch-patterns",
 ];
 
 const faqs = [
   {
-    q: 'Les abréviations tricot sont-elles les mêmes dans les modèles US et UK ?',
+    q: "Les abréviations tricot sont-elles les mêmes dans les modèles US et UK ?",
     a: 'La plupart sont identiques. k, p, yo et k2tog veulent dire la même chose des deux côtés de l’Atlantique. Les différences se concentrent sur quelques termes : le "bind off" américain correspond au "cast off" britannique, le "gauge" américain à la "tension" britannique, et "stockinette" à "stocking stitch". En français, on parlera surtout de l’échantillon du modèle. "Seed stitch" et "moss stitch" peuvent aussi échanger leur sens selon la source ; fais donc confiance à la définition du point plutôt qu’au nom.',
   },
   {
-    q: 'Que signifie l’astérisque dans un modèle de tricot ?',
+    q: "Que signifie l’astérisque dans un modèle de tricot ?",
     a: 'Il marque une répétition. Tout ce qui se trouve entre l’astérisque et l’instruction correspondante, souvent "rep from *", se tricote encore et encore sur le rang. Les crochets et les parenthèses ont le même rôle : grouper une série d’actions à répéter un certain nombre de fois. Rater un marqueur de répétition est l’un des moyens les plus rapides de finir avec le mauvais nombre de mailles.',
   },
   {
-    q: 'Que faire si je ne trouve pas une abréviation dans une liste standard ?',
+    q: "Que faire si je ne trouve pas une abréviation dans une liste standard ?",
     a: "C'est presque sûrement une abréviation propre au modèle, définie par la personne qui l'a écrit. Remonte au début du modèle et cherche une liste d'abréviations ou une section de définitions de points. Les torsades et la dentelle sont les plus grands fournisseurs de raccourcis maison, parce que les créateurs inventent souvent une notation compacte pour des techniques spécifiques à ce modèle. Si elle n'y est pas, regarde les notes du modèle ou la légende du diagramme.",
   },
   {
-    q: 'Quelle est la différence entre ssk et skp ?',
-    a: 'Les deux sont des diminutions inclinées à gauche, avec un rendu presque identique dans le tricot fini. ssk est le standard moderne et apparaît dans la plupart des modèles récents. skp se rencontre plus souvent dans les anciens modèles. L’exécution diffère légèrement, donc suis l’abréviation indiquée par le modèle plutôt que de remplacer librement.',
+    q: "Quelle est la différence entre ssk et skp ?",
+    a: "Les deux sont des diminutions inclinées à gauche, avec un rendu presque identique dans le tricot fini. ssk est le standard moderne et apparaît dans la plupart des modèles récents. skp se rencontre plus souvent dans les anciens modèles. L’exécution diffère légèrement, donc suis l’abréviation indiquée par le modèle plutôt que de remplacer librement.",
   },
 ];
 ---
@@ -143,123 +415,295 @@ const faqs = [
         autocomplete="off"
       />
 
-      <div class="category-filters" role="group" aria-label="Filtrer par catégorie">
-        {filterOrder.map((cat, index) => (
-          <button
-            type="button"
-            class={`cat-btn${index === 0 ? ' is-active' : ''}`}
-            data-cat={cat}
-            aria-pressed={index === 0 ? 'true' : 'false'}
-          >
-            {cat === 'all' ? 'Tout' : categoryLabels[cat as Category]}
-          </button>
-        ))}
+      <div
+        class="category-filters"
+        role="group"
+        aria-label="Filtrer par catégorie"
+      >
+        {
+          filterOrder.map((cat, index) => (
+            <button
+              type="button"
+              class={`cat-btn${index === 0 ? " is-active" : ""}`}
+              data-cat={cat}
+              aria-pressed={index === 0 ? "true" : "false"}
+            >
+              {cat === "all" ? "Tout" : categoryLabels[cat as Category]}
+            </button>
+          ))
+        }
       </div>
 
       <ul class="abbr-list" id="abbr-list" aria-label="Abréviations tricot">
-        {abbreviations.map((item) => (
-          <li
-            class="abbr-row"
-            data-abbr={item.abbr.toLowerCase()}
-            data-def={item.def.toLowerCase()}
-            data-search={item.search.toLowerCase()}
-            data-cats={item.categories.join(' ')}
-            data-catlabels={item.categories.map((cat) => categoryLabels[cat].toLowerCase()).join(' ')}
-          >
-            <span class="abbr-term">{item.abbr}</span>
-            <span class="abbr-def">{item.def}</span>
-          </li>
-        ))}
+        {
+          abbreviations.map((item) => (
+            <li
+              class="abbr-row"
+              data-abbr={item.abbr.toLowerCase()}
+              data-def={item.def.toLowerCase()}
+              data-search={item.search.toLowerCase()}
+              data-cats={item.categories.join(" ")}
+              data-catlabels={item.categories
+                .map((cat) => categoryLabels[cat].toLowerCase())
+                .join(" ")}
+            >
+              <span class="abbr-term">{item.abbr}</span>
+              <span class="abbr-def">{item.def}</span>
+            </li>
+          ))
+        }
       </ul>
 
-      <p class="no-results" id="no-results" hidden>Aucune abréviation trouvée.</p>
+      <p class="no-results" id="no-results" hidden>
+        Aucune abréviation trouvée.
+      </p>
     </div>
   </div>
 
   <div slot="content">
     <h2>Comment lire les abréviations dans leur contexte</h2>
-    <p>La plupart des abréviations se rangent dans quelques groupes, et reconnaître le groupe aide plus que mémoriser chaque terme séparément.</p>
-    <p><strong>Les mailles de base</strong> sont des lettres seules. <code>k</code> veut dire knit, maille endroit, et <code>p</code> veut dire purl, maille envers. Un nombre après la lettre indique combien : <code>k5</code> veut dire tricoter cinq mailles endroit. C'est tout le système pour les plus simples.</p>
-    <p><strong>Les actions combinées</strong> empilent lettres et chiffres. <code>k2tog</code> veut dire tricoter deux mailles ensemble à l'endroit. <code>p2tog</code>, même idée à l'envers. Beaucoup de raccourcis tricot fonctionnent comme ça. Ralentis et lis littéralement.</p>
-    <p><strong>Les repères de côté</strong> disent de quel côté de l'ouvrage tu travailles. <code>RS</code> est l'endroit, <code>WS</code> l'envers. C'est important parce que le même geste donne un résultat différent selon que tu travailles sur la face visible ou le dos.</p>
-    <p><strong>Les abréviations de forme</strong> contrôlent comment la matière s'élargit ou se resserre. <code>M1</code>, <code>M1L</code>, <code>M1R</code> et <code>kfb</code> ajoutent des mailles. <code>k2tog</code> et <code>ssk</code> en enlèvent. Savoir lesquelles penchent à gauche, lesquelles penchent à droite, et lesquelles ajoutent ou retirent simplement des mailles rend les modèles beaucoup plus lisibles.</p>
-    <p><strong>Les termes de structure</strong> gardent les explications compactes. <code>rep</code>, <code>st(s)</code>, <code>beg</code>, <code>rem</code>, <code>cont</code>. Ce sont l'échafaudage, pas les mailles.</p>
-    <p>La ponctuation compte aussi. Astérisques et points-virgules ne sont pas décoratifs. <code>*k2, p2; rep from *</code> signifie que tout ce qui se trouve entre l'astérisque et le point-virgule se répète. Les crochets et les parenthèses fonctionnent de la même manière, en regroupant des actions à répéter un nombre précis de fois. Rater un marqueur de répétition est l'un des moyens les plus rapides de finir avec le mauvais nombre de mailles.</p>
+    <p>
+      La plupart des abréviations se rangent dans quelques groupes, et
+      reconnaître le groupe aide plus que mémoriser chaque terme séparément.
+    </p>
+    <p>
+      <strong>Les mailles de base</strong> sont des lettres seules. <code
+        >k</code
+      > veut dire knit, maille endroit, et <code>p</code> veut dire purl, maille envers.
+      Un nombre après la lettre indique combien : <code>k5</code> veut dire tricoter
+      cinq mailles endroit. C'est tout le système pour les plus simples.
+    </p>
+    <p>
+      <strong>Les actions combinées</strong> empilent lettres et chiffres. <code
+        >k2tog</code
+      > veut dire tricoter deux mailles ensemble à l'endroit. <code>p2tog</code
+      >, même idée à l'envers. Beaucoup de raccourcis tricot fonctionnent comme
+      ça. Ralentis et lis littéralement.
+    </p>
+    <p>
+      <strong>Les repères de côté</strong> disent de quel côté de l'ouvrage tu travailles.
+      <code>RS</code> est l'endroit, <code>WS</code> l'envers. C'est important parce
+      que le même geste donne un résultat différent selon que tu travailles sur la
+      face visible ou le dos.
+    </p>
+    <p>
+      <strong>Les abréviations de forme</strong> contrôlent comment la matière s'élargit
+      ou se resserre. <code>M1</code>, <code>M1L</code>, <code>M1R</code> et <code
+        >kfb</code
+      > ajoutent des mailles. <code>k2tog</code> et <code>ssk</code> en enlèvent.
+      Savoir lesquelles penchent à gauche, lesquelles penchent à droite, et lesquelles
+      ajoutent ou retirent simplement des mailles rend les modèles beaucoup plus lisibles.
+    </p>
+    <p>
+      <strong>Les termes de structure</strong> gardent les explications compactes.
+      <code>rep</code>, <code>st(s)</code>, <code>beg</code>, <code>rem</code>, <code
+        >cont</code
+      >. Ce sont l'échafaudage, pas les mailles.
+    </p>
+    <p>
+      La ponctuation compte aussi. Astérisques et points-virgules ne sont pas
+      décoratifs. <code>*k2, p2; rep from *</code> signifie que tout ce qui se trouve
+      entre l'astérisque et le point-virgule se répète. Les crochets et les parenthèses
+      fonctionnent de la même manière, en regroupant des actions à répéter un nombre
+      précis de fois. Rater un marqueur de répétition est l'un des moyens les plus
+      rapides de finir avec le mauvais nombre de mailles.
+    </p>
 
     <h2>Différences entre US et UK</h2>
-    <p>Quelques termes changent de l'autre côté de l'Atlantique. Les principaux :</p>
-    <p>Le "bind off" américain est le "cast off" britannique. Le "gauge" américain est la "tension" britannique ; en français, tu verras surtout l'échantillon du modèle. Le "stockinette" américain est le "stocking stitch" britannique. Et le piège classique : "seed stitch" et "moss stitch" peuvent échanger leur sens selon la source, donc une définition écrite du point bat toujours le nom seul.</p>
-    <p>Les abréviations courantes, comme <code>k</code>, <code>p</code>, <code>yo</code> et <code>k2tog</code>, sont généralement les mêmes dans les deux systèmes. Si un modèle ne précise pas US ou UK, la section des définitions de points clarifie souvent les choses. Quand il n'y en a pas, le pays de la personne qui l'a conçu est ton meilleur indice.</p>
+    <p>
+      Quelques termes changent de l'autre côté de l'Atlantique. Les principaux :
+    </p>
+    <p>
+      Le "bind off" américain est le "cast off" britannique. Le "gauge"
+      américain est la "tension" britannique ; en français, tu verras surtout
+      l'échantillon du modèle. Le "stockinette" américain est le "stocking
+      stitch" britannique. Et le piège classique : "seed stitch" et "moss
+      stitch" peuvent échanger leur sens selon la source, donc une définition
+      écrite du point bat toujours le nom seul.
+    </p>
+    <p>
+      Les abréviations courantes, comme <code>k</code>, <code>p</code>, <code
+        >yo</code
+      > et <code>k2tog</code>, sont généralement les mêmes dans les deux
+      systèmes. Si un modèle ne précise pas US ou UK, la section des définitions
+      de points clarifie souvent les choses. Quand il n'y en a pas, le pays de
+      la personne qui l'a conçu est ton meilleur indice.
+    </p>
 
     <h2>Abréviations propres à un modèle</h2>
-    <p>C'est là que ça devient intéressant, parce que beaucoup d'abréviations n'apparaissent dans aucune liste standard. C'est normal. Ce sont des raccourcis créés pour ce modèle précis, et ils doivent être définis près du début des explications.</p>
-    <p>Les torsades en produisent beaucoup. Une légende de diagramme peut définir <code>C4F</code>, <code>C6B</code> ou quelque chose de plus spécifique au dessin. Le nombre indique généralement combien de mailles se croisent. La lettre finale, F ou B, indique la direction : front ou back, donc l'endroit où tu tiens l'aiguille auxiliaire pendant le croisement. Mais les créateurs ne sont pas toujours cohérents avec cette convention. Certains utilisent L et R. Certains comptent toutes les mailles concernées, d'autres seulement les mailles qui se déplacent. La définition du modèle fait foi.</p>
-    <p>Les dentelles créent aussi des raccourcis composés. Un modèle écrit <code>CDD</code> pour une double diminution centrée. Un autre écrit la même idée sous forme <code>sl2-k1-p2sso</code>. Un troisième utilise <code>s2kp</code>. Les trois pointent vers la même idée générale, mais l'exécution exacte peut varier, et certaines abréviations sont utilisées pour des diminutions légèrement différentes selon la source. Si une abréviation te semble inconnue, vérifie la légende avant de supposer qu'elle correspond à la version la plus courante.</p>
-    <p>Le jacquard et le tricot multicolore abrègent parfois les noms ou attributions de couleurs. Tu peux voir MC, main color, et CC, contrast color, ou CC1 et CC2 quand plusieurs couleurs contrastantes sont utilisées. Certains modèles utilisent A, B, C. Les abréviations sont simples, mais mélanger les couleurs se voit tout de suite dans l'ouvrage fini.</p>
-    <p>Certains créateurs inventent aussi des raccourcis pour des séquences de points répétées dans leur modèle. Un modèle peut définir "MB" pour une méthode de noppe précise, ou "cluster" pour une combinaison particulière de jetés et de passages qui ne vaut que pour ce projet. Cela évite d'écrire une instruction en plusieurs étapes chaque fois qu'elle apparaît. Ces raccourcis n'ont de sens qu'à l'intérieur de ce modèle.</p>
-    <p>La règle pratique : si tu ne trouves pas une abréviation dans une référence standard, elle est presque sûrement définie dans l'en-tête du modèle. Remonte avant de chercher ailleurs.</p>
+    <p>
+      C'est là que ça devient intéressant, parce que beaucoup d'abréviations
+      n'apparaissent dans aucune liste standard. C'est normal. Ce sont des
+      raccourcis créés pour ce modèle précis, et ils doivent être définis près
+      du début des explications.
+    </p>
+    <p>
+      Les torsades en produisent beaucoup. Une légende de diagramme peut définir <code
+        >C4F</code
+      >, <code>C6B</code> ou quelque chose de plus spécifique au dessin. Le nombre
+      indique généralement combien de mailles se croisent. La lettre finale, F ou
+      B, indique la direction : front ou back, donc l'endroit où tu tiens l'aiguille
+      auxiliaire pendant le croisement. Mais les créateurs ne sont pas toujours cohérents
+      avec cette convention. Certains utilisent L et R. Certains comptent toutes les
+      mailles concernées, d'autres seulement les mailles qui se déplacent. La définition
+      du modèle fait foi.
+    </p>
+    <p>
+      Les dentelles créent aussi des raccourcis composés. Un modèle écrit <code
+        >CDD</code
+      > pour une double diminution centrée. Un autre écrit la même idée sous forme
+      <code>sl2-k1-p2sso</code>. Un troisième utilise <code>s2kp</code>. Les
+      trois pointent vers la même idée générale, mais l'exécution exacte peut
+      varier, et certaines abréviations sont utilisées pour des diminutions
+      légèrement différentes selon la source. Si une abréviation te semble
+      inconnue, vérifie la légende avant de supposer qu'elle correspond à la
+      version la plus courante.
+    </p>
+    <p>
+      Le jacquard et le tricot multicolore abrègent parfois les noms ou
+      attributions de couleurs. Tu peux voir MC, main color, et CC, contrast
+      color, ou CC1 et CC2 quand plusieurs couleurs contrastantes sont
+      utilisées. Certains modèles utilisent A, B, C. Les abréviations sont
+      simples, mais mélanger les couleurs se voit tout de suite dans l'ouvrage
+      fini.
+    </p>
+    <p>
+      Certains créateurs inventent aussi des raccourcis pour des séquences de
+      points répétées dans leur modèle. Un modèle peut définir "MB" pour une
+      méthode de noppe précise, ou "cluster" pour une combinaison particulière
+      de jetés et de passages qui ne vaut que pour ce projet. Cela évite
+      d'écrire une instruction en plusieurs étapes chaque fois qu'elle apparaît.
+      Ces raccourcis n'ont de sens qu'à l'intérieur de ce modèle.
+    </p>
+    <p>
+      La règle pratique : si tu ne trouves pas une abréviation dans une
+      référence standard, elle est presque sûrement définie dans l'en-tête du
+      modèle. Remonte avant de chercher ailleurs.
+    </p>
 
     <h2>Ce que signifient les symboles des diagrammes</h2>
-    <p>Les diagrammes utilisent des symboles au lieu de rangs écrits. Chaque case correspond à une maille, et le symbole dans la case dit quoi faire.</p>
-    <p>Il n'existe pas de standard universel pour les symboles de diagramme, mais beaucoup de créateurs restent proches des conventions du Craft Yarn Council. Une case vide signifie souvent maille endroit sur l'endroit et maille envers sur l'envers. Un tiret signifie maille envers sur l'endroit. Un cercle est un <code>yo</code>. Une barre inclinée vers la droite marque <code>k2tog</code>, une barre inclinée vers la gauche marque <code>ssk</code>.</p>
-    <p>Les diagrammes se lisent de bas en haut, puisque le tricot monte. Sur un diagramme à plat, les rangs endroit se lisent de droite à gauche et les rangs envers de gauche à droite, dans le sens où les aiguilles travaillent. En rond, les diagrammes se lisent de droite à gauche à chaque tour, puisque tu travailles toujours sur l'endroit.</p>
-    <p>Si un modèle donne à la fois des explications écrites et un diagramme, les deux devraient correspondre. Quand ce n'est pas le cas, et cela arrive plus souvent qu'on aimerait, les notes du modèle devraient dire lequel suivre. Si elles ne le disent pas, tricote un motif en échantillon avant de faire confiance à l'un ou à l'autre.</p>
+    <p>
+      Les diagrammes utilisent des symboles au lieu de rangs écrits. Chaque case
+      correspond à une maille, et le symbole dans la case dit quoi faire.
+    </p>
+    <p>
+      Il n'existe pas de standard universel pour les symboles de diagramme, mais
+      beaucoup de créateurs restent proches des conventions du Craft Yarn
+      Council. Une case vide signifie souvent maille endroit sur l'endroit et
+      maille envers sur l'envers. Un tiret signifie maille envers sur l'endroit.
+      Un cercle est un <code>yo</code>. Une barre inclinée vers la droite marque <code
+        >k2tog</code
+      >, une barre inclinée vers la gauche marque <code>ssk</code>.
+    </p>
+    <p>
+      Les diagrammes se lisent de bas en haut, puisque le tricot monte. Sur un
+      diagramme à plat, les rangs endroit se lisent de droite à gauche et les
+      rangs envers de gauche à droite, dans le sens où les aiguilles
+      travaillent. En rond, les diagrammes se lisent de droite à gauche à chaque
+      tour, puisque tu travailles toujours sur l'endroit.
+    </p>
+    <p>
+      Si un modèle donne à la fois des explications écrites et un diagramme, les
+      deux devraient correspondre. Quand ce n'est pas le cas, et cela arrive
+      plus souvent qu'on aimerait, les notes du modèle devraient dire lequel
+      suivre. Si elles ne le disent pas, tricote un motif en échantillon avant
+      de faire confiance à l'un ou à l'autre.
+    </p>
 
     <h2>Quelques abréviations à connaître tôt</h2>
-    <p>Tu n'as pas besoin de tout mémoriser avant de monter les mailles. Une première écharpe peut n'utiliser que <code>k</code> et <code>p</code>. Un bonnet simple ajoute une ou deux diminutions. Le reste vient naturellement avec les modèles que tu choisis, et la même douzaine d'abréviations couvre la plupart de ce qu'on tricote.</p>
-    <p>Un duo qui piège souvent : <code>ssk</code> et <code>skp</code> sont toutes deux des diminutions inclinées à gauche. <code>ssk</code> est le standard moderne. <code>skp</code> se voit davantage dans les modèles anciens. Le rendu est proche mais l'exécution diffère légèrement, donc suis le modèle tel qu'il est écrit sauf s'il autorise le remplacement.</p>
-    <p>Une autre à noter : <code>psso</code>, pass slipped stitch over, apparaît seule ou comme partie d'abréviations composées comme <code>sl1-k2tog-psso</code>. Quand tu la vois seule, elle suit généralement une maille glissée à l'étape précédente.</p>
-    <p>Le Craft Yarn Council publie une liste d'abréviations très utilisée, et la plupart des créateurs la suivent pour les termes courants. Au-delà des bases, les habitudes régionales et les raccourcis propres au modèle prennent le relais. "Vérifie la légende du modèle" est un meilleur conseil que "apprends une liste complète par cœur".</p>
-    <p>Garde une référence ouverte pendant que tu tricotes. L'<a href="/">application KnitTools</a> contient une référence d'abréviations cherchable, plus rapide que de jongler avec les onglets au milieu d'un rang. Si tu vérifies aussi les tailles d'aiguilles ou les <a href="/fr/articles/mesurer-un-echantillon-tricot/">mesures d'échantillon</a>, ces références vont bien ensemble. Et si tu débutes dans la <a href="/fr/articles/lire-un-modele-de-tricot/">lecture de modèles tricot</a>, la clé des abréviations est la première section à parcourir avant de monter les mailles.</p>
+    <p>
+      Tu n'as pas besoin de tout mémoriser avant de monter les mailles. Une
+      première écharpe peut n'utiliser que <code>k</code> et <code>p</code>. Un
+      bonnet simple ajoute une ou deux diminutions. Le reste vient naturellement
+      avec les modèles que tu choisis, et la même douzaine d'abréviations couvre
+      la plupart de ce qu'on tricote.
+    </p>
+    <p>
+      Un duo qui piège souvent : <code>ssk</code> et <code>skp</code> sont toutes
+      deux des diminutions inclinées à gauche. <code>ssk</code> est le standard moderne.
+      <code>skp</code> se voit davantage dans les modèles anciens. Le rendu est proche
+      mais l'exécution diffère légèrement, donc suis le modèle tel qu'il est écrit
+      sauf s'il autorise le remplacement.
+    </p>
+    <p>
+      Une autre à noter : <code>psso</code>, pass slipped stitch over, apparaît
+      seule ou comme partie d'abréviations composées comme <code
+        >sl1-k2tog-psso</code
+      >. Quand tu la vois seule, elle suit généralement une maille glissée à
+      l'étape précédente.
+    </p>
+    <p>
+      Le Craft Yarn Council publie une liste d'abréviations très utilisée, et la
+      plupart des créateurs la suivent pour les termes courants. Au-delà des
+      bases, les habitudes régionales et les raccourcis propres au modèle
+      prennent le relais. "Vérifie la légende du modèle" est un meilleur conseil
+      que "apprends une liste complète par cœur".
+    </p>
+    <p>
+      Garde une référence ouverte pendant que tu tricotes. L'<a href="/"
+        >application KnitTools</a
+      > contient une référence d'abréviations cherchable, plus rapide que de jongler
+      avec les onglets au milieu d'un rang. Si tu vérifies aussi les tailles d'aiguilles
+      ou les <a href="/fr/articles/mesurer-un-echantillon-tricot/"
+        >mesures d'échantillon</a
+      >, ces références vont bien ensemble. Et si tu débutes dans la <a
+        href="/fr/articles/lire-un-modele-de-tricot/"
+        >lecture de modèles tricot</a
+      >, la clé des abréviations est la première section à parcourir avant de
+      monter les mailles.
+    </p>
   </div>
 </LocalizedToolPage>
 
 <script>
-  const searchInput = document.getElementById('abbr-search') as HTMLInputElement | null;
-  const list = document.getElementById('abbr-list');
-  const noResults = document.getElementById('no-results');
-  const catButtons = document.querySelectorAll<HTMLButtonElement>('.cat-btn');
+  const searchInput = document.getElementById(
+    "abbr-search",
+  ) as HTMLInputElement | null;
+  const list = document.getElementById("abbr-list");
+  const noResults = document.getElementById("no-results");
+  const catButtons = document.querySelectorAll<HTMLButtonElement>(".cat-btn");
 
-  let activeCategory = 'all';
+  let activeCategory = "all";
 
   function applyFilters() {
     if (!list || !noResults) return;
-    const rows = list.querySelectorAll<HTMLElement>('.abbr-row');
-    const query = (searchInput?.value || '').trim().toLowerCase();
+    const rows = list.querySelectorAll<HTMLElement>(".abbr-row");
+    const query = (searchInput?.value || "").trim().toLowerCase();
     let visibleCount = 0;
 
     rows.forEach((row) => {
-      const cats = (row.dataset.cats || '').split(' ');
+      const cats = (row.dataset.cats || "").split(" ");
       const haystack = [
         row.dataset.abbr,
         row.dataset.def,
         row.dataset.search,
         row.dataset.catlabels,
-      ].join(' ');
+      ].join(" ");
 
-      const matchesCategory = activeCategory === 'all' || cats.includes(activeCategory);
+      const matchesCategory =
+        activeCategory === "all" || cats.includes(activeCategory);
       const matchesSearch = !query || haystack.includes(query);
       const visible = matchesCategory && matchesSearch;
 
-      row.style.display = visible ? '' : 'none';
+      row.style.display = visible ? "" : "none";
       if (visible) visibleCount++;
     });
 
     noResults.hidden = visibleCount > 0;
   }
 
-  searchInput?.addEventListener('input', applyFilters);
+  searchInput?.addEventListener("input", applyFilters);
 
   catButtons.forEach((button) => {
-    button.addEventListener('click', () => {
+    button.addEventListener("click", () => {
       catButtons.forEach((item) => {
-        item.classList.remove('is-active');
-        item.setAttribute('aria-pressed', 'false');
+        item.classList.remove("is-active");
+        item.setAttribute("aria-pressed", "false");
       });
 
-      button.classList.add('is-active');
-      button.setAttribute('aria-pressed', 'true');
-      activeCategory = button.dataset.cat || 'all';
+      button.classList.add("is-active");
+      button.setAttribute("aria-pressed", "true");
+      activeCategory = button.dataset.cat || "all";
       applyFilters();
     });
   });

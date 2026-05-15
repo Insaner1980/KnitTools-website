@@ -4,11 +4,18 @@ description: "Was bedeutet gleichzeitig in Strickanleitungen? So verfolgst du zw
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 8
-tags: ["gleichzeitig Strickanleitung", "gleichzeitig stricken", "parallele Strickanweisungen", "Formgebung gleichzeitig stricken"]
+tags:
+  [
+    "gleichzeitig Strickanleitung",
+    "gleichzeitig stricken",
+    "parallele Strickanweisungen",
+    "Formgebung gleichzeitig stricken",
+  ]
 draft: false
 lang: de
 translationKey: "at-the-same-time-knitting"
 ---
+
 Es bedeutet genau das, was dort steht, und gerade deshalb ist es verwirrend. Zwei verschiedene Dinge passieren auf denselben Reihen. Die Anleitung beschreibt sie getrennt, obwohl du sie zusammen ausführst.
 
 „Gleichzeitig“ in einer Strickanleitung bedeutet, dass zwei Anweisungsblöcke über dieselben Reihen parallel laufen. Meist liegt eine Formgebung über einem laufenden Muster. Das taucht besonders oft bei Kleidungsstücken auf. Die Anleitung kann beides nicht leicht in eine einzige klare Zeile packen, also beschreibt sie erst eine Aktion, sagt dann „gleichzeitig“ und beschreibt die andere.

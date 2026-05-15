@@ -1,10 +1,10 @@
 ---
-import PageLayout from './PageLayout.astro';
-import ClosingCTA from '../components/ClosingCTA.astro';
-import { getCategoryLabel, type CategorySlug } from '../lib/categories';
-import { getArticlesIndexPath } from '../i18n/articles';
-import { useTranslations } from '../i18n/ui';
-import type { Lang } from '../i18n/config';
+import PageLayout from "./PageLayout.astro";
+import ClosingCTA from "../components/ClosingCTA.astro";
+import { getCategoryLabel, type CategorySlug } from "../lib/categories";
+import { getArticlesIndexPath } from "../i18n/articles";
+import { useTranslations } from "../i18n/ui";
+import type { Lang } from "../i18n/config";
 
 interface Props {
   title: string;
@@ -18,27 +18,66 @@ interface Props {
   alternates?: Partial<Record<Lang, string>>;
 }
 
-const { title, description, category, publishDate, updatedDate, lang = 'en', canonicalPath, alternates } = Astro.props;
+const {
+  title,
+  description,
+  category,
+  publishDate,
+  updatedDate,
+  lang = "en",
+  canonicalPath,
+  alternates,
+} = Astro.props;
 const t = useTranslations(lang);
 const categoryLabel = getCategoryLabel(category, lang);
-const dateLocale = lang === 'fi' ? 'fi-FI' : lang === 'de' ? 'de-DE' : lang === 'sv' ? 'sv-SE' : lang === 'no' ? 'nb-NO' : lang === 'fr' ? 'fr-FR' : 'en-US';
-const formattedUpdated = updatedDate?.toLocaleDateString(dateLocale, { year: 'numeric', month: 'long' });
-const formattedPublished = publishDate.toLocaleDateString(dateLocale, { year: 'numeric', month: 'long' });
-const dateLabel = formattedUpdated ? `${t('updated')} ${formattedUpdated}` : `${t('published')} ${formattedPublished}`;
+const dateLocale =
+  lang === "fi"
+    ? "fi-FI"
+    : lang === "de"
+      ? "de-DE"
+      : lang === "sv"
+        ? "sv-SE"
+        : lang === "no"
+          ? "nb-NO"
+          : lang === "fr"
+            ? "fr-FR"
+            : lang === "nl"
+              ? "nl-NL"
+              : lang === "da"
+                ? "da-DK"
+                : "en-US";
+const formattedUpdated = updatedDate?.toLocaleDateString(dateLocale, {
+  year: "numeric",
+  month: "long",
+});
+const formattedPublished = publishDate.toLocaleDateString(dateLocale, {
+  year: "numeric",
+  month: "long",
+});
+const dateLabel = formattedUpdated
+  ? `${t("updated")} ${formattedUpdated}`
+  : `${t("published")} ${formattedPublished}`;
 const articlesPath = getArticlesIndexPath(lang);
 ---
 
-<PageLayout title={title} description={description} canonicalPath={canonicalPath ?? `/articles/${Astro.params.slug}/`} bodyClass="article" lang={lang} alternates={alternates}>
+<PageLayout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath ?? `/articles/${Astro.params.slug}/`}
+  bodyClass="article"
+  lang={lang}
+  alternates={alternates}
+>
   <article class="article">
     <header class="article-header">
       <div class="article-header-inner">
         <p class="eyebrow">
-          <a href={articlesPath} class="eyebrow-back">← {t('allArticles')}</a>
+          <a href={articlesPath} class="eyebrow-back">← {t("allArticles")}</a>
         </p>
         <p class="article-category">{categoryLabel}</p>
         <h1>{title}</h1>
         <p class="article-meta">
-          <span>{t('byline')}</span>
+          <span>{t("byline")}</span>
           <span>{dateLabel}</span>
         </p>
       </div>
@@ -85,9 +124,15 @@ const articlesPath = getArticlesIndexPath(lang);
     color: var(--terracotta);
     text-decoration: none;
   }
-  .eyebrow-back:hover { color: var(--ink); }
-  .eyebrow-sep { opacity: 0.5; }
-  .eyebrow-cat { color: var(--ink-soft); }
+  .eyebrow-back:hover {
+    color: var(--ink);
+  }
+  .eyebrow-sep {
+    opacity: 0.5;
+  }
+  .eyebrow-cat {
+    color: var(--ink-soft);
+  }
 
   .article-header h1 {
     font-family: var(--serif);
@@ -109,7 +154,9 @@ const articlesPath = getArticlesIndexPath(lang);
     gap: 8px;
     align-items: center;
   }
-  .meta-sep { opacity: 0.5; }
+  .meta-sep {
+    opacity: 0.5;
+  }
 
   .article-body {
     padding: 32px 40px 96px;
@@ -172,8 +219,12 @@ const articlesPath = getArticlesIndexPath(lang);
     margin: 0 0 1.4em;
     padding-left: 1.4em;
   }
-  .prose :global(ul) { list-style: disc; }
-  .prose :global(ol) { list-style: decimal; }
+  .prose :global(ul) {
+    list-style: disc;
+  }
+  .prose :global(ol) {
+    list-style: decimal;
+  }
   .prose :global(li) {
     margin: 0 0 0.4em;
     padding-left: 0.4em;
@@ -262,8 +313,14 @@ const articlesPath = getArticlesIndexPath(lang);
   }
 
   @media (max-width: 768px) {
-    .article-header { padding: 60px 20px 28px; }
-    .article-body { padding: 28px 20px 72px; }
-    .prose { margin-top: 32px; }
+    .article-header {
+      padding: 60px 20px 28px;
+    }
+    .article-body {
+      padding: 28px 20px 72px;
+    }
+    .prose {
+      margin-top: 32px;
+    }
   }
 </style>

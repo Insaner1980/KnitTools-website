@@ -1,0 +1,293 @@
+---
+import LocalizedToolPage from "../LocalizedToolPage.astro";
+import { dutchToolRoutes } from "../../i18n/dutchTools";
+import { routes } from "../../i18n/routes";
+
+const rows = [
+  ["1.5", "000", "-", "-", "Lace"],
+  ["1.75", "00", "-", "-", "Lace"],
+  ["2.0", "0", "14", "0", "Lace"],
+  ["2.25", "1", "13", "-", "Super Fine"],
+  ["2.5", "1.5", "-", "-", "Super Fine"],
+  ["2.75", "2", "12", "2", "Super Fine"],
+  ["3.0", "2.5", "11", "3", "Fine"],
+  ["3.25", "3", "10", "-", "Fine"],
+  ["3.5", "4", "-", "5", "Fine"],
+  ["3.75", "5", "9", "-", "Light"],
+  ["4.0", "6", "8", "6", "Light"],
+  ["4.5", "7", "7", "8", "Medium"],
+  ["5.0", "8", "6", "10", "Medium"],
+  ["5.5", "9", "5", "-", "Medium"],
+  ["6.0", "10", "4", "13", "Bulky"],
+  ["6.5", "10.5", "3", "-", "Bulky"],
+  ["7.0", "-", "2", "-", "Bulky"],
+  ["8.0", "11", "0", "-", "Super Bulky"],
+  ["9.0", "13", "00", "-", "Super Bulky"],
+  ["10.0", "15", "000", "-", "Super Bulky"],
+  ["12.0", "17", "-", "-", "Jumbo"],
+  ["12.75", "-", "-", "-", "Jumbo"],
+  ["15.0", "19", "-", "-", "Jumbo"],
+  ["16.0", "19", "-", "-", "Jumbo"],
+  ["19.0", "35", "-", "-", "Jumbo"],
+  ["25.0", "50", "-", "-", "Jumbo"],
+];
+
+const formatNumber = (value: string) => value.replaceAll(".", ",");
+const formatReferenceCell = (value: string) =>
+  value === "-" ? "—" : formatNumber(value);
+
+const faqs = [
+  {
+    q: "Kan ik een naalddikte nemen die dicht in de buurt zit als ik de exacte maat niet heb?",
+    a: "Dat kan, maar een sprong van 0,5 mm verschuift de stekenverhouding vaak genoeg om verschil te maken. Brei opnieuw een proeflapje voor alles wat goed moet passen.",
+  },
+  {
+    q: "Zijn naalddiktes bij alle merken hetzelfde?",
+    a: "Dat zouden ze moeten zijn. In de praktijk zijn er kleine verschillen, vooral bij goedkopere sets of oudere naalden. Als je stekenverhouding steeds afwijkt, meet de naald dan na.",
+  },
+  {
+    q: "Hoe zit het met rondbreinaalden?",
+    a: "De maat werkt hetzelfde als bij rechte breinaalden. De dikte beschrijft de diameter van de punt, niet de kabellengte. Een rondbreinaald van 4,5 mm blijft een naald van 4,5 mm, of de kabel nu kort is voor een muts of lang voor magic loop.",
+  },
+  {
+    q: "Heb ik elke naalddikte nodig?",
+    a: "Nee. De meeste breiers gebruiken vooral een handvol maten die passen bij de garens die ze vaak gebruiken. Brei je veel met Medium en Light garens, dan pak je vaak 3,75 tot 5,5 mm.",
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Naalddiktes: US, UK, metrisch en Japans"
+  description="Zet breinaalddiktes om tussen US, UK, metrisch (mm) en Japans. Zoekbare tabel met aanbevolen garendiktes per naald voor breien."
+  canonicalPath={dutchToolRoutes.needleSizeChart}
+  lang="nl"
+  alternates={routes.tool.needleSizeChart}
+  intro="Zet US-, UK-, metrische en Japanse naalddiktes naar elkaar om. Typ een maat om de overeenkomst te vinden."
+  schemaName="Tabel met naalddiktes"
+  schemaDescription="Zet breinaalddiktes om tussen US, UK, metrisch en Japans."
+  faqs={faqs}
+  variant="teal"
+>
+  <div slot="tool">
+    <div class="table-wrapper">
+      <input
+        type="text"
+        id="needle-search"
+        class="search-input"
+        placeholder='Zoek een maat, bijv. "4,5", "US 7" of "UK 7"'
+        autocomplete="off"
+      />
+      <div class="table-scroll">
+        <table class="needle-table" id="needle-table">
+          <thead>
+            <tr>
+              <th>Millimeter</th>
+              <th>US</th>
+              <th>UK/Canada</th>
+              <th>Japans</th>
+              <th>Garendikte</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              rows.map((row) => (
+                <tr
+                  data-mm={row[0]}
+                  data-us={row[1] === "-" ? "" : row[1]}
+                  data-uk={row[2] === "-" ? "" : row[2]}
+                  data-jp={row[3] === "-" ? "" : row[3]}
+                >
+                  <td class="col-mm">{formatNumber(row[0])}</td>
+                  {row.slice(1).map((cell) => (
+                    <td>{formatReferenceCell(cell)}</td>
+                  ))}
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+      <p class="no-results" id="no-results" hidden>
+        Geen passende naalddikte gevonden.
+      </p>
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Waarom er vier systemen zijn</h2>
+    <p>
+      Het metrische systeem is het enige systeem dat zegt wat de naald echt
+      meet. Een naald van 4,0 mm is 4,0 mm. Klaar.
+    </p>
+    <p>
+      US-maten zijn labels. US 7 betekent 4,5 mm en US 8 betekent 5,0 mm, maar
+      aan die getallen zie je niets over de diameter.
+    </p>
+    <p>
+      Oude UK- en Canadese maten lopen achteruit. UK 14 is heel dun, en de
+      nummers worden kleiner naarmate de naalden dikker worden, tot 0, 00 en
+      000. De meeste moderne Britse patronen geven metrische maten, maar het
+      oude systeem staat nog op vintage naalden en tweedehands patroonboekjes.
+    </p>
+    <p>
+      Japanse maten liggen dicht bij metrisch, maar niet perfect. Japanse maat 6
+      is 3,9 mm, Japanse maat 8 is 4,5 mm. Dat verschil telt vooral bij fijne
+      stekenverhoudingen, waar een paar tienden millimeter de stof veranderen.
+    </p>
+
+    <h2>Wanneer metrisch de veiligste keuze is</h2>
+    <p>
+      Vertrouw eerst op de maat in millimeters. Dat is de echte meting en
+      voorkomt conversiefouten helemaal.
+    </p>
+    <p>
+      Als een patroon om "US 7" vraagt, heb je in je hand 4,5 mm nodig. Sommige
+      merken drukken beide nummers op de naald. Andere niet. Oude markeringen
+      slijten weg. Een naaldmeter is precies daarom handig om bij de hand te
+      houden.
+    </p>
+
+    <h2>Veelvoorkomende conversievalkuilen</h2>
+    <p>Een paar maten zorgen steeds voor verwarring.</p>
+    <p>
+      <strong>Het UK-systeem is omgekeerd.</strong> US-maten lopen op als naalden
+      dikker worden. Oude UK-maten lopen af. US 6 is 4,0 mm. UK 6 is 5,0 mm. Haal
+      je die door elkaar, dan zit je proeflapje al een hele millimeter verkeerd voordat
+      je een toer hebt gebreid. Dat gebeurt vaker dan je denkt.
+    </p>
+    <p>
+      <strong>Niet elke maat heeft een perfecte een-op-een match.</strong> Niet elke
+      metrische maat heeft een nette tegenhanger in elk ander systeem. Een naald van
+      3,0 mm wordt door sommige merken US 2,5 genoemd, terwijl andere tabellen hem
+      tussen US 2 en US 3 plaatsen. Een naald van 3,5 mm heeft vaak helemaal geen
+      oude UK-tegenhanger. Ga dan terug naar de millimeters en negeer de rest.
+    </p>
+    <p>
+      <strong>Japanse bijna-matches.</strong> Japanse maten sluiten niet netjes aan
+      op US-nummers. Japanse maat 8 is 4,5 mm en komt dus overeen met US 7, maar Japanse
+      maat 5 is 3,6 mm en past niet echt in het US-systeem. Brei je uit een Japans
+      patroon, volg dan de mm-waarde. Niet het gedrukte nummer. Altijd de mm-waarde.
+    </p>
+    <p>
+      <strong>Halve en ongebruikelijke maten bestaan echt.</strong> Naalden van 2,5
+      mm, 3,0 mm en 6,5 mm zijn standaardmaten, ook als je verwisselbare set ze overslaat.
+      Daarom eindigt "een halve maat groter nemen" soms in het omkeren van de hele
+      projecttas.
+    </p>
+    <p>
+      <strong>Oude patronen noemen soms geen systeem.</strong> Een patroon uit de
+      jaren 1970 dat "size 6 needles" vraagt, kan US 6 (4,0 mm) of UK 6 (5,0 mm) bedoelen,
+      afhankelijk van het land van uitgave. Controleer de uitgever en daarna de tabel.
+    </p>
+
+    <h2>Naalddikte en garendikte combineren</h2>
+    <p>
+      De tabel brengt je in de buurt. Je proeflapje bepaalt het exacte adres.
+    </p>
+    <p>
+      Het huidige systeem van de Craft Yarn Council koppelt Lace aan 1,5-2,25
+      mm, Super Fine aan 2,25-3,25 mm, Fine aan 3,25-3,75 mm, Light aan 3,75-4,5
+      mm, Medium aan 4,5-5,5 mm, Bulky aan 5,5-8 mm, Super Bulky aan 8-12,75 mm,
+      en Jumbo vanaf 12,75 mm.
+    </p>
+    <p>
+      Die bereiken overlappen bewust. DK kan een stevige mutsstof geven op een
+      kleinere naald of een luchtige omslagdoek op een grotere. De
+      stekenverhouding in het patroon vertelt welke kant de ontwerper bedoelde.
+      Weet je niet zeker welke garendikte je in handen hebt, begin dan bij de <a
+        href={dutchToolRoutes.yarnWeightChart}>tabel met garendiktes</a
+      >.
+    </p>
+
+    <h2>Ongemarkeerde naalden meten</h2>
+    <p>
+      Vintage naalden, handgedraaide houten naalden en veelgebruikte
+      verwisselbare punten verliezen vroeg of laat hun markering. Een naaldmeter
+      lost dat op. Schuif de schacht door de gaten tot je het gat vindt dat
+      netjes past zonder forceren.
+    </p>
+    <p>
+      Meet op de schacht, niet op de punt. De taps toelopende punt meet kleiner
+      dan het deel waarmee je echt breit. Dat geeft elke keer het verkeerde
+      antwoord.
+    </p>
+    <p>
+      De meeste naaldmeters tonen metrische en US-maten, sommige ook Japanse
+      maten. Doet die van jou dat niet, gebruik dan deze naalddiktegids om de
+      mm-waarde te vinden en brei daarna een klein <a
+        href="/nl/artikelen/stekenverhouding-meten/">proeflapje</a
+      > om te controleren voordat je aan het hele project begint. Kies je ook nog
+      een <a href="/nl/artikelen/breinaalden-van-metaal-hout-en-bamboe/"
+        >naaldmateriaal</a
+      >, dan is dat een aparte beslissing naast de maat.
+    </p>
+  </div>
+</LocalizedToolPage>
+
+<script>
+  const searchInput = document.getElementById(
+    "needle-search",
+  ) as HTMLInputElement | null;
+  const table = document.getElementById("needle-table");
+  const noResults = document.getElementById("no-results");
+
+  if (searchInput && table && noResults) {
+    const rows = table.querySelectorAll<HTMLElement>("tbody tr");
+
+    searchInput.addEventListener("input", () => {
+      const raw = searchInput.value.trim().toLowerCase();
+      const normalizedRaw = raw.replace(",", ".");
+
+      if (!raw) {
+        rows.forEach((row) => {
+          row.style.display = "";
+        });
+        noResults.hidden = true;
+        return;
+      }
+
+      let targetCol: string | null = null;
+      let query = normalizedRaw;
+
+      if (normalizedRaw.startsWith("us ")) {
+        targetCol = "us";
+        query = normalizedRaw.slice(3).trim();
+      } else if (normalizedRaw.startsWith("uk ")) {
+        targetCol = "uk";
+        query = normalizedRaw.slice(3).trim();
+      } else if (
+        normalizedRaw.startsWith("jp ") ||
+        normalizedRaw.startsWith("japans ")
+      ) {
+        targetCol = "jp";
+        query = normalizedRaw.replace(/^(jp|japans)\s+/, "").trim();
+      }
+
+      let visibleCount = 0;
+
+      rows.forEach((row) => {
+        const mm = row.dataset.mm || "";
+        const us = row.dataset.us || "";
+        const uk = row.dataset.uk || "";
+        const jp = row.dataset.jp || "";
+
+        const match =
+          targetCol === "us"
+            ? us === query
+            : targetCol === "uk"
+              ? uk === query
+              : targetCol === "jp"
+                ? jp === query
+                : mm.startsWith(query) ||
+                  us === query ||
+                  uk === query ||
+                  jp === query;
+
+        row.style.display = match ? "" : "none";
+        if (match) visibleCount++;
+      });
+
+      noResults.hidden = visibleCount > 0;
+    });
+  }
+</script>

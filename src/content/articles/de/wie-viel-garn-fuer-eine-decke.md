@@ -4,11 +4,18 @@ description: "Garnbedarf für gestrickte Decken nach Größe und Garnstärke. Vo
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 5
-tags: ["Garn für Decke", "Decke Garnbedarf", "wie viel Garn für Decke", "wie viele Knäuel Decke"]
+tags:
+  [
+    "Garn für Decke",
+    "Decke Garnbedarf",
+    "wie viel Garn für Decke",
+    "wie viele Knäuel Decke",
+  ]
 draft: false
 lang: de
 translationKey: "yarn-for-blanket"
 ---
+
 Decken fressen Garn. Selbst eine kleine Babydecke braucht mehr Meter als viele Kleidungsstücke, und eine große Wohndecke aus Worsted kann über 2.300 m verbrauchen. Wenn das Garn mittendrin ausgeht, besonders bei einer verschwundenen Farbpartie, ist das genau die Art Strickärger, die sich mit vernünftiger Planung vermeiden lässt.
 
 Die Schätzungen unten geben eine Startspanne. Dein tatsächlicher Garnbedarf hängt von Maschenprobe, Muster und Maßen ab, aber diese Zahlen bringen dich nah genug heran, um sinnvoll einzukaufen.

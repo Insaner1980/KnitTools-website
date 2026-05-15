@@ -1,0 +1,1024 @@
+---
+import LocalizedToolPage from "../LocalizedToolPage.astro";
+import { dutchToolRoutes } from "../../i18n/dutchTools";
+import { routes } from "../../i18n/routes";
+
+interface Cell {
+  cm: string;
+  inch: string;
+}
+
+interface Row {
+  label: string;
+  cells: Cell[];
+}
+
+interface Table {
+  caption?: string;
+  sizeHeader?: string;
+  sizes: string[];
+  rows: Row[];
+}
+
+interface Panel {
+  id: string;
+  label: string;
+  intro?: string;
+  tables: Table[];
+}
+
+const c = (cm: string, inch: string): Cell => ({ cm, inch });
+const formatNumberText = (value: string) => value.replaceAll(".", ",");
+
+const panels: Panel[] = [
+  {
+    id: "baby",
+    label: "Baby",
+    tables: [
+      {
+        sizes: ["3 mnd", "6 mnd", "12 mnd", "18 mnd", "24 mnd"],
+        rows: [
+          {
+            label: "Borstomtrek",
+            cells: [
+              c("40.5 cm", '16"'),
+              c("43 cm", '17"'),
+              c("45.5 cm", '18"'),
+              c("48 cm", '19"'),
+              c("50.5 cm", '20"'),
+            ],
+          },
+          {
+            label: "Ruglengte tot taille",
+            cells: [
+              c("15.5 cm", '6"'),
+              c("17.5 cm", '7"'),
+              c("19 cm", '7.5"'),
+              c("20.5 cm", '8"'),
+              c("21.5 cm", '8.5"'),
+            ],
+          },
+          {
+            label: "Rugbreedte",
+            cells: [
+              c("18.5 cm", '7.25"'),
+              c("19.5 cm", '7.75"'),
+              c("21 cm", '8.25"'),
+              c("21.5 cm", '8.5"'),
+              c("22 cm", '8.75"'),
+            ],
+          },
+          {
+            label: "Mouwlengte tot oksel",
+            cells: [
+              c("15.5 cm", '6"'),
+              c("16.5 cm", '6.5"'),
+              c("19 cm", '7.5"'),
+              c("20.5 cm", '8"'),
+              c("21.5 cm", '8.5"'),
+            ],
+          },
+          {
+            label: "Bovenarm",
+            cells: [
+              c("14 cm", '5.5"'),
+              c("15.5 cm", '6"'),
+              c("16.5 cm", '6.5"'),
+              c("17.5 cm", '7"'),
+              c("19 cm", '7.5"'),
+            ],
+          },
+          {
+            label: "Armsgatdiepte",
+            cells: [
+              c("8.5 cm", '3.25"'),
+              c("9 cm", '3.5"'),
+              c("9.5 cm", '3.75"'),
+              c("10 cm", '4"'),
+              c("10.5 cm", '4.25"'),
+            ],
+          },
+          {
+            label: "Taille",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("48 cm", '19"'),
+              c("50.5 cm", '20"'),
+              c("52 cm", '20.5"'),
+              c("53.5 cm", '21"'),
+            ],
+          },
+          {
+            label: "Heupen",
+            cells: [
+              c("48 cm", '19"'),
+              c("50.5 cm", '20"'),
+              c("50.5 cm", '20"'),
+              c("53.5 cm", '21"'),
+              c("56 cm", '22"'),
+            ],
+          },
+          {
+            label: "Middenachter hals tot pols",
+            cells: [
+              c("26.5 cm", '10.5"'),
+              c("29 cm", '11.5"'),
+              c("31.5 cm", '12.5"'),
+              c("35.5 cm", '14"'),
+              c("45.5 cm", '18"'),
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kind",
+    label: "Kind",
+    tables: [
+      {
+        sizes: ["Maat 2", "Maat 4", "Maat 6", "Maat 8", "Maat 10"],
+        rows: [
+          {
+            label: "Borstomtrek",
+            cells: [
+              c("53 cm", '21"'),
+              c("58.5 cm", '23"'),
+              c("63.5 cm", '25"'),
+              c("67 cm", '26.5"'),
+              c("71 cm", '28"'),
+            ],
+          },
+          {
+            label: "Ruglengte tot taille",
+            cells: [
+              c("21.5 cm", '8.5"'),
+              c("24 cm", '9.5"'),
+              c("26.5 cm", '10.5"'),
+              c("31.5 cm", '12.5"'),
+              c("35.5 cm", '14"'),
+            ],
+          },
+          {
+            label: "Rugbreedte",
+            cells: [
+              c("23.5 cm", '9.25"'),
+              c("25 cm", '9.75"'),
+              c("26 cm", '10.25"'),
+              c("27 cm", '10.75"'),
+              c("28.5 cm", '11.25"'),
+            ],
+          },
+          {
+            label: "Mouwlengte tot oksel",
+            cells: [
+              c("21.5 cm", '8.5"'),
+              c("26.5 cm", '10.5"'),
+              c("29 cm", '11.5"'),
+              c("31.5 cm", '12.5"'),
+              c("34.5 cm", '13.5"'),
+            ],
+          },
+          {
+            label: "Bovenarm",
+            cells: [
+              c("17.5 cm", '7"'),
+              c("19 cm", '7.5"'),
+              c("20.5 cm", '8"'),
+              c("21.5 cm", '8.5"'),
+              c("22 cm", '8.75"'),
+            ],
+          },
+          {
+            label: "Armsgatdiepte",
+            cells: [
+              c("10.5 cm", '4.25"'),
+              c("12 cm", '4.75"'),
+              c("12.5 cm", '5"'),
+              c("14 cm", '5.5"'),
+              c("15.5 cm", '6"'),
+            ],
+          },
+          {
+            label: "Taille",
+            cells: [
+              c("53.5 cm", '21"'),
+              c("54.5 cm", '21.5"'),
+              c("57 cm", '22.5"'),
+              c("59.5 cm", '23.5"'),
+              c("62 cm", '24.5"'),
+            ],
+          },
+          {
+            label: "Heupen",
+            cells: [
+              c("56 cm", '22"'),
+              c("59.5 cm", '23.5"'),
+              c("63.5 cm", '25"'),
+              c("71 cm", '28"'),
+              c("75 cm", '29.5"'),
+            ],
+          },
+          {
+            label: "Middenachter hals tot pols",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("49.5 cm", '19.5"'),
+              c("52 cm", '20.5"'),
+              c("56 cm", '22"'),
+              c("61 cm", '24"'),
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "tiener",
+    label: "Tiener",
+    tables: [
+      {
+        sizes: ["Maat 12", "Maat 14", "Maat 16"],
+        rows: [
+          {
+            label: "Borstomtrek",
+            cells: [
+              c("76 cm", '30"'),
+              c("80 cm", '31.5"'),
+              c("82.5 cm", '32.5"'),
+            ],
+          },
+          {
+            label: "Ruglengte tot taille",
+            cells: [
+              c("38 cm", '15"'),
+              c("39.5 cm", '15.5"'),
+              c("40.5 cm", '16"'),
+            ],
+          },
+          {
+            label: "Rugbreedte",
+            cells: [
+              c("30.5 cm", '12"'),
+              c("31 cm", '12.25"'),
+              c("33 cm", '13"'),
+            ],
+          },
+          {
+            label: "Mouwlengte tot oksel",
+            cells: [
+              c("38 cm", '15"'),
+              c("40.5 cm", '16"'),
+              c("42 cm", '16.5"'),
+            ],
+          },
+          {
+            label: "Bovenarm",
+            cells: [
+              c("23 cm", '9"'),
+              c("23.5 cm", '9.25"'),
+              c("24 cm", '9.5"'),
+            ],
+          },
+          {
+            label: "Armsgatdiepte",
+            cells: [
+              c("16.5 cm", '6.5"'),
+              c("17.5 cm", '7"'),
+              c("19 cm", '7.5"'),
+            ],
+          },
+          {
+            label: "Taille",
+            cells: [
+              c("63.5 cm", '25"'),
+              c("67.5 cm", '26.5"'),
+              c("69.5 cm", '27.5"'),
+            ],
+          },
+          {
+            label: "Heupen",
+            cells: [
+              c("80 cm", '31.5"'),
+              c("83.5 cm", '33"'),
+              c("90 cm", '35.5"'),
+            ],
+          },
+          {
+            label: "Middenachter hals tot pols",
+            cells: [c("66 cm", '26"'), c("68.5 cm", '27"'), c("71 cm", '28"')],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "vrouw",
+    label: "Vrouw",
+    tables: [
+      {
+        caption: "Vrouw XS-XL",
+        sizes: ["XS", "S", "M", "L", "XL"],
+        rows: [
+          {
+            label: "Borstomtrek",
+            cells: [
+              c("71-76 cm", '28-30"'),
+              c("81-86 cm", '32-34"'),
+              c("91.5-96.5 cm", '36-38"'),
+              c("101.5-106.5 cm", '40-42"'),
+              c("111.5-117 cm", '44-46"'),
+            ],
+          },
+          {
+            label: "Ruglengte tot taille",
+            cells: [
+              c("42 cm", '16.5"'),
+              c("43 cm", '17"'),
+              c("43.5 cm", '17.25"'),
+              c("44.5 cm", '17.5"'),
+              c("45 cm", '17.75"'),
+            ],
+          },
+          {
+            label: "Rugbreedte",
+            cells: [
+              c("35.5-37 cm", '14-14.5"'),
+              c("37-38 cm", '14.5-15"'),
+              c("39.5-40.5 cm", '15.5-16"'),
+              c("42-43 cm", '16.5-17"'),
+              c("44.5 cm", '17.5"'),
+            ],
+          },
+          {
+            label: "Mouwlengte tot oksel",
+            cells: [
+              c("42 cm", '16.5"'),
+              c("43 cm", '17"'),
+              c("43 cm", '17"'),
+              c("44.5 cm", '17.5"'),
+              c("44.5 cm", '17.5"'),
+            ],
+          },
+          {
+            label: "Bovenarm",
+            cells: [
+              c("25 cm", '9.75"'),
+              c("26 cm", '10.25"'),
+              c("28 cm", '11"'),
+              c("30.5 cm", '12"'),
+              c("34.5 cm", '13.5"'),
+            ],
+          },
+          {
+            label: "Armsgatdiepte",
+            cells: [
+              c("15.5-16.5 cm", '6-6.5"'),
+              c("16.5-17.5 cm", '6.5-7"'),
+              c("17.5-19 cm", '7-7.5"'),
+              c("19-20.5 cm", '7.5-8"'),
+              c("20.5-21.5 cm", '8-8.5"'),
+            ],
+          },
+          {
+            label: "Taille",
+            cells: [
+              c("58.5-61 cm", '23-24"'),
+              c("63.5-67.5 cm", '25-26.5"'),
+              c("71-76 cm", '28-30"'),
+              c("81.5-86.5 cm", '32-34"'),
+              c("91.5-96.5 cm", '36-38"'),
+            ],
+          },
+          {
+            label: "Heupen",
+            cells: [
+              c("83.5-86 cm", '33-34"'),
+              c("89-91.5 cm", '35-36"'),
+              c("96.5-101.5 cm", '38-40"'),
+              c("106.5-111.5 cm", '42-44"'),
+              c("116.5-122 cm", '46-48"'),
+            ],
+          },
+          {
+            label: "Middenachter hals tot pols",
+            cells: [
+              c("66-68.5 cm", '26-26.5"'),
+              c("68.5-70 cm", '27-27.5"'),
+              c("71-72.5 cm", '28-28.5"'),
+              c("73.5-75 cm", '29-29.5"'),
+              c("73.5-75 cm", '29-29.5"'),
+            ],
+          },
+        ],
+      },
+      {
+        caption: "Vrouw 2XL-5XL",
+        sizes: ["2XL", "3XL", "4XL", "5XL"],
+        rows: [
+          {
+            label: "Borstomtrek",
+            cells: [
+              c("122-127 cm", '48-50"'),
+              c("132-137 cm", '52-54"'),
+              c("142-147 cm", '56-58"'),
+              c("152-158 cm", '60-62"'),
+            ],
+          },
+          {
+            label: "Ruglengte tot taille",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("45.5 cm", '18"'),
+              c("47 cm", '18.5"'),
+              c("47 cm", '18.5"'),
+            ],
+          },
+          {
+            label: "Rugbreedte",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("45.5 cm", '18"'),
+              c("47 cm", '18.5"'),
+              c("47 cm", '18.5"'),
+            ],
+          },
+          {
+            label: "Mouwlengte tot oksel",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("45.5 cm", '18"'),
+              c("47 cm", '18.5"'),
+              c("47 cm", '18.5"'),
+            ],
+          },
+          {
+            label: "Bovenarm",
+            cells: [
+              c("39.5 cm", '15.5"'),
+              c("43 cm", '17"'),
+              c("47 cm", '18.5"'),
+              c("49.5 cm", '18.5"'),
+            ],
+          },
+          {
+            label: "Armsgatdiepte",
+            cells: [
+              c("21.5-23 cm", '8.5-9"'),
+              c("23-24 cm", '9-9.5"'),
+              c("24-25.5 cm", '9.5-10"'),
+              c("25.5-26.5 cm", '10-10.5"'),
+            ],
+          },
+          {
+            label: "Taille",
+            cells: [
+              c("101.5-106.5 cm", '40-42"'),
+              c("111.5-114 cm", '44-45"'),
+              c("116.5-119 cm", '46-47"'),
+              c("124-127 cm", '49-50"'),
+            ],
+          },
+          {
+            label: "Heupen",
+            cells: [
+              c("132-134.5 cm", '52-53"'),
+              c("137-139.5 cm", '54-55"'),
+              c("142-144.5 cm", '56-57"'),
+              c("155-157 cm", '61-62"'),
+            ],
+          },
+          {
+            label: "Middenachter hals tot pols",
+            cells: [
+              c("76.5-77.5 cm", '30-30.5"'),
+              c("77.5-79 cm", '30.5-31"'),
+              c("80-81.5 cm", '31.5-32"'),
+              c("80-81.5 cm", '31.5-32"'),
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "man",
+    label: "Man",
+    tables: [
+      {
+        caption: "Man S-XL",
+        sizes: ["S", "M", "L", "XL"],
+        rows: [
+          {
+            label: "Borstomtrek",
+            cells: [
+              c("86-91.5 cm", '34-36"'),
+              c("96.5-101.5 cm", '38-40"'),
+              c("106.5-111.5 cm", '42-44"'),
+              c("116.5-122 cm", '46-48"'),
+            ],
+          },
+          {
+            label: "Ruglengte tot taille",
+            cells: [
+              c("58.5-61 cm", '23-24"'),
+              c("63.5-66 cm", '25-26"'),
+              c("66-68.5 cm", '26-27"'),
+              c("71 cm", '28"'),
+            ],
+          },
+          {
+            label: "Rugbreedte",
+            cells: [
+              c("39.5-40.5 cm", '15.5-16"'),
+              c("42-43 cm", '16.5-17"'),
+              c("44.5-45.5 cm", '17.5-18"'),
+              c("45.5-47 cm", '18-18.5"'),
+            ],
+          },
+          {
+            label: "Mouwlengte tot oksel",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("47 cm", '18.5"'),
+              c("49.5 cm", '19.5"'),
+              c("50.5 cm", '20"'),
+            ],
+          },
+          {
+            label: "Bovenarm",
+            cells: [
+              c("30.5 cm", '12"'),
+              c("33 cm", '13"'),
+              c("38 cm", '15"'),
+              c("39.5 cm", '15.5"'),
+            ],
+          },
+          {
+            label: "Armsgatdiepte",
+            cells: [
+              c("21.5-23 cm", '8.5-9"'),
+              c("23-24 cm", '9-9.5"'),
+              c("24-25.5 cm", '9.5-10"'),
+              c("25.5-26 cm", '10-10.5"'),
+            ],
+          },
+          {
+            label: "Taille",
+            cells: [
+              c("71-76 cm", '28-30"'),
+              c("81.5-86.5 cm", '32-34"'),
+              c("91.5-96.5 cm", '36-38"'),
+              c("106.5-112 cm", '42-44"'),
+            ],
+          },
+          {
+            label: "Heupen",
+            cells: [
+              c("89-94 cm", '35-37"'),
+              c("99-104 cm", '39-41"'),
+              c("109-114 cm", '43-45"'),
+              c("119-124.5 cm", '47-49"'),
+            ],
+          },
+          {
+            label: "Middenachter hals tot pols",
+            cells: [
+              c("81-82.5 cm", '32-32.5"'),
+              c("83.5-85 cm", '33-33.5"'),
+              c("86.5-87.5 cm", '34-34.5"'),
+              c("89-90 cm", '35-35.5"'),
+            ],
+          },
+        ],
+      },
+      {
+        caption: "Man 2XL-5XL",
+        sizes: ["2XL", "3XL", "4XL", "5XL"],
+        rows: [
+          {
+            label: "Borstomtrek",
+            cells: [
+              c("127-132 cm", '50-52"'),
+              c("137-142 cm", '54-56"'),
+              c("147.5-152 cm", '58-60"'),
+              c("157.5-162.5 cm", '62-64"'),
+            ],
+          },
+          {
+            label: "Ruglengte tot taille",
+            cells: [
+              c("73.5 cm", '29"'),
+              c("76 cm", '30"'),
+              c("76 cm", '30"'),
+              c("79 cm", '31"'),
+            ],
+          },
+          {
+            label: "Rugbreedte",
+            cells: [
+              c("48-51 cm", '19-20"'),
+              c("48-51 cm", '20-21"'),
+              c("51-54.5 cm", '21-21.5"'),
+              c("56-57 cm", '22-22.5"'),
+            ],
+          },
+          {
+            label: "Mouwlengte tot oksel",
+            cells: [
+              c("52 cm", '20.5"'),
+              c("52 cm", '20.5"'),
+              c("49.5 cm", '21"'),
+              c("53.5-54.5 cm", '21.5"'),
+            ],
+          },
+          {
+            label: "Bovenarm",
+            cells: [
+              c("42 cm", '16.5"'),
+              c("44.5 cm", '17.5"'),
+              c("47 cm", '18.5"'),
+              c("48 cm", '20"'),
+            ],
+          },
+          {
+            label: "Armsgatdiepte",
+            cells: [
+              c("28 cm", '11"'),
+              c("29 cm", '11.5"'),
+              c("30.5 cm", '12"'),
+              c("32 cm", '12.5"'),
+            ],
+          },
+          {
+            label: "Taille",
+            cells: [
+              c("117-122 cm", '46-48"'),
+              c("127-132 cm", '50-52"'),
+              c("137-142 cm", '54-56"'),
+              c("147.5-152.5 cm", '58-60"'),
+            ],
+          },
+          {
+            label: "Heupen",
+            cells: [
+              c("129-134 cm", '51-53"'),
+              c("137-142 cm", '54-56"'),
+              c("142-147.5 cm", '56-58"'),
+              c("147.5-152.5 cm", '58-60"'),
+            ],
+          },
+          {
+            label: "Middenachter hals tot pols",
+            cells: [
+              c("91.5-92.5 cm", '36-36.5"'),
+              c("94-95 cm", '37-37.5"'),
+              c("96.5-97.5 cm", '38-38.5"'),
+              c("99-100.5 cm", '39-39.5"'),
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "accessoires",
+    label: "Accessoires",
+    intro:
+      "Hoofd-, voet- en handmaten voor mutsen, sokken, wanten en handschoenen.",
+    tables: [
+      {
+        caption: "Hoofdomtrek",
+        sizeHeader: "Categorie",
+        sizes: ["Omtrek"],
+        rows: [
+          { label: "Prematuur", cells: [c("23-30.5 cm", '9-12"')] },
+          { label: "Baby", cells: [c("35.5-40.5 cm", '14-16"')] },
+          { label: "Peuter", cells: [c("40.5-46 cm", '16-18"')] },
+          { label: "Kind", cells: [c("45.5-51 cm", '18-20"')] },
+          { label: "Tiener", cells: [c("51-56 cm", '20-22"')] },
+          { label: "Vrouw", cells: [c("53-58.5 cm", '21-23"')] },
+          { label: "Man", cells: [c("56-61 cm", '22-24"')] },
+        ],
+      },
+      {
+        caption: "Voetlengte",
+        sizeHeader: "Maat",
+        sizes: ["Lengte"],
+        rows: [
+          { label: "Baby (0-6 mnd)", cells: [c("9 cm", '3.5"')] },
+          { label: "Baby (6-12 mnd)", cells: [c("10-11 cm", '4-4.5"')] },
+          { label: "Peuter (1-2)", cells: [c("12-13 cm", '4.75-5"')] },
+          { label: "Kind (3-6)", cells: [c("14-18 cm", '5.5-7"')] },
+          { label: "Kind (7-10)", cells: [c("19-21 cm", '7.5-8.25"')] },
+          { label: "Tiener", cells: [c("22-24 cm", '8.5-9.5"')] },
+          { label: "Vrouw", cells: [c("23-26 cm", '9-10.25"')] },
+          { label: "Man", cells: [c("25-29 cm", '10-11.5"')] },
+        ],
+      },
+      {
+        caption: "Handomtrek",
+        sizeHeader: "Maat",
+        sizes: ["Omtrek"],
+        rows: [
+          { label: "Baby", cells: [c("10-13 cm", '4-5"')] },
+          { label: "Peuter", cells: [c("13-15 cm", '5-6"')] },
+          { label: "Kind", cells: [c("15-18 cm", '6-7"')] },
+          { label: "Tiener", cells: [c("18-20 cm", '7-8"')] },
+          { label: "Vrouw", cells: [c("18-20 cm", '7-8"')] },
+          { label: "Man", cells: [c("20-23 cm", '8-9"')] },
+        ],
+      },
+    ],
+  },
+];
+
+const defaultPanel = "vrouw";
+
+const faqs = [
+  {
+    q: "Zijn deze maten hetzelfde in alle breipatronen?",
+    a: "De meeste grote uitgevers en onafhankelijke ontwerpers volgen de standaarden van de Craft Yarn Council, maar er is geen universele controle. Sommige ontwerpers gebruiken hun eigen maattabellen, vooral bij maat-inclusieve patronen met meer opties. Controleer altijd de maattabel van het patroon als die erbij staat.",
+  },
+  {
+    q: "Hoe kies ik een maat als het patroon genummerde maten gebruikt in plaats van XS/S/M/L?",
+    a: "Vergelijk de borstomtrek bij elke genummerde maat met de tabellen hierboven. De borstomtrek is wat telt. Negeer het label.",
+  },
+  {
+    q: "Meet ik over kleding of op de huid?",
+    a: "Over lichte kleding: een aansluitend T-shirt of dunne laag. Een dikke trui voegt centimeters toe die niet bij je lichaam horen. Op de blote huid kan de maat net iets kleiner uitvallen dan het kledingstuk uiteindelijk nodig heeft.",
+  },
+  {
+    q: "Wat als mijn maten niet netjes in een maat vallen?",
+    a: "Dat is normaal. De meeste lichamen zijn niet overal een maat. Geef voorrang aan de belangrijkste maat voor het kledingstuk: borst voor een trui, heupen voor een rok, hoofdomtrek voor een muts. Veel patronen geven aanwijzingen om specifieke delen langer of korter te maken.",
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Maattabellen voor breien"
+  description="Standaard lichaamsmaten voor breien. Baby- tot volwassen maten met borst, taille, heupen, armlengte en meer, in cm en inches."
+  canonicalPath={dutchToolRoutes.knittingSizeCharts}
+  lang="nl"
+  alternates={routes.tool.knittingSizeCharts}
+  intro="Standaard lichaamsmaten in cm voor elk breiproject, met inchwaarden in de tabel."
+  schemaName="Maattabellen voor breien"
+  schemaDescription="Referentietabellen met standaard lichaamsmaten voor breien, van baby tot volwassene."
+  faqs={faqs}
+  variant="terracotta"
+>
+  <div slot="tool">
+    <p class="panel-intro">
+      Dit zijn lichaamsmaten, geen maten van het afgewerkte kledingstuk. Tel
+      bewegingsruimte op voor de pasvorm die je wilt.
+    </p>
+    <div class="chart-controls">
+      <div class="tab-scroller">
+        <div class="tabs" role="tablist" aria-label="Maatcategorie">
+          {
+            panels.map((panel) => (
+              <button
+                type="button"
+                role="tab"
+                class={`tab-btn${panel.id === defaultPanel ? " is-active" : ""}`}
+                data-tab={panel.id}
+                aria-selected={panel.id === defaultPanel ? "true" : "false"}
+                aria-controls={`panel-${panel.id}`}
+                id={`tab-${panel.id}`}
+              >
+                {panel.label}
+              </button>
+            ))
+          }
+        </div>
+      </div>
+
+      <div class="unit-toggle" role="radiogroup" aria-label="Maateenheid">
+        <button
+          type="button"
+          role="radio"
+          class="unit-btn is-active"
+          data-unit="cm"
+          aria-checked="true">CM</button
+        >
+        <button
+          type="button"
+          role="radio"
+          class="unit-btn"
+          data-unit="inch"
+          aria-checked="false">Inches</button
+        >
+      </div>
+    </div>
+
+    <div class="chart-wrap show-cm" id="nl-size-chart-wrap">
+      {
+        panels.map((panel) => (
+          <div
+            class={`panel${panel.id === defaultPanel ? " is-active" : ""}`}
+            data-panel={panel.id}
+            role="tabpanel"
+            id={`panel-${panel.id}`}
+            aria-labelledby={`tab-${panel.id}`}
+            hidden={panel.id !== defaultPanel}
+          >
+            {panel.intro && <p class="panel-intro">{panel.intro}</p>}
+            {panel.tables.map((table) => (
+              <div class="table-block">
+                {table.caption && (
+                  <h3 class="table-caption">{table.caption}</h3>
+                )}
+                <div class="table-scroll">
+                  <table class="size-table">
+                    <thead>
+                      <tr>
+                        <th class="sticky-col">{table.sizeHeader ?? "Maat"}</th>
+                        {table.sizes.map((size) => (
+                          <th>{size}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {table.rows.map((row) => (
+                        <tr>
+                          <th scope="row" class="sticky-col row-label">
+                            {row.label}
+                          </th>
+                          {row.cells.map((cell) => (
+                            <td>
+                              <span class="unit-cm">
+                                {formatNumberText(cell.cm)}
+                              </span>
+                              <span class="unit-inch">
+                                {formatNumberText(cell.inch)}
+                              </span>
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ))}
+          </div>
+        ))
+      }
+    </div>
+  </div>
+
+  <div slot="content">
+    <h2>Lichaamsmaten opnemen</h2>
+    <p>
+      De maten in deze tabellen horen bij specifieke plekken op het lichaam.
+      Voor een betrouwbare maat moet je op de juiste plek meten.
+    </p>
+    <p>
+      <strong>Borstomtrek:</strong> Meet rond het breedste deel van de borst, met
+      het meetlint horizontaal, dicht tegen het lichaam maar niet strak. Bij vrouwen
+      is dat over het volste punt van de buste. Dit is de belangrijkste maat voor
+      kleding.
+    </p>
+    <p>
+      <strong>Taille:</strong> Meet rond de natuurlijke taille, het smalste deel van
+      de romp, vaak net boven de navel. Twijfel je, buig dan opzij; de vouw laat zien
+      waar je taille zit.
+    </p>
+    <p>
+      <strong>Heupen:</strong> Meet rond het breedste deel van de heupen, vaak 18-23
+      cm onder de taille. Houd het meetlint horizontaal.
+    </p>
+    <p>
+      <strong>Rugbreedte:</strong> Meet recht over de rug, van schouderpunt tot schouderpunt.
+      Dit bepaalt de schouderbreedte van het kledingstuk.
+    </p>
+    <p>
+      <strong>Ruglengte tot taille:</strong> Meet vanaf het botje onderaan de nek
+      tot de natuurlijke taille. Dit geeft de benodigde lengte van het lijf aan.
+    </p>
+    <p>
+      <strong>Mouwlengte tot oksel:</strong> Meet vanaf het polsbotje tot de oksel.
+      Dit is je richtpunt voor mouwlengte.
+    </p>
+    <p>
+      <strong>Bovenarm:</strong> Meet rond het breedste deel van de bovenarm, met
+      de arm ontspannen langs het lichaam.
+    </p>
+    <p>
+      <strong>Armsgatdiepte:</strong> Meet vanaf de bovenkant van de schouder tot
+      de oksel. Dit bepaalt de diepte van het armsgat.
+    </p>
+    <p>
+      <strong>Middenachter hals tot pols:</strong> Meet vanaf middenachter bij de
+      nek, over de schouder en langs de arm tot het polsbotje. Deze totale maat is
+      nuttig bij raglan- en pasconstructies, waar lijf en mouwen met elkaar verbonden
+      zijn.
+    </p>
+
+    <h2>Lichaamsmaten of afgewerkte maten</h2>
+    <p>
+      Dit is de meest voorkomende verwarring bij breimaten. De tabellen tonen
+      lichaamsmaten, dus de echte maten van het lichaam. Een afgewerkt
+      kledingstuk is meestal groter, omdat er bewegingsruimte in zit.
+    </p>
+    <p>
+      <strong>Negatieve bewegingsruimte (-2,5 tot -5 cm):</strong> Het kledingstuk
+      is kleiner dan het lichaam. Dit gebruik je voor mutsen, sokken en strakke ribstukken
+      die moeten blijven zitten.
+    </p>
+    <p>
+      <strong>Geen bewegingsruimte:</strong> Het kledingstuk komt exact overeen met
+      de lichaamsmaten. Dat is zeldzaam in breiwerk. Het resultaat is heel aansluitend.
+    </p>
+    <p>
+      <strong>Positieve bewegingsruimte (5-10 cm):</strong> Het kledingstuk is iets
+      groter dan het lichaam. Dit is de standaardpasvorm voor de meeste truien, vesten
+      en tops.
+    </p>
+    <p>
+      <strong>Oversized bewegingsruimte (10-20+ cm):</strong> Het kledingstuk is duidelijk
+      groter dan het lichaam. Ruime truien, coconvesten en ontspannen pasvormen.
+    </p>
+    <p>
+      Als een patroon "to fit chest 91,5 cm" zegt en daarna een afgewerkte
+      borstomtrek van 101,5 cm geeft, is het verschil van 10 cm de
+      bewegingsruimte. Jouw taak is de maat kiezen waarvan de "to fit"-maat bij
+      het lichaam past, niet de afgewerkte maat.
+    </p>
+    <p>
+      Zodra je de doelmaat hebt gekozen, kan de <a
+        href={dutchToolRoutes.yarnEstimator}>garenberekenaar</a
+      > controleren of het aantal meters logisch is, en de <a
+        href="/nl/artikelen/hoeveel-garen-voor-een-trui/"
+        >gids voor garen voor een trui</a
+      > gaat dieper in op maatberekeningen.
+    </p>
+
+    <h2>Kiezen tussen twee maten</h2>
+    <p>
+      Valt je borstomtrek tussen twee maten, dan hangt de juiste keuze af van de
+      bedoelde pasvorm. Voor een aansluitend kledingstuk kies je de kleinere.
+      Voor een ontspannen of oversized pasvorm kies je de grotere.
+    </p>
+    <p>
+      Vergelijk ook de andere maten, vooral heupen bij langere kledingstukken en
+      bovenarm bij aansluitende mouwen. Zegt je borst M maar je heup L, kijk dan
+      naar het maatschema van het patroon om te zien of het verschil bij de
+      heupen telt voor de lengte en vorm.
+    </p>
+    <p>
+      Welke maat je ook kiest, het <a
+        href="/nl/artikelen/proeflapje-breien-stap-voor-stap/">proeflapje</a
+      > bepaalt of het afgewerkte werk echt bij de cijfers van het patroon past. De
+      gids <a href="/nl/artikelen/stekenverhouding-meten/"
+        >stekenverhouding meten</a
+      > legt de methode uit.
+    </p>
+  </div>
+</LocalizedToolPage>
+
+<script>
+  const tabButtons = document.querySelectorAll<HTMLButtonElement>(".tab-btn");
+  const panels = document.querySelectorAll<HTMLElement>(".panel");
+
+  tabButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const target = button.dataset.tab;
+
+      tabButtons.forEach((tab) => {
+        const isActive = tab.dataset.tab === target;
+        tab.classList.toggle("is-active", isActive);
+        tab.setAttribute("aria-selected", isActive ? "true" : "false");
+      });
+
+      panels.forEach((panel) => {
+        const isActive = panel.dataset.panel === target;
+        panel.classList.toggle("is-active", isActive);
+        if (isActive) {
+          panel.removeAttribute("hidden");
+        } else {
+          panel.setAttribute("hidden", "");
+        }
+      });
+    });
+  });
+
+  const unitButtons = document.querySelectorAll<HTMLButtonElement>(".unit-btn");
+  const chartWrap = document.getElementById("nl-size-chart-wrap");
+
+  unitButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const unit = button.dataset.unit;
+      if (!unit || !chartWrap) return;
+
+      unitButtons.forEach((unitButton) => {
+        const isActive = unitButton.dataset.unit === unit;
+        unitButton.classList.toggle("is-active", isActive);
+        unitButton.setAttribute("aria-checked", isActive ? "true" : "false");
+      });
+
+      chartWrap.classList.toggle("show-cm", unit === "cm");
+      chartWrap.classList.toggle("show-inch", unit === "inch");
+    });
+  });
+</script>

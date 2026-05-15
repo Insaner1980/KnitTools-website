@@ -4,11 +4,18 @@ description: "Finn ut hva slags garn du har når etiketten mangler. Tester for f
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 9
-tags: ["identifisere ukjent garn", "garn uten etikett", "branntest garn", "WPI test garntykkelse"]
+tags:
+  [
+    "identifisere ukjent garn",
+    "garn uten etikett",
+    "branntest garn",
+    "WPI test garntykkelse",
+  ]
 draft: false
 lang: no
 translationKey: "identify-mystery-yarn"
 ---
+
 De fleste strikkere ender med mystisk garn før eller siden. Etiketten falt av, garnet kom fra noen andres lager, eller nøstet hadde aldri særlig informasjon. Bruktbutikkposer, arvede samlinger, rester fra bytter.
 
 For å identifisere ukjent garn starter du med wraps per inch (WPI) for å finne garntykkelse, og bruker deretter brann- og vanntester for å snevre inn fiberfamilien. Du finner ikke alltid eksakt merke eller prosent, men tykkelsesområde og grov fibertype er som regel nok.

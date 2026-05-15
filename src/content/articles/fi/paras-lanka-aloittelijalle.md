@@ -4,10 +4,17 @@ description: "Valitse hyvä lanka neulomisen opetteluun. Opas lankavahvuuteen, k
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 1
-tags: ["paras lanka aloittelijalle", "aloittelijan neulelanka", "millä langalla aloittaa neulominen", "ensimmäisen neuleprojektin lanka"]
+tags:
+  [
+    "paras lanka aloittelijalle",
+    "aloittelijan neulelanka",
+    "millä langalla aloittaa neulominen",
+    "ensimmäisen neuleprojektin lanka",
+  ]
 lang: fi
 translationKey: "best-yarn-for-beginners"
 ---
+
 Lankahylly on hämmentävä, kun et vielä tiedä mitä katsot. Seinittäin värejä, eri paksuuksia ja vyötteitä täynnä outoja termejä. Paras lanka neulomisen opetteluun on worsted-vahvuinen eli CYC 4 -kategorian lanka vaaleassa yksivärisessä sävyssä: akryyli, jos budjetti ratkaisee, tai villa-akryylisekoitus, jos haluat mukavamman tuntuman. Yhdistä se 4,5-5,5 mm bambu- tai puupuikkoihin. Ensimmäistä projektia varten valinta on yksinkertaisempi kuin miltä se näyttää.
 
 Tarvitset langan, joka antaa virheitä anteeksi, on helppo käsitellä ja on tarpeeksi edullinen, ettei purkaminen tunnu kalliilta.

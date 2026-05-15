@@ -4,10 +4,17 @@ description: "Näin korvaat ohjeen langan paksummalla tai ohuemmalla langalla. N
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 7
-tags: ["langan korvaaminen", "eri vahvuinen lanka neuleohjeessa", "vaihda lankavahvuus", "langan korvaaminen eri vahvuudella"]
+tags:
+  [
+    "langan korvaaminen",
+    "eri vahvuinen lanka neuleohjeessa",
+    "vaihda lankavahvuus",
+    "langan korvaaminen eri vahvuudella",
+  ]
 lang: fi
 translationKey: "yarn-weight-substitution"
 ---
+
 Saman vahvuusluokan sisällä merkin vaihtaminen on yksi asia. Ohjeen langan korvaaminen paksummalla tai ohuemmalla langalla on isompi päätös. Joskus juuri se on tarkoitus. Joskus se muuttuu huomaamatta koko ohjeen uudelleensuunnitteluksi.
 
 Langan korvaaminen eri vahvuudella tarkoittaa, että käytät ohjeessa mainittua paksumpaa tai ohuempaa lankaa. Silloin silmukkamäärät, puikkokoko ja langanmenekki pitää laskea uuden neuletiheyden mukaan. Oikea kysymys ei ole vain se, voiko matematiikan pakottaa toimimaan. Kysymys on, onko valmis neulepinta edelleen järkevä juuri siihen projektiin.

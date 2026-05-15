@@ -1,5 +1,5 @@
 ---
-import type { Lang } from '../i18n/config';
+import type { Lang } from "../i18n/config";
 
 interface WpiCategory {
   cyc: number;
@@ -27,154 +27,482 @@ interface Props {
   lang?: Lang;
 }
 
-const { lang = 'en' } = Astro.props;
+const { lang = "en" } = Astro.props;
 
 const copy: Copy = {
   en: {
     heading: "Don't know your weight? Try WPI",
-    intro: 'Wrap your yarn around a pencil or ruler, count how many wraps fit in one inch, then enter that number.',
-    placeholder: 'e.g. 10',
-    prompt: 'Enter a WPI value between 1 and 40',
-    invalid: 'Enter a WPI value between 1 and 40',
-    between: 'sits between standard categories. Swatch to confirm.',
-    swatch: 'Your gauge swatch decides.',
-    suggests: 'suggests',
-    matches: 'matches',
-    or: 'or',
-    fallback: 'JavaScript is disabled. Scroll up and pick the category whose WPI range contains your count.',
+    intro:
+      "Wrap your yarn around a pencil or ruler, count how many wraps fit in one inch, then enter that number.",
+    placeholder: "e.g. 10",
+    prompt: "Enter a WPI value between 1 and 40",
+    invalid: "Enter a WPI value between 1 and 40",
+    between: "sits between standard categories. Swatch to confirm.",
+    swatch: "Your gauge swatch decides.",
+    suggests: "suggests",
+    matches: "matches",
+    or: "or",
+    fallback:
+      "JavaScript is disabled. Scroll up and pick the category whose WPI range contains your count.",
   },
   fi: {
-      heading: 'Etkö tiedä lankavahvuutta? Kokeile WPI:tä',
-      intro: 'Kierrä lanka kynän tai viivaimen ympärille, laske montako kierrosta mahtuu noin 2,5 cm matkalle ja syötä luku.',
-      placeholder: 'esim. 10',
-      prompt: 'Syötä WPI-arvo väliltä 1-40',
-      invalid: 'Syötä WPI-arvo väliltä 1-40',
-      between: 'osuu vakioluokkien väliin. Varmista mallitilkulla.',
-      swatch: 'Mallitilkku ratkaisee.',
-      suggests: 'viittaa vahvuuteen',
-      matches: 'osuu luokkiin',
-      or: 'tai',
-      fallback: 'JavaScript ei ole käytössä. Valitse yllä oleva kategoria, jonka WPI-väliin laskemasi arvo osuu.',
+    heading: "Etkö tiedä lankavahvuutta? Kokeile WPI:tä",
+    intro:
+      "Kierrä lanka kynän tai viivaimen ympärille, laske montako kierrosta mahtuu noin 2,5 cm matkalle ja syötä luku.",
+    placeholder: "esim. 10",
+    prompt: "Syötä WPI-arvo väliltä 1-40",
+    invalid: "Syötä WPI-arvo väliltä 1-40",
+    between: "osuu vakioluokkien väliin. Varmista mallitilkulla.",
+    swatch: "Mallitilkku ratkaisee.",
+    suggests: "viittaa vahvuuteen",
+    matches: "osuu luokkiin",
+    or: "tai",
+    fallback:
+      "JavaScript ei ole käytössä. Valitse yllä oleva kategoria, jonka WPI-väliin laskemasi arvo osuu.",
   },
   de: {
-    heading: 'Garnstärke unsicher? Miss WPI',
-    intro: 'Wickle das Garn um einen Stift oder ein Lineal, zähle die Wicklungen auf 2,5 cm (1 inch) und gib die Zahl ein.',
-    placeholder: 'z. B. 10',
-    prompt: 'Gib einen WPI-Wert von 1 bis 40 ein',
-    invalid: 'Gib einen WPI-Wert von 1 bis 40 ein',
-    between: 'liegt zwischen den Standardkategorien. Prüfe es mit einer Maschenprobe.',
-    swatch: 'Die Maschenprobe entscheidet.',
-    suggests: 'weist auf',
-    matches: 'passt zu',
-    or: 'oder',
-    fallback: 'JavaScript ist deaktiviert. Wähle oben die Kategorie, deren WPI-Bereich deine Zahl enthält.',
+    heading: "Garnstärke unsicher? Miss WPI",
+    intro:
+      "Wickle das Garn um einen Stift oder ein Lineal, zähle die Wicklungen auf 2,5 cm (1 inch) und gib die Zahl ein.",
+    placeholder: "z. B. 10",
+    prompt: "Gib einen WPI-Wert von 1 bis 40 ein",
+    invalid: "Gib einen WPI-Wert von 1 bis 40 ein",
+    between:
+      "liegt zwischen den Standardkategorien. Prüfe es mit einer Maschenprobe.",
+    swatch: "Die Maschenprobe entscheidet.",
+    suggests: "weist auf",
+    matches: "passt zu",
+    or: "oder",
+    fallback:
+      "JavaScript ist deaktiviert. Wähle oben die Kategorie, deren WPI-Bereich deine Zahl enthält.",
   },
   sv: {
-    heading: 'Osäker på garntjockleken? Prova WPI',
-    intro: 'Linda garnet runt en penna eller linjal, räkna hur många varv som ryms på 2,5 cm och skriv in talet.',
-    placeholder: 't.ex. 10',
-    prompt: 'Ange ett WPI-värde mellan 1 och 40',
-    invalid: 'Ange ett WPI-värde mellan 1 och 40',
-    between: 'hamnar mellan standardkategorier. Gör ett stickprov för att kontrollera.',
-    swatch: 'Stickprovet avgör.',
-    suggests: 'pekar på',
-    matches: 'matchar',
-    or: 'eller',
-    fallback: 'JavaScript är avstängt. Välj kategorin ovan där ditt WPI-värde passar in.',
+    heading: "Osäker på garntjockleken? Prova WPI",
+    intro:
+      "Linda garnet runt en penna eller linjal, räkna hur många varv som ryms på 2,5 cm och skriv in talet.",
+    placeholder: "t.ex. 10",
+    prompt: "Ange ett WPI-värde mellan 1 och 40",
+    invalid: "Ange ett WPI-värde mellan 1 och 40",
+    between:
+      "hamnar mellan standardkategorier. Gör ett stickprov för att kontrollera.",
+    swatch: "Stickprovet avgör.",
+    suggests: "pekar på",
+    matches: "matchar",
+    or: "eller",
+    fallback:
+      "JavaScript är avstängt. Välj kategorin ovan där ditt WPI-värde passar in.",
   },
   no: {
-    heading: 'Usikker på garntykkelsen? Prøv WPI',
-    intro: 'Surr garnet rundt en blyant eller linjal, tell hvor mange runder som får plass på 2,5 cm / 1 tomme, og skriv inn tallet.',
-    placeholder: 'f.eks. 10',
-    prompt: 'Skriv inn en WPI-verdi mellom 1 og 40',
-    invalid: 'Skriv inn en WPI-verdi mellom 1 og 40',
-    between: 'havner mellom standardkategoriene. Strikk en prøvelapp for å sjekke.',
-    swatch: 'Prøvelappen avgjør.',
-    suggests: 'peker mot',
-    matches: 'passer med',
-    or: 'eller',
-    fallback: 'JavaScript er slått av. Velg kategorien ovenfor der WPI-verdien din passer inn.',
+    heading: "Usikker på garntykkelsen? Prøv WPI",
+    intro:
+      "Surr garnet rundt en blyant eller linjal, tell hvor mange runder som får plass på 2,5 cm / 1 tomme, og skriv inn tallet.",
+    placeholder: "f.eks. 10",
+    prompt: "Skriv inn en WPI-verdi mellom 1 og 40",
+    invalid: "Skriv inn en WPI-verdi mellom 1 og 40",
+    between:
+      "havner mellom standardkategoriene. Strikk en prøvelapp for å sjekke.",
+    swatch: "Prøvelappen avgjør.",
+    suggests: "peker mot",
+    matches: "passer med",
+    or: "eller",
+    fallback:
+      "JavaScript er slått av. Velg kategorien ovenfor der WPI-verdien din passer inn.",
   },
   fr: {
     heading: "Tu ne connais pas l'épaisseur ? Essaie le WPI",
-    intro: 'Enroule le fil autour d’un crayon ou d’une règle, compte le nombre de tours sur 2,5 cm, puis entre ce nombre.',
-    placeholder: 'ex. 10',
-    prompt: 'Entre une valeur WPI entre 1 et 40',
-    invalid: 'Entre une valeur WPI entre 1 et 40',
-    between: 'tombe entre deux catégories standard. Confirme avec un échantillon.',
+    intro:
+      "Enroule le fil autour d’un crayon ou d’une règle, compte le nombre de tours sur 2,5 cm, puis entre ce nombre.",
+    placeholder: "ex. 10",
+    prompt: "Entre une valeur WPI entre 1 et 40",
+    invalid: "Entre une valeur WPI entre 1 et 40",
+    between:
+      "tombe entre deux catégories standard. Confirme avec un échantillon.",
     swatch: "C'est l'échantillon qui tranche.",
-    suggests: 'suggère',
-    matches: 'correspond à',
-    or: 'ou',
-    fallback: "JavaScript est désactivé. Choisis plus haut la catégorie dont l'intervalle WPI contient ton nombre.",
+    suggests: "suggère",
+    matches: "correspond à",
+    or: "ou",
+    fallback:
+      "JavaScript est désactivé. Choisis plus haut la catégorie dont l'intervalle WPI contient ton nombre.",
+  },
+  nl: {
+    heading: "Weet je de garendikte niet? Probeer WPI",
+    intro:
+      "Wikkel het garen om een potlood of liniaal, tel hoeveel wikkelingen op 2,5 cm passen en vul dat getal in.",
+    placeholder: "bijv. 10",
+    prompt: "Vul een WPI-waarde tussen 1 en 40 in",
+    invalid: "Vul een WPI-waarde tussen 1 en 40 in",
+    between:
+      "valt tussen de standaardcategorieën. Controleer met een proeflapje.",
+    swatch: "Je proeflapje beslist.",
+    suggests: "wijst op",
+    matches: "past bij",
+    or: "of",
+    fallback:
+      "JavaScript staat uit. Kies hierboven de categorie waarvan het WPI-bereik je telling bevat.",
+  },
+  da: {
+    heading: "Kender du ikke garntykkelsen? Prøv WPI",
+    intro:
+      "Vikl garnet om en blyant eller lineal, tæl hvor mange omviklinger der passer på ca. 2,5 cm (1 inch), og skriv tallet ind.",
+    placeholder: "fx 10",
+    prompt: "Skriv en WPI-værdi mellem 1 og 40",
+    invalid: "Skriv en WPI-værdi mellem 1 og 40",
+    between: "ligger mellem standardkategorierne. Tjek med en strikkeprøve.",
+    swatch: "Strikkeprøven afgør det.",
+    suggests: "peger på",
+    matches: "passer til",
+    or: "eller",
+    fallback:
+      "JavaScript er slået fra. Vælg ovenfor den kategori, hvor din WPI-værdi passer ind.",
   },
 }[lang];
 
-const categories: WpiCategory[] = lang === 'fi'
-  ? [
-      { cyc: 0, name: 'Lace', regional: 'Cobweb/Lace', min: 30, max: 40 },
-      { cyc: 1, name: 'Super Fine', regional: 'Sock/Fingering', min: 14, max: 30 },
-      { cyc: 2, name: 'Fine', regional: 'Sport', min: 12, max: 18 },
-      { cyc: 3, name: 'Light', regional: 'DK/8-ply', min: 11, max: 15 },
-      { cyc: 4, name: 'Medium', regional: 'Worsted/Aran', min: 9, max: 12 },
-      { cyc: 5, name: 'Bulky', regional: 'Chunky', min: 6, max: 9 },
-      { cyc: 6, name: 'Super Bulky', regional: 'Super Chunky', min: 5, max: 6 },
-      { cyc: 7, name: 'Jumbo', regional: 'Jumbo', min: 1, max: 4 },
-    ]
-  : lang === 'de'
+const categories: WpiCategory[] =
+  lang === "fi"
     ? [
-        { cyc: 0, name: 'Lace', regional: 'Cobweb/Lace', min: 30, max: 40 },
-        { cyc: 1, name: 'Fingering / Sockengarn', regional: 'Super Fine', min: 14, max: 30 },
-        { cyc: 2, name: 'Sport', regional: 'Fine', min: 12, max: 18 },
-        { cyc: 3, name: 'DK / Light', regional: 'Light', min: 11, max: 15 },
-        { cyc: 4, name: 'Worsted / Aran / Medium', regional: 'Medium', min: 9, max: 12 },
-        { cyc: 5, name: 'Bulky / Chunky', regional: 'Bulky', min: 6, max: 9 },
-        { cyc: 6, name: 'Super Bulky / Super Chunky', regional: 'Super Bulky', min: 5, max: 6 },
-        { cyc: 7, name: 'Jumbo', regional: 'Jumbo', min: 1, max: 4 },
+        { cyc: 0, name: "Lace", regional: "Cobweb/Lace", min: 30, max: 40 },
+        {
+          cyc: 1,
+          name: "Super Fine",
+          regional: "Sock/Fingering",
+          min: 14,
+          max: 30,
+        },
+        { cyc: 2, name: "Fine", regional: "Sport", min: 12, max: 18 },
+        { cyc: 3, name: "Light", regional: "DK/8-ply", min: 11, max: 15 },
+        { cyc: 4, name: "Medium", regional: "Worsted/Aran", min: 9, max: 12 },
+        { cyc: 5, name: "Bulky", regional: "Chunky", min: 6, max: 9 },
+        {
+          cyc: 6,
+          name: "Super Bulky",
+          regional: "Super Chunky",
+          min: 5,
+          max: 6,
+        },
+        { cyc: 7, name: "Jumbo", regional: "Jumbo", min: 1, max: 4 },
       ]
-  : lang === 'sv'
-    ? [
-        { cyc: 0, name: 'Lace', regional: 'Cobweb/Lace', min: 30, max: 40 },
-        { cyc: 1, name: 'Fingering / sockgarn', regional: 'Super Fine', min: 14, max: 30 },
-        { cyc: 2, name: 'Sport', regional: 'Fine', min: 12, max: 18 },
-        { cyc: 3, name: 'DK / Light', regional: 'Light', min: 11, max: 15 },
-        { cyc: 4, name: 'Worsted / Aran / Medium', regional: 'Medium', min: 9, max: 12 },
-        { cyc: 5, name: 'Bulky / Chunky', regional: 'Bulky', min: 6, max: 9 },
-        { cyc: 6, name: 'Super Bulky', regional: 'Super Bulky', min: 5, max: 6 },
-        { cyc: 7, name: 'Jumbo', regional: 'Jumbo', min: 1, max: 4 },
-      ]
-  : lang === 'no'
-    ? [
-        { cyc: 0, name: 'Lace', regional: 'Cobweb/Lace', min: 30, max: 40 },
-        { cyc: 1, name: 'Fingering / sokkegarn', regional: 'Super Fine', min: 14, max: 30 },
-        { cyc: 2, name: 'Sport', regional: 'Fine', min: 12, max: 18 },
-        { cyc: 3, name: 'DK / Light', regional: 'Light', min: 11, max: 15 },
-        { cyc: 4, name: 'Worsted / Aran / Medium', regional: 'Medium', min: 9, max: 12 },
-        { cyc: 5, name: 'Bulky / Chunky', regional: 'Bulky', min: 6, max: 9 },
-        { cyc: 6, name: 'Super Bulky / Super Chunky', regional: 'Super Bulky', min: 5, max: 6 },
-        { cyc: 7, name: 'Jumbo', regional: 'Jumbo', min: 1, max: 4 },
-      ]
-  : lang === 'fr'
-    ? [
-        { cyc: 0, name: 'Lace / dentelle', regional: 'Cobweb/Lace', min: 30, max: 40 },
-        { cyc: 1, name: 'Fingering / Sock', regional: 'Super Fine', min: 14, max: 30 },
-        { cyc: 2, name: 'Sport', regional: 'Fine', min: 12, max: 18 },
-        { cyc: 3, name: 'DK / Light', regional: 'Light', min: 11, max: 15 },
-        { cyc: 4, name: 'Worsted / Aran / Medium', regional: 'Medium', min: 9, max: 12 },
-        { cyc: 5, name: 'Bulky / Chunky', regional: 'Bulky', min: 6, max: 9 },
-        { cyc: 6, name: 'Super Bulky', regional: 'Super Bulky', min: 5, max: 6 },
-        { cyc: 7, name: 'Jumbo', regional: 'Jumbo', min: 1, max: 4 },
-      ]
-  : [
-      { cyc: 0, name: 'Lace', regional: 'Cobweb/Lace', min: 30, max: 40 },
-      { cyc: 1, name: 'Super Fine', regional: 'Sock/Fingering', min: 14, max: 30 },
-      { cyc: 2, name: 'Fine', regional: 'Sport', min: 12, max: 18 },
-      { cyc: 3, name: 'Light', regional: 'DK/8-ply', min: 11, max: 15 },
-      { cyc: 4, name: 'Medium', regional: 'Worsted/Aran', min: 9, max: 12 },
-      { cyc: 5, name: 'Bulky', regional: 'Chunky', min: 6, max: 9 },
-      { cyc: 6, name: 'Super Bulky', regional: 'Super Chunky', min: 5, max: 6 },
-      { cyc: 7, name: 'Jumbo', regional: 'Jumbo', min: 1, max: 4 },
-    ];
+    : lang === "de"
+      ? [
+          { cyc: 0, name: "Lace", regional: "Cobweb/Lace", min: 30, max: 40 },
+          {
+            cyc: 1,
+            name: "Fingering / Sockengarn",
+            regional: "Super Fine",
+            min: 14,
+            max: 30,
+          },
+          { cyc: 2, name: "Sport", regional: "Fine", min: 12, max: 18 },
+          { cyc: 3, name: "DK / Light", regional: "Light", min: 11, max: 15 },
+          {
+            cyc: 4,
+            name: "Worsted / Aran / Medium",
+            regional: "Medium",
+            min: 9,
+            max: 12,
+          },
+          { cyc: 5, name: "Bulky / Chunky", regional: "Bulky", min: 6, max: 9 },
+          {
+            cyc: 6,
+            name: "Super Bulky / Super Chunky",
+            regional: "Super Bulky",
+            min: 5,
+            max: 6,
+          },
+          { cyc: 7, name: "Jumbo", regional: "Jumbo", min: 1, max: 4 },
+        ]
+      : lang === "sv"
+        ? [
+            { cyc: 0, name: "Lace", regional: "Cobweb/Lace", min: 30, max: 40 },
+            {
+              cyc: 1,
+              name: "Fingering / sockgarn",
+              regional: "Super Fine",
+              min: 14,
+              max: 30,
+            },
+            { cyc: 2, name: "Sport", regional: "Fine", min: 12, max: 18 },
+            { cyc: 3, name: "DK / Light", regional: "Light", min: 11, max: 15 },
+            {
+              cyc: 4,
+              name: "Worsted / Aran / Medium",
+              regional: "Medium",
+              min: 9,
+              max: 12,
+            },
+            {
+              cyc: 5,
+              name: "Bulky / Chunky",
+              regional: "Bulky",
+              min: 6,
+              max: 9,
+            },
+            {
+              cyc: 6,
+              name: "Super Bulky",
+              regional: "Super Bulky",
+              min: 5,
+              max: 6,
+            },
+            { cyc: 7, name: "Jumbo", regional: "Jumbo", min: 1, max: 4 },
+          ]
+        : lang === "no"
+          ? [
+              {
+                cyc: 0,
+                name: "Lace",
+                regional: "Cobweb/Lace",
+                min: 30,
+                max: 40,
+              },
+              {
+                cyc: 1,
+                name: "Fingering / sokkegarn",
+                regional: "Super Fine",
+                min: 14,
+                max: 30,
+              },
+              { cyc: 2, name: "Sport", regional: "Fine", min: 12, max: 18 },
+              {
+                cyc: 3,
+                name: "DK / Light",
+                regional: "Light",
+                min: 11,
+                max: 15,
+              },
+              {
+                cyc: 4,
+                name: "Worsted / Aran / Medium",
+                regional: "Medium",
+                min: 9,
+                max: 12,
+              },
+              {
+                cyc: 5,
+                name: "Bulky / Chunky",
+                regional: "Bulky",
+                min: 6,
+                max: 9,
+              },
+              {
+                cyc: 6,
+                name: "Super Bulky / Super Chunky",
+                regional: "Super Bulky",
+                min: 5,
+                max: 6,
+              },
+              { cyc: 7, name: "Jumbo", regional: "Jumbo", min: 1, max: 4 },
+            ]
+          : lang === "fr"
+            ? [
+                {
+                  cyc: 0,
+                  name: "Lace / dentelle",
+                  regional: "Cobweb/Lace",
+                  min: 30,
+                  max: 40,
+                },
+                {
+                  cyc: 1,
+                  name: "Fingering / Sock",
+                  regional: "Super Fine",
+                  min: 14,
+                  max: 30,
+                },
+                { cyc: 2, name: "Sport", regional: "Fine", min: 12, max: 18 },
+                {
+                  cyc: 3,
+                  name: "DK / Light",
+                  regional: "Light",
+                  min: 11,
+                  max: 15,
+                },
+                {
+                  cyc: 4,
+                  name: "Worsted / Aran / Medium",
+                  regional: "Medium",
+                  min: 9,
+                  max: 12,
+                },
+                {
+                  cyc: 5,
+                  name: "Bulky / Chunky",
+                  regional: "Bulky",
+                  min: 6,
+                  max: 9,
+                },
+                {
+                  cyc: 6,
+                  name: "Super Bulky",
+                  regional: "Super Bulky",
+                  min: 5,
+                  max: 6,
+                },
+                { cyc: 7, name: "Jumbo", regional: "Jumbo", min: 1, max: 4 },
+              ]
+            : lang === "nl"
+              ? [
+                  {
+                    cyc: 0,
+                    name: "Lace",
+                    regional: "Cobweb/Lace",
+                    min: 30,
+                    max: 40,
+                  },
+                  {
+                    cyc: 1,
+                    name: "Fingering / sokkengaren",
+                    regional: "Super Fine",
+                    min: 14,
+                    max: 30,
+                  },
+                  { cyc: 2, name: "Sport", regional: "Fine", min: 12, max: 18 },
+                  {
+                    cyc: 3,
+                    name: "DK / Light Worsted",
+                    regional: "Light",
+                    min: 11,
+                    max: 15,
+                  },
+                  {
+                    cyc: 4,
+                    name: "Worsted / Aran / Medium",
+                    regional: "Medium",
+                    min: 9,
+                    max: 12,
+                  },
+                  {
+                    cyc: 5,
+                    name: "Bulky / Chunky",
+                    regional: "Bulky",
+                    min: 6,
+                    max: 9,
+                  },
+                  {
+                    cyc: 6,
+                    name: "Super Bulky / Super Chunky",
+                    regional: "Super Bulky",
+                    min: 5,
+                    max: 6,
+                  },
+                  { cyc: 7, name: "Jumbo", regional: "Jumbo", min: 1, max: 4 },
+                ]
+              : lang === "da"
+                ? [
+                    {
+                      cyc: 0,
+                      name: "Lace",
+                      regional: "Cobweb/Lace",
+                      min: 30,
+                      max: 40,
+                    },
+                    {
+                      cyc: 1,
+                      name: "Fingering / strømpegarn",
+                      regional: "Super Fine",
+                      min: 14,
+                      max: 30,
+                    },
+                    {
+                      cyc: 2,
+                      name: "Sport",
+                      regional: "Fine",
+                      min: 12,
+                      max: 18,
+                    },
+                    {
+                      cyc: 3,
+                      name: "DK / Light Worsted",
+                      regional: "Light",
+                      min: 11,
+                      max: 15,
+                    },
+                    {
+                      cyc: 4,
+                      name: "Worsted / Aran / Medium",
+                      regional: "Medium",
+                      min: 9,
+                      max: 12,
+                    },
+                    {
+                      cyc: 5,
+                      name: "Bulky / Chunky",
+                      regional: "Bulky",
+                      min: 6,
+                      max: 9,
+                    },
+                    {
+                      cyc: 6,
+                      name: "Super Bulky / Super Chunky",
+                      regional: "Super Bulky",
+                      min: 5,
+                      max: 6,
+                    },
+                    {
+                      cyc: 7,
+                      name: "Jumbo",
+                      regional: "Jumbo",
+                      min: 1,
+                      max: 4,
+                    },
+                  ]
+                : [
+                    {
+                      cyc: 0,
+                      name: "Lace",
+                      regional: "Cobweb/Lace",
+                      min: 30,
+                      max: 40,
+                    },
+                    {
+                      cyc: 1,
+                      name: "Super Fine",
+                      regional: "Sock/Fingering",
+                      min: 14,
+                      max: 30,
+                    },
+                    {
+                      cyc: 2,
+                      name: "Fine",
+                      regional: "Sport",
+                      min: 12,
+                      max: 18,
+                    },
+                    {
+                      cyc: 3,
+                      name: "Light",
+                      regional: "DK/8-ply",
+                      min: 11,
+                      max: 15,
+                    },
+                    {
+                      cyc: 4,
+                      name: "Medium",
+                      regional: "Worsted/Aran",
+                      min: 9,
+                      max: 12,
+                    },
+                    {
+                      cyc: 5,
+                      name: "Bulky",
+                      regional: "Chunky",
+                      min: 6,
+                      max: 9,
+                    },
+                    {
+                      cyc: 6,
+                      name: "Super Bulky",
+                      regional: "Super Chunky",
+                      min: 5,
+                      max: 6,
+                    },
+                    {
+                      cyc: 7,
+                      name: "Jumbo",
+                      regional: "Jumbo",
+                      min: 1,
+                      max: 4,
+                    },
+                  ];
 ---
 
 <div class="wpi-tool gs-form" data-wpi-tool>
@@ -208,16 +536,16 @@ const categories: WpiCategory[] = lang === 'fi'
 >
   (() => {
     const tool = document.currentScript?.previousElementSibling;
-    if (!tool || !tool.matches('[data-wpi-tool]')) return;
+    if (!tool || !tool.matches("[data-wpi-tool]")) return;
 
-    const input = tool.querySelector('[data-wpi-input]');
-    const result = tool.querySelector('[data-wpi-result]');
+    const input = tool.querySelector("[data-wpi-input]");
+    const result = tool.querySelector("[data-wpi-result]");
     if (!input || !result) return;
 
     const joinParts = (parts) => {
       if (parts.length === 1) return parts[0];
       if (parts.length === 2) return `${parts[0]} ${wpiCopy.or} ${parts[1]}`;
-      return `${parts.slice(0, -1).join(', ')} ${wpiCopy.or} ${parts[parts.length - 1]}`;
+      return `${parts.slice(0, -1).join(", ")} ${wpiCopy.or} ${parts[parts.length - 1]}`;
     };
 
     const formatMatches = (matches) => {
@@ -230,9 +558,9 @@ const categories: WpiCategory[] = lang === 'fi'
       return `${wpiCopy.matches} ${joinParts(parts)}. ${wpiCopy.swatch}`;
     };
 
-    input.addEventListener('input', () => {
+    input.addEventListener("input", () => {
       const raw = input.value.trim();
-      if (raw === '') {
+      if (raw === "") {
         result.textContent = wpiCopy.prompt;
         return;
       }
@@ -243,10 +571,13 @@ const categories: WpiCategory[] = lang === 'fi'
         return;
       }
 
-      const matches = wpiCategories.filter((category) => value >= category.min && value <= category.max);
-      result.textContent = matches.length === 0
-        ? `${value} WPI ${wpiCopy.between}`
-        : `${value} WPI ${formatMatches(matches)}`;
+      const matches = wpiCategories.filter(
+        (category) => value >= category.min && value <= category.max,
+      );
+      result.textContent =
+        matches.length === 0
+          ? `${value} WPI ${wpiCopy.between}`
+          : `${value} WPI ${formatMatches(matches)}`;
     });
   })();
 </script>
@@ -295,7 +626,9 @@ const categories: WpiCategory[] = lang === 'fi'
     outline: none;
     border-radius: 0;
     box-sizing: border-box;
-    transition: border-color 300ms ease, box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition:
+      border-color 300ms ease,
+      box-shadow 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
   }
 
   .wpi-input::placeholder {

@@ -4,11 +4,18 @@ description: "Hvordan bytte til en annen garntykkelse i en oppskrift. Om maskean
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 7
-tags: ["bytte garntykkelse", "bruke tykkere garn strikking", "endre garntykkelse oppskrift", "strikke med annen garntykkelse"]
+tags:
+  [
+    "bytte garntykkelse",
+    "bruke tykkere garn strikking",
+    "endre garntykkelse oppskrift",
+    "strikke med annen garntykkelse",
+  ]
 draft: false
 lang: no
 translationKey: "yarn-weight-substitution"
 ---
+
 Å bytte merke innen samme garntykkelse er én ting. Å bytte selve garntykkelsen er et større grep. Noen ganger er det akkurat poenget. Noen ganger blir det stille et redesign.
 
 Å bytte garntykkelse betyr å bruke tykkere eller tynnere garn enn oppskriften spesifiserer. Det krever at du beregner maskeantall, pinnestørrelse og garnmengde på nytt fra den nye strikkefastheten. Det egentlige spørsmålet er ikke om matematikken kan tvinges til å gå opp. Det er om det ferdige stoffet fortsatt gir mening for prosjektet.

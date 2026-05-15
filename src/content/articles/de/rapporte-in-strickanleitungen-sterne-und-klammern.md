@@ -4,28 +4,35 @@ description: "So funktionieren Rapporte in Strickanleitungen: Sterne, Klammern, 
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 6
-tags: ["Rapporte Strickanleitung", "Stern Strickanleitung", "Klammern Strickanleitung", "Strickanleitung Wiederholung"]
+tags:
+  [
+    "Rapporte Strickanleitung",
+    "Stern Strickanleitung",
+    "Klammern Strickanleitung",
+    "Strickanleitung Wiederholung",
+  ]
 draft: false
 lang: de
 translationKey: "knitting-pattern-repeats"
 ---
-Rapporte verhindern, dass Anleitungen jede Masche einer 200-Maschen-Reihe ausschreiben müssen. Statt „2 re, 2 li, 2 re, 2 li, 2 re, 2 li ...“ fünfundzwanzigmal zu wiederholen, schreibt die Anleitung „*2 re, 2 li; ab * bis Reihenende wiederholen“. Gleiches Ergebnis, viel weniger Platz.
 
-In Strickanleitungen markieren Sterne (*), eckige Klammern [] oder runde Klammern () einen Maschenabschnitt, der mehrmals über die Reihe gearbeitet wird. Die Schreibweise ist effizient, wenn du sie kennst. Die ersten verschachtelten Rapporte oder Sterne mit Restmaschen können sich trotzdem anfühlen wie eine Sprache, die du fast sprichst.
+Rapporte verhindern, dass Anleitungen jede Masche einer 200-Maschen-Reihe ausschreiben müssen. Statt „2 re, 2 li, 2 re, 2 li, 2 re, 2 li ...“ fünfundzwanzigmal zu wiederholen, schreibt die Anleitung „_2 re, 2 li; ab _ bis Reihenende wiederholen“. Gleiches Ergebnis, viel weniger Platz.
+
+In Strickanleitungen markieren Sterne (\*), eckige Klammern [] oder runde Klammern () einen Maschenabschnitt, der mehrmals über die Reihe gearbeitet wird. Die Schreibweise ist effizient, wenn du sie kennst. Die ersten verschachtelten Rapporte oder Sterne mit Restmaschen können sich trotzdem anfühlen wie eine Sprache, die du fast sprichst.
 
 ## Stern-Rapporte
 
 Die häufigste Form. Ein Stern markiert den Anfang des wiederholten Abschnitts.
 
-**Einfach:** „*3 re, 1 li; ab * bis Reihenende wiederholen.“
+**Einfach:** „_3 re, 1 li; ab _ bis Reihenende wiederholen.“
 
 3 Maschen rechts, 1 Masche links, zurück zum Stern, wieder 3 rechts, 1 links, weiter bis die Reihe fertig ist. Die Gesamtmaschenzahl muss durch 4 teilbar sein, weil die Einheit aus 3 re + 1 li besteht.
 
-**Mit Restmaschen:** „1 re, *2 re, 2 li; ab * bis zu den letzten 3 M wiederholen, 3 re.“
+**Mit Restmaschen:** „1 re, _2 re, 2 li; ab _ bis zu den letzten 3 M wiederholen, 3 re.“
 
 Du strickst 1 Masche rechts, bevor der Rapport beginnt. Dann wiederholst du 2 re, 2 li über die Reihe. Wenn 3 Maschen übrig sind, nicht genug für einen ganzen Rapport, strickst du diese 3 rechts. Maschen außerhalb des Sternabschnitts heißen Ausgleichsmaschen oder Randmaschen. Sie sorgen dafür, dass das Muster symmetrisch beginnt und endet.
 
-**Mit Anzahl:** „*Umschlag, 2 M rechts zusammenstricken; ab * noch 5-mal wiederholen.“
+**Mit Anzahl:** „_Umschlag, 2 M rechts zusammenstricken; ab _ noch 5-mal wiederholen.“
 
 „Noch 5-mal“ bedeutet: Du arbeitest den Abschnitt zuerst einmal und wiederholst ihn danach 5 weitere Male, also 6-mal insgesamt. Genau das führt oft zu Fehlern. „Noch 5-mal wiederholen“ = 6 insgesamt. „5-mal wiederholen“ kann je nach Anleitung unklarer sein. Die meisten meinen 5 insgesamt. Wenn die Maschenzahl nicht aufgeht, lies es testweise als 5 zusätzliche Male und prüfe die Rechnung.
 
@@ -41,7 +48,7 @@ Sie sind visueller als Sterne.
 
 Gleiche Idee. Der Abschnitt in Klammern wird über die ganze Reihe wiederholt.
 
-**Gemischte Schreibweise:** „2 re, [1 re, 1 li] 3-mal, *4 re, 2 li; ab * bis zu den letzten 2 M wiederholen, 2 re.“
+**Gemischte Schreibweise:** „2 re, [1 re, 1 li] 3-mal, _4 re, 2 li; ab _ bis zu den letzten 2 M wiederholen, 2 re.“
 
 Eckige Klammern und Stern in derselben Reihe. Lies von links nach rechts: 2 rechts, dann 1 re/1 li dreimal arbeiten, also 6 Maschen, danach 4 re/2 li bis fast ans Ende wiederholen und mit 2 rechts abschließen. Der Klammer-Rapport passiert einmal an einer festen Stelle. Der Stern-Rapport füllt die restliche Breite.
 
@@ -49,7 +56,7 @@ Eckige Klammern und Stern in derselben Reihe. Lies von links nach rechts: 2 rech
 
 Manchmal liegt ein Rapport in einem anderen Rapport. Meist in komplexem Lochmuster oder Jacquard.
 
-„*[1 re, 1 li] 3-mal, 2 M rechts zusammenstricken, Umschlag; ab * bis Reihenende wiederholen.“
+„_[1 re, 1 li] 3-mal, 2 M rechts zusammenstricken, Umschlag; ab _ bis Reihenende wiederholen.“
 
 Der innere Rapport [1 re, 1 li] 3-mal ergibt 6 Maschen Rippenmuster. Dann verbraucht 2 M rechts zusammenstricken 2 Maschen und ergibt 1, der Umschlag fügt wieder eine Masche hinzu. Der ganze Rapport verbraucht 8 Maschen von der linken Nadel und legt 8 Maschen auf die rechte zurück. Diese Einheit wiederholt sich über die Reihe.
 
@@ -59,7 +66,7 @@ Lies verschachtelte Rapporte von innen nach außen. Löse zuerst die eckige Klam
 
 Manche Anleitungen bündeln mehrere Reihen zu einem Block.
 
-„Reihen 1-4: *2 re, 2 li; ab * bis Reihenende wiederholen.  
+„Reihen 1-4: _2 re, 2 li; ab _ bis Reihenende wiederholen.  
 Reihe 5: rechts stricken.  
 Reihe 6: links stricken.  
 Reihen 1-6 wiederholen, bis das Teil 25 cm misst.“
@@ -74,7 +81,7 @@ Wenn du dem Rapport folgst und Maschen übrig bleiben oder zu früh ausgehen, st
 
 1. Prüfe die Maschenzahl. Zähle die Maschen auf der Nadel. Passt sie zur Anleitung für deine Größe?
 
-2. Prüfe die Rapport-Einheit. Wenn der Rapport *3 re, 2 li ist, also 5 Maschen, muss die Gesamtzahl minus mögliche Ausgleichsmaschen durch 5 teilbar sein.
+2. Prüfe die Rapport-Einheit. Wenn der Rapport \*3 re, 2 li ist, also 5 Maschen, muss die Gesamtzahl minus mögliche Ausgleichsmaschen durch 5 teilbar sein.
 
 3. Prüfe die Größenangaben. In einer Mehrgrößen-Anleitung greift man leicht zur falschen Zahl aus einer Klammerreihe.
 
@@ -84,11 +91,11 @@ Der breitere Kontext zum [Lesen von Strickanleitungen](/de/artikel/strickanleitu
 
 ## FAQ
 
-**Was bedeutet „ab * bis zu den letzten X M wiederholen“?**
+**Was bedeutet „ab \* bis zu den letzten X M wiederholen“?**
 Wiederhole, bis auf der linken Nadel X Maschen übrig sind. Diese verbleibenden Maschen werden so gearbeitet, wie es danach steht, meistens rechts, links oder als ausgleichender Teilrapport.
 
 **Zählt das erste Mal mit?**
-Ja. „Ab * noch 3-mal wiederholen“ = 4-mal insgesamt, also 1 erster Durchgang + 3 weitere. „3-mal wiederholen“ ohne „noch“ bedeutet meist 3-mal insgesamt. Wenn die Formulierung unklar ist, entscheidet die Maschenzahl.
+Ja. „Ab \* noch 3-mal wiederholen“ = 4-mal insgesamt, also 1 erster Durchgang + 3 weitere. „3-mal wiederholen“ ohne „noch“ bedeutet meist 3-mal insgesamt. Wenn die Formulierung unklar ist, entscheidet die Maschenzahl.
 
 **Wie behalte ich meinen Platz in einem langen Rapport?**
 Maschenmarkierer zwischen die Rapport-Einheiten setzen. Wenn du einen Markierer erreichst, beginnst du frisch. Bei mehrreihigen Rapporten helfen Reihenzähler oder Striche auf Papier.

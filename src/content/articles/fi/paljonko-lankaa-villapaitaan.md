@@ -4,10 +4,17 @@ description: "Arviot neulotun villapaidan langanmenekkiin koon ja lankavahvuuden
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 4
-tags: ["paljonko lankaa villapaitaan", "villapaidan langanmenekki", "montako kerää villapaitaan", "lankamuunnin"]
+tags:
+  [
+    "paljonko lankaa villapaitaan",
+    "villapaidan langanmenekki",
+    "montako kerää villapaitaan",
+    "lankamuunnin",
+  ]
 lang: fi
 translationKey: "yarn-for-sweater"
 ---
+
 Villapaita on suurin vaate, jonka moni neuloja tekee, ja langanmenekki näkyy sen mukaisena. Aliarvioi, ja etsit lopussa kadonnutta värjäyserää puolikas hiha jäljellä. Yliarvioi liikaa, ja kallis lanka jää lankavarastoon määräämättömäksi ajaksi.
 
 Oikea määrä riippuu kolmesta asiasta: paidan koosta, langan vahvuudesta ja rakenteesta. Lyhyt bulky-vahvuinen pusero voi tarvita noin 600 metriä. Pitkä fingering-vahvuinen neuletakki voi mennä yli 2 500 metrin. Alla olevat haarukat kattavat tavallisen keskialueen.

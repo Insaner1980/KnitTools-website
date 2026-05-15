@@ -1,41 +1,51 @@
 ---
-import { getCollection } from 'astro:content';
-import PageLayout from '../../../../layouts/PageLayout.astro';
-import ArticleCard from '../../../../components/ArticleCard.astro';
-import ClosingCTA from '../../../../components/ClosingCTA.astro';
+import { getCollection } from "astro:content";
+import PageLayout from "../../../../layouts/PageLayout.astro";
+import ArticleCard from "../../../../components/ArticleCard.astro";
+import ClosingCTA from "../../../../components/ClosingCTA.astro";
 import {
   CATEGORY_ORDER,
   getCategoryDescription,
   getCategoryLabel,
   type CategorySlug,
-} from '../../../../lib/categories';
-import { isGermanArticle } from '../../../../i18n/articles';
-import { routes } from '../../../../i18n/routes';
+} from "../../../../lib/categories";
+import { isGermanArticle } from "../../../../i18n/articles";
+import { routes } from "../../../../i18n/routes";
 
 const slugMap: Record<string, CategorySlug> = {
-  'maschenprobe-und-rechner': 'gauge-calculations',
-  garn: 'yarn',
-  nadeln: 'needles',
-  techniken: 'techniques',
-  'app-und-tools': 'app-tools',
+  "maschenprobe-und-rechner": "gauge-calculations",
+  garn: "yarn",
+  nadeln: "needles",
+  techniken: "techniques",
+  "app-und-tools": "app-tools",
 };
 
 export async function getStaticPaths() {
   return CATEGORY_ORDER.map((category) => ({
-    params: { slug: routes.category[category].de.replace('/de/artikel/kategorie/', '').replace(/\/$/, '') },
+    params: {
+      slug: routes.category[category].de
+        .replace("/de/artikel/kategorie/", "")
+        .replace(/\/$/, ""),
+    },
   }));
 }
 
-const category = slugMap[Astro.params.slug ?? ''];
-const label = getCategoryLabel(category, 'de');
-const description = getCategoryDescription(category, 'de');
+const category = slugMap[Astro.params.slug ?? ""];
+const label = getCategoryLabel(category, "de");
+const description = getCategoryDescription(category, "de");
 
-const articles = await getCollection('articles', ({ data }) =>
-  data.lang === 'de' && data.category === category && (import.meta.env.DEV ? true : !data.draft)
+const articles = await getCollection(
+  "articles",
+  ({ data }) =>
+    data.lang === "de" &&
+    data.category === category &&
+    (import.meta.env.DEV ? true : !data.draft),
 );
-const sortedArticles = articles.filter(isGermanArticle).sort(
-  (a, b) => (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999)
-);
+const sortedArticles = articles
+  .filter(isGermanArticle)
+  .sort(
+    (a, b) => (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999),
+  );
 ---
 
 <PageLayout
@@ -57,9 +67,11 @@ const sortedArticles = articles.filter(isGermanArticle).sort(
 
   <section class="cat-grid-section">
     <div class="articles-grid">
-      {sortedArticles.map((article) => (
-        <ArticleCard article={article} showCategory={false} lang="de" />
-      ))}
+      {
+        sortedArticles.map((article) => (
+          <ArticleCard article={article} showCategory={false} lang="de" />
+        ))
+      }
     </div>
   </section>
   <ClosingCTA variant="page" lang="de" />
@@ -122,7 +134,9 @@ const sortedArticles = articles.filter(isGermanArticle).sort(
   }
 
   @media (max-width: 1024px) {
-    .articles-grid { grid-template-columns: repeat(2, 1fr); }
+    .articles-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   @media (max-width: 768px) {
@@ -132,6 +146,9 @@ const sortedArticles = articles.filter(isGermanArticle).sort(
       padding-right: 20px;
     }
 
-    .articles-grid { grid-template-columns: 1fr; gap: 12px; }
+    .articles-grid {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
   }
 </style>

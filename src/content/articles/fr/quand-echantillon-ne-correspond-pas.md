@@ -4,11 +4,21 @@ description: "Ton échantillon ne correspond pas au modèle : comment diagnostiq
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 3
-tags: ["échantillon ne correspond pas", "ajuster échantillon tricot", "calculateur échantillon tricot", "échantillon tricot", "échantillon modèle", "mailles pour 10 cm", "mesurer échantillon"]
+tags:
+  [
+    "échantillon ne correspond pas",
+    "ajuster échantillon tricot",
+    "calculateur échantillon tricot",
+    "échantillon tricot",
+    "échantillon modèle",
+    "mailles pour 10 cm",
+    "mesurer échantillon",
+  ]
 draft: false
 lang: fr
 translationKey: "gauge-doesnt-match"
 ---
+
 Ton échantillon donne 19 mailles sur 10 cm. Le modèle en veut 20. Une maille sur 10 cm ne semble pas énorme, jusqu'à ce que tu la multiplies sur le devant d'un pull d'environ 100 cm et que tu réalises que la pièce finie fera environ 5 cm de trop en largeur. C'est la différence entre un vêtement qui tombe bien et un vêtement qui glisse des épaules.
 
 Un échantillon qui ne correspond pas se corrige. La réponse dépend de l'écart, du type de projet et du toucher du tissu sur les aiguilles.

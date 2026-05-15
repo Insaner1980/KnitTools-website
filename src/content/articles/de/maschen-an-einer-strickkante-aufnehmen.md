@@ -4,11 +4,18 @@ description: "So nimmst du Maschen an waagerechten, senkrechten und gebogenen Ka
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 11
-tags: ["Maschen aufnehmen", "Maschen aus Kante aufnehmen", "Maschen aufnehmen Halsausschnitt", "Knopfleiste Maschen aufnehmen"]
+tags:
+  [
+    "Maschen aufnehmen",
+    "Maschen aus Kante aufnehmen",
+    "Maschen aufnehmen Halsausschnitt",
+    "Knopfleiste Maschen aufnehmen",
+  ]
 draft: false
 lang: de
 translationKey: "pick-up-stitches"
 ---
+
 Maschen aufnehmen erzeugt eine neue Reihe lebender Maschen entlang einer vorhandenen Kante. So kannst du eine Blende, ein Halsbündchen, eine Knopfleiste oder einen Kragen direkt an das Stück stricken, ohne etwas anzunähen. Aus einer rohen Kante wird eine fertige.
 
 Das übliche Verhältnis an einer senkrechten glatt-rechts-Kante ist 3 Maschen aus 4 Reihen. Es gleicht den Unterschied zwischen Maschenbreite und Reihenhöhe aus. Die Bewegung selbst ist schnell gelernt. Schwieriger ist die Verteilung: wie viele Maschen über eine bestimmte Länge aufgenommen werden und wie sie gleichmäßig liegen.

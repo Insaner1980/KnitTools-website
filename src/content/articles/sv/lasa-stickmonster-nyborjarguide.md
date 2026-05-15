@@ -4,11 +4,18 @@ description: "Lär dig läsa ett stickmönster från början till slut. Om möns
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 2
-tags: ["läsa stickmönster", "stickmönster för nybörjare", "läsa stickbeskrivningar", "förstå stickmönster"]
+tags:
+  [
+    "läsa stickmönster",
+    "stickmönster för nybörjare",
+    "läsa stickbeskrivningar",
+    "förstå stickmönster",
+  ]
 draft: false
 lang: sv
 translationKey: "how-to-read-knitting-pattern"
 ---
+
 Stickmönster har ett eget språk och egna sätt att formatera instruktioner. Ett mönster är uppbyggt i ganska förutsägbara delar: material och stickfasthet högst upp, sedan varv-för-varv-instruktioner med etablerade förkortningar, och storlekar som anges med siffror inom parentes genom hela mönstret. Första gången du öppnar ett kan det se ut som en vägg av stenografi. Men när du känner igen delarna blir hela mönstret läsbart.
 
 ## Huvudet: vad du behöver innan du börjar
@@ -53,7 +60,7 @@ Maskinstruktioner läses från vänster till höger: "5 rm, 3 am, 2 rm tills, om
 
 Det här är delen som oftast får folk att snubbla. Mönster använder flera sätt att markera upprepningar.
 
-**Asteriskrapport:** "*2 rm, 2 am; upprepa från * varvet ut." Asterisken markerar var rapporten börjar. Allt mellan asterisken och upprepningsinstruktionen är en enhet. "Upprepa från *" betyder gå tillbaka och gör det igen. "Varvet ut" betyder fortsätt upprepa tills maskorna tar slut.
+**Asteriskrapport:** "_2 rm, 2 am; upprepa från _ varvet ut." Asterisken markerar var rapporten börjar. Allt mellan asterisken och upprepningsinstruktionen är en enhet. "Upprepa från \*" betyder gå tillbaka och gör det igen. "Varvet ut" betyder fortsätt upprepa tills maskorna tar slut.
 
 **Hakparentesrapport:** "[2 rm, 2 am] 5 gånger." Hakparenteser markerar avsnittet, siffran säger hur många gånger. Mer uttryckligt än asterisker men fungerar på samma sätt.
 

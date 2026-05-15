@@ -4,11 +4,21 @@ description: "Beregn hvor mye garn du trenger til et strikket teppe. Garnmengde 
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 5
-tags: ["garn til teppe", "garnmengde kalkulator", "hvor mye garn trenger jeg", "antall nøster", "garnberegner", "garnmengde", "strikke teppe"]
+tags:
+  [
+    "garn til teppe",
+    "garnmengde kalkulator",
+    "hvor mye garn trenger jeg",
+    "antall nøster",
+    "garnberegner",
+    "garnmengde",
+    "strikke teppe",
+  ]
 draft: false
 lang: no
 translationKey: "yarn-for-blanket"
 ---
+
 Tepper spiser garn. Selv et lite babyteppe bruker mer løpelengde enn de fleste plagg, og et stort pledd kan passere 2 300 m i worsted. Å gå tom underveis, særlig med utgått fargeparti, er en strikkeulykke som kan forebygges med grei planlegging.
 
 Anslagene under gir et startområde. Faktisk garnmengde avhenger av strikkefasthet, maskemønster og mål, men tallene får deg nær nok til å kjøpe med trygghet.

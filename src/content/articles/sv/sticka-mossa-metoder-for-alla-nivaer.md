@@ -4,11 +4,18 @@ description: "Lär dig sticka mössa med den här guiden till mösskonstruktion.
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 12
-tags: ["sticka mössa", "stickad mössa nybörjare", "mössa stickguide", "sticka beanie mönster"]
+tags:
+  [
+    "sticka mössa",
+    "stickad mössa nybörjare",
+    "mössa stickguide",
+    "sticka beanie mönster",
+  ]
 draft: false
 lang: sv
 translationKey: "how-to-knit-hat"
 ---
+
 En mössa är ett av de bästa andra eller tredje projekten efter en halsduk. Den introducerar rundstickning, minskningar och grundläggande formning i ett litet, snabbt projekt som ger något du faktiskt kan använda. De flesta mössor i worsted kan bli klara på några kvällar.
 
 För att sticka en enkel mössa lägger du upp maskor för huvudets omkrets minus 2-5 cm negativ rörelsevidd, stickar resår till mudden, stickar kroppen i slätstickning och [minskar jämnt](/sv/artiklar/oka-eller-minska-jamnt-over-ett-varv/) upptill. Det finns flera konstruktioner. Rätt metod beror på vilka tekniker du kan och vilken utrustning du har.
@@ -51,9 +58,9 @@ Vanlig metod: dela maskorna i 6 eller 8 lika stora sektioner (markörer mellan v
 
 För 96 maskor i 8 sektioner om 12:
 
-Varv 1: *10 rm, 2 rm tillsammans; upprepa från * varvet runt. (88 maskor)  
+Varv 1: _10 rm, 2 rm tillsammans; upprepa från _ varvet runt. (88 maskor)  
 Varv 2: sticka räta maskor.  
-Varv 3: *9 rm, 2 rm tillsammans; upprepa från * varvet runt. (80 maskor)  
+Varv 3: _9 rm, 2 rm tillsammans; upprepa från _ varvet runt. (80 maskor)  
 Varv 4: sticka räta maskor.
 
 Fortsätt tills 8-16 maskor återstår. Klipp garnet, trä det genom resterande maskor med en stoppnål, dra åt och fäst på insidan.

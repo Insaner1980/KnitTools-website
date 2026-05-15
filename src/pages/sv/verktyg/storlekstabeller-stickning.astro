@@ -1,6 +1,6 @@
 ---
-import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
-import { routes } from '../../../i18n/routes';
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
+import { routes } from "../../../i18n/routes";
 
 interface Cell {
   cm: string;
@@ -27,210 +27,734 @@ interface Panel {
 }
 
 const c = (cm: string, inch: string): Cell => ({ cm, inch });
-const formatCm = (value: string) => value.replaceAll('.', ',');
+const formatCm = (value: string) => value.replaceAll(".", ",");
 
 const panels: Panel[] = [
   {
-    id: 'baby',
-    label: 'Baby',
+    id: "baby",
+    label: "Baby",
     tables: [
       {
-        sizes: ['3 mån', '6 mån', '12 mån', '18 mån', '24 mån'],
+        sizes: ["3 mån", "6 mån", "12 mån", "18 mån", "24 mån"],
         rows: [
-          { label: 'Bröstvidd', cells: [c('40.5 cm', '16"'), c('43 cm', '17"'), c('45.5 cm', '18"'), c('48 cm', '19"'), c('50.5 cm', '20"')] },
-          { label: 'Rygglängd till midja', cells: [c('15.5 cm', '6"'), c('17.5 cm', '7"'), c('19 cm', '7.5"'), c('20.5 cm', '8"'), c('21.5 cm', '8.5"')] },
-          { label: 'Ryggbredd', cells: [c('18.5 cm', '7.25"'), c('19.5 cm', '7.75"'), c('21 cm', '8.25"'), c('21.5 cm', '8.5"'), c('22 cm', '8.75"')] },
-          { label: 'Ärmlängd till underarm', cells: [c('15.5 cm', '6"'), c('16.5 cm', '6.5"'), c('19 cm', '7.5"'), c('20.5 cm', '8"'), c('21.5 cm', '8.5"')] },
-          { label: 'Överarmsvidd', cells: [c('14 cm', '5.5"'), c('15.5 cm', '6"'), c('16.5 cm', '6.5"'), c('17.5 cm', '7"'), c('19 cm', '7.5"')] },
-          { label: 'Ärmhålsdjup', cells: [c('8.5 cm', '3.25"'), c('9 cm', '3.5"'), c('9.5 cm', '3.75"'), c('10 cm', '4"'), c('10.5 cm', '4.25"')] },
-          { label: 'Midja', cells: [c('45.5 cm', '18"'), c('48 cm', '19"'), c('50.5 cm', '20"'), c('52 cm', '20.5"'), c('53.5 cm', '21"')] },
-          { label: 'Höft', cells: [c('48 cm', '19"'), c('50.5 cm', '20"'), c('50.5 cm', '20"'), c('53.5 cm', '21"'), c('56 cm', '22"')] },
-          { label: 'Nacke till handled mitt bak', cells: [c('26.5 cm', '10.5"'), c('29 cm', '11.5"'), c('31.5 cm', '12.5"'), c('35.5 cm', '14"'), c('45.5 cm', '18"')] },
+          {
+            label: "Bröstvidd",
+            cells: [
+              c("40.5 cm", '16"'),
+              c("43 cm", '17"'),
+              c("45.5 cm", '18"'),
+              c("48 cm", '19"'),
+              c("50.5 cm", '20"'),
+            ],
+          },
+          {
+            label: "Rygglängd till midja",
+            cells: [
+              c("15.5 cm", '6"'),
+              c("17.5 cm", '7"'),
+              c("19 cm", '7.5"'),
+              c("20.5 cm", '8"'),
+              c("21.5 cm", '8.5"'),
+            ],
+          },
+          {
+            label: "Ryggbredd",
+            cells: [
+              c("18.5 cm", '7.25"'),
+              c("19.5 cm", '7.75"'),
+              c("21 cm", '8.25"'),
+              c("21.5 cm", '8.5"'),
+              c("22 cm", '8.75"'),
+            ],
+          },
+          {
+            label: "Ärmlängd till underarm",
+            cells: [
+              c("15.5 cm", '6"'),
+              c("16.5 cm", '6.5"'),
+              c("19 cm", '7.5"'),
+              c("20.5 cm", '8"'),
+              c("21.5 cm", '8.5"'),
+            ],
+          },
+          {
+            label: "Överarmsvidd",
+            cells: [
+              c("14 cm", '5.5"'),
+              c("15.5 cm", '6"'),
+              c("16.5 cm", '6.5"'),
+              c("17.5 cm", '7"'),
+              c("19 cm", '7.5"'),
+            ],
+          },
+          {
+            label: "Ärmhålsdjup",
+            cells: [
+              c("8.5 cm", '3.25"'),
+              c("9 cm", '3.5"'),
+              c("9.5 cm", '3.75"'),
+              c("10 cm", '4"'),
+              c("10.5 cm", '4.25"'),
+            ],
+          },
+          {
+            label: "Midja",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("48 cm", '19"'),
+              c("50.5 cm", '20"'),
+              c("52 cm", '20.5"'),
+              c("53.5 cm", '21"'),
+            ],
+          },
+          {
+            label: "Höft",
+            cells: [
+              c("48 cm", '19"'),
+              c("50.5 cm", '20"'),
+              c("50.5 cm", '20"'),
+              c("53.5 cm", '21"'),
+              c("56 cm", '22"'),
+            ],
+          },
+          {
+            label: "Nacke till handled mitt bak",
+            cells: [
+              c("26.5 cm", '10.5"'),
+              c("29 cm", '11.5"'),
+              c("31.5 cm", '12.5"'),
+              c("35.5 cm", '14"'),
+              c("45.5 cm", '18"'),
+            ],
+          },
         ],
       },
     ],
   },
   {
-    id: 'barn',
-    label: 'Barn',
+    id: "barn",
+    label: "Barn",
     tables: [
       {
-        sizes: ['Storlek 2', 'Storlek 4', 'Storlek 6', 'Storlek 8', 'Storlek 10'],
+        sizes: [
+          "Storlek 2",
+          "Storlek 4",
+          "Storlek 6",
+          "Storlek 8",
+          "Storlek 10",
+        ],
         rows: [
-          { label: 'Bröstvidd', cells: [c('53 cm', '21"'), c('58.5 cm', '23"'), c('63.5 cm', '25"'), c('67 cm', '26.5"'), c('71 cm', '28"')] },
-          { label: 'Rygglängd till midja', cells: [c('21.5 cm', '8.5"'), c('24 cm', '9.5"'), c('26.5 cm', '10.5"'), c('31.5 cm', '12.5"'), c('35.5 cm', '14"')] },
-          { label: 'Ryggbredd', cells: [c('23.5 cm', '9.25"'), c('25 cm', '9.75"'), c('26 cm', '10.25"'), c('27 cm', '10.75"'), c('28.5 cm', '11.25"')] },
-          { label: 'Ärmlängd till underarm', cells: [c('21.5 cm', '8.5"'), c('26.5 cm', '10.5"'), c('29 cm', '11.5"'), c('31.5 cm', '12.5"'), c('34.5 cm', '13.5"')] },
-          { label: 'Överarmsvidd', cells: [c('17.5 cm', '7"'), c('19 cm', '7.5"'), c('20.5 cm', '8"'), c('21.5 cm', '8.5"'), c('22 cm', '8.75"')] },
-          { label: 'Ärmhålsdjup', cells: [c('10.5 cm', '4.25"'), c('12 cm', '4.75"'), c('12.5 cm', '5"'), c('14 cm', '5.5"'), c('15.5 cm', '6"')] },
-          { label: 'Midja', cells: [c('53.5 cm', '21"'), c('54.5 cm', '21.5"'), c('57 cm', '22.5"'), c('59.5 cm', '23.5"'), c('62 cm', '24.5"')] },
-          { label: 'Höft', cells: [c('56 cm', '22"'), c('59.5 cm', '23.5"'), c('63.5 cm', '25"'), c('71 cm', '28"'), c('75 cm', '29.5"')] },
-          { label: 'Nacke till handled mitt bak', cells: [c('45.5 cm', '18"'), c('49.5 cm', '19.5"'), c('52 cm', '20.5"'), c('56 cm', '22"'), c('61 cm', '24"')] },
+          {
+            label: "Bröstvidd",
+            cells: [
+              c("53 cm", '21"'),
+              c("58.5 cm", '23"'),
+              c("63.5 cm", '25"'),
+              c("67 cm", '26.5"'),
+              c("71 cm", '28"'),
+            ],
+          },
+          {
+            label: "Rygglängd till midja",
+            cells: [
+              c("21.5 cm", '8.5"'),
+              c("24 cm", '9.5"'),
+              c("26.5 cm", '10.5"'),
+              c("31.5 cm", '12.5"'),
+              c("35.5 cm", '14"'),
+            ],
+          },
+          {
+            label: "Ryggbredd",
+            cells: [
+              c("23.5 cm", '9.25"'),
+              c("25 cm", '9.75"'),
+              c("26 cm", '10.25"'),
+              c("27 cm", '10.75"'),
+              c("28.5 cm", '11.25"'),
+            ],
+          },
+          {
+            label: "Ärmlängd till underarm",
+            cells: [
+              c("21.5 cm", '8.5"'),
+              c("26.5 cm", '10.5"'),
+              c("29 cm", '11.5"'),
+              c("31.5 cm", '12.5"'),
+              c("34.5 cm", '13.5"'),
+            ],
+          },
+          {
+            label: "Överarmsvidd",
+            cells: [
+              c("17.5 cm", '7"'),
+              c("19 cm", '7.5"'),
+              c("20.5 cm", '8"'),
+              c("21.5 cm", '8.5"'),
+              c("22 cm", '8.75"'),
+            ],
+          },
+          {
+            label: "Ärmhålsdjup",
+            cells: [
+              c("10.5 cm", '4.25"'),
+              c("12 cm", '4.75"'),
+              c("12.5 cm", '5"'),
+              c("14 cm", '5.5"'),
+              c("15.5 cm", '6"'),
+            ],
+          },
+          {
+            label: "Midja",
+            cells: [
+              c("53.5 cm", '21"'),
+              c("54.5 cm", '21.5"'),
+              c("57 cm", '22.5"'),
+              c("59.5 cm", '23.5"'),
+              c("62 cm", '24.5"'),
+            ],
+          },
+          {
+            label: "Höft",
+            cells: [
+              c("56 cm", '22"'),
+              c("59.5 cm", '23.5"'),
+              c("63.5 cm", '25"'),
+              c("71 cm", '28"'),
+              c("75 cm", '29.5"'),
+            ],
+          },
+          {
+            label: "Nacke till handled mitt bak",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("49.5 cm", '19.5"'),
+              c("52 cm", '20.5"'),
+              c("56 cm", '22"'),
+              c("61 cm", '24"'),
+            ],
+          },
         ],
       },
     ],
   },
   {
-    id: 'ungdom',
-    label: 'Ungdom',
+    id: "ungdom",
+    label: "Ungdom",
     tables: [
       {
-        sizes: ['Storlek 12', 'Storlek 14', 'Storlek 16'],
+        sizes: ["Storlek 12", "Storlek 14", "Storlek 16"],
         rows: [
-          { label: 'Bröstvidd', cells: [c('76 cm', '30"'), c('80 cm', '31.5"'), c('82.5 cm', '32.5"')] },
-          { label: 'Rygglängd till midja', cells: [c('38 cm', '15"'), c('39.5 cm', '15.5"'), c('40.5 cm', '16"')] },
-          { label: 'Ryggbredd', cells: [c('30.5 cm', '12"'), c('31 cm', '12.25"'), c('33 cm', '13"')] },
-          { label: 'Ärmlängd till underarm', cells: [c('38 cm', '15"'), c('40.5 cm', '16"'), c('42 cm', '16.5"')] },
-          { label: 'Överarmsvidd', cells: [c('23 cm', '9"'), c('23.5 cm', '9.25"'), c('24 cm', '9.5"')] },
-          { label: 'Ärmhålsdjup', cells: [c('16.5 cm', '6.5"'), c('17.5 cm', '7"'), c('19 cm', '7.5"')] },
-          { label: 'Midja', cells: [c('63.5 cm', '25"'), c('67.5 cm', '26.5"'), c('69.5 cm', '27.5"')] },
-          { label: 'Höft', cells: [c('80 cm', '31.5"'), c('83.5 cm', '33"'), c('90 cm', '35.5"')] },
-          { label: 'Nacke till handled mitt bak', cells: [c('66 cm', '26"'), c('68.5 cm', '27"'), c('71 cm', '28"')] },
+          {
+            label: "Bröstvidd",
+            cells: [
+              c("76 cm", '30"'),
+              c("80 cm", '31.5"'),
+              c("82.5 cm", '32.5"'),
+            ],
+          },
+          {
+            label: "Rygglängd till midja",
+            cells: [
+              c("38 cm", '15"'),
+              c("39.5 cm", '15.5"'),
+              c("40.5 cm", '16"'),
+            ],
+          },
+          {
+            label: "Ryggbredd",
+            cells: [
+              c("30.5 cm", '12"'),
+              c("31 cm", '12.25"'),
+              c("33 cm", '13"'),
+            ],
+          },
+          {
+            label: "Ärmlängd till underarm",
+            cells: [
+              c("38 cm", '15"'),
+              c("40.5 cm", '16"'),
+              c("42 cm", '16.5"'),
+            ],
+          },
+          {
+            label: "Överarmsvidd",
+            cells: [
+              c("23 cm", '9"'),
+              c("23.5 cm", '9.25"'),
+              c("24 cm", '9.5"'),
+            ],
+          },
+          {
+            label: "Ärmhålsdjup",
+            cells: [
+              c("16.5 cm", '6.5"'),
+              c("17.5 cm", '7"'),
+              c("19 cm", '7.5"'),
+            ],
+          },
+          {
+            label: "Midja",
+            cells: [
+              c("63.5 cm", '25"'),
+              c("67.5 cm", '26.5"'),
+              c("69.5 cm", '27.5"'),
+            ],
+          },
+          {
+            label: "Höft",
+            cells: [
+              c("80 cm", '31.5"'),
+              c("83.5 cm", '33"'),
+              c("90 cm", '35.5"'),
+            ],
+          },
+          {
+            label: "Nacke till handled mitt bak",
+            cells: [c("66 cm", '26"'), c("68.5 cm", '27"'), c("71 cm", '28"')],
+          },
         ],
       },
     ],
   },
   {
-    id: 'dam',
-    label: 'Dam',
+    id: "dam",
+    label: "Dam",
     tables: [
       {
-        caption: 'Dam XS-XL',
-        sizes: ['XS', 'S', 'M', 'L', 'XL'],
+        caption: "Dam XS-XL",
+        sizes: ["XS", "S", "M", "L", "XL"],
         rows: [
-          { label: 'Bröstvidd', cells: [c('71-76 cm', '28-30"'), c('81-86 cm', '32-34"'), c('91.5-96.5 cm', '36-38"'), c('101.5-106.5 cm', '40-42"'), c('111.5-117 cm', '44-46"')] },
-          { label: 'Rygglängd till midja', cells: [c('42 cm', '16.5"'), c('43 cm', '17"'), c('43.5 cm', '17.25"'), c('44.5 cm', '17.5"'), c('45 cm', '17.75"')] },
-          { label: 'Ryggbredd', cells: [c('35.5-37 cm', '14-14.5"'), c('37-38 cm', '14.5-15"'), c('39.5-40.5 cm', '15.5-16"'), c('42-43 cm', '16.5-17"'), c('44.5 cm', '17.5"')] },
-          { label: 'Ärmlängd till underarm', cells: [c('42 cm', '16.5"'), c('43 cm', '17"'), c('43 cm', '17"'), c('44.5 cm', '17.5"'), c('44.5 cm', '17.5"')] },
-          { label: 'Överarmsvidd', cells: [c('25 cm', '9.75"'), c('26 cm', '10.25"'), c('28 cm', '11"'), c('30.5 cm', '12"'), c('34.5 cm', '13.5"')] },
-          { label: 'Ärmhålsdjup', cells: [c('15.5-16.5 cm', '6-6.5"'), c('16.5-17.5 cm', '6.5-7"'), c('17.5-19 cm', '7-7.5"'), c('19-20.5 cm', '7.5-8"'), c('20.5-21.5 cm', '8-8.5"')] },
-          { label: 'Midja', cells: [c('58.5-61 cm', '23-24"'), c('63.5-67.5 cm', '25-26.5"'), c('71-76 cm', '28-30"'), c('81.5-86.5 cm', '32-34"'), c('91.5-96.5 cm', '36-38"')] },
-          { label: 'Höft', cells: [c('83.5-86 cm', '33-34"'), c('89-91.5 cm', '35-36"'), c('96.5-101.5 cm', '38-40"'), c('106.5-111.5 cm', '42-44"'), c('116.5-122 cm', '46-48"')] },
-          { label: 'Nacke till handled mitt bak', cells: [c('66-68.5 cm', '26-26.5"'), c('68.5-70 cm', '27-27.5"'), c('71-72.5 cm', '28-28.5"'), c('73.5-75 cm', '29-29.5"'), c('73.5-75 cm', '29-29.5"')] },
+          {
+            label: "Bröstvidd",
+            cells: [
+              c("71-76 cm", '28-30"'),
+              c("81-86 cm", '32-34"'),
+              c("91.5-96.5 cm", '36-38"'),
+              c("101.5-106.5 cm", '40-42"'),
+              c("111.5-117 cm", '44-46"'),
+            ],
+          },
+          {
+            label: "Rygglängd till midja",
+            cells: [
+              c("42 cm", '16.5"'),
+              c("43 cm", '17"'),
+              c("43.5 cm", '17.25"'),
+              c("44.5 cm", '17.5"'),
+              c("45 cm", '17.75"'),
+            ],
+          },
+          {
+            label: "Ryggbredd",
+            cells: [
+              c("35.5-37 cm", '14-14.5"'),
+              c("37-38 cm", '14.5-15"'),
+              c("39.5-40.5 cm", '15.5-16"'),
+              c("42-43 cm", '16.5-17"'),
+              c("44.5 cm", '17.5"'),
+            ],
+          },
+          {
+            label: "Ärmlängd till underarm",
+            cells: [
+              c("42 cm", '16.5"'),
+              c("43 cm", '17"'),
+              c("43 cm", '17"'),
+              c("44.5 cm", '17.5"'),
+              c("44.5 cm", '17.5"'),
+            ],
+          },
+          {
+            label: "Överarmsvidd",
+            cells: [
+              c("25 cm", '9.75"'),
+              c("26 cm", '10.25"'),
+              c("28 cm", '11"'),
+              c("30.5 cm", '12"'),
+              c("34.5 cm", '13.5"'),
+            ],
+          },
+          {
+            label: "Ärmhålsdjup",
+            cells: [
+              c("15.5-16.5 cm", '6-6.5"'),
+              c("16.5-17.5 cm", '6.5-7"'),
+              c("17.5-19 cm", '7-7.5"'),
+              c("19-20.5 cm", '7.5-8"'),
+              c("20.5-21.5 cm", '8-8.5"'),
+            ],
+          },
+          {
+            label: "Midja",
+            cells: [
+              c("58.5-61 cm", '23-24"'),
+              c("63.5-67.5 cm", '25-26.5"'),
+              c("71-76 cm", '28-30"'),
+              c("81.5-86.5 cm", '32-34"'),
+              c("91.5-96.5 cm", '36-38"'),
+            ],
+          },
+          {
+            label: "Höft",
+            cells: [
+              c("83.5-86 cm", '33-34"'),
+              c("89-91.5 cm", '35-36"'),
+              c("96.5-101.5 cm", '38-40"'),
+              c("106.5-111.5 cm", '42-44"'),
+              c("116.5-122 cm", '46-48"'),
+            ],
+          },
+          {
+            label: "Nacke till handled mitt bak",
+            cells: [
+              c("66-68.5 cm", '26-26.5"'),
+              c("68.5-70 cm", '27-27.5"'),
+              c("71-72.5 cm", '28-28.5"'),
+              c("73.5-75 cm", '29-29.5"'),
+              c("73.5-75 cm", '29-29.5"'),
+            ],
+          },
         ],
       },
       {
-        caption: 'Dam 2XL-5XL',
-        sizes: ['2XL', '3XL', '4XL', '5XL'],
+        caption: "Dam 2XL-5XL",
+        sizes: ["2XL", "3XL", "4XL", "5XL"],
         rows: [
-          { label: 'Bröstvidd', cells: [c('122-127 cm', '48-50"'), c('132-137 cm', '52-54"'), c('142-147 cm', '56-58"'), c('152-158 cm', '60-62"')] },
-          { label: 'Rygglängd till midja', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
-          { label: 'Ryggbredd', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
-          { label: 'Ärmlängd till underarm', cells: [c('45.5 cm', '18"'), c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('47 cm', '18.5"')] },
-          { label: 'Överarmsvidd', cells: [c('39.5 cm', '15.5"'), c('43 cm', '17"'), c('47 cm', '18.5"'), c('49.5 cm', '18.5"')] },
-          { label: 'Ärmhålsdjup', cells: [c('21.5-23 cm', '8.5-9"'), c('23-24 cm', '9-9.5"'), c('24-25.5 cm', '9.5-10"'), c('25.5-26.5 cm', '10-10.5"')] },
-          { label: 'Midja', cells: [c('101.5-106.5 cm', '40-42"'), c('111.5-114 cm', '44-45"'), c('116.5-119 cm', '46-47"'), c('124-127 cm', '49-50"')] },
-          { label: 'Höft', cells: [c('132-134.5 cm', '52-53"'), c('137-139.5 cm', '54-55"'), c('142-144.5 cm', '56-57"'), c('155-157 cm', '61-62"')] },
-          { label: 'Nacke till handled mitt bak', cells: [c('76.5-77.5 cm', '30-30.5"'), c('77.5-79 cm', '30.5-31"'), c('80-81.5 cm', '31.5-32"'), c('80-81.5 cm', '31.5-32"')] },
+          {
+            label: "Bröstvidd",
+            cells: [
+              c("122-127 cm", '48-50"'),
+              c("132-137 cm", '52-54"'),
+              c("142-147 cm", '56-58"'),
+              c("152-158 cm", '60-62"'),
+            ],
+          },
+          {
+            label: "Rygglängd till midja",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("45.5 cm", '18"'),
+              c("47 cm", '18.5"'),
+              c("47 cm", '18.5"'),
+            ],
+          },
+          {
+            label: "Ryggbredd",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("45.5 cm", '18"'),
+              c("47 cm", '18.5"'),
+              c("47 cm", '18.5"'),
+            ],
+          },
+          {
+            label: "Ärmlängd till underarm",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("45.5 cm", '18"'),
+              c("47 cm", '18.5"'),
+              c("47 cm", '18.5"'),
+            ],
+          },
+          {
+            label: "Överarmsvidd",
+            cells: [
+              c("39.5 cm", '15.5"'),
+              c("43 cm", '17"'),
+              c("47 cm", '18.5"'),
+              c("49.5 cm", '18.5"'),
+            ],
+          },
+          {
+            label: "Ärmhålsdjup",
+            cells: [
+              c("21.5-23 cm", '8.5-9"'),
+              c("23-24 cm", '9-9.5"'),
+              c("24-25.5 cm", '9.5-10"'),
+              c("25.5-26.5 cm", '10-10.5"'),
+            ],
+          },
+          {
+            label: "Midja",
+            cells: [
+              c("101.5-106.5 cm", '40-42"'),
+              c("111.5-114 cm", '44-45"'),
+              c("116.5-119 cm", '46-47"'),
+              c("124-127 cm", '49-50"'),
+            ],
+          },
+          {
+            label: "Höft",
+            cells: [
+              c("132-134.5 cm", '52-53"'),
+              c("137-139.5 cm", '54-55"'),
+              c("142-144.5 cm", '56-57"'),
+              c("155-157 cm", '61-62"'),
+            ],
+          },
+          {
+            label: "Nacke till handled mitt bak",
+            cells: [
+              c("76.5-77.5 cm", '30-30.5"'),
+              c("77.5-79 cm", '30.5-31"'),
+              c("80-81.5 cm", '31.5-32"'),
+              c("80-81.5 cm", '31.5-32"'),
+            ],
+          },
         ],
       },
     ],
   },
   {
-    id: 'herr',
-    label: 'Herr',
+    id: "herr",
+    label: "Herr",
     tables: [
       {
-        caption: 'Herr S-XL',
-        sizes: ['S', 'M', 'L', 'XL'],
+        caption: "Herr S-XL",
+        sizes: ["S", "M", "L", "XL"],
         rows: [
-          { label: 'Bröstvidd', cells: [c('86-91.5 cm', '34-36"'), c('96.5-101.5 cm', '38-40"'), c('106.5-111.5 cm', '42-44"'), c('116.5-122 cm', '46-48"')] },
-          { label: 'Rygglängd till midja', cells: [c('58.5-61 cm', '23-24"'), c('63.5-66 cm', '25-26"'), c('66-68.5 cm', '26-27"'), c('71 cm', '28"')] },
-          { label: 'Ryggbredd', cells: [c('39.5-40.5 cm', '15.5-16"'), c('42-43 cm', '16.5-17"'), c('44.5-45.5 cm', '17.5-18"'), c('45.5-47 cm', '18-18.5"')] },
-          { label: 'Ärmlängd till underarm', cells: [c('45.5 cm', '18"'), c('47 cm', '18.5"'), c('49.5 cm', '19.5"'), c('50.5 cm', '20"')] },
-          { label: 'Överarmsvidd', cells: [c('30.5 cm', '12"'), c('33 cm', '13"'), c('38 cm', '15"'), c('39.5 cm', '15.5"')] },
-          { label: 'Ärmhålsdjup', cells: [c('21.5-23 cm', '8.5-9"'), c('23-24 cm', '9-9.5"'), c('24-25.5 cm', '9.5-10"'), c('25.5-26 cm', '10-10.5"')] },
-          { label: 'Midja', cells: [c('71-76 cm', '28-30"'), c('81.5-86.5 cm', '32-34"'), c('91.5-96.5 cm', '36-38"'), c('106.5-112 cm', '42-44"')] },
-          { label: 'Höft', cells: [c('89-94 cm', '35-37"'), c('99-104 cm', '39-41"'), c('109-114 cm', '43-45"'), c('119-124.5 cm', '47-49"')] },
-          { label: 'Nacke till handled mitt bak', cells: [c('81-82.5 cm', '32-32.5"'), c('83.5-85 cm', '33-33.5"'), c('86.5-87.5 cm', '34-34.5"'), c('89-90 cm', '35-35.5"')] },
+          {
+            label: "Bröstvidd",
+            cells: [
+              c("86-91.5 cm", '34-36"'),
+              c("96.5-101.5 cm", '38-40"'),
+              c("106.5-111.5 cm", '42-44"'),
+              c("116.5-122 cm", '46-48"'),
+            ],
+          },
+          {
+            label: "Rygglängd till midja",
+            cells: [
+              c("58.5-61 cm", '23-24"'),
+              c("63.5-66 cm", '25-26"'),
+              c("66-68.5 cm", '26-27"'),
+              c("71 cm", '28"'),
+            ],
+          },
+          {
+            label: "Ryggbredd",
+            cells: [
+              c("39.5-40.5 cm", '15.5-16"'),
+              c("42-43 cm", '16.5-17"'),
+              c("44.5-45.5 cm", '17.5-18"'),
+              c("45.5-47 cm", '18-18.5"'),
+            ],
+          },
+          {
+            label: "Ärmlängd till underarm",
+            cells: [
+              c("45.5 cm", '18"'),
+              c("47 cm", '18.5"'),
+              c("49.5 cm", '19.5"'),
+              c("50.5 cm", '20"'),
+            ],
+          },
+          {
+            label: "Överarmsvidd",
+            cells: [
+              c("30.5 cm", '12"'),
+              c("33 cm", '13"'),
+              c("38 cm", '15"'),
+              c("39.5 cm", '15.5"'),
+            ],
+          },
+          {
+            label: "Ärmhålsdjup",
+            cells: [
+              c("21.5-23 cm", '8.5-9"'),
+              c("23-24 cm", '9-9.5"'),
+              c("24-25.5 cm", '9.5-10"'),
+              c("25.5-26 cm", '10-10.5"'),
+            ],
+          },
+          {
+            label: "Midja",
+            cells: [
+              c("71-76 cm", '28-30"'),
+              c("81.5-86.5 cm", '32-34"'),
+              c("91.5-96.5 cm", '36-38"'),
+              c("106.5-112 cm", '42-44"'),
+            ],
+          },
+          {
+            label: "Höft",
+            cells: [
+              c("89-94 cm", '35-37"'),
+              c("99-104 cm", '39-41"'),
+              c("109-114 cm", '43-45"'),
+              c("119-124.5 cm", '47-49"'),
+            ],
+          },
+          {
+            label: "Nacke till handled mitt bak",
+            cells: [
+              c("81-82.5 cm", '32-32.5"'),
+              c("83.5-85 cm", '33-33.5"'),
+              c("86.5-87.5 cm", '34-34.5"'),
+              c("89-90 cm", '35-35.5"'),
+            ],
+          },
         ],
       },
       {
-        caption: 'Herr 2XL-5XL',
-        sizes: ['2XL', '3XL', '4XL', '5XL'],
+        caption: "Herr 2XL-5XL",
+        sizes: ["2XL", "3XL", "4XL", "5XL"],
         rows: [
-          { label: 'Bröstvidd', cells: [c('127-132 cm', '50-52"'), c('137-142 cm', '54-56"'), c('147.5-152 cm', '58-60"'), c('157.5-162.5 cm', '62-64"')] },
-          { label: 'Rygglängd till midja', cells: [c('73.5 cm', '29"'), c('76 cm', '30"'), c('76 cm', '30"'), c('79 cm', '31"')] },
-          { label: 'Ryggbredd', cells: [c('48-51 cm', '19-20"'), c('48-51 cm', '20-21"'), c('51-54.5 cm', '21-21.5"'), c('56-57 cm', '22-22.5"')] },
-          { label: 'Ärmlängd till underarm', cells: [c('52 cm', '20.5"'), c('52 cm', '20.5"'), c('49.5 cm', '21"'), c('53.5-54.5 cm', '21.5"')] },
-          { label: 'Överarmsvidd', cells: [c('42 cm', '16.5"'), c('44.5 cm', '17.5"'), c('47 cm', '18.5"'), c('48 cm', '20"')] },
-          { label: 'Ärmhålsdjup', cells: [c('28 cm', '11"'), c('29 cm', '11.5"'), c('30.5 cm', '12"'), c('32 cm', '12.5"')] },
-          { label: 'Midja', cells: [c('117-122 cm', '46-48"'), c('127-132 cm', '50-52"'), c('137-142 cm', '54-56"'), c('147.5-152.5 cm', '58-60"')] },
-          { label: 'Höft', cells: [c('129-134 cm', '51-53"'), c('137-142 cm', '54-56"'), c('142-147.5 cm', '56-58"'), c('147.5-152.5 cm', '58-60"')] },
-          { label: 'Nacke till handled mitt bak', cells: [c('91.5-92.5 cm', '36-36.5"'), c('94-95 cm', '37-37.5"'), c('96.5-97.5 cm', '38-38.5"'), c('99-100.5 cm', '39-39.5"')] },
+          {
+            label: "Bröstvidd",
+            cells: [
+              c("127-132 cm", '50-52"'),
+              c("137-142 cm", '54-56"'),
+              c("147.5-152 cm", '58-60"'),
+              c("157.5-162.5 cm", '62-64"'),
+            ],
+          },
+          {
+            label: "Rygglängd till midja",
+            cells: [
+              c("73.5 cm", '29"'),
+              c("76 cm", '30"'),
+              c("76 cm", '30"'),
+              c("79 cm", '31"'),
+            ],
+          },
+          {
+            label: "Ryggbredd",
+            cells: [
+              c("48-51 cm", '19-20"'),
+              c("48-51 cm", '20-21"'),
+              c("51-54.5 cm", '21-21.5"'),
+              c("56-57 cm", '22-22.5"'),
+            ],
+          },
+          {
+            label: "Ärmlängd till underarm",
+            cells: [
+              c("52 cm", '20.5"'),
+              c("52 cm", '20.5"'),
+              c("49.5 cm", '21"'),
+              c("53.5-54.5 cm", '21.5"'),
+            ],
+          },
+          {
+            label: "Överarmsvidd",
+            cells: [
+              c("42 cm", '16.5"'),
+              c("44.5 cm", '17.5"'),
+              c("47 cm", '18.5"'),
+              c("48 cm", '20"'),
+            ],
+          },
+          {
+            label: "Ärmhålsdjup",
+            cells: [
+              c("28 cm", '11"'),
+              c("29 cm", '11.5"'),
+              c("30.5 cm", '12"'),
+              c("32 cm", '12.5"'),
+            ],
+          },
+          {
+            label: "Midja",
+            cells: [
+              c("117-122 cm", '46-48"'),
+              c("127-132 cm", '50-52"'),
+              c("137-142 cm", '54-56"'),
+              c("147.5-152.5 cm", '58-60"'),
+            ],
+          },
+          {
+            label: "Höft",
+            cells: [
+              c("129-134 cm", '51-53"'),
+              c("137-142 cm", '54-56"'),
+              c("142-147.5 cm", '56-58"'),
+              c("147.5-152.5 cm", '58-60"'),
+            ],
+          },
+          {
+            label: "Nacke till handled mitt bak",
+            cells: [
+              c("91.5-92.5 cm", '36-36.5"'),
+              c("94-95 cm", '37-37.5"'),
+              c("96.5-97.5 cm", '38-38.5"'),
+              c("99-100.5 cm", '39-39.5"'),
+            ],
+          },
         ],
       },
     ],
   },
   {
-    id: 'accessoarer',
-    label: 'Accessoarer',
-    intro: 'Huvud-, fot- och handmått för mössor, sockor, vantar och handskar.',
+    id: "accessoarer",
+    label: "Accessoarer",
+    intro: "Huvud-, fot- och handmått för mössor, sockor, vantar och handskar.",
     tables: [
       {
-        caption: 'Huvudomkrets',
-        sizeHeader: 'Kategori',
-        sizes: ['Omkrets'],
+        caption: "Huvudomkrets",
+        sizeHeader: "Kategori",
+        sizes: ["Omkrets"],
         rows: [
-          { label: 'Prematur', cells: [c('23-30.5 cm', '9-12"')] },
-          { label: 'Baby', cells: [c('35.5-40.5 cm', '14-16"')] },
-          { label: 'Småbarn', cells: [c('40.5-46 cm', '16-18"')] },
-          { label: 'Barn', cells: [c('45.5-51 cm', '18-20"')] },
-          { label: 'Tween', cells: [c('51-56 cm', '20-22"')] },
-          { label: 'Kvinna', cells: [c('53-58.5 cm', '21-23"')] },
-          { label: 'Man', cells: [c('56-61 cm', '22-24"')] },
+          { label: "Prematur", cells: [c("23-30.5 cm", '9-12"')] },
+          { label: "Baby", cells: [c("35.5-40.5 cm", '14-16"')] },
+          { label: "Småbarn", cells: [c("40.5-46 cm", '16-18"')] },
+          { label: "Barn", cells: [c("45.5-51 cm", '18-20"')] },
+          { label: "Tween", cells: [c("51-56 cm", '20-22"')] },
+          { label: "Kvinna", cells: [c("53-58.5 cm", '21-23"')] },
+          { label: "Man", cells: [c("56-61 cm", '22-24"')] },
         ],
       },
       {
-        caption: 'Fotstorlek',
-        sizeHeader: 'Storlek',
-        sizes: ['Längd'],
+        caption: "Fotstorlek",
+        sizeHeader: "Storlek",
+        sizes: ["Längd"],
         rows: [
-          { label: 'Baby (0-6 mån)', cells: [c('9 cm', '3.5"')] },
-          { label: 'Baby (6-12 mån)', cells: [c('10-11 cm', '4-4.5"')] },
-          { label: 'Småbarn (1-2)', cells: [c('12-13 cm', '4.75-5"')] },
-          { label: 'Barn (3-6)', cells: [c('14-18 cm', '5.5-7"')] },
-          { label: 'Barn (7-10)', cells: [c('19-21 cm', '7.5-8.25"')] },
-          { label: 'Ungdom', cells: [c('22-24 cm', '8.5-9.5"')] },
-          { label: 'Dam', cells: [c('23-26 cm', '9-10.25"')] },
-          { label: 'Herr', cells: [c('25-29 cm', '10-11.5"')] },
+          { label: "Baby (0-6 mån)", cells: [c("9 cm", '3.5"')] },
+          { label: "Baby (6-12 mån)", cells: [c("10-11 cm", '4-4.5"')] },
+          { label: "Småbarn (1-2)", cells: [c("12-13 cm", '4.75-5"')] },
+          { label: "Barn (3-6)", cells: [c("14-18 cm", '5.5-7"')] },
+          { label: "Barn (7-10)", cells: [c("19-21 cm", '7.5-8.25"')] },
+          { label: "Ungdom", cells: [c("22-24 cm", '8.5-9.5"')] },
+          { label: "Dam", cells: [c("23-26 cm", '9-10.25"')] },
+          { label: "Herr", cells: [c("25-29 cm", '10-11.5"')] },
         ],
       },
       {
-        caption: 'Handstorlek',
-        sizeHeader: 'Storlek',
-        sizes: ['Omkrets'],
+        caption: "Handstorlek",
+        sizeHeader: "Storlek",
+        sizes: ["Omkrets"],
         rows: [
-          { label: 'Baby', cells: [c('10-13 cm', '4-5"')] },
-          { label: 'Småbarn', cells: [c('13-15 cm', '5-6"')] },
-          { label: 'Barn', cells: [c('15-18 cm', '6-7"')] },
-          { label: 'Ungdom', cells: [c('18-20 cm', '7-8"')] },
-          { label: 'Dam', cells: [c('18-20 cm', '7-8"')] },
-          { label: 'Herr', cells: [c('20-23 cm', '8-9"')] },
+          { label: "Baby", cells: [c("10-13 cm", '4-5"')] },
+          { label: "Småbarn", cells: [c("13-15 cm", '5-6"')] },
+          { label: "Barn", cells: [c("15-18 cm", '6-7"')] },
+          { label: "Ungdom", cells: [c("18-20 cm", '7-8"')] },
+          { label: "Dam", cells: [c("18-20 cm", '7-8"')] },
+          { label: "Herr", cells: [c("20-23 cm", '8-9"')] },
         ],
       },
     ],
   },
 ];
 
-const defaultPanel = 'dam';
+const defaultPanel = "dam";
 
 const faqs = [
   {
-    q: 'Är de här måtten samma i alla stickmönster?',
-    a: 'De flesta större förlag och fristående designers följer Craft Yarn Councils standarder, men det finns ingen universell kontroll. Vissa designers använder egna storlekar, särskilt de som arbetar med storleksinkluderande design och mer finfördelade alternativ. Kontrollera alltid mönstrets egen storlekstabell om det finns en.',
+    q: "Är de här måtten samma i alla stickmönster?",
+    a: "De flesta större förlag och fristående designers följer Craft Yarn Councils standarder, men det finns ingen universell kontroll. Vissa designers använder egna storlekar, särskilt de som arbetar med storleksinkluderande design och mer finfördelade alternativ. Kontrollera alltid mönstrets egen storlekstabell om det finns en.",
   },
   {
-    q: 'Hur väljer jag storlek om mönstret använder nummer i stället för XS/S/M/L?',
-    a: 'Jämför bröstvidden som anges för varje numrerad storlek med tabellerna ovan. Bröstvidden är det som spelar roll. Strunta i etiketten.',
+    q: "Hur väljer jag storlek om mönstret använder nummer i stället för XS/S/M/L?",
+    a: "Jämför bröstvidden som anges för varje numrerad storlek med tabellerna ovan. Bröstvidden är det som spelar roll. Strunta i etiketten.",
   },
   {
-    q: 'Ska jag mäta över kläder eller direkt på huden?',
-    a: 'Över tunna kläder: en åtsittande t-shirt eller ett tunt lager. En tjock tröja lägger till centimeter som inte speglar kroppen. Direkt på huden kan måttet bli lite mindre än vad plagget faktiskt behöver rymma.',
+    q: "Ska jag mäta över kläder eller direkt på huden?",
+    a: "Över tunna kläder: en åtsittande t-shirt eller ett tunt lager. En tjock tröja lägger till centimeter som inte speglar kroppen. Direkt på huden kan måttet bli lite mindre än vad plagget faktiskt behöver rymma.",
   },
   {
-    q: 'Vad gör jag om mina mått inte passar snyggt i en storlek?',
-    a: 'Det är normalt. De flesta är inte en enda storlek över alla mått. Prioritera det mått som är viktigast för plagget: bröstvidd för en tröja, höft för en kjol, huvudomkrets för en mössa. Många mönster har instruktioner för att förlänga eller korta vissa delar.',
+    q: "Vad gör jag om mina mått inte passar snyggt i en storlek?",
+    a: "Det är normalt. De flesta är inte en enda storlek över alla mått. Prioritera det mått som är viktigast för plagget: bröstvidd för en tröja, höft för en kjol, huvudomkrets för en mössa. Många mönster har instruktioner för att förlänga eller korta vissa delar.",
   },
 ];
 ---
@@ -248,23 +772,28 @@ const faqs = [
   variant="terracotta"
 >
   <div slot="tool">
-    <p class="panel-intro">Det här är kroppsmått, inte färdiga plaggmått. Lägg till rörelsevidd för den passform du vill ha.</p>
+    <p class="panel-intro">
+      Det här är kroppsmått, inte färdiga plaggmått. Lägg till rörelsevidd för
+      den passform du vill ha.
+    </p>
     <div class="chart-controls">
       <div class="tab-scroller">
         <div class="tabs" role="tablist" aria-label="Storlekskategori">
-          {panels.map((panel) => (
-            <button
-              type="button"
-              role="tab"
-              class={`tab-btn${panel.id === defaultPanel ? ' is-active' : ''}`}
-              data-tab={panel.id}
-              aria-selected={panel.id === defaultPanel ? 'true' : 'false'}
-              aria-controls={`panel-${panel.id}`}
-              id={`tab-${panel.id}`}
-            >
-              {panel.label}
-            </button>
-          ))}
+          {
+            panels.map((panel) => (
+              <button
+                type="button"
+                role="tab"
+                class={`tab-btn${panel.id === defaultPanel ? " is-active" : ""}`}
+                data-tab={panel.id}
+                aria-selected={panel.id === defaultPanel ? "true" : "false"}
+                aria-controls={`panel-${panel.id}`}
+                id={`tab-${panel.id}`}
+              >
+                {panel.label}
+              </button>
+            ))
+          }
         </div>
       </div>
 
@@ -274,133 +803,219 @@ const faqs = [
           role="radio"
           class="unit-btn is-active"
           data-unit="cm"
-          aria-checked="true"
-        >CM</button>
+          aria-checked="true">CM</button
+        >
         <button
           type="button"
           role="radio"
           class="unit-btn"
           data-unit="inch"
-          aria-checked="false"
-        >Tum</button>
+          aria-checked="false">Tum</button
+        >
       </div>
     </div>
 
     <div class="chart-wrap show-cm" id="sv-size-chart-wrap">
-      {panels.map((panel) => (
-        <div
-          class={`panel${panel.id === defaultPanel ? ' is-active' : ''}`}
-          data-panel={panel.id}
-          role="tabpanel"
-          id={`panel-${panel.id}`}
-          aria-labelledby={`tab-${panel.id}`}
-          hidden={panel.id !== defaultPanel}
-        >
-          {panel.intro && <p class="panel-intro">{panel.intro}</p>}
-          {panel.tables.map((table) => (
-            <div class="table-block">
-              {table.caption && <h3 class="table-caption">{table.caption}</h3>}
-              <div class="table-scroll">
-                <table class="size-table">
-                  <thead>
-                    <tr>
-                      <th class="sticky-col">{table.sizeHeader ?? 'Mått'}</th>
-                      {table.sizes.map((size) => <th>{size}</th>)}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {table.rows.map((row) => (
+      {
+        panels.map((panel) => (
+          <div
+            class={`panel${panel.id === defaultPanel ? " is-active" : ""}`}
+            data-panel={panel.id}
+            role="tabpanel"
+            id={`panel-${panel.id}`}
+            aria-labelledby={`tab-${panel.id}`}
+            hidden={panel.id !== defaultPanel}
+          >
+            {panel.intro && <p class="panel-intro">{panel.intro}</p>}
+            {panel.tables.map((table) => (
+              <div class="table-block">
+                {table.caption && (
+                  <h3 class="table-caption">{table.caption}</h3>
+                )}
+                <div class="table-scroll">
+                  <table class="size-table">
+                    <thead>
                       <tr>
-                        <th scope="row" class="sticky-col row-label">{row.label}</th>
-                        {row.cells.map((cell) => (
-                          <td>
-                            <span class="unit-cm">{formatCm(cell.cm)}</span>
-                            <span class="unit-inch">{cell.inch}</span>
-                          </td>
+                        <th class="sticky-col">{table.sizeHeader ?? "Mått"}</th>
+                        {table.sizes.map((size) => (
+                          <th>{size}</th>
                         ))}
                       </tr>
-                    ))}
-                  </tbody>
-                </table>
+                    </thead>
+                    <tbody>
+                      {table.rows.map((row) => (
+                        <tr>
+                          <th scope="row" class="sticky-col row-label">
+                            {row.label}
+                          </th>
+                          {row.cells.map((cell) => (
+                            <td>
+                              <span class="unit-cm">{formatCm(cell.cm)}</span>
+                              <span class="unit-inch">{cell.inch}</span>
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
-      ))}
+            ))}
+          </div>
+        ))
+      }
     </div>
   </div>
 
   <div slot="content">
     <h2>Så tar du kroppsmått</h2>
-    <p>Måtten i de här tabellerna motsvarar specifika punkter på kroppen. För att få ett korrekt mått behöver du mäta på rätt ställe.</p>
-    <p><strong>Bröst / byst:</strong> Mät runt den fylligaste delen av bröstet, med måttbandet vågrätt och intill kroppen men inte hårt. För kvinnor är det vid bystens fylligaste punkt. Det här är huvudmåttet för att välja plaggstorlek.</p>
-    <p><strong>Midja:</strong> Mät vid den naturliga midjan, den smalaste punkten på bålen, oftast strax ovanför naveln. Böj dig åt sidan om du är osäker; vecket visar var midjan sitter.</p>
-    <p><strong>Höft:</strong> Mät runt höftens fylligaste del, oftast 18-23 cm under midjan. Håll måttbandet vågrätt.</p>
-    <p><strong>Ryggbredd (axel till axel):</strong> Mät rakt över ryggen från spetsen av ena axeln till den andra. Det avgör plaggets axelbredd.</p>
-    <p><strong>Rygglängd till midja:</strong> Mät från den tydliga knölen i nacken rakt ner till den naturliga midjan. Det avgör hur lång båldelen av plagget behöver vara.</p>
-    <p><strong>Ärmlängd till underarm:</strong> Mät från handledsknölen till underarmen. Det är din guide för ärmlängd.</p>
-    <p><strong>Överarmsvidd:</strong> Mät omkretsen vid överarmens fylligaste del, med armen avslappnad vid sidan.</p>
-    <p><strong>Ärmhålsdjup:</strong> Mät från axelns ovansida rakt ner till underarmen. Det avgör hur djup ärmhålsformningen behöver vara.</p>
-    <p><strong>Nacke till handled mitt bak:</strong> Mät från mitten bak i nacken, över axeln och ner längs armen till handledsknölen. Det här samlade måttet används för raglan- och okkonstruktioner där kropp och ärm stickas ihop.</p>
+    <p>
+      Måtten i de här tabellerna motsvarar specifika punkter på kroppen. För att
+      få ett korrekt mått behöver du mäta på rätt ställe.
+    </p>
+    <p>
+      <strong>Bröst / byst:</strong> Mät runt den fylligaste delen av bröstet, med
+      måttbandet vågrätt och intill kroppen men inte hårt. För kvinnor är det vid
+      bystens fylligaste punkt. Det här är huvudmåttet för att välja plaggstorlek.
+    </p>
+    <p>
+      <strong>Midja:</strong> Mät vid den naturliga midjan, den smalaste punkten på
+      bålen, oftast strax ovanför naveln. Böj dig åt sidan om du är osäker; vecket
+      visar var midjan sitter.
+    </p>
+    <p>
+      <strong>Höft:</strong> Mät runt höftens fylligaste del, oftast 18-23 cm under
+      midjan. Håll måttbandet vågrätt.
+    </p>
+    <p>
+      <strong>Ryggbredd (axel till axel):</strong> Mät rakt över ryggen från spetsen
+      av ena axeln till den andra. Det avgör plaggets axelbredd.
+    </p>
+    <p>
+      <strong>Rygglängd till midja:</strong> Mät från den tydliga knölen i nacken
+      rakt ner till den naturliga midjan. Det avgör hur lång båldelen av plagget behöver
+      vara.
+    </p>
+    <p>
+      <strong>Ärmlängd till underarm:</strong> Mät från handledsknölen till underarmen.
+      Det är din guide för ärmlängd.
+    </p>
+    <p>
+      <strong>Överarmsvidd:</strong> Mät omkretsen vid överarmens fylligaste del,
+      med armen avslappnad vid sidan.
+    </p>
+    <p>
+      <strong>Ärmhålsdjup:</strong> Mät från axelns ovansida rakt ner till underarmen.
+      Det avgör hur djup ärmhålsformningen behöver vara.
+    </p>
+    <p>
+      <strong>Nacke till handled mitt bak:</strong> Mät från mitten bak i nacken,
+      över axeln och ner längs armen till handledsknölen. Det här samlade måttet används
+      för raglan- och okkonstruktioner där kropp och ärm stickas ihop.
+    </p>
 
     <h2>Kroppsmått kontra färdiga plaggmått</h2>
-    <p>Det här är den vanligaste källan till storleksförvirring i stickning. Tabellerna visar kroppsmått, alltså personens faktiska mått. Ett färdigt plagg är alltid större eftersom det innehåller rörelsevidd.</p>
-    <p><strong>Negativ rörelsevidd (-2,5 till -5 cm):</strong> Plagget är mindre än kroppen. Används för mössor, sockor och mycket kroppsnära resårplagg som ska sitta åt.</p>
-    <p><strong>Noll rörelsevidd:</strong> Plagget matchar kroppsmåtten exakt. Mycket ovanligt i stickning. Resultatet blir hudnära.</p>
-    <p><strong>Positiv rörelsevidd (5-10 cm):</strong> Plagget är lite större än kroppen. Det är standardpassform för de flesta tröjor, koftor och toppar.</p>
-    <p><strong>Oversized rörelsevidd (10-20+ cm):</strong> Plagget är tydligt större än kroppen. Slappa tröjor, cocoon-koftor och plagg med avslappnad passform.</p>
-    <p>När ett mönster säger "to fit chest 91,5 cm" och anger färdig bystvidd 101,5 cm är skillnaden på 10 cm rörelsevidden. Din uppgift är att välja storleken där "to fit"-måttet matchar kroppen, inte det färdiga måttet.</p>
-    <p>När du vet målstorleken kan <a href={routes.tool.yarnEstimator.sv}>garnåtgångskalkylatorn</a> rimlighetskontrollera garnåtgången, och <a href="/sv/artiklar/hur-mycket-garn-till-troja/">guiden till garn för tröjor</a> går igenom storleksberäkningar mer ingående.</p>
+    <p>
+      Det här är den vanligaste källan till storleksförvirring i stickning.
+      Tabellerna visar kroppsmått, alltså personens faktiska mått. Ett färdigt
+      plagg är alltid större eftersom det innehåller rörelsevidd.
+    </p>
+    <p>
+      <strong>Negativ rörelsevidd (-2,5 till -5 cm):</strong> Plagget är mindre än
+      kroppen. Används för mössor, sockor och mycket kroppsnära resårplagg som ska
+      sitta åt.
+    </p>
+    <p>
+      <strong>Noll rörelsevidd:</strong> Plagget matchar kroppsmåtten exakt. Mycket
+      ovanligt i stickning. Resultatet blir hudnära.
+    </p>
+    <p>
+      <strong>Positiv rörelsevidd (5-10 cm):</strong> Plagget är lite större än kroppen.
+      Det är standardpassform för de flesta tröjor, koftor och toppar.
+    </p>
+    <p>
+      <strong>Oversized rörelsevidd (10-20+ cm):</strong> Plagget är tydligt större
+      än kroppen. Slappa tröjor, cocoon-koftor och plagg med avslappnad passform.
+    </p>
+    <p>
+      När ett mönster säger "to fit chest 91,5 cm" och anger färdig bystvidd
+      101,5 cm är skillnaden på 10 cm rörelsevidden. Din uppgift är att välja
+      storleken där "to fit"-måttet matchar kroppen, inte det färdiga måttet.
+    </p>
+    <p>
+      När du vet målstorleken kan <a href={routes.tool.yarnEstimator.sv}
+        >garnåtgångskalkylatorn</a
+      > rimlighetskontrollera garnåtgången, och <a
+        href="/sv/artiklar/hur-mycket-garn-till-troja/"
+        >guiden till garn för tröjor</a
+      > går igenom storleksberäkningar mer ingående.
+    </p>
 
     <h2>Att välja mellan storlekar</h2>
-    <p>Om bröstvidden hamnar mellan två storlekar beror rätt val på plaggets tänkta passform. För ett kroppsnära plagg, välj den mindre storleken. För en ledig eller oversized passform, välj den större.</p>
-    <p>Jämför också andra mått, särskilt höft för längre plagg och överarm för åtsittande ärmar. Om bröstet säger M men höften säger L, kontrollera mönstrets måttskiss för att se om höftskillnaden spelar roll för plaggets längd och silhuett.</p>
-    <p>Oavsett vilken storlek du väljer avgör <a href="/sv/artiklar/sticka-provlapp-steg-for-steg/">stickprovet</a> om det färdiga arbetet faktiskt matchar mönstrets siffror. Guiden <a href="/sv/artiklar/sa-mater-du-stickfasthet/">så mäter du stickfasthet</a> går igenom stickprovet i detalj.</p>
+    <p>
+      Om bröstvidden hamnar mellan två storlekar beror rätt val på plaggets
+      tänkta passform. För ett kroppsnära plagg, välj den mindre storleken. För
+      en ledig eller oversized passform, välj den större.
+    </p>
+    <p>
+      Jämför också andra mått, särskilt höft för längre plagg och överarm för
+      åtsittande ärmar. Om bröstet säger M men höften säger L, kontrollera
+      mönstrets måttskiss för att se om höftskillnaden spelar roll för plaggets
+      längd och silhuett.
+    </p>
+    <p>
+      Oavsett vilken storlek du väljer avgör <a
+        href="/sv/artiklar/sticka-provlapp-steg-for-steg/">stickprovet</a
+      > om det färdiga arbetet faktiskt matchar mönstrets siffror. Guiden <a
+        href="/sv/artiklar/sa-mater-du-stickfasthet/"
+        >så mäter du stickfasthet</a
+      > går igenom stickprovet i detalj.
+    </p>
   </div>
 </LocalizedToolPage>
 
 <script>
-  const tabButtons = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
-  const panels = document.querySelectorAll<HTMLElement>('.panel');
+  const tabButtons = document.querySelectorAll<HTMLButtonElement>(".tab-btn");
+  const panels = document.querySelectorAll<HTMLElement>(".panel");
 
   tabButtons.forEach((button) => {
-    button.addEventListener('click', () => {
+    button.addEventListener("click", () => {
       const target = button.dataset.tab;
 
       tabButtons.forEach((tab) => {
         const isActive = tab.dataset.tab === target;
-        tab.classList.toggle('is-active', isActive);
-        tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+        tab.classList.toggle("is-active", isActive);
+        tab.setAttribute("aria-selected", isActive ? "true" : "false");
       });
 
       panels.forEach((panel) => {
         const isActive = panel.dataset.panel === target;
-        panel.classList.toggle('is-active', isActive);
+        panel.classList.toggle("is-active", isActive);
         if (isActive) {
-          panel.removeAttribute('hidden');
+          panel.removeAttribute("hidden");
         } else {
-          panel.setAttribute('hidden', '');
+          panel.setAttribute("hidden", "");
         }
       });
     });
   });
 
-  const unitButtons = document.querySelectorAll<HTMLButtonElement>('.unit-btn');
-  const chartWrap = document.getElementById('sv-size-chart-wrap');
+  const unitButtons = document.querySelectorAll<HTMLButtonElement>(".unit-btn");
+  const chartWrap = document.getElementById("sv-size-chart-wrap");
 
   unitButtons.forEach((button) => {
-    button.addEventListener('click', () => {
+    button.addEventListener("click", () => {
       const unit = button.dataset.unit;
       if (!unit || !chartWrap) return;
 
       unitButtons.forEach((unitButton) => {
         const isActive = unitButton.dataset.unit === unit;
-        unitButton.classList.toggle('is-active', isActive);
-        unitButton.setAttribute('aria-checked', isActive ? 'true' : 'false');
+        unitButton.classList.toggle("is-active", isActive);
+        unitButton.setAttribute("aria-checked", isActive ? "true" : "false");
       });
 
-      chartWrap.classList.toggle('show-cm', unit === 'cm');
-      chartWrap.classList.toggle('show-inch', unit === 'inch');
+      chartWrap.classList.toggle("show-cm", unit === "cm");
+      chartWrap.classList.toggle("show-inch", unit === "inch");
     });
   });
 </script>

@@ -1,0 +1,76 @@
+---
+import LocalizedToolPage from "../LocalizedToolPage.astro";
+import YarnEstimator from "../YarnEstimator.astro";
+import { dutchToolRoutes } from "../../i18n/dutchTools";
+import { routes } from "../../i18n/routes";
+
+const faqs = [
+  {
+    q: "Hoe weet ik hoeveel garen mijn project nodig heeft?",
+    a: "Je patroon vermeldt normaal het totale aantal meters in de materialenlijst. Ontwerp je zonder patroon, zoek dan gemiddelde garenhoeveelheden op voor hetzelfde projecttype en dezelfde maat. Voor de meeste kledingstukken bestaan redelijk vaste bereiken.",
+  },
+  {
+    q: "Moet ik extra garen kopen?",
+    a: "Altijd. Koop minstens een bol extra, zeker als het garen een verfbad of lotnummer heeft. Verfbaden verschillen soms net van kleur, en later dezelfde partij vinden kan onmogelijk zijn als die uitverkocht is.",
+  },
+  {
+    q: "Wat als mijn patroon yards of grammen noemt?",
+    a: "De berekenaar toont meters. Als je patroon yards gebruikt, zet die eerst om naar meters. Staat je patroon of voorraad alleen in grammen, kijk dan op het garenlabel hoeveel meter er per bol op zit en reken vanaf daar. Gewicht alleen is niet genoeg, want twee bollen van 50 g kunnen heel verschillende looplengtes hebben.",
+  },
+  {
+    q: "Heeft garendikte invloed op hoeveel ik nodig heb?",
+    a: "Ja. Dunner garen, zoals fingering of sport, vraagt meer meters voor hetzelfde project dan dikker garen, zoals worsted of bulky. De steken zijn kleiner, dus je hebt er meer nodig om hetzelfde oppervlak te vullen.",
+  },
+  {
+    q: "Kan ik een ander garen gebruiken dan het patroon aanraadt?",
+    a: "Ja, als de stekenverhouding klopt. Brei een proeflapje met het vervangende garen, controleer of je hetzelfde aantal steken per 10 cm haalt, en gebruik deze berekenaar om het totale garenverbruik voor het nieuwe garen te schatten.",
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Garenberekenaar: hoeveel garen heb ik nodig?"
+  description="Schat hoeveel garen je breiproject nodig heeft op basis van projecttype, maat en garendikte. Plan garenverbruik voordat je koopt."
+  canonicalPath={dutchToolRoutes.yarnEstimator}
+  lang="nl"
+  alternates={routes.tool.yarnEstimator}
+  intro="Schat hoeveel garen je nodig hebt op basis van projecttype, maat en garendikte."
+  schemaName="Garenberekenaar"
+  schemaDescription="Schat het benodigde aantal meters garen voor een breiproject op basis van projecttype, maat en garendikte."
+  faqs={faqs}
+  variant="rust"
+>
+  <div slot="tool">
+    <YarnEstimator lang="nl" />
+  </div>
+
+  <div slot="content">
+    <h2>Zo gebruik je deze berekenaar</h2>
+    <p>
+      Kies het projecttype, de maat en de garendikte. De berekenaar geeft een
+      geschatte hoeveelheid in meters. Gebruik die als uitgangspunt voor je
+      planning en tel daarna een veiligheidsmarge mee voordat je garen koopt.
+      Halverwege zonder garen zitten terwijl het verfbad niet meer te vinden is,
+      blijft een klassieker.
+    </p>
+
+    <h2>Hoeveel garen heb ik nodig?</h2>
+    <p>
+      De hoeveelheid garen hangt af van drie dingen: wat je breit, welke maat,
+      en welke garendikte. Een volwassen trui in fingering vraagt grofweg 1 200
+      tot 1 500 meter. Een bulky muts kan genoeg hebben aan 100 meter. Als een
+      patroon zelf meters opgeeft, gebruik die eerst; deze berekenaar is vooral
+      handig bij plannen zonder patroon of om te controleren of een hoeveelheid
+      garen realistisch is.
+    </p>
+
+    <h2>Een garenlabel lezen</h2>
+    <p>
+      Elk garenlabel, wikkel of banderol vertelt de lengte per bol. Zodra je een
+      totaal hebt geschat, deel je dat aantal door de meters per bol op het
+      label om te bepalen hoeveel je moet kopen. Ben je het label kwijt, weeg je
+      garen dan op een keukenweegschaal en controleer op de website van de
+      fabrikant hoeveel meter per gram het garen heeft.
+    </p>
+  </div>
+</LocalizedToolPage>

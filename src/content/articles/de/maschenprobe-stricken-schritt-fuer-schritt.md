@@ -4,11 +4,18 @@ description: "Eine praktische Anleitung zur Maschenprobe: Maschen anschlagen, wa
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 4
-tags: ["Maschenprobe stricken", "Maschenprobe Schritt für Schritt", "Maschenprobe messen", "Probestück stricken"]
+tags:
+  [
+    "Maschenprobe stricken",
+    "Maschenprobe Schritt für Schritt",
+    "Maschenprobe messen",
+    "Probestück stricken",
+  ]
 draft: false
 lang: de
 translationKey: "gauge-swatch-step-by-step"
 ---
+
 Eine Maschenprobe ist ein Testquadrat aus deinem Projektgarn und dem vorgesehenen Muster. Du wäschst und spannst es und misst dann meist über 10 cm, ob deine Maschen zur Anleitung passen. Das hier ist die praktische Anleitung. Wenn du zuerst verstehen willst, warum die Maschenprobe wichtig ist und was du tust, wenn sie nicht passt, erklärt [Maschenprobe messen](/de/artikel/maschenprobe-messen/) das Gesamtbild. Diese Seite ist für den Moment, in dem du den Grund schon kennst und nur die Schritte brauchst.
 
 ## Was du brauchst

@@ -4,11 +4,18 @@ description: "Jämför stickmaterial: metall, trä, bambu, plast och kolfiber. H
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 2
-tags: ["stickmaterial", "bästa material stickor", "trä eller metall stickor", "bambu stickor"]
+tags:
+  [
+    "stickmaterial",
+    "bästa material stickor",
+    "trä eller metall stickor",
+    "bambu stickor",
+  ]
 draft: false
 lang: sv
 translationKey: "knitting-needle-materials"
 ---
+
 Stickmaterial ändrar hur garnet rör sig, hur stickan känns i handen och hur trötta händerna blir efter en timme. Det är därför samma stickare kan välja metall till ett projekt och bambu till nästa.
 
 Metallstickor är snabbast och mest hållbara, trä ger värme och måttligt grepp, och bambu ger mest friktion. Därför är bambu mest förlåtande för nybörjare. Det finns inget material som är bäst för alla. Bara ett bättre matchat material för garnet, projektet och hur du stickar.

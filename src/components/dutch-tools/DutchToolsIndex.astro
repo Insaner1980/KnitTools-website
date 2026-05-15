@@ -1,0 +1,283 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import ClosingCTA from "../ClosingCTA.astro";
+import { dutchToolLinks, dutchToolRoutes } from "../../i18n/dutchTools";
+import { routes } from "../../i18n/routes";
+
+const tools = [
+  {
+    tag: "Steken",
+    title: "Opzetcalculator",
+    description:
+      "Bereken hoeveel steken je moet opzetten voor elke breedte en stekenverhouding.",
+    href: dutchToolRoutes.castOnCalculator,
+    className: "card-terracotta card-top-left",
+  },
+  {
+    tag: "Meters",
+    title: "Garenberekenaar",
+    description:
+      "Schat het garenverbruik op basis van projecttype, maat en garendikte.",
+    href: dutchToolRoutes.yarnEstimator,
+    className: "card-rust card-top-right",
+  },
+  {
+    tag: "Diktes",
+    title: "Garendiktes",
+    description:
+      "Alle 8 garencategorieën met stekenverhouding, naalden en WPI.",
+    href: dutchToolRoutes.yarnWeightChart,
+    className: "card-sand card-bl1",
+  },
+  {
+    tag: "Naalden",
+    title: "Naalddiktes",
+    description:
+      "Zet US-, UK-, metrische en Japanse naalddiktes naar elkaar om.",
+    href: dutchToolRoutes.needleSizeChart,
+    className: "card-teal card-br1",
+  },
+  {
+    tag: "Maten",
+    title: "Maattabellen voor breien",
+    description:
+      "Lichaamsmaten voor baby tot volwassene, in cm en met inchwaarden in de tabel.",
+    href: dutchToolRoutes.knittingSizeCharts,
+    className: "card-terracotta card-bl2",
+  },
+  {
+    tag: "Woordenlijst",
+    title: "Breiafkortingen",
+    description: "Zoek een afkorting op of vind termen per techniek.",
+    href: dutchToolRoutes.knittingAbbreviations,
+    className: "card-brown card-br2",
+  },
+];
+---
+
+<PageLayout
+  title="Gratis breitools"
+  description="Gratis online breirekenaars en tabellen: opzetten, garenverbruik, naalddiktes, garendiktes, breiafkortingen en maattabellen."
+  canonicalPath={dutchToolRoutes.index}
+  lang="nl"
+  alternates={routes.toolsIndex}
+  showStripe={false}
+>
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Gratis breitools",
+      description: "Gratis online breirekenaars en tabellen.",
+      url: `https://knittoolsapp.com${dutchToolRoutes.index}`,
+      mainEntity: {
+        "@type": "ItemList",
+        itemListElement: dutchToolLinks.map((tool, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          url: `https://knittoolsapp.com${tool.href}`,
+        })),
+      },
+    })}
+  />
+
+  <section class="tools-header">
+    <div class="tools-header-inner">
+      <p class="eyebrow">Gratis tools</p>
+      <h1>Breitools, online.</h1>
+      <p class="tools-intro">
+        Rekenaars en referentietabellen voor je breiprojecten. Geen account,
+        geen app nodig.
+      </p>
+    </div>
+  </section>
+
+  <section class="tools-grid-section">
+    <div class="tools-grid">
+      {
+        tools.map((tool) => (
+          <a href={tool.href} class:list={["tool-card", tool.className]}>
+            <span class="tag">{tool.tag}</span>
+            <h2 class="card-title">{tool.title}</h2>
+            <p class="card-desc">{tool.description}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+  <ClosingCTA variant="page" lang="nl" />
+</PageLayout>
+
+<style>
+  .tools-header {
+    color: var(--ink);
+    padding: 80px 40px 48px;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .tools-header-inner,
+  .tools-grid {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 20px;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin: 0 0 20px;
+  }
+
+  .tools-intro {
+    font-family: var(--body-ed);
+    font-size: clamp(17px, 1.5vw, 20px);
+    line-height: 1.55;
+    max-width: 620px;
+    margin: 0;
+  }
+
+  .tools-grid-section {
+    padding: 48px 40px 100px;
+  }
+
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+  }
+
+  .card-top-left {
+    grid-column: 1 / 7;
+    min-height: 220px;
+  }
+  .card-top-right {
+    grid-column: 7 / 13;
+    min-height: 220px;
+  }
+  .card-bl1 {
+    grid-column: 1 / 4;
+  }
+  .card-br1 {
+    grid-column: 4 / 7;
+  }
+  .card-bl2 {
+    grid-column: 7 / 10;
+  }
+  .card-br2 {
+    grid-column: 10 / 13;
+  }
+
+  .card-terracotta {
+    --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 1);
+    --card-fg: #f4ead9;
+  }
+  .card-rust {
+    --card-bg: rgb(from var(--stripe-rust) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-rust) r g b / 1);
+    --card-fg: #f4ead9;
+  }
+  .card-sand {
+    --card-bg: rgb(from var(--stripe-sand) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-sand) r g b / 1);
+    --card-fg: #2a1e17;
+  }
+  .card-teal {
+    --card-bg: rgb(from var(--stripe-teal) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-teal) r g b / 1);
+    --card-fg: #f4ead9;
+  }
+  .card-brown {
+    --card-bg: rgb(from var(--stripe-brown) r g b / 0.92);
+    --card-bg-hover: rgb(from var(--stripe-brown) r g b / 1);
+    --card-fg: #f4ead9;
+  }
+
+  .tool-card {
+    background-color: var(--card-bg);
+    border-radius: 0;
+    padding: 28px 28px 32px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: background-color 0.2s ease;
+  }
+
+  .tool-card:hover {
+    background-color: var(--card-bg-hover);
+  }
+
+  .tag {
+    align-self: flex-start;
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2a1e17;
+    background: var(--paper);
+    padding: 4px 12px;
+    border-radius: 9999px;
+  }
+
+  .card-title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.9vw, 1.9rem);
+    color: var(--card-fg);
+    line-height: 1.05;
+    margin: 0 0 8px;
+  }
+
+  .card-desc {
+    font-family: var(--body-ed);
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--card-fg);
+    opacity: 0.9;
+    margin: 0;
+  }
+
+  @media (max-width: 1024px) {
+    .tools-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-top-left,
+    .card-top-right,
+    .card-bl1,
+    .card-br1,
+    .card-bl2,
+    .card-br2 {
+      grid-column: span 1;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .tools-header,
+    .tools-grid-section {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .tools-grid {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+  }
+</style>

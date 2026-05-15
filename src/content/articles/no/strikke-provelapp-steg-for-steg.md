@@ -4,11 +4,18 @@ description: "En rask og praktisk guide til å strikke prøvelapp. Fra opplegg t
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 4
-tags: ["strikke prøvelapp", "hvordan strikke prøvelapp", "prøvelapp steg for steg", "lage prøvelapp"]
+tags:
+  [
+    "strikke prøvelapp",
+    "hvordan strikke prøvelapp",
+    "prøvelapp steg for steg",
+    "lage prøvelapp",
+  ]
 draft: false
 lang: no
 translationKey: "gauge-swatch-step-by-step"
 ---
+
 En prøvelapp er en testfirkant strikket i prosjektgarnet og maskemønsteret ditt, vasket og blokket, og deretter målt over 10 cm for å se om maskene stemmer med oppskriftens krav. Dette er den praktiske fremgangsmåten. Hvis du vil forstå hvorfor strikkefasthet betyr noe og hva du gjør når din ikke stemmer, dekker [strikkefasthetsguiden](/no/artikler/male-strikkefasthet/) hele bildet. Denne siden er for når du allerede vet hvorfor og bare vil ha stegene.
 
 ## Dette trenger du

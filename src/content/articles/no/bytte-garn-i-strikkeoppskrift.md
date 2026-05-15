@@ -4,11 +4,18 @@ description: "Lær å bytte garn i en strikkeoppskrift uten å ødelegge prosjek
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 6
-tags: ["bytte garn i strikkeoppskrift", "garnbytte guide", "erstatte garn strikking", "alternativt garn til oppskrift"]
+tags:
+  [
+    "bytte garn i strikkeoppskrift",
+    "garnbytte guide",
+    "erstatte garn strikking",
+    "alternativt garn til oppskrift",
+  ]
 draft: false
 lang: no
 translationKey: "how-to-substitute-yarn"
 ---
+
 Garnet i oppskriften er utgått. Eller det koster 30 euro nøstet og budsjettet sier nei. Eller det er 100 % ull, og mottakeren kommer til å kaste ferdig plagg i vaskemaskinen første dag.
 
 Garnbytte er normalt. De fleste strikkere gjør det oftere enn ikke. Et vellykket bytte betyr at fire ting matcher mellom original og erstatning: garntykkelse, strikkefasthet, fiberoppførsel og total løpelengde. Bom på én, og prosjektet driver. Bom på to, og det er et annet prosjekt.

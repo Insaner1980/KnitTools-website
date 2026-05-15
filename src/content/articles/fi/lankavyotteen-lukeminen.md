@@ -4,10 +4,17 @@ description: "Näin luet lankavyötteen: kuitusisältö, lankavahvuus, neuletihe
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 3
-tags: ["lankavyötteen lukeminen", "lankavyötteen symbolit", "lankavyöte", "langan hoitosymbolit"]
+tags:
+  [
+    "lankavyötteen lukeminen",
+    "lankavyötteen symbolit",
+    "lankavyöte",
+    "langan hoitosymbolit",
+  ]
 lang: fi
 translationKey: "how-to-read-yarn-label"
 ---
+
 Se pieni paperivyöte kerän ympärillä tekee muutakin kuin pitää langan kasassa. Jokainen symboli, numero ja kuvake on siinä siksi, että joku on joskus ostanut väärän langan tai pilannut valmiin neuleen pesussa. Vyöte on muistilappu, joka olisi kannattanut lukea ensin.
 
 Lankavyöte kertoo kuitusisällön, lankavahvuuden, suositellun neuletiheyden, puikkokoon, hoito-ohjeet ja värjäyserän. Siinä on kaikki, mitä tarvitset langan valintaan, käyttöön ja hoitoon. Ota kerä hyllystä tai kaiva vyöte lankavarastosta. Tässä mitä jokainen osa kertoo.

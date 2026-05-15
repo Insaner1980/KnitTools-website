@@ -4,10 +4,17 @@ description: "Vertaa pyöröpuikkoja, suoria puikkoja ja sukkapuikkoja. Opi, mik
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 1
-tags: ["pyöröpuikot vai suorat puikot", "milloin käyttää sukkapuikkoja", "pyöröpuikot vs suorat", "neulepuikkotyypit"]
+tags:
+  [
+    "pyöröpuikot vai suorat puikot",
+    "milloin käyttää sukkapuikkoja",
+    "pyöröpuikot vs suorat",
+    "neulepuikkotyypit",
+  ]
 lang: fi
 translationKey: "circular-vs-straight-vs-dpn"
 ---
+
 Puikkotyyppejä on kolme, koska eri projektit pyytävät eri asioita. Suorat puikot hoitavat tasoneuleen. Pyöröpuikot hoitavat tasoneuleen ja putket. Sukkapuikot hoitavat pienet ympärysmitat. Kun tämä peruslogiikka loksahtaa, puikkojen ostaminen muuttuu paljon vähemmän hämmentäväksi.
 
 ## Suorat puikot

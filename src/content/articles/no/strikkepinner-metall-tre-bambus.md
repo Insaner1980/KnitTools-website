@@ -4,11 +4,18 @@ description: "Sammenlign pinnematerialer: metall, tre, bambus, plast og karbonfi
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 2
-tags: ["strikkepinner materiale", "beste pinnemateriale", "trepinner vs metallpinner", "bambuspinner"]
+tags:
+  [
+    "strikkepinner materiale",
+    "beste pinnemateriale",
+    "trepinner vs metallpinner",
+    "bambuspinner",
+  ]
 draft: false
 lang: no
 translationKey: "knitting-needle-materials"
 ---
+
 Pinnematerialet endrer hvordan garnet beveger seg, hvordan pinnen føles i hånden, og hvor slitne hendene blir etter en time. Derfor kan samme strikker velge metall til ett prosjekt og bambus til det neste.
 
 Metallpinner er raskest og mest slitesterke, tre gir varme og moderat grep, og bambus har mest friksjon. Derfor er bambus ofte mest tilgivende for nybegynnere. Det finnes ikke ett best materiale for alle. Bare bedre match for garnet, prosjektet og måten du strikker på.

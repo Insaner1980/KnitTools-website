@@ -4,11 +4,18 @@ description: "Så byter du till en annan garntjocklek i ett mönster. Om maskant
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 7
-tags: ["byta garntjocklek", "sticka med tjockare garn", "ändra garntjocklek i mönster", "sticka med annan garntjocklek"]
+tags:
+  [
+    "byta garntjocklek",
+    "sticka med tjockare garn",
+    "ändra garntjocklek i mönster",
+    "sticka med annan garntjocklek",
+  ]
 draft: false
 lang: sv
 translationKey: "yarn-weight-substitution"
 ---
+
 Att byta märke inom samma tjocklekskategori är en sak. Att byta själva garntjockleken är ett större steg. Ibland är det precis poängen. Ibland blir det tyst en omkonstruktion.
 
 Att byta garntjocklek betyder att du använder ett garn med annan tjocklek än mönstret anger. Det kräver att du räknar om maskantal, stickstorlek och garnåtgång utifrån den nya stickfastheten. Den verkliga frågan är inte om matten kan tvingas fungera. Det är om det färdiga tyget fortfarande blir rimligt för projektet.

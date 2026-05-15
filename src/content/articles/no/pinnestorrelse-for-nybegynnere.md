@@ -4,11 +4,18 @@ description: "Finn beste pinnestørrelse for nybegynnere. Om anbefalte størrels
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 3
-tags: ["pinnestørrelse nybegynner", "beste pinner lære å strikke", "nybegynner pinnestørrelse", "første strikkepinner"]
+tags:
+  [
+    "pinnestørrelse nybegynner",
+    "beste pinner lære å strikke",
+    "nybegynner pinnestørrelse",
+    "første strikkepinner",
+  ]
 draft: false
 lang: no
 translationKey: "needle-size-for-beginners"
 ---
+
 5,0 mm. Det er det korte svaret. Hvis du kjøper ditt første par og vil ha én anbefaling, gir 5,0 mm bambus eller tre sammen med worsted-garn den mest tilgivende kombinasjonen for læring.
 
 Den størrelsen fungerer av en grunn. Og det finnes situasjoner der noe annet gir mer mening. Hvis du også velger garn, hører [nybegynnerguiden til garn](/no/artikler/beste-garn-for-nybegynnere/) sammen med denne.

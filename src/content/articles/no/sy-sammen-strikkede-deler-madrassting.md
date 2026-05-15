@@ -4,11 +4,18 @@ description: "Sy sammen strikkede deler med madrassting, kastesting og sammenstr
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 10
-tags: ["sy sammen strikkede deler", "madrassting strikking", "montere strikk", "sy strikk sammen"]
+tags:
+  [
+    "sy sammen strikkede deler",
+    "madrassting strikking",
+    "montere strikk",
+    "sy strikk sammen",
+  ]
 draft: false
 lang: no
 translationKey: "seam-knitted-pieces"
 ---
+
 Sammensying er den minst glamorøse delen av strikking, og den delen som lettest blir utsatt. En haug ferdige genserdeler kan ligge i en prosjektpose i ukevis fordi ingen gleder seg til å sy dem sammen. Men en god søm er usynlig, og en dårlig kan ødelegge et ellers pent strikket plagg.
 
 Madrassting lager en usynlig søm ved å plukke opp horisontale tråder én maske innenfor kanten på hver del og trekke dem sammen, slik at skjøten ser ut som sammenhengende stoff. Metoden avhenger av sømretningen: vertikale kanter (sidesømmer), horisontale kanter (skuldersømmer) eller formede deler inn i åpninger (ermer).

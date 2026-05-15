@@ -1,54 +1,54 @@
 ---
-import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
-import { routes } from '../../../i18n/routes';
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
+import { routes } from "../../../i18n/routes";
 
 const rows = [
-  ['1.5', '000', '-', '-', 'Lace'],
-  ['1.75', '00', '-', '-', 'Lace'],
-  ['2.0', '0', '14', '0', 'Lace'],
-  ['2.25', '1', '13', '-', 'Super Fine'],
-  ['2.5', '1.5', '-', '-', 'Super Fine'],
-  ['2.75', '2', '12', '2', 'Super Fine'],
-  ['3.0', '2.5', '11', '3', 'Fine'],
-  ['3.25', '3', '10', '-', 'Fine'],
-  ['3.5', '4', '-', '5', 'Fine'],
-  ['3.75', '5', '9', '-', 'Light'],
-  ['4.0', '6', '8', '6', 'Light'],
-  ['4.5', '7', '7', '8', 'Medium'],
-  ['5.0', '8', '6', '10', 'Medium'],
-  ['5.5', '9', '5', '-', 'Medium'],
-  ['6.0', '10', '4', '13', 'Bulky'],
-  ['6.5', '10.5', '3', '-', 'Bulky'],
-  ['7.0', '-', '2', '-', 'Bulky'],
-  ['8.0', '11', '0', '-', 'Super Bulky'],
-  ['9.0', '13', '00', '-', 'Super Bulky'],
-  ['10.0', '15', '000', '-', 'Super Bulky'],
-  ['12.0', '17', '-', '-', 'Jumbo'],
-  ['12.75', '-', '-', '-', 'Jumbo'],
-  ['15.0', '19', '-', '-', 'Jumbo'],
-  ['16.0', '19', '-', '-', 'Jumbo'],
-  ['19.0', '35', '-', '-', 'Jumbo'],
-  ['25.0', '50', '-', '-', 'Jumbo'],
+  ["1.5", "000", "-", "-", "Lace"],
+  ["1.75", "00", "-", "-", "Lace"],
+  ["2.0", "0", "14", "0", "Lace"],
+  ["2.25", "1", "13", "-", "Super Fine"],
+  ["2.5", "1.5", "-", "-", "Super Fine"],
+  ["2.75", "2", "12", "2", "Super Fine"],
+  ["3.0", "2.5", "11", "3", "Fine"],
+  ["3.25", "3", "10", "-", "Fine"],
+  ["3.5", "4", "-", "5", "Fine"],
+  ["3.75", "5", "9", "-", "Light"],
+  ["4.0", "6", "8", "6", "Light"],
+  ["4.5", "7", "7", "8", "Medium"],
+  ["5.0", "8", "6", "10", "Medium"],
+  ["5.5", "9", "5", "-", "Medium"],
+  ["6.0", "10", "4", "13", "Bulky"],
+  ["6.5", "10.5", "3", "-", "Bulky"],
+  ["7.0", "-", "2", "-", "Bulky"],
+  ["8.0", "11", "0", "-", "Super Bulky"],
+  ["9.0", "13", "00", "-", "Super Bulky"],
+  ["10.0", "15", "000", "-", "Super Bulky"],
+  ["12.0", "17", "-", "-", "Jumbo"],
+  ["12.75", "-", "-", "-", "Jumbo"],
+  ["15.0", "19", "-", "-", "Jumbo"],
+  ["16.0", "19", "-", "-", "Jumbo"],
+  ["19.0", "35", "-", "-", "Jumbo"],
+  ["25.0", "50", "-", "-", "Jumbo"],
 ];
 
-const formatMm = (value: string) => value.replace('.', ',');
+const formatMm = (value: string) => value.replace(".", ",");
 
 const faqs = [
   {
-    q: 'Kan jag ta en nästan likadan stickstorlek om jag inte har exakt rätt?',
-    a: 'Det går, men ett hopp på 0,5 mm ändrar ofta stickfastheten tillräckligt för att märkas. Gör ett nytt stickprov för allt som ska sitta på kroppen.',
+    q: "Kan jag ta en nästan likadan stickstorlek om jag inte har exakt rätt?",
+    a: "Det går, men ett hopp på 0,5 mm ändrar ofta stickfastheten tillräckligt för att märkas. Gör ett nytt stickprov för allt som ska sitta på kroppen.",
   },
   {
-    q: 'Är stickstorlekar samma hos alla märken?',
-    a: 'De borde vara det. I praktiken finns små skillnader, särskilt på billigare set eller äldre stickor. Om stickfastheten hela tiden är fel, mät stickan.',
+    q: "Är stickstorlekar samma hos alla märken?",
+    a: "De borde vara det. I praktiken finns små skillnader, särskilt på billigare set eller äldre stickor. Om stickfastheten hela tiden är fel, mät stickan.",
   },
   {
-    q: 'Vad gäller för rundstickor?',
-    a: 'Samma storlekar som för raka stickor. Storleken beskriver spetsens diameter, inte kabelns längd. En rundsticka på 4,5 mm är en sticka på 4,5 mm oavsett om kabeln är kort för en mössa eller lång för magic loop.',
+    q: "Vad gäller för rundstickor?",
+    a: "Samma storlekar som för raka stickor. Storleken beskriver spetsens diameter, inte kabelns längd. En rundsticka på 4,5 mm är en sticka på 4,5 mm oavsett om kabeln är kort för en mössa eller lång för magic loop.",
   },
   {
-    q: 'Behöver jag varje stickstorlek?',
-    a: 'Nej. De flesta stickare använder några få storlekar som passar garnerna de stickar mest med. Om du stickar med Medium- och Light-garner kommer du ofta att ta fram 3,75 till 5,5 mm.',
+    q: "Behöver jag varje stickstorlek?",
+    a: "Nej. De flesta stickare använder några få storlekar som passar garnerna de stickar mest med. Om du stickar med Medium- och Light-garner kommer du ofta att ta fram 3,75 till 5,5 mm.",
   },
 ];
 ---
@@ -86,65 +86,161 @@ const faqs = [
             </tr>
           </thead>
           <tbody>
-            {rows.map((row) => (
-              <tr data-mm={row[0]} data-us={row[1] === '-' ? '' : row[1]} data-uk={row[2] === '-' ? '' : row[2]} data-jp={row[3] === '-' ? '' : row[3]}>
-                <td class="col-mm">{formatMm(row[0])}</td>
-                {row.slice(1).map((cell) => <td>{cell === '-' ? '—' : cell}</td>)}
-              </tr>
-            ))}
+            {
+              rows.map((row) => (
+                <tr
+                  data-mm={row[0]}
+                  data-us={row[1] === "-" ? "" : row[1]}
+                  data-uk={row[2] === "-" ? "" : row[2]}
+                  data-jp={row[3] === "-" ? "" : row[3]}
+                >
+                  <td class="col-mm">{formatMm(row[0])}</td>
+                  {row.slice(1).map((cell) => (
+                    <td>{cell === "-" ? "—" : cell}</td>
+                  ))}
+                </tr>
+              ))
+            }
           </tbody>
         </table>
       </div>
-      <p class="no-results" id="no-results" hidden>Ingen matchande stickstorlek hittades.</p>
+      <p class="no-results" id="no-results" hidden>
+        Ingen matchande stickstorlek hittades.
+      </p>
     </div>
   </div>
 
   <div slot="content">
     <h2>Varför det finns fyra olika system</h2>
-    <p>Metriskt är det enda systemet som berättar vad stickan faktiskt mäter. En sticka på 4,0 mm är 4,0 mm. Klart.</p>
-    <p>US-storlekar är etiketter. US 7 betyder 4,5 mm och US 8 betyder 5,0 mm, men själva siffrorna säger inget om diametern.</p>
-    <p>Gamla UK- och kanadensiska storlekar går baklänges. UK 14 är mycket tunn, och siffrorna minskar när stickorna blir grövre tills du kommer till 0, 00 och 000. De flesta moderna brittiska mönster anger metriskt, men det gamla systemet dyker fortfarande upp på vintagestickor och äldre mönsterhäften.</p>
-    <p>Japanska storlekar ligger nära det metriska systemet men inte perfekt. Japansk storlek 6 är 3,9 mm, japansk storlek 8 är 4,5 mm. Den skillnaden märks mest vid fin stickfasthet, där några tiondels millimeter kan förändra det färdiga tyget.</p>
+    <p>
+      Metriskt är det enda systemet som berättar vad stickan faktiskt mäter. En
+      sticka på 4,0 mm är 4,0 mm. Klart.
+    </p>
+    <p>
+      US-storlekar är etiketter. US 7 betyder 4,5 mm och US 8 betyder 5,0 mm,
+      men själva siffrorna säger inget om diametern.
+    </p>
+    <p>
+      Gamla UK- och kanadensiska storlekar går baklänges. UK 14 är mycket tunn,
+      och siffrorna minskar när stickorna blir grövre tills du kommer till 0, 00
+      och 000. De flesta moderna brittiska mönster anger metriskt, men det gamla
+      systemet dyker fortfarande upp på vintagestickor och äldre mönsterhäften.
+    </p>
+    <p>
+      Japanska storlekar ligger nära det metriska systemet men inte perfekt.
+      Japansk storlek 6 är 3,9 mm, japansk storlek 8 är 4,5 mm. Den skillnaden
+      märks mest vid fin stickfasthet, där några tiondels millimeter kan
+      förändra det färdiga tyget.
+    </p>
 
     <h2>När metriskt är det säkraste valet</h2>
-    <p>Lita på millimeterstorleken först. Det är det faktiska måttet, och det gör att du slipper omräkningsfel helt.</p>
-    <p>När ett mönster anger "US 7" är det du behöver hålla i handen 4,5 mm. Vissa märken trycker båda siffrorna på stickan. Vissa gör det inte. Gamla märkningar nöts bort. En stickmätare är värd att ha nära till hands just därför.</p>
+    <p>
+      Lita på millimeterstorleken först. Det är det faktiska måttet, och det gör
+      att du slipper omräkningsfel helt.
+    </p>
+    <p>
+      När ett mönster anger "US 7" är det du behöver hålla i handen 4,5 mm.
+      Vissa märken trycker båda siffrorna på stickan. Vissa gör det inte. Gamla
+      märkningar nöts bort. En stickmätare är värd att ha nära till hands just
+      därför.
+    </p>
 
     <h2>Vanliga omräkningsfällor</h2>
     <p>Några storlekar ställer ofta till det.</p>
-    <p><strong>UK-systemet går åt andra hållet.</strong> US-storlekar blir högre när stickorna blir grövre. Gamla UK-storlekar blir lägre. US 6 är 4,0 mm. UK 6 är 5,0 mm. Byt ihop dem och stickprovet är en hel millimeter fel innan du ens har stickat första varvet. Det händer fler än man tror.</p>
-    <p><strong>Alla storlekar har inte perfekta motsvarigheter.</strong> Alla metriska storlekar har inte en ren motsvarighet i varje annat system. En sticka på 3,0 mm märks ibland som US 2.5 av vissa märken, medan andra tabeller placerar den mellan US 2 och US 3. En sticka på 3,5 mm saknar ofta gammal UK-motsvarighet helt. När det händer, gå tillbaka till millimeterstorleken och strunta i resten.</p>
-    <p><strong>Japanska nästan-träffar.</strong> Japanska storlekar linjerar inte rent med US-numren. Japansk storlek 8 är 4,5 mm och motsvarar US 7, men japansk storlek 5 är 3,6 mm och passar inte snyggt in i US-systemet alls. Om du stickar efter ett japanskt mönster, matcha millimetervärdet. Inte den tryckta siffran. Alltid millimetervärdet.</p>
-    <p><strong>Halvstorlekar och udda storlekar finns på riktigt.</strong> Stickor på 2,5 mm, 3,0 mm och 6,5 mm är standardstorlekar även om ditt utbytbara set hoppade över dem. Det är därför "gå upp en halv storlek" ibland blir en genomgång av hela projektväskan.</p>
-    <p><strong>Gamla mönsterhäften anger ibland inget system.</strong> Ett mönster från 1970-talet som säger "size 6 needles" kan betyda US 6 (4,0 mm) eller UK 6 (5,0 mm), beroende på vilket land det publicerades i. Kontrollera förlaget och sedan tabellen.</p>
+    <p>
+      <strong>UK-systemet går åt andra hållet.</strong> US-storlekar blir högre när
+      stickorna blir grövre. Gamla UK-storlekar blir lägre. US 6 är 4,0 mm. UK 6 är
+      5,0 mm. Byt ihop dem och stickprovet är en hel millimeter fel innan du ens har
+      stickat första varvet. Det händer fler än man tror.
+    </p>
+    <p>
+      <strong>Alla storlekar har inte perfekta motsvarigheter.</strong> Alla metriska
+      storlekar har inte en ren motsvarighet i varje annat system. En sticka på 3,0
+      mm märks ibland som US 2.5 av vissa märken, medan andra tabeller placerar den
+      mellan US 2 och US 3. En sticka på 3,5 mm saknar ofta gammal UK-motsvarighet
+      helt. När det händer, gå tillbaka till millimeterstorleken och strunta i resten.
+    </p>
+    <p>
+      <strong>Japanska nästan-träffar.</strong> Japanska storlekar linjerar inte rent
+      med US-numren. Japansk storlek 8 är 4,5 mm och motsvarar US 7, men japansk storlek
+      5 är 3,6 mm och passar inte snyggt in i US-systemet alls. Om du stickar efter
+      ett japanskt mönster, matcha millimetervärdet. Inte den tryckta siffran. Alltid
+      millimetervärdet.
+    </p>
+    <p>
+      <strong>Halvstorlekar och udda storlekar finns på riktigt.</strong> Stickor
+      på 2,5 mm, 3,0 mm och 6,5 mm är standardstorlekar även om ditt utbytbara set
+      hoppade över dem. Det är därför "gå upp en halv storlek" ibland blir en genomgång
+      av hela projektväskan.
+    </p>
+    <p>
+      <strong>Gamla mönsterhäften anger ibland inget system.</strong> Ett mönster
+      från 1970-talet som säger "size 6 needles" kan betyda US 6 (4,0 mm) eller UK
+      6 (5,0 mm), beroende på vilket land det publicerades i. Kontrollera förlaget
+      och sedan tabellen.
+    </p>
 
     <h2>Stickstorlek och garntjocklek ihop</h2>
-    <p>Tabellen kan ta dig till rätt område. Stickprovet avgör den exakta adressen.</p>
-    <p>Craft Yarn Councils nuvarande system kopplar Lace till 1,5-2,25 mm, Super Fine till 2,25-3,25 mm, Fine till 3,25-3,75 mm, Light till 3,75-4,5 mm, Medium till 4,5-5,5 mm, Bulky till 5,5-8 mm, Super Bulky till 8-12,75 mm och Jumbo från 12,75 mm och uppåt.</p>
-    <p>Intervallen överlappar med flit. DK kan ge en fast mössyta på en mindre sticka eller en luftig sjalyta på en större. Mönstrets stickfasthet berättar åt vilket håll designern tänkte. Om du inte är säker på vilken garntjocklek du håller i är <a href={routes.tool.yarnWeightChart.sv}>tabellen över garntjocklekar</a> bättre att börja med.</p>
+    <p>
+      Tabellen kan ta dig till rätt område. Stickprovet avgör den exakta
+      adressen.
+    </p>
+    <p>
+      Craft Yarn Councils nuvarande system kopplar Lace till 1,5-2,25 mm, Super
+      Fine till 2,25-3,25 mm, Fine till 3,25-3,75 mm, Light till 3,75-4,5 mm,
+      Medium till 4,5-5,5 mm, Bulky till 5,5-8 mm, Super Bulky till 8-12,75 mm
+      och Jumbo från 12,75 mm och uppåt.
+    </p>
+    <p>
+      Intervallen överlappar med flit. DK kan ge en fast mössyta på en mindre
+      sticka eller en luftig sjalyta på en större. Mönstrets stickfasthet
+      berättar åt vilket håll designern tänkte. Om du inte är säker på vilken
+      garntjocklek du håller i är <a href={routes.tool.yarnWeightChart.sv}
+        >tabellen över garntjocklekar</a
+      > bättre att börja med.
+    </p>
 
     <h2>Så mäter du omärkta stickor</h2>
-    <p>Vintagestickor, handgjorda trästickor och välanvända utbytbara stickor tappar förr eller senare märkningen. En stickmätare löser det. För in skaftet i hålen tills du hittar det som passar rent utan att tvingas igenom.</p>
-    <p>Mät på skaftet, inte på spetsen. Den avsmalnande spetsen visar ett mindre mått än den arbetande delen av stickan. Fel svar varje gång.</p>
-    <p>De flesta stickmätare visar metriska och US-storlekar, och vissa tar med japanska storlekar också. Om din inte gör det, använd den här stickstorleksguiden för att hitta motsvarande millimeterstorlek och sticka sedan ett snabbt <a href="/sv/artiklar/sa-mater-du-stickfasthet/">stickprov</a> för att kontrollera innan du börjar hela projektet. Om du också väljer <a href="/sv/artiklar/stickmaterial-metall-tra-bambu/">stickmaterial</a> är det ett separat beslut från storleken.</p>
+    <p>
+      Vintagestickor, handgjorda trästickor och välanvända utbytbara stickor
+      tappar förr eller senare märkningen. En stickmätare löser det. För in
+      skaftet i hålen tills du hittar det som passar rent utan att tvingas
+      igenom.
+    </p>
+    <p>
+      Mät på skaftet, inte på spetsen. Den avsmalnande spetsen visar ett mindre
+      mått än den arbetande delen av stickan. Fel svar varje gång.
+    </p>
+    <p>
+      De flesta stickmätare visar metriska och US-storlekar, och vissa tar med
+      japanska storlekar också. Om din inte gör det, använd den här
+      stickstorleksguiden för att hitta motsvarande millimeterstorlek och sticka
+      sedan ett snabbt <a href="/sv/artiklar/sa-mater-du-stickfasthet/"
+        >stickprov</a
+      > för att kontrollera innan du börjar hela projektet. Om du också väljer <a
+        href="/sv/artiklar/stickmaterial-metall-tra-bambu/">stickmaterial</a
+      > är det ett separat beslut från storleken.
+    </p>
   </div>
 </LocalizedToolPage>
 
 <script>
-  const searchInput = document.getElementById('needle-search') as HTMLInputElement | null;
-  const table = document.getElementById('needle-table');
-  const noResults = document.getElementById('no-results');
+  const searchInput = document.getElementById(
+    "needle-search",
+  ) as HTMLInputElement | null;
+  const table = document.getElementById("needle-table");
+  const noResults = document.getElementById("no-results");
 
   if (searchInput && table && noResults) {
-    const rows = table.querySelectorAll<HTMLElement>('tbody tr');
+    const rows = table.querySelectorAll<HTMLElement>("tbody tr");
 
-    searchInput.addEventListener('input', () => {
+    searchInput.addEventListener("input", () => {
       const raw = searchInput.value.trim().toLowerCase();
-      const normalizedRaw = raw.replace(',', '.');
+      const normalizedRaw = raw.replace(",", ".");
 
       if (!raw) {
         rows.forEach((row) => {
-          row.style.display = '';
+          row.style.display = "";
         });
         noResults.hidden = true;
         return;
@@ -153,37 +249,42 @@ const faqs = [
       let targetCol: string | null = null;
       let query = normalizedRaw;
 
-      if (normalizedRaw.startsWith('us ')) {
-        targetCol = 'us';
+      if (normalizedRaw.startsWith("us ")) {
+        targetCol = "us";
         query = normalizedRaw.slice(3).trim();
-      } else if (normalizedRaw.startsWith('uk ')) {
-        targetCol = 'uk';
+      } else if (normalizedRaw.startsWith("uk ")) {
+        targetCol = "uk";
         query = normalizedRaw.slice(3).trim();
-      } else if (normalizedRaw.startsWith('jp ') || normalizedRaw.startsWith('japan ') || normalizedRaw.startsWith('japansk ')) {
-        targetCol = 'jp';
-        query = normalizedRaw.replace(/^(jp|japan|japansk)\s+/, '').trim();
+      } else if (
+        normalizedRaw.startsWith("jp ") ||
+        normalizedRaw.startsWith("japan ") ||
+        normalizedRaw.startsWith("japansk ")
+      ) {
+        targetCol = "jp";
+        query = normalizedRaw.replace(/^(jp|japan|japansk)\s+/, "").trim();
       }
 
       let visibleCount = 0;
 
       rows.forEach((row) => {
-        const mm = row.dataset.mm || '';
-        const us = row.dataset.us || '';
-        const uk = row.dataset.uk || '';
-        const jp = row.dataset.jp || '';
+        const mm = row.dataset.mm || "";
+        const us = row.dataset.us || "";
+        const uk = row.dataset.uk || "";
+        const jp = row.dataset.jp || "";
 
-        let match = false;
-        if (targetCol === 'us') {
-          match = us === query;
-        } else if (targetCol === 'uk') {
-          match = uk === query;
-        } else if (targetCol === 'jp') {
-          match = jp === query;
-        } else {
-          match = mm.startsWith(query) || us === query || uk === query || jp === query;
-        }
+        const match =
+          targetCol === "us"
+            ? us === query
+            : targetCol === "uk"
+              ? uk === query
+              : targetCol === "jp"
+                ? jp === query
+                : mm.startsWith(query) ||
+                  us === query ||
+                  uk === query ||
+                  jp === query;
 
-        row.style.display = match ? '' : 'none';
+        row.style.display = match ? "" : "none";
         if (match) visibleCount++;
       });
 

@@ -4,10 +4,17 @@ description: "Näin jaat lisäykset ja kavennukset tasaisesti kerrokselle. Kaava
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 6
-tags: ["lisää tasaisesti neuleessa", "kavenna tasaisesti", "lisäysten jakaminen", "kavennusten jakaminen"]
+tags:
+  [
+    "lisää tasaisesti neuleessa",
+    "kavenna tasaisesti",
+    "lisäysten jakaminen",
+    "kavennusten jakaminen",
+  ]
 lang: fi
 translationKey: "increase-decrease-evenly"
 ---
+
 "Lisää seuraavalla kerroksella 8 silmukkaa tasaisesti." Ohje jatkaa eteenpäin. Sinä jäät katsomaan puikkoa ja laskemaan päässä.
 
 Tarvitsitpa lisäyksiä tai kavennuksia, perusmatematiikka on sama: jaa nykyinen silmukkamäärä muutosten määrällä. Tulos kertoo, kuinka monta silmukkaa muotoilukohtien väliin tulee. Tässä kaava ja se ärsyttävä kohta, kun jako ei menekään tasan.

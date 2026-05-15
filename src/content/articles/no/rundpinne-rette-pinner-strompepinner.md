@@ -4,11 +4,18 @@ description: "Sammenlign rundpinner, rette pinner og strømpepinner. Lær hvilke
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 1
-tags: ["rundpinne vs rette pinner", "når bruke strømpepinner", "rundpinner eller rette pinner", "typer strikkepinner"]
+tags:
+  [
+    "rundpinne vs rette pinner",
+    "når bruke strømpepinner",
+    "rundpinner eller rette pinner",
+    "typer strikkepinner",
+  ]
 draft: false
 lang: no
 translationKey: "circular-vs-straight-vs-dpn"
 ---
+
 Tre pinnetyper finnes fordi ulike prosjekter krever ulike ting. Rette pinner håndterer flatt arbeid. Rundpinner håndterer flatt arbeid og rør. Strømpepinner håndterer små omkretser. Når den grunnlogikken sitter, blir pinnekjøp mye mindre overveldende.
 
 ## Rette pinner

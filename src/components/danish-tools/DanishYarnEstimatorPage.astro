@@ -1,0 +1,74 @@
+---
+import LocalizedToolPage from "../LocalizedToolPage.astro";
+import YarnEstimator from "../YarnEstimator.astro";
+import { danishToolAlternates, danishToolRoutes } from "../../i18n/danishTools";
+
+const faqs = [
+  {
+    q: "Hvordan ved jeg, hvor meget garn mit projekt kræver?",
+    a: "Din opskrift angiver normalt det samlede antal meter i materialelisten. Designer du uden opskrift, så slå gennemsnitlige garnmængder op for samme projekttype og størrelse. For de fleste beklædningsdele findes der ret faste intervaller.",
+  },
+  {
+    q: "Skal jeg købe ekstra garn?",
+    a: "Altid. Køb mindst ét nøgle ekstra, især hvis garnet har farveparti eller indfarvningsparti. Farvepartier kan variere en smule, og det kan være umuligt at finde samme parti senere, hvis det er udsolgt.",
+  },
+  {
+    q: "Hvad hvis min opskrift angiver yards eller kun gram?",
+    a: "Beregneren viser meter. Hvis opskriften bruger yards, så omregn først til meter. Hvis opskriften eller dit lager kun er angivet i gram, skal du kigge på banderolen og se, hvor mange meter der er pr. nøgle, og regne derfra. Vægt alene er ikke nok, for to nøgler på 50 g kan have meget forskellig løbelængde.",
+  },
+  {
+    q: "Påvirker garntykkelsen hvor meget jeg skal bruge?",
+    a: "Ja. Tyndere garn, som fingering eller sport, kræver flere meter til samme projekt end tykkere garn, som worsted eller bulky. Maskerne er mindre, så der skal flere til for at dække samme flade.",
+  },
+  {
+    q: "Kan jeg bruge et andet garn end opskriften anbefaler?",
+    a: "Ja, hvis strikkefastheden passer. Strik en strikkeprøve med erstatningsgarnet, tjek at du får samme maskeantal pr. 10 cm, og brug beregneren til at vurdere det samlede garnforbrug for det nye garn.",
+  },
+];
+---
+
+<LocalizedToolPage
+  title="Garnberegner: hvor meget garn skal jeg bruge?"
+  description="Beregn hvor meget garn dit strikkeprojekt kræver ud fra projekttype, størrelse og garntykkelse. Planlæg garnforbrug før du køber."
+  canonicalPath={danishToolRoutes.yarnEstimator}
+  lang="da"
+  alternates={danishToolAlternates.tool.yarnEstimator}
+  intro="Beregn hvor meget garn du skal bruge ud fra projekttype, størrelse og garntykkelse."
+  schemaName="Garnberegner"
+  schemaDescription="Beregner det omtrentlige antal meter garn til et strikkeprojekt ud fra projekttype, størrelse og garntykkelse."
+  faqs={faqs}
+  variant="rust"
+>
+  <div slot="tool">
+    <YarnEstimator lang="da" />
+  </div>
+
+  <div slot="content">
+    <h2>Sådan bruger du beregneren</h2>
+    <p>
+      Vælg projekttype, størrelse og garntykkelse. Beregneren giver en
+      omtrentlig garnmængde i meter. Brug den som udgangspunkt for planlægning,
+      og læg derefter en sikkerhedsmargen til, før du køber garn. At løbe tør
+      midt i projektet, når farvepartiet ikke længere kan findes, er en
+      klassiker.
+    </p>
+
+    <h2>Hvor meget garn skal jeg bruge?</h2>
+    <p>
+      Garnforbrug afhænger af tre ting: hvad du strikker, hvilken størrelse, og
+      hvilken garntykkelse. En voksensweater i fingering bruger groft sagt 1 200
+      til 1 500 meter. En hue i bulky kan nøjes med 100 meter. Hvis en opskrift
+      selv angiver meter, så brug dem først; beregneren er især nyttig, når du
+      planlægger uden opskrift eller vil tjekke, om en garnmængde virker
+      realistisk.
+    </p>
+
+    <h2>At læse en banderole</h2>
+    <p>
+      Hver banderole fortæller længden pr. nøgle. Når du har et anslået samlet
+      tal, deler du det med meter pr. nøgle på banderolen for at finde ud af,
+      hvor meget du skal købe. Har du mistet banderolen, så vej garnet på en
+      køkkenvægt og tjek producentens hjemmeside for meter pr. gram.
+    </p>
+  </div>
+</LocalizedToolPage>

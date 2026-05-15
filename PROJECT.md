@@ -1,6 +1,6 @@
 # KnitTools Website — Project Documentation
 
-> Tila 2026-05-03. Landing page on v11 retro-tyyliin (Lalezar display + General Sans body + Teko logo). Tool-sivut perivät samat fontit jaettujen CSS-muuttujien kautta. 38 SEO-artikkelia 5 kategoriassa julkaistu, regionaalinen hinnoittelu (US/EU/UK) käytössä, MailerLite-signup integroitu.
+> Tila 2026-05-14. Landing page on v11 retro-tyyliin (Lalezar display + General Sans body + Teko logo). Tool-sivut perivät samat fontit jaettujen CSS-muuttujien kautta. 38 SEO-artikkelia 5 kategoriassa julkaistu myös hollanniksi, regionaalinen hinnoittelu (US/EU/UK + maakohtaiset tierit) käytössä, MailerLite-signup integroitu.
 
 ## Overview
 
@@ -12,6 +12,7 @@ KnitTools on Android-neulontasovelluksen (pre-launch) markkinointisivusto + kuus
 - **Pro-hinta (default/US):** $9.99 launch → $12.99 kaksi kuukautta launchin jälkeen
 - **Pro-hinta (EU):** €8.99 → €11.99
 - **Pro-hinta (UK):** £7.99 → £10.99
+- **Pro-hinnat (maakohtaiset tierit):** NO, SE, DK, IS, CH, CA, AU, NZ, JP, BR, IN, MX, ZA
 - **Trial:** 14 päivää, ei luottokorttia
 - **Launch-kuukausi (UI-merkkijono):** "May 2026"
 - **Riippuvuudet (`package.json`):** `astro ^6.1.3`, `@astrojs/sitemap ^3.7.2`, `sharp ^0.33.5`, `gsap ^3.15.0`
@@ -35,6 +36,11 @@ KnitTools on Android-neulontasovelluksen (pre-launch) markkinointisivusto + kuus
 | `/articles` | Artikkelilista (5 kategoriasectionia) |
 | `/articles/[...slug]` | Yksittäinen artikkeli |
 | `/articles/category/[slug]` | Kategorian arkistosivu (5 kategoriaa) |
+| `/nl/breitools/` | Hollanninkielinen tools bento |
+| `/nl/breitools/[slug]` | Hollanninkieliset työkalusivut (6) |
+| `/nl/artikelen/` | Hollanninkielinen artikkelilista |
+| `/nl/artikelen/[...slug]` | Hollanninkielinen artikkeli |
+| `/nl/artikelen/categorie/[slug]` | Hollanninkielinen kategoria |
 
 ---
 
@@ -46,7 +52,7 @@ BaseLayout.astro
  │  fonttien preload (lalezar.woff2, general-sans-400/500.woff2, teko-500-subset.woff2)
  ├─ <body class={bodyClass}>: skip-link, .page-wrapper, IntersectionObserver
  │  .reveal-luokille, regionaalisen hinnan client-script (Cloudflare /cdn-cgi/trace
- │  → tier-resoluutio → data-{us|eu|uk|default} -attribuutteihin)
+ │  → tier-resoluutio → RegionalPrice-komponentin data-{tier}-attribuutteihin)
  └─ PageLayout.astro (Navbar + <main id="main-content"> + Footer)
      └─ index.astro            → Hero, Marquee, NineTools, FreeToolsCallout,
      │                           TrustSection, PullQuote, PricingCards, ClosingCTA
@@ -54,6 +60,8 @@ BaseLayout.astro
      └─ tools/<slug>.astro     → Tool-sivu (cream hero, calc/chart, SEO, FAQ, CTA)
      └─ articles/index.astro   → Kategoria-sectionit + ClosingCTA
      └─ articles/category/[slug].astro → ArticleCard-grid
+     └─ nl/breitools/[...slug].astro → NL tools index + 6 tool pages
+     └─ nl/artikelen/[...slug].astro → NL article index/category/detail
      └─ ArticleLayout.astro    → yksittäinen artikkeli (.prose-typografia)
 ```
 
@@ -243,8 +251,8 @@ Paper-tausta, 1px ink top-border, 80px-padding desktop, kompakti mob.
 - `languages`-array (11 kieltä) on koodissa mutta ei renderöidy
 
 ### RegionalPrice + RegionalPricingNote
-- `RegionalPrice.astro` renderöi `<span data-regional-price={phase} data-us=... data-eu=... data-uk=... data-default=...>`-elementin oletuksena US-hinnalla. `BaseLayout`-skripti hakee Cloudflare `/cdn-cgi/trace` -loc-koodin (1.2 s timeout, fallback `navigator.languages` -region), mappaa countryn tieriin (`COUNTRY_TO_TIER`-taulukko `pricing.ts`:ssa), ja päivittää `textContent`-arvon.
-- `RegionalPricingNote.astro`: `<span data-regional-pricing-note hidden>Pricing on Google Play in your local currency.</span>` — näkyväksi kun tier === `default` (eli ei ole US/EU/UK).
+- `RegionalPrice.astro` renderöi `<span data-regional-price={phase} data-{tier}=...>`-elementin oletuksena US-hinnalla. `BaseLayout`-skripti hakee Cloudflare `/cdn-cgi/trace` -loc-koodin (1.2 s timeout, fallback `navigator.languages` -region), mappaa countryn tieriin (`COUNTRY_TO_TIER`-taulukko `pricing.ts`:ssa), ja päivittää `textContent`-arvon.
+- `RegionalPricingNote.astro`: `<span data-regional-pricing-note hidden>Pricing on Google Play in your local currency.</span>` — näkyväksi kun tier === `default` (eli maa tunnistuu mutta sille ei ole omaa tieriä).
 
 ### PhoneMockup ja muut käyttämättömät
 **Käytössä:** `Hero`, `Marquee`, `PullQuote`, `NineTools`, `FreeToolsCallout`, `TrustSection`, `PricingCards`, `ClosingCTA`, `RegionalPrice`, `RegionalPricingNote`, `Navbar`, `Footer`, `ArticleCard`, `ToolCard`, `CastOnCalculator`, `YarnEstimator`.
@@ -260,10 +268,23 @@ PRICING_TIERS = {
   US:      { launch: '$9.99', permanent: '$12.99' },
   EU:      { launch: '€8.99', permanent: '€11.99' },
   UK:      { launch: '£7.99', permanent: '£10.99' },
+  NO:      { launch: 'NOK 99', permanent: 'NOK 129' },
+  SE:      { launch: 'SEK 99', permanent: 'SEK 129' },
+  DK:      { launch: 'DKK 69', permanent: 'DKK 89' },
+  IS:      { launch: 'ISK 1290', permanent: 'ISK 1690' },
+  CH:      { launch: 'CHF 9.90', permanent: 'CHF 12.90' },
+  CA:      { launch: 'CAD 13.99', permanent: 'CAD 17.99' },
+  AU:      { launch: 'AUD 14.99', permanent: 'AUD 18.99' },
+  NZ:      { launch: 'NZD 16.99', permanent: 'NZD 21.99' },
+  JP:      { launch: 'JPY 1500', permanent: 'JPY 1980' },
+  BR:      { launch: 'BRL 24.90', permanent: 'BRL 32.90' },
+  IN:      { launch: 'INR 299', permanent: 'INR 399' },
+  MX:      { launch: 'MXN 99', permanent: 'MXN 139' },
+  ZA:      { launch: 'ZAR 99', permanent: 'ZAR 139' },
   default: { launch: '$9.99', permanent: '$12.99' },
 }
 DEFAULT_PRICING_TIER  = 'US'      // SSR-renderöinnin lähtöarvo
-FALLBACK_PRICING_TIER = 'default' // jos country tunnistuu mutta ei ole US/EU/UK
+FALLBACK_PRICING_TIER = 'default' // jos country tunnistuu mutta sille ei ole omaa tieriä
 PRICING.trialDays = 14
 PRICING.permanentPriceStartsAfterMonths = 2
 PRICING.launchMonthLabel = 'May 2026'
@@ -271,7 +292,8 @@ LOCAL_CURRENCY_NOTE = 'Pricing on Google Play in your local currency.'
 ```
 
 **EU-tieriin mappaavat maat:** AT, BE, HR, CY, EE, FI, FR, DE, GR, IE, IT, LV, LT, LU, MT, NL, PT, SK, SI, ES.
-**UK:** GB. **US:** US. **Muut:** `default`-tier (US-hinnoittelu + näkyvä `RegionalPricingNote`).
+**UK:** GB. **US:** US. **Maakohtaiset tierit:** NO, SE, DK, IS, CH, CA, AU, NZ, JP, BR, IN, MX, ZA.
+**Muut:** `default`-tier (US-hinnoittelu + näkyvä `RegionalPricingNote`).
 
 `getStructuredPrice()` palauttaa aina USD-arvon JSON-LD:n `offers.price`-kenttään, irti UI-tieristä.
 

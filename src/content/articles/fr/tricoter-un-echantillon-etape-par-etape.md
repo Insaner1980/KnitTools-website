@@ -4,11 +4,18 @@ description: "Guide rapide et pratique pour tricoter un échantillon : montage, 
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 4
-tags: ["échantillon tricot", "comment tricoter un échantillon", "échantillon tricot étape par étape", "faire un échantillon"]
+tags:
+  [
+    "échantillon tricot",
+    "comment tricoter un échantillon",
+    "échantillon tricot étape par étape",
+    "faire un échantillon",
+  ]
 draft: false
 lang: fr
 translationKey: "gauge-swatch-step-by-step"
 ---
+
 Un échantillon est un carré test tricoté avec le fil et le point du projet, lavé et bloqué, puis mesuré sur 10 cm pour vérifier si tes mailles correspondent aux exigences du modèle. Voici le mode d'emploi pratique. Si tu veux comprendre pourquoi l'échantillon compte et quoi faire quand il ne correspond pas, le [guide de l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/) couvre l'ensemble. Cette page est pour le moment où tu sais déjà pourquoi et veux juste les étapes.
 
 ## Ce qu'il te faut

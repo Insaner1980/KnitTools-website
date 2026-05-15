@@ -4,11 +4,18 @@ description: "Praktischer Leitfaden für Strickzubehör: Maschenmarkierer, Wolln
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 6
-tags: ["Strickzubehör", "Strickzubehör Anfänger", "Strickwerkzeug Liste", "Strickzubehör Grundausstattung"]
+tags:
+  [
+    "Strickzubehör",
+    "Strickzubehör Anfänger",
+    "Strickwerkzeug Liste",
+    "Strickzubehör Grundausstattung",
+  ]
 draft: false
 lang: de
 translationKey: "essential-knitting-tools"
 ---
+
 Nadeln und Garn sind das Minimum. Alles andere im Strickwerkzeug macht den Prozess glatter, schneller oder weniger fehleranfällig. Besonders am Anfang, wenn du deine erste Ausstattung zusammenstellst. Manche Werkzeuge sind ab Tag eins wirklich nötig. Andere verdienen ihren Platz nach ein paar Projekten. Und manche sind Lösungen für Probleme, die du vielleicht nicht hast.
 
 Ab dem ersten Tag brauchst du Wollnadeln, Schere, Maschenmarkierer und ein Maßband. Alles andere kann warten, bis ein konkretes Projekt es verlangt. Ungefähr in der Reihenfolge, in der du es brauchen wirst:

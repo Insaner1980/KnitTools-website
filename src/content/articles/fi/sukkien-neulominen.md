@@ -4,10 +4,18 @@ description: "Ymmärrä neulotun sukan osat ja ohjeiden logiikka. Varsi alaspäi
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 13
-tags: ["sukkien neulominen", "sukkaohje", "neulo sukat aloittelijalle", "sukan rakenne", "kantapään neulominen"]
+tags:
+  [
+    "sukkien neulominen",
+    "sukkaohje",
+    "neulo sukat aloittelijalle",
+    "sukan rakenne",
+    "kantapään neulominen",
+  ]
 lang: fi
 translationKey: "how-to-knit-socks"
 ---
+
 Sukat näyttävät pelottavilta, koska niissä tulee vastaan tekniikoita, joita huiveissa ja pipoissa ei tarvita: kantapään kääntäminen, kiilasilmukoiden poimiminen, kärjen silmukointi Kitchener stitch -tekniikalla. Mutta sukan jokainen osa on yksinään melko suoraviivainen. Vaikeus on siinä, miten osat liittyvät toisiinsa, ei itse neulomisessa.
 
 Neulotussa sukassa on kuusi osaa: resori, varsi, kantapää, kiila, jalkaterä ja kärki. Sukan voi neuloa joko varresta kärkeen eli perinteisesti ylhäältä alas tai kärjestä varteen. Kun rakenne on selvä, mikä tahansa sukkaohje muuttuu vähemmän salaperäiseksi.

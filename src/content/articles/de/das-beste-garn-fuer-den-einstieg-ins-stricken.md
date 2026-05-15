@@ -4,11 +4,18 @@ description: "Wähle ein gutes Garn zum Strickenlernen: Garnstärke, Faser, Farb
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 1
-tags: ["Garn für Anfänger", "Anfängergarn Stricken", "mit welchem Garn Stricken lernen", "erstes Strickprojekt Garn"]
+tags:
+  [
+    "Garn für Anfänger",
+    "Anfängergarn Stricken",
+    "mit welchem Garn Stricken lernen",
+    "erstes Strickprojekt Garn",
+  ]
 draft: false
 lang: de
 translationKey: "best-yarn-for-beginners"
 ---
+
 Das Garnregal ist überwältigend, wenn du noch nicht weißt, was du vor dir hast. Wände voller Farben, unterschiedliche Stärken, Banderolen mit unbekannten Begriffen. Das beste Garn zum Strickenlernen ist Worsted-Garn, also CYC-Kategorie 4, in einer hellen, einfarbigen Farbe: Acryl, wenn das Budget zählt, oder eine Woll-Acryl-Mischung, wenn es sich angenehmer anfühlen soll. Dazu passen Bambus- oder Holznadeln in 4,5-5,5 mm. Für das erste Projekt ist die Wahl einfacher, als sie aussieht.
 
 Du brauchst ein Garn, das Fehler verzeiht, sich gut greifen lässt und günstig genug ist, dass Aufribbeln nicht wehtut.

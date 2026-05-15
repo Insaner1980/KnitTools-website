@@ -4,10 +4,17 @@ description: "Opi yhdistämään neulekappaleet patjapistolla, yliluottelupistol
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 10
-tags: ["neulekappaleiden yhdistäminen", "patjapisto neuleessa", "neulepalojen yhdistäminen", "neuleen ompeleminen yhteen"]
+tags:
+  [
+    "neulekappaleiden yhdistäminen",
+    "patjapisto neuleessa",
+    "neulepalojen yhdistäminen",
+    "neuleen ompeleminen yhteen",
+  ]
 lang: fi
 translationKey: "seam-knitted-pieces"
 ---
+
 Saumaaminen on neulomisen vähiten hohdokas osa ja se, jota lykätään helpoimmin. Valmiiden villapaitakappaleiden pino voi maata projektipussissa viikkoja, koska niiden ompeleminen yhteen ei varsinaisesti houkuttele. Hyvä sauma on kuitenkin näkymätön, ja huono sauma voi pilata muuten hyvin neulotun vaatteen.
 
 Patjapisto tekee näkymättömän sauman poimimalla vaakalankoja yhden silmukan päässä kummankin kappaleen reunasta ja vetämällä ne yhteen niin, että liitos näyttää yhtenäiseltä neulepinnalta. Käytettävä tapa riippuu sauman suunnasta: pystysuorat reunat, kuten sivusaumat, vaakasuorat reunat, kuten olkasaumat, tai muotoillut kappaleet aukkoihin, kuten hihat.

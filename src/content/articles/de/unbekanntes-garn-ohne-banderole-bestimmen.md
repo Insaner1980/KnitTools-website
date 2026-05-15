@@ -4,11 +4,18 @@ description: "So schätzt du Garn ohne Banderole ein: WPI-Messung, Brennprobe, W
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 9
-tags: ["unbekanntes Garn", "Garn ohne Banderole", "Brennprobe Garn", "WPI Garnstärke"]
+tags:
+  [
+    "unbekanntes Garn",
+    "Garn ohne Banderole",
+    "Brennprobe Garn",
+    "WPI Garnstärke",
+  ]
 draft: false
 lang: de
 translationKey: "identify-mystery-yarn"
 ---
+
 Fast alle Strickenden sammeln irgendwann unbekanntes Garn an. Die Banderole ist abgefallen, das Garn stammt aus dem Vorrat einer anderen Person, oder das Knäuel hatte von Anfang an kaum Informationen. Flohmarktbeutel, geerbte Garne, Reste aus Tauschpaketen.
 
 Um unbekanntes Garn einzuschätzen, fang mit Wraps per Inch (WPI) an, um die Garnstärke grob zu bestimmen. Danach helfen Brennprobe und Wassertest, die Faserfamilie einzugrenzen. Die genaue Marke oder den exakten Prozentanteil findest du nicht immer heraus, aber Garnstärke und grober Fasertyp reichen meist.

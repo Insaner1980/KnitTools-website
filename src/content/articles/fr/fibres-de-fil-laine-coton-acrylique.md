@@ -4,7 +4,13 @@ description: "Différences entre laine, coton, acrylique et mélanges au tricot 
 publishDate: 2026-05-01
 category: "yarn"
 categoryOrder: 8
-tags: ["fibres de fil", "laine ou coton tricot", "acrylique ou laine", "choisir un fil"]
+tags:
+  [
+    "fibres de fil",
+    "laine ou coton tricot",
+    "acrylique ou laine",
+    "choisir un fil",
+  ]
 draft: false
 lang: fr
 translationKey: "yarn-fibers-compared"

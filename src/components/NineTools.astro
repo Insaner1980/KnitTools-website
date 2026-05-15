@@ -1,110 +1,103 @@
 ---
-import RegionalPrice from './RegionalPrice.astro';
+import RegionalPrice from "./RegionalPrice.astro";
 
 const languages = [
-  'English',
-  'Suomi',
-  'Svenska',
-  'Dansk',
-  'Norsk',
-  'Nederlands',
-  'Deutsch',
-  'Français',
-  'Italiano',
-  'Português',
-  'Español',
+  "English",
+  "Suomi",
+  "Svenska",
+  "Dansk",
+  "Norsk",
+  "Nederlands",
+  "Deutsch",
+  "Français",
+  "Italiano",
+  "Português",
+  "Español",
 ];
 
 const cards = [
   {
-    tag: 'Counter',
-    tier: 'free',
-    title: 'Row counter with memory',
-    body:
-      'A big round button where your thumb already is. Tap without looking. Miscount? Undo. Say "add three" or "next row" without putting your needles down.',
+    tag: "Counter",
+    tier: "free",
+    title: "Row counter with memory",
+    body: 'A big round button where your thumb already is. Tap without looking. Miscount? Undo. Say "add three" or "next row" without putting your needles down.',
     chips: true,
     span: 2,
   },
   {
-    tag: 'Pattern',
-    tier: 'free',
-    title: 'Pattern viewer that follows along',
-    body:
-      'PDF or Ravelry pull-in. Annotate rows, mark your place, find your way back when life interrupts.',
-    tint: 'amber',
+    tag: "Pattern",
+    tier: "free",
+    title: "Pattern viewer that follows along",
+    body: "PDF or Ravelry pull-in. Annotate rows, mark your place, find your way back when life interrupts.",
+    tint: "amber",
   },
   {
-    tag: 'Calc',
-    tier: 'free',
-    title: 'Four calculators, quietly working',
-    body: 'Cast on, gauge, increases, yardage. The math your knitting already asked you to do.',
+    tag: "Calc",
+    tier: "free",
+    title: "Four calculators, quietly working",
+    body: "Cast on, gauge, increases, yardage. The math your knitting already asked you to do.",
   },
   {
-    tag: 'Ravelry',
-    tier: 'free',
-    title: 'Ravelry, the way it should feel',
-    body:
-      'Search, save, start a project in one tap. Log in through Ravelry itself. Your password never touches this app.',
-    tint: 'walnut',
+    tag: "Ravelry",
+    tier: "free",
+    title: "Ravelry, the way it should feel",
+    body: "Search, save, start a project in one tap. Log in through Ravelry itself. Your password never touches this app.",
+    tint: "walnut",
   },
   {
-    tag: 'Reference',
-    tier: 'free',
-    title: 'Reference, one tap away',
-    body:
-      'Needles, sizes, chart symbols, abbreviations. Right there in your library, before you remember you needed it.',
+    tag: "Reference",
+    tier: "free",
+    title: "Reference, one tap away",
+    body: "Needles, sizes, chart symbols, abbreviations. Right there in your library, before you remember you needed it.",
   },
   {
-    tag: 'Stash',
-    tier: 'pro',
-    title: 'Yarn scanner for the label graveyard',
-    body:
-      'Point the camera at the ball band. AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo. That mystery skein finally has a name.',
-    tint: 'sage',
+    tag: "Stash",
+    tier: "pro",
+    title: "Yarn scanner for the label graveyard",
+    body: "Point the camera at the ball band. AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo. That mystery skein finally has a name.",
+    tint: "sage",
     span: 2,
   },
   {
-    tag: 'Photos',
-    tier: 'pro',
-    title: 'Progress photos, just for you',
-    body: 'One folder per project. Full resolution, on your device, nothing uploaded anywhere.',
+    tag: "Photos",
+    tier: "pro",
+    title: "Progress photos, just for you",
+    body: "One folder per project. Full resolution, on your device, nothing uploaded anywhere.",
   },
   {
-    tag: 'Insights',
-    tier: 'pro',
-    title: 'Insights without the pressure',
-    body:
-      'Hours at the needles. Rows per hour. Streaks. No leaderboards, no nudges, no comparing. The stats are yours.',
+    tag: "Insights",
+    tier: "pro",
+    title: "Insights without the pressure",
+    body: "Hours at the needles. Rows per hour. Streaks. No leaderboards, no nudges, no comparing. The stats are yours.",
   },
   {
-    tag: 'Widget',
-    tier: 'pro',
-    title: 'A widget on your home screen',
-    body:
-      'Tap to count. No app launch, no loading. The exact amount of friction a row counter should have, which is zero.',
-    tint: 'terracotta',
+    tag: "Widget",
+    tier: "pro",
+    title: "A widget on your home screen",
+    body: "Tap to count. No app launch, no loading. The exact amount of friction a row counter should have, which is zero.",
+    tint: "terracotta",
   },
 ];
 
-const freeCards = cards.filter((c) => c.tier === 'free');
-const proCards = cards.filter((c) => c.tier === 'pro');
+const freeCards = cards.filter((c) => c.tier === "free");
+const proCards = cards.filter((c) => c.tier === "pro");
 
 const aiFeatures = [
   {
-    t: 'Live voice on the counter',
+    t: "Live voice on the counter",
     d: 'Say "next row", "set row to 100", or ask "what\'s sl1 k2tog psso" without putting the needles down. Basic commands stay offline.',
   },
   {
-    t: 'Pattern intelligence',
-    d: 'Pattern viewer reads each row aloud for you. Tap any instruction for a plain-language explanation. Paste a gnarly increase sentence and the calculator fills itself.',
+    t: "Pattern intelligence",
+    d: "Pattern viewer reads each row aloud for you. Tap any instruction for a plain-language explanation. Paste a gnarly increase sentence and the calculator fills itself.",
   },
   {
-    t: 'Stash and project memory',
-    d: 'Scan a yarn label. Fiber, weight, meters, dye lot filed automatically. Ask for a project summary and the AI picks up where you left off, yarn compatibility and all.',
+    t: "Stash and project memory",
+    d: "Scan a yarn label. Fiber, weight, meters, dye lot filed automatically. Ask for a project summary and the AI picks up where you left off, yarn compatibility and all.",
   },
   {
-    t: 'Voice or text journal',
-    d: 'Mumble a session note into the mic or type a quick line. The AI adds date and row, keeps your own words intact.',
+    t: "Voice or text journal",
+    d: "Mumble a session note into the mic or type a quick line. The AI adds date and row, keeps your own words intact.",
   },
 ];
 ---
@@ -115,11 +108,15 @@ const aiFeatures = [
       <p class="section-label">
         <span class="label-text">Features</span>
       </p>
-      <h2 id="nine-heading" class="title">Every tool,<br /><em>talking to each other.</em></h2>
+      <h2 id="nine-heading" class="title">
+        Every tool,<br /><em>talking to each other.</em>
+      </h2>
     </header>
 
     <p class="manifesto">
-      The row you were on, the yarn you forgot, the pattern that made no sense at midnight. <em>KnitTools remembers it all,</em> so the only thing you do is keep knitting.
+      The row you were on, the yarn you forgot, the pattern that made no sense
+      at midnight. <em>KnitTools remembers it all,</em> so the only thing you do is
+      keep knitting.
     </p>
 
     <div class="tier-head" aria-hidden="true">
@@ -131,7 +128,13 @@ const aiFeatures = [
     <div class="nine-grid">
       {
         freeCards.map((c) => (
-          <article class:list={['tool-card', c.tint && `tint-${c.tint}`, c.span === 2 && 'span-2']}>
+          <article
+            class:list={[
+              "tool-card",
+              c.tint && `tint-${c.tint}`,
+              c.span === 2 && "span-2",
+            ]}
+          >
             <div class="card-meta">
               <span class="tag">{c.tag}</span>
             </div>
@@ -158,7 +161,13 @@ const aiFeatures = [
     <div class="nine-grid">
       {
         proCards.slice(0, 2).map((c) => (
-          <article class:list={['tool-card', c.tint && `tint-${c.tint}`, c.span === 2 && 'span-2']}>
+          <article
+            class:list={[
+              "tool-card",
+              c.tint && `tint-${c.tint}`,
+              c.span === 2 && "span-2",
+            ]}
+          >
             <div class="card-meta">
               <span class="tag">{c.tag}</span>
             </div>
@@ -172,7 +181,7 @@ const aiFeatures = [
     <div class="nine-grid nine-grid-halves">
       {
         proCards.slice(2).map((c) => (
-          <article class:list={['tool-card', c.tint && `tint-${c.tint}`]}>
+          <article class:list={["tool-card", c.tint && `tint-${c.tint}`]}>
             <div class="card-meta">
               <span class="tag">{c.tag}</span>
             </div>
@@ -193,8 +202,8 @@ const aiFeatures = [
             <div class="intro-text">
               <h3>AI that <em>knows knitting</em></h3>
               <p>
-                Voice that listens, eyes that read, memory that connects the dots across your projects. In all eleven
-                languages.
+                Voice that listens, eyes that read, memory that connects the
+                dots across your projects. In all eleven languages.
               </p>
             </div>
             <div class="mic-area" aria-hidden="true">
@@ -202,10 +211,19 @@ const aiFeatures = [
                 <span class="mic-ring"></span>
                 <span class="mic-ring"></span>
                 <span class="mic-ring"></span>
-                <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <rect x="9" y="2" width="6" height="12" rx="3" />
-                  <path d="M5 10a7 7 0 0 0 14 0" />
-                  <line x1="12" y1="19" x2="12" y2="22" />
+                <svg
+                  class="mic-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect x="9" y="2" width="6" height="12" rx="3"></rect>
+                  <path d="M5 10a7 7 0 0 0 14 0"></path>
+                  <line x1="12" y1="19" x2="12" y2="22"></line>
                 </svg>
               </div>
               <span class="bc-status">Listening</span>
@@ -233,7 +251,9 @@ const aiFeatures = [
 
           <div class="bc-right">
             <div class="bc-meta">
-              <span class="bc-live"><span class="bc-dot"></span>Transcript · Live</span>
+              <span class="bc-live"
+                ><span class="bc-dot"></span>Transcript · Live</span
+              >
               <span class="bc-row">Row 85</span>
             </div>
             <div class="bc-dialogue">
@@ -324,72 +344,116 @@ const aiFeatures = [
     letter-spacing: 0.1em;
     text-transform: uppercase;
   }
-  .tier-head-pro { margin-top: 64px; }
-  .tier-head .tier-label { color: var(--terracotta); white-space: nowrap; }
-  .tier-head .tier-count { color: var(--ink-soft); white-space: nowrap; }
-  .tier-head .tier-line { flex: 1; height: 1px; background: var(--ink); opacity: 0.4; }
+  .tier-head-pro {
+    margin-top: 64px;
+  }
+  .tier-head .tier-label {
+    color: var(--terracotta);
+    white-space: nowrap;
+  }
+  .tier-head .tier-count {
+    color: var(--ink-soft);
+    white-space: nowrap;
+  }
+  .tier-head .tier-line {
+    flex: 1;
+    height: 1px;
+    background: var(--ink);
+    opacity: 0.4;
+  }
 
   .nine-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
-  .nine-grid + .nine-grid { margin-top: 20px; }
-  .nine-grid-halves { grid-template-columns: repeat(2, 1fr); }
-  .nine-grid + .tier-head-pro { margin-top: 48px; }
+  .nine-grid + .nine-grid {
+    margin-top: 20px;
+  }
+  .nine-grid-halves {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nine-grid + .tier-head-pro {
+    margin-top: 48px;
+  }
 
   .tool-card {
     background: var(--wheat);
-    color: #2A1E17;
-    border: 1px solid #2A1E17;
+    color: #2a1e17;
+    border: 1px solid #2a1e17;
     padding: 28px 28px 32px;
     display: flex;
     flex-direction: column;
     gap: 12px;
     border-radius: 0;
   }
-  .tool-card.wide { grid-column: 1 / -1; }
-  .tool-card.span-2 { grid-column: span 2; }
+  .tool-card.wide {
+    grid-column: 1 / -1;
+  }
+  .tool-card.span-2 {
+    grid-column: span 2;
+  }
 
   .tool-card.tint-sage {
     background: var(--sage);
-    color: #F4EAD9;
+    color: #f4ead9;
     border-color: var(--sage);
   }
-  .tool-card.tint-sage h3 { color: #F4EAD9; }
-  .tool-card.tint-sage p { color: rgba(244, 234, 217, 0.9); }
+  .tool-card.tint-sage h3 {
+    color: #f4ead9;
+  }
+  .tool-card.tint-sage p {
+    color: rgba(244, 234, 217, 0.9);
+  }
 
   .tool-card.tint-walnut {
     background: var(--walnut);
-    color: #F4EAD9;
+    color: #f4ead9;
     border-color: var(--walnut);
   }
-  .tool-card.tint-walnut h3 { color: #F4EAD9; }
-  .tool-card.tint-walnut p { color: rgba(244, 234, 217, 0.88); }
+  .tool-card.tint-walnut h3 {
+    color: #f4ead9;
+  }
+  .tool-card.tint-walnut p {
+    color: rgba(244, 234, 217, 0.88);
+  }
 
   .tool-card.tint-amber {
     background: var(--amber);
-    color: #F4EAD9;
+    color: #f4ead9;
     border-color: var(--amber);
   }
-  .tool-card.tint-amber h3 { color: #F4EAD9; }
-  .tool-card.tint-amber p { color: rgba(244, 234, 217, 0.92); }
+  .tool-card.tint-amber h3 {
+    color: #f4ead9;
+  }
+  .tool-card.tint-amber p {
+    color: rgba(244, 234, 217, 0.92);
+  }
 
   .tool-card.tint-terracotta {
-    background: #A05038;
-    color: #F4EAD9;
-    border-color: #A05038;
+    background: #a05038;
+    color: #f4ead9;
+    border-color: #a05038;
   }
-  .tool-card.tint-terracotta h3 { color: #F4EAD9; }
-  .tool-card.tint-terracotta p { color: rgba(244, 234, 217, 0.92); }
+  .tool-card.tint-terracotta h3 {
+    color: #f4ead9;
+  }
+  .tool-card.tint-terracotta p {
+    color: rgba(244, 234, 217, 0.92);
+  }
 
   .tool-card.tint-ink {
     background: var(--ink);
     color: var(--paper);
     border-color: var(--ink);
   }
-  .tool-card.tint-ink h3 { color: var(--paper); }
-  .tool-card.tint-ink p { color: var(--paper); opacity: 0.85; }
+  .tool-card.tint-ink h3 {
+    color: var(--paper);
+  }
+  .tool-card.tint-ink p {
+    color: var(--paper);
+    opacity: 0.85;
+  }
 
   .card-meta {
     display: flex;
@@ -402,7 +466,7 @@ const aiFeatures = [
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #2A1E17;
+    color: #2a1e17;
   }
   .pill {
     font-family: var(--font-body);
@@ -439,13 +503,13 @@ const aiFeatures = [
     letter-spacing: -0.01em;
     text-transform: none;
     margin: 0;
-    color: #2A1E17;
+    color: #2a1e17;
   }
   .tool-card p {
     font-family: var(--body-ed);
     font-size: 15px;
     line-height: 1.55;
-    color: #2A1E17;
+    color: #2a1e17;
     margin: 0;
   }
 
@@ -504,10 +568,10 @@ const aiFeatures = [
     letter-spacing: -0.01em;
     text-transform: none;
     margin: 0 0 14px;
-    color: #F4EAD9;
+    color: #f4ead9;
   }
   .ai-intro h3 em {
-    color: #F4EAD9;
+    color: #f4ead9;
     font-style: italic;
   }
   .ai-intro p {
@@ -519,27 +583,61 @@ const aiFeatures = [
     max-width: 360px;
   }
   @keyframes wave-a {
-    0%, 100% { transform: scaleY(0.22); }
-    50%      { transform: scaleY(1.2); }
+    0%,
+    100% {
+      transform: scaleY(0.22);
+    }
+    50% {
+      transform: scaleY(1.2);
+    }
   }
   @keyframes wave-b {
-    0%, 100% { transform: scaleY(0.3); }
-    32%      { transform: scaleY(0.65); }
-    58%      { transform: scaleY(1.15); }
-    82%      { transform: scaleY(0.4); }
+    0%,
+    100% {
+      transform: scaleY(0.3);
+    }
+    32% {
+      transform: scaleY(0.65);
+    }
+    58% {
+      transform: scaleY(1.15);
+    }
+    82% {
+      transform: scaleY(0.4);
+    }
   }
   @keyframes wave-c {
-    0%, 100% { transform: scaleY(0.18); }
-    22%      { transform: scaleY(1.05); }
-    44%      { transform: scaleY(0.32); }
-    70%      { transform: scaleY(1.35); }
-    88%      { transform: scaleY(0.55); }
+    0%,
+    100% {
+      transform: scaleY(0.18);
+    }
+    22% {
+      transform: scaleY(1.05);
+    }
+    44% {
+      transform: scaleY(0.32);
+    }
+    70% {
+      transform: scaleY(1.35);
+    }
+    88% {
+      transform: scaleY(0.55);
+    }
   }
   @keyframes wave-d {
-    0%, 100% { transform: scaleY(0.42); }
-    18%      { transform: scaleY(0.85); }
-    48%      { transform: scaleY(0.28); }
-    76%      { transform: scaleY(1.22); }
+    0%,
+    100% {
+      transform: scaleY(0.42);
+    }
+    18% {
+      transform: scaleY(0.85);
+    }
+    48% {
+      transform: scaleY(0.28);
+    }
+    76% {
+      transform: scaleY(1.22);
+    }
   }
 
   .ai-list {
@@ -562,7 +660,7 @@ const aiFeatures = [
     font-weight: 600;
     font-size: 15px;
     line-height: 1.3;
-    color: #F4EAD9;
+    color: #f4ead9;
     margin-bottom: 4px;
   }
   .ai-list .d {
@@ -592,7 +690,7 @@ const aiFeatures = [
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #F4EAD9;
+    color: #f4ead9;
   }
   .mic-icon {
     width: 34px;
@@ -603,19 +701,33 @@ const aiFeatures = [
   .mic-ring {
     position: absolute;
     inset: 0;
-    border: 1.5px solid #F4EAD9;
+    border: 1.5px solid #f4ead9;
     border-radius: 50%;
     opacity: 0;
     transform: scale(1);
     animation: sonar 2.6s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
   }
-  .mic-ring:nth-child(1) { animation-delay: 0s; }
-  .mic-ring:nth-child(2) { animation-delay: 0.85s; }
-  .mic-ring:nth-child(3) { animation-delay: 1.7s; }
+  .mic-ring:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .mic-ring:nth-child(2) {
+    animation-delay: 0.85s;
+  }
+  .mic-ring:nth-child(3) {
+    animation-delay: 1.7s;
+  }
   @keyframes sonar {
-    0%   { transform: scale(1);    opacity: 0.7; }
-    80%  { opacity: 0; }
-    100% { transform: scale(2.6);  opacity: 0; }
+    0% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      transform: scale(2.6);
+      opacity: 0;
+    }
   }
   .bc-status {
     font-family: var(--font-body);
@@ -623,7 +735,7 @@ const aiFeatures = [
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #F4EAD9;
+    color: #f4ead9;
     opacity: 0.82;
   }
 
@@ -638,7 +750,7 @@ const aiFeatures = [
     display: block;
     flex: 1 1 0;
     min-width: 2px;
-    background: #F4EAD9;
+    background: #f4ead9;
     border-radius: 2px;
     transform-origin: center;
     animation-name: wave-a;
@@ -647,9 +759,15 @@ const aiFeatures = [
     animation-iteration-count: infinite;
     animation-delay: var(--wave-delay, 0s);
   }
-  .big-wave :global(span.v-b) { animation-name: wave-b; }
-  .big-wave :global(span.v-c) { animation-name: wave-c; }
-  .big-wave :global(span.v-d) { animation-name: wave-d; }
+  .big-wave :global(span.v-b) {
+    animation-name: wave-b;
+  }
+  .big-wave :global(span.v-c) {
+    animation-name: wave-c;
+  }
+  .big-wave :global(span.v-d) {
+    animation-name: wave-d;
+  }
 
   .bc-right {
     min-width: 0;
@@ -666,9 +784,13 @@ const aiFeatures = [
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #F4EAD9;
+    color: #f4ead9;
   }
-  .bc-live { display: inline-flex; align-items: center; gap: 8px; }
+  .bc-live {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
   .bc-dot {
     width: 8px;
     height: 8px;
@@ -678,11 +800,19 @@ const aiFeatures = [
     animation: dotPulse 1.6s ease-out infinite;
   }
   @keyframes dotPulse {
-    0%   { box-shadow: 0 0 0 0 rgba(194, 112, 62, 0.7); }
-    70%  { box-shadow: 0 0 0 10px rgba(194, 112, 62, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(194, 112, 62, 0); }
+    0% {
+      box-shadow: 0 0 0 0 rgba(194, 112, 62, 0.7);
+    }
+    70% {
+      box-shadow: 0 0 0 10px rgba(194, 112, 62, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(194, 112, 62, 0);
+    }
   }
-  .bc-row { opacity: 0.7; }
+  .bc-row {
+    opacity: 0.7;
+  }
 
   .bc-dialogue {
     display: flex;
@@ -703,33 +833,48 @@ const aiFeatures = [
     letter-spacing: 0.1em;
     text-transform: uppercase;
   }
-  .bc-line.you .av { color: #F4EAD9; }
-  .bc-line.ai  .av { color: #F4EAD9; opacity: 0.7; }
+  .bc-line.you .av {
+    color: #f4ead9;
+  }
+  .bc-line.ai .av {
+    color: #f4ead9;
+    opacity: 0.7;
+  }
   .bc-line .msg {
     font-family: var(--font-body);
     font-style: italic;
     font-weight: 400;
     font-size: 15px;
     line-height: 1.4;
-    color: #F4EAD9;
+    color: #f4ead9;
     min-height: 1.4em;
   }
-  .bc-line.you .msg { font-style: italic; }
+  .bc-line.you .msg {
+    font-style: italic;
+  }
   .bc-line .msg::after {
     content: "";
     display: inline-block;
     width: 2px;
     height: 1em;
     margin-left: 3px;
-    background: #F4EAD9;
+    background: #f4ead9;
     transform: translateY(2px);
     animation: caret 0.9s steps(2) infinite;
     opacity: 0;
   }
-  .bc-line .msg.typing::after { opacity: 1; }
+  .bc-line .msg.typing::after {
+    opacity: 1;
+  }
   @keyframes caret {
-    0%, 50% { opacity: 1; }
-    51%, 100% { opacity: 0; }
+    0%,
+    50% {
+      opacity: 1;
+    }
+    51%,
+    100% {
+      opacity: 0;
+    }
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -739,89 +884,131 @@ const aiFeatures = [
     .bc-line .msg::after {
       animation: none;
     }
-    .big-wave :global(span) { transform: scaleY(0.8); }
+    .big-wave :global(span) {
+      transform: scaleY(0.8);
+    }
   }
 
   @media (max-width: 1024px) {
-    .nine-grid { grid-template-columns: repeat(2, 1fr); }
-    .tool-card.wide { grid-column: 1 / -1; }
-    .tool-card.span-2 { grid-column: 1 / -1; }
-    .ai-grid { grid-template-columns: 1fr 1fr; }
-    .ai-broadcast { column-gap: 32px; }
+    .nine-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .tool-card.wide {
+      grid-column: 1 / -1;
+    }
+    .tool-card.span-2 {
+      grid-column: 1 / -1;
+    }
+    .ai-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .ai-broadcast {
+      column-gap: 32px;
+    }
   }
   @media (max-width: 767px) {
-    .nine-tools { padding: 80px 20px; }
-    .section-head .section-label { gap: 12px; }
-    .nine-grid { grid-template-columns: 1fr; }
-    .tool-card.span-2 { grid-column: auto; }
-    .tool-card { padding: 24px 22px 28px; }
-    .ai-card { padding: 28px 24px; }
-    .ai-grid { grid-template-columns: 1fr; gap: 28px; }
-    .mic-area { padding: 12px 0; }
+    .nine-tools {
+      padding: 80px 20px;
+    }
+    .section-head .section-label {
+      gap: 12px;
+    }
+    .nine-grid {
+      grid-template-columns: 1fr;
+    }
+    .tool-card.span-2 {
+      grid-column: auto;
+    }
+    .tool-card {
+      padding: 24px 22px 28px;
+    }
+    .ai-card {
+      padding: 28px 24px;
+    }
+    .ai-grid {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+    .mic-area {
+      padding: 12px 0;
+    }
     .ai-broadcast {
       margin-top: 28px;
       grid-template-columns: 1fr;
       row-gap: 22px;
     }
-    .big-wave  { height: 80px; }
+    .big-wave {
+      height: 80px;
+    }
   }
 </style>
 
 <script is:inline>
   (() => {
-    const wave = document.getElementById('ai-waveform');
+    const wave = document.getElementById("ai-waveform");
     if (wave) {
       const bars = 44;
-      const variants = ['', 'v-b', 'v-c', 'v-d'];
+      const variants = ["", "v-b", "v-c", "v-d"];
       for (let i = 0; i < bars; i++) {
-        const bar = document.createElement('span');
+        const bar = document.createElement("span");
         const h = 18 + Math.round(Math.random() * 82);
         const dur = (0.7 + Math.random() * 1.6).toFixed(2);
         const delay = (Math.random() * 1.8).toFixed(2);
         const v = variants[Math.floor(Math.random() * variants.length)];
-        bar.style.height = h + '%';
-        bar.style.setProperty('--wave-dur', dur + 's');
-        bar.style.setProperty('--wave-delay', delay + 's');
+        bar.style.height = h + "%";
+        bar.style.setProperty("--wave-dur", dur + "s");
+        bar.style.setProperty("--wave-delay", delay + "s");
         if (v) bar.className = v;
         wave.appendChild(bar);
       }
     }
 
     const pairs = [
-      { you: '"Next row."', ai: 'Row 85. Two more before your sleeve increase.' },
-      { you: '"What\'s sl1 k2tog psso?"', ai: 'Slip one, knit two together, pass the slipped stitch over.' },
-      { you: '"Set row to 100."', ai: 'Counter set to 100. You are halfway through the yoke.' },
+      {
+        you: '"Next row."',
+        ai: "Row 85. Two more before your sleeve increase.",
+      },
+      {
+        you: '"What\'s sl1 k2tog psso?"',
+        ai: "Slip one, knit two together, pass the slipped stitch over.",
+      },
+      {
+        you: '"Set row to 100."',
+        ai: "Counter set to 100. You are halfway through the yoke.",
+      },
     ];
 
     const youEl = document.querySelector('[data-msg="you"]');
-    const aiEl  = document.querySelector('[data-msg="ai"]');
+    const aiEl = document.querySelector('[data-msg="ai"]');
     if (!youEl || !aiEl) return;
 
-    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const prefersReduced = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
 
     const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
     async function typeInto(el, text) {
-      el.classList.add('typing');
-      el.textContent = '';
+      el.classList.add("typing");
+      el.textContent = "";
       for (let i = 0; i < text.length; i++) {
         el.textContent += text[i];
         await sleep(22 + Math.random() * 24);
       }
-      el.classList.remove('typing');
+      el.classList.remove("typing");
     }
 
     async function loop() {
       let idx = 0;
       if (prefersReduced) {
         youEl.textContent = pairs[0].you;
-        aiEl.textContent  = pairs[0].ai;
+        aiEl.textContent = pairs[0].ai;
         return;
       }
       while (true) {
         const p = pairs[idx];
-        youEl.textContent = ' ';
-        aiEl.textContent  = ' ';
+        youEl.textContent = "\u00A0";
+        aiEl.textContent = "\u00A0";
         await sleep(400);
         await typeInto(youEl, p.you);
         await sleep(700);
@@ -831,14 +1018,17 @@ const aiFeatures = [
       }
     }
 
-    const io = new IntersectionObserver((entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          loop();
-          observer.disconnect();
-        }
-      });
-    }, { threshold: 0.25 });
-    io.observe(document.querySelector('.ai-broadcast'));
+    const io = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            loop();
+            observer.disconnect();
+          }
+        });
+      },
+      { threshold: 0.25 },
+    );
+    io.observe(document.querySelector(".ai-broadcast"));
   })();
 </script>

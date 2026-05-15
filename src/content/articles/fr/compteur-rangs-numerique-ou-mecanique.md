@@ -4,11 +4,21 @@ description: "Compteurs mécaniques et applications de compteur de rangs compar�
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 4
-tags: ["compteur de rangs numérique", "application compteur de rangs", "compteur de rangs tricot", "compteur de mailles", "compteur tricot android", "suivre les rangs", "compteur tricot mains libres"]
+tags:
+  [
+    "compteur de rangs numérique",
+    "application compteur de rangs",
+    "compteur de rangs tricot",
+    "compteur de mailles",
+    "compteur tricot android",
+    "suivre les rangs",
+    "compteur tricot mains libres",
+  ]
 draft: false
 lang: fr
 translationKey: "digital-vs-physical-row-counters"
 ---
+
 Le petit compteur en forme de barillet au bout d'une aiguille est le compteur de rangs par défaut depuis des décennies. Pas cher, pas de pile, ça marche. Mais les applications de compteur de rangs sont devenues bonnes, et pour les tricoteuses qui travaillent autre chose qu'une écharpe simple, la version numérique fait des choses que la version physique ne peut pas faire.
 
 Cela dit, tout le monde n'a pas besoin de ce que propose le numérique. Le bon choix dépend du projet.

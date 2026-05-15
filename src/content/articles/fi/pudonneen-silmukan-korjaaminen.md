@@ -4,10 +4,17 @@ description: "Näin nostat pudonneen silmukan virkkuukoukulla. Ohje sileään ne
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 3
-tags: ["pudonnut silmukka", "pudonneen silmukan korjaaminen", "neuleen virheen korjaaminen", "silmukan nostaminen virkkuukoukulla"]
+tags:
+  [
+    "pudonnut silmukka",
+    "pudonneen silmukan korjaaminen",
+    "neuleen virheen korjaaminen",
+    "silmukan nostaminen virkkuukoukulla",
+  ]
 lang: fi
 translationKey: "fix-dropped-stitches"
 ---
+
 Pudonnut silmukka ei tarkoita, että koko työ pitää purkaa. Useimmiten sen saa pelastettua virkkuukoukulla alle minuutissa. Silmukka liukuu pois puikolta, ja jos et huomaa sitä, se karkaa alaspäin kerrosten läpi kuin tikapuureikä sukkahousuissa. Jokainen tikapuun poikkilanka on kuitenkin langansäie, joka odottaa vetämistä takaisin silmukan läpi, kerros kerrallaan, kunnes silmukka on taas puikolla.
 
 Korjaus lyhyesti: työnnä virkkuukoukku irtonaiseen silmukkaan, nappaa sen takana oleva vaakalanka ja vedä se silmukan läpi. Toista jokaiselle kerrokselle, jonka silmukka on karannut. Pidä tarvikepussissa virkkuukoukku, joka on suunnilleen samaa kokoa kuin käyttämäsi puikot. Sille tulee käyttöä.

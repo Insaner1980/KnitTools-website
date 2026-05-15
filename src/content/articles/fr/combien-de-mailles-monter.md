@@ -4,11 +4,18 @@ description: "Calcule le bon nombre de mailles à monter à partir de ton échan
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 5
-tags: ["combien de mailles monter", "calculateur mailles tricot", "calculer mailles pour largeur", "nombre de mailles tricot"]
+tags:
+  [
+    "combien de mailles monter",
+    "calculateur mailles tricot",
+    "calculer mailles pour largeur",
+    "nombre de mailles tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "how-many-stitches-to-cast-on"
 ---
+
 Avant le premier rang, avant de choisir une méthode de montage, avant tout le reste. Il te faut un nombre. Et ce nombre vient de l'échantillon, pas de l'étiquette du fil, pas de ce qui a marché sur ton dernier projet, et surtout pas d'un pari optimiste.
 
 Pour calculer le nombre de mailles à monter, multiplie ton échantillon (mailles pour 10 cm) par la largeur souhaitée en centimètres, puis divise par 10. Ajuste ensuite pour les répétitions de point et les mailles lisières. Le calcul est vraiment simple. Les bonnes données de départ, c'est ça qui compte.

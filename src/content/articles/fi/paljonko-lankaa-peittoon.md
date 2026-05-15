@@ -4,10 +4,17 @@ description: "Arviot neulotun peiton langanmenekkiin koon ja lankavahvuuden muka
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 5
-tags: ["paljonko lankaa peittoon", "peiton langanmenekki", "montako kerää peittoon", "lankamuunnin"]
+tags:
+  [
+    "paljonko lankaa peittoon",
+    "peiton langanmenekki",
+    "montako kerää peittoon",
+    "lankamuunnin",
+  ]
 lang: fi
 translationKey: "yarn-for-blanket"
 ---
+
 Peitot syövät lankaa. Pienikin vauvanpeitto käyttää enemmän metrejä kuin moni vaate, ja täysikokoinen torkkupeitto voi mennä yli 2 300 metrin worsted-vahvuisella langalla. Langan loppuminen kesken, varsinkin kun värjäyserä on jo kadonnut, on juuri sellainen neulekurjuus, jonka voi välttää kohtuullisella suunnittelulla.
 
 Alla olevat arviot antavat lähtöhaarukan. Todellinen langanmenekki riippuu neuletiheydestä, mallineuleesta ja mitoista, mutta näillä pääset tarpeeksi lähelle ostaaksesi langan järkevästi.

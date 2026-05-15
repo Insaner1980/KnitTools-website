@@ -4,8 +4,15 @@ description: "Understand why stockinette curls and what to do about it. Covers c
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 4
-tags: ["why does knitting curl", "stockinette curl fix", "knitting curling edges", "how to stop knitting from curling"]
+tags:
+  [
+    "why does knitting curl",
+    "stockinette curl fix",
+    "knitting curling edges",
+    "how to stop knitting from curling",
+  ]
 ---
+
 Stockinette curls. Not a tension problem, not a yarn problem, not something you're doing wrong. It's physics.
 
 Knit stitches are slightly narrower than purl stitches. In stockinette (all knit on the right side, all purl on the wrong side), the narrower knit side pulls the wider purl side inward. The fabric curls toward the knit side at top and bottom, toward the purl side at left and right edges.

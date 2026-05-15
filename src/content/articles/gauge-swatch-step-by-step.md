@@ -4,8 +4,15 @@ description: "A quick, practical guide to knitting a gauge swatch. Step-by-step 
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 4
-tags: ["knitting gauge swatch", "how to knit a swatch", "gauge swatch step by step", "make a gauge swatch"]
+tags:
+  [
+    "knitting gauge swatch",
+    "how to knit a swatch",
+    "gauge swatch step by step",
+    "make a gauge swatch",
+  ]
 ---
+
 A gauge swatch is a test square knit in your project yarn and stitch pattern, washed and blocked, then measured over 4 inches to check whether your stitches match the pattern's requirements. This is the practical how-to. If you want to understand why gauge matters and what to do when yours doesn't match, the [gauge guide](/articles/how-to-measure-knitting-gauge/) covers the full picture. This page is for when you already know why and just want the steps.
 
 ## What you need

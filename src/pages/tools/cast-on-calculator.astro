@@ -1,10 +1,10 @@
 ---
-import PageLayout from '../../layouts/PageLayout.astro';
-import CastOnCalculator from '../../components/CastOnCalculator.astro';
-import { PRICING } from '../../config/pricing';
-import RegionalPrice from '../../components/RegionalPrice.astro';
-import RegionalPricingNote from '../../components/RegionalPricingNote.astro';
-import { routes } from '../../i18n/routes';
+import PageLayout from "../../layouts/PageLayout.astro";
+import CastOnCalculator from "../../components/CastOnCalculator.astro";
+import { PRICING } from "../../config/pricing";
+import RegionalPrice from "../../components/RegionalPrice.astro";
+import RegionalPricingNote from "../../components/RegionalPricingNote.astro";
+import { routes } from "../../i18n/routes";
 ---
 
 <PageLayout
@@ -20,8 +20,12 @@ import { routes } from '../../i18n/routes';
       <p class="eyebrow">
         <a href="/tools/" class="eyebrow-back">← All tools</a>
       </p>
-      <h1 class="gs-h1" aria-label="Cast On Calculator"><span class="h1-chars">Cast On Calculator</span></h1>
-      <p class="hero-intro gs-hero">Calculate how many stitches to cast on for any width and gauge.</p>
+      <h1 class="gs-h1" aria-label="Cast On Calculator">
+        <span class="h1-chars">Cast On Calculator</span>
+      </h1>
+      <p class="hero-intro gs-hero">
+        Calculate how many stitches to cast on for any width and gauge.
+      </p>
       <div class="form-card variant-terracotta gs-form">
         <CastOnCalculator />
       </div>
@@ -32,13 +36,33 @@ import { routes } from '../../i18n/routes';
   <section class="seo-content">
     <div class="content-inner">
       <h2 class="gs-clip-reveal">What is cast on in knitting?</h2>
-      <p class="gs-fade-up">Casting on is the first step in any knitting project: it's how you create the initial row of stitches on your needle. The number of stitches you cast on determines the width of your finished piece. Too few and it's too narrow. Too many and you've wasted yarn and time. Getting this number right from the start saves frogging later.</p>
+      <p class="gs-fade-up">
+        Casting on is the first step in any knitting project: it's how you
+        create the initial row of stitches on your needle. The number of
+        stitches you cast on determines the width of your finished piece. Too
+        few and it's too narrow. Too many and you've wasted yarn and time.
+        Getting this number right from the start saves frogging later.
+      </p>
 
       <h2 class="gs-clip-reveal">Why gauge matters</h2>
-      <p class="gs-fade-up">Every knitter knits differently. Even with the same yarn and needles, your tension produces a slightly different fabric than someone else's. That's why patterns list a recommended gauge, and why you need to knit a swatch to find yours. Measure how many stitches fit in 10 cm (or 4 inches), and you have the number this calculator needs.</p>
+      <p class="gs-fade-up">
+        Every knitter knits differently. Even with the same yarn and needles,
+        your tension produces a slightly different fabric than someone else's.
+        That's why patterns list a recommended gauge, and why you need to knit a
+        swatch to find yours. Measure how many stitches fit in 10 cm (or 4
+        inches), and you have the number this calculator needs.
+      </p>
 
       <h2 class="gs-clip-reveal">How to use this calculator</h2>
-      <p class="gs-fade-up">To calculate your cast on stitches, you need two things: your <strong>gauge</strong> (how many stitches you get in 10 cm or 4 inches of knitting) and the <strong>desired width</strong> of your piece. Knit a gauge swatch first, measure it, and enter those numbers. The calculator rounds to the nearest even number, which is a common knitting convention.</p>
+      <p class="gs-fade-up">
+        To calculate your cast on stitches, you need two things: your <strong
+          >gauge</strong
+        > (how many stitches you get in 10 cm or 4 inches of knitting) and the <strong
+          >desired width</strong
+        > of your piece. Knit a gauge swatch first, measure it, and enter those numbers.
+        The calculator rounds to the nearest even number, which is a common knitting
+        convention.
+      </p>
     </div>
   </section>
 
@@ -48,24 +72,68 @@ import { routes } from '../../i18n/routes';
       <h2 class="gs-clip-reveal">Frequently asked questions</h2>
       <div class="faq">
         <details class="gs-faq-item">
-          <summary>Do I really need to knit a gauge swatch? <span class="faq-icon" aria-hidden="true">+</span></summary>
-          <p>Yes. Skipping the swatch is the most common reason knitted pieces come out the wrong size. It takes 20 minutes and saves hours of rework.</p>
+          <summary
+            >Do I really need to knit a gauge swatch? <span
+              class="faq-icon"
+              aria-hidden="true">+</span
+            ></summary
+          >
+          <p>
+            Yes. Skipping the swatch is the most common reason knitted pieces
+            come out the wrong size. It takes 20 minutes and saves hours of
+            rework.
+          </p>
         </details>
         <details class="gs-faq-item">
-          <summary>Should I count edge stitches in my gauge? <span class="faq-icon" aria-hidden="true">+</span></summary>
-          <p>No. Measure from the center of your swatch, avoiding the first and last two stitches. Edge stitches are often tighter or looser than the rest.</p>
+          <summary
+            >Should I count edge stitches in my gauge? <span
+              class="faq-icon"
+              aria-hidden="true">+</span
+            ></summary
+          >
+          <p>
+            No. Measure from the center of your swatch, avoiding the first and
+            last two stitches. Edge stitches are often tighter or looser than
+            the rest.
+          </p>
         </details>
         <details class="gs-faq-item">
-          <summary>Why does the calculator round to an even number? <span class="faq-icon" aria-hidden="true">+</span></summary>
-          <p>Many stitch patterns (ribbing, cables, colorwork) require an even number of stitches to work correctly. Rounding to the nearest even number gives you a clean repeat.</p>
+          <summary
+            >Why does the calculator round to an even number? <span
+              class="faq-icon"
+              aria-hidden="true">+</span
+            ></summary
+          >
+          <p>
+            Many stitch patterns (ribbing, cables, colorwork) require an even
+            number of stitches to work correctly. Rounding to the nearest even
+            number gives you a clean repeat.
+          </p>
         </details>
         <details class="gs-faq-item">
-          <summary>What if my pattern requires a specific stitch multiple? <span class="faq-icon" aria-hidden="true">+</span></summary>
-          <p>Add or subtract a few stitches to reach the nearest multiple your pattern needs. For example, if your pattern repeats over 4 stitches and the calculator says 46, adjust to 44 or 48.</p>
+          <summary
+            >What if my pattern requires a specific stitch multiple? <span
+              class="faq-icon"
+              aria-hidden="true">+</span
+            ></summary
+          >
+          <p>
+            Add or subtract a few stitches to reach the nearest multiple your
+            pattern needs. For example, if your pattern repeats over 4 stitches
+            and the calculator says 46, adjust to 44 or 48.
+          </p>
         </details>
         <details class="gs-faq-item">
-          <summary>Can I use this for circular knitting? <span class="faq-icon" aria-hidden="true">+</span></summary>
-          <p>Yes. Enter the full circumference as your desired width. The calculator works the same way for flat and circular knitting.</p>
+          <summary
+            >Can I use this for circular knitting? <span
+              class="faq-icon"
+              aria-hidden="true">+</span
+            ></summary
+          >
+          <p>
+            Yes. Enter the full circumference as your desired width. The
+            calculator works the same way for flat and circular knitting.
+          </p>
         </details>
       </div>
     </div>
@@ -75,7 +143,9 @@ import { routes } from '../../i18n/routes';
   <section class="waitlist-cta" id="join">
     <div class="waitlist-inner">
       <form class="waitlist-form" action="#" method="post" id="waitlist-form">
-        <label class="visually-hidden" for="waitlist-website">Leave this field empty</label>
+        <label class="visually-hidden" for="waitlist-website"
+          >Leave this field empty</label
+        >
         <input
           class="visually-hidden"
           id="waitlist-website"
@@ -86,18 +156,46 @@ import { routes } from '../../i18n/routes';
         />
         <!-- Initial Form State (Including headers) -->
         <div class="waitlist-content-layer" id="waitlist-content-layer">
-          <h2 class="gs-clip-reveal waitlist-head">Every tool. <em>One app.</em></h2>
-          <p class="gs-fade-up waitlist-desc">Row counter, project management, yarn scanner, and all four calculators.</p>
+          <h2 class="gs-clip-reveal waitlist-head">
+            Every tool. <em>One app.</em>
+          </h2>
+          <p class="gs-fade-up waitlist-desc">
+            Row counter, project management, yarn scanner, and all four
+            calculators.
+          </p>
           <div class="waitlist-row gs-fade-up" id="waitlist-row">
-            <input type="email" name="email" placeholder="your@email.com" required class="waitlist-input" />
-            <button type="submit" class="waitlist-btn" id="waitlist-btn">Notify me at launch</button>
+            <input
+              type="email"
+              name="email"
+              placeholder="your@email.com"
+              required
+              class="waitlist-input"
+            />
+            <button type="submit" class="waitlist-btn" id="waitlist-btn"
+              >Notify me at launch</button
+            >
           </div>
-          <p class="gs-fade-up waitlist-meta">Coming {PRICING.launchMonthLabel} to Google Play. Launch price <strong><RegionalPrice phase="launch" /></strong>. <RegionalPricingNote /></p>
-          <p class="waitlist-error" id="waitlist-error" role="alert" aria-live="polite" hidden></p>
+          <p class="gs-fade-up waitlist-meta">
+            Coming {PRICING.launchMonthLabel} to Google Play. Launch price <strong
+              ><RegionalPrice phase="launch" /></strong
+            >. <RegionalPricingNote />
+          </p>
+          <p
+            class="waitlist-error"
+            id="waitlist-error"
+            role="alert"
+            aria-live="polite"
+            hidden
+          >
+          </p>
         </div>
-        
+
         <!-- Big Spinner Loading State -->
-        <div class="waitlist-loading-state" id="waitlist-loading" aria-hidden="true">
+        <div
+          class="waitlist-loading-state"
+          id="waitlist-loading"
+          aria-hidden="true"
+        >
           <span class="big-spinner" aria-live="polite">Sending&hellip;</span>
         </div>
 
@@ -114,158 +212,183 @@ import { routes } from '../../i18n/routes';
 </PageLayout>
 
 <script>
-  import { gsap } from 'gsap';
-  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
 
   gsap.registerPlugin(ScrollTrigger);
 
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const prefersReducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+  ).matches;
 
   if (!prefersReducedMotion) {
     // --- Hero entrance timeline ---
-    const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
     // Back link + intro fade in
-    heroTl.from('.gs-hero', {
-      opacity: 0,
-      y: 12,
-      duration: 0.5,
-      stagger: 0.15,
-    }, 0.2);
+    heroTl.from(
+      ".gs-hero",
+      {
+        opacity: 0,
+        y: 12,
+        duration: 0.5,
+        stagger: 0.15,
+      },
+      0.2,
+    );
 
     // H1 letter stagger — wrap each word so browsers can't break mid-word
-    const h1El = document.querySelector('.h1-chars');
+    const h1El = document.querySelector(".h1-chars");
     if (h1El) {
-      const text = h1El.textContent || '';
-      h1El.textContent = '';
+      const text = h1El.textContent || "";
+      h1El.textContent = "";
       const chars: HTMLSpanElement[] = [];
-      const words = text.split(' ');
+      const words = text.split(" ");
       words.forEach((word, wi) => {
-        const wordSpan = document.createElement('span');
-        wordSpan.className = 'h1-word';
+        const wordSpan = document.createElement("span");
+        wordSpan.className = "h1-word";
         for (const c of word) {
-          const span = document.createElement('span');
-          span.className = 'h1-char';
+          const span = document.createElement("span");
+          span.className = "h1-char";
           span.textContent = c;
           wordSpan.appendChild(span);
           chars.push(span);
         }
         h1El.appendChild(wordSpan);
         if (wi < words.length - 1) {
-          h1El.appendChild(document.createTextNode(' '));
+          h1El.appendChild(document.createTextNode(" "));
         }
       });
 
-      heroTl.from(chars, {
-        opacity: 0,
-        x: -20,
-        duration: 0.4,
-        stagger: 0.03,
-        ease: 'power2.out',
-      }, 0.1);
+      heroTl.from(
+        chars,
+        {
+          opacity: 0,
+          x: -20,
+          duration: 0.4,
+          stagger: 0.03,
+          ease: "power2.out",
+        },
+        0.1,
+      );
     }
 
     // Form elements stagger
-    heroTl.from('.gs-form .form-group, .gs-form .unit-toggle, .gs-form .calc-btn', {
-      opacity: 0,
-      y: 16,
-      duration: 0.5,
-      stagger: 0.1,
-    }, 0.6);
+    heroTl.from(
+      ".gs-form .form-group, .gs-form .unit-toggle, .gs-form .calc-btn",
+      {
+        opacity: 0,
+        y: 16,
+        duration: 0.5,
+        stagger: 0.1,
+      },
+      0.6,
+    );
 
     // --- Scroll-triggered: clip-reveal H2s ---
-    document.querySelectorAll('.gs-clip-reveal').forEach(el => {
-      gsap.set(el, { clipPath: 'inset(0 100% 0 0)' });
+    document.querySelectorAll(".gs-clip-reveal").forEach((el) => {
+      gsap.set(el, { clipPath: "inset(0 100% 0 0)" });
       gsap.to(el, {
-        clipPath: 'inset(0 0% 0 0)',
+        clipPath: "inset(0 0% 0 0)",
         duration: 0.8,
-        ease: 'power3.inOut',
+        ease: "power3.inOut",
         scrollTrigger: {
           trigger: el,
-          start: 'top 85%',
+          start: "top 85%",
           once: true,
         },
       });
     });
 
     // --- Scroll-triggered: fade up paragraphs ---
-    document.querySelectorAll('.gs-fade-up').forEach(el => {
+    document.querySelectorAll(".gs-fade-up").forEach((el) => {
       gsap.from(el, {
         opacity: 0,
         y: 24,
         duration: 0.6,
-        ease: 'power2.out',
+        ease: "power2.out",
         scrollTrigger: {
           trigger: el,
-          start: 'top 88%',
+          start: "top 88%",
           once: true,
         },
       });
     });
 
     // --- FAQ items staggered on scroll ---
-    const faqItems = document.querySelectorAll('.gs-faq-item');
+    const faqItems = document.querySelectorAll(".gs-faq-item");
     if (faqItems.length) {
       gsap.from(faqItems, {
         opacity: 0,
         y: 16,
         duration: 0.4,
         stagger: 0.08,
-        ease: 'power2.out',
+        ease: "power2.out",
         scrollTrigger: {
           trigger: faqItems[0],
-          start: 'top 85%',
+          start: "top 85%",
           once: true,
         },
       });
     }
 
     // --- FAQ accordion smooth height ---
-    document.querySelectorAll('.gs-faq-item').forEach(details => {
-      const summary = details.querySelector('summary');
-      const content = details.querySelector('p');
+    document.querySelectorAll(".gs-faq-item").forEach((details) => {
+      const summary = details.querySelector("summary");
+      const content = details.querySelector("p");
       if (!summary || !content) return;
 
-      summary.addEventListener('click', (e) => {
+      summary.addEventListener("click", (e) => {
         e.preventDefault();
-        if (details.hasAttribute('open')) {
+        if (details.hasAttribute("open")) {
           gsap.to(content, {
             height: 0,
             opacity: 0,
             duration: 0.3,
-            ease: 'power2.inOut',
+            ease: "power2.inOut",
             onComplete: () => {
-              details.removeAttribute('open');
-              gsap.set(content, { height: 'auto', opacity: 1 });
+              details.removeAttribute("open");
+              gsap.set(content, { height: "auto", opacity: 1 });
             },
           });
         } else {
-          details.setAttribute('open', '');
+          details.setAttribute("open", "");
           const h = content.scrollHeight;
           gsap.set(content, { height: 0, opacity: 0 });
           gsap.to(content, {
             height: h,
             opacity: 1,
             duration: 0.3,
-            ease: 'power2.out',
+            ease: "power2.out",
           });
         }
       });
     });
 
     // --- Waitlist Form Morph Animation (3-step Full Section) ---
-    const waitlistForm = document.getElementById('waitlist-form');
-    const waitlistContentLayer = document.getElementById('waitlist-content-layer');
-    const waitlistLoading = document.getElementById('waitlist-loading');
-    const waitlistSuccess = document.getElementById('waitlist-success');
+    const waitlistForm = document.getElementById("waitlist-form");
+    const waitlistContentLayer = document.getElementById(
+      "waitlist-content-layer",
+    );
+    const waitlistLoading = document.getElementById("waitlist-loading");
+    const waitlistSuccess = document.getElementById("waitlist-success");
 
-    if (waitlistForm && waitlistContentLayer && waitlistLoading && waitlistSuccess) {
-      waitlistForm.addEventListener('submit', async (e) => {
+    if (
+      waitlistForm &&
+      waitlistContentLayer &&
+      waitlistLoading &&
+      waitlistSuccess
+    ) {
+      waitlistForm.addEventListener("submit", async (e) => {
         e.preventDefault();
 
-        const emailInput = waitlistForm.querySelector('input[type="email"]');
-        const honeypot = waitlistForm.querySelector('input[name="website"]');
-        const errorEl = document.getElementById('waitlist-error');
+        const emailInput = waitlistForm.querySelector<HTMLInputElement>(
+          'input[type="email"]',
+        );
+        const honeypot = waitlistForm.querySelector<HTMLInputElement>(
+          'input[name="website"]',
+        );
+        const errorEl = document.getElementById("waitlist-error");
 
         // Lock height to prevent page jumping when content becomes absolute
         const height = waitlistForm.offsetHeight;
@@ -273,24 +396,24 @@ import { routes } from '../../i18n/routes';
 
         if (errorEl) {
           errorEl.hidden = true;
-          errorEl.textContent = '';
+          errorEl.textContent = "";
         }
 
         // 1. Morph to Big Spinner Loading state
-        waitlistContentLayer.classList.add('is-hidden');
-        waitlistLoading.classList.add('is-visible');
+        waitlistContentLayer.classList.add("is-hidden");
+        waitlistLoading.classList.add("is-visible");
 
         let success = false;
-        let errorMessage = 'Something went wrong. Please try again.';
+        let errorMessage = "Something went wrong. Please try again.";
 
         try {
-          const res = await fetch('https://api.finnvek.com/subscribe', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+          const res = await fetch("https://api.finnvek.com/subscribe", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
-              email: emailInput ? emailInput.value.trim() : '',
-              source: 'knittools',
-              website: honeypot ? honeypot.value : '',
+              email: emailInput ? emailInput.value.trim() : "",
+              source: "knittools",
+              website: honeypot ? honeypot.value : "",
             }),
           });
           const data = await res.json().catch(() => ({}));
@@ -300,7 +423,7 @@ import { routes } from '../../i18n/routes';
             errorMessage = data.error;
           }
         } catch {
-          errorMessage = 'Network error. Please check your connection.';
+          errorMessage = "Network error. Please check your connection.";
         }
 
         // Minimum spinner visibility for perceived smoothness
@@ -308,14 +431,14 @@ import { routes } from '../../i18n/routes';
 
         if (success) {
           // 2. Morph loading -> success
-          waitlistLoading.classList.remove('is-visible');
-          waitlistLoading.classList.add('is-hidden');
-          waitlistSuccess.classList.add('is-visible');
+          waitlistLoading.classList.remove("is-visible");
+          waitlistLoading.classList.add("is-hidden");
+          waitlistSuccess.classList.add("is-visible");
         } else {
           // 2b. Revert loading -> content with inline error
-          waitlistLoading.classList.remove('is-visible');
-          waitlistLoading.classList.add('is-hidden');
-          waitlistContentLayer.classList.remove('is-hidden');
+          waitlistLoading.classList.remove("is-visible");
+          waitlistLoading.classList.add("is-hidden");
+          waitlistContentLayer.classList.remove("is-hidden");
           if (errorEl) {
             errorEl.textContent = errorMessage;
             errorEl.hidden = false;
@@ -384,7 +507,9 @@ import { routes } from '../../i18n/routes';
     text-decoration: none;
     transition: color 0.15s ease;
   }
-  .eyebrow-back:hover { color: var(--terracotta); }
+  .eyebrow-back:hover {
+    color: var(--terracotta);
+  }
 
   .tool-hero h1 {
     font-family: var(--serif);
@@ -428,7 +553,9 @@ import { routes } from '../../i18n/routes';
     margin-bottom: 16px;
     text-transform: none;
   }
-  .seo-content h2:first-child { margin-top: 0; }
+  .seo-content h2:first-child {
+    margin-top: 0;
+  }
 
   .seo-content p {
     font-family: var(--body-ed);
@@ -455,7 +582,10 @@ import { routes } from '../../i18n/routes';
     text-transform: none;
   }
 
-  .faq { display: flex; flex-direction: column; }
+  .faq {
+    display: flex;
+    flex-direction: column;
+  }
 
   .faq details {
     border-top: 1px solid rgba(42, 30, 23, 0.2);
@@ -477,8 +607,12 @@ import { routes } from '../../i18n/routes';
     align-items: center;
     transition: color 200ms ease;
   }
-  .faq summary::-webkit-details-marker { display: none; }
-  .faq summary:hover { color: var(--terracotta); }
+  .faq summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq summary:hover {
+    color: var(--terracotta);
+  }
 
   .faq summary .faq-icon {
     display: inline-flex;
@@ -493,7 +627,9 @@ import { routes } from '../../i18n/routes';
     font-weight: 300;
     color: var(--terracotta);
     line-height: 1;
-    transition: transform 300ms ease, color 200ms ease;
+    transition:
+      transform 300ms ease,
+      color 200ms ease;
   }
   .faq summary:hover .faq-icon {
     color: var(--ink);
@@ -570,10 +706,14 @@ import { routes } from '../../i18n/routes';
   .waitlist-content-layer,
   .waitlist-loading-state,
   .waitlist-success {
-    transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
+    transition:
+      opacity 400ms cubic-bezier(0.4, 0, 0.2, 1),
+      transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .waitlist-content-layer { width: 100%; }
+  .waitlist-content-layer {
+    width: 100%;
+  }
 
   .waitlist-content-layer.is-hidden {
     opacity: 0;
@@ -601,7 +741,9 @@ import { routes } from '../../i18n/routes';
     border-radius: 0;
     min-width: 0;
   }
-  .waitlist-input::placeholder { color: var(--ink-soft); }
+  .waitlist-input::placeholder {
+    color: var(--ink-soft);
+  }
   .waitlist-input:focus {
     outline: 2px solid var(--terracotta);
     outline-offset: 2px;
@@ -618,7 +760,10 @@ import { routes } from '../../i18n/routes';
     border: 1.5px solid var(--ink);
     border-radius: 0;
     cursor: pointer;
-    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    transition:
+      background 0.15s ease,
+      border-color 0.15s ease,
+      color 0.15s ease;
     white-space: nowrap;
   }
   .waitlist-btn:hover {
@@ -664,11 +809,19 @@ import { routes } from '../../i18n/routes';
     animation: waitlistPulse 1.6s ease-in-out infinite;
   }
   @keyframes waitlistPulse {
-    0%, 100% { opacity: 0.45; }
-    50%      { opacity: 1; }
+    0%,
+    100% {
+      opacity: 0.45;
+    }
+    50% {
+      opacity: 1;
+    }
   }
   @media (prefers-reduced-motion: reduce) {
-    .big-spinner { animation: none; opacity: 0.8; }
+    .big-spinner {
+      animation: none;
+      opacity: 0.8;
+    }
   }
 
   /* Success Layer */
@@ -724,10 +877,16 @@ import { routes } from '../../i18n/routes';
     .waitlist-cta {
       padding: 60px 20px;
     }
-    .tool-hero { padding-top: 48px; }
-    .waitlist-cta { padding-bottom: 72px; }
+    .tool-hero {
+      padding-top: 48px;
+    }
+    .waitlist-cta {
+      padding-bottom: 72px;
+    }
 
-    .waitlist-row { flex-direction: column; }
+    .waitlist-row {
+      flex-direction: column;
+    }
     .waitlist-input {
       border-right: 1.5px solid var(--ink);
       border-bottom: 0;

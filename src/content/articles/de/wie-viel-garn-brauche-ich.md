@@ -4,11 +4,18 @@ description: "Schätze den Garnbedarf für Schals, Pullover, Decken und mehr. Mi
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 2
-tags: ["wie viel Garn brauche ich", "Garnbedarf berechnen", "Garnmenge Stricken", "wie viele Knäuel brauche ich"]
+tags:
+  [
+    "wie viel Garn brauche ich",
+    "Garnbedarf berechnen",
+    "Garnmenge Stricken",
+    "wie viele Knäuel brauche ich",
+  ]
 draft: false
 lang: de
 translationKey: "how-much-yarn-do-i-need"
 ---
+
 Wenn das Garn nach drei Vierteln des Projekts ausgeht, fühlt sich das besonders bitter an. Die Farbpartie ist weg. Der Laden hat das Garn ausverkauft. Oder das Ersatzknäuel sieht im Geschäft nah genug aus und gestrickt neben dem Original völlig falsch. Zwei Zentimeter vor dem Abketten steht das ganze Projekt. Das passiert öfter, als es sollte, und fast immer lässt es sich vermeiden.
 
 Der Garnbedarf eines Strickprojekts hängt von vier Dingen ab: den Maßen des Projekts, der Garnstärke, dem Muster und der Maschenprobe. Eine gute Schätzung ist kein Raten. Sie basiert darauf, dass diese vier Angaben stimmen. Stimmen sie, liegt die Schätzung überraschend nah. Ignorierst du eine davon, gehst du ein Risiko ein.

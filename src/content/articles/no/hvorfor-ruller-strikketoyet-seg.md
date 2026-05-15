@@ -4,11 +4,18 @@ description: "Forstå hvorfor glattstrikk ruller og hva du kan gjøre med det. O
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 4
-tags: ["hvorfor ruller strikk", "fikse rullende glattstrikk", "strikkekanter ruller", "stoppe strikk fra å rulle"]
+tags:
+  [
+    "hvorfor ruller strikk",
+    "fikse rullende glattstrikk",
+    "strikkekanter ruller",
+    "stoppe strikk fra å rulle",
+  ]
 draft: false
 lang: no
 translationKey: "why-knitting-curls"
 ---
+
 Glattstrikk ruller. Ikke et spenningsproblem, ikke et garnproblem, ikke noe du gjør feil. Det er fysikk.
 
 Rettmasker er litt smalere enn vrangmasker. I glattstrikk, rett på rettsiden og vrang på vrangsiden, trekker den smalere rettsiden den bredere vrangsiden innover. Stoffet ruller mot rettsiden øverst og nederst, og mot vrangsiden i sidekantene.

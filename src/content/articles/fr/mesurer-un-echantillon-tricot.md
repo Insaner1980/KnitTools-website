@@ -4,7 +4,8 @@ description: "Apprends à tricoter et mesurer un échantillon correctement : lav
 category: "gauge-calculations"
 categoryOrder: 2
 publishDate: 2026-04-27
-tags: ["échantillon", "échantillon tricot", "calculs tricot", "mesurer échantillon"]
+tags:
+  ["échantillon", "échantillon tricot", "calculs tricot", "mesurer échantillon"]
 draft: false
 lang: fr
 translationKey: "how-to-measure-knitting-gauge"

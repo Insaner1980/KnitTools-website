@@ -4,11 +4,18 @@ description: "Alt du trenger for å strikke ditt første skjerf: garn, pinner, o
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 1
-tags: ["strikke skjerf nybegynner", "første strikkeprosjekt skjerf", "enkelt strikket skjerf", "nybegynner skjerf oppskrift"]
+tags:
+  [
+    "strikke skjerf nybegynner",
+    "første strikkeprosjekt skjerf",
+    "enkelt strikket skjerf",
+    "nybegynner skjerf oppskrift",
+  ]
 draft: false
 lang: no
 translationKey: "knit-first-scarf"
 ---
+
 Et skjerf er det beste første strikkeprosjektet fordi det er et rektangel. Ingen forming, ingen pinneantall som må treffe bestemte lengder, ingen passform. Legg opp, strikk til det er langt nok, fell av. Ferdighetene du øver på, opplegg, rettmaske og avfelling, er grunnlaget for alt annet du kommer til å strikke.
 
 ## Dette trenger du

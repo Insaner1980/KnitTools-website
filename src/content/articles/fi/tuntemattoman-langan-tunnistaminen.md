@@ -4,10 +4,17 @@ description: "Näin arvioit vyötteettömän langan: WPI-mittaus, polttokoe, ves
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 9
-tags: ["tuntematon lanka", "lanka ilman vyötettä", "langan polttokoe", "WPI lankavahvuus"]
+tags:
+  [
+    "tuntematon lanka",
+    "lanka ilman vyötettä",
+    "langan polttokoe",
+    "WPI lankavahvuus",
+  ]
 lang: fi
 translationKey: "identify-mystery-yarn"
 ---
+
 Useimmille neulojille kertyy lopulta tuntematonta lankaa. Vyöte on pudonnut pois, lanka on tullut jonkun toisen varastosta tai kerässä ei alun perinkään ollut kunnollisia tietoja. Kirpputoripusseja, perittyjä lankoja, vaihtojen ja jämien sekalaisia keriä.
 
 Tuntemattoman langan tunnistamisessa kannattaa aloittaa WPI-mittauksesta, jotta saat vahvuusluokan suunnan. Sen jälkeen polttokoe ja vesitesti auttavat rajaamaan kuituperhettä. Et aina saa tarkkaa merkkiä tai prosentteja selville, mutta vahvuusalue ja karkea kuitutyyppi riittävät yleensä.

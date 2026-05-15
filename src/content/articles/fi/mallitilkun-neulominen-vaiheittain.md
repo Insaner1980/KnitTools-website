@@ -4,10 +4,17 @@ description: "Käytännön ohje mallitilkun neulomiseen: silmukoiden luominen, p
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 4
-tags: ["mallitilkku", "miten mallitilkku neulotaan", "neuletiheys mallitilkusta", "mallitilkun mittaus"]
+tags:
+  [
+    "mallitilkku",
+    "miten mallitilkku neulotaan",
+    "neuletiheys mallitilkusta",
+    "mallitilkun mittaus",
+  ]
 lang: fi
 translationKey: "gauge-swatch-step-by-step"
 ---
+
 Mallitilkku on pieni koepala, joka neulotaan projektin langalla ja mallineuleella, pestään ja viimeistellään, ja mitataan sitten yleensä 10 cm alueelta. Sen tehtävä on kertoa, vastaako oma neuletiheytesi ohjeen neuletiheyttä. Tämä on käytännön vaiheohje. Jos haluat ensin ymmärtää, miksi neuletiheydellä on väliä ja mitä tehdä kun lukema ei täsmää, [neuletiheyden mittausohje](/fi/artikkelit/neuletiheyden-mittaaminen/) käy kokonaisuuden läpi. Tämä sivu on sitä varten, kun syy on jo selvä ja tarvitset vain työjärjestyksen.
 
 ## Mitä tarvitset

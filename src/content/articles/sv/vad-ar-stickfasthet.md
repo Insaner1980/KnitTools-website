@@ -4,11 +4,18 @@ description: "Förstå vad stickfasthet betyder, varför den varierar mellan sti
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 1
-tags: ["vad är stickfasthet", "stickfasthet förklarat", "varför ändras stickfasthet", "stickspänning"]
+tags:
+  [
+    "vad är stickfasthet",
+    "stickfasthet förklarat",
+    "varför ändras stickfasthet",
+    "stickspänning",
+  ]
 draft: false
 lang: sv
 translationKey: "what-is-gauge-in-knitting"
 ---
+
 Stickfasthet är antalet maskor och varv som ryms i en uppmätt bit stickat tyg. När ett mönster säger "20 maskor och 28 varv = 10 cm i slätstickning" är det så designerns tyg såg ut. Matchar du den tätheten har projektet mycket större chans att få rätt storlek.
 
 Det är den korta versionen. Den mer användbara versionen är att förstå varför två stickare kan få helt olika stickfasthet med samma garn och stickor, och varför din egen stickfasthet kan glida under ett och samma projekt.

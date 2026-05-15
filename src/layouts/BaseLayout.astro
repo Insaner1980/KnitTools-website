@@ -1,8 +1,8 @@
 ---
-import '../styles/global.css';
-import { COUNTRY_TO_TIER, FALLBACK_PRICING_TIER } from '../config/pricing';
-import { getHtmlLang, getLocale, type Lang } from '../i18n/config';
-import { useTranslations } from '../i18n/ui';
+import "../styles/global.css";
+import { COUNTRY_TO_TIER, FALLBACK_PRICING_TIER } from "../config/pricing";
+import { getHtmlLang, getLocale, type Lang } from "../i18n/config";
+import { useTranslations } from "../i18n/ui";
 
 interface Props {
   title: string;
@@ -14,8 +14,16 @@ interface Props {
   alternates?: Partial<Record<Lang, string>>;
 }
 
-const { title, description, browserTitle, canonicalPath = '', bodyClass = '', lang = 'en', alternates } = Astro.props;
-const siteUrl = 'https://knittoolsapp.com';
+const {
+  title,
+  description,
+  browserTitle,
+  canonicalPath = "",
+  bodyClass = "",
+  lang = "en",
+  alternates,
+} = Astro.props;
+const siteUrl = "https://knittoolsapp.com";
 const canonicalUrl = `${siteUrl}${canonicalPath}`;
 const fullTitle = `${title} | KnitTools`;
 const pageTitle = browserTitle ?? fullTitle;
@@ -24,128 +32,189 @@ const htmlLang = getHtmlLang(lang);
 const t = useTranslations(lang);
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang={htmlLang}>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{pageTitle}</title>
-  <meta name="description" content={description} />
-  <link rel="canonical" href={canonicalUrl} />
-  {alternates && Object.entries(alternates).map(([alternateLang, path]) => (
-    <link rel="alternate" hreflang={getHtmlLang(alternateLang as Lang)} href={`${siteUrl}${path}`} />
-  ))}
-  {alternates && alternates.en && <link rel="alternate" hreflang="x-default" href={`${siteUrl}${alternates.en}`} />}
-
-  <!-- Open Graph -->
-  <meta property="og:title" content={pageTitle} />
-  <meta property="og:description" content={description} />
-  <meta property="og:image" content={`${siteUrl}/images/og-image.png`} />
-  <meta property="og:url" content={canonicalUrl} />
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content={ogLocale} />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content={pageTitle} />
-  <meta name="twitter:description" content={description} />
-  <meta name="twitter:image" content={`${siteUrl}/images/og-image.png`} />
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <link rel="icon" type="image/webp" href="/favicon.webp" />
-
-  <!-- Preload critical fonts -->
-  <link rel="preload" href="/fonts/lalezar.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/fonts/general-sans-400.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/fonts/general-sans-500.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/fonts/teko-500-subset.woff2" as="font" type="font/woff2" crossorigin />
-
-  <!-- Global styles imported via frontmatter -->
-
-  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "90537a60e26f433485a8fdaf6b076843"}'></script><!-- End Cloudflare Web Analytics -->
-</head>
-<body class={bodyClass}>
-  <a href="#main-content" class="skip-link">{t('skipToContent')}</a>
-  <div class="page-wrapper">
-    <slot />
-  </div>
-  <script>
-    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              observer.unobserve(entry.target);
-            }
-          });
-        },
-        { threshold: 0, rootMargin: '0px 0px -20% 0px' }
-      );
-      document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
-    } else {
-      document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    {
+      alternates &&
+        Object.entries(alternates).map(([alternateLang, path]) => (
+          <link
+            rel="alternate"
+            hreflang={getHtmlLang(alternateLang as Lang)}
+            href={`${siteUrl}${path}`}
+          />
+        ))
     }
-  </script>
-  <script define:vars={{ countryToTier: COUNTRY_TO_TIER, fallbackPricingTier: FALLBACK_PRICING_TIER }}>
-    (() => {
-      const getTier = (country) => {
-        if (!country) return '';
-        return countryToTier[String(country).toUpperCase()] || fallbackPricingTier;
-      };
+    {
+      alternates && alternates.en && (
+        <link
+          rel="alternate"
+          hreflang="x-default"
+          href={`${siteUrl}${alternates.en}`}
+        />
+      )
+    }
 
-      const getRegion = (locale) => {
-        try {
-          return new Intl.Locale(locale).region || '';
-        } catch {
-          const parts = String(locale).split(/[-_]/);
-          return parts.length > 1 ? parts[parts.length - 1].toUpperCase() : '';
-        }
-      };
+    <!-- Open Graph -->
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={`${siteUrl}/images/og-image.png`} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content={ogLocale} />
 
-      const getLocaleCountry = () => {
-        const locales = navigator.languages?.length ? navigator.languages : [navigator.language];
-        for (const locale of locales) {
-          const region = getRegion(locale);
-          if (region) return region;
-        }
-        return '';
-      };
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`${siteUrl}/images/og-image.png`} />
 
-      const getCloudflareCountry = async () => {
-        try {
-          const controller = new AbortController();
-          const timeout = window.setTimeout(() => controller.abort(), 1200);
-          const response = await fetch('/cdn-cgi/trace', {
-            cache: 'no-store',
-            signal: controller.signal,
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/webp" href="/favicon.webp" />
+
+    <!-- Preload critical fonts -->
+    <link
+      rel="preload"
+      href="/fonts/lalezar.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/general-sans-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/general-sans-500.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/teko-500-subset.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- Global styles imported via frontmatter -->
+
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "90537a60e26f433485a8fdaf6b076843"}'
+    ></script><!-- End Cloudflare Web Analytics -->
+  </head>
+  <body class={bodyClass}>
+    <a href="#main-content" class="skip-link">{t("skipToContent")}</a>
+    <div class="page-wrapper">
+      <slot />
+    </div>
+    <script>
+      if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0, rootMargin: "0px 0px -20% 0px" },
+        );
+        document
+          .querySelectorAll(".reveal")
+          .forEach((el) => observer.observe(el));
+      } else {
+        document
+          .querySelectorAll(".reveal")
+          .forEach((el) => el.classList.add("visible"));
+      }
+    </script>
+    <script
+      define:vars={{
+        countryToTier: COUNTRY_TO_TIER,
+        fallbackPricingTier: FALLBACK_PRICING_TIER,
+      }}
+    >
+      (() => {
+        const getTier = (country) => {
+          if (!country) return "";
+          return (
+            countryToTier[String(country).toUpperCase()] || fallbackPricingTier
+          );
+        };
+
+        const getRegion = (locale) => {
+          try {
+            return new Intl.Locale(locale).region || "";
+          } catch {
+            const parts = String(locale).split(/[-_]/);
+            return parts.length > 1
+              ? parts[parts.length - 1].toUpperCase()
+              : "";
+          }
+        };
+
+        const getLocaleCountry = () => {
+          const locales = navigator.languages?.length
+            ? navigator.languages
+            : [navigator.language];
+          for (const locale of locales) {
+            const region = getRegion(locale);
+            if (region) return region;
+          }
+          return "";
+        };
+
+        const getCloudflareCountry = async () => {
+          try {
+            const controller = new AbortController();
+            const timeout = window.setTimeout(() => controller.abort(), 1200);
+            const response = await fetch("/cdn-cgi/trace", {
+              cache: "no-store",
+              signal: controller.signal,
+            });
+            window.clearTimeout(timeout);
+            if (!response.ok) return "";
+            const trace = await response.text();
+            return trace.match(/^loc=([A-Z]{2})$/m)?.[1] || "";
+          } catch {
+            return "";
+          }
+        };
+
+        const applyPricingTier = (tier) => {
+          if (!tier) return;
+          document.querySelectorAll("[data-regional-price]").forEach((el) => {
+            const value = el.getAttribute(`data-${tier.toLowerCase()}`);
+            if (value) el.textContent = value;
           });
-          window.clearTimeout(timeout);
-          if (!response.ok) return '';
-          const trace = await response.text();
-          return trace.match(/^loc=([A-Z]{2})$/m)?.[1] || '';
-        } catch {
-          return '';
-        }
-      };
+          document
+            .querySelectorAll("[data-regional-pricing-note]")
+            .forEach((el) => {
+              el.hidden = tier !== fallbackPricingTier;
+            });
+        };
 
-      const applyPricingTier = (tier) => {
-        if (!tier) return;
-        document.querySelectorAll('[data-regional-price]').forEach((el) => {
-          const value = el.getAttribute(`data-${tier.toLowerCase()}`);
-          if (value) el.textContent = value;
+        getCloudflareCountry().then((country) => {
+          const tier = getTier(country || getLocaleCountry());
+          applyPricingTier(tier);
         });
-        document.querySelectorAll('[data-regional-pricing-note]').forEach((el) => {
-          el.hidden = tier !== fallbackPricingTier;
-        });
-      };
-
-      getCloudflareCountry().then((country) => {
-        const tier = getTier(country || getLocaleCountry());
-        applyPricingTier(tier);
-      });
-    })();
-  </script>
-</body>
+      })();
+    </script>
+  </body>
 </html>

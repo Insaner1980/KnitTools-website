@@ -1,28 +1,28 @@
 ---
-import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
-import CastOnCalculator from '../../../components/CastOnCalculator.astro';
-import { routes } from '../../../i18n/routes';
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
+import CastOnCalculator from "../../../components/CastOnCalculator.astro";
+import { routes } from "../../../i18n/routes";
 
 const faqs = [
   {
-    q: 'Må jeg virkelig strikke en prøvelapp?',
-    a: 'Ja. Å hoppe over prøvelappen er en av de vanligste grunnene til at plagg får feil størrelse. Det tar litt tid, men kan spare mange timer med opprekking.',
+    q: "Må jeg virkelig strikke en prøvelapp?",
+    a: "Ja. Å hoppe over prøvelappen er en av de vanligste grunnene til at plagg får feil størrelse. Det tar litt tid, men kan spare mange timer med opprekking.",
   },
   {
-    q: 'Skal jeg telle kantmasker i strikkefastheten?',
-    a: 'Nei. Mål midt på prøvelappen og unngå de første og siste to maskene. Kantmasker er ofte strammere eller løsere enn resten.',
+    q: "Skal jeg telle kantmasker i strikkefastheten?",
+    a: "Nei. Mål midt på prøvelappen og unngå de første og siste to maskene. Kantmasker er ofte strammere eller løsere enn resten.",
   },
   {
-    q: 'Hvorfor runder kalkulatoren av til et partall?',
-    a: 'Mange maskemønstre, som vrangbord, fletter og mønsterstrikk, trenger et jevnt maskeantall for å gå opp. Avrunding til nærmeste partall gir en ryddig rapport.',
+    q: "Hvorfor runder kalkulatoren av til et partall?",
+    a: "Mange maskemønstre, som vrangbord, fletter og mønsterstrikk, trenger et jevnt maskeantall for å gå opp. Avrunding til nærmeste partall gir en ryddig rapport.",
   },
   {
-    q: 'Hva gjør jeg hvis oppskriften krever et bestemt maskemultiplum?',
-    a: 'Legg til eller trekk fra noen masker til du treffer nærmeste multiplum oppskriften trenger. Hvis rapporten går over 4 masker og kalkulatoren sier 46, justerer du til 44 eller 48.',
+    q: "Hva gjør jeg hvis oppskriften krever et bestemt maskemultiplum?",
+    a: "Legg til eller trekk fra noen masker til du treffer nærmeste multiplum oppskriften trenger. Hvis rapporten går over 4 masker og kalkulatoren sier 46, justerer du til 44 eller 48.",
   },
   {
-    q: 'Kan jeg bruke den til rundstrikk?',
-    a: 'Ja. Skriv inn hele omkretsen som ønsket bredde. Kalkulatoren fungerer likt for strikking fram og tilbake og rundt.',
+    q: "Kan jeg bruke den til rundstrikk?",
+    a: "Ja. Skriv inn hele omkretsen som ønsket bredde. Kalkulatoren fungerer likt for strikking fram og tilbake og rundt.",
   },
 ];
 ---
@@ -44,12 +44,31 @@ const faqs = [
 
   <div slot="content">
     <h2>Hva betyr opplegg i strikking?</h2>
-    <p>Å legge opp masker er første steg i nesten alle strikkeprosjekter: det er slik du lager den første rekken masker på pinnen. Antallet masker du legger opp avgjør bredden på det ferdige arbeidet. For få masker, og det blir for smalt. For mange, og du har brukt unødvendig garn og tid. Riktig tall fra start sparer opprekking senere.</p>
+    <p>
+      Å legge opp masker er første steg i nesten alle strikkeprosjekter: det er
+      slik du lager den første rekken masker på pinnen. Antallet masker du
+      legger opp avgjør bredden på det ferdige arbeidet. For få masker, og det
+      blir for smalt. For mange, og du har brukt unødvendig garn og tid. Riktig
+      tall fra start sparer opprekking senere.
+    </p>
 
     <h2>Hvorfor strikkefastheten betyr noe</h2>
-    <p>Alle strikker forskjellig. Selv med samme garn og samme pinner får håndlaget ditt et litt annet uttrykk enn andres. Derfor oppgir strikkeoppskrifter anbefalt strikkefasthet, og derfor trenger du en prøvelapp for å finne din egen. Mål hvor mange masker du får på 10 cm, så har du tallet kalkulatoren trenger.</p>
+    <p>
+      Alle strikker forskjellig. Selv med samme garn og samme pinner får
+      håndlaget ditt et litt annet uttrykk enn andres. Derfor oppgir
+      strikkeoppskrifter anbefalt strikkefasthet, og derfor trenger du en
+      prøvelapp for å finne din egen. Mål hvor mange masker du får på 10 cm, så
+      har du tallet kalkulatoren trenger.
+    </p>
 
     <h2>Slik bruker du kalkulatoren</h2>
-    <p>For å regne ut oppleggsmaskene trenger du to ting: <strong>strikkefastheten</strong> din, altså hvor mange masker du får på 10 cm strikk, og den <strong>ønskede bredden</strong> på arbeidet. Strikk en prøvelapp først, mål den og skriv inn verdiene. Kalkulatoren runder av til nærmeste partall, som er en vanlig strikkekonvensjon.</p>
+    <p>
+      For å regne ut oppleggsmaskene trenger du to ting: <strong
+        >strikkefastheten</strong
+      > din, altså hvor mange masker du får på 10 cm strikk, og den <strong
+        >ønskede bredden</strong
+      > på arbeidet. Strikk en prøvelapp først, mål den og skriv inn verdiene. Kalkulatoren
+      runder av til nærmeste partall, som er en vanlig strikkekonvensjon.
+    </p>
   </div>
 </LocalizedToolPage>

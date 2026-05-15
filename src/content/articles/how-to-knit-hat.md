@@ -4,8 +4,15 @@ description: "Learn how to knit a hat with bottom-up circular, flat and seamed m
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 12
-tags: ["how to knit a hat", "knit hat beginners", "hat knitting guide", "knit beanie pattern"]
+tags:
+  [
+    "how to knit a hat",
+    "knit hat beginners",
+    "hat knitting guide",
+    "knit beanie pattern",
+  ]
 ---
+
 A hat is one of the best second or third projects after a scarf. It introduces knitting in the round, decreasing, and basic shaping, all in a small, fast project that produces something you'll actually wear. Most worsted weight hats can be finished in a few evenings.
 
 To knit a basic hat, cast on stitches for the head circumference minus 1–2 inches of negative ease, work ribbing for the brim, knit the body in stockinette, then [decrease evenly](/articles/increase-decrease-evenly/) at the crown. Several construction methods exist. The right one depends on what techniques you know and what equipment you have.
@@ -48,9 +55,9 @@ Common approach: divide stitches into 6 or 8 equal sections (stitch markers betw
 
 For 96 stitches in 8 sections of 12:
 
-Round 1: *K10, k2tog; rep from * around. (88 sts)
+Round 1: _K10, k2tog; rep from _ around. (88 sts)
 Round 2: Knit.
-Round 3: *K9, k2tog; rep from * around. (80 sts)
+Round 3: _K9, k2tog; rep from _ around. (80 sts)
 Round 4: Knit.
 
 Continue until 8–16 stitches remain. Cut yarn, thread through remaining stitches with a tapestry needle, pull tight, secure on the inside.

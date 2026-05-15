@@ -4,11 +4,19 @@ description: "Verstehe die Teile einer gestrickten Socke: Bündchen, Schaft, Fer
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 13
-tags: ["Socken stricken", "Sockenanleitung verstehen", "Socken stricken Anfänger", "Aufbau einer Socke", "Ferse stricken"]
+tags:
+  [
+    "Socken stricken",
+    "Sockenanleitung verstehen",
+    "Socken stricken Anfänger",
+    "Aufbau einer Socke",
+    "Ferse stricken",
+  ]
 draft: false
 lang: de
 translationKey: "how-to-knit-socks"
 ---
+
 Socken wirken einschüchternd, weil sie Techniken enthalten, die in Schals und Mützen nicht vorkommen: Ferse formen, Spickelmaschen aufnehmen, die Spitze mit Maschenstich schließen. Jeder Abschnitt einer Socke ist für sich aber überschaubar. Die Schwierigkeit liegt darin, wie die Teile ineinandergreifen, nicht im Stricken selbst.
 
 Eine gestrickte Socke hat sechs Abschnitte: Bündchen, Schaft, Ferse, Spickel, Fußteil und Spitze. Sie kann vom Bündchen zur Spitze oder von der Spitze zum Bündchen gestrickt werden. Wenn du die Anatomie kennst, wirkt jede Sockenanleitung weniger rätselhaft.

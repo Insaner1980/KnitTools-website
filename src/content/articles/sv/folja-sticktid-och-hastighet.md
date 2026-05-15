@@ -4,11 +4,19 @@ description: "Följ stickpass för att se vart tiden tar vägen och hur din hast
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 7
-tags: ["följa sticktid", "stickpass tracker", "passregistrering", "följa stickningens framsteg", "sticktid tracker"]
+tags:
+  [
+    "följa sticktid",
+    "stickpass tracker",
+    "passregistrering",
+    "följa stickningens framsteg",
+    "sticktid tracker",
+  ]
 draft: false
 lang: sv
 translationKey: "track-knitting-time"
 ---
+
 De flesta stickare har en ungefärlig känsla för hur lång tid projekt tar. "Tröjan tog några månader." "Sockorna gick ganska fort." Men ungefärligt hjälper inte när du försöker avgöra om du hinner börja på en kofta sex veckor före jul, eller när ett mössmönster som borde ta en kväll plötsligt drar ut över tre.
 
 Att följa sticktid gör vaga intryck till faktisk data. Hur många timmar som gick åt till tröjan. Hur många varv du i snitt stickar per pass. Om du stickar snabbare i slätstickning än i flätor (svaret är alltid slätstickning, men hur mycket?). Siffrorna får inte händerna att röra sig snabbare, men de hjälper dig planera bättre och märka när något tyst börjar gå fel.

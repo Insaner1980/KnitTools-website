@@ -4,11 +4,18 @@ description: "Apprends à espacer des augmentations et diminutions sur un rang :
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 6
-tags: ["répartir augmentations tricot", "répartir diminutions tricot", "augmenter régulièrement", "diminuer régulièrement"]
+tags:
+  [
+    "répartir augmentations tricot",
+    "répartir diminutions tricot",
+    "augmenter régulièrement",
+    "diminuer régulièrement",
+  ]
 draft: false
 lang: fr
 translationKey: "increase-decrease-evenly"
 ---
+
 "Augmenter 8 mailles régulièrement sur le rang suivant." Le modèle continue. Toi, tu restes devant ton aiguille à faire du calcul mental.
 
 Que tu doives répartir des augmentations ou des diminutions, le calcul de base est le même : diviser le nombre de mailles actuel par le nombre de changements. Le résultat donne l'intervalle entre chaque point de façonnage. Voici la formule, et surtout quoi faire avec les restes qui apparaissent presque toujours.

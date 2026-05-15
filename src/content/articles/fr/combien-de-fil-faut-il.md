@@ -4,11 +4,18 @@ description: "Calcule la quantité de fil nécessaire pour écharpes, pulls, cou
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 2
-tags: ["combien de fil pour tricot", "calculateur métrage laine", "estimation laine tricot", "combien de pelotes"]
+tags:
+  [
+    "combien de fil pour tricot",
+    "calculateur métrage laine",
+    "estimation laine tricot",
+    "combien de pelotes",
+  ]
 draft: false
 lang: fr
 translationKey: "how-much-yarn-do-i-need"
 ---
+
 Manquer de fil aux trois quarts d'un projet a quelque chose de particulièrement décourageant. Le bain n'existe plus. La boutique est en rupture. Ou la pelote de remplacement semblait assez proche en magasin, puis complètement fausse une fois tricotée à côté de l'originale. À 5 cm du rabattage, tout le projet s'arrête. Cela arrive plus souvent que ça ne devrait, et c'est presque toujours évitable.
 
 La quantité de fil nécessaire dépend de quatre choses : les dimensions du projet, l'épaisseur du fil, le point utilisé et l'échantillon. Une bonne estimation n'est pas une devinette. Il faut simplement bien renseigner ces quatre éléments. Si tu les as, l'estimation devient étonnamment proche. Si tu en ignores un, tu joues à pile ou face.

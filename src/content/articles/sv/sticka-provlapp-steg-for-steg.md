@@ -4,11 +4,18 @@ description: "En snabb och praktisk guide till att sticka en provlapp. Från upp
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 4
-tags: ["sticka provlapp", "hur stickar man provlapp", "provlapp steg för steg", "göra provlapp"]
+tags:
+  [
+    "sticka provlapp",
+    "hur stickar man provlapp",
+    "provlapp steg för steg",
+    "göra provlapp",
+  ]
 draft: false
 lang: sv
 translationKey: "gauge-swatch-step-by-step"
 ---
+
 En provlapp är en testbit stickad i projektets garn och maskbild, tvättad och blockad, och sedan mätt över 10 cm för att kontrollera om dina maskor matchar mönstrets krav. Det här är den praktiska instruktionen. Vill du förstå varför stickfasthet spelar roll och vad du gör när den inte stämmer går [stickfasthetsguiden](/sv/artiklar/sa-mater-du-stickfasthet/) igenom hela bilden. Den här sidan är för dig som redan vet varför och bara vill ha stegen.
 
 ## Vad du behöver

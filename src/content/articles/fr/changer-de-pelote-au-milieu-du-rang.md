@@ -4,11 +4,18 @@ description: "Apprends à ajouter une nouvelle pelote en tricot : chevauchement,
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 5
-tags: ["changer de pelote tricot", "ajouter une nouvelle pelote", "raccorder fil tricot", "méthodes raccord fil"]
+tags:
+  [
+    "changer de pelote tricot",
+    "ajouter une nouvelle pelote",
+    "raccorder fil tricot",
+    "méthodes raccord fil",
+  ]
 draft: false
 lang: fr
 translationKey: "join-new-ball-of-yarn"
 ---
+
 L'ancienne pelote se termine. La nouvelle doit commencer. La transition doit être invisible dans le tissu fini et assez solide pour ne pas se défaire.
 
 Les quatre grandes méthodes sont le chevauchement (la plus simple, deux fils à rentrer), le joint russe (pas de fils à rentrer, un peu plus épais), le raccord feutré (invisible mais seulement pour la laine feutrable) et le magic knot (rapide mais avec un nœud). Le meilleur choix dépend de la [composition du fil](/fr/articles/fibres-de-fil-laine-coton-acrylique/) et de ton niveau de tolérance pour rentrer les fils.

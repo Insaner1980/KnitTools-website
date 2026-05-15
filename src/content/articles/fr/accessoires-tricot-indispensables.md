@@ -4,11 +4,18 @@ description: "Guide pratique des accessoires tricot : marqueurs, aiguilles à la
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 6
-tags: ["accessoires tricot indispensables", "accessoires tricot", "liste matériel tricot", "petit matériel tricot"]
+tags:
+  [
+    "accessoires tricot indispensables",
+    "accessoires tricot",
+    "liste matériel tricot",
+    "petit matériel tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "essential-knitting-tools"
 ---
+
 Les aiguilles et le fil sont le minimum. Tout le reste dans la trousse d'une personne qui tricote sert à rendre le processus plus fluide, plus rapide ou moins sujet aux erreurs. Surtout quand on débute et qu'on monte sa première trousse. Certains outils sont vraiment utiles dès le premier jour. D'autres gagnent leur place après quelques projets. Et certains sont des solutions qui cherchent un problème.
 
 Les indispensables dès le premier jour : aiguilles à laine, ciseaux, marqueurs de maille et mètre ruban. Tout le reste peut attendre qu'un projet précis en ait besoin. À peu près dans l'ordre où tu en auras besoin :

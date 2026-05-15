@@ -4,10 +4,17 @@ description: "Opi lukemaan neuleohje alusta loppuun. Opas ohjeen osiin, lyhentei
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 2
-tags: ["neuleohjeen lukeminen", "neuleohje aloittelijalle", "neuleohjeiden ymmärtäminen", "miten neuleohjetta luetaan"]
+tags:
+  [
+    "neuleohjeen lukeminen",
+    "neuleohje aloittelijalle",
+    "neuleohjeiden ymmärtäminen",
+    "miten neuleohjetta luetaan",
+  ]
 lang: fi
 translationKey: "how-to-read-knitting-pattern"
 ---
+
 Neuleohjeilla on oma kielensä ja oma tapansa jäsentää tietoa. Ohje rakentuu yleensä ennustettavista osista: materiaalit ja neuletiheys alussa, sen jälkeen kerros kerrokselta kirjoitetut ohjeet lyhenteineen, ja koot annetaan sulkeissa pitkin ohjetta. Ensimmäisellä kerralla se näyttää lyhenneseinältä. Kun tunnistat osiot, kokonaisuus muuttuu luettavaksi.
 
 ## Otsikko ja aloitustiedot: mitä tarvitset ennen aloitusta
@@ -52,7 +59,7 @@ Silmukkaohjeet luetaan vasemmalta oikealle: "K5, p3, k2tog, yo, k to end" tarkoi
 
 Tämä on kohta, jossa moni kompastuu. Ohjeissa käytetään useita toistomerkintöjä.
 
-**Tähti:** "*K2, p2; rep from * to end." Tähti näyttää, mistä toisto alkaa. Kaikki tähden ja toisto-ohjeen välillä on yksi yksikkö. "Rep from *" tarkoittaa palaa tähteen ja tee sama uudelleen. "To end" tarkoittaa toista kerroksen loppuun.
+**Tähti:** "_K2, p2; rep from _ to end." Tähti näyttää, mistä toisto alkaa. Kaikki tähden ja toisto-ohjeen välillä on yksi yksikkö. "Rep from \*" tarkoittaa palaa tähteen ja tee sama uudelleen. "To end" tarkoittaa toista kerroksen loppuun.
 
 **Hakasulkeet:** "[K2, p2] 5 times." Hakasulkeet määrittävät osion ja numero kertoo, montako kertaa se tehdään. Se on täsmällisempi mutta toimii samalla tavalla kuin tähti.
 

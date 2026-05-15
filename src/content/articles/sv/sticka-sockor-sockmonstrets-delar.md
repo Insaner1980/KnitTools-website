@@ -4,11 +4,18 @@ description: "Förstå delarna i en stickad socka och hur sockmönster fungerar.
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 13
-tags: ["sticka sockor", "sockstickning guide", "sticka sockor nybörjare", "sockmönstrets delar"]
+tags:
+  [
+    "sticka sockor",
+    "sockstickning guide",
+    "sticka sockor nybörjare",
+    "sockmönstrets delar",
+  ]
 draft: false
 lang: sv
 translationKey: "how-to-knit-socks"
 ---
+
 Sockor ser avskräckande ut eftersom de innehåller tekniker du inte möter i halsdukar och mössor: vända häl, plocka upp maskor till kilen, sy ihop tån med maskstygn. Men varje del av en socka är i sig ganska rakt på sak. Det komplexa är hur delarna hänger ihop, inte själva stickningen.
 
 En stickad socka har sex delar (mudd, skaft, häl, kil, fot och tå) och kan byggas antingen uppifrån och ner (traditionellt) eller från tån och upp. När du förstår anatomin känns vilket sockmönster som helst mindre mystiskt.

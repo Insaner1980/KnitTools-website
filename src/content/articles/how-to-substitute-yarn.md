@@ -4,8 +4,15 @@ description: "Learn how to swap yarn in a knitting pattern without ruining the p
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 6
-tags: ["substitute yarn knitting pattern", "yarn substitution guide", "swap yarn knitting", "alternative yarn for pattern"]
+tags:
+  [
+    "substitute yarn knitting pattern",
+    "yarn substitution guide",
+    "swap yarn knitting",
+    "alternative yarn for pattern",
+  ]
 ---
+
 The pattern yarn is discontinued. Or it's $30 a skein and the budget says otherwise. Or it's 100% wool and the recipient will toss the finished item in the washing machine on day one.
 
 Yarn substitution is normal. Most knitters do it more often than not. A successful substitution means matching four things between the original and the replacement: weight category, gauge, fiber behavior, and total yardage. Miss one, and the project drifts. Miss two, and it's a different project entirely.

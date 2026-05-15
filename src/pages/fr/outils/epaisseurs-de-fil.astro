@@ -1,26 +1,98 @@
 ---
-import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
-import WpiIdentifier from '../../../components/WpiIdentifier.astro';
-import { routes } from '../../../i18n/routes';
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
+import WpiIdentifier from "../../../components/WpiIdentifier.astro";
+import { routes } from "../../../i18n/routes";
 
 const rows = [
-  ['0', 'Lace / dentelle', 'Cobweb / Light fingering / 2-ply', '33-40+ m. / 10 cm', '1,5-2,25 mm', '30-40+ WPI', 'Châles en dentelle, napperons, points ajourés fins', 'Lace, Cobweb, Light fingering, 2-ply (UK)'],
-  ['1', 'Fingering / Sock', 'Sock / Fingering / Baby / 4-ply', '27-32 m. / 10 cm', '2,25-3,25 mm', '14-30 WPI', 'Chaussettes, layette, châles fins, vêtements légers', 'Sock, Fingering, Baby, 4-ply (UK/AUS)'],
-  ['2', 'Sport', 'Sport / Baby / 5-ply', '23-26 m. / 10 cm', '3,25-3,75 mm', '12-18 WPI', 'Vêtements légers, layette, accessoires', 'Sport, Baby, 5-ply (UK/AUS)'],
-  ['3', 'DK / Light', 'DK / Light Worsted / 8-ply', '21-24 m. / 10 cm', '3,75-4,5 mm', '11-15 WPI', "Pulls, bonnets, écharpes, couvertures bébé, vêtements d'entre-saison", 'DK (Double Knitting), Light Worsted, 8-ply (UK/AUS)'],
-  ['4', 'Worsted / Aran / Medium', 'Worsted / Aran / Afghan / 10-ply', '16-20 m. / 10 cm', '4,5-5,5 mm', '9-12 WPI', 'Pulls, bonnets, moufles, couvertures, la plupart des tricots du quotidien', 'Worsted, Aran, Afghan, 10-ply (AUS)'],
-  ['5', 'Bulky / Chunky', 'Chunky / Craft / Rug / 12-ply', '12-15 m. / 10 cm', '5,5-8 mm', '6-9 WPI', 'Pulls épais, écharpes, couvertures, projets rapides', 'Chunky, Craft, Rug, 12-ply (AUS)'],
-  ['6', 'Super Bulky', 'Super Chunky / Bulky / Roving', '7-11 m. / 10 cm', '8-12,75 mm', '5-6 WPI', 'Grosses couvertures, cols, accessoires rapides', 'Super Chunky, Bulky, Roving'],
-  ['7', 'Jumbo', 'Jumbo / Roving', '0-6 m. / 10 cm', '12,75+ mm', '1-4 WPI', 'Tricot avec les bras, texture très marquée, couvertures oversize', 'Jumbo, Roving'],
+  [
+    "0",
+    "Lace / dentelle",
+    "Cobweb / Light fingering / 2-ply",
+    "33-40+ m. / 10 cm",
+    "1,5-2,25 mm",
+    "30-40+ WPI",
+    "Châles en dentelle, napperons, points ajourés fins",
+    "Lace, Cobweb, Light fingering, 2-ply (UK)",
+  ],
+  [
+    "1",
+    "Fingering / Sock",
+    "Sock / Fingering / Baby / 4-ply",
+    "27-32 m. / 10 cm",
+    "2,25-3,25 mm",
+    "14-30 WPI",
+    "Chaussettes, layette, châles fins, vêtements légers",
+    "Sock, Fingering, Baby, 4-ply (UK/AUS)",
+  ],
+  [
+    "2",
+    "Sport",
+    "Sport / Baby / 5-ply",
+    "23-26 m. / 10 cm",
+    "3,25-3,75 mm",
+    "12-18 WPI",
+    "Vêtements légers, layette, accessoires",
+    "Sport, Baby, 5-ply (UK/AUS)",
+  ],
+  [
+    "3",
+    "DK / Light",
+    "DK / Light Worsted / 8-ply",
+    "21-24 m. / 10 cm",
+    "3,75-4,5 mm",
+    "11-15 WPI",
+    "Pulls, bonnets, écharpes, couvertures bébé, vêtements d'entre-saison",
+    "DK (Double Knitting), Light Worsted, 8-ply (UK/AUS)",
+  ],
+  [
+    "4",
+    "Worsted / Aran / Medium",
+    "Worsted / Aran / Afghan / 10-ply",
+    "16-20 m. / 10 cm",
+    "4,5-5,5 mm",
+    "9-12 WPI",
+    "Pulls, bonnets, moufles, couvertures, la plupart des tricots du quotidien",
+    "Worsted, Aran, Afghan, 10-ply (AUS)",
+  ],
+  [
+    "5",
+    "Bulky / Chunky",
+    "Chunky / Craft / Rug / 12-ply",
+    "12-15 m. / 10 cm",
+    "5,5-8 mm",
+    "6-9 WPI",
+    "Pulls épais, écharpes, couvertures, projets rapides",
+    "Chunky, Craft, Rug, 12-ply (AUS)",
+  ],
+  [
+    "6",
+    "Super Bulky",
+    "Super Chunky / Bulky / Roving",
+    "7-11 m. / 10 cm",
+    "8-12,75 mm",
+    "5-6 WPI",
+    "Grosses couvertures, cols, accessoires rapides",
+    "Super Chunky, Bulky, Roving",
+  ],
+  [
+    "7",
+    "Jumbo",
+    "Jumbo / Roving",
+    "0-6 m. / 10 cm",
+    "12,75+ mm",
+    "1-4 WPI",
+    "Tricot avec les bras, texture très marquée, couvertures oversize",
+    "Jumbo, Roving",
+  ],
 ];
 
 const faqs = [
   {
     q: "Quelle est l'épaisseur de fil la plus courante ?",
-    a: 'Le worsted reste la base de nombreux modèles nord-américains. Le DK apparaît partout dans le tricot britannique et européen. Entre ces deux catégories, tu couvres la grande majorité des vêtements, accessoires et projets maison. Si tu construis un stock polyvalent, c’est un bon point de départ.',
+    a: "Le worsted reste la base de nombreux modèles nord-américains. Le DK apparaît partout dans le tricot britannique et européen. Entre ces deux catégories, tu couvres la grande majorité des vêtements, accessoires et projets maison. Si tu construis un stock polyvalent, c’est un bon point de départ.",
   },
   {
-    q: 'Peut-on remplacer une épaisseur de fil par une autre ?',
+    q: "Peut-on remplacer une épaisseur de fil par une autre ?",
     a: "Oui, mais cela change plus que la taille. Le tombé, la quantité de fil et la taille d'aiguilles changent aussi. Certains remplacements pardonnent bien, comme du DK pour un worsted léger. D'autres deviennent un projet complètement différent. Tricote toujours un échantillon avant de te décider, et recalcule le métrage à partir du nombre total de mailles du modèle d'origine.",
   },
   {
@@ -48,111 +120,246 @@ const faqs = [
 >
   <div slot="tool">
     <div class="cat-list">
-      {rows.map((row, index) => (
-        <details class="cat-card" open={index === 0}>
-          <summary class="cat-summary">
-            <span class="cat-heading">
-              <span>{row[0]}</span>
-              <span class="cat-name">{row[1]}</span>
-            </span>
-            <span class="cat-regional">{row[2]}</span>
-            <span class="cat-toggle" aria-hidden="true">+</span>
-          </summary>
-          <div class="cat-body">
-            <dl class="cat-details">
-              <div class="cat-row">
-                <dt>Échantillon</dt>
-                <dd>{row[3]}</dd>
-              </div>
-              <div class="cat-row">
-                <dt>Aiguilles</dt>
-                <dd>{row[4]}</dd>
-              </div>
-              <div class="cat-row">
-                <dt>WPI</dt>
-                <dd>{row[5]}</dd>
-              </div>
-              <div class="cat-row">
-                <dt>Usages courants</dt>
-                <dd>{row[6]}</dd>
-              </div>
-              <div class="cat-row">
-                <dt>Noms régionaux</dt>
-                <dd>{row[7]}</dd>
-              </div>
-            </dl>
-          </div>
-        </details>
-      ))}
+      {
+        rows.map((row) => (
+          <details class="cat-card">
+            <summary class="cat-summary">
+              <span class="cat-heading">
+                <span>{row[0]}</span>
+                <span class="cat-name">{row[1]}</span>
+              </span>
+              <span class="cat-regional">{row[2]}</span>
+              <span class="cat-toggle" aria-hidden="true">
+                +
+              </span>
+            </summary>
+            <div class="cat-body">
+              <dl class="cat-details">
+                <div class="cat-row">
+                  <dt>Échantillon</dt>
+                  <dd>{row[3]}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>Aiguilles</dt>
+                  <dd>{row[4]}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>WPI</dt>
+                  <dd>{row[5]}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>Usages courants</dt>
+                  <dd>{row[6]}</dd>
+                </div>
+                <div class="cat-row">
+                  <dt>Noms régionaux</dt>
+                  <dd>{row[7]}</dd>
+                </div>
+              </dl>
+            </div>
+          </details>
+        ))
+      }
     </div>
     <WpiIdentifier lang="fr" />
   </div>
 
   <div slot="content">
     <h2>Le problème des noms</h2>
-    <p>C'est là que l'épaisseur de fil devient franchement confuse, et c'est là que commencent la plupart des erreurs de substitution.</p>
+    <p>
+      C'est là que l'épaisseur de fil devient franchement confuse, et c'est là
+      que commencent la plupart des erreurs de substitution.
+    </p>
 
     <h3>Ply ne veut pas dire ce qu'on croit</h3>
-    <p>"4-ply" dans les modèles britanniques et australiens veut généralement dire fingering. Mais ply décrit en réalité la construction du fil, pas son épaisseur. Un fil composé de quatre brins très fins peut tout à fait être plus fin qu'un fil composé de deux gros brins. Les fils single peuvent être bulky. Un 6-ply très retordu peut se retrouver en sport.</p>
-    <p>Le terme est resté parce qu'autrefois, les conventions de filature faisaient qu'un 4-ply sortait de façon assez fiable dans une certaine épaisseur. Ce lien s'est cassé quand les méthodes de filature se sont diversifiées, mais les noms n'ont pas suivi. Donc quand un ancien modèle britannique demande du "3-ply", il désigne une plage d'épaisseur précise, proche de lace ou light fingering, pas un fil littéralement composé de trois brins.</p>
+    <p>
+      "4-ply" dans les modèles britanniques et australiens veut généralement
+      dire fingering. Mais ply décrit en réalité la construction du fil, pas son
+      épaisseur. Un fil composé de quatre brins très fins peut tout à fait être
+      plus fin qu'un fil composé de deux gros brins. Les fils single peuvent
+      être bulky. Un 6-ply très retordu peut se retrouver en sport.
+    </p>
+    <p>
+      Le terme est resté parce qu'autrefois, les conventions de filature
+      faisaient qu'un 4-ply sortait de façon assez fiable dans une certaine
+      épaisseur. Ce lien s'est cassé quand les méthodes de filature se sont
+      diversifiées, mais les noms n'ont pas suivi. Donc quand un ancien modèle
+      britannique demande du "3-ply", il désigne une plage d'épaisseur précise,
+      proche de lace ou light fingering, pas un fil littéralement composé de
+      trois brins.
+    </p>
     <p>Ça piège plus de monde qu'on ne le pense.</p>
 
     <h3>Worsted et aran : proches, mais pas identiques</h3>
-    <p>Les deux sont dans la catégorie CYC 4, Medium, mais aran est souvent un peu plus épais dans cette plage. Un modèle écrit pour un fil aran à un échantillon donné peut devenir trop lâche si tu prends un worsted situé sur le bord fin de la catégorie. L'inverse est vrai aussi.</p>
-    <p>Certaines marques utilisent "worsted" et "aran" presque comme synonymes sur les étiquettes. D'autres font une vraie différence. L'échantillon indiqué sur la bande de pelote est plus fiable que le nom.</p>
+    <p>
+      Les deux sont dans la catégorie CYC 4, Medium, mais aran est souvent un
+      peu plus épais dans cette plage. Un modèle écrit pour un fil aran à un
+      échantillon donné peut devenir trop lâche si tu prends un worsted situé
+      sur le bord fin de la catégorie. L'inverse est vrai aussi.
+    </p>
+    <p>
+      Certaines marques utilisent "worsted" et "aran" presque comme synonymes
+      sur les étiquettes. D'autres font une vraie différence. L'échantillon
+      indiqué sur la bande de pelote est plus fiable que le nom.
+    </p>
 
     <h3>DK, Light Worsted, 8-ply</h3>
-    <p>DK, pour double knitting, est un terme standard au Royaume-Uni. Les modèles américains appellent parfois la même épaisseur "Light Worsted". Les modèles australiens et néo-zélandais disent souvent "8-ply". Les trois tombent en catégorie CYC 3, Light, mais un DK du côté épais peut chevaucher un worsted du côté fin. Les limites de catégories ne sont pas des murs.</p>
+    <p>
+      DK, pour double knitting, est un terme standard au Royaume-Uni. Les
+      modèles américains appellent parfois la même épaisseur "Light Worsted".
+      Les modèles australiens et néo-zélandais disent souvent "8-ply". Les trois
+      tombent en catégorie CYC 3, Light, mais un DK du côté épais peut
+      chevaucher un worsted du côté fin. Les limites de catégories ne sont pas
+      des murs.
+    </p>
 
     <h3>Quand les noms régionaux se croisent</h3>
-    <p>"Sport weight" en Amérique du Nord et "5-ply" dans la terminologie australienne se chevauchent, mais ne correspondent pas parfaitement. "Chunky" dans les modèles britanniques veut généralement dire CYC 5, Bulky, alors que dans l'usage américain courant, "chunky" peut aller de bulky à super bulky.</p>
-    <p>L'approche la plus sûre quand tu passes d'un langage de modèle à un autre : ignore complètement le nom et cherche l'échantillon. Si le modèle demande 20 mailles pour 10 cm avec des aiguilles 4 mm, c'est cela qu'il faut obtenir, peu importe ce que l'étiquette dit du fil.</p>
+    <p>
+      "Sport weight" en Amérique du Nord et "5-ply" dans la terminologie
+      australienne se chevauchent, mais ne correspondent pas parfaitement.
+      "Chunky" dans les modèles britanniques veut généralement dire CYC 5,
+      Bulky, alors que dans l'usage américain courant, "chunky" peut aller de
+      bulky à super bulky.
+    </p>
+    <p>
+      L'approche la plus sûre quand tu passes d'un langage de modèle à un autre
+      : ignore complètement le nom et cherche l'échantillon. Si le modèle
+      demande 20 mailles pour 10 cm avec des aiguilles 4 mm, c'est cela qu'il
+      faut obtenir, peu importe ce que l'étiquette dit du fil.
+    </p>
 
     <h2>Comment fonctionnent les catégories d'épaisseur</h2>
-    <p>Ici, "weight" ne veut pas dire le poids de la pelote dans la main. Cela désigne l'épaisseur du brin. Un fil plus fin donne plus de mailles par 10 cm. Un fil plus épais, moins.</p>
-    <p>Le système du Craft Yarn Council attribue un numéro et un nom à chaque plage d'épaisseur :</p>
+    <p>
+      Ici, "weight" ne veut pas dire le poids de la pelote dans la main. Cela
+      désigne l'épaisseur du brin. Un fil plus fin donne plus de mailles par 10
+      cm. Un fil plus épais, moins.
+    </p>
+    <p>
+      Le système du Craft Yarn Council attribue un numéro et un nom à chaque
+      plage d'épaisseur :
+    </p>
     <ul>
-      <li><strong>0 - Lace.</strong> Fil très fin pour les châles en dentelle et les tissus ajourés.</li>
-      <li><strong>1 - Super Fine.</strong> Territoire fingering et fil à chaussettes.</li>
+      <li>
+        <strong>0 - Lace.</strong> Fil très fin pour les châles en dentelle et les
+        tissus ajourés.
+      </li>
+      <li>
+        <strong>1 - Super Fine.</strong> Territoire fingering et fil à chaussettes.
+      </li>
       <li><strong>2 - Fine.</strong> Sport.</li>
-      <li><strong>3 - Light.</strong> DK et fils intermédiaires pour vêtements.</li>
-      <li><strong>4 - Medium.</strong> Worsted et aran. La plage où beaucoup de tricots passent le plus de temps.</li>
+      <li>
+        <strong>3 - Light.</strong> DK et fils intermédiaires pour vêtements.
+      </li>
+      <li>
+        <strong>4 - Medium.</strong> Worsted et aran. La plage où beaucoup de tricots
+        passent le plus de temps.
+      </li>
       <li><strong>5 - Bulky.</strong> Fils plus épais qui montent vite.</li>
-      <li><strong>6 - Super Bulky.</strong> Accessoires rapides, texture très visible.</li>
-      <li><strong>7 - Jumbo.</strong> L'extrémité la plus épaisse du tableau publié.</li>
+      <li>
+        <strong>6 - Super Bulky.</strong> Accessoires rapides, texture très visible.
+      </li>
+      <li>
+        <strong>7 - Jumbo.</strong> L'extrémité la plus épaisse du tableau publié.
+      </li>
     </ul>
-    <p>Le standard CYC va actuellement de 0 à 7, même si l'organisation a indiqué que le travail sur les tailles continue.</p>
+    <p>
+      Le standard CYC va actuellement de 0 à 7, même si l'organisation a indiqué
+      que le travail sur les tailles continue.
+    </p>
 
     <h2>Identifier l'épaisseur d'un fil sans étiquette</h2>
-    <p>Les fils sans étiquette apparaissent tout le temps. Quelqu'un donne un sac de restes, la bande de pelote a disparu depuis des mois, ou le fil vient d'un cône sans étiquette de magasin.</p>
-    <p>Le premier test le plus rapide est le WPI, c'est-à-dire le nombre de tours de fil sur 2,5 cm.</p>
+    <p>
+      Les fils sans étiquette apparaissent tout le temps. Quelqu'un donne un sac
+      de restes, la bande de pelote a disparu depuis des mois, ou le fil vient
+      d'un cône sans étiquette de magasin.
+    </p>
+    <p>
+      Le premier test le plus rapide est le WPI, c'est-à-dire le nombre de tours
+      de fil sur 2,5 cm.
+    </p>
 
     <h3>Mesurer le WPI</h3>
-    <p>Enroule le fil autour d'un crayon, d'une règle ou d'un outil WPI. Garde les tours côte à côte, assez serrés, sans étirer ni chevaucher. Compte combien tiennent sur 2,5 cm. Le guide CYC utilise ces grandes plages :</p>
+    <p>
+      Enroule le fil autour d'un crayon, d'une règle ou d'un outil WPI. Garde
+      les tours côte à côte, assez serrés, sans étirer ni chevaucher. Compte
+      combien tiennent sur 2,5 cm. Le guide CYC utilise ces grandes plages :
+    </p>
     <ul>
-      <li>30-40+ WPI -> Lace (0)</li>
-      <li>14-30 WPI -> Super Fine (1)</li>
-      <li>12-18 WPI -> Fine (2)</li>
-      <li>11-15 WPI -> Light (3)</li>
-      <li>9-12 WPI -> Medium (4)</li>
-      <li>6-9 WPI -> Bulky (5)</li>
-      <li>5-6 WPI -> Super Bulky (6)</li>
-      <li>1-4 WPI -> Jumbo (7)</li>
+      <li>30-40+ WPI -&gt; Lace (0)</li>
+      <li>14-30 WPI -&gt; Super Fine (1)</li>
+      <li>12-18 WPI -&gt; Fine (2)</li>
+      <li>11-15 WPI -&gt; Light (3)</li>
+      <li>9-12 WPI -&gt; Medium (4)</li>
+      <li>6-9 WPI -&gt; Bulky (5)</li>
+      <li>5-6 WPI -&gt; Super Bulky (6)</li>
+      <li>1-4 WPI -&gt; Jumbo (7)</li>
     </ul>
-    <p>Remarque les plages qui se chevauchent. Un fil à 12 WPI peut être Fine, Light ou Medium selon d'autres facteurs. C'est normal.</p>
+    <p>
+      Remarque les plages qui se chevauchent. Un fil à 12 WPI peut être Fine,
+      Light ou Medium selon d'autres facteurs. C'est normal.
+    </p>
 
     <h3>Quand le WPI se complique</h3>
-    <p>Les fils duveteux comme le mohair sont difficiles à enrouler proprement. Les singles très gonflants peuvent paraître plus fins qu'ils ne se tricotent. Un fil filé main varie sur sa longueur, donc mesure à plusieurs endroits et fais une moyenne. Chenille et fils fantaisie texturés ? Bonne chance pour obtenir un enroulement net.</p>
-    <p>Le WPI t'amène dans la bonne zone. L'échantillon donne la réponse qui compte vraiment. Le <a href="/fr/articles/identifier-un-fil-sans-etiquette/">guide pour identifier un fil inconnu</a> détaille toute la démarche quand l'étiquette manque complètement.</p>
+    <p>
+      Les fils duveteux comme le mohair sont difficiles à enrouler proprement.
+      Les singles très gonflants peuvent paraître plus fins qu'ils ne se
+      tricotent. Un fil filé main varie sur sa longueur, donc mesure à plusieurs
+      endroits et fais une moyenne. Chenille et fils fantaisie texturés ? Bonne
+      chance pour obtenir un enroulement net.
+    </p>
+    <p>
+      Le WPI t'amène dans la bonne zone. L'échantillon donne la réponse qui
+      compte vraiment. Le <a
+        href="/fr/articles/identifier-un-fil-sans-etiquette/"
+        >guide pour identifier un fil inconnu</a
+      > détaille toute la démarche quand l'étiquette manque complètement.
+    </p>
 
     <h2>Choisir une épaisseur de fil pour un projet</h2>
-    <p>Les créateurs de modèles choisissent une épaisseur pour obtenir une matière, pas seulement pour tricoter vite. Changer d'épaisseur change le tombé, la densité, la chaleur et souvent toute l'échelle de l'ouvrage fini.</p>
-    <p>Les épaisseurs fines, 0-2, donnent plus de tombé et une meilleure définition des mailles. Bien pour les chaussettes, châles et jacquards qui demandent un détail net. Les épaisseurs intermédiaires, 3-4, surtout DK et worsted, couvrent énormément de projets : pulls, bonnets, couvertures, layette, accessoires texturés. Les épaisseurs plus fortes, 5-7, privilégient la vitesse et la chaleur, mais donnent des coutures plus épaisses et un ouvrage fini plus lourd. À garder en tête avant de remplacer.</p>
-    <p>Si tu remplaces par une épaisseur hors de la catégorie d'origine, attends-toi à recalculer. Le <a href="/fr/articles/remplacer-un-fil-dans-un-modele/">guide de substitution de fil</a> explique la méthode. Le <a href={routes.tool.castOnCalculator.fr}>calculateur de mailles à monter</a> KnitTools aide pour le nombre de mailles, et l'<a href={routes.tool.yarnEstimator.fr}>estimateur de quantité de laine</a> peut vérifier si le métrage paraît réaliste avant achat.</p>
+    <p>
+      Les créateurs de modèles choisissent une épaisseur pour obtenir une
+      matière, pas seulement pour tricoter vite. Changer d'épaisseur change le
+      tombé, la densité, la chaleur et souvent toute l'échelle de l'ouvrage
+      fini.
+    </p>
+    <p>
+      Les épaisseurs fines, 0-2, donnent plus de tombé et une meilleure
+      définition des mailles. Bien pour les chaussettes, châles et jacquards qui
+      demandent un détail net. Les épaisseurs intermédiaires, 3-4, surtout DK et
+      worsted, couvrent énormément de projets : pulls, bonnets, couvertures,
+      layette, accessoires texturés. Les épaisseurs plus fortes, 5-7,
+      privilégient la vitesse et la chaleur, mais donnent des coutures plus
+      épaisses et un ouvrage fini plus lourd. À garder en tête avant de
+      remplacer.
+    </p>
+    <p>
+      Si tu remplaces par une épaisseur hors de la catégorie d'origine,
+      attends-toi à recalculer. Le <a
+        href="/fr/articles/remplacer-un-fil-dans-un-modele/"
+        >guide de substitution de fil</a
+      > explique la méthode. Le <a href={routes.tool.castOnCalculator.fr}
+        >calculateur de mailles à monter</a
+      > KnitTools aide pour le nombre de mailles, et l'<a
+        href={routes.tool.yarnEstimator.fr}>estimateur de quantité de laine</a
+      > peut vérifier si le métrage paraît réaliste avant achat.
+    </p>
 
     <h2>Le lien entre épaisseur de fil et taille d'aiguilles</h2>
-    <p>Les tailles d'aiguilles recommandées sont des points de départ. Pas des promesses. Le même DK peut donner un bonnet ferme sur une aiguille et un gilet souple sur une autre.</p>
-    <p>C'est là que l'échantillon prend le relais. L'étiquette peut donner une direction, mais ton fil, ta tension et ton projet décident de la taille d'aiguilles finale.</p>
-    <p>Si tu dois traduire les systèmes de tailles avant de pouvoir faire ton échantillon, le <a href={routes.tool.needleSizeChart.fr}>tableau des tailles d'aiguilles</a> est la page à garder ouverte à côté.</p>
+    <p>
+      Les tailles d'aiguilles recommandées sont des points de départ. Pas des
+      promesses. Le même DK peut donner un bonnet ferme sur une aiguille et un
+      gilet souple sur une autre.
+    </p>
+    <p>
+      C'est là que l'échantillon prend le relais. L'étiquette peut donner une
+      direction, mais ton fil, ta tension et ton projet décident de la taille
+      d'aiguilles finale.
+    </p>
+    <p>
+      Si tu dois traduire les systèmes de tailles avant de pouvoir faire ton
+      échantillon, le <a href={routes.tool.needleSizeChart.fr}
+        >tableau des tailles d'aiguilles</a
+      > est la page à garder ouverte à côté.
+    </p>
   </div>
 </LocalizedToolPage>

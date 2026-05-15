@@ -4,7 +4,13 @@ description: "Comment utiliser une autre épaisseur de fil dans un modèle : rec
 publishDate: 2026-05-01
 category: "yarn"
 categoryOrder: 7
-tags: ["changer épaisseur de fil", "substitution de fil", "fil plus épais tricot", "adapter modèle tricot"]
+tags:
+  [
+    "changer épaisseur de fil",
+    "substitution de fil",
+    "fil plus épais tricot",
+    "adapter modèle tricot",
+  ]
 draft: false
 lang: fr
 translationKey: "yarn-weight-substitution"
@@ -63,4 +69,3 @@ Descendre d'une épaisseur pour rendre un modèle plus léger et plus délicat f
 La taille d'aiguilles du modèle devra presque sûrement changer. Pars de la plage recommandée pour le nouveau fil, puis fais confiance à l'échantillon.
 
 Si tu veux comprendre [pourquoi l'échantillon varie](/fr/articles/comprendre-l-echantillon-au-tricot/) et ce qui le fait bouger, ce contexte aide ici. Savoir si la mise en forme d'origine fonctionne encore dépend de sa complexité. Pour une mise en forme simple, souvent oui. Pour une construction de vêtement complexe, probablement pas sans plus de travail que ce que le mot "substitution" laisse entendre. Le guide pour [mesurer l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/) est le bon point de départ une fois le nouveau fil en main.
-

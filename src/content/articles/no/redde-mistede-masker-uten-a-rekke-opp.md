@@ -4,11 +4,18 @@ description: "Redd mistede masker i strikking med heklenål. Dekker glattstrikk,
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 3
-tags: ["redde mistet maske strikking", "plukke opp mistet maske", "redde mistet maske heklenål", "løpemaske stige"]
+tags:
+  [
+    "redde mistet maske strikking",
+    "plukke opp mistet maske",
+    "redde mistet maske heklenål",
+    "løpemaske stige",
+  ]
 draft: false
 lang: no
 translationKey: "fix-dropped-stitches"
 ---
+
 En mistet maske betyr ikke at du må rekke opp hele stykket. I de fleste tilfeller kan du redde den med en heklenål på under et minutt. Masken glir av pinnen, og hvis du ikke fanger den, løper den ned gjennom pinnene under som en stige i en strømpe. Men hvert trinn i den stigen er en garntråd som kan trekkes tilbake gjennom masken, én pinne om gangen, til masken er tilbake på pinnen.
 
 For å fikse en mistet maske setter du heklenålen gjennom den løse løkken, fanger den horisontale tråden bak den og trekker tråden gjennom. Gjenta for hver pinne masken har løpt ned. Ha en heklenål omtrent på størrelse med strikkepinnene i tilbehørsmappen. Du kommer til å bruke den.

@@ -4,11 +4,18 @@ description: "Warum glatt rechts sich einrollt und was hilft: Randmuster, Spanne
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 4
-tags: ["glatt rechts rollt sich", "Strickstück rollt sich ein", "Strickkante rollt sich", "Rollkante Stricken"]
+tags:
+  [
+    "glatt rechts rollt sich",
+    "Strickstück rollt sich ein",
+    "Strickkante rollt sich",
+    "Rollkante Stricken",
+  ]
 draft: false
 lang: de
 translationKey: "why-knitting-curls"
 ---
+
 Glatt rechts rollt sich ein. Das ist kein Problem mit deiner Fadenspannung, kein Garnfehler und kein Zeichen, dass du etwas falsch machst. Es ist Physik.
 
 Rechte Maschen sind etwas schmaler als linke Maschen. Bei glatt rechts, rechte Maschen auf der rechten Seite und linke Maschen auf der linken Seite, zieht die schmalere rechte Seite die breitere linke Seite nach innen. Der Stoff rollt sich oben und unten zur rechten Seite, an den Seitenkanten zur linken Seite.

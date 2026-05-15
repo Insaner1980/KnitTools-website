@@ -4,11 +4,18 @@ description: "Décode les étiquettes de fil : composition, épaisseur, échanti
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 3
-tags: ["lire étiquette pelote", "symboles étiquette laine", "bande pelote", "symboles entretien laine"]
+tags:
+  [
+    "lire étiquette pelote",
+    "symboles étiquette laine",
+    "bande pelote",
+    "symboles entretien laine",
+  ]
 draft: false
 lang: fr
 translationKey: "how-to-read-yarn-label"
 ---
+
 Cette petite bande de papier autour d'une pelote ? Elle ne sert pas seulement à tenir le fil ensemble. Chaque symbole, nombre et icône existe parce que quelqu'un, quelque part, a acheté le mauvais fil ou a ruiné un pull fini au lavage. L'étiquette est l'aide-mémoire qu'on aurait aimé lire avant.
 
 Une étiquette de pelote te donne la composition du fil, la catégorie d'épaisseur, l'échantillon recommandé, la taille d'aiguille, les consignes d'entretien et le bain de teinture. Tout ce qu'il faut pour choisir, utiliser et entretenir le fil correctement. Prends une pelote sur une étagère ou sors-en une de ton stock. Voici ce que chaque partie raconte vraiment.

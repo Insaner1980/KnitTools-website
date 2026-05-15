@@ -4,11 +4,18 @@ description: "Regn ut riktig oppleggstall fra prøvelappen din. Dekker prosjektb
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 5
-tags: ["hvor mange masker legge opp", "oppleggskalkulator strikking", "beregne masker til bredde", "maskeantall strikking"]
+tags:
+  [
+    "hvor mange masker legge opp",
+    "oppleggskalkulator strikking",
+    "beregne masker til bredde",
+    "maskeantall strikking",
+  ]
 draft: false
 lang: no
 translationKey: "how-many-stitches-to-cast-on"
 ---
+
 Før første pinne, før du velger oppleggsteknikk, før alt annet. Du trenger et tall. Og det tallet kommer fra strikkefasthet, ikke fra garnetiketten, ikke fra det som fungerte på forrige prosjekt, og definitivt ikke fra et håpefullt gjett.
 
 For å beregne oppleggstallet ganger du strikkefastheten din med ønsket bredde, og justerer deretter for rapporter og kantmasker. Matematikken er egentlig enkel. Å ha riktige tall inn er det som betyr noe.

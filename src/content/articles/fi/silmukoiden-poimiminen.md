@@ -4,10 +4,17 @@ description: "Opi poimimaan silmukoita vaakasuorista, pystysuorista ja kaarevist
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 11
-tags: ["silmukoiden poimiminen neuleessa", "poimi ja neulo", "silmukoiden poimiminen reunasta", "silmukoiden poimiminen pääntieltä"]
+tags:
+  [
+    "silmukoiden poimiminen neuleessa",
+    "poimi ja neulo",
+    "silmukoiden poimiminen reunasta",
+    "silmukoiden poimiminen pääntieltä",
+  ]
 lang: fi
 translationKey: "pick-up-stitches"
 ---
+
 Silmukoiden poimiminen luo uuden kerroksen eläviä silmukoita valmiin reunan varrelle, jotta voit neuloa reunuksen, pääntieresorin, nappilistan tai kauluksen suoraan kappaleeseen ilman ompelua. Raaka reuna muuttuu viimeistellyksi.
 
 Sileän neuleen pystysuorassa reunassa tavallinen poimintasuhde on 3 silmukkaa jokaista 4 kerrosta kohti. Se korjaa eron silmukan leveyden ja kerroskorkeuden välillä. Itse liike on nopea oppia. Hankala osa on väli: montako silmukkaa poimitaan tietyltä matkalta ja miten ne jaetaan tasaisesti.

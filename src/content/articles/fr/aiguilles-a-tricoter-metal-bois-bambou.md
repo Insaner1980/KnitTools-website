@@ -4,11 +4,18 @@ description: "Comparer les matières d'aiguilles à tricoter : métal, bois, bam
 publishDate: 2026-05-01
 category: needles
 categoryOrder: 2
-tags: ["matière aiguilles à tricoter", "meilleures aiguilles tricot", "aiguilles bois ou métal", "aiguilles bambou"]
+tags:
+  [
+    "matière aiguilles à tricoter",
+    "meilleures aiguilles tricot",
+    "aiguilles bois ou métal",
+    "aiguilles bambou",
+  ]
 draft: false
 lang: fr
 translationKey: "knitting-needle-materials"
 ---
+
 La matière des aiguilles change la façon dont le fil glisse, la sensation dans la main et la fatigue après une heure de tricot. C'est pour ça qu'une même tricoteuse peut prendre du métal pour un projet et du bambou pour le suivant.
 
 Les aiguilles en métal sont les plus rapides et les plus solides, le bois donne de la chaleur et une accroche modérée, et le bambou offre le plus de friction. Cela en fait l'option la plus tolérante pour débuter. Il n'y a pas de meilleure matière universelle. Seulement une meilleure correspondance avec le fil, le projet et ta façon de tricoter.

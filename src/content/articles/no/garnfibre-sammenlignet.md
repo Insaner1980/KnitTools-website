@@ -4,11 +4,18 @@ description: "Hvordan ull, bomull, akryl og fiberblandinger oppfører seg i stri
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 8
-tags: ["garnfibre sammenlignet", "ull vs bomull strikking", "akryl vs ull garn", "beste garnfiber til strikking"]
+tags:
+  [
+    "garnfibre sammenlignet",
+    "ull vs bomull strikking",
+    "akryl vs ull garn",
+    "beste garnfiber til strikking",
+  ]
 draft: false
 lang: no
 translationKey: "yarn-fibers-compared"
 ---
+
 Strikk samme fletteprøve i ull og bomull, hold dem ved siden av hverandre, og de ser ut som de kommer fra to ulike oppskrifter. Ullversjonen spretter. Flettene løfter seg. Bomullsversjonen henger litt, ligger flatere og viser hver maske med nesten ubehagelig ærlighet. Samme pinne, samme hender, samme maskeantall. Helt ulikt stoff.
 
 Forskjellen er ikke kosmetisk. Fiberinnhold former hvordan et prosjekt føles i hendene mens du strikker, hvordan det blokkes, hvordan det slites over måneder og år, og om det holder formen eller sakte gir etter for tyngdekraften. Fiberinnhold avgjør hvordan ferdig stoff føles, faller, blokkes og holder over tid. Ull gir elastisitet og blokkepotensial, bomull gir fall og vaskbarhet, akryl gir lav pris og maskinvaskbar slitestyrke. Etiketten på nøstet er ikke liten skrift. Den er den mest nyttige informasjonen om hva garnet faktisk kommer til å gjøre.

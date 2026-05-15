@@ -4,11 +4,18 @@ description: "Räkna ut hur mycket garn du behöver till halsdukar, tröjor, fil
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 2
-tags: ["hur mycket garn behöver jag stickning", "garnåtgångskalkylator", "uppskatta garn stickning", "hur många nystan behöver jag"]
+tags:
+  [
+    "hur mycket garn behöver jag stickning",
+    "garnåtgångskalkylator",
+    "uppskatta garn stickning",
+    "hur många nystan behöver jag",
+  ]
 draft: false
 lang: sv
 translationKey: "how-much-yarn-do-i-need"
 ---
+
 Att få slut på garn när tre fjärdedelar av projektet är klart är en särskild sorts nederlag. Färgbadet är slut. Butiken har sålt slut. Eller ersättningsnystanet såg tillräckligt likt ut i butiken och helt fel när det stickades bredvid originalet. Två centimeter från avmaskning och hela projektet stannar. Det händer oftare än det borde, och nästan alltid går det att förebygga.
 
 Hur mycket garn ett stickprojekt behöver beror på fyra saker: projektets mått, garntjocklek, maskbild och stickfasthet. Bra uppskattning är inte gissning. Det handlar om att få de fyra uppgifterna rätt. Gör du det hamnar uppskattningen förvånansvärt nära. Ignorerar du en av dem chansar du.

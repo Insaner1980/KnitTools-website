@@ -4,11 +4,18 @@ description: "So rettest du fallengelassene Maschen mit einer Häkelnadel: in gl
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 3
-tags: ["fallengelassene Masche", "Masche aufnehmen Stricken", "Laufmasche reparieren", "Masche mit Häkelnadel retten"]
+tags:
+  [
+    "fallengelassene Masche",
+    "Masche aufnehmen Stricken",
+    "Laufmasche reparieren",
+    "Masche mit Häkelnadel retten",
+  ]
 draft: false
 lang: de
 translationKey: "fix-dropped-stitches"
 ---
+
 Eine fallengelassene Masche heißt nicht, dass du das ganze Stück aufribbeln musst. Meist lässt sie sich mit einer Häkelnadel in weniger als einer Minute retten. Die Masche rutscht von der Nadel, und wenn du sie nicht erwischst, läuft sie durch die Reihen nach unten wie eine Leiter. Jede Sprosse dieser Leiter ist aber ein Garnfaden, der wieder durch die Masche gezogen werden kann, Reihe für Reihe, bis die Masche zurück auf der Nadel ist.
 
 Kurzfassung: Stich mit der Häkelnadel durch die lose Schlaufe, greif den waagerechten Faden dahinter und zieh ihn durch. Wiederhole das für jede Reihe, die die Masche nach unten gelaufen ist. Eine Häkelnadel ungefähr in deiner Nadelstärke gehört in den Zubehörbeutel. Du wirst sie brauchen.

@@ -4,11 +4,18 @@ description: "Lär dig skarva in ett nytt nystan när du stickar. Om överlappni
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 5
-tags: ["skarva nytt nystan stickning", "fästa nytt garn stickning", "byta nystan mitt i varvet", "garnskarvar stickning"]
+tags:
+  [
+    "skarva nytt nystan stickning",
+    "fästa nytt garn stickning",
+    "byta nystan mitt i varvet",
+    "garnskarvar stickning",
+  ]
 draft: false
 lang: sv
 translationKey: "join-new-ball-of-yarn"
 ---
+
 Det gamla nystanet tar slut. Det nya måste börja. Övergången ska vara osynlig i det färdiga tyget och tillräckligt säker för att inte repa upp sig.
 
 De fyra vanligaste metoderna är överlappningsskarv (enklast, två ändar att fästa), Russian join (inga ändar, lite tjockare), filtad skarv/spit splice (osynlig men bara för filtbar ull) och magic knot (snabb men lämnar en knut). Bästa valet beror på garnets [fiberinnehåll](/sv/artiklar/garnfibrer-jamforda-ull-bomull-akryl/) och hur mycket du bryr dig om att fästa trådar.

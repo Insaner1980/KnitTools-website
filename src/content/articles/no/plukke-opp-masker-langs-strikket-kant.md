@@ -4,11 +4,18 @@ description: "Lær å plukke opp masker langs horisontale, vertikale og buede ka
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 11
-tags: ["plukke opp masker strikking", "plukke opp og strikke", "plukke opp masker langs kant", "plukke opp masker hals"]
+tags:
+  [
+    "plukke opp masker strikking",
+    "plukke opp og strikke",
+    "plukke opp masker langs kant",
+    "plukke opp masker hals",
+  ]
 draft: false
 lang: no
 translationKey: "pick-up-stitches"
 ---
+
 Å plukke opp masker lager en ny rad levende masker langs en eksisterende kant, slik at du kan strikke kant, halskant, knappestolpe eller krage direkte på delen uten å sy noe. En rå kant blir en ferdig kant.
 
 Standardforholdet for å plukke opp masker langs en vertikal glattstrikket kant er 3 masker for hver 4 pinner, for å kompensere for forskjellen mellom maskebredde og pinnehøyde. Bevegelsen er rask å lære. Det vanskelige er avstanden: hvor mange masker du skal plukke opp over en lengde, og hvordan du fordeler dem jevnt.

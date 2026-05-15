@@ -4,11 +4,18 @@ description: "Lär dig räkna ut rätt antal uppläggningsmaskor för stickproje
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 5
-tags: ["hur många maskor lägga upp", "uppläggningskalkylator stickning", "räkna maskor för bredd", "maskantal stickning"]
+tags:
+  [
+    "hur många maskor lägga upp",
+    "uppläggningskalkylator stickning",
+    "räkna maskor för bredd",
+    "maskantal stickning",
+  ]
 draft: false
 lang: sv
 translationKey: "how-many-stitches-to-cast-on"
 ---
+
 Före första varvet, före valet av uppläggningsmetod, före allt annat. Du behöver ett antal. Och det antalet kommer från stickfastheten, inte från banderollen, inte från det som fungerade i förra projektet och definitivt inte från en hoppfull gissning.
 
 För att räkna ut hur många maskor du ska lägga upp multiplicerar du din stickfasthet (maskor per cm) med önskad bredd i cm och justerar sedan för rapporter och kantmaskor. Matten är faktiskt enkel. Det är rätt indata som spelar roll.

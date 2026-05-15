@@ -4,11 +4,18 @@ description: "Garnbedarf für gestrickte Pullover nach Größe und Garnstärke. 
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 4
-tags: ["Garn für Pullover", "Pullover Garnbedarf", "wie viel Garn für Pullover", "wie viele Knäuel Pullover"]
+tags:
+  [
+    "Garn für Pullover",
+    "Pullover Garnbedarf",
+    "wie viel Garn für Pullover",
+    "wie viele Knäuel Pullover",
+  ]
 draft: false
 lang: de
 translationKey: "yarn-for-sweater"
 ---
+
 Ein Pullover ist das größte Kleidungsstück, das viele Strickende machen, und der Garnbedarf zeigt das. Unterschätzt du ihn, suchst du am Ende eine verschwundene Farbpartie, während noch ein halber Ärmel fehlt. Überschätzt du stark, bleibt teures Garn auf unbestimmte Zeit im Garnvorrat.
 
 Die richtige Menge hängt von drei Dingen ab: Größe, Garnstärke und Konstruktion. Ein Cropped-Pullover aus Bulky kann etwa 600 m brauchen. Ein langer Cardigan aus Fingering kann über 2.500 m gehen. Die Spannen unten decken den üblichen Mittelbereich ab.

@@ -4,11 +4,18 @@ description: "Deine Maschenprobe passt nicht zur Strickanleitung? So findest du 
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 3
-tags: ["Maschenprobe passt nicht", "Maschenprobe korrigieren", "Nadelstärke ändern", "Maschenprobe Anleitung"]
+tags:
+  [
+    "Maschenprobe passt nicht",
+    "Maschenprobe korrigieren",
+    "Nadelstärke ändern",
+    "Maschenprobe Anleitung",
+  ]
 draft: false
 lang: de
 translationKey: "gauge-doesnt-match"
 ---
+
 Deine Maschenprobe ergibt 19 Maschen auf 10 cm. Die Anleitung verlangt 20. Eine Masche klingt nicht nach viel, bis du sie auf einen Pulloverumfang von 100 cm hochrechnest und merkst, dass das fertige Kleidungsstück mehrere Zentimeter zu weit wird. Das ist der Unterschied zwischen einem passenden Teil und einem, das von den Schultern hängt.
 
 Eine abweichende Maschenprobe lässt sich korrigieren. Die richtige Reaktion hängt davon ab, wie weit du danebenliegst, welches Projekt du strickst und ob sich der Stoff selbst auf der Nadel richtig anfühlt.

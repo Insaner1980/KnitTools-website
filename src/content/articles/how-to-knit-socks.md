@@ -4,8 +4,15 @@ description: "Understand the parts of a knitted sock and how patterns work. Cuff
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 13
-tags: ["how to knit socks", "sock knitting guide", "knit socks beginners", "sock pattern anatomy"]
+tags:
+  [
+    "how to knit socks",
+    "sock knitting guide",
+    "knit socks beginners",
+    "sock pattern anatomy",
+  ]
 ---
+
 Socks look intimidating because they involve techniques you don't encounter in scarves and hats: turning a heel, picking up gusset stitches, grafting the toe with Kitchener stitch. But each section of a sock is individually straightforward. The complexity is in how the parts connect, not in the knitting itself.
 
 A knitted sock has six sections (cuff, leg, heel, gusset, foot, and toe) and can be constructed either cuff-down (traditional) or toe-up. Understanding the anatomy makes any sock pattern less mysterious.

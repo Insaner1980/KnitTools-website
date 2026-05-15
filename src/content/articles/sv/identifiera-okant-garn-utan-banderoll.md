@@ -4,11 +4,18 @@ description: "Ta reda på vad du har när banderollen saknas. Tester för fiberi
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 9
-tags: ["identifiera okänt garn", "garn utan banderoll", "brännprov garn", "WPI garn tjocklek"]
+tags:
+  [
+    "identifiera okänt garn",
+    "garn utan banderoll",
+    "brännprov garn",
+    "WPI garn tjocklek",
+  ]
 draft: false
 lang: sv
 translationKey: "identify-mystery-yarn"
 ---
+
 De flesta stickare hamnar förr eller senare med okänt garn. Banderollen har fallit av, garnet kom från någon annans förråd, eller nystanet hade aldrig särskilt mycket information från början. Second hand-påsar, ärvda samlingar, rester från byten.
 
 För att identifiera okänt garn börjar du med WPI, alltså lindningar per 2,5 cm, för att hitta garntjockleken, och använder sedan brännprov och vattentest för att ringa in fiberfamiljen. Du får inte alltid exakt märke eller procent, men tjockleksintervall och grov fibertyp räcker oftast.

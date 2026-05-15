@@ -1,49 +1,49 @@
 ---
-import LocalizedToolPage from '../../../components/LocalizedToolPage.astro';
-import { routes } from '../../../i18n/routes';
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
+import { routes } from "../../../i18n/routes";
 
 const rows = [
-  ['1.5', '000', '-', '-', 'Lace'],
-  ['1.75', '00', '-', '-', 'Lace'],
-  ['2.0', '0', '14', '0', 'Lace'],
-  ['2.25', '1', '13', '-', 'Super Fine'],
-  ['2.5', '1.5', '-', '-', 'Super Fine'],
-  ['2.75', '2', '12', '2', 'Super Fine'],
-  ['3.0', '2.5', '11', '3', 'Fine'],
-  ['3.25', '3', '10', '-', 'Fine'],
-  ['3.5', '4', '-', '5', 'Fine'],
-  ['3.75', '5', '9', '-', 'Light'],
-  ['4.0', '6', '8', '6', 'Light'],
-  ['4.5', '7', '7', '8', 'Medium'],
-  ['5.0', '8', '6', '10', 'Medium'],
-  ['5.5', '9', '5', '-', 'Medium'],
-  ['6.0', '10', '4', '13', 'Bulky'],
-  ['6.5', '10.5', '3', '-', 'Bulky'],
-  ['7.0', '-', '2', '-', 'Bulky'],
-  ['8.0', '11', '0', '-', 'Super Bulky'],
-  ['9.0', '13', '00', '-', 'Super Bulky'],
-  ['10.0', '15', '000', '-', 'Super Bulky'],
-  ['12.0', '17', '-', '-', 'Jumbo'],
-  ['12.75', '-', '-', '-', 'Jumbo'],
-  ['15.0', '19', '-', '-', 'Jumbo'],
-  ['16.0', '19', '-', '-', 'Jumbo'],
-  ['19.0', '35', '-', '-', 'Jumbo'],
-  ['25.0', '50', '-', '-', 'Jumbo'],
+  ["1.5", "000", "-", "-", "Lace"],
+  ["1.75", "00", "-", "-", "Lace"],
+  ["2.0", "0", "14", "0", "Lace"],
+  ["2.25", "1", "13", "-", "Super Fine"],
+  ["2.5", "1.5", "-", "-", "Super Fine"],
+  ["2.75", "2", "12", "2", "Super Fine"],
+  ["3.0", "2.5", "11", "3", "Fine"],
+  ["3.25", "3", "10", "-", "Fine"],
+  ["3.5", "4", "-", "5", "Fine"],
+  ["3.75", "5", "9", "-", "Light"],
+  ["4.0", "6", "8", "6", "Light"],
+  ["4.5", "7", "7", "8", "Medium"],
+  ["5.0", "8", "6", "10", "Medium"],
+  ["5.5", "9", "5", "-", "Medium"],
+  ["6.0", "10", "4", "13", "Bulky"],
+  ["6.5", "10.5", "3", "-", "Bulky"],
+  ["7.0", "-", "2", "-", "Bulky"],
+  ["8.0", "11", "0", "-", "Super Bulky"],
+  ["9.0", "13", "00", "-", "Super Bulky"],
+  ["10.0", "15", "000", "-", "Super Bulky"],
+  ["12.0", "17", "-", "-", "Jumbo"],
+  ["12.75", "-", "-", "-", "Jumbo"],
+  ["15.0", "19", "-", "-", "Jumbo"],
+  ["16.0", "19", "-", "-", "Jumbo"],
+  ["19.0", "35", "-", "-", "Jumbo"],
+  ["25.0", "50", "-", "-", "Jumbo"],
 ];
 
-const formatMm = (value: string) => value.replace('.', ',');
+const formatMm = (value: string) => value.replace(".", ",");
 
 const faqs = [
   {
     q: "Puis-je remplacer par une taille d'aiguilles proche si je n'ai pas exactement la bonne ?",
-    a: 'Tu peux, mais un écart de 0,5 mm change souvent assez l’échantillon pour que cela se voie. Refais un échantillon pour tout ce qui doit être ajusté au corps.',
+    a: "Tu peux, mais un écart de 0,5 mm change souvent assez l’échantillon pour que cela se voie. Refais un échantillon pour tout ce qui doit être ajusté au corps.",
   },
   {
     q: "Les tailles d'aiguilles sont-elles identiques selon les marques ?",
     a: "Elles devraient l'être. En pratique, il existe de petites différences, surtout avec les sets bon marché ou les aiguilles anciennes. Si ton échantillon est toujours décalé, mesure l'aiguille.",
   },
   {
-    q: 'Et les aiguilles circulaires ?',
+    q: "Et les aiguilles circulaires ?",
     a: "Même système que les aiguilles droites. La taille décrit le diamètre de la pointe, pas la longueur du câble. Une circulaire de 4,5 mm reste une aiguille de 4,5 mm, que le câble soit court pour un bonnet ou long pour le magic loop.",
   },
   {
@@ -86,65 +86,167 @@ const faqs = [
             </tr>
           </thead>
           <tbody>
-            {rows.map((row) => (
-              <tr data-mm={row[0]} data-us={row[1] === '-' ? '' : row[1]} data-uk={row[2] === '-' ? '' : row[2]} data-jp={row[3] === '-' ? '' : row[3]}>
-                <td class="col-mm">{formatMm(row[0])}</td>
-                {row.slice(1).map((cell) => <td>{cell === '-' ? '—' : cell}</td>)}
-              </tr>
-            ))}
+            {
+              rows.map((row) => (
+                <tr
+                  data-mm={row[0]}
+                  data-us={row[1] === "-" ? "" : row[1]}
+                  data-uk={row[2] === "-" ? "" : row[2]}
+                  data-jp={row[3] === "-" ? "" : row[3]}
+                >
+                  <td class="col-mm">{formatMm(row[0])}</td>
+                  {row.slice(1).map((cell) => (
+                    <td>{cell === "-" ? "—" : cell}</td>
+                  ))}
+                </tr>
+              ))
+            }
           </tbody>
         </table>
       </div>
-      <p class="no-results" id="no-results" hidden>Aucune taille d'aiguille trouvée.</p>
+      <p class="no-results" id="no-results" hidden>
+        Aucune taille d'aiguille trouvée.
+      </p>
     </div>
   </div>
 
   <div slot="content">
     <h2>Pourquoi il existe quatre systèmes</h2>
-    <p>Le système métrique est le seul qui dit ce que l'aiguille mesure vraiment. Une aiguille de 4,0 mm mesure 4,0 mm. C'est tout.</p>
-    <p>Les tailles US sont des étiquettes. US 7 veut dire 4,5 mm et US 8 veut dire 5,0 mm, mais ces chiffres ne donnent aucune indication sur le diamètre.</p>
-    <p>Les anciennes tailles UK et canadiennes vont à l'envers. UK 14 est très fin, et les nombres diminuent quand les aiguilles grossissent jusqu'à 0, 00 et 000. La plupart des modèles britanniques récents donnent le métrique, mais l'ancien système apparaît encore sur des aiguilles vintage et dans des livrets de modèles d'occasion.</p>
-    <p>Les tailles japonaises suivent le métrique de près, mais pas parfaitement. La taille japonaise 6 correspond à 3,9 mm, la taille japonaise 8 à 4,5 mm. Cet écart compte surtout dans les échantillons fins, où quelques dixièmes de millimètre changent le tissu fini.</p>
+    <p>
+      Le système métrique est le seul qui dit ce que l'aiguille mesure vraiment.
+      Une aiguille de 4,0 mm mesure 4,0 mm. C'est tout.
+    </p>
+    <p>
+      Les tailles US sont des étiquettes. US 7 veut dire 4,5 mm et US 8 veut
+      dire 5,0 mm, mais ces chiffres ne donnent aucune indication sur le
+      diamètre.
+    </p>
+    <p>
+      Les anciennes tailles UK et canadiennes vont à l'envers. UK 14 est très
+      fin, et les nombres diminuent quand les aiguilles grossissent jusqu'à 0,
+      00 et 000. La plupart des modèles britanniques récents donnent le
+      métrique, mais l'ancien système apparaît encore sur des aiguilles vintage
+      et dans des livrets de modèles d'occasion.
+    </p>
+    <p>
+      Les tailles japonaises suivent le métrique de près, mais pas parfaitement.
+      La taille japonaise 6 correspond à 3,9 mm, la taille japonaise 8 à 4,5 mm.
+      Cet écart compte surtout dans les échantillons fins, où quelques dixièmes
+      de millimètre changent le tissu fini.
+    </p>
 
     <h2>Quand le métrique est le plus sûr</h2>
-    <p>Fie-toi d'abord à la taille en millimètres. C'est la mesure réelle, et cela évite complètement les erreurs de conversion.</p>
-    <p>Quand un modèle demande des "US 7", ce qu'il te faut en main, c'est du 4,5 mm. Certaines marques inscrivent les deux chiffres sur l'aiguille. D'autres non. Les anciens marquages s'effacent. Une jauge à aiguilles vaut la peine d'être gardée à portée de main exactement pour ça.</p>
+    <p>
+      Fie-toi d'abord à la taille en millimètres. C'est la mesure réelle, et
+      cela évite complètement les erreurs de conversion.
+    </p>
+    <p>
+      Quand un modèle demande des "US 7", ce qu'il te faut en main, c'est du 4,5
+      mm. Certaines marques inscrivent les deux chiffres sur l'aiguille.
+      D'autres non. Les anciens marquages s'effacent. Une jauge à aiguilles vaut
+      la peine d'être gardée à portée de main exactement pour ça.
+    </p>
 
     <h2>Les pièges de conversion fréquents</h2>
     <p>Quelques tailles posent régulièrement problème.</p>
-    <p><strong>Le système UK est inversé.</strong> Les tailles US montent quand les aiguilles grossissent. Les anciennes tailles UK descendent. US 6 correspond à 4,0 mm. UK 6 correspond à 5,0 mm. Les confondre décale ton échantillon d'un millimètre entier avant même le premier rang. Ça arrive plus souvent qu'on ne le croit.</p>
-    <p><strong>Toutes les tailles n'ont pas d'équivalent parfait.</strong> Toutes les tailles métriques ne tombent pas proprement dans chaque autre système. Une aiguille de 3,0 mm est parfois marquée US 2.5 par certaines marques, tandis que d'autres tableaux la placent entre US 2 et US 3. Une aiguille de 3,5 mm n'a souvent aucun équivalent UK ancien. Dans ce cas, reviens aux millimètres et ignore le reste.</p>
-    <p><strong>Les presque-équivalences japonaises.</strong> Les tailles japonaises ne s'alignent pas proprement avec les numéros US. La taille japonaise 8 correspond à 4,5 mm, donc US 7, mais la taille japonaise 5 fait 3,6 mm et ne se place pas franchement dans le système US. Si tu tricotes depuis un modèle japonais, suis la valeur en mm. Pas le numéro imprimé. Toujours la valeur en mm.</p>
-    <p><strong>Les demi-tailles et tailles impaires existent vraiment.</strong> Les aiguilles de 2,5 mm, 3,0 mm et 6,5 mm sont des tailles standard, même si ton set interchangeable les a sautées. C'est pour cela que "prendre une demi-taille au-dessus" finit parfois en fouille complète du sac à projet.</p>
-    <p><strong>Les vieux livrets ne précisent parfois pas le système.</strong> Un modèle des années 1970 qui demande des "size 6 needles" peut vouloir dire US 6 (4,0 mm) ou UK 6 (5,0 mm), selon le pays de publication. Vérifie l'éditeur, puis le tableau.</p>
+    <p>
+      <strong>Le système UK est inversé.</strong> Les tailles US montent quand les
+      aiguilles grossissent. Les anciennes tailles UK descendent. US 6 correspond
+      à 4,0 mm. UK 6 correspond à 5,0 mm. Les confondre décale ton échantillon d'un
+      millimètre entier avant même le premier rang. Ça arrive plus souvent qu'on ne
+      le croit.
+    </p>
+    <p>
+      <strong>Toutes les tailles n'ont pas d'équivalent parfait.</strong> Toutes les
+      tailles métriques ne tombent pas proprement dans chaque autre système. Une aiguille
+      de 3,0 mm est parfois marquée US 2.5 par certaines marques, tandis que d'autres
+      tableaux la placent entre US 2 et US 3. Une aiguille de 3,5 mm n'a souvent aucun
+      équivalent UK ancien. Dans ce cas, reviens aux millimètres et ignore le reste.
+    </p>
+    <p>
+      <strong>Les presque-équivalences japonaises.</strong> Les tailles japonaises
+      ne s'alignent pas proprement avec les numéros US. La taille japonaise 8 correspond
+      à 4,5 mm, donc US 7, mais la taille japonaise 5 fait 3,6 mm et ne se place pas
+      franchement dans le système US. Si tu tricotes depuis un modèle japonais, suis
+      la valeur en mm. Pas le numéro imprimé. Toujours la valeur en mm.
+    </p>
+    <p>
+      <strong>Les demi-tailles et tailles impaires existent vraiment.</strong> Les
+      aiguilles de 2,5 mm, 3,0 mm et 6,5 mm sont des tailles standard, même si ton
+      set interchangeable les a sautées. C'est pour cela que "prendre une demi-taille
+      au-dessus" finit parfois en fouille complète du sac à projet.
+    </p>
+    <p>
+      <strong>Les vieux livrets ne précisent parfois pas le système.</strong> Un modèle
+      des années 1970 qui demande des "size 6 needles" peut vouloir dire US 6 (4,0
+      mm) ou UK 6 (5,0 mm), selon le pays de publication. Vérifie l'éditeur, puis
+      le tableau.
+    </p>
 
     <h2>Associer taille d'aiguilles et épaisseur de fil</h2>
-    <p>Le tableau t'amène dans la bonne zone. L'échantillon donne l'adresse exacte.</p>
-    <p>Le système actuel du Craft Yarn Council associe Lace à 1,5-2,25 mm, Super Fine à 2,25-3,25 mm, Fine à 3,25-3,75 mm, Light à 3,75-4,5 mm, Medium à 4,5-5,5 mm, Bulky à 5,5-8 mm, Super Bulky à 8-12,75 mm, et Jumbo à partir de 12,75 mm.</p>
-    <p>Ces plages se chevauchent volontairement. Un DK peut donner un bonnet ferme avec une aiguille plus fine ou un châle aéré avec une aiguille plus grosse. L'échantillon du modèle te dit ce que la personne qui l'a conçu voulait obtenir. Si tu n'es pas sûre de l'épaisseur du fil que tu tiens, le <a href={routes.tool.yarnWeightChart.fr}>tableau des épaisseurs de fil</a> est le meilleur point de départ.</p>
+    <p>
+      Le tableau t'amène dans la bonne zone. L'échantillon donne l'adresse
+      exacte.
+    </p>
+    <p>
+      Le système actuel du Craft Yarn Council associe Lace à 1,5-2,25 mm, Super
+      Fine à 2,25-3,25 mm, Fine à 3,25-3,75 mm, Light à 3,75-4,5 mm, Medium à
+      4,5-5,5 mm, Bulky à 5,5-8 mm, Super Bulky à 8-12,75 mm, et Jumbo à partir
+      de 12,75 mm.
+    </p>
+    <p>
+      Ces plages se chevauchent volontairement. Un DK peut donner un bonnet
+      ferme avec une aiguille plus fine ou un châle aéré avec une aiguille plus
+      grosse. L'échantillon du modèle te dit ce que la personne qui l'a conçu
+      voulait obtenir. Si tu n'es pas sûre de l'épaisseur du fil que tu tiens,
+      le <a href={routes.tool.yarnWeightChart.fr}
+        >tableau des épaisseurs de fil</a
+      > est le meilleur point de départ.
+    </p>
 
     <h2>Mesurer des aiguilles sans marquage</h2>
-    <p>Les aiguilles vintage, les aiguilles en bois tournées à la main et les interchangeables très utilisées perdent tôt ou tard leur marquage. Une jauge à aiguilles règle le problème. Glisse le corps de l'aiguille dans les trous jusqu'à trouver celui qui passe nettement, sans forcer.</p>
-    <p>Mesure sur le corps de l'aiguille, pas sur la pointe. La pointe effilée donne une mesure plus petite que la partie qui travaille réellement les mailles. Mauvaise réponse à chaque fois.</p>
-    <p>La plupart des jauges à aiguilles affichent les tailles métriques et US, certaines incluent aussi les tailles japonaises. Si la tienne ne le fait pas, utilise ce guide de tailles d'aiguilles pour trouver l'équivalent en mm, puis tricote un petit <a href="/fr/articles/mesurer-un-echantillon-tricot/">échantillon</a> pour confirmer avant de te lancer dans tout le projet. Si tu choisis aussi une <a href="/fr/articles/aiguilles-a-tricoter-metal-bois-bambou/">matière d'aiguilles</a>, c'est une décision séparée de la taille.</p>
+    <p>
+      Les aiguilles vintage, les aiguilles en bois tournées à la main et les
+      interchangeables très utilisées perdent tôt ou tard leur marquage. Une
+      jauge à aiguilles règle le problème. Glisse le corps de l'aiguille dans
+      les trous jusqu'à trouver celui qui passe nettement, sans forcer.
+    </p>
+    <p>
+      Mesure sur le corps de l'aiguille, pas sur la pointe. La pointe effilée
+      donne une mesure plus petite que la partie qui travaille réellement les
+      mailles. Mauvaise réponse à chaque fois.
+    </p>
+    <p>
+      La plupart des jauges à aiguilles affichent les tailles métriques et US,
+      certaines incluent aussi les tailles japonaises. Si la tienne ne le fait
+      pas, utilise ce guide de tailles d'aiguilles pour trouver l'équivalent en
+      mm, puis tricote un petit <a
+        href="/fr/articles/mesurer-un-echantillon-tricot/">échantillon</a
+      > pour confirmer avant de te lancer dans tout le projet. Si tu choisis aussi
+      une <a href="/fr/articles/aiguilles-a-tricoter-metal-bois-bambou/"
+        >matière d'aiguilles</a
+      >, c'est une décision séparée de la taille.
+    </p>
   </div>
 </LocalizedToolPage>
 
 <script>
-  const searchInput = document.getElementById('needle-search') as HTMLInputElement | null;
-  const table = document.getElementById('needle-table');
-  const noResults = document.getElementById('no-results');
+  const searchInput = document.getElementById(
+    "needle-search",
+  ) as HTMLInputElement | null;
+  const table = document.getElementById("needle-table");
+  const noResults = document.getElementById("no-results");
 
   if (searchInput && table && noResults) {
-    const rows = table.querySelectorAll<HTMLElement>('tbody tr');
+    const rows = table.querySelectorAll<HTMLElement>("tbody tr");
 
-    searchInput.addEventListener('input', () => {
+    searchInput.addEventListener("input", () => {
       const raw = searchInput.value.trim().toLowerCase();
-      const normalizedRaw = raw.replace(',', '.');
+      const normalizedRaw = raw.replace(",", ".");
 
       if (!raw) {
         rows.forEach((row) => {
-          row.style.display = '';
+          row.style.display = "";
         });
         noResults.hidden = true;
         return;
@@ -153,37 +255,42 @@ const faqs = [
       let targetCol: string | null = null;
       let query = normalizedRaw;
 
-      if (normalizedRaw.startsWith('us ')) {
-        targetCol = 'us';
+      if (normalizedRaw.startsWith("us ")) {
+        targetCol = "us";
         query = normalizedRaw.slice(3).trim();
-      } else if (normalizedRaw.startsWith('uk ')) {
-        targetCol = 'uk';
+      } else if (normalizedRaw.startsWith("uk ")) {
+        targetCol = "uk";
         query = normalizedRaw.slice(3).trim();
-      } else if (normalizedRaw.startsWith('jp ') || normalizedRaw.startsWith('japon ') || normalizedRaw.startsWith('japonaise ')) {
-        targetCol = 'jp';
-        query = normalizedRaw.replace(/^(jp|japon|japonaise)\s+/, '').trim();
+      } else if (
+        normalizedRaw.startsWith("jp ") ||
+        normalizedRaw.startsWith("japon ") ||
+        normalizedRaw.startsWith("japonaise ")
+      ) {
+        targetCol = "jp";
+        query = normalizedRaw.replace(/^(jp|japon|japonaise)\s+/, "").trim();
       }
 
       let visibleCount = 0;
 
       rows.forEach((row) => {
-        const mm = row.dataset.mm || '';
-        const us = row.dataset.us || '';
-        const uk = row.dataset.uk || '';
-        const jp = row.dataset.jp || '';
+        const mm = row.dataset.mm || "";
+        const us = row.dataset.us || "";
+        const uk = row.dataset.uk || "";
+        const jp = row.dataset.jp || "";
 
-        let match = false;
-        if (targetCol === 'us') {
-          match = us === query;
-        } else if (targetCol === 'uk') {
-          match = uk === query;
-        } else if (targetCol === 'jp') {
-          match = jp === query;
-        } else {
-          match = mm.startsWith(query) || us === query || uk === query || jp === query;
-        }
+        const match =
+          targetCol === "us"
+            ? us === query
+            : targetCol === "uk"
+              ? uk === query
+              : targetCol === "jp"
+                ? jp === query
+                : mm.startsWith(query) ||
+                  us === query ||
+                  uk === query ||
+                  jp === query;
 
-        row.style.display = match ? '' : 'none';
+        row.style.display = match ? "" : "none";
         if (match) visibleCount++;
       });
 

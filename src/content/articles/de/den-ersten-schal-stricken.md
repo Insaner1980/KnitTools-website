@@ -4,11 +4,18 @@ description: "Alles für deinen ersten Schal: Garn, Nadeln, Maschen anschlagen, 
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 1
-tags: ["Schal stricken Anfänger", "erstes Strickprojekt Schal", "einfacher Strickschal", "Anfänger Schal stricken"]
+tags:
+  [
+    "Schal stricken Anfänger",
+    "erstes Strickprojekt Schal",
+    "einfacher Strickschal",
+    "Anfänger Schal stricken",
+  ]
 draft: false
 lang: de
 translationKey: "knit-first-scarf"
 ---
+
 Ein Schal ist das beste erste Strickprojekt, weil er ein Rechteck ist. Keine Formgebung, keine genaue Reihenzahl für bestimmte Längen, keine Passform. Maschen anschlagen, stricken, bis er lang genug ist, abketten. Dabei übst du die Grundlagen für alles, was später kommt: Maschen anschlagen, rechte Maschen stricken und abketten.
 
 ## Was du brauchst

@@ -4,8 +4,15 @@ description: "Learn how to space increases and decreases evenly across a row. In
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 6
-tags: ["increase evenly across row knitting", "decrease evenly knitting", "space increases evenly", "evenly distribute stitches"]
+tags:
+  [
+    "increase evenly across row knitting",
+    "decrease evenly knitting",
+    "space increases evenly",
+    "evenly distribute stitches",
+  ]
 ---
+
 "Increase 8 stitches evenly across next row." The pattern moves on. You're left staring at your needle doing mental arithmetic.
 
 Whether you need to increase stitches evenly or decrease stitches evenly, the math is the same: divide your current stitch count by the number of changes. The result is the interval between each shaping point. Here's the formula, plus how to handle the remainders that always seem to show up.
