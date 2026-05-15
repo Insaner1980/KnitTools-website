@@ -5,6 +5,12 @@ import { dutchToolLinks } from "../i18n/dutchTools";
 import { danishToolLinks } from "../i18n/danishTools";
 import { useTranslations } from "../i18n/ui";
 import type { Lang } from "../i18n/config";
+import {
+  CONTACT_EMAIL,
+  CONTACT_MAILTO,
+  FINNVEK_URL,
+  SOCIAL_PROFILES,
+} from "../config/brand";
 
 interface Props {
   lang?: Lang;
@@ -12,6 +18,7 @@ interface Props {
 
 const { lang = "en" } = Astro.props;
 const t = useTranslations(lang);
+const socialLinks = SOCIAL_PROFILES;
 const tools =
   lang === "da"
     ? danishToolLinks
@@ -313,6 +320,7 @@ const articles =
           <h4>{t("app")}</h4>
           <ul>
             <li><span class="muted">{t("launchingSoon")}</span></li>
+            <li><a href="/about/">About</a></li>
             <li>
               <a
                 href="https://finnvek.com/privacy#knittools"
@@ -335,12 +343,25 @@ const articles =
 
     <div class="footer-bottom">
       <p class="copyright">
-        © MMXXVI KnitTools. <a
-          href="https://finnvek.com"
-          target="_blank"
-          rel="noopener">Finnvek</a
-        >.
+        © MMXXVI KnitTools. <a href={FINNVEK_URL} target="_blank" rel="noopener"
+          >Finnvek</a
+        >. <a href={CONTACT_MAILTO}>{CONTACT_EMAIL}</a>.
       </p>
+      <nav class="social-links" aria-label="Finnvek social media">
+        {
+          socialLinks.map((link) => (
+            <a
+              href={link.href}
+              target="_blank"
+              rel="noopener"
+              aria-label={link.label}
+              class="social-link"
+            >
+              <img src={link.icon} alt="" width="22" height="22" />
+            </a>
+          ))
+        }
+      </nav>
     </div>
   </div>
 </footer>
@@ -408,6 +429,7 @@ const articles =
     align-items: center;
     justify-content: center;
     gap: 14px;
+    flex-wrap: wrap;
     padding-top: 20px;
     border-top: 1px solid rgba(42, 30, 23, 0.12);
   }
@@ -438,6 +460,24 @@ const articles =
     color: var(--terracotta);
     border-bottom-color: var(--terracotta);
   }
+  .social-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-bottom: 0;
+  }
+  .social-link img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+  }
 
   @media (max-width: 767px) {
     .footer-editorial {
@@ -456,6 +496,12 @@ const articles =
     .footer-seal {
       width: 140px;
       height: 140px;
+    }
+    .footer-bottom {
+      gap: 12px;
+    }
+    .copyright {
+      text-align: center;
     }
   }
 </style>
