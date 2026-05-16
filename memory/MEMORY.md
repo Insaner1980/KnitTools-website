@@ -315,3 +315,7 @@
 - Footerin App-osioon lisättiin About-linkki, footer-bottomiin näkyvä `contact@finnvek.com`-mailto ja viralliset Instagram/TikTok/YouTube-ikonit kansiosta `public/brand/`. Alkuperäiset ladatut logopaketit pidetään `.gitignore`ssa eikä niitä commitoida.
 - Muutokset julkaistiin Cloudflare Pagesiin `main`-ympäristöön deploymentilla `559d3fcf`. Live-tarkistus vahvisti `/about/`-sivun 200-statuksen, canonicalin, AboutPage/Breadcrumb/Organization JSON-LD:n, footer-yhteystiedon sekä sen, ettei etusivun tai About-sivun HTML sisällä `PreOrder`, `PreSale` tai `availability`-arvoja.
 - Finnvek/contact/some-profiilit keskitettiin `src/config/brand.ts`-lähteeseen. `Footer`, etusivun schema, About-sivun schema ja `BaseLayout`in head-linkit käyttävät samaa listaa. `BaseLayout` lisää nyt `og:site_name`-metan sekä Instagram/TikTok/YouTube-profiileille `rel="me"`-linkit; erillisiä epästandardeja `instagram:*`, `tiktok:*` tai `youtube:*` meta-tageja ei käytetä.
+
+### 2026-05-16 - Footerin X-profiililinkki
+- Lisättiin Finnvekin X-profiili `https://x.com/finnvek` keskitettyyn `src/config/brand.ts`-someprofiililistaan, jolloin footer, `sameAs`-structured data ja `rel="me"`-head-linkit käyttävät samaa lähdettä.
+- Footerin someikonit optimoitiin 64x64 WebP-asseteiksi (`instagram.webp`, `tiktok.webp`, `youtube.webp`, `x.webp`) ja `src/config/brand.ts` osoittaa niihin. Vanhat footerin PNG-assetit poistettiin `public/brand/`-kansiosta, jotta buildiin ei jää käyttämättömiä raskaita logoja.
