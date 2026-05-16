@@ -11,17 +11,22 @@ export const SOCIAL_PROFILES = [
   {
     label: "Instagram",
     href: "https://www.instagram.com/finnvekapps/",
-    icon: "/brand/instagram.png",
+    icon: "/brand/instagram.webp",
   },
   {
     label: "TikTok",
     href: "https://www.tiktok.com/@finnvekapps",
-    icon: "/brand/tiktok.png",
+    icon: "/brand/tiktok.webp",
   },
   {
     label: "YouTube",
     href: "https://www.youtube.com/@Finnvekapps",
-    icon: "/brand/youtube.png",
+    icon: "/brand/youtube.webp",
+  },
+  {
+    label: "X",
+    href: "https://x.com/finnvek",
+    icon: "/brand/x.webp",
   },
 ] as const;
 
