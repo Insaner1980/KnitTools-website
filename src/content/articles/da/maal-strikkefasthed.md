@@ -86,7 +86,7 @@ Hvis projektet strikkes rundt, så lav prøven rundt. Et lille rør på strømpe
 
 ## Hvordan strikkefasthed hænger sammen med planlægning
 
-Når strikkefastheden er kendt, bliver resten af planlægningen lettere. KnitTools' [opslagsberegner](/da/strikkevaerktoejer/opslagsberegner/) bruger den til at beregne maskeantal til en bestemt bredde. [Garnberegneren](/da/strikkevaerktoejer/garnberegner/) bruger den sammen med mål til at komme tættere på et realistisk garnforbrug. Til en [strikkeprøve-guide trin for trin](/da/artikler/strikkeproeve-trin-for-trin/) uden teorien findes der en separat side.
+Når strikkefastheden er kendt, bliver resten af planlægningen lettere. KnitTools' [opslagsberegner](/da/strikkevaerktoejer/opslagsberegner/) bruger den til at beregne maskeantal til en bestemt bredde. [Garnberegneren](/da/strikkevaerktoejer/garnberegner/) bruger projekttype, størrelse og garntykkelse til et garnestimat, så behandl den som et planlægningstjek ved siden af din strikkefasthed og opskriftens detaljer. Til en [strikkeprøve-guide trin for trin](/da/artikler/strikkeproeve-trin-for-trin/) uden teorien findes der en separat side.
 
 Den kæde betyder noget. Strikkefasthed styrer maskeantal. Maskeantal styrer mål. Mål styrer garnforbrug. Hvis det første tal er forkert, driver alt efter det med.
 

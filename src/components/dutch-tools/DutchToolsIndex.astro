@@ -1,7 +1,7 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
 import ClosingCTA from "../ClosingCTA.astro";
-import { dutchToolLinks, dutchToolRoutes } from "../../i18n/dutchTools";
+import { dutchToolRoutes } from "../../i18n/dutchTools";
 import { routes } from "../../i18n/routes";
 
 const tools = [
@@ -56,7 +56,7 @@ const tools = [
 ---
 
 <PageLayout
-  title="Gratis breitools"
+  title="Gratis breitools: calculators en tabellen"
   description="Gratis online breirekenaars en tabellen: opzetten, garenverbruik, naalddiktes, garendiktes, breiafkortingen en maattabellen."
   canonicalPath={dutchToolRoutes.index}
   lang="nl"
@@ -73,7 +73,7 @@ const tools = [
       url: `https://knittoolsapp.com${dutchToolRoutes.index}`,
       mainEntity: {
         "@type": "ItemList",
-        itemListElement: dutchToolLinks.map((tool, index) => ({
+        itemListElement: tools.map((tool, index) => ({
           "@type": "ListItem",
           position: index + 1,
           url: `https://knittoolsapp.com${tool.href}`,

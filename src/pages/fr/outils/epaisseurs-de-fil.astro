@@ -97,7 +97,7 @@ const faqs = [
   },
   {
     q: 'Que veut dire "held double" ?',
-    a: "Cela veut dire tricoter deux fils ensemble comme s'ils formaient un seul fil plus épais. Deux fils fingering tenus ensemble donnent à peu près une matière DK, mais la fibre, la torsion et le gonflant peuvent rendre le résultat plus léger ou plus lourd. C'est utile quand tu ne trouves pas la bonne épaisseur dans la couleur ou la fibre voulue. Fais un échantillon, parce que le résultat n'est pas parfaitement prévisible.",
+    a: "Cela veut dire tricoter deux fils ensemble comme s'ils formaient un seul fil plus épais. Deux fils fingering tenus ensemble donnent à peu près une matière DK, mais la fibre, la torsion et le gonflant peuvent rendre le résultat plus léger ou plus lourd. C'est utile quand tu ne trouves pas la bonne épaisseur dans la couleur ou la fibre voulue. Fais un échantillon, parce que le résultat n'est pas entièrement prévisible.",
   },
   {
     q: "Pourquoi mon fil paraît-il plus fin ou plus épais que ce que dit l'étiquette ?",
@@ -112,9 +112,9 @@ const faqs = [
   canonicalPath={routes.tool.yarnWeightChart.fr}
   lang="fr"
   alternates={routes.tool.yarnWeightChart}
-  intro="Huit catégories, avec les plages d'échantillon, de tailles d'aiguilles et de WPI. Ouvre une catégorie pour les détails."
+  intro="Les catégories principales, avec les plages d'échantillon, de tailles d'aiguilles et de WPI. Ouvre une catégorie pour les détails."
   schemaName="Tableau des épaisseurs de fil"
-  schemaDescription="Tableau de référence des épaisseurs de fil avec échantillon, aiguilles recommandées, WPI et types de projets pour les 8 catégories CYC."
+  schemaDescription="Tableau de référence des épaisseurs de fil avec échantillon, aiguilles recommandées, WPI et types de projets pour les catégories CYC courantes."
   faqs={faqs}
   variant="sand"
 >
@@ -216,10 +216,10 @@ const faqs = [
     <h3>Quand les noms régionaux se croisent</h3>
     <p>
       "Sport weight" en Amérique du Nord et "5-ply" dans la terminologie
-      australienne se chevauchent, mais ne correspondent pas parfaitement.
-      "Chunky" dans les modèles britanniques veut généralement dire CYC 5,
-      Bulky, alors que dans l'usage américain courant, "chunky" peut aller de
-      bulky à super bulky.
+      australienne se chevauchent, mais ne correspondent pas toujours
+      exactement. "Chunky" dans les modèles britanniques veut généralement dire
+      CYC 5, Bulky, alors que dans l'usage américain courant, "chunky" peut
+      aller de bulky à super bulky.
     </p>
     <p>
       L'approche la plus sûre quand tu passes d'un langage de modèle à un autre
@@ -263,8 +263,12 @@ const faqs = [
       </li>
     </ul>
     <p>
-      Le standard CYC va actuellement de 0 à 7, même si l'organisation a indiqué
-      que le travail sur les tailles continue.
+      Le tableau ci-dessus couvre les catégories 0 à 7 avec les plages
+      détaillées d'échantillon, d'aiguilles et de WPI disponibles dans les
+      standards publiés. Le CYC indique désormais aussi une taille 8 dans son
+      système mis à jour, mais les ressources détaillées correspondantes restent
+      annoncées comme à venir. Pour un fil plus gros que Jumbo, fie-toi donc
+      d'abord à l'étiquette du fabricant et à ton échantillon.
     </p>
 
     <h2>Identifier l'épaisseur d'un fil sans étiquette</h2>
@@ -297,6 +301,10 @@ const faqs = [
     <p>
       Remarque les plages qui se chevauchent. Un fil à 12 WPI peut être Fine,
       Light ou Medium selon d'autres facteurs. C'est normal.
+    </p>
+    <p>
+      Si ton fil sort nettement de ces plages, traite le WPI comme un indice,
+      pas comme une catégorie définitive.
     </p>
 
     <h3>Quand le WPI se complique</h3>

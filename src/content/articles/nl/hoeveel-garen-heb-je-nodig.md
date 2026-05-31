@@ -26,11 +26,11 @@ Soms wil je voor het kopen alleen een grove inschatting. Geen precieze berekenin
 
 Een eenvoudige volwassen muts in worsted-garen past meestal binnen een of twee bollen van 100 g. Ergens tussen 140 en 230 m, afhankelijk van de maat en of er een omgeslagen boord is. Sjaals zitten vaak in het bereik van een paar honderd meter, al verschuiven breedte en lengte dat getal snel. Een smalle sjaal in fingering-garen en een brede chunky col leven in totaal verschillende werelden, ook al zijn het allebei "sjaals".
 
-Volwassen truien zijn projecten van vier cijfers in meters. Een aansluitende trui in DK kan 1 100 m nodig hebben. Een oversized vest met kabels in worsted kan boven 1 800 m uitkomen. Dekens lopen snel op tot duizenden meters, en een grote beddeken kan 2 750 m of meer opslokken.
+Volwassen truien zijn projecten van vier cijfers in meters. Een aansluitende trui in DK kan ongeveer 1 350 m of meer nodig hebben. Een oversized vest met kabels in worsted kan boven 1 800 m uitkomen. Dekens lopen snel op tot duizenden meters, en een grote deken voor een bed kan 2 750 m of meer opslokken.
 
-Dat is schaal, geen precisie. Een kabelmuts gebruikt meer garen dan een gladde muts. Een cropped trui en een tunieklange trui zitten niet eens in dezelfde buurt. Een deken met zware structuur eet meer garen dan een gewone rechthoek in tricotsteek.
+Dat is schaal, geen precisie. Een kabelmuts gebruikt meer garen dan een gladde muts. Een cropped trui en een trui op tunieklengte zitten niet eens in dezelfde buurt. Een deken met zware structuur eet meer garen dan een gewone rechthoek in tricotsteek.
 
-Voor een projectspecifieke schatting rekent de [Garenberekenaar](/nl/breitools/garenberekenaar/) van KnitTools vanuit je stekenverhouding en afmetingen in plaats van gemiddelden.
+Voor een projectspecifieke schatting werkt de [Garenberekenaar](/nl/breitools/garenberekenaar/) van KnitTools met projecttype, maat en garendikte in plaats van een algemeen gemiddelde.
 
 ## Hoe garendikte het totaal verandert
 
@@ -48,9 +48,9 @@ Je stekenverhouding vertelt hoeveel steken en toeren in een bepaalde maat passen
 
 Zo werkt het in de praktijk. Stel dat je proeflapje 18 steken en 24 toeren per 10 cm geeft. Het voorpand van een trui is 50 cm breed en 63 cm lang. Dat is 90 steken in de breedte en ongeveer 151 toeren in de lengte. Vermenigvuldig die: ongeveer 13 590 steken voor alleen het voorpand. Vanaf daar wordt het totale garenverbruik een rekensom in plaats van een gok, als je weet hoeveel garen elke steek verbruikt. Dat kun je meten of schatten vanuit je proeflapje.
 
-Je hoeft die rekensom niet met de hand te doen. Een garencalculator zoals de [Garenberekenaar](/nl/breitools/garenberekenaar/) doet de berekening en raakt minder snel de draad kwijt bij een patroonherhaling dan een krabbel in de marge van een notitieboek.
+Je hoeft niet elke schatting met de hand te doen. Een garencalculator zoals de [Garenberekenaar](/nl/breitools/garenberekenaar/) is nuttig voor een snelle bandbreedte op basis van projecttype, maat en garendikte, voordat je die vergelijkt met je patroon, proeflapje en garenlabel.
 
-Het helpt nog steeds om schaalgevoel te hebben. Als een calculator 365 m voor een beddeken geeft, klopt er iets niet. Duizenden meters? In elk geval geloofwaardig. Die onderbuikcheck vangt invoerfouten op voordat je er garen op koopt. En zelfs een grof proeflapje brengt je dichterbij dan de stap helemaal overslaan. Een proeflapje 's avonds breien, 's nachts laten drogen na het blocken, 's ochtends meten. Geen enorme tijdsinvestering voor de zekerheid die het geeft.
+Het helpt nog steeds om schaalgevoel te hebben. Als een calculator 365 m voor een grote deken geeft, klopt er iets niet. Duizenden meters? In elk geval geloofwaardig. Die onderbuikcheck vangt invoerfouten op voordat je er garen op koopt. En zelfs een grof proeflapje brengt je dichterbij dan de stap helemaal overslaan. Een proeflapje 's avonds breien, 's nachts laten drogen na het blocken, 's ochtends meten. Geen enorme tijdsinvestering voor de zekerheid die het geeft.
 
 ## De weegmethode voor restbollen
 
@@ -66,11 +66,11 @@ Label kwijt? Als je de garennaam weet, staat de looplengte per bol meestal op de
 
 Dit werkt ook goed om restgaren van eerdere projecten in te schatten. Mutsen, wanten, strepen, contrastkleurwerk. Allemaal goede kandidaten voor restjes. Weeg de bol, bereken de meters en kijk waar het genoeg voor is.
 
-## Wat extra garen kost
+## Wat extra garen verbruikt
 
 Sommige constructiekeuzes gebruiken stilletjes meer garen dan gewone tricotsteek. Hier gaan schattingen vaak scheef.
 
-**Kabels** zijn de grote. Elke kabelkruising trekt extra garen door het werk, omdat steken opzij reizen in plaats van recht boven elkaar te stapelen. Hoe breder de kabel, hoe meer garen elke kruising kost. Een eenvoudige kabel over 4 steken voegt een bescheiden hoeveelheid toe. Een gevlochten kabel over 12 steken duidelijk meer. Een zwaar bekabelde Aran-trui kan 20-30% meer garen nodig hebben dan een trui in tricotsteek met dezelfde afmetingen. Is het hele lijf bekabeld, schat dan niet op basis van glad tricot. Dan kom je tekort.
+**Kabels** zijn de grote. Elke kabelkruising trekt extra garen door het werk, omdat steken opzij reizen in plaats van recht boven elkaar te stapelen. Hoe breder de kabel, hoe meer garen elke kruising kost. Een eenvoudige kabel over 4 steken voegt een bescheiden hoeveelheid toe. Een gevlochten kabel over 12 steken duidelijk meer. Een zwaar bekabelde Aran-trui heeft een grotere buffer nodig dan een trui in tricotsteek met dezelfde afmetingen. Is het hele lijf bekabeld, schat dan niet op basis van glad tricot. Dan kom je tekort.
 
 Bij jacquard of ander kleurwerk lopen draden achter het werk mee, en die meeloopdraden tellen harder op dan je aan het telpatroon op papier ziet. Je hoofdkleur heeft bijna altijd meer nodig dan je denkt. Contrastkleuren verdwijnen in kleurwerk sneller dan het lijkt terwijl je naar de voorkant van het werk kijkt. De lengte van de meeloopdraden telt ook. Draden vastzetten om de 3-4 steken gebruikt iets meer garen dan ze lang laten lopen, al gedraagt de stof zich er beter door. Intarsia is anders, omdat elk kleurvlak zijn eigen draad heeft zonder lange meeloopdraden. Schat bij elk meerkleurig project eerst de totale meters, en verdeel die daarna naar hoeveel oppervlak elke kleur echt inneemt.
 
@@ -98,7 +98,7 @@ Ontwerp je vanaf nul of pas je veel aan? Dan is het garenverbruik uit het patroo
 
 Bij [garen vervangen](/nl/artikelen/garen-vervangen-in-een-breipatroon/) match je de totale meters, niet het aantal bollen. Een patroon dat "8 bollen" vraagt, is alleen bruikbaar als je hetzelfde garen gebruikt. Ben je overgestapt op iets met een andere looplengte per bol, dan zegt het aantal bollen weinig. Match de meters. Controleer daarna of de garendikte dichtbij genoeg zit en [brei een proeflapje om de stekenverhouding te bevestigen](/nl/artikelen/stekenverhouding-meten/).
 
-Daar verdient de [Garenberekenaar](/nl/breitools/garenberekenaar/) zijn plek. Of je nu een patroongegeven naast je eigen stekenverhouding legt of een schatting vanaf nul opbouwt.
+Daar verdient de [Garenberekenaar](/nl/breitools/garenberekenaar/) zijn plek: als schaalcheck per projecttype, maat en garendikte voordat je garen koopt.
 
 ## FAQ
 

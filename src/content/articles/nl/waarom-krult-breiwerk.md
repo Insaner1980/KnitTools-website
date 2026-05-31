@@ -16,17 +16,21 @@ lang: nl
 translationKey: "why-knitting-curls"
 ---
 
-Tricotsteek krult. Geen spanningsprobleem, geen garenprobleem, niet iets wat je verkeerd doet. Het is natuurkunde.
+Tricotsteek krult. Meestal geen spanningsprobleem, meestal geen garenprobleem, en niet iets wat je verkeerd doet. Het zit in de structuur van de stof.
 
-Rechte steken zijn net iets smaller dan averechte steken. In tricotsteek (recht aan de goede kant, averecht aan de verkeerde kant) trekt de smallere rechte kant de bredere averechte kant naar binnen. De stof krult aan boven- en onderkant naar de rechte kant, en aan de linker- en rechterrand naar de averechte kant.
-
-Tricotsteek krult omdat rechte steken structureel smaller zijn dan averechte steken. Die asymmetrie laat de stof rollen naar de rechte kant aan boven- en onderkant, en naar de averechte kant aan de zijranden. Elk garen, elke naald, elke breier. Het zit in de steek zelf.
+Bij tricotsteek wijzen alle rechte steken naar de ene kant en alle averechte bobbels naar de andere. Die twee kanten zijn niet in balans, waardoor de randkrachten in de gebreide lussen de stof laten rollen. In de praktijk krult tricotsteek meestal naar de gladde rechte kant bij opzet- en afkantranden, en naar de bobbelige averechte kant bij de zijranden.
 
 ## Wat krullen niet oplost
 
 Strakker breien maakt de stof stijver, waardoor het krullen iets minder wordt, maar het blijft. Grotere naalden geven een soepeler stof die in verhouding net zo krult. Stuggere garens (katoen, linnen) krullen minder fel dan veerkrachtige garens (wol), maar ze krullen nog steeds. Stoom kan het tijdelijk vlak maken, maar tenzij je met acryl werkt (dat met stoom "gedood" kan worden om de vorm blijvend te veranderen), komt de krul terug zodra de stof ontspant of gewassen wordt.
 
 Niets hiervan lost de onderliggende natuurkunde op. Het beheert het alleen.
+
+## Superwash-wol kan lastiger te temmen zijn
+
+Superwash-behandeling vermindert hoe de wolschubben in elkaar grijpen. Dat helpt vervilten en krimpen voorkomen. De keerzijde is dat sommige superwash-garens na wassen meer ontspannen, uitrekken of groeien dan onbehandelde wol.
+
+Dat kan tricotsteek lastiger vlak te houden maken, vooral in ongestructureerde stukken. Het maakt superwash geen slechte keuze; machinewasbaarheid is voor veel projecten juist het punt. Het betekent wel dat je het proeflapje moet wassen en drogen zoals het afgewerkte project behandeld wordt voordat je op het gedrag van de randen vertrouwt.
 
 ## Wat wel werkt
 
@@ -40,11 +44,37 @@ Gerstekorrelsteek (afwisselend 1 recht, 1 averecht in elke steek en elke toer) b
 
 De rand is geen bijzaak. Plan hem vanaf het begin in het ontwerp. Een rand toevoegen aan een afgewerkt stuk betekent [steken opnemen](/nl/artikelen/steken-opnemen-langs-een-gebreide-rand/), en dat werkt, maar kost meer moeite dan hem meteen meebreien.
 
+### Randbreedte per garendikte
+
+Hoe breed een rand moet zijn, schaalt mee met de garendikte. Zwaardere stof verzet zich iets meer tegen krullen. Dunnere stof heeft meer hulp nodig.
+
+| Garendikte         | Zijrand (elke kant) | Boven-/onderrand |
+| ------------------ | ------------------- | ---------------- |
+| Lace               | 10+ steken          | 10+ toeren       |
+| Fingering / sokken | 8-10 steken         | 8-10 toeren      |
+| Sport / DK         | 6-8 steken          | 6-8 toeren       |
+| Worsted            | 4-6 steken          | 4-6 toeren       |
+| Aran / Bulky       | 3-4 steken          | 3-4 toeren       |
+
+Dit zijn startpunten. Een breed stuk heeft verhoudingsgewijs minder rand nodig dan een smal stuk. Een sjaal van 30 cm breed in Fingering kan 12 steken aan elke kant nodig hebben, terwijl een omslagdoek van 60 cm soms met 8 steken toe kan.
+
+### Afgehaalde kantsteek
+
+Een kleine gewoonte die helpt zonder een volledige rand toe te voegen. Haal aan het begin van elke toer de eerste steek averecht af met de draad voor het werk. Brei aan het einde van de toer de laatste steek gewoon recht. De afgehaalde eerste steek maakt een kettingachtige rand die de zijkant iets naar binnen trekt en de ergste zijrandkrul vermindert.
+
+Het haalt krullen niet weg bij stukken die helemaal in tricotsteek zijn. Het maakt de randen wel netter en makkelijker om later te naaien. Handig voor projecten waar je zo schoon mogelijke randen wilt zonder meteen een brede rand te plannen.
+
 ### Blocken
 
 [Nat blocken](/nl/artikelen/breiwerk-blocken-nat-stoom-spray/) kan krullen verminderen, vooral bij wol. Week het stuk, speld het plat en laat het drogen. De stof onthoudt die vorm tijdelijk. Maar door dragen en wassen wil de krul vaak terugkomen.
 
 Blocken werkt het best als aanvulling op een rand, niet als vervanging. Een sjaal in tricotsteek die plat geblockt is, krult na een paar keer dragen opnieuw. Een sjaal in tricotsteek met een ribbelrand die plat geblockt is, blijft vlak.
+
+### Acryl met stoom "doden"
+
+Acryl is een warmtegevoelige synthetische vezel, dus het garenlabel telt. Voorzichtig stomen zonder contact kan acrylstof blijvend ontspannen. De sterkere versie wordt vaak "doden" genoemd: het kan krullende tricotsteek vlakker maken, maar de stof verliest veerkracht en de verandering is onomkeerbaar.
+
+Als je stoom gebruikt, test dan eerst op een proeflapje. Speld het proeflapje plat, houd de stomer of het strijkijzer boven de stof zonder die aan te raken, en laat alles volledig afkoelen voordat je de spelden verwijdert. Stop voordat het oppervlak glanzend of slap wordt, tenzij dat precies het gewenste effect is. Acrylmengsels kunnen onvoorspelbaar reageren, en direct contact met een strijkijzer kan de vezel beschadigen of smelten.
 
 ### Steekpatronen die niet krullen
 
@@ -53,6 +83,18 @@ Wil je vlakke stof zonder randen, kies dan een steekpatroon dat recht en averech
 Ribbelsteek: plat, horizontale ribbels, omkeerbaar. Gerstekorrelsteek: plat, meer structuur aan het oppervlak. Boordsteek: plat, trekt horizontaal samen. Blokjespatroon: wisselt vlakken tricotsteek en omgekeerde tricotsteek af, waardoor de tegengestelde vlakken elkaars krul opheffen.
 
 Elk patroon dat recht en averecht ongeveer gelijk mengt, verzet zich tegen krullen. Tricotsteek en omgekeerde tricotsteek zijn de enige veelgebruikte patronen die echt fel krullen.
+
+## Omgekeerde tricotsteek krult ook
+
+Omgekeerde tricotsteek, waarbij de averechte kant de goede kant van het werk is, krult in de tegenovergestelde richting van gewone tricotsteek. Hij rolt naar de gladde rechte kant aan boven- en onderkant, en naar de bobbelige averechte kant aan de linker- en rechterrand. Dezelfde natuurkunde, gespiegeld.
+
+Dat telt mee bij omkeerbare projecten. Tricotsteek en omgekeerde tricotsteek in panelen combineren kan mooi zijn, maar de delen trekken in tegengestelde richtingen en kunnen het werk vervormen als ze niet goed in balans zijn.
+
+## Steeks en tricotsteek in het rond
+
+In het rond breien voorkomt zijrandkrul, omdat er geen zijranden zijn. De stof is een doorlopende buis. Mutsen, cols en truilijven in tricotsteek zien er daardoor prima uit zonder randen langs de zijkanten.
+
+Dan zijn er steeks. Een steek is een kolom extra steken die je na het breien openknipt om een buis in platte delen te veranderen, meestal voor vesten. Zodra je een steek in tricotsteek openknipt, krijg je rauwe tricotsteekranden, en die krullen net zo fel als elke platte tricotsteekrand. Daarom hebben gesteekte vesten meteen opgeraapte en aangebreide biezen nodig. De bies stabiliseert de rand voordat het krullen de overhand krijgt.
 
 ## Wanneer krullen prima is
 
@@ -75,3 +117,9 @@ Ja. Neem steken op langs de randen en brei er een rand aan. Extra werk, maar het
 
 **Heeft garendikte invloed op hoeveel tricotsteek krult?**
 Alle diktes krullen. Dikkere garens maken stijvere stof die minder dramatisch krult. Tricotsteek in lace-garen krult fel omdat de stof zo licht en soepel is.
+
+**Waarom ligt mijn proeflapje plat, maar krult het afgewerkte stuk?**
+Een klein proeflapje heeft minder kruldruk dan een breed werkstuk. Door de eigen afmeting blijft het relatief vlak, vooral als het tijdens het meten is opgespeld. Zodra je opschaalt, neemt de trekkracht langs de randen toe. Een proeflapje van 10 cm kan zich opvallend netjes gedragen terwijl een omslagdoek van 50 cm met hetzelfde garen en dezelfde naalden zichtbaar oprolt.
+
+**Bestaat er garen dat niet krult in tricotsteek?**
+Niet echt. Linnen komt het dichtst in de buurt omdat het bijna geen elasticiteit heeft, waardoor de structurele onbalans tussen recht en averecht minder veer heeft om mee te werken. Katoen lijkt daarop, maar krult nog steeds. Alles met veel wol of wolmengsel zal merkbaar krullen.

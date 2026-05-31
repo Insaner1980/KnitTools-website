@@ -15,7 +15,7 @@ lang: fi
 translationKey: "how-to-substitute-yarn"
 ---
 
-Ohjeen lanka on lopetettu. Tai se maksaa 30 euroa kerältä ja budjetti sanoo ei. Tai se on 100 % villaa ja lahjan saaja heittää valmiin työn koneeseen ensimmäisenä päivänä.
+Ohjeen lanka on lopetettu. Tai se maksaa 30 euroa kerältä ja budjetti sanoo ei. Tai se on 100 % villaa ja lahjan saaja heittää valmiin työn pesukoneeseen ensimmäisenä päivänä.
 
 Langan korvaaminen on normaalia. Useimmat neulojat tekevät sitä usein. Onnistunut korvaus tarkoittaa, että alkuperäisen ja korvaavan langan neljä asiaa vastaavat toisiaan: lankavahvuus, neuletiheys, kuidun käyttäytyminen ja kokonaismetrit. Jos yksi puuttuu, projekti alkaa liikkua. Jos kaksi puuttuu, kyseessä on jo eri projekti.
 
@@ -55,23 +55,23 @@ Ohje sanoo 5 kerää. Se luku merkitsee vain, jos korvaava lanka on täsmälleen
 
 Kerro ohjeen kerämäärä alkuperäisen kerän metrimäärällä. Se on tarvitsemasi kokonaismäärä.
 
-**Esimerkki:** 5 kerää, 200 metriä per kerä = 1000 metriä yhteensä. Jos korvaavassa langassa on 150 metriä per kerä, jaa 1000 luvulla 150 ja pyöristä ylöspäin. Seitsemän kerää.
+**Esimerkki:** 5 kerää, 220 jaardia per kerä = 1100 jaardia yhteensä, eli noin 1006 m. Jos korvaavassa langassa on 164 jaardia eli noin 150 m per kerä, jaa 1100 luvulla 164 ja pyöristä ylöspäin. Seitsemän kerää.
 
 Kun kuitusisältö muuttuu, metrit merkitsevät vielä enemmän. Sama paino per kerä voi peittää hyvin erilaisen määrän lankaa.
 
-[Lankamuunnin](/fi/tyokalut/lankamuunnin/) auttaa tässä paremmin kuin pelkkä kerälasku, erityisesti jos neuletiheys muuttuu korvaavan langan kanssa.
+[Lankamuunnin](/fi/tyokalut/lankamuunnin/) voi antaa projektityyppiin, kokoon ja lankavahvuuteen perustuvan langanmenekin tarkistusluvun, mutta se ei korvaa ohjeen ilmoittamaa kokonaismetrimäärää, korvaavan langan metrimäärää per kerä eikä uutta mallitilkkua, jos neuletiheys muuttuu.
 
 ## Milloin korvaaminen on riskialtista
 
 Kaikki projektit eivät siedä langanvaihtoa yhtä hyvin. Tämä kannattaa sanoa ääneen ennen kuin ostat kahdeksan kerää korvaajaa.
 
-**Matala riski:** huivit, hartiahuivit, peitot ja tiskirätit. Parin silmukan heitto 10 cm matkalla muuttaa kokoa vähän. Harva huomaa. Näissä korvaaminen onnistuu useimmiten.
+**Matala riski:** huivit, hartiahuivit, peitot ja tiskirätit. Noin 2 silmukan heitto 10 cm matkalla muuttaa valmista kokoa vähän. Harva huomaa. Näissä korvaaminen onnistuu useimmiten.
 
 **Keskiriski:** pipot, kaulurit ja laukut. Istuvuus ja rakenne merkitsevät enemmän, mutta pieniä eroja voi vielä sietää. Hieman liian ison pipon voi pingottaa pienemmäksi tai antaa isopäisemmälle.
 
 **Korkea riski:** istuvat vaatteet, sukat ja sormikkaat. Pienet neuletiheyserot moninkertaistuvat kymmenissä senteissä, ja kuitu vaikuttaa yhtä paljon kuin silmukkamäärä. Väärä lanka voi tehdä paidasta käyttökelvottoman, vaikka lasku näytti oikealta. Tee mallitilkku kunnolla ja katso sitä rehellisesti.
 
-**Erittäin korkea riski:** projektit, jotka on suunniteltu tietyn kuituefektin ympärille. Mohairin halo. Silkin kiilto. Tarttuva villa kirjoneuleeseen, jossa silmukoiden pitää lukittua. Tietty laskeutuvuus, joka toimii vain siinä langassa. Nämä voivat muuttua luonteeltaan täysin, vaikka neuletiheys osuu.
+**Erittäin korkea riski, melkein älä tee:** projektit, jotka on suunniteltu tietyn kuituefektin ympärille. Mohairin halo. Silkin kiilto. Tarttuva villa kirjoneuleeseen, jossa silmukoiden pitää lukittua. Tietty laskeutuvuus, joka toimii vain siinä langassa. Nämä voivat muuttua luonteeltaan täysin, vaikka neuletiheys osuu. Jos suunnittelija on valinnut langan muusta syystä kuin vahvuuden ja värin takia, korvaava lanka taistelee jo itse suunnittelua vastaan.
 
 ## Korvaamisen tarkistuslista
 
@@ -92,13 +92,13 @@ Ostamisen jälkeen:
 ## FAQ
 
 **Voinko korvata eri vahvuisella langalla, jos vaihdan puikkokokoa?**
-Teknisesti joskus, mutta se muuttaa neulepinnan luonteen. Paksumpi lanka pienillä puikoilla muuttuu tiiviiksi ja jäykäksi. Ohuempi lanka isoilla puikoilla muuttuu löysäksi ja avoimeksi. Joissakin projekteissa se sopii, toisissa se tuhoaa suunnittelun idean.
+Teknisesti joskus, mutta se muuttaa neulepinnan luonteen. Paksumpi lanka pienillä puikoilla muuttuu tiiviiksi ja jäykäksi. Ohuempi lanka isoilla puikoilla muuttuu löysäksi ja avoimeksi. Joissakin projekteissa se sopii, toisissa se tuhoaa suunnittelun idean, varsinkin vaatteissa, joissa laskeutuvuus ja tuntu ratkaisevat.
 
 **Ohjeen lanka on lopetettu. Miten löydän hyvän korvaajan?**
-Ravelryn lankatietokanta on hyvä lähtökohta, koska sillä voi vertailla vahvuutta, kuitua ja neuletiheysalueita. Hyvä lankakauppa auttaa myös, jos tuot tarkat tiedot: ohjeen neuletiheys, kokonaismetrit ja kuitusisältö.
+Ravelryn lankatietokanta on paras lähtökohta, koska sillä voi vertailla vahvuutta, kuitua ja neuletiheysalueita rinnakkain. Hyvä lankakauppa auttaa myös, jos tuot tarkat tiedot: ohjeen neuletiheys, kokonaismetrit ja kuitusisältö. Jos kysyt vain "mikä olisi samanlainen lanka", ilman näitä numeroita myös hyvä myyjä joutuu arvaamaan.
 
 **Pitääkö säiemäärän täsmätä?**
 Ei. Ply kertoo rakenteesta, ei paksuudesta. 2-ply voi olla paksumpi kuin 4-ply riippuen siitä, miten säikeet on kehrätty. Täsmää neuletiheys, vahvuusalue ja kuidun käyttäytyminen.
 
 **Entä käsinvärjätty ja teollisesti värjätty lanka?**
-Käsinvärjätyssä langassa on usein enemmän näkyvää vaihtelua kerien välillä ja joskus yhden kerän sisällä. Isoissa projekteissa kerien vuorottelu kahden kerroksen välein sekoittaa vaihtelun kankaaseen sen sijaan, että keränvaihtoon syntyisi kova väriraja.
+Käsinvärjätyssä langassa on usein enemmän näkyvää vaihtelua kerien välillä ja joskus yhden kerän sisällä. Isoissa projekteissa kerien vuorottelu kahden kerroksen välein sekoittaa vaihtelun kankaaseen sen sijaan, että keränvaihtoon syntyisi kova väriraja. Se on lisätyötä, mutta kaiken pipoa isomman kohdalla yleensä vaivan arvoista.

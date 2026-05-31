@@ -25,9 +25,11 @@ Der Ärger beginnt, wenn „ein paar Projekte“ leise zu sieben werden und du n
 
 **Wo du aufgehört hast.** Reihenzahl, Position im Musterrapport, Abschnitt der Anleitung. Diese Information ist am teuersten zu rekonstruieren. Bei einem glatt-rechts-Körper kannst du Reihen im Gestrick zählen. Bei einem Zopfpanel oder Lochmusterchart kann ein verlorener Platz bedeuten, dass du bis zu einem sicheren Punkt zurückribbeln musst. Der [Leitfaden zum Reihenzählen](/de/artikel/reihen-beim-stricken-zaehlen/) erklärt Methoden genauer.
 
-**Was im Beutel ist.** Nadelstärke, Garnname und Farbe, übrige Knäuel. Holst du ein Projekt nach einem Monat aus der Aufbewahrung und die Banderole hat sich vom Knäuel gelöst, versuchst du plötzlich, mysteriöses beiges DK-Garn zu identifizieren. Das wird schnell alt. Bewahre Banderolen beim Projekt auf oder notiere die Details zugänglich.
+**Was im Beutel ist.** Nadelstärke, Garnname und Farbe, übrige Knäuel. Holst du ein Projekt nach einem Monat aus der Aufbewahrung und die Banderole hat sich vom Knäuel gelöst, versuchst du plötzlich, mysteriöses beiges DK-Garn zu identifizieren. Das wird schnell alt. Bewahre Banderolen beim Projekt auf oder notiere die Details zugänglich. Die einfachste Variante: Kleb eine Banderole innen in den Projektbeutel, sodass die Farbpartie sichtbar bleibt.
 
-**Was du entschieden hast.** Änderungen, Größenanpassungen, Notizen aus dem Stricken. „5 cm mehr Körperlänge“ ist offensichtlich, wenn du es gestern entschieden hast. Drei Wochen später ist es unsichtbar.
+**Was du entschieden hast.** Änderungen, Größenanpassungen, Notizen aus dem Stricken. „5 cm mehr Körperlänge“ ist offensichtlich, wenn du es gestern entschieden hast. Drei Wochen später ist es unsichtbar. Dasselbe gilt für Nadelwechsel mitten im Projekt, die Reihe, in der du ein neues Knäuel angesetzt hast, oder jede Stelle, an der du bewusst von der Strickschrift abgewichen bist.
+
+**Wo das Arbeitsgarn ist.** Genauer: Kommt der Faden aus der Mitte oder von außen, und welches Knäuel der Reihenfolge ist gerade aktiv? Das zählt, wenn du zwischen zwei Farbpartien wechselst, eine Kontrastfarbe in einer bestimmten Reihe ansetzt oder ein Knäuel für passende Ärmel geteilt hast und wissen musst, welche Hälfte zu welcher Seite gehört.
 
 ## Physische Ordnung
 
@@ -37,13 +39,15 @@ Der Behälter ist nicht entscheidend. Reißverschlusstäschchen, Zugbeutel, Zipl
 
 Bei größeren Projekten mit mehreren Knäueln bleibt das Arbeitsknäuel beim Projekt, die Extras können getrennt lagern, aber beschriftet. Ein Streifen Malerkrepp mit Projektnamen verhindert das Problem, sechs Knäuel cremefarbenes DK von drei Marken im Vorrat zu haben und nicht zu wissen, welches wohin gehört.
 
+Auch das Material des Projektbeutels ist praktisch relevant. Leichte Stoffbeutel fühlen sich angenehm an, schützen aber nur begrenzt vor Fädenziehen, Fusseln oder verstreuten Kleinteilen. Reißverschlusspouches aus Kunststoff oder Beutel mit Sichtfenster schützen besser und zeigen den Inhalt, ohne dass du alles öffnen musst. Große Projekte brauchen Platz. Ärmel und halbfertige Passen mögen es nicht, in einen Beutel in Sockengröße gequetscht zu werden.
+
 ## Verfolgen, wo du aufgehört hast
 
 Papiernotizen funktionieren, wenn du diszipliniert aktualisierst. Aktuelle Reihenzahl auf einen Klebezettel schreiben, an die Anleitung kleben, beim Stoppen ändern. Das Problem: Nach einer guten Stricksitzung vor dem Weglegen noch eine Notiz zu schreiben, verlangt eine Gewohnheit, die viele nicht automatisch bilden.
 
 Ein Strickprojekt-Tracker auf dem Handy ist zuverlässiger. Digitale Tracker speichern Reihenzahlen automatisch, merken, wann du zuletzt an einem Projekt gearbeitet hast, und zeigen alle aktiven Projekte in einer Liste. Statt Beutel zu durchwühlen, siehst du alles auf einen Blick: Zopfcardigan, Reihe 47, zuletzt Dienstag. Einfache Socken, Fersenkäppchen, zuletzt vor einer Woche.
 
-Die [KnitTools-App](/) organisiert Projekte mit verknüpftem Garn, Reihenzahl, Sitzungsverlauf und Anleitungsnotizen an einem Ort. Projekt öffnen, und du bist wieder dort, wo du aufgehört hast.
+Die [KnitTools-App](/) wird gebaut, um Projekte mit Reihenzahlen, Sitzungsverlauf, Projektnotizen und Garndetails an einem Ort zu organisieren. Das Ziel ist schlicht: Projekt öffnen und wieder in den Arbeitsstand kommen, ohne ihn aus dem Gedächtnis zu rekonstruieren.
 
 ## Entscheiden, woran du arbeitest
 
@@ -53,7 +57,9 @@ Mehrere WIPs werden stressig, wenn du dich wegen der unberührten Projekte schul
 
 **Rotation planen.** Bestimmte Sitzungen bestimmten Projekten widmen. Wochentagabende für den Pullover, Wochenenden fürs Tuch. Das verhindert, dass du immer zum leichtesten Projekt greifst, während das komplexe liegen bleibt.
 
-**Fortschrittsziele.** „Passe fertigstricken, bevor ich etwas Neues beginne“ motiviert mehr als „ich sollte am Pullover arbeiten“. Konkrete Ziele geben Richtung. Auch Zeit pro Projekt zu verfolgen kann Muster zeigen. Wenn etwas drei Wochen unberührt ist, ist vielleicht Zeit, sich zu entscheiden oder es ehrlich zu benennen.
+**Fortschrittsziele.** „Passe fertigstricken, bevor ich etwas Neues beginne“ motiviert mehr als „ich sollte am Pullover arbeiten“. Konkrete Ziele geben Richtung. Auch Zeit pro Projekt zu verfolgen kann Muster zeigen. Wenn etwas immer wieder liegen bleibt, ist vielleicht eine Entscheidung fällig: weiterstricken, bewusst pausieren oder das Garn zurückholen.
+
+**Projekt und Moment zusammenbringen.** Zopfcharts und Lochmuster brauchen Aufmerksamkeit, also passen sie zu einem ruhigen Abend zu Hause. Glatte Sockenrunden funktionieren im Zug, im Wartezimmer oder während eines Telefonats. Wenn das Projekt zur verfügbaren Situation passt, machst du wirklich Fortschritt, statt den falschen Beutel herauszuholen und ihn fünf Minuten später wieder wegzulegen.
 
 ## Wenn ein WIP zum UFO wird
 
@@ -69,7 +75,9 @@ Wenn mehrere Projekte laufen, verheddert sich die Garnlogistik. Welche Projekte 
 
 Garn projektbezogen zu verfolgen, also Startmenge und Restmenge, verhindert zwei schlechte Ergebnisse: Garn geht mitten im Projekt aus, wenn die Farbpartie verschwunden ist, oder du kaufst doppelt, weil du vergessen hast, was du hast.
 
-Banderolen zu fotografieren oder zu scannen hält die Details fest, auch wenn die Papierbanderole abfällt: Garnstärke, Materialzusammensetzung, Pflegehinweise und Farbpartie. Die KnitTools-App enthält einen [Yarn Label Scanner](/), der diese Informationen speichert und direkt mit einem Projekt verknüpft.
+Ein nützlicher Trick für aktive Projekte: Wiege das übrige Garn alle paar Sitzungen und notiere Grammzahl und Datum. Wenn ein Ärmel 47 g gebraucht hat, weißt du genau, was der zweite Ärmel ungefähr braucht, plus etwas Reserve. Aus „ich glaube, es reicht“ wird ein konkretes Ja oder Nein.
+
+Notiere die Garninformationen, solange die Banderole noch da ist: Garnstärke, Materialzusammensetzung, Pflegehinweise und Farbpartie. Die [KnitTools-App](/) wird dafür gebaut, solche Notizen beim passenden Projekt zu halten, statt sie als losen Zettel im Projektbeutel verschwinden zu lassen.
 
 ## Die Minimalversion
 
@@ -80,7 +88,7 @@ Das reicht, um jedes Projekt ohne Verwirrung wieder aufzunehmen und zu merken, b
 ## FAQ
 
 **Wie viele Projekte sind zu viele?**
-Es gibt keine allgemeine Zahl. Wenn dich die Auswahl eher überfordert als motiviert, sind es zu viele. Viele finden 3-5 aktive Projekte als Bereich, in dem jedes noch sinnvoll Fortschritt macht.
+Es gibt keine allgemeine Zahl. Wenn dich die Auswahl eher überfordert als motiviert, sind es zu viele. Eine hilfreiche aktive Liste ist klein genug, dass jedes Projekt noch echte Aufmerksamkeit bekommt.
 
 **Sollte ich ein Projekt fertigstellen, bevor ich ein neues beginne?**
 Strikte Monogamie funktioniert für manche. Die meisten profitieren von mehreren Projekten, weil unterschiedliche Situationen und Energielevel unterschiedliches Stricken brauchen. Entscheidend ist ein System, nicht die Abschaffung aller Parallelprojekte.

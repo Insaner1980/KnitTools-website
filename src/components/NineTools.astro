@@ -19,22 +19,22 @@ const cards = [
   {
     tag: "Counter",
     tier: "free",
-    title: "Row counter with memory",
-    body: 'A big round button where your thumb already is. Tap without looking. Miscount? Undo. Say "add three" or "next row" without putting your needles down.',
+    title: "Saved row counter",
+    body: "A big round button where your thumb already is. Miscount? Undo. Your row count stays with the project.",
     chips: true,
     span: 2,
   },
   {
     tag: "Pattern",
     tier: "free",
-    title: "Pattern viewer that follows along",
-    body: "PDF or Ravelry pull-in. Annotate rows, mark your place, find your way back when life interrupts.",
+    title: "Pattern viewer with row notes",
+    body: "PDF or Ravelry pull-in. Annotate rows, mark your place, and return to the spot you saved.",
     tint: "amber",
   },
   {
     tag: "Calc",
     tier: "free",
-    title: "Four calculators, quietly working",
+    title: "Four knitting calculators",
     body: "Cast on, gauge, increases, yardage. The math your knitting already asked you to do.",
   },
   {
@@ -47,16 +47,8 @@ const cards = [
   {
     tag: "Reference",
     tier: "free",
-    title: "Reference, one tap away",
-    body: "Needles, sizes, chart symbols, abbreviations. Right there in your library, before you remember you needed it.",
-  },
-  {
-    tag: "Stash",
-    tier: "pro",
-    title: "Yarn scanner for the label graveyard",
-    body: "Point the camera at the ball band. AI reads fiber, weight, meters, needle size, gauge, dye lot. Filed in your stash with a photo. That mystery skein finally has a name.",
-    tint: "sage",
-    span: 2,
+    title: "Reference library",
+    body: "Needles, sizes, chart symbols, and abbreviations, ready when you need them.",
   },
   {
     tag: "Photos",
@@ -65,10 +57,11 @@ const cards = [
     body: "One folder per project. Full resolution, on your device, nothing uploaded anywhere.",
   },
   {
-    tag: "Insights",
+    tag: "Stats",
     tier: "pro",
-    title: "Insights without the pressure",
-    body: "Hours at the needles. Rows per hour. Streaks. No leaderboards, no nudges, no comparing. The stats are yours.",
+    title: "Project stats without the pressure",
+    body: "Hours at the needles. Rows per hour. Streaks. No leaderboards, no nudges, no comparing.",
+    tint: "sage",
   },
   {
     tag: "Widget",
@@ -81,25 +74,6 @@ const cards = [
 
 const freeCards = cards.filter((c) => c.tier === "free");
 const proCards = cards.filter((c) => c.tier === "pro");
-
-const aiFeatures = [
-  {
-    t: "Live voice on the counter",
-    d: 'Say "next row", "set row to 100", or ask "what\'s sl1 k2tog psso" without putting the needles down. Basic commands stay offline.',
-  },
-  {
-    t: "Pattern intelligence",
-    d: "Pattern viewer reads each row aloud for you. Tap any instruction for a plain-language explanation. Paste a gnarly increase sentence and the calculator fills itself.",
-  },
-  {
-    t: "Stash and project memory",
-    d: "Scan a yarn label. Fiber, weight, meters, dye lot filed automatically. Ask for a project summary and the AI picks up where you left off, yarn compatibility and all.",
-  },
-  {
-    t: "Voice or text journal",
-    d: "Mumble a session note into the mic or type a quick line. The AI adds date and row, keeps your own words intact.",
-  },
-];
 ---
 
 <section class="nine-tools" aria-labelledby="nine-heading">
@@ -109,14 +83,13 @@ const aiFeatures = [
         <span class="label-text">Features</span>
       </p>
       <h2 id="nine-heading" class="title">
-        Every tool,<br /><em>talking to each other.</em>
+        Your knitting tools,<br /><em>in one project home.</em>
       </h2>
     </header>
 
     <p class="manifesto">
-      The row you were on, the yarn you forgot, the pattern that made no sense
-      at midnight. <em>KnitTools remembers it all,</em> so the only thing you do is
-      keep knitting.
+      Keep your counter, pattern, notes, photos, and tools together in one
+      project home, so you can pick up where you left off.
     </p>
 
     <div class="tier-head" aria-hidden="true">
@@ -154,13 +127,13 @@ const aiFeatures = [
 
     <div class="tier-head tier-head-pro" aria-hidden="true">
       <span class="tier-label">Pro <RegionalPrice phase="launch" /></span>
-      <span class="tier-count">{proCards.length} tools + AI</span>
+      <span class="tier-count">{proCards.length} tools</span>
       <span class="tier-line"></span>
     </div>
 
-    <div class="nine-grid">
+    <div class="nine-grid pro-feature-grid">
       {
-        proCards.slice(0, 2).map((c) => (
+        proCards.map((c) => (
           <article
             class:list={[
               "tool-card",
@@ -176,99 +149,6 @@ const aiFeatures = [
           </article>
         ))
       }
-    </div>
-
-    <div class="nine-grid nine-grid-halves">
-      {
-        proCards.slice(2).map((c) => (
-          <article class:list={["tool-card", c.tint && `tint-${c.tint}`]}>
-            <div class="card-meta">
-              <span class="tag">{c.tag}</span>
-            </div>
-            <h3>{c.title}</h3>
-            <p>{c.body}</p>
-          </article>
-        ))
-      }
-    </div>
-
-    <div class="nine-grid">
-      <article class="tool-card tint-sage wide ai-card">
-        <div class="card-meta">
-          <span class="tag">AI</span>
-        </div>
-        <div class="ai-grid">
-          <div class="ai-intro">
-            <div class="intro-text">
-              <h3>AI that <em>knows knitting</em></h3>
-              <p>
-                Voice that listens, eyes that read, memory that connects the
-                dots across your projects. In all eleven languages.
-              </p>
-            </div>
-            <div class="mic-area" aria-hidden="true">
-              <div class="mic-stack">
-                <span class="mic-ring"></span>
-                <span class="mic-ring"></span>
-                <span class="mic-ring"></span>
-                <svg
-                  class="mic-icon"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.6"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  aria-hidden="true"
-                >
-                  <rect x="9" y="2" width="6" height="12" rx="3"></rect>
-                  <path d="M5 10a7 7 0 0 0 14 0"></path>
-                  <line x1="12" y1="19" x2="12" y2="22"></line>
-                </svg>
-              </div>
-              <span class="bc-status">Listening</span>
-            </div>
-          </div>
-
-          <ol class="ai-list">
-            {
-              aiFeatures.map((f) => (
-                <li>
-                  <div class="body">
-                    <div class="t">{f.t}</div>
-                    <div class="d">{f.d}</div>
-                  </div>
-                </li>
-              ))
-            }
-          </ol>
-        </div>
-
-        <div class="ai-broadcast" aria-hidden="true">
-          <div class="bc-center">
-            <div class="big-wave" id="ai-waveform" aria-hidden="true"></div>
-          </div>
-
-          <div class="bc-right">
-            <div class="bc-meta">
-              <span class="bc-live"
-                ><span class="bc-dot"></span>Transcript · Live</span
-              >
-              <span class="bc-row">Row 85</span>
-            </div>
-            <div class="bc-dialogue">
-              <div class="bc-line you">
-                <span class="av">You</span>
-                <span class="msg" data-msg="you">&nbsp;</span>
-              </div>
-              <div class="bc-line ai">
-                <span class="av">AI</span>
-                <span class="msg" data-msg="ai">&nbsp;</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
     </div>
   </div>
 </section>
@@ -370,9 +250,6 @@ const aiFeatures = [
   .nine-grid + .nine-grid {
     margin-top: 20px;
   }
-  .nine-grid-halves {
-    grid-template-columns: repeat(2, 1fr);
-  }
   .nine-grid + .tier-head-pro {
     margin-top: 48px;
   }
@@ -386,9 +263,6 @@ const aiFeatures = [
     flex-direction: column;
     gap: 12px;
     border-radius: 0;
-  }
-  .tool-card.wide {
-    grid-column: 1 / -1;
   }
   .tool-card.span-2 {
     grid-column: span 2;
@@ -531,379 +405,15 @@ const aiFeatures = [
     border-radius: 999px;
   }
 
-  /* ---------- AI wide card ---------- */
-  .ai-card {
-    padding: 40px 44px;
-    position: relative;
-    overflow: hidden;
-  }
-  .ai-grid {
-    display: grid;
-    grid-template-columns: 1.1fr 1fr;
-    gap: 48px;
-    align-items: stretch;
-    margin-top: 14px;
-    position: relative;
-    z-index: 1;
-  }
-  .ai-intro {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-  }
-  .mic-area {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-    padding: 24px 0;
-  }
-  .ai-intro h3 {
-    font-family: var(--font-display);
-    font-weight: 400;
-    font-size: clamp(2rem, 2.8vw, 2.75rem);
-    line-height: 1;
-    letter-spacing: -0.01em;
-    text-transform: none;
-    margin: 0 0 14px;
-    color: #f4ead9;
-  }
-  .ai-intro h3 em {
-    color: #f4ead9;
-    font-style: italic;
-  }
-  .ai-intro p {
-    font-family: var(--body-ed);
-    font-size: 15px;
-    line-height: 1.6;
-    color: rgba(244, 234, 217, 0.88);
-    margin: 0 0 22px;
-    max-width: 360px;
-  }
-  @keyframes wave-a {
-    0%,
-    100% {
-      transform: scaleY(0.22);
-    }
-    50% {
-      transform: scaleY(1.2);
-    }
-  }
-  @keyframes wave-b {
-    0%,
-    100% {
-      transform: scaleY(0.3);
-    }
-    32% {
-      transform: scaleY(0.65);
-    }
-    58% {
-      transform: scaleY(1.15);
-    }
-    82% {
-      transform: scaleY(0.4);
-    }
-  }
-  @keyframes wave-c {
-    0%,
-    100% {
-      transform: scaleY(0.18);
-    }
-    22% {
-      transform: scaleY(1.05);
-    }
-    44% {
-      transform: scaleY(0.32);
-    }
-    70% {
-      transform: scaleY(1.35);
-    }
-    88% {
-      transform: scaleY(0.55);
-    }
-  }
-  @keyframes wave-d {
-    0%,
-    100% {
-      transform: scaleY(0.42);
-    }
-    18% {
-      transform: scaleY(0.85);
-    }
-    48% {
-      transform: scaleY(0.28);
-    }
-    76% {
-      transform: scaleY(1.22);
-    }
-  }
-
-  .ai-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-  .ai-list li {
-    padding: 12px 0;
-    border-top: 1px solid rgba(244, 234, 217, 0.2);
-  }
-  .ai-list li:last-child {
-    border-bottom: 1px solid rgba(244, 234, 217, 0.2);
-  }
-  .ai-list .t {
-    font-family: var(--font-body);
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 1.3;
-    color: #f4ead9;
-    margin-bottom: 4px;
-  }
-  .ai-list .d {
-    font-family: var(--body-ed);
-    font-size: 13px;
-    line-height: 1.5;
-    color: rgba(244, 234, 217, 0.78);
-  }
-
-  /* ---------- AI broadcast strip ---------- */
-  .ai-broadcast {
-    margin: 40px 0 0;
-    padding: 0;
-    background: transparent;
-    display: grid;
-    grid-template-columns: 1.6fr 1fr;
-    column-gap: 44px;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-  }
-
-  .mic-stack {
-    position: relative;
-    width: 72px;
-    height: 72px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #f4ead9;
-  }
-  .mic-icon {
-    width: 34px;
-    height: 34px;
-    position: relative;
-    z-index: 2;
-  }
-  .mic-ring {
-    position: absolute;
-    inset: 0;
-    border: 1.5px solid #f4ead9;
-    border-radius: 50%;
-    opacity: 0;
-    transform: scale(1);
-    animation: sonar 2.6s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
-  }
-  .mic-ring:nth-child(1) {
-    animation-delay: 0s;
-  }
-  .mic-ring:nth-child(2) {
-    animation-delay: 0.85s;
-  }
-  .mic-ring:nth-child(3) {
-    animation-delay: 1.7s;
-  }
-  @keyframes sonar {
-    0% {
-      transform: scale(1);
-      opacity: 0.7;
-    }
-    80% {
-      opacity: 0;
-    }
-    100% {
-      transform: scale(2.6);
-      opacity: 0;
-    }
-  }
-  .bc-status {
-    font-family: var(--font-body);
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #f4ead9;
-    opacity: 0.82;
-  }
-
-  .big-wave {
-    display: flex;
-    align-items: center;
-    gap: 3px;
-    height: 140px;
-    width: 100%;
-  }
-  .big-wave :global(span) {
-    display: block;
-    flex: 1 1 0;
-    min-width: 2px;
-    background: #f4ead9;
-    border-radius: 2px;
-    transform-origin: center;
-    animation-name: wave-a;
-    animation-duration: var(--wave-dur, 1.1s);
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-delay: var(--wave-delay, 0s);
-  }
-  .big-wave :global(span.v-b) {
-    animation-name: wave-b;
-  }
-  .big-wave :global(span.v-c) {
-    animation-name: wave-c;
-  }
-  .big-wave :global(span.v-d) {
-    animation-name: wave-d;
-  }
-
-  .bc-right {
-    min-width: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-  }
-  .bc-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: var(--font-body);
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #f4ead9;
-  }
-  .bc-live {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .bc-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--terracotta);
-    box-shadow: 0 0 0 0 rgba(194, 112, 62, 0.7);
-    animation: dotPulse 1.6s ease-out infinite;
-  }
-  @keyframes dotPulse {
-    0% {
-      box-shadow: 0 0 0 0 rgba(194, 112, 62, 0.7);
-    }
-    70% {
-      box-shadow: 0 0 0 10px rgba(194, 112, 62, 0);
-    }
-    100% {
-      box-shadow: 0 0 0 0 rgba(194, 112, 62, 0);
-    }
-  }
-  .bc-row {
-    opacity: 0.7;
-  }
-
-  .bc-dialogue {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    min-height: 90px;
-  }
-  .bc-line {
-    display: grid;
-    grid-template-columns: 38px 1fr;
-    gap: 10px;
-    align-items: baseline;
-  }
-  .bc-line .av {
-    font-family: var(--font-body);
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-  }
-  .bc-line.you .av {
-    color: #f4ead9;
-  }
-  .bc-line.ai .av {
-    color: #f4ead9;
-    opacity: 0.7;
-  }
-  .bc-line .msg {
-    font-family: var(--font-body);
-    font-style: italic;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.4;
-    color: #f4ead9;
-    min-height: 1.4em;
-  }
-  .bc-line.you .msg {
-    font-style: italic;
-  }
-  .bc-line .msg::after {
-    content: "";
-    display: inline-block;
-    width: 2px;
-    height: 1em;
-    margin-left: 3px;
-    background: #f4ead9;
-    transform: translateY(2px);
-    animation: caret 0.9s steps(2) infinite;
-    opacity: 0;
-  }
-  .bc-line .msg.typing::after {
-    opacity: 1;
-  }
-  @keyframes caret {
-    0%,
-    50% {
-      opacity: 1;
-    }
-    51%,
-    100% {
-      opacity: 0;
-    }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .big-wave :global(span),
-    .mic-ring,
-    .bc-dot,
-    .bc-line .msg::after {
-      animation: none;
-    }
-    .big-wave :global(span) {
-      transform: scaleY(0.8);
-    }
-  }
-
   @media (max-width: 1024px) {
     .nine-grid {
       grid-template-columns: repeat(2, 1fr);
     }
-    .tool-card.wide {
-      grid-column: 1 / -1;
-    }
     .tool-card.span-2 {
       grid-column: 1 / -1;
     }
-    .ai-grid {
-      grid-template-columns: 1fr 1fr;
-    }
-    .ai-broadcast {
-      column-gap: 32px;
+    .pro-feature-grid {
+      grid-template-columns: 1fr;
     }
   }
   @media (max-width: 767px) {
@@ -922,113 +432,5 @@ const aiFeatures = [
     .tool-card {
       padding: 24px 22px 28px;
     }
-    .ai-card {
-      padding: 28px 24px;
-    }
-    .ai-grid {
-      grid-template-columns: 1fr;
-      gap: 28px;
-    }
-    .mic-area {
-      padding: 12px 0;
-    }
-    .ai-broadcast {
-      margin-top: 28px;
-      grid-template-columns: 1fr;
-      row-gap: 22px;
-    }
-    .big-wave {
-      height: 80px;
-    }
   }
 </style>
-
-<script is:inline>
-  (() => {
-    const wave = document.getElementById("ai-waveform");
-    if (wave) {
-      const bars = 44;
-      const variants = ["", "v-b", "v-c", "v-d"];
-      for (let i = 0; i < bars; i++) {
-        const bar = document.createElement("span");
-        const h = 18 + Math.round(Math.random() * 82);
-        const dur = (0.7 + Math.random() * 1.6).toFixed(2);
-        const delay = (Math.random() * 1.8).toFixed(2);
-        const v = variants[Math.floor(Math.random() * variants.length)];
-        bar.style.height = h + "%";
-        bar.style.setProperty("--wave-dur", dur + "s");
-        bar.style.setProperty("--wave-delay", delay + "s");
-        if (v) bar.className = v;
-        wave.appendChild(bar);
-      }
-    }
-
-    const pairs = [
-      {
-        you: '"Next row."',
-        ai: "Row 85. Two more before your sleeve increase.",
-      },
-      {
-        you: '"What\'s sl1 k2tog psso?"',
-        ai: "Slip one, knit two together, pass the slipped stitch over.",
-      },
-      {
-        you: '"Set row to 100."',
-        ai: "Counter set to 100. You are halfway through the yoke.",
-      },
-    ];
-
-    const youEl = document.querySelector('[data-msg="you"]');
-    const aiEl = document.querySelector('[data-msg="ai"]');
-    if (!youEl || !aiEl) return;
-
-    const prefersReduced = window.matchMedia(
-      "(prefers-reduced-motion: reduce)",
-    ).matches;
-
-    const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-    async function typeInto(el, text) {
-      el.classList.add("typing");
-      el.textContent = "";
-      for (let i = 0; i < text.length; i++) {
-        el.textContent += text[i];
-        await sleep(22 + Math.random() * 24);
-      }
-      el.classList.remove("typing");
-    }
-
-    async function loop() {
-      let idx = 0;
-      if (prefersReduced) {
-        youEl.textContent = pairs[0].you;
-        aiEl.textContent = pairs[0].ai;
-        return;
-      }
-      while (true) {
-        const p = pairs[idx];
-        youEl.textContent = "\u00A0";
-        aiEl.textContent = "\u00A0";
-        await sleep(400);
-        await typeInto(youEl, p.you);
-        await sleep(700);
-        await typeInto(aiEl, p.ai);
-        await sleep(3200);
-        idx = (idx + 1) % pairs.length;
-      }
-    }
-
-    const io = new IntersectionObserver(
-      (entries, observer) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            loop();
-            observer.disconnect();
-          }
-        });
-      },
-      { threshold: 0.25 },
-    );
-    io.observe(document.querySelector(".ai-broadcast"));
-  })();
-</script>

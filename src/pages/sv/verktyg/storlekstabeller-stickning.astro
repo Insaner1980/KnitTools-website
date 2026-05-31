@@ -742,15 +742,15 @@ const defaultPanel = "dam";
 const faqs = [
   {
     q: "Är de här måtten samma i alla stickmönster?",
-    a: "De flesta större förlag och fristående designers följer Craft Yarn Councils standarder, men det finns ingen universell kontroll. Vissa designers använder egna storlekar, särskilt de som arbetar med storleksinkluderande design och mer finfördelade alternativ. Kontrollera alltid mönstrets egen storlekstabell om det finns en.",
+    a: "Många förlag och designers använder kroppsmått i Craft Yarn Council-stil, men det finns ingen universell kontroll. Vissa designers använder egna storlekar, särskilt i storleksinkluderande design med mer finfördelade alternativ. Kontrollera alltid mönstrets egen storlekstabell om det finns en.",
   },
   {
     q: "Hur väljer jag storlek om mönstret använder nummer i stället för XS/S/M/L?",
-    a: "Jämför bröstvidden som anges för varje numrerad storlek med tabellerna ovan. Bröstvidden är det som spelar roll. Strunta i etiketten.",
+    a: "Jämför bröstvidden som anges för varje numrerad storlek med tabellerna ovan. Det är bröstvidden som spelar roll. Strunta i etiketten.",
   },
   {
     q: "Ska jag mäta över kläder eller direkt på huden?",
-    a: "Över tunna kläder: en åtsittande t-shirt eller ett tunt lager. En tjock tröja lägger till centimeter som inte speglar kroppen. Direkt på huden kan måttet bli lite mindre än vad plagget faktiskt behöver rymma.",
+    a: "Mät direkt på huden eller över ett tunt åtsittande lager, och undvik tjocka kläder. En tjock tröja lägger till centimeter som inte speglar kroppsmåttet som mönstrets storlekstabell frågar efter.",
   },
   {
     q: "Vad gör jag om mina mått inte passar snyggt i en storlek?",
@@ -765,7 +765,7 @@ const faqs = [
   canonicalPath={routes.tool.knittingSizeCharts.sv}
   lang="sv"
   alternates={routes.tool.knittingSizeCharts}
-  intro="Standardmått för varje stickprojekt. Välj kategori och måttenhet för att se tabellen."
+  intro="Referensmått för stickprojekt. Välj kategori och måttenhet för att se tabellen."
   schemaName="Storlekstabeller för stickning"
   schemaDescription="Referenstabeller med standardiserade kroppsmått för stickning, från baby till vuxenstorlekar."
   faqs={faqs}
@@ -897,7 +897,7 @@ const faqs = [
       vara.
     </p>
     <p>
-      <strong>Ärmlängd till underarm:</strong> Mät från handledsknölen till underarmen.
+      <strong>Ärmlängd till underarm:</strong> Mät från armhålan till handledsknölen.
       Det är din guide för ärmlängd.
     </p>
     <p>
@@ -918,7 +918,8 @@ const faqs = [
     <p>
       Det här är den vanligaste källan till storleksförvirring i stickning.
       Tabellerna visar kroppsmått, alltså personens faktiska mått. Ett färdigt
-      plagg är alltid större eftersom det innehåller rörelsevidd.
+      plagg kan vara mindre, lika stort eller större beroende på vilken
+      rörelsevidd mönstret använder.
     </p>
     <p>
       <strong>Negativ rörelsevidd (-2,5 till -5 cm):</strong> Plagget är mindre än
@@ -926,21 +927,26 @@ const faqs = [
       sitta åt.
     </p>
     <p>
-      <strong>Noll rörelsevidd:</strong> Plagget matchar kroppsmåtten exakt. Mycket
-      ovanligt i stickning. Resultatet blir hudnära.
+      <strong>Noll rörelsevidd:</strong> Plagget matchar kroppsmåtten exakt. Det ger
+      en kroppsnära passform och är mindre vanligt än positiv rörelsevidd i tröjor.
     </p>
     <p>
       <strong>Positiv rörelsevidd (5-10 cm):</strong> Plagget är lite större än kroppen.
       Det är standardpassform för de flesta tröjor, koftor och toppar.
     </p>
     <p>
-      <strong>Oversized rörelsevidd (10-20+ cm):</strong> Plagget är tydligt större
-      än kroppen. Slappa tröjor, cocoon-koftor och plagg med avslappnad passform.
+      <strong>Generös rörelsevidd (10-15 cm):</strong> Plagget är tydligt större än
+      kroppen. Slappa tröjor, cocoon-koftor och plagg med avslappnad passform.
     </p>
     <p>
-      När ett mönster säger "to fit chest 91,5 cm" och anger färdig bystvidd
-      101,5 cm är skillnaden på 10 cm rörelsevidden. Din uppgift är att välja
-      storleken där "to fit"-måttet matchar kroppen, inte det färdiga måttet.
+      <strong>Oversized rörelsevidd (15+ cm):</strong> Plagget är mycket löst och
+      betydligt större än kroppen.
+    </p>
+    <p>
+      När ett mönster säger att en storlek passar bröstvidd 91,5 cm och anger
+      färdig bystvidd 101,5 cm är skillnaden på 10 cm rörelsevidden. Din uppgift
+      är att välja storleken där passformsmåttet matchar kroppen, inte bara det
+      färdiga måttet.
     </p>
     <p>
       När du vet målstorleken kan <a href={routes.tool.yarnEstimator.sv}

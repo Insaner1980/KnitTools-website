@@ -15,7 +15,7 @@ Se ei ole. Ei oikeasti. Mittaa neuletiheys neulomalla vähintään noin 15 cm le
 
 ## Mitä neuletiheys tarkoittaa
 
-Neuletiheys tarkoittaa sitä, montako silmukkaa ja kerrosta mahtuu tiettyyn mittaan neulepintaa. Ohje voi kirjoittaa sen esimerkiksi näin: "20 s ja 26 krs = 10 cm sileää neuletta 4,5 mm puikoilla."
+Neuletiheys tarkoittaa sitä, montako silmukkaa ja kerrosta mahtuu tiettyyn mittaan neulepintaa. Monissa brittiläisissä ohjeissa sama asia on `tension`. Ohje voi kirjoittaa sen esimerkiksi näin: "20 s ja 26 krs = 10 cm sileää neuletta 4,5 mm puikoilla."
 
 Tämä rivi kertoo, millainen suunnittelijan valmis neulepinta oli. Jos oma neuleesi vastaa sitä, valmiit mitat osuvat todennäköisemmin oikein. Jos ei vastaa, työn mitat alkavat muuttua heti. Eron ei tarvitse olla suuri. Kahden silmukan ero 10 cm matkalla kertyy nopeasti. 100 cm ympäryksessä se voi tarkoittaa noin 10 cm ylimääräistä leveyttä. Siinä on ero "tarpeeksi lähellä" ja "miksi tämä roikkuu hartioilta" välillä.
 
@@ -25,7 +25,7 @@ Mallitilkku on pieni testipala, joka tehdään omalla langalla, omilla puikoilla
 
 Luo tarpeeksi silmukoita, jotta tilkusta tulee vähintään noin 15 cm leveä. Hieman suurempi on parempi, jos lanka elää paljon tai projektin pitää istua tarkasti. Neuletiheyttä, joka on ilmoitettu 10 cm matkalle, ei koskaan pitäisi mitata reunasta reunaan. Luomisreuna, päättelyreuna ja sivusilmukat käyttäytyvät eri tavalla kuin tilkun keskiosa. Tarvitset mittausalueen ympärille ylimääräistä neuletta, jotta luet oikeaa neulepintaa etkä reunojen vääristymiä.
 
-Jos ohje sanoo "sileässä neuleessa", tee mallitilkku sileänä neuleena. Jos ohje sanoo "mallineuleessa", käytä projektin mallineuletta. Tämä merkitsee enemmän kuin moni odottaa. Palmikot vetävät kasaan. Pitsi avautuu. Joustin painuu kapeammaksi. Mikään niistä ei käyttäydy kuin tavallinen sileä neule.
+Jos ohje sanoo "sileässä neuleessa", tee mallitilkku sileänä neuleena. Jos ohje sanoo "mallineuleessa", käytä projektin mallineuletta. Tämä merkitsee enemmän kuin moni odottaa. Palmikot vetävät kasaan. Pitsi avautuu. Joustin painuu kapeammaksi. Mikään niistä ei käyttäydy kuin tavallinen sileä neule. Palmikkoinen pinta voi samalla silmukkamäärällä olla vaatteen leveydessä selvästi kapeampi kuin sileä neule.
 
 Neulo, kunnes tilkku on vähintään noin 15 cm korkea. Päättele silmukat.
 
@@ -41,7 +41,7 @@ Jos ohitat tämän, mittaat väärää neulepintaa. Mallitilkku täsmää suoraa
 
 Käsittele mallitilkkua samalla tavalla kuin valmista työtä. Jos paita pestään käsin ja kuivataan tasossa, tee se tilkulle. Jos lanka on konepestävä ja valmis työ aiotaan pestä koneessa, pese myös tilkku koneessa. Tarkoitus on jäljitellä vaatteen todellista elämää.
 
-Anna tilkun kuivua kokonaan. Ei melkein kuivaksi, vaan kokonaan. Märkä tai kostea neule antaa lukeman, joka ei välttämättä pidä kuivana.
+Anna tilkun kuivua kokonaan. Ei melkein kuivaksi, vaan kokonaan. Neulepinta rentoutuu ja avautuu märkäviimeistelyn jälkeen, ja viivain kostealla tilkulla antaa lukeman, joka ei välttämättä pidä kuivana. Joskus muutos puikoilta tulleen ja viimeistellyn mallitilkun välillä on pieni. Joskus se on koko syy, miksi mallitilkku tehtiin.
 
 ## Miten mallitilkku mitataan
 
@@ -63,9 +63,9 @@ Ensimmäinen mallitilkku ei usein täsmää. Se on normaalia. Käsiala on henkil
 
 **Liian vähän silmukoita 10 cm matkalla.** Neuleesi on löysempää. Vaihda pienempään puikkokokoon ja tee uusi mallitilkku.
 
-Joskus yksi koko riittää. Joskus tarvitaan kaksi hyppyä. Joskus silmukkatiheys ja kerrostiheys eivät osu samaan aikaan. Silloin silmukkatiheys saa yleensä etusijan, koska se hallitsee leveyttä. Kerrostiheydellä on silti merkitystä erityisesti hihanpyöriöissä, kaarrokkeissa ja pystysuuntaisessa kuvion sijoittelussa.
+Joskus yksi koko riittää. Joskus tarvitaan kaksi hyppyä. Joskus silmukkatiheys ja kerrostiheys eivät osu samaan aikaan. Silloin silmukkatiheys saa yleensä etusijan, koska se hallitsee leveyttä. Kerrostiheydellä on silti merkitystä erityisesti hihanpyöriöissä, kaarrokkeissa ja pystysuuntaisessa kuvion sijoittelussa, mutta leveysongelmat ovat yleensä hankalampia korjata kesken työn kuin pituusongelmat.
 
-Jos haluat ymmärtää, [miksi neuletiheys vaihtelee neulojien välillä](/fi/artikkelit/mita-neuletiheys-tarkoittaa/) ja miksi se muuttuu projektin aikana, siitä on oma syvempi kokonaisuutensa. Useampi mallitilkku ei ole epäonnistuminen. Kokeneet neulojat odottavat sitä.
+Jos haluat ymmärtää, [miksi neuletiheys vaihtelee neulojien välillä](/fi/artikkelit/mita-neuletiheys-tarkoittaa/) ja miksi se muuttuu projektin aikana, siitä on oma syvempi kokonaisuutensa. Useampi mallitilkku ei ole epäonnistuminen. Kokeneet neulojat odottavat sitä. Osa neuloo järjestelmällisesti tiukemmin, osa löysemmin, ja oman taipumuksen tunteminen auttaa. Se ei silti korvaa mallitilkkua, koska kuitu, puikon materiaali ja mallineule muuttavat pintaa kukin omalla tavallaan.
 
 ## Mallineuleen neuletiheys vai sileä neule?
 
@@ -85,7 +85,7 @@ Jos projekti neulotaan suljettuna, tee mallitilkku suljettuna. Pieni putki sukka
 
 ## Miten neuletiheys liittyy projektin suunnitteluun
 
-Kun neuletiheys tiedetään, muu suunnittelu helpottuu. KnitToolsin [silmukkalaskuri](/fi/tyokalut/silmukkalaskuri/) käyttää sitä silmukkamäärän laskemiseen tavoiteleveyttä varten. [Lankamuunnin](/fi/tyokalut/lankamuunnin/) käyttää mittoja ja lankavahvuutta realistisemman langanmenekin arviointiin. Jos haluat vaiheittaisen mallitilkkuohjeen ilman teoriaa, sille on erillinen [mallitilkkuartikkeli](/fi/artikkelit/mallitilkun-neulominen-vaiheittain/).
+Kun neuletiheys tiedetään, muu suunnittelu helpottuu. KnitToolsin [silmukkalaskuri](/fi/tyokalut/silmukkalaskuri/) käyttää sitä silmukkamäärän laskemiseen tavoiteleveyttä varten. [Lankamuunnin](/fi/tyokalut/lankamuunnin/) käyttää projektityyppiä, kokoa ja lankavahvuutta langanmenekin arviointiin, joten käsittele sitä suunnittelun tarkistuslukuna neuletiheyden ja ohjeen tietojen rinnalla. Jos haluat vaiheittaisen mallitilkkuohjeen ilman teoriaa, sille on erillinen [mallitilkkuartikkeli](/fi/artikkelit/mallitilkun-neulominen-vaiheittain/).
 
 Ketju on tärkeä. Neuletiheys ohjaa silmukkamäärää. Silmukkamäärä ohjaa mittoja. Mitat ohjaavat langanmenekkiä. Jos ensimmäinen luku on pielessä, kaikki sen jälkeen liikkuu mukana.
 

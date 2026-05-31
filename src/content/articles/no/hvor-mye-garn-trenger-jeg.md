@@ -30,7 +30,7 @@ Voksengensere er prosjekter i firesifret meterantall. En tettsittende pullover i
 
 Det er skala, ikke presisjon. En flettelue trenger mer garn enn en glattstrikket. En kort genser og en tunika-lang genser er ikke i samme nabolag. Et teppe med tung struktur bruker mer garn enn et glattstrikket rektangel.
 
-For noe prosjektspesifikt bruker KnitTools' [Garnberegner](/no/verktoy/garnberegner/) strikkefasthet og mål i stedet for gjennomsnitt.
+For noe prosjektspesifikt arbeider KnitTools [Garnberegner](/no/verktoy/garnberegner/) fra prosjekttype, størrelse og garntykkelse i stedet for ett generelt gjennomsnitt.
 
 ## Hvordan garntykkelse endrer totalen
 
@@ -38,7 +38,7 @@ Tynnere garn betyr flere masker per centimeter. Flere masker per centimeter bety
 
 Men her er poenget. Nøster inneholder ikke samme antall meter. Fingering-garn pakker langt flere meter inn i 100 g enn worsted gjør, så en fingering-genser kan trenge flere meter, men omtrent samme totalvekt. Et 100 g nøste fingering kan ha 365 m. Et 100 g nøste bulky kan ha 100 m. Samme vekt på kjøkkenvekten, helt ulik lengde.
 
-Derfor er meter eller yards tallet som betyr noe, ikke "hvor mange nøster". To nøster à 100 g kan ha veldig ulike lengder, avhengig av fiber og merke. Silke pakker annerledes enn ull. Entrådet garn oppfører seg annerledes enn et tvunnet garn. Ett selskaps 100 g-nøste kan inneholde dramatisk mer garn enn et annets. Hvis du er usikker på hvilken garntykkelse garnet ditt er, bryter [garntykkelsestabellen](/no/verktoy/garntykkelser/) det ned.
+Derfor er løpelengde i meter tallet som betyr noe, ikke "hvor mange nøster". To nøster à 100 g kan ha veldig ulike lengder, avhengig av fiber og merke. Silke pakker annerledes enn ull. Entrådet garn oppfører seg annerledes enn et tvunnet garn. Ett selskaps 100 g-nøste kan inneholde dramatisk mer garn enn et annets. Hvis du er usikker på hvilken garntykkelse garnet ditt er, bryter [garntykkelsestabellen](/no/verktoy/garntykkelser/) det ned.
 
 ## Beregning fra strikkefastheten din
 
@@ -48,7 +48,7 @@ Strikkefasthet forteller hvor mange masker og pinner som får plass i et mål. P
 
 Slik fungerer det i praksis. Si prøvelappen gir 18 masker og 24 pinner over 10 cm. Forstykket på en genser er 50 cm bredt og 63 cm langt. Det er 90 masker i bredden og 150 pinner nedover. Gang dem sammen: 13 500 masker bare for forstykket. Derfra blir total garnmengde et regnestykke hvis du vet omtrent hvor mye garn hver maske bruker, noe du kan måle eller anslå fra prøvelappen.
 
-Du trenger ikke gjøre det for hånd. En garnkalkulator som [Garnberegneren](/no/verktoy/garnberegner/) håndterer beregningen og mister sjeldnere tråden i en rapport enn en notatmargin.
+Du trenger ikke gjøre hvert anslag for hånd. En garnkalkulator som [Garnberegneren](/no/verktoy/garnberegner/) er nyttig for et raskt intervall etter prosjekttype, størrelse og garntykkelse før du sammenligner med oppskrift, prøvelapp og garnetikett.
 
 Det hjelper likevel å forstå størrelsesorden. Hvis en kalkulator sier 365 m til et sengeteppe, er noe galt. Flere tusen meter? I det minste plausibelt. Magefølelsen fanger inntastingsfeil før du kjøper garn etter dem. Selv en grov prøvelapp gir bedre tall enn å hoppe over steget. En prøvelapp strikket på kvelden, blokket over natten, målt om morgenen. Ikke en enorm investering for tryggheten du får.
 
@@ -70,7 +70,7 @@ Dette fungerer også fint når du vil vurdere restegarn fra tidligere prosjekter
 
 Noen konstruksjonsvalg bruker mer garn enn vanlig glattstrikk uten at det er åpenbart. Det er her anslag sklir ut.
 
-**Fletter** er den store. Hver flettekryssing trekker ekstra garn gjennom stoffet fordi maskene flytter seg sidelengs i stedet for å stable seg rett opp. Jo bredere fletten er, desto mer garn bruker hver kryssing. En enkel 4-maskers tau-flette legger til litt. En 12-maskers flettet kabel legger til mye mer. En tungt flettet Aran-genser kan trenge 20-30 % mer garn enn en glattstrikket genser i samme mål. Hvis hele bolen er flettet, ikke anslå ut fra glattstrikk. Du går tom.
+**Fletter** er den store. Hver flettekryssing trekker ekstra garn gjennom stoffet fordi maskene flytter seg sidelengs i stedet for å stable seg rett opp. Jo bredere fletten er, desto mer garn bruker hver kryssing. En enkel 4-maskers tau-flette legger til litt. En 12-maskers flette legger til mye mer. En tungt flettet Aran-genser trenger større buffer enn en glattstrikket genser i samme mål. Hvis hele bolen er flettet, ikke anslå ut fra glattstrikk. Du går tom.
 
 Mønsterstrikk med flere farger bærer garn på baksiden, og trådsprangene legger seg opp på måter som ikke er åpenbare i diagrammet. Hovedfargen trenger nesten alltid mer enn du tror. Kontrastfarger forsvinner raskere i mønsterstrikk enn det ser ut mens du ser forsiden. Lengden på trådsprangene betyr også noe. Å fange tråder hver 3.-4. maske bruker litt mer garn enn å la dem løpe langt, men stoffet oppfører seg bedre. Intarsia er annerledes, siden hvert fargefelt har sin egen garnforsyning uten lange sprang. For alle flerfargede prosjekter: beregn total garnmengde først, og fordel den deretter etter hvor mye område hver farge faktisk dekker.
 
@@ -98,7 +98,7 @@ Designer du fra bunnen av eller gjør store endringer, slutter oppskriftens garn
 
 Når du [bytter garn](/no/artikler/bytte-garn-i-strikkeoppskrift/), match total løpelengde heller enn antall nøster. En oppskrift som sier "8 nøster" er bare nyttig hvis du bruker samme garn. Hvis du bytter til et garn med annen løpelengde per nøste, betyr nøsteantallet lite. Match meterne. Sjekk deretter at garntykkelsen er nær nok, og [strikk prøvelapp for å bekrefte strikkefastheten](/no/artikler/male-strikkefasthet/).
 
-Det er her [Garnberegneren](/no/verktoy/garnberegner/) gjør jobben. Enten du sjekker et oppskriftstall mot din egen strikkefasthet eller lager et anslag fra ingenting.
+Det er her [Garnberegneren](/no/verktoy/garnberegner/) gjør nytte for seg: å sjekke størrelsesordenen etter prosjekttype, størrelse og garntykkelse før du kjøper.
 
 ## FAQ
 
@@ -106,7 +106,7 @@ Det er her [Garnberegneren](/no/verktoy/garnberegner/) gjør jobben. Enten du sj
 Grove anslag fra prosjekttype fungerer til handleturer. For alt tettsittende bør du strikke prøvelapp først.
 
 **Hva hvis jeg ikke finner samme fargeparti?**
-Veksle nøster annenhver pinne. Fargeforskjellen fordeles jevnt og blir nesten usynlig.
+Veksle nøster annenhver pinne. Fargeforskjellen fordeles jevnere og blir mindre tydelig.
 
 **Hvordan beregner jeg striper?**
 Beregn total garnmengde, og del deretter proporsjonalt etter hvor mange pinner hver farge dekker. Legg til en liten buffer for hvert fargeskift.

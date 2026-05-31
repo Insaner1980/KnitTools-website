@@ -22,9 +22,9 @@ Een garenlabel vertelt je de vezelsamenstelling, garendikte, aanbevolen stekenve
 
 ## Symbool voor garendikte
 
-Het bolvormige icoon met een getal erin is de Craft Yarn Council-garencategorie. Die loopt van 0 (Lace) tot 7 (Jumbo), en het is de snelste manier om te zien of garen bij de eisen van een patroon past.
+Het bolvormige icoon met een getal erin is de Craft Yarn Council-garencategorie. Veel labels gebruiken nog de bekende reeks van Lace tot Jumbo, en CYC is begonnen het systeem uit te breiden met Size 8 en extra symbolen. Zie het getal als snelle aanwijzing, maar controleer daarna ook de categorienaam en het vak met stekenverhouding voordat je garen aan een patroon koppelt.
 
-De tekst ernaast zegt meestal iets als DK, Worsted of Bulky. Niet elk merk drukt het CYC-icoon af, maar de meeste labels geven op een of andere manier de diktenaam. Als het label alleen een merkspecifieke naam geeft zoals "Studio" of "Soft Touch", kijk dan naar het vak met stekenverhouding voor aanwijzingen.
+De tekst ernaast zegt vaak iets als DK, Worsted of Bulky. Niet elk merk drukt het CYC-icoon af, en sommige gebruiken merkspecifieke namen zoals "Studio" of "Soft Touch". Als de diktenaam onduidelijk is, geeft het vak met stekenverhouding betere aanwijzingen.
 
 De [tabel met garendiktes](/nl/breitools/garendiktes/) zet alle categorieën op een rij met hun bereiken voor stekenverhouding en gebruikelijke naalddiktes.
 
@@ -34,7 +34,7 @@ Staat vermeld in percentages. `100% merinowol`. `75% acryl, 25% wol`. `60% katoe
 
 Let hier goed op bij [garen vervangen](/nl/artikelen/garen-vervangen-in-een-breipatroon/). Een DK-garen van wol en een DK-garen van katoen zijn allebei DK. Ze kunnen op vergelijkbare stekenverhoudingen uitkomen. Maar de stof gedraagt zich totaal anders. De [vezelgids](/nl/artikelen/garenvezels-vergeleken/) behandelt die verschillen.
 
-Labels noemen soms of het garen superwash, gemerceriseerd of geborsteld is. Dat zijn geen sierwoorden. Superwash-wol kan tegen machinewas. Niet-superwash-wol niet. Dat is een detail dat je wilt zien voordat je 300 steken opzet voor een babydeken.
+Labels noemen soms of het garen superwash, gemerceriseerd of geborsteld is. Dat zijn geen sierwoorden. Superwash-wol is behandeld om vervilten beter te weerstaan en kan als machinewasbaar gelabeld zijn. Niet-superwash-wol vraagt zachtere verzorging, omdat warmte, vocht en beweging de vezel kunnen laten vervilten. Dat is een detail dat je wilt zien voordat je 300 steken opzet voor een babydeken.
 
 ## Informatie over stekenverhouding
 
@@ -48,7 +48,7 @@ Bolgewicht in grammen en garenlengte in meters, soms ook met een internationale 
 
 ## Wasvoorschriften
 
-Dit is het deel dat op hierogliefen lijkt tot je het systeem kent. De iconen volgen de internationale textielverzorgingssymbolen, dezelfde als op kleding. Elk symbool gaat over een soort verzorging: wassen, bleken, drogen, strijken en professionele reiniging.
+Dit is het deel dat op hiërogliefen lijkt tot je het systeem kent. De iconen volgen de internationale textielverzorgingssymbolen, dezelfde als op kleding. Elk symbool gaat over een soort verzorging: wassen, bleken, drogen, strijken en professionele reiniging.
 
 **Wassen** gebruikt het wastobbe-icoon. Een getal erin is de maximale temperatuur in graden Celsius. Een hand in de tobbe betekent alleen handwas. Strepen onder de tobbe geven mildere machineprogramma's aan; meer strepen betekent voorzichtiger behandelen.
 
@@ -94,15 +94,15 @@ Ook niets over duurzaamheid. Hoeveel het garen pilt, of het zachter of juist har
 
 En het vak met stekenverhouding is het resultaat van de fabrikant, niet dat van jou. Zie het als referentie, niet als garantie.
 
-De [Yarn Label Scanner](/) van KnitTools leest een label met je telefooncamera en bewaart alles als digitale garenkaart. Handig wanneer de papieren banderol op het punt staat in een projecttas te verdwijnen en nooit meer terug te komen.
+Noteer de belangrijkste labelgegevens meteen in je projectnotities: garendikte, looplengte, vezelsamenstelling, kleurnummer en verfbad. Dat is veel eenvoudiger voordat de papieren banderol in een projecttas verdwijnt en nooit meer terugkomt.
 
 ## FAQ
 
 **Wat als het label in een taal is die ik niet kan lezen?**
-De wasvoorschriften en het dikte-icoon zijn internationaal gestandaardiseerd. Ze zien er hetzelfde uit, ongeacht de taal.
+De wasvoorschriften beperken de taalafhankelijkheid, en garendikte-iconen volgen vaak CYC-conventies. Controleer toch het vak met stekenverhouding en de vezelpercentages als de tekst onbekend is.
 
 **Het label geeft stekenverhouding per 10 cm, maar mijn patroon gebruikt 4 inch. Is dat hetzelfde?**
-Bijna. 10 cm is 3,937 inch. De meeste breiers behandelen ze als uitwisselbaar.
+Bijna, maar niet precies. 10 cm is ongeveer 3,94 inch. Geeft het patroon de stekenverhouding over 10 cm, meet dan 10 cm. Geeft het patroon 4 inch, meet dan 4 inch.
 
 **Moet ik het garenlabel bewaren?**
 Ja. In elk geval tot het project af en gewassen is.

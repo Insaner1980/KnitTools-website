@@ -1,19 +1,54 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
 import CastOnCalculator from "../../components/CastOnCalculator.astro";
+import ToolStructuredData from "../../components/ToolStructuredData.astro";
 import { PRICING } from "../../config/pricing";
 import RegionalPrice from "../../components/RegionalPrice.astro";
 import RegionalPricingNote from "../../components/RegionalPricingNote.astro";
 import { routes } from "../../i18n/routes";
+
+const canonicalPath = "/tools/cast-on-calculator/";
+const pageTitle = "Cast On Calculator for Knitting Patterns";
+const pageDescription =
+  "Calculate how many stitches to cast on for any width. Enter your gauge and target measurement for an instant count.";
+const faqItems = [
+  {
+    q: "Do I really need to knit a gauge swatch?",
+    a: "Yes. Skipping the swatch is one of the most common reasons knitted pieces come out the wrong size. It takes extra time up front and can save hours of rework.",
+  },
+  {
+    q: "Should I count edge stitches in my gauge?",
+    a: "No. Measure from the center of your swatch, avoiding the first and last two stitches. Edge stitches are often tighter or looser than the rest.",
+  },
+  {
+    q: "Why does the calculator round to an even number?",
+    a: "Many simple stitch patterns, including common ribbing repeats, work cleanly over an even number of stitches. Rounding to the nearest even number gives you a practical default before you adjust for any pattern-specific multiple.",
+  },
+  {
+    q: "What if my pattern requires a specific stitch multiple?",
+    a: "Add or subtract a few stitches to reach the nearest multiple your pattern needs. For example, if your pattern repeats over 4 stitches and the calculator says 46, adjust to 44 or 48.",
+  },
+  {
+    q: "Can I use this for circular knitting?",
+    a: "Yes. Enter the full circumference as your desired width. The calculator works the same way for flat and circular knitting.",
+  },
+] as const;
 ---
 
 <PageLayout
-  title="Cast On Calculator for Knitting Patterns"
-  description="Calculate how many stitches to cast on for any width. Enter your gauge and target measurement for an instant count."
-  canonicalPath="/tools/cast-on-calculator/"
+  title={pageTitle}
+  description={pageDescription}
+  canonicalPath={canonicalPath}
   alternates={routes.tool.castOnCalculator}
   showStripe={false}
 >
+  <ToolStructuredData
+    name="Cast On Calculator"
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+    faqs={faqItems}
+  />
+
   <!-- 1. Tool hero -->
   <section class="tool-hero">
     <div class="hero-inner">
@@ -60,8 +95,8 @@ import { routes } from "../../i18n/routes";
         > (how many stitches you get in 10 cm or 4 inches of knitting) and the <strong
           >desired width</strong
         > of your piece. Knit a gauge swatch first, measure it, and enter those numbers.
-        The calculator rounds to the nearest even number, which is a common knitting
-        convention.
+        The calculator rounds to the nearest even number, which is a practical default
+        for many simple stitch patterns.
       </p>
     </div>
   </section>
@@ -71,70 +106,19 @@ import { routes } from "../../i18n/routes";
     <div class="faq-inner">
       <h2 class="gs-clip-reveal">Frequently asked questions</h2>
       <div class="faq">
-        <details class="gs-faq-item">
-          <summary
-            >Do I really need to knit a gauge swatch? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            Yes. Skipping the swatch is the most common reason knitted pieces
-            come out the wrong size. It takes 20 minutes and saves hours of
-            rework.
-          </p>
-        </details>
-        <details class="gs-faq-item">
-          <summary
-            >Should I count edge stitches in my gauge? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            No. Measure from the center of your swatch, avoiding the first and
-            last two stitches. Edge stitches are often tighter or looser than
-            the rest.
-          </p>
-        </details>
-        <details class="gs-faq-item">
-          <summary
-            >Why does the calculator round to an even number? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            Many stitch patterns (ribbing, cables, colorwork) require an even
-            number of stitches to work correctly. Rounding to the nearest even
-            number gives you a clean repeat.
-          </p>
-        </details>
-        <details class="gs-faq-item">
-          <summary
-            >What if my pattern requires a specific stitch multiple? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            Add or subtract a few stitches to reach the nearest multiple your
-            pattern needs. For example, if your pattern repeats over 4 stitches
-            and the calculator says 46, adjust to 44 or 48.
-          </p>
-        </details>
-        <details class="gs-faq-item">
-          <summary
-            >Can I use this for circular knitting? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            Yes. Enter the full circumference as your desired width. The
-            calculator works the same way for flat and circular knitting.
-          </p>
-        </details>
+        {
+          faqItems.map((faq) => (
+            <details class="gs-faq-item">
+              <summary>
+                {faq.q}{" "}
+                <span class="faq-icon" aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <p>{faq.a}</p>
+            </details>
+          ))
+        }
       </div>
     </div>
   </section>
@@ -157,11 +141,11 @@ import { routes } from "../../i18n/routes";
         <!-- Initial Form State (Including headers) -->
         <div class="waitlist-content-layer" id="waitlist-content-layer">
           <h2 class="gs-clip-reveal waitlist-head">
-            Every tool. <em>One app.</em>
+            Rows, patterns, projects. <em>One app.</em>
           </h2>
           <p class="gs-fade-up waitlist-desc">
-            Row counter, project management, yarn scanner, and all four
-            calculators.
+            Row counter, pattern viewer, Ravelry, project notes, progress
+            photos, and all four calculators.
           </p>
           <div class="waitlist-row gs-fade-up" id="waitlist-row">
             <input

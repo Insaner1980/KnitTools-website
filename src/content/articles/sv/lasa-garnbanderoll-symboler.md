@@ -1,6 +1,6 @@
 ---
 title: "Så läser du en garnbanderoll"
-description: "Tolka garnbanderoller: fiberinnehåll, garntjocklek, stickfasthet, skötselråd, färgbad och vad varje symbol betyder."
+description: "Läs garnbanderoller: fiberinnehåll, garntjocklek, stickfasthet, skötselråd, färgbad och vad varje symbol betyder."
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 3
@@ -22,7 +22,7 @@ En garnbanderoll berättar fiberinnehåll, garntjocklek, rekommenderad stickfast
 
 ## Symbol för garntjocklek
 
-Ikonen som ser ut som ett nystan med en siffra inuti är Craft Yarn Councils kategori för garntjocklek. Den går från 0 (Lace) till 7 (Jumbo), och det är det snabbaste sättet att kontrollera om garnet matchar ett mönsters krav.
+Ikonen som ser ut som ett nystan med en siffra inuti är Craft Yarn Councils kategori för garntjocklek. Många banderoller använder fortfarande den bekanta numrerade skalan från Lace till Jumbo, och CYC har börjat uppdatera systemet med Size 8 och ytterligare symboler. Använd numret som en snabb ledtråd, men kontrollera också garntjocklekens namn och stickfasthetsrutan innan du matchar garnet mot ett mönster.
 
 Texten bredvid säger ofta DK, Worsted eller Bulky. Alla märken trycker inte CYC-symbolen, men de flesta anger någon version av tjockleksnamnet. Om banderollen bara ger ett varumärkeseget namn som "Studio" eller "Soft Touch", titta i stickfasthetsrutan efter ledtrådar.
 
@@ -34,17 +34,17 @@ Anges i procent. `100% merinoull`. `75% akryl, 25% ull`. `60% bomull, 40% modal`
 
 Var uppmärksam här när du [byter garn](/sv/artiklar/byta-garn-i-stickmonster/). En DK i ull och en DK i bomull är båda DK. De kan stickas till liknande stickfasthet. Men tyget beter sig inte alls på samma sätt. [Fiberguiden](/sv/artiklar/garnfibrer-jamforda-ull-bomull-akryl/) går igenom skillnaderna.
 
-Banderoller anger ibland om garnet är superwash, merceriserat eller borstat. Det är inte dekorativa ord. Superwash-ull klarar maskintvätt. Obehandlad ull gör det inte. Den detaljen vill du upptäcka innan du lägger upp 300 maskor till en babyfilt.
+Banderoller anger ibland om garnet är superwash, merceriserat eller borstat. Det är inte dekorativa ord. Superwash-ull är behandlad för att motstå filtning och kan vara märkt som maskintvättbar. Obehandlad ull behöver försiktigare skötsel, eftersom värme, fukt och bearbetning kan filta den. Den detaljen vill du upptäcka innan du lägger upp 300 maskor till en babyfilt.
 
 ## Stickfasthet
 
-Stickfasthetsrutan visar maskantal och varvantal över en standardprovlapp, oftast 10 cm, plus rekommenderad stick- eller virknålsstorlek.
+Stickfasthetsrutan visar maskantal och varvantal över en standardprovlapp, oftast 10 cm eller 4 tum, plus rekommenderad stick- eller virknålsstorlek.
 
 Det är en startpunkt. Tillverkaren stickade en provlapp med sitt handlag och skrev ner resultatet. Dina händer, dina stickor och den tygkänsla du vill ha kan ge något annat. Sticka provlapp ändå.
 
 ## Vikt och löplängd
 
-Nystanets vikt i gram och garnets längd i meter. Vissa banderoller visar även yards. Två siffror, men längden är den som spelar roll för projektplanering. Två nystan på 100 g kan innehålla helt olika mängd garn beroende på fiber. Det är därför [guiden till garnåtgång](/sv/artiklar/hur-mycket-garn-behover-jag/) arbetar från löplängd, inte nystanantal.
+Nystanets vikt i gram och garnets längd i meter. Vissa banderoller visar även längden i engelska eller amerikanska enheter. Två siffror, men längden är den som spelar roll för projektplanering. Två nystan på 100 g kan innehålla helt olika mängd garn beroende på fiber. Det är därför [guiden till garnåtgång](/sv/artiklar/hur-mycket-garn-behover-jag/) arbetar från löplängd, inte nystanantal.
 
 ## Skötselsymboler
 
@@ -62,7 +62,7 @@ De flesta stickare sträcker sig inte efter blekmedel ofta. Men om du gör någo
 
 Här blir stickare ofta lurade: bara för att garnet överlever torktumlaren betyder det inte att det färdiga stickade tyget bör åka in där. En löst stickad mössa i superwash-ull kan töjas ut i tumlaren även om banderollen tekniskt tillåter det.
 
-Stryksymbolen ser ut som ett strykjärn. Prickar anger temperatur (en prick är låg, tre är hög). Ett X betyder stryk inte. För stickning spelar strykjärnet mest roll vid pressning av sömmar eller ångblockning. Vissa syntetfibrer reagerar dåligt på värme och kan smälta eller bli blanka under ett hett järn.
+**Strykning** visas med ett strykjärn. Prickar anger temperatur (en prick är låg, tre är hög). Ett X betyder stryk inte. För stickning spelar strykjärnet mest roll vid pressning av sömmar eller ångblockning. Vissa syntetfibrer reagerar dåligt på värme och kan smälta eller få glans under ett hett järn.
 
 **Professionell rengöring** visas med en cirkel. P och F anger kemtvättmedel (perkloretylen och kolväte). W betyder professionell våtrengöring, en vattenbaserad process, inte lösningsmedel. De flesta stickare hoppar över den här delen, men den syns på banderoller för silkeblandningar, kashmir och andra fibrer som kan må bra av professionell skötsel.
 
@@ -78,7 +78,7 @@ Det **färgbadsnummer** som anges identifierar den särskilda färgning som garn
 
 Köp allt garn till projektet från samma färgbad. Varje nystan. Om det inte går, växla mellan nystan vartannat varv så blandas övergången och eventuell färgskillnad landar inte som en hård linje.
 
-Vissa garner är märkta `no dye lot`, vilket betyder att tillverkaren räknar med jämn färg mellan batcher. Handfärgat garn varierar däremot nästan alltid från nystan till nystan. Det är en del av charmen, men betyder också att nystanväxling är standard.
+Vissa garnsorter är märkta `no dye lot`, vilket betyder att tillverkaren räknar med jämn färg mellan batcher. Handfärgat garn varierar däremot ofta från nystan till nystan. Det är en del av charmen, men betyder också att nystanväxling är en användbar säkerhetsåtgärd.
 
 ## Ursprungsland och varumärkesinformation
 
@@ -94,15 +94,16 @@ Inget om slitstyrka heller. Hur mycket garnet noppar, om det mjuknar eller hård
 
 Och stickfasthetsrutan är tillverkarens resultat, inte ditt. Behandla den som referens, inte garanti.
 
-KnitTools [garnbanderollskanner](/) läser en banderoll med mobilkameran och sparar allt som ett digitalt garnkort. Praktiskt när pappersbanderollen är på väg att försvinna ner i en projektpåse och aldrig komma tillbaka.
+KnitTools kan spara samma banderolluppgifter i en projektnotis. Praktiskt när pappersbanderollen är på väg att försvinna ner i en projektpåse och aldrig komma tillbaka.
 
 ## FAQ
 
 **Vad gör jag om banderollen är på ett språk jag inte kan?**  
-Skötselsymbolerna och garntjockleksikonen är internationellt standardiserade. De ser likadana ut oavsett språk.
+Skötselsymbolerna minskar språkberoendet, och garntjockleksikoner följer ofta CYC-konventioner. Kontrollera ändå stickfasthetsrutan och fiberprocenten om texten är obekant.
 
-**Banderollen anger stickfasthet över 10 cm men mitt mönster använder ett annat mått. Vad gör jag?**  
-Räkna om till 10 cm innan du jämför. Det gör stickfastheten lättare att matcha mot europeiska banderoller och tabeller.
+**Banderollen anger stickfasthet över 10 cm men mitt mönster använder 4 tum. Är det samma sak?**
+
+Nära, men inte exakt. 10 cm är ungefär 3,94 tum. Om mönstret anger stickfasthet över 10 cm, mät 10 cm. Om det anger stickfasthet över 4 tum, mät 4 tum.
 
 **Ska jag spara garnbanderollen?**  
 Ja. Åtminstone tills projektet är klart och tvättat.

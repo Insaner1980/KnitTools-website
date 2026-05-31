@@ -6,11 +6,11 @@ import { routes } from "../../../i18n/routes";
 const faqs = [
   {
     q: "Hvordan vet jeg hvor mye garn prosjektet trenger?",
-    a: "Strikkeoppskriften oppgir vanligvis total garnmengde i materialdelen, helst i meter. Hvis du planlegger uten oppskrift, se etter normal garnmengde for samme type prosjekt og størrelse. De fleste plagg har ganske etablerte intervaller.",
+    a: "Strikkeoppskriften oppgir vanligvis total garnmengde i materialdelen, helst i meter. Hvis du planlegger uten oppskrift, sammenlign publiserte intervaller for samme prosjekttype, størrelse og garntykkelse, og legg deretter på en sikkerhetsmargin.",
   },
   {
     q: "Bør jeg kjøpe ekstra garn?",
-    a: "Som regel, ja. Kjøp minst ett ekstra nøste, spesielt hvis garnet har fargeparti. Fargepartier kan skille litt i farge, og det kan være umulig å finne samme parti senere.",
+    a: "Som regel, ja. Kjøp minst ett ekstra nøste når plagget skal sitte tett, har mye struktur eller strikkes i garn med fargeparti. Fargepartier kan skille litt i farge, og det kan være umulig å finne samme parti senere.",
   },
   {
     q: "Hva hvis oppskriften oppgir yards eller gram?",
@@ -22,13 +22,13 @@ const faqs = [
   },
   {
     q: "Kan jeg bytte til et annet garn enn oppskriften anbefaler?",
-    a: "Ja, hvis strikkefastheten stemmer. Strikk en prøvelapp med erstatningsgarnet, sjekk at du får samme maskeantall per 10 cm, og bruk kalkulatoren til å anslå den totale garnmengden for det nye garnet.",
+    a: "Ja, hvis strikkefastheten stemmer og strikkeflaten fungerer for prosjektet. Strikk en prøvelapp med erstatningsgarnet, sjekk at du får oppskriftens strikkefasthet, og bruk kalkulatoren som en planleggingssjekk for den nye garntykkelsen.",
   },
 ];
 ---
 
 <LocalizedToolPage
-  title="Garnberegner"
+  title="Garnberegner: hvor mye garn trenger jeg?"
   description="Beregn hvor mye garn strikkeprosjektet ditt trenger etter prosjekttype, størrelse og garntykkelse. Planlegg garnmengde før du kjøper."
   canonicalPath={routes.tool.yarnEstimator.no}
   lang="no"
@@ -56,8 +56,8 @@ const faqs = [
     <h2>Hvor mye garn trenger jeg?</h2>
     <p>
       Garnforbruk avhenger av tre ting: hva du strikker, hvilken størrelse og
-      hvilken garntykkelse. En voksengenser i fingering kan trenge omtrent
-      1200-1500 meter. En lue i bulky kan klare seg med rundt 100 meter. Hvis en
+      hvilken garntykkelse. En voksengenser i fingering kan trenge omtrent 1
+      200-1 500 meter. En lue i bulky kan klare seg med rundt 100 meter. Hvis en
       oppskrift oppgir eget garnforbruk, bruk det først. Denne kalkulatoren er
       mest nyttig når du planlegger uten oppskrift eller vil sjekke om en
       garnmengde er realistisk.

@@ -6,25 +6,37 @@ const rows = [
   ["1,5", "000", "-", "-", "Lace"],
   ["1,75", "00", "-", "-", "Lace"],
   ["2,0", "0", "14", "0", "Lace"],
-  ["2,25", "1", "13", "-", "Fingering / Sockengarn"],
+  ["2,25", "1", "13", "-", "Lace / Fingering / Sockengarn"],
+  ["2,4", "-", "-", "1", "Fingering / Sockengarn"],
   ["2,5", "1,5", "-", "-", "Fingering / Sockengarn"],
-  ["2,75", "2", "12", "2", "Fingering / Sockengarn"],
-  ["3,0", "2,5", "11", "3", "Sport"],
-  ["3,25", "3", "10", "-", "Sport"],
-  ["3,5", "4", "-", "5", "Sport"],
-  ["3,75", "5", "9", "-", "DK / Light"],
+  ["2,7", "-", "-", "2", "Fingering / Sockengarn"],
+  ["2,75", "2", "12", "-", "Fingering / Sockengarn"],
+  ["3,0", "2,5", "11", "3", "Fingering / Sockengarn"],
+  ["3,25", "3", "10", "-", "Fingering / Sockengarn / Sport"],
+  ["3,3", "-", "-", "4", "Sport"],
+  ["3,5", "4", "-", "-", "Sport"],
+  ["3,6", "-", "-", "5", "Sport"],
+  ["3,75", "5", "9", "-", "Sport / DK / Light"],
+  ["3,9", "-", "-", "6", "DK / Light"],
   ["4,0", "6", "8", "6", "DK / Light"],
-  ["4,5", "7", "7", "8", "Worsted / Medium"],
-  ["5,0", "8", "6", "10", "Worsted / Medium"],
-  ["5,5", "9", "5", "-", "Worsted / Medium"],
+  ["4,2", "-", "-", "7", "DK / Light"],
+  ["4,5", "7", "7", "8", "DK / Light / Worsted"],
+  ["4,8", "-", "-", "9", "Worsted / Aran / Medium"],
+  ["5,0", "8", "6", "-", "Worsted / Aran / Medium"],
+  ["5,1", "-", "-", "10", "Worsted / Aran / Medium"],
+  ["5,4", "-", "-", "11", "Worsted / Aran / Medium"],
+  ["5,5", "9", "5", "-", "Worsted / Aran / Medium / Bulky"],
+  ["5,7", "-", "-", "12", "Bulky / Chunky"],
   ["6,0", "10", "4", "13", "Bulky / Chunky"],
+  ["6,3", "-", "-", "14", "Bulky / Chunky"],
   ["6,5", "10,5", "3", "-", "Bulky / Chunky"],
+  ["6,6", "-", "-", "15", "Bulky / Chunky"],
   ["7,0", "-", "2", "-", "Bulky / Chunky"],
-  ["8,0", "11", "0", "-", "Super Bulky"],
-  ["9,0", "13", "00", "-", "Super Bulky"],
-  ["10,0", "15", "000", "-", "Super Bulky"],
-  ["12,0", "17", "-", "-", "Jumbo"],
-  ["12,75", "-", "-", "-", "Jumbo"],
+  ["8,0", "11", "0", "-", "Bulky / Super Bulky"],
+  ["9,0", "13", "00", "-", "Super Bulky / Super Chunky"],
+  ["10,0", "15", "000", "-", "Super Bulky / Super Chunky"],
+  ["12,0", "17", "-", "-", "Super Bulky / Super Chunky"],
+  ["12,75", "-", "-", "-", "Super Bulky / Jumbo"],
   ["15,0", "19", "-", "-", "Jumbo"],
   ["16,0", "19", "-", "-", "Jumbo"],
   ["19,0", "35", "-", "-", "Jumbo"],
@@ -52,7 +64,7 @@ const faqs = [
 ---
 
 <LocalizedToolPage
-  title="Nadelstärken-Tabelle"
+  title="Nadelstärken-Tabelle: US, UK, metrisch, Japan"
   description="Vergleiche Stricknadelgrößen zwischen metrischen, US-, UK- und japanischen Angaben. Mit Garnstärken-Empfehlungen pro Nadelstärke."
   canonicalPath={routes.tool.needleSizeChart.de}
   lang="de"
@@ -78,7 +90,7 @@ const faqs = [
             <tr>
               <th>Millimeter</th>
               <th>US</th>
-              <th>UK/Canada</th>
+              <th>UK/Kanada</th>
               <th>Japan</th>
               <th>Garnstärke</th>
             </tr>
@@ -111,50 +123,110 @@ const faqs = [
   <div slot="content">
     <h2>Warum es mehrere Größensysteme gibt</h2>
     <p>
-      Millimeter geben den tatsächlichen Durchmesser der Nadel an. US- und alte
-      UK-Größen sind dagegen Bezeichnungen. Das alte UK-System läuft außerdem
-      rückwärts: Eine kleinere Zahl steht für eine dickere Nadel. Genau dort
-      passieren bei alten Anleitungen schnell Fehler.
+      Metrische Größen sind das einzige System, das direkt sagt, was die Nadel
+      misst. Eine 4,0-mm-Nadel hat 4,0 mm Durchmesser. Fertig.
+    </p>
+    <p>
+      US-Größen sind Etiketten. US 7 bedeutet 4,5 mm und US 8 bedeutet 5,0 mm,
+      aber die Zahl selbst verrät nichts über den Durchmesser.
+    </p>
+    <p>
+      Alte UK- und kanadische Größen laufen rückwärts. UK 14 ist sehr fein, und
+      die Zahlen werden kleiner, je dicker die Nadeln werden, bis 0, 00 und 000
+      auftauchen. Moderne UK-Anleitungen nennen meist Millimeter, aber alte
+      Größen findest du noch auf Vintage-Nadeln und in gebrauchten
+      Anleitungsheften.
+    </p>
+    <p>
+      Japanische Größen liegen nah an metrischen Werten, aber nicht perfekt.
+      Japanische Größe 6 ist 3,9 mm, japanische Größe 8 ist 4,5 mm. Dieser
+      Versatz fällt vor allem bei feinen Maschenproben auf, wo schon wenige
+      Zehntelmillimeter die fertige Strickfläche verändern.
     </p>
 
     <h2>Millimeter sind die sichere Wahl</h2>
     <p>
-      Wenn eine Anleitung sowohl US-Größe als auch Millimeter nennt, folge den
-      Millimetern. US 7 bedeutet 4,5 mm, aber die Zahl 7 sagt nichts über den
-      Durchmesser aus. Wenn die Markierung auf der Nadel abgerieben ist, ist ein
-      Nadelmaß schneller als Raten.
+      Vertraue zuerst der Millimeterangabe. Sie ist der tatsächliche Messwert
+      und vermeidet Umrechnungsfehler vollständig.
+    </p>
+    <p>
+      Wenn eine Anleitung "US 7" verlangt, brauchst du 4,5 mm in der Hand.
+      Manche Hersteller drucken beide Angaben auf die Nadel, manche nicht. Alte
+      Markierungen reiben sich ab. Genau dafür lohnt sich ein Nadelmaß in der
+      Projekttasche.
     </p>
 
     <h2>Häufige Umrechnungsfehler</h2>
+    <p>Ein paar Größen sorgen immer wieder für Verwechslungen.</p>
     <p>
-      US- und UK-Größen können ähnlich aussehen und trotzdem unterschiedliche
-      Nadeln meinen. US 8 ist 5,0 mm, während UK 8 im alten System 4,0 mm ist.
-      Prüfe bei Vintage-Anleitungen immer das Land und die Millimeterangabe,
-      falls sie vorhanden ist.
+      <strong>Die UK-Umkehrung.</strong> US-Größen werden größer, wenn Nadeln dicker
+      werden. Alte UK-Größen werden kleiner. US 6 ist 4,0 mm. UK 6 ist 5,0 mm. Wenn
+      du das vertauschst, ist deine Maschenprobe schon vor der ersten Reihe um einen
+      ganzen Millimeter verschoben.
     </p>
-
-    <h2>Nadel und Garn entscheiden nicht allein</h2>
     <p>
-      Die Garnbanderole gibt eine Empfehlung, aber die fertige Strickfläche
-      entscheidet. Dasselbe DK-Garn kann auf kleineren Nadeln eine feste Mütze
-      ergeben und auf größeren Nadeln einen weichen Cardigan. Die Maschenprobe
-      zeigt, ob die Nadel zu deinem Projekt passt.
+      <strong>Fehlende Eins-zu-eins-Treffer.</strong> Nicht jede metrische Größe hat
+      in jedem anderen System eine saubere Entsprechung. Eine 3,0-mm-Nadel wird von
+      manchen Marken als US 2,5 beschriftet, während andere Tabellen sie zwischen
+      US 2 und US 3 einordnen. Eine 3,5-mm-Nadel hat oft gar keine alte UK-Entsprechung.
+      Dann zählt wieder der Millimeterwert.
+    </p>
+    <p>
+      <strong>Japanische Fast-Treffer.</strong> Japanische Größen passen nicht sauber
+      zu US-Nummern. Japanische Größe 8 ist 4,5 mm und entspricht US 7, aber japanische
+      Größe 5 ist 3,6 mm und sitzt nicht ordentlich im US-System. Wenn du nach einer
+      japanischen Anleitung strickst, nimm den mm-Wert, nicht die gedruckte Nummer.
+    </p>
+    <p>
+      <strong>Halbe und ungewöhnliche Größen sind real.</strong> 2,5 mm, 3,0 mm und
+      6,5 mm sind normale Produktionsgrößen, auch wenn dein Wechselnadelset sie ausgelassen
+      hat.
+    </p>
+    <p>
+      <strong>Alte Anleitunghefte nennen nicht immer das System.</strong> Eine Anleitung
+      aus den 1970ern, die "size 6 needles" verlangt, kann je nach Herkunft US 6 (4,0
+      mm) oder UK 6 (5,0 mm) meinen. Prüfe den Verlag und dann die Tabelle.
     </p>
 
     <h2>Nadelstärke und Garnstärke gehören zusammen</h2>
     <p>
-      Dünne Garne brauchen meist kleinere Nadeln, dicke Garne größere. Das ist
-      trotzdem keine Regel. Für ein luftiges Tuch kann die Nadel größer sein als
-      die Empfehlung auf der Banderole. Für feste Fäustlinge kann sie kleiner
-      sein.
+      Die Tabelle bringt dich in die richtige Nähe. Die Maschenprobe entscheidet
+      den genauen Wert.
+    </p>
+    <p>
+      Das aktuelle Craft-Yarn-Council-System ordnet Lace meist 1,5-2,25 mm zu,
+      Fingering / Sockengarn 2,25-3,25 mm, Sport 3,25-3,75 mm, DK / Light
+      3,75-4,5 mm, Worsted / Aran / Medium 4,5-5,5 mm, Bulky 5,5-8 mm, Super
+      Bulky 8-12,75 mm und Jumbo ab 12,75 mm.
+    </p>
+    <p>
+      Diese Bereiche überlappen absichtlich. DK kann auf kleinerer Nadel eine
+      feste Mütze ergeben oder auf größerer Nadel ein luftiges Tuch. Die
+      Maschenprobe der Anleitung zeigt, welche Richtung gemeint ist. Wenn du
+      unsicher bist, welche Garnstärke du vor dir hast, starte mit der <a
+        href="/de/werkzeuge/garnstaerken-tabelle/">Garnstärken-Tabelle</a
+      >.
     </p>
 
     <h2>Wie misst du unmarkierte Nadeln?</h2>
     <p>
-      Nutze ein Nadelmaß mit Millimeterlöchern. Schiebe den Schaft der Nadel
-      vorsichtig in das Loch, in das er ohne Druck passt. Miss nicht die Spitze
-      und nicht das Kabel einer Rundstricknadel: Die Nadelstärke meint den
-      Durchmesser des arbeitenden Nadelschafts.
+      Vintage-Nadeln, handgedrechselte Holznadeln und viel benutzte
+      Wechselnadeln verlieren irgendwann ihre Markierung. Ein Nadelmaß löst das:
+      Schiebe den Schaft durch die Löcher, bis du die Größe findest, die sauber
+      passt, ohne zu klemmen.
+    </p>
+    <p>
+      Miss am Schaft, nicht an der Spitze. Die verjüngte Spitze ist dünner als
+      der arbeitende Teil der Nadel und liefert sonst den falschen Wert.
+    </p>
+    <p>
+      Die meisten Nadelmaße zeigen metrische und US-Größen, manche auch
+      japanische Größen. Wenn deins das nicht tut, findest du hier den
+      mm-Gegenwert und strickst danach eine kurze <a
+        href="/de/artikel/maschenprobe-messen/">Maschenprobe</a
+      >, bevor du das ganze Projekt beginnst. Wenn du zusätzlich noch das <a
+        href="/de/artikel/stricknadeln-metall-holz-bambus/">Nadelmaterial</a
+      > auswählst, ist das eine eigene Entscheidung neben der Größe.
     </p>
   </div>
 </LocalizedToolPage>

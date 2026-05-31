@@ -13,6 +13,13 @@ interface Props {
   bodyClass?: string;
   lang?: Lang;
   alternates?: Partial<Record<Lang, string>>;
+  ogType?: "website" | "article";
+  ogImageAlt?: string;
+  articlePublishedTime?: Date | string;
+  articleModifiedTime?: Date | string;
+  articleAuthorUrl?: string;
+  articleSection?: string;
+  articleTags?: string[];
 }
 
 const {
@@ -23,6 +30,13 @@ const {
   bodyClass,
   lang = "en",
   alternates,
+  ogType,
+  ogImageAlt,
+  articlePublishedTime,
+  articleModifiedTime,
+  articleAuthorUrl,
+  articleSection,
+  articleTags,
 } = Astro.props;
 ---
 
@@ -34,6 +48,13 @@ const {
   bodyClass={bodyClass}
   lang={lang}
   alternates={alternates}
+  ogType={ogType}
+  ogImageAlt={ogImageAlt}
+  articlePublishedTime={articlePublishedTime}
+  articleModifiedTime={articleModifiedTime}
+  articleAuthorUrl={articleAuthorUrl}
+  articleSection={articleSection}
+  articleTags={articleTags}
 >
   <Navbar lang={lang} />
   <main id="main-content">

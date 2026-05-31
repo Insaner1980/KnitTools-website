@@ -28,7 +28,9 @@ Problemet begynder, når "et par projekter" stille bliver til syv, og du ikke ka
 
 **Hvad der ligger i posen.** Pindestørrelse, garnnavn og farve, resterende nøgler. Tag et projekt frem efter en måned, og banderolen er faldet af nøglet. Nu prøver du at identificere mystisk beige DK, og det bliver hurtigt gammelt. Gem banderoler sammen med projektet, eller noter oplysningerne et sted, du faktisk kan finde.
 
-**Hvad du har besluttet.** Ændringer, størrelsesjusteringer, noter du lavede undervejs. "Lægger 5 cm til kropslængden" er oplagt, når du besluttede det i går. Det er usynligt, når du tager projektet op om tre uger.
+**Hvad du har besluttet.** Ændringer, størrelsesjusteringer, noter du lavede undervejs. "Lægger 5 cm til kropslængden" er oplagt, når du besluttede det i går. Det er usynligt, når du tager projektet op om tre uger. Det samme gælder skift af pindestørrelse midt i projektet, pinden hvor du startede et nyt nøgle for at kunne hæfte ender senere, og alle steder hvor du afveg fra diagrammet.
+
+**Hvor arbejdsgarnet er.** Mere præcist: kommer garnet indefra eller udefra på nøglet, og hvilket nøgle i rækkefølgen er aktivt? Det betyder noget, når du skifter mellem to farvepartier, tilføjer en kontrastfarve på en bestemt pind eller har delt et nøgle til matchende ærmer og skal vide, hvilken halvdel der hører til hvilken side.
 
 ## Fysisk organisering
 
@@ -38,13 +40,15 @@ Beholderen betyder ikke så meget. En lynlåspung, en projektpose med snøre, en
 
 Til større projekter med flere nøgler kan du have arbejdsgarnet i posen og opbevare ekstra nøgler separat, men mærket. Et stykke malertape med projektnavnet løser problemet med seks cremefarvede DK-nøgler fra tre forskellige mærker i garnlageret, uden at du ved hvad der hører til hvor.
 
+Projektposens materiale har også praktisk betydning. Lette stofposer er behagelige at bruge, men beskytter begrænset mod masker der hænger fast, fnug eller småting der ligger løst. Lynlåsposer i plast med netvindue klarer de problemer bedre og lader dig se indholdet uden at åbne. Større projekter ligger bedre i en tote med snørelukning; ærmer og halvfærdige bærestykker har ikke godt af at blive presset ned i noget på størrelse med en strømpepose.
+
 ## Hold styr på hvor du slap
 
 Papirnoter virker, hvis du er disciplineret nok til at opdatere dem. Skriv det aktuelle pindenummer på en sticky note, sæt den på opskriften, og opdater når du stopper. Problemet: efter en god strikkesession kræver det en vane at skrive en note, før pindene lægges væk. Mange får den ikke.
 
-Et digitalt projektværktøj på telefonen håndterer det mere pålideligt. Det gemmer omgangs- eller pindeantal automatisk, registrerer hvornår du sidst arbejdede på projektet, og viser alle aktive projekter i én liste. I stedet for at rode gennem poser ser du det hele med det samme: Snoningscardigan, pind 47, sidst arbejdet tirsdag. Enkle strømper, hælvending, sidst arbejdet for en uge siden.
+Et digitalt projektværktøj på telefonen håndterer det mere pålideligt. Det gemmer omgangs- eller pindeantal automatisk, registrerer hvornår du sidst arbejdede på projektet, og viser alle aktive projekter i én liste. I stedet for at rode gennem poser ser du det hele med det samme: snoningscardigan, pind 47, sidst arbejdet tirsdag. Enkle strømper, hælvending, sidst arbejdet for en uge siden.
 
-[KnitTools-appen](/) organiserer projekter med tilknyttet garn, omgangstæller, sessionshistorik og opskriftsnoter ét sted. Åbn et projekt, og du er tilbage hvor du slap.
+[KnitTools](/) bygges til at organisere projekter med tilknyttet garn, omgangstæller, sessionshistorik og opskriftsnoter ét sted. Målet er enkelt: åbn et projekt, og kom tilbage til arbejdsstedet uden at genskabe det fra hukommelsen.
 
 ## Vælg hvad du vil strikke på
 
@@ -54,7 +58,9 @@ Flere WIP'er bliver stressende, når du får dårlig samvittighed over dem, du i
 
 **Rotation.** Afsæt bestemte sessioner til bestemte projekter. Hverdagsaftener er til sweateren, weekender til sjalet. Det forhindrer mønsteret, hvor du altid tager det letteste projekt, mens det komplekse ligger urørt.
 
-**Milepæle.** "Færdiggør bærestykket, før du starter noget nyt" virker bedre end "jeg burde strikke på sweateren". Konkrete mål giver noget at sigte efter. At registrere tid pr. projekt kan også afsløre mønstre. Hvis noget ikke er rørt i tre uger, er det måske tid til at forpligte sig eller kalde det, hvad det er.
+**Milepæle.** "Færdiggør bærestykket, før du starter noget nyt" virker bedre end "jeg burde strikke på sweateren". Konkrete mål giver noget at sigte efter. At registrere tid pr. projekt kan også afsløre mønstre. Hvis et projekt bliver sprunget over igen og igen, er det måske tid til at beslutte dig: fortsæt, sæt det bevidst på pause, eller tag garnet tilbage.
+
+**Match projektet med øjeblikket.** Snoningsdiagrammer og hulmønstre kræver opmærksomhed, så de passer til en rolig aften derhjemme. Enkle strømpeomgange fungerer i toget, i et venteværelse eller under en telefonsamtale. Når projektet passer til den tid og ro du faktisk har, får du fremdrift i stedet for at tage den forkerte pose frem og lægge den tilbage fem minutter senere.
 
 ## Når en WIP bliver en UFO
 
@@ -70,7 +76,9 @@ Når du har flere projekter i gang, bliver garnlogistikken filtret. Hvilke proje
 
 At holde styr på garn pr. projekt, hvor meget du startede med, og hvor meget der er tilbage, forhindrer de to værste udfald: at løbe tør midt i projektet med et udgået farveparti, og at købe dubletter fordi du har glemt, hvad du allerede har.
 
-Foto eller scanning af banderoler betyder, at oplysningerne (garntykkelse, fiberindhold, vaskeanvisning, farveparti) er tilgængelige, selv når den fysiske banderole løsner sig fra nøglet. KnitTools-appen har en [banderolescanner](/), der gemmer oplysningerne og knytter dem direkte til et projekt.
+Et nyttigt trick til aktive projekter: vej restgarnet med nogle sessioners mellemrum, og skriv gramvægten ned med dato. Hvis et sweaterærme brugte 47 g, ved du præcis hvor meget det andet ærme kræver, plus en lille buffer. Det gør et uklart "jeg tror der er nok" til et konkret ja eller nej.
+
+Gem garnets banderoleoplysninger, så garntykkelse, fiberindhold, vaskeanvisning og farveparti stadig er tilgængelige, når den fysiske banderole løsner sig fra nøglet. KnitTools bygges til at holde de noter sammen med det projekt, de hører til.
 
 ## Minimalversionen
 
@@ -81,7 +89,7 @@ Det er nok til at tage ethvert projekt op uden forvirring og opdage det, før an
 ## FAQ
 
 **Hvor mange projekter er for mange?**
-Der er ikke et universelt tal, men hvis valgmulighederne føles overvældende i stedet for energigivende, har du for mange. Mange strikkere synes, 3-5 aktive projekter er intervallet, hvor der stadig sker reel fremgang på hvert.
+Der er ikke et universelt tal. Hvis valgmulighederne føles overvældende i stedet for energigivende, har du for mange. En brugbar aktiv liste er lille nok til, at hvert projekt stadig får reel opmærksomhed.
 
 **Skal jeg færdiggøre ét projekt, før jeg starter et andet?**
 Strik-monogami virker for nogle. De fleste oplever, at flere projekter faktisk har en funktion. Forskellige situationer og energiniveauer vil have forskellig strik. Pointen er at have et system, ikke at fjerne variationen.

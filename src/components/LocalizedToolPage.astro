@@ -1,6 +1,7 @@
 ---
 import PageLayout from "../layouts/PageLayout.astro";
 import ClosingCTA from "./ClosingCTA.astro";
+import ToolStructuredData from "./ToolStructuredData.astro";
 import type { Lang } from "../i18n/config";
 import { type LocalizedPath } from "../i18n/routes";
 import { getToolsIndexPath } from "../i18n/tools";
@@ -52,40 +53,13 @@ const toolsIndexPath = getToolsIndexPath(lang);
   alternates={alternates}
   showStripe={false}
 >
-  <script
-    type="application/ld+json"
-    set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      name: schemaName,
-      description: schemaDescription,
-      url: `https://knittoolsapp.com${canonicalPath}`,
-      applicationCategory: "UtilityApplication",
-      operatingSystem: "Any",
-      offers: {
-        "@type": "Offer",
-        price: "0",
-        priceCurrency: "EUR",
-      },
-    })}
+  <ToolStructuredData
+    name={schemaName}
+    description={schemaDescription}
+    canonicalPath={canonicalPath}
+    faqs={faqs}
+    priceCurrency="EUR"
   />
-
-  {
-    faqs.length > 0 && (
-      <script
-        type="application/ld+json"
-        set:html={JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: faqs.map((f) => ({
-            "@type": "Question",
-            name: f.q,
-            acceptedAnswer: { "@type": "Answer", text: f.a },
-          })),
-        })}
-      />
-    )
-  }
 
   <section class="tool-hero">
     <div class="hero-inner">

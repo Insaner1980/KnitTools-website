@@ -18,7 +18,7 @@ translationKey: "identify-mystery-yarn"
 
 Fast alle Strickenden sammeln irgendwann unbekanntes Garn an. Die Banderole ist abgefallen, das Garn stammt aus dem Vorrat einer anderen Person, oder das Knäuel hatte von Anfang an kaum Informationen. Flohmarktbeutel, geerbte Garne, Reste aus Tauschpaketen.
 
-Um unbekanntes Garn einzuschätzen, fang mit Wraps per Inch (WPI) an, um die Garnstärke grob zu bestimmen. Danach helfen Brennprobe und Wassertest, die Faserfamilie einzugrenzen. Die genaue Marke oder den exakten Prozentanteil findest du nicht immer heraus, aber Garnstärke und grober Fasertyp reichen meist.
+Um unbekanntes Garn einzuschätzen, fang mit Wraps per Inch (WPI) an, um die Garnstärke grob zu bestimmen. Danach helfen Brennprobe und Wassertest, die Faserfamilie einzugrenzen. Die genaue Marke oder den exakten Prozentanteil findest du nicht immer heraus, aber Garnstärke und grober Fasertyp reichen meist für ein sinnvolles Projekt.
 
 ## Schritt eins: Garnstärke mit WPI bestimmen
 
@@ -26,7 +26,7 @@ Wraps per Inch (WPI) ist der schnellste erste Test.
 
 Wickle das Garn um einen Bleistift, ein Lineal oder ein WPI-Werkzeug. Die Wicklungen sollen eng nebeneinanderliegen, aber das Garn darf nicht gedehnt werden. Zähle dann, wie viele Wicklungen auf 2,5 cm passen.
 
-Der Craft Yarn Council nutzt diese groben Bereiche:
+Der Craft Yarn Council veröffentlicht für WPI diese 0-7-Bereiche. Das allgemeine Garnstärken-System erwähnt inzwischen auch Size 8, aber die WPI-Tabelle bleibt der praktische 0-7-Vergleich, den viele Anleitungen und Banderolen weiterhin nutzen:
 
 - 30-40+ Wicklungen: Lace (Kategorie 0)
 - 14-30 Wicklungen: Super Fine oder Fingering (Kategorie 1)
@@ -47,11 +47,11 @@ Das ist wichtig für Pflege und Verhalten des fertigen Gestricks. Der [Faserverg
 
 ### Brennprobe
 
-Schneide ein kleines Stück ab, halte es mit einer Pinzette über eine feuerfeste Unterlage und zünde es an. Achte darauf, wie es brennt, wie es riecht und was nach dem Abkühlen übrig bleibt.
+Schneide ein kleines Stück ab, halte es mit einer Pinzette über eine feuerfeste Unterlage und zünde es an. Halte Wasser in der Nähe, arbeite draußen oder bei sehr guter Belüftung und brich ab, wenn das Garn schmilzt, tropft oder scharfe Dämpfe abgibt. Achte darauf, wie es brennt, wie es riecht und was nach dem Abkühlen übrig bleibt.
 
 Tierfasern wie Wolle, Alpaka und Seide riechen nach verbranntem Haar und hinterlassen zerreibbare Asche. Pflanzenfasern wie Baumwolle und Leinen riechen eher nach verbranntem Papier und hinterlassen leichtere Asche. Synthetische Fasern schmelzen und verhärten zu einer Perle, statt zu Asche zu werden. Mischungen zeigen gemischtes Verhalten. Das sagt dir, dass das Garn gemischt ist, aber keine exakten Prozente.
 
-Mach das draußen oder bei sehr guter Belüftung. Synthetische Dämpfe sind unangenehm, und offene Flamme verdient mehr Vorsicht, als Garnreste normalerweise bekommen.
+Mach die Brennprobe nicht mit einem großen Stück, nicht in der Nähe von Kindern und nicht neben leicht brennbaren Dingen. Synthetische Dämpfe sind ein echter Grund, die Probe klein zu halten.
 
 Wichtig für die Erwartung: Die Brennprobe ist eine grobe Methode, kein Laborergebnis. Sie ist am nützlichsten, um große Faserfamilien zu unterscheiden. Erwarte nicht, dass sie Merino von Corriedale trennt.
 
@@ -59,7 +59,7 @@ Wichtig für die Erwartung: Die Brennprobe ist eine grobe Methode, kein Laborerg
 
 Sanfter und nützlich neben der Brennprobe. Weich ein kleines Stück in warmem Wasser ein und beobachte, was passiert.
 
-Nicht-superwash-behandelte Wolle kann zu filzen beginnen, wenn Wärme, Seife und Bewegung dazukommen. Superwash-Wolle wird nass, widersteht aber dem Filzen. Baumwolle nimmt Wasser leicht auf und fühlt sich nass deutlich schwerer an. Acryl nimmt weniger auf und trocknet schneller.
+Nicht-superwash-behandelte Wolle kann zu filzen beginnen, wenn Wärme, Seife und Bewegung dazukommen. Superwash-Wolle wird nass, widersteht aber dem Filzen. Baumwolle nimmt Wasser leicht auf und fühlt sich nass deutlich schwerer an. Acryl verhält sich anders als Baumwolle oder Wolle, aber allein mit diesem Test bestimmst du es nicht sicher.
 
 Auch das ist nur ein Hinweis, besonders bei Mischungen. Aber es grenzt die Möglichkeiten ein.
 
@@ -91,7 +91,7 @@ Wenn du viel unbekanntes Garn in einem Projekt verwenden willst, teste auch die 
 
 Wenn du viel Garn ohne Banderole hast, spart ein Nachmittag mit Testen und Beschriften später Ärger. Sogar eine handgeschriebene Notiz wie "wahrscheinlich DK, vermutlich Wollmischung, Handwäsche" ist besser als das nächste Rätselknäuel in sechs Monaten.
 
-Der KnitTools Yarn Label Scanner kann auch hier helfen. Für unbekanntes Garn kannst du eine manuelle Garnkarte mit deiner besten Schätzung und Testnotizen anlegen.
+KnitTools kann hier ebenfalls helfen: Halte bei unbekanntem Garn deine beste Schätzung und deine Testnotizen in einer Projektnotiz fest. Beim nächsten Mal ist das Knäuel nicht mehr ganz so unbekannt.
 
 ## FAQ
 

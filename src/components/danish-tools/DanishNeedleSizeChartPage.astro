@@ -6,25 +6,37 @@ const rows = [
   ["1.5", "000", "-", "-", "Lace"],
   ["1.75", "00", "-", "-", "Lace"],
   ["2.0", "0", "14", "0", "Lace"],
-  ["2.25", "1", "13", "-", "Fingering / strømpegarn"],
-  ["2.5", "1.5", "-", "-", "Fingering / strømpegarn"],
-  ["2.75", "2", "12", "2", "Fingering / strømpegarn"],
-  ["3.0", "2.5", "11", "3", "Sport"],
-  ["3.25", "3", "10", "-", "Sport"],
-  ["3.5", "4", "-", "5", "Sport"],
-  ["3.75", "5", "9", "-", "DK / Light Worsted"],
-  ["4.0", "6", "8", "6", "DK / Light Worsted"],
-  ["4.5", "7", "7", "8", "Worsted / Aran / Medium"],
-  ["5.0", "8", "6", "10", "Worsted / Aran / Medium"],
-  ["5.5", "9", "5", "-", "Worsted / Aran / Medium"],
-  ["6.0", "10", "4", "13", "Bulky / Chunky"],
-  ["6.5", "10.5", "3", "-", "Bulky / Chunky"],
-  ["7.0", "-", "2", "-", "Bulky / Chunky"],
-  ["8.0", "11", "0", "-", "Super Bulky / Super Chunky"],
-  ["9.0", "13", "00", "-", "Super Bulky / Super Chunky"],
-  ["10.0", "15", "000", "-", "Super Bulky / Super Chunky"],
-  ["12.0", "17", "-", "-", "Jumbo"],
-  ["12.75", "-", "-", "-", "Jumbo"],
+  ["2.25", "1", "13", "-", "Lace / Super Fine"],
+  ["2.4", "-", "-", "1", "Super Fine"],
+  ["2.5", "1.5", "-", "-", "Super Fine"],
+  ["2.7", "-", "-", "2", "Super Fine"],
+  ["2.75", "2", "12", "-", "Super Fine"],
+  ["3.0", "2.5", "11", "3", "Super Fine"],
+  ["3.25", "3", "10", "-", "Super Fine / Fine"],
+  ["3.3", "-", "-", "4", "Fine"],
+  ["3.5", "4", "-", "-", "Fine"],
+  ["3.6", "-", "-", "5", "Fine"],
+  ["3.75", "5", "9", "-", "Fine / Light"],
+  ["3.9", "-", "-", "6", "Light"],
+  ["4.0", "6", "8", "-", "Light"],
+  ["4.2", "-", "-", "7", "Light"],
+  ["4.5", "7", "7", "8", "Light / Medium"],
+  ["4.8", "-", "-", "9", "Medium"],
+  ["5.0", "8", "6", "-", "Medium"],
+  ["5.1", "-", "-", "10", "Medium"],
+  ["5.4", "-", "-", "11", "Medium"],
+  ["5.5", "9", "5", "-", "Medium / Bulky"],
+  ["5.7", "-", "-", "12", "Bulky"],
+  ["6.0", "10", "4", "13", "Bulky"],
+  ["6.3", "-", "-", "14", "Bulky"],
+  ["6.5", "10.5", "3", "-", "Bulky"],
+  ["6.6", "-", "-", "15", "Bulky"],
+  ["7.0", "-", "2", "-", "Bulky"],
+  ["8.0", "11", "0", "-", "Bulky / Super Bulky"],
+  ["9.0", "13", "00", "-", "Super Bulky"],
+  ["10.0", "15", "000", "-", "Super Bulky"],
+  ["12.0", "17", "-", "-", "Super Bulky"],
+  ["12.75", "-", "-", "-", "Super Bulky / Jumbo"],
   ["15.0", "19", "-", "-", "Jumbo"],
   ["16.0", "19", "-", "-", "Jumbo"],
   ["19.0", "35", "-", "-", "Jumbo"],
@@ -50,7 +62,7 @@ const faqs = [
   },
   {
     q: "Har jeg brug for alle pindestørrelser?",
-    a: "Nej. De fleste strikkere bruger især en håndfuld størrelser, der passer til de garntykkelser, de bruger mest. Strikker du meget med DK eller worsted, bruger du ofte 3,75 til 5,5 mm.",
+    a: "Nej. De fleste strikkere bruger især en håndfuld størrelser, der passer til de garntykkelser, de bruger mest. Strikker du meget med Light- og Medium-garner, bruger du ofte 3,75 til 5,5 mm.",
   },
 ];
 ---
@@ -185,10 +197,9 @@ const faqs = [
     <h2>At kombinere pindestørrelse og garntykkelse</h2>
     <p>Tabellen får dig tæt på. Strikkeprøven afgør den præcise adresse.</p>
     <p>
-      De publicerede CYC-intervaller i denne tabel kobler Lace til 1,5-2,25 mm,
-      Fingering / strømpegarn til 2,25-3,25 mm, Sport til 3,25-3,75 mm, DK /
-      Light Worsted til 3,75-4,5 mm, Worsted / Aran / Medium til 4,5-5,5 mm,
-      Bulky / Chunky til 5,5-8 mm, Super Bulky / Super Chunky til 8-12,75 mm og
+      Det nuværende Craft Yarn Council-system kobler Lace til 1,5-2,25 mm, Super
+      Fine til 2,25-3,25 mm, Fine til 3,25-3,75 mm, Light til 3,75-4,5 mm,
+      Medium til 4,5-5,5 mm, Bulky til 5,5-8 mm, Super Bulky til 8-12,75 mm og
       Jumbo fra 12,75 mm og opefter.
     </p>
     <p>

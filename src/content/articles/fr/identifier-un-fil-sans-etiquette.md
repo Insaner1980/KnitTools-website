@@ -16,7 +16,7 @@ lang: fr
 translationKey: "identify-mystery-yarn"
 ---
 
-La plupart des tricoteuses finissent avec du fil mystère. L'étiquette est tombée, le fil vient du stock de quelqu'un d'autre, ou la pelote n'a jamais eu beaucoup d'informations. Sacs de friperie, collections héritées, restes d'échanges.
+La plupart des personnes qui tricotent finissent avec du fil mystère. L'étiquette est tombée, le fil vient du stock de quelqu'un d'autre, ou la pelote n'a jamais eu beaucoup d'informations. Sacs de friperie, collections héritées, restes d'échanges.
 
 Pour identifier un fil mystère, commence par le WPI, c'est-à-dire le nombre de tours sur 2,5 cm, afin d'estimer l'épaisseur, puis utilise les tests de brûlage et d'eau pour réduire la famille de fibres. Tu n'obtiendras pas toujours la marque exacte ni le pourcentage précis, mais l'épaisseur probable et le type de fibre général suffisent souvent.
 
@@ -26,7 +26,7 @@ Le WPI est le premier tri le plus rapide.
 
 Enroule le fil autour d'un crayon, d'une règle ou d'un outil WPI. Garde les tours serrés et côte à côte, sans étirer le fil. Compte ensuite combien tiennent sur 2,5 cm.
 
-Le guide Craft Yarn Council donne ces grandes fourchettes :
+Le guide du Craft Yarn Council utilise ces grandes fourchettes :
 
 - 30 à 40 tours et plus : Lace (catégorie 0)
 - 14 à 30 tours : super fine ou fingering (catégorie 1)
@@ -47,11 +47,11 @@ C'est important pour l'entretien et pour le comportement du tissu. Le [guide des
 
 ### Le test de brûlage
 
-Coupe un petit morceau, tiens-le avec une pince au-dessus d'une surface résistante au feu, puis allume-le. Observe comment il brûle, ce que ça sent et ce qu'il reste après refroidissement.
+Coupe un petit morceau, tiens-le avec une pince au-dessus d'une surface résistante au feu, puis allume-le. Garde de l'eau à proximité, travaille dehors ou avec une très bonne ventilation, et arrête si le fil fond, coule ou dégage des fumées agressives. Observe comment il brûle, ce que ça sent et ce qu'il reste après refroidissement.
 
 Les fibres animales (laine, alpaga, soie) sentent le cheveu brûlé et laissent une cendre friable. Les fibres végétales (coton, lin) sentent plutôt le papier brûlé avec une cendre plus légère. Les synthétiques fondent et durcissent en perle au lieu de devenir de la cendre. Les mélanges donnent un comportement mixte, ce qui indique un fil mélangé sans donner les pourcentages exacts.
 
-Fais-le dehors ou avec une très bonne ventilation. Les fumées synthétiques ne sont pas agréables, et une flamme nue mérite plus de prudence que la plupart des pelotes de stock.
+Ne fais pas ce test avec un grand morceau, près d'enfants ou à côté de quelque chose d'inflammable. Les fumées synthétiques sont une vraie raison de garder un échantillon minuscule.
 
 Un mot sur les attentes : le test de brûlage est une méthode d'identification approximative, pas un résultat de laboratoire. Il sert surtout à distinguer les grandes familles de fibres. N'attends pas qu'il te dise la différence entre mérinos et corriedale.
 
@@ -59,7 +59,7 @@ Un mot sur les attentes : le test de brûlage est une méthode d'identification 
 
 Plus doux, et utile avec le test de brûlage. Fais tremper un petit morceau dans de l'eau tiède et observe.
 
-La laine non superwash peut commencer à feutrer si tu ajoutes chaleur, savon et agitation. La laine superwash se mouille mais résiste au feutrage. Le coton absorbe bien l'eau et devient nettement plus lourd mouillé. L'acrylique absorbe moins et sèche plus vite.
+La laine non superwash peut commencer à feutrer si tu ajoutes chaleur, savon et agitation. La laine superwash se mouille mais résiste au feutrage. Le coton absorbe bien l'eau et devient nettement plus lourd mouillé. L'acrylique se comporte autrement que le coton ou la laine, mais ce test ne l'identifie pas avec certitude à lui seul.
 
 Ce n'est encore qu'un indice, surtout avec les mélanges. Mais cela réduit les possibilités.
 
@@ -91,7 +91,7 @@ Si tu prévois d'utiliser beaucoup de fil mystère dans un même projet, teste a
 
 Si tu as beaucoup de fils sans étiquette, passer un après-midi à les tester et les étiqueter évite des ennuis plus tard. Même une note manuscrite ("probablement DK, mélange laine probable, lavage main") vaut mieux qu'une autre pelote mystère dans six mois.
 
-Le [scanner d'étiquette KnitTools](/) peut aider aussi. Pour un fil mystère, tu peux créer une fiche manuelle avec ta meilleure estimation et tes notes de test.
+Pour un fil mystère, tu peux créer une fiche manuelle avec ta meilleure estimation et tes notes de test. La prochaine fois, la pelote ne sera plus aussi inconnue.
 
 ## FAQ
 
@@ -99,7 +99,7 @@ Le [scanner d'étiquette KnitTools](/) peut aider aussi. Pour un fil mystère, t
 Oui, mais c'est excessif pour la plupart des fils de stock. Les tests de laboratoire ont plus de sens pour un fil précieux, sentimental ou présent en quantité suffisante pour justifier le coût.
 
 **Le test de brûlage ne donne pas de réponse claire. Et maintenant ?**  
-Cela signifie souvent que c'est un mélange, ou que le résultat était trop ambigu à lire. Sois prudente avec l'entretien et laisse l'échantillon guider les décisions.
+Cela signifie souvent que c'est un mélange, ou que le résultat était trop ambigu à lire. Garde une marge de prudence pour l'entretien et laisse l'échantillon guider les décisions.
 
 **Puis-je mélanger un fil mystère avec un fil étiqueté dans le même projet ?**  
 Oui, mais vérifie d'abord que les deux réagissent de façon similaire au lavage et au séchage. Si l'un feutre, dégorge ou s'étire beaucoup plus que l'autre, le projet fini le montrera.

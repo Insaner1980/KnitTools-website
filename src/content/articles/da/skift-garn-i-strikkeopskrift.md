@@ -60,13 +60,13 @@ Gang opskriftens antal nøgler med løbelængden pr. nøgle. Det er totalen du s
 
 Når fiberindholdet også ændrer sig, betyder løbelængde endnu mere. Samme vægt pr. nøgle kan skjule meget forskellige længder garn inde i nøglet.
 
-[Garnberegneren](/da/strikkevaerktoejer/garnberegner/) håndterer det mere præcist end nøglematematik alene, især hvis strikkefastheden ændrer sig med erstatningen.
+[Garnberegneren](/da/strikkevaerktoejer/garnberegner/) kan give et tjek ud fra projekttype, størrelse og garntykkelse, men den erstatter ikke opskriftens angivne garnforbrug, erstatningsgarnets løbelængde pr. nøgle eller en ny strikkeprøve, hvis strikkefastheden ændrer sig.
 
 ## Når garnskift er risikabelt
 
 Ikke alle projekter tåler et garnskift lige godt. Det er værd at være ærlig om, før du køber 8 nøgler af alternativet.
 
-**Lav risiko:** tørklæder, sjaler, tæpper, karklude. En strikkefasthed der afviger med omkring 1 maske pr. 10 cm, ændrer den færdige størrelse en smule. Ingen lægger mærke til det. Det er projekterne hvor garnskift næsten altid kan fungere. Kør på.
+**Lav risiko:** tørklæder, sjaler, tæpper, karklude. En strikkefasthed der afviger med omkring 2 masker pr. 10 cm, ændrer den færdige størrelse, men skaber normalt ikke en pasformsfejl på samme måde som i tøj. Regn igen, hvis præcise tæppemål eller garnmængde betyder noget. Det er projekterne hvor garnskift næsten altid kan fungere. Kør på.
 
 **Mellem risiko:** huer, halsrør, tasker. Pasform betyder mere, struktur betyder mere, men der er stadig plads til små forskelle. En hue der bliver lidt større, kan blokkes mindre eller gives til nogen med større hoved.
 

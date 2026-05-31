@@ -30,6 +30,14 @@ Større pinde (cirka 8,0 mm og opefter, US 11+) med Bulky-garn giver hurtige res
 
 5,0 mm ligger i midten. Maskerne er synlige. Garnet er håndterbart. Pindene er ikke uhåndterlige. Fremdriften føles tilfredsstillende uden at gå så hurtigt, at du springer læringen over.
 
+## Om størrelsessystemer
+
+Hvis du køber pinde internationalt eller finder brugte pinde, møder du flere størrelsessystemer. De passer ikke direkte sammen.
+
+US-størrelser bruger tal, også meget små størrelser som 000 og 00 og meget store størrelser som 50. Den præcise skala kan variere mellem tabeller og producenter. Metriske størrelser er pindens faktiske diameter i millimeter, og det er den størrelse de fleste europæiske garnbanderoler bruger. Gamle UK-størrelser er et ældre system, hvor højere tal betyder tyndere pinde, altså modsat US-systemet.
+
+Den anbefalede US 8 her svarer til 5,0 mm, og det er den størrelse du normalt skal kigge efter på danske og europæiske pakker. I gammelt UK-system ville det være størrelse 6. Hvis en opskrift kun bruger ét system, og du køber pinde i et andet, så find millimetermålet på pakken eller brug [tabellen over pindestørrelser](/da/strikkevaerktoejer/pindestoerrelser/). Stol ikke blindt på selve nummeret, fordi US- og UK-tal løber hver sin vej.
+
 ## Pindetype til begyndere
 
 Jumperpinde er det mest intuitive udgangspunkt. To pinde, én i hver hånd. Ideen er straks forståelig, og du skal ikke tænke på kabellængder eller at samle til rundstrik.
@@ -52,7 +60,17 @@ Det absolutte minimum: ét par jumperpinde i 5,0 mm (US 8) i bambus eller træ, 
 
 Det er det. Maskemarkører, omgangstællere, snoningspinde, pindemålere. Alt andet i strikkeafdelingen kan vente, til et konkret projekt kræver det.
 
-Hvis du vil fremtidssikre en lille smule, så køb 4,5 mm (US 7) og 5,5 mm (US 9) sammen med 5,0 mm (US 8). Tre størrelser dækker de fleste Worsted / Medium-opskrifter, og en størrelse op og ned giver dig muligheder, når strikkefastheden ikke passer. I alt: tre par bambus-jumperpinde og et nøgle garn, typisk under 140 kr. i mange hobbybutikker.
+Hvis du vil fremtidssikre en lille smule, så køb 4,5 mm (US 7) og 5,5 mm (US 9) sammen med 5,0 mm (US 8). Tre størrelser dækker de fleste Worsted / Medium-opskrifter, og en størrelse op og ned giver dig muligheder, når strikkefastheden ikke passer. Det er stadig et lille startsæt. Du behøver ikke købe halvdelen af pindeafdelingen, før det første projekt er færdigt.
+
+## Hvad skal du ikke købe endnu?
+
+Der er nogle klassiske begynderkøb, som mest ender som skuffefyld.
+
+Et kæmpe udskifteligt rundpindesæt med 60 dele. Det virker fristende, fordi det ligner god værdi, men som begynder ved du ikke endnu, hvilke størrelser du faktisk kommer til at bruge. Om tre måneder strikker du måske med strømpegarn på 2,25 mm eller chunky garn på 9,0 mm, og sættet du købte, rammer ikke nødvendigvis dit næste projekt.
+
+Specialpinde i din første størrelse: firkantede pinde, ekstra spidse pinde, ergonomiske former. De løser sjældent et begynderproblem. De løser mere specifikke problemer senere. Hvis dine hænder gør ondt efter en times strik på almindelige pinde, handler det oftere om spænding i hænderne end om selve pindens form.
+
+Meget tynde pinde på 2,0-2,75 mm (US 0-2), fordi "rigtige strikkere bruger tynde pinde". Rigtige strikkere bruger den størrelse projektet kræver. Strømpegarnspinde er især fleksible, små og langsomme. De kan give dårlige vaner, mens du stadig lærer at styre strikkefastheden.
 
 ## Hvornår skal du udvide?
 
@@ -60,9 +78,17 @@ Dit første projekt lærer dig retmasken og måske vrang. Det næste kan introdu
 
 De fleste strikkere samler pinde organisk. Hver ny opskrift kræver en størrelse, du ikke ejer endnu, så du køber den. Efter et år har du en samling, der afspejler de projekter, du har strikket.
 
-Et udskifteligt rundpindesæt er værd at overveje, når du ved, at strik hænger ved. Ét sæt dækker typisk cirka 2,75-8,0 mm (US 2-11) i flere kabellængder og erstatter mange enkeltkøb. Men startprisen er højere, cirka 350-1 000 kr. afhængigt af mærke, og der er ingen grund til at investere, før du er sikker.
+Et udskifteligt rundpindesæt er værd at overveje, når du ved, at strik hænger ved. Et typisk begyndersæt dækker de centrale sweater- og tilbehørsstørrelser i flere kabellængder og kan erstatte en skuffe fuld af faste rundpinde over tid. Men startprisen er højere end at købe én pind til ét projekt, og der er ingen grund til at investere, før du er sikker. ChiaoGoo, KnitPro, HiyaHiya og Addi laver alle sæt i den kategori.
 
 [Tabellen over pindestørrelser](/da/strikkevaerktoejer/pindestoerrelser/) viser alle størrelser med metriske og US-ækvivalenter, plus hvilke garntykkelser der passer til hver. Nyttig når en opskrift bruger en størrelse, du ikke har mødt før.
+
+## Byg din strikkefasthed op
+
+De første projekter giver ujævn strikkefasthed. Nogle stykker bliver stramme, andre løse, og hele arbejdet kan ende lidt trapezformet. Det er normalt. Løsningen er ikke en anden pindestørrelse. Det er flere meter strik.
+
+De fleste strikkere får mere stabil strikkefasthed i løbet af de første projekter. Indtil da bliver stoffet pænere, selv hvis du ikke ændrer noget. En karklud fra den første uge ser anderledes ud end en karklud strikket nogle projekter senere med samme pind og samme garn.
+
+Hvis du skifter pindestørrelse for tidligt for at rette ujævn strikkefasthed, skjuler du det egentlige problem. Byg vanen først. Juster størrelsen for pasform bagefter.
 
 ## FAQ
 
@@ -76,4 +102,10 @@ Ja. Mange strikkere lærer på rundpinde og ejer aldrig jumperpinde. Brug rundpi
 Ja. Det er helt forskellige værktøjer. En hæklenål har en krog og bruges alene. Strikkepinde har spidser og bruges i par eller sæt. De kan ikke erstatte hinanden.
 
 **Hvad hvis opskriften kræver en størrelse, jeg ikke har?**
-Køb den størrelse opskriften angiver, og lav en strikkeprøve. Hvis du ligger tæt på, omkring 2 masker pr. 10 cm fra, kan du måske bruge den nærmeste størrelse du ejer. Til tætsiddende ting betyder korrekt pindestørrelse mere.
+Køb den størrelse opskriften angiver, og lav en strikkeprøve for at tjekke strikkefastheden. Til et tørklæde eller en karklud kan den nærmeste størrelse være fin, hvis stoffet føles rigtigt. Til tætsiddende ting betyder matchende strikkefasthed mere end at spare ét pindekøb.
+
+**Er US 6 eller US 10 dårlige startstørrelser?**
+Nej, de er bare lidt mindre oplagte som standardvalg. US 6 med DK-garn fungerer fint og giver et fastere, mere slidstærkt stof. US 10 med Bulky eller Chunky-garn fungerer også, hvis det er det garn du har. Kombinationen US 7-9 / Worsted er den mest brugbare standardanbefaling, ikke en fast regel.
+
+**Bør jeg købe samme mærke som mit fremtidige sæt?**
+Det betyder ikke ret meget, mens du lærer. De bambus-jumperpinde du starter med, kan alligevel ikke sættes sammen med et udskifteligt rundpindesæt. Køb det der er billigt, ordentligt og nemt at få fat i. Mærkepræferencer kan komme senere.

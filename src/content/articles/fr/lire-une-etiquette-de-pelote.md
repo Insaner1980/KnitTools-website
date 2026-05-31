@@ -22,9 +22,9 @@ Une étiquette de pelote te donne la composition du fil, la catégorie d'épaiss
 
 ## Symbole d'épaisseur de fil
 
-L'icône en forme de pelote avec un nombre à l'intérieur correspond à la catégorie Craft Yarn Council. Elle va de 0 (Lace) à 7 (Jumbo), et c'est le moyen le plus rapide de vérifier si un fil correspond aux exigences d'un modèle.
+L'icône en forme de pelote avec un nombre à l'intérieur correspond à la catégorie d'épaisseur du Craft Yarn Council. Beaucoup d'étiquettes utilisent encore la plage familière de Lace à Jumbo, et CYC a commencé à mettre à jour le système avec la catégorie 8 et des symboles supplémentaires. Utilise le nombre comme raccourci, puis vérifie aussi le nom de la catégorie et la case d'échantillon avant d'associer le fil à un modèle.
 
-Le texte à côté indique souvent DK, Worsted ou Bulky. Toutes les marques n'impriment pas l'icône CYC, mais la plupart donnent une version du nom d'épaisseur. Si l'étiquette donne seulement un nom propre à la marque, comme "Studio" ou "Soft Touch", regarde plutôt la case d'échantillon pour trouver des indices.
+Le texte à côté indique souvent DK, Worsted ou Bulky. Toutes les marques n'impriment pas l'icône CYC, et certaines utilisent des noms propres à la marque, comme "Studio" ou "Soft Touch". Quand le nom d'épaisseur n'est pas clair, la case d'échantillon donne de meilleurs indices.
 
 Le [tableau des épaisseurs de fil](/fr/outils/epaisseurs-de-fil/) détaille toutes les catégories avec leurs fourchettes d'échantillon et tailles d'aiguilles typiques.
 
@@ -34,7 +34,7 @@ Elle est indiquée en pourcentages. `100 % laine mérinos`. `75 % acrylique, 25 
 
 Regarde-la attentivement quand tu [remplaces un fil](/fr/articles/remplacer-un-fil-dans-un-modele/). Un DK en laine et un DK en coton sont tous les deux DK. Ils peuvent se tricoter à des échantillons proches. Mais le tissu fini ne se comportera pas du tout de la même manière. Le [guide des fibres](/fr/articles/fibres-de-fil-laine-coton-acrylique/) couvre ces différences.
 
-Les étiquettes indiquent parfois si le fil est superwash, mercerisé ou brossé. Ce ne sont pas des mots décoratifs. La laine superwash supporte le lavage en machine. La laine non superwash, non. C'est un détail à voir avant de monter 300 mailles pour une couverture de bébé.
+Les étiquettes indiquent parfois si le fil est superwash, mercerisé ou brossé. Ce ne sont pas des mots décoratifs. La laine superwash est traitée pour mieux résister au feutrage et peut être indiquée comme lavable en machine. La laine non superwash demande un soin plus doux, car chaleur, humidité et agitation peuvent la feutrer. C'est un détail à voir avant de monter 300 mailles pour une couverture de bébé.
 
 ## Informations d'échantillon
 
@@ -56,7 +56,7 @@ Une croix sur la cuve signifie ne pas laver, ce qui est rare pour le fil mais ap
 
 **Le blanchiment** est le triangle. Un triangle vide signifie que le blanchiment est autorisé. Deux lignes diagonales à l'intérieur limitent au blanchiment sans chlore, à l'oxygène. Une croix sur le triangle : aucun blanchiment.
 
-La plupart des tricoteuses ne sortent pas souvent l'eau de Javel. Mais si tu fais quelque chose de blanc ou très clair, savoir si la fibre le tolère compte.
+On ne sort pas souvent l'eau de Javel pour un tricot. Mais si tu fais quelque chose de blanc ou très clair, savoir si la fibre le tolère compte.
 
 **Le séchage** utilise un carré. Un cercle dans le carré signifie que le sèche-linge est autorisé. Les points dans ce cercle indiquent la chaleur : un point pour basse température, deux pour normale. Une ligne horizontale dans le carré signifie sécher à plat, ce qui est de toute façon la bonne méthode pour la plupart des vêtements tricotés. Une ligne verticale dans le carré signifie suspendre ou sécher sur fil.
 
@@ -64,9 +64,9 @@ C'est là que beaucoup se trompent : ce n'est pas parce que le fil survit au sè
 
 Le symbole **fer à repasser** a la forme d'un fer. Les points indiquent la température, un point pour basse température, trois pour haute. Une croix dessus signifie ne pas repasser. Pour le tricot, le fer compte surtout quand on presse des coutures ou qu'on bloque à la vapeur. Certains synthétiques réagissent mal à la chaleur et peuvent fondre ou devenir brillants sous un fer chaud.
 
-Le **nettoyage professionnel** utilise un cercle. P et F indiquent des solvants de nettoyage à sec (perchloroéthylène et hydrocarbures). W signifie nettoyage professionnel à l'eau, donc un procédé à base d'eau et non de solvant. La plupart des tricoteuses ignorent cette partie, mais elle apparaît sur les étiquettes de mélanges soie, cachemire et autres fibres qui peuvent bénéficier d'un soin professionnel.
+Le **nettoyage professionnel** utilise un cercle. P et F indiquent des solvants de nettoyage à sec (perchloroéthylène et hydrocarbures). W signifie nettoyage professionnel à l'eau, donc un procédé à base d'eau et non de solvant. Beaucoup de personnes ignorent cette partie, mais elle apparaît sur les étiquettes de mélanges soie, cachemire et autres fibres qui peuvent bénéficier d'un soin professionnel.
 
-Ces symboles ne sont pas des suggestions. Une laine lavage main feutrera si elle passe dans un cycle machine classique avec eau chaude et agitation. Une fibre qui ne supporte pas la chaleur sortira d'un sèche-linge chaud comme un autre objet que celui qui y est entré.
+Ces symboles ne sont pas des suggestions. Une laine lavage main peut feutrer si elle passe dans un cycle machine classique avec eau chaude et agitation. Une fibre qui ne supporte pas la chaleur peut sortir d'un sèche-linge chaud comme un autre objet que celui qui y est entré.
 
 ## Bain de teinture et numéro de coloris
 
@@ -94,15 +94,15 @@ Rien sur la durabilité non plus. Est-ce que le fil bouloche beaucoup, s'assoupl
 
 Et la case d'échantillon est le résultat du fabricant, pas le tien. Prends-la comme une référence, pas comme une garantie.
 
-Le [scanner d'étiquette KnitTools](/) lit une étiquette avec l'appareil photo de ton téléphone et enregistre tout sous forme de fiche de fil numérique. Pratique quand la banderole en papier est sur le point de disparaître dans un sac à projet et de ne jamais revenir.
+Note tout de suite les informations importantes de l'étiquette dans tes notes de projet : épaisseur de fil, métrage, composition, numéro de coloris et numéro de bain. C'est beaucoup plus simple avant que la banderole en papier disparaisse dans un sac à projet et ne revienne jamais.
 
 ## FAQ
 
 **Et si l'étiquette est dans une langue que je ne comprends pas ?**  
-Les symboles d'entretien et l'icône d'épaisseur sont standardisés internationalement. Ils se ressemblent quelle que soit la langue.
+Les symboles d'entretien réduisent la dépendance à la langue, et les icônes d'épaisseur suivent souvent les conventions CYC. Vérifie quand même la case d'échantillon et les pourcentages de fibres si le texte est inconnu.
 
 **L'étiquette donne un échantillon sur 10 cm, mais mon modèle anglophone l'écrit autrement. C'est comparable ?**  
-Oui. Compare toujours en ramenant les chiffres à 10 cm ; les modèles anglophones utilisent généralement une base quasiment équivalente.
+Presque, mais pas exactement. 10 cm font environ 3,94 inches. Si le modèle donne l'échantillon sur 10 cm, mesure 10 cm. S'il le donne sur 4 inches, mesure 4 inches.
 
 **Faut-il garder l'étiquette de la pelote ?**  
 Oui. Au moins jusqu'à ce que le projet soit terminé et lavé.

@@ -22,9 +22,9 @@ Eine Garnbanderole nennt Materialzusammensetzung, Garnstärke, empfohlene Masche
 
 ## Symbol für die Garnstärke
 
-Das knäuelförmige Symbol mit einer Zahl darin ist die Garnstärken-Kategorie des Craft Yarn Council. Sie reicht von 0 (Lace) bis 7 (Jumbo) und ist der schnellste Weg, um zu prüfen, ob ein Garn zu den Anforderungen einer Anleitung passt.
+Das knäuelförmige Symbol mit einer Zahl darin ist die Garnstärken-Kategorie des Craft Yarn Council. Viele Banderolen nutzen weiterhin die bekannte nummerierte Skala von Lace bis Jumbo, und CYC hat begonnen, das System um Size 8 und zusätzliche Symbole zu erweitern. Behandle die Zahl als Abkürzung und prüfe zusätzlich den Namen der Garnstärke und das Maschenprobenfeld, bevor du ein Garn mit einer Anleitung abgleichst.
 
-Daneben steht oft DK, Worsted oder Bulky. Nicht jede Marke druckt das CYC-Symbol auf, aber die meisten nennen irgendeine Garnstärke. Wenn die Banderole nur einen markeneigenen Namen wie "Studio" oder "Soft Touch" zeigt, schau als Hinweis in das Maschenprobenfeld.
+Daneben steht oft DK, Worsted oder Bulky. Nicht jede Marke druckt das CYC-Symbol auf, und manche nutzen markeneigene Namen wie "Studio" oder "Soft Touch". Wenn die Garnstärke unklar ist, gibt das Maschenprobenfeld meist die besseren Hinweise.
 
 Die [Garnstärken-Tabelle](/de/werkzeuge/garnstaerken-tabelle/) zeigt die Kategorien mit typischen Maschenproben und Nadelstärken.
 
@@ -34,7 +34,7 @@ Die Materialzusammensetzung steht in Prozenten: `100 % Merinowolle`, `75 % Acryl
 
 Achte hier besonders darauf, wenn du [Garn ersetzt](/de/artikel/garn-in-einer-strickanleitung-ersetzen/). Ein Woll-DK und ein Baumwoll-DK sind beide DK. Sie können eine ähnliche Maschenprobe ergeben. Aber das fertige Gestrick verhält sich nicht gleich. Der [Faservergleich](/de/artikel/garnfasern-im-vergleich/) geht diese Unterschiede genauer durch.
 
-Manchmal steht auf der Banderole auch, ob das Garn superwash-behandelt, mercerisiert oder gebürstet ist. Das sind keine Deko-Wörter. Superwash-Wolle verträgt Maschinenwäsche. Nicht-superwash-behandelte Wolle nicht. Das möchtest du wissen, bevor du 300 Maschen für eine Babydecke anschlägst.
+Manchmal steht auf der Banderole auch, ob das Garn superwash-behandelt, mercerisiert oder gebürstet ist. Das sind keine Deko-Wörter. Superwash-Wolle ist so behandelt, dass sie weniger leicht filzt und laut Banderole maschinenwaschbar sein kann. Nicht-superwash-behandelte Wolle braucht vorsichtigere Pflege, weil Wärme, Feuchtigkeit und Bewegung sie filzen können. Das möchtest du wissen, bevor du 300 Maschen für eine Babydecke anschlägst.
 
 ## Maschenprobenangaben
 
@@ -94,15 +94,15 @@ Auch zur Haltbarkeit steht wenig dort. Wie stark das Garn pillt, ob es beim Wasc
 
 Und das Maschenprobenfeld ist das Ergebnis des Herstellers, nicht deins. Behandle es als Referenz, nicht als Garantie.
 
-Der KnitTools Yarn Label Scanner liest eine Banderole mit der Handykamera und speichert alles als digitale Garnkarte in der [App](/). Praktisch, wenn die Papierbanderole gleich in einer Projekttasche verschwindet.
+KnitTools kann dieselben Banderolenangaben in einer Projektnotiz festhalten. Das ist deutlich einfacher, bevor die Papierbanderole in der Projekttasche verschwindet.
 
 ## FAQ
 
 **Was, wenn die Banderole in einer Sprache ist, die ich nicht lesen kann?**
-Pflegesymbole und Garnstärken-Symbol sind international verständlich. Sie sehen unabhängig von der Sprache gleich aus.
+Pflegesymbole reduzieren die Sprachabhängigkeit, und Garnstärken-Symbole folgen oft CYC-Konventionen. Prüfe trotzdem Maschenprobenfeld und Faserprozente, wenn du den Text nicht sicher lesen kannst.
 
 **Die Banderole nennt die Maschenprobe über 10 cm, aber meine englische Anleitung nutzt 4 Zoll. Ist das dasselbe?**
-Praktisch ja. Vier Zoll sind 10,16 cm, und die meisten Strickenden behandeln diese Angaben als gleichwertig.
+Nah dran, aber nicht exakt gleich. 10 cm sind etwa 3,94 Zoll. Wenn die Anleitung 10 cm verlangt, miss 10 cm. Wenn sie 4 Zoll verlangt, miss 4 Zoll.
 
 **Soll ich die Garnbanderole aufheben?**
 Ja. Mindestens, bis das Projekt fertig und gewaschen ist.

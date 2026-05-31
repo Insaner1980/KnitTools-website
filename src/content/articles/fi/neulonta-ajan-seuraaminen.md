@@ -18,7 +18,7 @@ translationKey: "track-knitting-time"
 
 Useimmilla neulojilla on epämääräinen tunne siitä, kauanko projektit vievät. "Villapaita kesti pari kuukautta." "Sukat valmistuivat aika nopeasti." Epämääräisyys ei auta, kun mietit kannattaako neuletakki aloittaa kuusi viikkoa ennen joulua tai miksi pipo-ohje, jonka piti valmistua yhdessä illassa, venyy kolmeen.
 
-Neulonta-ajan seuraaminen muuttaa tuntumat oikeaksi dataksi. Montako tuntia villapaitaan meni. Montako kerrosta teet keskimäärin yhdessä sessiossa. Neulotko nopeammin sileää neuletta vai palmikoita, vastaus on aina sileää, mutta kuinka paljon? Numerot eivät saa käsiä liikkumaan nopeammin, mutta ne auttavat suunnittelemaan paremmin ja huomaamaan, kun jokin alkaa hiljaa mennä pieleen.
+Neulonta-ajan seuraaminen muuttaa tuntumat oikeaksi dataksi. Montako tuntia villapaitaan meni. Montako kerrosta teet keskimäärin yhdessä sessiossa. Neulotko nopeammin sileää neuletta vai palmikoita, ja kuinka paljon ero on? Numerot eivät saa käsiä liikkumaan nopeammin, mutta ne auttavat suunnittelemaan paremmin ja huomaamaan, kun jokin alkaa hiljaa mennä pieleen.
 
 ## Miksi aikaa kannattaa seurata
 
@@ -28,7 +28,7 @@ Kolme syytä, siinä järjestyksessä kuin ne alkavat hyödyttää.
 
 **Huomaat hidastumiset ennen kuin niistä tulee ongelmia.** Jos tavallinen sessiosi tuottaa projektissa 12 kerrosta ja yhtenä viikkona määrä putoaa kuuteen, jokin muuttui. Ehkä silmukkamalli vaikeutui. Ehkä lanka taistelee vastaan. Ehkä kireys muuttui ja kompensoit sitä huomaamatta. Numerot nostavat muutoksen näkyviin ennen kuin käytät kolme lisäsessiota ihmetellen, miksi työ tuntuu tahmealta.
 
-Sitten on pitkä peli. Neulontanopeus paranee harjoittelemalla, mutta parannus on niin asteittaista, ettei sitä tunne tapahtuvan. Kuuden kuukauden takainen sessiodata verrattuna nykyiseen näyttää eron konkreettisesti. Enemmän kerroksia tunnissa, vähemmän virheitä, nopeampi toipuminen virheistä. Edistyminen, joka on arjessa näkymätöntä, tulee kuukausissa selväksi.
+Sitten on pitkä peli. Neulontanopeus voi muuttua harjoittelun myötä, mutta muutos on usein niin asteittainen, ettei sitä tunne tapahtuvan. Kuuden kuukauden takainen sessiodata verrattuna nykyiseen näyttää eron konkreettisesti: enemmän kerroksia tunnissa, vähemmän virheitä, nopeampi toipuminen virheistä. Edistyminen, joka on arjessa näkymätöntä, tulee kuukausissa helpommin näkyviin.
 
 ## Yksinkertainen seuranta: puhelimen ajastin
 
@@ -48,7 +48,7 @@ Huono puoli: jokaisen session jälkeen pitää syöttää tiedot käsin. Jos uno
 
 Projektinhallintasovellukseen rakennettu neulonta-ajan seuranta automatisoi ne kohdat, joissa manuaaliset tavat hajoavat. Aloita sessio, neulo, lopeta sessio. Sovellus tallentaa keston, yhdistää sen projektiin ja seuraa kerrosmäärää samalla.
 
-[KnitTools-sovelluksessa](/) sessioseuranta on sidottu [kerroslaskuriin](/fi/artikkelit/kerrosten-seuraaminen-neuloessa/). Aina kun lasket kerroksia, sessioajastin on käynnissä. Kun lopetat, tiedot tallentuvat: päivä, kesto, valmiit kerrokset, kerrokset tunnissa. Ajan myötä tästä kertyy historia per projekti ja kaikkien projektien yli.
+[KnitTools-sovellusta](/) rakennetaan niin, että sessioseuranta liittyy [kerroslaskuriin](/fi/artikkelit/kerrosten-seuraaminen-neuloessa/). Tarkoitettu työnkulku on yksinkertainen: laske kerroksia, tallenna sessio ja pidä päivä, kesto, valmistuneet kerrokset sekä kerrokset tunnissa projektin yhteydessä. Ajan myötä tästä kertyy historia per projekti ja kaikkien projektien yli.
 
 Etuna manuaalisiin tapoihin verrattuna on johdonmukaisuus. Napautat jo kerroslaskuria, joten ajan seuranta tapahtuu sivutuotteena. Ei erillistä ajastinta, ei päivitettävää muistikirjaa, ei ylläpidettävää taulukkoa. Data kertyy, vaikka et ajattele sitä.
 
@@ -56,9 +56,9 @@ Etuna manuaalisiin tapoihin verrattuna on johdonmukaisuus. Napautat jo kerroslas
 
 ### Kerrokset tunnissa silmukkamallin mukaan
 
-Sileä neule on nopeinta. Aina. Kaikki muu on hitaampaa mitattavalla määrällä, ja erot ovat tarpeeksi johdonmukaisia ollakseen hyödyllisiä suunnittelussa.
+Monelle neulojalle sileä neule muuttuu nopeaksi peruspinnaksi. Muut mallineuleet hidastavat usein tahtia, koska mukaan tulee kääntymistä, nurjien vaihtelua, kaavion lukemista, palmikonkiertoja, langankiertoja tai kavennuksia.
 
-Tyypillisiä vaihteluvälejä keskitason neulojalle worsted-langalla: sileä neule 25-40 kerrosta tunnissa, ainaoikea 20-35, koska kääntäminen hidastaa hieman, joustin 18-28, koska vaihdat oikean ja nurjan välillä, palmikot 12-22, koska palmikonkierröt katkaisevat rytmin, pitsi 8-18, koska kaavion lukeminen, langankierrot ja kavennukset vievät aikaa.
+Tarkat kerrokset tunnissa -luvut eivät siirry hyvin projektista toiseen. Kapea huivirivi, villapaidan vartalokerros ja sukkakierros eivät ole sama yksikkö edes ennen lankavahvuutta ja mallineuletta.
 
 Nämä luvut vaihtelevat valtavasti neulojien välillä. Hyödyllinen vertailu ei ole sinun nopeutesi jonkun toisen nopeuteen. Se on sinun nopeutesi tässä ohjeessa verrattuna edelliseen.
 
@@ -70,7 +70,7 @@ Sessioseuranta näyttää nämä erot. Jos vartalo vei 20 tuntia ja kaarroke 15 
 
 ### Nopeuden kehittyminen ajan myötä
 
-Vertaa ensimmäistä sukkaa viidenteen. Sileän neuleen kerroksia tunnissa tammikuussa ja kesäkuussa. Muutos on yleensä siellä, ja yleensä suurempi kuin arvaat.
+Vertaa ensimmäistä sukkaa viidenteen. Sileän neuleen kerroksia tunnissa tammikuussa ja kesäkuussa. Muutos voi olla pieni, suuri tai epätasainen, mutta ainakin vertaat omaa tekemistäsi muistikuviin nojaamisen sijaan.
 
 Useimmille neulomisen tarkoitus ei ole nopeus. Silti oman mitattavan kehittymisen näkeminen tuntuu hyvältä tavalla, jota on vaikea saada harrastuksesta, jossa edistystä mitataan muuten lauseella "sain huivin valmiiksi".
 
@@ -98,10 +98,10 @@ Usean projektin neulojille projektikohtainen aika paljastaa myös jakautumisen. 
 Muutaman minuutin tarkkuus riittää. Jos unohdit käynnistää ajastimen ensimmäiseksi viideksi minuutiksi tai pysäytit sen kymmenen minuuttia puikkojen laskemisen jälkeen, data on silti hyödyllistä trendien kannalta. Älä hylkää sessiota siksi, ettei ajoitus ollut täydellinen.
 
 **Paraneeko neulontanopeus oikeasti harjoittelemalla?**
-Kyllä, mitattavasti. Suurimmat harppaukset tapahtuvat ensimmäisen vuoden tai kahden aikana. Sen jälkeen nopeus vakiintuu, ellei uusia tekniikoita harjoitella tietoisesti. Vaihto englantilaisesta tyylistä Continental-tyyliin tai toisin päin voi myös muuttaa perustasoa, vaikka alussa tulee oppimiskuoppa.
+Se voi parantua, mutta ei välttämättä tasaisena käyränä. Tuttu lanka, toistuvat mallineuleet, virheiden väheneminen ja mukavammat käsiliikkeet voivat kaikki muuttaa tahtia. Uusi tekniikka voi ensin hidastaa ja nopeutua vasta, kun se ei enää vaadi niin paljon huomiota.
 
 **Mikä on normaali neulontanopeus?**
-Merkityksellistä normaalia ei ole. Aloittelija voi neuloa 10-15 kerrosta tunnissa worsted-vahvuisella sileällä neuleella. Kokeneet neulojat liikkuvat 25 ja 50+ välillä. Nopeus riippuu langan vahvuudesta, silmukkamallista, puikkotyypistä, neulontatavasta ja siitä, paljonko ohje vaatii huomiota. Seuraa omia lukujasi ja vertaa itseesi.
+Merkityksellistä normaalia ei ole. Nopeus riippuu langan vahvuudesta, mallineuleesta, kerroksen pituudesta, puikkotyypistä, neulontatavasta ja siitä, paljonko ohje vaatii huomiota. Seuraa omia lukujasi ja vertaa itseesi.
 
 **Pitäisikö aikaa seurata jokaisessa projektissa?**
 Seuraa projekteissa, joissa datasta on hyötyä: määräajalliset vaatteet, monimutkaiset projektit joiden jäljellä olevaa aikaa haluat arvioida, tai mikä tahansa projekti, jonka tahtia haluat ymmärtää. Aivoton TV-huivi ei välttämättä tarvitse sessiolokia.

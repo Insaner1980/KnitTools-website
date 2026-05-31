@@ -6,25 +6,37 @@ const rows = [
   ["1,5", "000", "-", "-", "Lace"],
   ["1,75", "00", "-", "-", "Lace"],
   ["2,0", "0", "14", "0", "Lace"],
-  ["2,25", "1", "13", "-", "Super Fine"],
+  ["2,25", "1", "13", "-", "Lace / Super Fine"],
+  ["2,4", "-", "-", "1", "Super Fine"],
   ["2,5", "1,5", "-", "-", "Super Fine"],
-  ["2,75", "2", "12", "2", "Super Fine"],
-  ["3,0", "2,5", "11", "3", "Fine"],
-  ["3,25", "3", "10", "-", "Fine"],
-  ["3,5", "4", "-", "5", "Fine"],
-  ["3,75", "5", "9", "-", "Light"],
-  ["4,0", "6", "8", "6", "Light"],
-  ["4,5", "7", "7", "8", "Medium"],
-  ["5,0", "8", "6", "10", "Medium"],
-  ["5,5", "9", "5", "-", "Medium"],
+  ["2,7", "-", "-", "2", "Super Fine"],
+  ["2,75", "2", "12", "-", "Super Fine"],
+  ["3,0", "2,5", "11", "3", "Super Fine"],
+  ["3,25", "3", "10", "-", "Super Fine / Fine"],
+  ["3,3", "-", "-", "4", "Fine"],
+  ["3,5", "4", "-", "-", "Fine"],
+  ["3,6", "-", "-", "5", "Fine"],
+  ["3,75", "5", "9", "-", "Fine / Light"],
+  ["3,9", "-", "-", "6", "Light"],
+  ["4,0", "6", "8", "-", "Light"],
+  ["4,2", "-", "-", "7", "Light"],
+  ["4,5", "7", "7", "8", "Light / Medium"],
+  ["4,8", "-", "-", "9", "Medium"],
+  ["5,0", "8", "6", "-", "Medium"],
+  ["5,1", "-", "-", "10", "Medium"],
+  ["5,4", "-", "-", "11", "Medium"],
+  ["5,5", "9", "5", "-", "Medium / Bulky"],
+  ["5,7", "-", "-", "12", "Bulky"],
   ["6,0", "10", "4", "13", "Bulky"],
+  ["6,3", "-", "-", "14", "Bulky"],
   ["6,5", "10,5", "3", "-", "Bulky"],
+  ["6,6", "-", "-", "15", "Bulky"],
   ["7,0", "-", "2", "-", "Bulky"],
-  ["8,0", "11", "0", "-", "Super Bulky"],
+  ["8,0", "11", "0", "-", "Bulky / Super Bulky"],
   ["9,0", "13", "00", "-", "Super Bulky"],
   ["10,0", "15", "000", "-", "Super Bulky"],
-  ["12,0", "17", "-", "-", "Jumbo"],
-  ["12,75", "-", "-", "-", "Jumbo"],
+  ["12,0", "17", "-", "-", "Super Bulky"],
+  ["12,75", "-", "-", "-", "Super Bulky / Jumbo"],
   ["15,0", "19", "-", "-", "Jumbo"],
   ["16,0", "19", "-", "-", "Jumbo"],
   ["19,0", "35", "-", "-", "Jumbo"],
@@ -53,12 +65,12 @@ const faqs = [
 
 <FinnishToolPage
   title="Puikkokoot: US, UK ja millimetrit"
-  description="Muunna neulepuikkojen koot metrisen, US-, UK- ja japanilaisen järjestelmän välillä."
+  description="Muunna neulepuikkojen koot metrisen, US-, UK- ja japanilaisen järjestelmän välillä. Hae kokoja ja katso suositellut lankavahvuudet."
   canonicalPath={routes.tool.needleSizeChart.fi}
   alternates={routes.tool.needleSizeChart}
   intro="Tarkista puikkokoko millimetreinä ja vertaa sitä US-, UK- ja japanilaisiin kokomerkintöihin. Hae millimetreillä tai esimerkiksi muodossa US 7."
   schemaName="Puikkokokotaulukko"
-  schemaDescription="Muuntaa neulepuikkojen koot metrisen, US-, UK- ja japanilaisen järjestelmän välillä."
+  schemaDescription="Muuntaa neulepuikkojen koot metrisen, US-, UK- ja japanilaisen järjestelmän välillä ja näyttää suositellut lankavahvuudet."
   faqs={faqs}
   variant="teal"
 >
@@ -108,49 +120,80 @@ const faqs = [
   <div slot="content">
     <h2>Miksi järjestelmiä on monta?</h2>
     <p>
-      Millimetrit kertovat puikon todellisen halkaisijan. US- ja vanhat UK-koot
-      ovat nimilappuja, eivät mittoja. UK-järjestelmä on vieläpä käänteinen:
-      pieni numero tarkoittaa paksumpaa puikkoa. Siinä kohtaa virhe tulee
-      helposti, varsinkin vanhojen ohjeiden kanssa.
+      Millimetrit kertovat puikon todellisen halkaisijan. 4,0 mm puikko on 4,0
+      mm puikko riippumatta siitä, mitä muita merkintöjä siinä on.
+    </p>
+    <p>
+      US-koot ovat nimilappuja. US 7 tarkoittaa 4,5 mm ja US 8 tarkoittaa 5,0
+      mm, mutta numero ei itsessään kerro halkaisijaa.
+    </p>
+    <p>
+      Vanhat UK- ja kanadalaiset koot kulkevat toiseen suuntaan: pienempi numero
+      tarkoittaa paksumpaa puikkoa. Japanilaiset koot taas seuraavat
+      millimetrejä melko läheltä, mutta eivät täydellisesti.
     </p>
 
     <h2>Millimetrit ovat varmin valinta</h2>
     <p>
-      Jos ohje antaa sekä US-koon että millimetrit, seuraa millimetrejä. US 7
-      tarkoittaa 4,5 mm, mutta numero seitsemän ei itsessään kerro halkaisijasta
-      mitään. Kun puikon merkintä on kulunut pois, puikkomitta on nopeampi kuin
+      Jos ohje antaa sekä nimikoon että millimetrit, seuraa millimetrejä.
+      Millimetrikoko on todellinen mitta ja ohittaa muunnosvirheet.
+    </p>
+    <p>
+      Kun ohje pyytää "US 7" -puikkoa, kädessä tarvitaan 4,5 mm puikko. Osa
+      merkeistä painaa molemmat luvut puikkoon, osa ei. Vanhoista puikoista
+      merkinnät voivat kulua pois, jolloin puikkomitta on nopeampi kuin
       arvaaminen.
     </p>
 
     <h2>Yleiset muunnosvirheet</h2>
     <p>
-      US- ja UK-koot voivat näyttää samankaltaisilta mutta tarkoittaa eri
-      asioita. US 8 on 5,0 mm, kun vanha UK 8 on 4,0 mm. Lisäksi UK-järjestelmä
-      kulkee vastakkaiseen suuntaan: mitä pienempi numero, sitä paksumpi puikko.
-      Siksi vanhoissa ohjeissa kannattaa tarkistaa aina millimetrit, jos ne on
-      annettu.
+      <strong>UK-järjestelmä on käänteinen.</strong> US-koko kasvaa, kun puikko paksunee.
+      Vanha UK-koko pienenee. US 6 on 4,0 mm, mutta UK 6 on 5,0 mm.
     </p>
-
-    <h2>Puikko ja lanka eivät päätä yksin</h2>
     <p>
-      Lankavyöte antaa suosituksen, mutta valmis neulepinta ratkaisee. Sama
-      DK-lanka voi olla napakka pipossa ja aivan liian kova neuletakissa.
-      Mallitilkku näyttää, onko puikko oikea juuri tähän työhön.
+      <strong>Kaikille milleille ei ole yhtä vastinetta.</strong> 3,0 mm puikko voi
+      olla joissakin merkeissä US 2,5, kun toinen taulukko sijoittaa sen US 2:n ja
+      US 3:n väliin. Kun vastine on epäselvä, palaa millimetrikokoon.
+    </p>
+    <p>
+      <strong>Japanilaiset lähikoot eivät osu aina US-numeroihin.</strong>
+      Japanilainen koko 8 on 4,5 mm eli sama kuin US 7, mutta koko 5 on 3,6 mm eikä
+      istu siististi US-järjestelmään.
+    </p>
+    <p>
+      <strong>Puolikkaat ja välikoot ovat todellisia.</strong> 2,5 mm, 3,0 mm ja 6,5
+      mm ovat tavallisia tuotantokokoja, vaikka jokainen vaihtopääsetti ei sisällä
+      niitä.
+    </p>
+    <p>
+      <strong>Vanha ohje ei aina kerro järjestelmää.</strong> 1970-luvun ohjeen "size
+      6 needles" voi tarkoittaa US 6 (4,0 mm) tai UK 6 (5,0 mm) julkaisumaasta riippuen.
     </p>
 
     <h2>Puikkokoko ja lankavahvuus kulkevat yhdessä</h2>
+    <p>Taulukko vie oikealle lähialueelle. Mallitilkku päättää tarkan koon.</p>
     <p>
-      Ohut lanka tarvitsee yleensä pienemmät puikot ja paksu lanka suuremmat
-      puikot. Suositus ei silti ole sääntö. Jos haluat ilmavan pitsihuivin,
-      puikko voi olla vyötteen suositusta suurempi. Jos haluat napakat lapaset,
-      puikko voi olla pienempi.
+      CYC:n nykyiset lankavahvuusalueet yhdistävät Lace-langan 1,5-2,25 mm
+      puikkoihin, Super Fine -langan 2,25-3,25 mm puikkoihin, Fine-langan
+      3,25-3,75 mm puikkoihin, Light-langan 3,75-4,5 mm puikkoihin,
+      Medium-langan 4,5-5,5 mm puikkoihin, Bulky-langan 5,5-8 mm puikkoihin,
+      Super Bulky -langan 8-12,75 mm puikkoihin ja Jumbo-langan vähintään 12,75
+      mm puikkoihin.
+    </p>
+    <p>
+      Rajat menevät päällekkäin tarkoituksella. Sama DK-lanka voi olla napakka
+      pipossa pienemmällä puikolla ja ilmava huivissa suuremmalla puikolla.
+      Ohjeen neuletiheys kertoo, kumpaan suuntaan suunnittelija on tähdännyt.
     </p>
 
     <h2>Miten merkitsemätön puikko mitataan?</h2>
     <p>
       Käytä puikkomittaa eli levyä, jossa on millimetrireiät. Työnnä puikko
-      varovasti reikään, johon se istuu ilman puristamista. Älä mittaa kaapelia
-      pyöröpuikosta: koko tarkoittaa kärjen halkaisijaa.
+      reikään, johon se istuu puhtaasti ilman puristamista.
+    </p>
+    <p>
+      Mittaa varresta, älä kärjestä. Kapeneva kärki näyttää liian pieneltä.
+      Pyöröpuikon kaapelia ei mitata: koko tarkoittaa puikon kärjen halkaisijaa.
     </p>
   </div>
 </FinnishToolPage>

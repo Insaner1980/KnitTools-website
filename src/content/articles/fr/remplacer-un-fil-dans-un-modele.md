@@ -16,9 +16,9 @@ lang: fr
 translationKey: "how-to-substitute-yarn"
 ---
 
-Le fil du modèle n'existe plus. Ou il coûte 30 € la pelote et le budget dit non. Ou c'est 100 % laine et la personne qui recevra l'ouvrage le mettra en machine dès le premier jour.
+Le fil du modèle n'existe plus. Ou il est trop cher pour le budget. Ou c'est 100 % laine et la personne qui recevra l'ouvrage le mettra en machine dès le premier jour.
 
-Remplacer un fil est normal. La plupart des tricoteuses le font plus souvent qu'autrement. Une substitution réussie consiste à faire correspondre quatre choses entre le fil d'origine et le fil de remplacement : catégorie d'épaisseur, échantillon, comportement de la fibre et métrage total. Si tu en rates une, le projet dérive. Si tu en rates deux, c'est carrément un autre projet.
+Remplacer un fil est normal. La plupart des personnes qui tricotent le font assez souvent. Une substitution réussie consiste à faire correspondre quatre choses entre le fil d'origine et le fil de remplacement : catégorie d'épaisseur, échantillon, comportement de la fibre et métrage total. Si tu en rates une, le projet dérive. Si tu en rates deux, c'est carrément un autre projet.
 
 ## Commencer par l'épaisseur
 
@@ -60,19 +60,19 @@ Multiplie le nombre de pelotes du modèle par le métrage par pelote. C'est le t
 
 Quand la composition change aussi, le métrage compte encore plus. Un poids égal par pelote peut cacher des longueurs de fil très différentes.
 
-L'[estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) gère cela plus précisément qu'un simple calcul de pelotes, surtout si l'échantillon change avec le fil de remplacement.
+L'[estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) peut donner une vérification de métrage selon le type de projet, la taille et l'épaisseur du fil, mais il ne remplace pas le métrage indiqué par le modèle, le métrage par pelote du fil de remplacement, ni un nouvel échantillon si la tension change.
 
 ## Quand la substitution est risquée
 
 Tous les projets ne tolèrent pas un changement de fil de la même manière. Il vaut mieux être honnête avant d'acheter 8 pelotes du substitut.
 
-**Faible risque :** écharpes, châles, couvertures, lavettes. Un échantillon décalé d'une demi-maille par centimètre change un peu la taille finale. Personne ne le remarque. Ce sont les projets où la substitution marche presque toujours. Vas-y.
+**Faible risque :** écharpes, châles, couvertures, lavettes. Un échantillon décalé d'environ deux mailles sur 10 cm change la taille finale, mais ne crée généralement pas un échec d'ajustement comme sur un vêtement. Recalcule si les dimensions exactes de la couverture ou la quantité de fil comptent. Ce sont les projets où la substitution fonctionne presque toujours.
 
 **Risque moyen :** bonnets, cols, sacs. L'ajustement compte davantage, la structure aussi, mais il reste une marge pour de petites différences. Un bonnet légèrement trop grand peut être bloqué un peu plus petit ou offert à quelqu'un avec une tête plus grande.
 
 **Risque élevé :** vêtements ajustés. Chaussettes. Gants. De petits écarts d'échantillon se multiplient sur des dizaines de centimètres, et le comportement de la fibre compte autant que le nombre de mailles. Un pull dans le mauvais fil peut devenir importable même si le calcul semblait juste. Fais un échantillon soigneux et honnête.
 
-**Très risqué, presque à éviter :** projets construits autour d'un effet précis du fil. Halo de mohair. Brillance de soie. Laine accrocheuse pour un jacquard où les mailles doivent se verrouiller. Tombé particulier qui ne fonctionne qu'avec ce fil-là. Ces projets peuvent changer complètement de caractère même avec un échantillon parfait. Si la créatrice a choisi le fil pour une raison qui dépasse l'épaisseur et la couleur, la substitution lutte contre le modèle lui-même.
+**Très risqué, presque à éviter :** projets construits autour d'un effet précis du fil. Halo de mohair. Brillance de soie. Laine accrocheuse pour un jacquard où les mailles doivent se verrouiller. Tombé particulier qui ne fonctionne qu'avec ce fil-là. Ces projets peuvent changer complètement de caractère même avec un échantillon parfait. Si la personne qui a conçu le modèle a choisi le fil pour une raison qui dépasse l'épaisseur et la couleur, la substitution lutte contre le modèle lui-même.
 
 ## La checklist de substitution
 

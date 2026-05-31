@@ -21,7 +21,7 @@ Lankavyöte kertoo kuitusisällön, lankavahvuuden, suositellun neuletiheyden, p
 
 ## Lankavahvuuden symboli
 
-Keränmuotoinen kuvake, jonka sisällä on numero, on Craft Yarn Councilin vahvuuskategoria. Se kulkee 0:sta (Lace) 7:ään (Jumbo) ja on nopein tapa tarkistaa, vastaako lanka ohjeen vaatimusta.
+Keränmuotoinen kuvake, jonka sisällä on numero, on Craft Yarn Councilin vahvuuskategoria. Moni vyöte käyttää edelleen tuttua numeroitua asteikkoa Lace-vahvuudesta Jumboon, ja CYC on alkanut päivittää järjestelmään Size 8 -luokkaa ja lisäsymboleja. Pidä numeroa pikavalintana, mutta tarkista myös vahvuusnimi ja neuletiheysruutu ennen kuin sovitat lankaa ohjeeseen.
 
 Vieressä lukee usein DK, Worsted tai Bulky. Kaikki merkit eivät paina CYC-symbolia, mutta useimmat kertovat jonkin vahvuusnimen. Jos vyöte antaa vain merkin oman nimen, kuten "Studio" tai "Soft Touch", katso neuletiheysruutua vihjeeksi.
 
@@ -33,7 +33,7 @@ Kuitusisältö ilmoitetaan prosentteina: `100 % merinovilla`, `75 % akryyli, 25 
 
 Tämä kohta on tärkeä, kun [korvaat langan](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/). Villa-DK ja puuvilla-DK ovat molemmat DK-vahvuisia ja voivat neuloontua samaan neuletiheyteen, mutta valmis neulepinta ei käyttäydy samalla tavalla. [Kuituvertailu](/fi/artikkelit/lankakuidut-vertailussa/) käy eroja läpi tarkemmin.
 
-Vyöte voi myös kertoa, onko lanka superwash-käsitelty, merseroitu tai harjattu. Nämä eivät ole koristeellisia sanoja. Superwash-villa kestää konepesua. Tavallinen villa ei. Se kannattaa huomata ennen kuin luot 300 silmukkaa vauvanpeittoon.
+Vyöte voi myös kertoa, onko lanka superwash-käsitelty, merseroitu tai harjattu. Nämä eivät ole koristeellisia sanoja. Superwash-villa on käsitelty vastustamaan huopumista ja voi olla vyötteen mukaan konepestävä. Tavallinen villa tarvitsee hellävaraisempaa hoitoa, koska lämpö, kosteus ja hankaus voivat huovuttaa sen. Se kannattaa huomata ennen kuin luot 300 silmukkaa vauvanpeittoon.
 
 ## Neuletiheystiedot
 
@@ -93,15 +93,15 @@ Vyöte ei myöskään kerro kestosta. Nukkaantuuko lanka, pehmeneekö tai kovett
 
 Neuletiheysruutu on valmistajan tulos, ei sinun. Pidä sitä viitteenä, ei takuuna.
 
-KnitToolsin Yarn Label Scanner lukee vyötteen puhelimen kameralla ja tallentaa tiedot digitaaliseksi lankakortiksi [sovelluksessa](/). Se on kätevää, kun paperivyöte on katoamassa projektipussiin.
+[KnitTools](/) voi pitää samat vyötetiedot projektimuistiinpanossa. Se on kätevää, kun paperivyöte on katoamassa projektipussin pohjalle eikä palaa sieltä ajoissa.
 
 ## FAQ
 
 **Mitä jos vyöte on kielellä, jota en ymmärrä?**
-Hoitosymbolit ja vahvuuskuvake ovat kansainvälisiä. Ne näyttävät samalta kielestä riippumatta.
+Hoitosymbolit vähentävät kieliriippuvuutta, ja lankavahvuuskuvakkeet seuraavat usein CYC-käytäntöä. Tarkista silti neuletiheysruutu ja kuituprosentit, jos sanallinen osa on vieras.
 
 **Vyöte antaa neuletiheyden 10 cm matkalle, mutta englanninkielinen ohje käyttää 4 tuumaa. Onko se sama?**
-Käytännössä kyllä. Neljä tuumaa on 10,16 cm, ja useimmat neulojat käsittelevät niitä samana mittana.
+Lähellä, mutta ei aivan sama. 10 cm on noin 3,94 tuumaa. Jos ohje antaa neuletiheyden 10 cm matkalle, mittaa 10 cm. Jos se antaa neuletiheyden 4 tuumalle, mittaa 4 tuumaa.
 
 **Kannattaako lankavyöte säilyttää?**
 Kyllä. Ainakin siihen asti, että projekti on valmis ja pesty.

@@ -1,16 +1,15 @@
 ---
-title: "How to Substitute Yarn in a Knitting Pattern"
+title: "How to substitute yarn in a knitting pattern"
+browserTitle: "How to Substitute Yarn in a Knitting Pattern"
 description: "Learn how to swap yarn in a knitting pattern without ruining the project. Covers matching weight, gauge, fiber, yardage, and when substitution won't work."
-publishDate: 2026-05-01
-category: yarn
+category: "yarn"
 categoryOrder: 6
+publishDate: "2026-05-01"
 tags:
-  [
-    "substitute yarn knitting pattern",
-    "yarn substitution guide",
-    "swap yarn knitting",
-    "alternative yarn for pattern",
-  ]
+  - "substitute yarn knitting pattern"
+  - "yarn substitution guide"
+  - "swap yarn knitting"
+  - "alternative yarn for pattern"
 ---
 
 The pattern yarn is discontinued. Or it's $30 a skein and the budget says otherwise. Or it's 100% wool and the recipient will toss the finished item in the washing machine on day one.
@@ -57,13 +56,13 @@ Multiply the pattern's skein count by the yardage per skein. That's the total yo
 
 When fiber content changes too, yardage matters even more. Equal weight per skein can hide very different lengths of yarn inside the ball.
 
-The [Yarn Estimator](/tools/yarn-estimator/) handles this more accurately than skein math alone, especially if gauge changes with the substitute.
+The [Yarn Estimator](/tools/yarn-estimator/) can give a project-type, size, and yarn-weight yardage check, but it doesn't replace the pattern's listed yardage, the substitute yarn's put-up, or a new swatch if gauge changes.
 
 ## When substitution is risky
 
 Not every project tolerates a yarn swap equally. This is worth being honest about before buying 8 skeins of the substitute.
 
-**Low risk:** scarves, shawls, blankets, dishcloths. Gauge being off by half a stitch per inch changes the final size slightly. Nobody notices. These are the projects where substitution almost always works. Go for it.
+**Low risk:** scarves, shawls, blankets, dishcloths. Gauge being off by half a stitch per inch changes the finished size, but it usually doesn't create a fit failure the way it does in a garment. Recalculate if exact blanket dimensions or yarn amount matter. These are the projects where substitution almost always works. Go for it.
 
 **Medium risk:** hats, cowls, bags. Fit matters more, structure matters more, but there's still room for small differences. A hat that comes out slightly larger can be blocked down or gifted to someone with a bigger head.
 

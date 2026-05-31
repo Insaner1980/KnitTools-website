@@ -87,7 +87,7 @@ Si le projet se tricote en rond, fais l'échantillon en rond. Un petit tube sur 
 
 ## Comment l'échantillon se relie à la planification
 
-Une fois l'échantillon connu, le reste de la planification devient plus simple. Le [calculateur de mailles à monter](/fr/outils/calculateur-mailles-a-monter/) de KnitTools l'utilise pour calculer le nombre de mailles pour une largeur cible. L'[estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) l'utilise avec les dimensions pour se rapprocher d'une estimation réaliste du métrage. Pour un [pas-à-pas sans toute la théorie](/fr/articles/tricoter-un-echantillon-etape-par-etape/), il existe une page séparée.
+Une fois l'échantillon connu, le reste de la planification devient plus simple. Le [calculateur de mailles à monter](/fr/outils/calculateur-mailles-a-monter/) de KnitTools l'utilise pour calculer le nombre de mailles pour une largeur cible. L'[estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) utilise le type de projet, la taille et l'épaisseur de fil pour estimer le métrage, donc traite-le comme un repère de planification à côté de ton échantillon et des détails du modèle. Pour un [pas-à-pas sans toute la théorie](/fr/articles/tricoter-un-echantillon-etape-par-etape/), il existe une page séparée.
 
 Cette chaîne compte. L'échantillon détermine le nombre de mailles. Le nombre de mailles détermine les dimensions. Les dimensions déterminent le métrage. Si le premier nombre est faux, tout le reste dérive avec lui.
 

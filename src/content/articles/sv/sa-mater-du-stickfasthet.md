@@ -18,7 +18,7 @@ Det är den inte. Inte egentligen. För att mäta stickfasthet stickar du en pro
 
 Stickfasthet, kallat gauge i många amerikanska mönster och tension i många brittiska, är antalet maskor och varv som ryms inom ett bestämt mått tyg. Ett mönster kan skriva det som "20 m och 26 v = 10 cm i slätstickning på 4,5 mm stickor."
 
-Den raden berättar hur designerns färdiga tyg såg ut. Om din stickning matchar den har de färdiga måtten god chans att stämma. Om den inte matchar börjar projektets mått glida direkt. Skillnaden behöver inte vara dramatisk. En halv maska per cm blir snabbt mycket. På en tröja med 100 cm övervidd blir den halva maskan skillnaden mellan "nära nog" och "varför hänger den här över axlarna?"
+Den raden berättar hur designerns färdiga tyg såg ut. Om din stickning matchar den har de färdiga måtten god chans att stämma. Om den inte matchar börjar projektets mått glida direkt. Skillnaden behöver inte vara dramatisk. Två maskor för mycket eller för lite per 10 cm blir snabbt mycket. På en tröja med 100 cm övervidd kan det bli ungefär 10 cm extra eller saknad bredd.
 
 ## Så stickar du en provlapp
 
@@ -60,11 +60,11 @@ Har du en mätmall för stickfasthet, använd den. Annars fungerar en vanlig lin
 
 Den stämmer ofta inte på första försöket. Det är normalt. Handlag är personligt, och två stickare kan använda samma garn och samma stickor och ändå få olika tyg.
 
-**För många maskor per cm.** Ditt tyg är tätare än designerns. Gå upp en stickstorlek och sticka en ny provlapp. Om du behöver se nästa storlek i ett annat system är [stickstorlekstabellen](/sv/verktyg/stickstorlekar/) en snabb referens.
+**För många maskor per 10 cm.** Ditt tyg är tätare än designerns. Gå upp en stickstorlek och sticka en ny provlapp. Om du behöver se nästa storlek i ett annat system är [stickstorlekstabellen](/sv/verktyg/stickstorlekar/) en snabb referens.
 
-**För få maskor per cm.** Ditt tyg är lösare. Gå ner en stickstorlek och sticka en ny provlapp.
+**För få maskor per 10 cm.** Ditt tyg är lösare. Gå ner en stickstorlek och sticka en ny provlapp.
 
-Ibland räcker en storlek. Ibland krävs två steg. Ibland vägrar masktäthet och varvtäthet att stämma samtidigt. Då prioriteras oftast masktätheten eftersom den styr tygets bredd. Varvtäthet spelar fortfarande roll, särskilt för ärmkullar, ok och vertikal placering av mönster, men breddproblem är svårare att rätta mitt i projektet än längdproblem.
+Ibland räcker en storlek. Ibland krävs två steg. Ibland vägrar maskantalet per 10 cm och varvantalet per 10 cm att stämma samtidigt. Då prioriteras oftast maskantalet eftersom det styr tygets bredd. Varvtäthet spelar fortfarande roll, särskilt för ärmkullar, ok och vertikal placering av mönster, men breddproblem är svårare att rätta mitt i projektet än längdproblem.
 
 Vill du förstå [varför stickfasthet varierar mellan stickare](/sv/artiklar/vad-ar-stickfasthet/) och varför den kan glida under projektet är det ett djupare ämne. Låt inte flera provlappar kännas som misslyckande. Vana stickare förväntar sig dem. Vissa stickar pålitligt hårt, andra pålitligt löst, och det är användbart att känna sin tendens. Men det ersätter aldrig provlappen, eftersom garnfiber, stickmaterial och maskbild alla påverkar tyget på sitt sätt.
 
@@ -86,7 +86,7 @@ Om projektet stickas runt, sticka provlappen runt. Ett litet rör på strumpstic
 
 ## Hur stickfasthet hänger ihop med projektplanering
 
-När stickfastheten är känd blir resten av planeringen lättare. KnitTools [uppläggningskalkylator](/sv/verktyg/upplaggningskalkylator/) använder den för att räkna ut maskantal för en önskad bredd. [Garnåtgångskalkylatorn](/sv/verktyg/garnatgangskalkylator/) använder den tillsammans med mått för att komma närmare en realistisk uppskattning av garnåtgång. För en [steg-för-steg-guide till provlappen](/sv/artiklar/sticka-provlapp-steg-for-steg/) utan teorin finns en separat sida.
+När stickfastheten är känd blir resten av planeringen lättare. KnitTools [uppläggningskalkylator](/sv/verktyg/upplaggningskalkylator/) använder den för att räkna ut maskantal för en önskad bredd. [Garnåtgångskalkylatorn](/sv/verktyg/garnatgangskalkylator/) använder projekttyp, storlek och garntjocklek för en garnåtgångsuppskattning, så behandla den som en planeringskontroll bredvid din stickfasthet och mönstrets detaljer. För en [steg-för-steg-guide till provlappen](/sv/artiklar/sticka-provlapp-steg-for-steg/) utan teorin finns en separat sida.
 
 Kedjan spelar roll. Stickfasthet styr maskantal. Maskantal styr mått. Mått styr garnåtgång. Om den första siffran är fel glider allt efter den.
 
@@ -99,7 +99,7 @@ Att mäta på en pytteliten yta förstorar varje räknefel. Även en fjärdedels
 En är minimum. Om första provlappen missar stickfastheten och du byter stickstorlek behöver du en till. För kroppsnära plagg är två eller tre provlappar före uppläggning helt normalt. För halsdukar och filtar är toleransen större, och du kan ofta klara dig med en.
 
 **Påverkar garntjocklek hur mycket stickfastheten spelar roll?**  
-Tjockare garn förstorar storleksfel snabbare eftersom varje maska är fysiskt större. En halv maska per cm i bulky-garn flyttar tyget mer än samma fel i fingering. Men för kroppsnära plagg spelar stickfasthet roll i alla tjocklekar. Insatsen blir bara högre ju grövre garnet är.
+Tjockare garn förstorar storleksfel snabbare eftersom varje maska är fysiskt större. Två maskor per 10 cm i bulky-garn flyttar tyget mer än samma fel i fingering. Men för kroppsnära plagg spelar stickfasthet roll i alla tjocklekar. Insatsen blir bara högre ju grövre garnet är.
 
 **Min stickfasthet stämmer efter blockning men inte före. Vilken gäller?**  
 Den blockerade stickfastheten. Alltid. Det är tyget du faktiskt kommer att använda, medan måttet före blockning bara är en ögonblicksbild av vad garnet gör under spänning på stickan. Efter blockning är verkligheten.

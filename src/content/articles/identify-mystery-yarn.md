@@ -1,21 +1,20 @@
 ---
-title: "How to Identify Mystery Yarn Without a Label"
-description: "Figure out what yarn you have when the label is missing. Tests for fiber content (burn, water), weight via WPI, and tips for using unknown yarn."
-publishDate: 2026-05-01
-category: yarn
+title: "How to identify mystery yarn without a label"
+browserTitle: "How to Identify Mystery Yarn Without a Label"
+description: "Figure out what yarn you have when the label is missing. Tests for fiber content, weight via WPI, and practical tips for using unknown yarn."
+category: "yarn"
 categoryOrder: 9
+publishDate: "2026-05-01"
 tags:
-  [
-    "identify mystery yarn",
-    "yarn without label",
-    "burn test yarn",
-    "WPI test yarn weight",
-  ]
+  - "identify mystery yarn"
+  - "yarn without label"
+  - "burn test yarn"
+  - "WPI test yarn weight"
 ---
 
 Most knitters end up with mystery yarn eventually. The label fell off, the yarn came from someone else's stash, or the skein never had much information to begin with. Thrift store bags, inherited collections, odds and ends from swaps.
 
-To identify mystery yarn, start with wraps per inch (WPI) to determine the weight category, then use burn and water tests to narrow down the fiber family. You won't always get the exact brand or percentage, but the weight range and broad fiber type are usually enough.
+To identify mystery yarn, start with wraps per inch (WPI) to estimate the weight category, then use small-sample tests to narrow down the fiber family. You won't always get the exact brand or percentage, but the weight range and broad fiber type are usually enough for choosing a sensible project.
 
 ## Step one: figure out the weight with WPI
 
@@ -44,11 +43,11 @@ This matters for care and for how the fabric behaves. The [fiber comparison guid
 
 ### The burn test
 
-Cut a small piece, hold it with tweezers over a fireproof surface, and light it. Pay attention to how it burns, what it smells like, and what's left when it cools.
+Cut a small piece, hold it with tweezers over a fireproof surface, and light it. Keep water nearby, work outside or under strong ventilation, and stop if the yarn melts, drips, or gives off harsh fumes. Pay attention to how it burns, what it smells like, and what's left when it cools.
 
 Animal fibers (wool, alpaca, silk) smell like burning hair and leave a crushable ash. Plant fibers (cotton, linen) smell more like burning paper with a lighter ash. Synthetics melt and harden into a bead instead of turning to ash. Blends show mixed behavior, which tells you the yarn is mixed but won't give you exact percentages.
 
-Do this outside or with very good ventilation. Synthetic fumes aren't pleasant, and open flame deserves more caution than most stash yarn gets.
+Don't use the burn test on a large piece, near children, or around anything flammable. Synthetic fumes are a real reason to keep the sample tiny.
 
 A word on expectations: the burn test is a rough identification method, not a lab result. It's most useful for distinguishing the big fiber families. Don't expect it to tell you the difference between merino and corriedale.
 
@@ -56,7 +55,7 @@ A word on expectations: the burn test is a rough identification method, not a la
 
 Gentler, and useful alongside the burn test. Soak a small piece in warm water and watch what happens.
 
-Non-superwash wool may start to felt if you add heat, soap, and agitation. Superwash wool gets wet but resists felting. Cotton absorbs water readily and feels noticeably heavier wet. Acrylic absorbs less and dries faster.
+Non-superwash wool may start to felt if you add heat, soap, and agitation. Superwash wool gets wet but resists felting. Cotton absorbs water readily and feels noticeably heavier wet. Acrylic behaves differently from cotton or wool, but this test won't identify it precisely on its own.
 
 Still only a clue, especially with blends. But it narrows things down.
 
@@ -78,7 +77,7 @@ The swatch confirms your weight guess, shows how the yarn handles with your tens
 
 Some projects are more forgiving of uncertainty than others.
 
-Scarves, cowls, blankets, dishcloths, pillows. All good choices for yarn you can't fully identify. Fitted garments, socks, and anything where stretch, recovery, or washing behavior really matters are riskier bets.
+Scarves, cowls, blankets, dishcloths, pillows: all good choices for yarn you can't fully identify. Fitted garments, socks, and anything where stretch, recovery, or washing behavior really matters are riskier bets.
 
 The care problem is real. Without a label, you're guessing based on behavior. When in doubt, wash gently in cool water and dry flat until the yarn proves it can handle more.
 
@@ -86,9 +85,9 @@ If you're planning to use a lot of mystery yarn in one project, test color fastn
 
 ## Building a stash inventory
 
-If you have a lot of unlabeled yarn, spending one afternoon testing and tagging it saves future headaches. Even a handwritten note ("likely DK, probably wool blend, hand wash") beats another mystery ball six months from now.
+If you have a lot of unlabeled yarn, spending one afternoon testing and tagging it saves future headaches. Even a handwritten note like "likely DK, probably wool blend, hand wash" beats another mystery ball six months from now.
 
-KnitTools' [Yarn Label Scanner](/) can help here too. For mystery yarn, you can create a manual card with your best estimate and any test notes.
+KnitTools can help here too. For mystery yarn, save a project note with your best estimate and any test notes.
 
 ## FAQ
 

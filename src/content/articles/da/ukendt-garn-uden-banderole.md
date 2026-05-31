@@ -18,15 +18,15 @@ translationKey: "identify-mystery-yarn"
 
 De fleste strikkere ender før eller siden med ukendt garn. Banderolen faldt af, garnet kom fra en andens garnlager, eller nøglet havde aldrig ret mange oplysninger. Genbrugsposer, arvede samlinger, rester fra bytteaftener.
 
-For at identificere ukendt garn starter du med WPI (wraps per inch), altså viklinger pr. ca. 2,5 cm, for at finde garntykkelsen. Derefter bruger du brænd- og vandtest til at indsnævre fiberfamilien. Du får ikke altid det præcise mærke eller procentindhold, men tykkelsesinterval og grov fibertype er som regel nok.
+For at identificere ukendt garn starter du med wraps per inch (WPI), altså viklinger pr. inch, for at anslå garntykkelsen. Derefter bruger du små prøver til at indsnævre fiberfamilien. Du får ikke altid det præcise mærke eller procentindhold, men tykkelsesinterval og grov fibertype er som regel nok til at vælge et fornuftigt projekt.
 
 ## Trin et: find tykkelsen med WPI
 
-WPI (wraps per inch) er den hurtigste første test.
+WPI er den hurtigste første test.
 
-Vikl garnet om en blyant, lineal eller WPI-måler. Hold viklingerne tæt og side om side uden at strække garnet. Tæl derefter hvor mange der passer på ca. 2,5 cm.
+Vikl garnet om en blyant, lineal eller WPI-måler. Hold viklingerne tæt og side om side uden at strække garnet. Tæl derefter hvor mange der passer på én inch, altså cirka 2,5 cm.
 
-Craft Yarn Councils guide bruger disse brede WPI-intervaller, her målt over ca. 2,5 cm:
+Craft Yarn Councils almindelige 0-7-system bruger disse brede intervaller. Det opdaterede garntykkelsessystem indeholder også Size 8, men mange opskrifter, banderoler og WPI-lister bruger stadig disse 0-7-kategorier:
 
 - 30 til 40+ viklinger: Lace (kategori 0)
 - 14 til 30 viklinger: Super Fine eller Fingering-området (kategori 1)
@@ -47,11 +47,11 @@ Det betyder noget for pleje og for hvordan stoffet opfører sig. [Guiden til gar
 
 ### Brændtesten
 
-Klip et lille stykke, hold det med en pincet over et brandsikkert underlag, og tænd det. Læg mærke til hvordan det brænder, hvad det lugter af, og hvad der er tilbage når det køler af.
+Klip et lille stykke, hold det med en pincet over et brandsikkert underlag, og tænd det. Hav vand i nærheden, arbejd udenfor eller med kraftig ventilation, og stop hvis garnet smelter, drypper eller afgiver skarpe dampe. Læg mærke til hvordan det brænder, hvad det lugter af, og hvad der er tilbage når det køler af.
 
 Animalske fibre (uld, alpaka, silke) lugter af brændt hår og efterlader en aske, der kan knuses. Plantefibre (bomuld, hør) lugter mere som brændt papir og efterlader lysere aske. Syntetiske fibre smelter og stivner til en perle i stedet for at blive til aske. Blandinger viser blandet opførsel, hvilket fortæller at garnet er blandet, men ikke giver præcise procenter.
 
-Gør det udenfor eller med rigtig god ventilation. Syntetiske dampe er ikke rare, og åben ild fortjener mere forsigtighed, end de fleste garnrester får.
+Brug ikke brændtesten på et stort stykke, tæt på børn eller i nærheden af noget brændbart. Syntetiske dampe er en reel grund til at holde prøven lille.
 
 En forventningsjustering: brændtesten er en grov identifikationsmetode, ikke et laboratorieresultat. Den er mest nyttig til at skelne de store fiberfamilier. Forvent ikke, at den fortæller forskellen på merino og corriedale.
 
@@ -59,7 +59,7 @@ En forventningsjustering: brændtesten er en grov identifikationsmetode, ikke et
 
 Mildere og nyttig sammen med brændtesten. Læg et lille stykke i varmt vand, og se hvad der sker.
 
-Ikke-superwash uld kan begynde at filte, hvis du tilføjer varme, sæbe og bevægelse. Superwash-uld bliver vådt, men modstår filtning. Bomuld suger vand let og føles tydeligt tungere vådt. Akryl suger mindre og tørrer hurtigere.
+Ikke-superwash uld kan begynde at filte, hvis du tilføjer varme, sæbe og bevægelse. Superwash-uld bliver vådt, men modstår filtning. Bomuld suger vand let og føles tydeligt tungere vådt. Akryl opfører sig anderledes end bomuld og uld, men testen identificerer det ikke præcist alene.
 
 Stadig kun et spor, især med blandinger. Men det snævrer feltet ind.
 
@@ -91,7 +91,7 @@ Hvis du vil bruge meget ukendt garn i ét projekt, så test også farveægthed. 
 
 Hvis du har meget umærket garn, sparer én eftermiddag med test og mærkning problemer senere. Selv en håndskrevet seddel ("sandsynligvis DK, nok uldblanding, håndvask") er bedre end endnu et mystisk nøgle om seks måneder.
 
-KnitTools' [banderolescanner](/) kan også hjælpe her. Til ukendt garn kan du oprette et manuelt kort med dit bedste bud og testnoter.
+Til ukendt garn kan du oprette et manuelt garnkort med dit bedste bud og testnoter. Næste gang er nøglet ikke helt så ukendt længere.
 
 ## FAQ
 

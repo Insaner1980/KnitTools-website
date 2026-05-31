@@ -1,19 +1,54 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
 import YarnEstimator from "../../components/YarnEstimator.astro";
+import ToolStructuredData from "../../components/ToolStructuredData.astro";
 import { PRICING } from "../../config/pricing";
 import RegionalPrice from "../../components/RegionalPrice.astro";
 import RegionalPricingNote from "../../components/RegionalPricingNote.astro";
 import { routes } from "../../i18n/routes";
+
+const canonicalPath = "/tools/yarn-estimator/";
+const pageTitle = "Yarn Estimator: How Much Yarn Do I Need?";
+const pageDescription =
+  "Estimate how much yarn your knitting project needs by project type, size, and yarn weight. Plan yardage for sweaters, scarves, shawls, and more.";
+const faqItems = [
+  {
+    q: "How do I know how much yarn my project needs?",
+    a: "Your pattern lists total yardage or meterage in the materials section. If you're designing without a pattern, compare published yardage ranges by project type, size, and yarn weight, then add a safety margin.",
+  },
+  {
+    q: "Should I buy extra yarn?",
+    a: "Usually, yes. Buy at least one extra skein when the project is fitted, textured, or made from dye-lot yarn. Dye lots can vary slightly in color, and matching later may be impossible if the lot is sold out.",
+  },
+  {
+    q: "What if my pattern lists yards or grams?",
+    a: "The estimator shows both meters and yards. If your pattern or stash is listed only in grams, check the yarn label for meters or yards per skein and convert from that. Weight alone is not enough, because two 50 g skeins can contain very different lengths of yarn.",
+  },
+  {
+    q: "Does yarn weight category affect how much I need?",
+    a: "Yes. Thinner yarn (fingering, sport) requires more meters for the same project than thicker yarn (worsted, bulky) because the stitches are smaller and you need more of them to cover the same area.",
+  },
+  {
+    q: "Can I substitute a different yarn than the pattern recommends?",
+    a: "Yes, if the gauge and fabric work for the project. Knit a swatch with your substitute yarn, check that you get the pattern gauge, and use this calculator as a planning check for the new yarn weight.",
+  },
+] as const;
 ---
 
 <PageLayout
-  title="Yarn Estimator: How Much Yarn Do I Need?"
-  description="Estimate how much yarn your knitting project needs by project type, size, and yarn weight. Plan yardage for sweaters, scarves, shawls, and more."
-  canonicalPath="/tools/yarn-estimator/"
+  title={pageTitle}
+  description={pageDescription}
+  canonicalPath={canonicalPath}
   alternates={routes.tool.yarnEstimator}
   showStripe={false}
 >
+  <ToolStructuredData
+    name="Yarn Estimator"
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+    faqs={faqItems}
+  />
+
   <!-- 1. Tool hero -->
   <section class="tool-hero">
     <div class="hero-inner">
@@ -48,19 +83,19 @@ import { routes } from "../../i18n/routes";
       <h2 class="gs-clip-reveal">How much yarn do I need?</h2>
       <p class="gs-fade-up">
         Yarn requirements depend on three things: what you're knitting, what
-        size, and what yarn weight. A fingering-weight adult sweater uses
-        roughly 1200–1500 meters. A bulky hat might need 100 meters. If a
-        pattern gives its own yardage, use that first; this estimator is most
-        useful when planning without a pattern or checking whether a yarn
-        quantity is realistic.
+        size, and what yarn weight. A size-M adult sweater in fingering-weight
+        yarn might use roughly 1200-1500 meters. A simple bulky hat might need
+        around 100 meters. If a pattern gives its own yardage, use that first;
+        this estimator is most useful when planning without a pattern or
+        checking whether a yarn quantity is realistic.
       </p>
 
       <h2 class="gs-clip-reveal">Reading a yarn label</h2>
       <p class="gs-fade-up">
-        Every yarn label (or ball band) tells you the length per skein or ball.
-        After you have an estimated total, divide that number by the label's
-        meters or yards per skein to work out how much to buy. If you've lost
-        the label, weigh your yarn on a kitchen scale and check the
+        Most commercial yarn labels (or ball bands) tell you the length per
+        skein or ball. After you have an estimated total, divide that number by
+        the label's meters or yards per skein to work out how much to buy. If
+        you've lost the label, weigh your yarn on a kitchen scale and check the
         manufacturer's website for the meters-per-gram ratio.
       </p>
     </div>
@@ -71,72 +106,19 @@ import { routes } from "../../i18n/routes";
     <div class="faq-inner">
       <h2 class="gs-clip-reveal">Frequently asked questions</h2>
       <div class="faq">
-        <details class="gs-faq-item">
-          <summary
-            >How do I know how much yarn my project needs? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            Your pattern lists total yardage or meterage in the materials
-            section. If you're designing without a pattern, search for average
-            yarn requirements by project type and size. There are
-            well-established ranges for most garments.
-          </p>
-        </details>
-        <details class="gs-faq-item">
-          <summary
-            >Should I buy extra yarn? <span class="faq-icon" aria-hidden="true"
-              >+</span
-            ></summary
-          >
-          <p>
-            Always. Buy at least one extra skein, especially if your yarn has a
-            dye lot number. Dye lots vary slightly in color, and matching later
-            may be impossible if the lot is sold out.
-          </p>
-        </details>
-        <details class="gs-faq-item">
-          <summary
-            >What if my pattern lists yards or grams? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            The estimator shows both meters and yards. If your pattern or stash
-            is listed only in grams, check the yarn label for meters or yards
-            per skein and convert from that. Weight alone is not enough, because
-            two 50 g skeins can contain very different lengths of yarn.
-          </p>
-        </details>
-        <details class="gs-faq-item">
-          <summary
-            >Does yarn weight category affect how much I need? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            Yes. Thinner yarn (fingering, sport) requires more meters for the
-            same project than thicker yarn (worsted, bulky) because the stitches
-            are smaller and you need more of them to cover the same area.
-          </p>
-        </details>
-        <details class="gs-faq-item">
-          <summary
-            >Can I substitute a different yarn than the pattern recommends? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            Yes, if the gauge matches. Knit a swatch with your substitute yarn,
-            check that you get the same stitch count per 10 cm, and use this
-            calculator to estimate the total yarn requirement for the new yarn.
-          </p>
-        </details>
+        {
+          faqItems.map((faq) => (
+            <details class="gs-faq-item">
+              <summary>
+                {faq.q}{" "}
+                <span class="faq-icon" aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <p>{faq.a}</p>
+            </details>
+          ))
+        }
       </div>
     </div>
   </section>
@@ -159,11 +141,11 @@ import { routes } from "../../i18n/routes";
         <!-- Initial Form State (Including headers) -->
         <div class="waitlist-content-layer" id="waitlist-content-layer">
           <h2 class="gs-clip-reveal waitlist-head">
-            Every tool. <em>One app.</em>
+            Rows, patterns, projects. <em>One app.</em>
           </h2>
           <p class="gs-fade-up waitlist-desc">
-            Row counter, project management, yarn scanner, and all four
-            calculators.
+            Row counter, pattern viewer, Ravelry, project notes, progress
+            photos, and all four calculators.
           </p>
           <div class="waitlist-row gs-fade-up" id="waitlist-row">
             <input

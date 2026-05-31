@@ -25,7 +25,7 @@ Joskus ennen ostamista tarvitset vain karkean käsityksen. Et tarkkaa laskua, va
 
 Tavallinen aikuisen pipo worsted-vahvuisesta langasta mahtuu yleensä yhteen tai kahteen 100 gramman kerään. Noin 140-230 metriä koosta ja kaksinkertaisesta reunasta riippuen. Huivit liikkuvat muutamissa sadoissa metreissä, mutta leveys ja pituus muuttavat lukua nopeasti. Kapea fingering-huivi ja leveä paksu kauluri ovat aivan eri maailmoissa, vaikka molemmat ovat "huiveja".
 
-Aikuisten villapaidat ovat usein yli tuhannen metrin projekteja. Istuva DK-pusero voi tarvita noin 1100 metriä. Väljä palmikkoneuletakki worsted-langasta voi mennä yli 1800 metrin. Peitot nousevat tuhansiin metreihin nopeasti, ja täysikokoinen sängynpeitto voi syödä 2700 metriä tai enemmän.
+Aikuisten villapaidat ovat usein yli tuhannen metrin projekteja. Istuva DK-pusero voi tarvita yli 1 350 metriä. Väljä palmikkoneuletakki worsted-langasta voi mennä yli 1 800 metrin. Peitot nousevat tuhansiin metreihin nopeasti, ja täysikokoinen sängynpeitto voi syödä 2 700 metriä tai enemmän.
 
 Tämä on mittakaavaa, ei tarkkuutta. Palmikkopipo tarvitsee enemmän lankaa kuin sileä pipo. Lyhyt paita ja tunikamittainen paita eivät ole samassa naapurustossa. Voimakkaasti pintaneuleinen peitto kuluttaa enemmän kuin sileä suorakaide.
 
@@ -51,6 +51,8 @@ Tätä ei tarvitse laskea käsin. [Lankamuunnin](/fi/tyokalut/lankamuunnin/) tek
 
 Mittakaava kannattaa silti ymmärtää. Jos laskuri väittää, että sängynpeittoon riittää 400 metriä, jokin on pielessä. Tuhansia metrejä? Ainakin uskottavaa. Tällainen järkitarkistus paljastaa syöttövirheet ennen kuin ostat langat.
 
+Jo karkea mallitilkku vie lähemmäs oikeaa vastausta kuin mallitilkun ohittaminen kokonaan. Neulo tilkku illalla, viimeistele se yön yli ja mittaa aamulla. Ei suuri aika verrattuna siihen varmuuteen, jonka se antaa.
+
 ## Osittaisten kerien punnitseminen
 
 Jos lankavarastossa on vajaita keriä, keittiövaaka on paras ystävä.
@@ -59,7 +61,7 @@ Tarvitset vyötteestä kaksi lukua: täyden kerän painon ja täyden kerän metr
 
 Gramman tarkkuudella mittaava keittiövaaka toimii. Henkilövaaka ei. Tarvitset grammoja, et lähintä puolta kiloa.
 
-Sama keino toimii kesken projektin. Neulo yksi osa, punnitse jäljellä oleva lanka ja tarkista, näyttääkö määrä edelleen järkevältä loppua varten. Jos viimeinen kerä on menossa eikä hiha ole valmis, punnitus kertoo oletko aikataulussa vai ongelmissa.
+Sama keino toimii kesken projektin. Neulo yksi osa, punnitse jäljellä oleva lanka ja tarkista, näyttääkö määrä edelleen järkevältä loppua varten. Jos viimeinen kerä on menossa eikä hiha ole valmis, punnitus kertoo oletko aikataulussa vai ongelmissa. Osa neulojista punnitsee jokaisen ison osion jälkeen silloin, kun langan riittävyys on tiukalla. Osa punnitsee vasta, kun kerä alkaa tuntua uhkaavan kevyeltä.
 
 Jos vyöte on hukassa mutta tiedät langan nimen, metrit löytyvät usein valmistajan sivuilta tai Ravelrystä. Ilman mitään vyötetietoa pelkkä paino ei auta paljon, koska tarvitset sekä painon että pituuden.
 
@@ -72,6 +74,8 @@ Jotkin rakenteet käyttävät hiljaa enemmän lankaa kuin sileä neule. Tässä 
 **Palmikot** ovat iso tekijä. Jokainen palmikonkierto vetää lankaa sivusuunnassa, koska silmukat kulkevat ristiin eivätkä nouse suoraan ylös. Mitä leveämpi palmikko, sitä enemmän lanka liikkuu. Yksinkertainen 4 silmukan palmikko lisää vähän. 12 silmukan punospalmikko lisää paljon enemmän. Runsaspalmikkoinen aran-paita voi tarvita 20-30 % enemmän lankaa kuin samankokoinen sileä paita.
 
 Kirjoneuleessa langat kulkevat nurjalla puolella, ja langanjuoksut lisäävät menekkiä tavalla, jota kaaviosta ei heti näe. Pääväriä kuluu usein enemmän kuin arvaa. Kontrastivärit katoavat kirjoneuleosuuksissa yllättävän nopeasti. Myös juoksujen pituus vaikuttaa. Juoksujen sitominen 3-4 silmukan välein käyttää hieman enemmän lankaa kuin pitkien juoksujen jättäminen, mutta neulepinta käyttäytyy paremmin.
+
+Intarsia on eri asia, koska jokaisella värialueella on oma lankansa eikä pitkiä langanjuoksuja kulje taustalla. Monivärisessä työssä arvioi ensin kokonaismenekki ja jaa se vasta sen jälkeen sen mukaan, kuinka suuren pinta-alan kukin väri oikeasti peittää.
 
 Joustin vetää neulepintaa sisäänpäin. Tiiviit pintaneuleet lisäävät myös lankaa per leveys. Jos koko työ on joustinta tai vahvaa pintaneuletta, sileään neuleeseen perustuva arvio aliarvioi menekin.
 

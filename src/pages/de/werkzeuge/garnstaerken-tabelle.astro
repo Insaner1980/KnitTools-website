@@ -89,32 +89,32 @@ const rows = [
 const faqs = [
   {
     q: "Welche Garnstärke ist am häufigsten?",
-    a: "In nordamerikanischen Anleitungen ist Worsted sehr häufig. In europäischen und UK-Anleitungen begegnet dir DK ständig. Mit diesen beiden Bereichen deckst du viele Kleidungsstücke, Accessoires und Wohnprojekte ab.",
+    a: "Worsted ist in vielen nordamerikanischen Anleitungen weiterhin der Standard. DK taucht in UK- und europäischen Anleitungen ständig auf. Mit diesen beiden Bereichen deckst du sehr viele Kleidungsstücke, Accessoires und Wohnprojekte ab. Wenn du einen vielseitigen Garnvorrat aufbauen willst, sind sie ein guter Startpunkt.",
   },
   {
     q: "Kann ich eine Garnstärke durch eine andere ersetzen?",
-    a: "Ja, aber Maschenprobe, Fall, Nadelstärke und Garnbedarf verändern sich. Nahe beieinanderliegende Stärken sind einfacher als ein großer Sprung von sehr dünn zu sehr dick.",
+    a: "Ja, aber es verändert mehr als nur die Größe. Fall, Garnbedarf und Nadelstärke verschieben sich ebenfalls. Manche Wechsel sind verzeihlich, etwa DK gegen ein leichtes Worsted. Andere machen daraus praktisch ein anderes Projekt. Stricke immer eine Maschenprobe und rechne den Garnbedarf anhand der ursprünglichen Maschenzahl neu.",
   },
   {
     q: "Was bedeutet zweifädig stricken?",
-    a: "Du strickst zwei Fäden zusammen, als wären sie ein dickeres Garn. Zwei Fingering-Fäden können ungefähr DK ergeben, aber Faser, Drehung und Luftigkeit verschieben das Ergebnis.",
+    a: "Du strickst zwei Fäden zusammen, als wären sie ein dickeres Garn. Zwei Fingering-Fäden ergeben ungefähr eine DK-ähnliche Strickfläche, aber Faser, Drehung und Luftigkeit können das Ergebnis leichter oder schwerer wirken lassen. Das ist hilfreich, wenn du die richtige Stärke nicht in Farbe oder Material findest. Stricke eine Probe, weil das Ergebnis nicht exakt vorhersehbar ist.",
   },
   {
     q: "Warum wirkt mein Garn dünner oder dicker als die Banderole sagt?",
-    a: "Garnstärken sind Bereiche, keine festen Punkte. Ein DK-Garn kann am leichten Rand liegen, ein anderes fast bei Worsted. Auch die Faser verändert den Eindruck: Baumwolle wirkt oft flacher, Alpaka kann nach dem Waschen aufblühen. Die Maschenprobe bestätigt, wo dein Garn praktisch landet.",
+    a: "Garnstärken sind Bereiche, keine festen Punkte. Ein DK-Garn liegt am leichten Rand, ein anderes am schweren Rand. Auch die Faser verändert den Eindruck. Baumwolle wirkt bei gleichem WPI oft flacher und dünner als Wolle, während Alpaka nach dem Waschen aufblühen kann. Die Kategorie auf der Banderole ist eine Annäherung, die Maschenprobe bestätigt, wo dein Garn praktisch landet.",
   },
 ];
 ---
 
 <LocalizedToolPage
-  title="Garnstärken-Tabelle"
-  description="Garnstärken-Tabelle mit Maschenprobe, Nadelstärke, WPI und typischen Projekten von Lace bis Jumbo."
+  title="Garnstärken-Tabelle mit WPI und Maschenprobe"
+  description="Vergleiche Garnstärken von Lace bis Jumbo mit Maschenprobe, Nadelstärke, WPI und typischen Projekten für jede Kategorie."
   canonicalPath={routes.tool.yarnWeightChart.de}
   lang="de"
   alternates={routes.tool.yarnWeightChart}
   intro="Vergleiche Garnstärken und prüfe, welche Maschenprobe, Nadelstärke und WPI-Werte typischerweise dazugehören."
   schemaName="Garnstärken-Tabelle"
-  schemaDescription="Tabelle der Garnstärken mit Maschenprobe, Nadelstärken und WPI-Werten."
+  schemaDescription="Vergleicht Garnstärken von Lace bis Jumbo mit Maschenprobe, Nadelstärken, WPI-Werten und typischen Projekten."
   faqs={faqs}
   variant="sand"
 >
@@ -165,65 +165,122 @@ const faqs = [
   </div>
 
   <div slot="content">
-    <h2>Warum Garnstärken schnell verwirrend werden</h2>
+    <h2>Das Problem mit den Namen</h2>
     <p>
-      Garnstärke bedeutet nicht, wie schwer ein Knäuel ist. Gemeint ist die
-      Dicke des Fadens. Die Namen sind aber keine sauberen Schubladen. Dasselbe
-      Garn kann in einer Region DK heißen, in einer anderen 8-ply und in einer
-      dritten Light Worsted.
+      Hier wird Garnstärke wirklich unübersichtlich, und hier beginnen die
+      meisten Fehler beim Ersetzen von Garnen.
     </p>
 
-    <h3>Ply bedeutet nicht automatisch Fadenstärke</h3>
+    <h3>Ply bedeutet nicht, was viele denken</h3>
     <p>
-      Ply beschreibt ursprünglich die Anzahl der Einzelfäden. In heutigen
-      Garnnamen ist es oft eher eine regionale Stärkenbezeichnung. Ein
-      vierfädiges Garn ist nicht automatisch 4-ply-stark, und ein einfädiges
-      Garn kann sehr dick sein.
+      "4-ply" bedeutet in UK- und australischen Anleitungen meist Fingering.
+      Technisch beschreibt Ply aber die Konstruktion, nicht die Dicke. Ein Garn
+      aus vier sehr dünnen Einzelfäden kann dünner sein als ein Garn aus zwei
+      dicken. Ein einfädiges Garn kann bulky sein. Ein fest gedrehtes 6-ply kann
+      bei Sport landen.
+    </p>
+    <p>
+      Der Begriff blieb hängen, weil frühere Spinnkonventionen bestimmte
+      Fadenzahlen oft mit einer bestimmten Stärke verbanden. Diese Verbindung
+      ist durch moderne Garne längst lockerer geworden, aber die Namen sind
+      geblieben. Wenn eine alte UK-Anleitung "3-ply" verlangt, meint sie also
+      einen Stärkenbereich nahe Lace oder Light Fingering, nicht zwingend ein
+      Garn aus drei Einzelfäden.
+    </p>
+    <p>Das führt öfter zu Fehlern, als man erwarten würde.</p>
+
+    <h3>Worsted vs. Aran: nah, aber nicht gleich</h3>
+    <p>
+      Beide liegen in CYC-Kategorie 4 (Medium), aber Aran ist innerhalb dieses
+      Bereichs oft etwas schwerer. Eine Anleitung für Aran-Garn bei bestimmter
+      Maschenprobe kann zu locker werden, wenn du ein eher leichtes Worsted-Garn
+      nimmst. Umgekehrt gilt das genauso.
     </p>
 
-    <h3>Worsted und Aran liegen nah beieinander</h3>
     <p>
-      Worsted und Aran liegen beide im mittleren Bereich, aber Aran ist in
-      vielen Anleitungen etwas schwerer. Wenn du zwischen beiden wechselst,
-      prüfe die Maschenprobe, bevor du ein Kleidungsstück beginnst.
+      Manche Garnfirmen verwenden "Worsted" und "Aran" auf Banderolen fast
+      austauschbar. Andere trennen sie klar. Die Maschenprobe auf der Banderole
+      ist verlässlicher als der Name.
     </p>
 
     <h3>DK, Light Worsted und 8-ply</h3>
     <p>
-      Diese Namen können eine ähnliche Garnstärke beschreiben, aber die Grenzen
-      überlappen. Deshalb sind die Maschenprobe auf der Banderole und deine
-      eigene Probe verlässlicher als der Name allein.
+      DK (Double Knitting) ist Standardterminologie im UK. Amerikanische
+      Anleitungen nennen dieselbe Stärke manchmal "Light Worsted". Australische
+      und neuseeländische Anleitungen sagen oft "8-ply". Alle drei landen in
+      CYC-Kategorie 3 (Light), aber ein schweres DK-Garn kann den leichten Rand
+      von Worsted berühren. Kategorien sind keine Mauern.
     </p>
 
     <h3>Wenn regionale Namen kollidieren</h3>
     <p>
-      US-, UK-, australische und europäische Bezeichnungen passen nicht immer
-      eins zu eins zusammen. Wenn Anleitung und Garn aus verschiedenen Systemen
-      kommen, vergleiche Millimeter, Maschenprobe und Meter statt nur den Namen.
+      "Sport weight" aus Nordamerika und "5-ply" aus australischen Bezeichnungen
+      überlappen, passen aber nicht perfekt aufeinander. "Chunky" bedeutet in
+      UK-Anleitungen meist CYC-Kategorie 5 (Bulky), während es im lockeren
+      amerikanischen Sprachgebrauch alles von Bulky bis Super Bulky meinen kann.
+    </p>
+    <p>
+      Der sicherste Ansatz über regionale Systeme hinweg: Ignoriere zuerst den
+      Namen und vergleiche die Maschenprobe. Wenn die Anleitung 20 Maschen pro
+      10 cm auf 4-mm-Nadeln verlangt, ist genau das dein Ziel, egal wie die
+      Banderole das Garn nennt.
     </p>
 
     <h2>Wie Garnstärken-Kategorien funktionieren</h2>
     <p>
-      Die Kategorien sind praktische Bereiche. CYC 0-7 zeigt grob, ob ein Garn
-      lacefein, sockengarnstark, DK, Worsted oder sehr dick ist. Jeder Bereich
-      hat typische Maschenproben, Nadelstärken und WPI-Werte.
+      "Stärke" meint hier nicht, wie schwer sich das Knäuel in der Hand anfühlt.
+      Gemeint ist die Dicke des Fadens. Dünneres Garn ergibt mehr Maschen pro 10
+      cm, dickeres Garn weniger.
     </p>
-
     <p>
-      Die Bereiche überlappen absichtlich. Drehung, Faser und Ausrüstung
-      verändern, wie ein Garn auf der Nadel wirkt und welche Strickfläche
-      entsteht.
+      Das Craft Yarn Council ordnet jedem Stärkenbereich eine Zahl und einen
+      Namen zu:
+    </p>
+    <ul>
+      <li>
+        <strong>0 - Lace.</strong> Sehr feines Garn für Lace-Tücher und offene Muster.
+      </li>
+      <li>
+        <strong>1 - Super Fine.</strong> Fingering- und Sockengarnbereich.
+      </li>
+      <li><strong>2 - Fine.</strong> Sport-Garne.</li>
+      <li>
+        <strong>3 - Light.</strong> DK und ähnliche mittelfeine Garne für Kleidung.
+      </li>
+      <li>
+        <strong>4 - Medium.</strong> Worsted und Aran, der Bereich, in dem viele Alltagsprojekte
+        liegen.
+      </li>
+      <li>
+        <strong>5 - Bulky.</strong> Dickere Garne, die schnell Strickfläche aufbauen.
+      </li>
+      <li>
+        <strong>6 - Super Bulky.</strong> Schnelle Accessoires und starke Struktur.
+      </li>
+      <li>
+        <strong>7 - Jumbo.</strong> Das dickste Ende der hier veröffentlichten Tabelle.
+      </li>
+    </ul>
+    <p>
+      Diese Seite nutzt die veröffentlichten 0-7-Bereiche der aktuellen
+      CYC-Tabelle. CYC weist inzwischen auch auf ein Size-8-Symbol hin, aber die
+      hier verwendeten öffentlichen Maschenproben-, Nadel- und WPI-Bereiche sind
+      weiterhin die publizierten 0-7-Bereiche.
     </p>
 
-    <h2>WPI hilft, wenn die Banderole fehlt</h2>
+    <h2>Garnstärke ohne Banderole bestimmen</h2>
+    <p>
+      Unbeschriftetes Garn taucht ständig auf: aus einer Vorratstüte, ohne
+      Banderole, von einer Kone oder aus einem älteren Projekt.
+    </p>
     <p>Der schnellste erste Test ist Wraps per Inch (WPI).</p>
 
     <h3>WPI messen</h3>
     <p>
       Wickle das Garn um einen Stift, ein Lineal oder ein WPI-Werkzeug. Die
-      Wicklungen sollen nebeneinander liegen, nicht übereinander, und das Garn
-      darf nicht gedehnt werden. Zähle, wie viele Wicklungen auf 2,5 cm passen.
-      Die CYC-Bereiche sind bewusst breit:
+      Wicklungen sollen sauber nebeneinander liegen, nicht gedehnt und nicht
+      überlappend. Zähle, wie viele Wicklungen auf 1 Inch (2,54 cm) passen. Die
+      CYC-Bereiche sind bewusst breit:
     </p>
 
     <ul>
@@ -244,26 +301,63 @@ const faqs = [
 
     <h3>Wann WPI schwierig wird</h3>
     <p>
-      Flauschige, locker gedrehte oder bandartige Garne können beim Wickeln
-      anders wirken als beim Stricken. Mohair kann luftig aufstricken, Baumwolle
-      dichter und flacher. WPI bringt dich in die Nähe. Die Maschenprobe gibt
-      die Antwort, die wirklich zählt.
+      Flauschige Garne wie Mohair lassen sich schwer sauber wickeln. Luftige
+      Singles können dünner wirken, als sie später verstrickt werden.
+      Handgesponnenes schwankt entlang des Fadens, deshalb solltest du an
+      mehreren Stellen messen und mitteln. Chenille und strukturierte
+      Effektgarne lassen sich oft gar nicht sauber einordnen.
+    </p>
+    <p>
+      WPI bringt dich in die Nähe. Die Maschenprobe gibt die Antwort, die
+      wirklich zählt. Wenn die Banderole komplett fehlt, hilft der <a
+        href="/de/artikel/unbekanntes-garn-ohne-banderole-bestimmen/"
+        >Leitfaden für unbekanntes Garn</a
+      > beim vollständigen Einordnen.
     </p>
 
     <h2>Garnstärke fürs Projekt wählen</h2>
     <p>
-      Dünneres Garn ergibt leichtere, langsamere Projekte. Dickeres Garn wächst
-      schnell, kann aber warm, schwer und steif werden. Ein Tuch verzeiht mehr
-      Experimente als ein sitzender Pullover. Bei Kleidung solltest du die
-      Maschenprobe der Anleitung genauer treffen.
+      In einer Anleitung wird die Garnstärke für die gewünschte Strickfläche
+      gewählt, nicht nur für die Geschwindigkeit. Wenn du die Stärke änderst,
+      ändern sich Fall, Dichte, Wärme und oft der gesamte Maßstab des fertigen
+      Stücks.
+    </p>
+    <p>
+      Leichtere Stärken (0-2) geben mehr Fall und klare Maschendefinition. Sie
+      passen gut zu Socken, Tüchern und mehrfarbigen Mustern mit feinen Details.
+      Mittlere Stärken (3-4), besonders DK und Worsted, decken sehr viel ab:
+      Pullover, Mützen, Decken, Babystrick und strukturierte Accessoires.
+      Dickere Stärken (5-7) sind schneller und wärmer, ergeben aber dickere
+      Nähte und ein schwereres fertiges Stück. Das ist wichtig, bevor du
+      ersetzt.
+    </p>
+    <p>
+      Wenn du außerhalb der ursprünglichen Garnstärke ersetzt, musst du mit
+      Neuberechnung rechnen. Der <a
+        href="/de/artikel/garn-in-einer-strickanleitung-ersetzen/"
+        >Leitfaden zum Garnersatz</a
+      > erklärt den Prozess. Der <a
+        href="/de/werkzeuge/maschenanschlag-rechner/">Maschenanschlag-Rechner</a
+      > hilft bei Maschenzahlen, und der <a
+        href="/de/werkzeuge/garnbedarfsrechner/">Garnbedarfsrechner</a
+      > kann den Garnbedarf vor dem Kauf plausibilisieren.
     </p>
 
     <h2>Garnstärke und Nadelstärke gehören zusammen</h2>
     <p>
-      Die empfohlene Nadelstärke ist ein Ausgangspunkt. Dasselbe Worsted-Garn
-      kann mit 4,5 mm feste Fäustlinge und mit 5,5 mm einen weicheren Schal
-      ergeben. Die Nadel definiert die Garnstärke nicht, aber sie verändert
-      Dichte, Fall und Verbrauch.
+      Empfohlene Nadelstärken sind Startpunkte. Keine Versprechen. Dasselbe
+      DK-Garn kann auf einer Nadel eine feste Mütze und auf einer anderen eine
+      lockere Cardigan-Strickfläche ergeben.
+    </p>
+    <p>
+      Hier übernimmt die Maschenprobe. Die Banderole gibt eine Richtung vor,
+      aber dein Garn, deine Spannung und dein Projekt entscheiden die endgültige
+      Nadelstärke.
+    </p>
+    <p>
+      Wenn du vor der Maschenprobe erst Größenangaben übersetzen musst, ist die
+      <a href="/de/werkzeuge/nadelstaerken-tabelle/">Nadelstärken-Tabelle</a> die
+      passende Begleitseite.
     </p>
   </div>
 </LocalizedToolPage>

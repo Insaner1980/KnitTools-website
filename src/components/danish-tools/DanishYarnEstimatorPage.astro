@@ -6,11 +6,11 @@ import { danishToolAlternates, danishToolRoutes } from "../../i18n/danishTools";
 const faqs = [
   {
     q: "Hvordan ved jeg, hvor meget garn mit projekt kræver?",
-    a: "Din opskrift angiver normalt det samlede antal meter i materialelisten. Designer du uden opskrift, så slå gennemsnitlige garnmængder op for samme projekttype og størrelse. For de fleste beklædningsdele findes der ret faste intervaller.",
+    a: "Din opskrift angiver normalt den samlede løbelængde i materialelisten. Planlægger du uden opskrift, så sammenlign offentliggjorte intervaller efter projekttype, størrelse og garntykkelse, og læg en sikkerhedsmargen til.",
   },
   {
     q: "Skal jeg købe ekstra garn?",
-    a: "Altid. Køb mindst ét nøgle ekstra, især hvis garnet har farveparti eller indfarvningsparti. Farvepartier kan variere en smule, og det kan være umuligt at finde samme parti senere, hvis det er udsolgt.",
+    a: "Som regel, ja. Køb mindst ét nøgle ekstra, når projektet skal sidde præcist, har struktur, eller garnet har farveparti. Farvepartier kan variere en smule, og det kan være umuligt at finde samme parti senere, hvis det er udsolgt.",
   },
   {
     q: "Hvad hvis min opskrift angiver yards eller kun gram?",
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Kan jeg bruge et andet garn end opskriften anbefaler?",
-    a: "Ja, hvis strikkefastheden passer. Strik en strikkeprøve med erstatningsgarnet, tjek at du får samme maskeantal pr. 10 cm, og brug beregneren til at vurdere det samlede garnforbrug for det nye garn.",
+    a: "Ja, hvis strikkefastheden og stoffet fungerer til projektet. Strik en strikkeprøve med erstatningsgarnet, tjek at du får opskriftens strikkefasthed, og brug beregneren som planlægningstjek for den nye garntykkelse.",
   },
 ];
 ---
@@ -56,18 +56,18 @@ const faqs = [
     <h2>Hvor meget garn skal jeg bruge?</h2>
     <p>
       Garnforbrug afhænger af tre ting: hvad du strikker, hvilken størrelse, og
-      hvilken garntykkelse. En voksensweater i fingering bruger groft sagt 1 200
-      til 1 500 meter. En hue i bulky kan nøjes med 100 meter. Hvis en opskrift
-      selv angiver meter, så brug dem først; beregneren er især nyttig, når du
-      planlægger uden opskrift eller vil tjekke, om en garnmængde virker
-      realistisk.
+      hvilken garntykkelse. En voksensweater i størrelse M og fingering bruger
+      groft sagt 1 200 til 1 500 meter. En hue i bulky kan nøjes med omkring 100
+      meter. Hvis en opskrift selv angiver meter, så brug dem først; beregneren
+      er især nyttig, når du planlægger uden opskrift eller vil tjekke, om en
+      garnmængde virker realistisk.
     </p>
 
     <h2>At læse en banderole</h2>
     <p>
-      Hver banderole fortæller længden pr. nøgle. Når du har et anslået samlet
-      tal, deler du det med meter pr. nøgle på banderolen for at finde ud af,
-      hvor meget du skal købe. Har du mistet banderolen, så vej garnet på en
+      De fleste banderoler fortæller længden pr. nøgle. Når du har et anslået
+      samlet tal, deler du det med meter pr. nøgle på banderolen for at finde ud
+      af, hvor meget du skal købe. Har du mistet banderolen, så vej garnet på en
       køkkenvægt og tjek producentens hjemmeside for meter pr. gram.
     </p>
   </div>

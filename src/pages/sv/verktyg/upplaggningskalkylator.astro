@@ -6,7 +6,7 @@ import { routes } from "../../../i18n/routes";
 const faqs = [
   {
     q: "Behöver jag verkligen sticka ett stickprov?",
-    a: "Ja. Att hoppa över stickprovet är den vanligaste orsaken till att stickade plagg får fel storlek. Det tar 20 minuter och kan spara timmar av omstickning.",
+    a: "Ja. Att hoppa över stickprovet är en av de vanligaste orsakerna till att stickade delar får fel storlek. Det tar extra tid i början och kan spara timmar av omstickning.",
   },
   {
     q: "Ska jag räkna kantmaskor i stickfastheten?",
@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     q: "Varför avrundar kalkylatorn till ett jämnt maskantal?",
-    a: "Många mönster, som resår, flätor och flerfärgsstickning, behöver ett jämnt maskantal för att fungera snyggt. Avrundning till närmaste jämna tal ger en ren rapport.",
+    a: "Många enkla mönster, däribland vanliga resårer, fungerar smidigt över ett jämnt maskantal. Avrundning till närmaste jämna tal ger en praktisk startpunkt innan du justerar för en mönsterspecifik multipel.",
   },
   {
     q: "Vad gör jag om mönstret kräver en viss maskmultipel?",
@@ -28,7 +28,7 @@ const faqs = [
 ---
 
 <LocalizedToolPage
-  title="Uppläggningskalkylator"
+  title="Uppläggningskalkylator för stickning"
   description="Räkna ut hur många maskor du ska lägga upp. Ange stickfasthet och önskat mått för ett direkt maskantal till tröjor, halsdukar och filtar."
   canonicalPath={routes.tool.castOnCalculator.sv}
   lang="sv"
@@ -49,26 +49,27 @@ const faqs = [
       skapar den första raden maskor på stickan. Antalet maskor du lägger upp
       avgör bredden på det färdiga arbetet. För få, och det blir för smalt. För
       många, och du har slösat garn och tid. Att få rätt antal från början
-      sparar upprepning senare.
+      sparar att behöva repa upp senare.
     </p>
 
     <h2>Varför stickfastheten spelar roll</h2>
     <p>
-      Alla stickar olika. Även med samma garn och samma stickor ger din handlag
-      en lite annan stickad yta än någon annans. Därför anger mönster en
-      rekommenderad stickfasthet, och därför behöver du sticka ett prov för att
-      hitta din egen. Mät hur många maskor som ryms på 10 cm, så har du talet
-      som kalkylatorn behöver.
+      Alla stickar olika. Även med samma garn och samma stickor ger din
+      handspänning en lite annan stickad yta än någon annans. Därför anger
+      mönster en rekommenderad stickfasthet, och därför behöver du sticka ett
+      prov för att hitta din egen. Mät hur många maskor som ryms på 10 cm eller
+      4 tum, så har du talet som kalkylatorn behöver.
     </p>
 
     <h2>Så använder du kalkylatorn</h2>
     <p>
       För att räkna ut dina uppläggningsmaskor behöver du två saker: din <strong
         >stickfasthet</strong
-      >, alltså hur många maskor du får på 10 cm stickning, och den <strong
+      >, alltså hur många maskor du får på 10 cm eller 4 tum stickning, och den <strong
         >önskade bredden</strong
       > på arbetet. Sticka ett stickprov först, mät det och skriv in värdena. Kalkylatorn
-      avrundar till närmaste jämna tal, vilket är en vanlig stickningspraxis.
+      avrundar till närmaste jämna tal, vilket är en praktisk standard för många enkla
+      mönster.
     </p>
   </div>
 </LocalizedToolPage>

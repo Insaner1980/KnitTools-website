@@ -1,10 +1,14 @@
 ---
-title: "How to Measure Knitting Gauge"
+title: "How to measure knitting gauge (and why skipping it ruins projects)"
+browserTitle: "How to Measure Knitting Gauge Step by Step"
 description: "Learn how to knit and measure a gauge swatch correctly. Covers washing, blocking, measuring technique, and what to do when your gauge is off."
 category: "gauge-calculations"
 categoryOrder: 2
-publishDate: 2026-04-27
-tags: ["gauge", "swatch", "calculations"]
+publishDate: "2026-04-27"
+tags:
+  - "gauge"
+  - "swatch"
+  - "calculations"
 ---
 
 Gauge is the part knitters skip right before a project turns out the wrong size. The hat that came out floppy. The sweater that grew into a tent. The sleeve that landed two inches longer than the schematic promised. Almost every one of those stories starts the same way: "the swatch seemed optional."
@@ -23,7 +27,7 @@ The swatch is a small test fabric made with your yarn, your needles, and the sti
 
 Cast on enough stitches to make a swatch at least 6 inches wide. A little larger is better if the yarn is lively or the project is fitted. Gauge listed over 4 inches should never be measured edge to edge. The cast-on edge, the bind-off edge, and the side stitches all behave differently from the center of the fabric. You need extra material around the measurement area so you're reading the real fabric, not the edge distortions.
 
-If the pattern says "in stockinette," swatch in stockinette. If it says "in pattern stitch," use the project stitch pattern. That part matters more than most knitters expect. Cables pull in. Lace opens up. Ribbing compresses. None of those fabrics behave like plain stockinette, and treating them as interchangeable is where gauge goes sideways. A cable-heavy fabric at the same stitch count as stockinette can easily come out an inch or more narrower over 10 inches.
+If the pattern says "in stockinette," swatch in stockinette. If it says "in pattern stitch," use the project stitch pattern. That part matters more than most knitters expect. Cables pull in. Lace opens up. Ribbing compresses. None of those fabrics behave like plain stockinette, and treating them as interchangeable is where gauge goes sideways. A cable-heavy fabric at the same stitch count as stockinette can come out noticeably narrower over a garment width.
 
 Knit until the swatch is at least 6 inches tall. Then bind off.
 
@@ -33,9 +37,9 @@ This is where many knitters reach for the ruler too early. Don't measure yet.
 
 This step is where most gauge mistakes actually happen. The fabric that just came off the needles isn't yet the fabric you'll wear. Yarn changes when it gets wet and dries again. Sometimes a little, sometimes a lot.
 
-Wool blooms and the stitches fill out, making the fabric slightly wider and softer. Cotton relaxes and tends to drape more. Superwash merino can grow noticeably in length. Linen softens after a wash or two. Acrylic often settles after handling and washing. Every fiber does something, and the only way to know what your specific yarn does is to get the swatch wet.
+Wool can bloom and fill out after blocking. Cotton often relaxes and drapes more. Superwash merino can grow in length. Linen softens after washing. Acrylic may settle after handling and washing. Every yarn has its own habits, and the only way to know what your specific yarn does is to get the swatch wet.
 
-Skip this step and you're measuring the wrong fabric. The swatch matches fresh off the needles, the finished sweater gets its first wash, and suddenly it's a size larger. This happens constantly. It's the single most common reason for "my gauge was right but the sweater doesn't fit."
+Skip this step and you may be measuring the wrong fabric. The swatch matches fresh off the needles, the finished sweater gets its first wash, and suddenly it's a size larger. That's a common path to "my gauge was right but the sweater doesn't fit."
 
 Treat the swatch the same way the finished project will be treated. If the sweater will be hand-washed and dried flat, do that to the swatch. If the yarn is machine washable and that's how the finished item will be cared for, wash the swatch that way instead. The point is replicating the life the garment will actually live.
 
@@ -83,7 +87,7 @@ If the project is worked in the round, swatch in the round. A small tube on DPNs
 
 ## How gauge connects to project planning
 
-Once gauge is known, the rest of the planning gets easier. KnitTools' [Cast On Calculator](/tools/cast-on-calculator/) uses it to calculate stitch counts for a target width. The [Yarn Estimator](/tools/yarn-estimator/) uses it alongside dimensions to get closer to a realistic yardage estimate. For a [step-by-step swatch walkthrough](/articles/gauge-swatch-step-by-step/) without the theory, that's a separate page.
+Once gauge is known, the rest of the planning gets easier. KnitTools' [Cast On Calculator](/tools/cast-on-calculator/) uses it to calculate stitch counts for a target width. The [Yarn Estimator](/tools/yarn-estimator/) uses project type, size, and yarn weight for a yardage estimate, so treat it as a planning check alongside your gauge and pattern details. For a [step-by-step swatch walkthrough](/articles/gauge-swatch-step-by-step/) without the theory, that's a separate page.
 
 That chain matters. Gauge drives stitch count. Stitch count drives dimensions. Dimensions drive yardage. If the first number is off, everything downstream drifts with it.
 

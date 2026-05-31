@@ -22,11 +22,11 @@ Om onbekend garen te herkennen, begin je met wraps per inch (WPI) om de garendik
 
 ## Stap een: bepaal de dikte met WPI
 
-Wraps per inch (WPI), wikkelingen per inch, is de snelste eerste test.
+WPI, oftewel wraps per inch, is de snelste eerste test.
 
-Wikkel het garen om een potlood, liniaal of WPI-tool. Houd de wikkelingen netjes naast elkaar en licht aangesloten, zonder te trekken. Tel daarna hoeveel wikkelingen in 1 inch passen.
+Wikkel het garen om een potlood, liniaal of WPI-tool. Houd de wikkelingen netjes naast elkaar en licht aangesloten, zonder te trekken. Tel daarna hoeveel wikkelingen in één inch passen, dus ongeveer 2,5 cm.
 
-De Craft Yarn Council gebruikt deze brede bereiken:
+Het gangbare 0-7-systeem van de Craft Yarn Council gebruikt deze brede bereiken. Het bijgewerkte garendiktesysteem bevat ook Size 8, maar veel patronen, labels en WPI-lijsten gebruiken nog steeds deze 0-7-categorieën:
 
 - 30 tot 40+ wikkelingen: lace (categorie 0)
 - 14 tot 30 wikkelingen: super fine of fingering-bereik (categorie 1)
@@ -47,11 +47,11 @@ Dit telt voor verzorging en voor hoe de stof zich gedraagt. De [vezelgids](/nl/a
 
 ### De brandtest
 
-Knip een klein stukje af, houd het met een pincet boven een vuurvaste ondergrond en steek het aan. Let op hoe het brandt, hoe het ruikt en wat er overblijft wanneer het afkoelt.
+Knip een klein stukje af, houd het met een pincet boven een vuurvaste ondergrond en steek het aan. Houd water in de buurt, werk buiten of met heel goede ventilatie en stop als het garen smelt, drupt of scherpe dampen afgeeft. Let op hoe het brandt, hoe het ruikt en wat er overblijft wanneer het afkoelt.
 
 Dierlijke vezels (wol, alpaca, zijde) ruiken naar verbrand haar en laten verpulverbare as achter. Plantaardige vezels (katoen, linnen) ruiken meer naar brandend papier en geven lichtere as. Synthetische vezels smelten en verharden tot een kraaltje in plaats van as te worden. Mengsels geven gemengd gedrag. Dat vertelt dat het garen gemengd is, maar niet de exacte percentages.
 
-Doe dit buiten of met heel goede ventilatie. Synthetische dampen zijn niet prettig, en open vuur verdient meer voorzichtigheid dan de meeste voorraadgaren krijgt.
+Doe de brandtest niet met een groot stuk, in de buurt van kinderen of naast iets brandbaars. Synthetische dampen zijn een goede reden om het proefstukje heel klein te houden.
 
 Een woord over verwachtingen: de brandtest is een grove herkenningsmethode, geen laboratoriumuitslag. Hij is vooral nuttig om grote vezelfamilies te onderscheiden. Verwacht niet dat hij je het verschil vertelt tussen merino en corriedale.
 
@@ -59,7 +59,7 @@ Een woord over verwachtingen: de brandtest is een grove herkenningsmethode, geen
 
 Zachter, en nuttig naast de brandtest. Week een klein stukje in warm water en kijk wat er gebeurt.
 
-Niet-superwash-wol kan beginnen te vervilten als je warmte, zeep en beweging toevoegt. Superwash-wol wordt nat maar vervilt minder snel. Katoen neemt water makkelijk op en voelt nat duidelijk zwaarder. Acryl neemt minder op en droogt sneller.
+Niet-superwash-wol kan beginnen te vervilten als je warmte, zeep en beweging toevoegt. Superwash-wol wordt nat maar vervilt minder snel. Katoen neemt water makkelijk op en voelt nat duidelijk zwaarder. Acryl gedraagt zich anders dan katoen of wol, maar deze test herkent het niet precies op zichzelf.
 
 Nog steeds alleen een aanwijzing, zeker bij mengsels. Maar het beperkt de mogelijkheden.
 
@@ -91,7 +91,7 @@ Wil je veel onbekend garen in een project gebruiken, test dan ook kleurechtheid.
 
 Heb je veel garen zonder label, dan bespaart een middag testen en labelen later gedoe. Zelfs een handgeschreven briefje ("waarschijnlijk DK, vermoedelijk wolmengsel, handwas") is beter dan over zes maanden weer een onbekende bol.
 
-De [Yarn Label Scanner](/) van KnitTools kan hier ook helpen. Voor onbekend garen kun je een handmatige kaart maken met je beste inschatting en testnotities.
+Voor onbekend garen kun je een handmatige garenkaart maken met je beste inschatting en testnotities. De volgende keer is de bol niet meer even onbekend.
 
 ## FAQ
 

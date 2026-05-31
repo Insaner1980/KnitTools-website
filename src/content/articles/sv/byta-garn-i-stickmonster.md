@@ -60,13 +60,13 @@ Multiplicera mönstrets nystanantal med löplängden per nystan. Det är totalen
 
 När fiberinnehållet också ändras spelar löplängd ännu större roll. Samma vikt per nystan kan dölja helt olika längd garn i nystanet.
 
-[Garnåtgångskalkylatorn](/sv/verktyg/garnatgangskalkylator/) hanterar det här mer exakt än nystanmatte, särskilt om stickfastheten ändras med ersättningsgarnet.
+[Garnåtgångskalkylatorn](/sv/verktyg/garnatgangskalkylator/) kan ge en rimlighetskontroll efter projekttyp, storlek och garntjocklek, men den ersätter inte mönstrets angivna löplängd, ersättningsgarnets nystanstorlek eller en ny provlapp om stickfastheten ändras.
 
 ## När garnbyte är riskabelt
 
 Alla projekt tolererar inte garnbyte lika bra. Det är värt att vara ärlig om det innan du köper 8 nystan ersättningsgarn.
 
-**Låg risk:** halsdukar, sjalar, filtar, disktrasor. En stickfasthet som ligger en halv maska fel per cm ändrar slutstorleken lite. Ingen märker. Det här är projekten där garnbyte nästan alltid fungerar. Kör.
+**Låg risk:** halsdukar, sjalar, filtar, disktrasor. En stickfasthet som ligger ungefär två maskor fel per 10 cm ändrar slutstorleken, men ger oftast inte ett passformsfel på samma sätt som i ett plagg. Räkna om om exakta filtmått eller garnmängd spelar roll. Det här är projekten där garnbyte nästan alltid fungerar.
 
 **Medelrisk:** mössor, halskragar, väskor. Passform spelar mer roll, struktur spelar mer roll, men det finns fortfarande utrymme för små skillnader. En mössa som blir lite stor kan blockas ner eller ges till någon med större huvud.
 

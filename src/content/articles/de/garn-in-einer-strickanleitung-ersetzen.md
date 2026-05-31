@@ -60,27 +60,27 @@ Multipliziere die Knäuelzahl der Anleitung mit den Metern pro Originalknäuel. 
 
 Wenn sich die Materialzusammensetzung ändert, zählen Meter noch mehr. Dasselbe Gewicht pro Knäuel kann sehr unterschiedliche Garnlängen verbergen.
 
-Der [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) hilft hier besser als reine Knäuelmathematik, besonders wenn sich die Maschenprobe mit dem Ersatzgarn ändert.
+Der [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) kann eine Garnbedarfskontrolle nach Projekttyp, Größe und Garnstärke liefern, ersetzt aber weder die Meterangabe der Anleitung noch die Lauflänge des Ersatzgarns oder eine neue Maschenprobe, wenn sich die Maschenprobe ändert.
 
 ## Wann Garnersatz riskant ist
 
 Nicht jedes Projekt verträgt einen Garnwechsel gleich gut. Das sollte klar sein, bevor du acht Knäuel Ersatzgarn kaufst.
 
-**Niedriges Risiko:** Schals, Tücher, Decken, Spültücher. Eine Abweichung von ein paar Maschen auf 10 cm verändert die fertige Größe etwas. Kaum jemand merkt es. Das sind die Projekte, bei denen Garnersatz fast immer funktioniert.
+**Niedriges Risiko:** Schals, Tücher, Decken, Spültücher. Eine Abweichung von etwa zwei Maschen auf 10 cm verändert die fertige Größe, führt aber meist nicht zu einem Passformproblem wie bei Kleidung. Rechne neu, wenn exakte Deckengröße oder Garnmenge wichtig sind. Das sind die Projekte, bei denen Garnersatz fast immer funktioniert.
 
 **Mittleres Risiko:** Mützen, Cowls, Taschen. Passform und Struktur zählen mehr, aber kleine Unterschiede sind noch tolerierbar. Eine etwas zu große Mütze kann man kleiner spannen oder jemandem mit größerem Kopf schenken.
 
-**Hohes Risiko:** körpernahe Kleidung, Socken, Handschuhe. Kleine Unterschiede in der Maschenprobe vervielfachen sich über viele Zentimeter, und das Faserverhalten zählt genauso wie die Maschenzahl. Ein Pullover aus dem falschen Garn kann untragbar werden, obwohl die Rechnung gut aussah. Strick eine ehrliche Maschenprobe.
+**Hohes Risiko:** körpernahe Kleidung, Socken, Handschuhe. Kleine Unterschiede in der Maschenprobe vervielfachen sich über viele Zentimeter, und das Faserverhalten zählt genauso wie die Maschenzahl. Ein Pullover aus dem falschen Garn kann untragbar werden, obwohl die Rechnung gut aussah. Strick eine gründliche Maschenprobe und betrachte sie ehrlich.
 
-**Sehr hohes Risiko:** Projekte, die um einen bestimmten Fasereffekt herum entworfen wurden. Mohair-Halo. Seidenglanz. Griffige Wolle für mehrfarbiges Stricken, bei dem die Maschen ineinandergreifen sollen. Ein bestimmter Fall, der nur mit genau diesem Garn funktioniert. Solche Projekte können ihren Charakter völlig verändern, selbst wenn die Maschenprobe stimmt.
+**Sehr hohes Risiko, fast lieber lassen:** Projekte, die um einen bestimmten Fasereffekt herum entworfen wurden. Mohair-Halo. Seidenglanz. Griffige Wolle für mehrfarbiges Stricken, bei dem die Maschen ineinandergreifen sollen. Ein bestimmter Fall, der nur mit genau diesem Garn funktioniert. Solche Projekte können ihren Charakter völlig verändern, selbst wenn die Maschenprobe stimmt. Wenn die Designerin das Garn aus einem anderen Grund als Garnstärke und Farbe gewählt hat, arbeitet der Garnersatz gegen die Konstruktion.
 
 ## Checkliste für Garnersatz
 
 Vor dem Kauf:
 
 1. Gleiche Garnstärke wie das Anleitungsgarn. Nicht verhandelbar.
-2. Maschenprobenbereich auf der Banderole liegt nahe an der Anleitung. Nah genug für eine Maschenprobe.
-3. Faser verhält sich ähnlich. Elastizität, Fall, Spannen.
+2. Maschenprobenbereich auf der Banderole überschneidet sich mit der Anleitung. Nah genug für eine Maschenprobe.
+3. Faser verhält sich ähnlich. Elastizität, Fall, Reaktion auf Spannen.
 4. Gesamtmeter aus Metern berechnet, nicht aus der Knäuelzahl.
 5. Ein Extraknäuel, wenn du es bekommen kannst. Farbpartien verschwinden.
 

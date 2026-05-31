@@ -10,7 +10,7 @@ tags:
     "Reihenzähler App",
     "Strick Reihenzähler",
     "mechanischer Reihenzähler",
-    "sprachgesteuerter Reihenzähler",
+    "Reihenzähler Android",
   ]
 draft: false
 lang: de
@@ -23,7 +23,7 @@ Trotzdem braucht nicht jeder, was die digitale Version bietet. Die richtige Wahl
 
 ## Mechanische Reihenzähler
 
-Der klassische mechanische Zähler ist ein kleiner Zylinder, der auf das Ende einer geraden Nadel geschoben wird. Nach jeder Reihe drehst du das Rädchen. Anhänger-Klicker an einer Kordel und Kacha-Kacha-Tischzähler sind die wichtigsten Alternativen.
+Der klassische mechanische Zähler ist ein kleiner Zylinder, der auf das Ende einer geraden Nadel geschoben wird. Nach jeder Reihe drehst du das Rädchen. Universelle Zähler, die an der Nadel hängen, Klicker an einer Kordel und Kacha-Kacha-Tischzähler sind die wichtigsten Alternativen. Digitale Druckknopf-Zähler für den Finger, oft als LED-Zähler für Golf verkauft, tauchen oft genug in Strickbeuteln auf, dass sie eine eigene kleine Kategorie verdienen.
 
 **Was sie gut können.** Keine Einrichtung. Aus der Schublade nehmen, klicken, fertig. Kein Konto, keine App, keine Lernkurve. Das physische Klicken wird Teil des Strickrhythmus, und manche mögen dieses haptische Feedback lieber als das Tippen auf einen Bildschirm. Sie funktionieren ohne Strom, kümmern sich nicht um Spiegelungen und kosten nur ein paar Euro. Schwer, dagegen zu argumentieren.
 
@@ -31,11 +31,11 @@ Der klassische mechanische Zähler ist ein kleiner Zylinder, der auf das Ende ei
 
 Sie können nicht mehrere Dinge gleichzeitig verfolgen. Ein Pullover kann Gesamt-Reihenzahl, Position im Zopfrapport und nächste Abnahmereihe brauchen. Ein mechanischer Zähler schafft eins davon.
 
-Sie verstellen sich. Projektbeutel ins Auto werfen, Rädchen dreht sich, und du schaust auf eine Zahl, die stimmen kann oder nicht. Außerdem passt der Zylinder nicht gut zu Rundstricknadeln, mit denen die meisten Kleidungsstücke gestrickt werden. Anhänger- oder Tischzähler lösen das Nadelproblem, bringen aber eigene Umstände mit.
+Sie verstellen sich. Projektbeutel ins Auto werfen, Rädchen dreht sich, und du schaust auf eine Zahl, die stimmen kann oder nicht. Außerdem passt der Zylinder nicht zu Rundstricknadeln, mit denen die meisten Kleidungsstücke gestrickt werden. Anhänger- oder Tischzähler lösen das Nadelproblem, bringen aber eigene Umstände mit.
 
 ## Digitale Reihenzähler
 
-Eine Reihenzähler-App ersetzt den Klicker durch ein Tippen aufs Handy. Der Stand speichert sich automatisch. Die meisten Apps legen Funktionen darüber: Rückgängig, mehrere Zähler, Erinnerungen, Sitzungsverlauf.
+Eine Reihenzähler-App ersetzt den Klicker durch ein Tippen aufs Handy. Der Stand wird gespeichert. Die meisten Apps legen Funktionen darüber: Rückgängig, mehrere Zähler, Erinnerungen, Sitzungsverlauf, Anleitungsansicht oder Unterstützung für Smartwatches. Die Details ändern sich je nach App, deshalb zählen die konkreten Funktionen mehr als das Etikett "Reihenzähler".
 
 **Was sie gut können.** Sie merken sich alles. App schließen, Handy ausschalten, Projekt nächste Woche wieder aufnehmen. Der Stand ist genau dort, wo du aufgehört hast. Wenn du [mehrere Projekte](/de/artikel/mehrere-strickprojekte-organisieren/) parallel hast, spart eine Liste mit aktuellen Reihenzahlen und letzter Arbeitszeit jedes Mal den „wo war ich?“-Moment.
 
@@ -43,9 +43,7 @@ Reihenerinnerungen sind die Funktion, die mechanische Zähler wirklich nicht ers
 
 Mehrere Zähler pro Projekt passen zur Realität komplexer Projekte. Ein Zähler für Gesamt-Reihen, einer für den Zopfrapport, einer für den Abschnitt der Anleitung. Alle sichtbar, alle unabhängig. Das mechanische Gegenstück wären drei einzelne Klickzähler.
 
-Sprachbefehle lassen dich weiterzählen, ohne die Nadeln abzulegen. Sag „nächste Reihe“ und der Zähler steigt. Ein freihändiger Reihenzähler klingt wie Spielerei, bis du mitten in der Zopfkreuzung beide Hände voll hast und wieder nicht weißt, ob du gezählt hast.
-
-Sitzungsverlauf zeigt, wann und wie lange du an jedem Projekt gearbeitet hast. Weniger Zählen, mehr Daten. Manche finden es motivierend, Gesamtstunden und Tempo über die Zeit zu sehen.
+Sitzungsverlauf zeigt, wann und wie lange du an jedem Projekt gearbeitet hast. Weniger Zählen, mehr Daten. Manche finden es motivierend, Gesamtstunden und Tempo über die Zeit zu sehen. Ein Pullover, der lange läuft, fühlt sich anders an, wenn du später die vielen Abende siehst, die darin stecken.
 
 **Wo sie schwach sind.** Das Handy muss in der Nähe sein. Wenn du strickst, um von Bildschirmen wegzukommen, stört ein Handy in der Sitzung. Völlig legitimer Grund, beim Klicker zu bleiben.
 
@@ -57,7 +55,9 @@ Akkus sind eine Abhängigkeit. Ein leeres Handy verliert den Stand nicht, weil e
 
 Einfache Projekte ohne Formgebung. Schals, Spültücher, einfache Decken. Eine Sache zu zählen, geradliniges Stricken. Eine App für ein Projekt, das sie nicht braucht, ist Aufwand ohne Nutzen.
 
-Bildschirmfreie Sitzungen. Wenn Abstand von Geräten Teil davon ist, warum du strickst, respektiert ein Klicker diese Grenze.
+Bildschirmfreie Sitzungen. Wenn Abstand von Geräten Teil davon ist, warum du strickst, respektiert ein Klicker diese Grenze. Dasselbe gilt an Orten, an denen ein Handy unpraktisch ist: ruhiger Zug, lange Besprechung oder eine Strickgruppe, in der die Leute bewusst ohne Bildschirm sitzen wollen.
+
+Backup. Selbst überzeugte App-Nutzerinnen und -Nutzer behalten oft einen Klicker im Projektbeutel für die Momente, in denen das Handy leer, verschwunden oder gerade in anderen Händen ist.
 
 ## Wann digital gewinnt
 
@@ -69,24 +69,24 @@ Komplexe Muster. Zöpfe, Lochmuster, Jacquard. Den Platz im Rapport zu verlieren
 
 Langzeitprojekte. Ein Pullover über Monate profitiert von dauerhaft gespeicherten Daten und Sitzungsverlauf. Du siehst: zuletzt Dienstag, Reihe 47, nächste Abnahme in Reihe 52. Ein Klicker sagt „47“ und sonst nichts.
 
-Die [KnitTools-App](/) wird für Android gebaut und verbindet Tippen, Rückgängig, Reihenerinnerungen, mehrere Zähler pro Projekt, Sprachbefehle und Sitzungsverlauf. Zähler, vier Rechner, Projekte, gespeicherte PDF-Anleitungen und Referenzbibliothek funktionieren offline. Grundlegende Sprachbefehle funktionieren ebenfalls offline, in 11 Sprachen. KI-Funktionen wie Garnkartenscan, Projektzusammenfassungen, Sprachjournal, Gesprächsmodus und Anleitungssuche brauchen eine Internetverbindung.
+Die [KnitTools-App](/) wird für Android gebaut und soll Tippen, Rückgängig, Reihenerinnerungen, mehrere Zähler pro Projekt und Sitzungsverlauf verbinden. Die Kerndaten für Zähler und Projekte sind um lokale Projektdaten herum geplant.
 
 ## Die Kombination funktioniert auch
 
 Viele nutzen beides. Klicker für die Reisesocke, App für den Pullover zu Hause. Keine Regel verlangt ein System für alles.
 
-Die praktische Frage: Braucht dieses Projekt mehr als eine Zahl? Wenn ja, digital. Wenn nein, nimm, was dir lieber ist.
+Die praktische Frage: Braucht dieses Projekt mehr als eine Zahl? Wenn ja, digital. Wenn nein, nimm, was dir lieber ist. Manche nutzen den Klicker für Maschenzählungen innerhalb einer Reihe, etwa jede fünfte Masche bei einem langen Anschlag, und die App für die eigentliche Reihenzählung. Das passt ziemlich gut zu den Stärken beider Werkzeuge.
 
 ## FAQ
 
 **Funktionieren Reihenzähler-Apps offline?**
-Manche ja, manche nein. Apps, die Daten lokal speichern, funktionieren offline. Cloudbasierte Apps können eine Verbindung brauchen. Prüfe das, bevor du dich in einer Hütte oder im Flugzeug darauf verlässt. KnitTools speichert alles auf dem Gerät.
+Manche ja, manche nein. Apps, die Daten lokal speichern, funktionieren offline. Cloudbasierte Apps können eine Verbindung brauchen. Prüfe das, bevor du dich in einer Hütte oder im Flugzeug darauf verlässt. KnitTools ist für lokale Projekt- und Zählerdaten in den Kernfunktionen geplant.
 
 **Kann ich eine Smartwatch als Reihenzähler nutzen?**
-Manche Strick-Apps bieten Watch-Begleiter, und es gibt eigenständige Zähler-Apps für Uhren. Kleiner Bildschirm, aber der Zähler sitzt buchstäblich am Handgelenk. Einen Versuch wert, wenn du beim Stricken ohnehin eine Uhr trägst.
+Manche Strick-Apps bieten Watch-Begleiter, und es gibt eigenständige Zähler-Apps für Uhren. Kleiner Bildschirm, aber der Zähler sitzt buchstäblich am Handgelenk. Einen Versuch wert, wenn du beim Stricken ohnehin eine Uhr trägst. Auf die Uhr zu tippen stört oft weniger, als das Handy hochzunehmen.
 
 **Gibt es Reihenzähler für Rundstricknadeln?**
-Anhänger-Zähler hängen an einem Maschenmarkierer oder werden am Projekt befestigt. Sie funktionieren mit jedem Nadeltyp. Das ist die beste mechanische Option, wenn Rundstricknadeln deine Hauptnadeln sind.
+Anhänger-Zähler hängen an einem Maschenmarkierer oder werden am Projekt befestigt. Sie funktionieren mit jedem Nadeltyp. Das ist die beste mechanische Option, wenn Rundstricknadeln deine Hauptnadeln sind. Manche verwenden auch einen abnehmbaren Maschenmarkierer plus Strichliste auf Papier. Das kostet nichts und setzt sich nicht versehentlich zurück.
 
-**Wie genau sind sprachgesteuerte Zähler?**
-In einem ruhigen Raum ist moderne Spracherkennung sehr zuverlässig. In lauter Umgebung, etwa in einer Strickgruppe oder im Café, kann sie sich vertun. Die meisten Apps lassen dich eine per Sprache ausgelöste Zählung bestätigen oder rückgängig machen, daher ist ein Fehler leicht zu korrigieren.
+**Was ist mit LED-Fingerzählern?**
+Die kleinen Ringzähler, die für Golf oder Tasbih-Gebetsperlen verkauft werden, funktionieren auch beim Stricken. Ein Knopf, ein Schritt weiter, meistens mit Reset. Kein Rückwärtszählen, kein Speicher zwischen Projekten, aber sie sind handnaher als ein Zylinderzähler und passen zu jeder Nadelstärke, weil sie die Nadel gar nicht berühren.
