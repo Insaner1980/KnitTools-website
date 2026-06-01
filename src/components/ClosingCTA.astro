@@ -45,10 +45,10 @@ const t = useTranslations(lang);
           required
           autocomplete="email"
         />
-        <button type="submit" class="btn-primary">{t("reservePrice")}</button>
+        <button type="submit" class="btn-primary">{t("notifyAtLaunch")}</button>
       </div>
       <p class="signup-success" data-success aria-hidden="true">
-        {t("reserved")}
+        {t("notifySuccess")}
       </p>
       <p class="signup-error" data-error aria-hidden="true">
         {t("genericError")}
@@ -62,7 +62,7 @@ const t = useTranslations(lang);
 <script
   is:inline
   define:vars={{
-    reservePriceText: t("reservePrice"),
+    notifyAtLaunchText: t("notifyAtLaunch"),
     sendingText: t("sending"),
     genericErrorText: t("genericError"),
     networkErrorText: t("networkError"),
@@ -80,7 +80,7 @@ const t = useTranslations(lang);
     const button = form.querySelector('button[type="submit"]');
     const emailInput = form.querySelector('input[type="email"]');
     const honeypot = form.querySelector('input[name="website"]');
-    const originalText = button ? button.textContent : reservePriceText;
+    const originalText = button ? button.textContent : notifyAtLaunchText;
 
     const showSuccess = () => {
       if (content) content.style.display = "none";
@@ -166,16 +166,11 @@ const t = useTranslations(lang);
   h2 {
     font-family: var(--serif);
     font-weight: 400;
-    font-size: clamp(3rem, 6vw, 6rem);
-    line-height: 0.95;
-    letter-spacing: -0.02em;
-    margin: 0 0 48px;
+    font-size: var(--closing-cta-heading-size);
+    line-height: var(--closing-cta-heading-line-height);
+    letter-spacing: var(--closing-cta-heading-letter-spacing);
+    margin: var(--closing-cta-heading-margin);
     color: var(--ink);
-  }
-  .closing-cta--page h2 {
-    font-size: clamp(2rem, 4vw, 3.25rem);
-    line-height: 1.1;
-    margin: 0 0 32px;
   }
   .closing-cta--page {
     padding: 96px 40px;
@@ -183,10 +178,10 @@ const t = useTranslations(lang);
   h2 em {
     color: var(--terracotta);
     font-style: italic;
-    font-size: 1.3em;
+    font-size: var(--closing-cta-heading-em-size);
     line-height: 1;
     display: inline-block;
-    margin-top: 6px;
+    margin-top: var(--closing-cta-heading-em-margin-top);
   }
 
   .signup {
