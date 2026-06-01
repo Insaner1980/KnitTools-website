@@ -10,7 +10,10 @@ import {
   type CategorySlug,
 } from "../../../lib/categories";
 import { PRICING } from "../../../config/pricing";
-import { isEnglishArticle } from "../../../i18n/articles";
+import {
+  byCategoryOrder,
+  isArticleVisibleForLang,
+} from "../../../i18n/articles";
 import { routes } from "../../../i18n/routes";
 
 export async function getStaticPaths() {
@@ -22,17 +25,13 @@ const category = slug as CategorySlug;
 const label = getCategoryLabel(category);
 const description = getCategoryDescription(category);
 
-const articles = await getCollection(
-  "articles",
-  ({ data }) =>
-    data.category === category &&
-    data.lang !== "fi" &&
-    (import.meta.env.DEV ? true : !data.draft),
+const articles = (await getCollection("articles")).filter(
+  (article) =>
+    article.data.category === category &&
+    isArticleVisibleForLang(article, "en"),
 );
-const englishArticles = articles.filter(isEnglishArticle);
-const sortedArticles = englishArticles.sort(
-  (a, b) => (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999),
-);
+const englishArticles = articles;
+const sortedArticles = [...englishArticles].sort(byCategoryOrder);
 ---
 
 <PageLayout
@@ -40,7 +39,6 @@ const sortedArticles = englishArticles.sort(
   description={description}
   canonicalPath={routes.category[category].en}
   alternates={routes.category[category]}
-  showStripe={false}
 >
   <section class="cat-header-section">
     <div class="cat-header-inner">
@@ -66,7 +64,11 @@ const sortedArticles = englishArticles.sort(
       ) : (
         <div class="articles-grid">
           {sortedArticles.map((article) => (
-            <ArticleCard article={article} showCategory={false} />
+            <ArticleCard
+              article={article}
+              showCategory={false}
+              headingLevel={2}
+            />
           ))}
         </div>
       )

@@ -5,18 +5,24 @@ import {
   getArticleAlternates,
   getArticlePath,
   getArticleSlug,
-  isEnglishArticle,
+  isArticleVisibleForLang,
+  isArticleVisibleInCurrentBuild,
 } from "../../i18n/articles";
 
 export async function getStaticPaths() {
-  const articles = await getCollection("articles", isEnglishArticle);
+  const visibleArticles = (await getCollection("articles")).filter(
+    isArticleVisibleInCurrentBuild,
+  );
+  const articles = visibleArticles.filter((article) =>
+    isArticleVisibleForLang(article, "en"),
+  );
   return articles.map((article) => ({
     params: { slug: getArticleSlug(article.id) },
-    props: { article },
+    props: { article, visibleArticles },
   }));
 }
 
-const { article } = Astro.props;
+const { article, visibleArticles } = Astro.props;
 const { Content } = await render(article);
 ---
 
@@ -30,7 +36,7 @@ const { Content } = await render(article);
   tags={article.data.tags}
   lang="en"
   canonicalPath={getArticlePath(article, "en")}
-  alternates={getArticleAlternates(article)}
+  alternates={getArticleAlternates(article, visibleArticles)}
 >
   <Content />
 </ArticleLayout>

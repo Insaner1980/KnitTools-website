@@ -10,21 +10,6 @@ export const danishToolRoutes = {
   knittingSizeCharts: routes.tool.knittingSizeCharts.da,
 } as const;
 
-export const danishToolLinks = [
-  { label: "Opslagsberegner", href: danishToolRoutes.castOnCalculator },
-  { label: "Garnberegner", href: danishToolRoutes.yarnEstimator },
-  { label: "Pindestørrelser", href: danishToolRoutes.needleSizeChart },
-  { label: "Garntykkelser", href: danishToolRoutes.yarnWeightChart },
-  {
-    label: "Strikkeforkortelser",
-    href: danishToolRoutes.knittingAbbreviations,
-  },
-  {
-    label: "Størrelsestabeller til strik",
-    href: danishToolRoutes.knittingSizeCharts,
-  },
-] as const;
-
 export const danishToolAlternates = {
   index: {
     ...routes.toolsIndex,

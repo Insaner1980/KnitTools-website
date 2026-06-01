@@ -1,0 +1,387 @@
+---
+import { SITE_URL } from "../config/brand";
+import type { Lang } from "../i18n/config";
+import type { LocalizedPath } from "../i18n/routes";
+import PageLayout from "../layouts/PageLayout.astro";
+import ClosingCTA from "./ClosingCTA.astro";
+
+interface ToolIndexCard {
+  tag: string;
+  title: string;
+  description: string;
+  href: string;
+  className: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  alternates: LocalizedPath;
+  lang?: Lang;
+  collectionName: string;
+  collectionDescription: string;
+  eyebrow: string;
+  heading: string;
+  intro: string;
+  tools: ToolIndexCard[];
+  variant?: "english" | "localized";
+  revealCards?: boolean;
+}
+
+const {
+  title,
+  description,
+  canonicalPath,
+  alternates,
+  lang = "en",
+  collectionName,
+  collectionDescription,
+  eyebrow,
+  heading,
+  intro,
+  tools,
+  variant = "localized",
+  revealCards = false,
+} = Astro.props;
+
+const revealCardsScript = `
+if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0, rootMargin: "0px 0px -20% 0px" },
+  );
+  document
+    .querySelectorAll(".reveal")
+    .forEach((el) => observer.observe(el));
+} else {
+  document
+    .querySelectorAll(".reveal")
+    .forEach((el) => el.classList.add("visible"));
+}
+`;
+---
+
+<PageLayout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  lang={lang}
+  alternates={alternates}
+>
+  <script
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: collectionName,
+      description: collectionDescription,
+      url: `${SITE_URL}${canonicalPath}`,
+      mainEntity: {
+        "@type": "ItemList",
+        itemListElement: tools.map((tool, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          url: `${SITE_URL}${tool.href}`,
+        })),
+      },
+    })}
+  />
+
+  <section class:list={["tools-header", `tools-header--${variant}`]}>
+    <div class="tools-header-inner">
+      <p class="eyebrow">{eyebrow}</p>
+      <h1>{heading}</h1>
+      <p class="tools-intro">{intro}</p>
+    </div>
+  </section>
+
+  <section
+    class:list={["tools-grid-section", `tools-grid-section--${variant}`]}
+  >
+    <div class="tools-grid">
+      {
+        tools.map((tool) => (
+          <a
+            href={tool.href}
+            class:list={[
+              "tool-card",
+              `tool-card--${variant}`,
+              revealCards && "reveal",
+              tool.className,
+            ]}
+          >
+            <span class="tag">{tool.tag}</span>
+            <h2 class="card-title">{tool.title}</h2>
+            <p class="card-desc">{tool.description}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+  <ClosingCTA variant="page" lang={lang} />
+  {revealCards && <script is:inline set:html={revealCardsScript} />}
+</PageLayout>
+
+<style>
+  .tools-header {
+    color: var(--ink);
+    padding: 80px 40px 48px;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .tools-header-inner,
+  .tools-grid {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin: 0 0 20px;
+  }
+
+  .tools-header--english .eyebrow {
+    font-weight: 500;
+    letter-spacing: 0.18em;
+  }
+
+  .tools-header--localized .eyebrow {
+    font-weight: 600;
+    letter-spacing: 0.14em;
+  }
+
+  .tools-header h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin: 0 0 20px;
+  }
+
+  .tools-header--english h1 {
+    text-transform: none;
+    padding-bottom: 0.08em;
+  }
+
+  .tools-intro {
+    font-family: var(--body-ed);
+    font-weight: 400;
+    font-size: clamp(17px, 1.5vw, 20px);
+    color: var(--ink);
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .tools-header--english .tools-intro {
+    max-width: 560px;
+  }
+
+  .tools-header--localized .tools-intro {
+    max-width: 620px;
+  }
+
+  .tools-grid-section {
+    padding: 48px 40px 100px;
+  }
+
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+  }
+
+  .card-top-left {
+    grid-column: 1 / 7;
+    min-height: 220px;
+  }
+  .card-top-right {
+    grid-column: 7 / 13;
+    min-height: 220px;
+  }
+  .card-bl1 {
+    grid-column: 1 / 4;
+  }
+  .card-br1 {
+    grid-column: 4 / 7;
+  }
+  .card-bl2 {
+    grid-column: 7 / 10;
+  }
+  .card-br2 {
+    grid-column: 10 / 13;
+  }
+
+  .card-terracotta {
+    --card-bg: var(--stripe-terracotta);
+    --card-bg-hover: var(--stripe-terracotta);
+    --card-fg: var(--paper);
+  }
+  .card-rust {
+    --card-bg: var(--stripe-rust-accessible);
+    --card-bg-hover: var(--stripe-rust-accessible);
+    --card-fg: var(--paper);
+  }
+  .card-sand {
+    --card-bg: var(--stripe-sand);
+    --card-bg-hover: var(--stripe-sand);
+    --card-fg: var(--ink);
+  }
+  .card-teal {
+    --card-bg: var(--stripe-teal-accessible);
+    --card-bg-hover: var(--stripe-teal-accessible);
+    --card-fg: var(--paper);
+  }
+  .card-brown {
+    --card-bg: var(--stripe-brown);
+    --card-bg-hover: var(--stripe-brown);
+    --card-fg: var(--paper);
+  }
+
+  .tool-card {
+    background-color: var(--card-bg);
+    border-radius: 0;
+    padding: 28px 28px 32px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: background-color 0.2s ease;
+  }
+
+  .tool-card--english {
+    position: relative;
+    overflow: hidden;
+    justify-content: flex-start;
+    transition:
+      background-color 0.2s ease,
+      transform 0.3s ease;
+  }
+
+  .tool-card:hover {
+    background-color: var(--card-bg-hover);
+  }
+
+  .tool-card--english:focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
+  }
+
+  .tag {
+    align-self: flex-start;
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink);
+    background: var(--paper);
+    padding: 4px 12px;
+    border-radius: 9999px;
+  }
+
+  .card-title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.9vw, 1.9rem);
+    color: var(--card-fg);
+    line-height: 1.05;
+    margin: 0 0 8px;
+  }
+
+  .tool-card--english .card-title {
+    letter-spacing: -0.01em;
+    padding-bottom: 0.04em;
+    text-transform: none;
+  }
+
+  .card-desc {
+    font-family: var(--body-ed);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--card-fg);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .tool-card--english.card-top-left .card-desc,
+  .tool-card--english.card-top-right .card-desc {
+    font-size: 16px;
+    max-width: 380px;
+  }
+
+  @media (max-width: 1024px) {
+    .tools-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-top-left,
+    .card-top-right,
+    .card-bl1,
+    .card-br1,
+    .card-bl2,
+    .card-br2 {
+      grid-column: span 1;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .tools-header--english {
+      padding: 60px 20px 36px;
+    }
+
+    .tools-grid-section--english {
+      padding: 36px 20px 72px;
+    }
+
+    .tools-header--localized,
+    .tools-grid-section--localized {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .tools-grid {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .card-top-left,
+    .card-top-right,
+    .card-bl1,
+    .card-br1,
+    .card-bl2,
+    .card-br2 {
+      grid-column: span 1;
+    }
+
+    .tool-card--english.card-top-left,
+    .tool-card--english.card-top-right {
+      min-height: auto;
+      padding: 28px 24px;
+    }
+
+    .tool-card--english.reveal-delay-2,
+    .tool-card--english.reveal-delay-3 {
+      --reveal-delay: 80ms;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .tool-card--english {
+      transition: none;
+    }
+  }
+</style>

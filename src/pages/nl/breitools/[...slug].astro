@@ -6,6 +6,8 @@ import DutchNeedleSizeChartPage from "../../../components/dutch-tools/DutchNeedl
 import DutchYarnWeightChartPage from "../../../components/dutch-tools/DutchYarnWeightChartPage.astro";
 import DutchKnittingAbbreviationsPage from "../../../components/dutch-tools/DutchKnittingAbbreviationsPage.astro";
 import DutchKnittingSizeChartsPage from "../../../components/dutch-tools/DutchKnittingSizeChartsPage.astro";
+import { dutchToolRoutes } from "../../../i18n/dutchTools";
+import { toolRouteToRestSlug } from "../../../i18n/tools";
 
 const pageComponents = {
   index: DutchToolsIndex,
@@ -18,21 +20,23 @@ const pageComponents = {
 };
 
 export function getStaticPaths() {
-  return [
-    { params: { slug: undefined }, props: { page: "index" } },
-    { params: { slug: "opzetcalculator" }, props: { page: "castOn" } },
-    { params: { slug: "garenberekenaar" }, props: { page: "yarnEstimator" } },
-    { params: { slug: "naalddiktes" }, props: { page: "needleSizeChart" } },
-    { params: { slug: "garendiktes" }, props: { page: "yarnWeightChart" } },
+  const pageRoutes = [
+    { href: dutchToolRoutes.index, page: "index" },
+    { href: dutchToolRoutes.castOnCalculator, page: "castOn" },
+    { href: dutchToolRoutes.yarnEstimator, page: "yarnEstimator" },
+    { href: dutchToolRoutes.needleSizeChart, page: "needleSizeChart" },
+    { href: dutchToolRoutes.yarnWeightChart, page: "yarnWeightChart" },
     {
-      params: { slug: "breiafkortingen" },
-      props: { page: "knittingAbbreviations" },
+      href: dutchToolRoutes.knittingAbbreviations,
+      page: "knittingAbbreviations",
     },
-    {
-      params: { slug: "maattabellen-breien" },
-      props: { page: "knittingSizeCharts" },
-    },
-  ];
+    { href: dutchToolRoutes.knittingSizeCharts, page: "knittingSizeCharts" },
+  ] as const;
+
+  return pageRoutes.map(({ href, page }) => ({
+    params: { slug: toolRouteToRestSlug(dutchToolRoutes.index, href) },
+    props: { page },
+  }));
 }
 
 const Page = pageComponents[Astro.props.page as keyof typeof pageComponents];

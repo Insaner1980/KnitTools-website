@@ -6,6 +6,8 @@ import DanishNeedleSizeChartPage from "../../../components/danish-tools/DanishNe
 import DanishYarnWeightChartPage from "../../../components/danish-tools/DanishYarnWeightChartPage.astro";
 import DanishKnittingAbbreviationsPage from "../../../components/danish-tools/DanishKnittingAbbreviationsPage.astro";
 import DanishKnittingSizeChartsPage from "../../../components/danish-tools/DanishKnittingSizeChartsPage.astro";
+import { danishToolRoutes } from "../../../i18n/danishTools";
+import { toolRouteToRestSlug } from "../../../i18n/tools";
 
 const pageComponents = {
   index: DanishToolsIndex,
@@ -18,24 +20,23 @@ const pageComponents = {
 };
 
 export function getStaticPaths() {
-  return [
-    { params: { slug: undefined }, props: { page: "index" } },
-    { params: { slug: "opslagsberegner" }, props: { page: "castOn" } },
-    { params: { slug: "garnberegner" }, props: { page: "yarnEstimator" } },
+  const pageRoutes = [
+    { href: danishToolRoutes.index, page: "index" },
+    { href: danishToolRoutes.castOnCalculator, page: "castOn" },
+    { href: danishToolRoutes.yarnEstimator, page: "yarnEstimator" },
+    { href: danishToolRoutes.needleSizeChart, page: "needleSizeChart" },
+    { href: danishToolRoutes.yarnWeightChart, page: "yarnWeightChart" },
     {
-      params: { slug: "pindestoerrelser" },
-      props: { page: "needleSizeChart" },
+      href: danishToolRoutes.knittingAbbreviations,
+      page: "knittingAbbreviations",
     },
-    { params: { slug: "garntykkelser" }, props: { page: "yarnWeightChart" } },
-    {
-      params: { slug: "strikkeforkortelser" },
-      props: { page: "knittingAbbreviations" },
-    },
-    {
-      params: { slug: "stoerrelsestabeller-strik" },
-      props: { page: "knittingSizeCharts" },
-    },
-  ];
+    { href: danishToolRoutes.knittingSizeCharts, page: "knittingSizeCharts" },
+  ] as const;
+
+  return pageRoutes.map(({ href, page }) => ({
+    params: { slug: toolRouteToRestSlug(danishToolRoutes.index, href) },
+    props: { page },
+  }));
 }
 
 const Page = pageComponents[Astro.props.page as keyof typeof pageComponents];

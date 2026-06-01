@@ -6,13 +6,16 @@ import {
   getArticlePath,
   getArticleSlug,
   getGermanArticleRouteSlug,
+  isArticleVisibleForLang,
+  isArticleVisibleInCurrentBuild,
 } from "../../../i18n/articles";
 
 export async function getStaticPaths() {
-  const articles = await getCollection(
-    "articles",
-    ({ data }) =>
-      data.lang === "de" && (import.meta.env.DEV ? true : !data.draft),
+  const visibleArticles = (await getCollection("articles")).filter(
+    isArticleVisibleInCurrentBuild,
+  );
+  const articles = visibleArticles.filter((article) =>
+    isArticleVisibleForLang(article, "de"),
   );
   return articles.map((article) => ({
     params: {
@@ -21,11 +24,11 @@ export async function getStaticPaths() {
         getArticleSlug(article.id),
       ),
     },
-    props: { article },
+    props: { article, visibleArticles },
   }));
 }
 
-const { article } = Astro.props;
+const { article, visibleArticles } = Astro.props;
 const { Content } = await render(article);
 ---
 
@@ -38,7 +41,7 @@ const { Content } = await render(article);
   tags={article.data.tags}
   lang="de"
   canonicalPath={getArticlePath(article, "de")}
-  alternates={getArticleAlternates(article)}
+  alternates={getArticleAlternates(article, visibleArticles)}
 >
   <Content />
 </ArticleLayout>

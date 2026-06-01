@@ -2,89 +2,55 @@
 import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import WpiIdentifier from "../../../components/WpiIdentifier.astro";
 import { routes } from "../../../i18n/routes";
+import { getLocalizedYarnWeightRows } from "../../../lib/toolReferenceData";
 
-const rows = [
-  [
-    "0",
-    "Lace",
-    "Cobweb / Light fingering / 2-ply",
-    "33-40+ masker per 10 cm / 4 in",
-    "1,5-2,25 mm",
-    "30-40+ WPI",
-    "Spetssjal, duker og fint hullmønster",
-    "Lace, Cobweb, Light fingering, 2-ply (UK)",
-  ],
-  [
-    "1",
-    "Fingering / sokkegarn",
-    "Sock / Fingering / Baby / 4-ply",
-    "27-32 masker per 10 cm / 4 in",
-    "2,25-3,25 mm",
-    "14-30 WPI",
-    "Sokker, babyplagg, tynne sjal og lette plagg",
-    "Sock, Fingering, Baby, 4-ply (UK/AUS)",
-  ],
-  [
-    "2",
-    "Sport",
-    "Sport / Baby / 5-ply",
-    "23-26 masker per 10 cm / 4 in",
-    "3,25-3,75 mm",
-    "12-18 WPI",
-    "Lette plagg, babyklær og tilbehør",
-    "Sport, Baby, 5-ply (UK/AUS)",
-  ],
-  [
-    "3",
-    "DK / Light",
-    "DK / Light Worsted / 8-ply",
-    "21-24 masker per 10 cm / 4 in",
-    "3,75-4,5 mm",
-    "11-15 WPI",
-    "Gensere, luer, skjerf, babytepper og helårsplagg",
-    "DK (Double Knitting), Light Worsted, 8-ply (UK/AUS)",
-  ],
-  [
-    "4",
-    "Worsted / Aran / Medium",
-    "Worsted / Aran / Afghan / 10-ply",
-    "16-20 masker per 10 cm / 4 in",
-    "4,5-5,5 mm",
-    "9-12 WPI",
-    "Gensere, luer, votter, tepper og det meste av hverdagsstrikk",
-    "Worsted, Aran, Afghan, 10-ply (AUS)",
-  ],
-  [
-    "5",
-    "Bulky / Chunky",
-    "Chunky / Craft / Rug / 12-ply",
-    "12-15 masker per 10 cm / 4 in",
-    "5,5-8 mm",
-    "6-9 WPI",
-    "Tykke gensere, skjerf, tepper og raske prosjekter",
-    "Chunky, Craft, Rug, 12-ply (AUS)",
-  ],
-  [
-    "6",
-    "Super Bulky / Super Chunky",
-    "Super Chunky / Bulky / Roving",
-    "7-11 masker per 10 cm / 4 in",
-    "8-12,75 mm",
-    "5-6 WPI",
-    "Tunge tepper, halser og raske tilbehør",
-    "Super Chunky, Bulky, Roving",
-  ],
-  [
-    "7",
-    "Jumbo",
-    "Jumbo / Roving",
-    "0-6 masker per 10 cm / 4 in",
-    "12,75+ mm",
-    "1-4 WPI",
-    "Armstrikk, tydelig struktur og store tepper",
-    "Jumbo, Roving",
-  ],
-];
+const yarnWeightCopy = [
+  {
+    name: "Lace",
+    regional: "Cobweb / Light fingering / 2-ply",
+    uses: "Spetssjal, duker og fint hullmønster",
+  },
+  {
+    name: "Fingering / sokkegarn",
+    regional: "Sock / Fingering / Baby / 4-ply",
+    uses: "Sokker, babyplagg, tynne sjal og lette plagg",
+  },
+  {
+    name: "Sport",
+    regional: "Sport / Baby / 5-ply",
+    uses: "Lette plagg, babyklær og tilbehør",
+  },
+  {
+    name: "DK / Light",
+    regional: "DK / Light Worsted / 8-ply",
+    uses: "Gensere, luer, skjerf, babytepper og helårsplagg",
+  },
+  {
+    name: "Worsted / Aran / Medium",
+    regional: "Worsted / Aran / Afghan / 10-ply",
+    uses: "Gensere, luer, votter, tepper og det meste av hverdagsstrikk",
+  },
+  {
+    name: "Bulky / Chunky",
+    regional: "Chunky / Craft / Rug / 12-ply",
+    uses: "Tykke gensere, skjerf, tepper og raske prosjekter",
+  },
+  {
+    name: "Super Bulky / Super Chunky",
+    regional: "Super Chunky / Bulky / Roving",
+    uses: "Tunge tepper, halser og raske tilbehør",
+  },
+  {
+    name: "Jumbo",
+    regional: "Jumbo / Roving",
+    uses: "Armstrikk, tydelig struktur og store tepper",
+  },
+] as const;
+
+const rows = getLocalizedYarnWeightRows(
+  yarnWeightCopy,
+  "masker per 10 cm / 4 in",
+);
 
 const faqs = [
   {

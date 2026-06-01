@@ -2,89 +2,52 @@
 import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import WpiIdentifier from "../../../components/WpiIdentifier.astro";
 import { routes } from "../../../i18n/routes";
+import { getLocalizedYarnWeightRows } from "../../../lib/toolReferenceData";
 
-const rows = [
-  [
-    "0",
-    "Lace",
-    "Cobweb / Light fingering / 2-ply",
-    "33-40+ M / 10 cm",
-    "1,5-2,25 mm",
-    "30-40+ WPI",
-    "Lochmustertücher, Deckchen und sehr feine Spitzenmuster",
-    "Lace, Cobweb, Light fingering, 2-ply (UK)",
-  ],
-  [
-    "1",
-    "Fingering / Sockengarn",
-    "Super Fine / Sock / Baby / 4-ply",
-    "27-32 M / 10 cm",
-    "2,25-3,25 mm",
-    "14-30 WPI",
-    "Socken, Babysachen, feine Tücher und leichte Kleidung",
-    "Sock, Fingering, Baby, 4-ply (UK/AUS)",
-  ],
-  [
-    "2",
-    "Sport",
-    "Fine / Baby / 5-ply",
-    "23-26 M / 10 cm",
-    "3,25-3,75 mm",
-    "12-18 WPI",
-    "Leichte Kleidung, Babysachen und Accessoires",
-    "Sport, Baby, 5-ply (UK/AUS)",
-  ],
-  [
-    "3",
-    "DK / Light",
-    "DK / Light Worsted / 8-ply",
-    "21-24 M / 10 cm",
-    "3,75-4,5 mm",
-    "11-15 WPI",
-    "Pullover, Mützen, Schals, Babydecken und Kleidung fürs ganze Jahr",
-    "DK (Double Knitting), Light Worsted, 8-ply (UK/AUS)",
-  ],
-  [
-    "4",
-    "Worsted / Aran / Medium",
-    "Worsted / Aran / Afghan / 10-ply",
-    "16-20 M / 10 cm",
-    "4,5-5,5 mm",
-    "9-12 WPI",
-    "Pullover, Mützen, Fäustlinge, Decken und viele Alltagsprojekte",
-    "Worsted, Aran, Afghan, 10-ply (AUS)",
-  ],
-  [
-    "5",
-    "Bulky / Chunky",
-    "Chunky / Craft / Rug / 12-ply",
-    "12-15 M / 10 cm",
-    "5,5-8 mm",
-    "6-9 WPI",
-    "Dicke Pullover, Schals, Decken und schnelle Projekte",
-    "Chunky, Craft, Rug, 12-ply (AUS)",
-  ],
-  [
-    "6",
-    "Super Bulky / Super Chunky",
-    "Super Chunky / Bulky / Roving",
-    "7-11 M / 10 cm",
-    "8-12,75 mm",
-    "5-6 WPI",
-    "Dicke Decken, Loops und schnell gestrickte Accessoires",
-    "Super Chunky, Bulky, Roving",
-  ],
-  [
-    "7",
-    "Jumbo",
-    "Jumbo / Roving",
-    "0-6 M / 10 cm",
-    "12,75+ mm",
-    "1-4 WPI",
-    "Armstricken, starke Struktur und sehr dicke Decken",
-    "Jumbo, Roving",
-  ],
-];
+const yarnWeightCopy = [
+  {
+    name: "Lace",
+    regional: "Cobweb / Light fingering / 2-ply",
+    uses: "Lochmustertücher, Deckchen und sehr feine Spitzenmuster",
+  },
+  {
+    name: "Fingering / Sockengarn",
+    regional: "Super Fine / Sock / Baby / 4-ply",
+    uses: "Socken, Babysachen, feine Tücher und leichte Kleidung",
+  },
+  {
+    name: "Sport",
+    regional: "Fine / Baby / 5-ply",
+    uses: "Leichte Kleidung, Babysachen und Accessoires",
+  },
+  {
+    name: "DK / Light",
+    regional: "DK / Light Worsted / 8-ply",
+    uses: "Pullover, Mützen, Schals, Babydecken und Kleidung fürs ganze Jahr",
+  },
+  {
+    name: "Worsted / Aran / Medium",
+    regional: "Worsted / Aran / Afghan / 10-ply",
+    uses: "Pullover, Mützen, Fäustlinge, Decken und viele Alltagsprojekte",
+  },
+  {
+    name: "Bulky / Chunky",
+    regional: "Chunky / Craft / Rug / 12-ply",
+    uses: "Dicke Pullover, Schals, Decken und schnelle Projekte",
+  },
+  {
+    name: "Super Bulky / Super Chunky",
+    regional: "Super Chunky / Bulky / Roving",
+    uses: "Dicke Decken, Loops und schnell gestrickte Accessoires",
+  },
+  {
+    name: "Jumbo",
+    regional: "Jumbo / Roving",
+    uses: "Armstricken, starke Struktur und sehr dicke Decken",
+  },
+] as const;
+
+const rows = getLocalizedYarnWeightRows(yarnWeightCopy, "M / 10 cm");
 
 const faqs = [
   {

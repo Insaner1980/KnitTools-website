@@ -3,6 +3,7 @@ import PageLayout from "../../layouts/PageLayout.astro";
 import { PRICING } from "../../config/pricing";
 import RegionalPrice from "../../components/RegionalPrice.astro";
 import RegionalPricingNote from "../../components/RegionalPricingNote.astro";
+import ToolStructuredData from "../../components/ToolStructuredData.astro";
 import { routes } from "../../i18n/routes";
 
 type Category =
@@ -170,38 +171,12 @@ const faqs = [
   description="Look up any knitting abbreviation or search by technique name. Full glossary of pattern terms from k2tog to psso, organized by category."
   canonicalPath="/tools/knitting-abbreviations/"
   alternates={routes.tool.knittingAbbreviations}
-  showStripe={false}
 >
-  <script
-    type="application/ld+json"
-    set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      name: "Knitting Abbreviations Glossary",
-      description:
-        "Search any knitting abbreviation or find terms by technique name.",
-      url: "https://knittoolsapp.com/tools/knitting-abbreviations/",
-      applicationCategory: "UtilityApplication",
-      operatingSystem: "Any",
-      offers: {
-        "@type": "Offer",
-        price: "0",
-        priceCurrency: "USD",
-      },
-    })}
-  />
-
-  <script
-    type="application/ld+json"
-    set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: faqs.map((f) => ({
-        "@type": "Question",
-        name: f.q,
-        acceptedAnswer: { "@type": "Answer", text: f.a },
-      })),
-    })}
+  <ToolStructuredData
+    name="Knitting Abbreviations Glossary"
+    description="Search any knitting abbreviation or find terms by technique name."
+    canonicalPath="/tools/knitting-abbreviations/"
+    faqs={faqs}
   />
 
   <!-- 1. Tool hero -->
@@ -224,6 +199,7 @@ const faqs = [
             type="text"
             id="abbr-search"
             class="search-input"
+            aria-label="Search abbreviations and techniques"
             placeholder='Search abbreviation or technique (e.g. "ssk", "decrease")'
             autocomplete="off"
           />
@@ -488,7 +464,17 @@ const faqs = [
   <!-- 4. Waitlist CTA -->
   <section class="waitlist-cta" id="join">
     <div class="waitlist-inner">
-      <form class="waitlist-form" action="#" method="post" id="waitlist-form">
+      <form
+        class="waitlist-form"
+        action="#"
+        method="post"
+        id="waitlist-form"
+        data-waitlist-signup
+        data-source="knittools"
+        data-sending-text="Sending..."
+        data-generic-error="Something went wrong. Please try again."
+        data-network-error="Network error. Please check your connection."
+      >
         <label class="visually-hidden" for="waitlist-website"
           >Leave this field empty</label
         >
@@ -545,11 +531,6 @@ const faqs = [
 </PageLayout>
 
 <script>
-  import { gsap } from "gsap";
-  import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-  gsap.registerPlugin(ScrollTrigger);
-
   const prefersReducedMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)",
   ).matches;
@@ -614,6 +595,13 @@ const faqs = [
   });
 
   if (!prefersReducedMotion) {
+    const [{ gsap }, { ScrollTrigger }] = await Promise.all([
+      import("gsap"),
+      import("gsap/ScrollTrigger"),
+    ]);
+
+    gsap.registerPlugin(ScrollTrigger);
+
     // --- Hero entrance timeline ---
     const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
@@ -749,87 +737,6 @@ const faqs = [
           });
         }
       });
-    });
-  }
-
-  // --- Waitlist form states ---
-  const waitlistForm = document.getElementById(
-    "waitlist-form",
-  ) as HTMLFormElement | null;
-  const waitlistContent = document.getElementById("waitlist-row");
-  const waitlistSuccess = document.getElementById("waitlist-success");
-  const waitlistButton = document.getElementById("waitlist-btn");
-  const waitlistError = document.getElementById("waitlist-error");
-  const originalWaitlistButtonText = waitlistButton
-    ? waitlistButton.textContent
-    : "Notify me at launch";
-
-  const showWaitlistSuccess = () => {
-    if (waitlistContent) waitlistContent.style.display = "none";
-    if (waitlistError) {
-      waitlistError.hidden = true;
-      waitlistError.textContent = "";
-    }
-    if (waitlistSuccess) {
-      waitlistSuccess.hidden = false;
-      waitlistSuccess.style.display = "block";
-      waitlistSuccess.setAttribute("aria-hidden", "false");
-    }
-  };
-
-  const showWaitlistError = (message: string) => {
-    if (waitlistButton) {
-      waitlistButton.removeAttribute("disabled");
-      waitlistButton.textContent = originalWaitlistButtonText;
-    }
-    if (waitlistError) {
-      waitlistError.textContent = message;
-      waitlistError.hidden = false;
-    }
-  };
-
-  if (waitlistForm) {
-    waitlistForm.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      if (!waitlistForm.reportValidity()) return;
-
-      if (waitlistButton) {
-        waitlistButton.setAttribute("disabled", "");
-        waitlistButton.textContent = "Sending...";
-      }
-      if (waitlistError) {
-        waitlistError.hidden = true;
-        waitlistError.textContent = "";
-      }
-
-      const emailInput = waitlistForm.querySelector<HTMLInputElement>(
-        'input[type="email"]',
-      );
-      const honeypot = waitlistForm.querySelector<HTMLInputElement>(
-        'input[name="website"]',
-      );
-
-      try {
-        const res = await fetch("https://api.finnvek.com/subscribe", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            email: emailInput ? emailInput.value.trim() : "",
-            source: "knittools",
-            website: honeypot ? honeypot.value : "",
-          }),
-        });
-        const data = await res.json().catch(() => ({}));
-        if (res.ok && data.success) {
-          showWaitlistSuccess();
-        } else {
-          showWaitlistError(
-            data.error || "Something went wrong. Please try again.",
-          );
-        }
-      } catch {
-        showWaitlistError("Network error. Please check your connection.");
-      }
     });
   }
 </script>

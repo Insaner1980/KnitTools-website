@@ -40,7 +40,6 @@ const faqItems = [
   description={pageDescription}
   canonicalPath={canonicalPath}
   alternates={routes.tool.castOnCalculator}
-  showStripe={false}
 >
   <ToolStructuredData
     name="Cast On Calculator"
@@ -126,7 +125,17 @@ const faqItems = [
   <!-- 4. Waitlist CTA (cream) -->
   <section class="waitlist-cta" id="join">
     <div class="waitlist-inner">
-      <form class="waitlist-form" action="#" method="post" id="waitlist-form">
+      <form
+        class="waitlist-form"
+        action="#"
+        method="post"
+        id="waitlist-form"
+        data-waitlist-signup
+        data-source="knittools"
+        data-sending-text="Sending..."
+        data-generic-error="Something went wrong. Please try again."
+        data-network-error="Network error. Please check your connection."
+      >
         <label class="visually-hidden" for="waitlist-website"
           >Leave this field empty</label
         >
@@ -184,16 +193,18 @@ const faqItems = [
 </PageLayout>
 
 <script>
-  import { gsap } from "gsap";
-  import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-  gsap.registerPlugin(ScrollTrigger);
-
   const prefersReducedMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)",
   ).matches;
 
   if (!prefersReducedMotion) {
+    const [{ gsap }, { ScrollTrigger }] = await Promise.all([
+      import("gsap"),
+      import("gsap/ScrollTrigger"),
+    ]);
+
+    gsap.registerPlugin(ScrollTrigger);
+
     // --- Hero entrance timeline ---
     const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
@@ -335,87 +346,6 @@ const faqItems = [
           });
         }
       });
-    });
-  }
-
-  // --- Waitlist form states ---
-  const waitlistForm = document.getElementById(
-    "waitlist-form",
-  ) as HTMLFormElement | null;
-  const waitlistContent = document.getElementById("waitlist-row");
-  const waitlistSuccess = document.getElementById("waitlist-success");
-  const waitlistButton = document.getElementById("waitlist-btn");
-  const waitlistError = document.getElementById("waitlist-error");
-  const originalWaitlistButtonText = waitlistButton
-    ? waitlistButton.textContent
-    : "Notify me at launch";
-
-  const showWaitlistSuccess = () => {
-    if (waitlistContent) waitlistContent.style.display = "none";
-    if (waitlistError) {
-      waitlistError.hidden = true;
-      waitlistError.textContent = "";
-    }
-    if (waitlistSuccess) {
-      waitlistSuccess.hidden = false;
-      waitlistSuccess.style.display = "block";
-      waitlistSuccess.setAttribute("aria-hidden", "false");
-    }
-  };
-
-  const showWaitlistError = (message: string) => {
-    if (waitlistButton) {
-      waitlistButton.removeAttribute("disabled");
-      waitlistButton.textContent = originalWaitlistButtonText;
-    }
-    if (waitlistError) {
-      waitlistError.textContent = message;
-      waitlistError.hidden = false;
-    }
-  };
-
-  if (waitlistForm) {
-    waitlistForm.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      if (!waitlistForm.reportValidity()) return;
-
-      if (waitlistButton) {
-        waitlistButton.setAttribute("disabled", "");
-        waitlistButton.textContent = "Sending...";
-      }
-      if (waitlistError) {
-        waitlistError.hidden = true;
-        waitlistError.textContent = "";
-      }
-
-      const emailInput = waitlistForm.querySelector<HTMLInputElement>(
-        'input[type="email"]',
-      );
-      const honeypot = waitlistForm.querySelector<HTMLInputElement>(
-        'input[name="website"]',
-      );
-
-      try {
-        const res = await fetch("https://api.finnvek.com/subscribe", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            email: emailInput ? emailInput.value.trim() : "",
-            source: "knittools",
-            website: honeypot ? honeypot.value : "",
-          }),
-        });
-        const data = await res.json().catch(() => ({}));
-        if (res.ok && data.success) {
-          showWaitlistSuccess();
-        } else {
-          showWaitlistError(
-            data.error || "Something went wrong. Please try again.",
-          );
-        }
-      } catch {
-        showWaitlistError("Network error. Please check your connection.");
-      }
     });
   }
 </script>

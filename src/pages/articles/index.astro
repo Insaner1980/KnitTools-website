@@ -3,42 +3,20 @@ import PageLayout from "../../layouts/PageLayout.astro";
 import { getCollection } from "astro:content";
 import ArticleCard from "../../components/ArticleCard.astro";
 import ClosingCTA from "../../components/ClosingCTA.astro";
-import {
-  CATEGORY_ORDER,
-  getCategoryDescription,
-  getCategoryLabel,
-} from "../../lib/categories";
+import { CATEGORY_ORDER, getCategoryLabel } from "../../lib/categories";
 import { PRICING } from "../../config/pricing";
-import { isEnglishArticle } from "../../i18n/articles";
+import {
+  buildArticleCategorySections,
+  isArticleVisibleInCurrentBuild,
+  isEnglishArticle,
+} from "../../i18n/articles";
 import { routes } from "../../i18n/routes";
 
-const articles = await getCollection("articles", ({ data }) =>
-  import.meta.env.DEV ? true : !data.draft,
+const articles = (await getCollection("articles")).filter(
+  isArticleVisibleInCurrentBuild,
 );
 const englishArticles = articles.filter(isEnglishArticle);
-
-const byCategoryOrder = (
-  a: (typeof articles)[number],
-  b: (typeof articles)[number],
-) => (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999);
-
-const sections = CATEGORY_ORDER.map((slug) => {
-  const categoryArticles = englishArticles
-    .filter((a) => a.data.category === slug)
-    .sort(byCategoryOrder);
-  const previewArticles = categoryArticles.slice(0, 3);
-
-  return {
-    slug,
-    label: getCategoryLabel(slug),
-    description: getCategoryDescription(slug),
-    articles: previewArticles,
-    remainingCount: Math.max(
-      categoryArticles.length - previewArticles.length,
-      0,
-    ),
-  };
-}).filter((s) => s.articles.length > 0);
+const sections = buildArticleCategorySections(englishArticles, "en");
 
 const totalCount = englishArticles.length;
 ---
@@ -48,7 +26,6 @@ const totalCount = englishArticles.length;
   description="Helpful knitting guides, tips, and tutorials for knitters of all levels. Gauge, yarn, needles, techniques, and app know-how."
   canonicalPath="/articles/"
   alternates={routes.articlesIndex}
-  showStripe={false}
 >
   <section class="articles-header">
     <div class="articles-header-inner">
@@ -92,7 +69,7 @@ const totalCount = englishArticles.length;
           <div class="cat-section-inner">
             <header class="cat-header">
               <div class="cat-header-text">
-                <p class="cat-eyebrow">{section.label}</p>
+                <h2 class="cat-eyebrow">{section.label}</h2>
                 <p class="cat-description">{section.description}</p>
               </div>
               {section.remainingCount > 0 && (

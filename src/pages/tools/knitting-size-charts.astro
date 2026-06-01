@@ -3,6 +3,7 @@ import PageLayout from "../../layouts/PageLayout.astro";
 import { PRICING } from "../../config/pricing";
 import RegionalPrice from "../../components/RegionalPrice.astro";
 import RegionalPricingNote from "../../components/RegionalPricingNote.astro";
+import ToolStructuredData from "../../components/ToolStructuredData.astro";
 import { routes } from "../../i18n/routes";
 
 interface Cell {
@@ -761,38 +762,12 @@ const faqs = [
   description="Standard body measurement charts for knitting. Baby through adult sizes with chest, waist, hips, arm length, and more, in cm and inches."
   canonicalPath="/tools/knitting-size-charts/"
   alternates={routes.tool.knittingSizeCharts}
-  showStripe={false}
 >
-  <script
-    type="application/ld+json"
-    set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      name: "Knitting Size Charts",
-      description:
-        "Standard body measurement reference charts for knitting, from baby through adult sizes.",
-      url: "https://knittoolsapp.com/tools/knitting-size-charts/",
-      applicationCategory: "UtilityApplication",
-      operatingSystem: "Any",
-      offers: {
-        "@type": "Offer",
-        price: "0",
-        priceCurrency: "USD",
-      },
-    })}
-  />
-
-  <script
-    type="application/ld+json"
-    set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: faqs.map((f) => ({
-        "@type": "Question",
-        name: f.q,
-        acceptedAnswer: { "@type": "Answer", text: f.a },
-      })),
-    })}
+  <ToolStructuredData
+    name="Knitting Size Charts"
+    description="Standard body measurement reference charts for knitting, from baby through adult sizes."
+    canonicalPath="/tools/knitting-size-charts/"
+    faqs={faqs}
   />
 
   <!-- 1. Tool hero -->
@@ -813,7 +788,7 @@ const faqs = [
         for the fit you want.
       </p>
 
-      <div class="form-card variant-terracotta is-wide">
+      <div class="form-card variant-terracotta is-wide" data-size-chart>
         <div class="chart-controls gs-form">
           <div class="tab-scroller">
             <div class="tabs" role="tablist" aria-label="Size category">
@@ -827,6 +802,7 @@ const faqs = [
                     aria-selected={p.id === defaultPanel ? "true" : "false"}
                     aria-controls={`panel-${p.id}`}
                     id={`tab-${p.id}`}
+                    tabindex={p.id === defaultPanel ? 0 : -1}
                   >
                     {p.label}
                   </button>
@@ -845,6 +821,7 @@ const faqs = [
               role="radio"
               class="unit-btn is-active"
               data-unit="cm"
+              tabindex="0"
               aria-checked="true">CM</button
             >
             <button
@@ -852,6 +829,7 @@ const faqs = [
               role="radio"
               class="unit-btn"
               data-unit="inch"
+              tabindex="-1"
               aria-checked="false">Inches</button
             >
           </div>
@@ -1057,7 +1035,17 @@ const faqs = [
   <!-- 4. Waitlist CTA -->
   <section class="waitlist-cta" id="join">
     <div class="waitlist-inner">
-      <form class="waitlist-form" action="#" method="post" id="waitlist-form">
+      <form
+        class="waitlist-form"
+        action="#"
+        method="post"
+        id="waitlist-form"
+        data-waitlist-signup
+        data-source="knittools"
+        data-sending-text="Sending..."
+        data-generic-error="Something went wrong. Please try again."
+        data-network-error="Network error. Please check your connection."
+      >
         <label class="visually-hidden" for="waitlist-website"
           >Leave this field empty</label
         >
@@ -1114,58 +1102,18 @@ const faqs = [
 </PageLayout>
 
 <script>
-  import { gsap } from "gsap";
-  import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-  gsap.registerPlugin(ScrollTrigger);
-
   const prefersReducedMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)",
   ).matches;
 
-  // --- Tab switching ---
-  const tabButtons = document.querySelectorAll<HTMLButtonElement>(".tab-btn");
-  const panels = document.querySelectorAll<HTMLElement>(".panel");
-
-  tabButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const target = btn.dataset.tab;
-      tabButtons.forEach((b) => {
-        const isActive = b.dataset.tab === target;
-        b.classList.toggle("is-active", isActive);
-        b.setAttribute("aria-selected", isActive ? "true" : "false");
-      });
-      panels.forEach((p) => {
-        const isActive = p.dataset.panel === target;
-        p.classList.toggle("is-active", isActive);
-        if (isActive) {
-          p.removeAttribute("hidden");
-        } else {
-          p.setAttribute("hidden", "");
-        }
-      });
-    });
-  });
-
-  // --- Unit toggle ---
-  const unitButtons = document.querySelectorAll<HTMLButtonElement>(".unit-btn");
-  const chartWrap = document.getElementById("chart-wrap");
-
-  unitButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const unit = btn.dataset.unit;
-      if (!unit || !chartWrap) return;
-      unitButtons.forEach((b) => {
-        const isActive = b.dataset.unit === unit;
-        b.classList.toggle("is-active", isActive);
-        b.setAttribute("aria-checked", isActive ? "true" : "false");
-      });
-      chartWrap.classList.toggle("show-cm", unit === "cm");
-      chartWrap.classList.toggle("show-inch", unit === "inch");
-    });
-  });
-
   if (!prefersReducedMotion) {
+    const [{ gsap }, { ScrollTrigger }] = await Promise.all([
+      import("gsap"),
+      import("gsap/ScrollTrigger"),
+    ]);
+
+    gsap.registerPlugin(ScrollTrigger);
+
     // --- Hero entrance timeline ---
     const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
@@ -1301,87 +1249,6 @@ const faqs = [
           });
         }
       });
-    });
-  }
-
-  // --- Waitlist form states ---
-  const waitlistForm = document.getElementById(
-    "waitlist-form",
-  ) as HTMLFormElement | null;
-  const waitlistContent = document.getElementById("waitlist-row");
-  const waitlistSuccess = document.getElementById("waitlist-success");
-  const waitlistButton = document.getElementById("waitlist-btn");
-  const waitlistError = document.getElementById("waitlist-error");
-  const originalWaitlistButtonText = waitlistButton
-    ? waitlistButton.textContent
-    : "Notify me at launch";
-
-  const showWaitlistSuccess = () => {
-    if (waitlistContent) waitlistContent.style.display = "none";
-    if (waitlistError) {
-      waitlistError.hidden = true;
-      waitlistError.textContent = "";
-    }
-    if (waitlistSuccess) {
-      waitlistSuccess.hidden = false;
-      waitlistSuccess.style.display = "block";
-      waitlistSuccess.setAttribute("aria-hidden", "false");
-    }
-  };
-
-  const showWaitlistError = (message: string) => {
-    if (waitlistButton) {
-      waitlistButton.removeAttribute("disabled");
-      waitlistButton.textContent = originalWaitlistButtonText;
-    }
-    if (waitlistError) {
-      waitlistError.textContent = message;
-      waitlistError.hidden = false;
-    }
-  };
-
-  if (waitlistForm) {
-    waitlistForm.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      if (!waitlistForm.reportValidity()) return;
-
-      if (waitlistButton) {
-        waitlistButton.setAttribute("disabled", "");
-        waitlistButton.textContent = "Sending...";
-      }
-      if (waitlistError) {
-        waitlistError.hidden = true;
-        waitlistError.textContent = "";
-      }
-
-      const emailInput = waitlistForm.querySelector<HTMLInputElement>(
-        'input[type="email"]',
-      );
-      const honeypot = waitlistForm.querySelector<HTMLInputElement>(
-        'input[name="website"]',
-      );
-
-      try {
-        const res = await fetch("https://api.finnvek.com/subscribe", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            email: emailInput ? emailInput.value.trim() : "",
-            source: "knittools",
-            website: honeypot ? honeypot.value : "",
-          }),
-        });
-        const data = await res.json().catch(() => ({}));
-        if (res.ok && data.success) {
-          showWaitlistSuccess();
-        } else {
-          showWaitlistError(
-            data.error || "Something went wrong. Please try again.",
-          );
-        }
-      } catch {
-        showWaitlistError("Network error. Please check your connection.");
-      }
     });
   }
 </script>

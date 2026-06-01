@@ -1,8 +1,6 @@
 ---
-import { routes } from "../i18n/routes";
-import { danishArticleRoutes, dutchArticleRoutes } from "../i18n/articles";
-import { dutchToolLinks } from "../i18n/dutchTools";
-import { danishToolLinks } from "../i18n/danishTools";
+import { getArticleCategoryLinks } from "../i18n/articles";
+import { getToolLinks } from "../i18n/tools";
 import { useTranslations } from "../i18n/ui";
 import type { Lang } from "../i18n/config";
 import { CONTACT_EMAIL, CONTACT_MAILTO, FINNVEK_URL } from "../config/brand";
@@ -13,273 +11,8 @@ interface Props {
 
 const { lang = "en" } = Astro.props;
 const t = useTranslations(lang);
-const tools =
-  lang === "da"
-    ? danishToolLinks
-    : lang === "nl"
-      ? dutchToolLinks
-      : lang === "fi"
-        ? [
-            { label: "Silmukkalaskuri", href: routes.tool.castOnCalculator.fi },
-            { label: "Lankamuunnin", href: routes.tool.yarnEstimator.fi },
-            { label: "Puikkokoot", href: routes.tool.needleSizeChart.fi },
-            { label: "Lankavahvuudet", href: routes.tool.yarnWeightChart.fi },
-            {
-              label: "Neulelyhenteet",
-              href: routes.tool.knittingAbbreviations.fi,
-            },
-            {
-              label: "Neulekokotaulukot",
-              href: routes.tool.knittingSizeCharts.fi,
-            },
-          ]
-        : lang === "de"
-          ? [
-              {
-                label: "Maschenanschlag-Rechner",
-                href: routes.tool.castOnCalculator.de,
-              },
-              {
-                label: "Garnbedarfsrechner",
-                href: routes.tool.yarnEstimator.de,
-              },
-              {
-                label: "Nadelstärken-Tabelle",
-                href: routes.tool.needleSizeChart.de,
-              },
-              {
-                label: "Garnstärken-Tabelle",
-                href: routes.tool.yarnWeightChart.de,
-              },
-              {
-                label: "Strickabkürzungen",
-                href: routes.tool.knittingAbbreviations.de,
-              },
-              {
-                label: "Größentabellen fürs Stricken",
-                href: routes.tool.knittingSizeCharts.de,
-              },
-            ]
-          : lang === "sv"
-            ? [
-                {
-                  label: "Uppläggningskalkylator",
-                  href: routes.tool.castOnCalculator.sv,
-                },
-                {
-                  label: "Garnåtgångskalkylator",
-                  href: routes.tool.yarnEstimator.sv,
-                },
-                {
-                  label: "Stickstorlekar",
-                  href: routes.tool.needleSizeChart.sv,
-                },
-                {
-                  label: "Garntjocklekar",
-                  href: routes.tool.yarnWeightChart.sv,
-                },
-                {
-                  label: "Stickförkortningar",
-                  href: routes.tool.knittingAbbreviations.sv,
-                },
-                {
-                  label: "Storlekstabeller för stickning",
-                  href: routes.tool.knittingSizeCharts.sv,
-                },
-              ]
-            : lang === "no"
-              ? [
-                  {
-                    label: "Oppleggskalkulator",
-                    href: routes.tool.castOnCalculator.no,
-                  },
-                  { label: "Garnberegner", href: routes.tool.yarnEstimator.no },
-                  {
-                    label: "Pinnestørrelser",
-                    href: routes.tool.needleSizeChart.no,
-                  },
-                  {
-                    label: "Garntykkelser",
-                    href: routes.tool.yarnWeightChart.no,
-                  },
-                  {
-                    label: "Strikkeforkortelser",
-                    href: routes.tool.knittingAbbreviations.no,
-                  },
-                  {
-                    label: "Størrelsestabeller for strikking",
-                    href: routes.tool.knittingSizeCharts.no,
-                  },
-                ]
-              : lang === "fr"
-                ? [
-                    {
-                      label: "Calculateur de mailles à monter",
-                      href: routes.tool.castOnCalculator.fr,
-                    },
-                    {
-                      label: "Estimateur de quantité de laine",
-                      href: routes.tool.yarnEstimator.fr,
-                    },
-                    {
-                      label: "Tailles d'aiguilles",
-                      href: routes.tool.needleSizeChart.fr,
-                    },
-                    {
-                      label: "Épaisseurs de fil",
-                      href: routes.tool.yarnWeightChart.fr,
-                    },
-                    {
-                      label: "Abréviations tricot",
-                      href: routes.tool.knittingAbbreviations.fr,
-                    },
-                    {
-                      label: "Tableaux de tailles tricot",
-                      href: routes.tool.knittingSizeCharts.fr,
-                    },
-                  ]
-                : [
-                    {
-                      label: "Cast On Calculator",
-                      href: routes.tool.castOnCalculator.en,
-                    },
-                    {
-                      label: "Yarn Estimator",
-                      href: routes.tool.yarnEstimator.en,
-                    },
-                    {
-                      label: "Needle Size Chart",
-                      href: routes.tool.needleSizeChart.en,
-                    },
-                    {
-                      label: "Yarn Weight Chart",
-                      href: routes.tool.yarnWeightChart.en,
-                    },
-                    {
-                      label: "Knitting Abbreviations",
-                      href: routes.tool.knittingAbbreviations.en,
-                    },
-                    {
-                      label: "Knitting Size Charts",
-                      href: routes.tool.knittingSizeCharts.en,
-                    },
-                  ];
-
-const articles =
-  lang === "da"
-    ? [
-        {
-          label: "Strikkefasthed og beregninger",
-          href: danishArticleRoutes.category["gauge-calculations"],
-        },
-        { label: "Garn", href: danishArticleRoutes.category.yarn },
-        { label: "Strikkepinde", href: danishArticleRoutes.category.needles },
-        { label: "Teknikker", href: danishArticleRoutes.category.techniques },
-        {
-          label: "App og værktøjer",
-          href: danishArticleRoutes.category["app-tools"],
-        },
-      ]
-    : lang === "nl"
-      ? [
-          {
-            label: "Stekenverhouding en berekeningen",
-            href: dutchArticleRoutes.category["gauge-calculations"],
-          },
-          { label: "Garen", href: dutchArticleRoutes.category.yarn },
-          { label: "Breinaalden", href: dutchArticleRoutes.category.needles },
-          { label: "Technieken", href: dutchArticleRoutes.category.techniques },
-          {
-            label: "App en tools",
-            href: dutchArticleRoutes.category["app-tools"],
-          },
-        ]
-      : lang === "fi"
-        ? [
-            {
-              label: "Neuletiheys ja laskurit",
-              href: routes.category["gauge-calculations"].fi,
-            },
-            { label: "Langat", href: routes.category.yarn.fi },
-            { label: "Puikot", href: routes.category.needles.fi },
-            { label: "Tekniikat", href: routes.category.techniques.fi },
-            {
-              label: "Sovellus ja työkalut",
-              href: routes.category["app-tools"].fi,
-            },
-          ]
-        : lang === "de"
-          ? [
-              {
-                label: "Maschenprobe und Rechner",
-                href: routes.category["gauge-calculations"].de,
-              },
-              { label: "Garn", href: routes.category.yarn.de },
-              { label: "Nadeln", href: routes.category.needles.de },
-              { label: "Techniken", href: routes.category.techniques.de },
-              { label: "App und Tools", href: routes.category["app-tools"].de },
-            ]
-          : lang === "sv"
-            ? [
-                {
-                  label: "Stickfasthet och beräkningar",
-                  href: routes.category["gauge-calculations"].sv,
-                },
-                { label: "Garn", href: routes.category.yarn.sv },
-                { label: "Stickor", href: routes.category.needles.sv },
-                { label: "Tekniker", href: routes.category.techniques.sv },
-                {
-                  label: "App och verktyg",
-                  href: routes.category["app-tools"].sv,
-                },
-              ]
-            : lang === "no"
-              ? [
-                  {
-                    label: "Strikkefasthet og beregninger",
-                    href: routes.category["gauge-calculations"].no,
-                  },
-                  { label: "Garn", href: routes.category.yarn.no },
-                  { label: "Pinner", href: routes.category.needles.no },
-                  { label: "Teknikker", href: routes.category.techniques.no },
-                  {
-                    label: "App og verktøy",
-                    href: routes.category["app-tools"].no,
-                  },
-                ]
-              : lang === "fr"
-                ? [
-                    {
-                      label: "Échantillon et calculs",
-                      href: routes.category["gauge-calculations"].fr,
-                    },
-                    { label: "Fils et laine", href: routes.category.yarn.fr },
-                    { label: "Aiguilles", href: routes.category.needles.fr },
-                    {
-                      label: "Techniques",
-                      href: routes.category.techniques.fr,
-                    },
-                    {
-                      label: "Application et outils",
-                      href: routes.category["app-tools"].fr,
-                    },
-                  ]
-                : [
-                    {
-                      label: "Gauge & Calculations",
-                      href: routes.category["gauge-calculations"].en,
-                    },
-                    { label: "Yarn", href: routes.category.yarn.en },
-                    { label: "Needles", href: routes.category.needles.en },
-                    {
-                      label: "Techniques",
-                      href: routes.category.techniques.en,
-                    },
-                    {
-                      label: "App & Tools",
-                      href: routes.category["app-tools"].en,
-                    },
-                  ];
+const tools = getToolLinks(lang);
+const articles = getArticleCategoryLinks(lang);
 ---
 
 <footer class="footer-editorial">
@@ -287,7 +20,7 @@ const articles =
     <div class="cols-row">
       <div class="cols">
         <section>
-          <h4>{t("tools")}</h4>
+          <h2>{t("tools")}</h2>
           <ul>
             {
               tools.map((t) => (
@@ -299,7 +32,7 @@ const articles =
           </ul>
         </section>
         <section>
-          <h4>{t("articles")}</h4>
+          <h2>{t("articles")}</h2>
           <ul>
             {
               articles.map((a) => (
@@ -311,7 +44,7 @@ const articles =
           </ul>
         </section>
         <section>
-          <h4>{t("app")}</h4>
+          <h2>{t("app")}</h2>
           <ul>
             <li><span class="muted">{t("launchingSoon")}</span></li>
             <li><a href="/about/">About</a></li>
@@ -332,6 +65,8 @@ const articles =
         class="footer-seal"
         width="220"
         height="220"
+        loading="lazy"
+        decoding="async"
       />
     </div>
 
@@ -371,7 +106,7 @@ const articles =
   .cols section {
     min-width: 0;
   }
-  h4 {
+  h2 {
     font-family: var(--font-body);
     font-size: 12px;
     font-weight: 600;

@@ -158,7 +158,7 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
     />
     <link
       rel="preload"
-      href="/fonts/general-sans-500.woff2"
+      href="/fonts/general-sans-600.woff2"
       as="font"
       type="font/woff2"
       crossorigin
@@ -172,13 +172,6 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
     />
 
     <!-- Global styles imported via frontmatter -->
-
-    <!-- Cloudflare Web Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "90537a60e26f433485a8fdaf6b076843"}'
-    ></script><!-- End Cloudflare Web Analytics -->
   </head>
   <body class={bodyClass}>
     <a href="#main-content" class="skip-link">{t("skipToContent")}</a>
@@ -186,26 +179,11 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
       <slot />
     </div>
     <script>
-      if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-        const observer = new IntersectionObserver(
-          (entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                entry.target.classList.add("visible");
-                observer.unobserve(entry.target);
-              }
-            });
-          },
-          { threshold: 0, rootMargin: "0px 0px -20% 0px" },
-        );
-        document
-          .querySelectorAll(".reveal")
-          .forEach((el) => observer.observe(el));
-      } else {
-        document
-          .querySelectorAll(".reveal")
-          .forEach((el) => el.classList.add("visible"));
-      }
+      import { initSizeChartControls } from "../scripts/sizeChartControls";
+      import { initWaitlistSignups } from "../scripts/waitlistSignup";
+
+      initWaitlistSignups();
+      initSizeChartControls();
     </script>
     <script
       define:vars={{
@@ -214,6 +192,8 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
       }}
     >
       (() => {
+        const countryStorageKey = "knittools-pricing-country";
+
         const getTier = (country) => {
           if (!country) return "";
           return (
@@ -243,7 +223,27 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
           return "";
         };
 
+        const readCachedCountry = () => {
+          try {
+            return sessionStorage.getItem(countryStorageKey) || "";
+          } catch {
+            return "";
+          }
+        };
+
+        const writeCachedCountry = (country) => {
+          if (!country) return;
+          try {
+            sessionStorage.setItem(countryStorageKey, country);
+          } catch {
+            // sessionStorage can be unavailable in strict privacy modes.
+          }
+        };
+
         const getCloudflareCountry = async () => {
+          const cachedCountry = readCachedCountry();
+          if (cachedCountry) return cachedCountry;
+
           try {
             const controller = new AbortController();
             const timeout = window.setTimeout(() => controller.abort(), 1200);
@@ -254,7 +254,9 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
             window.clearTimeout(timeout);
             if (!response.ok) return "";
             const trace = await response.text();
-            return trace.match(/^loc=([A-Z]{2})$/m)?.[1] || "";
+            const country = trace.match(/^loc=([A-Z]{2})$/m)?.[1] || "";
+            writeCachedCountry(country);
+            return country;
           } catch {
             return "";
           }
@@ -279,5 +281,12 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
         });
       })();
     </script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      is:inline
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "90537a60e26f433485a8fdaf6b076843"}'
+    ></script><!-- End Cloudflare Web Analytics -->
   </body>
 </html>
