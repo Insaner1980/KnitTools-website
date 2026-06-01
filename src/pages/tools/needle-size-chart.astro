@@ -486,10 +486,10 @@ import { routes } from "../../i18n/routes";
           autocomplete="off"
         />
         <div class="waitlist-content-layer" id="waitlist-content-layer">
-          <h2 class="gs-clip-reveal waitlist-head">
+          <h2 class="waitlist-head">
             Where every stitch<br /><em>counts.</em>
           </h2>
-          <div class="waitlist-row gs-fade-up" id="waitlist-row">
+          <div class="waitlist-row" id="waitlist-row" data-content>
             <input
               type="email"
               name="email"
@@ -501,7 +501,15 @@ import { routes } from "../../i18n/routes";
               >Notify me at launch</button
             >
           </div>
-          <p class="gs-fade-up waitlist-meta">
+          <p
+            class="waitlist-success"
+            id="waitlist-success"
+            aria-hidden="true"
+            hidden
+          >
+            You're in! We'll notify you at launch.
+          </p>
+          <p class="waitlist-meta">
             Coming {PRICING.launchMonthLabel} to Google Play. Launch price <strong
               ><RegionalPrice phase="launch" /></strong
             >. Regular price <strong><RegionalPrice phase="permanent" /></strong
@@ -514,21 +522,6 @@ import { routes } from "../../i18n/routes";
             aria-live="polite"
             hidden
           >
-          </p>
-        </div>
-
-        <div
-          class="waitlist-loading-state"
-          id="waitlist-loading"
-          aria-hidden="true"
-        >
-          <span class="big-spinner" aria-live="polite">Sending&hellip;</span>
-        </div>
-
-        <div class="waitlist-success" id="waitlist-success" aria-hidden="true">
-          <p class="success-text">
-            <span class="success-label">You're in!</span>
-            <span class="success-sub">We'll notify you at launch.</span>
           </p>
         </div>
       </form>
@@ -750,88 +743,87 @@ import { routes } from "../../i18n/routes";
         }
       });
     });
+  }
 
-    // --- Waitlist Form Morph Animation ---
-    const waitlistForm = document.getElementById("waitlist-form");
-    const waitlistContentLayer = document.getElementById(
-      "waitlist-content-layer",
-    );
-    const waitlistLoading = document.getElementById("waitlist-loading");
-    const waitlistSuccess = document.getElementById("waitlist-success");
+  // --- Waitlist form states ---
+  const waitlistForm = document.getElementById(
+    "waitlist-form",
+  ) as HTMLFormElement | null;
+  const waitlistContent = document.getElementById("waitlist-row");
+  const waitlistSuccess = document.getElementById("waitlist-success");
+  const waitlistButton = document.getElementById("waitlist-btn");
+  const waitlistError = document.getElementById("waitlist-error");
+  const originalWaitlistButtonText = waitlistButton
+    ? waitlistButton.textContent
+    : "Notify me at launch";
 
-    if (
-      waitlistForm &&
-      waitlistContentLayer &&
-      waitlistLoading &&
-      waitlistSuccess
-    ) {
-      waitlistForm.addEventListener("submit", async (e) => {
-        e.preventDefault();
-
-        const emailInput = waitlistForm.querySelector<HTMLInputElement>(
-          'input[type="email"]',
-        );
-        const honeypot = waitlistForm.querySelector<HTMLInputElement>(
-          'input[name="website"]',
-        );
-        const errorEl = document.getElementById("waitlist-error");
-
-        // Lock height to prevent page jumping when content becomes absolute
-        const height = waitlistForm.offsetHeight;
-        waitlistForm.style.minHeight = `${height}px`;
-
-        if (errorEl) {
-          errorEl.hidden = true;
-          errorEl.textContent = "";
-        }
-
-        // 1. Morph to Big Spinner Loading state
-        waitlistContentLayer.classList.add("is-hidden");
-        waitlistLoading.classList.add("is-visible");
-
-        let success = false;
-        let errorMessage = "Something went wrong. Please try again.";
-
-        try {
-          const res = await fetch("https://api.finnvek.com/subscribe", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              email: emailInput ? emailInput.value.trim() : "",
-              source: "knittools",
-              website: honeypot ? honeypot.value : "",
-            }),
-          });
-          const data = await res.json().catch(() => ({}));
-          if (res.ok && data.success) {
-            success = true;
-          } else if (data.error) {
-            errorMessage = data.error;
-          }
-        } catch {
-          errorMessage = "Network error. Please check your connection.";
-        }
-
-        // Minimum spinner visibility for perceived smoothness
-        await new Promise((r) => setTimeout(r, 600));
-
-        if (success) {
-          // 2. Morph loading -> success
-          waitlistLoading.classList.remove("is-visible");
-          waitlistLoading.classList.add("is-hidden");
-          waitlistSuccess.classList.add("is-visible");
-        } else {
-          // 2b. Revert loading -> content with inline error
-          waitlistLoading.classList.remove("is-visible");
-          waitlistLoading.classList.add("is-hidden");
-          waitlistContentLayer.classList.remove("is-hidden");
-          if (errorEl) {
-            errorEl.textContent = errorMessage;
-            errorEl.hidden = false;
-          }
-        }
-      });
+  const showWaitlistSuccess = () => {
+    if (waitlistContent) waitlistContent.style.display = "none";
+    if (waitlistError) {
+      waitlistError.hidden = true;
+      waitlistError.textContent = "";
     }
+    if (waitlistSuccess) {
+      waitlistSuccess.hidden = false;
+      waitlistSuccess.style.display = "block";
+      waitlistSuccess.setAttribute("aria-hidden", "false");
+    }
+  };
+
+  const showWaitlistError = (message: string) => {
+    if (waitlistButton) {
+      waitlistButton.removeAttribute("disabled");
+      waitlistButton.textContent = originalWaitlistButtonText;
+    }
+    if (waitlistError) {
+      waitlistError.textContent = message;
+      waitlistError.hidden = false;
+    }
+  };
+
+  if (waitlistForm) {
+    waitlistForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      if (!waitlistForm.reportValidity()) return;
+
+      if (waitlistButton) {
+        waitlistButton.setAttribute("disabled", "");
+        waitlistButton.textContent = "Sending...";
+      }
+      if (waitlistError) {
+        waitlistError.hidden = true;
+        waitlistError.textContent = "";
+      }
+
+      const emailInput = waitlistForm.querySelector<HTMLInputElement>(
+        'input[type="email"]',
+      );
+      const honeypot = waitlistForm.querySelector<HTMLInputElement>(
+        'input[name="website"]',
+      );
+
+      try {
+        const res = await fetch("https://api.finnvek.com/subscribe", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            email: emailInput ? emailInput.value.trim() : "",
+            source: "knittools",
+            website: honeypot ? honeypot.value : "",
+          }),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (res.ok && data.success) {
+          showWaitlistSuccess();
+        } else {
+          showWaitlistError(
+            data.error || "Something went wrong. Please try again.",
+          );
+        }
+      } catch {
+        showWaitlistError("Network error. Please check your connection.");
+      }
+    });
   }
 </script>
 
@@ -1188,23 +1180,8 @@ import { routes } from "../../i18n/routes";
     width: 100%;
   }
 
-  .waitlist-content-layer,
-  .waitlist-loading-state,
-  .waitlist-success {
-    transition:
-      opacity 400ms cubic-bezier(0.4, 0, 0.2, 1),
-      transform 400ms cubic-bezier(0.16, 1, 0.3, 1);
-  }
-
   .waitlist-content-layer {
     width: 100%;
-  }
-
-  .waitlist-content-layer.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(0.96);
-    position: absolute;
   }
 
   .waitlist-row {
@@ -1259,101 +1236,16 @@ import { routes } from "../../i18n/routes";
     outline: 2px solid var(--terracotta);
     outline-offset: 3px;
   }
-
-  /* Big Spinner Layer */
-  .waitlist-loading-state {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  .waitlist-loading-state.is-visible {
-    position: relative;
-    opacity: 1;
-    transform: scale(1);
-    pointer-events: auto;
-  }
-  .waitlist-loading-state.is-hidden {
-    position: absolute;
-    opacity: 0;
-    transform: scale(1.2);
-    pointer-events: none;
-  }
-
-  .big-spinner {
-    font-family: var(--mono);
-    font-size: 13px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    padding: 24px 0;
-    animation: waitlistPulse 1.6s ease-in-out infinite;
-  }
-  @keyframes waitlistPulse {
-    0%,
-    100% {
-      opacity: 0.45;
-    }
-    50% {
-      opacity: 1;
-    }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .big-spinner {
-      animation: none;
-      opacity: 0.8;
-    }
-  }
-
-  /* Success Layer */
   .waitlist-success {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(8px) scale(0.98);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  .waitlist-success.is-visible {
-    opacity: 1;
-    position: relative;
-    transform: translateY(0) scale(1);
-    pointer-events: auto;
-    transition-delay: 100ms;
-  }
-
-  .success-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: none;
+    font-family: var(--body-ed);
+    font-style: italic;
+    font-size: 20px;
+    color: var(--terracotta);
     margin: 0;
-    padding: 12px 0;
+    padding: 8px 0;
     text-align: center;
   }
-
-  .success-label {
-    font-family: var(--serif);
-    font-style: italic;
-    font-size: clamp(2rem, 4vw, 3rem);
-    color: var(--terracotta);
-    line-height: 1;
-  }
-
-  .success-sub {
-    font-family: var(--body-ed);
-    font-size: 1.15rem;
-    color: var(--ink);
-    font-style: italic;
-    margin-top: 8px;
-  }
-
   /* ---- Mobile ---- */
   @media (max-width: 768px) {
     .tool-hero,
