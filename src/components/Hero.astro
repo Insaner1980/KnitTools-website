@@ -144,11 +144,11 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
 <style>
   .hero-editorial {
     position: relative;
-    padding: 4rem 2rem 4rem;
+    padding: 0.75rem 2rem;
     overflow: hidden;
-    /* 80px body padding + ~70px marquee = 150px reserved so the
-       marquee strip lands fully inside the first viewport. */
-    min-height: calc(100vh - 160px);
+    /* 80px body padding + ~70px marquee reserved so the strip is fully
+       visible in the first desktop viewport. */
+    min-height: calc(100svh - 150px);
     display: flex;
     align-items: center;
   }
