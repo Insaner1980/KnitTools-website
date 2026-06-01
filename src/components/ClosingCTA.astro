@@ -21,7 +21,17 @@ const t = useTranslations(lang);
       {t("closingHeadingStart")}<br /><em>{t("closingHeadingEm")}</em>
     </h2>
 
-    <form class="signup" id="join" action="#" method="post">
+    <form
+      class="signup"
+      id="join"
+      action="#"
+      method="post"
+      data-waitlist-signup
+      data-source="knittools"
+      data-sending-text={t("sending")}
+      data-generic-error={t("genericError")}
+      data-network-error={t("networkError")}
+    >
       <label for="closing-email" class="visually-hidden"
         >{t("emailAddress")}</label
       >
@@ -42,15 +52,32 @@ const t = useTranslations(lang);
           name="email"
           type="email"
           placeholder={t("emailPlaceholder")}
+          aria-describedby="closing-signup-success closing-signup-error"
           required
           autocomplete="email"
         />
         <button type="submit" class="btn-primary">{t("notifyAtLaunch")}</button>
       </div>
-      <p class="signup-success" data-success aria-hidden="true">
+      <p
+        id="closing-signup-success"
+        class="signup-success"
+        data-success
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+        aria-hidden="true"
+        hidden
+      >
         {t("notifySuccess")}
       </p>
-      <p class="signup-error" data-error aria-hidden="true">
+      <p
+        id="closing-signup-error"
+        class="signup-error"
+        data-error
+        role="alert"
+        aria-hidden="true"
+        hidden
+      >
         {t("genericError")}
       </p>
     </form>
@@ -58,89 +85,6 @@ const t = useTranslations(lang);
     <p class="meta">{t("closingMeta")}</p>
   </div>
 </section>
-
-<script
-  is:inline
-  define:vars={{
-    notifyAtLaunchText: t("notifyAtLaunch"),
-    sendingText: t("sending"),
-    genericErrorText: t("genericError"),
-    networkErrorText: t("networkError"),
-  }}
->
-  (() => {
-    const ENDPOINT = "https://api.finnvek.com/subscribe";
-
-    const form = document.getElementById("join");
-    if (!form) return;
-
-    const content = form.querySelector("[data-content]");
-    const success = form.querySelector("[data-success]");
-    const errorEl = form.querySelector("[data-error]");
-    const button = form.querySelector('button[type="submit"]');
-    const emailInput = form.querySelector('input[type="email"]');
-    const honeypot = form.querySelector('input[name="website"]');
-    const originalText = button ? button.textContent : notifyAtLaunchText;
-
-    const showSuccess = () => {
-      if (content) content.style.display = "none";
-      if (errorEl) {
-        errorEl.style.display = "none";
-        errorEl.setAttribute("aria-hidden", "true");
-      }
-      if (success) {
-        success.style.display = "block";
-        success.setAttribute("aria-hidden", "false");
-      }
-    };
-
-    const showError = (message) => {
-      if (button) {
-        button.disabled = false;
-        button.textContent = originalText;
-      }
-      if (errorEl) {
-        errorEl.textContent = message;
-        errorEl.style.display = "block";
-        errorEl.setAttribute("aria-hidden", "false");
-      }
-    };
-
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      if (!form.reportValidity()) return;
-
-      if (button) {
-        button.disabled = true;
-        button.textContent = sendingText;
-      }
-      if (errorEl) {
-        errorEl.style.display = "none";
-        errorEl.setAttribute("aria-hidden", "true");
-      }
-
-      try {
-        const res = await fetch(ENDPOINT, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            email: emailInput ? emailInput.value.trim() : "",
-            source: "knittools",
-            website: honeypot ? honeypot.value : "",
-          }),
-        });
-        const data = await res.json().catch(() => ({}));
-        if (res.ok && data.success) {
-          showSuccess();
-        } else {
-          showError(data.error || genericErrorText);
-        }
-      } catch {
-        showError(networkErrorText);
-      }
-    });
-  })();
-</script>
 
 <style>
   .closing-cta {

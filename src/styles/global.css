@@ -69,41 +69,21 @@
 /* --- Colors --- */
 
 :root {
-  --safe-pr-desktop: clamp(48px, calc(320px - (100vw - 1400px) / 2), 320px);
-  --safe-pr-mobile: clamp(20px, calc(155px - (100vw - 1400px) / 2), 155px);
-  --stripe-width-desktop: 275px;
-  --stripe-width-mobile: 135px;
-  --stripe-column-width-desktop: 55px;
-  --stripe-column-width-mobile: 27px;
-  --dark: #2e2a26;
-  --dark-deep: #262320;
-  --dark-surface: #3a3531;
-
   --cream: #e8e4d0;
   --cream-muted: #d4d0bd;
 
   --accent: #c45100;
   --accent-hover: #a84500;
-  --accent-soft: rgba(196, 81, 0, 0.15);
 
-  /* Stripe-derived palette — used site-wide, not only in the stripe */
+  /* Stripe-derived card palette — still used by article and tool cards. */
   --stripe-terracotta: #a05038;
   --stripe-rust: #c2703e;
+  --stripe-rust-accessible: #9f5427;
   --stripe-sand: #c4a661;
   --stripe-brown: #6b4332;
   --stripe-teal: #5b8072;
+  --stripe-teal-accessible: #4f7165;
 
-  /* Semantic aliases — use these in components */
-  --accent-warm: var(--stripe-rust);
-  --accent-cool: var(--stripe-teal);
-  --accent-earth: var(--stripe-sand);
-  --surface-deep: var(--stripe-brown);
-
-  --avocado: #8ba44a;
-  --mustard: #c9a435;
-  --dusty-rose: #b8908f;
-
-  --text-on-dark: #e8e4d0;
   --text-on-dark-muted: #b8b4a4;
   --text-on-light: #2e2a26;
   --text-on-light-muted: #5c5750;
@@ -113,51 +93,17 @@
   --font-body:
     "General Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
-  /* Shared label/display scale (Big Shoulders Display) — kolme hierarkiatasoa:
-     - ui: labelit (navbar, eyebrow, footer, trust, napit, chipsit)
-     - card: korttien ja osioiden otsikot (bento-kortit, tools-listan kortit)
-     - display: sivun päätason isot otsikot ja tulosluvut (tool-H1, laskurien vastaus) */
+  /* Shared label/card scale. Token names are legacy but values are active. */
   --bebas-ui-size: 1.05rem;
-  --bebas-ui-weight: 400;
-  --bebas-ui-tracking: 2.5px;
-
   --bebas-card-size: 1.3rem;
   --bebas-card-tracking: 0.04em;
 
-  --bebas-display-size: clamp(2rem, 4vw, 3rem);
-  --bebas-display-tracking: 0.04em;
-
-  /* Shared layout containers */
-  --container-page-max: 1200px;
-  --container-content-max: 1100px;
-  --container-compact-max: 900px;
-  --container-narrow-max: 800px;
-  --container-text-max: 720px;
-  --container-copy-max: 620px;
   --container-form-max: 420px;
 
-  /* Shared section rhythm */
-  --section-padding-y-mobile: 100px;
-  --section-padding-y-desktop: 140px;
-  --section-padding-x-mobile: 20px;
-  --section-padding-x-desktop: 48px;
-  --section-padding-y-compact: 48px;
-
-  /* Shared body/meta type scale */
-  --type-body-lg: clamp(1.12rem, 1.6vw, 1.32rem);
   --type-body-md: 1rem;
-  --type-body-sm: 0.98rem;
   --type-meta-md: 1.06rem;
-  --type-meta-sm: 0.98rem;
-  --type-meta-fine: 0.8rem;
 
-  /* Shared label/accent tokens */
-  --label-on-light: var(--accent);
-  --label-on-dark: var(--stripe-sand);
-  --accent-on-light: var(--accent);
-  --accent-on-dark: var(--stripe-sand);
-
-  /* v11 editorial palette — used on landing page only */
+  /* Editorial palette used across landing, article, and tool surfaces. */
   --paper: #f4ead9;
   --paper-2: #eadfc9;
   --ink: #2a1e17;
@@ -166,7 +112,6 @@
   --sage: #5b8072;
   --walnut: #6b4332;
   --amber: #c2703e;
-  --amber-hover: #a05f32;
   --wheat: #c4a661;
 
   --serif: "Lalezar", Georgia, serif;
@@ -192,33 +137,6 @@
   :root {
     --landing-section-title-size: 5.25rem;
   }
-}
-
-/* v11 landing-page body scope — inverted palette (dark ink surface, cream ink text) */
-body.landing {
-  --paper: #2a1e17;
-  --paper-2: #3a2a22;
-  --ink: #f4ead9;
-  --ink-soft: #c8bda7;
-  --terracotta: #c2703e;
-
-  background: var(--paper);
-  color: var(--ink);
-  font-family: var(--body-ed);
-  font-size: 17px;
-  line-height: 1.55;
-}
-
-body.landing .rule-thin {
-  height: 1px;
-  background: var(--ink);
-  opacity: 0.6;
-  border: 0;
-}
-body.landing .rule-double {
-  border-top: 1px solid var(--ink);
-  border-bottom: 1px solid var(--ink);
-  height: 6px;
 }
 
 /* --- Reset & Global --- */
@@ -324,35 +242,6 @@ p {
   h3 {
     font-size: var(--bebas-card-size);
   }
-}
-
-/* --- Label UI utility (Big Shoulders Display) ---
-   Single source of truth for nav, eyebrows, footer headings,
-   trust labels, bento card H3s, section tags, CTA buttons.
-   Do not redefine these four font rules elsewhere — use this class
-   or @extend the same tokens. */
-
-.bebas-label {
-  font-family: var(--font-body);
-  font-size: var(--bebas-ui-size);
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  line-height: 1.2;
-}
-
-/* --- Section tag --- */
-
-.section-tag {
-  display: block;
-  font-family: var(--font-body);
-  font-size: var(--bebas-ui-size);
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--label-on-light);
-  margin-bottom: 1rem;
-  line-height: 1.4;
 }
 
 /* --- Shared waitlist UI --- */
@@ -614,19 +503,6 @@ p {
   }
   html {
     scroll-behavior: auto;
-  }
-}
-
-/* --- Safe Stripe Offsets --- */
-.hero-text,
-.feature-text {
-  padding-right: var(--safe-pr-mobile);
-}
-
-@media (min-width: 769px) {
-  .hero-text,
-  .feature-text {
-    padding-right: 0; /* Reset on desktop, handled by layout specifically */
   }
 }
 

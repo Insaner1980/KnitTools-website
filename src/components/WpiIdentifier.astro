@@ -1,13 +1,6 @@
 ---
 import type { Lang } from "../i18n/config";
-
-interface WpiCategory {
-  cyc: number;
-  name: string;
-  regional: string;
-  min: number;
-  max: number;
-}
+import { getWpiCategories } from "../lib/toolReferenceData";
 
 interface Copy {
   heading: string;
@@ -157,352 +150,90 @@ const copy: Copy = {
   },
 }[lang];
 
-const categories: WpiCategory[] =
-  lang === "fi"
-    ? [
-        { cyc: 0, name: "Lace", regional: "Cobweb/Lace", min: 30, max: 40 },
-        {
-          cyc: 1,
-          name: "Super Fine",
-          regional: "Sock/Fingering",
-          min: 14,
-          max: 30,
-        },
-        { cyc: 2, name: "Fine", regional: "Sport", min: 12, max: 18 },
-        { cyc: 3, name: "Light", regional: "DK/8-ply", min: 11, max: 15 },
-        { cyc: 4, name: "Medium", regional: "Worsted/Aran", min: 9, max: 12 },
-        { cyc: 5, name: "Bulky", regional: "Chunky", min: 6, max: 9 },
-        {
-          cyc: 6,
-          name: "Super Bulky",
-          regional: "Super Chunky",
-          min: 5,
-          max: 6,
-        },
-        { cyc: 7, name: "Jumbo", regional: "Jumbo", min: 1, max: 4 },
-      ]
-    : lang === "de"
-      ? [
-          { cyc: 0, name: "Lace", regional: "Cobweb/Lace", min: 30, max: 40 },
-          {
-            cyc: 1,
-            name: "Fingering / Sockengarn",
-            regional: "Super Fine",
-            min: 14,
-            max: 30,
-          },
-          { cyc: 2, name: "Sport", regional: "Fine", min: 12, max: 18 },
-          { cyc: 3, name: "DK / Light", regional: "Light", min: 11, max: 15 },
-          {
-            cyc: 4,
-            name: "Worsted / Aran / Medium",
-            regional: "Medium",
-            min: 9,
-            max: 12,
-          },
-          { cyc: 5, name: "Bulky / Chunky", regional: "Bulky", min: 6, max: 9 },
-          {
-            cyc: 6,
-            name: "Super Bulky / Super Chunky",
-            regional: "Super Bulky",
-            min: 5,
-            max: 6,
-          },
-          { cyc: 7, name: "Jumbo", regional: "Jumbo", min: 1, max: 4 },
-        ]
-      : lang === "sv"
-        ? [
-            { cyc: 0, name: "Lace", regional: "Cobweb/Lace", min: 30, max: 40 },
-            {
-              cyc: 1,
-              name: "Fingering / sockgarn",
-              regional: "Super Fine",
-              min: 14,
-              max: 30,
-            },
-            { cyc: 2, name: "Sport", regional: "Fine", min: 12, max: 18 },
-            { cyc: 3, name: "DK / Light", regional: "Light", min: 11, max: 15 },
-            {
-              cyc: 4,
-              name: "Worsted / Aran / Medium",
-              regional: "Medium",
-              min: 9,
-              max: 12,
-            },
-            {
-              cyc: 5,
-              name: "Bulky / Chunky",
-              regional: "Bulky",
-              min: 6,
-              max: 9,
-            },
-            {
-              cyc: 6,
-              name: "Super Bulky",
-              regional: "Super Bulky",
-              min: 5,
-              max: 6,
-            },
-            { cyc: 7, name: "Jumbo", regional: "Jumbo", min: 1, max: 4 },
-          ]
-        : lang === "no"
-          ? [
-              {
-                cyc: 0,
-                name: "Lace",
-                regional: "Cobweb/Lace",
-                min: 30,
-                max: 40,
-              },
-              {
-                cyc: 1,
-                name: "Fingering / sokkegarn",
-                regional: "Super Fine",
-                min: 14,
-                max: 30,
-              },
-              { cyc: 2, name: "Sport", regional: "Fine", min: 12, max: 18 },
-              {
-                cyc: 3,
-                name: "DK / Light",
-                regional: "Light",
-                min: 11,
-                max: 15,
-              },
-              {
-                cyc: 4,
-                name: "Worsted / Aran / Medium",
-                regional: "Medium",
-                min: 9,
-                max: 12,
-              },
-              {
-                cyc: 5,
-                name: "Bulky / Chunky",
-                regional: "Bulky",
-                min: 6,
-                max: 9,
-              },
-              {
-                cyc: 6,
-                name: "Super Bulky / Super Chunky",
-                regional: "Super Bulky",
-                min: 5,
-                max: 6,
-              },
-              { cyc: 7, name: "Jumbo", regional: "Jumbo", min: 1, max: 4 },
-            ]
-          : lang === "fr"
-            ? [
-                {
-                  cyc: 0,
-                  name: "Lace / dentelle",
-                  regional: "Cobweb/Lace",
-                  min: 30,
-                  max: 40,
-                },
-                {
-                  cyc: 1,
-                  name: "Fingering / Sock",
-                  regional: "Super Fine",
-                  min: 14,
-                  max: 30,
-                },
-                { cyc: 2, name: "Sport", regional: "Fine", min: 12, max: 18 },
-                {
-                  cyc: 3,
-                  name: "DK / Light",
-                  regional: "Light",
-                  min: 11,
-                  max: 15,
-                },
-                {
-                  cyc: 4,
-                  name: "Worsted / Aran / Medium",
-                  regional: "Medium",
-                  min: 9,
-                  max: 12,
-                },
-                {
-                  cyc: 5,
-                  name: "Bulky / Chunky",
-                  regional: "Bulky",
-                  min: 6,
-                  max: 9,
-                },
-                {
-                  cyc: 6,
-                  name: "Super Bulky",
-                  regional: "Super Bulky",
-                  min: 5,
-                  max: 6,
-                },
-                { cyc: 7, name: "Jumbo", regional: "Jumbo", min: 1, max: 4 },
-              ]
-            : lang === "nl"
-              ? [
-                  {
-                    cyc: 0,
-                    name: "Lace",
-                    regional: "Cobweb/Lace",
-                    min: 30,
-                    max: 40,
-                  },
-                  {
-                    cyc: 1,
-                    name: "Fingering / sokkengaren",
-                    regional: "Super Fine",
-                    min: 14,
-                    max: 30,
-                  },
-                  { cyc: 2, name: "Sport", regional: "Fine", min: 12, max: 18 },
-                  {
-                    cyc: 3,
-                    name: "DK / Light Worsted",
-                    regional: "Light",
-                    min: 11,
-                    max: 15,
-                  },
-                  {
-                    cyc: 4,
-                    name: "Worsted / Aran / Medium",
-                    regional: "Medium",
-                    min: 9,
-                    max: 12,
-                  },
-                  {
-                    cyc: 5,
-                    name: "Bulky / Chunky",
-                    regional: "Bulky",
-                    min: 6,
-                    max: 9,
-                  },
-                  {
-                    cyc: 6,
-                    name: "Super Bulky / Super Chunky",
-                    regional: "Super Bulky",
-                    min: 5,
-                    max: 6,
-                  },
-                  { cyc: 7, name: "Jumbo", regional: "Jumbo", min: 1, max: 4 },
-                ]
-              : lang === "da"
-                ? [
-                    {
-                      cyc: 0,
-                      name: "Lace",
-                      regional: "Cobweb/Lace",
-                      min: 30,
-                      max: 40,
-                    },
-                    {
-                      cyc: 1,
-                      name: "Fingering / strømpegarn",
-                      regional: "Super Fine",
-                      min: 14,
-                      max: 30,
-                    },
-                    {
-                      cyc: 2,
-                      name: "Sport",
-                      regional: "Fine",
-                      min: 12,
-                      max: 18,
-                    },
-                    {
-                      cyc: 3,
-                      name: "DK / Light Worsted",
-                      regional: "Light",
-                      min: 11,
-                      max: 15,
-                    },
-                    {
-                      cyc: 4,
-                      name: "Worsted / Aran / Medium",
-                      regional: "Medium",
-                      min: 9,
-                      max: 12,
-                    },
-                    {
-                      cyc: 5,
-                      name: "Bulky / Chunky",
-                      regional: "Bulky",
-                      min: 6,
-                      max: 9,
-                    },
-                    {
-                      cyc: 6,
-                      name: "Super Bulky / Super Chunky",
-                      regional: "Super Bulky",
-                      min: 5,
-                      max: 6,
-                    },
-                    {
-                      cyc: 7,
-                      name: "Jumbo",
-                      regional: "Jumbo",
-                      min: 1,
-                      max: 4,
-                    },
-                  ]
-                : [
-                    {
-                      cyc: 0,
-                      name: "Lace",
-                      regional: "Cobweb/Lace",
-                      min: 30,
-                      max: 40,
-                    },
-                    {
-                      cyc: 1,
-                      name: "Super Fine",
-                      regional: "Sock/Fingering",
-                      min: 14,
-                      max: 30,
-                    },
-                    {
-                      cyc: 2,
-                      name: "Fine",
-                      regional: "Sport",
-                      min: 12,
-                      max: 18,
-                    },
-                    {
-                      cyc: 3,
-                      name: "Light",
-                      regional: "DK/8-ply",
-                      min: 11,
-                      max: 15,
-                    },
-                    {
-                      cyc: 4,
-                      name: "Medium",
-                      regional: "Worsted/Aran",
-                      min: 9,
-                      max: 12,
-                    },
-                    {
-                      cyc: 5,
-                      name: "Bulky",
-                      regional: "Chunky",
-                      min: 6,
-                      max: 9,
-                    },
-                    {
-                      cyc: 6,
-                      name: "Super Bulky",
-                      regional: "Super Chunky",
-                      min: 5,
-                      max: 6,
-                    },
-                    {
-                      cyc: 7,
-                      name: "Jumbo",
-                      regional: "Jumbo",
-                      min: 1,
-                      max: 4,
-                    },
-                  ];
+const wpiCategoryCopy = {
+  en: [
+    { name: "Lace", regional: "Cobweb/Lace" },
+    { name: "Super Fine", regional: "Sock/Fingering" },
+    { name: "Fine", regional: "Sport" },
+    { name: "Light", regional: "DK/8-ply" },
+    { name: "Medium", regional: "Worsted/Aran" },
+    { name: "Bulky", regional: "Chunky" },
+    { name: "Super Bulky", regional: "Super Chunky" },
+    { name: "Jumbo", regional: "Jumbo" },
+  ],
+  fi: [
+    { name: "Lace", regional: "Cobweb/Lace" },
+    { name: "Super Fine", regional: "Sock/Fingering" },
+    { name: "Fine", regional: "Sport" },
+    { name: "Light", regional: "DK/8-ply" },
+    { name: "Medium", regional: "Worsted/Aran" },
+    { name: "Bulky", regional: "Chunky" },
+    { name: "Super Bulky", regional: "Super Chunky" },
+    { name: "Jumbo", regional: "Jumbo" },
+  ],
+  de: [
+    { name: "Lace", regional: "Cobweb/Lace" },
+    { name: "Fingering / Sockengarn", regional: "Super Fine" },
+    { name: "Sport", regional: "Fine" },
+    { name: "DK / Light", regional: "Light" },
+    { name: "Worsted / Aran / Medium", regional: "Medium" },
+    { name: "Bulky / Chunky", regional: "Bulky" },
+    { name: "Super Bulky / Super Chunky", regional: "Super Bulky" },
+    { name: "Jumbo", regional: "Jumbo" },
+  ],
+  sv: [
+    { name: "Lace", regional: "Cobweb/Lace" },
+    { name: "Fingering / sockgarn", regional: "Super Fine" },
+    { name: "Sport", regional: "Fine" },
+    { name: "DK / Light", regional: "Light" },
+    { name: "Worsted / Aran / Medium", regional: "Medium" },
+    { name: "Bulky / Chunky", regional: "Bulky" },
+    { name: "Super Bulky", regional: "Super Bulky" },
+    { name: "Jumbo", regional: "Jumbo" },
+  ],
+  no: [
+    { name: "Lace", regional: "Cobweb/Lace" },
+    { name: "Fingering / sokkegarn", regional: "Super Fine" },
+    { name: "Sport", regional: "Fine" },
+    { name: "DK / Light", regional: "Light" },
+    { name: "Worsted / Aran / Medium", regional: "Medium" },
+    { name: "Bulky / Chunky", regional: "Bulky" },
+    { name: "Super Bulky / Super Chunky", regional: "Super Bulky" },
+    { name: "Jumbo", regional: "Jumbo" },
+  ],
+  fr: [
+    { name: "Lace / dentelle", regional: "Cobweb/Lace" },
+    { name: "Fingering / Sock", regional: "Super Fine" },
+    { name: "Sport", regional: "Fine" },
+    { name: "DK / Light", regional: "Light" },
+    { name: "Worsted / Aran / Medium", regional: "Medium" },
+    { name: "Bulky / Chunky", regional: "Bulky" },
+    { name: "Super Bulky", regional: "Super Bulky" },
+    { name: "Jumbo", regional: "Jumbo" },
+  ],
+  nl: [
+    { name: "Lace", regional: "Cobweb/Lace" },
+    { name: "Fingering / sokkengaren", regional: "Super Fine" },
+    { name: "Sport", regional: "Fine" },
+    { name: "DK / Light Worsted", regional: "Light" },
+    { name: "Worsted / Aran / Medium", regional: "Medium" },
+    { name: "Bulky / Chunky", regional: "Bulky" },
+    { name: "Super Bulky / Super Chunky", regional: "Super Bulky" },
+    { name: "Jumbo", regional: "Jumbo" },
+  ],
+  da: [
+    { name: "Lace", regional: "Cobweb/Lace" },
+    { name: "Fingering / strømpegarn", regional: "Super Fine" },
+    { name: "Sport", regional: "Fine" },
+    { name: "DK / Light Worsted", regional: "Light" },
+    { name: "Worsted / Aran / Medium", regional: "Medium" },
+    { name: "Bulky / Chunky", regional: "Bulky" },
+    { name: "Super Bulky / Super Chunky", regional: "Super Bulky" },
+    { name: "Jumbo", regional: "Jumbo" },
+  ],
+} as const;
+
+const categories = getWpiCategories(wpiCategoryCopy[lang]);
 ---
 
 <div class="wpi-tool gs-form" data-wpi-tool>
@@ -512,6 +243,7 @@ const categories: WpiCategory[] =
     <input
       type="number"
       class="wpi-input"
+      aria-label={copy.prompt}
       placeholder={copy.placeholder}
       min="1"
       max="40"

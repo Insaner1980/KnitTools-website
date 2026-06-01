@@ -3,75 +3,46 @@ import PageLayout from "../../layouts/PageLayout.astro";
 import { PRICING } from "../../config/pricing";
 import RegionalPrice from "../../components/RegionalPrice.astro";
 import RegionalPricingNote from "../../components/RegionalPricingNote.astro";
+import ToolStructuredData from "../../components/ToolStructuredData.astro";
 import { routes } from "../../i18n/routes";
+import { getNeedleSizeRows } from "../../lib/toolReferenceData";
+
+const canonicalPath = "/tools/needle-size-chart/";
+const schemaDescription =
+  "Convert knitting needle sizes between US, UK, metric (mm), and Japanese systems.";
+const rows = getNeedleSizeRows();
+const formatReferenceCell = (value: string) => (value === "-" ? "—" : value);
+const faqItems = [
+  {
+    q: "Can I substitute a close needle size if I don't have the exact one?",
+    a: "You can, but a 0.5 mm jump often shifts gauge enough to matter. Swatch again for anything fitted.",
+  },
+  {
+    q: "Are needle sizes the same across all brands?",
+    a: "They should be. In practice there are slight differences, especially on cheaper sets or older needles. If your gauge is persistently off, measure the needle.",
+  },
+  {
+    q: "What about circular needle sizes?",
+    a: "Same sizing as straights. The size describes tip diameter, not cable length. A 4.5 mm circular is a 4.5 mm needle whether the cable is short for a hat or long for magic loop.",
+  },
+  {
+    q: "Do I need every needle size?",
+    a: "No. Most knitters live in a handful of sizes matching the yarns they use most. If you're working with Medium and Light yarns, you'll reach for 3.75 to 5.5 mm constantly.",
+  },
+] as const;
 ---
 
 <PageLayout
   title="Needle Size Chart: US, UK, Metric & Japanese"
   description="Convert knitting needle sizes between US, UK, metric (mm), and Japanese systems. Searchable chart with recommended yarn weights per needle size."
-  canonicalPath="/tools/needle-size-chart/"
+  canonicalPath={canonicalPath}
   alternates={routes.tool.needleSizeChart}
-  showStripe={false}
 >
-  <script
-    type="application/ld+json"
-    set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      name: "Knitting Needle Size Chart",
-      description:
-        "Convert knitting needle sizes between US, UK, metric (mm), and Japanese systems.",
-      url: "https://knittoolsapp.com/tools/needle-size-chart/",
-      applicationCategory: "UtilityApplication",
-      operatingSystem: "Any",
-      offers: {
-        "@type": "Offer",
-        price: "0",
-        priceCurrency: "USD",
-      },
-    })}
-  />
-
-  <script
-    type="application/ld+json"
-    set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "Can I substitute a close needle size if I don't have the exact one?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "You can, but a 0.5 mm jump often shifts gauge enough to matter. Swatch again for anything fitted.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Are needle sizes the same across all brands?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "They should be. In practice there are slight differences, especially on cheaper sets or older needles. If your gauge is persistently off, measure the needle.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What about circular needle sizes?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Same sizing as straights. The size describes tip diameter, not cable length. A 4.5 mm circular is a 4.5 mm needle whether the cable is short for a hat or long for magic loop.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Do I need every needle size?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "No. Most knitters live in a handful of sizes matching the yarns they use most. If you're working with Medium and Light yarns, you'll reach for 3.75 to 5.5 mm constantly.",
-          },
-        },
-      ],
-    })}
+  <ToolStructuredData
+    name="Knitting Needle Size Chart"
+    description={schemaDescription}
+    canonicalPath={canonicalPath}
+    faqs={faqItems}
   />
 
   <!-- 1. Tool hero -->
@@ -94,6 +65,7 @@ import { routes } from "../../i18n/routes";
             type="text"
             id="needle-search"
             class="search-input"
+            aria-label="Search needle sizes"
             placeholder='Search any size (e.g. "4.5", "US 7", "UK 7")'
             autocomplete="off"
           />
@@ -109,181 +81,21 @@ import { routes } from "../../i18n/routes";
                 </tr>
               </thead>
               <tbody>
-                <tr data-mm="1.5" data-us="000" data-uk="" data-jp=""
-                  ><td class="col-mm">1.5</td><td>000</td><td>&mdash;</td><td
-                    >&mdash;</td
-                  ><td>Lace</td></tr
-                >
-                <tr data-mm="1.75" data-us="00" data-uk="" data-jp=""
-                  ><td class="col-mm">1.75</td><td>00</td><td>&mdash;</td><td
-                    >&mdash;</td
-                  ><td>Lace</td></tr
-                >
-                <tr data-mm="2.0" data-us="0" data-uk="14" data-jp="0"
-                  ><td class="col-mm">2.0</td><td>0</td><td>14</td><td>0</td><td
-                    >Lace</td
-                  ></tr
-                >
-                <tr data-mm="2.25" data-us="1" data-uk="13" data-jp=""
-                  ><td class="col-mm">2.25</td><td>1</td><td>13</td><td
-                    >&mdash;</td
-                  ><td>Lace / Super Fine</td></tr
-                >
-                <tr data-mm="2.4" data-us="" data-uk="" data-jp="1"
-                  ><td class="col-mm">2.4</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>1</td><td>Super Fine</td></tr
-                >
-                <tr data-mm="2.5" data-us="1.5" data-uk="" data-jp=""
-                  ><td class="col-mm">2.5</td><td>1.5</td><td>&mdash;</td><td
-                    >&mdash;</td
-                  ><td>Super Fine</td></tr
-                >
-                <tr data-mm="2.7" data-us="" data-uk="" data-jp="2"
-                  ><td class="col-mm">2.7</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>2</td><td>Super Fine</td></tr
-                >
-                <tr data-mm="2.75" data-us="2" data-uk="12" data-jp=""
-                  ><td class="col-mm">2.75</td><td>2</td><td>12</td><td
-                    >&mdash;</td
-                  ><td>Super Fine</td></tr
-                >
-                <tr data-mm="3.0" data-us="2.5" data-uk="11" data-jp="3"
-                  ><td class="col-mm">3.0</td><td>2.5</td><td>11</td><td>3</td
-                  ><td>Super Fine</td></tr
-                >
-                <tr data-mm="3.25" data-us="3" data-uk="10" data-jp=""
-                  ><td class="col-mm">3.25</td><td>3</td><td>10</td><td
-                    >&mdash;</td
-                  ><td>Super Fine / Fine</td></tr
-                >
-                <tr data-mm="3.3" data-us="" data-uk="" data-jp="4"
-                  ><td class="col-mm">3.3</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>4</td><td>Fine</td></tr
-                >
-                <tr data-mm="3.5" data-us="4" data-uk="" data-jp=""
-                  ><td class="col-mm">3.5</td><td>4</td><td>&mdash;</td><td
-                    >&mdash;</td
-                  ><td>Fine</td></tr
-                >
-                <tr data-mm="3.6" data-us="" data-uk="" data-jp="5"
-                  ><td class="col-mm">3.6</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>5</td><td>Fine</td></tr
-                >
-                <tr data-mm="3.75" data-us="5" data-uk="9" data-jp=""
-                  ><td class="col-mm">3.75</td><td>5</td><td>9</td><td
-                    >&mdash;</td
-                  ><td>Fine / Light</td></tr
-                >
-                <tr data-mm="3.9" data-us="" data-uk="" data-jp="6"
-                  ><td class="col-mm">3.9</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>6</td><td>Light</td></tr
-                >
-                <tr data-mm="4.0" data-us="6" data-uk="8" data-jp=""
-                  ><td class="col-mm">4.0</td><td>6</td><td>8</td><td
-                    >&mdash;</td
-                  ><td>Light</td></tr
-                >
-                <tr data-mm="4.2" data-us="" data-uk="" data-jp="7"
-                  ><td class="col-mm">4.2</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>7</td><td>Light</td></tr
-                >
-                <tr data-mm="4.5" data-us="7" data-uk="7" data-jp="8"
-                  ><td class="col-mm">4.5</td><td>7</td><td>7</td><td>8</td><td
-                    >Light / Medium</td
-                  ></tr
-                >
-                <tr data-mm="4.8" data-us="" data-uk="" data-jp="9"
-                  ><td class="col-mm">4.8</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>9</td><td>Medium</td></tr
-                >
-                <tr data-mm="5.0" data-us="8" data-uk="6" data-jp=""
-                  ><td class="col-mm">5.0</td><td>8</td><td>6</td><td
-                    >&mdash;</td
-                  ><td>Medium</td></tr
-                >
-                <tr data-mm="5.1" data-us="" data-uk="" data-jp="10"
-                  ><td class="col-mm">5.1</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>10</td><td>Medium</td></tr
-                >
-                <tr data-mm="5.4" data-us="" data-uk="" data-jp="11"
-                  ><td class="col-mm">5.4</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>11</td><td>Medium</td></tr
-                >
-                <tr data-mm="5.5" data-us="9" data-uk="5" data-jp=""
-                  ><td class="col-mm">5.5</td><td>9</td><td>5</td><td
-                    >&mdash;</td
-                  ><td>Medium / Bulky</td></tr
-                >
-                <tr data-mm="5.7" data-us="" data-uk="" data-jp="12"
-                  ><td class="col-mm">5.7</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>12</td><td>Bulky</td></tr
-                >
-                <tr data-mm="6.0" data-us="10" data-uk="4" data-jp="13"
-                  ><td class="col-mm">6.0</td><td>10</td><td>4</td><td>13</td
-                  ><td>Bulky</td></tr
-                >
-                <tr data-mm="6.3" data-us="" data-uk="" data-jp="14"
-                  ><td class="col-mm">6.3</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>14</td><td>Bulky</td></tr
-                >
-                <tr data-mm="6.5" data-us="10.5" data-uk="3" data-jp=""
-                  ><td class="col-mm">6.5</td><td>10.5</td><td>3</td><td
-                    >&mdash;</td
-                  ><td>Bulky</td></tr
-                >
-                <tr data-mm="6.6" data-us="" data-uk="" data-jp="15"
-                  ><td class="col-mm">6.6</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>15</td><td>Bulky</td></tr
-                >
-                <tr data-mm="7.0" data-us="" data-uk="2" data-jp=""
-                  ><td class="col-mm">7.0</td><td>&mdash;</td><td>2</td><td
-                    >&mdash;</td
-                  ><td>Bulky</td></tr
-                >
-                <tr data-mm="8.0" data-us="11" data-uk="0" data-jp=""
-                  ><td class="col-mm">8.0</td><td>11</td><td>0</td><td
-                    >&mdash;</td
-                  ><td>Bulky / Super Bulky</td></tr
-                >
-                <tr data-mm="9.0" data-us="13" data-uk="00" data-jp=""
-                  ><td class="col-mm">9.0</td><td>13</td><td>00</td><td
-                    >&mdash;</td
-                  ><td>Super Bulky</td></tr
-                >
-                <tr data-mm="10.0" data-us="15" data-uk="000" data-jp=""
-                  ><td class="col-mm">10.0</td><td>15</td><td>000</td><td
-                    >&mdash;</td
-                  ><td>Super Bulky</td></tr
-                >
-                <tr data-mm="12.0" data-us="17" data-uk="" data-jp=""
-                  ><td class="col-mm">12.0</td><td>17</td><td>&mdash;</td><td
-                    >&mdash;</td
-                  ><td>Super Bulky</td></tr
-                >
-                <tr data-mm="12.75" data-us="" data-uk="" data-jp=""
-                  ><td class="col-mm">12.75</td><td>&mdash;</td><td>&mdash;</td
-                  ><td>&mdash;</td><td>Super Bulky / Jumbo</td></tr
-                >
-                <tr data-mm="15.0" data-us="19" data-uk="" data-jp=""
-                  ><td class="col-mm">15.0</td><td>19</td><td>&mdash;</td><td
-                    >&mdash;</td
-                  ><td>Jumbo</td></tr
-                >
-                <tr data-mm="16.0" data-us="19" data-uk="" data-jp=""
-                  ><td class="col-mm">16.0</td><td>19</td><td>&mdash;</td><td
-                    >&mdash;</td
-                  ><td>Jumbo</td></tr
-                >
-                <tr data-mm="19.0" data-us="35" data-uk="" data-jp=""
-                  ><td class="col-mm">19.0</td><td>35</td><td>&mdash;</td><td
-                    >&mdash;</td
-                  ><td>Jumbo</td></tr
-                >
-                <tr data-mm="25.0" data-us="50" data-uk="" data-jp=""
-                  ><td class="col-mm">25.0</td><td>50</td><td>&mdash;</td><td
-                    >&mdash;</td
-                  ><td>Jumbo</td></tr
-                >
+                {
+                  rows.map((row) => (
+                    <tr
+                      data-mm={row[0]}
+                      data-us={row[1] === "-" ? "" : row[1]}
+                      data-uk={row[2] === "-" ? "" : row[2]}
+                      data-jp={row[3] === "-" ? "" : row[3]}
+                    >
+                      <td class="col-mm">{row[0]}</td>
+                      {row.slice(1).map((cell) => (
+                        <td>{formatReferenceCell(cell)}</td>
+                      ))}
+                    </tr>
+                  ))
+                }
               </tbody>
             </table>
           </div>
@@ -415,57 +227,19 @@ import { routes } from "../../i18n/routes";
     <div class="faq-inner">
       <h2 class="gs-clip-reveal">Frequently asked questions</h2>
       <div class="faq">
-        <details class="gs-faq-item">
-          <summary
-            >Can I substitute a close needle size if I don't have the exact one? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            You can, but a 0.5 mm jump often shifts gauge enough to matter.
-            Swatch again for anything fitted.
-          </p>
-        </details>
-        <details class="gs-faq-item">
-          <summary
-            >Are needle sizes the same across all brands? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            They should be. In practice there are slight differences, especially
-            on cheaper sets or older needles. If your gauge is persistently off,
-            measure the needle.
-          </p>
-        </details>
-        <details class="gs-faq-item">
-          <summary
-            >What about circular needle sizes? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            Same sizing as straights. The size describes tip diameter, not cable
-            length. A 4.5 mm circular is a 4.5 mm needle whether the cable is
-            short for a hat or long for magic loop.
-          </p>
-        </details>
-        <details class="gs-faq-item">
-          <summary
-            >Do I need every needle size? <span
-              class="faq-icon"
-              aria-hidden="true">+</span
-            ></summary
-          >
-          <p>
-            No. Most knitters live in a handful of sizes matching the yarns they
-            use most. If you're working with Medium and Light yarns, you'll
-            reach for 3.75 to 5.5 mm constantly.
-          </p>
-        </details>
+        {
+          faqItems.map((f) => (
+            <details class="gs-faq-item">
+              <summary>
+                {f.q}{" "}
+                <span class="faq-icon" aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <p>{f.a}</p>
+            </details>
+          ))
+        }
       </div>
     </div>
   </section>
@@ -473,7 +247,17 @@ import { routes } from "../../i18n/routes";
   <!-- 4. Waitlist CTA -->
   <section class="waitlist-cta" id="join">
     <div class="waitlist-inner">
-      <form class="waitlist-form" action="#" method="post" id="waitlist-form">
+      <form
+        class="waitlist-form"
+        action="#"
+        method="post"
+        id="waitlist-form"
+        data-waitlist-signup
+        data-source="knittools"
+        data-sending-text="Sending..."
+        data-generic-error="Something went wrong. Please try again."
+        data-network-error="Network error. Please check your connection."
+      >
         <label class="visually-hidden" for="waitlist-website"
           >Leave this field empty</label
         >
@@ -530,11 +314,6 @@ import { routes } from "../../i18n/routes";
 </PageLayout>
 
 <script>
-  import { gsap } from "gsap";
-  import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-  gsap.registerPlugin(ScrollTrigger);
-
   const prefersReducedMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)",
   ).matches;
@@ -603,6 +382,13 @@ import { routes } from "../../i18n/routes";
   }
 
   if (!prefersReducedMotion) {
+    const [{ gsap }, { ScrollTrigger }] = await Promise.all([
+      import("gsap"),
+      import("gsap/ScrollTrigger"),
+    ]);
+
+    gsap.registerPlugin(ScrollTrigger);
+
     // --- Hero entrance timeline ---
     const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
@@ -742,87 +528,6 @@ import { routes } from "../../i18n/routes";
           });
         }
       });
-    });
-  }
-
-  // --- Waitlist form states ---
-  const waitlistForm = document.getElementById(
-    "waitlist-form",
-  ) as HTMLFormElement | null;
-  const waitlistContent = document.getElementById("waitlist-row");
-  const waitlistSuccess = document.getElementById("waitlist-success");
-  const waitlistButton = document.getElementById("waitlist-btn");
-  const waitlistError = document.getElementById("waitlist-error");
-  const originalWaitlistButtonText = waitlistButton
-    ? waitlistButton.textContent
-    : "Notify me at launch";
-
-  const showWaitlistSuccess = () => {
-    if (waitlistContent) waitlistContent.style.display = "none";
-    if (waitlistError) {
-      waitlistError.hidden = true;
-      waitlistError.textContent = "";
-    }
-    if (waitlistSuccess) {
-      waitlistSuccess.hidden = false;
-      waitlistSuccess.style.display = "block";
-      waitlistSuccess.setAttribute("aria-hidden", "false");
-    }
-  };
-
-  const showWaitlistError = (message: string) => {
-    if (waitlistButton) {
-      waitlistButton.removeAttribute("disabled");
-      waitlistButton.textContent = originalWaitlistButtonText;
-    }
-    if (waitlistError) {
-      waitlistError.textContent = message;
-      waitlistError.hidden = false;
-    }
-  };
-
-  if (waitlistForm) {
-    waitlistForm.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      if (!waitlistForm.reportValidity()) return;
-
-      if (waitlistButton) {
-        waitlistButton.setAttribute("disabled", "");
-        waitlistButton.textContent = "Sending...";
-      }
-      if (waitlistError) {
-        waitlistError.hidden = true;
-        waitlistError.textContent = "";
-      }
-
-      const emailInput = waitlistForm.querySelector<HTMLInputElement>(
-        'input[type="email"]',
-      );
-      const honeypot = waitlistForm.querySelector<HTMLInputElement>(
-        'input[name="website"]',
-      );
-
-      try {
-        const res = await fetch("https://api.finnvek.com/subscribe", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            email: emailInput ? emailInput.value.trim() : "",
-            source: "knittools",
-            website: honeypot ? honeypot.value : "",
-          }),
-        });
-        const data = await res.json().catch(() => ({}));
-        if (res.ok && data.success) {
-          showWaitlistSuccess();
-        } else {
-          showWaitlistError(
-            data.error || "Something went wrong. Please try again.",
-          );
-        }
-      } catch {
-        showWaitlistError("Network error. Please check your connection.");
-      }
     });
   }
 </script>

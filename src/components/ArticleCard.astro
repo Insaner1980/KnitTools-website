@@ -13,6 +13,7 @@ interface Props {
   featured?: boolean;
   showCategory?: boolean;
   lang?: Lang;
+  headingLevel?: 2 | 3;
 }
 
 const {
@@ -20,11 +21,13 @@ const {
   featured = false,
   showCategory = true,
   lang = article.data.lang ?? "en",
+  headingLevel = 3,
 } = Astro.props;
 const category = article.data.category as CategorySlug;
 const colorClass = CATEGORY_COLORS[category];
 const label = getCategoryLabel(category, lang);
 const articlePath = getArticlePath(article, lang);
+const HeadingTag = `h${headingLevel}` as const;
 const dateLocale =
   lang === "fi"
     ? "fi-FI"
@@ -52,7 +55,7 @@ const dateLocale =
   ]}
 >
   {showCategory && <span class="tag">{label}</span>}
-  <h3 class="card-title">{article.data.title}</h3>
+  <HeadingTag class="card-title">{article.data.title}</HeadingTag>
   <p class="card-desc">{article.data.description}</p>
   <div class="card-meta">
     <time datetime={article.data.publishDate.toISOString()}>
@@ -78,29 +81,29 @@ const dateLocale =
   }
 
   .card-terracotta {
-    --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.92);
-    --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 1);
-    --card-fg: #f4ead9;
+    --card-bg: var(--stripe-terracotta);
+    --card-bg-hover: var(--stripe-terracotta);
+    --card-fg: var(--paper);
   }
   .card-rust {
-    --card-bg: rgb(from var(--stripe-rust) r g b / 0.92);
-    --card-bg-hover: rgb(from var(--stripe-rust) r g b / 1);
-    --card-fg: #f4ead9;
+    --card-bg: var(--stripe-rust-accessible);
+    --card-bg-hover: var(--stripe-rust-accessible);
+    --card-fg: var(--paper);
   }
   .card-sand {
-    --card-bg: rgb(from var(--stripe-sand) r g b / 0.92);
-    --card-bg-hover: rgb(from var(--stripe-sand) r g b / 1);
-    --card-fg: #2a1e17;
+    --card-bg: var(--stripe-sand);
+    --card-bg-hover: var(--stripe-sand);
+    --card-fg: var(--ink);
   }
   .card-teal {
-    --card-bg: rgb(from var(--stripe-teal) r g b / 0.92);
-    --card-bg-hover: rgb(from var(--stripe-teal) r g b / 1);
-    --card-fg: #f4ead9;
+    --card-bg: var(--stripe-teal-accessible);
+    --card-bg-hover: var(--stripe-teal-accessible);
+    --card-fg: var(--paper);
   }
   .card-brown {
-    --card-bg: rgb(from var(--stripe-brown) r g b / 0.92);
-    --card-bg-hover: rgb(from var(--stripe-brown) r g b / 1);
-    --card-fg: #f4ead9;
+    --card-bg: var(--stripe-brown);
+    --card-bg-hover: var(--stripe-brown);
+    --card-fg: var(--paper);
   }
 
   .article-card {
@@ -130,7 +133,7 @@ const dateLocale =
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #2a1e17;
+    color: var(--ink);
     background: var(--paper);
     padding: 4px 12px;
     border-radius: 9999px;
@@ -159,7 +162,6 @@ const dateLocale =
     color: var(--card-fg);
     line-height: 1.5;
     margin: 0;
-    opacity: 0.9;
   }
 
   .card-featured .card-desc {
@@ -178,7 +180,6 @@ const dateLocale =
     font-size: 12px;
     letter-spacing: 0.04em;
     color: var(--card-fg);
-    opacity: 0.78;
   }
 
   @media (max-width: 1024px) {

@@ -765,7 +765,7 @@ const faqs = [
   faqs={faqs}
   variant="terracotta"
 >
-  <div slot="tool">
+  <div slot="tool" data-size-chart>
     <div class="chart-controls">
       <div class="tab-scroller">
         <div class="tabs" role="tablist" aria-label="Größengruppe">
@@ -779,6 +779,7 @@ const faqs = [
                 aria-selected={panel.id === defaultPanel ? "true" : "false"}
                 aria-controls={`panel-${panel.id}`}
                 id={`tab-${panel.id}`}
+                tabindex={panel.id === defaultPanel ? 0 : -1}
               >
                 {panel.label}
               </button>
@@ -793,6 +794,7 @@ const faqs = [
           role="radio"
           class="unit-btn is-active"
           data-unit="cm"
+          tabindex="0"
           aria-checked="true">CM</button
         >
         <button
@@ -800,6 +802,7 @@ const faqs = [
           role="radio"
           class="unit-btn"
           data-unit="inch"
+          tabindex="-1"
           aria-checked="false">Zoll</button
         >
       </div>
@@ -975,49 +978,3 @@ const faqs = [
     </p>
   </div>
 </LocalizedToolPage>
-
-<script>
-  const tabButtons = document.querySelectorAll<HTMLButtonElement>(".tab-btn");
-  const panels = document.querySelectorAll<HTMLElement>(".panel");
-
-  tabButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      const target = button.dataset.tab;
-
-      tabButtons.forEach((tab) => {
-        const isActive = tab.dataset.tab === target;
-        tab.classList.toggle("is-active", isActive);
-        tab.setAttribute("aria-selected", isActive ? "true" : "false");
-      });
-
-      panels.forEach((panel) => {
-        const isActive = panel.dataset.panel === target;
-        panel.classList.toggle("is-active", isActive);
-        if (isActive) {
-          panel.removeAttribute("hidden");
-        } else {
-          panel.setAttribute("hidden", "");
-        }
-      });
-    });
-  });
-
-  const unitButtons = document.querySelectorAll<HTMLButtonElement>(".unit-btn");
-  const chartWrap = document.getElementById("de-size-chart-wrap");
-
-  unitButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      const unit = button.dataset.unit;
-      if (!unit || !chartWrap) return;
-
-      unitButtons.forEach((unitButton) => {
-        const isActive = unitButton.dataset.unit === unit;
-        unitButton.classList.toggle("is-active", isActive);
-        unitButton.setAttribute("aria-checked", isActive ? "true" : "false");
-      });
-
-      chartWrap.classList.toggle("show-cm", unit === "cm");
-      chartWrap.classList.toggle("show-inch", unit === "inch");
-    });
-  });
-</script>

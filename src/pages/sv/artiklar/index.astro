@@ -4,42 +4,17 @@ import { getCollection } from "astro:content";
 import ArticleCard from "../../../components/ArticleCard.astro";
 import ClosingCTA from "../../../components/ClosingCTA.astro";
 import {
-  CATEGORY_ORDER,
-  getCategoryDescription,
-  getCategoryLabel,
-} from "../../../lib/categories";
-import { isSwedishArticle } from "../../../i18n/articles";
+  buildArticleCategorySections,
+  isArticleVisibleInCurrentBuild,
+  isSwedishArticle,
+} from "../../../i18n/articles";
 import { routes } from "../../../i18n/routes";
 
-const articles = await getCollection(
-  "articles",
-  ({ data }) =>
-    data.lang === "sv" && (import.meta.env.DEV ? true : !data.draft),
+const articles = (await getCollection("articles")).filter(
+  isArticleVisibleInCurrentBuild,
 );
 const swedishArticles = articles.filter(isSwedishArticle);
-
-const byCategoryOrder = (
-  a: (typeof articles)[number],
-  b: (typeof articles)[number],
-) => (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999);
-
-const sections = CATEGORY_ORDER.map((slug) => {
-  const categoryArticles = swedishArticles
-    .filter((article) => article.data.category === slug)
-    .sort(byCategoryOrder);
-  const previewArticles = categoryArticles.slice(0, 3);
-
-  return {
-    slug,
-    label: getCategoryLabel(slug, "sv"),
-    description: getCategoryDescription(slug, "sv"),
-    articles: previewArticles,
-    remainingCount: Math.max(
-      categoryArticles.length - previewArticles.length,
-      0,
-    ),
-  };
-}).filter((section) => section.articles.length > 0);
+const sections = buildArticleCategorySections(swedishArticles, "sv");
 ---
 
 <PageLayout
@@ -48,7 +23,6 @@ const sections = CATEGORY_ORDER.map((slug) => {
   canonicalPath={routes.articlesIndex.sv}
   lang="sv"
   alternates={routes.articlesIndex}
-  showStripe={false}
 >
   <section class="articles-header">
     <div class="articles-header-inner">
@@ -90,7 +64,7 @@ const sections = CATEGORY_ORDER.map((slug) => {
           <div class="cat-section-inner">
             <header class="cat-header">
               <div class="cat-header-text">
-                <p class="cat-eyebrow">{section.label}</p>
+                <h2 class="cat-eyebrow">{section.label}</h2>
                 <p class="cat-description">{section.description}</p>
               </div>
               {section.remainingCount > 0 && (

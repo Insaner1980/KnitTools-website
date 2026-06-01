@@ -135,28 +135,28 @@ const proBullets = [
   }
   .card.free {
     background: var(--wheat);
-    color: #2a1e17;
-    border-color: #2a1e17;
+    color: var(--ink);
+    border-color: var(--ink);
   }
   .card.pro {
     background: var(--sage);
-    color: #f4ead9;
-    border: 2px solid #f4ead9;
+    color: var(--paper);
+    border: 2px solid var(--paper);
   }
 
   .badge {
     position: absolute;
     top: -14px;
     right: 24px;
-    background: #f4ead9;
-    color: #2a1e17;
+    background: var(--paper);
+    color: var(--ink);
     font-family: var(--font-body);
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 7px 14px 6px;
-    border: 1px solid #2a1e17;
+    border: 1px solid var(--ink);
     white-space: nowrap;
     z-index: 2;
   }
@@ -173,7 +173,7 @@ const proBullets = [
     color: var(--walnut);
   }
   .pro .label {
-    color: #f4ead9;
+    color: var(--paper);
   }
 
   .includes {
@@ -182,7 +182,7 @@ const proBullets = [
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #f4ead9;
+    color: var(--paper);
     margin: -8px 0 16px;
   }
 
@@ -190,7 +190,7 @@ const proBullets = [
     font-family: var(--body-ed);
     font-style: italic;
     font-size: 14px;
-    color: #f4ead9;
+    color: var(--paper);
     margin: 4px 0 24px;
   }
 
@@ -222,16 +222,16 @@ const proBullets = [
     font-family: var(--body-ed);
     font-size: 15px;
     line-height: 1.5;
-    border-top: 1px solid rgba(42, 30, 23, 0.2);
+    border-top: 1px solid rgb(from var(--ink) r g b / 0.2);
   }
   .pro ol li {
-    border-top-color: rgba(244, 234, 217, 0.25);
+    border-top-color: rgb(from var(--paper) r g b / 0.25);
   }
   ol li:last-child {
-    border-bottom: 1px solid rgba(42, 30, 23, 0.2);
+    border-bottom: 1px solid rgb(from var(--ink) r g b / 0.2);
   }
   .pro ol li:last-child {
-    border-bottom-color: rgba(244, 234, 217, 0.25);
+    border-bottom-color: rgb(from var(--paper) r g b / 0.25);
   }
 
   .footnote {
@@ -241,10 +241,10 @@ const proBullets = [
     margin: 0;
   }
   .free .footnote {
-    color: #4a382c;
+    color: var(--ink-soft);
   }
   .pro .footnote {
-    color: rgba(244, 234, 217, 0.85);
+    color: rgb(from var(--paper) r g b / 0.85);
   }
 
   @media (max-width: 767px) {

@@ -3,89 +3,52 @@ import LocalizedToolPage from "../LocalizedToolPage.astro";
 import WpiIdentifier from "../WpiIdentifier.astro";
 import { dutchToolRoutes } from "../../i18n/dutchTools";
 import { routes } from "../../i18n/routes";
+import { getLocalizedYarnWeightRows } from "../../lib/toolReferenceData";
 
-const rows = [
-  [
-    "0",
-    "Lace",
-    "Cobweb / Light fingering / 2-ply",
-    "33-40+ st. / 10 cm",
-    "1,5-2,25 mm",
-    "30-40+ WPI",
-    "Kanten omslagdoeken, kleedjes, fijn open ajourwerk",
-    "Lace, Cobweb, Light fingering, 2-ply (UK)",
-  ],
-  [
-    "1",
-    "Fingering / sokkengaren",
-    "Sock / Fingering / Baby / 4-ply",
-    "27-32 st. / 10 cm",
-    "2,25-3,25 mm",
-    "14-30 WPI",
-    "Sokken, babykleding, fijne omslagdoeken, lichte kleding",
-    "Sock, Fingering, Baby, 4-ply (UK/AUS)",
-  ],
-  [
-    "2",
-    "Sport",
-    "Sport / Baby / 5-ply",
-    "23-26 st. / 10 cm",
-    "3,25-3,75 mm",
-    "12-18 WPI",
-    "Lichte kleding, babykleding, accessoires",
-    "Sport, Baby, 5-ply (UK/AUS)",
-  ],
-  [
-    "3",
-    "DK / Light Worsted",
-    "DK / Light Worsted / 8-ply",
-    "21-24 st. / 10 cm",
-    "3,75-4,5 mm",
-    "11-15 WPI",
-    "Truien, mutsen, sjaals, babydekens, kleding voor elk seizoen",
-    "DK (Double Knitting), Light Worsted, 8-ply (UK/AUS)",
-  ],
-  [
-    "4",
-    "Worsted / Aran / Medium",
-    "Worsted / Aran / Afghan / 10-ply",
-    "16-20 st. / 10 cm",
-    "4,5-5,5 mm",
-    "9-12 WPI",
-    "Truien, mutsen, wanten, dekens, veel dagelijks breiwerk",
-    "Worsted, Aran, Afghan, 10-ply (AUS)",
-  ],
-  [
-    "5",
-    "Bulky / Chunky",
-    "Chunky / Craft / Rug / 12-ply",
-    "12-15 st. / 10 cm",
-    "5,5-8 mm",
-    "6-9 WPI",
-    "Dikke truien, sjaals, dekens, snelle projecten",
-    "Chunky, Craft, Rug, 12-ply (AUS)",
-  ],
-  [
-    "6",
-    "Super Bulky / Super Chunky",
-    "Super Chunky / Bulky / Roving",
-    "7-11 st. / 10 cm",
-    "8-12,75 mm",
-    "5-6 WPI",
-    "Zware dekens, cols, snelle accessoires",
-    "Super Chunky, Bulky, Roving",
-  ],
-  [
-    "7",
-    "Jumbo",
-    "Jumbo / Roving",
-    "0-6 st. / 10 cm",
-    "12,75+ mm",
-    "1-4 WPI",
-    "Armbreien, uitgesproken textuur, oversized dekens",
-    "Jumbo, Roving",
-  ],
-];
+const yarnWeightCopy = [
+  {
+    name: "Lace",
+    regional: "Cobweb / Light fingering / 2-ply",
+    uses: "Kanten omslagdoeken, kleedjes, fijn open ajourwerk",
+  },
+  {
+    name: "Fingering / sokkengaren",
+    regional: "Sock / Fingering / Baby / 4-ply",
+    uses: "Sokken, babykleding, fijne omslagdoeken, lichte kleding",
+  },
+  {
+    name: "Sport",
+    regional: "Sport / Baby / 5-ply",
+    uses: "Lichte kleding, babykleding, accessoires",
+  },
+  {
+    name: "DK / Light Worsted",
+    regional: "DK / Light Worsted / 8-ply",
+    uses: "Truien, mutsen, sjaals, babydekens, kleding voor elk seizoen",
+  },
+  {
+    name: "Worsted / Aran / Medium",
+    regional: "Worsted / Aran / Afghan / 10-ply",
+    uses: "Truien, mutsen, wanten, dekens, veel dagelijks breiwerk",
+  },
+  {
+    name: "Bulky / Chunky",
+    regional: "Chunky / Craft / Rug / 12-ply",
+    uses: "Dikke truien, sjaals, dekens, snelle projecten",
+  },
+  {
+    name: "Super Bulky / Super Chunky",
+    regional: "Super Chunky / Bulky / Roving",
+    uses: "Zware dekens, cols, snelle accessoires",
+  },
+  {
+    name: "Jumbo",
+    regional: "Jumbo / Roving",
+    uses: "Armbreien, uitgesproken textuur, oversized dekens",
+  },
+] as const;
+
+const rows = getLocalizedYarnWeightRows(yarnWeightCopy, "st. / 10 cm");
 
 const faqs = [
   {

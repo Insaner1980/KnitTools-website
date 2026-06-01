@@ -1,6 +1,5 @@
 ---
-import PageLayout from "../../layouts/PageLayout.astro";
-import ClosingCTA from "../../components/ClosingCTA.astro";
+import ToolsIndexPage from "../../components/ToolsIndexPage.astro";
 import { routes } from "../../i18n/routes";
 
 const tools = [
@@ -9,7 +8,7 @@ const tools = [
     title: "Cast On Calculator",
     description:
       "Calculate how many stitches to cast on for any width and gauge.",
-    href: "/tools/cast-on-calculator/",
+    href: routes.tool.castOnCalculator.en,
     className: "card-terracotta card-top-left reveal-delay-1",
   },
   {
@@ -17,7 +16,7 @@ const tools = [
     title: "Yarn Estimator",
     description:
       "Estimate yarn requirements by project type, size, and yarn weight.",
-    href: "/tools/yarn-estimator/",
+    href: routes.tool.yarnEstimator.en,
     className: "card-rust card-top-right reveal-delay-2",
   },
   {
@@ -25,319 +24,44 @@ const tools = [
     title: "Yarn Weight Chart",
     description:
       "CYC yarn weight categories with gauge ranges, needles, and WPI.",
-    href: "/tools/yarn-weight-chart/",
+    href: routes.tool.yarnWeightChart.en,
     className: "card-sand card-bl1 reveal-delay-1",
   },
   {
     tag: "Needles",
     title: "Needle Size Chart",
     description: "Convert between US, UK, metric, and Japanese needle sizes.",
-    href: "/tools/needle-size-chart/",
+    href: routes.tool.needleSizeChart.en,
     className: "card-teal card-br1 reveal-delay-2",
   },
   {
     tag: "Sizes",
     title: "Knitting Size Charts",
     description: "Body measurements for baby through adult, in cm and inches.",
-    href: "/tools/knitting-size-charts/",
+    href: routes.tool.knittingSizeCharts.en,
     className: "card-terracotta card-bl2 reveal-delay-1",
   },
   {
     tag: "Glossary",
     title: "Knitting Abbreviations",
     description: "Search any abbreviation or find terms by technique.",
-    href: "/tools/knitting-abbreviations/",
+    href: routes.tool.knittingAbbreviations.en,
     className: "card-brown card-br2 reveal-delay-2",
   },
 ];
 ---
 
-<PageLayout
+<ToolsIndexPage
   title="Free Knitting Tools: Calculators & Charts"
   description="Free online knitting calculators and reference charts: cast on, yarn estimator, needle sizes, yarn weights, abbreviations, and body size charts."
-  canonicalPath="/tools/"
+  canonicalPath={routes.toolsIndex.en}
   alternates={routes.toolsIndex}
-  showStripe={false}
->
-  <script
-    type="application/ld+json"
-    set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      name: "Free Knitting Tools",
-      description: "Free online knitting calculators and reference charts.",
-      url: "https://knittoolsapp.com/tools/",
-      mainEntity: {
-        "@type": "ItemList",
-        itemListElement: tools.map((tool, index) => ({
-          "@type": "ListItem",
-          position: index + 1,
-          url: `https://knittoolsapp.com${tool.href}`,
-        })),
-      },
-    })}
-  />
-
-  <section class="tools-header">
-    <div class="tools-header-inner">
-      <p class="eyebrow">Free tools</p>
-      <h1>Knitting tools, online.</h1>
-      <p class="tools-intro">
-        Calculators and reference charts for your knitting projects. No signup,
-        no app required.
-      </p>
-    </div>
-  </section>
-
-  <section class="tools-grid-section">
-    <div class="tools-grid">
-      {
-        tools.map((tool) => (
-          <a
-            href={tool.href}
-            class:list={["tool-card", "reveal", tool.className]}
-          >
-            <span class="tag">{tool.tag}</span>
-            <h2 class="card-title">{tool.title}</h2>
-            <p class="card-desc">{tool.description}</p>
-          </a>
-        ))
-      }
-    </div>
-  </section>
-  <ClosingCTA variant="page" />
-</PageLayout>
-
-<style>
-  .tools-header {
-    color: var(--ink);
-    padding: 80px 40px 48px;
-    border-bottom: 1px solid var(--ink);
-  }
-
-  .tools-header-inner {
-    max-width: 1280px;
-    margin: 0 auto;
-  }
-
-  .tools-header .eyebrow {
-    font-family: var(--mono);
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--terracotta);
-    margin: 0 0 20px;
-  }
-
-  .tools-header h1 {
-    font-family: var(--serif);
-    font-weight: 400;
-    font-size: clamp(2rem, 4vw, 3.25rem);
-    line-height: 1.05;
-    letter-spacing: -0.02em;
-    color: var(--ink);
-    text-transform: none;
-    margin: 0 0 20px;
-    padding-bottom: 0.08em;
-  }
-
-  .tools-intro {
-    font-family: var(--body-ed);
-    font-weight: 400;
-    font-size: clamp(17px, 1.5vw, 20px);
-    color: var(--ink);
-    max-width: 560px;
-    line-height: 1.55;
-    margin: 0;
-  }
-
-  .tools-grid-section {
-    padding: 48px 40px 100px;
-  }
-
-  .tools-grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 20px;
-    max-width: 1280px;
-    margin: 0 auto;
-  }
-
-  /* Row 1: two large calculator cards, 50/50 */
-  .card-top-left {
-    grid-column: 1 / 7;
-  }
-  .card-top-right {
-    grid-column: 7 / 13;
-  }
-
-  /* Row 2: four reference cards, all same size (3 col each) */
-  .card-bl1 {
-    grid-column: 1 / 4;
-  }
-  .card-br1 {
-    grid-column: 4 / 7;
-  }
-  .card-bl2 {
-    grid-column: 7 / 10;
-  }
-  .card-br2 {
-    grid-column: 10 / 13;
-  }
-
-  .card-terracotta {
-    --card-bg: rgb(from var(--stripe-terracotta) r g b / 0.92);
-    --card-bg-hover: rgb(from var(--stripe-terracotta) r g b / 1);
-    --card-fg: #f4ead9;
-  }
-  .card-rust {
-    --card-bg: rgb(from var(--stripe-rust) r g b / 0.92);
-    --card-bg-hover: rgb(from var(--stripe-rust) r g b / 1);
-    --card-fg: #f4ead9;
-  }
-  .card-sand {
-    --card-bg: rgb(from var(--stripe-sand) r g b / 0.92);
-    --card-bg-hover: rgb(from var(--stripe-sand) r g b / 1);
-    --card-fg: #2a1e17;
-  }
-  .card-teal {
-    --card-bg: rgb(from var(--stripe-teal) r g b / 0.92);
-    --card-bg-hover: rgb(from var(--stripe-teal) r g b / 1);
-    --card-fg: #f4ead9;
-  }
-  .card-brown {
-    --card-bg: rgb(from var(--stripe-brown) r g b / 0.92);
-    --card-bg-hover: rgb(from var(--stripe-brown) r g b / 1);
-    --card-fg: #f4ead9;
-  }
-
-  .tool-card {
-    background-color: var(--card-bg);
-    border-radius: 0;
-    padding: 28px 28px 32px;
-    position: relative;
-    overflow: hidden;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 12px;
-    transition:
-      background-color 0.2s ease,
-      transform 0.3s ease;
-  }
-
-  /* Top row cards are taller */
-  .card-top-left,
-  .card-top-right {
-    min-height: 220px;
-  }
-
-  .tool-card .tag {
-    align-self: flex-start;
-    font-family: var(--font-body);
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #2a1e17;
-    background: var(--paper);
-    padding: 4px 12px;
-    border-radius: 9999px;
-  }
-
-  .tool-card:hover {
-    background-color: var(--card-bg-hover);
-  }
-
-  .tool-card:focus-visible {
-    outline: 2px solid var(--ink);
-    outline-offset: 2px;
-  }
-
-  .card-title {
-    font-family: var(--serif);
-    font-weight: 400;
-    font-size: clamp(1.5rem, 1.9vw, 1.9rem);
-    color: var(--card-fg);
-    margin: 0 0 8px;
-    line-height: 1.05;
-    letter-spacing: -0.01em;
-    padding-bottom: 0.04em;
-    text-transform: none;
-  }
-
-  .card-desc {
-    font-family: var(--body-ed);
-    font-weight: 400;
-    font-size: 14px;
-    color: var(--card-fg);
-    line-height: 1.5;
-    margin: 0;
-    opacity: 0.88;
-  }
-
-  .card-top-left .card-desc,
-  .card-top-right .card-desc {
-    font-size: 16px;
-    max-width: 380px;
-  }
-
-  @media (max-width: 1024px) {
-    .tools-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .card-top-left,
-    .card-top-right,
-    .card-bl1,
-    .card-br1,
-    .card-bl2,
-    .card-br2 {
-      grid-column: span 1;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .tools-header {
-      padding: 60px 20px 36px;
-    }
-
-    .tools-grid-section {
-      padding: 36px 20px 72px;
-    }
-
-    .tools-grid {
-      grid-template-columns: 1fr;
-      gap: 12px;
-    }
-
-    .card-top-left,
-    .card-top-right,
-    .card-bl1,
-    .card-br1,
-    .card-bl2,
-    .card-br2 {
-      grid-column: span 1;
-    }
-
-    .card-top-left,
-    .card-top-right {
-      min-height: auto;
-      padding: 28px 24px;
-    }
-
-    /* No stagger on mobile single column */
-    .tool-card.reveal-delay-2,
-    .tool-card.reveal-delay-3 {
-      --reveal-delay: 80ms;
-    }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .tool-card {
-      transition: none;
-    }
-  }
-</style>
+  collectionName="Free Knitting Tools"
+  collectionDescription="Free online knitting calculators and reference charts."
+  eyebrow="Free tools"
+  heading="Knitting tools, online."
+  intro="Calculators and reference charts for your knitting projects. No signup, no app required."
+  tools={tools}
+  variant="english"
+  revealCards
+/>

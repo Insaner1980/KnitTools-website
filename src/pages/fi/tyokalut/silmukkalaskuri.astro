@@ -1,5 +1,5 @@
 ---
-import FinnishToolPage from "../../../components/FinnishToolPage.astro";
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import CastOnCalculator from "../../../components/CastOnCalculator.astro";
 import { routes } from "../../../i18n/routes";
 
@@ -27,7 +27,8 @@ const faqs = [
 ];
 ---
 
-<FinnishToolPage
+<LocalizedToolPage
+  lang="fi"
   title="Silmukkalaskuri neuletiheydellä"
   description="Laske, montako silmukkaa pitää luoda haluttuun leveyteen oman neuletiheyden perusteella. Sopii paitoihin, huiveihin ja peittoihin."
   canonicalPath={routes.tool.castOnCalculator.fi}
@@ -72,4 +73,4 @@ const faqs = [
       lähtöpisteen. Ohjeen toisto kertoo viimeisen sanan.
     </p>
   </div>
-</FinnishToolPage>
+</LocalizedToolPage>

@@ -1,5 +1,5 @@
 ---
-import FinnishToolPage from "../../../components/FinnishToolPage.astro";
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import YarnEstimator from "../../../components/YarnEstimator.astro";
 import { routes } from "../../../i18n/routes";
 
@@ -27,7 +27,8 @@ const faqs = [
 ];
 ---
 
-<FinnishToolPage
+<LocalizedToolPage
+  lang="fi"
   title="Lankamuunnin: menekki metreinä"
   description="Arvioi ja muunna, paljonko lankaa neuleprojektiin tarvitaan työn tyypin, koon ja lankavahvuuden perusteella."
   canonicalPath={routes.tool.yarnEstimator.fi}
@@ -95,4 +96,4 @@ const faqs = [
       ostos, kunnes sitä tarvitaan.
     </p>
   </div>
-</FinnishToolPage>
+</LocalizedToolPage>

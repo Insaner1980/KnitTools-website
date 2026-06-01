@@ -1,5 +1,5 @@
 ---
-import FinnishToolPage from "../../../components/FinnishToolPage.astro";
+import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import { routes } from "../../../i18n/routes";
 
 type Category =
@@ -395,7 +395,8 @@ const faqs = [
 ];
 ---
 
-<FinnishToolPage
+<LocalizedToolPage
+  lang="fi"
   title="Neulelyhenteet: haettava sanasto"
   description="Neuleohjeiden lyhenteet suomeksi: hae englanninkielinen lyhenne ja tarkista, mitä se tarkoittaa käytännössä."
   canonicalPath={routes.tool.knittingAbbreviations.fi}
@@ -412,6 +413,7 @@ const faqs = [
         type="text"
         id="abbr-search"
         class="search-input"
+        aria-label="Hae neulelyhenteitä ja tekniikoita"
         placeholder='Hae lyhennettä tai tekniikkaa, esim. "ssk" tai "kavennus"'
         autocomplete="off"
       />
@@ -500,7 +502,7 @@ const faqs = [
       muotoiluja, sanastoa voi täydentää tarpeen mukaan.
     </p>
   </div>
-</FinnishToolPage>
+</LocalizedToolPage>
 
 <script>
   const searchInput = document.getElementById(

@@ -2,89 +2,52 @@
 import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import WpiIdentifier from "../../../components/WpiIdentifier.astro";
 import { routes } from "../../../i18n/routes";
+import { getLocalizedYarnWeightRows } from "../../../lib/toolReferenceData";
 
-const rows = [
-  [
-    "0",
-    "Lace / dentelle",
-    "Cobweb / Light fingering / 2-ply",
-    "33-40+ m. / 10 cm",
-    "1,5-2,25 mm",
-    "30-40+ WPI",
-    "Châles en dentelle, napperons, points ajourés fins",
-    "Lace, Cobweb, Light fingering, 2-ply (UK)",
-  ],
-  [
-    "1",
-    "Fingering / Sock",
-    "Sock / Fingering / Baby / 4-ply",
-    "27-32 m. / 10 cm",
-    "2,25-3,25 mm",
-    "14-30 WPI",
-    "Chaussettes, layette, châles fins, vêtements légers",
-    "Sock, Fingering, Baby, 4-ply (UK/AUS)",
-  ],
-  [
-    "2",
-    "Sport",
-    "Sport / Baby / 5-ply",
-    "23-26 m. / 10 cm",
-    "3,25-3,75 mm",
-    "12-18 WPI",
-    "Vêtements légers, layette, accessoires",
-    "Sport, Baby, 5-ply (UK/AUS)",
-  ],
-  [
-    "3",
-    "DK / Light",
-    "DK / Light Worsted / 8-ply",
-    "21-24 m. / 10 cm",
-    "3,75-4,5 mm",
-    "11-15 WPI",
-    "Pulls, bonnets, écharpes, couvertures bébé, vêtements d'entre-saison",
-    "DK (Double Knitting), Light Worsted, 8-ply (UK/AUS)",
-  ],
-  [
-    "4",
-    "Worsted / Aran / Medium",
-    "Worsted / Aran / Afghan / 10-ply",
-    "16-20 m. / 10 cm",
-    "4,5-5,5 mm",
-    "9-12 WPI",
-    "Pulls, bonnets, moufles, couvertures, la plupart des tricots du quotidien",
-    "Worsted, Aran, Afghan, 10-ply (AUS)",
-  ],
-  [
-    "5",
-    "Bulky / Chunky",
-    "Chunky / Craft / Rug / 12-ply",
-    "12-15 m. / 10 cm",
-    "5,5-8 mm",
-    "6-9 WPI",
-    "Pulls épais, écharpes, couvertures, projets rapides",
-    "Chunky, Craft, Rug, 12-ply (AUS)",
-  ],
-  [
-    "6",
-    "Super Bulky",
-    "Super Chunky / Bulky / Roving",
-    "7-11 m. / 10 cm",
-    "8-12,75 mm",
-    "5-6 WPI",
-    "Grosses couvertures, cols, accessoires rapides",
-    "Super Chunky, Bulky, Roving",
-  ],
-  [
-    "7",
-    "Jumbo",
-    "Jumbo / Roving",
-    "0-6 m. / 10 cm",
-    "12,75+ mm",
-    "1-4 WPI",
-    "Tricot avec les bras, texture très marquée, couvertures oversize",
-    "Jumbo, Roving",
-  ],
-];
+const yarnWeightCopy = [
+  {
+    name: "Lace / dentelle",
+    regional: "Cobweb / Light fingering / 2-ply",
+    uses: "Châles en dentelle, napperons, points ajourés fins",
+  },
+  {
+    name: "Fingering / Sock",
+    regional: "Sock / Fingering / Baby / 4-ply",
+    uses: "Chaussettes, layette, châles fins, vêtements légers",
+  },
+  {
+    name: "Sport",
+    regional: "Sport / Baby / 5-ply",
+    uses: "Vêtements légers, layette, accessoires",
+  },
+  {
+    name: "DK / Light",
+    regional: "DK / Light Worsted / 8-ply",
+    uses: "Pulls, bonnets, écharpes, couvertures bébé, vêtements d'entre-saison",
+  },
+  {
+    name: "Worsted / Aran / Medium",
+    regional: "Worsted / Aran / Afghan / 10-ply",
+    uses: "Pulls, bonnets, moufles, couvertures, la plupart des tricots du quotidien",
+  },
+  {
+    name: "Bulky / Chunky",
+    regional: "Chunky / Craft / Rug / 12-ply",
+    uses: "Pulls épais, écharpes, couvertures, projets rapides",
+  },
+  {
+    name: "Super Bulky",
+    regional: "Super Chunky / Bulky / Roving",
+    uses: "Grosses couvertures, cols, accessoires rapides",
+  },
+  {
+    name: "Jumbo",
+    regional: "Jumbo / Roving",
+    uses: "Tricot avec les bras, texture très marquée, couvertures oversize",
+  },
+] as const;
+
+const rows = getLocalizedYarnWeightRows(yarnWeightCopy, "m. / 10 cm");
 
 const faqs = [
   {

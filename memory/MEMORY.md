@@ -1,5 +1,15 @@
 # KnitTools Website Memory
 
+## 2026-06-01: rakenne- ja ylläpidettävyysrefaktorointi
+
+- `src/scripts/waitlistSignup.ts` on waitlist-lomakkeiden yksi client-helper. Hero, `ClosingCTA` ja englanninkielisten työkalusivujen waitlist-CTA:t kytkeytyvät siihen `data-waitlist-signup`-attribuutilla.
+- `src/scripts/waitlistSignup.ts` päivittää myös waitlist-lomakkeiden saavutettavat virhe-/onnistumistilat: email-kentän `aria-describedby`, virheen `aria-invalid`, onnistumisen `role="status"` ja virheen `role="alert"`.
+- `src/scripts/sizeChartControls.ts` on kokotaulukkosivujen yhteinen client-helper. Kaikki EN/FI/DE/SV/NO/FR/NL/DA kokotaulukot käyttävät `data-size-chart`-juurta, roving `tabindex` -alkutilaa sekä yhteistä Arrow/Home/End/Space/Enter-käsittelyä tab- ja mittayksikköryhmille.
+- Korttien AA-kontrastia varten `global.css` sisältää alkuperäisen stripe-paletin lisäksi `--stripe-rust-accessible`- ja `--stripe-teal-accessible`-taustat. `ArticleCard.astro` ja `ToolsIndexPage.astro` käyttävät näitä silloin kun alkuperäinen rust/teal ei riitä normaalitekstin kontrastiin.
+- `src/components/ToolsIndexPage.astro` renderöi kaikkien 8 kielen tools-listaussivut. Englannin index säilyttää oman `reveal`-varianttinsa ja lokalisoidut indexit säilyttävät oman mobiilikorttikäyttäytymisensä.
+- Footerin työkalulinkit tulevat `src/i18n/tools.ts`-helperistä ja artikkelikategorialinkit `src/i18n/articles.ts`-helperistä. `routes.ts` pysyy URLien lähteenä.
+- `PageLayout.showStripe` ja käyttämätön `ToolCard.astro` poistettiin. Nykyisessä komponenttipuussa ei ole `StripeRibbon.astro`-komponenttia.
+
 ## 2026-05-15: SonarCloud-paikallisskannaus
 
 - Projekti on konfiguroitu SonarCloudiin samalla paikallisella `sonar`-työnkululla kuin KnitTools- ja dBcheck-Android-projektit: argumentiton `sonar` etsii `tools/sonar.ps1`-wrapperin, ajaa skannauksen ja tallentaa raportit `reports/`-kansioon.
@@ -41,7 +51,7 @@
 
 - Saksankieliset tools-sivut julkaistaan käännetyllä reittisegmentillä `/de/werkzeuge/`, ei englanninkielisellä `/de/tools/`-segmentillä. Kuusi alasivua ovat `/de/werkzeuge/maschenanschlag-rechner/`, `/garnbedarfsrechner/`, `/nadelstaerken-tabelle/`, `/garnstaerken-tabelle/`, `/strickabkuerzungen/` ja `/groessentabellen-stricken/`.
 - `src/i18n/config.ts`, `src/i18n/routes.ts` ja `src/i18n/ui.ts` tukevat nyt `de`-kieltä tools-reiteillä ja yhteisissä UI-teksteissä. Saksankielisiä artikkeleita ei vielä ole, joten artikkelilinkit voivat väliaikaisesti fallbackata englanninkielisiin reitteihin.
-- `src/components/LocalizedToolPage.astro` on uusi jaettu lokalisoitujen tools-sivujen pohja. `FinnishToolPage.astro` jäi legacy-wrapperiksi suomenkielisille sivuille, jotta nykyisiä suomi-importteja ei tarvitse muuttaa.
+- `src/components/LocalizedToolPage.astro` on jaettu lokalisoitujen tools-sivujen pohja. Suomenkieliset tools-sivut käyttävät sitä suoraan `lang="fi"`-asetuksella; `FinnishToolPage.astro`-wrapperia ei ole nykyisessä komponenttipuussa.
 - Saksankielisten käännösten termilähde on `GERMAN_TRANSLATION_STYLE_GUIDE.md`: `Maschenprobe`, `Garnstärke`, `Nadelstärke`, `Garnbedarf`, `Maschen anschlagen`, `abketten` ja `du`-muoto ovat lukittuja linjauksia.
 
 ## 2026-05-09: saksankielisten artikkelidraftien rakenne

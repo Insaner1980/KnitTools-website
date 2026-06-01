@@ -25,8 +25,10 @@ monikieliselle artikkelisisällölle.
   julkaistut kieliversiot generoidaan.
 - **Hinnoittelu UI:ssa:** launch-hinta + regular-hinta alueellisen tierin
   mukaan, 14 päivän trial, launch-label `Summer 2026`.
-- **Signup-endpoint:** `https://api.finnvek.com/subscribe`, käytössä Herossa ja
-  `ClosingCTA`-komponentissa. Lomakkeissa on honeypot-kenttä `website`.
+- **Signup-endpoint:** `https://api.finnvek.com/subscribe`, käytössä
+  `data-waitlist-signup`-lomakkeissa Herossa, `ClosingCTA`-komponentissa ja
+  englanninkielisten työkalusivujen waitlist-CTA:ssa. Lomakkeissa on
+  honeypot-kenttä `website`.
 
 ## Dependencies
 
@@ -95,13 +97,13 @@ BaseLayout.astro
   - global.css import
   - canonical, hreflang, OG, Twitter, favicons, font preloadit
   - Cloudflare Web Analytics script
+  - waitlistSignup client-helper data-waitlist-signup-lomakkeille
   - reveal IntersectionObserver
   - alueellisen hinnoittelun client-script (/cdn-cgi/trace + navigator fallback)
 
 PageLayout.astro
   - välittää metadata-propit BaseLayoutille
   - renderöi Navbar, <main id="main-content"> ja Footer
-  - showStripe-prop on rajapinnassa, mutta sitä ei käytetä
 
 ArticleLayout.astro
   - PageLayout + Article JSON-LD
@@ -199,11 +201,13 @@ Shared i18n modules:
 - `src/i18n/config.ts`: languages, `Lang`, locales, `getHtmlLang`, `SITE_URL`.
 - `src/i18n/routes.ts`: public route source of truth.
 - `src/i18n/articles.ts`: article translation map, localized fallback paths and
-  route slug helpers.
+  route slug helpers plus footer category links.
 - `src/i18n/ui.ts`: shared UI strings for nav/footer/article chrome/CTA.
-- `src/i18n/tools.ts`: generic tools index helper.
-- `src/i18n/dutchTools.ts`: NL tool routes and labels.
-- `src/i18n/danishTools.ts`: DA tool routes, labels and tool alternates.
+- `src/i18n/tools.ts`: tools index path helper plus localized footer tool
+  labels/links.
+- `src/i18n/dutchTools.ts`: NL catch-all tool route constants.
+- `src/i18n/danishTools.ts`: DA catch-all tool route constants and tool
+  alternates.
 
 Term guides at repository root:
 
@@ -331,6 +335,9 @@ Public tools:
 
 Shared implementation notes:
 
+- `ToolsIndexPage.astro` renders all 8 tools-listing pages from localized data.
+  The English index keeps its `reveal` card variant; localized indexes keep
+  their previous denser mobile card behavior.
 - `CastOnCalculator.astro` and `YarnEstimator.astro` are shared calculator
   components.
 - `ToolStructuredData.astro` emits `WebApplication` JSON-LD and optional
@@ -338,8 +345,8 @@ Shared implementation notes:
 - `LocalizedToolPage.astro` is the shared localized tool page wrapper. It adds
   localized metadata, back link, tool slot, SEO content slot, FAQ and
   `ClosingCTA`.
-- `FinnishToolPage.astro` is a legacy wrapper around `LocalizedToolPage` with
-  `lang="fi"`.
+- There is no `FinnishToolPage.astro` wrapper in current source; Finnish tool
+  pages use `LocalizedToolPage.astro` directly with `lang="fi"`.
 - `WpiIdentifier.astro` is shared by all yarn-weight pages in all 8 languages.
 
 ## Articles
@@ -372,8 +379,10 @@ Article detail behavior:
 
 Footer behavior:
 
-- Tools links are localized for all 8 languages.
-- Article category links are localized for all 8 languages.
+- Tools links are localized for all 8 languages from `getToolLinks(lang)` in
+  `src/i18n/tools.ts`.
+- Article category links are localized for all 8 languages from
+  `getArticleCategoryLinks(lang)` in `src/i18n/articles.ts`.
 - App section contains "Launching soon", `/about/` and Finnvek privacy policy.
 - Footer bottom shows Finnvek link and `contact@finnvek.com`.
 - Footer seal image is `/logo.webp`.
@@ -404,14 +413,14 @@ Scripts in `scripts/`:
 
 ## Current Code Gotchas
 
-- `PageLayout.showStripe` is still accepted but not used. There is no
-  `StripeRibbon.astro` component in `src/components/` in this checkout.
 - There is no `PhoneMockup.astro`, `FeatureKnit`, `FeatureOrganize`,
   `FeatureCalculate`, `FeatureScanSave`, `FeatureLearn`, `PhoneInset`,
-  `ToolClosingCTA`, `FreeToolsMention` or `StitchSeam` component in current
-  `src/components/`.
-- `src/styles/typography.css` comments still mention old Geist/Bebas roles.
-  Treat the variable values in `global.css` as truth.
+  `ToolClosingCTA`, `FreeToolsMention`, `StitchSeam`, `StripeRibbon` or
+  `ToolCard` component in current `src/components/`.
+- `PageLayout` no longer exposes a `showStripe` prop.
+- `src/styles/typography.css` still uses legacy `--bebas-*` token names for
+  shared size/tracking values, but current font aliases point to
+  Lalezar/General Sans/Teko.
 - `global.css` still contains old safe stripe spacing variables, but current
   layout does not render a stripe ribbon.
 - JavaScript-created DOM and slotted calculator/table content still need

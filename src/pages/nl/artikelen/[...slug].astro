@@ -1,97 +1,28 @@
 ---
-import { getCollection, render, type CollectionEntry } from "astro:content";
+import { getCollection, render } from "astro:content";
 import PageLayout from "../../../layouts/PageLayout.astro";
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import ArticleCard from "../../../components/ArticleCard.astro";
 import ClosingCTA from "../../../components/ClosingCTA.astro";
 import {
-  CATEGORY_ORDER,
   getCategoryDescription,
   getCategoryLabel,
   type CategorySlug,
 } from "../../../lib/categories";
 import {
+  buildLocalizedArticleStaticPaths,
   dutchArticleRoutes,
-  getArticleAlternates,
   getArticlePath,
-  getArticleSlug,
-  getDutchArticleRouteSlug,
-  getDutchCategoryRouteSlug,
-  isDutchArticle,
+  type ArticleAlternates,
+  type ArticleCategorySection,
+  type ArticleEntry,
 } from "../../../i18n/articles";
 import { dutchToolRoutes } from "../../../i18n/dutchTools";
 import { routes } from "../../../i18n/routes";
 
-type ArticleEntry = CollectionEntry<"articles">;
-
-interface CategorySection {
-  slug: CategorySlug;
-  label: string;
-  description: string;
-  articles: ArticleEntry[];
-  remainingCount: number;
-}
-
 export async function getStaticPaths() {
-  const byCategoryOrder = (a: ArticleEntry, b: ArticleEntry) =>
-    (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999);
-  const buildSections = (items: ArticleEntry[]): CategorySection[] =>
-    CATEGORY_ORDER.map((slug) => {
-      const categoryArticles = items
-        .filter((item) => item.data.category === slug)
-        .sort(byCategoryOrder);
-      const previewArticles = categoryArticles.slice(0, 3);
-
-      return {
-        slug,
-        label: getCategoryLabel(slug, "nl"),
-        description: getCategoryDescription(slug, "nl"),
-        articles: previewArticles,
-        remainingCount: Math.max(
-          categoryArticles.length - previewArticles.length,
-          0,
-        ),
-      };
-    }).filter((section) => section.articles.length > 0);
-
-  const articles = await getCollection(
-    "articles",
-    ({ data }) =>
-      data.lang === "nl" && (import.meta.env.DEV ? true : !data.draft),
-  );
-  const dutchArticles = articles.filter(isDutchArticle).sort(byCategoryOrder);
-
-  const categoryPaths = CATEGORY_ORDER.filter((category) =>
-    dutchArticles.some((article) => article.data.category === category),
-  ).map((category) => ({
-    params: { slug: `categorie/${getDutchCategoryRouteSlug(category)}` },
-    props: {
-      view: "category" as const,
-      category,
-      articles: dutchArticles
-        .filter((article) => article.data.category === category)
-        .sort(byCategoryOrder),
-    },
-  }));
-
-  const articlePaths = dutchArticles.map((article) => ({
-    params: {
-      slug: getDutchArticleRouteSlug(
-        article.data.translationKey ?? getArticleSlug(article.id),
-        getArticleSlug(article.id),
-      ),
-    },
-    props: { view: "article" as const, article },
-  }));
-
-  return [
-    {
-      params: { slug: undefined },
-      props: { view: "index" as const, sections: buildSections(dutchArticles) },
-    },
-    ...categoryPaths,
-    ...articlePaths,
-  ];
+  const articles = await getCollection("articles");
+  return buildLocalizedArticleStaticPaths({ articles, lang: "nl" });
 }
 
 const {
@@ -100,12 +31,14 @@ const {
   category,
   articles = [],
   article,
+  alternates,
 } = Astro.props as {
   view: "index" | "category" | "article";
-  sections?: CategorySection[];
+  sections?: ArticleCategorySection[];
   category?: CategorySlug;
   articles?: ArticleEntry[];
   article?: ArticleEntry;
+  alternates?: ArticleAlternates;
 };
 
 const renderedArticle =
@@ -128,7 +61,7 @@ const categoryDescription = category
       tags={article.data.tags}
       lang="nl"
       canonicalPath={getArticlePath(article, "nl")}
-      alternates={getArticleAlternates(article)}
+      alternates={alternates}
     >
       <Content />
     </ArticleLayout>
@@ -139,7 +72,6 @@ const categoryDescription = category
       canonicalPath={dutchArticleRoutes.category[category]}
       lang="nl"
       alternates={routes.category[category]}
-      showStripe={false}
     >
       <section class="cat-header-section">
         <div class="cat-header-inner">
@@ -159,6 +91,7 @@ const categoryDescription = category
               article={categoryArticle}
               showCategory={false}
               lang="nl"
+              headingLevel={2}
             />
           ))}
         </div>
@@ -172,7 +105,6 @@ const categoryDescription = category
       canonicalPath={dutchArticleRoutes.articlesIndex}
       lang="nl"
       alternates={routes.articlesIndex}
-      showStripe={false}
     >
       <section class="articles-header">
         <div class="articles-header-inner">
@@ -214,7 +146,7 @@ const categoryDescription = category
             <div class="cat-section-inner">
               <header class="cat-header">
                 <div class="cat-header-text">
-                  <p class="cat-eyebrow">{section.label}</p>
+                  <h2 class="cat-eyebrow">{section.label}</h2>
                   <p class="cat-description">{section.description}</p>
                 </div>
                 {section.remainingCount > 0 && (

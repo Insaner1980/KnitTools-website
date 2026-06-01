@@ -1246,7 +1246,7 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
 
   :global(.yarn-estimator select option) {
     font-weight: 400;
-    color: #2a1e17;
+    color: var(--ink);
     background-color: #f2ecdc;
   }
 
@@ -1335,7 +1335,7 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
     font-style: italic;
   }
 
-  .form-error {
+  :global(.form-error) {
     color: var(--terracotta);
     font-size: 0.85rem;
     display: block;

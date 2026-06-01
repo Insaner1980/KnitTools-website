@@ -1,7 +1,39 @@
 import type { CollectionEntry } from "astro:content";
-import type { CategorySlug } from "../lib/categories";
+import {
+  CATEGORY_ORDER,
+  getCategoryDescription,
+  getCategoryLabel,
+  type CategorySlug,
+} from "../lib/categories";
 import type { Lang } from "./config";
 import { pathFor, routes } from "./routes";
+
+export type ArticleEntry = CollectionEntry<"articles">;
+export type ArticleAlternates = Partial<Record<Lang, string>>;
+
+export interface ArticleCategorySection {
+  slug: CategorySlug;
+  label: string;
+  description: string;
+  articles: ArticleEntry[];
+  remainingCount: number;
+}
+
+export type LocalizedArticleRouteProps =
+  | {
+      view: "index";
+      sections: ArticleCategorySection[];
+    }
+  | {
+      view: "category";
+      category: CategorySlug;
+      articles: ArticleEntry[];
+    }
+  | {
+      view: "article";
+      article: ArticleEntry;
+      alternates?: ArticleAlternates;
+    };
 
 export const dutchArticleRoutes = {
   articlesIndex: routes.articlesIndex.nl,
@@ -28,6 +60,13 @@ export const danishArticleRoutes = {
 export function getArticlesIndexPath(lang: Lang): string {
   if (lang === "da") return danishArticleRoutes.articlesIndex;
   return pathFor(routes.articlesIndex, lang);
+}
+
+export function getArticleCategoryLinks(lang: Lang) {
+  return CATEGORY_ORDER.map((category) => ({
+    label: getCategoryLabel(category, lang),
+    href: routes.category[category][lang],
+  }));
 }
 
 export const articleTranslations = {
@@ -463,6 +502,58 @@ export function getArticleSlug(id: string): string {
   return id.split("/").pop() ?? id;
 }
 
+export function getArticleTranslationKey(article: ArticleEntry): string {
+  return article.data.translationKey ?? getArticleSlug(article.id);
+}
+
+export function isArticleInLang(article: ArticleEntry, lang: Lang): boolean {
+  return (article.data.lang ?? "en") === lang;
+}
+
+export function isArticleVisibleInCurrentBuild(article: ArticleEntry): boolean {
+  return import.meta.env.DEV || !article.data.draft;
+}
+
+export function isArticleVisibleForLang(
+  article: ArticleEntry,
+  lang: Lang,
+): boolean {
+  return (
+    isArticleInLang(article, lang) && isArticleVisibleInCurrentBuild(article)
+  );
+}
+
+export function byCategoryOrder(a: ArticleEntry, b: ArticleEntry): number {
+  return (a.data.categoryOrder ?? 999) - (b.data.categoryOrder ?? 999);
+}
+
+function sortByCategoryOrder(items: ArticleEntry[]): ArticleEntry[] {
+  return [...items].sort(byCategoryOrder);
+}
+
+export function buildArticleCategorySections(
+  items: ArticleEntry[],
+  lang: Lang,
+): ArticleCategorySection[] {
+  return CATEGORY_ORDER.map((slug) => {
+    const categoryArticles = sortByCategoryOrder(
+      items.filter((item) => item.data.category === slug),
+    );
+    const previewArticles = categoryArticles.slice(0, 3);
+
+    return {
+      slug,
+      label: getCategoryLabel(slug, lang),
+      description: getCategoryDescription(slug, lang),
+      articles: previewArticles,
+      remainingCount: Math.max(
+        categoryArticles.length - previewArticles.length,
+        0,
+      ),
+    };
+  }).filter((section) => section.articles.length > 0);
+}
+
 function fallbackArticlePath(lang: Lang, slug: string): string {
   if (lang === "fi") return `/fi/artikkelit/${slug}/`;
   if (lang === "de") return `/de/artikel/${slug}/`;
@@ -475,10 +566,10 @@ function fallbackArticlePath(lang: Lang, slug: string): string {
 }
 
 export function getArticlePath(
-  article: CollectionEntry<"articles">,
+  article: ArticleEntry,
   lang: Lang = article.data.lang ?? "en",
 ): string {
-  const key = article.data.translationKey ?? getArticleSlug(article.id);
+  const key = getArticleTranslationKey(article);
   if (isTranslatedArticle(key)) {
     const translatedPath = (
       articleTranslations[key] as Partial<Record<Lang, string>>
@@ -488,115 +579,175 @@ export function getArticlePath(
   return fallbackArticlePath(lang, getArticleSlug(article.id));
 }
 
-export function getArticleAlternates(article: CollectionEntry<"articles">) {
-  const key = article.data.translationKey ?? getArticleSlug(article.id);
-  return isTranslatedArticle(key) ? articleTranslations[key] : undefined;
+export function getArticleAlternates(
+  article: ArticleEntry,
+  visibleArticles?: ArticleEntry[],
+): ArticleAlternates | undefined {
+  const key = getArticleTranslationKey(article);
+  if (!isTranslatedArticle(key)) return undefined;
+
+  const translations = articleTranslations[key] as ArticleAlternates;
+  if (!visibleArticles) return translations;
+
+  const visibleLanguages = new Set(
+    visibleArticles
+      .filter((candidate) => getArticleTranslationKey(candidate) === key)
+      .map((candidate) => candidate.data.lang ?? "en"),
+  );
+  const alternates = Object.fromEntries(
+    Object.entries(translations).filter(([lang]) =>
+      visibleLanguages.has(lang as Lang),
+    ),
+  ) as ArticleAlternates;
+
+  return Object.keys(alternates).length > 0 ? alternates : undefined;
+}
+
+export function getLocalizedArticleRouteSlug(
+  lang: Lang,
+  key: string,
+  fallbackSlug = key,
+): string {
+  if (isTranslatedArticle(key)) {
+    const localizedPath = (
+      articleTranslations[key] as Partial<Record<Lang, string>>
+    )[lang];
+    if (localizedPath) {
+      return localizedPath
+        .replace(getArticlesIndexPath(lang), "")
+        .replace(/\/$/, "");
+    }
+  }
+
+  return fallbackSlug;
+}
+
+export function getCategoryRouteRelativePath(
+  lang: Lang,
+  category: CategorySlug,
+): string {
+  return routes.category[category][lang]
+    .replace(getArticlesIndexPath(lang), "")
+    .replace(/\/$/, "");
+}
+
+export function buildLocalizedArticleStaticPaths({
+  articles,
+  lang,
+}: {
+  articles: ArticleEntry[];
+  lang: Lang;
+}): Array<{
+  params: { slug: string | undefined };
+  props: LocalizedArticleRouteProps;
+}> {
+  const visibleArticles = articles.filter(isArticleVisibleInCurrentBuild);
+  const localizedArticles = sortByCategoryOrder(
+    visibleArticles.filter((article) => isArticleVisibleForLang(article, lang)),
+  );
+
+  const categoryPaths = CATEGORY_ORDER.map((category) => ({
+    params: { slug: getCategoryRouteRelativePath(lang, category) },
+    props: {
+      view: "category" as const,
+      category,
+      articles: sortByCategoryOrder(
+        localizedArticles.filter(
+          (article) => article.data.category === category,
+        ),
+      ),
+    },
+  }));
+
+  const articlePaths = localizedArticles.map((article) => ({
+    params: {
+      slug: getLocalizedArticleRouteSlug(
+        lang,
+        getArticleTranslationKey(article),
+        getArticleSlug(article.id),
+      ),
+    },
+    props: {
+      view: "article" as const,
+      article,
+      alternates: getArticleAlternates(article, visibleArticles),
+    },
+  }));
+
+  return [
+    {
+      params: { slug: undefined },
+      props: {
+        view: "index",
+        sections: buildArticleCategorySections(localizedArticles, lang),
+      },
+    },
+    ...categoryPaths,
+    ...articlePaths,
+  ];
 }
 
 export function getFinnishArticleRouteSlug(
   key: string,
   fallbackSlug = key,
 ): string {
-  if (isTranslatedArticle(key)) {
-    return articleTranslations[key].fi
-      .replace("/fi/artikkelit/", "")
-      .replace(/\/$/, "");
-  }
-  return fallbackSlug;
+  return getLocalizedArticleRouteSlug("fi", key, fallbackSlug);
 }
 
 export function getGermanArticleRouteSlug(
   key: string,
   fallbackSlug = key,
 ): string {
-  if (isTranslatedArticle(key)) {
-    const dePath = (articleTranslations[key] as Partial<Record<Lang, string>>)
-      .de;
-    if (dePath) return dePath.replace("/de/artikel/", "").replace(/\/$/, "");
-  }
-  return fallbackSlug;
+  return getLocalizedArticleRouteSlug("de", key, fallbackSlug);
 }
 
 export function getSwedishArticleRouteSlug(
   key: string,
   fallbackSlug = key,
 ): string {
-  if (isTranslatedArticle(key)) {
-    const svPath = (articleTranslations[key] as Partial<Record<Lang, string>>)
-      .sv;
-    if (svPath) return svPath.replace("/sv/artiklar/", "").replace(/\/$/, "");
-  }
-  return fallbackSlug;
+  return getLocalizedArticleRouteSlug("sv", key, fallbackSlug);
 }
 
 export function getNorwegianArticleRouteSlug(
   key: string,
   fallbackSlug = key,
 ): string {
-  if (isTranslatedArticle(key)) {
-    const noPath = (articleTranslations[key] as Partial<Record<Lang, string>>)
-      .no;
-    if (noPath) return noPath.replace("/no/artikler/", "").replace(/\/$/, "");
-  }
-  return fallbackSlug;
+  return getLocalizedArticleRouteSlug("no", key, fallbackSlug);
 }
 
 export function getFrenchArticleRouteSlug(
   key: string,
   fallbackSlug = key,
 ): string {
-  if (isTranslatedArticle(key)) {
-    const frPath = (articleTranslations[key] as Partial<Record<Lang, string>>)
-      .fr;
-    if (frPath) return frPath.replace("/fr/articles/", "").replace(/\/$/, "");
-  }
-  return fallbackSlug;
+  return getLocalizedArticleRouteSlug("fr", key, fallbackSlug);
 }
 
 export function getDutchArticleRouteSlug(
   key: string,
   fallbackSlug = key,
 ): string {
-  if (isTranslatedArticle(key)) {
-    const nlPath = (articleTranslations[key] as Partial<Record<Lang, string>>)
-      .nl;
-    if (nlPath) return nlPath.replace("/nl/artikelen/", "").replace(/\/$/, "");
-  }
-  return fallbackSlug;
+  return getLocalizedArticleRouteSlug("nl", key, fallbackSlug);
 }
 
 export function getDanishArticleRouteSlug(
   key: string,
   fallbackSlug = key,
 ): string {
-  if (isTranslatedArticle(key)) {
-    const daPath = (articleTranslations[key] as Partial<Record<Lang, string>>)
-      .da;
-    if (daPath) return daPath.replace("/da/artikler/", "").replace(/\/$/, "");
-  }
-  return fallbackSlug;
+  return getLocalizedArticleRouteSlug("da", key, fallbackSlug);
 }
 
 export function getNorwegianCategoryRouteSlug(category: CategorySlug): string {
-  return routes.category[category].no
-    .replace("/no/artikler/kategori/", "")
-    .replace(/\/$/, "");
+  return getCategoryRouteRelativePath("no", category).replace("kategori/", "");
 }
 
 export function getFrenchCategoryRouteSlug(category: CategorySlug): string {
-  return routes.category[category].fr
-    .replace("/fr/articles/categorie/", "")
-    .replace(/\/$/, "");
+  return getCategoryRouteRelativePath("fr", category).replace("categorie/", "");
 }
 
 export function getDutchCategoryRouteSlug(category: CategorySlug): string {
-  return routes.category[category].nl
-    .replace("/nl/artikelen/categorie/", "")
-    .replace(/\/$/, "");
+  return getCategoryRouteRelativePath("nl", category).replace("categorie/", "");
 }
 
 export function getDanishCategoryRouteSlug(category: CategorySlug): string {
-  return danishArticleRoutes.category[category]
-    .replace("/da/artikler/kategori/", "")
-    .replace(/\/$/, "");
+  return getCategoryRouteRelativePath("da", category).replace("kategori/", "");
 }

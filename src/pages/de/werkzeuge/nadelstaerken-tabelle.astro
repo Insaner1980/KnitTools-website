@@ -1,47 +1,53 @@
 ---
 import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import { routes } from "../../../i18n/routes";
+import { getNeedleSizeRows } from "../../../lib/toolReferenceData";
 
-const rows = [
-  ["1,5", "000", "-", "-", "Lace"],
-  ["1,75", "00", "-", "-", "Lace"],
-  ["2,0", "0", "14", "0", "Lace"],
-  ["2,25", "1", "13", "-", "Lace / Fingering / Sockengarn"],
-  ["2,4", "-", "-", "1", "Fingering / Sockengarn"],
-  ["2,5", "1,5", "-", "-", "Fingering / Sockengarn"],
-  ["2,7", "-", "-", "2", "Fingering / Sockengarn"],
-  ["2,75", "2", "12", "-", "Fingering / Sockengarn"],
-  ["3,0", "2,5", "11", "3", "Fingering / Sockengarn"],
-  ["3,25", "3", "10", "-", "Fingering / Sockengarn / Sport"],
-  ["3,3", "-", "-", "4", "Sport"],
-  ["3,5", "4", "-", "-", "Sport"],
-  ["3,6", "-", "-", "5", "Sport"],
-  ["3,75", "5", "9", "-", "Sport / DK / Light"],
-  ["3,9", "-", "-", "6", "DK / Light"],
-  ["4,0", "6", "8", "6", "DK / Light"],
-  ["4,2", "-", "-", "7", "DK / Light"],
-  ["4,5", "7", "7", "8", "DK / Light / Worsted"],
-  ["4,8", "-", "-", "9", "Worsted / Aran / Medium"],
-  ["5,0", "8", "6", "-", "Worsted / Aran / Medium"],
-  ["5,1", "-", "-", "10", "Worsted / Aran / Medium"],
-  ["5,4", "-", "-", "11", "Worsted / Aran / Medium"],
-  ["5,5", "9", "5", "-", "Worsted / Aran / Medium / Bulky"],
-  ["5,7", "-", "-", "12", "Bulky / Chunky"],
-  ["6,0", "10", "4", "13", "Bulky / Chunky"],
-  ["6,3", "-", "-", "14", "Bulky / Chunky"],
-  ["6,5", "10,5", "3", "-", "Bulky / Chunky"],
-  ["6,6", "-", "-", "15", "Bulky / Chunky"],
-  ["7,0", "-", "2", "-", "Bulky / Chunky"],
-  ["8,0", "11", "0", "-", "Bulky / Super Bulky"],
-  ["9,0", "13", "00", "-", "Super Bulky / Super Chunky"],
-  ["10,0", "15", "000", "-", "Super Bulky / Super Chunky"],
-  ["12,0", "17", "-", "-", "Super Bulky / Super Chunky"],
-  ["12,75", "-", "-", "-", "Super Bulky / Jumbo"],
-  ["15,0", "19", "-", "-", "Jumbo"],
-  ["16,0", "19", "-", "-", "Jumbo"],
-  ["19,0", "35", "-", "-", "Jumbo"],
-  ["25,0", "50", "-", "-", "Jumbo"],
-];
+const needleYarnWeightLabels = [
+  "Lace",
+  "Lace",
+  "Lace",
+  "Lace / Fingering / Sockengarn",
+  "Fingering / Sockengarn",
+  "Fingering / Sockengarn",
+  "Fingering / Sockengarn",
+  "Fingering / Sockengarn",
+  "Fingering / Sockengarn",
+  "Fingering / Sockengarn / Sport",
+  "Sport",
+  "Sport",
+  "Sport",
+  "Sport / DK / Light",
+  "DK / Light",
+  "DK / Light",
+  "DK / Light",
+  "DK / Light / Worsted",
+  "Worsted / Aran / Medium",
+  "Worsted / Aran / Medium",
+  "Worsted / Aran / Medium",
+  "Worsted / Aran / Medium",
+  "Worsted / Aran / Medium / Bulky",
+  "Bulky / Chunky",
+  "Bulky / Chunky",
+  "Bulky / Chunky",
+  "Bulky / Chunky",
+  "Bulky / Chunky",
+  "Bulky / Chunky",
+  "Bulky / Super Bulky",
+  "Super Bulky / Super Chunky",
+  "Super Bulky / Super Chunky",
+  "Super Bulky / Super Chunky",
+  "Super Bulky / Jumbo",
+  "Jumbo",
+  "Jumbo",
+  "Jumbo",
+  "Jumbo",
+] as const;
+
+const rows = getNeedleSizeRows("comma", needleYarnWeightLabels).map(
+  (row, index) =>
+    index === 15 ? ([row[0], row[1], row[2], "6", row[4]] as const) : row,
+);
 
 const faqs = [
   {
@@ -81,6 +87,7 @@ const faqs = [
         type="text"
         id="needle-search"
         class="search-input"
+        aria-label="Nadelgrößen suchen"
         placeholder='Größe suchen, z. B. "4,5", "US 7" oder "UK 7"'
         autocomplete="off"
       />

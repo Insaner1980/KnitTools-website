@@ -2,47 +2,9 @@
 import LocalizedToolPage from "../LocalizedToolPage.astro";
 import { dutchToolRoutes } from "../../i18n/dutchTools";
 import { routes } from "../../i18n/routes";
+import { getNeedleSizeRows } from "../../lib/toolReferenceData";
 
-const rows = [
-  ["1.5", "000", "-", "-", "Lace"],
-  ["1.75", "00", "-", "-", "Lace"],
-  ["2.0", "0", "14", "0", "Lace"],
-  ["2.25", "1", "13", "-", "Lace / Super Fine"],
-  ["2.4", "-", "-", "1", "Super Fine"],
-  ["2.5", "1.5", "-", "-", "Super Fine"],
-  ["2.7", "-", "-", "2", "Super Fine"],
-  ["2.75", "2", "12", "-", "Super Fine"],
-  ["3.0", "2.5", "11", "3", "Super Fine"],
-  ["3.25", "3", "10", "-", "Super Fine / Fine"],
-  ["3.3", "-", "-", "4", "Fine"],
-  ["3.5", "4", "-", "-", "Fine"],
-  ["3.6", "-", "-", "5", "Fine"],
-  ["3.75", "5", "9", "-", "Fine / Light"],
-  ["3.9", "-", "-", "6", "Light"],
-  ["4.0", "6", "8", "-", "Light"],
-  ["4.2", "-", "-", "7", "Light"],
-  ["4.5", "7", "7", "8", "Light / Medium"],
-  ["4.8", "-", "-", "9", "Medium"],
-  ["5.0", "8", "6", "-", "Medium"],
-  ["5.1", "-", "-", "10", "Medium"],
-  ["5.4", "-", "-", "11", "Medium"],
-  ["5.5", "9", "5", "-", "Medium / Bulky"],
-  ["5.7", "-", "-", "12", "Bulky"],
-  ["6.0", "10", "4", "13", "Bulky"],
-  ["6.3", "-", "-", "14", "Bulky"],
-  ["6.5", "10.5", "3", "-", "Bulky"],
-  ["6.6", "-", "-", "15", "Bulky"],
-  ["7.0", "-", "2", "-", "Bulky"],
-  ["8.0", "11", "0", "-", "Bulky / Super Bulky"],
-  ["9.0", "13", "00", "-", "Super Bulky"],
-  ["10.0", "15", "000", "-", "Super Bulky"],
-  ["12.0", "17", "-", "-", "Super Bulky"],
-  ["12.75", "-", "-", "-", "Super Bulky / Jumbo"],
-  ["15.0", "19", "-", "-", "Jumbo"],
-  ["16.0", "19", "-", "-", "Jumbo"],
-  ["19.0", "35", "-", "-", "Jumbo"],
-  ["25.0", "50", "-", "-", "Jumbo"],
-];
+const rows = getNeedleSizeRows();
 
 const formatNumber = (value: string) => value.replaceAll(".", ",");
 const formatReferenceCell = (value: string) =>
@@ -86,6 +48,7 @@ const faqs = [
         type="text"
         id="needle-search"
         class="search-input"
+        aria-label="Zoek naalddiktes"
         placeholder='Zoek een maat, bijv. "4,5", "US 7" of "UK 7"'
         autocomplete="off"
       />

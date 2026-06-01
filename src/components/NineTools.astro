@@ -256,8 +256,8 @@ const proCards = cards.filter((c) => c.tier === "pro");
 
   .tool-card {
     background: var(--wheat);
-    color: #2a1e17;
-    border: 1px solid #2a1e17;
+    color: var(--ink);
+    border: 1px solid var(--ink);
     padding: 28px 28px 32px;
     display: flex;
     flex-direction: column;
@@ -270,50 +270,50 @@ const proCards = cards.filter((c) => c.tier === "pro");
 
   .tool-card.tint-sage {
     background: var(--sage);
-    color: #f4ead9;
+    color: var(--paper);
     border-color: var(--sage);
   }
   .tool-card.tint-sage h3 {
-    color: #f4ead9;
+    color: var(--paper);
   }
   .tool-card.tint-sage p {
-    color: rgba(244, 234, 217, 0.9);
+    color: rgb(from var(--paper) r g b / 0.9);
   }
 
   .tool-card.tint-walnut {
     background: var(--walnut);
-    color: #f4ead9;
+    color: var(--paper);
     border-color: var(--walnut);
   }
   .tool-card.tint-walnut h3 {
-    color: #f4ead9;
+    color: var(--paper);
   }
   .tool-card.tint-walnut p {
-    color: rgba(244, 234, 217, 0.88);
+    color: rgb(from var(--paper) r g b / 0.88);
   }
 
   .tool-card.tint-amber {
     background: var(--amber);
-    color: #f4ead9;
+    color: var(--paper);
     border-color: var(--amber);
   }
   .tool-card.tint-amber h3 {
-    color: #f4ead9;
+    color: var(--paper);
   }
   .tool-card.tint-amber p {
-    color: rgba(244, 234, 217, 0.92);
+    color: rgb(from var(--paper) r g b / 0.92);
   }
 
   .tool-card.tint-terracotta {
-    background: #a05038;
-    color: #f4ead9;
-    border-color: #a05038;
+    background: var(--terracotta);
+    color: var(--paper);
+    border-color: var(--terracotta);
   }
   .tool-card.tint-terracotta h3 {
-    color: #f4ead9;
+    color: var(--paper);
   }
   .tool-card.tint-terracotta p {
-    color: rgba(244, 234, 217, 0.92);
+    color: rgb(from var(--paper) r g b / 0.92);
   }
 
   .tool-card.tint-ink {
@@ -340,7 +340,7 @@ const proCards = cards.filter((c) => c.tier === "pro");
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #2a1e17;
+    color: var(--ink);
   }
   .pill {
     font-family: var(--font-body);
@@ -377,13 +377,13 @@ const proCards = cards.filter((c) => c.tier === "pro");
     letter-spacing: 0;
     text-transform: none;
     margin: 0;
-    color: #2a1e17;
+    color: var(--ink);
   }
   .tool-card p {
     font-family: var(--body-ed);
     font-size: 15px;
     line-height: 1.55;
-    color: #2a1e17;
+    color: var(--ink);
     margin: 0;
   }
 

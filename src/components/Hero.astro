@@ -27,7 +27,17 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
         Be first to know when KnitTools launches on Google Play.
       </p>
 
-      <form class="signup" id="hero-signup" action="#" method="post">
+      <form
+        class="signup"
+        id="hero-signup"
+        action="#"
+        method="post"
+        data-waitlist-signup
+        data-source="knittools"
+        data-sending-text="Sending…"
+        data-generic-error="Something went wrong. Please try again."
+        data-network-error="Network error. Please check your connection."
+      >
         <label for="hero-email" class="visually-hidden">Email address</label>
         <label for="hero-website" class="visually-hidden"
           >Leave this field empty</label
@@ -45,15 +55,32 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
             id="hero-email"
             type="email"
             placeholder="your@email.com"
+            aria-describedby="hero-signup-success hero-signup-error"
             required
             autocomplete="email"
           />
           <button type="submit" class="btn-notify">Notify me at launch</button>
         </div>
-        <p class="signup-success" data-success aria-hidden="true">
+        <p
+          id="hero-signup-success"
+          class="signup-success"
+          data-success
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+          aria-hidden="true"
+          hidden
+        >
           You're in. We'll email you at launch.
         </p>
-        <p class="signup-error" data-error aria-hidden="true">
+        <p
+          id="hero-signup-error"
+          class="signup-error"
+          data-error
+          role="alert"
+          aria-hidden="true"
+          hidden
+        >
           Something went wrong. Please try again.
         </p>
         <p class="card-caption">
@@ -65,81 +92,6 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
     </aside>
   </div>
 </section>
-
-<script is:inline>
-  (() => {
-    const ENDPOINT = "https://api.finnvek.com/subscribe";
-
-    const form = document.getElementById("hero-signup");
-    if (!form) return;
-
-    const content = form.querySelector("[data-content]");
-    const success = form.querySelector("[data-success]");
-    const errorEl = form.querySelector("[data-error]");
-    const button = form.querySelector('button[type="submit"]');
-    const emailInput = form.querySelector('input[type="email"]');
-    const honeypot = form.querySelector('input[name="website"]');
-    const originalText = button ? button.textContent : "Notify me at launch";
-
-    const showSuccess = () => {
-      if (content) content.style.display = "none";
-      if (errorEl) {
-        errorEl.style.display = "none";
-        errorEl.setAttribute("aria-hidden", "true");
-      }
-      if (success) {
-        success.style.display = "block";
-        success.setAttribute("aria-hidden", "false");
-      }
-    };
-
-    const showError = (message) => {
-      if (button) {
-        button.disabled = false;
-        button.textContent = originalText;
-      }
-      if (errorEl) {
-        errorEl.textContent = message;
-        errorEl.style.display = "block";
-        errorEl.setAttribute("aria-hidden", "false");
-      }
-    };
-
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      if (!form.reportValidity()) return;
-
-      if (button) {
-        button.disabled = true;
-        button.textContent = "Sending…";
-      }
-      if (errorEl) {
-        errorEl.style.display = "none";
-        errorEl.setAttribute("aria-hidden", "true");
-      }
-
-      try {
-        const res = await fetch(ENDPOINT, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            email: emailInput ? emailInput.value.trim() : "",
-            source: "knittools",
-            website: honeypot ? honeypot.value : "",
-          }),
-        });
-        const data = await res.json().catch(() => ({}));
-        if (res.ok && data.success) {
-          showSuccess();
-        } else {
-          showError(data.error || "Something went wrong. Please try again.");
-        }
-      } catch {
-        showError("Network error. Please check your connection.");
-      }
-    });
-  })();
-</script>
 
 <style>
   .hero-editorial {
