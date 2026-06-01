@@ -735,20 +735,20 @@ const defaultPanel = "frauen";
 
 const faqs = [
   {
-    q: "Wähle ich die Größe nach Körpermaß oder Fertigmaß?",
-    a: "Meistens startest du mit dem Körpermaß und vergleichst es dann mit der gewünschten Mehrweite. Das Fertigmaß des Strickstücks ist nicht dasselbe wie dein Körpermaß.",
+    q: "Sind diese Maße in allen Strickanleitungen gleich?",
+    a: "Viele Verlage und Strickdesigns orientieren sich an Körpermaßtabellen im Stil des Craft Yarn Council, aber es gibt keine universelle Durchsetzung. Manche Anleitungen verwenden eigene Größen, besonders wenn sie sehr fein abgestufte Größen anbieten. Prüfe immer die Größentabelle der konkreten Anleitung, wenn eine vorhanden ist.",
   },
   {
-    q: "Was mache ich, wenn meine Maße zwischen zwei Größen liegen?",
-    a: "Schau auf die Form des Modells. Bei einem lockeren Pullover kann die größere Größe passen, bei einem körpernahen Stück sind Schulter, Oberarm und Hüfte oft entscheidend.",
+    q: "Wie wähle ich die Größe, wenn die Anleitung nummerierte Größen statt XS/S/M/L verwendet?",
+    a: "Vergleiche den Brustumfang jeder nummerierten Größe mit den Tabellen oben. Der Brustumfang ist der entscheidende Wert. Das Etikett der Größe ist weniger wichtig.",
   },
   {
     q: "Messe ich über Kleidung oder auf der Haut?",
-    a: "Miss über leichter Kleidung, zum Beispiel über einem anliegenden T-Shirt. Ein dicker Pullover addiert Zentimeter, die dein Körpermaß nicht widerspiegeln. Direkt auf der Haut kann der Wert etwas kleiner sein als das, was ein Kleidungsstück praktisch braucht.",
+    a: "Miss direkt auf der Haut oder über einer dünnen, anliegenden Schicht. Vermeide dicke Kleidung. Ein schwerer Pullover addiert Zentimeter, die nicht dem Körpermaß entsprechen, nach dem die Größentabelle der Anleitung fragt.",
   },
   {
-    q: "Kann ich die Tabelle direkt für Kinderkleidung verwenden?",
-    a: "Die Tabelle gibt einen Ausgangspunkt. Bei Kindern variieren Länge, Schultern und Wachstumsspielraum stark, deshalb solltest du die Fertigmaße der Anleitung prüfen.",
+    q: "Was mache ich, wenn meine Maße nicht sauber in eine Größe passen?",
+    a: "Das ist normal. Die meisten Körper entsprechen nicht in jedem Maß einer einzigen Größe. Priorisiere das Maß, das für das Projekt am wichtigsten ist: Brustumfang für einen Pullover, Hüfte für einen Rock, Kopfumfang für eine Mütze. Viele Anleitungen erklären, wie du einzelne Bereiche verlängerst oder kürzt.",
   },
 ];
 ---
@@ -759,7 +759,7 @@ const faqs = [
   canonicalPath={routes.tool.knittingSizeCharts.de}
   lang="de"
   alternates={routes.tool.knittingSizeCharts}
-  intro="Nutze die Maße als Ausgangspunkt, wenn du eine Größe in einer Strickanleitung auswählst oder die Mehrweite prüfst. Wähle zuerst Gruppe und Einheit."
+  intro="Körpermaße für typische Strickprojekte. Wähle eine Gruppe und Einheit, aber denk daran: Das sind Körpermaße, keine Fertigmaße. Die gewünschte Mehrweite kommt danach dazu."
   schemaName="Größentabellen fürs Stricken"
   schemaDescription="Körpermaßtabellen zur Größenwahl in Strickanleitungen."
   faqs={faqs}
@@ -858,27 +858,120 @@ const faqs = [
   </div>
 
   <div slot="content">
-    <h2>Körper messen, nicht nur ein altes Kleidungsstück</h2>
+    <h2>Körpermaße richtig nehmen</h2>
     <p>
-      Die Größe einer Strickanleitung wählst du meistens aus Körpermaßen und
-      geplanter Mehrweite. Ein Lieblingspullover kann helfen, das Gefühl
-      einzuschätzen, ersetzt aber nicht Brustumfang, Hüfte und Ärmellänge.
+      Die Maße in diesen Tabellen beziehen sich auf bestimmte Punkte am Körper.
+      Ein brauchbarer Wert entsteht nur, wenn du an der richtigen Stelle misst.
+    </p>
+    <p>
+      <strong>Brust / Oberweite:</strong> Miss um die vollste Stelle der Brust. Das
+      Maßband liegt waagerecht und anliegend, aber nicht eng. Dieses Maß ist meistens
+      die Hauptgrundlage für die Größenwahl bei Oberteilen.
+    </p>
+    <p>
+      <strong>Taille:</strong> Miss an der natürlichen Taille, also an der schmalsten
+      Stelle des Oberkörpers, meist knapp oberhalb des Bauchnabels. Wenn du unsicher
+      bist, hilft es, dich leicht zur Seite zu beugen.
+    </p>
+    <p>
+      <strong>Hüfte:</strong> Miss um die breiteste Stelle der unteren Hüfte. Bei
+      vielen Körpern liegt sie unterhalb der natürlichen Taille, aber der breiteste
+      Punkt zählt mehr als ein fester Abstand.
+    </p>
+    <p>
+      <strong>Rückenbreite:</strong> Miss gerade über den Rücken von einer Schulterspitze
+      zur anderen. Dieses Maß beeinflusst, wie breit die Schulter eines Kleidungsstücks
+      sitzt.
+    </p>
+    <p>
+      <strong>Rückenlänge bis Taille:</strong> Miss vom vorstehenden Knochen im Nacken
+      gerade nach unten bis zur natürlichen Taille. Das zeigt, wie lang der Rumpfbereich
+      sein muss.
+    </p>
+    <p>
+      <strong>Ärmellänge bis Unterarm:</strong> Miss vom Handgelenksknochen bis zum
+      Unterarm. Das ist dein Ausgangswert für die Ärmellänge.
+    </p>
+    <p>
+      <strong>Oberarmumfang:</strong> Miss an der vollsten Stelle des Oberarms, während
+      der Arm locker an der Seite hängt.
+    </p>
+    <p>
+      <strong>Armausschnitttiefe:</strong> Miss von der Schulterspitze gerade nach
+      unten bis zum Unterarm. Dieses Maß beeinflusst, wie tief die Armlochformung
+      sein muss.
+    </p>
+    <p>
+      <strong>Nacken bis Handgelenk:</strong> Miss von der hinteren Halsmitte über
+      die Schulter und den Arm hinunter bis zum Handgelenksknochen. Dieses kombinierte
+      Maß ist besonders bei Raglan- und Passenkonstruktionen nützlich, bei denen Körper
+      und Ärmel zusammen entstehen.
     </p>
 
-    <h2>Körpermaß und Fertigmaß sind verschieden</h2>
+    <h2>Körpermaße vs. Fertigmaße</h2>
     <p>
-      Wenn dein Brustumfang 96 cm ist und das fertige Strickstück 106 cm misst,
-      hat es 10 cm Mehrweite. Das kann für einen lockeren Pullover genau richtig
-      und für einen körpernahen Cardigan zu viel sein. Die Schemazeichnung der
-      Anleitung zeigt, wo die Designerin Platz eingeplant hat.
+      Hier entstehen beim Stricken die meisten Größenfehler. Diese Tabellen
+      zeigen Körpermaße, also die tatsächlichen Maße der Person. Ein fertiges
+      Kleidungsstück kann kleiner, gleich groß oder größer sein, je nachdem,
+      welche Mehrweite die Anleitung vorsieht.
+    </p>
+    <p>
+      <strong>Negative Mehrweite:</strong> Das Kleidungsstück ist kleiner als der
+      Körper. Für eine sehr körpernahe Pulloverpassform nennt die CYC-Richtlinie ungefähr
+      5-10 cm weniger als den tatsächlichen Brust- oder Oberbrustumfang; Mützen, Socken
+      und enges Rippenmuster haben eigene projektspezifische Regeln.
+    </p>
+    <p>
+      <strong>Keine Mehrweite:</strong> Das Kleidungsstück entspricht dem Körpermaß.
+      In gestrickter Fläche wirkt das meist sehr körpernah, außer das Muster ist besonders
+      locker.
+    </p>
+    <p>
+      <strong>Positive Mehrweite (5-10 cm):</strong> Das Kleidungsstück ist etwas
+      größer als der Körper. Das ist eine typische Passform für viele Pullover, Cardigans
+      und Tops.
+    </p>
+    <p>
+      <strong>Lockere oder Oversize-Mehrweite (10-15+ cm):</strong> Das Kleidungsstück
+      ist sichtbar größer als der Körper. Lässige Pullover, Cocoon-Cardigans und relaxed-fit-Modelle
+      liegen in diesem Bereich.
+    </p>
+    <p>
+      Wenn eine Anleitung "für Brustumfang 91,5 cm" sagt und ein Fertigmaß von
+      101,5 cm nennt, sind die 10 cm Differenz die Mehrweite. Du wählst also die
+      Größe, deren Körpermaß zu dir passt, nicht einfach die Größe mit deinem
+      gewünschten Fertigmaß.
+    </p>
+    <p>
+      Wenn du deine Zielgröße kennst, kann der <a
+        href="/de/werkzeuge/garnbedarfsrechner/">Garnbedarfsrechner</a
+      > den Garnbedarf plausibilisieren. Der <a
+        href="/de/artikel/wie-viel-garn-fuer-einen-pullover/"
+        >Pullover-Garnleitfaden</a
+      > geht tiefer auf Größen- und Garnmengenberechnungen ein.
     </p>
 
-    <h2>Wähle die Größe nach dem Modell</h2>
+    <h2>Zwischen zwei Größen wählen</h2>
     <p>
-      Der Brustumfang entscheidet nicht alles. Bei langen Stücken kann die Hüfte
-      wichtiger sein. Bei einem schmalen Ärmel kann der Oberarm ausschlaggebend
-      sein, selbst wenn der Brustumfang passt. Prüfe ein paar Schlüsselmaße,
-      bevor du dich festlegst.
+      Wenn dein Brustumfang zwischen zwei Größen liegt, entscheidet die
+      gewünschte Passform. Für ein körpernahes Kleidungsstück ist eher die
+      kleinere Größe sinnvoll. Für eine lockere oder oversized Passform eher die
+      größere.
+    </p>
+    <p>
+      Vergleiche außerdem andere Maße, besonders Hüfte bei längeren
+      Kleidungsstücken und Oberarm bei schmalen Ärmeln. Wenn dein Brustumfang M
+      sagt, deine Hüfte aber L, zeigt die Schemazeichnung der Anleitung, ob die
+      Hüftdifferenz für Länge und Silhouette relevant ist.
+    </p>
+    <p>
+      Welche Größe du auch wählst: Die <a
+        href="/de/artikel/maschenprobe-stricken-schritt-fuer-schritt/"
+        >Maschenprobe</a
+      > entscheidet, ob das fertige Stück tatsächlich zu den Zahlen der Anleitung
+      passt. Der Leitfaden zum <a href="/de/artikel/maschenprobe-messen/"
+        >Messen der Maschenprobe</a
+      > erklärt den Prozess genauer.
     </p>
   </div>
 </LocalizedToolPage>

@@ -16,124 +16,96 @@ lang: fr
 translationKey: "track-knitting-time"
 ---
 
-La plupart des tricoteuses savent plus ou moins quand elles ont commencé un projet. Très peu savent combien d'heures il a vraiment prises. Le pull a traîné six semaines avant Noël, mais était-ce 18 heures de tricot ou 75 heures par petites séances ? Sans suivi, impossible de le savoir.
+La plupart des tricoteuses ont une idée floue du temps que prennent leurs projets. "Le pull a pris quelques mois." "Les chaussettes sont allées assez vite." Mais cette impression n'aide pas beaucoup quand tu te demandes si tu peux commencer un gilet six semaines avant Noël, ou pourquoi un bonnet censé tenir en une soirée s'étire sur trois.
 
-Suivre ton temps de tricot n'a pas besoin d'être strict ou obsessionnel. Il suffit de noter le début et la fin des séances pour voir combien de temps demandent vraiment les bonnets, les chaussettes, les couvertures et les pulls. Avec le temps, ces chiffres t'aident à planifier, à choisir des cadeaux réalistes et à comprendre ta vitesse selon les points. Le but n'est pas de transformer un loisir en feuille de temps. Le but est d'arrêter de deviner.
+Suivre le temps de tricot transforme ces impressions en données concrètes. Combien d'heures sont entrées dans le pull. Combien de rangs tu fais en moyenne par séance. Si tu avances plus vite en jersey qu'en torsades, et dans quelle mesure. Les chiffres ne feront pas bouger tes mains plus vite, mais ils t'aideront à mieux planifier et à remarquer quand quelque chose ralentit sans bruit.
 
-## Pourquoi noter le temps de tricot ?
+## Pourquoi suivre le temps
 
-La meilleure raison est simple : les projets prennent souvent beaucoup plus de temps qu'on ne croit. Une manche peut avoir l'air d'une petite partie du pull jusqu'au moment où elle avale six soirées. Une couverture peut sembler facile parce que le point est simple, puis tu réalises que le volume de mailles est énorme.
+Trois raisons paient vite.
 
-Le suivi du temps rend ces réalités visibles. Si tu sais qu'une chaussette te prend huit heures, une paire cadeau pour vendredi n'est plus une intuition vague. C'est une décision avec un chiffre derrière. Si tu sais qu'un panneau de torsades avance deux fois moins vite que du jersey, tu peux le prévoir au lieu de t'agacer.
+**La planification devient plus réaliste.** Si tu sais qu'un bonnet en fil worsted te prend environ 8 heures, tu peux commencer à estimer le calendrier d'un pull. Si le corps du bonnet faisait 15 cm de jersey à 45 minutes pour 2,5 cm, un corps de pull de 38 cm dans le même échantillon donne au moins un ordre de grandeur. Pas une certitude, parce que les mises en forme et l'assemblage ajoutent du temps, mais un ordre de grandeur vaut mieux que "aucune idée".
 
-Le suivi aide aussi à comparer les projets honnêtement. Un bonnet qui semble "rapide" a peut-être pris quatre heures. Un pull qui a semblé interminable a peut-être pris 38 heures, ce qui n'est pas si long pour un vêtement complet. Le temps ressenti et le temps réel ne racontent pas toujours la même histoire.
+**Tu remarques les ralentissements avant qu'ils deviennent un problème.** Si une séance habituelle produit 12 rangs sur un projet et qu'une semaine elle tombe à 6, quelque chose a changé. Le point est peut-être plus exigeant. Le fil résiste peut-être. La tension a peut-être dérivé et tu compenses sans t'en rendre compte. Les chiffres signalent le changement avant que tu passes trois séances de plus à te demander pourquoi l'ouvrage semble lourd.
 
-## La méthode la plus simple : minuteur de téléphone
+Il y a aussi le temps long. La vitesse de tricot peut changer avec la pratique, mais le changement est souvent assez graduel pour passer inaperçu. Des données de séance d'il y a six mois comparées à celles d'aujourd'hui peuvent montrer la différence : plus de rangs par heure, moins d'erreurs, une récupération plus rapide après une maille à corriger. Les progrès invisibles au jour le jour deviennent plus lisibles sur plusieurs mois.
 
-Utilise le minuteur ou le chronomètre de ton téléphone. Démarre-le quand tu t'assois pour tricoter, arrête-le quand tu ranges le projet, note le temps quelque part.
+## Suivi le plus léger : minuteur de téléphone
 
-C'est tout.
+C'est la méthode qui demande le moins d'effort. Lance un minuteur quand tu prends les aiguilles, arrête-le quand tu les poses. Note le temps et le nombre de rangs dans un carnet ou une application de notes.
 
-Pour beaucoup de tricoteuses, c'est déjà suffisant. Tu peux noter les séances dans l'application Notes, dans un carnet ou directement dans la fiche du projet si tu utilises une application de tricot. Ce qui compte, c'est de noter le total avant de l'oublier.
+Cela fonctionne bien pour un seul projet. Avec plusieurs encours, cela devient vite désordonné : il faut une ligne séparée pour chacun, et le carnet se remplit d'horodatages sans tri. Il faut aussi penser à lancer et arrêter le minuteur à chaque fois, le genre d'habitude qui tient deux semaines puis s'éteint discrètement.
 
-Il faut quand même accepter une petite imperfection. Tu oublieras parfois de lancer le minuteur. Tu le laisseras tourner pendant que tu fais du thé. Ça n'a pas grande importance. Le suivi du temps sert à obtenir des tendances utiles, pas des relevés irréprochables.
+## Suivi dans un tableur
 
-## Tableur ou carnet
+Un cran au-dessus : un tableur avec des colonnes pour la date, le nom du projet, le rang de départ, le rang d'arrivée et la durée. Les formules calculent les rangs par séance, les rangs par heure et le temps cumulé.
 
-Si tu veux plus de détail, un tableau simple fonctionne bien :
+Tu obtiens alors de vraies données à examiner. Trace les rangs par heure dans le temps, et la courbe de rythme devient visible. Compare les projets, et l'effet d'un point plus complexe apparaît dans les chiffres. Si tes notes montrent qu'un projet en jersey avance beaucoup plus vite qu'un projet à torsades, cette différence devient une donnée de planification plutôt qu'une vague impression.
 
-| Date   | Projet     | Section | Temps  | Notes          |
-| ------ | ---------- | ------- | ------ | -------------- |
-| 12 mai | Gilet bleu | Dos     | 45 min | Jersey         |
-| 13 mai | Gilet bleu | Dos     | 1 h 10 | Un rang défait |
-| 14 mai | Chaussette | Talon   | 35 min | Rythme lent    |
+La limite : tout se saisit à la main après chaque séance. Si tu oublies, les données ont des trous. Si tu arrondis, "environ 45 minutes, peut-être 20 rangs", la précision qui rend le tableur utile disparaît.
 
-Au bout de quelques projets, tu verras des motifs apparaître. Les talons prennent toujours plus longtemps que prévu. Les côtes prennent moins de temps que prévu. Les torsades ralentissent tout. La dentelle dépend fortement du degré d'attention demandé par le motif.
+## Suivi dédié des séances de tricot
 
-Le carnet papier marche aussi. L'avantage du papier, c'est qu'il reste avec le sac à projet. L'avantage du tableur, c'est qu'il additionne tout seul. Choisis celui que tu utiliseras vraiment.
+Un suivi du temps intégré à un outil de gestion de projet automatise les parties que les méthodes manuelles ratent souvent. Tu démarres une séance, tu tricotes, tu termines la séance. L'outil enregistre la durée, la rattache au projet et suit le nombre de rangs ou de tours en même temps.
 
-## Applications et suivis dédiés
+[KnitTools](/) est en cours de développement avec un suivi de séance relié au [compteur de rangs](/fr/articles/suivre-les-rangs-au-tricot/). Le flux prévu est direct : compter les rangs ou les tours, enregistrer la séance, puis garder la date, la durée, les rangs ou tours terminés et le rythme avec le projet. Avec le temps, cela construit un historique par projet et sur l'ensemble des projets.
 
-Les applications de tricot avec minuteur intégré réduisent les frottements. Le mieux, c'est quand le temps de tricot, le compteur de rangs et les notes de projet restent ensemble. Tu ne notes pas seulement "1 heure". Tu notes "1 heure sur le corps, rangs 42 à 58, avec le coloris B commencé".
+L'avantage par rapport aux méthodes manuelles, c'est la régularité. Tu utilises déjà le compteur, donc le suivi du temps reste dans le même geste. Pas de minuteur séparé à lancer, pas de carnet à mettre à jour, pas de tableur à entretenir. Les données s'accumulent sans ajouter une deuxième tâche.
 
-C'est là que le suivi du temps devient plus utile qu'un total brut. Associé aux rangs, le temps donne une vitesse. Associé aux sections, il montre où un projet ralentit. Associé au fil et à la taille d'aiguilles, il t'aide à prévoir les prochains projets similaires.
+## Ce que les données disent vraiment
 
-Le suivi numérique est particulièrement pratique si tu as plusieurs ouvrages en cours. Un bonnet dans le salon, une chaussette dans le sac, un pull sur le canapé. Les minuteurs séparés évitent de mélanger les temps.
+### Rangs par heure selon le point
 
-## Calculer les rangs par heure
+Pour beaucoup de tricoteuses, le jersey devient la base rapide. Les autres points ralentissent souvent le rythme parce qu'ils ajoutent des rangs envers, de la lecture de diagramme, des croisements de torsades, des jetés ou des diminutions.
 
-La vitesse de tricot n'est pas une qualité fixe. Elle dépend énormément du point, du fil, des aiguilles et de la concentration nécessaire. Le jersey endroit en rond peut avancer à toute vitesse. Les torsades, la dentelle et les rangs de mise en forme ralentissent tout.
+Les plages exactes de rangs par heure ne se transportent pas d'un projet à l'autre. Un rang d'écharpe étroite, un rang de corps de pull et un tour de chaussette ne sont pas la même unité, même avant de tenir compte de l'épaisseur du fil et du point.
 
-Pour estimer ta vitesse, suis une séance et note combien de rangs tu as terminés.
+Les chiffres varient énormément d'une personne à l'autre. La comparaison utile n'est pas ta vitesse contre celle d'une autre tricoteuse. C'est ta vitesse sur ce modèle contre ta vitesse sur le précédent.
 
-Exemple :
+### Temps par section de projet
 
-- Tu tricotes 12 rangs en 40 minutes.
-- 40 minutes, c'est deux tiers d'heure.
-- 12 / 0,67 = environ 18 rangs par heure.
+Un pull ne prend pas le même temps par centimètre du début à la fin. Le corps en jersey peut avancer vite. L'empiècement avec jacquard ou torsades peut ralentir. Les manches sur aiguilles doubles pointes ou en magic loop peuvent aussi prendre plus de temps que le corps sur une longue aiguille circulaire, parce que la manipulation est plus contraignante.
 
-Ce chiffre ne vaut que pour ce projet et cette section, mais il est utile. S'il te reste 90 rangs similaires, tu peux estimer environ cinq heures de tricot.
+Le suivi des séances rend ces différences visibles. Si le corps a pris 20 heures et l'empiècement 15 heures pour deux fois moins de rangs, l'empiècement était deux fois plus lent par rang. C'est utile à savoir pour le prochain pull à empiècement.
 
-Quand tu mesures plusieurs projets, tu peux commencer à garder des repères personnels :
+### Changement de rythme avec le temps
 
-- Jersey simple : 20 à 30 rangs par heure.
-- Côtes : 15 à 25 rangs par heure.
-- Torsades : 8 à 15 rangs par heure.
-- Dentelle complexe : très variable.
+Compare ta première chaussette à la cinquième. Tes rangs par heure en jersey en janvier et en juin. Le changement peut être léger, net ou irrégulier, mais tu compares ton propre travail au lieu de deviner d'après tes souvenirs.
 
-Les chiffres exacts importent moins que tes propres tendances.
+La vitesse n'est pas le but du tricot pour la plupart des personnes. Mais voir qu'un geste progresse dans les chiffres peut être motivant, surtout dans un loisir où le progrès se résume souvent à "j'ai fini une écharpe".
 
-## Suivre le temps par section
+## Suivre sans s'obséder
 
-Le total d'un projet est intéressant, mais le temps par section est souvent plus utile.
+Il existe une limite entre données utiles et autosurveillance pénible. Quelques repères :
 
-Pour un pull, tu peux suivre :
+N'optimise pas la vitesse au détriment du plaisir. Tricoter plus vite n'a pas beaucoup d'intérêt si le processus devient désagréable. Les données servent à planifier et à comprendre, pas à transformer un loisir calme en exercice de productivité.
 
-- Empiècement.
-- Corps.
-- Manche 1.
-- Manche 2.
-- Bordures.
-- Finitions.
+Ne compare pas tes chiffres à ceux des autres tricoteuses. La taille des mains, la tension, le style de tricot, le fil préféré et l'expérience changent le rythme. Les 40 rangs par heure de quelqu'un d'autre en fingering ne disent rien de tes 20 rangs.
 
-Ce niveau de détail évite les mauvaises surprises. Si une manche a déjà pris cinq heures, tu sais que la deuxième en prendra probablement autant. Si le corps demande 45 minutes pour 2,5 cm et qu'il reste 15 cm à tricoter, tu as environ 4 h 30 devant toi.
+Suis au niveau de détail qui sert vraiment. Les données par séance, c'est-à-dire durée et rangs ou tours, suffisent pour la plupart des usages. Le temps par rang est excessif sauf si tu cherches à comprendre un problème précis.
 
-C'est aussi utile pour comparer les constructions. Un pull top-down sans couture demande peut-être plus de temps de tricot pur, mais moins de temps de finition. Un gilet en pièces peut sembler rapide jusqu'à l'assemblage.
+Si le suivi ressemble à une corvée plutôt qu'à un outil, arrête. Les données ne valent la peine d'être collectées que si tu les utilises. Un suivi de séance placé dans le même flux qu'un compteur de rangs a peu de friction. Un tableur manuel laissé vide pendant des semaines n'aide pas.
 
-## Suivre l'amélioration de sa vitesse
+## Relier le suivi du temps à l'organisation du projet
 
-Les débutantes veulent souvent savoir si elles deviennent plus rapides. Le suivi répond mieux que l'impression.
+Les données de temps deviennent plus utiles quand elles rejoignent [l'organisation du projet](/fr/articles/organiser-ses-projets-tricot/). Savoir qu'un projet n'a pas bougé depuis trois semaines est une information. Savoir que tu y as déjà mis 35 heures et que l'estimation totale est de 50 heures donne plus de contexte pour décider de continuer ou de le mettre de côté.
 
-Tu peux comparer le même type de projet sur plusieurs mois. Ton premier bonnet a pris neuf heures. Le troisième a pris cinq heures. Même si la laine et le modèle ne sont pas identiques, la tendance est claire. Les mains deviennent plus régulières. Les gestes demandent moins d'attention. Lire le tricot devient plus naturel.
-
-Mais la vitesse n'est pas toujours le bon objectif. Certaines tricoteuses ralentissent volontairement pour améliorer la régularité, éviter les douleurs ou profiter du processus. Suivre le temps ne signifie pas que tu dois tricoter plus vite. Cela te donne simplement des informations.
-
-## Ne pas transformer le tricot en productivité
-
-Le risque du suivi, c'est de commencer à traiter le tricot comme un tableau de performance. Ce n'est pas nécessaire.
-
-Tu n'as pas besoin de chronométrer chaque minute. Tu n'as pas besoin de comparer ta vitesse à celle des autres. Tu n'as pas besoin de battre ton dernier projet. Si le suivi retire du plaisir, simplifie-le.
-
-Une bonne règle : suis assez pour apprendre quelque chose, pas au point de gâcher la séance. Pour certaines personnes, cela veut dire noter seulement le total une fois le projet fini. Pour d'autres, c'est lancer un minuteur à chaque séance. Les deux sont valables.
-
-## Relier le temps au suivi de projet
-
-Le suivi du temps devient vraiment utile quand il rejoint le suivi global du projet. Les rangs terminés, les modifications, les numéros d'aiguilles, les bains de teinture, les quantités de fil et les heures passées racontent ensemble l'histoire complète du projet.
-
-C'est aussi ce qui rend les projets terminés plus instructifs. Au lieu de te souvenir vaguement qu'un pull a été "long", tu peux voir qu'il a pris 42 heures, dont 11 pour les manches et 3 pour les finitions. La prochaine fois que tu prévois un vêtement du même genre, tu pars avec de vraies données.
-
-Si tu veux suivre la progression matérielle, le guide sur [le suivi des rangs](/fr/articles/suivre-les-rangs-au-tricot/) complète bien le suivi du temps. Pour garder notes, matériaux et décisions au même endroit, lis aussi le guide sur [l'organisation des projets tricot](/fr/articles/organiser-ses-projets-tricot/).
+Pour les tricoteuses qui ont plusieurs projets, le temps par projet révèle aussi les répartitions. Tu peux découvrir que 80 % de ton temps de tricot part dans la chaussette reposante et 20 % dans le pull que tu veux pourtant finir. Parfois, voir les chiffres suffit à déplacer l'équilibre.
 
 ## FAQ
 
-**Dois-je suivre mon temps de tricot ?**  
-Non. C'est utile pour planifier, estimer et comprendre ta façon de tricoter, mais ce n'est pas obligatoire. Si ça te stresse, ne le fais pas.
+**Quelle précision faut-il pour suivre une séance ?**
 
-**Quelle est une vitesse normale en tricot ?**  
-Il n'y a pas de vitesse normale. Le point, le fil, les aiguilles et l'expérience changent tout. Compare-toi surtout à tes propres projets passés.
+Une marge de quelques minutes suffit. Si tu as oublié de lancer le minuteur pendant les cinq premières minutes, ou si tu l'as arrêté dix minutes après avoir posé les aiguilles, les données restent utiles pour les tendances. Ne jette pas une séance parce que le chronométrage n'était pas impeccable.
 
-**Comment savoir combien de temps prendra un projet ?**  
-Suis quelques séances, calcule tes rangs ou centimètres par heure, puis applique ce rythme au travail restant. L'estimation sera imparfaite, mais bien meilleure qu'une devinette.
+**La vitesse de tricot s'améliore-t-elle vraiment avec la pratique ?**
 
-**Le suivi du temps convient-il aux cadeaux tricotés ?**  
-Oui. C'est même l'un de ses meilleurs usages. Savoir qu'une chaussette prend huit heures ou qu'une couverture prend 80 heures évite de promettre l'impossible.
+Elle peut s'améliorer, mais pas comme une courbe garantie et régulière. Un fil familier, des points répétés, moins d'erreurs et des gestes plus confortables peuvent tous changer le rythme. Une nouvelle technique peut d'abord te ralentir, puis devenir plus rapide quand elle demande moins d'attention.
+
+**Qu'est-ce qu'une vitesse normale en tricot ?**
+
+Il n'y a pas de "normal" utile. La vitesse dépend de l'épaisseur du fil, du point, de la longueur du rang ou du tour, du type d'aiguilles, du style de tricot et de l'attention demandée par le modèle. Suis tes propres chiffres et compare-les à tes projets passés.
+
+**Faut-il suivre le temps sur chaque projet ?**
+
+Suis les projets où les données servent : vêtements avec une date limite, projets complexes dont tu veux estimer le temps restant, ou projets dont le rythme t'intrigue. Une écharpe télé sans enjeu n'a probablement pas besoin d'un journal de séance.

@@ -25,11 +25,11 @@ Samtidigt behöver inte alla det som den digitala varianten erbjuder. Rätt val 
 
 ## Mekaniska varvräknare
 
-Den klassiska mekaniska räknaren är en liten cylinder som sitter på änden av en rak sticka. Vrid fram siffran efter varje varv. Klickräknare i hänge och kacha-kacha-räknare på bordet är de vanligaste alternativen.
+Den klassiska mekaniska räknaren är en liten cylinder som sitter på änden av en rak sticka. Vrid fram siffran efter varje varv. Universella räknare som hänger från stickan, klickräknare i hänge och kacha-kacha-räknare på bordet är de vanligaste alternativen. Digitala fingerräknare med en knapp, samma typ som säljs för golfpoäng, syns också ofta i stickväskor och får nästan räknas som en egen kategori.
 
-**Det de gör bra.** Ingen installation. Ta upp den ur lådan, klicka, klart. Inget konto, ingen app, ingen inlärningskurva. Det fysiska klicket blir en del av stickrytmen, och vissa stickare tycker att den taktila återkopplingen är mer tillfredsställande än att trycka på en skärm. De fungerar utan el, bryr sig inte om skärmreflexer och kostar några euro. Svårt att argumentera emot.
+**Det de gör bra.** Ingen installation. Ta upp den ur lådan, klicka, klart. Inget konto, ingen app, ingen inlärningskurva. Det fysiska klicket blir en del av stickrytmen, och vissa stickare tycker att den taktila återkopplingen är mer tillfredsställande än att trycka på en skärm. De fungerar utan el, bryr sig inte om skärmreflexer och är oftast billiga. Svårt att argumentera emot.
 
-**Där de brister.** De räknar en sak i en riktning. Behöver du repa upp ett varv? Kom ihåg att klicka tillbaka. Cylinderformade räknare är dessutom pilliga att vrida bakåt. Glömmer du det är siffran fel, utan något sätt att kontrollera.
+**Där de brister.** De räknar en sak i en riktning. Behöver du repa upp ett varv? Kom ihåg att klicka tillbaka. Cylinderformade räknare är dessutom pilliga att vrida bakåt, eftersom du måste vrida den inre ringen försiktigt utan att snurra den yttre. Glömmer du det är siffran fel, utan något sätt att kontrollera.
 
 De kan inte följa flera saker samtidigt. En tröja kan behöva totalt varvantal, position i en flätrapport och nästa minskningsvarv. En mekanisk räknare klarar en av dem.
 
@@ -37,17 +37,15 @@ De råkar vridas. Släng projektpåsen i bilen, vredet flyttar sig, och nu titta
 
 ## Digitala varvräknare
 
-En varvräknarapp ersätter klickaren med ett tryck på telefonen. Antalet sparas automatiskt. De flesta appar lägger till funktioner ovanpå: ångra, flera räknare, påminnelser, passhistorik.
+En varvräknarapp ersätter klickaren med ett tryck på telefonen. Antalet ligger kvar när du stänger och öppnar appen igen. De flesta appar lägger till funktioner ovanpå: ångra, flera räknare, påminnelser, passhistorik, mönstervisning eller stöd för klocka. Detaljerna varierar mellan appar, så funktionerna spelar större roll än att appen råkar kallas varvräknare.
 
 **Det de gör bra.** De minns allt. Stäng appen, stäng av telefonen, plocka upp projektet nästa vecka. Antalet är exakt där du lämnade det. För stickare med [flera projekt](/sv/artiklar/organisera-flera-stickprojekt/) sparar en lista med aktuella varvantal och senast arbetade datum det där "vänta, vilket varv var jag på?" varje gång du byter.
 
 Varvpåminnelser är funktionen mekaniska räknare verkligen inte kan ersätta. Sätt en påminnelse på varv 15 för ett knapphål, varv 30 för en minskning, varv 45 för avmaskning. Appen säger till när du kommer dit. I mönster med formning i intervall tar det bort den mentala bevakningen som annars gör att du hela tiden måste titta i mönstret.
 
-Flera räknare per projekt matchar hur komplex stickning faktiskt ser ut. En räknare för totalt antal varv, en annan för flätrapporten, en tredje för mönsterdelen. Alla synliga samtidigt, alla oberoende. Den mekaniska motsvarigheten vore tre separata klickräknare.
+Flera räknare per projekt matchar hur komplex stickning faktiskt ser ut. En räknare för totalt antal varv, en annan för flätrapporten, en tredje för mönsterdelen. Alla synliga samtidigt, alla oberoende. Den mekaniska motsvarigheten vore tre separata klickräknare och en lapp som håller reda på vilken som betyder vad.
 
-Röstkommandon låter dig öka räknaren utan att lägga ner stickorna. Säg "nästa varv" och antalet går upp. En handsfree-varvräknare låter som en gimmick tills du står mitt i en flätkorsning med båda händerna upptagna och inser att du tappat räkningen igen.
-
-Passhistorik visar när och hur länge du arbetade med varje projekt. Det handlar mindre om att räkna och mer om data. Vissa stickare tycker att det är motiverande att se totalt antal timmar och tempot över tid.
+Passhistorik visar när och hur länge du arbetade med varje projekt. Det handlar mindre om att räkna och mer om minnet av arbetet. Vissa stickare tycker att det är motiverande att se totalt antal timmar och tempo över tid, och en lång tröja känns annorlunda när det finns ett spår av de 47 kvällar som gick åt.
 
 **Där de brister.** Telefonen måste vara i närheten. Om du stickar just för att komma bort från skärmar kan en telefon i stickstunden gå emot poängen. Det är ett helt giltigt skäl att hålla sig till en klickräknare.
 
@@ -59,7 +57,9 @@ Batteriberoende. Om telefonen dör förloras inte antalet (det är sparat), men 
 
 Enkla projekt utan formning. Halsdukar, disktrasor, enkla filtar. En sak att räkna, rak stickning. Att lägga till en app i ett projekt som inte behöver den är extra arbete utan vinst.
 
-Skärmfria pass. Om en del av anledningen till att du stickar är att koppla bort enheter respekterar en klickräknare den gränsen.
+Skärmfria pass. Om en del av anledningen till att du stickar är att koppla bort enheter respekterar en klickräknare den gränsen. Samma sak gäller när telefoner känns opraktiska, till exempel i en tyst tågkupé, under ett långt möte eller i en stickgrupp där deltagarna vill vara borta från skärmar.
+
+Backup. Även många som använder appar har en klickräknare i projektväskan för de tillfällen då telefonen är urladdad, borta eller i någon annans händer.
 
 ## När digitalt vinner
 
@@ -71,24 +71,28 @@ Komplexa strukturmönster. Flätor, spets, flerfärgsstickning. Att tappa bort s
 
 Långvariga projekt. En tröja som tar månader har nytta av sparat läge och passhistorik. Du kan se att du senast arbetade med den i tisdags, att du var på varv 47 och att nästa minskning kommer på varv 52. En klickräknare säger "47" och inget mer.
 
-[KnitTools-appen](/) byggs för Android och kombinerar tryckräkning med ångra, varvpåminnelser, flera räknare per projekt, röstkommandon och passhistorik. Räknare, fyra kalkylatorer, projekt, sparade PDF-mönster och referensbibliotek fungerar offline. Grundläggande röstkommandon fungerar också offline, på 11 språk. AI-funktioner (skanning av garnkort, projektsammanfattningar, röstdagbok, samtalande röst och uppslag av mönsterinstruktioner) kräver internet.
+[KnitTools-appen](/) byggs för Android och kombinerar tryckräkning med ångra, varvpåminnelser, flera räknare per projekt och passhistorik. Kärndata för räknare och projekt planeras kring lokala projektdata.
 
 ## Kombinationsmetoden
 
 Många stickare använder båda. Klickräknare till resesockan, app till tröjan hemma. Det finns ingen regel som säger att du måste välja ett system för allt.
 
-Den praktiska frågan är: behöver det här projektet mer än en enda räkning? Om ja, digitalt. Om nej, använd det du föredrar.
+Den praktiska frågan är: behöver det här projektet mer än en enda räkning? Om ja, digitalt. Om nej, använd det du föredrar. Vissa stickare använder klickräknaren för att räkna maskor inne på ett varv, till exempel var femte maska över en lång uppläggning, och appen för varv. Det använder båda verktygens styrkor.
 
 ## FAQ
 
-**Fungerar varvräknarappar offline?**  
-Vissa gör det, andra inte. Appar som lagrar data lokalt fungerar offline. Molnbaserade appar kan kräva uppkoppling. Kontrollera innan du förlitar dig på en i en stuga eller på ett flyg. KnitTools sparar allt på enheten.
+**Fungerar varvräknarappar offline?**
 
-**Kan jag använda min smartklocka som varvräknare?**  
-Vissa stickappar har klockkompanjoner, och det finns fristående räknarappar för klockor. Skärmen är liten, men räknaren sitter bokstavligen på handleden. Värt att prova om du redan bär en när du stickar.
+Vissa gör det, andra inte. Appar som lagrar data lokalt fungerar offline. Molnbaserade appar kan kräva uppkoppling. Kontrollera innan du förlitar dig på en i en stuga eller på ett flyg. KnitTools är planerat så att räknarens och projektens kärndata sparas på enheten.
 
-**Finns det varvräknare som fungerar med rundstickor?**  
-Hängande räknare kan sitta i en markör eller fästas i arbetet. De fungerar med alla sticktyper. Det är det bästa fysiska alternativet om rundstickor är dina vanligaste stickor.
+**Kan jag använda min smartklocka som varvräknare?**
 
-**Hur träffsäkra är röststyrda räknare?**  
-I ett tyst rum är modern taligenkänning mycket pålitlig. I en bullrig miljö, som en stickträff eller ett kafé, kan den höra fel. De flesta appar låter dig bekräfta eller ångra en röststyrd räkning, så en feltolkning är lätt att rätta.
+Vissa stickappar har klockkompanjoner, och det finns fristående räknarappar för klockor. Skärmen är liten, men räknaren sitter bokstavligen på handleden. Värt att prova om du redan bär en när du stickar. Att trycka på klockan stör ofta mindre än att lyfta telefonen.
+
+**Finns det varvräknare som fungerar med rundstickor?**
+
+Hängande räknare kan sitta i en markör eller fästas i arbetet. De fungerar med alla sticktyper. Det är det bästa fysiska alternativet om rundstickor är dina vanligaste stickor. Vissa stickare använder också en löstagbar markör och streck på papper, vilket inte kostar något och inte nollställs av misstag.
+
+**Hur är det med LED-fingerräknare?**
+
+De små ringräknarna som säljs för golf eller tasbih-bönepärlor fungerar också för stickning. En knapp, ett steg upp, ofta en återställning. Ingen bakåträkning och inget minne mellan projekt, men de sitter på handen på ett sätt som cylinderräknaren inte gör, och de passar alla stickstorlekar eftersom de inte sitter på stickan.

@@ -16,26 +16,26 @@ lang: no
 translationKey: "identify-mystery-yarn"
 ---
 
-De fleste strikkere ender med mystisk garn før eller siden. Etiketten falt av, garnet kom fra noen andres lager, eller nøstet hadde aldri særlig informasjon. Bruktbutikkposer, arvede samlinger, rester fra bytter.
+De fleste strikkere ender med ukjent garn før eller siden. Etiketten falt av, garnet kom fra noen andres lager, eller nøstet hadde aldri særlig informasjon. Bruktbutikkposer, arvede samlinger, rester fra bytter.
 
-For å identifisere ukjent garn starter du med wraps per inch (WPI) for å finne garntykkelse, og bruker deretter brann- og vanntester for å snevre inn fiberfamilien. Du finner ikke alltid eksakt merke eller prosent, men tykkelsesområde og grov fibertype er som regel nok.
+For å identifisere ukjent garn starter du med wraps per inch (WPI), altså viklinger per tomme, for å finne garntykkelse. Deretter bruker du branntest og vanntest for å snevre inn fiberfamilien. Du finner ikke alltid eksakt merke eller prosent, men tykkelsesområde og grov fibertype er som regel nok.
 
 ## Steg én: finn tykkelsen med WPI
 
-Wraps per inch (WPI) er raskeste første sjekk.
+WPI er raskeste første sjekk.
 
-Surr garnet rundt en blyant, linjal eller WPI-verktøy. Hold surringene tett og side om side uten å strekke. Tell hvor mange som får plass på én inch.
+Surr garnet rundt en blyant, linjal eller WPI-verktøy. Hold viklingene tett og side om side uten å strekke garnet. Tell hvor mange som får plass på én tomme, altså omtrent 2,5 cm.
 
-Craft Yarn Council bruker disse grove områdene:
+Craft Yarn Council sitt vanlige 0-7-system bruker disse grove områdene. Det oppdaterte garntykkelsessystemet inneholder også Size 8, men mange oppskrifter, etiketter og WPI-lister bruker fortsatt disse 0-7-kategoriene:
 
-- 30 til 40+ wraps: Lace (kategori 0)
-- 14 til 30 wraps: Super Fine eller Fingering-område (kategori 1)
-- 12 til 18 wraps: Fine eller Sport-område (kategori 2)
-- 11 til 15 wraps: Light eller DK-område (kategori 3)
-- 9 til 12 wraps: Medium eller Worsted-område (kategori 4)
-- 6 til 9 wraps: Bulky-område (kategori 5)
-- 5 til 6 wraps: Super Bulky-område (kategori 6)
-- 1 til 4 wraps: Jumbo-område (kategori 7)
+- 30 til 40+ viklinger: Lace (kategori 0)
+- 14 til 30 viklinger: Super Fine eller Fingering-område (kategori 1)
+- 12 til 18 viklinger: Fine eller Sport-område (kategori 2)
+- 11 til 15 viklinger: Light eller DK-område (kategori 3)
+- 9 til 12 viklinger: Medium eller Worsted-område (kategori 4)
+- 6 til 9 viklinger: Bulky-område (kategori 5)
+- 5 til 6 viklinger: Super Bulky-område (kategori 6)
+- 1 til 4 viklinger: Jumbo-område (kategori 7)
 
 Ja, områdene overlapper. WPI gir deg nabolaget, ikke gateadressen. Mål flere steder, særlig hvis garnet er strukturert, loddent eller håndspunnet.
 
@@ -47,11 +47,11 @@ Dette betyr noe for stell og for hvordan stoffet oppfører seg. [Fiberoversikten
 
 ### Branntesten
 
-Klipp en liten bit, hold den med pinsett over et brannsikkert underlag og tenn på. Legg merke til hvordan den brenner, hva den lukter, og hva som er igjen når den kjøles.
+Klipp en liten bit, hold den med pinsett over et brannsikkert underlag og tenn på. Ha vann i nærheten, jobb ute eller med svært god ventilasjon, og stopp hvis garnet smelter, drypper eller avgir skarpe gasser. Legg merke til hvordan den brenner, hva den lukter, og hva som er igjen når den kjøles.
 
 Animalske fibre, ull, alpakka, silke, lukter brent hår og etterlater aske som kan knuses. Plantefibre, bomull og lin, lukter mer som brent papir og gir lysere aske. Syntetiske fibre smelter og stivner til en perle i stedet for å bli aske. Blandinger viser blandet oppførsel, som forteller at garnet er blandet, men ikke eksakte prosentandeler.
 
-Gjør dette ute eller med veldig god ventilasjon. Syntetisk røyk er ikke hyggelig, og åpen flamme fortjener mer forsiktighet enn de fleste garnrester får.
+Ikke gjør branntesten med en stor bit, nær barn eller ved siden av noe lettantennelig. Syntetisk røyk er en reell grunn til å holde prøven svært liten.
 
 En forventningsjustering: branntesten er en grov identifikasjonsmetode, ikke et laboratorieresultat. Den er mest nyttig for å skille hovedfamiliene. Ikke forvent at den forteller forskjellen mellom merino og corriedale.
 
@@ -59,9 +59,9 @@ En forventningsjustering: branntesten er en grov identifikasjonsmetode, ikke et 
 
 Mildere, og nyttig sammen med branntesten. Legg en liten bit i varmt vann og se hva som skjer.
 
-Ikke-superwash ull kan begynne å tove hvis du legger til varme, såpe og bevegelse. Superwash ull blir våt, men motstår toving. Bomull trekker vann lett og føles tydelig tyngre våt. Akryl trekker mindre vann og tørker raskere.
+Ikke-superwash-ull kan begynne å tove hvis du legger til varme, såpe og bevegelse. Superwash-ull blir våt, men motstår toving. Bomull trekker vann lett og føles tydelig tyngre våt. Akryl oppfører seg annerledes enn bomull og ull, men vanntesten identifiserer det ikke sikkert alene.
 
-Fortsatt bare et spor, særlig med blandinger. Men det snevrer inn.
+Fortsatt bare en ledetråd, særlig med blandinger. Men det snevrer inn.
 
 ### Føletesten
 
@@ -73,7 +73,7 @@ Følelse alene beviser ingenting. Sammen med de andre testene hjelper den likeve
 
 ## Steg tre: strikk prøvelapp før du forplikter deg
 
-Når du har en grov gjetning om tykkelse og fiber, strikk prøvelapp. Dette er delen som gjør sporene om til noe du faktisk kan bruke.
+Når du har en grov gjetning om tykkelse og fiber, strikk prøvelapp. Dette er delen som gjør ledetrådene om til noe du faktisk kan bruke.
 
 Prøvelappen bekrefter tykkelsesgjetningen, viser hvordan garnet oppfører seg med din strikkefasthet, og avslører ting hjemmetestene ikke kan: splitting, blomstring, fall, nupper, stivhet og hvordan det ser ut etter vask. Hvis garnet tovet litt i vanntesten, behandle det som håndvask og planlegg deretter.
 
@@ -89,14 +89,14 @@ Hvis du planlegger å bruke mye ukjent garn i ett prosjekt, test fargeekthet ogs
 
 ## Bygge garnlageroversikt
 
-Har du mye umerket garn, sparer én ettermiddag med testing og merking fremtidige problemer. Selv en håndskrevet lapp, "trolig DK, sannsynlig ullblanding, håndvask", er bedre enn enda et mystisk nøste om seks måneder.
+Har du mye umerket garn, sparer én ettermiddag med testing og merking fremtidige problemer. Selv en håndskrevet lapp, "trolig DK, sannsynlig ullblanding, håndvask", er bedre enn enda et ukjent nøste om seks måneder.
 
-KnitTools' [Yarn Label Scanner](/) kan også hjelpe her. For ukjent garn kan du lage et manuelt kort med beste anslag og testnotater.
+For ukjent garn holder det å lagre beste anslag og testnotater sammen med prosjektet. Neste gang er nøstet ikke like ukjent lenger.
 
 ## FAQ
 
 **Kan jeg sende garn til laboratorium for fiberidentifikasjon?**
-Du kan, men det er overkill for det meste av garnlageret. Labtest gir mer mening for garn som er verdifullt, sentimentalt eller finnes i nok mengde til å forsvare kostnaden.
+Du kan, men det er unødvendig for det meste av garnlageret. Labtest gir mer mening for garn som er verdifullt, sentimentalt eller finnes i nok mengde til å forsvare kostnaden.
 
 **Branntesten ga ikke et tydelig svar. Hva nå?**
 Det betyr ofte at garnet er en blanding, eller at resultatet var for uklart å lese. Vær konservativ med stell og la prøvelappen styre videre valg.

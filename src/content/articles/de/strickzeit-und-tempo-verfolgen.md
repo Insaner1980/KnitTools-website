@@ -19,7 +19,7 @@ translationKey: "track-knitting-time"
 
 Die meisten Strickenden haben ein vages Gefühl dafür, wie lange Projekte dauern. „Der Pullover hat ein paar Monate gedauert.“ „Die Socken waren ziemlich schnell.“ Vage hilft nicht, wenn du entscheiden willst, ob du sechs Wochen vor Weihnachten noch einen Cardigan anfangen solltest, oder warum eine Mütze, die an einem Abend fertig sein sollte, auf drei Abende anwächst.
 
-Strickzeit zu verfolgen macht aus Eindrücken Daten. Wie viele Stunden im Pullover stecken. Wie viele Reihen du pro Sitzung durchschnittlich schaffst. Ob du glatt rechts schneller strickst als Zöpfe, die Antwort ist immer glatt rechts, aber um wie viel? Die Zahlen bewegen deine Hände nicht schneller, aber sie helfen beim Planen und zeigen, wenn etwas leise schiefläuft.
+Strickzeit zu verfolgen macht aus Eindrücken Daten. Wie viele Stunden im Pullover stecken. Wie viele Reihen du pro Sitzung durchschnittlich schaffst. Ob du glatt rechts schneller strickst als Zöpfe und wie groß der Unterschied wirklich ist. Die Zahlen bewegen deine Hände nicht schneller, aber sie helfen beim Planen und zeigen, wenn etwas leise schiefläuft.
 
 ## Warum überhaupt verfolgen
 
@@ -29,7 +29,7 @@ Drei Gründe, in der Reihenfolge, in der sie sich bemerkbar machen.
 
 **Du bemerkst Verlangsamung, bevor sie zum Problem wird.** Wenn eine normale Sitzung bei einem Projekt 12 Reihen ergibt und es in einer Woche nur 6 sind, hat sich etwas geändert. Vielleicht wurde das Muster schwieriger. Vielleicht kämpfst du mit dem Garn. Vielleicht hat sich deine Spannung verschoben und du kompensierst unbewusst. Die Zahlen zeigen den Wechsel, bevor du drei weitere Sitzungen damit verbringst, dich über zähen Fortschritt zu wundern.
 
-Dazu kommt der lange Blick. Stricktempo verbessert sich mit Übung, aber so langsam, dass du es im Alltag kaum spürst. Sitzungsdaten von vor sechs Monaten im Vergleich zu heute zeigen den Unterschied konkret. Mehr Reihen pro Stunde, weniger Fehler, schnelleres Erholen von Fehlern. Fortschritt, der von Tag zu Tag unsichtbar ist, wird über Monate sichtbar.
+Dazu kommt der lange Blick. Stricktempo kann sich mit Übung verändern, aber oft so langsam, dass du es im Alltag kaum spürst. Sitzungsdaten von vor sechs Monaten im Vergleich zu heute können den Unterschied konkret zeigen: mehr Reihen pro Stunde, weniger Fehler, schnelleres Erholen von Fehlern. Fortschritt, der von Tag zu Tag unsichtbar ist, wird über Monate leichter erkennbar.
 
 ## Einfaches Tracking: Handy-Timer
 
@@ -41,7 +41,7 @@ Funktioniert gut für ein einzelnes Projekt. Wird bei mehreren WIPs unübersicht
 
 Ein Schritt weiter. Spalten für Datum, Projektname, Startreihe, Endreihe, Dauer. Formeln berechnen Reihen pro Sitzung, Reihen pro Stunde und Gesamtzeit.
 
-Das gibt echte Daten zum Analysieren. Zeichnest du Reihen pro Stunde über die Zeit auf, wird die Tempokurve sichtbar. Vergleiche zwischen Projekten zeigen den Einfluss des Musters. Ein glatt-rechts-Schal mit 30 Reihen pro Stunde gegenüber einem Zopfpullover mit 14 zeigt konkret, wie viel Zöpfe an Zeit kosten.
+Das gibt echte Daten zum Analysieren. Zeichnest du Reihen pro Stunde über die Zeit auf, wird die Tempokurve sichtbar. Vergleiche zwischen Projekten zeigen den Einfluss des Musters. Wenn deine Notizen zeigen, dass ein schlichtes glatt-rechts-Projekt deutlich schneller läuft als ein Zopfprojekt, wird dieser Unterschied zu nutzbaren Planungsdaten statt nur zu einem Gefühl.
 
 Der Nachteil: Nach jeder Sitzung musst du Daten eingeben. Vergisst du es, entstehen Lücken. Rundest du („ungefähr 45 Minuten, vielleicht 20 Reihen“), verschwindet die Genauigkeit, die Tabellen nützlich macht.
 
@@ -49,7 +49,7 @@ Der Nachteil: Nach jeder Sitzung musst du Daten eingeben. Vergisst du es, entste
 
 Ein Strickzeit-Tracker in einer Projektverwaltungs-App automatisiert die Punkte, an denen manuelle Methoden scheitern. Sitzung starten, stricken, Sitzung beenden. Die App speichert Dauer, verknüpft sie mit dem Projekt und verfolgt die Reihenzahl daneben.
 
-In der [KnitTools-App](/) ist der Sitzungsverlauf mit dem [Reihenzähler](/de/artikel/reihen-beim-stricken-zaehlen/) verbunden. Jedes Mal, wenn du Reihen zählst, läuft der Sitzungstimer. Beim Stoppen werden Datum, Dauer, fertige Reihen und Reihen pro Stunde gespeichert. Mit der Zeit entsteht ein Verlauf pro Projekt und über alle Projekte hinweg.
+Die [KnitTools-App](/) wird mit Sitzungsverfolgung entwickelt, die zum [Reihenzähler](/de/artikel/reihen-beim-stricken-zaehlen/) gehört. Der geplante Ablauf ist einfach: Reihen zählen, Sitzung speichern und Datum, Dauer, fertige Reihen sowie Reihen pro Stunde beim Projekt behalten. Mit der Zeit entsteht ein Verlauf pro Projekt und über alle Projekte hinweg.
 
 Der Vorteil gegenüber manuellen Methoden ist Konsistenz. Du tippst ohnehin den Reihenzähler, also passiert die Zeiterfassung als Nebenwirkung. Kein separater Timer, kein Notizbuch, keine Tabelle. Die Daten sammeln sich, auch wenn du nicht daran denkst.
 
@@ -57,9 +57,9 @@ Der Vorteil gegenüber manuellen Methoden ist Konsistenz. Du tippst ohnehin den 
 
 ### Reihen pro Stunde nach Muster
 
-Glatt rechts ist am schnellsten. Immer. Alles andere ist messbar langsamer, und die Unterschiede sind regelmäßig genug, um für Planung nützlich zu sein.
+Für viele Strickende wird glatt rechts zur schnellen Grundfläche. Andere Muster verlangsamen das Tempo oft, weil Wenden, Linksmaschenwechsel, Charts, Zopfkreuzungen, Umschläge oder Abnahmen dazukommen.
 
-Typische Spannen für eine mittlere Strickerfahrung mit Worsted-Garn: glatt rechts 25-40 Reihen pro Stunde, kraus rechts 20-35 (das Wenden bremst etwas), Rippenmuster 18-28 (Wechsel zwischen rechts und links), Zöpfe 12-22 (Zopfkreuzungen unterbrechen den Rhythmus), Lochmuster 8-18 (Chart lesen, Umschläge, Abnahmen).
+Exakte Reihen-pro-Stunde-Werte lassen sich nicht gut übertragen. Eine schmale Schalreihe, eine Pulloverkörper-Reihe und eine Sockenrunde sind nicht dieselbe Einheit, selbst bevor Garnstärke und Muster eine Rolle spielen.
 
 Diese Zahlen schwanken stark zwischen Menschen. Der nützliche Vergleich ist nicht dein Tempo gegen das einer anderen Person. Sondern dein Tempo in diesem Muster gegen dein Tempo im letzten.
 
@@ -71,7 +71,7 @@ Sitzungsverlauf zeigt diese Unterschiede. Wenn der Körper 20 Stunden brauchte u
 
 ### Tempoentwicklung über Zeit
 
-Vergleiche deine erste Socke mit der fünften. Deine Reihen pro Stunde in glatt rechts im Januar und im Juni. Der Unterschied ist meistens da und oft größer, als du denkst.
+Vergleiche deine erste Socke mit der fünften. Deine Reihen pro Stunde in glatt rechts im Januar und im Juni. Der Unterschied kann klein, groß oder ungleichmäßig sein, aber immerhin vergleichst du deine eigene Arbeit statt einer Erinnerung.
 
 Für die meisten ist Tempo nicht der Sinn des Strickens. Trotzdem fühlt es sich gut an, messbar besser zu werden, besonders in einem Hobby, in dem Fortschritt sonst oft nur heißt: „Der Schal ist fertig.“
 
@@ -99,10 +99,10 @@ Bei mehreren Projekten zeigt Zeit pro Projekt auch Verteilungsmuster. Vielleicht
 Auf ein paar Minuten genau reicht. Wenn du den Timer die ersten fünf Minuten vergessen oder ihn zehn Minuten nach dem Weglegen gestoppt hast, sind die Daten für Trends trotzdem nützlich. Verwirf eine Sitzung nicht, nur weil sie nicht perfekt gemessen ist.
 
 **Wird man mit Übung wirklich schneller?**
-Ja, messbar. Die größten Sprünge passieren im ersten oder zweiten Jahr. Danach stabilisiert sich das Tempo, außer du übst bewusst neue Techniken. Ein Wechsel von englischem zu kontinentalem Stil oder umgekehrt kann das Grundtempo ebenfalls verändern, mit einer Lernkurve am Anfang.
+Das kann passieren, aber nicht als garantierte glatte Kurve. Vertrautes Garn, wiederholte Muster, weniger Fehler und bequemere Handbewegungen können das Tempo verändern. Eine neue Technik kann dich zuerst verlangsamen und erst schneller werden, wenn sie weniger Aufmerksamkeit braucht.
 
 **Was ist ein normales Stricktempo?**
-Ein sinnvolles „normal“ gibt es nicht. Anfänger schaffen vielleicht 10-15 Reihen pro Stunde in glatt rechts mit Worsted. Erfahrene Strickende liegen irgendwo zwischen 25 und 50+. Tempo hängt von Garnstärke, Muster, Nadeltyp, Strickstil und Aufmerksamkeitsbedarf ab. Verfolge deine eigenen Zahlen und vergleiche dich mit dir selbst.
+Ein sinnvolles „normal“ gibt es nicht. Tempo hängt von Garnstärke, Muster, Reihenlänge, Nadeltyp, Strickstil und Aufmerksamkeitsbedarf ab. Verfolge deine eigenen Zahlen und vergleiche dich mit dir selbst.
 
 **Soll ich jedes Projekt zeitlich verfolgen?**
 Verfolge Projekte, bei denen die Daten nützlich sind: Kleidung mit Deadline, komplexe Projekte, bei denen du Restzeit schätzen willst, oder alles, dessen Tempo dich interessiert. Ein gedankenloser TV-Schal braucht wahrscheinlich kein Sitzungslog.

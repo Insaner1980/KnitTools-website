@@ -6,25 +6,37 @@ const rows = [
   ["1.5", "000", "-", "-", "Lace"],
   ["1.75", "00", "-", "-", "Lace"],
   ["2.0", "0", "14", "0", "Lace"],
-  ["2.25", "1", "13", "-", "Super Fine"],
+  ["2.25", "1", "13", "-", "Lace / Super Fine"],
+  ["2.4", "-", "-", "1", "Super Fine"],
   ["2.5", "1.5", "-", "-", "Super Fine"],
-  ["2.75", "2", "12", "2", "Super Fine"],
-  ["3.0", "2.5", "11", "3", "Fine"],
-  ["3.25", "3", "10", "-", "Fine"],
-  ["3.5", "4", "-", "5", "Fine"],
-  ["3.75", "5", "9", "-", "Light"],
-  ["4.0", "6", "8", "6", "Light"],
-  ["4.5", "7", "7", "8", "Medium"],
-  ["5.0", "8", "6", "10", "Medium"],
-  ["5.5", "9", "5", "-", "Medium"],
+  ["2.7", "-", "-", "2", "Super Fine"],
+  ["2.75", "2", "12", "-", "Super Fine"],
+  ["3.0", "2.5", "11", "3", "Super Fine"],
+  ["3.25", "3", "10", "-", "Super Fine / Fine"],
+  ["3.3", "-", "-", "4", "Fine"],
+  ["3.5", "4", "-", "-", "Fine"],
+  ["3.6", "-", "-", "5", "Fine"],
+  ["3.75", "5", "9", "-", "Fine / Light"],
+  ["3.9", "-", "-", "6", "Light"],
+  ["4.0", "6", "8", "-", "Light"],
+  ["4.2", "-", "-", "7", "Light"],
+  ["4.5", "7", "7", "8", "Light / Medium"],
+  ["4.8", "-", "-", "9", "Medium"],
+  ["5.0", "8", "6", "-", "Medium"],
+  ["5.1", "-", "-", "10", "Medium"],
+  ["5.4", "-", "-", "11", "Medium"],
+  ["5.5", "9", "5", "-", "Medium / Bulky"],
+  ["5.7", "-", "-", "12", "Bulky"],
   ["6.0", "10", "4", "13", "Bulky"],
+  ["6.3", "-", "-", "14", "Bulky"],
   ["6.5", "10.5", "3", "-", "Bulky"],
+  ["6.6", "-", "-", "15", "Bulky"],
   ["7.0", "-", "2", "-", "Bulky"],
-  ["8.0", "11", "0", "-", "Super Bulky"],
+  ["8.0", "11", "0", "-", "Bulky / Super Bulky"],
   ["9.0", "13", "00", "-", "Super Bulky"],
   ["10.0", "15", "000", "-", "Super Bulky"],
-  ["12.0", "17", "-", "-", "Jumbo"],
-  ["12.75", "-", "-", "-", "Jumbo"],
+  ["12.0", "17", "-", "-", "Super Bulky"],
+  ["12.75", "-", "-", "-", "Super Bulky / Jumbo"],
   ["15.0", "19", "-", "-", "Jumbo"],
   ["16.0", "19", "-", "-", "Jumbo"],
   ["19.0", "35", "-", "-", "Jumbo"],
@@ -114,7 +126,7 @@ const faqs = [
     <h2>Varför det finns fyra olika system</h2>
     <p>
       Metriskt är det enda systemet som berättar vad stickan faktiskt mäter. En
-      sticka på 4,0 mm är 4,0 mm. Klart.
+      sticka på 4,0 mm är 4,0 mm. Det är den faktiska diametern.
     </p>
     <p>
       US-storlekar är etiketter. US 7 betyder 4,5 mm och US 8 betyder 5,0 mm,
@@ -128,9 +140,9 @@ const faqs = [
     </p>
     <p>
       Japanska storlekar ligger nära det metriska systemet men inte perfekt.
-      Japansk storlek 6 är 3,9 mm, japansk storlek 8 är 4,5 mm. Den skillnaden
-      märks mest vid fin stickfasthet, där några tiondels millimeter kan
-      förändra det färdiga tyget.
+      Japansk storlek 6 är 3,9 mm och japansk storlek 8 är 4,5 mm. Den
+      skillnaden märks mest vid fin stickfasthet, där några tiondels millimeter
+      kan förändra det färdiga tyget.
     </p>
 
     <h2>När metriskt är det säkraste valet</h2>
@@ -164,7 +176,7 @@ const faqs = [
       <strong>Japanska nästan-träffar.</strong> Japanska storlekar linjerar inte rent
       med US-numren. Japansk storlek 8 är 4,5 mm och motsvarar US 7, men japansk storlek
       5 är 3,6 mm och passar inte snyggt in i US-systemet alls. Om du stickar efter
-      ett japanskt mönster, matcha millimetervärdet. Inte den tryckta siffran. Alltid
+      ett japanskt mönster, matcha millimetervärdet. Inte det tryckta numret. Alltid
       millimetervärdet.
     </p>
     <p>
@@ -183,7 +195,7 @@ const faqs = [
     <h2>Stickstorlek och garntjocklek ihop</h2>
     <p>
       Tabellen kan ta dig till rätt område. Stickprovet avgör den exakta
-      adressen.
+      storleken.
     </p>
     <p>
       Craft Yarn Councils nuvarande system kopplar Lace till 1,5-2,25 mm, Super
@@ -209,7 +221,7 @@ const faqs = [
     </p>
     <p>
       Mät på skaftet, inte på spetsen. Den avsmalnande spetsen visar ett mindre
-      mått än den arbetande delen av stickan. Fel svar varje gång.
+      mått än den arbetande delen av stickan.
     </p>
     <p>
       De flesta stickmätare visar metriska och US-storlekar, och vissa tar med

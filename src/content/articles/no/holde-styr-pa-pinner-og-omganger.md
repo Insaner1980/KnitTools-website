@@ -1,6 +1,6 @@
 ---
 title: "Holde styr på pinner og omganger når du strikker"
-description: "Mister du tellingen? Her er 7 måter å følge pinner og omganger på, fra penn og papir til digitale tellere og widgets."
+description: "Mister du tellingen? Her er 7 måter å følge pinner og omganger på, fra penn og papir til digitale tellere med påminnelser."
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 2
@@ -9,7 +9,7 @@ tags:
     "holde styr på pinner strikking",
     "omgangsteller strikking",
     "følge pinner",
-    "maskecounter",
+    "strikketeller",
     "digital omgangsteller",
     "omgangsteller app",
   ]
@@ -20,73 +20,107 @@ translationKey: "track-rows-knitting"
 
 Du legger prosjektet fra deg for å åpne døren. Tar det opp igjen tjue minutter senere. Var det pinne 14 eller 15? I glattstrikk betyr det kanskje ikke mye. I et hullmønster der oddetalls- og partallspinner gjør helt ulike ting, betyr én pinne feil å rekke opp.
 
-Ingen metode fungerer for alle prosjekter. Disse sju går fra null teknologi til appbasert, og de fleste strikkere ender med mer enn én.
+Ingen metode fungerer for alle prosjekter. Disse sju går fra null teknologi til appbasert, og de fleste strikkere ender med å bruke mer enn én.
 
 ## 1. Streker på papir
 
-Den eldste måten å følge pinner på, og fortsatt gyldig. Notatblokk ved siden av strikketøyet, én strek per pinne, gruppert i fem.
+En lavteknologisk måte å følge pinner på, og fortsatt fullt brukbar. Notatblokk ved siden av strikketøyet, én strek per pinne, gruppert fem og fem.
 
-Fungerer for enkle prosjekter: rillestrikket teppe, glattstrikket skjerf, alt der pinneantallet er det eneste du følger. Faller fra hverandre når du må følge rapporter, formingsintervaller og totalt pinneantall samtidig. Én kolonne streker har ikke rom for alt.
+Det fungerer for rette prosjekter: et rillestrikket teppe, et glattstrikket skjerf, alt der pinneantallet er det eneste du følger. Det faller fra hverandre når du må følge rapporter, formingsintervaller og totalt pinneantall samtidig. Én kolonne streker har ikke plass til alt.
+
+Noen strikkere skriver ut oppskriften og markerer pinner direkte på siden ved siden av instruksjonslinjen. Det fungerer særlig godt i diagrammer eller oppskrifter der hver pinne har sin egen linje.
 
 ## 2. Mekaniske omgangstellere
 
-De tønneformede klikkerne som sitter på enden av en rett pinne. Vri etter hver pinne, tallet går opp. Billige, ingen batterier, og de har eksistert i tiår fordi de fungerer.
+De tønneformede klikkerne som sitter på enden av en rett pinne. Vri etter hver pinne, så går tallet opp. De er billige, trenger ikke batterier og er vanlige av en grunn.
 
-Begrensningene er ekte. De teller bare opp, så å rekke opp en pinne betyr at du må huske å klikke tilbake. På rundpinner henger telleren fra en spiss og er i veien. Noen klipser en egen teller til prosjektposen i stedet, som løser pinneproblemet, men ikke angreproblemet.
+Begrensningene er likevel reelle. Mange enkle tellere teller bare opp, så hvis du rekker opp en pinne, må du huske å justere tallet. Tønnetellere kan også være upraktiske på rundpinner. Noen klipser en egen teller til prosjektposen i stedet. Det løser pinneproblemet, men ikke problemet med å gå én pinne tilbake.
 
-## 3. Låsbare maskemarkører som radflagg
+Noen knappetellere, de små digitale variantene som kan henge som et smykke, kan telle begge veier. De kan derimot bli trykket på i prosjektposen og nullstilles. Det er sitt eget problem.
 
-Sett en låsbar maskemarkør på en bestemt pinne, for eksempel første pinne i en fletterapport, og når du har strikket et gitt antall pinner forbi den, flytter du markøren opp. Et visuelt anker i selve stoffet i stedet for et eksternt tall.
+## 3. Låsbare maskemarkører som pinneflagg
 
-Dette er sterkt i fletter og hullmønster der du må se hvor en rapport begynner i forhold til der du er nå. Mindre nyttig for å følge totalt pinneantall over en hel genserbol.
+Sett en låsbar maskemarkør på en bestemt pinne, for eksempel første pinne i en fletterapport, og flytt markøren opp når du har strikket et gitt antall pinner forbi den. Da ligger holdepunktet i selve arbeidet i stedet for som et løst tall utenfor.
+
+Dette fungerer godt i fletter og hullmønster der du må se hvor en rapport begynner i forhold til der du er nå. Det er mindre nyttig for å følge totalt pinneantall over en hel genserbol.
+
+Fargekodede låsbare markører kan bygge ut metoden. Én farge for starten av gjeldende rapport, en annen for formingspinner du allerede har gjort, en tredje for "det neste du må passe på". Det krever litt system, men i et komplisert prosjekt kan selve strikketøyet bære en del av informasjonen.
 
 ## 4. Lese strikketøyet
 
-Ikke en trackingmetode akkurat. Mer en redningsmetode. Når du mister tellingen, lar evnen til å lese stoffet deg finne ut hvor du er uten å rekke opp til et kjent punkt.
+Dette er ikke helt en sporingsmetode. Det er mer en redningsmetode. Når du mister tellingen, kan du lese arbeidet og finne ut hvor du er uten å rekke opp til et sikkert punkt.
 
-Glattstrikk har synlige V-er på rettsiden. Hver V er én pinne. Rillestrikk danner riller, hver rille er to pinner. Vrangbord er vanskeligere å lese, men fortsatt tellbar med tålmodighet.
+Glattstrikk har synlige V-former på rettsiden. Hver V er én pinne. Rillestrikk danner riller, og hver rille tilsvarer to pinner. Vrangbord er vanskeligere å lese, men kan fortsatt telles med tålmodighet.
 
-Verdt å utvikle uansett hvilken metode du ellers bruker. Telleren gir tallet. Å lese stoffet forteller om tallet ser riktig ut.
+I mønsterstrikk gir selve mønsteret ofte ankerpunkter. En flette som krysses hver åttende pinne, kan telles gjennom flettekryssene. Et hullmønster har ofte en tydelig pinne, for eksempel en kastpinne eller overgangspinne, som synes fra rettsiden.
+
+Det er en ferdighet det er verdt å øve på uansett hvilken annen metode du bruker. Telleren gir tallet. Å lese strikketøyet forteller om tallet ser rimelig ut.
 
 ## 5. Regneark og notatapper
 
-Noen har regneark: én kolonne per seksjon, pinneantall, mønsterpinne, notater. Andre bruker notatapp og oppdaterer etter noen pinner. Dette skalerer godt for kompliserte plagg der forming, rapporter og garnskift overlapper.
+Noen strikkere har regneark: én kolonne per seksjon, pinneantall, mønsterpinne og notater. Andre bruker en notatapp og oppdaterer etter noen pinner. Det skalerer godt for kompliserte plagg der forming, rapporter og garnskift overlapper.
 
-Ulempen: du trenger en enhet i nærheten og disiplin til å oppdatere. Hvis du setter deg og strikker en time uten pause, ødelegger det rytmen å åpne et regneark etter hver pinne.
+Ulempen er at du trenger en enhet i nærheten og faktisk må oppdatere den. Hvis du setter deg og strikker en time uten pause, bryter det rytmen å åpne et regneark etter hver pinne. Den realistiske bruken er ved naturlige stopp: slutten av en pinne, slutten av en seksjon eller rett før du legger prosjektet bort.
 
 ## 6. Egne omgangsteller-apper
 
-En digital omgangsteller på telefonen kombinerer enkelheten til en klikker med ting fysiske tellere ikke kan gjøre. Trykk for å øke, angre feil og sett påminnelser som sier fra på bestemte pinner.
+En digital omgangsteller på telefonen kombinerer enkelheten til en klikker med ting fysiske tellere ikke kan gjøre. Trykk for å gå videre, angre feil og sett påminnelser som sier fra på bestemte pinner.
 
-Påminnelsene er der en strikketeller med varsler går forbi alt annet på listen. Oppskriften sier fell på pinne 15, 25, 35 og 45? Sett dem én gang. Appen sier fra når du kommer dit. Ingen hoderegning, ingen lapper på oppskriften.
+Påminnelsene er der en app går forbi de fleste andre metoder. Oppskriften sier at du skal felle på pinne 15, 25, 35 og 45? Sett dem én gang. Appen sier fra når du kommer dit. Ingen hoderegning, ingen lapper på oppskriften.
 
-Talekommandoer tar det videre. Si "neste pinne", og telleren øker, uten hender. For strikkere som jobber med begge hender opptatt, er en stemmestyrt omgangsteller en reell forbedring over ta-opp-telefonen-trykk-legg-ned-syklusen. De fleste omgangsteller-apper logger også økttid, så du kan se hvor lenge du har jobbet og sammenligne tempo mellom økter.
+Noen tellerapper logger også økt- eller fremdriftsdata, slik at du kan se hvor lenge du har jobbet og sammenligne tempo mellom økter. Da blir telleren ikke bare ett tall, men en del av prosjekthistorikken.
 
-[KnitTools-appen](/) har omgangsteller med trykktelling, angre, pinnepåminnelser, talekommandoer, øktsporing og rapporttellere for prosjekter med flere seksjoner.
+[KnitTools](/) utvikles som en Android-verktøykasse med trykktelling, angre, flere tellere og øktsporing for prosjekter med flere seksjoner.
 
 ## 7. Kombinasjoner
 
-De fleste lander på en miks. Digital teller for totalt pinneantall. Maskemarkører i stoffet for orientering i rapporter. Evnen til å lese strikketøyet som sikkerhet.
+De fleste lander på en miks. Digital teller for totalt pinneantall. Maskemarkører i arbeidet for orientering i rapporter. Evnen til å lese strikketøyet som kontroll.
 
-De svarer på ulike spørsmål. Telleren sier "pinne 23". Markøren i stoffet sier "tredje rapport i flettepanelet". Å lese strikketøyet sier "dette er en rettsidepinne". Ulike spørsmål, ulike verktøy.
+De svarer på ulike spørsmål. Telleren sier "pinne 23". Markøren i arbeidet sier "tredje rapport i flettepanelet". Å lese strikketøyet sier "dette er en rettsidepinne". Ulike spørsmål, ulike verktøy.
+
+I prosjekter med ["samtidig"-forming](/no/artikler/samtidig-i-strikkeoppskrifter/) er to eller tre parallelle tellere ofte den reneste måten å unngå å blande instruksjonene sammen. Ermehullsfellinger på én teller, halsforming på en annen. De går hver for seg, akkurat slik oppskriften krever.
+
+## Rundt eller frem og tilbake
+
+Å strikke frem og tilbake og å strikke rundt følges litt forskjellig.
+
+Når du strikker frem og tilbake, har arbeidet en tydelig rettside og vrangside, og hver passasje over pinnene er én pinne. V-ene er ofte lette å telle fra oppleggskanten.
+
+Når du strikker rundt, teller du omganger. Hver passasje forbi omgangens begynnelse er én fullført omgang, men begynnelsen er lett å miste uten markør. Den vanlige løsningen er å sette en maskemarkør ved omgangens start og telle hver gang du passerer den. Noen legger til en ekstra markør for grupper på 10 omganger, slik at de slipper å holde 47 enkeltrunder i hodet.
+
+## Når du har mistet tellingen
+
+Det skjer. To måter hjelper ofte.
+
+Tell fra et kjent punkt. Oppleggskanten, starten på en flerfarget seksjon, slutten av en vrangbord, et flettekryss eller et fargeskift. Alt som synes i arbeidet og har et kjent pinne- eller omgangstall, gir et sted å telle fremover fra.
+
+Sammenlign med oppskriftens fremdriftsmarkører. Mange oppskrifter oppgir mål ved bestemte punkter, for eksempel "arbeidet måler 18 cm fra oppleggskanten etter første fellingsseksjon". Hvis målet stemmer, kan pinneantallet også ligge riktig.
+
+Siste kontroll: tell på to måter. Tell V-er fra nederkanten, rillestrikkede riller fra nederkanten eller pinner mellom to markører, og bruk tallet som går igjen. Hvis tallene ikke stemmer overens, er én av metodene feil, og det finner du som regel ved å telle rolig på nytt.
 
 ## Matche metode til prosjekt
 
-**Enkle prosjekter uten forming:** skjerf, klut. Penn og papir eller enkel klikker er nok.
+**Enkle prosjekter uten forming** (skjerf, klut): penn og papir eller enkel klikker er nok.
 
-**Prosjekter med forming:** gensere, luer med toppfelling. En omgangsteller-app med påminnelser sparer ekte hodebry. To minutter oppsett i starten, færre feil underveis.
+**Prosjekter med forming** (gensere, luer med toppfelling): en omgangsteller-app med påminnelser sparer ekte hodebry. To minutter oppsett i starten, færre feil underveis.
 
-**Komplisert hullmønster eller mønsterstrikk:** digital teller for total fremdrift, maskemarkører i stoffet for orientering i rapportene. For mange bevegelige deler for én metode alene.
+**Komplisert hullmønster eller mønsterstrikk**: digital teller for total fremdrift, maskemarkører i arbeidet for orientering i rapportene. For mange bevegelige deler for én metode alene.
 
-**Ofte avbrutt strikking:** en digital teller som lagrer plassen automatisk. Papir forsvinner. Mekaniske tellere blir dyttet. En app husker hvor du slapp selv om prosjektet ligger urørt i en uke.
+**Ofte avbrutt strikking**: en digital teller som lagrer plassen automatisk. Papir forsvinner. Mekaniske tellere blir dyttet. En app husker hvor du slapp selv om prosjektet ligger urørt i en uke.
 
 ## FAQ
 
 **Hvordan teller du pinner i glattstrikk?**
-Rett side av stoffet: hver V-formede maske er én pinne. Tell V-er loddrett fra oppleggskanten til pinnene. På vrangsiden teller du vrangkulene. Samme tall begge veier.
+På rettsiden av arbeidet er hver V-formede maske én pinne. Tell V-er loddrett fra oppleggskanten til pinnene. På vrangsiden teller du vrangkulene i stedet. Det blir samme tall.
 
 **Teller oppleggskanten som pinne 1?**
-Det avhenger av oppskriften. De fleste moderne oppskrifter behandler opplegget som pinne 0 og første strikkede pinne som pinne 1. Hvis oppskriften ikke sier det, sjekk om totalt pinneantall gir mening med det du leser i stoffet. [Oppskriftslesingsguiden](/no/artikler/lese-strikkeoppskrift-nybegynnerguide/) dekker slike konvensjoner mer detaljert.
+Det avhenger av oppskriften. Følg først designerens formulering. Hvis oppskriften ikke sier noe, lar mange strikkere opplegget stå utenfor og regner første strikkede pinne som pinne 1. Kontroller deretter at totalen virker rimelig når du leser arbeidet. [Oppskriftslesingsguiden](/no/artikler/lese-strikkeoppskrift-nybegynnerguide/) dekker slike konvensjoner mer detaljert.
 
 **Hvordan holder du styr på omganger når du strikker rundt?**
-Sett en maskemarkør ved omgangens begynnelse. Hver gang du passerer den, har du fullført én omgang. Markøren pluss en omgangsteller gir nøyaktig tall. Uten markøren er det lett å miste hvor én omgang slutter og neste begynner, særlig i glattstrikk der overgangen ikke synes.
+Sett en maskemarkør ved omgangens begynnelse. Hver gang du passerer den, har du fullført én omgang. Markøren pluss en omgangsteller gir et sikkert tall. Uten markøren er det lett å miste hvor én omgang slutter og neste begynner, særlig i enkel glattstrikk der overgangen ikke synes tydelig.
+
+**Hva med å følge striper?**
+Hvis tofargede striper gjentas i samme rytme, kan du telle stripepar i stedet for enkeltpinner: 8 pinner med farge A og 8 pinner med farge B er ett stripepar, enklere å telle enn 16 separate pinner. I mer kompliserte stripesekvenser sparer en teller som kan følge gjentakelser hoderegning.
+
+**Er det verdt å bruke flere tellere i ett prosjekt?**
+Ikke for en enkel lue eller et skjerf. For en genser med ermehullsforming, halsforming og strukturmønster i ulike pinnerytmer, ja. Flere tellere holder hver variabel på sitt eget spor i stedet for å presse alt inn i ett uklart tall.

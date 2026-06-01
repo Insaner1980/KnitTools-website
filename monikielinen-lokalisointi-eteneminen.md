@@ -1,0 +1,4586 @@
+# KnitTools monikielinen lokalisointi - eteneminen
+
+Päivitetty: 2026-05-31
+
+## Nykytila
+
+- Työtila: `C:\Dev\KnitTools-website`
+- Branch: `codex/fi-localization-review`
+- Työpuu on valmiiksi laajasti likainen EN/FI- ja sivustomuutoksista. Älä tulkitse niitä tämän monikielisen passin uusiksi muutoksiksi.
+- Tämän tarkistuspassin kohdekielet järjestyksessä: `fi`, `sv`, `no`, `fr`, `de`, `nl`, `da`.
+- Käsiteltävä kieli nyt: `da` artikkelit; DA tools valmis ja DA artikkelit erät 1-6/8 valmiit, seuraavaksi DA artikkelit 7/8.
+- Saksankielinen tutkimusbrief: valmis 2026-05-24
+- Saksankieliset artikkelimuutokset tässä passissa: erät 1-19 valmis
+- Saksankieliset työkalusivut tässä EN/FI-jälkeisessä tarkistuspassissa: valmis 2026-05-29 (7/7, erät 1-2 + check-/build-/dist-varmistus)
+- Saksankieliset artikkelit tässä EN/FI-jälkeisessä tarkistuspassissa: erät 1-8/8 valmis 2026-05-31 (38/38)
+- Ruotsinkielinen aloitusinventaario: valmis 2026-05-24
+- Ruotsinkielinen tutkimusbrief: valmis 2026-05-24
+- Ruotsinkieliset artikkelimuutokset tässä EN/FI-jälkeisessä tarkistuspassissa: erät 1-8/8 valmis 2026-05-29 (38/38)
+- Ruotsinkieliset työkalusivut tässä EN/FI-jälkeisessä tarkistuspassissa: valmis 2026-05-28 (7/7, erät 1-2 + check-/build-/dist-varmistus)
+- Norjankielinen aloitusinventaario: valmis 2026-05-25
+- Norjankieliset artikkelimuutokset tässä passissa: erät 1-19 valmis
+- Norjankielinen lopputarkistus: valmis 2026-05-26 (artikkelit, tools, dist, build)
+- Norjankieliset työkalusivut tässä EN/FI-jälkeisessä tarkistuspassissa: valmis 2026-05-29 (7/7, erät 1-2 + check-/build-/dist-varmistus)
+- Norjankieliset artikkelit tässä EN/FI-jälkeisessä tarkistuspassissa: valmis 2026-05-29 (38/38, erät 1-8 + check-/build-/dist-varmistus)
+- Ranskankielinen aloitusinventaario: valmis 2026-05-26
+- Ranskankieliset artikkelimuutokset tässä passissa: erät 1-19 valmis
+- Ranskankielinen artikkeli-QA: valmis 2026-05-26
+- Ranskankieliset työkalusivut tässä passissa: valmis 2026-05-26 + build-/dist-varmistus valmis
+- Ranskankieliset työkalusivut tässä EN/FI-jälkeisessä tarkistuspassissa: valmis 2026-05-29 (7/7, erät 1-2 + check-/build-/dist-varmistus)
+- Ranskankieliset artikkelit tässä EN/FI-jälkeisessä tarkistuspassissa: valmis 2026-05-29 (38/38, erät 1-8/8 + check-/build-/dist-varmistus); DE tools valmis ja DE artikkelit erät 1-4/8 valmis
+- Hollanninkielinen aloitusinventaario: valmis 2026-05-26
+- Hollanninkieliset artikkelimuutokset tässä passissa: erät 1-19 valmis
+- Hollanninkielinen lopputarkistus: valmis 2026-05-27 (artikkelit, tools, dist ja build)
+- Hollanninkieliset työkalusivut tässä EN/FI-jälkeisessä tarkistuspassissa: valmis 2026-05-31 (7/7, erät 1-2 + check-/build-/dist-varmistus)
+- Hollanninkieliset artikkelit tässä EN/FI-jälkeisessä tarkistuspassissa: valmis 2026-05-31 (38/38, erät 1-8/8 + check-/build-/dist-varmistus); seuraavaksi DA tools erä 1/2.
+- Tanskankielinen aloitusinventaario: valmis 2026-05-27
+- Tanskankieliset artikkelimuutokset tässä passissa: erät 1-19 valmis
+- Tanskankielinen lopputarkistus: valmis 2026-05-27 (artikkelit, tools, dist ja build)
+- Tanskankieliset työkalusivut tässä EN/FI-jälkeisessä tarkistuspassissa: valmis 2026-05-31 (7/7, erät 1-2 + check-/build-/dist-varmistus)
+- Tanskankieliset artikkelit tässä EN/FI-jälkeisessä tarkistuspassissa: erät 1-7/8 valmis 2026-05-31 (35/38); seuraavaksi DA artikkelit 8/8.
+- Englanninkielinen faktatarkistus: erät 1-8 valmis 2026-05-28 (38/38 artikkelia)
+- Englanninkieliset työkalusivut: valmis 2026-05-28 (7/7)
+- Suomenkieliset työkalusivut tässä tarkistuspassissa: valmis 2026-05-28 (7/7, erät 1-2 + check-/build-/dist-varmistus)
+- Suomenkieliset artikkelit tässä tarkistuspassissa: valmis 2026-05-28 (38/38, erät 1-8 + check-/build-/dist-varmistus)
+
+## Suoritetut aloitustarkistukset
+
+- `git status --short`: työpuu oli jo ennen tätä dokumenttia laajasti likainen.
+- `monikielinen-lokalisointi-eteneminen.md`: ei ollut olemassa, luotu tässä aloituserässä.
+- Artikkelimäärät:
+  - EN root: 38
+  - FI: 38
+  - DE: 38
+- Saksankieliset artikkelit:
+  - 38 tiedostoa kansiossa `src/content/articles/de/`
+  - 38 `translationKey`-osumaa
+  - kaikki 38 merkitty `draft: false`
+- `src/i18n/articles.ts` sisältää 38 saksankielistä `de`-polkua.
+- `src/i18n/routes.ts` sisältää saksan julkiset polut:
+  - artikkelit `/de/artikel/`
+  - kategoriat `/de/artikel/kategorie/`
+  - työkalut `/de/werkzeuge/`
+
+## Tarkistetut ajantasaiset lähteet
+
+- Astro content collections: https://docs.astro.build/en/guides/content-collections/
+- Astro i18n routing: https://docs.astro.build/en/guides/internationalization/
+- Google localized versions / hreflang: https://developers.google.com/search/docs/specialty/international/localized-versions
+- Google canonicalization: https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls
+- W3C i18n quick tips: https://www.w3.org/International/quicktips/index.en
+- Craft Yarn Council yarn weight system: https://www.craftyarncouncil.com/standards/yarn-weight-system
+- Craft Yarn Council WPI: https://media.craftyarncouncil.com/standards/how-measure-wraps-inch-wpi
+- Craft Yarn Council WPI guide: https://craftyarncouncil.com/standards/how-measure-wraps-inch-wpi
+- Craft Yarn Council hooks and needles: https://www.craftyarncouncil.com/standards/hooks-and-needles
+- Craft Yarn Council Standards & Guidelines PDF: https://media.craftyarncouncil.com/sites/default/files/images/standards/CYC_YarnStandards-2018-11-06.pdf
+- Craft Yarn Council standards index: https://www.craftyarncouncil.com/standards
+- Craft Yarn Council yarn label information: https://www.craftyarncouncil.com/standards/yarn-label-information
+- Craft Yarn Council how to read a knitting pattern: https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern
+- Craft Yarn Council knitting abbreviations: https://www.craftyarncouncil.com/standards/knitting-abbreviations
+- Craft Yarn Council knit chart symbols: https://www.craftyarncouncil.com/standards/knit-chart-symbols
+- Craft Yarn Council project levels: https://www.craftyarncouncil.com/standards/project-levels
+- Craft Yarn Council head circumference chart: https://www.craftyarncouncil.com/standards/head-circumference-chart
+- GINETEX Germany care symbols: https://ginetex.de/pflegekennzeichnung/pflegesymbole/
+- Knitting.com dropped stitch repair: https://knitting.com/how-to-fix-a-dropped-stitch/
+- Yarnspirations dropped stitch repair: https://www.yarnspirations.com/en-row/blogs/how-to/how-to-fix-dropped-stitches
+- Vogue Knitting gauge: https://www.vogueknitting.com/pattern-help/how-to/pattern-reading/gauge/
+- Purl Soho gauge swatch guide: https://www.purlsoho.com/create/all-about-gauge/
+- Purl Soho blocking hand knits: https://www.purlsoho.com/create/how-to-block-your-knitting/
+- Purl Soho picking up stitches: https://www.purlsoho.com/create/picking-up-stitches/
+- Purl Soho mattress stitch: https://www.purlsoho.com/create/mattress-stitch/
+- Purl Soho seaming stockinette stitch: https://www.purlsoho.com/create/seaming-stockinette-stitch-stitches-to-stitches/
+- Tin Can Knits Rye sock tutorial: https://blog.tincanknits.com/2013/10/03/socks/
+- Tin Can Knits picking up and knitting stitches: https://blog.tincanknits.com/2013/12/24/picking-up-and-knitting-stitches/
+- Tin Can Knits basic beanie: https://blog.tincanknits.com/2023/04/06/basic-beanie/
+- Tin Can Knits Barley hat tutorial: https://blog.tincanknits.com/2013/08/17/lets-knit-a-hat/
+- American Chemical Society fiber burn test note: https://www.acs.org/education/celebrating-chemistry-editions/2022-ncw/chemistry-cracks-the-case-focus-on-fiber.html
+- FabricLink burn test guide: https://www.fabriclink.com/University/BurnTest.cfm/Index.cfm
+- FiberTools increase/decrease calculator: https://fibertools.app/increase-decrease-calculator
+- TKGA increases and decreases PDF: https://www.tkga.org/wp-content/uploads/issue_archives/2009/Adding%20and%20Subtracting%20Stitches.pdf
+- Yarnspirations joining new yarn: https://www.yarnspirations.com/blogs/how-to/how-to-join-new-yarn-in-knitting
+- Sheep and Stitch Russian Join: https://sheepandstitch.com/library/how-to-join-yarn-in-knitting-russian-join/
+- The Fibre Co spit splice tutorial: https://thefibreco.com/blogs/fibre-journal/spit-splice-tutorial
+- GoodKnit Kisses beginner garter scarf: https://www.goodknitkisses.com/beginner-knitting-project-basic-garter-scarf/
+- Yarn.com knitting needle buying guide: https://www.yarn.com/pages/knitting-needle-buying-guide
+- Gathered knitting needle material guide: https://www.gathered.how/knitting-and-crochet/knitting/which-knitting-needles-do-you-need
+- Curling morphology of knitted fabrics: https://arxiv.org/abs/2410.13307
+- Tin Can Knits choosing a sweater size: https://blog.tincanknits.com/2012/10/21/bottom-up-sweater/
+- Brooklyn Tweed selecting a sweater size: https://brooklyntweed.com/pages/selecting-a-sweater-size-201
+- KnitPicks short row shaping: https://tutorials.knitpicks.com/short-row-shaping/
+- Vogue Knitting techniques and abbreviations PDF: https://www.vogueknitting.com/wp-content/uploads/sites/10/2020/02/knitting_techniques_abbreviations-1.pdf
+
+Näistä lukittu työlinja:
+
+- Astro content collection -artikkelit eivät luo reittejä itsestään; tämän projektin dynaamiset artikkelireitit ja `articleTranslations` ovat julkaistujen linkkien lähde.
+- Astro i18n tukee lokalisoituja `src/pages/<locale>/`-rakenteita, mutta tässä projektissa nykyiset käsin määritellyt locale-polut säilytetään.
+- Google hreflang-linkkien pitää olla bidirectionaalisia ja jokaisen kieliversion pitää listata myös itsensä, mutta koko sivuston hreflang/canonical-audit tehdään vasta kaikkien kielten lopussa.
+- Canonicalin pitää olla samaa kieltä tai paras mahdollinen saman kieliperheen korvike; tämän passin oletus on self-canonical ilman slug-muutoksia.
+- W3C:n peruslinja: dokumentin kieli pitää ilmoittaa, UTF-8 säilytetään, ja lokalisoitu navigaatio kirjoitetaan kohdekielellä.
+- CYC:n yarn weight -taulukot ovat ohjeellisia, eivät absoluuttisia. WPI on subjektiivinen ja riippuu käärimisen kireydestä. Saksankielisissä artikkeleissa nämä pitää muotoilla varovaisesti.
+
+## Saksan QA-brief
+
+Käytettävä kieliohje: `GERMAN_TRANSLATION_STYLE_GUIDE.md`
+
+### Ääni ja tyyli
+
+- Käytä `du`-muotoa.
+- Kirjoita luonnollista saksankielistä neulontakieltä, ei sanasanaista käännöstä.
+- Pidä rakenne ja faktarajaukset EN/FI-lähteiden mukaisina.
+- Älä lisää uusia faktaväitteitä ilman nykyistä EN-lähdettä tai erillistä faktatarkistusta.
+- Älä tee erillistä SEO-uudelleenkirjoitusta; title/description muuttuvat vain jos sisältö tai selvä kielivirhe vaatii sitä.
+
+### Lukitut termit
+
+| Käsite                | Saksa                                                               |
+| --------------------- | ------------------------------------------------------------------- |
+| gauge                 | `Maschenprobe`                                                      |
+| gauge swatch          | `Maschenprobe`, tarvittaessa `Probestück`                           |
+| cast on               | `Maschen anschlagen`, substantiivina `Anschlag` / `Maschenanschlag` |
+| bind off              | `abketten`                                                          |
+| yarn weight           | `Garnstärke`                                                        |
+| needle size           | `Nadelstärke`                                                       |
+| yardage / yarn amount | `Garnbedarf`, `benötigte Meter`                                     |
+| WPI                   | `Wraps per Inch (WPI)`, sitten `WPI`                                |
+| row counter           | `Reihenzähler`                                                      |
+| stitch marker         | `Maschenmarkierer`                                                  |
+| circular needle       | `Rundstricknadel`, myöhemmin `Rundnadel`                            |
+| DPNs                  | `Nadelspiel`                                                        |
+| blocking              | `spannen`, `waschen und spannen`, `in Form ziehen`                  |
+| ease                  | `Mehrweite`, selitettynä `Bequemlichkeitszugabe`                    |
+| dye lot               | `Farbpartie`                                                        |
+| skein / ball          | `Knäuel`; hank/strang vain jos lähde tarkoittaa vyyhtiä             |
+| hank                  | `Strang`                                                            |
+
+### Saksankieliset grep-riskit
+
+Tarkista artikkelikohtaisesti sekä englannin että saksan riskisanat:
+
+- English leftovers: `AI`, `OCR`, `scanner`, `camera`, `voice`, `parser`, `project summary`, `automatic pattern`
+- German variants: `KI`, `Texterkennung`, `OCR`, `Scanner`, `scannen`, `Scan`, `Kamera`, `Sprachbefehl`, `Sprachbefehle`, `Spracheingabe`, `sprachgesteuert`, `Parser`, `Instruction-Parser`, `Projektzusammenfassung`, `automatisch`, `Anleitungssuche`, `Gesprächsmodus`, `Sprachjournal`, `Garnkartenscan`, `Banderolen-Scanner`
+
+Nykyinen riskigrep löysi saksankielisistä artikkeleista vanhoja app-claim-tyyppisiä kohtia erityisesti näissä:
+
+- `src/content/articles/de/die-besten-strick-apps-worauf-es-ankommt.md`
+- `src/content/articles/de/digitaler-oder-mechanischer-reihenzaehler.md`
+- `src/content/articles/de/garnbanderole-lesen.md`
+- `src/content/articles/de/kostenlose-strickrechner.md`
+- `src/content/articles/de/mehrere-strickprojekte-organisieren.md`
+- `src/content/articles/de/reihen-beim-stricken-zaehlen.md`
+- `src/content/articles/de/unbekanntes-garn-ohne-banderole-bestimmen.md`
+
+Näitä ei korjata tutkimuserässä, vaan käsitellään suunnitelman mukaisissa kahden artikkelin erissä.
+
+## Valmiit artikkeliparit tässä passissa
+
+- Erä 1, valmis 2026-05-24:
+  - `at-the-same-time-knitting` -> `src/content/articles/de/gleichzeitig-in-strickanleitungen.md`
+  - `best-knitting-apps` -> `src/content/articles/de/die-besten-strick-apps-worauf-es-ankommt.md`
+  - Sisältöpäivitys: `gleichzeitig`-artikkeliin lisättiin EN/FI:n nykyiset taulukkoesimerkit ja edge-case-osiot. `best-knitting-apps` päivitettiin EN/FI-tasolle ja vanhat AI/scanner/voice/parser/project-summary-claimit poistettiin.
+- Erä 2, valmis 2026-05-24:
+  - `best-yarn-for-beginners` -> `src/content/articles/de/das-beste-garn-fuer-den-einstieg-ins-stricken.md`
+  - `circular-vs-straight-vs-dpn` -> `src/content/articles/de/rundstricknadel-gerade-nadeln-oder-nadelspiel.md`
+  - Sisältöpäivitys: `das-beste-garn`-artikkeliin lisättiin EN/FI:n nykyiset Banderole-, Farbpartie-, tonal yarn- ja Strang/Knäuel/Cake-rajaukset sekä puuttuvat FAQ:t. `rundstricknadel`-artikkeli päivitettiin EN/FI-tasolle lisäämällä vertailutaulukko, kabellänge/kabelqualität-osiot, Magic Loop, kaksi Rundstricknadelia, Nadelspielin Leiter-ohjeet, 23-cm-Rundstricknadeln, ergonomiset muodot ja laajennetut FAQ:t.
+- Erä 3, valmis 2026-05-24:
+  - `digital-vs-physical-row-counters` -> `src/content/articles/de/digitaler-oder-mechanischer-reihenzaehler.md`
+  - `essential-knitting-tools` -> `src/content/articles/de/strickzubehoer-ausser-nadeln-und-garn.md`
+  - Sisältöpäivitys: `digitaler-oder-mechanischer-reihenzaehler` päivitettiin EN/FI-tasolle ja vanhat Sprachbefehle/KI/Garnkartenscan/Projektzusammenfassung-claimit poistettiin. `strickzubehoer`-artikkeliin lisättiin EN/FI:n nykyiset Wollnadel-, Schere-, Maschenmarkierer-, Maßband-, Reihenzähler-, Spannzubehör-, Haspel/Wollwickler-, Projektbeutel- ja FAQ-täsmennykset.
+- Erä 4, valmis 2026-05-24:
+  - `fix-dropped-stitches` -> `src/content/articles/de/fallengelassene-maschen-retten-ohne-aufzuribbeln.md`
+  - `free-knitting-calculators` -> `src/content/articles/de/kostenlose-strickrechner.md`
+  - Sisältöpäivitys: `fallengelassene-maschen` päivitettiin EN/FI-tasolle lisäämällä Laufmasche-suojaus, Rettungsleine, Anschlag-rajaukset, verdrehte-Masche-korjaus, Mohair/haftende-Garne-osio ja puuttuvat FAQ:t. `kostenlose-strickrechner` päivitettiin EN/FI-tasolle lisäämällä Maschenanschlag-esimerkki, Garnbedarf-turvamarginaali, Maschenproben-Umrechnung, Zunahmen/Abnahmen-reunavara, Anleitung-anpassen-osio, Größentabellen-linkki ja puuttuva FAQ; vanhat KI/scanner/Gesprächsfunktionen/app-claimit poistettiin.
+- Erä 5, valmis 2026-05-24:
+  - `gauge-doesnt-match` -> `src/content/articles/de/wenn-die-maschenprobe-nicht-zur-anleitung-passt.md`
+  - `gauge-swatch-step-by-step` -> `src/content/articles/de/maschenprobe-stricken-schritt-fuer-schritt.md`
+  - Sisältöpäivitys: `wenn-die-maschenprobe` päivitettiin EN/FI-tasolle lisäämällä mittauksen keskiarvo, gewaschene/ungewaschene Maschenprobe, in Runden vs flach, muuttuva Maschenprobe, Anleitung-aufgeben-rajaus ja puuttuva FAQ. `maschenprobe-stricken` päivitettiin EN/FI-tasolle lisäämällä muistiinpanot, mallineuleen tarkistus, Anschlag- ja Abketten-rajaukset, pesu/spannen-sääntö, tarkempi mittaus, Nadelstärke-hypyn ohje, Garnersatz-varoitus, Rundstrick-oikotie, swatch-säilytys/uudelleenkäyttö ja puuttuva FAQ.
+- Erä 6, valmis 2026-05-24:
+  - `how-many-stitches-to-cast-on` -> `src/content/articles/de/wie-viele-maschen-anschlagen.md`
+  - `how-much-yarn-do-i-need` -> `src/content/articles/de/wie-viel-garn-brauche-ich.md`
+  - Sisältöpäivitys: `wie-viele-maschen-anschlagen` päivitettiin EN/FI-tasolle lisäämällä laskuesimerkki, mallikerran yleiset muodot, Kettrand-huomio, Rundstrick-ohjeet, sock cast-on -haarukat, Anschlagmethoden-vertailu, Anschlagspannung, laajennetut projektikohtaiset plausibiliteettimäärät, Top-down/Bottom-up-esimerkki ja puuttuvat FAQ:t. `wie-viel-garn-brauche-ich` täydennettiin Maße-/Garnstärke-pohjaisella laskurirajauksella, Lauflänge-erolla, mallitilkun käytännön aikataululla ja kesken työn punnitsemisen tarkennuksella.
+- Erä 7, valmis 2026-05-24:
+  - `how-to-block-knitting` -> `src/content/articles/de/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche.md`
+  - `how-to-knit-hat` -> `src/content/articles/de/muetze-stricken-methoden-fuer-jedes-niveau.md`
+  - Sisältöpäivitys: `strickstuecke-spannen` päivitettiin EN/FI-tasolle lisäämällä värin vuotamisen varoitus, akryylin tarkoituksellinen höyrymuutos, Lochmuster-, Pulloverteile-, Trockenzeit- ja Nach-dem-Spannen-osiot, kuitukohtaiset caveatit, lisä-FAQ:t ja tarkempi raja siitä mitä spannen ei korjaa. `muetze-stricken` päivitettiin EN/FI-tasolle lisäämällä Rundenanfang/Markierer-huomiot, flach gestrickt -haitat, ylhäältä alas -menetelmä, CYC-päänympärysrajaukset, Abnahmerhythmus- ja paired-decrease-rajaukset, Bündchen-valinnat, langan/puikkojen lisärajaukset ja puuttuvat FAQ:t.
+- Erä 8, valmis 2026-05-24:
+  - `how-to-knit-socks` -> `src/content/articles/de/socken-stricken-aufbau-einer-sockenanleitung.md`
+  - `how-to-measure-knitting-gauge` -> `src/content/articles/de/maschenprobe-messen.md`
+  - Sisältöpäivitys: `socken-stricken` päivitettiin EN/FI-tasolle lisäämällä puuttuva Größe und Passform -osio, laajemmat cuff-down/toe-up-rajaukset, Fersenwand/Spickel- ja verkürzte Reihen -tarkennukset, handgefärbte/selbststreifende Garn -rajaukset, Nadelspiel/Magic Loop/zwei Rundstricknadeln -vertailu, sukkien tiheysrajaus, Second-Sock-taktiikka ja puuttuvat FAQ:t. `maschenprobe-messen` täydennettiin EN/FI:n mukaisilla Zopf-/Musterstoff-, kuivumisen jälkeisen mittauksen, henkilökohtaisen käsialan ja in Runden -caveateilla.
+- Erä 9, valmis 2026-05-24:
+  - `how-to-read-knitting-pattern` -> `src/content/articles/de/strickanleitung-lesen.md`
+  - `how-to-read-yarn-label` -> `src/content/articles/de/garnbanderole-lesen.md`
+  - Sisältöpäivitys: `strickanleitung-lesen` päivitettiin EN/FI-tasolle lisäämällä Schwierigkeitsgrad-, Notes-, Gegengleiche Formgebung-, Chart-Symbole-, japanische Symbolcharts- ja PDF/Papier-osiot sekä puuttuvat FAQ:t. `garnbanderole-lesen` päivitettiin varovaisempaan CYC/Garnstärke-muotoiluun, täsmensi Superwash- ja 10 cm / 4 Zoll -rajauksia ja poisti vanhan Yarn Label Scanner / Kamera -app-claimin.
+- Erä 10, valmis 2026-05-24:
+  - `how-to-substitute-yarn` -> `src/content/articles/de/garn-in-einer-strickanleitung-ersetzen.md`
+  - `identify-mystery-yarn` -> `src/content/articles/de/unbekanntes-garn-ohne-banderole-bestimmen.md`
+  - Sisältöpäivitys: `garn-in-einer-strickanleitung-ersetzen` täsmennettiin EN/FI-riskitasolle lisäämällä noin kahden silmukan / 10 cm matalan riskin esimerkki, perusteellinen ja rehellinen Maschenprobe-muotoilu sekä "fast lieber lassen" -rajaus tietyn kuituefektin projekteille. `unbekanntes-garn-ohne-banderole-bestimmen` päivitettiin WPI 0-7 / Size 8 -varovaisuuteen, laajennettuun Brennprobe-turvallisuuteen, vesitestin akryyli-caveatiin ja poisti vanhan Yarn Label Scanner -app-claimin.
+- Erä 11, valmis 2026-05-24:
+  - `increase-decrease-evenly` -> `src/content/articles/de/zunahmen-und-abnahmen-gleichmaessig-verteilen.md`
+  - `join-new-ball-of-yarn` -> `src/content/articles/de/ein-neues-knaeuel-mitten-in-der-reihe-ansetzen.md`
+  - Sisältöpäivitys: `zunahmen-und-abnahmen-gleichmaessig-verteilen` päivitettiin EN/FI-tasolle lisäämällä yhden rivin kaava, puhtaat ja jakojäännökselliset esimerkit, abnahme-toiston selitys, reuna- ja saumavarat, nurjan silmukan caveat, pyöröneule, symmetrinen/paarinen muotoilu, yleiset välit ja FAQ. `ein-neues-knaeuel-mitten-in-der-reihe-ansetzen` päivitettiin EN/FI-tasolle lisäämällä menetelmätaulukko, päällekkäisliitoksen päättelyohje, Russian Join -neulavalinta, Spit Splice -testaus, Magic Knot -rajaus, käsinvärjätyn langan vuorottelu, Fabrikknoten, langan katkeaminen kesken silmukan ja FAQ.
+- Erä 12, valmis 2026-05-24:
+  - `knit-first-scarf` -> `src/content/articles/de/den-ersten-schal-stricken.md`
+  - `knitting-needle-materials` -> `src/content/articles/de/stricknadeln-metall-holz-bambus.md`
+  - Sisältöpäivitys: `den-ersten-schal-stricken` päivitettiin EN/FI-tasolle lisäämällä Fadenhaltung, luomisen jälkeinen laskenta, neulotun pinnan lukeminen, laajemmat aloittelijavirheet, uuden Knäuelin aloitus, abketten-joustavuus, tarkempi viimeistely, Fransen-osio, taukojen ergonomia ja FAQ-linkit. `stricknadeln-metall-holz-bambus` päivitettiin EN/FI-tasolle lisäämällä materiaalivertailutaulukko, metalli/puu/bambu/muovi/karbon-yksityiskohdat, Spitzenform, vaihdettavien liitoslaatu, materiaalin sovittaminen lankaan ja laajennettu FAQ.
+- Erä 13, valmis 2026-05-24:
+  - `knitting-pattern-repeats` -> `src/content/articles/de/rapporte-in-strickanleitungen-sterne-und-klammern.md`
+  - `knitting-pattern-sizes-and-fit` -> `src/content/articles/de/groessen-in-strickanleitungen-mehrweite-und-masse.md`
+  - Sisältöpäivitys: `rapporte-in-strickanleitungen-sterne-und-klammern` päivitettiin EN/FI-tasolle lisäämällä Vorbereitungsreihen/as-established-rajaukset, tarkempi monirivisten rapporttien varoitus, Maschenmarkierer-kontrollipisteet, Chart-rapportkästen, Rettungsleine, versetzte/Half-Drop-Rapporte ja puuttuvat FAQ:t. `groessen-in-strickanleitungen-mehrweite-und-masse` päivitettiin EN/FI-tasolle lisäämällä tarkemmat mittauskohdat, Armausschnitttiefe, koon valinta vartalon pituuden mukaan, eri koot vartaloon ja hihoihin, CYC:n Mehrweite-rajat, konstruktion vaikutus istuvuuteen, verkürzte Reihen Brustformungissa ja FAQ.
+- Erä 14, valmis 2026-05-24:
+  - `needle-size-for-beginners` -> `src/content/articles/de/welche-nadelstaerke-fuer-den-einstieg.md`
+  - `organize-knitting-projects` -> `src/content/articles/de/mehrere-strickprojekte-organisieren.md`
+  - Sisältöpäivitys: `welche-nadelstaerke-fuer-den-einstieg` päivitettiin EN/FI-tasolle lisäämällä Nadelgrößen-Systeme, US/Metric/UK-varoitus, "Was du noch nicht kaufen solltest", Spannung aufbauen ja puuttuvat FAQ:t US 6/US 10 -kokojen sekä merkkivalinnan osalta. `mehrere-strickprojekte-organisieren` päivitettiin EN/FI-tasolle lisäämällä Arbeitsgarnin sijainti, projektipussin materiaalirajaukset, projektin sovittaminen hetkeen, langan punnitseminen ja korvasi vanhan Yarn Label Scanner -claimin nykyisellä manuaalisella lankamuistiinpanolla.
+- Erä 15, valmis 2026-05-24:
+  - `pick-up-stitches` -> `src/content/articles/de/maschen-an-einer-strickkante-aufnehmen.md`
+  - `seam-knitted-pieces` -> `src/content/articles/de/strickteile-zusammennaehen-matratzenstich.md`
+  - Sisältöpäivitys: `maschen-an-einer-strickkante-aufnehmen` päivitettiin EN/FI-tasolle lisäämällä Hebemaschen- ja kraus-rechts-reunat, eri blendojen poimintasuhteet, diagonaaliset kaula-aukon reunat, tasainen jakaminen, virkkuukoukku- ja kontrastilankatekniikat, Steek-reuna sekä puuttuvat FAQ:t aaltoilun, epätasaisen poiminnan ja pituuden lisäämisen osalta. `strickteile-zusammennaehen-matratzenstich` päivitettiin EN/FI-tasolle lisäämällä saumamenetelmien vertailu, glatt links / strukturmuster -rajaukset, waagerechter Matratzenstich, Maschenstich/Kitchener, raitojen ja jacquardin kohdistus, saumalangat, yleiset virheet ja puuttuvat FAQ:t.
+- Erä 16, valmis 2026-05-24:
+  - `track-knitting-time` -> `src/content/articles/de/strickzeit-und-tempo-verfolgen.md`
+  - `track-rows-knitting` -> `src/content/articles/de/reihen-beim-stricken-zaehlen.md`
+  - Sisältöpäivitys: `strickzeit-und-tempo-verfolgen` tasattiin EN/FI-sävyyn poistamalla liian varmat nopeusalueet ja nykytilaa liioitteleva app-väite, ja säilytti suunnittelua, omaa tahtia ja paineetonta seurantaa painottavan rakenteen. `reihen-beim-stricken-zaehlen` päivitettiin EN/FI-tasolle lisäämällä ohjeeseen merkitseminen, digitaaliset painonappilaskurit, värikoodatut lukittavat merkit, neulepinnan ankkurit, luonnolliset päivitystauot, sessiodata, rinnakkaiset laskurit, suljettuna/tasona-neuleen erot, kadonneen kerrosluvun palautus sekä puuttuvat raita- ja monilaskuri-FAQ:t; vanhat Sprachbefehle-claimit poistettiin.
+- Erä 17, valmis 2026-05-24:
+  - `what-is-gauge-in-knitting` -> `src/content/articles/de/was-sagt-die-maschenprobe-beim-stricken-aus.md`
+  - `why-knitting-curls` -> `src/content/articles/de/warum-rollt-sich-mein-strickstueck-ein.md`
+  - Sisältöpäivitys: `was-sagt-die-maschenprobe-beim-stricken-aus` päivitettiin EN/FI-tasolle lisäämällä Strickstil, Nadelmaterial, Vor-/Nach-dem-Spannen, Garnverhalten, Musterprobe-vs-glatt-rechts, Mehrweite/Passform, 10 cm / 4 Zoll -mittausikkuna, työkalut ja puuttuvat FAQ:t. `warum-rollt-sich-mein-strickstueck-ein` päivitettiin EN/FI-tasolle lisäämällä Superwash-Wolle, Randbreite-taulukko, abgehobene Randmasche, Acryl/Totdämpfen, glatt-links-caveat, Steeks/Rundstricken ja puuttuvat FAQ:t pienestä mallitilkusta sekä langoista, jotka eivät rullaudu.
+- Erä 18, valmis 2026-05-24:
+  - `yarn-fibers-compared` -> `src/content/articles/de/garnfasern-im-vergleich.md`
+  - `yarn-for-blanket` -> `src/content/articles/de/wie-viel-garn-fuer-eine-decke.md`
+  - Sisältöpäivitys: `garnfasern-im-vergleich` tasattiin EN/FI-riskitasoon pehmentämällä Superwash-, Acryl- ja Nylon-väitteitä. `wie-viel-garn-fuer-eine-decke` päivitettiin EN/FI-tasolle lisäämällä varovaisemmat mallineulepuskuroinnit, Farbpartie/käsinvärjätyn langan rajaus, lankavahvuuskohtaiset käytännön caveatit, puuttuva Nadeln/Fasern/Haltbarkeit-osio ja laajennetut FAQ:t.
+- Erä 19, valmis 2026-05-24:
+  - `yarn-for-sweater` -> `src/content/articles/de/wie-viel-garn-fuer-einen-pullover.md`
+  - `yarn-weight-substitution` -> `src/content/articles/de/garnstaerke-ersetzen.md`
+  - Sisältöpäivitys: `wie-viel-garn-fuer-einen-pullover` päivitettiin EN/FI-tasolle lisäämällä negative-ease-rajaus, top-down-hiha-ansa, Konstruktion/Garnverteilung-osio, varalangan palautus-/käyttöhuomio, rajallisesta langasta taaksepäin laskemisen caveatit ja kuitu-FAQ. `garnstaerke-ersetzen` päivitettiin EN/FI-tasolle lisäämällä CYC/WPI-varovaisuus, yksityiskohtaiset muutokset, toimivuus-/riskirajaukset, Worsted->DK-esimerkkilasku, vaiheittainen uudelleenlaskenta, kaksinkertaisen langan haarukat, vanhojen ohjeiden rajaukset, Lochmuster/Textur-osio ja laajennetut FAQ:t.
+
+## Seuraava vaihe
+
+Saksan artikkelien kielikohtainen QA:
+
+- kaikki 38 saksankielistä artikkelia on nyt päivitetty tässä passissa.
+- Ennen saksan työkalusivuja aja kielikohtainen QA:
+  - varmista `src/content/articles/de/`-määrä, `translationKey`-määrä ja `draft: false` -tila.
+  - varmista `src/i18n/articles.ts`: 38 saksankielistä `de`-polkua.
+  - aja koko `src/content/articles/de/`-kansion app-claim-riskigrep.
+  - aja koko `src/content/articles/de/`-kansion suomijäämägrep.
+  - tarkista, ettei saksan artikkelilista/kategoriat/build rikkoudu.
+- Aloita saksan työkalusivut vasta tämän QA:n jälkeen.
+
+## Työkalusivujen tila
+
+- Saksan työkalusivut odottavat artikkelien kielikohtaista QA:ta.
+- Älä aloita `src/pages/de/werkzeuge/*.astro`-muutoksia ennen kuin saksan 38 artikkelin QA on valmis.
+
+## Slug-muutokset ja redirectit
+
+- Ei muutoksia tässä passissa.
+- Oletus jatkossa: slugit säilytetään.
+- Jos slug muutetaan myöhemmin, päivitä samalla `src/i18n/articles.ts` ja lisää 301-rivi `public/_redirects`-tiedostoon.
+
+## Tarkistukset seuraavan artikkeliparin jälkeen
+
+Aja jokaisen kahden artikkelin erän jälkeen:
+
+```powershell
+git diff --check
+npm run check
+```
+
+Aja `npm run build` vain, jos linkkejä, slugia, frontmatteria tai reittikarttaa muutettiin.
+
+## Suoritetut tarkistukset tässä passissa
+
+- Saksan artikkeli-QA erä 1, inventaario:
+  - `src/content/articles/de/*.md`: 38 tiedostoa
+  - `translationKey`: 38 osumaa, 38 uniikkia, ei puuttuvia tai duplikaatteja
+  - `draft: false`: 38 osumaa, `draft: true`: 0 osumaa
+  - `src/i18n/articles.ts`: 38 saksankielistä `/de/artikel/`-polkua
+  - tiedostojen `translationKey`-avaimet ja `articleTranslations`-kartan saksan avaimet täsmäävät: ei puuttuvia kartasta, ei ylimääräisiä kartassa
+  - saksan artikkelireittitiedostot ovat olemassa: `src/pages/de/artikel/index.astro`, `src/pages/de/artikel/[...slug].astro`, `src/pages/de/artikel/kategorie/[slug].astro`
+- Saksan artikkeli-QA erä 2, app-claim-riskigrep 10 ensimmäiselle DE-artikkelille aakkosjärjestyksessä:
+  - tarkistetut tiedostot: `das-beste-garn-fuer-den-einstieg-ins-stricken.md`, `den-ersten-schal-stricken.md`, `die-besten-strick-apps-worauf-es-ankommt.md`, `digitaler-oder-mechanischer-reihenzaehler.md`, `ein-neues-knaeuel-mitten-in-der-reihe-ansetzen.md`, `fallengelassene-maschen-retten-ohne-aufzuribbeln.md`, `garn-in-einer-strickanleitung-ersetzen.md`, `garnbanderole-lesen.md`, `garnfasern-im-vergleich.md`, `garnstaerke-ersetzen.md`
+  - osumat: yksi `Anleitungssuche`-osuma tiedostossa `die-besten-strick-apps-worauf-es-ankommt.md`
+  - arvio: OK, osuma kuvaa Ravelryn vahvuuksia eikä väitä KnitTools-appin sisältävän Anleitungssuche-toimintoa; ei sisältömuutosta
+- Saksan artikkeli-QA erä 3, app-claim-riskigrep seuraaville 10 DE-artikkelille aakkosjärjestyksessä:
+  - tarkistetut tiedostot: `gleichzeitig-in-strickanleitungen.md`, `groessen-in-strickanleitungen-mehrweite-und-masse.md`, `kostenlose-strickrechner.md`, `maschen-an-einer-strickkante-aufnehmen.md`, `maschenprobe-messen.md`, `maschenprobe-stricken-schritt-fuer-schritt.md`, `mehrere-strickprojekte-organisieren.md`, `muetze-stricken-methoden-fuer-jedes-niveau.md`, `rapporte-in-strickanleitungen-sterne-und-klammern.md`, `reihen-beim-stricken-zaehlen.md`
+  - osumat: neljä `automatisch`-osumaa tiedostoissa `reihen-beim-stricken-zaehlen.md`, `mehrere-strickprojekte-organisieren.md` ja `gleichzeitig-in-strickanleitungen.md`
+  - arvio: OK, osumat ovat yleisiä digitaalisen laskurin/trackerin kuvauksia tai tavallista kielenkäyttöä Ravelry-kontekstissa; ei AI/OCR/scanner/voice/app-liioittelua eikä sisältömuutosta
+- Saksan artikkeli-QA erä 4, app-claim-riskigrep seuraaville 10 DE-artikkelille aakkosjärjestyksessä:
+  - tarkistetut tiedostot: `rundstricknadel-gerade-nadeln-oder-nadelspiel.md`, `socken-stricken-aufbau-einer-sockenanleitung.md`, `strickanleitung-lesen.md`, `stricknadeln-metall-holz-bambus.md`, `strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche.md`, `strickteile-zusammennaehen-matratzenstich.md`, `strickzeit-und-tempo-verfolgen.md`, `strickzubehoer-ausser-nadeln-und-garn.md`, `unbekanntes-garn-ohne-banderole-bestimmen.md`, `warum-rollt-sich-mein-strickstueck-ein.md`
+  - osumat: yksi `automatisch`-osuma tiedostossa `strickteile-zusammennaehen-matratzenstich.md`
+  - arvio: OK, osuma kertoo ettei ompeleminen automaattisesti korjaa eri kokoisia kappaleita; ei app-claim eikä sisältömuutosta
+- Saksan artikkeli-QA erä 5, app-claim-riskigrep viimeisille 8 DE-artikkelille aakkosjärjestyksessä:
+  - tarkistetut tiedostot: `was-sagt-die-maschenprobe-beim-stricken-aus.md`, `welche-nadelstaerke-fuer-den-einstieg.md`, `wenn-die-maschenprobe-nicht-zur-anleitung-passt.md`, `wie-viel-garn-brauche-ich.md`, `wie-viel-garn-fuer-eine-decke.md`, `wie-viel-garn-fuer-einen-pullover.md`, `wie-viele-maschen-anschlagen.md`, `zunahmen-und-abnahmen-gleichmaessig-verteilen.md`
+  - osumat: ei osumia
+  - app-claim-riskigrep on nyt ajettu kaikille 38 saksankieliselle artikkelille pienissä erissä; yhtään korjattavaa AI/OCR/scanner/voice/app-liioittelua ei jäänyt
+- Saksan artikkeli-QA erä 6, suomijäämägrep 10 ensimmäiselle DE-artikkelille aakkosjärjestyksessä:
+  - tarkistetut tiedostot: `das-beste-garn-fuer-den-einstieg-ins-stricken.md`, `den-ersten-schal-stricken.md`, `die-besten-strick-apps-worauf-es-ankommt.md`, `digitaler-oder-mechanischer-reihenzaehler.md`, `ein-neues-knaeuel-mitten-in-der-reihe-ansetzen.md`, `fallengelassene-maschen-retten-ohne-aufzuribbeln.md`, `garn-in-einer-strickanleitung-ersetzen.md`, `garnbanderole-lesen.md`, `garnfasern-im-vergleich.md`, `garnstaerke-ersetzen.md`
+  - osumat: ei osumia
+  - arvio: OK, ei suomenkielisiä jäämiä tässä erässä
+- Saksan artikkeli-QA erä 7, suomijäämägrep seuraaville 10 DE-artikkelille aakkosjärjestyksessä:
+  - tarkistetut tiedostot: `gleichzeitig-in-strickanleitungen.md`, `groessen-in-strickanleitungen-mehrweite-und-masse.md`, `kostenlose-strickrechner.md`, `maschen-an-einer-strickkante-aufnehmen.md`, `maschenprobe-messen.md`, `maschenprobe-stricken-schritt-fuer-schritt.md`, `mehrere-strickprojekte-organisieren.md`, `muetze-stricken-methoden-fuer-jedes-niveau.md`, `rapporte-in-strickanleitungen-sterne-und-klammern.md`, `reihen-beim-stricken-zaehlen.md`
+  - osumat: ei osumia
+  - arvio: OK, ei suomenkielisiä jäämiä tässä erässä
+- Saksan artikkeli-QA erä 8, suomijäämägrep seuraaville 10 DE-artikkelille aakkosjärjestyksessä:
+  - tarkistetut tiedostot: `rundstricknadel-gerade-nadeln-oder-nadelspiel.md`, `socken-stricken-aufbau-einer-sockenanleitung.md`, `strickanleitung-lesen.md`, `stricknadeln-metall-holz-bambus.md`, `strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche.md`, `strickteile-zusammennaehen-matratzenstich.md`, `strickzeit-und-tempo-verfolgen.md`, `strickzubehoer-ausser-nadeln-und-garn.md`, `unbekanntes-garn-ohne-banderole-bestimmen.md`, `warum-rollt-sich-mein-strickstueck-ein.md`
+  - osumat: ei osumia
+  - arvio: OK, ei suomenkielisiä jäämiä tässä erässä
+- Saksan artikkeli-QA erä 9, suomijäämägrep viimeisille 8 DE-artikkelille aakkosjärjestyksessä:
+  - tarkistetut tiedostot: `was-sagt-die-maschenprobe-beim-stricken-aus.md`, `welche-nadelstaerke-fuer-den-einstieg.md`, `wenn-die-maschenprobe-nicht-zur-anleitung-passt.md`, `wie-viel-garn-brauche-ich.md`, `wie-viel-garn-fuer-eine-decke.md`, `wie-viel-garn-fuer-einen-pullover.md`, `wie-viele-maschen-anschlagen.md`, `zunahmen-und-abnahmen-gleichmaessig-verteilen.md`
+  - osumat: ei osumia
+  - arvio: OK, ei suomenkielisiä jäämiä tässä erässä
+  - suomijäämägrep on nyt ajettu kaikille 38 saksankieliselle artikkelille pienissä erissä; yhtään korjattavaa suomenkielistä jäämää ei jäänyt
+- Saksan artikkeli-QA erä 10, artikkelilista-, kategoria- ja build-tarkistus:
+  - saksan artikkelilistan route-logiikka: OK, `src/pages/de/artikel/index.astro` hakee `lang === "de"` -artikkelit ja tuotannossa suodattaa draftit pois
+  - saksan kategoriaroute-logiikka: OK, `src/pages/de/artikel/kategorie/[slug].astro` käyttää `routes.category[category].de` -polkuja ja slugMap vastaa saksan kategoriaslugeja
+  - kategoriakattavuus: OK, 38 saksankielistä artikkelia jakautuu kaikkiin 5 kategoriaan (`gauge-calculations`: 6, `yarn`: 9, `needles`: 3, `techniques`: 13, `app-tools`: 7)
+  - dist-tarkistus buildin jälkeen: `/de/artikel/index.html` löytyy, saksan kategoriasivuja 5 ja saksan artikkelisivuja 38
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+  - saksan artikkelien kielikohtainen QA on valmis
+- Saksan tools-erä 1, inventaario ja rakennevertailu:
+  - `src/pages/de/werkzeuge/` sisältää indexin ja kaikki 6 työkalusivua: `maschenanschlag-rechner.astro`, `garnbedarfsrechner.astro`, `nadelstaerken-tabelle.astro`, `garnstaerken-tabelle.astro`, `strickabkuerzungen.astro`, `groessentabellen-stricken.astro`
+  - saksan tools-reitit löytyvät yhdestä lähteestä `src/i18n/routes.ts`: `/de/werkzeuge/` + 6 työkalupolkua
+  - kaikki 6 saksan työkalusivua käyttävät jaettua `LocalizedToolPage.astro`-pohjaa, eivät vanhaa englannin `PageLayout`-rakennetta
+  - vertailu suomen sivuihin: saksan sivut vastaavat lokalisoitua rakennetta; suomi käyttää `FinnishToolPage`-wrapperia, joka välittää `LocalizedToolPage`-pohjalle `lang="fi"`
+  - `garnstaerken-tabelle.astro` käyttää jaettua `WpiIdentifier lang="de"` -komponenttia kuten suomen `lankavahvuudet.astro`
+  - rakenne- ja määrähavainto: saksan sivujen H2/FAQ/script-rakenne vastaa suomen lokalisoituja sivuja paremmin kuin vanhoja englannin täyssivuja; englannin sivut ovat pidempiä ja sisältävät oman vanhemman layout-/schema-rakenteensa
+  - sisältömuutoksia ei tehty tässä inventaarioerässä
+- Saksan tools-erä 2, laskurisivujen pariteettitarkistus:
+  - tarkistetut tiedostot: `src/pages/de/werkzeuge/maschenanschlag-rechner.astro` ja `src/pages/de/werkzeuge/garnbedarfsrechner.astro`
+  - vertailu englannin sivuihin: molemmat saksan sivut kattavat vastaavat pääaiheet (`cast on` / Maschenanschlag, Maschenprobe, laskurin käyttö; sekä Garnbedarf, Banderole/Lauflänge, Reserveknäuel), mutta lokalisoidun `LocalizedToolPage`-mallin tiiviimmässä muodossa
+  - vertailu suomen sivuihin: molemmissa saksan sivuissa sama lokalisoitu rakenne kuin suomen vastinsivuissa; FAQ-määrät täsmäävät, `maschenanschlag-rechner` 5 FAQ ja `garnbedarfsrechner` 5 FAQ
+  - korjaus: `maschenanschlag-rechner.astro` tekstin englanninkielinen mittalyhenne `4 in` muutettiin saksankieliseksi muodoksi `4 Zoll`
+  - `garnbedarfsrechner.astro`: ei korjattavia pariteetti- tai saksan kielijäämäpuutteita tässä rajauksessa
+  - englanninkielisten termijäämien täsmähaku näistä kahdesta saksan sivusta: OK, ei osumia termeille `inches`, `inch`, `4 in`, `gauge`, `swatch`, `cast on`, `ball band`, `skein`, `dye lot`, `yardage`
+  - `npx prettier --check .\src\pages\de\werkzeuge\maschenanschlag-rechner.astro .\src\pages\de\werkzeuge\garnbedarfsrechner.astro .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `git diff --check -- .\src\pages\de\werkzeuge\maschenanschlag-rechner.astro .\src\pages\de\werkzeuge\garnbedarfsrechner.astro .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+- Saksan tools-erä 3, taulukkosivujen pariteettitarkistus:
+  - tarkistetut tiedostot: `src/pages/de/werkzeuge/nadelstaerken-tabelle.astro` ja `src/pages/de/werkzeuge/garnstaerken-tabelle.astro`
+  - vertailu englannin sivuihin: saksan sivut kattavat vastaavat pääaiheet, mutta lokalisoidun `LocalizedToolPage`-mallin tiiviimmässä muodossa
+  - vertailu suomen sivuihin: rakenne täsmää lokalisoituihin vastinsivuihin; `nadelstaerken-tabelle` 6 H2, 4 FAQ, 26 puikkokokoriviä ja 1 script; `garnstaerken-tabelle` 5 H2, 6 H3, 4 FAQ, 8 lankavahvuusriviä ja 0 scriptiä
+  - numeropariteetti suomeen: OK, puikkokokotaulukon metriset/US/UK/Japan-rivit täsmäävät; lankavahvuustaulukon kategoriat 0-7, neuletiheysvälit, puikkovälit ja WPI-välit täsmäävät
+  - CYC-standardivertailu: OK, lankavahvuustaulukon neuletiheys- ja suositeltu puikkokokodata vastaa Craft Yarn Councilin Standard Yarn Weight System -välejä
+  - englanninkielisten termijäämien täsmähaku näistä kahdesta saksan sivusta: OK, ei osumia termeille `inches`, `inch`, `4 in`, `gauge`, `swatch`, `cast on`, `bind off`, `needle size`, `yarn weight`, `yardage`, `wraps per inch`, `ball band`, `skein`, `dye lot`, `US size`, `UK size`
+  - suomenkielisten termijäämien täsmähaku näistä kahdesta saksan sivusta: OK, ei osumia
+  - sisältömuutoksia ei tehty tässä erässä
+- Saksan tools-erä 4, lyhenne- ja kokotaulukkosivujen pariteettitarkistus:
+  - tarkistetut tiedostot: `src/pages/de/werkzeuge/strickabkuerzungen.astro` ja `src/pages/de/werkzeuge/groessentabellen-stricken.astro`
+  - vertailu englannin sivuihin: saksan sivut kattavat vastaavat pääaiheet, mutta lokalisoidun `LocalizedToolPage`-mallin tiiviimmässä muodossa
+  - vertailu suomen sivuihin: rakenne täsmää lokalisoituihin vastinsivuihin; `strickabkuerzungen` 5 H2, 5 FAQ, 54 lyhennettä ja 1 script; `groessentabellen-stricken` 6 paneelia, 17 taulukkoa, 4 FAQ ja 1 script
+  - lyhennepariteetti suomeen: OK, 54/54 lyhennettä; ei puuttuvia tai ylimääräisiä avaimia
+  - kokotaulukkopariteetti suomeen: OK, 291/291 taulukkosolua ja 0 sijaintikohtaista soluerotusta
+  - CYC-lähdevertailu: lyhennelistaa ja kokotaulukkojen peruskäsitteitä verrattiin Craft Yarn Councilin abbreviations- ja sizing-sivuihin
+  - korjaus: `strickabkuerzungen.astro` näkyvä englanninkielinen fraasi `stitch definitions` muutettiin saksankieliseksi muodoksi `Technikerklärungen`
+  - englannin- ja suomenkielisten jäämien täsmähaku näistä kahdesta saksan sivusta: OK; englanninkieliset osumat olivat odotettuja sisäisiä haku-/scriptiarvoja tai lyhenteitä, ja ainoa näkyvä jäämä korjattiin
+  - `npx prettier --check .\src\pages\de\werkzeuge\strickabkuerzungen.astro .\src\pages\de\werkzeuge\groessentabellen-stricken.astro .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `git diff --check -- .\src\pages\de\werkzeuge\strickabkuerzungen.astro .\src\pages\de\werkzeuge\groessentabellen-stricken.astro .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+- Saksan tools build-/dist-varmistus:
+  - `npm run build`: OK, 411 sivua rakennettu
+  - `dist/de/werkzeuge/` sisältää indexin ja kaikki 6 saksan työkalusivua: OK, 7/7 HTML-tiedostoa löytyi
+  - build-outputin täsmähaku käsitellyille jäämille `4 in` ja `stitch definitions`: OK, ei osumia saksan tools-HTML:ssä
+  - build-output vahvisti korjatut näkyvät muodot `4 Zoll` ja `Technikerklärungen`
+  - build-output paljasti vielä jaetun komponentin saksankielisessä labelissa näkyvän `4 in` -jäämän; korjaus tehtiin tiedostoon `src/components/CastOnCalculator.astro`, vain `de`-tekstille: `Maschenprobe (Maschen pro 10 cm / 4 Zoll)`
+  - `npx prettier --check .\src\components\CastOnCalculator.astro .\src\pages\de\werkzeuge\maschenanschlag-rechner.astro .\src\pages\de\werkzeuge\strickabkuerzungen.astro .\src\pages\de\werkzeuge\groessentabellen-stricken.astro .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `git diff --check -- .\src\components\CastOnCalculator.astro .\src\pages\de\werkzeuge\maschenanschlag-rechner.astro .\src\pages\de\werkzeuge\strickabkuerzungen.astro .\src\pages\de\werkzeuge\groessentabellen-stricken.astro .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 1:
+  - `npx prettier --check .\src\content\articles\de\gleichzeitig-in-strickanleitungen.md .\src\content\articles\de\die-besten-strick-apps-worauf-es-ankommt.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `git diff --check`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän app-artikkelista: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 2:
+  - `npx prettier --check .\src\content\articles\de\das-beste-garn-fuer-den-einstieg-ins-stricken.md .\src\content\articles\de\rundstricknadel-gerade-nadeln-oder-nadelspiel.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, vain merkkijono-osumat sanojen sisällä (`straight`, `Größenmarkierungen`)
+  - `git diff --check`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 3:
+  - `npx prettier --check .\src\content\articles\de\digitaler-oder-mechanischer-reihenzaehler.md .\src\content\articles\de\strickzubehoer-ausser-nadeln-und-garn.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, vain merkkijono-osumat sanojen sisällä kuten `Maschenmarkierer`
+  - `git diff --check`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 4:
+  - `npx prettier --check .\src\content\articles\de\fallengelassene-maschen-retten-ohne-aufzuribbeln.md .\src\content\articles\de\kostenlose-strickrechner.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK; kirjainkoon huomiotta jättävä haku löysi vain merkkijono-osumia sanojen sisällä kuten `Maschenmarkierer` ja `Mohair`, kirjainkoon huomioiva täsmähaku ei löytänyt claim-osumia
+  - `git diff --check`: OK whitespace-korjauksen jälkeen
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 5:
+  - `npx prettier --check .\src\content\articles\de\wenn-die-maschenprobe-nicht-zur-anleitung-passt.md .\src\content\articles\de\maschenprobe-stricken-schritt-fuer-schritt.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, `automatisch`-riskisana poistettiin tavallisestakin lauseesta yksiselitteisyyden vuoksi
+  - `git diff --check`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 6:
+  - `npx prettier --check .\src\content\articles\de\wie-viele-maschen-anschlagen.md .\src\content\articles\de\wie-viel-garn-brauche-ich.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 7:
+  - `npx prettier --check .\src\content\articles\de\strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche.md .\src\content\articles\de\muetze-stricken-methoden-fuer-jedes-niveau.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check`: OK whitespace-korjauksen jälkeen
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 8:
+  - `npx prettier --check .\src\content\articles\de\socken-stricken-aufbau-einer-sockenanleitung.md .\src\content\articles\de\maschenprobe-messen.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check`: OK whitespace-korjauksen jälkeen
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 9:
+  - `npx prettier --check .\src\content\articles\de\strickanleitung-lesen.md .\src\content\articles\de\garnbanderole-lesen.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, `automatisch`-tavallisen sanan osumat poistettu yksiselitteisyyden vuoksi
+  - `git diff --check`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 10:
+  - `npx prettier --check .\src\content\articles\de\garn-in-einer-strickanleitung-ersetzen.md .\src\content\articles\de\unbekanntes-garn-ohne-banderole-bestimmen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check -- .\src\content\articles\de\garn-in-einer-strickanleitung-ersetzen.md .\src\content\articles\de\unbekanntes-garn-ohne-banderole-bestimmen.md`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 11:
+  - `npx prettier --check .\src\content\articles\de\zunahmen-und-abnahmen-gleichmaessig-verteilen.md .\src\content\articles\de\ein-neues-knaeuel-mitten-in-der-reihe-ansetzen.md`: OK Prettier-kirjoituksen jälkeen
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - suomenkielisten jäämien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check -- .\src\content\articles\de\zunahmen-und-abnahmen-gleichmaessig-verteilen.md .\src\content\articles\de\ein-neues-knaeuel-mitten-in-der-reihe-ansetzen.md`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 12:
+  - `npx prettier --check .\src\content\articles\de\den-ersten-schal-stricken.md .\src\content\articles\de\stricknadeln-metall-holz-bambus.md`: OK Prettier-kirjoituksen jälkeen
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - suomenkielisten jäämien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check -- .\src\content\articles\de\den-ersten-schal-stricken.md .\src\content\articles\de\stricknadeln-metall-holz-bambus.md`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 13:
+  - `npx prettier --check .\src\content\articles\de\rapporte-in-strickanleitungen-sterne-und-klammern.md .\src\content\articles\de\groessen-in-strickanleitungen-mehrweite-und-masse.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - suomenkielisten jäämien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check -- .\src\content\articles\de\rapporte-in-strickanleitungen-sterne-und-klammern.md .\src\content\articles\de\groessen-in-strickanleitungen-mehrweite-und-masse.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 14:
+  - `npx prettier --check .\src\content\articles\de\welche-nadelstaerke-fuer-den-einstieg.md .\src\content\articles\de\mehrere-strickprojekte-organisieren.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - suomenkielisten jäämien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check -- .\src\content\articles\de\welche-nadelstaerke-fuer-den-einstieg.md .\src\content\articles\de\mehrere-strickprojekte-organisieren.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 15:
+  - `npx prettier --check .\src\content\articles\de\maschen-an-einer-strickkante-aufnehmen.md .\src\content\articles\de\strickteile-zusammennaehen-matratzenstich.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - suomenkielisten jäämien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check -- .\src\content\articles\de\maschen-an-einer-strickkante-aufnehmen.md .\src\content\articles\de\strickteile-zusammennaehen-matratzenstich.md .\monikielinen-lokalisointi-eteneminen.md`: OK whitespace-korjauksen jälkeen
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 16:
+  - `npx prettier --check .\src\content\articles\de\strickzeit-und-tempo-verfolgen.md .\src\content\articles\de\reihen-beim-stricken-zaehlen.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - suomenkielisten jäämien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check -- .\src\content\articles\de\strickzeit-und-tempo-verfolgen.md .\src\content\articles\de\reihen-beim-stricken-zaehlen.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 17:
+  - `npx prettier --check .\src\content\articles\de\was-sagt-die-maschenprobe-beim-stricken-aus.md .\src\content\articles\de\warum-rollt-sich-mein-strickstueck-ein.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - suomenkielisten jäämien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check -- .\src\content\articles\de\was-sagt-die-maschenprobe-beim-stricken-aus.md .\src\content\articles\de\warum-rollt-sich-mein-strickstueck-ein.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 18:
+  - `npx prettier --check .\src\content\articles\de\garnfasern-im-vergleich.md .\src\content\articles\de\wie-viel-garn-fuer-eine-decke.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - suomenkielisten jäämien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check -- .\src\content\articles\de\garnfasern-im-vergleich.md .\src\content\articles\de\wie-viel-garn-fuer-eine-decke.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Erä 19:
+  - `npx prettier --check .\src\content\articles\de\wie-viel-garn-fuer-einen-pullover.md .\src\content\articles\de\garnstaerke-ersetzen.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - vanhojen `KI`/`OCR`/`Scanner`/`voice`/`parser`/`project summary` -claimien täsmähaku erän artikkeleista: OK, ei osumia
+  - suomenkielisten jäämien täsmähaku erän artikkeleista: OK, ei osumia
+  - `git diff --check -- .\src\content\articles\de\wie-viel-garn-fuer-einen-pullover.md .\src\content\articles\de\garnstaerke-ersetzen.md .\monikielinen-lokalisointi-eteneminen.md`: OK
+  - `npm run check`: OK, 0 errors / 0 warnings / 20 ennestään projektissa olevia Astro inline-script hinttejä
+  - `npm run build`: OK, 411 sivua rakennettu
+- Ruotsin aloitusinventaario:
+  - luettu alkuperäinen suunnitelma `knittools-monikielinen-sisältöpariteetti-ja-julkaisuvalmius.md` ja etenemisloki
+  - artikkelimäärät: EN root 38, FI 38, DE 38, SV 38
+  - `src/content/articles/sv/`: 38 tiedostoa, 38 `translationKey`-avainta, 0 `draft: true`, 38 `draft: false`
+  - ruotsin `translationKey`-pariteetti englannin root-artikkeleihin: OK, 38/38; ei puuttuvia tai ylimääräisiä avaimia
+  - `src/i18n/articles.ts`: OK, 38 ruotsinkielistä `/sv/artiklar/`-polkua
+  - ruotsin käännöskartan slugit suhteessa `src/content/articles/sv/`-tiedostonimiin: OK, 38/38; ei karttapolkua ilman tiedostoa eikä tiedostoa ilman karttapolkua
+  - ruotsin artikkelireittisivut ovat olemassa: `src/pages/sv/artiklar/index.astro`, `src/pages/sv/artiklar/kategori/[slug].astro`, `src/pages/sv/artiklar/[...slug].astro`
+  - `src/i18n/routes.ts`: OK, 13 ruotsin reittiä löytyi: artikkelilista, 5 kategoriapolkua, tools-index ja 6 tools-polkua
+  - `src/pages/sv/verktyg/`: OK, index ja kaikki 6 tools-sivua löytyivät: `upplaggningskalkylator.astro`, `garnatgangskalkylator.astro`, `stickstorlekar.astro`, `garntjocklekar.astro`, `stickforkortningar.astro`, `storlekstabeller-stickning.astro`
+  - seuraavan ruotsivaiheen lähdedokumentit löytyvät: `SWEDISH_TRANSLATION_GUIDE.md`, `englanti-tarkistus3.md`, `suomi-artikkelien-paivityssuunnitelma.md`
+  - ruotsin inventaariossa ei tehty sisältömuutoksia
+- Ruotsin tutkimusbrief:
+  - luettu `SWEDISH_TRANSLATION_GUIDE.md`
+  - termilinja lukittu: `gauge` -> `stickfasthet`; `gauge swatch` -> `stickprov` tai `provlapp`; `cast on` -> `lägga upp maskor`; `bind off` -> `maska av`; `yarn weight` -> `garntjocklek` tai `garnets tjocklek`; `needle size` -> `stickstorlek` tai `stickor i X mm`; `yardage` -> `garnåtgång` projektin määrässä ja `löplängd` banderollin pituustiedossa; `WPI` -> `WPI` selitettynä lindningar per tum; `row counter` -> `varvräknare`; `stitch marker` -> `markör` tai `maskmarkör`; `circular needle` -> `rundsticka`; `DPNs` -> `strumpstickor`; `blocking` -> `blockning` tai `blocka`; `ease` -> `rörelsevidd`; `dye lot` -> `färgbad`; `skein`/`ball` -> `nystan`; `hank` -> `härva`
+  - vältettävät termit: `garnvikt` ei ole `yarn weight` -päätermi, koska se voi tarkoittaa grammapainoa; `masktäthet` vain selittäväksi sivutermiksi, ei UI- tai päätermiksi
+  - ruotsin tyylilinja: luonnollinen ruotsalainen neulekieli, metriyksiköt ensisijaisina, ei sanasanaista englannin rakennetta eikä uutta markkinointi-/AI-filleriä
+  - app-claim-riskigreppi ruotsille: englanninkieliset `AI`, `OCR`, `scanner`, `camera`, `voice`, `parser`, `project summary`, `automatic pattern`; ruotsinkieliset `skanner`, `skanning`, `kamera`, `mobilkamera`, `röst`, `röstkommandon`, `röststyrd`, `tolkare`, `mönstertolkare`, `instruktionstolkare`, `projektsammanfattning`, `projektsammanfattningar`, `automatiskt`, `mönsterigenkänning`, `garnbanderollskanner`
+  - riskigreppien nykyosumat kirjattu jatkotyötä varten: `AI` 24, `OCR` 0, `scanner` 1, `skanner` 4, `kamera` 3, `röst` 35, `voice` 0, `parser` 0, `tolk` 3, `projektsammanfatt` 2, `automatisk` 7, `mönsterigenk` 0, `garnbanderollskanner` 3, `skanning` 5; osa osumista on neutraaleja ja arvioidaan artikkelikohtaisesti
+  - selkeät vanhan app-claim-riskin tiedostot nykyisessä ruotsissa: `basta-stickappar-vad-du-ska-titta-efter.md`, `digital-eller-mekanisk-varvraknare.md`, `gratis-stickkalkylatorer.md`, `halla-koll-pa-varv-nar-du-stickar.md`, `identifiera-okant-garn-utan-banderoll.md`, `lasa-garnbanderoll-symboler.md`, `organisera-flera-stickprojekt.md`
+  - nykyiset faktalähteet tarkistettu webistä: Craft Yarn Council yarn weight system, WPI, hooks and needles sekä knitting abbreviations
+  - CYC-huomio ruotsia varten: Standard Yarn Weight System -sivu mainitsee nyt päivitetyn järjestelmän, jossa mukana on Size 8 sekä Blocking/Plus-symbolit; älä kirjoita `0-7` pysyvänä totuutena tarkistamatta EN/FI-lähdettä ja CYC:n nykytilaa kyseisessä erässä
+  - WPI-huomio: CYC:n WPI-taulukko kattaa edelleen näkyvästi luokat 0-7; älä keksi Size 8 -WPI-väliä, jos lähde ei anna sitä
+  - puikkokokohuomio: CYC suosittaa luottamaan millimetrikokoon ja tarkistamaan stickfastheten/stickprovet, koska kirjain- ja numerokoot vaihtelevat valmistajittain
+  - lyhennehuomio: CYC:n knitting abbreviations -lista on U.S.-pohjainen ja erikoislyhenteet voivat olla ohjekohtaisia; ruotsin lyhennesivulla pitää säilyttää sekä ruotsalainen selitys että englanninkielisen ohjeen tulkinta
+  - ruotsin tutkimusbriefissä ei tehty sisältömuutoksia
+- Ruotsin artikkelierä 1:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/samtidigt-i-stickmonster.md` ja `src/content/articles/sv/basta-stickappar-vad-du-ska-titta-efter.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `at-the-same-time-knitting` ja `best-knitting-apps`
+  - `samtidigt-i-stickmonster.md`: lisätty nykyistä EN/FI-sisältöä vastaavat puuttuneet osiot kahden päällekkäisen intervallin taulukosta, vähennysten symmetriasta, avigsidan-varveista, nappirei'istä, muiden neulojien muistiinpanojen tarkistamisesta ja nopeasta yhdistetystä varviplanista
+  - `basta-stickappar-vad-du-ska-titta-efter.md`: laajennettu nykyisen EN/FI-linjan mukaiset appien arviointiosiot varvräknare-, kalkylatorer-, garnhantering-, offline-, phone/tablet-, pricing-, privacy-, platform- ja FAQ-sisällöillä
+  - `basta-stickappar-vad-du-ska-titta-efter.md`: poistettu vanhat julkaisemattomiin appiominaisuuksiin viittaavat väitteet, kuten banderollskanner, kameraskanning, AI-tolkare, röstkommandon, AI-funktioner, projektsammanfattningar ja garnskanning; KnitTools-kuvaus rajattu suunniteltuun Android-työkalupakkiin, kertamaksuun, ei mainoksia / ei tilausta -linjaan sekä varvräknare-, projekt-, PDF-, kalkylator- ja referenssisisältöihin
+  - slugit, `translationKey`-avaimet ja `draft: false` säilytetty; `best-knitting-apps` sai uuden ruotsinkielisen `description`-tekstin
+  - eräkohtainen app-claim-riskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `AI|OCR|scanner|skanner|kamera|röst|voice|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning`
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 2:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/basta-garnet-for-nyborjare-praktisk-guide.md` ja `src/content/articles/sv/rundsticka-raka-stickor-strumpstickor.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `best-yarn-for-beginners` ja `circular-vs-straight-vs-dpn`
+  - `basta-garnet-for-nyborjare-praktisk-guide.md`: täydennetty EN/FI-pariteettiin introa, kuituosioita, tonaalisten lankojen mainintaa, värjäyserähuomiota, banderollin lukemista, härva/nysta-kohtaa sekä kaksi puuttunutta FAQ-kysymystä; poistettu vanhat hintanumeroarviot, joita EN/FI ei enää käytä
+  - `rundsticka-raka-stickor-strumpstickor.md`: laajennettu lyhyestä tiivistelmästä EN/FI-rakennetta vastaavaksi: lisätty överblick-taulukko, kabellängd, kabelkvalitet, magic loop, kaksi rundstickaa, stegar-korjaus, strumpstickans längd och antal, 23 cm rundstickor, ergonomiska former ja täysi FAQ
+  - slugit, `translationKey`-avaimet, `draft: false` ja frontmatter säilytetty
+  - termit tarkistettu ruotsin linjaan: `garntjocklek`, `stickstorlek`, `rundsticka`, `strumpstickor`, `löplängd`, `stickfasthet`, `stickprov`/`provlapp`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - täsmennetty eräkohtainen riskigreppi kahdelle tiedostolle: 0 osumaa hakulistoilla `\bAI\b|OCR|voice` ja `scanner|skanner|kamera|röst|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet`
+  - merkkimääräpariteetti erän jälkeen: `basta-garnet...` 10 591 merkkiä (EN 10 470, FI 10 318), `rundsticka...` 14 136 merkkiä (EN 14 090, FI 8 632)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` ei ajettu, koska frontmatter, linkit ja reittikartta eivät muuttuneet
+- Ruotsin artikkelierä 3:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/digital-eller-mekanisk-varvraknare.md` ja `src/content/articles/sv/viktiga-stickverktyg-utover-stickor-och-garn.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `digital-vs-physical-row-counters` ja `essential-knitting-tools`
+  - `digital-eller-mekanisk-varvraknare.md`: poistettu vanhat julkaisemattomiin appiominaisuuksiin viittaavat riskiväitteet kuten röstkommandon, AI-funktioner, skanning ja projektsammanfattningar; laajennettu EN/FI-pariteettiin fyysisten varvräknare-vaihtoehtojen, appien undo-/påminnelse-/historik-sisältöjen, yhdistelmämenetelmän sekä LED-fingerräknare-FAQ:n osalta
+  - `viktiga-stickverktyg-utover-stickor-och-garn.md`: laajennettu EN/FI-pariteettiin stoppnål-, sax-, markör-, måttband-, varvräknare-, stickmätare-, flätsticka-, blockning-, nystvinda-, projektpåse-, maskhållare- ja spetsstoppare-osiot; lisätty `Utbytbara rundsticksset` sekä organisointi-FAQ
+  - poistettu vanhat volatile-hinta- ja tarkat starter-kit-kokoväitteet, joita EN/FI ei enää käytä
+  - slugit, `translationKey`-avaimet, `draft: false` ja frontmatter säilytetty
+  - termit tarkistettu ruotsin linjaan: `varvräknare`, `maskmarkör`, `måttband`, `stoppnål`, `sax`, `stickmått`/`stickmätare`, `stickfasthet`, `stickprov`, `rundsticka`, `strumpstickor`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - täsmennetty eräkohtainen riskigreppi kahdelle tiedostolle: 0 osumaa hakulistoilla `\bAI\b|OCR|voice`, `scanner|skanner|kamera|röst|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet` ja `sorm|röststyr|röstkommand|AI-funktion|projektsammanfatt|skanning|några euro|[0-9]+ euro|Under 20|15 euro|25-60|5 mm`
+  - merkkimääräpariteetti erän jälkeen: `digital-eller...` 8 212 merkkiä (EN 8 270, FI 8 665), `viktiga-stickverktyg...` 10 414 merkkiä (EN 10 479, FI 10 778)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK whitespace-korjauksen jälkeen, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 4:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/fixa-tappade-maskor-utan-att-repa-upp.md` ja `src/content/articles/sv/gratis-stickkalkylatorer.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `fix-dropped-stitches` ja `free-knitting-calculators`
+  - `fixa-tappade-maskor-utan-att-repa-upp.md`: lisätty EN/FI-pariteettiin puuttuneet osiot `Första steget: stoppa maskan`, `Livlina som förebyggande hjälp`, `Fixa en vriden maska tio varv senare`, `Mohair och andra garn som hakar i` sekä kaksi puuttunutta FAQ-kysymystä; poistettu aiheeseen kuulumaton KnitTools-varvräknare-lause
+  - `gratis-stickkalkylatorer.md`: laajennettu EN/FI-pariteettiin uppläggning-esimerkki, garnåtgång-marginaali ja löplängd-selitys, formningsvarv-ansakuvaus, `Anpassa ett mönster till din storlek`, referensverktyöjen kaikki neljä linkkiä sekä puuttuva lanka-arvio-FAQ
+  - `gratis-stickkalkylatorer.md`: poistettu vanhat julkaisemattomiin appiominaisuuksiin viittaavat claimit kuten AI-skanning, samtalande röst ja referensmaterial utan uppkoppling; KnitTools-kuvaus rajattu varvräkning-, projekthantering-, kalkylatorer- ja referenssisältöihin
+  - slugit, `translationKey`-avaimet, `draft: false` ja frontmatter säilytetty
+  - termit tarkistettu ruotsin linjaan: `tappad maska`, `virknål`, `räta maskor`, `aviga maskor`, `livlina`, `stickfasthet`, `stickprov`, `maskor`, `varv`, `garnåtgång`, `kalkylator`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Council yarn weight system / standards PDF sekä Yarnspirationsin ja KnitPron dropped-stitch-ohjeet
+  - täsmennetty eräkohtainen app-riskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|röst|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|uppkoppling|samtalande|varvräknare`
+  - merkkimääräpariteetti erän jälkeen: `fixa-tappade...` 9 961 merkkiä (EN 10 076, FI 10 140), `gratis-stickkalkylatorer...` 9 577 merkkiä (EN 9 937, FI 9 570)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 5:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/nar-stickfastheten-inte-stammer.md` ja `src/content/articles/sv/sticka-provlapp-steg-for-steg.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `gauge-doesnt-match` ja `gauge-swatch-step-by-step`
+  - `nar-stickfastheten-inte-stammer.md`: laajennettu EN/FI-pariteettiin lisäämällä mittauksen kahden kohdan keskiarvo, blockad/oblockad stickfasthet, pyörönä ja tasona neulotun tiheyden ero, handlag/stickfasthet-glidning, "när du ska ge upp mönstret" sekä puuttuva FAQ maskamäärän muuttamisesta; poistettu vanha `KnitTools-appen`-muunnosväite rivitiheyden kohdasta
+  - `sticka-provlapp-steg-for-steg.md`: laajennettu EN/FI-pariteettiin lisäämällä muistiinpano-ohje, mönsterstickning/slätstickning-rajaus, uppläggningsmetodin huomio, rätstickad kant, löysä avmaskning, tarkempi tvätt/blockning-ohje, kahden mittauskohdan keskiarvo, stickstorlek-hypyn ohje, garnbyte-rajaus, rundstickad provlapp -oikotie, provlappujen säilytys/uudelleenkäyttö ja neljäs FAQ
+  - slugit, `translationKey`-avaimet, `draft: false` ja julkiset ruotsipolut säilytetty; frontmatterissa korjattu `maskor per cm` -> `maskor per 10 cm`
+  - termit tarkistettu ruotsin linjaan: `stickfasthet`, `provlapp`, `maskor`, `varv`, `10 cm`, `stickstorlek`, `blockning`, `rätstickad`, `slätstickning`, `garntjocklek`, `garnåtgång` ja `löplängd`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Councilin yarn weight / gauge -taulukko, Vogue Knittingin gauge-ohje, Purl Sohon gauge/provlappuohje ja Knitting & Crochet Guildin 10 cm tension square -ohje
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|röst|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi`
+  - merkkimääräpariteetti erän jälkeen: `nar-stickfastheten...` 12 197 merkkiä (EN 11 993, FI 9 991), `sticka-provlapp...` 9 880 merkkiä (EN 9 581, FI 9 351)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 6:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/hur-manga-maskor-ska-laggas-upp.md` ja `src/content/articles/sv/hur-mycket-garn-behover-jag.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `how-many-stitches-to-cast-on` ja `how-much-yarn-do-i-need`
+  - `hur-manga-maskor-ska-laggas-upp.md`: laajennettu EN/FI-pariteettiin lisäämällä räkneexempel, malliraporttien yleiset muodot, kedjekant-huomio, rundstickning- ja vriden uppläggning -ohjeet, sockantal-starttipisteet, laaja uppläggningsmetodit-vertailu, uppläggningsspänning, laajennetut standardiprojektien plausibiliteettimäärät, uppifrån/nerifrån sweater -esimerkki sekä puuttuvat FAQ-kysymykset long-tail-svansista, cable cast-on -rajoituksesta ja "lägg upp löst" -ohjeesta
+  - `hur-mycket-garn-behover-jag.md`: korjattu DK-puseron metrinen mittakaava EN/FI:n mukaiseksi `cirka 1 350 m eller mer`, täsmennetty `löplängd`-kohtaa ja pehmennetty "synska"-ilmaus neutraalimmaksi
+  - slugit, `translationKey`-avaimet, `draft: false` ja julkiset ruotsipolut säilytetty
+  - termit tarkistettu ruotsin linjaan: `lägga upp maskor`, `uppläggning`, `stickfasthet`, `maskor`, `varv`, `10 cm`, `stickstorlek`, `garnåtgång`, `löplängd`, `garntjocklek`, `nystan`, `banderoll`, `rörelsevidd`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Councilin Standard Yarn Weight System ja Yarn Label Information sekä Lion Brandin yarn estimator -taulukko; CYC:n Medium/worsted-väli kirjattiin varovaisesti ohjeelliseksi `16-20 maskor per 10 cm`
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|\bröst\b|\bröstkommandon\b|\bröststyrd\b|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|yards|inch|inches|skein|skeins`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|lankaa|kerä|paita|huivi|peitto`
+  - merkkimääräpariteetti erän jälkeen: `hur-manga-maskor...` 13 788 merkkiä (EN 13 658, FI 8 653), `hur-mycket-garn...` 10 726 merkkiä (EN 11 077, FI 10 311)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 7:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/blocka-stickning-vat-anga-spray.md` ja `src/content/articles/sv/sticka-mossa-metoder-for-alla-nivaer.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `how-to-block-knitting` ja `how-to-knit-hat`
+  - `blocka-stickning-vat-anga-spray.md`: laajennettu EN/FI-pariteettiin lisäämällä färgblödning-osio, akryylin tarkoituksellinen höyryttäminen, pitsin blockning, tröjdelien blockning, kuivumisaika kuidun mukaan, blockningin jälkeinen säilytys sekä kaksi puuttuvaa FAQ-kysymystä väärän kokoisen villapaidan blockningista ja villapaidan kasvamisesta blockningissa
+  - `sticka-mossa-metoder-for-alla-nivaer.md`: laajennettu EN/FI-pariteettiin lisäämällä top-down-menetelmä, kierroksen vaihtumiskohdan/randhackin huomio, tasona neulotun pipon purling-aikahuomio, CYC-päänympärysmitat aikuisille ja lapsille, tarkempi toppformning-osio, resårval-vertailu, garnåtgång-arvio sekä vuoritetun pipon FAQ
+  - poistettu vanhat liian lyhyet tai liian täsmälliset väitteet kuten ruotsin vanha yleinen aikuispipon valmis mittataulukko ja `masktäthet` pääterminä; korvattu `stickfasthet`-linjalla ja CYC:n päänympärysmittoihin nojaavalla sanamuodolla
+  - slugit, `translationKey`-avaimet, `draft: false` ja julkiset ruotsipolut säilytetty
+  - termit tarkistettu ruotsin linjaan: `blockning`, `blocka`, `våtblockning`, `ångblockning`, `sprayblockning`, `stickfasthet`, `maskor`, `varv`, `rundsticka`, `strumpstickor`, `mössa`, `mudd`, `minskning`, `markör`, `rörelsevidd`, `garntjocklek`, `garnåtgång` ja `nystan`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Councilin Head Circumference Chart, Craft Yarn Councilin Standard Yarn Weight System sekä Interweaven wet-blocking / spray-blocking / immersion-blocking -ohje
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|\bröst\b|\bröstkommandon\b|\bröststyrd\b|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|yards|inch|inches|skein|skeins|\bkilling\b|\bkill\b`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|pipo|paita|kavennus|joustin|villa|akryyli`
+  - merkkimääräpariteetti erän jälkeen: `blocka-stickning...` 13 446 merkkiä (EN 13 422, FI 13 889), `sticka-mossa...` 10 935 merkkiä (EN 10 500, FI 11 497)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 8:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/sticka-sockor-sockmonstrets-delar.md` ja `src/content/articles/sv/sa-mater-du-stickfasthet.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `how-to-knit-socks` ja `how-to-measure-knitting-gauge`
+  - `sticka-sockor-sockmonstrets-delar.md`: laajennettu EN/FI-pariteettiin lisäämällä täysi sockans delar -rakenne, uppifrån och ner / tå upp -vertailu, hällapp och kil, kortvarvshäl, afterthought heel, handfärgade ja självstripande garner, strumpstickor / magic loop / två rundstickor -vertailu, uusi `Storlek och passform` -osio sekä toisen sukan ja langan loppumisen FAQ-sisällöt
+  - `sa-mater-du-stickfasthet.md`: pidetty rakenne lähes ennallaan, mutta korjattu mittakaavatermit ruotsin linjaan: `halv maska per cm` -> `två maskor per 10 cm`, `för många/få maskor per cm` -> `per 10 cm`, ja `masktäthet`-päätermi korvattu `maskantalet per 10 cm` / `stickfasthet` -linjalla
+  - slugit, `translationKey`-avaimet, `draft: false` ja julkiset ruotsipolut säilytetty
+  - termit tarkistettu ruotsin linjaan: `sockor`, `mudd`, `skaft`, `hällapp`, `hälvändning`, `kil`, `fot`, `tå`, `strumpstickor`, `rundsticka`, `magic loop`, `stickfasthet`, `provlapp`, `maskor`, `varv`, `10 cm`, `stickstorlek`, `blockning`, `garnåtgång`, `löplängd`, `nystan` ja `rörelsevidd`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Councilin Foot Size Chart sekä CYC Standards & Guidelines / Standard Yarn Weight -PDF
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|\bröst\b|\bröstkommandon\b|\bröststyrd\b|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|yards|inch|inches|skein|skeins`; tavallinen `automatiskt`-sana poistettiin itsejuovittuvan langan lauseesta, jotta haku pysyy yksiselitteisenä
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|sukka|kantapää|kiila|jalkaterä|kärki|resori`
+  - merkkimääräpariteetti erän jälkeen: `sticka-sockor...` 13 329 merkkiä (EN 13 113, FI 8 430), `sa-mater-du-stickfasthet...` 10 092 merkkiä (EN 10 305, FI 9 790)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 9:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/lasa-stickmonster-nyborjarguide.md` ja `src/content/articles/sv/lasa-garnbanderoll-symboler.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `how-to-read-knitting-pattern` ja `how-to-read-yarn-label`
+  - `lasa-stickmonster-nyborjarguide.md`: laajennettu EN/FI-pariteettiin lisäämällä puuttuneet osiot `Vad svårighetsgrad egentligen betyder`, `Notes-avsnittet`, `Spegelvänd formning`, `PDF eller papper` sekä FAQ-kysymykset puuttuvasta lyhenneluettelosta ja ilmaisten ohjeiden luotettavuudesta; täydennetty myös specialmaskor-, diagramsymboler- ja japanska symbolmönster -sisällöt
+  - `lasa-garnbanderoll-symboler.md`: korjattu CYC-lankavahvuuskohta nykyiseen Size 8 -päivityslinjaan, täsmennetty superwash-villan hoitoväite, muutettu 4 inches / yards -kohdat ruotsalaisempaan `4 tum` / metri-ensisijaiseen sanamuotoon ja poistettu vanha julkaisematon `garnbanderollskanner`/mobilkamera-claimi
+  - slugit, `translationKey`-avaimet, `draft: false` ja julkiset ruotsipolut säilytetty
+  - termit tarkistettu ruotsin linjaan: `stickmönster`, `rapport`, `rätsida`, `avigsida`, `maskor`, `varv`, `upprepa`, `storlek`, `garnbanderoll`, `färgbad`, `färgnummer`, `löplängd`, `garntjocklek`, `stickfasthet`, `stickstorlek`, `skötselråd`, `nystan`, `rörelsevidd`, `markör` ja `strumpstickor`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Councilin How to Read a Knitting Pattern, Knitting Abbreviations, Knit Chart Symbols, Yarn Label Information, Care Symbols, Standard Yarn Weight System ja Standard Body Measurements/Sizing
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|mobilkamera|\bröst\b|\bröstkommandon\b|\bröststyrd\b|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|\byard\b|yards|inch|inches|skein|skeins`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|värjäyserä|lankavahvuus|hoitosymboli|kuitu|mallineule|nurja|oikea puoli|kaavio|paperi`
+  - knit-article-validatorin englanninkielisten banned-termien täsmähaku kahdelle tiedostolle: 0 osumaa
+  - merkkimääräpariteetti erän jälkeen: `lasa-stickmonster...` 15 138 merkkiä (EN 13 924, FI 14 657), `lasa-garnbanderoll...` 8 835 merkkiä (EN 8 851, FI 8 763)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 10:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/byta-garn-i-stickmonster.md` ja `src/content/articles/sv/identifiera-okant-garn-utan-banderoll.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `how-to-substitute-yarn` ja `identify-mystery-yarn`
+  - `byta-garn-i-stickmonster.md`: nykyinen rakenne oli jo lähellä EN/FI-pariteettia; korjattu riskitasoesimerkin mittakaava `en halv maska fel per cm` -> `ungefär två maskor fel per 10 cm`, jotta ruotsin mittakaava vastaa EN/FI-sisältöä ilman per cm -ylikorostusta
+  - `identifiera-okant-garn-utan-banderoll.md`: täsmennetty WPI selvästi `lindningar per tum (cirka 2,5 cm)`, muutettu WPI-listan `varv`-sanat `lindningar`-muotoon, lisätty CYC:n nykyiseen Size 8 -päivitykseen nojaava huomio siitä, että monet mallit, banderollit ja WPI-listat käyttävät edelleen 0-7-kategorioita, ja vahvistettu brännprov-turvallisuustekstiä EN/FI-linjan mukaan
+  - `identifiera-okant-garn-utan-banderoll.md`: poistettu vanha julkaisematon `KnitTools garnbanderollskanner` -claimi ja korvattu se manuaalisella `garnkort`-muistiinpanolla; samalla poistui juureen osoittanut aiheeton `/`-linkki
+  - slugit, `translationKey`-avaimet, `draft: false` ja frontmatter säilytetty
+  - termit tarkistettu ruotsin linjaan: `byta garn`, `garntjocklek`, `stickfasthet`, `provlapp`, `löplängd`, `fiber`, `nystan`, `garnbanderoll`, `färgbad`, `WPI`, `lindningar per tum`, `okänt garn`, `brännprov`, `superwash` ja `ersättning`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Councilin Standard Yarn Weight System, CYC Standards & Guidelines / WPI-ohje sekä Canadian Conservation Instituten kuitutunnistus- ja brännprov-ohje
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|mobilkamera|\bröst\b|\bröstkommandon\b|\bröststyrd\b|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|\byard\b|yards|inch|inches|skein|skeins`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|langankorva|tuntematon|kuitu|palotesti|metri|kerä|värjäyserä`
+  - knit-article-validatorin englanninkielisten banned-termien täsmähaku kahdelle tiedostolle: 0 osumaa
+  - merkkimääräpariteetti erän jälkeen: `byta-garn...` 8 670 merkkiä (EN 8 804, FI 8 543), `identifiera-okant...` 6 901 merkkiä (EN 6 394, FI 7 175)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 11:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/oka-eller-minska-jamnt-over-ett-varv.md` ja `src/content/articles/sv/skarva-nytt-nystan-mitt-i-varvet.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `increase-decrease-evenly` ja `join-new-ball-of-yarn`
+  - `oka-eller-minska-jamnt-over-ett-varv.md`: laajennettu EN/FI-pariteettiin lisäämällä yhden rivin kaava, puhtaan lisäyksen esimerkki, jakojäännöksen käsittely, kavennuskaavan soveltaminen, tasaisen sijoittelun tarkoitus, lisäys- ja kavennustapojen valinta, kantamaskat/sömsmån, avigsidan-muotoilu, pyörönä neulominen, symmetrinen/parillinen muotoilu, yleiset intervallit, laskurin käyttötapa ja täysi FAQ
+  - `skarva-nytt-nystan-mitt-i-varvet.md`: laajennettu EN/FI-pariteettiin lisäämällä nopea vertailutaulukko, päällekkäisskarvin ja lankapäiden fästning-ohjeet, Russian join -neula-/säiennäkökulma, filtad skarv -rajaukset, magic knot -varaukset, metodin valinta, ajoitus, handfärgade nystan -vaihtelu, fabriksknutar, langan katkeaminen kesken maskan, muistiinpanot ja täysi FAQ
+  - korjattu editoinnin aikana yksi suomenkielinen jäämäotsikko ruotsiksi (`Fabriksknutar inne i nystanet`), täsmennetty `fördelning som ser jämn ut` -ilmaisu ja korjattu Russian join -verbi `trä igenom` -muotoon
+  - slugit, `translationKey`-avaimet, `draft: false` ja frontmatter säilytetty
+  - termit tarkistettu ruotsin linjaan: `öka`, `minska`, `jämnt`, `varv`, `maskor`, `rapport`, `markör`, `skarva`, `nystan`, `garnände`, `fästa`/`fästning`, `färgbad`, `rätsida`, `avigsida`, `söm`, `stickfasthet`, `2 rm tillsammans`, `ssk`, `Russian join`, `magic knot` ja `filtad skarv`
+  - faktatukea tarkistettu webistä ennen editointia: Interweaven ja Dummiesin tasaisesti jaettujen lisäysten/kavennusten ohjeet sekä Vogue Knittingin, Yarnspirationsin ja Knit Picksin uuden langan liittämisohjeet
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|mobilkamera|\bröst\b|\bröstkommandon\b|\bröststyrd\b|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|\byard\b|yards|inch|inches|skein|skeins`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|lisäys|kavennus|tasaisesti|jakojäännös|kerä|solmu|päättely|värjäyserä`
+  - knit-article-validatorin englanninkielisten banned-termien täsmähaku kahdelle tiedostolle: 0 osumaa
+  - merkkimääräpariteetti erän jälkeen: `oka-eller-minska...` 12 047 merkkiä / 1 964 sanaa (EN 15 281 / 2 587, FI 8 352 / 1 078), `skarva-nytt...` 11 528 merkkiä / 1 893 sanaa (EN 12 000 / 2 037, FI 12 813 / 1 603)
+  - otsikkopariteetti erän jälkeen: `oka-eller-minska...` 15 H2-osiota, `skarva-nytt...` 12 H2-osiota
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` epäonnistui vain rinnakkaisajossa `npm run build` -komennon kanssa Astro `.astro/data-store.json.tmp` rename-kilpailuun, uusinta yksinään OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 12:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/sticka-forsta-halsduken.md` ja `src/content/articles/sv/stickmaterial-metall-tra-bambu.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `knit-first-scarf` ja `knitting-needle-materials`
+  - `sticka-forsta-halsduken.md`: laajennettu EN/FI-pariteettiin lisäämällä puuttunut `Hålla garnet` -osio, sileän ja näkyvän worsted-garnin valintaperustelu, silmukoiden laskenta luomisen jälkeen, tarkempi rätstickning-ohje, `Läs det du har stickat`, splittrigt garn, maskantalet driver iväg, uuden nystanin liittäminen, avmaskningskanten-testi, laajempi blockning-ohje, fransar, `Mellan passen` sekä puuttuneet FAQ-kysymykset katkenneesta langasta, räta/aviga maskor -erosta ja tv-stickningistä
+  - `stickmaterial-metall-tra-bambu.md`: laajennettu EN/FI-pariteettiin lisäämällä `Snabb jämförelse` -taulukko, metallin pintaviimeistelyn ja esimerkkimerkkien erot, puulajien ja ohuen puun murtumisriskin kuvaus, bambun kulumis-/kosteusrajaukset, kolfiber-hybridihuomio, `Spetsens form`, `Skarven i utbytbara rundstickor` sekä puuttuneet FAQ-kysymykset kärkien tylsymisestä, sträv bambu -syystä ja säilytyksestä
+  - poistettu vanha eurohintataso huiviartikkelista EN/FI-linjan mukaisesti; sisäiset ruotsilinkit lisätty pudonneen silmukan ja uuden nystanin oppaisiin
+  - slugit, `translationKey`-avaimet, `draft: false` ja frontmatter säilytetty
+  - termit tarkistettu ruotsin linjaan: `halsduk`, `rätstickning`, `slätstickning`, `mosstickning`, `resår`, `stickstorlek`, `garntjocklek`, `maskor`, `varv`, `blockning`, `metallstickor`, `trästickor`, `bambustickor`, `grepp`, `spets`, `rundsticka`, `strumpstickor`, `stickfasthet`, `garnände`, `färgbad`, `avmaskning`, `2 rm tillsammans` ja `ssk`
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Councilin Standard Yarn Weight System ja Hooks & Needles, Sheep and Stitchin aloittelijan huiviohje, Yarn.comin puikkomateriaali- ja puikkokoko-ohje sekä Interweaven knitting needle guide -PDF
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|mobilkamera|\bröst\b|röstkommandon|röststyrd|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|\byard\b|yards|inch|inches|skein|skeins|dollar|euro|\$`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|huivi|päättely|värjäyserä|metallipuikko|puupuikko|bambupuikko|kärki|sukka`
+  - knit-article-validatorin englanninkielisten banned-termien täsmähaku kahdelle tiedostolle: 0 osumaa tarkennetulla haulla; ruotsin normaali pluralimuoto `garner` jätettiin pois englanninkielisestä banned-term-hausta, koska se ei ole englannin `garner`-verbi vaan ruotsin `garn`-sanan monikko
+  - merkkimääräpariteetti erän jälkeen: `sticka-forsta-halsduken...` 13 166 merkkiä / 2 131 sanaa (EN 12 805 / 2 152, FI 13 613 / 1 705), `stickmaterial-metall-tra-bambu...` 10 445 merkkiä / 1 466 sanaa (EN 10 703 / 1 582, FI 6 630 / 783)
+  - otsikkopariteetti erän jälkeen: `sticka-forsta-halsduken...` 11 H2-osiota, `stickmaterial-metall-tra-bambu...` 10 H2-osiota
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 13:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/rapporter-i-stickmonster-asterisker-och-hakparenteser.md` ja `src/content/articles/sv/storlekar-i-stickmonster-rorelsevidd-och-matt.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `knitting-pattern-repeats` ja `knitting-pattern-sizes-and-fit`
+  - `rapporter-i-stickmonster-asterisker-och-hakparenteser.md`: laajennettu EN/FI-pariteettiin lisäämällä set-up row / as established -rajaukset, flervarvsrapporter-varoitukset, markörer kontrollipisteinä, diagrammens rapportrutor, livlinor, halvförskjutna/flyttade rapporter sekä puuttuvat FAQ-kysymykset; samalla vanhat alaviiva-asteriskiesimerkit korjattiin oikeiksi koodiesimerkeiksi ja vanha juureen osoittanut varvräknare-linkki poistui
+  - `storlekar-i-stickmonster-rorelsevidd-och-matt.md`: laajennettu EN/FI-pariteettiin lisäämällä tarkemmat kroppsmått- ja axel/rygg-mittauskohdat, ärmhålsdjup, pituuserojen vaikutus koon valintaan, eri koko vartalolle ja hihoille, CYC:n rörelsevidd-linjaukset, konstruktion vaikutus passformiin, förkortade varv bystformningissa sekä FAQ-lisäykset
+  - slugit, `translationKey`-avaimet, `draft: false` ja julkiset ruotsipolut säilytetty
+  - termit tarkistettu ruotsin linjaan: `rapport`, `asterisk`, `parentes`, `hakparentes`, `upprepa`, `storlek`, `rörelsevidd`, `bröstvidd`, `plaggmått`, `kroppsmått`, `passform`, `stickfasthet`, `maskor`, `varv`, `rätsida`, `avigsida`, `ökning` ja `minskning`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen ja jälkeen editoinnin: Craft Yarn Councilin How to Read a Knitting Pattern, Craft Yarn Councilin Standards & Guidelines / fit and ease -taulukko sekä Interweaven repeat-merkintöjen ohje
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|mobilkamera|\bröst\b|röstkommandon|röststyrd|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|\byard\b|yards|inch|inches|skein|skeins`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|raportti|toisto|hakasul|sulkeet|koko|istuvuus|mitat|vartalo|paita`
+  - knit-article-validatorin englanninkielisten banned-termien täsmähaku kahdelle tiedostolle: vain ruotsin normaali pluralimuoto `garner`, joka jätettiin false positiveksi eikä ole englannin `garner`-verbi
+  - merkkimääräpariteetti erän jälkeen: `rapporter-i-stickmonster...` 11 205 merkkiä / 1 788 sanaa / 11 H2-osiota (EN 10 787 / 1 849 / 11, FI 11 253 / 1 482 / 11), `storlekar-i-stickmonster...` 12 924 merkkiä / 2 010 sanaa / 13 H2-osiota (EN 13 116 / 2 157 / 13, FI 13 599 / 1 697 / 13)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 14:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/vilken-stickstorlek-for-nyborjare.md` ja `src/content/articles/sv/organisera-flera-stickprojekt.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `needle-size-for-beginners` ja `organize-knitting-projects`
+  - `vilken-stickstorlek-for-nyborjare.md`: laajennettu EN/FI-pariteettiin lisäämällä `Om storlekssystem`, US/metric/old UK -varoitus, `Vad du inte behöver köpa än`, `Bygga upp handlaget` sekä puuttuvat FAQ-kysymykset US 6 / US 10 -aloituskokojen ja tulevan setin merkkivalinnan osalta; samalla poistettiin vanha täsmällinen eurohintaväite ja korjattiin `en halv maska per cm` -> `två maskor per 10 cm`
+  - `organisera-flera-stickprojekt.md`: laajennettu EN/FI-pariteettiin lisäämällä arbetsgarnin sijainti, projektpåsens material, projektin sovittaminen hetkeen, langan punnitseminen ja aktiivisen projektin grammamuistiinpanot; vanha `Yarn Label Scanner` -claimi korvattiin manuaalisella banderoll-/lankamuistiinpanolla ja KnitTools-maininta pehmennettiin rakennetaan-tilaan
+  - slugit, `translationKey`-avaimet, `draft: false` ja julkiset ruotsipolut säilytetty
+  - termit tarkistettu ruotsin linjaan: `stickstorlek`, `stickor`, `rundsticka`, `strumpstickor`, `stickfasthet`, `provlapp`, `garntjocklek`, `maskor`, `varv`, `projekt`, `projektpåse`, `garnände`, `färgbad`, `nystan`, `anteckningar` ja `varvräknare`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Councilin Hooks & Needles, Craft Yarn Councilin Standards & Guidelines / Standard Yarn Weight -taulukko sekä Yarn.comin knitting needle buying guide
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|mobilkamera|\bröst\b|röstkommandon|röststyrd|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|\byard\b|yards|inch|inches|skein|skeins|dollar|euro|\$`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|aloittelija|puikkokoko|järjest|projekti|pussi|kerä|värjäyserä|muistiinpano|laskuri`
+  - knit-article-validatorin englanninkielisten banned-termien täsmähaku kahdelle tiedostolle: 0 osumaa
+  - merkkimääräpariteetti erän jälkeen: `vilken-stickstorlek...` 9 426 merkkiä / 1 443 sanaa / 9 H2-osiota (EN 9 400 / 1 548 / 9, FI 8 145 / 1 022 / 9), `organisera-flera-stickprojekt...` 9 113 merkkiä / 1 452 sanaa / 8 H2-osiota (EN 9 264 / 1 529 / 8, FI 9 082 / 1 087 / 8)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 15:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/plocka-upp-maskor-langs-stickad-kant.md` ja `src/content/articles/sv/sy-ihop-stickade-delar-madrassom.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `pick-up-stitches` ja `seam-knitted-pieces`
+  - `plocka-upp-maskor-langs-stickad-kant.md`: laajennettu EN/FI-pariteettiin lisäämällä lyft kantmaska -reuna, rätstickad kant, eri reunusten poimintasuhteet, diagonala formningskanter, tasainen jako markörer/säkerhetsnålar-avulla, virknål-tekniikka, kontrasttråd-poiminta, steekar sekä laajempi FAQ; samalla säilytettiin 3 maskor på 4 varv -linja slätstickningille ja 1 maska per ås -linja rätstickningille
+  - `sy-ihop-stickade-delar-madrassom.md`: laajennettu EN/FI-pariteettiin lisäämällä sömmetodien vertailutaulukko, avigvänd slätstickning ja strukturerade ytor, puolen silmukan resårsauma, avmaskning med tre stickor, maskstygn / Kitchener stitch, kaststygn, efterstygn, isydda ärmar, raitojen ja flerfärgsstickningin kohdistus, saumalankojen valinta, yleiset virheet ja laajempi FAQ
+  - slugit, `translationKey`-avaimet, `draft: false` ja julkiset ruotsipolut säilytetty
+  - termit tarkistettu ruotsin linjaan: `plocka upp maskor`, `kantmaska`, `rätstickning`, `slätstickning`, `resår`, `virknål`, `kontrasttråd`, `steek`, `madrassöm`, `sy ihop`, `söm`, `sömsmån`, `maskstygn`, `Kitchener stitch`, `rätsida`, `avigsida`, `garnände`, `fästa`, `blockning`, `avmaskning med tre stickor`, `kaststygn` ja `efterstygn`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen editointia: Interweaven Pick Up and Knit Stitches, Maschenfeinin stitch pick-up -ohje, Purl Sohon Picking Up Stitches, Sheep & Stitchin mattress stitch -ohje, Vogue Knittingin Finishing-ohje sekä Nimble Needlesin three-needle bind-off ja Kitchener stitch -ohjeet
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|mobilkamera|\bröst\b|röstkommandon|röststyrd|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|\byard\b|yards|inch|inches|skein|skeins|dollar|euro|\$`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|poimiminen|reunasilmukka|sauma|patjapisto|luotospisto|jälkipisto|päättely|hiha|kädentie|raita|kirjoneule|päättelyneula`
+  - knit-article-validatorin englanninkielisten banned-termien täsmähaku kahdelle tiedostolle: 0 osumaa
+  - merkkimääräpariteetti erän jälkeen: `plocka-upp-maskor...` 12 123 merkkiä / 1 955 sanaa / 12 H2-osiota (EN 11 870 / 1 999 / 12, FI 12 234 / 1 511 / 12), `sy-ihop-stickade-delar...` 14 039 merkkiä / 2 183 sanaa / 11 H2-osiota (EN 13 881 / 2 256 / 11, FI 15 431 / 1 856 / 12)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 16:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/folja-sticktid-och-hastighet.md` ja `src/content/articles/sv/halla-koll-pa-varv-nar-du-stickar.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `track-knitting-time` ja `track-rows-knitting`
+  - `folja-sticktid-och-hastighet.md`: päivitetty EN/FI-pariteettiin poistamalla vanhat tarkat varv-per-timme-haarukat, muuttamalla nopeuskehityksen väitteet ehdollisiksi, säilyttämällä telefon-timer / kalkylblad / passregistrering -rakenne ja pehmentämällä KnitTools-maininta rakennetaan-työnkulkuun ilman julkaistujen ominaisuuksien väitettä
+  - `halla-koll-pa-varv-nar-du-stickar.md`: laajennettu EN/FI-pariteettiin lisäämällä mönsterrivin suora merkintä paperille, painonappilaskurien rajaukset, färgkodade låsmarkörer, mönsterankareiden kautta lukeminen, pass-/framstegsdata digitaalisissa laskureissa, `samtidigt`-muotoilun rinnakkaislaskurit, runt vs fram och tillbaka -osio, kadonneen laskun palautus ja täysi FAQ; samalla poistettu vanhat `röstkommandon`-, `röststyrd`- ja widget-claimit
+  - slugit, `translationKey`-avaimet, `draft: false` ja julkiset ruotsipolut säilytetty; frontmatterin ruotsin tagit siistitty ilman englannin `tracker`-päätermiksi jättämistä
+  - termit tarkistettu ruotsin linjaan: `sticktid`, `tempo`, `varv`, `varvräknare`, `rapport`, `markör`, `låsmarkör`, `anteckningar`, `projekt`, `stickfasthet`, `maskor`, `rätsida`, `avigsida`, `digital`, `mekanisk`, `räkna`, `föra anteckningar`, `passregistrering` ja `KnitTools`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Councilin How to Read a Knitting Pattern, Nimble Needlesin How to Count Rows in Knitting sekä My Row Counterin counters-, reminders-, secondary counters- ja timer-ohjeet; tarkat neulontanopeushaarukat poistettiin, koska niitä ei pidetty luotettavasti siirrettävinä artikkelin käyttötarkoitukseen
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|mobilkamera|\bröst\b|röstkommandon|röststyrd|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|\byard\b|yards|inch|inches|skein|skeins|dollar|euro|\$|widget|widgets`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|neulonta|nopeus|ajanotto|sessio|kerros|laskuri|silmukkamerkki|muistiinpano|pääntie|kädentie|raita|kirjoneule`
+  - knit-article-validatorin englanninkielisten banned-termien täsmähaku kahdelle tiedostolle: 0 osumaa
+  - merkkimääräpariteetti erän jälkeen: `folja-sticktid...` 8 850 merkkiä / 1 373 sanaa / 8 H2-osiota (EN 8 966 / 1 457 / 8, FI 9 225 / 1 089 / 8), `halla-koll-pa-varv...` 9 740 merkkiä / 1 528 sanaa / 11 H2-osiota (EN 9 809 / 1 655 / 11, FI 10 027 / 1 162 / 11)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 17:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/vad-ar-stickfasthet.md` ja `src/content/articles/sv/varfor-rullar-stickningen-sig.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `what-is-gauge-in-knitting` ja `why-knitting-curls`
+  - `vad-ar-stickfasthet.md`: laajennettu EN/FI-pariteettiin lisäämällä stickstil-osio, stickmaterialin vaikutus, ennen/jälkeen blockning -rajaus, garnets beteende -jatko, mönsterstickning vs slätstickning, rörelsevidd/passform, 10 cm -mittausperustelu, stickfasthetsverktyg sekä laajempi FAQ; samalla pääterminä vältetty `masktäthet` korvattiin muotoiluilla `maskor per 10 cm` ja `antalet maskor per 10 cm`
+  - `varfor-rullar-stickningen-sig.md`: laajennettu EN/FI-pariteettiin lisäämällä superwash-ull-rajaus, kantbredd efter garntjocklek -taulukko, lyft kantmaska, akryylin höyryttämisen varoitus, avigvänd slätstickning, steekar/slätstickning runt sekä puuttuvat FAQ-kysymykset provlapun ja valmiin työn erosta sekä lankatyypeistä
+  - slugit, `translationKey`-avaimet, `draft: false` ja julkiset ruotsipolut säilytetty
+  - termit tarkistettu ruotsin linjaan: `stickfasthet`, `stickprov`, `provlapp`, `maskor`, `varv`, `10 cm`, `stickstorlek`, `slätstickning`, `rätstickning`, `resår`, `mosstickning`, `blockning`, `rätsida`, `avigsida`, `uppläggning`, `avmaskning`, `kant`, `garntjocklek`, `rörelsevidd` ja `passform`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Councilin Standard Yarn Weight System / 4 in stockinette gauge -taulukko, Hobbii SE:n stick-/fasthetsmätare 10 x 10 cm -kuvaus, Elizabeth Smithin 4"/10 cm -mittausperustelu, Our Daily Craftin stockinette curl -selitys, arXiv-artikkeli `Curling morphology of knitted fabrics`, Woolmarkin machine washable wool -selitys sekä Tonia Knitsin superwash-ullin venymä-/muotomuistirajaus
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|mobilkamera|\bröst\b|röstkommandon|röststyrd|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|\byard\b|yards|inch|inches|skein|skeins|\bdollar\b|\beuro\b|\$|€|widget|widgets|garner|drop shoulder|purl-teknik`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|kaartuu|sileä|reunus|käsiala|villa|puuvilla|helmineule|joustin|ainaoikein|nurja|oikea|pipo|paita`
+  - knit-article-validatorin englanninkielisten banned-termien täsmähaku kahdelle tiedostolle: 0 osumaa
+  - merkkimääräpariteetti erän jälkeen: `vad-ar-stickfasthet...` 13 246 merkkiä / 2 056 sanaa / 13 H2-osiota (EN 12 536 / 2 054 / 13, FI 9 396 / 1 193 / 14), `varfor-rullar...` 10 457 merkkiä / 1 600 sanaa / 7 H2-osiota (EN 10 245 / 1 640 / 7, FI 8 562 / 1 049 / 7)
+  - tarkistukset: `npx prettier --write` ei muuttanut artikkelitiedostoja, artikkelien riskigrepit OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- Ruotsin artikkelierä 18:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/garnfibrer-jamforda-ull-bomull-akryl.md` ja `src/content/articles/sv/hur-mycket-garn-till-filt.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `yarn-fibers-compared` ja `yarn-for-blanket`
+  - `garnfibrer-jamforda-ull-bomull-akryl.md`: tasattu EN/FI-riskitasoon pehmentämällä liian vahvat väitteet villan kosteuskäytöksestä, superwash-ullin vaikutuksesta, puuvillan joustamattomuudesta, akryylin pesu-/allergiarajauksesta, alpakasta, silkistä, pellavasta, nylonista ja sockblendeistä; samalla säilytettiin ruotsin luonnolliset termit `garnfibrer`, `superwash-ull`, `bomull`, `akryl`, `linne`, `alpacka`, `silke`, `fiberblandning`, `stickfasthet`, `blockning` ja `garnåtgång`
+  - `hur-mycket-garn-till-filt.md`: päivitetty EN/FI-pariteettiin lisäämällä varovaisempi lankamäärähaarukoiden rajaus, Lion Brand -metriesimerkki, mallineuleiden pehmeämmät varamääräohjeet, färgbad/handfärgat-garn -rajaus, lankavahvuuskohtaiset käytännön caveatit, uusi `Stickor, fibrer och vad som faktiskt håller` -osio sekä laajennetut restgarn-, kustannus-, aika- ja neulomissuunta-FAQ:t
+  - slugit, `translationKey`-avaimet, `draft: false` ja julkiset ruotsipolut säilytetty; frontmatteria, linkkejä ja reittikarttaa ei muutettu
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Councilin Standard Yarn Weight System / ohjeelliset garntjocklek- ja stickfasthet-välit, Woolmarkin machine washable wool / superwash-rajaukset sekä Lion Brandin nykyiset Wool-Ease Thick & Quick ja Wool-Ease -metrimäärät
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|mobilkamera|\bröst\b|röstkommandon|röststyrd|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|\byard\b|yards|inch|inches|skein|skeins|\bdollar\b|\beuro\b|\$|€|widget|widgets`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|villa|puuvilla|peitto|värjäyserä|kerä|paita|lankaa|pusero`
+  - knit-article-validatorin englanninkielisten banned-termien täsmähaku kahdelle tiedostolle: vain ruotsin normaali pluralimuoto `garner`, joka jätettiin false positiveksi eikä ole englannin `garner`-verbi
+  - merkkimääräpariteetti erän jälkeen: `garnfibrer...` 12 051 merkkiä / 1 850 sanaa / 7 H2-osiota (EN 11 908 / 1 875 / 7, FI 12 277 / 1 501 / 7), `hur-mycket-garn-till-filt...` 9 403 merkkiä / 1 476 sanaa / 8 H2-osiota (EN 9 782 / 1 600 / 8, FI 10 090 / 1 242 / 8)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` ei ajettu, koska frontmatter, linkit ja reittikartta eivät muuttuneet eikä Astro-check antanut syytä
+- Ruotsin artikkelierä 19:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/sv/hur-mycket-garn-till-troja.md` ja `src/content/articles/sv/byta-garntjocklek-i-stickmonster.md`
+  - vertailtu EN/FI/SV-parit `translationKey`-avaimilla `yarn-for-sweater` ja `yarn-weight-substitution`
+  - `hur-mycket-garn-till-troja.md`: päivitetty EN/FI-pariteettiin pehmentämällä liian tarkat prosentti- ja okimenekkiväitteet, lisäämällä `Negativ rörelsevidd`, uppifrån-och-ner-hiha-ansa, uusi `Konstruktion och vart garnet tar vägen` -osio, lisäkerän palautus-/käyttöhuomio, rajallisesta langasta taaksepäin laskemisen caveatit sekä kuitu-FAQ; slugit, `translationKey`, `draft: false` ja linkit säilyivät
+  - `byta-garntjocklek-i-stickmonster.md`: laajennettu EN/FI-pariteettiin lisäämällä tarkempi `Vad som ändras` -rakenne, boxy/figurnära-riskirajaus, Worsted->DK-esimerkkilasku, vaiheittainen uudelleenlaskenta, kaksinkertaisen langan tumregel-haarukat, vanhojen ohjeiden ja WPI:n varovainen käyttö, `Spetsstickning och struktur i ny tjocklek` sekä laajemmat FAQ:t
+  - termit tarkistettu ruotsin linjaan: `garnåtgång`, `löplängd`, `nystan`, `garntjocklek`, `stickfasthet`, `provlapp`, `stickprov`, `rörelsevidd`, `uppifrån och ner`, `fiberinnehåll`, `WPI`, `meter per 100 g`, `dubbelt garn`, `hålmönster`, `spetsstickning`, `strukturmönster` ja `varv`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - faktatukea tarkistettu webistä ennen editointia: Craft Yarn Councilin Standard Yarn Weight System, Craft Yarn Councilin WPI-ohje ja yarn label -tiedot sekä Lion Brandin yarn substitution -ohje; CYC:n garntjocklek-välit ja WPI käsiteltiin ohjeellisina, ei lupauksina
+  - täsmennetty eräkohtainen app-/termiriskigreppi kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|mobilkamera|\bröst\b|röstkommandon|röststyrd|\bvoice\b|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|skanning|garnvikt|masktäthet|yardage|\byard\b|yards|inch|inches|skein|skeins|\bdollar\b|\beuro\b|\$|€|widget|widgets`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|villa|puuvilla|villapaita|paita|lankaa|kerä|väljyys|langanmenekki|lankavarasto|kaulus|hiha`
+  - knit-article-validatorin englanninkielisten banned-termien täsmähaku kahdelle tiedostolle: 0 osumaa
+  - merkkimääräpariteetti erän jälkeen: `hur-mycket-garn-till-troja...` 8 775 merkkiä / 1 362 sanaa / 8 H2-osiota (EN 9 172 / 1 500 / 8, FI 9 403 / 1 166 / 8), `byta-garntjocklek...` 11 702 merkkiä / 1 768 sanaa / 9 H2-osiota (EN 13 203 / 2 099 / 10, FI 6 834 / 808 / 9)
+  - tarkistukset: `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` ei ajettu, koska frontmatter, linkit ja reittikartta eivät muuttuneet eikä Astro-check antanut syytä
+- Ruotsin artikkeli-QA:
+  - käytetty `knit-article-validator`-linjaa ja tarkistettu ennen jatkoa viralliset lähteet: Astro Content Collections, Astro i18n routing ja Google Search Centralin localized versions / hreflang -ohje
+  - inventaario: `src/content/articles/sv/` sisältää 38 markdown-artikkelia, 38 `translationKey`-avainta, 38 uniikkia avainta, 38 `draft: false` -merkintää ja 0 `draft: true` -merkintää
+  - `src/i18n/articles.ts`: 38 ruotsinkielistä `/sv/artiklar/`-polkua; artikkelikansion `translationKey`-avaimet ja kartan `sv`-avaimet täsmäävät, eikä puuttuvia tai ylimääräisiä avaimia löytynyt
+  - reittipohjat ovat olemassa: `src/pages/sv/artiklar/[...slug].astro`, `src/pages/sv/artiklar/index.astro` ja `src/pages/sv/artiklar/kategori/[slug].astro`
+  - app-claim-riskigrep koko 38 artikkelin joukosta: kaksi jäljelle jäävää osumaa ovat yleisiä offline-/uppkoppling-konteksteja (`basta-stickappar-vad-du-ska-titta-efter.md` ja `digital-eller-mekanisk-varvraknare.md`), eivät julkaistuja AI/OCR/voice/scanner-ominaisuusväitteitä
+  - korjattu yksi app-väiteriski: `digital-eller-mekanisk-varvraknare.md` FAQ muutettiin muodosta `KnitTools sparar...` muotoon `KnitTools är planerat så att...`, jotta se vastaa artikkelin ja EN/FI-baselinejen "sovellus on rakenteilla" -tilaa
+  - koko ruotsikansion termi-/julkaisuriskigrep: ei osumia `garnvikt`, `masktäthet`, `AI`, `OCR`, `scanner/skanner`, `röstkommandon`, `röststyrd`, `voice`, `widget` tai muihin poistettuihin app-claim-termeihin; kaksi baseline-pariteetin mukaista osumaa jätetty: `30 euro` lankavaihtoartikkelissa ja `yards` ilmaiset laskurit -artikkelissa
+  - knit-article-validatorin englanninkielisten banned-termien täsmähaku: 0 osumaa, kun ruotsin normaali pluralimuoto `garner` jätettiin pois englannin `garner`-verbin false positivesta; erillinen `garner`-haku tuotti 41 ruotsin monikko-osumaa
+  - englanninkielisten mallitekstien ja tekniikkanimien osumat tarkistettu lähikontekstista ja EN/FI-baselineista: `Notes`, `special stitches`, `all measurements after blocking`, `tubular cast on`, `Judy's Magic Cast On`, `Turkish cast on`, `Wrap and turn`, `German short rows`, `Afterthought heel`, `gauge` ja `tension` ovat tarkoituksellisia ohje-/tekniikkatermejä tai FAQ-selityksiä
+  - suomenkielisten jäämien grep koko `src/content/articles/sv/`-kansiolle: 0 osumaa käytetyllä hakulistalla
+  - sisäiset ruotsilinkit: 128 linkkiä, 34 uniikkia kohdetta, 0 puuttuvaa kohdetta kun linkit tarkistettiin `articleTranslations`-kartan ja ruotsin tools-reittien listaa vasten
+  - tarkistukset: `npx prettier --check src/content/articles/sv/digital-eller-mekanisk-varvraknare.md monikielinen-lokalisointi-eteneminen.md` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` ei ajettu, koska sisältö- ja lokimuutos ei muuttanut frontmatteria, reittejä, linkkejä tai komponentteja
+- Ruotsin tools-erä 1:
+  - käsitelty `src/pages/sv/verktyg/index.astro`, `src/pages/sv/verktyg/upplaggningskalkylator.astro` ja `src/components/CastOnCalculator.astro`
+  - varmistettu ruotsin tools-inventaario ennen editointia: `src/pages/sv/verktyg/` sisältää indexin ja kaikki 6 odotettua tools-sivua (`upplaggningskalkylator`, `garnatgangskalkylator`, `stickstorlekar`, `garntjocklekar`, `stickforkortningar`, `storlekstabeller-stickning`)
+  - ennen editointia tarkistettu viralliset lähteet AGENTS-ohjeen mukaisesti: Astro i18n routing, Astro Content Collections, Google Search Central localized versions / hreflang sekä Craft Yarn Councilin Standard Yarn Weight System tulevia tools-taulukoita varten
+  - `index.astro`: korjattu korttikuvaus `Alla 8 garntjocklekar...` luonnollisemmaksi muodoksi `Alla åtta garntjocklekar...`; reitit, JSON-LD ja layout säilyivät ennallaan
+  - `upplaggningskalkylator.astro`: tasattu EN/FI-linjaan ja ruotsin termiohjeeseen parantamalla stickprov-FAQ:ta, kantmaskor-vastausta, parillisen maskantalin perustelua ja rundstickning-vastausta; korjattu käännösvirheet `din handlag`, `ren rapport`, `stickningspraxis` ja `upprepning senare`
+  - `upplaggningskalkylator.astro`: lisätty suomen baselinea vastaava käytännön ohje stickprovin viimeistelystä, 20 maskor / 10 cm -> 50 cm -> 100 maskor -esimerkki sekä muistutus, että resår/fläta/spets voi vaatia lopullisen maskmultipel-säädön
+  - `CastOnCalculator.astro`: korjattu vain ruotsin copyä; label näyttää nyt `Stickfasthet (maskor per 10 cm / 4 tum)`, koska komponentti tukee myös tum-valintaa, ja stepperien aria-labelit ovat luonnollisempia (`Minska stickfastheten`, `Öka stickfastheten`, `Minska bredden`, `Öka bredden`)
+  - termit tarkistettu ruotsin linjaan: `uppläggning`, `lägga upp maskor`, `stickfasthet`, `stickprov`, `maskantal`, `maskmultipel`, `mönsterrapport`, `resår`, `fläta`, `spets`, `rundstickning`, `markörer`, `10 cm` ja `4 tum`
+  - eräkohtainen app-/termiriskigrep kahdelle ruotsisivulle: 0 sisältöosumaa hakulistalla `AI|OCR|scanner|skanner|skanning|kamera|mobilkamera|röst|voice|parser|tolk|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|garnvikt|masktäthet|yardage|yard|yards|inch|inches|skein|skeins|dollar|euro|€|widget|widgets`; JSON-LD:n template literal `${tool.href}` jätetty pois valuutta-false positivesta
+  - suomenkielisten jäämien täsmähaku kahdelle ruotsisivulle: 0 osumaa
+  - tarkistukset: `npx prettier --write` rivitti cast-on-sivun, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/sv/verktyg/` ja `/sv/verktyg/upplaggningskalkylator/`
+- Ruotsin tools-erä 2:
+  - käsitelty `src/pages/sv/verktyg/garnatgangskalkylator.astro` ja `src/components/YarnEstimator.astro` ruotsicopyn osalta
+  - `garnatgangskalkylator.astro`: pehmennetty liian ehdoton `Alltid`-varanystanväite, täsmennetty että ruotsin laskuri näyttää arvion metreinä, ja lisätty EN/FI-linjaa vastaavat caveatit slätstickning-baselineen, flätor/flerfärgsstickning/spetsstickning/strukturmönster-vaikutuksiin, värjäyserään sekä siihen, että tulos on suunnittelun lähtökohta eikä lupaus
+  - `garnatgangskalkylator.astro`: laajennettu banderoll-osio FI-pariteettiin: nystanin paino ei yksin riitä, löplängd ratkaisee, kaksi 50 g nystania voi sisältää eri metrimäärän, ja banderollin puuttuessa arviota kannattaa käyttää vain pieniin tai joustaviin töihin
+  - `garnatgangskalkylator.astro`: täsmennetty langan korvaamisen FAQ niin, että `stickfasthet` ja valmiin tyyn/kankaan tuntu sekä metrilängd tarkistetaan, ei pelkkä nystanmäärä
+  - `YarnEstimator.astro`: pehmennetty ruotsin tulosdisclaimer `Köp alltid ett extra nystan` -> `Köp oftast ett extra nystan`, jotta komponentti ei lupaa liian ehdottomasti
+  - `YarnEstimator.astro`: lisätty ruotsinkieliset kokovalintojen labelit, jotta UI ei tipu englanninkielisiin arvoihin kuten `Preemie`, `Newborn`, `Toddler`, `Short`, `Tall`, `One Size` tai `Twin/Full`; vuosien ja kuukausien labelit lokalisoitu muotoihin kuten `3 mån` ja `2 år`
+  - termit tarkistettu ruotsin linjaan: `garnåtgång`, `garntjocklek`, `nystan`, `banderoll`, `löplängd`, `stickfasthet`, `slätstickning`, `flätor`, `flerfärgsstickning`, `spetsstickning`, `strukturmönster`, `avigsida`, `meter`, `gram` ja `yards`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny ruotsin tekstissä
+  - eräkohtainen app-/termiriskigrep sivulle: vain odotetut `yards`-maininnat, koska FAQ ja banderolliosio käsittelevät yards-arvon muuntamista metreiksi; ei AI/OCR/scanner/voice/app-claim-osumia eikä kiellettyjä ruotsin termejä
+  - jaetun `YarnEstimator.astro`-komponentin riskigrep: osumat rajoittuivat muiden kielten lohkoihin tai komponentin laskentalogiikkaan (`meters`, `yards`), eivät ruotsin uuteen copyyn
+  - suomenkielisten jäämien täsmähaku: sivulla 0 osumaa; komponentin ainoa osuma oli olemassa oleva suomen `fi`-copylohko, ei ruotsin teksti
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/sv/verktyg/garnatgangskalkylator/`
+- Ruotsin tools-erä 3:
+  - käsitelty `src/pages/sv/verktyg/stickstorlekar.astro` ja `src/pages/sv/verktyg/garntjocklekar.astro`; `src/components/WpiIdentifier.astro` tarkistettiin ruotsicopyn osalta, mutta siihen ei tarvittu muutoksia
+  - ennen editointia tarkistettu virallinen Craft Yarn Councilin Hooks & Needles -standardi, koska erä koski puikkokokojen ja garntjocklek-välien taulukkoja; aiemmin tarkistettu CYC Standard Yarn Weight System pysyi lähteenä garntjocklek-taulukolle
+  - `stickstorlekar.astro`: poistettu ruotsin tekstistä ristiriitaiseksi luettava japanilaiskoko-esimerkki, koska sivun oma taulukko käyttää pyöristettyä vertailua; ohjeistus muutettiin muotoon, jossa japanilaisissa malleissa matchataan aina millimetriarvoa eikä pelkkää painettua numeroa
+  - `stickstorlekar.astro`: luonnollistettu liian suoria käännöksiä (`Klart`, `exakta adressen`, `Fel svar varje gång`) ja säilytetty sisältö EN/FI-linjassa: millimetrit ovat varmin lähde, US/UK/Japan ovat nimijärjestelmiä, ja stickprov ratkaisee lopullisen koon
+  - `garntjocklekar.astro`: korvattu taulukon `m / 10 cm` -lyhenne selkeällä `maskor / 10 cm`, koska ruotsin termiohjeen mukaan `m` maskoille on sallittu vain täysin yksiselitteisessä kontekstissa ja garntjocklek-sivulla se voi sekoittua metreihin
+  - `garntjocklekar.astro`: poistettu ylimääräinen väite CYC:n tulevasta lisäkokotyöstä; teksti rajattiin julkaistuun 0-7 CYC-skaalaan, jota sivun taulukko käyttää
+  - termit tarkistettu ruotsin linjaan: `stickstorlek`, `stickor`, `stickfasthet`, `stickprov`, `millimeter`, `rundsticka`, `garntjocklek`, `maskor / 10 cm`, `WPI`, `banderoll`, `nystan`, `löplängd`, `DK`, `Worsted`, `Aran`, `Bulky` ja `Jumbo`; vältettävät `garnvikt` ja `masktäthet` eivät esiinny
+  - eräkohtainen app-/termiriskigrep kahdelle sivulle ja `WpiIdentifier.astro`-komponentille: ei ruotsin sisältöosumia; `inch`-osumat olivat komponentin EN/DE/DA-lohkoissa, `suggests`-osumat olivat TypeScript-kentän nimiä ja muiden kielten copyä
+  - englanninkielisten mallitekstien täsmähaku kahdelta sivulta: ainoa sisältöosuma `Sport weight` on tarkoituksellinen alueellinen termi garntjocklek-selityksessä; `needle-search` ja `needle-table` ovat DOM-id:itä
+  - suomenkielisten jäämien täsmähaku: kahdella sivulla 0 osumaa; komponentin osumat olivat olemassa oleva suomen `fi`-copylohko, eivät ruotsin teksti
+  - tarkistukset: `npx prettier --write` rivitti kaksi sivua, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/sv/verktyg/stickstorlekar/` ja `/sv/verktyg/garntjocklekar/`
+- Ruotsin tools-erä 4:
+  - käsitelty `src/pages/sv/verktyg/stickforkortningar.astro` ja `src/pages/sv/verktyg/storlekstabeller-stickning.astro`
+  - ennen editointia tarkistettu viralliset Craft Yarn Councilin lähteet erän aiheille: Knitting Abbreviations Master List, Knit Chart Symbols ja Standard Body Measurements/Sizing
+  - `stickforkortningar.astro`: pehmennetty liian kattava description-väite `Komplett ordlista` -> `Praktisk ordlista`, muutettu CYC-kuvaus vastaamaan lähteen muotoilua masterlistasta, jota alan suunnittelijat ja julkaisijat usein käyttävät, ja poistettu `KnitTools-appen innehåller` -muotoinen julkaistu app-ominaisuusväite nykyisen sivun sökbar ordlista -muotoiluksi
+  - `storlekstabeller-stickning.astro`: pehmennetty FAQ:n väite siitä, että suuret julkaisijat ja freelancerit noudattaisivat CYC-standardeja, muotoon jossa CYC-taulukot ovat yleinen referenssi mutta mönstrets egen storlekstabell ratkaisee
+  - `storlekstabeller-stickning.astro`: korjattu väljyysristiriita `färdigt plagg är alltid större` -> valmis neule voi olla pienempi, samankokoinen tai suurempi riippuen rörelsevidd-valinnasta; lisätty erilliset `Generös rörelsevidd (10-15 cm)` ja `Oversized rörelsevidd (15+ cm)` -rajaukset CYC:n fit/ease-linjan mukaisesti
+  - `storlekstabeller-stickning.astro`: luonnollistettu `Standardmått för varje stickprojekt` -> `Referensmått för stickprojekt`, tarkennettu hihaohje mittaamaan armhålan -> handledsknölen ja lokalisoitu `to fit chest` -esimerkki ruotsiksi
+  - reitit, taulukkodata, `LocalizedToolPage`-rakenne, `lang="sv"`, canonicalit ja alternates säilyivät ennallaan
+  - termit tarkistettu ruotsin linjaan: `stickförkortningar`, `mönsternyckel`, `stickdiagram`, `maskor`, `rätsida`, `avigsida`, `stickfasthet`, `kroppsmått`, `plaggmått`, `rörelsevidd`, `bröstvidd`, `bystvidd`, `armhålan`, `handledsknölen`, `generös rörelsevidd` ja `oversized rörelsevidd`
+  - eräkohtainen app-/termiriskigrep kahdelle sivulle: 0 osumaa tarkennetulla hakulistalla `KnitTools-appen|KnitTools app|\bAI\b|\bOCR\b|scanner|skanner|skanning|kamera|mobilkamera|röstkommand|röststyr|röstinmat|\bvoice\b|parser|projektsammanfatt|automatisk|mönsterigenk|garnbanderollskanner|garnvikt|masktäthet|yardage|\byard\b|yards|skein|skeins|\bdollar\b|\beuro\b|€|widget|widgets`; alkuperäinen karkea `röst`-haku osui vain odotettuihin `bröstvidd`-sanoihin
+  - suomenkielisten jäämien täsmähaku kahdelle sivulle: 0 osumaa hakulistalla `neuletiheys|mallitilkku|silmukka|puikko|kerros|ohje|lanka|mikä|mitä|jos|entä|kyllä|neulo|tilkku|vyöte|pingotus|suomi|väljyys|vartalo|koko`
+  - lähdeclaimien täsmähaku tarkistettu: jäljelle jäävät `standardlista`, `standardreferens` ja `universell` -osumat ovat varovaisissa konteksteissa, joissa ohje sanoo tarkistaa mönsternyckel tai ettei täysin universaalia standardia ole
+  - tarkistukset: `npx prettier --write` rivitti kokotaulukkosivun, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/sv/verktyg/stickforkortningar/` ja `/sv/verktyg/storlekstabeller-stickning/`
+  - ruotsin toolsien lopullinen dist-varmistus: `dist/sv/verktyg/` sisältää 7/7 odotettua HTML-tiedostoa (`index.html`, `upplaggningskalkylator`, `garnatgangskalkylator`, `stickstorlekar`, `garntjocklekar`, `stickforkortningar`, `storlekstabeller-stickning`)
+- Norjan aloitusinventaario:
+  - tarkistettu `NORWEGIAN_TRANSLATION_GUIDE.md`: käytä Bokmålia, sisäinen kieliavain on `no`, mutta HTML/hreflang mapataan Bokmål-muotoon `nb`
+  - vahvistettu lähdekoodista: `src/i18n/config.ts` palauttaa `getHtmlLang("no") -> "nb"` ja `getLocale("no") -> "nb_NO"`, ja `BaseLayout.astro` käyttää näitä arvoja `lang`, `hreflang` ja OG locale -metoissa
+  - inventaario: EN root 38 artikkelia, `src/content/articles/no/` 38 artikkelia, 38 `draft: false` -artikkelia, 38 `translationKey`-avainta ja 38 norjapolkua `src/i18n/articles.ts`-kartassa
+  - norjan tools-inventaario: `src/pages/no/verktoy/` sisältää indexin ja kaikki 6 odotettua tools-sivua (`oppleggskalkulator`, `garnberegner`, `pinnestorrelser`, `garntykkelser`, `strikkeforkortelser`, `storrelsestabeller-strikking`)
+  - ennen editointia tarkistettu ajantasaiset viralliset lähteet AGENTS-ohjeen mukaisesti: Astro i18n routing, Google Search Central localized versions / hreflang sekä Craft Yarn Councilin Standards & Guidelines
+- Norjan artikkelierä 1:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/samtidig-i-strikkeoppskrifter.md` ja `src/content/articles/no/beste-strikkeapper-hva-du-bor-se-etter.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `at-the-same-time-knitting` ja `best-knitting-apps`
+  - `samtidig-i-strikkeoppskrifter.md`: päivitetty EN/SV-pariteettiin lisäämällä kahden päällekkäisen rytmin taulukko, fellingstype/symmetri, vrangside-rytmin rajaus, knapphull i forkanter, muiden neulojien muistiinpanojen tarkistus sekä puuttuva nopea pinneplan-FAQ; poistettu vanha `KnitTools' Row Counter` -ominaisuusväite
+  - `beste-strikkeapper-hva-du-bor-se-etter.md`: poistettu vanhat kamera-/garnetikettskanner-/AI-/talekommando-/stemmefeature-väitteet, palautettu neutraali arviointirakenne, lisätty store trykkflater, telefon/nettebrett, plattform/enhet, eksport/backup ja smartklokke-FAQ EN/SV-linjan mukaisesti
+  - `beste-strikkeapper-hva-du-bor-se-etter.md`: KnitTools-osio muutettu julkaisemattomasta ominaisuuslistasta varovaiseksi muotoon `bygges som en Android-verktøykasse med planlagt engangsbetaling`
+  - termit tarkistettu norjan linjaan: `strikkefasthet`, `prøvelapp`, `maskeantall`, `pinner`, `omganger`, `legge opp`, `felling`, `garntykkelse`, `løpelengde`, `garnmengde`, `pinnestørrelse`, `omgangsteller`, `banderoll`, `nøster`, `rettside`, `vrangside` ja `fargeparti`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `Row Counter|Pattern Parser|AI|skanner|scanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|mikrofon|Premiumversjonen|garnetikett|engangskjøp|engangskjop`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `gauge|swatch|cast on|bind off|yarn weight|yardage|needle size|row counter|round counter|stitch|stitches|skein|ball band`
+  - merkkimääräpariteetti erän jälkeen: `samtidig-i-strikkeoppskrifter...` 10 388 merkkiä / 1 625 sanaa / 12 H2-osiota (EN 10 077 / 1 737 / 12, SV 10 582 / 1 664 / 12), `beste-strikkeapper...` 11 157 merkkiä / 1 619 sanaa / 8 H2-osiota (EN 11 087 / 1 770 / 8, SV 11 490 / 1 661 / 8)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/samtidig-i-strikkeoppskrifter/` ja `/no/artikler/beste-strikkeapper-hva-du-bor-se-etter/`
+- Norjan artikkelierä 2:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/beste-garn-for-nybegynnere.md` ja `src/content/articles/no/rundpinne-rette-pinner-strompepinner.md`
+  - vertailtu EN/SV/NO-parit `translationKey`-avaimilla `best-yarn-for-beginners` ja `circular-vs-straight-vs-dpn`
+  - `beste-garn-for-nybegynnere.md`: päivitetty EN/SV-pariteettiin lisäämällä banderoll-osio, CYC kategori 4 / Size 8 -huomio, fargeparti-rajaus, tonale garn, hesper/nøsting sekä hobbybutikk/garnbutikk- ja kosketa lankaa ennen ostoa -FAQ:t
+  - `beste-garn-for-nybegynnere.md`: poistettu vanhat eurohinta-arviot ja liian tarkat ensimmäisen huivin metrimitta-/kokolupaukset; säilytetty worsted/DK-neuvot, mutta muotoiltu CYC- ja banderollitiedot varovaisiksi
+  - `rundpinne-rette-pinner-strompepinner.md`: laajennettu EN/SV-pariteettiin lisäämällä oversikt-taulukko, vaierlengde, vaierkvalitet, magic loop, to rundpinner, stige-korjaus, strømpepinnerin pituus/antall, utskiftbare rundpinnesett, 23 cm rundpinner, ergonomiske former sekä kattavampi FAQ
+  - `rundpinne-rette-pinner-strompepinner.md`: poistettu yksittäisen merkin ylikorostus ja pehmennetty ostosuositukset muotoon, jossa järjestelmä kannattaa kokeilla ennen kokonaiseen settiin sitoutumista
+  - termit tarkistettu norjan linjaan: `garntykkelse`, `banderoll`, `løpelengde`, `nøste`, `fargeparti`, `strikkefasthet`, `prøvelapp`, `pinnestørrelse`, `rundpinne`, `rette pinner`, `strømpepinner`, `vaier`, `omgang`, `masker`, `bol`, `bærestykke`, `votter`, `håndledd` ja `blokking`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|mikrofon|garnetikettskanner|garnskanning|automatisk|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `gauge|swatch|cast on|bind off|yarn weight|yardage|needle size|row counter|round counter|stitch|stitches|skein|skeins|ball band|inch|inches`
+  - luonnollisuushaun jäljelle jäävät osumat tarkistettu: `garnetikett` esiintyy vain olemassa olevassa URL-slugissa, ei näkyvässä leipätekstissä
+  - merkkimääräpariteetti erän jälkeen: `beste-garn-for-nybegynnere...` 10 557 merkkiä / 1 678 sanaa / 8 H2-osiota (EN 10 579 / 1 727 / 8, SV 10 712 / 1 685 / 8), `rundpinne-rette-pinner...` 14 183 merkkiä / 2 194 sanaa / 11 H2-osiota (EN 14 235 / 2 315 / 11, SV 14 274 / 2 193 / 11)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/beste-garn-for-nybegynnere/` ja `/no/artikler/rundpinne-rette-pinner-strompepinner/`
+- Norjan artikkelierä 3:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/digital-eller-mekanisk-omgangsteller.md` ja `src/content/articles/no/viktig-strikketilbehor-utover-pinner-og-garn.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `digital-vs-physical-row-counters` ja `essential-knitting-tools`
+  - `digital-eller-mekanisk-omgangsteller.md`: poistettu vanhat talekommando-/AI-/skanneri-/stemmedagbok-/samtalestemme-ominaisuusväitteet ja korvattu KnitTools-kuvaus EN/FI/SV-linjan varovaisella Android-omgangsteller-kuvauksella
+  - `digital-eller-mekanisk-omgangsteller.md`: poistettu fyysisen laskurin eurohinta-arvio, täsmennetty fyysisten laskurien eri muodot, lisätty backup-käyttö ja korvattu stemmestyrte tellere -FAQ LED-fingertellere-kysymyksellä EN/FI/SV-pariteetin mukaan
+  - `viktig-strikketilbehor-utover-pinner-og-garn.md`: poistettu vanhat eurohinta-arviot ja julkaistua sovellusominaisuutta muistuttava `har en omgangsteller` -väite; KnitTools-viittaus muutettu muotoon `bygges med en omgangsteller`
+  - `viktig-strikketilbehor-utover-pinner-og-garn.md`: laajennettu EN/FI/SV-pariteettiin lisäämällä stoppenål-koot, reisesaks-caveat, maskemarkørien väri-/lukittava-rajaus, målebånd/strikkefasthetsmåler, pinnemåler, flettepinne, blokkeutstyr, garnvinde/nøstemaskin, utskiftbare rundpinnesett, mitä ei tarvitse -osio ja FAQ:n järjestämisvastaus
+  - termit tarkistettu norjan linjaan: `omgangsteller`, `pinner`, `omganger`, `rapport`, `maskemønster`, `maskemarkører`, `strikkefasthet`, `prøvelapp`, `garntykkelse`, `banderoll`, `stoppenåler`, `pinnemåler`, `flettepinne`, `blokkeutstyr`, `garnvinde`, `nøstemaskin`, `hespe`, `garnkake`, `maskeholdere` ja `pinnestoppere`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `gauge|swatch|cast on|bind off|yarn weight|yardage|needle size|row counter|round counter|stitch|stitches|skein|skeins|ball band|inch|inches|worsted|bulky|fingering|sport`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|langanspinner|väline|pingotus|sovellus|suomi|ruotsi`
+  - merkkimääräpariteetti erän jälkeen: `digital-eller-mekanisk-omgangsteller...` 6 532 merkkiä / 1 011 sanaa / 6 H2-osiota (EN 7 731 / 1 284 / 6, SV 7 706 / 1 205 / 6), `viktig-strikketilbehor...` 9 435 merkkiä / 1 428 sanaa / 5 H2-osiota (EN 10 015 / 1 641 / 5, SV 9 963 / 1 520 / 5)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/digital-eller-mekanisk-omgangsteller/` ja `/no/artikler/viktig-strikketilbehor-utover-pinner-og-garn/`
+- Norjan artikkelierä 4:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/redde-mistede-masker-uten-a-rekke-opp.md` ja `src/content/articles/no/gratis-strikkekalkulatorer.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `fix-dropped-stitches` ja `free-knitting-calculators`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n routing, Google localized versions / hreflang, Craft Yarn Councilin standardit sekä pudonneen silmukan korjausohjeet
+  - `redde-mistede-masker-uten-a-rekke-opp.md`: päivitetty EN/FI/SV-pariteettiin lisäämällä ensimmäiseksi `stopp løpet` -osio, livline-ennaltaehkäisy, tarkempi oppleggskant-rajaus, vridd maske -korjaus, oma mohair/takertuvat langat -osio sekä kaksi puuttuvaa FAQ:ta
+  - `redde-mistede-masker-uten-a-rekke-opp.md`: poistettu vanha `KnitTools' Row Counter` -ominaisuusväite ja pidetty ohje teknisenä, ei sovellusmarkkinointina
+  - `gratis-strikkekalkulatorer.md`: päivitetty EN/FI/SV-pariteettiin muuttamalla rajaus kahteen julkiseen pääkalkulaattoriin ja referenssityökaluihin, lisäämällä opplegg-laskuesimerkki, garnberegnerin struktur-/fargeparti-/bufferirajaukset, omien mittojen sovitusosio, hyvä vs huono laskuri -tarkennus, størrelsestabeller-linkki ja garnanslag-FAQ
+  - `gratis-strikkekalkulatorer.md`: poistettu vanha AI-skanning/garnetikett/samtalestemme/engangskjøp-appiväite; KnitTools-maininta rajattu projektikeskeiseen Android-sovellukseen, jossa ovat pinner/omganger, prosjektstyring, kalkulatorer ja referanser EN/FI/SV-linjan mukaan
+  - termit tarkistettu norjan linjaan: `mistet maske`, `heklenål`, `rettmaske`, `vrangmaske`, `glattstrikk`, `rillestrikk`, `vrangbord`, `livline`, `oppleggskant`, `avfelling`, `strikkefasthet`, `prøvelapp`, `oppleggskalkulator`, `garnberegner`, `garntykkelse`, `løpelengde`, `fargeparti`, `pinnestørrelser`, `garntykkelser` ja `strikkeforkortelser`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `gauge|swatch|cast on|bind off|yarn weight|yardage|needle size|row counter|round counter|skein|skeins|ball band|inch|inches|yard|yards|edge stitches|lifeline|stockinette|garter|ribbing|frogging|frog`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|langanspinner|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri`
+  - merkkimääräpariteetti erän jälkeen: `redde-mistede-masker...` 9 434 merkkiä / 1 583 sanaa / 12 H2-osiota (EN 9 590 / 1 688 / 12, SV 9 482 / 1 625 / 12), `gratis-strikkekalkulatorer...` 9 204 merkkiä / 1 343 sanaa / 9 H2-osiota (EN 9 408 / 1 516 / 9, SV 9 064 / 1 327 / 9)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/redde-mistede-masker-uten-a-rekke-opp/` ja `/no/artikler/gratis-strikkekalkulatorer/`
+- Norjan artikkelierä 5:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/nar-strikkefastheten-ikke-stemmer.md` ja `src/content/articles/no/strikke-provelapp-steg-for-steg.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `gauge-doesnt-match` ja `gauge-swatch-step-by-step`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n routing, Google localized versions / hreflang, Craft Yarn Councilin standardit sekä neuletiheyden ja provlapun ohjeistus
+  - `nar-strikkefastheten-ikke-stemmer.md`: päivitetty EN/FI/SV-pariteettiin lisäämällä kahden mittauskohdan keskiarvo, blokattu/blokkaamaton strikkefasthet, rundt vs flatt -rajaus, strikkefastheten muuttuminen työn aikana sekä milloin ohjeesta kannattaa luopua
+  - `nar-strikkefastheten-ikke-stemmer.md`: poistettu vanha appikalkulaattoriväite ja korvattu sisäisellä ohjeviittauksella ilman väitettä julkaistusta strikkefasthetskalkulator-ominaisuudesta
+  - `strikke-provelapp-steg-for-steg.md`: päivitetty EN/FI/SV-pariteettiin lisäämällä muistiinpanot, ohjeen struktuurineule vs glattstrikk -tarkistus, oppleggstapa, rillekant-rajaus, löysä avfelling, projektia vastaava blokking, kahden mittauskohdan keskiarvo, pinnestørrelse-hyppyjen tulkinta, langanvaihdon pakollinen provlapp sekä rundt-neulonnan speed swatch -periaate norjaksi
+  - `strikke-provelapp-steg-for-steg.md`: täsmennetty että provlappu ei ole pelkkä kyllä/ei-tarkistus, vaan kertoo myös neulepinnan, laskeuman ja pesukäyttäytymisen ennen projektia
+  - termit tarkistettu norjan linjaan: `strikkefasthet`, `prøvelapp`, `masker`, `omganger`, `pinnestørrelse`, `glattstrikk`, `rillestrikk`, `vrangbord`, `blokking`, `opplegg`, `avfelling`, `bol`, `ermer`, `fargeparti`, `løpelengde`, `garntykkelse` ja `omgangsstrikk`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: näkyvässä leipätekstissä 0 osumaa; jäljelle jäivät vain frontmatterin tekniset avaimet `category: gauge-calculations` ja `translationKey`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|langanspinner|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri`
+  - merkkimääräpariteetti erän jälkeen: `nar-strikkefastheten-ikke-stemmer...` 11 454 merkkiä / 1 775 sanaa / 13 H2-osiota (EN 11 437 / 1 877 / 13, SV 11 663 / 1 851 / 13), `strikke-provelapp-steg-for-steg...` 9 302 merkkiä / 1 474 sanaa / 10 H2-osiota (EN 9 131 / 1 580 / 10, SV 9 438 / 1 507 / 10)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/nar-strikkefastheten-ikke-stemmer/` ja `/no/artikler/strikke-provelapp-steg-for-steg/`
+- Norjan artikkelierä 6:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/hvor-mange-masker-skal-du-legge-opp.md` ja `src/content/articles/no/hvor-mye-garn-trenger-jeg.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `how-many-stitches-to-cast-on` ja `how-much-yarn-do-i-need`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n routing, Google localized versions / hreflang, Craft Yarn Councilin standardit sekä neuletiheyden, opplegg-laskennan ja garnmengde-arvion lähdepinnat
+  - `hvor-mange-masker-skal-du-legge-opp.md`: päivitetty EN/SV-pariteettiin lisäämällä laskuesimerkki, raporttien `multiplum + balansemasker` -esimerkit, ketjumainen jarekant, rundstrikking-osio, sokkien starttiluvut, oppleggsmåte-vertailu, oppleggskanten spenning, ylhäältä-alas vs alhaalta-ylös -rajaus sekä puuttuvat FAQ:t
+  - `hvor-mange-masker-skal-du-legge-opp.md`: täsmennetty `Oppleggskalkulator`-väite vastaamaan laskurin todellista roolia eli peruslaskua ja parilliseen lukuun pyöristystä, ei kaikkia raportti-/rakennelaskuja
+  - `hvor-mye-garn-trenger-jeg.md`: pidetty rakenne ennallaan, koska se oli jo lähellä EN/SV-pariteettia; täsmennetty `Garnberegner`-kuvaus, vaihdettu `meter or yards` norjankieliseen `løpelengde i meter` -muotoon ja siistitty flette-termiä
+  - termit tarkistettu norjan linjaan: `opplegg`, `oppleggsmåte`, `strikkefasthet`, `prøvelapp`, `masker`, `pinner`, `omganger`, `vrangbord`, `jarekant`, `rundstrikking`, `negativ bevegelsesvidde`, `løpelengde`, `nøste`, `fargeparti`, `garntykkelse`, `garnmengde`, `fletter`, `mønsterstrikk`, `bol` ja `blokking`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|langanspinner|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; näkyvät osumat ovat tarkoituksellisia frontmatter-avaimia, oppleggmetodien nimiä (`long-tail`, `German twisted`, `tubular`, `Judy's magic cast-on`, `cable cast-on`), kansainvälisiä lankaluokkanimiä (`worsted`, `Fingering`, `DK`, `Chunky`, `bulky`, `Aran`) tai `Ravelry`/`superwash`-termejä
+  - merkkimääräpariteetti erän jälkeen: `hvor-mange-masker-skal-du-legge-opp...` 13 255 merkkiä / 2 093 sanaa / 13 H2-osiota (EN 13 199 / 2 224 / 13, SV 13 315 / 2 082 / 13), `hvor-mye-garn-trenger-jeg...` 9 918 merkkiä / 1 555 sanaa / 8 H2-osiota (EN 10 608 / 1 748 / 8, SV 10 257 / 1 596 / 8)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/hvor-mange-masker-skal-du-legge-opp/` ja `/no/artikler/hvor-mye-garn-trenger-jeg/`
+- Norjan artikkelierä 7:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/blokke-strikk-vatt-damp-spray.md` ja `src/content/articles/no/strikke-lue-metoder-for-alle-nivaer.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `how-to-block-knitting` ja `how-to-knit-hat`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n routing, Google localized versions / hreflang, Craft Yarn Councilin kokostandardit sekä Vogue Knittingin blocking-/finishing-ohjeistus
+  - `blokke-strikk-vatt-damp-spray.md`: päivitetty EN/FI/SV-pariteettiin lisäämällä fargeblødning-varoitus, akryylin tarkoituksellinen `drepe`-rajaus, hullmønster-blokking, genserdeler-blokking, tørketid kuidun mukaan, utstyr-laajennus, etter blokking -osio sekä kaksi puuttuvaa FAQ:ta
+  - `blokke-strikk-vatt-damp-spray.md`: pehmennetty vanha liian yksinkertainen kuiturajaus muotoon, jossa akryylin lämpövaikutus on pysyvä, bomull/lin voidaan muotoilla mutta ne eivät palaudu kuten villa, ja alpakkaa/superwashia käsitellään konservatiivisesti
+  - `strikke-lue-metoder-for-alle-nivaer.md`: päivitetty EN/FI/SV-pariteettiin lisäämällä top-down-metodi, rundstrikkingin omgangsstart-/stripehakk-huomio, flat strikkingin vrangmaske-/sauma-caveat, CYC-pohjaiset aikuisten ja lasten kokorajat, toppfellingin fellingstakt/parvise fellinger, vrangbordvalg-osio, garnmengde-haarukka sekä fôrede luer -FAQ
+  - `strikke-lue-metoder-for-alle-nivaer.md`: lokalisoitu muutama englanninkielinen ohjekatkelma norjaksi (`k1p1/k2p2`, `K10, k2tog; rep from`) ja pidetty jäljelle jäävät metodinimet (`magic loop`, `tubular cast on`, `i-cord`) tarkoituksellisina tekniikkatermeinä
+  - termit tarkistettu norjan linjaan: `blokking`, `våtblokking`, `damping`, `sprayblokking`, `hullmønster`, `genserdeler`, `prøvelapp`, `strikkefasthet`, `ikke-superwash ull`, `superwash ull`, `alpakka`, `bomull`, `lin`, `akryl`, `rundstrikking`, `strømpepinner`, `maskemarkør`, `vrangbord`, `toppfelling`, `negativ bevegelsesvidde`, `bolle`, `dusk`, `fellinger` ja `fôrede luer`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|langanspinner|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; näkyvät osumat ovat tarkoituksellisia tekniikka- tai lankatermejä kuten `magic loop`, `tubular cast on`, `jogless`, `i-cord`, `worsted`, `DK`, `Bulky`, `superwash`, `lace` ja `fingering`
+  - merkkimääräpariteetti erän jälkeen: `blokke-strikk-vatt-damp-spray...` 12 511 merkkiä / 1 955 sanaa / 11 H2 + 2 H3 -osiota (EN 12 924 / 2 110 / 11 H2 + 2 H3, SV 12 980 / 2 031 / 11 H2 + 2 H3), `strikke-lue-metoder-for-alle-nivaer...` 9 996 merkkiä / 1 604 sanaa / 9 H2-osiota (EN 10 040 / 1 705 / 9, SV 10 486 / 1 694 / 9)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/blokke-strikk-vatt-damp-spray/` ja `/no/artikler/strikke-lue-metoder-for-alle-nivaer/`
+- Norjan artikkelierä 8:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/strikke-sokker-sokkeoppskriftens-deler.md` ja `src/content/articles/no/lese-strikkeoppskrift-nybegynnerguide.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `how-to-knit-socks` ja `how-to-read-knitting-pattern`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Craft Yarn Councilin sock sizing / standards -pinta, Craft Yarn Councilin pattern-reading/abbreviation-pinta sekä Vogue Knittingin chart/abbreviation-pinta
+  - `strikke-sokker-sokkeoppskriftens-deler.md`: päivitetty EN/SV-pariteettiin lisäämällä koko sock-anatomia eritellymmin, ovenfra og ned vs tå opp -edut/haitat, häälapp/kile-, forkortede pinner- ja afterthought heel -tarkennukset, käsinvärjätty/itse raidoittuva sokkegarn, pinner-metodien vertailu, 28-36 masker / 10 cm -tiheysrajaus, mittaus- ja 10 % negativ bevegelsesvidde -osio, CYC-fotmåttien varovainen mittausperuste sekä puuttuvat FAQ:t
+  - `lese-strikkeoppskrift-nybegynnerguide.md`: päivitetty EN/FI/SV-pariteettiin lisäämällä vanskelighetsgrad-, notes-, spesialmasker-, speilvendt forming-, diagram-symbolit-, japanske symboldiagram- ja PDF/papir-osiot sekä puuttuvat FAQ:t; korjattu aiempi stjernerapport-markdown käyttämään oikeaa `*K2...`-esimerkkiä
+  - termit tarkistettu norjan linjaan: `strikkeoppskrift`, `maskemønster`, `strikkefasthet`, `prøvelapp`, `pinner`, `omganger`, `rettsiden`, `vrangsiden`, `rapport`, `diagram`, `tegnforklaring`, `vrangbord`, `hælkappe`, `kile`, `strømpepinner`, `rundpinne`, `negativ bevegelsesvidde`, `fotomkrets`, `garntykkelse`, `løpelengde`, `fargeparti` ja `mønsterstrikk`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|langanspinner|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; näkyvät osumat ovat tarkoituksellisia ohje-/tekniikkatermejä kuten `K to end`, `Long-tail cast on`, `Judy's Magic Cast On`, `Turkish cast on` ja `Jeny's Surprisingly Stretchy Bind-Off`
+  - merkkimääräpariteetti erän jälkeen: `strikke-sokker-sokkeoppskriftens-deler...` 13 468 merkkiä / 2 068 sanaa / 9 H2-osiota (EN 13 113 / 2 170 / 9, SV 13 329 / 2 027 / 9), `lese-strikkeoppskrift-nybegynnerguide...` 14 954 merkkiä / 2 241 sanaa / 14 H2 + 2 H3 -osiota (EN 13 924 / 2 194 / 14 H2 + 2 H3, SV 15 131 / 2 255 / 14 H2 + 2 H3)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/strikke-sokker-sokkeoppskriftens-deler/` ja `/no/artikler/lese-strikkeoppskrift-nybegynnerguide/`
+- Norjan artikkelierä 9:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/lese-garnetikett-symboler.md` ja `src/content/articles/no/bytte-garn-i-strikkeoppskrift.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `how-to-read-yarn-label` ja `how-to-substitute-yarn`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Craft Yarn Councilin Yarn Label Information, Standard Yarn Weight System ja Care Symbols -pinnat; CYC:n nykyinen painojärjestelmä kertoo Size 8 / Blocking / Plus -symbolipäivityksestä
+  - `lese-garnetikett-symboler.md`: päivitetty EN/FI/SV-pariteettiin muuttamalla vanha 0-7-painoskaalaväite varovaiseksi Size 8 -päivityksen huomioivaksi muotoiluksi, lokalisoimalla kuituesimerkit norjaksi, pehmentämällä superwash/maskinvask-väitettä, muuttamalla `4 inches` -> `4 tommer`, täsmentämällä vekt/løpelengde-osiota sekä poistamalla julkaistua ominaisuutta muistuttava `Yarn Label Scanner` / kamera -claim
+  - `lese-garnetikett-symboler.md`: FAQ:t tasattu EN/FI/SV-linjaan niin, että vieraskielisen etiketin vastaus ei väitä symbolien kattavan kaikkea ja 10 cm vs 4 tommer -vastaus korostaa mittaamista lähteen mukaan eikä käsittele niitä täysin vaihdettavina
+  - `bytte-garn-i-strikkeoppskrift.md`: poistettu vanha eurohinta-arvio, korjattu akryyli/blokking-lause, täsmennetty matalan riskin esimerkki noin kahteen maskaan / 10 cm ja rewordattu `håndfølelsen` luonnollisempaan `følelsen i stoffet` -muotoon
+  - termit tarkistettu norjan linjaan: `garnetikett`, `garntykkelse`, `strikkefasthet`, `prøvelapp`, `pinnestørrelse`, `løpelengde`, `nøste`, `fiberinnhold`, `fargeparti`, `fargenummer`, `superwash-ull`, `ubehandlet ull`, `maskinvaskbar`, `garnbytte`, `maskemønster`, `blokking`, `mønsterstrikk`, `fall` ja `garnberegner`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|langanspinner|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: jäljelle jäi vain tarkoituksellinen etikettiteksti `no dye lot`; muut hakulistan osumat poistettu tai lokalisoitu
+  - merkkimääräpariteetti erän jälkeen: `lese-garnetikett-symboler...` 8 548 merkkiä / 1 270 sanaa / 9 H2-osiota (EN 8 851 / 1 468 / 9, SV 8 834 / 1 310 / 9), `bytte-garn-i-strikkeoppskrift...` 8 401 merkkiä / 1 262 sanaa / 7 H2-osiota (EN 8 804 / 1 424 / 7, SV 8 670 / 1 292 / 7)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/lese-garnetikett-symboler/` ja `/no/artikler/bytte-garn-i-strikkeoppskrift/`
+- Norjan artikkelierä 10:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/male-strikkefasthet.md` ja `src/content/articles/no/ukjent-garn-uten-garnetikett.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `how-to-measure-knitting-gauge` ja `identify-mystery-yarn`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections ja i18n routing, Google localized versions / canonicalization, Craft Yarn Councilin WPI- ja Standard Yarn Weight System -pinnat, Vogue Knittingin gauge-ohje sekä norjankieliset strikkefasthet-/prøvelapp-lähdepinnat
+  - `male-strikkefasthet.md`: päivitetty EN/FI/SV-pariteettiin poistamalla `inch`-pohjaiset esimerkit näkyvästä tekstistä, korjaamalla `per cm` -> `per 10 cm`, vaihtamalla `Spenning er personlig` luonnollisempaan `Håndlag er personlig`, täsmentämällä maskeantall/pinner per 10 cm -prioriteettia sekä korjaamalla `Den blokkte strikkefastheten` -> `Strikkefastheten etter blokking`
+  - `male-strikkefasthet.md`: pidetty rakenne ennallaan 9 H2 -osiossa ja säilytetty sisäiset norjankieliset linkit `pinnestørrelsestabellen`, `hva-er-strikkefasthet`, `oppleggskalkulator`, `garnberegner` ja `strikke-provelapp-steg-for-steg`
+  - `ukjent-garn-uten-garnetikett.md`: päivitetty EN/FI/SV-pariteettiin lisäämällä WPI:n norjankielinen selitys `viklinger per tomme`, CYC:n 0-7 / Size 8 -varovainen rajaus, branntestin vesi-/ventilasjon-/smelte-/gassiturvallisuus, superwash-/akryl-vesitestien konservatiivisempi muotoilu sekä poistamalla vanha `Yarn Label Scanner` -app-claim
+  - `ukjent-garn-uten-garnetikett.md`: rewordattu `mystisk garn/nøste`, `sporene` ja `overkill` luonnollisemmaksi norjaksi ilman uutta tuoteväitettä
+  - termit tarkistettu norjan linjaan: `strikkefasthet`, `prøvelapp`, `masker`, `pinner`, `omganger`, `pinnestørrelse`, `glattstrikk`, `hullmønster`, `vrangbord`, `blokking`, `garntykkelse`, `WPI`, `viklinger per tomme`, `fiberinnhold`, `superwash-ull`, `ikke-superwash-ull`, `fargeekthet`, `garnlager` ja `manuelt garnkort`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|langanspinner|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; jäljelle jäivät vain frontmatterin tekniset avaimet `category: gauge-calculations` ja `translationKey`, sekä tarkoitukselliset termit `wraps per inch (WPI)` ja `superwash`
+  - merkkimääräpariteetti erän jälkeen: `male-strikkefasthet...` 9 855 merkkiä / 1 515 sanaa / 9 H2-osiota (EN 10 305 / 1 718 / 9, SV 10 092 / 1 569 / 9), `ukjent-garn-uten-garnetikett...` 6 609 merkkiä / 1 016 sanaa / 6 H2 + 3 H3 -osiota (EN 6 394 / 1 074 / 6 H2 + 3 H3, SV 6 901 / 1 039 / 6 H2 + 3 H3)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/male-strikkefasthet/` ja `/no/artikler/ukjent-garn-uten-garnetikett/`
+- Norjan artikkelierä 11:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/fordele-okninger-og-fellinger-jevnt.md` ja `src/content/articles/no/nytt-noste-midt-pa-pinnen.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `increase-decrease-evenly` ja `join-new-ball-of-yarn`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections / i18n -dokumentaatio, Google localized versions / hreflang, Craft Yarn Councilin knitting abbreviations / standards -pinta sekä Vogue Knittingin yarn-join-ohjeistus
+  - `fordele-okninger-og-fellinger-jevnt.md`: päivitetty EN/SV-pariteettiin lisäämällä yhden rivin kaava, siisti 80/8-lisäysesimerkki, jakojäännösesimerkki, fellingssiden lisäselitys, laajemmat lisäys- ja fellingstyypit, kantmasker/sømrom, vrang-maske-kohtien käsittely, rundstrikking, symmetrisk/parvis forming, yleiset intervallit, sisäiset no-linkit sekä 6 FAQ-vastausta
+  - `fordele-okninger-og-fellinger-jevnt.md`: poistettu vanha `KnitTools-appen`-muotoinen app-claim ja korvattu yleisellä työkalurajauksella, jotta keskeneräistä app-ominaisuutta ei esitetä julkaistuna norjasisällössä
+  - `nytt-noste-midt-pa-pinnen.md`: päivitetty EN/FI/SV-pariteettiin lisäämällä nopea vertailutaulukko, overlappsendene-festing-ohje, Russian joinin nål-/garntykkelse-caveatit, spit splice -testaus, magic knot -rajaus, håndfarget garn -nøstevaihto, fabrikknuter, garnbrudd midt i maske sekä 6 FAQ-vastausta
+  - termit tarkistettu norjan linjaan: `økninger`, `fellinger`, `pinne`, `omgang`, `rapport`, `glattstrikk`, `rillestrikk`, `vrangbord`, `kantmasker`, `sømrom`, `jarekant`, `2 r sammen`, `2 vr sammen`, `ssk`, `sentral dobbelfelling`, `nøste`, `overlappsskjøt`, `feste tråder`, `stoppenål`, `spit splice`, `toveskjøt`, `ikke-superwash ull`, `håndfarget garn`, `fargeparti` ja `fabrikknuter`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop|KnitTools-appen|KnitTools app`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; jäljelle jäi vain frontmatterin tekninen `category: gauge-calculations`
+  - merkkimääräpariteetti erän jälkeen: `fordele-okninger-og-fellinger-jevnt...` 13 121 merkkiä / 2 162 sanaa / 15 H2-osiota (EN 15 281 / 2 587 / 15, SV 12 047 / 1 964 / 15), `nytt-noste-midt-pa-pinnen...` 11 697 merkkiä / 1 945 sanaa / 12 H2 + 1 H3 -osiota (EN 12 000 / 2 037 / 12 H2 + 1 H3, SV 11 528 / 1 893 / 12 H2 + 1 H3)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/fordele-okninger-og-fellinger-jevnt/` ja `/no/artikler/nytt-noste-midt-pa-pinnen/`
+- Norjan artikkelierä 12:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/strikke-forste-skjerf.md` ja `src/content/articles/no/strikkepinner-metall-tre-bambus.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `knit-first-scarf` ja `knitting-needle-materials`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections / i18n -dokumentaatio, Google localized versions / hreflang, Craft Yarn Councilin yarn weight system ja hooks & needles -standardit sekä aloittelijahuivi- ja puikkomateriaaliohjeet
+  - `strikke-forste-skjerf.md`: päivitetty EN/SV-pariteettiin lisäämällä `Holde garnet`, pehmeämpi visible worsted -lankapohja, luomisen jälkeinen laskenta, tarkempi rillestrikk-ohjeistus, neulepinnan lukeminen, yleiset aloittelijavirheet, uuden nøsten lisääminen, avfelling-reunan joustotesti, laajempi blokking, frynser-osio, `Mellom øktene` sekä FAQ:t langan katkeamisesta, rett/vrang-valinnasta ja TV-neulomisesta
+  - `strikke-forste-skjerf.md`: poistettu vanhat eurohinta-arviot ja pidetty sisäiset norjankieliset linkit nykyisiin julkaistuihin kohteisiin kuten `/no/artikler/beste-garn-for-nybegynnere/`, `/no/artikler/pinnestorrelse-for-nybegynnere/`, `/no/artikler/nytt-noste-midt-pa-pinnen/` ja `/no/artikler/redde-mistede-masker-uten-a-rekke-opp/`
+  - `strikkepinner-metall-tre-bambus.md`: päivitetty EN/SV-pariteettiin lisäämällä nopea materiaalivertailutaulukko, metallipintojen ja brändiesimerkkien erot, puulajien ja hoidon rajaukset, bambun kulumis-/kosteuscaveatit, karbonfiber-hybridihuomio, `Spissens form`, `Skjøten i utskiftbare rundpinner`, laajempi materiaalin sovitus lankaan sekä FAQ:t karkeasta bambusta ja säilytyksestä
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien muutoksia
+  - termit tarkistettu norjan linjaan: `skjerf`, `rillestrikk`, `glattstrikk`, `perlestrikk`, `pinner`, `masker`, `legge opp`, `felle av`, `garnende`, `nøste`, `fargeparti`, `strikkefasthet`, `metallpinner`, `trepinner`, `bambuspinner`, `spiss`, `vaier`, `rundpinne` ja `strømpepinner`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop|KnitTools-appen|KnitTools app`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; hakulistan riskitermeistä ei jäänyt osumia
+  - merkkimääräpariteetti erän jälkeen: `strikke-forste-skjerf...` 12 888 merkkiä / 2 167 sanaa / 11 H2 + 4 H3 -osiota (EN 12 805 / 2 221 / 11 H2 + 4 H3, SV 13 166 / 2 184 / 11 H2 + 4 H3), `strikkepinner-metall-tre-bambus...` 10 332 merkkiä / 1 606 sanaa / 10 H2-osiota (EN 10 703 / 1 733 / 10, SV 10 445 / 1 603 / 10)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/strikke-forste-skjerf/` ja `/no/artikler/strikkepinner-metall-tre-bambus/`
+- Norjan artikkelierä 13:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/rapporter-i-strikkeoppskrifter.md` ja `src/content/articles/no/storrelser-i-strikkeoppskrifter.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `knitting-pattern-repeats` ja `knitting-pattern-sizes-and-fit`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections / i18n -dokumentaatio, Google localized versions / hreflang, Craft Yarn Councilin pattern-reading-, body-sizing-, woman-size- ja hooks-and-needles -pinnat sekä Tin Can Knitsin ja Brooklyn Tweedin koonvalintaohjeet
+  - `rapporter-i-strikkeoppskrifter.md`: päivitetty EN/SV-pariteettiin lisäämällä oppsettspinne / `as established` -selitys, monipinnerapporttien tarkempi varoitus, maskemarkør-kontrollipisteet, diagrammien rapportbokser, livline-ohje, halvforskjøvede/flyttede rapporter sekä kaksi puuttuvaa FAQ-vastausta
+  - `rapporter-i-strikkeoppskrifter.md`: lokalisoitu vanhat englanninkieliset `k/p`-tyyppiset esimerkit norjalaiseen `r/vr`-linjaan ja poistettu vanha KnitTools Row Counter -app-claim geneerisen omgangsteller/paperimerkinnän tieltä
+  - `storrelser-i-strikkeoppskrifter.md`: päivitetty EN/SV-pariteettiin lisäämällä tarkemmat mittauskohdat, skulderbredde, målskisse/ermehullsdybde, lyhyemmän/pidemmän vartalon muutosrajaukset, ulik størrelse for bol og ermer, Craft Yarn Councilin bevegelsesvidde-rajat, konstruksjon vaikuttaa passformiin, forkortede pinner for bysteforming sekä neljä FAQ-vastausta
+  - `storrelser-i-strikkeoppskrifter.md`: frontmatterin routeen vaikuttavat kentät säilytetty, mutta description täsmennetty käyttämään luonnollisempaa `målskisser`-termiä `skjema`-sanan sijaan
+  - termit tarkistettu norjan linjaan: `rapport`, `stjernerapport`, `klammer`, `parenteser`, `oppsettspinne`, `maskemarkør`, `diagram`, `rapportboks`, `livline`, `halvforskjøvet rapport`, `bevegelsesvidde`, `kroppsmål`, `ferdige mål`, `målskisse`, `brystmål`, `bystemål`, `skulderbredde`, `ermehullsdybde`, `bol`, `ermer`, `bærestykke`, `raglan`, `isydd erme`, `forkortede pinner` ja `bysteforming`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop|KnitTools-appen|KnitTools app`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; jäljelle jäivät vain tarkoitukselliset englanninkielisissä ohjeissa esiintyvät ilmaisut `Beginning with Row 1, work in pattern as follows...`, `set-up row`, `set-up round`, `as established` ja `as set`
+  - merkkimääräpariteetti erän jälkeen: `rapporter-i-strikkeoppskrifter...` 11 056 merkkiä / 1 789 sanaa / 11 H2-osiota (EN 10 787 / 1 849 / 11, SV 11 205 / 1 788 / 11), `storrelser-i-strikkeoppskrifter...` 13 272 merkkiä / 2 023 sanaa / 13 H2-osiota (EN 13 116 / 2 157 / 13, SV 12 924 / 2 010 / 13)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/rapporter-i-strikkeoppskrifter/` ja `/no/artikler/storrelser-i-strikkeoppskrifter/`
+- Norjan artikkelierä 14:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/pinnestorrelse-for-nybegynnere.md` ja `src/content/articles/no/holde-orden-pa-strikkeprosjekter.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `needle-size-for-beginners` ja `organize-knitting-projects`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections / i18n -dokumentaatio, Google localized versions / hreflang, Craft Yarn Councilin hooks-and-needles- ja yarn-weight-standardit sekä nykyiset EN/FI/SV-lähdeartikkelit
+  - `pinnestorrelse-for-nybegynnere.md`: päivitetty EN/SV-pariteettiin lisäämällä kokojärjestelmien vertailu (US/metrinen/vanha UK), `Hva du ikke trenger å kjøpe ennå`, laajempi utskiftbart rundpinnesett -rajaus, `Bygge opp håndlaget` sekä FAQ:t US 6 / US 10 -aloituksesta ja merkkivalinnasta
+  - `pinnestorrelse-for-nybegynnere.md`: poistettu vanhat eurohinta-arviot ja korjattu inch-pohjainen neuletiheysrajaus norjan linjaan `omtrent innen to masker per 10 cm`
+  - `holde-orden-pa-strikkeprosjekter.md`: päivitetty EN/SV-pariteettiin lisäämällä `Hvor arbeidsgarnet er`, banderole/fargeparti projektipussissa, puikkokoon/nøstevaihdon/diagrammipoikkeamien muistiinpanot, projektipussin materiaalirajaukset, `Match prosjektet med øyeblikket`, lankamäärän punnitus grammoina sekä selkeämpi aktiivisten projektien minimijärjestelmä
+  - `holde-orden-pa-strikkeprosjekter.md`: poistettu vanha julkaistulta kuulostava `Yarn Label Scanner` -claim ja muutettu KnitTools-maininnat kehitystilaa kuvaavaan `KnitTools utvikles...` -muotoon
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien muutoksia
+  - termit tarkistettu norjan linjaan: `pinnestørrelse`, `pinner`, `rundpinne`, `rette pinner`, `vaier`, `bambus`, `tre`, `metall`, `strikkefasthet`, `håndlag`, `worsted-garn`, `DK-garn`, `bulky-garn`, `strikkeprosjekt`, `WIP`, `UFO`, `prosjektpose`, `arbeidsgarn`, `nøste`, `banderole`, `fargeparti`, `maskeringstape`, `bærestykke`, `hullmønsterdiagram`, `gramantall` ja `økthistorikk`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop|KnitTools-appen|KnitTools app|Yarn Label Scanner`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; jäljelle jäivät tarkoitukselliset termit ja tuotemerkit kuten `WIP`, `UFO`, `US`, `UK`, `DK`, `worsted`, `bulky`, `chunky`, `Clover Takumi`, `KnitPro`, `TV-strikking`, `ziplock` ja `tracker`
+  - merkkimääräpariteetti erän jälkeen: `pinnestorrelse-for-nybegynnere...` 9 165 merkkiä / 1 410 sanaa / 9 H2-osiota (EN 9 400 / 1 548 / 9, SV 9 426 / 1 443 / 9), `holde-orden-pa-strikkeprosjekter...` 8 813 merkkiä / 1 375 sanaa / 8 H2-osiota (EN 9 264 / 1 529 / 8, SV 9 113 / 1 452 / 8)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/pinnestorrelse-for-nybegynnere/` ja `/no/artikler/holde-orden-pa-strikkeprosjekter/`
+- Norjan artikkelierä 15:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/plukke-opp-masker-langs-strikket-kant.md` ja `src/content/articles/no/sy-sammen-strikkede-deler-madrassting.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `pick-up-stitches` ja `seam-knitted-pieces`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang, Purl Sohon picking up stitches / mattress stitch / seaming stockinette -ohjeet sekä Tin Can Knitsin picking up and knitting stitches -ohje
+  - `plukke-opp-masker-langs-strikket-kant.md`: päivitetty EN/SV-pariteettiin lisäämällä løftede kantmasker, rillestrikket kant, eri oppplukkingsforhold, diagonaalit halsutringning-reunat, maskojen tasainen jakaminen, heklenål, kontrasttråd, steek-reuna, näkyvän oppplukkingsraden korjaus sekä laajennetut FAQ:t pituuden lisäämisestä ja aaltoilevasta reunasta
+  - `sy-sammen-strikkede-deler-madrassting.md`: päivitetty EN/SV-pariteettiin lisäämällä sömmetoder-vertailutaulukko, omvendt glattstrikk / strukturerte flater, halvmaske vrangbordissa, maskesting / Kitchener stitch, horisontaaliset ja elävät maskit, isydd erme -caveatit, striper/flerfarget strikk, sömgarnin paksuus, yleiset virheet sekä puuttuvat FAQ:t
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty; saumausartikkelin description täsmennettiin kattamaan myös maskesting
+  - termit tarkistettu norjan linjaan: `plukke opp masker`, `strikkefasthet`, `pinner`, `kantmaske`, `rillestrikk`, `glattstrikk`, `vrangbord`, `heklenål`, `kontrasttråd`, `steek`, `madrassting`, `sømmonn`, `sammenstrikket avfelling`, `maskesting`, `Kitchener stitch`, `kastesting`, `attersting`, `isydde ermer`, `flerfarget strikk` ja `blokke`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop|KnitTools-appen|KnitTools app|Yarn Label Scanner`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; jäljelle jäivät vain frontmatterin tekniset `translationKey`-arvot ja tarkoituksellinen englanninkielisissä ohjeissa esiintyvä termi `Kitchener stitch`
+  - merkkimääräpariteetti erän jälkeen: `plukke-opp-masker-langs-strikket-kant...` 12 256 merkkiä / 1 961 sanaa / 12 H2 + 2 H3 -osiota (EN 11 870 / 1 999 / 12 H2 + 2 H3, SV 12 123 / 1 955 / 12 H2 + 2 H3), `sy-sammen-strikkede-deler-madrassting...` 14 302 merkkiä / 2 201 sanaa / 11 H2 + 2 H3 -osiota (EN 13 881 / 2 256 / 11 H2 + 2 H3, SV 14 039 / 2 183 / 11 H2 + 2 H3)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/plukke-opp-masker-langs-strikket-kant/` ja `/no/artikler/sy-sammen-strikkede-deler-madrassting/`
+- Norjan artikkelierä 16:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/folge-med-pa-strikketid-og-tempo.md` ja `src/content/articles/no/holde-styr-pa-pinner-og-omganger.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `track-knitting-time` ja `track-rows-knitting`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang, Craft Yarn Councilin how-to-read-knitting-pattern ja knitting abbreviations sekä Vogue Knittingin techniques & abbreviations PDF
+  - `folge-med-pa-strikketid-og-tempo.md`: päivitetty EN/SV-pariteettiin poistamalla liian varmat nopeusväitteet ja kannettaviksi esitetyt pinner-per-time -haarukat, muuttamalla `tracker`/`tracking`-lainat norjalaisempaan `sporing`/`strikketidssporing`-linjaan ja täsmentämällä KnitTools-maininta kehitystilaa kuvaavaksi
+  - `holde-styr-pa-pinner-og-omganger.md`: päivitetty EN/SV-pariteettiin lisäämällä oppskrift-sivulle merkitseminen, digitaaliset knappetellere, fargekodede maskemarkører, mønsterankerit, luonnolliset regneark/notatapp-taukopaikat, yhdistelmämenetelmän `samtidig`-linkki, `Rundt eller frem og tilbake`, `Når du har mistet tellingen` sekä stripe- ja flere tellere -FAQ:t
+  - `holde-styr-pa-pinner-og-omganger.md`: poistettu vanhat talekommando-/stemmestyrt-/widget-claimit ja muutettu KnitTools-maininta varovaiseen `utvikles...`-muotoon
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty; row-counter-artikkelin description ja yksi tagi korjattiin poistamaan `widgets` ja `maskecounter`
+  - termit tarkistettu norjan linjaan: `strikketid`, `tempo`, `øktsporing`, `pinner`, `omganger`, `omgangsteller`, `pinneantall`, `maskemarkør`, `rapport`, `rettsidepinne`, `mønsterstrikk`, `vrangbord`, `oppleggskant`, `felling`, `fremdriftsmarkører`, `stripepar`, `strikkefasthet`, `garntykkelse` ja `prosjektorganisering`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop|KnitTools-appen|KnitTools app|Yarn Label Scanner`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; jäljelle jäivät frontmatterin tekniset `category: app-tools` ja `translationKey`-arvot sekä norjakontekstissa tarkoitukselliset lainat/termit kuten `app`, `timer`, `worsted` ja `WIP-er`
+  - merkkimääräpariteetti erän jälkeen: `folge-med-pa-strikketid-og-tempo...` 8 544 merkkiä / 1 341 sanaa / 8 H2 + 3 H3 -osiota (EN 8 966 / 1 457 / 8 H2 + 3 H3, SV 8 850 / 1 373 / 8 H2 + 3 H3), `holde-styr-pa-pinner-og-omganger...` 9 690 merkkiä / 1 509 sanaa / 11 H2 -osiota (EN 9 809 / 1 655 / 11, SV 9 740 / 1 528 / 11)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/folge-med-pa-strikketid-og-tempo/` ja `/no/artikler/holde-styr-pa-pinner-og-omganger/`
+- Norjan artikkelierä 17:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/hva-er-strikkefasthet.md` ja `src/content/articles/no/hvorfor-ruller-strikketoyet-seg.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `what-is-gauge-in-knitting` ja `why-knitting-curls`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang, Vogue Knittingin gauge-ohje, Purl Sohon gauge/blocking/curling-reunahuomiot sekä arXiv-paperi `Curling morphology of knitted fabrics: Structure and Mechanics`
+  - `hva-er-strikkefasthet.md`: päivitetty EN/SV-pariteettiin lisäämällä strikkestil-osio, pinnemateriaalin vaikutus, ennen/jälkeen blokking -rajaus, laajempi garnoppførsel-osio, maskemønsterfasthet vs glattstrikkfasthet, bevegelsesvidde/passform, `Hvorfor 10 cm?`, strikkefasthetsverktøy sekä kolme puuttuvaa FAQ-vastausta
+  - `hvorfor-ruller-strikketoyet-seg.md`: päivitetty EN/SV-pariteettiin lisäämällä superwash-ull-osio, kantbredde-taulukko, løftet kantmaske, akryylin höyryllä "drepe" -rajaus, omvendt glattstrikk, steeking/glattstrikk rundt sekä kaksi puuttuvaa FAQ-vastausta
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty; molempien description-kenttiä täsmennettiin vastaamaan laajennettua sisältöä
+  - termit tarkistettu norjan linjaan: `strikkefasthet`, `prøvelapp`, `pinner`, `omganger`, `pinnestørrelse`, `glattstrikk`, `vrangspenning`, `rundstrikking`, `blokking`, `våtblokking`, `bevegelsesvidde`, `passform`, `rillestrikk`, `perlestrikk`, `vrangbord`, `løftet kantmaske`, `garntykkelse`, `steek`, `avfelling` ja `glattstrikk rundt`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop|KnitTools-appen|KnitTools app|Yarn Label Scanner`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; jäljelle jäivät frontmatterin tekniset `category`/`translationKey`-arvot sekä tarkoitukselliset norjakontekstissa käytetyt termit kuten `gauge`, `tension`, `inches`, `Lace`, `Fingering`, `DK`, `Worsted`, `Bulky`, `cardigans` ja `steeking`
+  - merkkimääräpariteetti erän jälkeen: `hva-er-strikkefasthet...` 12 605 merkkiä / 1 887 sanaa / 13 H2 -osiota (EN 12 536 / 2 054 / 13, SV 13 243 / 2 056 / 13), `hvorfor-ruller-strikketoyet-seg...` 10 132 merkkiä / 1 557 sanaa / 7 H2 + 6 H3 -osiota (EN 10 245 / 1 640 / 7 H2 + 6 H3, SV 10 457 / 1 600 / 7 H2 + 6 H3)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK yksinään ja 411 sivua rakennettu; buildissä mukana `/no/artikler/hva-er-strikkefasthet/` ja `/no/artikler/hvorfor-ruller-strikketoyet-seg/`
+- Norjan artikkelierä 18:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/garnfibre-sammenlignet.md` ja `src/content/articles/no/hvor-mye-garn-til-teppe.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `yarn-fibers-compared` ja `yarn-for-blanket`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang, Craft Yarn Councilin yarn weight - ja yarn label -standardit sekä Lion Brandin Wool-Ease / Wool-Ease Thick & Quick -tuotetiedot
+  - `garnfibre-sammenlignet.md`: pidetty rakenne EN/SV-pariteetissa mutta tarkennettu väitteitä varovaisemmiksi: poistettu introtoisto, pehmennetty bomull/akryl/alpakka/nylon/luksuskuitu-väitteitä, korjattu `Superwash ull` -> `Superwash-ull` ja täsmennetty pesu/blokking-muotoilua
+  - `hvor-mye-garn-til-teppe.md`: päivitetty EN/SV-pariteettiin lisäämällä Wool-Ease-esimerkki metreiksi muunnettuna, varovaisemmat maskemønsterjusteringer, tarkempi fargeparti-osio, laajemmat garntykkelse-kuvaukset, modulaaristen peittojen rajaus, uusi `Pinner, fibre og hva som faktisk holder` -osio sekä laajemmat FAQ-vastaukset
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien muutoksia
+  - termit tarkistettu norjan linjaan: `garnfibre`, `fiberinnhold`, `ull`, `superwash-ull`, `bomull`, `akryl`, `alpakka`, `silke`, `lin`, `mohair`, `nylon`, `fiberblandinger`, `garntykkelse`, `garnmengde`, `løpelengde`, `nøste`, `fargeparti`, `prøvelapp`, `pinner`, `rundpinne`, `vaier`, `Worsted`, `DK`, `Bulky`, `Fingering`, `rillestrikk`, `mønsterstrikk`, `trådsprang`, `blokking` ja `restegarn`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop|KnitTools-appen|KnitTools app|Yarn Label Scanner`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; jäljelle jäivät frontmatterin tekniset `category`/`translationKey`-arvot sekä tarkoitukselliset norjakontekstissa käytetyt termit kuten `moss stitch`, `Fair Isle`, `Worsted`, `DK`, `Bulky`, `Fingering`, `Lion Brand`, `Wool-Ease`, `Color Lot` ja `log cabin`
+  - merkkimääräpariteetti erän jälkeen: `garnfibre-sammenlignet...` 11 434 merkkiä / 1 805 sanaa / 7 H2 -osiota (EN 11 908 / 1 875 / 7, SV 12 051 / 1 850 / 7), `hvor-mye-garn-til-teppe...` 9 226 merkkiä / 1 456 sanaa / 8 H2 -osiota (EN 9 782 / 1 600 / 8, SV 9 403 / 1 476 / 8)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/garnfibre-sammenlignet/` ja `/no/artikler/hvor-mye-garn-til-teppe/`
+
+- Norjan artikkelierä 19:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/no/bytte-garntykkelse-i-strikkeoppskrift.md` ja `src/content/articles/no/hvor-mye-garn-til-genser.md`
+  - vertailtu EN/FI/SV/NO-parit `translationKey`-avaimilla `yarn-weight-substitution` ja `yarn-for-sweater`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang, Craft Yarn Councilin Standard Yarn Weight System, CYC yarn substitution -FAQ sekä CYC body measurements / sweater ease -taulukko
+  - `bytte-garntykkelse-i-strikkeoppskrift.md`: päivitetty EN/SV-pariteettiin lisäämällä yksityiskohtaiset muutokset maskeantall/pinnestørrelse/stoff/garnmengde/prosjekttid-osiolle, riskiarviot ermetopp/hullmønster/mønsterstrikk/fletter-tapauksiin, Worsted->DK-laskuesimerkki, kuusivaiheinen uudelleenlaskenta, kaksinkertaisen langan suuntaa-antavat kategoriat, vanhojen ohjeiden/WPI:n rajaus sekä laaja FAQ
+  - `hvor-mye-garn-til-genser.md`: päivitetty EN/SV-pariteettiin poistamalla inch-jäämät ja liian tarkat prosenttiväitteet, pehmentämällä style/maskemønster/erme/bærestykke-väitteet, lisäämällä negatiivinen bevegelsesvidde, konstruksjon-og-garnfordeling-osio, retur-/lisänøste-muotoilu, garnlagerista taaksepäin laskemisen lisärajaukset sekä fiber-FAQ
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu norjan linjaan: `garntykkelse`, `strikkefasthet`, `prøvelapp`, `maskeantall`, `pinnestørrelse`, `garnmengde`, `løpelengde`, `nøste`, `bol`, `ermer`, `bærestykke`, `bevegelsesvidde`, `fletter`, `hullmønster`, `mønsterstrikk`, `trådsprang`, `Fingering`, `DK`, `Worsted`, `Bulky`, `Sport`, `Aran`, `WPI`, `senket skulder`, `strikkejakke`, `rundfelling`, `opplukket halskant`, `perlestrikk`, `blokking` ja `fiber`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|skanner|kamera|talekommando|talekommandoer|stemmedagbok|samtalestemme|stemmestyr|talegjenkjenning|mikrofon|garnetikettskanner|garnskanning|mønsterigenk|parser|tolk|\bdollar\b|\beuro\b|\$|€|widget|widgets|engangskjøp|engangskjop|KnitTools-appen|KnitTools app|Yarn Label Scanner`
+  - suomenkielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: osumat tarkistettu; jäljelle jäivät frontmatterin tekniset `category`/`translationKey`-arvot sekä tarkoitukselliset norjakontekstissa käytetyt termit kuten `Fingering`, `DK`, `Worsted`, `Bulky`, `Sport`, `Aran`, `Lace`, `Fair Isle`, `WPI`, `knitting worsted` ja `brioche`
+  - merkkimääräpariteetti erän jälkeen: `bytte-garntykkelse-i-strikkeoppskrift...` 11 600 merkkiä / 1 751 sanaa / 9 H2 -osiota (EN 13 203 / 2 099 / 10, SV 11 702 / 1 768 / 9), `hvor-mye-garn-til-genser...` 8 573 merkkiä / 1 322 sanaa / 8 H2 -osiota (EN 9 172 / 1 500 / 8, SV 8 775 / 1 362 / 8)
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/no/artikler/bytte-garntykkelse-i-strikkeoppskrift/` ja `/no/artikler/hvor-mye-garn-til-genser/`
+
+- Norjan lopputarkistus:
+  - tarkistettu nykyinen etenemisloki, työpuun rajattu diff, `NORWEGIAN_TRANSLATION_GUIDE.md`, `src/i18n/config.ts`, `src/i18n/articles.ts`, `src/i18n/routes.ts`, `src/pages/no` ja rakennettu `dist/no`
+  - metadata: `src/content/articles/no` sisältää 38 tiedostoa, 38 uniikkia `translationKey`-avainta, 38 `draft: false` -artikkelia ja 38 `lang: no` -artikkelia; `articleTranslations` sisältää 38 norjapolkua
+  - kieli- ja SEO-signaalit: `getHtmlLang("no")` palauttaa `nb`, `getLocale("no")` palauttaa `nb_NO`, ja rakennetuissa esimerkkisivuissa oli `<html lang="nb">`, `hreflang="nb"` sekä `og:locale` arvolla `nb_NO`
+  - koko norjan artikkeli- ja tools-riskigrep app-/AI-/skanneri-/ääni-/hinta-/widget-väitteille: 0 osumaa korjausten jälkeen
+  - korjattu kolme vanhaa app-termiä neutraaliksi tuotebrändiksi: `src/content/articles/no/digital-eller-mekanisk-omgangsteller.md`, `src/content/articles/no/viktig-strikketilbehor-utover-pinner-og-garn.md` ja `src/pages/no/verktoy/strikkeforkortelser.astro` vaihdettiin muodosta `KnitTools-appen` muotoon `KnitTools`
+  - suomenkielisten jäämien grep koko norjan artikkeli- ja tools-lähteille: 0 osumaa
+  - englanninkielisten jäämien tarkistus: jäljellä vain tarkoituksellisia neuletermejä, tekniikkanimiä, lankakategorioita ja frontmatterin teknisiä avaimia, kuten `Kitchener stitch`, `Long-tail cast on`, `Judy's Magic Cast On`, `set-up row`, `pattern notes`, `moss stitch`, `gauge/tension`, `category` ja `translationKey`
+  - sisäiset `/no/`-lähdelinkit tarkistettu artikkeleista ja tools-sivuilta: 137 linkkiä, 0 puuttuvaa kohdetta
+  - artikkeli-/dist-tarkistus: 38 norjan artikkelipolkua, 38 lähdeartikkelia, 0 puuttuvaa rakennettua artikkelisivua; `dist/no/artikler/` sisältää artikkelit, indeksin ja kategoriat
+  - tools-/dist-tarkistus: `src/pages/no/verktoy` sisältää 7 odotettua sivua ja `dist/no/verktoy/` tuottaa 7/7 odotettua HTML-sivua
+  - tarkistukset lopputarkistuksen jälkeen: `npx prettier --check .\src\content\articles\no .\src\pages\no\verktoy` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+
+- Ranskan aloitusinventaario:
+  - tarkistettu nykyinen etenemisloki, työpuun diff, `FRENCH_TRANSLATION_GUIDE.md`, ajantasaiset Astro content collections / Astro i18n / Google localized versions -lähteet, `src/i18n/config.ts`, `src/i18n/articles.ts`, `src/i18n/routes.ts`, `src/pages/fr` ja rakennettu `dist/fr`
+  - ranskan termilinja: euroopanranska, `fr`-reitit ja `hreflang="fr"`, metriyksiköt, desimaalipilkku näkyvissä luvuissa, `échantillon`, `mailles`, `rangs`, `tours`, `monter les mailles`, `rabattre les mailles`, `épaisseur de fil`, `aiguilles`, `métrage` ja `compteur de rangs`
+  - metadata: `src/content/articles/fr` sisältää 38 tiedostoa, 38 uniikkia `translationKey`-avainta, 38 `draft: false` -artikkelia ja 38 `lang: fr` -artikkelia; `articleTranslations` sisältää 38 ranskapolkua
+  - kategoriat: `app-tools` 7, `needles` 3, `techniques` 13, `yarn` 9 ja `gauge-calculations` 6
+  - kieli- ja SEO-signaalit: `getHtmlLang("fr")` palauttaa `fr`, `getLocale("fr")` palauttaa `fr_FR`, ja rakennetuissa esimerkkisivuissa oli `<html lang="fr">`, `hreflang="fr"`, `og:locale` arvolla `fr_FR` sekä oikea canonical
+  - sisäiset `/fr/`-lähdelinkit tarkistettu ranskan artikkeleista ja tools-sivuilta: 245 linkkiä, 32 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - artikkeli-/dist-tarkistus: 38 ranskan artikkelipolkua, 38 lähdeartikkelia, 0 puuttuvaa rakennettua artikkelisivua; `dist/fr/articles/` sisältää artikkelit, indeksin ja kategoriat
+  - tools-/dist-tarkistus: `src/pages/fr/outils` sisältää 7 odotettua sivua ja `dist/fr/outils/` tuottaa 7/7 odotettua HTML-sivua
+  - aloitusriskigrep löysi vielä myöhempiin ranskaeriin kuuluvia vanhoja app-/AI-/skanneri-/ääni-/hinta-väitteitä; niitä ei korjattu laajemmin tässä inventaariossa, vaan eteneminen pidetään kahden artikkelin erissä
+
+- Ranskan artikkelierä 1:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/au-meme-temps-dans-un-modele-tricot.md` ja `src/content/articles/fr/meilleures-applications-tricot.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `at-the-same-time-knitting` ja `best-knitting-apps`; ruotsin aiempaa pariteettimallia käytettiin vain työnkulun vertailukohtana
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n routing -dokumentaatio ja Google localized versions / hreflang -dokumentaatio
+  - `au-meme-temps-dans-un-modele-tricot.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä kaksirytminen taulukkoesimerkki, diminutiotyypin ja symmetrian osio, nurjan puolen rytmin osio, boutonnières-osio, muiden neulojien muistiinpanojen tarkistus sekä puuttuva FAQ-vastaus; englanninkielinen esimerkkilause vaihdettiin ranskankieliseksi
+  - `meilleures-applications-tricot.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä suuret kosketusalueet, pattern multiple -rajaukset laskureihin, manuaalisen lankakorttisyötön kitka, puhelin vs tablette, alustan/laitevalinnan osio, vienti-/varmuuskopiointiperustelu sekä smartwatch-FAQ
+  - poistettu vanhat toteutumattomat app-claimit ranskankielisestä app-artikkelista: AI-analyysi, etiketin skannaus, äänikomennot, offline-äänikielet, voice/journal-väitteet ja liian lopullinen ostomalliväite; KnitTools-kuvaus on nyt varovainen `en cours de développement` + `modèle de paiement unique prévu`
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `échantillon`, `mailles`, `rangs`, `endroit`, `envers`, `emmanchure`, `encolure`, `façonnage`, `diminution`, `2 m. ens. à l'endroit`, `point de riz`, `boutonnière`, `compteur de rangs`, `fil`, `métrage`, `épaisseur de fil`, `taille d'aiguille`, `stock`, `bain`, `modèle`, `tablette`, `paiement unique` ja `boîte à outils`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäi tarkoituksellinen `DK` lankakategoriana
+  - merkkimääräpariteetti erän jälkeen: `au-meme-temps-dans-un-modele-tricot...` 11 591 merkkiä / 1 802 sanaa / 12 H2 -osiota (EN 9 537 / 1 574 / 12, NO 9 918 / 1 503 / 12), `meilleures-applications-tricot...` 12 716 merkkiä / 1 971 sanaa / 8 H2 + 4 H3 -osiota (EN 10 563 / 1 693 / 8 H2 + 4 H3, NO 10 682 / 1 569 / 8 H2 + 4 H3)
+  - linkkitarkistus kahdelle tiedostolle: 4 ranskan sisäistä linkkiä, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/au-meme-temps-dans-un-modele-tricot/` ja `/fr/articles/meilleures-applications-tricot/`
+
+- Ranskan artikkelierä 2:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/meilleur-fil-pour-debuter-le-tricot.md` ja `src/content/articles/fr/aiguilles-circulaires-droites-doubles-pointes.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `best-yarn-for-beginners` ja `circular-vs-straight-vs-dpn`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n routing -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Craft Yarn Councilin yarn weight system ja hooks & needles -standardit, DROPS/Garnstudio-ranskan sanasto sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `meilleur-fil-pour-debuter-le-tricot.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä akryylin märkäblokking-caveat, villan muisti/blokking-hyöty, puuvillan lavette-vs-harjoittelu-rajaus, tonal yarn -kompromissi, bain-/banderole-osio, värjäyserävaroitus, écheveau/bobinage-rajaus sekä puuttuvat FAQ:t suuren myymälän vs boutique de laine -ostosta ja langan tunnustelusta
+  - `meilleur-fil-pour-debuter-le-tricot.md`: poistettu vanhat eurohintaesimerkit, kuten acrylique-, mélange laine/acrylique- ja mérinos-kohtien tarkat hintahaarukat
+  - `aiguilles-circulaires-droites-doubles-pointes.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä yleiskuvaustaulukko, kategorioiden päällekkäisyyden selitys, suorien neulojen pituusrajaukset, circulaires-kaapelin pituus ja laatu, magic loop, deux aiguilles circulaires, doubles pointes -échelles- ja longueur/number-osiot, interchangeables-kitien tarkempi vertailu, 23 cm circulaires, ergonomiset muodot sekä laajennettu FAQ
+  - `aiguilles-circulaires-droites-doubles-pointes.md`: poistettu tukematon brändiranking-väite, jossa ChiaoGoo esitettiin verkon innokkaimmin suositeltuna vaihtoehtona
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `fil`, `laine`, `épaisseur de fil`, `métrage`, `pelote`, `bain`, `banderole`, `échantillon`, `worsted`, `DK`, `lace`, `fingering`, `sport`, `bulky`, `super bulky`, `aiguilles droites`, `aiguilles circulaires`, `aiguilles doubles pointes`, `câble`, `magic loop`, `échelles`, `kits interchangeables`, `circulaires de 23 cm`, `bambou`, `bois`, `métal`, `lavette`, `blocage humide`, `composition` ja `consignes d'entretien`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`/`translationKey`-arvot sekä tarkoitukselliset ranskalaisessa neulekontekstissa käytetyt termit kuten `worsted`, `DK`, `lace`, `fingering`, `sport`, `bulky`, `super bulky`, `Size 8`, `magic loop`, `ChiaoGoo`, `KnitPro`, `Knitter's Pride`, `Addi`, `HiyaHiya` ja `Lykke`
+  - merkkimääräpariteetti erän jälkeen: `meilleur-fil-pour-debuter-le-tricot...` 11 514 merkkiä / 1 881 sanaa / 8 H2 -osiota (EN 10 089 / 1 670 / 8, NO 10 065 / 1 626 / 8), `aiguilles-circulaires-droites-doubles-pointes...` 16 737 merkkiä / 2 558 sanaa / 11 H2 + 4 H3 -osiota (EN 13 720 / 2 186 / 11 H2 + 4 H3, NO 13 702 / 2 088 / 11 H2 + 4 H3)
+  - linkkitarkistus kahdelle tiedostolle: 9 ranskan sisäistä linkkiä, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/meilleur-fil-pour-debuter-le-tricot/` ja `/fr/articles/aiguilles-circulaires-droites-doubles-pointes/`
+
+- Ranskan artikkelierä 3:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/compteur-rangs-numerique-ou-mecanique.md` ja `src/content/articles/fr/accessoires-tricot-indispensables.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `digital-vs-physical-row-counters` ja `essential-knitting-tools`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n routing -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Craft Yarn Councilin pattern-reading- ja abbreviations-standardit, DROPS/Garnstudio-ranskan sanasto sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `compteur-rangs-numerique-ou-mecanique.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä fyysisten laskurien tarkemmat kategoriat, LED-sormilaskurit, appien feature-vaihtelun rajaus, fyysisen laskurin varakäyttö, yhdistelmämenetelmän silmukkalaskentaesimerkki, smartwatch-FAQ:n tarkennus sekä LED-sormilaskuri-FAQ
+  - `compteur-rangs-numerique-ou-mecanique.md`: poistettu vanhat toteutumattomat app-claimit: commandes vocales, offline-äänikielet, AI/scan d'étiquette/résumés/journal vocal/conversation vocale ja liian laaja offline-feature-listaus; KnitTools-maininta rajattiin kehitystilaan, tap-countingiin, annulation/rappels/plusieurs compteurs/suivi des sessions -toimintoihin ja paikallisiin ydintietoihin
+  - `accessoires-tricot-indispensables.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä aiguilles à laine -materiaalirajaukset, aiguille courbée, matkaciseaux-turvarajaus, marqueurs-värit ja perlemarkkeri-caveat, mètre ruban rétractable / 150 cm / jauge à aiguilles, mekaanisen ja digitaalisen compteur de rangs -rajaukset, jäykän jauge à aiguilles -etu, torsade-neulojen kokolinja, blocage-vaporisateur/lessive laine, dévidoir-tyypit, projet bag per ouvrage, arrêts de mailles vs fil contrastant, protège-pointes-koko, kits interchangeables sekä tableaux magnétiques / poids de modèle -rajaus
+  - `accessoires-tricot-indispensables.md`: poistettu vanhat eurohintaesimerkit ensimmäisestä kitistä, aiguilles à laine -paketista, jauge à aiguilles -kohdasta, dévidoir/bobinoir-kohdasta ja artisan marker -FAQ:sta
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `compteur de rangs`, `compteur mécanique`, `compteur numérique`, `rappels de rangs`, `plusieurs compteurs`, `suivi des sessions`, `marqueur`, `aiguilles circulaires`, `aiguilles à laine`, `aiguille à torsade`, `jauge à aiguilles`, `mètre ruban`, `marqueurs de maille`, `tapis de blocage`, `épingles en T`, `câbles de blocage`, `dévidoir`, `bobinoir`, `écheveau`, `pelote`, `sac à projet`, `arrêts de mailles`, `protège-pointes` ja `kits d'aiguilles interchangeables`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`/`translationKey`-arvot sekä tarkoitukselliset termit ja tuotemerkit kuten `Android`, `LED`, `KnitTools`, `kacha-kacha`, `clicker`, `golf`, `grafting`, `Etsy`, `US`, `fingering`, `sport`, `worsted`, `bulky`, `cake` ja `zip`
+  - merkkimääräpariteetti erän jälkeen: `compteur-rangs-numerique-ou-mecanique...` 8 720 merkkiä / 1 371 sanaa / 6 H2 -osiota (EN 7 729 / 1 280 / 6, NO 6 524 / 1 009 / 6), `accessoires-tricot-indispensables...` 11 884 merkkiä / 1 893 sanaa / 5 H2 + 13 H3 -osiota (EN 10 013 / 1 628 / 5 H2 + 13 H3, NO 9 427 / 1 422 / 5 H2 + 13 H3)
+  - linkkitarkistus kahdelle tiedostolle: 4 ranskan sisäistä linkkiä, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/compteur-rangs-numerique-ou-mecanique/` ja `/fr/articles/accessoires-tricot-indispensables/`
+
+- Ranskan artikkelierä 4:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/rattraper-maille-tombee.md` ja `src/content/articles/fr/calculateurs-tricot-gratuits.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `fix-dropped-stitches` ja `free-knitting-calculators`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n routing -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Craft Yarn Councilin pattern-reading- ja abbreviations-standardit, Knitting.comin ja Yarnspirationsin dropped stitch -ohjeet sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `rattraper-maille-tombee.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä ensimmäinen turvatoimi, fil de survie -ennaltaehkäisy, tarkempi bord de montage -rajaus, maille torse -korjaus, mohair/fils accrocheurs -osio sekä kaksi puuttuvaa FAQ-vastausta; liian varma "invisible après blocage" -väite muutettiin tarkistus-/défaire-rajaukseksi
+  - `rattraper-maille-tombee.md`: poistettu vanha tuoteclaim `compteur de rangs KnitTools` -tarkistuspisteistä, koska EN/NO-pariteetti ei tue sitä tässä artikkelissa
+  - `calculateurs-tricot-gratuits.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä mailles à monter -laskuesimerkki, quantité de fil -marginaali ja bain-rajaus, raglan-/bord-buffer caveat, uuden koon sovittamisen osio, tableaux de tailles -referenssilinkki sekä puuttuva estimation de fil avant échantillon -FAQ
+  - `calculateurs-tricot-gratuits.md`: poistettu vanhat toteutumattomat app-claimit: offline-käyttövaatimus, scan d'étiquette par IA, voix conversationnelle, "tous les calculateurs et références sans connexion" sekä `achat unique`; KnitTools-maininta rajattiin EN/NO-pariteetin mukaiseen row counting / project management / calculators / references -kuvaukseen
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `maille tombée`, `crochet`, `marqueur ouvrable`, `maille endroit`, `maille envers`, `point mousse`, `côtes`, `fil de survie`, `bord de montage`, `maille torse`, `mohair`, `défaire`, `échantillon`, `mailles`, `métrage`, `épaisseur de fil`, `bain`, `emmanchure`, `tableaux de tailles tricot`, `aiguilles`, `pelotes` ja `références`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäi vain Markdown-otsikko `FAQ`
+  - merkkimääräpariteetti erän jälkeen: `rattraper-maille-tombee...` 10 717 merkkiä / 1 771 sanaa / 12 H2 -osiota (EN 9 588 / 1 688 / 12, NO 9 432 / 1 575 / 12), `calculateurs-tricot-gratuits...` 10 490 merkkiä / 1 702 sanaa / 9 H2 -osiota (EN 9 406 / 1 528 / 9, NO 9 202 / 1 366 / 9)
+  - linkkitarkistus kahdelle tiedostolle: 11 ranskan sisäistä linkkiä, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/rattraper-maille-tombee/` ja `/fr/articles/calculateurs-tricot-gratuits/`
+
+- Ranskan artikkelierä 5:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/quand-echantillon-ne-correspond-pas.md` ja `src/content/articles/fr/tricoter-un-echantillon-etape-par-etape.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `gauge-doesnt-match` ja `gauge-swatch-step-by-step`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n routing -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Vogue Knitting gauge -ohje sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `quand-echantillon-ne-correspond-pas.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä mittauksen keskiarvo, tarkennettu puikkokoon vaihtamisen rajaus, pesty/blokattu vs blokkaamaton échantillon, à plat vs en rond, tension dérive, milloin malli kannattaa hylätä, puuttuva FAQ ja varovaisempi "2 mailles / 10 cm" -rajaus
+  - `quand-echantillon-ne-correspond-pas.md`: poistettu vanha app-claim `calculateur d'échantillon dans l'application KnitTools`, koska EN/NO-pariteetti ei tue sitä tässä artikkelissa; korvattu sisäisellä linkillä ranskankieliseen échantillon-mittausoppaaseen
+  - `tricoter-un-echantillon-etape-par-etape.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä muistiinpanot, mallineuleen tarkistus, montage- ja rabattage-rajaukset, lavé/bloqué-sääntö, tarkempi mittaus, taille d'aiguille -hyppäyksen ohje, remplacement de fil -varoitus, nopea échantillon en rond -menetelmä, échantillonien säilytys/uudelleenkäyttö ja puuttuva FAQ
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `échantillon`, `mailles`, `rangs`, `10 cm`, `taille d'aiguille`, `aiguilles`, `fil`, `modèle`, `blocage`, `blocage humide`, `à plat`, `en rond`, `tension`, `métrage`, `pelote`, `bord de montage`, `rabattage`, `jersey`, `point mousse`, `côtes`, `motif ajouré`, `aiguilles doubles pointes`, `magic loop`, `fils flottants`, `top-down`, `worsted`, `fingering`, `lace` ja `DK`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`/`translationKey`-arvot sekä tarkoitukselliset ranskalaisessa neulekontekstissa käytetyt lankakategoriat ja rakenne-/tekniikkatermit `worsted`, `fingering`, `lace`, `DK` ja `top-down`
+  - merkkimääräpariteetti erän jälkeen: `quand-echantillon-ne-correspond-pas...` 13 543 merkkiä / 2 273 sanaa / 13 H2 + 5 FAQ -osiota (EN 11 993 / 2 048 / 13 H2 + 5 FAQ, NO 11 997 / 1 858 / 13 H2 + 5 FAQ), `tricoter-un-echantillon-etape-par-etape...` 11 098 merkkiä / 1 930 sanaa / 10 H2 + 4 FAQ-vastausta (EN 9 581 / 1 707 / 10 H2 + 4 quick answers, NO 9 740 / 1 537 / 10 H2 + 4 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 7 ranskan sisäistä linkkiä, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/quand-echantillon-ne-correspond-pas/` ja `/fr/articles/tricoter-un-echantillon-etape-par-etape/`
+
+- Ranskan artikkelierä 6:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/combien-de-mailles-monter.md` ja `src/content/articles/fr/combien-de-fil-faut-il.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `how-many-stitches-to-cast-on` ja `how-much-yarn-do-i-need`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n routing -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Craft Yarn Councilin yarn weight system ja yarn label information -standardit sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `combien-de-mailles-monter.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä laskuesimerkki, mallikertojen yleiset muodot, joustinosion tarkennus, reuna-/lisières-rajaus, tricot en rond -osio, sukkien silmukkamäärähaarukat, montage-menetelmien vertailu, montage-tension caveat, yleiset projektikohtaiset plausibiliteettimäärät, top-down/bottom-up-osio sekä puuttuvat FAQ-vastaukset
+  - `combien-de-fil-faut-il.md`: täydennetty EN/NO-pariteettiin lisäämällä varovaisempi metrage-suunnittelun rajaus, 7-8 cm pituuslisän 90-180 m esimerkki, tarkempi bain-/lankamarginaalilinja ja yksisäikeisen langan luonnollisempi ranskankielinen muoto `fil à un brin`
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `mailles`, `échantillon`, `10 cm`, `mailles lisières`, `bord de montage`, `côtes`, `tricot en rond`, `aisance négative`, `long-tail`, `German twisted`, `montage tubulaire`, `montage provisoire`, `Judy's magic cast-on`, `métrage`, `pelote`, `bain`, `fingering`, `worsted`, `DK`, `chunky`, `Aran`, `Ravelry` ja `Craft Yarn Council`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`/`translationKey`-arvot sekä tarkoitukselliset ranskalaisessa neulekontekstissa käytetyt termit ja nimet kuten `worsted`, `fingering`, `chunky`, `DK`, `Ravelry`, `Aran`, `long-tail`, `German twisted`, `cable cast-on`, `Judy's magic cast-on`, `top-down`, `bottom-up`, `Medium` ja `Craft Yarn Council`
+  - merkkimääräpariteetti erän jälkeen: `combien-de-mailles-monter...` 15 457 merkkiä / 2 682 sanaa / 13 H2 + 7 FAQ -osiota (EN 13 658 / 2 407 / 13 H2 + 7 FAQ, NO 13 727 / 2 185 / 13 H2 + 7 FAQ), `combien-de-fil-faut-il...` 12 512 merkkiä / 2 187 sanaa / 8 H2 + 6 FAQ -osiota (EN 11 077 / 1 914 / 8 H2 + 6 FAQ, NO 10 357 / 1 646 / 8 H2 + 6 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 11 ranskan sisäistä linkkiosumaa, 6 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/combien-de-mailles-monter/` ja `/fr/articles/combien-de-fil-faut-il/`
+
+- Ranskan artikkelierä 7:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/bloquer-un-tricot.md` ja `src/content/articles/fr/tricoter-un-bonnet.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `how-to-block-knitting` ja `how-to-knit-hat`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n routing -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Purl Soho blocking -ohje, Tin Can Knitsin Basic Beanie / Barley -ohjeet, Craft Yarn Councilin head circumference chart sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `bloquer-un-tricot.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä värien dégorgement -varoitus, akryylin tarkoituksellinen höyrymuutos, dentelle-, pullon osien blokkaus-, kuivausaika- ja après blocage -osiot, kuitukohtaiset caveatit sekä kaksi puuttuvaa FAQ-vastausta
+  - `bloquer-un-tricot.md`: pehmennetty liian ehdottomia kuituväitteitä, kuten coton/acrylique-blokkauslinjaa ja vanhaa "10 à 15 %" -venytysväitettä, EN/NO-lähteiden varovaisempaan muotoon
+  - `tricoter-un-bonnet.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä rond-aloituksen marker-/stripe jog -huomio, à plat -menetelmän nurjien rangien hidastus, top-down-menetelmä, CYC:n päänympärysrajaukset, lasten kokorajaukset, toppens diminutions -rytmicaveat, ssk-parivähennys, bord en côtes -valinnat, fil/aiguilles-métrage-rajaus, viimeistelyn turvallisempi langan läpivienti sekä puuttuva bonnet doublé -FAQ
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `blocage humide`, `blocage à la vapeur`, `blocage au vaporisateur`, `dégorgement`, `pattemouille`, `câbles de blocage`, `dentelle`, `emmanchure`, `encolure`, `pull`, `aiguilles circulaires`, `aiguilles doubles pointes`, `magic loop`, `côtes 1/1`, `côtes 2/2`, `côtes torses`, `montage tubulaire`, `tour de tête`, `aisance négative`, `bonnet`, `pompon`, `i-cord`, `worsted`, `DK`, `bulky`, `fingering`, `Craft Yarn Council`, `Emily Ocker`, `ssk` ja `jogless jog`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort` ja `parfait pour tous les niveaux`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekninen `translationKey` sekä tarkoitukselliset ranskalaisessa neulekontekstissa käytetyt termit ja nimet kuten `fingering`, `DK`, `worsted`, `bulky`, `magic loop`, `Emily Ocker`, `ssk`, `jogless jog`, `slouchy` ja `i-cord`
+  - merkkimääräpariteetti erän jälkeen: `bloquer-un-tricot...` 15 747 merkkiä / 2 667 sanaa / 11 H2 + 2 H3 + 6 FAQ -osiota (EN 13 422 / 2 250 / 11 H2 + 2 H3 + 6 FAQ, NO 12 920 / 2 040 / 11 H2 + 2 H3 + 6 FAQ), `tricoter-un-bonnet...` 12 519 merkkiä / 2 212 sanaa / 9 H2 + 5 kysymystä -osiota (EN 10 500 / 1 847 / 9 H2 + 5 common questions, NO 10 409 / 1 705 / 9 H2 + 5 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 8 ranskan sisäistä linkkiosumaa, 5 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/bloquer-un-tricot/` ja `/fr/articles/tricoter-un-bonnet/`
+
+- Ranskan artikkelierä 8:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/tricoter-des-chaussettes.md` ja `src/content/articles/fr/mesurer-un-echantillon-tricot.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `how-to-knit-socks` ja `how-to-measure-knitting-gauge`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Tin Can Knitsin Rye-sukkatutoriaali, Vogue Knittingin gauge-ohje, Purl Sohon gauge-ohje sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `tricoter-des-chaussettes.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä tarkempi sukkien anatomia, du haut vers la pointe / toe-up -vertailu, talon à rabat/gousset -rajaukset, rangs raccourcis -variantit, afterthought heel, hand-dyed/autorayant-fil caveatit, aiguilles doubles pointes / magic loop / deux circulaires -vertailu, tiheysrajaus 28-36 mailles / 10 cm, uusi `Taille et ajustement` -osio sekä puuttuvat FAQ-vastaukset filin loppumisesta ja parin vastaavuudesta
+  - `mesurer-un-echantillon-tricot.md`: tarkistettu EN/NO-pariteettiin; rakenne, H2/FAQ-määrät ja nykyiset échantillon-, blocage-, en rond / à plat -caveatit vastasivat jo erän tavoitetta, joten tiedosto jätettiin ilman turhaa diffiä
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `chaussette`, `bord`, `jambe`, `rabat de talon`, `tournant de talon`, `gousset`, `pied`, `pointe`, `mailles`, `rangs`, `tours`, `aiguilles doubles pointes`, `magic loop`, `aiguilles circulaires`, `échantillon`, `10 cm`, `aisance négative`, `fingering`, `DK`, `worsted`, `bulky`, `top-down`, `toe-up`, `wrap and turn`, `afterthought heel` ja `Kitchener stitch`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa case-sensitive-hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner`; tavallinen `j'ai`-sanamuoto ei ole app-/AI-claim
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort` ja `parfait pour tous les niveaux`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`/`translationKey`-arvot sekä tarkoitukselliset ranskalaisessa neulekontekstissa käytetyt termit ja nimet kuten `top-down`, `toe-up`, `Kitchener stitch`, `wrap and turn`, `afterthought heel`, `fingering`, `DK`, `worsted`, `bulky` ja `magic loop`
+  - merkkimääräpariteetti erän jälkeen: `tricoter-des-chaussettes...` 15 272 merkkiä / 2 481 sanaa / 9 H2 + 5 FAQ -osiota (EN 13 113 / 2 170 / 9 H2 + 5 FAQ, NO 13 468 / 2 068 / 9 H2 + 5 FAQ), `mesurer-un-echantillon-tricot...` 11 633 merkkiä / 1 873 sanaa / 9 H2 + 5 FAQ -osiota (EN 10 305 / 1 723 / 9 H2 + 5 FAQ, NO 9 855 / 1 512 / 9 H2 + 5 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 8 ranskan sisäistä linkkiosumaa, 7 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/tricoter-des-chaussettes/` ja `/fr/articles/mesurer-un-echantillon-tricot/`
+
+- Ranskan artikkelierä 9:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/lire-un-modele-de-tricot.md` ja `src/content/articles/fr/lire-une-etiquette-de-pelote.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `how-to-read-knitting-pattern` ja `how-to-read-yarn-label`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Craft Yarn Councilin Yarn Label Information ja Standards -pinnat, Vogue Knittingin chart/techniques & abbreviations -ohjeet, Google localized versions / hreflang -dokumentaatio sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `lire-un-modele-de-tricot.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä niveau-, notes-, points spéciaux / stitch glossary -, forme inversée-, symboles de diagramme-, diagrammes de style japonais- ja PDF ou papier -osiot sekä kaksi puuttuvaa FAQ-vastausta; samalla korjattu astérisque-repeat-esimerkki Markdownia rikkovasta alaviivamuodosta koodimuotoon
+  - `lire-une-etiquette-de-pelote.md`: päivitetty CYC-lankavahvuuskohta nykyiseen Size 8 -huomioivaan muotoiluun, pehmennetty superwash-/lavage machine -väite, tarkennettu vieraskielisen etiketin ja 10 cm vs 4 inches -FAQ-vastauksia sekä poistettu julkaisematon `scanner d'étiquette KnitTools` / caméra -claim; tilalle lisätty manuaalinen projektinoteeraus
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `modèle`, `explications`, `mailles`, `rangs`, `tours`, `échantillon`, `aiguilles`, `aiguille à torsade`, `marqueurs`, `fournitures`, `diagramme`, `légende`, `répétition`, `mailles`, `jeté`, `ssk`, `composition du fil`, `épaisseur de fil`, `métrage`, `bain`, `numéro de coloris`, `numéro de bain`, `consignes d'entretien`, `pelote`, `banderole`, `Craft Yarn Council`, `Size 8`, `Ravelry`, `DK`, `Worsted`, `Bulky` ja `Lace`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa case-sensitive-hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort` ja `parfait pour tous les niveaux`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`/`translationKey`-arvot sekä tarkoitukselliset mallimerkintä-, tekniikka- ja lähdenimet kuten `pattern notes`, `before you begin`, `special stitches`, `stitch glossary`, `make bobble`, `MB across`, `Work as for Right Front`, `k2tog`, `ssk`, `yo`, `sl`, `knitting`, `Ravelry`, `Craft Yarn Council`, `Lace`, `DK`, `Worsted`, `Bulky`, `Size 8` ja `4 inches`
+  - merkkimääräpariteetti erän jälkeen: `lire-un-modele-de-tricot...` 16 555 merkkiä / 2 613 sanaa / 14 H2 + 2 H3 + 7 FAQ -osiota (EN 13 924 / 2 194 / 14 H2 + 2 H3 + 7 FAQ, NO 14 954 / 2 241 / 14 H2 + 2 H3 + 7 FAQ), `lire-une-etiquette-de-pelote...` 10 255 merkkiä / 1 652 sanaa / 9 H2 + 4 FAQ -osiota (EN 8 851 / 1 468 / 9 H2 + 4 FAQ, NO 8 548 / 1 270 / 9 H2 + 4 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 10 ranskan sisäistä linkkiosumaa, 10 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/lire-un-modele-de-tricot/` ja `/fr/articles/lire-une-etiquette-de-pelote/`
+
+- Ranskan artikkelierä 10:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/remplacer-un-fil-dans-un-modele.md` ja `src/content/articles/fr/identifier-un-fil-sans-etiquette.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `how-to-substitute-yarn` ja `identify-mystery-yarn`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Craft Yarn Councilin yarn weight system, WPI-, yarn label information- ja care symbols -standardit, Vogue Knittingin wear/care-ohje, Google localized versions / hreflang -dokumentaatio sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `remplacer-un-fil-dans-un-modele.md`: tasattu NO-riskilinjaan poistamalla vanha 30 € -hintaesimerkki, korjaamalla liian suuri "demi-maille par centimètre" -riskiraja muotoon noin kaksi mailles / 10 cm ja poistamalla lopun tarpeeton "Vas-y"-kehotus; muu rakenne vastasi jo EN/NO-pariteettia
+  - `identifier-un-fil-sans-etiquette.md`: päivitetty WPI-osio nykyiseen CYC-linjaan lisäämällä Size 8 -huomio 0-7 WPI -listan rinnalle, täsmennetty brûlage-testin turvallisuusrajoja, pehmennetty vesitestin akryyliväite ja poistettu vanha `scanner d'étiquette KnitTools` -claim; tilalle lisätty manuaalinen fiche/notices de test -muotoilu
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `fil`, `épaisseur de fil`, `échantillon`, `mailles`, `10 cm`, `métrage`, `pelote`, `bain`, `fibre`, `tombé`, `blocage`, `laine`, `coton`, `acrylique`, `superwash`, `WPI`, `tours`, `Size 8`, `Lace`, `fingering`, `DK`, `worsted`, `bulky`, `jumbo`, `brûlage`, `feutrer`, `dégorge` ja `fiche manuelle`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa case-sensitive-hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort` ja `parfait pour tous les niveaux`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`/`translationKey`-arvot sekä tarkoitukselliset ranskalaisessa neulekontekstissa käytetyt termit ja nimet kuten `DK`, `bulky`, `worsted`, `fingering`, `Lace`, `super fine`, `sport`, `light`, `medium`, `jumbo`, `WPI`, `Size 8`, `Craft Yarn Council`, `Ravelry` ja `Superwash`
+  - merkkimääräpariteetti erän jälkeen: `remplacer-un-fil-dans-un-modele...` 9 965 merkkiä / 1 596 sanaa / 7 H2 + 4 FAQ -osiota (EN 8 804 / 1 424 / 7 H2 + 4 FAQ, NO 8 401 / 1 262 / 7 H2 + 4 FAQ), `identifier-un-fil-sans-etiquette...` 7 375 merkkiä / 1 216 sanaa / 6 H2 + 3 H3 + 3 FAQ -osiota (EN 6 394 / 1 093 / 6 H2 + 3 H3 + 3 FAQ, NO 6 609 / 1 031 / 6 H2 + 3 H3 + 3 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 3 uniikkia ranskan sisäistä linkkikohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/remplacer-un-fil-dans-un-modele/` ja `/fr/articles/identifier-un-fil-sans-etiquette/`
+
+- Ranskan artikkelierä 11:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/repartir-augmentations-diminutions-regulierement.md` ja `src/content/articles/fr/changer-de-pelote-au-milieu-du-rang.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `increase-decrease-evenly` ja `join-new-ball-of-yarn`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: TKGA:n lisäys-/kavennusohje, Craft Yarn Councilin lyhenneohje, Yarnspirationsin uuden langan liittämisohje, Sheep & Stitchin Russian join -ohje, The Fibre Co:n spit splice -ohje, Google localized versions / hreflang -dokumentaatio sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `repartir-augmentations-diminutions-regulierement.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä puuttuvat kaava-, esimerkki-, diminution-, bord/marge de couture-, envers-, rond-, symétrie-, intervalles-, maths- ja FAQ-osiot; samalla poistettu vanha julkaisematon `application KnitTools` -claim ja korvattu se geneerisellä calculateur-viittauksella
+  - `changer-de-pelote-au-milieu-du-rang.md`: päivitetty nykyiseen EN/NO-pariteettiin lisäämällä vertailutaulukko, chevauchement-lankojen päättely, Russian join -neulaohje, spit splice -testirajaus, magic knot -riskit, timing-sääntö, käsinvärjätyn langan ja factory knot -kohdat, langan katkeaminen kesken silmukan, muistilappu sekä kuusi FAQ-vastausta
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `augmentations`, `diminutions`, `mailles`, `rangs`, `tours`, `échantillon`, `10 cm`, `marge de couture`, `ssk`, `k2tog`, `rabattre`, `pelote`, `fil`, `chevauchement`, `rentrer les fils`, `joint russe`, `raccord feutré`, `nœud magique`, `laine`, `superwash`, `métrage`, `bain` ja `blocage`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa case-sensitive-hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort` ja `parfait pour tous les niveaux`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`-, `draft`-, `lang`- ja `translationKey`-avaimet
+  - merkkimääräpariteetti erän jälkeen: `repartir-augmentations-diminutions-regulierement...` 15 878 merkkiä / 2 634 sanaa / 15 H2 + 6 FAQ -osiota (EN 15 281 / 2 587 / 15 H2 + 6 FAQ, NO 13 121 / 2 162 / 15 H2 + 6 FAQ), `changer-de-pelote-au-milieu-du-rang...` 13 706 merkkiä / 2 306 sanaa / 12 H2 + 1 H3 + 6 FAQ -osiota (EN 12 000 / 2 037 / 12 H2 + 1 H3 + 5 FAQ, NO 11 697 / 1 945 / 12 H2 + 1 H3 + 6 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 5 ranskan sisäistä linkkiosumaa, 4 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/repartir-augmentations-diminutions-regulierement/` ja `/fr/articles/changer-de-pelote-au-milieu-du-rang/`
+
+- Ranskan artikkelierä 12:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/tricoter-sa-premiere-echarpe.md` ja `src/content/articles/fr/aiguilles-a-tricoter-metal-bois-bambou.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `knit-first-scarf` ja `knitting-needle-materials`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Craft Yarn Councilin needle size / yarn weight -standardipinnat, GoodKnit Kissesin beginner scarf -ohje, Handy Little Me:n beginner scarf -ohje, Yarn.comin knitting needle guide, Gatheredin needle material -opas, Google localized versions / hreflang -dokumentaatio sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `tricoter-sa-premiere-echarpe.md`: päivitetty nykyiseen EN/NO-rakenteeseen lisäämällä smooth yarn -rajaus, langanpitotavat, montagesilmukoiden jälkilaskenta, työn lukeminen, yleiset aloittelijavirheet, uuden pelotteen lisääminen, rabattage-testin joustavuus, franges-osio, entre deux séances -osio ja kolme puuttuvaa FAQ-vastausta; samalla poistettu vanhat euro-hintaesimerkit
+  - `aiguilles-a-tricoter-metal-bois-bambou.md`: päivitetty nykyiseen EN/NO-pariteettiin lisäämällä vertailutaulukko, tarkemmat metal/wood/bamboo-rajaukset, fibre de carbone -hybridihuomio, pointe lace vs pointe ronde -osio, interchangeable-jonction-osio sekä kaksi puuttuvaa FAQ-vastausta
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `écharpe`, `fil`, `pelote`, `worsted`, `bulky`, `fingering`, `mailles`, `rangs`, `maille endroit`, `maille envers`, `point mousse`, `point de riz`, `jersey`, `monter les mailles`, `rabattre`, `rentrer les fils`, `aiguille à laine`, `aiguilles droites`, `aiguilles circulaires`, `aiguilles doubles pointes`, `bambou`, `bois`, `métal`, `fibre de carbone`, `pointe lace`, `ssk` ja `échantillon`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa case-sensitive-hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|hapsu|Hapsut|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|skjerf|pinner|garn|nøste|frynser`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort` ja `parfait pour tous les niveaux`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`-, `draft`-, `lang`- ja `translationKey`-avaimet
+  - merkkimääräpariteetti erän jälkeen: `tricoter-sa-premiere-echarpe...` 13 895 merkkiä / 2 338 sanaa / 11 H2 + 4 H3 + 7 FAQ -osiota (EN 12 805 / 2 221 / 11 H2 + 4 H3 + 7 FAQ, NO 12 888 / 2 167 / 11 H2 + 4 H3 + 7 FAQ), `aiguilles-a-tricoter-metal-bois-bambou...` 11 826 merkkiä / 1 857 sanaa / 10 H2 + 6 FAQ -osiota (EN 10 703 / 1 733 / 10 H2 + 6 FAQ, NO 10 301 / 1 606 / 10 H2 + 6 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 5 ranskan sisäistä linkkiosumaa, 5 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/tricoter-sa-premiere-echarpe/` ja `/fr/articles/aiguilles-a-tricoter-metal-bois-bambou/`
+
+- Ranskan artikkelierä 13:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/repetitions-dans-les-modeles-de-tricot.md` ja `src/content/articles/fr/tailles-dans-les-modeles-de-tricot.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `knitting-pattern-repeats` ja `knitting-pattern-sizes-and-fit`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Craft Yarn Councilin How to Read a Knitting Pattern, Craft Yarn Councilin Standard Body Measurements/Sizing ja Bust/Chest Fit and Ease Chart, Google localized versions / hreflang -dokumentaatio sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `repetitions-dans-les-modeles-de-tricot.md`: tasattu nykyiseen EN/NO-rakenteeseen lisäämällä rang de mise en place / point établi -osio, monirivisten raporttien tarkennus, marqueurs- ja diagramme-osio, lignes de vie -osio, répétitions décalées / demi-rapport -osio sekä kaksi puuttuvaa FAQ-vastausta; samalla korjattu malliesimerkkien astérisque-merkinnät ja poistettu vanha `compteur de rangs KnitTools` -claim
+  - `tailles-dans-les-modeles-de-tricot.md`: tasattu nykyiseen EN/NO-rakenteeseen lisäämällä tarkemmat mittausohjeet, emmanchure-huomio, entre deux tailles -lisärajaukset, corps/manches-koon sekoittaminen, construction/coupe-osio, rangs raccourcis pour la poitrine -osio ja FAQ; aisance-linja täsmennetty CYC:n fit chart -tasolle
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `rapport`, `répétition`, `astérisque`, `crochets`, `parenthèses`, `rang de mise en place`, `point établi`, `marqueurs`, `diagramme`, `ligne de vie`, `demi-rapport`, `mailles`, `rangs`, `tours`, `aisance`, `aisance positive`, `aisance négative`, `emmanchure`, `manche montée`, `raglan`, `épaules tombantes`, `empiècement`, `épaule en selle`, `échantillon`, `fil`, `pelote` ja `métrage`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa case-sensitive-hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner|compteur de rangs KnitTools`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|garn|rapportbokser|livliner|bevegelsesvidde|strikkematte|bolen`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort` ja `parfait pour tous les niveaux`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`-, `draft`-, `lang`- ja `translationKey`-avaimet sekä tarkoitukselliset mallimerkintäselitteet `set-up row`, `set-up round` ja `as established`
+  - merkkimääräpariteetti erän jälkeen: `repetitions-dans-les-modeles-de-tricot...` 13 046 merkkiä / 2 145 sanaa / 11 H2 + 6 FAQ -osiota (EN 10 787 / 1 816 / 11 H2 + 6 FAQ, NO 11 056 / 1 754 / 11 H2 + 6 FAQ), `tailles-dans-les-modeles-de-tricot...` 14 918 merkkiä / 2 473 sanaa / 13 H2 + 4 FAQ -osiota (EN 13 116 / 2 144 / 13 H2 + 4 FAQ, NO 13 272 / 2 012 / 13 H2 + 4 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 3 ranskan sisäistä linkkiosumaa, 3 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/repetitions-dans-les-modeles-de-tricot/` ja `/fr/articles/tailles-dans-les-modeles-de-tricot/`
+
+- Ranskan artikkelierä 14:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/organiser-ses-projets-tricot.md` ja `src/content/articles/fr/relever-des-mailles.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `organize-knitting-projects` ja `pick-up-stitches`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Purl Sohon Picking Up Stitches -ohje, Modern Daily Knittingin pick up / pick up and knit -tekniikka-artikkeli, TKGA:n curved edge -poimimisohje, Interweaven knitting pattern / yarn stash -organisointiohjeet, Google localized versions / hreflang -dokumentaatio sekä `FRENCH_TRANSLATION_GUIDE.md`
+  - `organiser-ses-projets-tricot.md`: tasattu nykyiseen EN/NO-rakenteeseen lisäämällä projektipussin banderole-/bain-muistiinpano, työlangan sijainti, projektipussin materiaali- ja kokorajausten käytännönosio, projet/moment-paritus sekä grammapunnitus- ja banderolemuistiinpanot; samalla poistettiin vanhat `application KnitTools`- ja `scanner d'étiquette` -claimit
+  - `relever-des-mailles.md`: tasattu nykyiseen EN/NO-rakenteeseen lisäämällä mailles glissées -lisière, point mousse -reuna, eri bordure-ratiot, bords diagonaux, mailles-répartition, crochet, fil contrastant, ligne de relevage visible, steeks-osio ja kaksi puuttuvaa FAQ-vastausta; samalla korjattiin `relever` vs `relever et tricoter` -määritelmä
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `projet`, `ouvrage`, `encours`, `WIP`, `fil`, `pelote`, `banderole`, `bain`, `composition`, `compteur de rangs`, `séance`, `relever des mailles`, `relever et tricoter`, `lisière`, `maille glissée`, `point mousse`, `côtes`, `point de riz`, `i-cord`, `encolure`, `marqueurs`, `crochet`, `fil contrastant`, `steek`, `rabattage`, `endroit` ja `envers`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa case-sensitive-hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner|compteur de rangs KnitTools`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|garn|rapportbokser|livliner|bevegelsesvidde|strikkematte|bolen|opplukking|løftede|kantmasker|vrangbord|maskemarkører|heklenål|kontrasttråd`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort`, `parfait pour tous les niveaux`, `facile`, `simplement` ja `parfait`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`-, `draft`-, `lang`- ja `translationKey`-avaimet sekä tarkoitukselliset ranskalaisessa neulekontekstissa käytetyt termit `DK` ja `steek`
+  - merkkimääräpariteetti erän jälkeen: `organiser-ses-projets-tricot...` 9 710 merkkiä / 1 569 sanaa / 8 H2 + 3 FAQ -osiota (EN 9 264 / 1 515 / 8 H2 + 3 FAQ, NO 8 813 / 1 366 / 8 H2 + 3 FAQ), `relever-des-mailles...` 13 578 merkkiä / 2 232 sanaa / 12 H2 + 2 H3 + 6 FAQ -osiota (EN 11 870 / 1 985 / 12 H2 + 2 H3 + 6 FAQ, NO 12 256 / 1 951 / 12 H2 + 2 H3 + 6 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 3 ranskan sisäistä linkkiosumaa, 3 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/organiser-ses-projets-tricot/` ja `/fr/articles/relever-des-mailles/`
+
+- Ranskan artikkelierä 15:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/assembler-des-pieces-tricotees.md` ja `src/content/articles/fr/suivre-son-temps-et-sa-vitesse-de-tricot.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `seam-knitted-pieces` ja `track-knitting-time`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Purl Sohon mattress stitch / stockinette seaming -ohjeet, Sheep & Stitchin mattress stitch -ohje, `FRENCH_TRANSLATION_GUIDE.md`, `NORWEGIAN_TRANSLATION_GUIDE.md` sekä nykyiset EN/NO-lähdeartikkelit
+  - `assembler-des-pieces-tricotees.md`: tasattu nykyiseen EN/NO-rakenteeseen lisäämällä assemblage-menetelmien vertailutaulukko, jersey envers / textures -osio, demi-maille côtes -rajaus, rabattage à trois aiguilles -laajennus, grafting / point de Kitchener, surjet, point arrière, manches montées, rayures/jacquard, fil d'assemblage, yleiset virheet ja puuttuvat FAQ-vastaukset
+  - `suivre-son-temps-et-sa-vitesse-de-tricot.md`: tasattu nykyiseen EN/NO-rakenteeseen lisäämällä realistinen suunnittelu- ja hidastumislogiikka, tableur-osio, suivi dédié des séances de tricot -osio, rangs par heure / section / progression -rakenne, anti-productivité-rajaukset, projektiorganisaatiolinkitys ja nykyiset FAQ-vastaukset; vanhat kannettaviksi esitetyt nopeushaarukat poistettiin
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `point de matelas`, `barres horizontales`, `maille lisière`, `marge de couture`, `jersey`, `jersey envers`, `point mousse`, `côtes`, `rabattage à trois aiguilles`, `mailles vivantes`, `grafting`, `point de Kitchener`, `surjet`, `point arrière`, `manche montée`, `emmanchure`, `jacquard`, `aiguille à laine`, `compteur de rangs`, `séance`, `rangs`, `tours`, `échantillon`, `torsades`, `fingering`, `worsted` ja `magic loop`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa case-sensitive-hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner|compteur de rangs KnitTools`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|garn|rapportbokser|livliner|bevegelsesvidde|strikkematte|bolen|opplukking|løftede|kantmasker|vrangbord|maskemarkører|heklenål|kontrasttråd|madrassting|omgang`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort`, `parfait pour tous les niveaux`, `facile`, `simplement` ja `parfait`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`-, `draft`-, `lang`- ja `translationKey`-avaimet sekä tarkoitukselliset ranskalaisessa neulekontekstissa käytetyt termit `Kitchener`, `grafting`, `worsted`, `fingering`, `top-down`, `bottom-up` ja `magic loop`
+  - merkkimääräpariteetti erän jälkeen: `assembler-des-pieces-tricotees...` 16 443 merkkiä / 2 558 sanaa / 11 H2 + 2 H3 + 5 kysymysmuotoista FAQ-otsikkoa (EN 13 881 / 2 192 / 11 H2 + 2 H3 + 5, NO 14 302 / 2 144 / 11 H2 + 2 H3 + 5), `suivre-son-temps-et-sa-vitesse-de-tricot...` 10 139 merkkiä / 1 666 sanaa / 8 H2 + 3 H3 + 4 FAQ -osiota (EN 8 966 / 1 443 / 8 H2 + 3 H3 + 4 FAQ, NO 8 544 / 1 331 / 8 H2 + 3 H3 + 4 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 6 ranskan sisäistä linkkiosumaa, 6 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/assembler-des-pieces-tricotees/` ja `/fr/articles/suivre-son-temps-et-sa-vitesse-de-tricot/`
+
+- Ranskan artikkelierä 16:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/taille-aiguilles-pour-debuter.md` ja `src/content/articles/fr/suivre-les-rangs-au-tricot.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `needle-size-for-beginners` ja `track-rows-knitting`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Craft Yarn Councilin hooks and needles -standardipinta, Craft Yarn Councilin knitting abbreviations / chart symbols -pinnat, `FRENCH_TRANSLATION_GUIDE.md`, `NORWEGIAN_TRANSLATION_GUIDE.md` sekä nykyiset EN/NO-lähdeartikkelit
+  - `taille-aiguilles-pour-debuter.md`: tasattu nykyiseen EN/NO-rakenteeseen lisäämällä koko-/järjestelmäosio US/UK/metriikka-eroista, `quoi ne pas acheter tout de suite` -osio, tension rakentamisen osio sekä kaksi puuttuvaa FAQ-vastausta; samalla poistettiin vanhat euro-hintaesimerkit ja vaihdettiin `jauge à aiguilles` neutraalimpaan `outil de mesure d'aiguilles` -muotoon
+  - `suivre-les-rangs-au-tricot.md`: tasattu nykyiseen EN/NO-rakenteeseen lisäämällä mallisivulle merkitseminen, mekaanisten ja digitaalisten laskurien rajaukset, värikoodatut marqueurs-repères, työn lukemisen ankkurit, dedicated row counter -osio muistutuksineen, yhdistelmämenetelmä `en même temps` -linkityksellä, en rond / aller-retour -osio, lost-count-palautuslogiikka, projektityypin mukaan valinta sekä nykyiset FAQ-vastaukset
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `taille d'aiguilles`, `aiguilles 5,0 mm`, `US 8`, `UK 6`, `aiguilles droites`, `aiguilles circulaires`, `bambou`, `bois`, `métal`, `fil worsted`, `fil DK`, `fil bulky`, `fil chunky`, `échantillon`, `tension`, `maille endroit`, `maille envers`, `marqueurs verrouillables`, `compteur de rangs`, `rangs`, `tours`, `rang de montage`, `point mousse`, `côtes`, `torsades`, `dentelle`, `jacquard`, `emmanchure` ja `encolure`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa case-sensitive-hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner|compteur de rangs KnitTools`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|garn|rapportbokser|livliner|bevegelsesvidde|strikkematte|bolen|opplukking|løftede|kantmasker|vrangbord|maskemarkører|heklenål|kontrasttråd|madrassting|omgang`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort`, `parfait pour tous les niveaux`, `facile`, `simplement` ja `parfait`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`- ja `translationKey`-avaimet sekä tarkoitukselliset neulekontekstin ja kokojärjestelmien termit `US`, `UK`, `DK`, `worsted`, `bulky`, `chunky`, `Clover Takumi`, `KnitPro`, `Android`, `KnitTools` ja ranskaksi käytetty `interchangeable`
+  - merkkimääräpariteetti erän jälkeen: `taille-aiguilles-pour-debuter...` 11 084 merkkiä / 1 791 sanaa / 9 H2 + 6 FAQ -osiota (EN 9 400 / 1 545 / 9 H2 + 6 FAQ, NO 9 165 / 1 426 / 9 H2 + 6 FAQ), `suivre-les-rangs-au-tricot...` 11 079 merkkiä / 1 803 sanaa / 11 H2 + 5 FAQ -osiota (EN 9 809 / 1 640 / 11 H2 + 5 FAQ, NO 9 690 / 1 501 / 11 H2 + 5 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 7 ranskan sisäistä linkkiosumaa, 5 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/taille-aiguilles-pour-debuter/` ja `/fr/articles/suivre-les-rangs-au-tricot/`
+
+- Ranskan artikkelierä 17:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/comprendre-l-echantillon-au-tricot.md` ja `src/content/articles/fr/pourquoi-le-tricot-roule.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `what-is-gauge-in-knitting` ja `why-knitting-curls`
+  - katkon jälkeen varmistettu ajantasaiset lähdepinnat ja paikallinen termilinja: Craft Yarn Councilin yarn weight / gauge -standardipinta, Vogue Knittingin gauge-ohje, Purl Sohon gauge/provlappuohje, Knitting & Crochet Guildin 10 cm tension square -ohje, stockinette-curling-lähteet, `FRENCH_TRANSLATION_GUIDE.md`, `NORWEGIAN_TRANSLATION_GUIDE.md` sekä nykyiset EN/NO-lähdeartikkelit
+  - `comprendre-l-echantillon-au-tricot.md`: tasattu nykyiseen EN/NO-rakenteeseen lisäämällä henkilökohtaisen tension, trikotavan, projektin sisäisen vaihtelun, puikko-/lankamateriaalien, ennen/jälkeen blocage -käytöksen, point-vs-jersey-échantillonin, aisance/coupe-yhteyden, mittausvälineiden, projektin aikaisen tarkistuksen ja dimensions finies -osuudet; samalla viimeistelty inch-terminologia ranskaksi muotoon `4 pouces (4 in)` / `pouces`
+  - `pourquoi-le-tricot-roule.md`: tasattu nykyiseen EN/NO-rakenteeseen lisäämällä superwash-rajaukset, toimivien korjausten H3-rakenne, bordure-leveys taulukkona, maille glissée -lisière, blocage, acrylique-vapeur, points qui ne roulent pas, jersey envers, steeks / en rond -osio ja tilanteet, joissa roulotté on hyväksyttävä
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit tarkistettu ranskan linjaan: `échantillon`, `tension`, `aiguilles`, `blocage`, `fibres`, `point mousse`, `point de riz`, `côtes`, `jersey endroit`, `jersey envers`, `maille glissée`, `lisière`, `steek`, `aisance`, `dimensions finies`, `4 pouces (4 in)` ja `pouces`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa case-sensitive-hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner|compteur de rangs KnitTools`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|rapportbokser|livliner|bevegelsesvidde|strikkematte|bolen|opplukking|løftede|kantmasker|vrangbord|maskemarkører|heklenål|kontrasttråd|madrassting|omgang`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort`, `parfait pour tous les niveaux`, `facile`, `simplement` ja `parfait`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`-, `draft`-, `lang`- ja `translationKey`-avaimet sekä tarkoitukselliset neulekontekstin termit `gauge`, `tension`, `Lace`, `Fingering`, `Sock`, `Sport`, `DK`, `Worsted`, `Aran`, `Bulky`, `superwash`, `ChiaoGoo`, `KnitPro`, `Susan Bates` ja `steek`
+  - merkkimääräpariteetti erän jälkeen: `comprendre-l-echantillon-au-tricot...` 14 436 merkkiä / 2 312 sanaa / 13 H2 + 7 FAQ -osiota (EN 12 536 / 2 054 / 13 H2 + 7 FAQ, NO 12 605 / 1 887 / 13 H2 + 7 FAQ), `pourquoi-le-tricot-roule...` 11 445 merkkiä / 1 909 sanaa / 7 H2 + 6 H3 + 6 FAQ -osiota (EN 10 245 / 1 640 / 7 H2 + 6 H3 + 6 FAQ, NO 10 132 / 1 557 / 7 H2 + 6 H3 + 6 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 8 ranskan sisäistä linkkiosumaa, 6 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/comprendre-l-echantillon-au-tricot/` ja `/fr/articles/pourquoi-le-tricot-roule/`
+
+- Ranskan artikkelierä 18:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/fibres-de-fil-laine-coton-acrylique.md` ja `src/content/articles/fr/combien-de-fil-pour-une-couverture.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `yarn-fibers-compared` ja `yarn-for-blanket`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Craft Yarn Councilin nykyinen yarn weight -standardipinta, Lion Brandin nykyiset Wool-Ease- ja Wool-Ease Thick & Quick -tuotetiedot, `FRENCH_TRANSLATION_GUIDE.md`, `NORWEGIAN_TRANSLATION_GUIDE.md` sekä nykyiset EN/NO-lähdeartikkelit
+  - `fibres-de-fil-laine-coton-acrylique.md`: tasattu nykyiseen EN/NO-rakenteeseen pehmentämällä liian varmoja allergia-, superwash-, kestävyys- ja yleispätevyysväitteitä, lisäämällä kosteudenhallinta-/lavage-rakennetta sekä poistamalla lähdepareista puuttuneet tarkat prosenttirajat; samalla kuitu- ja sekoitelinjaukset pidettiin ranskan termiohjeessa (`laine`, `coton`, `acrylique`, `mohair`, `nylon`, `lin`, `soie`, `cachemire`, `superwash`)
+  - `combien-de-fil-pour-une-couverture.md`: tasattu nykyiseen EN/NO-rakenteeseen lisäämällä peittokokojen inch-vastineet, lankamäärien ostofourchette-rajaus, Lion Brandin metri-esimerkki, bain de teinture -varaukset, épaisseur de fil -valintaperusteet sekä puuttuva `Aiguilles, fibres et tenue réelle` -osio; samalla liian tarkat prosenttilupaukset ja absoluuttiset ostosuositukset pehmennettiin
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa case-sensitive-hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|\bmicro\b|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner|compteur de rangs KnitTools`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|garn|rapportbokser|livliner|bevegelsesvidde|strikkematte|bolen|opplukking|løftede|kantmasker|vrangbord|maskemarkører|heklenål|kontrasttråd|madrassting|omgang`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort`, `parfait pour tous les niveaux`, `facile`, `simplement` ja `parfait`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`-, `draft`-, `lang`- ja `translationKey`-avaimet sekä tarkoitukselliset neulekontekstin, tuotemerkkien ja kokojärjestelmien termit `Worsted`, `Bulky`, `Super Bulky`, `DK`, `Sport`, `Fingering`, `Aran`, `Fair Isle`, `log cabin`, `Wool-Ease`, `Thick & Quick`, `Lion Brand`, `inches`, `superwash`, `Merino`, `mohair`, `nylon`, `cashmere`, `alpaca` ja `acrylic`
+  - merkkimääräpariteetti erän jälkeen: `fibres-de-fil-laine-coton-acrylique...` 13 781 merkkiä / 2 260 sanaa / 7 H2 -osiota (EN 11 908 / 1 875 / 7 H2, NO 11 434 / 1 805 / 7 H2), `combien-de-fil-pour-une-couverture...` 10 759 merkkiä / 1 802 sanaa / 8 H2 -osiota (EN 9 782 / 1 600 / 8 H2, NO 9 226 / 1 456 / 8 H2)
+  - linkkitarkistus kahdelle tiedostolle: 5 ranskan sisäistä linkkiosumaa, 4 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/fibres-de-fil-laine-coton-acrylique/` ja `/fr/articles/combien-de-fil-pour-une-couverture/`
+
+- Ranskan artikkelierä 19:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/fr/combien-de-fil-pour-un-pull.md` ja `src/content/articles/fr/remplacer-par-une-autre-epaisseur-de-fil.md`
+  - vertailtu EN/NO/FR-parit `translationKey`-avaimilla `yarn-for-sweater` ja `yarn-weight-substitution`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Craft Yarn Councilin nykyinen yarn weight -standardipinta, Lion Brandin nykyinen yarn-needed / sweater-yardage -taulukko, `FRENCH_TRANSLATION_GUIDE.md`, `NORWEGIAN_TRANSLATION_GUIDE.md` sekä nykyiset EN/NO-lähdeartikkelit
+  - `combien-de-fil-pour-un-pull.md`: tasattu nykyiseen EN/NO-rakenteeseen lisäämällä puuttuva `Construction et répartition du métrage` -osio, aisance négative -style adjustment, top-down-manchevaroitus, palautus-/varapelotehuomio, stash-modifikaatiot sekä kuitu-FAQ; samalla vanhat prosentti- ja osuuslupaukset pehmennettiin lähdeparin tasolle ja yarn-weight-FAQ ohjattiin oikeaan FR-artikkeliin `remplacer-par-une-autre-epaisseur-de-fil`
+  - `remplacer-par-une-autre-epaisseur-de-fil.md`: tasattu nykyiseen EN/NO-rakenteeseen laajentamalla vaikutusten listaus, riskirajaukset, Worsted->DK-esimerkki, vaiheittainen uudelleenlaskenta, kahden langan yhdessä neulominen, vanhojen mallien epätarkat paksuusnimet, dentelle/texture-uudelleenskaalaus, questions courantes ja 6 FAQ-vastausta
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa case-sensitive-hakulistalla `\bAI\b|\bIA\b|\bOCR\b|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|\bmicro\b|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|\$|€|widget|widgets|achat unique|KnitTools app|application KnitTools|hors ligne|sans connexion|Yarn Label Scanner|compteur de rangs KnitTools`
+  - suomen-/ruotsin-/norjankielisten jäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|garn|rapportbokser|livliner|bevegelsesvidde|strikkematte|bolen|opplukking|løftede|kantmasker|vrangbord|maskemarkører|heklenål|kontrasttråd|madrassting|omgang|boxy`
+  - ranskan tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `jauge`, `poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort`, `parfait pour tous les niveaux`, `facile`, `simplement` ja `parfait`
+  - englanninkielisten termijäämien täsmähaku kahdelle tiedostolle: tarkistettu; jäljelle jäivät frontmatterin tekniset `category`-, `draft`-, `lang`- ja `translationKey`-avaimet sekä tarkoitukselliset yarn-category-, construction- ja pattern-termijäämät `Fingering`, `DK`, `Worsted`, `Bulky`, `Aran`, `Sport`, `Lace`, `Super Bulky`, `Light Worsted`, `Fair Isle`, `top-down`, `WPI` ja lainattu `knitting worsted`
+  - merkkimääräpariteetti erän jälkeen: `combien-de-fil-pour-un-pull...` 9 963 merkkiä / 1 707 sanaa / 8 H2 + 5 FAQ -osiota (EN 9 172 / 1 500 / 8 H2 + 5 FAQ, NO 8 573 / 1 322 / 8 H2 + 5 FAQ), `remplacer-par-une-autre-epaisseur-de-fil...` 14 989 merkkiä / 2 404 sanaa / 10 H2 + 6 FAQ -osiota (EN 13 203 / 2 099 / 10 H2 + 6 FAQ, NO 11 600 / 1 751 / 9 H2 + 6 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 8 ranskan sisäistä linkkiosumaa, 6 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - tarkistukset: `npx prettier --write` OK, `npx prettier --check` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; buildissä mukana `/fr/articles/combien-de-fil-pour-un-pull/` ja `/fr/articles/remplacer-par-une-autre-epaisseur-de-fil/`
+
+- Ranskan artikkeli-QA:
+  - inventaario koko `src/content/articles/fr/`-kansiolle: 38 tiedostoa, 38 `lang: fr`, 38 `draft: false`, 38 `translationKey`-avainta, 38 uniikkia `translationKey`-avainta ja 38/38 vastaavaa ranskapolkua `articleTranslations`-kartassa
+  - rakenneinventaario ajettu kaikille 38 artikkelille: sanamäärät, H2- ja H3-määrät kerätty ilman puuttuvia frontmatter-arvoja tai duplikaattiavaimia
+  - app-/AI-/skanneri-/ääni-/hinta-/widget-riskigrep koko FR-kansiolle: 10 osumariviä, kaikki tarkistettu lähdeparien mukaisiksi ja tarkoituksellisiksi app/offline/row-counter-konteksteiksi; 0 korjausta tästä grepistä
+  - suomen-/ruotsin-/norjankielisten jäämien grep koko FR-kansiolle: 0 osumaa
+  - ranskan kovien filler-/termikieltojen grep (`poids du fil`, `libérez votre créativité`, `donnez vie`, `allié indispensable`, `expérience fluide`, `sans effort`, `parfait pour tous les niveaux`), formaali `vous`-grep ja ajatusviivagrep: 0 osumaa
+  - englanninkielisten teknisten jäämien tarkistus: jäljelle jäävät osumat ovat frontmatter-avaimia, hyväksyttyjä neuletermejä (`Magic Loop`, `top-down`, `bottom-up`, `WPI`, `gauge`/`tension` selitys), kokojärjestelmiä (`US`, `UK`) tai tuotemerkkejä; todellinen näkyvä kielijäämä `Size 8` korjattu muotoihin `taille 8` / `catégorie 8`
+  - faktatarkistus tehty ajantasaisiin lähteisiin: Craft Yarn Councilin nykyinen yarn weight -järjestelmä, ranskankielinen CYC weight -standardi, hooks and needles -taulukko, WPI-ohje, knitting abbreviations -lista, yarn label information sekä body sizing / head circumference -taulukot; tarkistetut US/mm-kokoväitteet, CYC 0-7 + uusi 8-kategoria, gauge-haarukat, CYC-aisancehaarukat ja bonnet/sock-mittarajaukset eivät vaatineet muuta sisältökorjausta
+  - sisäiset `/fr/`-linkit koko FR-artikkelikansiossa: 130 linkkiosumaa, 35 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennetut artikkelisivut: 38/38 `dist/fr/articles/<slug>/index.html` -tiedostoa olemassa ennen loppubuildin uudelleenajoa
+  - rajatut QA-korjaukset: `src/content/articles/fr/identifier-un-fil-sans-etiquette.md`, `src/content/articles/fr/lire-une-etiquette-de-pelote.md` ja `src/content/articles/fr/meilleur-fil-pour-debuter-le-tricot.md` vaihtoivat näkyvän `Size 8` -jäämän ranskankielisiin `taille 8` / `catégorie 8` -muotoihin
+  - loppuvarmistukset: `npx prettier --check monikielinen-lokalisointi-eteneminen.md "src/content/articles/fr/**/*.md"` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+
+- Ranskan tools-tarkistus:
+  - inventaario: `/fr/outils/`-index ja kaikki 6 työkalusivua olemassa ja vastaavat `routes.ts`-/AGENTS.md-polkuja: `calculateur-mailles-a-monter`, `estimateur-quantite-laine`, `tailles-aiguilles`, `epaisseurs-de-fil`, `abreviations-tricot` ja `tableaux-tailles-tricot`
+  - tarkistetut yhteiset komponentit FR-näkyvien tekstien osalta: `CastOnCalculator.astro`, `YarnEstimator.astro`, `WpiIdentifier.astro` ja `LocalizedToolPage.astro`
+  - lähde- ja termitarkistus: `FRENCH_TRANSLATION_GUIDE.md`, Astro i18n -dokumentaatio, Craft Yarn Councilin nykyiset yarn weight / hooks and needles / knitting abbreviations / body sizing -lähteet sekä CYC:n standards-PDF; ranskan termilinja pidetty muodossa `échantillon`, `mailles`, `rangs`, `aiguilles`, `fil`, `pelote`, `métrage`, `taille d'aiguilles`, `épaisseur de fil`, `jauge à aiguilles` vain needle gauge -merkityksessä
+  - rajatut korjaukset:
+    - `src/pages/fr/outils/epaisseurs-de-fil.astro` ja `src/pages/fr/outils/index.astro`: poistettu vanha "8 catégories" / "CYC 0 à 7" -lopullisuus ja lisätty varovainen huomio CYC:n päivitetystä `taille 8` -kategoriasta ilman keksittyjä WPI-/échantillon-taulukkoarvoja
+    - `src/pages/fr/outils/tableaux-tailles-tricot.astro`: korjattu CYC:n Women/Femme 5XL upper arm -tuumavastine `49,5 cm` -> `19.5"` (aiemmin `18.5"`)
+    - `src/pages/fr/outils/abreviations-tricot.astro`: poistettu `simplement`-filler ja vaihdettu `application KnitTools` neutraaliksi `KnitTools`-brandiviittaukseksi
+    - `src/pages/fr/outils/tailles-aiguilles.astro` ja `src/pages/fr/outils/epaisseurs-de-fil.astro`: poistettu grepissä nousseet `parfait`-muodot luonnollisilla ranskan vastineilla (`exact`, `pas exactement`, `pas toujours exactement`, `pas entièrement prévisible`)
+  - riskitarkistukset FR-tools-lähteille ja FR-kieliblokeille: app-/AI-/skanneri-/ääni-/hinta-/widget-riskigrep 0 näkyvää osumaa, suomi-/ruotsi-/norjajäämägrep 0 osumaa, ranskan filler-/termikieltojen grep 0 osumaa, vanhan CYC-copy/jäämägrep 0 osumaa
+  - sisälinkkitarkistus `/fr/outils/`-sivuilta: 7 uniikkia `/fr/`-kohdetta, 0 puuttuvaa kohdetta
+  - `dist/fr/outils/`: 7/7 odotettua HTML-tiedostoa olemassa viimeisimmän buildin jälkeen
+  - loppuvarmistukset: `npx prettier --check "src/pages/fr/outils/*.astro" "src/components/CastOnCalculator.astro" "src/components/YarnEstimator.astro" "src/components/WpiIdentifier.astro" "src/components/LocalizedToolPage.astro"` OK, `git diff --check` OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+
+- Hollannin aloitusinventaario:
+  - käytettävä kieliohje: `DUTCH_TRANSLATION_GUIDE.md`
+  - tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n -dokumentaatio, Craft Yarn Councilin nykyinen yarn weight -järjestelmä, Craft Yarn Councilin knitting abbreviations -lista sekä hollannin neulesanaston riskipinta
+  - artikkeli-inventaario: 38 tiedostoa kansiossa `src/content/articles/nl/`, 38 `translationKey`-avainta, 38 `lang: nl`, 38 `draft: false`, 0 puuttuvaa frontmatter-arvoa
+  - `src/i18n/articles.ts`: 38 hollanninkielistä `nl`-polkua ja 0 orpoa / puuttuvaa polkua suhteessa `src/content/articles/nl/`-tiedostoihin
+  - `/nl/artikelen/[...slug].astro` tuottaa artikkelilistan, kategoriat ja artikkelisivut `nl`-kielellä; `/nl/breitools/[...slug].astro` tuottaa `index` + 6 työkalusivua `dutch-tools`-komponenteista
+  - aloitusriskigrep löysi myöhempiin eriin kuuluvia vanhoja app-/AI-/skanneri-/ääni-/hinta-/widget-väitteitä erityisesti app-, toerenteller-, garenlabel-, gratis rekentools-, projectorganisatie- ja row tracking -artikkeleissa; niitä käsitellään kahden artikkelin erissä eikä laajalla kertakorjauksella
+
+- Hollannin artikkelierä 1:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/tegelijkertijd-in-breipatronen.md` ja `src/content/articles/nl/beste-breiapps-waar-let-je-op.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `at-the-same-time-knitting` ja `best-knitting-apps`
+  - `tegelijkertijd-in-breipatronen.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä overlappende schema's -taulukko, minderingstype/symmetria, verkeerde-kant-toer -rajaus, knoopsgaten voorbiezen -osio, Ravelry-tarkistus ja puuttuva FAQ; samalla englanninkielinen esimerkkilause vaihdettiin luonnolliseksi hollanniksi
+  - `beste-breiapps-waar-let-je-op.md`: tasattu nykyiseen EN-riskitasoon ja poistettu vanhat toteutumattomat KnitTools-väitteet: labelscanner, camera/OCR-tyyppinen garenkaart, AI-instructieparser, offline spraakcommando's, AI-functiot, spraakdagboek ja conversationele spraak; KnitTools-kuvaus on nyt kehitystilaan rajattu Android-toolkit, jossa on suunniteltu yhden maksun malli
+  - termit pidetty hollannin linjassa: `stekenverhouding`, `proeflapje`, `toer`, `toerenteller`, `steken opzetten`, `afkanten`, `garen`, `garendikte`, `naalddikte`, `looplengte`, `verfbad`, `banderol`, `goede kant`, `verkeerde kant`, `mindering`, `meerdering` ja `maattabellen`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|camera|stemcommando|spraak|microfoon|garenlabelscanner|labelscanner|parser|interpreteerder|dollar|euro|€|widget|eenmalige aankoop|KnitTools-app|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjan-/ranskanjäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|échantillon|mailles|aiguilles|métrage`
+  - hollannin tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `garengewicht`, `til je breiwerk naar een hoger niveau`, `laat je creativiteit de vrije loop`, `perfect voor elk niveau`, `jouw ideale metgezel`, `naadloze ervaring`, `moeiteloos`, `ontdek de magie van`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `tegelijkertijd-in-breipatronen...` 10 948 merkkiä / 1 710 sanaa / 12 H2 + 5 FAQ -osiota (EN 9 537 / 1 661 / 12 H2 + 5 FAQ), `beste-breiapps-waar-let-je-op...` 11 271 merkkiä / 1 664 sanaa / 8 H2 + 4 H3 + 5 FAQ -osiota (EN 10 563 / 1 697 / 8 H2 + 4 H3 + 5 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 4 hollannin sisäistä linkkiosumaa, 4 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check monikielinen-lokalisointi-eteneminen.md src/content/articles/nl/tegelijkertijd-in-breipatronen.md src/content/articles/nl/beste-breiapps-waar-let-je-op.md` OK, `git diff --check` muokatuille NL-erän tiedostoille OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/tegelijkertijd-in-breipatronen/` ja `/nl/artikelen/beste-breiapps-waar-let-je-op/` löytyvät buildistä
+
+- Hollannin artikkelierä 2:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/beste-garen-voor-beginners.md` ja `src/content/articles/nl/rondbreinaalden-rechte-naalden-sokkennaalden.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `best-yarn-for-beginners` ja `circular-vs-straight-vs-dpn`; riski- ja mittatermien tukena tarkistettu myös norjan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n -dokumentaatio, Craft Yarn Councilin nykyinen yarn weight -järjestelmä ja Yarn.comin needle buying guide
+  - `beste-garen-voor-beginners.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä tonale garens -rajaus, verfbad-huomio, banderolilukuosio, CYC:n `Size 8` -päivitys varovaisena huomiona, strengen/winden-varoitus sekä kaksi puuttuvaa FAQ-vastausta; samalla poistettu vanhat tarkat eurohintaesimerkit
+  - `rondbreinaalden-rechte-naalden-sokkennaalden.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä vertailutaulukko, rechte-naalden-lengterajaus, kabellengte ja kabelkwaliteit, magic loop, twee rondbreinaalden, ladders wegwerken, sokkennaalden pituus/aantal, verwisselbare rondbreinaaldensets, 23 cm rondbreinaalden, ergonomische vormen sekä kuusi FAQ-vastausta
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `garen`, `bol`, `streng`, `banderol`, `verfbad`, `looplengte`, `vezelsamenstelling`, `garendikte`, `stekenverhouding`, `proeflapje`, `naalddikte`, `rondbreinaald`, `rechte naalden`, `sokkennaalden`, `magic loop`, `ladders`, `topminderingen`, `wanten`, `omslagdoek` ja `blocken`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|camera|stemcommando|spraak|microfoon|garenlabelscanner|labelscanner|parser|interpreteerder|dollar|euro|€|widget|eenmalige aankoop|KnitTools-app|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjan-/ranskanjäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|échantillon|mailles|aiguilles|métrage`
+  - hollannin tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `garengewicht`, `til je breiwerk naar een hoger niveau`, `laat je creativiteit de vrije loop`, `perfect voor elk niveau`, `jouw ideale metgezel`, `naadloze ervaring`, `moeiteloos`, `ontdek de magie van`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `beste-garen-voor-beginners...` 10 626 merkkiä / 1 679 sanaa / 8 H2 + 6 FAQ -osiota (EN 10 089 / 1 652 / 8 H2 + 6 FAQ), `rondbreinaalden-rechte-naalden-sokkennaalden...` 14 845 merkkiä / 2 319 sanaa / 11 H2 + 4 H3 + 6 FAQ -osiota (EN 13 720 / 2 239 / 11 H2 + 4 H3 + 6 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 9 hollannin sisäistä linkkiosumaa, 9 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check monikielinen-lokalisointi-eteneminen.md src/content/articles/nl/beste-garen-voor-beginners.md src/content/articles/nl/rondbreinaalden-rechte-naalden-sokkennaalden.md` OK, `git diff --check` muokatuille NL-erän tiedostoille OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/beste-garen-voor-beginners/` ja `/nl/artikelen/rondbreinaalden-rechte-naalden-sokkennaalden/` löytyvät buildistä
+
+- Hollannin artikkelierä 3:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/digitale-of-mechanische-toerenteller.md` ja `src/content/articles/nl/essentiele-breihulpmiddelen.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `digital-vs-physical-row-counters` ja `essential-knitting-tools`; riski- ja app-claim-linjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n -dokumentaatio, Craft Yarn Councilin knitting abbreviations -standardi ja Craft Yarn Councilin yarn label information -standardi
+  - `digitale-of-mechanische-toerenteller.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä universele/hangende tellers-, kacha-kacha- ja LED-vingerteller-rajaus, tonvormige tellers -takaisinpyörityksen tarkennus, appien feature-vaihtelun rajaus, fyysinen backup-käyttö, smartwatch-täsmennys, paper tally -vaihtoehto ja LED-vingerteller-FAQ
+  - `digitale-of-mechanische-toerenteller.md`: poistettu vanhat toteutumattomat väitteet spraakcommandoista, offline-spraakesta, 11 kielestä, AI-funktioista, garenkaart scannen -claimista, projectsamenvattingenista, spraakdagboekista, conversationele spraakesta ja liian laajasta offline-featurelistasta; KnitTools-maininta rajattu Android-kehitystilaan, tap-countingiin, ongedaan maken -toimintoon, toerherinneringeniin, meerdere tellers per project -malliin, sessiegeschiedenisiin ja paikallisiin kerngegevens-toimintoihin
+  - `essentiele-breihulpmiddelen.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä stopnaalden-materiaali- ja gebogen stopnaald -rajaukset, matkustussakset, vergrendelbare markeerders -nødratkaisu, väriroolit, kraalmarkeerder-varoitus, oprolbaar meetlint / 150 cm / stekenmeter, mekaanisten ja app-tellerien tarkempi rajaus, stevige naaldmeter -etu, kabelnaaldenset, blockmatten/blockdraden/plantenspuit/wolwasmiddel, garenparaplu-tyypit, yksi projecttas per actief project, puntbeschermers-koko, verwisselbare rondbreinaaldensets, magnetische patroonborden sekä neljäs järjestelykysymys
+  - `essentiele-breihulpmiddelen.md`: poistettu vanhat tarkat eurohintaesimerkit stopnaalden-setistä, naaldmeteristä, garenparaplu/wolwinder-setistä, ensimmäisestä breikitistä ja markeerder-FAQ:sta
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `toerenteller`, `toer`, `breiproject`, `sessiegeschiedenis`, `stekenmarkeerder`, `stopnaald`, `haaknaald`, `proeflapje`, `naalddikte`, `garen`, `bol`, `banderol`, `breihulpmiddelen`, `projecttas`, `garenparaplu`, `wolwinder`, `blocken`, `stekenhouder` ja `puntbeschermer`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|camera|stemcommando|stemcommando's|\bspraak\b|microfoon|garenlabelscanner|labelscanner|parser|interpreteerder|\bdollar\b|\beuro\b|\$|€|widget|widgets|eenmalige aankoop|KnitTools-app|Yarn Label Scanner`
+  - suomen-/ruotsin-/norjan-/ranskanjäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|échantillon|mailles|aiguilles|métrage`
+  - hollannin tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `garengewicht`, `til je breiwerk naar een hoger niveau`, `laat je creativiteit de vrije loop`, `perfect voor elk niveau`, `jouw ideale metgezel`, `naadloze ervaring`, `moeiteloos`, `ontdek de magie van`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `digitale-of-mechanische-toerenteller...` 8 609 merkkiä / 1 291 sanaa / 6 H2 + 4 FAQ -osiota (EN 8 270 / 1 348 / 6 H2 + 4 FAQ), `essentiele-breihulpmiddelen...` 11 279 merkkiä / 1 665 sanaa / 5 H2 + 13 H3 -osiota (EN 10 479 / 1 681 / 5 H2 + 13 H3)
+  - linkkitarkistus kahdelle tiedostolle: 4 hollannin sisäistä linkkiosumaa, 4 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check monikielinen-lokalisointi-eteneminen.md src/content/articles/nl/digitale-of-mechanische-toerenteller.md src/content/articles/nl/essentiele-breihulpmiddelen.md` OK, `git diff --check` muokatuille NL-erän tiedostoille OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/digitale-of-mechanische-toerenteller/` ja `/nl/artikelen/essentiele-breihulpmiddelen/` löytyvät buildistä
+
+- Hollannin artikkelierä 4:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/gevallen-steek-ophalen-zonder-uithalen.md` ja `src/content/articles/nl/gratis-breirekentools.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `fix-dropped-stitches` ja `free-knitting-calculators`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n -dokumentaatio, Craft Yarn Councilin knitting abbreviations -standardi, Yarnspirationsin pudonneen silmukan korjausohje sekä KnitPicksin lifeline-/pudonneen silmukan ohjeistus
+  - `gevallen-steek-ophalen-zonder-uithalen.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä fallen-stitch-runin pysäytys, hulpdraad/lifeline-preventio, opzetrand-rajaus varovaisemmaksi, gedraaide-steek-korjaus, mohair/pluizig-garen-caveat sekä kaksi puuttuvaa FAQ-vastausta
+  - `gevallen-steek-ophalen-zonder-uithalen.md`: poistettu vanha unsupported KnitTools-toerenteller-väite ja vaihdettu liian absoluuttinen haaknaaldmethode-muotoilu varovaisemmaksi `meestal netjes` -tasoksi
+  - `gratis-breirekentools.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä metrinen opzetcalculator-esimerkki, garenberekenaarin lace/ribbelsteek/looplengte/verfbad-bufferit, randbufferi meerderingen/minderingen-osioon, patroon aanpassen aan jouw maat -osio, maattabellen-linkki ja puuttuva garenschatting-FAQ
+  - `gratis-breirekentools.md`: poistettu vanhat unsupported offline-, AI-scannen-, conversationele spraak-, `KnitTools-app`-, eenmalige-aankoop-, abonnement-/advertentie- ja account-claimit; KnitTools-maininta rajattu projektikeskeiseen Android-appiin, jonka kerntoiminnot ovat toeren tellen, projectbeheer, calculators ja referenties
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `gevallen steek`, `haaknaald`, `ladder`, `uithalen`, `hulpdraad`, `proeflapje`, `stekenverhouding`, `opzetcalculator`, `garenberekenaar`, `garendikte`, `looplengte`, `verfbad`, `naalddikte`, `maattabellen`, `toeren tellen` ja `KnitTools`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|camera|stemcommando|stemcommando's|\bspraak\b|microfoon|garenlabelscanner|labelscanner|parser|interpreteerder|\bdollar\b|\beuro\b|\$|€|widget|widgets|eenmalige aankoop|KnitTools-app|Yarn Label Scanner|geen abonnement|geen advertenties|offline|zonder verbinding`
+  - suomen-/ruotsin-/norjan-/ranskanjäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|échantillon|mailles|aiguilles|métrage`
+  - hollannin tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `garengewicht`, `til je breiwerk naar een hoger niveau`, `laat je creativiteit de vrije loop`, `perfect voor elk niveau`, `jouw ideale metgezel`, `naadloze ervaring`, `moeiteloos`, `ontdek de magie van`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `gevallen-steek-ophalen-zonder-uithalen...` 10 962 merkkiä / 1 798 sanaa / 12 H2 + 6 FAQ -osiota (EN 10 076 / 1 742 / 12 H2 + 6 FAQ), `gratis-breirekentools...` 10 555 merkkiä / 1 557 sanaa / 9 H2 + 4 FAQ -osiota (EN 9 937 / 1 591 / 9 H2 + 4 FAQ)
+  - linkkitarkistus kahdelle tiedostolle: 11 hollannin sisäistä linkkiosumaa, 11 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check monikielinen-lokalisointi-eteneminen.md src/content/articles/nl/gevallen-steek-ophalen-zonder-uithalen.md src/content/articles/nl/gratis-breirekentools.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/gevallen-steek-ophalen-zonder-uithalen/` ja `/nl/artikelen/gratis-breirekentools/` löytyvät buildistä
+
+- Hollannin artikkelierä 5:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/als-je-stekenverhouding-niet-klopt.md` ja `src/content/articles/nl/proeflapje-breien-stap-voor-stap.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `gauge-doesnt-match` ja `gauge-swatch-step-by-step`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n -dokumentaatio, Purl Sohon gauge-/swatch-ohje, Vogue Knittingin gauge-ohje sekä Craft Yarn Councilin yarn weight / 4 inch -gauge-taulukko
+  - `als-je-stekenverhouding-niet-klopt.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä mittaus kahdesta kohdasta ja keskiarvo, naalddikte-vaihdon caveatit, geblockte/ongeblockte stekenverhouding, rondbreien-versus-plat-breien, projektin aikana muuttuva stekenverhouding, milloin patroon kannattaa päästää irti sekä puuttuva FAQ enemmän/vähemmän silmukoita -ratkaisusta
+  - `als-je-stekenverhouding-niet-klopt.md`: poistettu unsupported `stekenverhoudingcalculator in de KnitTools-app` -claim ja korvattu sisäisellä linkillä `/nl/artikelen/stekenverhouding-meten/`
+  - `proeflapje-breien-stap-voor-stap.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä muistiinpanot, vaatimus tarkistaa onko gauge tricotsteek- vai patroonsteek-muodossa, opzetmethode-caveat, cable/lace/ribbing-esimerkit, ribbelsteek-reunus/curling-caveat, löysä afkanten-caveat, 15-20 minuutin pesu-/blockausohje, label-caveat, towel/no-wring-ohje, linen/superwash/alpaca-huomiot, projectin mukainen blockaus, aggressiivisen pingoituksen varoitus, 18 st/10 cm -> 111 cm -esimerkki, mittaus kahdesta kohdasta, naalddikte-hyppyjen ohjeistus, fingering/lace-aikahuomio, yarn substitution -pakollisuus, rondbreien-proeflapje-oikotie, swatchien säilyttäminen, garen niet direct hergebruiken sekä mid-project gauge drift -muuttujat
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `stekenverhouding`, `proeflapje`, `steken per 10 cm`, `toeren per 10 cm`, `naalddikte`, `garen`, `banderol`, `looplengte`, `blocken`, `tricotsteek`, `ribbelsteek`, `rondbreien`, `garen vervangen`, `garendikte`, `breipatroon` ja `KnitTools`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|camera|stemcommando|stemcommando's|\bspraak\b|microfoon|garenlabelscanner|labelscanner|parser|interpreteerder|\bdollar\b|\beuro\b|\$|€|widget|widgets|eenmalige aankoop|KnitTools-app|Yarn Label Scanner|geen abonnement|geen advertenties|offline|zonder verbinding`
+  - suomen-/ruotsin-/norjan-/ranskanjäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|échantillon|mailles|aiguilles|métrage`
+  - hollannin tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `garengewicht`, `til je breiwerk naar een hoger niveau`, `laat je creativiteit de vrije loop`, `perfect voor elk niveau`, `jouw ideale metgezel`, `naadloze ervaring`, `moeiteloos`, `ontdek de magie van`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `als-je-stekenverhouding-niet-klopt...` 13 199 merkkiä / 2 037 sanaa / 13 H2 + 5 FAQ -osiota (EN 11 993 / 1 957 / 13 H2 + 5 FAQ), `proeflapje-breien-stap-voor-stap...` 10 629 merkkiä / 1 671 sanaa / 10 H2 + 0 FAQ -osiota (EN 9 581 / 1 638 / 10 H2 + 0 FAQ)
+  - lähdesisällön linkkitarkistus kahdelle tiedostolle: 9 hollannin sisäistä linkkiosumaa, 7 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen `/nl/`-linkkitarkistus kahdelle erän sivulle: 39 linkkiosumaa, 18 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/als-je-stekenverhouding-niet-klopt.md src/content/articles/nl/proeflapje-breien-stap-voor-stap.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/als-je-stekenverhouding-niet-klopt/` ja `/nl/artikelen/proeflapje-breien-stap-voor-stap/` löytyvät buildistä
+
+- Hollannin artikkelierä 6:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/hoeveel-steken-opzetten.md` ja `src/content/articles/nl/hoeveel-garen-heb-je-nodig.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `how-many-stitches-to-cast-on` ja `how-much-yarn-do-i-need`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n -dokumentaatio, Craft Yarn Councilin yarn weight / 4 inch -gauge-taulukko, StitchMetricin gauge-laskennan ohje sekä LYS yardage estimates -ohje
+  - `hoeveel-steken-opzetten.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä uitgewerkt voorbeeld -osio, pattern-repeat-muotojen numerolistat, kettingrand-huomio, opzetten voor rondbreien, sock cast-on -lähtöarvot, opzetmethodes-katsaus, spanning in de opzetrand, laajemmat standardiprojektien opzetaantallen, top-down/bottom-up-truiesimerkki sekä kolme puuttuvaa FAQ-vastausta long-tail-draadstaartista, cable cast-onista ja "los opzetten" -ohjeesta
+  - `hoeveel-garen-heb-je-nodig.md`: säilytetty EN-rakenne ja korjattu varmuustasoa: DK-truimetrimäärä muutettu 1 500 yd -lähdettä vastaavaan noin 1 350 m+ -tasoon, unsupported `20-30%` kaapeligarniväite poistettu, ja muutama luonnollisuuskorjaus tehty (`beddeken` -> `grote deken`, otsikko `Wat extra garen verbruikt`)
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `steken opzetten`, `opzetrand`, `opzetaantal`, `stekenverhouding`, `proeflapje`, `rapport`, `kantsteken`, `rondbreien`, `negatieve bewegingsruimte`, `garenverbruik`, `garenberekenaar`, `looplengte`, `bol`, `verfbad`, `garendikte`, `draadstaart` ja `KnitTools`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|camera|stemcommando|stemcommando's|\bspraak\b|microfoon|garenlabelscanner|labelscanner|parser|interpreteerder|\bdollar\b|\beuro\b|\$|€|widget|widgets|eenmalige aankoop|KnitTools-app|Yarn Label Scanner|geen abonnement|geen advertenties|offline|zonder verbinding`
+  - suomen-/ruotsin-/norjan-/ranskanjäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|échantillon|mailles|aiguilles|métrage|pelote|rang|tour`
+  - hollannin tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `garengewicht`, `til je breiwerk naar een hoger niveau`, `laat je creativiteit de vrije loop`, `perfect voor elk niveau`, `jouw ideale metgezel`, `naadloze ervaring`, `moeiteloos`, `ontdek de magie van`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `hoeveel-steken-opzetten...` 15 134 merkkiä / 2 408 sanaa / 13 H2 + 7 FAQ -osiota (EN 13 658 / 2 289 / 13 H2 + 7 FAQ), `hoeveel-garen-heb-je-nodig...` 11 767 merkkiä / 1 869 sanaa / 8 H2 + 6 FAQ -osiota (EN 11 077 / 1 821 / 8 H2 + 6 FAQ)
+  - lähdesisällön linkkitarkistus kahdelle tiedostolle: 10 hollannin sisäistä linkkiosumaa, 6 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen `/nl/`-linkkitarkistus kahdelle erän sivulle: 40 linkkiosumaa, 17 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/hoeveel-steken-opzetten.md src/content/articles/nl/hoeveel-garen-heb-je-nodig.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/hoeveel-steken-opzetten/` ja `/nl/artikelen/hoeveel-garen-heb-je-nodig/` löytyvät buildistä
+
+- Hollannin artikkelierä 7:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/breiwerk-blocken-nat-stoom-spray.md` ja `src/content/articles/nl/een-muts-breien-verschillende-methodes.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `how-to-block-knitting` ja `how-to-knit-hat`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje, Purl Sohon blockausohje sekä Craft Yarn Councilin head circumference -taulukko
+  - `breiwerk-blocken-nat-stoom-spray.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä kleurafgifte-varoitus, acryl expres doden -alaosio, ajour blocken, truidelen blocken, droogtijd per vezel, na het blocken sekä kaksi puuttuvaa FAQ-vastausta valmiin truin blockaamisesta ja superwash/alpaca-kasvusta
+  - `breiwerk-blocken-nat-stoom-spray.md`: korjattu kuitucaveatit EN-riskitasolle: acryl/stoom pysyy varovaisena ja peruuttamattomana, alpaca ei ole yleisesti "paras" nat-blockauskohde, katoen/linnen eivät palaa kuten wol, ja vanha `10-15%`-venymäraja poistettiin liian absoluuttisena
+  - `een-muts-breien-verschillende-methodes.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä begin-van-de-toer / markeerder -huomio, plat breien purl-toer -haitta, top-down-menetelmä, CYC-pohjaiset aikuisten ja lasten päänympärysrajaukset, topminderingen-rytmin ja gepaarde minderingen -rajaukset, boordkeuzes-osio, garenmäärän varovainen metrihaarukka sekä gevoerde mutsen -FAQ
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `blocken`, `opspannen`, `nat blocken`, `stomen`, `sprayblocken`, `proeflapje`, `stekenverhouding`, `muts`, `boord`, `rondbreien`, `rondbreinaald`, `sokkennaalden`, `topminderingen`, `negatieve bewegingsruimte`, `matrassteek`, `garen`, `naalddikte` ja `KnitTools`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|camera|stemcommando|stemcommando's|\bspraak\b|microfoon|garenlabelscanner|labelscanner|parser|interpreteerder|\bdollar\b|\beuro\b|\$|€|widget|widgets|eenmalige aankoop|KnitTools-app|Yarn Label Scanner|geen abonnement|geen advertenties|offline|zonder verbinding`
+  - suomen-/ruotsin-/norjan-/ranskanjäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|échantillon|mailles|aiguilles|métrage|pelote|rang|tour`
+  - hollannin tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `garengewicht`, `til je breiwerk naar een hoger niveau`, `laat je creativiteit de vrije loop`, `perfect voor elk niveau`, `jouw ideale metgezel`, `naadloze ervaring`, `moeiteloos`, `ontdek de magie van`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `breiwerk-blocken-nat-stoom-spray...` 14 425 merkkiä / 2 257 sanaa / 11 H2 + 2 H3 -osiota (EN 13 422 / 2 173 / 11 H2 + 2 H3), `een-muts-breien-verschillende-methodes...` 11 392 merkkiä / 1 868 sanaa / 9 H2 + 0 H3 -osiota (EN 10 500 / 1 783 / 9 H2 + 0 H3)
+  - lähdesisällön linkkitarkistus kahdelle tiedostolle: 8 hollannin sisäistä linkkiosumaa, 5 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen `/nl/`-linkkitarkistus kahdelle erän sivulle: 17 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/breiwerk-blocken-nat-stoom-spray.md src/content/articles/nl/een-muts-breien-verschillende-methodes.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/breiwerk-blocken-nat-stoom-spray/` ja `/nl/artikelen/een-muts-breien-verschillende-methodes/` löytyvät buildistä
+
+- Hollannin artikkelierä 8:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/sokken-breien-opbouw-sokpatroon.md` ja `src/content/articles/nl/stekenverhouding-meten.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `how-to-knit-socks` ja `how-to-measure-knitting-gauge`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje, Tin Can Knitsin sock-tutorial, Vogue Knittingin gauge-ohje, Purl Sohon gauge-ohje sekä Craft Yarn Councilin yarn weight / gauge -taulukko
+  - `sokken-breien-opbouw-sokpatroon.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä täysi sokan anatomia (`boord`, `schacht`, `hielflap`, `hielbocht`, `spie`, `voet`, `teen`), cuff-down/toe-up-vertailu, vahvistettu hiilappu, short-row-variantit, afterthought heel, sock yarn -kuitu- ja metrirajaukset, DPN/magic loop/two circulars -neulavalinnat, taito-osio, `Maat en pasvorm` -osio, second sock syndrome -taktiikat sekä puuttuvat FAQ-vastaukset
+  - `stekenverhouding-meten.md`: säilytetty nykyinen EN-rakenne ja tehty rajatut tarkkuuskorjaukset: lisätty `tension`-termi englannin/Britannian ohjeita varten, pehmennetty kuitukäyttäytymisen varmuustasoa, korjattu `met een weg` -> `met een proeflapje weg` ja vaihdettu `voorrang` -> `prioriteit`, jotta ranskajäämägrep ei anna väärää positiivista `rang`-osumaa
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `sokken`, `boord`, `schacht`, `hielflap`, `hielbocht`, `spie`, `voet`, `teen`, `sokkennaalden`, `magic loop`, `stekenverhouding`, `proeflapje`, `steken per 10 cm`, `toeren per 10 cm`, `naalddikte`, `blocken`, `breipatroon` ja `KnitTools`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|camera|stemcommando|stemcommando's|\bspraak\b|microfoon|garenlabelscanner|labelscanner|parser|interpreteerder|\bdollar\b|\beuro\b|\$|€|widget|widgets|eenmalige aankoop|KnitTools-app|Yarn Label Scanner|geen abonnement|geen advertenties|offline|zonder verbinding`
+  - suomen-/ruotsin-/norjan-/ranskanjäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|échantillon|mailles|aiguilles|métrage|pelote|rang|tour`
+  - hollannin tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `garengewicht`, `til je breiwerk naar een hoger niveau`, `laat je creativiteit de vrije loop`, `perfect voor elk niveau`, `jouw ideale metgezel`, `naadloze ervaring`, `moeiteloos`, `ontdek de magie van`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `sokken-breien-opbouw-sokpatroon...` 13 828 merkkiä / 2 170 sanaa / 9 H2 + 0 H3 -osiota (EN 13 113 / 2 163 / 9 H2 + 0 H3), `stekenverhouding-meten...` 10 911 merkkiä / 1 716 sanaa / 9 H2 + 0 H3 -osiota (EN 10 305 / 1 718 / 9 H2 + 0 H3)
+  - lähdesisällön linkkitarkistus kahdelle tiedostolle: 8 hollannin sisäistä linkkiosumaa, 7 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen `/nl/`-linkkitarkistus kahdelle erän sivulle: 17 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/sokken-breien-opbouw-sokpatroon.md src/content/articles/nl/stekenverhouding-meten.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/sokken-breien-opbouw-sokpatroon/` ja `/nl/artikelen/stekenverhouding-meten/` löytyvät buildistä
+
+- Hollannin artikkelierä 9:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/een-breipatroon-lezen.md` ja `src/content/articles/nl/een-garenlabel-lezen-symbolen-uitgelegd.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `how-to-read-knitting-pattern` ja `how-to-read-yarn-label`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin how to read a knitting pattern -ohje, CYC:n knitting abbreviations -lista, CYC:n knit chart symbols -lista, CYC:n yarn label information -ohje sekä CYC:n yarn weight system -pinta
+  - `een-breipatroon-lezen.md`: tasattu nykyiseen EN/NO/FR-rakenteeseen lisäämällä puuttuvat `vaardigheidsniveau`, notes/pattern notes, afkortingen + speciale steken, gespiegelde vormgeving, telpatroon-symbolit, Japanse symboolschema's, PDF/paper-työskentely sekä kaksi puuttuvaa FAQ-vastausta; samalla korjattu sterretjes-herhalingsesimerkki niin, ettei Markdown muuta sitä kursiiviksi
+  - `een-garenlabel-lezen-symbolen-uitgelegd.md`: säilytetty nykyinen EN-rakenne ja tehty rajatut riskikorjaukset: CYC-kategoriaosio päivitetty varovaiseksi Size 8 -huomioksi, superwash-väite pehmennetty, `hiërogliefen`-kirjoitusasu korjattu, vanha `Yarn Label Scanner` / camera -claim poistettu ja korvattu manuaalisilla project notes -ohjeilla, sekä 10 cm / 4 inch -FAQ täsmennetty nykyisen lähdelinjan mukaiseksi
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `breipatroon`, `steekpatroon`, `telpatroon`, `breischema`, `herhalen`, `rapport`, `garenlabel`, `banderol`, `wikkel`, `vezelsamenstelling`, `looplengte`, `verfbad`, `wasvoorschrift`, `naalddikte`, `stekenverhouding`, `proeflapje` ja `KnitTools`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|camera|stemcommando|stemcommando's|\bspraak\b|microfoon|garenlabelscanner|labelscanner|parser|interpreteerder|\bdollar\b|\beuro\b|\$|€|widget|widgets|eenmalige aankoop|KnitTools-app|Yarn Label Scanner|geen abonnement|geen advertenties|offline|zonder verbinding`
+  - suomen-/ruotsin-/norjan-/ranskanjäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|échantillon|mailles|aiguilles|métrage|pelote|rang|tour`
+  - hollannin tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `garengewicht`, `til je breiwerk naar een hoger niveau`, `laat je creativiteit de vrije loop`, `perfect voor elk niveau`, `jouw ideale metgezel`, `naadloze ervaring`, `moeiteloos`, `ontdek de magie van`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `een-breipatroon-lezen...` 15 678 merkkiä / 2 345 sanaa / 14 H2 + 2 H3 -osiota (EN 13 924 / 2 171 / 14 H2 + 2 H3), `een-garenlabel-lezen-symbolen-uitgelegd...` 9 490 merkkiä / 1 428 sanaa / 9 H2 + 0 H3 -osiota (EN 8 851 / 1 461 / 9 H2 + 0 H3)
+  - lähdesisällön linkkitarkistus kahdelle tiedostolle: 10 hollannin sisäistä linkkiosumaa, 9 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen `/nl/`-linkkitarkistus kahdelle erän sivulle: 20 uniikkia kohdetta, 0 puuttuvaa kohdetta; rakennettujen HTML-sivujen näkyvä app-/claim-riskigrep 0 osumaa, kun teknisen JS:n `$`-merkit jätetään pois valuuttaväitteiden hausta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/een-breipatroon-lezen.md src/content/articles/nl/een-garenlabel-lezen-symbolen-uitgelegd.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/een-breipatroon-lezen/` ja `/nl/artikelen/een-garenlabel-lezen-symbolen-uitgelegd/` löytyvät buildistä
+
+- Hollannin artikkelierä 10:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/garen-vervangen-in-een-breipatroon.md` ja `src/content/articles/nl/onbekend-garen-herkennen-zonder-label.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `how-to-substitute-yarn` ja `identify-mystery-yarn`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin yarn weight -järjestelmä, CYC:n WPI-ohje / Standards & Guidelines -PDF, ASTM:n fiber identification -standardi sekä FabricLinkin burn test -ohje
+  - `garen-vervangen-in-een-breipatroon.md`: säilytetty nykyinen EN-rakenne ja tehty rajatut riskikorjaukset: vanha tarkka eurohintaesimerkki poistettu ja tuumapohjainen matalan riskin esimerkki lokalisoitu muotoon noin kaksi silmukkaa per 10 cm
+  - `onbekend-garen-herkennen-zonder-label.md`: tasattu nykyiseen EN/NO/FR-riskilinjaan lisäämällä WPI-kohtaan CYC `Size 8` -varaus, täsmentämällä yhden tuuman / noin 2,5 cm mitta, lisäämällä brandtestiin vesi-, tuuletus-, sulamis-/tippumis-/höyry- ja lapsi-/paloturvarajaukset, pehmentämällä watertestin acryl-väite sekä poistamalla vanha unsupported `Yarn Label Scanner` -claim manuaalisen garenkaart-ohjeen tieltä
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `garen vervangen`, `garendikte`, `stekenverhouding`, `proeflapje`, `vezelsamenstelling`, `looplengte`, `verfbad`, `valling`, `onbekend garen`, `WPI`, `wikkelingen`, `brandtest`, `watertest`, `garenkaart` ja `KnitTools`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|camera|stemcommando|stemcommando's|\bspraak\b|microfoon|garenlabelscanner|labelscanner|parser|interpreteerder|\bdollar\b|\beuro\b|\$|€|widget|widgets|eenmalige aankoop|KnitTools-app|Yarn Label Scanner|geen abonnement|geen advertenties|offline|zonder verbinding`
+  - suomen-/ruotsin-/norjan-/ranskanjäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|échantillon|mailles|aiguilles|métrage|pelote|rang|tour`
+  - hollannin tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `garengewicht`, `til je breiwerk naar een hoger niveau`, `laat je creativiteit de vrije loop`, `perfect voor elk niveau`, `jouw ideale metgezel`, `naadloze ervaring`, `moeiteloos`, `ontdek de magie van`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `garen-vervangen-in-een-breipatroon...` 8 938 merkkiä / 1 365 sanaa / 7 H2 + 0 H3 + 4 FAQ -osiota (EN 8 317 / 1 354 / 7 H2 + 0 H3 + 4 FAQ), `onbekend-garen-herkennen-zonder-label...` 6 622 merkkiä / 1 049 sanaa / 6 H2 + 3 H3 + 3 FAQ -osiota (EN 5 949 / 1 023 / 6 H2 + 3 H3 + 3 FAQ)
+  - lähdesisällön linkkitarkistus kahdelle tiedostolle: 3 hollannin sisäistä linkkiosumaa, 3 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen `/nl/`-linkkitarkistus kahdelle erän sivulle: 14 uniikkia kohdetta, 0 puuttuvaa kohdetta; rakennettujen HTML-sivujen näkyvä app-/claim-riskigrep 0 osumaa, kun teknisen JS:n `$`-merkit jätetään pois valuuttaväitteiden hausta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/garen-vervangen-in-een-breipatroon.md src/content/articles/nl/onbekend-garen-herkennen-zonder-label.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/garen-vervangen-in-een-breipatroon/` ja `/nl/artikelen/onbekend-garen-herkennen-zonder-label/` löytyvät buildistä
+
+- Hollannin artikkelierä 11:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/gelijkmatig-meerderen-of-minderen-over-een-toer.md` ja `src/content/articles/nl/nieuw-garen-aanhechten-midden-in-een-toer.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `increase-decrease-evenly` ja `join-new-ball-of-yarn`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje sekä neuletekniikan lähteet tasaisesta lisäämisestä/vähentämisestä ja uuden langan liittämisestä
+  - `gelijkmatig-meerderen-of-minderen-over-een-toer.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä yhden rivin kaava, puhtaat ja jakojäännökselliset esimerkit, mindering-toiston selitys, kantsteek-/naadtoeslag-rajaukset, averechte steek -caveat, rondbreien, symmetrinen/gepaard vormen, yleiset intervallit ja FAQ
+  - `nieuw-garen-aanhechten-midden-in-een-toer.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä menetelmätaulukko, overlap-draadjes wegwerken -ohje, Russian join -neulavalinta, spit splice -testaus, magic knot -rajaus, handgeverfd garen -vuorottelu, fabrieksknopen, garenbreuk kesken silmukan ja FAQ
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `meerderen`, `minderen`, `meerderingen/minderingen gelijkmatig verdelen`, `toer`, `rapport`, `stekenmarkeerder`, `kantsteek`, `naadtoeslag`, `nieuw garen aanhechten`, `nieuwe bol`, `draadjes wegwerken`, `verfbad`, `stekenverhouding`, `proeflapje`, `Russian join`, `spit splice`, `magic knot` ja `KnitTools`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|camera|stemcommando|stemcommando's|\bspraak\b|microfoon|garenlabelscanner|labelscanner|parser|interpreteerder|\bdollar\b|\beuro\b|\$|€|widget|widgets|eenmalige aankoop|KnitTools-app|Yarn Label Scanner|geen abonnement|geen advertenties|offline|zonder verbinding`
+  - suomen-/ruotsin-/norjan-/ranskanjäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|échantillon|mailles|aiguilles|métrage|pelote|rang|tour`
+  - hollannin tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `garengewicht`, `til je breiwerk naar een hoger niveau`, `laat je creativiteit de vrije loop`, `perfect voor elk niveau`, `jouw ideale metgezel`, `naadloze ervaring`, `moeiteloos`, `ontdek de magie van`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `gelijkmatig-meerderen-of-minderen-over-een-toer...` 14 577 merkkiä / 2 365 sanaa / 15 H2 + 0 H3 + 6 FAQ -osiota (EN 14 781 / 2 517 / 15 H2 + 0 H3 + 6 FAQ), `nieuw-garen-aanhechten-midden-in-een-toer...` 12 511 merkkiä / 2 056 sanaa / 12 H2 + 1 H3 + 5 FAQ -osiota (EN 11 503 / 1 953 / 12 H2 + 1 H3 + 5 FAQ)
+  - rakennettujen HTML-sivujen `/nl/`-linkkitarkistus kahdelle erän sivulle: 18 uniikkia kohdetta, 0 puuttuvaa kohdetta; rakennettujen HTML-sivujen näkyvä app-/claim-riskigrep 0 osumaa, kun teknisen JS:n `$`-merkit jätetään pois valuuttaväitteiden hausta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/gelijkmatig-meerderen-of-minderen-over-een-toer.md src/content/articles/nl/nieuw-garen-aanhechten-midden-in-een-toer.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/gelijkmatig-meerderen-of-minderen-over-een-toer/` ja `/nl/artikelen/nieuw-garen-aanhechten-midden-in-een-toer/` löytyvät buildistä
+
+- Hollannin artikkelierä 12:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/je-eerste-sjaal-breien.md` ja `src/content/articles/nl/breinaalden-van-metaal-hout-en-bamboe.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `knit-first-scarf` ja `knitting-needle-materials`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin yarn weight / needle -standardit sekä aloittelijahuivi- ja puikkomateriaalilähteet
+  - `je-eerste-sjaal-breien.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä sileän worsted-garenin valintaperustelu, langanpitotavat, opzet-laskennan tarkistus, `Lezen wat je hebt gebreid`, splijtend garen, steekaantal-verloop, uuden bolin aanhechten, afkantrand-testin joustavuus, laajempi blocken, franjes, tussen breisessies ja puuttuvat FAQ:t
+  - `breinaalden-van-metaal-hout-en-bamboe.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä materiaalivertailutaulukko, metallin pintaviimeistely- ja brändierot, puulajien ja hoidon rajaukset, bamboen kulumis-/kosteuscaveatit, carbon-hybridihuomio, puntvorm-osio, verwisselbare aansluiting -osio sekä puuttuvat FAQ:t
+  - poistettu vanhat tarkat eurohinta-arviot huiviartikkelista; frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `sjaal`, `steken opzetten`, `rechte steek`, `ribbelsteek`, `tricotsteek`, `afkanten`, `draadjes wegwerken`, `franjes`, `breinaalden`, `naalddikte`, `metaal`, `hout`, `bamboe`, `rondbreinaald`, `sokkennaalden`, `proeflapje`, `stekenverhouding`, `garen`, `verfbad` ja `KnitTools`
+  - eräkohtainen app-/termiriskigrep kahdelle tiedostolle: 0 osumaa hakulistalla `\bAI\b|\bOCR\b|scanner|camera|stemcommando|stemcommando's|\bspraak\b|microfoon|garenlabelscanner|labelscanner|parser|interpreteerder|\bdollar\b|\beuro\b|\$|€|widget|widgets|eenmalige aankoop|KnitTools-app|Yarn Label Scanner|geen abonnement|geen advertenties|offline|zonder verbinding`
+  - suomen-/ruotsin-/norjan-/ranskanjäämien täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse|oppskrift|pinner|échantillon|mailles|aiguilles|métrage|pelote|rang|tour`
+  - hollannin tyyli- ja termikieltojen täsmähaku kahdelle tiedostolle: 0 osumaa hakulistalla `garengewicht`, `til je breiwerk naar een hoger niveau`, `laat je creativiteit de vrije loop`, `perfect voor elk niveau`, `jouw ideale metgezel`, `naadloze ervaring`, `moeiteloos`, `ontdek de magie van`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `je-eerste-sjaal-breien...` 13 942 merkkiä / 2 359 sanaa / 11 H2 + 4 H3 + 7 FAQ -osiota (EN 12 324 / 2 148 / 11 H2 + 4 H3 + 7 FAQ), `breinaalden-van-metaal-hout-en-bamboe...` 10 993 merkkiä / 1 690 sanaa / 10 H2 + 0 H3 + 6 FAQ -osiota (EN 10 226 / 1 669 / 10 H2 + 0 H3 + 6 FAQ)
+  - rakennettujen HTML-sivujen `/nl/`-linkkitarkistus kahdelle erän sivulle: 18 uniikkia kohdetta, 0 puuttuvaa kohdetta; rakennettujen HTML-sivujen näkyvä app-/claim-riskigrep 0 osumaa, kun teknisen JS:n `$`-merkit jätetään pois valuuttaväitteiden hausta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/je-eerste-sjaal-breien.md src/content/articles/nl/breinaalden-van-metaal-hout-en-bamboe.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/je-eerste-sjaal-breien/` ja `/nl/artikelen/breinaalden-van-metaal-hout-en-bamboe/` löytyvät buildistä
+- Hollannin artikkelierä 13:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/herhalingen-in-breipatronen.md` ja `src/content/articles/nl/maten-en-pasvorm-in-breipatronen.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `knitting-pattern-repeats` ja `knitting-pattern-sizes-and-fit`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin pattern-reading- ja fit/ease-standardipinnat sekä Tin Can Knitsin, Interweaven ja Purl Sohon pattern-reading-/sizing-taustalähteet
+  - `herhalingen-in-breipatronen.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä opzettoer / gevestigde patronen -osio, tarkempi monitoeristen rapporttien rajaus, stekenmarkeerder-kontrollipisteet, telpatroonien rapportvakken, hulpdraad-ohje, versprongen/half rapport -osio ja kaksi puuttuvaa FAQ-vastausta; samalla vanha juureen osoittanut KnitTools/toerenteller-claim poistui geneerisen toerenteller/paperimerkinnän tieltä
+  - `maten-en-pasvorm-in-breipatronen.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä tarkemmat mittauskohdat, schouderbreedte, armsgatdiepte, lyhyemmän/pidemmän vartalon muutosrajaukset, eri koko lijfille ja mouwenille, Craft Yarn Councilin bewegingsruimte-rajat, constructie vaikuttaa pasvormiin, verkorte toeren voor borstvorming sekä neljä FAQ-vastausta
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `breipatroon`, `rapport`, `patroonherhaling`, `sterretjes`, `haakjes`, `telpatroon`, `stekenmarkeerder`, `hulpdraad`, `maat`, `pasvorm`, `lichaamsmaten`, `afgewerkte maten`, `borstomtrek`, `heupomtrek`, `positieve bewegingsruimte`, `negatieve bewegingsruimte`, `trui`, `mouw`, `armsgat`, `proeflapje`, `stekenverhouding` ja `garen`
+  - eräkohtainen app-/claim-riskigrep kahdelle lähdetiedostolle: 0 osumaa sananrajoilla hakulistalla `KnitTools`, `AI`, `scanner`, `garenlabelscanner`, `app`, `row counter`, juureen osoittava `toerenteller](/` ja juureen osoittava `](/)`; ensimmäinen laveampi haku antoi false positiven sanasta `rapportvakken`
+  - englanti-/suomi-/ruotsi-/norja-/ranskajäämien sekä hollannin tyyli- ja termikieltojen täsmähaku kahdelle lähdetiedostolle: 0 osumaa hakulistoilla `gauge|stitch|row|yarn|needle|strikke|strick|sticka|maille|aiguille|masche|silmukka|garengewicht|mask\b` ja AI-fillerit kuten `moeiteloos`, `naadloze ervaring`, `perfect voor elk niveau`, `jouw ideale metgezel`
+  - merkkimääräpariteetti erän jälkeen: `herhalingen-in-breipatronen...` 11 688 merkkiä / 1 905 sanaa / 11 H2 + 0 H3 + 6 FAQ -osiota (EN 10 787 / 1 849 / 11 H2 + 0 H3 + 6 FAQ), `maten-en-pasvorm-in-breipatronen...` 14 150 merkkiä / 2 232 sanaa / 13 H2 + 0 H3 + 4 FAQ -osiota (EN 13 116 / 2 157 / 13 H2 + 0 H3 + 4 FAQ)
+  - lähdesisäiset `/nl/`-linkit tarkistettu: `/nl/artikelen/een-breipatroon-lezen/`, `/nl/artikelen/stekenverhouding-meten/` ja `/nl/artikelen/garen-vervangen-in-een-breipatroon/` löytyvät buildistä; rakennettujen HTML-sivujen vanhojen claimien täsmähaku 0 osumaa hakulistalla `Row Counter`, `Yarn Label Scanner`, `KnitTools-app`, `garenlabelscanner`, `AI-garenlabelscanner`, `scanner`, `camera`, `stemcommando`, `spraak`, `microfoon`, `geen abonnement`, `geen advertenties`, `eenmalige aankoop` ja `€`
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/herhalingen-in-breipatronen.md src/content/articles/nl/maten-en-pasvorm-in-breipatronen.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua; erän sivut `/nl/artikelen/herhalingen-in-breipatronen/` ja `/nl/artikelen/maten-en-pasvorm-in-breipatronen/` löytyvät buildistä
+- Hollannin artikkelierä 14:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/welke-naalddikte-voor-beginners.md` ja `src/content/articles/nl/meerdere-breiprojecten-organiseren.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `needle-size-for-beginners` ja `organize-knitting-projects`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin hooks-and-needles- ja yarn weight -standardit sekä nykyiset EN/NO/FR-lähdeartikkelit
+  - `welke-naalddikte-voor-beginners.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä `Over maatsystemen`, `Wat je nog niet hoeft te kopen`, `Spanning opbouwen` sekä FAQ:t US 6 / US 10 -aloituksesta ja tulevan setin merkkivalinnasta; samalla poistettu vanhat tarkat eurohinta-arviot ja pidetty 5,0 mm / US 8 / 4,5-5,5 mm -linja eurooppalaisena
+  - `meerdere-breiprojecten-organiseren.md`: tasattu nykyiseen EN/NO/FR-rakenteeseen lisäämällä garenlabel/verfbad projektitasossa, werkgarenin sijainti, projecttas-materiaalirajaukset, project/moment-paritus, langan punnitseminen grammoina sekä turvallinen `KnitTools wordt gebouwd...` -muoto; samalla poistettu vanhat julkaistulta kuulostavat `KnitTools-app`-, root-linkki- ja `Yarn Label Scanner` -claimit
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `naalddikte`, `breinaald`, `rondbreinaald`, `sokkennaalden`, `proeflapje`, `stekenverhouding`, `steken`, `toeren`, `garen`, `garenlabel`, `verfbad`, `project`, `breiproject`, `projecttas`, `projectnotities`, `garenvoorraad`, `restgaren`, `toerenteller` ja `KnitTools`
+  - eräkohtainen app-/claim-riskigrep kahdelle lähdetiedostolle: 0 osumaa hakulistalla `Yarn Label Scanner`, `KnitTools-app`, `garenlabelscanner`, `AI-garenlabelscanner`, `scanner`, `camera`, `stemcommando`, `spraak`, `microfoon`, `geen abonnement`, `geen advertenties`, `eenmalige aankoop`, `€`, `$`, tarkat `onder [0-9]` -hinnat, `offline` ja `abonnement`
+  - englanti-/suomi-/ruotsi-/norja-/ranskajäämien sekä hollannin tyyli- ja termikieltojen body-tason täsmähaku kahdelle lähdetiedostolle: 0 osumaa hakulistalla `gauge|stitch|row|yarn|needle|strikke|strick|sticka|maille|aiguille|masche|silmukka|garengewicht|mask\b` ja AI-fillerit kuten `moeiteloos`, `naadloze ervaring`, `perfect voor elk niveau`, `jouw ideale metgezel`; frontmatterissa odotetut `category: needles` ja `translationKey: needle-size-for-beginners` ovat ainoat lähdegrepien englanninkieliset osumat
+  - merkkimääräpariteetti erän jälkeen: `welke-naalddikte-voor-beginners...` 9 969 merkkiä / 1 552 sanaa / 9 H2 + 0 H3 + 6 FAQ -osiota (EN 9 400 / 1 548 / 9 H2 + 0 H3 + 6 FAQ), `meerdere-breiprojecten-organiseren...` 9 646 merkkiä / 1 518 sanaa / 8 H2 + 0 H3 + 3 FAQ -osiota (EN 9 264 / 1 529 / 8 H2 + 0 H3 + 3 FAQ)
+  - lähdesisäiset `/nl/`-linkit tarkistettu: `/nl/artikelen/beste-garen-voor-beginners/`, `/nl/breitools/naalddiktes/`, `/nl/artikelen/breinaalden-van-metaal-hout-en-bamboe/` ja `/nl/artikelen/toeren-bijhouden-tijdens-het-breien/` löytyvät buildistä; rakennettujen HTML-sivujen vanhojen claimien täsmähaku 0 osumaa, kun yhteisen JS:n `$`-merkit jätetään pois valuuttaväitteiden hausta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/welke-naalddikte-voor-beginners.md src/content/articles/nl/meerdere-breiprojecten-organiseren.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua; erän sivut `/nl/artikelen/welke-naalddikte-voor-beginners/` ja `/nl/artikelen/meerdere-breiprojecten-organiseren/` löytyvät buildistä
+
+- Hollannin artikkelierä 15:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/steken-opnemen-langs-een-gebreide-rand.md` ja `src/content/articles/nl/breidelen-aan-elkaar-naaien.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `pick-up-stitches` ja `seam-knitted-pieces`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje, Purl Sohon picking up stitches-, mattress stitch- ja stockinette seaming -ohjeet sekä Modern Daily Knittingin pick up / pick up and knit -tekniikka-artikkeli
+  - `steken-opnemen-langs-een-gebreide-rand.md`: tasattu nykyiseen EN/NO/FR-rakenteeseen lisäämällä afgehaalde kantsteek -reuna, ribbelsteekrand, eri boordien opnameritmit, diagonaaliset halslijn-randat, stekenmarkeerderien avulla jakaminen, haaknaald-menetelmä, contrastgaren-opname, näkyvän opnamerijin korjaus, steek-osio sekä puuttuvat FAQ-vastaukset pituuden lisäämisestä ja golvende rand -tilanteesta
+  - `breidelen-aan-elkaar-naaien.md`: tasattu nykyiseen EN/NO/FR-rakenteeseen lisäämällä naadmethodes-vertailutaulukko, omgekeerde tricotsteek / structuurpatronen -rajaus, halve-steek-correctie boordsteekille, maassteek / Kitchener stitch, afkanten met drie naalden -variantti, ingezette mouwen -caveatit, strepen/kleurwerk, naaigarenin paksuus, yleiset virheet sekä puuttuvat FAQ-vastaukset draadjes wegwerken- ja uithalen-kysymyksiin
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `steken opnemen`, `opnemen en breien`, `rand`, `kantsteek`, `afgehaalde steek`, `ribbelsteek`, `tricotsteek`, `haaknaald`, `contrastgaren`, `steek`, `stekenmarkeerder`, `breidelen`, `matrassteek`, `maassteek`, `afkanten met drie naalden`, `draadjes wegwerken`, `goede kant`, `verkeerde kant`, `garen`, `naalddikte` ja `KnitTools`
+  - eräkohtainen app-/claim-riskigrep kahdelle lähdetiedostolle: 0 osumaa hakulistalla `Yarn Label Scanner`, `KnitTools-app`, `garenlabelscanner`, `AI-garenlabelscanner`, `scanner`, `camera`, `stemcommando`, `spraak`, `microfoon`, `geen abonnement`, `geen advertenties`, `eenmalige aankoop`, `€`, `$`, `offline`, `abonnement` ja juureen osoittava `](/)`
+  - englanti-/suomi-/ruotsi-/norja-/ranskajäämien sekä hollannin tyyli- ja termikieltojen body-tason täsmähaku kahdelle lähdetiedostolle: vain odotettu `Kitchener stitch` -tekniikkatermi seam-artikkelissa; ei osumia AI-filler-listalla kuten `moeiteloos`, `naadloze ervaring`, `perfect voor elk niveau`, `jouw ideale metgezel`, formaali `u`/`uw`, `gelieve` tai `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `steken-opnemen-langs-een-gebreide-rand...` 12 945 merkkiä / 2 104 sanaa / 12 H2 + 2 H3 + 6 FAQ -osiota (EN 11 870 / 1 999 / 12 H2 + 2 H3 + 6 FAQ), `breidelen-aan-elkaar-naaien...` 15 328 merkkiä / 2 367 sanaa / 11 H2 + 2 H3 + 6 FAQ-vastausta (EN 13 881 / 2 256 / 11 H2 + 2 H3 + 6 FAQ-vastausta)
+  - lähdesisäiset `/nl/`-linkit tarkistettu: `/nl/artikelen/stekenverhouding-meten/`, `/nl/artikelen/breidelen-aan-elkaar-naaien/`, `/nl/artikelen/breiwerk-blocken-nat-stoom-spray/`, `/nl/artikelen/een-muts-breien-verschillende-methodes/` ja `/nl/artikelen/sokken-breien-opbouw-sokpatroon/` löytyvät buildistä; rakennettujen HTML-sivujen `/nl/`-linkkitarkistus kahdelle erän sivulle: 18 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/steken-opnemen-langs-een-gebreide-rand.md src/content/articles/nl/breidelen-aan-elkaar-naaien.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu; ensimmäinen rinnakkain `npm run check` -komennon kanssa ajettu build kaatui Astron `node_modules/.astro/data-store.json.tmp` -> `data-store.json` rename-kilpailuun, mutta yksin ajettu build onnistui
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/steken-opnemen-langs-een-gebreide-rand/` ja `/nl/artikelen/breidelen-aan-elkaar-naaien/` löytyvät buildistä
+
+- Hollannin artikkelierä 16:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/breitijd-en-tempo-bijhouden.md` ja `src/content/articles/nl/toeren-bijhouden-tijdens-het-breien.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `track-knitting-time` ja `track-rows-knitting`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin pattern reading-, abbreviations- ja chart symbols -pinnat sekä nykyiset EN/NO/FR-lähdeartikkelit
+  - `breitijd-en-tempo-bijhouden.md`: tasattu nykyiseen EN/NO/FR-riskilinjaan poistamalla vanhat tarkat nopeushaarukat ja liian vahva nopeuden paranemisen lupaus; `KnitTools-app`-väite korvattiin turvallisella `KnitTools wordt gebouwd...` -muodolla ilman root-linkkiä, ja sisäiset linkit pidettiin hollannin julkaistuihin reitteihin
+  - `toeren-bijhouden-tijdens-het-breien.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä printed-pattern-tikkimerkinnät, two-way/button-counter-caveat, kleurgecodeerde stekenmarkeerders, pattern anchors, spreadsheet-/notes-päivitysrytmi, appien session/progress-data, yhdistelmätyötavat, `In het rond tegenover plat breien`, `Als je de tel kwijt bent`, stripe tracking -FAQ ja multiple counters -FAQ
+  - vanhat unsupported `stemcommando's`-/spraak-claimit sekä julkaistulta kuulostava `KnitTools-app`-root-linkki poistettiin
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `breitijd`, `tempo`, `project`, `breiproject`, `projectnotities`, `toer`, `toeren`, `toerenteller`, `stekenverhouding`, `proeflapje`, `breipatroon`, `rapport`, `stekenmarkeerder`, `garen`, `draadjes wegwerken`, `in het rond`, `goede kant`, `verkeerde kant` ja `KnitTools`
+  - eräkohtainen app-/claim-riskigrep kahdelle lähdetiedostolle: 0 osumaa täsmähakulistalla `Yarn Label Scanner`, `KnitTools-app`, `garenlabelscanner`, `AI-garenlabelscanner`, `scanner`, `camera`, `stemcommando`, `spraak`, `microfoon`, `geen abonnement`, `geen advertenties`, `eenmalige aankoop`, `offline`, `abonnement`, `AI`, `OCR`, vanhat nopeushaarukat ja juureen osoittava `](/)`
+  - englanti-/suomi-/ruotsi-/norja-/ranskajäämien sekä hollannin tyyli- ja termikieltojen body-tason täsmähaku kahdelle lähdetiedostolle: 0 osumaa hakulistoilla `gauge|stitch|row|yarn|needle|strikke|strick|sticka|maille|aiguille|masche|silmukka|puikko|lanka|mallitilkku|garengewicht|mask\b` ja AI-fillerit kuten `moeiteloos`, `naadloze ervaring`, `perfect voor elk niveau`, `jouw ideale metgezel`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `breitijd-en-tempo-bijhouden...` 9 452 merkkiä / 1 505 sanaa / 8 H2 + 3 H3 + 4 FAQ -osiota (EN 8 966 / 1 457 / 8 H2 + 3 H3 + 4 FAQ), `toeren-bijhouden-tijdens-het-breien...` 10 540 merkkiä / 1 652 sanaa / 11 H2 + 0 H3 + 5 FAQ -osiota (EN 9 809 / 1 655 / 11 H2 + 0 H3 + 5 FAQ)
+  - lähdesisäiset `/nl/`-linkit tarkistettu: `/nl/artikelen/een-breipatroon-lezen/`, `/nl/artikelen/meerdere-breiprojecten-organiseren/`, `/nl/artikelen/tegelijkertijd-in-breipatronen/` ja `/nl/artikelen/toeren-bijhouden-tijdens-het-breien/` löytyvät buildistä; rakennettujen HTML-sivujen `/nl/`-linkkitarkistus kahdelle erän sivulle: 17 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/breitijd-en-tempo-bijhouden.md src/content/articles/nl/toeren-bijhouden-tijdens-het-breien.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/breitijd-en-tempo-bijhouden/` ja `/nl/artikelen/toeren-bijhouden-tijdens-het-breien/` löytyvät buildistä
+
+- Hollannin artikkelierä 17:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/waarom-krult-breiwerk.md` ja `src/content/articles/nl/garenvezels-vergeleken.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `why-knitting-curls` ja `yarn-fibers-compared`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin yarn weight -standardi, neulekankaan krullausta käsittelevä tutkimuslähde sekä kuitu-/blockauskäyttäytymisen ajantasaiset neulelähteet
+  - `waarom-krult-breiwerk.md`: tasattu nykyiseen EN/NO/FR-rakenteeseen lisäämällä superwash-wol-krul, garendiktekohtainen randbreedte-taulukko, afgehaalde kantsteek, acryl met stoom "doden", omgekeerde tricotsteek, steeks / tricotsteek in het rond sekä kaksi puuttuvaa FAQ-vastausta proeflapje-vs-valmis kappale -krullauksesta ja garenista, joka ei krultaisi
+  - `garenvezels-vergeleken.md`: tasattu nykyiseen EN/NO/FR-riskilinjaan poistamalla introsta toisto ja pehmentämällä liian varmat tai keksityt väitteet: `machinewasbaar`-yleistys, `Geen compromis`, `zwaartekracht wint altijd`, alpaca 20-30 % wol, zijde 20 %, kaksi-kolme pesua, `standaardkeuze`, `bijna elk sokkengaren` ja muut vastaavat absoluuttiset muotoilut
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `krult`, `tricotsteek`, `ribbelsteek`, `boordsteek`, `blocken`, `opspannen`, `vezels`, `vezelsamenstelling`, `wol`, `superwash`, `katoen`, `acryl`, `alpaca`, `zijde`, `linnen`, `garen`, `stekenverhouding`, `proeflapje`, `valling`, `draadjes wegwerken` ja `KnitTools`
+  - eräkohtainen app-/claim-riskigrep kahdelle lähdetiedostolle: 0 osumaa hakulistalla `Yarn Label Scanner`, `KnitTools-app`, `garenlabelscanner`, `AI-garenlabelscanner`, `scanner`, `camera`, `stemcommando`, `spraak`, `microfoon`, `geen abonnement`, `geen advertenties`, `eenmalige aankoop`, `€`, `$`, `offline`, `abonnement`, `AI`, `OCR` ja vanhat kuitu-/pesu-/sokkenväitteet kuten `20-30%`, `20% zijde`, `twee of drie wasbeurten`, `standaardkeuze`, `Geen compromis`, `bijna elk sok`, `machinewasbaar en veroorzaakt` ja `zwaartekracht wint altijd`
+  - englanti-/suomi-/ruotsi-/norja-/ranskajäämien sekä hollannin tyyli- ja termikieltojen body-tason täsmähaku kahdelle lähdetiedostolle: 0 osumaa hakulistoilla `gauge|stitch|row|yarn|needle|strikke|strick|sticka|maille|aiguille|masche|silmukka|puikko|lanka|mallitilkku|garengewicht|mask\b` ja AI-fillerit kuten `moeiteloos`, `naadloze ervaring`, `perfect voor elk niveau`, `jouw ideale metgezel`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `waarom-krult-breiwerk...` 10 934 merkkiä / 1 634 sanaa / 7 H2 + 6 H3 + 6 FAQ -osiota (EN 10 245 / 1 602 / 7 H2 + 6 H3 + 6 FAQ), `garenvezels-vergeleken...` 12 357 merkkiä / 1 925 sanaa / 7 H2 + 0 H3 + 0 FAQ -osiota (EN 11 908 / 1 875 / 7 H2 + 0 H3 + 0 FAQ)
+  - lähdesisäiset `/nl/`-linkit tarkistettu: `/nl/artikelen/beste-garen-voor-beginners/`, `/nl/artikelen/breiwerk-blocken-nat-stoom-spray/`, `/nl/artikelen/steken-opnemen-langs-een-gebreide-rand/` ja `/nl/breitools/garenberekenaar/` löytyvät buildistä; rakennettujen HTML-sivujen `/nl/`-linkkitarkistus kahdelle erän sivulle: 17 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/waarom-krult-breiwerk.md src/content/articles/nl/garenvezels-vergeleken.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/waarom-krult-breiwerk/` ja `/nl/artikelen/garenvezels-vergeleken/` löytyvät buildistä
+
+- Hollannin artikkelierä 18:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/nl/wat-is-stekenverhouding-bij-breien.md` ja `src/content/articles/nl/hoeveel-garen-voor-een-deken.md`
+  - vertailtu EN/NL-parit `translationKey`-avaimilla `what-is-gauge-in-knitting` ja `yarn-for-blanket`; riski- ja termilinjan tukena tarkistettu myös norjan ja ranskan valmiit vastineet
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin yarn weight -standardi, Vogue Knittingin gauge-selitys, Purl Soho gauge -opas sekä Lion Brandin ajantasaiset Wool-Ease- ja Wool-Ease Thick & Quick -metritiedot
+  - `wat-is-stekenverhouding-bij-breien.md`: tasattu nykyiseen EN/NO/FR-rakenteeseen lisäämällä breistijl-, naaldmateriaal-, voor/na blocken-, steekpatroon vs tricotsteek-, bewegingsruimte-, 10 cm-, hulpmiddelen- ja puuttuvat FAQ-osuudet; 2,5 cm / 10 cm / 4 inch -mittaukset sekä blockaus- ja kuitucaveatit pidettiin varovaisina
+  - `hoeveel-garen-voor-een-deken.md`: tasattu nykyiseen EN/NO/FR-rakenteeseen muuttamalla luvut inkoopbereik-muotoon, pehmentämällä vanhat tarkat kaapeli-/jacquard-prosentit, lisäämällä Lion Brand -metriesimerkki, verfbad- ja handgeverfd-garen-caveatit, garendiktevalinnan lisärajaukset, modulaire constructies sekä uusi `Naalden, vezels en wat echt goed blijft` -osio
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty hollannin linjassa: `stekenverhouding`, `breispanning`, `proeflapje`, `toeren`, `tricotsteek`, `naalddikte`, `garen`, `vezelsamenstelling`, `garendikte`, `garenverbruik`, `benodigde meters`, `looplengte`, `verfbad`, `deken`, `plaid`, `ribbelsteek`, `kabels`, `ajour`, `inbreien`, `jacquard`, `rondbreinaald`, `blocken` ja `KnitTools`
+  - eräkohtainen app-/claim-riskigrep kahdelle lähdetiedostolle: 0 näkyvän tekstin osumaa hakulistalla `Yarn Label Scanner`, `KnitTools-app`, `garenlabelscanner`, `AI-garenlabelscanner`, `scanner`, `camera`, `stemcommando`, `spraak`, `microfoon`, `geen abonnement`, `geen advertenties`, `eenmalige aankoop`, `offline`, `abonnement`, `AI`, `OCR`, `Ravelry-integratie`, `proefperiode`, `subscription`, `ads` ja vanhat tarkat blanket-prosentit
+  - englanti-/suomi-/ruotsi-/norja-/ranskajäämien sekä hollannin tyyli- ja termikieltojen body-tason täsmähaku kahdelle lähdetiedostolle: 0 osumaa hakulistoilla `gauge|stitch|row|yarn|needle|strikke|strick|sticka|maille|aiguille|masche|silmukka|puikko|lanka|mallitilkku|garengewicht|mask\b` ja AI-fillerit kuten `moeiteloos`, `naadloze ervaring`, `perfect voor elk niveau`, `jouw ideale metgezel`, formaali `u`/`uw`, `gelieve` ja `alstublieft`
+  - merkkimääräpariteetti erän jälkeen: `wat-is-stekenverhouding-bij-breien...` 14 152 merkkiä / 2 156 sanaa / 13 H2 + 0 H3 + 7 FAQ -osiota (EN 12 536 / 2 054 / 13 H2 + 0 H3 + 7 FAQ), `hoeveel-garen-voor-een-deken...` 10 062 merkkiä / 1 572 sanaa / 8 H2 + 0 H3 + 4 FAQ -osiota (EN 9 782 / 1 600 / 8 H2 + 0 H3 + 4 FAQ)
+  - lähdesisäiset `/nl/`-linkit tarkistettu: `/nl/breitools/garenberekenaar/`, `/nl/artikelen/hoeveel-garen-heb-je-nodig/`, `/nl/artikelen/breiwerk-blocken-nat-stoom-spray/`, `/nl/artikelen/stekenverhouding-meten/`, `/nl/artikelen/garenvezels-vergeleken/`, `/nl/artikelen/proeflapje-breien-stap-voor-stap/` ja `/nl/artikelen/breinaalden-van-metaal-hout-en-bamboe/` ratkeavat lähteissä; rakennettujen HTML-sivujen `/nl/`-linkkitarkistus kahdelle erän sivulle: 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/nl/wat-is-stekenverhouding-bij-breien.md src/content/articles/nl/hoeveel-garen-voor-een-deken.md` OK, `git diff --check` kahdelle muokatulle NL-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/nl/artikelen/` tuottaa 38/38 hollanninkielistä artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tools-HTML-sivua; erän sivut `/nl/artikelen/wat-is-stekenverhouding-bij-breien/` ja `/nl/artikelen/hoeveel-garen-voor-een-deken/` löytyvät buildistä
+
+## Viimeinen turvallinen jatkokohta
+
+Saksan tutkimusbrief, artikkelipäivityserät 1-19, artikkeli-QA erät 1-10, tools-erät 1-4 ja toolsien build-/dist-varmistus ovat valmiit. Kaikki 38 saksankielistä artikkelia on päivitetty tässä passissa, app-claim-riskigrep ja suomijäämägrep on katettu kaikille 38 artikkelille, ja saksan artikkelilista/kategoriat/build on tarkistettu. Saksan kaikki 6 työkalusivua ja index ovat olemassa, niiden rakenne vastaa lokalisoitua `LocalizedToolPage`-mallia, kaikki 6 saksan työkalusivua on tarkistettu, ja `dist/de/werkzeuge/` tuottaa 7/7 odotettua HTML-tiedostoa. Tehdyt tools-korjaukset ovat rajatut: `maschenanschlag-rechner.astro` sai leipätekstin mittayksikkökorjauksen `4 in` -> `4 Zoll`, `src/components/CastOnCalculator.astro` sai saksan lomakelabelin mittayksikkökorjauksen `4 in` -> `4 Zoll`, ja `strickabkuerzungen.astro` sai kielijäämäkorjauksen `stitch definitions` -> `Technikerklärungen`.
+
+Ruotsin aloitusinventaario, tutkimusbrief, artikkelierät 1-19 ja artikkeli-QA ovat valmiit: 38/38 artikkelia, 38/38 uniikkia `translationKey`-avainta, 0 draftia, 38 ruotsipolkua `articleTranslations`-kartassa, artikkelireitit olemassa, ruotsin termilinja lukittu, app-claim-riskigrep katettu koko kansiolle, suomijäämägrep katettu koko kansiolle, englanninkieliset banned-term-grepit puhtaat, sisäiset ruotsilinkit tarkistettu 0 puuttuvalla kohteella, ja kaikki 38 ruotsinkielistä artikkelia on päivitetty EN/FI-pariteettiin.
+
+Ruotsin tools-erät 1-4 ovat valmiit: `/sv/verktyg/`-index, `/sv/verktyg/upplaggningskalkylator/`, `/sv/verktyg/garnatgangskalkylator/`, `/sv/verktyg/stickstorlekar/`, `/sv/verktyg/garntjocklekar/`, `/sv/verktyg/stickforkortningar/` ja `/sv/verktyg/storlekstabeller-stickning/` on tarkistettu ja korjattu. `CastOnCalculator.astro` ja `YarnEstimator.astro` ruotsicopyt on päivitetty, `WpiIdentifier.astro` ruotsicopy tarkistettu ilman muutostarvetta, viimeisin `npm run build` rakensi 411 sivua, ja `dist/sv/verktyg/` tuottaa 7/7 odotettua HTML-tiedostoa.
+
+Norjan (`no`) passin aloitusinventaario, artikkelipäivityserät 1-19, koko artikkeli-QA, tools-tarkistus sekä build-/dist-varmistus ovat valmiit. Norjan 38 artikkelia ovat olemassa, 38/38 `draft: false`, 38/38 `translationKey`-avainta, 38 `lang: no` -artikkelia ja 38 norjapolkua `articleTranslations`-kartassa. Koko norjan artikkeli- ja tools-lähteet on tarkistettu app-/AI-/skanneri-/ääni-/hinta-/widget-väitteiden, suomijäämien, englanninkielisten termijäämien, sisäisten `/no/`-linkkien, `nb`/`nb_NO`-kielisignaalien sekä rakennettujen artikkeli- ja tools-sivujen osalta. Rajatut lopputarkistuskorjaukset olivat kolme `KnitTools-appen` -> `KnitTools` -muutosta tiedostoissa `digital-eller-mekanisk-omgangsteller.md`, `viktig-strikketilbehor-utover-pinner-og-garn.md` ja `strikkeforkortelser.astro`. Viimeisin `npm run check` oli puhdas virheistä ja varoituksista, ja viimeisin `npm run build` rakensi 411 sivua.
+
+Ranskan (`fr`) passin aloitusinventaario, artikkelierät 1-19, koko artikkeli-QA, tools-tarkistus sekä build-/dist-varmistus ovat valmiit. Ranskassa on 38/38 artikkelia, 38/38 uniikkia `translationKey`-avainta, 38/38 `draft: false`, 38 `lang: fr` -artikkelia, 38 ranskapolkua `articleTranslations`-kartassa, 7/7 ranskan tools-sivua ja 7/7 rakennettua `dist/fr/outils/`-HTML-tiedostoa. Koko FR-artikkeli- ja tools-pinta on tarkistettu app-/AI-/skanneri-/ääni-/hinta-/widget-väitteiden, suomi-/ruotsi-/norjajäämien, kovien ranskan filler-/termikieltojen, formaalin `vous`-muodon, ajatusviivojen, englanninkielisten teknisten jäämien, sisäisten `/fr/`-linkkien ja build-outputin osalta. Rajatut tools-korjaukset olivat CYC `taille 8` -copyvaroitus ilman keksittyjä taulukkoarvoja, yksi CYC-tuuma-arvokorjaus, `application KnitTools` -> `KnitTools` sekä muutama `parfait`/`simplement`-sanamuodon siistiminen. Viimeisin `npm run check` on puhdas virheistä ja varoituksista (20 olemassa olevaa Astro-hinttiä), ja viimeisin `npm run build` rakensi 411 sivua.
+
+Hollannin (`nl`) passin aloitusinventaario ja artikkelierät 1-17 ovat valmiit. Hollannissa on 38/38 artikkelia, 38/38 `translationKey`-avainta, 38/38 `draft: false`, 38 `lang: nl` -artikkelia, 38 hollantipolkua `articleTranslations`-kartassa ja 7/7 `dutch-tools`-reititettyä tools-sivua. Erässä 1 päivitettiin vain `tegelijkertijd-in-breipatronen.md` ja `beste-breiapps-waar-let-je-op.md`; app-artikkelista poistettiin vanhat AI/skanneri/spraakclaimit ja molemmat tasattiin EN-rakenteeseen. Erässä 2 päivitettiin vain `beste-garen-voor-beginners.md` ja `rondbreinaalden-rechte-naalden-sokkennaalden.md`; molemmat tasattiin nykyiseen EN-rakenteeseen, CYC `Size 8` -huomio pidettiin varovaisena eikä julkaisureitteihin tehty muutoksia. Erässä 3 päivitettiin vain `digitale-of-mechanische-toerenteller.md` ja `essentiele-breihulpmiddelen.md`; vanhat spraak-/AI-/hinta-/liian laajat offline-claimit poistettiin ja molemmat tasattiin nykyiseen EN-rakenteeseen. Erässä 4 päivitettiin vain `gevallen-steek-ophalen-zonder-uithalen.md` ja `gratis-breirekentools.md`; pudonneen silmukan artikkeliin lisättiin puuttuvat EN-rakenteen preventio-/mohair-/FAQ-osat, ja laskuriartikkelista poistettiin vanhat offline-/AI-/spraak-/hinta-/app-claimit. Erässä 5 päivitettiin vain `als-je-stekenverhouding-niet-klopt.md` ja `proeflapje-breien-stap-voor-stap.md`; molemmat tasattiin nykyiseen EN-gauge/proeflapje-rakenteeseen, unsupported `KnitTools-app`-calculator-claim poistettiin ja blockaus-/rondbreien-/mid-project gauge -caveatit lisättiin. Erässä 6 päivitettiin vain `hoeveel-steken-opzetten.md` ja `hoeveel-garen-heb-je-nodig.md`; opzet-artikkeli tasattiin nykyiseen EN-rakenteeseen ja garen-artikkelista poistettiin liian tarkka unsupported kaapeliprosenttiväite sekä korjattiin DK-yardage-muunnos. Erässä 7 päivitettiin vain `breiwerk-blocken-nat-stoom-spray.md` ja `een-muts-breien-verschillende-methodes.md`; blockausartikkeli tasattiin EN-rakenteeseen ja kuitucaveatit korjattiin varovaisemmiksi, muts-artikkeliin lisättiin top-down-menetelmä, boordkeuzes, CYC-kokorajat ja puuttuvat FAQ-/viimeistelyrajaukset. Erässä 8 päivitettiin vain `sokken-breien-opbouw-sokpatroon.md` ja `stekenverhouding-meten.md`; sokka-artikkeli tasattiin EN-rakenteeseen anatomian, kantapäävaihtoehtojen, langan, puikkojen, mitoituksen ja FAQ:n osalta, ja gauge-artikkeliin tehtiin rajatut termi-, varmuustaso- ja typo-korjaukset. Erässä 9 päivitettiin vain `een-breipatroon-lezen.md` ja `een-garenlabel-lezen-symbolen-uitgelegd.md`; pattern-artikkeli tasattiin EN-rakenteeseen skill level-, notes-, reverse shaping-, chart-symbol- ja PDF/paper-osuuksilla, ja yarn label -artikkelista poistettiin vanha scanner/camera-claim sekä täsmennettiin CYC-, superwash- ja 10 cm / 4 inch -kohdat. Erässä 10 päivitettiin vain `garen-vervangen-in-een-breipatroon.md` ja `onbekend-garen-herkennen-zonder-label.md`; substitute-artikkelista poistettiin tarkka eurohintaesimerkki ja mysteerilanka-artikkeliin lisättiin CYC `Size 8` -varaus, brandtestin turvallisuusrajaukset sekä poistettiin vanha `Yarn Label Scanner` -claim. Erässä 11 päivitettiin vain `gelijkmatig-meerderen-of-minderen-over-een-toer.md` ja `nieuw-garen-aanhechten-midden-in-een-toer.md`; ensimmäinen tasattiin EN-rakenteeseen lisäämällä esimerkit, reuna-/rondbreien-/paired-shaping-rajaukset ja FAQ, ja toinen tasattiin EN-rakenteeseen lisäämällä menetelmätaulukko, draadjes wegwerken, handgeverfd garen, fabrieksknopen, garenbreuk ja FAQ. Erässä 12 päivitettiin vain `je-eerste-sjaal-breien.md` ja `breinaalden-van-metaal-hout-en-bamboe.md`; huiviartikkelista poistettiin vanhat eurohinnat ja siihen lisättiin langanpitotavat, työn lukeminen, uuden bolin aanhechten, franjes, taukojen ergonomia ja puuttuvat FAQ:t, ja puikkomateriaaliartikkeli tasattiin EN-rakenteeseen taulukon, puntvormin, verwisselbare aansluitingin ja puuttuvien FAQ:iden osalta. Erässä 13 päivitettiin vain `herhalingen-in-breipatronen.md` ja `maten-en-pasvorm-in-breipatronen.md`; repeat-artikkeli tasattiin EN-rakenteeseen opzettoer-, telpatroon-, hulpdraad- ja versprongen rapport -osuuksilla sekä FAQ-lisäyksillä, ja size/fit-artikkeli tasattiin EN-rakenteeseen schouder-/armsgat-, mixed sizing-, constructie-, verkorte toeren- ja FAQ-osuuksilla. Erässä 14 päivitettiin vain `welke-naalddikte-voor-beginners.md` ja `meerdere-breiprojecten-organiseren.md`; needle-artikkeli tasattiin EN-rakenteeseen kokojärjestelmä-, `wat je nog niet hoeft te kopen`-, tension- ja FAQ-osuuksilla sekä poistettiin vanhat eurohinnat, ja project-artikkeli tasattiin EN/NO/FR-rakenteeseen projecttas-, werkgaren-, project/moment-, grammapunnitus- ja turvallinen `KnitTools wordt gebouwd...` -linja lisäten sekä vanhat scanner/root-linkki-claimit poistaen. Erässä 15 päivitettiin vain `steken-opnemen-langs-een-gebreide-rand.md` ja `breidelen-aan-elkaar-naaien.md`; pickup-artikkeli tasattiin EN/NO/FR-rakenteeseen kantsteek-, ribbelsteek-, haaknaald-, contrastgaren-, steek- ja FAQ-osuuksilla, ja seam-artikkeli tasattiin EN/NO/FR-rakenteeseen naadmethodes-taulukolla, maassteek / Kitchener stitch -osiolla, kleurwerk-/mouw-/naaigaren-rajauksilla sekä puuttuvilla FAQ-vastauksilla. Erässä 16 päivitettiin vain `breitijd-en-tempo-bijhouden.md` ja `toeren-bijhouden-tijdens-het-breien.md`; time-artikkeli tasattiin EN/NO/FR-riskilinjaan poistamalla vanhat nopeuslupaukset ja julkaistulta kuulostava app-claim, ja row-tracking-artikkeli tasattiin nykyiseen EN-rakenteeseen pattern tick-, marker-, app-progress-, in-the-round-, lost-count- ja FAQ-osuuksilla.
+
+Erä 17 on nyt myös valmis: `waarom-krult-breiwerk.md` tasattiin nykyiseen curling-rakenteeseen ja `garenvezels-vergeleken.md` pehmennettiin EN/NO/FR-riskitasolle poistamalla vanhat liian absoluuttiset kuitu- ja pesuväitteet.
+
+Erä 18 on nyt myös valmis: `wat-is-stekenverhouding-bij-breien.md` tasattiin nykyiseen gauge-rakenteeseen lisäämällä breistijl-, naaldmateriaal-, blockaus-, steekpatroon-, bewegingsruimte-, 10 cm-, hulpmiddelen- ja FAQ-osuudet, ja `hoeveel-garen-voor-een-deken.md` tasattiin nykyiseen blanket-rakenteeseen pehmentämällä vanhat tarkat prosenttiväitteet sekä lisäämällä verfbad-, garendikte-, naald-/vezel- ja modulaariset caveatit.
+
+Erä 19 on nyt myös valmis: `hoeveel-garen-voor-een-trui.md` tasattiin nykyiseen sweater-yardage-rakenteeseen poistamalla liian tarkat prosentti- ja metrilupaukset, lisäämällä negative-ease-, top-down-mouw-, constructie-/garenverdeling-, extra-bol-/retour- ja vezel-caveatit sekä ohjaamalla garendikte-vaihto erilliseen NL-artikkeliin. `een-andere-garendikte-gebruiken.md` tasattiin nykyiseen yarn-weight-substitution-rakenteeseen lisäämällä Worsted->DK-rekenvoorbeeld, vaiheittainen uudelleenlaskenta, dubbele draad -haarukat, vanhojen patronen ja onduidelijke diktenamen -rajaus, ajour-/structuur-caveatit sekä laajennettu FAQ.
+
+Päivitys erän 19 jälkeen: hollannin artikkelierät 1-19 ovat valmiit. Hollannissa on 38/38 artikkelia, 38/38 `translationKey`-avainta, 38/38 `draft: false`, 38 `lang: nl` -artikkelia ja 38 hollantipolkua `articleTranslations`-kartassa. Erän 19 app-/claim-riskigrep oli puhdas, erän `/nl/`-linkkitarkistus löysi 0 puuttuvaa kohdetta, `dist/nl/artikelen/` tuottaa 38/38 artikkeli-HTML-sivua ja `dist/nl/breitools/` tuottaa 7/7 tool-HTML-sivua. Erän sivut `/nl/artikelen/hoeveel-garen-voor-een-trui/` ja `/nl/artikelen/een-andere-garendikte-gebruiken/` löytyvät buildistä, ja niiden buildattu HTML sisältää erän uudet osiot. Tuore `npm run check` oli puhdas virheistä ja varoituksista (20 olemassa olevaa Astro-hinttiä), ja tuore `npm run build` rakensi 411 sivua.
+
+Tanskan (`da`) aloitusinventaario on valmis 2026-05-27: 38/38 artikkelia, 38/38 `translationKey`-avainta, 38/38 `draft: false`, 38 `lang: da` -artikkelia, 38 tanskankielistä polkua `articleTranslations`-kartassa, 38/38 rakennettua artikkeli-HTML-sivua ja 7/7 tools-HTML-sivua (`index` + 6 alasivua) löytyvät dististä. Ennen editointia luettiin `DANISH_TRANSLATION_GUIDE.md` ja tarkistettiin ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje sekä Craft Yarn Councilin neulontatermistö-/standardipinnat.
+
+- Tanskan artikkelierä 1:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/da/samtidig-i-strikkeopskrifter.md` ja `src/content/articles/da/bedste-strikkeapps.md`
+  - vertailtu EN/DA-parit `translationKey`-avaimilla `at-the-same-time-knitting` ja `best-knitting-apps`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot
+  - `samtidig-i-strikkeopskrifter.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä kahden rytmin taulukkoesimerkki, indtagningstype-/symmetriaosio, WS-pindirajaus, forskudt start -selitys, knaphul-osio, Ravelry-tarkistus ja puuttuva FAQ-vastaus samlet pindplan -menetelmästä
+  - `bedste-strikkeapps.md`: tasattu nykyiseen EN-rakenteeseen lisäämällä store trykflader, telefon/tablet-rajaus, betalingsmodelien tarkennukset, platform/enhed-osio ja smartwatch-FAQ; samalla poistettu vanhat unsupported banderolescanner-, camera-, AI-, voice-, mikrofon- ja liian valmiilta kuulostavat KnitTools-claimit
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty tanskan linjassa: `strikkeopskrift`, `pind`, `omgang`, `strikkefasthed`, `maske`, `opslag`, `garn`, `løbelængde`, `pindestørrelse`, `omgangstæller`, `strikkeprøve`, `retside`, `vrangside` ja `KnitTools`
+  - eräkohtainen app-/claim-riskigrep kahdelle lähdetiedostolle: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `app-køb`, euro-/dollarimerkit ja vastaavat vanhat claimit
+  - lähdesisäiset `/da/`-linkit tarkistettu buildiä vasten: `/da/artikler/laes-strikkeopskrift/`, `/da/artikler/samtidig-i-strikkeopskrifter/`, `/da/strikkevaerktoejer/opslagsberegner/` ja `/da/strikkevaerktoejer/garnberegner/` löytyvät dististä; erän linkkitarkistus antoi 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/da/samtidig-i-strikkeopskrifter.md src/content/articles/da/bedste-strikkeapps.md` OK, `git diff --check` kahdelle muokatulle DA-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/samtidig-i-strikkeopskrifter/` ja `/da/artikler/bedste-strikkeapps/` löytyvät buildistä
+
+- Tanskan artikkelierä 2:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/da/bedste-garn-til-begyndere.md` ja `src/content/articles/da/rundpinde-jumperpinde-stroempepinde.md`
+  - vertailtu EN/DA-parit `translationKey`-avaimilla `best-yarn-for-beginners` ja `circular-vs-straight-vs-dpn`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -ohje sekä Craft Yarn Councilin yarn weight -standardi
+  - `bedste-garn-til-begyndere.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä tonal yarn -rajaus, laajennettu farveparti-/garnmængde-caveat, `Læs banderolen før du køber` -osio, fed/nøgle/cake-varoitus sekä kaksi puuttuvaa FAQ-vastausta hobbybutik vs garnbutik ja garnin tunnustelu ennen ostoa; samalla poistettu vanhat tarkat kr-hintahaarukat
+  - `rundpinde-jumperpinde-stroempepinde.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä `Overblik`-taulukko, kategorioiden overlap-selitys, jumperpindien pituusrajaus, `Kabellængde`, `Kabelkvalitet`, täysi `Magic loop`, `To rundpinde`, ladder/stiger-korjaus, strømpepindien pituus ja lukumäärä, `23 cm rundpinde`, ergonomiset muodot sekä laajennettu FAQ
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty tanskan linjassa: `garntykkelse`, `Worsted / Medium`, `strikkefasthed`, `strikkeprøve`, `banderole`, `løbelængde`, `fiberindhold`, `farveparti`, `fed`, `nøgle`, `pindestørrelse`, `jumperpinde`, `rundpinde`, `strømpepinde`, `kabellængde`, `stiger`, `topindtagninger`, `vanter` ja `KnitTools`
+  - eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle: 0 osumaa hakulistalla `20-45`, `40-70`, `70-100`, `Banderolescanner`, `AI`, `scanner`, `kamera`, `stemmekommando`, `mikrofon`, `KnitTools-app`, `app-køb`, euro-/dollarimerkit, `subscription`, `ads`, `tryggeste`, `slacket`, `strømpe-tæer`, `wire`, `vaier`, `rundpinne`, `pinner`, `garen`, `naald`, `steek`, `mailles`, `aiguilles` ja `tricot`
+  - lähdesisäiset `/da/`-linkit tarkistettu buildiä vasten: `/da/artikler/strik-foerste-toerklaede/`, `/da/artikler/pindestoerrelse-for-begyndere/`, `/da/strikkevaerktoejer/garntykkelser/`, `/da/artikler/garnfibre-sammenlignet/`, `/da/artikler/ukendt-garn-uden-banderole/`, `/da/artikler/strik-stroemper-stroempeopskrift/`, `/da/artikler/strik-hue-metoder/`, `/da/strikkevaerktoejer/pindestoerrelser/` ja `/da/artikler/strikkepinde-metal-trae-bambus/` löytyvät dististä; rakennettujen HTML-sivujen `/da/`-linkkitarkistus kahdelle erän sivulle: 20 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/da/bedste-garn-til-begyndere.md src/content/articles/da/rundpinde-jumperpinde-stroempepinde.md` OK, `git diff --check` kahdelle muokatulle DA-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/bedste-garn-til-begyndere/` ja `/da/artikler/rundpinde-jumperpinde-stroempepinde/` löytyvät buildistä ja niiden buildattu HTML sisältää erän uudet osiot
+
+- Tanskan artikkelierä 3:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/da/digital-eller-fysisk-omgangstaeller.md` ja `src/content/articles/da/vigtigt-strikketilbehoer.md`
+  - vertailtu EN/DA-parit `translationKey`-avaimilla `digital-vs-physical-row-counters` ja `essential-knitting-tools`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio sekä nykyinen repoarkkitehtuuri ja `DANISH_TRANSLATION_GUIDE.md`
+  - `digital-eller-fysisk-omgangstaeller.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä universaltællere/fingertællere-rajaus, appien feature-rajaukset ilman vanhoja voice-/AI-väitteitä, backup-osio, kombinaatiomenetelmän tarkennus sekä smartwatch-/LED-fingertæller-FAQ
+  - `vigtigt-strikketilbehoer.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä pysyvä saksimatkustusrajaus, markkerivärit ja lukittavat markkerit, målebåndin 150 cm / strikkefasthedsmåler -tarkennus, mekaanisen tællerin undo-/rundpinde-rajaukset, pindemålerin joustoplastivaroitus, blokkevire/sprayflaske, garnvinde-tyypit, projektiposer- ja udskiftelige rundpindesæt -osiot sekä puuttuva organisointi-FAQ
+  - poistettu vanhat unsupported stemmekommando-/samtalestemme-/AI-/scanner-/11 sprog -claimit, tarkat kr-hinnat sekä liian valmiilta kuulostava `KnitTools-appen`-muoto; turvallinen app-linja on `KnitTools bygges...` ja paikalliset projektidata-ydintoiminnot
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty tanskan linjassa: `omgangstæller`, `pinde`, `omgange`, `strikkeopskrift`, `rapport`, `snoningsrapport`, `maskemarkør`, `stoppenål`, `strikkefasthed`, `pindemåler`, `blokning`, `garnvinde`, `nøgleapparat`, `fed`, `nøgle`, `jumperpinde`, `rundpinde`, `strømpepinde` ja `KnitTools`
+  - eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle ja rakennettujen HTML-sivujen näkyvälle sisällölle: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `app-køb`, euro-/dollarimerkit, `subscription`, `ads`, `reklamer`, `abonnement`, vanhat kr-hinnat, `håndfri`, `offline på`, `Tæller, fire beregnere`, `projektminne`, `projectminne` ja `strikke notions`
+  - englanti-/norja-/hollanti-/ranskajäämien sekä tanskan termikieltojen täsmähaku kahdelle lähdetiedostolle: vain odotettu `translationKey: "digital-vs-physical-row-counters"` ja hyväksyttävät tanskan `strikkeapps`/`App-tællere` -sanat; ei vieraskielisiä termijäämiä
+  - merkkimääräpariteetti erän jälkeen: `digital-eller-fysisk-omgangstaeller...` 7 367 merkkiä / 1 149 sanaa / 6 H2 + 0 H3 + 4 FAQ -osiota (EN 7 731 / 1 284 / 6 H2 + 0 H3 + 4 FAQ), `vigtigt-strikketilbehoer...` 10 239 merkkiä / 1 576 sanaa / 5 H2 + 13 H3 + 4 FAQ -osiota (EN 10 015 / 1 641 / 5 H2 + 13 H3)
+  - lähdesisäiset `/da/`-linkit tarkistettu buildiä vasten: 4 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - loppuvarmistukset: `npx prettier --check src/content/articles/da/digital-eller-fysisk-omgangstaeller.md src/content/articles/da/vigtigt-strikketilbehoer.md` OK, `git diff --check` kahdelle muokatulle DA-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/digital-eller-fysisk-omgangstaeller/` ja `/da/artikler/vigtigt-strikketilbehoer/` löytyvät buildistä
+
+- Tanskan artikkelierä 4:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/da/saml-tabt-maske-op.md` ja `src/content/articles/da/gratis-strikkeberegnere.md`
+  - vertailtu EN/DA-parit `translationKey`-avaimilla `fix-dropped-stitches` ja `free-knitting-calculators`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin yarn weight -standardi sekä pudonneen silmukan tekniikkalähteet
+  - `saml-tabt-maske-op.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä stop-masken-straks-ohje, live loop -kiinnitys, ret-/vrangmaske-, retstrik- ja rib-korjaukset, varhainen tunnistus, livline-preventio, opslagskant-rajaus, snoet maske -jälkikorjaus, mohair-/karhea-lanka-caveat, trevle-op-rajaus sekä laajennettu FAQ; vanha rootiin linkannut omgangstæller-app-claim poistettiin
+  - `gratis-strikkeberegnere.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä opslagsberegnerin metriikkainen esimerkki, garnberegnerin rakenne-/farveparti-caveatit, strikkefasthedsomregning, lisäysten/kavennusten jakamisen reunarajaus, pattern-resizing-varoitus, hyvän laskurin kriteerit ja referenssityökalujen linkit; vanhat unsupported offline-, AI-, stemme-, engangskøb-, reklame-/abonnementti- ja hintaclaimit poistettiin
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty tanskan linjassa: `tabt maske`, `løbet maske`, `hæklenål`, `retmaske`, `vrangmaske`, `retstrik`, `rib`, `livline`, `opslagskant`, `strikkefasthed`, `opslagsberegner`, `garnberegner`, `garntykkelse`, `løbelængde`, `farveparti` ja `KnitTools`
+  - eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, euro-/dollarimerkit, `subscription`, `ads`, `reklamer`, `abonnement`, vanhat kr-hinnat, `offline`, `uden forbindelse`, `Ravelry-integration` ja `prøveperiode`
+  - englanti-/suomi-/ruotsi-/norja-/hollanti-/ranskajäämien sekä tanskan termikieltojen täsmähaku kahdelle lähdetiedostolle: vain odotetut `translationKey`-metadataosumat ja hyväksyttävä `Android-app`; ei näkyvän sisällön vieraskielisiä termijäämiä
+  - merkkimääräpariteetti erän jälkeen: `saml-tabt-maske-op...` 9 637 merkkiä / 1 633 sanaa / 12 H2 + 0 H3 + 6 FAQ -osiota (EN 9 590 / 1 688 / 12 H2 + 0 H3 + 6 FAQ), `gratis-strikkeberegnere...` 9 448 merkkiä / 1 382 sanaa / 9 H2 + 0 H3 + 4 FAQ -osiota (EN 9 408 / 1 516 / 9 H2 + 0 H3 + 4 FAQ)
+  - lähdesisäiset ja buildatut `/da/`-linkit tarkistettu: 11 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen app-/claim-riskigrepissä ei löytynyt näkyvän sisällön osumia; ainoat osumat olivat generated-JS-teknisiä `$`/metadata-rivejä, eivät artikkelitekstiä
+  - loppuvarmistukset: `npx prettier --check src/content/articles/da/saml-tabt-maske-op.md src/content/articles/da/gratis-strikkeberegnere.md` OK, `git diff --check` kahdelle muokatulle DA-artikkelitiedostolle OK, jatkolokin perä tarkistettu ja trailing whitespace -haku puhdas, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/saml-tabt-maske-op/` ja `/da/artikler/gratis-strikkeberegnere/` löytyvät buildistä
+
+- Tanskan artikkelierä 5:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/da/naar-strikkefastheden-ikke-passer.md` ja `src/content/articles/da/strikkeproeve-trin-for-trin.md`
+  - vertailtu EN/DA-parit `translationKey`-avaimilla `gauge-doesnt-match` ja `gauge-swatch-step-by-step`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin yarn weight -standardi sekä Vogue Knittingin gauge-ohje
+  - `naar-strikkefastheden-ikke-passer.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä kahden mittauskohdan keskiarvo, blokket/ublokket strikkefasthed, rundstrik vs flad strik, strikkefasthed der glider, `Når du bør opgive opskriften` sekä puuttuva FAQ-vastaus maskeantal-muutoksista; vanha unsupported `KnitTools-appen`-strikkefasthedsberegner-claim poistettiin ja korvattiin linkillä mittausoppaaseen
+  - `strikkeproeve-trin-for-trin.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä notes-/mærkning-ohje, glatstrik vs mønster -rajaus, opslagsmetode, retstrikskant, løs aflukning, 15-20 minuutin vask/blokning, projektin mukaan blokkaaminen, 20->18 masker / 111 cm -esimerkki, pinde-spring-rajaus, garnskift-caveat, rundstrikket prøve -pikamenetelmä, prøvelappujen säilytys, mid-project strikkefasthed -muuttujat ja neljäs quick answer ilman uutta app-claimia
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty tanskan linjassa: `strikkefasthed`, `strikkeprøve`, `maskefasthed`, `pindefasthed`, `pindestørrelse`, `masker pr. 10 cm`, `pinde pr. 10 cm`, `glatstrik`, `retstrik`, `rib`, `snoning`, `hulmønster`, `blokning`, `rundstrik`, `flad strik`, `banderole`, `garntykkelse`, `løbelængde`, `opslag`, `aflukning` ja `KnitTools`
+  - eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle: 0 osumaa hakulistalla `KnitTools-appen`, `KnitTools-app`, `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `app-køb`, `engangskøb`, euro-/dollarimerkit, `subscription`, `ads`, `reklamer`, `abonnement`, vanhat kr-hinnat, `offline`, `uden forbindelse`, `Ravelry-integration` ja `prøveperiode`
+  - AI-filler-/englanti-/formaali-tanskariskigrep kahdelle lähdetiedostolle: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst` sekä formaalit `De`, `Dem`, `Deres`; body-tason vierastermihaku ei löytänyt näkyviä EN/FR/NL/NO/FI/DE-jäämiä, vain tanskan normaalia `garn`-sanastoa
+  - merkkimääräpariteetti erän jälkeen: `naar-strikkefastheden-ikke-passer...` 12 100 merkkiä / 1 908 sanaa / 13 H2 + 0 H3 + 5 FAQ -osiota (EN 11 437 / 1 877 / 13 H2 + 0 H3 + 5 FAQ), `strikkeproeve-trin-for-trin...` 9 406 merkkiä / 1 538 sanaa / 10 H2 + 0 H3 + 4 quick-answer-kysymystä (EN 9 131 / 1 580 / 10 H2 + 0 H3)
+  - lähdesisäiset `/da/`-linkit tarkistettu buildiä vasten: 7 uniikkia kohdetta, 0 puuttuvaa kohdetta; rakennettujen HTML-sivujen `/da/`-linkkitarkistus: 17 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen näkyvän sisällön app-/claim-riskigrep: 0 osumaa; buildattu HTML sisältää erän uudet osiot `Blokket og ublokket strikkefasthed`, `Rundstrik og flad strik`, `Når du bør opgive opskriften` ja `Hvad hvis opskriften ikke angiver strikkefasthed?`
+  - loppuvarmistukset: `npx prettier --check src/content/articles/da/naar-strikkefastheden-ikke-passer.md src/content/articles/da/strikkeproeve-trin-for-trin.md` OK, `git diff --check` kahdelle muokatulle DA-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/naar-strikkefastheden-ikke-passer/` ja `/da/artikler/strikkeproeve-trin-for-trin/` löytyvät buildistä
+
+- Tanskan artikkelierä 6:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/da/hvor-mange-masker-skal-du-slaa-op.md` ja `src/content/articles/da/hvor-meget-garn-skal-du-bruge.md`
+  - vertailtu EN/DA-parit `translationKey`-avaimilla `how-many-stitches-to-cast-on` ja `how-much-yarn-do-i-need`; riskilinjan tukena tarkistettu myös valmiit NO/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio ja Craft Yarn Councilin yarn weight -standardi
+  - `hvor-mange-masker-skal-du-slaa-op.md`: tasattu nykyiseen EN/NO/NL-rakenteeseen lisäämällä regneeksempel, mønsterrapport-formattilista, kædekant-rajaus, rundstrik-osio, strømpe-opslagstal, opslagstekniikoiden vertailu, opslagskant-spænding, laajennetut vakioprojektien rimelighedstjekit, top-down/bottom-up-sweater-rajaus ja puuttuvat FAQ-vastaukset; description päivitetty kattamaan opslagsteknik ja rundstrik
+  - `hvor-meget-garn-skal-du-bruge.md`: tasattu nykyiseen EN/NO/NL-riskilinjaan korjaamalla DK-sweater-esimerkki `1 100 m` -> `1 350 m eller mere`, bed-size blanket `2 700 m` -> `2 750 m`, poistamalla liian tarkka unsupported `20-30 %` snoninger-claim, pehmentämällä absoluuttisia estimate-/farveparti-lauseita ja korjaamalla `single-garn` -> `entrådet garn`
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty tanskan linjassa: `strikkefasthed`, `strikkeprøve`, `masker pr. 10 cm`, `opslag`, `kantmasker`, `mønsterrapport`, `selvkant`, `rundstrik`, `negativ bevægelsesvidde`, `strømper`, `garnforbrug`, `løbelængde`, `garntykkelse`, `farveparti`, `flotteringer`, `snoninger`, `blokning` ja `KnitTools`
+  - eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle: 0 osumaa hakulistalla `KnitTools-appen`, `KnitTools-app`, `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `app-køb`, `engangskøb`, euro-/dollarimerkit, `subscription`, `ads`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode`, `20-30`, `single-garn`, `slacket`, `strømpe-tæer` sekä vieraskieliset termit `garen`, `naald`, `steek`, `mailles`, `aiguilles`, `tricot`
+  - AI-filler-/vierastermihaku kahdelle lähdetiedostolle: 0 todellista osumaa; formaali `De` -haku antoi vain tavallisia tanskan demonstratiivi-/lauseenalkuosumia kuten `De fleste`, `De nærmeste` ja `De kan ikke forudse alt`, ei teitittelyä
+  - merkkimääräpariteetti erän jälkeen: `hvor-mange-masker-skal-du-slaa-op...` 14 178 merkkiä / 2 235 sanaa / 13 H2 + 0 H3 + 7 FAQ -osiota (EN 13 658 / 2 289 / 13 H2 + 0 H3 + 7 FAQ), `hvor-meget-garn-skal-du-bruge...` 11 075 merkkiä / 1 741 sanaa / 8 H2 + 0 H3 + 6 FAQ -osiota (EN 11 077 / 1 821 / 8 H2 + 0 H3 + 6 FAQ)
+  - lähdesisäiset `/da/`-linkit tarkistettu buildiä vasten: 6 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen tarkistus: uudet sisällöt `Opslagsteknikker kort sammenlignet`, `Top-down eller bottom-up-sweatre` ja `1 350 m eller mere` löytyvät buildistä, eikä vanhoja riskiosumia kuten `20-30 %`, `1 100 m` tai app-claimit löytynyt
+  - loppuvarmistukset: `npx prettier --check src/content/articles/da/hvor-mange-masker-skal-du-slaa-op.md src/content/articles/da/hvor-meget-garn-skal-du-bruge.md` OK, `git diff --check` kahdelle muokatulle DA-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/hvor-mange-masker-skal-du-slaa-op/` ja `/da/artikler/hvor-meget-garn-skal-du-bruge/` löytyvät buildistä
+
+- Tanskan artikkelierä 7:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/da/blokke-strik-vaadt-damp-spray.md` ja `src/content/articles/da/strik-hue-metoder.md`
+  - vertailtu EN/DA-parit `translationKey`-avaimilla `how-to-block-knitting` ja `how-to-knit-hat`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Craft Yarn Councilin yarn weight -standardi, Craft Yarn Councilin head circumference -taulukko sekä Purl Sohon blocking- ja hat sizing -ohjeet
+  - `blokke-strik-vaadt-damp-spray.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä farveblødning-varoitus, akryylin tarkoituksellinen dampblokning/`dræbe akryl` -rajaus, hulmønster-, sweaterdele-, tørretid- ja efter blokning -osiot sekä kaksi puuttuvaa FAQ-vastausta; samalla kuitucaveatit pehmennettiin varovaisemmiksi ja vanha `no-rinse`-jäämä vaihdettiin tanskaksi
+  - `strik-hue-metoder.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä oppefra-og-ned-menetelmä, rundstrikin omgangsstart-/maskemarkør-huomio, flad strik -aikacaveat, CYC-päänympärysrajaukset, topindtagningstakten ja parvise indtagninger -rajaus, ribvalg-osio, langan/puikkojen lisärajaukset sekä puuttuvat øreklapper-/forede huer -FAQ-täsmennykset
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty tanskan linjassa: `blokning`, `vådblokning`, `dampblokning`, `sprayblokning`, `hulmønster`, `strikkeprøve`, `strikkefasthed`, `pindestørrelse`, `rundpind`, `strømpepinde`, `magic loop`, `maskemarkør`, `negativt bevægelsesrum`, `topindtagninger`, `ribkant`, `Worsted / Medium`, `Bulky / Chunky` ja `KnitTools`
+  - eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle: 0 osumaa hakulistalla `KnitTools-appen`, `KnitTools-app`, `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `app-køb`, `engangskøb`, euro-/dollarimerkit, `subscription`, `ads`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode`, `20-30`, `single-garn`, `slacket`, `strømpe-tæer`, `garen`, `naald`, `steek`, `mailles`, `aiguilles`, `tricot`, `no-rinse` ja `sømløs`
+  - AI-filler-/vierastermihaku kahdelle lähdetiedostolle: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst`, formaalit `De`, `Dem`, `Deres` sekä yleiset AI-adjektiivit
+  - merkkimääräpariteetti erän jälkeen: `blokke-strik-vaadt-damp-spray...` 13 303 merkkiä / 2 112 sanaa / 11 H2 + 2 H3 + 7 FAQ -osiota (EN 12 924 / 2 108 / 11 H2 + 2 H3 + 7 FAQ), `strik-hue-metoder...` 10 536 merkkiä / 1 724 sanaa / 9 H2 + 0 H3 + 6 FAQ -osiota (EN 10 040 / 1 746 / 9 H2 + 0 H3 + 6 FAQ)
+  - lähdesisäiset ja buildatut `/da/`-linkit tarkistettu: 18 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen tarkistus: uudet sisällöt `Hold øje med farveblødning`, `At dræbe akryl med vilje`, `Blokning af hulmønster`, `Tørretid efter fiber`, `Metode 3: oppefra og ned`, `Ribvalg`, CYC-päänympärysrajaus ja `Hvad med forede huer?` löytyvät buildistä, eikä app-/claim-riskigrep löytänyt osumia buildatusta HTML:stä
+  - loppuvarmistukset: `npx prettier --check src/content/articles/da/blokke-strik-vaadt-damp-spray.md src/content/articles/da/strik-hue-metoder.md` OK, `git diff --check` kahdelle muokatulle DA-artikkelitiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/blokke-strik-vaadt-damp-spray/` ja `/da/artikler/strik-hue-metoder/` löytyvät buildistä
+
+- Tanskan artikkelierä 8:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/da/strik-stroemper-stroempeopskrift.md` ja `src/content/articles/da/maal-strikkefasthed.md`
+  - vertailtu EN/DA-parit `translationKey`-avaimilla `how-to-knit-socks` ja `how-to-measure-knitting-gauge`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin yarn weight -standardi ja foot size chart sekä Vogue Knittingin gauge-ohje
+  - `strik-stroemper-stroempeopskrift.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä klassisen strømpeanatomian tarkennukset, laajemmat cuff-down/toe-up-edut ja caveatit, hælflap-/vendepindshæl-/afterthought heel -rajaukset, håndfarvet/selvstribende strømpegarn -osio, strømpepinde/magic loop/to rundpinde -vertailu, tiheämpi strømpestof -rajaus, `Størrelse og pasform` -osio sekä puuttuvat garn-loppuu- ja matcher-præcis-FAQ:t
+  - `maal-strikkefasthed.md`: tarkistettu nykyistä EN-rakennetta, NO/FR/NL-riskilinjaa ja tanskan termiohjetta vasten; artikkeli oli jo rakenteellisesti pariteetissa, joten sisältömuutosta ei tarvittu
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty tanskan linjassa: `strømper`, `ribkant`, `skaft`, `hælflap`, `hælvending`, `kile`, `vrist`, `maskesting`, `Kitchener stitch`, `strømpepinde`, `magic loop`, `rundpinde`, `strikkeprøve`, `strikkefasthed`, `pindestørrelse`, `masker pr. 10 cm`, `negativt bevægelsesrum`, `løbelængde`, `farveparti`, `Fingering`, `CYC` ja `KnitTools`
+  - merkkimääräpariteetti erän jälkeen: `strik-stroemper-stroempeopskrift...` 13 689 merkkiä / 2 108 sanaa / 9 H2 + 0 H3 + 5 FAQ -osiota (EN 13 113 / 2 170 / 9 H2 + 0 H3 + 5 FAQ), `maal-strikkefasthed...` 10 338 merkkiä / 1 616 sanaa / 9 H2 + 0 H3 + 5 FAQ -osiota (EN 10 305 / 1 723 / 9 H2 + 0 H3 + 5 FAQ)
+  - eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle: 0 osumaa hakulistalla `KnitTools-appen`, `KnitTools-app`, `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `app-køb`, `engangskøb`, `subscription`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode`, `20-30`, `single-garn`, `slacket`, `strømpe-tæer`, `garen`, `naald`, `steek`, `mailles`, `aiguilles`, `tricot`, `no-rinse` ja `sømløs`
+  - lähdesisäiset `/da/`-linkit tarkistettu buildiä vasten: 7 uniikkia kohdetta, 0 puuttuvaa kohdetta; rakennettujen HTML-sivujen `/da/`-linkkitarkistus kahdelle erän sivulle: 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen tarkistus: uudet sisällöt `Størrelse og pasform`, `Craft Yarn Councils fodmål`, `Hvad hvis garnet slipper op før tåen?` ja `Skal begge strømper matche præcis?` löytyvät sukka-artikkelin buildistä; `Strikkefasthed rundt og fladt` ja `Den blokerede strikkefasthed` löytyvät gauge-artikkelin buildistä; näkyvän `<main>`-sisällön app-/claim-riskigrepissä 0 osumaa
+  - loppuvarmistukset: `npx prettier --check src/content/articles/da/strik-stroemper-stroempeopskrift.md src/content/articles/da/maal-strikkefasthed.md` OK, `git diff --check` DA-erätiedostoille OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/strik-stroemper-stroempeopskrift/` ja `/da/artikler/maal-strikkefasthed/` löytyvät buildistä
+
+- Tanskan artikkelierä 9:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/da/laes-strikkeopskrift.md` ja `src/content/articles/da/laes-banderole-symboler.md`
+  - vertailtu EN/DA-parit `translationKey`-avaimilla `how-to-read-knitting-pattern` ja `how-to-read-yarn-label`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin pattern reading -ohje, Craft Yarn Councilin yarn label information -ohje ja GINETEXin care labelling -ohje
+  - `laes-strikkeopskrift.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä sværhedsgrad-, notes-, særlige masker-, spejlvendt formgivning-, almindelige diagramsymboler-, japanske symboldiagrammer- ja PDF/papir-osiot sekä kaksi puuttuvaa FAQ-vastausta; stjerne-repeat-esimerkin Markdown korjattu pois `_`-muotoisesta italic-riskistä näkyväksi `*`-merkiksi
+  - `laes-banderole-symboler.md`: päivitetty nykyisen EN-riskilinjan mukaiseksi pehmentämällä CYC/Size 8 -kategoriamuotoilua, superwash-/ikke-superwash-väitteitä, 10 cm / 4 in -FAQ:ta ja symbolien velvoittavuutta; vanha unsupported `banderolescanner`/telefonkamera-app-claim poistettu ja korvattu neutraalilla projektnote-ohjeella
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty tanskan linjassa: `strikkeopskrift`, `strikkefasthed`, `strikkeprøve`, `pindestørrelse`, `pinde`, `omgange`, `retside`, `vrangside`, `særlige masker`, `diagram`, `tegnforklaring`, `banderole`, `garntykkelse`, `løbelængde`, `fiberindhold`, `farveparti`, `vaskeanvisning` ja `projektnoter`
+  - eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle ja buildatulle HTML:lle: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `subscription`, `ads`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode` ja `telefonkamera`
+  - AI-filler-/vierastermihaku kahdelle lähdetiedostolle: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst`, formaalit `Dem`/`Deres` sekä vierastermit `garen`, `naald`, `steek`, `mailles`, `aiguilles`, `tricot` ja `no-rinse`
+  - merkkimääräpariteetti erän jälkeen: `laes-strikkeopskrift...` 14 574 merkkiä / 2 161 sanaa / 14 H2 + 2 H3 + 7 FAQ -osiota (EN 13 924 / 2 205 / 14 H2 + 2 H3 + 7 FAQ), `laes-banderole-symboler...` 9 007 merkkiä / 1 351 sanaa / 9 H2 + 0 H3 + 4 FAQ -osiota (EN 8 851 / 1 487 / 9 H2 + 0 H3 + 4 FAQ)
+  - lähdesisäiset `/da/`-linkit tarkistettu: 9 uniikkia kohdetta, 0 puuttuvaa kohdetta; rakennettujen HTML-sivujen `/da/`-hrefit tarkistettu: 20 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen tarkistus: uudet sisällöt `Hvad sværhedsgrad egentlig betyder`, `Notes-afsnittet`, `Spejlvendt formgivning`, `Almindelige diagramsymboler`, `Japanske symboldiagrammer`, `PDF eller papir`, `Skriv de vigtigste banderoleoplysninger`, `Size 8` ja `Plejesymbolerne gør dig mindre afhængig` löytyvät buildistä
+  - loppuvarmistukset: `npx prettier --check src/content/articles/da/laes-strikkeopskrift.md src/content/articles/da/laes-banderole-symboler.md` OK, `git diff --check` kahdelle DA-erätiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/laes-strikkeopskrift/` ja `/da/artikler/laes-banderole-symboler/` löytyvät buildistä
+
+- Tanskan artikkelierä 10:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/da/skift-garn-i-strikkeopskrift.md` ja `src/content/articles/da/ukendt-garn-uden-banderole.md`
+  - vertailtu EN/DA-parit `translationKey`-avaimilla `how-to-substitute-yarn` ja `identify-mystery-yarn`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin yarn weight/WPI -ohjeet ja ACS:n kuitutunnistuksen burn-test-huomio
+  - `skift-garn-i-strikkeopskrift.md`: tarkistettu nykyistä EN-rakennetta, NO/FR/NL-riskilinjaa ja tanskan termiohjetta vasten; artikkeli oli jo rakenteellisesti ja sisällöllisesti pariteetissa, joten sisältömuutosta ei tarvittu
+  - `ukendt-garn-uden-banderole.md`: päivitetty nykyisen EN/NO/FR/NL-riskilinjan mukaiseksi lisäämällä WPI:n inch-pohjainen selitys, CYC:n 0-7 / Size 8 -rajaus, brændtestin vesivara-/ulkoilma-/ventilaatio-/fume-turvallisuuslauseet, akryylin vesitesti-caveat sekä neutraali manuaalinen garnkort-ohje; vanha unsupported `banderolescanner`-app-claim poistettu
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty tanskan linjassa: `garntykkelse`, `strikkefasthed`, `strikkeprøve`, `fiberens opførsel`, `løbelængde`, `farveparti`, `WPI`, `wraps per inch`, `viklinger pr. inch`, `brændtest`, `vandtest`, `fiberfamilie`, `garnkort` ja `testnoter`
+  - eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle ja buildatulle HTML: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `subscription`, `ads`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode` ja `telefonkamera`
+  - AI-filler-/vierastermihaku kahdelle lähdetiedostolle: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst`, formaalit `Dem`/`Deres` sekä vierastermit `garen`, `naald`, `steek`, `mailles`, `aiguilles`, `tricot` ja `no-rinse`
+  - merkkimääräpariteetti erän jälkeen: `skift-garn-i-strikkeopskrift...` 8 904 merkkiä / 1 338 sanaa / 7 H2 + 0 H3 + 4 FAQ -osiota (EN 8 804 / 1 443 / 7 H2 + 0 H3 + 4 FAQ), `ukendt-garn-uden-banderole...` 6 828 merkkiä / 1 059 sanaa / 6 H2 + 3 H3 + 3 FAQ -osiota (EN 6 394 / 1 092 / 6 H2 + 3 H3 + 3 FAQ)
+  - lähdesisäiset `/da/`-linkit tarkistettu: 3 uniikkia kohdetta, 0 puuttuvaa kohdetta; rakennettujen HTML-sivujen `/da/`-hrefit tarkistettu: 14 uniikkia kohdetta, 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen tarkistus: uudet sisällöt `0-7-system`, `Size 8`, `kraftig ventilation`, `Syntetiske dampe`, `Akryl opfører sig anderledes` ja `manuelt garnkort` löytyvät buildistä, eikä vanhaa `banderolescanner`-claimia löytynyt
+  - loppuvarmistukset: `npx prettier --check src/content/articles/da/skift-garn-i-strikkeopskrift.md src/content/articles/da/ukendt-garn-uden-banderole.md` OK, `git diff --check` kahdelle DA-erätiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/skift-garn-i-strikkeopskrift/` ja `/da/artikler/ukendt-garn-uden-banderole/` löytyvät buildistä
+
+- Tanskan artikkelierä 11:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/da/fordel-udtagninger-indtagninger-jaevnt.md` ja `src/content/articles/da/nyt-noegle-midt-paa-pinden.md`
+  - vertailtu EN/DA-parit `translationKey`-avaimilla `increase-decrease-evenly` ja `join-new-ball-of-yarn`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin pattern/abbreviation-standardit sekä Yarnspirationsin new-yarn-join-ohje
+  - `fordel-udtagninger-indtagninger-jaevnt.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä yhden rivin kaava, puhtaan udtagning-esimerkin rytmi, rest/remainder-esimerkki, indtagning-kaava, udtagnings-/indtagningsmetodien valinta, kantmasker/sømrum, vrangmaske-tilanne, rundstrik, symmetrisk/parvis formgivning, tavalliset intervallit, vaikeiden laskujen käsittely sekä laajennettu 6 kysymyksen FAQ; vanha unsupported `KnitTools-appen`-laskuriclaim poistettiin ja korvattiin neutraalilla værktøj-/rytme-note-ohjeella
+  - `nyt-noegle-midt-paa-pinden.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä nopea menetelmävertailu, overlap-endien hæftning-ohje, Russian join -caveat, filtsamling-testin rajaus, magic knot -kompromissit, käsinvärjättyjen nøglerien vuorottelu, fabriksknuder, garn knækker midt i en maske sekä 5 kysymyksen FAQ; vieras `single-garn`-termi vaihdettiin tanskan ohjeen mukaiseen `entrådet garn`
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty tanskan linjassa: `strikkefasthed`, `strikkeprøve`, `udtagning`, `indtagning`, `kantmasker`, `sømrum`, `rundstrik`, `maskemarkør`, `garntykkelse`, `løbelængde`, `nøgle`, `filt-samling`, `Russian join`, `magic knot`, `farveparti`, `entrådet garn` ja `KnitTools`
+  - eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle ja buildatulle HTML: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `subscription`, `ads`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode`, `telefonkamera` ja `single-garn`
+  - AI-filler-/vierastermihaku kahdelle lähdetiedostolle: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst`, formaalit `Dem`/`Deres` sekä vierastermit `garen`, `naald`, `steek`, `mailles`, `aiguilles`, `tricot` ja `no-rinse`
+  - merkkimääräpariteetti erän jälkeen: `fordel-udtagninger-indtagninger-jaevnt...` 13 672 merkkiä / 2 195 sanaa / 15 H2 + 0 H3 + 6 FAQ -osiota (EN 15 281 / 2 580 / 15 H2 + 0 H3 + 6 FAQ), `nyt-noegle-midt-paa-pinden...` 11 880 merkkiä / 1 934 sanaa / 12 H2 + 1 H3 + 5 FAQ -osiota (EN 12 000 / 2 016 / 12 H2 + 1 H3 + 5 FAQ)
+  - lähdesisäiset `/da/`-linkit tarkistettu: 0 puuttuvaa kohdetta; rakennettujen HTML-sivujen `/da/`-hrefit tarkistettu: 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen tarkistus: uudet sisällöt `Formlen i én linje`, `Eksempel: en ren udtagning`, `Indtagningssiden`, `Kantmasker og sømrum`, `Symmetrisk og parvis formgivning`, `Nogle almindelige intervaller`, `Hurtig sammenligning`, `Hæft overlap-enderne ordentligt`, `Fabriksknuder`, `Når garnet knækker midt i en maske` ja `Hvorfor kryber den hæftede garnende frem igen?` löytyvät buildistä
+  - loppuvarmistukset: `npx prettier --check src/content/articles/da/fordel-udtagninger-indtagninger-jaevnt.md src/content/articles/da/nyt-noegle-midt-paa-pinden.md` OK, `git diff --check` kahdelle DA-erätiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/fordel-udtagninger-indtagninger-jaevnt/` ja `/da/artikler/nyt-noegle-midt-paa-pinden/` löytyvät buildistä
+
+- Tanskan artikkelierä 12:
+  - käsitelty vain kaksi artikkelia: `src/content/articles/da/strik-foerste-toerklaede.md` ja `src/content/articles/da/strikkepinde-metal-trae-bambus.md`
+  - vertailtu EN/DA-parit `translationKey`-avaimilla `knit-first-scarf` ja `knitting-needle-materials`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+  - ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -ohje sekä Craft Yarn Councilin yarn weight / needle size -standardit
+  - `strik-foerste-toerklaede.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä `Hold garnet`, `Læs det du har strikket`, `Almindelige begynderproblemer`, count-after-cast-on-ohje, `Sæt et nyt nøgle til`, aflukningstest, frynser, `Mellem strikkesessioner` sekä kolme puuttuvaa FAQ-vastausta; vanhat tarkat kr-hintalauseet poistettiin nykyisen EN-lähteen mukaisesti
+  - `strikkepinde-metal-trae-bambus.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä nopea vertailutaulukko, metal-/træ-/bambus-osioiden lisärajaukset, bambuksen fukt-caveat, kulfiber/KnitPro Karbonz -hybridihuomio, `Spidsform`, `Samlingen i udskiftelige rundpinde` sekä kaksi puuttuvaa FAQ-vastausta; käsikipu-/gigt-vastaus pehmennettiin nykyisen EN-lähteen lääkärirajauksen mukaiseksi
+  - frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+  - termit pidetty tanskan linjassa: `tørklæde`, `retmaske`, `vrangmaske`, `retstrik`, `perlestrik`, `opslag`, `aflukning`, `hæfte ender`, `hæklenål`, `strikkefasthed`, `garntykkelse`, `nøgle`, `pindestørrelse`, `jumperpinde`, `rundpinde`, `wire`, `kulfiber`, `strømpepinde` ja `KnitTools`
+  - eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle ja buildatulle HTML: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `subscription`, `ads`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode`, `telefonkamera`, `single-garn` ja `kr`
+  - AI-filler-/vierastermihaku kahdelle lähdetiedostolle ja buildatun HTML:n `<main>`-sisällölle: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst`, formaalit `Dem`/`Deres` sekä vierastermit `garen`, `naald`, `steek`, `mailles`, `aiguilles`, `tricot` ja `no-rinse`; minifioidun HTML:n metadata-linkeissä näkyi odotettu ranskankielinen alternate-polku, ei artikkelisisällön jäämä
+  - merkkimääräpariteetti erän jälkeen: `strik-foerste-toerklaede...` 13 342 merkkiä / 2 251 sanaa / 11 H2 + 4 H3 + 7 FAQ -osiota (EN 12 805 / 2 253 / 11 H2 + 4 H3 + 7 FAQ), `strikkepinde-metal-trae-bambus...` 10 711 merkkiä / 1 560 sanaa / 10 H2 + 0 H3 + 6 FAQ -osiota (EN 10 703 / 1 658 / 10 H2 + 0 H3 + 6 FAQ)
+  - lähdesisäiset `/da/`-linkit tarkistettu: 0 puuttuvaa kohdetta; rakennettujen HTML-sivujen `/da/`-hrefit tarkistettu: 0 puuttuvaa kohdetta
+  - rakennettujen HTML-sivujen tarkistus: uudet sisällöt `Hold garnet`, `Læs det du har strikket`, `Almindelige begynderproblemer`, `Sæt et nyt nøgle til`, `Frynser hvis du vil`, `Mellem strikkesessioner`, `Garnet knækkede midt i tørklædet`, `Hurtig sammenligning`, `Spidsform`, `Samlingen i udskiftelige rundpinde`, `KnitPro Karbonz`, `Hvorfor er nogle bambuspinde ru` ja `Kan jeg opbevare alle mine pinde sammen` löytyvät buildistä
+  - loppuvarmistukset: `npx prettier --check src/content/articles/da/strik-foerste-toerklaede.md src/content/articles/da/strikkepinde-metal-trae-bambus.md` OK, `git diff --check` kahdelle DA-erätiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+  - build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/strik-foerste-toerklaede/` ja `/da/artikler/strikkepinde-metal-trae-bambus/` löytyvät buildistä
+
+Tanskan artikkelierä 13:
+
+- käsitelty vain kaksi artikkelia: `src/content/articles/da/gentagelser-i-strikkeopskrifter.md` ja `src/content/articles/da/stoerrelser-i-strikkeopskrifter.md`
+- vertailtu EN/DA-parit `translationKey`-avaimilla `knitting-pattern-repeats` ja `knitting-pattern-sizes-and-fit`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n API -dokumentaatio, Google localized versions / hreflang -ohje sekä Craft Yarn Councilin pattern-reading- ja standardipinnat
+- `gentagelser-i-strikkeopskrifter.md`: tarkistettu nykyistä EN/NO/FR/NL-rakennetta vasten; artikkeli oli jo erän alussa rakenteellisesti pariteetissa nykyisen EN-lähteen kanssa (11 H2, 6 FAQ), joten sisältöä ei muutettu tässä jatkopassissa
+- `stoerrelser-i-strikkeopskrifter.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä puuttuvat olkapää-/tværryg-mittausrajaukset, ærmegabsdybde-varoitus, lyhyempi/pidempi käyttäjä -muutosrajaukset, eri koot kropalle ja ærmeille, konstruktiokohtainen pasform-osio, vendepinde til brystformning sekä neljän kysymyksen FAQ; samalla `måleskema` korvattiin luonnollisemmalla `målskitse`-termillä ja positiivisen bevægelsesrumin cm-rajat palautettiin nykyiseen EN/CYC-linjaan
+- frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia; `stoerrelser...`-kuvaustekstiä tarkennettiin sisällön nykyiseen `målskitse`-sanastoon
+- termit pidetty tanskan linjassa: `rapport`, `gentagelse`, `opsætningspind`, `maskemarkør`, `livline`, `strikkeopskrift`, `bevægelsesrum (positive ease)`, `kropsmål`, `færdige mål`, `målskitse`, `ærmegabsdybde`, `sænket skulder`, `isyet ærme`, `raglan`, `bærestykke`, `pindefasthed`, `vendepinde`, `strikkefasthed` ja `KnitTools`
+- eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle sekä buildatun HTML:n `<main>`-sisällölle: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `subscription`, `ads`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode`, `telefonkamera`, `single-garn` ja `kr`
+- AI-filler-/vierastermihaku kahdelle lähdetiedostolle ja buildatun HTML:n `<main>`-sisällölle: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst`, formaalit `Dem`/`Deres` sekä vierastermit `garen`, `naald`, `steek`, `mailles`, `aiguilles`, `tricot`, `no-rinse`, `bevegelsesvidde`, `oppskrift`, `maskor`, `stickfasthet`, `breipatroon` ja `stekenverhouding`
+- merkkimääräpariteetti erän jälkeen: `gentagelser-i-strikkeopskrifter...` 10 674 merkkiä / 1 765 sanaa / 11 H2 + 0 H3 + 6 FAQ -osiota (EN 10 298 / 1 786 / 11 H2 + 0 H3 + 6 FAQ), `stoerrelser-i-strikkeopskrifter...` 13 268 merkkiä / 2 057 sanaa / 13 H2 + 0 H3 + 4 FAQ -osiota (EN 12 631 / 2 088 / 13 H2 + 0 H3 + 4 FAQ)
+- lähdesisäiset `/da/`-linkit tarkistettu: 0 puuttuvaa kohdetta; rakennettujen HTML-sivujen `/da/`-hrefit tarkistettu: 0 puuttuvaa kohdetta
+- rakennettujen HTML-sivujen tarkistus: erän sisällöt `Opsætningspinde og etablerede mønstre`, `Livliner i komplekse rapporter`, `Hvad gør jeg, hvis rapporten pludselig flytter sig`, `Læs målskitsen`, `Vælg forskellige størrelser til krop og ærmer`, `Konstruktionen ændrer pasformen`, `Vendepinde til brystformning` ja `Måler jeg over tøj eller direkte på kroppen` löytyvät buildistä
+- loppuvarmistukset: `npx prettier --check src/content/articles/da/gentagelser-i-strikkeopskrifter.md src/content/articles/da/stoerrelser-i-strikkeopskrifter.md` OK, `git diff --check` kahdelle DA-erätiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/gentagelser-i-strikkeopskrifter/` ja `/da/artikler/stoerrelser-i-strikkeopskrifter/` löytyvät buildistä
+
+Tanskan artikkelierä 14:
+
+- käsitelty vain kaksi artikkelia: `src/content/articles/da/pindestoerrelse-for-begyndere.md` ja `src/content/articles/da/hold-styr-paa-strikkeprojekter.md`
+- vertailtu EN/DA-parit `translationKey`-avaimilla `needle-size-for-beginners` ja `organize-knitting-projects`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin Hooks & Needles -standardi sekä CYC Standards & Guidelines -PDF
+- `pindestoerrelse-for-begyndere.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä `Om størrelsessystemer`, `Hvad skal du ikke købe endnu?`, `Byg din strikkefasthed op` sekä kaksi puuttuvaa FAQ-vastausta US 6 / US 10 -aloituksesta ja merkkivalinnasta; samalla vanha tarkka `kr`-hintaväite poistettiin nykyisen EN-lähteen mukaisesti
+- `hold-styr-paa-strikkeprojekter.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä `Hvor arbejdsgarnet er`, projektipussin materiaali- ja kokorajausten käytännönosio, `Match projektet med øjeblikket`, restegarnin grammapunnitus sekä banderolemuistiinpanojen nykyinen manuaalinen linja; samalla vanhat `KnitTools-appen`- ja `banderolescanner`-claimit korvattiin nykyisellä "KnitTools bygges" -muotoilulla
+- frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+- termit pidetty tanskan linjassa: `pindestørrelse`, `strikkefasthed`, `strikkeprøve`, `jumperpinde`, `rundpind`, `Worsted / Medium`, `DK-garn`, `strømpegarn`, `snoningsdiagram`, `hulmønster`, `arbejdsgarn`, `farveparti`, `banderole`, `garntykkelse`, `fiberindhold`, `vaskeanvisning`, `omgangstæller` ja `KnitTools`
+- eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle sekä buildatun HTML:n `<main>`-sisällölle: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `subscription`, `ads`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode`, `telefonkamera`, `single-garn` ja `kr`
+- AI-filler-/vierastermihaku kahdelle lähdetiedostolle ja buildatun HTML:n `<main>`-sisällölle: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst`, formaalit `Dem`/`Deres` sekä vierastermit `garen`, `naald`, `steek`, `mailles`, `aiguilles`, `tricot`, `no-rinse`, `bevegelsesvidde`, `oppskrift`, `maskor`, `stickfasthet`, `breipatroon` ja `stekenverhouding`
+- merkkimääräpariteetti erän jälkeen: `pindestoerrelse-for-begyndere...` 9 864 merkkiä / 1 527 sanaa / 9 H2 + 0 H3 + 6 FAQ -osiota (EN 9 400 / 1 548 / 9 H2 + 0 H3 + 6 FAQ), `hold-styr-paa-strikkeprojekter...` 9 235 merkkiä / 1 442 sanaa / 8 H2 + 0 H3 + 3 FAQ -osiota (EN 9 264 / 1 529 / 8 H2 + 0 H3 + 3 FAQ)
+- lähdesisäiset ja buildatut `/da/`-linkit tarkistettu erän buildatuista sivuista: 16 uniikkia `/da/`-kohdetta, 0 puuttuvaa kohdetta
+- rakennettujen HTML-sivujen tarkistus: uudet sisällöt `Om størrelsessystemer`, `Hvad skal du ikke købe endnu`, `Byg din strikkefasthed op`, `Er US 6 eller US 10 dårlige startstørrelser`, `Hvor arbejdsgarnet er`, `Projektposens materiale`, `Match projektet med øjeblikket` ja `vej restgarnet` löytyvät buildistä
+- loppuvarmistukset: `npx prettier --check src/content/articles/da/pindestoerrelse-for-begyndere.md src/content/articles/da/hold-styr-paa-strikkeprojekter.md` OK, `git diff --check` kahdelle DA-erätiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/pindestoerrelse-for-begyndere/` ja `/da/artikler/hold-styr-paa-strikkeprojekter/` löytyvät buildistä
+
+Tanskan artikkelierä 15:
+
+- käsitelty vain kaksi artikkelia: `src/content/articles/da/saml-masker-op-langs-kant.md` ja `src/content/articles/da/sy-strikkede-dele-sammen-madrassting.md`
+- vertailtu EN/DA-parit `translationKey`-avaimilla `pick-up-stitches` ja `seam-knitted-pieces`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: silmukoiden poiminnan reuna-/tiheyskäytännöt sekä madrassting-/sammensyning-tekniikan nykyiset ohjepinnat
+- `saml-masker-op-langs-kant.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä løftede kantmasker, retstrikket kant, eri kantamateriaalien suhderajaukset, maskernes jævn fordeling, hæklenål- ja kontrastgarn-menetelmät, steek-rajaus sekä kuuden kysymyksen FAQ; samalla description ja opsamlingsrytme-termit tarkennettiin nykyiseen sisältöön
+- `sy-strikkede-dele-sammen-madrassting.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä menetelmävertailutaulukko, omvendt glatstrik / strukturmønstre, ribin puolimaskesäätö, Kitchener/maskesting, vahvemmat bagsting-rajaukset, ærmeisyning, striber/flerfarvestrik ja almindelige fejl -osio sekä kaksi puuttuvaa FAQ-vastausta; samalla description laajennettiin vastaamaan maskesting-sisältöä
+- frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+- termit pidetty tanskan linjassa: `samle masker op`, `strikkefasthed`, `pindefasthed`, `kantmasker`, `retstrik`, `rib`, `hæklenål`, `kontrastgarn`, `steek`, `madrassting`, `aflukning med tre pinde`, `maskesting`, `Kitchener stitch`, `kastesting`, `bagsting`, `stoppenål`, `ærmegab`, `flerfarvestrik` ja `KnitTools`
+- AI-filler-/vierastermihaku kahdelle lähdetiedostolle: vain hyväksyttävät tanskan lauseenalkuiset `De`-osumat (`De klippede`, `De fleste`); ei formaalia teitittelyä, englanti-/suomi-/ruotsi-/norja-/hollanti-/ranskajäämiä tai filler-osumia banned-listoilla
+- merkkimääräpariteetti erän jälkeen: `saml-masker-op-langs-kant...` 12 H2 + 2 H3 + 6 FAQ -osiota / 1 962 sanaa, `sy-strikkede-dele-sammen-madrassting...` 11 H2 + 2 H3 + 6 FAQ -osiota / 2 202 sanaa
+- lähdesisäiset `/da/`-linkit tarkistettu: 5 uniikkia kohdetta, 0 puuttuvaa; rakennettujen HTML-sivujen `/da/`-hrefit tarkistettu: 18 uniikkia kohdetta, 0 puuttuvaa
+- rakennettujen HTML-sivujen tarkistus: erän sisällöt `Langs en kant med løftede kantmasker`, `Samle op ved steeks`, `Sømmetoder sammenlignet`, `Maskesting, Kitchener stitch` ja `Sy striber og flerfarvestrik sammen` löytyvät buildistä
+- loppuvarmistukset: `npx prettier --check src/content/articles/da/saml-masker-op-langs-kant.md src/content/articles/da/sy-strikkede-dele-sammen-madrassting.md` OK, `git diff --check` kahdelle DA-erätiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/saml-masker-op-langs-kant/` ja `/da/artikler/sy-strikkede-dele-sammen-madrassting/` löytyvät buildistä
+
+Tanskan artikkelierä 16:
+
+- käsitelty vain kaksi artikkelia: `src/content/articles/da/strikketid-og-tempo.md` ja `src/content/articles/da/hold-styr-paa-pinde-og-omgange.md`
+- vertailtu EN/DA-parit `translationKey`-avaimilla `track-knitting-time` ja `track-rows-knitting`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -ohje sekä tanskalaiset pinde/omgange-forkortelser-lähteet (Ønling ja Strik & kod)
+- `strikketid-og-tempo.md`: tasattu nykyiseen EN/NO/FR/NL-linjaan poistamalla liian tarkat pinde-pr-time-intervallit, pehmentämällä harjoittelun vaikutus ei-taatuksi kehitykseksi, vaihtamalla vanha `KnitTools-appen har` -muoto nykyiseen `KnitTools bygges` -muotoon ja lisäämällä pinde/omgange-rajaukset sessionsdataan
+- `hold-styr-paa-pinde-og-omgange.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä printatun opskriftin merkintä, knaptæller-varoitus, farvekodede låsemarkører, maskemønsterin ankkurit, luonnolliset päivitystauot, session/progress-data, "samtidig"-linkki, `Rundt eller frem og tilbage`, `Når du har mistet tallet` sekä kaksi puuttuvaa FAQ-vastausta; samalla vanhat `widgets`, `stemmekommandoer` ja liian varma `KnitTools-appen har` -claim poistettiin
+- frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+- termit pidetty tanskan linjassa: `strikketid`, `sessionsregistrering`, `pinde`, `omgange`, `pinde- og omgangstæller`, `strikkefasthed`, `maskemønster`, `snoning`, `hulmønster`, `maskemarkør`, `rapport`, `retside`, `vrangside`, `opslag`, `ribkant`, `ærmegabsindtagninger` ja `KnitTools`
+- eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle ja buildatulle HTML: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `subscription`, `ads`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode`, `telefonkamera`, `single-garn`, `widgets` ja valuutta-`kr`
+- AI-filler-/vierastermihaku kahdelle lähdetiedostolle: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst`, formaalit `Dem`/`Deres` sekä vierastermit `garen`, `naald`, `steek`, `mailles`, `aiguilles`, `tricot`, `no-rinse`, `bevegelsesvidde`, `oppskrift`, `maskor`, `stickfasthet`, `breipatroon` ja `stekenverhouding`
+- merkkimääräpariteetti erän jälkeen: `strikketid-og-tempo...` 9 247 merkkiä / 1 427 sanaa / 8 H2 + 3 H3 + 4 FAQ -osiota (EN 8 966 / 1 457 / 8 H2 + 3 H3 + 4 FAQ), `hold-styr-paa-pinde-og-omgange...` 9 778 merkkiä / 1 527 sanaa / 11 H2 + 0 H3 + 5 FAQ -osiota (EN 9 809 / 1 655 / 11 H2 + 0 H3 + 5 FAQ)
+- lähdesisäiset `/da/`-linkit tarkistettu: 4 uniikkia kohdetta, 0 puuttuvaa; rakennettujen HTML-sivujen `/da/`-hrefit tarkistettu: 17 uniikkia kohdetta, 0 puuttuvaa
+- rakennettujen HTML-sivujen tarkistus: erän sisällöt `Præcise intervaller for pinde pr. time`, `Den tænkte arbejdsgang er enkel`, `ikke som en garanteret jævn kurve`, `Tempo afhænger af garntykkelse`, `Nogle strikkere printer opskriften`, `Nogle knaptællere`, `Farvekodede låsemarkører`, `Rundt eller frem og tilbage`, `Når du har mistet tallet`, `Hvad med at holde styr på striber` ja `Er det værd at sætte flere tællere op` löytyvät buildistä
+- loppuvarmistukset: `npx prettier --check src/content/articles/da/strikketid-og-tempo.md src/content/articles/da/hold-styr-paa-pinde-og-omgange.md` OK, `git diff --check` kahdelle DA-erätiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/strikketid-og-tempo/` ja `/da/artikler/hold-styr-paa-pinde-og-omgange/` löytyvät buildistä
+
+Tanskan artikkelierä 17:
+
+- käsitelty vain kaksi artikkelia: `src/content/articles/da/hvad-er-strikkefasthed.md` ja `src/content/articles/da/hvorfor-ruller-strik.md`
+- vertailtu EN/DA-parit `translationKey`-avaimilla `what-is-gauge-in-knitting` ja `why-knitting-curls`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -ohje sekä tanskalaiset `strikkefasthed`-/blokning-/tekniikkatermistölähteet
+- `hvad-er-strikkefasthed.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä strikkestil-osio, pindemateriale-osio, før/efter blokning, maskemønsterfasthed, bevægelsesrum/pasform, 10 cm -mittausperustelu, værktøjer-osio sekä kolme puuttuvaa FAQ-vastausta; samalla `single-garn`-jäämä vaihdettiin tanskan ohjeen mukaiseen `entrådet kvalitet`
+- `hvorfor-ruller-strik.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä superwash-uld-rajaus, kantbredde efter garntykkelse -taulukko, løftet kantmaske, akryylin tarkoituksellinen dampblokning/`dræbe`-rajaus, omvendt glatstrik, steeks/glatstrik rundt sekä kaksi puuttuvaa FAQ-vastausta
+- frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+- termit pidetty tanskan linjassa: `strikkefasthed`, `strikkeprøve`, `pindestørrelse`, `maskefasthed`, `pindefasthed`, `glatstrik`, `rundstrik`, `retomgange`, `bevægelsesrum`, `retstrik`, `perlestrik`, `rib`, `garntykkelse`, `løftet kantmaske`, `steek`, `blokning`, `akryl`, `superwash-uld` ja `KnitTools`
+- eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle ja buildatulle HTML: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `subscription`, `ads`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode`, `telefonkamera`, `single-garn`, `widgets` ja valuutta-`kr`
+- AI-filler-/vierastermihaku kahdelle lähdetiedostolle: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst`, formaalit `Dem`/`Deres` sekä vierastermit `garen`, `naald`, `mailles`, `aiguilles`, `tricot`, `no-rinse`, `bevegelsesvidde`, `oppskrift`, `maskor`, `stickfasthet`, `breipatroon` ja `stekenverhouding`; `steek` tarkistettiin erikseen ja on hyväksytty tanskan neuletermi tässä artikkelissa
+- merkkimääräpariteetti erän jälkeen: `hvad-er-strikkefasthed...` 12 620 merkkiä / 1 936 sanaa / 13 H2 + 0 H3 + 7 FAQ -osiota, `hvorfor-ruller-strik...` 9 889 merkkiä / 1 568 sanaa / 7 H2 + 6 H3 + 6 FAQ -osiota
+- lähdesisäiset `/da/`-linkit tarkistettu: 6 uniikkia kohdetta, 0 puuttuvaa; rakennettujen HTML-sivujen `/da/`-hrefit tarkistettu: 19 uniikkia kohdetta, 0 puuttuvaa
+- rakennettujen HTML-sivujen tarkistus: erän sisällöt `Strikkestil ændrer også strikkefastheden`, `Pindemateriale påvirker strikkefastheden`, `Før og efter blokning`, `Bevægelsesrum, strikkefasthed og pasform`, `Værktøjer til strikkefasthed`, `Superwash-uld ruller mere`, `Kantbredde efter garntykkelse`, `Løftet kantmaske`, `At “dræbe” akryl med damp`, `Omvendt glatstrik ruller også` ja `Steeks og glatstrik rundt` löytyvät buildistä
+- loppuvarmistukset: `npx prettier --check src/content/articles/da/hvad-er-strikkefasthed.md src/content/articles/da/hvorfor-ruller-strik.md` OK, `git diff --check` kahdelle DA-erätiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/hvad-er-strikkefasthed/` ja `/da/artikler/hvorfor-ruller-strik/` löytyvät buildistä
+
+Tanskan artikkelierä 18:
+
+- käsitelty vain kaksi artikkelia: `src/content/articles/da/garnfibre-sammenlignet.md` ja `src/content/articles/da/hvor-meget-garn-til-taeppe.md`
+- vertailtu EN/DA-parit `translationKey`-avaimilla `yarn-fibers-compared` ja `yarn-for-blanket`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro 6 content collections -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin yarn weight -standardi sekä Lion Brandin Wool-Ease / Wool-Ease Thick & Quick -tuotesivujen nykyiset metrimäärät
+- `garnfibre-sammenlignet.md`: tasattu nykyiseen EN/NO/FR/NL-riskitasoon pehmentämällä liian vahvat väitteet uldin kosteuskäytöksestä, Superwash-uldin käsittelystä, bomuldin elastisuudesta, akryylin hengittävyydestä ja mikroplastirajauksesta, alpakkan venymisestä, silken osuusväitteistä, høren pesupehmenemisestä, nylonin yleisyydestä sekä pienten luksusfiber-prosenttien vaikutuksesta
+- `hvor-meget-garn-til-taeppe.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä Lion Brand -metriesimerkki, varovaisemmat maskemønster-bufferit, handfarvet/kettle-dyed-farveparti-rajaus, täydempi garntykkelse-osio, uusi `Pinde, fibre og hvad der faktisk holder` -osio sekä laajennetut restegarn-, hinta-, aikamenekki- ja rakennetapa-FAQ:t
+- frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+- termit pidetty tanskan linjassa: `garnfibre`, `fiberindhold`, `uld`, `superwash-uld`, `bomuld`, `akryl`, `alpaka`, `silke`, `hør`, `mohair`, `nylon`, `blandingsgarner`, `strikkefasthed`, `strikkeprøve`, `blokning`, `garntykkelse`, `løbelængde`, `farveparti`, `nøgle`, `rundpind`, `pindestørrelse`, `Worsted`, `DK`, `Bulky`, `Super Bulky`, `Sport`, `Fingering`, `mitered-square-tæppe`, `log cabin-felter` ja `KnitTools`
+- eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle ja buildatun HTML:n `<main>`-sisällölle: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `subscription`, sananrajattu `ads`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode`, `telefonkamera`, `single-garn`, `widgets` ja valuutta-`kr`
+- AI-filler-/vierastermihaku kahdelle lähdetiedostolle ja buildatun HTML:n `<main>`-sisällölle: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst`, formaalit `Dem`/`Deres` sekä vierastermit `garen`, `naald`, `mailles`, `aiguilles`, `tricot`, `no-rinse`, `bevegelsesvidde`, `oppskrift`, `maskor`, `stickfasthet`, `breipatroon` ja `stekenverhouding`
+- merkkimääräpariteetti erän jälkeen: `garnfibre-sammenlignet...` 11 947 merkkiä / 1 876 sanaa / 7 H2 + 0 H3 + 0 FAQ -osiota (EN 11 908 / 1 875 / 7 H2 + 0 H3 + 0 FAQ), `hvor-meget-garn-til-taeppe...` 9 893 merkkiä / 1 485 sanaa / 8 H2 + 0 H3 + 4 FAQ -osiota (EN 9 782 / 1 600 / 8 H2 + 0 H3 + 4 FAQ)
+- lähdesisäiset `/da/`-linkit tarkistettu: 4 uniikkia kohdetta, 0 puuttuvaa; rakennettujen HTML-sivujen `/da/`-hrefit tarkistettu: 16 uniikkia kohdetta, 0 puuttuvaa
+- rakennettujen HTML-sivujen tarkistus: erän sisällöt `mange akrylstoffer føles mindre åndbare`, `Lion Brand angiver ensfarvet Wool-Ease Thick`, `Pinde, fibre og hvad der faktisk holder`, `Brug en lang rundpind` ja `mitered-square-tæppe` löytyvät buildistä
+- loppuvarmistukset: `npx prettier --check src/content/articles/da/garnfibre-sammenlignet.md src/content/articles/da/hvor-meget-garn-til-taeppe.md` OK, `git diff --check` kahdelle DA-erätiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/garnfibre-sammenlignet/` ja `/da/artikler/hvor-meget-garn-til-taeppe/` löytyvät buildistä
+
+Tanskan artikkelierä 19:
+
+- käsitelty vain kaksi artikkelia: `src/content/articles/da/hvor-meget-garn-til-sweater.md` ja `src/content/articles/da/skift-garntykkelse-i-strikkeopskrift.md`
+- vertailtu EN/DA-parit `translationKey`-avaimilla `yarn-for-sweater` ja `yarn-weight-substitution`; riskilinjan tukena tarkistettu myös valmiit NO/FR/NL-versiot ja `DANISH_TRANSLATION_GUIDE.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Google localized versions / hreflang -ohje, Craft Yarn Councilin yarn weight -standardi, Craft Yarn Councilin body measurements / sweater ease -taulukko sekä Lion Brandin nykyinen yarn-needed / sweater-yardage -taulukko
+- `hvor-meget-garn-til-sweater.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä metric-first-rakenne ilman tuumatuplauksia, negatiivinen bevægelsesrum-rajaus, varovaisemmat style-/maskemønster-bufferit, ovenfra og ned -ærmefælde, `Konstruktion og hvor garnet går` -osio, ekstra nøgle / palautus- ja käyttöhuomio, lagergarnista taaksepäin laskemisen caveatit sekä fiber-FAQ; samalla `skift garntykkelse` -FAQ-linkki ohjattiin oikeaan DA-artikkeliin
+- `skift-garntykkelse-i-strikkeopskrift.md`: tasattu nykyiseen EN/NO/FR/NL-rakenteeseen lisäämällä konkreettiset muutosten vaikutukset, sweater med sænket skulder -riskirajaus, ærmekuppel-/hulmønster-/mønsterstrik-/snonings-caveatit, Worsted->DK-regneeksempel, vaiheittainen uudelleenlaskenta, dobbelt garn -haarukat, ældre opskrifter / WPI -rajaus, `Hulmønster og struktur i ny tykkelse`, almindelige situationer sekä 6 FAQ-vastausta
+- frontmatter, slug-rakenne, `translationKey`-avaimet ja `draft: false` säilytetty ilman julkaisureittien tai `articleTranslations`-karttamuutoksia
+- termit pidetty tanskan linjassa: `sweater`, `trøje`-tyyppinen plain Danish -linja tarvittaessa, `garnforbrug`, `garntykkelse`, `strikkefasthed`, `strikkeprøve`, `pindestørrelse`, `pindefasthed`, `maskemønster`, `glatstrik`, `bevægelsesrum`, `negative ease`, `bærestykke`, `flotteringer`, `løbelængde`, `nøgle`, `banderole`, `uld`, `bomuld`, `hør`, `alpaka`, `silke`, `WPI`, `Fingering`, `DK`, `Worsted`, `Aran`, `Bulky`, `Super Bulky` ja `KnitTools`
+- eräkohtainen app-/claim-/hintariskigrep kahdelle lähdetiedostolle ja buildatun HTML:n `<main>`-sisällölle: 0 osumaa hakulistalla `Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `scanning`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `subscription`, sananrajattu `ads`, `reklamer`, `abonnement`, `Ravelry-integration`, `prøveperiode`, `telefonkamera`, `single-garn`, `widgets` ja valuutta-`kr`
+- AI-filler-/vierastermihaku kahdelle lähdetiedostolle ja buildatun HTML:n `<main>`-sisällölle: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst`, formaalit `Dem`/`Deres` sekä vierastermit `garen`, `naald`, `mailles`, `aiguilles`, `tricot`, `no-rinse`, `bevegelsesvidde`, `oppskrift`, `maskor`, `stickfasthet`, `breipatroon` ja `stekenverhouding`
+- merkkimääräpariteetti erän jälkeen: `hvor-meget-garn-til-sweater...` 8 678 merkkiä / 1 364 sanaa / 8 H2 + 0 H3 + 5 FAQ -osiota (EN 8 662 / 1 421 / 8 H2 + 0 H3 + 5 FAQ), `skift-garntykkelse-i-strikkeopskrift...` 12 673 merkkiä / 1 927 sanaa / 10 H2 + 0 H3 + 6 FAQ -osiota (EN 12 711 / 2 027 / 10 H2 + 0 H3 + 6 FAQ)
+- lähdesisäiset `/da/`-linkit tarkistettu: 6 uniikkia kohdetta, 0 puuttuvaa lähdetasolla; rakennettujen HTML-sivujen `/da/`-hrefit tarkistettu: 17 uniikkia kohdetta, 0 puuttuvaa distissä
+- rakennettujen HTML-sivujen tarkistus: erän sisällöt `Negativt bevægelsesrum`, `Ovenfra og ned-konstruktion`, `Konstruktion og hvor garnet går`, `Påvirker fiberen hvor meget garn jeg skal bruge`, `Regneeksempel: Worsted-opskrift med DK-garn`, `Ældre opskrifter og uklare tykkelsesnavne`, `Hulmønster og struktur i ny tykkelse` ja `Kan jeg skifte garntykkelse uden at skifte pindestørrelse` löytyvät buildistä
+- loppuvarmistukset: `npx prettier --check src/content/articles/da/hvor-meget-garn-til-sweater.md src/content/articles/da/skift-garntykkelse-i-strikkeopskrift.md` OK, `git diff --check` kahdelle DA-erätiedostolle OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+- build-output: `dist/da/artikler/` tuottaa 38/38 tanskankielistä artikkeli-HTML-sivua ja `dist/da/strikkevaerktoejer/` tuottaa 7/7 tools-HTML-sivua (`index` + 6 alasivua); erän sivut `/da/artikler/hvor-meget-garn-til-sweater/` ja `/da/artikler/skift-garntykkelse-i-strikkeopskrift/` löytyvät buildistä
+
+Tanskan artikkelipariteetti on valmis erien 1-19 osalta. Seuraava turvallinen jatko on tanskankielisen kokonaisuuden lopputarkistus/commit/deploy vain, jos käyttäjä pyytää sitä erikseen.
+
+Tanskan lopputarkistus:
+
+- tarkistettu tanskankielinen kokonaisuus artikkelien, tools-reittien, `articleTranslations`-karttojen, lähdelinkkien, buildatun `dist/`-ulostulon ja riskitermien osalta
+- lähdeinventaario: `src/content/articles/da/` sisältää 38 artikkelia; 38/38 sisältää `lang: da`, `draft: false` ja yksilöllisen `translationKey`-avaimen; `src/i18n/articles.ts` sisältää 38 tanskankielistä `/da/artikler/`-polkua; `src/i18n/routes.ts` sisältää 13 tanskankielistä julkista route-lähdettä (articles index, 5 kategoriaa, tools index + 6 tools-sivua)
+- source-linkkitarkistus: DA-artikkeli-, DA-tools- ja DA-pages-lähteistä löytyi 36 uniikkia `/da/`-sisälinkkiä, 0 puuttuvaa kohdetta nykyisessä route-/article-mapissa
+- dist-linkkitarkistus tuoreen buildin jälkeen: `dist/da/` sisältää 51 HTML-sivua, 51 uniikkia `/da/`-href-kohdetta, 0 puuttuvaa dist-kohdetta
+- dist-sivumäärät tuoreen buildin jälkeen: 38 tanskankielistä artikkelisivua, 5 kategoriansivua, `dist/da/artikler/index.html`, 6 tools-alasivua ja `dist/da/strikkevaerktoejer/index.html`
+- lopputarkistuskorjaukset: `src/content/articles/da/bedste-strikkeapps.md` neutraloitiin poistamalla KnitToolsia koskeva prelaunch-hinnoittelu-/mainoksettomuus-/tilausväite ja vaihtamalla `Dem strikkere faktisk bruger` luonnolliseen `De beregnere, strikkere faktisk bruger`; `src/components/danish-tools/DanishKnittingAbbreviationsPage.astro` vaihtoi `KnitTools-appen` -> `KnitTools`, jotta teksti ei tee app-spesifiä ominaisuusväitettä
+- product-claim-/AI-/scanner-/voice-/widget-riskihaku DA-lähteistä ja buildatun HTML:n `<main>`-sisällöstä korjausten jälkeen: 0 osumaa hakulistalla `KnitTools-app`, `KnitTools-appen`, `planlagt engangsbetaling`, `uden reklamer`, `uden abonnement`, `Banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `mikrofon`, `app-køb`, `Ravelry-integration`, `prøveperiode`, `telefonkamera`, `single-garn` ja `widgets`
+- AI-filler-/vierastermihaku DA-lähteistä ja buildatun HTML:n `<main>`-sisällöstä korjausten jälkeen: 0 osumaa banned-listoilla `delve`, `comprehensive`, `seamless`, `not just`, `let's dive`, `happy knitting`, `perfekt til alle`, `ultimative`, `sømløs`, `magien ved`, `venligst`, `Dem strikkere`, `Deres`, `garen`, `naald`, `mailles`, `aiguilles`, `tricot`, `no-rinse`, `bevegelsesvidde`, `oppskrift`, `maskor`, `stickfasthet`, `breipatroon` ja `stekenverhouding`
+- loppuvarmistukset: `npx prettier --check src/content/articles/da/bedste-strikkeapps.md src/components/danish-tools/DanishKnittingAbbreviationsPage.astro monikielinen-lokalisointi-eteneminen.md` OK, `git diff --check -- src/content/articles/da src/components/danish-tools monikielinen-lokalisointi-eteneminen.md` OK, trailing whitespace -haku 0 osumaa, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu
+
+Tanskan (`da`) passin aloitusinventaario, artikkelipäivityserät 1-19, koko artikkeli-/tools-QA sekä build-/dist-varmistus ovat valmiit. Seuraava erillinen vaihe on commit/push/deploy vain, jos käyttäjä pyytää julkaisua.
+
+## Faktatarkistuspassi 2026-05-27
+
+Tavoite: tarkistetaan jokainen kieli erikseen faktavirheiden varalta, 5 artikkelia kerralla, ja pysähdytään jokaisen erän jälkeen.
+
+Englannin faktatarkistus, erä 1:
+
+- käsitelty vain 5 ensimmäistä englanninkielistä artikkelia aakkosjärjestyksessä:
+  - `src/content/articles/at-the-same-time-knitting.md`
+  - `src/content/articles/best-knitting-apps.md`
+  - `src/content/articles/best-yarn-for-beginners.md`
+  - `src/content/articles/circular-vs-straight-vs-dpn.md`
+  - `src/content/articles/digital-vs-physical-row-counters.md`
+- ennen korjauksia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Craft Yarn Councilin yarn weight -järjestelmä, hooks & needles -taulukko ja knitting pattern -lukemisohje sekä Android Developersin permission best practices
+- `at-the-same-time-knitting.md`: ei faktakorjauksia; CYC:n pattern-ohje tukee `At the Same Time` -selitystä kahden samanaikaisen vaiheen tekemisestä, esimerkiksi armhole- ja neck-shapingin yhteydessä
+- `best-yarn-for-beginners.md`: ei faktakorjauksia; CYC vahvistaa Medium/Worsted-kategorian 4, suosituspuikot 4.5-5.5 mm / US 7-9, DK/light-kategorian viereisen puikkohaitarin sekä nykyisen Size 8 -päivityksen
+- `best-knitting-apps.md`: korjattu ylivarma app- ja privacy-väite; poistettu unsupported `planned one-time purchase model, no ads, and no subscription` -tuotepuhe tästä faktapassista ja rajattu permission-väite tavallisiin laskuri-/projektiominaisuuksiin Androidin permission best practices -linjan mukaisesti
+- `circular-vs-straight-vs-dpn.md`: korjattu Magic loop vs DPN -väite `four or five` needle changes -> `three or four`, koska artikkelin oma DPN-rakenne ja käytännön DPN-jako ovat 3 tai 4 working needle -pistettä, eivät 4 tai 5
+- `digital-vs-physical-row-counters.md`: korjattu ristiriitainen `one direction` -väite muotoon `one thing at a time, with no history`; pehmennetty KnitTools-offline-väitteet prelaunch-tilaan `planned around local project/counter data`
+- muotoilu ja tarkistukset: `npx prettier --write` ajettiin näille viidelle tiedostolle, `npx prettier --check` OK, `git diff --check` OK, vanhojen riskilauseiden grep 0 osumaa ja `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä)
+- seuraava englannin faktatarkistuserä alkaa tiedostosta `src/content/articles/essential-knitting-tools.md` ja kattaa seuraavat 5 englanninkielistä root-artikkelia
+
+Englannin faktatarkistus, erä 2:
+
+- käsitelty vain seuraavat 5 englanninkielistä artikkelia aakkosjärjestyksessä:
+  - `src/content/articles/essential-knitting-tools.md`
+  - `src/content/articles/fix-dropped-stitches.md`
+  - `src/content/articles/free-knitting-calculators.md`
+  - `src/content/articles/gauge-doesnt-match.md`
+  - `src/content/articles/gauge-swatch-step-by-step.md`
+- ennen korjauksia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Craft Yarn Councilin yarn weight -järjestelmä ja hooks & needles -taulukko, Purl Sohon gauge-swatch-ohje, Yarnspirationsin dropped-stitch-ohje ja Knitting.comin dropped-stitch-ohje; lisäksi tarkistettiin paikallinen `CastOnCalculator.astro` ja `YarnEstimator.astro`, koska osa väitteistä koskee sivuston omia työkaluja
+- `essential-knitting-tools.md`: korjattu mekaanisten laskurien liian absoluuttinen `only count up` -väite muotoon, jossa ne seuraavat yhtä laskua, ovat usein kömpelöitä peruuttaa ja voivat vaihtaa lukua osuessaan; pehmennetty app-laskurien ja KnitTools-rivilaskurin tuotepuhe prelaunch-linjaan
+- `fix-dropped-stitches.md`: ei faktakorjauksia; crochet hook -korjaus, live loopin lukitseminen stitch markerilla ja pitkälle juosseen silmukan mahdollinen purkutarve vastaavat tarkistettuja dropped-stitch-lähteitä
+- `free-knitting-calculators.md`: poistettu unsupported `No subscription, no ads` -väite KnitTools-kappaleesta; paikallinen `CastOnCalculator.astro` vahvistaa lähimmän parillisen silmukkamäärän pyöristyksen ja `YarnEstimator.astro` vahvistaa artikkelissa luetellut projektityypit sekä metri/jaardi-ulostulon englanniksi
+- `gauge-doesnt-match.md`: korjattu liian varma väite, että löysempi gauge tarkoittaa blanketissa aina enemmän lankaa per row; uusi muoto sanoo varovaisemmin, että muuttunut gauge voi muuttaa valmista pinta-alaa ja fabric densityä, joten yardage pitää laskea uudelleen
+- `gauge-swatch-step-by-step.md`: ei faktakorjauksia; Purl Sohon gauge-ohje tukee riittävän suuren swatchin, stitch pattern -mukaisen neulomisen, blocking/washing-vaiheen, 4 tuuman keskialueelta mittaamisen, fractional stitch -laskennan ja oikean needle-materiaalin/circular-gauge-swatchin linjaa
+- muotoilu ja tarkistukset: `npx prettier --write` ajettiin näille viidelle tiedostolle, `npx prettier --check` OK, `git diff --check` OK, vanhojen riskilauseiden grep 0 osumaa ja `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä)
+- seuraava englannin faktatarkistuserä alkaa tiedostosta `src/content/articles/how-many-stitches-to-cast-on.md` ja kattaa seuraavat 5 englanninkielistä root-artikkelia
+
+Englannin faktatarkistus, erä 3:
+
+- käsitelty vain seuraavat 5 englanninkielistä artikkelia aakkosjärjestyksessä:
+  - `src/content/articles/how-many-stitches-to-cast-on.md`
+  - `src/content/articles/how-much-yarn-do-i-need.md`
+  - `src/content/articles/how-to-block-knitting.md`
+  - `src/content/articles/how-to-knit-hat.md`
+  - `src/content/articles/how-to-knit-socks.md`
+- ennen korjauksia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Craft Yarn Councilin nykyinen yarn weight -järjestelmä, hooks & needles -taulukko, head circumference -taulukko ja foot size -taulukko, Interweaven blocking-ohje, Lion Brandin yardage-arviotaulukko sekä Purl Sohon fingering/sock-yarn-ohje; lisäksi tarkistettiin paikalliset `CastOnCalculator.astro` ja `YarnEstimator.astro`, koska osa väitteistä koskee sivuston omia työkaluja
+- `how-many-stitches-to-cast-on.md`: ei faktakorjauksia; cast-on-kaava, 4 tuuman gauge-esimerkki, lähimmän parillisen luvun maininta, CYC:n Medium/worsted-gauge sekä hattu-/sukkalähtömäärät pysyvät lähteisiin ja paikalliseen Cast On Calculator -toimintaan nähden hyväksyttävinä sanity check -arvoina
+- `how-much-yarn-do-i-need.md`: korjattu väärä tuotetyökaluväite; Yarn Estimator ei laske käyttäjän gauge/dimensions-syötteistä, vaan projektityypin, koon ja yarn weight -valinnan perusteella. Samalla poistettu väite, että laskuri käsittelisi row repeat -tason laskentaa
+- `how-to-block-knitting.md`: ei faktakorjauksia; wet/spray/immersion-blocking, no-wring-ohje, ribbingin varovaisuus, acrylic steam/killing -varoitus, cotton/linen/alpaca/superwash-käyttäytyminen ja pieces-before-seaming-linja pysyvät lähteisiin nähden riittävän varovaisina
+- `how-to-knit-hat.md`: ei faktakorjauksia; CYC:n head circumference -taulukko tukee adult/toddler/child-lukuja, CYC hooks & needles tukee mainittuja US/mm-haitareita ja negatiivinen ease on käsitelty pattern-dependent-lähtökohtana
+- `how-to-knit-socks.md`: korjattu liian vahva cuff-down-sovitettavuusväite; uusi teksti sanoo, että try-on auttaa etenkin heel/gusset-vaiheen jälkeen, mutta viimeisten jaardien käyttö on cuff-downissa hankalampaa, koska toe tulee viimeisenä
+- muotoilu ja tarkistukset: `npx prettier --write` ajettiin näille viidelle tiedostolle, `npx prettier --check` OK, `git diff --check` OK, vanhojen riskilauseiden grep 0 osumaa ja `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä)
+- Englannin faktatarkistus nyt 15/38 artikkelia valmis. Seuraava englannin faktatarkistuserä alkaa tiedostosta `src/content/articles/how-to-measure-knitting-gauge.md` ja kattaa seuraavat 5 englanninkielistä root-artikkelia
+
+Englannin faktatarkistus, erä 4:
+
+- käsitelty vain seuraavat 5 englanninkielistä artikkelia aakkosjärjestyksessä:
+  - `src/content/articles/how-to-measure-knitting-gauge.md`
+  - `src/content/articles/how-to-read-knitting-pattern.md`
+  - `src/content/articles/how-to-read-yarn-label.md`
+  - `src/content/articles/how-to-substitute-yarn.md`
+  - `src/content/articles/identify-mystery-yarn.md`
+- ennen korjauksia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Craft Yarn Councilin nykyinen yarn weight -järjestelmä, WPI-ohje, yarn label -tiedot, care symbols, knitting abbreviations, knitting pattern -ohje ja knit chart symbols; lisäksi tarkistettiin Purl Sohon gauge-swatch-ohje, Craftsyn chart-reading-ohje sekä paikalliset `CastOnCalculator.astro` ja `YarnEstimator.astro`, koska osa väitteistä koskee sivuston omia työkaluja
+- `how-to-measure-knitting-gauge.md`: korjattu väärä tuotetyökaluväite; Yarn Estimator ei käytä käyttäjän gauge/dimensions-syötteitä, vaan projektityyppiä, kokoa ja yarn weight -valintaa. Cast On Calculator -gauge-väite säilyi, koska paikallinen komponentti käyttää gaugea ja tavoiteleveyttä stitch count -laskentaan.
+- `how-to-read-knitting-pattern.md`: lisätty chart-lukusuuntaan in-the-round-rajaus; flat charts luetaan RS/WS-suunnan mukaan, mutta pyörönä neulottavat chartit luetaan yleensä joka kierroksella oikealta vasemmalle. Muut pattern-, repeat-, abbreviation- ja chart-symboliväitteet pysyivät CYC/Vogue/Craftsy-lähteisiin nähden hyväksyttävinä.
+- `how-to-read-yarn-label.md`: ei faktakorjauksia; CYC:n nykyinen yarn weight -päivitys tukee Size 8 -mainintaa, yarn label -lähde tukee weight-symboli- ja label-kontekstia, care symbols -lähde tukee pesu-/valkaisu-/kuivaus-/silitys-/professional care -rakennetta, ja 10 cm vs 4 inches -FAQ on riittävän tarkka.
+- `how-to-substitute-yarn.md`: korjattu väärä Yarn Estimator -kuvaus projektityyppi/koko/yarn weight -pohjaiseksi sanity checkiksi; pehmennetty liian absoluuttinen low-risk-väite niin, ettei gauge-poikkeamaa väitetä huomaamattomaksi blanket/scarf-projekteissa, jos tarkat mitat tai yarn amount merkitsevät.
+- `identify-mystery-yarn.md`: ei faktakorjauksia; CYC:n WPI-taulukko tukee luokkien 0-7 WPI-haitareita ja varoitusta WPI:n subjektiivisuudesta, burn-test-kuvaus on linjassa tekstiilikuitujen burn-test-lähteiden kanssa, ja artikkeli sanoo oikein, ettei kotitesti anna tarkkoja prosentteja tai aina yksiselitteistä kuitua.
+- muotoilu ja tarkistukset: `npx prettier --write` ajettiin näille viidelle tiedostolle ja jatkolokille, `npx prettier --check` OK, `git diff --check` OK, eräkohtainen AI/OCR/scanner/voice/parser-riskigrep 0 osumaa batch-tiedostoissa ja `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä)
+- Englannin faktatarkistus nyt 20/38 artikkelia valmis. Seuraava englannin faktatarkistuserä alkaa tiedostosta `src/content/articles/increase-decrease-evenly.md` ja kattaa seuraavat 5 englanninkielistä root-artikkelia
+
+Englannin faktatarkistus, erä 5:
+
+- käsitelty vain seuraavat 5 englanninkielistä artikkelia aakkosjärjestyksessä:
+  - `src/content/articles/increase-decrease-evenly.md`
+  - `src/content/articles/join-new-ball-of-yarn.md`
+  - `src/content/articles/knit-first-scarf.md`
+  - `src/content/articles/knitting-needle-materials.md`
+  - `src/content/articles/knitting-pattern-repeats.md`
+- ennen korjauksia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Craft Yarn Councilin yarn weight -järjestelmä, knitting abbreviations ja pattern-reading guide, ChiaoGoon tuotesivu, KnitPro Karbonz -tuotesivu, Sheep & Stitchin yarn-join/scarf-ohje, Interweaven weave-in-ohje, KnitPicks/Holli Yeoh long-tail cast-on -häntäohje ja Interweaven repeats/lifeline-lähteet
+- `increase-decrease-evenly.md`: CDD-notaatio korjattu CYC-linjan mukaiseksi muotoon `S2KP2` / `sl2-k1-p2sso`
+- `join-new-ball-of-yarn.md`: Russian join -väite pehmennetty; plied yarns ovat helpoimpia, mutta singles/splitty yarns eivät ole kategorinen "ei toimi" -tapaus
+- `knit-first-scarf.md`: long-tail cast-on -häntäarvio täsmennetty 3-4x leveyteen plus marginaaliin; 30-36 inches annettu turvallisena worsted-esimerkkinä
+- `knitting-needle-materials.md`: ei faktakorjauksia; valmistajaväitteet tarkistettu ja Karbonz brass-coated tips sekä ChiaoGoo stainless steel lace tips ovat lähteiden kanssa linjassa
+- `knitting-pattern-repeats.md`: ei faktakorjauksia; asterisk/bracket/parenthesis-repeatit ja multi-row repeat -ohjeistus ovat CYC:n pattern-reading- ja abbreviation-linjan kanssa linjassa
+- Englannin faktatarkistus nyt 25/38 artikkelia valmis. Seuraava englannin faktatarkistuserä alkaa tiedostosta `src/content/articles/knitting-pattern-sizes-and-fit.md` ja kattaa seuraavat 5 englanninkielistä root-artikkelia
+
+Englannin faktatarkistus, erä 6:
+
+- käsitelty vain seuraavat 5 englanninkielistä artikkelia aakkosjärjestyksessä:
+  - `src/content/articles/knitting-pattern-sizes-and-fit.md`
+  - `src/content/articles/needle-size-for-beginners.md`
+  - `src/content/articles/organize-knitting-projects.md`
+  - `src/content/articles/pick-up-stitches.md`
+  - `src/content/articles/seam-knitted-pieces.md`
+- ennen korjauksia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Craft Yarn Councilin yarn weight -järjestelmä, hooks & needles, woman size charts ja project levels, Vogue Knittingin needle conversion chart ja picking-up-stitches-ohje, TECHknittingin selvedge pickup -ohje, Brooklyn Tweedin sweater-size/ease-ohjeet, Purl Sohon mattress stitch / seaming / Kitchener -ohjeet sekä Lion Brandin three-needle bind off -ohje
+- `knitting-pattern-sizes-and-fit.md`: ei faktakorjauksia; CYC:n body measurement / ease -lähteet ja Brooklyn Tweedin size-selection-ohjeet tukevat finished measurement, ease, schematic, armhole depth, construction style ja bulky-fabric-ease -linjaa
+- `needle-size-for-beginners.md`: ei faktakorjauksia; CYC ja Vogue tukevat US 8 = 5.0 mm, US 7-9 = 4.5-5.5 mm, CYC Medium/Worsted -puikkohaitaria ja UK/US-numerojärjestelmien vastakkaista suuntaa
+- `organize-knitting-projects.md`: KnitTools-tuoteväite pehmennetty `linked yarn` -muodosta `yarn details` -muotoon, jotta teksti pysyy nykyisen prelaunch-tuotepuheen ja muiden EN-artikkelien linjassa
+- `pick-up-stitches.md`: korjattu pickup-ration sanallinen kaava oikein päin: stitch gauge / row gauge; waste-yarn-kohta muutettu pysyvästä contrasting-yarn-rivistä testiriviksi, steek-kohta pehmennetty non-superwash wool / cotton / superwash -riskitasolle, downward-pickup-väite pehmennetty directionality-näkyvyyden osalta ja ripple-FAQ muutettu row/stitch/edge length -suhdetta kuvaavaksi
+- `seam-knitted-pieces.md`: korjattu textured-fabric mattress stitch -kohta niin, ettei se ohjaa poimimaan `very edge` -kohdasta vaan samasta seam line -kohdasta, yleensä yhden silmukan verran reunasta sisään; Kitchener- ja self-striping-kohdat pehmennetty vähemmän absoluuttisiksi
+- Englannin faktatarkistus nyt 30/38 artikkelia valmis. Seuraava englannin faktatarkistuserä alkaa tiedostosta `src/content/articles/track-knitting-time.md` ja kattaa seuraavat 5 englanninkielistä root-artikkelia
+
+Englannin faktatarkistus, erät 7-8:
+
+- loput 8 englanninkielistä root-artikkelia tarkistettu ja kirjattu tarkemmin dokumenttiin `englanti-tarkistus3.md`
+- lopputila: englanninkieliset root-artikkelit 38/38 tarkistettu nykyisistä Astro-lähteistä, ei ObsidianVaultista
+
+Englannin tools-tarkistus:
+
+- käsitelty nykyiset englanninkieliset Astro-tools-lähteet:
+  - `src/pages/tools/index.astro`
+  - `src/pages/tools/cast-on-calculator.astro`
+  - `src/pages/tools/yarn-estimator.astro`
+  - `src/pages/tools/needle-size-chart.astro`
+  - `src/pages/tools/yarn-weight-chart.astro`
+  - `src/pages/tools/knitting-abbreviations.astro`
+  - `src/pages/tools/knitting-size-charts.astro`
+  - `src/components/YarnEstimator.astro`
+- lähteet tarkistettu webistä: Craft Yarn Councilin current yarn weight system, WPI, hooks & needles, yarn label information, knitting abbreviations, chart symbols, body sizing, woman/man/baby/child/head/foot/hand size charts sekä Japanese needle size -ristitarkistus
+- korjaukset: yarn weight -sivun `all 8` / `8 CYC categories` -väitteet muutettu niin, että sivu kattaa julkiset CYC 0-7 -range-arvot ja mainitsee erikseen CYC:n nykyisen Size 8 -symbolipäivityksen
+- korjaukset: needle size chartin Japanese-saraketta korjattu lisäämällä väliin osuvat 号-koot 1-15 niille omille mm-riveilleen; samalla CYC-yarn-weight-puikkorajat muutettu rajakohdissa kaksiosaisiksi, jotta 2.25, 3.25, 3.75, 4.5, 5.5, 8.0 ja 12.75 mm eivät väitä vain yhtä kategoriaa
+- korjaukset: Cast On Calculatorin swatch-/even-number-väitteitä pehmennetty, Yarn Estimatorin yardage-/extra-skein-/label-väitteitä pehmennetty, Knitting Abbreviationsista poistettu prelaunch-appin searchable-reference-väite ja Size Chartsin ease-/measurement-tekstiä tarkennettu CYC:n body sizing -linjaan
+- huomio: CYC:n nykyisissä man/woman body measurement -taulukoissa on joitakin cm/tuuma-rivejä, jotka eivät muunnu täsmälleen keskenään; niitä ei normalisoitu omasta päästä, vaan päälinjana pidettiin CYC:n julkaistuja arvoja ja sanallisia ohjeita
+- muotoilu ja tarkistukset: `npx prettier --check` OK, `git diff --check` OK, riskigrep 0 osumaa `dist/tools`-sisällössä, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run lint` OK, `npm run format:check` OK ja `npm run build` OK (411 sivua). Buildin `dist/tools` sisältää kaikki 7 englanninkielistä tools-reittiä.
+- lopputila: englanninkieliset root-artikkelit 38/38 tarkistettu nykyisistä Astro-lähteistä ja englanninkieliset tools-sivut 7/7 tarkistettu nykyisistä Astro-lähteistä; ei ObsidianVault-tarkistusta tässä vaiheessa.
+
+## Monikielinen tarkistuspassi 2026-05-28
+
+Uusi sovittu järjestys:
+
+1. Tools-sivut kielittäin: `fi`, `sv`, `no`, `fr`, `de`, `nl`, `da`.
+2. Jokaisen kielen toolsit kahdessa erässä: ensin 3 sivua, sitten 4 sivua.
+3. Artikkelit tämän jälkeen 5 saman kielen artikkelin erissä `translationKey`-englantiartikkeleihin verrattuna.
+4. Ei Obsidian-vertailua tässä passissa.
+
+Suomen tools-erä 1/2:
+
+- käsitelty 3/7 suomenkielistä tools-sivua:
+  - `src/pages/fi/tyokalut/index.astro`
+  - `src/pages/fi/tyokalut/silmukkalaskuri.astro`
+  - `src/pages/fi/tyokalut/lankamuunnin.astro`
+- vertailtu nykyisiin englanninkielisiin tools-lähteisiin:
+  - `src/pages/tools/index.astro`
+  - `src/pages/tools/cast-on-calculator.astro`
+  - `src/pages/tools/yarn-estimator.astro`
+  - `src/components/CastOnCalculator.astro`
+  - `src/components/YarnEstimator.astro`
+- ennen editointia tarkistettu ajantasaiset tekniset dokumentit AGENTS-ohjeen mukaisesti: Astro `astro check` / TypeScript -dokumentaatio ja Prettier CLI -dokumentaatio; sisältöfaktoissa nojauduttiin englannin tools-tarkistuksessa jo lukittuun CYC-/tools-linjaan, koska tämän erän työ on kieli- ja pariteettitarkistus
+- `index.astro`: korttijärjestys, reitit, canonical, alternates, schema-rakenne ja "ei kirjautumista, ei sovelluksen asennusta" -väite tarkistettu; ei sisältömuutosta
+- `silmukkalaskuri.astro`: 5 FAQ:ta ja 3 sisältö-H2:ta vastaavat englannin nykyistä rakennetta; parilliseen silmukkamäärään pyöristämisen perustelu rajattu englannin nykyisen "many simple stitch patterns" -linjan mukaiseksi, jotta teksti ei lupaa liikaa palmikoista tai kirjoneuleesta
+- `lankamuunnin.astro`: 5 FAQ:ta ja 3 sisältö-H2:ta tasattu englannin nykyiseen rakenteeseen poistamalla ylimääräinen varakerä-H2; `kangas` vaihdettu neulekontekstissa luonnolliseen `neulepinta`-termiin ja `1200-1500` korjattu suomen lukutavan mukaisesti muotoon `1 200-1 500`
+- jaettu `CastOnCalculator.astro`: desimaalipilkku otettu käyttöön kaikille ei-englanninkielisille localeille, jotta suomen kentät hyväksyvät ja askelluspainikkeet näyttävät `2,5`-tyyppiset arvot kieliohjeen mukaisesti
+- jaettu `YarnEstimator.astro`: suomen tulosdisclaimer pehmennetty englannin nykyiseen linjaan: pintaneuleet voivat viedä enemmän lankaa, 15-20 % on suunnittelumarginaali ja varakerää harkitaan erityisesti värjäyserän vuoksi
+- public route -polut, canonicalit, `alternates`, schema-nimet, slug-rakenne ja `routes.ts` jätetty ennalleen
+- H2/FAQ-pariteetti erän jälkeen: silmukkalaskuri 3 sisältö-H2 + 5 FAQ kuten EN; lankamuunnin 3 sisältö-H2 + 5 FAQ kuten EN; tools-indexin 6 korttia kuten EN
+- riskigrep erätiedostoihin ja jaettuihin komponentteihin: ei korjattavia AI/OCR/scanner/voice/parser/Ravelry/subscription/ads/kertamaksu-tuoteclaim-osumia; osumat olivat hyväksyttäviä vääriä positiivisia (`AI` sanoissa `AIKUISTEN`, `MAINS`, `MAISON`) sekä browser-työkalusivun odotettu `ei sovelluksen asennusta`
+- filler-/vierastermigrep: ei korjattavia suomen AI-filler-osumia; `Fingering` hyväksytty lankavahvuuden kategorianimenä ja englanninkieliset `gauge`-osumat olivat jaetun komponentin englanninkielisessä copyssa
+- loppuvarmistukset: `npx prettier --check src/components/CastOnCalculator.astro src/components/YarnEstimator.astro src/pages/fi/tyokalut/index.astro src/pages/fi/tyokalut/silmukkalaskuri.astro src/pages/fi/tyokalut/lankamuunnin.astro monikielinen-lokalisointi-eteneminen.md` OK; `git diff --check -- src/components/CastOnCalculator.astro src/components/YarnEstimator.astro src/pages/fi/tyokalut/index.astro src/pages/fi/tyokalut/silmukkalaskuri.astro src/pages/fi/tyokalut/lankamuunnin.astro` OK; trailing whitespace -haku erätiedostoille ja lokille 0 osumaa; `npm run check` OK
+- build jätetty tarkoituksella seuraavaan FI tools erään, koska sovittu linja on ajaa build ainakin koko kielen/tools-kokonaisuuden jälkeen
+
+Suomen tools-erä 2/2:
+
+- käsitelty loput 4/7 suomenkielistä tools-sivua:
+  - `src/pages/fi/tyokalut/puikkokoot.astro`
+  - `src/pages/fi/tyokalut/lankavahvuudet.astro`
+  - `src/pages/fi/tyokalut/neulelyhenteet.astro`
+  - `src/pages/fi/tyokalut/neulekokotaulukot.astro`
+- vertailtu nykyisiin englanninkielisiin tools-lähteisiin:
+  - `src/pages/tools/needle-size-chart.astro`
+  - `src/pages/tools/yarn-weight-chart.astro`
+  - `src/pages/tools/knitting-abbreviations.astro`
+  - `src/pages/tools/knitting-size-charts.astro`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Craft Yarn Councilin Hooks & Needles, Standard Yarn Weight System, Knitting Abbreviations Master List ja Woman Size Charts -sivut; sisältölinja pidettiin englannin tools-tarkistuksessa lukitussa CYC-pohjaisessa varovaisessa muodossa
+- `puikkokoot.astro`: taulukko päivitetty nykyisen EN-sivun rakenteeseen lisäämällä japanilaiset välikoot 1-15 omille mm-riveilleen, poistamalla vanhat virheelliset JP-kohdistukset ja muuttamalla rajakohdat kaksiosaisiksi kategorioiksi kuten `Lace / Super Fine`, `Light / Medium`, `Bulky / Super Bulky` ja `Super Bulky / Jumbo`
+- `puikkokoot.astro`: sisältö-H2-rakenne tasattu nykyiseen EN-sivuun (5 H2), lisätty UK-järjestelmän käänteisyys, puuttuvat yksi-yhteen-vastineet, japanilaiset lähikoot, välikoot, vanhat ohjeet sekä CYC:n puikko-/lankavahvuusrajat; ylimääräinen vanha H2 yhdistetty lankavahvuusosioon
+- `lankavahvuudet.astro`: data, H2/H3-rakenne, WPI-rajaukset, CYC 0-7 + Size 8 -huomio ja FAQ:t tarkistettu EN-lähdettä vasten; ei sisältömuutoksia tässä erässä
+- `neulelyhenteet.astro`: lyhennedatat ja sisältö-H2:t tarkistettu CYC/EN-lähdettä vasten; poistettu yksi ylimääräinen FI-FAQ, jotta FAQ-määrä vastaa EN-sivua (4)
+- `neulekokotaulukot.astro`: taulukkodata pidetty ennallaan EN/CYC-arvojen mukaisena; FAQ:t ja sisältöteksti päivitetty nykyisen EN-sivun rakenteeseen lisäämällä mittauskohdat, vartalon mitan ja valmiin vaatteen mitan ero, negatiivinen/nolla/positiivinen/oversized-väljyys sekä kahden koon välissä valitsemisen rajaukset
+- public route -polut, canonicalit, `alternates`, schema-nimet, slug-rakenne ja `routes.ts` jätetty ennalleen
+- H2/FAQ-pariteetti erän jälkeen: puikkokoot 5 H2 + 4 FAQ kuten EN; lankavahvuudet 5 H2 + 4 FAQ kuten EN; neulelyhenteet 5 H2 + 4 FAQ kuten EN; neulekokotaulukot 3 sisältö-H2 + 4 FAQ kuten EN
+- riskigrep erätiedostoihin ja buildattuun `dist/fi/tyokalut`-sisältöön: ei korjattavia AI/OCR/scanner/voice/parser/Ravelry/subscription/ads/kertamaksu-tuoteclaim-osumia; ainoa osuma oli hyväksyttävä väärä positiivinen `automaattisesti` sanassa "Nelisäikeinen lanka ei automaattisesti ole 4-ply-vahvuutta"
+- loppuvarmistukset: `npx prettier --check src/pages/fi/tyokalut/puikkokoot.astro src/pages/fi/tyokalut/lankavahvuudet.astro src/pages/fi/tyokalut/neulelyhenteet.astro src/pages/fi/tyokalut/neulekokotaulukot.astro` OK; `git diff --check -- src/pages/fi/tyokalut/puikkokoot.astro src/pages/fi/tyokalut/lankavahvuudet.astro src/pages/fi/tyokalut/neulelyhenteet.astro src/pages/fi/tyokalut/neulekokotaulukot.astro` OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua)
+- dist-varmistus: kaikki 7 suomenkielistä tools-reittiä löytyivät buildin jälkeen:
+  - `dist/fi/tyokalut/index.html`
+  - `dist/fi/tyokalut/silmukkalaskuri/index.html`
+  - `dist/fi/tyokalut/lankamuunnin/index.html`
+  - `dist/fi/tyokalut/puikkokoot/index.html`
+  - `dist/fi/tyokalut/lankavahvuudet/index.html`
+  - `dist/fi/tyokalut/neulelyhenteet/index.html`
+  - `dist/fi/tyokalut/neulekokotaulukot/index.html`
+- Suomenkieliset tools-sivut ovat nyt tässä passissa 7/7 valmiit.
+- tools-erän jälkeen aloitettu vaihe: FI artikkelit erä 1/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fi/samaan-aikaan-neuleohjeessa.md` (`translationKey: "at-the-same-time-knitting"`)
+  - `src/content/articles/fi/parhaat-neulesovellukset.md` (`translationKey: "best-knitting-apps"`)
+  - `src/content/articles/fi/paras-lanka-aloittelijalle.md` (`translationKey: "best-yarn-for-beginners"`)
+  - `src/content/articles/fi/pyoropuikot-suorat-puikot-sukkapuikot.md` (`translationKey: "circular-vs-straight-vs-dpn"`)
+  - `src/content/articles/fi/digitaalinen-vs-mekaaninen-kerroslaskuri.md` (`translationKey: "digital-vs-physical-row-counters"`)
+- erän aloitustiedosto oli `src/content/articles/fi/samaan-aikaan-neuleohjeessa.md`
+
+Suomen artikkelit erä 1/8:
+
+- käsitelty 5/38 suomenkielistä artikkelia:
+  - `src/content/articles/fi/samaan-aikaan-neuleohjeessa.md`
+  - `src/content/articles/fi/parhaat-neulesovellukset.md`
+  - `src/content/articles/fi/paras-lanka-aloittelijalle.md`
+  - `src/content/articles/fi/pyoropuikot-suorat-puikot-sukkapuikot.md`
+  - `src/content/articles/fi/digitaalinen-vs-mekaaninen-kerroslaskuri.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/at-the-same-time-knitting.md`
+  - `src/content/articles/best-knitting-apps.md`
+  - `src/content/articles/best-yarn-for-beginners.md`
+  - `src/content/articles/circular-vs-straight-vs-dpn.md`
+  - `src/content/articles/digital-vs-physical-row-counters.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Craft Yarn Councilin yarn weight system, yarn label information ja pattern-reading -sivut; neula-/puikkotyyppien sisältö pidettiin nykyisen EN-lähteen varovaisessa tuote- ja tekniikkalinjassa
+- `samaan-aikaan-neuleohjeessa.md`: H2/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 5 FAQ); poistettu englanninkieliset `Row Counter`/`notes-osio`/`errata`-jäänteet näkyvästä FI-copysta
+- `parhaat-neulesovellukset.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 4 H3 + 5 FAQ); KnitTools-osio tasattu nykyiseen EN-linjaan poistamalla vanha hinnoittelu-/mainos-/tilausclaim ja rajaamalla sisältö Android-työkalupakkiin, projektiseurantaan, laskureihin ja viitetietoon
+- `paras-lanka-aloittelijalle.md`: H2/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 6 FAQ); lisätty EN-lähteen puuttuvat käytännön yksityiskohdat mallitilkun valmistumisesta, akryylin märkäpingotusrajasta, sekoitelangan laskeutuvuudesta, säikeen halkeamisen testistä ja metriyksiköt edelle lankamäärissä
+- `pyoropuikot-suorat-puikot-sukkapuikot.md`: päivitetty laajasti nykyiseen EN-rakenteeseen (11 H2 + 4 H3 + 6 FAQ); lisätty pikavertailutaulukko, suorien puikkojen pituusrajat, pyöröpuikon kaapelin pituus ja laatu, magic loopin työvaiheet, kahden pyöröpuikon menetelmä, sukkapuikkojen tikapuu- ja pituusohjeet, vaihdettavien settien arviointikriteerit, 23 cm pyöröpuikot sekä ergonomiset muodot
+- `digitaalinen-vs-mekaaninen-kerroslaskuri.md`: H2/FAQ-rakenne vastaa EN-lähdettä (6 H2 + 4 FAQ); tagien duplikaatti korjattu, puikko-/neulatermi korjattu ja KnitTools-paikallisdata muotoiltu EN-lähteen varovaiseksi `planned around local project data` -linjaksi
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne ja `translationKey`-arvot jätetty ennalleen
+- H2/H3/FAQ-pariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja FAQ-määriä
+- riskigrep erätiedostoihin: ei korjattavia `Row Counter`/`notes-osio`/`kertamaksu-tuoteclaim`/`mainoksia ja tilausta`/`subscription`/`ads`-osumia; jäljellä olevat Ravelry-, mainos-, tilaus-, tuuma- ja jaardi-osumat ovat EN-lähteeseen kuuluvia asiayhteyksiä tai metriyksikkö edellä annettuja vertailuja
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle FI-erän artikkelille sekä lokille OK; `git diff --check` erätiedostoille ja lokille OK; H2/H3/FAQ-laskenta vastasi EN-lähteitä; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua)
+- dist-varmistus: kaikki 5 erän suomenkielistä artikkelireittiä löytyivät buildin jälkeen:
+  - `dist/fi/artikkelit/samaan-aikaan-neuleohjeessa/index.html`
+  - `dist/fi/artikkelit/parhaat-neulesovellukset/index.html`
+  - `dist/fi/artikkelit/paras-lanka-aloittelijalle/index.html`
+  - `dist/fi/artikkelit/pyoropuikot-suorat-puikot-sukkapuikot/index.html`
+  - `dist/fi/artikkelit/digitaalinen-vs-mekaaninen-kerroslaskuri/index.html`
+- seuraava vaihe: FI artikkelit erä 2/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fi/valttamattomat-neuletarvikkeet.md` (`translationKey: "essential-knitting-tools"`)
+  - `src/content/articles/fi/pudonneen-silmukan-korjaaminen.md` (`translationKey: "fix-dropped-stitches"`)
+  - `src/content/articles/fi/ilmaiset-neulelaskurit.md` (`translationKey: "free-knitting-calculators"`)
+  - `src/content/articles/fi/kun-neuletiheys-ei-tasmaa.md` (`translationKey: "gauge-doesnt-match"`)
+  - `src/content/articles/fi/mallitilkun-neulominen-vaiheittain.md` (`translationKey: "gauge-swatch-step-by-step"`)
+- seuraava tiedosto oli `src/content/articles/fi/valttamattomat-neuletarvikkeet.md`
+
+Suomen artikkelit erä 2/8:
+
+- käsitelty 10/38 suomenkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/fi/valttamattomat-neuletarvikkeet.md`
+  - `src/content/articles/fi/pudonneen-silmukan-korjaaminen.md`
+  - `src/content/articles/fi/ilmaiset-neulelaskurit.md`
+  - `src/content/articles/fi/kun-neuletiheys-ei-tasmaa.md`
+  - `src/content/articles/fi/mallitilkun-neulominen-vaiheittain.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/essential-knitting-tools.md`
+  - `src/content/articles/fix-dropped-stitches.md`
+  - `src/content/articles/free-knitting-calculators.md`
+  - `src/content/articles/gauge-doesnt-match.md`
+  - `src/content/articles/gauge-swatch-step-by-step.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio ja Prettier CLI -dokumentaatio; sisältöfaktoissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja aiemmin lukittuihin CYC-/neulelähteisiin.
+- `valttamattomat-neuletarvikkeet.md`: H2/H3-rakenne vastaa EN-lähdettä (5 H2 + 13 H3); sovelluslaskuri-claim pehmennetty nykyiseen EN-linjaan, puikkomitan, projektipussin ja silmukanpidikkeiden puuttuneet käytännön rajaukset lisätty.
+- `pudonneen-silmukan-korjaaminen.md`: H2/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 6 FAQ); ei sisältömuutoksia tässä erässä, koska FI-versio oli jo EN-rakenteen ja varoitusten tasolla.
+- `ilmaiset-neulelaskurit.md`: H2/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 4 FAQ); poistettu vanha `ei tilausta, ei mainoksia` -tuoteclaim ja muotoiltu KnitTools nykyiseksi rakenteilla olevaksi Android-työkalupakiksi. Tuuma-/jaardiesimerkit muutettu suomen metriensisijaiseen muotoon.
+- `kun-neuletiheys-ei-tasmaa.md`: H2/FAQ-rakenne vastaa EN-lähdettä (13 H2 + 5 FAQ); osiojärjestys tasattu EN-lähteeseen, poistettu vahvistamaton KnitTools-sovelluksen neuletiheyslaskuri-claim, lisätty pestyn/viimeistellyn mallitilkun kuiturajaukset, neuletiheyden vaihtelun caveat ja puuttuva luomismäärä-FAQ.
+- `mallitilkun-neulominen-vaiheittain.md`: H2/FAQ-rakenne vastaa EN-lähdettä (10 H2 + 4 quick answers); lisätty EN-lähteen palmikko-/pitsi-/joustinrajaus, 20 s / 10 cm vs 18 s / 10 cm -mittakaavaesimerkki, paksun langan mittausvaroitus, ylhäältä alas -projektin tietoinen riski sekä mallitilkkulangan uudelleenkäytön rajaus.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/FAQ-pariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja FAQ/quick-answer-määriä.
+- riskigrep erätiedostoihin: ei osumia hakulistalla `AI`, `OCR`, `scanner`, `skanner`, `kamera`, `voice`, `ääni`, `parser`, `project summary`, `projektikooste`, `subscription`, `tilaus`, `mainos`, `mainoksia`, `ads`, `kertamaksu`, `Row Counter`, `notes-osio`, `errata`, `KnitTools-sovelluksen`.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle FI-erän artikkelille OK; `git diff --check` erätiedostoille OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä). Buildiä ei ajettu tässä erässä, koska edellinen FI-artikkelierä ja FI tools -kokonaisuus ajoivat buildin.
+- seuraava vaihe: FI artikkelit erä 3/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fi/montako-silmukkaa-luodaan.md` (`translationKey: "how-many-stitches-to-cast-on"`)
+  - `src/content/articles/fi/paljonko-lankaa-tarvitaan.md` (`translationKey: "how-much-yarn-do-i-need"`)
+  - `src/content/articles/fi/neuleen-pingotus.md` (`translationKey: "how-to-block-knitting"`)
+  - `src/content/articles/fi/pipon-neulominen.md` (`translationKey: "how-to-knit-hat"`)
+  - `src/content/articles/fi/sukkien-neulominen.md` (`translationKey: "how-to-knit-socks"`)
+- seuraava tiedosto: `src/content/articles/fi/montako-silmukkaa-luodaan.md`
+
+Suomen artikkelit erä 3/8:
+
+- käsitelty 15/38 suomenkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/fi/montako-silmukkaa-luodaan.md`
+  - `src/content/articles/fi/paljonko-lankaa-tarvitaan.md`
+  - `src/content/articles/fi/neuleen-pingotus.md`
+  - `src/content/articles/fi/pipon-neulominen.md`
+  - `src/content/articles/fi/sukkien-neulominen.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/how-many-stitches-to-cast-on.md`
+  - `src/content/articles/how-much-yarn-do-i-need.md`
+  - `src/content/articles/how-to-block-knitting.md`
+  - `src/content/articles/how-to-knit-hat.md`
+  - `src/content/articles/how-to-knit-socks.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro 6 content collections -dokumentaatio ja Prettier CLI -dokumentaatio; sisältöfaktoissa nojauduttiin nykyisiin EN-lähdeartikkeleihin.
+- `montako-silmukkaa-luodaan.md`: H2/FAQ-rakenne vastaa EN-lähdettä (13 H2 + 7 FAQ); lisätty puuttuva laskuesimerkki, mallikertojen ja reunasilmukoiden tarkennukset, suljetun neuleen luominen, luomistavat, luomisreunan kireys, projektikohtaiset järkitarkistusluvut, ylhäältä alas / alhaalta ylös -rajaus sekä puuttuvat FAQ-vastaukset.
+- `paljonko-lankaa-tarvitaan.md`: H2/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 6 FAQ); päivitetty paita-/peittomenekkien luvut, lisätty mallitilkun varmuushyöty, osittaisten kerien punnituksen rajaus ja intarsian ero kirjoneuleen menekkiin.
+- `neuleen-pingotus.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 2 H3 + 6 FAQ); lisätty kuitukohtaiset rajaukset, värinvuotovaroitus, akryylin höyrylämpörajaukset, pitsin ja villapaidan pingotus, kuivumisaika, pingotuksen jälkeinen käsittely sekä puuttuvat koko-/kasvu-FAQ:t.
+- `pipon-neulominen.md`: H2/common questions -rakenne vastaa EN-lähdettä (9 H2 + 5 kysymystä); poistettu FI-only-joustinreunaneuvo, jotta sisältö ei lisää EN-lähteestä poikkeavaa rajausväitettä.
+- `sukkien-neulominen.md`: H2/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 6 FAQ); laajennettu sukan osat, varresta kärkeen / kärjestä varteen -vertailu, kantapäätyypit, sukkalankojen rajaukset, puikkotavat, koko ja istuvuus sekä kaksi puuttuvaa FAQ-kysymystä.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/FAQ-pariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja FAQ/common-question-määriä.
+- riskigrep erätiedostoihin: ei osumia hakulistalla `AI`, `OCR`, `scanner`, `skanner`, `kamera`, `voice`, `ääni`, `parser`, `project summary`, `projektikooste`, `subscription`, `tilaus`, `mainos`, `mainoksia`, `ads`, `kertamaksu`, `Row Counter`, `notes-osio`, `errata`, `KnitTools-sovelluksen`, `automaattisesti`.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle FI-erän artikkelille OK; `git diff --check` erätiedostoille OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 FI-artikkelille.
+- seuraava vaihe: FI artikkelit erä 4/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fi/neuletiheyden-mittaaminen.md` (`translationKey: "how-to-measure-knitting-gauge"`)
+  - `src/content/articles/fi/neuleohjeen-lukeminen.md` (`translationKey: "how-to-read-knitting-pattern"`)
+  - `src/content/articles/fi/lankavyotteen-lukeminen.md` (`translationKey: "how-to-read-yarn-label"`)
+  - `src/content/articles/fi/langan-korvaaminen-neuleohjeessa.md` (`translationKey: "how-to-substitute-yarn"`)
+  - `src/content/articles/fi/tuntemattoman-langan-tunnistaminen.md` (`translationKey: "identify-mystery-yarn"`)
+- seuraava tiedosto: `src/content/articles/fi/neuletiheyden-mittaaminen.md`
+
+Suomen artikkelit erä 4/8:
+
+- käsitelty 20/38 suomenkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/fi/neuletiheyden-mittaaminen.md`
+  - `src/content/articles/fi/neuleohjeen-lukeminen.md`
+  - `src/content/articles/fi/lankavyotteen-lukeminen.md`
+  - `src/content/articles/fi/langan-korvaaminen-neuleohjeessa.md`
+  - `src/content/articles/fi/tuntemattoman-langan-tunnistaminen.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/how-to-measure-knitting-gauge.md`
+  - `src/content/articles/how-to-read-knitting-pattern.md`
+  - `src/content/articles/how-to-read-yarn-label.md`
+  - `src/content/articles/how-to-substitute-yarn.md`
+  - `src/content/articles/identify-mystery-yarn.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro CLI / `astro check` -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin yarn weight / WPI -lähteet. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin.
+- `neuletiheyden-mittaaminen.md`: H2/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 5 FAQ); lisätty `tension`-täsmennys, palmikkoisen mallineuleen leveysvaikutus, viimeistellyn mallitilkun kuivumisen rajaus, silmukka- ja kerrostiheyden priorisointi sekä lankamuunninviittaus EN:n mukaiseksi suunnittelun tarkistusluvuksi.
+- `neuleohjeen-lukeminen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (14 H2 + 2 H3 + 7 FAQ); nostettu FI-versio EN-rakenteen tasolle lisäämällä vaikeustaso, notes-osio, erikoissilmukat, peilattu muotoilu, kaaviosymbolit, japanilaistyyliset kaaviot, errata, PDF/paperi ja kaksi puuttuvaa FAQ-kysymystä.
+- `lankavyotteen-lukeminen.md`: H2/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 4 FAQ); päivitetty CYC Size 8 / lisäsymbolit, superwash-hoitorajaus, 10 cm vs 4 tuumaa -tarkennus sekä poistettu vanha Yarn Label Scanner -lupaus projektimuistiinpanon tasolle.
+- `langan-korvaaminen-neuleohjeessa.md`: H2/FAQ-rakenne vastaa EN-lähdettä (7 H2 + 4 FAQ); päivitetty jaardiesimerkki, riskiluokkien rajaukset, erittäin korkean riskin varoitus, Ravelry/lankakauppa-FAQ sekä lankamuunninviittaus niin, ettei se korvaa ohjeen metrimäärää, langan put-up-tietoa tai uutta mallitilkkua.
+- `tuntemattoman-langan-tunnistaminen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (6 H2 + 3 H3 + 3 FAQ); päivitetty CYC WPI/Size 8 -rajaus, polttokokeen turvallisuus, vesitestin akryylirajaus sekä poistettu vanha scanner/lankakortti-lupaus projektimuistiinpanon tasolle.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/FAQ-pariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja FAQ-määriä.
+- product-claim-riskigrep erätiedostoihin: ei osumia hakulistalla `AI`, `OCR`, `scanner`, `skanner`, `kamera`, `voice`, `ääni`, `parser`, `project summary`, `projektikooste`, `subscription`, `tilaus`, `mainos`, `mainoksia`, `ads`, `kertamaksu`, `Row Counter`, `KnitTools-sovelluksen`, `lankakortti`. Laajassa kontekstiriskigrepissä jäi odotettuja `notes-osio`, `errata` ja `automaattisesti` -osumia vain `neuleohjeen-lukeminen.md`-tiedostoon; ne vastaavat EN-lähteen notes/errata-aihetta eivätkä ole tuotetyökalulupauksia.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle FI-erän artikkelille OK; `git diff --check` erätiedostoille OK; lokitiedoston no-index-whitespace-tarkistus OK, koska loki on vielä untracked; product-claim-riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 FI-artikkelille.
+- seuraava vaihe: FI artikkelit erä 5/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fi/lisaysten-ja-kavennusten-jakaminen.md` (`translationKey: "increase-decrease-evenly"`)
+  - `src/content/articles/fi/uuden-lankakeran-liittaminen.md` (`translationKey: "join-new-ball-of-yarn"`)
+  - `src/content/articles/fi/ensimmaisen-huivin-neulominen.md` (`translationKey: "knit-first-scarf"`)
+  - `src/content/articles/fi/puikkomateriaalit-metalli-puu-bambu.md` (`translationKey: "knitting-needle-materials"`)
+  - `src/content/articles/fi/neuleohjeen-toistot.md` (`translationKey: "knitting-pattern-repeats"`)
+- seuraava tiedosto: `src/content/articles/fi/lisaysten-ja-kavennusten-jakaminen.md`
+
+Suomen artikkelit erä 5/8:
+
+- käsitelty 25/38 suomenkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/fi/lisaysten-ja-kavennusten-jakaminen.md`
+  - `src/content/articles/fi/uuden-lankakeran-liittaminen.md`
+  - `src/content/articles/fi/ensimmaisen-huivin-neulominen.md`
+  - `src/content/articles/fi/puikkomateriaalit-metalli-puu-bambu.md`
+  - `src/content/articles/fi/neuleohjeen-toistot.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/increase-decrease-evenly.md`
+  - `src/content/articles/join-new-ball-of-yarn.md`
+  - `src/content/articles/knit-first-scarf.md`
+  - `src/content/articles/knitting-needle-materials.md`
+  - `src/content/articles/knitting-pattern-repeats.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro CLI / `astro check` -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin knitting abbreviations -lähde. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin.
+- `lisaysten-ja-kavennusten-jakaminen.md`: H2/FAQ-rakenne vastaa EN-lähdettä (15 H2 + 6 FAQ); rakennettu FI-artikkeli uudelleen nykyiseen EN-järjestykseen, lisätty puuttuvat siisti lisäys / jakojäännös / kavennuspuoli -esimerkit, M1L/M1R/KFB/langankierto/nostettu lisäys -rajaukset, 2 o yhteen / ssk / 3 o yhteen / keskitetty kaksoiskavennus -rajaukset, reunasilmukat, pyöröneule, paritettu muotoilu, yleiset välit ja kaikki puuttuvat FAQ:t. EN:n app-laskurilause pehmennetty yleiseksi jakotaulukko-/laskuriviittaukseksi, koska paikallinen sivustokoodi ei vahvista kyseistä app-ominaisuutta tässä erässä.
+- `uuden-lankakeran-liittaminen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 1 H3 + 5 FAQ); lisätty pikavertailu, päällekkäisten häntien päättely, Russian join -neularajaus, huopaliitoksen testaus, käsinvärjätyn langan vuorottelu, tehdassolmut, langan katkeaminen ja avoimen pitsin päättely. Poistettu FI-only FAQ keskellä kerrosta liittämisestä ja muutettu 6-8 kerroksen ylimääräinen tarkkuus EN:n "several repeats" -tasolle.
+- `ensimmaisen-huivin-neulominen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 4 H3 + 7 FAQ); laajennettu EN:n mukaiset lankavalinnan, langan pitämisen, silmukoiden lukemisen, aloittelijaongelmien, uuden kerän, viimeistelyn, hapsujen, taukojen ja FAQ:n kohdat. Pitkän hännän aloituksen määrä täsmennetty EN:n 3-4 kertaa reunan leveys / 30-36 tuumaa -ohjeen metriseksi vastineeksi.
+- `puikkomateriaalit-metalli-puu-bambu.md`: H2/FAQ-rakenne vastaa EN-lähdettä (10 H2 + 6 FAQ); nostettu tiivis FI-versio EN:n tasolle lisäämällä materiaalivertailutaulukko, metalli-/puu-/bambu-/muovi-/hiilikuiturajaukset, kärjen muodon vaikutus, vaihdettavien pyöröpuikkojen liitoslaatu, lankakohtaiset valinnat sekä puuttuvat bambun karheus- ja säilytys-FAQ:t.
+- `neuleohjeen-toistot.md`: H2/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 6 FAQ); sisäkkäiset toistot, aloituskerrokset, monen kerroksen toistot, kaavioiden toistoruudut, apulanka, siirtyvät toistot ja FAQ:t vastaavat EN-lähdettä. Suora KnitTools Row Counter -tuoteclaim pehmennetty yleiseksi kerroslaskuri-/paperimerkintäavuksi, jotta FI-artikkeli ei lupaa vahvistamatonta app-ominaisuutta.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/FAQ-pariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja FAQ-määriä.
+- product-claim-riskigrep erätiedostoihin: ei osumia hakulistalla `KnitTools-sovelluksen`, `Row Counter`, `Increase & Decrease Calculator`, `AI`, `OCR`, `scanner`, `skanner`, `kamera`, `voice`, `ääni`, `parser`, `project summary`, `projektikooste`, `subscription`, `tilaus`, `mainos`, `mainoksia`, `ads`, `kertamaksu`, `lankakortti`. Laajassa kontekstiriskigrepissä jäi odotettuja `kerroslaskuri`, `laskuri`, `errata`, `Ravelry` ja `automaattisesti` -osumia; ne ovat EN-lähteen mukaisia yleisiä neuleohje-/laskentatermejä eivätkä tuotetyökalulupauksia.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle FI-erän artikkelille OK; `git diff --check` erätiedostoille OK; product-claim-riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 FI-artikkelille.
+- seuraava vaihe: FI artikkelit erä 6/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fi/puikkokoko-aloittelijalle.md` (`translationKey: "needle-size-for-beginners"`)
+  - `src/content/articles/fi/neuleprojektien-jarjestaminen.md` (`translationKey: "organize-knitting-projects"`)
+  - `src/content/articles/fi/neuleohjeen-koot-ja-istuvuus.md` (`translationKey: "knitting-pattern-sizes-and-fit"`)
+  - `src/content/articles/fi/silmukoiden-poimiminen.md` (`translationKey: "pick-up-stitches"`)
+  - `src/content/articles/fi/neulekappaleiden-yhdistaminen.md` (`translationKey: "seam-knitted-pieces"`)
+- seuraava tiedosto: `src/content/articles/fi/puikkokoko-aloittelijalle.md`
+
+Suomen artikkelit erä 6/8:
+
+- käsitelty 30/38 suomenkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/fi/puikkokoko-aloittelijalle.md`
+  - `src/content/articles/fi/neuleprojektien-jarjestaminen.md`
+  - `src/content/articles/fi/neuleohjeen-koot-ja-istuvuus.md`
+  - `src/content/articles/fi/silmukoiden-poimiminen.md`
+  - `src/content/articles/fi/neulekappaleiden-yhdistaminen.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/needle-size-for-beginners.md`
+  - `src/content/articles/organize-knitting-projects.md`
+  - `src/content/articles/knitting-pattern-sizes-and-fit.md`
+  - `src/content/articles/pick-up-stitches.md`
+  - `src/content/articles/seam-knitted-pieces.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio ja Prettier CLI -dokumentaatio. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin.
+- `puikkokoko-aloittelijalle.md`: H2/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 6 FAQ); lisätty puikkokokojen merkintäjärjestelmät, mitä ei vielä kannata ostaa, kireyden rakentaminen sekä puuttuvat 4,0/6,0 mm ja brändi/settivalinta-FAQ:t.
+- `neuleprojektien-jarjestaminen.md`: H2/bold-rakenne vastaa EN-lähdettä (8 H2 + 11 bold-kohtaa); Yarn Label Scanner -lupaus on poistettu ja KnitTools-viittaukset pidetty rakenteilla olevan projektiseurannan tasolla. Fyysisen järjestämisen, projektin valinnan ja lankalogistiikan rajaukset vastaavat EN-lähdettä.
+- `neuleohjeen-koot-ja-istuvuus.md`: H2/bold-rakenne vastaa EN-lähdettä (13 H2 + 11 bold-kohtaa); lisätty EN:n mukaiset mittauskohdat, kädentien syvyyden varoitus, kokojen yhdistämisen rajaukset, rakennetapojen istuvuuserot, lyhennettyjen kerrosten rintamuotoilu ja lankapaksuuden väljyysansa.
+- `silmukoiden-poimiminen.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (12 H2 + 2 H3 + 20 bold-kohtaa); lisätty nostetun reunasilmukan ja ainaoikean poiminta, reunustyyppien eri suhteet, viistot reunat, silmukoiden jakaminen, virkkuukoukku, steekkireunat ja kaikki puuttuvat yleiset kysymykset. Apulankaosio korjattu EN:n testaa-pura-toista -logiikkaan.
+- `neulekappaleiden-yhdistaminen.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 H2 + 2 H3 + 11 bold-kohtaa); otsikkojärjestys tasattu EN-lähteeseen, lisätty saumaustapojen vertailutaulukko, silmukointi/Kitchener, luotospisto, jälkipisto, hihan istutus, raita-/kirjoneulesaumojen rajaukset, yleiset virheet ja kaksi puuttuvaa FAQ-vastausta.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-riskigrep erätiedostoihin: ei AI/OCR/scanner/Row Counter/Yarn Label Scanner/subscription/mainos-osumia. Jäljelle jäi odotetusti `neuleprojektien-jarjestaminen.md`-tiedoston yleinen `automaattisesti`-maininta digitaalisista seurannoista sekä kaksi pehmennettyä `KnitTools`-rakenteilla-mainintaa; ne vastaavat EN-lähteen nykyistä app-claim-linjaa eivätkä lupaa scanneria tai vahvistamatonta valmista ominaisuutta.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle FI-erän artikkelille OK; `git diff --check` erätiedostoille OK; product-claim-riskigrep OK yllä kuvatulla kontekstilla; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 FI-artikkelille.
+- seuraava vaihe: FI artikkelit erä 7/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fi/mita-neuletiheys-tarkoittaa.md` (`translationKey: "what-is-gauge-in-knitting"`)
+  - `src/content/articles/fi/neulonta-ajan-seuraaminen.md` (`translationKey: "track-knitting-time"`)
+  - `src/content/articles/fi/kerrosten-seuraaminen-neuloessa.md` (`translationKey: "track-rows-knitting"`)
+  - `src/content/articles/fi/miksi-neule-kaartuu.md` (`translationKey: "why-knitting-curls"`)
+  - `src/content/articles/fi/lankakuidut-vertailussa.md` (`translationKey: "yarn-fibers-compared"`)
+- seuraava tiedosto: `src/content/articles/fi/mita-neuletiheys-tarkoittaa.md`
+
+Suomen artikkelit erä 7/8:
+
+- käsitelty 35/38 suomenkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/fi/mita-neuletiheys-tarkoittaa.md`
+  - `src/content/articles/fi/neulonta-ajan-seuraaminen.md`
+  - `src/content/articles/fi/kerrosten-seuraaminen-neuloessa.md`
+  - `src/content/articles/fi/miksi-neule-kaartuu.md`
+  - `src/content/articles/fi/lankakuidut-vertailussa.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/what-is-gauge-in-knitting.md`
+  - `src/content/articles/track-knitting-time.md`
+  - `src/content/articles/track-rows-knitting.md`
+  - `src/content/articles/why-knitting-curls.md`
+  - `src/content/articles/yarn-fibers-compared.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio ja Prettier CLI -dokumentaatio. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `FINNISH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `mita-neuletiheys-tarkoittaa.md`: H2/FAQ-rakenne vastaa EN-lähdettä (13 H2 + 7 FAQ); poistettu FI-only `Kuinka paljon neuletiheyden vaihtelulla on väliä?` -osio, lisätty neulomistyylien erot, puikkomateriaalien kitkarajaukset, viimeistellyn mallitilkun pesu-/kuitukäyttäytyminen, lankarakenteen puikkokokoalue, väljyysmatematiikka, 4 in / 10 cm -mittausraja, neuletiheystyökalulista sekä kolme puuttuvaa FAQ-vastausta.
+- `neulonta-ajan-seuraaminen.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (8 H2 + 3 H3 + 6 bold-kohtaa); ei tarvinnut sisältömuutoksia tässä erässä, koska FI-versio vastasi EN:n sessionseuranta- ja KnitTools-claim-linjaa.
+- `kerrosten-seuraaminen-neuloessa.md`: H2/bold-rakenne vastaa EN-lähdettä (11 H2 + 9 bold-kohtaa); poistettu ylimääräinen `mallikertojen tuki` KnitTools-väitteestä, jotta FI ei lupaa EN-lähdettä vahvempaa app-ominaisuutta.
+- `miksi-neule-kaartuu.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (7 H2 + 6 H3 + 6 FAQ); otsikkojärjestys tasattu EN-lähteeseen, rullautumisen syy muotoiltu EN:n rakenteellisen epätasapainon mukaan, lisätty superwashin pesukäyttäytymisrajaus, reunusleveyden taulukko, nostetun reunasilmukan tarkka ohje, akryylin koskematon höyryvaroitus, nurjan sileän peilautuva rullautuminen, steekkireunan reunalistatarve ja kaksi puuttuvaa FAQ-vastausta.
+- `lankakuidut-vertailussa.md`: H2/bold-rakenne vastaa EN-lähdettä (7 H2 + 5 bold-kohtaa); ei tarvinnut sisältömuutoksia tässä erässä, koska kuitufaktat, sekoiterajaukset ja Yarn Estimator / lankamuunnin -viittaus vastasivat EN-lähdettä.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-riskigrep erätiedostoihin: ei AI/OCR/scanner/Yarn Label Scanner/Row Counter/subscription/mainos/kertamaksu/mallikertojen tuki -osumia. Jäljelle jäi yksi odotettu `automaattisesti`-osuma `kerrosten-seuraaminen-neuloessa.md`-tiedoston yleiseen digitaalisen laskurin palautumisesimerkkiin; se ei ole KnitTools-tuoteclaim.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle FI-erän artikkelille OK; `git diff --check` erätiedostoille OK; product-claim-riskigrep OK yllä kuvatulla kontekstilla; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 FI-artikkelille.
+- seuraava vaihe: FI artikkelit erä 8/8, 3 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fi/paljonko-lankaa-peittoon.md` (`translationKey: "yarn-for-blanket"`)
+  - `src/content/articles/fi/paljonko-lankaa-villapaitaan.md` (`translationKey: "yarn-for-sweater"`)
+  - `src/content/articles/fi/langan-korvaaminen-eri-vahvuudella.md` (`translationKey: "yarn-weight-substitution"`)
+- seuraava tiedosto: `src/content/articles/fi/paljonko-lankaa-peittoon.md`
+
+Suomen artikkelit erä 8/8:
+
+- käsitelty 38/38 suomenkielistä artikkelia, tämän erän 3 tiedostoa:
+  - `src/content/articles/fi/paljonko-lankaa-peittoon.md`
+  - `src/content/articles/fi/paljonko-lankaa-villapaitaan.md`
+  - `src/content/articles/fi/langan-korvaaminen-eri-vahvuudella.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/yarn-for-blanket.md`
+  - `src/content/articles/yarn-for-sweater.md`
+  - `src/content/articles/yarn-weight-substitution.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio ja Prettier CLI -dokumentaatio. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `FINNISH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `paljonko-lankaa-peittoon.md`: H2/bold/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 17 bold-kohtaa); metreiksi muunnetut menekkihaarukat korjattu vastaamaan EN:n yardage-haarukoita, arviohaarukan sanamuoto pehmennetty ohjeen lupauksesta ostoshaarukaksi ja ylimääräisen kerän neuvo rajattu budjetti-/palautus-/varakäyttöehdolla EN-lähteen mukaisesti.
+- `paljonko-lankaa-villapaitaan.md`: H2/bold/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 19 bold-kohtaa); `Rakenne ja mihin lanka menee` siirretty EN-järjestykseen ennen keriksi muuttamista, FI-only rajallisesta langasta joustamisen kappale poistettu, miesten/naisten paitavertailuun lisätty vartalon pituus, hihan pituus, neuletiheys ja rakenne, ja ylimääräisen langan ostosuositus pehmennetty EN:n budjetti-/saatavuuslinjaan.
+- `langan-korvaaminen-eri-vahvuudella.md`: H2/bold/numeroitu-lista/bullet/FAQ-rakenne vastaa EN-lähdettä (10 H2 + 15 bold-kohtaa + 6 numeroitua kohtaa + 5 bulletia); tiivis vanha FI-versio laajennettu EN:n nykyiseen rakenteeseen lisäämällä muuttuvat silmukka-/puikko-/neulepinta-/menekki-/aikavaikutukset, riskirajaukset istuviin vaatteisiin, pitsiin, kirjoneuleeseen ja palmikoihin, DK-esimerkin lasku, vaiheittainen uudelleenlaskenta, kaksinkertaisen langan nyrkkisäännöt, vintage-ohjeiden rajaus, yleiset kysymykset ja 6 FAQ-vastausta.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold/lista-rakennepariteetti erän jälkeen: kaikki 3 artikkeliparia vastaavat nykyisen EN-lähteen otsikko-, bold-, numeroitu-lista-, bullet- ja FAQ-rakennemääriä.
+- product-claim-riskigrep erätiedostoihin: ei AI/OCR/scanner/Yarn Label Scanner/Row Counter/subscription/mainos/kertamaksu/mallikertojen tuki/automaattisesti-osumia. Jäljelle jäi yksi odotettu `KnitTools`-osuma `langan-korvaaminen-eri-vahvuudella.md`-tiedoston silmukkalaskurilinkkiin; se vastaa EN-lähteen Cast On Calculator -väitettä eikä lupaa vahvistamatonta ominaisuutta.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` kolmelle FI-erän artikkelille OK; `git diff --check` erätiedostoille OK; product-claim-riskigrep OK yllä kuvatulla kontekstilla; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK yksinään (411 sivua); dist-polut olemassa kaikille 3 FI-artikkelille. Ensimmäinen rinnakkainen `npm run check` + `npm run build` -ajo osui Astron content cache -rename-kilpailuun, joten build ajettiin uudelleen yksinään ja meni läpi.
+- Suomenkieliset artikkelit ovat nyt tässä passissa 38/38 valmiit.
+- seuraava vaihe: SV tools erä 1/2, 3 sivua nykyisiin englanninkielisiin tools-lähteisiin verrattuna:
+  - `src/pages/sv/verktyg/index.astro`
+  - `src/pages/sv/verktyg/upplaggningskalkylator.astro`
+  - `src/pages/sv/verktyg/garnatgangskalkylator.astro`
+- seuraava tiedosto: `src/pages/sv/verktyg/index.astro`
+
+Ruotsin tools erä 1/2:
+
+- käsitelty 3/7 ruotsinkielistä tools-sivua, tämän erän tiedostot:
+  - `src/pages/sv/verktyg/index.astro`
+  - `src/pages/sv/verktyg/upplaggningskalkylator.astro`
+  - `src/pages/sv/verktyg/garnatgangskalkylator.astro`
+- vertailtu nykyisiin englanninkielisiin tools-lähteisiin:
+  - `src/pages/tools/index.astro`
+  - `src/pages/tools/cast-on-calculator.astro`
+  - `src/pages/tools/yarn-estimator.astro`
+- tarkistettu myös erän jaettu ruotsinkielinen komponentticopy:
+  - `src/components/CastOnCalculator.astro`
+  - `src/components/YarnEstimator.astro`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio ja Prettier CLI -dokumentaatio. Sisältöpariteetissa nojauduttiin nykyisiin EN-tools-sivuihin ja `SWEDISH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `index.astro`: tools-kortit pidetty EN-rakenteessa (6 korttia); `Garntjocklekar`-kortin kuvaus korjattu CYC-linjalle ilman turhaa lukumäärälupausta. Julkinen `/sv/verktyg/`-reitti, canonical, `alternates` ja JSON-LD-rakenne jätetty ennalleen.
+- `upplaggningskalkylator.astro`: H2/FAQ-rakenne vastaa EN-lähdettä (3 H2 + 5 FAQ). FAQ:t korjattu nykyisen EN:n rajauksiin: stickprov ei lupaa tarkkaa 20 minuutin arviota, kantasilmukoissa säilyy ensimmäiset/viimeiset kaksi silmukkaa -rajaus, tasalukuavrundus ei laajene fläta-/flerfärgsclaimiksi ja rundstickning-vastaus pysyy laskennan tasolla.
+- `garnatgangskalkylator.astro`: H2/FAQ-rakenne vastaa EN-lähdettä (3 H2 + 5 FAQ). Poistettu ylimääräinen `Varför ett extra nystan ofta är klokt` -H2, palautettu banderolliosio EN-rakenteeseen, säilytetty ruotsin metriensisijaisuus ja korjattu extra-nystan / garntjocklek / ersättningsgarn -vastaukset EN:n pehmennettyihin rajauksiin.
+- `YarnEstimator.astro`: SV-disclaimer pehmennetty EN/FI-linjan mukaiseksi: 15-20 % on suunnittelumarginaali eikä ehdoton lisämenekki, ja extra nystan sidotaan färgbad-riskiin. `CastOnCalculator.astro` tarkistettu erän yhteydessä; SV UI-termit ovat `stickfasthet`, `maskor`, `10 cm / 4 tum` ja `tum`.
+- public route -polut, canonicalit, `alternates`, slug-rakenne, `lang="sv"` ja työkalukomponenttien kytkennät jätetty ennalleen.
+- product-claim-riskigrep erätiedostoihin ja jaettuihin laskurikomponentteihin: ei osumia hakulistalla `AI`, `OCR`, `scanner`, `skanner`, `kamera`, `voice`, `röst`, `parser`, `project summary`, `projektsammanfattning`, `subscription`, `prenumeration`, `ads`, `annonser`, `Row Counter`, `Yarn Label Scanner`, `KnitTools-sovelluksen`, `lankakortti`, `alltid`, `automatiskt`, `automatiska`.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` erän kolmelle SV-tools-sivulle sekä `CastOnCalculator.astro`/`YarnEstimator.astro` OK; `git diff --check` erätiedostoille OK; product-claim-riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä). Buildiä ei ajettu tässä puolikkaassa, vaan se on tarkoitus ajaa SV tools -kokonaisuuden jälkeen erässä 2/2.
+- seuraava vaihe: SV tools erä 2/2, 4 sivua nykyisiin englanninkielisiin tools-lähteisiin verrattuna:
+  - `src/pages/sv/verktyg/stickstorlekar.astro`
+  - `src/pages/sv/verktyg/garntjocklekar.astro`
+  - `src/pages/sv/verktyg/stickforkortningar.astro`
+  - `src/pages/sv/verktyg/storlekstabeller-stickning.astro`
+- seuraava tiedosto: `src/pages/sv/verktyg/stickstorlekar.astro`
+
+Ruotsin tools erä 2/2:
+
+- käsitelty 7/7 ruotsinkielistä tools-sivua, tämän erän 4 tiedostoa:
+  - `src/pages/sv/verktyg/stickstorlekar.astro`
+  - `src/pages/sv/verktyg/garntjocklekar.astro`
+  - `src/pages/sv/verktyg/stickforkortningar.astro`
+  - `src/pages/sv/verktyg/storlekstabeller-stickning.astro`
+- vertailtu nykyisiin englanninkielisiin tools-lähteisiin:
+  - `src/pages/tools/needle-size-chart.astro`
+  - `src/pages/tools/yarn-weight-chart.astro`
+  - `src/pages/tools/knitting-abbreviations.astro`
+  - `src/pages/tools/knitting-size-charts.astro`
+- tarkistettu myös erän jaettu ruotsinkielinen komponentticopy:
+  - `src/components/WpiIdentifier.astro`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro CLI / `astro check` -dokumentaatio, Prettier CLI -dokumentaatio, Craft Yarn Councilin standardit ja neulelyhenteiden lähde. Sisältöpariteetissa nojauduttiin nykyisiin EN-tools-sivuihin ja `SWEDISH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `stickstorlekar.astro`: H2/FAQ-rakenne vastaa EN-lähdettä (5 H2 + 4 FAQ). Needle-taulukko päivitetty 38 riviin ja `mm`/US/UK/JP-attribuutit vastaavat EN-taulukkoa; lisätty puuttuneet japanilaiset välikoot ja korjattu 4,0 mm / 5,0 mm JP-kohdistukset. Japani-osion copy tasattu EN:n 3,9 mm / 4,5 mm -esimerkkeihin.
+- `garntjocklekar.astro`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (5 H2 + 6 H3 + 4 FAQ). Intro ja schemaDescription poistavat turhan "kaikki 8" -lupauksen, ja CYC-osio kertoo EN-lähteen nykyisen rajauksen: päivitetty järjestelmä sisältää Size 8 -symbolin, mutta sivun julkaistut stickfasthet-/stickstorlek-/WPI-alueet pysyvät 0-7-väleissä.
+- `stickforkortningar.astro`: H2/FAQ-rakenne vastaa EN-lähdettä (5 H2 + 4 FAQ). CYC-maininta muotoiltu EN:n `widely used standard abbreviation list` -linjaan ja sivulla ei ole vahvistamatonta KnitTools-appiominaisuuslupausta.
+- `storlekstabeller-stickning.astro`: H2/FAQ-rakenne vastaa EN-lähdettä (3 H2 + 4 FAQ). FAQ:t tasattu EN-lähteeseen: CYC-tyyliset mitat eivät ole universaali pakko, numeroiduissa ko'oissa bröstvidd ratkaisee, ja mittaus tehdään iholta tai ohuen istuvan kerroksen päältä, ei paksujen vaatteiden yli.
+- public route -polut, canonicalit, `alternates`, slug-rakenne, `lang="sv"` ja työkalukomponenttien kytkennät jätetty ennalleen.
+- rakennepariteetti erän jälkeen: kaikki 4 sivuparia vastaavat nykyisen EN-lähteen H2/H3/FAQ-määriä, ja `stickstorlekar`-taulukon 38 data-riviä vastaavat EN-lähteen `mm`/US/UK/JP-rivejä.
+- product-claim-riskigrep erätiedostoihin ja `WpiIdentifier.astro`-komponenttiin: ei osumia sananrajoilla hakulistalla `AI`, `OCR`, `scanner`, `skanner`, `kamera`, `voice`, `röst`, `parser`, `project summary`, `projektsammanfattning`, `subscription`, `prenumeration`, `ads`, `annonser`, `Row Counter`, `Yarn Label Scanner`, `KnitTools-appen`, `lankakortti`, `automatiskt`, `automatiska`. Ensimmäinen karkea haku osui `röst`-merkkijonoon sanassa `bröstvidd`; tarkennettu sananrajahaku ei löytänyt osumia.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` erän neljälle SV-tools-sivulle OK; `git diff --check` erätiedostoille OK; product-claim-riskigrep OK; needle-taulukon EN/SV-data-attrivertailu OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK toisella ajolla (411 sivua). Ensimmäinen build-ajo epäonnistui ennen renderöintiä Windowsin `EPERM`-lukkoon tiedostossa `dist/favicon.svg`; tiedosto ei ollut read-only eikä Node-dev/preview-prosessia näkynyt, ja uudelleenajo meni läpi.
+- dist-varmistus: kaikki 7 ruotsinkielistä tools-reittiä löytyivät buildin jälkeen:
+  - `dist/sv/verktyg/index.html`
+  - `dist/sv/verktyg/upplaggningskalkylator/index.html`
+  - `dist/sv/verktyg/garnatgangskalkylator/index.html`
+  - `dist/sv/verktyg/stickstorlekar/index.html`
+  - `dist/sv/verktyg/garntjocklekar/index.html`
+  - `dist/sv/verktyg/stickforkortningar/index.html`
+  - `dist/sv/verktyg/storlekstabeller-stickning/index.html`
+- Ruotsin tools-sivut ovat nyt tässä passissa 7/7 valmiit.
+- seuraava vaihe: SV artikkelit erä 1/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/sv/samtidigt-i-stickmonster.md` (`translationKey: "at-the-same-time-knitting"`)
+  - `src/content/articles/sv/basta-stickappar-vad-du-ska-titta-efter.md` (`translationKey: "best-knitting-apps"`)
+  - `src/content/articles/sv/basta-garnet-for-nyborjare-praktisk-guide.md` (`translationKey: "best-yarn-for-beginners"`)
+  - `src/content/articles/sv/rundsticka-raka-stickor-strumpstickor.md` (`translationKey: "circular-vs-straight-vs-dpn"`)
+  - `src/content/articles/sv/digital-eller-mekanisk-varvraknare.md` (`translationKey: "digital-vs-physical-row-counters"`)
+- seuraava tiedosto: `src/content/articles/sv/samtidigt-i-stickmonster.md`
+
+Ruotsin artikkelit erä 1/8:
+
+- käsitelty 5/38 ruotsinkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/sv/samtidigt-i-stickmonster.md`
+  - `src/content/articles/sv/basta-stickappar-vad-du-ska-titta-efter.md`
+  - `src/content/articles/sv/basta-garnet-for-nyborjare-praktisk-guide.md`
+  - `src/content/articles/sv/rundsticka-raka-stickor-strumpstickor.md`
+  - `src/content/articles/sv/digital-eller-mekanisk-varvraknare.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/at-the-same-time-knitting.md`
+  - `src/content/articles/best-knitting-apps.md`
+  - `src/content/articles/best-yarn-for-beginners.md`
+  - `src/content/articles/circular-vs-straight-vs-dpn.md`
+  - `src/content/articles/digital-vs-physical-row-counters.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Prettier CLI -dokumentaatio, Craft Yarn Councilin yarn weight -järjestelmä sekä hooks/needles-standardit. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `SWEDISH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `samtidigt-i-stickmonster.md`: H2/bold-rakenne vastaa EN-lähdettä (12 H2 + 5 FAQ-bold-kohtaa); FAQ-kysymykset muotoiltu samaan bold-rakenteeseen kuin EN. Sisältö, taulukkoesimerkit, `k2tog`/`ssk`-symmetria, avigsidan-varoitus, knapphål-rajaukset ja Ravelry-ristitarkistus vastaavat EN-lähdettä.
+- `basta-stickappar-vad-du-ska-titta-efter.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (8 H2 + 4 H3 + 14 bold-kohtaa); KnitTools-osio pehmennetty EN-linjan mukaiseksi `byggs`/`målet är` -muotoon ja poistettu SV-only lupaukset planerat engångsköp, ei mainoksia, ei abonnemangia sekä `PDF-mönster`-täsmennys. Yleiset pricing-osuuden abonnemang/reklam-kohdat säilytetty EN-lähteen mukaisina yleisinä arviointikriteereinä.
+- `basta-garnet-for-nyborjare-praktisk-guide.md`: H2/bold-rakenne vastaa EN-lähdettä (8 H2 + 15 bold-kohtaa); lisätty EN:n valmis stickprov yhdessä illassa -motivaatiorajaus ja muutettu liian vahva `Nästan alla nybörjarmönster` muotoon `Många nybörjarmönster ... eller annat mellantjockt garn`. CYC 0-7 / Size 8 -rajaus, 180 m / 100 g -metrimukautus, färgbad ja härva/nystan-rajaus säilyvät EN:n nykyisellä tasolla.
+- `rundsticka-raka-stickor-strumpstickor.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 H2 + 4 H3 + 6 bold-kohtaa); Magic loop -kohtaan korjattu stegar-vertailu EN:n mukaisesti kahteen siirtymään vs strumpstickor kolme tai neljä siirtymää, ei neljä tai viisi.
+- `digital-eller-mekanisk-varvraknare.md`: H2/bold-rakenne vastaa EN-lähdettä (6 H2 + 8 bold-kohtaa); lisätty puuttuva screen-free/telefoner opraktiska -rajaus ja pehmennetty KnitTools-offline-lause EN:n `planned around local project data` -tasolle ilman vahvempaa valmisominaisuuslupausta.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-riskigrep erätiedostoihin: ei AI/OCR/scanner/skanner/kamera/voice/röst/parser/project summary/projektsammanfattning/subscription/prenumeration/Row Counter/Yarn Label Scanner/KnitTools app/lankakortti/automatiskt/engångsbetalning/utan reklam/utan abonnemang/PDF-mönster -osumia. Jäljelle jäi vain `Gratis med reklam` / `annonser` yleisenä appien hinnoittelumallin kohtana `basta-stickappar`-artikkelissa; se vastaa EN-lähdettä eikä ole KnitTools-tuotelupaus.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle SV-erän artikkelille OK; `git diff --check` erätiedostoille OK; product-claim-riskigrep OK yllä kuvatulla kontekstilla; rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 SV-artikkelille.
+- seuraava vaihe: SV artikkelit erä 2/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/sv/viktiga-stickverktyg-utover-stickor-och-garn.md` (`translationKey: "essential-knitting-tools"`)
+  - `src/content/articles/sv/fixa-tappade-maskor-utan-att-repa-upp.md` (`translationKey: "fix-dropped-stitches"`)
+  - `src/content/articles/sv/gratis-stickkalkylatorer.md` (`translationKey: "free-knitting-calculators"`)
+  - `src/content/articles/sv/nar-stickfastheten-inte-stammer.md` (`translationKey: "gauge-doesnt-match"`)
+  - `src/content/articles/sv/sticka-provlapp-steg-for-steg.md` (`translationKey: "gauge-swatch-step-by-step"`)
+- seuraava tiedosto: `src/content/articles/sv/viktiga-stickverktyg-utover-stickor-och-garn.md`
+
+Ruotsin artikkelit erä 2/8:
+
+- käsitelty 10/38 ruotsinkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/sv/viktiga-stickverktyg-utover-stickor-och-garn.md`
+  - `src/content/articles/sv/fixa-tappade-maskor-utan-att-repa-upp.md`
+  - `src/content/articles/sv/gratis-stickkalkylatorer.md`
+  - `src/content/articles/sv/nar-stickfastheten-inte-stammer.md`
+  - `src/content/articles/sv/sticka-provlapp-steg-for-steg.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/essential-knitting-tools.md`
+  - `src/content/articles/fix-dropped-stitches.md`
+  - `src/content/articles/free-knitting-calculators.md`
+  - `src/content/articles/gauge-doesnt-match.md`
+  - `src/content/articles/gauge-swatch-step-by-step.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin yarn weight- ja hooks/needles-standardit. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `SWEDISH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `viktiga-stickverktyg-utover-stickor-och-garn.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (5 H2 + 13 H3 + 4 bold-kohtaa); applaskuri-osio pehmennetty EN-linjan mukaiseksi `kan göra mer` / projektkopplad varvräkning -muotoon ja poistettu vahvempi haptinen valmisominaisuuslupaus.
+- `fixa-tappade-maskor-utan-att-repa-upp.md`: H2/bold-rakenne vastaa EN-lähdettä (12 H2 + 6 bold-kohtaa); virkkauskoukkumenetelmän absoluuttinen lupaus pehmennetty muotoon, jossa menetelmä toimii yleensä siististi eikä "joka kerta".
+- `gratis-stickkalkylatorer.md`: H2/bold-rakenne vastaa EN-lähdettä (9 H2 + 4 bold-kohtaa); reference tools -osio tasattu EN:n needle size / yarn weight / abbreviations -listaan, SV-only `ei tiliä / ei mainoksia / ei tilausta` -lupaukset poistettu ja yarn-esimerkki muutettu metriyksiköihin. Increase/decrease-osio muotoiltu matematiikaksi eikä erilliseksi vahvistamattomaksi kalkylatoriksi.
+- `nar-stickfastheten-inte-stammer.md`: H2/bold-rakenne vastaa EN-lähdettä (13 H2 + 7 bold-kohtaa); faktat ja rajaukset vastaavat EN-lähdettä eikä tiedostoon tarvittu sisältömuutosta tässä erässä.
+- `sticka-provlapp-steg-for-steg.md`: H2/bold-rakenne vastaa EN-lähdettä (10 H2 + 3 bold-kohtaa); Quick answers -osion SV-only bold-kysymykset muutettu EN-rakenteen mukaisiksi tavallisiksi kappaleiksi.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-riskigrep erätiedostoihin: ei AI/OCR/scanner/skanner/kamera/voice/röst/parser/project summary/projektsammanfattning/subscription/prenumeration/ads/annonser/Row Counter/Yarn Label Scanner/KnitTools app/lankakortti/automatiskt/engångsbetalning/utan reklam/utan abonnemang/PDF-mönster/banderollskanner/haptisk-osumia.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle SV-erän artikkelille OK; `git diff --check` erätiedostoille OK; product-claim-riskigrep OK; rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 SV-artikkelille.
+- seuraava vaihe: SV artikkelit erä 3/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/sv/hur-manga-maskor-ska-laggas-upp.md` (`translationKey: "how-many-stitches-to-cast-on"`)
+  - `src/content/articles/sv/hur-mycket-garn-behover-jag.md` (`translationKey: "how-much-yarn-do-i-need"`)
+  - `src/content/articles/sv/blocka-stickning-vat-anga-spray.md` (`translationKey: "how-to-block-knitting"`)
+  - `src/content/articles/sv/sticka-mossa-metoder-for-alla-nivaer.md` (`translationKey: "how-to-knit-hat"`)
+  - `src/content/articles/sv/sticka-sockor-sockmonstrets-delar.md` (`translationKey: "how-to-knit-socks"`)
+- seuraava tiedosto: `src/content/articles/sv/hur-manga-maskor-ska-laggas-upp.md`
+
+Ruotsin artikkelit erä 3/8:
+
+- käsitelty 15/38 ruotsinkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/sv/hur-manga-maskor-ska-laggas-upp.md`
+  - `src/content/articles/sv/hur-mycket-garn-behover-jag.md`
+  - `src/content/articles/sv/blocka-stickning-vat-anga-spray.md`
+  - `src/content/articles/sv/sticka-mossa-metoder-for-alla-nivaer.md`
+  - `src/content/articles/sv/sticka-sockor-sockmonstrets-delar.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/how-many-stitches-to-cast-on.md`
+  - `src/content/articles/how-much-yarn-do-i-need.md`
+  - `src/content/articles/how-to-block-knitting.md`
+  - `src/content/articles/how-to-knit-hat.md`
+  - `src/content/articles/how-to-knit-socks.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio ja Prettier CLI -dokumentaatio. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `SWEDISH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `hur-manga-maskor-ska-laggas-upp.md`: H2/bold-rakenne vastaa EN-lähdettä (13 H2 + 16 bold-kohtaa); faktat, metriset esimerkit, raporttimuodot, reunamaskat, rundstickning-rajaus, sockantal-starttipisteet, uppläggningsmetodit, sweater-esimerkit ja FAQ säilyvät nykyisen EN-lähteen tasolla. Ei sisältömuutosta tarvittu tässä erässä.
+- `hur-mycket-garn-behover-jag.md`: H2/bold-rakenne vastaa EN-lähdettä (8 H2 + 8 bold-kohtaa); pehmennetty alkuperäinen ehkäisyväite, tasattu garnåtgångskalkylator-kuvaukset EN:n `project type, size, yarn weight` -tasolle, poistettu SV-only `rapport`-väite laskurista, poistettu ylimääräinen 20-30 prosentin flätvaraus ja pehmennetty dye lot -FAQ:n "nästan osynlig" -lupaus.
+- `blocka-stickning-vat-anga-spray.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 H2 + 2 H3 + 6 bold-kohtaa); blockningsmetodit, färgblödning-varoitukset, akryylin lämpörajaus, lace/sweater-palat, fiberkohtaiset rajaukset, torktid, efter blockning ja FAQ vastaavat EN-lähdettä. Ei sisältömuutosta tarvittu tässä erässä.
+- `sticka-mossa-metoder-for-alla-nivaer.md`: H2/bold-rakenne vastaa EN-lähdettä (9 H2 + 9 bold-kohtaa); poistettu SV-only resårvinkkikappale ja muutettu Common questions -osion FAQ-kysymykset tavallisiksi kappaleiksi EN-rakenteen mukaisesti.
+- `sticka-sockor-sockmonstrets-delar.md`: H2/bold-rakenne vastaa EN-lähdettä (9 H2 + 20 bold-kohtaa); korjattu uppifrån-och-ner-sockan haittakuvaus EN:n mukaiseen yarn-leftover/try-on-rajaan, tasattu magic loop -kohta stegar-varoitukseen ja poistettu SV-only CYC-fotmått-kappale.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-/termiriskigrep erätiedostoihin: ei AI/OCR/scanner/skanner/kamera/voice/röst/parser/project summary/projektsammanfattning/subscription/prenumeration/ads/annonser/Row Counter/Yarn Label Scanner/KnitTools app/lankakortti/automatiskt/engångsbetalning/utan reklam/utan abonnemang/PDF-mönster/banderollskanner/haptisk/garnvikt/masktäthet/yardage/yards/inch/skein-osumia.
+- suomenkielisten jäämien täsmähaku erätiedostoihin: ei osumia.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle SV-erän artikkelille OK; `git diff --check` erätiedostoille OK; etenemislogin trailing whitespace -haku OK, koska loki on vielä untracked; product-claim-/termiriskigrep OK; suomenkielisten jäämien haku OK; rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 SV-artikkelille.
+- seuraava vaihe: SV artikkelit erä 4/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/sv/sa-mater-du-stickfasthet.md` (`translationKey: "how-to-measure-knitting-gauge"`)
+  - `src/content/articles/sv/lasa-stickmonster-nyborjarguide.md` (`translationKey: "how-to-read-knitting-pattern"`)
+  - `src/content/articles/sv/lasa-garnbanderoll-symboler.md` (`translationKey: "how-to-read-yarn-label"`)
+  - `src/content/articles/sv/byta-garn-i-stickmonster.md` (`translationKey: "how-to-substitute-yarn"`)
+  - `src/content/articles/sv/identifiera-okant-garn-utan-banderoll.md` (`translationKey: "identify-mystery-yarn"`)
+- seuraava tiedosto: `src/content/articles/sv/sa-mater-du-stickfasthet.md`
+
+Ruotsin artikkelit erä 4/8:
+
+- käsitelty 20/38 ruotsinkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/sv/sa-mater-du-stickfasthet.md`
+  - `src/content/articles/sv/lasa-stickmonster-nyborjarguide.md`
+  - `src/content/articles/sv/lasa-garnbanderoll-symboler.md`
+  - `src/content/articles/sv/byta-garn-i-stickmonster.md`
+  - `src/content/articles/sv/identifiera-okant-garn-utan-banderoll.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/how-to-measure-knitting-gauge.md`
+  - `src/content/articles/how-to-read-knitting-pattern.md`
+  - `src/content/articles/how-to-read-yarn-label.md`
+  - `src/content/articles/how-to-substitute-yarn.md`
+  - `src/content/articles/identify-mystery-yarn.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin WPI- ja yarn label -ohjeet. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `SWEDISH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `sa-mater-du-stickfasthet.md`: H2/bold-rakenne vastaa EN-lähdettä (9 H2 + 7 bold-kohtaa); `Yarn Estimator` -kuvaus tasattu EN:n `project type, size, yarn weight` -suunnittelutarkistukseksi eikä se enää lupaa mittaavansa neuletiheyttä tai projektimittoja.
+- `lasa-stickmonster-nyborjarguide.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (14 H2 + 2 H3 + 10 bold-kohtaa); lisätty puuttunut pyörönä neulottavien kaavioiden lukusuunta EN:n mukaisesti, eli kaaviot luetaan yleensä oikealta vasemmalle jokaisella kerroksella, koska oikea puoli pysyy edessä.
+- `lasa-garnbanderoll-symboler.md`: H2/bold-rakenne vastaa EN-lähdettä (9 H2 + 11 bold-riviä); käsinvärjättyjen/no dye lot -lankojen vaihtelua koskeva väite pehmennetty EN:n `often`-tasolle, varmistusvyyhdin ostaminen kuvattu hyödylliseksi turvatoimeksi eikä standardiksi, ja hoitosymboliosion `Strykning`-bold-rakenne tasattu EN:ään. `Size 8` -maininta jätetty paikalleen, koska se on nykyisessä EN-lähteessä.
+- `byta-garn-i-stickmonster.md`: H2/bold-rakenne vastaa EN-lähdettä (7 H2 + 14 bold-riviä); `Yarn Estimator` -väite muutettu järkevyystarkistukseksi projektityypin, koon ja garntjocklek-tason perusteella, ei korvaajaksi ohjeen garnåtgångille, keräkoon laskennalle tai mallitilkulle. Low-risk-kohta pehmennetty EN:n mukaisesti: koon vaihtaminen ei yleensä tee projektista käyttökelvotonta, mutta täsmälliset peiton mitat ja langan määrä lasketaan tarvittaessa uudelleen.
+- `identifiera-okant-garn-utan-banderoll.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (6 H2 + 3 H3 + 3 bold-kohtaa); WPI-osio tasattu EN:n Craft Yarn Council 0-7 -rangeihin ilman SV-only `Size 8` -lisäystä, ja tuotetyökaluväite muutettu projektimuistiinpano/test notes -tasolle ilman skanneri- tai manuell yarn card -lupausta.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-/termiriskigrep erätiedostoihin: ei kohdistettuja AI/OCR/scanner/skanner/garment size/always/guarantee/magic/automaattisesti/manual yarn card/manuell garnkort/garnbanderollskanner -osumia; yleisessä haussa `Size 8` esiintyy vain `lasa-garnbanderoll-symboler.md`-tiedostossa ja vastaa nykyistä EN-lähdettä.
+- suomenkielisten jäämien täsmähaku erätiedostoihin: ei osumia.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle SV-erän artikkelille OK; `git diff --check` erätiedostoille OK; product-claim-/termiriskigrep OK; suomenkielisten jäämien haku OK; rakennepariteettiskripti OK; etenemislogin trailing whitespace -haku OK, koska loki on vielä untracked; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 SV-artikkelille.
+- seuraava vaihe: SV artikkelit erä 5/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/sv/oka-eller-minska-jamnt-over-ett-varv.md` (`translationKey: "increase-decrease-evenly"`)
+  - `src/content/articles/sv/skarva-nytt-nystan-mitt-i-varvet.md` (`translationKey: "join-new-ball-of-yarn"`)
+  - `src/content/articles/sv/sticka-forsta-halsduken.md` (`translationKey: "knit-first-scarf"`)
+  - `src/content/articles/sv/stickmaterial-metall-tra-bambu.md` (`translationKey: "knitting-needle-materials"`)
+  - `src/content/articles/sv/rapporter-i-stickmonster-asterisker-och-hakparenteser.md` (`translationKey: "knitting-pattern-repeats"`)
+- seuraava tiedosto: `src/content/articles/sv/oka-eller-minska-jamnt-over-ett-varv.md`
+
+Ruotsin artikkelit erä 5/8:
+
+- käsitelty 25/38 ruotsinkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/sv/oka-eller-minska-jamnt-over-ett-varv.md`
+  - `src/content/articles/sv/skarva-nytt-nystan-mitt-i-varvet.md`
+  - `src/content/articles/sv/sticka-forsta-halsduken.md`
+  - `src/content/articles/sv/stickmaterial-metall-tra-bambu.md`
+  - `src/content/articles/sv/rapporter-i-stickmonster-asterisker-och-hakparenteser.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/increase-decrease-evenly.md`
+  - `src/content/articles/join-new-ball-of-yarn.md`
+  - `src/content/articles/knit-first-scarf.md`
+  - `src/content/articles/knitting-needle-materials.md`
+  - `src/content/articles/knitting-pattern-repeats.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin yarn weight / knitting standards -ohjeet. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `SWEDISH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `oka-eller-minska-jamnt-over-ett-varv.md`: H2/bold-rakenne vastaa EN-lähdettä (15 H2 + 14 bold-kohtaa); palautettu rest-esimerkin lopputulos 83 maskaan, tasattu jämn placering -perustelu EN:n wedge/crooked/crown-rajoihin, lisätty M1L/M1R-lutningar ja skp-vaihtoehto, avig formningspunkt -kohta täydennetty ja työkaluosio tasattu 127 maskan / 11 lisäyksen / 6-maskors spetsrapport -esimerkkiin ilman ylimääräistä SV-only alkuesimerkkiä.
+- `skarva-nytt-nystan-mitt-i-varvet.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (12 H2 + 1 H3 + 5 bold-kohtaa); pehmennetty `osynlig`/`permanent`-väitteet EN:n `tidy`/`nearly invisible` -tasolle, Russian join -rajaus muutettu "svårare" eikä "fungerar inte" -tasolle, poistettu ylimääräinen FAQ-kysymys ja palautettu yarn breaks mid-stitch -osion EN-rakenne.
+- `sticka-forsta-halsduken.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (10 H2 + 5 H3 + 16 bold-kohtaa); metriset mitat, worsted/5,0 mm -aloitus, halsdukslängd, nytt nystan, avmaskning, avslutning ja FAQ vastaavat nykyistä EN-lähdettä. Ei sisältömuutosta tarvittu tässä erässä.
+- `stickmaterial-metall-tra-bambu.md`: H2/bold-rakenne vastaa EN-lähdettä (10 H2 + 6 bold-kohtaa); metallstickor-väite pehmennetty "håller länge" -tasolle eikä enää lupaa lähes tuhoutumattomuutta, ja kolfiber-kohta täydennetty EN:n hand pain / cold metal -rajauksella.
+- `rapporter-i-stickmonster-asterisker-och-hakparenteser.md`: H2/bold-rakenne vastaa EN-lähdettä (11 H2 + 12 bold-kohtaa); `5 gånger till` -selitys tasattu EN:n "use stitch count to confirm" -linjaan ja flervarvsrapporter-osioon palautettu nykyisen EN-lähteen Row Counter -väite ilman ylimääräistä SV-only absolute/report-row-muistiinpanoväitettä.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-/termiriskigrep erätiedostoihin: ei AI/OCR/scanner/skanner/kamera/voice/röst/parser/project summary/projektsammanfattning/subscription/prenumeration/ads/annonser/Yarn Label Scanner/lankakortti/automaattisesti/engångsbetalning/utan reklam/utan abonnemang/PDF-mönster/banderollskanner/haptisk/garnvikt/masktäthet/yardage/yards/inch/Size 8/row-by-row-osumia. Sallitut englanninkieliset neuletermit ja esimerkit (`Russian join`, `spit splice`, `magic knot`, `set-up row`, `Beginning with Row 1`, `DK`, `worsted`, `fingering`, `lace`) jätetty, koska ne vastaavat EN-lähdettä ja ruotsin termilinjaa.
+- suomenkielisten jäämien täsmähaku erätiedostoihin: ei osumia.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle SV-erän artikkelille OK; `git diff --check` erätiedostoille OK; product-claim-/termiriskigrep OK; suomenkielisten jäämien haku OK; rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 SV-artikkelille.
+- seuraava vaihe: SV artikkelit erä 6/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/sv/storlekar-i-stickmonster-rorelsevidd-och-matt.md` (`translationKey: "knitting-pattern-sizes-and-fit"`)
+  - `src/content/articles/sv/vilken-stickstorlek-for-nyborjare.md` (`translationKey: "needle-size-for-beginners"`)
+  - `src/content/articles/sv/organisera-flera-stickprojekt.md` (`translationKey: "organize-knitting-projects"`)
+  - `src/content/articles/sv/plocka-upp-maskor-langs-stickad-kant.md` (`translationKey: "pick-up-stitches"`)
+  - `src/content/articles/sv/sy-ihop-stickade-delar-madrassom.md` (`translationKey: "seam-knitted-pieces"`)
+- seuraava tiedosto: `src/content/articles/sv/storlekar-i-stickmonster-rorelsevidd-och-matt.md`
+
+Ruotsin artikkelit erä 6/8:
+
+- käsitelty 30/38 ruotsinkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/sv/storlekar-i-stickmonster-rorelsevidd-och-matt.md`
+  - `src/content/articles/sv/vilken-stickstorlek-for-nyborjare.md`
+  - `src/content/articles/sv/organisera-flera-stickprojekt.md`
+  - `src/content/articles/sv/plocka-upp-maskor-langs-stickad-kant.md`
+  - `src/content/articles/sv/sy-ihop-stickade-delar-madrassom.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/knitting-pattern-sizes-and-fit.md`
+  - `src/content/articles/needle-size-for-beginners.md`
+  - `src/content/articles/organize-knitting-projects.md`
+  - `src/content/articles/pick-up-stitches.md`
+  - `src/content/articles/seam-knitted-pieces.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Prettier CLI -dokumentaatio ja Craft Yarn Councilin body sizing -standardit. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `SWEDISH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `storlekar-i-stickmonster-rorelsevidd-och-matt.md`: H2/bold-rakenne vastaa EN-lähdettä (13 H2 + 11 bold-kohtaa); metriset rörelsevidd-esimerkit, mittauskohdat, skiss/armhålsdjup-rajaus, blandade storlekar, CYC-passformatasot, konstruktiot, förkortade varv ja FAQ vastaavat nykyistä EN-lähdettä. Ei sisältömuutosta tarvittu tässä erässä.
+- `vilken-stickstorlek-for-nyborjare.md`: H2/bold-rakenne vastaa EN-lähdettä (9 H2 + 6 bold-kohtaa); lisätty puuttuneet EN-kohdat kokojärjestelmistä, mitä ei kannata ostaa vielä, handlag/tension-osio, US 6 / US 10 -FAQ ja tulevien rundstickssettien brändiesimerkit. Metallstickor-FAQ täydennetty EN:n varauksella, että osa aloittelijoista pitää metallin liukkaasta tuntumasta.
+- `organisera-flera-stickprojekt.md`: H2/bold-rakenne vastaa EN-lähdettä (8 H2 + 11 bold-kohtaa); lisätty puuttuneet project bag -banderollivinkki, stickstorleksbyten / nytt garn / diagramavvikelser -muistiinpanorajaukset, arbetsgarn-kohta, project bag -materiaalirajaus, matcha projektet med stunden -kohta ja garnin punnitusvinkki. Poistettu vahvistamaton Yarn Label Scanner -lupaus ja pehmennetty KnitTools-väite EN:n `is being built` -tasolle.
+- `plocka-upp-maskor-langs-stickad-kant.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (12 H2 + 2 H3 + 20 bold-kohtaa); sivu tasattu EN:n laajempaan rakenteeseen lyfta kantmaskor / rätstickad kant / olika förhållanden / fördelning / virknål / restgarn-test / steekar / FAQ -osioilla. Restgarn-kohta korjattu testiksi, jossa restgarn poistetaan ennen projektigarnilla toistamista, eikä valmiiseen reunaan jää kontrastivarvia.
+- `sy-ihop-stickade-delar-madrassom.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 H2 + 2 H3 + 11 bold-kohtaa); lisätty puuttuvat whip stitch, backstitch, striped/colorwork seaming, common mistakes ja kaksi FAQ-kohtaa. Kitchener-kohta tasattu EN:n cowls/altered sweater sections -rajaukseen ja structured fabrics -väite rajattu kantakolumnin trådar-logiikkaan.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-/termiriskigrep erätiedostoihin: ei AI/OCR/scanner/skanner/kamera/voice/röst/parser/project summary/projektsammanfattning/subscription/prenumeration/ads/annonser/Row Counter/Yarn Label Scanner/lankakortti/automatiskt/engångsbetalning/utan reklam/utan abonnemang/PDF-mönster/banderollskanner/haptisk/garnvikt/masktäthet/yardage/yards/inch/Size 8 -osumia. Riskihaku osui vain kahteen `KnitTools-appen`-kohtaan `organisera-flera-stickprojekt.md`-tiedostossa; molemmat ovat EN-lähteen mukaisia `byggs`/`målet är` -muotoiluja eivätkä lupaa vahvistamatonta skanneria tai automaatiota.
+- suomenkielisten jäämien täsmähaku erätiedostoihin: ei osumia.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle SV-erän artikkelille OK; `git diff --check` erätiedostoille OK; product-claim-/termiriskigrep OK yllä kuvatulla kontekstilla; suomenkielisten jäämien haku OK; rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 SV-artikkelille.
+- seuraava vaihe: SV artikkelit erä 7/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/sv/folja-sticktid-och-hastighet.md` (`translationKey: "track-knitting-time"`)
+  - `src/content/articles/sv/halla-koll-pa-varv-nar-du-stickar.md` (`translationKey: "track-rows-knitting"`)
+  - `src/content/articles/sv/vad-ar-stickfasthet.md` (`translationKey: "what-is-gauge-in-knitting"`)
+  - `src/content/articles/sv/varfor-rullar-stickningen-sig.md` (`translationKey: "why-knitting-curls"`)
+  - `src/content/articles/sv/garnfibrer-jamforda-ull-bomull-akryl.md` (`translationKey: "yarn-fibers-compared"`)
+- seuraava tiedosto: `src/content/articles/sv/folja-sticktid-och-hastighet.md`
+
+Ruotsin artikkelit erä 7/8:
+
+- käsitelty 35/38 ruotsinkielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/sv/folja-sticktid-och-hastighet.md`
+  - `src/content/articles/sv/halla-koll-pa-varv-nar-du-stickar.md`
+  - `src/content/articles/sv/vad-ar-stickfasthet.md`
+  - `src/content/articles/sv/varfor-rullar-stickningen-sig.md`
+  - `src/content/articles/sv/garnfibrer-jamforda-ull-bomull-akryl.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/track-knitting-time.md`
+  - `src/content/articles/track-rows-knitting.md`
+  - `src/content/articles/what-is-gauge-in-knitting.md`
+  - `src/content/articles/why-knitting-curls.md`
+  - `src/content/articles/yarn-fibers-compared.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Prettier CLI -dokumentaatio, Craft Yarn Councilin standardi-indeksi ja stockinette-rullautumisen ajantasainen lähde. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `SWEDISH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `folja-sticktid-och-hastighet.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 otsikkoa + 6 bold-kohtaa); session tracking -väitteet, aikamittausten rajaukset, projektiorganisointilinkki ja FAQ vastaavat nykyistä EN-lähdettä. Ei sisältömuutosta tarvittu tässä erässä.
+- `halla-koll-pa-varv-nar-du-stickar.md`: H2/bold-rakenne vastaa EN-lähdettä (11 H2 + 9 bold-kohtaa); poistettu ylimääräinen KnitTools-väite `stöd för rapporter`, jotta app-kuvaus pysyy EN:n `tap counting, undo, multiple counters, and session tracking for multi-section projects` -tasolla. Yleinen `rapportstöd`-maininta jäi vain EN-lähteen mukaiseksi yleiseksi varvräknaritoiminnoksi.
+- `vad-ar-stickfasthet.md`: H2/bold-rakenne vastaa EN-lähdettä (13 H2 + 7 bold-kohtaa); stickfasthet, stickstil, blockning, materialit, rörelsevidd, 10 cm / 4 tum -rajaus ja FAQ vastaavat nykyistä EN-lähdettä. Ei sisältömuutosta tarvittu tässä erässä.
+- `varfor-rullar-stickningen-sig.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (13 otsikkoa + 6 bold-kohtaa); intro korjattu EN:n loop-/fabric-face-fysiikkaan, `Vad som inte löser rullning` ja superwash-osiot järjestetty EN:n mukaisesti, superwash-väitteet pehmennetty, akryylihöyrytys palautettu banderolliin/provlappuun/no-contact steam -varovaisuuteen ja FAQ:n reunaleveys/provlappu-vastaus tasattu EN-lähteeseen.
+- `garnfibrer-jamforda-ull-bomull-akryl.md`: H2/bold-rakenne vastaa EN-lähdettä (7 H2 + 5 bold-kohtaa); otsikkoon lisätty blandningar, poistettu introtoisto, pehmennetty EN:tä vahvemmat villa-, puuvilla-, akryyli-, alpacka-, siden-, linne-, nylon- ja kashmirblandning-muotoilut sekä palautettu maskintvätt-väite banderollin sallimaan tasoon.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-/termiriskigrep erätiedostoihin: ei AI/OCR/scanner/skanner/kamera/voice/röst/parser/project summary/projektsammanfattning/subscription/prenumeration/Yarn Label Scanner/lankakortti/automaattisesti/engångsbetalning/utan reklam/utan abonnemang/PDF-mönster/banderollskanner/haptisk/garnvikt/masktäthet/yardage/yards/inch/Size 8/röstkommandon/röststyr-osumia. Riskihaku osui vain `ads`-alimerkkijonoon sanassa `marknadsföringsskäl`; se ei ole mainos- tai tuoteväite.
+- suomenkielisten jäämien täsmähaku erätiedostoihin: ei osumia.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle SV-erän artikkelille OK; `git diff --check` erätiedostoille OK; product-claim-/termiriskigrep OK yllä kuvatulla false positivella; suomenkielisten jäämien haku OK; rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 SV-artikkelille.
+- seuraava vaihe: SV artikkelit erä 8/8, 3 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/sv/hur-mycket-garn-till-filt.md` (`translationKey: "yarn-for-blanket"`)
+  - `src/content/articles/sv/hur-mycket-garn-till-troja.md` (`translationKey: "yarn-for-sweater"`)
+  - `src/content/articles/sv/byta-garntjocklek-i-stickmonster.md` (`translationKey: "yarn-weight-substitution"`)
+- seuraava tiedosto: `src/content/articles/sv/hur-mycket-garn-till-filt.md`
+
+Ruotsin artikkelit erä 8/8:
+
+- käsitelty 38/38 ruotsinkielistä artikkelia, tämän erän 3 tiedostoa:
+  - `src/content/articles/sv/hur-mycket-garn-till-filt.md`
+  - `src/content/articles/sv/hur-mycket-garn-till-troja.md`
+  - `src/content/articles/sv/byta-garntjocklek-i-stickmonster.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/yarn-for-blanket.md`
+  - `src/content/articles/yarn-for-sweater.md`
+  - `src/content/articles/yarn-weight-substitution.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Prettier CLI -dokumentaatio ja Craft Yarn Councilin Standard Yarn Weight System. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `SWEDISH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `hur-mycket-garn-till-filt.md`: H2/bold-rakenne vastaa EN-lähdettä (8 H2 + 17 bold-kohtaa); korjattu filt-kokojen metrihaarukat vastaamaan nykyisiä EN-yardagevälejä metrisinä arvioina. Muut EN/FI-jälkeiset rajaukset, kuten Lion Brand -metriesimerkki, färgbad/handfärgat-garn, stickor/fibrer-osio, restgarn, kustannus, aika ja neulomissuunta olivat jo EN-pariteetissa.
+- `hur-mycket-garn-till-troja.md`: H2/bold-rakenne vastaa EN-lähdettä (8 H2 + 19 bold-kohtaa); nykyiset metriset garnåtgång-spannit, negativ rörelsevidd, uppifrån-och-ner-hiha-ansa, konstruktion-osio, räkna baklänges ja kuitu-FAQ vastaavat EN-lähdettä. Ei sisältömuutosta tarvittu tässä erässä.
+- `byta-garntjocklek-i-stickmonster.md`: H2/bold-rakenne vastaa EN-lähdettä (10 H2 + 15 bold-kohtaa); lisätty puuttunut `Vanliga funderingar` -väliosio EN:n `Common questions` -osion vastineeksi, palautettu erillinen `FAQ`-otsikko, tarkennettu Worsted->DK-esimerkin varvfasthet-, ärmmudd- ja garnåtgång-laskut sekä lisätty vanhojen mönsterien `24 maskor per 10 cm` -rajaus.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 3 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-/termiriskigrep erätiedostoihin: ei AI/OCR/scanner/skanner/kamera/voice/röst/parser/project summary/projektsammanfattning/subscription/prenumeration/Yarn Label Scanner/lankakortti/automaattisesti/engångsbetalning/utan reklam/utan abonnemang/PDF-mönster/banderollskanner/haptisk/garnvikt/masktäthet/yardage/yards/inch/Size 8/röstkommandon/röststyr-osumia. Riskihaku osui vain yhteen `KnitTools`-kohtaan `byta-garntjocklek-i-stickmonster.md`-tiedostossa; se on EN-lähteen mukainen linkki olemassa olevaan uppläggningskalkylatoriin.
+- suomenkielisten jäämien täsmähaku erätiedostoihin: ei osumia.
+- knit-article-validatorin englanninkielisten banned-termien täsmähaku erätiedostoihin: vain ruotsin normaali pluralimuoto `garner`, joka jätettiin false positiveksi eikä ole englannin `garner`-verbi.
+- merkkimääräpariteetti erän jälkeen: `hur-mycket-garn-till-filt...` 8 904 merkkiä / 1 416 sanaa / 8 H2-osiota (EN 9 257 / 1 518 / 8), `hur-mycket-garn-till-troja...` 8 260 merkkiä / 1 297 sanaa / 8 H2-osiota (EN 8 733 / 1 430 / 8), `byta-garntjocklek...` 12 171 merkkiä / 1 874 sanaa / 10 H2-osiota (EN 12 676 / 2 022 / 10)
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` kolmelle SV-erän artikkelille OK; `git diff --check` OK; product-claim-/termiriskigrep OK yllä kuvatulla kontekstilla; suomenkielisten jäämien haku OK; rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 3 SV-artikkelille.
+- Ruotsin artikkelipassi on nyt valmis 38/38.
+- seuraava vaihe: NO tools erä 1/2, 3 sivua nykyisiin englanninkielisiin tools-sivuihin ja jaettuihin komponentteihin verrattuna:
+  - `src/pages/no/verktoy/index.astro`
+  - `src/pages/no/verktoy/oppleggskalkulator.astro`
+  - `src/pages/no/verktoy/garnberegner.astro`
+- seuraava tiedosto: `src/pages/no/verktoy/index.astro`
+
+NO tools erä 1/2:
+
+- käsitelty 3/7 norjankielistä tools-sivua:
+  - `src/pages/no/verktoy/index.astro`
+  - `src/pages/no/verktoy/oppleggskalkulator.astro`
+  - `src/pages/no/verktoy/garnberegner.astro`
+- vertailtu nykyisiin englanninkielisiin tools-sivuihin ja jaettuihin komponentteihin:
+  - `src/pages/tools/index.astro`
+  - `src/pages/tools/cast-on-calculator.astro`
+  - `src/pages/tools/yarn-estimator.astro`
+  - `src/components/LocalizedToolPage.astro`
+  - `src/components/CastOnCalculator.astro`
+  - `src/components/YarnEstimator.astro`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio ja Prettier CLI -dokumentaatio. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3 ja `prettier-plugin-astro` 0.14.1.
+- `index.astro`: rakenne, schema, canonical, `alternates`, 6 tool-linkkiä ja julkiset `/no/verktoy/...`-reitit säilyivät ennallaan. Garntykkelser-kortin kuvaus tasattiin nykyiseen EN-lähteeseen CYC-kategoriaksi ilman epämääräistä "alle 8" -väitettä.
+- `oppleggskalkulator.astro`: 5 FAQ:ta ja 3 H2-osiota säilyivät EN-rakenteessa. Partall-pyöristyksen selitys pehmennettiin EN:n "simple stitch patterns / ribbing / practical default" -tasolle, `håndlaget ditt` korjattiin luonnolliseen `håndspenningen din` -muotoon ja ensimmäisen rivin ilmaus muutettiin `maskerekken`-muotoon ilman `rad`-termiä.
+- `garnberegner.astro`: 5 FAQ:ta ja 3 H2-osiota säilyivät EN-rakenteessa. FAQ:t tasattiin nykyiseen EN-lähteeseen turvallisuusmarginaalin, fitted/textured/dye-lot-rajauksen sekä substitution gauge/fabric -rajauksen osalta. Näkyvä lukuformaatti korjattiin norjan tyyliin `1 200-1 500 meter`.
+- jaetut komponentit: `CastOnCalculator.astro` sai vain NO-kopioon luonnollisemmat steppereiden aria-labelit (`Reduser/Øk strikkefastheten`, `Reduser/Øk bredden`). `YarnEstimator.astro` sai NO-kopioon varovaisemman disclaimerin, `Genser` ilman turhaa `pullover`-lisää, `Stort sjal / stola` -muodon sekä puuttuvat lapsikoko- ja Short/Tall-labelit.
+- public route -polut, canonicalit, `alternates`, `lang="no"`, schema-nimet ja sivujen slug-rakenne jätetty ennalleen. `BaseLayout`in `no` -> `nb` html-/hreflang-mäppäys oli jo kunnossa eikä sitä muutettu.
+- product-claim-/termiriskigrep erätiedostoihin ja jaettujen komponenttien riskisanoihin: ei osumia termeille `rad`, `garnvekt`, `AI`, `OCR`, `scanner`, `skanner`, `kamera`, `voice`, `parser`, `project summary`, `automatisk`, `abonnement`, `annonser`, `ads`, `Yarn Label Scanner`, `hatt`, `nål`, `nåler`, `håndlaget`, `Senk` tai vanhalle `1200-1500`-muodolle. `yards`/`tommer` esiintyvät vain sallitussa yksikkö-/konversiokontekstissa.
+- suomenkielisten jäämien haku NO-sivuihin: ei osumia. Jaettujen komponenttien koko tiedoston haku osuu odotetusti FI-locale-blokkeihin, ei NO-kopioon.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` erän kolmelle NO-sivulle ja kahdelle jaetulle komponentille OK; `git diff --check` erätiedostoille OK; product-claim-/termiriskigrep OK; suomijäämähaku NO-sivuihin OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä).
+- build jätetty NO tools -kokonaisuuden loppuun suunnitellusti; aja `npm run build` NO tools erä 2/2:n jälkeen.
+- seuraava vaihe: NO tools erä 2/2, 4 sivua nykyisiin englanninkielisiin tools-sivuihin ja jaettuihin komponentteihin verrattuna:
+  - `src/pages/no/verktoy/garntykkelser.astro`
+  - `src/pages/no/verktoy/pinnestorrelser.astro`
+  - `src/pages/no/verktoy/storrelsestabeller-strikking.astro`
+  - `src/pages/no/verktoy/strikkeforkortelser.astro`
+- seuraava tiedosto: `src/pages/no/verktoy/garntykkelser.astro`
+
+NO tools erä 2/2:
+
+- käsitelty 7/7 norjankielistä tools-sivua, tämän erän 4 tiedostoa:
+  - `src/pages/no/verktoy/garntykkelser.astro`
+  - `src/pages/no/verktoy/pinnestorrelser.astro`
+  - `src/pages/no/verktoy/storrelsestabeller-strikking.astro`
+  - `src/pages/no/verktoy/strikkeforkortelser.astro`
+- vertailtu nykyisiin englanninkielisiin tools-sivuihin ja jaettuun WPI-komponenttiin:
+  - `src/pages/tools/yarn-weight-chart.astro`
+  - `src/pages/tools/needle-size-chart.astro`
+  - `src/pages/tools/knitting-size-charts.astro`
+  - `src/pages/tools/knitting-abbreviations.astro`
+  - `src/components/WpiIdentifier.astro`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin yarn weight, hooks/needles ja body sizing -standardisivut. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3 ja `prettier-plugin-astro` 0.14.1.
+- `garntykkelser.astro`: sisältörakenne vastaa EN-sivun nykyistä sisältöslotin rakennetta (5 H2 + 6 H3). CYC-teksti tasattu nykyiseen EN-lähteeseen: sivu käyttää julkaistuja 0-7-alueita, mutta mainitsee CYCin uuden Size 8 -symbolin rajatusti. Schema-kuvaus rajattu julkaistuihin CYC 0-7 -kategorioihin. `håndlaget ditt` korjattu muotoon `håndspenningen din`. `WpiIdentifier.astro`in NO-kopio tarkistettu, ei muutosta tarvittu.
+- `pinnestorrelser.astro`: taulukko päivitetty nykyisen EN-lähteen 38 rivin pariteettiin (aiemmin 26 riviä). Lisätty puuttuvat japanilaiset välikoot 2,4 / 2,7 / 3,3 / 3,6 / 3,9 / 4,2 / 4,8 / 5,1 / 5,4 / 5,7 / 6,3 / 6,6 mm sekä korjattu väärät JP-vastineet. Garntykkelse-sarakkeen overlap-merkinnät tasattu EN-lähteeseen, ja "Alle metriske størrelser har ikke..." korjattu luonnolliseen `Ikke alle metriske størrelser...` -muotoon.
+- `storrelsestabeller-strikking.astro`: mittasolut säilyivät EN-pariteetissa (267/267). FAQ:n CYC-väite pehmennetty EN:n `CYC-style body measurements` -tasolle. Vaatemittateksti korjattu EN-lähteen mukaiseksi: valmis plagg voi olla pienempi, yhtä suuri tai suurempi kuin kroppsmål, negatiivisen bevegelsesvidden ohje käyttää noin 5-10 cm CYC-rajausta, ja loose/oversized-rajaus on 10-15+ cm.
+- `strikkeforkortelser.astro`: lyhennelistassa säilyi EN-pariteetti (55/55). FAQ:t täydennetty EN-lähteen designer location -rajauksella sekä pattern notes / chart key -jatkotarkistuksella. Aiempi `KnitTools-appen` -> `KnitTools` -muoto säilyi, jotta sivu ei lupaa erillistä app-ominaisuutta.
+- public route -polut, canonicalit, `alternates`, `lang="no"`, schema-nimet ja sivujen slug-rakenne jätetty ennalleen. `articleTranslations`, artikkelien `translationKey`-arvot ja draft-tila eivät muuttuneet.
+- product-claim-/termiriskigrep erätiedostoihin ja `WpiIdentifier.astro`in riskisanoihin: ei osumia termeille `rad`, `garnvekt`, `AI`, `OCR`, `scanner`, `skanner`, `kamera`, `voice`, `parser`, `project summary`, `automatisk`, `abonnement`, `annonser`, `Yarn Label Scanner`, `hatt`, `håndlaget` tai vanhalle `1200-1500`-muodolle. Laajempi haku osui vain normaaliin norjankieliseen lauseeseen `Senk tempoet`, joka jätettiin false positiveksi.
+- suomenkielisten jäämien haku NO-sivuihin: ei osumia.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` neljälle NO-erän tools-sivulle OK; `git diff --check` erätiedostoille OK; product-claim-/termiriskigrep OK yllä kuvatulla false positivella; suomijäämähaku NO-sivuihin OK; mekaaninen datapariteetti OK (`pinnestorrelser` 38/38 riviä, `storrelsestabeller` 267/267 mittasolua, `strikkeforkortelser` 55/55 lyhennettä); `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa `/no/verktoy/`, `/no/verktoy/garntykkelser/`, `/no/verktoy/pinnestorrelser/`, `/no/verktoy/storrelsestabeller-strikking/` ja `/no/verktoy/strikkeforkortelser/`.
+- NO tools -passi on nyt valmis 7/7.
+- seuraava vaihe: NO artikkelit erä 1/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/no/samtidig-i-strikkeoppskrifter.md` (`translationKey: "at-the-same-time-knitting"`)
+  - `src/content/articles/no/beste-strikkeapper-hva-du-bor-se-etter.md` (`translationKey: "best-knitting-apps"`)
+  - `src/content/articles/no/beste-garn-for-nybegynnere.md` (`translationKey: "best-yarn-for-beginners"`)
+  - `src/content/articles/no/rundpinne-rette-pinner-strompepinner.md` (`translationKey: "circular-vs-straight-vs-dpn"`)
+  - `src/content/articles/no/digital-eller-mekanisk-omgangsteller.md` (`translationKey: "digital-vs-physical-row-counters"`)
+- seuraava tiedosto: `src/content/articles/no/samtidig-i-strikkeoppskrifter.md`
+
+NO artikkelit erä 1/8:
+
+- käsitelty 5/38 norjankielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/no/samtidig-i-strikkeoppskrifter.md`
+  - `src/content/articles/no/beste-strikkeapper-hva-du-bor-se-etter.md`
+  - `src/content/articles/no/beste-garn-for-nybegynnere.md`
+  - `src/content/articles/no/rundpinne-rette-pinner-strompepinner.md`
+  - `src/content/articles/no/digital-eller-mekanisk-omgangsteller.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/at-the-same-time-knitting.md`
+  - `src/content/articles/best-knitting-apps.md`
+  - `src/content/articles/best-yarn-for-beginners.md`
+  - `src/content/articles/circular-vs-straight-vs-dpn.md`
+  - `src/content/articles/digital-vs-physical-row-counters.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Prettier CLI -dokumentaatio, Craft Yarn Councilin yarn weight -järjestelmä sekä hooks/needles-standardit. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `NORWEGIAN_TRANSLATION_GUIDE.md`-termilinjaan.
+- `samtidig-i-strikkeoppskrifter.md`: H2/bold-rakenne vastaa EN-lähdettä (12 H2 + 5 FAQ-bold-kohtaa); FAQ-kysymykset muotoiltu EN:n bold-rakenteeseen ja `Row Counter` -jäänne lokalisoitu muotoon `KnitTools sin omgangsteller`.
+- `beste-strikkeapper-hva-du-bor-se-etter.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (8 H2 + 4 H3 + 14 bold-kohtaa); KnitTools-osio tasattu nykyiseen EN-linjaan poistamalla NO-only lupaukset suunnitellusta kertamaksusta, mainoksettomuudesta, tilauksettomuudesta ja `lagrede PDF-oppskrifter` -täsmennyksestä. Lisätty EN:n puuttuva nettleserverktøy/app-rajauksen viimeinen lause.
+- `beste-garn-for-nybegynnere.md`: H2/bold-rakenne vastaa EN-lähdettä (8 H2 + 15 bold-kohtaa); nykyinen teksti oli jo EN/FI/SV-linjassa, joten tähän tiedostoon ei tarvittu lisämuutosta tässä erässä.
+- `rundpinne-rette-pinner-strompepinner.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 H2 + 4 H3 + 6 bold-kohtaa); Magic loop -kohtaan korjattu stiger-vertailu EN:n mukaisesti kahteen siirtymään vs strømpepinner kolme tai neljä siirtymää, lisätty Kollage/Prym-bränditäsmennykset ergonomisiin muotoihin ja korjattu `rette pinner` -johtopäätöksen `unless`-merkitys.
+- `digital-eller-mekanisk-omgangsteller.md`: H2/bold-rakenne vastaa EN-lähdettä (6 H2 + 8 bold-kohtaa); täydennetty fysiske tellere-, digitale tellere-, screen-free-, kombinasjonsmetode- ja FAQ-kohdat EN-lähteen mukaisiksi. KnitTools-offline-lause pehmennetty EN:n `planned around local project data` -tasolle ilman vahvempaa valmisominaisuuslupausta.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä; `draft: false` ja `translationKey`-arvot säilyivät.
+- product-claim-/termiriskigrep erätiedostoihin: ei osumia hakulistalla `KnitTools app|KnitTools-appen|Row Counter|Yarn Label Scanner|AI|OCR|scanner|skanner|kamera|voice|talekommando|talekommandoer|stemmedagbok|samtalestemme|mikrofon|parser|project summary|Premiumversjonen|engangskjøp|engangskjop|uten annonser|uten abonnement|planlagt å fungere offline|garnvekt|rad`.
+- englanninkielisten termijäämien ja suomenkielisten jäämien haut erätiedostoihin: ei osumia korjattavilla hakulistoilla.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle NO-erän artikkelille OK; `git diff --check` erätiedostoille OK; product-claim-/termiriskigrep OK; rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 NO-artikkelille.
+- seuraava vaihe: NO artikkelit erä 2/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/no/viktig-strikketilbehor-utover-pinner-og-garn.md` (`translationKey: "essential-knitting-tools"`)
+  - `src/content/articles/no/redde-mistede-masker-uten-a-rekke-opp.md` (`translationKey: "fix-dropped-stitches"`)
+  - `src/content/articles/no/gratis-strikkekalkulatorer.md` (`translationKey: "free-knitting-calculators"`)
+  - `src/content/articles/no/nar-strikkefastheten-ikke-stemmer.md` (`translationKey: "gauge-doesnt-match"`)
+  - `src/content/articles/no/strikke-provelapp-steg-for-steg.md` (`translationKey: "gauge-swatch-step-by-step"`)
+- seuraava tiedosto: `src/content/articles/no/viktig-strikketilbehor-utover-pinner-og-garn.md`
+
+NO artikkelit erä 2/8:
+
+- käsitelty 10/38 norjankielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/no/viktig-strikketilbehor-utover-pinner-og-garn.md`
+  - `src/content/articles/no/redde-mistede-masker-uten-a-rekke-opp.md`
+  - `src/content/articles/no/gratis-strikkekalkulatorer.md`
+  - `src/content/articles/no/nar-strikkefastheten-ikke-stemmer.md`
+  - `src/content/articles/no/strikke-provelapp-steg-for-steg.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/essential-knitting-tools.md`
+  - `src/content/articles/fix-dropped-stitches.md`
+  - `src/content/articles/free-knitting-calculators.md`
+  - `src/content/articles/gauge-doesnt-match.md`
+  - `src/content/articles/gauge-swatch-step-by-step.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin yarn weight-, hooks/needles- ja abbreviation-standardisivut. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3 ja `prettier-plugin-astro` 0.14.1.
+- `viktig-strikketilbehor-utover-pinner-og-garn.md`: sisältö tasattu EN-lähteeseen lisäämällä puuttuvia käytännön rajauksia saksista, mittaamisesta, pinnemålerista, projektipusseista, maskeholdereista ja pinnestoppereista. App-teller-kohta rajattu nykyiseen EN-lähteeseen: poistettu NO-only `haptisk tilbakemelding` ja vahvempi valmisominaisuuslupaus, ja KnitTools-kuvaus pidetty prosjektilinkitetyssä pinner/omganger-laskennassa.
+- `redde-mistede-masker-uten-a-rekke-opp.md`: rakenne ja faktasisältö olivat jo EN-pariteetissa; korjattu vain toisteinen vrangside-lause luonnollisemmaksi.
+- `gratis-strikkekalkulatorer.md`: description täydennetty EN-lähteen size chart -sisällöllä, grammar-korjaus `Ingenting av dette`, yarn-estimator-esimerkin `220 yards` muunnettu norjan metriympäristöön `ca. 200 m per 100 g`, lisätty EN:n safety-buffer-rajauksen loppu ja poistettu NO-only `Ingen abonnement, ingen annonser` -claim tästä artikkelista.
+- `nar-strikkefastheten-ikke-stemmer.md`: garnmengde-poikkeus tasattu EN:n `finished area and fabric density` -rajaukseen, ja `håndlaget`-termi korvattu strikkefasthet-muodolla, jotta norjan termilinja pysyy puhtaana.
+- `strikke-provelapp-steg-for-steg.md`: välinelistassa `nåler` täsmennetty `blokkenåler`, `håndlaget`-termi korvattu strikkefasthet-muodolla, ja dagsform-vastaus pehmennetty EN:n `It can` -tasolle.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja `draft: false` jätetty ennalleen.
+- H2/H3-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikkorakennetta. Bold/FAQ-muotoa ei tasattu väkisin kahdessa artikkelissa, koska NO:n nykyinen kysymysmuoto säilyi luettavana eikä muuta reittejä tai merkitystä.
+- product-claim-/termiriskigrep erätiedostoihin: ei osumia hakulistalla `KnitTools app|KnitTools-appen|Row Counter|Yarn Label Scanner|AI|OCR|scanner|skanner|kamera|voice|talekommando|talekommandoer|stemmedagbok|samtalestemme|mikrofon|parser|project summary|Premiumversjonen|engangskjøp|engangskjop|uten annonser|uten abonnement|planlagt å fungere offline|garnvekt|rad|håndlaget|haptisk`.
+- englanninkielisten termijäämien haku osui vain sallittuihin frontmatter-arvoihin (`category: gauge-calculations`, `translationKey`); suomenkielisten jäämien haku erätiedostoihin: ei osumia.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle NO-erän artikkelille ja etenemislogille OK; `git diff --check` erätiedostoille ja etenemislogille OK; product-claim-/termiriskigrep OK; H2/H3-rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 NO-artikkelille.
+- seuraava vaihe: NO artikkelit erä 3/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/no/hvor-mange-masker-skal-du-legge-opp.md` (`translationKey: "how-many-stitches-to-cast-on"`)
+  - `src/content/articles/no/hvor-mye-garn-trenger-jeg.md` (`translationKey: "how-much-yarn-do-i-need"`)
+  - `src/content/articles/no/blokke-strikk-vatt-damp-spray.md` (`translationKey: "how-to-block-knitting"`)
+  - `src/content/articles/no/strikke-lue-metoder-for-alle-nivaer.md` (`translationKey: "how-to-knit-hat"`)
+  - `src/content/articles/no/strikke-sokker-sokkeoppskriftens-deler.md` (`translationKey: "how-to-knit-socks"`)
+- seuraava tiedosto: `src/content/articles/no/hvor-mange-masker-skal-du-legge-opp.md`
+
+NO artikkelit erä 3/8:
+
+- käsitelty 15/38 norjankielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/no/hvor-mange-masker-skal-du-legge-opp.md`
+  - `src/content/articles/no/hvor-mye-garn-trenger-jeg.md`
+  - `src/content/articles/no/blokke-strikk-vatt-damp-spray.md`
+  - `src/content/articles/no/strikke-lue-metoder-for-alle-nivaer.md`
+  - `src/content/articles/no/strikke-sokker-sokkeoppskriftens-deler.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/how-many-stitches-to-cast-on.md`
+  - `src/content/articles/how-much-yarn-do-i-need.md`
+  - `src/content/articles/how-to-block-knitting.md`
+  - `src/content/articles/how-to-knit-hat.md`
+  - `src/content/articles/how-to-knit-socks.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin yarn weight- ja hooks/needles-standardisivut. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1.
+- `hvor-mange-masker-skal-du-legge-opp.md`: H2/bold-rakenne vastaa EN-lähdettä (13 H2 + 16 bold-kohtaa); faktat, metriset esimerkit, raporttimuodot, kantmasker/jarekant, rundstrikking-rajaus, sokkien starttipisteet, oppleggsmåte-vertailu, genser-esimerkit ja FAQ olivat jo nykyisen EN-lähteen tasolla. Ei sisältömuutosta tarvittu tässä erässä.
+- `hvor-mye-garn-trenger-jeg.md`: H2/bold-rakenne vastaa EN-lähdettä (8 H2 + 8 bold-kohtaa); tasattu `Garnberegner`-kuvaukset EN:n `project type, size, yarn weight` -tasolle, poistettu NO-only `rapport`-väite laskurista, poistettu ylimääräinen 20-30 prosentin flettevaraus ja pehmennetty dye lot -FAQ:n `nesten usynlig` -lupaus.
+- `blokke-strikk-vatt-damp-spray.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 H2 + 2 H3 + 6 bold-kohtaa); akryylin vesi-/dampirajaus tasattu EN:n varovaisempaan muotoon, ja FAQ:n epävarmuusohje palautettu `blokk prøvelappen først` -tasolle.
+- `strikke-lue-metoder-for-alle-nivaer.md`: H2/bold-rakenne vastaa EN-lähdettä (9 H2 + 9 bold-kohtaa); korjattu bottom-up-metodin aloitus `luens målomkrets` -muotoon, poistettu NO-only vrangbord-liukumisvinkki, pehmennetty worsted/bulky-nopeusväitteet ja muutettu Common questions -osion kysymykset tavallisiksi kappaleiksi EN-rakenteen mukaisesti.
+- `strikke-sokker-sokkeoppskriftens-deler.md`: H2/bold-rakenne vastaa EN-lähdettä (9 H2 + 20 bold-kohtaa); korjattu ovenfra-og-ned-sukan haittakuvaus EN:n yarn-leftover/try-on-rajaan, vaihdettu virheellinen `håndlaget ditt` termiksi `strikkefastheten din` ja poistettu NO-only CYC-fotmål-kappale.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja `draft: false` jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-/termiriskigrep erätiedostoihin: ei osumia täsmähakulistalla `KnitTools app|KnitTools-appen|Row Counter|Yarn Label Scanner|AI|OCR|scanner|skanner|kamera|voice|talekommando|talekommandoer|stemmedagbok|samtalestemme|mikrofon|parser|project summary|Premiumversjonen|engangskjøp|engangskjop|uten annonser|uten abonnement|planlagt å fungere offline|garnvekt|rad|håndlaget|haptisk|20-30|full hodeomkrets`.
+- englanninkielisten termijäämien ja suomenkielisten jäämien haut erätiedostoihin: ei osumia korjattavilla hakulistoilla.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle NO-erän artikkelille ja etenemislogille OK; `git diff --check` erätiedostoille OK; etenemislogin trailing whitespace -haku OK, koska loki on vielä untracked; product-claim-/termiriskigrep OK; H2/H3/bold-rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 NO-artikkelille.
+- seuraava vaihe: NO artikkelit erä 4/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/no/male-strikkefasthet.md` (`translationKey: "how-to-measure-knitting-gauge"`)
+  - `src/content/articles/no/lese-strikkeoppskrift-nybegynnerguide.md` (`translationKey: "how-to-read-knitting-pattern"`)
+  - `src/content/articles/no/lese-garnetikett-symboler.md` (`translationKey: "how-to-read-yarn-label"`)
+  - `src/content/articles/no/bytte-garn-i-strikkeoppskrift.md` (`translationKey: "how-to-substitute-yarn"`)
+  - `src/content/articles/no/ukjent-garn-uten-garnetikett.md` (`translationKey: "identify-mystery-yarn"`)
+- seuraava tiedosto: `src/content/articles/no/male-strikkefasthet.md`
+
+NO artikkelit erä 4/8:
+
+- käsitelty 20/38 norjankielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/no/male-strikkefasthet.md`
+  - `src/content/articles/no/lese-strikkeoppskrift-nybegynnerguide.md`
+  - `src/content/articles/no/lese-garnetikett-symboler.md`
+  - `src/content/articles/no/bytte-garn-i-strikkeoppskrift.md`
+  - `src/content/articles/no/ukjent-garn-uten-garnetikett.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/how-to-measure-knitting-gauge.md`
+  - `src/content/articles/how-to-read-knitting-pattern.md`
+  - `src/content/articles/how-to-read-yarn-label.md`
+  - `src/content/articles/how-to-substitute-yarn.md`
+  - `src/content/articles/identify-mystery-yarn.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Prettier CLI -dokumentaatio, Craft Yarn Councilin yarn weight-, yarn label-, knitting pattern- ja WPI-standardisivut, Purl Sohon gauge-ohje sekä kuitutestien turvallisuuslähteet. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1.
+- `male-strikkefasthet.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (9 H2 + 0 H3 + 7 bold-kohtaa). Pehmennetty kuitujen blokkauksen jälkeisiä käyttäytymisväitteitä EN-lähteen `can/may`-tasolle ja tasattu `Garnberegner`-kuvaus EN:n `project type, size, yarn weight` -rajaukseen.
+- `lese-strikkeoppskrift-nybegynnerguide.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (14 H2 + 2 H3 + 10 bold-kohtaa). Korjattu diagrammien lukusuunta: fram-og-tilbake-strikissä rettsidepinner/vrangsidepinner, rundstrikissä kierrokset yleensä oikealta vasemmalle.
+- `lese-garnetikett-symboler.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (9 H2 + 0 H3 + 11 bold-kohtaa). Pehmennetty käsinvärjätyn langan vaihteluväite ja säilytetty vanha Yarn Label Scanner -claim poissa; etikettitiedot ohjataan yleisesti prosjektnotaatteihin.
+- `bytte-garn-i-strikkeoppskrift.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (7 H2 + 0 H3 + 14 bold-kohtaa). Korjattu `Garnberegner`-väite: se on suunnittelutarkistus, ei korvaa ohjeen ilmoittamaa metrimäärää, korvaavan langan kerätietoja tai uutta prøvelappia. Low risk -kohta tasattu EN:n passform-/recalculate-rajaukseen.
+- `ukjent-garn-uten-garnetikett.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (6 H2 + 3 H3 + 3 bold-kohtaa). Poistettu jäljellä ollut `garnkort`-tyyppinen product-feature-sävy ja säilytetty muotoilu yleisenä projektin testimuistiinpanona.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja `draft: false` jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-/termiriskigrep erätiedostoihin: ei osumia täsmähakulistalla `KnitTools app|KnitTools-appen|Row Counter|Yarn Label Scanner|AI|OCR|scanner|skanner|kamera|voice|talekommando|talekommandoer|stemmedagbok|samtalestemme|mikrofon|parser|project summary|Premiumversjonen|engangskjøp|engangskjop|uten annonser|uten abonnement|planlagt å fungere offline|garnvekt|håndlaget|haptisk|garnkort|\\brad\\b`.
+- englanninkielisten termijäämien ja suomenkielisten jäämien haut erätiedostoihin: ei osumia korjattavilla hakulistoilla.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle NO-erän artikkelille ja etenemislogille OK; `git diff --check` erätiedostoille ja etenemislogille OK; product-claim-/termiriskigrep OK; H2/H3/bold-rakennepariteettiskripti OK; `npm run check` OK; `npm run build` OK; dist-polut olemassa kaikille 5 NO-artikkelille.
+- seuraava vaihe: NO artikkelit erä 5/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/no/fordele-okninger-og-fellinger-jevnt.md` (`translationKey: "increase-decrease-evenly"`)
+  - `src/content/articles/no/nytt-noste-midt-pa-pinnen.md` (`translationKey: "join-new-ball-of-yarn"`)
+  - `src/content/articles/no/strikke-forste-skjerf.md` (`translationKey: "knit-first-scarf"`)
+  - `src/content/articles/no/strikkepinner-metall-tre-bambus.md` (`translationKey: "knitting-needle-materials"`)
+  - `src/content/articles/no/rapporter-i-strikkeoppskrifter.md` (`translationKey: "knitting-pattern-repeats"`)
+- seuraava tiedosto: `src/content/articles/no/fordele-okninger-og-fellinger-jevnt.md`
+
+NO artikkelit erä 5/8:
+
+- käsitelty 25/38 norjankielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/no/fordele-okninger-og-fellinger-jevnt.md`
+  - `src/content/articles/no/nytt-noste-midt-pa-pinnen.md`
+  - `src/content/articles/no/strikke-forste-skjerf.md`
+  - `src/content/articles/no/strikkepinner-metall-tre-bambus.md`
+  - `src/content/articles/no/rapporter-i-strikkeoppskrifter.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/increase-decrease-evenly.md`
+  - `src/content/articles/join-new-ball-of-yarn.md`
+  - `src/content/articles/knit-first-scarf.md`
+  - `src/content/articles/knitting-needle-materials.md`
+  - `src/content/articles/knitting-pattern-repeats.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio ja Prettier CLI -dokumentaatio. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `NORWEGIAN_TRANSLATION_GUIDE.md`-termilinjaan.
+- `fordele-okninger-og-fellinger-jevnt.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (15 H2 + 0 H3 + 14 bold-kohtaa). Täydennetty felling-esimerkin "ei restiä / ei kantapuskuria" -huomio, tasattu bunched shaping -varoitus EN:n wedge/skew-tasolle, täsmennetty vrangbord-siirtymä ilman uutta oppleggia, luekrone-spiraali-/stjerne-rajaus, KFB:n näkyvyys, kast/hullmønster-termi ja CDD-merkintä.
+- `nytt-noste-midt-pa-pinnen.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (12 H2 + 1 H3 + 5 bold-kohtaa). Pehmennetty `usynlig`/`permanent`-väitteet EN:n `tidy`/`nearly invisible` -tasolle, muutettu Russian join -rajaus "vanskeligere" eikä "fungerer ikke" -tasolle, poistettu EN-rakenteesta puuttunut ylimääräinen FAQ ja korjattu `synteter` luonnolliseksi `syntetiske garn` -muodoksi.
+- `strikke-forste-skjerf.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 H2 + 4 H3 + 16 bold-kohtaa). Täsmennetty long-tail-opplegg 3-4 kertaa reunan leveydeksi, vaihdettu epäluonteva `Håndlaget er ujevnt` muotoon `Maskebildet er ujevnt`, lisätty 15 cm avfellingshale ja korjattu fingering/US 3 -pinnemitta 3,25 mm -muotoon.
+- `strikkepinner-metall-tre-bambus.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (10 H2 + 0 H3 + 6 bold-kohtaa). Metallipinnojen kestävyysväite pehmennetty "varer lenge" -tasolle, muovipinnoille lisätty EN:n suuri koko -rajaus metrisesti noin 9 mm ja ylöspäin, spisse spisser -kohta täydennetty delte masker -hyödyllä ja håndsmerter-FAQ laajennettu leddgikt/artrose/håndsmerter -tasolle.
+- `rapporter-i-strikkeoppskrifter.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 H2 + 0 H3 + 12 bold-kohtaa). `Gjenta 5 ganger` -selitys tasattu EN:n "käytä maskeantallia vahvistukseen" -linjaan, poistettu `rad`-jäämä murvegg-esimerkistä ja korjattu `træ` -> `tre`.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-/termiriskigrep erätiedostoihin: ei osumia täsmähakulistalla `KnitTools app|KnitTools-appen|Row Counter|Yarn Label Scanner|AI|OCR|scanner|skanner|kamera|voice|talekommando|talekommandoer|stemmedagbok|samtalestemme|mikrofon|parser|project summary|Premiumversjonen|engangskjøp|engangskjop|uten annonser|uten abonnement|planlagt å fungere offline|garnvekt|håndlaget|haptisk|garnkort|\brad\b`. Laajemmassa englanti-/suomijäämähaussa jäi vain sallitut koodi- ja esimerkkiosumat: `translationKey`, `category: gauge-calculations`, `set-up row`, `set-up round` ja `Beginning with Row 1`.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle NO-erän artikkelille ja etenemislokille OK; `git diff --check` erätiedostoille ja etenemislokille OK; product-claim-/termiriskigrep OK; rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 NO-artikkelille.
+- seuraava vaihe: NO artikkelit erä 6/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/no/storrelser-i-strikkeoppskrifter.md` (`translationKey: "knitting-pattern-sizes-and-fit"`)
+  - `src/content/articles/no/pinnestorrelse-for-nybegynnere.md` (`translationKey: "needle-size-for-beginners"`)
+  - `src/content/articles/no/holde-orden-pa-strikkeprosjekter.md` (`translationKey: "organize-knitting-projects"`)
+  - `src/content/articles/no/plukke-opp-masker-langs-strikket-kant.md` (`translationKey: "pick-up-stitches"`)
+  - `src/content/articles/no/sy-sammen-strikkede-deler-madrassting.md` (`translationKey: "seam-knitted-pieces"`)
+- seuraava tiedosto: `src/content/articles/no/storrelser-i-strikkeoppskrifter.md`
+
+NO artikkelit erä 6/8:
+
+- käsitelty 30/38 norjankielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/no/storrelser-i-strikkeoppskrifter.md`
+  - `src/content/articles/no/pinnestorrelse-for-nybegynnere.md`
+  - `src/content/articles/no/holde-orden-pa-strikkeprosjekter.md`
+  - `src/content/articles/no/plukke-opp-masker-langs-strikket-kant.md`
+  - `src/content/articles/no/sy-sammen-strikkede-deler-madrassting.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/knitting-pattern-sizes-and-fit.md`
+  - `src/content/articles/needle-size-for-beginners.md`
+  - `src/content/articles/organize-knitting-projects.md`
+  - `src/content/articles/pick-up-stitches.md`
+  - `src/content/articles/seam-knitted-pieces.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Prettier CLI -dokumentaatio, Craft Yarn Councilin yarn weight- ja hooks/needles-standardit sekä Purl Sohon poimimis- ja madrassting/seaming-ohjeet. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1.
+- `storrelser-i-strikkeoppskrifter.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (13 H2 + 0 H3 + 11 bold-kohtaa). Sisältö, mittaesimerkit, bevegelsesvidde-rajaukset, konstruktio-osio, bysteforming, garntykkelse-caveat, FAQ ja sisäiset NO-linkit olivat jo EN-pariteetissa; ei sisältömuutosta tarvittu.
+- `pinnestorrelse-for-nybegynnere.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (9 H2 + 0 H3 + 6 bold-kohtaa). Korjattu `håndlaget`-termi ja `sokkepinner`-väärinymmärrys, pehmennetty käsikipukohta EN:n tension-rajaukseen, lisätty EN:stä puuttunut vaihtopinnemerkkilause ja poistettu NO-only `innen to masker per 10 cm` -ehto FAQ:sta.
+- `holde-orden-pa-strikkeprosjekter.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 11 bold-kohtaa). Nykyinen sisältö oli EN-pariteetissa: WIP/UFO-rakenne, projektipussi-, notat-, garnlogistikk- ja KnitTools-kehitysrajaukset vastaavat lähdettä; ei sisältömuutosta tarvittu.
+- `plukke-opp-masker-langs-strikket-kant.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (12 H2 + 2 H3 + 20 bold-kohtaa). Vaihdettu `rad`-jäämät norjalle luontevampiin `rekke`/`overgang`-muotoihin, korjattu restegarn-osio EN:n testaa-poista-toista-logiikkaan ja tasattu viimeinen FAQ kattamaan pinnefasthet, maskefasthet ja kantlengde.
+- `sy-sammen-strikkede-deler-madrassting.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 H2 + 2 H3 + 11 bold-kohtaa). Vaihdettu `rad`-jäämä `rekke`-muotoon ja pehmennetty `perfekt treff` -muotoilu EN:n tension-priorisointiin.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-/termiriskigrep erätiedostoihin: ei osumia täsmähakulistalla `KnitTools app|KnitTools-appen|Row Counter|Yarn Label Scanner|AI|OCR|scanner|skanner|kamera|voice|talekommando|talekommandoer|stemmedagbok|samtalestemme|mikrofon|parser|project summary|Premiumversjonen|engangskjøp|engangskjop|uten annonser|uten abonnement|planlagt å fungere offline|garnvekt|håndlaget|haptisk|garnkort|\brad\b|oppplukkingsrad|inch|yard|yards|beautiful|perfekt|sømløs opplevelse|neste nivå|kreativ reise`.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle NO-erän artikkelille ja etenemislokille OK; `git diff --check` erätiedostoille ja etenemislokille OK; product-claim-/termiriskigrep OK; rakennepariteettiskripti OK; `npm run check` OK; `npm run build` OK; dist-polut olemassa kaikille 5 NO-artikkelille.
+- seuraava vaihe: NO artikkelit erä 7/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/no/folge-med-pa-strikketid-og-tempo.md` (`translationKey: "track-knitting-time"`)
+  - `src/content/articles/no/holde-styr-pa-pinner-og-omganger.md` (`translationKey: "track-rows-knitting"`)
+  - `src/content/articles/no/hva-er-strikkefasthet.md` (`translationKey: "what-is-gauge-in-knitting"`)
+  - `src/content/articles/no/hvorfor-ruller-strikketoyet-seg.md` (`translationKey: "why-knitting-curls"`)
+  - `src/content/articles/no/garnfibre-sammenlignet.md` (`translationKey: "yarn-fibers-compared"`)
+- seuraava tiedosto: `src/content/articles/no/folge-med-pa-strikketid-og-tempo.md`
+
+NO artikkelit erä 7/8:
+
+- käsitelty 35/38 norjankielistä artikkelia, tämän erän 5 tiedostoa:
+  - `src/content/articles/no/folge-med-pa-strikketid-og-tempo.md`
+  - `src/content/articles/no/holde-styr-pa-pinner-og-omganger.md`
+  - `src/content/articles/no/hva-er-strikkefasthet.md`
+  - `src/content/articles/no/hvorfor-ruller-strikketoyet-seg.md`
+  - `src/content/articles/no/garnfibre-sammenlignet.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/track-knitting-time.md`
+  - `src/content/articles/track-rows-knitting.md`
+  - `src/content/articles/what-is-gauge-in-knitting.md`
+  - `src/content/articles/why-knitting-curls.md`
+  - `src/content/articles/yarn-fibers-compared.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Prettier CLI -dokumentaatio, Craft Yarn Councilin yarn weight- ja yarn label -standardit, Vogue Knittingin gauge-ohje sekä arXiv-paperi `Curling morphology of knitted fabrics: Structure and Mechanics`. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `NORWEGIAN_TRANSLATION_GUIDE.md`-termilinjaan.
+- `folge-med-pa-strikketid-og-tempo.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (8 H2 + 3 H3 + 6 bold-kohtaa). Sisältö oli EN-pariteetissa; poistettu vain kaksi `perfekt`-riskiosumaa muuttamalla ne `nøyaktig`/`helt presis` -muotoihin.
+- `holde-styr-pa-pinner-og-omganger.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 H2 + 0 H3 + 9 bold-kohtaa). Kavennettu KnitTools-maininta nykyisen EN-lähteen tasolle poistamalla ylimääräinen `rapportstøtte` tuoteväitteestä; yleisessä stripe-FAQ:ssa säilytetty EN:n repeat-tracker-ajatus neutraalina `teller som kan følge gjentakelser` -muotoiluna.
+- `hva-er-strikkefasthet.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (13 H2 + 0 H3 + 7 bold-kohtaa). Sisältö, mittayksiköt, strikkefasthet-termit, blokkings-rajaukset, gauge/tension-selitys ja sisäiset NO-linkit olivat jo EN-pariteetissa; ei sisältömuutosta tarvittu.
+- `hvorfor-ruller-strikketoyet-seg.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (7 H2 + 6 H3 + 6 bold-kohtaa). Korjattu kahden ensimmäisen H2-osion järjestys EN/SV/FI-rakenteeseen, poistettu toistuva aloitus, pehmennetty superwash-väitteet `can be harder to tame` -tasolle ja muutettu akryylin höyrytyskohta varovaiseksi testaa-ensin / ei suoraa rautakontaktia -ohjeeksi.
+- `garnfibre-sammenlignet.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (7 H2 + 0 H3 + 5 bold-kohtaa). Otsikko tasattu EN:n `and blends` -rakenteeseen, pehmennetty villa-, bomull-, akryl- ja superwash-väitteet EN:n varovaiselle tasolle, poistettu liian absoluuttinen kosteus-/sock-blend-muotoilu ja vältetty `perfekt`-riskisana.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja draft-tila jätetty ennalleen.
+- H2/H3/bold-rakennepariteetti erän jälkeen: kaikki 5 artikkeliparia vastaavat nykyisen EN-lähteen otsikko- ja bold/FAQ-rakennemääriä.
+- product-claim-/termiriskigrep erätiedostoihin: ei osumia täsmähakulistalla `KnitTools app|KnitTools-appen|Row Counter|Yarn Label Scanner|AI|OCR|scanner|skanner|kamera|voice|talekommando|talekommandoer|stemmedagbok|samtalestemme|mikrofon|parser|project summary|Premiumversjonen|engangskjøp|engangskjop|uten annonser|uten abonnement|planlagt å fungere offline|garnvekt|håndlaget|haptisk|garnkort|\brad\b|oppplukkingsrad|beautiful|perfekt|sømløs opplevelse|neste nivå|kreativ reise|rapportstøtte`.
+- suomenkielisten jäämien haku erätiedostoihin: ei osumia. Englanninkielisten termijäämien haussa jäi vain sallitut koodi-/frontmatter-arvot ja tietoiset termit kuten `translationKey`, `category`, `gauge`, `tension`, `inch`, `timer`, `worsted`, `fiber`, `halo` ja `kid mohair`.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle NO-erän artikkelille ja etenemislokille OK; `git diff --check` erätiedostoille ja etenemislokille OK; product-claim-/termiriskigrep OK; suomijäämähaku OK; rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 5 NO-artikkelille.
+- seuraava vaihe: NO artikkelit erä 8/8, viimeiset 3 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/no/hvor-mye-garn-til-teppe.md` (`translationKey: "yarn-for-blanket"`)
+  - `src/content/articles/no/hvor-mye-garn-til-genser.md` (`translationKey: "yarn-for-sweater"`)
+  - `src/content/articles/no/bytte-garntykkelse-i-strikkeoppskrift.md` (`translationKey: "yarn-weight-substitution"`)
+- seuraava tiedosto: `src/content/articles/no/hvor-mye-garn-til-teppe.md`
+
+NO artikkelit erä 8/8:
+
+- käsitelty 38/38 norjankielistä artikkelia, tämän erän viimeiset 3 tiedostoa:
+  - `src/content/articles/no/hvor-mye-garn-til-teppe.md`
+  - `src/content/articles/no/hvor-mye-garn-til-genser.md`
+  - `src/content/articles/no/bytte-garntykkelse-i-strikkeoppskrift.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/yarn-for-blanket.md`
+  - `src/content/articles/yarn-for-sweater.md`
+  - `src/content/articles/yarn-weight-substitution.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Prettier CLI -dokumentaatio, Craft Yarn Councilin yarn weight-, yarn label- ja WPI-standardit. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `NORWEGIAN_TRANSLATION_GUIDE.md`-termilinjaan.
+- `hvor-mye-garn-til-teppe.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 17 bold-kohtaa). Korjattu intro vastaamaan EN:n `accessories`-rajausta, päivitetty teppetaulukon metrihaarukat nykyisiä EN-yardage-alueita vastaaviksi, vaihdettu `moss stitch` luonnolliseen norjan `dobbel perlestrikk` -muotoon ja poistettu `cones`-englanninjäämä.
+- `hvor-mye-garn-til-genser.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 19 bold-kohtaa). Sisältö, metrihaarukat, tyyli-/maskemønster-/erme-/fiber-rajaukset ja NO-sisälinkit olivat jo nykyisessä EN-pariteetissa; ei lisämuutosta tarvittu tässä erässä.
+- `bytte-garntykkelse-i-strikkeoppskrift.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (10 H2 + 0 H3 + 21 bold-kohtaa). Lisätty puuttuva EN:n `Common questions` -rakennetta vastaava `Vanlige vurderinger` -osio, boldatut laskentavaiheiden ankkurit sekä Worsted -> DK -esimerkin metri-/maske-/garnmäärät nykyisen EN-lähteen mukaisiksi.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja `draft: false` -tila jätetty ennalleen. NO-artikkelikansiossa on 38 `.md`-tiedostoa, 38 `translationKey`-arvoa ja 38 `draft: false` -artikkelia; `src/i18n/articles.ts` sisältää tämän erän kolmelle `translationKey`-avaimelle odotetut `/no/artikler/.../`-polut.
+- product-claim-/termiriskigrep erätiedostoihin: ei osumia täsmähakulistalla `KnitTools app|KnitTools-appen|Row Counter|Yarn Label Scanner|AI|OCR|scanner|skanner|kamera|voice|talekommando|talekommandoer|stemmedagbok|samtalestemme|mikrofon|parser|project summary|Premiumversjonen|engangskjøp|engangskjop|uten annonser|uten abonnement|planlagt å fungere offline|garnvekt|håndlaget|haptisk|garnkort|\brad\b|oppplukkingsrad|beautiful|perfekt|sømløs opplevelse|neste nivå|kreativ reise|rapportstøtte`.
+- suomenkielisten jäämien haku erätiedostoihin: ei osumia. Englanninkieliset termit ovat joko säilytettäviä lankavahvuus-/tekniikkatermejä (`Worsted`, `DK`, `Bulky`, `Fingering`, `Fair Isle`, `WPI`, `log cabin`) tai koodi-/frontmatter-arvoja.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` kolmelle NO-erän artikkelille ja etenemislokille OK; `git diff --check` erätiedostoille ja etenemislokille OK; product-claim-/termiriskigrep OK; suomijäämähaku OK; rakennepariteettiskripti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille 3 NO-artikkelille.
+- FR tools erä 1/2:
+  - `src/pages/fr/outils/index.astro`
+  - `src/pages/fr/outils/calculateur-mailles-a-monter.astro`
+  - `src/pages/fr/outils/estimateur-quantite-laine.astro`
+- verrattu nykyisiin EN-tools-sivuihin, EN/SV/NO-valmiisiin lokalisoituihin tools-sivuihin, `FRENCH_TRANSLATION_GUIDE.md`-termilinjaan sekä jaettuihin komponentteihin `LocalizedToolPage.astro`, `CastOnCalculator.astro` ja `YarnEstimator.astro`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin yarn weight-, yarn label- ja WPI-standardit. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1.
+- `src/pages/fr/outils/index.astro`: rakenne, reitit, JSON-LD, canonical, alternates ja korttien järjestys olivat pariteetissa; ei sisältömuutosta.
+- `src/pages/fr/outils/calculateur-mailles-a-monter.astro`: korjattu liian täsmällinen vanha `20 minutes` -väite EN:n varovaisempaan ajankäyttömuotoon, rajattu parilliseen pyöristyksen perustelu tavallisiin yksinkertaisiin mallineuleisiin ja päivitetty SEO-sisällön lopetus samaan varovaisempaan lähtöpiste-muotoon.
+- `src/pages/fr/outils/estimateur-quantite-laine.astro`: päivitetty FAQ:t nykyiseen EN-linjaan lisäämällä projektityyppi-/koko-/épaisseur-vertailu ja turvamarginaali, muuttamalla `Toujours` varovaiseksi `Le plus souvent` -muodoksi, täsmentämällä varakerä vain istuviin/teksturoituihin/bain-tapauksiin sekä lisäämällä taille M -rajaus pullon metrimääräesimerkkiin.
+- `src/components/YarnEstimator.astro`: ranskankielinen tulosdisclaimer muutettu vastaamaan EN:n varovaisempaa dye-lot-varausta: lisäpelote suositellaan silloin, kun numéro de bain merkitsee.
+- public route -polut, canonicalit, `alternates`, slug-rakenne ja tools-reittikartta jätetty ennalleen.
+- eräkohtainen product-claim-/termiriskigrep: ei korjausten jälkeen osumia täsmähakulistalla `KnitTools app|application KnitTools|Yarn Label Scanner|AI|OCR|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|€|widget|widgets|achat unique|sans abonnement|sans publicit[eé]|poids du fil|jauge|lib[eé]rez votre cr[eé]ativit[eé]|alli[eé] indispensable|exp[eé]rience fluide|sans effort`.
+- suomen-/ruotsin-/norjankielisten jäämien haku erätiedostoihin: ei osumia. Englanninkieliset termit olivat tarkoituksellisia lankakategorioita tai kontekstisanoja (`fingering`, `sport`, `worsted`, `bulky`, `yards`, `WPI`), schema-/koodiarvoja tai tarkistettuja ranskankielisiä osumia kuten `compte` ja `pas d'application à installer`.
+- tarkistukset: `npx prettier --write` ja `npx prettier --check` kolmelle FR-erän sivulle, `src/components/YarnEstimator.astro`-komponentille ja etenemislokille OK; `git diff --check` erätiedostoille ja etenemislokille OK; product-claim-/termiriskigrep OK; suomi-/ruotsi-/norjajäämähaku OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä). Build jätetään FR tools -kokonaisuuden jälkeen erän 2/2 yhteyteen, ellei seuraava erä muuta reittejä.
+- seuraava vaihe: FR tools erä 2/2, 4 sivua verrattuna nykyisiin EN-tools-sivuihin ja jaettuihin komponentteihin:
+  - `src/pages/fr/outils/epaisseurs-de-fil.astro`
+  - `src/pages/fr/outils/tailles-aiguilles.astro`
+  - `src/pages/fr/outils/tableaux-tailles-tricot.astro`
+  - `src/pages/fr/outils/abreviations-tricot.astro`
+- seuraava tiedosto: `src/pages/fr/outils/epaisseurs-de-fil.astro`
+
+FR tools erä 2/2:
+
+- käsitelty 7/7 ranskankielistä tools-sivua, tämän erän 4 tiedostoa:
+  - `src/pages/fr/outils/epaisseurs-de-fil.astro`
+  - `src/pages/fr/outils/tailles-aiguilles.astro`
+  - `src/pages/fr/outils/tableaux-tailles-tricot.astro`
+  - `src/pages/fr/outils/abreviations-tricot.astro`
+- verrattu nykyisiin EN-tools-sivuihin, `FRENCH_TRANSLATION_GUIDE.md`-termilinjaan, jaettuihin komponentteihin `LocalizedToolPage.astro` ja `WpiIdentifier.astro` sekä Craft Yarn Councilin yarn weight-, hooks/needles-, body sizing- ja knitting abbreviations -standardeihin.
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin relevantit standards-sivut. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1.
+- `src/pages/fr/outils/epaisseurs-de-fil.astro`: rakenne, FAQ:t, WPI-sisältö, CYC 0-7 -rajaus, taille 8 -huomio, sisäiset FR-linkit, canonical ja alternates olivat EN-pariteetissa; ei sisältömuutosta.
+- `src/pages/fr/outils/tailles-aiguilles.astro`: korjattu taulukko nykyisen EN-rakenteen mukaiseksi 38 riviksi. Lisätty puuttuvat japanilaiset välikoot 2,4 / 2,7 / 3,3 / 3,6 / 3,9 / 4,2 / 4,8 / 5,1 / 5,4 / 5,7 / 6,3 / 6,6 mm, poistettu väärille millimetririveille siirtyneet Japan-koot ja tasattu langanpaksuusrajat (`Lace / Super Fine`, `Super Fine / Fine`, `Fine / Light`, `Light / Medium`, `Medium / Bulky`, `Bulky / Super Bulky`, `Super Bulky / Jumbo`).
+- `src/pages/fr/outils/tableaux-tailles-tricot.astro`: korjattu naisten 5XL `Tour de haut de bras` -tuumavastine `19.5"` -> `18.5"` nykyisen EN/CYC-taulukon mukaiseksi. Koneellinen cm/tuuma-parivertailu EN-lähteeseen: 291/291 paria, 0 eroa korjauksen jälkeen.
+- `src/pages/fr/outils/abreviations-tricot.astro`: glossaarin 54 lyhennettä, kategoriat, hakudata, FAQ:t ja H2-rakenne vastasivat EN-lähdettä; ei sisältömuutosta.
+- public route -polut, canonicalit, `alternates`, slug-rakenne ja tools-reittikartta jätetty ennalleen.
+- eräkohtainen product-claim-/termiriskigrep: ei korjausten jälkeen osumia täsmähakulistalla `KnitTools app|application KnitTools|Yarn Label Scanner|AI|OCR|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|\bdollar\b|\beuro\b|€|widget|widgets|achat unique|sans abonnement|sans publicit[eé]|poids du fil|lib[eé]rez votre cr[eé]ativit[eé]|alli[eé] indispensable|exp[eé]rience fluide|sans effort`. `jauge`-osumat tarkistettu sallituiksi `jauge à aiguilles` -termiksi.
+- suomen-/ruotsin-/norjankielisten jäämien haku erätiedostoihin: ei osumia. Englanninkieliset termit olivat tarkoituksellisia lankakategorioita, lyhenteitä, schema-/koodiarvoja tai lähdemallin US/UK/Japanese-merkintöjä.
+- taulukko- ja rakennepariteetti: needle size -taulukko 38/38 riviä, 0 eroa EN-lähteeseen; size chart -mittaparit 291/291, 0 eroa EN-lähteeseen; abbreviations-glossaari 54/54 termiä, sama järjestys; yarn weight -taulukko 8/8 CYC-kategoriaa.
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` neljälle FR tools -sivulle ja etenemislokille OK; `git diff --check` erätiedostoille ja etenemislokille OK; product-claim-/termiriskigrep OK; suomi-/ruotsi-/norjajäämähaku OK; koneelliset taulukko-/rakennevertailut OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK; dist-polut olemassa kaikille 7 FR-tools-sivulle.
+- seuraava vaihe: FR artikkelit erä 1/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fr/au-meme-temps-dans-un-modele-tricot.md` (`translationKey: "at-the-same-time-knitting"`)
+  - `src/content/articles/fr/meilleures-applications-tricot.md` (`translationKey: "best-knitting-apps"`)
+  - `src/content/articles/fr/meilleur-fil-pour-debuter-le-tricot.md` (`translationKey: "best-yarn-for-beginners"`)
+  - `src/content/articles/fr/aiguilles-circulaires-droites-doubles-pointes.md` (`translationKey: "circular-vs-straight-vs-dpn"`)
+  - `src/content/articles/fr/compteur-rangs-numerique-ou-mecanique.md` (`translationKey: "digital-vs-physical-row-counters"`)
+- seuraava tiedosto: `src/content/articles/fr/au-meme-temps-dans-un-modele-tricot.md`
+
+FR artikkelit erä 1/8:
+
+- käsitelty 5/38 ranskankielistä artikkelia, tämän erän tiedostot:
+  - `src/content/articles/fr/au-meme-temps-dans-un-modele-tricot.md`
+  - `src/content/articles/fr/meilleures-applications-tricot.md`
+  - `src/content/articles/fr/meilleur-fil-pour-debuter-le-tricot.md`
+  - `src/content/articles/fr/aiguilles-circulaires-droites-doubles-pointes.md`
+  - `src/content/articles/fr/compteur-rangs-numerique-ou-mecanique.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/at-the-same-time-knitting.md`
+  - `src/content/articles/best-knitting-apps.md`
+  - `src/content/articles/best-yarn-for-beginners.md`
+  - `src/content/articles/circular-vs-straight-vs-dpn.md`
+  - `src/content/articles/digital-vs-physical-row-counters.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin yarn weight- ja hooks/needles-standardit. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1. Sisältöpariteetissa nojauduttiin nykyisiin EN-lähdeartikkeleihin ja `FRENCH_TRANSLATION_GUIDE.md`-termilinjaan.
+- `au-meme-temps-dans-un-modele-tricot.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (12 H2 + 0 H3 + 5 bold-kohtaa). Sisältö, esimerkkitaulukko, façonnage-/boutonnière-osuudet, Ravelry-varaus ja sisäinen FR-linkki olivat EN-pariteetissa; korjattu FAQ-kysymykset samaan bold-rakenteeseen kuin EN-lähteessä.
+- `meilleures-applications-tricot.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (8 H2 + 4 H3 + 14 bold-kohtaa). Päivitetty description vastaamaan yleistä app-vertailua, lisätty session-historyn EN-lähteen kahden kuukauden taukoesimerkki, poistettu ylimääräinen tietosensitiivisyysväite sekä kavennettu KnitTools-osio nykyiseen EN-linjaan poistamalla vanhat maksullisuus-, mainoksettomuus- ja toteutuneisuuslupaukset.
+- `meilleur-fil-pour-debuter-le-tricot.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 15 bold-kohtaa). Pehmennetty `presque tous les modèles débutants` EN:n `many beginner patterns` -tasolle, lisätty splitty-yarn-boutique-tarkistus ja rajattu säilytys-/koitorjuntaväite EN-lähteen mukaiseksi.
+- `aiguilles-circulaires-droites-doubles-pointes.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 H2 + 4 H3 + 6 bold-kohtaa). Korjattu magic loop -échelle-vertailu EN:n `three or four` -tasolle, vaihdettu sukupuolitettu `si tu es curieuse` neutraaliin muotoon ja palautettu ergonomisten neulojen brändiesimerkit Kollage/Prym EN-lähteen mukaisesti.
+- `compteur-rangs-numerique-ou-mecanique.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (6 H2 + 0 H3 + 8 bold-kohtaa). Lisätty mekaanisten laskurien `sans historique` -rajaus, session-historyn 47 iltaa -esimerkki, ruutuvapaan käytön paikkavaraus, pehmennetty KnitTools-paikallisdatalinja EN:n `planned around local project data` -tasolle ja korjattu `tous les cinq points` -> `toutes les cinq mailles`.
+- public route -polut, canonicalit, `alternates`, `articleTranslations`, slug-rakenne, `translationKey`-arvot ja `draft: false` -tila jätetty ennalleen.
+- product-claim-/termiriskigrep erätiedostoihin: ei osumia täsmähakulistalla `KnitTools app|application KnitTools|Yarn Label Scanner|AI|OCR|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|€|widget|widgets|achat unique|paiement unique|sans abonnement|sans publicit[eé]|frais r[eé]currents|poids du fil|lib[eé]rez votre cr[eé]ativit[eé]|alli[eé] indispensable|exp[eé]rience fluide|sans effort|parfait pour tous les niveaux|donn[eé]es tr[eè]s peu sensible|tous les cinq points|quatre ou cinq`.
+- suomen-/ruotsin-/norjankielisten jäämien haku erätiedostoihin: ei osumia. Englanninkieliset termit olivat frontmatter-/koodiarvoja tai tarkoituksellisia termejä (`translationKey`, `category`, `yarn`, `needles`, `row counters`).
+- loppuvarmistukset: `npx prettier --write` ja `npx prettier --check` viidelle FR-erän artikkelille ja etenemislokille OK; `git diff --check` erätiedostoille ja etenemislokille OK; product-claim-/termiriskigrep OK; suomi-/ruotsi-/norjajäämähaku OK; H2/H3/bold-rakennepariteetti OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä). Build jätetään myöhempään FR-artikkeliväliin, ellei seuraava erä muuta reittejä.
+- seuraava vaihe: FR artikkelit erä 2/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fr/accessoires-tricot-indispensables.md` (`translationKey: "essential-knitting-tools"`)
+  - `src/content/articles/fr/rattraper-maille-tombee.md` (`translationKey: "fix-dropped-stitches"`)
+  - `src/content/articles/fr/calculateurs-tricot-gratuits.md` (`translationKey: "free-knitting-calculators"`)
+  - `src/content/articles/fr/comprendre-l-echantillon-au-tricot.md` (`translationKey: "what-is-gauge-in-knitting"`)
+  - `src/content/articles/fr/mesurer-un-echantillon-tricot.md` (`translationKey: "how-to-measure-knitting-gauge"`)
+- seuraava tiedosto: `src/content/articles/fr/accessoires-tricot-indispensables.md`
+
+FR artikkelit erä 2/8:
+
+- käsitelty 10/38 ranskankielistä artikkelia, tämän erän tiedostot:
+  - `src/content/articles/fr/accessoires-tricot-indispensables.md`
+  - `src/content/articles/fr/rattraper-maille-tombee.md`
+  - `src/content/articles/fr/calculateurs-tricot-gratuits.md`
+  - `src/content/articles/fr/comprendre-l-echantillon-au-tricot.md`
+  - `src/content/articles/fr/mesurer-un-echantillon-tricot.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/essential-knitting-tools.md`
+  - `src/content/articles/fix-dropped-stitches.md`
+  - `src/content/articles/free-knitting-calculators.md`
+  - `src/content/articles/what-is-gauge-in-knitting.md`
+  - `src/content/articles/how-to-measure-knitting-gauge.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n routing -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Google canonicalization -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin yarn weight / hooks and needles -standardipinnat. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3 ja `prettier-plugin-astro` 0.14.1.
+- `accessoires-tricot-indispensables.md`: H2/H3-rakenne vastaa EN-lähdettä (18 otsikkoa); poistettu vahvempi FR-only `retour haptique` / valmisominaisuuslupaus app-laskureista ja muotoiltu KnitTools nykyiseen EN-linjaan projektikohtaisena, rakenteilla olevana rivinlaskentana. FAQ-lihavointi tasattu tämän artikkelin EN-rakenteeseen.
+- `rattraper-maille-tombee.md`: H2/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 6 FAQ); ei sisältömuutoksia tässä erässä, koska nykyinen FR-versio oli jo EN-rakenteen, varoitusten ja mohair-/fil de survie -rajausten tasolla.
+- `calculateurs-tricot-gratuits.md`: H2/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 4 FAQ); poistettu vanha `Pas d'abonnement, pas de publicité` -tuoteclaim, koska nykyinen EN-lähde ei lupaa tätä artikkelissa.
+- `comprendre-l-echantillon-au-tricot.md`: H2/FAQ-rakenne vastaa EN-lähdettä (13 H2 + 7 FAQ); ei sisältömuutoksia tässä erässä, koska nykyinen FR-versio vastasi EN-lähteen gauge/tension-, matière d'aiguilles-, blocage-, aisance- ja dimensions finies -rajauksia.
+- `mesurer-un-echantillon-tricot.md`: H2/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 5 FAQ); korjattu Yarn Estimator -kuvaus vastaamaan EN-lähdettä: estimateur käyttää projektityyppiä, kokoa ja épaisseur de fil -tietoa, eikä sitä kuvata échantillon/dimensions-laskurina.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false` ja `articleTranslations`-reitit säilytetty ilman turhia muutoksia.
+- product-claim-/termiriskigrep erätiedostoihin: ei osumia täsmähakulistalla `KnitTools app|application KnitTools|Yarn Label Scanner|AI|IA|OCR|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|€|widget|widgets|achat unique|paiement unique|pas d.?abonnement|sans abonnement|pas de publicit[eé]|sans publicit[eé]|frais r[eé]currents|poids du fil|lib[eé]rez votre cr[eé]ativit[eé]|alli[eé] indispensable|exp[eé]rience fluide|sans effort|parfait pour tous les niveaux|donn[eé]es tr[eè]s peu sensible|tous les cinq points|quatre ou cinq|retour haptique`.
+- suomen-/ruotsin-/norjankielisten jäämien haku erätiedostoihin: ei osumia hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `accessoires...` 12 292 merkkiä / 1 928 sanaa / 18 otsikkoa / 0 bold-FAQ (EN 10 491 / 1 677 / 18 / 0), `rattraper...` 11 192 / 1 817 / 12 / 6 (EN 10 076 / 1 740 / 12 / 6), `calculateurs...` 10 970 / 1 712 / 9 / 4 (EN 9 922 / 1 563 / 9 / 4), `comprendre...` 14 436 / 2 278 / 13 / 7 (EN 12 536 / 2 029 / 13 / 7), `mesurer...` 11 730 / 1 872 / 9 / 5 (EN 10 368 / 1 720 / 9 / 5).
+- linkkitarkistus viidelle tiedostolle: 25 ranskankielistä sisäistä linkkiä, 0 puuttuvaa kohdetta.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle FR-artikkelille OK (unchanged), `npx prettier --check` viidelle FR-artikkelille OK, `git diff --check` viidelle FR-artikkelille OK, product-/termiriskigrep OK, suomi-/ruotsi-/norjajäämähaku OK, H2/H3/FAQ-rakennepariteetti OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä). Build jätetään myöhempään FR-artikkeliväliin, koska reittejä ei muutettu.
+- seuraava vaihe: FR artikkelit erä 3/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fr/quand-echantillon-ne-correspond-pas.md` (`translationKey: "gauge-doesnt-match"`)
+  - `src/content/articles/fr/tricoter-un-echantillon-etape-par-etape.md` (`translationKey: "gauge-swatch-step-by-step"`)
+  - `src/content/articles/fr/combien-de-mailles-monter.md` (`translationKey: "how-many-stitches-to-cast-on"`)
+  - `src/content/articles/fr/combien-de-fil-faut-il.md` (`translationKey: "how-much-yarn-do-i-need"`)
+  - `src/content/articles/fr/bloquer-un-tricot.md` (`translationKey: "how-to-block-knitting"`)
+- seuraava tiedosto: `src/content/articles/fr/quand-echantillon-ne-correspond-pas.md`
+
+FR artikkelit erä 3/8:
+
+- käsitelty 15/38 ranskankielistä artikkelia, tämän erän tiedostot:
+  - `src/content/articles/fr/quand-echantillon-ne-correspond-pas.md`
+  - `src/content/articles/fr/tricoter-un-echantillon-etape-par-etape.md`
+  - `src/content/articles/fr/combien-de-mailles-monter.md`
+  - `src/content/articles/fr/combien-de-fil-faut-il.md`
+  - `src/content/articles/fr/bloquer-un-tricot.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `src/content/articles/gauge-doesnt-match.md`
+  - `src/content/articles/gauge-swatch-step-by-step.md`
+  - `src/content/articles/how-many-stitches-to-cast-on.md`
+  - `src/content/articles/how-much-yarn-do-i-need.md`
+  - `src/content/articles/how-to-block-knitting.md`
+- ennen editointia tarkistettu ajantasaiset lähteet AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n routing -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Prettier CLI -dokumentaatio sekä Craft Yarn Councilin standardipinnat. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3 ja `prettier-plugin-astro` 0.14.1.
+- `quand-echantillon-ne-correspond-pas.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (13 H2 + 0 H3 + 5 FAQ). Korjattu blanket/métrage-poikkeus EN:n `finished area and fabric density` -tasolle ja korjattu demi-maille-esimerkki: 200 mailles -> noin 111 cm, ei virheellinen `180 mailles au lieu de 200` -muotoilu.
+- `tricoter-un-echantillon-etape-par-etape.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (10 H2 + 0 H3 + 0 bold-kysymystä). Tasattu `Réponses rapides` EN:n tavalliseen kappalerakenteeseen ja poistettu tarpeettoman sukupuolitetut `rigoureuse` / `engagée` -muotoilut.
+- `combien-de-mailles-monter.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (13 H2 + 0 H3 + 7 FAQ). Korjattu Cast On Calculator -kuvaus nykyiseen toteutukseen: peruslasku + parillinen pyöristys, ei tarkkojen mallikertamultipleiden ratkaisu. Lisätty EN-lähteen puuttuneet rajaukset pesemättömän/estetyn échantillonin käytöstä, lisière chaînette -reunasta, 1-2 kokoa suuremmasta montage-aiguille-työtavasta sekä côtes/body-siirtymän kahdesta visuaalisesta tuloksesta. Neutraali puhuttelu korvasi `tricoteuses`-kohdat.
+- `combien-de-fil-faut-il.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 6 FAQ). Korjattu Yarn Estimator -väitteet nykyiseen EN- ja komponenttilinjaan: työkalu käyttää projektityyppiä, kokoa ja épaisseur de fil -valintaa, ei omaa échantillon/dimensions-syötettä. Korjattu DK-pullon metrimäärä 1 350 m+ -tasolle, poistettu liian tarkka `20 à 30 %` torsade-väite, pehmennetty jacquard-väite `souvent`-tasolle, neutralisoitu `tricoteuses` ja lievennetty dye-lot-FAQ `moins visible` -tasolle.
+- `bloquer-un-tricot.md`: H2/H3/bold-rakenne vastaa EN-lähdettä (11 H2 + 2 H3 + 6 FAQ). Korjattu heat-varoitus neutraaliksi, palautettu EN:n `block the swatch first` -rajaus, neutralisoitu `tricoteuses` ja lisätty valmiin villapullon blocage-korjauksen mittahaarukka `1 à 2,5 cm`.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false` ja `articleTranslations`-reitit säilytetty ilman turhia muutoksia.
+- product-claim-/termiriskigrep erätiedostoihin: ei osumia täsmähakulistalla `KnitTools app|application KnitTools|Yarn Label Scanner|\bAI\b|\bIA\b|\bOCR\b|\bscanner\b|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|\bmicro\b|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|\bdollar\b|\beuro\b|€|widget|widgets|achat unique|paiement unique|pas d.?abonnement|sans abonnement|pas de publicit[eé]|sans publicit[eé]|frais r[eé]currents|poids du fil|lib[eé]rez votre cr[eé]ativit[eé]|alli[eé] indispensable|exp[eé]rience fluide|sans effort|parfait pour tous les niveaux|donn[eé]es tr[eè]s peu sensible|tous les cinq points|quatre ou cinq|retour haptique|20 à 30|s.en charge|échantillon et de tes dimensions|180 mailles au lieu de 200|tu es déjà engagée|tricoteuses`.
+- suomen-/ruotsin-/norjankielisten jäämien haku erätiedostoihin: ei osumia hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `quand...` 13 H2 / 0 H3 / 5 bold-FAQ, 13 524 merkkiä / 2 059 sanaa (EN 11 990 / 1 875); `tricoter-un-echantillon...` 10 H2 / 0 H3 / 0 bold-FAQ, 11 091 / 1 767 (EN 9 581 / 1 580); `combien-de-mailles...` 13 H2 / 0 H3 / 7 bold-FAQ, 15 994 / 2 626 (EN 13 658 / 2 224); `combien-de-fil...` 8 H2 / 0 H3 / 6 bold-FAQ, 12 631 / 2 030 (EN 11 118 / 1 757); `bloquer...` 11 H2 / 2 H3 / 6 bold-FAQ, 15 784 / 2 501 (EN 13 422 / 2 110).
+- linkkitarkistus viidelle tiedostolle: 23 ranskankielistä sisäistä linkkiä, 0 puuttuvaa dist-kohdetta.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle FR-artikkelille OK (unchanged), `npx prettier --check` viidelle FR-artikkelille OK, `git diff --check` viidelle FR-artikkelille OK, product-/termiriskigrep OK, suomi-/ruotsi-/norjajäämähaku OK, linkkitarkistus OK, H2/H3/bold-rakennepariteetti OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä). Build jätetään myöhempään FR-artikkeliväliin, koska reittejä ei muutettu.
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --write` viidelle FR-artikkelille ja etenemislokille OK (unchanged), `npx prettier --check` viidelle FR-artikkelille ja etenemislokille OK, `git diff --check` viidelle muokatulle FR-artikkelille OK. Etenemisloki on tässä työpuussa gitin näkökulmasta untracked, joten `git diff --check` ei sisällä sitä; Prettier tarkisti lokin.
+- seuraava vaihe: FR artikkelit erä 4/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fr/tricoter-un-bonnet.md` (`translationKey: "how-to-knit-hat"`)
+  - `src/content/articles/fr/tricoter-des-chaussettes.md` (`translationKey: "how-to-knit-socks"`)
+  - `src/content/articles/fr/lire-une-etiquette-de-pelote.md` (`translationKey: "how-to-read-yarn-label"`)
+  - `src/content/articles/fr/remplacer-un-fil-dans-un-modele.md` (`translationKey: "how-to-substitute-yarn"`)
+  - `src/content/articles/fr/identifier-un-fil-sans-etiquette.md` (`translationKey: "identify-mystery-yarn"`)
+- seuraava tiedosto: `src/content/articles/fr/tricoter-un-bonnet.md`
+
+FR artikkelit erä 4/8:
+
+- käsitelty 20/38 ranskankielistä artikkelia, tämän erän tiedostot:
+  - `src/content/articles/fr/tricoter-un-bonnet.md`
+  - `src/content/articles/fr/tricoter-des-chaussettes.md`
+  - `src/content/articles/fr/lire-une-etiquette-de-pelote.md`
+  - `src/content/articles/fr/remplacer-un-fil-dans-un-modele.md`
+  - `src/content/articles/fr/identifier-un-fil-sans-etiquette.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `how-to-knit-hat` -> `src/content/articles/how-to-knit-hat.md`
+  - `how-to-knit-socks` -> `src/content/articles/how-to-knit-socks.md`
+  - `how-to-read-yarn-label` -> `src/content/articles/how-to-read-yarn-label.md`
+  - `how-to-substitute-yarn` -> `src/content/articles/how-to-substitute-yarn.md`
+  - `identify-mystery-yarn` -> `src/content/articles/identify-mystery-yarn.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n routing -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Craft Yarn Councilin yarn label-, yarn weight-, WPI-, hooks and needles- ja head circumference -sivut, Tin Can Knitsin sock- ja beanie-ohjeet sekä ACS/FabricLink-kuitutestilähteet.
+- `tricoter-un-bonnet.md`: tasattu EN-rakenteeseen ja riskitasoon poistamalla liian nopea "quelques heures / une soirée" -sävy, pitämällä fil/aiguilles-väitteet yleisempinä, muuttamalla `prête` neutraaliksi ja pitämällä pomponin kiinnitys EN:n irrotettavan hoitorajauksen tasolla.
+- `tricoter-des-chaussettes.md`: täydennetty EN:n cuff-down/toe-up-, talon-, aiguilles-, sizing- ja FAQ-rajaukset, poistettu ylimääräinen CYC-foot-chart -lisäväite, lisätty straight-needle-FAQ:n "valitse toinen ensimmäinen projekti" -rajaus sekä neutralisoitu sukupuolitetut `tricoteuses`-muotoilut.
+- `lire-une-etiquette-de-pelote.md`: pehmennetty liian ehdottomat entretien-väitteet (`peut feutrer`, `peut sortir...`), neutralisoitu `tricoteuses`-kohdat ja pidetty vanha scanner/app-claim poissa nykyisen manuaalisen note-taking -linjan mukaisesti.
+- `remplacer-un-fil-dans-un-modele.md`: korjattu Yarn Estimator -claim nykyiseen EN/tools-toteutukseen: työkalu antaa projektityypin, koon ja épaisseur de fil -pohjaisen metritarkistuksen, mutta ei korvaa mallin metrimäärää, pelotekohtaista métrage-tietoa tai uutta échantillonia. Lisäksi matalan riskin substitution-kohta palautettiin EN:n varovaisempaan muotoon ja `créatrice` neutralisoitiin.
+- `identifier-un-fil-sans-etiquette.md`: poistettu vanha `scanner d'étiquette KnitTools` -claim, pidetty WPI-lista EN/CYC-pariteetissa, täsmennetty burn-test-turvarajaus ja water-test-akryylirajaus sekä neutralisoitu `tricoteuses` / `Sois prudente`.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- product-claim-/termiriskigrep erätiedostoihin: ei osumia täsmähakulistalla `prête|tricoteuses|tricoteuse|détractrices|créatrice|Sois prudente|Sois prudent|poids du fil|jauge|KnitTools app|application KnitTools|Yarn Label Scanner|AI|IA|OCR|scanner|cam[eé]ra|commande vocale|commandes vocales|journal vocal|voix conversationnelle|reconnaissance vocale|microphone|micro|scan d.?[eé]tiquette|scanner d.?[eé]tiquette|analyseur|parser|interpr[eè]te|achat unique|paiement unique|sans abonnement|sans publicit[eé]|frais r[eé]currents|lib[eé]rez votre cr[eé]ativit[eé]|alli[eé] indispensable|exp[eé]rience fluide|sans effort|parfait pour tous les niveaux`.
+- suomen-/ruotsin-/norjankielisten jäämien haku erätiedostoihin: ei osumia hakulistalla `neule|silmukka|puikko|lanka|mallitilkku|kerros|väline|pingotus|sovellus|suomi|ruotsi|paita|huivi|laskuri|joustin|mallikerta|stickfasthet|provlapp|maskor|garntjocklek|strikkefasthet|prøvelapp|garntykkelse`.
+- AI-filler-/englanninkielinen banned-term -haku erätiedostoihin: ei osumia hakulistalla `whether|beginner|experienced|easy|perfect|simply|just|delve|comprehensive|seamless|happy knitting|not just|let's|journey|vibrant|crucial|utilize|facilitate|furthermore|moreover`.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `tricoter-un-bonnet...` 9 H2 / 0 H3 / 5 bold-FAQ, 11 829 merkkiä / 2 015 sanaa (EN 10 038 / 1 718 / 9 H2 / 0 H3); `tricoter-des-chaussettes...` 9 H2 / 0 H3 / 5 bold-FAQ, 15 155 / 2 458 (EN 12 694 / 2 106 / 9 H2 / 0 H3 / 5 FAQ); `lire-une-etiquette...` 9 H2 / 0 H3 / 4 bold-FAQ, 9 818 / 1 588 (EN 8 400 / 1 395 / 9 H2 / 0 H3 / 4 FAQ); `remplacer-un-fil...` 7 H2 / 0 H3 / 4 bold-FAQ, 9 791 / 1 574 (EN 8 508 / 1 389 / 7 H2 / 0 H3 / 4 FAQ); `identifier-un-fil...` 6 H2 / 3 H3 / 3 bold-FAQ, 6 810 / 1 113 (EN 5 947 / 1 010 / 6 H2 / 3 H3 / 3 FAQ).
+- linkkitarkistus viidelle tiedostolle: 11 ranskankielistä sisäistä linkkiä, 0 puuttuvaa reittiä nykyisessä source-route/article-mapissa.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle FR-artikkelille OK (unchanged), `npx prettier --check` OK, `git diff --check` viidelle FR-artikkelille OK, product-/termiriskigrep OK, suomi-/ruotsi-/norjajäämähaku OK, AI-filler-/englanninkielinen banned-term -haku OK, linkkitarkistus OK, H2/H3/bold-rakennepariteetti OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua) ja dist-polut olemassa kaikille 5 FR-artikkelille.
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --write` ja `npx prettier --check` viidelle FR-artikkelille ja etenemislokille OK (unchanged), `git diff --check` viidelle FR-artikkelille OK, `translationKey`/`draft: false`/`lang: fr` tarkistettu viidessä erätiedostossa, dist-polut olemassa kaikille viidelle FR-artikkelille.
+- seuraava vaihe: FR artikkelit erä 5/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fr/repartir-augmentations-diminutions-regulierement.md` (`translationKey: "increase-decrease-evenly"`)
+  - `src/content/articles/fr/changer-de-pelote-au-milieu-du-rang.md` (`translationKey: "join-new-ball-of-yarn"`)
+  - `src/content/articles/fr/tricoter-sa-premiere-echarpe.md` (`translationKey: "knit-first-scarf"`)
+  - `src/content/articles/fr/aiguilles-a-tricoter-metal-bois-bambou.md` (`translationKey: "knitting-needle-materials"`)
+  - `src/content/articles/fr/repetitions-dans-les-modeles-de-tricot.md` (`translationKey: "knitting-pattern-repeats"`)
+- seuraava tiedosto: `src/content/articles/fr/repartir-augmentations-diminutions-regulierement.md`
+
+FR artikkelit erä 5/8:
+
+- käsitelty 25/38 ranskankielistä artikkelia, tämän erän tiedostot:
+  - `src/content/articles/fr/repartir-augmentations-diminutions-regulierement.md`
+  - `src/content/articles/fr/changer-de-pelote-au-milieu-du-rang.md`
+  - `src/content/articles/fr/tricoter-sa-premiere-echarpe.md`
+  - `src/content/articles/fr/aiguilles-a-tricoter-metal-bois-bambou.md`
+  - `src/content/articles/fr/repetitions-dans-les-modeles-de-tricot.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `increase-decrease-evenly` -> `src/content/articles/increase-decrease-evenly.md`
+  - `join-new-ball-of-yarn` -> `src/content/articles/join-new-ball-of-yarn.md`
+  - `knit-first-scarf` -> `src/content/articles/knit-first-scarf.md`
+  - `knitting-needle-materials` -> `src/content/articles/knitting-needle-materials.md`
+  - `knitting-pattern-repeats` -> `src/content/articles/knitting-pattern-repeats.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n routing -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Prettier CLI -dokumentaatio, Craft Yarn Councilin knitting abbreviations- ja pattern-reading -sivut, Yarnspirationsin uuden langan liittämisohje, Sheep & Stitchin Russian join -ohje, The Fibre Co:n spit splice -ohje, Studio Knitin garter stitch -ohje ja neulamateriaalien nykyiset vertailulähteet. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3 ja `prettier-plugin-astro` 0.14.1.
+- `repartir-augmentations-diminutions-regulierement.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (15 H2 + 0 H3 + 6 FAQ). Neutralisoitu `créatrice`/`tricoteuses`-kohdat, korjattu CDD-lyhenne EN/CYC-tasolle (`S2KP2` / `sl2-k1-p2sso`) ja pidetty laskuriväite konservatiivisena ilman vahvempaa ominaisuuslupausta.
+- `changer-de-pelote-au-milieu-du-rang.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 1 H3 + 5 FAQ). Poistettu ylimääräinen FR-only FAQ, neutralisoitu `tricoteuses`-kohdat, lievennetty Russian join -single-rajaus EN:n `harder to join neatly` -tasolle, pehmennetty spit splice -väitteet `peut devenir presque invisible` -tasolle ja muutettu magic knot -väite `beaucoup de fils, avec compromis` -linjaan.
+- `tricoter-sa-premiere-echarpe.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 4 H3 + 7 FAQ). Korjattu avaus EN:n `strong first project` -tasolle, palautettu `no row-by-row pattern` -rajaus, tarkennettu long-tail-montage 3-4x + marginaali -muotoon, lisätty edge-/seaming-rajaus, korjattu splitty-yarn-väite pois `fil trop fragile` -tasolta ja neutralisoitu FAQ:n sukupuolitettu puhuttelu.
+- `aiguilles-a-tricoter-metal-bois-bambou.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (10 H2 + 0 H3 + 6 FAQ). Pehmennetty metallineulaväite `souvent les plus glissantes et les plus durables au quotidien` -tasolle, poistettu `presque indestructibles`, neutralisoitu sukupuolitetut muotoilut ja pidetty arthritis-/hand-pain-FAQ EN:n varovaisella lääketieteellisellä rajauksella.
+- `repetitions-dans-les-modeles-de-tricot.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 0 H3 + 6 FAQ). Neutralisoitu `habituée` ja `créatrice`-kohdat, korjattu diagrammilauserakenne sekä pidetty asteriski-/crochet-/parenthèses-merkitykset CYC:n pattern-reading-ohjeen mukaisina.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `repartir...` 15 H2 / 0 H3 / 6 FAQ, 15 856 merkkiä / 2 634 sanaa (EN 15 283 / 2 587 / 15 H2 / 0 H3 / 6 FAQ); `changer-de-pelote...` 12 H2 / 1 H3 / 5 FAQ, 13 531 / 2 281 (EN 12 052 / 2 047 / 12 H2 / 1 H3 / 5 FAQ); `tricoter-sa-premiere-echarpe...` 11 H2 / 4 H3 / 7 FAQ, 14 128 / 2 384 (EN 12 871 / 2 234 / 11 H2 / 4 H3 / 7 FAQ); `aiguilles-a-tricoter...` 10 H2 / 0 H3 / 6 FAQ, 11 793 / 1 856 (EN 10 703 / 1 733 / 10 H2 / 0 H3 / 6 FAQ); `repetitions...` 11 H2 / 0 H3 / 6 FAQ, 13 023 / 2 204 (EN 10 787 / 1 849 / 11 H2 / 0 H3 / 6 FAQ).
+- linkkitarkistus viidelle tiedostolle: ranskankieliset artikkeli- ja tools-linkit löytyvät nykyisestä `articleTranslations`-kartasta tai `src/pages/fr/outils/`-poluista.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle FR-artikkelille OK (unchanged), product-/termiriskigrep OK, suomi-/ruotsi-/norjajäämähaku OK, AI-filler-/englanninkielinen banned-term -haku OK pois lukien tarkoituksellinen ranskankielinen `imperfection`, linkkitarkistus OK, H2/H3/FAQ-rakennepariteetti OK. Build jätetään myöhempään FR-artikkeliväliin, koska erä 4/8 ajoi buildin ja tässä erässä reittejä ei muutettu.
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --write` ja `npx prettier --check` viidelle FR-artikkelille ja etenemislokille OK (unchanged), `git diff --check` viidelle FR-artikkelille OK, product-/termiriskigrep OK, suomi-/ruotsi-/norjajäämähaku OK, AI-filler-/englanninkielinen banned-term -haku OK pois lukien `perfect`-hakusanan tarkoitukselliset `perfection`/`imperfection`-osumat, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä).
+- seuraava vaihe: FR artikkelit erä 6/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fr/tailles-dans-les-modeles-de-tricot.md` (`translationKey: "knitting-pattern-sizes-and-fit"`)
+  - `src/content/articles/fr/taille-aiguilles-pour-debuter.md` (`translationKey: "needle-size-for-beginners"`)
+  - `src/content/articles/fr/organiser-ses-projets-tricot.md` (`translationKey: "organize-knitting-projects"`)
+  - `src/content/articles/fr/lire-un-modele-de-tricot.md` (`translationKey: "how-to-read-knitting-pattern"`)
+  - `src/content/articles/fr/relever-des-mailles.md` (`translationKey: "pick-up-stitches"`)
+- seuraava tiedosto: `src/content/articles/fr/tailles-dans-les-modeles-de-tricot.md`
+
+FR artikkelit erä 6/8:
+
+- käsitelty 30/38 ranskankielistä artikkelia, tämän erän tiedostot:
+  - `src/content/articles/fr/tailles-dans-les-modeles-de-tricot.md`
+  - `src/content/articles/fr/taille-aiguilles-pour-debuter.md`
+  - `src/content/articles/fr/organiser-ses-projets-tricot.md`
+  - `src/content/articles/fr/lire-un-modele-de-tricot.md`
+  - `src/content/articles/fr/relever-des-mailles.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `knitting-pattern-sizes-and-fit` -> `src/content/articles/knitting-pattern-sizes-and-fit.md`
+  - `needle-size-for-beginners` -> `src/content/articles/needle-size-for-beginners.md`
+  - `organize-knitting-projects` -> `src/content/articles/organize-knitting-projects.md`
+  - `how-to-read-knitting-pattern` -> `src/content/articles/how-to-read-knitting-pattern.md`
+  - `pick-up-stitches` -> `src/content/articles/pick-up-stitches.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n routing -dokumentaatio, Google localized versions / hreflang -dokumentaatio, Craft Yarn Councilin hooks and needles-, knitting abbreviations- ja fit/ease-standardipinnat sekä Modern Daily Knittingin pick up / pick up and knit -tekniikkalähde. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3 ja `prettier-plugin-astro` 0.14.1.
+- `tailles-dans-les-modeles-de-tricot.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (13 H2 + 0 H3 + 4 FAQ). Korjattu aisance positive -haarukka EN/CYC-linjaan (`10 à 15 cm` ample, sen yli oversize-vaikutelma riippuu myös construction/épaisseur de fil -tekijöistä), lisätty haut du dos / épaules -mittausrajauksen EN-sävy, täsmennetty emmanchure-raccourci ja neutralisoitu `créatrice`/`tricoteuses`-muotoilut.
+- `taille-aiguilles-pour-debuter.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 0 H3 + 6 FAQ). Neutralisoitu `tricoteuses`/`débutantes`/`sûre`-muotoilut säilyttäen US 8 / 5,0 mm, US 7-9, worsted, bamboo/wood ja interchangeable-set -rajaukset nykyisen EN-lähteen tasolla.
+- `organiser-ses-projets-tricot.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 3 FAQ). Neutralisoitu avaus ja `où tu t'es arrêtée` -kohdat, korjattu progress milestone -kohta EN:n `continue, pause it deliberately, or reclaim the yarn` -päätöslistaan ja vaihdettu discontinued dye lot -riski ranskaksi `bain introuvable` -muotoon.
+- `lire-un-modele-de-tricot.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (14 H2 + 2 H3 + 7 FAQ). Korjattu `Chaque modèle` -> `La plupart des modèles`, palautettu substitution-kohtaan EN:n échantillon/fibre/métrage-kolmitarkistus, lisätty diagrammes en rond -lukusuunta, siistitty notes/errata/format-standard -kohdat ja neutralisoitu créatrice/lectrice/tricoteuses-muotoilut.
+- `relever-des-mailles.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 2 H3 + 6 FAQ). Korjattu `Relever avec un fil contrastant` EN-pariteettiin `Tester le relevage avec un reste de fil`: testaa, laske, poista ja tee uudelleen projektin langalla. Lisäksi täsmennetty nombre à relever / longueur du bord -rytmi, steek-varoituksen `peut souvent` -varaus, longueur-ajon directional-stitch-rajaus ja rippling-FAQ:n row/stitch gauge + edge length -suhde.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: fr`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `tailles...` 13 H2 / 0 H3 / 4 FAQ, 15 065 merkkiä / 2 407 sanaa (EN 13 116 / 2 082 / 13 H2 / 0 H3 / 4 FAQ); `taille-aiguilles...` 9 H2 / 0 H3 / 6 FAQ, 11 086 / 1 713 (EN 9 400 / 1 486 / 9 H2 / 0 H3 / 6 FAQ); `organiser...` 8 H2 / 0 H3 / 3 FAQ, 9 737 / 1 490 (EN 9 266 / 1 453 / 8 H2 / 0 H3 / 3 FAQ); `lire-un-modele...` 14 H2 / 2 H3 / 7 FAQ, 16 693 / 2 511 (EN 14 046 / 2 129 / 14 H2 / 2 H3 / 7 FAQ); `relever...` 12 H2 / 2 H3 / 6 FAQ, 13 527 / 2 141 (EN 11 811 / 1 904 / 12 H2 / 2 H3 / 6 FAQ).
+- linkkitarkistus viidelle tiedostolle: 15 ranskankielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisessä `articleTranslations`-kartassa tai `src/pages/fr/outils/`-lähteissä.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle FR-artikkelille OK (unchanged), `npx prettier --check` OK, `git diff --check` viidelle FR-artikkelille OK, product-/termiriskigrep OK, suomi-/ruotsi-/norjajäämähaku OK, AI-filler-/englanninkielinen banned-term -haku OK, linkkitarkistus OK, H2/H3/FAQ-rakennepariteetti OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua) ja dist-polut olemassa kaikille viidelle FR-artikkelille.
+- seuraava vaihe: FR artikkelit erä 7/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/fr/assembler-des-pieces-tricotees.md` (`translationKey: "seam-knitted-pieces"`)
+  - `src/content/articles/fr/suivre-son-temps-et-sa-vitesse-de-tricot.md` (`translationKey: "track-knitting-time"`)
+  - `src/content/articles/fr/suivre-les-rangs-au-tricot.md` (`translationKey: "track-rows-knitting"`)
+  - `src/content/articles/fr/pourquoi-le-tricot-roule.md` (`translationKey: "why-knitting-curls"`)
+  - `src/content/articles/fr/fibres-de-fil-laine-coton-acrylique.md` (`translationKey: "yarn-fibers-compared"`)
+- seuraava tiedosto: `src/content/articles/fr/assembler-des-pieces-tricotees.md`
+
+FR artikkelit erä 7/8:
+
+- käsitelty 35/38 ranskankielistä artikkelia, tämän erän tiedostot:
+  - `src/content/articles/fr/assembler-des-pieces-tricotees.md`
+  - `src/content/articles/fr/suivre-son-temps-et-sa-vitesse-de-tricot.md`
+  - `src/content/articles/fr/suivre-les-rangs-au-tricot.md`
+  - `src/content/articles/fr/pourquoi-le-tricot-roule.md`
+  - `src/content/articles/fr/fibres-de-fil-laine-coton-acrylique.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `seam-knitted-pieces` -> `src/content/articles/seam-knitted-pieces.md`
+  - `track-knitting-time` -> `src/content/articles/track-knitting-time.md`
+  - `track-rows-knitting` -> `src/content/articles/track-rows-knitting.md`
+  - `why-knitting-curls` -> `src/content/articles/why-knitting-curls.md`
+  - `yarn-fibers-compared` -> `src/content/articles/yarn-fibers-compared.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Craft Yarn Councilin Standards & Guidelines PDF ja Care Symbols -sivu, Modern Daily Knittingin mattress stitch -tekniikkalähde, TECHknittingin stockinette-curl-selitys sekä Woolmarkin villakuidun ominaisuuslähde. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3 ja `prettier-plugin-astro` 0.14.1.
+- `assembler-des-pieces-tricotees.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 2 H3 + 11 FAQ). Tarkistettu seaming-methods-taulukko, point de matelas, rabattage à trois aiguilles, grafting/Kitchener, manches montées, rayures/jacquard ja common-mistakes/FAQ nykyistä EN-rakennetta vasten; ei tarvinnut uutta sisältömuutosta tässä jatkoerässä.
+- `suivre-son-temps-et-sa-vitesse-de-tricot.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 3 H3 + 6 FAQ). Korjattu KnitTools-tuotekohta EN:n varovaiseksi kehitystilaksi (`en cours de développement`) eikä valmiiksi toteutetuksi ominaisuudeksi.
+- `suivre-les-rangs-au-tricot.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 0 H3 + 9 FAQ). Poistettu ylimääräinen `support des répétitions` -tuoteväite, jota EN-lähde ei lupaa; jäljellä on EN:n mukainen comptage tactile, annulation, compteurs multiples ja suivi des séances.
+- `pourquoi-le-tricot-roule.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (7 H2 + 6 H3 + 6 FAQ). Korjattu avaus vastaamaan EN/TECHknitting-rakennetta ilman liian varmaa `mailles endroit plus étroites` -selitystä, pehmennetty superwash-otsikko ja sisältö EN:n `can be harder to tame` -tasolle sekä tehty akryylin höyrymuokkauskohta varovaisemmaksi: höyry ilman kosketusta, testaa ensin, vältä kiiltävää/mollea pintaa ja suoraa rautakosketusta.
+- `fibres-de-fil-laine-coton-acrylique.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (7 H2 + 0 H3 + 5 FAQ). Tarkistettu villa/coton/acrylique/autres fibres/mélanges -rakenne ja Woolmark-lähteellä villan elasticity/moisture/softness -väitteiden suunta; ei tarvinnut uutta sisältömuutosta tässä jatkoerässä.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: fr`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `assembler...` 11 H2 / 2 H3 / 11 FAQ, 16 443 merkkiä / 2 574 sanaa (EN 13 936 / 2 195 / 11 H2 / 2 H3 / 11 FAQ); `suivre-son-temps...` 8 H2 / 3 H3 / 6 FAQ, 10 159 / 1 628 (EN 8 966 / 1 381 / 8 H2 / 3 H3 / 6 FAQ); `suivre-les-rangs...` 11 H2 / 0 H3 / 9 FAQ, 11 054 / 1 769 (EN 9 785 / 1 573 / 11 H2 / 0 H3 / 9 FAQ); `pourquoi...` 7 H2 / 6 H3 / 6 FAQ, 10 895 / 1 761 (EN 9 815 / 1 514 / 7 H2 / 6 H3 / 6 FAQ); `fibres...` 7 H2 / 0 H3 / 5 FAQ, 13 781 / 2 203 (EN 11 906 / 1 801 / 7 H2 / 0 H3 / 5 FAQ).
+- linkkitarkistus viidelle tiedostolle: 13 ranskankielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisessä `articleTranslations`-kartassa tai `src/pages/fr/outils/`-lähteissä.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle FR-artikkelille OK (unchanged), product-/termiriskigrep OK, suomi-/ruotsi-/norjajäämähaku OK, AI-filler-/englanninkielinen banned-term -haku OK, linkkitarkistus OK ja H2/H3/FAQ-rakennepariteetti OK.
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --write` ja `npx prettier --check` viidelle FR-artikkelille ja etenemislokille OK; `git diff --check` viidelle FR-artikkelille OK; product-/termiriskigrep OK; suomi-/ruotsi-/norjajäämähaku OK; AI-filler-/englanninkielinen banned-term -haku OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK (411 sivua); dist-polut olemassa kaikille viidelle FR-artikkelille.
+
+FR artikkelit erä 8/8:
+
+- käsitelty 38/38 ranskankielistä artikkelia, tämän erän viimeiset tiedostot:
+  - `src/content/articles/fr/combien-de-fil-pour-une-couverture.md`
+  - `src/content/articles/fr/combien-de-fil-pour-un-pull.md`
+  - `src/content/articles/fr/remplacer-par-une-autre-epaisseur-de-fil.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `yarn-for-blanket` -> `src/content/articles/yarn-for-blanket.md`
+  - `yarn-for-sweater` -> `src/content/articles/yarn-for-sweater.md`
+  - `yarn-weight-substitution` -> `src/content/articles/yarn-weight-substitution.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Craft Yarn Councilin nykyinen Standard Yarn Weight System -sivu ja Standards & Guidelines -PDF sekä Lion Brandin nykyinen yarn-needed-taulukko. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3 ja `prettier-plugin-astro` 0.14.1.
+- `combien-de-fil-pour-une-couverture.md`: tasattu EN-lähteeseen päivittämällä peittokokojen metriset lankamäärähaarukat nykyisiä yardage-arvoja vastaaviksi, lisäämällä dentelle-osioon lämpö-/säästörajaus, täydentämällä restelanka-, hinta- ja aikataulu-FAQ:t sekä yhtenäistämällä yarn category -termit (`Worsted`, `Bulky`, `Super Bulky`, `Fingering`).
+- `combien-de-fil-pour-un-pull.md`: tarkennettu pitkän mallin lisäpituuden sanamuotoa, lisätty EN:n mukainen huomio échantillon/côtes-détricotage-kulutuksesta ja korjattu "homme/femme" FAQ vertaamaan valmiita mittoja, pituutta, hihoja, échantillonia ja rakennetta pelkän rintaympäryksen sijasta.
+- `remplacer-par-une-autre-epaisseur-de-fil.md`: tasattu EN:n nykyiseen worked-example-rakenteeseen metrisenä: 20 -> 24 mailles / 10 cm, 200 -> 240 mailles, 112 -> 128 rangs ja 1 280 m -> 1 650-1 830 m. Samalla poistettu ylimääräinen vanhojen mallien aikakausiväite, pehmennetty vintage-osio CYC-kategorioiden tasolle ja erotettu riskiosion sleeve-cap/lace/colorwork/cable-varoitukset EN-rakenteen mukaisiksi.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: fr`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `combien-de-fil-pour-une-couverture...` 8 H2 / 0 H3 / 4 FAQ, 11 201 merkkiä / 1 809 sanaa (EN 9 769 / 1 518 / 8 H2 / 0 H3 / 4 FAQ); `combien-de-fil-pour-un-pull...` 8 H2 / 0 H3 / 5 FAQ, 10 231 / 1 680 (EN 9 243 / 1 430 / 8 H2 / 0 H3 / 5 FAQ); `remplacer-par-une-autre-epaisseur-de-fil...` 10 H2 / 0 H3 / 6 FAQ, 15 026 / 2 362 (EN 13 168 / 2 022 / 10 H2 / 0 H3 / 6 FAQ).
+- linkkitarkistus kolmelle tiedostolle: 10 ranskankielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisessä `articleTranslations`-kartassa tai `src/pages/fr/outils/`-lähteissä.
+- riskigrepit: app-/AI-/skanneri-/ääni-/hinta-/widget-tuoteväitteet 0 osumaa, suomi-/ruotsi-/norjajäämät 0 osumaa, ranskan filler-/termikieltohaku 0 osumaa.
+- tarkistukset: `npx prettier --write` kolmelle FR-artikkelille OK, `npx prettier --check` kolmelle FR-artikkelille OK, `git diff --check` kolmelle FR-artikkelille OK, `npm run check` OK toistettuna yksin (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua); dist-polut olemassa kaikille kolmelle FR-artikkelille.
+- huomio: ensimmäinen `npm run check` epäonnistui, koska se ajettiin vahingossa rinnakkain `npm run build` -komennon kanssa ja Astro yritti kirjoittaa samaa `node_modules/.astro/data-store.json` -tiedostoa. Sama komento toistettuna yksin meni läpi.
+- seuraava vaihe: DE tools erä 1/2, ensimmäiset 3 saksankielistä tools-sivua nykyisiin englanninkielisiin lähdesivuihin verrattuna:
+  - `src/pages/de/werkzeuge/index.astro`
+  - `src/pages/de/werkzeuge/maschenanschlag-rechner.astro`
+  - `src/pages/de/werkzeuge/garnbedarfsrechner.astro`
+- seuraava tiedosto: `src/pages/de/werkzeuge/index.astro`
+
+DE tools erä 1/2:
+
+- käsitelty 3/7 saksankielistä tools-sivua nykyisiä englanninkielisiä lähdesivuja ja jaettuja komponentteja vasten:
+  - `src/pages/de/werkzeuge/index.astro`
+  - `src/pages/de/werkzeuge/maschenanschlag-rechner.astro`
+  - `src/pages/de/werkzeuge/garnbedarfsrechner.astro`
+- vertailtu lähteisiin:
+  - `src/pages/tools/index.astro`
+  - `src/pages/tools/cast-on-calculator.astro`
+  - `src/pages/tools/yarn-estimator.astro`
+  - `src/components/CastOnCalculator.astro`
+  - `src/components/YarnEstimator.astro`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections- ja i18n-dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System / Standards & Guidelines sekä Lion Brandin nykyinen yarn needed -taulukko. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2; repo käyttää `astro` `^6.1.3`.
+- `index.astro`: reitit, canonical, `lang="de"`, alternates, JSON-LD ItemList ja kuuden kortin järjestys vastaavat nykyistä lokalisoitua tools-index-mallia; ei tarvinnut sisältömuutosta tässä erässä.
+- `maschenanschlag-rechner.astro`: rakenne vastaa EN-lähdettä 3 sisältö-H2:lla ja 5 FAQ:lla. Aiempi saksankielinen mittayksikkökorjaus `4 in` -> `4 Zoll` on edelleen oikea; ei tehty uutta sisältömuutosta.
+- `garnbedarfsrechner.astro`: tasattu nykyiseen EN/FR/NO-rakenteeseen 3 sisältö-H2:een ja 5 FAQ:hun. Poistettu ylimääräinen reserveknäuel-H2, lisätty turvallisuusmarginaali ja värjäyserävaraus EN:n tasolle, pidetty metri/yard-teksti koska saksan laskuri näyttää yhä molemmat yksiköt.
+- `src/components/YarnEstimator.astro`: saksan disclaimer pehmennetty pois ehdottomasta `Kaufe meistens ein Knäuel extra` -muodosta EN:n varovaiselle tasolle, ja saksan laskurin kokovalinnoille lisätty `de`-labelit, jotta dropdown ei näytä käyttäjälle englanninkielisiä kokoja (`Preemie`, `Newborn`, `Toddler`, `One Size` jne.).
+- frontmatteria, reittejä, slug-rakennetta, `canonicalPath`-arvoja ja `alternates`-rakenteita ei muutettu.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` kahdelle muokatulle tiedostolle OK, `npx prettier --check` neljälle erän tiedostolle OK, `git diff --check` neljälle erän tiedostolle OK, DE pages -riskigrep 0 osumaa, komponenttitason laaja riskigrep löysi vain sisäisiä datakeys-/muiden kielten lähdetekstejä eikä uutta DE-renderöityä riskitekstiä, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä).
+- build jätetty DE tools -kokonaisuuden loppuun, koska erä 1/2 ei muuttanut reittejä eikä `dist`-tulosta tarvitse päivittää ennen erää 2/2.
+- seuraava vaihe: DE tools erä 2/2, loput 4 saksankielistä tools-sivua nykyisiin englanninkielisiin lähdesivuihin verrattuna:
+  - `src/pages/de/werkzeuge/nadelstaerken-tabelle.astro`
+  - `src/pages/de/werkzeuge/garnstaerken-tabelle.astro`
+  - `src/pages/de/werkzeuge/strickabkuerzungen.astro`
+  - `src/pages/de/werkzeuge/groessentabellen-stricken.astro`
+- seuraava tiedosto: `src/pages/de/werkzeuge/nadelstaerken-tabelle.astro`
+
+DE tools erä 2/2:
+
+- käsitelty 7/7 saksankielistä tools-sivua; tämän erän tiedostot:
+  - `src/pages/de/werkzeuge/nadelstaerken-tabelle.astro`
+  - `src/pages/de/werkzeuge/garnstaerken-tabelle.astro`
+  - `src/pages/de/werkzeuge/strickabkuerzungen.astro`
+  - `src/pages/de/werkzeuge/groessentabellen-stricken.astro`
+- vertailtu nykyisiin englanninkielisiin lähdesivuihin:
+  - `src/pages/tools/needle-size-chart.astro`
+  - `src/pages/tools/yarn-weight-chart.astro`
+  - `src/pages/tools/knitting-abbreviations.astro`
+  - `src/pages/tools/knitting-size-charts.astro`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections- ja i18n-dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System / Standards & Guidelines, CYC:n abbreviations/pattern-reading-lähde sekä CYC-tyyliset body measurements / fit-ease -rajaukset.
+- `nadelstaerken-tabelle.astro`: taulukko tasattu nykyiseen EN-taulukkoon lisäämällä puuttuneet japanilaiset välikoot ja korjaamalla päällekkäiset yarn weight -alueet. Sisältö tasattu EN-rakenteeseen 5 sisältö-H2:lla: neljä mittajärjestelmää, millimetrien ensisijaisuus, conversion pitfalls, needle/yarn pairing ja unmarked needles. Sisäiset linkit ohjattu saksankielisiin reitteihin.
+- `garnstaerken-tabelle.astro`: FAQ-vastaukset laajennettu EN:n varovaiselle tasolle, sisältö tasattu EN-rakenteeseen 5 H2 + 6 H3 -runkoon, lisätty CYC Size 8 -varaus ilman että julkista 0-7-taulukkoa muutetaan, täydennetty WPI-/labelittömän langan / projektivalinnan / needle size -osiot ja pidetty Garnstärke-termistö German guide -linjassa.
+- `strickabkuerzungen.astro`: FAQ-määrä palautettu EN-pariteettiin 4 kysymykseen, poistettu ylimääräinen yleis-FAQ ja laajennettu sisältö nykyiseen EN-rakenteeseen: abbreviation groups, US vs UK, pattern-specific shortcuts, chart symbols ja early abbreviations. Glossary-data, kategoriat, haku, canonical ja reitit jätetty ennalleen.
+- `groessentabellen-stricken.astro`: FAQ:t ja intro tasattu EN-lähteeseen, sisältö laajennettu 3 sisältö-H2-runkoon: mittaaminen, body vs finished garment measurements ja between sizes. Lisätty EN/CYC-linjan mukainen Mehrweite-rajaus ja saksankieliset linkit Garnbedarfsrechner-, Pullover-Garn-, Maschenprobe- ja Maschenprobe-messen -sivuille.
+- frontmatteria, slug-rakennetta, `canonicalPath`-arvoja, `lang="de"`-asetusta, `alternates`-rakenteita tai `articleTranslations`-karttaa ei muutettu.
+- rakennepariteetti sisältöosioissa: Nadelstärken 5 H2 / 0 H3 / 4 FAQ, Garnstärken 5 H2 / 6 H3 / 4 FAQ, Strickabkürzungen 5 H2 / 0 H3 / 4 FAQ, Größentabellen 3 H2 / 0 sisällöllistä H3 / 4 FAQ. Huom: `groessentabellen-stricken.astro` sisältää lisäksi yhden taulukkocaption-H3:n kuten EN-lähde.
+- linkkitarkistus neljälle tiedostolle: kaikki uudet saksankieliset `/de/artikel/.../` ja `/de/werkzeuge/.../` -sisäiset linkit löytyvät nykyisistä source-tiedostoista.
+- riskigrep: visible EN UI residue / tuotetyökalulupaukset / AI-OCR-skanneri-ääni-hintaväitteet 0 osumaa tiukennetulla hakulistalla. Laajemman englantihaun jäljelle jääneet osumat olivat tarkoituksellisia abbreviation-glossary- ja data-avainsanoja kuten `gauge`, `stockinette`, `stitch-patterns` ja JS-muuttujia.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` neljälle DE tools -tiedostolle OK, `npx prettier --check` neljälle DE tools -tiedostolle OK, `git diff --check` neljälle DE tools -tiedostolle OK, DE internal link source check OK, riskigrep OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua).
+- dist-polut buildin jälkeen olemassa:
+  - `dist/de/werkzeuge/nadelstaerken-tabelle/index.html`
+  - `dist/de/werkzeuge/garnstaerken-tabelle/index.html`
+  - `dist/de/werkzeuge/strickabkuerzungen/index.html`
+  - `dist/de/werkzeuge/groessentabellen-stricken/index.html`
+- seuraava vaihe: DE artikkelit erä 1/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/de/gleichzeitig-in-strickanleitungen.md` (`translationKey: "at-the-same-time-knitting"`)
+  - `src/content/articles/de/die-besten-strick-apps-worauf-es-ankommt.md` (`translationKey: "best-knitting-apps"`)
+  - `src/content/articles/de/das-beste-garn-fuer-den-einstieg-ins-stricken.md` (`translationKey: "best-yarn-for-beginners"`)
+  - `src/content/articles/de/rundstricknadel-gerade-nadeln-oder-nadelspiel.md` (`translationKey: "circular-vs-straight-vs-dpn"`)
+  - `src/content/articles/de/digitaler-oder-mechanischer-reihenzaehler.md` (`translationKey: "digital-vs-physical-row-counters"`)
+- seuraava tiedosto: `src/content/articles/de/gleichzeitig-in-strickanleitungen.md`
+
+DE artikkelit erä 1/8:
+
+- käsitelty 5/38 saksankielistä artikkelia tässä EN/FI-jälkeisessä tarkistuspassissa:
+  - `src/content/articles/de/gleichzeitig-in-strickanleitungen.md`
+  - `src/content/articles/de/die-besten-strick-apps-worauf-es-ankommt.md`
+  - `src/content/articles/de/das-beste-garn-fuer-den-einstieg-ins-stricken.md`
+  - `src/content/articles/de/rundstricknadel-gerade-nadeln-oder-nadelspiel.md`
+  - `src/content/articles/de/digitaler-oder-mechanischer-reihenzaehler.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `at-the-same-time-knitting` -> `src/content/articles/at-the-same-time-knitting.md`
+  - `best-knitting-apps` -> `src/content/articles/best-knitting-apps.md`
+  - `best-yarn-for-beginners` -> `src/content/articles/best-yarn-for-beginners.md`
+  - `circular-vs-straight-vs-dpn` -> `src/content/articles/circular-vs-straight-vs-dpn.md`
+  - `digital-vs-physical-row-counters` -> `src/content/articles/digital-vs-physical-row-counters.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections- ja i18n-dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System ja How to Read a Knitting Pattern -lähde, Vogue Knittingin needle type -lähde sekä Sheep and Stitchin ja Tin Can Knitsin Magic Loop -lähteet. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3 ja `prettier-plugin-astro` 0.14.1.
+- `gleichzeitig-in-strickanleitungen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 0 H3 + 5 FAQ). Tarkistettu esimerkkitaulukko, WS-row-rajaus, buttonhole-rajaukset, Ravelry-varaus ja FAQ:t; ei tarvinnut uutta sisältömuutosta tässä erässä.
+- `die-besten-strick-apps-worauf-es-ankommt.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 4 H3 + 5 FAQ). Korjattu KnitTools-osio EN/FI/SV/NO/FR-linjan varovaiseksi kehitystilaksi: poistettu saksankielinen väite suunnitellusta Einmalkauf-mallista, "keine Werbung / kein Abo" -lupaus ja valmiiksi toteutettuja ominaisuuksia lupaava `Enthalten sind` -muotoilu.
+- `das-beste-garn-fuer-den-einstieg-ins-stricken.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 6 FAQ). Tarkistettu CYC category 4 / DK category 3 -rajaukset, Size 8 -varaus, Banderole/Farbpartie-teksti, vältettävät langat ja FAQ:t; ei tarvinnut uutta sisältömuutosta tässä erässä.
+- `rundstricknadel-gerade-nadeln-oder-nadelspiel.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 4 H3 + 6 FAQ). Tarkistettu 25/35 cm straight needle -muunnokset, 40/60/80/100/120 cm Rundnadel- ja Magic Loop -muunnokset, Nadelspiel 13-20 cm -rajaukset, 23-cm-Rundstricknadeln ja ergonomiset muodot; ei tarvinnut uutta sisältömuutosta tässä erässä.
+- `digitaler-oder-mechanischer-reihenzaehler.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (6 H2 + 0 H3 + 4 FAQ). Korjattu KnitTools-tuoteväitteet EN:n varovaiselle tasolle: `soll ... verbinden`, `um lokale Projektdaten herum geplant` ja FAQ:ssa `für lokale Projekt- und Zählerdaten in den Kernfunktionen geplant` vanhan toteutuneen offline-/laiteväitteen sijaan.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: de`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `gleichzeitig...` 12 H2 / 0 H3 / 5 FAQ, 11 068 merkkiä / 1 608 sanaa (EN 9 538 / 1 661 / 12 H2 / 0 H3 / 5 FAQ); `die-besten...` 8 H2 / 4 H3 / 5 FAQ, 11 513 / 1 543 (EN 10 480 / 1 685 / 8 H2 / 4 H3 / 5 FAQ); `das-beste-garn...` 8 H2 / 0 H3 / 6 FAQ, 11 000 / 1 577 (EN 10 090 / 1 652 / 8 H2 / 0 H3 / 6 FAQ); `rundstricknadel...` 11 H2 / 4 H3 / 6 FAQ, 15 487 / 2 185 (EN 13 722 / 2 239 / 11 H2 / 4 H3 / 6 FAQ); `digitaler...` 6 H2 / 0 H3 / 4 FAQ, 8 105 / 1 137 (EN 7 761 / 1 290 / 6 H2 / 0 H3 / 4 FAQ).
+- linkkitarkistus viidelle tiedostolle: 14 saksankielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisissä `src/content/articles/de/`- ja `src/pages/de/werkzeuge/`-lähteissä.
+- riskigrepit: AI-/OCR-/skanneri-/kamera-/ääni-/parseri-/hinnoittelu-/offline-tuoteväitelista ei löytänyt poistettavaa osumaa. Jäljelle jääneet laajemmat osumat tarkistettu false positiveiksi tai sallituiksi yleistermeiksi (`Banderole`, `App`, `Premium` yleisenä hinnoittelumallina, `Ravelry`, `Projekt`).
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle DE-artikkelille OK (unchanged), `npx prettier --check` viidelle DE-artikkelille OK, `git diff --check` viidelle DE-artikkelille OK, linkkitarkistus OK, H2/H3/FAQ-rakennepariteetti OK, riskigrep OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua).
+- dist-polut buildin jälkeen olemassa:
+  - `dist/de/artikel/gleichzeitig-in-strickanleitungen/index.html`
+  - `dist/de/artikel/die-besten-strick-apps-worauf-es-ankommt/index.html`
+  - `dist/de/artikel/das-beste-garn-fuer-den-einstieg-ins-stricken/index.html`
+  - `dist/de/artikel/rundstricknadel-gerade-nadeln-oder-nadelspiel/index.html`
+  - `dist/de/artikel/digitaler-oder-mechanischer-reihenzaehler/index.html`
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --write` ja `npx prettier --check` viidelle DE-artikkelille ja etenemislokille OK; `git diff --check` viidelle DE-artikkelille OK; etenemislokin trailing-whitespace-tarkistus OK.
+- seuraava vaihe: DE artikkelit erä 2/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/de/strickzubehoer-ausser-nadeln-und-garn.md` (`translationKey: "essential-knitting-tools"`)
+  - `src/content/articles/de/fallengelassene-maschen-retten-ohne-aufzuribbeln.md` (`translationKey: "fix-dropped-stitches"`)
+  - `src/content/articles/de/kostenlose-strickrechner.md` (`translationKey: "free-knitting-calculators"`)
+  - `src/content/articles/de/wenn-die-maschenprobe-nicht-zur-anleitung-passt.md` (`translationKey: "gauge-doesnt-match"`)
+  - `src/content/articles/de/maschenprobe-stricken-schritt-fuer-schritt.md` (`translationKey: "gauge-swatch-step-by-step"`)
+- seuraava tiedosto: `src/content/articles/de/strickzubehoer-ausser-nadeln-und-garn.md`
+
+DE artikkelit erä 2/8:
+
+- käsitelty 10/38 saksankielistä artikkelia tässä EN/FI-jälkeisessä tarkistuspassissa:
+  - `src/content/articles/de/strickzubehoer-ausser-nadeln-und-garn.md`
+  - `src/content/articles/de/fallengelassene-maschen-retten-ohne-aufzuribbeln.md`
+  - `src/content/articles/de/kostenlose-strickrechner.md`
+  - `src/content/articles/de/wenn-die-maschenprobe-nicht-zur-anleitung-passt.md`
+  - `src/content/articles/de/maschenprobe-stricken-schritt-fuer-schritt.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `essential-knitting-tools` -> `src/content/articles/essential-knitting-tools.md`
+  - `fix-dropped-stitches` -> `src/content/articles/fix-dropped-stitches.md`
+  - `free-knitting-calculators` -> `src/content/articles/free-knitting-calculators.md`
+  - `gauge-doesnt-match` -> `src/content/articles/gauge-doesnt-match.md`
+  - `gauge-swatch-step-by-step` -> `src/content/articles/gauge-swatch-step-by-step.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections- ja i18n-dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System, Vogue Knittingin gauge-ohje, Nimble Needlesin gauge swatch- ja dropped stitch -lähteet sekä NPM-ajantasaisuustarkistus (`astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1).
+- `strickzubehoer-ausser-nadeln-und-garn.md`: H2/H3-rakenne tasattu EN-lähteeseen (5 H2 + 13 H3). Lisätty puuttuva `Austauschbare Nadelsets` -väliotsikko `Schön zu haben` -osioon ja poistettu sama ajatus `Was du nicht brauchst` -osiosta. Reihenzähler-kappale tasattu EN:n varovaisempaan app-muotoiluun: `haptisches Feedback` poistettu, KnitTools kuvataan projektikohtaisen Reihenzählungin ympärille rakennettavana eikä valmiina laajempana ominaisuuslupauksena.
+- `fallengelassene-maschen-retten-ohne-aufzuribbeln.md`: H2/H3-rakenne vastaa EN-lähdettä (12 H2 + 0 H3). Tarkistettu Häkelnadel-korjaus, oikea/linke Masche -suunnat, kraus rechts / Bündchen -logiikka, Rettungsleine, Anschlagkante, verdrehte Masche, Mohair-rajaukset ja FAQ:t; ei tarvinnut uutta sisältömuutosta tässä erässä.
+- `kostenlose-strickrechner.md`: H2/H3-rakenne vastaa EN-lähdettä (9 H2 + 0 H3). Poistettu vahvistamaton `Kein Abo, keine Werbung` -väite ja muutettu KnitTools-lause EN:n varovaiseen `wird ... gebaut` -kehitystilaan. Maschenanschlag-esimerkin tuumamitat muutettu saksan tyylioppaan mukaiseen metriikkaan (`22 Maschen auf 10 cm`, `22,5 cm`) niin, että EN-lähteen sama 49,5 -> 50 -> 52 -laskulogiikka säilyy.
+- `wenn-die-maschenprobe-nicht-zur-anleitung-passt.md`: H2/H3-rakenne vastaa EN-lähdettä (13 H2 + 0 H3). Tarkistettu 10 cm -mittamuunnokset, 4,0/4,5/3,75 mm -nadelstärke-logiikka, Reihenprobe, washed/unwashed gauge, in Runden vs flach, puolen silmukan vaikutus ja FAQ:t; ei tarvinnut uutta sisältömuutosta tässä erässä.
+- `maschenprobe-stricken-schritt-fuer-schritt.md`: H2/H3-rakenne vastaa EN-lähdettä (10 H2 + 0 H3). Tarkistettu 15 cm / 10 cm -mittalogiikka, 15-20 minuutin pesu, Spannen, mittaus, 20 -> 18 Maschen / 10 cm -esimerkki, in-the-round swatch -oikotie ja Quick answers -osio; ei tarvinnut uutta sisältömuutosta tässä erässä.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: de`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `strickzubehoer...` 5 H2 / 13 H3, 11 153 merkkiä / 1 521 sanaa (EN 10 026 / 1 630 / 5 H2 / 13 H3); `fallengelassene...` 12 H2 / 0 H3, 11 173 / 1 650 (EN 9 589 / 1 678 / 12 H2 / 0 H3); `kostenlose...` 9 H2 / 0 H3, 10 001 / 1 381 (EN 9 392 / 1 529 / 9 H2 / 0 H3); `wenn-die-maschenprobe...` 13 H2 / 0 H3, 12 582 / 1 835 (EN 11 433 / 1 881 / 13 H2 / 0 H3); `maschenprobe-stricken...` 10 H2 / 0 H3, 10 576 / 1 584 (EN 9 130 / 1 576 / 10 H2 / 0 H3).
+- linkkitarkistus viidelle tiedostolle: 23 saksankielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisissä `src/content/articles/de/`- ja `src/pages/de/werkzeuge/`-lähteissä.
+- riskigrepit: AI-/OCR-/skanneri-/kamera-/ääni-/parseri-/hinnoittelu-/offline-/haptinen-tuoteväitelista ei löytänyt poistettavaa osumaa. Jäljelle jääneet laajemmat osumat tarkistettu false positiveiksi tai sallituiksi yleistermeiksi (`App`, `Werkzeug`, `Rechner`, `Projekt`, `Maschenprobe`, `KnitTools` kehitystilassa).
+- tarkistukset ennen lokipäivitystä: DE internal link source check OK, H2/H3-rakennepariteetti OK, riskigrep OK, NPM latest -tarkistus OK.
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --write` viidelle DE-artikkelille ja etenemislokille OK (unchanged), `npx prettier --check` viidelle DE-artikkelille ja etenemislokille OK, `git diff --check` viidelle DE-artikkelille ja etenemislokille OK, trailing-whitespace-tarkistus OK, tiukka riskigrep OK (0 osumaa), `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua).
+- dist-polut buildin jälkeen olemassa:
+  - `dist/de/artikel/strickzubehoer-ausser-nadeln-und-garn/index.html`
+  - `dist/de/artikel/fallengelassene-maschen-retten-ohne-aufzuribbeln/index.html`
+  - `dist/de/artikel/kostenlose-strickrechner/index.html`
+  - `dist/de/artikel/wenn-die-maschenprobe-nicht-zur-anleitung-passt/index.html`
+  - `dist/de/artikel/maschenprobe-stricken-schritt-fuer-schritt/index.html`
+- seuraava vaihe: DE artikkelit erä 3/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/de/wie-viele-maschen-anschlagen.md` (`translationKey: "how-many-stitches-to-cast-on"`)
+  - `src/content/articles/de/wie-viel-garn-brauche-ich.md` (`translationKey: "how-much-yarn-do-i-need"`)
+  - `src/content/articles/de/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche.md` (`translationKey: "how-to-block-knitting"`)
+  - `src/content/articles/de/muetze-stricken-methoden-fuer-jedes-niveau.md` (`translationKey: "how-to-knit-hat"`)
+  - `src/content/articles/de/socken-stricken-aufbau-einer-sockenanleitung.md` (`translationKey: "how-to-knit-socks"`)
+- seuraava tiedosto: `src/content/articles/de/wie-viele-maschen-anschlagen.md`
+
+DE artikkelit erä 3/8:
+
+- käsitelty 15/38 saksankielistä artikkelia tässä EN/FI-jälkeisessä tarkistuspassissa:
+  - `src/content/articles/de/wie-viele-maschen-anschlagen.md`
+  - `src/content/articles/de/wie-viel-garn-brauche-ich.md`
+  - `src/content/articles/de/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche.md`
+  - `src/content/articles/de/muetze-stricken-methoden-fuer-jedes-niveau.md`
+  - `src/content/articles/de/socken-stricken-aufbau-einer-sockenanleitung.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `how-many-stitches-to-cast-on` -> `src/content/articles/how-many-stitches-to-cast-on.md`
+  - `how-much-yarn-do-i-need` -> `src/content/articles/how-much-yarn-do-i-need.md`
+  - `how-to-block-knitting` -> `src/content/articles/how-to-block-knitting.md`
+  - `how-to-knit-hat` -> `src/content/articles/how-to-knit-hat.md`
+  - `how-to-knit-socks` -> `src/content/articles/how-to-knit-socks.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections- ja i18n-dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System sekä Head Circumference- ja Foot Size -taulukot, Vogue Knittingin gauge- ja blocking-ohjeet. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1.
+- `wie-viele-maschen-anschlagen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (13 H2 + 0 H3 + 7 FAQ). Tarkistettu 10 cm -laskukaava, Musterrapport-/Ausgleichsmaschen-logiikka, Randmaschen, Rundstrick, sock cast-on -haarukat, Anschlagmethoden, Top-down/Bottom-up-esimerkki ja FAQ:t; ei tarvinnut uutta sisältömuutosta tässä erässä.
+- `wie-viel-garn-brauche-ich.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 6 FAQ). Korjattu EN-pariteettiin liian varma vältettävyyslause, liian matala DK-pulloverin metrimäärä (`1.100 m` -> `1.350 m tai enemmän`), vanha liian täsmällinen `20-30 %` -zopfiväite, liian vahva Farbpartie-korjaus (`fast unsichtbar` -> `weniger auffällig`) sekä superwash-kuidun kasvu pesun ja spannen-yhdistelmänä.
+- `strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 2 H3 + 6 FAQ). Tarkistettu wet/steam/spray blocking, Acryl-totdämpfen, Lochmuster, Pulloverteile, fiber-method-taulukko, drying-time-caveatit ja FAQ:t Vogue/blocking-lähdettä vasten; ei tarvinnut uutta sisältömuutosta tässä erässä.
+- `muetze-stricken-methoden-fuer-jedes-niveau.md`: H2/H3-rakenne vastaa EN-lähdettä (9 H2 + 0 H3) ja Common questions -sisältö vastaa EN:n viittä kysymystä. Tarkistettu 2,5-5 cm negative ease -muunnos, CYC:n head circumference -haarukat, crown shaping, ribbing, garn/nadel-yhdistelmät ja finishing; tehty vain pieni saksankielinen tyylikorjaus `Der einzige Tausch` -> `Der einzige Kompromiss`.
+- `socken-stricken-aufbau-einer-sockenanleitung.md`: H2/H3-rakenne vastaa EN-lähdettä (9 H2 + 0 H3) ja FAQ-sisältö vastaa EN-lähdettä. Korjattu aloituksen sock anatomy EN-pariteettiin (`Fersenwand`, `Fersenkäppchen`, `Spickel`, toe-up-järjestys), pehmennetty `Jede Socke` -> `Die meisten gut sitzenden Socken`, korjattu cuff-down-haitat EN:n try-on/run-out-caveatiksi ja muutettu non-superwash-väite jyrkästä handwash-linjasta sanft care / Wasserbewegung -linjaan.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: de`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `wie-viele...` 13 H2 / 0 H3 / 7 FAQ, 15 558 merkkiä / 2 179 sanaa (EN 13 658 / 2 271 / 13 H2 / 0 H3 / 7 FAQ); `wie-viel...` 8 H2 / 0 H3 / 6 FAQ, 11 580 / 1 655 (EN 11 118 / 1 832 / 8 H2 / 0 H3 / 6 FAQ); `strickstuecke...` 11 H2 / 2 H3 / 6 FAQ, 15 171 / 2 116 (EN 13 422 / 2 173 / 11 H2 / 2 H3 / 6 FAQ); `muetze...` 9 H2 / 0 H3, 12 055 / 1 755 (EN 10 500 / 1 789 / 9 H2 / 0 H3); `socken...` 9 H2 / 0 H3 / 5 kysymysmerkki-FAQ-osumaa, 14 276 / 1 996 (EN 13 159 / 2 173 / 9 H2 / 0 H3 / 5 kysymysmerkki-FAQ-osumaa).
+- linkkitarkistus viidelle tiedostolle: 22 saksankielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisissä `src/content/articles/de/`- ja `src/pages/de/werkzeuge/`-lähteissä.
+- riskigrepit: tiukennettu AI-/OCR-/skanneri-/kamera-/ääni-/hinnoittelu-/offline-/haptinen-tuoteväitelista 0 osumaa; suomi-/ruotsi-/norjajäämä- ja banned AI phrase -haku 0 osumaa.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle DE-artikkelille OK (unchanged), `git diff --check` viidelle DE-artikkelille OK, linkkitarkistus OK, H2/H3-rakennepariteetti OK, riskigrep OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua).
+- dist-polut buildin jälkeen olemassa:
+  - `dist/de/artikel/wie-viele-maschen-anschlagen/index.html`
+  - `dist/de/artikel/wie-viel-garn-brauche-ich/index.html`
+  - `dist/de/artikel/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche/index.html`
+  - `dist/de/artikel/muetze-stricken-methoden-fuer-jedes-niveau/index.html`
+  - `dist/de/artikel/socken-stricken-aufbau-einer-sockenanleitung/index.html`
+- seuraava vaihe: DE artikkelit erä 4/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/de/maschenprobe-messen.md` (`translationKey: "how-to-measure-knitting-gauge"`)
+  - `src/content/articles/de/strickanleitung-lesen.md` (`translationKey: "how-to-read-knitting-pattern"`)
+  - `src/content/articles/de/garnbanderole-lesen.md` (`translationKey: "how-to-read-yarn-label"`)
+  - `src/content/articles/de/garn-in-einer-strickanleitung-ersetzen.md` (`translationKey: "how-to-substitute-yarn"`)
+  - `src/content/articles/de/unbekanntes-garn-ohne-banderole-bestimmen.md` (`translationKey: "identify-mystery-yarn"`)
+- seuraava tiedosto: `src/content/articles/de/maschenprobe-messen.md`
+
+DE artikkelit erä 4/8:
+
+- käsitelty 20/38 saksankielistä artikkelia tässä EN/FI-jälkeisessä tarkistuspassissa:
+  - `src/content/articles/de/maschenprobe-messen.md`
+  - `src/content/articles/de/strickanleitung-lesen.md`
+  - `src/content/articles/de/garnbanderole-lesen.md`
+  - `src/content/articles/de/garn-in-einer-strickanleitung-ersetzen.md`
+  - `src/content/articles/de/unbekanntes-garn-ohne-banderole-bestimmen.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `how-to-measure-knitting-gauge` -> `src/content/articles/how-to-measure-knitting-gauge.md`
+  - `how-to-read-knitting-pattern` -> `src/content/articles/how-to-read-knitting-pattern.md`
+  - `how-to-read-yarn-label` -> `src/content/articles/how-to-read-yarn-label.md`
+  - `how-to-substitute-yarn` -> `src/content/articles/how-to-substitute-yarn.md`
+  - `identify-mystery-yarn` -> `src/content/articles/identify-mystery-yarn.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections- ja i18n-dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System, WPI-ohje, Yarn Label Information ja Knitting Abbreviations Master List, ISO 3758:2023 care-symbol -pinta sekä Vogue Knittingin gauge- ja yarn substitution -ohjeet. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1.
+- `maschenprobe-messen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 0 H3 + 5 FAQ). Korjattu intro EN:n 6 inch square -ajatusta vastaavaksi `15 cm im Quadrat` -muodoksi ja pehmennetty `Garnbedarfsrechner`-tuoteväite EN:n mukaiseksi: se käyttää Projekttyp/Größe/Garnstärke-arviota eikä väitä käyttävänsä maschenprobea suoraan.
+- `strickanleitung-lesen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (14 H2 + 2 H3 + 7 FAQ). Korjattu `Jede Anleitung` -> `Die meisten Anleitungen`, täsmennetty Abkürzungen-otsikko Special Stitches -sisällön mukaiseksi, lisätty charts-in-the-round-rajaus ja `no stitch` -symbolin optisen kohdistuksen selitys EN-lähteeseen.
+- `garnbanderole-lesen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 0 H3 + 4 FAQ). Lisätty EN:n CYC Size 8 / zusätzliche Symbole -huomio, pidetty CYC-number vain pikaviitteenä, poistettu vahvistamaton Yarn Label Scanner / Handykamera / digitale Garnkarte -väite ja korvattu se varovaisella Projektnotiz-muotoilulla.
+- `garn-in-einer-strickanleitung-ersetzen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (7 H2 + 0 H3 + 4 FAQ). Korjattu Garnbedarfsrechner-lause EN-pariteettiin: se on projekttityyppi-/koko-/garnstärke-pohjainen tarkistus eikä korvaa Anleitung-yardagea, Ersatzgarn-lauflängeä tai uutta maschenprobea. Lisätty low-risk-projektien uudelleenlaskentacaveat ja very-high-risk-rajaus EN:n tasolle.
+- `unbekanntes-garn-ohne-banderole-bestimmen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (6 H2 + 3 H3 + 3 FAQ). Tarkistettu WPI 0-7 -taulukko, burn-test-turvarajaukset, water-test-caveat, colorfastness ja lab-test FAQ; korjattu loppu vastaamaan EN:n KnitTools-Projektnotiz-muotoilua ilman Yarn Label Scanner -lupausta.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: de`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `maschenprobe-messen` 9 H2 / 0 H3 / 5 FAQ, 10 931 merkkiä / 1 592 sanaa (EN 10 368 / 1 732 / 9 H2 / 0 H3 / 5 FAQ); `strickanleitung-lesen` 14 H2 / 2 H3 / 7 FAQ, 15 976 / 2 179 (EN 14 046 / 2 191 / 14 H2 / 2 H3 / 7 FAQ); `garnbanderole-lesen` 9 H2 / 0 H3 / 4 FAQ, 9 950 / 1 353 (EN 8 851 / 1 461 / 9 H2 / 0 H3 / 4 FAQ); `garn-in-einer-strickanleitung-ersetzen` 7 H2 / 0 H3 / 4 FAQ, 9 739 / 1 345 (EN 8 997 / 1 453 / 7 H2 / 0 H3 / 4 FAQ); `unbekanntes-garn...` 6 H2 / 3 H3 / 3 FAQ, 7 383 / 1 050 (EN 6 394 / 1 074 / 6 H2 / 3 H3 / 3 FAQ).
+- linkkitarkistus viidelle tiedostolle: 20 saksankielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisissä `src/content/articles/de/`- ja `src/pages/de/werkzeuge/`-lähteissä.
+- riskigrepit: tiukennettu AI-/KI-/OCR-/skanneri-/kamera-/ääni-/hinnoittelu-/offline-/haptinen-/Yarn Label Scanner -tuoteväitelista 0 osumaa; suomi-/ruotsi-/norja-/ranskajäämähaku 0 osumaa.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle DE-artikkelille OK (unchanged), DE internal link source check OK, H2/H3/FAQ-rakennepariteetti OK, riskigrep OK, NPM latest -tarkistus OK.
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --check` viidelle DE-artikkelille ja etenemislokille OK, `git diff --check` viidelle DE-artikkelille OK, etenemislokin trailing-whitespace-tarkistus OK, H2/H3/FAQ-pariteetti OK, linkkitarkistus OK, tiukka riskigrep OK, kielijäämähaku OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua).
+- dist-polut buildin jälkeen olemassa:
+  - `dist/de/artikel/maschenprobe-messen/index.html`
+  - `dist/de/artikel/strickanleitung-lesen/index.html`
+  - `dist/de/artikel/garnbanderole-lesen/index.html`
+  - `dist/de/artikel/garn-in-einer-strickanleitung-ersetzen/index.html`
+  - `dist/de/artikel/unbekanntes-garn-ohne-banderole-bestimmen/index.html`
+- seuraava vaihe: DE artikkelit erä 5/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/de/zunahmen-und-abnahmen-gleichmaessig-verteilen.md` (`translationKey: "increase-decrease-evenly"`)
+  - `src/content/articles/de/ein-neues-knaeuel-mitten-in-der-reihe-ansetzen.md` (`translationKey: "join-new-ball-of-yarn"`)
+  - `src/content/articles/de/den-ersten-schal-stricken.md` (`translationKey: "knit-first-scarf"`)
+  - `src/content/articles/de/stricknadeln-metall-holz-bambus.md` (`translationKey: "knitting-needle-materials"`)
+  - `src/content/articles/de/rapporte-in-strickanleitungen-sterne-und-klammern.md` (`translationKey: "knitting-pattern-repeats"`)
+- seuraava tiedosto: `src/content/articles/de/zunahmen-und-abnahmen-gleichmaessig-verteilen.md`
+
+DE artikkelit erä 5/8:
+
+- käsitelty 25/38 saksankielistä artikkelia tässä EN/FI-jälkeisessä tarkistuspassissa:
+  - `src/content/articles/de/zunahmen-und-abnahmen-gleichmaessig-verteilen.md`
+  - `src/content/articles/de/ein-neues-knaeuel-mitten-in-der-reihe-ansetzen.md`
+  - `src/content/articles/de/den-ersten-schal-stricken.md`
+  - `src/content/articles/de/stricknadeln-metall-holz-bambus.md`
+  - `src/content/articles/de/rapporte-in-strickanleitungen-sterne-und-klammern.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `increase-decrease-evenly` -> `src/content/articles/increase-decrease-evenly.md`
+  - `join-new-ball-of-yarn` -> `src/content/articles/join-new-ball-of-yarn.md`
+  - `knit-first-scarf` -> `src/content/articles/knit-first-scarf.md`
+  - `knitting-needle-materials` -> `src/content/articles/knitting-needle-materials.md`
+  - `knitting-pattern-repeats` -> `src/content/articles/knitting-pattern-repeats.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections- ja i18n-dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System, Knitting Abbreviations Master List ja How to Read a Knitting Pattern, Sheep & Stitchin Russian Join -ohje, The Fibre Co:n Spit Splice -ohje sekä KnitPron materiaalilistaus. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1.
+- `zunahmen-und-abnahmen-gleichmaessig-verteilen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (15 H2 + 0 H3 + 6 FAQ). Tarkistettu yhden rivin kaava, puhtaat ja jakojäännökselliset esimerkit, abnahme-repeat-logiikka, reuna-/saumavarat, nurjan silmukan caveat, pyöröneule, symmetrinen/paarinen muotoilu, yleiset välit ja FAQ:t. Korjattu `Rundenzahl in Maschen` -> `Rundenumfang in Maschen` ja saksankielinen `ribble`-muoto luonnolliseksi `ribbel ... auf`.
+- `ein-neues-knaeuel-mitten-in-der-reihe-ansetzen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 1 H3 + 5 FAQ). Tarkistettu overlap join, Russian Join, Spit Splice, Magic Knot, käsinvärjätyn langan vuorottelu, Fabrikknoten, katkennut lanka ja FAQ:t. Pehmennetty Russian Join -muotoilu EN:n tasolle singles-/splittige Garne -kohdissa ja poistettu yksi EN-lähteessä olematon lisäohje liian lyhyistä päistä.
+- `den-ersten-schal-stricken.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 4 H3 + 7 FAQ). Tarkistettu ensimmäisen huivin ostoslista, Worsted-/5,0 mm -linja, kraus rechts / Perlmuster, 20-25 / 30-35 / 40-45 Maschen -haarukat, huivin pituudet, uuden kerän liittäminen, abketten, viimeistely ja FAQ:t. Korjattu Kreuzanschlag-varaus EN-pariteettiin: `3- bis 4-mal` ja `75-90 cm`.
+- `stricknadeln-metall-holz-bambus.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (10 H2 + 0 H3 + 6 FAQ). Tarkistettu metallin, puun, bambun, muovin/akryylin ja karbonin ominaisuudet, Spitzenform, austauschbare Nadeln -liitoslaatu, lankamateriaalin ja Nadelmaterialin sovitus sekä hand-pain-caveat. Lisätty EN:n brand-esimerkkitaso Bambus-FAQ:hun (`Clover`, `ChiaoGoo`) ilman uutta tuoteväitettä.
+- `rapporte-in-strickanleitungen-sterne-und-klammern.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 0 H3 + 6 FAQ). Tarkistettu Sterne, Klammern, verschachtelte Rapporte, setup row / as established -englanninkieliset mallifraasit, mehrreihige Rapporte, Maschenmarkierer, Charts, Rettungsleine, Half-Drop ja FAQ:t. Korjattu H2-otsikon saksan kielioppi `zwischen Rapporte` -> `zwischen die Rapporte`.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: de`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja sanamääräpariteetti erän jälkeen: `zunahmen...` 15 H2 / 0 H3 / 6 FAQ, 2 309 sanaa (EN 2 587 / 15 H2 / 0 H3 / 6 FAQ); `ein-neues-knaeuel...` 12 H2 / 1 H3 / 5 FAQ, 2 076 sanaa (EN 2 047 / 12 H2 / 1 H3 / 5 FAQ); `den-ersten-schal...` 11 H2 / 4 H3 / 7 FAQ, 2 224 sanaa (EN 2 234 / 11 H2 / 4 H3 / 7 FAQ); `stricknadeln...` 10 H2 / 0 H3 / 6 FAQ, 1 637 sanaa (EN 1 733 / 10 H2 / 0 H3 / 6 FAQ); `rapporte...` 11 H2 / 0 H3 / 6 FAQ, 1 806 sanaa (EN 1 849 / 11 H2 / 0 H3 / 6 FAQ).
+- linkkitarkistus viidelle tiedostolle: 12 saksankielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisissä `src/content/articles/de/`- ja `src/pages/de/werkzeuge/`-lähteissä.
+- riskigrepit: tiukennettu AI-/KI-/OCR-/skanneri-/kamera-/ääni-/hinnoittelu-/offline-/haptinen-/Yarn Label Scanner -tuoteväitelista 0 osumaa; suomi-/ruotsi-/norja-/ranskajäämähaku 0 osumaa; banned AI phrase -haku 0 osumaa.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle DE-artikkelille OK (unchanged), DE internal link source check OK, H2/H3/FAQ-rakennepariteetti OK, riskigrep OK, NPM latest -tarkistus OK.
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --check` viidelle DE-artikkelille ja etenemislokille OK, `git diff --check` viidelle DE-artikkelille OK, etenemislokin trailing-whitespace-tarkistus OK, H2/H3/FAQ-pariteetti OK, linkkitarkistus OK, tiukka riskigrep OK, kielijäämähaku OK, banned AI phrase -haku OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua).
+- dist-polut buildin jälkeen olemassa:
+  - `dist/de/artikel/zunahmen-und-abnahmen-gleichmaessig-verteilen/index.html`
+  - `dist/de/artikel/ein-neues-knaeuel-mitten-in-der-reihe-ansetzen/index.html`
+  - `dist/de/artikel/den-ersten-schal-stricken/index.html`
+  - `dist/de/artikel/stricknadeln-metall-holz-bambus/index.html`
+  - `dist/de/artikel/rapporte-in-strickanleitungen-sterne-und-klammern/index.html`
+- seuraava vaihe: DE artikkelit erä 6/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/de/groessen-in-strickanleitungen-mehrweite-und-masse.md` (`translationKey: "knitting-pattern-sizes-and-fit"`)
+  - `src/content/articles/de/welche-nadelstaerke-fuer-den-einstieg.md` (`translationKey: "needle-size-for-beginners"`)
+  - `src/content/articles/de/mehrere-strickprojekte-organisieren.md` (`translationKey: "organize-knitting-projects"`)
+  - `src/content/articles/de/maschen-an-einer-strickkante-aufnehmen.md` (`translationKey: "pick-up-stitches"`)
+  - `src/content/articles/de/strickteile-zusammennaehen-matratzenstich.md` (`translationKey: "seam-knitted-pieces"`)
+- seuraava tiedosto: `src/content/articles/de/groessen-in-strickanleitungen-mehrweite-und-masse.md`
+
+DE artikkelit erä 6/8:
+
+- käsitelty 30/38 saksankielistä artikkelia tässä EN/FI-jälkeisessä tarkistuspassissa:
+  - `src/content/articles/de/groessen-in-strickanleitungen-mehrweite-und-masse.md`
+  - `src/content/articles/de/welche-nadelstaerke-fuer-den-einstieg.md`
+  - `src/content/articles/de/mehrere-strickprojekte-organisieren.md`
+  - `src/content/articles/de/maschen-an-einer-strickkante-aufnehmen.md`
+  - `src/content/articles/de/strickteile-zusammennaehen-matratzenstich.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `knitting-pattern-sizes-and-fit` -> `src/content/articles/knitting-pattern-sizes-and-fit.md`
+  - `needle-size-for-beginners` -> `src/content/articles/needle-size-for-beginners.md`
+  - `organize-knitting-projects` -> `src/content/articles/organize-knitting-projects.md`
+  - `pick-up-stitches` -> `src/content/articles/pick-up-stitches.md`
+  - `seam-knitted-pieces` -> `src/content/articles/seam-knitted-pieces.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Craft Yarn Councilin Standard Body Measurements/Sizing ja Standard Yarn Weight System, Vogue Knittingin picking up stitches -ohje, Yarnspirationsin mattress stitch -ohje sekä ChiaoGoo-, KnitPro-, HiyaHiya- ja Addi-sivujen nykyiset interchangeable set -pinnat. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `@astrojs/check` latest 0.9.9 ja `prettier` latest 3.8.3.
+- `groessen-in-strickanleitungen-mehrweite-und-masse.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (13 H2 + 0 H3 + 4 FAQ). Korjattu positive ease -perusrajaus EN/CYC-pariteettiin: `5-10 cm` mukava, `10-15 cm` väljä ja siitä yli oversized-konteksti, eikä aiempi liian leveä `15-20 cm` / `25 cm+` -linja jäänyt yleisohjeeksi.
+- `welche-nadelstaerke-fuer-den-einstieg.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 0 H3 + 6 FAQ). Lisätty EN-lähteen nykyinen brändiesimerkkitaso austauschbare Rundstricknadel-Set -kohtaan (`ChiaoGoo`, `KnitPro`, `HiyaHiya`, `Addi`) tarkistettuna nykyisiltä valmistaja-/tuotepinnoilta ja korjattu FAQ pois liian tarkasta `kaksi Maschen pro 10 cm` -rajasta EN:n scarf/dishcloth-vs-fitted-caveatiin.
+- `mehrere-strickprojekte-organisieren.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 3 FAQ). Lisätty EN:n Banderole/Farbpartie näkyviin -käytännön ohje, muutettu KnitTools-kohta nykyistä launch-tilaa kunnioittavaan `wird gebaut` -muotoon ja palautettu EN:n päätösvaihtoehdot projektille, jota ohitetaan toistuvasti: weiterstricken, bewusst pausieren tai Garn zurückholen.
+- `maschen-an-einer-strickkante-aufnehmen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 2 H3 + 6 FAQ). Korjattu `Maschen aufnehmen` vs `aufnehmen und stricken` -määritelmä, muutettu testirivi EN:n mukaiseksi Restgarn-testiksi eikä pysyväksi Kontrastgarn-riviksi, poistettu ylimääräinen Häkelnadel-FAQ, täsmennetty Steek-varoitus ei-superwash-/superwash-langoille, palautettu directional stitch pattern -caveat ja laajennettu ripple-vastaus EN:n row-gauge/stitch-gauge/edge-length -rajaukseen.
+- `strickteile-zusammennaehen-matratzenstich.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 2 H3 + 6 FAQ). Poistettu ylimääräinen `Waagerechter Matratzenstich` -H2 ja järjestetty H2:t EN-lähteen mukaisiksi, lisätty live stitches -suunta, three-needle bind off -olkapäästabiliteetti, sleeve-setting pin/T-pin -rajaus, drop-shoulder T-junction -selitys, Rückstich-elasticity-caveat, blunt needle/yarn length -tarkennukset ja row-difference-jako EN:n tasolle.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: de`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja sanamääräpariteetti erän jälkeen: `groessen...` 13 H2 / 0 H3 / 4 FAQ, 2 021 sanaa (EN 2 082 / 13 H2 / 0 H3 / 4 FAQ); `welche-nadelstaerke...` 9 H2 / 0 H3 / 6 FAQ, 1 403 sanaa (EN 1 481 / 9 H2 / 0 H3 / 6 FAQ); `mehrere-strickprojekte...` 8 H2 / 0 H3 / 3 FAQ, 1 292 sanaa (EN 1 453 / 8 H2 / 0 H3 / 3 FAQ); `maschen-an-einer-strickkante...` 12 H2 / 2 H3 / 6 FAQ, 1 860 sanaa (EN 1 902 / 12 H2 / 2 H3 / 6 FAQ); `strickteile-zusammennaehen...` 11 H2 / 2 H3 / 6 FAQ, 2 044 sanaa (EN 2 139 / 11 H2 / 2 H3 / 6 FAQ).
+- linkkitarkistus viidelle tiedostolle: 12 saksankielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisissä `src/content/articles/de/`- ja `src/pages/de/werkzeuge/`-lähteissä.
+- riskigrepit: tiukennettu AI-/KI-/OCR-/skanneri-/kamera-/ääni-/hinnoittelu-/offline-/haptinen-/Yarn Label Scanner -tuoteväitelista 0 osumaa; suomi-/ruotsi-/norja-/ranskajäämähaku 0 osumaa; banned AI phrase -haku 0 osumaa.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle DE-artikkelille OK (unchanged), DE internal link source check OK, H2/H3/FAQ-rakennepariteetti OK, `git diff --check` viidelle DE-artikkelille OK, riskigrep OK, NPM latest -tarkistus OK.
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --check` viidelle DE-artikkelille ja etenemislokille OK, `git diff --check` viidelle DE-artikkelille ja etenemislokille OK, etenemislokin trailing-whitespace-tarkistus OK, H2/H3/FAQ-pariteetti OK, linkkitarkistus OK, tiukka riskigrep OK, kielijäämähaku OK, banned AI phrase -haku OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua).
+- dist-polut buildin jälkeen olemassa:
+  - `dist/de/artikel/groessen-in-strickanleitungen-mehrweite-und-masse/index.html`
+  - `dist/de/artikel/welche-nadelstaerke-fuer-den-einstieg/index.html`
+  - `dist/de/artikel/mehrere-strickprojekte-organisieren/index.html`
+  - `dist/de/artikel/maschen-an-einer-strickkante-aufnehmen/index.html`
+  - `dist/de/artikel/strickteile-zusammennaehen-matratzenstich/index.html`
+- seuraava vaihe: DE artikkelit erä 7/8, 5 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/de/strickzeit-und-tempo-verfolgen.md` (`translationKey: "track-knitting-time"`)
+  - `src/content/articles/de/reihen-beim-stricken-zaehlen.md` (`translationKey: "track-rows-knitting"`)
+  - `src/content/articles/de/was-sagt-die-maschenprobe-beim-stricken-aus.md` (`translationKey: "what-is-gauge-in-knitting"`)
+  - `src/content/articles/de/warum-rollt-sich-mein-strickstueck-ein.md` (`translationKey: "why-knitting-curls"`)
+  - `src/content/articles/de/garnfasern-im-vergleich.md` (`translationKey: "yarn-fibers-compared"`)
+- seuraava tiedosto: `src/content/articles/de/strickzeit-und-tempo-verfolgen.md`
+
+DE artikkelit erä 7/8:
+
+- käsitelty 35/38 saksankielistä artikkelia tässä EN/FI-jälkeisessä tarkistuspassissa, tämän erän 5 tiedostoa:
+  - `src/content/articles/de/strickzeit-und-tempo-verfolgen.md`
+  - `src/content/articles/de/reihen-beim-stricken-zaehlen.md`
+  - `src/content/articles/de/was-sagt-die-maschenprobe-beim-stricken-aus.md`
+  - `src/content/articles/de/warum-rollt-sich-mein-strickstueck-ein.md`
+  - `src/content/articles/de/garnfasern-im-vergleich.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `track-knitting-time` -> `src/content/articles/track-knitting-time.md`
+  - `track-rows-knitting` -> `src/content/articles/track-rows-knitting.md`
+  - `what-is-gauge-in-knitting` -> `src/content/articles/what-is-gauge-in-knitting.md`
+  - `why-knitting-curls` -> `src/content/articles/why-knitting-curls.md`
+  - `yarn-fibers-compared` -> `src/content/articles/yarn-fibers-compared.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Craft Yarn Councilin gauge-ohje ja Standard Yarn Weight System, TECHknittingin stockinette-curl-selitys sekä Interweaven superwash-/kuitu- ja swatch-pesurajaukset. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `@astrojs/check` latest 0.9.9, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1.
+- `strickzeit-und-tempo-verfolgen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 3 H3 + 4 FAQ). Poistettu spreadsheet-kohdasta EN-lähdettä tarkempi 30 vs 14 Reihen/Stunde -esimerkkiluku ja palautettu yleiseen stockinette-vs-Zopf-suunnitteludatan muotoon. KnitTools-sitzungsverfolgung pidetty EN:n `is being built` -kehitystilassa.
+- `reihen-beim-stricken-zaehlen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 0 H3 + 5 FAQ). Poistettu ylimääräinen `Rapportunterstützung` KnitTools-tuoteväitteestä ja korjattu Anschlagkante-FAQ EN:n varovaisempaan `depends on the pattern` -linjaan.
+- `was-sagt-die-maschenprobe-beim-stricken-aus.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (13 H2 + 0 H3 + 7 FAQ). Poistettu ylimääräinen `Wie wichtig ist eine abweichende Maschenprobe?` -H2, palautettu EN:n neulomistyylien, Nadelmaterialin, pestyn/spannatun Maschenproben, Garnverhaltenin, Musterprobe-vs-glatt-rechts-rakenteen, Mehrweite-matematiikan, 10 cm / 4 Zoll -mittausrajan, Maschenproben-Werkzeuge-listan ja puuttuvien FAQ-vastausten taso.
+- `warum-rollt-sich-mein-strickstueck-ein.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (7 H2 + 6 H3 + 6 FAQ). Korjattu aloitus pois liian varmasta `rechte Maschen schmaler` -selityksestä EN/TECHknitting-rakenteellisen epätasapainon linjaan, järjestetty `Was Einrollen nicht behebt` ennen superwash-osiota, pehmennetty superwash-väitteet, lisätty reunaleveys-esimerkit ja laajennettu akryylin höyrytys varovaiseksi non-contact/testaa-ensin -caveatiksi.
+- `garnfasern-im-vergleich.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (7 H2 + 0 H3 + 0 FAQ). Pehmennetty EN-lähdettä vahvemmat kuitu- ja hoitoväitteet: Acryl ei lupaa yleistä `robuste Maschinenwäsche`, Wolle ei väitä erinomaisuutta `besser als fast alles andere`, Alpaka-/Seide-/Leinen-kohdista poistettu ylimääräiset prosentti- ja pesukertarajaukset, Nylon-/Sockengarn-väitteet muutettu varovaisiksi ja pesu-/ilmastokohdat palautettu banderollin sallimaan tasoon.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: de`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja sanamääräpariteetti erän jälkeen: `strickzeit...` 8 H2 / 3 H3 / 4 FAQ, 1 275 sanaa (EN 1 381 / 8 H2 / 3 H3 / 4 FAQ); `reihen...` 11 H2 / 0 H3 / 5 FAQ, 1 423 sanaa (EN 1 573 / 11 H2 / 0 H3 / 5 FAQ); `was-sagt...` 13 H2 / 0 H3 / 7 FAQ, 1 936 sanaa (EN 1 979 / 13 H2 / 0 H3 / 7 FAQ); `warum-rollt...` 7 H2 / 6 H3 / 6 FAQ, 1 398 sanaa (EN 1 514 / 7 H2 / 6 H3 / 6 FAQ); `garnfasern...` 7 H2 / 0 H3 / 0 FAQ, 1 754 sanaa (EN 1 801 / 7 H2 / 0 H3 / 0 FAQ).
+- linkkitarkistus viidelle tiedostolle: 15 saksankielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisissä `src/content/articles/de/`- ja `src/pages/de/werkzeuge/`-lähteissä.
+- riskigrepit ennen lokipäivitystä: ei AI/OCR/skanneri/kamera/voice/Sprachbefehl/Parser/Projektzusammenfassung/Yarn Label Scanner/Row Counter/subscription/Premium/haptinen/rapportunterstützung-tuoteväiteosumia. Jäljelle jääneet `KnitTools`, `automatisch`, `einfach` ja `nicht perfekt` -osumat ovat EN-lähteen mukaisia kehitystila-, yleisautomaatio- tai tavallisia kielikonteksteja eivätkä vahvistamattomia tuoteväitteitä.
+- kielijäämähaku erätiedostoihin: ei suomi-/ruotsi-/norja-/ranska-/hollanti-/tanskajäämiä. Englanninkielisten banned-termien täsmähaku: ei osumia.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle DE-artikkelille OK (unchanged), H2/H3/FAQ/bold-rakennepariteetti OK, linkkitarkistus OK, product-/termiriskigrep OK, kielijäämähaku OK ja banned AI phrase -haku OK.
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --check` viidelle DE-artikkelille ja etenemislokille OK, `git diff --check` viidelle DE-artikkelille OK, etenemislokin trailing-whitespace-tarkistus OK, H2/H3/FAQ/bold-rakennepariteetti OK, linkkitarkistus OK, tiukka riskigrep OK yllä kuvatulla kontekstilla, kielijäämähaku OK, banned AI phrase -haku OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua).
+- dist-polut buildin jälkeen olemassa:
+  - `dist/de/artikel/strickzeit-und-tempo-verfolgen/index.html`
+  - `dist/de/artikel/reihen-beim-stricken-zaehlen/index.html`
+  - `dist/de/artikel/was-sagt-die-maschenprobe-beim-stricken-aus/index.html`
+  - `dist/de/artikel/warum-rollt-sich-mein-strickstueck-ein/index.html`
+  - `dist/de/artikel/garnfasern-im-vergleich/index.html`
+- seuraava vaihe: DE artikkelit erä 8/8, viimeiset 3 artikkelia nykyisiin `translationKey`-englantiartikkeleihin verrattuna:
+  - `src/content/articles/de/wie-viel-garn-fuer-eine-decke.md` (`translationKey: "yarn-for-blanket"`)
+  - `src/content/articles/de/wie-viel-garn-fuer-einen-pullover.md` (`translationKey: "yarn-for-sweater"`)
+  - `src/content/articles/de/garnstaerke-ersetzen.md` (`translationKey: "yarn-weight-substitution"`)
+- seuraava tiedosto: `src/content/articles/de/wie-viel-garn-fuer-eine-decke.md`
+
+DE artikkelit erä 8/8:
+
+- käsitelty 38/38 saksankielistä artikkelia tässä EN/FI-jälkeisessä tarkistuspassissa, tämän erän viimeiset 3 tiedostoa:
+  - `src/content/articles/de/wie-viel-garn-fuer-eine-decke.md`
+  - `src/content/articles/de/wie-viel-garn-fuer-einen-pullover.md`
+  - `src/content/articles/de/garnstaerke-ersetzen.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `yarn-for-blanket` -> `src/content/articles/yarn-for-blanket.md`
+  - `yarn-for-sweater` -> `src/content/articles/yarn-for-sweater.md`
+  - `yarn-weight-substitution` -> `src/content/articles/yarn-weight-substitution.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaan: Craft Yarn Councilin Standard Yarn Weight System, Interweaven sweater-yardage- ja gauge/yarn-substitution -ohjeet, Purl Sohon yarn-substitution -ohje sekä live `src/components/YarnEstimator.astro` / `src/pages/de/werkzeuge/garnbedarfsrechner.astro` -käyttäytyminen. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1.
+- `wie-viel-garn-fuer-eine-decke.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 4 FAQ). Korjattu metriset Garnbedarf-haarukat vastaamaan EN-yard-haarukoita, muutettu luvut ostoshaarukoiksi eikä lupauksiksi, poistettu EN-lähdettä tarkempi `25 %` DK-vs-Worsted-väite ja rajattu `Garnbedarfsrechner`-tuoteväite live-työkalun projektityyppi + koko + garnstärke -malliin.
+- `wie-viel-garn-fuer-einen-pullover.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 5 FAQ). Korjattu Ärmel-Falle pois EN-lähdettä tarkemmasta `320-460 m` / `noin kolmasosa` -väitteestä ja täydennetty Herren-/Damenpullover-FAQ EN:n mukaisiin fertigmaße-, body length-, sleeve length-, Maschenprobe- ja construction-ehtoihin.
+- `garnstaerke-ersetzen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (10 H2 + 0 H3 + 6 FAQ). Täsmennetty Worsted->DK-esimerkki EN:n nykyiseen laskutasoon: 44 silmukan hihansuu -> noin 53-54 silmukkaa, 40 cm vartalo -> 112 vs 128 riviä ja 1.280 m Worsted -> noin 1.650-1.830 m DK. Vanhojen ohjeiden osio tasattiin EN:n CYC-/vintage-pattern -rajaukseen ja lisättiin `24 Maschen auf 10 cm` -caveat.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: de`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja sanamääräpariteetti erän jälkeen: `wie-viel-garn-fuer-eine-decke...` 8 H2 / 0 H3 / 4 FAQ / 17 bold-riviä, 1 353 sanaa (EN 1 453 / 8 H2 / 0 H3 / 4 FAQ / 17 bold-riviä); `wie-viel-garn-fuer-einen-pullover...` 8 H2 / 0 H3 / 5 FAQ / 19 bold-riviä, 1 348 sanaa (EN 1 387 / 8 H2 / 0 H3 / 5 FAQ / 19 bold-riviä); `garnstaerke-ersetzen...` 10 H2 / 0 H3 / 6 FAQ / 15 bold-riviä, 1 812 sanaa (EN 1 968 / 10 H2 / 0 H3 / 6 FAQ / 15 bold-riviä).
+- linkkitarkistus kolmelle tiedostolle: 10 saksankielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisissä `src/content/articles/de/`- ja `src/pages/de/werkzeuge/`-lähteissä.
+- riskigrepit ennen lokipäivitystä: tiukka AI-/KI-/OCR-/skanneri-/kamera-/ääni-/hinnoittelu-/offline-/haptinen-/Yarn Label Scanner -tuoteväitelista 0 osumaa; suomi-/ruotsi-/norja-/ranska-/hollanti-/tanskajäämähaku 0 osumaa; englanninkielisten banned AI phrase -termien sanrajattu haku 0 osumaa.
+- tarkistukset ennen lokipäivitystä: H2/H3/FAQ/bold-rakennepariteetti OK, linkkitarkistus OK, product-/termiriskigrep OK, kielijäämähaku OK ja banned AI phrase -haku OK.
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --write` kolmelle DE-artikkelille ja etenemislokille OK (unchanged), `npx prettier --check` kolmelle DE-artikkelille ja etenemislokille OK, `git diff --check` kolmelle DE-artikkelille ja etenemislokille OK, etenemislokin trailing-whitespace-tarkistus OK, tiukka riskigrep OK, kielijäämähaku OK, banned AI phrase -haku OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua).
+- dist-polut buildin jälkeen olemassa:
+  - `dist/de/artikel/wie-viel-garn-fuer-eine-decke/index.html`
+  - `dist/de/artikel/wie-viel-garn-fuer-einen-pullover/index.html`
+  - `dist/de/artikel/garnstaerke-ersetzen/index.html`
+  - `dist/de/artikel/index.html`
+  - `dist/de/artikel/kategorie/garn/index.html`
+- seuraava vaihe: NL tools erä 1/2, 3 ensimmäistä hollanninkielistä tools-sivua EN-lähteisiin ja `DUTCH_TRANSLATION_GUIDE.md`-termilinjaan verrattuna.
+- seuraava tiedosto: `src/pages/nl/breitools/index.astro`
+
+NL tools erä 1/2:
+
+- käsitelty 3/7 hollanninkielistä tools-reittiä:
+  - `/nl/breitools/` -> `src/components/dutch-tools/DutchToolsIndex.astro`
+  - `/nl/breitools/opzetcalculator/` -> `src/components/dutch-tools/DutchCastOnPage.astro` + `src/components/CastOnCalculator.astro`
+  - `/nl/breitools/garenberekenaar/` -> `src/components/dutch-tools/DutchYarnEstimatorPage.astro` + `src/components/YarnEstimator.astro`
+- nykyisessä toteutuksessa NL-toolsit generoidaan `src/pages/nl/breitools/[...slug].astro`-catch-all-reitistä; erillistä `src/pages/nl/breitools/index.astro`-tiedostoa ei ole.
+- vertailtu nykyisiin englanninkielisiin tools-lähteisiin:
+  - `src/pages/tools/index.astro`
+  - `src/pages/tools/cast-on-calculator.astro`
+  - `src/pages/tools/yarn-estimator.astro`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astron nykyinen routing- ja i18n-dokumentaatio sekä NPM-ajantasaisuus (`astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1).
+- `DutchToolsIndex.astro`: näkyvä korttijärjestys ja reitit jätetty ennalleen. JSON-LD `ItemList` käyttää nyt sivun omaa `tools`-taulukkoa, jotta structured data -järjestys vastaa näkyvää bento-gridiä eikä erillistä `dutchToolLinks`-järjestystä.
+- `DutchCastOnPage.astro`: H2-rakenne ja FAQ-määrä vastaavat EN-lähdettä (3 H2 + 5 FAQ). Poistettu EN-lähteestä puuttunut noin 20 minuutin proeflapje-väite, rajattu even-number rounding EN:n `simple stitch patterns / ribbing repeats` -tasolle ja korjattu metakuvaus sekä yksi luontevampi NL-muotoilu (`jouw manier van breien`).
+- `DutchYarnEstimatorPage.astro`: H2-rakenne ja FAQ-määrä vastaavat EN-lähdettä (3 H2 + 5 FAQ). Pehmennetty extra yarn -FAQ pois absoluuttisesta `Altijd`-linjasta EN:n `usually / fitted, textured, dye-lot` -tasolle, lisätty substitute yarn -vastaukseen fabric-caveat ja palautettu sweater-esimerkki EN:n `size-M adult sweater in fingering-weight yarn` -tarkkuuteen.
+- `YarnEstimator.astro`: NL-laskurin tulosdisclaimer tasattu EN:n varmuustasoon: tekstuurit voivat käyttää enemmän lankaa, 15-20 % on suunnittelumarginaali, ja lisäboli liittyy erityisesti verfbad-tilanteeseen. Muiden kielten valmiit disclaimer-korjaukset olivat jo työpuussa; niitä ei avattu NL-erän laajemmaksi muutokseksi.
+- `CastOnCalculator.astro`: NL-käyttöliittymä tarkistettu, ei tarvinnut muuttaa. Metric-only NL-linja, `stekenverhouding`, `gewenste breedte (cm)`, desimaalikomman tekstisyöttö ja `Berekenen` vastaavat `DUTCH_TRANSLATION_GUIDE.md`-linjaa.
+- `translationKey`, artikkelireitit, slug-rakenne, canonical-/alternate-rakenne ja julkaisutaso eivät muuttuneet tässä erässä.
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --check` erätiedostoille ja etenemislokille OK, `git diff --check` erätiedostoille ja etenemislokille OK, etenemislokin trailing-whitespace-tarkistus OK, H2/FAQ-rakennepariteetti OK (`DutchCastOnPage` 3 H2 / 5 FAQ, `DutchYarnEstimatorPage` 3 H2 / 5 FAQ), product-/termiriskigrep erän lähdetiedostoihin 0 osumaa, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä). Build jätetty seuraavaan NL tools 2/2 -erään, jossa koko NL-tools-kokonaisuus tulee valmiiksi.
+- seuraava vaihe: NL tools erä 2/2, loput 4 hollanninkielistä tools-sivua EN-lähteisiin ja `DUTCH_TRANSLATION_GUIDE.md`-termilinjaan verrattuna:
+  - `src/components/dutch-tools/DutchNeedleSizeChartPage.astro` (`/nl/breitools/naalddiktes/`)
+  - `src/components/dutch-tools/DutchYarnWeightChartPage.astro` (`/nl/breitools/garendiktes/`)
+  - `src/components/dutch-tools/DutchKnittingAbbreviationsPage.astro` (`/nl/breitools/breiafkortingen/`)
+  - `src/components/dutch-tools/DutchKnittingSizeChartsPage.astro` (`/nl/breitools/maattabellen-breien/`)
+- seuraava tiedosto: `src/components/dutch-tools/DutchNeedleSizeChartPage.astro`
+
+NL tools erä 2/2:
+
+- käsitelty loput 4/7 hollanninkielistä tools-reittiä:
+  - `/nl/breitools/naalddiktes/` -> `src/components/dutch-tools/DutchNeedleSizeChartPage.astro`
+  - `/nl/breitools/garendiktes/` -> `src/components/dutch-tools/DutchYarnWeightChartPage.astro` + `src/components/WpiIdentifier.astro` NL-copy tarkistettu
+  - `/nl/breitools/breiafkortingen/` -> `src/components/dutch-tools/DutchKnittingAbbreviationsPage.astro`
+  - `/nl/breitools/maattabellen-breien/` -> `src/components/dutch-tools/DutchKnittingSizeChartsPage.astro`
+- vertailtu nykyisiin englanninkielisiin tools-lähteisiin:
+  - `src/pages/tools/needle-size-chart.astro`
+  - `src/pages/tools/yarn-weight-chart.astro`
+  - `src/pages/tools/knitting-abbreviations.astro`
+  - `src/pages/tools/knitting-size-charts.astro`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astron nykyinen routing-dokumentaatio ja NPM-ajantasaisuus (`astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1, `@astrojs/check` latest 0.9.9).
+- `DutchNeedleSizeChartPage.astro`: naalddikdetaulukko tasattu EN-lähteen 38 riviin lisäämällä puuttuvat Japanin kokorivit (`2,4`, `2,7`, `3,3`, `3,6`, `3,9`, `4,2`, `4,8`, `5,1`, `5,4`, `5,7`, `6,3`, `6,6`) ja korjaamalla boundary-garendikdelabelit (`Lace / Super Fine`, `Fine / Light`, `Light / Medium`, `Medium / Bulky`, `Bulky / Super Bulky`, `Super Bulky / Jumbo`). H2-rakenne vastaa EN-lähdettä (5 H2), FAQ-määrä on 4 ja hakudata säilyttää koneellisesti pisteellisen mm-arvon mutta näyttää käyttäjälle desimaalikomman.
+- `DutchYarnWeightChartPage.astro`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (5 H2 + 6 H3 + 4 FAQ). Vanha epämääräinen CYC-linja `0 tot 7` / `verdere maatvoering` korvattu EN:n nykyisellä rajauksella: sivu käyttää julkisia 0-7 rangeja, vaikka CYC mainitsee Size 8 -symbolin ilman julkaistuja gauge/needle/WPI-rangeja.
+- `DutchKnittingAbbreviationsPage.astro`: H2/FAQ-rakenne vastaa EN-lähdettä (5 H2 + 4 FAQ). Lopun `KnitTools-app`-väite pehmennetty nykyiseen web-työkaluun: `Deze KnitTools-woordenlijst is zoekbaar`, jotta sivu ei lupaa vahvistamatonta app-ominaisuutta.
+- `DutchKnittingSizeChartsPage.astro`: H2/FAQ-rakenne vastaa EN-lähdettä (3 H2 + 4 FAQ). `body measurements vs finished garment measurements` -osio tasattu EN:n varmuustasoon: valmis neule voi olla pienempi, sama tai suurempi ease-arvosta riippuen, negatiivinen ease sidottu CYC:n noin 5-10 cm close-fit -linjaan, ja oversized-raja muutettu `10-15+ cm` -muotoon.
+- `WpiIdentifier.astro`: NL-copy tarkistettu ilman muutostarvetta; se käyttää hollannin termilinjaa (`garendikte`, `proeflapje`, 2,5 cm) ja samaa CYC 0-7 WPI-logiikkaa kuin EN.
+- `translationKey`, artikkelireitit, slug-rakenne, canonical-/alternate-rakenne ja julkaisutaso eivät muuttuneet tässä erässä.
+- loppuvarmistukset lokipäivityksen jälkeen: `npx prettier --write` neljälle eräkomponentille OK, H2/H3/FAQ-rakennepariteetti OK, naalddikdetaulukon 38/38 mm-riviä OK, product-/termiriskigrep erän lähdetiedostoihin 0 osumaa, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK ja 411 sivua rakennettu, `dist/nl/breitools/` tuottaa 7/7 odotettua HTML-tiedostoa.
+- NL tools -kokonaisuus on nyt valmis 7/7. Seuraava turvallinen jatkopiste tämän nykyisen 5 artikkelin eräohjeen mukaan on NL artikkelit erä 1/8, ei DA tools. Aiempi etenemislokin hollantiosio riveillä 1457-1768 kuvaa vanhaa kahden artikkelin eräpassia, joten sitä ei tulkita tämän nykyisen 5 artikkelin tarkistuspassin valmistumiseksi ilman erillistä hyväksyntää.
+- seuraava erä: NL artikkelit 1/8, ensimmäiset 5 `src/i18n/articles.ts`-järjestyksen hollanninkielistä artikkelia:
+  - `src/content/articles/nl/tegelijkertijd-in-breipatronen.md`
+  - `src/content/articles/nl/beste-breiapps-waar-let-je-op.md`
+  - `src/content/articles/nl/beste-garen-voor-beginners.md`
+  - `src/content/articles/nl/rondbreinaalden-rechte-naalden-sokkennaalden.md`
+  - `src/content/articles/nl/digitale-of-mechanische-toerenteller.md`
+- seuraava tiedosto: aloita `src/content/articles/nl/tegelijkertijd-in-breipatronen.md` ja vertaa jokainen erän artikkeli sen nykyiseen englanninkieliseen `translationKey`-lähteeseen.
+
+NL artikkelit erä 1/8:
+
+- käsitelty 5/38 hollanninkielistä artikkelia tässä nykyisessä 5 artikkelin EN-pariteettipassissa:
+  - `src/content/articles/nl/tegelijkertijd-in-breipatronen.md`
+  - `src/content/articles/nl/beste-breiapps-waar-let-je-op.md`
+  - `src/content/articles/nl/beste-garen-voor-beginners.md`
+  - `src/content/articles/nl/rondbreinaalden-rechte-naalden-sokkennaalden.md`
+  - `src/content/articles/nl/digitale-of-mechanische-toerenteller.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `at-the-same-time-knitting` -> `src/content/articles/at-the-same-time-knitting.md`
+  - `best-knitting-apps` -> `src/content/articles/best-knitting-apps.md`
+  - `best-yarn-for-beginners` -> `src/content/articles/best-yarn-for-beginners.md`
+  - `circular-vs-straight-vs-dpn` -> `src/content/articles/circular-vs-straight-vs-dpn.md`
+  - `digital-vs-physical-row-counters` -> `src/content/articles/digital-vs-physical-row-counters.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n routing- ja content collections -dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System, CYC Standards & Guidelines -lyhennelistat sekä KnitPro:n DPN/circular needle -lähde. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3 ja `prettier-plugin-astro` 0.14.1.
+- `tegelijkertijd-in-breipatronen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 0 H3 + 5 FAQ). Tarkistettu esimerkkitaulukko, WS-row-rajaus, buttonhole-osio, Ravelry-varaus, `ssk`/`2 steken recht samenbreien` -suunta ja FAQ:t; sisältömuutosta ei tarvittu tässä erässä.
+- `beste-breiapps-waar-let-je-op.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 4 H3 + 5 FAQ). Korjattu KnitTools-osio nykyisen EN-lähteen varovaiselle tasolle: poistettu suunniteltua hinnoittelumallia, mainoksettomuutta, abonnementittomuutta ja PDF-patrooneja lupaava vanha muotoilu. Samalla korjattu yksi luonnottoman kuuloinen tikvlak-lause.
+- `beste-garen-voor-beginners.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 6 FAQ). Tarkistettu CYC category 4 / DK category 3 -rajaukset, Size 8 -varaus, 4,5-5,5 mm ja 3,75-4,5 mm -muunnokset, 180 m / 200 yards -linja, verfbad-teksti, vältettävät langat ja FAQ:t; sisältömuutosta ei tarvittu tässä erässä.
+- `rondbreinaalden-rechte-naalden-sokkennaalden.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 4 H3 + 6 FAQ). Korjattu Magic Loop -vertailun DPN-siirtymämäärä EN:n mukaiseksi `drie of vier` vanhan `vier of vijf` -muodon sijaan ja palautettu ergonomisten neliskanttisten naulojen Kollage-esimerkki. Tarkistettu 25/35 cm straight needle -muunnokset, 40/60/80/100/120 cm circular/magic loop -muunnokset, 13-20 cm sokkennaalden, 23 cm circulars ja FAQ:t.
+- `digitale-of-mechanische-toerenteller.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (6 H2 + 0 H3 + 4 FAQ). Lisätty EN-lähteen puuttuvat tarkennukset mekaanisten tellerien historiattomuudesta, pitkäkestoisen projektin sessiohistoriasta ja screen-free-tilanne-esimerkeistä. Korjattu KnitTools-tuoteväitteet EN:n varovaiseen kehitystilaan: paikallinen data on `gepland`, ei valmis offline-lupaus.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: nl`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `tegelijkertijd...` 12 H2 / 0 H3 / 5 FAQ, 11 436 merkkiä / 1 637 sanaa (EN 10 077 / 1 572 / 12 H2 / 0 H3 / 5 FAQ); `beste-breiapps...` 8 H2 / 4 H3 / 5 FAQ, 11 643 / 1 656 (EN 11 003 / 1 681 / 8 H2 / 4 H3 / 5 FAQ); `beste-garen...` 8 H2 / 0 H3 / 6 FAQ, 11 106 / 1 696 (EN 10 579 / 1 670 / 8 H2 / 0 H3 / 6 FAQ); `rondbreinaalden...` 11 H2 / 4 H3 / 6 FAQ, 15 403 / 2 281 (EN 14 236 / 2 191 / 11 H2 / 4 H3 / 6 FAQ); `digitale-of-mechanische...` 6 H2 / 0 H3 / 4 FAQ, 8 905 / 1 287 (EN 8 301 / 1 286 / 6 H2 / 0 H3 / 4 FAQ).
+- linkkitarkistus viidelle tiedostolle: 14 hollanninkielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisissä `src/i18n/articles.ts`- ja `src/i18n/routes.ts`-lähteissä.
+- riskigrepit: hollannin tyyli-/termikieltojen haku 0 osumaa; unsupported tuoteväitteiden haku (`labelscanner`, `garenlabelscanner`, AI-/spraak-/camera-/parser-claimit, hinnoittelu-, abonnement-, PDF- ja valmis offline -claimit) 0 poistettavaa osumaa.
+- tarkistukset ennen lokipäivitystä: `npx prettier --write` viidelle NL-artikkelille OK (unchanged), `npx prettier --check` viidelle NL-artikkelille OK, `git diff --check` viidelle NL-artikkelille OK, linkkitarkistus OK, H2/H3/FAQ-rakennepariteetti OK, riskigrep OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua).
+- dist-polut buildin jälkeen olemassa:
+  - `dist/nl/artikelen/tegelijkertijd-in-breipatronen/index.html`
+  - `dist/nl/artikelen/beste-breiapps-waar-let-je-op/index.html`
+  - `dist/nl/artikelen/beste-garen-voor-beginners/index.html`
+  - `dist/nl/artikelen/rondbreinaalden-rechte-naalden-sokkennaalden/index.html`
+  - `dist/nl/artikelen/digitale-of-mechanische-toerenteller/index.html`
+- seuraava vaihe: NL artikkelit erä 2/8, seuraavat 5 `src/i18n/articles.ts`-järjestyksen hollanninkielistä artikkelia:
+  - `src/content/articles/nl/essentiele-breihulpmiddelen.md` (`translationKey: "essential-knitting-tools"`)
+  - `src/content/articles/nl/gevallen-steek-ophalen-zonder-uithalen.md` (`translationKey: "fix-dropped-stitches"`)
+  - `src/content/articles/nl/gratis-breirekentools.md` (`translationKey: "free-knitting-calculators"`)
+  - `src/content/articles/nl/wat-is-stekenverhouding-bij-breien.md` (`translationKey: "what-is-gauge-in-knitting"`)
+  - `src/content/articles/nl/stekenverhouding-meten.md` (`translationKey: "how-to-measure-knitting-gauge"`)
+- seuraava tiedosto: `src/content/articles/nl/essentiele-breihulpmiddelen.md`
+
+NL artikkelit erä 2/8:
+
+- käsitelty 5 artikkelia lisää tässä nykyisessä 5 artikkelin EN-pariteettipassissa; NL-valmius nyt 10/38:
+  - `src/content/articles/nl/essentiele-breihulpmiddelen.md`
+  - `src/content/articles/nl/gevallen-steek-ophalen-zonder-uithalen.md`
+  - `src/content/articles/nl/gratis-breirekentools.md`
+  - `src/content/articles/nl/wat-is-stekenverhouding-bij-breien.md`
+  - `src/content/articles/nl/stekenverhouding-meten.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `essential-knitting-tools` -> `src/content/articles/essential-knitting-tools.md`
+  - `fix-dropped-stitches` -> `src/content/articles/fix-dropped-stitches.md`
+  - `free-knitting-calculators` -> `src/content/articles/free-knitting-calculators.md`
+  - `what-is-gauge-in-knitting` -> `src/content/articles/what-is-gauge-in-knitting.md`
+  - `how-to-measure-knitting-gauge` -> `src/content/articles/how-to-measure-knitting-gauge.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n routing- ja content collections -dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System, Craft Yarn Councilin Hooks & Needles -taulukko, Yarnspirations/KnitPro/Nimble Needles -pudonneen silmukan korjauslähteet sekä paikallinen KnitTools-työkalutotuus `CastOnCalculator.astro`, `YarnEstimator.astro` ja `DutchYarnEstimatorPage.astro`. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1 ja `@astrojs/check` latest 0.9.9; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3, `prettier-plugin-astro` 0.14.1 ja `@astrojs/check` 0.9.9.
+- `essentiele-breihulpmiddelen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (5 H2 + 13 H3 + 0 FAQ). Korjattu app-tellerikohta takaisin EN:n varovaiselle tasolle: yleiset app-tellerit voivat tarjota useita tellereitä, projektikytkennän, sessiohistorian ja muistutuksia, mutta KnitToolsista luvataan vain project-linked row counting eikä haptista palautetta tai epämääräisiä vahvistamattomia ominaisuuksia.
+- `gevallen-steek-ophalen-zonder-uithalen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 0 H3 + 6 FAQ). Tarkistettu haaknaald-menetelmä, ribbelsteek-vuorottelu, hulpdraad/lifeline-rajaus, opzetrand-korjaus, gedraaide steek -kolumnikorjaus, mohair-rajaus ja FAQ:t; sisältömuutosta ei tarvittu tässä erässä.
+- `gratis-breirekentools.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 0 H3 + 4 FAQ). Korjattu garenberekenaar-esimerkin metrinen looplengte vastaamaan EN-lähteen `220 yards` / `164 yards` -suhdetta: NL käyttää nyt noin `200 m per 100 g` ja `150 m per 100 g`, ei virheellistä `220 m`.
+- `wat-is-stekenverhouding-bij-breien.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (13 H2 + 0 H3 + 7 FAQ). Korjattu US 3 -naaldin metrinen vastaavuus CYC-taulukon mukaiseksi `3,25 mm`, ei `3,0 mm`.
+- `stekenverhouding-meten.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 0 H3 + 5 FAQ). Poistettu EN-lähdettä tarkempi mutta lähteistämätön `2,5 cm over 25 cm` -kabeliväite ja pehmennetty se EN:n tasolle. Korjattu `Garenberekenaar`-tuoteväite paikallisen komponentin mukaiseksi: se käyttää projecttype-, maat- ja garendikte-arvoja, ei käyttäjän stekenverhouding-/afmetingen-inputtia.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: nl`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `essentiele-breihulpmiddelen...` 5 H2 / 13 H3 / 0 FAQ, 10 817 merkkiä / 1 624 sanaa (EN 10 026 / 1 630 / 5 H2 / 13 H3 / 0 FAQ); `gevallen-steek...` 12 H2 / 0 H3 / 6 FAQ, 10 483 / 1 744 (EN 9 589 / 1 678 / 12 H2 / 0 H3 / 6 FAQ); `gratis-breirekentools...` 9 H2 / 0 H3 / 4 FAQ, 10 065 / 1 516 (EN 9 392 / 1 525 / 9 H2 / 0 H3 / 4 FAQ); `wat-is-stekenverhouding...` 13 H2 / 0 H3 / 7 FAQ, 13 647 / 2 107 (EN 12 033 / 1 972 / 13 H2 / 0 H3 / 7 FAQ); `stekenverhouding-meten...` 9 H2 / 0 H3 / 5 FAQ, 10 583 / 1 675 (EN 9 944 / 1 674 / 9 H2 / 0 H3 / 5 FAQ).
+- linkkitarkistus viidelle tiedostolle: 25 hollanninkielistä sisäistä artikkeli-/tools-linkkiä, 0 puuttuvaa reittiä nykyisissä `src/i18n/articles.ts`- ja `src/i18n/routes.ts`-lähteissä.
+- riskigrepit: hollannin tyyli-/termikieltojen haku 0 osumaa; unsupported tuoteväitteiden haku (`labelscanner`, `garenlabelscanner`, AI-/spraak-/camera-/parser-claimit, hinnoittelu-, abonnement-, PDF-, valmis offline- ja haptische-feedback-claimit) 0 poistettavaa osumaa.
+- tarkistukset: `npx prettier --write` viidelle NL-artikkelille OK (unchanged), `npx prettier --check` viidelle NL-artikkelille OK, `git diff --check` viidelle NL-artikkelille OK, trailing-whitespace-haku OK, linkkitarkistus OK, H2/H3/FAQ-rakennepariteetti OK, riskigrep OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua). Huom: ensimmäinen rinnakkainen `npm run check` + `npm run build` -ajo aiheutti väliaikaisen Astron `data-store.json.tmp` rename-kilpailun; yksin uusittu `npm run check` meni läpi.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/nl/artikelen/essentiele-breihulpmiddelen/index.html`
+  - `dist/nl/artikelen/gevallen-steek-ophalen-zonder-uithalen/index.html`
+  - `dist/nl/artikelen/gratis-breirekentools/index.html`
+  - `dist/nl/artikelen/wat-is-stekenverhouding-bij-breien/index.html`
+  - `dist/nl/artikelen/stekenverhouding-meten/index.html`
+- seuraava vaihe: NL artikkelit erä 3/8, seuraavat 5 `src/i18n/articles.ts`-järjestyksen hollanninkielistä artikkelia:
+  - `src/content/articles/nl/als-je-stekenverhouding-niet-klopt.md` (`translationKey: "gauge-doesnt-match"`)
+  - `src/content/articles/nl/proeflapje-breien-stap-voor-stap.md` (`translationKey: "gauge-swatch-step-by-step"`)
+  - `src/content/articles/nl/hoeveel-steken-opzetten.md` (`translationKey: "how-many-stitches-to-cast-on"`)
+  - `src/content/articles/nl/hoeveel-garen-heb-je-nodig.md` (`translationKey: "how-much-yarn-do-i-need"`)
+  - `src/content/articles/nl/breiwerk-blocken-nat-stoom-spray.md` (`translationKey: "how-to-block-knitting"`)
+- seuraava tiedosto: `src/content/articles/nl/als-je-stekenverhouding-niet-klopt.md`
+
+NL artikkelit erä 3/8:
+
+- käsitelty 5 artikkelia lisää tässä nykyisessä 5 artikkelin EN-pariteettipassissa; NL-valmius nyt 15/38:
+  - `src/content/articles/nl/als-je-stekenverhouding-niet-klopt.md`
+  - `src/content/articles/nl/proeflapje-breien-stap-voor-stap.md`
+  - `src/content/articles/nl/hoeveel-steken-opzetten.md`
+  - `src/content/articles/nl/hoeveel-garen-heb-je-nodig.md`
+  - `src/content/articles/nl/breiwerk-blocken-nat-stoom-spray.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `gauge-doesnt-match` -> `src/content/articles/gauge-doesnt-match.md`
+  - `gauge-swatch-step-by-step` -> `src/content/articles/gauge-swatch-step-by-step.md`
+  - `how-many-stitches-to-cast-on` -> `src/content/articles/how-many-stitches-to-cast-on.md`
+  - `how-much-yarn-do-i-need` -> `src/content/articles/how-much-yarn-do-i-need.md`
+  - `how-to-block-knitting` -> `src/content/articles/how-to-block-knitting.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n routing- ja content collections -dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System, Vogue Knittingin gauge-ohje, KnitPicksin blocking-ohje, Tin Can Knitsin wet blocking -ohje sekä paikallinen KnitTools-työkalutotuus `YarnEstimator.astro` ja `DutchYarnEstimatorPage.astro`. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1 ja `@astrojs/check` latest 0.9.9; repo käyttää `astro` `^6.1.3`, `prettier` 3.8.3, `prettier-plugin-astro` 0.14.1 ja `@astrojs/check` 0.9.9.
+- `als-je-stekenverhouding-niet-klopt.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (13 H2 + 0 H3 + 5 FAQ). Tarkistettu 10 cm -mittaus, kahden mittauskohdan keskiarvo, naalddikte-korjaus, toerenverhouding, geblockte/ongeblockte stekenverhouding, rondbreien-versus-plat-breien, gauge drift, opzetcalculator-linkki ja FAQ:t; sisältömuutosta ei tarvittu tässä erässä.
+- `proeflapje-breien-stap-voor-stap.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (10 H2 + 0 H3 + 0 FAQ). Tarkistettu 15 cm / 10 cm -proeflapje-logiikka, tricotsteek-vs-steekpatroon-rajaus, 15-20 minuutin pesu-/blockausohje, 18 st / 10 cm -> 111 cm -esimerkki, rondbreien-proeflapje-oikotie ja materiaalikohtaiset varaukset; sisältömuutosta ei tarvittu tässä erässä.
+- `hoeveel-steken-opzetten.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (13 H2 + 0 H3 + 7 FAQ). Tarkistettu peruskaava, 18 st / 10 cm -> 36 steken -esimerkki, rapportit, kantsteken, boordsteek, rondbreien, sokkien lähtöarvot, opzetmethodes, draadstaart-esimerkki ja FAQ:t; sisältömuutosta ei tarvittu tässä erässä.
+- `hoeveel-garen-heb-je-nodig.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 6 FAQ). Korjattu kolme `Garenberekenaar`-väitettä paikallisen komponentin ja EN-lähteen mukaiseksi: työkalu antaa nopean bandbreedte-/schaalcheckin projecttype-, maat- ja garendikte-arvoilla, eikä lupaa käyttäjän stekenverhouding-/afmetingen-pohjaista laskentaa.
+- `breiwerk-blocken-nat-stoom-spray.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 2 H3 + 6 FAQ). Korjattu azijn-lause pois virheellisestä `lost geen afgewerkt garen op` -muodosta, tasattu stoomafstand EN/KnitPicks-linjaan `1 tot 2,5 cm`, ja FAQ ohjaa epävarmassa tilanteessa blockaamaan ensin proeflapjen, ei epämääräisesti koko projektia.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: nl`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `als-je-stekenverhouding...` 13 H2 / 0 H3 / 5 FAQ, 12 646 merkkiä / 1 974 sanaa (EN 11 434 / 1 881 / 13 H2 / 0 H3 / 5 FAQ); `proeflapje...` 10 H2 / 0 H3 / 0 FAQ, 10 169 / 1 621 (EN 9 131 / 1 576 / 10 H2 / 0 H3 / 0 FAQ); `hoeveel-steken...` 13 H2 / 0 H3 / 7 FAQ, 14 650 / 2 331 (EN 13 199 / 2 212 / 13 H2 / 0 H3 / 7 FAQ); `hoeveel-garen...` 8 H2 / 0 H3 / 6 FAQ, 11 332 / 1 823 (EN 10 649 / 1 765 / 8 H2 / 0 H3 / 6 FAQ); `breiwerk-blocken...` 11 H2 / 2 H3 / 6 FAQ, 14 015 / 2 211 (EN 12 924 / 2 108 / 11 H2 / 2 H3 / 6 FAQ).
+- linkkitarkistus viidelle tiedostolle: 23 hollanninkielistä sisäistä artikkeli-/tools-linkkiä, 11 uniikkia kohdetta, 0 puuttuvaa `dist/`-kohdetta.
+- riskigrepit: hollannin tyyli-/termikieltojen haku 0 osumaa; suomen-/ruotsin-/norjan-/ranskanjäämien haku 0 osumaa; unsupported tuoteväitteiden haku (`labelscanner`, `garenlabelscanner`, AI-/OCR-/spraak-/camera-/parser-claimit, hinnoittelu-, abonnement-, PDF-, widget-, valmis offline-, haptische-feedback- ja `KnitTools-app`-claimit) 0 poistettavaa osumaa.
+- tarkistukset: `npx prettier --write` kahdelle muokatulle NL-artikkelille OK (unchanged), `npx prettier --check` viidelle NL-artikkelille OK, `git diff --check` viidelle NL-artikkelille OK, linkkitarkistus OK, H2/H3/FAQ-rakennepariteetti OK, riskigrep OK, `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä), `npm run build` OK (411 sivua).
+- dist-polut buildin jälkeen olemassa:
+  - `dist/nl/artikelen/als-je-stekenverhouding-niet-klopt/index.html`
+  - `dist/nl/artikelen/proeflapje-breien-stap-voor-stap/index.html`
+  - `dist/nl/artikelen/hoeveel-steken-opzetten/index.html`
+  - `dist/nl/artikelen/hoeveel-garen-heb-je-nodig/index.html`
+  - `dist/nl/artikelen/breiwerk-blocken-nat-stoom-spray/index.html`
+- seuraava vaihe: NL artikkelit erä 4/8, seuraavat 5 `src/i18n/articles.ts`-järjestyksen hollanninkielistä artikkelia:
+  - `src/content/articles/nl/een-muts-breien-verschillende-methodes.md` (`translationKey: "how-to-knit-hat"`)
+  - `src/content/articles/nl/sokken-breien-opbouw-sokpatroon.md` (`translationKey: "how-to-knit-socks"`)
+  - `src/content/articles/nl/een-garenlabel-lezen-symbolen-uitgelegd.md` (`translationKey: "how-to-read-yarn-label"`)
+  - `src/content/articles/nl/garen-vervangen-in-een-breipatroon.md` (`translationKey: "how-to-substitute-yarn"`)
+  - `src/content/articles/nl/onbekend-garen-herkennen-zonder-label.md` (`translationKey: "identify-mystery-yarn"`)
+- seuraava tiedosto: `src/content/articles/nl/een-muts-breien-verschillende-methodes.md`
+
+NL artikkelit erä 4/8:
+
+- käsitelty 5 artikkelia lisää tässä nykyisessä 5 artikkelin EN-pariteettipassissa; NL-valmius nyt 20/38:
+  - `src/content/articles/nl/een-muts-breien-verschillende-methodes.md`
+  - `src/content/articles/nl/sokken-breien-opbouw-sokpatroon.md`
+  - `src/content/articles/nl/een-garenlabel-lezen-symbolen-uitgelegd.md`
+  - `src/content/articles/nl/garen-vervangen-in-een-breipatroon.md`
+  - `src/content/articles/nl/onbekend-garen-herkennen-zonder-label.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `how-to-knit-hat` -> `src/content/articles/how-to-knit-hat.md`
+  - `how-to-knit-socks` -> `src/content/articles/how-to-knit-socks.md`
+  - `how-to-read-yarn-label` -> `src/content/articles/how-to-read-yarn-label.md`
+  - `how-to-substitute-yarn` -> `src/content/articles/how-to-substitute-yarn.md`
+  - `identify-mystery-yarn` -> `src/content/articles/identify-mystery-yarn.md`
+- `een-muts-breien-verschillende-methodes.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (10 H2 + 0 H3 + 5 FAQ). Pehmennetty aloituksen ajallinen lupaus, täsmennetty target circumference / begin-van-de-toer / markeerder -kohdat, lisätty top-down-menetelmä, CYC-pohjaiset päänympärysrajaukset, topmindering- ja boordivalintojen rajaukset, varovainen yardage-linja sekä gevoerde mutsen -FAQ.
+- `sokken-breien-opbouw-sokpatroon.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (10 H2 + 0 H3 + 7 FAQ). Tasattu sock-anatomia, cuff-down/toe-up-vertailu, hielflap/spie-, verkorte-toeren- ja afterthought heel -rajaukset, sokkengaren-/puikkovalinnat, maat ja pasvorm, second sock syndrome sekä puuttuvat FAQ:t EN-lähteen tasolle.
+- `een-garenlabel-lezen-symbolen-uitgelegd.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 4 FAQ). CYC Size 8 -varaus, superwash-/verzorgingssymboli- ja 10 cm / 4 inch -kohdat pidetty nykyisen EN-lähteen varovaisella tasolla; vanha Yarn Label Scanner -claim on poistettu ja korvattu project notes -neuvolla.
+- `garen-vervangen-in-een-breipatroon.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (7 H2 + 0 H3 + 4 FAQ). Poistettu tarkka eurohintaesimerkki, korjattu `Garenberekenaar`-kuvaus nykyiseen projecttype + maat + garendikte -totuuteen ja lokalisoitu low-risk-esimerkki 10 cm -mitaksi.
+- `onbekend-garen-herkennen-zonder-label.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (6 H2 + 3 H3 + 3 FAQ). WPI-/CYC Size 8 -rajaus, brandtestin turvallisuusohjeet, water/felt-testin epävarmuus ja manual yarn card -linja vastaavat EN-lähdettä; vanha Yarn Label Scanner -claim on poistettu.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: nl`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- riskigrepit: hollannin unsupported tuoteväitteiden haku (`AI`, `OCR`, `scanner`, `scannen`, `camera`, `spraak`, `stemcommando`, `microfoon`, `geen abonnement`, `geen advertenties`, `eenmalige aankoop`, `KnitTools-app`, `Yarn Label Scanner`, `garenlabelscanner`, `€`) 0 osumaa.
+- tarkistukset paluuajossa lokipäivityksen jälkeen: `npx prettier --check` viidelle NL-artikkelille ja etenemislokille OK; `git diff --check` viidelle NL-artikkelille ja etenemislokille OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- seuraava vaihe: NL artikkelit erä 5/8, seuraavat 5 `src/i18n/articles.ts`-järjestyksen hollanninkielistä artikkelia:
+  - `src/content/articles/nl/gelijkmatig-meerderen-of-minderen-over-een-toer.md` (`translationKey: "increase-decrease-evenly"`)
+  - `src/content/articles/nl/nieuw-garen-aanhechten-midden-in-een-toer.md` (`translationKey: "join-new-ball-of-yarn"`)
+  - `src/content/articles/nl/je-eerste-sjaal-breien.md` (`translationKey: "knit-first-scarf"`)
+  - `src/content/articles/nl/breinaalden-van-metaal-hout-en-bamboe.md` (`translationKey: "knitting-needle-materials"`)
+  - `src/content/articles/nl/herhalingen-in-breipatronen.md` (`translationKey: "knitting-pattern-repeats"`)
+- seuraava tiedosto: `src/content/articles/nl/gelijkmatig-meerderen-of-minderen-over-een-toer.md`
+
+NL artikkelit erä 5/8:
+
+- käsitelty 5 artikkelia lisää tässä nykyisessä 5 artikkelin EN-pariteettipassissa; NL-valmius nyt 25/38:
+  - `src/content/articles/nl/gelijkmatig-meerderen-of-minderen-over-een-toer.md`
+  - `src/content/articles/nl/nieuw-garen-aanhechten-midden-in-een-toer.md`
+  - `src/content/articles/nl/je-eerste-sjaal-breien.md`
+  - `src/content/articles/nl/breinaalden-van-metaal-hout-en-bamboe.md`
+  - `src/content/articles/nl/herhalingen-in-breipatronen.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `increase-decrease-evenly` -> `src/content/articles/increase-decrease-evenly.md`
+  - `join-new-ball-of-yarn` -> `src/content/articles/join-new-ball-of-yarn.md`
+  - `knit-first-scarf` -> `src/content/articles/knit-first-scarf.md`
+  - `knitting-needle-materials` -> `src/content/articles/knitting-needle-materials.md`
+  - `knitting-pattern-repeats` -> `src/content/articles/knitting-pattern-repeats.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System, Vogue Knittingin uuden langan liittämisohje, Knitter's Review'n neulamateriaaliopas, Tin Can Knitsin monikokoisten ohjeiden lukemisohje sekä Interweaven pattern repeat -ohje. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1.
+- `gelijkmatig-meerderen-of-minderen-over-een-toer.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (15 H2 + 0 H3 + 6 FAQ). Korjattu keskitetyn kaksoiskavennuksen englanninkielinen notaatiopari `S2KP2` / `sl2-k1-p2sso` vastaamaan EN-lähdettä ja aiempien kielierien korjauslinjaa; samalla korjattu kaksi hollannin yhdyssanamuotoa (`minderingspunten`, `minderingshandelingen`).
+- `nieuw-garen-aanhechten-midden-in-een-toer.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 1 H3 + 5 FAQ). Pehmennetty alun liian vahva `onzichtbaar` -> `netjes`, muutettu Russian join -rajaus pois kategorisesta singles/splitty-kiellosta EN-lähteen mukaiseen `lastiger`-muotoon, pehmennetty spit splice `snelste en meest onzichtbare` -> `snel en bijna onzichtbaar`, ja poistettu käsinvärjättyjen lankojen vaihdosta EN-lähteen ulkopuolinen tarkka `6-8 toeren` -numero.
+- `je-eerste-sjaal-breien.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 4 H3 + 7 FAQ). Long-tail-opzetin häntämitan ohje tasattu EN-lähteeseen: `3 tot 4 keer` opzetreunan leveys ja noin `75 tot 90 cm` 30 worsted-silmukalle, eikä yksittäinen 90 cm -arvo.
+- `breinaalden-van-metaal-hout-en-bamboe.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (10 H2 + 0 H3 + 6 FAQ). Muovipuikkojen koko-ohje korjattu hollannin metriikka-first-linjaan: `9,0 mm (US 13)` eikä pelkkä US-koko.
+- `herhalingen-in-breipatronen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 0 H3 + 5 FAQ). Korjattu `half-drop repeat` -kohta pois harhaanjohtavasta `half rapport` -muodosta muotoon `half-drop-rapport` sekä tekstissä että FAQ:ssa.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: nl`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `gelijkmatig-meerderen...` 15 H2 / 0 H3 / 6 FAQ, 15 066 merkkiä / 2 385 sanaa (EN 15 283 / 2 544 / 15 H2 / 0 H3 / 6 FAQ); `nieuw-garen...` 12 H2 / 1 H3 / 5 FAQ, 13 037 / 2 072 (EN 12 052 / 1 991 / 12 H2 / 1 H3 / 5 FAQ); `je-eerste-sjaal...` 11 H2 / 4 H3 / 7 FAQ, 14 457 / 2 427 (EN 12 871 / 2 231 / 11 H2 / 4 H3 / 7 FAQ); `breinaalden...` 10 H2 / 0 H3 / 6 FAQ, 11 485 / 1 659 (EN 10 703 / 1 640 / 10 H2 / 0 H3 / 6 FAQ); `herhalingen...` 11 H2 / 0 H3 / 5 FAQ, 11 698 / 1 874 (EN 10 787 / 1 816 / 11 H2 / 0 H3 / 5 FAQ).
+- linkkitarkistus viidelle tiedostolle buildin jälkeen: 13 hollanninkielistä sisäistä artikkeli-/tools-linkkiä, 12 uniikkia kohdetta, 0 puuttuvaa `dist/`-kohdetta.
+- riskigrepit: hollannin unsupported tuoteväitteiden haku sananrajoilla (`AI`, `OCR`, `scanner`, `scannen`, `camera`, `spraak`, `stemcommando`, `microfoon`, `geen abonnement`, `geen advertenties`, `eenmalige aankoop`, `KnitTools-app`, `Yarn Label Scanner`, `garenlabelscanner`, `€`) 0 osumaa; tarkistettu myös liian kategoriset muotoilut `werkt niet met singles`, `6-8 toeren`, virheellinen `s2kp` / `sl2-k1-psso` ja pelkkä `US 13`, 0 poistettavaa osumaa. Karkea `AI`-haku tuotti vain tavallisia hollannin sanansisäisiä false positive -osumia kuten `draait`, `genaaid` ja `mohair`.
+- tarkistukset: `npx prettier --write` viidelle NL-artikkelille OK (unchanged); `npx prettier --check` viidelle NL-artikkelille ja etenemislokille OK; `git diff --check` viidelle NL-artikkelille ja etenemislokille OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/nl/artikelen/gelijkmatig-meerderen-of-minderen-over-een-toer/index.html`
+  - `dist/nl/artikelen/nieuw-garen-aanhechten-midden-in-een-toer/index.html`
+  - `dist/nl/artikelen/je-eerste-sjaal-breien/index.html`
+  - `dist/nl/artikelen/breinaalden-van-metaal-hout-en-bamboe/index.html`
+  - `dist/nl/artikelen/herhalingen-in-breipatronen/index.html`
+- seuraava vaihe: NL artikkelit erä 6/8, seuraavat 5 `src/i18n/articles.ts`-järjestyksen hollanninkielistä artikkelia:
+  - `src/content/articles/nl/maten-en-pasvorm-in-breipatronen.md` (`translationKey: "knitting-pattern-sizes-and-fit"`)
+  - `src/content/articles/nl/welke-naalddikte-voor-beginners.md` (`translationKey: "needle-size-for-beginners"`)
+  - `src/content/articles/nl/meerdere-breiprojecten-organiseren.md` (`translationKey: "organize-knitting-projects"`)
+  - `src/content/articles/nl/een-breipatroon-lezen.md` (`translationKey: "how-to-read-knitting-pattern"`)
+  - `src/content/articles/nl/steken-opnemen-langs-een-gebreide-rand.md` (`translationKey: "pick-up-stitches"`)
+- seuraava tiedosto: `src/content/articles/nl/maten-en-pasvorm-in-breipatronen.md`
+
+NL artikkelit erä 6/8:
+
+- käsitelty 5 artikkelia lisää tässä nykyisessä 5 artikkelin EN-pariteettipassissa; NL-valmius nyt 30/38:
+  - `src/content/articles/nl/maten-en-pasvorm-in-breipatronen.md`
+  - `src/content/articles/nl/welke-naalddikte-voor-beginners.md`
+  - `src/content/articles/nl/meerdere-breiprojecten-organiseren.md`
+  - `src/content/articles/nl/een-breipatroon-lezen.md`
+  - `src/content/articles/nl/steken-opnemen-langs-een-gebreide-rand.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `knitting-pattern-sizes-and-fit` -> `src/content/articles/knitting-pattern-sizes-and-fit.md`
+  - `needle-size-for-beginners` -> `src/content/articles/needle-size-for-beginners.md`
+  - `organize-knitting-projects` -> `src/content/articles/organize-knitting-projects.md`
+  - `how-to-read-knitting-pattern` -> `src/content/articles/how-to-read-knitting-pattern.md`
+  - `pick-up-stitches` -> `src/content/articles/pick-up-stitches.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System, Hooks & Needles, Body Sizing, Schematics, Knitting Abbreviations ja Knit Chart Symbols, Vogue Knittingin picking up stitches -ohje, Tin Can Knitsin size/pattern-reading-ohjeet sekä Interweaven chart-reading-ohje. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3 ja `prettier-plugin-astro` latest 0.14.1.
+- `maten-en-pasvorm-in-breipatronen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (13 H2 + 0 H3 + 4 FAQ). Nykyinen NL-teksti oli jo linjassa EN-lähteen kanssa: CYC-pohjaiset 5-10 cm / 10-15 cm / 15+ cm ease-rajaukset, schema-, armsgatdiepte-, constructie-, short-row-bust-shaping- ja garenvalkuil-kohdat vastasivat lähdettä, joten sisältöä ei muutettu.
+- `welke-naalddikte-voor-beginners.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (9 H2 + 0 H3 + 6 FAQ). Täsmennetty metriikka-first-muotoja ja EN-pariteettia: `2,25 mm (US 1)`, `9,0 mm (US 13)`, `8,0 mm (US 11)`, `4,0 mm (US 6)` ja `6,0 mm (US 10)`; palautettu EN-lähteen merkkiesimerkit ChiaoGoo, KnitPro, HiyaHiya ja Addi vaihtopääsettien kohdalle.
+- `meerdere-breiprojecten-organiseren.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 3 FAQ). Tuoteväitteet pysyvät EN-lähteen varovaisessa `KnitTools wordt gebouwd` -muodossa; project notes / row counts / session history / yarn details -sisältö vastaa nykyistä EN-lähdettä, joten sisältöä ei muutettu.
+- `een-breipatroon-lezen.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (14 H2 + 2 H3 + 7 FAQ). Pehmennetty liian ehdoton `Elk patroon begint` -> `De meeste patronen beginnen`, korjattu garenvervanging-kohta takaisin EN-lähteen `garendikte + stekenverhouding + vezelgedrag + totale meters` -linjaan ja lisätty telpatronen-kohtaan pyöröneuleen lukusuunta, jossa jokainen toer luetaan yleensä oikealta vasemmalle.
+- `steken-opnemen-langs-een-gebreide-rand.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (12 H2 + 2 H3 + 6 FAQ). Korjattu contrastgaren-osio EN-lähteen mukaiseen testiriviin restgarenilla, joka puretaan ja tehdään uudelleen projectgarenilla, ei pysyvään kontrastitoeriin. Täsmennetty steek-kohta `steekkolom`-muotoon, pehmennetty non-superwash-wol -varaus `kan vaak genoeg grijpen of vervilten`, palautettu omlaag breien -FAQ:n directional-stitch-pattern-rajaus ja korjattu golvende rand -selitys huomioimaan stekenverhouding, toerenverhouding ja randlengte yhdessä.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: nl`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `maten-en-pasvorm...` 13 H2 / 0 H3 / 4 FAQ, 14 150 merkkiä / 2 236 sanaa (EN 13 116 / 2 191 / 13 H2 / 0 H3 / 4 FAQ); `welke-naalddikte...` 9 H2 / 0 H3 / 6 FAQ, 10 081 / 1 592 (EN 9 400 / 1 589 / 9 H2 / 0 H3 / 6 FAQ); `meerdere-breiprojecten...` 8 H2 / 0 H3 / 3 FAQ, 9 646 / 1 512 (EN 9 266 / 1 541 / 8 H2 / 0 H3 / 3 FAQ); `een-breipatroon-lezen...` 14 H2 / 2 H3 / 7 FAQ, 15 859 / 2 377 (EN 14 046 / 2 225 / 14 H2 / 2 H3 / 7 FAQ); `steken-opnemen...` 12 H2 / 2 H3 / 6 FAQ, 12 983 / 2 093 (EN 11 811 / 1 982 / 12 H2 / 2 H3 / 6 FAQ).
+- linkkitarkistus viidelle buildatulle NL-sivulle: 85 hollanninkielistä sisäistä artikkeli-/tools-linkkiä, 22 uniikkia kohdetta, 0 puuttuvaa `dist/`-kohdetta.
+- riskigrepit: hollannin unsupported tuoteväitteiden haku sananrajoilla (`AI`, `OCR`, `scanner`, `scannen`, `camera`, `spraak`, `stemcommando`, `microfoon`, `geen abonnement`, `geen advertenties`, `eenmalige aankoop`, `KnitTools-app`, `Yarn Label Scanner`, `garenlabelscanner`, `€`) 0 osumaa; AI-filler-/banned-phrase-haku 0 osumaa.
+- tarkistukset: `npx prettier --write` viidelle NL-artikkelille OK (unchanged); `npx prettier --check` viidelle NL-artikkelille OK; `git diff --check` viidelle NL-artikkelille OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/nl/artikelen/maten-en-pasvorm-in-breipatronen/index.html`
+  - `dist/nl/artikelen/welke-naalddikte-voor-beginners/index.html`
+  - `dist/nl/artikelen/meerdere-breiprojecten-organiseren/index.html`
+  - `dist/nl/artikelen/een-breipatroon-lezen/index.html`
+  - `dist/nl/artikelen/steken-opnemen-langs-een-gebreide-rand/index.html`
+- seuraava vaihe: NL artikkelit erä 7/8, seuraavat 5 `src/i18n/articles.ts`-järjestyksen hollanninkielistä artikkelia:
+  - `src/content/articles/nl/breidelen-aan-elkaar-naaien.md` (`translationKey: "seam-knitted-pieces"`)
+  - `src/content/articles/nl/breitijd-en-tempo-bijhouden.md` (`translationKey: "track-knitting-time"`)
+  - `src/content/articles/nl/toeren-bijhouden-tijdens-het-breien.md` (`translationKey: "track-rows-knitting"`)
+  - `src/content/articles/nl/waarom-krult-breiwerk.md` (`translationKey: "why-knitting-curls"`)
+  - `src/content/articles/nl/garenvezels-vergeleken.md` (`translationKey: "yarn-fibers-compared"`)
+- seuraava tiedosto: `src/content/articles/nl/breidelen-aan-elkaar-naaien.md`
+
+NL artikkelit erä 7/8:
+
+- käsitelty 5 artikkelia lisää tässä nykyisessä 5 artikkelin EN-pariteettipassissa; NL-valmius nyt 35/38:
+  - `src/content/articles/nl/breidelen-aan-elkaar-naaien.md`
+  - `src/content/articles/nl/breitijd-en-tempo-bijhouden.md`
+  - `src/content/articles/nl/toeren-bijhouden-tijdens-het-breien.md`
+  - `src/content/articles/nl/waarom-krult-breiwerk.md`
+  - `src/content/articles/nl/garenvezels-vergeleken.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `seam-knitted-pieces` -> `src/content/articles/seam-knitted-pieces.md`
+  - `track-knitting-time` -> `src/content/articles/track-knitting-time.md`
+  - `track-rows-knitting` -> `src/content/articles/track-rows-knitting.md`
+  - `why-knitting-curls` -> `src/content/articles/why-knitting-curls.md`
+  - `yarn-fibers-compared` -> `src/content/articles/yarn-fibers-compared.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Craft Yarn Councilin Standards-sivu, Vogue Knittingin finishing/seaming-ohje, TECHknittingin ja Our Daily Craftin stockinette curl -selitykset, Olive Knitsin superwash/growth-ohje sekä Woolmarkin ja Coatsin kuituominaisuudet. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1 ja `@astrojs/check` latest 0.9.9.
+- `breidelen-aan-elkaar-naaien.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 2 H3 + 6 FAQ). Matrassteek-, ribbelsteek-, boordsteek-, afkanten met drie naalden-, maassteek/Kitchener-, mouwen inzetten- ja strepen/kleurwerk-rajaukset olivat jo linjassa EN-lähteen kanssa, joten sisältöä ei muutettu.
+- `breitijd-en-tempo-bijhouden.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 3 H3 + 4 FAQ). Sessies bijhouden -tuoteväite pysyy EN-lähteen varovaisessa `KnitTools wordt gebouwd` / intended-flow -muodossa; rows-per-hour-, section-time-, tempoverbetering- ja projectbeheer-kohdat olivat jo linjassa, joten sisältöä ei muutettu.
+- `toeren-bijhouden-tijdens-het-breien.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (11 H2 + 0 H3 + 5 FAQ). Korjattu KnitTools-tuoteväite EN-lähteen rajaukseen: poistettu vahvistamaton `rapportondersteuning` ja jätetty `tiktellen`, `ongedaan maken`, `meerdere tellers` ja `sessies bijhouden` multi-section-projekteille.
+- `waarom-krult-breiwerk.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (7 H2 + 6 H3 + 6 FAQ). Korjattu aloitus EN-lähteen unbalanced-fabric/edge-forces-selitykseen eikä liian ehdottomaan `rechte steken zijn smaller` -muotoon. Pehmennetty superwash-otsikko ja väite vastaamaan EN-lähteen `can be harder to tame` / wash-growth -rajausta. Korjattu akryylin höyrytys pois tarkasta 5-8 cm menetelmäohjeesta EN-lähteen varovaisempaan non-contact steam + swatch-test + shiny/limp warning -linjaan.
+- `garenvezels-vergeleken.md`: H2/H3-rakenne vastaa EN-lähdettä (7 H2 + 0 H3). Wol/katoen/acryl/alpaca/zijde/linnen/mohair/nylon- ja blendiosiot olivat linjassa EN-lähteen kanssa; termit pysyvät hollannin tyylioppaan mukaisina, joten sisältöä ei muutettu.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: nl`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `breidelen-aan-elkaar-naaien...` 11 H2 / 2 H3 / 6 FAQ, 15 328 merkkiä / 2 367 sanaa (EN 13 936 / 2 264 / 11 H2 / 2 H3 / 6 FAQ); `breitijd-en-tempo...` 8 H2 / 3 H3 / 4 FAQ, 9 452 / 1 505 (EN 8 966 / 1 457 / 8 H2 / 3 H3 / 4 FAQ); `toeren-bijhouden...` 11 H2 / 0 H3 / 5 FAQ, 10 521 / 1 651 (EN 9 785 / 1 652 / 11 H2 / 0 H3 / 5 FAQ); `waarom-krult...` 7 H2 / 6 H3 / 6 FAQ, 10 518 / 1 612 (EN 9 815 / 1 584 / 7 H2 / 6 H3 / 6 FAQ); `garenvezels...` 7 H2 / 0 H3 / 0 FAQ, 12 357 / 1 919 (EN 11 906 / 1 875 / 7 H2 / 0 H3 / 0 FAQ).
+- linkkitarkistus viidelle buildatulle NL-sivulle: 87 hollanninkielistä sisäistä artikkeli-/tools-linkkiä, 22 uniikkia kohdetta, 0 puuttuvaa `dist/`-kohdetta.
+- riskigrepit: hollannin unsupported tuoteväitteiden haku sananrajoilla (`AI`, `OCR`, `scanner`, `scannen`, `camera`, `spraak`, `stemcommando`, `microfoon`, `geen abonnement`, `geen advertenties`, `eenmalige aankoop`, `KnitTools-app`, `Yarn Label Scanner`, `garenlabelscanner`, `€`) 0 osumaa; AI-filler-/banned-phrase-haku 0 osumaa.
+- tarkistukset: `npx prettier --write` viidelle NL-artikkelille OK (unchanged); `npx prettier --write` etenemislokille OK (unchanged); `npx prettier --check` viidelle NL-artikkelille ja etenemislokille OK; `git diff --check` viidelle NL-artikkelille ja etenemislokille OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/nl/artikelen/breidelen-aan-elkaar-naaien/index.html`
+  - `dist/nl/artikelen/breitijd-en-tempo-bijhouden/index.html`
+  - `dist/nl/artikelen/toeren-bijhouden-tijdens-het-breien/index.html`
+  - `dist/nl/artikelen/waarom-krult-breiwerk/index.html`
+  - `dist/nl/artikelen/garenvezels-vergeleken/index.html`
+- seuraava vaihe: NL artikkelit erä 8/8, jäljellä olevat 3 `src/i18n/articles.ts`-järjestyksen hollanninkielistä artikkelia:
+  - `src/content/articles/nl/hoeveel-garen-voor-een-deken.md` (`translationKey: "yarn-for-blanket"`)
+  - `src/content/articles/nl/hoeveel-garen-voor-een-trui.md` (`translationKey: "yarn-for-sweater"`)
+  - `src/content/articles/nl/een-andere-garendikte-gebruiken.md` (`translationKey: "yarn-weight-substitution"`)
+- seuraava tiedosto: `src/content/articles/nl/hoeveel-garen-voor-een-deken.md`
+
+NL artikkelit erä 8/8:
+
+- käsitelty jäljellä olevat 3 artikkelia tässä nykyisessä 5 artikkelin EN-pariteettipassissa; NL-valmius nyt 38/38:
+  - `src/content/articles/nl/hoeveel-garen-voor-een-deken.md`
+  - `src/content/articles/nl/hoeveel-garen-voor-een-trui.md`
+  - `src/content/articles/nl/een-andere-garendikte-gebruiken.md`
+- vertailtu nykyisiin englanninkielisiin `translationKey`-lähteisiin:
+  - `yarn-for-blanket` -> `src/content/articles/yarn-for-blanket.md`
+  - `yarn-for-sweater` -> `src/content/articles/yarn-for-sweater.md`
+  - `yarn-weight-substitution` -> `src/content/articles/yarn-weight-substitution.md`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Craft Yarn Councilin Standard Yarn Weight System ja body sizing -standardit, Vogue Knittingin yarn substitution -ohje, Lion Brand Wool-Ease / Wool-Ease Thick & Quick -metritiedot sekä paikallinen `YarnEstimator.astro` / `DutchYarnEstimatorPage.astro`-toolikäyttäytyminen. NPM-ajantasaisuustarkistus: `astro` latest 6.4.2, `prettier` latest 3.8.3, `prettier-plugin-astro` latest 0.14.1 ja `@astrojs/check` latest 0.9.9.
+- `hoeveel-garen-voor-een-deken.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 4 FAQ). Korjattu meteritaulukot vastaamaan EN-yardage-lähteen pyöristettyjä metrivastineita, muutettu Lion Brand -esimerkit metriikka-first-muotoon (`97 m / 106 yards`, `180 m / 197 yards`) ja rajattu Garenberekenaar-maininta paikallisen työkalun todellisiin syötteisiin: projecttype, dekenmaat ja garendikte.
+- `hoeveel-garen-voor-een-trui.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (8 H2 + 0 H3 + 5 FAQ). Metriset yardage-alueet, mouw-valkuil, top-down-pas, voorraadgaren- ja kuituvaraukset olivat linjassa EN-lähteen kanssa; Garenberekenaar-maininta vastasi paikallisen työkalun maat/garendikte/truistijl-linjaa, joten sisältöä ei muutettu.
+- `een-andere-garendikte-gebruiken.md`: H2/H3/FAQ-rakenne vastaa EN-lähdettä (10 H2 + 0 H3 + 6 FAQ). Lisätty EN-pariteetin puuttuvat konkreettiset kohdat: paksumpi lanka nopeuttaa projektia, koska steken/toeren vähenevät; toerenverhouding-esimerkki 28 vs 32 toeren per 10 cm ja 112 vs 128 toeren; sekä DK-metritason esimerkki noin 1 650-1 850 m. Samalla Garenberekenaar-maininta muutettiin pois uudesta gauge-syötteestä ja kohti työkalun todellisia syötteitä: garendikte, projecttype ja maat.
+- frontmatter, slug-rakenne, `translationKey`-avaimet, `draft: false`, `lang: nl`, canonical-/alternate-rakenne ja `articleTranslations`-reitit jätetty ennalleen.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `hoeveel-garen-voor-een-deken...` 8 H2 / 0 H3 / 4 FAQ, 9 595 merkkiä / 1 541 sanaa (EN 9 255 / 1 595 / 8 H2 / 0 H3 / 4 FAQ); `hoeveel-garen-voor-een-trui...` 8 H2 / 0 H3 / 5 FAQ, 9 014 / 1 461 (EN 8 731 / 1 517 / 8 H2 / 0 H3 / 5 FAQ); `een-andere-garendikte...` 10 H2 / 0 H3 / 6 FAQ, 13 459 / 2 036 (EN 12 674 / 2 099 / 10 H2 / 0 H3 / 6 FAQ).
+- linkkitarkistus kolmelle buildatulle NL-sivulle: 10 hollanninkielistä sisäistä artikkeli-/tools-linkkiä, 7 uniikkia kohdetta, 0 puuttuvaa `dist/`-kohdetta.
+- riskigrepit: hollannin unsupported tuoteväitteiden ja termiriskien haku sananrajoilla (`AI`, `OCR`, `scanner`, `scannen`, `camera`, `spraak`, `stemcommando`, `microfoon`, `geen abonnement`, `geen advertenties`, `eenmalige aankoop`, `KnitTools-app`, `Yarn Label Scanner`, `garenlabelscanner`, `€`, `garengewicht`) 0 osumaa; AI-filler-/banned-phrase-haku 0 osumaa.
+- tarkistukset: `npx prettier --write` kolmelle NL-artikkelille OK (unchanged); `npx prettier --check` kolmelle NL-artikkelille OK; `git diff --check` kolmelle NL-artikkelille OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); ensimmäinen `npm run build` kaatui transienttiin Windows `EPERM`-lukuvirheeseen `src/styles/typography.css`-tiedostossa, tiedosto oli luettavissa heti tarkistuksessa ja uusinta-ajo meni läpi; toinen `npm run build` OK ja 411 sivua rakennettu.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/nl/artikelen/hoeveel-garen-voor-een-deken/index.html`
+  - `dist/nl/artikelen/hoeveel-garen-voor-een-trui/index.html`
+  - `dist/nl/artikelen/een-andere-garendikte-gebruiken/index.html`
+- NL artikkelit -kokonaisuus on nyt valmis 38/38. Seuraava turvallinen jatkopiste on DA tools erä 1/2, ensimmäiset 3 tanskankielistä tools-sivua EN-lähteisiin ja `DANISH_TRANSLATION_GUIDE.md`-termilinjaan verrattuna:
+  - `src/components/danish-tools/DanishToolsIndex.astro` (`/da/strikkevaerktoejer/`)
+  - `src/components/danish-tools/DanishCastOnPage.astro` (`/da/strikkevaerktoejer/opslagsberegner/`)
+  - `src/components/danish-tools/DanishYarnEstimatorPage.astro` (`/da/strikkevaerktoejer/garnberegner/`)
+- seuraava tiedosto: `src/components/danish-tools/DanishToolsIndex.astro`
+
+DA tools erä 1/2:
+
+- käsitelty ensimmäiset 3 tanskankielistä tools-sivua tässä nykyisessä 3 + 4 tools -passissa; DA tools -valmius nyt 3/7:
+  - `src/components/danish-tools/DanishToolsIndex.astro` (`/da/strikkevaerktoejer/`)
+  - `src/components/danish-tools/DanishCastOnPage.astro` (`/da/strikkevaerktoejer/opslagsberegner/`)
+  - `src/components/danish-tools/DanishYarnEstimatorPage.astro` (`/da/strikkevaerktoejer/garnberegner/`)
+- vertailtu nykyisiin englanninkielisiin tools-lähteisiin:
+  - `src/pages/tools/index.astro`
+  - `src/pages/tools/cast-on-calculator.astro`
+  - `src/pages/tools/yarn-estimator.astro`
+- tarkistettu jaetut komponentit ja reittilähteet:
+  - `src/components/CastOnCalculator.astro`
+  - `src/components/YarnEstimator.astro`
+  - `src/components/LocalizedToolPage.astro`
+  - `src/i18n/danishTools.ts`
+  - `src/i18n/routes.ts`
+  - `src/pages/da/strikkevaerktoejer/[...slug].astro`
+- ennen editointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n -dokumentaatio, Astro content collections -dokumentaatio, Google Search Centralin localized versions / hreflang -ohje, Craft Yarn Councilin Standard Yarn Weight System sekä NPM latest -versiot (`astro` 6.4.2, `prettier` 3.8.3, `prettier-plugin-astro` 0.14.1).
+- `DanishToolsIndex.astro`: lisätty CYC-maininta garntykkelseskortin kuvaukseen EN-lähteen `CYC yarn weight categories` -merkityksen mukaisesti ja muutettu CollectionPage JSON-LD käyttämään sivun omaa `tools`-järjestystä, jotta structured data vastaa näkyvää korttijärjestystä.
+- `DanishCastOnPage.astro`: poistettu EN-lähteestä puuttuva tarkka `20 minutter` -väite strikkeprøve-FAQ:sta, rajattu even-number-perustelu takaisin EN-lähteen "simple stitch patterns / ribbing repeats" -tasolle ja muotoiltu beregnerens afrunding käytännön lähtökohdaksi, ei yleiseksi strikkekonventioksi.
+- `DanishYarnEstimatorPage.astro`: palautettu garnforbrugs-FAQ EN-lähteen varovaisempaan linjaan lisäämällä projekttype/størrelse/garntykkelse + sikkerhedsmargen, muutettu `Altid`-ostosuositus muotoon `Som regel, ja`, lisätty fitted/textured/dye-lot-rajaus, lisätty substitution-FAQ:hun stoffet/gauge-rajaus, täsmennetty fingering-sweater-esimerkki kokoon M ja muutettu banderole-kohta muodosta `Hver banderole` muotoon `De fleste banderoler`.
+- `src/components/YarnEstimator.astro`: tanskankielinen result-disclaimer muutettu samalle varovaiselle tasolle kuin EN-lähde: tekstuuri voi käyttää enemmän lankaa, 15-20 % on suunnittelumarginaali, ja lisänøgle on harkinta farveparti-tilanteissa.
+- frontmatteria ei ole tools-sivuilla; canonical-/alternate-reitit, slug-muodot, `lang="da"` ja `danishToolRoutes`-reitit jätetty ennalleen.
+- rakennepariteetti erän jälkeen:
+  - tools index: 6 korttia ja 6 JSON-LD ListItem -kohdetta samassa näkyvässä järjestyksessä
+  - cast-on: 3 SEO-H2-osiota + 5 FAQ-kohtaa kuten EN-lähteessä
+  - yarn estimator: 3 SEO-H2-osiota + 5 FAQ-kohtaa kuten EN-lähteessä
+- tarkistukset: `npx prettier --write` erän tiedostoille OK; `npx prettier --check` erän tiedostoille OK; scoped `git diff --check` OK; DA-riskigrep OK, 0 osumaa; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä).
+- buildiä ei ajettu tässä puolikkaassa erässä; aja `npm run build` viimeistään DA tools erän 2/2 jälkeen, jolloin koko tanskankielinen tools-kokonaisuus on tarkistettu.
+- seuraava vaihe: DA tools erä 2/2, jäljellä olevat 4 tanskankielistä tools-sivua EN-lähteisiin ja `DANISH_TRANSLATION_GUIDE.md`-termilinjaan verrattuna:
+  - `src/components/danish-tools/DanishYarnWeightChartPage.astro` (`/da/strikkevaerktoejer/garntykkelser/`)
+  - `src/components/danish-tools/DanishNeedleSizeChartPage.astro` (`/da/strikkevaerktoejer/pindestoerrelser/`)
+  - `src/components/danish-tools/DanishKnittingSizeChartsPage.astro` (`/da/strikkevaerktoejer/stoerrelsestabeller-strik/`)
+  - `src/components/danish-tools/DanishKnittingAbbreviationsPage.astro` (`/da/strikkevaerktoejer/strikkeforkortelser/`)
+- seuraava tiedosto: `src/components/danish-tools/DanishYarnWeightChartPage.astro`
+
+DA tools erä 2/2:
+
+- käsitelty jäljellä olevat 4 tanskankielistä tools-sivua tässä nykyisessä 3 + 4 tools -passissa; DA tools -valmius nyt 7/7:
+  - `src/components/danish-tools/DanishYarnWeightChartPage.astro` (`/da/strikkevaerktoejer/garntykkelser/`)
+  - `src/components/danish-tools/DanishNeedleSizeChartPage.astro` (`/da/strikkevaerktoejer/pindestoerrelser/`)
+  - `src/components/danish-tools/DanishKnittingSizeChartsPage.astro` (`/da/strikkevaerktoejer/stoerrelsestabeller-strik/`)
+  - `src/components/danish-tools/DanishKnittingAbbreviationsPage.astro` (`/da/strikkevaerktoejer/strikkeforkortelser/`)
+- vertailtu nykyisiin englanninkielisiin tools-lähteisiin ja lokalisoituun tools-rakenteeseen:
+  - `src/pages/tools/yarn-weight-chart.astro`
+  - `src/pages/tools/needle-size-chart.astro`
+  - `src/pages/tools/knitting-size-charts.astro`
+  - `src/pages/tools/knitting-abbreviations.astro`
+  - `src/components/LocalizedToolPage.astro`
+  - tarkistusvertailu lokalisoituihin NL tools -komponentteihin, koska EN-sivutiedostot sisältävät eri sivupohjarakenteen.
+- ennen loppuverifiointia tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro i18n -dokumentaatio, Astro content collections -dokumentaatio, Google Search Centralin localized versions / hreflang -ohje, Craft Yarn Councilin Standard Yarn Weight System sekä NPM latest -versiot (`astro` 6.4.2, `prettier` 3.8.3, `prettier-plugin-astro` 0.14.1, `@astrojs/check` 0.9.9).
+- `DanishYarnWeightChartPage.astro`: täsmennetty CYC:n Size 8 -huomio niin, että sivu ei väitä WPI-/strikkefasthed-/pindestørrelse-intervallien kattavan Size 8:aa, kun käytössä oleva julkinen taulukko kattaa edelleen 0-7-intervallit.
+- `DanishNeedleSizeChartPage.astro`: päivitetty pindestørrelse-taulukko 38 rivin tasolle kuten nykyisessä EN-lähteessä; lisätty puuttuvat japanilaisen järjestelmän välikoot ja muutettu garntykkelseselitteet nykyiseen CYC 0-7 -termistöön.
+- `DanishKnittingSizeChartsPage.astro`: korjattu kropsmål/færdige mål/ease-rajaus EN-lähteen nykyiselle varmuustasolle: valmis neule voi olla pienempi, sama tai suurempi kuin kehon mitta, ja negatiivinen ease on projektikohtainen eikä yleinen 2,5-5 cm -sääntö.
+- `DanishKnittingAbbreviationsPage.astro`: poistettu `KnitTools-appen`-muotoilu ja pidetty tuoteviittaus yleisemmällä `KnitTools`-tasolla, jotta teksti ei lupaa vahvistamatonta app-spesifiä toteutusta.
+- canonical-/alternate-reitit, slug-muodot, `lang="da"` ja `danishToolRoutes`-reitit jätetty ennalleen.
+- rakennepariteetti lokalisoituun referenssirakenteeseen erän jälkeen:
+  - yarn weight: 5 H2 / 6 H3 / 4 FAQ kuten NL-lokalisoitu referenssi
+  - needle size: 5 H2 / 0 H3 / 4 FAQ kuten NL-lokalisoitu referenssi; 38/38 taulukkoriviä kuten EN-lähteessä
+  - size charts: 3 H2 / 1 H3 / 4 FAQ kuten NL-lokalisoitu referenssi
+  - abbreviations: 5 H2 / 0 H3 / 4 FAQ kuten NL-lokalisoitu referenssi
+- tarkistukset: `npx prettier --check` erän tiedostoille OK; scoped `git diff --check` OK; DA-riskigrep OK, 0 osumaa; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/da/strikkevaerktoejer/index.html`
+  - `dist/da/strikkevaerktoejer/garntykkelser/index.html`
+  - `dist/da/strikkevaerktoejer/pindestoerrelser/index.html`
+  - `dist/da/strikkevaerktoejer/stoerrelsestabeller-strik/index.html`
+  - `dist/da/strikkevaerktoejer/strikkeforkortelser/index.html`
+- DA tools -kokonaisuus on nyt valmis 7/7. Seuraava turvallinen jatkopiste on DA artikkelit erä 1/8, ensimmäiset 5 `src/i18n/articles.ts`-järjestyksen tanskankielistä artikkelia:
+  - `src/content/articles/da/samtidig-i-strikkeopskrifter.md` (`translationKey: "at-the-same-time-knitting"`)
+  - `src/content/articles/da/bedste-strikkeapps.md` (`translationKey: "best-knitting-apps"`)
+  - `src/content/articles/da/bedste-garn-til-begyndere.md` (`translationKey: "best-yarn-for-beginners"`)
+  - `src/content/articles/da/rundpinde-jumperpinde-stroempepinde.md` (`translationKey: "circular-vs-straight-vs-dpn"`)
+  - `src/content/articles/da/digital-eller-fysisk-omgangstaeller.md` (`translationKey: "digital-vs-physical-row-counters"`)
+- seuraava tiedosto: `src/content/articles/da/samtidig-i-strikkeopskrifter.md`
+
+DA artikkelit erä 1/8:
+
+- käsitelty ensimmäiset 5 tanskankielistä artikkelia nykyisessä viiden artikkelin tarkistuspassissa; DA artikkelivalmius nyt 5/38:
+  - `src/content/articles/da/samtidig-i-strikkeopskrifter.md` (`translationKey: "at-the-same-time-knitting"`)
+  - `src/content/articles/da/bedste-strikkeapps.md` (`translationKey: "best-knitting-apps"`)
+  - `src/content/articles/da/bedste-garn-til-begyndere.md` (`translationKey: "best-yarn-for-beginners"`)
+  - `src/content/articles/da/rundpinde-jumperpinde-stroempepinde.md` (`translationKey: "circular-vs-straight-vs-dpn"`)
+  - `src/content/articles/da/digital-eller-fysisk-omgangstaeller.md` (`translationKey: "digital-vs-physical-row-counters"`)
+- verrattu jokainen tiedosto omaan nykyiseen `translationKey`-englantiartikkeliin; otsikkorakenteet täsmäävät EN-lähteisiin 12/12, 12/12, 8/8, 15/15 ja 6/6.
+- `samtidig-i-strikkeopskrifter.md`: ei sisältömuutoksia; rakenne, rajaukset, FAQ ja `translationKey`/`draft`/`lang` olivat linjassa EN-lähteen ja tanskan termiohjeen kanssa.
+- `bedste-strikkeapps.md`: ei sisältömuutoksia; tuoteväitteet pysyvät EN-lähteen prelaunch-tasolla eikä teksti lupaa KnitToolsille hinnoittelua, mainoksettomuutta, AI/scanner-ominaisuuksia tai muuta vahvistamatonta.
+- `bedste-garn-til-begyndere.md`: muutettu Worsted / Medium -esimerkin määrä `180-200 m` -> `omkring 180 m`, jotta se vastaa EN-lähteen "around 200 yards" -tasoa metrisesti; päivitetty CYC-kohta nykyiseen tilanteeseen, jossa järjestelmässä on Size 8 -symboli ja Blocking/Plus-symbolit, mutta moni aloittelijan kohtaama banderole käyttää edelleen tuttua 0-7-asteikkoa.
+- `rundpinde-jumperpinde-stroempepinde.md`: korjattu magic loop -siirtymien vertailu `fire eller fem` -> `tre eller fire` EN-lähteen DPN-siirtymämäärän mukaisesti; lisätty Prym takaisin ergonomisten pinde-muotojen esimerkkiin.
+- `digital-eller-fysisk-omgangstaeller.md`: lisätty EN-lähteestä puuttuneet rajaukset sessionshistorian pitkäkestoisiin projekteihin, skærmfri session -esimerkkeihin ja fyysisen tællerin backup-käyttöön.
+- frontmatter pidetty ennallaan: `translationKey`, `draft: false`, `lang: da`, slug/reitit ja kategoriat eivät muuttuneet.
+- sisäiset `/da/`-linkit tarkistettu buildattua `dist`-puuta vasten: 14/14 linkkikohdetta löytyi ja erän 5 artikkelisivua löytyivät `dist/da/artikler/.../index.html`-poluista; `dist/da/artikler/` sisältää 38/38 tanskankielistä artikkeli-HTML-sivua.
+- tarkistukset: `npx prettier --check` erän tiedostoille OK; scoped `git diff --check` OK; tarkennettu DA-tuoteväite-riskigrep OK, 0 osumaa; yleinen AI-/markkinointifillerihaku ei löytänyt kiellettyjä fraaseja, vain geneerisen hinnoittelumalliosion odotetut `abonnement`/`reklamer`-osumat; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- seuraava vaihe: DA artikkelit erä 2/8, seuraavat 5 `src/i18n/articles.ts`-järjestyksen tanskankielistä artikkelia:
+  - `src/content/articles/da/vigtigt-strikketilbehoer.md` (`translationKey: "essential-knitting-tools"`)
+  - `src/content/articles/da/saml-tabt-maske-op.md` (`translationKey: "fix-dropped-stitches"`)
+  - `src/content/articles/da/gratis-strikkeberegnere.md` (`translationKey: "free-knitting-calculators"`)
+  - `src/content/articles/da/hvad-er-strikkefasthed.md` (`translationKey: "what-is-gauge-in-knitting"`)
+  - `src/content/articles/da/maal-strikkefasthed.md` (`translationKey: "how-to-measure-knitting-gauge"`)
+- seuraava tiedosto: `src/content/articles/da/vigtigt-strikketilbehoer.md`
+
+DA artikkelit erä 2/8:
+
+- käsitelty seuraavat 5 tanskankielistä artikkelia nykyisessä viiden artikkelin EN-pariteettipassissa; DA artikkelivalmius nyt 10/38:
+  - `src/content/articles/da/vigtigt-strikketilbehoer.md` (`translationKey: "essential-knitting-tools"`)
+  - `src/content/articles/da/saml-tabt-maske-op.md` (`translationKey: "fix-dropped-stitches"`)
+  - `src/content/articles/da/gratis-strikkeberegnere.md` (`translationKey: "free-knitting-calculators"`)
+  - `src/content/articles/da/hvad-er-strikkefasthed.md` (`translationKey: "what-is-gauge-in-knitting"`)
+  - `src/content/articles/da/maal-strikkefasthed.md` (`translationKey: "how-to-measure-knitting-gauge"`)
+- verrattu jokainen tiedosto omaan nykyiseen `translationKey`-englantiartikkeliin:
+  - `essential-knitting-tools` -> `src/content/articles/essential-knitting-tools.md`
+  - `fix-dropped-stitches` -> `src/content/articles/fix-dropped-stitches.md`
+  - `free-knitting-calculators` -> `src/content/articles/free-knitting-calculators.md`
+  - `what-is-gauge-in-knitting` -> `src/content/articles/what-is-gauge-in-knitting.md`
+  - `how-to-measure-knitting-gauge` -> `src/content/articles/how-to-measure-knitting-gauge.md`
+- ennen editointia ja faktatarkistusta tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google Search Centralin localized versions / hreflang -ohje, Craft Yarn Councilin Standard Yarn Weight System, Nimble Needlesin dropped-stitch-ohje, Vogue Knittingin gauge- ja swatch/blocking-ohjeistus sekä NPM latest -versiot (`astro` 6.4.2, `prettier` 3.8.3, `prettier-plugin-astro` 0.14.1, `@astrojs/check` 0.9.9).
+- `vigtigt-strikketilbehoer.md`: korjattu app-tæller-osio EN-lähteen varovaisempaan tasoon: poistettu erän ulkopuolinen `haptisk feedback` -väite ja palautettu app-tællereiden kuvaus muotoon flere tællere, projektkobling, sessionshistorik ja projektiin sidotut påmindelser. KnitTools-viittaus pidetty prelaunch-muodossa `bygges omkring projekttilknyttet pinde- og omgangstælling`.
+- `saml-tabt-maske-op.md`: tarkistettu EN-lähdettä ja dropped-stitch-lähteitä vasten; hæklenål-reitti, ret/vrang/retstrik/rib-logiikka, livline-rajaukset, mohair-varoitus ja froggausrajaukset olivat jo linjassa, joten tässä jatkossa ei tehty sisältömuutoksia.
+- `gratis-strikkeberegnere.md`: korjattu garnalternativ-esimerkin yardage-muunnos EN-lähteen `220 yards per 100 g` -tasolta tanskalaiseen metriseen muotoon `ca. 200 m pr. 100 g`, jotta tekstissä ei väitetä virheellisesti `220 m pr. 100 g`.
+- `hvad-er-strikkefasthed.md`: tarkistettu EN-lähdettä ja gauge-lähteitä vasten; strikkestil, rundstrik/fladt-strik, pinde-/materiale-, før/efter blokning-, ease- ja 10 cm / 4 inches -rajaukset olivat jo linjassa, joten tässä jatkossa ei tehty sisältömuutoksia.
+- `maal-strikkefasthed.md`: korjattu Garnberegner-maininta vastaamaan paikallisen työkalun todellisia syötteitä ja EN-lähdettä: projekttype, størrelse ja garntykkelse; ei käyttäjän omaa strikkefasthed/gauge-syötettä.
+- frontmatter pidetty ennallaan: `translationKey`, `draft: false`, `lang: da`, slug/reitit ja kategoriat eivät muuttuneet.
+- rakenne- ja merkkimääräpariteetti erän jälkeen: `vigtigt-strikketilbehoer...` 5 H2 / 13 H3 / 4 kysymyskohtaa, 10 683 merkkiä / 1 622 sanaa (EN 10 491 / 1 702 / 5 H2 / 13 H3 / 4 Common questions -kohtaa); `saml-tabt-maske-op...` 12 H2 / 0 H3 / 6 FAQ, 10 084 / 1 696 (EN 10 076 / 1 758 / 12 H2 / 0 H3 / 6 FAQ); `gratis-strikkeberegnere...` 9 H2 / 0 H3 / 4 FAQ, 9 946 / 1 426 (EN 9 922 / 1 580 / 9 H2 / 0 H3 / 4 FAQ); `hvad-er-strikkefasthed...` 13 H2 / 0 H3 / 7 FAQ, 13 086 / 1 990 (EN 12 536 / 2 054 / 13 H2 / 0 H3 / 7 FAQ); `maal-strikkefasthed...` 9 H2 / 0 H3 / 5 FAQ, 10 423 / 1 625 (EN 10 368 / 1 735 / 9 H2 / 0 H3 / 5 FAQ).
+- linkkitarkistus viidelle buildatulle DA-sivulle: 100 tanskankielistä sisäistä artikkeli-/tools-linkkiä, 24 uniikkia kohdetta, 0 puuttuvaa `dist/`-kohdetta.
+- riskigrepit: tanskankielisten unsupported tuoteväitteiden ja termiriskien haku (`AI`, `OCR`, `scanner`, `scanne`, `kamera`, `stemme`, `mikrofon`, `ingen abonnement`, `ingen reklamer`, `engangskøb`, `KnitTools-app`, `Yarn Label Scanner`, `garnlabelscanner`, `€`, `haptisk feedback`, `rapportstøtte`) 0 osumaa; AI-filler-/banned-phrase-haku 0 osumaa.
+- tarkistukset: `npx prettier --write` viidelle DA-artikkelille OK (unchanged); `npx prettier --check` viidelle DA-artikkelille OK; scoped `git diff --check` OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/da/artikler/vigtigt-strikketilbehoer/index.html`
+  - `dist/da/artikler/saml-tabt-maske-op/index.html`
+  - `dist/da/artikler/gratis-strikkeberegnere/index.html`
+  - `dist/da/artikler/hvad-er-strikkefasthed/index.html`
+  - `dist/da/artikler/maal-strikkefasthed/index.html`
+- `dist/da/artikler/` sisältää 38/38 tanskankielistä artikkeli-HTML-sivua.
+- seuraava vaihe: DA artikkelit erä 3/8, seuraavat 5 `src/i18n/articles.ts`-järjestyksen tanskankielistä artikkelia:
+  - `src/content/articles/da/naar-strikkefastheden-ikke-passer.md` (`translationKey: "gauge-doesnt-match"`)
+  - `src/content/articles/da/strikkeproeve-trin-for-trin.md` (`translationKey: "gauge-swatch-step-by-step"`)
+  - `src/content/articles/da/hvor-mange-masker-skal-du-slaa-op.md` (`translationKey: "how-many-stitches-to-cast-on"`)
+  - `src/content/articles/da/hvor-meget-garn-skal-du-bruge.md` (`translationKey: "how-much-yarn-do-i-need"`)
+  - `src/content/articles/da/blokke-strik-vaadt-damp-spray.md` (`translationKey: "how-to-block-knitting"`)
+- seuraava tiedosto: `src/content/articles/da/naar-strikkefastheden-ikke-passer.md`
+
+DA artikkelit erä 3/8:
+
+- käsitelty seuraavat 5 tanskankielistä artikkelia nykyisessä viiden artikkelin EN-pariteettipassissa; DA artikkelivalmius nyt 15/38:
+  - `src/content/articles/da/naar-strikkefastheden-ikke-passer.md` (`translationKey: "gauge-doesnt-match"`)
+  - `src/content/articles/da/strikkeproeve-trin-for-trin.md` (`translationKey: "gauge-swatch-step-by-step"`)
+  - `src/content/articles/da/hvor-mange-masker-skal-du-slaa-op.md` (`translationKey: "how-many-stitches-to-cast-on"`)
+  - `src/content/articles/da/hvor-meget-garn-skal-du-bruge.md` (`translationKey: "how-much-yarn-do-i-need"`)
+  - `src/content/articles/da/blokke-strik-vaadt-damp-spray.md` (`translationKey: "how-to-block-knitting"`)
+- verrattu jokainen tiedosto omaan nykyiseen `translationKey`-englantiartikkeliin:
+  - `gauge-doesnt-match` -> `src/content/articles/gauge-doesnt-match.md`
+  - `gauge-swatch-step-by-step` -> `src/content/articles/gauge-swatch-step-by-step.md`
+  - `how-many-stitches-to-cast-on` -> `src/content/articles/how-many-stitches-to-cast-on.md`
+  - `how-much-yarn-do-i-need` -> `src/content/articles/how-much-yarn-do-i-need.md`
+  - `how-to-block-knitting` -> `src/content/articles/how-to-block-knitting.md`
+- ennen editointia ja faktatarkistusta tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro v6 content collections -dokumentaatio, Astro v6 i18n -dokumentaatio, Google Search Centralin localized versions / hreflang -ohje, Craft Yarn Councilin Standard Yarn Weight System, Vogue Knittingin gauge- ja blocking-ohjeet, Nimble Needlesin gauge swatch -ohje sekä NPM latest -versiot (`astro` 6.4.2, `prettier` 3.8.3, `prettier-plugin-astro` 0.14.1, `@astrojs/check` 0.9.9).
+- `naar-strikkefastheden-ikke-passer.md`: tarkistettu EN-lähdettä ja gauge/blocking-lähteitä vasten; mittausvirhe, pindestørrelse-korjaus, pindefasthed, blokket/ublokket strikkefasthed, rundstrik vs flad strik ja Opslagsberegner-maininta olivat linjassa. Ei sisältömuutoksia.
+- `strikkeproeve-trin-for-trin.md`: tarkistettu EN-lähdettä ja swatch-lähteitä vasten; 15 cm / 10 cm -metriikkamuunnokset, vask/blokning, mittaus keskeltä, rundstrikket prøve ja strikkeprøven käyttötapa olivat linjassa. Ei sisältömuutoksia.
+- `hvor-mange-masker-skal-du-slaa-op.md`: tarkistettu EN-lähdettä, CastOnCalculator-komponenttia ja CYC-lähdettä vasten; kaava, 10 cm -metriikka, rib-/rapport-logiikka, rundstrik, pipo-/strømpe-opslagstal ja Worsted / Medium -väli olivat linjassa. Ei sisältömuutoksia.
+- `hvor-meget-garn-skal-du-bruge.md`: korjattu kolme Garnberegner-väitettä vastaamaan nykyistä EN-lähdettä ja paikallista `YarnEstimator.astro`-komponenttia: työkalu arvioi projekttypen, størrelsen ja garntykkelsen perusteella, ei käyttäjän oman strikkefasthed/gauge- ja mittojen perusteella.
+- `blokke-strik-vaadt-damp-spray.md`: tarkistettu EN-lähdettä ja blocking-lähteitä vasten; vådblokning, dampblokning, akryl-varoitukset, hulmønster/sweaterdele, fiberkohtaiset rajaukset ja tørretid olivat linjassa. Ei sisältömuutoksia.
+- frontmatter pidetty ennallaan: `translationKey`, `draft: false`, `lang: da`, slug/reitit ja kategoriat eivät muuttuneet.
+- rakennepariteetti erän jälkeen:
+  - `naar-strikkefastheden-ikke-passer...` 13 H2 / 0 H3 / 5 FAQ (EN 13 H2 / 0 H3 / 5 FAQ)
+  - `strikkeproeve-trin-for-trin...` 10 H2 / 0 H3 / 4 Quick answers -kohtaa (EN 10 H2 / 0 H3 / 4 Quick answers -kohtaa)
+  - `hvor-mange-masker-skal-du-slaa-op...` 13 H2 / 0 H3 / 7 FAQ (EN 13 H2 / 0 H3 / 7 FAQ)
+  - `hvor-meget-garn-skal-du-bruge...` 8 H2 / 0 H3 / 6 FAQ (EN 8 H2 / 0 H3 / 6 FAQ)
+  - `blokke-strik-vaadt-damp-spray...` 11 H2 / 2 H3 / 6 FAQ (EN 11 H2 / 2 H3 / 6 FAQ)
+- linkkitarkistus viidelle buildatulle DA-sivulle: 98 tanskankielistä sisäistä artikkeli-/tools-linkkiä, 20 uniikkia kohdetta, 0 puuttuvaa `dist/`-kohdetta.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/da/artikler/naar-strikkefastheden-ikke-passer/index.html`
+  - `dist/da/artikler/strikkeproeve-trin-for-trin/index.html`
+  - `dist/da/artikler/hvor-mange-masker-skal-du-slaa-op/index.html`
+  - `dist/da/artikler/hvor-meget-garn-skal-du-bruge/index.html`
+  - `dist/da/artikler/blokke-strik-vaadt-damp-spray/index.html`
+- `dist/da/artikler/` sisältää 38/38 tanskankielistä artikkeli-HTML-sivua.
+- riskigrepit: tarkennettu tanskankielisten unsupported tuoteväitteiden ja termiriskien haku (`OCR`, `scanner`, `scanne`, `kamera`, `stemme`, `mikrofon`, `ingen abonnement`, `ingen reklamer`, `engangskøb`, `KnitTools-app`, `Yarn Label Scanner`, `garnlabelscanner`, `€`, `haptisk feedback`, `rapportstøtte`, vanha Garnberegner/gauge-väite) 0 osumaa; `\bAI\b` case-sensitive 0 osumaa; AI-filler-/banned-phrase-haku 0 osumaa. Laaja smart-case `AI`-haku osui vain tavun sisäiseen `long-tail`-tekstiin ja tarkistettiin false positiveksi.
+- tarkistukset: `npx prettier --write` viidelle DA-artikkelille OK (unchanged); `npx prettier --check` viidelle DA-artikkelille OK; scoped `git diff --check` OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- seuraava vaihe: DA artikkelit erä 4/8, seuraavat 5 `src/i18n/articles.ts`-järjestyksen tanskankielistä artikkelia:
+  - `src/content/articles/da/strik-hue-metoder.md` (`translationKey: "how-to-knit-hat"`)
+  - `src/content/articles/da/strik-stroemper-stroempeopskrift.md` (`translationKey: "how-to-knit-socks"`)
+  - `src/content/articles/da/laes-banderole-symboler.md` (`translationKey: "how-to-read-yarn-label"`)
+  - `src/content/articles/da/skift-garn-i-strikkeopskrift.md` (`translationKey: "how-to-substitute-yarn"`)
+  - `src/content/articles/da/ukendt-garn-uden-banderole.md` (`translationKey: "identify-mystery-yarn"`)
+- seuraava tiedosto: `src/content/articles/da/strik-hue-metoder.md`
+
+DA artikkelit erä 4/8:
+
+- käsitelty seuraavat 5 tanskankielistä artikkelia nykyisessä viiden artikkelin EN-pariteettipassissa; DA artikkelivalmius nyt 20/38:
+  - `src/content/articles/da/strik-hue-metoder.md` (`translationKey: "how-to-knit-hat"`)
+  - `src/content/articles/da/strik-stroemper-stroempeopskrift.md` (`translationKey: "how-to-knit-socks"`)
+  - `src/content/articles/da/laes-banderole-symboler.md` (`translationKey: "how-to-read-yarn-label"`)
+  - `src/content/articles/da/skift-garn-i-strikkeopskrift.md` (`translationKey: "how-to-substitute-yarn"`)
+  - `src/content/articles/da/ukendt-garn-uden-banderole.md` (`translationKey: "identify-mystery-yarn"`)
+- verrattu jokainen tiedosto omaan nykyiseen `translationKey`-englantiartikkeliin:
+  - `how-to-knit-hat` -> `src/content/articles/how-to-knit-hat.md`
+  - `how-to-knit-socks` -> `src/content/articles/how-to-knit-socks.md`
+  - `how-to-read-yarn-label` -> `src/content/articles/how-to-read-yarn-label.md`
+  - `how-to-substitute-yarn` -> `src/content/articles/how-to-substitute-yarn.md`
+  - `identify-mystery-yarn` -> `src/content/articles/identify-mystery-yarn.md`
+- ennen editointia ja faktatarkistusta tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google Search Centralin localized versions / hreflang -ohje, Craft Yarn Councilin Standard Yarn Weight System, Yarn Label Information, WPI-ohje ja head circumference -taulukko sekä NPM latest -versiot (`astro` 6.4.2, `prettier` 3.8.3, `prettier-plugin-astro` 0.14.1, `@astrojs/check` 0.9.9).
+- `strik-hue-metoder.md`: tasattu EN-lähteeseen poistamalla ylimääräinen ribkant-glide-neuvo, pehmentämällä Bulky / Chunky -kohdan nopeusväitettä ja korjaamalla bomuld-kohta luonnolliseksi tanskaksi (`ikke et oplagt vinterhuefiber`) ilman uutta faktaväitettä.
+- `strik-stroemper-stroempeopskrift.md`: korjattu cuff-down-osion haittapuoli EN-lähteen mukaiseksi (garnin viimeisten metrien käyttö on vaikeampaa, mutta prøvning undervejs auttaa edelleen), lisätty EN-lähteen hælflap-row- ja begynderopskrift-rajaukset, palautettu magic loop -kohdan stiger-rajaus ja poistettu EN-lähteen ulkopuolinen Craft Yarn Council -fodmål-numeroesimerkki.
+- `laes-banderole-symboler.md`: pehmennetty hand-dyed-väite `næsten altid` -> `ofte` ja muutettu nøgleskift muotoon `en nyttig sikkerhed`, jotta varoitus vastaa EN-lähteen varmuustasoa.
+- `skift-garn-i-strikkeopskrift.md`: rajattu Garnberegner-väite nykyiseen EN-lähteeseen ja paikalliseen työkalutotuuteen: projekttype, størrelse ja garntykkelse voivat antaa tarkistusluokan, mutta työkalu ei korvaa opskriftens garnforbrug-, løbelængde- tai ny strikkeprøve -tarkistuksia. Samalla korjattu low-risk-esimerkki EN:n `half a stitch per inch` -tasoa vastaavaksi noin `2 masker pr. 10 cm` -muotoon ja palautettu täppemitat/garnmængde-uudelleenlaskennan rajaus.
+- `ukendt-garn-uden-banderole.md`: palautettu aloitukseen EN-lähteen käyttötarkoitus eli thickness/fiber-arvio riittää yleensä `til at vælge et fornuftigt projekt`; WPI-, brændtest-, vandtest-, farveægthed- ja FAQ-rakenteet olivat muuten linjassa EN-lähteen ja CYC WPI -ohjeen kanssa.
+- frontmatter pidetty ennallaan: `translationKey`, `draft: false`, `lang: da`, slug/reitit ja kategoriat eivät muuttuneet.
+- rakenne- ja sanamääräpariteetti erän jälkeen:
+  - `strik-hue-metoder...` 9 H2 / 0 H3 / 0 FAQ-kysymystä, 1 757 sanaa (EN 9 H2 / 0 H3 / 0 FAQ-kysymystä, 1 778 sanaa)
+  - `strik-stroemper-stroempeopskrift...` 9 H2 / 0 H3 / 5 FAQ, 2 087 sanaa (EN 9 H2 / 0 H3 / 5 FAQ, 2 178 sanaa)
+  - `laes-banderole-symboler...` 9 H2 / 0 H3 / 4 FAQ, 1 356 sanaa (EN 9 H2 / 0 H3 / 4 FAQ, 1 468 sanaa)
+  - `skift-garn-i-strikkeopskrift...` 7 H2 / 0 H3 / 4 FAQ, 1 373 sanaa (EN 7 H2 / 0 H3 / 4 FAQ, 1 458 sanaa)
+  - `ukendt-garn-uden-banderole...` 6 H2 / 3 H3 / 3 FAQ, 1 079 sanaa (EN 6 H2 / 3 H3 / 3 FAQ, 1 093 sanaa)
+- linkkitarkistus viidelle buildatulle DA-sivulle: 91 tanskankielistä sisäistä artikkeli-/tools-linkkiä, 22 uniikkia kohdetta, 0 puuttuvaa `dist/`-kohdetta.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/da/artikler/strik-hue-metoder/index.html`
+  - `dist/da/artikler/strik-stroemper-stroempeopskrift/index.html`
+  - `dist/da/artikler/laes-banderole-symboler/index.html`
+  - `dist/da/artikler/skift-garn-i-strikkeopskrift/index.html`
+  - `dist/da/artikler/ukendt-garn-uden-banderole/index.html`
+- `dist/da/artikler/` sisältää 38/38 tanskankielistä artikkeli-HTML-sivua.
+- riskigrepit: tarkennettu tanskankielisten unsupported tuoteväitteiden ja termiriskien haku (`Banderolescanner`, `banderolescanner`, `AI`, `OCR`, `instruktionsfortolker`, `scanner`, `scanne`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `projektoversigt`, `11 sprog`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `ingen abonnement`, `ingen reklamer`, `Yarn Label Scanner`, `garnlabelscanner`, `€`, `$`, `haptisk feedback`, `rapportstøtte`, `Ravelry-integration`, `prøveperiode`, `offline`, `uden forbindelse`) 0 osumaa; AI-filler-/banned-phrase-haku 0 osumaa.
+- tarkistukset: `npx prettier --write` viidelle DA-artikkelille OK (unchanged); rakennepariteettiskripti OK; scoped `git diff --check` OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- lokipäivityksen jälkeinen varmistus: `npx prettier --check` viidelle DA-artikkelille ja etenemislokille OK; scoped `git diff --check` viidelle DA-artikkelille OK; trailing-whitespace-haku viidelle DA-artikkelille ja etenemislokille OK.
+- seuraava vaihe: DA artikkelit erä 5/8, seuraavat 5 `src/i18n/articles.ts`-järjestyksen tanskankielistä artikkelia:
+  - `src/content/articles/da/fordel-udtagninger-indtagninger-jaevnt.md` (`translationKey: "increase-decrease-evenly"`)
+  - `src/content/articles/da/nyt-noegle-midt-paa-pinden.md` (`translationKey: "join-new-ball-of-yarn"`)
+  - `src/content/articles/da/strik-foerste-toerklaede.md` (`translationKey: "knit-first-scarf"`)
+  - `src/content/articles/da/strikkepinde-metal-trae-bambus.md` (`translationKey: "knitting-needle-materials"`)
+  - `src/content/articles/da/gentagelser-i-strikkeopskrifter.md` (`translationKey: "knitting-pattern-repeats"`)
+- seuraava tiedosto: `src/content/articles/da/fordel-udtagninger-indtagninger-jaevnt.md`
+
+DA artikkelit erä 5/8:
+
+- käsitelty seuraavat 5 tanskankielistä artikkelia nykyisessä viiden artikkelin EN-pariteettipassissa; DA artikkelivalmius nyt 25/38:
+  - `src/content/articles/da/fordel-udtagninger-indtagninger-jaevnt.md` (`translationKey: "increase-decrease-evenly"`)
+  - `src/content/articles/da/nyt-noegle-midt-paa-pinden.md` (`translationKey: "join-new-ball-of-yarn"`)
+  - `src/content/articles/da/strik-foerste-toerklaede.md` (`translationKey: "knit-first-scarf"`)
+  - `src/content/articles/da/strikkepinde-metal-trae-bambus.md` (`translationKey: "knitting-needle-materials"`)
+  - `src/content/articles/da/gentagelser-i-strikkeopskrifter.md` (`translationKey: "knitting-pattern-repeats"`)
+- verrattu jokainen tiedosto omaan nykyiseen `translationKey`-englantiartikkeliin:
+  - `increase-decrease-evenly` -> `src/content/articles/increase-decrease-evenly.md`
+  - `join-new-ball-of-yarn` -> `src/content/articles/join-new-ball-of-yarn.md`
+  - `knit-first-scarf` -> `src/content/articles/knit-first-scarf.md`
+  - `knitting-needle-materials` -> `src/content/articles/knitting-needle-materials.md`
+  - `knitting-pattern-repeats` -> `src/content/articles/knitting-pattern-repeats.md`
+- ennen editointia ja faktatarkistusta tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google Search Centralin localized versions / hreflang -ohje, Craft Yarn Councilin knitting abbreviations -standardi, Yarnspirationsin new-yarn-join-ohje, Vogue Knittingin knitting needle -materiaali-/kokotaulukko sekä NPM latest -versiot (`astro` 6.4.2, `prettier` 3.8.3, `prettier-plugin-astro` 0.14.1, `@astrojs/check` 0.9.9).
+- `fordel-udtagninger-indtagninger-jaevnt.md`: rakenne, kaavat, 80/75/90/95-maskiesimerkit, M1L/M1R/KFB/YO/ssk/CDD-termit, kantamasker/sømrum-rajaukset, rundstrik ja 6 kysymyksen FAQ vastaavat EN-lähdettä. Sisältömuutoksia ei tehty tässä jatkopassissa.
+- `nyt-noegle-midt-paa-pinden.md`: korjattu varmuustaso EN-lähteen mukaiseksi: aloituksen `usynlig` muutettu muotoon `pæn`, ja spit splice / filt-samling kuvataan `næsten usynlig`, koska magic knot -menetelmä jättää tarkoituksella solmun eikä kaikki samlinger ole näkymättömiä.
+- `strik-foerste-toerklaede.md`: rakenne, Worsted / Medium -metriikka, 5,0 mm / US 8 -pindesuositus, 15 cm ender, blocking-/frynser-/session-rajaukset sekä 7 kysymyksen FAQ vastaavat EN-lähdettä ja tanskan termiohjetta. Sisältömuutoksia ei tehty tässä jatkopassissa.
+- `strikkepinde-metal-trae-bambus.md`: rakenne ja materiaali-/spidsform-/samling-osiot vastaavat EN-lähdettä; metalpinde-väitteen `næsten umulige at slide op` pehmennettiin muotoon `holder længe`, jotta tanskan teksti ei ole vahvempi kuin EN-lähteen `last a long time`.
+- `gentagelser-i-strikkeopskrifter.md`: rakenne, stjerne/klammer/parenteser-esimerkit, indlejrede gentagelser, opsætningspinde, multi-row repeats, rapportbokse, livliner, half-drop-rajaukset ja 6 kysymyksen FAQ vastaavat EN-lähdettä. Sisältömuutoksia ei tehty tässä jatkopassissa.
+- frontmatter pidetty ennallaan: `translationKey`, `draft: false`, `lang: da`, slug/reitit ja kategoriat eivät muuttuneet.
+- rakenne- ja merkkimääräpariteetti erän jälkeen:
+  - `fordel-udtagninger-indtagninger-jaevnt...` 13 197 merkkiä / 2 162 sanaa / 15 H2 + 0 H3 + 6 FAQ (EN 14 782 / 2 564 / 15 H2 + 0 H3 + 6 FAQ)
+  - `nyt-noegle-midt-paa-pinden...` 11 408 merkkiä / 1 889 sanaa / 12 H2 + 1 H3 + 5 FAQ (EN 11 554 / 1 979 / 12 H2 + 1 H3 + 5 FAQ)
+  - `strik-foerste-toerklaede...` 12 883 merkkiä / 2 233 sanaa / 11 H2 + 4 H3 + 7 FAQ (EN 12 389 / 2 233 / 11 H2 + 4 H3 + 7 FAQ)
+  - `strikkepinde-metal-trae-bambus...` 10 166 merkkiä / 1 514 sanaa / 10 H2 + 0 H3 + 6 FAQ (EN 10 225 / 1 631 / 10 H2 + 0 H3 + 6 FAQ)
+  - `gentagelser-i-strikkeopskrifter...` 10 672 merkkiä / 1 746 sanaa / 11 H2 + 0 H3 + 6 FAQ (EN 10 296 / 1 803 / 11 H2 + 0 H3 + 6 FAQ)
+- linkkitarkistus viidelle buildatulle DA-sivulle: 24 uniikkia tanskankielistä artikkeli-/tools-linkkiä, 0 puuttuvaa `dist/`-kohdetta.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/da/artikler/fordel-udtagninger-indtagninger-jaevnt/index.html`
+  - `dist/da/artikler/nyt-noegle-midt-paa-pinden/index.html`
+  - `dist/da/artikler/strik-foerste-toerklaede/index.html`
+  - `dist/da/artikler/strikkepinde-metal-trae-bambus/index.html`
+  - `dist/da/artikler/gentagelser-i-strikkeopskrifter/index.html`
+- `dist/da/artikler/` sisältää 38/38 tanskankielistä artikkeli-HTML-sivua; buildattu HTML sisältää tämän erän uudet varmuustason korjaukset `Overgangen skal være pæn`, `næsten usynlig` ja `gode metalpinde holder længe`.
+- riskigrepit: tarkennettu tanskankielisten unsupported tuoteväitteiden ja termiriskien haku (`AI`, `OCR`, `scanner`, `scanne`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `ingen abonnement`, `ingen reklamer`, `Yarn Label Scanner`, `garnlabelscanner`, `Banderolescanner`, `€`, `$`, `haptisk feedback`, `rapportstøtte`, `Ravelry-integration`, `prøveperiode`, `telefonkamera`, `single-garn`, `offline`, `uden forbindelse`) 0 osumaa; AI-filler-/vierastermihaku 0 osumaa.
+- tarkistukset: `npx prettier --write` viidelle DA-artikkelille ja etenemislokille OK (unchanged); `npx prettier --check` viidelle DA-artikkelille ja etenemislokille OK; scoped `git diff --check` OK; trailing-whitespace-haku OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- seuraava vaihe: DA artikkelit erä 6/8, seuraavat 5 `src/i18n/articles.ts`-järjestyksen tanskankielistä artikkelia:
+  - `src/content/articles/da/stoerrelser-i-strikkeopskrifter.md` (`translationKey: "knitting-pattern-sizes-and-fit"`)
+  - `src/content/articles/da/pindestoerrelse-for-begyndere.md` (`translationKey: "needle-size-for-beginners"`)
+  - `src/content/articles/da/hold-styr-paa-strikkeprojekter.md` (`translationKey: "organize-knitting-projects"`)
+  - `src/content/articles/da/laes-strikkeopskrift.md` (`translationKey: "how-to-read-knitting-pattern"`)
+  - `src/content/articles/da/saml-masker-op-langs-kant.md` (`translationKey: "pick-up-stitches"`)
+- seuraava tiedosto: `src/content/articles/da/stoerrelser-i-strikkeopskrifter.md`
+
+DA artikkelit erä 6/8:
+
+- käsitelty seuraavat 5 tanskankielistä artikkelia nykyisessä viiden artikkelin EN-pariteettipassissa; DA artikkelivalmius nyt 30/38:
+  - `src/content/articles/da/stoerrelser-i-strikkeopskrifter.md` (`translationKey: "knitting-pattern-sizes-and-fit"`)
+  - `src/content/articles/da/pindestoerrelse-for-begyndere.md` (`translationKey: "needle-size-for-beginners"`)
+  - `src/content/articles/da/hold-styr-paa-strikkeprojekter.md` (`translationKey: "organize-knitting-projects"`)
+  - `src/content/articles/da/laes-strikkeopskrift.md` (`translationKey: "how-to-read-knitting-pattern"`)
+  - `src/content/articles/da/saml-masker-op-langs-kant.md` (`translationKey: "pick-up-stitches"`)
+- verrattu jokainen tiedosto omaan nykyiseen `translationKey`-englantiartikkeliin:
+  - `knitting-pattern-sizes-and-fit` -> `src/content/articles/knitting-pattern-sizes-and-fit.md`
+  - `needle-size-for-beginners` -> `src/content/articles/needle-size-for-beginners.md`
+  - `organize-knitting-projects` -> `src/content/articles/organize-knitting-projects.md`
+  - `how-to-read-knitting-pattern` -> `src/content/articles/how-to-read-knitting-pattern.md`
+  - `pick-up-stitches` -> `src/content/articles/pick-up-stitches.md`
+- ennen editointia ja faktatarkistusta tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google Search Centralin localized versions / hreflang -ohje, Craft Yarn Councilin hooks and needles, how to read a knitting pattern, knitting abbreviations ja knit chart symbols -standardit, Tin Can Knitsin ja Brooklyn Tweedin sweater size / ease -ohjeet, Purl Sohon ja Tin Can Knitsin picking-up-stitches-ohjeet sekä NPM latest -versiot (`astro` 6.4.2, `prettier` 3.8.3, `prettier-plugin-astro` 0.14.1, `@astrojs/check` 0.9.9).
+- `stoerrelser-i-strikkeopskrifter.md`: rakenne, mitta-/ease-esimerkit, CYC:n 5-10 cm / 10-15 cm / 15+ cm -tasot, raglan-/isyet ærme-/bærestykke-rajaukset, short-row bust shaping ja FAQ vastaavat EN-lähdettä; tarkennettu yleinen `bevægelsesrum`/`ease`-määritelmä niin, ettei se sekoita kaikkea easea `positive ease` -termiksi.
+- `pindestoerrelse-for-begyndere.md`: tarkistettu EN-lähdettä, CYC hooks and needles -standardia ja tanskan termiohjetta vasten; 5,0 mm / US 8, 4,5-5,5 mm / US 7-9, jumperpinde/rundpinde, bambus/træ/metal ja FAQ olivat linjassa. Sisältömuutoksia ei tehty tässä jatkopassissa.
+- `hold-styr-paa-strikkeprojekter.md`: poistettu EN-lähteen ulkopuolinen `3-5 aktive projekter` -sääntö FAQ:sta ja palautettu WIP-milestone-kohtaan EN:n tarkempi päätöslista: fortsæt, sæt bevidst på pause tai tag garnet tilbage. Tuoteväitteet pidetty prelaunch-/rakennetaan-muodossa nykyisen EN-lähteen ja paikallisen sivustokopion mukaisesti.
+- `laes-strikkeopskrift.md`: pehmennetty `Hver opskrift` -> `De fleste opskrifter`, palautettu garnskift-lauseeseen EN:n strikkefasthed-, fiber behavior- ja total yardage -rajaukset sekä lisätty diagrammiosioon rundstrikissä oikealta vasemmalle -lukusuunta, joka puuttui tanskasta.
+- `saml-masker-op-langs-kant.md`: korjattu restegarn-osio vastaamaan EN-lähdettä: kyse on väliaikaisesta testirivistä, joka poistetaan ennen projektigarnilla toistamista, ei pysyvästä kontrastirivistä. Lisäksi pehmennetty steek-osio EN:n varmuustasolle, rajattu non-superwash-uld vs bomuld/superwash-uld oikein ja korjattu FAQ:t glatstrik/retstrik- sekä maskefasthed/pindefasthed/kantlængde-rajoihin.
+- frontmatter pidetty ennallaan: `translationKey`, `draft: false`, `lang: da`, slug/reitit ja kategoriat eivät muuttuneet.
+- rakenne- ja merkkimääräpariteetti erän jälkeen:
+  - `stoerrelser-i-strikkeopskrifter...` 13 333 merkkiä / 2 062 sanaa / 13 H2 + 0 H3 + 4 FAQ (EN 12 630 / 2 082 / 13 H2 + 0 H3 + 4 FAQ)
+  - `pindestoerrelse-for-begyndere...` 9 346 merkkiä / 1 485 sanaa / 9 H2 + 0 H3 + 6 FAQ (EN 8 904 / 1 486 / 9 H2 + 0 H3 + 6 FAQ)
+  - `hold-styr-paa-strikkeprojekter...` 8 747 merkkiä / 1 384 sanaa / 8 H2 + 0 H3 + 3 FAQ (EN 8 745 / 1 453 / 8 H2 + 0 H3 + 3 FAQ)
+  - `laes-strikkeopskrift...` 14 268 merkkiä / 2 139 sanaa / 14 H2 + 2 H3 + 7 FAQ (EN 13 552 / 2 129 / 14 H2 + 2 H3 + 7 FAQ)
+  - `saml-masker-op-langs-kant...` 11 516 merkkiä / 1 870 sanaa / 12 H2 + 2 H3 + 6 FAQ (EN 11 329 / 1 904 / 12 H2 + 2 H3 + 6 FAQ)
+- linkkitarkistus viidelle buildatulle DA-sivulle: 22 uniikkia tanskankielistä artikkeli-/tools-linkkiä, 0 puuttuvaa `dist/`-kohdetta.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/da/artikler/stoerrelser-i-strikkeopskrifter/index.html`
+  - `dist/da/artikler/pindestoerrelse-for-begyndere/index.html`
+  - `dist/da/artikler/hold-styr-paa-strikkeprojekter/index.html`
+  - `dist/da/artikler/laes-strikkeopskrift/index.html`
+  - `dist/da/artikler/saml-masker-op-langs-kant/index.html`
+- `dist/da/artikler/` sisältää 38/38 tanskankielistä artikkeli-HTML-sivua.
+- riskigrepit: tarkennettu tanskankielisten unsupported tuoteväitteiden ja termiriskien haku (`AI`, `OCR`, `scanner`, `scanne`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `ingen abonnement`, `ingen reklamer`, `Yarn Label Scanner`, `garnlabelscanner`, `Banderolescanner`, `€`, `$`, `haptisk feedback`, `rapportstøtte`, `Ravelry-integration`, `prøveperiode`, `telefonkamera`, `single-garn`, `offline`, `uden forbindelse`, `projektoversigt`, `garnkort`, `3-5 aktive`) 0 osumaa; trailing whitespace -haku 0 osumaa.
+- tarkistukset: `npx prettier --write` viidelle DA-artikkelille OK (unchanged); `npx prettier --check` viidelle DA-artikkelille OK; scoped `git diff --check` OK; rakennepariteettiskripti OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- seuraava vaihe: DA artikkelit erä 7/8, seuraavat 5 `src/i18n/articles.ts`-järjestyksen tanskankielistä artikkelia:
+  - `src/content/articles/da/sy-strikkede-dele-sammen-madrassting.md` (`translationKey: "seam-knitted-pieces"`)
+  - `src/content/articles/da/strikketid-og-tempo.md` (`translationKey: "track-knitting-time"`)
+  - `src/content/articles/da/hold-styr-paa-pinde-og-omgange.md` (`translationKey: "track-rows-knitting"`)
+  - `src/content/articles/da/hvorfor-ruller-strik.md` (`translationKey: "why-knitting-curls"`)
+  - `src/content/articles/da/garnfibre-sammenlignet.md` (`translationKey: "yarn-fibers-compared"`)
+- seuraava tiedosto: `src/content/articles/da/sy-strikkede-dele-sammen-madrassting.md`
+
+DA artikkelit erä 7/8:
+
+- käsitelty seuraavat 5 tanskankielistä artikkelia nykyisessä viiden artikkelin EN-pariteettipassissa; DA artikkelivalmius nyt 35/38:
+  - `src/content/articles/da/sy-strikkede-dele-sammen-madrassting.md` (`translationKey: "seam-knitted-pieces"`)
+  - `src/content/articles/da/strikketid-og-tempo.md` (`translationKey: "track-knitting-time"`)
+  - `src/content/articles/da/hold-styr-paa-pinde-og-omgange.md` (`translationKey: "track-rows-knitting"`)
+  - `src/content/articles/da/hvorfor-ruller-strik.md` (`translationKey: "why-knitting-curls"`)
+  - `src/content/articles/da/garnfibre-sammenlignet.md` (`translationKey: "yarn-fibers-compared"`)
+- verrattu jokainen tiedosto omaan nykyiseen `translationKey`-englantiartikkeliin:
+  - `seam-knitted-pieces` -> `src/content/articles/seam-knitted-pieces.md`
+  - `track-knitting-time` -> `src/content/articles/track-knitting-time.md`
+  - `track-rows-knitting` -> `src/content/articles/track-rows-knitting.md`
+  - `why-knitting-curls` -> `src/content/articles/why-knitting-curls.md`
+  - `yarn-fibers-compared` -> `src/content/articles/yarn-fibers-compared.md`
+- ennen editointia ja faktatarkistusta tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Google Search Centralin localized versions / hreflang -ohje, Nordic Yarn Labin ja Strikker.dk:n maskesting-ohjeet, Our Daily Craftin stockinette curl -ohje, Woolmarkin wool-fiber facts, Craft Yarn Councilin yarn-standardipinta, CottonWorks fiber booklet, KnitToolsin nykyinen julkaistu yarn-fibers-artikkeli sekä NPM latest -versiot (`astro` 6.4.2, `prettier` 3.8.3, `prettier-plugin-astro` 0.14.1, `@astrojs/check` 0.9.9).
+- `sy-strikkede-dele-sammen-madrassting.md`: korjattu strukturmønstre/madrassting-kohta takaisin EN-lähteen linjaan: teksturoiduissa kankaissa ei ommella aivan reunasta vaan samasta sømlinje-kohdasta, yleensä yksi maske sisään reunasta. Muuten nykyinen seam method -rakenne, Kitchener/maskesting, ærmeisyning, striber/flerfarvestrik ja FAQ olivat linjassa.
+- `strikketid-og-tempo.md`: tarkistettu EN-lähdettä vasten; sessionsregistrering, tempo over tid, pinde/omgange-rajaukset, projektstyring-linkki ja FAQ olivat linjassa. Sisältömuutoksia ei tehty tässä erässä.
+- `hold-styr-paa-pinde-og-omgange.md`: palautettu snoningsankkurin laskentaan EN:n `gange med 8` -tarkennus, poistettu liian tuotemainen `rapportstøtte`-väite KnitTools-lauseesta ja muutettu stribe-FAQ:ssa geneerinen repeat tracker luonnolliseksi `indbygget gentagelsessporing` -muodoksi.
+- `hvorfor-ruller-strik.md`: poistettu duplikoiva ja liian varma glatstrik-fysiikan muotoilu, pehmennetty superwash-otsikko ja sisältö nykyisen EN-lähteen tasolle (`kan være sværere at styre`, ei absoluuttisesti ruller mere), sekä rajattu akryylin höyrytys takaisin varovaiseksi non-contact steam -ohjeeksi ilman ylimääräisiä etäisyys-/pysyvyysväitteitä. Korjattu myös omvendt glatstrik -suuntaus `retmaske-side`-muotoon.
+- `garnfibre-sammenlignet.md`: tarkistettu EN-lähdettä, Woolmark-/CottonWorks-pintaa ja tanskan termiohjetta vasten; uld, bomuld, akryl, alpaka, silke, hør, mohair, nylon, blends, wash/care ja garnberegner-rajaukset olivat linjassa. Sisältömuutoksia ei tehty tässä erässä.
+- frontmatter pidetty ennallaan: `translationKey`, `draft: false`, `lang: da`, slug/reitit ja kategoriat eivät muuttuneet.
+- rakenne- ja merkkimääräpariteetti erän jälkeen:
+  - `sy-strikkede-dele-sammen-madrassting...` 13 826 merkkiä / 2 154 sanaa / 11 H2 + 2 H3 + 5 FAQ (EN 13 436 / 2 195 / 11 H2 + 2 H3 + 5 FAQ)
+  - `strikketid-og-tempo...` 8 764 merkkiä / 1 374 sanaa / 8 H2 + 3 H3 + 4 FAQ (EN 8 440 / 1 381 / 8 H2 + 3 H3 + 4 FAQ)
+  - `hold-styr-paa-pinde-og-omgange...` 9 314 merkkiä / 1 467 sanaa / 11 H2 + 0 H3 + 5 FAQ (EN 9 278 / 1 573 / 11 H2 + 0 H3 + 5 FAQ)
+  - `hvorfor-ruller-strik...` 9 551 merkkiä / 1 517 sanaa / 7 H2 + 6 H3 + 6 FAQ (EN 9 339 / 1 514 / 7 H2 + 6 H3 + 6 FAQ)
+  - `garnfibre-sammenlignet...` 11 494 merkkiä / 1 822 sanaa / 7 H2 + 0 H3 + 0 FAQ (EN 11 404 / 1 801 / 7 H2 + 0 H3 + 0 FAQ)
+- linkkitarkistus viidelle buildatulle DA-sivulle: 22 uniikkia tanskankielistä artikkeli-/tools-linkkiä, 0 puuttuvaa `dist/`-kohdetta.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/da/artikler/sy-strikkede-dele-sammen-madrassting/index.html`
+  - `dist/da/artikler/strikketid-og-tempo/index.html`
+  - `dist/da/artikler/hold-styr-paa-pinde-og-omgange/index.html`
+  - `dist/da/artikler/hvorfor-ruller-strik/index.html`
+  - `dist/da/artikler/garnfibre-sammenlignet/index.html`
+- `dist/da/artikler/` sisältää 38/38 tanskankielistä artikkeli-HTML-sivua.
+- riskigrepit: tarkennettu tanskankielisten unsupported tuoteväitteiden ja termiriskien haku (`AI`, `OCR`, `scanner`, `scanne`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `ingen abonnement`, `ingen reklamer`, `Yarn Label Scanner`, `garnlabelscanner`, `Banderolescanner`, `€`, `$`, `haptisk feedback`, `rapportstøtte`, `Ravelry-integration`, `prøveperiode`, `telefonkamera`, `single-garn`, `offline`, `uden forbindelse`, `projektoversigt`, `garnkort`, `3-5 aktive`) 0 osumaa; trailing whitespace -haku 0 osumaa.
+- tarkistukset: `npx prettier --write` viidelle DA-artikkelille ja etenemislokille OK; `npx prettier --check` viidelle DA-artikkelille ja etenemislokille OK; scoped `git diff --check` OK; rakennepariteettiskripti OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- seuraava vaihe: DA artikkelit erä 8/8, viimeiset 3 `src/i18n/articles.ts`-järjestyksen tanskankielistä artikkelia:
+  - `src/content/articles/da/hvor-meget-garn-til-taeppe.md` (`translationKey: "yarn-for-blanket"`)
+  - `src/content/articles/da/hvor-meget-garn-til-sweater.md` (`translationKey: "yarn-for-sweater"`)
+  - `src/content/articles/da/skift-garntykkelse-i-strikkeopskrift.md` (`translationKey: "yarn-weight-substitution"`)
+- seuraava tiedosto: `src/content/articles/da/hvor-meget-garn-til-taeppe.md`
+
+DA artikkelit erä 8/8:
+
+- käsitelty viimeiset 3 tanskankielistä artikkelia nykyisessä EN-pariteettipassissa; DA artikkelivalmius nyt 38/38:
+  - `src/content/articles/da/hvor-meget-garn-til-taeppe.md` (`translationKey: "yarn-for-blanket"`)
+  - `src/content/articles/da/hvor-meget-garn-til-sweater.md` (`translationKey: "yarn-for-sweater"`)
+  - `src/content/articles/da/skift-garntykkelse-i-strikkeopskrift.md` (`translationKey: "yarn-weight-substitution"`)
+- verrattu jokainen tiedosto omaan nykyiseen `translationKey`-englantiartikkeliin:
+  - `yarn-for-blanket` -> `src/content/articles/yarn-for-blanket.md`
+  - `yarn-for-sweater` -> `src/content/articles/yarn-for-sweater.md`
+  - `yarn-weight-substitution` -> `src/content/articles/yarn-weight-substitution.md`
+- ennen editointia ja faktatarkistusta tarkistettu ajantasaiset lähdepinnat AGENTS-ohjeen mukaisesti: Astro content collections -dokumentaatio, Astro i18n -dokumentaatio, Astro `astro:content` API -referenssi, Craft Yarn Councilin Standard Yarn Weight System ja Hooks & Needles -standardit, Tin Can Knitsin garment-at-different-gauge-ohje sekä NPM latest -versiot (`astro` 6.4.2, `prettier` 3.8.3, `prettier-plugin-astro` 0.14.1, `@astrojs/check` 0.9.9).
+- `hvor-meget-garn-til-taeppe.md`: korjattu kaikki tæppe-kokojen metreiksi muunnetut yardage-/garnforbrug-intervallit vastaamaan nykyisen EN-lähteen yardage-alueita. Aiemmat DA-ylärajat olivat useassa kohdassa liian matalat, erityisesti skødetæppe-, stor plaid- ja king-size-väleissä.
+- `hvor-meget-garn-til-sweater.md`: poistettu EN-lähteen ulkopuolinen tarkka 320-460 m hihaväite ja palautettu se EN:n varmuustasolle (`flere hundrede meter` / suuri osa kokonaisesta garnforbrugista). Täydennetty herre-/dame-sweater-FAQ vastaamaan EN-lähteen ehtoja: brystmål, kropslængde, ærmelængde, strikkefasthed ja konstruktion. Lisäksi sisäinen linkki ohjattu `how-to-substitute-yarn`-translationKeyn tanskankieliseen vastineeseen `skift-garn-i-strikkeopskrift`.
+- `skift-garntykkelse-i-strikkeopskrift.md`: palautettu nykyisen EN-lähteen laskuesimerkin numeerinen rakenne tanskaksi: 20 masker pr. 10 cm -> 24 masker pr. 10 cm, 100 cm brystvidde -> 200/240 masker, 44-maskers ærmerib -> 54 masker, 28/32 pinde pr. 10 cm -> 112/128 pinde sekä 1 400 yards / ca. 1 280 m -> realistisempi 1 650-1 830 m DK-suunnitteluväli. Lisäksi täydennetty vanhojen opskrifter-osio EN-lähteen mukaan: noin 24 masker pr. 10 cm voi vastata nykyistä Sport/DK/Light Worsted -aluetta, ja moderni Worsted suuremmilla pindeillä tuottaa raskaamman, eri näköisen työn.
+- frontmatter pidetty ennallaan: `translationKey`, `draft: false`, `lang: da`, slug/reitit ja kategoriat eivät muuttuneet.
+- rakenne- ja merkkimääräpariteetti erän jälkeen:
+  - `hvor-meget-garn-til-taeppe...` 9 403 merkkiä / 1 513 sanaa / 8 H2 + 0 H3 + 4 FAQ + 17 bold (EN 9 255 / 1 518 / 8 H2 + 0 H3 + 4 FAQ + 17 bold)
+  - `hvor-meget-garn-til-sweater...` 8 727 merkkiä / 1 369 sanaa / 8 H2 + 0 H3 + 5 FAQ + 19 bold (EN 8 731 / 1 430 / 8 H2 + 0 H3 + 5 FAQ + 19 bold)
+  - `skift-garntykkelse-i-strikkeopskrift...` 13 007 merkkiä / 1 992 sanaa / 10 H2 + 0 H3 + 6 FAQ + 15 bold (EN 12 674 / 2 022 / 10 H2 + 0 H3 + 6 FAQ + 15 bold)
+- linkkitarkistus kolmelle buildatulle DA-sivulle: 17 uniikkia tanskankielistä artikkeli-/tools-linkkiä, 0 puuttuvaa `dist/`-kohdetta.
+- dist-polut buildin jälkeen olemassa:
+  - `dist/da/artikler/hvor-meget-garn-til-taeppe/index.html`
+  - `dist/da/artikler/hvor-meget-garn-til-sweater/index.html`
+  - `dist/da/artikler/skift-garntykkelse-i-strikkeopskrift/index.html`
+- `dist/da/artikler/` sisältää 38/38 tanskankielistä artikkeli-HTML-sivua.
+- riskigrepit: tarkennettu tanskankielisten unsupported tuoteväitteiden ja termiriskien haku (`AI`, `OCR`, `scanner`, `scanne`, `kamera`, `stemmekommando`, `stemmestyring`, `samtalestemme`, `mikrofon`, `KnitTools-app`, `KnitTools-appen`, `app-køb`, `engangskøb`, `ingen abonnement`, `ingen reklamer`, `Yarn Label Scanner`, `garnlabelscanner`, `Banderolescanner`, `€`, `$`, `haptisk feedback`, `rapportstøtte`, `Ravelry-integration`, `prøveperiode`, `telefonkamera`, `single-garn`, `offline`, `uden forbindelse`, `projektoversigt`, `garnkort`, `3-5 aktive`) 0 osumaa; trailing whitespace -haku 0 osumaa.
+- tarkistukset: `npx prettier --write` kolmelle DA-artikkelille OK (unchanged); `npx prettier --check` kolmelle DA-artikkelille ja etenemislokille OK; scoped `git diff --check` kolmelle DA-artikkelille OK; etenemislokin trailing whitespace -haku OK; rakennepariteettiskripti OK; riskigrep OK; `npm run check` OK (0 errors, 0 warnings, 20 olemassa olevaa Astro-hinttiä); `npm run build` OK ja 411 sivua rakennettu.
+- seuraava vaihe: ei seuraavaa DA-artikkelijaksoa; DA artikkelit 38/38 valmis ja viimeinen kielikohtainen artikkelipassi on valmis tämän suunnitelman osalta.
+- seuraava tiedosto: ei seuraavaa.

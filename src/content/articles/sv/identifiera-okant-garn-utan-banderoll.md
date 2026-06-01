@@ -18,24 +18,24 @@ translationKey: "identify-mystery-yarn"
 
 De flesta stickare hamnar förr eller senare med okänt garn. Banderollen har fallit av, garnet kom från någon annans förråd, eller nystanet hade aldrig särskilt mycket information från början. Second hand-påsar, ärvda samlingar, rester från byten.
 
-För att identifiera okänt garn börjar du med WPI, alltså lindningar per 2,5 cm, för att hitta garntjockleken, och använder sedan brännprov och vattentest för att ringa in fiberfamiljen. Du får inte alltid exakt märke eller procent, men tjockleksintervall och grov fibertyp räcker oftast.
+För att identifiera okänt garn börjar du med WPI, alltså lindningar per tum (cirka 2,5 cm), för att hitta garntjockleken, och använder sedan brännprov och vattentest för att ringa in fiberfamiljen. Du får inte alltid exakt märke eller procent, men tjockleksintervall och grov fibertyp räcker oftast.
 
 ## Steg ett: hitta tjockleken med WPI
 
 WPI är den snabbaste första kontrollen.
 
-Linda garnet runt en penna, linjal eller WPI-mätare. Håll varven tätt intill varandra utan att sträcka garnet. Räkna sedan hur många varv som ryms på 2,5 cm.
+Linda garnet runt en penna, linjal eller WPI-mätare. Håll lindningarna tätt intill varandra utan att sträcka garnet. Räkna sedan hur många lindningar som ryms på en tum, alltså ungefär 2,5 cm.
 
 Craft Yarn Councils guide använder de här breda intervallen:
 
-- 30 till 40+ varv: lace (kategori 0)
-- 14 till 30 varv: super fine eller fingering-området (kategori 1)
-- 12 till 18 varv: fine eller sport-området (kategori 2)
-- 11 till 15 varv: light eller DK-området (kategori 3)
-- 9 till 12 varv: medium eller worsted-området (kategori 4)
-- 6 till 9 varv: bulky (kategori 5)
-- 5 till 6 varv: super bulky (kategori 6)
-- 1 till 4 varv: jumbo (kategori 7)
+- 30 till 40+ lindningar: lace (kategori 0)
+- 14 till 30 lindningar: super fine eller fingering-området (kategori 1)
+- 12 till 18 lindningar: fine eller sport-området (kategori 2)
+- 11 till 15 lindningar: light eller DK-området (kategori 3)
+- 9 till 12 lindningar: medium eller worsted-området (kategori 4)
+- 6 till 9 lindningar: bulky (kategori 5)
+- 5 till 6 lindningar: super bulky (kategori 6)
+- 1 till 4 lindningar: jumbo (kategori 7)
 
 Ja, intervallen överlappar. WPI tar dig till rätt område, inte till exakt adress. Mät på mer än ett ställe, särskilt om garnet är strukturerat, luddigt eller handspunnet.
 
@@ -47,11 +47,11 @@ Det spelar roll för skötsel och för hur tyget beter sig. [Fiberguiden](/sv/ar
 
 ### Brännprovet
 
-Klipp en liten bit, håll den med pincett över ett brandsäkert underlag och tänd den. Lägg märke till hur den brinner, hur den luktar och vad som finns kvar när den svalnat.
+Klipp en liten bit, håll den med pincett över ett brandsäkert underlag och tänd den. Ha vatten nära till hands, arbeta utomhus eller med mycket god ventilation och avbryt om garnet smälter, droppar eller ger ifrån sig skarpa ångor. Lägg märke till hur den brinner, hur den luktar och vad som finns kvar när den svalnat.
 
 Animaliska fibrer (ull, alpacka, silke) luktar bränt hår och lämnar en aska som går att krossa. Växtfibrer (bomull, lin) luktar mer som bränt papper och lämnar en lättare aska. Syntet smälter och hårdnar till en pärla i stället för att bli aska. Blandningar visar blandat beteende, vilket säger att garnet är blandat men inte ger exakta procent.
 
-Gör det här utomhus eller med mycket god ventilation. Syntetångor är inte trevliga, och öppen låga förtjänar mer försiktighet än de flesta garnrester får.
+Gör inte brännprovet med en stor bit, nära barn eller bredvid något lättantändligt. Syntetiska ångor är en verklig anledning att hålla provet mycket litet.
 
 En kommentar om förväntningar: brännprovet är en grov identifieringsmetod, inte ett labbresultat. Det är mest användbart för att skilja de stora fiberfamiljerna åt. Förvänta dig inte att det berättar skillnaden mellan merino och corriedale.
 
@@ -59,7 +59,7 @@ En kommentar om förväntningar: brännprovet är en grov identifieringsmetod, i
 
 Snällare, och användbart tillsammans med brännprovet. Blötlägg en liten bit i varmt vatten och se vad som händer.
 
-Obehandlad ull kan börja filta om du lägger till värme, tvål och bearbetning. Superwash-ull blir våt men motstår filtning. Bomull suger åt sig vatten snabbt och känns märkbart tyngre våt. Akryl suger åt sig mindre och torkar snabbare.
+Obehandlad ull kan börja filta om du lägger till värme, tvål och bearbetning. Superwash-ull blir våt men motstår filtning. Bomull suger åt sig vatten snabbt och känns märkbart tyngre våt. Akryl beter sig annorlunda än bomull och ull, men vattentestet identifierar det inte säkert på egen hand.
 
 Fortfarande bara en ledtråd, särskilt med blandningar. Men det snävar in fältet.
 
@@ -91,7 +91,7 @@ Om du planerar att använda mycket okänt garn i ett projekt, testa färgäkthet
 
 Om du har mycket omärkt garn sparar en eftermiddag med testning och märkning framtida huvudvärk. Även en handskriven lapp ("troligen DK, förmodligen ullblandning, handtvätt") är bättre än ännu ett mysterienystan om sex månader.
 
-KnitTools [garnbanderollskanner](/) kan hjälpa även här. För okänt garn kan du skapa ett manuellt kort med din bästa uppskattning och testanteckningar.
+KnitTools kan hjälpa här också. För okänt garn kan du spara en projektnotis med din bästa uppskattning och dina testanteckningar.
 
 ## FAQ
 

@@ -16,7 +16,7 @@ lang: de
 translationKey: "how-much-yarn-do-i-need"
 ---
 
-Wenn das Garn nach drei Vierteln des Projekts ausgeht, fühlt sich das besonders bitter an. Die Farbpartie ist weg. Der Laden hat das Garn ausverkauft. Oder das Ersatzknäuel sieht im Geschäft nah genug aus und gestrickt neben dem Original völlig falsch. Zwei Zentimeter vor dem Abketten steht das ganze Projekt. Das passiert öfter, als es sollte, und fast immer lässt es sich vermeiden.
+Wenn das Garn nach drei Vierteln des Projekts ausgeht, fühlt sich das besonders bitter an. Die Farbpartie ist weg. Der Laden hat das Garn ausverkauft. Oder das Ersatzknäuel sieht im Geschäft nah genug aus und gestrickt neben dem Original völlig falsch. Zwei Zentimeter vor dem Abketten steht das ganze Projekt. Das passiert öfter, als es sollte, und bessere Planung verhindert viel davon.
 
 Der Garnbedarf eines Strickprojekts hängt von vier Dingen ab: den Maßen des Projekts, der Garnstärke, dem Muster und der Maschenprobe. Eine gute Schätzung ist kein Raten. Sie basiert darauf, dass diese vier Angaben stimmen. Stimmen sie, liegt die Schätzung überraschend nah. Ignorierst du eine davon, gehst du ein Risiko ein.
 
@@ -26,11 +26,11 @@ Manchmal brauchst du vor dem Einkauf nur eine grobe Größenordnung. Keine exakt
 
 Eine schlichte Erwachsenen-Mütze aus Worsted-Garn passt meistens in ein oder zwei 100-g-Knäuel. Etwa 140-230 m, je nach Größe und ob ein umgeschlagener Rand dabei ist. Schals liegen oft im Bereich einiger hundert Meter, aber Breite und Länge verschieben diese Zahl schnell. Ein schmaler Schal aus Fingering und ein breiter Chunky-Cowl leben in völlig unterschiedlichen Garnmengen, obwohl beides "Schals" sind.
 
-Pullover für Erwachsene sind Projekte mit vierstelligen Meterzahlen. Ein körpernaher DK-Pullover kann etwa 1.100 m brauchen. Ein weiter Cardigan mit Zöpfen aus Worsted kann über 1.800 m gehen. Decken landen schnell bei mehreren tausend Metern, und eine große Bettdecke kann 2.700 m oder mehr fressen.
+Pullover für Erwachsene sind Projekte mit vierstelligen Meterzahlen. Ein körpernaher DK-Pullover kann 1.350 m oder mehr brauchen. Ein weiter Cardigan mit Zöpfen aus Worsted kann über 1.800 m gehen. Decken landen schnell bei mehreren tausend Metern, und eine große Bettdecke kann 2.700 m oder mehr fressen.
 
 Das ist Größenordnung, keine Präzision. Eine Zopfmütze braucht mehr Garn als eine glatte Mütze. Ein Cropped-Pullover und ein tunikalanger Pullover sind nicht annähernd dasselbe. Eine Decke mit starkem Strukturmuster verbraucht mehr als ein glattes Rechteck.
 
-Für eine projektspezifische Schätzung arbeitet der KnitTools-[Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) mit Projektart, Größe und Garnstärke statt nur mit Durchschnittswerten.
+Für eine projektspezifische Schätzung arbeitet der KnitTools-[Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) mit Projektart, Maßen und Garnstärke statt nur mit Durchschnittswerten.
 
 ## Wie Garnstärke die Gesamtmenge verändert
 
@@ -38,7 +38,7 @@ Dünneres Garn bedeutet mehr Maschen auf 10 cm. Mehr Maschen auf derselben Breit
 
 Aber Knäuel enthalten nicht alle dieselbe Garnlänge. Fingering-Garn packt in 100 g viel mehr Meter als Worsted. Ein Fingering-Pullover kann mehr Meter brauchen und trotzdem ungefähr dasselbe Gesamtgewicht an Garn verwenden. Ein 100-g-Knäuel Fingering kann 365 m enthalten. Ein 100-g-Knäuel Bulky vielleicht 100 m. Dasselbe Gewicht auf der Waage, völlig andere Länge.
 
-Deshalb sind Meter die entscheidende Zahl, nicht "wie viele Knäuel". Zwei 100-g-Knäuel können je nach Faser und Marke sehr unterschiedliche Längen enthalten. Seide packt anders als Wolle. Ein Singles-Garn verhält sich anders als verzwirntes Garn. Wenn du nicht sicher bist, in welche Kategorie dein Garn fällt, hilft die [Garnstärken-Tabelle](/de/werkzeuge/garnstaerken-tabelle/).
+Deshalb sind Meter die entscheidende Zahl, nicht "wie viele Knäuel". Zwei 100-g-Knäuel können je nach Faser und Marke sehr unterschiedliche Längen enthalten. Seide packt anders als Wolle. Ein Singles-Garn verhält sich anders als verzwirntes Garn. Ein 100-g-Knäuel einer Marke kann deutlich mehr Lauflänge enthalten als ein gleich schweres Knäuel einer anderen Marke. Wenn du nicht sicher bist, in welche Kategorie dein Garn fällt, hilft die [Garnstärken-Tabelle](/de/werkzeuge/garnstaerken-tabelle/).
 
 ## Berechnen über deine Maschenprobe
 
@@ -52,6 +52,8 @@ Das musst du nicht von Hand rechnen. Der [Garnbedarfsrechner](/de/werkzeuge/garn
 
 Trotzdem hilft ein Gefühl für die Größenordnung. Wenn ein Rechner 400 m für eine Bettdecke ausgibt, stimmt etwas nicht. Mehrere tausend Meter? Zumindest plausibel. Dieser Plausibilitätscheck fängt Eingabefehler ab, bevor du auf dieser Grundlage Garn kaufst.
 
+Schon eine grobe Maschenprobe bringt dich näher an die Realität als gar keine Probe. Abends stricken, über Nacht trocknen lassen, am nächsten Morgen messen. Das ist wenig Aufwand im Vergleich zu der Sicherheit, die du beim Garneinkauf bekommst.
+
 ## Teilknäuel wiegen
 
 Hast du angefangene Knäuel im Garnvorrat? Eine Küchenwaage ist dein bester Freund.
@@ -60,7 +62,7 @@ Du brauchst zwei Zahlen von der Banderole: Gesamtgewicht und Gesamtlänge. Wenn 
 
 Eine Küchenwaage mit Grammangabe reicht. Eine Personenwaage nicht. Nicht annähernd. Du brauchst Gramm, keine Rundung auf das nächste halbe Kilo.
 
-Das funktioniert auch mitten im Projekt. Strick einen Abschnitt, wieg das übrige Garn und prüfe, ob es für den Rest noch sinnvoll aussieht. Wenn du beim letzten Knäuel bist und der Ärmel noch nicht fertig ist, zeigt dir die Waage, ob du auf Kurs bist oder Ärger bekommst.
+Das funktioniert auch mitten im Projekt. Strick einen Abschnitt, wieg das übrige Garn und prüfe, ob es für den Rest noch sinnvoll aussieht. Wenn du beim letzten Knäuel bist und der Ärmel noch nicht fertig ist, zeigt dir die Waage, ob du auf Kurs bist oder Ärger bekommst. Manche Strickerinnen wiegen nach jedem großen Abschnitt, wenn der Garnbedarf knapp ist. Andere wiegen erst, wenn das Knäuel verdächtig leicht wird.
 
 Ist die Banderole weg, findest du die Meter pro Knäuel oft auf der Herstellerseite oder bei Ravelry, wenn du den Garnnamen kennst. Ohne Banderoleninformation hilft das Gewicht allein nur begrenzt, weil du Gewicht und Länge brauchst.
 
@@ -70,7 +72,7 @@ Für Garnreste aus früheren Projekten ist diese Methode ebenfalls nützlich. M�
 
 Einige Konstruktionen verbrauchen still mehr Garn als glatt rechts. Genau hier geraten Schätzungen daneben.
 
-**Zöpfe** sind der große Faktor. Jede Zopfkreuzung zieht Garn seitlich durch den Stoff, weil Maschen nicht gerade übereinander stehen, sondern sich kreuzen. Je breiter der Zopf, desto mehr Garn braucht jede Kreuzung. Ein einfacher Zopf über 4 Maschen erhöht den Bedarf moderat. Ein geflochtener Zopf über 12 Maschen deutlich mehr. Ein stark verzopfter Aran-Pullover kann 20-30 % mehr Garn brauchen als ein glatt rechts gestrickter Pullover mit denselben Maßen. Wenn der ganze Körper verzopft ist, schätze nicht nach glatt rechts. Dann wird es knapp.
+**Zöpfe** sind der große Faktor. Jede Zopfkreuzung zieht Garn seitlich durch den Stoff, weil Maschen nicht gerade übereinander stehen, sondern sich kreuzen. Je breiter der Zopf, desto mehr Garn braucht jede Kreuzung. Ein einfacher Zopf über 4 Maschen erhöht den Bedarf moderat. Ein geflochtener Zopf über 12 Maschen deutlich mehr. Ein stark verzopfter Aran-Pullover braucht mehr Reserve als ein glatt rechts gestrickter Pullover mit denselben Maßen. Wenn der ganze Körper verzopft ist, schätze nicht nach glatt rechts. Dann wird es knapp.
 
 Mehrfarbiges Stricken mit Spannfäden führt Garn auf der Rückseite mit, und diese Fäden summieren sich stärker, als das Diagramm auf Papier vermuten lässt. Von der Hauptfarbe brauchst du fast immer mehr, als du denkst. Kontrastfarben verschwinden in solchen Abschnitten schneller, als es auf der Vorderseite aussieht. Auch die Länge der Spannfäden zählt. Spannfäden alle 3-4 Maschen einzufangen braucht etwas mehr Garn als lange Fäden laufen zu lassen, aber das Gestrick verhält sich besser. Intarsien sind anders, weil jede Farbfläche ihr eigenes Garn hat und keine langen Spannfäden mitlaufen. Schätze bei mehrfarbigen Projekten zuerst den Gesamtbedarf und teile ihn danach danach auf, wie viel Fläche jede Farbe wirklich bedeckt.
 
@@ -106,13 +108,13 @@ Hier verdient der [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) seinen
 Grobe Spannen nach Projektart reichen für einen Einkaufsausflug. Für alles, was passen muss, strick zuerst eine Maschenprobe.
 
 **Was, wenn ich dieselbe Farbpartie nicht finde?**
-Wechsle die Knäuel alle zwei Reihen ab. Der Farbunterschied verteilt sich gleichmäßig und wird fast unsichtbar.
+Wechsle die Knäuel alle zwei Reihen ab. Der Farbunterschied verteilt sich gleichmäßiger und wird weniger auffällig.
 
 **Wie schätze ich Streifen?**
 Berechne den Gesamtbedarf und teile ihn proportional danach auf, wie viele Reihen jede Farbe abdeckt. Gib jeder Farbe eine kleine Reserve für Farbwechsel.
 
 **Beeinflusst die Materialzusammensetzung, wie viel Garn ich brauche?**
-Nicht direkt. Aber Fasern wie Superwash-Merino können nach dem Waschen wachsen, dadurch ändert sich deine Maschenprobe und damit die Schätzung.
+Nicht direkt. Aber Fasern wie Superwash-Merino können nach dem Waschen und Spannen wachsen, dadurch ändert sich deine Maschenprobe und damit die Schätzung.
 
 **Bei welchem Projekt ist Garnmangel am schlimmsten?**
 Bei allem mit einer besonderen Farbpartie, die du nicht ersetzen kannst. Besonders handgefärbtes Garn. Kauf das Extraknäuel.

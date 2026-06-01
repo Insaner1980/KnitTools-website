@@ -20,9 +20,9 @@ Strikkeopskrifter har deres eget sprog og deres egne formateringsvaner. En opskr
 
 ## Hovedet: det du skal bruge før du starter
 
-Hver opskrift starter med en informationsblok, der fortæller hvad du skal finde frem, før du slår op.
+De fleste opskrifter starter med en informationsblok, der fortæller hvad du skal finde frem, før du slår op.
 
-Garnlinjen nævner et bestemt garn (eller en generel garntykkelse) og fortæller, hvor meget du skal købe, i løbelængde, antal nøgler eller begge dele. Hvis du skifter garn, skal du matche garntykkelse og samlet løbelængde, ikke mærket. [Guiden til at skifte garn](/da/artikler/skift-garn-i-strikkeopskrift/) gennemgår det i detaljer.
+Garnlinjen nævner et bestemt garn (eller en generel garntykkelse) og fortæller, hvor meget du skal købe, i løbelængde, antal nøgler eller begge dele. Hvis du skifter garn, bruger du garntykkelsen som udgangspunkt og tjekker derefter strikkefasthed, fiberens opførsel og samlet løbelængde. [Guiden til at skifte garn](/da/artikler/skift-garn-i-strikkeopskrift/) gennemgår det i detaljer.
 
 Pinde: den anbefalede størrelse og nogle gange typen (jumperpinde, rundpind, strømpepinde). Sweatre med ribkanter angiver ofte to størrelser her. Mindre til ribben, større til kroppen.
 
@@ -32,6 +32,22 @@ Tilbehør er ekstra udstyr: maskemarkører, snoningspind, stoppenål, knapper, l
 
 Færdige mål giver projektets mål efter størrelse. Sværhedsgrader (begynder, let øvet, øvet) er subjektive og varierer fra designer til designer, men de giver en grov idé om, hvilke teknikker du møder.
 
+## Hvad sværhedsgrad egentlig betyder
+
+Etiketterne er ikke standardiserede, men de fleste opskrifter følger nogenlunde samme logik.
+
+Begynder betyder normalt ret, vrang, enkle udtagninger og indtagninger og en enkel form som et tørklæde, en karklud eller en basis-hue. Let øvet tilføjer typisk rib, enkel montering og opsamling af masker.
+
+Øvet dækker snoninger, enkle hulmønstre, mønsterstrik i flere farver, diagramlæsning og formgivning i tøj. De fleste udgivne sweateropskrifter ligger her, også når de ikke ser dramatiske ud.
+
+Avanceret betyder vendepinde, komplekse snoninger, komplekse hulmønstre, flerfarvet mønsterstrik eller usædvanlig konstruktion, for eksempel estisk hulmønster, drejede masker eller modulstrik. Sværhedsgraden er mest nyttig til at sortere opskrifter fra, der ligger langt over dit niveau. Den skelner ikke altid godt mellem "udfordrende men mulig" og "den vokser du ind i".
+
+## Notes-afsnittet
+
+Det springes ofte over og er ofte vigtigt. Designerens noter kan indeholde kritisk information, der ikke passer andre steder: hvilken strikkefasthed du skal måle (blokket eller ublokket), om første maske på hver pind tages løst af for en pæn kant, hvordan konstruktionen fungerer (oppefra og ned, nedefra og op, bærestykke i ét stykke), hvordan måleskemaets mål er taget, og særheder i selve opskriften.
+
+Læs noterne før du starter. Hvis noterne siger "alle mål efter blokning", og du springer dem over og måler ublokket, passer størrelsen ikke.
+
 ## Størrelser og valg af din
 
 Opskrifter med flere størrelser viser tal sådan her: Slå 72 (80, 88, 96, 104) masker op. Det første tal er den mindste størrelse. Hvert efterfølgende tal i parentes er næste størrelse op.
@@ -40,11 +56,13 @@ Før du starter, skal du finde ud af hvilken størrelse du strikker og markere d
 
 Vælg ud fra færdige mål, ikke størrelsesnavnet. "Medium" betyder forskellige ting hos forskellige designere. Kig på det faktiske brystmål for din størrelse, og sammenlign med din krop plus ønsket bevægelsesrum. [Guiden til størrelser og pasform](/da/artikler/stoerrelser-i-strikkeopskrifter/) går dybere ned i bevægelsesrum og måleskemaer.
 
-## Forkortelser
+## Forkortelser og særlige masker
 
 Opskriftens forkortelsesliste definerer alle forkortelser i instruktionerne. Almindelige forkortelser (r, vr, 2 r sm, ssk, slå om) er næsten universelle, men designere opfinder nogle gange egne forkortelser til opskriftsspecifikke teknikker.
 
 Læs listen før du starter. Ikke for at huske den udenad. Bare for at opdage noget ukendt. Hvis du ser noget du ikke kender, så slå det op eller øv teknikken, før du møder den midt på en pind.
+
+Nogle opskrifter har også et særskilt afsnit med "særlige masker" eller en lille maskeforklaring, hvor teknikkerne ikke kan forklares nok i selve forkortelsen. En opskrift kan bruge en forkortelse for en nop i instruktionerne, mens den faktiske konstruktion over flere pinde står i maskeforklaringen. Behandl den forklaring som en del af opskriften, ikke som et bilag. Ellers rammer du en pind, hvor der står "strik noppe over hele pinden", uden at vide hvordan.
 
 [Listen over strikkeforkortelser](/da/strikkevaerktoejer/strikkeforkortelser/) er en søgbar reference over standardforkortelser.
 
@@ -60,7 +78,7 @@ Maskeinstruktioner læses fra venstre mod højre: "5 r, 3 vr, 2 r sm, slå om, r
 
 Den del der oftest får folk til at stoppe op. Opskrifter bruger flere notationssystemer.
 
-**Gentagelser med stjerne:** "_2 r, 2 vr; gent fra _ pinden ud." Stjernen markerer, hvor gentagelsen starter. Alt mellem stjernen og gentagelsesinstruktionen er én enhed. "Gent fra \*" betyder gå tilbage og gør det igen. "Pinden ud" betyder gentag, til du er løbet tør for masker.
+**Gentagelser med stjerne:** "\*2 r, 2 vr; gent fra \* pinden ud." Stjernen markerer, hvor gentagelsen starter. Alt mellem stjernen og gentagelsesinstruktionen er én enhed. "Gent fra \*" betyder gå tilbage og gøre det igen. "Pinden ud" betyder gentag, til du er løbet tør for masker.
 
 **Gentagelser med klammer:** "[2 r, 2 vr] 5 gange." Klammerne viser sektionen, og tallet siger hvor mange gange. Mere eksplicit end stjerner, men samme funktion.
 
@@ -76,13 +94,41 @@ Du fortsætter maskemønsteret, mens du også placerer indtagninger med bestemte
 
 En af de mere forvirrende instruktioner i strikkeopskrifter, og den har [sin egen artikel](/da/artikler/samtidig-i-strikkeopskrifter/).
 
+## Spejlvendt formgivning
+
+Cardigans og andre projekter med delt forstykke har ofte instruktioner til den ene side og skriver derefter "strik som højre forstykke, men spejlvend formgivningen." Det betyder, at alt sker i den modsatte kant: indtagninger der lå i begyndelsen af en pind, ligger nu i slutningen, halsudtagninger flytter til den anden side, og knaphuller kommer på den modsatte forkant.
+
+Nogle designere skriver begge sider ud. Mange gør ikke, dels for at spare plads og dels fordi opskriftslæseren forventes at kunne se spejllogikken. Hvis det er nyt for dig, så skriv den spejlvendte side ud pind for pind, før du strikker. Langsomt én gang, hurtigt bagefter. Den klassiske fejl er at spejlvende kanten, men glemme at tjekke om første formgivningspind også skifter fra retside til vrangside eller omvendt.
+
 ## Skrevne instruktioner og diagrammer
 
 Nogle opskrifter, især hulmønster og flerfarvestrik, har diagrammer. Et diagram er et gitter, hvor hver celle er en maske, og hver række celler er en pind eller omgang.
 
-Diagrammer læses nedefra og op, samme retning som strikket vokser. Retsidepinde læses fra højre mod venstre. Vrangsider læses fra venstre mod højre. En tegnforklaring definerer symbolerne.
+Diagrammer læses nedefra og op, samme retning som strikket vokser. I flad strik læses retsidepinde fra højre mod venstre og vrangsider fra venstre mod højre. I rundstrik læses diagrammet normalt hver omgang fra højre mod venstre, fordi retsiden hele tiden vender mod dig. En tegnforklaring definerer symbolerne.
 
-Nogle strikkere synes diagrammer er hurtigere, fordi man kan se mønsteret visuelt. Andre foretrækker skrevne instruktioner. Mange opskrifter har begge. Hvis begge findes og ikke er enige (det sker), skriver designeren som regel hvilken version der gælder. Hvis ikke, er diagrammer ofte mere grundigt korrekturlæst.
+Nogle strikkere synes diagrammer er hurtigere, fordi man kan se mønsteret visuelt. Andre foretrækker skrevne instruktioner. Mange opskrifter har begge. Hvis begge findes og ikke er enige, så tjek designerens noter og eventuelle errata, før du antager at den ene version er rigtig.
+
+### Almindelige diagramsymboler
+
+De fleste diagrammer bruger et lignende kernesprog:
+
+- Tom firkant eller `V`: ret på retsiden, vrang på vrangsiden (glatstrik)
+- Prik eller streg: vrang på retsiden, ret på vrangsiden (omvendt glatstrik)
+- `O`: slå om
+- `/`: 2 r sm, højrehældende indtagning
+- `\`: ssk, venstrehældende indtagning
+- Trekant eller lignende symbol: centreret dobbeltindtagning, for eksempel løft 1 maske løst af, 2 r sm, træk den løse maske over
+- Udfyldt firkant: ingen maske, spring feltet over
+
+"Ingen maske" er symbolet, der forvirrer flest. Det er ikke en maske du skal strikke. Det er en pladsholder, der bruges når diagrammets gitter bevarer samme bredde, men maskeantallet ændrer sig fra pind til pind. Det ses ofte i hulmønstre, hvor udtagninger og indtagninger ikke ligger direkte over hinanden. Når du møder et "ingen maske"-felt, gør du ingenting og går videre til næste felt. Symbolet findes, så diagrammet stadig kan vise mønsteret visuelt.
+
+Alle diagrammer bør have en tegnforklaring. Den er vigtigere end at huske én bestemt designers symboler udenad. Forskellige designere kan bruge samme form til forskellige ting.
+
+### Japanske symboldiagrammer
+
+Japanske strikkebøger bruger ofte symboldiagrammer mere end pind-for-pind-tekst. Tegnforklaringen bliver opskriftens hovedsprog, ikke en ekstra reference.
+
+Hvis du bruger en oversat japansk opskrift, skal du regne med at følge diagrammet tæt og have symbolforklaringen ved siden af. Systemet er mere visuelt og mindre ordrigt end mange vestlige opskrifter.
 
 ## Maskeantal og tjekpunkter
 
@@ -100,6 +146,18 @@ Før du starter en kompleks opskrift, så tjek for errata. Søg på opskriftsnav
 
 Hvis du møder en instruktion, der stadig ikke giver mening efter flere gennemlæsninger, kan den faktisk være forkert. Tjek errata, før du antager, at du læser forkert.
 
+## PDF eller papir
+
+De fleste moderne opskrifter kommer som PDF. Hvordan du håndterer filen, påvirker hvor let opskriften er at følge.
+
+Udskrift er den enkleste løsning. Et papirark kan markeres, foldes og bruges uden batteri. Ulempen er papirforbrug ved en engangsopskrift og besværet med mange sider i en sweateropskrift.
+
+Tablet fungerer godt for mange strikkere. En stor tablet i holder er en almindelig løsning. PDF-apps lader dig markere din størrelse, følge fremdrift og skrive noter uden at printe. Tjek skærmens timeout, før du starter en tæt pind.
+
+Telefonen er besværlig til hele opskrifter, men fin til korte opslag. Lille tekst og konstant scrolling gør tætte instruktioner sværere at følge.
+
+Et lille resumé hjælper uanset format. Tag et telefonfoto af de vigtigste maskeantal og størrelseskolonnen, eller skriv dem på et kort og læg det i projektposen. Så skal du ikke finde den rigtige side midt på pinden.
+
 ## FAQ
 
 **Skal jeg læse hele opskriften før start?**
@@ -116,3 +174,9 @@ Den sidste pind du strikker, før du går videre, skal være en vrangsidepind. S
 
 **Findes der et standardformat for alle opskrifter?**
 Nej, ikke et universelt. Men udgivne opskrifter følger lignende konventioner. Selvstændige designere på Ravelry eller Etsy kan formatere anderledes. De centrale dele, materialer, strikkefasthed og instruktioner, er der altid. Layout og notation varierer.
+
+**Hvad hvis forkortelseslisten mangler eller er ufuldstændig?**
+De fleste standardforkortelser er almindelige på tværs af opskrifter, for eksempel r, vr, 2 r sm, ssk, slå om og tag 1 maske løst af. Hvis opskriften bruger en ukendt forkortelse uden forklaring, så søg efter forkortelsen sammen med "strik" eller "knitting". Craft Yarn Council har en standardliste på engelsk, som dækker mange internationale forkortelser.
+
+**Kan jeg stole lige så meget på gratis opskrifter som på betalte?**
+Gratis opskrifter varierer mere i kvalitet. Nogle gratis opskrifter fra etablerede designere og udgivere er grundigt redigeret. Tilfældige gratis opskrifter fra ukendte kilder kan have fejl, som en teknisk redigeret opskrift ville fange. Læs projektnoter, før du starter en opskrift med meget formgivning eller mange gentagelser.

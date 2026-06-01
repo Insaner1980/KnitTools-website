@@ -1,13 +1,15 @@
 ---
 import PageLayout from "./PageLayout.astro";
 import ClosingCTA from "../components/ClosingCTA.astro";
+import { SITE_URL, FINNVEK_URL, SOCIAL_PROFILE_URLS } from "../config/brand";
 import { getCategoryLabel, type CategorySlug } from "../lib/categories";
 import { getArticlesIndexPath } from "../i18n/articles";
 import { useTranslations } from "../i18n/ui";
-import type { Lang } from "../i18n/config";
+import { getHtmlLang, type Lang } from "../i18n/config";
 
 interface Props {
   title: string;
+  browserTitle?: string;
   description: string;
   category: CategorySlug;
   publishDate: Date;
@@ -20,16 +22,51 @@ interface Props {
 
 const {
   title,
+  browserTitle,
   description,
   category,
   publishDate,
   updatedDate,
+  tags,
   lang = "en",
   canonicalPath,
   alternates,
 } = Astro.props;
 const t = useTranslations(lang);
 const categoryLabel = getCategoryLabel(category, lang);
+const articleCanonicalPath = canonicalPath ?? `/articles/${Astro.params.slug}/`;
+const canonicalUrl = `${SITE_URL}${articleCanonicalPath}`;
+const modifiedDate = updatedDate ?? publishDate;
+const articleAuthorUrl = `${SITE_URL}/about/`;
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": `${canonicalUrl}#article`,
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": canonicalUrl,
+  },
+  headline: title,
+  description,
+  image: `${SITE_URL}/images/og-image.png`,
+  datePublished: publishDate.toISOString(),
+  dateModified: modifiedDate.toISOString(),
+  author: {
+    "@type": "Organization",
+    name: "KnitTools",
+    url: articleAuthorUrl,
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Finnvek",
+    url: FINNVEK_URL,
+    sameAs: SOCIAL_PROFILE_URLS,
+  },
+  articleSection: categoryLabel,
+  keywords: tags,
+  inLanguage: getHtmlLang(lang),
+  url: canonicalUrl,
+};
 const dateLocale =
   lang === "fi"
     ? "fi-FI"
@@ -62,12 +99,25 @@ const articlesPath = getArticlesIndexPath(lang);
 
 <PageLayout
   title={title}
+  browserTitle={browserTitle}
   description={description}
-  canonicalPath={canonicalPath ?? `/articles/${Astro.params.slug}/`}
+  canonicalPath={articleCanonicalPath}
   bodyClass="article"
   lang={lang}
   alternates={alternates}
+  ogType="article"
+  articlePublishedTime={publishDate}
+  articleModifiedTime={modifiedDate}
+  articleAuthorUrl={articleAuthorUrl}
+  articleSection={categoryLabel}
+  articleTags={tags}
 >
+  <script
+    is:inline
+    type="application/ld+json"
+    set:html={JSON.stringify(articleSchema)}
+  />
+
   <article class="article">
     <header class="article-header">
       <div class="article-header-inner">

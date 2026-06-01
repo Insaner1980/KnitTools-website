@@ -16,7 +16,7 @@ lang: nl
 translationKey: "how-to-substitute-yarn"
 ---
 
-Het patroongaren is uit de collectie. Of het kost €30 per bol en je budget zegt nee. Of het is 100% wol en de ontvanger gooit het afgewerkte stuk op dag een in de wasmachine.
+Het patroongaren is uit de collectie. Of het is veel te duur voor je budget. Of het is 100% wol en de ontvanger gooit het afgewerkte stuk op dag een in de wasmachine.
 
 Garen vervangen is normaal. De meeste breiers doen het vaker wel dan niet. Een geslaagde vervanging betekent dat vier dingen tussen het originele garen en het alternatief overeenkomen: garendikte, stekenverhouding, vezelgedrag en totale meters. Mis je er een, dan schuift het project. Mis je er twee, dan is het eigenlijk een ander project geworden.
 
@@ -60,13 +60,13 @@ Vermenigvuldig het aantal bollen uit het patroon met de meters per bol. Dat is h
 
 Als de vezelsamenstelling ook verandert, tellen meters nog meer. Hetzelfde gewicht per bol kan heel verschillende lengtes garen verbergen.
 
-De [Garenberekenaar](/nl/breitools/garenberekenaar/) doet dit nauwkeuriger dan bollenrekenen alleen, zeker als je stekenverhouding verandert met het vervangende garen.
+De [Garenberekenaar](/nl/breitools/garenberekenaar/) geeft een snelle planningscheck op basis van projecttype, maat en garendikte. Gebruik hem niet als vervanging voor de meters in het patroon, de looplengte per bol of een nieuw proeflapje wanneer je stekenverhouding verandert.
 
 ## Wanneer vervangen riskant is
 
 Niet elk project verdraagt een garenwissel even goed. Het is de moeite waard daar eerlijk over te zijn voordat je 8 bollen alternatief garen koopt.
 
-**Laag risico:** sjaals, omslagdoeken, dekens, vaatdoekjes. Een halve steek per 2,5 cm verschil verandert de uiteindelijke maat een beetje. Niemand merkt het. Dit zijn projecten waarbij vervangen bijna altijd werkt. Doen.
+**Laag risico:** sjaals, omslagdoeken, dekens, vaatdoekjes. Ongeveer twee steken verschil per 10 cm verandert de uiteindelijke maat een beetje. Niemand merkt het. Dit zijn projecten waarbij vervangen bijna altijd werkt. Doen.
 
 **Gemiddeld risico:** mutsen, cols, tassen. Pasvorm telt meer, structuur telt meer, maar er is nog ruimte voor kleine verschillen. Een muts die iets groter uitvalt kan kleiner geblockt worden of naar iemand met een groter hoofd.
 

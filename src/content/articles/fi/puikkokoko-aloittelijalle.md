@@ -29,6 +29,14 @@ Suuremmat puikot, kuten US 11 ja sitä isommat, tuottavat nopeaa jälkeä, ja os
 
 5,0 mm osuu keskelle. Silmukat näkyvät. Lanka on hallittavaa. Puikot eivät ole hankalat. Työ etenee palkitsevasti ilman, että opettelun yksityiskohdat katoavat.
 
+## Puikkokokojen merkintäjärjestelmistä
+
+Suomessa ja suurimmassa osassa Eurooppaa puikkokoko ilmoitetaan millimetreinä. 5,0 mm tarkoittaa puikon halkaisijaa. Se on selkein järjestelmä, koska luku kertoo suoraan fyysisen koon.
+
+Englanninkielisissä ohjeissa näet usein US-kokoja, kuten US 8, ja vanhemmissa brittiläisissä ohjeissa UK-kokoja. Ne eivät ole sama asteikko. US-luvut kasvavat puikon paksuuntuessa, vanhat UK-luvut taas pienenevät puikon paksuuntuessa. Japanilaisissa ohjeissa on vielä oma numerointinsa. Tässä suositeltu US 8 on 5,0 mm; vanhassa UK-järjestelmässä vastaava koko olisi 6.
+
+Jos ohjeessa on sekä millimetrit että numero, luota millimetreihin. Jos mukana on vain numero, tarkista se puikkokokotaulukosta ennen kuin ostat. Pieni merkintäero voi muuttaa neuletiheyttä yllättävän paljon.
+
 ## Puikkotyyppi aloittelijalle
 
 Suorat puikot ovat intuitiivisin aloitus. Kaksi tikkua, yksi kummassakin kädessä. Ajatus on heti selvä, eikä tarvitse miettiä kaapelin pituuksia tai suljettua neuletta.
@@ -53,6 +61,14 @@ Siinä kaikki. Silmukkamerkit, kerroslaskurit, palmikkopuikot ja puikkomitat voi
 
 Jos haluat varautua vähän pidemmälle, osta 4,5 mm ja 5,5 mm koko 5,0 mm lisäksi. Kolme kokoa kattaa useimmat worsted-ohjeet, ja yhden koon ylös ja alas antavat vaihtoehtoja, jos neuletiheys ei täsmää.
 
+## Mitä ei vielä kannata ostaa
+
+Älä osta heti kokonaista vaihdettavien pyöröpuikkojen settiä vain siksi, että kokeneet neulojat kehuvat niitä. Hyvä setti on hyödyllinen myöhemmin, mutta ensimmäisessä projektissa se on kallis tapa selvittää, pidätkö neulomisesta.
+
+Älä myöskään osta kaikkia mahdollisia puikkokokoja valmiiksi. Neulominen ei etene niin, että ensin kerätään täydellinen välinekaappi ja sitten aloitetaan. Parempi ostaa yksi toimiva koko, tehdä sillä jotain oikeaa ja täydentää seuraavan ohjeen mukaan.
+
+Hyvin paksut aloittelijapaketit näyttävät nopeilta, mutta ne voivat opettaa kömpelön otteen. Erittäin lyhyet erikoispyöröt, sukkapuikkosetit ja palmikkopuikot saavat odottaa, kunnes projekti oikeasti tarvitsee niitä.
+
 ## Milloin kannattaa laajentaa
 
 Ensimmäinen projekti opettaa oikean silmukan ja ehkä nurjan. Toinen voi tuoda joustimen tai muun mallineuleen. Kolmannessa tai neljännessä seuraat jo ohjeita, jotka pyytävät tiettyjä puikkokokoja, ja kokoelma kasvaa luonnostaan.
@@ -62,6 +78,14 @@ Useimmille puikkoja kertyy orgaanisesti. Jokainen uusi ohje tarvitsee koon, jota
 Vaihdettava pyöröpuikkosetti voi olla järkevä, kun tiedät neulomisen jäävän. Yksi setti kattaa monta puikkokokoa ja kaapelin pituutta, jolloin yksittäisiä puikkoja ei tarvitse ostaa yhtä paljon. Alkuhinta on kuitenkin suurempi, eikä siihen ole syytä sijoittaa ennen kuin olet varma.
 
 [Puikkokokotaulukko](/fi/tyokalut/puikkokoot/) näyttää koot millimetreinä ja US-merkintöinä sekä sen, mihin lankavahvuuksiin ne yleensä sopivat. Siitä on hyötyä, kun ohje pyytää kokoa, jota et tunne.
+
+## Kireyden rakentaminen
+
+Aloittelijan silmukat ovat usein epätasaisia. Se on normaalia. Älä yritä korjata kaikkea puristamalla lankaa tiukemmin. Liian tiukka neulominen tekee silmukoista vaikeita neuloa ja kädet väsyvät nopeasti.
+
+Hyvä kireys syntyy toistosta: lanka kulkee kädessä samalla tavalla, silmukat nostetaan puikolle samalla liikkeellä ja työ lepää käsissä rennosti. Siksi keskikokoinen puikko ja vaalea, sileä lanka auttavat. Ne antavat tilaa nähdä, mitä teet.
+
+Jos ensimmäinen huivi näyttää epätasaiselta, jatka silti. Neulepinta tasoittuu usein jo saman työn aikana, ja viimeistely pehmentää pieniä eroja. Tasainen käsiala tulee enemmän kilometreistä kuin oikeasta välineestä.
 
 ## FAQ
 
@@ -75,4 +99,10 @@ Kyllä. Moni oppii pyöröpuikoilla eikä koskaan omista suoria puikkoja. Käyt�
 Kyllä. Ne ovat eri välineitä. Virkkuukoukussa on koukku ja sitä käytetään yksin. Neulepuikoissa on kärjet ja niitä käytetään pareina tai setteihin jaettuna. Niitä ei voi korvata toisillaan.
 
 **Mitä jos ohje pyytää kokoa, jota minulla ei ole?**
-Osta ohjeen koko ja tee mallitilkku. Jos olet lähellä, esimerkiksi alle kahden silmukan päässä 10 cm matkalla, lähin omistamasi koko voi riittää. Istuvissa töissä oikealla koolla ja neuletiheydellä on enemmän väliä.
+Osta ohjeen koko ja tee mallitilkku neuletiheyden tarkistamista varten. Huivissa tai tiskirätissä lähin koko voi riittää, jos neulepinta tuntuu hyvältä. Istuvissa töissä neuletiheyden täsmääminen on tärkeämpää kuin yhden puikkoparin säästäminen.
+
+**Entä 4,0 mm tai 6,0 mm? Ovatko ne huonoja aloituskokoja?**
+Eivät. 4,0 mm DK-vahvuisella langalla toimii hyvin ja tekee napakamman, kestävämmän pinnan. 6,0 mm paksummalla langalla sopii, jos sinulla on sellainen lanka valmiina. 4,5-5,5 mm ja worsted-vahvuinen lanka ovat hyödyllisin oletussuositus, eivät lukittu sääntö.
+
+**Pitääkö ensimmäisten puikkojen olla samaa merkkiä kuin tulevan settini?**
+Ei oikeastaan. Aloitukseen ostettavat bambu- tai puusuorat eivät kuitenkaan liity vaihdettavaan pyöröpuikkosettiin. Osta edulliset, siistit ja helposti saatavat puikot. Merkkimieltymys voi muodostua myöhemmin.

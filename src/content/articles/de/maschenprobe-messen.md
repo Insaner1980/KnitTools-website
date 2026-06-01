@@ -18,7 +18,7 @@ translationKey: "how-to-measure-knitting-gauge"
 
 Die Maschenprobe ist der Teil, den viele genau dann überspringen, bevor ein Projekt in der falschen Größe endet. Die Mütze wird schlabbrig. Der Pullover wächst zum Zelt. Der Ärmel wird fünf Zentimeter länger als die Skizze versprochen hat. Fast jede dieser Geschichten beginnt gleich: "Die Maschenprobe schien optional."
 
-Ist sie nicht. Nicht wirklich. Um die Maschenprobe zu messen, strickst du ein Probestück von mindestens etwa 15 cm Breite im angegebenen Muster, wäschst und spannst es und zählst dann Maschen und Reihen über 10 cm in der Mitte. Dieser kleine Umweg spart viel mehr Zeit, als später ein halbes Kleidungsstück aufzuribbeln. Die Mathematik ist nicht der schwierige Teil. Schwierig ist, sich vor dem eigentlichen Anschlag dazu zu bringen.
+Ist sie nicht. Nicht wirklich. Um die Maschenprobe zu messen, strickst du ein Probestück von mindestens etwa 15 cm im Quadrat im angegebenen Muster, wäschst und spannst es und zählst dann Maschen und Reihen über 10 cm in der Mitte. Dieser kleine Umweg spart viel mehr Zeit, als später ein halbes Kleidungsstück aufzuribbeln. Die Mathematik ist nicht der schwierige Teil. Schwierig ist, sich vor dem eigentlichen Anschlag dazu zu bringen.
 
 ## Was Maschenprobe bedeutet
 
@@ -32,7 +32,7 @@ Die Maschenprobe ist ein kleines Teststück aus deinem Garn, deinen Nadeln und g
 
 Schlage genug Maschen an, damit die Probe mindestens etwa 15 cm breit wird. Etwas größer ist besser, wenn das Garn lebhaft ist oder das Projekt genau sitzen muss. Eine Maschenprobe, die über 10 cm angegeben ist, solltest du nie von Rand zu Rand messen. Anschlagkante, Abkettkante und Randmaschen verhalten sich anders als die Stoffmitte. Du brauchst zusätzlichen Stoff um die Messfläche herum, damit du den echten Stoff misst und nicht die verzogenen Ränder.
 
-Wenn die Anleitung "glatt rechts" sagt, stricke glatt rechts. Wenn sie "im Muster" sagt, verwende das tatsächliche Muster des Projekts. Das ist wichtiger, als viele erwarten. Zöpfe ziehen sich zusammen. Lochmuster öffnen sich. Rippenmuster komprimiert. Keiner dieser Stoffe verhält sich wie schlichtes glatt rechts.
+Wenn die Anleitung "glatt rechts" sagt, stricke glatt rechts. Wenn sie "im Muster" sagt, verwende das tatsächliche Muster des Projekts. Das ist wichtiger, als viele erwarten. Zöpfe ziehen sich zusammen. Lochmuster öffnen sich. Rippenmuster komprimiert. Keiner dieser Stoffe verhält sich wie schlichtes glatt rechts. Ein stark verzopfter Stoff kann bei derselben Maschenzahl über eine Pulloverbreite deutlich schmaler werden als glatt rechts.
 
 Stricke, bis die Probe mindestens etwa 15 cm hoch ist. Dann kette ab.
 
@@ -48,7 +48,7 @@ Wenn du diesen Schritt überspringst, misst du den falschen Stoff. Die Probe pas
 
 Behandle die Maschenprobe so, wie du das fertige Projekt behandeln wirst. Wenn der Pullover per Hand gewaschen und liegend getrocknet wird, mach das mit der Probe. Wenn das Garn maschinenwaschbar ist und du das fertige Teil so pflegen wirst, wasche auch die Probe so. Ziel ist, das echte Leben des Kleidungsstücks nachzuahmen.
 
-Lass die Probe vollständig trocknen. Nicht fast trocken. Vollständig. Der Stoff entspannt sich nach dem Nassspannen, und eine Messung im feuchten Zustand hält später nicht unbedingt.
+Lass die Probe vollständig trocknen. Nicht fast trocken. Vollständig. Der Stoff entspannt sich nach dem Nassspannen, und eine Messung im feuchten Zustand hält später nicht unbedingt. Manchmal ist der Unterschied zwischen "frisch von den Nadeln" und "gewaschen und trocken" klein. Manchmal ist genau dieser Unterschied der Grund, warum die Maschenprobe nötig war.
 
 ## Wie du die Maschenprobe misst
 
@@ -72,7 +72,7 @@ Beim ersten Versuch passt sie oft nicht. Das ist normal. Strickspannung ist pers
 
 Manchmal reicht eine Größe. Manchmal braucht es zwei Sprünge. Gelegentlich lassen sich Maschenprobe und Reihenprobe nicht gleichzeitig treffen. Dann bekommt die Maschenprobe in der Breite meist Vorrang, weil sie die Stoffbreite steuert. Die Reihenprobe zählt trotzdem, besonders bei Armkugeln, Passen und vertikal platzierten Mustern.
 
-Wenn du verstehen willst, [warum Maschenproben variieren](/de/artikel/was-sagt-die-maschenprobe-beim-stricken-aus/) und warum sie im Projekt wandern, ist das ein eigenes Thema. Mehrere Proben sind kein Scheitern. Erfahrene Strickende rechnen damit.
+Wenn du verstehen willst, [warum Maschenproben variieren](/de/artikel/was-sagt-die-maschenprobe-beim-stricken-aus/) und warum sie im Projekt wandern, ist das ein eigenes Thema. Mehrere Proben sind kein Scheitern. Erfahrene Strickende rechnen damit. Manche stricken grundsätzlich fester, andere lockerer. Diese Tendenz zu kennen hilft, ersetzt aber die Probe nicht, weil Faser, Nadelmaterial und Muster den Stoff jedes Mal neu beeinflussen.
 
 ## Maschenprobe im Muster oder glatt rechts?
 
@@ -88,11 +88,11 @@ Manche Anleitungen geben sowohl eine Maschenprobe glatt rechts als auch eine Mas
 
 Flach gestrickt und in Runden gestrickt kann mit demselben Garn und derselben Nadelstärke unterschiedliche Maschenproben ergeben. Viele stricken linke Maschen mit anderer Spannung als rechte, daher sind glatt rechts in Reihen und glatt rechts in Runden nicht immer austauschbar.
 
-Wenn das Projekt in Runden gearbeitet wird, stricke die Probe in Runden. Ein kleiner Schlauch auf dem Nadelspiel oder eine lange Rundstricknadel funktioniert. Ziel ist, jede Runde rechts zu stricken, statt rechte und linke Reihen abzuwechseln.
+Wenn das Projekt in Runden gearbeitet wird, stricke die Probe in Runden. Ein kleiner Schlauch auf dem Nadelspiel oder eine lange Rundstricknadel funktioniert. Ziel ist, jede Runde rechts zu stricken, statt rechte und linke Reihen abzuwechseln. Bei sehr kleinen Projekten kannst du die Maschenprobe auch direkt im Projekt kontrollieren, aber bei Pullovern und passgenauen Teilen ist eine eigene Probe sicherer.
 
 ## Wie Maschenprobe die Projektplanung steuert
 
-Sobald die Maschenprobe bekannt ist, wird der Rest der Planung leichter. Der KnitTools [Maschenanschlag-Rechner](/de/werkzeuge/maschenanschlag-rechner/) nutzt sie, um Maschenzahlen für eine Zielbreite zu berechnen. Der [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) nutzt sie zusammen mit Maßen, um den Garnbedarf realistischer zu schätzen. Wenn du eine reine [Schritt-für-Schritt-Anleitung zur Maschenprobe](/de/artikel/maschenprobe-stricken-schritt-fuer-schritt/) ohne Theorie möchtest, gibt es dafür eine eigene Seite.
+Sobald die Maschenprobe bekannt ist, wird der Rest der Planung leichter. Der KnitTools [Maschenanschlag-Rechner](/de/werkzeuge/maschenanschlag-rechner/) nutzt sie, um Maschenzahlen für eine Zielbreite zu berechnen. Der [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) nutzt Projekttyp, Größe und Garnstärke für eine Garnbedarfsschätzung, also behandle ihn als Planungskontrolle neben Maschenprobe und Anleitungsdetails. Wenn du eine reine [Schritt-für-Schritt-Anleitung zur Maschenprobe](/de/artikel/maschenprobe-stricken-schritt-fuer-schritt/) ohne Theorie möchtest, gibt es dafür eine eigene Seite.
 
 Diese Kette ist wichtig. Die Maschenprobe steuert die Maschenzahl. Die Maschenzahl steuert die Maße. Die Maße steuern den Garnbedarf. Wenn die erste Zahl falsch ist, wandert alles danach mit.
 

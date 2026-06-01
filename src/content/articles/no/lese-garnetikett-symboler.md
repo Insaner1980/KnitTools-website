@@ -22,29 +22,29 @@ En garnetikett forteller fiberinnhold, garntykkelse, anbefalt strikkefasthet, pi
 
 ## Symbol for garntykkelse
 
-Det nøsteformede ikonet med et tall inni er Craft Yarn Council sin garntykkelseskategori. Den går fra 0 (Lace) til 7 (Jumbo), og er den raskeste måten å sjekke om et garn matcher oppskriftens krav.
+Det nøsteformede ikonet med et tall inni er Craft Yarn Council sin garntykkelseskategori. Mange etiketter bruker fortsatt den kjente nummererte skalaen fra Lace til Jumbo, og CYC har begynt å oppdatere systemet med Size 8 og flere symboler. Bruk tallet som en rask ledetråd, men sjekk også navnet på garntykkelsen og strikkefasthetsboksen før du matcher garnet mot en oppskrift.
 
-Teksten ved siden av sier ofte DK, Worsted eller Bulky. Ikke alle merker trykker CYC-ikonet, men de fleste har en eller annen variant av tykkelsesnavnet. Hvis etiketten bare gir et merkenavn som "Studio" eller "Soft Touch", sjekk strikkefasthetsboksen for spor.
+Teksten ved siden av sier ofte DK, Worsted eller Bulky. Ikke alle merker trykker CYC-ikonet, men de fleste har en eller annen variant av tykkelsesnavnet. Hvis etiketten bare gir et merkenavn som "Studio" eller "Soft Touch", sjekk strikkefasthetsboksen for ledetråder.
 
 [Garntykkelsestabellen](/no/verktoy/garntykkelser/) viser alle kategoriene med strikkefasthetsområder og vanlige pinnestørrelser.
 
 ## Fiberinnhold
 
-Står som prosent. `100% Merino Wool`. `75% Acrylic, 25% Wool`. `60% Cotton, 40% Modal`. Dette er "laget av"-delen, og den påvirker alt ved hvordan ferdig stoff føles, faller, strekker seg og slites over tid.
+Står som prosent. `100 % merinoull`. `75 % akryl, 25 % ull`. `60 % bomull, 40 % modal`. Dette er "laget av"-delen, og den påvirker alt ved hvordan det ferdige stoffet føles, faller, strekker seg og slites over tid.
 
 Følg med her når du [bytter garn](/no/artikler/bytte-garn-i-strikkeoppskrift/). En ull-DK og en bomull-DK er begge DK. De kan strikkes til omtrent samme strikkefasthet. Men stoffet oppfører seg ikke likt i det hele tatt. [Fiberoversikten](/no/artikler/garnfibre-sammenlignet/) dekker forskjellene.
 
-Etiketter sier noen ganger om garnet er superwash, mercerisert eller børstet. Det er ikke pynt. Superwash ull tåler maskinvask. Ikke-superwash ull gjør ikke det. En detalj du vil fange før du legger opp 300 masker til et babyteppe.
+Etiketter sier noen ganger om garnet er superwash, mercerisert eller børstet. Det er ikke pynt. Superwash-ull er behandlet for å motstå toving og kan være merket som maskinvaskbart. Ubehandlet ull trenger mer skånsom behandling, fordi varme, fukt og bevegelse kan tove den. Det er en detalj du vil fange før du legger opp 300 masker til et babyteppe.
 
 ## Strikkefasthetsinformasjon
 
-Strikkefasthetsboksen viser maske- og pinneantall over en standard prøvelapp, vanligvis 10 cm eller 4 inches, pluss foreslått pinne- eller heklenålstørrelse.
+Strikkefasthetsboksen viser maske- og pinneantall over en standard prøvelapp, vanligvis 10 cm eller 4 tommer, pluss foreslått pinne- eller heklenålstørrelse.
 
 Dette er et startpunkt. Produsenten strikket en prøvelapp med sin spenning og noterte resultatet. Dine hender, dine pinner og din foretrukne stofftetthet kan gi noe annet. Strikk prøvelapp likevel.
 
-## Nøsteinformasjon
+## Vekt og løpelengde
 
-Nøstevekt i gram og garnlengde i meter, yards eller begge. To tall, men lengden er det som betyr noe for prosjektplanlegging. To 100 g nøster kan inneholde veldig ulik mengde garn, avhengig av fibertetthet. Derfor jobber [garnberegningsguiden](/no/artikler/hvor-mye-garn-trenger-jeg/) med løpelengde, ikke antall nøster.
+Nøstevekt i gram og garnlengde i meter, noen ganger også i engelske eller amerikanske enheter. To tall, men lengden er det som betyr noe for prosjektplanlegging. To 100 g nøster kan inneholde veldig ulik mengde garn, avhengig av fibertetthet. Derfor jobber [garnberegningsguiden](/no/artikler/hvor-mye-garn-trenger-jeg/) med løpelengde, ikke antall nøster.
 
 ## Vaskesymboler
 
@@ -62,7 +62,7 @@ De fleste strikkere bruker sjelden blekemiddel. Men lager du noe hvitt eller vel
 
 Her går mange strikkere i fella: bare fordi garnet overlever tørketrommel, betyr ikke det at det ferdige strikkestoffet bør inn der. En lue strikket løst i superwash ull kan strekke seg i trommelen selv om etiketten teknisk tillater det.
 
-**Strykesymbolet** ser ut som et strykejern. Prikker inni viser temperatur, én prikk er lav, tre er høy. En X betyr ikke stryk. For strikk betyr stryking mest når du presser sømmer eller dampblokker. Noen syntetiske fibre reagerer dårlig på varme og kan smelte eller bli blanke under varmt jern.
+**Strykesymbolet** ser ut som et strykejern. Prikker inni viser temperatur, én prikk er lav, tre er høy. En X betyr ikke stryk. For strikk betyr stryking mest når du presser sømmer eller dampblokker. Noen syntetiske fibre reagerer dårlig på varme og kan smelte eller bli blanke under varmt strykejern.
 
 **Profesjonell rens** vises som en sirkel. P og F inni sier hvilke rensemidler som kan brukes. W betyr profesjonell våtrens, en vannbasert prosess, ikke løsemiddel. De fleste strikkere hopper over dette, men det dukker opp på etiketter for silkeblandinger, kasjmir og andre fibre som kan ha nytte av profesjonell pleie.
 
@@ -78,7 +78,7 @@ Her blir folk tatt. To ulike tall, to ulike formål, og å blande dem kan gi en 
 
 Kjøp alt prosjektgarn fra samme fargeparti. Hvert nøste. Hvis du ikke kan det, veksle nøster annenhver pinne for å blande overgangen slik at fargeskiftet ikke blir en hard linje.
 
-Noen garn er merket `no dye lot`, som betyr at produsenten forventer jevn farge på tvers av partier. Håndfarget garn varierer derimot nesten alltid fra nøste til nøste. Det er en del av sjarmen, men betyr også at nøsteveksling er vanlig praksis.
+Noen garn er merket `no dye lot`, som betyr at produsenten forventer jevn farge på tvers av partier. Håndfarget garn varierer derimot ofte fra nøste til nøste. Det er en del av sjarmen, men betyr også at nøsteveksling er en nyttig sikring.
 
 ## Opprinnelsesland og merkeinformasjon
 
@@ -94,18 +94,18 @@ Ingenting om slitestyrke heller. Hvor mye garnet nupper, om det mykner eller har
 
 Og strikkefasthetsboksen er produsentens resultat, ikke ditt. Bruk den som referanse, ikke garanti.
 
-KnitTools' [Yarn Label Scanner](/) leser en etikett med telefonkameraet og lagrer alt som et digitalt garnkort. Praktisk når papirbanderolen er på vei ned i prosjektposen og aldri kommer tilbake.
+Skriv de viktigste etikettopplysningene i prosjektnotatene med en gang: garntykkelse, løpelengde, fiber, fargenummer og fargeparti. Det er mye enklere før papirbanderolen forsvinner ned i prosjektposen og aldri kommer tilbake.
 
 ## FAQ
 
 **Hva hvis etiketten er på et språk jeg ikke kan lese?**
-Vaskesymbolene og tykkelsesikonet er internasjonalt standardisert. De ser like ut uansett språk.
+Vaskesymbolene reduserer språkavhengigheten, og garntykkelsesikoner følger ofte CYC-konvensjoner. Sjekk likevel strikkefasthetsboksen og fiberprosentene hvis teksten er ukjent.
 
-**Etiketten oppgir strikkefasthet over 10 cm, men oppskriften bruker 4 inches. Er det samme?**
-Nær nok. 10 cm er 3,937 inches. De fleste strikkere behandler dem som utskiftbare.
+**Etiketten oppgir strikkefasthet over 10 cm, men oppskriften bruker 4 tommer. Er det samme?**
+Nesten, men ikke helt. 10 cm er omtrent 3,94 tommer. Hvis oppskriften oppgir strikkefasthet over 10 cm, mål 10 cm. Hvis den oppgir strikkefasthet over 4 tommer, mål 4 tommer.
 
 **Bør jeg ta vare på garnetiketten?**
 Ja. I hvert fall til prosjektet er ferdig og vasket.
 
-**Hva betyr "machine washable" for strikkede ting?**
+**Hva betyr "maskinvaskbar" for strikkede ting?**
 Garnet tåler maskinvask under forholdene på etiketten. Det betyr ikke at det strikkede stoffet er uforgjengelig, særlig ved løsere strikkefasthet eller i plagg som kan strekke seg.

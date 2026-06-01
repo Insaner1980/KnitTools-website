@@ -375,30 +375,26 @@ const filterOrder: Array<Category | "all"> = [
 
 const faqs = [
   {
-    q: "Sind Strickabkürzungen in deutschen und englischen Anleitungen gleich?",
-    a: "Nein, nicht immer. Deutsche Anleitungen verwenden oft eigene Kürzel wie re M, li M, M und R. Englische Anleitungen nutzen k, p, yo, ssk und ähnliche Abkürzungen. Prüfe deshalb immer die Abkürzungsliste der jeweiligen Anleitung.",
+    q: "Sind Strickabkürzungen in US- und UK-Anleitungen gleich?",
+    a: 'Die meisten sind identisch. k, p, yo und k2tog bedeuten auf beiden Seiten des Atlantiks dasselbe. Unterschiede gibt es bei einzelnen Begriffen: US "bind off" ist UK "cast off", US "gauge" ist UK "tension" und US "stockinette" ist UK "stocking stitch". Außerdem können "seed stitch" und "moss stitch" je nach Quelle vertauscht werden. Vertraue deshalb der Maschendefinition mehr als dem Namen.',
   },
   {
     q: "Was bedeutet ein Stern in einer Strickanleitung?",
-    a: "Ein Stern markiert meistens einen Rapport. Alles ab dem Stern bis zur Wiederholungsanweisung wird erneut gearbeitet. Klammern und eckige Klammern gruppieren ebenfalls Schritte, die mehrfach gestrickt werden.",
+    a: 'Er markiert eine Wiederholung. Alles zwischen dem Stern und der passenden Wiederholungsanweisung, zum Beispiel "rep from *", wird erneut gearbeitet. Klammern und eckige Klammern machen dasselbe: Sie gruppieren Schritte, die eine bestimmte Anzahl wiederholt werden. Ein übersehener Rapportmarker ist einer der schnellsten Wege zur falschen Maschenzahl.',
   },
   {
     q: "Was mache ich bei einer unbekannten Abkürzung?",
-    a: "Suche zuerst in der Anleitung selbst. Designerinnen und Designer definieren eigene Kürzel besonders oft bei Zöpfen, Lochmustern und besonderen Maschen.",
+    a: "Sehr wahrscheinlich ist es eine anleitungsspezifische Kurzform. Suche zuerst am Anfang der Anleitung nach Abkürzungen oder Technikdefinitionen. Zopf- und Lochmuster verwenden besonders oft eigene Kürzel, weil kompakte Notation für dieses eine Design nötig ist. Wenn du dort nichts findest, prüfe Notizen und Strickschriftlegende.",
   },
   {
     q: "Was ist der Unterschied zwischen ssk und skp?",
-    a: "Beides sind links geneigte Abnahmen, und sie sehen im fertigen Gestrick ähnlich aus. ssk ist in modernen englischen Anleitungen häufiger, skp kommt öfter in älteren Anleitungen vor. Arbeite die Abnahme, die die Anleitung nennt.",
-  },
-  {
-    q: "Muss ich alle Abkürzungen auswendig lernen?",
-    a: "Nein. Die häufigsten Kürzel bleiben schnell hängen. Für seltene Abnahmen, Zöpfe und Lochmuster ist ein gutes Glossar zuverlässiger als Raten.",
+    a: "Beides sind links geneigte Abnahmen, und sie sehen im fertigen Gestrick fast gleich aus. ssk ist der moderne Standard und erscheint in vielen aktuellen englischen Anleitungen. skp taucht häufiger in älteren Anleitungen auf. Die Ausführung unterscheidet sich leicht, deshalb solltest du die Abnahme arbeiten, die die Anleitung nennt.",
   },
 ];
 ---
 
 <LocalizedToolPage
-  title="Strickabkürzungen"
+  title="Strickabkürzungen: suchbares Glossar"
   description="Suche englische und internationale Strickabkürzungen und lies die deutsche Bedeutung. Mit Kategorien für Zunahmen, Abnahmen, Zöpfe und Muster."
   canonicalPath={routes.tool.knittingAbbreviations.de}
   lang="de"
@@ -467,43 +463,179 @@ const faqs = [
   <div slot="content">
     <h2>Abkürzungen im Zusammenhang lesen</h2>
     <p>
-      Eine Abkürzung ist nur der Anfang. <code>k2tog</code> bedeutet nicht nur zwei
-      Maschen zusammenstricken, sondern eine rechts geneigte Abnahme. Wenn Symmetrie
-      sichtbar ist, zählt die Richtung.
+      Die meisten Abkürzungen fallen in einige Gruppen. Wenn du die Gruppe
+      erkennst, musst du weniger Einzelbegriffe auswendig lernen.
+    </p>
+    <p>
+      <strong>Grundmaschen</strong> sind einzelne Buchstaben. <code>k</code> ist knit,
+      also eine rechte Masche, <code>p</code> ist purl, also eine linke Masche. Eine
+      Zahl danach sagt, wie viele Maschen gemeint sind: <code>k5</code> heißt fünf
+      Maschen rechts stricken.
+    </p>
+    <p>
+      <strong>Kombinierte Aktionen</strong> stapeln Buchstaben und Zahlen. <code
+        >k2tog</code
+      > heißt zwei Maschen rechts zusammenstricken. <code>p2tog</code> ist die gleiche
+      Idee links gestrickt. Viel Strickkurzschrift funktioniert so: langsam lesen
+      und wörtlich zerlegen.
+    </p>
+    <p>
+      <strong>Richtungsmarker</strong> sagen, auf welcher Seite der Arbeit du bist.
+      <code>RS</code> ist die rechte Seite, <code>WS</code> die linke Seite. Das ist
+      wichtig, weil dieselbe Handbewegung je nach Vorder- oder Rückseite eine andere
+      Wirkung haben kann.
+    </p>
+    <p>
+      <strong>Formgebungsabkürzungen</strong> steuern, wie das Gestrick wächst oder
+      schmaler wird. <code>M1</code>, <code>M1L</code>, <code>M1R</code>
+      und <code>kfb</code> fügen Maschen hinzu. <code>k2tog</code> und <code
+        >ssk</code
+      > nehmen Maschen ab. Wenn du weißt, welche Abnahmen nach links oder rechts geneigt
+      sind, liest du Formgebung schneller.
+    </p>
+    <p>
+      <strong>Strukturbegriffe</strong> halten Anleitungen kurz: <code>rep</code
+      >, <code>st(s)</code>, <code>beg</code>, <code>rem</code>, <code
+        >cont</code
+      >. Das sind Gerüstwörter, keine neuen Maschen.
+    </p>
+    <p>
+      Satzzeichen zählen ebenfalls. Sterne und Semikolons sind keine Deko. <code
+        >*k2, p2; rep from *</code
+      > bedeutet, dass alles zwischen Stern und Semikolon wiederholt wird. Klammern
+      und eckige Klammern gruppieren ähnlich einen Satz von Schritten, der eine bestimmte
+      Anzahl gearbeitet wird. Ein fehlender Rapportmarker bringt die Maschenzahl sehr
+      schnell durcheinander.
     </p>
 
-    <h2>US- und UK-Anleitungen unterscheiden sich</h2>
+    <h2>US- und UK-Unterschiede</h2>
     <p>
-      Englisch heißt nicht automatisch amerikanisch. In UK-Anleitungen kann <code
-        >cast off</code
-      > stehen, wo US-Anleitungen <code>bind off</code> schreiben. Auch Nadelstärken
-      und Garnstärken können regional anders benannt sein.
+      Einige Begriffe verschieben sich zwischen den USA und dem UK. Die
+      wichtigsten:
+    </p>
+    <p>
+      US <code>bind off</code> ist UK <code>cast off</code>. US <code
+        >gauge</code
+      > ist UK <code>tension</code>. US <code>stockinette</code> ist UK <code
+        >stocking stitch</code
+      >. Die klassische Falle: <code>seed stitch</code> und <code
+        >moss stitch</code
+      >
+      können je nach Quelle die Bedeutung tauschen. Die ausgeschriebene Maschendefinition
+      ist verlässlicher als der Name allein.
+    </p>
+    <p>
+      Die meisten häufigen Kürzel wie <code>k</code>, <code>p</code>, <code
+        >yo</code
+      > und <code>k2tog</code> sind in beiden Systemen gleich. Wenn eine Anleitung
+      das System nicht nennt, klärt die Technikdefinition es meist. Gibt es gar keine
+      Definition, ist der Herkunftsort der Anleitung der beste Hinweis.
     </p>
 
     <h2>Anleitungsspezifische Abkürzungen</h2>
     <p>
-      Nicht jedes Kürzel steht in Standardlisten. Bei Zopf- und Lochmustern
-      definieren Designer oft kurze Zeichenfolgen für Techniken, die nur in
-      diesem Muster vorkommen. Die Abkürzungsliste, die stitch definitions und
-      die Legende einer Strickschrift sind deshalb die wichtigste Quelle.
+      Jetzt wird es spannend, weil viele Abkürzungen in keiner Standardliste
+      stehen. Das ist normal. Es sind Kurzformen, die für genau diese Anleitung
+      erfunden wurden und am Anfang der Anleitung definiert sein sollten.
+    </p>
+    <p>
+      Zopfmuster sind eine der größten Quellen. Eine Strickschrift kann <code
+        >C4F</code
+      >, <code>C6B</code> oder etwas noch Spezifischeres definieren. Die Zahl sagt
+      meist, wie viele Maschen verkreuzt werden. Der Buchstabe am Ende nennt die Richtung:
+      F für front, B für back, also wo die Zopfnadel beim Kreuzen gehalten wird. Diese
+      Konvention ist aber nicht überall gleich. Manche verwenden L und R, manche zählen
+      alle beteiligten Maschen, andere nur die bewegten Maschen. Die Definition der
+      Anleitung zählt.
+    </p>
+    <p>
+      Lochmuster bauen ebenfalls zusammengesetzte Kürzel. Eine Anleitung
+      schreibt <code>CDD</code> für eine zentrierte doppelte Abnahme. Eine andere
+      schreibt dieselbe Grundidee als <code>sl2-k1-p2sso</code> aus, eine dritte nutzt
+      <code>s2kp</code>. Alle zeigen in dieselbe Richtung, aber die genaue
+      Ausführung kann sich unterscheiden. Prüfe die Musterlegende, bevor du eine
+      unbekannte Abkürzung mit der häufigsten Version gleichsetzt.
+    </p>
+    <p>
+      Mehrfarbige Muster kürzen manchmal Farbnamen oder Farbzuweisungen ab. Du
+      siehst dann MC für main color und CC für contrast color, oder CC1 und CC2
+      bei mehreren Kontrastfarben. Manche Anleitungen verwenden A, B und C. Die
+      Kürzel sind einfach, aber eine verwechselte Farbe sieht man im fertigen
+      Stück sofort.
+    </p>
+    <p>
+      Manche Anleitungen definieren auch Kurzformen für wiederkehrende
+      Maschenfolgen, die nur in diesem Design vorkommen. Ein Beispiel wäre
+      <code>MB</code> für eine bestimmte Noppe oder ein eigener Begriff für eine Kombination
+      aus Wicklungen und Durchziehen. Solche Kürzel sparen Platz, gelten aber nur
+      innerhalb dieser Anleitung.
+    </p>
+    <p>
+      Die Grundregel: Wenn du eine Abkürzung nicht in einer Standardreferenz
+      findest, steht sie sehr wahrscheinlich im Kopfteil der Anleitung. Scrolle
+      zuerst nach oben.
     </p>
 
-    <h2>Strickschriften haben eigene Symbole</h2>
+    <h2>Was Symbole in Strickschriften bedeuten</h2>
     <p>
-      Eine Strickschrift verwendet nicht immer dieselbe Abkürzung wie die
-      schriftliche Anleitung. Lies die Legende, bevor du beginnst. Ein Punkt,
-      Strich oder geneigtes Symbol kann je nach Anleitung etwas anderes
-      bedeuten.
+      Strickschriften verwenden Symbole statt ausgeschriebener Reihen. Jedes
+      Kästchen ist eine Masche, und das Symbol im Kästchen sagt, was du
+      arbeitest.
+    </p>
+    <p>
+      Es gibt keine vollständig universelle Symbolsprache, aber viele
+      Anleitungen bleiben nah an den Craft-Yarn-Council-Konventionen. Ein leeres
+      Kästchen bedeutet oft rechts auf der rechten Seite und links auf der
+      linken Seite. Ein Strich bedeutet links auf der rechten Seite. Ein Kreis
+      ist <code>yo</code>. Ein nach rechts geneigter Schrägstrich markiert
+      <code>k2tog</code>, ein nach links geneigter <code>ssk</code>.
+    </p>
+    <p>
+      Strickschriften liest du von unten nach oben. Bei flach gestrickten
+      Stücken laufen Reihen auf der rechten Seite von rechts nach links und
+      Rückreihen von links nach rechts. Beim Rundstricken liest du jede Runde
+      von rechts nach links, weil du immer auf der rechten Seite arbeitest.
+    </p>
+    <p>
+      Wenn eine Anleitung sowohl geschriebene als auch gezeichnete Anweisungen
+      hat, sollten sie übereinstimmen. Wenn nicht, sollten die Notizen sagen,
+      welche Version Vorrang hat. Falls das fehlt, stricke einen Rapport als
+      Probe, bevor du blind einer Version vertraust.
     </p>
 
     <h2>Diese Kürzel lohnen sich früh</h2>
     <p>
-      Für den Anfang reichen oft <code>k</code>, <code>p</code>, <code
-        >st(s)</code
-      >, <code>RS</code>, <code>WS</code>, <code>rep</code>, <code>yo</code>, <code
-        >k2tog</code
-      > und <code>ssk</code>. Zöpfe, Lochmuster und Formgebung bringen den Rest
-      nach und nach dazu.
+      Du musst nicht alles vor dem Anschlagen auswendig lernen. Ein erster Schal
+      nutzt vielleicht nur <code>k</code> und <code>p</code>. Eine einfache
+      Mütze bringt ein oder zwei Abnahmen dazu. Der Rest kommt mit den
+      Anleitungen, die du strickst.
+    </p>
+    <p>
+      Ein Paar sorgt oft für Verwirrung: <code>ssk</code> und <code>skp</code>
+      sind beide links geneigte Abnahmen. <code>ssk</code> ist der moderne Standard,
+      <code>skp</code> taucht häufiger in älteren Anleitungen auf. Das Ergebnis ist
+      ähnlich, die Ausführung leicht anders. Arbeite die Version, die die Anleitung
+      nennt.
+    </p>
+    <p>
+      Ebenfalls wichtig: <code>psso</code> (pass slipped stitch over) erscheint allein
+      oder als Teil zusammengesetzter Kürzel wie <code>sl1-k2tog-psso</code>.
+      Wenn es allein auftaucht, bezieht es sich meistens auf eine zuvor
+      abgehobene Masche.
+    </p>
+    <p>
+      Das Craft Yarn Council veröffentlicht eine weit verbreitete Standardliste,
+      und viele Anleitungen folgen ihr für häufige Begriffe. Danach übernehmen
+      regionale Gewohnheiten und anleitungsspezifische Kurzformen. "Prüfe die
+      Legende" ist besserer Rat als "lerne eine Masterliste auswendig".
+    </p>
+    <p>
+      Lass beim Stricken eine Referenz offen. Diese Seite ist durchsuchbar, was
+      schneller ist als Tab-Wechsel mitten in der Reihe. Wenn du gleichzeitig
+      <a href="/de/artikel/maschenprobe-messen/">Maschenproben misst</a> oder eine
+      <a href="/de/artikel/strickanleitung-lesen/">Strickanleitung lesen</a> lernst,
+      passen diese Referenzen gut zusammen. In deiner eigentlichen Anleitung bleibt
+      die Abkürzungsliste trotzdem die erste Stelle, die du vor dem Anschlagen prüfst.
     </p>
   </div>
 </LocalizedToolPage>

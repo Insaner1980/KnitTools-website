@@ -1,11 +1,7 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
 import ClosingCTA from "../ClosingCTA.astro";
-import {
-  danishToolAlternates,
-  danishToolLinks,
-  danishToolRoutes,
-} from "../../i18n/danishTools";
+import { danishToolAlternates, danishToolRoutes } from "../../i18n/danishTools";
 
 const tools = [
   {
@@ -27,7 +23,8 @@ const tools = [
   {
     tag: "Tykkelser",
     title: "Garntykkelser",
-    description: "Garntykkelser med strikkefasthed, pindestørrelser og WPI.",
+    description:
+      "CYC-garntykkelser med strikkefasthed, pindestørrelser og WPI.",
     href: danishToolRoutes.yarnWeightChart,
     className: "card-sand card-bl1",
   },
@@ -74,7 +71,7 @@ const tools = [
       url: `https://knittoolsapp.com${danishToolRoutes.index}`,
       mainEntity: {
         "@type": "ItemList",
-        itemListElement: danishToolLinks.map((tool, index) => ({
+        itemListElement: tools.map((tool, index) => ({
           "@type": "ListItem",
           position: index + 1,
           url: `https://knittoolsapp.com${tool.href}`,

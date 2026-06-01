@@ -319,3 +319,9 @@
 ### 2026-05-16 - Footerin X-profiililinkki
 - Lisättiin Finnvekin X-profiili `https://x.com/finnvek` keskitettyyn `src/config/brand.ts`-someprofiililistaan, jolloin footer, `sameAs`-structured data ja `rel="me"`-head-linkit käyttävät samaa lähdettä.
 - Footerin someikonit optimoitiin 64x64 WebP-asseteiksi (`instagram.webp`, `tiktok.webp`, `youtube.webp`, `x.webp`) ja `src/config/brand.ts` osoittaa niihin. Vanhat footerin PNG-assetit poistettiin `public/brand/`-kansiosta, jotta buildiin ei jää käyttämättömiä raskaita logoja. Ikonit normalisoitiin 44px näkyvään maksimikokoon 64px canvasilla, ja TikTokin musta neliötausta poistettiin läpinäkyväksi.
+
+### 2026-06-01 - SEO release gate ja direct upload -julkaisujärjestys
+- SEO-release-tarkistus on keskitetty `scripts/`-kansioon. `seo-audit.mjs` lukee paikallisen `dist/`-buildin, `live-seo-audit.mjs` auditoi `https://knittoolsapp.com`-tuotannon, `url-parity-audit.mjs` vertaa paikallista ja live-sitemapia, ja `seo-release-gate.mjs` kokoaa deploy-päätöksen `reports/`-raporteista.
+- `package.json` sisältää nyt `test:seo`, `seo:audit`, `seo:live`, `seo:urls`, `seo:gate`, `verify:seo` ja `verify:release` -skriptit. `verify:release` ajaa Astro checkin, ESLintin, Prettier-tarkistuksen, SEO-testit, buildin ja release-gate-auditit.
+- `reports/` on edelleen gitignoressa: paikallisia SEO-, URL-pariteetti-, live-audit- ja release-gate-raportteja ei commitoida.
+- Tuotantodeploy tehdään Cloudflare Pages Direct Uploadilla paikallisesta `dist/`-buildistä: `npx wrangler pages deploy ./dist --project-name knittoolsapp --branch main`. Koska GitHub-push ei julkaise tätä projektia automaattisesti, turvallinen järjestys on commit, push, local/GitHub-pariteetin tarkistus (`git rev-list --left-right --count HEAD...@{u}` = `0 0`), deploy ja vasta sen jälkeen live-audit.

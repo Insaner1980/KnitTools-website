@@ -16,7 +16,7 @@ lang: no
 translationKey: "how-to-substitute-yarn"
 ---
 
-Garnet i oppskriften er utgått. Eller det koster 30 euro nøstet og budsjettet sier nei. Eller det er 100 % ull, og mottakeren kommer til å kaste ferdig plagg i vaskemaskinen første dag.
+Garnet i oppskriften er utgått. Eller det er for dyrt for budsjettet. Eller det er 100 % ull, og mottakeren kommer til å kaste det ferdige plagget i vaskemaskinen første dag.
 
 Garnbytte er normalt. De fleste strikkere gjør det oftere enn ikke. Et vellykket bytte betyr at fire ting matcher mellom original og erstatning: garntykkelse, strikkefasthet, fiberoppførsel og total løpelengde. Bom på én, og prosjektet driver. Bom på to, og det er et annet prosjekt.
 
@@ -44,7 +44,7 @@ Tykkelse og strikkefasthet sier noe om størrelse. Fiber sier alt annet: hvordan
 
 **Bomull** er den vanligste erstatningen som overrasker. Den er tyngre enn ull ved samme tykkelse, har nesten ingen elastisitet og vokser med tyngde og vask. En bomullsgenser henger annerledes enn en ullgenser selv om strikkefastheten stemmer. Når det er sagt, fungerer bomull godt i kluter, sommertopper og alt der fall, ikke struktur, er målet. Bare ikke forvent at den holder flettemønster slik ull gjør.
 
-**Akryl** gjør jobben for ting som må tåle maskinvask og hard bruk. Babytepper, veldedighetsstrikk, gaver til folk som ikke håndvasker. Den blokker ikke som ull, så hullmønstre som trenger aggressiv blokking for å åpne seg kan se svake ut.
+**Akryl** gjør jobben for ting som må tåle maskinvask og hard bruk. Babytepper, veldedighetsstrikk, gaver til folk som ikke håndvasker. Det blokkes ikke som ull, så hullmønstre som trenger kraftig blokking for å åpne seg kan se svake ut.
 
 **Blandinger** gjør ofte garnbytte lettere fordi de deler forskjellen. Et ull/nylon-sokkegarn oppfører seg annerledes enn ren ull, men beholder nok elastisitet til å fungere i samme type prosjekter. Nylon gir slitestyrke på utsatte steder uten å endre karakteren for mye.
 
@@ -60,13 +60,13 @@ Gang oppskriftens nøsteantall med løpelengde per nøste. Det er totalen du tre
 
 Når fiberinnholdet også endres, betyr løpelengde enda mer. Samme vekt per nøste kan skjule veldig ulike lengder inne i garnet.
 
-[Garnberegneren](/no/verktoy/garnberegner/) håndterer dette mer nøyaktig enn nøstematte alene, særlig hvis strikkefastheten endrer seg med erstatningen.
+[Garnberegneren](/no/verktoy/garnberegner/) kan gi en sjekk basert på prosjekttype, størrelse og garntykkelse, men den erstatter ikke oppskriftens oppgitte løpelengde, erstatningsgarnets nøstestørrelse eller en ny prøvelapp hvis strikkefastheten endrer seg.
 
 ## Når garnbytte er risikabelt
 
 Ikke alle prosjekter tåler garnbytte like godt. Vær ærlig om dette før du kjøper 8 nøster av erstatningen.
 
-**Lav risiko:** skjerf, sjal, tepper, kluter. En strikkefasthet som er litt av endrer ferdig størrelse litt. Ingen legger merke til det. Dette er prosjektene der garnbytte nesten alltid fungerer. Kjør på.
+**Lav risiko:** skjerf, sjal, tepper, kluter. En strikkefasthet som ligger omtrent to masker feil per 10 cm endrer ferdig størrelse, men gir vanligvis ikke samme passformproblem som i et plagg. Regn om hvis nøyaktige teppemål eller garnmengde betyr noe. Dette er prosjektene der garnbytte nesten alltid fungerer. Kjør på.
 
 **Middels risiko:** luer, halser, vesker. Passform betyr mer, struktur betyr mer, men det er fortsatt rom for små forskjeller. En lue som blir litt stor kan blokkes inn eller gis til noen med større hode.
 
@@ -88,7 +88,7 @@ Etter kjøp:
 
 6. Strikk prøvelapp i maskemønsteret, på anbefalte pinner.
 7. Vask og blokk prøvelappen slik du vil behandle ferdig plagg. Dette steget hoppes over hele tiden. Ikke gjør det.
-8. Mål strikkefasthet og se på stoffet. Hvis både tallene og håndfølelsen er riktig, fortsett. Hvis strikkefastheten stemmer, men stoffet er feil, prøv en annen pinnestørrelse eller et annet garn.
+8. Mål strikkefasthet og se på stoffet. Hvis både tallene og følelsen i stoffet er riktig, fortsett. Hvis strikkefastheten stemmer, men stoffet er feil, prøv en annen pinnestørrelse eller et annet garn.
 
 ## FAQ
 

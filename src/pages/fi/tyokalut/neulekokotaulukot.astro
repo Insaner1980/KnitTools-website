@@ -735,32 +735,32 @@ const defaultPanel = "naiset";
 
 const faqs = [
   {
-    q: "Valitaanko koko rinnanympäryksen vai valmiin vaatteen mukaan?",
-    a: "Usein ensin katsotaan vartalon rinnanympärys ja sitten ohjeen väljyys. Valmiin neuleen mitta ei ole sama asia kuin kehon mitta.",
+    q: "Ovatko nämä mitat samat kaikissa neuleohjeissa?",
+    a: "Monet julkaisijat ja suunnittelijat käyttävät Craft Yarn Council -tyyppisiä vartalon mittoja, mutta mitään pakollista yleisstandardia ei ole. Osa suunnittelijoista käyttää omia kokotaulukoitaan, etenkin jos ohjeessa on tavallista tarkempi kokovalikoima. Tarkista aina kyseisen ohjeen oma kokotaulukko, jos sellainen on mukana.",
   },
   {
-    q: "Mitä jos mitat osuvat kahden koon väliin?",
-    a: "Katso neuleen malli. Väljässä paidassa isompi koko voi toimia, mutta istuvassa neuleessa olkapää, yläkäsivarsi ja lantio ratkaisevat paljon.",
+    q: "Miten valitsen koon, jos ohje käyttää numeroituja kokoja?",
+    a: "Vertaa numeroidun koon rinnanympärystä yllä olevaan taulukkoon. Rinnanympärys on yleensä tärkein lähtömitta. Koon nimi tai numero on vähemmän tärkeä kuin mitta senttimetreinä.",
   },
   {
     q: "Mitataanko vaatteiden päältä vai paljaalta iholta?",
-    a: "Mittaa kevyen vaatteen päältä, esimerkiksi istuvan t-paidan tai ohuen aluskerroksen päältä. Paksu neule lisää senttejä, jotka eivät kuvaa vartalon todellista mittaa. Paljas iho voi taas antaa hieman pienemmän luvun kuin vaate käytännössä tarvitsee.",
+    a: "Mittaa paljaalta iholta tai ohuen, istuvan vaatteen päältä. Vältä paksuja vaatteita: paksu neule lisää senttejä, jotka eivät kuvaa sitä vartalon mittaa, jota ohjeen kokotaulukko yleensä kysyy.",
   },
   {
-    q: "Voiko taulukkoa käyttää lastenvaatteisiin suoraan?",
-    a: "Taulukko antaa lähtökohdan. Lapsilla pituus, hartiat ja kasvuvara vaihtelevat paljon, joten valmisvaatteen mitat kannattaa tarkistaa ohjeen kaaviosta.",
+    q: "Mitä jos mittani eivät osu siististi yhteen kokoon?",
+    a: "Se on normaalia. Useimmat ihmiset eivät ole samaa kokoa kaikissa mitoissa. Painota vaatteen kannalta tärkeintä mittaa: neulepaidassa rinnanympärystä, hameessa lantiota ja pipossa päänympärystä. Monissa ohjeissa on myös ohjeet pituuksien lyhentämiseen tai pidentämiseen.",
   },
 ];
 ---
 
 <FinnishToolPage
   title="Neulekokotaulukot: vauvat, lapset ja aikuiset"
-  description="Vartalon mittataulukot neuleohjeiden koon valintaan vauvoista aikuisiin senttimetreinä ja tuumina."
+  description="Vartalon mittataulukot neuleohjeiden koon valintaan vauvoista aikuisiin. Tarkista rinnanympärys, vyötärö, lantio ja hihan pituus."
   canonicalPath={routes.tool.knittingSizeCharts.fi}
   alternates={routes.tool.knittingSizeCharts}
   intro="Käytä mittoja lähtökohtana, kun valitset neuleohjeesta kokoa tai tarkistat valmiin vaatteen väljyyttä. Valitse ensin ryhmä ja mittayksikkö."
   schemaName="Neulekokotaulukot"
-  schemaDescription="Vartalon mittataulukot neuleohjeiden koon valintaan."
+  schemaDescription="Vartalon mittataulukot neuleohjeiden koon valintaan vauvoista aikuisiin."
   faqs={faqs}
   variant="terracotta"
 >
@@ -859,26 +859,102 @@ const faqs = [
   </div>
 
   <div slot="content">
-    <h2>Mittaa keho, älä vanhaa vaatetta</h2>
+    <h2>Miten vartalon mitat otetaan?</h2>
     <p>
-      Neuleohjeen koko valitaan yleensä kehon mittojen ja suunnitellun väljyyden
-      perusteella. Vanha lempipaita voi auttaa hahmottamaan tuntumaa, mutta se
-      ei korvaa rinnanympäryksen, lantion ja hihan mittaamista.
+      Taulukon mitat vastaavat tiettyjä kohtia vartalolla. Tarkka mitta vaatii,
+      että mittanauha on oikeassa paikassa, vaakasuorassa ja napakka mutta ei
+      kiristävä.
+    </p>
+    <p>
+      <strong>Rinnanympärys:</strong> mittaa rinnan tai rintakehän leveimmästä kohdasta.
+      Tämä on useimmissa neulepaidoissa ensisijainen koon valinnan mitta.
+    </p>
+    <p>
+      <strong>Vyötärö:</strong> mittaa luonnolliselta vyötäröltä eli vartalon kapeimmasta
+      kohdasta. Jos kohta on epäselvä, taivuta kylkeä kevyesti: taitos näyttää usein
+      vyötärön paikan.
+    </p>
+    <p>
+      <strong>Lantio:</strong> mittaa alavartalon leveimmästä kohdasta. Pidä mittanauha
+      vaakasuorassa, vaikka levein kohta ei olisi samalla etäisyydellä vyötäröstä
+      kaikilla vartaloilla.
+    </p>
+    <p>
+      <strong>Selän leveys:</strong> mittaa suoraan selän poikki olkapään kärjestä
+      toiseen. Tämä auttaa hahmottamaan vaatteen hartialinjaa.
+    </p>
+    <p>
+      <strong>Selän pituus vyötärölle:</strong> mittaa niskan selvästi tuntuvasta
+      luusta suoraan alas luonnolliselle vyötärölle.
+    </p>
+    <p>
+      <strong>Hihan sisäpituus:</strong> mittaa ranteesta kainaloon. Se toimii hihan
+      pituuden lähtökohtana.
+    </p>
+    <p>
+      <strong>Olkavarren ympärys:</strong> mittaa olkavarren leveimmästä kohdasta,
+      käsivarsi rentona vartalon sivulla.
+    </p>
+    <p>
+      <strong>Kädentien syvyys:</strong> mittaa olkapään päältä suoraan alas kainalon
+      tasolle. Mitta vaikuttaa siihen, kuinka syvä kädentien muotoilu tarvitsee olla.
+    </p>
+    <p>
+      <strong>Niskasta ranteeseen:</strong> mittaa niskan keskeltä olkapään yli ranteeseen.
+      Yhdistelmämittaa käytetään erityisesti raglan- ja kaarrokeneuleissa, joissa
+      vartalo ja hihat rakentuvat yhdessä.
     </p>
 
     <h2>Vartalon mitta ja valmis mitta ovat eri asioita</h2>
     <p>
-      Jos rinnanympärys on 96 cm ja ohjeen valmis mitta on 106 cm, väljyys on 10
-      cm. Se voi olla juuri oikein rennossa villapaidassa ja liikaa istuvassa
-      neuletakissa. Ohjeen kaavio kertoo, mihin suunnittelija on jättänyt tilaa.
+      Tämä on neulekoon valinnassa tavallinen sekaannus. Taulukot näyttävät
+      vartalon mittoja eli henkilön todellisia mittoja. Valmis neule voi olla
+      vartaloa pienempi, saman kokoinen tai suurempi sen mukaan, millaisen
+      väljyyden suunnittelija on rakentanut ohjeeseen.
+    </p>
+    <p>
+      <strong>Negatiivinen väljyys:</strong> valmis vaate on vartaloa pienempi. Hyvin
+      istuvassa neulepaidassa CYC:n ohjeellinen linja on noin 5-10 cm vähemmän kuin
+      todellinen rinnan- tai rinnanympärys. Pipot, sukat ja napakat joustinneuleet
+      käyttävät omia projektikohtaisia joustovarojaan.
+    </p>
+    <p>
+      <strong>Nollaväljyys:</strong> valmis vaate vastaa vartalon mittoja. Neulotussa
+      kankaassa tämä tuntuu yleensä hyvin istuvalta, ellei mallineule ole erityisen
+      rento.
+    </p>
+    <p>
+      <strong>Positiivinen väljyys, 5-10 cm:</strong> valmis vaate on hieman vartaloa
+      suurempi. Tämä on tavallinen perusväljyys monissa villapaidoissa, neuletakeissa
+      ja yläosissa.
+    </p>
+    <p>
+      <strong>Väljä tai oversized-väljyys, 10-15+ cm:</strong> valmis vaate on selvästi
+      vartaloa suurempi. Rentomalliset paidat, kookkaat neuletakit ja väljät siluetit
+      elävät tällä alueella.
+    </p>
+    <p>
+      Jos ohje sanoo koon sopivan 91,5 cm rinnanympärykselle ja valmiin vaatteen
+      rinnanympärys on 101,5 cm, erotus on 10 cm väljyyttä. Silloin valitaan
+      koko vartalon mitan mukaan, ei suoraan valmiin vaatteen mitan mukaan.
     </p>
 
-    <h2>Valitse koko neuleen mallin mukaan</h2>
+    <h2>Kahden koon välillä valitseminen</h2>
     <p>
-      Rinnanympärys ei ratkaise kaikkea. Pitkässä neuleessa lantio voi olla
-      tärkein mitta. Istuvassa hihassa yläkäsivarsi voi ratkaista, vaikka
-      rinnanympärys osuisi oikeaan kokoon. Tarkista muutama mitta ennen kuin
-      päätät.
+      Jos rinnanympärys jää kahden koon väliin, valinta riippuu vaatteen
+      tarkoitetusta istuvuudesta. Istuvassa neuleessa pienempi koko voi olla
+      parempi. Rennossa tai ylisuuressa mallissa isompi koko voi olla oikea.
+    </p>
+    <p>
+      Vertaa myös muita mittoja, etenkin lantiota pitkissä vaatteissa ja
+      olkavartta istuvissa hihoissa. Jos rinnanympärys viittaa kokoon M mutta
+      lantio kokoon L, tarkista ohjeen kaavio ja katso, ulottuuko neule lantion
+      leveimpään kohtaan.
+    </p>
+    <p>
+      Lopullisen koon jälkeen mallitilkku ratkaisee, osuuko valmis neule ohjeen
+      mittoihin. Jos neuletiheys ei täsmää, myös hyvä kokovalinta voi muuttua
+      väärän kokoiseksi valmiissa työssä.
     </p>
   </div>
 </FinnishToolPage>

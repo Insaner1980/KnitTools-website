@@ -6,7 +6,7 @@ interface Props {
 }
 
 const { lang = "en" } = Astro.props;
-const usesDecimalComma = lang === "fr" || lang === "nl" || lang === "da";
+const usesDecimalComma = lang !== "en";
 const metricOnly = lang === "fr" || lang === "nl" || lang === "da";
 const numericInputType = usesDecimalComma ? "text" : "number";
 const copy = {
@@ -44,7 +44,7 @@ const copy = {
   },
   de: {
     legend: "Maschenanschlag-Rechner",
-    gauge: "Maschenprobe (Maschen pro 10 cm / 4 in)",
+    gauge: "Maschenprobe (Maschen pro 10 cm / 4 Zoll)",
     decreaseGauge: "Maschenprobe verkleinern",
     increaseGauge: "Maschenprobe vergrößern",
     gaugePlaceholder: "z. B. 20",
@@ -60,13 +60,13 @@ const copy = {
   },
   sv: {
     legend: "Uppläggningskalkylator",
-    gauge: "Stickfasthet (maskor per 10 cm)",
-    decreaseGauge: "Minska stickfasthet",
-    increaseGauge: "Öka stickfasthet",
+    gauge: "Stickfasthet (maskor per 10 cm / 4 tum)",
+    decreaseGauge: "Minska stickfastheten",
+    increaseGauge: "Öka stickfastheten",
     gaugePlaceholder: "t.ex. 20",
     width: "Önskad bredd",
-    decreaseWidth: "Minska bredd",
-    increaseWidth: "Öka bredd",
+    decreaseWidth: "Minska bredden",
+    increaseWidth: "Öka bredden",
     widthPlaceholder: "t.ex. 50",
     unitSelection: "Måttenhet",
     inches: "tum",
@@ -77,12 +77,12 @@ const copy = {
   no: {
     legend: "Oppleggskalkulator",
     gauge: "Strikkefasthet (masker per 10 cm / 4 in)",
-    decreaseGauge: "Senk strikkefasthet",
-    increaseGauge: "Øk strikkefasthet",
+    decreaseGauge: "Reduser strikkefastheten",
+    increaseGauge: "Øk strikkefastheten",
     gaugePlaceholder: "f.eks. 20",
     width: "Ønsket bredde",
-    decreaseWidth: "Senk bredde",
-    increaseWidth: "Øk bredde",
+    decreaseWidth: "Reduser bredden",
+    increaseWidth: "Øk bredden",
     widthPlaceholder: "f.eks. 50",
     unitSelection: "Måleenhet",
     inches: "tommer",

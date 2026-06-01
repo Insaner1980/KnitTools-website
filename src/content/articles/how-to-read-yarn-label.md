@@ -1,27 +1,26 @@
 ---
-title: "How to Read a Yarn Label: Symbols Explained"
-description: "Decode yarn labels: fiber content, weight symbols, gauge, care instructions, dye lot numbers, and what each icon means. Never buy the wrong yarn again."
-publishDate: 2026-05-01
-category: yarn
+title: "How to read a yarn label"
+browserTitle: "How to Read a Yarn Label - Every Symbol and Number Explained"
+description: "Decode yarn labels: fiber content, weight symbols, gauge, care instructions, dye lot numbers, and what each icon means before you choose yarn."
+category: "yarn"
 categoryOrder: 3
+publishDate: "2026-05-01"
 tags:
-  [
-    "how to read a yarn label",
-    "yarn label symbols",
-    "yarn ball band",
-    "yarn label care symbols",
-  ]
+  - "how to read a yarn label"
+  - "yarn label symbols"
+  - "yarn ball band"
+  - "yarn label care symbols"
 ---
 
 That little paper band wrapped around a skein? It's doing more than holding the yarn together. Every symbol, number, and icon on it exists because somebody, somewhere, bought the wrong yarn or ruined a finished sweater in the wash. The label is the cheat sheet they wished they'd read first.
 
-A yarn label tells you the fiber content, weight category, recommended gauge, needle size, care instructions, and dye lot. Everything needed to choose, use, and care for the yarn correctly. Pull one off the shelf or dig one out of your stash. This is what each part actually tells you.
+A yarn label tells you the fiber content, weight category, recommended gauge, needle size, care instructions, and dye lot. That's everything needed to choose, use, and care for the yarn correctly. Pull one off the shelf or dig one out of your stash. This is what each part actually tells you.
 
 ## Yarn weight symbol
 
-The skein-shaped icon with a number inside is the Craft Yarn Council weight category. It runs from 0 (Lace) through 7 (Jumbo), and it's the fastest way to check whether a yarn matches a pattern's requirements.
+The skein-shaped icon with a number inside is the Craft Yarn Council weight category. Many labels still use the familiar numbered range from Lace through Jumbo, and CYC has started updating the system with Size 8 and additional symbols. Treat the number as a shortcut, then check the category name and gauge box before matching yarn to a pattern.
 
-The text next to it usually says something like DK, Worsted, or Bulky. Not every brand prints the CYC icon, but most include some version of the weight name. If the label only gives a brand-specific name like "Studio" or "Soft Touch," check the gauge box instead for clues.
+The text next to it may say something like DK, Worsted, or Bulky. Not every brand prints the CYC icon, and some use brand-specific names like "Studio" or "Soft Touch." When the weight name is unclear, the gauge box gives better clues.
 
 The [yarn weight chart](/tools/yarn-weight-chart/) breaks down all the categories with their gauge ranges and typical needle sizes.
 
@@ -29,9 +28,9 @@ The [yarn weight chart](/tools/yarn-weight-chart/) breaks down all the categorie
 
 Listed as percentages. `100% Merino Wool`. `75% Acrylic, 25% Wool`. `60% Cotton, 40% Modal`. This is the "made from" section, and it affects everything about how the finished fabric will feel, drape, stretch, and wear over time.
 
-Pay attention here when [substituting yarn](/articles/how-to-substitute-yarn/). A wool DK and a cotton DK are both DK. They'll knit up at similar gauges. But the fabric won't behave the same way at all. The [fiber comparison guide](/articles/yarn-fibers-compared/) covers those differences.
+Pay attention here when [substituting yarn](/articles/how-to-substitute-yarn/). A wool DK and a cotton DK may sit in the same weight range, but the fabric won't behave the same way at all. The [fiber comparison guide](/articles/yarn-fibers-compared/) covers those differences.
 
-Labels sometimes note whether the yarn is superwash, mercerized, or brushed. Those aren't decorative words. Superwash wool handles machine washing. Non-superwash wool doesn't. That's a detail worth catching before you cast on 300 stitches for a baby blanket.
+Labels sometimes note whether the yarn is superwash, mercerized, or brushed. Those aren't decorative words. Superwash wool is treated to resist felting and may be labeled machine washable. Non-superwash wool needs gentler care because heat, moisture, and agitation can felt it. That's a detail worth catching before you cast on 300 stitches for a baby blanket.
 
 ## Gauge information
 
@@ -63,19 +62,19 @@ The **iron** symbol is shaped like, well, an iron. Dots inside indicate temperat
 
 **Professional cleaning** gets a circle. P and F inside it specify dry-cleaning solvents (perchloroethylene and hydrocarbon). W means professional wet cleaning, which is a water-based process, not a solvent. Most knitters skip this one entirely, but it shows up on labels for silk blends, cashmere, and other fibers that may benefit from professional care.
 
-These symbols aren't suggestions. A hand-wash-only wool will felt if tossed in a regular machine cycle with warm water and agitation. A fiber that can't handle heat will come out of a hot dryer as a different object than what went in.
+These symbols aren't casual suggestions. A hand-wash-only wool can felt if tossed in a regular machine cycle with warm water and agitation. A fiber that can't handle heat may come out of a hot dryer as a different object than what went in.
 
 ## Dye lot and color number
 
 This is where people get caught. Two different numbers, two different purposes, and confusing them can mean a visible stripe across your sweater where you switched skeins mid-project.
 
-The **color number** (or color name) identifies the shade. "Color 412" or "Dusty Rose." This stays the same from batch to batch. It's how you find the same color again next year.
+The **color number** (or color name) identifies the shade. "Color 412" or "Dusty Rose." It usually stays the same from batch to batch. It's how you look for the same color again next year.
 
 The **dye lot number** identifies the specific vat the yarn was dyed in. Two skeins with the same color number but different dye lots may look identical in the store and subtly different once they're knit up next to each other. Sometimes the difference is invisible until you've already knit ten rows past the skein change.
 
 Buy all your project yarn from the same dye lot. Every skein. If you can't, alternating skeins every two rows helps blend the transition so any color shift doesn't land as a hard line.
 
-Some yarns are labeled `no dye lot`, meaning the manufacturer expects consistent color across batches. Hand-dyed yarn, on the other hand, almost always varies from skein to skein. That's part of the appeal, but it also means alternating skeins is standard practice.
+Some yarns are labeled `no dye lot`, meaning the manufacturer expects consistent color across batches. Hand-dyed yarn, on the other hand, often varies from skein to skein. That's part of the appeal, but it also means alternating skeins is a useful safeguard.
 
 ## Country of origin and brand information
 
@@ -91,15 +90,15 @@ Nothing about durability either. How much the yarn pills, whether it softens or 
 
 And the gauge box is the manufacturer's result, not yours. Treat it as a reference, not a guarantee.
 
-KnitTools' [Yarn Label Scanner](/) reads a label with your phone camera and saves everything as a digital yarn card. Handy when the paper band is about to disappear into a project bag and never come back.
+KnitTools can keep the same label details in a project note. Handy when the paper band is about to disappear into a project bag and never come back.
 
 ## FAQ
 
 **What if the label is in a language I can't read?**
-The care symbols and weight icon are standardized internationally. They'll look the same regardless of language.
+The care symbols are designed to reduce language dependence, and weight icons often follow CYC conventions. Still check the gauge box and fiber percentages if the wording is unfamiliar.
 
 **The label says 10 cm gauge but my pattern uses 4 inches. Same thing?**
-Close enough. 10 cm is 3.937 inches. Most knitters treat them as interchangeable.
+Close, not identical. 10 cm is about 3.94 inches. If the pattern gives gauge over 10 cm, measure 10 cm. If it gives gauge over 4 inches, measure 4 inches.
 
 **Should I keep the yarn label?**
 Yes. At least until the project is finished and washed.

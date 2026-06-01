@@ -141,7 +141,7 @@ const categoryDescription = category
     </ArticleLayout>
   ) : view === "category" && category ? (
     <PageLayout
-      title={`${categoryLabel}. Strikkeartikler`}
+      title={`Norsk strikking: ${categoryLabel}`}
       description={categoryDescription}
       canonicalPath={routes.category[category].no}
       lang="no"
@@ -175,7 +175,7 @@ const categoryDescription = category
   ) : (
     <PageLayout
       title="Strikkeartikler og praktiske tips"
-      description="Praktiske strikkeartikler om strikkefasthet, garn, pinner, teknikker og KnitTools."
+      description="Praktiske strikkeartikler om strikkefasthet, garn, pinner, teknikker, oppskriftslesing, kalkulatorer og KnitTools for ekte prosjekter."
       canonicalPath={routes.articlesIndex.no}
       lang="no"
       alternates={routes.articlesIndex}

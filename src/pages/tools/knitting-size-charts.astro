@@ -739,7 +739,7 @@ const defaultPanel = "women";
 const faqs = [
   {
     q: "Are these measurements the same across all knitting patterns?",
-    a: "Most major publishers and independent designers follow Craft Yarn Council standards, but there's no universal enforcement. Some designers use their own sizing, particularly those focused on size-inclusive design with more granular options. Always check the specific pattern's size chart if one is provided.",
+    a: "Many publishers and designers use Craft Yarn Council-style body measurements, but there's no universal enforcement. Some designers use their own sizing, particularly those focused on size-inclusive design with more granular options. Always check the specific pattern's size chart if one is provided.",
   },
   {
     q: "How do I choose a size if the pattern uses numbered sizes instead of XS/S/M/L?",
@@ -747,7 +747,7 @@ const faqs = [
   },
   {
     q: "Should I measure over clothing or on bare skin?",
-    a: "Over lightweight clothing: a fitted t-shirt or thin layer. A bulky sweater adds inches that don't reflect your body. Bare skin can read slightly smaller than the garment actually needs to accommodate.",
+    a: "Measure over bare skin or a thin fitted layer, and avoid bulky clothing. A heavy sweater adds inches that don't reflect the body measurement the pattern size chart is asking for.",
   },
   {
     q: "What if my measurements don't fit neatly into one size?",
@@ -757,7 +757,7 @@ const faqs = [
 ---
 
 <PageLayout
-  title="Knitting Size Charts"
+  title="Knitting Size Charts for Body Measurements"
   description="Standard body measurement charts for knitting. Baby through adult sizes with chest, waist, hips, arm length, and more, in cm and inches."
   canonicalPath="/tools/knitting-size-charts/"
   alternates={routes.tool.knittingSizeCharts}
@@ -805,8 +805,8 @@ const faqs = [
         <span class="h1-chars">Knitting Size Charts</span>
       </h1>
       <p class="hero-intro gs-hero">
-        Standard body measurements for every knitting project. Pick a category
-        and unit to see the chart.
+        Body measurements for common knitting projects. Pick a category and unit
+        to see the chart.
       </p>
       <p class="hero-note gs-hero">
         These are body measurements, not finished garment measurements. Add ease
@@ -931,8 +931,9 @@ const faqs = [
         it if you're unsure.
       </p>
       <p class="gs-fade-up">
-        <strong>Hips:</strong> Measure around the fullest part of the hips, usually
-        18–23 cm (7–9 inches) below the waist. Keep the tape level.
+        <strong>Hips:</strong> Measure around the widest part of the lower hip. For
+        many bodies this sits below the natural waist, but the widest point matters
+        more than a fixed distance. Keep the tape level.
       </p>
       <p class="gs-fade-up">
         <strong>Cross Back (shoulder to shoulder):</strong> Measure straight across
@@ -970,24 +971,28 @@ const faqs = [
       <p class="gs-fade-up">
         This is the most common source of sizing confusion in knitting. These
         charts show body measurements, the actual dimensions of the person. A
-        finished garment is always larger because it includes ease.
+        finished garment can be smaller, equal, or larger depending on the ease
+        the designer built into the pattern.
       </p>
       <p class="gs-fade-up">
-        <strong>Negative ease (–2.5 to –5 cm):</strong> The garment is smaller than
-        the body. Used for hats, socks, and very fitted ribbed garments that need
-        to grip.
+        <strong>Negative ease:</strong> The garment is smaller than the body. For
+        a very close sweater fit, CYC's guidance is roughly 5-10 cm less than the
+        actual bust or chest measurement; hats, socks, and fitted ribbing use their
+        own project-specific grip.
       </p>
       <p class="gs-fade-up">
         <strong>Zero ease:</strong> The garment matches body measurements exactly.
-        Very rare in knitting. The result is skin-tight.
+        In knitted fabric this usually reads as very close fitting unless the stitch
+        pattern is especially relaxed.
       </p>
       <p class="gs-fade-up">
         <strong>Positive ease (5–10 cm):</strong> The garment is slightly larger than
         the body. This is standard fit for most sweaters, cardigans, and tops.
       </p>
       <p class="gs-fade-up">
-        <strong>Oversized ease (10–20+ cm):</strong> The garment is noticeably larger
-        than the body. Slouchy sweaters, cocoon cardigans, and relaxed-fit garments.
+        <strong>Loose or oversized ease (10-15+ cm):</strong> The garment is noticeably
+        larger than the body. Slouchy sweaters, cocoon cardigans, and relaxed-fit
+        garments live here.
       </p>
       <p class="gs-fade-up">
         When a pattern says "to fit chest 91.5 cm" and gives a finished bust
@@ -1066,11 +1071,11 @@ const faqs = [
         />
         <div class="waitlist-content-layer" id="waitlist-content-layer">
           <h2 class="gs-clip-reveal waitlist-head">
-            Every tool. <em>One app.</em>
+            Rows, patterns, projects. <em>One app.</em>
           </h2>
           <p class="gs-fade-up waitlist-desc">
-            Row counter, project management, yarn scanner, and all four
-            calculators.
+            Row counter, pattern viewer, Ravelry, project notes, progress
+            photos, and all four calculators.
           </p>
           <div class="waitlist-row gs-fade-up" id="waitlist-row">
             <input

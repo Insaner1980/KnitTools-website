@@ -6,11 +6,11 @@ import { routes } from "../../../i18n/routes";
 const faqs = [
   {
     q: "Comment savoir combien de laine mon projet demande ?",
-    a: "Le modèle indique normalement le métrage total dans la partie matériel. Si tu prépares un projet sans modèle, cherche les quantités moyennes pour le même type de projet et la même taille. Il existe des fourchettes assez établies pour la plupart des vêtements.",
+    a: "Le modèle indique normalement le métrage total dans la partie matériel. Si tu prépares un projet sans modèle, compare les fourchettes publiées pour le même type de projet, la même taille et la même épaisseur de fil, puis ajoute une marge de sécurité.",
   },
   {
     q: "Faut-il acheter du fil en plus ?",
-    a: "Toujours. Achète au moins une pelote de plus, surtout si le fil a un numéro de bain. Les bains peuvent varier légèrement en couleur, et retrouver le même plus tard peut être impossible si le lot est épuisé.",
+    a: "Le plus souvent, oui. Achète au moins une pelote de plus quand le projet est ajusté, texturé ou tricoté dans un fil avec numéro de bain. Les bains peuvent varier légèrement en couleur, et retrouver le même plus tard peut être impossible si le lot est épuisé.",
   },
   {
     q: "Que faire si mon modèle donne des yards ou des grammes ?",
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Puis-je remplacer le fil recommandé par un autre ?",
-    a: "Oui, si l'échantillon correspond. Tricote un échantillon avec le fil de remplacement, vérifie que tu obtiens le même nombre de mailles pour 10 cm, puis utilise ce calculateur pour estimer la quantité totale avec ce nouveau fil.",
+    a: "Oui, si l'échantillon et la matière conviennent au projet. Tricote un échantillon avec le fil de remplacement, vérifie que tu obtiens l'échantillon du modèle, puis utilise ce calculateur comme contrôle de planification pour cette nouvelle épaisseur de fil.",
   },
 ];
 ---
@@ -56,11 +56,11 @@ const faqs = [
     <h2>De combien de laine ai-je besoin ?</h2>
     <p>
       La quantité de fil dépend de trois choses : ce que tu tricotes, la taille
-      et l'épaisseur du fil. Un pull adulte en fingering demande environ 1 200 à
-      1 500 mètres. Un bonnet en bulky peut se contenter de 100 mètres. Si un
-      modèle donne son propre métrage, utilise-le en priorité ; cet estimateur
-      sert surtout à planifier sans modèle ou à vérifier si une quantité de fil
-      est réaliste.
+      et l'épaisseur du fil. Un pull adulte taille M en fingering demande
+      environ 1 200 à 1 500 mètres. Un bonnet simple en bulky peut se contenter
+      d'environ 100 mètres. Si un modèle donne son propre métrage, utilise-le en
+      priorité ; cet estimateur sert surtout à planifier sans modèle ou à
+      vérifier si une quantité de fil est réaliste.
     </p>
 
     <h2>Lire une étiquette de pelote</h2>

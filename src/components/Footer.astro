@@ -5,12 +5,7 @@ import { dutchToolLinks } from "../i18n/dutchTools";
 import { danishToolLinks } from "../i18n/danishTools";
 import { useTranslations } from "../i18n/ui";
 import type { Lang } from "../i18n/config";
-import {
-  CONTACT_EMAIL,
-  CONTACT_MAILTO,
-  FINNVEK_URL,
-  SOCIAL_PROFILES,
-} from "../config/brand";
+import { CONTACT_EMAIL, CONTACT_MAILTO, FINNVEK_URL } from "../config/brand";
 
 interface Props {
   lang?: Lang;
@@ -18,7 +13,6 @@ interface Props {
 
 const { lang = "en" } = Astro.props;
 const t = useTranslations(lang);
-const socialLinks = SOCIAL_PROFILES;
 const tools =
   lang === "da"
     ? danishToolLinks
@@ -347,21 +341,6 @@ const articles =
           >Finnvek</a
         >. <a href={CONTACT_MAILTO}>{CONTACT_EMAIL}</a>.
       </p>
-      <nav class="social-links" aria-label="Finnvek social media">
-        {
-          socialLinks.map((link) => (
-            <a
-              href={link.href}
-              target="_blank"
-              rel="noopener"
-              aria-label={link.label}
-              class="social-link"
-            >
-              <img src={link.icon} alt="" width="22" height="22" />
-            </a>
-          ))
-        }
-      </nav>
     </div>
   </div>
 </footer>
@@ -459,24 +438,6 @@ const articles =
   .copyright a:hover {
     color: var(--terracotta);
     border-bottom-color: var(--terracotta);
-  }
-  .social-links {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-  .social-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    border-bottom: 0;
-  }
-  .social-link img {
-    width: 22px;
-    height: 22px;
-    object-fit: contain;
   }
 
   @media (max-width: 767px) {

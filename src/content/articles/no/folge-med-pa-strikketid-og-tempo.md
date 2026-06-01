@@ -7,10 +7,10 @@ categoryOrder: 7
 tags:
   [
     "følge strikketid",
-    "strikkeøkt tracker",
+    "strikkeøktsporing",
     "øktsporing",
     "følge strikkefremdrift",
-    "strikketid tracker",
+    "strikketidssporing",
   ]
 draft: false
 lang: no
@@ -19,19 +19,19 @@ translationKey: "track-knitting-time"
 
 De fleste strikkere har en vag følelse av hvor lang tid prosjekter tar. "Genseren tok noen måneder." "Sokkene gikk ganske raskt." Men vagt hjelper lite når du vurderer om du skal starte en cardigan seks uker før jul, eller prøver å finne ut hvorfor en lue som burde ta én kveld drar ut til tre.
 
-Å følge strikketid gjør vage inntrykk til faktiske data. Hvor mange timer som gikk inn i genseren. Hvor mange pinner du gjennomsnittlig strikker per økt. Om du strikker raskere i glattstrikk enn i fletter, svaret er alltid glattstrikk, men hvor mye? Tallene får ikke hendene til å gå raskere, men de hjelper deg å planlegge bedre og merke når noe stille går galt.
+Å følge strikketid gjør vage inntrykk til faktiske data. Hvor mange timer som gikk inn i genseren. Hvor mange pinner du gjennomsnittlig strikker per økt. Om du strikker raskere i glattstrikk enn i fletter, og hvor stor forskjellen er. Tallene får ikke hendene til å gå raskere, men de hjelper deg å planlegge bedre og merke når noe stille går galt.
 
 ## Hvorfor følge tid
 
 Tre grunner, i rekkefølge etter hvor raskt de gir verdi.
 
-**Prosjektplanlegging blir realistisk.** Når du vet at en worsted-lue tar deg omtrent 8 timer, blir tidslinjen for en genser mulig å anslå. Hvis luekroppen var 15 cm glattstrikk med 45 minutter per 2,5 cm, er en genserbol på 38 cm i samme strikkefasthet i hvert fall i riktig størrelsesorden. Ikke perfekt, fordi forming og montering legger til tid, men et anslag slår "ingen idé".
+**Prosjektplanlegging blir realistisk.** Når du vet at en worsted-lue tar deg omtrent 8 timer, blir tidslinjen for en genser mulig å anslå. Hvis luekroppen var 15 cm glattstrikk med 45 minutter per 2,5 cm, er en genserbol på 38 cm i samme strikkefasthet i hvert fall i riktig størrelsesorden. Ikke nøyaktig, fordi forming og montering legger til tid, men et anslag slår "ingen idé".
 
 **Du merker treghet før den blir et problem.** Hvis en vanlig økt gir 12 pinner på et prosjekt, og én uke faller det til 6, har noe endret seg. Kanskje maskemønsteret ble vanskeligere. Kanskje du kjemper med garnet. Kanskje strikkefastheten drev og du ubevisst kompenserer. Tallene flagger skiftet før du bruker tre økter til på å lure på hvorfor prosjektet føles tungt.
 
-Så er det det lange løpet. Strikketempo blir bedre med øvelse, men forbedringen er så gradvis at du ikke kjenner den. Øktdata fra seks måneder siden sammenlignet med nå viser forskjellen konkret. Flere pinner per time, færre feil, raskere reparasjon av feil. Fremgang som er usynlig dag til dag blir tydelig over måneder.
+Så er det det lange løpet. Strikketempo kan endre seg med øvelse, men endringen er ofte så gradvis at du ikke merker den mens den skjer. Øktdata fra seks måneder siden sammenlignet med nå kan vise forskjellen konkret: flere pinner per time, færre feil, raskere reparasjon av feil. Fremgang som er usynlig dag til dag blir tydeligere over måneder.
 
-## Enkel tracking: telefontimer
+## Enkel sporing: telefontimer
 
 Laveste innsats. Start en timer når du tar opp pinnene, stopp når du legger dem ned. Skriv tid og pinneantall i notatbok eller notatapp.
 
@@ -41,27 +41,27 @@ Fungerer fint for ett prosjekt. Blir rotete med flere WIP-er fordi du trenger eg
 
 Ett steg opp. Kolonner for dato, prosjektnavn, startpinne, sluttpinne, varighet. Formler regner pinner per økt, pinner per time og total tid.
 
-Dette gir reelle data å analysere. Plott pinner per time over tid, og fartskurven blir synlig. Sammenlign prosjekter, og effekten av kompliserte maskemønstre dukker opp i tallene. Et glattstrikket skjerf på 30 pinner per time mot en flettet genser på 14 forteller konkret hva fletter koster i tid.
+Dette gir reelle data å analysere. Plott pinner per time over tid, og fartskurven blir synlig. Sammenlign prosjekter, og effekten av kompliserte maskemønstre dukker opp i tallene. Hvis notatene viser at et enkelt glattstrikket prosjekt beveger seg mye raskere enn et prosjekt med fletter, blir forskjellen nyttig planleggingsdata i stedet for en vag følelse.
 
 Ulempen: manuell registrering etter hver økt. Glemmer du det, får dataene hull. Runder du av, "ca. 45 minutter, kanskje 20 pinner", forsvinner presisjonen som gjør regnearket nyttig.
 
-## Egen strikkeøkt-tracker
+## Egen strikkeøktsporing
 
-En strikketid-tracker bygget inn i en prosjektapp automatiserer det manuelle metoder gjør dårlig. Start økt, strikk, avslutt økt. Appen registrerer varighet, kobler den til prosjektet og følger omgangstall samtidig.
+En strikketidssporing bygget inn i en prosjektapp automatiserer det manuelle metoder gjør dårlig. Start økt, strikk, avslutt økt. Appen registrerer varighet, kobler den til prosjektet og følger pinne- eller omgangstall samtidig.
 
-[KnitTools-appen](/) har øktsporing koblet til [omgangstelleren](/no/artikler/holde-styr-pa-pinner-og-omganger/). Hver gang du teller pinner eller omganger, går økttimeren. Når du stopper, lagres data: dato, varighet, pinner fullført, pinner per time. Over tid bygges historikk per prosjekt og på tvers av prosjekter.
+[KnitTools](/) utvikles med øktsporing koblet til [omgangstelleren](/no/artikler/holde-styr-pa-pinner-og-omganger/). Den tiltenkte flyten er enkel: tell pinner eller omganger, lagre økten og behold dato, varighet, fullførte pinner eller omganger og tempo sammen med prosjektet. Over tid bygges historikk per prosjekt og på tvers av prosjekter.
 
-Fordelen over manuelle metoder er konsistens. Du trykker allerede på telleren, så tidsmålingen skjer som bieffekt. Ingen egen timer å starte, ingen notatbok å oppdatere, ingen regneark å vedlikeholde. Dataene samler seg selv om du ikke tenker på dem.
+Fordelen over manuelle metoder er konsistens. Du bruker allerede telleren, så tidsmålingen skjer i samme arbeidsflyt. Ingen egen timer å starte, ingen notatbok å oppdatere, ingen regneark å vedlikeholde. Dataene samler seg uten at du må gjøre et ekstra moment av det.
 
 ## Hva dataene faktisk forteller
 
-### Pinner per time etter maskemønster
+### Pinner per time etter struktur
 
-Glattstrikk er raskest. Alltid. Alt annet er tregere med en målbar mengde, og forskjellene er konsistente nok til å være nyttige i planlegging.
+For mange strikkere blir glattstrikk den raske grunnflaten. Andre strukturer senker ofte tempoet fordi de legger til vendinger, vrange partier, diagramlesing, flettekryss, kast eller fellinger.
 
-Typiske intervaller for en middels erfaren strikker i worsted: glattstrikk 25-40 pinner per time, rillestrikk 20-35, snuingen bremser litt, vrangbord 18-28, bytte mellom rett og vrang, fletter 12-22, flettekryss bryter rytmen, hullmønster 8-18, diagramlesing, kast og fellinger.
+Nøyaktige spenn for pinner per time kan ikke flyttes mellom prosjekter. En smal skjerfpinne, en genserpinne over bolen og en sokkeomgang er ikke samme enhet, selv før garntykkelse og struktur regnes inn.
 
-Tallene varierer enormt mellom strikkere. Den nyttige sammenligningen er ikke farten din mot andres. Det er farten din i dette mønsteret mot farten din i forrige.
+Tallene varierer mye mellom strikkere. Den nyttige sammenligningen er ikke farten din mot andres. Det er farten din i dette mønsteret mot farten din i forrige.
 
 ### Tid per prosjektseksjon
 
@@ -71,7 +71,7 @@ En genser tar ikke like lang tid per centimeter hele veien. Bolen i glattstrikk 
 
 ### Tempoendring over tid
 
-Sammenlign første sokk med femte. Pinner per time i glattstrikk i januar mot juni. Endringen er som regel der, og ofte større enn du tror.
+Sammenlign første sokk med femte. Pinner per time i glattstrikk i januar mot juni. Endringen kan være liten, stor eller ujevn, men da sammenligner du ditt eget arbeid i stedet for å gjette fra minnet.
 
 Fart er ikke poenget med strikking for de fleste. Men å se at du blir målbar bedre på noe, er tilfredsstillende på en måte som kan være vanskelig i en hobby der fremgang ellers måles i "jeg ble ferdig med et skjerf".
 
@@ -83,9 +83,9 @@ Ikke optimaliser for fart på bekostning av glede. Å strikke raskere betyr lite
 
 Ikke sammenlign tallene dine med andre strikkere. Håndstørrelse, strikkestil, garnpreferanse og erfaring påvirker fart. Noens 40 pinner per time i Fingering sier ingenting om dine 20.
 
-Følg på detaljnivået som er nyttig. Per-økt-data, varighet og pinner, holder for de fleste. Tid per pinne er overkill med mindre du feilsøker et konkret problem.
+Følg på detaljnivået som er nyttig. Per-økt-data, altså varighet og pinner eller omganger, holder for de fleste. Tid per pinne er overdrevet med mindre du feilsøker et konkret problem.
 
-Hvis tracking føles som en plikt i stedet for et verktøy, stopp. Data er bare verdt å samle hvis du faktisk bruker dem. En tracker som går automatisk, som en som er bygget inn i omgangstelleren, har lavest friksjon. Et manuelt regneark som ikke oppdateres på ukevis hjelper ikke.
+Hvis sporing føles som en plikt i stedet for et verktøy, stopp. Data er bare verdt å samle hvis du faktisk bruker dem. En strikketidssporing som ligger i samme flyt som en omgangsteller, har lav friksjon. Et manuelt regneark som ikke oppdateres på ukevis hjelper ikke.
 
 ## Koble tidsdata til prosjektstyring
 
@@ -96,13 +96,13 @@ For strikkere med flere prosjekter viser tid per prosjekt også fordelingsmønst
 ## FAQ
 
 **Hvor nøyaktig må øktsporing være?**
-Innen noen minutter er fint. Hvis du glemte å starte timeren de første fem minuttene eller stoppet ti minutter etter at du la fra deg pinnene, er dataene fortsatt nyttige for trender. Ikke kast en økt fordi tiden ikke var perfekt.
+Innen noen minutter er fint. Hvis du glemte å starte timeren de første fem minuttene eller stoppet ti minutter etter at du la fra deg pinnene, er dataene fortsatt nyttige for trender. Ikke kast en økt fordi tiden ikke var helt presis.
 
 **Blir strikketempo faktisk bedre med øvelse?**
-Ja, målbart. De største hoppene skjer første år eller to. Etter det stabiliserer farten seg med mindre du øver bevisst på nye teknikker. Å bytte strikkestil kan også endre grunnfarten, selv om det kommer en innlæringsdip først.
+Det kan skje, men ikke som en garantert jevn kurve. Kjent garn, gjentatte strukturer, færre feil og mer komfortable håndbevegelser kan alle endre tempoet. En ny teknikk kan først bremse deg og deretter gå raskere når den ikke krever like mye oppmerksomhet.
 
 **Hva er normal strikkefart?**
-Det finnes ingen meningsfull normal. Nybegynnere kan ligge på 10-15 pinner per time i worsted glattstrikk. Erfarne strikkere varierer fra 25 til 50+. Fart avhenger av garntykkelse, maskemønster, pinnetype, strikkestil og hvor mye oppmerksomhet mønsteret krever. Følg dine egne tall og sammenlign med deg selv.
+Det finnes ingen meningsfull normal. Fart avhenger av garntykkelse, struktur, pinnelengde eller omgangslengde, pinnetype, strikkestil og hvor mye oppmerksomhet mønsteret krever. Følg dine egne tall og sammenlign med deg selv.
 
 **Bør jeg følge tid på hvert prosjekt?**
 Følg prosjekter der data er nyttig: plagg med frist, kompliserte prosjekter der du vil anslå gjenstående tid, eller prosjekter der du er nysgjerrig på tempo. Et tankeløst TV-skjerf trenger sannsynligvis ikke øktlogg.

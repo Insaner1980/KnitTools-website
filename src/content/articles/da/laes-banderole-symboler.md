@@ -22,9 +22,9 @@ En banderole fortæller fiberindhold, garntykkelse, anbefalet strikkefasthed, pi
 
 ## Garntykkelsessymbol
 
-Ikonet der ligner et garnnøgle med et tal indeni, er Craft Yarn Councils garntykkelseskategori. Almindelige strikkegarner ligger normalt fra 0 (Lace) til 7 (Jumbo), og CYC har også tilføjet et Size 8-symbol til garn og teknikker uden almindelige pinde eller hæklenål. Kategorien er stadig den hurtigste måde at se, om et garn matcher opskriftens krav.
+Ikonet der ligner et garnnøgle med et tal indeni, er Craft Yarn Councils garntykkelseskategori. Mange banderoler bruger stadig den velkendte nummererede skala fra Lace til Jumbo, og CYC er begyndt at opdatere systemet med Size 8 og flere symboler. Brug tallet som en genvej, men tjek også kategorinavnet og strikkefasthedsfeltet, før du matcher garnet med en opskrift.
 
-Teksten ved siden af siger ofte noget som DK, Worsted eller Bulky. Ikke alle mærker trykker CYC-ikonet, men de fleste angiver en version af garntykkelsens navn. Hvis banderolen kun har et mærkespecifikt navn som "Studio" eller "Soft Touch", så kig i strikkefasthedsfeltet efter spor.
+Teksten ved siden af siger ofte noget som DK, Worsted eller Bulky. Ikke alle mærker trykker CYC-ikonet, og nogle bruger mærkespecifikke navne som "Studio" eller "Soft Touch." Når tykkelsesnavnet er uklart, giver strikkefasthedsfeltet bedre spor.
 
 [Tabellen over garntykkelser](/da/strikkevaerktoejer/garntykkelser/) gennemgår alle kategorier med strikkefastheder og typiske pindestørrelser.
 
@@ -34,17 +34,17 @@ Angives i procent. `100 % merinould`. `75 % akryl, 25 % uld`. `60 % bomuld, 40 %
 
 Vær særlig opmærksom her, når du [skifter garn](/da/artikler/skift-garn-i-strikkeopskrift/). Et DK-garn i uld og et DK-garn i bomuld er begge DK. De kan ramme lignende strikkefasthed. Men stoffet opfører sig slet ikke ens. [Guiden til garnfibre](/da/artikler/garnfibre-sammenlignet/) dækker de forskelle.
 
-Banderoler nævner nogle gange om garnet er superwash, merceriseret eller børstet. Det er ikke pynt. Superwash-uld kan klare maskinvask. Ikke-superwash uld kan ikke. Det er en detalje, du gerne vil opdage, før du slår 300 masker op til et babytæppe.
+Banderoler nævner nogle gange om garnet er superwash, merceriseret eller børstet. Det er ikke pynt. Superwash-uld er behandlet, så det bedre modstår filtning, og det kan være mærket maskinvaskbart. Ikke-superwash uld kræver mildere pleje, fordi varme, fugt og bevægelse kan få det til at filte. Det er en detalje, du gerne vil opdage, før du slår 300 masker op til et babytæppe.
 
 ## Strikkefasthed
 
-Strikkefasthedsfeltet viser et maskeantal og et pindetal over en standardprøve, som regel 10 x 10 cm, plus en foreslået pindestørrelse eller hæklenål.
+Strikkefasthedsfeltet viser et maskeantal og et pindetal over en standardprøve, som regel 10 cm eller 4 in, plus en foreslået pindestørrelse eller hæklenål.
 
 Det er et udgangspunkt. Producenten har strikket en prøve med sin valgte spænding og skrevet resultatet. Dine hænder, dine pinde og din foretrukne stoftæthed kan give noget andet. Lav stadig en strikkeprøve.
 
 ## Vægt og løbelængde
 
-Nøglets vægt i gram og garnets længde i meter, nogle gange også yards. To tal, men længden er den, der betyder noget for projektplanlægning. To nøgler à 100 g kan indeholde meget forskellige mængder garn afhængigt af fiberens tæthed. Derfor arbejder [guiden til garnforbrug](/da/artikler/hvor-meget-garn-skal-du-bruge/) ud fra løbelængde, ikke antal nøgler.
+Nøglets vægt i gram og garnets længde i meter, yards eller begge dele. To tal, men længden er den, der betyder noget for projektplanlægning. To nøgler à 100 g kan indeholde meget forskellige mængder garn afhængigt af fiberens tæthed. Derfor arbejder [guiden til garnforbrug](/da/artikler/hvor-meget-garn-skal-du-bruge/) ud fra løbelængde, ikke antal nøgler.
 
 ## Vaskeanvisninger
 
@@ -66,7 +66,7 @@ Her snubler strikkere: bare fordi garnet kan overleve en tørretumbler, betyder 
 
 **Professionel rens** er en cirkel. P og F i cirklen angiver rensemidler til kemisk rens (perchlorethylen og hydrocarbon). W betyder professionel vådrens, som er en vandbaseret proces, ikke et opløsningsmiddel. De fleste strikkere springer denne del helt over, men den ses på banderoler til silkeblandinger, cashmere og andre fibre, der kan have glæde af professionel pleje.
 
-Symbolerne er ikke forslag. Håndvask-uld filter, hvis det kommer i et almindeligt maskinprogram med varmt vand og bevægelse. En fiber der ikke tåler varme, kommer ud af en varm tørretumbler som en anden ting end den der kom ind.
+Symbolerne er ikke løse forslag. Håndvask-uld kan filte, hvis det kommer i et almindeligt maskinprogram med varmt vand og bevægelse. En fiber der ikke tåler varme, kan komme ud af en varm tørretumbler som en anden ting end den der kom ind.
 
 ## Farveparti og farvenummer
 
@@ -78,7 +78,7 @@ Det er her folk bliver fanget. To forskellige tal, to forskellige formål, og fo
 
 Køb alt garn til projektet fra samme farveparti. Hvert eneste nøgle. Hvis du ikke kan, hjælper det at skifte mellem nøgler hver anden pind, så overgangen blandes, og en eventuel farveforskel ikke lander som en hård linje.
 
-Nogle garner er mærket `no dye lot`, hvilket betyder at producenten forventer ens farve fra parti til parti. Håndfarvet garn varierer derimod næsten altid fra nøgle til nøgle. Det er en del af charmen, men det betyder også, at skift mellem nøgler er standard.
+Nogle garner er mærket `no dye lot`, hvilket betyder at producenten forventer ens farve fra parti til parti. Håndfarvet garn varierer derimod ofte fra nøgle til nøgle. Det er en del af charmen, men det betyder også, at skift mellem nøgler er en nyttig sikkerhed.
 
 ## Oprindelsesland og mærke
 
@@ -94,15 +94,15 @@ Intet om holdbarhed heller. Hvor meget garnet piller, om det bliver blødere ell
 
 Og strikkefasthedsfeltet er producentens resultat, ikke dit. Brug det som reference, ikke garanti.
 
-KnitTools' [banderolescanner](/) læser en banderole med telefonkameraet og gemmer alt som et digitalt garnkort. Praktisk når papirbanderolen er på vej ned i en projektpose og aldrig kommer tilbage.
+Skriv de vigtigste banderoleoplysninger i dine projektnoter med det samme: garntykkelse, løbelængde, fiberindhold, farvenummer og farveparti. Det er meget nemmere, før papirbanderolen forsvinder ned i en projektpose og aldrig kommer tilbage.
 
 ## FAQ
 
 **Hvad hvis banderolen er på et sprog, jeg ikke kan læse?**
-Plejesymbolerne og garntykkelsesikonet er standardiseret internationalt. De ser ens ud uanset sprog.
+Plejesymbolerne gør dig mindre afhængig af sproget, og garntykkelsesikoner følger ofte CYC-konventioner. Tjek stadig strikkefasthedsfeltet og fiberprocenterne, hvis teksten er ukendt.
 
 **Banderolen siger strikkefasthed over 10 x 10 cm, men min opskrift bruger 4 x 4 tommer. Er det det samme?**
-Tæt nok. 10 cm er 3,94 tommer, så de fleste strikkere behandler 10 x 10 cm og 4 x 4 tommer som udskiftelige.
+Næsten, men ikke helt. 10 cm er cirka 3,94 tommer. Hvis opskriften angiver strikkefasthed over 10 cm, så mål 10 cm. Hvis den angiver 4 in, så mål 4 in.
 
 **Skal jeg gemme banderolen?**
 Ja. I hvert fald til projektet er færdigt og vasket.
