@@ -1,393 +1,446 @@
 # KnitTools Website — Project Documentation
 
-> Tila 2026-05-14. Landing page on v11 retro-tyyliin (Lalezar display + General Sans body + Teko logo). Tool-sivut perivät samat fontit jaettujen CSS-muuttujien kautta. 38 SEO-artikkelia 5 kategoriassa julkaistu myös hollanniksi, regionaalinen hinnoittelu (US/EU/UK + maakohtaiset tierit) käytössä, MailerLite-signup integroitu.
+> Tila 2026-06-01. Tämä dokumentti kuvaa nykyistä checkoutia, ei tavoitetilaa.
+> Tarkastetut lähteet: `package.json`, `package-lock.json`,
+> `astro.config.mjs`, `src/pages/`, `src/components/`, `src/i18n/`,
+> `src/content.config.ts`, `src/content/articles/`, `src/config/`,
+> `src/styles/`, `public/`, `scripts/` ja `sonar-project.properties`.
 
 ## Overview
 
-KnitTools on Android-neulontasovelluksen (pre-launch) markkinointisivusto + kuusi ilmaista selainpohjaista työkalua + 38 julkaistua SEO-artikkelia. Staattinen Astro 6 -sivusto.
+KnitTools Website on Astro 6 -staattinen sivusto Android-neulontasovelluksen
+pre-launch-markkinointiin, ilmaisille selainpohjaisille neuletyökaluille ja
+monikieliselle artikkelisisällölle.
 
-- **URL:** https://knittoolsapp.com (Cloudflare Pages, manuaalinen `wrangler pages deploy ./dist`)
+- **URL:** `https://knittoolsapp.com`
 - **Tekijä:** Finnvek
-- **Tila:** Pre-launch — hero ja CTA:t ohjaavat waitlist-lomakkeeseen, ei kauppalinkkejä
-- **Pro-hinta (default/US):** $9.99 launch → $14.99 regular myöhemmin
-- **Pro-hinta (EU):** €9.99 launch → €14.99 regular myöhemmin
-- **Pro-hinta (UK):** £8.99 launch → £12.99 regular myöhemmin
-- **Pro-hinnat (maakohtaiset tierit):** NO, SE, DK, IS, CH, CA, AU, NZ, JP, BR, IN, MX, ZA
-- **Trial:** 14 päivää, ei luottokorttia
-- **Launch-ajankohta (UI-merkkijono):** "Summer 2026"
-- **Riippuvuudet (`package.json`):** `astro ^6.1.3`, `@astrojs/sitemap ^3.7.2`, `sharp ^0.33.5`, `gsap ^3.15.0`
-- **Skriptit:** `npm run dev` (:4321) · `npm run build` → `dist/` · `npm run preview`
-- **Astro-config:** `site: 'https://knittoolsapp.com'`, `output: 'static'`, `build.assets: '_assets'`, `@astrojs/sitemap` integraatio
+- **Tila:** pre-launch. Hero ja CTA:t keräävät waitlist-sähköposteja, eikä
+  sivustolla ole Google Play -kauppalinkkiä.
+- **Pääsisältö:** landing page, `/about/`, 6 ilmaista työkalua, 38 artikkelia
+  per kieli, 8 julkista sivustokieltä.
+- **Sisältömäärä checkoutissa:** 304 artikkelitiedostoa:
+  `en`, `fi`, `de`, `sv`, `no`, `fr`, `nl`, `da` = 38 kpl/kieli. Kaikissa
+  kahdeksassa kielessä `draft: false` = 38 ja `draft: true` = 0.
+- **Tuotantobuildin odotettu sivumäärä:** 411 HTML-sivua, kun kaikki nykyiset
+  julkaistut kieliversiot generoidaan.
+- **Hinnoittelu UI:ssa:** launch-hinta + regular-hinta alueellisen tierin
+  mukaan, 14 päivän trial, launch-label `Summer 2026`.
+- **Signup-endpoint:** `https://api.finnvek.com/subscribe`, käytössä Herossa ja
+  `ClosingCTA`-komponentissa. Lomakkeissa on honeypot-kenttä `website`.
 
----
+## Dependencies
 
-## Reitit
+`package.json` määrittelee version ranget, ja `package-lock.json` kertoo
+nykyisen asennetun/resolvoidun version.
 
-| Polku | Sivu |
-|-------|------|
-| `/` | Landing page (v11 retro) |
-| `/tools/` | Tools bento (6 kortin grid) |
-| `/tools/cast-on-calculator` | Cast On Calculator |
-| `/tools/yarn-estimator` | Yarn Estimator |
-| `/tools/needle-size-chart` | Needle Size Chart |
-| `/tools/yarn-weight-chart` | Yarn Weight Chart |
-| `/tools/knitting-abbreviations` | Knitting Abbreviations |
-| `/tools/knitting-size-charts` | Knitting Size Charts |
-| `/articles` | Artikkelilista (5 kategoriasectionia) |
-| `/articles/[...slug]` | Yksittäinen artikkeli |
-| `/articles/category/[slug]` | Kategorian arkistosivu (5 kategoriaa) |
-| `/nl/breitools/` | Hollanninkielinen tools bento |
-| `/nl/breitools/[slug]` | Hollanninkieliset työkalusivut (6) |
-| `/nl/artikelen/` | Hollanninkielinen artikkelilista |
-| `/nl/artikelen/[...slug]` | Hollanninkielinen artikkeli |
-| `/nl/artikelen/categorie/[slug]` | Hollanninkielinen kategoria |
+| Paketti            | `package.json` | `package-lock.json` |
+| ------------------ | -------------- | ------------------- |
+| `astro`            | `^6.1.3`       | `6.2.1`             |
+| `@astrojs/sitemap` | `^3.7.2`       | `3.7.2`             |
+| `sharp`            | `^0.33.5`      | `0.33.5`            |
+| `gsap`             | `^3.15.0`      | `3.15.0`            |
+| `@astrojs/check`   | `0.9.9`        | `0.9.9`             |
+| `eslint`           | `10.3.0`       | `10.3.0`            |
+| `prettier`         | `3.8.3`        | `3.8.3`             |
+| `typescript`       | `6.0.3`        | `6.0.3`             |
 
----
+Ennen dependency-päivityksiä tarkista npm registry ja virallinen dokumentaatio
+uudelleen. Tämä dokumentti ei ole "latest version" -lähde.
 
-## Layout-hierarkia
+## Commands
 
+```bash
+npm run dev            # Astro dev-serveri, oletus localhost:4321
+npm run check          # astro check
+npm run lint           # ESLint src/**/*.{astro,js,ts} + Astro/ESLint configit
+npm run format         # Prettier write src, scripts ja root js/mjs/json
+npm run format:check   # Prettier check samoille kohteille
+npm run build          # Staattinen build dist/-kansioon
+npm run preview        # Astro preview buildatulle versiolle
+npm run verify         # check + lint + format:check + build
+npm run test:seo       # Node-testit SEO-auditskripteille
+npm run seo:audit      # Paikallisen dist/-buildin SEO- ja linkkiaudit
+npm run seo:urls       # Paikallisen sitemapin vertailu live-sitemapiin
+npm run seo:live       # Tuotannon live SEO-, sitemap-, robots- ja linkkiaudit
+npm run seo:gate       # Lukee reports/-SEO-raportit strict release gateen
+npm run verify:seo     # build + local SEO + URL-pariteetti + live SEO + gate
+npm run verify:release # check + lint + format:check + test:seo + verify:seo
+npm run astro          # alias: npm run verify
+sonar                  # SonarCloud-skannaus, raportit reports/sonar*.*
 ```
+
+`reports/`, `dist/`, `.astro/`, `.sonar/`, `.scannerwork/`, `.wrangler/` ja
+`node_modules/` ovat gitignoressa. `AGENTS.md` on myös gitignoressa tässä
+checkoutissa.
+
+## Astro & Deployment
+
+- `astro.config.mjs`: `site: "https://knittoolsapp.com"`, `output: "static"`,
+  `trailingSlash: "always"`, `build.assets: "_assets"`,
+  `markdown.shikiConfig.theme: "github-light"` ja `@astrojs/sitemap`.
+- `public/_redirects`: `/sitemap.xml /sitemap-index.xml 301`.
+- `public/robots.txt`: sallii kaiken ja osoittaa
+  `https://knittoolsapp.com/sitemap-index.xml`.
+- `public/security.txt`: security disclosure -tiedosto.
+- Tuotantodeploy tehdään Cloudflare Pages Direct Uploadina:
+  `npx wrangler pages deploy ./dist --project-name knittoolsapp --branch main`.
+- Ennen deployta projektiohjeen mukaan commitoidaan ja pushataan GitHubiin,
+  varmistetaan `git rev-list --left-right --count HEAD...@{u}` = `0 0`, ja
+  deployataan sama paikallinen commit.
+
+## Layout Architecture
+
+```text
 BaseLayout.astro
- ├─ <head>: title/desc/canonical, OG, Twitter, favicons (.ico/.webp),
- │  fonttien preload (lalezar.woff2, general-sans-400/500.woff2, teko-500-subset.woff2)
- ├─ <body class={bodyClass}>: skip-link, .page-wrapper, IntersectionObserver
- │  .reveal-luokille, regionaalisen hinnan client-script (Cloudflare /cdn-cgi/trace
- │  → tier-resoluutio → RegionalPrice-komponentin data-{tier}-attribuutteihin)
- └─ PageLayout.astro (Navbar + <main id="main-content"> + Footer)
-     └─ index.astro            → Hero, Marquee, NineTools, FreeToolsCallout,
-     │                           TrustSection, PullQuote, PricingCards, ClosingCTA
-     └─ tools/index.astro      → Tools bento + ClosingCTA(variant="page")
-     └─ tools/<slug>.astro     → Tool-sivu (cream hero, calc/chart, SEO, FAQ, CTA)
-     └─ articles/index.astro   → Kategoria-sectionit + ClosingCTA
-     └─ articles/category/[slug].astro → ArticleCard-grid
-     └─ nl/breitools/[...slug].astro → NL tools index + 6 tool pages
-     └─ nl/artikelen/[...slug].astro → NL article index/category/detail
-     └─ ArticleLayout.astro    → yksittäinen artikkeli (.prose-typografia)
+  - global.css import
+  - canonical, hreflang, OG, Twitter, favicons, font preloadit
+  - Cloudflare Web Analytics script
+  - reveal IntersectionObserver
+  - alueellisen hinnoittelun client-script (/cdn-cgi/trace + navigator fallback)
+
+PageLayout.astro
+  - välittää metadata-propit BaseLayoutille
+  - renderöi Navbar, <main id="main-content"> ja Footer
+  - showStripe-prop on rajapinnassa, mutta sitä ei käytetä
+
+ArticleLayout.astro
+  - PageLayout + Article JSON-LD
+  - lokalisoitu byline/päivämäärä/kategorianimi
+  - ClosingCTA variant="page"
 ```
 
-`PageLayout`-prop `showStripe` on yhä rajapinnassa (vanhojen tool-sivujen vuoksi) mutta **no-op** — StripeRibbon ja PageBrandMark on poistettu käytöstä.
+`BaseLayout`in `lang` käyttää sisäistä `Lang`-tyyppiä. Norja on sisäisesti
+`no`, mutta `getHtmlLang("no")` palauttaa `nb` ja locale on `nb_NO`.
 
----
+## Routing & i18n
 
-## Landing page (v11 retro)
+Englanti on oletuskieli ilman `/en/`-prefiksiä. Älä lisää julkisia `/en/`
+-reittejä, koska nykyiset englanninkieliset URLit ovat indeksoituja. Reittien
+pääasiallinen lähde on `src/i18n/routes.ts`.
 
-`src/pages/index.astro` importoi 7 osiokomponenttia + Hero, lisää SoftwareApplication JSON-LD:n (offers.price US-hinnasta, availability `https://schema.org/PreOrder`, inLanguage 11 kieltä) ja kääri sisällön `PageLayout`-elementillä.
+| Lang | Tools index               | Articles index    | Category prefix             | Article prefix    |
+| ---- | ------------------------- | ----------------- | --------------------------- | ----------------- |
+| `en` | `/tools/`                 | `/articles/`      | `/articles/category/`       | `/articles/`      |
+| `fi` | `/fi/tyokalut/`           | `/fi/artikkelit/` | `/fi/artikkelit/kategoria/` | `/fi/artikkelit/` |
+| `de` | `/de/werkzeuge/`          | `/de/artikel/`    | `/de/artikel/kategorie/`    | `/de/artikel/`    |
+| `sv` | `/sv/verktyg/`            | `/sv/artiklar/`   | `/sv/artiklar/kategori/`    | `/sv/artiklar/`   |
+| `no` | `/no/verktoy/`            | `/no/artikler/`   | `/no/artikler/kategori/`    | `/no/artikler/`   |
+| `fr` | `/fr/outils/`             | `/fr/articles/`   | `/fr/articles/categorie/`   | `/fr/articles/`   |
+| `nl` | `/nl/breitools/`          | `/nl/artikelen/`  | `/nl/artikelen/categorie/`  | `/nl/artikelen/`  |
+| `da` | `/da/strikkevaerktoejer/` | `/da/artikler/`   | `/da/artikler/kategori/`    | `/da/artikler/`   |
 
-### Osioiden järjestys
+### Tool Routes
+
+| Työkalu        | `en`                             | `fi`                              | `de`                                       | `sv`                                      | `no`                                        | `fr`                                       | `nl`                                 | `da`                                                |
+| -------------- | -------------------------------- | --------------------------------- | ------------------------------------------ | ----------------------------------------- | ------------------------------------------- | ------------------------------------------ | ------------------------------------ | --------------------------------------------------- |
+| Cast On        | `/tools/cast-on-calculator/`     | `/fi/tyokalut/silmukkalaskuri/`   | `/de/werkzeuge/maschenanschlag-rechner/`   | `/sv/verktyg/upplaggningskalkylator/`     | `/no/verktoy/oppleggskalkulator/`           | `/fr/outils/calculateur-mailles-a-monter/` | `/nl/breitools/opzetcalculator/`     | `/da/strikkevaerktoejer/opslagsberegner/`           |
+| Yarn Estimator | `/tools/yarn-estimator/`         | `/fi/tyokalut/lankamuunnin/`      | `/de/werkzeuge/garnbedarfsrechner/`        | `/sv/verktyg/garnatgangskalkylator/`      | `/no/verktoy/garnberegner/`                 | `/fr/outils/estimateur-quantite-laine/`    | `/nl/breitools/garenberekenaar/`     | `/da/strikkevaerktoejer/garnberegner/`              |
+| Needle Sizes   | `/tools/needle-size-chart/`      | `/fi/tyokalut/puikkokoot/`        | `/de/werkzeuge/nadelstaerken-tabelle/`     | `/sv/verktyg/stickstorlekar/`             | `/no/verktoy/pinnestorrelser/`              | `/fr/outils/tailles-aiguilles/`            | `/nl/breitools/naalddiktes/`         | `/da/strikkevaerktoejer/pindestoerrelser/`          |
+| Yarn Weights   | `/tools/yarn-weight-chart/`      | `/fi/tyokalut/lankavahvuudet/`    | `/de/werkzeuge/garnstaerken-tabelle/`      | `/sv/verktyg/garntjocklekar/`             | `/no/verktoy/garntykkelser/`                | `/fr/outils/epaisseurs-de-fil/`            | `/nl/breitools/garendiktes/`         | `/da/strikkevaerktoejer/garntykkelser/`             |
+| Abbreviations  | `/tools/knitting-abbreviations/` | `/fi/tyokalut/neulelyhenteet/`    | `/de/werkzeuge/strickabkuerzungen/`        | `/sv/verktyg/stickforkortningar/`         | `/no/verktoy/strikkeforkortelser/`          | `/fr/outils/abreviations-tricot/`          | `/nl/breitools/breiafkortingen/`     | `/da/strikkevaerktoejer/strikkeforkortelser/`       |
+| Size Charts    | `/tools/knitting-size-charts/`   | `/fi/tyokalut/neulekokotaulukot/` | `/de/werkzeuge/groessentabellen-stricken/` | `/sv/verktyg/storlekstabeller-stickning/` | `/no/verktoy/storrelsestabeller-strikking/` | `/fr/outils/tableaux-tailles-tricot/`      | `/nl/breitools/maattabellen-breien/` | `/da/strikkevaerktoejer/stoerrelsestabeller-strik/` |
+
+### Route File Patterns
+
+- English tools and articles use static `src/pages/tools/*.astro`,
+  `src/pages/articles/index.astro`, `src/pages/articles/category/[slug].astro`
+  and `src/pages/articles/[...slug].astro`.
+- FI, DE and SV article index/category/detail routes are split into separate
+  page files.
+- NO, FR, NL and DA article index/category/detail routes are combined in one
+  catch-all file per language: `src/pages/{lang}/.../[...slug].astro`.
+- NL and DA tool routes are generated through catch-all tool page files and
+  component maps. Other localized tool routes use separate `.astro` files.
+
+## Content Collection
+
+`src/content.config.ts` defines one collection: `articles`.
+
+Required frontmatter fields:
+
+- `title`
+- `description`
+- `category`
+- `publishDate`
+
+Optional/defaulted frontmatter fields:
+
+- `browserTitle`
+- `updatedDate`
+- `categoryOrder`
+- `tags` default `[]`
+- `draft` default `false`
+- `lang` default `en`
+- `translationKey`
+- `readTime`
+
+Valid categories are:
+
+| Slug                 | English label        | Current count per language |
+| -------------------- | -------------------- | -------------------------- |
+| `gauge-calculations` | Gauge & Calculations | 6                          |
+| `yarn`               | Yarn                 | 9                          |
+| `needles`            | Needles              | 3                          |
+| `techniques`         | Techniques           | 13                         |
+| `app-tools`          | App & Tools          | 7                          |
+
+`src/i18n/articles.ts` contains 38 `articleTranslations` entries. Each entry
+has paths for all 8 published languages. English root articles do not need
+`translationKey` in frontmatter; localized articles currently have it.
+
+Draft policy still exists in route files: localized article routes include
+drafts in dev (`import.meta.env.DEV`) and filter drafts out in production.
+Current checkout has no draft article in any language.
+
+## Localization
+
+Shared i18n modules:
+
+- `src/i18n/config.ts`: languages, `Lang`, locales, `getHtmlLang`, `SITE_URL`.
+- `src/i18n/routes.ts`: public route source of truth.
+- `src/i18n/articles.ts`: article translation map, localized fallback paths and
+  route slug helpers.
+- `src/i18n/ui.ts`: shared UI strings for nav/footer/article chrome/CTA.
+- `src/i18n/tools.ts`: generic tools index helper.
+- `src/i18n/dutchTools.ts`: NL tool routes and labels.
+- `src/i18n/danishTools.ts`: DA tool routes, labels and tool alternates.
+
+Term guides at repository root:
+
+- `FINNISH_TRANSLATION_GUIDE.md`
+- `GERMAN_TRANSLATION_STYLE_GUIDE.md`
+- `SWEDISH_TRANSLATION_GUIDE.md`
+- `NORWEGIAN_TRANSLATION_GUIDE.md`
+- `FRENCH_TRANSLATION_GUIDE.md`
+- `DUTCH_TRANSLATION_GUIDE.md`
+- `DANISH_TRANSLATION_GUIDE.md`
+
+## Landing Page
+
+`src/pages/index.astro` renders:
 
 1. `Hero`
 2. `Marquee`
 3. `NineTools`
 4. `FreeToolsCallout`
 5. `TrustSection`
-6. `PullQuote` (lainaus: *"One tool for every row. One price for every needle. One app for every project."*)
+6. `PullQuote`
 7. `PricingCards`
-8. `ClosingCTA` (variant `"hero"`)
+8. `ClosingCTA`
 
-(Navbar + Footer tulevat PageLayoutista.)
+Navbar and Footer come from `PageLayout`.
 
-> Huom: `index.astro` **ei** aseta `bodyClass="landing"`, joten landing renderöityy oletuspaletilla (paper-tausta + ink-teksti). `body.landing`-skooppi (käännetty paletti, ink-tausta) on `global.css`:ssä määriteltynä mutta ei tällä hetkellä käytössä.
+Current landing JSON-LD is an `@graph` with:
 
----
+- `Organization`: Finnvek, `contact@finnvek.com`, social `sameAs` URLs.
+- `SoftwareApplication`: KnitTools Android app, `publisher` Finnvek,
+  `offers.price` from `getStructuredPrice()` and `priceCurrency: "USD"`.
 
-## Design-järjestelmä
+`offers.availability` is not present in current code.
 
-### Värit (`src/styles/global.css :root`)
+### Current Landing Components
 
-**v11 editorial -paletti (landing + uudet tool-sivut käyttävät näitä):**
+- `Hero`: editorial two-column layout. Left side is a large Teko `KnitTools`
+  wordmark and tagline. Right side is signup card. There is no phone mockup or
+  Three.js hero phone in current `Hero.astro`.
+- `Marquee`: terracotta strip with duplicated feature terms and 40s scroll
+  animation.
+- `NineTools`: 5 free cards and 3 Pro cards:
+  - Free: Saved row counter, Pattern viewer with row notes, Four knitting
+    calculators, Ravelry, Reference library.
+  - Pro: Progress photos, Project stats, Home-screen counter widget.
+  - The language chip row lists 11 app languages, but the website UI/content is
+    currently public in 8 languages.
+- `FreeToolsCallout`: links to the 6 public free tools.
+- `TrustSection`: 3 principle cards: Price, Privacy, Languages.
+- `PricingCards`: Free card has 7 bullets, Pro card has 4 bullets in current
+  code. The visible copy includes "No subscription, ever.".
+- `ClosingCTA`: localized waitlist CTA with the same Finnvek API endpoint.
+
+## Design System
+
+### Fonts
+
+Self-hosted files in `public/fonts/`:
+
+| File                     | Role                                      |
+| ------------------------ | ----------------------------------------- |
+| `lalezar.woff2`          | display font, `--font-display`, `--serif` |
+| `general-sans-400.woff2` | body 400                                  |
+| `general-sans-500.woff2` | body 500                                  |
+| `general-sans-600.woff2` | body 600                                  |
+| `teko-400-subset.woff2`  | logo 400 subset                           |
+| `teko-500-subset.woff2`  | logo 500 subset                           |
+
+`BaseLayout` preloads Lalezar, General Sans 400/500 and Teko 500.
+
+### Colors and Tokens
+
+Current editorial palette in `src/styles/global.css`:
 
 ```css
---paper:       #F4EAD9;   --paper-2:     #EADFC9;
---ink:         #2A1E17;   --ink-soft:    #4A382C;
---terracotta:  #A05038;   --sage:        #5B8072;
---walnut:      #6B4332;   --amber:       #C2703E;
---amber-hover: #A05F32;   --wheat:       #C4A661;
+--paper: #f4ead9;
+--paper-2: #eadfc9;
+--ink: #2a1e17;
+--ink-soft: #4a382c;
+--terracotta: #a05038;
+--sage: #5b8072;
+--walnut: #6b4332;
+--amber: #c2703e;
+--amber-hover: #a05f32;
+--wheat: #c4a661;
 ```
 
-**Stripe-johdannainen paletti (käytössä jaettuna kaikille korttivariantteille):**
+Stripe-derived card palette is still used by tool/article cards:
 
 ```css
---stripe-terracotta: #A05038;  --stripe-rust:  #C2703E;
---stripe-sand:       #C4A661;  --stripe-brown: #6B4332;
---stripe-teal:       #5B8072;
+--stripe-terracotta: #a05038;
+--stripe-rust: #c2703e;
+--stripe-sand: #c4a661;
+--stripe-brown: #6b4332;
+--stripe-teal: #5b8072;
 ```
 
-**Vanha v10-paletti (`--dark`, `--cream`, `--accent` #C45100, `--avocado`, `--mustard`, `--dusty-rose`) on yhä määritelty taustaa varten — tool-sivujen vanhat scoped-tyylit tarvitsevat osan näistä.**
+Legacy variables still exist in `global.css` (`--dark`, `--cream`, `--accent`,
+`--avocado`, `--mustard`, `--dusty-rose`, `--bebas-*`) because older shared
+tool styles and token names still reference them. The actual font aliases now
+point to Lalezar / General Sans / Teko, not Geist or Bebas Neue.
 
-### Typografia
+`body.landing` defines an inverted dark palette, but `src/pages/index.astro`
+does not pass `bodyClass="landing"`, so the landing currently renders with the
+default paper/ink palette.
 
-| Muuttuja | Fontti | Käyttö |
-|----------|--------|--------|
-| `--font-display` / `--serif` | **Lalezar** 400 | H1, H2, H3, kortit, drop caps |
-| `--font-body` / `--body-ed` / `--mono` | **General Sans** 400/500/600 | Body, eyebrow-labelit, napit, microcopy |
-| `--font-logo` | **Teko** 400/500 | Hero-wordmark, navbar-brand |
+## Tool Pages
 
-Lalezar-display on yksipainoinen — italic-emfaasi (`<em>`) renderöityy selaimen synthesoidulla kursiivilla. `--mono`-alias osoittaa General Sansiin (ei oikeaa monospacea), koska "mono"-roolissa käytetään small-caps-tracking-otsikoita.
+Public tools:
 
-Landingin section-otsikot (`NineTools`, `FreeToolsCallout`, `TrustSection`, `PricingCards`) käyttävät yhteistä `--landing-section-title-size`-tokenia: 2.75rem mobiililla, 4.75rem tablet/desktopissä ja 5.25rem leveällä desktopilla. Korttien sisäotsikot pysyvät omissa pienemmissä H3-asteikoissaan.
+1. Cast On Calculator
+2. Yarn Estimator
+3. Needle Size Chart
+4. Yarn Weight Chart
+5. Knitting Abbreviations
+6. Knitting Size Charts
 
-`<style>`-typografian rinnalla `src/styles/typography.css` määrittelee semanttiset tokenit (`--ts-h1-tool-size`, `--ts-h2-size`, `--ts-faq-summary-weight` jne.) joita tool-sivut yhä hyödyntävät.
+`/tools/` uses a 12-column bento grid:
 
-### Fontit (`public/fonts/`)
+- Top row: Cast On + Yarn Estimator, each 6 columns.
+- Bottom row: four reference cards, each 3 columns.
+- <=1024px: 2 columns.
+- <=768px: 1 column.
+- JSON-LD `CollectionPage` with 6 `ItemList` entries.
 
-| Tiedosto | Käyttö |
-|----------|--------|
-| `lalezar.woff2` | Display 400 (preloaded) |
-| `general-sans-400.woff2` | Body 400 (preloaded) |
-| `general-sans-500.woff2` | Body 500 (preloaded) |
-| `general-sans-600.woff2` | Body 600 |
-| `teko-400-subset.woff2` | Logo 400, KnitTools-sanamerkin subset |
-| `teko-500-subset.woff2` | Logo 500, KnitTools-sanamerkin subset (preloaded) |
+Shared implementation notes:
 
-### Pisteruudukko-utility
+- `CastOnCalculator.astro` and `YarnEstimator.astro` are shared calculator
+  components.
+- `ToolStructuredData.astro` emits `WebApplication` JSON-LD and optional
+  `FAQPage` JSON-LD.
+- `LocalizedToolPage.astro` is the shared localized tool page wrapper. It adds
+  localized metadata, back link, tool slot, SEO content slot, FAQ and
+  `ClosingCTA`.
+- `FinnishToolPage.astro` is a legacy wrapper around `LocalizedToolPage` with
+  `lang="fi"`.
+- `WpiIdentifier.astro` is shared by all yarn-weight pages in all 8 languages.
 
-`.dot-grid-paper` lisää 3% opaciteetilla radial dot patternin — utility on määritelty komponenttitasolla (Hero, ClosingCTA), ei globaalisti.
+## Articles
 
----
+Article listing behavior:
 
-## Komponentit
+- Index pages group articles by `CATEGORY_ORDER`.
+- Each category preview shows the first 3 articles by `categoryOrder`.
+- Category pages show all articles in that category.
+- `ArticleCard` uses category color classes from `CATEGORY_COLORS`.
 
-### Navbar (`src/components/Navbar.astro`)
-- Fixed top, `z-index: 50`, transparent default. Scrolli (`window.scrollY > 80`) → `paper`-tausta + `ink`-bottom-border
-- Vasen: `<a class="brand-mark">KnitTools</a>` Teko-fontilla, fontti-koko 28px (mob 22px)
-- Oikea: Tools / Articles / **Join the list** (outline-pill `1.5px ink`-reunuksella, hover → ink-fill cream-tekstillä)
+Article detail behavior:
 
-### Hero (`src/components/Hero.astro`) — ei puhelinmockia
-Editorial-tyylinen 2-palstainen layout (1.5fr / 1fr, mob: 1 sarake):
+- `ArticleLayout` emits Article JSON-LD.
+- Canonical path comes from `getArticlePath()`.
+- `alternates` comes from `getArticleAlternates()` when `translationKey` has a
+  mapping.
+- Date locale is language-specific (`fi-FI`, `de-DE`, `sv-SE`, `nb-NO`,
+  `fr-FR`, `nl-NL`, `da-DK`, fallback `en-US`).
 
-- **Vasen (`.hero-text`):**
-  - Eyebrow "An Android app for knitters" (terracotta, General Sans 600 small-caps)
-  - **Wordmark** "Knit / Tools" kahdessa rivissä, Teko 500, `clamp(64px, 12vw, 180px)`, line-height 0.75 — hallitseva visuaalinen ankkuri
-  - Tagline italic kahdella rivillä: *"From cast on to bind off, **one app keeps up.**"* (terracotta korostus toisella rivillä)
-- **Oikea (`<aside class="signup-card">`):** paper-2-tausta, 1.5px ink reunus
-  - Card-head "Coming Summer 2026" (terracotta small-caps)
-  - Card-copy "Be first to know when KnitTools launches on Google Play."
-  - Email-form (action `#`, JS-handler postaa `https://api.finnvek.com/subscribe` JSON-bodylla `{ email, source: 'knittools', website }`, `website` on honeypot)
-  - Submit-nappi "Notify me at launch" (ink solid -nappi, hover → terracotta)
-  - Card-caption: "Launch price `<RegionalPrice phase="launch" />`. Regular price `<RegionalPrice phase="permanent" />` later.", 14-day trial, `RegionalPricingNote`
-  - Success: "You're in. We'll email you at launch."
-  - Error: "Something went wrong. Please try again." / "Network error. Please check your connection."
+## Brand, Footer and Structured Data
 
-### Marquee (`src/components/Marquee.astro`)
-- **Terracotta-tausta** `#A05038`, cream-teksti `#F4EAD9`
-- 20 termiä duplikoituna (Projects, Row counter, Pattern viewer, Saved patterns, Yarn label scanner, My Yarn, Gauge calculator, Cast on calculator, Yarn estimator, Increase / decrease, Needle sizes, Size charts, Abbreviations, Chart symbols, Ravelry search, Progress photos, Session history, Insights, Row counter widget, Voice commands)
-- General Sans 500 small-caps 13px, cream-pisteet erottimina
-- 40 s `@keyframes scroll`, pausee `prefers-reduced-motion`-tilassa
+`src/config/brand.ts` is the shared brand source for:
 
-### NineTools (`src/components/NineTools.astro`)
-Section-eyebrow "Features", H2 *"Your knitting tools, in one project home."*, manifesto-paragraph alla.
+- `SITE_URL`
+- Finnvek URL
+- `contact@finnvek.com`
+- `Organization` and `SoftwareApplication` IDs
+- Instagram, TikTok, YouTube and X profile URLs
 
-Sisäinen rakenne kahdessa tieressä **tier-headerillä** (`.tier-head`: tier-label terracotta + tier-count + ohut `ink`-viiva loppuun):
+Footer behavior:
 
-- **Free forever (5 korttia):**
-  - Counter (span 2, chip-rivi 11 kielellä: English, Suomi, Svenska, Dansk, Norsk, Nederlands, Deutsch, Français, Italiano, Português, Español)
-  - Pattern (amber-tint)
-  - Calc
-  - Ravelry (walnut-tint)
-  - Reference
-- **Pro `<RegionalPrice phase="launch" />` (5 korttia):**
-  - Stash (sage-tint, span 2)
-  - Photos
-  - Insights
-  - Widget (terracotta-tint)
-  - **AI-kortti** `<article class="tool-card tint-sage wide ai-card">` koko leveys (`grid-column: 1 / -1`):
-    - Vasen (`.ai-intro`): H3 *"AI that knows knitting"*, intro-paragraph, mic-area (sonar-renkaat + mic-ikoni + "Listening"-status)
-    - Oikea: 4-rivinen `.ai-list` ilman numerointia (Live voice on the counter / Pattern intelligence / Stash and project memory / Voice or text journal)
-    - Alaosa (`.ai-broadcast`): JS-piirretty 44-bar `big-wave` -aaltografiikka (4 random-keyframe-varianttia, pausee reduced-motion) + transcript-paneeli ("Transcript · Live", "Row 85", typing-loop YOU/AI dialogissa kolmen lauseparin yli)
+- Tools links are localized for all 8 languages.
+- Article category links are localized for all 8 languages.
+- App section contains "Launching soon", `/about/` and Finnvek privacy policy.
+- Footer bottom shows Finnvek link and `contact@finnvek.com`.
+- Footer seal image is `/logo.webp`.
 
-Kortit: oletus `wheat`-tausta + ink-teksti, tint-variantit `tint-sage`, `tint-walnut`, `tint-amber`, `tint-terracotta`, `tint-ink` muuttavat värin paper-tekstiksi. Lalezar H3 (`clamp(1.5rem, 1.9vw, 1.9rem)`), General Sans 11px tag-label.
+`/about/` is an English About/Finnvek trust page with `Organization`,
+`SoftwareApplication`, `AboutPage` and `BreadcrumbList` JSON-LD.
 
-### FreeToolsCallout (`src/components/FreeToolsCallout.astro`)
-Keskitetty 1120px max-width:
-- Eyebrow "Free tools"
-- H2 "Use them right here, no install."
-- 6 pill-linkkiä stripe-väreillä: Cast On (terracotta), Yarn Estimator (amber), Yarn Weights (wheat — ink-teksti), Needle Sizes (sage), Size Charts (walnut), Abbreviations (paper-fill, ink-teksti)
-- "See all tools →" italic-linkki `/tools/`:iin
+## SEO & Release Tooling
 
-### TrustSection (`src/components/TrustSection.astro`)
-3-saraketta (mob 1), section-eyebrow "Principles", H2 *"What you can count on."*
+Scripts in `scripts/`:
 
-| # | Eyebrow | Otsikko | Tint |
-|---|---------|---------|------|
-| 1 | Price | "Pay once. *Own it.*" | wheat-default |
-| 2 | Privacy | "No tracking. *No ads.*" | sage |
-| 3 | Languages | "Speaks *your language.*" | wheat-default |
+- `seo-audit.mjs`
+- `live-seo-audit.mjs`
+- `url-parity-audit.mjs`
+- `seo-release-gate.mjs`
+- matching `node --test` files for those scripts
+- `migrate-articles.mjs`
+- `fix-em-dashes.py`
 
-Price-kortti renderöi `RegionalPrice phase="launch"` ja `phase="permanent"` + `RegionalPricingNote`.
+`sonar-project.properties`:
 
-### PullQuote (`src/components/PullQuote.astro`)
-Aside-elementti, paper-tausta, 72px ylä-/alaviivat, 900px max-width. Lalezar `clamp(1.75rem, 3.5vw, 2.75rem)` italic, terracotta-typograafiset lainausmerkit. Props: `quote: string`, `attribution?: string`.
+- project key `Insaner1980_KnitTools-website`
+- organization `insaner1980`
+- sources: `src`, `scripts`, `astro.config.mjs`, `eslint.config.mjs`
+- source/content/build/cache/report exclusions are configured, including
+  `src/content/articles/**`, `dist`, `.astro`, `.sonar`, `.scannerwork`,
+  `reports` and `output`.
 
-### PricingCards (`src/components/PricingCards.astro`)
-2-saraketta (mob: 1, **Pro ensin** `order: -1`), `border-top: 1px solid ink`.
+## Current Code Gotchas
 
-Section-eyebrow "Pricing", H2 *"Pay once. Own it."*
+- `PageLayout.showStripe` is still accepted but not used. There is no
+  `StripeRibbon.astro` component in `src/components/` in this checkout.
+- There is no `PhoneMockup.astro`, `FeatureKnit`, `FeatureOrganize`,
+  `FeatureCalculate`, `FeatureScanSave`, `FeatureLearn`, `PhoneInset`,
+  `ToolClosingCTA`, `FreeToolsMention` or `StitchSeam` component in current
+  `src/components/`.
+- `src/styles/typography.css` comments still mention old Geist/Bebas roles.
+  Treat the variable values in `global.css` as truth.
+- `global.css` still contains old safe stripe spacing variables, but current
+  layout does not render a stripe ribbon.
+- JavaScript-created DOM and slotted calculator/table content still need
+  `:global()` selectors inside Astro scoped CSS.
+- Visible product claims such as "No ads", "No tracking", "No subscription" and
+  "nothing uploaded anywhere" are current marketing copy in code, not evidence
+  of a released app implementation.
+- Keep English root routes unprefixed and keep translated article hreflang
+  mappings out of `articleTranslations` until a future draft is approved.
 
-- **Free-kortti (`.card.free`, wheat-tausta):**
-  - Label "Free", H3 "$0 forever"
-  - 7 bulletia (`<ol>` ilman numerointia, border-top -erottimet): Row counter + session history · Pattern viewer (PDF or Ravelry) · Four calculators (gauge, cast-on, increases, yardage) · Ravelry sign-in · Reference library (needles, sizes, symbols, abbreviations) · One project · Eleven languages
-  - Footnote "No account. No trial expiry. No card."
-- **Pro-kortti (`.card.pro`, sage-tausta + cream-teksti, 2px cream-reunus):**
-  - "Recommended" -badge (paper-tausta, ink-reunus, oikea ylälaita)
-  - Label "Pro", H3 `<RegionalPrice phase="launch" /> one-time`
-  - Trial "14-day free trial. No credit card required."
-  - "Everything in Free, plus:" -otsikko
-  - 8 bulletia: Unlimited projects · Yarn OCR scanner. Unlimited stash · Progress photos, row-tagged · Insights, streaks, pace-over-time · Home-screen counter widget · Live AI voice on the counter (all eleven languages) · AI pattern help: read rows aloud, explain stitches, parse instructions · AI project summaries + voice journal
-  - Footnote "Launch price `<RegionalPrice phase="launch" />`. Regular price `<RegionalPrice phase="permanent" />` later. No subscription, ever. `<RegionalPricingNote />`"
+## Git State Notes
 
-### ClosingCTA (`src/components/ClosingCTA.astro`)
-Props: `variant?: 'hero' | 'page'` (molemmat käyttävät samaa isoa CTA-otsikkotypografiaa `--closing-cta-heading-*`-tokeneilla; `page` pitää maltillisemman 96px-paddingin `/tools/`, `/articles`, kategoriasivuilla ja ArticleLayoutissa).
+- Current checked branch during this audit: `codex/fi-localization-review`.
+- Remote: `origin` -> `https://github.com/Insaner1980/KnitTools-website.git`.
+- `.gitignore` excludes local reports, caches, generated builds, logs,
+  `.claude/`, `.codex`, `.playwright-mcp/`, local asset dump folders and
+  `AGENTS.md`.
 
-- Eyebrow "Be there at launch" (terracotta)
-- H2 *"Where every stitch counts."* (italic em terracotta)
-- Form `id="join"` (Navbarin "Join the list" osoittaa tähän) — sama `https://api.finnvek.com/subscribe` -endpoint, honeypot, success: "You're on the list. We'll notify you at launch.", meta "Free tier from day one. No card required."
-- Submit-nappi "Notify me at launch" (ink solid, hover terracotta)
+## Recent Current-State History
 
-### Footer (`src/components/Footer.astro`)
-Paper-tausta, 1px ink top-border, 80px-padding desktop, kompakti mob.
-- 3 saraketta + sealing-logo (`/logo.webp` 220×220, mob 140×140) flex-alignilla
-  - **Tools** — kaikki 6 työkalua linkkeinä
-  - **Articles** — 5 kategorialinkkiä (`/articles/category/{slug}`): Gauge & Calculations, Yarn, Needles, Techniques, App & Tools
-  - **App** — "Launching soon" (italic ink-soft) + Privacy Policy → `https://finnvek.com/privacy#knittools`
-- Footer-bottom: ohut viiva + copyright "© MMXXVI KnitTools. Finnvek." (Finnvek-linkki finnvek.com)
-- `languages`-array (11 kieltä) on koodissa mutta ei renderöidy
-
-### RegionalPrice + RegionalPricingNote
-- `RegionalPrice.astro` renderöi `<span data-regional-price={phase} data-{tier}=...>`-elementin oletuksena US-hinnalla. `BaseLayout`-skripti hakee Cloudflare `/cdn-cgi/trace` -loc-koodin (1.2 s timeout, fallback `navigator.languages` -region), mappaa countryn tieriin (`COUNTRY_TO_TIER`-taulukko `pricing.ts`:ssa), ja päivittää `textContent`-arvon.
-- `RegionalPricingNote.astro`: `<span data-regional-pricing-note hidden>Pricing on Google Play in your local currency.</span>` — näkyväksi kun tier === `default` (eli maa tunnistuu mutta sille ei ole omaa tieriä).
-
-### PhoneMockup ja muut käyttämättömät
-**Käytössä:** `Hero`, `Marquee`, `PullQuote`, `NineTools`, `FreeToolsCallout`, `TrustSection`, `PricingCards`, `ClosingCTA`, `RegionalPrice`, `RegionalPricingNote`, `Navbar`, `Footer`, `ArticleCard`, `ToolCard`, `CastOnCalculator`, `YarnEstimator`.
-
-**Ei käytössä — vanha v10-koodi diskillä:** `PhoneMockup.astro`, `FeatureKnit`, `FeatureOrganize`, `FeatureCalculate`, `FeatureScanSave`, `FeatureLearn`, `FreeToolsMention`, `PhoneInset`, `ToolClosingCTA`, `StitchSeam`, `StripeRibbon`, `PageBrandMark`.
-
----
-
-## Hinnoittelu (`src/config/pricing.ts`)
-
-```ts
-PRICING_TIERS = {
-  US:      { launch: '$9.99', permanent: '$14.99' },
-  EU:      { launch: '€9.99', permanent: '€14.99' },
-  UK:      { launch: '£8.99', permanent: '£12.99' },
-  NO:      { launch: 'NOK 99', permanent: 'NOK 149' },
-  SE:      { launch: 'SEK 99', permanent: 'SEK 149' },
-  DK:      { launch: 'DKK 69', permanent: 'DKK 99' },
-  IS:      { launch: 'ISK 1290', permanent: 'ISK 1990' },
-  CH:      { launch: 'CHF 9.90', permanent: 'CHF 14.90' },
-  CA:      { launch: 'CAD 13.99', permanent: 'CAD 19.99' },
-  AU:      { launch: 'AUD 14.99', permanent: 'AUD 22.99' },
-  NZ:      { launch: 'NZD 16.99', permanent: 'NZD 24.99' },
-  JP:      { launch: 'JPY 1500', permanent: 'JPY 2200' },
-  BR:      { launch: 'BRL 24.90', permanent: 'BRL 32.90' },
-  IN:      { launch: 'INR 299', permanent: 'INR 399' },
-  MX:      { launch: 'MXN 99', permanent: 'MXN 139' },
-  ZA:      { launch: 'ZAR 99', permanent: 'ZAR 139' },
-  default: { launch: '$9.99', permanent: '$14.99' },
-}
-DEFAULT_PRICING_TIER  = 'US'      // SSR-renderöinnin lähtöarvo
-FALLBACK_PRICING_TIER = 'default' // jos country tunnistuu mutta sille ei ole omaa tieriä
-PRICING.trialDays = 14
-PRICING.launchMonthLabel = 'Summer 2026'
-LOCAL_CURRENCY_NOTE = 'Pricing on Google Play in your local currency.'
-```
-
-**EU-tieriin mappaavat maat:** AT, BE, HR, CY, EE, FI, FR, DE, GR, IE, IT, LV, LT, LU, MT, NL, PT, SK, SI, ES.
-**UK:** GB. **US:** US. **Maakohtaiset tierit:** NO, SE, DK, IS, CH, CA, AU, NZ, JP, BR, IN, MX, ZA.
-**Muut:** `default`-tier (US-hinnoittelu + näkyvä `RegionalPricingNote`).
-
-`getStructuredPrice()` palauttaa aina USD-arvon JSON-LD:n `offers.price`-kenttään, irti UI-tieristä.
-
----
-
-## Artikkelit (`src/content/articles/`)
-
-- **38 julkaistua artikkelia** Markdown-tiedostoina, kaikki `draft: false` (`.gitkeep` mukana). Schema (`src/content.config.ts`) Zod-validoitu: `title`, `description`, `category` (enum 5 kategoriaa), `publishDate` (date), `updatedDate?`, `categoryOrder?` (1+ int), `tags[]`, `draft` default false, `readTime?`.
-- **Loader:** `glob({ pattern: '**/*.{md,mdx}', base: './src/content/articles' })`
-- **Kategoriat (`src/lib/categories.ts`):**
-  - `gauge-calculations` → "Gauge & Calculations" → `card-terracotta`
-  - `yarn` → "Yarn" → `card-rust`
-  - `needles` → "Needles" → `card-teal`
-  - `techniques` → "Techniques" → `card-sand`
-  - `app-tools` → "App & Tools" → `card-brown`
-- **Järjestys:** Listalla ja kategoriasivulla `categoryOrder` (asc, default 999).
-- **Artikkelilista (`/articles`):** Otsikko + intro + kategoriapainikkeet (suorat linkit `/articles/category/{slug}`-sivuille), 5 kategoriasectionia á 3 ensimmäistä artikkelia + "View N more →" -linkki kategoriasivulle. Tyhjälle datalle empty-state ("Coming Summer 2026 / Articles are being written / Browse free tools →").
-- **Kategoriasivu (`/articles/category/[slug]`):** `getStaticPaths` viidelle slugille, ArticleCard-grid 12-col responsive (1024px → 2col, 768px → 1col).
-- **Yksittäinen artikkeli (`/articles/[...slug]`):** ArticleLayout, prose-typografia (Lalezar H2/H3, terracotta-linkit, list-markerit, italic blockquote-vasen-reunus, code paper-2-taustalla).
-- **ArticleCard:** kategoriavärinen kortti (rgba 0.92), Lalezar otsikko, GS-runko, paper-fill rounded tag, julkaisupäivämäärä `<time>`-elementtinä.
-
----
-
-## Tools-sivut
-
-### `/tools/` — bento listing
-- 12-col grid, ylärivi 50/50 isot kortit (Cast On terracotta + Yarn Estimator rust, min-height 220px)
-- Alarivi 4 referenssikorttia 3-col-leveyksinä (Yarn Weight Chart sand, Needle Size Chart teal, Knitting Size Charts terracotta, Knitting Abbreviations brown)
-- 1024px → 2-sarakkeinen, 768px → 1-sarakkeinen
-- CollectionPage-JSON-LD mainEntity ItemList
-- `ClosingCTA variant="page"` lopussa
-
-### Yksittäinen tool-sivu (kaikki 6)
-Rakenne yhtenäinen:
-1. Tool-hero: eyebrow "← All tools" -linkki, H1 (Lalezar), intro
-2. `<div class="form-card variant-{terracotta|rust|sand|teal|brown}">` jonka sisällä laskuri-/taulukkokomponentti (`CastOnCalculator`, `YarnEstimator`, tai sivun oma sisältö). Variantti määrittelee `--paper`/`--ink`/`--terracotta` -tokenit lapsille.
-3. `.seo-content` H2/p-block (kolme aihealuetta)
-4. `.tool-faq` `<details>/<summary>`-rakenteella, "+/–"-icon
-5. `ClosingCTA variant="page"` lopussa (Waitlist-CTA)
-
-Tool-sivut käyttävät yhä `PageLayout`-propia `showStripe={false}` (no-op).
-
----
-
-## Layout & SEO
-
-- **BaseLayout:** kanonisessa URL `https://knittoolsapp.com{canonicalPath}`, OG/Twitter-metat, og-image `/images/og-image.png`, favicon (.ico + .webp), Skip-link "Skip to content".
-- **Sitemap:** `@astrojs/sitemap` generoi `/sitemap-index.xml` ja `/sitemap-0.xml` (52 URL:a). `public/_redirects`-tiedosto sisältää `/sitemap.xml /sitemap-index.xml 301` jotta Google Search Console löytää sitemapin standardi-URL:sta.
-- **Robots.txt:** `public/robots.txt` (perustaso).
-- **Security disclosure:** `public/security.txt` (RFC 9116).
-- **Reveal-animaatio:** `.reveal`-luokat saavat IntersectionObserver-pohjaisen fade-in:n (rootMargin -20% bottom). `prefers-reduced-motion: reduce` -tilassa kaikki näytetään heti.
-
----
-
-## Cloudflare Pages -deployment
-
-- **Branch:** Cloudflare Pages on konfiguroitu deployaamaan `main`-haarasta direct upload -tilassa (ei Git-integraatiota). Ei custom env-vareja.
-- **Workflow:** `npm run build` → `wrangler pages deploy ./dist --project-name knittoolsapp --branch main`
-- `_redirects`-tiedosto kopioituu `public/` → `dist/` buildissa, Cloudflare käsittelee säännöt edge-tasolla.
-
----
-
-## Git
-
-- Aktiivinen kehityshaara: `v2-editorial`
-- Production: `main` (mergetään PR:ien kautta v2-editorialista)
-- Remote: `origin` → `https://github.com/Insaner1980/KnitTools-website`
-- `.gitignore` jättää ulkopuolelle: `node_modules/`, `dist/`, `.astro/`, `.DS_Store`, `.remember/`, `.claude/`, `.codex`
-
----
-
-## Tunnettuja puutteita
-
-- Vanhat tool-sivujen scoped-CSS:t käyttävät yhä v10-tokeneita (`--accent`, `--cream`, `--bebas-*`) jaetun `typography.css`:n kautta. Visuaalinen yhtenäistys v11 retro -tyyliin tehdään palautteen perusteella per sivu.
-- `PhoneMockup.astro` ja muut v10-feature-komponentit jäävät diskille — cleanup myöhemmin kun varmistetaan että mitään ei tarvita.
-- `body.landing`-skooppi (kevyt dark-mode -inversio paletille) on `global.css`:ssä määritelty mutta `index.astro` ei aseta `bodyClass="landing"` — palette pysyy paper/ink-default-tilassa.
-- `Footer.astro`:n `languages`-array on koodissa muttei renderöidy (mahdollisesti tulossa myöhemmin).
-- `/articles`-sivulla `cat-nav-link`-painikkeet linkkaavat suoraan kategoriasivuihin (commit `72f21db`); aiempi anchor-versio poistettu.
-
----
-
-## Kehityshistoria (uusin ensin)
-
-- **2026-05-02 — `v2-editorial`** Linkitys: artikkelilistan kategoriapainikkeet osoittavat suoraan kategoriasivuihin (commit `72f21db`).
-- **2026-05-02** Security disclosure (`public/security.txt`) lisätty.
-- **2026-05-01** Marquee-leikkautuminen ensi-taitteen alarajalla korjattu kahdessa erässä.
-- **2026-05-01** **38 artikkelin julkaisu:** `draft: true` poistettu kaikista artikkeleista (`4f55c7c`). `categoryRank` → `categoryOrder` -uudelleennimentä (`a78d067`) artikkelien järjestyksen yhtenäistämiseksi.
-- **2026-05-01** Sitemap-redirect `_redirects`-tiedoston kautta `/sitemap.xml` → `/sitemap-index.xml` (Google Search Console -korjaus).
-- **2026-04-25** **Display-fontti vaihdettu Caprasimosta Lalezariin** (`f354b5e`). Caprasimo poistettu fonteista; Lalezar 21 kB woff2 self-hosted, käytössä `--font-display`/`--serif`-tokenien kautta.
-- **2026-04-25** **38 SEO-artikkelin lisäys** content collectioniin + 5 kategoriasivua (`db9d31a`).
-- **2026-04-25** Komponenttien hienosäätö v11-editorial-tyyliin (`09ac2a2`).
-- **2026-04-24** MailerLite-signup integraatio kaikkiin lomakkeisiin (`api.finnvek.com/subscribe`, honeypot-suoja, `1ca3e34`).
-- **2026-04-24** Editoriaalisia hienosäätöjä — NineTools-manifesto + launch-ajankohdan hero-copy (`19ab9a6`).
-- **2026-04-24** v11-fonttipakkauksen siivous: `@img/sharp-linux-x64` poistettu, käyttämättömät fontti-source-hakemistot pois.
-- **2026-04-23** **v11 retro redesign** (`49dacba`): Caprasimo + General Sans, hero/landing-uudistus, magazine-sanasto poistettu, modern Android PhoneMockup hetkeksi käyttöön (poistettu sittemmin Hero:sta).
-- **v10 (pre-2026-04-20)** Geist + Bebas Neue + Teko -stack. Tool-sivujen baseline; tyypografia päivittyy CSS-muuttujien kautta automaattisesti.
+- 2026-06-01: `PROJECT.md` resynced to current checkout after multilingual
+  localization expansion. The project now has 8 public website languages and
+  304 published article files.
+- 2026-05-31: Dutch articles completed; Danish tools completed; Danish article
+  parity work continued in the checkout history/memory. Current source now has
+  all 38 DA articles as published files.
+- 2026-05-28 to 2026-05-31: English root article audit and FI/SV/NO/FR/DE/NL/DA
+  localization parity work expanded the article and route surface.
+- 2026-05-06 to 2026-05-08: SEO title/description and tool copy updates, plus
+  manual Cloudflare Pages deploys.
+- 2026-04-24 to 2026-05-02: v11 editorial redesign, Lalezar/General Sans/Teko
+  font stack, SEO article system, sitemap redirect and security disclosure.
