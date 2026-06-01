@@ -39,10 +39,9 @@ const columns = [
           <em>Own it.</em>
         </h3>
         <p class="body">
-          <RegionalPrice phase="launch" /> for the whole toolkit. After launch the
-          price rises to <RegionalPrice phase="permanent" />, so if you're going
-          to buy it, buy it early. No subscription, ever. <RegionalPricingNote
-          />
+          Launch price <RegionalPrice phase="launch" /> for the whole toolkit. Regular
+          price <RegionalPrice phase="permanent" /> later. No subscription, ever.
+          <RegionalPricingNote />
         </p>
       </article>
       {
@@ -92,9 +91,9 @@ const columns = [
   .section-head .title {
     font-family: var(--serif);
     font-weight: 400;
-    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
-    line-height: 1;
-    letter-spacing: -0.02em;
+    font-size: var(--landing-section-title-size);
+    line-height: var(--landing-section-title-line-height);
+    letter-spacing: 0;
     margin: 0;
     color: var(--ink);
   }
@@ -149,7 +148,7 @@ const columns = [
     font-weight: 400;
     font-size: clamp(2rem, 3vw, 2.75rem);
     line-height: 1;
-    letter-spacing: -0.01em;
+    letter-spacing: 0;
     text-transform: none;
     margin: 0 0 20px;
     color: #2a1e17;

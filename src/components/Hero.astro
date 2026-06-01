@@ -13,7 +13,11 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
         <span class="wordmark-line">Tools</span>
       </h1>
       <p class="tagline">
-        <em>Rows, patterns, projects. <span class="accent">One app.</span></em>
+        <em
+          >From cast on to bind off,<br /><span class="accent"
+            >one app keeps up.</span
+          ></em
+        >
       </p>
     </div>
 
@@ -53,9 +57,9 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
           Something went wrong. Please try again.
         </p>
         <p class="card-caption">
-          <RegionalPrice phase="launch" /> at launch (rises to <RegionalPrice
+          Launch price <RegionalPrice phase="launch" />. Regular price <RegionalPrice
             phase="permanent"
-          />). {PRICING.trialDays}-day free trial. <RegionalPricingNote />
+          /> later. {PRICING.trialDays}-day free trial. <RegionalPricingNote />
         </p>
       </form>
     </aside>
@@ -161,6 +165,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
 
   .hero-text {
     min-width: 0;
+    padding-right: 0;
   }
 
   .eyebrow {
@@ -198,6 +203,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
     font-size: clamp(28px, 3.4vw, 44px);
     line-height: 1.2;
     color: var(--ink);
+    width: 100%;
     margin: 16px 0 0;
     padding: 0;
     text-align: left;

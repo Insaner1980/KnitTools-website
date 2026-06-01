@@ -502,12 +502,8 @@ const faqs = [
         />
         <div class="waitlist-content-layer" id="waitlist-content-layer">
           <h2 class="gs-clip-reveal waitlist-head">
-            Rows, patterns, projects. <em>One app.</em>
+            Where every stitch<br /><em>counts.</em>
           </h2>
-          <p class="gs-fade-up waitlist-desc">
-            Row counter, pattern viewer, Ravelry, project notes, progress
-            photos, and all four calculators.
-          </p>
           <div class="waitlist-row gs-fade-up" id="waitlist-row">
             <input
               type="email"
@@ -523,7 +519,8 @@ const faqs = [
           <p class="gs-fade-up waitlist-meta">
             Coming {PRICING.launchMonthLabel} to Google Play. Launch price <strong
               ><RegionalPrice phase="launch" /></strong
-            >. <RegionalPricingNote />
+            >. Regular price <strong><RegionalPrice phase="permanent" /></strong
+            > later. <RegionalPricingNote />
           </p>
           <p
             class="waitlist-error"
@@ -1186,26 +1183,19 @@ const faqs = [
     font-family: var(--serif);
     font-weight: 400;
     color: var(--ink);
-    font-size: clamp(2rem, 4vw, 3.25rem);
-    line-height: 1.15;
-    padding-bottom: 0.08em;
-    letter-spacing: -0.02em;
-    margin-bottom: 16px;
+    font-size: var(--closing-cta-heading-size);
+    line-height: var(--closing-cta-heading-line-height);
+    letter-spacing: var(--closing-cta-heading-letter-spacing);
+    margin: var(--closing-cta-heading-margin);
     text-transform: none;
   }
   .waitlist-cta h2 em {
     color: var(--terracotta);
     font-style: italic;
-  }
-
-  .waitlist-desc {
-    font-family: var(--body-ed);
-    font-style: italic;
-    color: var(--ink);
-    font-size: 17px;
-    line-height: 1.5;
-    margin-bottom: 28px;
-    max-width: 520px;
+    font-size: var(--closing-cta-heading-em-size);
+    line-height: 1;
+    display: inline-block;
+    margin-top: var(--closing-cta-heading-em-margin-top);
   }
 
   .waitlist-meta {

@@ -172,6 +172,26 @@
   --serif: "Lalezar", Georgia, serif;
   --body-ed: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   --mono: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --landing-section-title-size: 2.75rem;
+  --landing-section-title-line-height: 0.96;
+  --closing-cta-heading-size: clamp(3rem, 6vw, 6rem);
+  --closing-cta-heading-line-height: 0.95;
+  --closing-cta-heading-letter-spacing: 0;
+  --closing-cta-heading-margin: 0 0 48px;
+  --closing-cta-heading-em-size: 1.3em;
+  --closing-cta-heading-em-margin-top: 6px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --landing-section-title-size: 4.75rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --landing-section-title-size: 5.25rem;
+  }
 }
 
 /* v11 landing-page body scope — inverted palette (dark ink surface, cream ink text) */
