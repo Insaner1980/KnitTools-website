@@ -123,7 +123,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
 
   .eyebrow {
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: var(--landing-label-size);
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -135,7 +135,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
   .wordmark {
     font-family: var(--font-logo);
     font-weight: 500;
-    font-size: clamp(64px, 12vw, 180px);
+    font-size: clamp(4.5rem, 10vw, 10rem);
     line-height: 0.75;
     letter-spacing: 0.01em;
     text-transform: uppercase;
@@ -152,8 +152,8 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
   }
 
   .tagline {
-    font-family: var(--body-ed);
-    font-size: clamp(28px, 3.4vw, 44px);
+    font-family: var(--font-body);
+    font-size: clamp(1.5rem, 2.8vw, 2.5rem);
     line-height: 1.2;
     color: var(--ink);
     width: 100%;
@@ -162,7 +162,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
     text-align: left;
   }
   .tagline em {
-    font-style: italic;
+    font-style: normal;
   }
   .tagline .accent {
     color: var(--terracotta);
@@ -181,7 +181,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
 
   .card-head {
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: var(--landing-label-size);
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -190,8 +190,8 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
   }
 
   .card-copy {
-    font-family: var(--body-ed);
-    font-size: 16px;
+    font-family: var(--font-body);
+    font-size: var(--landing-body-size);
     line-height: 1.5;
     color: var(--ink);
     margin: 0 0 20px;
@@ -209,7 +209,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
   .signup input {
     width: 100%;
     box-sizing: border-box;
-    font-family: var(--body-ed);
+    font-family: var(--font-body);
     font-size: 16px;
     padding: 14px 16px;
     border: 1.5px solid var(--ink);
@@ -225,7 +225,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
   .btn-notify {
     width: 100%;
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: var(--landing-label-size);
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -252,7 +252,6 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
   .signup-success {
     display: none;
     font-family: var(--font-body);
-    font-style: italic;
     font-size: 18px;
     color: var(--terracotta);
     margin: 0;
@@ -261,7 +260,6 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
   .signup-error {
     display: none;
     font-family: var(--font-body);
-    font-style: italic;
     font-size: 16px;
     color: var(--ink-soft, var(--ink));
     margin: 0;
@@ -269,9 +267,9 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
   }
   .card-caption {
     margin: 14px 0 0;
-    font-family: var(--body-ed);
-    font-size: 13px;
-    line-height: 1.45;
+    font-family: var(--font-body);
+    font-size: var(--landing-small-size);
+    line-height: 1.6;
     color: var(--ink-soft);
   }
 
@@ -301,7 +299,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
       max-width: 100%;
     }
     .wordmark {
-      font-size: clamp(64px, 18vw, 140px);
+      font-size: clamp(4rem, 18vw, 8rem);
     }
   }
 </style>

@@ -84,7 +84,7 @@ const columns = [
     align-items: baseline;
     gap: 20px;
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: var(--landing-label-size);
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -102,8 +102,8 @@ const columns = [
   }
   .section-head .title em {
     color: var(--terracotta);
-    font-style: italic;
-    font-size: 1.3em;
+    font-style: normal;
+    font-size: 1em;
     line-height: 1;
     display: inline-block;
     margin-top: 6px;
@@ -120,12 +120,11 @@ const columns = [
     padding: 36px 32px;
   }
   .trust-col.tint-sage {
-    background: var(--sage);
+    background: var(--stripe-teal-accessible);
     color: var(--paper);
   }
   .trust-col.tint-sage .eyebrow {
     color: var(--paper);
-    opacity: 0.85;
   }
   .trust-col.tint-sage h3 {
     color: var(--paper);
@@ -134,12 +133,12 @@ const columns = [
     color: var(--paper);
   }
   .trust-col.tint-sage .body {
-    color: rgb(from var(--paper) r g b / 0.9);
+    color: var(--paper);
   }
 
   .eyebrow {
     font-family: var(--font-body);
-    font-size: 12px;
+    font-size: var(--landing-small-size);
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -147,10 +146,10 @@ const columns = [
     margin: 0 0 18px;
   }
   h3 {
-    font-family: var(--font-display);
-    font-weight: 400;
-    font-size: clamp(2rem, 3vw, 2.75rem);
-    line-height: 1;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: var(--landing-card-title-size);
+    line-height: 1.15;
     letter-spacing: 0;
     text-transform: none;
     margin: 0 0 20px;
@@ -158,15 +157,15 @@ const columns = [
   }
   h3 em {
     color: var(--ink);
-    font-style: italic;
-    font-size: 1.3em;
+    font-style: normal;
+    font-size: 1em;
     line-height: 1;
     display: inline-block;
     margin-top: 6px;
   }
   .body {
-    font-family: var(--body-ed);
-    font-size: 15px;
+    font-family: var(--font-body);
+    font-size: var(--landing-body-size);
     line-height: 1.6;
     color: var(--ink-soft);
     margin: 0;

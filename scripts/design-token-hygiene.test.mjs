@@ -142,6 +142,32 @@ describe("design token hygiene", () => {
     }
   });
 
+  it("keeps reveal clipping scoped to clip reveal elements", () => {
+    const globalCss = read("src/styles/global.css");
+    const revealedBlock = cssBlock(
+      globalCss,
+      "html.reveal-animations [data-reveal].is-revealed",
+    );
+    const clipRevealedBlock = cssBlock(
+      globalCss,
+      'html.reveal-animations [data-reveal="clip"].is-revealed',
+    );
+    const revealScript = read("src/scripts/revealAnimations.ts");
+    const revealAllBlock = revealScript.match(
+      /const revealAll =[\s\S]*?const markRevealed/,
+    )?.[0];
+    const setAllElementsCall = revealAllBlock?.match(
+      /gsap\.set\(elements,\s*\{[\s\S]*?\n\s*\}\);/,
+    )?.[0];
+
+    assert.doesNotMatch(revealedBlock, /clip-path:/);
+    assert.match(clipRevealedBlock, /clip-path:\s*inset\(0 0 0 0\)/);
+    assert.ok(revealAllBlock, "Missing revealAll implementation");
+    assert.ok(setAllElementsCall, "Missing revealAll gsap.set(elements) call");
+    assert.match(revealAllBlock, /clipRevealElements/);
+    assert.doesNotMatch(setAllElementsCall, /clipPath:/);
+  });
+
   it("does not define typography custom properties without a source usage", () => {
     const files = collectSourceFiles("src");
     const definitions = [
@@ -205,6 +231,49 @@ describe("design token hygiene", () => {
       assert.doesNotMatch(source, /\.card-desc\s*\{[\s\S]*opacity:/, path);
       assert.doesNotMatch(source, /\.card-meta\s*\{[\s\S]*opacity:/, path);
     }
+  });
+
+  it("keeps sand form cards using dark text on the light wheat background", () => {
+    const globalCss = read("src/styles/global.css");
+    const sandVariantBlock = cssBlock(globalCss, ".form-card.variant-sand");
+
+    assert.match(sandVariantBlock, /--paper:\s*var\(--wheat\);/);
+    assert.match(sandVariantBlock, /--ink:\s*var\(--text-on-light\);/);
+    assert.match(sandVariantBlock, /--ink-soft:\s*var\(--text-on-light\);/);
+    assert.match(sandVariantBlock, /--terracotta:\s*var\(--text-on-light\);/);
+    assert.doesNotMatch(sandVariantBlock, /--ink:\s*#f4ead9/i);
+  });
+
+  it("keeps yarn weight chart category rows dark on sand cards", () => {
+    const yarnWeightChart = read("src/pages/tools/yarn-weight-chart.astro");
+
+    for (const selector of [
+      ".cat-summary",
+      ".cat-heading",
+      ".cat-num",
+      ".cat-name",
+      ".cat-regional",
+      ".cat-toggle",
+      ".cat-row dt",
+      ".cat-row dd",
+    ]) {
+      assert.match(
+        cssBlock(yarnWeightChart, selector),
+        /color:\s*var\(--text-on-light\);/,
+        selector,
+      );
+    }
+  });
+
+  it("keeps the homepage closing CTA on the shared page CTA heading scale", () => {
+    const closingCta = read("src/components/ClosingCTA.astro");
+
+    assert.doesNotMatch(closingCta, /\.closing-cta--hero\s*\{/);
+    assert.match(closingCta, /font-size:\s*var\(--closing-cta-heading-size\);/);
+    assert.match(
+      closingCta,
+      /font-size:\s*var\(--closing-cta-heading-em-size\);/,
+    );
   });
 });
 

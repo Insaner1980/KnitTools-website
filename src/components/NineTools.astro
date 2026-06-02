@@ -172,8 +172,8 @@ const proCards = cards.filter((c) => c.tier === "pro");
   }
 
   .manifesto {
-    font-family: var(--body-ed);
-    font-size: 17px;
+    font-family: var(--font-body);
+    font-size: var(--landing-body-size);
     line-height: 1.6;
     font-weight: 400;
     color: var(--ink);
@@ -181,7 +181,6 @@ const proCards = cards.filter((c) => c.tier === "pro");
     margin: 0 0 40px;
   }
   .manifesto em {
-    font-style: italic;
     font-weight: 500;
     color: var(--terracotta);
   }
@@ -190,7 +189,7 @@ const proCards = cards.filter((c) => c.tier === "pro");
     align-items: baseline;
     gap: 20px;
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: var(--landing-label-size);
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -208,8 +207,8 @@ const proCards = cards.filter((c) => c.tier === "pro");
   }
   .section-head .title em {
     color: var(--terracotta);
-    font-style: italic;
-    font-size: 1.3em;
+    font-style: normal;
+    font-size: 1em;
     line-height: 1;
     display: inline-block;
     margin-top: 6px;
@@ -221,7 +220,7 @@ const proCards = cards.filter((c) => c.tier === "pro");
     gap: 16px;
     margin-bottom: 24px;
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: var(--landing-small-size);
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -271,15 +270,19 @@ const proCards = cards.filter((c) => c.tier === "pro");
   }
 
   .tool-card.tint-sage {
-    background: var(--sage);
+    background: var(--stripe-teal-accessible);
     color: var(--paper);
-    border-color: var(--sage);
+    border-color: var(--stripe-teal-accessible);
   }
   .tool-card.tint-sage h3 {
     color: var(--paper);
   }
+  .tool-card.tint-sage .tag {
+    background: var(--paper);
+    color: var(--ink);
+  }
   .tool-card.tint-sage p {
-    color: rgb(from var(--paper) r g b / 0.9);
+    color: var(--paper);
   }
 
   .tool-card.tint-walnut {
@@ -290,20 +293,28 @@ const proCards = cards.filter((c) => c.tier === "pro");
   .tool-card.tint-walnut h3 {
     color: var(--paper);
   }
+  .tool-card.tint-walnut .tag {
+    background: var(--paper);
+    color: var(--ink);
+  }
   .tool-card.tint-walnut p {
-    color: rgb(from var(--paper) r g b / 0.88);
+    color: var(--paper);
   }
 
   .tool-card.tint-amber {
-    background: var(--amber);
+    background: var(--stripe-rust-accessible);
     color: var(--paper);
-    border-color: var(--amber);
+    border-color: var(--stripe-rust-accessible);
   }
   .tool-card.tint-amber h3 {
     color: var(--paper);
   }
+  .tool-card.tint-amber .tag {
+    background: var(--paper);
+    color: var(--ink);
+  }
   .tool-card.tint-amber p {
-    color: rgb(from var(--paper) r g b / 0.92);
+    color: var(--paper);
   }
 
   .tool-card.tint-terracotta {
@@ -314,8 +325,12 @@ const proCards = cards.filter((c) => c.tier === "pro");
   .tool-card.tint-terracotta h3 {
     color: var(--paper);
   }
+  .tool-card.tint-terracotta .tag {
+    background: var(--paper);
+    color: var(--ink);
+  }
   .tool-card.tint-terracotta p {
-    color: rgb(from var(--paper) r g b / 0.92);
+    color: var(--paper);
   }
 
   .tool-card.tint-ink {
@@ -326,9 +341,12 @@ const proCards = cards.filter((c) => c.tier === "pro");
   .tool-card.tint-ink h3 {
     color: var(--paper);
   }
+  .tool-card.tint-ink .tag {
+    background: var(--paper);
+    color: var(--ink);
+  }
   .tool-card.tint-ink p {
     color: var(--paper);
-    opacity: 0.85;
   }
 
   .card-meta {
@@ -338,52 +356,25 @@ const proCards = cards.filter((c) => c.tier === "pro");
   }
   .tag {
     font-family: var(--font-body);
-    font-size: 11px;
+    font-size: var(--landing-small-size);
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--ink);
   }
-  .pill {
-    font-family: var(--font-body);
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    padding: 3px 10px;
-    border-radius: 999px;
-    border: 1px solid var(--ink);
-  }
-  .pill-free {
-    background: var(--paper);
-    color: var(--ink);
-  }
-  .pill-pro {
-    background: var(--terracotta);
-    color: var(--paper);
-    border-color: var(--terracotta);
-  }
-  .tool-card.tint-sage .pill-free,
-  .tool-card.tint-walnut .pill-free,
-  .tool-card.tint-ink .pill-free {
-    background: transparent;
-    color: var(--paper);
-    border-color: var(--paper);
-  }
-
   .tool-card h3 {
-    font-family: var(--font-display);
-    font-weight: 400;
-    font-size: clamp(1.5rem, 1.9vw, 1.9rem);
-    line-height: 1.05;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: var(--landing-card-title-size);
+    line-height: 1.15;
     letter-spacing: 0;
     text-transform: none;
     margin: 0;
     color: var(--ink);
   }
   .tool-card p {
-    font-family: var(--body-ed);
-    font-size: 15px;
+    font-family: var(--font-body);
+    font-size: var(--landing-body-size);
     line-height: 1.55;
     color: var(--ink);
     margin: 0;
@@ -398,8 +389,9 @@ const proCards = cards.filter((c) => c.tier === "pro");
     margin: 4px 0 0;
   }
   .chip {
-    font-family: var(--body-ed);
-    font-size: 11px;
+    font-family: var(--font-body);
+    font-size: var(--landing-small-size);
+    line-height: 1.35;
     color: var(--ink);
     background: var(--paper);
     border: 0;

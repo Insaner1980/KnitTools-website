@@ -32,10 +32,16 @@ const prepareContentReveal = () => {
 };
 
 const revealAll = (elements: HTMLElement[]) => {
+  const clipRevealElements = elements.filter(
+    (element) => element.dataset.reveal === "clip",
+  );
+
   gsap.set(elements, {
     opacity: 1,
     y: 0,
     scale: 1,
+  });
+  gsap.set(clipRevealElements, {
     clipPath: "inset(0 0 0 0)",
   });
   elements.forEach((element) => element.classList.add(REVEALED_CLASS));

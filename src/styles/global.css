@@ -117,26 +117,18 @@
   --serif: "Lalezar", Georgia, serif;
   --body-ed: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   --mono: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-  --landing-section-title-size: 2.75rem;
-  --landing-section-title-line-height: 0.96;
+  --landing-section-title-size: clamp(2.5rem, 4.6vw, 4.5rem);
+  --landing-section-title-line-height: 1.02;
+  --landing-card-title-size: clamp(1.35rem, 1.7vw, 1.65rem);
+  --landing-body-size: 1rem;
+  --landing-small-size: 0.875rem;
+  --landing-label-size: 0.875rem;
   --closing-cta-heading-size: clamp(3rem, 6vw, 6rem);
   --closing-cta-heading-line-height: 0.95;
   --closing-cta-heading-letter-spacing: 0;
   --closing-cta-heading-margin: 0 0 48px;
   --closing-cta-heading-em-size: 1.3em;
   --closing-cta-heading-em-margin-top: 6px;
-}
-
-@media (min-width: 768px) {
-  :root {
-    --landing-section-title-size: 4.75rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  :root {
-    --landing-section-title-size: 5.25rem;
-  }
 }
 
 /* --- Reset & Global --- */
@@ -551,11 +543,11 @@ p {
 }
 
 .form-card.variant-sand {
-  --paper: #c4a661;
+  --paper: var(--wheat);
   --paper-2: #b0924c;
-  --ink: #f4ead9;
-  --ink-soft: rgba(244, 234, 217, 0.82);
-  --terracotta: #f4ead9;
+  --ink: var(--text-on-light);
+  --ink-soft: var(--text-on-light);
+  --terracotta: var(--text-on-light);
 }
 
 /* Wide variant for reference pages (tables, lists) that need more room */
@@ -605,6 +597,9 @@ html.reveal-animations [data-reveal-content] h2 {
 html.reveal-animations [data-reveal].is-revealed {
   opacity: 1;
   transform: none;
+}
+
+html.reveal-animations [data-reveal="clip"].is-revealed {
   clip-path: inset(0 0 0 0);
 }
 

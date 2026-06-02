@@ -101,7 +101,7 @@ const t = useTranslations(lang);
   }
   .eyebrow {
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: var(--landing-label-size);
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -122,7 +122,7 @@ const t = useTranslations(lang);
   }
   h2 em {
     color: var(--terracotta);
-    font-style: italic;
+    font-style: normal;
     font-size: var(--closing-cta-heading-em-size);
     line-height: 1;
     display: inline-block;
@@ -139,7 +139,7 @@ const t = useTranslations(lang);
   }
   .signup input {
     flex: 1;
-    font-family: var(--body-ed);
+    font-family: var(--font-body);
     font-size: 16px;
     padding: 14px 20px;
     border: 1.5px solid var(--ink);
@@ -154,7 +154,7 @@ const t = useTranslations(lang);
   }
   .btn-primary {
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: var(--landing-label-size);
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -175,7 +175,6 @@ const t = useTranslations(lang);
   .signup-success {
     display: none;
     font-family: var(--font-body);
-    font-style: italic;
     font-size: 20px;
     color: var(--terracotta);
     margin: 0;
@@ -184,7 +183,6 @@ const t = useTranslations(lang);
   .signup-error {
     display: none;
     font-family: var(--font-body);
-    font-style: italic;
     font-size: 16px;
     color: var(--ink-soft, var(--ink));
     margin: 0;
@@ -192,7 +190,7 @@ const t = useTranslations(lang);
   }
   .meta {
     margin: 24px 0 0;
-    font-family: var(--body-ed);
+    font-family: var(--font-body);
     font-size: 14px;
     color: var(--ink-soft);
   }

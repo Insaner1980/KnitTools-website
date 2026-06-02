@@ -98,7 +98,7 @@ const proBullets = [
     align-items: baseline;
     gap: 20px;
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: var(--landing-label-size);
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -116,8 +116,8 @@ const proBullets = [
   }
   .section-head .title em {
     color: var(--terracotta);
-    font-style: italic;
-    font-size: 1.3em;
+    font-style: normal;
+    font-size: 1em;
     line-height: 1;
     display: inline-block;
     margin-top: 6px;
@@ -139,7 +139,7 @@ const proBullets = [
     border-color: var(--ink);
   }
   .card.pro {
-    background: var(--sage);
+    background: var(--stripe-teal-accessible);
     color: var(--paper);
     border: 2px solid var(--paper);
   }
@@ -151,26 +151,26 @@ const proBullets = [
     background: var(--paper);
     color: var(--ink);
     font-family: var(--font-body);
-    font-size: 11px;
+    font-size: var(--landing-small-size);
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 7px 14px 6px;
-    border: 1px solid var(--ink);
+    border: 2px solid var(--ink);
     white-space: nowrap;
-    z-index: 2;
+    z-index: 3;
   }
 
   .label {
     font-family: var(--font-body);
-    font-size: 12px;
+    font-size: var(--landing-small-size);
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin: 0 0 16px;
   }
   .free .label {
-    color: var(--walnut);
+    color: var(--ink-soft);
   }
   .pro .label {
     color: var(--paper);
@@ -178,7 +178,7 @@ const proBullets = [
 
   .includes {
     font-family: var(--font-body);
-    font-size: 12px;
+    font-size: var(--landing-small-size);
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -187,24 +187,23 @@ const proBullets = [
   }
 
   .pro .trial {
-    font-family: var(--body-ed);
-    font-style: italic;
-    font-size: 14px;
+    font-family: var(--font-body);
+    font-size: var(--landing-body-size);
     color: var(--paper);
     margin: 4px 0 24px;
   }
 
   h3 {
-    font-family: var(--serif);
-    font-weight: 400;
-    font-size: clamp(2.5rem, 4vw, 3.5rem);
-    line-height: 1;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: clamp(2rem, 3vw, 2.75rem);
+    line-height: 1.1;
     letter-spacing: 0;
     margin: 0 0 24px;
   }
   .suffix {
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: var(--landing-small-size);
     font-weight: 500;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -219,8 +218,8 @@ const proBullets = [
   }
   ol li {
     padding: 12px 0;
-    font-family: var(--body-ed);
-    font-size: 15px;
+    font-family: var(--font-body);
+    font-size: var(--landing-body-size);
     line-height: 1.5;
     border-top: 1px solid rgb(from var(--ink) r g b / 0.2);
   }
@@ -235,8 +234,8 @@ const proBullets = [
   }
 
   .footnote {
-    font-family: var(--body-ed);
-    font-size: 13px;
+    font-family: var(--font-body);
+    font-size: var(--landing-small-size);
     line-height: 1.5;
     margin: 0;
   }
@@ -244,7 +243,7 @@ const proBullets = [
     color: var(--ink-soft);
   }
   .pro .footnote {
-    color: rgb(from var(--paper) r g b / 0.85);
+    color: var(--paper);
   }
 
   @media (max-width: 767px) {
