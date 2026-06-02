@@ -275,6 +275,26 @@ describe("design token hygiene", () => {
       /font-size:\s*var\(--closing-cta-heading-em-size\);/,
     );
   });
+
+  it("keeps English tool waitlist CTA headings centered", () => {
+    const toolPages = collectSourceFiles("src/pages/tools").filter(
+      (path) =>
+        path.endsWith(".astro") && read(path).includes("Where every stitch"),
+    );
+
+    assert.equal(toolPages.length, 6);
+
+    for (const path of toolPages) {
+      const source = read(path);
+      const headingBlock = cssBlock(source, ".waitlist-cta h2");
+
+      assert.match(
+        headingBlock,
+        /text-align:\s*center;/,
+        `${normalizePath(path)} should center the waitlist heading text`,
+      );
+    }
+  });
 });
 
 describe("accessibility hygiene", () => {
