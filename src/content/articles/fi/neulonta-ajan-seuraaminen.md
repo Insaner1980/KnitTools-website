@@ -48,7 +48,7 @@ Huono puoli: jokaisen session jälkeen pitää syöttää tiedot käsin. Jos uno
 
 Projektinhallintasovellukseen rakennettu neulonta-ajan seuranta automatisoi ne kohdat, joissa manuaaliset tavat hajoavat. Aloita sessio, neulo, lopeta sessio. Sovellus tallentaa keston, yhdistää sen projektiin ja seuraa kerrosmäärää samalla.
 
-[KnitTools-sovellusta](/) rakennetaan niin, että sessioseuranta liittyy [kerroslaskuriin](/fi/artikkelit/kerrosten-seuraaminen-neuloessa/). Tarkoitettu työnkulku on yksinkertainen: laske kerroksia, tallenna sessio ja pidä päivä, kesto, valmistuneet kerrokset sekä kerrokset tunnissa projektin yhteydessä. Ajan myötä tästä kertyy historia per projekti ja kaikkien projektien yli.
+[KnitTools-sovellusta](/fi/tyokalut/#join) rakennetaan niin, että sessioseuranta liittyy [kerroslaskuriin](/fi/artikkelit/kerrosten-seuraaminen-neuloessa/). Tarkoitettu työnkulku on yksinkertainen: laske kerroksia, tallenna sessio ja pidä päivä, kesto, valmistuneet kerrokset sekä kerrokset tunnissa projektin yhteydessä. Ajan myötä tästä kertyy historia per projekti ja kaikkien projektien yli.
 
 Etuna manuaalisiin tapoihin verrattuna on johdonmukaisuus. Napautat jo kerroslaskuria, joten ajan seuranta tapahtuu sivutuotteena. Ei erillistä ajastinta, ei päivitettävää muistikirjaa, ei ylläpidettävää taulukkoa. Data kertyy, vaikka et ajattele sitä.
 

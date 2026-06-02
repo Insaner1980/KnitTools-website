@@ -70,7 +70,7 @@ Påminnelserna är där en app går förbi de flesta andra metoder. Mönstret s�
 
 Vissa varvräknarappar loggar också pass eller framsteg, så att du kan se hur länge du har arbetat och jämföra tempo mellan pass. Då blir räknaren inte bara ett enda nummer, utan en del av projektets historik.
 
-[KnitTools-appen](/) byggs som en Android-verktygslåda med tryckräkning, ångra, flera räknare och passregistrering för projekt med flera delar.
+[KnitTools-appen](/sv/verktyg/#join) byggs som en Android-verktygslåda med tryckräkning, ångra, flera räknare och passregistrering för projekt med flera delar.
 
 ## 7. Kombinerade metoder
 

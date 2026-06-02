@@ -171,6 +171,7 @@ const faqs = [
   description="Look up any knitting abbreviation or search by technique name. Full glossary of pattern terms from k2tog to psso, organized by category."
   canonicalPath="/tools/knitting-abbreviations/"
   alternates={routes.tool.knittingAbbreviations}
+  enableRevealAnimations
 >
   <ToolStructuredData
     name="Knitting Abbreviations Glossary"
@@ -185,16 +186,16 @@ const faqs = [
       <p class="eyebrow">
         <a href="/tools/" class="eyebrow-back">← All tools</a>
       </p>
-      <h1 class="gs-h1" aria-label="Knitting Abbreviations">
-        <span class="h1-chars">Knitting Abbreviations</span>
+      <h1 data-reveal="heading" aria-label="Knitting Abbreviations">
+        Knitting Abbreviations
       </h1>
-      <p class="hero-intro gs-hero">
+      <p class="hero-intro" data-reveal>
         Search an abbreviation to see what it means, or search a technique to
         find its abbreviations.
       </p>
 
-      <div class="form-card variant-brown is-wide">
-        <div class="abbr-wrapper gs-form">
+      <div class="form-card variant-brown is-wide" data-reveal="scale">
+        <div class="abbr-wrapper">
           <input
             type="text"
             id="abbr-search"
@@ -253,45 +254,45 @@ const faqs = [
   <!-- 2. SEO content -->
   <section class="seo-content">
     <div class="content-inner">
-      <h2 class="gs-clip-reveal">How abbreviations read in context</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">How abbreviations read in context</h2>
+      <p data-reveal>
         Most abbreviations sort themselves into a few groups, and recognizing
         the group helps more than memorizing individual terms.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Basic stitches</strong> are single letters. <code>k</code> is knit,
         <code>p</code> is purl. A number after the letter tells you how many: <code
           >k5</code
         > means knit five stitches. That's the whole system for the simplest ones.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Combined actions</strong> stack letters and numbers. <code
           >k2tog</code
         > means knit two stitches together. <code>p2tog</code>, same idea but
         purled. A lot of knitting shorthand works this way. Slow it down, read
         it literally.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Directional markers</strong> tell you which side of the fabric you're
         on. <code>RS</code> is right side, <code>WS</code> is wrong side. Matters
         because the same hand movement produces a different result depending on whether
         you're working the public face or the back.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Shaping abbreviations</strong> control how fabric grows or narrows.
         <code>M1</code>, <code>M1L</code>, <code>M1R</code>, and <code>kfb</code
         > add stitches. <code>k2tog</code> and <code>ssk</code> remove them. Knowing
         which ones lean left, which lean right, and which just add or subtract makes
         patterns easier to read at a glance.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Structure terms</strong> keep the instructions compact. <code
           >rep</code
         >, <code>st(s)</code>, <code>beg</code>, <code>rem</code>, <code
           >cont</code
         >. Scaffolding, not stitches.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Punctuation matters too. Asterisks and semicolons aren't decoration. <code
           >*k2, p2; rep from *</code
         > means everything between the asterisk and the semicolon repeats. Brackets
@@ -300,17 +301,15 @@ const faqs = [
         ways to end up with the wrong stitch count.
       </p>
 
-      <h2 class="gs-clip-reveal">US vs UK differences</h2>
-      <p class="gs-fade-up">
-        A few terms shift across the Atlantic. The big ones:
-      </p>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">US vs UK differences</h2>
+      <p data-reveal>A few terms shift across the Atlantic. The big ones:</p>
+      <p data-reveal>
         US "bind off" is UK "cast off." US "gauge" is UK "tension." US
         "stockinette" is UK "stocking stitch." And the classic trap: "seed
         stitch" and "moss stitch" can swap meanings depending on the source, so
         a written stitch definition beats the name alone every time.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Most common abbreviations (<code>k</code>, <code>p</code>, <code
           >yo</code
         >, <code>k2tog</code>) are the same in both systems. If a pattern
@@ -319,14 +318,14 @@ const faqs = [
         the designer's location is your best clue.
       </p>
 
-      <h2 class="gs-clip-reveal">Pattern-specific abbreviations</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">Pattern-specific abbreviations</h2>
+      <p data-reveal>
         This is where things get interesting, because plenty of abbreviations
         won't appear in any standard list. That's normal. They're custom
         shortcuts invented by the designer for that specific pattern, and they
         should be defined near the beginning of the instructions.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Cable patterns are the biggest source of these. A chart key might define <code
           >C4F</code
         >, <code>C6B</code>, or something more specific to the design. The
@@ -337,7 +336,7 @@ const faqs = [
         the total stitches involved, others number only the stitches that
         travel. The pattern's own definition is what counts.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Lace patterns build compound shortcuts too. One pattern writes <code
           >CDD</code
         > for a centered double decrease. Another spells the same thing out as <code
@@ -349,14 +348,14 @@ const faqs = [
         key before assuming it matches the most common version. Pattern keys
         exist for exactly this reason.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Colorwork patterns sometimes abbreviate color names or assignments. You
         might see MC (main color) and CC (contrast color), or CC1 and CC2 when
         multiple contrast colors are in play. Some designers use A, B, C
         instead. The abbreviations themselves are straightforward, but mixing up
         which color goes where will show in the finished fabric.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Some designers also create shorthand for repeated stitch sequences
         specific to their design. A pattern might define something like "MB" for
         a particular bobble method, or "cluster" for a specific combination of
@@ -364,18 +363,18 @@ const faqs = [
         the designer from writing out a multi-step instruction every time it
         appears in the pattern. They only make sense inside that pattern.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         The general rule: if you can't find an abbreviation in a standard
         reference, it's almost certainly defined in the pattern header. Scroll
         up before searching elsewhere.
       </p>
 
-      <h2 class="gs-clip-reveal">What the symbols on knitting charts mean</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">What the symbols on knitting charts mean</h2>
+      <p data-reveal>
         Charts use symbols instead of written-out rows. Each square is one
         stitch, and the symbol inside it tells you what to do.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         There's no universal chart symbol standard, but many designers stay
         close to Craft Yarn Council conventions. An empty square usually means
         knit on RS and purl on WS. A dash means purl on RS. A circle is <code
@@ -383,28 +382,28 @@ const faqs = [
         >. A right-leaning slash marks <code>k2tog</code>, a left-leaning one
         marks <code>ssk</code>.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Charts read bottom to top (knitting grows upward). On flat charts, RS
         rows go right to left, WS rows left to right, matching the direction
         your needles move. Circular knitting charts read right to left on every
         row, since you're always working the RS.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         If a pattern has both written and charted instructions, they should
         agree. When they don't (and it happens more than anyone would like), the
         pattern notes should say which takes priority. If they don't say, swatch
         a repeat before trusting either version.
       </p>
 
-      <h2 class="gs-clip-reveal">A few abbreviations worth knowing early</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">A few abbreviations worth knowing early</h2>
+      <p data-reveal>
         There's no need to memorize everything before casting on. A first scarf
         might only use <code>k</code> and <code>p</code>. A simple hat adds a
         decrease or two. The rest accumulates naturally with the patterns you
         choose, and you'll find the same dozen abbreviations cover most of what
         you knit.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         One pair that trips people up: <code>ssk</code> and <code>skp</code> are both
         left-leaning decreases. <code>ssk</code> is the modern standard. <code
           >skp</code
@@ -412,20 +411,20 @@ const faqs = [
         in execution, so follow the pattern as written unless it gives permission
         to substitute.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Another one worth flagging: <code>psso</code> (pass slipped stitch over) shows
         up both on its own and as part of compound abbreviations like <code
           >sl1-k2tog-psso</code
         >. When you see it standalone, it's usually following a slip instruction
         from the previous step.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         The Craft Yarn Council publishes a widely used standard abbreviation
         list, and most designers follow it for common terms. Beyond those
         basics, regional habits and pattern-specific shorthand take over. "Check
         the pattern key" is better advice than "memorize a master list."
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Keep a reference open while you knit. This page is searchable, which is
         faster than flipping through tabs when your row is halfway worked. If
         you're also sorting out needle sizes or <a
@@ -442,18 +441,18 @@ const faqs = [
   <!-- 3. FAQ -->
   <section class="tool-faq">
     <div class="faq-inner">
-      <h2 class="gs-clip-reveal">Frequently asked questions</h2>
+      <h2 data-reveal="clip">Frequently asked questions</h2>
       <div class="faq">
         {
           faqs.map((f) => (
-            <details class="gs-faq-item">
+            <details data-reveal data-animate-details>
               <summary>
                 {f.q}{" "}
                 <span class="faq-icon" aria-hidden="true">
                   +
                 </span>
               </summary>
-              <p>{f.a}</p>
+              <p data-animate-body>{f.a}</p>
             </details>
           ))
         }
@@ -475,7 +474,7 @@ const faqs = [
         data-generic-error="Something went wrong. Please try again."
         data-network-error="Network error. Please check your connection."
       >
-        <label class="visually-hidden" for="waitlist-website"
+        <label class="visually-hidden" for="waitlist-website" aria-hidden="true"
           >Leave this field empty</label
         >
         <input
@@ -485,16 +484,21 @@ const faqs = [
           type="text"
           tabindex="-1"
           autocomplete="off"
+          aria-hidden="true"
         />
+        <label class="visually-hidden" for="waitlist-email">Email address</label
+        >
         <div class="waitlist-content-layer" id="waitlist-content-layer">
           <h2 class="waitlist-head">
             Where every stitch<br /><em>counts.</em>
           </h2>
           <div class="waitlist-row" id="waitlist-row" data-content>
             <input
+              id="waitlist-email"
               type="email"
               name="email"
               placeholder="your@email.com"
+              aria-describedby="waitlist-success waitlist-error"
               required
               class="waitlist-input"
             />
@@ -505,6 +509,10 @@ const faqs = [
           <p
             class="waitlist-success"
             id="waitlist-success"
+            data-success
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
             aria-hidden="true"
             hidden
           >
@@ -519,8 +527,10 @@ const faqs = [
           <p
             class="waitlist-error"
             id="waitlist-error"
+            data-error
             role="alert"
             aria-live="polite"
+            aria-hidden="true"
             hidden
           >
           </p>
@@ -529,217 +539,6 @@ const faqs = [
     </div>
   </section>
 </PageLayout>
-
-<script>
-  const prefersReducedMotion = window.matchMedia(
-    "(prefers-reduced-motion: reduce)",
-  ).matches;
-
-  // --- Search + category filtering ---
-  const searchInput = document.getElementById(
-    "abbr-search",
-  ) as HTMLInputElement | null;
-  const list = document.getElementById("abbr-list");
-  const noResults = document.getElementById("no-results");
-  const catButtons = document.querySelectorAll<HTMLButtonElement>(".cat-btn");
-
-  let activeCategory = "all";
-
-  function applyFilters() {
-    if (!list || !noResults) return;
-    const rows = list.querySelectorAll<HTMLElement>(".abbr-row");
-    const query = (searchInput?.value || "").trim().toLowerCase();
-
-    let visibleCount = 0;
-
-    rows.forEach((row) => {
-      const cats = (row.dataset.cats || "").split(" ");
-      const catLabels = row.dataset.catlabels || "";
-      const abbr = row.dataset.abbr || "";
-      const def = row.dataset.def || "";
-
-      const matchesCategory =
-        activeCategory === "all" || cats.includes(activeCategory);
-
-      let matchesSearch = true;
-      if (query) {
-        matchesSearch =
-          abbr.includes(query) ||
-          def.includes(query) ||
-          catLabels.includes(query);
-      }
-
-      const visible = matchesCategory && matchesSearch;
-      row.style.display = visible ? "" : "none";
-      if (visible) visibleCount++;
-    });
-
-    noResults.hidden = visibleCount > 0;
-  }
-
-  if (searchInput) {
-    searchInput.addEventListener("input", applyFilters);
-  }
-
-  catButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      catButtons.forEach((b) => {
-        b.classList.remove("is-active");
-        b.setAttribute("aria-pressed", "false");
-      });
-      btn.classList.add("is-active");
-      btn.setAttribute("aria-pressed", "true");
-      activeCategory = btn.dataset.cat || "all";
-      applyFilters();
-    });
-  });
-
-  if (!prefersReducedMotion) {
-    const [{ gsap }, { ScrollTrigger }] = await Promise.all([
-      import("gsap"),
-      import("gsap/ScrollTrigger"),
-    ]);
-
-    gsap.registerPlugin(ScrollTrigger);
-
-    // --- Hero entrance timeline ---
-    const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
-
-    heroTl.from(
-      ".gs-hero",
-      {
-        opacity: 0,
-        y: 12,
-        duration: 0.5,
-        stagger: 0.15,
-      },
-      0.2,
-    );
-
-    // H1 letter stagger — wrap each word so browsers can't break mid-word
-    const h1El = document.querySelector(".h1-chars");
-    if (h1El) {
-      const text = h1El.textContent || "";
-      h1El.textContent = "";
-      const chars: HTMLSpanElement[] = [];
-      const words = text.split(" ");
-      words.forEach((word, wi) => {
-        const wordSpan = document.createElement("span");
-        wordSpan.className = "h1-word";
-        for (const c of word) {
-          const span = document.createElement("span");
-          span.className = "h1-char";
-          span.textContent = c;
-          wordSpan.appendChild(span);
-          chars.push(span);
-        }
-        h1El.appendChild(wordSpan);
-        if (wi < words.length - 1) {
-          h1El.appendChild(document.createTextNode(" "));
-        }
-      });
-
-      heroTl.from(
-        chars,
-        {
-          opacity: 0,
-          x: -20,
-          duration: 0.4,
-          stagger: 0.03,
-          ease: "power2.out",
-        },
-        0.1,
-      );
-    }
-
-    heroTl.from(
-      ".gs-form",
-      {
-        opacity: 0,
-        y: 16,
-        duration: 0.5,
-      },
-      0.6,
-    );
-
-    // --- Scroll-triggered: clip-reveal H2s ---
-    document.querySelectorAll(".gs-clip-reveal").forEach((el) => {
-      gsap.set(el, { clipPath: "inset(0 100% 0 0)" });
-      gsap.to(el, {
-        clipPath: "inset(0 0% 0 0)",
-        duration: 0.8,
-        ease: "power3.inOut",
-        scrollTrigger: {
-          trigger: el,
-          start: "top 85%",
-          once: true,
-        },
-      });
-    });
-
-    document.querySelectorAll(".gs-fade-up").forEach((el) => {
-      gsap.from(el, {
-        opacity: 0,
-        y: 24,
-        duration: 0.6,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: el,
-          start: "top 88%",
-          once: true,
-        },
-      });
-    });
-
-    const faqItems = document.querySelectorAll(".gs-faq-item");
-    if (faqItems.length) {
-      gsap.from(faqItems, {
-        opacity: 0,
-        y: 16,
-        duration: 0.4,
-        stagger: 0.08,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: faqItems[0],
-          start: "top 85%",
-          once: true,
-        },
-      });
-    }
-
-    document.querySelectorAll(".gs-faq-item").forEach((details) => {
-      const summary = details.querySelector("summary");
-      const content = details.querySelector("p");
-      if (!summary || !content) return;
-
-      summary.addEventListener("click", (e) => {
-        e.preventDefault();
-        if (details.hasAttribute("open")) {
-          gsap.to(content, {
-            height: 0,
-            opacity: 0,
-            duration: 0.3,
-            ease: "power2.inOut",
-            onComplete: () => {
-              details.removeAttribute("open");
-              gsap.set(content, { height: "auto", opacity: 1 });
-            },
-          });
-        } else {
-          details.setAttribute("open", "");
-          const h = content.scrollHeight;
-          gsap.set(content, { height: 0, opacity: 0 });
-          gsap.to(content, {
-            height: h,
-            opacity: 1,
-            duration: 0.3,
-            ease: "power2.out",
-          });
-        }
-      });
-    });
-  }
-</script>
 
 <style>
   /* ---- Shared section rhythm (v11 editorial) ---- */
@@ -813,14 +612,6 @@ const faqs = [
     text-transform: none;
     margin: 0 0 20px;
     padding-bottom: 0.08em;
-  }
-
-  .tool-hero h1 :global(.h1-word) {
-    display: inline-block;
-    white-space: nowrap;
-  }
-  .tool-hero h1 :global(.h1-char) {
-    display: inline-block;
   }
 
   .hero-intro {

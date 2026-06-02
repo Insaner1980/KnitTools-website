@@ -149,7 +149,7 @@ När siffrorna inte samarbetar fördelas resten som längre sektioner.
 
 ## När matematiken blir irriterande
 
-127 maskor, öka 11, med en 6-maskors spetsrapport att respektera. Det är den typen av varv där huvudräkningen på levande maskor tar längre tid än själva ökningarna, och det är också där misstagen händer. Öknings- och minskningskalkylatorn i [KnitTools-appen](/) ger dig en färdig varvinstruktion i stället för att lämna dig att räkna ut det från stickan.
+127 maskor, öka 11, med en 6-maskors spetsrapport att respektera. Det är den typen av varv där huvudräkningen på levande maskor tar längre tid än själva ökningarna, och det är också där misstagen händer. Öknings- och minskningskalkylatorn i [KnitTools-appen](/sv/verktyg/#join) ger dig en färdig varvinstruktion i stället för att lämna dig att räkna ut det från stickan.
 
 För enklare varv är uträkningen för hand snabb och pålitlig. Att veta när ett verktyg sparar tid och när det inte behövs är en del av att arbeta effektivt.
 

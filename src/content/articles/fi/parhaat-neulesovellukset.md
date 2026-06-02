@@ -116,7 +116,7 @@ Käytännön testi ei ole se, millä alustalla sovelluskaupan sivu näyttää pa
 
 Täysi läpinäkyvyys: tämä on KnitTools-sivusto.
 
-[KnitTools](/)-sovellusta rakennetaan Android-työkalupakiksi projektien seurantaan, kerroslaskentaan, laskureihin ja viitetiedon hakemiseen. Tavoite on pitää tavalliset neulonnan työtehtävät yhdessä paikassa: useita samanaikaisia laskureita, projektimuistiinpanot, tallennetut ohjeet, laskurit sekä viitemateriaali puikkokoista, lankavahvuuksista, lyhenteistä ja kokotaulukoista.
+[KnitTools](/fi/tyokalut/#join)-sovellusta rakennetaan Android-työkalupakiksi projektien seurantaan, kerroslaskentaan, laskureihin ja viitetiedon hakemiseen. Tavoite on pitää tavalliset neulonnan työtehtävät yhdessä paikassa: useita samanaikaisia laskureita, projektimuistiinpanot, tallennetut ohjeet, laskurit sekä viitemateriaali puikkokoista, lankavahvuuksista, lyhenteistä ja kokotaulukoista.
 
 Se on suunniteltu käytännön työkalupakiksi eikä yhden asian laskuriksi, jotta projektien seuraaminen, laskeminen, laskurit ja viitetieto sopivat samaan työrytmiin.
 

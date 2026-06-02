@@ -47,7 +47,7 @@ Paperimuistiinpanot toimivat, jos päivität niitä kurinalaisesti. Kirjoita nyk
 
 Puhelimessa oleva neuleprojektien seuranta hoitaa tämän luotettavammin. Digitaaliset seurannat tallentavat kerrosmäärän automaattisesti, merkitsevät milloin viimeksi työskentelit projektin parissa ja näyttävät kaikki aktiiviset projektit yhdessä listassa. Et penko pusseja, vaan näet yhdellä vilkaisulla: Palmikkoneuletakki, kerros 47, viimeksi tiistaina. Helpot sukat, kantapään käännös, viimeksi viikko sitten.
 
-[KnitTools-sovellusta](/) rakennetaan järjestämään projektit, niihin linkitetyt langat, kerrosmäärä, sessiohistoria ja ohjemuistiinpanot yhteen paikkaan. Tavoite on yksinkertainen: avaa projekti ja pääse takaisin työtilaan ilman muistista rekonstruointia.
+[KnitTools-sovellusta](/fi/tyokalut/#join) rakennetaan järjestämään projektit, niihin linkitetyt langat, kerrosmäärä, sessiohistoria ja ohjemuistiinpanot yhteen paikkaan. Tavoite on yksinkertainen: avaa projekti ja pääse takaisin työtilaan ilman muistista rekonstruointia.
 
 ## Mitä projektia tehdään
 
@@ -77,7 +77,7 @@ Langan seuraaminen projektikohtaisesti, paljonko aloitit ja paljonko on jäljell
 
 Hyvä aktiivisen projektin niksi: punnitse jäljellä oleva lanka muutaman session välein ja kirjoita grammamäärä ylös päivämäärän kanssa. Jos ensimmäinen hiha käytti 47 g, tiedät paljonko toinen hiha tarvitsee, pienen varan kanssa. "Luulen että riittää" muuttuu konkreettiseksi kyllä- tai ei-vastaukseksi.
 
-Kirjoita lankatiedot talteen silloin, kun vyöte on vielä käsillä: vahvuus, kuitusisältö, hoito-ohjeet ja värjäyserä. [KnitTools](/)-sovellusta rakennetaan pitämään nämä muistiinpanot sen projektin yhteydessä, johon ne kuuluvat, jolloin tieto ei elä irrallisena paperinpalana projektipussin pohjalla.
+Kirjoita lankatiedot talteen silloin, kun vyöte on vielä käsillä: vahvuus, kuitusisältö, hoito-ohjeet ja värjäyserä. [KnitTools](/fi/tyokalut/#join)-sovellusta rakennetaan pitämään nämä muistiinpanot sen projektin yhteydessä, johon ne kuuluvat, jolloin tieto ei elä irrallisena paperinpalana projektipussin pohjalla.
 
 ## Minimiversio
 

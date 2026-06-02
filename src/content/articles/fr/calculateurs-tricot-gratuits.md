@@ -78,7 +78,7 @@ Les pages [tableau des tailles d'aiguilles](/fr/outils/tailles-aiguilles/), [tab
 
 ## Tout au même endroit
 
-Les calculateurs gratuits et les pages de référence de ce site couvrent les maths tricot les plus courantes dans le navigateur. Pour les personnes qui veulent les mêmes outils de base dans une application Android centrée sur leurs projets, [KnitTools](/) est conçu autour du suivi des rangs, de la gestion de projets, des calculateurs et des références.
+Les calculateurs gratuits et les pages de référence de ce site couvrent les maths tricot les plus courantes dans le navigateur. Pour les personnes qui veulent les mêmes outils de base dans une application Android centrée sur leurs projets, [KnitTools](/fr/outils/#join) est conçu autour du suivi des rangs, de la gestion de projets, des calculateurs et des références.
 
 ## FAQ
 

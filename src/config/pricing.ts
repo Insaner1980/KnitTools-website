@@ -64,6 +64,26 @@ export const COUNTRY_TO_TIER: Record<string, PricingTier> = {
   ZA: "ZA",
 } as const;
 
+const STRUCTURED_PRICE_CURRENCY: Record<PricingTier, string> = {
+  US: "USD",
+  EU: "EUR",
+  UK: "GBP",
+  NO: "NOK",
+  SE: "SEK",
+  DK: "DKK",
+  IS: "ISK",
+  CH: "CHF",
+  CA: "CAD",
+  AU: "AUD",
+  NZ: "NZD",
+  JP: "JPY",
+  BR: "BRL",
+  IN: "INR",
+  MX: "MXN",
+  ZA: "ZAR",
+  default: "USD",
+};
+
 export const DEFAULT_PRICING_TIER: PricingTier = "US";
 export const FALLBACK_PRICING_TIER: PricingTier = "default";
 export const LOCAL_CURRENCY_NOTE =
@@ -86,9 +106,21 @@ export function getPrice(
   return PRICING_TIERS[tier][phase];
 }
 
-export function getStructuredPrice(phase: PricePhase = "launch") {
-  return {
-    price: PRICING_TIERS.US[phase].replace("$", ""),
-    priceCurrency: "USD",
-  };
+export function getStructuredOffers(phase: PricePhase = "launch") {
+  return Object.entries(PRICING_TIERS)
+    .filter(([tier]) => tier !== "default")
+    .map(([tier, prices]) => {
+      const pricingTier = tier as PricingTier;
+      const regions = Object.entries(COUNTRY_TO_TIER)
+        .filter(([, mappedTier]) => mappedTier === pricingTier)
+        .map(([country]) => country);
+      const priceMatch = prices[phase].match(/\d+(?:[.,]\d+)?/);
+
+      return {
+        "@type": "Offer",
+        price: priceMatch ? priceMatch[0].replace(",", ".") : prices[phase],
+        priceCurrency: STRUCTURED_PRICE_CURRENCY[pricingTier],
+        ...(regions.length > 0 ? { eligibleRegion: regions } : {}),
+      };
+    });
 }

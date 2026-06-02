@@ -71,7 +71,7 @@ Complexe steekpatronen. Kabels, ajour, kleurwerk. Je plek in een rapport kwijtra
 
 Langlopende projecten. Een trui die maanden duurt heeft baat bij vaste opslag en sessiegeschiedenis. Je ziet dat je er dinsdag voor het laatst aan werkte, dat je op toer 47 was en dat de volgende mindering op toer 52 komt. Een klikker zegt "47" en verder niets.
 
-[KnitTools](/) wordt gebouwd voor Android en combineert tik-tellen met ongedaan maken, toerherinneringen, meerdere tellers per project en sessiegeschiedenis. De kerngegevens voor tellers en projecten zijn gepland rond lokale projectdata.
+[KnitTools](/nl/breitools/#join) wordt gebouwd voor Android en combineert tik-tellen met ongedaan maken, toerherinneringen, meerdere tellers per project en sessiegeschiedenis. De kerngegevens voor tellers en projecten zijn gepland rond lokale projectdata.
 
 ## De combinatie-aanpak
 

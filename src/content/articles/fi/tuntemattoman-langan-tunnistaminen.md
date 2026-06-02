@@ -90,7 +90,7 @@ Jos aiot käyttää paljon tuntematonta lankaa samaan projektiin, testaa myös v
 
 Jos vyötteettömiä lankoja on paljon, yksi iltapäivä testaamiseen ja merkitsemiseen säästää myöhempää vaivaa. Käsin kirjoitettu lappu, kuten "todennäköisesti DK, ehkä villasekoite, käsinpesu", voittaa uuden mysteerikerän puolen vuoden päästä.
 
-[KnitTools](/) voi auttaa tässäkin. Tallenna tuntemattomalle langalle projektimuistiinpano, jossa on paras arviosi ja testimuistiinpanot. Seuraavalla kerralla kerä ei ole enää yhtä tuntematon.
+[KnitTools](/fi/tyokalut/#join) voi auttaa tässäkin. Tallenna tuntemattomalle langalle projektimuistiinpano, jossa on paras arviosi ja testimuistiinpanot. Seuraavalla kerralla kerä ei ole enää yhtä tuntematon.
 
 ## FAQ
 

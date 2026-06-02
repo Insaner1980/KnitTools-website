@@ -4,6 +4,7 @@ import { PRICING } from "../../config/pricing";
 import RegionalPrice from "../../components/RegionalPrice.astro";
 import RegionalPricingNote from "../../components/RegionalPricingNote.astro";
 import ToolStructuredData from "../../components/ToolStructuredData.astro";
+import SizeChartControls from "../../components/SizeChartControls.astro";
 import { routes } from "../../i18n/routes";
 
 interface Cell {
@@ -762,6 +763,7 @@ const faqs = [
   description="Standard body measurement charts for knitting. Baby through adult sizes with chest, waist, hips, arm length, and more, in cm and inches."
   canonicalPath="/tools/knitting-size-charts/"
   alternates={routes.tool.knittingSizeCharts}
+  enableRevealAnimations
 >
   <ToolStructuredData
     name="Knitting Size Charts"
@@ -776,20 +778,24 @@ const faqs = [
       <p class="eyebrow">
         <a href="/tools/" class="eyebrow-back">← All tools</a>
       </p>
-      <h1 class="gs-h1" aria-label="Knitting Size Charts">
-        <span class="h1-chars">Knitting Size Charts</span>
+      <h1 data-reveal="heading" aria-label="Knitting Size Charts">
+        Knitting Size Charts
       </h1>
-      <p class="hero-intro gs-hero">
+      <p class="hero-intro" data-reveal>
         Body measurements for common knitting projects. Pick a category and unit
         to see the chart.
       </p>
-      <p class="hero-note gs-hero">
+      <p class="hero-note" data-reveal>
         These are body measurements, not finished garment measurements. Add ease
         for the fit you want.
       </p>
 
-      <div class="form-card variant-terracotta is-wide" data-size-chart>
-        <div class="chart-controls gs-form">
+      <div
+        class="form-card variant-terracotta is-wide"
+        data-reveal="scale"
+        data-size-chart
+      >
+        <div class="chart-controls">
           <div class="tab-scroller">
             <div class="tabs" role="tablist" aria-label="Size category">
               {
@@ -835,7 +841,7 @@ const faqs = [
           </div>
         </div>
 
-        <div class="chart-wrap show-cm gs-form" id="chart-wrap">
+        <div class="chart-wrap show-cm" id="chart-wrap">
           {
             panels.map((p) => (
               <div
@@ -892,93 +898,93 @@ const faqs = [
   <!-- 2. SEO content -->
   <section class="seo-content">
     <div class="content-inner">
-      <h2 class="gs-clip-reveal">How to take body measurements</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">How to take body measurements</h2>
+      <p data-reveal>
         The measurements in these charts correspond to specific points on the
         body. Getting an accurate reading requires measuring in the right place.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Chest / Bust:</strong> Measure around the fullest part of the chest,
         keeping the tape level and snug but not tight. For women, this is at the fullest
         point of the bust. This is the primary measurement used to determine garment
         size.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Waist:</strong> Measure at the natural waistline, the narrowest point
         of the torso, usually just above the navel. Bending to one side helps locate
         it if you're unsure.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Hips:</strong> Measure around the widest part of the lower hip. For
         many bodies this sits below the natural waist, but the widest point matters
         more than a fixed distance. Keep the tape level.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Cross Back (shoulder to shoulder):</strong> Measure straight across
         the back from the tip of one shoulder to the other. This determines the shoulder
         width of a garment.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Back Waist Length:</strong> Measure from the prominent bone at the
         back of the neck straight down to the natural waist. This determines how long
         the torso section of a garment needs to be.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Arm Length to Underarm:</strong> Measure from the wrist bone to the
         underarm. This is your sleeve length guide.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Upper Arm:</strong> Measure the circumference at the fullest part
         of the upper arm, with the arm relaxed at the side.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Armhole Depth:</strong> Measure from the top of the shoulder straight
         down to the underarm. This determines how deep the armhole shaping needs to
         be.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Center Back Neck-to-Wrist:</strong> Measure from the center back of
         the neck, across the shoulder and down the arm to the wrist bone. This combined
         measurement is used for raglan and yoke constructions where the body and sleeve
         are worked together.
       </p>
 
-      <h2 class="gs-clip-reveal">
+      <h2 data-reveal="clip">
         Body measurements vs finished garment measurements
       </h2>
-      <p class="gs-fade-up">
+      <p data-reveal>
         This is the most common source of sizing confusion in knitting. These
         charts show body measurements, the actual dimensions of the person. A
         finished garment can be smaller, equal, or larger depending on the ease
         the designer built into the pattern.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Negative ease:</strong> The garment is smaller than the body. For
         a very close sweater fit, CYC's guidance is roughly 5-10 cm less than the
         actual bust or chest measurement; hats, socks, and fitted ribbing use their
         own project-specific grip.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Zero ease:</strong> The garment matches body measurements exactly.
         In knitted fabric this usually reads as very close fitting unless the stitch
         pattern is especially relaxed.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Positive ease (5–10 cm):</strong> The garment is slightly larger than
         the body. This is standard fit for most sweaters, cardigans, and tops.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Loose or oversized ease (10-15+ cm):</strong> The garment is noticeably
         larger than the body. Slouchy sweaters, cocoon cardigans, and relaxed-fit
         garments live here.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         When a pattern says "to fit chest 91.5 cm" and gives a finished bust
         measurement of 101.5 cm, the 10 cm difference is the ease. Your job is
         to choose the size where the "to fit" measurement matches your body, not
         the finished measurement.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Once you know your target size, the <a href="/tools/yarn-estimator/"
           >Yarn Estimator</a
         > can sanity-check yardage, and the <a
@@ -986,20 +992,20 @@ const faqs = [
         > walks through sizing calculations in more depth.
       </p>
 
-      <h2 class="gs-clip-reveal">Choosing between sizes</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">Choosing between sizes</h2>
+      <p data-reveal>
         If your chest measurement falls between two sizes, the right choice
         depends on the garment's intended fit. For a close-fitting garment, go
         with the smaller size. For a relaxed or oversized fit, go with the
         larger size.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Also compare other measurements, especially hips for longer garments and
         upper arm for fitted sleeves. If your chest says M but your hips say L,
         check the pattern's schematic to see whether the hip difference matters
         for the garment's length and silhouette.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Whichever size you pick, the <a
           href="/articles/gauge-swatch-step-by-step/">gauge swatch</a
         > decides whether the finished piece actually matches the pattern's numbers.
@@ -1013,18 +1019,18 @@ const faqs = [
   <!-- 3. FAQ -->
   <section class="tool-faq">
     <div class="faq-inner">
-      <h2 class="gs-clip-reveal">Frequently asked questions</h2>
+      <h2 data-reveal="clip">Frequently asked questions</h2>
       <div class="faq">
         {
           faqs.map((f) => (
-            <details class="gs-faq-item">
+            <details data-reveal data-animate-details>
               <summary>
                 {f.q}{" "}
                 <span class="faq-icon" aria-hidden="true">
                   +
                 </span>
               </summary>
-              <p>{f.a}</p>
+              <p data-animate-body>{f.a}</p>
             </details>
           ))
         }
@@ -1046,7 +1052,7 @@ const faqs = [
         data-generic-error="Something went wrong. Please try again."
         data-network-error="Network error. Please check your connection."
       >
-        <label class="visually-hidden" for="waitlist-website"
+        <label class="visually-hidden" for="waitlist-website" aria-hidden="true"
           >Leave this field empty</label
         >
         <input
@@ -1056,16 +1062,21 @@ const faqs = [
           type="text"
           tabindex="-1"
           autocomplete="off"
+          aria-hidden="true"
         />
+        <label class="visually-hidden" for="waitlist-email">Email address</label
+        >
         <div class="waitlist-content-layer" id="waitlist-content-layer">
           <h2 class="waitlist-head">
             Where every stitch<br /><em>counts.</em>
           </h2>
           <div class="waitlist-row" id="waitlist-row" data-content>
             <input
+              id="waitlist-email"
               type="email"
               name="email"
               placeholder="your@email.com"
+              aria-describedby="waitlist-success waitlist-error"
               required
               class="waitlist-input"
             />
@@ -1076,6 +1087,10 @@ const faqs = [
           <p
             class="waitlist-success"
             id="waitlist-success"
+            data-success
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
             aria-hidden="true"
             hidden
           >
@@ -1090,8 +1105,10 @@ const faqs = [
           <p
             class="waitlist-error"
             id="waitlist-error"
+            data-error
             role="alert"
             aria-live="polite"
+            aria-hidden="true"
             hidden
           >
           </p>
@@ -1099,159 +1116,8 @@ const faqs = [
       </form>
     </div>
   </section>
+  <SizeChartControls />
 </PageLayout>
-
-<script>
-  const prefersReducedMotion = window.matchMedia(
-    "(prefers-reduced-motion: reduce)",
-  ).matches;
-
-  if (!prefersReducedMotion) {
-    const [{ gsap }, { ScrollTrigger }] = await Promise.all([
-      import("gsap"),
-      import("gsap/ScrollTrigger"),
-    ]);
-
-    gsap.registerPlugin(ScrollTrigger);
-
-    // --- Hero entrance timeline ---
-    const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
-
-    heroTl.from(
-      ".gs-hero",
-      {
-        opacity: 0,
-        y: 12,
-        duration: 0.5,
-        stagger: 0.15,
-      },
-      0.2,
-    );
-
-    // H1 letter stagger — wrap each word so browsers can't break mid-word
-    const h1El = document.querySelector(".h1-chars");
-    if (h1El) {
-      const text = h1El.textContent || "";
-      h1El.textContent = "";
-      const chars: HTMLSpanElement[] = [];
-      const words = text.split(" ");
-      words.forEach((word, wi) => {
-        const wordSpan = document.createElement("span");
-        wordSpan.className = "h1-word";
-        for (const c of word) {
-          const span = document.createElement("span");
-          span.className = "h1-char";
-          span.textContent = c;
-          wordSpan.appendChild(span);
-          chars.push(span);
-        }
-        h1El.appendChild(wordSpan);
-        if (wi < words.length - 1) {
-          h1El.appendChild(document.createTextNode(" "));
-        }
-      });
-
-      heroTl.from(
-        chars,
-        {
-          opacity: 0,
-          x: -20,
-          duration: 0.4,
-          stagger: 0.03,
-          ease: "power2.out",
-        },
-        0.1,
-      );
-    }
-
-    heroTl.from(
-      ".gs-form",
-      {
-        opacity: 0,
-        y: 16,
-        duration: 0.5,
-        stagger: 0.1,
-      },
-      0.6,
-    );
-
-    document.querySelectorAll(".gs-clip-reveal").forEach((el) => {
-      gsap.set(el, { clipPath: "inset(0 100% 0 0)" });
-      gsap.to(el, {
-        clipPath: "inset(0 0% 0 0)",
-        duration: 0.8,
-        ease: "power3.inOut",
-        scrollTrigger: {
-          trigger: el,
-          start: "top 85%",
-          once: true,
-        },
-      });
-    });
-
-    document.querySelectorAll(".gs-fade-up").forEach((el) => {
-      gsap.from(el, {
-        opacity: 0,
-        y: 24,
-        duration: 0.6,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: el,
-          start: "top 88%",
-          once: true,
-        },
-      });
-    });
-
-    const faqItems = document.querySelectorAll(".gs-faq-item");
-    if (faqItems.length) {
-      gsap.from(faqItems, {
-        opacity: 0,
-        y: 16,
-        duration: 0.4,
-        stagger: 0.08,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: faqItems[0],
-          start: "top 85%",
-          once: true,
-        },
-      });
-    }
-
-    document.querySelectorAll(".gs-faq-item").forEach((details) => {
-      const summary = details.querySelector("summary");
-      const content = details.querySelector("p");
-      if (!summary || !content) return;
-
-      summary.addEventListener("click", (e) => {
-        e.preventDefault();
-        if (details.hasAttribute("open")) {
-          gsap.to(content, {
-            height: 0,
-            opacity: 0,
-            duration: 0.3,
-            ease: "power2.inOut",
-            onComplete: () => {
-              details.removeAttribute("open");
-              gsap.set(content, { height: "auto", opacity: 1 });
-            },
-          });
-        } else {
-          details.setAttribute("open", "");
-          const h = content.scrollHeight;
-          gsap.set(content, { height: 0, opacity: 0 });
-          gsap.to(content, {
-            height: h,
-            opacity: 1,
-            duration: 0.3,
-            ease: "power2.out",
-          });
-        }
-      });
-    });
-  }
-</script>
 
 <style>
   /* ---- Shared section rhythm (v11 editorial) ---- */
@@ -1329,14 +1195,6 @@ const faqs = [
     text-transform: none;
     margin: 0 0 20px;
     padding-bottom: 0.08em;
-  }
-
-  .tool-hero h1 :global(.h1-word) {
-    display: inline-block;
-    white-space: nowrap;
-  }
-  .tool-hero h1 :global(.h1-char) {
-    display: inline-block;
   }
 
   .hero-intro {

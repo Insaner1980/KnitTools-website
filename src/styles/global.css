@@ -444,48 +444,6 @@ p {
   border-radius: 9999px;
 }
 
-/* --- Scroll reveal animations --- */
-
-.reveal {
-  --reveal-x: 0px;
-  --reveal-y: 20px;
-  --reveal-delay: 0ms;
-  opacity: 0;
-  transform: translate3d(var(--reveal-x), var(--reveal-y), 0);
-  transition:
-    opacity 600ms ease-out,
-    transform 600ms ease-out;
-  transition-delay: var(--reveal-delay);
-}
-
-.reveal.visible {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-
-.reveal-left {
-  --reveal-x: -24px;
-  --reveal-y: 0px;
-}
-
-.reveal-right {
-  --reveal-x: 24px;
-  --reveal-y: 0px;
-}
-
-.reveal-delay-1 {
-  --reveal-delay: 80ms;
-}
-.reveal-delay-2 {
-  --reveal-delay: 160ms;
-}
-.reveal-delay-3 {
-  --reveal-delay: 240ms;
-}
-.reveal-delay-4 {
-  --reveal-delay: 320ms;
-}
-
 /* --- Page wrapper for stripe ribbon --- */
 
 .page-wrapper {
@@ -614,5 +572,50 @@ p {
   }
   .kicker-rule {
     width: 40px;
+  }
+}
+
+/* ============================================================
+   Lightweight reveal motion
+   ============================================================ */
+
+html.reveal-animations [data-reveal],
+html.reveal-animations [data-reveal-content] :where(h3, p, ul, ol, table) {
+  opacity: 0;
+  transform: translateY(18px);
+  will-change: opacity, transform;
+}
+
+html.reveal-animations [data-reveal="heading"] {
+  transform: translateY(10px);
+}
+
+html.reveal-animations [data-reveal="scale"] {
+  transform: translateY(18px) scale(0.985);
+}
+
+html.reveal-animations [data-reveal="clip"],
+html.reveal-animations [data-reveal-content] h2 {
+  opacity: 1;
+  transform: none;
+  clip-path: inset(0 100% 0 0);
+  will-change: clip-path;
+}
+
+html.reveal-animations [data-reveal].is-revealed {
+  opacity: 1;
+  transform: none;
+  clip-path: inset(0 0 0 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.reveal-animations [data-reveal],
+  html.reveal-animations
+    [data-reveal-content]
+    :where(h2, h3, p, ul, ol, table) {
+    opacity: 1;
+    transform: none;
+    clip-path: none;
+    will-change: auto;
   }
 }

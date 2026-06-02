@@ -69,7 +69,7 @@ Muistutukset ovat kohta, jossa sovellus nousee listan muiden tapojen ohi. Ohje s
 
 Osa kerroslaskurisovelluksista kirjaa myös sessio- tai edistymistietoa, joten näet kauanko olet työskennellyt ja voit verrata tahtia sessioiden välillä. Silloin laskuri ei ole vain yksi numero, vaan projektin muistijälki.
 
-[KnitTools-sovellusta](/) rakennetaan Android-työkalupakiksi, jossa on napautuslaskenta, peruutus, useat laskurit ja sessioseuranta moniosaisiin projekteihin.
+[KnitTools-sovellusta](/fi/tyokalut/#join) rakennetaan Android-työkalupakiksi, jossa on napautuslaskenta, peruutus, useat laskurit ja sessioseuranta moniosaisiin projekteihin.
 
 ## 7. Yhdistelmämenetelmät
 

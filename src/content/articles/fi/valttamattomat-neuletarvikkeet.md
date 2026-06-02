@@ -67,7 +67,7 @@ Seuraa millä kerroksella olet. Välttämätön toistoissa, muotoilurytmeissä j
 
 **Mekaaniset laskurit** eli puikon päähän laitettavat klikkerit ovat halpoja eivätkä tarvitse paristoja. Mutta ne laskevat käytännössä yhtä asiaa, eivät yleensä peru sujuvasti, ja kolhu voi vaihtaa lukua. Työhön kiinnitettävä tai projektista roikkuva malli ratkaisee pyöröpuikko-ongelman, mutta ei purkuongelmaa.
 
-**Sovelluslaskurit** voivat tehdä enemmän: useita laskureita, projektikohtainen tallennus, sessiohistoria ja projektin muistaminen. [KnitTools](/) on rakenteilla neulojille projektikohtaisen kerroslaskennan ympärille. [Neulesovellusten vertailu](/fi/artikkelit/parhaat-neulesovellukset/) käy tarkemmin läpi, mitä kannattaa katsoa.
+**Sovelluslaskurit** voivat tehdä enemmän: useita laskureita, projektikohtainen tallennus, sessiohistoria ja projektin muistaminen. [KnitTools](/fi/tyokalut/#join) on rakenteilla neulojille projektikohtaisen kerroslaskennan ympärille. [Neulesovellusten vertailu](/fi/artikkelit/parhaat-neulesovellukset/) käy tarkemmin läpi, mitä kannattaa katsoa.
 
 Ainaoikein neulottu huivi ei tarvitse laskuria. Pitsihuivi, jossa on 24 kerroksen mallikerta, tarvitsee.
 

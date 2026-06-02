@@ -21,7 +21,7 @@ const columns = [
 
 <section class="trust-triad" aria-labelledby="trust-heading">
   <div class="inner">
-    <header class="section-head">
+    <header class="section-head" data-reveal>
       <p class="section-label">
         <span class="label-text">Principles</span>
       </p>
@@ -31,7 +31,7 @@ const columns = [
     </header>
 
     <div class="cols">
-      <article class="trust-col">
+      <article class="trust-col" data-reveal="scale">
         <p class="eyebrow">Price</p>
         <h3>
           Pay once.
@@ -46,7 +46,10 @@ const columns = [
       </article>
       {
         columns.map((c) => (
-          <article class:list={["trust-col", c.tint && `tint-${c.tint}`]}>
+          <article
+            class:list={["trust-col", c.tint && `tint-${c.tint}`]}
+            data-reveal="scale"
+          >
             <p class="eyebrow">{c.eyebrow}</p>
             <h3>
               {c.lead}

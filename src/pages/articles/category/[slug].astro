@@ -90,21 +90,21 @@ const sortedArticles = [...englishArticles].sort(byCategoryOrder);
   }
 
   .back {
-    margin: 0 0 24px;
     font-family: var(--mono);
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 0.08em;
+    font-size: 12px;
+    letter-spacing: 0.24em;
     text-transform: uppercase;
+    margin: 0 0 24px;
   }
 
   .back a {
-    color: var(--terracotta);
+    color: var(--ink-soft);
     text-decoration: none;
+    transition: color 0.15s ease;
   }
 
   .back a:hover {
-    color: var(--ink);
+    color: var(--terracotta);
   }
 
   .eyebrow {

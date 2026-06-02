@@ -71,7 +71,7 @@ Kompliserte maskemønstre. Fletter, hullmønster, mønsterstrikk. Å miste plass
 
 Langtidsprosjekter. En genser som tar måneder, har nytte av lagring og økthistorikk. Du kan se at du sist jobbet på den tirsdagen, at du var på pinne 47, og at neste felling er på pinne 52. En klikkteller sier "47" og ingenting mer.
 
-[KnitTools](/) bygges for Android og kombinerer trykktelling med angre, pinnepåminnelser, flere tellere per prosjekt og øktsporing. Kjernedata for tellere og prosjekter er planlagt rundt lokale prosjektdata.
+[KnitTools](/no/verktoy/#join) bygges for Android og kombinerer trykktelling med angre, pinnepåminnelser, flere tellere per prosjekt og øktsporing. Kjernedata for tellere og prosjekter er planlagt rundt lokale prosjektdata.
 
 ## Kombinasjonsmetoden
 

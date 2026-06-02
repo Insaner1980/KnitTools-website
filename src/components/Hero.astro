@@ -39,7 +39,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
         data-network-error="Network error. Please check your connection."
       >
         <label for="hero-email" class="visually-hidden">Email address</label>
-        <label for="hero-website" class="visually-hidden"
+        <label for="hero-website" class="visually-hidden" aria-hidden="true"
           >Leave this field empty</label
         >
         <input
@@ -49,6 +49,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
           class="visually-hidden"
           tabindex="-1"
           autocomplete="off"
+          aria-hidden="true"
         />
         <div class="signup-rows" data-content>
           <input

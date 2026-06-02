@@ -117,7 +117,7 @@ Le test pratique n'est pas quelle plateforme a la plus jolie fiche. C'est de sav
 
 Transparence : ceci est le site de KnitTools.
 
-[KnitTools](/) est en cours de développement comme boîte à outils Android pour le suivi de projets, le comptage des rangs, les calculs et les références. L'objectif est de garder les tâches courantes de tricot au même endroit : plusieurs compteurs simultanés, notes de projet, modèles enregistrés, calculateurs et références pour les tailles d'aiguilles, les épaisseurs de fil, les abréviations et les tableaux de tailles.
+[KnitTools](/fr/outils/#join) est en cours de développement comme boîte à outils Android pour le suivi de projets, le comptage des rangs, les calculs et les références. L'objectif est de garder les tâches courantes de tricot au même endroit : plusieurs compteurs simultanés, notes de projet, modèles enregistrés, calculateurs et références pour les tailles d'aiguilles, les épaisseurs de fil, les abréviations et les tableaux de tailles.
 
 Elle est pensée comme une boîte à outils pratique plutôt qu'une application à usage unique, afin que suivi de projet, comptage, calculs et références suivent le même rythme de travail.
 

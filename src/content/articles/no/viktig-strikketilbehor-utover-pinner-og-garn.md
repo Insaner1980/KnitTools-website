@@ -68,7 +68,7 @@ Holder styr på hvilken pinne eller omgang du er på. Nødvendig for gjentatte s
 
 **Mekaniske tellere** som klikkehjul på pinnen er enkle og trenger ikke batteri. Men de teller i praksis én ting, kan være tungvinte å stille tilbake, og et dytt kan endre tallet. En teller som henger på prosjektet eller festes med klips løser rundpinneproblemet, men ikke problemet med at den bare har én teller.
 
-**App-tellere** kan gjøre mer: flere tellere, prosjektkobling, økthistorikk og påminnelser knyttet til et prosjekt. [KnitTools](/) bygges rundt prosjekttilknyttet telling av pinner og omganger for strikking. [Sammenligningen av strikkeapper](/no/artikler/beste-strikkeapper-hva-du-bor-se-etter/) dekker hva du bør se etter.
+**App-tellere** kan gjøre mer: flere tellere, prosjektkobling, økthistorikk og påminnelser knyttet til et prosjekt. [KnitTools](/no/verktoy/#join) bygges rundt prosjekttilknyttet telling av pinner og omganger for strikking. [Sammenligningen av strikkeapper](/no/artikler/beste-strikkeapper-hva-du-bor-se-etter/) dekker hva du bør se etter.
 
 Et rillestrikket skjerf trenger ikke teller. Et hullmønstret sjal med 24-pinners rapport gjør det absolutt.
 

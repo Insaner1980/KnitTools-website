@@ -70,7 +70,7 @@ Håller reda på vilket varv du är på. Viktig för upprepade sekvenser, formni
 
 Modellen som fästs i arbetet i stället för att sitta på stickan löser rundstickeproblemet, men inte problemet med att backa efter att du repat upp.
 
-**Appräknare** kan göra mer: flera räknare, koppling till projekt, passhistorik och påminnelser kopplade till ett projekt. [KnitTools](/) byggs kring projektkopplad varvräkning för stickning. [Jämförelsen av stickappar](/sv/artiklar/basta-stickappar-vad-du-ska-titta-efter/) går igenom vad du ska titta efter mer i detalj.
+**Appräknare** kan göra mer: flera räknare, koppling till projekt, passhistorik och påminnelser kopplade till ett projekt. [KnitTools](/sv/verktyg/#join) byggs kring projektkopplad varvräkning för stickning. [Jämförelsen av stickappar](/sv/artiklar/basta-stickappar-vad-du-ska-titta-efter/) går igenom vad du ska titta efter mer i detalj.
 
 En rätstickad halsduk behöver ingen räknare. En spetssjal med en 24-varvsrapport gör det absolut.
 

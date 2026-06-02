@@ -21,6 +21,49 @@ const collectSourceFiles = (dir, files = []) => {
 
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
+const getLineNumber = (source, index) =>
+  source.slice(0, index).split(/\r?\n/).length;
+
+const getAttribute = (tag, name) => {
+  const escapedName = escapeRegExp(name);
+  const match = tag.match(
+    new RegExp(
+      `\\b${escapedName}(?:=(?:"([^"]*)"|'([^']*)'|\\{([^}]*)\\}|([^\\s>]+)))?`,
+    ),
+  );
+  return match?.[1] ?? match?.[2] ?? match?.[3] ?? match?.[4] ?? null;
+};
+
+const findTag = (source, tagName, predicate) => {
+  for (const match of source.matchAll(
+    new RegExp(`<${tagName}\\b[\\s\\S]*?>`, "g"),
+  )) {
+    const tag = match[0];
+    if (predicate(tag, match.index)) return { tag, index: match.index };
+  }
+  return null;
+};
+
+const getWaitlistForms = () => {
+  const forms = [];
+
+  for (const path of collectSourceFiles("src")) {
+    if (!/\.astro$/.test(path)) continue;
+    const source = read(path);
+
+    for (const match of source.matchAll(/<form\b[\s\S]*?<\/form>/g)) {
+      if (!match[0].includes("data-waitlist-signup")) continue;
+      forms.push({
+        path,
+        source: match[0],
+        startLine: getLineNumber(source, match.index),
+      });
+    }
+  }
+
+  return forms;
+};
+
 const articleListingPages = [
   "src/pages/articles/index.astro",
   "src/pages/fi/artikkelit/index.astro",
@@ -80,6 +123,12 @@ describe("design token hygiene", () => {
       "--stripe-column-width-desktop",
       "--stripe-column-width-mobile",
       ".feature-text",
+      ".reveal {",
+      ".reveal.visible",
+      ".reveal-left",
+      ".reveal-right",
+      ".reveal-delay-",
+      "transition-delay: var(--reveal-delay",
     ]) {
       assert.ok(!globalCss.includes(pattern), pattern);
     }
@@ -228,11 +277,132 @@ describe("accessibility hygiene", () => {
     assert.match(signupScript, /setAttribute\("aria-describedby"/);
   });
 
+  it("uses a bounded network timeout for waitlist submissions", () => {
+    const signupScript = read("src/scripts/waitlistSignup.ts");
+
+    assert.match(signupScript, /WAITLIST_TIMEOUT_MS/);
+    assert.match(signupScript, /AbortController/);
+    assert.match(signupScript, /controller\.abort\(\)/);
+    assert.match(signupScript, /signal:\s*controller\.signal/);
+    assert.match(signupScript, /clearTimeout/);
+  });
+
+  it("keeps every waitlist form programmatically labeled and announced", () => {
+    const issues = [];
+
+    for (const form of getWaitlistForms()) {
+      const labels = new Set(
+        [
+          ...form.source.matchAll(
+            /<label\b[\s\S]*?\bfor=["']([^"']+)["'][\s\S]*?>/g,
+          ),
+        ].map((match) => match[1]),
+      );
+      const email = findTag(
+        form.source,
+        "input",
+        (tag) => getAttribute(tag, "type") === "email",
+      );
+      const success = findTag(form.source, "p", (tag) =>
+        /\bdata-success\b/.test(tag),
+      );
+      const error = findTag(form.source, "p", (tag) =>
+        /\bdata-error\b/.test(tag),
+      );
+      const formRef = `${normalizePath(form.path)}:${form.startLine}`;
+
+      if (!email) {
+        issues.push(`${formRef} missing email input`);
+        continue;
+      }
+
+      const emailId = getAttribute(email.tag, "id");
+      const describedBy = new Set(
+        (getAttribute(email.tag, "aria-describedby") || "")
+          .split(/\s+/)
+          .filter(Boolean),
+      );
+      const successId = success ? getAttribute(success.tag, "id") : "";
+      const errorId = error ? getAttribute(error.tag, "id") : "";
+
+      if (!emailId || !labels.has(emailId)) {
+        issues.push(`${formRef} email input is not label-linked`);
+      }
+      if (!success) {
+        issues.push(`${formRef} missing data-success message`);
+      } else {
+        if (getAttribute(success.tag, "role") !== "status") {
+          issues.push(`${formRef} success message is not role=status`);
+        }
+        if (getAttribute(success.tag, "aria-live") !== "polite") {
+          issues.push(`${formRef} success message is not aria-live=polite`);
+        }
+        if (getAttribute(success.tag, "aria-atomic") !== "true") {
+          issues.push(`${formRef} success message is not aria-atomic=true`);
+        }
+      }
+      if (!error) {
+        issues.push(`${formRef} missing data-error message`);
+      } else if (getAttribute(error.tag, "role") !== "alert") {
+        issues.push(`${formRef} error message is not role=alert`);
+      }
+      if (successId && !describedBy.has(successId)) {
+        issues.push(`${formRef} email input does not describe success state`);
+      }
+      if (errorId && !describedBy.has(errorId)) {
+        issues.push(`${formRef} email input does not describe error state`);
+      }
+    }
+
+    assert.deepEqual(issues, []);
+  });
+
+  it("keeps waitlist honeypots out of the accessibility tree", () => {
+    const issues = [];
+
+    for (const form of getWaitlistForms()) {
+      const honeypot = findTag(
+        form.source,
+        "input",
+        (tag) => getAttribute(tag, "name") === "website",
+      );
+      const formRef = `${normalizePath(form.path)}:${form.startLine}`;
+
+      if (!honeypot) {
+        issues.push(`${formRef} missing honeypot input`);
+        continue;
+      }
+
+      const honeypotId = getAttribute(honeypot.tag, "id");
+      const honeypotLabel = honeypotId
+        ? findTag(
+            form.source,
+            "label",
+            (tag) => getAttribute(tag, "for") === honeypotId,
+          )
+        : null;
+
+      if (getAttribute(honeypot.tag, "aria-hidden") !== "true") {
+        issues.push(`${formRef} honeypot input is not aria-hidden`);
+      }
+      if (
+        honeypotLabel &&
+        getAttribute(honeypotLabel.tag, "aria-hidden") !== "true"
+      ) {
+        issues.push(`${formRef} honeypot label is not aria-hidden`);
+      }
+    }
+
+    assert.deepEqual(issues, []);
+  });
+
   it("uses one keyboard-complete size-chart controller", () => {
     const baseLayout = read("src/layouts/BaseLayout.astro");
+    const sizeChartControls = read("src/components/SizeChartControls.astro");
     const controller = read("src/scripts/sizeChartControls.ts");
 
-    assert.match(baseLayout, /initSizeChartControls/);
+    assert.ok(!baseLayout.includes("initSizeChartControls"));
+    assert.match(sizeChartControls, /initSizeChartControls/);
     for (const key of ["ArrowRight", "ArrowLeft", "Home", "End", " "]) {
       assert.ok(controller.includes(key), key);
     }
@@ -240,6 +410,11 @@ describe("accessibility hygiene", () => {
     for (const path of sizeChartFiles) {
       const source = read(path);
       assert.match(source, /data-size-chart/, path);
+      if (path === "src/pages/tools/knitting-size-charts.astro") {
+        assert.match(source, /<SizeChartControls \/>/, path);
+      } else {
+        assert.match(source, /enableSizeChartControls/, path);
+      }
       assert.match(source, /tabindex=\{[^}]+\}/, path);
       assert.doesNotMatch(
         source,
@@ -261,9 +436,23 @@ describe("performance hygiene", () => {
     const toolsIndexPage = read("src/components/ToolsIndexPage.astro");
 
     assert.ok(!baseLayout.includes('querySelectorAll(".reveal")'));
-    assert.match(toolsIndexPage, /revealCards\s+&&\s+<script/);
-    assert.match(toolsIndexPage, /IntersectionObserver/);
-    assert.match(toolsIndexPage, /querySelectorAll\("\.reveal"\)/);
+    assert.ok(!baseLayout.includes("initSizeChartControls"));
+    assert.match(toolsIndexPage, /enableRevealAnimations/);
+    assert.match(toolsIndexPage, /data-reveal/);
+    assert.doesNotMatch(toolsIndexPage, /IntersectionObserver/);
+    assert.doesNotMatch(toolsIndexPage, /querySelectorAll\("\.reveal"\)/);
+  });
+
+  it("keeps only intentional animation dependencies in the runtime package manifest", () => {
+    const manifest = JSON.parse(read("package.json"));
+    const lockfile = JSON.parse(read("package-lock.json"));
+
+    assert.match(manifest.dependencies.gsap, /^\^?3\./);
+    assert.equal(manifest.dependencies.sharp, undefined);
+    assert.match(lockfile.packages[""].dependencies.gsap, /^\^?3\./);
+    assert.equal(lockfile.packages[""].dependencies.sharp, undefined);
+    assert.ok(lockfile.packages["node_modules/gsap"]);
+    assert.equal(lockfile.packages["node_modules/sharp"], undefined);
   });
 
   it("caches regional pricing country lookup between page loads", () => {
@@ -271,6 +460,53 @@ describe("performance hygiene", () => {
 
     assert.match(baseLayout, /sessionStorage/);
     assert.match(baseLayout, /knittools-pricing-country/);
+  });
+
+  it("keeps raised launch pricing tiers aligned with current Google Play prices", () => {
+    const pricing = read("src/config/pricing.ts");
+
+    for (const [tier, launch, permanent] of [
+      ["US", "$9.99", "$14.99"],
+      ["EU", "€9.99", "€14.99"],
+      ["UK", "£8.99", "£12.99"],
+      ["CA", "CAD 13.99", "CAD 19.99"],
+      ["AU", "AUD 14.99", "AUD 22.99"],
+      ["NZ", "NZD 16.99", "NZD 24.99"],
+      ["CH", "CHF 9.90", "CHF 14.90"],
+      ["NO", "NOK 99", "NOK 149"],
+      ["SE", "SEK 99", "SEK 149"],
+      ["DK", "DKK 69", "DKK 99"],
+      ["JP", "JPY 1500", "JPY 2200"],
+    ]) {
+      assert.match(
+        pricing,
+        new RegExp(
+          `${tier}: \\{ launch: "${escapeRegExp(launch)}", permanent: "${escapeRegExp(
+            permanent,
+          )}" \\}`,
+        ),
+      );
+    }
+  });
+
+  it("uses browsing country instead of browser locale for regional pricing", () => {
+    const baseLayout = read("src/layouts/BaseLayout.astro");
+
+    assert.match(baseLayout, /fetch\("\/cdn-cgi\/trace"/);
+    assert.match(baseLayout, /trace\.match\(\/\^loc=/);
+    assert.doesNotMatch(baseLayout, /navigator\.languages?/);
+    assert.doesNotMatch(baseLayout, /Intl\.Locale/);
+  });
+
+  it("uses tier-specific structured offers for the paid app price", () => {
+    const pricing = read("src/config/pricing.ts");
+    const indexPage = read("src/pages/index.astro");
+
+    assert.match(pricing, /export function getStructuredOffers/);
+    assert.match(pricing, /eligibleRegion/);
+    assert.match(indexPage, /import \{ getStructuredOffers \}/);
+    assert.match(indexPage, /offers: structuredOffers/);
+    assert.doesNotMatch(indexPage, /getStructuredPrice/);
   });
 
   it("keeps critical font preloads aligned with visible weights", () => {
@@ -301,7 +537,40 @@ describe("performance hygiene", () => {
     );
   });
 
-  it("keeps GSAP but defers loading until motion is allowed", () => {
+  it("uses the shared GSAP reveal animation helper on all tool pages", () => {
+    const home = read("src/pages/index.astro");
+    const localizedToolPage = read("src/components/LocalizedToolPage.astro");
+    const revealHelper = read("src/scripts/revealAnimations.ts");
+
+    assert.match(home, /enableRevealAnimations/);
+    assert.match(localizedToolPage, /enableRevealAnimations/);
+    assert.match(localizedToolPage, /data-reveal-content/);
+    assert.doesNotMatch(
+      localizedToolPage,
+      /<div data-reveal>\s*<slot name="content" \/>/,
+    );
+    assert.match(revealHelper, /from "gsap"/);
+    assert.match(revealHelper, /from "gsap\/ScrollTrigger"/);
+    assert.match(revealHelper, /gsap\.registerPlugin\(ScrollTrigger\)/);
+    assert.match(revealHelper, /const prepareContentReveal/);
+    assert.match(
+      revealHelper,
+      /querySelectorAll<HTMLElement>\("h2"\)[\s\S]*dataset\.reveal = "clip"/,
+    );
+    assert.match(revealHelper, /clipPath:\s*"inset\(0 0 0 0\)"/);
+    assert.doesNotMatch(
+      revealHelper,
+      /onStart:\s*\(\)\s*=>\s*element\.classList\.add/,
+    );
+    assert.match(
+      revealHelper,
+      /const initClipReveal[\s\S]*gsap\.set\(element,\s*\{\s*clipPath:\s*"inset\(0 100% 0 0\)"\s*\}\)[\s\S]*duration:\s*0\.8[\s\S]*ease:\s*"power3\.inOut"[\s\S]*start:\s*"top 85%"/,
+    );
+    assert.match(
+      revealHelper,
+      /element\.dataset\.reveal === "clip"[\s\S]*initClipReveal\(element\)/,
+    );
+
     for (const path of [
       "src/pages/tools/cast-on-calculator.astro",
       "src/pages/tools/yarn-estimator.astro",
@@ -311,20 +580,8 @@ describe("performance hygiene", () => {
       "src/pages/tools/knitting-size-charts.astro",
     ]) {
       const source = read(path);
-      assert.doesNotMatch(source, /import \{ gsap \} from "gsap"/, path);
-      assert.doesNotMatch(
-        source,
-        /import \{ ScrollTrigger \} from "gsap\/ScrollTrigger"/,
-        path,
-      );
-      assert.match(source, /import\("gsap"\)/, path);
-      assert.match(source, /import\("gsap\/ScrollTrigger"\)/, path);
-      assert.ok(
-        source.indexOf("if (!prefersReducedMotion)") <
-          source.indexOf('import("gsap")'),
-        path,
-      );
-      assert.match(source, /gsap\.registerPlugin\(ScrollTrigger\)/, path);
+      assert.match(source, /enableRevealAnimations/, path);
+      assert.match(source, /data-animate-details/, path);
     }
   });
 });

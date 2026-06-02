@@ -1,7 +1,12 @@
 ---
 import PageLayout from "./PageLayout.astro";
 import ClosingCTA from "../components/ClosingCTA.astro";
-import { SITE_URL, FINNVEK_URL, SOCIAL_PROFILE_URLS } from "../config/brand";
+import {
+  SITE_URL,
+  FINNVEK_URL,
+  ORGANIZATION_ID,
+  SOCIAL_PROFILE_URLS,
+} from "../config/brand";
 import { getCategoryLabel, type CategorySlug } from "../lib/categories";
 import { getArticlesIndexPath } from "../i18n/articles";
 import { useTranslations } from "../i18n/ui";
@@ -58,6 +63,7 @@ const articleSchema = {
   },
   publisher: {
     "@type": "Organization",
+    "@id": ORGANIZATION_ID,
     name: "Finnvek",
     url: FINNVEK_URL,
     sameAs: SOCIAL_PROFILE_URLS,
@@ -158,24 +164,23 @@ const articlesPath = getArticlesIndexPath(lang);
   }
 
   .eyebrow {
-    font-family: var(--font-body);
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 0.1em;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.24em;
     text-transform: uppercase;
     color: var(--terracotta);
     margin: 0 0 24px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-items: center;
   }
   .eyebrow-back {
-    color: var(--terracotta);
+    color: var(--ink-soft);
     text-decoration: none;
+    transition: color 0.15s ease;
   }
   .eyebrow-back:hover {
-    color: var(--ink);
+    color: var(--terracotta);
   }
   .eyebrow-sep {
     opacity: 0.5;

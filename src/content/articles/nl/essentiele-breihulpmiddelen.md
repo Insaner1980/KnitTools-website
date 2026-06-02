@@ -68,7 +68,7 @@ Houdt bij op welke toer je bent. Essentieel voor herhalende reeksen, intervallen
 
 **Mechanische tellers** (kliktonnetjes op de naald) zijn goedkoop en hebben geen batterijen nodig. Maar ze tellen in de praktijk één ding, teruggaan is vaak onhandig, en een stoot kan de stand veranderen. Een clip- of hangmodel aan het project lost het rondbreinaaldprobleem op, maar niet het probleem van uithalen of meerdere tellingen.
 
-**App-tellers** kunnen meer: meerdere tellers, koppeling aan projecten, sessiegeschiedenis en herinneringen bij een project. [KnitTools](/) wordt gebouwd rond projectgekoppeld toeren tellen voor breien. De [vergelijking van breiapps](/nl/artikelen/beste-breiapps-waar-let-je-op/) behandelt waar je op moet letten.
+**App-tellers** kunnen meer: meerdere tellers, koppeling aan projecten, sessiegeschiedenis en herinneringen bij een project. [KnitTools](/nl/breitools/#join) wordt gebouwd rond projectgekoppeld toeren tellen voor breien. De [vergelijking van breiapps](/nl/artikelen/beste-breiapps-waar-let-je-op/) behandelt waar je op moet letten.
 
 Een ribbelsteek-sjaal heeft geen teller nodig. Een ajour omslagdoek met een rapport van 24 toeren absoluut wel.
 

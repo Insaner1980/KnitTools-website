@@ -20,6 +20,7 @@ interface Props {
   articleAuthorUrl?: string;
   articleSection?: string;
   articleTags?: string[];
+  enableRevealAnimations?: boolean;
 }
 
 const {
@@ -37,6 +38,7 @@ const {
   articleAuthorUrl,
   articleSection,
   articleTags = [],
+  enableRevealAnimations = false,
 } = Astro.props;
 const canonicalUrl = `${SITE_URL}${canonicalPath}`;
 const fullTitle = `${title} | KnitTools`;
@@ -172,6 +174,13 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
     />
 
     <!-- Global styles imported via frontmatter -->
+    {
+      enableRevealAnimations && (
+        <script is:inline>
+          document.documentElement.classList.add("reveal-animations");
+        </script>
+      )
+    }
   </head>
   <body class={bodyClass}>
     <a href="#main-content" class="skip-link">{t("skipToContent")}</a>
@@ -179,12 +188,18 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
       <slot />
     </div>
     <script>
-      import { initSizeChartControls } from "../scripts/sizeChartControls";
       import { initWaitlistSignups } from "../scripts/waitlistSignup";
 
       initWaitlistSignups();
-      initSizeChartControls();
     </script>
+    {
+      enableRevealAnimations && (
+        <script>
+          import {initRevealAnimations} from "../scripts/revealAnimations";
+          initRevealAnimations();
+        </script>
+      )
+    }
     <script
       define:vars={{
         countryToTier: COUNTRY_TO_TIER,
@@ -199,28 +214,6 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
           return (
             countryToTier[String(country).toUpperCase()] || fallbackPricingTier
           );
-        };
-
-        const getRegion = (locale) => {
-          try {
-            return new Intl.Locale(locale).region || "";
-          } catch {
-            const parts = String(locale).split(/[-_]/);
-            return parts.length > 1
-              ? parts[parts.length - 1].toUpperCase()
-              : "";
-          }
-        };
-
-        const getLocaleCountry = () => {
-          const locales = navigator.languages?.length
-            ? navigator.languages
-            : [navigator.language];
-          for (const locale of locales) {
-            const region = getRegion(locale);
-            if (region) return region;
-          }
-          return "";
         };
 
         const readCachedCountry = () => {
@@ -276,7 +269,7 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
         };
 
         getCloudflareCountry().then((country) => {
-          const tier = getTier(country || getLocaleCountry());
+          const tier = getTier(country);
           applyPricingTier(tier);
         });
       })();

@@ -49,7 +49,7 @@ Der Nachteil: Nach jeder Sitzung musst du Daten eingeben. Vergisst du es, entste
 
 Ein Strickzeit-Tracker in einer Projektverwaltungs-App automatisiert die Punkte, an denen manuelle Methoden scheitern. Sitzung starten, stricken, Sitzung beenden. Die App speichert Dauer, verknüpft sie mit dem Projekt und verfolgt die Reihenzahl daneben.
 
-Die [KnitTools-App](/) wird mit Sitzungsverfolgung entwickelt, die zum [Reihenzähler](/de/artikel/reihen-beim-stricken-zaehlen/) gehört. Der geplante Ablauf ist einfach: Reihen zählen, Sitzung speichern und Datum, Dauer, fertige Reihen sowie Reihen pro Stunde beim Projekt behalten. Mit der Zeit entsteht ein Verlauf pro Projekt und über alle Projekte hinweg.
+Die [KnitTools-App](/de/werkzeuge/#join) wird mit Sitzungsverfolgung entwickelt, die zum [Reihenzähler](/de/artikel/reihen-beim-stricken-zaehlen/) gehört. Der geplante Ablauf ist einfach: Reihen zählen, Sitzung speichern und Datum, Dauer, fertige Reihen sowie Reihen pro Stunde beim Projekt behalten. Mit der Zeit entsteht ein Verlauf pro Projekt und über alle Projekte hinweg.
 
 Der Vorteil gegenüber manuellen Methoden ist Konsistenz. Du tippst ohnehin den Reihenzähler, also passiert die Zeiterfassung als Nebenwirkung. Kein separater Timer, kein Notizbuch, keine Tabelle. Die Daten sammeln sich, auch wenn du nicht daran denkst.
 

@@ -68,7 +68,7 @@ Holder styr på hvilken pind eller omgang du er på. Vigtig til gentagelser, for
 
 **Mekaniske tællere** som klikhjul eller tønder på pinden er enkle og kræver ikke batterier. Men de tæller i praksis én ting, fortrydelse er ofte besværlig, og et skub kan ændre tallet. En tæller der hænger på projektet eller clipses fast, løser rundpindeproblemet, men ikke problemet med at trevle op.
 
-**App-tællere** kan mere: flere tællere, kobling til projekt, sessionshistorik og påmindelser knyttet til et projekt. [KnitTools](/) bygges omkring projekttilknyttet pinde- og omgangstælling til strik. [Sammenligningen af strikkeapps](/da/artikler/bedste-strikkeapps/) gennemgår, hvad du skal kigge efter.
+**App-tællere** kan mere: flere tællere, kobling til projekt, sessionshistorik og påmindelser knyttet til et projekt. [KnitTools](/da/strikkevaerktoejer/#join) bygges omkring projekttilknyttet pinde- og omgangstælling til strik. [Sammenligningen af strikkeapps](/da/artikler/bedste-strikkeapps/) gennemgår, hvad du skal kigge efter.
 
 Et retstrikket tørklæde har ikke brug for en tæller. Et hulmønstret sjal med en rapport på 24 pinde har i den grad.
 

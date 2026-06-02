@@ -113,7 +113,7 @@ De praktische test is niet welke appwinkelpagina het mooist is. Het gaat erom of
 
 Volledigheidshalve: dit is de website van KnitTools.
 
-[KnitTools](/) wordt gebouwd als Android-toolkit voor projecten bijhouden, toeren tellen, rekenen en naslaan. Het doel is om gewone breitaken op één plek te houden: meerdere gelijktijdige tellers, projectnotities, opgeslagen patronen, calculators en referentiemateriaal voor naalddiktes, garendiktes, afkortingen en maattabellen.
+[KnitTools](/nl/breitools/#join) wordt gebouwd als Android-toolkit voor projecten bijhouden, toeren tellen, rekenen en naslaan. Het doel is om gewone breitaken op één plek te houden: meerdere gelijktijdige tellers, projectnotities, opgeslagen patronen, calculators en referentiemateriaal voor naalddiktes, garendiktes, afkortingen en maattabellen.
 
 De opzet is praktisch in plaats van een teller voor één taak: projecten bijhouden, toeren tellen, rekenen en naslaan passen in hetzelfde werkritme.
 

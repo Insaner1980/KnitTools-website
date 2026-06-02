@@ -78,7 +78,7 @@ De pagina's [naalddiktes](/nl/breitools/naalddiktes/), [garendiktes](/nl/breitoo
 
 ## Alles op een plek
 
-De gratis calculators en referentiepagina's op deze site dekken de meest voorkomende breiberekeningen in de browser. Voor breiers die dezelfde kerntools in een projectgerichte Android-app willen, wordt [KnitTools](/) gebouwd rond toeren tellen, projectbeheer, calculators en referenties.
+De gratis calculators en referentiepagina's op deze site dekken de meest voorkomende breiberekeningen in de browser. Voor breiers die dezelfde kerntools in een projectgerichte Android-app willen, wordt [KnitTools](/nl/breitools/#join) gebouwd rond toeren tellen, projectbeheer, calculators en referenties.
 
 ## FAQ
 

@@ -32,6 +32,30 @@ const OPTIONAL_META_FIELDS = new Set([
 ]);
 const ARTICLE_SCHEMA_TYPES = new Set(["Article", "BlogPosting", "NewsArticle"]);
 const PAGE_SCHEMA_TYPES = new Set(["AboutPage", "CollectionPage", "WebPage"]);
+const SUPPORTED_SOFTWARE_APPLICATION_CATEGORIES = new Set([
+  "GameApplication",
+  "SocialNetworkingApplication",
+  "TravelApplication",
+  "ShoppingApplication",
+  "SportsApplication",
+  "LifestyleApplication",
+  "BusinessApplication",
+  "DesignApplication",
+  "DeveloperApplication",
+  "DriverApplication",
+  "EducationalApplication",
+  "HealthApplication",
+  "FinanceApplication",
+  "SecurityApplication",
+  "BrowserApplication",
+  "CommunicationApplication",
+  "DesktopEnhancementApplication",
+  "EntertainmentApplication",
+  "MultimediaApplication",
+  "HomeApplication",
+  "UtilitiesApplication",
+  "ReferenceApplication",
+]);
 
 export function routeFromHtmlPath(htmlPath, distDir = DEFAULT_DIST_DIR) {
   const relativePath = path.relative(distDir, htmlPath).replace(/\\/g, "/");
@@ -1228,6 +1252,7 @@ function auditArticleSchema({
   auditSchemaDate(entity.dateModified, "dateModified", page, issues);
   auditSchemaNamedParty(entity.author, "author", page, issues);
   auditSchemaNamedParty(entity.publisher, "publisher", page, issues);
+  auditSchemaNamedPartyId(entity.publisher, "publisher", page, issues);
 
   if (!isNonEmptyString(entity.inLanguage)) {
     addIssue(
@@ -1295,6 +1320,17 @@ function auditWebApplicationSchema(entity, page, issues) {
       "warning",
       "web-application-schema-missing-category",
       "WebApplication structured data is missing applicationCategory.",
+    );
+  } else if (
+    !SUPPORTED_SOFTWARE_APPLICATION_CATEGORIES.has(entity.applicationCategory)
+  ) {
+    addIssue(
+      issues,
+      page,
+      "warning",
+      "web-application-schema-unsupported-category",
+      "WebApplication structured data applicationCategory is not a Google-supported app type.",
+      entity.applicationCategory,
     );
   }
   if (!isNonEmptyString(entity.operatingSystem)) {
@@ -1619,6 +1655,26 @@ function auditSchemaNamedParty(value, propertyName, page, issues) {
       "warning",
       `article-schema-${propertyName}-missing-name`,
       `Article structured data ${propertyName} is missing name.`,
+    );
+  }
+}
+
+function auditSchemaNamedPartyId(value, propertyName, page, issues) {
+  const parties = Array.isArray(value) ? value : value ? [value] : [];
+  if (parties.length === 0) return;
+
+  if (
+    !parties.some(
+      (party) =>
+        party && typeof party === "object" && isNonEmptyString(party["@id"]),
+    )
+  ) {
+    addIssue(
+      issues,
+      page,
+      "warning",
+      `article-schema-${propertyName}-missing-id`,
+      `Article structured data ${propertyName} is missing @id.`,
     );
   }
 }

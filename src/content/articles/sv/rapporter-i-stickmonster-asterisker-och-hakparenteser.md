@@ -90,7 +90,7 @@ Arbeta 6-varvssekvensen som en enhet och upprepa hela blocket till mål-längden
 
 Se upp för instruktioner som `upprepa de sista 2 varven` eller `upprepa endast varv 3 och 4`. De betyder en mindre del av det föregående blocket, inte hela 6-varvssekvensen. Här tappar många räkningen eftersom hjärnan gärna nollställer varvnumren när upprepningen börjar. En varvräknare eller streck på papper tar bort den belastningen.
 
-Det här syns ofta i strukturmönster, ränder och spets. En varvräknare hjälper här. KnitTools [varvräknare](/) kan hjälpa dig hålla platsen i en upprepande varvcykel, så du slipper minnas om du är på varv 3 eller varv 4 i det aktuella blocket.
+Det här syns ofta i strukturmönster, ränder och spets. En varvräknare hjälper här. KnitTools [varvräknare](/sv/verktyg/#join) kan hjälpa dig hålla platsen i en upprepande varvcykel, så du slipper minnas om du är på varv 3 eller varv 4 i det aktuella blocket.
 
 ## Markörer mellan rapporter
 

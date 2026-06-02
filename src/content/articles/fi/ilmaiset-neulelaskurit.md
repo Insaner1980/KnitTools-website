@@ -77,7 +77,7 @@ Tämän sivuston [puikkokokotaulukko](/fi/tyokalut/puikkokoot/), [lankavahvuusta
 
 ## Kaikki samassa paikassa
 
-Tämän sivuston ilmaiset laskurit ja viitesivut hoitavat yleisimmän neulematematiikan selaimessa. Neulojille, jotka haluavat samat perustyökalut projektikeskeiseen Android-työkalupakkiin, [KnitTools](/) on rakenteilla kerroslaskennan, projektien, laskureiden ja viitetietojen ympärille.
+Tämän sivuston ilmaiset laskurit ja viitesivut hoitavat yleisimmän neulematematiikan selaimessa. Neulojille, jotka haluavat samat perustyökalut projektikeskeiseen Android-työkalupakkiin, [KnitTools](/fi/tyokalut/#join) on rakenteilla kerroslaskennan, projektien, laskureiden ja viitetietojen ympärille.
 
 ## FAQ
 

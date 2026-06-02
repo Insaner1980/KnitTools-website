@@ -76,7 +76,7 @@ function parseArticleTranslations() {
   let currentKey;
 
   for (const line of source.split(/\r?\n/)) {
-    const keyMatch = line.match(/^  "([^"]+)": \{$/);
+    const keyMatch = line.match(/^[ ]{2}"([^"]+)": \{$/);
     if (keyMatch) {
       currentKey = keyMatch[1];
       translations.set(currentKey, {});
@@ -86,11 +86,11 @@ function parseArticleTranslations() {
     if (!currentKey) continue;
 
     const pathMatch = line.match(
-      /^    (en|fi|de|sv|no|fr|nl|da): "([^"]+)",?$/,
+      /^[ ]{4}(en|fi|de|sv|no|fr|nl|da): "([^"]+)",?$/,
     );
     if (pathMatch) {
       translations.get(currentKey)[pathMatch[1]] = pathMatch[2];
-    } else if (/^  \},?$/.test(line)) {
+    } else if (/^[ ]{2}\},?$/.test(line)) {
       currentKey = undefined;
     }
   }
@@ -111,7 +111,7 @@ function collectArticleSystemUrls() {
 
   const articlesIndexBlock =
     routesSource.match(
-      /articlesIndex: \{\r?\n([\s\S]*?)\r?\n  \},\r?\n  tool:/,
+      /articlesIndex: \{\r?\n([\s\S]*?)\r?\n[ ]{2}\},\r?\n[ ]{2}tool:/,
     )?.[1] ?? "";
   for (const match of articlesIndexBlock.matchAll(
     /\b(?:en|fi|de|sv|no|fr|nl|da): "([^"]+)"/g,
@@ -120,7 +120,8 @@ function collectArticleSystemUrls() {
   }
 
   const categoryBlock =
-    routesSource.match(/category: \{([\s\S]*?)\n  \},\n} as const;/)?.[1] ?? "";
+    routesSource.match(/category: \{([\s\S]*?)\n[ ]{2}\},\n} as const;/)?.[1] ??
+    "";
   for (const match of categoryBlock.matchAll(
     /\b(?:en|fi|de|sv|no|fr|nl|da): "([^"]+)"/g,
   )) {
@@ -228,6 +229,26 @@ test("localized category ordering is deterministic within each category", () => 
     );
     byLanguageCategoryOrder.set(key, entry.relativePath);
   }
+});
+
+test("localized article markdown does not link app mentions to the English home page", () => {
+  const rootLinks = parseArticleEntries()
+    .filter((entry) => entry.langFromPath !== "en")
+    .flatMap((entry) => {
+      const source = readSource(
+        path.join("src", "content", "articles", entry.relativePath),
+      );
+
+      return source
+        .split(/\r?\n/)
+        .map((line, index) => ({
+          location: `${entry.relativePath}:${index + 1}`,
+          line,
+        }))
+        .filter(({ line }) => line.includes("](/)"));
+    });
+
+  assert.deepEqual(rootLinks, []);
 });
 
 test("article routes use shared visibility, category, and alternate helpers", () => {

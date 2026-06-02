@@ -79,7 +79,7 @@ Yksinkertaisin tapa: kirjoita ohje auki ennen kuin aloitat. Yhdistä kaksi ohjek
 
 Kaksi laskuria toimii myös. Yksi seuraa kädentien rytmiä, toinen pääntietä. Kun molemmat osuvat samalle kerrokselle, teet molemmat. Osa neulojista merkitsee ohjeeseen suoraan, millä kerroksilla on kädentiekavennus, pääntiekavennus tai molemmat. Eri väriset korostukset auttavat.
 
-KnitTools-sovelluksen [kerroslaskuri](/) tukee useita samanaikaisia laskureita juuri tällaista tilannetta varten.
+KnitTools-sovelluksen [kerroslaskuri](/fi/tyokalut/#join) tukee useita samanaikaisia laskureita juuri tällaista tilannetta varten.
 
 ## Kavennustapa ja symmetria
 

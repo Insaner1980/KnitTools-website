@@ -113,7 +113,7 @@ Den praktiske test er ikke, hvilken platform der har den pæneste appbutiksside.
 
 Fuld åbenhed: det her er KnitTools-websitet.
 
-[KnitTools](/) bygges som en praktisk Android-værktøjskasse til projektstyring, omgangstælling, beregning og referenceopslag. Målet er at samle de almindelige opgaver ét sted: flere samtidige tællere, projektnoter, gemte opskrifter, beregnere og referencemateriale for blandt andet pindestørrelser, garntykkelser, forkortelser og størrelsestabeller.
+[KnitTools](/da/strikkevaerktoejer/#join) bygges som en praktisk Android-værktøjskasse til projektstyring, omgangstælling, beregning og referenceopslag. Målet er at samle de almindelige opgaver ét sted: flere samtidige tællere, projektnoter, gemte opskrifter, beregnere og referencemateriale for blandt andet pindestørrelser, garntykkelser, forkortelser og størrelsestabeller.
 
 Den er tænkt som en værktøjskasse frem for en app med ét formål, så projektstyring, tælling, beregning og reference hænger bedre sammen i den samme arbejdsrytme.
 

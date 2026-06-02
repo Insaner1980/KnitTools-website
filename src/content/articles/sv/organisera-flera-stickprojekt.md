@@ -48,7 +48,7 @@ Papperslappar fungerar om du är disciplinerad nog att uppdatera dem. Skriv aktu
 
 En projekttracker för stickning i mobilen sköter det mer pålitligt. Digitala trackers sparar varvräkningen, registrerar när du senast arbetade på ett projekt och visar alla aktiva projekt i en lista. I stället för att rota i påsar ser du allt direkt: Flätkofta, varv 47, senast stickad tisdag. Enkla sockor, hälvändning, senast stickade för en vecka sedan.
 
-[KnitTools-appen](/) byggs för att hålla varvräkning, passhistorik, projektanteckningar och garnuppgifter på ett ställe. Målet är enkelt: öppna projektet och komma tillbaka till arbetsläget utan att rekonstruera allt ur minnet.
+[KnitTools-appen](/sv/verktyg/#join) byggs för att hålla varvräkning, passhistorik, projektanteckningar och garnuppgifter på ett ställe. Målet är enkelt: öppna projektet och komma tillbaka till arbetsläget utan att rekonstruera allt ur minnet.
 
 ## Bestämma vad du ska sticka på
 
@@ -78,7 +78,7 @@ Att hålla koll på garn per projekt, hur mycket du började med och hur mycket 
 
 Ett bra knep för aktiva projekt: väg garnet som är kvar med några pass mellanrum och skriv upp gramantalet med datum. Om den första ärmen använde 47 g vet du ungefär vad den andra ärmen behöver, plus lite marginal. "Jag tror att det räcker" blir ett konkret ja eller nej.
 
-Skriv ner garninformationen medan banderollen fortfarande finns: garntjocklek, fiberinnehåll, tvättråd och färgbad. [KnitTools-appen](/) byggs för att hålla sådana anteckningar med rätt projekt, i stället för att de blir en lös lapp längst ner i projektpåsen.
+Skriv ner garninformationen medan banderollen fortfarande finns: garntjocklek, fiberinnehåll, tvättråd och färgbad. [KnitTools-appen](/sv/verktyg/#join) byggs för att hålla sådana anteckningar med rätt projekt, i stället för att de blir en lös lapp längst ner i projektpåsen.
 
 ## Minsta möjliga system
 

@@ -93,7 +93,7 @@ Vyöte ei myöskään kerro kestosta. Nukkaantuuko lanka, pehmeneekö tai kovett
 
 Neuletiheysruutu on valmistajan tulos, ei sinun. Pidä sitä viitteenä, ei takuuna.
 
-[KnitTools](/) voi pitää samat vyötetiedot projektimuistiinpanossa. Se on kätevää, kun paperivyöte on katoamassa projektipussin pohjalle eikä palaa sieltä ajoissa.
+[KnitTools](/fi/tyokalut/#join) voi pitää samat vyötetiedot projektimuistiinpanossa. Se on kätevää, kun paperivyöte on katoamassa projektipussin pohjalle eikä palaa sieltä ajoissa.
 
 ## FAQ
 

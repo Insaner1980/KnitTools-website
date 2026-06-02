@@ -49,7 +49,7 @@ Ulempen: manuell registrering etter hver økt. Glemmer du det, får dataene hull
 
 En strikketidssporing bygget inn i en prosjektapp automatiserer det manuelle metoder gjør dårlig. Start økt, strikk, avslutt økt. Appen registrerer varighet, kobler den til prosjektet og følger pinne- eller omgangstall samtidig.
 
-[KnitTools](/) utvikles med øktsporing koblet til [omgangstelleren](/no/artikler/holde-styr-pa-pinner-og-omganger/). Den tiltenkte flyten er enkel: tell pinner eller omganger, lagre økten og behold dato, varighet, fullførte pinner eller omganger og tempo sammen med prosjektet. Over tid bygges historikk per prosjekt og på tvers av prosjekter.
+[KnitTools](/no/verktoy/#join) utvikles med øktsporing koblet til [omgangstelleren](/no/artikler/holde-styr-pa-pinner-og-omganger/). Den tiltenkte flyten er enkel: tell pinner eller omganger, lagre økten og behold dato, varighet, fullførte pinner eller omganger og tempo sammen med prosjektet. Over tid bygges historikk per prosjekt og på tvers av prosjekter.
 
 Fordelen over manuelle metoder er konsistens. Du bruker allerede telleren, så tidsmålingen skjer i samme arbeidsflyt. Ingen egen timer å starte, ingen notatbok å oppdatere, ingen regneark å vedlikeholde. Dataene samler seg uten at du må gjøre et ekstra moment av det.
 

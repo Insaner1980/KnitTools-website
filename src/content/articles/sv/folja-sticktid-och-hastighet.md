@@ -49,7 +49,7 @@ Nackdelen är manuell inmatning efter varje pass. Om du glömmer får datan luck
 
 En sticktidsmätare inbyggd i en projektapp kan ta bort de delar där manuella metoder ofta faller. Starta ett pass, sticka, avsluta passet. Appen registrerar tiden, kopplar den till projektet och håller varvantalet bredvid.
 
-[KnitTools-appen](/) byggs med passregistrering kopplad till sin [varvräknare](/sv/artiklar/halla-koll-pa-varv-nar-du-stickar/). Det tänkta flödet är rakt: räkna varv, spara passet och behåll datum, tid, färdiga varv och varv per timme i projektet. Med tiden bildas en historik per projekt och över alla projekt.
+[KnitTools-appen](/sv/verktyg/#join) byggs med passregistrering kopplad till sin [varvräknare](/sv/artiklar/halla-koll-pa-varv-nar-du-stickar/). Det tänkta flödet är rakt: räkna varv, spara passet och behåll datum, tid, färdiga varv och varv per timme i projektet. Med tiden bildas en historik per projekt och över alla projekt.
 
 Fördelen jämfört med manuella metoder är konsekvens. Du trycker redan på varvräknaren, så tidsuppföljningen sker i samma arbetsflöde. Ingen separat timer att starta, ingen anteckningsbok att uppdatera, inget kalkylblad att underhålla. Datan samlas utan att du behöver göra ett extra moment av den.
 

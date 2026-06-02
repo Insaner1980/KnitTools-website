@@ -70,7 +70,7 @@ Påminnelsene er der en app går forbi de fleste andre metoder. Oppskriften sier
 
 Noen tellerapper logger også økt- eller fremdriftsdata, slik at du kan se hvor lenge du har jobbet og sammenligne tempo mellom økter. Da blir telleren ikke bare ett tall, men en del av prosjekthistorikken.
 
-[KnitTools](/) utvikles som en Android-verktøykasse med trykktelling, angre, flere tellere og øktsporing for prosjekter med flere seksjoner.
+[KnitTools](/no/verktoy/#join) utvikles som en Android-verktøykasse med trykktelling, angre, flere tellere og øktsporing for prosjekter med flere seksjoner.
 
 ## 7. Kombinasjoner
 
