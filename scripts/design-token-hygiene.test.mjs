@@ -64,6 +64,14 @@ const getWaitlistForms = () => {
   return forms;
 };
 
+const cssBlock = (source, selector) => {
+  const match = source.match(
+    new RegExp(`${escapeRegExp(selector)}\\s*\\{([\\s\\S]*?)\\n\\s*\\}`),
+  );
+  assert.ok(match, `Missing CSS block for ${selector}`);
+  return match[1];
+};
+
 const articleListingPages = [
   "src/pages/articles/index.astro",
   "src/pages/fi/artikkelit/index.astro",
@@ -524,6 +532,36 @@ describe("performance hygiene", () => {
 
     assert.match(footer, /src="\/logo\.webp"[\s\S]*loading="lazy"/);
     assert.match(footer, /src="\/logo\.webp"[\s\S]*decoding="async"/);
+  });
+
+  it("keeps localized page back links aligned with English tool-page styling", () => {
+    const localizedToolPage = read("src/components/LocalizedToolPage.astro");
+    const articleLayout = read("src/layouts/ArticleLayout.astro");
+
+    assert.ok(
+      !localizedToolPage.includes('class="tool-eyebrow"'),
+      "localized tool pages must not render a second tool/category eyebrow",
+    );
+    assert.ok(
+      !localizedToolPage.includes(".tool-eyebrow"),
+      "localized tool pages must not keep unused tool/category eyebrow CSS",
+    );
+
+    for (const [path, source] of [
+      ["src/components/LocalizedToolPage.astro", localizedToolPage],
+      ["src/layouts/ArticleLayout.astro", articleLayout],
+    ]) {
+      const eyebrow = cssBlock(source, ".eyebrow");
+      const eyebrowBack = cssBlock(source, ".eyebrow-back");
+      const hover = cssBlock(source, ".eyebrow-back:hover");
+
+      assert.match(eyebrow, /font-family:\s*var\(--mono\);/, path);
+      assert.match(eyebrow, /font-size:\s*12px;/, path);
+      assert.match(eyebrow, /letter-spacing:\s*0\.24em;/, path);
+      assert.doesNotMatch(eyebrow, /font-weight:\s*600;/, path);
+      assert.match(eyebrowBack, /color:\s*var\(--ink-soft\);/, path);
+      assert.match(hover, /color:\s*var\(--terracotta\);/, path);
+    }
   });
 
   it("keeps Cloudflare Web Analytics out of the document head", () => {
