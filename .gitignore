@@ -4,6 +4,8 @@ dist/
 .sonar/
 .scannerwork/
 reports/
+output/
+.wrangler/
 *.log
 .DS_Store
 .remember/

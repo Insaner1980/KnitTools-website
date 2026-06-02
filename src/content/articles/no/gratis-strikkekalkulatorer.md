@@ -78,7 +78,7 @@ Sidene [Pinnestørrelser](/no/verktoy/pinnestorrelser/), [Garntykkelser](/no/ver
 
 ## Alt samlet på ett sted
 
-De gratis kalkulatorene og referansesidene på dette nettstedet håndterer den vanligste strikkematematikken i nettleseren. For strikkere som vil ha de samme kjerneverktøyene i en prosjektfokusert Android-verktøykasse, bygges [KnitTools](/) rundt telling av pinner og omganger, prosjektstyring, kalkulatorer og referanser.
+De gratis kalkulatorene og referansesidene på dette nettstedet håndterer den vanligste strikkematematikken i nettleseren. For strikkere som vil ha de samme kjerneverktøyene i en prosjektfokusert Android-verktøykasse, bygges [KnitTools](/no/verktoy/#join) rundt telling av pinner og omganger, prosjektstyring, kalkulatorer og referanser.
 
 ## FAQ
 

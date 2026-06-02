@@ -119,7 +119,7 @@ Det praktiska testet är inte vilken plattform som har den snyggaste appbutikssi
 
 Full transparens: det här är KnitTools webbplats.
 
-[KnitTools](/) byggs som en Android-verktygslåda för projektspårning, varvräkning, beräkningar och referensmaterial. Målet är att samla de vanliga stickuppgifterna på ett ställe: flera parallella räknare, projektanteckningar, sparade mönster, kalkylatorer och referensmaterial för stickstorlekar, garntjocklekar, förkortningar och storlekstabeller.
+[KnitTools](/sv/verktyg/#join) byggs som en Android-verktygslåda för projektspårning, varvräkning, beräkningar och referensmaterial. Målet är att samla de vanliga stickuppgifterna på ett ställe: flera parallella räknare, projektanteckningar, sparade mönster, kalkylatorer och referensmaterial för stickstorlekar, garntjocklekar, förkortningar och storlekstabeller.
 
 Den är tänkt som en praktisk verktygslåda snarare än en app för ett enda syfte, så projektspårning, varvräkning, beräkningar och referensmaterial passar in i samma arbetsrytm.
 

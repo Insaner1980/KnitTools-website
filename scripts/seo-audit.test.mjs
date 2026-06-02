@@ -310,6 +310,7 @@ test("auditPages reports article structured data regressions", () => {
   assert.equal(codes.includes("article-schema-missing-image"), true);
   assert.equal(codes.includes("article-schema-invalid-date"), true);
   assert.equal(codes.includes("article-schema-author-missing-name"), true);
+  assert.equal(codes.includes("article-schema-publisher-missing-id"), true);
   assert.equal(codes.includes("article-schema-language-mismatch"), true);
 });
 
@@ -339,6 +340,7 @@ test("auditPages reports web application and FAQ structured data regressions", (
           "@type": "WebApplication",
           "description": "A tool",
           "url": "https://knittoolsapp.com/tools/wrong/",
+          "applicationCategory": "UtilityApplication",
           "offers": { "@type": "Offer" }
         }
       </script>
@@ -366,7 +368,10 @@ test("auditPages reports web application and FAQ structured data regressions", (
     codes.includes("web-application-schema-missing-offers-price"),
     true,
   );
-  assert.equal(codes.includes("web-application-schema-missing-category"), true);
+  assert.equal(
+    codes.includes("web-application-schema-unsupported-category"),
+    true,
+  );
   assert.equal(codes.includes("faq-schema-empty"), true);
 });
 

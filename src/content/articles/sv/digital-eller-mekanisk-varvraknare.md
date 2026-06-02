@@ -71,7 +71,7 @@ Komplexa strukturmönster. Flätor, spets, flerfärgsstickning. Att tappa bort s
 
 Långvariga projekt. En tröja som tar månader har nytta av sparat läge och passhistorik. Du kan se att du senast arbetade med den i tisdags, att du var på varv 47 och att nästa minskning kommer på varv 52. En klickräknare säger "47" och inget mer.
 
-[KnitTools-appen](/) byggs för Android och kombinerar tryckräkning med ångra, varvpåminnelser, flera räknare per projekt och passhistorik. Kärndata för räknare och projekt planeras kring lokala projektdata.
+[KnitTools-appen](/sv/verktyg/#join) byggs för Android och kombinerar tryckräkning med ångra, varvpåminnelser, flera räknare per projekt och passhistorik. Kärndata för räknare och projekt planeras kring lokala projektdata.
 
 ## Kombinationsmetoden
 

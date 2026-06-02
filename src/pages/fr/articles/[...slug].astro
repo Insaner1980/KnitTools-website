@@ -194,8 +194,25 @@ const categoryDescription = category
     margin: 0 auto;
   }
 
-  .eyebrow,
   .back {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    margin: 0 0 24px;
+  }
+
+  .back a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .back a:hover {
+    color: var(--terracotta);
+  }
+
+  .eyebrow {
     font-family: var(--mono);
     font-size: 12px;
     font-weight: 600;
@@ -203,11 +220,6 @@ const categoryDescription = category
     text-transform: uppercase;
     color: var(--terracotta);
     margin: 0 0 20px;
-  }
-
-  .back a {
-    color: var(--terracotta);
-    text-decoration: none;
   }
 
   h1 {

@@ -79,7 +79,7 @@ De eenvoudigste aanpak: schrijf het uit voordat je begint. Voeg de twee instruct
 
 Twee tellers werken ook. Eén telt het armsgatinterval, de andere de halslijn. Als ze op dezelfde toer allebei hun signaal geven, doe je beide acties. Sommige breiers markeren het patroon direct en noteren welke toeren armsgatminderingen, halsminderingen of allebei hebben. Verschillende kleuren markeerstift helpen.
 
-De [toerenteller van KnitTools](/) ondersteunt meerdere gelijktijdige tellers voor precies dit soort situaties.
+De [toerenteller van KnitTools](/nl/breitools/#join) ondersteunt meerdere gelijktijdige tellers voor precies dit soort situaties.
 
 ## Soort mindering en symmetrie
 

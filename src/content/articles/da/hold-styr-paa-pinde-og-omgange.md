@@ -69,7 +69,7 @@ Påmindelserne er der, hvor en app trækker fra resten af listen. Opskriften sig
 
 Nogle tæller-apps logger også sessions- eller fremgangsdata, så du kan se hvor længe du har arbejdet og sammenligne tempo på tværs af sessioner. Så bliver tælleren ikke kun ét tal, men en del af projektets historik.
 
-[KnitTools](/) bygges som en Android-værktøjskasse med tryktælling, fortryd, flere tællere og sessionsregistrering til projekter med flere sektioner.
+[KnitTools](/da/strikkevaerktoejer/#join) bygges som en Android-værktøjskasse med tryktælling, fortryd, flere tællere og sessionsregistrering til projekter med flere sektioner.
 
 ## 7. Kombinerede metoder
 

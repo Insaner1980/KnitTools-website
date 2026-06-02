@@ -80,7 +80,7 @@ Den enkleste løsningen: skriv det ut før du begynner. Slå de to instruksjonss
 
 To tellere fungerer også. Én følger ermehullsintervallet, den andre halsfellingen. Når begge treffer på samme pinne, gjør du begge handlingene. Noen markerer rett i oppskriften hvilke pinner som har ermehullsfelling, halsfelling eller begge. Ulike markeringstusjer hjelper.
 
-KnitTools sin [omgangsteller](/) støtter flere samtidige tellere for akkurat denne situasjonen.
+KnitTools sin [omgangsteller](/no/verktoy/#join) støtter flere samtidige tellere for akkurat denne situasjonen.
 
 ## Fellingstype og symmetri
 

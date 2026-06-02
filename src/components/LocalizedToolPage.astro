@@ -1,6 +1,7 @@
 ---
 import PageLayout from "../layouts/PageLayout.astro";
 import ClosingCTA from "./ClosingCTA.astro";
+import SizeChartControls from "./SizeChartControls.astro";
 import ToolStructuredData from "./ToolStructuredData.astro";
 import type { Lang } from "../i18n/config";
 import { type LocalizedPath } from "../i18n/routes";
@@ -18,12 +19,12 @@ interface Props {
   canonicalPath: string;
   alternates: LocalizedPath;
   lang?: Lang;
-  eyebrow?: string;
   intro: string;
   schemaName: string;
   schemaDescription: string;
   faqs: Faq[];
   variant?: "terracotta" | "rust" | "teal" | "sand" | "brown";
+  enableSizeChartControls?: boolean;
 }
 
 const {
@@ -32,16 +33,15 @@ const {
   canonicalPath,
   alternates,
   lang = "fi",
-  eyebrow,
   intro,
   schemaName,
   schemaDescription,
   faqs,
   variant = "terracotta",
+  enableSizeChartControls = false,
 } = Astro.props;
 
 const t = useTranslations(lang);
-const toolEyebrow = eyebrow ?? t("tools");
 const toolsIndexPath = getToolsIndexPath(lang);
 ---
 
@@ -51,6 +51,7 @@ const toolsIndexPath = getToolsIndexPath(lang);
   canonicalPath={canonicalPath}
   lang={lang}
   alternates={alternates}
+  enableRevealAnimations
 >
   <ToolStructuredData
     name={schemaName}
@@ -65,10 +66,12 @@ const toolsIndexPath = getToolsIndexPath(lang);
       <p class="eyebrow">
         <a href={toolsIndexPath} class="eyebrow-back">← {t("allTools")}</a>
       </p>
-      <p class="tool-eyebrow">{toolEyebrow}</p>
-      <h1>{title}</h1>
-      <p class="hero-intro">{intro}</p>
-      <div class:list={["form-card", `variant-${variant}`, "is-wide"]}>
+      <h1 data-reveal="heading">{title}</h1>
+      <p class="hero-intro" data-reveal>{intro}</p>
+      <div
+        class:list={["form-card", `variant-${variant}`, "is-wide"]}
+        data-reveal="scale"
+      >
         <slot name="tool" />
       </div>
     </div>
@@ -76,21 +79,23 @@ const toolsIndexPath = getToolsIndexPath(lang);
 
   <section class="seo-content">
     <div class="content-inner">
-      <slot name="content" />
+      <div data-reveal-content>
+        <slot name="content" />
+      </div>
     </div>
   </section>
 
   <section class="tool-faq">
     <div class="faq-inner">
-      <h2>{t("frequentlyAskedQuestions")}</h2>
+      <h2 data-reveal="clip">{t("frequentlyAskedQuestions")}</h2>
       <div class="faq">
         {
           faqs.map((f) => (
-            <details>
+            <details data-reveal data-animate-details>
               <summary>
                 {f.q} <span aria-hidden="true">+</span>
               </summary>
-              <p>{f.a}</p>
+              <p data-animate-body>{f.a}</p>
             </details>
           ))
         }
@@ -99,50 +104,59 @@ const toolsIndexPath = getToolsIndexPath(lang);
   </section>
 
   <ClosingCTA variant="page" lang={lang} />
+  {enableSizeChartControls && <SizeChartControls />}
 </PageLayout>
 
 <style>
   .tool-hero {
     color: var(--ink);
-    padding: 80px 40px 48px;
+    padding: 60px 40px 80px;
     border-bottom: 1px solid var(--ink);
   }
 
-  .hero-inner,
+  .hero-inner {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
   .content-inner,
   .faq-inner {
     max-width: 960px;
     margin: 0 auto;
   }
 
-  .eyebrow,
-  .tool-eyebrow {
+  .eyebrow {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
     font-family: var(--mono);
     font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.24em;
     text-transform: uppercase;
     color: var(--terracotta);
-    margin: 0 0 16px;
+    margin: 0 0 24px;
   }
 
   .eyebrow-back {
-    color: var(--terracotta);
+    color: var(--ink-soft);
     text-decoration: none;
+    transition: color 0.15s ease;
   }
 
   .eyebrow-back:hover {
-    color: var(--ink);
+    color: var(--terracotta);
   }
 
   h1 {
     font-family: var(--serif);
     font-weight: 400;
-    font-size: clamp(2.3rem, 5vw, 4.4rem);
-    line-height: 1.02;
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    line-height: 1.1;
     letter-spacing: -0.02em;
     color: var(--ink);
+    text-transform: none;
     margin: 0 0 20px;
+    padding-bottom: 0.08em;
   }
 
   .hero-intro {

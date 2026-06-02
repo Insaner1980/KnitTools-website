@@ -85,7 +85,7 @@ Du arbeitest die 6-Reihen-Folge als Einheit und wiederholst den ganzen Block bis
 
 Pass auf Formulierungen wie „die letzten 2 Reihen wiederholen“ oder „nur Reihen 3 und 4 wiederholen“ auf. Sie meinen einen kleineren Teil des vorherigen Blocks, nicht die ganze 6-Reihen-Folge. Hier verzählt man sich leicht, weil der Kopf die Reihennummern neu starten will. Ein Reihenzähler oder Striche auf Papier umgehen dieses Problem.
 
-Das kommt in Strukturmustern, Streifenfolgen und Lochmustern vor. Ein Reihenzähler hilft hier. Der KnitTools-[Reihenzähler](/) verfolgt Positionen in wiederholten Abschnitten, damit du nicht im Kopf behalten musst, ob du in diesem Block auf Reihe 3 oder 4 bist.
+Das kommt in Strukturmustern, Streifenfolgen und Lochmustern vor. Ein Reihenzähler hilft hier. Der KnitTools-[Reihenzähler](/de/werkzeuge/#join) verfolgt Positionen in wiederholten Abschnitten, damit du nicht im Kopf behalten musst, ob du in diesem Block auf Reihe 3 oder 4 bist.
 
 ## Maschenmarkierer zwischen die Rapporte setzen
 

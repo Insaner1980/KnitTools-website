@@ -48,7 +48,7 @@ Papirnoter virker, hvis du er disciplineret nok til at opdatere dem. Skriv det a
 
 Et digitalt projektværktøj på telefonen håndterer det mere pålideligt. Det gemmer omgangs- eller pindeantal automatisk, registrerer hvornår du sidst arbejdede på projektet, og viser alle aktive projekter i én liste. I stedet for at rode gennem poser ser du det hele med det samme: snoningscardigan, pind 47, sidst arbejdet tirsdag. Enkle strømper, hælvending, sidst arbejdet for en uge siden.
 
-[KnitTools](/) bygges til at organisere projekter med tilknyttet garn, omgangstæller, sessionshistorik og opskriftsnoter ét sted. Målet er enkelt: åbn et projekt, og kom tilbage til arbejdsstedet uden at genskabe det fra hukommelsen.
+[KnitTools](/da/strikkevaerktoejer/#join) bygges til at organisere projekter med tilknyttet garn, omgangstæller, sessionshistorik og opskriftsnoter ét sted. Målet er enkelt: åbn et projekt, og kom tilbage til arbejdsstedet uden at genskabe det fra hukommelsen.
 
 ## Vælg hvad du vil strikke på
 

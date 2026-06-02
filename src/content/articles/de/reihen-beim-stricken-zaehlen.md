@@ -71,7 +71,7 @@ Die Erinnerungen sind der Punkt, an dem ein Reihenzähler mit Erinnerungen alles
 
 Einige Zähler-Apps protokollieren auch Sitzungs- oder Fortschrittsdaten. Dann siehst du, wie lange du gearbeitet hast und kannst Tempo über Sitzungen hinweg vergleichen. Der Zähler ist nicht nur eine Zahl, sondern ein Projektprotokoll.
 
-Die [KnitTools-App](/) wird als Android-Werkzeugkasten mit Tippen zum Zählen, Rückgängig, mehreren Zählern und Sitzungsverfolgung für Projekte mit mehreren Abschnitten entwickelt.
+Die [KnitTools-App](/de/werkzeuge/#join) wird als Android-Werkzeugkasten mit Tippen zum Zählen, Rückgängig, mehreren Zählern und Sitzungsverfolgung für Projekte mit mehreren Abschnitten entwickelt.
 
 ## 7. Kombinationen
 

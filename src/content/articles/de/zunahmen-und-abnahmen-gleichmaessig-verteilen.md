@@ -151,7 +151,7 @@ Die Zahlen spielen nicht immer so schön mit. Wenn nicht, werden die Reste als l
 
 ## Wenn die Rechnung nervig wird
 
-127 Maschen, 11 Zunahmen und ein 6-Maschen-Rapport, der nicht gestört werden darf. Das ist die Art Reihe, bei der Kopfrechnen über lebenden Maschen länger dauert als die Zunahmen selbst. Genau dort passieren Fehler. Der Increase & Decrease Calculator in der [KnitTools App](/) gibt dir eine konkrete Reihenanweisung, statt dich alles auf der Nadel ausrechnen zu lassen.
+127 Maschen, 11 Zunahmen und ein 6-Maschen-Rapport, der nicht gestört werden darf. Das ist die Art Reihe, bei der Kopfrechnen über lebenden Maschen länger dauert als die Zunahmen selbst. Genau dort passieren Fehler. Der Increase & Decrease Calculator in der [KnitTools App](/de/werkzeuge/#join) gibt dir eine konkrete Reihenanweisung, statt dich alles auf der Nadel ausrechnen zu lassen.
 
 Für einfache Reihen ist die Rechnung von Hand schnell und zuverlässig. Zu wissen, wann ein Tool sinnvoll ist und wann nicht, gehört zum entspannten Arbeiten.
 

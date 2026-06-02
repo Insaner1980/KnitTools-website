@@ -79,7 +79,7 @@ La méthode la plus simple : écris tout avant de commencer. Fusionne les deux s
 
 Deux compteurs fonctionnent aussi. L'un suit l'intervalle de l'emmanchure, l'autre celui de l'encolure. Quand les deux tombent sur le même rang, tu fais les deux actions. Certaines personnes annotent directement le modèle en marquant les rangs avec diminution d'emmanchure, diminution d'encolure, ou les deux. Des surligneurs de couleurs différentes aident bien.
 
-Le [compteur de rangs KnitTools](/) permet d'utiliser plusieurs compteurs en parallèle pour ce genre de situation.
+Le [compteur de rangs KnitTools](/fr/outils/#join) permet d'utiliser plusieurs compteurs en parallèle pour ce genre de situation.
 
 ## Type de diminution et symétrie
 

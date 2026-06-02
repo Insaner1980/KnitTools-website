@@ -37,6 +37,7 @@ const faqItems = [
   description="Convert knitting needle sizes between US, UK, metric (mm), and Japanese systems. Searchable chart with recommended yarn weights per needle size."
   canonicalPath={canonicalPath}
   alternates={routes.tool.needleSizeChart}
+  enableRevealAnimations
 >
   <ToolStructuredData
     name="Knitting Needle Size Chart"
@@ -51,16 +52,16 @@ const faqItems = [
       <p class="eyebrow">
         <a href="/tools/" class="eyebrow-back">← All tools</a>
       </p>
-      <h1 class="gs-h1" aria-label="Needle Size Chart">
-        <span class="h1-chars">Needle Size Chart</span>
+      <h1 data-reveal="heading" aria-label="Needle Size Chart">
+        Needle Size Chart
       </h1>
-      <p class="hero-intro gs-hero">
+      <p class="hero-intro" data-reveal>
         Convert between US, UK, metric, and Japanese needle sizes. Type any size
         to find its match.
       </p>
 
-      <div class="form-card variant-teal is-wide">
-        <div class="table-wrapper gs-form">
+      <div class="form-card variant-teal is-wide" data-reveal="scale">
+        <div class="table-wrapper">
           <input
             type="text"
             id="needle-search"
@@ -110,86 +111,86 @@ const faqItems = [
   <!-- 2. SEO content -->
   <section class="seo-content">
     <div class="content-inner">
-      <h2 class="gs-clip-reveal">Why there are four different systems</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">Why there are four different systems</h2>
+      <p data-reveal>
         Metric is the only system that tells you what the needle actually
         measures. A 4.0 mm needle is 4.0 mm. Done.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         US sizes are labels. A US 7 means 4.5 mm and a US 8 means 5.0 mm, but
         nothing about those numbers hints at a diameter.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Old UK and Canadian sizes run backward. A UK 14 is tiny, and the numbers
         shrink as needles grow until you hit 0, 00, and 000. Most modern UK
         patterns give metric, but the old system still shows up on vintage
         needles and secondhand pattern leaflets.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Japanese sizes track close to metric but not perfectly. Japanese size 6
         is 3.9 mm, Japanese size 8 is 4.5 mm. That offset matters most in fine
         gauges where a few tenths of a millimeter change the finished fabric.
       </p>
 
-      <h2 class="gs-clip-reveal">When metric is the safe bet</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">When metric is the safe bet</h2>
+      <p data-reveal>
         Trust the millimeter size first. It's the actual measurement, and it
         sidesteps conversion mistakes entirely.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         When a pattern calls for "US 7," what you need in your hand is 4.5 mm.
         Some brands print both numbers on the needle. Some don't. Old markings
         wear off. A needle gauge tool is worth keeping nearby for exactly this
         reason.
       </p>
 
-      <h2 class="gs-clip-reveal">Common conversion pitfalls</h2>
-      <p class="gs-fade-up">A few sizes trip people up consistently.</p>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">Common conversion pitfalls</h2>
+      <p data-reveal>A few sizes trip people up consistently.</p>
+      <p data-reveal>
         <strong>The UK reversal.</strong> US sizes go up as needles get bigger. Old
         UK sizes go down. A US 6 is 4.0 mm. A UK 6 is 5.0 mm. Swap those and your
         swatch is off by a full millimeter before you've knit a single row. That trips
         up more people than you'd expect.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>The missing one-to-one matches.</strong> Not every metric size has
         a clean equivalent in every other system. A 3.0 mm needle is sometimes labeled
         US 2.5 by some brands, while other charts place it between US 2 and US 3.
         A 3.5 mm needle usually has no old UK equivalent at all. When that happens,
         go back to the mm size and ignore the rest.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Japanese near-misses.</strong> Japanese sizes don't line up cleanly
         with US numbers. Japanese size 8 is 4.5 mm (matching US 7), but Japanese size
         5 is 3.6 mm and doesn't sit neatly in the US system at all. If you're working
         from a Japanese pattern, match the mm value. Not the printed number. Always
         the mm value.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Half sizes and odd sizes are real.</strong> 2.5 mm, 3.0 mm, and 6.5
         mm needles are standard production sizes even if your interchangeable set
         skipped them. This is why "go up half a size" sometimes turns into a rummage
         through the whole project bag.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         <strong>Old pattern leaflets give no system label.</strong> A pattern from
         the 1970s that says "size 6 needles" could mean US 6 (4.0 mm) or UK 6 (5.0
         mm) depending on which country published it. Check the publisher, then check
         the chart.
       </p>
 
-      <h2 class="gs-clip-reveal">Needle size and yarn weight pairing</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">Needle size and yarn weight pairing</h2>
+      <p data-reveal>
         The chart can get you into the right neighborhood. Your swatch decides
         the exact address.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         The current Craft Yarn Council weight system pairs lace with 1.5 to 2.25
         mm, Super Fine with 2.25 to 3.25 mm, Fine with 3.25 to 3.75 mm, Light
         with 3.75 to 4.5 mm, Medium with 4.5 to 5.5 mm, Bulky with 5.5 to 8 mm,
         Super Bulky with 8 to 12.75 mm, and Jumbo at 12.75 mm and up.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Those ranges overlap on purpose. DK can make a firm hat fabric on a
         smaller needle or an airy shawl fabric on a larger one. The pattern
         gauge tells you which direction the designer intended. If you're not
@@ -198,19 +199,19 @@ const faqItems = [
         > is the better place to start.
       </p>
 
-      <h2 class="gs-clip-reveal">How to measure unmarked needles</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">How to measure unmarked needles</h2>
+      <p data-reveal>
         Vintage needles, hand-turned wooden needles, and well-used
         interchangeables all end up with missing markings sooner or later. A
         needle gauge (sometimes called a needle sizer) fixes that. Slide the
         shaft into the holes until you find the one that fits cleanly without
         forcing.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Measure on the shaft, not the tip. The tapered point reads smaller than
         the working part of the needle. Wrong answer every time.
       </p>
-      <p class="gs-fade-up">
+      <p data-reveal>
         Most needle gauges show metric and US sizes, some include Japanese
         sizing too. If yours doesn't, use this needle size guide to find the mm
         equivalent and then knit a quick <a
@@ -225,18 +226,18 @@ const faqItems = [
   <!-- 3. FAQ -->
   <section class="tool-faq">
     <div class="faq-inner">
-      <h2 class="gs-clip-reveal">Frequently asked questions</h2>
+      <h2 data-reveal="clip">Frequently asked questions</h2>
       <div class="faq">
         {
           faqItems.map((f) => (
-            <details class="gs-faq-item">
+            <details data-reveal data-animate-details>
               <summary>
                 {f.q}{" "}
                 <span class="faq-icon" aria-hidden="true">
                   +
                 </span>
               </summary>
-              <p>{f.a}</p>
+              <p data-animate-body>{f.a}</p>
             </details>
           ))
         }
@@ -258,7 +259,7 @@ const faqItems = [
         data-generic-error="Something went wrong. Please try again."
         data-network-error="Network error. Please check your connection."
       >
-        <label class="visually-hidden" for="waitlist-website"
+        <label class="visually-hidden" for="waitlist-website" aria-hidden="true"
           >Leave this field empty</label
         >
         <input
@@ -268,16 +269,21 @@ const faqItems = [
           type="text"
           tabindex="-1"
           autocomplete="off"
+          aria-hidden="true"
         />
+        <label class="visually-hidden" for="waitlist-email">Email address</label
+        >
         <div class="waitlist-content-layer" id="waitlist-content-layer">
           <h2 class="waitlist-head">
             Where every stitch<br /><em>counts.</em>
           </h2>
           <div class="waitlist-row" id="waitlist-row" data-content>
             <input
+              id="waitlist-email"
               type="email"
               name="email"
               placeholder="your@email.com"
+              aria-describedby="waitlist-success waitlist-error"
               required
               class="waitlist-input"
             />
@@ -288,6 +294,10 @@ const faqItems = [
           <p
             class="waitlist-success"
             id="waitlist-success"
+            data-success
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
             aria-hidden="true"
             hidden
           >
@@ -302,8 +312,10 @@ const faqItems = [
           <p
             class="waitlist-error"
             id="waitlist-error"
+            data-error
             role="alert"
             aria-live="polite"
+            aria-hidden="true"
             hidden
           >
           </p>
@@ -312,225 +324,6 @@ const faqItems = [
     </div>
   </section>
 </PageLayout>
-
-<script>
-  const prefersReducedMotion = window.matchMedia(
-    "(prefers-reduced-motion: reduce)",
-  ).matches;
-
-  // --- Search filtering (works regardless of motion preference) ---
-  const searchInput = document.getElementById(
-    "needle-search",
-  ) as HTMLInputElement | null;
-  const table = document.getElementById("needle-table");
-  const noResults = document.getElementById("no-results");
-
-  if (searchInput && table && noResults) {
-    const rows = table.querySelectorAll("tbody tr");
-
-    searchInput.addEventListener("input", () => {
-      const raw = searchInput.value.trim().toLowerCase();
-
-      if (!raw) {
-        rows.forEach((r) => ((r as HTMLElement).style.display = ""));
-        noResults.hidden = true;
-        return;
-      }
-
-      // Detect system prefix
-      let targetCol: string | null = null;
-      let query = raw;
-
-      if (raw.startsWith("us ")) {
-        targetCol = "us";
-        query = raw.slice(3).trim();
-      } else if (raw.startsWith("uk ")) {
-        targetCol = "uk";
-        query = raw.slice(3).trim();
-      } else if (raw.startsWith("jp ") || raw.startsWith("japanese ")) {
-        targetCol = "jp";
-        query = raw.replace(/^(jp|japanese)\s+/, "").trim();
-      }
-
-      let visibleCount = 0;
-
-      rows.forEach((r) => {
-        const row = r as HTMLElement;
-        const mm = row.dataset.mm || "";
-        const us = row.dataset.us || "";
-        const uk = row.dataset.uk || "";
-        const jp = row.dataset.jp || "";
-
-        const match =
-          targetCol === "us"
-            ? us === query
-            : targetCol === "uk"
-              ? uk === query
-              : targetCol === "jp"
-                ? jp === query
-                : mm.startsWith(query) ||
-                  us === query ||
-                  uk === query ||
-                  jp === query;
-
-        row.style.display = match ? "" : "none";
-        if (match) visibleCount++;
-      });
-
-      noResults.hidden = visibleCount > 0;
-    });
-  }
-
-  if (!prefersReducedMotion) {
-    const [{ gsap }, { ScrollTrigger }] = await Promise.all([
-      import("gsap"),
-      import("gsap/ScrollTrigger"),
-    ]);
-
-    gsap.registerPlugin(ScrollTrigger);
-
-    // --- Hero entrance timeline ---
-    const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
-
-    heroTl.from(
-      ".gs-hero",
-      {
-        opacity: 0,
-        y: 12,
-        duration: 0.5,
-        stagger: 0.15,
-      },
-      0.2,
-    );
-
-    // H1 letter stagger — wrap each word so browsers can't break mid-word
-    const h1El = document.querySelector(".h1-chars");
-    if (h1El) {
-      const text = h1El.textContent || "";
-      h1El.textContent = "";
-      const chars: HTMLSpanElement[] = [];
-      const words = text.split(" ");
-      words.forEach((word, wi) => {
-        const wordSpan = document.createElement("span");
-        wordSpan.className = "h1-word";
-        for (const c of word) {
-          const span = document.createElement("span");
-          span.className = "h1-char";
-          span.textContent = c;
-          wordSpan.appendChild(span);
-          chars.push(span);
-        }
-        h1El.appendChild(wordSpan);
-        if (wi < words.length - 1) {
-          h1El.appendChild(document.createTextNode(" "));
-        }
-      });
-
-      heroTl.from(
-        chars,
-        {
-          opacity: 0,
-          x: -20,
-          duration: 0.4,
-          stagger: 0.03,
-          ease: "power2.out",
-        },
-        0.1,
-      );
-    }
-
-    // Table + search fade in
-    heroTl.from(
-      ".gs-form",
-      {
-        opacity: 0,
-        y: 16,
-        duration: 0.5,
-      },
-      0.6,
-    );
-
-    // --- Scroll-triggered: clip-reveal H2s ---
-    document.querySelectorAll(".gs-clip-reveal").forEach((el) => {
-      gsap.set(el, { clipPath: "inset(0 100% 0 0)" });
-      gsap.to(el, {
-        clipPath: "inset(0 0% 0 0)",
-        duration: 0.8,
-        ease: "power3.inOut",
-        scrollTrigger: {
-          trigger: el,
-          start: "top 85%",
-          once: true,
-        },
-      });
-    });
-
-    // --- Scroll-triggered: fade up paragraphs ---
-    document.querySelectorAll(".gs-fade-up").forEach((el) => {
-      gsap.from(el, {
-        opacity: 0,
-        y: 24,
-        duration: 0.6,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: el,
-          start: "top 88%",
-          once: true,
-        },
-      });
-    });
-
-    // --- FAQ items staggered on scroll ---
-    const faqItems = document.querySelectorAll(".gs-faq-item");
-    if (faqItems.length) {
-      gsap.from(faqItems, {
-        opacity: 0,
-        y: 16,
-        duration: 0.4,
-        stagger: 0.08,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: faqItems[0],
-          start: "top 85%",
-          once: true,
-        },
-      });
-    }
-
-    // --- FAQ accordion smooth height ---
-    document.querySelectorAll(".gs-faq-item").forEach((details) => {
-      const summary = details.querySelector("summary");
-      const content = details.querySelector("p");
-      if (!summary || !content) return;
-
-      summary.addEventListener("click", (e) => {
-        e.preventDefault();
-        if (details.hasAttribute("open")) {
-          gsap.to(content, {
-            height: 0,
-            opacity: 0,
-            duration: 0.3,
-            ease: "power2.inOut",
-            onComplete: () => {
-              details.removeAttribute("open");
-              gsap.set(content, { height: "auto", opacity: 1 });
-            },
-          });
-        } else {
-          details.setAttribute("open", "");
-          const h = content.scrollHeight;
-          gsap.set(content, { height: 0, opacity: 0 });
-          gsap.to(content, {
-            height: h,
-            opacity: 1,
-            duration: 0.3,
-            ease: "power2.out",
-          });
-        }
-      });
-    });
-  }
-</script>
 
 <style>
   /* ---- Shared section rhythm (v11 editorial) ---- */
@@ -604,14 +397,6 @@ const faqItems = [
     text-transform: none;
     margin: 0 0 20px;
     padding-bottom: 0.08em;
-  }
-
-  .tool-hero h1 :global(.h1-word) {
-    display: inline-block;
-    white-space: nowrap;
-  }
-  .tool-hero h1 :global(.h1-char) {
-    display: inline-block;
   }
 
   .hero-intro {

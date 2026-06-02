@@ -77,7 +77,7 @@ Die [Nadelstärken-Tabelle](/de/werkzeuge/nadelstaerken-tabelle/), [Garnstärken
 
 ## Alles an einem Ort
 
-Die kostenlosen Rechner und Referenzseiten auf dieser Website decken die häufigste Strickmathematik im Browser ab. Für Strickende, die dieselben Grundtools in einem projektzentrierten Android-Toolkit möchten, wird [KnitTools](/) rund um Reihenzählen, Projektverwaltung, Rechner und Referenzen gebaut.
+Die kostenlosen Rechner und Referenzseiten auf dieser Website decken die häufigste Strickmathematik im Browser ab. Für Strickende, die dieselben Grundtools in einem projektzentrierten Android-Toolkit möchten, wird [KnitTools](/de/werkzeuge/#join) rund um Reihenzählen, Projektverwaltung, Rechner und Referenzen gebaut.
 
 ## FAQ
 

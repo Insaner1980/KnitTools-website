@@ -78,7 +78,7 @@ const proCards = cards.filter((c) => c.tier === "pro");
 
 <section class="nine-tools" aria-labelledby="nine-heading">
   <div class="nine-inner">
-    <header class="section-head">
+    <header class="section-head" data-reveal>
       <p class="section-label">
         <span class="label-text">Features</span>
       </p>
@@ -87,12 +87,12 @@ const proCards = cards.filter((c) => c.tier === "pro");
       </h2>
     </header>
 
-    <p class="manifesto">
+    <p class="manifesto" data-reveal>
       Keep your counter, pattern, notes, photos, and tools together in one
       project home, so you can pick up where you left off.
     </p>
 
-    <div class="tier-head" aria-hidden="true">
+    <div class="tier-head" aria-hidden="true" data-reveal="clip">
       <span class="tier-label">Free forever</span>
       <span class="tier-count">{freeCards.length} tools</span>
       <span class="tier-line"></span>
@@ -107,6 +107,7 @@ const proCards = cards.filter((c) => c.tier === "pro");
               c.tint && `tint-${c.tint}`,
               c.span === 2 && "span-2",
             ]}
+            data-reveal="scale"
           >
             <div class="card-meta">
               <span class="tag">{c.tag}</span>
@@ -125,7 +126,7 @@ const proCards = cards.filter((c) => c.tier === "pro");
       }
     </div>
 
-    <div class="tier-head tier-head-pro" aria-hidden="true">
+    <div class="tier-head tier-head-pro" aria-hidden="true" data-reveal="clip">
       <span class="tier-label">Pro <RegionalPrice phase="launch" /></span>
       <span class="tier-count">{proCards.length} tools</span>
       <span class="tier-line"></span>
@@ -140,6 +141,7 @@ const proCards = cards.filter((c) => c.tier === "pro");
               c.tint && `tint-${c.tint}`,
               c.span === 2 && "span-2",
             ]}
+            data-reveal="scale"
           >
             <div class="card-meta">
               <span class="tag">{c.tag}</span>

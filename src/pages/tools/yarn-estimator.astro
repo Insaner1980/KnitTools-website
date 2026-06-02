@@ -40,6 +40,7 @@ const faqItems = [
   description={pageDescription}
   canonicalPath={canonicalPath}
   alternates={routes.tool.yarnEstimator}
+  enableRevealAnimations
 >
   <ToolStructuredData
     name="Yarn Estimator"
@@ -54,14 +55,12 @@ const faqItems = [
       <p class="eyebrow">
         <a href="/tools/" class="eyebrow-back">← All tools</a>
       </p>
-      <h1 class="gs-h1" aria-label="Yarn Estimator">
-        <span class="h1-chars">Yarn Estimator</span>
-      </h1>
-      <p class="hero-intro gs-hero">
+      <h1 data-reveal="heading" aria-label="Yarn Estimator">Yarn Estimator</h1>
+      <p class="hero-intro" data-reveal>
         Estimate how much yarn your knitting project needs by project type,
         size, and yarn weight.
       </p>
-      <div class="form-card variant-rust gs-form">
+      <div class="form-card variant-rust" data-reveal="scale">
         <YarnEstimator />
       </div>
     </div>
@@ -70,8 +69,8 @@ const faqItems = [
   <!-- 2. SEO content -->
   <section class="seo-content">
     <div class="content-inner">
-      <h2 class="gs-clip-reveal">How to use this calculator</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">How to use this calculator</h2>
+      <p data-reveal>
         Choose the project type, the size, and the yarn weight. The estimator
         gives you an approximate yarn requirement in meters and yards. Use it as
         a planning baseline, then add a safety margin before buying yarn.
@@ -79,8 +78,8 @@ const faqItems = [
         nightmare.
       </p>
 
-      <h2 class="gs-clip-reveal">How much yarn do I need?</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">How much yarn do I need?</h2>
+      <p data-reveal>
         Yarn requirements depend on three things: what you're knitting, what
         size, and what yarn weight. A size-M adult sweater in fingering-weight
         yarn might use roughly 1200-1500 meters. A simple bulky hat might need
@@ -89,8 +88,8 @@ const faqItems = [
         checking whether a yarn quantity is realistic.
       </p>
 
-      <h2 class="gs-clip-reveal">Reading a yarn label</h2>
-      <p class="gs-fade-up">
+      <h2 data-reveal="clip">Reading a yarn label</h2>
+      <p data-reveal>
         Most commercial yarn labels (or ball bands) tell you the length per
         skein or ball. After you have an estimated total, divide that number by
         the label's meters or yards per skein to work out how much to buy. If
@@ -103,18 +102,18 @@ const faqItems = [
   <!-- 3. FAQ -->
   <section class="tool-faq">
     <div class="faq-inner">
-      <h2 class="gs-clip-reveal">Frequently asked questions</h2>
+      <h2 data-reveal="clip">Frequently asked questions</h2>
       <div class="faq">
         {
           faqItems.map((faq) => (
-            <details class="gs-faq-item">
+            <details data-reveal data-animate-details>
               <summary>
                 {faq.q}{" "}
                 <span class="faq-icon" aria-hidden="true">
                   +
                 </span>
               </summary>
-              <p>{faq.a}</p>
+              <p data-animate-body>{faq.a}</p>
             </details>
           ))
         }
@@ -136,7 +135,7 @@ const faqItems = [
         data-generic-error="Something went wrong. Please try again."
         data-network-error="Network error. Please check your connection."
       >
-        <label class="visually-hidden" for="waitlist-website"
+        <label class="visually-hidden" for="waitlist-website" aria-hidden="true"
           >Leave this field empty</label
         >
         <input
@@ -146,7 +145,10 @@ const faqItems = [
           type="text"
           tabindex="-1"
           autocomplete="off"
+          aria-hidden="true"
         />
+        <label class="visually-hidden" for="waitlist-email">Email address</label
+        >
         <!-- Initial Form State (Including headers) -->
         <div class="waitlist-content-layer" id="waitlist-content-layer">
           <h2 class="waitlist-head">
@@ -154,9 +156,11 @@ const faqItems = [
           </h2>
           <div class="waitlist-row" id="waitlist-row" data-content>
             <input
+              id="waitlist-email"
               type="email"
               name="email"
               placeholder="your@email.com"
+              aria-describedby="waitlist-success waitlist-error"
               required
               class="waitlist-input"
             />
@@ -167,6 +171,10 @@ const faqItems = [
           <p
             class="waitlist-success"
             id="waitlist-success"
+            data-success
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
             aria-hidden="true"
             hidden
           >
@@ -181,8 +189,10 @@ const faqItems = [
           <p
             class="waitlist-error"
             id="waitlist-error"
+            data-error
             role="alert"
             aria-live="polite"
+            aria-hidden="true"
             hidden
           >
           </p>
@@ -191,164 +201,6 @@ const faqItems = [
     </div>
   </section>
 </PageLayout>
-
-<script>
-  const prefersReducedMotion = window.matchMedia(
-    "(prefers-reduced-motion: reduce)",
-  ).matches;
-
-  if (!prefersReducedMotion) {
-    const [{ gsap }, { ScrollTrigger }] = await Promise.all([
-      import("gsap"),
-      import("gsap/ScrollTrigger"),
-    ]);
-
-    gsap.registerPlugin(ScrollTrigger);
-
-    // --- Hero entrance timeline ---
-    const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
-
-    // Back link + intro fade in
-    heroTl.from(
-      ".gs-hero",
-      {
-        opacity: 0,
-        y: 12,
-        duration: 0.5,
-        stagger: 0.15,
-      },
-      0.2,
-    );
-
-    // H1 letter stagger — wrap each word so browsers can't break mid-word
-    const h1El = document.querySelector(".h1-chars");
-    if (h1El) {
-      const text = h1El.textContent || "";
-      h1El.textContent = "";
-      const chars: HTMLSpanElement[] = [];
-      const words = text.split(" ");
-      words.forEach((word, wi) => {
-        const wordSpan = document.createElement("span");
-        wordSpan.className = "h1-word";
-        for (const c of word) {
-          const span = document.createElement("span");
-          span.className = "h1-char";
-          span.textContent = c;
-          wordSpan.appendChild(span);
-          chars.push(span);
-        }
-        h1El.appendChild(wordSpan);
-        if (wi < words.length - 1) {
-          h1El.appendChild(document.createTextNode(" "));
-        }
-      });
-
-      heroTl.from(
-        chars,
-        {
-          opacity: 0,
-          x: -20,
-          duration: 0.4,
-          stagger: 0.03,
-          ease: "power2.out",
-        },
-        0.1,
-      );
-    }
-
-    // Form elements stagger
-    heroTl.from(
-      ".gs-form .form-group, .gs-form .unit-toggle, .gs-form .calc-btn",
-      {
-        opacity: 0,
-        y: 16,
-        duration: 0.5,
-        stagger: 0.1,
-      },
-      0.6,
-    );
-
-    // --- Scroll-triggered: clip-reveal H2s ---
-    document.querySelectorAll(".gs-clip-reveal").forEach((el) => {
-      gsap.set(el, { clipPath: "inset(0 100% 0 0)" });
-      gsap.to(el, {
-        clipPath: "inset(0 0% 0 0)",
-        duration: 0.8,
-        ease: "power3.inOut",
-        scrollTrigger: {
-          trigger: el,
-          start: "top 85%",
-          once: true,
-        },
-      });
-    });
-
-    // --- Scroll-triggered: fade up paragraphs ---
-    document.querySelectorAll(".gs-fade-up").forEach((el) => {
-      gsap.from(el, {
-        opacity: 0,
-        y: 24,
-        duration: 0.6,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: el,
-          start: "top 88%",
-          once: true,
-        },
-      });
-    });
-
-    // --- FAQ items staggered on scroll ---
-    const faqItems = document.querySelectorAll(".gs-faq-item");
-    if (faqItems.length) {
-      gsap.from(faqItems, {
-        opacity: 0,
-        y: 16,
-        duration: 0.4,
-        stagger: 0.08,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: faqItems[0],
-          start: "top 85%",
-          once: true,
-        },
-      });
-    }
-
-    // --- FAQ accordion smooth height ---
-    document.querySelectorAll(".gs-faq-item").forEach((details) => {
-      const summary = details.querySelector("summary");
-      const content = details.querySelector("p");
-      if (!summary || !content) return;
-
-      summary.addEventListener("click", (e) => {
-        e.preventDefault();
-        if (details.hasAttribute("open")) {
-          gsap.to(content, {
-            height: 0,
-            opacity: 0,
-            duration: 0.3,
-            ease: "power2.inOut",
-            onComplete: () => {
-              details.removeAttribute("open");
-              gsap.set(content, { height: "auto", opacity: 1 });
-            },
-          });
-        } else {
-          details.setAttribute("open", "");
-          const h = content.scrollHeight;
-          gsap.set(content, { height: 0, opacity: 0 });
-          gsap.to(content, {
-            height: h,
-            opacity: 1,
-            duration: 0.3,
-            ease: "power2.out",
-          });
-        }
-      });
-    });
-  }
-</script>
 
 <style>
   /* ---- Shared section rhythm (v11 editorial) ---- */
@@ -422,14 +274,6 @@ const faqItems = [
     text-transform: none;
     margin: 0 0 20px;
     padding-bottom: 0.08em;
-  }
-
-  .tool-hero h1 :global(.h1-word) {
-    display: inline-block;
-    white-space: nowrap;
-  }
-  .tool-hero h1 :global(.h1-char) {
-    display: inline-block;
   }
 
   .hero-intro {

@@ -68,7 +68,7 @@ Il suit le rang où tu en es. Indispensable pour les séquences répétées, les
 
 **Les compteurs mécaniques** (barillets à molette sur l'aiguille) sont simples et n'ont pas besoin de piles. Mais ils ne suivent qu'un nombre, le retour en arrière est souvent peu pratique, et un choc peut changer le compte. Les modèles à clip ou suspendus au projet règlent le problème des aiguilles circulaires, mais pas celui de l'annulation.
 
-**Les compteurs d'application** font plus : plusieurs compteurs, lien avec les projets, historique des sessions et rappels liés à un projet. [KnitTools](/) est en cours de développement autour du comptage des rangs lié aux projets pour le tricot. La [comparaison des applications tricot](/fr/articles/meilleures-applications-tricot/) explique en détail quoi regarder.
+**Les compteurs d'application** font plus : plusieurs compteurs, lien avec les projets, historique des sessions et rappels liés à un projet. [KnitTools](/fr/outils/#join) est en cours de développement autour du comptage des rangs lié aux projets pour le tricot. La [comparaison des applications tricot](/fr/articles/meilleures-applications-tricot/) explique en détail quoi regarder.
 
 Une écharpe au point mousse n'a pas besoin de compteur. Un châle en dentelle avec une répétition sur 24 rangs, si.
 

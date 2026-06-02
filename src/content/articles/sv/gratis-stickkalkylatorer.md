@@ -78,7 +78,7 @@ All stickmatte är inte beräkning, ibland är det uppslag. Vilken amerikansk st
 
 ## Allt på ett ställe
 
-De gratis kalkylatorerna och referenssidorna på den här webbplatsen täcker den vanligaste stickmatten i webbläsaren. För stickare som vill ha samma grundverktyg i en projektcentrerad Android-app byggs [KnitTools](/) kring varvräkning, projekthantering, kalkylatorer och referenser.
+De gratis kalkylatorerna och referenssidorna på den här webbplatsen täcker den vanligaste stickmatten i webbläsaren. För stickare som vill ha samma grundverktyg i en projektcentrerad Android-app byggs [KnitTools](/sv/verktyg/#join) kring varvräkning, projekthantering, kalkylatorer och referenser.
 
 ## FAQ
 

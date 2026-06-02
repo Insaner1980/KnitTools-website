@@ -1,4 +1,5 @@
 const WAITLIST_ENDPOINT = "https://api.finnvek.com/subscribe";
+const WAITLIST_TIMEOUT_MS = 10000;
 
 const DEFAULT_SENDING_TEXT = "Sending...";
 const DEFAULT_GENERIC_ERROR = "Something went wrong. Please try again.";
@@ -84,10 +85,16 @@ function initWaitlistSignup(form: HTMLFormElement) {
     }
     if (emailInput) emailInput.removeAttribute("aria-invalid");
 
+    const controller = new AbortController();
+    const timeoutId = window.setTimeout(() => {
+      controller.abort();
+    }, WAITLIST_TIMEOUT_MS);
+
     try {
       const response = await fetch(WAITLIST_ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        signal: controller.signal,
         body: JSON.stringify({
           email: emailInput ? emailInput.value.trim() : "",
           source,
@@ -102,6 +109,8 @@ function initWaitlistSignup(form: HTMLFormElement) {
       }
     } catch {
       showError(networkError);
+    } finally {
+      window.clearTimeout(timeoutId);
     }
   });
 }

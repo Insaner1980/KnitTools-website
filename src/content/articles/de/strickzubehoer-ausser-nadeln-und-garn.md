@@ -68,7 +68,7 @@ Verfolgt, in welcher Reihe du bist. Wichtig bei Wiederholungen, Formgebungsabst�
 
 **Mechanische Zähler**, etwa Klickrädchen auf der Nadel, sind günstig und brauchen keine Batterien. Aber sie zählen praktisch nur eine Sache, lassen sich meist nicht bequem rückwärts zählen, und ein Stoß kann die Zahl verändern. Modelle, die am Projekt hängen statt auf der Nadel zu sitzen, lösen das Rundnadelproblem, aber nicht das Rückwärtszählproblem.
 
-**App-Zähler** können mehr: mehrere Zähler, Projektzuordnung, Sitzungsverlauf und Erinnerungen, die an ein Projekt gebunden sind. [KnitTools](/) wird rund um projektbezogenes Reihenzählen fürs Stricken gebaut. Der [Vergleich von Strick-Apps](/de/artikel/die-besten-strick-apps-worauf-es-ankommt/) erklärt genauer, worauf es ankommt.
+**App-Zähler** können mehr: mehrere Zähler, Projektzuordnung, Sitzungsverlauf und Erinnerungen, die an ein Projekt gebunden sind. [KnitTools](/de/werkzeuge/#join) wird rund um projektbezogenes Reihenzählen fürs Stricken gebaut. Der [Vergleich von Strick-Apps](/de/artikel/die-besten-strick-apps-worauf-es-ankommt/) erklärt genauer, worauf es ankommt.
 
 Ein Schal in kraus rechts braucht keinen Zähler. Ein Lochmustertuch mit einem 24-Reihen-Rapport auf jeden Fall.
 

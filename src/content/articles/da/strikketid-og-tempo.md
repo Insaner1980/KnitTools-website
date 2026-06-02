@@ -49,7 +49,7 @@ Ulempen: manuel indtastning efter hver session. Hvis du glemmer det, får data h
 
 Strikketidsregistrering indbygget i en projektapp automatiserer de dele, manuelle metoder ofte taber. Start en session, strik, afslut sessionen. Appen gemmer varigheden, knytter den til projektet og følger pinde- eller omgangstallet ved siden af.
 
-[KnitTools](/) bygges med sessionsregistrering knyttet til sin [pinde- og omgangstæller](/da/artikler/hold-styr-paa-pinde-og-omgange/). Den tænkte arbejdsgang er enkel: tæl pinde eller omgange, gem sessionen, og behold dato, varighed, færdige pinde eller omgange og tempo sammen med projektet. Over tid bygger det en historik for hvert projekt og på tværs af alle projekter.
+[KnitTools](/da/strikkevaerktoejer/#join) bygges med sessionsregistrering knyttet til sin [pinde- og omgangstæller](/da/artikler/hold-styr-paa-pinde-og-omgange/). Den tænkte arbejdsgang er enkel: tæl pinde eller omgange, gem sessionen, og behold dato, varighed, færdige pinde eller omgange og tempo sammen med projektet. Over tid bygger det en historik for hvert projekt og på tværs af alle projekter.
 
 Fordelen over manuelle metoder er konsekvens. Du bruger allerede tælleren, så tidsregistreringen bliver i samme arbejdsgang. Ingen separat timer, ingen notesbog, intet regneark der skal holdes ved lige. Data samler sig uden at blive en ekstra opgave.
 

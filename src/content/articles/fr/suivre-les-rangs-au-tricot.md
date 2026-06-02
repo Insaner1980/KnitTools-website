@@ -68,7 +68,7 @@ Les rappels sont le vrai avantage. Le modèle dit de diminuer aux rangs 15, 25, 
 
 Certains compteurs enregistrent aussi des données de séance ou de progression, pour voir combien de temps tu as travaillé et comparer ton rythme entre les séances. Le compteur ne reste alors pas un seul nombre : il devient une partie de l'historique du projet.
 
-[KnitTools](/) est en développement comme boîte à outils Android avec comptage tactile, annulation, compteurs multiples et suivi des séances pour les projets à plusieurs sections.
+[KnitTools](/fr/outils/#join) est en développement comme boîte à outils Android avec comptage tactile, annulation, compteurs multiples et suivi des séances pour les projets à plusieurs sections.
 
 ## 7. Les approches combinées
 

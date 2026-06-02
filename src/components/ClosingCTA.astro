@@ -35,7 +35,7 @@ const t = useTranslations(lang);
       <label for="closing-email" class="visually-hidden"
         >{t("emailAddress")}</label
       >
-      <label for="closing-website" class="visually-hidden"
+      <label for="closing-website" class="visually-hidden" aria-hidden="true"
         >{t("honeypot")}</label
       >
       <input
@@ -45,6 +45,7 @@ const t = useTranslations(lang);
         class="visually-hidden"
         tabindex="-1"
         autocomplete="off"
+        aria-hidden="true"
       />
       <div class="signup-row" data-content>
         <input

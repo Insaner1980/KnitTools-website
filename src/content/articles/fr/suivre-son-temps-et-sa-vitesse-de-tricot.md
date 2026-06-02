@@ -48,7 +48,7 @@ La limite : tout se saisit à la main après chaque séance. Si tu oublies, les 
 
 Un suivi du temps intégré à un outil de gestion de projet automatise les parties que les méthodes manuelles ratent souvent. Tu démarres une séance, tu tricotes, tu termines la séance. L'outil enregistre la durée, la rattache au projet et suit le nombre de rangs ou de tours en même temps.
 
-[KnitTools](/) est en cours de développement avec un suivi de séance relié au [compteur de rangs](/fr/articles/suivre-les-rangs-au-tricot/). Le flux prévu est direct : compter les rangs ou les tours, enregistrer la séance, puis garder la date, la durée, les rangs ou tours terminés et le rythme avec le projet. Avec le temps, cela construit un historique par projet et sur l'ensemble des projets.
+[KnitTools](/fr/outils/#join) est en cours de développement avec un suivi de séance relié au [compteur de rangs](/fr/articles/suivre-les-rangs-au-tricot/). Le flux prévu est direct : compter les rangs ou les tours, enregistrer la séance, puis garder la date, la durée, les rangs ou tours terminés et le rythme avec le projet. Avec le temps, cela construit un historique par projet et sur l'ensemble des projets.
 
 L'avantage par rapport aux méthodes manuelles, c'est la régularité. Tu utilises déjà le compteur, donc le suivi du temps reste dans le même geste. Pas de minuteur séparé à lancer, pas de carnet à mettre à jour, pas de tableur à entretenir. Les données s'accumulent sans ajouter une deuxième tâche.
 

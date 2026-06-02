@@ -79,7 +79,7 @@ Enklast är att skriva ut det innan du börjar. Slå ihop de två instruktionern
 
 Två räknare fungerar också. En följer ärmhålets intervall, den andra halsringningens. När båda hamnar på sitt åtgärdsvarv gör du båda sakerna. En del stickare markerar direkt i mönstret vilka varv som har ärmhålsminskningar, halsminskningar eller båda. Olika färger på överstrykningspennor hjälper.
 
-KnitTools [varvräknare](/) stödjer flera parallella räknare för just den här situationen.
+KnitTools [varvräknare](/sv/verktyg/#join) stödjer flera parallella räknare för just den här situationen.
 
 ## Minskningstyp och symmetri
 

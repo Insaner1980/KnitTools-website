@@ -80,7 +80,7 @@ Der einfachste Weg: Schreib es aus, bevor du beginnst. Füge die zwei Anweisungs
 
 Zwei Zähler funktionieren ebenfalls. Einer verfolgt den Armloch-Rhythmus, der andere den Halsausschnitt. Wenn beide in derselben Reihe auslösen, machst du beide Aktionen. Manche markieren direkt in der Anleitung, welche Reihen Armlochabnahmen, Halsausschnittabnahmen oder beides enthalten. Verschiedene Textmarkerfarben helfen.
 
-Der KnitTools-[Reihenzähler](/) unterstützt mehrere parallele Zähler genau für solche Situationen.
+Der KnitTools-[Reihenzähler](/de/werkzeuge/#join) unterstützt mehrere parallele Zähler genau für solche Situationen.
 
 ## Abnahmeart und Symmetrie
 

@@ -47,7 +47,7 @@ Papiernotizen funktionieren, wenn du diszipliniert aktualisierst. Aktuelle Reihe
 
 Ein Strickprojekt-Tracker auf dem Handy ist zuverlässiger. Digitale Tracker speichern Reihenzahlen automatisch, merken, wann du zuletzt an einem Projekt gearbeitet hast, und zeigen alle aktiven Projekte in einer Liste. Statt Beutel zu durchwühlen, siehst du alles auf einen Blick: Zopfcardigan, Reihe 47, zuletzt Dienstag. Einfache Socken, Fersenkäppchen, zuletzt vor einer Woche.
 
-Die [KnitTools-App](/) wird gebaut, um Projekte mit Reihenzahlen, Sitzungsverlauf, Projektnotizen und Garndetails an einem Ort zu organisieren. Das Ziel ist schlicht: Projekt öffnen und wieder in den Arbeitsstand kommen, ohne ihn aus dem Gedächtnis zu rekonstruieren.
+Die [KnitTools-App](/de/werkzeuge/#join) wird gebaut, um Projekte mit Reihenzahlen, Sitzungsverlauf, Projektnotizen und Garndetails an einem Ort zu organisieren. Das Ziel ist schlicht: Projekt öffnen und wieder in den Arbeitsstand kommen, ohne ihn aus dem Gedächtnis zu rekonstruieren.
 
 ## Entscheiden, woran du arbeitest
 
@@ -77,7 +77,7 @@ Garn projektbezogen zu verfolgen, also Startmenge und Restmenge, verhindert zwei
 
 Ein nützlicher Trick für aktive Projekte: Wiege das übrige Garn alle paar Sitzungen und notiere Grammzahl und Datum. Wenn ein Ärmel 47 g gebraucht hat, weißt du genau, was der zweite Ärmel ungefähr braucht, plus etwas Reserve. Aus „ich glaube, es reicht“ wird ein konkretes Ja oder Nein.
 
-Notiere die Garninformationen, solange die Banderole noch da ist: Garnstärke, Materialzusammensetzung, Pflegehinweise und Farbpartie. Die [KnitTools-App](/) wird dafür gebaut, solche Notizen beim passenden Projekt zu halten, statt sie als losen Zettel im Projektbeutel verschwinden zu lassen.
+Notiere die Garninformationen, solange die Banderole noch da ist: Garnstärke, Materialzusammensetzung, Pflegehinweise und Farbpartie. Die [KnitTools-App](/de/werkzeuge/#join) wird dafür gebaut, solche Notizen beim passenden Projekt zu halten, statt sie als losen Zettel im Projektbeutel verschwinden zu lassen.
 
 ## Die Minimalversion
 

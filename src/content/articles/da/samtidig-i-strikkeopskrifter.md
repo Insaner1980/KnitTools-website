@@ -80,7 +80,7 @@ Den enkleste metode: skriv det ud, før du starter. Flet de to instruktioner sam
 
 To tællere virker også. Én følger ærmegabets rytme, den anden halsen. Når begge rammer samme pind, laver du begge handlinger. Nogle strikkere markerer direkte i opskriften, hvilke pinde der har ærmegabsindtagning, halsindtagning eller begge. Forskellige farver hjælper.
 
-KnitTools' [omgangstæller](/) understøtter flere samtidige tællere netop til den slags.
+KnitTools' [omgangstæller](/da/strikkevaerktoejer/#join) understøtter flere samtidige tællere netop til den slags.
 
 ## Indtagningstype og symmetri
 

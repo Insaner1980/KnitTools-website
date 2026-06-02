@@ -69,7 +69,7 @@ Komplexe Muster. Zöpfe, Lochmuster, Jacquard. Den Platz im Rapport zu verlieren
 
 Langzeitprojekte. Ein Pullover über Monate profitiert von dauerhaft gespeicherten Daten und Sitzungsverlauf. Du siehst: zuletzt Dienstag, Reihe 47, nächste Abnahme in Reihe 52. Ein Klicker sagt „47“ und sonst nichts.
 
-Die [KnitTools-App](/) wird für Android gebaut und soll Tippen, Rückgängig, Reihenerinnerungen, mehrere Zähler pro Projekt und Sitzungsverlauf verbinden. Die Kerndaten für Zähler und Projekte sind um lokale Projektdaten herum geplant.
+Die [KnitTools-App](/de/werkzeuge/#join) wird für Android gebaut und soll Tippen, Rückgängig, Reihenerinnerungen, mehrere Zähler pro Projekt und Sitzungsverlauf verbinden. Die Kerndaten für Zähler und Projekte sind um lokale Projektdaten herum geplant.
 
 ## Die Kombination funktioniert auch
 

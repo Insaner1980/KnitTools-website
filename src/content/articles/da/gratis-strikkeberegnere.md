@@ -78,7 +78,7 @@ Siderne [Pindestørrelser](/da/strikkevaerktoejer/pindestoerrelser/), [Garntykke
 
 ## Alt samlet ét sted
 
-De gratis beregnere og referencesider på dette site håndterer den mest almindelige strikkematematik i browseren. For strikkere der vil have de samme kerneværktøjer i en projektfokuseret Android-app, bygges [KnitTools](/) rundt om pinde- og omgangstælling, projektstyring, beregnere og referencer.
+De gratis beregnere og referencesider på dette site håndterer den mest almindelige strikkematematik i browseren. For strikkere der vil have de samme kerneværktøjer i en projektfokuseret Android-app, bygges [KnitTools](/da/strikkevaerktoejer/#join) rundt om pinde- og omgangstælling, projektstyring, beregnere og referencer.
 
 ## FAQ
 

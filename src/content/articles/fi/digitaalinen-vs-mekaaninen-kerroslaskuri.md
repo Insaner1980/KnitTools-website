@@ -68,7 +68,7 @@ Monimutkaiset mallineuleet. Palmikot, pitsi, kirjoneule. Mallikerran kohdan kado
 
 Pitkät projektit. Kuukausia kestävä villapaita hyötyy pysyvyydestä ja sessiohistoriasta. Näet, että työstit sitä viimeksi tiistaina, olit kerroksella 47 ja seuraava kavennus on kerroksella 52. Klikkeri kertoo "47" eikä muuta.
 
-[KnitTools-sovellusta](/) rakennetaan Androidille, ja se yhdistää napautuslaskennan, peruutuksen, kerrosmuistutukset, useat laskurit per projekti ja sessioseurannan. Laskurin ja projektidatan ydinosat on suunniteltu paikallisen projektidatan ympärille.
+[KnitTools-sovellusta](/fi/tyokalut/#join) rakennetaan Androidille, ja se yhdistää napautuslaskennan, peruutuksen, kerrosmuistutukset, useat laskurit per projekti ja sessioseurannan. Laskurin ja projektidatan ydinosat on suunniteltu paikallisen projektidatan ympärille.
 
 ## Yhdistelmä toimii myös
 

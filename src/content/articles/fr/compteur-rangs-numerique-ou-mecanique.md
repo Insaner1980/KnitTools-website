@@ -71,7 +71,7 @@ Points complexes. Torsades, dentelle, jacquard. Perdre sa place dans une répét
 
 Projets longs. Un pull qui prend des mois profite de la persistance et de l'historique. Tu vois que tu l'as travaillé mardi, que tu étais au rang 47, que la prochaine diminution est au rang 52. Un compteur mécanique te dit "47" et rien de plus.
 
-[KnitTools](/) est en cours de développement pour Android et combine comptage par appui, annulation, rappels de rangs, plusieurs compteurs par projet et suivi des sessions. Les données principales de compteur et de projet sont prévues autour de données locales.
+[KnitTools](/fr/outils/#join) est en cours de développement pour Android et combine comptage par appui, annulation, rappels de rangs, plusieurs compteurs par projet et suivi des sessions. Les données principales de compteur et de projet sont prévues autour de données locales.
 
 ## L'approche mixte
 

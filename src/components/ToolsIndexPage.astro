@@ -26,7 +26,6 @@ interface Props {
   intro: string;
   tools: ToolIndexCard[];
   variant?: "english" | "localized";
-  revealCards?: boolean;
 }
 
 const {
@@ -42,31 +41,7 @@ const {
   intro,
   tools,
   variant = "localized",
-  revealCards = false,
 } = Astro.props;
-
-const revealCardsScript = `
-if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0, rootMargin: "0px 0px -20% 0px" },
-  );
-  document
-    .querySelectorAll(".reveal")
-    .forEach((el) => observer.observe(el));
-} else {
-  document
-    .querySelectorAll(".reveal")
-    .forEach((el) => el.classList.add("visible"));
-}
-`;
 ---
 
 <PageLayout
@@ -75,6 +50,7 @@ if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   canonicalPath={canonicalPath}
   lang={lang}
   alternates={alternates}
+  enableRevealAnimations
 >
   <script
     type="application/ld+json"
@@ -98,9 +74,9 @@ if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
 
   <section class:list={["tools-header", `tools-header--${variant}`]}>
     <div class="tools-header-inner">
-      <p class="eyebrow">{eyebrow}</p>
-      <h1>{heading}</h1>
-      <p class="tools-intro">{intro}</p>
+      <p class="eyebrow" data-reveal>{eyebrow}</p>
+      <h1 data-reveal="heading">{heading}</h1>
+      <p class="tools-intro" data-reveal>{intro}</p>
     </div>
   </section>
 
@@ -112,12 +88,8 @@ if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
         tools.map((tool) => (
           <a
             href={tool.href}
-            class:list={[
-              "tool-card",
-              `tool-card--${variant}`,
-              revealCards && "reveal",
-              tool.className,
-            ]}
+            class:list={["tool-card", `tool-card--${variant}`, tool.className]}
+            data-reveal="scale"
           >
             <span class="tag">{tool.tag}</span>
             <h2 class="card-title">{tool.title}</h2>
@@ -127,8 +99,9 @@ if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       }
     </div>
   </section>
-  <ClosingCTA variant="page" lang={lang} />
-  {revealCards && <script is:inline set:html={revealCardsScript} />}
+  <div data-reveal>
+    <ClosingCTA variant="page" lang={lang} />
+  </div>
 </PageLayout>
 
 <style>
@@ -371,11 +344,6 @@ if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     .tool-card--english.card-top-right {
       min-height: auto;
       padding: 28px 24px;
-    }
-
-    .tool-card--english.reveal-delay-2,
-    .tool-card--english.reveal-delay-3 {
-      --reveal-delay: 80ms;
     }
   }
 

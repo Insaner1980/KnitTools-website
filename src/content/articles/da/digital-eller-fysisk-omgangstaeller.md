@@ -71,7 +71,7 @@ Komplekse maskemønstre. Snoninger, hulmønster, mønsterstrik. At miste stedet 
 
 Langvarige projekter. En sweater der tager måneder, har glæde af gemte data og sessionshistorik. Du kan se, at du sidst arbejdede på den tirsdag, du var på pind 47, og næste indtagning er på pind 52. En klikker fortæller dig "47" og intet andet.
 
-[KnitTools](/) bygges til Android og kombinerer tryktælling med fortryd, pindepåmindelser, flere tællere pr. projekt og sessionsregistrering. Kernefunktionerne for tællere og projekter er planlagt til at fungere med lokale projektdata.
+[KnitTools](/da/strikkevaerktoejer/#join) bygges til Android og kombinerer tryktælling med fortryd, pindepåmindelser, flere tællere pr. projekt og sessionsregistrering. Kernefunktionerne for tællere og projekter er planlagt til at fungere med lokale projektdata.
 
 ## Kombinationsmetoden
 

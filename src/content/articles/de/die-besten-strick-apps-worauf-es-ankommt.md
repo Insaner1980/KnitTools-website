@@ -113,7 +113,7 @@ Der praktische Test ist nicht, welche Plattform die schönere Store-Seite hat. E
 
 Volle Transparenz: Das ist die KnitTools-Website.
 
-[KnitTools](/) wird als Android-Werkzeugkasten für Projektverfolgung, Reihenzählen, Berechnungen und Nachschlagen gebaut. Das Ziel ist, die häufigen Strickaufgaben an einem Ort zu halten: mehrere parallele Zähler, Projektnotizen, gespeicherte Anleitungen, Rechner und Referenzmaterial zu Nadelstärken, Garnstärken, Abkürzungen und Größentabellen.
+[KnitTools](/de/werkzeuge/#join) wird als Android-Werkzeugkasten für Projektverfolgung, Reihenzählen, Berechnungen und Nachschlagen gebaut. Das Ziel ist, die häufigen Strickaufgaben an einem Ort zu halten: mehrere parallele Zähler, Projektnotizen, gespeicherte Anleitungen, Rechner und Referenzmaterial zu Nadelstärken, Garnstärken, Abkürzungen und Größentabellen.
 
 Gedacht als praktischer Werkzeugkasten statt als Ein-Zweck-Zähler, damit Projektverfolgung, Zählen, Rechnen und Nachschlagen in denselben Arbeitsrhythmus passen.
 
