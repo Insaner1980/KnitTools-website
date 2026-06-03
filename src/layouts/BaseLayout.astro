@@ -5,6 +5,8 @@ import { SITE_URL, SOCIAL_PROFILE_URLS } from "../config/brand";
 import { getHtmlLang, getLocale, type Lang } from "../i18n/config";
 import { useTranslations } from "../i18n/ui";
 
+const GOOGLE_ANALYTICS_MEASUREMENT_ID = "G-BT2BNJWV11";
+
 interface Props {
   title: string;
   description: string;
@@ -48,6 +50,13 @@ const pageTitle = browserTitle ?? fullTitle;
 const ogLocale = getLocale(lang);
 const htmlLang = getHtmlLang(lang);
 const t = useTranslations(lang);
+const enableGoogleAnalytics = import.meta.env.PROD;
+const googleAnalyticsSnippet = `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', ${JSON.stringify(GOOGLE_ANALYTICS_MEASUREMENT_ID)});
+`;
 
 const toIsoDateTime = (value?: Date | string): string | undefined => {
   if (!value) return undefined;
@@ -62,6 +71,18 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
 <!doctype html>
 <html lang={htmlLang}>
   <head>
+    {
+      enableGoogleAnalytics && (
+        <>
+          <script
+            is:inline
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_MEASUREMENT_ID}`}
+          />
+          <script is:inline set:html={googleAnalyticsSnippet} />
+        </>
+      )
+    }
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#F4EAD9" />
