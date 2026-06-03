@@ -42,6 +42,71 @@ test("footer logo uses an optimized WebP asset", () => {
   assert.ok(logo.size < 80_000, `footer logo is ${logo.size} bytes`);
 });
 
+test("base layout exposes a standard Apple touch icon", () => {
+  const layout = fs.readFileSync("src/layouts/BaseLayout.astro", "utf8");
+  const icon = fs.readFileSync("public/apple-touch-icon.png");
+
+  assert.match(
+    layout,
+    /<link rel="apple-touch-icon" sizes="180x180" href="\/apple-touch-icon\.png" \/>/,
+  );
+  assert.equal(icon.toString("ascii", 1, 4), "PNG");
+  assert.equal(icon.readUInt32BE(16), 180);
+  assert.equal(icon.readUInt32BE(20), 180);
+  assert.equal(icon[25], 2, "Apple touch icon should not rely on transparency");
+});
+
+test("favicon assets use the KnitTools logo artwork", () => {
+  const layout = fs.readFileSync("src/layouts/BaseLayout.astro", "utf8");
+  const svg = fs.readFileSync("public/favicon.svg", "utf8");
+  const webp = fs.readFileSync("public/favicon.webp");
+
+  assert.match(
+    layout,
+    /<link rel="icon" type="image\/x-icon" href="\/favicon\.ico" \/>/,
+  );
+  assert.match(
+    layout,
+    /<link rel="icon" type="image\/webp" href="\/favicon\.webp" \/>/,
+  );
+  assert.match(svg, /KnitTools favicon generated from logo\.webp/);
+  assert.doesNotMatch(svg, /<circle cx="16" cy="16" r="14"/);
+  assert.equal(webp.toString("ascii", 8, 12), "WEBP");
+});
+
+test("base layout exposes Android home-screen manifest icons", () => {
+  const layout = fs.readFileSync("src/layouts/BaseLayout.astro", "utf8");
+  const manifest = JSON.parse(
+    fs.readFileSync("public/site.webmanifest", "utf8"),
+  );
+
+  assert.match(layout, /<link rel="manifest" href="\/site\.webmanifest" \/>/);
+  assert.match(layout, /<meta name="theme-color" content="#F4EAD9" \/>/);
+  assert.equal(manifest.name, "KnitTools");
+  assert.equal(manifest.short_name, "KnitTools");
+  assert.equal(manifest.theme_color, "#F4EAD9");
+  assert.equal(manifest.background_color, "#F4EAD9");
+  assert.equal(manifest.display, "standalone");
+  assert.equal(manifest.start_url, "/");
+
+  for (const size of [192, 512]) {
+    const icon = manifest.icons.find(
+      (entry) =>
+        entry.src === `/android-chrome-${size}x${size}.png` &&
+        entry.sizes === `${size}x${size}` &&
+        entry.type === "image/png" &&
+        entry.purpose === "any",
+    );
+    const png = fs.readFileSync(`public/android-chrome-${size}x${size}.png`);
+
+    assert.ok(icon, `manifest missing ${size}x${size} Android icon`);
+    assert.equal(png.toString("ascii", 1, 4), "PNG");
+    assert.equal(png.readUInt32BE(16), size);
+    assert.equal(png.readUInt32BE(20), size);
+    assert.equal(png[25], 2, `${size}x${size} icon should not rely on alpha`);
+  }
+});
+
 test("extractPageData reads core SEO fields from a built HTML page", () => {
   const page = extractPageData({
     htmlPath: "dist/da/artikler/test/index.html",

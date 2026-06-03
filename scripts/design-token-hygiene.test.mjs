@@ -608,12 +608,21 @@ describe("performance hygiene", () => {
 
   it("keeps critical font preloads aligned with visible weights", () => {
     const baseLayout = read("src/layouts/BaseLayout.astro");
+    const indexPage = read("src/pages/index.astro");
+    const logoPreload = 'href="/fonts/teko-500-subset.woff2"';
+    const displayPreload = 'href="/fonts/lalezar.woff2"';
 
     assert.match(baseLayout, /href="\/fonts\/general-sans-600\.woff2"/);
     assert.doesNotMatch(
       baseLayout,
       /rel="preload"\s+href="\/fonts\/general-sans-500\.woff2"/,
     );
+    assert.ok(
+      baseLayout.indexOf(logoPreload) < baseLayout.indexOf(displayPreload),
+      "hero logo font preload should be discoverable before the larger display font",
+    );
+    assert.match(baseLayout, /preloadDisplayFont = true/);
+    assert.match(indexPage, /preloadDisplayFont=\{false\}/);
   });
 
   it("loads the footer seal lazily", () => {

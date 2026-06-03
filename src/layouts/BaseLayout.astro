@@ -21,6 +21,7 @@ interface Props {
   articleSection?: string;
   articleTags?: string[];
   enableRevealAnimations?: boolean;
+  preloadDisplayFont?: boolean;
 }
 
 const {
@@ -39,6 +40,7 @@ const {
   articleSection,
   articleTags = [],
   enableRevealAnimations = false,
+  preloadDisplayFont = true,
 } = Astro.props;
 const canonicalUrl = `${SITE_URL}${canonicalPath}`;
 const fullTitle = `${title} | KnitTools`;
@@ -62,6 +64,7 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F4EAD9" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
@@ -142,15 +145,28 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/webp" href="/favicon.webp" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Preload critical fonts -->
     <link
       rel="preload"
-      href="/fonts/lalezar.woff2"
+      href="/fonts/teko-500-subset.woff2"
       as="font"
       type="font/woff2"
       crossorigin
     />
+    {
+      preloadDisplayFont && (
+        <link
+          rel="preload"
+          href="/fonts/lalezar.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin
+        />
+      )
+    }
     <link
       rel="preload"
       href="/fonts/general-sans-400.woff2"
@@ -161,13 +177,6 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
     <link
       rel="preload"
       href="/fonts/general-sans-600.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="/fonts/teko-500-subset.woff2"
       as="font"
       type="font/woff2"
       crossorigin

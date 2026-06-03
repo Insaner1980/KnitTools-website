@@ -20,6 +20,7 @@ interface Props {
   articleSection?: string;
   articleTags?: string[];
   enableRevealAnimations?: boolean;
+  preloadDisplayFont?: boolean;
 }
 
 const {
@@ -38,6 +39,7 @@ const {
   articleSection,
   articleTags,
   enableRevealAnimations = false,
+  preloadDisplayFont = true,
 } = Astro.props;
 ---
 
@@ -57,6 +59,7 @@ const {
   articleSection={articleSection}
   articleTags={articleTags}
   enableRevealAnimations={enableRevealAnimations}
+  preloadDisplayFont={preloadDisplayFont}
 >
   <Navbar lang={lang} />
   <main id="main-content">

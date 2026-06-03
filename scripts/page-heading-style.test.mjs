@@ -69,3 +69,16 @@ test("article category pages use the same back-link style", () => {
     );
   }
 });
+
+test("homepage hero uses one descriptive visible h1", () => {
+  const source = read("src/components/Hero.astro");
+  const h1Match = source.match(/<h1[\s\S]*?<\/h1>/);
+
+  assert.ok(h1Match, "Hero should include a visible h1");
+
+  const h1 = h1Match[0];
+  assert.doesNotMatch(h1, /aria-label="KnitTools"/);
+  assert.match(h1, /<span class="eyebrow">An Android app for knitters<\/span>/);
+  assert.match(h1, /<span class="wordmark-line">Knit<\/span>/);
+  assert.match(h1, /<span class="wordmark-line">Tools<\/span>/);
+});
