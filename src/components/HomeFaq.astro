@@ -1,0 +1,142 @@
+---
+const faqItems = [
+  {
+    q: "What is KnitTools?",
+    a: "KnitTools is an Android knitting app that keeps your row counter, patterns, yarn, notes, progress photos, and knitting tools together in one project home.",
+  },
+  {
+    q: "What does KnitTools include?",
+    a: "KnitTools includes a saved row counter, pattern viewer, yarn tools, project notes, progress photos, knitting calculators, reference charts, and project stats.",
+  },
+  {
+    q: "Is KnitTools available yet?",
+    a: "Not yet. KnitTools is currently in pre-launch and planned for Google Play in summer 2026.",
+  },
+  {
+    q: "Does KnitTools have ads or accounts?",
+    a: "No ads. No account required. Your knitting data stays on your device. Basic crash reports may be used to help find and fix bugs.",
+  },
+];
+---
+
+<section class="home-faq" aria-labelledby="home-faq-heading">
+  <div class="faq-inner">
+    <h2 id="home-faq-heading" data-reveal="clip">Frequently asked questions</h2>
+    <div class="faq">
+      {
+        faqItems.map((faq) => (
+          <details data-reveal data-animate-details>
+            <summary>
+              {faq.q}
+              <span class="faq-icon" aria-hidden="true">
+                +
+              </span>
+            </summary>
+            <p data-animate-body>{faq.a}</p>
+          </details>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .home-faq {
+    color: var(--ink);
+    padding: 96px 40px 40px;
+  }
+
+  .faq-inner {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .home-faq h2 {
+    font-family: var(--serif);
+    font-weight: 400;
+    color: var(--ink);
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+    line-height: 1.2;
+    padding-bottom: 0.08em;
+    letter-spacing: -0.02em;
+    margin: 0 0 32px;
+    text-transform: none;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faq details {
+    border-top: 1px solid rgba(42, 30, 23, 0.2);
+  }
+
+  .faq details:last-child {
+    border-bottom: 1px solid rgba(42, 30, 23, 0.2);
+  }
+
+  .faq summary {
+    padding: 18px 0;
+    cursor: pointer;
+    color: var(--ink);
+    font-family: var(--body-ed);
+    font-weight: 500;
+    font-size: 17px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 200ms ease;
+  }
+
+  .faq summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq summary:hover {
+    color: var(--terracotta);
+  }
+
+  .faq summary .faq-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-left: 1rem;
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--terracotta);
+    line-height: 1;
+    transition:
+      transform 300ms ease,
+      color 200ms ease;
+  }
+
+  .faq summary:hover .faq-icon {
+    color: var(--ink);
+  }
+
+  .faq details[open] summary .faq-icon {
+    transform: rotate(45deg);
+  }
+
+  .faq details p {
+    max-width: 560px;
+    padding-bottom: 18px;
+    font-family: var(--body-ed);
+    font-size: 16px;
+    color: var(--ink-soft);
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .home-faq {
+      padding: 72px 20px 20px;
+    }
+  }
+</style>
