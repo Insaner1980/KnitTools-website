@@ -228,25 +228,15 @@ Hero (Lalezar H1, intro, back-link → tools index) → laskuri/taulukko-osio �
 <claude-mem-context>
 # Memory Context
 
-# [KnitTools-website] recent context, 2026-05-31 11:44am GMT+3
+# [KnitTools-website] recent context, 2026-06-09 3:30pm GMT+3
 
 Legend: 🎯session 🔴bugfix 🟣feature 🔄refactor ✅change 🔵discovery ⚖️decision 🚨security_alert 🔐security_note
 Format: ID TIME TYPE TITLE
 Fetch details: get_observations([IDs]) | Search: mem-search skill
 
-Stats: 50 obs (20,272t read) | 1,621,716t work | 99% savings
+Stats: 50 obs (20,324t read) | 1,675,887t work | 99% savings
 
 ### May 6, 2026
-5180 6:38p 🔵 PageLayout Acts as Pass-Through Wrapper Between Tool Pages and BaseLayout
-5182 6:40p ✅ Updated Cast On Calculator Page Title for SEO Optimization
-5183 6:41p ✅ Updated Size Charts and Abbreviations Page Titles for SEO
-5187 6:56p ✅ Built KnitTools site with updated SEO title tags
-5188 " 🔵 KnitTools deployment configuration has no npm deploy script
-5189 6:57p 🔵 KnitTools deploys to Cloudflare Pages via manual wrangler commands
-5190 " ✅ Deployed KnitTools with SEO-optimized titles to Cloudflare Pages production
-5191 " 🔵 Cloudflare Pages deployment history confirms production rollout
-5199 7:07p ✅ Committed and pushed SEO title updates to GitHub main branch
-5200 7:11p 🔵 KnitTools article content uses Astro content collections with 38 markdown files
 5201 7:15p ✅ Started optimizing article SEO titles in markdown frontmatter
 5203 7:16p ✅ Optimized SEO titles for 6 knitting articles in markdown frontmatter
 5204 7:17p ✅ Optimized 4 more article SEO titles to meet 60-character limit
@@ -298,26 +288,37 @@ S758 Git commit and push of 12 meta description SEO optimizations to GitHub main
 5519 " ✅ DE Articles Batch 5/8 Started - Increases, Yarn Joining, Scarf Guide
 5520 8:05p ✅ DE Batch 5/8 Initialized - Verified Current Tooling and Sources
 ### May 31, 2026
-**5557** 4:32a ✅ **Dutch localization batch 7/8 completed with content parity fixes**
-Completed Dutch (NL) article localization batch 7/8 as part of systematic multi-language content quality assurance. Corrected content parity issues including unconfirmed product feature claims in rapportondersteuning article and technical accuracy gaps in waarom-krult-breiwerk.md regarding stockinette curl behavior, superwash processing, and acrylic fiber steam limitations to match the authoritative English reference. Verified seaming, time tracking, and fiber articles required no changes. Updated progress tracking in monikielinen-lokalisointi-eteneminen.md showing 35 of 38 NL articles now complete. Full verification suite passed: prettier formatting, git diff whitespace check, riskigrep pattern scan, npm run check (0 errors/warnings), npm run build (411 pages), and dist link validation (87 NL links, 0 broken). Sources referenced include Astro docs, Craft Yarn Council, Vogue Knitting, TECHknitting, Our Daily Craft, Olive Knits, Woolmark, and Coats. This follows the established pattern of verifying headers, facts, warnings, limits, product claims, and natural language style match EN structure while preserving language-specific terminology.
-~443t 🛠️ 10,787
+5557 4:32a ✅ Dutch localization batch 7/8 completed with content parity fixes
+5558 10:17a ✅ Danish Articles Batch 1/8 Localization Completed
+5559 " ✅ Dutch Localization Completed and Danish Tools/Articles Batch 1 Finished
+5560 10:20a ✅ Danish Article Localization Batch 1/8 Completed
+5561 10:27a ✅ Danish Article Localization Batch 2/8 Completed
+### Jun 9, 2026
+5583 3:12p 🔵 KnitTools security.txt Files Deployed and Accessible
+5584 " 🔵 Cloudflare Web Analytics beacon deployed correctly without integrity attribute
+5586 3:17p 🔵 Cloudflare services operating normally despite dashboard concerns
+5587 " 🔵 Live SEO audit detects 9 new errors on production site
+5588 " 🔴 Norwegian article page missing from production causing SEO errors
+**5590** 3:18p 🔵 **Norwegian article SEO errors are false positives from transient network issue**
+Investigation of the 9 SEO errors revealed they are false positives caused by a transient network failure during the audit run. The Norwegian article page that the audit claimed was missing actually returns HTTP 200 successfully and consistently. The HTTP 0 status code in the audit indicates a client-side fetch failure (timeout, connection reset, or rate limit) rather than a server-side 404 or deployment issue. The content file exists in the repository, the URL is properly configured in i18n mappings, and the production sitemap includes the page. Manual curl tests confirm the page loads normally with good performance. This explains the "Cloudflare problems" the user reported seeing—the SEO audit happened to run during a brief network hiccup, creating the false impression of systemic issues.
+~415t 🔍 11,080
 
-**5558** 10:17a ✅ **Danish Articles Batch 1/8 Localization Completed**
-First batch of Danish article localization completed as part of systematic multi-language content verification. Five Danish knitting articles were validated against their English translationKey sources to ensure headers match current EN structure, facts/numbers/warnings/limitations align with corrected EN versions, product tool claims don't promise unconfirmed features, and language-specific style remains natural. Three files received content corrections addressing measurement conversions, standard references, technique step counts, brand examples, and feature limitations missing from EN sources. All verification steps passed including formatting, whitespace, product claim risk checking, type checking, build with 411 total pages, and Danish-specific internal link and article page validation. Progress logged to continuation tracking file to prevent losing place in multi-batch workflow covering 7 languages × multiple article batches.
-~451t 🛠️ 10,886
+**5592** 3:19p 🔵 **SEO audit errors are transient network failures affecting different pages per run**
+Running the SEO audit twice in succession revealed that the errors are not caused by missing pages but by transient network failures during the audit process. The first run failed to fetch the Norwegian "how much yarn" article, while the second run failed on a completely different page—the French "knit first scarf" article. Both runs show identical error patterns (1 fetch failure cascading to 9 total errors via hreflang validation), but affecting different randomly-selected pages. This confirms the audit tool is experiencing intermittent network timeouts or rate limiting when fetching from Cloudflare, not discovering actual content problems. The "Cloudflare issues" the user reported are audit tool artifacts, not production site defects.
+~379t 🔍 1,866
 
-**5559** " ✅ **Dutch Localization Completed and Danish Tools/Articles Batch 1 Finished**
-Completed systematic multilingual localization work across Dutch and Danish language content for KnitTools website. Finished all remaining Dutch articles (batches 7/8 and 8/8) with EN-source parity checks including metric conversion corrections, YarnEstimator tool claim scoping, and gauge/row-count examples. All 38 Dutch articles now validated against current English translationKey sources. Completed full Danish tools suite (7 pages in two batches) with CYC Size 8 clarifications, needle size table updates to 38 rows matching EN source, body measurement/ease corrections, and product claim narrowing to remove unconfirmed app-specific features. Started Danish article localization with batch 1/8, applying content corrections for metric parity (~180m vs 200 yards), magic loop technique step counts (3-4 transitions vs 4-5), and digital counter feature limitations missing from prior EN version. All verification steps passed including formatting, whitespace, Danish product claim risk patterns, type checking, build with 411 total pages, and Danish-specific link/article page validation. Workflow follows established pattern: read continuation point from progress log, process exact batch boundary, compare to current EN Astro translationKey sources, preserve frontmatter/routing identity, update progress log with next exact file before stopping. Languages completed: EN 38/38, FI 38/38, SV 38/38, NO 38/38, FR 38/38, DE 35/38, NL 38/38, DA 5/38 articles + 7/7 tools.
-~711t 🛠️ 4,777
+**5594** " 🔵 **SEO audit tool encounters rate limiting or timeout issues at 8-concurrent fetch pattern**
+Code inspection of scripts/live-seo-audit.mjs revealed the root cause of the intermittent SEO errors. The audit tool fetches pages with 8 concurrent requests (mapLimit with concurrency=8), and each fetch has a 20-second timeout enforced via AbortController. When a fetch times out or encounters network issues, it's aborted and returns HTTP status 0, which the audit reports as sitemap-url-non-200 error. The random nature of failures across runs (Norwegian article in run 1, French article in run 2) indicates either Cloudflare rate limiting kicking in unpredictably, or network congestion from the concurrent fetch pattern. Manual curl tests confirm all pages are actually accessible, proving the errors are audit-tool artifacts rather than site defects.
+~357t 🔍 14,197
 
-**5560** 10:20a ✅ **Danish Article Localization Batch 1/8 Completed**
-Completed first batch of Danish article localization validation as part of a systematic multi-language content review. After completing EN, FI, SV, NO, FR, DE, and NL languages, the Danish (DA) content validation began with tools pages (completed in two batches of 3+4 pages) followed by articles in batches of 5. The first article batch validated 5 Danish articles against their English translationKey sources, checking that headings/subheadings match current English structure, facts/numbers/warnings/limitations match corrected English version, product tool claims don't promise unconfirmed features, language-specific style and terms remain natural, and translationKey/draft/slug/routes don't change unnecessarily. Three files received content corrections for measurement conversions, yarn weight standards, technique details, and limitation disclosures. Full verification suite confirmed code quality (prettier, git diff), content safety (product claim risk grep), build integrity (npm check and build with 411 pages), and link validity (all 14 DA internal links and 38 article pages present in dist). Progress tracking ensures no work is lost between batches.
-~516t 🛠️ 8,791
+**5599** " 🔵 **Live SEO Audit Concurrency Issue Causing False Positives**
+Investigation into Cloudflare issues revealed a concurrency bug in the live SEO audit script. The default concurrency of 8 parallel requests causes some fetches to fail or timeout, returning HTTP 0 status and generating false positive errors about missing pages. When the supposedly missing French article was tested manually, it consistently returned HTTP 200. Lowering concurrency to 2 allowed the audit to complete successfully without any errors, proving the pages exist and the issue is request throttling or timeout behavior under high concurrent load. The 20-second per-request timeout with AbortController implementation may not be sufficient when many requests are in flight simultaneously.
+~375t 🔍 16,911
 
-**5561** 10:27a ✅ **Danish Article Localization Batch 2/8 Completed**
-Completed second batch of systematic Danish article localization validation, checking five articles against their English translationKey sources for structural parity, factual accuracy, and product claim compliance. Three files received content corrections: vigtigt-strikketilbehoer.md removed an out-of-scope "haptisk feedback" feature claim and reverted app counter description to match prelaunch English source state; gratis-strikkeberegnere.md corrected a yarn yardage example that would have incorrectly claimed "220 m pr. 100 g" when the English source stated "220 yards per 100 g" (approximately 200 meters); maal-strikkefasthed.md fixed yarn calculator description to accurately reflect the tool's actual inputs (project type, size, yarn weight) rather than incorrectly stating it accepts user gauge input. Two files (saml-tabt-maske-op.md and hvad-er-strikkefasthed.md) were verified against English sources and dropped-stitch/gauge references but required no corrections as content already matched source facts. All verification steps passed including formatting, whitespace checks, risk pattern searches for unsupported product claims and AI filler phrases, Astro type checking, full build with 411 pages, and link validation confirming 100 Danish internal links with 24 unique targets and zero missing build artifacts. Structure parity maintained across all files with H2/H3/FAQ counts matching English sources. Progress tracking updated in monikielinen-lokalisointi-eteneminen.md documenting batch 2 completion (10/38 DA articles complete) with next continuation point at batch 3/8 starting with naar-strikkefastheden-ikke-passer.md.
-~761t 🛠️ 149,764
+**5602** 3:23p 🔵 **Cloudflare Pages Deployment Healthy Despite SEO Audit False Positives**
+After investigating reported "Cloudflare issues," confirmed the Cloudflare Pages infrastructure is functioning normally. The knittoolsapp project is properly deployed with the latest production deployment from 5 days ago. All domain configurations are correct: the main pages.dev domain and custom knittoolsapp.com domain both serve HTTP 200, while www subdomain correctly redirects with HTTP 301. The wrangler CLI authenticated successfully and retrieved full deployment history. The earlier SEO audit errors reporting HTTP 0 for the French article page were false positives caused by the audit script's high concurrency setting (8 parallel requests) overwhelming timeout handling, not actual Cloudflare infrastructure problems. Reducing concurrency to 2 eliminated all errors while still completing in reasonable time (75 seconds for 410 pages).
+~417t 🔍 13,801
 
 
-Access 1622k tokens of past work via get_observations([IDs]) or mem-search skill.
+Access 1676k tokens of past work via get_observations([IDs]) or mem-search skill.
 </claude-mem-context>

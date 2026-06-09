@@ -13,7 +13,7 @@ import {
   existsSync,
 } from "node:fs";
 import { join, dirname } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(__dirname, "..");
@@ -29,7 +29,6 @@ const BACKSLASH = String.fromCodePoint(92);
 const DOUBLE_QUOTE = '"';
 const ESCAPED_BACKSLASH = BACKSLASH.repeat(2);
 const ESCAPED_DOUBLE_QUOTE = `${BACKSLASH}${DOUBLE_QUOTE}`;
-const CATEGORY_HEADER_PATTERN = /^([A-Za-z& ]+?)(?:\s*\(\d+\))?$/;
 const CATEGORY_ITEM_PATTERN = /^[-*]\s+(\d{2})\s+[—\-–]/;
 const ARTICLE_FILENAME_PATTERN = /^(\d{2})-(.+)\.md$/;
 
@@ -40,6 +39,30 @@ const CATEGORY_NAME_TO_SLUG = {
   Techniques: "techniques",
   "App & Tools": "app-tools",
 };
+
+function isAsciiDigitString(value) {
+  if (!value) return false;
+  for (const character of value) {
+    if (character < "0" || character > "9") return false;
+  }
+  return true;
+}
+
+export function parseCategoryHeader(rawLine) {
+  const line = rawLine.trim();
+  const exactCategory = CATEGORY_NAME_TO_SLUG[line];
+  if (exactCategory) return exactCategory;
+
+  if (!line.endsWith(")")) return null;
+  const countStart = line.lastIndexOf(" (");
+  if (countStart === -1) return null;
+
+  const name = line.slice(0, countStart);
+  const count = line.slice(countStart + 2, -1);
+  if (!isAsciiDigitString(count)) return null;
+
+  return CATEGORY_NAME_TO_SLUG[name] ?? null;
+}
 
 function parseArgs(argv) {
   const args = { dryRun: false, single: null };
@@ -63,13 +86,10 @@ function buildCategoryMap() {
     if (!line) continue;
 
     // Header detection: "Gauge & Calculations (6)" or just "Gauge & Calculations"
-    const headerMatch = CATEGORY_HEADER_PATTERN.exec(line);
-    if (headerMatch) {
-      const name = headerMatch[1].trim();
-      if (CATEGORY_NAME_TO_SLUG[name]) {
-        currentCategory = CATEGORY_NAME_TO_SLUG[name];
-        continue;
-      }
+    const categorySlug = parseCategoryHeader(line);
+    if (categorySlug) {
+      currentCategory = categorySlug;
+      continue;
     }
 
     // Article line: "- 05 — how much yarn do I need"
@@ -343,4 +363,9 @@ function main() {
   printSummary(args, targets, processTargets(targets, categoryMap, args));
 }
 
-main();
+if (
+  process.argv[1] &&
+  import.meta.url === pathToFileURL(process.argv[1]).href
+) {
+  main();
+}

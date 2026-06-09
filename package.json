@@ -10,7 +10,7 @@
     "format": "prettier --write \"src/**/*.{astro,js,ts,css,md}\" \"scripts/**/*.{js,mjs}\" \"*.{js,mjs,json}\"",
     "format:check": "prettier --check \"src/**/*.{astro,js,ts,css,md}\" \"scripts/**/*.{js,mjs}\" \"*.{js,mjs,json}\"",
     "build": "astro build",
-    "test:articles": "node --test scripts/article-system.test.mjs",
+    "test:articles": "node --test scripts/article-system.test.mjs scripts/migrate-articles.test.mjs",
     "test:design": "node --test scripts/design-token-hygiene.test.mjs scripts/page-heading-style.test.mjs",
     "test:seo": "node --test scripts/seo-audit.test.mjs scripts/live-seo-audit.test.mjs scripts/url-parity-audit.test.mjs scripts/seo-release-gate.test.mjs",
     "test:security": "node --test scripts/security-headers.test.mjs",
