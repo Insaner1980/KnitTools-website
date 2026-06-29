@@ -16,14 +16,27 @@ const joinHref = lang === "en" ? "/#join" : `${toolsIndexHref}#join`;
 const articlesHref = getArticlesIndexPath(lang);
 ---
 
-<header class="nav-editorial" data-nav>
+<header class="nav-editorial" data-nav data-menu-open="false">
   <a href={homeHref} class="brand-mark" aria-label={t("navHome")}>KnitTools</a>
-  <nav class="nav-links">
+  <button
+    class="nav-menu-toggle"
+    type="button"
+    aria-label={t("navMenu")}
+    aria-expanded="false"
+    aria-controls="primary-navigation"
+    data-nav-toggle
+    data-open-label={t("navMenu")}
+    data-close-label={t("navClose")}
+  >
+    <span class="menu-line" aria-hidden="true"></span>
+    <span class="menu-line" aria-hidden="true"></span>
+    <span class="menu-line" aria-hidden="true"></span>
+  </button>
+  <nav class="nav-links" id="primary-navigation" data-nav-links>
     <a href={toolsIndexHref}>{t("navTools")}</a>
     <a href={articlesHref}>{t("navArticles")}</a>
-    <a href={joinHref} class="waitlist" aria-label={t("navJoin")}>
-      <span class="label-full">{t("navJoin")}</span>
-      <span class="label-short" aria-hidden="true">{t("navJoinShort")}</span>
+    <a href={joinHref} class="waitlist" aria-label={t("notifyAtLaunch")}>
+      <span>{t("notifyAtLaunch")}</span>
     </a>
   </nav>
 </header>
@@ -32,10 +45,55 @@ const articlesHref = getArticlesIndexPath(lang);
   (() => {
     const nav = document.querySelector("[data-nav]");
     if (!nav) return;
+    const toggle = nav.querySelector("[data-nav-toggle]");
+    const links = nav.querySelector("[data-nav-links]");
+    const desktopQuery = window.matchMedia("(min-width: 641px)");
+
+    const setMenuOpen = (open, options = {}) => {
+      nav.dataset.menuOpen = open ? "true" : "false";
+      nav.classList.toggle("menu-open", open);
+      if (toggle) {
+        toggle.setAttribute("aria-expanded", String(open));
+        const label = open
+          ? toggle.dataset.closeLabel
+          : toggle.dataset.openLabel;
+        if (label) toggle.setAttribute("aria-label", label);
+      }
+      if (options.restoreFocus && toggle instanceof HTMLElement) {
+        toggle.focus();
+      }
+    };
+
     const onScroll = () => {
       if (window.scrollY > 80) nav.classList.add("scrolled");
       else nav.classList.remove("scrolled");
     };
+
+    toggle?.addEventListener("click", () => {
+      setMenuOpen(nav.dataset.menuOpen !== "true");
+    });
+
+    links?.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => setMenuOpen(false));
+    });
+
+    document.addEventListener("click", (event) => {
+      if (nav.dataset.menuOpen !== "true") return;
+      if (event.target instanceof Node && !nav.contains(event.target)) {
+        setMenuOpen(false);
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && nav.dataset.menuOpen === "true") {
+        setMenuOpen(false, { restoreFocus: true });
+      }
+    });
+
+    desktopQuery.addEventListener("change", () => {
+      if (desktopQuery.matches) setMenuOpen(false);
+    });
+
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
   })();
@@ -113,8 +171,18 @@ const articlesHref = getArticlesIndexPath(lang);
     border-color: var(--ink);
   }
 
-  .label-short {
+  .nav-menu-toggle {
     display: none;
+  }
+
+  .menu-line {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    transition:
+      opacity 0.16s ease,
+      transform 0.16s ease;
   }
 
   @media (max-width: 640px) {
@@ -125,21 +193,70 @@ const articlesHref = getArticlesIndexPath(lang);
     .brand-mark {
       font-size: 22px;
     }
+    .nav-menu-toggle {
+      display: inline-flex;
+      width: 44px;
+      height: 44px;
+      flex: 0 0 auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      padding: 0;
+      border: 1.5px solid var(--ink);
+      border-radius: 0;
+      background: transparent;
+      color: var(--ink);
+      cursor: pointer;
+    }
+    .nav-menu-toggle:hover {
+      background: var(--ink);
+      color: var(--paper);
+    }
+    .nav-menu-toggle:focus-visible {
+      outline: 2px solid var(--terracotta);
+      outline-offset: 3px;
+    }
+    .nav-editorial[data-menu-open="true"] {
+      background: var(--paper);
+      border-bottom-color: var(--ink);
+    }
+    .nav-editorial[data-menu-open="true"] .menu-line:first-child {
+      transform: translateY(6px) rotate(45deg);
+    }
+    .nav-editorial[data-menu-open="true"] .menu-line:nth-child(2) {
+      opacity: 0;
+    }
+    .nav-editorial[data-menu-open="true"] .menu-line:last-child {
+      transform: translateY(-6px) rotate(-45deg);
+    }
     .nav-links {
-      gap: 14px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      display: none;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+      padding: 8px 20px 18px;
+      background: var(--paper);
+      border-bottom: 1px solid var(--ink);
+    }
+    .nav-editorial[data-menu-open="true"] .nav-links {
+      display: flex;
     }
     .nav-links a {
       font-size: 12px;
       letter-spacing: 0.12em;
+      width: 100%;
+      padding: 15px 0;
+      border-top: 1px solid var(--paper-2);
     }
     .nav-links a.waitlist {
-      padding: 6px 12px;
-    }
-    .label-full {
-      display: none;
-    }
-    .label-short {
-      display: inline;
+      margin-top: 10px;
+      padding: 12px 16px;
+      text-align: center;
     }
   }
 
@@ -151,15 +268,19 @@ const articlesHref = getArticlesIndexPath(lang);
     .brand-mark {
       font-size: 20px;
     }
+    .nav-menu-toggle {
+      width: 42px;
+      height: 42px;
+    }
     .nav-links {
-      gap: 10px;
+      padding: 6px 16px 16px;
     }
     .nav-links a {
-      font-size: 11px;
-      letter-spacing: 0.08em;
+      font-size: 12px;
+      letter-spacing: 0.1em;
     }
     .nav-links a.waitlist {
-      padding: 5px 10px;
+      padding: 12px 14px;
     }
   }
 </style>
