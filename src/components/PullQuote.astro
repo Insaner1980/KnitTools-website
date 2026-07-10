@@ -4,15 +4,30 @@ export interface Props {
   attribution?: string;
 }
 const { quote } = Astro.props;
+const words = quote.split(" ");
 ---
 
-<aside class="pull-quote" aria-label="Pull quote" data-reveal>
+<aside class="pull-quote" aria-label="Pull quote" data-pull-quote>
   <div class="inner">
-    <div class="rule-top" aria-hidden="true"></div>
+    <div class="rule-top" aria-hidden="true" data-pq-rule></div>
     <blockquote>
-      <p>{quote}</p>
+      <p class="pq-visual" aria-hidden="true">
+        <span class="pq-mark" data-pq-mark>&#8220;</span>{
+          words.map((word, index) => (
+            <Fragment>
+              <span class="pq-word">
+                <span class="pq-word-inner" data-pq-word>
+                  {word}
+                </span>
+              </span>
+              {index < words.length - 1 ? " " : ""}
+            </Fragment>
+          ))
+        }<span class="pq-mark" data-pq-mark>&#8221;</span>
+      </p>
+      <p class="visually-hidden">{quote}</p>
     </blockquote>
-    <div class="rule-bottom" aria-hidden="true"></div>
+    <div class="rule-bottom" aria-hidden="true" data-pq-rule></div>
   </div>
 </aside>
 
@@ -38,7 +53,7 @@ const { quote } = Astro.props;
     margin: 28px 0;
     padding: 0;
   }
-  blockquote p {
+  blockquote p.pq-visual {
     font-family: var(--serif);
     font-size: clamp(1.75rem, 3.5vw, 2.75rem);
     line-height: 1.15;
@@ -46,16 +61,57 @@ const { quote } = Astro.props;
     margin: 0;
     letter-spacing: 0;
   }
-  blockquote p::before {
-    content: "\201C";
+  .pq-mark {
     color: var(--terracotta);
+    display: inline-block;
+  }
+  .pq-mark:first-child {
     margin-right: 0.1em;
   }
-  blockquote p::after {
-    content: "\201D";
-    color: var(--terracotta);
+  .pq-mark:last-child {
     margin-left: 0.05em;
   }
+  .pq-word {
+    display: inline-block;
+  }
+  .pq-word-inner {
+    display: inline-block;
+  }
+
+  /* Initial states only when JS reveal animations are active. */
+  :global(html.reveal-animations) .pq-word-inner {
+    opacity: 0;
+    transform: translateY(0.5em);
+    will-change: opacity, transform;
+  }
+  :global(html.reveal-animations) .pq-mark {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  :global(html.reveal-animations) [data-pq-rule] {
+    transform: scaleX(0);
+  }
+  :global(html.reveal-animations) .pull-quote.is-revealed .pq-word-inner,
+  :global(html.reveal-animations) .pull-quote.is-revealed .pq-mark {
+    opacity: 1;
+    transform: none;
+    will-change: auto;
+  }
+  :global(html.reveal-animations) .pull-quote.is-revealed [data-pq-rule] {
+    transform: scaleX(1);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    :global(html.reveal-animations) .pq-word-inner,
+    :global(html.reveal-animations) .pq-mark {
+      opacity: 1;
+      transform: none;
+      will-change: auto;
+    }
+    :global(html.reveal-animations) [data-pq-rule] {
+      transform: scaleX(1);
+    }
+  }
+
   @media (max-width: 640px) {
     .pull-quote {
       padding: 48px 20px;

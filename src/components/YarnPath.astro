@@ -1,0 +1,52 @@
+---
+/**
+ * Decorative yarn thread that draws itself in as the visitor scrolls.
+ * The stroke dash setup happens in revealAnimations.ts (initYarnPaths),
+ * so without JS or with reduced motion the full thread is simply visible.
+ */
+interface Props {
+  flip?: boolean;
+}
+
+const { flip = false } = Astro.props;
+---
+
+<div class:list={["yarn-path", flip && "is-flipped"]} aria-hidden="true">
+  <svg
+    viewBox="0 0 1200 200"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="xMidYMid meet"
+  >
+    <path
+      data-yarn-path
+      d="M -20 60 C 180 20, 320 150, 480 120 C 560 105, 570 40, 640 40 C 710 40, 720 120, 650 132 C 590 142, 560 90, 620 70 C 830 20, 940 170, 1220 120"
+      stroke="var(--terracotta)"
+      stroke-width="2.5"
+      stroke-linecap="round"></path>
+  </svg>
+</div>
+
+<style>
+  .yarn-path {
+    max-width: 1160px;
+    margin: 4px auto -28px;
+    padding: 0 40px;
+    pointer-events: none;
+  }
+  .yarn-path svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.85;
+  }
+  .yarn-path.is-flipped svg {
+    transform: scaleX(-1);
+  }
+  @media (max-width: 640px) {
+    .yarn-path {
+      margin: -20px auto -16px;
+      padding: 0 20px;
+    }
+  }
+</style>

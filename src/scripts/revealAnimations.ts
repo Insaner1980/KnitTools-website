@@ -49,6 +49,8 @@ const revealAll = (elements: HTMLElement[]) => {
 
 const markRevealed = (element: HTMLElement) => {
   element.classList.add(REVEALED_CLASS);
+  // Clear inline GSAP styles so CSS hover transforms can take over.
+  gsap.set(element, { clearProps: "opacity,transform,clipPath" });
 };
 
 const getFadeFromVars = (element: HTMLElement) => {
@@ -96,6 +98,39 @@ const initFadeReveal = (element: HTMLElement) => {
   });
 };
 
+const initGroupReveals = () => {
+  const grouped = new Set<HTMLElement>();
+
+  gsap.utils.toArray<HTMLElement>("[data-reveal-group]").forEach((group) => {
+    const members = gsap.utils
+      .toArray<HTMLElement>("[data-reveal]", group)
+      .filter((element) => element.dataset.reveal !== "clip");
+    if (members.length < 2) return;
+
+    members.forEach((member) => grouped.add(member));
+
+    // Initial hidden state comes from the html.reveal-animations CSS,
+    // so a single staggered tween per group is enough.
+    gsap.to(members, {
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      duration: 0.55,
+      ease: "power3.out",
+      stagger: 0.08,
+      overwrite: "auto",
+      onComplete: () => members.forEach(markRevealed),
+      scrollTrigger: {
+        trigger: group,
+        start: "top 85%",
+        once: true,
+      },
+    });
+  });
+
+  return grouped;
+};
+
 const initScrollReveal = () => {
   prepareContentReveal();
 
@@ -107,7 +142,11 @@ const initScrollReveal = () => {
     return;
   }
 
+  const grouped = initGroupReveals();
+
   elements.forEach((element) => {
+    if (grouped.has(element)) return;
+
     if (element.dataset.reveal === "clip") {
       initClipReveal(element);
       return;
@@ -117,6 +156,85 @@ const initScrollReveal = () => {
   });
 
   ScrollTrigger.refresh();
+};
+
+const initYarnPaths = () => {
+  const paths = gsap.utils.toArray<SVGPathElement>("[data-yarn-path]");
+  if (paths.length === 0) return;
+
+  // With reduced motion (or without JS) the full thread stays visible.
+  if (window.matchMedia(REDUCED_MOTION_QUERY).matches) return;
+
+  paths.forEach((path) => {
+    const length = path.getTotalLength();
+    gsap.set(path, { strokeDasharray: length, strokeDashoffset: length });
+    gsap.to(path, {
+      strokeDashoffset: 0,
+      ease: "none",
+      scrollTrigger: {
+        trigger: path.closest(".yarn-path") ?? path,
+        start: "top 92%",
+        end: "bottom 50%",
+        scrub: 0.6,
+      },
+    });
+  });
+};
+
+const initPullQuotes = () => {
+  const reduceMotion = window.matchMedia(REDUCED_MOTION_QUERY).matches;
+
+  gsap.utils.toArray<HTMLElement>("[data-pull-quote]").forEach((quoteEl) => {
+    const words = gsap.utils.toArray<HTMLElement>("[data-pq-word]", quoteEl);
+    const marks = gsap.utils.toArray<HTMLElement>("[data-pq-mark]", quoteEl);
+    const rules = gsap.utils.toArray<HTMLElement>("[data-pq-rule]", quoteEl);
+    if (words.length === 0) return;
+
+    const finish = () => quoteEl.classList.add(REVEALED_CLASS);
+
+    if (reduceMotion) {
+      gsap.set([...words, ...marks], { opacity: 1, y: 0, scale: 1 });
+      gsap.set(rules, { scaleX: 1 });
+      finish();
+      return;
+    }
+
+    const timeline = gsap.timeline({
+      scrollTrigger: {
+        trigger: quoteEl,
+        start: "top 78%",
+        once: true,
+      },
+      onComplete: finish,
+    });
+
+    timeline.to(rules, { scaleX: 1, duration: 0.5, ease: "power2.out" }, 0);
+    if (marks[0]) {
+      timeline.to(
+        marks[0],
+        { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" },
+        0.05,
+      );
+    }
+    timeline.to(
+      words,
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.45,
+        ease: "power3.out",
+        stagger: 0.05,
+      },
+      0.12,
+    );
+    if (marks[1]) {
+      timeline.to(
+        marks[1],
+        { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" },
+        ">-0.2",
+      );
+    }
+  });
 };
 
 const resetAnimatedBody = (body: HTMLElement) => {
@@ -190,5 +308,8 @@ const initAnimatedDetails = () => {
 
 export const initRevealAnimations = () => {
   initScrollReveal();
+  initYarnPaths();
+  initPullQuotes();
   initAnimatedDetails();
+  ScrollTrigger.refresh();
 };

@@ -129,6 +129,10 @@
   --closing-cta-heading-margin: 0 0 48px;
   --closing-cta-heading-em-size: 1.3em;
   --closing-cta-heading-em-margin-top: 6px;
+
+  /* Hover lift shadows shared by landing cards and pills. */
+  --lift-shadow: 6px 6px 0 rgba(42, 30, 23, 0.22);
+  --lift-shadow-sm: 3px 3px 0 rgba(42, 30, 23, 0.25);
 }
 
 /* --- Reset & Global --- */
@@ -449,10 +453,86 @@ p {
   *::before,
   *::after {
     animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
     transition-duration: 0.01ms !important;
   }
   html {
     scroll-behavior: auto;
+  }
+}
+
+/* --- Cross-document view transitions (progressive enhancement) ---
+   Supported browsers get a soft crossfade between pages; others fall
+   back to normal navigation. No JS router involved. */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.22s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+}
+
+/* --- Waitlist success feedback (shared by all signup forms) --- */
+
+.signup-success {
+  animation: success-pop 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.signup-success .success-check {
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: -0.18em;
+  margin-right: 0.35em;
+}
+
+.signup-success .success-check circle {
+  stroke: currentColor;
+  stroke-width: 1.6;
+  fill: none;
+  stroke-dasharray: 57;
+  stroke-dashoffset: 57;
+  animation: success-check-circle 0.45s ease-out forwards;
+}
+
+.signup-success .success-check path {
+  stroke: currentColor;
+  stroke-width: 2;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 14;
+  stroke-dashoffset: 14;
+  animation: success-check-mark 0.3s ease-out 0.3s forwards;
+}
+
+@keyframes success-pop {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes success-check-circle {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes success-check-mark {
+  to {
+    stroke-dashoffset: 0;
   }
 }
 

@@ -72,6 +72,15 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
           aria-hidden="true"
           hidden
         >
+          <svg
+            class="success-check"
+            viewBox="0 0 20 20"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <circle cx="10" cy="10" r="9"></circle>
+            <path d="M6 10.2 9 13 14.4 7.4"></path>
+          </svg>
           You're in. We'll email you at launch.
         </p>
         <p
@@ -285,6 +294,54 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+  }
+
+  /* --- Entrance choreography ---
+     Runs only when JS has added html.reveal-animations, so content is
+     always visible without JS. Transform/opacity only; no layout shift. */
+  :global(html.reveal-animations) .eyebrow,
+  :global(html.reveal-animations) .wordmark-line,
+  :global(html.reveal-animations) .tagline,
+  :global(html.reveal-animations) .signup-card {
+    animation: hero-rise 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  :global(html.reveal-animations) .eyebrow {
+    animation-delay: 0.02s;
+  }
+  :global(html.reveal-animations) .wordmark-line {
+    animation-duration: 0.75s;
+    animation-delay: 0.1s;
+  }
+  :global(html.reveal-animations) .wordmark-line + .wordmark-line {
+    animation-delay: 0.22s;
+  }
+  :global(html.reveal-animations) .tagline {
+    animation-delay: 0.38s;
+  }
+  :global(html.reveal-animations) .signup-card {
+    animation-name: hero-rise-card;
+    animation-delay: 0.5s;
+  }
+
+  @keyframes hero-rise {
+    from {
+      opacity: 0;
+      transform: translateY(26px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes hero-rise-card {
+    from {
+      opacity: 0;
+      transform: translateY(26px) scale(0.985);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
   }
 
   @media (max-width: 900px) {

@@ -24,7 +24,7 @@ const tools = [
       Use them right here, no install.
     </h2>
 
-    <ul class="pills">
+    <ul class="pills" data-reveal-group>
       {
         tools.map((t) => (
           <li data-reveal>
@@ -99,6 +99,18 @@ const tools = [
   }
   .pill:hover {
     filter: brightness(0.88);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .pill {
+      transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease,
+        filter 0.15s ease;
+    }
+    .pill:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--lift-shadow-sm);
+    }
   }
   .fill-terracotta {
     background: var(--terracotta);

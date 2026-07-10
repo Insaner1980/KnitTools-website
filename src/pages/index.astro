@@ -9,6 +9,7 @@ import TrustSection from "../components/TrustSection.astro";
 import PricingCards from "../components/PricingCards.astro";
 import ClosingCTA from "../components/ClosingCTA.astro";
 import HomeFaq from "../components/HomeFaq.astro";
+import YarnPath from "../components/YarnPath.astro";
 import { getStructuredOffers } from "../config/pricing";
 import {
   CONTACT_MAILTO,
@@ -75,9 +76,11 @@ const jsonLd = {
 
   <Hero />
   <Marquee />
+  <YarnPath />
   <NineTools />
   <FreeToolsCallout />
   <TrustSection />
+  <YarnPath flip />
   <PullQuote
     quote="One tool for every row. One price for every needle. One app for every project."
   />
