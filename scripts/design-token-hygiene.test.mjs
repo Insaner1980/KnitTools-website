@@ -719,5 +719,55 @@ describe("performance hygiene", () => {
       assert.match(source, /enableRevealAnimations/, path);
       assert.match(source, /data-animate-details/, path);
     }
+
+    const abbreviationPage = read(
+      "src/pages/tools/knitting-abbreviations.astro",
+    );
+    assert.match(
+      abbreviationPage,
+      /searchInput\?\.addEventListener\("input", applyFilters\)/,
+    );
+    assert.match(
+      abbreviationPage,
+      /button\.addEventListener\("click", \(\) => \{[\s\S]*applyFilters\(\)/,
+    );
+
+    const responsiveTableControls = read(
+      "src/scripts/responsiveTableControls.ts",
+    );
+    assert.match(responsiveTableControls, /data-mobile-table="cards"/);
+    assert.match(responsiveTableControls, /cell\.dataset\.mobileLabel = label/);
+
+    const sizeChartControls = read("src/scripts/sizeChartControls.ts");
+    assert.match(sizeChartControls, /root\.dataset\.mobileSizeLabel/);
+    assert.match(sizeChartControls, /selectSizeColumn\(table, 1\)/);
+
+    const responsiveTablePages = [
+      "src/pages/tools/needle-size-chart.astro",
+      "src/pages/fi/tyokalut/puikkokoot.astro",
+      "src/pages/sv/verktyg/stickstorlekar.astro",
+      "src/pages/no/verktoy/pinnestorrelser.astro",
+      "src/pages/fr/outils/tailles-aiguilles.astro",
+      "src/pages/de/werkzeuge/nadelstaerken-tabelle.astro",
+      "src/components/dutch-tools/DutchNeedleSizeChartPage.astro",
+      "src/components/danish-tools/DanishNeedleSizeChartPage.astro",
+    ];
+    for (const path of responsiveTablePages) {
+      assert.match(read(path), /data-mobile-table="cards"/, path);
+    }
+
+    const mobileSizeChartPages = [
+      "src/pages/tools/knitting-size-charts.astro",
+      "src/pages/fi/tyokalut/neulekokotaulukot.astro",
+      "src/pages/sv/verktyg/storlekstabeller-stickning.astro",
+      "src/pages/no/verktoy/storrelsestabeller-strikking.astro",
+      "src/pages/fr/outils/tableaux-tailles-tricot.astro",
+      "src/pages/de/werkzeuge/groessentabellen-stricken.astro",
+      "src/components/dutch-tools/DutchKnittingSizeChartsPage.astro",
+      "src/components/danish-tools/DanishKnittingSizeChartsPage.astro",
+    ];
+    for (const path of mobileSizeChartPages) {
+      assert.match(read(path), /data-mobile-size-label=/, path);
+    }
   });
 });

@@ -80,6 +80,7 @@ const faqs = [
   schemaDescription="Vergleicht Stricknadelgrößen zwischen metrischen, US-, UK- und japanischen Systemen."
   faqs={faqs}
   variant="teal"
+  enableResponsiveTableControls
 >
   <div slot="tool">
     <div class="table-wrapper">
@@ -92,7 +93,7 @@ const faqs = [
         autocomplete="off"
       />
       <div class="table-scroll">
-        <table class="needle-table" id="needle-table">
+        <table class="needle-table" id="needle-table" data-mobile-table="cards">
           <thead>
             <tr>
               <th>Millimeter</th>

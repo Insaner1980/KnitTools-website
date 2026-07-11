@@ -38,6 +38,7 @@ const faqs = [
   schemaDescription="Convertit les tailles d'aiguilles entre les systèmes US, UK, métrique et japonais."
   faqs={faqs}
   variant="teal"
+  enableResponsiveTableControls
 >
   <div slot="tool">
     <div class="table-wrapper">
@@ -50,7 +51,7 @@ const faqs = [
         autocomplete="off"
       />
       <div class="table-scroll">
-        <table class="needle-table" id="needle-table">
+        <table class="needle-table" id="needle-table" data-mobile-table="cards">
           <thead>
             <tr>
               <th>Millimètres</th>

@@ -647,6 +647,132 @@ p {
   }
 }
 
+/* Responsive reference tables keep their semantic table markup while
+   adapting the visual presentation for narrow touch screens. */
+.mobile-size-picker {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  [data-size-chart] .chart-controls {
+    min-width: 0;
+  }
+
+  [data-size-chart] .tab-scroller {
+    flex: 0 1 100% !important;
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .mobile-size-picker {
+    display: grid;
+    gap: 8px;
+    margin: 0 0 18px;
+  }
+
+  .mobile-size-picker-label {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+  }
+
+  .mobile-size-select {
+    width: 100%;
+    min-height: 48px;
+    padding: 10px 40px 10px 12px;
+    font: 500 16px/1.4 var(--body-ed);
+    color: var(--ink);
+    background: var(--paper-2);
+    border: 1.5px solid var(--ink);
+    border-radius: 0;
+  }
+
+  .mobile-size-select:focus-visible {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
+  }
+
+  [data-size-chart] .size-table {
+    min-width: 0 !important;
+    table-layout: fixed;
+  }
+
+  [data-size-chart] .size-table .mobile-size-hidden {
+    display: none;
+  }
+
+  [data-size-chart] .size-table :is(th, td):first-child {
+    width: 62%;
+    white-space: normal;
+  }
+
+  [data-size-chart] .size-table :is(th, td):not(:first-child) {
+    width: 38%;
+    white-space: normal;
+  }
+
+  table[data-mobile-table="cards"].is-mobile-card-ready,
+  table[data-mobile-table="cards"].is-mobile-card-ready tbody {
+    display: block;
+    width: 100%;
+  }
+
+  table[data-mobile-table="cards"].is-mobile-card-ready thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  table[data-mobile-table="cards"].is-mobile-card-ready tbody {
+    display: grid;
+    gap: 12px;
+  }
+
+  table[data-mobile-table="cards"].is-mobile-card-ready tbody tr {
+    display: grid;
+    gap: 0;
+    padding: 8px 14px;
+    border: 1px solid color-mix(in srgb, var(--ink) 18%, transparent);
+    background: color-mix(in srgb, var(--paper) 92%, var(--ink) 8%);
+  }
+
+  table[data-mobile-table="cards"].is-mobile-card-ready tbody td {
+    position: static;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 16px;
+    align-items: baseline;
+    padding: 8px 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+    background: transparent;
+    text-align: right;
+  }
+
+  table[data-mobile-table="cards"].is-mobile-card-ready tbody td:last-child {
+    border-bottom: 0;
+  }
+
+  table[data-mobile-table="cards"].is-mobile-card-ready tbody td::before {
+    content: attr(data-mobile-label);
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    line-height: 1.35;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    text-align: left;
+  }
+}
+
 /* ============================================================
    Lightweight reveal motion
    ============================================================ */

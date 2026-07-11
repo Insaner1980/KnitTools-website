@@ -540,6 +540,58 @@ const faqs = [
   </section>
 </PageLayout>
 
+<script>
+  const searchInput = document.getElementById(
+    "abbr-search",
+  ) as HTMLInputElement | null;
+  const list = document.getElementById("abbr-list");
+  const noResults = document.getElementById("no-results");
+  const categoryButtons =
+    document.querySelectorAll<HTMLButtonElement>(".cat-btn");
+
+  let activeCategory = "all";
+
+  const applyFilters = () => {
+    if (!list || !noResults) return;
+
+    const query = searchInput?.value.trim().toLowerCase() ?? "";
+    let visibleCount = 0;
+
+    list.querySelectorAll<HTMLElement>(".abbr-row").forEach((row) => {
+      const categories = (row.dataset.cats ?? "").split(" ");
+      const matchesCategory =
+        activeCategory === "all" || categories.includes(activeCategory);
+      const matchesSearch =
+        !query ||
+        (row.dataset.abbr ?? "").includes(query) ||
+        (row.dataset.def ?? "").includes(query) ||
+        (row.dataset.catlabels ?? "").includes(query);
+      const isVisible = matchesCategory && matchesSearch;
+
+      row.style.display = isVisible ? "" : "none";
+      if (isVisible) visibleCount += 1;
+    });
+
+    noResults.hidden = visibleCount > 0;
+  };
+
+  searchInput?.addEventListener("input", applyFilters);
+
+  categoryButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeCategory = button.dataset.cat ?? "all";
+
+      categoryButtons.forEach((candidate) => {
+        const isActive = candidate === button;
+        candidate.classList.toggle("is-active", isActive);
+        candidate.setAttribute("aria-pressed", String(isActive));
+      });
+
+      applyFilters();
+    });
+  });
+</script>
+
 <style>
   /* ---- Shared section rhythm (v11 editorial) ---- */
   .tool-hero,

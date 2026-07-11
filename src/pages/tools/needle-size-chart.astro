@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
+import ResponsiveTableControls from "../../components/ResponsiveTableControls.astro";
 import { PRICING } from "../../config/pricing";
 import RegionalPrice from "../../components/RegionalPrice.astro";
 import RegionalPricingNote from "../../components/RegionalPricingNote.astro";
@@ -71,7 +72,11 @@ const faqItems = [
             autocomplete="off"
           />
           <div class="table-scroll">
-            <table class="needle-table" id="needle-table">
+            <table
+              class="needle-table"
+              id="needle-table"
+              data-mobile-table="cards"
+            >
               <thead>
                 <tr>
                   <th>Metric (mm)</th>
@@ -323,6 +328,7 @@ const faqItems = [
       </form>
     </div>
   </section>
+  <ResponsiveTableControls />
 </PageLayout>
 
 <style>

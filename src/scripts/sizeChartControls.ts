@@ -50,6 +50,57 @@ function activateUnit(root: HTMLElement, unit: string, focus = false) {
   chartWrap.classList.toggle("show-inch", unit === "inch");
 }
 
+function selectSizeColumn(table: HTMLTableElement, selectedIndex: number) {
+  table.querySelectorAll<HTMLTableRowElement>("tr").forEach((row) => {
+    [...row.cells].forEach((cell, index) => {
+      cell.classList.toggle(
+        "mobile-size-hidden",
+        index !== 0 && index !== selectedIndex,
+      );
+    });
+  });
+}
+
+function initMobileSizePickers(root: HTMLElement) {
+  const labelText = root.dataset.mobileSizeLabel;
+  if (!labelText) return;
+
+  root.querySelectorAll<HTMLTableElement>(".size-table").forEach((table, i) => {
+    const tableScroll = table.closest<HTMLElement>(".table-scroll");
+    const headers = [
+      ...table.querySelectorAll<HTMLTableCellElement>("thead th"),
+    ].slice(1);
+    if (!tableScroll || headers.length < 2) return;
+
+    const picker = document.createElement("label");
+    picker.className = "mobile-size-picker";
+
+    const label = document.createElement("span");
+    label.className = "mobile-size-picker-label";
+    label.textContent = labelText;
+
+    const select = document.createElement("select");
+    select.className = "mobile-size-select";
+    select.setAttribute("aria-label", labelText);
+
+    headers.forEach((header, index) => {
+      const option = document.createElement("option");
+      option.value = String(index + 1);
+      option.textContent = header.textContent?.trim() ?? "";
+      select.append(option);
+    });
+
+    select.addEventListener("change", () => {
+      selectSizeColumn(table, Number(select.value));
+    });
+
+    picker.append(label, select);
+    tableScroll.before(picker);
+    selectSizeColumn(table, 1);
+    table.dataset.mobileSizePicker = String(i);
+  });
+}
+
 function initSizeChart(root: HTMLElement) {
   if (root.dataset.sizeChartInitialized === "true") return;
   root.dataset.sizeChartInitialized = "true";
@@ -58,6 +109,8 @@ function initSizeChart(root: HTMLElement) {
   const unitButtons = [
     ...root.querySelectorAll<HTMLButtonElement>(".unit-btn"),
   ];
+
+  initMobileSizePickers(root);
 
   tabs.forEach((tab) => {
     tab.addEventListener("click", () => {

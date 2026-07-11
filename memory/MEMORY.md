@@ -335,3 +335,8 @@
 - `package.json` sisältää nyt `test:seo`, `seo:audit`, `seo:live`, `seo:urls`, `seo:gate`, `verify:seo` ja `verify:release` -skriptit. `verify:release` ajaa Astro checkin, ESLintin, Prettier-tarkistuksen, SEO-testit, buildin ja release-gate-auditit.
 - `reports/` on edelleen gitignoressa: paikallisia SEO-, URL-pariteetti-, live-audit- ja release-gate-raportteja ei commitoida.
 - Tuotantodeploy tehdään Cloudflare Pages Direct Uploadilla paikallisesta `dist/`-buildistä: `npx wrangler pages deploy ./dist --project-name knittoolsapp --branch main`. Koska GitHub-push ei julkaise tätä projektia automaattisesti, turvallinen järjestys on commit, push, local/GitHub-pariteetin tarkistus (`git rev-list --left-right --count HEAD...@{u}` = `0 0`), deploy ja vasta sen jälkeen live-audit.
+
+### 2026-07-11 - Referenssitaulukoiden mobiiliesitys
+- Desktopin puikko- ja kokotaulukot säilyvät täydellisinä taulukoina. Alle 600 px näkymässä `data-mobile-table="cards"` -puikkokokotaulukot renderöidään label–value-kortteina, jotta yksikään sarake ei jää vaakavierityksen taakse.
+- `src/scripts/responsiveTableControls.ts` johtaa puikkokorttien lokalisoidut labelit semanttisen taulukon `<th>`-otsikoista. `ResponsiveTableControls.astro` alustaa englannin sivun ja `LocalizedToolPage`-pohjan `enableResponsiveTableControls` alustaa lokalisoidut sivut.
+- `src/scripts/sizeChartControls.ts` luo kokotaulukoille lokalisoidun mobiilin koonvalitsimen `data-mobile-size-label`-attribuutista ja näyttää mobiilissa mittausnimen sekä yhden valitun kokopalstan. Koko semanttinen taulukko säilyy DOMissa ja kaikki palstat näkyvät desktopissa.

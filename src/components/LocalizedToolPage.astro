@@ -1,6 +1,7 @@
 ---
 import PageLayout from "../layouts/PageLayout.astro";
 import ClosingCTA from "./ClosingCTA.astro";
+import ResponsiveTableControls from "./ResponsiveTableControls.astro";
 import SizeChartControls from "./SizeChartControls.astro";
 import ToolStructuredData from "./ToolStructuredData.astro";
 import type { Lang } from "../i18n/config";
@@ -25,6 +26,7 @@ interface Props {
   faqs: Faq[];
   variant?: "terracotta" | "rust" | "teal" | "sand" | "brown";
   enableSizeChartControls?: boolean;
+  enableResponsiveTableControls?: boolean;
 }
 
 const {
@@ -39,6 +41,7 @@ const {
   faqs,
   variant = "terracotta",
   enableSizeChartControls = false,
+  enableResponsiveTableControls = false,
 } = Astro.props;
 
 const t = useTranslations(lang);
@@ -105,6 +108,7 @@ const toolsIndexPath = getToolsIndexPath(lang);
 
   <ClosingCTA variant="page" lang={lang} />
   {enableSizeChartControls && <SizeChartControls />}
+  {enableResponsiveTableControls && <ResponsiveTableControls />}
 </PageLayout>
 
 <style>

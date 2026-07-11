@@ -3,7 +3,7 @@ import { getArticleCategoryLinks } from "../i18n/articles";
 import { getToolLinks } from "../i18n/tools";
 import { useTranslations } from "../i18n/ui";
 import type { Lang } from "../i18n/config";
-import { CONTACT_EMAIL, CONTACT_MAILTO, FINNVEK_URL } from "../config/brand";
+import { CONTACT_MAILTO, FINNVEK_URL } from "../config/brand";
 
 interface Props {
   lang?: Lang;
@@ -74,7 +74,7 @@ const articles = getArticleCategoryLinks(lang);
       <p class="copyright">
         © MMXXVI KnitTools. <a href={FINNVEK_URL} target="_blank" rel="noopener"
           >Finnvek</a
-        >. <a href={CONTACT_MAILTO}>{CONTACT_EMAIL}</a>.
+        >. <a href={CONTACT_MAILTO}>Contact</a>.
       </p>
     </div>
   </div>
