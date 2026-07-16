@@ -19,23 +19,23 @@ const cards = [
   {
     tag: "Counter",
     tier: "free",
-    title: "Saved row counter",
-    body: "A big round button where your thumb already is. Miscount? Undo. Your row count stays with the project.",
+    title: "Saved row and round counter",
+    body: "Count rows, rounds, repeats, or anything else your pattern calls for. Miscount? Undo. Your count stays with the project.",
     chips: true,
     span: 2,
   },
   {
     tag: "Pattern",
     tier: "free",
-    title: "Pattern viewer with row notes",
-    body: "PDF or Ravelry pull-in. Annotate rows, mark your place, and return to the spot you saved.",
+    title: "Pattern viewer that keeps your place",
+    body: "Open a PDF or bring in a pattern from Ravelry. Use the reading line, mark your place, and return to the spot you saved.",
     tint: "amber",
   },
   {
     tag: "Calc",
     tier: "free",
-    title: "Four knitting calculators",
-    body: "Cast on, gauge, increases, yardage. The math your knitting already asked you to do.",
+    title: "Four calculators",
+    body: "Cast on, gauge, increases, yardage. The math your project already asked you to do.",
   },
   {
     tag: "Ravelry",
@@ -60,14 +60,14 @@ const cards = [
     tag: "Stats",
     tier: "pro",
     title: "Project stats without the pressure",
-    body: "Hours at the needles. Rows per hour. Streaks. No leaderboards, no nudges, no comparing.",
+    body: "Time spent, project pace, and streaks. No leaderboards, no nudges, no comparing.",
     tint: "sage",
   },
   {
     tag: "Widget",
     tier: "pro",
-    title: "A widget on your home screen",
-    body: "Tap to count. No app launch, no loading. The exact amount of friction a row counter should have, which is zero.",
+    title: "A counter widget on your home screen",
+    body: "Tap to count without opening the app. Your project stays close whenever you need it.",
     tint: "terracotta",
   },
 ];
@@ -83,14 +83,14 @@ const proCards = cards.filter((c) => c.tier === "pro");
         <span class="label-text">Features</span>
       </p>
       <h2 id="nine-heading" class="title">
-        Your knitting tools,<br /><em>in one project home.</em>
+        Your knitting and crochet projects,<br /><em>in one home.</em>
       </h2>
     </header>
 
     <p class="manifesto" data-reveal>
-      Keep your row counter, pattern viewer, yarn, notes, progress photos, and
-      knitting calculators together in one Android project home, so you can pick
-      up where you left off.
+      Start with knitting or crochet, then keep your counter, pattern, yarn,
+      notes, progress photos, and calculators together, so you can pick up where
+      you left off.
     </p>
 
     <div class="tier-head" aria-hidden="true" data-reveal="clip">

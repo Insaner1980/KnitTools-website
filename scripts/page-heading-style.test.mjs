@@ -82,7 +82,10 @@ test("homepage hero uses one descriptive visible h1", () => {
 
   const h1 = h1Match[0];
   assert.doesNotMatch(h1, /aria-label="KnitTools"/);
-  assert.match(h1, /<span class="eyebrow">An Android app for knitters<\/span>/);
+  assert.match(
+    h1,
+    /<span class="eyebrow">An Android app for knitters and crocheters<\/span>/,
+  );
   assert.match(h1, /<span class="wordmark-line">Knit<\/span>/);
   assert.match(h1, /<span class="wordmark-line">Tools<\/span>/);
 });
@@ -92,7 +95,7 @@ test("homepage features copy and FAQ stay specific before the signup CTA", () =>
   const features = read("src/components/NineTools.astro");
   const faq = read("src/components/HomeFaq.astro");
   const featureCopy =
-    "Keep your row counter, pattern viewer, yarn, notes, progress photos, and knitting calculators together in one Android project home, so you can pick up where you left off.";
+    "Start with knitting or crochet, then keep your counter, pattern, yarn, notes, progress photos, and calculators together, so you can pick up where you left off.";
 
   assert.match(
     normalizeText(features),
@@ -120,6 +123,7 @@ test("homepage features copy and FAQ stay specific before the signup CTA", () =>
   for (const question of [
     "What is KnitTools?",
     "What does KnitTools include?",
+    "Does KnitTools support crochet?",
     "Is KnitTools available yet?",
     "Does KnitTools have ads or accounts?",
   ]) {
@@ -130,7 +134,7 @@ test("homepage features copy and FAQ stay specific before the signup CTA", () =>
   }
   assert.match(
     faq,
-    /No ads\. No account required\. Your knitting data stays on your device\. Basic crash reports may be used to help find and fix bugs\./,
+    /No ads\. No account required\. Your project data stays on your device\. Basic crash reports may be used to help find and fix bugs\./,
   );
   assert.doesNotMatch(faq, /Does KnitTools have ads or tracking\?/);
   assert.doesNotMatch(faq, /No unnecessary tracking/);

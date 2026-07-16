@@ -1,7 +1,7 @@
 {
   "name": "KnitTools",
   "short_name": "KnitTools",
-  "description": "KnitTools is an Android knitting app with row counters, pattern viewer, calculators, project notes, and knitting references.",
+  "description": "KnitTools is an Android app for knitting and crochet projects with row and round counters, patterns, yarn, notes, photos, calculators, and references.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
