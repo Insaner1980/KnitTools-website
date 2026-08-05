@@ -2,7 +2,7 @@
 
 ## Project
 
-Astro 6 -staattinen sivusto. Neulontasovelluksen (Android) landing page + kuusi ilmaista selainpohjaista työkalua (2 laskuria + 4 referenssitaulukkoa) + artikkeliosio.
+Astro 7 -staattinen sivusto. Neulontasovelluksen (Android) landing page + kuusi ilmaista selainpohjaista työkalua (2 laskuria + 4 referenssitaulukkoa) + artikkeliosio.
 
 ## Commands
 
@@ -94,3 +94,4 @@ Hero (Lalezar H1, intro, back-link → tools index) → laskuri/taulukko-osio �
 - Globaali `a { color: var(--accent) }` voi yliajaa komponenttilinkkien värejä
 - `global.css` sisältää vielä legacy stripe/safe-padding-tokenit, mutta nykyinen layout ei renderöi stripe-nauhaa.
 - TrustSection näyttää hinnan €5.99 — tarkista ennen launchia
+- Astro 7:n markdown-prosessori tekee parittomasta `"`-merkistä **avaavan** lainausmerkin (`“`). Artikkeleissa tuumamitat pitää siis kirjoittaa eksplisiittisellä sulkevalla merkillä: `40”`, ei `40"`. Skriptit `<script>`-tageissa joissa on attribuutti tarvitsevat `is:inline`, muuten `astro check` antaa astro(4000)-vihjeen.
