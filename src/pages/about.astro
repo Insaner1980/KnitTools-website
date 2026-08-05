@@ -86,7 +86,11 @@ const aboutJsonLd = {
   description={aboutDescription}
   canonicalPath="/about/"
 >
-  <script type="application/ld+json" set:html={JSON.stringify(aboutJsonLd)} />
+  <script
+    is:inline
+    type="application/ld+json"
+    set:html={JSON.stringify(aboutJsonLd)}
+  />
 
   <section class="about-header" aria-labelledby="about-heading">
     <div class="about-header-inner">
