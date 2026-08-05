@@ -93,5 +93,5 @@ Hero (Lalezar H1, intro, back-link → tools index) → laskuri/taulukko-osio �
 - JS-luodut DOM-elementit eivät saa Astron scoped data-attribuutteja → `:global()` CSS:ssä
 - Globaali `a { color: var(--accent) }` voi yliajaa komponenttilinkkien värejä
 - `global.css` sisältää vielä legacy stripe/safe-padding-tokenit, mutta nykyinen layout ei renderöi stripe-nauhaa.
-- TrustSection näyttää hinnan €5.99 — tarkista ennen launchia
+- Hinnat tulevat `src/config/pricing.ts`-tiedostosta alueittain (EU €9.99 launch / €14.99 permanent). `TrustSection` ei kovakoodaa hintaa vaan käyttää `RegionalPrice`- ja `RegionalPricingNote`-komponentteja — muuta hinta vain configiin.
 - Astro 7:n markdown-prosessori tekee parittomasta `"`-merkistä **avaavan** lainausmerkin (`“`). Artikkeleissa tuumamitat pitää siis kirjoittaa eksplisiittisellä sulkevalla merkillä: `40”`, ei `40"`. Skriptit `<script>`-tageissa joissa on attribuutti tarvitsevat `is:inline`, muuten `astro check` antaa astro(4000)-vihjeen.
