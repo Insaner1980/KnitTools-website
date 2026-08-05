@@ -164,7 +164,7 @@ For all of these, the [Cast On Calculator](/tools/cast-on-calculator/) is the fa
 
 For bottom-up garments, the cast-on count is the body circumference at the hem. For top-down garments, the cast-on is at the neckline and is much smaller.
 
-A bottom-up worsted-weight sweater with a 40-inch finished chest needs 200 stitches at the hem (5 sts/inch × 40"). A top-down version of the same sweater might cast on 80 stitches at the neck and increase from there.
+A bottom-up worsted-weight sweater with a 40-inch finished chest needs 200 stitches at the hem (5 sts/inch × 40”). A top-down version of the same sweater might cast on 80 stitches at the neck and increase from there.
 
 Different starting points, same finished garment. The pattern dictates which one applies, but if you're designing, the choice affects what calculation you do first.
 
