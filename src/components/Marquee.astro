@@ -40,10 +40,36 @@ const items = [
 
 <style>
   .marquee {
+    position: relative;
     background: var(--terracotta);
     padding: 22px 0;
     overflow: hidden;
     white-space: nowrap;
+  }
+
+  /* Teksti häivytetään taustan väriin molemmissa reunoissa. Liikkeessä
+     tämä poistaa kovan pop-inin, ja reduced motion -tilassa (jolloin
+     nauha on pysähtynyt) se saa reunan katkeamisen näyttämään
+     tarkoitukselliselta eikä juuttuneelta animaatiolta.
+     Häivytys on kääritty pseudoelementteihin eikä mask-imageen, koska
+     mask liikkuisi animoituvan raidan mukana ja söisi myös taustan. */
+  .marquee::before,
+  .marquee::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    width: clamp(28px, 8vw, 72px);
+    pointer-events: none;
+  }
+  .marquee::before {
+    left: 0;
+    background: linear-gradient(to right, var(--terracotta), transparent);
+  }
+  .marquee::after {
+    right: 0;
+    background: linear-gradient(to left, var(--terracotta), transparent);
   }
   /* width: max-content on kriittinen: ilman sita inline-flex-raita kutistuu
      containerin levyiseksi, jolloin translateX(-50%) on vain puolet
