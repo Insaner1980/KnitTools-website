@@ -164,8 +164,10 @@ const initYarnPaths = () => {
   const paths = gsap.utils.toArray<SVGPathElement>("[data-yarn-path]");
   if (paths.length === 0) return;
 
-  // With reduced motion (or without JS) the full thread stays visible.
-  if (prefersReducedMotion()) return;
+  // Tietoinen poikkeus, kuten marqueessa: lankapolku piirtyy myos
+  // reduced motion -tilassa. Tuotteen omistajan paatos (2026-08-13),
+  // jotta etusivun koristeanimaatiot nayttavat samalta kaikilla
+  // laitteilla. Ilman JS:aa koko lanka on edelleen nakyvissa.
 
   paths.forEach((path) => {
     const length = path.getTotalLength();

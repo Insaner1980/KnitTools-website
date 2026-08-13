@@ -100,7 +100,10 @@ Yksi moottori: **GSAP 3.15 + ScrollTrigger + SplitText**. Älä lisää toista a
 - **PullQuote**: `SplitText.create(..., { type: "words", mask: "words" })` pilkkoo sanat ajonaikaisesti. Älä palauta palvelinpuolen sanapilkontaa. Lainaus on CSS:llä `opacity: 0` kunnes JS lisää `is-split` — muuten pilkkomaton teksti välähtäisi.
 - **Marquee**: CSS-animaatio on perustaso joka toimii ilman JS:ää. GSAP ottaa nauhan haltuun lisäämällä `is-scroll-driven` (sammuttaa CSS-animaation) ja ohjaa suuntaa + vauhtia scrollin mukaan. Nopeus palautuu perustasolle `gsap.ticker`-vaimennuksella, koska ScrollTrigger ei kutsu `onUpdate`ia kun scroll pysähtyy.
 - Jokainen animaatio tarvitsee reduced-motion-polun, ja sisällön on oltava näkyvissä ilman JS:ää.
-- **Poikkeus: marquee liikkuu reduced motion -tilassakin.** Tuotteen omistajan päätös 13.8.2026 — nauhan halutaan käyttäytyvän identtisesti kaikilla laitteilla. Opt-out on kahdessa paikassa jotka on pidettävä synkassa: `global.css`:n reduced-motion-lohkon `.marquee-track`-poikkeus (kumoaa universaalin `animation-duration: 0.01ms !important` -resetin) ja `initMarquee`, jossa ei ole `prefersReducedMotion()`-paluuta. Älä "korjaa" kumpaakaan takaisin.
+- **Poikkeus: etusivun koristeanimaatiot pyörivät reduced motion -tilassakin.** Tuotteen omistajan päätös 13.8.2026 — niiden halutaan käyttäytyvän identtisesti kaikilla laitteilla. Älä "korjaa" näitä takaisin:
+  - **Marquee** — opt-out kahdessa paikassa jotka on pidettävä synkassa: `global.css`:n reduced-motion-lohkon `.marquee-track`-poikkeus (kumoaa universaalin `animation-duration: 0.01ms !important` -resetin) ja `initMarquee`, jossa ei ole `prefersReducedMotion()`-paluuta.
+  - **YarnPath** — `initYarnPaths`, jossa ei ole `prefersReducedMotion()`-paluuta. Puhtaasti GSAP-vetoinen, joten `global.css`:n resetti ei koske sitä.
+  - Muut animaatiot (scroll-revealit, PullQuote, `<details>`) noudattavat reduced motionia normaalisti.
 - Nauhan kierrosaika on `--marquee-duration` (`global.css`). Sama arvo on peilattuna `revealAnimations.ts`:n `MARQUEE_DURATION`-vakiossa — muuta molemmat yhdessä.
 
 ## Gotchas

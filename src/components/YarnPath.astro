@@ -2,7 +2,8 @@
 /**
  * Decorative yarn thread that draws itself in as the visitor scrolls.
  * The stroke dash setup happens in revealAnimations.ts (initYarnPaths),
- * so without JS or with reduced motion the full thread is simply visible.
+ * so without JS the full thread is simply visible. The draw runs even
+ * under reduced motion — a deliberate exception, see CLAUDE.md.
  */
 interface Props {
   flip?: boolean;
