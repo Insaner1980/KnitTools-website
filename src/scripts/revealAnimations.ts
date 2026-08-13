@@ -254,9 +254,9 @@ const initPullQuotes = () => {
   });
 };
 
-// Nauhan perusvauhti sekunteina yhta sisaltokopiota kohden. Sama arvo
-// kuin Marquee.astro:n CSS-fallbackissa, jotta JS:n haltuunotto ei nayta
-// nopeuden hyppaykselta.
+// Nauhan perusvauhti sekunteina yhta sisaltokopiota kohden. Peilaa
+// global.css:n --marquee-duration-tokenia, jotta JS:n haltuunotto ei
+// nayta nopeuden hyppaykselta.
 const MARQUEE_DURATION = 60;
 // Yla- ja alaraja scrollin tuomalle vauhdinlisalle.
 const MARQUEE_MAX_BOOST = 4;
@@ -268,8 +268,10 @@ const initMarquee = () => {
   const track = document.querySelector<HTMLElement>("[data-marquee-track]");
   if (!track) return;
 
-  // Ilman JS:aa tai reduced motion -tilassa CSS-animaatio hoitaa nauhan.
-  if (prefersReducedMotion()) return;
+  // Tietoinen poikkeus: toisin kuin muut animaatiot talla sivulla, nauha
+  // liikkuu myos reduced motion -tilassa. Tuotteen omistajan paatos
+  // (2026-08-13) — nauhan halutaan kayttaytyvan identtisesti kaikilla
+  // laitteilla. Vastaava opt-out on global.css:n reduced-motion-lohkossa.
 
   // Sammuttaa CSS-animaation, jotta vain GSAP kirjoittaa transformiin.
   track.classList.add("is-scroll-driven");

@@ -122,6 +122,10 @@
   --landing-card-title-size: clamp(1.35rem, 1.7vw, 1.65rem);
   --landing-body-size: 1rem;
   --landing-small-size: 0.875rem;
+  /* Marquee-nauhan kierrosaika yhtä sisältökopiota kohden. Sama arvo on
+     peilattava revealAnimations.ts:n MARQUEE_DURATION-vakioon, jotta
+     GSAP:n haltuunotto ei näytä nopeuden hyppäykseltä. */
+  --marquee-duration: 60s;
   --landing-label-size: 0.875rem;
   --closing-cta-heading-size: clamp(3rem, 6vw, 6rem);
   --closing-cta-heading-line-height: 0.95;
@@ -458,6 +462,15 @@ p {
   }
   html {
     scroll-behavior: auto;
+  }
+
+  /* Tietoinen poikkeus universaaliin resettiin: marquee-nauha liikkuu
+     asetuksesta riippumatta. Tuotteen omistajan nimenomainen päätös
+     (2026-08-13) — nauha on sivuston ainoa itsestään liikkuva elementti
+     ja se halutaan käyttäytyvän identtisesti kaikilla laitteilla.
+     Vastaava opt-out on revealAnimations.ts:n initMarquee-funktiossa. */
+  .marquee-track {
+    animation-duration: var(--marquee-duration) !important;
   }
 }
 

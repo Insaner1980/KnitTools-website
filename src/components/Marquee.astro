@@ -77,7 +77,7 @@ const items = [
   .marquee-track {
     display: flex;
     width: max-content;
-    animation: scroll 60s linear infinite;
+    animation: scroll var(--marquee-duration) linear infinite;
     font-family: var(--font-body);
     font-size: var(--landing-small-size);
     font-weight: 500;
@@ -126,9 +126,6 @@ const items = [
       animation-play-state: paused;
     }
   }
-  @media (prefers-reduced-motion: reduce) {
-    .marquee-track {
-      animation-play-state: paused;
-    }
-  }
+  /* Ei reduced-motion-pysaytysta: nauha liikkuu asetuksesta riippumatta.
+     Ks. global.css:n vastaava poikkeus universaaliin resettiin. */
 </style>
