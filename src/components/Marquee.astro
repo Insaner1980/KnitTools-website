@@ -21,14 +21,18 @@ const items = [
 ];
 ---
 
-<div class="marquee" aria-hidden="true">
-  <div class="marquee-track">
+<div class="marquee" aria-hidden="true" data-marquee>
+  <div class="marquee-track" data-marquee-track>
     {
-      [...items, ...items].map((item) => (
-        <span>
-          {item}
-          <span class="dot" aria-hidden="true" />
-        </span>
+      [0, 1].map(() => (
+        <div class="marquee-group">
+          {items.map((item) => (
+            <span>
+              {item}
+              <span class="dot" aria-hidden="true" />
+            </span>
+          ))}
+        </div>
       ))
     }
   </div>
@@ -41,9 +45,13 @@ const items = [
     overflow: hidden;
     white-space: nowrap;
   }
+  /* width: max-content on kriittinen: ilman sita inline-flex-raita kutistuu
+     containerin levyiseksi, jolloin translateX(-50%) on vain puolet
+     nakymasta -> mobiilissa liike on niin hidasta ettei se nay lainkaan. */
   .marquee-track {
-    display: inline-flex;
-    animation: scroll 40s linear infinite;
+    display: flex;
+    width: max-content;
+    animation: scroll 60s linear infinite;
     font-family: var(--font-body);
     font-size: var(--landing-small-size);
     font-weight: 500;
@@ -51,7 +59,11 @@ const items = [
     text-transform: uppercase;
     color: var(--paper);
   }
-  .marquee-track > span {
+  .marquee-group {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  .marquee-group > span {
     display: inline-flex;
     align-items: center;
     padding: 0 14px;
@@ -74,8 +86,19 @@ const items = [
       transform: translateX(-50%);
     }
   }
-  .marquee:hover .marquee-track {
-    animation-play-state: paused;
+  /* CSS-animaatio on perustaso joka toimii ilman JS:aa. Kun GSAP ottaa
+     nauhan haltuun (scrollin suunta + vauhti), se merkitsee raidan
+     talla luokalla — muuten kaksi jarjestelmaa kirjoittaisi samaan
+     transformiin ja nauha nykisi. Hover-pysaytys siirtyy samalla JS:lle. */
+  .marquee-track.is-scroll-driven {
+    animation: none;
+  }
+  /* Vain hiirilaitteille: kosketusnaytolla :hover jaa "jumiin" tapin jalkeen
+     ja pysayttaisi raidan pysyvasti. */
+  @media (hover: hover) {
+    .marquee:hover .marquee-track:not(.is-scroll-driven) {
+      animation-play-state: paused;
+    }
   }
   @media (prefers-reduced-motion: reduce) {
     .marquee-track {

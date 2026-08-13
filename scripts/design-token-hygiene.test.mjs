@@ -687,7 +687,7 @@ describe("performance hygiene", () => {
     );
     assert.match(revealHelper, /from "gsap"/);
     assert.match(revealHelper, /from "gsap\/ScrollTrigger"/);
-    assert.match(revealHelper, /gsap\.registerPlugin\(ScrollTrigger\)/);
+    assert.match(revealHelper, /gsap\.registerPlugin\(ScrollTrigger[,)]/);
     assert.match(revealHelper, /const prepareContentReveal/);
     assert.match(
       revealHelper,

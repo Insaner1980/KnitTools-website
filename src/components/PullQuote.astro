@@ -4,7 +4,6 @@ export interface Props {
   attribution?: string;
 }
 const { quote } = Astro.props;
-const words = quote.split(" ");
 ---
 
 <aside class="pull-quote" aria-label="Pull quote" data-pull-quote>
@@ -12,18 +11,9 @@ const words = quote.split(" ");
     <div class="rule-top" aria-hidden="true" data-pq-rule></div>
     <blockquote>
       <p class="pq-visual" aria-hidden="true">
-        <span class="pq-mark" data-pq-mark>&#8220;</span>{
-          words.map((word, index) => (
-            <Fragment>
-              <span class="pq-word">
-                <span class="pq-word-inner" data-pq-word>
-                  {word}
-                </span>
-              </span>
-              {index < words.length - 1 ? " " : ""}
-            </Fragment>
-          ))
-        }<span class="pq-mark" data-pq-mark>&#8221;</span>
+        <span class="pq-mark" data-pq-mark>&#8220;</span><span data-pq-text
+          >{quote}</span
+        ><span class="pq-mark" data-pq-mark>&#8221;</span>
       </p>
       <p class="visually-hidden">{quote}</p>
     </blockquote>
@@ -71,18 +61,21 @@ const words = quote.split(" ");
   .pq-mark:last-child {
     margin-left: 0.05em;
   }
-  .pq-word {
-    display: inline-block;
-  }
-  .pq-word-inner {
+
+  /* SplitText luo sanaelementit ajonaikaisesti, joten niilla ei ole
+     Astron scoped-attribuuttia -> :global() on pakollinen. */
+  :global(.pq-word) {
     display: inline-block;
   }
 
-  /* Initial states only when JS reveal animations are active. */
-  :global(html.reveal-animations) .pq-word-inner {
+  /* Initial states only when JS reveal animations are active.
+     Koko lainaus piilotetaan kunnes SplitText on pilkkonut sanat ja
+     asettanut ne maskin taakse — muuten pilkkomaton teksti valahtaisi. */
+  :global(html.reveal-animations) .pq-visual {
     opacity: 0;
-    transform: translateY(0.5em);
-    will-change: opacity, transform;
+  }
+  :global(html.reveal-animations) .pull-quote.is-split .pq-visual {
+    opacity: 1;
   }
   :global(html.reveal-animations) .pq-mark {
     opacity: 0;
@@ -91,21 +84,18 @@ const words = quote.split(" ");
   :global(html.reveal-animations) [data-pq-rule] {
     transform: scaleX(0);
   }
-  :global(html.reveal-animations) .pull-quote.is-revealed .pq-word-inner,
   :global(html.reveal-animations) .pull-quote.is-revealed .pq-mark {
     opacity: 1;
     transform: none;
-    will-change: auto;
   }
   :global(html.reveal-animations) .pull-quote.is-revealed [data-pq-rule] {
     transform: scaleX(1);
   }
   @media (prefers-reduced-motion: reduce) {
-    :global(html.reveal-animations) .pq-word-inner,
+    :global(html.reveal-animations) .pq-visual,
     :global(html.reveal-animations) .pq-mark {
       opacity: 1;
       transform: none;
-      will-change: auto;
     }
     :global(html.reveal-animations) [data-pq-rule] {
       transform: scaleX(1);

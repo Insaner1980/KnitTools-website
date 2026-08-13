@@ -1,12 +1,14 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SplitText } from "gsap/SplitText";
+import { prefersReducedMotion } from "./motion";
 
 const REVEALED_CLASS = "is-revealed";
-const REDUCED_MOTION_QUERY = "(prefers-reduced-motion: reduce)";
+const SPLIT_CLASS = "is-split";
 const CONTENT_REVEAL_SELECTOR = "[data-reveal-content]";
 const CONTENT_FADE_SELECTOR = "h3, p, ul, ol, table";
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const hasRevealAttribute = (element: HTMLElement) =>
   Object.prototype.hasOwnProperty.call(element.dataset, "reveal");
@@ -137,7 +139,7 @@ const initScrollReveal = () => {
   const elements = gsap.utils.toArray<HTMLElement>("[data-reveal]");
   if (elements.length === 0) return;
 
-  if (window.matchMedia(REDUCED_MOTION_QUERY).matches) {
+  if (prefersReducedMotion()) {
     revealAll(elements);
     return;
   }
@@ -163,7 +165,7 @@ const initYarnPaths = () => {
   if (paths.length === 0) return;
 
   // With reduced motion (or without JS) the full thread stays visible.
-  if (window.matchMedia(REDUCED_MOTION_QUERY).matches) return;
+  if (prefersReducedMotion()) return;
 
   paths.forEach((path) => {
     const length = path.getTotalLength();
@@ -182,22 +184,38 @@ const initYarnPaths = () => {
 };
 
 const initPullQuotes = () => {
-  const reduceMotion = window.matchMedia(REDUCED_MOTION_QUERY).matches;
+  const reduceMotion = prefersReducedMotion();
 
   gsap.utils.toArray<HTMLElement>("[data-pull-quote]").forEach((quoteEl) => {
-    const words = gsap.utils.toArray<HTMLElement>("[data-pq-word]", quoteEl);
+    const textEl = quoteEl.querySelector<HTMLElement>("[data-pq-text]");
     const marks = gsap.utils.toArray<HTMLElement>("[data-pq-mark]", quoteEl);
     const rules = gsap.utils.toArray<HTMLElement>("[data-pq-rule]", quoteEl);
-    if (words.length === 0) return;
+    if (!textEl) return;
 
     const finish = () => quoteEl.classList.add(REVEALED_CLASS);
 
     if (reduceMotion) {
-      gsap.set([...words, ...marks], { opacity: 1, y: 0, scale: 1 });
+      gsap.set(marks, { opacity: 1, scale: 1 });
       gsap.set(rules, { scaleX: 1 });
+      quoteEl.classList.add(SPLIT_CLASS);
       finish();
       return;
     }
+
+    // SplitText korvaa aiemman palvelimella tehdyn sanapilkonnan.
+    // mask: "words" kaaraa jokaisen sanan leikkaavaan wrapperiin, joten
+    // sanat nousevat esiin rivin takaa sen sijaan etta liukuisivat
+    // nakyvina paikalleen.
+    const split = SplitText.create(textEl, {
+      type: "words",
+      mask: "words",
+      wordsClass: "pq-word",
+      aria: "none",
+    });
+
+    gsap.set(split.words, { yPercent: 100 });
+    // Lainaus paljastetaan vasta kun sanat ovat maskin takana.
+    quoteEl.classList.add(SPLIT_CLASS);
 
     const timeline = gsap.timeline({
       scrollTrigger: {
@@ -217,13 +235,12 @@ const initPullQuotes = () => {
       );
     }
     timeline.to(
-      words,
+      split.words,
       {
-        opacity: 1,
-        y: 0,
-        duration: 0.45,
+        yPercent: 0,
+        duration: 0.5,
         ease: "power3.out",
-        stagger: 0.05,
+        stagger: 0.04,
       },
       0.12,
     );
@@ -235,6 +252,67 @@ const initPullQuotes = () => {
       );
     }
   });
+};
+
+// Nauhan perusvauhti sekunteina yhta sisaltokopiota kohden. Sama arvo
+// kuin Marquee.astro:n CSS-fallbackissa, jotta JS:n haltuunotto ei nayta
+// nopeuden hyppaykselta.
+const MARQUEE_DURATION = 60;
+// Yla- ja alaraja scrollin tuomalle vauhdinlisalle.
+const MARQUEE_MAX_BOOST = 4;
+const MARQUEE_VELOCITY_DIVISOR = 600;
+// Kuinka nopeasti nauha valuu takaisin perusvauhtiin (per frame).
+const MARQUEE_DECAY = 0.04;
+
+const initMarquee = () => {
+  const track = document.querySelector<HTMLElement>("[data-marquee-track]");
+  if (!track) return;
+
+  // Ilman JS:aa tai reduced motion -tilassa CSS-animaatio hoitaa nauhan.
+  if (prefersReducedMotion()) return;
+
+  // Sammuttaa CSS-animaation, jotta vain GSAP kirjoittaa transformiin.
+  track.classList.add("is-scroll-driven");
+
+  const loop = gsap.to(track, {
+    xPercent: -50,
+    ease: "none",
+    duration: MARQUEE_DURATION,
+    repeat: -1,
+  });
+
+  let direction = 1;
+  let timeScale = 1;
+
+  ScrollTrigger.create({
+    start: 0,
+    end: "max",
+    onUpdate: (self) => {
+      // Nauha kulkee scrollin suuntaan ja kiihtyy sen vauhdin mukaan.
+      direction = self.direction === -1 ? -1 : 1;
+      timeScale =
+        direction *
+        gsap.utils.clamp(
+          1,
+          MARQUEE_MAX_BOOST,
+          Math.abs(self.getVelocity()) / MARQUEE_VELOCITY_DIVISOR,
+        );
+    },
+  });
+
+  // ScrollTrigger lakkaa kutsumasta onUpdatea kun scroll pysahtyy, joten
+  // vauhti valutetaan takaisin perustasolle omassa tickerissa.
+  gsap.ticker.add(() => {
+    timeScale += (direction - timeScale) * MARQUEE_DECAY;
+    loop.timeScale(timeScale);
+  });
+
+  const marquee = track.closest<HTMLElement>("[data-marquee]");
+  // Hover-pysaytys siirtyy CSS:lta tanne, koska GSAP omistaa nyt liikkeen.
+  if (marquee && window.matchMedia("(hover: hover)").matches) {
+    marquee.addEventListener("mouseenter", () => loop.pause());
+    marquee.addEventListener("mouseleave", () => loop.resume());
+  }
 };
 
 const resetAnimatedBody = (body: HTMLElement) => {
@@ -280,7 +358,7 @@ const animateDetailsClose = (
 };
 
 const initAnimatedDetails = () => {
-  if (window.matchMedia(REDUCED_MOTION_QUERY).matches) return;
+  if (prefersReducedMotion()) return;
 
   document
     .querySelectorAll<HTMLDetailsElement>("details[data-animate-details]")
@@ -310,6 +388,7 @@ export const initRevealAnimations = () => {
   initScrollReveal();
   initYarnPaths();
   initPullQuotes();
+  initMarquee();
   initAnimatedDetails();
   ScrollTrigger.refresh();
 };

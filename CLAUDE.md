@@ -88,6 +88,19 @@ Hero (Lalezar H1, intro, back-link → tools index) → laskuri/taulukko-osio �
 
 `src/scripts/waitlistSignup.ts` omistaa waitlist-submit-logiikan. Footerin työkalulinkit tulevat `src/i18n/tools.ts`-helperistä ja artikkelikategoriat `src/i18n/articles.ts`-helperistä.
 
+## Animaatiot
+
+Yksi moottori: **GSAP 3.15 + ScrollTrigger + SplitText**. Älä lisää toista animaatiokirjastoa (anime.js tms.) — rinnakkaiset moottorit kirjoittaisivat samoihin `transform`/`opacity`-arvoihin. GSAP:n kaikki pluginit ovat ilmaisia (3.13+, Webflow 2025).
+
+| Tiedosto | Vastuu |
+|----------|--------|
+| `src/scripts/motion.ts` | `prefersReducedMotion()` — koko sivuston ainoa reduced-motion-tarkistus. `countUp()` — laskurien tulosnumeron animaatio. |
+| `src/scripts/revealAnimations.ts` | Kaikki GSAP-koreografia: scroll-revealit, YarnPath-scrub, PullQuote, marquee, `<details>`-akkordionit. Ladataan vain kun `enableRevealAnimations` on päällä. |
+
+- **PullQuote**: `SplitText.create(..., { type: "words", mask: "words" })` pilkkoo sanat ajonaikaisesti. Älä palauta palvelinpuolen sanapilkontaa. Lainaus on CSS:llä `opacity: 0` kunnes JS lisää `is-split` — muuten pilkkomaton teksti välähtäisi.
+- **Marquee**: CSS-animaatio on perustaso joka toimii ilman JS:ää. GSAP ottaa nauhan haltuun lisäämällä `is-scroll-driven` (sammuttaa CSS-animaation) ja ohjaa suuntaa + vauhtia scrollin mukaan. Nopeus palautuu perustasolle `gsap.ticker`-vaimennuksella, koska ScrollTrigger ei kutsu `onUpdate`ia kun scroll pysähtyy.
+- Jokainen animaatio tarvitsee reduced-motion-polun, ja sisällön on oltava näkyvissä ilman JS:ää.
+
 ## Gotchas
 
 - JS-luodut DOM-elementit eivät saa Astron scoped data-attribuutteja → `:global()` CSS:ssä
