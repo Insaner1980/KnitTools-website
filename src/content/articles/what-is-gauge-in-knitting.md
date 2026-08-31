@@ -74,7 +74,7 @@ There's also a needle-size range for each yarn where the fabric makes sense. Pus
 
 ## Pattern stitch gauge vs stockinette gauge
 
-Most patterns give gauge in stockinette, even when the project includes cables, lace, or textured panels. Some give it in the pattern stitch instead. Read carefully.
+A pattern may give gauge in stockinette or in the stitch pattern used for the project. Read carefully.
 
 Swatch in the stitch the gauge is given for. Cables pull the fabric in horizontally and need more stitches to cover the same width. Lace opens up and needs fewer. Ribbing compresses when relaxed and expands when stretched, which makes it hard to measure honestly. A stockinette gauge doesn't predict a cabled gauge.
 
@@ -121,7 +121,7 @@ Ripping back is always an option for bigger drift, but that call is much easier 
 
 ## The relationship between gauge and finished dimensions
 
-Stitch gauge controls width. Row gauge controls height.
+In conventionally oriented knitting, stitch gauge generally controls width and row gauge generally controls length. In sideways constructions, those roles can change: row gauge may determine width, while stitch gauge may determine length.
 
 When a pattern says "knit to 14 inches," row gauge matters less because you stop when the fabric reaches the target length. When the pattern says "knit 96 rows," row gauge matters much more because the length depends entirely on how tall each row is.
 

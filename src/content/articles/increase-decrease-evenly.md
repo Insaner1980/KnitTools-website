@@ -20,9 +20,11 @@ Whether the row needs to add stitches or remove them, the calculation is the sam
 
 Current stitch count / number of changes = interval between each change.
 
-For increases, the interval tells you how many stitches sit in each section, with one new stitch worked at the end of the section. For decreases, the interval is the repeat size, and the last two stitches of each repeat are the decrease.
+The interval tells you how many existing stitches belong to each change, but the written repeat depends on the method. The M1 examples below place the increase between existing stitches, so an interval of 10 can be written `k10, M1`. If the increase is worked into an existing stitch, as with KFB, count that stitch within the interval: write `k9, kfb`, not `k10, kfb`, because the latter consumes 11 original stitches. For decreases, the interval is the repeat size, and it includes the stitches consumed by the decrease.
 
 Same math, two slightly different framings.
+
+If any edge or selvage stitches must remain untouched, subtract their total before calculating the interval: `(current stitches - reserved edge stitches) / number of changes`. Distribute the changes only across the remaining workable stitches, then work the reserved edge stitches as instructed. If the edge stitches are part of the shaping distribution, use the full current stitch count instead. This is different from splitting the first and last intervals for balance, where those outer stitches still participate in the distribution.
 
 ## Worked example: a clean increase
 

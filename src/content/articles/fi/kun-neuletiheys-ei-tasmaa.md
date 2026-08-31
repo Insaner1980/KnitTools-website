@@ -28,7 +28,7 @@ Ennen kuin muutat mitään, sulje pois mittausvirhe. Levitä mallitilkku tasaise
 
 Laske silmukat 10 cm matkalta. Laske myös puolikkaat. Ne merkitsevät. Tilkku, joka näyttää pyöristettynä "20 silmukalta", voi tarkasti laskettuna olla 19,5, ja se on oikeassa vaatteessa todellinen ero. [Neuletiheyden mittausohje](/fi/artikkelit/neuletiheyden-mittaaminen/) käy läpi koko prosessin, mutta lyhyt versio on tämä: mittaa keskeltä, laske tarkasti, älä venytä.
 
-Jos mallitilkku on alle noin 15 cm suuntaansa, reunojen vääristymät vievät liikaa mittausalueesta ja lukemasta tulee epäluotettava. Isompi mallitilkku antaa rehellisemmän numeron.
+Noin 15 cm leveä ja korkea mallitilkku on käytännöllinen valinta, koska siinä on tilaa 10 cm:n mittausalueelle riittävän kaukana luomis-, päättely- ja sivureunoista. Se ei ole yleinen vähimmäismitta: pienempi tilkku voi olla käyttökelpoinen, jos siinä on riittävän suuri, edustava ja vääristymätön mittausalue. Noudata ohjeen mahdollisia mallitilkun kokoa tai mittausta koskevia ohjeita.
 
 Mittaa mallitilkku kahdesta kohdasta ja käytä keskiarvoa. Käsinneulottu pinta ei ole täysin tasainen, ja yksittäinen mittaus voi osua tavallista löysempään tai tiukempaan kohtaan.
 
@@ -70,7 +70,7 @@ Puikoilta tullut mallitilkku ei välttämättä vastaa pestyä ja viimeisteltyä
 
 Villa voi pöyhistyä ja täyttää silmukoiden välejä. Silmukkamäärä 10 cm matkalla voi pienentyä hieman kuitujen rentoutuessa. Puuvilla voi rentoutua alaspäin. Superwash-villa voi kasvaa, erityisesti pituussuunnassa. Alpakka voi venyä ja laskeutua. Pellava pehmenee ja neuletiheys voi avautua.
 
-Käytännön sääntö: viimeistele mallitilkku samalla tavalla kuin viimeistelet valmiin työn ja mittaa vasta sitten. Jos luot silmukat viimeistelemättömän lukeman perusteella, valmis vaate voi ensimmäisen pesun jälkeen olla kokonaisen koon pielessä.
+Noudata ensin ohjeessa määritettyä mittausvaihetta, myös silloin kun ohje antaa neuletiheyden viimeistelemättömästä neuleesta. Jos ohje ei täsmennä asiaa, viimeistele mallitilkku kuten valmis työ ja käytä sen jälkeen mitattua neuletiheyttä. Kirjaa sekä ennen viimeistelyä että sen jälkeen mitatut arvot; ennen viimeistelyä mitattu luku auttaa vertaamaan keskeneräistä työtä mallitilkkuun ennen työn pesua tai viimeistelyä.
 
 ## Milloin neuletiheydellä ei ole niin paljon väliä
 
@@ -127,7 +127,7 @@ Istuviin vaatteisiin pyri täsmäämään silmukkatiheys tarkasti. Asusteissa yh
 Jos valmis työ pestään, kyllä. Jotkut langat muuttavat neuletiheyttä selvästi pesussa. Superwash-villa voi kasvaa pituutta, puuvilla rentoutuu. Neulo tilkku, pese ja viimeistele se kuten valmiin työn, anna kuivua kokonaan ja mittaa vasta sitten. [Mallitilkun vaiheittainen ohje](/fi/artikkelit/mallitilkun-neulominen-vaiheittain/) käy prosessin läpi.
 
 **Vaikuttaako pingotus tai viimeistely neuletiheyteen?**
-Märkäviimeistely avaa silmukoita usein hieman, erityisesti pitsissä ja löysemmissä pinnoissa. Villa voidaan venyttää ja pingottaa tiettyyn mittaan. Puuvilla pitää muotonsa eri tavalla. Mittaa aina viimeistelty mallitilkku.
+Märkäviimeistely avaa silmukoita usein hieman, erityisesti pitsissä ja löysemmissä pinnoissa. Villa voidaan venyttää ja pingottaa tiettyyn mittaan. Puuvilla pitää muotonsa eri tavalla. Käytä ohjeessa määritettyä mittausvaihetta; jos ohje ei täsmennä asiaa, käytä valmiin työn tavoin käsitellyn mallitilkun neuletiheyttä. Kirjaa myös ennen viimeistelyä mitattu arvo, jotta voit verrata sitä keskeneräiseen työhön.
 
 **Silmukkatiheys täsmää mutta kerrostiheys ei. Mitä teen?**
 Neulo mittoihin kerrosmäärien sijaan aina kun ohje sallii. Jos muotoilu on annettu kerroksina, muunna ohjeen kerrokset senteiksi ohjeen kerrostiheyden perusteella ja käytä sitten omia mittojasi.

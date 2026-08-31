@@ -44,7 +44,7 @@ Take a simple stockinette scarf, 8 inches wide, gauge of 4.5 stitches per inch.
 
 That's the base count. If the pattern uses a 2x2 ribbed border (multiple of 4), 36 already lands on the repeat, so no adjustment needed. If the border were a 6-stitch lace repeat, 36 still works because it's a multiple of 6. If the lace repeat were 8 stitches, the nearest options would be 32 (slightly narrower) or 40 (slightly wider).
 
-If selvage stitches will be added, count them separately and add to the total. One stitch each side for a knit-edge selvage means casting on 38 instead of 36.
+If the 8-inch target describes the central pattern area, one selvage stitch at each edge outside that area brings the cast-on to 38 stitches total. If the full 8-inch width is meant to include the selvages, keep those edge stitches within the calculated 36-stitch total instead of adding them afterward.
 
 The math takes about thirty seconds. Doing it before casting on is faster than realizing the scarf came out 6 inches wide after the first six rows.
 
@@ -97,7 +97,7 @@ For visible-edge ribbing on sweater hems, a tubular or German twisted cast-on ca
 
 Calculating the count is the same as for flat work: gauge × target circumference. For hats and socks, that target circumference is usually smaller than the body measurement because the fabric needs negative ease. The execution gets one extra consideration: joining without twisting.
 
-Before knitting the first round, lay the needle flat and check that every stitch faces the same direction. The bottom edge of the cast-on should run along the inside of the needle with no spiraling. A twisted join is permanent, and the only fix is to rip back and re-cast-on.
+Before knitting the first round, lay the needle flat and check that every stitch faces the same direction. The bottom edge of the cast-on should run along the inside of the needle with no spiraling. If you notice the twist at the end of the first round, it can still be corrected at the join. Once additional rounds have been worked, ripping back is usually the cleanest fix.
 
 To close the small gap that forms at the join point, many knitters cast on one extra stitch and decrease it away at the join. The working stitch count stays correct, and the join looks neater than starting round one with a gap.
 
@@ -180,7 +180,7 @@ The published cast-on count will produce a different width than intended. Either
 For long-tail, yes. For most knitted-on methods, also yes. For cable cast-on, the slip knot is the first stitch. A few methods skip it. Follow the mechanics of the specific cast-on you're using.
 
 **How long should the tail be for long-tail cast-on?**
-Roughly three times the planned cast-on width, plus a few extra inches for weaving in. For 200 stitches over 40 inches, that's about 120 inches (3 yards) of tail. Better too long than too short. Running out mid-cast-on means starting over.
+Roughly three times the planned cast-on width, plus a few extra inches for weaving in. For 200 stitches over 40 inches, that's about 120 inches (3 1/3 yards) of tail. Better too long than too short. Running out mid-cast-on means starting over.
 
 **Can I use the cable cast-on for a stretchy edge like a sock cuff?**
 Not ideal. Cable cast-on is firmer than long-tail and noticeably less stretchy. For sock cuffs and any edge that needs to fit over a foot, hand, or head, use long-tail with a larger needle, German twisted, or a tubular cast-on instead.

@@ -25,9 +25,9 @@ Jos ohje on jonkun muun kirjoittama, tarkista myös, annetaanko neuletiheys sile
 
 ## Vaihe 1: luo silmukat
 
-Luo tarpeeksi silmukoita vähintään noin 15 cm leveään tilkkuun. Jos ohjeen neuletiheys on 20 silmukkaa 10 cm matkalla, tarvitset vähintään 30 silmukkaa: 20 silmukkaa mittausalueelle ja noin 5 silmukkaa kummallekin reunalle, jotta et mittaa vääristyneitä reunasilmukoita.
+Luo tarpeeksi silmukoita noin 15 cm leveään tilkkuun tai noudata ohjeen mallitilkkukokoa. Näin keskelle jää yleensä 10 cm:n mittausalue, joka ei ulotu vääristyneisiin sivureunoihin. Jos ohjeen neuletiheys on 20 silmukkaa 10 cm matkalla, `20 × 1,5 = 30` antaa alustavan arvion noin 15 cm leveään neulepintaan tarvittavasta silmukkamäärästä.
 
-Nopea lasku: ohjeen silmukkatiheys 10 cm matkalla kertaa 1,5. Se on hyvä luomismäärä mallitilkulle.
+Nopea lasku: kerro ohjeen 10 cm:n silmukkatiheys luvulla 1,5. Jos tulos ei ole kokonaisluku, pyöristä ylöspäin seuraavaan kokonaislukuun. Lisää silmukkamäärää tarvittaessa niin, että kokonainen mallikerta mahtuu mukaan, ja lisää keskimmäisen mittausalueen ulkopuolelle tulevat reunus- tai reunasilmukat erikseen. Kertolaskun tulos ei siis aina ole lopullinen luomismäärä.
 
 Luomistavalla on vähemmän merkitystä kuin voisi luulla, mutta käytä samaa luomistapaa kuin varsinaisessa työssä, jos se on käytännöllistä. Pitkän hännän aloitus on tavallinen lähtökohta useimpiin tasona neulottaviin töihin. Jos projekti alkaa joustimella, mallitilkun ei tarvitse alkaa samalla tavalla, mutta on silti hyödyllistä tietää, kiristääkö oma luomisreuna.
 
@@ -37,7 +37,7 @@ Neulo sillä mallineuleella, joka ohjeen neuletiheyskohdassa mainitaan. "Sileän
 
 Palmikkopaneeli vetää neulepintaa kasaan. Pitsineule avautuu pingotuksen jälkeen. Joustin puristuu vaakasuunnassa. Jos mittaat sileän mallitilkun ja oletat sen kertovan palmikkokaarrokkeen neuletiheyden, päädyt helposti neuleeseen, joka ei istu.
 
-Neulo kunnes tilkku on vähintään noin 15 cm korkea. Sama puskuriajatus: 10 cm mitattavaa aluetta ja vähintään pari senttiä sen ylä- ja alapuolella.
+Neulo, kunnes tilkku on noin 15 cm korkea tai siinä on riittävästi vääristymätöntä neulepintaa, jotta voit mitata keskeltä 10 cm:n alueen riittävän kaukana luomis- ja päättelyreunoista. Noin 15 cm on vahva käytännön suositus, ei yleinen vähimmäismitta. Pienempi tilkku voi silti olla käyttökelpoinen, jos siinä on riittävän suuri, edustava ja vääristymätön mittausalue ilman, että reunoja otetaan mukaan 10 cm:n mittaan.
 
 Osa neulojista lisää ainaoikein-reunuksen, esimerkiksi 3 tai 4 silmukkaa sivuille ja 3 tai 4 kerrosta ylös ja alas, jotta tilkku ei rullaudu. Sileä neule rullautuu. Tasainen tilkku on helpompi mitata, eikä reunus muuta keskellä olevan sileän neuleen neuletiheyttä. Pieni lisävaiva, mutta usein hyödyllinen.
 

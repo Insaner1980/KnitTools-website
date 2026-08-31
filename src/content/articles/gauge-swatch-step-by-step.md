@@ -22,9 +22,9 @@ If the pattern was written by someone else, also check whether the gauge is give
 
 ## Step 1: cast on
 
-Cast on enough stitches for at least 6 inches of fabric. If the pattern gauge says 20 stitches per 4 inches, you need at least 30 stitches (20 for the measurement area plus about 5 on each side so you're not measuring distorted edge stitches).
+Cast on enough stitches for about 6 inches of fabric, or follow the swatch-size instructions in the pattern. This usually leaves room for a central 4-inch measurement area away from distorted side-edge stitches. If the pattern gauge says 20 stitches per 4 inches, 30 stitches gives 20 for the measurement area plus about 5 on each side.
 
-Quick math: pattern's stitch gauge per 4 inches, multiplied by 1.5. That's your cast-on count.
+Quick math: multiply the pattern's stitch gauge per 4 inches by 1.5 to estimate the stitches needed for about 6 inches of fabric. For example, 20 × 1.5 = 30 stitches. If the result is fractional, round up to the next whole stitch. For a patterned swatch, increase the count as needed to complete a full stitch repeat, then add any border or selvage stitches that will sit outside the central measurement area.
 
 Cast-on method matters less than you'd think for the swatch itself, but use the same one you'll use for the project if you can. Long-tail is the default for most flat work. If the project starts in ribbing, the swatch doesn't have to, but knowing your cast on doesn't pull tight is useful.
 
@@ -32,7 +32,7 @@ Cast-on method matters less than you'd think for the swatch itself, but use the 
 
 Knit in the stitch pattern specified by the gauge section. "In stockinette" means stockinette. "In pattern stitch" means the actual stitch pattern from the project. This distinction matters because different patterns produce different gauges. A cable panel pulls in. A lace pattern opens up after blocking. Ribbing compresses horizontally. Measuring a stockinette swatch and assuming it tells you the gauge of your cable yoke is a common way to end up with a sweater that doesn't fit.
 
-Knit until the swatch is at least 6 inches tall. Same buffer logic: 4 measurable inches with at least an inch above and below.
+Knit until the swatch is about 6 inches tall, or until it provides enough undistorted fabric to measure a central 4-inch area away from the cast-on and bind-off edges. About 6 inches is a robust recommendation, not a universal minimum: a smaller swatch can still be usable if it provides a sufficiently large, representative, undistorted measurement area without including edge stitches just to make a 4-inch window.
 
 A few knitters add a garter stitch border (3 or 4 stitches each side, 3 or 4 rows top and bottom) to keep the swatch from curling. Stockinette curls. A flat swatch is easier to measure. The garter border doesn't change the gauge of the stockinette area in the middle. Worth the small extra effort.
 
@@ -52,7 +52,7 @@ Block the swatch the same way you'll block the project. If the finished item wil
 
 Lay the dry swatch on a flat, hard surface. Don't stretch it.
 
-Place your ruler horizontally across the center, at least an inch from cast-on and bind-off edges. Count stitches across 4 inches to get your stitches per inch. Half stitches count. Don't round them away. If a pattern expects 5 stitches per inch and your swatch gives 4.5, the pattern's 200 body stitches measure about 44 inches instead of 40.
+Place your ruler horizontally across the center, at least an inch from cast-on and bind-off edges. Count the stitches across 4 inches to get your gauge over 4 inches. Divide that count by 4 if you need stitches per inch. Half stitches count. Don't round them away. If a pattern expects 5 stitches per inch and your swatch gives 4.5, the pattern's 200 body stitches measure about 44 inches instead of 40.
 
 Then measure vertically: count rows across 4 inches in the center, away from side edges.
 

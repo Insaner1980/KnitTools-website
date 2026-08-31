@@ -11,23 +11,23 @@ translationKey: "how-to-measure-knitting-gauge"
 
 Neuletiheys on se kohta, jonka moni ohittaa juuri ennen kuin työstä tulee väärän kokoinen. Pipo, joka lerpsahtaa. Villapaita, joka kasvaa teltaksi. Hiha, joka on viisi senttiä pidempi kuin kaaviossa luvattiin. Lähes jokainen näistä tarinoista alkaa samalla tavalla: "mallitilkku tuntui vapaaehtoiselta."
 
-Se ei ole. Ei oikeasti. Mittaa neuletiheys neulomalla vähintään noin 15 cm leveä mallitilkku ohjeen mallineuleella, pese ja viimeistele se, ja laske silmukat ja kerrokset 10 cm matkalta keskeltä tilkkua. Pieni mutka säästää paljon enemmän aikaa kuin puolikkaan vaatteen purkaminen myöhemmin. Matematiikka ei ole vaikea osa. Vaikea osa on tehdä se ennen varsinaista aloitusta.
+Se ei ole. Ei oikeasti. Mittaa neuletiheys neulomalla noin 15 cm leveä ja korkea mallitilkku ohjeen mallineuleella tai noudattamalla ohjeen määrittämää mallitilkun kokoa. Pese ja viimeistele tilkku, ja laske silmukat ja kerrokset 10 cm:n alueelta tilkun keskeltä, riittävän kaukana vääristyneistä reunoista. Pieni mutka säästää paljon enemmän aikaa kuin puolikkaan vaatteen purkaminen myöhemmin. Matematiikka ei ole vaikea osa. Vaikea osa on tehdä se ennen varsinaista aloitusta.
 
 ## Mitä neuletiheys tarkoittaa
 
 Neuletiheys tarkoittaa sitä, montako silmukkaa ja kerrosta mahtuu tiettyyn mittaan neulepintaa. Monissa brittiläisissä ohjeissa sama asia on `tension`. Ohje voi kirjoittaa sen esimerkiksi näin: "20 s ja 26 krs = 10 cm sileää neuletta 4,5 mm puikoilla."
 
-Tämä rivi kertoo, millainen suunnittelijan valmis neulepinta oli. Jos oma neuleesi vastaa sitä, valmiit mitat osuvat todennäköisemmin oikein. Jos ei vastaa, työn mitat alkavat muuttua heti. Eron ei tarvitse olla suuri. Kahden silmukan ero 10 cm matkalla kertyy nopeasti. 100 cm ympäryksessä se voi tarkoittaa noin 10 cm ylimääräistä leveyttä. Siinä on ero "tarpeeksi lähellä" ja "miksi tämä roikkuu hartioilta" välillä.
+Tämä rivi kertoo, millainen suunnittelijan valmis neulepinta oli. Jos oma neuleesi vastaa sitä, valmiit mitat osuvat todennäköisemmin oikein. Jos ei vastaa, työn mitat alkavat muuttua heti. Eron ei tarvitse olla suuri. Kahden silmukan ero 10 cm matkalla kertyy nopeasti. Noin 100 cm:n ympäryksisessä villapaidassa se voi muuttaa valmista ympärysmittaa useita senttimetrejä riippuen tavoiteneuletiheydestä ja siitä, onko oma neuletiheytesi tiukempi vai löysempi. Siinä on ero "tarpeeksi lähellä" ja "miksi tämä roikkuu hartioilta" välillä.
 
 ## Miten mallitilkku neulotaan
 
 Mallitilkku on pieni testipala, joka tehdään omalla langalla, omilla puikoilla ja sillä neulepinnalla, jota projekti käyttää. Siinä koko ajatus. Yksityiskohdilla on silti väliä.
 
-Luo tarpeeksi silmukoita, jotta tilkusta tulee vähintään noin 15 cm leveä. Hieman suurempi on parempi, jos lanka elää paljon tai projektin pitää istua tarkasti. Neuletiheyttä, joka on ilmoitettu 10 cm matkalle, ei koskaan pitäisi mitata reunasta reunaan. Luomisreuna, päättelyreuna ja sivusilmukat käyttäytyvät eri tavalla kuin tilkun keskiosa. Tarvitset mittausalueen ympärille ylimääräistä neuletta, jotta luet oikeaa neulepintaa etkä reunojen vääristymiä.
+Luo tarpeeksi silmukoita noin 15 cm leveään tilkkuun tai noudata ohjeen omaa mallitilkkukokoa. Hieman suurempi on parempi, jos lanka elää paljon tai projektin pitää istua tarkasti. Noin 15 cm on vahva käytännön suositus, koska se jättää 10 cm:n mittausalueen ympärille tilaa, mutta se ei ole yleinen vähimmäismitta. Pienempi tilkku ei ole automaattisesti kelvoton, jos siinä on riittävän suuri, edustava ja vääristymätön keskialue mittausta varten. Luomisreuna, päättelyreuna ja sivusilmukat käyttäytyvät eri tavalla kuin tilkun keskiosa, joten 10 cm:n aluetta ei pidä mitata reunasta reunaan.
 
 Jos ohje sanoo "sileässä neuleessa", tee mallitilkku sileänä neuleena. Jos ohje sanoo "mallineuleessa", käytä projektin mallineuletta. Tämä merkitsee enemmän kuin moni odottaa. Palmikot vetävät kasaan. Pitsi avautuu. Joustin painuu kapeammaksi. Mikään niistä ei käyttäydy kuin tavallinen sileä neule. Palmikkoinen pinta voi samalla silmukkamäärällä olla vaatteen leveydessä selvästi kapeampi kuin sileä neule.
 
-Neulo, kunnes tilkku on vähintään noin 15 cm korkea. Päättele silmukat.
+Neulo, kunnes tilkku on noin 15 cm korkea ja 10 cm:n mittausalue jää riittävän kauas luomis- ja päättelyreunoista. Päättele silmukat.
 
 Tässä vaiheessa moni tarttuu viivaimeen liian aikaisin. Älä mittaa vielä.
 
@@ -101,7 +101,7 @@ Yksi on minimi. Jos ensimmäinen ei osu ja vaihdat puikkokokoa, tarvitset uuden.
 Paksu lanka suurentaa kokovirheitä nopeammin, koska jokainen silmukka on fyysisesti isompi. Kahden silmukan ero 10 cm matkalla liikuttaa bulky-lankaa enemmän kuin fingering-lankaa. Istuviin vaatteisiin neuletiheys on tärkeä kaikilla vahvuuksilla.
 
 **Neuletiheys täsmää viimeistelyn jälkeen mutta ei ennen sitä. Kumpi lasketaan?**
-Viimeistelty neuletiheys. Aina. Se on se neulepinta, jota käytät. Ennen pesua mitattu lukema on vain kuva siitä, mitä lanka tekee puikolla jännityksessä.
+Käytä sitä neuletiheyttä, jonka ohje pyytää mittaamaan: myös viimeistelemätön neuletiheys on pätevä, jos ohje nimenomaan antaa sen. Jos ohje ei täsmennä asiaa, käytä pesun tai viimeistelyn jälkeistä neuletiheyttä sen mukaan, miten valmis työ käsitellään. Kirjaa talteen sekä ennen viimeistelyä että sen jälkeen mitatut arvot.
 
 **Pitääkö mallitilkut säilyttää?**
 Säilyttäminen on hyödyllistä erityisesti villapaidoissa ja muissa töissä, joissa neuletiheyttä voi joutua tarkistamaan kesken projektin. Osa merkitsee tilkkuun puikkokoon ja langan. Osa purkaa sen, kun työ on turvallisesti alkanut. Molemmat toimivat, kunhan tilkku on ensin tehnyt tehtävänsä.

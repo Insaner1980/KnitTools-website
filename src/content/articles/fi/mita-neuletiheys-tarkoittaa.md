@@ -79,7 +79,7 @@ Jokaisella lankavahvuudella on puikkokokoalue, jolla neulepinta toimii. Jos mene
 
 ## Mallineuleen tiheys vai sileä neule?
 
-Useimmat ohjeet antavat neuletiheyden sileässä neuleessa, vaikka projektissa olisi palmikoita, pitsiä tai pintaneulepaneeleita. Osa antaa sen mallineuleessa. Lue tarkasti.
+Ohje voi antaa neuletiheyden sileässä neuleessa tai projektissa käytettävässä mallineuleessa. Lue tarkasti.
 
 Neulo mallitilkku siinä pinnassa, jolle neuletiheys on annettu. Palmikot vetävät kangasta vaakasuunnassa kasaan ja tarvitsevat enemmän silmukoita samaan leveyteen. Pitsi avautuu ja tarvitsee vähemmän. Joustin painuu kasaan levossa ja venyy käytössä, joten sitä on vaikea mitata rehellisesti. Sileän neuleen neuletiheys ei ennusta palmikon neuletiheyttä.
 
@@ -126,7 +126,7 @@ Isommassa heitossa purkaminen on aina vaihtoehto, mutta päätös on paljon help
 
 ## Neuletiheys ja valmiin työn mitat
 
-Silmukkatiheys määrää leveyden. Kerrostiheys määrää korkeuden.
+Tavanomaisessa neuleen suunnassa silmukkatiheys määrää yleensä leveyden ja kerrostiheys pituuden. Sivuttain neulottavassa rakenteessa roolit voivat vaihtua: kerrostiheys voi määrätä leveyden ja silmukkatiheys pituuden.
 
 Kun ohje sanoo "neulo 35 cm", kerrostiheydellä on vähemmän merkitystä, koska lopetat, kun työ on oikean mittainen. Kun ohje sanoo "neulo 96 kerrosta", kerrostiheydellä on paljon enemmän merkitystä, koska pituus riippuu täysin siitä, miten korkeita kerrokset ovat.
 

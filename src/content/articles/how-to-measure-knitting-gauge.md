@@ -13,23 +13,23 @@ tags:
 
 Gauge is the part knitters skip right before a project turns out the wrong size. The hat that came out floppy. The sweater that grew into a tent. The sleeve that landed two inches longer than the schematic promised. Almost every one of those stories starts the same way: "the swatch seemed optional."
 
-It isn't optional. Not really. To measure gauge, knit a swatch at least 6 inches square in the pattern stitch, wash and block it, then count stitches and rows over 4 inches in the center. That small detour saves far more time than ripping half a garment back later. The math isn't the hard part. The hard part is convincing yourself to do it before casting on the real thing.
+It isn't optional. Not really. To measure gauge, knit a swatch about 6 inches square in the pattern stitch, or use the swatch size the pattern specifies. Wash and block it, then count stitches and rows over a central 4-inch area away from the edges. That small detour saves far more time than ripping half a garment back later. The math isn't the hard part. The hard part is convincing yourself to do it before casting on the real thing.
 
 ## What gauge means
 
 Gauge, called tension in many UK patterns, is the number of stitches and rows that fit inside a set measurement of fabric. A pattern might write it as "20 sts and 26 rows = 4 inches in stockinette stitch on US 7 (4.5 mm) needles."
 
-That line is the designer telling you what their finished fabric looked like. If your knitting matches it, the finished measurements have a good chance of matching too. If it doesn't, the project dimensions drift immediately. And the difference doesn't need to be dramatic. Being off by half a stitch per inch adds up fast. On a 40-inch sweater, that half-stitch difference turns into four extra inches around the body. That's the distance between "close enough" and "why is this hanging off the shoulders?"
+That line is the designer telling you what their finished fabric looked like. If your knitting matches it, the finished measurements have a good chance of matching too. If it doesn't, the project dimensions drift immediately. And the difference doesn't need to be dramatic. Being off by half a stitch per inch adds up fast. On a 40-inch sweater, a half-stitch-per-inch mismatch can change the finished width by several inches, depending on the target gauge and whether your gauge is tighter or looser. That's the distance between "close enough" and "why is this hanging off the shoulders?"
 
 ## How to knit a gauge swatch
 
 The swatch is a small test fabric made with your yarn, your needles, and the stitch pattern the project actually uses. That's the whole swatch summed up, really. But the details matter.
 
-Cast on enough stitches to make a swatch at least 6 inches wide. A little larger is better if the yarn is lively or the project is fitted. Gauge listed over 4 inches should never be measured edge to edge. The cast-on edge, the bind-off edge, and the side stitches all behave differently from the center of the fabric. You need extra material around the measurement area so you're reading the real fabric, not the edge distortions.
+Cast on enough stitches to make a swatch about 6 inches wide, or follow the pattern's specific swatch-size instructions. A little larger is better if the yarn is lively or the project is fitted. About 6 inches is a strong recommendation because it leaves extra material around a central 4-inch measurement area, but it isn't a universal minimum. A smaller swatch isn't automatically invalid if it still provides an undistorted central area large enough for the measurement. The cast-on edge, the bind-off edge, and the side stitches all behave differently from the center of the fabric, so the 4-inch area should not run edge to edge.
 
 If the pattern says "in stockinette," swatch in stockinette. If it says "in pattern stitch," use the project stitch pattern. That part matters more than most knitters expect. Cables pull in. Lace opens up. Ribbing compresses. None of those fabrics behave like plain stockinette, and treating them as interchangeable is where gauge goes sideways. A cable-heavy fabric at the same stitch count as stockinette can come out noticeably narrower over a garment width.
 
-Knit until the swatch is at least 6 inches tall. Then bind off.
+Knit until the swatch is about 6 inches tall, leaving enough room to measure 4 inches away from the cast-on and bind-off edges. Then bind off.
 
 This is where many knitters reach for the ruler too early. Don't measure yet.
 
@@ -103,7 +103,7 @@ One is the minimum. If the first swatch misses gauge and you change needle sizes
 Thicker yarn magnifies size errors faster because each stitch is physically larger. A half-stitch-per-inch difference in bulky yarn moves the fabric more than the same error in fingering weight. But for fitted garments, gauge matters at every weight. The stakes just get higher as the yarn gets heavier.
 
 **My gauge matches after blocking but not before. Which one counts?**
-The blocked gauge. Always. That's the fabric you'll actually wear, and the pre-blocking measurement is just a snapshot of what the yarn does under tension on the needle. Post-blocking is reality.
+Use the gauge condition specified by the pattern, including unblocked gauge when that is what it calls for. If it does not specify one, use the gauge after washing or blocking the swatch as you will treat the finished project, and record both the before- and after-blocking measurements.
 
 **Do I need to keep my swatches?**
 Keeping them is useful, especially for sweaters or anything where you might need to re-check gauge mid-project. Some knitters label them with the needle size and yarn. Some unravel them once the project is safely underway. Either works, as long as the swatch has already done its job.

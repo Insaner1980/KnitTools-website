@@ -45,7 +45,7 @@ Haluat 42 cm leveän kappaleen. Mallitilkku antaa 19 silmukkaa / 10 cm. Ensin mu
 
 Pyöristys ei ole pelkkä tekninen vaihe. 80 silmukkaa on luonteva vastaus sileään neuleeseen tai 2x2-joustimeen. Jos mallikerta tarvitsee 6 silmukkaa plus 2 reunasilmukkaa, 80 ei ehkä toimikaan. Silloin valitaan lähin toimiva luku, ei lähin matemaattinen kokonaisluku.
 
-Jos reunasilmukat lisätään erikseen, laske ne omana osanaan ja lisää vasta lopuksi. Yksi reunasilmukka kumpaankin reunaan tarkoittaa tässä esimerkissä 82 silmukkaa eikä 80.
+Jos 42 cm tarkoittaa keskimmäisen mallineulealueen leveyttä, yhden reunasilmukan lisääminen alueen kummankin reunan ulkopuolelle nostaa luomismäärän 80:stä 82 silmukkaan. Jos 42 cm tarkoittaa kappaleen koko tavoiteleveyttä, reunasilmukat sisältyvät laskettuun 80 silmukkaan eikä niitä lisätä erikseen. 82 silmukkaa tiheydellä 1,9 silmukkaa senttimetriä kohti ei vastaa täsmälleen 42 cm:n leveyttä.
 
 ## Mallikerran mukaan säätäminen
 
@@ -98,7 +98,7 @@ Näkyvään joustinreunaan, kuten neulepaidan helmaan, tubular cast on tai saksa
 
 Suljetussa neuleessa lasku on sama kuin tasona: neuletiheys kertaa tavoiteympärys. Pipossa ja sukassa tavoiteympärys on yleensä kehon mittaa pienempi, koska neule tarvitsee negatiivista väljyyttä. Jos pipon pitää olla 54 cm ympäri ja neuletiheys on 20 silmukkaa / 10 cm, peruslasku antaa 108 silmukkaa. Sen jälkeen tarkistetaan joustin, mallikerta ja kavennusjako.
 
-Ennen ensimmäistä kierrosta levitä puikko tasaiseksi ja tarkista, että jokainen silmukka katsoo samaan suuntaan. Luomisreunan pitää kulkea puikon sisäpuolella ilman spiraalia. Kiertynyt yhdistäminen on pysyvä virhe, ja ainoa varma korjaus on purkaa aloitus ja luoda silmukat uudelleen.
+Ennen ensimmäistä kierrosta levitä puikko tasaiseksi ja tarkista, että jokainen silmukka katsoo samaan suuntaan. Luomisreunan pitää kulkea puikon sisäpuolella ilman spiraalia. Jos huomaat kiertymän ensimmäisen kierroksen lopussa, voit vielä korjata sen yhdistämiskohdassa. Kun useampia kierroksia on neulottu, purkaminen on yleensä siistein ratkaisu.
 
 Yhdistymiskohtaan jäävän pienen raon voi usein siistiä luomalla yhden ylimääräisen silmukan ja kaventamalla sen pois yhdistäessä. Työn varsinainen silmukkamäärä pysyy oikeana, mutta aloituskohdasta tulee siistimpi.
 

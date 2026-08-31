@@ -23,7 +23,9 @@ Tarvitsitpa lisäyksiä tai kavennuksia, lasku on sama. Jaa nykyinen silmukkamä
 
 Nykyinen silmukkamäärä / muutosten määrä = muotoilukohtien väli.
 
-Lisäyksissä väli kertoo, montako silmukkaa yhdessä osiossa on, ja uusi silmukka tehdään osion lopussa. Kavennuksissa väli on koko toiston koko, ja toiston kaksi viimeistä silmukkaa kavennetaan yhteen.
+Väli kertoo, kuinka monta nykyistä silmukkaa kuuluu kuhunkin muutokseen, mutta kirjoitettu toisto riippuu menetelmästä. Alla olevissa M1-esimerkeissä lisäys tehdään nykyisten silmukoiden väliin, joten väli 10 voidaan kirjoittaa `10 o, M1`. KFB tehdään olemassa olevaan silmukkaan, joka kuuluu väliin: kirjoita `9 o, KFB`, ei `10 o, KFB`, sillä jälkimmäinen kuluttaa 11 alkuperäistä silmukkaa. Kavennuksissa väli sisältää kavennuksen kuluttamat silmukat; `2 o yhteen` kuluttaa kaksi alkuperäistä silmukkaa.
+
+Jos jotkin reunasilmukat on tarkoitus jättää muotoilun ulkopuolelle, vähennä niiden kokonaismäärä ennen välin laskemista: `(nykyinen silmukkamäärä - varatut reunasilmukat) / muutosten määrä`. Jaa muutokset vain jäljelle jääville työstettäville silmukoille ja neulo varatut reunasilmukat ohjeen mukaan; ne pysyvät silti osana kerroksen kokonaismäärää. Jos reunasilmukat osallistuvat muotoilun jakoon, käytä koko nykyistä silmukkamäärää. Tämä ei ole sama asia kuin ensimmäisen ja viimeisen välin jakaminen, jossa reunimmaiset silmukat osallistuvat edelleen jakoon.
 
 Sama lasku, kaksi hieman eri tapaa ajatella sitä.
 

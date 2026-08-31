@@ -25,7 +25,7 @@ Before changing anything, rule out measurement error. Lay the swatch flat on a h
 
 Count stitches across 4 inches. Include half-stitches because they matter. A swatch that reads "20 stitches" when you round versus "19.5 stitches" when you count honestly is a real difference across a full garment. The [gauge measurement guide](/articles/how-to-measure-knitting-gauge/) covers the full process, but the short version: measure in the center, count precisely, don't stretch.
 
-If the swatch is smaller than about 6 inches square, the edge distortions eat into your measurement area and the reading gets unreliable. Bigger swatches give more honest numbers.
+A swatch about 6 inches square is a practical choice because it leaves room for a central 4-inch measurement area away from the cast-on, bind-off, and side edges. It is not a universal minimum: a smaller swatch can still be usable if it provides a large enough representative, undistorted area for the measurement. Follow any specific swatch-size or measurement instructions in the pattern.
 
 Measure in two places on the swatch and average them. Hand-knit fabric isn't perfectly uniform, and a single measurement can sit on a slightly looser or tighter patch.
 
@@ -122,7 +122,7 @@ For fitted garments, aim for an exact match on stitch gauge. For accessories, wi
 If the finished item will be washed, yes. Some yarns change gauge noticeably after washing. Superwash wool can grow in length, cotton can relax, and alpaca can stretch or drape. Knit the swatch, wash and block it the way you'll treat the finished piece, let it dry completely, then measure. The [gauge swatch walkthrough](/articles/gauge-swatch-step-by-step/) covers the full process.
 
 **Does blocking affect gauge?**
-Wet blocking can open up stitches, especially in lace and looser fabrics. Wool can often be shaped while damp. Cotton may relax without springing back the way wool does. Always measure your swatch after blocking. The pre-blocked number isn't the number that matters.
+Wet blocking can open up stitches, especially in lace and looser fabrics. Wool can often be shaped while damp. Cotton may relax without springing back the way wool does. Use the gauge condition specified by the pattern, including unblocked gauge when that is what it calls for. If the pattern does not specify one, use the gauge after washing or blocking the swatch as you will treat the finished project. Record both the before- and after-blocking measurements so you can compare the swatch with your work before the project itself has been washed or blocked.
 
 **My stitch gauge matches but my row gauge is off. What do I do?**
 Work to measurements instead of row counts whenever the pattern allows. If the pattern specifies shaping by row number, convert those rows to inches using the pattern's row gauge, then work to those measurements using yours.
