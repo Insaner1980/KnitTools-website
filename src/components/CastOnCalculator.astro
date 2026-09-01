@@ -239,25 +239,33 @@ const copy = {
     calculators.forEach((calc) => {
       const gaugeInput = calc.querySelector("#gauge") as HTMLInputElement;
       const widthInput = calc.querySelector("#width") as HTMLInputElement;
+      const gaugeLabel = calc.querySelector(
+        'label[for="gauge"]',
+      ) as HTMLLabelElement;
+      const widthLabel = calc.querySelector(
+        'label[for="width"]',
+      ) as HTMLLabelElement;
       const unitRadios = calc.querySelectorAll('input[name="unit"]');
       const calcBtn = calc.querySelector(".calc-btn") as HTMLButtonElement;
       const resultEl = calc.querySelector("#cast-on-result") as HTMLElement;
       const resultArea = calc.querySelector(".result-area") as HTMLElement;
 
-      if (!gaugeInput || !widthInput || !calcBtn || !resultEl || !resultArea)
+      if (
+        !gaugeInput ||
+        !widthInput ||
+        !gaugeLabel ||
+        !widthLabel ||
+        !calcBtn ||
+        !resultEl ||
+        !resultArea
+      )
         return;
 
       const id = Math.random().toString(36).slice(2, 8);
       gaugeInput.id = `gauge-${id}`;
-      (gaugeInput.previousElementSibling as HTMLElement).setAttribute(
-        "for",
-        gaugeInput.id,
-      );
+      gaugeLabel.setAttribute("for", gaugeInput.id);
       widthInput.id = `width-${id}`;
-      (widthInput.previousElementSibling as HTMLElement).setAttribute(
-        "for",
-        widthInput.id,
-      );
+      widthLabel.setAttribute("for", widthInput.id);
       resultEl.id = `cast-on-result-${id}`;
       unitRadios.forEach((r) => {
         (r as HTMLInputElement).name = `unit-${id}`;

@@ -331,6 +331,75 @@ const faqItems = [
   <ResponsiveTableControls />
 </PageLayout>
 
+<script>
+  const searchInput = document.getElementById(
+    "needle-search",
+  ) as HTMLInputElement | null;
+  const table = document.getElementById("needle-table");
+  const noResults = document.getElementById("no-results");
+
+  if (searchInput && table && noResults) {
+    const rows = table.querySelectorAll<HTMLElement>("tbody tr");
+
+    searchInput.addEventListener("input", () => {
+      const raw = searchInput.value.trim().toLowerCase();
+      const normalizedRaw = raw.replace(",", ".");
+
+      if (!raw) {
+        rows.forEach((row) => {
+          row.style.display = "";
+        });
+        noResults.hidden = true;
+        return;
+      }
+
+      let targetCol: string | null = null;
+      let query = normalizedRaw;
+
+      if (normalizedRaw.startsWith("us ")) {
+        targetCol = "us";
+        query = normalizedRaw.slice(3).trim();
+      } else if (normalizedRaw.startsWith("uk ")) {
+        targetCol = "uk";
+        query = normalizedRaw.slice(3).trim();
+      } else if (
+        normalizedRaw.startsWith("jp ") ||
+        normalizedRaw.startsWith("japan ") ||
+        normalizedRaw.startsWith("japanese ")
+      ) {
+        targetCol = "jp";
+        query = normalizedRaw.replace(/^(jp|japan|japanese)\s+/, "").trim();
+      }
+
+      let visibleCount = 0;
+
+      rows.forEach((row) => {
+        const mm = row.dataset.mm || "";
+        const us = row.dataset.us || "";
+        const uk = row.dataset.uk || "";
+        const jp = row.dataset.jp || "";
+
+        const match =
+          targetCol === "us"
+            ? us === query
+            : targetCol === "uk"
+              ? uk === query
+              : targetCol === "jp"
+                ? jp === query
+                : mm.startsWith(query) ||
+                  us === query ||
+                  uk === query ||
+                  jp === query;
+
+        row.style.display = match ? "" : "none";
+        if (match) visibleCount++;
+      });
+
+      noResults.hidden = visibleCount > 0;
+    });
+  }
+</script>
+
 <style>
   /* ---- Shared section rhythm (v11 editorial) ---- */
   .tool-hero,

@@ -1,5 +1,7 @@
 import assert from "node:assert/strict";
+import { spawnSync } from "node:child_process";
 import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
 import test from "node:test";
 
 function read(path) {
@@ -151,4 +153,59 @@ test("homepage privacy card keeps the requested device-local copy", () => {
     /body:\s*"Your stash, patterns, and projects stay on your device\."/,
   );
   assert.doesNotMatch(trust, /nothing sold, nothing tracked/);
+});
+
+test("cast-on calculator keeps labels connected after assigning unique input IDs", () => {
+  const source = read("src/components/CastOnCalculator.astro");
+
+  assert.match(source, /label\[for="gauge"\]/);
+  assert.match(source, /label\[for="width"\]/);
+  assert.match(source, /gaugeLabel\.setAttribute\("for", gaugeInput\.id\)/);
+  assert.match(source, /widthLabel\.setAttribute\("for", widthInput\.id\)/);
+  assert.doesNotMatch(
+    source,
+    /previousElementSibling[\s\S]*?setAttribute\(\s*"for"/,
+  );
+});
+
+test("English needle size search filters table rows on input", () => {
+  const source = read("src/pages/tools/needle-size-chart.astro");
+
+  assert.match(source, /searchInput\.addEventListener\("input",/);
+  assert.match(source, /row\.style\.display = match \? "" : "none"/);
+  assert.match(source, /noResults\.hidden = visibleCount > 0/);
+});
+
+test(
+  "Astro verification wrapper returns the npm failure exit code",
+  { skip: process.platform !== "win32" },
+  () => {
+    const scriptPath = resolve("tools/astro.ps1").replaceAll("'", "''");
+    const result = spawnSync(
+      "pwsh",
+      [
+        "-NoProfile",
+        "-Command",
+        `$PSNativeCommandUseErrorActionPreference = $false; function npm { & cmd.exe /c exit 7 }; & '${scriptPath}'`,
+      ],
+      { encoding: "utf8" },
+    );
+
+    assert.notEqual(result.status, 0, result.stderr || result.stdout);
+  },
+);
+
+test("Bulgaria uses the euro pricing tier", async () => {
+  const { getPricingTier } = await import("../src/config/pricing.ts");
+
+  assert.equal(getPricingTier("BG"), "EU");
+});
+
+test("WPI input disables transitions across the Astro component boundary", () => {
+  const source = read("src/pages/tools/yarn-weight-chart.astro");
+
+  assert.match(
+    source,
+    /@media \(prefers-reduced-motion: reduce\)[\s\S]*?:global\(\.wpi-input\)[\s\S]*?transition: none;/,
+  );
 });

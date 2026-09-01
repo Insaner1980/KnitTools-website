@@ -30,6 +30,7 @@ export const COUNTRY_TO_TIER: Record<string, PricingTier> = {
 
   AT: "EU",
   BE: "EU",
+  BG: "EU",
   HR: "EU",
   CY: "EU",
   EE: "EU",
