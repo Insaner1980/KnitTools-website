@@ -2,7 +2,7 @@
 
 ## Project
 
-Astro 6 -staattinen sivusto. Neulontasovelluksen (Android) landing page + kuusi ilmaista selainpohjaista työkalua (2 laskuria + 4 referenssitaulukkoa) + artikkeliosio.
+Astro 7.1.6 -staattinen sivusto. Neulontasovelluksen (Android) landing page + kuusi ilmaista selainpohjaista työkalua (2 laskuria + 4 referenssitaulukkoa) + artikkeliosio.
 
 ## Commands
 
@@ -48,7 +48,7 @@ sonar             # SonarCloud-skannaus, raportit reports/sonar*.*
 | General Sans 400/500/600 | Body, nav, labels, napit, metadata | `--font-body`, `--body-ed`, `--mono` |
 | Teko 400/500 subset | KnitTools-wordmark/logo | `--font-logo` |
 
-`BaseLayout` preloadittaa Lalezar, General Sans 400/500 ja Teko 500 -fontit.
+`BaseLayout` esilataa oletuksena Teko 500:n sekä General Sansin 400- ja 600-leikkaukset. Lalezar-esilataus on valinnainen, ja etusivu jättää sen pois nykyisellä layout-asetuksella.
 
 ### Typography
 
@@ -104,7 +104,7 @@ Englanti on oletuskieli ilman kieliprefiksiä. Älä lisää julkisia `/en/`-rei
 | `/sv/verktyg/storlekstabeller-stickning/` | Storlekstabeller för stickning |
 | `/sv/artiklar/` | Ruotsinkielinen artikkelilista |
 | `/sv/artiklar/kategori/[slug]/` | Ruotsinkielinen kategoria |
-| `/sv/artiklar/[slug]/` | Ruotsinkielinen artikkelidraft (dev-only ennen hyväksyntää) |
+| `/sv/artiklar/[slug]/` | Ruotsinkielinen julkinen artikkeli; erilliset indeksi-, kategoria- ja artikkelireittitiedostot julkaisevat kaikki 38 artikkelia (`draft: false`) |
 | `/no/verktoy/` | Norjankielinen tools listing |
 | `/no/verktoy/oppleggskalkulator/` | Oppleggskalkulator |
 | `/no/verktoy/garnberegner/` | Garnberegner |
@@ -112,9 +112,9 @@ Englanti on oletuskieli ilman kieliprefiksiä. Älä lisää julkisia `/en/`-rei
 | `/no/verktoy/garntykkelser/` | Garntykkelser |
 | `/no/verktoy/strikkeforkortelser/` | Strikkeforkortelser |
 | `/no/verktoy/storrelsestabeller-strikking/` | Størrelsestabeller for strikking |
-| `/no/artikler/` | Norjankielinen artikkelilista (dev-only draft-tarkistus ennen hyväksyntää) |
-| `/no/artikler/kategori/[slug]/` | Norjankielinen kategoria (dev-only draft-tarkistus ennen hyväksyntää) |
-| `/no/artikler/[slug]/` | Norjankielinen artikkelidraft (dev-only ennen hyväksyntää) |
+| `/no/artikler/` | Norjankielinen julkinen artikkelilista; yksi catch-all-reitti tuottaa indeksi-, kategoria- ja artikkelinäkymät `buildLocalizedArticleStaticPaths`-helperillä |
+| `/no/artikler/kategori/[slug]/` | Norjankielinen julkinen kategoria |
+| `/no/artikler/[slug]/` | Norjankielinen julkinen artikkeli; kaikki 38 artikkelia ovat `draft: false`, sisäinen avain on `no` ja HTML-`lang`/hreflang on Bokmålin `nb` |
 | `/fr/outils/` | Ranskankielinen tools listing |
 | `/fr/outils/calculateur-mailles-a-monter/` | Calculateur de mailles à monter |
 | `/fr/outils/estimateur-quantite-laine/` | Estimateur de quantité de laine |
@@ -197,7 +197,7 @@ Englanti on oletuskieli ilman kieliprefiksiä. Älä lisää julkisia `/en/`-rei
 
 ## Tools Listing Page (`/tools/`)
 
-Bento grid -layout. Ylärivi: Cast On Calculator + Yarn Estimator (50/50). Alarivi 1: Yarn Weight Chart + Needle Size Chart. Alarivi 2: Knitting Size Charts + Knitting Abbreviations. CSS-luokat: `card-top-left`, `card-top-right`, `card-bl1`, `card-br1`, `card-bl2`, `card-br2`.
+Bento grid -layout. Ylärivi: Cast On Calculator + Yarn Estimator (50/50). Alarivi: Yarn Weight Chart + Needle Size Chart + Knitting Size Charts + Knitting Abbreviations. ToolsIndexPage käyttää leveällä näytöllä 12-palstaista gridiä: kaksi yläkorttia vievät kumpikin 6/12 palstaa, ja neljä alakorttia vievät kukin 3/12 palstaa samalla alarivillä. CSS-luokat: `card-top-left`, `card-top-right`, `card-bl1`, `card-br1`, `card-bl2`, `card-br2`.
 
 Kortit: stripe-paletin väritaustat (terracotta, rust, teal, sand, brown), terävät kulmat (border-radius: 0), Lalezar-otsikot ja General Sans -kuvaukset. Ei watermarkia, ei kategorialabeleita.
 
@@ -205,11 +205,11 @@ Tablet (≤1024px): 2-sarakkeinen. Mobiililla (≤768px): yksisarakkeinen. JSON-
 
 ## Landing Page -rakenne (nykyinen)
 
-Hero (editorial two-column, Teko KnitTools wordmark, signup card) → Marquee → NineTools (5 free + 3 Pro -korttia) → FreeToolsCallout → TrustSection → PullQuote → PricingCards → ClosingCTA → Footer
+Hero (editorial two-column, Teko KnitTools wordmark, signup card) → Marquee → YarnPath → NineTools (5 free + 3 Pro -korttia) → FreeToolsCallout → TrustSection → YarnPath → PullQuote → PricingCards → HomeFaq → ClosingCTA → Footer
 
 Etusivun JSON-LD käyttää `@graph`-rakennetta: `Organization` (`Finnvek`, `contact@finnvek.com`, Instagram/TikTok/YouTube/X `sameAs`) + `SoftwareApplication` (`KnitTools`) jossa `publisher` viittaa Finnvek-organisaatioon. `offers.availability` ei ole käytössä ennen todellista Google Play -tilausta/latausta; älä lisää `PreOrder`/`PreSale`-arvoja pelkkää launch-ilmoittautumista varten.
 
-`/about/` on englanninkielinen KnitTools/Finnvek trust page. Se kertoo tuotteesta ja Finnvekin riippumattomasta ohjelmistotaustasta ilman henkilöbrändäystä. Sivulla on oma `AboutPage` + `BreadcrumbList` JSON-LD ja sama Finnvek `Organization`/`sameAs`-signaali kuin etusivulla. Footerin App-osiossa on About-linkki, footer-bottomissa näkyy `contact@finnvek.com`, ja someikonit käyttävät optimoituja 64x64 WebP-assetteja kansiosta `/public/brand/`. Finnvek/contact/some-profiilit ovat yhdessä lähteessä `src/config/brand.ts`; samaa lähdettä käyttävät footer, structured data ja `BaseLayout`in head-linkit. X-profiili käyttää footerissa mustaa `public/brand/x.webp`-ikonia, koska nykyinen footer-teema on vaalea.
+`/about/` on englanninkielinen KnitTools/Finnvek trust page. Se kertoo tuotteesta ja Finnvekin riippumattomasta ohjelmistotaustasta ilman henkilöbrändäystä. Sivulla on oma `AboutPage` + `BreadcrumbList` JSON-LD ja sama Finnvek `Organization`/`sameAs`-signaali kuin etusivulla. Footer sisältää About-linkin, Contact-linkin, jonka `href` tulee `CONTACT_MAILTO`-arvosta, sekä Finnvek-linkin, jonka `href` tulee `FINNVEK_URL`-arvosta. Footer ei näytä sähköpostiosoitetta tekstinä eikä renderöi someikoneita tai suoria someprofiililinkkejä. `SOCIAL_PROFILE_URLS` ei kuulu Footerin toteutukseen.
 
 Landing käyttää nykyistä paper/ink-editorial-palettia. Oikean reunan stripe-nauhaa ei renderöidä nykyisessä koodissa.
 
