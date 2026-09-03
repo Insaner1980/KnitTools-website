@@ -18,23 +18,23 @@ translationKey: "how-to-measure-knitting-gauge"
 
 Die Maschenprobe ist der Teil, den viele genau dann überspringen, bevor ein Projekt in der falschen Größe endet. Die Mütze wird schlabbrig. Der Pullover wächst zum Zelt. Der Ärmel wird fünf Zentimeter länger als die Skizze versprochen hat. Fast jede dieser Geschichten beginnt gleich: "Die Maschenprobe schien optional."
 
-Ist sie nicht. Nicht wirklich. Um die Maschenprobe zu messen, strickst du ein Probestück von mindestens etwa 15 cm im Quadrat im angegebenen Muster, wäschst und spannst es und zählst dann Maschen und Reihen über 10 cm in der Mitte. Dieser kleine Umweg spart viel mehr Zeit, als später ein halbes Kleidungsstück aufzuribbeln. Die Mathematik ist nicht der schwierige Teil. Schwierig ist, sich vor dem eigentlichen Anschlag dazu zu bringen.
+Ist sie nicht. Nicht wirklich. Um die Maschenprobe zu messen, strickst du eine etwa 15 cm große Maschenprobe im angegebenen Muster oder hältst dich an die Größenangabe der Anleitung. Dann wäschst und spannst du sie und zählst Maschen und Reihen über 10 cm in der Mitte. Dieser kleine Umweg spart viel mehr Zeit, als später ein halbes Kleidungsstück aufzuribbeln. Die Mathematik ist nicht der schwierige Teil. Schwierig ist, sich vor dem eigentlichen Anschlag dazu zu bringen.
 
 ## Was Maschenprobe bedeutet
 
 Die Maschenprobe, in englischen Anleitungen oft gauge oder tension genannt, ist die Anzahl von Maschen und Reihen, die in ein bestimmtes Maß Stoff passen. Eine Anleitung kann sie zum Beispiel so angeben: "20 M und 26 R = 10 cm glatt rechts mit 4,5 mm Nadeln."
 
-Diese Zeile sagt dir, wie der fertige Stoff der Designerin oder des Designers aussah. Wenn dein Gestrick dazu passt, passen die fertigen Maße wahrscheinlich auch. Wenn nicht, verschieben sich die Projektmaße sofort. Der Unterschied muss nicht dramatisch sein. Zwei Maschen Unterschied auf 10 cm summieren sich schnell. Bei einem Pullover mit 100 cm Umfang können daraus etwa 10 cm zusätzliche Weite werden. Das ist der Unterschied zwischen "passt ungefähr" und "warum hängt das von den Schultern?"
+Diese Zeile sagt dir, wie der fertige Stoff der Designerin oder des Designers aussah. Wenn dein Gestrick dazu passt, passen die fertigen Maße wahrscheinlich auch. Wenn nicht, verschieben sich die Projektmaße sofort. Der Unterschied muss nicht dramatisch sein. Auch eine kleine Abweichung summiert sich. Bei einem Pullover mit 100 cm Umfang können zwei Maschen Abweichung auf 10 cm die fertige Weite um mehrere Zentimeter verändern. Wie groß der Unterschied ist, hängt von der Ziel-Maschenprobe und davon ab, ob du fester oder lockerer strickst.
 
 ## Wie du eine Maschenprobe strickst
 
 Die Maschenprobe ist ein kleines Teststück aus deinem Garn, deinen Nadeln und genau dem Muster, das das Projekt verwendet. Das ist die ganze Idee. Die Details zählen trotzdem.
 
-Schlage genug Maschen an, damit die Probe mindestens etwa 15 cm breit wird. Etwas größer ist besser, wenn das Garn lebhaft ist oder das Projekt genau sitzen muss. Eine Maschenprobe, die über 10 cm angegeben ist, solltest du nie von Rand zu Rand messen. Anschlagkante, Abkettkante und Randmaschen verhalten sich anders als die Stoffmitte. Du brauchst zusätzlichen Stoff um die Messfläche herum, damit du den echten Stoff misst und nicht die verzogenen Ränder.
+Etwa 15 cm sind eine starke Empfehlung, weil um die mittlere Messfläche von 10 cm zusätzlicher Stoff bleibt, aber kein allgemeines Mindestmaß. Auch eine kleinere Probe kann brauchbar sein, wenn sie eine ausreichend große, unverzerrte Messfläche in der Mitte bietet. Eine Maschenprobe, die über 10 cm angegeben ist, solltest du nie von Rand zu Rand messen. Anschlagkante, Abkettkante und Randmaschen verhalten sich anders als die Stoffmitte. Du brauchst zusätzlichen Stoff um die Messfläche herum, damit du den echten Stoff misst und nicht die verzogenen Ränder.
 
 Wenn die Anleitung "glatt rechts" sagt, stricke glatt rechts. Wenn sie "im Muster" sagt, verwende das tatsächliche Muster des Projekts. Das ist wichtiger, als viele erwarten. Zöpfe ziehen sich zusammen. Lochmuster öffnen sich. Rippenmuster komprimiert. Keiner dieser Stoffe verhält sich wie schlichtes glatt rechts. Ein stark verzopfter Stoff kann bei derselben Maschenzahl über eine Pulloverbreite deutlich schmaler werden als glatt rechts.
 
-Stricke, bis die Probe mindestens etwa 15 cm hoch ist. Dann kette ab.
+Stricke bis etwa 15 cm Höhe oder bis eine mittlere Messfläche von 10 cm mit Abstand zu Anschlag- und Abkettkante vorhanden ist. Dann kette ab.
 
 An dieser Stelle greifen viele zu früh zum Lineal. Miss noch nicht.
 
@@ -108,7 +108,7 @@ Eine ist das Minimum. Wenn die erste Probe nicht passt und du die Nadelstärke �
 Dickeres Garn vergrößert Größenfehler schneller, weil jede Masche physisch größer ist. Zwei Maschen Unterschied auf 10 cm bewegen den Stoff bei Bulky-Garn stärker als bei Fingering. Bei passgenauer Kleidung zählt die Maschenprobe aber in jeder Garnstärke.
 
 **Meine Maschenprobe passt nach dem Spannen, aber nicht davor. Welche zählt?**
-Die gespannte und getrocknete Maschenprobe. Immer. Das ist der Stoff, den du später trägst. Die Messung vor dem Waschen ist nur eine Momentaufnahme dessen, was das Garn unter Spannung auf der Nadel macht.
+Verwende den Messzustand, den die Anleitung vorgibt, auch ungespannt, wenn sie das ausdrücklich verlangt. Fehlt eine Angabe, miss die Probe nach dem Waschen oder Spannen so, wie du das fertige Projekt behandeln wirst. Notiere sowohl den Wert davor als auch den Wert danach.
 
 **Soll ich Maschenproben aufbewahren?**
 Das ist nützlich, besonders bei Pullovern und allem, bei dem du die Maschenprobe mitten im Projekt erneut prüfen möchtest. Manche beschriften die Probe mit Garn und Nadelstärke. Andere ribbeln sie auf, sobald das Projekt sicher läuft. Beides ist in Ordnung, solange die Probe ihren Zweck erfüllt hat.

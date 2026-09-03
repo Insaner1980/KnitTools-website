@@ -78,7 +78,7 @@ Es gibt außerdem einen Bereich, in dem ein Garn einen sinnvollen Stoff ergibt. 
 
 ## Musterprobe oder glatt rechts?
 
-Die meisten Anleitungen geben die Maschenprobe in glatt rechts an, auch wenn das Projekt Zöpfe, Lochmuster oder Strukturflächen enthält. Manche geben sie direkt im Muster an. Lies genau.
+Eine Anleitung kann die Maschenprobe glatt rechts oder in dem Muster angeben, das im Projekt verwendet wird. Lies genau.
 
 Miss die Maschenprobe in dem Muster, das die Anleitung verlangt. Zöpfe ziehen den Stoff in der Breite zusammen und brauchen mehr Maschen für dieselbe Breite. Lochmuster öffnet sich und braucht oft weniger. Rippenmuster zieht sich entspannt zusammen und dehnt sich beim Tragen, was ehrliches Messen erschwert. Eine glatt-rechts-Probe sagt eine Zopf-Maschenprobe nicht zuverlässig voraus.
 
@@ -123,7 +123,7 @@ Bei stärkerer Abweichung ist Aufribbeln immer eine Möglichkeit. Diese Entschei
 
 ## Maschenprobe und fertige Maße
 
-Die Maschenprobe in der Breite steuert die Breite des Projekts. Die Reihenprobe steuert die Höhe.
+Bei Strickstücken in üblicher Arbeitsrichtung bestimmt die Maschenprobe in der Breite im Allgemeinen die Breite, die Reihenprobe die Länge. Bei quer gestrickten Konstruktionen können sich diese Rollen ändern: Dann kann die Reihenprobe die Breite und die Maschenprobe die Länge bestimmen.
 
 Wenn eine Anleitung sagt: "stricke bis 35 cm", ist die Reihenprobe weniger kritisch, weil du stoppst, sobald der Stoff die Zielhöhe erreicht. Wenn die Anleitung sagt: "stricke 96 Reihen", ist die Reihenprobe deutlich wichtiger, weil die Länge vollständig davon abhängt, wie hoch jede Reihe ist.
 

@@ -26,7 +26,7 @@ Bevor du etwas änderst, schließe Messfehler aus. Lege die Maschenprobe flach a
 
 Zähle die Maschen über 10 cm. Zähle auch halbe Maschen. Sie zählen. Eine Probe, die gerundet "20 Maschen" zeigt, kann ehrlich gezählt 19,5 Maschen haben, und das ist über ein ganzes Kleidungsstück ein echter Unterschied. Der Artikel [Maschenprobe messen](/de/artikel/maschenprobe-messen/) zeigt den ganzen Ablauf. Die Kurzfassung: in der Mitte messen, genau zählen, nicht ziehen.
 
-Wenn die Probe kleiner als etwa 15 cm im Quadrat ist, fressen die verzogenen Ränder zu viel von der Messfläche auf und die Zahl wird unzuverlässig. Größere Proben geben ehrlichere Werte.
+Eine Maschenprobe von etwa 15 cm im Quadrat ist praktisch, weil sie Platz für eine mittlere Messfläche von 10 cm mit Abstand zu Anschlag-, Abkett- und Seitenrändern lässt. Das ist kein allgemeines Mindestmaß: Auch eine kleinere Probe kann brauchbar sein, wenn sie eine ausreichend große, repräsentative und unverzerrte Messfläche bietet. Folge konkreten Größen- oder Messvorgaben der Anleitung.
 
 Miss an zwei Stellen der Probe und bilde den Durchschnitt. Handgestrickter Stoff ist nie völlig gleichmäßig, und eine einzelne Messung kann gerade auf einer etwas festeren oder lockereren Stelle liegen.
 
@@ -66,7 +66,7 @@ Die Maschenprobe direkt von den Nadeln ist nicht immer dieselbe wie nach Waschen
 
 Wolle kann aufblühen und die Maschen füllen. Baumwolle kann nach unten entspannen. Superwash-Wolle kann wachsen, besonders in der Länge. Alpaka kann sich dehnen und stärker fallen. Leinen wird weicher, und die Maschenprobe kann sich öffnen.
 
-Die praktische Regel: Behandle die Probe genauso, wie du das fertige Stück behandeln wirst, und miss erst danach. Wenn du das Spannen überspringst und nach der rohen Zahl anschlägst, kann ein Kleidungsstück nach der ersten Wäsche eine ganze Größe danebenliegen.
+Maßgeblich ist der Messzustand, den die Anleitung vorgibt, auch ungespannt, wenn sie das ausdrücklich verlangt. Fehlt eine Angabe, behandle die Probe wie das fertige Stück und miss danach. Notiere beide Werte, damit du die Probe auch mit dem noch unbehandelten Projekt vergleichen kannst.
 
 ## Wann Maschenprobe weniger zählt
 
@@ -126,7 +126,7 @@ Wenn das fertige Teil gewaschen wird, ja. Manche Garne verändern die Maschenpro
 
 **Beeinflusst Spannen die Maschenprobe?**
 
-Nassspannen öffnet Maschen oft leicht, besonders bei Lochmustern und lockeren Stoffen. Wolle kann auf ein Zielmaß gedehnt und festgesteckt werden. Baumwolle hält ihre Form anders. Miss die Probe immer nach dem Spannen. Die ungespannte Zahl ist nicht die entscheidende.
+Nassspannen öffnet Maschen oft leicht, besonders bei Lochmustern und lockeren Stoffen. Wolle kann auf ein Zielmaß gedehnt und festgesteckt werden. Baumwolle hält ihre Form anders. Verwende den Messzustand der Anleitung. Fehlt eine Angabe, miss nach der Behandlung wie beim fertigen Projekt und notiere den Wert davor und danach.
 
 **Meine Maschenprobe in der Breite passt, aber die Reihenprobe nicht. Was mache ich?**
 

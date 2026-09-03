@@ -24,9 +24,11 @@ Ob du Maschen zunehmen oder abnehmen sollst, die Grundrechnung ist dieselbe. Tei
 
 Aktuelle Maschenzahl / Anzahl der Änderungen = Abstand zwischen den Änderungen.
 
-Bei Zunahmen sagt dir der Abstand, wie viele vorhandene Maschen in jedem Abschnitt liegen. Am Ende jedes Abschnitts arbeitest du eine neue Masche dazu. Bei Abnahmen ist der Abstand die Wiederholungsgröße, und die letzten zwei Maschen jeder Wiederholung werden zusammen abgenommen.
+Der Abstand sagt dir, wie viele vorhandene Maschen zu jeder Änderung gehören; die ausgeschriebene Wiederholung hängt aber von der Methode ab. Bei M1 liegt die Zunahme zwischen vorhandenen Maschen, daher kann ein Abstand von 10 als „10 M stricken, M1“ geschrieben werden. Bei KFB zählt die Masche, in die du einstichst, zum Abstand: „9 M stricken, KFB“, nicht „10 M stricken, KFB“, denn Letzteres verbraucht 11 vorhandene Maschen. Bei Abnahmen umfasst der Abstand auch die Maschen, die für die Abnahme zusammengestrickt werden.
 
 Gleiche Rechnung, zwei leicht unterschiedliche Blickwinkel.
+
+Wenn Rand- oder Nahtmaschen von der Formgebung ausgenommen bleiben sollen, zieh ihre Gesamtzahl vor der Teilung ab: (aktuelle Maschenzahl − reservierte Randmaschen) / Anzahl der Änderungen. Verteile die Änderungen nur über die verbleibenden Arbeitsmaschen und stricke die reservierten Randmaschen wie angegeben. Wenn die Randmaschen an der Verteilung teilnehmen, verwendest du die vollständige Maschenzahl. Das ist nicht dasselbe wie das Aufteilen des ersten und letzten Abstands, denn dort nehmen die äußeren Maschen weiterhin an der Verteilung teil.
 
 ## Beispiel: eine saubere Zunahmereihe
 

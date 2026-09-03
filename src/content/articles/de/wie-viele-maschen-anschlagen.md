@@ -50,7 +50,7 @@ Nimm einen einfachen glatt rechts gestrickten Schal, 20 cm breit, mit einer Masc
 
 Das ist die Basiszahl. Wenn der Schal einen 2x2-Rippenrand bekommt, passt 36 bereits, weil 36 durch 4 teilbar ist. Wenn der Rand ein Lochmuster mit einem Rapport von 6 Maschen hätte, würde 36 ebenfalls passen. Bei einem Rapport von 8 Maschen wären die nächsten sinnvollen Optionen 32 Maschen, also etwas schmaler, oder 40 Maschen, also etwas breiter.
 
-Wenn Randmaschen dazukommen, rechne sie getrennt. Eine Randmasche auf jeder Seite für eine gestrickte Kante bedeutet 38 statt 36 Maschen.
+Wenn die Zielbreite von 20 cm die mittlere Musterfläche beschreibt, erhöhen je eine Randmasche pro Seite außerhalb dieser Fläche den Anschlag auf insgesamt 38 Maschen. Soll die vollständige Breite von 20 cm die Randmaschen bereits enthalten, bleiben sie innerhalb der berechneten 36 Maschen und werden nicht nachträglich addiert.
 
 Diese Rechnung dauert weniger als eine Minute. Sie vor dem Anschlag zu machen ist schneller, als nach sechs Reihen zu merken, dass der Schal deutlich zu schmal wird.
 
@@ -105,7 +105,7 @@ Für sichtbare Rippenkanten an Pullovern, Mützen oder Socken kann ein italienis
 
 Die Rechnung ist dieselbe wie bei flachen Teilen: Maschenprobe × gewünschter Umfang. Bei Mützen und Socken ist dieser Zielumfang oft kleiner als der Körperumfang, weil der Stoff negative Mehrweite braucht. Die Ausführung hat aber eine zusätzliche Gefahr: verdrehtes Schließen zur Runde.
 
-Lege die Rundnadel vor der ersten Runde flach hin und prüfe, dass alle Maschen in dieselbe Richtung zeigen. Die untere Anschlagkante sollte ohne Spirale entlang der Innenseite der Nadel laufen. Wenn du verdreht zur Runde schließt, ist der Fehler dauerhaft; die einzige saubere Lösung ist Aufribbeln und neu anschlagen.
+Lege die Rundnadel vor der ersten Runde flach hin und prüfe, dass alle Maschen in dieselbe Richtung zeigen. Die untere Anschlagkante sollte ohne Spirale entlang der Innenseite der Nadel laufen. Wenn du die Verdrehung am Ende der ersten Runde bemerkst, kannst du sie am Rundenübergang noch korrigieren. Nach weiteren Runden ist Aufribbeln meist die sauberste Lösung.
 
 Viele Strickerinnen schlagen eine zusätzliche Masche an und stricken sie beim Schließen mit der ersten oder letzten Masche zusammen. Die Arbeitsmaschenzahl bleibt richtig, und der Übergang bekommt weniger Lücke.
 

@@ -26,9 +26,9 @@ Wenn die Anleitung von jemand anderem geschrieben wurde, prüfe auch, ob die Mas
 
 ## Schritt 1: Maschen anschlagen
 
-Schlage genug Maschen an, damit die Probe mindestens etwa 15 cm breit wird. Wenn die Anleitung 20 Maschen auf 10 cm angibt, brauchst du mindestens 30 Maschen: 20 für die Messfläche plus etwa 5 an jeder Seite, damit du keine verzogenen Randmaschen misst.
+Schlage genug Maschen für etwa 15 cm Breite an oder folge der Größenangabe der Anleitung. So bleibt meist Platz für eine mittlere Messfläche von 10 cm mit Abstand zu den Seitenrändern.
 
-Schnelle Rechnung: Maschenprobe der Anleitung auf 10 cm mal 1,5. Das ist eine gute Anschlagszahl für die Probe.
+Schnelle Rechnung: Multipliziere die Maschenprobe der Anleitung auf 10 cm mit 1,5, um die Maschenzahl für etwa 15 cm zu schätzen. Zum Beispiel ergeben 20 × 1,5 = 30 Maschen. Bei einem Dezimalergebnis rundest du auf die nächste ganze Masche auf. Passe die Zahl bei Bedarf an einen vollständigen Musterrapport an und addiere Rand- oder Blendenmaschen separat, wenn sie außerhalb der mittleren Messfläche liegen.
 
 Die Anschlagmethode ist für die Probe weniger entscheidend, als man denkt, aber nutze möglichst dieselbe Methode wie im Projekt. Der Kreuzanschlag ist für viele flach gestrickte Stücke der normale Ausgangspunkt. Wenn das Projekt mit einem Bündchen beginnt, muss die Probe nicht zwingend damit beginnen, aber es ist nützlich zu wissen, ob dein Anschlag zu fest wird.
 
@@ -36,7 +36,7 @@ Die Anschlagmethode ist für die Probe weniger entscheidend, als man denkt, aber
 
 Stricke in dem Muster, das im Abschnitt zur Maschenprobe angegeben ist. "Glatt rechts" heißt glatt rechts. "Im Muster" heißt das tatsächliche Muster des Projekts. Dieser Unterschied zählt, weil verschiedene Muster verschiedene Maschenproben erzeugen. Ein Zopffeld zieht sich zusammen. Ein Lochmuster öffnet sich nach dem Spannen. Rippenmuster komprimiert seitlich. Eine glatt rechte Probe zu messen und daraus die Maschenprobe einer Zopfpasse abzuleiten, ist ein schneller Weg zu einem Pullover, der nicht passt.
 
-Stricke, bis die Probe mindestens etwa 15 cm hoch ist. Gleiche Pufferlogik: 10 cm messbare Fläche mit zusätzlichem Stoff darüber und darunter.
+Stricke bis etwa 15 cm Höhe oder bis eine mittlere Messfläche von 10 cm mit Abstand zu Anschlag- und Abkettkante vorhanden ist. Etwa 15 cm sind eine robuste Empfehlung, kein allgemeines Mindestmaß.
 
 Manche stricken einen Rand in kraus rechts, zum Beispiel 3 oder 4 Maschen an den Seiten und 3 oder 4 Reihen oben und unten, damit die Probe nicht einrollt. Glatt rechts rollt sich ein. Eine flache Probe ist leichter zu messen. Der kraus rechte Rand verändert die Maschenprobe in der glatt rechten Mitte nicht. Die kleine Zusatzarbeit lohnt sich oft.
 
