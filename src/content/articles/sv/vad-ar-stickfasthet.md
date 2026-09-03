@@ -64,7 +64,7 @@ Det här ligger bakom många "provlappen stämde men tröjan passar inte"-proble
 
 Tyget direkt från stickorna är inte alltid det färdiga tyget. Ull kan blomma efter våtblockning, öppna sig och bli mjukare. Bomull kan slappna av och bli längre. Superwash-ull kan växa. Linne mjuknar och faller annorlunda. Poängen är inte att varje fiber beter sig likadant varje gång. Poängen är att första tvätten kan ändra tyget tillräckligt mycket för att måtten ska flytta sig.
 
-I projekt där slutmåttet spelar roll ska stickfastheten mätas på en tvättad och blockad provlapp, behandlad på samma sätt som det färdiga plagget. [Blockningsguiden](/sv/artiklar/blocka-stickning-vat-anga-spray/) går igenom våtblockning, och [guiden till att mäta stickfasthet](/sv/artiklar/sa-mater-du-stickfasthet/) visar var och hur du mäter när provlappen är torr.
+I projekt där slutmåttet spelar roll ska du mäta stickfastheten i det skick som mönstret anger, även oblockad om det uttryckligen efterfrågas. Om inget skick anges, behandla provlappen som det färdiga arbetet och mät därefter. [Blockningsguiden](/sv/artiklar/blocka-stickning-vat-anga-spray/) går igenom våtblockning, och [guiden till att mäta stickfasthet](/sv/artiklar/sa-mater-du-stickfasthet/) visar var och hur du mäter när provlappen är torr.
 
 En provlapp som träffar stickfastheten före blockning men missar efteråt är inte ett handlagsproblem. Det är garnets beteende. En annan sorts sak att lösa.
 
@@ -80,7 +80,7 @@ Det finns också ett rimligt stickstorleksområde för varje garn där tyget bli
 
 ## Stickfasthet i mönsterstickning eller slätstickning
 
-De flesta mönster anger stickfasthet i slätstickning, även om projektet innehåller flätor, spets eller strukturpaneler. Vissa anger stickfastheten i själva mönsterstickningen. Läs raden noga.
+Ett mönster kan ange stickfasthet i slätstickning eller i den maskbild som används i projektet. Läs raden noga.
 
 Sticka provlappen i den struktur som anges. Flätor drar ihop tyget på bredden och behöver fler maskor för samma mått. Spets öppnar sig och behöver ofta färre. Resår drar ihop sig när den ligger avslappnad och vidgar sig när den sträcks, vilket gör den svårare att mäta ärligt. En slätstickad provlapp förutsäger inte stickfastheten i en flätad yta.
 
@@ -127,7 +127,7 @@ Att repa upp är alltid ett alternativ vid större avvikelser, men det beslutet 
 
 ## Sambandet mellan stickfasthet och färdiga mått
 
-Antalet maskor per 10 cm styr bredden. Antalet varv per 10 cm styr höjden.
+När arbetet stickas i vanlig riktning styr antalet maskor per 10 cm i regel bredden, medan antalet varv per 10 cm i regel styr längden. I konstruktioner som stickas på tvären kan rollerna ändras: varven per 10 cm kan avgöra bredden, medan maskorna per 10 cm kan avgöra längden.
 
 När ett mönster säger "sticka till 35 cm" spelar varven per 10 cm mindre roll, eftersom du slutar när tyget når måttet. När mönstret säger "sticka 96 varv" spelar varven mycket större roll, eftersom längden helt beror på hur högt varje varv är.
 
@@ -149,7 +149,7 @@ Det kan det göra. Metall, trä och bambu ger olika friktion mot garnet, och ibl
 
 **Min stickfasthet stämde före blockning men inte efter. Vad hände?**
 
-Garnet ändrade sig i tvätten, inte dina händer. Ull kan blomma, bomull kan bli längre och superwash kan växa. För plagg där passformen spelar roll behöver provlappen behandlas som det färdiga plagget innan du litar på måtten.
+Garnet ändrade sig i tvätten, inte dina händer. Ull kan blomma, bomull kan bli längre och superwash kan växa. För plagg där passformen är viktig ska du mäta provlappen i det skick som mönstret anger. Om mönstret uttryckligen anger oblockad stickfasthet använder du det värdet. Om inget skick anges, behandla provlappen på samma sätt som det färdiga plagget innan du litar på måtten.
 
 **Mina räta och aviga varv har olika spänning. Är det normalt?**
 

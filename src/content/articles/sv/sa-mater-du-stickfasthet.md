@@ -12,23 +12,23 @@ translationKey: "how-to-measure-knitting-gauge"
 
 Stickfasthet är den del stickare hoppar över precis innan ett projekt får fel storlek. Mössan som blev sladdrig. Tröjan som växte till ett tält. Ärmen som blev fem centimeter längre än skissen lovade. Nästan alla sådana historier börjar likadant: "provlappen kändes valfri."
 
-Det är den inte. Inte egentligen. För att mäta stickfasthet stickar du en provlapp som är minst 15 x 15 cm i mönstrets maskbild, tvättar och blockar den, och räknar sedan maskor och varv över 10 cm i mitten. Den lilla omvägen sparar betydligt mer tid än att repa upp halva plagget senare. Matten är inte det svåra. Det svåra är att övertala sig själv att göra det innan man lägger upp på riktigt.
+Det är den inte. Inte egentligen. Mät stickfastheten genom att sticka en provlapp som är cirka 15 x 15 cm i den maskbild som mönstret anger, eller följ mönstrets egna anvisningar om provlappens storlek. Följ det skick som mönstret anger när du mäter, även oblockad stickfasthet om det uttryckligen efterfrågas. Om inget skick anges, behandla provlappen som det färdiga arbetet och mät maskor och varv över ett centralt område på 10 cm med avstånd till kanterna. Den lilla omvägen sparar betydligt mer tid än att repa upp halva plagget senare. Matten är inte det svåra. Det svåra är att övertala sig själv att göra det innan man lägger upp på riktigt.
 
 ## Vad stickfasthet betyder
 
 Stickfasthet, kallat gauge i många amerikanska mönster och tension i många brittiska, är antalet maskor och varv som ryms inom ett bestämt mått tyg. Ett mönster kan skriva det som "20 m och 26 v = 10 cm i slätstickning på 4,5 mm stickor."
 
-Den raden berättar hur designerns färdiga tyg såg ut. Om din stickning matchar den har de färdiga måtten god chans att stämma. Om den inte matchar börjar projektets mått glida direkt. Skillnaden behöver inte vara dramatisk. Två maskor för mycket eller för lite per 10 cm blir snabbt mycket. På en tröja med 100 cm övervidd kan det bli ungefär 10 cm extra eller saknad bredd.
+Den raden berättar hur designerns färdiga tyg såg ut. Om din stickning matchar den har de färdiga måtten god chans att stämma. Om den inte matchar börjar projektets mått glida direkt. Skillnaden behöver inte vara dramatisk. Två maskor för mycket eller för lite per 10 cm blir snabbt mycket. På en tröja med 100 cm övervidd kan avvikelsen ändra den färdiga bredden med flera centimeter, beroende på mönstrets målstickfasthet och på om du har fler eller färre maskor per 10 cm än mönstret. Plagget kan bli mindre eller större än tänkt.
 
 ## Så stickar du en provlapp
 
 Provlappen är ett litet testtyg gjort med ditt garn, dina stickor och den maskbild projektet faktiskt använder. Det är egentligen hela poängen. Men detaljerna spelar roll.
 
-Lägg upp tillräckligt många maskor för att provlappen ska bli minst 15 cm bred. Lite större är bättre om garnet är livligt eller projektet ska sitta nära kroppen. Stickfasthet som anges över 10 cm ska aldrig mätas från kant till kant. Uppläggningskanten, avmaskningskanten och sidomaskorna beter sig annorlunda än mitten av tyget. Du behöver extra material runt mätområdet så att du mäter själva tyget, inte kantförvrängningen.
+Lägg upp tillräckligt många maskor för en provlapp som är cirka 15 cm bred, eller följ mönstrets egna anvisningar om provlappens storlek. Cirka 15 cm är en stark praktisk rekommendation eftersom det ger utrymme runt ett centralt mätområde på 10 cm, men det är ingen universell minsta bredd. En mindre provlapp kan fungera om mätområdet är tillräckligt stort, representativt och oförvrängt. Lite större är bättre om garnet är livligt eller projektet ska sitta nära kroppen. Stickfasthet som anges över 10 cm ska aldrig mätas från kant till kant. Uppläggningskanten, avmaskningskanten och sidomaskorna beter sig annorlunda än mitten av tyget. Du behöver extra material runt mätområdet så att du mäter själva tyget, inte kantförvrängningen.
 
 Om mönstret säger "i slätstickning" stickar du provlappen i slätstickning. Om det säger "i mönsterstickning" använder du projektets maskbild. Det spelar större roll än många stickare tror. Flätor drar ihop. Spets öppnar upp. Resår komprimeras. Inget av det beter sig som vanlig slätstickning, och att behandla dem som utbytbara är ett vanligt sätt att hamna fel. Ett flättungt tyg med samma maskantal som slätstickning kan lätt bli flera centimeter smalare över 25 cm.
 
-Sticka tills provlappen är minst 15 cm hög. Maska sedan av.
+Sticka tills provlappen är cirka 15 cm hög, eller tills den ger ett centralt mätområde på 10 cm med tillräckligt avstånd till uppläggnings- och avmaskningskanterna. Cirka 15 cm är en stark praktisk rekommendation, inte ett allmänt minimimått. Maska sedan av.
 
 Det är här många stickare tar fram linjalen för tidigt. Mät inte ännu.
 
@@ -38,9 +38,9 @@ Det här steget är där de flesta stickfasthetsmisstag faktiskt uppstår. Tyget
 
 Ull blommar ut och maskorna fyller ut, vilket gör tyget lite bredare och mjukare. Bomull slappnar av och får ofta mer fall. Superwash merino kan växa märkbart på längden. Lin mjuknar efter en tvätt eller två. Akryl sätter sig ofta efter hantering och tvätt. Varje fiber gör något, och det enda sättet att veta vad just ditt garn gör är att blöta provlappen.
 
-Hoppar du över det här mäter du fel tyg. Provlappen stämmer direkt från stickorna, den färdiga tröjan tvättas första gången och plötsligt är den en storlek större. Det händer hela tiden. Det är den vanligaste orsaken till "min stickfasthet stämde men tröjan passar inte."
+Följ det skick som mönstret anger, även oblockad stickfasthet när det är det som efterfrågas. Om inget skick anges, behandla provlappen som det färdiga arbetet och mät därefter. Anteckna måtten både före och efter behandlingen. Värdet före behandlingen är användbart när du jämför med ett pågående arbete som ännu inte har tvättats eller blockats. Provlappen stämmer direkt från stickorna, den färdiga tröjan tvättas första gången och plötsligt är den en storlek större. Det händer hela tiden. Det är den vanligaste orsaken till "min stickfasthet stämde men tröjan passar inte."
 
-Behandla provlappen som det färdiga projektet ska behandlas. Om tröjan ska handtvättas och torkas plant gör du så med provlappen. Om garnet är maskintvättbart och det är så plagget ska skötas, tvättar du provlappen på det sättet. Poängen är att efterlikna det liv plagget faktiskt ska leva.
+När provlappen ska behandlas gör du det på samma sätt som med det färdiga projektet. Om tröjan ska handtvättas och torkas plant gör du så med provlappen. Om garnet är maskintvättbart och det är så plagget ska skötas, tvättar du provlappen på det sättet. Poängen är att efterlikna det liv plagget faktiskt ska leva.
 
 Låt den sedan torka helt. Inte nästan torr. Helt. Tyget slappnar av och öppnar sig efter våtblockning, och om du mäter medan det fortfarande är fuktigt får du en siffra som inte håller när det torkat klart. Ibland är skillnaden mellan direkt från stickorna och efter blockning liten. Ibland är det hela anledningen till att du stickade provlappen. En tvättad provlapp visar vad det färdiga tyget faktiskt gör, inte hur det såg ut tio minuter efter avmaskning.
 
@@ -102,7 +102,7 @@ En är minimum. Om första provlappen missar stickfastheten och du byter stickst
 Tjockare garn förstorar storleksfel snabbare eftersom varje maska är fysiskt större. Två maskor per 10 cm i bulky-garn flyttar tyget mer än samma fel i fingering. Men för kroppsnära plagg spelar stickfasthet roll i alla tjocklekar. Insatsen blir bara högre ju grövre garnet är.
 
 **Min stickfasthet stämmer efter blockning men inte före. Vilken gäller?**  
-Den blockerade stickfastheten. Alltid. Det är tyget du faktiskt kommer att använda, medan måttet före blockning bara är en ögonblicksbild av vad garnet gör under spänning på stickan. Efter blockning är verkligheten.
+Använd det skick som mönstret anger, även oblockad stickfasthet om det uttryckligen efterfrågas. Om inget skick anges, behandla provlappen som det färdiga arbetet och mät därefter. Anteckna både värdet före och efter behandlingen.
 
 **Behöver jag spara mina provlappar?**  
 Det är användbart, särskilt för tröjor eller allt där du kan behöva kontrollera stickfastheten igen mitt i projektet. Vissa stickare märker dem med stickstorlek och garn. Andra repar upp dem när projektet är säkert igång. Båda fungerar, så länge provlappen redan har gjort sitt jobb.

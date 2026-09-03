@@ -16,7 +16,7 @@ lang: sv
 translationKey: "gauge-swatch-step-by-step"
 ---
 
-En provlapp är en testbit stickad i projektets garn och maskbild, tvättad och blockad, och sedan mätt över 10 cm för att kontrollera om dina maskor matchar mönstrets krav. Det här är den praktiska instruktionen. Vill du förstå varför stickfasthet spelar roll och vad du gör när den inte stämmer går [stickfasthetsguiden](/sv/artiklar/sa-mater-du-stickfasthet/) igenom hela bilden. Den här sidan är för dig som redan vet varför och bara vill ha stegen.
+En provlapp är en liten stickad testbit i projektets garn som du använder för att kontrollera stickfastheten. Sticka den i den maskbild som mönstret anger och mät den över 10 cm i det skick som anges. Det här är den praktiska instruktionen. Vill du förstå varför stickfasthet spelar roll och vad du gör när den inte stämmer går [stickfasthetsguiden](/sv/artiklar/sa-mater-du-stickfasthet/) igenom hela bilden. Den här sidan är för dig som redan vet varför och bara vill ha stegen.
 
 ## Vad du behöver
 
@@ -26,9 +26,9 @@ Om mönstret är skrivet av någon annan, kontrollera också om stickfastheten a
 
 ## Steg 1: lägg upp
 
-Lägg upp tillräckligt många maskor för minst 15 cm tyg. Om mönstrets stickfasthet säger 20 maskor per 10 cm behöver du minst 30 maskor: 20 för mätområdet och cirka 5 på varje sida, så att du inte mäter förvrängda kantmaskor.
+Lägg upp tillräckligt många maskor för cirka 15 cm tyg, eller följ mönstrets anvisningar om provlappens storlek. Det ger utrymme för ett centralt mätområde på 10 cm med avstånd till sidokanterna. En mindre provlapp kan fungera om den fortfarande ger ett representativt och oförvrängt mätområde på 10 cm.
 
-Snabb matte: mönstrets maskantal per 10 cm, multiplicerat med 1,5. Det är ett bra uppläggningsantal för provlappen.
+Snabb matte: multiplicera mönstrets maskantal per 10 cm med 1,5 för att uppskatta hur många maskor som behövs till cirka 15 cm tyg. Till exempel: 20 × 1,5 = 30 maskor. Blir resultatet ett decimaltal, avrunda uppåt till nästa hela maska så att den preliminära bredden inte underskrids. Öka sedan antalet vid behov så att en hel rapport ryms. Lägg separat till kantmaskor utanför det centrala mätområdet, men inte maskor som redan ingår i den avsedda hela bredden.
 
 Uppläggningsmetoden spelar mindre roll än man kan tro för själva provlappen, men använd samma metod som i projektet om det är praktiskt. Long-tail-uppläggning är en vanlig start för många plana arbeten. Om projektet börjar med resår behöver provlappen inte göra det, men det är ändå användbart att veta om din uppläggningskant drar ihop sig.
 
@@ -36,7 +36,7 @@ Uppläggningsmetoden spelar mindre roll än man kan tro för själva provlappen,
 
 Sticka i den maskbild som anges i mönstrets stickfasthetsavsnitt. "I slätstickning" betyder slätstickning. "I mönsterstickning" betyder den faktiska maskbilden från projektet. Skillnaden spelar roll eftersom olika maskbilder ger olika stickfasthet. En fläta drar ihop sig. Spetsstickning öppnar sig efter blockning. Resår trycks ihop på bredden. Att mäta en slätstickad provlapp och anta att den säger något om oket med flätor är ett vanligt sätt att få en tröja som inte passar.
 
-Sticka tills provlappen är minst 15 cm hög. Samma buffertlogik: 10 cm att mäta, med minst ett par centimeter ovanför och under.
+Sticka tills provlappen är cirka 15 cm hög, eller tills du kan mäta ett centralt område på 10 cm med avstånd till både uppläggnings- och avmaskningskanten. Cirka 15 cm är en stark praktisk rekommendation, inte ett allmänt minimimått.
 
 En del stickare lägger till en rätstickad kant, till exempel 3 eller 4 maskor i varje sida och 3 eller 4 varv upptill och nedtill, för att provlappen inte ska rulla sig. Slätstickning rullar sig. En plan provlapp är lättare att mäta. Den rätstickade kanten ändrar inte stickfastheten i det slätstickade området i mitten. Det är en liten extra insats som ofta sparar irritation.
 
@@ -46,11 +46,11 @@ Maska av löst. En hård avmaskning drar ihop överkanten och förvränger varve
 
 Det här steget hoppas flest över och det spelar störst roll.
 
-Blötlägg i ljummet vatten i cirka 15-20 minuter, om inte banderollen säger något annat. Rulla provlappen i en handduk för att få bort extra vatten, men vrid den inte. Lägg plant och låt torka helt. Om garnet ska ångas i stället för blötläggas, behandla provlappen på det sättet. [Blockningsguiden](/sv/artiklar/blocka-stickning-vat-anga-spray/) går igenom fiberanpassade metoder mer detaljerat.
+Mät och anteckna först provlappens stickfasthet innan du tvättar, blötlägger, blockar, ångar eller på annat sätt behandlar den. Om mönstret uttryckligen anger oblockad stickfasthet är det detta värde du jämför med mönstrets uppgift. Genomför därefter den behandling som mönstret anger eller, om inget skick anges, samma behandling som det färdiga projektet. Blötlägg i ljummet vatten i cirka 15-20 minuter, om inte banderollen säger något annat. Rulla provlappen i en handduk för att få bort extra vatten, men vrid den inte. Lägg den plant utan att sträcka ut den och låt den torka helt. Om garnet ska ångas i stället för blötläggas, behandla provlappen på det sättet. Mät stickfastheten igen efter behandlingen och behåll både värdet före och efter. [Blockningsguiden](/sv/artiklar/blocka-stickning-vat-anga-spray/) går igenom fiberanpassade metoder mer detaljerat.
 
-Garn ändras när det blir vått. Ull kan blomma ut och maskorna kan fylla i. Bomull kan slappna av. Linne mjuknar. Superwash-ull och alpacka kan växa eller få mer fall än väntat. Provlappen direkt från stickorna är inte alltid samma provlapp som efter första tvätten, och projektet kommer någon gång att tvättas. Mät den tvättade provlappen, inte den råa.
+Garn ändras när det blir vått. Ull kan blomma ut och maskorna kan fylla i. Bomull kan slappna av. Linne mjuknar. Superwash-ull och alpacka kan växa eller få mer fall än väntat. Provlappen direkt från stickorna är inte alltid samma provlapp som efter första tvätten, och projektet kommer någon gång att tvättas. Mät provlappen i det skick som mönstret anger, även oblockad om det uttryckligen efterfrågas.
 
-Blocka provlappen på samma sätt som du kommer att blocka projektet. Om det färdiga arbetet ska blötläggas och nålas ut plant, gör det med provlappen. Om det ska ångas, ånga provlappen. Om du tänker handtvätta en ulltröja och låta den torka plant, gör exakt så med provlappen. För hård nålning som drar ut provlappen ger en siffra som inte motsvarar hur tyget faktiskt beter sig på kroppen.
+Om inget skick anges, behandla provlappen på samma sätt som det färdiga projektet och mät därefter. Anteckna både värdet före och efter behandlingen; värdet före behandlingen hjälper dig att jämföra med ett pågående arbete som ännu inte har tvättats eller blockats. Om det färdiga arbetet ska blötläggas och nålas ut plant, gör det med provlappen. Om det ska ångas, ånga provlappen. Om du tänker handtvätta en ulltröja och låta den torka plant, gör exakt så med provlappen. För hård nålning som drar ut provlappen ger en siffra som inte motsvarar hur tyget faktiskt beter sig på kroppen.
 
 ## Steg 4: mät
 

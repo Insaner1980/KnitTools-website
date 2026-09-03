@@ -29,7 +29,7 @@ Innan du ändrar något, uteslut mätfel. Lägg provlappen plant på en hård yt
 
 Räkna maskor över 10 cm. Ta med halva maskor. De spelar roll. En provlapp som blir "20 maskor" när du rundar av men "19,5 maskor" när du räknar ärligt ger en verklig skillnad över ett helt plagg. [Guiden till att mäta stickfasthet](/sv/artiklar/sa-mater-du-stickfasthet/) går igenom hela processen, men kort sagt: mät i mitten, räkna noggrant, sträck inte.
 
-Om provlappen är mindre än cirka 15 x 15 cm äter kantförvrängningen in i mätområdet och siffran blir osäker. Större provlappar ger ärligare värden.
+En provlapp på cirka 15 x 15 cm är ett praktiskt val eftersom den ger plats för ett centralt mätområde på 10 cm, bort från uppläggnings-, avmasknings- och sidokanterna. Det är ingen universell minsta storlek: en mindre provlapp kan fungera om mätområdet är tillräckligt stort, representativt och oförvrängt. Följ mönstrets särskilda anvisningar om storlek och mätning.
 
 Mät på två ställen i provlappen och använd genomsnittet. Handstickat tyg är inte helt jämnt, och en enda mätning kan råka hamna på ett lite lösare eller hårdare parti.
 
@@ -69,7 +69,7 @@ Stickfastheten direkt från stickorna är inte alltid samma stickfasthet som eft
 
 Ull kan blomma ut och fylla ut. Antalet maskor per 10 cm kan sjunka lite när fibrerna slappnar av. Bomull kan slappna av nedåt. Superwash-ull kan växa, särskilt på längden. Alpacka kan töja sig och få mer fall. Linne mjuknar och stickfastheten kan öppna sig.
 
-Den praktiska regeln: blocka provlappen på samma sätt som du kommer att blocka det färdiga arbetet, och mät sedan. Om du hoppar över blockningen och lägger upp efter den oblockade siffran kan det färdiga plagget bli en hel storlek fel efter första tvätten.
+Följ i första hand det skick som mönstret anger, även oblockat om det uttryckligen är det som efterfrågas. Om inget skick anges, behandla provlappen som det färdiga arbetet och mät därefter. Anteckna både värdet före och efter behandlingen; värdet före behandlingen är användbart när du jämför med ett pågående arbete som ännu inte har tvättats eller blockats.
 
 ## När stickfastheten inte spelar så stor roll
 
@@ -123,10 +123,10 @@ Att spara garnet till ett annat projekt och hitta ett mönster skrivet för den 
 För kroppsnära plagg: sikta på exakt maskantal per 10 cm. För accessoarer är en maska på 10 cm ofta helt okej. Varvtäthet har större tolerans eftersom de flesta mönster arbetar till mått snarare än antal varv.
 
 **Ska jag tvätta provlappen innan jag mäter?**
-Om det färdiga plagget ska tvättas, ja. Vissa garner ändrar stickfasthet tydligt efter tvätt. Superwash-ull kan växa på längden, bomull kan slappna av och alpacka kan töja sig eller få mer fall. Sticka provlappen, tvätta och blocka den som du tänker behandla det färdiga arbetet, låt den torka helt och mät sedan. [Steg-för-steg-guiden till provlapp](/sv/artiklar/sticka-provlapp-steg-for-steg/) går igenom hela processen.
+Använd det skick som mönstret anger. Om mönstret uttryckligen anger oblockad stickfasthet, mät före tvätt eller blockning. Om inget skick anges, behandla provlappen som det färdiga arbetet och mät därefter. Anteckna både värdet före och efter behandlingen. En fullständig arbetsgång finns i [Steg-för-steg-guiden till provlapp](/sv/artiklar/sticka-provlapp-steg-for-steg/).
 
 **Påverkar blockning stickfastheten?**
-Våtblockning kan öppna maskorna, särskilt i spetsstickning och lösare tyger. Ull kan ofta formas när den är fuktig. Bomull kan slappna av utan att fjädra tillbaka på samma sätt som ull. Mät alltid provlappen efter blockning. Siffran före blockning är inte den som gäller.
+Våtblockning kan öppna maskorna, särskilt i spetsstickning och lösare tyger. Ull kan ofta formas när den är fuktig. Bomull kan slappna av utan att fjädra tillbaka på samma sätt som ull. Använd det skick som mönstret anger. Om inget skick anges, mät efter samma behandling som det färdiga arbetet och anteckna värdet både före och efter behandlingen.
 
 **Maskorna per 10 cm stämmer men varvtätheten är fel. Vad gör jag?**
 Arbeta till mått i stället för varvantal när mönstret tillåter det. Om mönstret anger formning efter varvnummer, omvandla de varven till centimeter med mönstrets varvtäthet och arbeta sedan till de måtten med din egen.

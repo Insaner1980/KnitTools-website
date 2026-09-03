@@ -24,9 +24,11 @@ Oavsett om varvet ska lägga till maskor eller ta bort dem är grundräkningen d
 
 Nuvarande maskantal / antal ändringar = intervallet mellan varje ändring.
 
-Vid ökningar berättar intervallet hur många maskor som finns i varje sektion, med en ny maska i slutet av sektionen. Vid minskningar är intervallet hela rapporten, och de sista två maskorna i rapporten stickas ihop.
+Intervallet räknar befintliga maskor, men hur rapporten skrivs beror på metoden. I M1-exemplen görs ökningen mellan maskorna, så ett intervall på 10 kan skrivas `sticka 10, M1`. Med KFB görs ökningen i en befintlig maska, och den maskan ska ingå i intervallet: skriv `sticka 9, KFB`, inte `sticka 10, KFB`, eftersom det senare använder 11 ursprungliga maskor. Vid minskningar omfattar intervallet även de maskor som minskningen använder.
 
 Samma matte. Lite olika sätt att skriva raden.
+
+Om vissa maskor vid kanterna ska lämnas orörda för kant eller söm, dra av deras sammanlagda antal innan du räknar intervallet: `(nuvarande maskantal - reserverade kantmaskor) / antal ändringar`. Fördela ändringarna bara över de återstående maskorna och sticka sedan de reserverade maskorna enligt mönstret. Om kantmaskorna ska ingå i fördelningen använder du hela maskantalet. Det här är inte samma sak som att dela det första och sista intervallet för bättre balans, eftersom de yttersta maskorna då fortfarande ingår i fördelningen.
 
 ## Exempel: en ren ökning
 

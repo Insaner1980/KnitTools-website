@@ -50,7 +50,7 @@ Du vill sticka en enkel slätstickad halsduk, 20 cm bred, och din stickfasthet �
 
 Det är grundantalet. Om kanten ska stickas i 2x2-resår, alltså en multipel av 4, fungerar 36 redan. Om kanten i stället har en spetsrapport på 6 maskor fungerar 36 också. Om spetsrapporten är 8 maskor blir närmaste val 32, lite smalare, eller 40, lite bredare.
 
-Om kantmaskor ska läggas till, räkna dem separat och lägg dem ovanpå totalen. En kantmaska i varje sida för en stickad stadkant betyder 38 maskor i stället för 36.
+Om målet på 20 cm beskriver den centrala mönsterytan, ger en kantmaska i varje sida utanför den ytan totalt 38 maskor. Om de 20 centimetrarna avser hela den färdiga bredden ska kantmaskorna ingå i de beräknade 36 maskorna i stället för att läggas till efteråt.
 
 Matten tar ungefär en halv minut. Att göra den före uppläggningen är snabbare än att märka efter sex varv att halsduken blev 15 cm bred.
 
@@ -103,7 +103,7 @@ För synliga resårkanter på tröjfållar kan tubular cast-on eller German twis
 
 Beräkningen är samma som för plant arbete: stickfasthet × önskad omkrets. För mössor och sockor är målomkretsen oftast mindre än kroppsmåttet eftersom tyget behöver negativ rörelsevidd. Själva uppläggningen får en extra kontroll: slut till en ring utan att vrida arbetet.
 
-Innan du stickar första varvet, lägg stickan plant och kontrollera att alla maskor ligger åt samma håll. Uppläggningskanten ska löpa längs insidan av stickan utan spiral. En vriden uppläggning är permanent. Enda lösningen är att repa upp och lägga upp igen.
+Innan du stickar första varvet, lägg stickan plant och kontrollera att alla maskor ligger åt samma håll. Uppläggningskanten ska löpa längs insidan av stickan utan spiral. Om du upptäcker vridningen när du kommer till slutet av första varvet kan du fortfarande rätta den vid skarven. Har du stickat flera varv är det i regel renast att repa upp.
 
 För att stänga det lilla glappet vid varvbytet lägger många upp en extra maska och minskar bort den när de sluter ringen. Det arbetande maskantalet blir rätt, och skarven ser prydligare ut än om första varvet startar med ett hål.
 
