@@ -64,7 +64,7 @@ Dette er en stor kilde til "prøvelappen stemte, men genseren passer ikke"-klage
 
 Stoffet som kommer av pinnene, er ikke det ferdige stoffet. Ull kan blomstre etter våtblokking, åpne seg og bli mykere. Bomull kan slappe av og bli lengre. Superwash-ull kan vokse. Lin blir mykere og faller mer. Poenget er ikke at alle fibre oppfører seg likt hver gang. Poenget er at første vask kan endre stoffet nok til at det betyr noe.
 
-For alle prosjekter der ferdig størrelse betyr noe, bør strikkefastheten måles på en vasket og blokket prøvelapp, behandlet slik det ferdige plagget skal behandles. [Blokking-guiden](/no/artikler/blokke-strikk-vatt-damp-spray/) går gjennom våtblokking, og [guiden til måling av strikkefasthet](/no/artikler/male-strikkefasthet/) viser hvor og hvordan du måler når prøvelappen er tørr.
+For prosjekter der ferdig størrelse betyr noe, måler du strikkefastheten i tilstanden strikkeoppskriften angir, også ublokket hvis den uttrykkelig ber om det. Hvis ingen tilstand er oppgitt, behandler du prøvelappen som det ferdige plagget og måler etterpå. [Blokking-guiden](/no/artikler/blokke-strikk-vatt-damp-spray/) går gjennom våtblokking, og [guiden til måling av strikkefasthet](/no/artikler/male-strikkefasthet/) viser hvor og hvordan du måler når prøvelappen er tørr.
 
 En prøvelapp som treffer før blokking og bommer etterpå, er ikke et spenningsproblem. Det er garnoppførsel. En annen type løsning.
 
@@ -78,7 +78,7 @@ Det finnes også et pinnestørrelsesområde for hvert garn der stoffet gir menin
 
 ## Maskemønsterfasthet mot glattstrikkfasthet
 
-De fleste oppskrifter oppgir strikkefasthet i glattstrikk, selv når prosjektet inneholder fletter, hullmønster eller strukturerte felt. Noen oppgir den i selve maskemønsteret. Les nøye.
+En strikkeoppskrift kan oppgi strikkefasthet i glattstrikk eller i maskemønsteret som brukes i prosjektet. Les nøye.
 
 Strikk prøvelapp i den masken strikkefastheten er oppgitt for. Fletter trekker stoffet sammen i bredden og trenger flere masker for samme bredde. Hullmønster åpner seg og trenger færre. Vrangbord trekker seg sammen når den hviler og utvider seg når den strekkes, som gjør den vanskelig å måle ærlig. En glattstrikkfasthet forutsier ikke en flettefasthet.
 
@@ -125,7 +125,7 @@ Hvis strikkefastheten har driftet, har du valg. En liten endring i pinnestørrel
 
 ## Forholdet mellom strikkefasthet og ferdige mål
 
-Maskefasthet styrer bredden. Pinnefasthet styrer høyden.
+Når arbeidet strikkes i vanlig retning, styrer maskefastheten som regel bredden, mens pinnefastheten som regel styrer lengden. I konstruksjoner som strikkes på tvers, kan rollene byttes om: pinnefastheten kan bestemme bredden, mens maskefastheten kan bestemme lengden.
 
 Når en oppskrift sier "strikk til 35 cm", betyr pinnefasthet mindre fordi du stopper når stoffet når målet. Når oppskriften sier "strikk 96 pinner", betyr pinnefasthet mye mer fordi lengden avhenger av hvor høy hver pinne er.
 
@@ -146,7 +146,7 @@ Vanlig. Maskefasthet og pinnefasthet henger sammen, men er ikke identiske. De fl
 Ja. [Guiden til pinnematerialer](/no/artikler/strikkepinner-metall-tre-bambus/) dekker hvordan hvert materiale påvirker strikkingen. Hvis du prøvestrikker på bambus og strikker prosjektet på metall, sjekk igjen.
 
 **Strikkefastheten stemte før blokking og bommet etterpå. Hva skjedde?**
-Garnet endret seg i vask, ikke hendene dine. Ull blomstrer, bomull blir lengre, superwash vokser. Strikk alltid prøvelapp med blokking i tankene for plagg der passform betyr noe.
+Garnet endret seg i vask, ikke hendene dine. Ull blomstrer, bomull blir lengre, superwash vokser. For plagg der passform betyr noe, bruker du tilstanden strikkeoppskriften angir. Hvis den uttrykkelig oppgir ublokket strikkefasthet, bruker du den verdien. Hvis ingen tilstand er oppgitt, behandler du prøvelappen som det ferdige plagget før du stoler på målene.
 
 **Rettmaskene og vrangmaskene mine har ulik spenning. Er det normalt?**
 For mange strikkere, ja. Hvis forskjellen er stor nok til å synes, kompenserer noen med en annen pinnestørrelse på vrangpinner eller ved å endre hvordan de spenner garnet.

@@ -36,7 +36,7 @@ Oppleggstallet er bare så godt som prøvelappen bak det. To feil skaper problem
 
 **Å måle ved kanten av prøvelappen.** Kantmasker er ikke pålitelige. Mål i midten, borte fra opplegg, avfelling og sidekanter.
 
-**Å måle før vask og blokking.** Prøvelappen rett av pinnene er ikke det ferdige stoffet. Hvis garnet endrer seg etter vask, endrer oppleggsmatematikken seg også.
+**Å bruke feil måletilstand.** Følg tilstanden strikkeoppskriften angir, også ublokket hvis det er det den ber om. Hvis ingen tilstand er oppgitt, bruker du prøvelappen etter at den er behandlet som det ferdige prosjektet. Noter både målingen før og etter behandling; verdien før behandling er nyttig når du sammenligner med et arbeid underveis som ennå ikke er vasket eller blokket.
 
 Ingen prøvelapp ennå? [Måling av strikkefasthet](/no/artikler/male-strikkefasthet/) dekker hele prosessen.
 
@@ -50,7 +50,7 @@ Du vil strikke et enkelt glattstrikket skjerf, 20 cm bredt, og strikkefastheten 
 
 Det er grunnantallet. Hvis kanten skal strikkes i 2x2-vrangbord, altså et multiplum av 4, fungerer 36 allerede. Hvis kanten i stedet har en hullmønsterrapport på 6 masker, fungerer 36 fortsatt. Hvis rapporten er 8 masker, blir de nærmeste valgene 32 masker, litt smalere, eller 40 masker, litt bredere.
 
-Hvis kantmasker skal legges til, teller du dem separat og legger dem oppå totalen. Én kantmaske i hver side for en strikket jarekant betyr 38 masker i stedet for 36.
+Hvis målet på 20 cm beskriver det sentrale mønsterfeltet, gir én kantmaske på hver side utenfor feltet totalt 38 masker. Hvis de 20 centimeterne beskriver hele den ferdige bredden, skal kantmaskene inngå i de beregnede 36 maskene i stedet for å legges til etterpå.
 
 Regningen tar omtrent et halvt minutt. Å gjøre den før opplegget er raskere enn å oppdage etter seks pinner at skjerfet ble 15 cm bredt.
 
@@ -103,7 +103,7 @@ For synlige vrangbordkanter på genserkanter kan tubular cast-on eller German tw
 
 Beregningen er den samme som for flatt arbeid: strikkefasthet × ønsket omkrets. For luer og sokker er målomkretsen ofte mindre enn kroppsmålet fordi stoffet trenger negativ bevegelsesvidde. Selve opplegget får én ekstra kontroll: arbeidet må samles uten å vri seg.
 
-Før du strikker første omgang, legg pinnen flatt og sjekk at alle maskene vender samme vei. Oppleggskanten skal løpe langs innsiden av pinnen uten spiral. Et vridd opplegg er permanent. Den eneste løsningen er å rekke opp og legge opp på nytt.
+Før du strikker første omgang, legg pinnen flatt og sjekk at alle maskene vender samme vei. Oppleggskanten skal løpe langs innsiden av pinnen uten spiral. Hvis du oppdager vridningen ved slutten av den første omgangen, kan du fortsatt rette den ved skjøten. Etter flere omganger er det som regel ryddigst å rekke opp.
 
 For å lukke det lille gapet ved omgangsstart legger mange opp én ekstra maske og feller den bort når de samler arbeidet. Det arbeidende maskeantallet blir riktig, og skjøten ser penere ut enn om første omgang starter med et hull.
 

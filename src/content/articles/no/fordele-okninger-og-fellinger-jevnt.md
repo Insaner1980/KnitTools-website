@@ -24,9 +24,11 @@ Enten pinnen skal få flere masker eller færre, er grunnregningen den samme. De
 
 Nåværende maskeantall / antall endringer = intervallet mellom hver endring.
 
-Ved økninger forteller intervallet hvor mange masker som ligger i hver seksjon, med én ny maske i slutten av seksjonen. Ved fellinger er intervallet hele rapporten, og de siste to maskene i rapporten strikkes sammen.
+Intervallet forteller hvor mange eksisterende masker som hører til hver endring, men hvordan rapporten skrives, avhenger av metoden. I M1-eksemplene nedenfor lages økningen mellom eksisterende masker, så et intervall på 10 kan skrives `strikk 10, M1`. Når økningen lages i en eksisterende maske, som med KFB, skal den masken regnes med i intervallet: skriv `strikk 9, KFB`, ikke `strikk 10, KFB`, fordi det siste bruker 11 opprinnelige masker. Ved fellinger omfatter intervallet også maskene som fellingen bruker.
 
 Samme matematikk. To litt ulike måter å skrive pinnen på.
+
+Hvis kant- eller sømmasker skal holdes utenfor formingen, trekker du det samlede antallet fra før du regner ut intervallet: `(nåværende maskeantall - reserverte kantmasker) / antall endringer`. Fordel endringene bare over de gjenværende maskene, og strikk de reserverte maskene slik strikkeoppskriften sier. Hvis kantmaskene skal være med i fordelingen, bruker du hele maskeantallet. Dette er noe annet enn å dele det første og siste intervallet for å balansere plasseringen, fordi de ytterste maskene da fortsatt er med i fordelingen.
 
 ## Eksempel: en ren økning
 

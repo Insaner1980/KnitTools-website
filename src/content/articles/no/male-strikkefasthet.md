@@ -12,25 +12,25 @@ translationKey: "how-to-measure-knitting-gauge"
 
 Strikkefasthet er den delen strikkere hopper over rett før prosjektet får feil størrelse. Lua som ble slapp. Genseren som vokste til et telt. Ermet som ble fem centimeter lengre enn skjemaet lovet. Nesten alle slike historier begynner likt: "prøvelappen virket valgfri."
 
-Det er den ikke. Ikke egentlig. For å måle strikkefasthet strikker du en prøvelapp på minst 15 x 15 cm i maskemønsteret, vasker og blokker den, og teller deretter masker og pinner over 10 cm i midten. Den lille omveien sparer langt mer tid enn å rekke opp halve plagget senere. Matematikken er ikke det vanskelige. Det vanskelige er å overbevise seg selv om å gjøre det før du legger opp til det egentlige arbeidet.
+Det er den ikke. Ikke egentlig. For å måle strikkefasthet strikker du vanligvis en prøvelapp på ca. 15 x 15 cm i maskemønsteret, eller bruker størrelsen strikkeoppskriften angir. Mål og noter strikkefastheten før behandling. Bruk tilstanden oppskriften angir som sammenligningsgrunnlag, også ublokket hvis det står uttrykkelig; hvis ingen tilstand er oppgitt, behandler du prøvelappen som det ferdige prosjektet. Mål igjen etter relevant behandling og full tørking, og behold begge verdiene. Mål over et sentralt område på 10 cm borte fra kantene. Den lille omveien sparer langt mer tid enn å rekke opp halve plagget senere. Matematikken er ikke det vanskelige. Det vanskelige er å overbevise seg selv om å gjøre det før du legger opp til det egentlige arbeidet.
 
 ## Hva strikkefasthet betyr
 
 Strikkefasthet er antall masker og pinner som får plass i et bestemt mål strikket stoff. En oppskrift kan skrive det som "20 m og 26 p = 10 cm i glattstrikk på 4,5 mm pinner."
 
-Den linjen forteller deg hvordan designerens ferdige stoff så ut. Hvis strikkingen din matcher det, har ferdige mål en god sjanse til å matche også. Hvis ikke, begynner prosjektmålene å drive med én gang. Forskjellen trenger ikke være dramatisk. To masker for mye eller for lite per 10 cm blir raskt mye. På en genser med 100 cm omkrets kan det gi omtrent 10 cm ekstra eller manglende bredde.
+Den linjen forteller deg hvordan designerens ferdige stoff så ut. Hvis strikkingen din matcher det, har ferdige mål en god sjanse til å matche også. Hvis ikke, begynner prosjektmålene å drive med én gang. Forskjellen trenger ikke være dramatisk. Hvis strikkeoppskriften er beregnet med 20 masker per 10 cm og 200 masker til 100 cm bredde, blir de samme 200 maskene ca. 111,1 cm ved 18 masker per 10 cm og ca. 90,9 cm ved 22 masker per 10 cm. Resultatet avhenger av strikkefastheten oppskriften er beregnet med og av om din strikkefasthet er strammere eller løsere, så plagget kan bli flere centimeter mindre eller større.
 
 ## Slik strikker du en prøvelapp
 
 Prøvelappen er et lite teststoff laget med garnet ditt, pinnene dine og maskemønsteret prosjektet faktisk bruker. Det er egentlig hele prøvelappen oppsummert. Men detaljene betyr noe.
 
-Legg opp nok masker til en prøvelapp på minst 15 cm bredde. Litt større er bedre hvis garnet er livlig eller prosjektet er tettsittende. Strikkefasthet oppgitt over 10 cm skal aldri måles kant til kant. Oppleggskanten, avfellingskanten og sidemaskene oppfører seg annerledes enn midten av stoffet. Du trenger ekstra stoff rundt måleområdet, så du leser det ekte stoffet, ikke kantforvrengning.
+Legg opp nok masker til en prøvelapp på ca. 15 cm bredde, eller følg strikkeoppskriftens egne anvisninger om prøvelappstørrelse. Litt større er bedre hvis garnet er livlig eller prosjektet er tettsittende. Omtrent 15 cm er en sterk praktisk anbefaling fordi det gir ekstra stoff rundt et sentralt måleområde på 10 cm, men det er ikke et universelt minstemål. En mindre prøvelapp er ikke automatisk ugyldig hvis den fortsatt gir et stort nok, representativt og uforvrengt måleområde borte fra oppleggs-, avfellings- og sidekantene. Strikkefasthet oppgitt over 10 cm skal aldri måles kant til kant.
 
 Hvis oppskriften sier "i glattstrikk", strikk glattstrikk. Hvis den sier "i mønster", bruk prosjektets maskemønster. Det betyr mer enn mange forventer. Fletter trekker inn. Hullmønster åpner seg. Vrangbord komprimerer. Ingen av disse stoffene oppfører seg som glattstrikk, og å behandle dem som like er der strikkefastheten sklir. Et fletterikt stoff med samme maskeantall som glattstrikk kan lett bli flere centimeter smalere over 25 cm.
 
-Strikk til prøvelappen er minst 15 cm høy. Fell av.
+Strikk til prøvelappen er ca. 15 cm høy, eller til du kan måle et sentralt område på 10 cm med avstand til både oppleggs- og avfellingskanten. Fell av.
 
-Nå er det mange som griper linjalen for tidlig. Ikke mål ennå.
+Mål og noter nå strikkefastheten før du vasker, bløtlegger, blokker, damper eller behandler prøvelappen på annen måte.
 
 ## Vask og blokk prøvelappen
 
@@ -40,9 +40,9 @@ Ull kan blomstre, og maskene kan fylle seg ut etter blokking. Bomull slapper oft
 
 Hopper du over dette, kan du måle feil stoff. Prøvelappen stemmer rett av pinnene, den ferdige genseren får første vask, og plutselig er den en størrelse større. Det er en vanlig vei til "strikkefastheten stemte, men genseren passer ikke."
 
-Behandle prøvelappen slik det ferdige prosjektet skal behandles. Hvis genseren skal håndvaskes og tørkes flatt, gjør det med prøvelappen. Hvis garnet er maskinvaskbart og det er slik plagget skal vaskes, vask prøvelappen slik. Poenget er å etterligne livet plagget faktisk skal leve.
+Følg først tilstanden strikkeoppskriften angir. Hvis den uttrykkelig oppgir ublokket strikkefasthet, er verdien før behandling den du sammenligner med oppskriften. Hvis ingen tilstand er oppgitt, behandler du prøvelappen slik det ferdige prosjektet skal behandles. Hvis genseren skal håndvaskes og tørkes flatt, gjør det med prøvelappen. Hvis garnet er maskinvaskbart og det er slik plagget skal vaskes, vask prøvelappen slik. Poenget er å etterligne livet plagget faktisk skal leve.
 
-La den tørke helt. Ikke nesten tørr. Helt. Stoffet slapper av og åpner seg etter våtblokking, og en linjal på fuktig stoff gir et tall som ikke holder når det er ferdig tørket. Noen ganger er forskjellen mellom på pinnene og etter blokking liten. Noen ganger er det hele grunnen til prøvelappen. En vasket prøvelapp forteller hva stoffet faktisk gjør, ikke hvordan det så ut ti minutter etter avfelling.
+La den tørke helt. Ikke nesten tørr. Helt. Stoffet slapper av og åpner seg etter våtblokking, og en linjal på fuktig stoff gir et tall som ikke holder når det er ferdig tørket. Noen ganger er forskjellen mellom på pinnene og etter blokking liten. Noen ganger er det hele grunnen til prøvelappen. Målingen etter behandling forteller hvordan det ferdige stoffet oppfører seg, mens målingen før behandling fortsatt er nyttig når du sammenligner med et arbeid som ennå ikke er vasket eller blokket.
 
 ## Slik måler du prøvelappen
 
@@ -102,7 +102,7 @@ Måling over et lite område forstørrer hver tellefeil. En kvart maske feil bet
 Tykkere garn forstørrer størrelsesfeil raskere fordi hver maske fysisk er større. To masker per 10 cm i Bulky flytter stoffet mer enn samme feil i Fingering. Men til tettsittende plagg betyr strikkefasthet noe i alle tykkelser. Innsatsen blir bare høyere jo tykkere garnet er.
 
 **Strikkefastheten stemmer etter blokking, men ikke før. Hvilket tall gjelder?**
-Strikkefastheten etter blokking. Alltid. Det er stoffet du faktisk skal bruke, og målingen før blokking er bare et øyeblikksbilde av hva garnet gjør under spenning på pinnen. Etter blokking er virkeligheten.
+Bruk tilstanden strikkeoppskriften angir, også ublokket strikkefasthet hvis det er det den ber om. Hvis oppskriften ikke angir en tilstand, bruker du målingen etter at prøvelappen er vasket eller blokket slik det ferdige prosjektet skal behandles. Noter både målingen før og etter behandling; verdien før behandling er nyttig når du sammenligner med et arbeid som ennå ikke er vasket eller blokket.
 
 **Må jeg ta vare på prøvelappene?**
 Det er nyttig, særlig til gensere eller alt der du kanskje må sjekke strikkefastheten midt i prosjektet. Noen merker dem med pinnestørrelse og garn. Noen rekker dem opp når prosjektet trygt er i gang. Begge deler fungerer, så lenge prøvelappen allerede har gjort jobben.

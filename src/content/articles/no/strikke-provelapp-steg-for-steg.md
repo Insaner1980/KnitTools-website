@@ -16,7 +16,7 @@ lang: no
 translationKey: "gauge-swatch-step-by-step"
 ---
 
-En prøvelapp er en testfirkant strikket i prosjektgarnet og maskemønsteret ditt, vasket og blokket, og deretter målt over 10 cm for å se om maskene stemmer med oppskriftens krav. Dette er den praktiske fremgangsmåten. Hvis du vil forstå hvorfor strikkefasthet betyr noe og hva du gjør når din ikke stemmer, dekker [strikkefasthetsguiden](/no/artikler/male-strikkefasthet/) hele bildet. Denne siden er for når du allerede vet hvorfor og bare vil ha stegene.
+En prøvelapp er en testfirkant strikket i prosjektgarnet og maskemønsteret ditt. Den måles i tilstanden strikkeoppskriften angir, også ublokket hvis det står uttrykkelig; hvis ingen tilstand er oppgitt, behandles den som det ferdige prosjektet. Noter både målingen før og etter relevant behandling. Dette er den praktiske fremgangsmåten. Hvis du vil forstå hvorfor strikkefasthet betyr noe og hva du gjør når din ikke stemmer, dekker [strikkefasthetsguiden](/no/artikler/male-strikkefasthet/) hele bildet. Denne siden er for når du allerede vet hvorfor og bare vil ha stegene.
 
 ## Dette trenger du
 
@@ -26,9 +26,9 @@ Hvis oppskriften er skrevet av noen andre, sjekk også om strikkefastheten er op
 
 ## Steg 1: legg opp
 
-Legg opp nok masker til minst 15 cm stoff. Hvis oppskriften sier 20 masker per 10 cm, trenger du minst 30 masker, 20 til måleområdet pluss omtrent 5 på hver side, så du ikke måler forvrengte kantmasker.
+Legg opp nok masker til ca. 15 cm stoff, eller følg strikkeoppskriftens anvisning om prøvelappstørrelse. Det gir vanligvis plass til et sentralt måleområde på 10 cm borte fra forvrengte sidekanter. Hvis oppskriften sier 20 masker per 10 cm, gir 30 masker 20 til måleområdet og omtrent 5 på hver side.
 
-Rask regning: oppskriftens masketall per 10 cm, ganger 1,5. Det er et godt oppleggstall for prøvelappen.
+Rask regning: gang strikkeoppskriftens masketall per 10 cm med 1,5 for å anslå hvor mange masker du trenger til ca. 15 cm stoff. For eksempel gir 20 × 1,5 = 30 masker. Hvis resultatet er et desimaltall, runder du opp til neste hele maske slik at den foreløpige bredden ikke blir for liten: 21 × 1,5 = 31,5, som rundes opp til 32. Hvis maskemønsteret har en rapport på 6 masker, øker du deretter til 36 for å få en hel rapport. Legg bare kantmasker til separat når de ligger utenfor det sentrale måleområdet; masker som allerede inngår i den planlagte hele bredden, skal ikke legges til en gang til. Dette er et foreløpig anslag for bredden, ikke et endelig oppleggstall.
 
 Oppleggsmåten betyr mindre enn man skulle tro for selve prøvelappen, men bruk samme metode som i prosjektet hvis det er praktisk. Langhaleopplegg er et vanlig utgangspunkt for mange flate arbeider. Hvis prosjektet begynner med vrangbord, trenger ikke prøvelappen å gjøre det, men det er likevel nyttig å vite om oppleggskanten din trekker seg sammen.
 
@@ -36,7 +36,7 @@ Oppleggsmåten betyr mindre enn man skulle tro for selve prøvelappen, men bruk 
 
 Strikk i maskemønsteret som står i strikkefasthetsdelen. "I glattstrikk" betyr glattstrikk. "I mønster" betyr det faktiske maskemønsteret fra prosjektet. Dette skillet betyr noe, fordi ulike mønstre gir ulik strikkefasthet. En flette trekker seg sammen. Hullmønster åpner seg etter blokking. Vrangbord presses sammen i bredden. Å måle en glattstrikket prøvelapp og anta at den sier noe om et bærestykke med fletter, er en vanlig vei til en genser som ikke passer.
 
-Strikk til prøvelappen er minst 15 cm høy. Samme buffertanke: 10 cm som kan måles, med minst et par centimeter over og under.
+Strikk til prøvelappen er ca. 15 cm høy, eller til den har nok uforvrengt stoff til at du kan måle et sentralt område på 10 cm borte fra oppleggs- og avfellingskanten. Ca. 15 cm er en sterk praktisk anbefaling, ikke et universelt minstemål: en mindre prøvelapp kan brukes hvis måleområdet fortsatt er stort nok, representativt og uforvrengt.
 
 Noen strikkere legger til en rillestrikket kant, for eksempel 3 eller 4 masker i hver side og 3 eller 4 pinner oppe og nede, for at prøvelappen ikke skal rulle. Glattstrikk ruller. En flat prøvelapp er enklere å måle. Rillekanten endrer ikke strikkefastheten i glattstrikkområdet i midten. Ofte verdt den lille ekstra innsatsen.
 
@@ -46,11 +46,11 @@ Fell av løst. En stram avfelling trekker overkanten inn og forvrenger pinnene r
 
 Dette steget hoppes oftest over og betyr mest.
 
-Legg i lunkent vann i 15-20 minutter, med mindre banderollen sier noe annet. Rull prøvelappen i et håndkle for å fjerne ekstra vann, men ikke vri. Legg flatt og la tørke helt. Hvis garnet bør dampes i stedet for bløtlegges, behandle prøvelappen på den måten. [Blokkeguiden](/no/artikler/blokke-strikk-vatt-damp-spray/) dekker fiberbestemte metoder mer detaljert.
+Mål og noter først strikkefastheten før du vasker, bløtlegger, blokker, damper eller behandler prøvelappen på annen måte. Hvis strikkeoppskriften uttrykkelig oppgir ublokket strikkefasthet, er dette verdien du sammenligner med oppskriften. Gjennomfør deretter behandlingen oppskriften angir, eller, hvis ingen tilstand er oppgitt, samme behandling som det ferdige prosjektet. Legg prøvelappen i lunkent vann i 15-20 minutter, med mindre banderollen sier noe annet. Rull prøvelappen i et håndkle for å fjerne ekstra vann, men ikke vri. Legg flatt og la tørke helt. Hvis garnet bør dampes i stedet for bløtlegges, behandle prøvelappen på den måten. Mål igjen etter behandlingen og full tørking, og behold begge verdiene. [Blokkeguiden](/no/artikler/blokke-strikk-vatt-damp-spray/) dekker fiberbestemte metoder mer detaljert.
 
-Garn endrer seg når det blir vått. Ull kan blomstre og fylle maskene. Bomull kan slappe av. Lin mykner. Superwash-ull og alpakka kan vokse eller få mer fall enn ventet. Prøvelappen rett av pinnene er ikke alltid prøvelappen etter første vask, og prosjektet ditt kommer til å bli vasket. Mål den vaskede prøvelappen, ikke den rå.
+Garn endrer seg når det blir vått. Ull kan blomstre og fylle maskene. Bomull kan slappe av. Lin mykner. Superwash-ull og alpakka kan vokse eller få mer fall enn ventet. Prøvelappen rett av pinnene er ikke alltid prøvelappen etter første vask, og prosjektet ditt kommer til å bli vasket. Mål prøvelappen i tilstanden strikkeoppskriften angir, også ublokket hvis den uttrykkelig ber om det.
 
-Blokk prøvelappen på samme måte som du vil blokke prosjektet. Hvis det ferdige arbeidet skal bløtlegges og nåles flatt, gjør det med prøvelappen. Hvis det skal dampes, damp prøvelappen. Hvis du skal håndvaske en ullgenser og la den tørke flatt, gjør akkurat det med prøvelappen. Aggressiv nåling som strekker prøvelappen ut, gir et tall som ikke matcher hvordan stoffet faktisk oppfører seg på kroppen.
+Hvis strikkeoppskriften ikke angir en måletilstand, blokker prøvelappen på samme måte som du vil blokke prosjektet. Noter både verdien før og etter behandlingen; verdien før behandling er nyttig når du sammenligner med et arbeid som ennå ikke er vasket eller blokket. Hvis det ferdige arbeidet skal bløtlegges og nåles flatt, gjør det med prøvelappen. Hvis det skal dampes, damp prøvelappen. Hvis du skal håndvaske en ullgenser og la den tørke flatt, gjør akkurat det med prøvelappen. Aggressiv nåling som strekker prøvelappen ut, gir et tall som ikke matcher hvordan stoffet faktisk oppfører seg på kroppen.
 
 ## Steg 4: mål
 

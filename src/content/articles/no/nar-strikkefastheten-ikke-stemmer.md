@@ -29,7 +29,7 @@ Før du endrer noe, utelukk målefeil. Legg prøvelappen flatt på en hard overf
 
 Tell masker over 10 cm. Ta med halve masker. De betyr noe. En prøvelapp som "ser ut som 20 masker" når du runder av, men egentlig er 19,5 masker når du teller ærlig, gir en reell forskjell over et helt plagg. [Guiden til måling av strikkefasthet](/no/artikler/male-strikkefasthet/) dekker hele prosessen, men kortversjonen er: mål i midten, tell nøyaktig, ikke strekk.
 
-Hvis prøvelappen er mindre enn ca. 15 x 15 cm, spiser kantforvrengningen av måleområdet, og tallet blir mindre pålitelig. Større prøvelapper gir ærligere tall.
+En prøvelapp på ca. 15 x 15 cm er et praktisk valg fordi den gir plass til et sentralt måleområde på 10 cm borte fra oppleggs-, avfellings- og sidekantene. Det er ikke et universelt minstemål: en mindre prøvelapp kan fungere hvis måleområdet er stort nok, representativt og uforvrengt. Følg strikkeoppskriftens egne anvisninger om prøvelappstørrelse og måling.
 
 Mål på to steder i prøvelappen og bruk gjennomsnittet. Håndstrikket stoff er ikke helt jevnt, og én enkelt måling kan havne på et litt løsere eller strammere felt.
 
@@ -69,7 +69,7 @@ Strikkefastheten rett av pinnene er ikke alltid den samme som strikkefastheten e
 
 Ull kan blomstre og fylle ut. Antall masker per 10 cm kan synke litt når fibrene slapper av. Bomull kan sige nedover. Superwash-ull kan vokse, særlig i lengden. Alpakka kan strekke seg og få mer fall. Lin mykner og strikkefastheten kan åpne seg.
 
-Den praktiske regelen: blokk prøvelappen på samme måte som du vil blokke det ferdige arbeidet, og mål etterpå. Hvis du hopper over blokking og legger opp etter det ublokkede tallet, kan det ferdige plagget ende en hel størrelse feil etter første vask.
+Følg først tilstanden strikkeoppskriften angir, også ublokket hvis det er uttrykkelig det den ber om. Hvis ingen tilstand er oppgitt, behandler du prøvelappen som det ferdige arbeidet og måler etterpå. Noter både verdien før og etter behandlingen; verdien før behandling er nyttig når du sammenligner med et arbeid som ennå ikke er vasket eller blokket. Å hoppe over relevant behandling kan ellers gi et plagg som endrer størrelse etter første vask.
 
 ## Når strikkefasthet ikke betyr så mye
 
@@ -123,10 +123,10 @@ Etter flere prøvelapper og fortsatt ingen fungerende strikkefasthet er riktig v
 For tettsittende plagg: sikt på nøyaktig maskefasthet. For tilbehør er én maske per 10 cm ofte greit. Pinnefasthet tåler mer avvik, siden de fleste oppskrifter arbeider til mål heller enn pinneantall.
 
 **Bør jeg vaske prøvelappen før jeg måler?**
-Hvis det ferdige plagget skal vaskes, ja. Noen garn endrer strikkefasthet tydelig etter vask. Superwash-ull kan vokse i lengden, bomull slapper av, og alpakka kan strekke seg eller få mer fall. Strikk prøvelappen, vask og blokk den slik du vil behandle plagget, la den tørke helt og mål. [Prøvelappguiden](/no/artikler/strikke-provelapp-steg-for-steg/) dekker hele prosessen.
+Bruk tilstanden strikkeoppskriften angir. Hvis den uttrykkelig oppgir ublokket strikkefasthet, måler du før vask eller blokking. Hvis ingen tilstand er oppgitt, behandler du prøvelappen som det ferdige plagget. Noen garn endrer strikkefasthet tydelig etter vask. Superwash-ull kan vokse i lengden, bomull slapper av, og alpakka kan strekke seg eller få mer fall. Noter verdien før behandling, la prøvelappen tørke helt etter behandlingen og mål på nytt. [Prøvelappguiden](/no/artikler/strikke-provelapp-steg-for-steg/) dekker hele prosessen.
 
 **Påvirker blokking strikkefastheten?**
-Våtblokking åpner ofte maskene litt, særlig i hullmønster og løsere stoffer. Ull kan ofte formes mens den er fuktig. Bomull kan slappe av uten å sprette tilbake på samme måte som ull. Mål alltid prøvelappen etter blokking. Tallet før blokking er ikke tallet som betyr noe.
+Våtblokking åpner ofte maskene litt, særlig i hullmønster og løsere stoffer. Ull kan ofte formes mens den er fuktig. Bomull kan slappe av uten å sprette tilbake på samme måte som ull. Bruk tilstanden strikkeoppskriften angir, også ublokket hvis det er det den ber om. Hvis ingen tilstand er oppgitt, måler du etter samme behandling som det ferdige prosjektet. Noter både verdien før og etter behandlingen; verdien før behandling er nyttig når du sammenligner med et arbeid som ennå ikke er vasket eller blokket.
 
 **Maskefastheten stemmer, men pinnefastheten er feil. Hva gjør jeg?**
 Arbeid etter mål i stedet for pinneantall når oppskriften tillater det. Hvis oppskriften spesifiserer forming etter pinne, konverter de pinnene til centimeter med oppskriftens pinnefasthet, og arbeid til de målene med din.
