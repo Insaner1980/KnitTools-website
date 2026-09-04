@@ -13,25 +13,25 @@ translationKey: "how-to-measure-knitting-gauge"
 
 L'échantillon, c'est la partie que beaucoup de tricoteuses sautent juste avant qu'un projet sorte à la mauvaise taille. Le bonnet tout mou. Le pull qui devient une tente. La manche qui finit 5 cm plus longue que le schéma. Presque toutes ces histoires commencent pareil : "l'échantillon semblait facultatif".
 
-Il ne l'est pas. Pas vraiment. Pour mesurer ton échantillon, tricote un carré d'au moins 15 cm dans le point du modèle, lave-le et bloque-le, puis compte les mailles et les rangs sur 10 cm au centre. Ce petit détour économise beaucoup plus de temps que de détricoter la moitié d'un vêtement plus tard. Le calcul n'est pas la partie difficile. Le plus dur, c'est de te convaincre de le faire avant de monter les vraies mailles.
+Il ne l'est pas. Pas vraiment. Pour mesurer ton échantillon, tricote un carré d'environ 15 cm dans le point du modèle, ou suis les dimensions indiquées par le modèle. Mesure une zone centrale de 10 cm, éloignée des bords, dans l'état demandé par le modèle ; si aucun état n'est précisé, lave et bloque l'échantillon comme tu traiteras l'ouvrage fini, laisse-le sécher complètement, puis mesure-le. Ce petit détour économise beaucoup plus de temps que de détricoter la moitié d'un vêtement plus tard. Le calcul n'est pas la partie difficile. Le plus dur, c'est de te convaincre de le faire avant de monter les vraies mailles.
 
 ## Ce que veut dire l'échantillon
 
 L'échantillon, parfois appelé tension dans certains modèles, est le nombre de mailles et de rangs qui tiennent dans une mesure donnée de tissu. Un modèle peut l'écrire ainsi : "20 mailles et 26 rangs = 10 cm en jersey endroit avec des aiguilles 4,5 mm".
 
-Cette ligne te dit à quoi ressemblait le tissu fini de la créatrice. Si ton tricot correspond, les dimensions finies ont de bonnes chances de correspondre aussi. Si ce n'est pas le cas, les mesures du projet partent immédiatement ailleurs. Et l'écart n'a pas besoin d'être énorme. Deux mailles d'écart sur 10 cm se voient vite. Sur un pull de 100 cm de tour, cet écart peut ajouter plus de 10 cm autour du corps. C'est la différence entre "ça passe" et "pourquoi ça tombe des épaules ?"
+Cette ligne te dit à quoi ressemblait le tissu fini de la créatrice. Si ton tricot correspond, les dimensions finies ont de bonnes chances de correspondre aussi. Si ce n'est pas le cas, les mesures du projet partent immédiatement ailleurs. Et l'écart n'a pas besoin d'être énorme. Avec une cible de 20 mailles pour 10 cm et 200 mailles, la largeur prévue est de 100 cm. À 18 mailles pour 10 cm, les mêmes 200 mailles donnent environ 111,1 cm ; à 22 mailles pour 10 cm, elles donnent environ 90,9 cm. Un échantillon plus lâche agrandit donc l'ouvrage, tandis qu'un échantillon plus serré le rétrécit. C'est la différence entre "ça passe" et "pourquoi ça tombe des épaules ?"
 
 ## Comment tricoter un échantillon
 
 L'échantillon est un petit morceau de tissu fait avec ton fil, tes aiguilles et le point réellement utilisé dans le projet. C'est tout. Mais les détails comptent.
 
-Monte assez de mailles pour obtenir au moins 15 cm de largeur. Un peu plus, c'est mieux si le fil est nerveux ou si le projet doit être ajusté. Un échantillon donné sur 10 cm ne doit jamais être mesuré d'un bord à l'autre. Le bord de montage, le bord rabattu et les mailles de côté se comportent différemment du centre du tissu. Il faut de la marge autour de la zone de mesure pour lire le vrai tissu, pas les déformations des bords.
+Monte assez de mailles pour obtenir environ 15 cm de largeur, ou suis les instructions précises du modèle sur la taille de l'échantillon. Un peu plus, c'est mieux si le fil est nerveux ou si le projet doit être ajusté. Environ 15 cm est une recommandation solide parce que cela laisse de la marge autour d'une zone centrale de 10 cm, mais ce n'est pas un minimum universel. Un échantillon plus petit peut rester utilisable s'il offre une zone centrale assez grande, représentative et non déformée pour la mesure. Le bord de montage, le bord rabattu et les mailles de côté se comportent différemment du centre du tissu ; la zone de 10 cm ne doit donc pas aller d'un bord à l'autre.
 
 Si le modèle dit "en jersey", tricote l'échantillon en jersey. S'il dit "dans le point du modèle", utilise le point du projet. Cette partie compte plus que beaucoup de tricoteuses ne l'imaginent. Les torsades resserrent. La dentelle s'ouvre. Les côtes se contractent. Aucun de ces tissus ne se comporte comme un jersey simple, et les traiter comme interchangeables est exactement le genre de chose qui fausse l'échantillon. Un tissu très torsadé, avec le même nombre de mailles qu'un jersey, peut facilement sortir 2,5 cm ou plus plus étroit sur 25 cm.
 
-Tricote jusqu'à ce que l'échantillon mesure au moins 15 cm de haut. Puis rabats.
+Tricote jusqu'à ce que l'échantillon mesure environ 15 cm de haut, en laissant assez de tissu pour mesurer 10 cm loin du bord de montage et du bord rabattu. Puis rabats.
 
-C'est ici que beaucoup attrapent la règle trop tôt. Ne mesure pas encore.
+C'est ici que beaucoup attrapent la règle. Mesure et note d'abord l'échantillon non traité ; cette valeur peut être celle que demande le modèle et elle permet aussi de comparer l'échantillon à l'ouvrage en cours.
 
 ## Laver et bloquer l'échantillon
 
@@ -39,7 +39,7 @@ C'est l'étape où la plupart des erreurs d'échantillon se produisent. Le tissu
 
 La laine gonfle et les mailles se remplissent, rendant le tissu légèrement plus large et plus doux. Le coton se détend et tombe davantage. Le mérinos superwash peut s'allonger nettement. Le lin s'assouplit après un ou deux lavages. L'acrylique se stabilise souvent après manipulation et lavage. Chaque fibre fait quelque chose, et la seule façon de savoir ce que fait ton fil précis est de mouiller l'échantillon.
 
-Si tu sautes cette étape, tu mesures le mauvais tissu. L'échantillon correspond juste sorti des aiguilles, le pull fini reçoit son premier lavage, et soudain il prend une taille. Cela arrive tout le temps. C'est la raison la plus fréquente derrière "mon échantillon était bon mais le pull ne va pas".
+Le lavage et le blocage montrent comment le tissu se comporte après traitement. La mesure avant traitement n'est pas fausse : conserve-la pour une exigence explicite d'échantillon non bloqué et pour comparer l'échantillon à l'ouvrage en cours. La mesure après traitement sert à comprendre le comportement du tissu fini.
 
 Traite l'échantillon comme tu traiteras le projet fini. Si le pull sera lavé à la main et séché à plat, fais ça à l'échantillon. Si le fil passe en machine et que c'est ainsi que l'objet fini sera entretenu, lave l'échantillon de cette façon. Le but est de reproduire la vraie vie du vêtement.
 
@@ -103,7 +103,7 @@ Un est le minimum. Si le premier ne correspond pas et que tu changes de taille d
 Les fils plus épais amplifient plus vite les erreurs de taille, parce que chaque maille est physiquement plus grande. Un écart de 2 mailles sur 10 cm en bulky déplace davantage le tissu que le même écart en fingering. Mais pour les vêtements ajustés, l'échantillon compte à toutes les épaisseurs. Les enjeux augmentent simplement quand le fil devient plus gros.
 
 **Mon échantillon correspond après blocage mais pas avant. Lequel compte ?**  
-L'échantillon bloqué. Toujours. C'est le tissu que tu porteras vraiment, et la mesure avant blocage n'est qu'une photo de ce que fait le fil sous tension sur l'aiguille. L'après-blocage est la réalité.
+Mesure et note d'abord la valeur avant traitement. Utilise ensuite l'état demandé par le modèle, y compris l'échantillon non bloqué si c'est ce qu'il indique. S'il ne précise rien, lave ou bloque l'échantillon comme tu traiteras l'ouvrage fini, laisse-le sécher complètement, puis mesure-le de nouveau. Conserve les deux valeurs : celle avant traitement sert à une exigence explicite d'échantillon non bloqué et à la comparaison avec l'ouvrage en cours ; celle après traitement montre comment le tissu fini se comportera.
 
 **Faut-il garder ses échantillons ?**  
 Les garder est utile, surtout pour les pulls ou tout projet où tu pourrais devoir revérifier l'échantillon en cours de route. Certaines tricoteuses les étiquettent avec la taille d'aiguille et le fil. D'autres les détricotent une fois le projet bien lancé. Les deux fonctionnent, tant que l'échantillon a déjà fait son travail.

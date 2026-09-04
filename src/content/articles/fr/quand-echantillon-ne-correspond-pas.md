@@ -29,7 +29,7 @@ Avant de changer quoi que ce soit, élimine l'erreur de mesure. Pose l'échantil
 
 Compte les mailles sur 10 cm. Inclus les demi-mailles. Elles comptent. Un échantillon qui donne "20 mailles" quand on arrondit, mais "19,5 mailles" quand on compte honnêtement, crée une vraie différence sur un vêtement entier. Le [guide de mesure de l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/) couvre tout le processus, mais la version courte : mesure au centre, compte précisément, n'étire pas.
 
-Si l'échantillon fait moins d'environ 15 cm de côté, les déformations des bords mangent la zone de mesure et le résultat devient peu fiable. Les échantillons plus grands donnent des chiffres plus honnêtes.
+Un échantillon d'environ 15 cm de côté est un choix pratique, car il laisse une zone centrale de 10 cm éloignée du bord de montage, du bord rabattu et des côtés. Ce n'est pas un minimum universel : un échantillon plus petit peut rester utilisable s'il offre une zone suffisamment grande, représentative et non déformée pour la mesure. Suis les éventuelles instructions du modèle sur la taille de l'échantillon ou la méthode de mesure.
 
 Mesure à deux endroits de l'échantillon et fais la moyenne. Un tricot à la main n'est jamais parfaitement uniforme, et une seule mesure peut tomber sur une zone un peu plus lâche ou plus serrée.
 
@@ -69,7 +69,7 @@ L'échantillon qui sort des aiguilles n'est pas forcément l'échantillon après
 
 La laine peut gonfler et remplir les espaces. Le nombre de mailles sur 10 cm peut diminuer légèrement quand les fibres se détendent. Le coton peut se relâcher vers le bas. La laine superwash peut grandir, surtout en longueur. L'alpaga peut s'étirer et gagner en tombé. Le lin s'assouplit et l'échantillon peut s'ouvrir.
 
-La règle pratique : bloque l'échantillon de la même manière que tu bloqueras l'ouvrage fini, puis mesure. Si tu sautes le blocage et que tu montes les mailles à partir du chiffre brut, le vêtement fini peut changer d'une taille entière après son premier lavage.
+Mesure et note d'abord l'échantillon non traité. Utilise l'état indiqué par le modèle, y compris une mesure non bloquée s'il la demande. Si le modèle ne précise pas d'état, bloque l'échantillon comme tu traiteras l'ouvrage fini, laisse-le sécher complètement, puis mesure-le de nouveau. Conserve les deux valeurs : la première aide à comparer l'échantillon avec l'ouvrage en cours, et la seconde montre comment le vêtement se comportera après son premier lavage.
 
 ## Quand l'échantillon compte moins
 
@@ -126,7 +126,7 @@ Pour les vêtements ajustés, vise une correspondance exacte sur le nombre de ma
 Si l'ouvrage fini sera lavé, oui. Certains fils changent nettement après lavage. La laine superwash peut s'allonger, le coton peut se détendre, et l'alpaga peut s'étirer ou gagner en tombé. Tricote l'échantillon, lave-le et bloque-le comme tu traiteras l'ouvrage fini, laisse-le sécher complètement, puis mesure. Le [pas-à-pas de l'échantillon](/fr/articles/tricoter-un-echantillon-etape-par-etape/) couvre tout le processus.
 
 **Le blocage modifie-t-il l'échantillon ?**
-Le blocage humide peut ouvrir les mailles, surtout dans les motifs ajourés et les tissus lâches. La laine peut souvent se mettre en forme pendant qu'elle est humide. Le coton peut se détendre sans reprendre sa forme comme la laine. Mesure toujours ton échantillon après blocage. Le chiffre avant blocage n'est pas celui qui compte.
+Le blocage humide peut ouvrir les mailles, surtout dans les motifs ajourés et les tissus lâches. La laine peut souvent se mettre en forme pendant qu'elle est humide. Le coton peut se détendre sans reprendre sa forme comme la laine. Utilise l'état d'échantillon indiqué par le modèle, y compris l'état non bloqué s'il le demande. S'il n'en précise aucun, utilise la mesure obtenue après avoir lavé ou bloqué l'échantillon comme tu traiteras l'ouvrage fini. Note les mesures avant et après blocage afin de comparer l'échantillon à ton ouvrage avant que celui-ci soit lavé ou bloqué.
 
 **Mon échantillon en mailles correspond, mais pas celui en rangs. Que faire ?**
 Travaille aux mesures plutôt qu'au nombre de rangs dès que le modèle le permet. Si le modèle précise un façonnage par numéro de rang, convertis ces rangs en centimètres avec l'échantillon du modèle, puis travaille à ces mesures avec le tien.

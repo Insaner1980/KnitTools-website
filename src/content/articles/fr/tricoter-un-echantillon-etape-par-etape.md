@@ -28,9 +28,9 @@ Si le modèle a été écrit par quelqu'un d'autre, vérifie aussi si l'échanti
 
 ## Étape 1 : monter les mailles
 
-Monte assez de mailles pour obtenir au moins 15 cm de largeur. Si l'échantillon du modèle indique 20 mailles pour 10 cm, il te faut au moins 30 mailles : 20 pour la zone de mesure, plus environ 5 de chaque côté pour ne pas mesurer les bords déformés.
+Monte assez de mailles pour obtenir environ 15 cm de largeur, ou suis les instructions du modèle sur la taille de l'échantillon. Cela laisse généralement une zone centrale de 10 cm loin des mailles lisières déformées. Si l'échantillon du modèle indique 20 mailles pour 10 cm, 30 mailles donnent 20 mailles pour la zone de mesure et environ 5 de chaque côté.
 
-Calcul rapide : le nombre de mailles du modèle pour 10 cm, multiplié par 1,5. C'est ton nombre de mailles à monter.
+Calcul rapide : multiplie le nombre de mailles indiqué pour 10 cm par 1,5 pour estimer le nombre nécessaire à environ 15 cm de tissu. Par exemple, 20 × 1,5 = 30 mailles. Ce résultat n'est pas automatiquement le nombre final à monter. Si le résultat comporte une décimale, arrondis à la maille entière supérieure : 21 × 1,5 = 31,5, donc 32 mailles. Pour un point qui se répète sur 6 mailles, monte ensuite jusqu'à la répétition complète suivante, soit 36 dans cet exemple. Ajoute séparément les mailles de bord ou lisières qui resteront hors de la zone centrale, mais n'ajoute pas de nouveau celles qui sont déjà comprises dans la largeur totale prévue.
 
 La méthode de montage compte moins qu'on ne le croit pour l'échantillon lui-même, mais utilise celle du projet si tu peux. Le montage long-tail est un point de départ courant pour beaucoup d'ouvrages à plat. Si le projet commence en côtes, l'échantillon n'a pas forcément besoin de commencer en côtes, mais savoir si ton bord de montage tire est utile.
 
@@ -38,7 +38,7 @@ La méthode de montage compte moins qu'on ne le croit pour l'échantillon lui-m�
 
 Tricote dans le point indiqué dans la section échantillon. "En jersey" veut dire jersey. "Dans le point du modèle" veut dire le vrai point utilisé dans le projet. Cette distinction compte parce que les points différents donnent des échantillons différents. Une torsade resserre le tissu. Un motif ajouré s'ouvre après blocage. Les côtes se compriment en largeur. Mesurer un échantillon en jersey et supposer qu'il dit quelque chose sur un empiècement torsadé est une bonne façon d'obtenir un pull qui ne va pas.
 
-Tricote jusqu'à ce que l'échantillon fasse au moins 15 cm de haut. Même logique de marge : 10 cm mesurables avec au moins 2 à 3 cm au-dessus et en dessous.
+Tricote jusqu'à ce que l'échantillon fasse environ 15 cm de haut, ou jusqu'à ce qu'il fournisse assez de tissu non déformé pour mesurer une zone centrale de 10 cm loin du bord de montage et du bord rabattu. Environ 15 cm est une recommandation solide, pas un minimum universel : un échantillon plus petit peut rester utilisable si la zone de mesure est assez grande, représentative et non déformée, sans compter des mailles de bord uniquement pour obtenir 10 cm.
 
 Certaines personnes ajoutent une bordure au point mousse, par exemple 3 ou 4 mailles de chaque côté et 3 ou 4 rangs en haut et en bas, pour empêcher l'échantillon de rouler. Le jersey roule. Un échantillon plat est plus facile à mesurer. La bordure au point mousse ne change pas l'échantillon de la zone en jersey au centre. Cela vaut souvent le petit effort.
 
@@ -50,7 +50,7 @@ C'est l'étape qu'on saute le plus, et celle qui compte le plus.
 
 Fais tremper dans de l'eau tiède pendant 15 à 20 minutes, sauf indication contraire sur l'étiquette. Roule l'échantillon dans une serviette pour enlever l'excès d'eau, sans tordre. Mets à plat et laisse sécher complètement. Si le fil doit être traité à la vapeur plutôt que trempé, traite l'échantillon de cette façon. Le [guide du blocage](/fr/articles/bloquer-un-tricot/) explique les méthodes selon les fibres.
 
-Le fil change quand il est mouillé. La laine peut gonfler et les mailles peuvent se remplir. Le coton peut se détendre. Le lin s'assouplit. La laine superwash et l'alpaga peuvent grandir ou prendre plus de tombé que prévu. L'échantillon sorti des aiguilles n'est pas toujours l'échantillon après son premier lavage, et ton projet sera lavé. Mesure l'échantillon lavé, pas l'échantillon brut.
+Le fil change quand il est mouillé. La laine peut gonfler et les mailles peuvent se remplir. Le coton peut se détendre. Le lin s'assouplit. La laine superwash et l'alpaga peuvent grandir ou prendre plus de tombé que prévu. Mesure et note l'échantillon avant traitement. Utilise l'état demandé par le modèle, y compris l'état non bloqué s'il le demande. S'il ne précise rien, traite l'échantillon comme l'ouvrage fini comme indiqué ci-dessous, puis mesure-le de nouveau une fois sec. Conserve les deux valeurs.
 
 Bloque l'échantillon de la même manière que tu bloqueras le projet. Si l'ouvrage fini sera trempé et épinglé à plat, fais-le avec l'échantillon. S'il sera traité à la vapeur, passe l'échantillon à la vapeur. Si tu vas laver un pull en laine à la main et le laisser sécher à plat, fais exactement cela avec ton échantillon. Épingler agressivement pour étirer l'échantillon donne un chiffre qui ne correspond pas à la façon dont le tissu se comportera réellement porté.
 

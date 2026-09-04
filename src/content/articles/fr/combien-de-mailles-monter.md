@@ -50,7 +50,7 @@ Tu veux tricoter une écharpe simple en jersey, 20 cm de large, avec un échanti
 
 C'est le nombre de base. Si la bordure est en côtes 2/2, donc un multiple de 4, 36 fonctionne déjà. Si la bordure utilise un motif ajouré sur 6 mailles, 36 fonctionne aussi. Si le motif se répète sur 8 mailles, les options les plus proches sont 32 mailles, un peu plus étroit, ou 40 mailles, un peu plus large.
 
-Si des mailles lisières doivent être ajoutées, compte-les séparément et ajoute-les au total. Une maille lisière de chaque côté donne 38 mailles au lieu de 36.
+Si la cible de 20 cm décrit la zone centrale du motif, une maille lisière extérieure de chaque côté porte le total à 38 mailles. À cet échantillon, 36 mailles couvrent 20 cm et 38 mailles environ 21,1 cm. Si les 20 cm désignent la largeur finie complète, garde les mailles lisières dans les 36 mailles calculées au lieu de les ajouter ensuite.
 
 Le calcul prend une trentaine de secondes. Le faire avant le montage est plus rapide que de découvrir après six rangs que l'écharpe fait 15 cm de large.
 
@@ -103,7 +103,7 @@ Pour des côtes visibles sur un bas de pull, un montage tubulaire ou un German t
 
 Le calcul est le même qu'à plat : échantillon × circonférence cible. Pour les bonnets et les chaussettes, cette circonférence cible est souvent plus petite que la mesure du corps, parce que le tissu a besoin d'aisance négative. L'exécution ajoute une vérification : joindre sans vriller.
 
-Avant de tricoter le premier tour, pose l'aiguille à plat et vérifie que toutes les mailles regardent dans la même direction. Le bord de montage doit suivre l'intérieur de l'aiguille sans spirale. Un montage vrillé est permanent. La seule vraie correction est de défaire et de recommencer.
+Avant de tricoter le premier tour, pose l'aiguille à plat et vérifie que toutes les mailles regardent dans la même direction. Le bord de montage doit suivre l'intérieur de l'aiguille sans spirale. Si tu remarques la torsion à la fin du premier tour, tu peux encore la corriger à la jonction. Après plusieurs tours, défaire et recommencer est généralement la solution la plus propre.
 
 Pour fermer le petit espace au début du tour, beaucoup de personnes montent une maille supplémentaire et la diminuent au moment de joindre. Le nombre de mailles de travail reste correct, et la jonction est plus nette que si le premier tour démarre avec un trou.
 

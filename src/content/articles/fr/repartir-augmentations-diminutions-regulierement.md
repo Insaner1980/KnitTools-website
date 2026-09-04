@@ -24,9 +24,11 @@ Que le rang doive ajouter ou enlever des mailles, le calcul de base est le même
 
 Nombre de mailles actuel / nombre de changements = intervalle entre chaque changement.
 
-Pour les augmentations, l'intervalle indique combien de mailles se trouvent dans chaque section, avec une nouvelle maille à la fin de la section. Pour les diminutions, l'intervalle est la répétition complète, et les deux dernières mailles de chaque répétition sont tricotées ensemble.
+L'intervalle indique combien de mailles existantes correspondent à chaque changement, mais l'écriture de la répétition dépend de la méthode. Dans les exemples M1 ci-dessous, l'augmentation se place entre deux mailles existantes ; un intervalle de 10 peut donc s'écrire `10 m. end., M1`. Si l'augmentation se travaille dans une maille existante, comme KFB, compte cette maille dans l'intervalle : écris `9 m. end., KFB`, pas `10 m. end., KFB`, car la seconde version consomme 11 mailles d'origine. Pour les diminutions, l'intervalle correspond à la répétition complète et inclut les mailles consommées par la diminution.
 
 Même calcul. Deux façons légèrement différentes d'écrire le rang.
+
+Si des mailles lisières ou de couture doivent rester hors du façonnage, soustrais leur total avant de calculer l'intervalle : `(nombre de mailles actuel - mailles réservées) / nombre de changements`. Répartis les changements uniquement sur les mailles restantes, puis travaille les mailles réservées comme indiqué. Si les mailles de bord participent au façonnage, utilise le nombre total de mailles. Ce cas est différent du partage du premier et du dernier intervalle pour équilibrer le rang : ces mailles extérieures participent encore à la répartition.
 
 ## Exemple : une augmentation qui tombe juste
 

@@ -64,7 +64,7 @@ C'est une grande source de plaintes du type "mon échantillon était bon, mais l
 
 Le tissu qui sort des aiguilles n'est pas encore le tissu fini. La laine peut gonfler après blocage humide, s'ouvrir et s'assouplir. Le coton peut se détendre et s'allonger. La laine superwash peut grandir. Le lin s'assouplit et tombe davantage. Le point n'est pas que chaque fibre réagit de la même façon. Le point est que le premier lavage peut changer le tissu assez pour compter.
 
-Pour tout projet où la taille finale compte, l'échantillon doit être mesuré après lavage et blocage, avec le même traitement que l'ouvrage fini. Le guide pour [bloquer un tricot](/fr/articles/bloquer-un-tricot/) explique le blocage humide, et le guide pour [mesurer un échantillon](/fr/articles/mesurer-un-echantillon-tricot/) montre où et comment mesurer une fois l'échantillon sec.
+Pour tout projet où la taille finale compte, mesure et note d'abord l'échantillon non traité. Utilise ensuite l'état demandé par le modèle, y compris l'échantillon non bloqué si c'est ce qu'il indique. Si le modèle ne précise rien, lave et bloque l'échantillon comme tu traiteras l'ouvrage fini, laisse-le sécher complètement, puis mesure-le de nouveau. Conserve les deux valeurs : celle avant traitement sert à comparer avec l'ouvrage en cours, et celle après traitement montre comment le tissu fini se comportera. Le guide pour [bloquer un tricot](/fr/articles/bloquer-un-tricot/) explique le blocage humide, et le guide pour [mesurer un échantillon](/fr/articles/mesurer-un-echantillon-tricot/) montre où et comment mesurer.
 
 Un échantillon qui correspond avant blocage et ne correspond plus après n'est pas un problème de tension. C'est un comportement du fil. Autre problème, autre correction.
 
@@ -78,7 +78,7 @@ Il existe aussi une zone de tailles d'aiguilles où chaque fil donne un tissu co
 
 ## Échantillon du point contre échantillon en jersey
 
-La plupart des modèles donnent l'échantillon en jersey, même quand le projet contient des torsades, de la dentelle ou des panneaux texturés. Certains le donnent dans le point du modèle. Lis attentivement.
+Un modèle peut donner l'échantillon en jersey ou dans le point utilisé pour le projet. Lis attentivement.
 
 Tricote l'échantillon dans le point indiqué. Les torsades resserrent le tissu en largeur et demandent plus de mailles pour couvrir la même distance. La dentelle s'ouvre et en demande moins. Les côtes se contractent au repos et s'élargissent quand elles sont étirées, ce qui les rend difficiles à mesurer honnêtement. Un échantillon en jersey ne prédit pas l'échantillon d'un panneau torsadé.
 
@@ -125,7 +125,7 @@ Défaire reste une option si l'écart est important, mais la décision est beauc
 
 ## Le lien entre échantillon et dimensions finies
 
-L'échantillon en mailles contrôle la largeur. L'échantillon en rangs contrôle la hauteur.
+Dans un ouvrage tricoté dans le sens habituel, l'échantillon en mailles contrôle généralement la largeur et l'échantillon en rangs, la longueur. Dans une construction tricotée de côté, ces rôles peuvent s'inverser : l'échantillon en rangs peut déterminer la largeur, et l'échantillon en mailles la longueur.
 
 Quand un modèle dit "tricoter jusqu'à 35 cm", l'échantillon en rangs compte moins parce que tu t'arrêtes à la longueur indiquée. Quand le modèle dit "tricoter 96 rangs", l'échantillon en rangs compte beaucoup plus, parce que la longueur dépend entièrement de la hauteur de chaque rang.
 
