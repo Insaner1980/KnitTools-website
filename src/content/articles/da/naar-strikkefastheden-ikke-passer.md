@@ -29,7 +29,7 @@ Før du ændrer noget, skal du udelukke målefejl. Læg prøven fladt på en hå
 
 Tæl masker over 10 cm. Tæl også halve masker. Halve masker tæller. En prøve der bliver til "20 masker", fordi du runder op, men faktisk er 19,5 masker, giver en reel forskel på et helt stykke tøj. [Guiden til at måle strikkefasthed](/da/artikler/maal-strikkefasthed/) gennemgår hele processen, men den korte version er: mål i midten, tæl præcist, og stræk ikke stoffet.
 
-Hvis prøven er mindre end cirka 15 x 15 cm, æder kantforvrængningen sig ind i målefeltet, og tallet bliver upålideligt. Større strikkeprøver giver mere ærlige tal.
+En strikkeprøve på cirka 15 x 15 cm er et praktisk valg, fordi den giver plads til et centralt målefelt på 10 cm væk fra opslag, aflukning og sidekanter. Det er ikke et universelt minimum: en mindre prøve kan stadig bruges, hvis den rummer et tilstrækkeligt stort, repræsentativt og uforvrænget målefelt. Følg opskriftens særlige anvisninger om prøvestørrelse eller måling.
 
 Mål to steder på prøven, og brug gennemsnittet. Håndstrik er ikke helt ensartet. En enkelt måling kan ramme et lidt løsere eller strammere felt.
 
@@ -69,7 +69,7 @@ Strikkefastheden direkte fra pindene er ikke nødvendigvis den samme som strikke
 
 Uld kan blomstre og fylde ud. Antallet af masker pr. 10 cm kan falde lidt, når fibrene slapper af. Bomuld kan give sig nedad. Superwash-uld kan vokse, især i længden. Alpaka kan strække sig og få mere fald. Hør bliver blødere, og strikkefastheden kan åbne sig.
 
-Den praktiske regel: blok strikkeprøven på samme måde, som du vil blokke det færdige arbejde, og mål bagefter. Hvis du springer blokningen over og slår op efter det rå tal, kan den færdige trøje ende en hel størrelse forkert efter første vask.
+Brug den måletilstand, opskriften angiver. Beder den om ublokket strikkefasthed, bruger du den ublokkede prøve. Angiver den ingen tilstand, behandler du strikkeprøven på samme måde som det færdige arbejde og måler, når den er helt tør. Notér gerne både før- og eftermålingen, så du kan sammenligne prøven med arbejdet undervejs. Hvis du slår op efter et tal, der ikke svarer til den relevante sluttilstand, kan den færdige trøje ende en hel størrelse forkert efter første vask.
 
 ## Når strikkefasthed ikke betyder så meget
 
@@ -125,10 +125,10 @@ At gemme garnet til et andet projekt og finde en opskrift skrevet til den strikk
 Til tætsiddende tøj bør maskefastheden ramme præcist. Til tilbehør er en afvigelse på omkring 1 maske pr. 10 cm som regel fint. Pindefastheden har større tolerance, fordi de fleste opskrifter strikker efter mål i stedet for antal pinde.
 
 **Skal jeg vaske strikkeprøven, før jeg måler?**
-Hvis det færdige arbejde skal vaskes, ja. Nogle garntyper ændrer strikkefasthed tydeligt efter vask. Superwash-uld kan vokse i længden, bomuld kan slappe af, og alpaka kan strække sig eller få mere fald. Strik prøven, vask og blok den på samme måde som det færdige arbejde, lad den tørre helt, og mål så. [Strikkeprøve-guiden trin for trin](/da/artikler/strikkeproeve-trin-for-trin/) gennemgår hele processen.
+Ja, hvis det færdige arbejde skal vaskes, men brug den måletilstand, opskriften angiver. Beder den om ublokket strikkefasthed, måler og noterer du først prøven ublokket. Nogle garntyper ændrer strikkefasthed tydeligt efter vask: superwash-uld kan vokse i længden, bomuld kan slappe af, og alpaka kan strække sig eller få mere fald. Vask og blok derefter prøven på samme måde som det færdige arbejde, lad den tørre helt, og mål igen, så du har begge tal. [Strikkeprøve-guiden trin for trin](/da/artikler/strikkeproeve-trin-for-trin/) gennemgår hele processen.
 
 **Påvirker blokning strikkefastheden?**
-Vådblokning kan åbne maskerne, især i hulmønster og løsere stoffer. Uld kan ofte formes, mens det er fugtigt. Bomuld kan slappe af uden at springe tilbage på samme måde som uld. Mål altid strikkeprøven efter blokning. Tallet før blokning er ikke det tal, der betyder mest.
+Vådblokning kan åbne maskerne, især i hulmønster og løsere stoffer. Uld kan ofte formes, mens det er fugtigt. Bomuld kan slappe af uden at springe tilbage på samme måde som uld. Brug den måletilstand, opskriften angiver, også ublokket strikkefasthed, hvis det er det, den kræver. Angiver opskriften ingen tilstand, bruger du målingen efter vask eller blokning på samme måde som det færdige projekt. Notér både målingen før og efter behandlingen, så du kan sammenligne prøven med arbejdet, før projektet selv er blevet vasket eller blokket.
 
 **Min maskefasthed passer, men min pindefasthed er forkert. Hvad gør jeg?**
 Strik efter mål i stedet for pindetal, når opskriften tillader det. Hvis opskriften placerer formgivning efter antal pinde, så omregn de pinde til centimeter ud fra opskriftens pindefasthed, og strik derefter til de mål med din egen.

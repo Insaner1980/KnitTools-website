@@ -64,7 +64,7 @@ Det her er en stor kilde til "min strikkeprøve passede, men sweateren passer ik
 
 Stoffet, der kommer af pindene, er ikke det færdige stof. Uld kan blomstre efter vådblokning, åbne sig og blive blødere. Bomuld kan slappe af og blive længere. Superwash-uld kan vokse. Hør bliver blødere og falder mere. Pointen er ikke, at alle fibre opfører sig ens hver gang. Pointen er, at den første vask kan ændre stoffet nok til, at det betyder noget.
 
-Til projekter hvor færdig størrelse betyder noget, bør strikkefastheden måles på en vasket og blokket strikkeprøve, behandlet på samme måde som det færdige arbejde skal behandles. [Guiden til blokning](/da/artikler/blokke-strik-vaadt-damp-spray/) gennemgår vådblokning, og [guiden til at måle strikkefasthed](/da/artikler/maal-strikkefasthed/) viser, hvor og hvordan du måler, når prøven er tør.
+Til projekter, hvor den færdige størrelse betyder noget, skal du bruge den måletilstand, opskriften angiver, også ublokket strikkefasthed, hvis det er det, den kræver. Angiver opskriften ingen tilstand, måler du en vasket eller blokket strikkeprøve, der er behandlet på samme måde som det færdige arbejde, når den er helt tør. Notér gerne både før- og eftermålingen, så du kan sammenligne med arbejdet undervejs. [Guiden til blokning](/da/artikler/blokke-strik-vaadt-damp-spray/) gennemgår vådblokning, og [guiden til at måle strikkefasthed](/da/artikler/maal-strikkefasthed/) viser, hvor og hvordan du måler.
 
 En strikkeprøve, der rammer før blokning og ikke efter, er ikke et spændingsproblem. Det er garnets opførsel. En anden slags problem.
 
@@ -78,7 +78,7 @@ Der findes også et pindestørrelsesområde for hvert garn, hvor stoffet giver m
 
 ## Maskemønsterfasthed over for glatstrikfasthed
 
-De fleste opskrifter angiver strikkefasthed i glatstrik, selv når projektet indeholder snoninger, hulmønster eller strukturfelter. Nogle angiver den i selve maskemønsteret. Læs nøje.
+En opskrift kan angive strikkefastheden i glatstrik eller i det maskemønster, projektet bruger. Læs nøje.
 
 Strik prøven i det maskemønster, strikkefastheden er angivet for. Snoninger trækker stoffet sammen i bredden og kræver flere masker for at dække samme bredde. Hulmønster åbner sig og kræver færre. Rib trækker sig sammen i hvile og udvider sig, når det strækkes, så det er svært at måle ærligt. En glatstrikfasthed forudsiger ikke en snoningsfasthed.
 
@@ -125,7 +125,7 @@ At trevle tilbage er altid en mulighed ved større afvigelser, men den beslutnin
 
 ## Forholdet mellem strikkefasthed og færdige mål
 
-Maskefastheden styrer bredden. Pindefastheden styrer højden.
+Når arbejdet strikkes i den almindelige retning, styrer maskefastheden som regel bredden, mens pindefastheden som regel styrer længden. I konstruktioner, der strikkes på tværs, kan rollerne være omvendt: pindefastheden kan bestemme bredden, mens maskefastheden kan bestemme længden.
 
 Når en opskrift siger "strik til 35 cm", betyder pindefastheden mindre, fordi du stopper, når stoffet når den længde. Når opskriften siger "strik 96 pinde", betyder pindefastheden meget mere, fordi længden afhænger helt af, hvor høj hver pind er.
 

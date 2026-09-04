@@ -16,7 +16,7 @@ lang: da
 translationKey: "gauge-swatch-step-by-step"
 ---
 
-En strikkeprøve er en testfirkant strikket i dit projektgarn og projektets maskemønster, vasket og blokket, og derefter målt over 10 cm for at se, om dine masker passer til opskriftens krav. Det her er den praktiske gennemgang. Hvis du vil forstå hvorfor strikkefasthed betyder noget, og hvad du gør når din ikke passer, dækker [guiden til at måle strikkefasthed](/da/artikler/maal-strikkefasthed/) hele billedet. Denne side er til når du allerede ved hvorfor og bare vil have trinene.
+En strikkeprøve er et teststykke, der strikkes i dit projektgarn og det maskemønster, opskriften angiver, og derefter måles over 10 cm i den tilstand, opskriften kræver. Angiver opskriften ingen tilstand, behandler du prøven på samme måde som det færdige projekt. Det her er den praktiske gennemgang. Hvis du vil forstå hvorfor strikkefasthed betyder noget, og hvad du gør når din ikke passer, dækker [guiden til at måle strikkefasthed](/da/artikler/maal-strikkefasthed/) hele billedet. Denne side er til når du allerede ved hvorfor og bare vil have trinene.
 
 ## Det skal du bruge
 
@@ -28,9 +28,9 @@ Hvis opskriften er skrevet af en anden, så tjek også om strikkefastheden er an
 
 ## Trin 1: slå masker op
 
-Slå nok masker op til mindst 15 cm stof. Hvis opskriftens strikkefasthed siger 20 masker pr. 10 cm, skal du bruge mindst 30 masker: 20 til målefeltet plus cirka 5 i hver side, så du ikke måler forvrængede kantmasker.
+Slå nok masker op til cirka 15 cm stof, eller følg opskriftens egne anvisninger om prøvestørrelse. Det giver som regel plads til et centralt målefelt på 10 cm væk fra forvrængede kantmasker. Hvis opskriftens strikkefasthed siger 20 masker pr. 10 cm, er 30 masker et foreløbigt skøn: 20 til målefeltet plus cirka 5 i hver side.
 
-Hurtig regning: opskriftens maskefasthed pr. 10 cm ganget med 1,5. Det er et godt opslagstal til strikkeprøven.
+Hurtig regning: gang opskriftens maskefasthed pr. 10 cm med 1,5 for at anslå, hvor mange masker du skal bruge til cirka 15 cm stof. For eksempel giver 20 × 1,5 = 30 masker. Hvis resultatet er et decimaltal, runder du op til nærmeste hele maske; 21 × 1,5 = 31,5 bliver altså 32. Til en strikkeprøve i mønster justerer du derefter op til en hel mønsterrapport, hvis det er nødvendigt. Ved en rapport på 6 masker bliver 32 derfor til 36. Læg kun kantmasker til særskilt, hvis de skal ligge uden for det centrale målefelt; masker, der allerede indgår i den ønskede totalbredde, må ikke lægges til igen.
 
 Opslagsmetoden betyder mindre for selve prøven, end man skulle tro, men brug samme metode som i projektet, hvis det er praktisk. Langhaleopslag er et almindeligt udgangspunkt for meget fladt strik. Hvis projektet begynder med rib, behøver prøven ikke nødvendigvis gøre det, men det er nyttigt at vide, om din opslagskant trækker sig sammen.
 
@@ -38,7 +38,7 @@ Opslagsmetoden betyder mindre for selve prøven, end man skulle tro, men brug sa
 
 Strik i det maskemønster, der står i afsnittet om strikkefasthed. "I glatstrik" betyder glatstrik. "I mønster" betyder det faktiske maskemønster fra projektet. Den forskel betyder noget, fordi forskellige mønstre giver forskellig strikkefasthed. En snoning trækker stoffet sammen. Hulmønster åbner sig efter blokning. Rib trækker sig sammen i bredden. At måle en glatstrikket prøve og antage, at den siger noget om et bærestykke med snoninger, er en almindelig vej til en trøje der ikke passer.
 
-Strik til prøven er mindst 15 cm høj. Samme bufferlogik: 10 målbare centimeter med mindst et par centimeter over og under.
+Strik til prøven er cirka 15 cm høj, eller til den har nok uforvrænget stof til, at du kan måle et centralt felt på 10 cm væk fra opslags- og aflukningskanten. Cirka 15 cm er et praktisk mål, ikke et universelt minimum; en mindre prøve kan bruges, hvis målefeltet stadig er stort nok, repræsentativt og uden kantforvrængning.
 
 Nogle strikkere lægger en retstrikket kant til, for eksempel 3 eller 4 masker i hver side og 3 eller 4 pinde øverst og nederst, så prøven ikke ruller. Glatstrik ruller. En flad prøve er lettere at måle. Retstrikskanten ændrer ikke strikkefastheden i glatstrikfeltet i midten. Ofte den lille ekstra indsats værd.
 
@@ -46,11 +46,11 @@ Luk løst af. En stram aflukning trækker overkanten ind og forvrænger pindene 
 
 ## Trin 3: vask og blok
 
-Det her trin bliver sprunget mest over og betyder mest.
+Brug først den måletilstand, opskriften angiver. Beder den om ublokket strikkefasthed, måler og noterer du prøven, før den behandles. Angiver opskriften ingen tilstand, behandler du den som det færdige projekt. Hvis prøven skal vaskes eller blokkes, følger du trinene nedenfor; behandlingen og den fulde tørring betyder meget for eftermålingen.
 
 Læg prøven i lunkent vand i 15 til 20 minutter, medmindre banderolen siger noget andet. Rul prøven i et håndklæde for at fjerne ekstra vand, men vrid den ikke. Læg den fladt, og lad den tørre helt. Hvis garnet bør dampes i stedet for at blive lagt i blød, så behandl prøven på den måde. [Guiden til blokning](/da/artikler/blokke-strik-vaadt-damp-spray/) gennemgår fibertilpassede metoder mere detaljeret.
 
-Garn ændrer sig, når det bliver vådt. Uld kan blomstre og fylde maskerne ud. Bomuld kan slappe af. Hør bliver blødere. Superwash-uld og alpaka kan vokse eller få mere fald end ventet. Prøven lige fra pindene er ikke altid den samme som prøven efter første vask, og dit projekt bliver vasket. Mål den vaskede prøve, ikke den rå.
+Garn ændrer sig, når det bliver vådt. Uld kan blomstre og fylde maskerne ud. Bomuld kan slappe af. Hør bliver blødere. Superwash-uld og alpaka kan vokse eller få mere fald end ventet. Mål og notér prøven før behandling, når opskriften beder om det, eller når du vil sammenligne med arbejdet undervejs. Mål igen, når den behandlede prøve er helt tør. Brug den værdi, opskriften kræver; hvis den ikke angiver en tilstand, bruger du værdien efter samme behandling som det færdige projekt.
 
 Blok strikkeprøven på samme måde, som du vil blokke projektet. Hvis det færdige arbejde skal lægges i blød og spændes fladt op, så gør det med prøven. Hvis det skal dampes, så damp prøven. Hvis du vil håndvaske en uldtrøje og lade den tørre fladt, så gør præcis det med prøven. Hård opspænding, der strækker prøven ud, giver et tal der ikke svarer til, hvordan stoffet opfører sig på kroppen.
 

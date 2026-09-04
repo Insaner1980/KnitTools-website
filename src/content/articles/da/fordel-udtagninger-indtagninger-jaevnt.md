@@ -24,9 +24,11 @@ Uanset om pinden skal have flere masker eller færre, er beregningen den samme. 
 
 Nuværende maskeantal / antal ændringer = intervallet mellem hver ændring.
 
-Ved udtagninger fortæller intervallet, hvor mange masker der ligger i hver sektion, med én ny maske i slutningen af sektionen. Ved indtagninger er intervallet hele rapporten, og de sidste to masker i rapporten strikkes sammen.
+Intervallet fortæller, hvor mange eksisterende masker der indgår i hver ændring, men den skrevne gentagelse afhænger af metoden. M1-eksemplerne nedenfor placerer udtagningen mellem eksisterende masker, så et interval på 10 kan skrives `strik 10, M1`. Ved en udtagning, der arbejdes i en eksisterende maske, som KFB, tæller den maske med i intervallet: skriv `strik 9, KFB`, ikke `strik 10, KFB`, fordi den sidste version bruger 11 oprindelige masker. Ved indtagninger er intervallet hele rapporten, inklusive de masker indtagningen bruger.
 
 Samme matematik, to lidt forskellige måder at skrive pinden på.
+
+Hvis bestemte kant- eller sømmasker skal holdes uden for formgivningen, trækker du det samlede antal af dem fra, før du beregner intervallet: `(nuværende maskeantal - masker uden for formgivningen) / antal ændringer`. Fordel kun ændringerne over de masker, der indgår i formgivningen, og strik de øvrige masker som angivet. Hvis kantmaskerne skal indgå i formgivningen, bruger du hele det nuværende maskeantal. Det er noget andet end at dele det første og sidste interval for at få balance, for dér indgår de yderste masker stadig i fordelingen.
 
 ## Eksempel: en ren udtagning
 

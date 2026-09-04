@@ -50,7 +50,7 @@ Tag et enkelt tørklæde i glatstrik, 20 cm bredt, med en strikkefasthed på 18 
 
 Det er grundtallet. Hvis kanten skal strikkes i 2x2-rib, altså et multiplum af 4, passer 36 allerede. Hvis kanten i stedet bruger en hulmønsterrapport på 6 masker, virker 36 stadig. Hvis rapporten er 8 masker, er de nærmeste valg 32 masker, lidt smallere, eller 40 masker, lidt bredere.
 
-Hvis kantmasker skal lægges til, tæller du dem separat og lægger dem oven i totalen. En strikket selvkant med én kantmaske i hver side betyder 38 masker i stedet for 36.
+Hvis målet på 20 cm beskriver det centrale mønsterfelt, giver én kantmaske i hver side uden for feltet et samlet opslag på 38 masker. Hvis den fulde bredde på 20 cm allerede skal omfatte kantmaskerne, holder du dem inden for de beregnede 36 masker i stedet for at lægge dem til bagefter.
 
 Regnestykket tager omkring et halvt minut. At gøre det før opslaget er hurtigere end at opdage efter seks pinde, at tørklædet kun bliver 15 cm bredt.
 
@@ -103,7 +103,7 @@ Til synlige ribkanter på sweaterkanter kan tubular cast-on eller German twisted
 
 Beregningen er den samme som til flad strik: strikkefasthed gange ønsket omkreds. Arbejder du i masker pr. 10 cm, regner du først om til masker pr. cm. Til huer og strømper er målomkredsen ofte mindre end kropsmålet, fordi stoffet skal have negativ bevægelsesvidde. Selve udførelsen får én ekstra kontrol: arbejdet skal samles uden at sno sig.
 
-Før du strikker første omgang, læg pinden fladt og tjek, at alle masker vender samme vej. Opslagskanten skal løbe langs indersiden af pinden uden spiral. Et snoet opslag er permanent. Den eneste løsning er at trevle op og slå op igen.
+Før du strikker første omgang, læg pinden fladt og tjek, at alle masker vender samme vej. Opslagskanten skal løbe langs indersiden af pinden uden spiral. Opdager du snoningen ved slutningen af første omgang, kan den stadig rettes ved samlingen. Når du har strikket flere omgange, er det som regel den pæneste løsning at trevle op.
 
 For at lukke det lille hul ved omgangsstart slår mange strikkere én ekstra maske op og tager den ind, når arbejdet samles. Det arbejdende maskeantal forbliver korrekt, og samlingen ser pænere ud, end hvis første omgang starter med et hul.
 
