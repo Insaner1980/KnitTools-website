@@ -64,7 +64,7 @@ Dit is een grote bron van klachten als "mijn proeflapje klopte, maar mijn trui p
 
 De stof die van de naalden komt, is niet de afgewerkte stof. Wol kan na nat blocken opbloeien, opener worden en zachter vallen. Katoen kan ontspannen en langer worden. Superwash-wol kan groeien. Linnen wordt soepeler en krijgt meer valling. Het punt is niet dat elke vezel zich elke keer hetzelfde gedraagt. Het punt is dat de eerste wasbeurt de stof genoeg kan veranderen om uit te maken.
 
-Bij elk project waar de eindmaat telt, meet je de stekenverhouding op een gewassen en geblockt proeflapje, behandeld zoals je het afgewerkte stuk gaat behandelen. De [gids over blocken](/nl/artikelen/breiwerk-blocken-nat-stoom-spray/) behandelt nat blocken, en de [gids voor stekenverhouding meten](/nl/artikelen/stekenverhouding-meten/) laat zien waar en hoe je meet wanneer het proeflapje droog is.
+Meet en noteer de stekenverhouding vóór de behandeling. Gebruik als vergelijkingsbasis de toestand die het patroon aangeeft, ook ongeblockt als dat uitdrukkelijk wordt gevraagd. Staat er geen toestand bij, was en block het proeflapje dan zoals je het afgewerkte stuk gaat behandelen en laat het volledig drogen voordat je opnieuw meet. Bewaar beide waarden: de meting ervoor helpt bij een expliciete ongeblockte stekenverhouding en bij vergelijking met breiwerk in uitvoering; de meting erna laat zien hoe de afgewerkte stof zich gedraagt. De [gids over blocken](/nl/artikelen/breiwerk-blocken-nat-stoom-spray/) behandelt nat blocken, en de [gids voor stekenverhouding meten](/nl/artikelen/stekenverhouding-meten/) laat zien waar en hoe je meet.
 
 Een proeflapje dat voor het blocken klopt en erna niet meer, is geen spanningsprobleem. Het is gedrag van het garen. Andere oorzaak, andere oplossing.
 
@@ -80,7 +80,7 @@ Er is ook een naalddiktegebied waarin een garen logisch breisel geeft. Ga je kle
 
 ## Stekenverhouding in steekpatroon vs tricotsteek
 
-De meeste patronen geven stekenverhouding in tricotsteek, ook als het project kabels, ajour of structuurpanelen bevat. Sommige patronen geven de stekenverhouding in het steekpatroon zelf. Lees dat precies.
+Een patroon kan de stekenverhouding in tricotsteek geven of in het steekpatroon dat voor het project wordt gebruikt. Lees dat precies.
 
 Brei het proeflapje in de steek waarin de stekenverhouding wordt opgegeven. Kabels trekken de stof horizontaal samen en hebben meer steken nodig voor dezelfde breedte. Ajour opent juist en heeft minder nodig. Boordsteek trekt in rust samen en rekt uit wanneer je eraan trekt, waardoor eerlijk meten lastig wordt. Een stekenverhouding in tricotsteek voorspelt geen kabelsteekverhouding.
 
@@ -127,7 +127,7 @@ Uithalen kan altijd bij grotere afwijkingen, maar die beslissing is veel makkeli
 
 ## De relatie tussen stekenverhouding en eindmaten
 
-Stekenverhouding in steken bepaalt de breedte. Toerenverhouding bepaalt de hoogte.
+Bij een gangbare breirichting bepaalt stekenverhouding in steken meestal de breedte en toerenverhouding meestal de lengte. Bij een zijwaartse constructie kunnen die rollen omkeren: toerenverhouding kan dan de breedte bepalen en stekenverhouding in steken de lengte.
 
 Als een patroon zegt "brei tot 35 cm", maakt toerenverhouding minder uit, omdat je stopt wanneer de stof die lengte heeft. Als het patroon zegt "brei 96 toeren", telt toerenverhouding veel meer, omdat de lengte volledig afhangt van hoe hoog elke toer is.
 

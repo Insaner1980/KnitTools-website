@@ -29,7 +29,7 @@ Voordat je iets verandert, sluit meetfouten uit. Leg het proeflapje plat op een 
 
 Tel steken over 10 cm. Tel halve steken mee. Die doen ertoe. Een proeflapje dat "20 steken" lijkt als je afrondt, maar eerlijk gemeten "19,5 steken" is, geeft echt verschil over een volledig kledingstuk. De [gids voor stekenverhouding meten](/nl/artikelen/stekenverhouding-meten/) behandelt het hele proces, maar kort gezegd: meet in het midden, tel precies, rek niet uit.
 
-Als het proeflapje kleiner is dan ongeveer 15 cm in het vierkant, eten de randvervormingen je meetgebied op en wordt de meting onbetrouwbaar. Grotere proeflapjes geven eerlijkere cijfers.
+Een proeflapje van ongeveer 15 cm in het vierkant is een sterke praktische keuze, omdat er dan ruimte blijft voor een centraal meetgebied van 10 cm, weg van de opzet-, afkant- en zijranden. Het is geen universeel minimum: een kleiner proeflapje kan nog bruikbaar zijn als het een groot genoeg, representatief en onvervormd middengebied voor de meting geeft. Volg altijd de specifieke instructies voor proeflapgrootte of meten in het patroon.
 
 Meet op twee plekken in het proeflapje en neem het gemiddelde. Handgebreid werk is niet volmaakt gelijkmatig, en een enkele meting kan net op een losser of strakker stukje vallen.
 
@@ -126,7 +126,7 @@ Voor passende kleding: mik op exact dezelfde stekenverhouding. Voor accessoires 
 Als het eindstuk gewassen wordt: ja. Sommige garens veranderen duidelijk na wassen. Superwash-wol kan in lengte groeien, katoen kan ontspannen en alpaca kan uitrekken of meer valling krijgen. Brei het proeflapje, was en block het zoals je het eindstuk gaat behandelen, laat het volledig drogen en meet dan. De [proeflapjesgids](/nl/artikelen/proeflapje-breien-stap-voor-stap/) behandelt het hele proces.
 
 **Heeft blocken invloed op stekenverhouding?**
-Nat blocken kan steken openen, vooral bij ajour en lossere stoffen. Wol kan vaak in vorm worden gebracht zolang het vochtig is. Katoen kan ontspannen zonder terug te veren zoals wol dat doet. Meet je proeflapje altijd na het blocken. Het getal voor blocken is niet het getal dat telt.
+Nat blocken kan steken openen, vooral bij ajour en lossere stoffen. Wol kan vaak in vorm worden gebracht zolang het vochtig is. Katoen kan ontspannen zonder terug te veren zoals wol dat doet. Gebruik de meettoestand die het patroon aangeeft, ook ongeblockte stekenverhouding als dat uitdrukkelijk wordt gevraagd. Staat er geen toestand bij, gebruik dan de meting nadat je het proeflapje hebt gewassen of geblockt zoals je het afgewerkte project gaat behandelen. Noteer zowel de meting voor als na het blocken, zodat je het proeflapje ook kunt vergelijken met breiwerk in uitvoering voordat dat zelf is gewassen of geblockt.
 
 **Mijn stekenverhouding klopt, maar mijn toerenverhouding niet. Wat nu?**
 Werk op maten in plaats van toerenaantallen wanneer het patroon dat toelaat. Als het patroon vormgeving per toer geeft, zet die toeren om naar centimeters met de toerenverhouding van het patroon en werk daarna tot die maten met jouw verhouding.

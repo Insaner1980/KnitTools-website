@@ -16,7 +16,7 @@ lang: nl
 translationKey: "gauge-swatch-step-by-step"
 ---
 
-Een proeflapje is een testvierkant gebreid met je projectgaren en steekpatroon, gewassen en geblockt, en daarna gemeten over 10 cm om te controleren of je steken overeenkomen met wat het patroon vraagt. Dit is de praktische werkwijze. Als je wilt begrijpen waarom stekenverhouding ertoe doet en wat je doet wanneer die van jou niet klopt, behandelt de [gids over stekenverhouding](/nl/artikelen/stekenverhouding-meten/) het volledige verhaal. Deze pagina is voor wanneer je al weet waarom en alleen de stappen wilt.
+Een proeflapje is een testvierkant gebreid met je projectgaren en steekpatroon. Meet het in de toestand die het patroon aangeeft, ook ongeblockt als dat uitdrukkelijk wordt gevraagd; staat er geen toestand bij, behandel het dan zoals het afgewerkte project. Noteer de stekenverhouding vóór de behandeling en meet opnieuw nadat het proeflapje volledig is opgedroogd, zodat je beide waarden bewaart. Dit is de praktische werkwijze. Als je wilt begrijpen waarom stekenverhouding ertoe doet en wat je doet wanneer die van jou niet klopt, behandelt de [gids over stekenverhouding](/nl/artikelen/stekenverhouding-meten/) het volledige verhaal. Deze pagina is voor wanneer je al weet waarom en alleen de stappen wilt.
 
 ## Wat je nodig hebt
 
@@ -26,9 +26,9 @@ Als het patroon door iemand anders is geschreven, controleer dan ook of de steke
 
 ## Stap 1: zet op
 
-Zet genoeg steken op voor minstens 15 cm breiwerk. Als de stekenverhouding in het patroon 20 steken per 10 cm is, heb je minstens 30 steken nodig: 20 voor het meetgebied plus ongeveer 5 aan elke kant zodat je geen vervormde randsteken meet.
+Zet genoeg steken op voor ongeveer 15 cm breiwerk, of volg de instructies voor de proeflapgrootte in het patroon. Zo blijft er meestal ruimte voor een centraal meetgebied van 10 cm, weg van vervormde zijrandsteken. Geeft het patroon 20 steken per 10 cm, dan geven 30 steken je 20 steken voor het meetgebied en ongeveer 5 aan elke kant.
 
-Snelle rekensom: de stekenverhouding van het patroon per 10 cm, keer 1,5. Dat is een goed opzetaantal voor het proeflapje.
+Snelle rekensom: vermenigvuldig de stekenverhouding van het patroon per 10 cm met 1,5 om het aantal steken voor ongeveer 15 cm breiwerk te schatten. Bijvoorbeeld: 20 × 1,5 = 30 steken. Is de uitkomst geen heel getal, rond dan naar boven af. Brei je een proeflapje in een patroon, verhoog het aantal zo nodig tot een volledig rapport past en tel daarna kant- of randsteken op die buiten het centrale meetgebied komen.
 
 De opzetmethode maakt voor het proeflapje zelf minder uit dan je misschien denkt, maar gebruik dezelfde methode als voor het project als dat kan. Long-tail is een gebruikelijk startpunt voor veel plat breiwerk. Als het project met boordsteek begint, hoeft het proeflapje dat niet per se te doen, maar weten of je opzetrand trekt is wel nuttig.
 
@@ -36,7 +36,7 @@ De opzetmethode maakt voor het proeflapje zelf minder uit dan je misschien denkt
 
 Brei in het steekpatroon dat in het gedeelte over stekenverhouding staat. "In tricotsteek" betekent tricotsteek. "In patroonsteek" betekent het echte steekpatroon van het project. Dit onderscheid doet ertoe omdat verschillende patronen verschillende stekenverhoudingen geven. Een kabel trekt de stof samen. Ajour opent na blocken. Boordsteek comprimeert in de breedte. Een proeflapje in tricotsteek meten en aannemen dat het iets zegt over een pas met kabels is een gewone route naar een trui die niet past.
 
-Brei tot het lapje minstens 15 cm hoog is. Zelfde bufferlogica: 10 cm meetbaar met minstens een paar centimeter erboven en eronder.
+Brei tot het lapje ongeveer 15 cm hoog is, of tot er genoeg onvervormd breiwerk is om middenin 10 cm te meten, weg van de opzet- en afkantrand. Ongeveer 15 cm is een sterke aanbeveling, geen universeel minimum: een kleiner proeflapje kan bruikbaar zijn als het een voldoende groot, representatief en onvervormd meetgebied geeft zonder randsteken mee te tellen om aan 10 cm te komen.
 
 Sommige breiers voegen een rand in ribbelsteek toe, bijvoorbeeld 3 of 4 steken aan elke zijkant en 3 of 4 toeren boven en onder, zodat het proeflapje niet opkrult. Tricotsteek krult. Een plat proeflapje is makkelijker te meten. De ribbelrand verandert de stekenverhouding van het tricotdeel in het midden niet. Vaak de kleine extra moeite waard.
 
@@ -48,7 +48,7 @@ Deze stap wordt het vaakst overgeslagen en is het belangrijkst.
 
 Laat 15 tot 20 minuten weken in lauwwarm water, tenzij het garenlabel iets anders zegt. Rol het proeflapje in een handdoek om extra water te verwijderen, maar wring niet. Leg plat neer en laat volledig drogen. Als het garen beter gestoomd dan geweekt kan worden, behandel het proeflapje dan zo. De [blockgids](/nl/artikelen/breiwerk-blocken-nat-stoom-spray/) behandelt vezelspecifieke methoden in detail.
 
-Garen verandert wanneer het nat wordt. Wol kan opbloeien en de steken vullen. Katoen kan ontspannen. Linnen wordt zachter. Superwash-wol en alpaca kunnen groeien of meer valling krijgen dan verwacht. Het proeflapje van de naalden is niet altijd hetzelfde proeflapje na de eerste was, en je project zal gewassen worden. Meet het gewassen proeflapje, niet het rauwe.
+Garen verandert wanneer het nat wordt. Wol kan opbloeien en de steken vullen. Katoen kan ontspannen. Linnen wordt zachter. Superwash-wol en alpaca kunnen groeien of meer valling krijgen dan verwacht. Noteer daarom de stekenverhouding vóór deze behandeling en meet opnieuw nadat het proeflapje volledig is opgedroogd. Bewaar beide waarden: de eerste is bruikbaar als het patroon een ongeblockte stekenverhouding vraagt en om te vergelijken met breiwerk in uitvoering; de tweede beschrijft hoe de afgewerkte stof zich gedraagt.
 
 Block het proeflapje op dezelfde manier als je het project gaat blocken. Als het afgewerkte stuk geweekt en plat vastgespeld wordt, doe dat met het proeflapje. Als het gestoomd wordt, stoom het proeflapje. Als je een wollen trui met de hand gaat wassen en plat laat drogen, doe precies dat met je proeflapje. Agressief spelden waardoor je het proeflapje uitrekt, geeft een getal dat niet overeenkomt met hoe de stof zich later op een lichaam gedraagt.
 

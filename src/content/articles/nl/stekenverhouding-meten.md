@@ -12,23 +12,23 @@ translationKey: "how-to-measure-knitting-gauge"
 
 Stekenverhouding is precies het onderdeel dat breiers overslaan vlak voordat een project de verkeerde maat krijgt. De muts die slap uitvalt. De trui die uitgroeit tot een tent. De mouw die 5 cm langer wordt dan het schema beloofde. Bijna al die verhalen beginnen hetzelfde: "het proeflapje leek optioneel."
 
-Dat is het niet. Niet echt. Om je stekenverhouding te meten, brei je een proeflapje van minstens 15 x 15 cm in het steekpatroon, was en block je het, en tel je daarna steken en toeren over 10 cm in het midden. Die kleine omweg bespaart veel meer tijd dan later een half kledingstuk uithalen. De rekensom is niet het moeilijke deel. Het moeilijke deel is jezelf overtuigen dat je dit doet voordat je het echte project opzet.
+Dat is het niet. Niet echt. Om je stekenverhouding te meten, brei je meestal een proeflapje van ongeveer 15 x 15 cm in het steekpatroon, of volg je de maat die het patroon aangeeft. Meet en noteer het proeflapje vóór de behandeling. Gebruik de toestand die het patroon voorschrijft als vergelijkingsbasis, ook ongeblockt als dat uitdrukkelijk wordt gevraagd; staat er geen toestand bij, behandel je het zoals het afgewerkte project. Laat het na die behandeling volledig drogen, meet opnieuw over een centraal gebied van 10 cm weg van de randen en bewaar beide waarden. Die kleine omweg bespaart veel meer tijd dan later een half kledingstuk uithalen. De rekensom is niet het moeilijke deel. Het moeilijke deel is jezelf overtuigen dat je dit doet voordat je het echte project opzet.
 
 ## Wat stekenverhouding betekent
 
 Stekenverhouding, in sommige Engelstalige of Britse patronen `tension`, is het aantal steken en toeren dat binnen een vaste maat stof past. Een patroon kan het zo schrijven: "20 st en 26 toeren = 10 cm in tricotsteek op naalden 4,5 mm (US 7)."
 
-Die regel vertelt hoe de afgewerkte stof van de ontwerper eruitzag. Als jouw breiwerk daarmee overeenkomt, is de kans groot dat de afgewerkte maten ook kloppen. Als dat niet zo is, gaan de afmetingen meteen schuiven. En het verschil hoeft niet dramatisch te zijn. 2 steken verschil per 10 cm loopt snel op. Op een trui van 100 cm omtrek kan dat ruim 10 cm verschil rond het lijf betekenen. Dat is het verschil tussen "goed genoeg" en "waarom hangt dit van mijn schouders?"
+Die regel vertelt hoe de afgewerkte stof van de ontwerper eruitzag. Als jouw breiwerk daarmee overeenkomt, is de kans groot dat de afgewerkte maten ook kloppen. Als dat niet zo is, gaan de afmetingen meteen schuiven. En het verschil hoeft niet dramatisch te zijn. Een verschil van 2 steken per 10 cm loopt snel op. Op een trui van 100 cm omtrek kan zo'n afwijking de afgewerkte breedte met meerdere centimeters veranderen, afhankelijk van de doelverhouding en van de vraag of je losser of strakker breit. Hetzelfde aantal steken kan daardoor een breder of smaller kledingstuk opleveren. Dat is het verschil tussen "goed genoeg" en "waarom hangt dit van mijn schouders?"
 
 ## Een proeflapje breien
 
 Het proeflapje is een klein teststuk, gemaakt met jouw garen, jouw naalden en het steekpatroon dat het project echt gebruikt. Dat is het hele idee. Maar de details doen ertoe.
 
-Zet genoeg steken op voor een proeflapje van minstens 15 cm breed. Iets groter is beter als het garen levendig is of als het project goed moet passen. Stekenverhouding die over 10 cm wordt opgegeven, meet je nooit van rand tot rand. De opzetrand, afkantrand en zijsteken gedragen zich anders dan het midden van de stof. Je hebt extra stof rond het meetgebied nodig, zodat je de echte stof meet en niet de vervormde randen.
+Zet genoeg steken op voor een proeflapje van ongeveer 15 cm breed, of volg de specifieke instructies voor de proeflapgrootte in het patroon. Iets groter is beter als het garen levendig is of als het project goed moet passen. Ongeveer 15 cm is een sterke aanbeveling omdat er dan extra stof rond een centraal meetgebied van 10 cm zit, maar het is geen universeel minimum. Een kleiner proeflapje is niet automatisch onbruikbaar als het nog een groot genoeg, representatief en onvervormd middengebied voor de meting geeft. De opzetrand, afkantrand en zijsteken gedragen zich anders dan het midden van de stof; het meetgebied van 10 cm mag dus niet van rand tot rand lopen.
 
 Zegt het patroon "in tricotsteek", brei dan je proeflapje in tricotsteek. Zegt het "in patroonsteek", gebruik dan het steekpatroon van het project. Dat is belangrijker dan veel breiers verwachten. Kabels trekken in. Ajour opent. Boordsteek trekt samen. Geen van die stoffen gedraagt zich als gewoon tricot, en ze door elkaar behandelen is hoe stekenverhouding scheef loopt. Een zwaar kabelpatroon kan bij hetzelfde aantal steken zichtbaar smaller uitvallen over een kledingbreedte.
 
-Brei tot het proeflapje minstens 15 cm hoog is. Kant dan af.
+Brei tot het proeflapje ongeveer 15 cm hoog is, met genoeg ruimte om in het midden 10 cm te meten zonder de opzet- of afkantrand mee te nemen. Kant dan af.
 
 Dit is waar veel breiers te vroeg naar de liniaal grijpen. Nog niet meten.
 
@@ -102,7 +102,7 @@ Een is het minimum. Als het eerste proeflapje de stekenverhouding mist en je van
 Dikker garen vergroot maatfouten sneller, omdat elke steek fysiek groter is. 2 steken verschil per 10 cm in bulky-garen verschuift de stof meer dan hetzelfde verschil in fingering. Maar voor passende kleding is stekenverhouding bij elke dikte belangrijk. De gevolgen worden alleen groter naarmate het garen dikker wordt.
 
 **Mijn stekenverhouding klopt na blocken, maar niet ervoor. Welke telt?**
-De geblockte stekenverhouding. Altijd. Dat is de stof die je echt gaat dragen, en de meting voor het blocken is alleen een momentopname van wat het garen onder spanning op de naald doet. Na blocken is de werkelijkheid.
+Gebruik de meettoestand die het patroon aangeeft, ook ongeblockte stekenverhouding als dat uitdrukkelijk wordt gevraagd. Staat er geen toestand bij, gebruik dan de stekenverhouding nadat je het proeflapje hebt gewassen of geblockt zoals je het afgewerkte project gaat behandelen. Noteer zowel de meting voor als na de behandeling.
 
 **Moet ik mijn proeflapjes bewaren?**
 Bewaren is nuttig, zeker bij truien of alles waarbij je later de stekenverhouding misschien opnieuw wilt controleren. Sommige breiers labelen ze met naalddikte en garen. Anderen halen ze uit zodra het project veilig onderweg is. Allebei kan, zolang het proeflapje zijn werk al heeft gedaan.

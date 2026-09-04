@@ -24,9 +24,11 @@ Of de toer nu steken moet toevoegen of verwijderen, de basisrekensom is dezelfde
 
 Huidig aantal steken / aantal veranderingen = interval tussen elke verandering.
 
-Bij meerderingen vertelt het interval hoeveel steken in elk vak zitten, met één nieuwe steek aan het einde van dat vak. Bij minderingen is het interval de volledige herhaling, en worden de laatste twee steken van die herhaling samen gebreid.
+Het interval vertelt hoeveel bestaande steken bij elke verandering horen, maar hoe je de herhaling opschrijft hangt af van de methode. In de M1-voorbeelden hieronder wordt de meerdering tussen bestaande steken gemaakt, zodat een interval van 10 kan worden geschreven als `10 r, M1`. Werk je de meerdering in een bestaande steek, zoals bij KFB, tel die steek dan mee binnen het interval: schrijf `9 r, KFB`, niet `10 r, KFB`, want die laatste instructie gebruikt 11 oorspronkelijke steken. Bij minderingen is het interval de volledige herhaling, inclusief de steken die door de mindering worden samengebreid.
 
 Dezelfde wiskunde, twee net andere manieren om de toer op te schrijven.
+
+Moeten kant- of naadsteken buiten de vorming blijven, trek dan hun totale aantal af voordat je het interval berekent: `(huidig aantal steken - gereserveerde kant- of naadsteken) / aantal veranderingen`. Verdeel de veranderingen alleen over de overblijvende werksteken en brei de gereserveerde steken zoals aangegeven. Doen de kantsteken wel mee aan de vorming, gebruik dan het volledige huidige aantal steken. Dit is iets anders dan het eerste en laatste interval voor een evenwichtige plaatsing te splitsen; bij zo'n verdeling doen de buitenste steken nog steeds mee.
 
 ## Voorbeeld: een nette meerdering
 

@@ -50,7 +50,7 @@ Neem een eenvoudige sjaal in tricotsteek, 20 cm breed, met een stekenverhouding 
 
 Dat is het basisaantal. Als de rand in 2x2 boordsteek wordt gebreid, dus een veelvoud van 4, past 36 al precies. Als de rand een ajourrapport van 6 steken gebruikt, werkt 36 ook. Is het rapport 8 steken, dan liggen de dichtstbijzijnde opties op 32 steken, iets smaller, of 40 steken, iets breder.
 
-Als er kantsteken bij moeten, tel je die apart en tel je ze daarna bij het totaal op. Een gebreide zelfkant met een kantsteek aan elke kant betekent 38 steken opzetten in plaats van 36.
+Beschrijft de doelbreedte van 20 cm alleen het centrale patroonvlak, dan brengen één kantsteek aan elke kant buiten dat vlak het totaal op 38 steken. Moet de volledige breedte van 20 cm de kantsteken al bevatten, houd ze dan binnen het berekende totaal van 36 steken in plaats van ze achteraf toe te voegen; 38 steken meten bij 1,8 steken per cm ongeveer 21,1 cm.
 
 De rekensom kost ongeveer een halve minuut. Dat doen voor je opzet is sneller dan na zes toeren ontdekken dat de sjaal maar 15 cm breed wordt.
 
@@ -103,7 +103,7 @@ Voor zichtbare boordranden aan truien kan een tubulaire opzet of Duitse gedraaid
 
 De berekening is dezelfde als bij plat breien: stekenverhouding x gewenste omtrek. Voor mutsen en sokken is die gewenste omtrek vaak kleiner dan de lichaamsmaat, omdat het breiwerk negatieve bewegingsruimte nodig heeft. In de uitvoering komt er een extra controle bij: sluiten zonder draaien.
 
-Leg de naald voor de eerste toer plat neer en controleer dat alle steken dezelfde kant op wijzen. De onderrand van de opzet moet langs de binnenkant van de naald lopen, zonder spiraal. Een gedraaide aansluiting is blijvend. De enige echte oplossing is uithalen en opnieuw opzetten.
+Leg de naald voor de eerste toer plat neer en controleer dat alle steken dezelfde kant op wijzen. De onderrand van de opzet moet langs de binnenkant van de naald lopen, zonder spiraal. Merk je de draai aan het einde van de eerste toer, dan kun je hem bij de aansluiting nog corrigeren. Na meerdere toeren is uithalen en opnieuw opzetten meestal de netste oplossing.
 
 Om het kleine gaatje bij het begin van de toer te sluiten, zetten veel breiers een extra steek op en minderen die weg bij het sluiten. Het werkelijke aantal steken blijft dan correct, en de overgang oogt netter dan wanneer de eerste toer met een opening begint.
 
