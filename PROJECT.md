@@ -63,8 +63,11 @@ Sivumäärän rakenne:
 | src/config/brand.ts             | Finnvek, yhteystieto ja someprofiilit                                        |
 | src/config/pricing.ts           | Aluekohtaiset launch- ja regular-hinnat                                      |
 | src/scripts/                    | Selainlogiikka taulukoille, animaatioille, navigaatiolle ja waitlistille     |
+| src/styles/global.css           | Fontit, globaalit tokenit, reset, fokus, prose, lomakkeet ja yhteiset pinnat |
+| src/styles/typography.css       | Työkalutaulukoiden typografiatokenit                                         |
+| src/assets/images/              | Lähdeassetit; nykyinen komponenttipuu ei tuo niitä renderöintiin             |
 | scripts/                        | SEO-auditit, release gate ja Node-testit                                     |
-| public/                         | Fontit, kuvat, faviconit, robots, headers, redirects ja webmanifest          |
+| public/                         | Sellaisenaan kopioitavat fontit, kuvat, faviconit ja hosting-metatiedostot   |
 | astro.config.mjs                | Astro site URL, trailing slash, sitemap ja build-asetukset                   |
 | sonar-project.properties        | SonarCloud-projektin lähde- ja projektiasetukset                             |
 
@@ -76,6 +79,31 @@ Koodikannan tämänhetkinen suuruusluokka:
 - 304 Markdown-artikkelia
 - 9 Node-testitiedostoa
 - 25 public-assettia
+
+Lukumäärät ovat toteutuksen rakennetta kuvaavia inventaariotietoja. Ne on laskettava uudelleen lähteestä, jos tiedostoja lisätään tai poistetaan; yksittäisen aiemman buildin tulostetta ei pidä käyttää nykytilan todisteena.
+
+### Arkkitehtuurivirta
+
+```text
+Markdown-artikkelit ----> Astro content collection ----> artikkelireitit
+                                 |                              |
+i18n/routes + articles + ui -----+----> sivut ja komponentit ---+--> staattinen dist/
+config/brand + pricing ----------+             |
+toolReferenceData ---------------+             +--> selain-TS ja GSAP
+global.css + komponenttityylit ----------------+
+public/ -----------------------------------------------> dist/ sellaisenaan
+                                                                  |
+                                                                  +--> Cloudflare Pages Direct Upload
+```
+
+Build-aikana Astro lukee sisältökokoelman, tuottaa staattiset reitit, renderöi canonical-, hreflang- ja structured data -tiedot sekä kirjoittaa valmiin sivuston `dist/`-hakemistoon. Sivustolla ei ole Astro SSR:ää, Pages Functions -funktioita, repositoryssa toteutettua API-reittiä tai client-side-routeria.
+
+Selainruntime koostuu neljästä toisistaan erotettavasta virrasta:
+
+1. Tavallinen sivunavigaatio lataa staattisen HTML-dokumentin; View Transitions on progressiivinen CSS-parannus, ei JavaScript-routeri.
+2. Laskurit, haut, taulukko-ohjaimet ja waitlist kytkeytyvät server-renderöityyn HTML:ään sivu- tai komponenttikohtaisilla skripteillä.
+3. GSAP-revealit aktivoidaan vain sivuilla, jotka välittävät `enableRevealAnimations`-propin `BaseLayout`-ketjuun.
+4. Alueellinen hinnoittelu yrittää hakea Cloudflaren maakoodin ja waitlist lähettää lomakkeen ulkoiseen Finnvek-API:in. Nämä ovat analytiikkaskriptien lisäksi ainoat nykyiset sovelluskoodin käynnistämät dynaamiset `fetch()`-pyynnöt; tavallisia dokumentti-, fontti-, kuva- ja assettipyyntöjä ei lasketa tähän.
 
 ## 4. Tekniikka ja riippuvuudet
 
@@ -101,15 +129,19 @@ Sharp ei ole nykyinen suora riippuvuus. Kolmannen osapuolen riippuvuuksia ei tul
 
 | Komento                | Mitä se todistaa                                                                                               |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------- |
+| npm ci                 | Asentaa täsmälleen `package-lock.json`-lukituksen mukaisen riippuvuuspuun puhtaaseen ympäristöön               |
 | npm run dev            | Käynnistää paikallisen Astro-kehityspalvelimen                                                                 |
 | npm run build          | Generoi staattisen dist-buildin                                                                                |
 | npm run check          | Ajaa nykyisen `astro check` -tarkistuksen                                                                      |
 | npm run lint           | Ajaa ESLint-tarkistuksen `package.json`-tiedostossa määritellylle lähde-, scripti- ja konfiguraatiorajaukselle |
 | npm run format         | Ajaa Prettierin kirjoittavassa tilassa ja voi muuttaa tiedostoja; käytä vain, kun tehtävä sallii formatoinnin  |
 | npm run format:check   | Tarkistaa Prettier-muotoilun kirjoittamatta tarkoituksellisesti tiedostoja                                     |
-| npm run verify         | Astro check, ESLint, Prettier, source-testit ja build                                                          |
+| npm run test:articles  | Ajaa artikkelijärjestelmän ja migraattorin Node-testit                                                         |
+| npm run test:design    | Ajaa design-token-, saavutettavuus-, komponenttisopimus- ja heading-tyylitestit                                |
 | npm run astro          | Nykyinen alias komennolle `npm run verify`; ei välitä Astro CLI -argumentteja                                  |
 | npm run test:seo       | Testaa SEO-auditiscriptien omaa käyttäytymistä                                                                 |
+| npm run test:security  | Testaa `_headers`- ja `robots.txt`-lähdesopimukset                                                             |
+| npm run verify         | Check, lint, format-check, article/design/security-source-testit ja build; ei aja `test:seo`:ta                |
 | npm run seo:audit      | Auditoi paikallisen dist-buildin                                                                               |
 | npm run seo:urls       | Vertaa paikallista ja tuotannon sitemapia                                                                      |
 | npm run seo:live       | Auditoi tuotannon sivut, sitemapin, robotsin ja linkit                                                         |
@@ -121,6 +153,24 @@ Sharp ei ole nykyinen suora riippuvuus. Kolmannen osapuolen riippuvuuksia ei tul
 
 npm run verify ei ota yhteyttä tuotantoon eikä osoita, että deployattu sivusto vastaa paikallista buildiä. npm run seo:live ja URL-pariteettitarkistus tarvitsevat verkkoyhteyden. Myös läpäissyt staattinen build todistaa vain lähteen ja buildin, ei Android-sovelluksen toimintaa, ulkoisen waitlist-API:n backendin toimintaa tai tuotannon kaikkia asetuksia.
 
+### Testi- ja raporttikartta
+
+Testit käyttävät Node.js:n sisäänrakennettua `node:test`-runneria. Repositoryssa ei ole Vitest-, Jest-, Playwright- tai selain-E2E-testikokoonpanoa eikä kattavuusrajaa. Suuri osa testeistä on lähdesopimustestejä: ne lukevat tiedostoja ja varmistavat arkkitehtuuri-, HTML-, CSS- tai konfiguraatioinvariantteja ajamatta sivua oikeassa selaimessa.
+
+| Testitiedosto                           | Päävastuu                                                                                                                       |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| `scripts/article-system.test.mjs`       | 8 kieltä, 38 käännösryhmää, 352 artikkeli-URLia, frontmatter-pariteetti, kategoriat, linkit ja reittihelperit                   |
+| `scripts/migrate-articles.test.mjs`     | Vanhan artikkelimigraattorin parseri ja regexin turvallinen rakenne                                                             |
+| `scripts/design-token-hygiene.test.mjs` | Tokenit, kontrastiparit, waitlistin saavutettavuus, taulukko-ohjaimet, hinnoittelu, fontit, animaatiot ja komponenttisopimukset |
+| `scripts/page-heading-style.test.mjs`   | H1/eyebrow/back-link-tyylit, landing-copy, laskurin label-ID-suhde, puikkohaku, pricing ja WPI-rajat                            |
+| `scripts/seo-audit.test.mjs`            | Paikallisen build-auditin parserit, metadata, linkit, robots, kuvat, canonical/hreflang ja JSON-LD                              |
+| `scripts/live-seo-audit.test.mjs`       | Live-sitemap-, reitti- ja robots-parserit sekä Cloudflare-email-protection-poikkeus                                             |
+| `scripts/url-parity-audit.test.mjs`     | Paikallisen ja live-URL-joukon lisäykset, poistot ja raportointi                                                                |
+| `scripts/seo-release-gate.test.mjs`     | Release-gaten blocker- ja deploy-pending-luokittelu                                                                             |
+| `scripts/security-headers.test.mjs`     | Staattisten security/cache-headerien ja crawler-sallinnan lähdesopimus                                                          |
+
+SEO-ajot kirjoittavat sekä JSON- että Markdown-raportit `reports/`-hakemistoon: `seo-audit`, `live-seo-audit`, `url-parity-audit` ja `seo-release-gate`. Hakemisto on gitignoressa. Raportti on tehtäväkohtainen havainto, ei PROJECT.md:ään kopioitava pysyvä nykytila.
+
 ## 6. Astro-, build- ja julkaisuasetukset
 
 astro.config.mjs määrittää:
@@ -131,6 +181,28 @@ astro.config.mjs määrittää:
 - build.assets: \_assets
 - Shiki-teema: github-light
 - @astrojs/sitemap-integraation
+
+### Konfiguraatio- ja ympäristörajat
+
+Sivuston normaali `dev`, `check` ja `build` eivät lue `process.env`- tai `PUBLIC_*`-muuttujia. Repositoryssa ei ole `.env.example`-tiedostoa eikä omaa runtime-konfiguraatiokerrosta. Build-tilaa luetaan kahdessa kohdassa:
+
+- `src/layouts/BaseLayout.astro`: Google Analytics renderöidään vain, kun `import.meta.env.PROD` on tosi.
+- `src/i18n/articles.ts`: draft-artikkeli on näkyvä vain, kun `import.meta.env.DEV` on tosi.
+
+Nykyiset palveluosoitteet ja julkiset integraatiotunnisteet ovat lähdekoodissa, eivät ympäristömuuttujissa:
+
+| Arvo tai integraatio             | Omistava lähde                           | Muutosvaikutus                                                 |
+| -------------------------------- | ---------------------------------------- | -------------------------------------------------------------- |
+| Sivuston origin                  | `src/i18n/config.ts`, `astro.config.mjs` | canonicalit, structured data, sitemap, robots ja auditit       |
+| Waitlist-endpoint                | `src/scripts/waitlistSignup.ts`          | selainpyyntö, CSP/form- ja tietosuojatarkistus                 |
+| Google Analytics measurement ID  | `src/layouts/BaseLayout.astro`           | vain production-buildin head-scriptit                          |
+| Cloudflare Web Analytics -token  | `src/layouts/BaseLayout.astro`           | bodyn lopun beacon                                             |
+| Finnvek-yhteys- ja someosoitteet | `src/config/brand.ts`                    | headin `rel=me`, footer-linkit ja structured data              |
+| Hinnoittelutaulukko              | `src/config/pricing.ts`                  | näkyvät hinnat, selainvalinta ja landingin SoftwareApplication |
+
+Sonar-wrapper on poikkeus: varsinainen NPM-skannaus vaatii shellissä `SONAR_TOKEN`-muuttujan. `SONAR_HOST_URL` on valinnainen ja saa wrapperissa oletuksen `https://sonarcloud.io`. SonarQube CLI:n keychain-kirjautuminen koskee issueiden lukemista, ei NPM-scannerin autentikointia.
+
+Repositoryssa ei ole GitHub Actions -workflowta, `wrangler.toml`-tiedostoa, `package.json`-deploy-scriptiä tai versionhallittua Cloudflare Pages -projektikonfiguraatiota. Siksi hosting-tilin, Wranglerin kirjautumisen, Pages-projektin asetusten ja tuotannon ympäristön nykytila on varmistettava ulkoisesta järjestelmästä; lähdekoodi todistaa vain alla kuvatun manuaalisen deploy-komennon.
 
 public/\_redirects ohjaa /sitemap.xml-polun pysyvästi /sitemap-index.xml-polkuun. public/robots.txt sallii indeksoinnin ja viittaa sitemap-indexiin.
 
@@ -209,6 +281,25 @@ Norjan sisäinen avain on no. HTML lang ja hreflang renderöidään Bokmålin tu
 
 src/i18n/routes.ts on näiden reittien lähde. Reittimuutoksessa pitää päivittää vähintään reittilähde, linkitykset, canonical/hreflang, sitemap-odotukset ja URL-pariteetti. Pelkkä sivutiedoston siirtäminen ei riitä.
 
+### Reittitiedostojen toteutusmatriisi
+
+Julkinen URL-rakenne on yhdenmukainen kielten kesken, mutta Astro-tiedostorakenne ei ole. Nykyiset 63 `src/pages/**/*.astro`-tiedostoa jakautuvat seuraavasti:
+
+| Alue                | Tiedostoja | Toteutus                                                                                   |
+| ------------------- | ---------: | ------------------------------------------------------------------------------------------ |
+| Juuri               |          3 | `index.astro`, `about.astro`, `404.astro`                                                  |
+| EN tools            |          7 | index ja kuusi erillistä sivutiedostoa `src/pages/tools/`-hakemistossa                     |
+| EN articles         |          3 | index, kategoria ja artikkeli omissa tiedostoissaan                                        |
+| FI tools + articles |         10 | seitsemän tool-tiedostoa ja kolme article-tiedostoa                                        |
+| DE tools + articles |         10 | seitsemän tool-tiedostoa ja kolme article-tiedostoa                                        |
+| SV tools + articles |         10 | seitsemän tool-tiedostoa ja kolme article-tiedostoa                                        |
+| NO tools + articles |          8 | seitsemän tool-tiedostoa; yksi article-catch-all tuottaa indexin, kategoriat ja artikkelit |
+| FR tools + articles |          8 | seitsemän tool-tiedostoa; yksi article-catch-all tuottaa indexin, kategoriat ja artikkelit |
+| NL tools + articles |          2 | yksi tool-catch-all ja yksi article-catch-all                                              |
+| DA tools + articles |          2 | yksi tool-catch-all ja yksi article-catch-all                                              |
+
+NL- ja DA-tool-catch-allit muodostavat `getStaticPaths()`-listan `routes.ts`-arvoista `toolRouteToRestSlug()`-helperillä ja valitsevat yhden seitsemästä kielikohtaisesta sivukomponentista. NO/FR/NL/DA-article-catch-allit käyttävät `buildLocalizedArticleStaticPaths()`-helperiä, jonka `view` on `index`, `category` tai `article`. Reittimuutoksen tarkistus on tehtävä oikeasta toteutusmallista; toisen kielen tiedostopolun kopioiminen voi olla arkkitehtuurisesti väärin.
+
 ## 9. Artikkelijärjestelmä
 
 Artikkelit ovat src/content/articles-hakemistossa. Kieliä on kahdeksan ja jokaisessa on 38 julkaistua artikkelia:
@@ -268,6 +359,14 @@ Jokaisen kielen kategoriarakenne on:
 
 src/i18n/articles.ts parittaa kaikki nykyiset 38 translationKey-ryhmää seitsemään käännökseen englannin lisäksi. Uutta draft-käännöstä ei lisätä translation-karttaan ennen hyväksyntää, jotta hreflang ei osoita julkaisemattomaan URLiin.
 
+Nykyisen sisällön identiteettisopimus on tarkemmin:
+
+- 38 englanninkielistä juuritason Markdown-tiedostoa eivät sisällä eksplisiittistä `translationKey`-kenttää; niiden avain on tiedoston slug.
+- Kaikilla 266 lokalisoidulla artikkelilla on eksplisiittinen `translationKey`, joka viittaa englannin slug-avaimeen.
+- `articleTranslations` sisältää 38 avainta ja jokaiselle kahdeksan julkista polkua.
+- Kaikilla 38 englanninkielisellä artikkelilla on `browserTitle`; lokalisoidut artikkelit eivät nykyisin käytä kenttää.
+- Nykyisessä sisällössä ei ole `updatedDate`-arvoja eikä `draft: true` -artikkeleita. Skeema ja reitit tukevat silti molempia.
+
 Reittitoteutus ei ole kaikilla kielillä samanmuotoinen:
 
 - englannilla, suomella, saksalla ja ruotsilla on erilliset index-, kategoria- ja artikkelisivut
@@ -276,6 +375,10 @@ Reittitoteutus ei ole kaikilla kielillä samanmuotoinen:
 Koodintarkistuksessa ei siis pidä olettaa tiedostorakenteen yhdenmukaisuutta pelkän URL-rakenteen perusteella.
 
 Artikkelijärjestelmän testit varmistavat sisältö- ja URL-identiteetin, käännöskartan sekä migraatiot. Nykyinen URL-kokonaisuus sisältää 352 artikkelijärjestelmän sivua: 304 artikkelia, 40 kategoriaa ja 8 indexiä.
+
+Artikkeli-indexit näyttävät kategoriat `CATEGORY_ORDER`-järjestyksessä. `buildArticleCategorySections()` lajittelee artikkelit `categoryOrder`-kentän mukaan, käyttää puuttuvalle arvolle fallbackia `999`, näyttää kustakin kategoriasta enintään kolme preview-korttia ja laskee loput `remainingCount`-arvoon. Kategoriasivu näyttää saman kategorian koko julkaistun listan samassa järjestyksessä.
+
+`getArticleAlternates()` rajaa hreflangit todellisuudessa näkyvien saman käännösavaimen artikkeleiden kieliin, kun sille annetaan `visibleArticles`. Draftin lisäys ei siis saa perustua pelkkään `articleTranslations`-karttaan. `getArticlePath()` käyttää kartoitettua polkua, jos se löytyy, ja muuten kielikohtaista slug-fallbackia.
 
 ## 10. Landing page
 
@@ -295,7 +398,22 @@ Nykyinen src/pages/index.astro renderöi tässä järjestyksessä:
 
 Hero on editorial two-column -rakenne. Vasemmalla on kuvaava H1 ja Teko-fontilla renderöity KnitTools-wordmark. Oikealla on waitlist-kortti. Nykyisessä komponenttipuussa ei ole puhelinmockupia tai Three.js-hero-puhelinta.
 
+| Komponentti              | Nykyinen vastuu ja tarkistettava sopimus                                                                                      |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| `Hero.astro`             | Ainoa landingin H1, Android-sovelluksen kohderyhmä, Teko-wordmark, launch-signup sekä launch/regular-hinta ja 14 päivän trial |
+| `Marquee.astro`          | 18 markkinointitermiä kahteen kertaan saumattomaksi raidaksi; koko alue on `aria-hidden`                                      |
+| `YarnPath.astro`         | Koristeellinen `aria-hidden` SVG; `flip` peilaa toisen instanssin                                                             |
+| `NineTools.astro`        | Viisi Free- ja kolme Pro-korttia sekä 11 Android-sovelluksen kielichipiä; ei selain-työkalulista                              |
+| `FreeToolsCallout.astro` | Kuusi todellista englanninkielistä web-työkalulinkkiä ja linkki `/tools/`-indexiin                                            |
+| `TrustSection.astro`     | Hinta-, privacy- ja 11 Android-kielen markkinointiväitteet                                                                    |
+| `PullQuote.astro`        | Ruudunlukijalle yhtenäinen lainaus ja visuaalinen GSAP/SplitText-versio; ajonaikainen `.pq-word` tarvitsee `:global()`-tyylin |
+| `PricingCards.astro`     | Free/Pro-ominaisuuslistat, aluehinta, 14 päivän trial ja one-time-purchase-kopio                                              |
+| `HomeFaq.astro`          | Viisi landingin FAQ-kohtaa ja `data-animate-details`-sopimus                                                                  |
+| `ClosingCTA.astro`       | Lokalisoitu yhteinen waitlist-lomake; `hero`/`page` vaikuttaa vain varianttityyliin                                           |
+
 NineTools kuvaa viisi ilmaista ja kolme Pro-ominaisuutta. Tämä on markkinointisisältöä tulevasta sovelluksesta, ei todiste Android-toteutuksesta. FreeToolsCallout linkittää kuuteen oikeasti toteutettuun selainpohjaiseen työkaluun.
+
+Sivuston julkiset sisältökielet ja markkinoidun Android-sovelluksen kielet ovat eri joukot. Website-reittejä on kahdeksalla kielellä. `NineTools`, `PricingCards`, `TrustSection` ja landingin `SoftwareApplication.inLanguage` kuvaavat 11 Android-kieltä: kahdeksan website-kielen lisäksi italia, portugali ja espanja. Tätä ei saa tulkita niin, että `/it/`, `/pt/` tai `/es/`-website-reitit olisivat olemassa.
 
 Landingin JSON-LD on graph, joka sisältää:
 
@@ -304,13 +422,15 @@ Landingin JSON-LD on graph, joka sisältää:
 - publisher-viittauksen Finnvekiin
 - aluekohtaiset tarjoussolmut pricing-konfiguraatiosta
 
+Landingin `SoftwareApplication` kuvaa Androidia ja `LifestyleApplication`-kategoriaa. `Organization.email` on nykyisessä JSON-LD:ssä `mailto:`-URL, koska se tulee `CONTACT_MAILTO`-vakiosta. About-sivu rakentaa erillisen `@graph`-kokonaisuuden, jossa ovat Finnvek Organization, suppea KnitTools SoftwareApplication, AboutPage ja BreadcrumbList.
+
 Offers-solmuissa ei ole availability-arvoa, koska Google Play -tilaus tai lataus ei ole vielä todellinen. Älä lisää PreOrder- tai PreSale-arvoa pelkän waitlistin perusteella.
 
 ## 11. Navigaatio, footer ja waitlist
 
 ### Navbar
 
-Navbarin mobiiliraja on 641 px. Mobiilivalikko päivittää ARIA-tilat, sulkeutuu Escape-näppäimellä, ulkopuolisesta klikkauksesta ja desktop-leveyteen siirryttäessä. Scrolled-tila aktivoituu yli 80 pikselin vierityksessä.
+Navbarin mobiilityyli on aktiivinen enintään 640 pikselissä ja desktop-media query alkaa 641 pikselistä. Mobiilivalikko päivittää `data-menu-open`-, `menu-open`-, `aria-expanded`- ja toggle-label-tilat. Se sulkeutuu linkin valinnasta, Escape-näppäimellä, ulkopuolisesta klikkauksesta ja desktop-leveyteen siirryttäessä; Escape palauttaa fokuksen toggleen. Scrolled-tila aktivoituu yli 80 pikselin vierityksessä. Navbar on `position: fixed`, ja globaali `body` varaa sille 80 pikseliä yläpaddingia.
 
 Brändilinkki vie juureen /. Lokalisoitujen sivujen Join-linkki kohdistuu kielen omaan työkaluindexiin ja sen #join-ankkuriin.
 
@@ -324,6 +444,8 @@ Footer hakee:
 
 Nykyinen Footer ei renderöi someikoneita. `SOCIAL_PROFILE_URLS` ei kuulu Footerin nykyiseen toteutukseen. `src/layouts/BaseLayout.astro` käyttää sitä `<link rel="me">` -metadataan, ja `src/layouts/ArticleLayout.astro`, `src/pages/about.astro` sekä `src/pages/index.astro` käyttävät sitä rakenteisen datan `sameAs`-arvoihin. Vanha kuvaus footerissa näkyvistä someikoneista ei vastaa nykyistä komponenttia.
 
+Footerin App-sarake sisältää `Launching soon` -tekstin, englanninkielisen `/about/`-linkin ja ulkoisen Finnvek privacy -linkin. Footer-seal on `/logo.webp`, sen kokoattribuutit ovat 220 x 220 ja se ladataan `loading="lazy"` + `decoding="async"`. Mobiilityyli alkaa 767 pikselin alapuolella. About- ja Contact-linkkejä ei lokalisoida nykyisessä Footerissa.
+
 ### Waitlist
 
 src/scripts/waitlistSignup.ts omistaa kaikkien data-waitlist-signup-lomakkeiden submit-logiikan. Se:
@@ -334,6 +456,10 @@ src/scripts/waitlistSignup.ts omistaa kaikkien data-waitlist-signup-lomakkeiden 
 - katkaisee pyynnön 10 sekunnin jälkeen
 - päivittää loading-, onnistumis- ja virhetilat
 - ylläpitää aria-invalid- ja aria-describedby-attribuutteja
+
+Helper alustaa vain `form[data-waitlist-signup]`-elementit ja merkitsee jokaisen lomakkeen `data-waitlist-initialized="true"`-arvolla, joten sama lomake ei saa kahta submit-listeneriä. Se käyttää selaimen `reportValidity()`-tarkistusta, trimmaa emailin, lukee `source`-arvon lomakkeen datasta ja lähettää näkymättömän `website`-honeypotin muuttamattomana. Onnistuminen edellyttää sekä HTTP-tason `response.ok`-arvoa että JSON-vastauksen `success`-arvoa. Muussa tapauksessa näytetään backendin `error` tai lomakekohtainen generic fallback; fetch-poikkeus ja timeout käyttävät network error -tekstiä. Automaattista retryä, paikallista queuea tai offline-tallennusta ei ole.
+
+Kaikkien signup-lomakkeiden honeypot on poistettava tabijärjestyksestä ja accessibility treestä. Onnistumistilan pitää olla `role="status"` + `aria-live="polite"`, virheen `role="alert"`, ja email-inputin `aria-describedby`-arvon on viitattava palaute-elementteihin. Nämä suhteet ovat lähdesopimustestien piirissä.
 
 Waitlist-lomakkeet lähettävät pyynnöt repositoryn ulkopuoliseen API-päätepisteeseen. Tämä repository sisältää selainpuolen integraation sekä sen pyyntö-, vastaus- ja virheenkäsittelyn, mutta ei taustapalvelun lähdekoodia, ajoympäristöä tai deployment-konfiguraatiota. Varmista ulkoisen palvelun nykyinen toteutus sen omasta lähteestä tai deployment-ympäristöstä ennen taustapalveluun kohdistuvia muutoksia.
 
@@ -361,6 +487,21 @@ LocalizedToolPage omistaa yhteisen:
 - valinnaiset responsiiviset taulukko-ohjaimet
 
 ToolStructuredData merkitsee selaintyökalun hinnaksi 0. Lokalisoitu pohja välittää tällä hetkellä valuutaksi EUR kaikille lokalisoiduille kielille, vaikka hinta on nolla. Tämä on nykyinen toteutus ja mahdollinen structured data -tarkistuskohde, ei oletettu virhe.
+
+Keskeiset työkalukomponenttien rajapinnat:
+
+| Komponentti                     | Olennaiset propsit ja oletukset                                                                                                                                                                                                                       |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ToolsIndexPage.astro`          | metadata, canonical, kaikki alternates, kieli, CollectionPage-tekstit, kuusi korttia ja `english`/`localized`-variantti; `lang`-oletus on `en`                                                                                                        |
+| `LocalizedToolPage.astro`       | title/description/canonical/alternates, intro, schema-nimi ja -kuvaus, FAQ-lista, värivariantti sekä valinnaiset size/responsive table -ohjaimet; `lang`-oletus on historiallisesti `fi`, joten uuden kutsujan on välitettävä kieli eksplisiittisesti |
+| `ToolStructuredData.astro`      | WebApplication + valinnainen FAQPage; oletusvaluutta `USD`, hinta aina `0`, `operatingSystem: Any`                                                                                                                                                    |
+| `CastOnCalculator.astro`        | vain `lang`; sama komponentti sisältää kahdeksan kopiojoukkoa ja yhden laskentalogiikan                                                                                                                                                               |
+| `YarnEstimator.astro`           | vain `lang`; sama 30 projektin data ja kerroinlogiikka kaikille kielille, lokalisoidut labelit komponentissa                                                                                                                                          |
+| `WpiIdentifier.astro`           | vain `lang`; yhteinen WPI-rajadata `toolReferenceData.ts`-lähteestä ja lokalisoitu vastauskopio komponentissa                                                                                                                                         |
+| `SizeChartControls.astro`       | ei propseja; tuo `initSizeChartControls()`-alustuksen vain sitä tarvitsevalle sivulle                                                                                                                                                                 |
+| `ResponsiveTableControls.astro` | ei propseja; tuo `initResponsiveTableControls()`-alustuksen vain sitä tarvitsevalle sivulle                                                                                                                                                           |
+
+Englannin tool-sivut toistavat oman hero/content/FAQ/waitlist-rakenteensa ja kutsuvat `ToolStructuredData`-komponenttia suoraan. Ne eivät automaattisesti peri `LocalizedToolPage`-markup- tai tyylimuutoksia. Vastaavasti localized-pohjan muutos vaikuttaa 42 sivuun, vaikka NL- ja DA-kutsut kulkevat ensin kielikohtaisten sivukomponenttien kautta.
 
 ## 13. Laskurit ja referenssityökalut
 
@@ -409,6 +550,17 @@ src/lib/toolReferenceData.ts sisältää:
 
 Kielisivuihin kuuluvat nimet, selitteet ja näkyvän kopion poikkeukset. Numerodataa ei tule kopioida kielikohtaisiin tiedostoihin.
 
+Dataomistus ei kata kaikkia kuutta työkalua samalla tavalla:
+
+| Työkalu        | Kanoninen data tai logiikka                                               | Kielikohtainen osa                                             | Muutosriski                                                                          |
+| -------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Cast on        | `CastOnCalculator.astro`                                                  | kahdeksan copy-objektia samassa komponentissa                  | kaava- tai input-muutos vaikuttaa kaikkiin kieliin                                   |
+| Yarn estimator | `YarnEstimator.astro`                                                     | copy, lankavahvuus- ja kokolabelit samassa komponentissa       | projektidata, labelit, metri/yard-näyttö ja pyöristys tarkistettava yhdessä          |
+| Needle sizes   | `NEEDLE_SIZE_BASE_ROWS` + `getNeedleSizeRows()`                           | otsikot, selitteet, haku ja osa desimaalimuotoilusta sivuissa  | perusriviä ei saa kopioida sivulle                                                   |
+| Yarn weights   | `YARN_WEIGHT_BASE_ROWS` ja formatter/helperit                             | kahdeksan rivin nimet, aluekuvaukset ja käyttötekstit sivuissa | WPI-, CYC-, gauge- ja puikkoalueet pysyvät helperissä                                |
+| Abbreviations  | kahdeksan erillistä sivukohtaista abbreviation-listaa ja suodatinskriptiä | koko data ja näkyvä logiikka kielikohtainen                    | shared-ohjainta ei ole; yhden sivun korjaus ei päivitä muita                         |
+| Size charts    | kahdeksan erillistä `panels`-datajoukkoa                                  | otsikot, arvot ja mittamuotoilu kielikohtaisissa sivuissa      | vain kontrollilogiikka on shared; kokotaulukkodata ei ole `toolReferenceData.ts`:ssä |
+
 ### WPI ja responsiiviset taulukot
 
 WpiIdentifier.astro on yhteinen kaikille kahdeksalle lankavahvuussivulle. Syötearvo on 1-40. Alueet voivat olla päällekkäisiä, joten tuloslogiikan muutokset pitää tarkistaa kaikkien rajojen ympärillä.
@@ -424,6 +576,10 @@ src/scripts/sizeChartControls.ts omistaa:
 - yhden kokopalstan näyttämisen enintään 600 pikselin leveydessä
 
 Semanttinen koko taulukko säilyy HTML:ssä ja desktopissa.
+
+Tabien roving tabindex -malli tukee Left/Right/Home/End-näppäimiä sekä Space/Enter-aktivointia. Yksikköradiot tukevat lisäksi Up/Down-näppäimiä. Aktiivinen tabi päivittää `aria-selected`- ja `hidden`-tilat; aktiivinen yksikkö päivittää `aria-checked`-tilan ja `show-cm`/`show-inch`-luokan. Mobiilivalitsin luodaan vain taulukolle, jossa on vähintään kaksi kokopalstaa otsikkopalstan lisäksi.
+
+`responsiveTableControls.ts` ei kopioi otsikoita ennalta määritellystä listasta: se lukee `thead th` -tekstit ja kirjoittaa ne solujen `data-mobile-label`-attribuutteihin. Tämä on syy siihen, että lähdeotsikoiden, sarakkeiden ja solumäärien on pysyttävä linjassa.
 
 Lyhennesivut käyttävät selainpuolen hakua ja suodatusta. Englannin puikkokokosivulla on lisäksi nykyisessä lähteessä haku, joka tunnistaa myös US-, UK-, JP-, Japan- ja Japanese-etuliitteitä.
 
@@ -459,6 +615,36 @@ Legacy-tokenit kuten --dark, --cream, --accent ja --bebas-\* ovat yhä yhteisten
 
 Primary-painikkeet ovat suorakulmaisia, General Sans -fontilla, uppercase-tekstillä ja vahvalla trackingilla.
 
+### CSS-omistus ja cascade
+
+`BaseLayout.astro` tuo `src/styles/global.css`-tiedoston, joka puolestaan tuo `typography.css`-tiedoston. Kaikki sivut saavat siten font-face-määrittelyt, root-tokenit, resetin, 80 pikselin nav-varauksen, globaalit heading/link/focus-säännöt, prose-perustyylin, shared waitlist -tyylit, form-card-variantit ja reduced-motion-säännöt.
+
+Astro-komponentin `<style>` on scoped, mutta slottiin tuotu markup ja JavaScriptillä luodut elementit eivät saa omistavan komponentin scope-attribuuttia. `LocalizedToolPage.astro` käyttää siksi tarkoituksella `:global()`-selektoreita tool-slotin taulukoille, lyhennelistalle, hakukentille ja kokotaulukon kontrolleille. Sama koskee `PullQuote.astro`-komponentin GSAP SplitTextin luomia `.pq-word`-elementtejä sekä laskureiden JavaScriptillä luomia tulos- ja virhe-elementtejä.
+
+Globaali `a { color: var(--accent) }` voi yliajaa komponenttilinkin värin, ellei komponenttiselektori ole riittävän tarkka. Globaali `h1/h2` käyttää Lalezaria, mutta komponentit voivat vaihtaa roolin: landingin H1-wordmark käyttää Tekoa ja labelit/metadata General Sansia. UI-tarkistuksessa on luettava sekä globaali että komponenttikohtainen sääntö ennen cascade-päätelmää.
+
+### Responsiiviset rajat
+
+Koodikannassa ei ole yhtä keskitettyä breakpoint-tokenia. Nykyiset eksplisiittiset `max-width`-rajat ovat 1024, 1023, 980, 900, 768, 767, 640, 600 ja 430 pikseliä. Olennaiset omistajuudet:
+
+|    Raja | Pääkäyttö                                                                                    |
+| ------: | -------------------------------------------------------------------------------------------- |
+| 1024 px | tool- ja artikkelikorttien siirtyminen kahteen sarakkeeseen sekä catch-all-artikkelin gridit |
+| 1023 px | `TrustSection.astro`-komponentin kolmen palstan tiivistyminen                                |
+|  980 px | 404-sivun kahden palstan muuttuminen yhdeksi                                                 |
+|  900 px | landing Heron kahden palstan muuttuminen mobiilirakenteeksi                                  |
+|  768 px | yleisin tool-, article- ja content-layoutien mobiiliraja                                     |
+|  767 px | Footer, About, PricingCards, TrustSection ja osa landing-komponenteista                      |
+|  640 px | Navbar, ClosingCTA, YarnPath ja useat pienet landing-muutokset; desktop-nav alkaa 641 px:stä |
+|  600 px | JS-luotujen mobile size pickerien ja table-card-näkymän CSS-aktivointi                       |
+|  430 px | Navbarin tihein puhelinlayout                                                                |
+
+Pelkkä 768 pikselin tarkistus ei riitä laajaan UI-muutokseen. Eri kohdissa käytetään sekä 768/767- että 641/640-paria, joten yhden pikselin rajakäyttäytyminen kuuluu realistisiin tarkistustapauksiin.
+
+### Assetit ja kuvat
+
+`public/`-tiedostot kopioidaan buildiin muuttamattomina ja niihin viitataan juuresta alkavilla URL:eilla. Nykyinen renderöity komponenttipuu käyttää Footerissa `/logo.webp`-kuvaa; head, Article JSON-LD ja social metadata käyttävät `/images/og-image.png`-kuvaa; webmanifest käyttää 192- ja 512-pikselisiä Android Chrome -ikoneita. `src/assets/images/` sisältää useita lähdekuvia, mutta nykyiset Astro-komponentit eivät tuo niitä. Pelkkä assetin olemassaolo ei todista, että kuva näkyy sivustolla.
+
 ### Poistetut järjestelmät
 
 Nykyisessä komponenttipuussa eivät ole:
@@ -480,7 +666,11 @@ src/scripts/revealAnimations.ts käyttää GSAP ScrollTrigger- ja SplitText-toim
 
 src/scripts/motion.ts sisältää muun muassa 800 millisekunnin countUp-helperin ja reduced-motion-tarkistuksen. Globaalit revealit ja view transitionit poistetaan reduced motion -tilassa.
 
+Reveal-alustus tekee ilman JavaScriptiä näkyvästä sisällöstä progressiivisesti animoidun vain, kun `<html>` saa `reveal-animations`-luokan. `data-reveal="clip"` käyttää clip-path-paljastusta, `scale` korttipaljastusta ja muut arvot fade/translate-paljastusta. `data-reveal-group` tekee 0,08 sekunnin staggerin. FAQ-details-animaatiot ohitetaan kokonaan reduced motion -tilassa, jolloin selaimen natiivi `<details>`-käyttäytyminen säilyy.
+
 Marquee ja YarnPath ovat tarkoituksellisia poikkeuksia: niiden jatkuva animaatio säilyy nykyisen omistajapäätöksen mukaan myös reduced motion -tilassa. Jos tätä muutetaan, tarkista sekä komponenttityylit että motion-regressiotestit. Älä päättele yleisestä reduced-motion-säännöstä, että jokainen animaatio on pysähtynyt.
+
+Marqueen CSS-peruskierros ja GSAP-looppi ovat molemmat 60 sekuntia yhdelle sisältökopiolle; arvot elävät eri tiedostoissa ja niiden pitää pysyä samoina. GSAP ottaa transformin haltuun `is-scroll-driven`-luokalla, vaihtaa suunnan scrollisuunnan mukaan, rajoittaa nopeuskertoimen välille 1–4 ja palauttaa nopeuden vähitellen perustasolle. Hover voi pysäyttää nauhan vain laitteella, jonka media query on `(hover: hover)`.
 
 ## 15. Hinnoittelu
 
@@ -488,11 +678,13 @@ src/config/pricing.ts on aluekohtaisen launch- ja regular-hinnan lähde.
 
 - 16 nimettyä hintatasoa sekä default
 - SSR-oletus on US
-- selaimen tunnistamaton alue käyttää default-tasoa
+- tuntematon mutta saatu kaksikirjaiminen maakoodi käyttää default-tasoa
 - trialDays: 14
-- launchMonthLabel: Summer 2026
+- launchMonthLabel: Fall 2026
 
-Selain yrittää tunnistaa maan Cloudflaren /cdn-cgi/trace-endpointista 1,2 sekunnin timeoutilla. Tulos tallennetaan sessionStorage-avaimeen knittools-pricing-country. Navigator-localeen perustuvaa fallbackia ei ole.
+Selain yrittää tunnistaa maan Cloudflaren `/cdn-cgi/trace`-endpointista 1,2 sekunnin timeoutilla. Tulos tallennetaan sessionStorage-avaimeen `knittools-pricing-country`; cache sisältää maakoodin, ei hintatier-avainta. Navigator-localeen perustuvaa fallbackia ei ole. Jos fetch epäonnistuu, palauttaa tyhjän arvon tai sessionStorage ei ole käytettävissä, selain ei korvaa server-renderöityä US-hintaa. Jos saatu maakoodi ei ole `COUNTRY_TO_TIER`-kartassa, selain valitsee `default`-tason ja näyttää paikallisen valuutan huomautuksen.
+
+`RegionalPrice.astro` renderöi SSR-hinnan lisäksi `data-*`-attribuutin jokaiselle tierille. `BaseLayout` vaihtaa kaikkien `[data-regional-price]`-elementtien tekstin samalla kertaa ja näyttää `[data-regional-pricing-note]`-huomautuksen vain `default`-tasolla. Hinnoittelumuutoksen on säilytettävä nämä attribuutit; pelkän näkyvän tekstin muutos ei päivitä selainvalintaa.
 
 Structured data -tarjoukset generoidaan nimetyistä hintatasoista, eivät default-tasosta. Pricing-muutoksessa tarkista aina yhdessä:
 
@@ -504,7 +696,9 @@ Structured data -tarjoukset generoidaan nimetyistä hintatasoista, eivät defaul
 - Cloudflare trace -fallback
 - sessionStorage-käyttäytyminen
 
-Summer 2026 on edelleen nykyinen lähdekoodin launch-teksti. Se pitää varmistaa liiketoimintapäätöksenä ennen seuraavaa julkaisua.
+`getStructuredOffers()` irrottaa hinnasta ensimmäisen numero-osan, normalisoi mahdollisen pilkun pisteeksi, liittää tierin ISO-valuutan ja johtaa `eligibleRegion`-listan `COUNTRY_TO_TIER`-kartasta. EU-tarjouksen aluejoukko ei synny automaattisesti euroalueesta tai EU-jäsenyydestä, vaan vain karttaan eksplisiittisesti luetelluista maista. Maa- tai valuuttamuutos kuuluu siksi sekä näkyvän hinnan että structured data -testaukseen.
+
+Fall 2026 on nyt nykyinen lähdekoodin launch-teksti ja hyväksytty liiketoimintapäätös.
 
 ## 16. SEO, analytiikka, tietoturva ja Sonar
 
@@ -512,14 +706,37 @@ Summer 2026 on edelleen nykyinen lähdekoodin launch-teksti. Se pitää varmista
 
 Paikallinen SEO-audit tarkistaa muun muassa canonicalit, hreflangit, metadataa, sisäisiä linkkejä, structured dataa, sitemapia ja rikkoutuneita polkuja. URL-pariteettiaudit vertaa paikallista ja tuotannon sitemapia.
 
+`BaseLayout.astro` omistaa kaikille sivuille yhteisen SEO-headin: document title, description, canonical, valinnaiset kahdeksan kielen alternates-linkit, englannin alternateen perustuvan `x-default`-linkin, Open Graph -kentät, Twitter card -kentät, neljä `rel="me"`-linkkiä, faviconit ja webmanifestin. Norjan `no`-avain muunnetaan näissä kohdissa `nb`/`nb_NO`-esitykseen. Artikkelipropit lisäävät Open Graphin `article:*`-kentät; tavallinen sivu ei saa niitä.
+
+Structured data -omistus:
+
+| Sivutyyppi  | Omistava lähde             | Nykyinen skeema                                                                                                |
+| ----------- | -------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Landing     | `src/pages/index.astro`    | `@graph`: Finnvek `Organization` + Android `SoftwareApplication` ja aluekohtaiset `Offer`-solmut               |
+| About       | `src/pages/about.astro`    | `@graph`: `Organization`, `SoftwareApplication`, `AboutPage` ja `BreadcrumbList`                               |
+| Tools index | `ToolsIndexPage.astro`     | `CollectionPage`, jonka `ItemList` sisältää kuusi työkalua järjestysnumeroineen                                |
+| Tool page   | `ToolStructuredData.astro` | ilmainen `WebApplication` ja FAQ-listan ollessa ei-tyhjä erillinen `FAQPage`                                   |
+| Article     | `ArticleLayout.astro`      | `Article`, jonka päivät, organisaatiotekijät, kategoria, tagit, kuva, kieli ja canonical tulevat sivun datasta |
+
+Index- ja kategoriasivuilla ei ole erillistä article-listan JSON-LD:tä `ToolsIndexPage`-tyyppisen rakenteen tapaan. Structured data -tarkistuksessa ei pidä olettaa skeemaa sivutyypille, joka ei nykyisin renderöi sitä.
+
 Live-audit käyttää oletuksena kahdeksan rinnakkaista fetch-pyyntöä ja 20 sekunnin timeoutia. Status 0 tarkoittaa auditin fetch-epäonnistumista, ei palvelimen HTTP 0 -vastausta. Satunnaisen yksittäisen status 0 -löydöksen yhteydessä tarkista URL suoraan ja aja audit tarvittaessa pienemmällä --concurrency-arvolla ennen kuin päätät sivun puuttuvan.
 
 Release gate estää julkaisun paikallisista virheistä ja varoituksista, live-virheistä, edelleen rikkoutuneista paikallisista löydöksistä sekä sitemapin odottamattomista lisäyksistä tai poistoista.
 
+Auditit ovat eri todisteita, eivät keskenään korvaavia:
+
+- `seo:audit` lukee juuri rakennetun `dist/`-hakemiston eikä todista tuotantoa.
+- `seo:urls` todistaa paikallisen ja live-sitemapin URL-joukkojen eron, ei sivujen sisältöpariteettia.
+- `seo:live` hakee tuotantosivut ja voi epäonnistua verkkotasolla, vaikka sivu olisi olemassa.
+- `seo:gate` lukee valmiit raporttitiedostot; vanhentuneet tai eri commitista peräisin olevat raportit eivät todista nykyistä releasea.
+- `verify:seo` ajaa buildin, paikallisen auditin, URL-pariteetin, live-auditin ja gaten samassa komentoketjussa.
+- `verify:release` lisää tähän check-, lint-, format-, source-testit sekä SEO-testit, mutta se ei deployaa.
+
 ### Analytiikka ja yksityisyys
 
 - Google Analytics ladataan vain tuotantobuildissa.
-- Cloudflare Web Analytics -beacon renderöidään bodyn lopussa.
+- Cloudflare Web Analytics -beacon renderöidään bodyn lopussa myös ei-production-buildin HTML:ään; toteutuksessa ei ole sille ympäristöehtoa.
 - Brändi- ja markkinointitekstit voivat viitata Android-sovelluksen paikalliseen tietojen käsittelyyn.
 
 Sovelluksen yksityisyysväite ei kuvaa automaattisesti verkkosivuston analytiikkaa. Yksityisyystarkistuksessa nämä on arvioitava erillisinä järjestelminä.
@@ -540,30 +757,56 @@ CSP ei tällä hetkellä määritä default-src-, script-src-, style-src-, img-s
 
 public/.well-known/security.txt sisältää yhteystiedon ja vanhenemispäivän 30.4.2027. Tarkista päivämäärä ennen sitä.
 
+`public/robots.txt` sallii kaikki crawlerit ja osoittaa tuotannon sitemap-indexiin. `public/_redirects` ohjaa vain `/sitemap.xml` → `/sitemap-index.xml` koodilla 301. Nämä ovat staattisia deploy-lähteitä; Cloudflaren dashboard-säännöt, bot-asetukset tai reunapalvelun mahdolliset lisäheaderit eivät näy repositoriossa.
+
 ### SonarCloud
 
 sonar-wrapper käyttää @sonar/scan-versiota 4.3.5. Skannaus tarvitsee SONAR_TOKEN-ympäristömuuttujan ja kirjoittaa raportit reports-hakemistoon. SonarCloud-projektin Automatic Analysis pitää olla pois käytöstä manuaalisen skannauksen aikana.
 
+`sonar-project.properties` määrittää projektiksi `Insaner1980_KnitTools-website`, organisaatioksi `insaner1980` ja lähteiksi `src`, `scripts`, `astro.config.mjs` ja `eslint.config.mjs`. Artikkelien Markdown-sisältö on yleisen analyysin ja duplikaatioanalyysin ulkopuolella. `src/i18n/articles.ts` ja `src/i18n/ui.ts` on rajattu vain CPD-duplikaatioanalyysin ulkopuolelle. Coveragea ei kerätä sivuista, komponenteista, layouteista, sisällöstä tai scripteistä; Sonar-coverage ei siksi ole tämän repositoryn toiminnallisen testikattavuuden mittari.
+
 reports, .sonar ja .scannerwork ovat gitignoressa eikä niitä saa commitoida.
+
+### Todistusrajat
+
+Pidä seuraavat väitteet erillään:
+
+| Todiste                               | Mitä se voi osoittaa                                                | Mitä se ei yksin osoita                                                  |
+| ------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Lähdekoodin lukeminen                 | omistajuus, konfiguraatio, kontrollivirta ja staattinen invarianssi | selaimen todellinen layout, ulkoinen palvelu tai deployattu vastaus      |
+| Node source-test                      | testiin kirjattu tiedosto- tai helper-sopimus                       | visuaalinen lopputulos tai oikean selaimen tapahtumakäyttäytyminen       |
+| `astro check`/ESLint/Prettier         | tyyppi-, diagnostiikka-, lint- ja format-sopimus                    | onnistunut staattinen generointi tai runtime                             |
+| `npm run build`                       | nykyinen lähde generoi staattisen buildin                           | tuotanto, waitlist-backend, analytiikan vastaanotto tai Android-sovellus |
+| paikallinen SEO-audit                 | `dist/`-HTML:n ja URL-joukon SEO-sopimus                            | live-CDN:n nykytila                                                      |
+| live-audit tai suora HTTP-vastaus     | tuotannon havaittu verkko- ja HTML-tila kyseisellä hetkellä         | saman commitin identiteetti ilman erillistä Git/deploy-todistetta        |
+| selaintesti tai visuaalinen tarkistus | renderöinti ja vuorovaikutus testatussa viewportissa/selaimessa     | kaikki kielet, breakpointit ja apuvälineet ilman erillistä kattavuutta   |
 
 ## 17. Koodintarkistuksen kysymysrunko
 
 Käytä tarkistuksessa vain niitä rivejä, jotka liittyvät muutoksen todelliseen vaikutusalueeseen.
 
-| Muutosalue      | Tarkistuskysymykset                                                                                                  |
-| --------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Reitit          | Vastaavatko routes.ts, tiedostoreitti, linkit, canonical, hreflang, sitemap ja redirectit toisiaan?                  |
-| Artikkelit      | Onko translationKey oikea, draft-tila tarkoituksellinen, slug kielikohtainen ja hreflang vain julkaistuun sisältöön? |
-| Laskurit        | Ovatko kaava, yksiköt, desimaalipilkku, min/max, pyöristys, virhetila ja usean instanssin saavutettavuus oikein?     |
-| Referenssidata  | Onko numerodata toolReferenceData.ts-lähteessä eikä kopioituna kielisivuille?                                        |
-| Taulukot        | Säilyvätkö semanttinen desktop-taulukko, mobiilimuunnos, labelit, näppäimistö ja ARIA-tilat?                         |
-| UI              | Noudattaako muutos editorial-palettea, fonttirooleja, teräviä painikkeita ja koristekehysten kieltoa?                |
-| Motion          | Toimiiko reduced motion ja onko Marquee/YarnPath-poikkeus huomioitu tarkoituksella?                                  |
-| Hinnoittelu     | Täsmäävätkö näkyvät hinnat, alueet, valuutat, structured data ja fallback?                                           |
-| Analytiikka     | Onko tuotanto- ja dev-käyttäytyminen erotettu, ja vastaavatko yksityisyysväitteet juuri verkkosivustoa?              |
-| Structured data | Vastaako JSON-LD näkyvää, nykyistä ja todellista sisältöä ilman tulevan sovelluksen keksittyä saatavuutta?           |
-| Tietoturva      | Onko löydös osoitettu lähteen lisäksi tuotantovastauksesta, jos väite koskee tuotantoa?                              |
-| Julkaisu        | Onko sama commit varmennettu, pushattu ja rakennettu ennen Direct Uploadia?                                          |
+| Muutosalue          | Tarkistuskysymykset                                                                                                                                                      |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Reitit              | Vastaavatko `routes.ts`, Astro-tiedostomalli, nav/footer/card-linkit, canonical, hreflang, sitemap ja redirectit toisiaan? Säilyykö trailing slash -sopimus?             |
+| Artikkelit          | Onko `translationKey` oikea, draft-tila tarkoituksellinen, slug kielikohtainen, category/order metadata validi ja hreflang vain julkaistuun sisältöön?                   |
+| Lokalisaatio        | Tuleeko UI-teksti `ui.ts`:stä tai oikeasta kielikomponentista, onko HTML-kieli oikein, ja noudattavatko termit kielikohtaista guidea sekä metri-/desimaalipilkkusääntöä? |
+| Laskurit            | Ovatko kaava, yksiköt, desimaalipilkku, inputin step/min/max, pyöristys, tyhjä/virhetila ja usean instanssin uniikit ID:t oikein?                                        |
+| Referenssidata      | Onko jaettu numerodata `toolReferenceData.ts`-lähteessä eikä kopioituna kielisivuille, ja säilyvätkö formatterien näkyvät kielierot?                                     |
+| Taulukot            | Säilyvätkö semanttinen desktop-taulukko, mobiilimuunnos, sarakeotsikoista johdetut labelit, näppäimistö ja ARIA-tilat?                                                   |
+| Astro/DOM           | Renderöityykö sisältö serverillä oikein, alustetaanko client-scripti idempotentisti ja tarvitseeko JS:n luoma DOM `:global()`-tyylin?                                    |
+| UI                  | Noudattaako muutos editorial-palettea, fonttirooleja, teräviä painikkeita, ei-puhdasta mustaa/valkoista sekä koristekehysten ja värillisten sivuraitojen kieltoa?        |
+| Responsiivisuus     | Toimiiko muutos todellisissa omistavissa breakpointeissa, yhden pikselin rajoilla ja sisällön kasvaessa kaikilla olennaisilla kielillä?                                  |
+| Saavutettavuus      | Säilyvätkö heading-hierarkia, label-suhteet, fokusjärjestys ja -näkyvyys, skip-linkki, keyboard pattern, live regionit sekä semanttinen fallback?                        |
+| Motion              | Toimiiko reduced motion, säilyykö ilman JavaScriptiä näkyvä perussisältö ja onko Marquee/YarnPath-poikkeus huomioitu tarkoituksella?                                     |
+| Hinnoittelu         | Täsmäävätkö SSR-hinta, data-attribuutit, maakartta, valuutat, structured data, cache ja fetch-fallback?                                                                  |
+| Waitlist            | Vastaavatko endpoint, payload, timeout, success-ehto, backend/network-virheet, honeypot ja ARIA-palaute samaa lomakesopimusta?                                           |
+| Analytiikka         | Onko production/dev-käyttäytyminen erotettu, ovatko kolmannen osapuolen pyynnöt tarkoituksellisia ja vastaavatko yksityisyysväitteet juuri verkkosivustoa?               |
+| Structured data     | Vastaako JSON-LD näkyvää, nykyistä ja todellista sisältöä ilman tulevan sovelluksen keksittyä saatavuutta, hintaa tai reittiä?                                           |
+| SEO                 | Pysyvätkö title/description/canonical/alternates/OG/Twitter/sitemap yhtenäisinä, ja onko audit-tulos oikean buildin tai live-tilan todiste?                              |
+| Assetit/performance | Onko assetti todella renderöity, sopivassa formaatissa ja koossa, välttääkö muutos turhan preloadin/scriptin ja säilyykö layout ilman tarpeetonta CLS:ää?                |
+| Tietoturva          | Onko löydös osoitettu oikeasta trust boundarysta, onko ulkoinen syöte validoitu, ja onko tuotantoväite varmennettu live-vastauksesta eikä vain `_headers`-lähteestä?     |
+| Testit/build        | Kattaako tarkistus muuttuneen logiikan realistisen failure pathin, erotellaanko source-testi browser-runtime-todisteesta ja onko ohitettu tarkistus raportoitu?          |
+| Julkaisu            | Onko työpuu ja commit-scope tarkistettu, upstream-divergenssi nolla, sama commit pushattu ja rakennettu sekä vasta sitten Direct Uploadattu?                             |
 
 Hyvän tarkistuskysymyksen tulee nimetä:
 
@@ -582,9 +825,14 @@ Ennen UI-muutosta selvitä:
 - Omistaako komponentti itse tyylit vai tulevatko ne global.css-tiedostosta?
 - Luoko JavaScript DOM-elementtejä, jolloin scoped Astro -attribuutteja ei synny ja CSS tarvitsee :global()-selektorin?
 - Voiko globaali linkkisääntö yliajaa komponentin värin?
-- Vaikuttaako muutos desktopin lisäksi 1024, 768, 641 tai 600 pikselin breakpointiin?
+- Vaikuttaako muutos desktopin lisäksi 1024/1023, 980, 900, 768/767, 641/640, 600 tai 430 pikselin breakpointiin?
 - Säilyykö näppäimistökäyttö, focus, ARIA ja reduced motion?
 - Onko näkyvä teksti ja mittamuoto lokalisoitu, etenkin desimaalipilkku FR/NL/DA-näkymissä?
+- Onko komponentin ympärillä slottia, globaalisti perittyä typografiaa tai toista instanssia, joka muuttaa CSS- tai ID-oletusta?
+- Säilyykö sisältö pitkällä saksan/hollannin kopioilla, 200 prosentin tekstisuurennoksella sekä zoomissa ilman päällekkäisyyttä tai pakotettua vaakavieritystä?
+- Onko kuva tai koriste semanttisesti sisältöä vai `aria-hidden`, ja vastaavatko alt-teksti, kokoattribuutit, latausstrategia sekä assetin todellinen käyttö toisiaan?
+
+UI-muutoksen vaikutusketju on yleensä: sivutiedosto tai data → omistava komponentti/layout → globaali ja scoped CSS → mahdollinen browser-controller → source-testit → buildattu HTML → selain eri viewportissa. Tarkistuksen tulee seurata vain ketjun muutokseen kuuluvat lenkit, mutta yhtäkään todellista omistajaa ei saa ohittaa.
 
 Mockup on hierarkian ja sävyn viite. Siitä ei pidä kopioida keksittyä dataa, ominaisuuksia tai Android-sovelluksen tilaa verkkosivustoon.
 
@@ -616,6 +864,7 @@ Päivitä PROJECT.md, kun jokin seuraavista muuttuu:
 - landingin rakenne
 - design-tokenit, fonttiroolit, breakpointit tai motion-invariantit
 - hinnoittelu, analytiikka, security headerit tai structured data
-- testikokoonpano tai julkaisuprosessi
+- ulkoinen endpoint, julkinen integraatiotunniste, build-ympäristön ehto tai Sonar-rajaus
+- testikokoonpano, scriptien vastuut, raporttiformaatti tai julkaisuprosessi
 
 Älä päivitä toteutuskuvausta suunnitelman perusteella ennen kuin muutos on nykyisessä lähdekoodissa. Älä lisää dokumenttiin hetkellistä työpuutilannekuvaa tai muuttuneiden tiedostojen luetteloa; nykyinen Git-tila tarkistetaan aina suoraan repositoriosta.

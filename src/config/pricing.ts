@@ -92,7 +92,7 @@ export const LOCAL_CURRENCY_NOTE =
 
 export const PRICING = {
   trialDays: 14,
-  launchMonthLabel: "Summer 2026",
+  launchMonthLabel: "Fall 2026",
 } as const;
 
 export function getPricingTier(countryCode?: string): PricingTier {

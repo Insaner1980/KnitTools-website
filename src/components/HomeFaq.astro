@@ -1,4 +1,6 @@
 ---
+import { PRICING } from "../config/pricing";
+
 const faqItems = [
   {
     q: "What is KnitTools?",
@@ -14,7 +16,7 @@ const faqItems = [
   },
   {
     q: "Is KnitTools available yet?",
-    a: "Not yet. KnitTools is currently in pre-launch and planned for Google Play in summer 2026.",
+    a: `Not yet. KnitTools is currently in pre-launch and planned for Google Play in ${PRICING.launchMonthLabel}.`,
   },
   {
     q: "Does KnitTools have ads or accounts?",
