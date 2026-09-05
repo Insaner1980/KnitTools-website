@@ -57,7 +57,7 @@ Til et personligt estimat baseret på din størrelse, garntykkelse og sweatersti
 
 **Kort længde:** gå mod den lave ende af intervallet. Hvor meget afhænger af, hvor kort modellen er. Lige under brystet sparer mere end lige over hoften.
 
-**Tunika / lang model:** gå mod den høje ende og læg buffer til. Hver ekstra centimeter kropslængde er en hel omgang masker over hele kroppens bredde. Det løber hurtigt op.
+**Tunika / lang model:** gå mod den høje ende og læg buffer til. For hver ekstra centimeter kropslængde skal du strikke flere pinde eller omgange over hele kroppens bredde; hvor mange afhænger af pindefastheden. Det løber hurtigt op.
 
 **Korte eller meget korte ærmer:** brug mindre end til en langærmet pullover. Ærmer står for en overraskende stor del af det samlede garnforbrug, så det er en stor reduktion at fjerne det meste af ærmelængden.
 

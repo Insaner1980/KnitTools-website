@@ -84,7 +84,7 @@ Til et første projekt leder du efter Worsted / Medium-mærkning, anbefalede pin
 
 **Meget glat garn** (ren silke, bambus, merceriseret bomuld). Masker glider af pindene. Sammen med begynderstrikkefasthed betyder glat garn mange tabte masker.
 
-**Garn der deler sig** (løst tvundet, løst spundet entrådet garn). Pinden fanger enkelte tråde i stedet for hele garnet, så garnet deler sig og maskerne bliver rodede. Tæt tvundet garn, 3-trådet eller 4-trådet, modstår det og er meget lettere at arbejde med. Hvis du står i butikken og er usikker, så drej en lille del af tråden op. Hvis den let falder fra hinanden, vil den også dele sig på pindene.
+**Garn der deler sig** (løst tvundet, løst spundet entrådet garn). Pinden fanger enkelte tråde i stedet for hele garnet, så garnet deler sig og maskerne bliver rodede. Et glat og fast tvundet garn har som regel mindre tendens til at dele sig og er lettere at arbejde med. Antallet af tråde alene fortæller ikke, hvor fast garnet er tvundet. Hvis du står i butikken og er usikker, så drej en lille del af tråden op. Hvis den let falder fra hinanden, vil den også dele sig på pindene.
 
 **Fed i stedet for nøgler eller cakes.** Et fed er en løkke garn, der skal vindes til et nøgle, før du kan strikke fra det. Garnbutikker vinder ofte fed for dig, men en begynder, der prøver at strikke direkte fra et fed, ender hurtigt med en knude. Hold dig til nøgler, bolde eller cakes til dit første køb. Hvis du vil købe et fed, så bed butikken vinde det op.
 

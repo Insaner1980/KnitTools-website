@@ -84,7 +84,7 @@ Voor een eerste project zoek je een worsted-label, een aanbevolen naalddikte ron
 
 **Heel glad garen** (pure zijde, bamboe, gemerceriseerd katoen). Steken glijden van de naalden. In combinatie met beginnersspanning betekent glad garen voortdurend gevallen steken.
 
-**Splijtend garen** (los getwijnd, losgesponnen singles). De naald pakt afzonderlijke draadjes in plaats van de hele draad, waardoor het garen splitst en de steken rommelig worden. Strakker getwijnd garen, 3-draads of 4-draads, verzet zich hier beter tegen en breit veel makkelijker. Sta je in de winkel te twijfelen, draai dan een klein stukje draad los. Valt het makkelijk uit elkaar, dan zal het op de naalden ook snel splijten.
+**Splijtend garen** (los getwijnd, losgesponnen singles). De naald pakt afzonderlijke draadjes in plaats van de hele draad, waardoor het garen splitst en de steken rommelig worden. Glad garen met een stevige twijning splijt over het algemeen minder snel en breit makkelijker. Alleen het aantal draden zegt niet hoe strak een garen getwijnd is. Sta je in de winkel te twijfelen, draai dan een klein stukje draad los. Valt het makkelijk uit elkaar, dan zal het op de naalden ook snel splijten.
 
 **Strengen die nog niet gewonden zijn.** Een streng is een lus garen die eerst tot een bol moet worden gewonden voordat je ermee breit. Garenwinkels winden ze vaak voor je, maar een beginner die direct uit een streng probeert te breien, eindigt met een warboel. Houd je bij je eerste aankoop aan bollen, cakes of al gewonden garen. Wil je een streng, vraag dan of de winkel hem windt.
 

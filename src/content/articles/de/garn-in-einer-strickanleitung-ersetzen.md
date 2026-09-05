@@ -68,7 +68,7 @@ Nicht jedes Projekt verträgt einen Garnwechsel gleich gut. Das sollte klar sein
 
 **Niedriges Risiko:** Schals, Tücher, Decken, Spültücher. Eine Abweichung von etwa zwei Maschen auf 10 cm verändert die fertige Größe, führt aber meist nicht zu einem Passformproblem wie bei Kleidung. Rechne neu, wenn exakte Deckengröße oder Garnmenge wichtig sind. Das sind die Projekte, bei denen Garnersatz fast immer funktioniert.
 
-**Mittleres Risiko:** Mützen, Cowls, Taschen. Passform und Struktur zählen mehr, aber kleine Unterschiede sind noch tolerierbar. Eine etwas zu große Mütze kann man kleiner spannen oder jemandem mit größerem Kopf schenken.
+**Mittleres Risiko:** Mützen, Cowls, Taschen. Passform und Struktur zählen mehr, aber kleine Unterschiede sind noch tolerierbar. Eine etwas zu große Mütze wird durch Spannen nicht zuverlässig kleiner; prüfe die Maschenprobe erneut oder schenk sie jemandem mit größerem Kopf.
 
 **Hohes Risiko:** körpernahe Kleidung, Socken, Handschuhe. Kleine Unterschiede in der Maschenprobe vervielfachen sich über viele Zentimeter, und das Faserverhalten zählt genauso wie die Maschenzahl. Ein Pullover aus dem falschen Garn kann untragbar werden, obwohl die Rechnung gut aussah. Strick eine gründliche Maschenprobe und betrachte sie ehrlich.
 

@@ -56,7 +56,7 @@ Für eine Schätzung nach deiner Größe, Garnstärke und Pulloverform rechnet d
 
 **Cropped-Länge:** Geh eher zum unteren Ende der Spanne. Wie viel du sparst, hängt davon ab, wo der Pullover endet. Direkt unter der Brust spart mehr als knapp oberhalb der Hüfte.
 
-**Tunika / Longline:** Geh zum oberen Ende der Spanne und plane Reserve ein. Jeder zusätzliche Zentimeter Körperlänge ist eine ganze Reihe über die volle Breite des Kleidungsstücks. Das summiert sich schnell.
+**Tunika / Longline:** Geh zum oberen Ende der Spanne und plane Reserve ein. Für jeden zusätzlichen Zentimeter Körperlänge strickst du über die volle Breite des Kleidungsstücks zusätzliche Reihen oder Runden; die genaue Anzahl hängt von den Reihen pro 10 cm in deiner Maschenprobe ab. Das summiert sich schnell.
 
 **Kurze Ärmel oder Cap-Ärmel:** Du brauchst weniger als bei einem langärmeligen Pullover. Ärmel machen einen überraschend großen Teil des Gesamtbedarfs aus, deshalb spart es deutlich, den größten Teil der Ärmellänge wegzulassen.
 

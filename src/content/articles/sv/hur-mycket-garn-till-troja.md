@@ -59,7 +59,7 @@ För en projektspecifik uppskattning baserad på din storlek, garntjocklek och t
 
 **Kort modell:** Rör dig mot den nedre delen av spannet. Hur mycket beror på var längden slutar. Strax under bysten sparar mer än strax ovanför höften.
 
-**Tunika / lång modell:** Rör dig mot den övre delen och lägg till marginal. Varje extra centimeter på kroppen lägger till ett helt varv maskor över plaggets fulla bredd. Det växer snabbt.
+**Tunika / lång modell:** Rör dig mot den övre delen och lägg till marginal. För varje extra centimeter kroppslängd behöver du sticka ytterligare varv över plaggets fulla bredd; hur många beror på varvfastheten. Det växer snabbt.
 
 **Korta ärmar eller holkärmar:** Använd mindre än till en långärmad pullover. Ärmar står för en förvånansvärt stor del av total garnåtgång, så att ta bort större delen av den längden gör stor skillnad.
 

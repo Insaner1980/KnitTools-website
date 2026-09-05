@@ -68,7 +68,7 @@ Niet elk project verdraagt een garenwissel even goed. Het is de moeite waard daa
 
 **Laag risico:** sjaals, omslagdoeken, dekens, vaatdoekjes. Ongeveer twee steken verschil per 10 cm verandert de uiteindelijke maat een beetje. Niemand merkt het. Dit zijn projecten waarbij vervangen bijna altijd werkt. Doen.
 
-**Gemiddeld risico:** mutsen, cols, tassen. Pasvorm telt meer, structuur telt meer, maar er is nog ruimte voor kleine verschillen. Een muts die iets groter uitvalt kan kleiner geblockt worden of naar iemand met een groter hoofd.
+**Gemiddeld risico:** mutsen, cols, tassen. Pasvorm telt meer, structuur telt meer, maar er is nog ruimte voor kleine verschillen. Een iets te grote muts wordt door blocken niet betrouwbaar kleiner; controleer je stekenverhouding opnieuw of geef hem aan iemand met een groter hoofd.
 
 **Hoog risico:** aansluitende kleding. Sokken. Handschoenen. Kleine verschillen in stekenverhouding vermenigvuldigen zich over tientallen centimeters, en vezelgedrag telt net zo hard als het aantal steken. Een trui in verkeerd garen kan onbruikbaar worden, zelfs als de rekensom goed leek. Brei en meet je proeflapje grondig en eerlijk.
 

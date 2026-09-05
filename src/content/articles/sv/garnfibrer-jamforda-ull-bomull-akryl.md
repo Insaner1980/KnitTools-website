@@ -100,7 +100,7 @@ Svaren pekar inte alltid på en enda fiber. Men de brukar eliminera flera.
 
 ## Några saker värda att ta upp
 
-Om du är ny på stickning och väljer ditt första garn smalnar [nybörjarguiden till garn](/sv/artiklar/basta-garnet-for-nyborjare-praktisk-guide/) av alternativen. Fiberinnehåll påverkar hur mycket garn ett projekt behöver, om än indirekt. Olika fibrer packar olika löplängd i samma nystanvikt, vilket är varför uppskattning bara i gram kan göra att garnet inte räcker. KnitTools [garnåtgångskalkylator](/sv/verktyg/garnatgangskalkylator/) hanterar det bättre än gissningar.
+Om du är ny på stickning och väljer ditt första garn smalnar [nybörjarguiden till garn](/sv/artiklar/basta-garnet-for-nyborjare-praktisk-guide/) av alternativen. Fiberinnehåll påverkar hur mycket garn ett projekt behöver, om än indirekt. Olika fibrer packar olika löplängd i samma nystanvikt, vilket är varför uppskattning bara i gram kan göra att garnet inte räcker. KnitTools [garnåtgångskalkylator](/sv/verktyg/garnatgangskalkylator/) ger ett ungefärligt planeringsintervall utifrån projekttyp, storlek och garntjocklek, men tar inte hänsyn till fiberinnehållet.
 
 I hållbarhetsfrågan som dyker upp hela tiden: nylon är den vanligaste förstärkaren i stickgarn. Därför finns det i många sockblandningar. Linne är också anmärkningsvärt starkt bland växtfibrer, även om det får mindre uppmärksamhet för det.
 

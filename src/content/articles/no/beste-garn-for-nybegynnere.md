@@ -84,7 +84,7 @@ Til et første prosjekt vil du se worsted-merking, anbefalte pinner rundt 4,5-5,
 
 **Veldig glatte garn** (ren silke, bambu, mercerisert bomull). Maskene sklir av pinnene. Sammen med nybegynnerstrikkefasthet betyr glatt garn stadig mistede masker.
 
-**Garn som deler seg** (løst tvunnet, løst spunnet entrådet garn). Pinnen fanger enkelttråder i stedet for hele garnet, deler garnet og gir rotete masker. Stramt tvunnet garn, 3-trådet eller 4-trådet, motstår dette og er mye lettere å jobbe med. Hvis du står i butikken og er usikker, tvinn opp en liten bit av tråden. Hvis den faller lett fra hverandre, kommer den også til å dele seg på pinnene.
+**Garn som deler seg** (løst tvunnet, løst spunnet entrådet garn). Pinnen fanger enkelttråder i stedet for hele garnet, deler garnet og gir rotete masker. Glatt garn med fast tvinning deler seg som regel ikke like lett og er lettere å jobbe med. Antall tråder alene sier ikke hvor stramt garnet er tvunnet. Hvis du står i butikken og er usikker, tvinn opp en liten bit av tråden. Hvis den faller lett fra hverandre, kommer den også til å dele seg på pinnene.
 
 **Hesper som ikke er nøstet.** En hespe er en garnløkke som må nøstes opp før du kan strikke fra den. Garnbutikker nøster ofte hesper for deg, men en nybegynner som prøver å strikke rett fra en hespe får raskt et flokeproblem. Hold deg til nøster, baller eller garnkaker på første kjøp. Hvis du vil kjøpe en hespe, be butikken nøste den opp.
 

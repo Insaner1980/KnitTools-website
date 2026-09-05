@@ -48,7 +48,7 @@ Figurnära plagg är största risken. Rörelsevidd, formning och proportioner ä
 
 Spets beror på skala. En spetsrapport som öppnar sig fint i Fingering på tunna stickor kan se tung och oklar ut i Worsted med samma maskantal. Hålen blir större men förlorar proportion. En del hålmönster överlever skalningen. Andra gör det inte.
 
-Flerfärgsstickning blir snabbt tjock när garntjockleken ökar. Varje flerfärgad maska har minst en tråd bakom sig, ibland två om flotteringarna fångas. En Fair Isle-tröja i Worsted kan bli dubbel tjocklek i mönsterpartierna, fint för ytterplagg men obekvämt nära kroppen.
+Flerfärgsstickning blir snabbt tjock när garntjockleken ökar. I vanlig tvåfärgsstickning löper den färg som inte stickas med bakom de stickade maskorna som en enda flottering. Att fånga flotteringen fäster den; det skapar inte en andra tråd. En Fair Isle-tröja i Worsted kan bli dubbel tjocklek i mönsterpartierna, fint för ytterplagg men obekvämt nära kroppen.
 
 Flätor beter sig också olika över tjocklekar. En fyrmaskorsfläta i Fingering ser nätt ut. Samma korsning i Bulky använder märkbart mer garn per korsning och blir tydlig snarare än diskret.
 
@@ -64,7 +64,7 @@ Det är 40 maskor mer runt kroppen. Ärmarna skalar på samma sätt. Om mönstre
 
 Varvfastheten flyttar sig också. Worsted kan ge 28 varv per 10 cm. DK kan ge 32. En kropp som ska vara 40 cm djup behöver då 112 varv i Worsted och 128 varv i DK. Där mönstret säger "sticka 50 varv" behöver du räkna från färdig längd i stället för att följa varvantalet rakt av.
 
-Sedan kommer garnåtgången. Om originalmönstret krävde 1 280 m Worsted behöver DK i samma färdiga yta fler meter eftersom varje maska är tunnare och mask- och varvantalet är högre. I det här exemplet är ett planeringsspann runt 1 650-1 850 m mer realistiskt än att anta att originalets 1 280 m fortfarande räcker. [Garnåtgångskalkylatorn](/sv/verktyg/garnatgangskalkylator/) är bättre än att använda originalmönstrets siffra när du har din nya stickfasthet.
+Sedan kommer garnåtgången. Om originalmönstret krävde 1 280 m Worsted behöver DK i samma färdiga yta fler meter eftersom varje maska är tunnare och mask- och varvantalet är högre. I det här exemplet är ett planeringsspann runt 1 650-1 850 m mer realistiskt än att anta att originalets 1 280 m fortfarande räcker. [Garnåtgångskalkylatorn](/sv/verktyg/garnatgangskalkylator/) ger ett ungefärligt planeringsintervall utifrån projekttyp, storlek och garntjocklek, men använder inte din stickfasthet.
 
 Varje konvertering har sin egen aritmetik, men strukturen är densamma: gör om måtten till den nya stickfastheten och räkna om allt som bygger på varv i stället för centimeter.
 

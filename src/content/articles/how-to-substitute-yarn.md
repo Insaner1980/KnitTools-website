@@ -64,7 +64,7 @@ Not every project tolerates a yarn swap equally. This is worth being honest abou
 
 **Low risk:** scarves, shawls, blankets, dishcloths. Gauge being off by half a stitch per inch changes the finished size, but it usually doesn't create a fit failure the way it does in a garment. Recalculate if exact blanket dimensions or yarn amount matter. These are the projects where substitution almost always works. Go for it.
 
-**Medium risk:** hats, cowls, bags. Fit matters more, structure matters more, but there's still room for small differences. A hat that comes out slightly larger can be blocked down or gifted to someone with a bigger head.
+**Medium risk:** hats, cowls, bags. Fit matters more, structure matters more, but there's still room for small differences. A slightly oversized hat is not reliably made smaller by blocking; recheck gauge or gift it to someone with a bigger head.
 
 **High risk:** fitted garments. Socks. Gloves. Small gauge differences multiply across dozens of inches, and fiber behavior matters just as much as stitch count. A sweater in the wrong yarn can end up unwearable even when the math looked right. Swatch thoroughly and honestly.
 

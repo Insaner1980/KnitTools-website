@@ -68,7 +68,7 @@ Alla projekt tolererar inte garnbyte lika bra. Det är värt att vara ärlig om 
 
 **Låg risk:** halsdukar, sjalar, filtar, disktrasor. En stickfasthet som ligger ungefär två maskor fel per 10 cm ändrar slutstorleken, men ger oftast inte ett passformsfel på samma sätt som i ett plagg. Räkna om om exakta filtmått eller garnmängd spelar roll. Det här är projekten där garnbyte nästan alltid fungerar.
 
-**Medelrisk:** mössor, halskragar, väskor. Passform spelar mer roll, struktur spelar mer roll, men det finns fortfarande utrymme för små skillnader. En mössa som blir lite stor kan blockas ner eller ges till någon med större huvud.
+**Medelrisk:** mössor, halskragar, väskor. Passform spelar mer roll, struktur spelar mer roll, men det finns fortfarande utrymme för små skillnader. Blockning är inte ett tillförlitligt sätt att göra en lite för stor mössa mindre. Kontrollera stickfastheten igen eller ge mössan till någon med större huvud.
 
 **Hög risk:** kroppsnära plagg. Sockor. Handskar. Små skillnader i stickfasthet multipliceras över många centimeter, och fiberbeteendet spelar lika stor roll som maskantalet. En tröja i fel garn kan bli oanvändbar även när matten såg rätt ut. Sticka provlapp ordentligt och var ärlig.
 

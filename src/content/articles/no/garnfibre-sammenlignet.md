@@ -100,7 +100,7 @@ Svarene peker ikke alltid på én fiber. Men de eliminerer ofte flere.
 
 ## Noen ting som er verdt å si
 
-Hvis du er ny i strikking og velger første garn, snevrer [nybegynnergarn-guiden](/no/artikler/beste-garn-for-nybegynnere/) inn valgene. Fiberinnhold påvirker hvor mye garn et prosjekt trenger, indirekte. Ulike fibre pakker ulik løpelengde inn i samme nøstevekt, derfor kan anslag basert på gram alene gi for lite garn. KnitTools' [Garnberegner](/no/verktoy/garnberegner/) håndterer dette bedre enn gjetting.
+Hvis du er ny i strikking og velger første garn, snevrer [nybegynnergarn-guiden](/no/artikler/beste-garn-for-nybegynnere/) inn valgene. Fiberinnhold påvirker hvor mye garn et prosjekt trenger, indirekte. Ulike fibre pakker ulik løpelengde inn i samme nøstevekt, derfor kan anslag basert på gram alene gi for lite garn. KnitTools' [Garnberegner](/no/verktoy/garnberegner/) gir et omtrentlig planleggingsintervall basert på prosjekttype, størrelse og garntykkelse, men tar ikke hensyn til fiberinnhold.
 
 På slitestyrkespørsmålet som dukker opp hele tiden: nylon er hovedforsterkeren i strikkegarn. Derfor finnes det i mange sokkeblandinger. Lin er også bemerkelsesverdig sterkt blant plantefibre, selv om det får mindre oppmerksomhet for det.
 

@@ -59,7 +59,7 @@ Voor een persoonlijke schatting op basis van je maat, garendikte en truistijl re
 
 **Korte lengte:** ga naar de onderkant van het bereik. Hoeveel je bespaart hangt af van waar de trui eindigt. Net onder de borst bespaart meer dan net boven de heup.
 
-**Tuniek / lang model:** ga naar de bovenkant van het bereik en neem marge. Elke extra centimeter lijfhoogte voegt een volledige toer steken over de hele breedte van het kledingstuk toe. Dat loopt snel op.
+**Tuniek / lang model:** ga naar de bovenkant van het bereik en neem marge. Voor elke extra centimeter lijfhoogte brei je over de hele breedte van het kledingstuk extra toeren; hoeveel hangt af van het aantal toeren per 10 cm in je proeflapje. Dat loopt snel op.
 
 **Korte mouwen of kapmouwtjes:** gebruik minder dan voor een pullover met lange mouwen. Mouwen vormen een verrassend groot deel van het totale garenverbruik, dus het grootste deel van die lengte schrappen scheelt veel.
 

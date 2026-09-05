@@ -55,7 +55,7 @@ Omaan kokoon, lankavahvuuteen ja paitatyyliin perustuvan arvion saat [lankamuunt
 
 **Lyhyt pituus:** siirry haarukan alapäähän. Määrä riippuu siitä, mihin lyhennys päättyy. Heti rinnan alle päättyvä malli säästää enemmän kuin juuri lantion yläpuolelle päättyvä.
 
-**Tunika / pitkä malli:** siirry haarukan yläpäähän ja lisää varaa. Jokainen lisäsentti vartalon pituutta on kokonainen kerros silmukoita koko vaatteen leveydeltä. Se kertyy nopeasti.
+**Tunika / pitkä malli:** siirry haarukan yläpäähän ja lisää varaa. Jokaista vartalon lisäsenttiä varten neulotaan kerrostiheyden mukainen määrä kerroksia koko vaatteen leveydeltä. Se kertyy nopeasti.
 
 **Lyhyet hihat tai pienet hihat:** tarvitset vähemmän kuin pitkähihaiseen puseroon. Hihat vievät yllättävän suuren osan kokonaismenekistä, joten suurimman osan hihapituudesta poistaminen on iso säästö.
 

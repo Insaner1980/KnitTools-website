@@ -78,7 +78,7 @@ For a first project, you want a worsted label, a US 7–9 (4.5–5.5 mm) recomme
 
 **Very slippery yarn** (pure silk, bamboo, mercerized cotton). Stitches slide off needles. Combined with beginner tension, slippery yarn means constant dropped stitches.
 
-**Splitty yarn** (loosely plied, loosely spun singles). The needle catches individual plies instead of the whole strand, splitting the yarn and making messy stitches. Tightly plied yarn (3-ply or 4-ply) resists this and is much easier to work with. If you're in a shop and unsure, untwist a strand. If it falls apart easily, it'll split on the needles too.
+**Splitty yarn** (loosely plied, loosely spun singles). The needle catches individual plies instead of the whole strand, splitting the yarn and making messy stitches. A smooth yarn with a firm twist is generally less prone to splitting and easier to work with. Ply count alone does not tell you how tightly a yarn is twisted. If you're in a shop and unsure, untwist a strand. If it falls apart easily, it'll split on the needles too.
 
 **Hanks instead of balls or cakes.** Hanks are loops of yarn that need to be wound into a ball before you can knit from them. Yarn shops will often wind them for free, but a beginner picking up a hank and trying to knit straight from it ends in a tangled mess. Stick to skeins, balls, or cakes for your first purchase. If you want a hank, ask the shop to wind it.
 

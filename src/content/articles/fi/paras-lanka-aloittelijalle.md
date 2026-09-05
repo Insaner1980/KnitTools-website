@@ -83,7 +83,7 @@ Ensimmäiseen projektiin etsi worsted-merkintä, 4,5-5,5 mm puikkosuositus ja ko
 
 **Hyvin liukas lanka** kuten puhdas silkki, bambu tai merseroitu puuvilla. Silmukat liukuvat pois puikoilta. Yhdistettynä aloittelijan epätasaiseen kireyteen se tarkoittaa jatkuvasti pudonneita silmukoita.
 
-**Helposti halkeava lanka** kuten löyhästi kerrattu tai yksisäikeinen lanka. Puikko tarttuu yksittäisiin säikeisiin eikä koko lankaan, jolloin silmukoista tulee sotkuisia. Tiukemmin kerrattu 3- tai 4-säikeinen lanka vastustaa tätä ja on paljon helpompi. Jos olet kaupassa epävarma, kierrä säiettä hieman auki. Jos se hajoaa helposti, se todennäköisesti halkeaa myös puikoilla.
+**Helposti halkeava lanka** kuten löyhästi kerrattu tai yksisäikeinen lanka. Puikko tarttuu yksittäisiin säikeisiin eikä koko lankaan, jolloin silmukoista tulee sotkuisia. Sileä ja napakasti kierretty lanka halkeaa yleensä vähemmän ja on helpompi neuloa. Pelkkä säikeiden määrä ei kerro, kuinka tiukka langan kierre on. Jos olet kaupassa epävarma, kierrä säiettä hieman auki. Jos se hajoaa helposti, se todennäköisesti halkeaa myös puikoilla.
 
 **Vyyhdit, jos niitä ei keritä.** Vyyhti on lankalenkki, joka pitää keriä keräksi ennen neulomista. Lankakauppa voi usein keriä sen puolestasi, mutta aloittelijan yritys neuloa suoraan vyyhdistä päättyy yleensä sotkuun. Pysy ensimmäisellä ostokerralla kerissä ja kakuissa. Jos haluat vyyhdin, pyydä kauppaa kerimään se.
 

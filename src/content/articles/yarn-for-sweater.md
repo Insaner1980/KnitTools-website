@@ -55,7 +55,7 @@ For a project-specific estimate based on your size, yarn weight, and sweater sty
 
 **Cropped length:** Move toward the lower end of the range. How much depends on where the crop falls. A crop just below the bust saves more than one just above the hip.
 
-**Tunic / longline:** Move toward the upper end and add a buffer. Every additional inch of body length adds a full row of stitches across the garment's full width. Adds up fast.
+**Tunic / longline:** Move toward the upper end and add a buffer. Every additional inch of body length adds one inch's worth of full-width rows or rounds; the number depends on your row gauge. Adds up fast.
 
 **Short sleeves or cap sleeves:** Use less than a long-sleeve pullover. Sleeves account for a surprisingly large portion of total yardage, so cutting most of that length is a major reduction.
 

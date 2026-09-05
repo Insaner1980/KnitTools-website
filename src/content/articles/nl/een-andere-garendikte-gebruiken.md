@@ -48,7 +48,7 @@ Aansluitende kledingstukken zijn het grootste risico. Bewegingsruimte, vormgevin
 
 Ajour leunt op schaal. Een rapport dat mooi opent in Fingering op dunne naalden kan in Worsted zwaar en onduidelijk worden met hetzelfde aantal steken. De openingen worden groter, maar de verhoudingen blijven niet altijd kloppen. Sommige ajourpatronen overleven die schaalverandering. Andere niet.
 
-Kleurwerk met meeloopdraden wordt snel dik als de garendikte toeneemt. Elke kleurwerksteek heeft minstens één draad achter zich, soms twee als draden worden meegevangen. Een Fair Isle-trui in Worsted kan in de kleurwerkdelen bijna dubbel dik worden, fijn voor buitenkleding, minder prettig dicht op het lichaam.
+Kleurwerk met meeloopdraden wordt snel dik als de garendikte toeneemt. Bij gewoon tweekleurig inbreien loopt de ongebruikte kleur als één meeloopdraad achter de gebreide steken. Die meeloopdraad meevangen zet hem vast; er ontstaat geen tweede draad. Een Fair Isle-trui in Worsted kan in de kleurwerkdelen bijna dubbel dik worden, fijn voor buitenkleding, minder prettig dicht op het lichaam.
 
 Kabels gedragen zich ook anders per dikte. Een kabel over 4 steken in Fingering leest fijn. Dezelfde kruising in Bulky gebruikt duidelijk meer garen per kruising en wordt fors in plaats van subtiel.
 

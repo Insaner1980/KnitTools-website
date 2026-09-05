@@ -84,7 +84,7 @@ Pour un premier projet, cherche une indication worsted, des aiguilles recommand�
 
 **Les fils très glissants** (pure soie, bambou, coton mercerisé). Les mailles glissent des aiguilles. Avec une tension de débutant, cela veut dire des mailles tombées tout le temps.
 
-**Les fils qui se dédoublent** (brins peu retordus, fil mèche lâche). L'aiguille attrape une partie du fil au lieu de tout le brin, ce qui fend le fil et donne des mailles brouillonnes. Un fil bien retordu, 3 ou 4 brins, résiste mieux et se travaille beaucoup plus facilement. Si tu es en boutique et que tu hésites, détords légèrement un brin. S'il se défait tout de suite, il risque aussi de se dédoubler sur les aiguilles.
+**Les fils qui se dédoublent** (brins peu retordus, fil mèche lâche). L'aiguille attrape une partie du fil au lieu de tout le brin, ce qui fend le fil et donne des mailles brouillonnes. Un fil lisse et fermement retordu a généralement moins tendance à se dédoubler et est plus facile à travailler. Le nombre de brins ne permet pas, à lui seul, de savoir si un fil est fermement retordu. Si tu es en boutique et que tu hésites, détords légèrement un brin. S'il se défait tout de suite, il risque aussi de se dédoubler sur les aiguilles.
 
 **Les écheveaux non bobinés.** Un écheveau est une boucle de fil qui doit être bobinée en pelote avant de pouvoir tricoter. Les boutiques de laine le font souvent pour toi, mais une débutante qui essaie de tricoter directement depuis un écheveau finit vite avec un paquet de nœuds. Pour ton premier achat, reste sur une pelote, une boule ou un cake. Si tu veux acheter un écheveau, demande à la boutique de le bobiner.
 

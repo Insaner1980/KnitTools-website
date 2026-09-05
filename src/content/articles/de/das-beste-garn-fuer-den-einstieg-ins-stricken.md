@@ -82,7 +82,7 @@ Für ein erstes Projekt suchst du eine Worsted-Banderole, eine empfohlene Nadels
 
 **Sehr glattes Garn** wie reine Seide, Bambus oder mercerisierte Baumwolle. Die Maschen rutschen von den Nadeln. Zusammen mit ungleichmäßiger Anfängerspannung führt das schnell zu fallengelassenen Maschen.
 
-**Teilfreudiges Garn** wie locker verzwirntes Garn oder locker gesponnene Singles. Die Nadel erwischt einzelne Fäden statt den ganzen Strang, und die Maschen werden unordentlich. Fester verzwirntes 3- oder 4-fädiges Garn widersteht dem besser und ist leichter zu handhaben.
+**Teilfreudiges Garn** wie locker verzwirntes Garn oder locker gesponnene Singles. Die Nadel erwischt einzelne Fäden statt den ganzen Strang, und die Maschen werden unordentlich. Ein glattes Garn mit fester Verzwirnung spaltet sich im Allgemeinen weniger leicht und ist einfacher zu verarbeiten. Die Fadenzahl allein sagt nichts darüber aus, wie fest ein Garn verzwirnt ist.
 
 **Stränge statt Knäuel oder Cakes.** Ein Strang ist eine große Garnschlaufe, die vor dem Stricken zu einem Knäuel gewickelt werden muss. Garnläden wickeln Stränge oft kostenlos, aber wenn du als Anfänger direkt daraus strickst, endet das schnell mit einem Knotenchaos. Bleib beim ersten Kauf bei Knäueln oder Cakes. Wenn du einen Strang möchtest, bitte den Laden, ihn zu wickeln.
 

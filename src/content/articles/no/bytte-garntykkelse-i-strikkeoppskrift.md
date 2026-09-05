@@ -48,7 +48,7 @@ Tettsittende plagg er størst risiko. Bevegelsesvidde, forming og proporsjoner e
 
 Hullmønster avhenger av skala. En hullmønsterrapport som åpner seg fint i Fingering på tynne pinner, kan se tung og uklar ut i Worsted med samme maskeantall. Hullene blir større, men mister proporsjon. Noen hullmønstre tåler skaleringen. Andre gjør det ikke.
 
-Mønsterstrikk med flere farger blir fort tykk når garntykkelsen øker. Hver flerfarget maske har minst én tråd bak seg, noen ganger to hvis trådsprangene fanges. En Fair Isle-genser i Worsted kan bli dobbelt tykk i mønsterpartiene, fint til ytterplagg, men ubehagelig tett på kroppen.
+Mønsterstrikk med flere farger blir fort tykk når garntykkelsen øker. I vanlig tofarget mønsterstrikk løper fargen du ikke strikker med bak de strikkede maskene som ett trådsprang. Når trådspranget fanges, holdes det på plass uten at det oppstår en ny tråd. En Fair Isle-genser i Worsted kan bli dobbelt tykk i mønsterpartiene, fint til ytterplagg, men ubehagelig tett på kroppen.
 
 Fletter oppfører seg også forskjellig i ulike tykkelser. En firemaskers flette i Fingering ser nett ut. Samme kryssing i Bulky bruker merkbart mer garn per kryss og blir kraftig i stedet for diskret.
 
@@ -64,7 +64,7 @@ Det er 40 masker mer rundt bolen. Ermene skaleres på samme måte. Hvis oppskrif
 
 Antall pinner per 10 cm flytter seg også. Der oppskriften sier "strikk 50 pinner", må du regne fra ferdig lengde i stedet for å følge pinneantallet direkte. En bol som skal være 40 cm dyp, skal fortsatt bli 40 cm, men antall pinner dit kan være et annet.
 
-Så kommer garnmengden. Originaloppskriften brukte kanskje 1 280 m Worsted. DK i samme ferdige flate trenger flere meter fordi hver maske er tynnere. For dette eksempelet er et planleggingsområde rundt 1 650-1 800 m mer realistisk enn å anta at de opprinnelige 1 280 meterne fortsatt holder. [Garnberegneren](/no/verktoy/garnberegner/) er bedre enn å bruke originaloppskriftens tall når du har den nye strikkefastheten.
+Så kommer garnmengden. Originaloppskriften brukte kanskje 1 280 m Worsted. DK i samme ferdige flate trenger flere meter fordi hver maske er tynnere. For dette eksempelet er et planleggingsområde rundt 1 650-1 800 m mer realistisk enn å anta at de opprinnelige 1 280 meterne fortsatt holder. [Garnberegneren](/no/verktoy/garnberegner/) gir et omtrentlig planleggingsintervall basert på prosjekttype, størrelse og garntykkelse, men bruker ikke strikkefastheten din.
 
 Hver omregning har sin egen aritmetikk, men strukturen er den samme: gjør ferdige mål om til ny strikkefasthet, og regn om alt som bygger på pinner i stedet for centimeter.
 

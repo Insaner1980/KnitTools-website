@@ -50,7 +50,7 @@ Les têtes de manche sont particulièrement sensibles : les diminutions rang par
 
 La dentelle dépend de l'échelle. Un motif ajouré qui s'ouvre joliment en Fingering sur des aiguilles fines peut devenir lourd et confus en Worsted avec le même nombre de mailles. Les trous grandissent, mais les proportions ne suivent pas toujours. Certains motifs survivent au changement d'échelle. D'autres non.
 
-Le jacquard à fils tirés devient vite épais quand le fil grossit. Chaque maille en couleur porte au moins un fil flottant derrière elle, parfois deux si les fils sont croisés. Un pull Fair Isle en Worsted peut devenir double épaisseur dans les zones jacquard : très bien pour un vêtement d'extérieur, moins agréable près du corps. Les épaisseurs plus fines restent souples. Les plus grosses deviennent presque des coupe-vent.
+Le jacquard à fils tirés devient vite épais quand le fil grossit. Dans un jacquard à fils tirés à deux couleurs, le fil de la couleur non utilisée passe derrière les mailles tricotées en formant un seul fil flottant. Attraper ce fil flottant permet de le maintenir en place ; cela ne crée pas un deuxième brin. Un pull Fair Isle en Worsted peut devenir double épaisseur dans les zones jacquard : très bien pour un vêtement d'extérieur, moins agréable près du corps. Les épaisseurs plus fines restent souples. Les plus grosses deviennent presque des coupe-vent.
 
 Les torsades changent aussi d'effet. Une torsade sur 4 mailles en Fingering paraît fine. Le même croisement en Bulky consomme nettement plus de fil par croisement et donne une présence visuelle beaucoup plus forte.
 
@@ -66,7 +66,7 @@ Cela fait 40 mailles de plus autour du corps. Les manches se recalculent de la m
 
 L'échantillon en rangs change aussi. Le Worsted peut donner 28 rangs pour 10 cm, et le DK 32 rangs pour 10 cm. Un corps qui doit mesurer 40 cm de haut demande 112 rangs en Worsted et 128 rangs en DK. Là où le modèle dit "tricoter 50 rangs", repars de la longueur finie au lieu de suivre le nombre de rangs tel quel.
 
-Puis vient le métrage. Le modèle d'origine demandait 1 280 m de Worsted. Le DK sur la même surface finie demande plus de mètres parce que chaque maille est plus fine et que les nombres de mailles et de rangs augmentent. Pour cet exemple, une fourchette de planification autour de 1 650 à 1 830 m est plus réaliste que de supposer que les 1 280 m d'origine suffiront encore. L'[Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) est plus fiable que le total d'origine une fois que tu as ton nouvel échantillon.
+Puis vient le métrage. Le modèle d'origine demandait 1 280 m de Worsted. Le DK sur la même surface finie demande plus de mètres parce que chaque maille est plus fine et que les nombres de mailles et de rangs augmentent. Pour cet exemple, une fourchette de planification autour de 1 650 à 1 830 m est plus réaliste que de supposer que les 1 280 m d'origine suffiront encore. L'[Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) donne une fourchette de planification approximative selon le type de projet, la taille et l'épaisseur du fil, mais il n'utilise pas les mesures de ton échantillon.
 
 Chaque conversion a ses propres calculs, mais la structure reste la même : transformer les mesures finies avec le nouvel échantillon, puis recalculer tout ce qui repose sur des rangs plutôt que sur des centimètres.
 

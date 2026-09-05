@@ -84,7 +84,7 @@ För ett första projekt vill du se worsted-märkning, rekommenderade stickor ru
 
 **Mycket hala garner** (rent silke, bambu, merceriserad bomull). Maskorna glider av stickorna. Tillsammans med nybörjarhandlag betyder halt garn ständigt tappade maskor.
 
-**Garn som delar sig** (löst tvinnat, löst spunnet entrådigt garn). Stickan fångar enskilda trådar i stället för hela garnet, delar garnet och ger röriga maskor. Tätt tvinnat garn, 3-trådigt eller 4-trådigt, står emot detta och är mycket lättare att arbeta med. Om du står i en butik och är osäker, tvinna upp en liten bit av tråden. Om den faller isär lätt kommer den också att dela sig på stickorna.
+**Garn som delar sig** (löst tvinnat, löst spunnet entrådigt garn). Stickan fångar enskilda trådar i stället för hela garnet, delar garnet och ger röriga maskor. Ett slätt garn med fast tvinning delar sig i allmänhet mindre lätt och är enklare att arbeta med. Antalet trådar i sig säger inte hur hårt garnet är tvinnat. Om du står i en butik och är osäker, tvinna upp en liten bit av tråden. Om den faller isär lätt kommer den också att dela sig på stickorna.
 
 **Härvor som inte är nystade.** En härva är en garnslinga som behöver nystas innan du kan sticka från den. Garnbutiker nystar ofta härvor åt dig, men en nybörjare som försöker sticka direkt från en härva får snabbt ett trassel. Håll dig till nystan, bollar eller kakor på första köpet. Om du vill köpa en härva, be butiken nysta den.
 

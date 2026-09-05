@@ -61,7 +61,7 @@ Pour une estimation personnalisée selon ta taille, l'épaisseur du fil et le st
 
 **Longueur courte :** va vers le bas de la fourchette. Le gain dépend de l'endroit où le pull s'arrête. Juste sous la poitrine économise plus que juste au-dessus des hanches.
 
-**Tunique / modèle long :** va vers le haut de la fourchette et ajoute une marge. Chaque centimètre ajouté au corps ajoute des rangs complets sur toute la largeur du vêtement. Cela monte vite.
+**Tunique / modèle long :** va vers le haut de la fourchette et ajoute une marge. Chaque centimètre ajouté au corps demande des rangs ou des tours supplémentaires sur toute la largeur du vêtement ; leur nombre dépend de ton échantillon en rangs. Cela monte vite.
 
 **Manches courtes ou petites manches :** utilise moins qu'un pull à manches longues. Les manches représentent une part étonnamment grande du métrage total, donc en retirer la majeure partie change vraiment la quantité.
 

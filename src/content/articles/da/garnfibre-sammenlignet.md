@@ -100,7 +100,7 @@ Svarene peger ikke altid på én fiber. Men de udelukker som regel flere.
 
 ## Et par ting der er værd at tage med
 
-Hvis du er ny i strik og vælger dit første garn, indsnævrer [begynderguiden til garn](/da/artikler/bedste-garn-til-begyndere/) mulighederne. Fiberindhold påvirker indirekte, hvor meget garn et projekt kræver. Forskellige fibre pakker forskellig løbelængde i samme nøglevægt, og derfor kan et estimat i gram alene efterlade et projekt uden nok garn. KnitTools' [garnberegner](/da/strikkevaerktoejer/garnberegner/) håndterer det bedre end gætteri.
+Hvis du er ny i strik og vælger dit første garn, indsnævrer [begynderguiden til garn](/da/artikler/bedste-garn-til-begyndere/) mulighederne. Fiberindhold påvirker indirekte, hvor meget garn et projekt kræver. Forskellige fibre pakker forskellig løbelængde i samme nøglevægt, og derfor kan et estimat i gram alene efterlade et projekt uden nok garn. KnitTools' [garnberegner](/da/strikkevaerktoejer/garnberegner/) giver et omtrentligt planlægningsinterval ud fra projekttype, størrelse og garntykkelse, men tager ikke højde for fiberindhold.
 
 På holdbarhedsspørgsmålet, som kommer igen og igen: nylon er den vigtigste forstærker i strikkegarn. Det er derfor, det findes i næsten alle strømpeblandinger. Hør er også bemærkelsesværdigt stærkt blandt plantefibre, selv om det får mindre opmærksomhed for det.
 

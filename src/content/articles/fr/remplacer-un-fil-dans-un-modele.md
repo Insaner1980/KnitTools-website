@@ -68,7 +68,7 @@ Tous les projets ne tolèrent pas un changement de fil de la même manière. Il 
 
 **Faible risque :** écharpes, châles, couvertures, lavettes. Un échantillon décalé d'environ deux mailles sur 10 cm change la taille finale, mais ne crée généralement pas un échec d'ajustement comme sur un vêtement. Recalcule si les dimensions exactes de la couverture ou la quantité de fil comptent. Ce sont les projets où la substitution fonctionne presque toujours.
 
-**Risque moyen :** bonnets, cols, sacs. L'ajustement compte davantage, la structure aussi, mais il reste une marge pour de petites différences. Un bonnet légèrement trop grand peut être bloqué un peu plus petit ou offert à quelqu'un avec une tête plus grande.
+**Risque moyen :** bonnets, cols, sacs. L'ajustement compte davantage, la structure aussi, mais il reste une marge pour de petites différences. Le blocage ne permet pas de réduire de manière fiable un bonnet légèrement trop grand ; vérifie de nouveau ton échantillon ou offre-le à quelqu'un qui a une tête plus grande.
 
 **Risque élevé :** vêtements ajustés. Chaussettes. Gants. De petits écarts d'échantillon se multiplient sur des dizaines de centimètres, et le comportement de la fibre compte autant que le nombre de mailles. Un pull dans le mauvais fil peut devenir importable même si le calcul semblait juste. Fais un échantillon soigneux et honnête.
 

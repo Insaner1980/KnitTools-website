@@ -100,7 +100,7 @@ Les réponses ne désignent pas toujours une seule fibre. Mais elles éliminent 
 
 ## Quelques points à régler
 
-Si tu débutes et que tu choisis ton premier fil, le guide du [meilleur fil pour débuter](/fr/articles/meilleur-fil-pour-debuter-le-tricot/) réduit les options. La fibre influence aussi la quantité de fil nécessaire, même indirectement. Des fibres différentes ne donnent pas le même métrage dans une pelote du même poids, c'est pourquoi estimer seulement en grammes peut laisser un projet à court. L'[Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) de KnitTools gère mieux cela qu'une simple intuition.
+Si tu débutes et que tu choisis ton premier fil, le guide du [meilleur fil pour débuter](/fr/articles/meilleur-fil-pour-debuter-le-tricot/) réduit les options. La fibre influence aussi la quantité de fil nécessaire, même indirectement. Des fibres différentes ne donnent pas le même métrage dans une pelote du même poids, c'est pourquoi estimer seulement en grammes peut laisser un projet à court. L'[Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) de KnitTools donne une fourchette de planification approximative selon le type de projet, la taille et l'épaisseur du fil, mais il ne tient pas compte de la composition du fil.
 
 Sur la question de la durabilité, qui revient souvent : le nylon est le principal renfort dans les fils à tricoter. C'est pour cela qu'on le trouve dans beaucoup de mélanges pour chaussettes. Le lin est aussi remarquablement solide parmi les fibres végétales, même s'il attire moins l'attention pour cet usage.
 

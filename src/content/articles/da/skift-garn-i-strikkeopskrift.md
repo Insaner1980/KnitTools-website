@@ -68,7 +68,7 @@ Ikke alle projekter tåler et garnskift lige godt. Det er værd at være ærlig 
 
 **Lav risiko:** tørklæder, sjaler, tæpper, karklude. En strikkefasthed der afviger med omkring 2 masker pr. 10 cm, ændrer den færdige størrelse, men skaber normalt ikke en pasformsfejl på samme måde som i tøj. Regn igen, hvis præcise tæppemål eller garnmængde betyder noget. Det er projekterne hvor garnskift næsten altid kan fungere. Kør på.
 
-**Mellem risiko:** huer, halsrør, tasker. Pasform betyder mere, struktur betyder mere, men der er stadig plads til små forskelle. En hue der bliver lidt større, kan blokkes mindre eller gives til nogen med større hoved.
+**Mellem risiko:** huer, halsrør, tasker. Pasform betyder mere, struktur betyder mere, men der er stadig plads til små forskelle. Du kan ikke regne med, at blokning gør en lidt for stor hue mindre. Tjek strikkefastheden igen, eller giv den til en med et større hoved.
 
 **Høj risiko:** tætsiddende tøj. Strømper. Handsker. Små strikkefasthedsforskelle ganges op over mange centimeter, og fiberopførsel betyder lige så meget som maskeantal. En sweater i forkert garn kan blive ubrugelig, selv når regnestykket så rigtigt ud. Lav grundige og ærlige strikkeprøver.
 

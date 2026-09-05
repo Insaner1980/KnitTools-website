@@ -99,7 +99,7 @@ Vastaukset eivät aina osoita yhteen kuituun. Mutta ne karsivat yleensä monta p
 
 ## Muutama asia, joka tulee vastaan
 
-Jos olet uusi neuloja ja valitset ensimmäistä lankaa, [aloittelijan lankaopas](/fi/artikkelit/paras-lanka-aloittelijalle/) rajaa vaihtoehtoja. Kuitusisältö vaikuttaa langanmenekkiin epäsuorasti. Eri kuidut pakkaavat eri määrän metrejä samaan keräpainoon, ja siksi pelkkiin grammoihin perustuva arvio voi jättää projektin vajaaksi. KnitToolsin [lankamuunnin](/fi/tyokalut/lankamuunnin/) hoitaa tämän paremmin kuin arvaaminen.
+Jos olet uusi neuloja ja valitset ensimmäistä lankaa, [aloittelijan lankaopas](/fi/artikkelit/paras-lanka-aloittelijalle/) rajaa vaihtoehtoja. Kuitusisältö vaikuttaa langanmenekkiin epäsuorasti. Eri kuidut pakkaavat eri määrän metrejä samaan keräpainoon, ja siksi pelkkiin grammoihin perustuva arvio voi jättää projektin vajaaksi. KnitToolsin [lankamuunnin](/fi/tyokalut/lankamuunnin/) antaa karkean suunnitteluhaarukan projektityypin, koon ja lankavahvuuden perusteella, mutta se ei huomioi kuitua.
 
 Kestävyyskysymykseen, joka nousee esiin jatkuvasti: nylon on tärkein vahvistaja neulelangoissa. Siksi sitä on lähes jokaisessa sukkalankasekoitteessa. Pellava on myös huomattavan vahva kasvikuitu, vaikka siitä puhutaan tässä yhteydessä vähemmän.
 

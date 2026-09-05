@@ -50,7 +50,7 @@ Tætsiddende tøj er den største risiko. Bevægelsesrum, formgivning og proport
 
 Hulmønster afhænger af skala. En hulmønsterrapport der åbner smukt i Fingering på tynde pinde, kan se tung og uklar ud i Worsted med samme maskeantal. Hullerne bliver større, men proportionerne følger ikke altid med. Nogle hulmønstre overlever skaleringen. Andre gør ikke.
 
-Mønsterstrik med flere farver bliver hurtigt tykt, når garntykkelsen øges. Hver flerfarvet maske har mindst én tråd bag sig, nogle gange to hvis flotteringerne fanges. En Fair Isle-sweater i Worsted kan blive næsten dobbelt så tyk i mønstersektionerne. Fint til overtøj, mindre behageligt tæt på kroppen.
+Mønsterstrik med flere farver bliver hurtigt tykt, når garntykkelsen øges. I almindelig tofarvet mønsterstrik løber den farve, der ikke strikkes med, bag de strikkede masker som én flottering. Når flotteringen fanges, holdes den på plads; der opstår ikke en ekstra tråd. En Fair Isle-sweater i Worsted kan blive næsten dobbelt så tyk i mønstersektionerne. Fint til overtøj, mindre behageligt tæt på kroppen.
 
 Snoninger opfører sig også forskelligt i forskellige tykkelser. En snoning over fire masker i Fingering ser fin ud. Den samme krydsning i Bulky bruger mærkbart mere garn pr. kryds og bliver markant i stedet for diskret.
 
@@ -66,7 +66,7 @@ Det er 40 masker mere rundt om kroppen. Ærmerne skaleres på samme måde. Hvis 
 
 Pindefastheden flytter sig også. Worsted kan give 28 pinde pr. 10 cm, mens DK giver 32 pinde pr. 10 cm. En sweaterkrop der skal være 40 cm dyb, kræver 112 pinde ved Worsted-fastheden og 128 pinde ved DK-fastheden. Når opskriften siger "strik 50 pinde", skal du regne ud fra den færdige længde i stedet for at følge pindeantallet direkte.
 
-Så kommer garnforbruget. Originalopskriften krævede 1 400 yards / ca. 1 280 m Worsted-garn. DK på samme færdige flade kræver flere meter, fordi garnet er tyndere, og både maske- og pindeantal er højere. Til dette eksempel er et planlægningsinterval omkring 1 650-1 830 m mere realistisk end at antage, at de oprindelige 1 280 m stadig passer. [Garnberegneren](/da/strikkevaerktoejer/garnberegner/) er mere pålidelig end opskriftens oprindelige tal, når du har din nye strikkefasthed.
+Så kommer garnforbruget. Originalopskriften krævede 1 400 yards / ca. 1 280 m Worsted-garn. DK på samme færdige flade kræver flere meter, fordi garnet er tyndere, og både maske- og pindeantal er højere. Til dette eksempel er et planlægningsinterval omkring 1 650-1 830 m mere realistisk end at antage, at de oprindelige 1 280 m stadig passer. [Garnberegneren](/da/strikkevaerktoejer/garnberegner/) giver et omtrentligt planlægningsinterval ud fra projekttype, størrelse og garntykkelse, men bruger ikke din strikkefasthed.
 
 Hver omregning har sin egen aritmetik, men strukturen er den samme: oversæt færdige mål til den nye strikkefasthed, og regn alt om, der bygger på pinde i stedet for centimeter.
 

@@ -47,7 +47,7 @@ Istuva vaate on suurin riski. Väljyys, muotoilu ja mittasuhteet on laskettu alk
 
 Pitsi riippuu mittakaavasta. Fingering-vahvuisena 3,25 mm puikoilla kauniisti avautuva pitsitoisto voi näyttää worsted-vahvuisena samalla silmukkamäärällä raskaalta ja sekavalta. Langankierrot suurenevat, mutta mittasuhde katoaa. Osa pitsiohjeista kestää skaalaamista. Osa ei.
 
-Kirjoneule paksuuntuu nopeasti, kun langan vahvuus kasvaa. Jokaisen kirjoneulesilmukan takana kulkee vähintään yksi lanka, joskus kaksi jos langanjuoksuja sidotaan. Worsted-vahvuinen Fair Isle -paita on kirjoneulekohdissa käytännössä kaksinkertainen neulepinta. Se on hienoa ulkovaatteessa ja epämukavaa vartalonmyötäisessä vaatteessa. Ohuemmat langat pysyvät taipuisampina. Paksummat muuttuvat tuulenpitäviksi.
+Kirjoneule paksuuntuu nopeasti, kun langan vahvuus kasvaa. Kaksivärisessä kirjoneuleessa käyttämätön väri kulkee neulottujen silmukoiden takana yhtenä lankajuoksuna. Lankajuoksun sitominen kiinnittää sen eikä muodosta toista säiettä. Worsted-vahvuinen Fair Isle -paita on kirjoneulekohdissa käytännössä kaksinkertainen neulepinta. Se on hienoa ulkovaatteessa ja epämukavaa vartalonmyötäisessä vaatteessa. Ohuemmat langat pysyvät taipuisampina. Paksummat muuttuvat tuulenpitäviksi.
 
 Palmikot käyttäytyvät eri vahvuuksissa eri tavalla. Neljän silmukan palmikko fingering-langassa näyttää herkältä. Sama palmikonkierros bulky-langassa kuluttaa silmin nähden enemmän lankaa joka kierroksella ja näyttää vahvalta eikä hienovaraiselta.
 
@@ -63,7 +63,7 @@ Se on 40 silmukkaa enemmän vartalon ympäri. Hihat skaalautuvat samalla tavalla
 
 Kerrostiheys muuttuu myös. Worsted voi antaa 28 kerrosta / 10 cm. DK voi antaa 32. Jos paidan vartalo neulotaan 40 cm syvyiseksi, worsted-versio tarvitsee 112 kerrosta ja DK-versio 128. Aina kun ohje sanoo "neulo 50 kerrosta", laske määrä uudelleen valmiista mitasta, älä alkuperäisestä kerrosmäärästä.
 
-Sitten tulee langanmenekki. Alkuperäinen ohje käytti 1 400 jaardia worsted-lankaa. DK samalla valmiilla pinta-alalla tarvitsee enemmän metrejä, koska lanka on ohuempaa ja silmukka- sekä kerrosmäärät ovat suuremmat. Tässä esimerkissä realistisempi suunnitteluhaarukka on noin 1 650-1 830 metriä eikä oletus, että alkuperäinen 1 400 jaardia riittää edelleen. [Lankamuunnin](/fi/tyokalut/lankamuunnin/) laskee määrän tarkemmin, kun tiedät oman neuletiheytesi.
+Sitten tulee langanmenekki. Alkuperäinen ohje käytti 1 400 jaardia worsted-lankaa. DK samalla valmiilla pinta-alalla tarvitsee enemmän metrejä, koska lanka on ohuempaa ja silmukka- sekä kerrosmäärät ovat suuremmat. Tässä esimerkissä realistisempi suunnitteluhaarukka on noin 1 650-1 830 metriä eikä oletus, että alkuperäinen 1 400 jaardia riittää edelleen. [Lankamuunnin](/fi/tyokalut/lankamuunnin/) antaa karkean suunnitteluhaarukan projektityypin, koon ja lankavahvuuden perusteella, mutta se ei käytä omaa neuletiheyttäsi.
 
 Tämä on yksi projekti. Jokaisessa muunnoksessa on oma laskunsa, mutta rakenne on sama: sovita mitat uuteen neuletiheyteen ja muuta kaikki kohdat, joissa ohje laskee kerroksia eikä mittaa.
 

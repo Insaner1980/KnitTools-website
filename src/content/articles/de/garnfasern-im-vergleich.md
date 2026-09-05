@@ -100,7 +100,7 @@ Die Antworten zeigen nicht immer auf eine einzige Faser. Aber sie schließen mei
 
 ## Ein paar Dinge, die oft auftauchen
 
-Wenn du neu strickst und dein erstes Garn auswählst, grenzt der [Anfängerleitfaden für Garn](/de/artikel/das-beste-garn-fuer-den-einstieg-ins-stricken/) die Optionen ein. Die Materialzusammensetzung beeinflusst den Garnbedarf indirekt. Verschiedene Fasern packen unterschiedliche Meterzahlen in dasselbe Knäuelgewicht, deshalb kann eine Schätzung nur nach Gramm zu wenig ergeben. Der KnitTools-[Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) ist hier besser als Raten.
+Wenn du neu strickst und dein erstes Garn auswählst, grenzt der [Anfängerleitfaden für Garn](/de/artikel/das-beste-garn-fuer-den-einstieg-ins-stricken/) die Optionen ein. Die Materialzusammensetzung beeinflusst den Garnbedarf indirekt. Verschiedene Fasern packen unterschiedliche Meterzahlen in dasselbe Knäuelgewicht, deshalb kann eine Schätzung nur nach Gramm zu wenig ergeben. Der KnitTools-[Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) liefert anhand von Projektart, Größe und Garnstärke eine grobe Spanne für die Planung, berücksichtigt die Materialzusammensetzung aber nicht.
 
 Zur Haltbarkeit, die ständig gefragt wird: Nylon ist der wichtigste Verstärker in Strickgarnen. Deshalb steckt es in vielen Sockengarnmischungen. Leinen ist ebenfalls eine bemerkenswert starke Pflanzenfaser, bekommt in diesem Zusammenhang aber weniger Aufmerksamkeit.
 

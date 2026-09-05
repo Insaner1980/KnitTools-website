@@ -96,7 +96,7 @@ The answers may not point to one fiber. But they'll usually eliminate several.
 
 ## A few things worth addressing
 
-If you're new to knitting and choosing your first yarn, the [beginner yarn guide](/articles/best-yarn-for-beginners/) narrows the options down. Fiber content affects how much yarn a project needs, though indirectly. Different fibers pack different yardage into the same skein weight, which is why estimating by grams alone can leave a project short. KnitTools' [Yarn Estimator](/tools/yarn-estimator/) handles this better than guessing.
+If you're new to knitting and choosing your first yarn, the [beginner yarn guide](/articles/best-yarn-for-beginners/) narrows the options down. Fiber content affects how much yarn a project needs, though indirectly. Different fibers pack different yardage into the same skein weight, which is why estimating by grams alone can leave a project short. The [Yarn Estimator](/tools/yarn-estimator/) gives a rough planning range from project type, size, and yarn weight; it does not account for fiber.
 
 On the durability question that comes up constantly: nylon is the main booster in knitting yarn. That's why it shows up in many sock blends. Linen is also remarkably strong among plant fibers, though it gets less attention for it.
 

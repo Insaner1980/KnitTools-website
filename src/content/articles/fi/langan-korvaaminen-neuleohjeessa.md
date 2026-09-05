@@ -67,7 +67,7 @@ Kaikki projektit eivät siedä langanvaihtoa yhtä hyvin. Tämä kannattaa sanoa
 
 **Matala riski:** huivit, hartiahuivit, peitot ja tiskirätit. Noin 2 silmukan heitto 10 cm matkalla muuttaa valmista kokoa vähän. Harva huomaa. Näissä korvaaminen onnistuu useimmiten.
 
-**Keskiriski:** pipot, kaulurit ja laukut. Istuvuus ja rakenne merkitsevät enemmän, mutta pieniä eroja voi vielä sietää. Hieman liian ison pipon voi pingottaa pienemmäksi tai antaa isopäisemmälle.
+**Keskiriski:** pipot, kaulurit ja laukut. Istuvuus ja rakenne merkitsevät enemmän, mutta pieniä eroja voi vielä sietää. Hieman liian iso pipo ei pienene luotettavasti pingottamalla. Tarkista neuletiheys uudelleen tai anna pipo isopäisemmälle.
 
 **Korkea riski:** istuvat vaatteet, sukat ja sormikkaat. Pienet neuletiheyserot moninkertaistuvat kymmenissä senteissä, ja kuitu vaikuttaa yhtä paljon kuin silmukkamäärä. Väärä lanka voi tehdä paidasta käyttökelvottoman, vaikka lasku näytti oikealta. Tee mallitilkku kunnolla ja katso sitä rehellisesti.
 

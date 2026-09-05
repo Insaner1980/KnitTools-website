@@ -68,7 +68,7 @@ Ikke alle prosjekter tåler garnbytte like godt. Vær ærlig om dette før du kj
 
 **Lav risiko:** skjerf, sjal, tepper, kluter. En strikkefasthet som ligger omtrent to masker feil per 10 cm endrer ferdig størrelse, men gir vanligvis ikke samme passformproblem som i et plagg. Regn om hvis nøyaktige teppemål eller garnmengde betyr noe. Dette er prosjektene der garnbytte nesten alltid fungerer. Kjør på.
 
-**Middels risiko:** luer, halser, vesker. Passform betyr mer, struktur betyr mer, men det er fortsatt rom for små forskjeller. En lue som blir litt stor kan blokkes inn eller gis til noen med større hode.
+**Middels risiko:** luer, halser, vesker. Passform betyr mer, struktur betyr mer, men det er fortsatt rom for små forskjeller. Blokking er ikke en pålitelig måte å gjøre en litt for stor lue mindre på. Sjekk strikkefastheten på nytt, eller gi luen til noen med større hode.
 
 **Høy risiko:** tettsittende plagg. Sokker. Hansker. Små forskjeller i strikkefasthet ganger seg over mange centimeter, og fiberoppførsel betyr like mye som maskeantall. En genser i feil garn kan bli ubrukelig selv om matematikken så riktig ut. Strikk prøvelapp grundig og ærlig.
 

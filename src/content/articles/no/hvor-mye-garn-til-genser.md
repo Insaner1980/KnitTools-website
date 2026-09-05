@@ -59,7 +59,7 @@ For et personlig anslag basert på størrelse, garntykkelse og genserstil gjør 
 
 **Kort lengde:** gå mot den nedre delen av intervallet. Hvor mye avhenger av hvor lengden slutter. Rett under bysten sparer mer enn rett over hoften.
 
-**Tunika / lang modell:** gå mot den øvre delen og legg til margin. Hver ekstra centimeter på bolen legger til en hel omgang masker over plaggets fulle bredde. Det summerer seg fort.
+**Tunika / lang modell:** gå mot den øvre delen og legg til margin. For hver ekstra centimeter på bolen må du strikke flere pinner eller omganger over hele plaggets bredde. Hvor mange avhenger av pinnefastheten. Det summerer seg fort.
 
 **Korte ermer eller svært korte ermer:** bruk mindre enn til en langermet genser. Ermer står for en overraskende stor del av total garnmengde, så å fjerne mesteparten av den lengden gjør stor forskjell.
 

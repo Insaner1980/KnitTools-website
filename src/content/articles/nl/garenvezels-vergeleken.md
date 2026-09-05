@@ -100,7 +100,7 @@ De antwoorden wijzen niet altijd naar een enkele vezel. Maar ze sluiten meestal 
 
 ## Een paar punten die vaak terugkomen
 
-Ben je nieuw met breien en kies je je eerste garen, dan beperkt de [beginnersgids voor garen](/nl/artikelen/beste-garen-voor-beginners/) de opties. Vezelsamenstelling beïnvloedt hoeveel garen je nodig hebt, indirect. Verschillende vezels stoppen verschillende meters in hetzelfde bolgewicht, en daarom kan schatten op grammen alleen je project tekort laten komen. De [Garenberekenaar](/nl/breitools/garenberekenaar/) van KnitTools werkt beter dan gokken.
+Ben je nieuw met breien en kies je je eerste garen, dan beperkt de [beginnersgids voor garen](/nl/artikelen/beste-garen-voor-beginners/) de opties. Vezelsamenstelling beïnvloedt hoeveel garen je nodig hebt, indirect. Verschillende vezels stoppen verschillende meters in hetzelfde bolgewicht, en daarom kan schatten op grammen alleen je project tekort laten komen. De [Garenberekenaar](/nl/breitools/garenberekenaar/) van KnitTools geeft een globale planningscheck op basis van projecttype, maat en garendikte, maar houdt geen rekening met vezelsamenstelling.
 
 Over slijtvastheid, een vraag die steeds terugkomt: nylon is de belangrijkste versterker in breigaren. Daarom zit het in veel sokkenmengsels. Linnen is ook opvallend sterk onder de plantaardige vezels, al krijgt het daar minder aandacht voor.
 

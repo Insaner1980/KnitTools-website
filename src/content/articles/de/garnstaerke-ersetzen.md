@@ -50,7 +50,7 @@ Körpernahe Kleidung ist das größte Risiko. Mehrweite, Formgebung und Proporti
 
 Lochmuster hängen von Maßstab und Offenheit ab. Ein Rapport, der in Fingering auf kleinen Nadeln fein und klar aussieht, kann in Worsted schwer und unruhig wirken. Manche Lochmuster überleben die Skalierung. Andere nicht.
 
-Mehrfarbiges Stricken mit Spannfäden wird bei dickerem Garn schnell sehr dick. Hinter jeder Masche liegt mindestens ein zusätzlicher Faden, manchmal zwei, wenn Spannfäden eingefangen werden. In leichteren Garnen bleibt das beweglich. In schweren Garnen wird daraus eher ein winddichter Oberstoff als ein weiches Kleidungsstück.
+Mehrfarbiges Stricken mit Spannfäden wird bei dickerem Garn schnell sehr dick. Beim zweifarbigen Stricken mit Spannfäden läuft die unbenutzte Farbe als ein Spannfaden hinter den gestrickten Maschen entlang. Wenn du diesen Spannfaden einfängst, sicherst du ihn; ein zweiter Faden entsteht dabei nicht. In leichteren Garnen bleibt das beweglich. In schweren Garnen wird daraus eher ein winddichter Oberstoff als ein weiches Kleidungsstück.
 
 Zöpfe verändern sich ebenfalls. Ein Vier-Maschen-Zopf in Fingering ist fein. Derselbe Zopf in Bulky verbraucht pro Kreuzung spürbar mehr Garn und wirkt kräftig statt subtil.
 
@@ -66,7 +66,7 @@ Das sind 40 Maschen mehr um den Körper. Die Ärmel skalieren ähnlich. Wenn das
 
 Auch die Reihenprobe verschiebt sich. Worsted kann zum Beispiel 28 Reihen auf 10 cm ergeben, DK vielleicht 32. Ein Körperteil mit 40 cm Tiefe braucht dann 112 Reihen in Worsted und 128 Reihen in DK. Überall, wo die Anleitung "50 Reihen stricken" sagt, solltest du von der fertigen Länge ausgehen statt die Reihenzahl ungeprüft zu übernehmen.
 
-Dazu kommt der Garnbedarf. Die ursprüngliche Anleitung verlangte vielleicht 1.280 m Worsted. Für dieses Beispiel ist ein Planungsbereich von etwa 1.650-1.830 m realistischer, als anzunehmen, dass die ursprünglichen 1.280 m reichen. Der [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) ist hier sinnvoller als die ursprüngliche Meterzahl, sobald du deine neue Maschenprobe hast.
+Dazu kommt der Garnbedarf. Die ursprüngliche Anleitung verlangte vielleicht 1.280 m Worsted. Für dieses Beispiel ist ein Planungsbereich von etwa 1.650-1.830 m realistischer, als anzunehmen, dass die ursprünglichen 1.280 m reichen. Der [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) liefert anhand von Projektart, Größe und Garnstärke eine grobe Spanne für die Planung, berücksichtigt deine Maschenprobe aber nicht.
 
 Jede Umrechnung hat eigene Zahlen, aber die Struktur bleibt gleich: Fertigmaße auf die neue Maschenprobe umrechnen und überall dort neu rechnen, wo die Anleitung mit Reihen statt Maßen arbeitet.
 

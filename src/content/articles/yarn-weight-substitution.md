@@ -44,7 +44,7 @@ Fitted garments are the biggest risk. Ease, shaping, and proportions were all ca
 
 Lace depends on scale. A lace repeat that opens beautifully at fingering weight on a US 3 needle can look heavy and confused in worsted at the same stitch count. The eyelets get larger but lose proportional balance. Some lace patterns survive scaling. Others don't.
 
-Stranded colorwork gets thick quickly as yarn weight increases. Every colorwork stitch has at least one strand running behind it, sometimes two if floats are caught. A worsted-weight Fair Isle sweater is essentially double-thickness fabric in the colorwork sections, which is wonderful for outerwear and uncomfortable for anything close to the body. Lighter weights stay flexible. Heavier weights turn into windbreakers.
+Stranded colorwork gets thick quickly as yarn weight increases. In two-color stranded knitting, the unused color runs behind the worked stitches as one float. Catching secures that float; it does not create a second strand. A worsted-weight Fair Isle sweater is essentially double-thickness fabric in the colorwork sections, which is wonderful for outerwear and uncomfortable for anything close to the body. Lighter weights stay flexible. Heavier weights turn into windbreakers.
 
 Cables behave differently across weights too. A 4-stitch cable in fingering looks delicate. The same crossing in bulky uses noticeably more yarn per crossing and reads as substantial rather than subtle.
 
@@ -60,7 +60,7 @@ That's 40 more stitches around the body. Sleeves scale the same way. If the patt
 
 Row gauge shifts too. Worsted might give 7 rows per inch. DK might give 8. A sweater body knit to 16 inches deep needs 112 rows in worsted and 128 rows in DK. Anywhere the pattern says "work for 50 rows," recalculate from the finished measurement instead of the row count.
 
-Then there's yardage. The original pattern called for 1,400 yards of worsted. DK at the same total finished area needs more yards because the yarn is thinner and the stitch and row counts are higher. For this example, a planning range around 1,800-2,000 yards is more realistic than assuming the original 1,400 will still work. The [Yarn Estimator](/tools/yarn-estimator/) handles the calculation more precisely once you have your gauge.
+Then there's yardage. The original pattern called for 1,400 yards of worsted. DK at the same total finished area needs more yards because the yarn is thinner and the stitch and row counts are higher. For this example, a planning range around 1,800-2,000 yards is more realistic than assuming the original 1,400 will still work. The [Yarn Estimator](/tools/yarn-estimator/) provides a rough planning range from project type, size, and yarn weight, but it does not use your gauge.
 
 This is one project. Every conversion has its own arithmetic, but the structure is the same: refit dimensions to the new gauge, then adjust everywhere the pattern counts rows instead of measuring.
 
