@@ -25,7 +25,7 @@ Metallipuikot ovat yleensä liukkaimmat ja kestävimmät arkikäytössä, puu tu
 | ---------------------------- | ---------------- | ------------------ | ---------- | --------- | --------------- | ---------------------------------------- |
 | Alumiini                     | Nopea            | Vähäinen           | Kevyt      | Naksuva   | Hyvä            | Edulliset metallipuikot                  |
 | Ruostumaton teräs            | Nopea            | Vähäinen           | Keskipaino | Naksuva   | Hyvä            | Sileä neulominen ja pienet koot          |
-| Messinki / nikkelöity pinta  | Erittäin nopea   | Hyvin vähäinen     | Painava    | Naksuva   | Hyvä            | Nopeutta hakeva neulominen               |
+| Messinki / nikkelöity pinta  | Erittäin nopea   | Hyvin vähäinen     | Vaihtelee  | Naksuva   | Hyvä            | Nopeutta hakeva neulominen               |
 | Puu, kuten koivu ja ruusupuu | Keskinopea       | Kohtuullinen       | Keskipaino | Hiljainen | Kohtuullinen    | Lämmin tuntuma ja hallittu liike         |
 | Bambu                        | Hitaampi         | Vahva              | Kevyt      | Hiljainen | Heikompi, kuluu | Aloittelijat ja liukkaat langat          |
 | Muovi / akryyli              | Vaihtelee        | Vaihtelee          | Kevyt      | Hiljainen | Kohtuullinen    | Isot puikkokoot ja kevyet työvälineet    |
@@ -39,7 +39,7 @@ Useimmat metallipuikot ovat alumiinia, ruostumatonta terästä tai messinkiä. N
 
 Vaihtokauppa: metalli on liukas. Silkin tai bambusekoitelangan kanssa silmukat voivat karata, jos et kiinnitä huomiota. Metalli tuntuu myös aluksi kylmältä, ja osa neulojista inhoaa kilinää. Toisille se kuuluu kokemukseen.
 
-Pinnan viimeistely merkitsee enemmän kuin pelkkä sana "metalli" pakkauksessa. ChiaoGoo Red Lace -puikkojen hieman teksturoitu teräspinta tuntuu eri asialta kuin Addi Turbon peilikiillotettu messinki, ja HiyaHiya Sharp taas tuntuu erilaiselta terävän kärjen takia. Metallin sisälläkin vaihtelua on paljon, ja usein merkki ja viimeistely vaikuttavat enemmän kuin tarkka metalli.
+Pinnan viimeistely merkitsee enemmän kuin pelkkä sana "metalli" pakkauksessa. ChiaoGoo RED Lace -puikoissa on kirurgisesta ruostumattomasta teräksestä valmistetut kärjet, joissa on sileä, satiininkiiltoinen viimeistely, sekä muotomuistiton, nailonpäällysteinen monisäikeinen teräskaapeli. Ne tuntuvat erilaisilta kuin Addi Turbon peilikiillotettu messinki, ja HiyaHiya Sharp taas tuntuu erilaiselta terävän kärjen takia. Metallin sisälläkin vaihtelua on paljon, ja usein merkki ja viimeistely vaikuttavat enemmän kuin tarkka metalli.
 
 Yksi erikoisuus kannattaa tietää: jotkut metallin ja langan yhdistelmät tuntuvat vinkuvilta tai nihkeiltä. Jos neulepinta on hyvä mutta tuntuma ärsyttää, puuhun tai bambuun vaihtaminen muuttaa pintakitkaa muuttamatta itse projektia.
 
@@ -65,7 +65,7 @@ Bambu ei myöskään pidä kosteudesta. Älä säilytä bambupuikkoja kylpyhuone
 
 ## Muovi ja akryyli
 
-Muovi on kevyempää kuin metalli ja halvempaa kuin puu. Muovipuikkoja näkee eniten isoissa koissa, noin US 13 / 9,0 mm ja sitä suuremmissa, joissa painolla on väliä ja saman kokoinen metallipuikko olisi raskas pitää.
+Valmiin puikon paino riippuu sekä materiaalista että rakenteesta. Muovipuikko on usein kevyt, kun taas metallipuikko voi olla umpinainen, ontto tai putkirakenteinen. Monet suuret metallipuikot tehdään ontoiksi liiallisen painon välttämiseksi.
 
 Tuntuma vaihtelee paljon valmistajan mukaan. Susan Bates Quicksilver ja Boye ovat tavallisia edullisia merkkejä. Osa muovipuikoista on liukkaita, osa tahmeita, osa ihan toimivia ja osa kertakäyttöisen tuntuisia.
 
@@ -85,7 +85,7 @@ Pitsikärjet eli hyvin terävät kärjet helpottavat 2 o yhteen -kavennuksia, ss
 
 Pyöreämmät kärjet ovat armollisempia halkeaville langoille ja sormenpäille. Vaihtokauppa on, että pitsikavennukset voivat tuntua työläiltä.
 
-Monilla merkeillä on useampi kärkimalli. ChiaoGoo Red Lace on terävämpi linja, Red Bamboo pyöreämpi. KnitPro Karbonz on selvästi terävä. HiyaHiya tekee sekä Sharp-linjaa että tavallisempaa kärkeä. Valitse sen mukaan, mitä neulot. Pitsi, kavennukset ja tiukat silmukat palkitsevat terävämmän kärjen. Halkeavat langat ja tavallinen sileä neule toimivat usein paremmin pyöreämmällä kärjellä.
+Monilla merkeillä on useampi kärkimalli. ChiaoGoo RED Lace on teräväkärkinen mallisto. ChiaoGoon nykyiset bambupyöröpuikot kuuluvat erilliseen mallistoon, ja kärjen muoto kannattaa tarkistaa mallikohtaisesti. KnitPro Karbonz on selvästi terävä. HiyaHiya tekee sekä Sharp-linjaa että tavallisempaa kärkeä. Valitse sen mukaan, mitä neulot. Pitsi, kavennukset ja tiukat silmukat palkitsevat terävämmän kärjen. Halkeavat langat ja tavallinen sileä neule toimivat usein paremmin pyöreämmällä kärjellä.
 
 ## Vaihdettavien pyöröpuikkojen liitos
 

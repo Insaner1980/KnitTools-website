@@ -117,7 +117,7 @@ Jos olet utelias, osta yksi 23 cm pyöröpuikko tavallisimmassa sukkapuikkokooss
 
 ## Ergonomiset muodot
 
-Tavallisen pyöreän puikon lisäksi on muutamia muita muotoja. Neliskanttiset puikot, kuten Kollagen ja muutamien pienempien merkkien mallit, asettuvat käteen eri tavalla ja voivat vähentää rasitusta neulojilla, joilla on käsikipua. Cubics eli KnitPro/Knitter's Pride -malli käyttää saman tapaista ideaa. Prymin ergonomisissa puikoissa varret kaartuvat ranteen kuormituksen vähentämiseksi.
+Tavallisen pyöreän puikon lisäksi on muutamia muita muotoja. Neliskanttiset puikot, kuten Kollagen ja muutamien pienempien merkkien mallit, asettuvat käteen eri tavalla ja voivat vähentää rasitusta neulojilla, joilla on käsikipua. Cubics eli KnitPro/Knitter's Pride -malli käyttää saman tapaista ideaa. Prym Ergonomics -puikot on valmistettu joustavasta, suorituskykyisestä synteettisestä materiaalista. Niissä on pisaranmuotoiset kärjet, ja varsi muuttuu pyöreästä kolmiomaiseksi.
 
 Auttaako jokin näistä, riippuu ihmisestä ja kivun syystä. Markkina on pieni, hinnat ovat korkeammat, eivätkä ne korvaa lääkärin kanssa työskentelyä vakavissa käsiongelmissa. Lievässä epämukavuudessa osa neulojista löytää yllättävän ratkaisun vaihtamalla muotoa materiaalin tai koon sijaan.
 
@@ -140,7 +140,7 @@ Kyllä. Suorat puikot ovat nykyään enemmän mieltymys kuin vaatimus.
 40 cm pipoihin, 60 tai 80 cm villapaitoihin ja useimpiin tasotöihin sekä 100 cm tai pidempi magic loopiin, peittoihin ja isoihin huiveihin kattaa melkein kaiken. Lisää toinen 80 cm kaapeli, jos neulot usein kaksi kappaletta yhtä aikaa.
 
 **Miksi pyöröpuikon kaapeli kiertyy koko ajan?**
-Se muistaa pakkauksen muodon. Juoksuta kaapeli kuuman hanaveden läpi noin 30 sekuntia ja vedä se suoraksi jäähtymisen ajaksi. Muovi rentoutuu. Osa kaapeleista pitää uuden muodon, osa alkaa vähitellen kiertyä uudelleen. Laadukkaat kaapelit palautuvat yleensä nopeammin.
+Kaapelin muotomuisti ja hoito vaihtelevat tuotteittain. Noudata valmistajan ohjeita: joitakin ruostumattomasta teräksestä valmistetulla ytimellä varustettuja kaapeleita voi suoristaa höyryllä tai haalealla vedellä, kun taas kaapeleita, joilla ei ole muotomuistia, ei välttämättä tarvitse suoristaa.
 
 **Ovatko puiset pyöröpuikot lisähinnan arvoisia?**
 Joillekin kyllä. Puu pitää lankaa enemmän kuin metalli, mutta vähemmän kuin bambu. Pitkät sessiot liukkaan langan kanssa tuntuvat erilaisilta. Useimpaan perusneulontaan tavallinen metallinen kiinteä pyöröpuikko riittää, kunnes tiedät haluavasi puun tuntuman.

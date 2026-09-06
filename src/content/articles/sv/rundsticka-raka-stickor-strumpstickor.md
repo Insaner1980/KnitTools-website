@@ -116,7 +116,7 @@ Om du är nyfiken, köp en enda 23 cm rundsticka i en sockstorlek du använder o
 
 ## Ergonomiska former
 
-Utöver vanliga runda stickor finns några alternativa former. Fyrkantiga stickor har plana sidor som ligger annorlunda i handen och kan minska belastning för vissa med handvärk. Cubics från KnitPro använder en liknande idé. Ergonomiska stickor med böjda skaft vinklar arbetet för att avlasta handleden.
+Utöver vanliga runda stickor finns några alternativa former. Fyrkantiga stickor har plana sidor som ligger annorlunda i handen och kan minska belastning för vissa med handvärk. Cubics från KnitPro använder en liknande idé. Prym Ergonomics-stickor är tillverkade av ett flexibelt högpresterande syntetmaterial, har droppformade spetsar och ett skaft som övergår från runt till triangulärt.
 
 Om det hjälper beror på personen och var smärtan kommer ifrån. Marknaden är mindre, priserna högre och de ersätter inte vård om du har allvarliga handproblem. Men vid mildt obehag hittar vissa stickare en oväntad lösning genom att byta form i stället för material eller storlek.
 
@@ -140,7 +140,7 @@ En 40 cm rundsticka för mössor, en 60 eller 80 cm för tröjor och det mesta p
 
 **Varför krullar sig rundstickans kabel?**
 
-Minne från förpackningen. Spola kabeln med varmt kranvatten i ungefär 30 sekunder och dra den rak medan den svalnar. Plasten slappnar av. Vissa kablar håller den nya formen, andra kryper långsamt tillbaka. Dyrare kablar brukar återhämta sig snabbare.
+Kabelns formminne och skötsel varierar mellan produkter. Följ tillverkarens anvisningar: vissa kablar med kärna av rostfritt stål kan rätas ut med ånga eller ljummet vatten, medan kablar utan formminne kanske inte behöver rätas ut.
 
 **Är rundstickor i trä värda den extra kostnaden?**
 

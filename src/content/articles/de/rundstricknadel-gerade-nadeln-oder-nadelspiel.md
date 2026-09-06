@@ -118,7 +118,7 @@ Wenn du neugierig bist, kauf eine einzelne 23-cm-Rundstricknadel in deiner häuf
 
 ## Ergonomische Formen
 
-Neben den normalen runden Nadeln gibt es ein paar alternative Formen. Quadratische Nadeln, etwa von Kollage und kleineren Marken, haben flache Seiten und liegen anders in der Hand. Cubics von KnitPro verwenden eine ähnliche Idee. Ergonomische Nadeln mit gebogenen Schäften, etwa von Prym, sollen die Handgelenksposition verändern.
+Neben den normalen runden Nadeln gibt es ein paar alternative Formen. Quadratische Nadeln, etwa von Kollage und kleineren Marken, haben flache Seiten und liegen anders in der Hand. Cubics von KnitPro verwenden eine ähnliche Idee. Nadeln aus der Reihe Prym Ergonomics bestehen aus flexiblem Hochleistungskunststoff, haben tropfenförmige Spitzen und einen Schaft, der von rund zu dreieckig übergeht.
 
 Ob so etwas hilft, hängt von der Person und der Ursache der Beschwerden ab. Der Markt ist klein, die Preise sind höher, und solche Nadeln ersetzen keine medizinische Abklärung bei ernsthaften Handproblemen. Bei leichter Belastung finden manche Strickende aber eine überraschende Lösung, wenn sie nicht Material oder Nadelstärke wechseln, sondern die Form.
 
@@ -139,7 +139,7 @@ Ja. Gerade Nadeln sind heute eher Vorliebe als Voraussetzung.
 Eine 40-cm-Rundstricknadel für Mützen, eine 60- oder 80-cm-Nadel für Pullover und viele flache Projekte und eine 100-cm-Nadel oder länger für Magic Loop, Decken und große Tücher decken fast alles ab. Wenn du häufig zwei Teile gleichzeitig strickst, ist ein zweites 80-cm-Kabel praktisch.
 
 **Warum kringelt sich mein Rundnadelkabel ständig?**
-Das ist Formgedächtnis aus der Verpackung. Halte das Kabel etwa 30 Sekunden unter heißes Leitungswasser und zieh es gerade, während es abkühlt. Der Kunststoff entspannt sich. Manche Kabel behalten die neue Form, andere kriechen langsam zurück. Hochwertigere Kabel erholen sich oft schneller.
+Formgedächtnis und Pflege eines Kabels unterscheiden sich je nach Produkt. Befolge die Hinweise des Herstellers: Einige Kabel mit Edelstahlkern lassen sich mit Dampf oder lauwarmem Wasser entspannen, während Kabel ohne Formgedächtnis möglicherweise gar nicht begradigt werden müssen.
 
 **Lohnen sich Rundstricknadeln aus Holz?**
 Für manche ja. Holz hat mehr Griff als Metall und weniger als Bambus. Lange Stricksitzungen mit rutschigem Garn fühlen sich dadurch anders an. Für die meisten allgemeinen Projekte reicht eine einfache feste Metall-Rundstricknadel, bis du weißt, dass du das Gefühl von Holz möchtest.

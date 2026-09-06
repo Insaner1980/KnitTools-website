@@ -18,15 +18,15 @@ Metal needles are usually the slickest and most durable everyday option, wood of
 
 ## At a glance
 
-| Material               | Yarn movement | Grip       | Weight | Sound | Durability    | Best fit                        |
-| ---------------------- | ------------- | ---------- | ------ | ----- | ------------- | ------------------------------- |
-| Aluminum               | Fast          | Low        | Light  | Click | High          | Budget metal needles            |
-| Stainless steel        | Fast          | Low        | Medium | Click | High          | Smooth knitting and small sizes |
-| Brass / nickel-plated  | Very fast     | Very low   | Heavy  | Click | High          | Speed-focused knitting          |
-| Wood (birch, rosewood) | Medium        | Medium     | Medium | Quiet | Moderate      | Warm feel and moderate control  |
-| Bamboo                 | Slower        | High       | Light  | Quiet | Lower (wears) | Beginners and slippery yarn     |
-| Plastic / acrylic      | Variable      | Variable   | Light  | Quiet | Moderate      | Large sizes and light tools     |
-| Carbon fiber           | Medium-fast   | Medium-low | Light  | Quiet | High          | Light, rigid needles with grip  |
+| Material               | Yarn movement | Grip       | Weight   | Sound | Durability    | Best fit                        |
+| ---------------------- | ------------- | ---------- | -------- | ----- | ------------- | ------------------------------- |
+| Aluminum               | Fast          | Low        | Light    | Click | High          | Budget metal needles            |
+| Stainless steel        | Fast          | Low        | Medium   | Click | High          | Smooth knitting and small sizes |
+| Brass / nickel-plated  | Very fast     | Very low   | Variable | Click | High          | Speed-focused knitting          |
+| Wood (birch, rosewood) | Medium        | Medium     | Medium   | Quiet | Moderate      | Warm feel and moderate control  |
+| Bamboo                 | Slower        | High       | Light    | Quiet | Lower (wears) | Beginners and slippery yarn     |
+| Plastic / acrylic      | Variable      | Variable   | Light    | Quiet | Moderate      | Large sizes and light tools     |
+| Carbon fiber           | Medium-fast   | Medium-low | Light    | Quiet | High          | Light, rigid needles with grip  |
 
 The differences sound small on paper. They aren't small in your hands after an hour.
 
@@ -36,7 +36,7 @@ Most metal needles are aluminum, stainless steel, or brass. They're the slickest
 
 The trade-off: metal is slippery. With silk or bamboo-blend yarn, stitches can slide off when you're not paying attention. Metal is also cold to the touch at first, and some knitters hate the clicking. Others consider it part of the experience.
 
-Surface finish matters more than just the word "metal" on the package. ChiaoGoo Red Lace (steel cable, slightly textured finish) feels different from Addi Turbo (brass, mirror-polished, the original "speed needle") which feels different again from HiyaHiya Sharp (stainless, very pointy tip). Within metal there's a whole range, and the brand choice usually matters more than the choice of metal itself.
+Surface finish matters more than just the word "metal" on the package. ChiaoGoo RED Lace (surgical-stainless-steel tips with a smooth satin-sheen finish and a memory-free, nylon-coated multi-strand steel cable) feels different from Addi Turbo (brass, mirror-polished, the original "speed needle") which feels different again from HiyaHiya Sharp (stainless, very pointy tip). Within metal there's a whole range, and the brand choice usually matters more than the choice of metal itself.
 
 One quirk worth knowing: some metal-and-yarn combinations feel squeaky. If the fabric is fine but the sensation bothers you, switching to wood or bamboo changes the surface friction without changing the project.
 
@@ -62,7 +62,7 @@ Bamboo also doesn't love moisture. Keep them out of the bathroom and don't store
 
 ## Plastic and acrylic
 
-Lighter than metal, cheaper than wood. Plastic needles show up most often in larger sizes (US 13 and up) where weight matters and a metal needle of the same size would be exhausting to hold.
+Finished needle weight depends on both material and construction. Plastic is often light, while metal needles may be solid, hollow, or tubular; many large metal needles are made hollow to avoid excess weight.
 
 Feel varies a lot by manufacturer. Susan Bates Quicksilver and Boye are common entry-level brands. Some are slick, some are sticky, some feel fine, some feel disposable.
 
@@ -82,7 +82,7 @@ Lace tips (very pointed, almost stilettos) make k2tog, ssk, and any decrease int
 
 Blunt tips (rounded, sometimes called "standard" or "regular") are kinder to splitty yarn and to your fingertips. The trade-off is fighting through lace decreases.
 
-Most brands offer more than one point style. ChiaoGoo Red Lace is the pointed line, Red Bamboo is the blunter one. KnitPro Karbonz are notably pointy. HiyaHiya makes a "Sharp" line and a standard line. Pick based on what you knit. Lace, decreases, and tight stitches reward a pointier tip. Splitty yarns and plain stockinette often behave better on something rounder.
+Most brands offer more than one point style. ChiaoGoo RED Lace is the pointed line. ChiaoGoo's current bamboo circulars are a separate line, and tip shape should be checked for the specific model. KnitPro Karbonz are notably pointy. HiyaHiya makes a "Sharp" line and a standard line. Pick based on what you knit. Lace, decreases, and tight stitches reward a pointier tip. Splitty yarns and plain stockinette often behave better on something rounder.
 
 ## Interchangeable join quality
 

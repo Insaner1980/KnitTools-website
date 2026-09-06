@@ -68,7 +68,7 @@ Noen vanlige nybegynnerkjøp havner mest i en skuff.
 
 Et stort utskiftbart rundpinnesett med mange spisser kan se prisgunstig ut. Problemet er at en nybegynner ennå ikke vet hvilke størrelser som faktisk blir brukt. Om tre måneder strikker du kanskje sokkegarn på 2,25 mm eller et grovt prosjekt på 9,0 mm, og akkurat de størrelsene kan mangle i settet.
 
-Spesialpinner i din første størrelse, for eksempel firkantede pinner, ekstra skarpe spisser eller ergonomiske former, løser sjelden et nybegynnerproblem. De løser mer spesifikke problemer senere. Hvis hendene gjør vondt etter en time med vanlige pinner, skyldes det ofte for stramt grep mer enn pinnens form.
+Spesialpinner i din første størrelse, for eksempel firkantede pinner, ekstra skarpe spisser eller ergonomiske former, løser sjelden et nybegynnerproblem. De løser mer spesifikke problemer senere. Hvis vanlige pinner gir smerter i hendene, bør du stoppe og vurdere grepet, arbeidsstillingen, lengden på strikkeøktene og valget av verktøy på nytt. Vedvarende smerter bør tas opp med lege eller ergoterapeut.
 
 Svært tynne pinner, omtrent US 0-2, bare fordi tynne prosjekter ser "ordentlige" ut. Erfarne strikkere bruker pinnen prosjektet trenger. Tynne pinner til sokkegarn er fleksible, fiklete og langsomme. De er sjelden beste vei inn i jevn strikkefasthet.
 

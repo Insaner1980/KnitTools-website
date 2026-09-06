@@ -22,15 +22,15 @@ Metallnadeln sind meist die glatteste und haltbarste Alltagsoption, Holz fühlt 
 
 ## Kurzüberblick
 
-| Material             | Garnbewegung   | Grip           | Gewicht | Geräusch | Haltbarkeit | Passt besonders gut zu             |
-| -------------------- | -------------- | -------------- | ------- | -------- | ----------- | ---------------------------------- |
-| Aluminium            | Schnell        | Niedrig        | Leicht  | Klickt   | Hoch        | Günstige Metallnadeln              |
-| Edelstahl            | Schnell        | Niedrig        | Mittel  | Klickt   | Hoch        | Glattes Stricken und kleine Größen |
-| Messing / vernickelt | Sehr schnell   | Sehr niedrig   | Schwer  | Klickt   | Hoch        | Tempoorientiertes Stricken         |
-| Holz, etwa Birke     | Mittel         | Mittel         | Mittel  | Leise    | Mittel      | Warmes Gefühl und gute Kontrolle   |
-| Bambus               | Langsamer      | Hoch           | Leicht  | Leise    | Niedriger   | Anfänger und rutschiges Garn       |
-| Kunststoff / Acryl   | Variabel       | Variabel       | Leicht  | Leise    | Mittel      | Große Größen und leichte Werkzeuge |
-| Karbon               | Mittel-schnell | Mittel-niedrig | Leicht  | Leise    | Hoch        | Leichte, steife Nadeln mit Grip    |
+| Material             | Garnbewegung   | Grip           | Gewicht  | Geräusch | Haltbarkeit | Passt besonders gut zu             |
+| -------------------- | -------------- | -------------- | -------- | -------- | ----------- | ---------------------------------- |
+| Aluminium            | Schnell        | Niedrig        | Leicht   | Klickt   | Hoch        | Günstige Metallnadeln              |
+| Edelstahl            | Schnell        | Niedrig        | Mittel   | Klickt   | Hoch        | Glattes Stricken und kleine Größen |
+| Messing / vernickelt | Sehr schnell   | Sehr niedrig   | Variabel | Klickt   | Hoch        | Tempoorientiertes Stricken         |
+| Holz, etwa Birke     | Mittel         | Mittel         | Mittel   | Leise    | Mittel      | Warmes Gefühl und gute Kontrolle   |
+| Bambus               | Langsamer      | Hoch           | Leicht   | Leise    | Niedriger   | Anfänger und rutschiges Garn       |
+| Kunststoff / Acryl   | Variabel       | Variabel       | Leicht   | Leise    | Mittel      | Große Größen und leichte Werkzeuge |
+| Karbon               | Mittel-schnell | Mittel-niedrig | Leicht   | Leise    | Hoch        | Leichte, steife Nadeln mit Grip    |
 
 Auf Papier klingen die Unterschiede klein. Nach einer Stunde in der Hand sind sie es nicht.
 
@@ -40,7 +40,7 @@ Die meisten Metallnadeln bestehen aus Aluminium, Edelstahl oder Messing. Metalln
 
 Der Kompromiss: Metall ist rutschig. Bei Seide oder Bambusmischungen können Maschen abrutschen, wenn du nicht aufpasst. Metall fühlt sich am Anfang auch kalt an, und manche mögen das Klicken nicht. Andere finden, es gehört dazu.
 
-Die Oberflächenverarbeitung zählt mehr als nur das Wort "Metall" auf der Packung. ChiaoGoo Red Lace mit Stahlseil und leicht strukturierter Oberfläche fühlt sich anders an als Addi Turbo aus poliertem Messing, die klassische schnelle Nadel. HiyaHiya Sharp aus Edelstahl mit sehr spitzer Spitze fühlt sich wieder anders an. Innerhalb von Metall gibt es eine große Spanne, und die Marke oder Linie zählt oft mehr als das Metall allein.
+Die Oberflächenverarbeitung zählt mehr als nur das Wort "Metall" auf der Packung. ChiaoGoo RED Lace mit Spitzen aus chirurgischem Edelstahl, glattem, seidig schimmerndem Finish und einem formgedächtnisfreien, nylonummantelten mehrsträngigen Stahlkabel fühlt sich anders an als Addi Turbo aus poliertem Messing, die klassische schnelle Nadel. HiyaHiya Sharp aus Edelstahl mit sehr spitzer Spitze fühlt sich wieder anders an. Innerhalb von Metall gibt es eine große Spanne, und die Marke oder Linie zählt oft mehr als das Metall allein.
 
 Eine Eigenheit lohnt sich zu kennen: Manche Kombinationen aus Metall und Garn quietschen. Wenn der Stoff stimmt, aber das Gefühl nervt, verändert ein Wechsel zu Holz oder Bambus die Reibung, ohne das Projekt selbst zu ändern.
 
@@ -66,7 +66,7 @@ Bambus mag auch keine Feuchtigkeit. Lagere ihn nicht im Badezimmer oder in einem
 
 ## Kunststoff und Acryl
 
-Leichter als Metall, günstiger als Holz. Kunststoffnadeln sieht man am häufigsten in großen Größen, etwa ab 9,0 mm, bei denen Gewicht zählt und eine Metallnadel derselben Größe anstrengend wäre.
+Das Gewicht einer fertigen Nadel hängt sowohl vom Material als auch von der Konstruktion ab. Kunststoff ist oft leicht, während Metallnadeln massiv, hohl oder röhrenförmig konstruiert sein können; viele große Metallnadeln werden hohl gefertigt, um unnötiges Gewicht zu vermeiden.
 
 Das Gefühl variiert stark je nach Hersteller. Manche sind glatt, manche klebrig, manche okay, manche wirken wie Wegwerfware.
 
@@ -86,7 +86,7 @@ Sehr spitze Lace-Spitzen machen k2tog, ssk und Abnahmen neben Umschlägen deutli
 
 Rundere Spitzen sind freundlicher zu splittigem Garn und zu deinen Fingerspitzen. Dafür kämpfst du mehr bei Lochmusterabnahmen.
 
-Viele Marken bieten mehr als eine Spitzenform. ChiaoGoo Red Lace ist die spitzere Linie, Red Bamboo ist runder. KnitPro Karbonz sind auffällig spitz. HiyaHiya hat eine Sharp-Linie und eine Standardlinie. Wähle nach dem, was du strickst. Lochmuster, Abnahmen und enge Maschen profitieren von spitzeren Nadeln. Splittige Garne und schlicht glatt rechts laufen oft besser auf etwas Rundem.
+Viele Marken bieten mehr als eine Spitzenform. ChiaoGoo RED Lace ist die Linie mit spitzer Spitzenform. Die aktuellen Rundstricknadeln aus Bambus von ChiaoGoo gehören zu einer eigenen Linie; die Spitzenform sollte für das jeweilige Modell geprüft werden. KnitPro Karbonz sind auffällig spitz. HiyaHiya hat eine Sharp-Linie und eine Standardlinie. Wähle nach dem, was du strickst. Lochmuster, Abnahmen und enge Maschen profitieren von spitzeren Nadeln. Splittige Garne und schlicht glatt rechts laufen oft besser auf etwas Rundem.
 
 ## Verbindungsqualität bei austauschbaren Nadeln
 

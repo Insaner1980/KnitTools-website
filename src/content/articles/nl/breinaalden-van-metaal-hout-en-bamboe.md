@@ -22,15 +22,15 @@ Metalen naalden zijn meestal de gladste en meest duurzame alledaagse optie, hout
 
 ## In één oogopslag
 
-| Materiaal                  | Garenbeweging | Grip        | Gewicht | Geluid | Duurzaamheid | Past het best bij                   |
-| -------------------------- | ------------- | ----------- | ------- | ------ | ------------ | ----------------------------------- |
-| Aluminium                  | Snel          | Laag        | Licht   | Klik   | Hoog         | Betaalbare metalen naalden          |
-| Roestvrij staal            | Snel          | Laag        | Midden  | Klik   | Hoog         | Glad breien en kleine maten         |
-| Messing / nikkelgeplateerd | Zeer snel     | Zeer laag   | Zwaar   | Klik   | Hoog         | Breien waarbij snelheid telt        |
-| Hout (berk, palissander)   | Midden        | Midden      | Midden  | Stil   | Midden       | Warm gevoel en matige controle      |
-| Bamboe                     | Langzamer     | Hoog        | Licht   | Stil   | Lager        | Beginners en glad garen             |
-| Kunststof / acryl          | Wisselend     | Wisselend   | Licht   | Stil   | Midden       | Grote maten en lichte hulpmiddelen  |
-| Carbon                     | Middel-snel   | Midden-laag | Licht   | Stil   | Hoog         | Lichte, stijve naalden met wat grip |
+| Materiaal                  | Garenbeweging | Grip        | Gewicht   | Geluid | Duurzaamheid | Past het best bij                   |
+| -------------------------- | ------------- | ----------- | --------- | ------ | ------------ | ----------------------------------- |
+| Aluminium                  | Snel          | Laag        | Licht     | Klik   | Hoog         | Betaalbare metalen naalden          |
+| Roestvrij staal            | Snel          | Laag        | Midden    | Klik   | Hoog         | Glad breien en kleine maten         |
+| Messing / nikkelgeplateerd | Zeer snel     | Zeer laag   | Wisselend | Klik   | Hoog         | Breien waarbij snelheid telt        |
+| Hout (berk, palissander)   | Midden        | Midden      | Midden    | Stil   | Midden       | Warm gevoel en matige controle      |
+| Bamboe                     | Langzamer     | Hoog        | Licht     | Stil   | Lager        | Beginners en glad garen             |
+| Kunststof / acryl          | Wisselend     | Wisselend   | Licht     | Stil   | Midden       | Grote maten en lichte hulpmiddelen  |
+| Carbon                     | Middel-snel   | Midden-laag | Licht     | Stil   | Hoog         | Lichte, stijve naalden met wat grip |
 
 Op papier lijken de verschillen klein. In je handen na een uur zijn ze dat niet.
 
@@ -40,7 +40,7 @@ De meeste metalen naalden zijn van aluminium, roestvrij staal of messing. Ze zij
 
 De keerzijde: metaal is glad. Met zijde of bamboemengsels kunnen steken van de naald glijden zodra je even niet oplet. Metaal voelt in het begin ook koud aan, en sommige breiers hebben een hekel aan het tikken. Anderen vinden dat juist bij de ervaring horen.
 
-De afwerking van het oppervlak telt meer dan alleen het woord "metaal" op de verpakking. ChiaoGoo Red Lace, met stalen kabel en licht getextureerd oppervlak, voelt anders dan Addi Turbo, van spiegelglad messing en ontworpen voor snelheid. HiyaHiya Sharp voelt weer anders door de roestvrijstalen, puntige profielvorm. Binnen metaal bestaat een heel spectrum, en merk en lijn maken vaak meer verschil dan het metaal zelf.
+De afwerking van het oppervlak telt meer dan alleen het woord "metaal" op de verpakking. ChiaoGoo RED Lace heeft punten van chirurgisch roestvrij staal die glad zijn afgewerkt met een satijnglans, en een vormgeheugenvrije kabel van meerdere strengen staaldraad met een nylon omhulsel. De lijn voelt anders dan Addi Turbo, van spiegelglad messing en ontworpen voor snelheid. HiyaHiya Sharp voelt weer anders door de roestvrijstalen, puntige profielvorm. Binnen metaal bestaat een heel spectrum, en merk en lijn maken vaak meer verschil dan het metaal zelf.
 
 Eén detail is handig om te weten: sommige combinaties van metaal en garen voelen piepend of stroef aan. Als de stof goed wordt maar het gevoel je stoort, verandert hout of bamboe de oppervlaktewrijving zonder dat je het project hoeft te veranderen.
 
@@ -66,7 +66,7 @@ Bamboe houdt ook niet van vocht. Bewaar bamboenaalden niet in de badkamer of in 
 
 ## Kunststof en acryl
 
-Lichter dan metaal, goedkoper dan hout. Kunststof naalden zie je vooral in grotere maten, vanaf ongeveer 9,0 mm (US 13), waar gewicht belangrijk wordt en een metalen naald van dezelfde maat vermoeiend kan zijn.
+Het uiteindelijke gewicht van een breinaald hangt af van zowel het materiaal als de constructie. Kunststof is vaak licht en goedkoper dan hout, terwijl metalen naalden massief, hol of buisvormig kunnen zijn; veel grote metalen naalden zijn hol uitgevoerd om te voorkomen dat ze te zwaar worden.
 
 Het gevoel verschilt sterk per fabrikant. Sommige zijn glad, sommige kleverig, sommige prima, sommige voelen wegwerpachtig.
 
@@ -86,7 +86,7 @@ Lace-punten, dus heel scherpe punten, maken `2rsm`, `ssk` en minderingen naast o
 
 Ronde punten zijn vriendelijker voor splijtend garen en voor je vingertoppen. De keerzijde is dat je meer moet vechten met ajourminderingen.
 
-Veel merken bieden meer dan één puntprofiel. ChiaoGoo Red Lace is de puntigere lijn, Red Bamboo de rondere. KnitPro Karbonz is duidelijk puntig. HiyaHiya heeft een Sharp-lijn en een standaardlijn. Kies op basis van wat je breit. Ajour, minderingen en strakke steken belonen een puntigere top. Splijtend garen en gewone tricotsteek werken vaak beter op iets ronders.
+Veel merken bieden meer dan één puntprofiel. ChiaoGoo RED Lace is de lijn met puntige naaldpunten. De huidige bamboe rondbreinaalden van ChiaoGoo behoren tot een aparte lijn; controleer de puntvorm per model. KnitPro Karbonz is duidelijk puntig. HiyaHiya heeft een Sharp-lijn en een standaardlijn. Kies op basis van wat je breit. Ajour, minderingen en strakke steken belonen een puntigere top. Splijtend garen en gewone tricotsteek werken vaak beter op iets ronders.
 
 ## Kwaliteit van de verwisselbare aansluiting
 

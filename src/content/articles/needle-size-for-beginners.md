@@ -64,7 +64,7 @@ A few common rookie purchases that mostly become drawer clutter.
 
 A 60-needle interchangeable mega-set. Tempting because it looks like value, but a beginner doesn't know which sizes they'll actually use. Three months from now, you might be working sock weight (US 1) or chunky (US 13) and the set you bought stops at US 11.
 
-Specialty needles in your first size: square needles, sharps, ergonomic shapes. None of these solve a beginner problem. They solve specific intermediate ones. If your hands hurt after an hour of knitting on standard needles, that's usually a tension issue, not a needle issue.
+Specialty needles such as square, sharp, or ergonomic shapes solve specific needs rather than being required beginner equipment. If standard needles hurt your hands, stop and reassess your grip, posture, session length, and tool choice. Persistent pain warrants advice from a doctor or occupational therapist.
 
 Tiny needles (US 0–2) on the theory that "real knitters use thin needles." Real knitters use whatever the project asks for. Sock-weight needles in particular are flexible, fiddly, and slow. They build bad habits in beginners learning tension.
 

@@ -116,7 +116,7 @@ Hvis du er nysgjerrig, kjøp én 23 cm rundpinne i en sokkestørrelse du bruker 
 
 ## Ergonomiske former
 
-Utover vanlige runde pinner finnes noen alternative former. Firkantede pinner, som selges av Kollage og noen mindre merker, har flate sider som ligger annerledes i hånden og kan redusere belastning for noen med håndsmerter. Cubics fra KnitPro bruker en lignende idé. Ergonomiske pinner med bøyde skaft, som Prym-settet, vinkler arbeidet for å avlaste håndleddet.
+Utover vanlige runde pinner finnes noen alternative former. Firkantede pinner, som selges av Kollage og noen mindre merker, har flate sider som ligger annerledes i hånden og kan redusere belastning for noen med håndsmerter. Cubics fra KnitPro bruker en lignende idé. Prym Ergonomics-pinner er laget av fleksibelt syntetisk materiale med høy ytelse. De har dråpeformede spisser og et skaft som går fra rundt til trekantet.
 
 Om det hjelper, avhenger av personen og hvor smerten kommer fra. Markedet er mindre, prisene høyere, og de erstatter ikke helsehjelp ved alvorlige håndproblemer. Men ved mildt ubehag finner noen strikkere en uventet løsning ved å bytte form i stedet for materiale eller størrelse.
 
@@ -137,7 +137,7 @@ Ja. Rette pinner er nå en preferanse, ikke et krav.
 En 40 cm rundpinne til luer, en 60 eller 80 cm til gensere og det meste flate arbeidet, og en 100 cm eller lengre til magic loop, tepper og store sjal dekker nesten alt. Legg til en ekstra 80 cm hvis du ofte strikker to ting samtidig.
 
 **Hvorfor krøller vaieren på rundpinnen seg?**
-Minne fra pakken. Skyll vaieren med varmt vann fra kranen i omtrent 30 sekunder og trekk den rett mens den avkjøles. Plasten slapper av. Noen vaiere holder den nye formen, andre kryper sakte tilbake. Dyrere vaiere pleier å hente seg inn raskere.
+Vaierens formminne og stell varierer fra produkt til produkt. Følg produsentens anvisninger: Noen vaiere med kjerne av rustfritt stål kan rettes ut med damp eller lunkent vann, mens vaiere uten formminne kanskje ikke trenger å rettes ut.
 
 **Er rundpinner i tre verdt ekstra kostnad?**
 For noen strikkere, ja. Tre har mer grep enn metall, men mindre enn bambus. Lange økter med glatt garn føles annerledes. Til det meste holder en enkel fast rundpinne i metall til du vet at du vil ha trefølelsen.

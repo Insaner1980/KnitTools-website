@@ -116,7 +116,7 @@ Hvis du er nysgerrig, så køb én 23 cm rundpind i din mest brugte strømpepind
 
 ## Ergonomiske former
 
-Ud over de almindelige runde pinde findes der nogle få alternative former. Firkantede pinde har flade sider, der ligger anderledes i hånden og kan mindske belastning for nogle med håndsmerter. Cubics fra KnitPro bruger en lignende ide. Pryms ergonomiske pinde med buede skafter vinkler arbejdet for at aflaste håndleddet.
+Ud over de almindelige runde pinde findes der nogle få alternative former. Firkantede pinde har flade sider, der ligger anderledes i hånden og kan mindske belastning for nogle med håndsmerter. Cubics fra KnitPro bruger en lignende ide. Prym Ergonomics-pinde er fremstillet af fleksibelt højtydende kunststof, har dråbeformede spidser og et skaft, der skifter fra rundt til trekantet.
 
 Om det hjælper, afhænger af personen og hvor smerten kommer fra. Markedet er mindre, priserne højere, og de erstatter ikke sundhedsfaglig hjælp ved alvorlige håndproblemer. Men ved mildt ubehag finder nogle strikkere en uventet løsning ved at skifte form i stedet for materiale eller størrelse.
 
@@ -137,7 +137,7 @@ Ja. Jumperpinde er på det punkt en præference, ikke et krav.
 En 40 cm rundpind til huer, en 60 eller 80 cm til sweatre og det meste flade arbejde, og en 100 cm eller længere til magic loop, tæpper og store sjaler dækker næsten alt. Tilføj en ekstra 80 cm, hvis du ofte strikker to ting samtidig.
 
 **Hvorfor krøller kablet på min rundpind?**
-Hukommelse fra pakken. Hold kablet under varmt vand fra hanen i cirka 30 sekunder, og træk det lige, mens det køler af. Plasten slapper af. Nogle kabler holder den nye form, andre kryber langsomt tilbage. Bedre kabler retter sig som regel hurtigere.
+Hvor meget kablet husker formen, og hvordan det skal behandles, varierer fra produkt til produkt. Følg producentens anvisninger: nogle kabler med en kerne af rustfrit stål kan rettes ud med damp eller lunkent vand, mens kabler uden formhukommelse måske slet ikke behøver at blive rettet ud.
 
 **Er rundpinde i træ de ekstra penge værd?**
 For nogle strikkere, ja. Træ har mere greb end metal, men mindre end bambus. Lange sessioner med glat garn føles anderledes. Til det meste almindelige strik er en enkel fast rundpind i metal nok, indtil du ved, at du vil have træfornemmelsen.

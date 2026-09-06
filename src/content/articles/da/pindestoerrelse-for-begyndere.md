@@ -68,7 +68,7 @@ Der er nogle klassiske begynderkøb, som mest ender som skuffefyld.
 
 Et kæmpe udskifteligt rundpindesæt med 60 dele. Det virker fristende, fordi det ligner god værdi, men som begynder ved du ikke endnu, hvilke størrelser du faktisk kommer til at bruge. Om tre måneder strikker du måske med strømpegarn på 2,25 mm eller chunky garn på 9,0 mm, og sættet du købte, rammer ikke nødvendigvis dit næste projekt.
 
-Specialpinde i din første størrelse: firkantede pinde, ekstra spidse pinde, ergonomiske former. De løser sjældent et begynderproblem. De løser mere specifikke problemer senere. Hvis dine hænder gør ondt efter en times strik på almindelige pinde, handler det oftere om spænding i hænderne end om selve pindens form.
+Specialpinde i din første størrelse: firkantede pinde, ekstra spidse pinde, ergonomiske former. De løser sjældent et begynderproblem. De løser mere specifikke problemer senere. Hvis almindelige pinde giver smerter i hænderne, så stop og overvej dit greb, din arbejdsstilling, hvor længe du strikker ad gangen, og dit valg af pinde. Ved vedvarende smerter bør du tale med en læge eller ergoterapeut.
 
 Meget tynde pinde på 2,0-2,75 mm (US 0-2), fordi "rigtige strikkere bruger tynde pinde". Rigtige strikkere bruger den størrelse projektet kræver. Strømpegarnspinde er især fleksible, små og langsomme. De kan give dårlige vaner, mens du stadig lærer at styre strikkefastheden.
 

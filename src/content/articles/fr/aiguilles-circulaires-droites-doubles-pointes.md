@@ -118,7 +118,7 @@ Si cela t'intéresse, achète une seule circulaire de 23 cm dans ta taille de ch
 
 ## Formes ergonomiques
 
-Au-delà des aiguilles rondes classiques, quelques formes alternatives existent. Les aiguilles carrées, vendues par Kollage et quelques petites marques, ont des côtés plats qui se placent autrement dans la main et peuvent réduire la fatigue chez certaines personnes qui ont mal aux mains. Les Cubics de KnitPro suivent une idée similaire. Des aiguilles ergonomiques à tige courbée, comme le set Prym, inclinent le travail pour soulager le poignet.
+Au-delà des aiguilles rondes classiques, quelques formes alternatives existent. Les aiguilles carrées, vendues par Kollage et quelques petites marques, ont des côtés plats qui se placent autrement dans la main et peuvent réduire la fatigue chez certaines personnes qui ont mal aux mains. Les Cubics de KnitPro suivent une idée similaire. Les aiguilles Prym Ergonomics sont fabriquées dans un matériau synthétique souple à hautes performances, avec des pointes en forme de goutte et une tige dont la section passe du rond au triangulaire.
 
 Que cela aide ou non dépend de la personne et de l'origine de la douleur. Le marché est plus petit, les prix sont plus élevés, et ces aiguilles ne remplacent pas un avis médical en cas de douleur sérieuse. Mais pour une gêne légère, certaines tricoteuses trouvent une solution inattendue en changeant de forme plutôt que de matière ou de taille.
 
@@ -142,7 +142,7 @@ Une circulaire de 40 cm pour les bonnets, une 60 ou 80 cm pour les pulls et la p
 
 **Pourquoi le câble de ma circulaire s'enroule-t-il sans arrêt ?**
 
-C'est la mémoire de l'emballage. Passe le câble sous l'eau chaude du robinet pendant environ 30 secondes, puis tire-le droit pendant qu'il refroidit. Le plastique se détend. Certains câbles gardent la nouvelle forme, d'autres reviennent peu à peu. Les câbles de meilleure qualité se redressent souvent plus vite.
+La mémoire de forme et l'entretien du câble varient selon le produit. Suis les instructions du fabricant : certains câbles à âme en acier inoxydable peuvent être détendus à la vapeur ou à l'eau tiède, tandis que les câbles sans effet mémoire n'ont parfois pas besoin d'être redressés.
 
 **Les circulaires en bois valent-elles le supplément ?**
 

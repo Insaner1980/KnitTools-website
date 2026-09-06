@@ -22,15 +22,15 @@ Metallstickor är oftast det halaste och mest hållbara vardagsalternativet, tr�
 
 ## Snabb jämförelse
 
-| Material                  | Garnrörelse  | Grepp       | Vikt  | Ljud  | Hållbarhet | Passar bäst för                      |
-| ------------------------- | ------------ | ----------- | ----- | ----- | ---------- | ------------------------------------ |
-| Aluminium                 | Snabb        | Lågt        | Lätt  | Klick | Hög        | Prisvärda metallstickor              |
-| Rostfritt stål            | Snabb        | Lågt        | Medel | Klick | Hög        | Slät stickning och små storlekar     |
-| Mässing / nickelplätering | Mycket snabb | Mycket lågt | Tung  | Klick | Hög        | Stickning där hastighet prioriteras  |
-| Trä (björk, rosenträ)     | Medel        | Medel       | Medel | Tyst  | Medel      | Varm känsla och måttlig kontroll     |
-| Bambu                     | Långsammare  | Högt        | Lätt  | Tyst  | Lägre      | Nybörjare och hala garner            |
-| Plast / akryl             | Varierar     | Varierar    | Lätt  | Tyst  | Medel      | Stora storlekar och lätta verktyg    |
-| Kolfiber                  | Medelsnabb   | Medel-lågt  | Lätt  | Tyst  | Hög        | Lätta, styva stickor med visst grepp |
+| Material                  | Garnrörelse  | Grepp       | Vikt     | Ljud  | Hållbarhet | Passar bäst för                      |
+| ------------------------- | ------------ | ----------- | -------- | ----- | ---------- | ------------------------------------ |
+| Aluminium                 | Snabb        | Lågt        | Lätt     | Klick | Hög        | Prisvärda metallstickor              |
+| Rostfritt stål            | Snabb        | Lågt        | Medel    | Klick | Hög        | Slät stickning och små storlekar     |
+| Mässing / nickelplätering | Mycket snabb | Mycket lågt | Varierar | Klick | Hög        | Stickning där hastighet prioriteras  |
+| Trä (björk, rosenträ)     | Medel        | Medel       | Medel    | Tyst  | Medel      | Varm känsla och måttlig kontroll     |
+| Bambu                     | Långsammare  | Högt        | Lätt     | Tyst  | Lägre      | Nybörjare och hala garner            |
+| Plast / akryl             | Varierar     | Varierar    | Lätt     | Tyst  | Medel      | Stora storlekar och lätta verktyg    |
+| Kolfiber                  | Medelsnabb   | Medel-lågt  | Lätt     | Tyst  | Hög        | Lätta, styva stickor med visst grepp |
 
 Skillnaderna låter små på papper. I händerna efter en timme är de inte små.
 
@@ -40,7 +40,7 @@ De flesta metallstickor är aluminium, rostfritt stål eller mässing. De är de
 
 Nackdelen: metall är halt. Med silke eller bambublandningar kan maskor glida av när du inte är uppmärksam. Metall känns också kallt i början, och vissa stickare hatar klickljudet. Andra tycker att det hör till upplevelsen.
 
-Ytfinish spelar större roll än bara ordet "metall" på förpackningen. ChiaoGoo Red Lace (stålkabel, lätt texturerad yta) känns annorlunda än Addi Turbo (mässing, spegelblank yta och byggd för fart), och HiyaHiya Sharp känns annorlunda igen med sin rostfria, spetsiga profil. Inom metall finns ett helt spann, och märket betyder ofta mer än metallsorten i sig.
+Ytfinish spelar större roll än bara ordet "metall" på förpackningen. ChiaoGoo RED Lace (spetsar av kirurgiskt rostfritt stål med en slät, sidenmatt yta och en minnesfri, nylonbelagd, flertrådig stålkabel) känns annorlunda än Addi Turbo (mässing, spegelblank yta och byggd för fart), och HiyaHiya Sharp känns annorlunda igen med sin rostfria, spetsiga profil. Inom metall finns ett helt spann, och märket betyder ofta mer än metallsorten i sig.
 
 En detalj värd att känna till: vissa kombinationer av metall och garn kan kännas gnissliga. Om tyget blir bra men känslan stör dig, ändrar trä eller bambu friktionen utan att du behöver byta projekt.
 
@@ -66,7 +66,7 @@ Bambu gillar inte heller fukt. Förvara dem inte i badrummet och inte i en fukti
 
 ## Plast och akryl
 
-Lättare än metall, billigare än trä. Plaststickor syns oftast i större storlekar där vikt spelar roll.
+Den färdiga stickans vikt beror både på material och konstruktion. Plast är ofta lätt, medan metallstickor kan vara massiva, ihåliga eller rörformade. Många stora metallstickor tillverkas ihåliga för att undvika onödig vikt.
 
 Känslan varierar mycket mellan tillverkare. Vissa är hala, vissa klibbiga, vissa fungerar helt okej, andra känns som något du använder tills du har hunnit köpa bättre.
 
@@ -86,7 +86,7 @@ Spetsiga spetsar, ofta kallade lace-spetsar, gör 2 rm tillsammans, ssk och mins
 
 Rundare spetsar är snällare mot splittriga garner och mot fingertopparna. Nackdelen är att du kan få kämpa mer med spetsminskningar.
 
-Många märken har mer än en spetsprofil. ChiaoGoo Red Lace är den spetsigare linjen, medan Red Bamboo är rundare. KnitPro Karbonz är ganska spetsiga. HiyaHiya har både en Sharp-linje och standardspetsar. Välj efter vad du stickar. Spetsstickning, minskningar och hårda maskor belönar en spetsigare topp. Splittrigt garn och vanlig slätstickning fungerar ofta bättre på något rundare.
+Många märken har mer än en spetsprofil. ChiaoGoo RED Lace är serien med spetsig profil. ChiaoGoos nuvarande rundstickor i bambu tillhör en separat serie, och spetsformen behöver kontrolleras modell för modell. KnitPro Karbonz är ganska spetsiga. HiyaHiya har både en Sharp-linje och standardspetsar. Välj efter vad du stickar. Spetsstickning, minskningar och hårda maskor belönar en spetsigare topp. Splittrigt garn och vanlig slätstickning fungerar ofta bättre på något rundare.
 
 ## Skarven i utbytbara rundstickor
 

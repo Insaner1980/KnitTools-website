@@ -22,15 +22,15 @@ Metallpinner er vanligvis det glatteste og mest holdbare hverdagsvalget, tre gir
 
 ## Rask sammenligning
 
-| Materiale              | Garnbevegelse | Grep         | Vekt    | Lyd    | Holdbarhet | Passer best til                   |
-| ---------------------- | ------------- | ------------ | ------- | ------ | ---------- | --------------------------------- |
-| Aluminium              | Rask          | Lavt         | Lett    | Klikk  | Høy        | Rimelige metallpinner             |
-| Rustfritt stål         | Rask          | Lavt         | Middels | Klikk  | Høy        | Glatt strikking og små størrelser |
-| Messing / nikkelbelagt | Svært rask    | Svært lavt   | Tung    | Klikk  | Høy        | Strikking der fart prioriteres    |
-| Tre (bjørk, rosentre)  | Middels       | Middels      | Middels | Stille | Middels    | Varm følelse og moderat kontroll  |
-| Bambus                 | Langsommere   | Høyt         | Lett    | Stille | Lavere     | Nybegynnere og glatte garn        |
-| Plast / akryl          | Varierer      | Varierer     | Lett    | Stille | Middels    | Store størrelser og lette verktøy |
-| Karbonfiber            | Middels rask  | Middels lavt | Lett    | Stille | Høy        | Lette, stive pinner med litt grep |
+| Materiale              | Garnbevegelse | Grep         | Vekt     | Lyd    | Holdbarhet | Passer best til                   |
+| ---------------------- | ------------- | ------------ | -------- | ------ | ---------- | --------------------------------- |
+| Aluminium              | Rask          | Lavt         | Lett     | Klikk  | Høy        | Rimelige metallpinner             |
+| Rustfritt stål         | Rask          | Lavt         | Middels  | Klikk  | Høy        | Glatt strikking og små størrelser |
+| Messing / nikkelbelagt | Svært rask    | Svært lavt   | Varierer | Klikk  | Høy        | Strikking der fart prioriteres    |
+| Tre (bjørk, rosentre)  | Middels       | Middels      | Middels  | Stille | Middels    | Varm følelse og moderat kontroll  |
+| Bambus                 | Langsommere   | Høyt         | Lett     | Stille | Lavere     | Nybegynnere og glatte garn        |
+| Plast / akryl          | Varierer      | Varierer     | Lett     | Stille | Middels    | Store størrelser og lette verktøy |
+| Karbonfiber            | Middels rask  | Middels lavt | Lett     | Stille | Høy        | Lette, stive pinner med litt grep |
 
 Forskjellene høres små ut på papir. I hendene etter en time er de ikke små.
 
@@ -40,7 +40,7 @@ De fleste metallpinner er aluminium, rustfritt stål eller messing. De er det gl
 
 Kompromisset: metall er glatt. Med silke eller bambusblanding kan maskene skli av når du ikke følger med. Metall er også kaldt i starten, og noen hater klikkingen. Andre synes den er en del av opplevelsen.
 
-Overflatebehandling betyr mer enn bare ordet "metall" på pakken. ChiaoGoo Red Lace (stålkabel, lett teksturert overflate) føles annerledes enn Addi Turbo (messing, speilblank overflate og bygget for fart), og HiyaHiya Sharp føles annerledes igjen med sin rustfrie, spisse profil. Innen metall finnes det et helt spenn, og merkevalg betyr ofte mer enn metallsorten i seg selv.
+Overflatebehandling betyr mer enn bare ordet "metall" på pakken. ChiaoGoo RED Lace (spisser i kirurgisk rustfritt stål med en glatt, satengblank overflate og en nylonbelagt, flertrådet stålvaier uten formminne) føles annerledes enn Addi Turbo (messing, speilblank overflate og bygget for fart), og HiyaHiya Sharp føles annerledes igjen med sin rustfrie, spisse profil. Innen metall finnes det et helt spenn, og merkevalg betyr ofte mer enn metallsorten i seg selv.
 
 Én detalj er verdt å vite: noen kombinasjoner av metall og garn kan føles knirkete. Hvis stoffet blir bra, men følelsen plager deg, endrer tre eller bambus friksjonen uten at du må bytte prosjekt.
 
@@ -66,7 +66,7 @@ Bambus liker heller ikke fukt. Ikke oppbevar dem på badet eller i en fuktig kje
 
 ## Plast og akryl
 
-Lettere enn metall, billigere enn tre. Plastpinner dukker oftest opp i store størrelser, omtrent 9 mm og oppover, der vekt betyr noe.
+Vekten på en ferdig pinne avhenger både av materialet og konstruksjonen. Plast er ofte lett, mens metallpinner kan være massive, hule eller rørformede. Mange store metallpinner er hule for å unngå unødvendig vekt.
 
 Følelsen varierer mye mellom produsenter. Noen er glatte, noen klebrige, noen helt fine, noen føles engangs.
 
@@ -86,7 +86,7 @@ Skarpe spisser, ofte kalt lace-spisser, gjør `2 r sammen`, ssk og fellinger ved
 
 Rundere spisser er snillere mot splittevennlige garn og fingertuppene. Ulempen er at du kan måtte kjempe mer med hullmønsterfellinger.
 
-Mange merker har mer enn én spissprofil. ChiaoGoo Red Lace er den spissere linjen, mens Red Bamboo er rundere. KnitPro Karbonz er ganske spisse. HiyaHiya har både Sharp-linje og standardspisser. Velg etter hva du strikker. Hullmønster, fellinger og stramme masker belønner en spissere topp. Splittevennlig garn og vanlig glattstrikk fungerer ofte bedre på noe rundere.
+Mange merker har mer enn én spissprofil. ChiaoGoo RED Lace er ChiaoGoos linje med spisse pinner. Merkets nåværende rundpinner i bambus er en egen linje, og spissformen må sjekkes for den aktuelle modellen. KnitPro Karbonz er ganske spisse. HiyaHiya har både Sharp-linje og standardspisser. Velg etter hva du strikker. Hullmønster, fellinger og stramme masker belønner en spissere topp. Splittevennlig garn og vanlig glattstrikk fungerer ofte bedre på noe rundere.
 
 ## Skjøten i utskiftbare rundpinner
 

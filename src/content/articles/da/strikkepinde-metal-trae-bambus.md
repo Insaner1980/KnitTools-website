@@ -22,15 +22,15 @@ Metalpinde er som regel det glatteste og mest holdbare hverdagsvalg, træ giver 
 
 ## Hurtig sammenligning
 
-| Materiale              | Garnbevægelse | Greb        | Vægt   | Lyd    | Holdbarhed | Passer bedst til                    |
-| ---------------------- | ------------- | ----------- | ------ | ------ | ---------- | ----------------------------------- |
-| Aluminium              | Hurtig        | Lavt        | Let    | Klik   | Høj        | Billige metalpinde                  |
-| Rustfrit stål          | Hurtig        | Lavt        | Mellem | Klik   | Høj        | Glat strik og små størrelser        |
-| Messing / nikkelbelagt | Meget hurtig  | Meget lavt  | Tung   | Klik   | Høj        | Strik hvor fart betyder mest        |
-| Træ (birk, rosentræ)   | Mellem        | Mellem      | Mellem | Stille | Mellem     | Varm følelse og moderat kontrol     |
-| Bambus                 | Langsommere   | Højt        | Let    | Stille | Lavere     | Begyndere og glat garn              |
-| Plast / akryl          | Varierer      | Varierer    | Let    | Stille | Mellem     | Store størrelser og lette værktøjer |
-| Kulfiber               | Mellem-hurtig | Mellem-lavt | Let    | Stille | Høj        | Lette, stive pinde med lidt greb    |
+| Materiale              | Garnbevægelse | Greb        | Vægt     | Lyd    | Holdbarhed | Passer bedst til                    |
+| ---------------------- | ------------- | ----------- | -------- | ------ | ---------- | ----------------------------------- |
+| Aluminium              | Hurtig        | Lavt        | Let      | Klik   | Høj        | Billige metalpinde                  |
+| Rustfrit stål          | Hurtig        | Lavt        | Mellem   | Klik   | Høj        | Glat strik og små størrelser        |
+| Messing / nikkelbelagt | Meget hurtig  | Meget lavt  | Varierer | Klik   | Høj        | Strik hvor fart betyder mest        |
+| Træ (birk, rosentræ)   | Mellem        | Mellem      | Mellem   | Stille | Mellem     | Varm følelse og moderat kontrol     |
+| Bambus                 | Langsommere   | Højt        | Let      | Stille | Lavere     | Begyndere og glat garn              |
+| Plast / akryl          | Varierer      | Varierer    | Let      | Stille | Mellem     | Store størrelser og lette værktøjer |
+| Kulfiber               | Mellem-hurtig | Mellem-lavt | Let      | Stille | Høj        | Lette, stive pinde med lidt greb    |
 
 Forskellene lyder små på papir. De er ikke små i hænderne efter en time.
 
@@ -40,7 +40,7 @@ De fleste metalpinde er aluminium, rustfrit stål eller messing. De er den glatt
 
 Ulempen: metal er glat. Med silke eller bambusblandinger kan masker glide af, når du ikke er opmærksom. Metal føles også koldt i starten, og nogle strikkere hader kliklyden. Andre synes, den hører med.
 
-Overfladen betyder mere end bare ordet "metal" på pakken. ChiaoGoo Red Lace, med stålkabel og let tekstureret overflade, føles anderledes end Addi Turbo, der er spejlglat messing bygget til fart. HiyaHiya Sharp føles anderledes igen med sin rustfri og meget spidse profil. Inden for metal findes der et helt spektrum, og mærke og serie betyder ofte mere end metallet i sig selv.
+Overfladen betyder mere end bare ordet "metal" på pakken. ChiaoGoo RED Lace (spidser af kirurgisk rustfrit stål med en glat finish og satenglans samt et nylonbelagt stålkabel med flere tråde og uden formhukommelse) føles anderledes end Addi Turbo, der er spejlglat messing bygget til fart. HiyaHiya Sharp føles anderledes igen med sin rustfri og meget spidse profil. Inden for metal findes der et helt spektrum, og mærke og serie betyder ofte mere end metallet i sig selv.
 
 Én detalje er værd at kende: nogle kombinationer af metal og garn kan føles knirkende. Hvis stoffet bliver fint, men følelsen generer dig, ændrer træ eller bambus overfladefriktionen uden at du behøver skifte projekt.
 
@@ -66,7 +66,7 @@ Bambus bryder sig heller ikke om fugt. Opbevar ikke bambuspinde på badeværelse
 
 ## Plast og akryl
 
-Lettere end metal, billigere end træ. Plastpinde ses oftest i større størrelser, hvor vægt betyder noget.
+Den færdige strikkepinds vægt afhænger både af materialet og konstruktionen. Plast er ofte let og billigere end træ, mens metalpinde kan være massive, hule eller rørformede; mange store metalpinde fremstilles hule for at undgå unødig vægt.
 
 Følelsen varierer meget fra producent til producent. Nogle er glatte, nogle er klæbrige, nogle føles fine, nogle føles som midlertidigt udstyr.
 
@@ -86,7 +86,7 @@ Lace-spidser, altså meget spidse spidser, gør `2 r sm`, ssk og indtagninger ve
 
 Rundere spidser er venligere mod splittevenligt garn og mod fingerspidserne. Ulempen er, at du kan komme til at kæmpe mere med hulmønsterindtagninger.
 
-Mange mærker har mere end én spidsprofil. ChiaoGoo Red Lace er den spidsere linje, mens Red Bamboo er rundere. KnitPro Karbonz er ret spidse. HiyaHiya har både Sharp-linje og standardspidser. Vælg efter det du strikker. Hulmønster, indtagninger og stramme masker belønner en spidsere top. Splittevenligt garn og almindelig glatstrik opfører sig ofte bedre på noget rundere.
+Mange mærker har mere end én spidsprofil. ChiaoGoo RED Lace er den spidse linje. ChiaoGoos nuværende rundpinde i bambus er en separat serie, og spidsformen bør tjekkes for den konkrete model. KnitPro Karbonz er ret spidse. HiyaHiya har både Sharp-linje og standardspidser. Vælg efter det du strikker. Hulmønster, indtagninger og stramme masker belønner en spidsere top. Splittevenligt garn og almindelig glatstrik opfører sig ofte bedre på noget rundere.
 
 ## Samlingen i udskiftelige rundpinde
 

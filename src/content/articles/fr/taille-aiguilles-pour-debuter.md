@@ -68,7 +68,7 @@ Quelques achats de début deviennent surtout du stock oublié dans un tiroir.
 
 Un grand set de circulaires interchangeables peut sembler intéressant, mais quand on débute, on ne sait pas encore quelles tailles serviront vraiment. Dans trois mois, tu travailleras peut-être un fil à chaussettes sur 2,25 mm ou un projet très épais sur 9,0 mm, et le set acheté trop tôt ne couvrira pas forcément ce besoin.
 
-Les aiguilles spéciales dans ta première taille, comme les aiguilles carrées, les pointes très fines ou les formes ergonomiques, ne règlent généralement pas un problème de début. Elles répondent à des besoins plus précis, plus tard. Si tes mains fatiguent après une heure sur des aiguilles ordinaires, la cause est souvent une tension trop serrée plutôt que la forme de l'aiguille.
+Les aiguilles spéciales dans ta première taille, comme les aiguilles carrées, les pointes très fines ou les formes ergonomiques, ne règlent généralement pas un problème de début. Elles répondent à des besoins plus précis, plus tard. Si des aiguilles ordinaires te font mal aux mains, arrête-toi et revois ta façon de tenir les aiguilles, ta posture, la durée de tes séances et ton choix de matériel. Si la douleur persiste, demande conseil à un médecin ou à un ergothérapeute.
 
 Les aiguilles très fines, autour des tailles US 0 à 2, ne sont pas un passage obligé. Les personnes expérimentées utilisent la taille demandée par le projet. Les aiguilles à chaussettes, en particulier, sont souples, minutieuses et lentes. Elles ne sont pas le chemin le plus confortable pour construire un geste régulier.
 

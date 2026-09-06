@@ -68,7 +68,7 @@ Ein paar typische Anfänger-Einkäufe landen oft nur in der Schublade.
 
 Ein riesiges austauschbares Rundstricknadel-Set mit dutzenden Spitzen ist verlockend, weil es nach gutem Preis-Leistungs-Verhältnis aussieht. Am Anfang weißt du aber noch nicht, welche Größen du wirklich nutzt. In drei Monaten strickst du vielleicht Sockengarn auf 2,25 mm oder ein dickes Projekt auf 9,0 mm, und genau diese Größen fehlen im Set.
 
-Spezialnadeln in deiner ersten Größe, zum Beispiel kantige Nadeln, besonders spitze Spitzen oder ergonomische Formen, lösen meist kein Anfängerproblem. Sie lösen bestimmte Probleme späterer Projekte. Wenn deine Hände nach einer Stunde auf Standardnadeln schmerzen, liegt das oft eher an zu fester Spannung als an der Nadelform.
+Spezialnadeln in deiner ersten Größe, zum Beispiel kantige Nadeln, besonders spitze Spitzen oder ergonomische Formen, lösen meist kein Anfängerproblem. Sie lösen bestimmte Probleme späterer Projekte. Wenn Standardnadeln deine Hände schmerzen lassen, halte inne und überprüfe deinen Griff, deine Haltung, die Dauer deiner Stricksitzungen und deine Werkzeugwahl. Bei anhaltenden Schmerzen ist ärztlicher oder ergotherapeutischer Rat sinnvoll.
 
 Sehr dünne Nadeln, etwa US 0-2, nur weil „richtige“ Strickstücke fein aussehen. Gute Strickerinnen und Stricker verwenden die Nadel, die zum Projekt passt. Nadeln für Sockengarn sind flexibel, langsam und fummelig. Für den Einstieg in gleichmäßige Spannung sind sie selten die beste Wahl.
 

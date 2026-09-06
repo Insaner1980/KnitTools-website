@@ -68,7 +68,7 @@ Några vanliga nybörjarköp hamnar ofta mest i en låda.
 
 Ett stort utbytbart rundsticksset med mängder av spetsar kan se prisvärt ut. Problemet är att en nybörjare ännu inte vet vilka storlekar som faktiskt blir använda. Om tre månader kanske du stickar sockgarn på 2,25 mm eller ett grovt projekt på 9,0 mm, och just de storlekarna kan saknas i setet.
 
-Specialstickor i din första storlek, till exempel kantiga stickor, extra vassa spetsar eller ergonomiska former, löser sällan ett nybörjarproblem. De löser mer specifika problem senare. Om händerna gör ont efter en timme med vanliga stickor beror det ofta mer på för hård stickfasthet än på stickans form.
+Specialstickor i din första storlek, till exempel kantiga stickor, extra vassa spetsar eller ergonomiska former, löser sällan ett nybörjarproblem. De löser mer specifika problem senare. Om vanliga stickor gör ont i händerna, stanna upp och se över grepp, hållning, stickpassets längd och val av stickor. Vid ihållande smärta bör du rådfråga läkare eller arbetsterapeut.
 
 Mycket tunna stickor, ungefär US 0-2, bara för att tunna projekt ser "riktiga" ut. Erfarna stickare använder den sticka projektet behöver. Sockstickor är flexibla, pilliga och långsamma. De är sällan bästa vägen in i jämnt handlag.
 

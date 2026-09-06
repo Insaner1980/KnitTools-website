@@ -116,7 +116,7 @@ Ben je nieuwsgierig, koop dan één rondbreinaald van 23 cm in je meest gebruikt
 
 ## Ergonomische vormen
 
-Naast standaard ronde naalden bestaan er een paar alternatieve vormen. Vierkante naalden, verkocht door Kollage en enkele kleinere merken, hebben vlakke zijkanten die anders in de hand liggen en voor sommige breiers met handpijn minder belastend voelen. Cubics van KnitPro gebruiken een vergelijkbaar idee. Ergonomische naalden met gebogen schachten zetten het werk in een hoek om de pols te ontlasten.
+Naast standaard ronde naalden bestaan er een paar alternatieve vormen. Vierkante naalden, verkocht door Kollage en enkele kleinere merken, hebben vlakke zijkanten die anders in de hand liggen en voor sommige breiers met handpijn minder belastend voelen. Cubics van KnitPro gebruiken een vergelijkbaar idee. Prym Ergonomics-naalden zijn gemaakt van flexibel, hoogwaardig synthetisch materiaal, hebben druppelvormige punten en een schacht die van rond naar driehoekig overgaat.
 
 Of dit helpt, hangt af van de persoon en van waar de pijn vandaan komt. De markt is kleiner, de prijzen liggen hoger, en ze vervangen geen medische hulp bij ernstige handklachten. Maar bij mild ongemak vinden sommige breiers onverwacht verlichting door van vorm te wisselen in plaats van van materiaal of maat.
 
@@ -137,7 +137,7 @@ Ja. Rechte naalden zijn op dit punt een voorkeur, geen vereiste.
 Een rondbreinaald van 40 cm voor mutsen, een van 60 of 80 cm voor truien en het meeste platte werk, en een van 100 cm of langer voor magic loop, dekens en grote omslagdoeken dekken bijna alles. Voeg een tweede 80 cm toe als je vaak twee dingen tegelijk breit.
 
 **Waarom blijft mijn rondbreinaaldkabel opkrullen?**
-Geheugen uit de verpakking. Houd de kabel ongeveer 30 seconden onder warm kraanwater en trek hem recht terwijl hij afkoelt. Het plastic ontspant. Sommige kabels houden de nieuwe vorm, andere kruipen langzaam terug. Duurdere kabels herstellen meestal sneller.
+Hoe sterk een kabel zijn vorm onthoudt en welk onderhoud nodig is, verschilt per product. Volg de instructies van de fabrikant: bij sommige kabels met een kern van roestvrij staal kan de krul met stoom of lauw water worden verminderd, terwijl kabels zonder vormgeheugen mogelijk niet rechtgemaakt hoeven te worden.
 
 **Zijn houten rondbreinaalden de extra kosten waard?**
 Voor sommige breiers wel. Hout heeft meer grip dan metaal, maar minder dan bamboe. Lange sessies met glad garen voelen anders. Voor algemeen breien is een eenvoudige vaste metalen rondbreinaald genoeg tot je weet dat je het gevoel van hout wilt.

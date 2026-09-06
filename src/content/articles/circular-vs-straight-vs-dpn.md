@@ -112,7 +112,7 @@ If you're curious, buy a single 9-inch circular in your most common sock needle 
 
 ## Ergonomic shapes
 
-Beyond the standard round-shaft needles, a few alternative shapes exist. Square needles (sold by Kollage and a few small brands) have flat sides that sit differently in the hand and may reduce strain for knitters with hand pain. Cubics (a Knitter's Pride line) use a similar idea. Curved-shaft ergonomic needles (Prym's set) angle the shafts to relieve wrist tension.
+Beyond the standard round-shaft needles, a few alternative shapes exist. Square needles (sold by Kollage and a few small brands) have flat sides that sit differently in the hand and may reduce strain for knitters with hand pain. Cubics (a Knitter's Pride line) use a similar idea. Prym Ergonomics needles use flexible high-performance synthetic material, drop-shaped tips, and a shaft that changes from round to triangular.
 
 Whether any of these helps depends on the person and the source of the pain. The market is small, prices are higher, and they aren't substitutes for working with a doctor on serious hand issues. But for mild discomfort, some knitters find an unexpected fix in switching shape rather than material or size.
 
@@ -133,7 +133,7 @@ Yes. Straight needles are a preference at this point, not a requirement.
 A 16-inch (hats), a 24 or 32-inch (sweaters and most flat work), and a 40-inch or longer (magic loop, blankets, big shawls) covers nearly everything. Add a second 32-inch if you do two-at-a-time work often.
 
 **Why does my circular cable keep coiling up?**
-Memory from the packaging. Run the cable through hot tap water for 30 seconds and pull it straight while it cools. The plastic relaxes. Some cables hold the new shape, others slowly creep back. Premium cables tend to recover faster.
+Cable memory and care vary by product. Follow the manufacturer's instructions: some stainless-steel-core cables can be relaxed with steam or lukewarm water, while memory-free cables may not need straightening.
 
 **Are wood circulars worth the extra cost?**
 For some knitters, yes. Wood has more grip than metal, less than bamboo. Long sessions with slippery yarn feel different. For most general knitting, a basic metal fixed circular is enough until you know you want the feel of wood.

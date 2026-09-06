@@ -68,7 +68,7 @@ Een paar typische beginnersaankopen eindigen vooral in een la.
 
 Een groot verwisselbaar rondbreinaaldenset met heel veel punten kan voordelig lijken. Het probleem is dat een beginner nog niet weet welke maten echt gebruikt gaan worden. Over drie maanden brei je misschien sokkengaren op 2,25 mm (US 1) of een heel dik project op 9,0 mm (US 13), en misschien stopt de set al bij 8,0 mm (US 11).
 
-Speciale naalden in je eerste maat, zoals vierkante naalden, extra scherpe punten of ergonomische vormen, lossen zelden een beginnersprobleem op. Ze lossen specifiekere problemen later op. Als je handen na een uur op gewone naalden pijn doen, komt dat vaak eerder door te strakke spanning dan door de vorm van de naald.
+Speciale naalden in je eerste maat, zoals vierkante naalden, extra scherpe punten of ergonomische vormen, lossen zelden een beginnersprobleem op. Ze lossen specifiekere problemen later op. Als gewone naalden pijn aan je handen doen, stop dan en kijk opnieuw naar hoe je de naalden vasthoudt, je houding, de duur van je breisessies en je keuze van gereedschap. Bij aanhoudende pijn is advies van een arts of ergotherapeut verstandig.
 
 Heel dunne naalden, ongeveer US 0-2, zijn geen bewijs dat je "echt" breit. Ervaren breiers gebruiken wat het project vraagt. Sokkennaalden in kleine maten zijn flexibel, priegelig en langzaam. Ze zijn meestal niet de prettigste route naar een gelijkmatig handschrift.
 

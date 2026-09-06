@@ -22,15 +22,15 @@ Les aiguilles en métal sont souvent les plus glissantes et les plus durables au
 
 ## Vue d'ensemble
 
-| Matière                     | Mouvement du fil | Accroche         | Poids | Son        | Durabilité | Meilleur usage                   |
-| --------------------------- | ---------------- | ---------------- | ----- | ---------- | ---------- | -------------------------------- |
-| Aluminium                   | Rapide           | Faible           | Léger | Clic       | Élevée     | Aiguilles métal accessibles      |
-| Acier inoxydable            | Rapide           | Faible           | Moyen | Clic       | Élevée     | Petites tailles et tricot fluide |
-| Laiton / nickelé            | Très rapide      | Très faible      | Lourd | Clic       | Élevée     | Tricot axé sur la vitesse        |
-| Bois (bouleau, palissandre) | Moyen            | Moyenne          | Moyen | Silencieux | Moyenne    | Sensation chaude et contrôle     |
-| Bambou                      | Plus lent        | Forte            | Léger | Silencieux | Plus basse | Débutants et fils glissants      |
-| Plastique / acrylique       | Variable         | Variable         | Léger | Silencieux | Moyenne    | Grosses tailles et outils légers |
-| Fibre de carbone            | Moyen-rapide     | Moyenne à faible | Léger | Silencieux | Élevée     | Aiguilles légères, rigides       |
+| Matière                     | Mouvement du fil | Accroche         | Poids    | Son        | Durabilité | Meilleur usage                   |
+| --------------------------- | ---------------- | ---------------- | -------- | ---------- | ---------- | -------------------------------- |
+| Aluminium                   | Rapide           | Faible           | Léger    | Clic       | Élevée     | Aiguilles métal accessibles      |
+| Acier inoxydable            | Rapide           | Faible           | Moyen    | Clic       | Élevée     | Petites tailles et tricot fluide |
+| Laiton / nickelé            | Très rapide      | Très faible      | Variable | Clic       | Élevée     | Tricot axé sur la vitesse        |
+| Bois (bouleau, palissandre) | Moyen            | Moyenne          | Moyen    | Silencieux | Moyenne    | Sensation chaude et contrôle     |
+| Bambou                      | Plus lent        | Forte            | Léger    | Silencieux | Plus basse | Débutants et fils glissants      |
+| Plastique / acrylique       | Variable         | Variable         | Léger    | Silencieux | Moyenne    | Grosses tailles et outils légers |
+| Fibre de carbone            | Moyen-rapide     | Moyenne à faible | Léger    | Silencieux | Élevée     | Aiguilles légères, rigides       |
 
 Ces différences paraissent petites sur papier. Dans les mains après une heure, elles ne le sont pas.
 
@@ -40,7 +40,7 @@ La plupart des aiguilles en métal sont en aluminium, acier inoxydable ou laiton
 
 Le compromis : le métal glisse. Avec de la soie ou un mélange bambou, les mailles peuvent tomber si tu ne fais pas attention. Le métal est aussi froid au toucher au départ, et le cliquetis agace certaines personnes. D'autres considèrent que cela fait partie de l'expérience.
 
-La finition de surface compte plus que le simple mot "métal" sur l'emballage. ChiaoGoo Red Lace, Addi Turbo et HiyaHiya Sharp n'ont pas la même sensation, même si toutes entrent dans la catégorie métal. Dans cette famille, le choix de la marque et de la pointe compte souvent autant que le métal lui-même.
+La finition de surface compte plus que le simple mot "métal" sur l'emballage. Les aiguilles ChiaoGoo RED Lace ont des pointes en acier inoxydable chirurgical à la finition lisse et satinée, ainsi qu'un câble sans effet mémoire constitué de plusieurs brins d'acier et gainé de nylon. Les Addi Turbo et les HiyaHiya Sharp n'offrent pas la même sensation, même si toutes entrent dans la catégorie métal. Dans cette famille, le choix de la marque et de la pointe compte souvent autant que le métal lui-même.
 
 Un détail à connaître : certaines combinaisons métal/fil grincent. Si le tissu est correct mais que la sensation t'agace, passer au bois ou au bambou change la friction sans changer le projet.
 
@@ -66,7 +66,7 @@ Le bambou n'aime pas l'humidité. Évite la salle de bain et les caves humides. 
 
 ## Plastique et acrylique
 
-Plus légers que le métal, moins chers que le bois. Les aiguilles en plastique apparaissent surtout dans les grosses tailles, où le poids compte.
+Le poids final d'une aiguille dépend à la fois de sa matière et de sa construction. Le plastique est souvent léger, tandis que les aiguilles en métal peuvent être pleines, creuses ou tubulaires ; beaucoup de grandes aiguilles métalliques sont creuses pour éviter un poids excessif.
 
 La sensation varie beaucoup selon les fabricants. Certaines sont glissantes, d'autres collantes, certaines correctes, d'autres franchement jetables.
 
@@ -86,7 +86,7 @@ Les pointes très fines, souvent appelées pointes lace, facilitent `2 m. ens. �
 
 Les pointes plus rondes sont plus douces avec les fils qui se dédoublent et avec les doigts. Le compromis : elles peuvent rendre les diminutions de dentelle plus laborieuses.
 
-Beaucoup de marques proposent plusieurs profils. ChiaoGoo Red Lace est plus pointu, Red Bamboo plus rond. HiyaHiya a une ligne Sharp et une ligne standard. Choisis selon ce que tu tricotes. Dentelle, diminutions et mailles serrées aiment une pointe fine. Fil qui se dédouble et jersey simple préfèrent souvent une pointe plus ronde.
+Beaucoup de marques proposent plusieurs profils. ChiaoGoo RED Lace est la gamme à pointes fines. Les aiguilles circulaires en bambou actuellement proposées par ChiaoGoo appartiennent à une gamme distincte, et la forme de la pointe doit être vérifiée modèle par modèle. HiyaHiya a une ligne Sharp et une ligne standard. Choisis selon ce que tu tricotes. Dentelle, diminutions et mailles serrées aiment une pointe fine. Fil qui se dédouble et jersey simple préfèrent souvent une pointe plus ronde.
 
 ## Qualité de la jonction interchangeable
 
