@@ -74,7 +74,7 @@ Let ook op de armsgatdiepte in het schema. Die staat vaak minder opvallend dan d
 
 Dat gebeurt vaak. Je borstmaat valt in de ene maat, je heupen vragen een andere, de armlengte klopt voor geen van beide.
 
-Kies voor het lijf de maat die past bij je grootste maat, meestal borst of heupen, en pas de rest aan. Taille toevoegen aan een patroon dat bij je heupen past is makkelijker dan breedte toevoegen aan een maat die te smal is.
+Kies een uitgangsmaat door het afgewerkte schema en de afgewerkte maten te vergelijken met de bedoelde bewegingsruimte en de constructie van het kledingstuk. Let vooral op de afmetingen van onderdelen die het moeilijkst te veranderen zijn. Bij veel getailleerde kledingstukken met ingezette mouwen kunnen de schouders en het bovenlijf een beter uitgangspunt zijn dan de grootste omtrek. Ga tussen maten over of pas andere delen aan waar de constructie dat toelaat.
 
 Lengte is het makkelijkst te veranderen. Veel patronen zeggen "brei tot het werk X cm meet", en dat kun je vrij aanpassen. Wil je 43 cm in plaats van 38 cm? Brei 5 cm extra. Armlengte werkt hetzelfde. Bovenarmbreedte is lastiger, omdat die invloed heeft op de mouwkop, dus probeer daar dichter bij het patroon te blijven.
 
@@ -136,7 +136,7 @@ Controleer je [stekenverhouding](/nl/artikelen/stekenverhouding-meten/) voordat 
 
 Garen telt ook voor pasvorm. Garens met veel valling, zoals katoen en zijde, hangen anders dan veerkrachtige wol, dus een katoenen trui en een wollen trui in dezelfde maat passen niet hetzelfde. Als je [garen vervangt](/nl/artikelen/garen-vervangen-in-een-breipatroon/), neem dat mee.
 
-Als je voor je bovenlijf een andere maat nodig hebt dan voor je onderlijf, heet dat gradatie tussen maten. Volg de bovenmaat voor pas en borst, meerder of minder naar de ondermaat bij de taille. Sommige patronen geven verkorte toeren voor borstvorming of aparte boven-/ondermaten. Als het patroon dat niet doet, vraagt deze aanpassing wat breirekenwerk.
+Als je voor je bovenlijf een andere maat nodig hebt dan voor je onderlijf, combineer je maten of ga je tussen maten over. Volg de bovenmaat voor pas en borst en meerder of minder naar de ondermaat bij de taille waar de constructie dat toelaat. Dit is geen patroongradering; graderen is het proces waarmee de ontwerper het patroon voor het volledige matenbereik ontwikkelt. Sommige patronen geven verkorte toeren voor borstvorming of aparte boven-/ondermaten. Als het patroon dat niet doet, vraagt deze aanpassing wat breirekenwerk.
 
 ## FAQ
 
@@ -144,10 +144,10 @@ Als je voor je bovenlijf een andere maat nodig hebt dan voor je onderlijf, heet 
 Over een dunne laag, zoals een T-shirt, komt het dichtst bij hoe je de trui draagt. Over dikke kleding meten maakt de maat te groot.
 
 **Mijn maten vallen in drie patroonmaten. Wat nu?**
-Kies de maat die het dichtst bij je grootste maat ligt en plan aanpassingen voor de rest. Lengte is meestal de soepelste aanpassing. Breedte over de borst is lastig te veranderen. Schouderbreedte is het lastigst. Geef prioriteit aan schouder en borst als je niet alles tegelijk passend krijgt.
+Gebruik het afgewerkte schema en de bedoelde bewegingsruimte om te bepalen welke maat het best past bij het moeilijkst te veranderen deel van het ontwerp. Bij veel getailleerde kledingstukken met ingezette mouwen kan dat betekenen dat je de pasvorm bij schouders en bovenlijf voorrang geeft boven de grootste omtrek. Ga alleen tussen maten over of pas andere afmetingen aan waar de constructie van het patroon dat toelaat.
 
 **Maakt toerenverhouding uit voor pasvorm?**
-Bij de meeste delen minder dan stekenverhouding. De uitzondering is een trui met een pas, waarbij toerenverhouding de diepte van de pas bepaalt. Een afwijkende toerenverhouding maakt de pas dan te ondiep of te diep. Bij de meeste truien worden lijf en mouwen op lengte gebreid, ongeacht toerenverhouding.
+Bij een eenvoudig deel dat je rechtstreeks tot een gemeten lengte breit en waarin weinig of geen vormgeving door een vast aantal toeren wordt bepaald, kan de toerenverhouding minder belangrijk zijn dan de stekenverhouding. De toerenverhouding is wel belangrijk wanneer een vast aantal toeren de verticale maten of de timing van de vormgeving bepaalt, bijvoorbeeld bij passen, raglanvormgeving, armsgaten, mouwkoppen, taille- of mouwvormgeving en verticale patroonherhalingen.
 
 **Wat als Ravelry-projecten zeggen dat het patroon klein of groot valt?**
 Lees meerdere projecten voordat je dat als waarheid aanneemt. Soms vertekenen een paar breiers met afwijkende stekenverhouding het beeld. Zeggen vijf verschillende breiers dat het klein valt, neem het dan serieus en kies een maat groter.

@@ -74,11 +74,11 @@ En mindre skjult variant er at lave aflukningen med vrangsiderne mod hinanden. S
 
 Maskesting er det næsten usynlige alternativ til aflukning med tre pinde, når begge dele har levende masker. Det bruges næsten altid til strømpe-tæer og nogle gange til sammenmaskede skuldre, halsrør eller ændringer i sweatre, hvor stoffet skal fortsætte uden en kant.
 
-Hold de to pinde parallelt med samme antal levende masker på hver. Tråd en stoppenål med et langt stykke matchende garn. Arbejd derefter rytmen i fire trin: forreste pind ret af, forreste pind vrang på, bagerste pind vrang af, bagerste pind ret på. Gentag hele vejen.
+Hold de to pinde parallelt med vrangsiderne mod hinanden, samme antal levende masker i glatstrik på hver pind og pindespidserne mod højre. Arbejdsgarnet skal komme fra den første maske på den bagerste pind. Tråd en stoppenål med et langt stykke matchende garn. Som forberedelse føres nålen vrangvis gennem den første maske på den forreste pind, som bliver siddende, og derefter retvis gennem den første maske på den bagerste pind, som også bliver siddende. Gentag så rytmen i fire trin: forreste pind retvis, masken af; forreste pind vrangvis, masken bliver på; bagerste pind vrangvis, masken af; bagerste pind retvis, masken bliver på. Når der er én maske tilbage på hver pind, tages den forreste maske retvis af og den bagerste maske vrangvis af. Hold hver syet løkke omtrent lige stor som nabomaskerne, og justér garnet langs samlingen, før enden hæftes.
 
 Når det lykkes, ligner resultatet en ekstra række glatstrik, der samler de to dele uden synlig søm. Når det går galt, bliver det en række drejede masker, som er irriterende at pille op. Hav trinene foran dig og arbejd langsomt de første gange. De fleste strikkere får rytmen ind efter en strømpe-tå eller to.
 
-Maskesting kan også bruges midt i et projekt. Hvis du klipper en sweater op over opslaget for at lægge længde til og derefter maskesting-samler et nyt stykke ind, kan det blende pænt, hvis pindefasthed og maskemønster passer.
+Maskesting kan også bruges midt i et projekt, men det er uigenkaldeligt at klippe i et færdigt stykke tøj. Matchende pindefasthed og maskemønster er ikke nok: strikkeretningen har betydning, og sammenmaskning top mod top kan opføre sig anderledes end top mod bund. Rib, snoninger, hulmønster og andre lodrette motiver kan få en halv maskes forskydning eller en anden synlig overgang. Test den planlagte sammenmaskning på en strikkeprøve, før du klipper i det færdige stykke.
 
 ## Kastesting (hurtig sammensyning)
 

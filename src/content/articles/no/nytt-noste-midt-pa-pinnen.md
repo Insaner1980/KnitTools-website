@@ -83,7 +83,7 @@ Best i tykke stoffer der knuten forsvinner, som bulky tepper og tovede prosjekte
 
 I de fleste situasjoner er overlapp med trådfesting tryggest og mest universelt. Fungerer med alt garn, gir pent resultat etter ferdigstilling og krever ingen spesialteknikk.
 
-For ikke-superwash ull gir spit splice det reneste resultatet. Det krever litt øvelse å få trykk og fukt riktig, men når det sitter, er det den raskeste og mest usynlige skjøten.
+For ikke-superwash ull gir spit splice det reneste resultatet. Det krever litt øvelse å få trykk og fukt riktig, men når det sitter, er skjøten rask og kan bli nesten usynlig.
 
 Russian join passer strikkere som virkelig misliker ender, og som jobber med flertrådet garn fra DK og oppover.
 
@@ -138,7 +138,7 @@ Som regel ja, men en overlappsskjøt kan gi én eller to masker der fargene blan
 Bruk overlappsskjøt i stedet. Russian join trenger sammenhengende tråder som nålen kan gå gjennom. Entrådede, løst tvinnede og svært fluffy garn holder ikke skjøten like godt.
 
 **Synes skjøten på vrangsiden?**
-Litt. Selv en ren toveskjøt kan kjennes som et lite punkt der garnet er annerledes. Overlapp viser som en dobbelt garnstrek til endene er festet og klippet. Russian join vises som en litt tykkere seksjon. På rettsiden av ferdig og blokket stoff synes de vanligvis ikke.
+Litt. Selv en ren toveskjøt kan kjennes som et lite punkt der garnet er annerledes. Overlapp viser som en dobbelt garnstrek til endene er festet og klippet. Russian join kan gi et tykkere parti, og også andre skjøter kan forbli synlige. Hvor tydelig skjøten blir, avhenger av garnet, fiberen, strikkefastheten, maskemønsteret, skjøtemetoden og plasseringen. Hvis utseendet er viktig, test skjøten og legg den på et mindre synlig sted når det er praktisk.
 
 **Hvordan fester jeg ender i hullmønster eller annet åpent stoff?**
 Det er vanskeligere, fordi det er mindre stoff å skjule endene i. Følg en stabil maskesøyle på vrangsiden, altså masker som ikke er kast, og del trådene lett mens du fester. I veldig åpent hullmønster er det bedre å planlegge skjøter ved kanten.

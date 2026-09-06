@@ -70,7 +70,7 @@ Pay attention to the armhole depth on the schematic. It's listed less prominentl
 
 Happens often. Your chest measurement puts you in one size, your hips need another, the arm length is wrong for either.
 
-For the body, choose the size that fits your largest measurement (usually chest or hips) and modify the rest. Easier to add waist shaping to a pattern sized for your hips than to add width to one that's too narrow.
+Choose a starting size by comparing the finished schematic and measurements with the intended ease and the garment's construction. Focus on the dimensions that control the hardest-to-alter parts of the design. In many fitted set-in-sleeve garments, shoulder and upper-torso fit may be a better starting point than the largest circumference. Blend between sizes or adjust other areas where the construction permits.
 
 Length is the easiest thing to change. Most patterns say "knit until piece measures X inches," and you can adjust freely. Want 17 inches instead of 15? Knit two more inches. Arm length works the same way. Upper arm width is harder because it affects the sleeve cap, so aim to match the pattern there.
 
@@ -132,7 +132,7 @@ Before choosing a size, [check your gauge](/articles/how-to-measure-knitting-gau
 
 Yarn type matters for fit too. Drapey yarns like cotton and silk hang differently from springy wool, so a cotton sweater and a wool sweater in the same size won't fit the same. If you're [substituting yarn](/articles/how-to-substitute-yarn/), factor that in.
 
-If you need one size for your upper body and another for your lower, that's grading. Follow the upper size for yoke and chest, increase or decrease to the lower size at the waist. Some patterns include short-row bust shaping or separate upper/lower sizing. When the pattern doesn't, this modification takes some knitting math.
+If you need one size for your upper body and another for your lower, blend between sizes. Follow the upper size for the yoke and chest, then increase or decrease toward the lower size at the waist where the construction permits. This isn't pattern grading; grading is the designer's process of developing the pattern across its size range. Some patterns include short-row bust shaping or separate upper/lower sizing. When the pattern doesn't, this modification takes some knitting math.
 
 ## FAQ
 
@@ -140,10 +140,10 @@ If you need one size for your upper body and another for your lower, that's grad
 Over a thin layer (a t-shirt is fine) is closer to how the sweater will be worn. Over thick clothing skews the measurement larger.
 
 **My measurements span three pattern sizes. What now?**
-Pick the size closest to your largest measurement, then plan modifications for the others. Length is usually the most forgiving change. Width across the chest is hard to change. Shoulder width is the hardest. Prioritize matching shoulder and chest if you can't have all three.
+Use the finished schematic and intended ease to identify which size best fits the design's hardest-to-alter area. In many fitted set-in-sleeve garments, that may mean prioritizing shoulder and upper-torso fit rather than the largest circumference. Blend between sizes or modify other dimensions only where the pattern construction permits.
 
 **Does row gauge matter for fit?**
-For most pieces, less than stitch gauge. The exception is yoke sweaters, where row gauge determines the depth of the yoke and an off row gauge makes the yoke either too shallow or too deep. For most pullovers, the body and sleeve lengths are knit-to-measure regardless of row gauge.
+Row gauge may matter less than stitch gauge when a simple piece is worked to a measured length and has little or no row-count-dependent shaping. It matters whenever a fixed row count controls vertical dimensions or timing, including yokes, raglan shaping, armholes, sleeve caps, waist or sleeve shaping, and vertical pattern repeats.
 
 **What if Ravelry projects say the pattern runs small or large?**
 Read several projects before assuming this is true. Sometimes a few knitters with non-matching gauge skew the impression. If five different knitters all say it runs small, take it seriously and size up.

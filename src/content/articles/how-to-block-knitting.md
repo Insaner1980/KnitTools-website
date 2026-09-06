@@ -131,7 +131,7 @@ Store flat or folded. Hanging stretches knitted fabric over time, especially hea
 ## FAQ
 
 **Do I need to block every project?**
-No. Dishcloths, practice swatches, items where dimensions don't matter, skip it. Garments, lace, and anything where appearance and fit matter should be blocked. If unsure, block the swatch first. Worst case: extra drying time.
+No. Dishcloths, practice swatches, items where dimensions don't matter, skip it. Garments, lace, and anything where appearance and fit matter should be blocked. If you're unsure, follow the yarn label or manufacturer's care instructions and test the intended blocking method on a swatch first. An unsuitable method can permanently alter or damage some fibers.
 
 **Can I over-block?**
 You can over-stretch, especially alpaca and superwash wool. Pinning beyond the fabric's natural dimensions leaves distorted stitches. Pin to pattern measurements, not further.

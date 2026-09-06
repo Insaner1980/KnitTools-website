@@ -136,7 +136,7 @@ Lav frynserne lidt for lange først, og klip dem lige, når alle sidder på plad
 
 Hvis du stopper midt på en pind, så skub maskerne godt ind mod midten af pinden, så de ikke glider af. Hvis du stopper mellem to pinde, er arbejdet mere stabilt. Opbevar projektet i en lukket pose og væk fra direkte sollys, som kan blege farver over tid.
 
-45 minutter er en god session for nye strikkere. Hænder og håndled bruger muskler, de ikke er vant til, og hvis du overdriver den første uge, kan ømheden sidde i flere dage. Det er bedre at strikke lidt hver dag end to timer én gang om ugen.
+For nogle nye strikkere kan 45 minutter være en overskuelig session, men det er kun et eksempel. Hold grebet afslappet, tag korte pauser, og stop eller skift aktivitet, hvis du får smerter, prikken eller følelsesløshed. Vedvarende, forværrede eller neurologiske symptomer kan kræve en faglig vurdering.
 
 ## FAQ
 

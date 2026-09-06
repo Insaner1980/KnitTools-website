@@ -133,7 +133,7 @@ Förvara plant eller vikt. Upphängning töjer stickat tyg över tid, särskilt 
 ## FAQ
 
 **Måste jag blocka varje projekt?**
-Nej. Disktrasor, övningslappar och saker där måtten inte spelar roll kan hoppas över. Plagg, spets och allt där utseende och passform spelar roll bör blockas. Om du är osäker, blocka provlappen först. I värsta fall förlorar du torktid.
+Nej. Disktrasor, övningslappar och saker där måtten inte spelar roll kan hoppas över. Plagg, spets och allt där utseende och passform spelar roll bör blockas. Om du är osäker, följ garnets eller tillverkarens skötselråd och testa den tänkta blockningsmetoden på ett stickprov först. En olämplig metod kan förändra eller skada vissa fibrer permanent.
 
 **Kan jag överblocka?**
 Du kan sträcka för mycket, särskilt alpacka och superwash-ull. Nålar du tyget bortom dess naturliga mått blir maskorna förvrängda. Nåla till mönstrets mått, inte längre.

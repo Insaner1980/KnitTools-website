@@ -30,7 +30,7 @@ De flesta sittande sockor byggs av samma zoner, även när konstruktionen ändra
 
 **Häl.** Den formade delen som omsluter hälen. Det är här konstruktionen blir intressant och där de flesta skillnader mellan sockmönster finns.
 
-**Kil.** Triangulära partier på vardera sidan av foten som går från den bredare hälen tillbaka till den smalare fotomkretsen. Alla hältyper använder inte kil. Kilen är det som gör att en socka med hällapp sitter bra över vristen, fotens högsta och bredaste del.
+**Kil.** Triangulära partier på vardera sidan av foten som går från den bredare hälen tillbaka till den smalare fotomkretsen. Alla hältyper använder inte kil. I en socka med hällapp kan kilen ge utrymme i övergången mellan hälen och fotens ovansida. Fotens ovansida är den övre delen av foten och sockans motsvarande ovansida.
 
 **Fot.** Tuben som täcker sula och ovansida. Oftast slätstickning på sulan, med mönstret fortsatt på ovansidan. Längden bestäms av fotmåttet, inte av ett fast varvantal. Prova sockan eller mät under arbetets gång.
 
@@ -46,7 +46,7 @@ Fördelar: väldokumenterad hälkonstruktion, intuitiv riktning och en resårupp
 
 **Tå upp** börjar vid tån och arbetar mot mudden. Lägg upp med en särskild metod, där Judy's Magic Cast On är vanligast och Turkish cast on är en nära släkting. Sticka foten, gör hälen, sticka skaftet och maska av elastiskt, till exempel med Jeny's Surprisingly Stretchy Bind-Off eller en sydd tubular-avmaskning.
 
-Fördelar: prova medan du stickar, använd nästan hela garnmängden genom att fortsätta skaftet tills garnet börjar ta slut, och tån är stängd från början så du slipper sy ihop den i slutet. Nackdelar: tå-upp-hälar är andra tekniker än uppifrån-ner-hälar, den magiska uppläggningen kräver några försök för att bli snygg och en elastisk avmaskning vid mudden kan lätt bli för tajt eller knölig innan tekniken sitter.
+Fördelar: prova medan du stickar, använd nästan hela garnmängden men spara tillräckligt för den valda avmaskningen och för att fästa garnänden, och tån är stängd från början så du slipper sy ihop den i slutet. Sydda och tubular-avmaskningar kan kräva en betydligt längre garnände än en enkel avmaskning. Nackdelar: tå-upp-hälar är andra tekniker än uppifrån-ner-hälar, den magiska uppläggningen kräver några försök för att bli snygg och en elastisk avmaskning vid mudden kan lätt bli för tajt eller knölig innan tekniken sitter.
 
 Ingen riktning är bättre. De flesta sockstickare provar båda och väljer favorit. Mönster anger vilken metod de använder, och att byta riktning betyder att hälen och uppläggningen behöver göras om. I praktiken betyder det oftast att välja ett annat mönster.
 
@@ -103,7 +103,7 @@ Om du har [stickat en mössa](/sv/artiklar/sticka-mossa-metoder-for-alla-nivaer/
 
 ## Storlek och passform
 
-Mät fotens omkrets vid bredaste punkten, trampdynan strax bakom tårna. Mät fotlängden från hälens baksida till längsta tåns spets. De flesta mönster anger färdig sockomkrets och låter dig välja storlek efter fotomkrets.
+Använd det mått som mönstret efterfrågar. Fotomkretsen mäts normalt runt fotens bredaste del, ofta runt trampdynan strax bakom tårna. Mät fotlängden från hälens baksida till längsta tåns spets. Vissa sockkonstruktioner behöver dessutom ett diagonalmått runt hälen och fotens ovansida eller något annat konstruktionsspecifikt mått. De flesta mönster anger färdig sockomkrets och låter dig välja storlek efter fotomkrets.
 
 Färdig sockomkrets är vanligen mindre än foten, negativ rörelsevidd, ofta runt 10 procent för en enkel elastisk socka. Socktyget behöver krama foten för att sitta kvar. En socka med samma omkrets som foten kan sacka. En för liten socka blir obekväm och kan nötas fortare.
 
@@ -130,7 +130,7 @@ Mät fotens omkrets vid bredaste punkten, trampdynan. Sockans färdiga omkrets b
 Förstärk hällappen med lyfta maskor: lyft varannan maska på rätsidans varv och sticka avigsidan tillbaka som vanligt. Det lägger dubbelt garn vid ytan. Vissa stickare håller också en förstärkningstråd tillsammans med garnet genom hälpartiet. Det finns särskilda nylontrådar för just det, ofta i färger som matchar vanliga sockgarner.
 
 **Vad gör jag om garnet tar slut före tån?**
-I uppifrån-ner-sockor är tån sämsta stället att få slut på garn. Alternativen är att repa tillbaka och korta skaftet, byta till kontrastfärg i tån eller acceptera att sockorna blir lite korta. Tå upp undviker detta eftersom skaftet kommer sist och du kan sluta när garnet gör det.
+I uppifrån-ner-sockor är tån sämsta stället att få slut på garn. Alternativen är att repa tillbaka och korta skaftet, byta till kontrastfärg i tån eller acceptera att sockorna blir lite korta. Tå upp minskar risken eftersom skaftet kommer sist och du kan använda nästan allt garn, men spara tillräckligt för den valda avmaskningen och för att fästa garnänden. En sydd eller tubular-avmaskning kan kräva en betydligt längre garnände än en enkel avmaskning.
 
 **Måste båda sockorna matcha exakt?**
 Nej. Syskonsockor, samma mönster men olika färgordning från ett melerat garn, är helt normalt och många föredrar det framför att kämpa med exakt randstart i handfärgat garn. Om ränderna måste matcha är en smakfråga, inte en regel.

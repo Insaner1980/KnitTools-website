@@ -74,7 +74,7 @@ Beachte die Armausschnitttiefe in der Schnittzeichnung. Sie steht oft weniger pr
 
 Das passiert oft. Dein Brustumfang liegt in einer Größe, deine Hüfte braucht eine andere, und die Armlänge passt zu keiner.
 
-Beim Körper wählst du meist die Größe, die zum größten Maß passt, also Brust oder Hüfte, und passt den Rest an. Taillenformung in eine hüftpassende Größe einzubauen ist einfacher, als Breite in eine zu schmale Größe zu zaubern.
+Wähle die Ausgangsgröße nicht automatisch nach deinem größten Körpermaß. Vergleiche Schnittzeichnung und Fertigmaße mit der beabsichtigten Mehrweite und der Konstruktion des Kleidungsstücks. Konzentriere dich auf die Maße, die die am schwierigsten zu ändernden Bereiche bestimmen. Bei vielen körpernahen Modellen mit eingesetzten Ärmeln können Schulter und oberer Rumpf ein besserer Ausgangspunkt sein als der größte Umfang. Wechsle zwischen Größen oder passe andere Bereiche an, wo die Konstruktion es zulässt.
 
 Länge ist am leichtesten zu ändern. Viele Anleitungen sagen „stricken, bis das Teil X cm misst“, und du kannst frei anpassen. Du willst 43 cm statt 38 cm? Strick 5 cm mehr. Ärmellänge funktioniert genauso. Oberarmweite ist schwieriger, weil sie die Armkugel beeinflusst, also sollte sie möglichst gut passen.
 
@@ -136,7 +136,7 @@ Prüfe vor der Größenwahl deine [Maschenprobe](/de/artikel/maschenprobe-messen
 
 Die Garnart beeinflusst die Passform ebenfalls. Weich fallende Garne wie Baumwolle und Seide hängen anders als federnde Wolle. Ein Baumwollpullover und ein Wollpullover in derselben Größe sitzen nicht gleich. Wenn du [Garn ersetzt](/de/artikel/garn-in-einer-strickanleitung-ersetzen/), rechne das mit ein.
 
-Wenn du für den Oberkörper eine Größe und für den unteren Körper eine andere brauchst, ist das Gradieren. Folge für Passe und Brust der oberen Größe, nimm zur Taille hin zu oder ab, bis du bei der unteren Größe bist. Manche Anleitungen enthalten verkürzte Reihen für Brustformung oder getrennte Ober-/Untergrößen. Wenn nicht, braucht diese Änderung etwas Strickmathematik.
+Wenn du für den Oberkörper eine Größe und für den unteren Körper eine andere brauchst, wechselst du zwischen Größen oder kombinierst sie. Folge für Passe und Brust der oberen Größe und nimm zur Taille hin dort zu oder ab, wo die Konstruktion es zulässt, bis du die untere Größe erreichst. Das ist kein Gradieren: Beim Gradieren wird eine Anleitung für eine ganze Größenreihe entwickelt. Manche Anleitungen enthalten verkürzte Reihen für Brustformung oder getrennte Ober-/Untergrößen. Wenn nicht, braucht diese Änderung etwas Strickmathematik.
 
 ## FAQ
 
@@ -144,10 +144,10 @@ Wenn du für den Oberkörper eine Größe und für den unteren Körper eine ande
 Eine dünne Schicht, zum Beispiel ein T-Shirt, kommt dem späteren Tragen meist am nächsten. Über dicker Kleidung wird das Maß zu groß.
 
 **Meine Maße liegen in drei verschiedenen Größen. Was nun?**
-Wähle die Größe, die dem wichtigsten größten Maß am nächsten kommt, und plane Änderungen für die anderen Stellen. Länge ist meist am einfachsten. Brustweite ist schwieriger. Schulterbreite ist am schwierigsten. Wenn nicht alles gleichzeitig passt, priorisiere Schulter und Brust.
+Nutze die Schnittzeichnung und die beabsichtigte Mehrweite, um die Größe zu finden, die am besten zum am schwierigsten zu ändernden Bereich der Konstruktion passt. Bei vielen körpernahen Modellen mit eingesetzten Ärmeln kann das bedeuten, Schulter und oberen Rumpf statt des größten Umfangs zu priorisieren. Wechsle zwischen Größen oder ändere andere Maße nur dort, wo die Konstruktion der Anleitung es zulässt.
 
 **Spielt die Reihenprobe für die Passform eine Rolle?**
-Meist weniger als die Maschenprobe. Die Ausnahme sind Passenpullover, bei denen die Reihenprobe die Passentiefe bestimmt. Wenn sie deutlich abweicht, wird die Passe zu flach oder zu tief. Bei vielen Pullis werden Körper- und Ärmellängen dagegen bis zu einem Maß gestrickt, sodass die Reihenprobe dort flexibler ist.
+Die Reihenprobe kann bei einem einfachen Teil weniger wichtig sein als die Maschenprobe, wenn bis zu einem gemessenen Maß gestrickt wird und wenig oder keine von festen Reihenzahlen abhängige Formgebung vorkommt. Sie ist wichtig, sobald feste Reihenzahlen senkrechte Maße oder den Zeitpunkt der Formgebung bestimmen, etwa bei Passen, Raglanschrägen, Armausschnitten, Armkugeln, Taillen- oder Ärmelformung und vertikalen Musterrapporten.
 
 **Was, wenn Ravelry-Projekte sagen, dass die Anleitung klein oder groß ausfällt?**
 Lies mehrere Projekte, bevor du daraus eine Regel machst. Manchmal verzerren ein paar Projekte mit falscher Maschenprobe den Eindruck. Wenn fünf verschiedene Personen schreiben, dass die Anleitung klein ausfällt, nimm das ernst und erwäge eine größere Größe.

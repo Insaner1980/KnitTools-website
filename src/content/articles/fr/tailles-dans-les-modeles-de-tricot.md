@@ -74,7 +74,7 @@ Regarde aussi la profondeur d'emmanchure. Elle est souvent moins visible que la 
 
 Cela arrive souvent. Ta poitrine te met dans une taille, tes hanches dans une autre, et la longueur de bras ne correspond à aucune.
 
-Pour le corps, choisis la taille qui convient à ta mesure la plus grande, souvent poitrine ou hanches, puis modifie le reste. Il est plus facile d'ajouter un façonnage de taille à un modèle choisi pour tes hanches que d'ajouter de la largeur à un modèle trop étroit.
+Pour choisir une taille de départ, compare le schéma et les mesures du vêtement terminé avec l'aisance prévue et la construction du vêtement. Concentre-toi sur les dimensions qui déterminent les parties les plus difficiles à modifier. Pour beaucoup de vêtements ajustés à manches montées, les épaules et le haut du buste peuvent constituer un meilleur point de départ que la plus grande circonférence. Passe progressivement d'une taille à l'autre ou ajuste d'autres zones lorsque la construction le permet.
 
 La longueur est ce qu'il y a de plus facile à changer. Beaucoup de modèles disent "tricoter jusqu'à ce que la pièce mesure X cm", et tu peux ajuster librement. Tu veux 43 cm au lieu de 38 ? Tricote 5 cm de plus. La longueur de bras fonctionne pareil. La largeur du haut de bras est plus délicate, parce qu'elle influence la tête de manche, donc essaie de la faire correspondre au modèle.
 
@@ -136,7 +136,7 @@ Avant de choisir une taille, [vérifie ton échantillon](/fr/articles/mesurer-un
 
 Le type de fil compte aussi pour le tombé. Les fils fluides comme le coton et la soie pendent autrement qu'une laine élastique, donc un pull en coton et un pull en laine dans la même taille ne tomberont pas de la même manière. Si tu [remplaces le fil](/fr/articles/remplacer-un-fil-dans-un-modele/), tiens-en compte.
 
-Si tu as besoin d'une taille pour le haut du corps et d'une autre pour le bas, c'est du grading. Suis la taille du haut pour l'empiècement et la poitrine, puis augmente ou diminue vers la taille du bas à la taille ou aux hanches. Certains modèles incluent des rangs raccourcis pour la poitrine ou des tailles séparées haut/bas. Quand ce n'est pas le cas, cette modification demande un peu de calcul tricot.
+Si tu as besoin d'une taille pour le haut du corps et d'une autre pour le bas, passe progressivement d'une taille à l'autre. Suis la taille du haut pour l'empiècement et la poitrine, puis augmente ou diminue vers la taille du bas à la taille ou aux hanches, lorsque la construction le permet. Cette adaptation n'est pas de la gradation : la gradation est le processus par lequel la personne qui conçoit le modèle le décline dans toute sa gamme de tailles. Certains modèles incluent des rangs raccourcis pour la poitrine ou des tailles séparées haut/bas. Quand ce n'est pas le cas, cette modification demande un peu de calcul tricot.
 
 ## FAQ
 
@@ -146,11 +146,11 @@ Sur une couche fine, comme un t-shirt, c'est souvent le plus proche de la façon
 
 **Mes mesures tombent dans trois tailles différentes. Que faire ?**
 
-Choisis la taille la plus proche du plus grand point critique, puis planifie les autres modifications. La longueur est généralement l'ajustement le plus tolérant. La largeur de poitrine est plus difficile. La largeur d'épaules est souvent la plus difficile. Si tu ne peux pas tout avoir, priorise épaules et poitrine.
+Utilise le schéma et l'aisance prévue pour déterminer quelle taille convient le mieux à la partie la plus difficile à modifier. Pour beaucoup de vêtements ajustés à manches montées, cela peut vouloir dire privilégier les épaules et le haut du buste plutôt que la plus grande circonférence. Passe progressivement d'une taille à l'autre ou modifie les autres dimensions seulement lorsque la construction du modèle le permet.
 
 **L'échantillon en rangs compte-t-il pour la coupe ?**
 
-Dans la plupart des pièces, moins que le nombre de mailles pour 10 cm. L'exception, ce sont les pulls à empiècement, où l'échantillon en rangs détermine la profondeur du haut du pull. Si l'écart est important, l'empiècement peut devenir trop court ou trop profond. Pour beaucoup de corps et de manches, on tricote jusqu'à une mesure, ce qui rend le nombre de rangs plus tolérant.
+L'échantillon en rangs peut compter moins que l'échantillon en mailles lorsqu'une pièce simple se tricote directement jusqu'à une longueur mesurée et comporte peu ou pas de façonnage dépendant d'un nombre fixe de rangs. Il compte chaque fois qu'un nombre de rangs fixe détermine une dimension verticale ou le moment du façonnage : empiècement, raglan, emmanchure, tête de manche, façonnage de la taille ou de la manche et répétitions verticales du motif.
 
 **Et si les projets Ravelry disent que le modèle taille petit ou grand ?**
 

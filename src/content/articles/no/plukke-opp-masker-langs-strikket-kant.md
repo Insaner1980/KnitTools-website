@@ -48,9 +48,9 @@ Hvis oppskriften oppgir et nøyaktig antall oppplukkede masker, deler du antalle
 
 ### Langs en kant med løftede kantmasker
 
-Hvis du løftet første maske på hver pinne mens du strikket delen, har sidekanten en kjede av parvise tråder i stedet for én tydelig tråd per pinne. Plukk opp én maske under hvert kjedeledd, altså under de to trådene som danner en V i kjeden. Fordi hvert kjedeledd tilsvarer to pinner, blir dette 1 oppplukket maske per 2 pinner, som ofte er for lite i glattstrikk.
+Hvis du løftet første maske på hver pinne mens du strikket delen, har sidekanten en kjede av parvise tråder i stedet for én tydelig tråd per pinne. Plukk opp én maske under hvert kjedeledd, altså under de to trådene som danner en V i kjeden. Hvert kjedeledd tilsvarer vanligvis to pinner, så én oppplukket maske per kjedeledd kan gi betydelig færre masker enn en knappestolpe eller kant trenger.
 
-To løsninger fungerer. Plukk opp i kjeden og legg til en ekstra maske i tråden mellom kjedeleddene med jevne mellomrom, slik at du kommer nær 3 masker på 4 pinner. Eller plukk opp én maske per kjedeledd og godta en litt fastere kant. Det kan passe i vrangbord, siden vrangbord trekker seg inn uansett. Løftede kantmasker gjør oppplukkingen raskere og renere, men forholdet må fortsatt stemme med kanten du skal strikke.
+At vrangbord trekker seg sammen, gjør ikke automatisk én maske per kjedeledd riktig. Følg oppskriftens oppgitte maskeantall. Ellers beregner og justerer du oppplukkingsforholdet ut fra kantens pinnefasthet eller lengde og ønsket maskefasthet eller maskeantall for kanten som skal strikkes. Bruk én maske per kjedeledd bare når det gir riktig maskeantall og en flat kant med god passform.
 
 ### Langs en rillestrikket kant
 
@@ -134,11 +134,11 @@ Det er nyttig på gensere der oppplukkingen går rundt en tilpasset halsutringni
 
 ## Plukke opp for steeker
 
-Etter at en steek er klippet, altså en ekstra maskekolonne i rundstrikk som klippes opp for for eksempel en kofte, må den rå kanten stabiliseres raskt. Klippede garnender frynser hvis de blir liggende åpne, og en oppplukket kant låser dem.
+En steek må forsterkes før klipping når garnet, fiberen eller metoden krever det. Garn som ikke tover, som bomull og superwash-ull, bør forsterkes med hekling eller maskinsøm på begge sider før du klipper. Ubehandlet ull kan gripe eller tove seg nok til å oppføre seg sikrere.
 
-Plukk opp i maskekolonnen rett innenfor klippet, ikke i de rå trådendene. Kantens første pinne fanger de klippede endene bak de nye maskene. Når kanten er strikket, synes ikke endene fra rettsiden og ligger fast.
+Etter klippingen må den klippede fliken eller kanten sikres og ferdigstilles slik den valgte metoden krever. Plukk deretter opp masker i maskekolonnen rett innenfor klippet, ikke i de rå trådendene.
 
-Garn som ikke tover, som bomull og superwash-ull, bør forsterkes med hekling eller maskinsøm på begge sider før du klipper. Ubehandlet ull hekter seg lettere i seg selv. Bomull og superwash gjør det ikke.
+Den oppplukkede kanten kan dekke trådendene fra rettsiden og bidra til å stabilisere den ferdigbehandlede klippekanten, men den erstatter ikke nødvendig forsterkning eller annen kantbehandling.
 
 ## Vanlige spørsmål
 

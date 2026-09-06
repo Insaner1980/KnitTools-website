@@ -30,7 +30,7 @@ De fleste strømper med god pasform er bygget af de samme zoner, selv når konst
 
 **Hæl.** Den formede del, der ligger rundt om hælen. Det er her konstruktionen bliver interessant, og her ligger meget af forskellen mellem strømpeopskrifter.
 
-**Kile.** Trekantede sektioner på hver side af foden, der går fra den bredere hæl tilbage til den smallere fodomkreds. Ikke alle hæltyper bruger kile. Kilen er det, der får en strømpe med hælflap til at sidde godt over vristen, den højeste og bredeste del af foden.
+**Kile.** Trekantede sektioner på hver side af foden, der går fra den bredere hæl tilbage til den smallere fodomkreds. Ikke alle hæltyper bruger kile. I en strømpe med hælflap kan kilen give plads gennem overgangen mellem hæl og vrist. Vristen er den øverste del af foden og den tilsvarende øverste del af strømpen.
 
 **Fod.** Røret der dækker sål og vrist. Som regel glatstrik på sålen, mens mønsteret fortsætter på vristen. Længden bestemmes af fodmålet, ikke af et fast antal omgange. Prøv strømpen på eller mål undervejs.
 
@@ -46,7 +46,7 @@ Fordele: velbeskrevet hælkonstruktion, intuitiv retning og et ribopslag, der t�
 
 **Fra tåen og op** starter ved tåen og arbejder mod ribkanten. Slå op med en særlig metode, ofte Judy's Magic Cast On eller Turkish cast on, strik foden, lav hælen, strik skaftet, og luk af med en elastisk aflukning som Jeny's Surprisingly Stretchy Bind-Off eller en syet tubular aflukning.
 
-Fordele: du kan prøve undervejs, bruge næsten hele garnmængden ved at fortsætte skaftet til garnet nærmer sig slutningen, og tåen er lukket fra starten, så du slipper for maskesting til sidst. Ulemper: tå-op-hæle er andre teknikker end hæle fra skaftet og ned, det magiske opslag kræver nogle forsøg før det bliver pænt, og en elastisk aflukning ved ribkanten kan hurtigt blive for stram, før teknikken sidder.
+Fordele: du kan prøve undervejs og bruge næsten hele garnmængden, fordi skaftet kommer til sidst. Reservér dog nok garn til den valgte aflukning og til at hæfte enden og gøre arbejdet færdigt. Syede og tubular-aflukninger kan kræve en væsentligt længere garnende end en enkel aflukning. Tåen er lukket fra starten, så du slipper for maskesting til sidst. Ulemper: tå-op-hæle er andre teknikker end hæle fra skaftet og ned, det magiske opslag kræver nogle forsøg før det bliver pænt, og en elastisk aflukning ved ribkanten kan hurtigt blive for stram, før teknikken sidder.
 
 Ingen retning er bedre. De fleste strikkere prøver begge og får en favorit. Opskrifter angiver hvilken de bruger, og at skifte retning betyder, at hælen og opslaget skal bygges om. I praksis betyder det ofte, at du bør vælge en anden opskrift.
 
@@ -103,7 +103,7 @@ Hvis du har [strikket en hue](/da/artikler/strik-hue-metoder/) rundt og kan lave
 
 ## Størrelse og pasform
 
-Mål fodens omkreds på det bredeste sted, ved trædepuden lige bag tæerne. Mål fodlængden fra bagsiden af hælen til spidsen af den længste tå. De fleste opskrifter angiver færdig strømpeomkreds og lader dig vælge størrelse efter fodomkreds.
+Brug det mål, opskriften beder om. Et almindeligt fodomkredsmål tages rundt om fodens bredeste sted, ofte ved trædepuden. Mål fodlængden fra bagsiden af hælen til spidsen af den længste tå. Nogle strømpekonstruktioner kræver desuden et diagonalt mål omkring hæl og vrist eller et andet konstruktionsspecifikt mål. De fleste opskrifter angiver færdig strømpeomkreds og lader dig vælge størrelse efter fodomkreds.
 
 Den færdige strømpeomkreds er som regel mindre end foden, altså negativt bevægelsesrum, ofte omkring 10 % for en enkel elastisk strømpe. Strømpestoffet skal sidde tæt om foden for at blive på plads. En strømpe med samme omkreds som foden kan glide ned. En for lille strømpe bliver ubehagelig og kan slides hurtigere.
 
@@ -126,13 +126,13 @@ De enkelte teknikker er ikke svære. Hælen kræver omhyggelig læsning af opskr
 Ikke rigtigt. Strømper er rør. Du kan strikke flade stykker og sy dem sammen, men sømme giver ubehagelige kanter indvendigt i skoen. Rundstrikket konstruktion anbefales klart. Hvis lige pinde er din eneste mulighed, er et andet førsteprojekt bedre.
 
 **Hvordan ved jeg hvilken størrelse jeg skal strikke?**
-Mål fodens omkreds på det bredeste sted, ved trædepuden. Strømpens færdige omkreds bør være omkring 10 % mindre, negativt bevægelsesrum, fordi stoffet strækker sig om foden. De fleste opskrifter angiver størrelser ud fra det mål. Hvis foden ligger mellem to størrelser, vælg mindre for en tættere pasform eller større, hvis dine fødder hæver i løbet af dagen.
+Brug det mål, opskriften beder om. Hvis størrelsen bygger på fodomkreds, måles den normalt rundt om fodens bredeste sted, ofte ved trædepuden. Nogle konstruktioner kræver også et diagonalt mål omkring hæl og vrist eller et andet konstruktionsspecifikt mål. Strømpens færdige omkreds bør ofte være omkring 10 % mindre ved en enkel elastisk strømpe, men følg opskriftens anbefalede bevægelsesrum. Hvis målet ligger mellem to størrelser, vælg den mindre for en tættere pasform eller den større, hvis dine fødder hæver i løbet af dagen.
 
 **Mine strømper slides igennem ved hælen.**
 Forstærk hælflappen med et løsmaske-mønster: tag hver anden maske løst af på retsidepinde og strik vrangsiden tilbage som normalt. Det lægger dobbelt garn i overfladen. Nogle strikkere holder også en forstærkningstråd sammen med garnet gennem hælsektionen. Der findes særlige nylonforstærkningstråde netop til det, ofte i farver der matcher almindeligt strømpegarn.
 
 **Hvad hvis garnet slipper op før tåen?**
-I strømper fra skaftet og ned er tåen det værste sted at løbe tør for garn. Mulighederne er at trevle op og gøre skaftet kortere, skifte til en kontrastfarve i tåen eller acceptere, at strømperne bliver lidt korte. Tå-op undgår problemet, fordi skaftet kommer til sidst, og du kan stoppe, når garnet gør.
+I strømper fra skaftet og ned er tåen det værste sted at løbe tør for garn. Mulighederne er at trevle op og gøre skaftet kortere, skifte til en kontrastfarve i tåen eller acceptere, at strømperne bliver lidt korte. Tå-op mindsker risikoen, fordi skaftet kommer til sidst, men stop, mens der stadig er nok garn til den valgte aflukning og til at hæfte enden. Syede og tubular-aflukninger kan kræve en længere garnende.
 
 **Skal begge strømper matche præcis?**
 Nej. Søskende-strømper, altså samme opskrift men forskellig farverækkefølge fra meleret eller håndfarvet garn, er helt normale. Mange strikkere foretrækker det frem for at kæmpe for at starte striberne præcis samme sted. Perfekt match er en præference, ikke en regel.

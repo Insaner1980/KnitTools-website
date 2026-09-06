@@ -76,11 +76,11 @@ För en synligare variant kan avmaskningen göras med avigsidorna mot varandra. 
 
 Maskstygn, ofta kallat Kitchener stitch i engelska mönster, är det nästan osynliga alternativet när två kanter med levande maskor ska fogas ihop. Det används på socktår och ibland på masksydda axlar, halskragar eller ombyggda tröjdelar där stickningen ska fortsätta utan ås.
 
-Håll två stickor parallellt med samma antal levande maskor på varje. Trä en stoppnål med en lång bit matchande garn. I slätstickning är rytmen: framstickan rätt av, framstickan avigt kvar, bakstickan avigt av, bakstickan rätt kvar. Upprepa över hela kanten.
+Håll de två stickorna parallellt med avigsidorna mot varandra, med lika många levande slätstickade maskor på båda och stickspetsarna åt höger. Arbetsgarnet ska komma från den första maskan på den bakre stickan. Trä en stoppnål med en lång bit matchande garn. Börja med att föra stoppnålen avigt genom den första maskan på främre stickan och låta maskan sitta kvar, sedan rätt genom den första maskan på bakre stickan och låta den sitta kvar. Upprepa fyrtakten: främre stickan rätt av, främre stickan avigt kvar, bakre stickan avigt av, bakre stickan rätt kvar. När en maska återstår på varje sticka tar du av den främre maskan rätt och den bakre maskan avigt. Håll de sydda öglorna ungefär lika stora som de intilliggande maskorna och justera garnspänningen längs fogen innan du fäster garnänden.
 
 Rätt utfört bildar maskstygnen ett extra varv slätstickning som fogar ihop delarna utan synlig söm. Fel utfört blir det en rad vridna eller ojämna maskor som är besvärlig att backa. Ha rytmen framför dig de första gångerna. Efter en socktå brukar många kunna den i händerna.
 
-Maskstygn kan också användas mitt i ett projekt. Om en tröjkropp klipps upp ovanför uppläggningen för att lägga till längd kan en ny del fogas in rent med maskstygn, om varvfasthet och struktur stämmer.
+Maskstygn kan också användas mitt i ett projekt, men det går inte att göra ogjort att klippa i ett färdigt plagg. Matchande varvtäthet och maskstruktur räcker inte: stickriktningen spelar roll, och en fog mellan två överkanter beter sig annorlunda än en fog mellan en överkant och en nederkant. Resår, flätor, spetsstickning och andra lodräta motiv kan få en förskjutning på en halv maska eller någon annan misspassning. Prova den planerade fogen på ett stickprov innan du klipper i ett färdigt plagg.
 
 ## Kaststygn, snabb montering
 

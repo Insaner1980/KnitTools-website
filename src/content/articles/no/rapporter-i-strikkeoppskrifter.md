@@ -16,7 +16,7 @@ lang: no
 translationKey: "knitting-pattern-repeats"
 ---
 
-Rapporter er måten oppskrifter slipper å skrive ut hver maske over en pinne med 200 masker. I stedet for "2 r, 2 vr, 2 r, 2 vr, 2 r, 2 vr..." tjuefem ganger, skriver oppskriften `*2 r, 2 vr; gjenta fra * pinnen ut`. Samme resultat, mye mindre plass.
+Rapporter er måten oppskrifter slipper å skrive ut hver maske over en pinne med 200 masker. I stedet for "2 r, 2 vr, 2 r, 2 vr, 2 r, 2 vr..." femti ganger, skriver oppskriften `*2 r, 2 vr; gjenta fra * pinnen ut`. Samme resultat, mye mindre plass.
 
 I strikkeoppskrifter bruker rapporter stjerner (\*), klammer [] eller parenteser () for å markere en del masker som gjentas flere ganger over pinnen. Notasjonen er effektiv når du er vant til den. Men de første møtene med nestede rapporter eller stjerner med rester kan føles som å lese et språk du nesten kan.
 

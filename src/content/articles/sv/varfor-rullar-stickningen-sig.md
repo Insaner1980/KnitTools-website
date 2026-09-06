@@ -22,7 +22,7 @@ I slätstickning vänder alla räta maskor mot ena sidan och alla aviga bubblor 
 
 ## Vad som inte löser rullning
 
-Hårdare handlag gör tyget fastare, vilket minskar rullningen lite, men den finns kvar. Större stickor ger ett lösare tyg som rullar lika mycket proportionellt. Styvare garnsorter (bomull, linne) rullar mindre aggressivt än fjädrande garn (ull), men de rullar fortfarande. Ånga kan platta till tillfälligt, men om du inte arbetar med akryl (som kan "dödas" med ånga för att permanent ändra form) kommer rullningen tillbaka när tyget slappnar av eller tvättas.
+Hårdare handlag gör tyget fastare, vilket minskar rullningen lite, men den finns kvar. Att byta stickstorlek förändrar tygets täthet och fall, men är ingen tillförlitlig lösning mot rullning. Styvare garnsorter (bomull, linne) rullar mindre aggressivt än fjädrande garn (ull), men de rullar fortfarande. Ånga kan platta till tillfälligt, men om du inte arbetar med akryl (som kan "dödas" med ånga för att permanent ändra form) kommer rullningen tillbaka när tyget slappnar av eller tvättas.
 
 Inget av detta löser den underliggande fysiken. Det hanterar den bara.
 
@@ -40,13 +40,13 @@ Att lägga till en struktur som inte rullar i kanterna på slätstickning är de
 
 Rätstickad kant är det vanligaste valet. Rätstickning ligger platt eftersom varje varv växlar mellan räta och aviga som de syns från en sida. Tre till fem maskor i varje sidokant och några varv upptill och nedtill räcker oftast för en halsduk. Smala stycken behöver proportionerligt bredare kanter.
 
-Mosstickning (växelvis 1 rät, 1 avig i varje maska och varje varv) ligger helt platt och ger en strukturerad ram. Den använder mer garn än rätstickning och kräver mer uppmärksamhet för att bli rätt. Resår (1 rm, 1 am eller 2 rm, 2 am) upptill och nedtill är standard för tröjkanter och muddar. Platt, elastisk, greppande.
+Mosstickning växlar räta och aviga maskor både i sidled och höjdled. Med ett udda maskantal upprepar du 1 rm, 1 am på varje varv. Med ett jämnt maskantal växlar du ett varv med 1 rm, 1 am och ett varv med 1 am, 1 rm. Sticka i båda fallen räta maskor över föregående varvs aviga maskor och aviga maskor över de räta. Det ger en vändbar kant som motverkar rullning, men är ingen garanti för att varje tyg ligger helt plant. Mosstickning använder mer garn än rätstickning och kräver mer uppmärksamhet för att bli rätt. Resår (1 rm, 1 am eller 2 rm, 2 am) upptill och nedtill är standard för tröjkanter och muddar: platt, elastisk och greppande.
 
 Kanten är inte en eftertanke. Planera in den i designen från början. Att lägga till en på ett färdigt stycke betyder att [plocka upp maskor](/sv/artiklar/plocka-upp-maskor-langs-stickad-kant/), vilket fungerar men kräver mer arbete än att ha med den från början.
 
 ### Kantbredd efter garntjocklek
 
-Hur bred kanten behöver vara följer garntjockleken och styckets storlek. Tyngre tyg står emot rullning lite bättre av sig självt. Tunnare tyg behöver mer hjälp.
+Garntjockleken ensam avgör inte hur mycket en slätstickad kant rullar sig eller hur bred kanten behöver vara. Maskstruktur, stickfasthet, fibrernas och materialets egenskaper, styckets mått och kantens konstruktion spelar också in. Ett tjockare eller tätare tyg kan ibland se mindre rullat ut, men det är ingen tillförlitlig regel.
 
 | Garntjocklek     | Sidokant, varje sida | Uppläggning och avmaskning |
 | ---------------- | -------------------- | -------------------------- |
@@ -56,7 +56,7 @@ Hur bred kanten behöver vara följer garntjockleken och styckets storlek. Tyngr
 | Worsted          | 4–6 maskor           | 4–6 varv                   |
 | Aran / bulky     | 3–4 maskor           | 3–4 varv                   |
 
-Se siffrorna som startpunkter, inte regler. Ett brett stycke behöver ofta proportionellt mindre kant än ett smalt. En 30 cm bred halsduk i Fingering kan behöva 12 maskor per sida, medan en 60 cm bred sjal kan klara sig med färre.
+Se siffrorna som grova experimentella startpunkter, inte som regler eller en garanti för ett plant resultat. Testa den tänkta kanten på ett tillräckligt stort stickprov med projektets garn och stickfasthet. Bedöm stickprovet avslappnat och sedan igen efter samma efterbehandling eller blockning som planeras för projektet.
 
 ### Lyft kantmaska
 
@@ -94,7 +94,7 @@ Det spelar roll i vändbara projekt. Paneler med slätstickning och avigvänd sl
 
 Slätstickning runt slipper problemet med sidokanter, eftersom tyget är en sammanhängande tub. Mössor, halskragar och tröjkroppar i slätstickning ser därför ofta bra ut utan sidokanter. Uppläggning och avmaskning rullar fortfarande, och därför avslutas de ofta med resår, rätstickning eller en annan kant.
 
-Sedan finns steekar. En steek är extra maskor som stickas för att kunna klippa upp ett runt stickat stycke efteråt, ofta i koftor. När du klipper upp en slätstickad steek får du råa slätstickade kanter, och de rullar som alla andra slätstickade kanter. Därför behöver steekade koftor förstärkning och en upplockad framkant eller kantlist ganska direkt. Kanten stabiliserar öppningen innan rullningen hinner ta över.
+Sedan finns steekar. En steek är extra maskor som stickas för att kunna klippa upp ett runt stickat stycke efteråt, ofta i koftor. Säkerheten bygger på en planerad steekkonstruktion och garnets egenskaper, inte på att en kant sätts dit innan arbetet börjar rulla. Förstärk före klippning när fibern eller metoden kräver det. Efter klippningen säkrar och avslutar du flikarna eller kanterna på ett sätt som passar metoden. En upplockad framkant eller kantlist kan sedan täcka och hjälpa till att stabilisera den färdiga klippkanten.
 
 ## När rullning är okej
 
@@ -110,16 +110,16 @@ Stickning runt (mössor, halskragar, tröjkroppar) tar bort sidokanterna helt. U
 För ull håller blockningen ett tag, men rullningen kommer gradvis tillbaka med användning och tvätt. För akryl kan ångblockning permanent slappna av tyget ("döda" det), men det förändrar känslan. För bomull har blockning liten varaktig effekt.
 
 **Hur bred behöver en rätstickad kant vara?**
-För en halsduk i Worsted är 4-6 maskor på varje sida och 4-6 varv upptill och nedtill en rimlig start. Tunnare garn behöver bredare kanter; grövre garn behöver mindre. Om stycket är under 15 cm brett och helt slätstickat kan det rulla trots kant.
+För en halsduk i Worsted kan 4-6 maskor på varje sida och 4-6 varv upptill och nedtill vara en grov experimentell startpunkt, inte en garanti. Vilken bredd som behövs beror på projektets garn och stickfasthet, maskstruktur, styckets mått och kantkonstruktion, så prova på ett tillräckligt stort stickprov.
 
 **Kan jag lägga till en kant efter att stycket är färdigt?**
 Ja. Plocka upp maskor längs kanterna och sticka en kant på dem. Extra arbete, men det fungerar. Att virka en kant på kanten är ett annat alternativ som vissa stickare tycker går snabbare.
 
 **Påverkar garntjocklek hur mycket slätstickning rullar sig?**
-Alla tjocklekar rullar. Tjockare garn ger fastare tyg som rullar mindre dramatiskt. Slätstickning i Lace rullar kraftigt eftersom tyget är så lätt och följsamt.
+Garntjockleken kan påverka tygets tjocklek och täthet, men avgör inte rullningen på egen hand. Maskstruktur, stickfasthet, fiberegenskaper, styckets mått och kantkonstruktion spelar också in.
 
 **Varför låg provlappen platt men det färdiga stycket rullar?**
-En liten provlapp har mindre rullkraft än ett stort stycke. Provlappens egen storlek håller den ganska platt, särskilt om den var nålad när du mätte. När du skalar upp ökar dragningen längs kanterna proportionellt. En 10 cm bred provlapp kan se förvånansvärt lydig ut medan en 50 cm bred sjal i samma garn och på samma stickor rullar tydligt.
+En liten provlapp visar inte alltid hur ett stort stycke kommer att bete sig, särskilt om den nålades, sträcktes eller på annat sätt hölls platt vid mätningen. Använd ett tillräckligt stort stickprov, bedöm det avslappnat och bedöm det igen efter samma efterbehandling eller blockning som planeras för projektet.
 
 **Finns det garn som inte rullar i slätstickning?**
 Inte riktigt. Linne kommer närmast eftersom det har väldigt lite elasticitet, så obalansen mellan räta och aviga maskor får mindre fjädring att arbeta med. Bomull är liknande men kan fortfarande rulla. Allt med tydlig ullspänst rullar märkbart.

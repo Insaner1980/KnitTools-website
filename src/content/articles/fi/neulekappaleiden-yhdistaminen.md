@@ -75,11 +75,11 @@ Vähemmän piiloon jäävässä muunnelmassa kolmen puikon päättely tehdään 
 
 Kitchener stitch eli silmukointi yhdistää kaksi elävien silmukoiden riviä niin, että neulepinta jatkuu ilman näkyvää saumaa. Sitä käytetään usein sukan kärjessä, mutta sama ajatus toimii myös muissa kohdissa, joissa kaksi elävää reunaa pitää yhdistää ilman harjannetta.
 
-Pidä kaksi puikkoa rinnakkain ja varmista, että molemmilla on sama määrä eläviä silmukoita. Pujota päättelyneulaan pitkä pätkä samaa lankaa. Rytmi sileässä neuleessa on tämä: etupuikko oikein pois, etupuikko nurin jätä, takapuikko nurin pois, takapuikko oikein jätä. Toista koko reunan yli.
+Pidä kaksi puikkoa rinnakkain nurjat puolet vastakkain, kummallakin sama määrä sileän neuleen eläviä silmukoita ja puikkojen kärjet oikealle. Työlangan pitää lähteä takimmaisen puikon ensimmäisestä silmukasta; jätä siitä pitkä pää ja pujota se päättelyneulaan. Tee aloitus: vie neula etupuikon ensimmäisen silmukan läpi nurin neuloen ja jätä silmukka puikolle, sitten takapuikon ensimmäisen silmukan läpi oikein neuloen ja jätä se puikolle. Toista neljän vaiheen rytmiä: etupuikko oikein pois, etupuikko nurin jätä; takapuikko nurin pois, takapuikko oikein jätä. Kun kummallakin puikolla on yksi silmukka jäljellä, ota etupuikon silmukka pois oikein neuloen ja takapuikon silmukka pois nurin neuloen. Pidä jokainen silmukointilenkki viereisten silmukoiden kokoisena ja säädä lopuksi langan kireys koko silmukoinnin matkalta ennen langanpään päättelyä.
 
 Oikein tehtynä silmukointi muodostaa yhden uuden sileän neuleen kerroksen ja liitos katoaa. Väärin tehtynä se on kiertyneiden silmukoiden sotku, jota on työläs purkaa. Tulosta rytmi tai pidä ohje näkyvillä ensimmäisillä kerroilla. Moni oppii sen yhden sukan kärjen jälkeen eikä unohda.
 
-Silmukointia voi käyttää myös keskellä projektia. Jos villapaidan helman yläpuolelta leikataan kappale auki pituuden lisäämistä varten, uusi osa voidaan silmukoida takaisin niin, että liitos sulautuu hyvin, jos kerrostiheys ja mallineule täsmäävät.
+Silmukointia voi käyttää myös keskellä projektia, mutta valmiin vaatteen leikkaaminen on peruuttamatonta. Sama kerrostiheys ja mallineule eivät yksin riitä: neulomissuunta vaikuttaa, ja yläreunan silmukointi toiseen yläreunaan tai alareunaan voi käyttäytyä eri tavalla. Joustin, palmikot, pitsi ja muut pystysuuntaiset kuviot voivat paljastaa puolen silmukan siirtymän tai muun kohdistusvirheen. Testaa suunniteltu silmukointi mallitilkulla ennen valmiin vaatteen leikkaamista.
 
 ## Luotospisto nopeaan saumaan
 

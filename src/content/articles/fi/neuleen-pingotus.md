@@ -137,7 +137,7 @@ Säilytä valmis neule taiteltuna, ei henkarilla. Ripustaminen venyttää neulet
 ## FAQ
 
 **Pitääkö jokainen projekti pingottaa?**
-Ei. Tiskirätit, harjoitustilkut ja työt, joissa mitoilla ei ole väliä, voi jättää väliin. Vaatteet, pitsi ja kaikki missä ulkonäkö ja istuvuus merkitsevät kannattaa pingottaa. Jos et ole varma, pingota mallitilkku ensin. Pahimmillaan menetät kuivumisaikaa.
+Ei. Tiskirätit, harjoitustilkut ja työt, joissa mitoilla ei ole väliä, voi jättää väliin. Vaatteet, pitsi ja kaikki, missä ulkonäkö ja istuvuus merkitsevät, kannattaa pingottaa. Jos et ole varma, noudata vyötteen tai valmistajan hoito-ohjeita ja testaa aiottu pingotusmenetelmä ensin mallitilkkuun. Sopimaton menetelmä voi muuttaa tai vahingoittaa joitakin kuituja pysyvästi.
 
 **Voiko pingottaa liikaa?**
 Voi venyttää liikaa, erityisesti alpakkaa ja superwash-villaa. Jos neulaat kankaan yli sen luontaisten mittojen, silmukat vääristyvät. Neulaa ohjeen mittoihin, älä pidemmälle.

@@ -138,7 +138,7 @@ Som regel ja, men en overlapssamling kan give én eller to masker, hvor farverne
 Brug overlap i stedet. Russian join kræver sammenhængende tråde, som nålen kan gå igennem. Entrådede, løst tvundne og meget fluffy garner holder ikke samlingen lige så godt.
 
 **Ses samlingen på vrangsiden?**
-Lidt. Selv en ren filtsamling kan mærkes som et lille punkt, hvor garnet er anderledes. Overlap ses som et dobbelt stykke garn, indtil enderne er hæftet og klippet. Russian join ses som en lidt tykkere sektion. På retsiden af færdigt og blokket stof ses de normalt ikke.
+Lidt. Selv en ren filtsamling kan mærkes som et lille punkt, hvor garnet er anderledes. Overlap ses som et dobbelt stykke garn, indtil enderne er hæftet og klippet. Russian join kan give et tykkere område, og andre samlinger kan også forblive synlige. Synligheden afhænger af garn, fiber, strikkefasthed, maskemønster, samlingstype og placering. Hvis udseendet er vigtigt, så test samlingen og placér den et mindre synligt sted, når det er praktisk muligt.
 
 **Hvordan hæfter jeg ender i hulmønster eller andet åbent stof?**
 Det er sværere, fordi der er mindre stof at skjule enderne i. Følg en stabil maskesøjle på vrangsiden, altså masker der ikke er omslag, og del trådene let mens du hæfter. I meget åbent hulmønster er det bedre at planlægge samlinger ved kanten.

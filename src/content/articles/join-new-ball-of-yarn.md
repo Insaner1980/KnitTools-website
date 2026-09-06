@@ -130,7 +130,7 @@ Mostly yes, but a color change joined with an overlap will show one or two rows 
 Use the overlap method instead. The Russian join needs cohesive plies to pierce through. Singles, loosely-plied yarns, and very fluffy yarns won't hold the join.
 
 **Does the join show on the wrong side?**
-Slightly. Even a clean spit splice has a tiny bump where the splice happens. Overlap joins show as a doubled section of yarn until the tails are trimmed. Russian joins show as a thickened section. None of these are visible on the right side of finished, blocked fabric.
+Slightly. Even a clean spit splice has a tiny bump where the splice happens. Overlap joins show as a doubled section of yarn until the tails are trimmed. Russian joins can create a thickened area, and other joins may remain visible too. Visibility depends on the yarn, fiber, gauge, stitch pattern, join type, and placement. If appearance matters, test the join and place it in a less conspicuous spot where practical.
 
 **How do I weave in ends in lace or other open fabric?**
 Harder, because there's less fabric to hide tails in. Work the tail along the back of a structural column (the stitches that aren't yarn overs), splitting plies as you go. For very open lace, plan joins at the edges where they can be woven into the border rather than the body of the pattern.

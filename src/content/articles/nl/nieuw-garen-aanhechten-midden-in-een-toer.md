@@ -138,7 +138,7 @@ Meestal wel, maar een overlap kan één of twee steken geven waarin de kleuren l
 Gebruik dan de overlapmethode. Russian join heeft samenhangende draadjes nodig waar de naald doorheen kan prikken. Singles, los getwijnde garens en erg pluizige garens houden deze verbinding minder goed.
 
 **Is de aanhechting zichtbaar aan de verkeerde kant?**
-Een beetje. Zelfs een nette spit splice kan een klein puntje geven waar het garen anders voelt. Overlap toont als een dubbel stukje garen tot de draadjes zijn weggewerkt en afgeknipt. Russian join toont als een iets dikkere sectie. Aan de goede kant van afgewerkte, geblockte stof zijn deze verbindingen meestal discreet.
+Een beetje. Zelfs een nette spit splice kan een klein bobbeltje hebben waar de verbinding zit. Overlapverbindingen tonen een dubbel stuk garen tot de draadjes zijn weggewerkt en afgeknipt. Een Russian join kan een verdikte sectie vormen, en ook andere verbindingen kunnen zichtbaar blijven. Hoe zichtbaar ze zijn hangt af van het garen, de vezel, de stekenverhouding, het steekpatroon, de verbindingsmethode en de plaatsing. Als het uiterlijk belangrijk is, test je de verbinding en plaats je die waar mogelijk op een minder opvallende plek.
 
 **Hoe werk ik draadjes weg in ajour of andere open stof?**
 Dat is lastiger, omdat er minder stof is om de draadstaarten in te verbergen. Werk de staart langs een stabiele steekkolom aan de achterkant, dus niet langs de omslagen, en splits onderweg voorzichtig enkele draadjes. Bij heel open ajour plan je aanhechtingen liever aan de rand dan midden in het motief.

@@ -16,7 +16,7 @@ lang: de
 translationKey: "knitting-pattern-repeats"
 ---
 
-Rapporte verhindern, dass Anleitungen jede Masche einer 200-Maschen-Reihe ausschreiben müssen. Statt „2 re, 2 li, 2 re, 2 li, 2 re, 2 li ...“ fünfundzwanzigmal zu wiederholen, schreibt die Anleitung `*2 re, 2 li; ab * bis Reihenende wiederholen`. Gleiches Ergebnis, viel weniger Platz.
+Rapporte verhindern, dass Anleitungen jede Masche einer 200-Maschen-Reihe ausschreiben müssen. Statt „2 re, 2 li, 2 re, 2 li, 2 re, 2 li ...“ fünfzigmal zu wiederholen, schreibt die Anleitung `*2 re, 2 li; ab * bis Reihenende wiederholen`. Gleiches Ergebnis, viel weniger Platz.
 
 In Strickanleitungen markieren Sterne (\*), eckige Klammern [] oder runde Klammern () einen Maschenabschnitt, der mehrmals über die Reihe gearbeitet wird. Die Schreibweise ist effizient, wenn du sie kennst. Die ersten verschachtelten Rapporte oder Sterne mit Restmaschen können sich trotzdem anfühlen wie eine Sprache, die du fast sprichst.
 

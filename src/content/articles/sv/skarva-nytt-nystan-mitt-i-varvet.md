@@ -138,7 +138,7 @@ Oftast ja, men en överlappningsskarv kan ge en eller två maskor där färgerna
 Använd överlappningsskarv. Russian join behöver sammanhållna trådar som går att trä nålen genom. Entrådiga, löst tvinnade och mycket fluffiga garner håller inte skarven lika bra.
 
 **Syns skarven på avigsidan?**
-Lite. Även en ren filtad skarv kan kännas som en liten skillnad i garnet. Överlappning syns som en dubbel garnsträcka tills ändarna är fästa och klippta. Russian join syns som en förtjockning. På rätsidan av ett färdigt och blockat tyg syns de oftast inte.
+Lite. Även en ren filtad skarv kan kännas som en liten skillnad i garnet. Överlappning syns som en dubbel garnsträcka tills ändarna är fästa och klippta. Russian join kan ge en förtjockning, och även andra skarvar kan förbli synliga. Hur tydlig skarven blir beror på garn, fiber, stickfasthet, maskstruktur, skarvmetod och placering. Om utseendet är viktigt, testa skarven och placera den så diskret som praktiskt möjligt.
 
 **Hur fäster jag ändar i spets eller annat öppet tyg?**
 Det är svårare, eftersom det finns mindre tyg att gömma ändarna i. Följ en stabil maskkolumn på avigsidan, alltså maskor som inte är omslag, och dela trådarna lätt medan du fäster. I mycket öppen spets är det bättre att planera skarvar vid kanten.

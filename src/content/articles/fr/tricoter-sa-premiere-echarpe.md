@@ -138,7 +138,7 @@ Mets une frange toutes les une ou deux mailles de bord, des deux côtés. Coupe-
 
 Si tu t'arrêtes au milieu d'un rang, pousse les mailles vers le centre de l'aiguille pour qu'elles ne glissent pas. Si tu t'arrêtes entre deux rangs, l'ouvrage est plus stable. Garde le projet dans un sac fermé, à l'abri du soleil direct qui peut décolorer certains fils.
 
-Quarante-cinq minutes est une bonne séance pour débuter. Les mains et les poignets utilisent des mouvements nouveaux, et trop forcer la première semaine peut laisser des douleurs plusieurs jours. Mieux vaut tricoter un peu chaque jour que deux heures d'un coup.
+Pour certaines personnes qui débutent, 45 minutes peuvent être une durée de séance raisonnable. Garde une prise détendue, fais de courtes pauses et arrête-toi ou change d'activité si une douleur, des picotements ou un engourdissement apparaissent. Des symptômes persistants, qui s'aggravent ou sont d'ordre neurologique, comme un engourdissement, peuvent nécessiter l'avis d'un professionnel de santé.
 
 ## FAQ
 

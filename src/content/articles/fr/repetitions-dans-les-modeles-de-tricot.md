@@ -16,7 +16,7 @@ lang: fr
 translationKey: "knitting-pattern-repeats"
 ---
 
-Les répétitions évitent aux modèles d'écrire chaque maille sur un rang de 200 mailles. Au lieu de `2 m. end., 2 m. env., 2 m. end., 2 m. env...` vingt-cinq fois, le modèle écrit `*2 m. end., 2 m. env.; rép. depuis * jusqu'à la fin`. Même résultat, beaucoup moins de place.
+Les répétitions évitent aux modèles d'écrire chaque maille sur un rang de 200 mailles. Au lieu de `2 m. end., 2 m. env., 2 m. end., 2 m. env...` cinquante fois, le modèle écrit `*2 m. end., 2 m. env.; rép. depuis * jusqu'à la fin`. Même résultat, beaucoup moins de place.
 
 Dans les modèles de tricot, les répétitions utilisent des astérisques (\*), des crochets [] ou des parenthèses () pour marquer une section de mailles à travailler plusieurs fois sur le rang. La notation est efficace une fois qu'on y est habitué. Mais les premières rencontres avec des répétitions imbriquées ou des astérisques avec restes peuvent donner l'impression de lire une langue qu'on parle presque.
 

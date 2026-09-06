@@ -47,9 +47,9 @@ Jos ohje antaa tarkan poimittavan määrän, jaa se reunan pituudella. Sillä sa
 
 ### Nostetun reunasilmukan reunasta
 
-Jos olet nostanut jokaisen kerroksen ensimmäisen silmukan, reunaan muodostuu ketjumainen reuna. Se on siisti ja helppo käyttää, mutta siinä on vähemmän poimintakohtia kuin tavallisessa reunassa. Usein poimitaan yksi silmukka jokaista ketjusilmukkaa kohti, koska yksi ketjusilmukka vastaa kahta kerrosta.
+Jos olet nostanut jokaisen kerroksen ensimmäisen silmukan, reunaan muodostuu lankaparien ketju. Yksi ketjun lenkki vastaa tavallisesti kahta kerrosta, joten yksi poimittu silmukka lenkkiä kohti voi olla nappilistaan tai reunukseen selvästi liian vähän.
 
-Pelkkä yksi silmukka jokaista ketjusilmukkaa kohti on usein liian vähän sileässä neuleessa. Kaksi toimivaa ratkaisua: poimi ketjusta ja lisää väliin silmukka ketjujen välisestä juoksevasta langasta, jotta pääset lähelle 3:4-suhdetta, tai poimi yksi per ketju ja hyväksy hieman napakampi reunus. Jälkimmäinen voi toimia joustinneuleessa, koska joustin vetää muutenkin sisäänpäin. Nostettu reunasilmukka tekee poimimisesta nopeaa ja siistiä, mutta suhde pitää silti tarkistaa reunuksen tarpeeseen.
+Se, että joustin vetää sisäänpäin, ei tee tästä suhteesta automaattisesti oikeaa. Käytä ohjeen antamaa poimintamäärää, jos sellainen on. Muussa tapauksessa määritä ja säädä poimintasuhde reunan kerrostiheyden tai pituuden sekä reunuksen tavoitellun silmukkatiheyden tai silmukkamäärän perusteella. Poimi yksi silmukka ketjun lenkkiä kohti vain, jos saat sillä tavoitellun määrän ja reunus asettuu suoraksi ja sopivaksi.
 
 ### Ainaoikean reunasta
 
@@ -131,9 +131,9 @@ Näin voit tarkistaa määrän ja jaon ilman, että varsinainen lanka rispaantuu
 
 ## Steekkireunasta poimiminen
 
-Steekin leikkaamisen jälkeen, eli kun suljettuun neuleeseen leikataan ylimääräisten silmukoiden sarake esimerkiksi neuletakkia varten, raakareuna tarvitsee reunuksen nopeasti. Leikatut langanpäät rispaantuvat, jos ne jätetään paljaiksi, ja poimittu reunus vakauttaa ne.
+Kun asianmukaisesti valmisteltu steek on leikattu eli suljettuun neuleeseen on avattu ylimääräisten silmukoiden sarake esimerkiksi neuletakkia varten, poimittu reunalista voi peittää leikkausreunan ja auttaa vakauttamaan sitä. Reunalista ei korvaa ennen leikkaamista tehtävää vahvistusta silloin, kun lanka, kuitu tai steek-menetelmä sitä vaatii.
 
-Poimi silmukat leikkausreunan sisäpuolella olevasta silmukkasarakkeesta, ei leikatuista langanpäistä. Reunuksen ensimmäinen kerros vangitsee leikatut päät uusien silmukoiden taakse. Kun reunus on neulottu, leikatut päät eivät näy oikealle puolelle ja pysyvät paikallaan.
+Poimi silmukat leikkausreunan sisäpuolella olevasta silmukkasarakkeesta, ei leikatuista langanpäistä. Reunalista voi peittää leikatut päät oikealta puolelta, mutta leikattu läppä tai reuna pitää silti viimeistellä valitun menetelmän mukaisesti.
 
 Huopumattomilla langoilla, kuten puuvillalla ja superwash-villalla, steek pitää vahvistaa virkkaamalla tai ompelemalla molemmin puolin ennen leikkaamista. Käsittelemätön villa tarttuu itseensä paremmin. Puuvilla ja superwash eivät.
 

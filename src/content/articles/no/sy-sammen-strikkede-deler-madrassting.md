@@ -76,11 +76,11 @@ For en mer synlig variant kan avfellingen gjøres med vrangsidene mot hverandre.
 
 Maskesting, ofte kalt Kitchener stitch i engelske oppskrifter, er det nesten usynlige alternativet når to kanter med levende masker skal føyes sammen. Det brukes på sokketær og noen ganger på skuldre, halser eller ombygde genserdeler der strikkingen skal fortsette uten kant.
 
-Hold to pinner parallelt med samme antall levende masker på hver. Tre en stoppenål med en lang bit matchende garn. I glattstrikk er rytmen: fremre pinne rett av, fremre pinne vrangt på, bakre pinne vrangt av, bakre pinne rett på. Gjenta over hele kanten.
+Hold pinnene parallelt med vrangsidene mot hverandre, samme antall levende masker i glattstrikk på hver pinne og pinnespissene mot høyre. Arbeidsgarnet skal komme fra den første masken på bakre pinne. Tre en stoppenål med en lang bit matchende garn. Før oppstart går du vrangt gjennom den første masken på fremre pinne og lar den stå, deretter rett gjennom den første masken på bakre pinne og lar den stå. Gjenta denne firetrinnsrytmen: fremre pinne rett av, fremre pinne vrangt på, bakre pinne vrangt av, bakre pinne rett på. Når én maske gjenstår på hver pinne, tar du den fremre av rett og den bakre av vrangt. Hold hver nye maske omtrent like stor som nabomaskene, og juster garnet langs sammenmaskingen før du fester enden.
 
 Riktig utført danner maskestingene en ekstra pinne glattstrikk som føyer delene sammen uten synlig søm. Feil utført blir det en rekke vridde eller ujevne masker som er tung å rette opp. Ha rytmen foran deg de første gangene. Etter en sokketå sitter den ofte i hendene.
 
-Maskesting kan også brukes midt i et prosjekt. Hvis en genserbole klippes opp over oppleggskanten for å legge til lengde, kan en ny del sys inn rent med maskesting hvis pinnefasthet og struktur stemmer.
+Maskesting kan også brukes midt i et prosjekt, men det er irreversibelt å klippe i et ferdig plagg. Det er ikke nok at pinnefasthet og maskemønster stemmer: strikkeretningen betyr noe, og sammenmasking topp mot topp kan oppføre seg annerledes enn topp mot bunn. Vrangbord, fletter, hullmønster og andre loddrette motiver kan få et sprang på en halv maske eller et annet synlig avvik. Test den planlagte sammenmaskingen på en prøvelapp før du klipper i et ferdig plagg.
 
 ## Kastesting, rask montering
 

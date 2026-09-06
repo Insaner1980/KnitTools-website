@@ -136,7 +136,7 @@ Zet een franje in elke of elke tweede kantsteek aan beide uiteinden. Knip ze eer
 
 Stop je midden in een toer, schuif de steken dan goed naar het midden van de naald zodat ze er niet af glijden. Stop je tussen twee toeren, dan is het werk stabieler. Bewaar het project in een gesloten tas en niet in direct zonlicht, want dat kan kleuren na verloop van tijd doen vervagen.
 
-Vijfenveertig minuten is een goede sessie voor nieuwe breiers. Handen en polsen gebruiken spieren die ze nog niet gewend zijn, en te veel doen in de eerste week kan dagenlang gevoelig blijven. Liever elke dag een beetje dan één keer per week twee uur.
+Voor sommige nieuwe breiers is 45 minuten een hanteerbare sessie. Houd je greep ontspannen, neem korte pauzes en stop of wissel van activiteit als pijn, tintelingen of gevoelloosheid ontstaan. Aanhoudende of verergerende klachten en neurologische symptomen zoals gevoelloosheid kunnen beoordeling door een zorgprofessional vereisen.
 
 ## FAQ
 

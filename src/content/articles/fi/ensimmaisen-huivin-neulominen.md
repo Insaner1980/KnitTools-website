@@ -135,7 +135,7 @@ Tee hapsuista ensin liian pitkät ja tasaa lopuksi. Lyhyeksi leikattua hapsua ei
 
 Jos lopetat keskellä kerrosta, työnnä silmukat hyvin puikon keskelle, etteivät ne liu'u pois. Jos lopetat kerrosten välissä, työ pysyy vakaammin. Pidä projektipussi kiinni ja poissa suorasta auringonvalosta, joka voi haalistaa värejä ajan myötä.
 
-45 minuuttia on hyvä neulontasessio uudelle neulojalle. Kädet ja ranteet käyttävät lihaksia, joihin ne eivät ole tottuneet, ja ensimmäisellä viikolla liioittelu tekee helposti arkuutta, joka kestää päiviä. Parempi neuloa vähän joka päivä kuin kaksi tuntia kerran viikossa.
+Joillekin uusille neulojille 45 minuuttia on sopivan mittainen neulontakerta. Pidä ote rentona, pidä lyhyitä taukoja ja lopeta neulominen tai vaihda tekemistä, jos kipua, kihelmöintiä tai puutumista ilmenee. Pitkittyvät, pahenevat tai neurologiset oireet, kuten puutuminen, voivat vaatia ammattilaisen arviota.
 
 ## FAQ
 

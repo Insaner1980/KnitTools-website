@@ -126,7 +126,7 @@ For a more traditional finish, add fringe to the short ends. Cut 12-inch strands
 
 If you stop mid-row, push stitches well into the middle of the needle so they don't slide off. If you stop between rows, the work is stable on its own. Keep the project bag closed and out of direct sunlight, which can fade colors over time.
 
-Forty-five minutes is a good session for new knitters. Hands and wrists are using muscles they're not used to, and overdoing it the first week creates soreness that takes days to settle. Better to knit a little every day than two hours once a week.
+For some new knitters, 45 minutes is a manageable session. Keep your grip relaxed, take short breaks, and stop or change activities if pain, tingling, or numbness develops. Persistent, worsening, or neurological symptoms such as numbness warrant professional evaluation.
 
 ## FAQ
 

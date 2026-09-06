@@ -21,7 +21,7 @@ Sileässä neuleessa kaikki oikeat silmukat ovat toisella puolella ja kaikki nur
 
 ## Mikä ei korjaa rullautumista
 
-Tiukempi käsiala tekee neulepinnasta jäykemmän, mikä vähentää rullautumista vähän, mutta se ei poista sitä. Suuremmat puikot tekevät löysemmän neulepinnan, joka rullautuu suhteessa yhtä paljon. Jäykemmät langat, kuten puuvilla ja pellava, kaartuvat vähemmän aggressiivisesti kuin joustavat langat, kuten villa, mutta ne kaartuvat silti. Höyry voi litistää neuleen hetkeksi, mutta ellei kyse ole akryylistä, jonka voi höyryllä "tappaa" eli muuttaa pysyvämmin, rulla palaa kun neulepinta rentoutuu tai pestään.
+Tiukempi käsiala tekee neulepinnasta jäykemmän, mikä vähentää rullautumista vähän, mutta se ei poista sitä. Puikkokoon muuttaminen muuttaa neulepinnan tiiviyttä ja laskeutuvuutta, mutta se ei estä rullautumista luotettavasti. Jäykemmät langat, kuten puuvilla ja pellava, kaartuvat vähemmän aggressiivisesti kuin joustavat langat, kuten villa, mutta ne kaartuvat silti. Höyry voi litistää neuleen hetkeksi, mutta ellei kyse ole akryylistä, jonka voi höyryllä "tappaa" eli muuttaa pysyvämmin, rulla palaa kun neulepinta rentoutuu tai pestään.
 
 Mikään näistä ei korjaa taustalla olevaa rakennetta. Ne vain hallitsevat sitä.
 
@@ -39,13 +39,15 @@ Sileän neuleen reunoihin lisätty rullautumaton neulepinta on luotettavin ratka
 
 Ainaoikeinreunus on yleisin valinta. Ainaoikein pysyy tasaisena, koska jokainen kerros vuorottelee oikeaa ja nurjaa yhdeltä puolelta katsottuna. Kolmesta viiteen silmukkaa kumpaankin sivuun ja muutama kerros ylös ja alas riittää usein huiviin. Kapeat kappaleet tarvitsevat suhteessa leveämmän reunuksen.
 
-Helmineule eli seed stitch, jossa vuorotellaan k1, p1 joka silmukalla ja joka kerroksella, pysyy täysin tasaisena ja antaa pintaisen kehyksen. Se vie enemmän lankaa kuin ainaoikein ja vaatii enemmän huomiota. Joustin, kuten k1p1 tai k2p2, on tavallinen valinta villapaitojen helmoihin ja hihansuihin. Tasainen, joustava, pitävä.
+Helmineuleessa oikeat ja nurjat silmukat vuorottelevat sekä vaaka- että pystysuunnassa. Parittomalla silmukkamäärällä toista `1 o, 1 n` jokaisella kerroksella. Parillisella silmukkamäärällä vuorottele kerroksia `1 o, 1 n` ja `1 n, 1 o`. Yleissääntö on neuloa edellisen kerroksen nurjat silmukat oikein ja oikeat nurin. Helmineule on molemmin puolin samanlainen reunus, joka vastustaa rullautumista. Se vie enemmän lankaa kuin ainaoikein ja vaatii enemmän huomiota. Joustin, kuten `1 o, 1 n` tai `2 o, 2 n`, on tavallinen valinta villapaitojen helmoihin ja hihansuihin: tasainen, joustava ja pitävä.
 
 Reunus ei ole jälkiajatus. Suunnittele se mukaan alusta asti. Valmiiseen työhön voi lisätä reunuksen [poimimalla silmukoita](/fi/artikkelit/silmukoiden-poimiminen/), mutta se on työläämpää kuin ottaa se mukaan heti.
 
 ### Reunuksen leveys lankavahvuuden mukaan
 
-Reunuksen tarvittava leveys kasvaa lankavahvuuden mukaan. Painavampi neulepinta vastustaa rullautumista itsekin. Ohuempi pinta tarvitsee enemmän apua.
+Lankavahvuus ei yksin määrää, kuinka paljon sileän neuleen reuna rullautuu tai kuinka leveän reunuksen se tarvitsee. Myös silmukkarakenne, neuletiheys, kuidun ja materiaalin ominaisuudet, kappaleen mitat ja reunuksen rakenne vaikuttavat. Paksumpi tai tiiviimpi neulepinta voi joskus näyttää vähemmän rullautuneelta, mutta se ei ole luotettava sääntö.
+
+**Karkeita kokeellisia lähtökohtia, ei yleispäteviä vaatimuksia:**
 
 | Lankavahvuus     | Sivureunus kumpaankin reunaan | Ylä- ja alareunus |
 | ---------------- | ----------------------------- | ----------------- |
@@ -55,7 +57,7 @@ Reunuksen tarvittava leveys kasvaa lankavahvuuden mukaan. Painavampi neulepinta 
 | Worsted          | 4-6 silmukkaa                 | 4-6 kerrosta      |
 | Aran / bulky     | 3-4 silmukkaa                 | 3-4 kerrosta      |
 
-Nämä ovat lähtökohtia. Leveä kappale tarvitsee suhteessa vähemmän reunusta kuin kapea. 30 cm leveä fingering-huivi voi tarvita 12 silmukkaa kumpaankin reunaan; 60 cm leveä hartiahuivi voi selvitä kahdeksalla.
+Testaa suunniteltu reunus riittävän suuressa mallitilkussa projektin langalla ja neuletiheydellä. Arvioi tilkkua rentona ja uudelleen saman viimeistelyn tai pingotuksen jälkeen, joka on tarkoitus tehdä valmiille työlle. Taulukon luvut eivät takaa, että työ pysyy tasaisena.
 
 ### Nostettu reunasilmukka
 
@@ -93,9 +95,7 @@ Tällä on väliä, kun suunnittelet kaksipuolisia projekteja. Sileän ja nurjan
 
 Pyörönä neulottu sileä neule tuntuu helpommalta, koska sivureunoja ei ole. Neulot vain oikeita silmukoita ja kangas muodostuu putkeksi. Ylä- ja alareuna rullautuvat silti, ellei niissä ole joustinta, ainaoikeaa tai muuta reunusta.
 
-Steekatussa työssä, esimerkiksi kirjoneuletakissa, pyörönä neulottu putki leikataan auki. Leikatut reunat tarvitsevat huolellisen vahvistuksen ja reunalistan. Steek ei poista rullautumista; se on rakennetekniikka, joka tekee pyöröneuleesta avattavan kappaleen.
-
-Kun sileäneuleinen steek leikataan auki, esiin tulee raakaa sileän neuleen reunaa, joka rullautuu yhtä voimakkaasti kuin mikä tahansa tasoneuleen sileä reuna. Siksi steekatut neuletakit tarvitsevat poimitut ja neulotut reunalistat heti. Lista vakauttaa reunan ennen kuin rulla ehtii asettua.
+Steekatussa työssä, esimerkiksi kirjoneuletakissa, pyörönä neulottu putki leikataan auki. Steekin turvallisuus perustuu suunniteltuun rakenteeseen ja langan käyttäytymiseen, ei siihen, että reunalista lisätään ennen rullautumista. Jos kuitu tai menetelmä vaatii vahvistuksen, tee se ennen leikkaamista. Leikkaamisen jälkeen kiinnitä ja viimeistele läpät tai reunat valitun menetelmän mukaisesti. Poimittu reunalista voi peittää valmiin leikkausreunan ja auttaa vakauttamaan sitä.
 
 ## Milloin rullautuminen on ok
 
@@ -111,16 +111,16 @@ Pyörönä neulominen, esimerkiksi pipoissa, kaulureissa ja paidan vartalossa, p
 Villassa viimeistely pitää jonkin aikaa, mutta rulla palaa vähitellen käytössä ja pesussa. Akryylissä höyrytys voi pysyvästi rentouttaa neulepintaa eli "tappaa" sen, mutta se muuttaa tuntua. Puuvillassa vaikutus on yleensä lyhyempi.
 
 **Kuinka leveä ainaoikeinreunuksen pitää olla?**
-Huivissa 4-6 silmukkaa kumpaankin sivuun ja 4-6 kerrosta ylä- ja alareunaan on hyvä aloituskohta. Leveämmät kappaleet tarvitsevat suhteessa vähemmän reunusta. Jos kappale on alle 15 cm leveä ja kokonaan sileää neuletta, se voi rullautua reunuksesta huolimatta.
+Worsted-vahvuisessa huivissa 4-6 silmukkaa kummallakin sivulla ja 4-6 kerrosta ylä- ja alareunassa voi olla karkea kokeellinen lähtökohta, ei takuu. Tarvittava leveys riippuu projektin langasta ja neuletiheydestä, silmukkarakenteesta, kappaleen mitoista ja reunuksen rakenteesta, joten testaa se riittävän suuressa mallitilkussa.
 
 **Voinko lisätä reunuksen työn valmistuttua?**
 Kyllä. Poimi silmukat reunoista ja neulo reunus niihin. Lisätyötä, mutta se toimii. Virkattu reunus on toinen vaihtoehto, jonka jotkut neulojat kokevat nopeammaksi.
 
 **Vaikuttaako lankavahvuus sileän neuleen rullautumiseen?**
-Kaikki vahvuudet rullautuvat. Paksummat langat tuottavat jäykemmän neulepinnan, joka rullautuu vähemmän dramaattisesti. Lace-vahvuinen sileä neule rullautuu herkästi, koska neulepinta on niin kevyt ja joustava.
+Lankavahvuus voi vaikuttaa neulepinnan paksuuteen ja tiiviyteen, mutta se ei yksin määrää rullautumista. Myös silmukkarakenne, neuletiheys, kuidun ominaisuudet, kappaleen mitat ja reunuksen rakenne vaikuttavat.
 
 **Miksi mallitilkku pysyy litteänä mutta valmis työ rullautuu?**
-Pienessä mallitilkussa rullautumista vetävää reunaa on vähemmän kuin leveässä kappaleessa. Tilkun koko pitää sen melko litteänä, varsinkin jos se on neulattu mittausta varten. Kun sama pinta suurenee, reunojen suhteellinen veto kasvaa. 10 cm mallitilkku voi näyttää petollisen kiltisti käyttäytyvältä, vaikka 50 cm huivi samasta langasta ja samoilla puikoilla rullautuu näkyvästi.
+Pieni mallitilkku ei välttämättä kerro, miten täysikokoinen kappale käyttäytyy, etenkin jos tilkku neulattiin, venytettiin tai pidettiin muuten suorana mittausta varten. Tee riittävän suuri mallitilkku ja arvioi sitä rentona sekä uudelleen samalla viimeistelyllä tai pingotuksella, joka on tarkoitus tehdä valmiille työlle.
 
 **Onko olemassa lankaa, joka ei rullaudu sileässä neuleessa?**
 Ei oikeastaan. Pellava pääsee lähimmäksi, koska siinä ei juuri ole joustoa, joten oikean ja nurjan puolen rakenteellinen epätasapaino saa vähemmän jousivoimaa käyttöönsä. Puuvilla on samankaltainen mutta rullautuu silti. Kaikki merkittävästi villaa sisältävät langat rullautuvat selvästi.

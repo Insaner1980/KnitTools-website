@@ -47,7 +47,7 @@ Vorteile: gut dokumentierte Fersenkonstruktion, intuitive Richtung und ein verze
 
 **Von der Spitze zum Bündchen** beginnt an den Zehen und arbeitet nach oben. Maschen mit einer speziellen Methode anschlagen, Judy's Magic Cast On ist ein Standard, Turkish Cast On ist nah verwandt. Danach Fußteil stricken, Ferse arbeiten, Schaft stricken und mit einem elastischen Abketten schließen, etwa Jeny's Surprisingly Stretchy Bind Off oder einer genähten elastischen Variante.
 
-Vorteile: Du kannst unterwegs anprobieren und das Garn fast vollständig nutzen, indem du den Schaft so lange strickst, bis es knapp wird. Die Spitze ist außerdem schon geschlossen, du musst am Ende nicht mit Maschenstich schließen. Nachteile: Toe-up-Fersen sind andere Techniken als Fersen vom Bündchen aus, der magische Anschlag braucht ein paar Versuche, und ein elastisches Abketten am Bündchen muss wirklich elastisch sein, sonst schneidet die Socke ein.
+Vorteile: Du kannst unterwegs anprobieren und das Garn fast vollständig nutzen, wenn du genug für die gewählte Abkettmethode und zum Vernähen des Fadenendes reservierst. Genähte oder tubuläre Abkettmethoden können deutlich mehr Fadenreserve brauchen als einfaches Abketten. Die Spitze ist außerdem schon geschlossen, du musst am Ende nicht mit Maschenstich schließen. Nachteile: Toe-up-Fersen sind andere Techniken als Fersen vom Bündchen aus, der magische Anschlag braucht ein paar Versuche, und ein elastisches Abketten am Bündchen muss wirklich elastisch sein, sonst schneidet die Socke ein.
 
 Keine Richtung ist besser. Die meisten probieren beide und wählen dann ihren Favoriten. Anleitungen legen die Richtung fest, und ein Wechsel bedeutet, die Ferse und den Anschlag neu zu planen. Praktisch heißt das meistens: lieber eine Anleitung wählen, die schon in der gewünschten Richtung geschrieben ist.
 
@@ -131,7 +131,7 @@ Miss den Fußumfang an der breitesten Stelle, am Ballen. Der fertige Socken soll
 Verstärke die Fersenwand mit einem Hebemaschenmuster, zum Beispiel auf rechten Reihen jede zweite Masche abheben und auf Rückreihen normal links stricken. Dadurch liegt mehr Garn an der Oberfläche. Manche führen zusätzlich einen Beilauffaden durch den Fersenbereich mit. Es gibt auch spezielle Nylon-Verstärkungsfäden in passenden Farben.
 
 **Was mache ich, wenn das Garn vor der Spitze ausgeht?**
-Bei Socken vom Bündchen zur Spitze ist das der ungünstigste Zeitpunkt. Du kannst zurückribbeln und den Schaft kürzen, die Spitze in einer Kontrastfarbe stricken oder akzeptieren, dass die Socke etwas kürzer wird. Toe-up vermeidet dieses Problem, weil der Schaft zuletzt kommt und du aufhören kannst, sobald das Garn knapp wird.
+Bei Socken vom Bündchen zur Spitze ist das der ungünstigste Zeitpunkt. Du kannst zurückribbeln und den Schaft kürzen, die Spitze in einer Kontrastfarbe stricken oder akzeptieren, dass die Socke etwas kürzer wird. Toe-up vermeidet dieses Problem, weil der Schaft zuletzt kommt und du ihn beendest, sobald nur noch genügend Garn für die gewählte Abkettmethode und das Vernähen übrig ist.
 
 **Müssen beide Socken exakt gleich aussehen?**
 Nein. Geschwister-Socken, also gleiches Muster mit unterschiedlicher Farbreihenfolge aus handgefärbtem oder buntem Garn, sind völlig normal. Manche mögen sie sogar lieber, als den Farbrapport zwanghaft abzugleichen. Exaktes Matching ist Geschmackssache, keine Regel.

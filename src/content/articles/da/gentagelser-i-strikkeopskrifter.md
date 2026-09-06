@@ -16,7 +16,7 @@ lang: da
 translationKey: "knitting-pattern-repeats"
 ---
 
-Gentagelser er sådan opskrifter undgår at skrive hver eneste maske hen over en pind med 200 masker. I stedet for "2 r, 2 vr, 2 r, 2 vr, 2 r, 2 vr..." femogtyve gange, skriver opskriften "\*2 r, 2 vr; gent fra \* pinden ud." Samme resultat, langt mindre plads.
+Gentagelser er sådan opskrifter undgår at skrive hver eneste maske hen over en pind med 200 masker. I stedet for "2 r, 2 vr, 2 r, 2 vr, 2 r, 2 vr..." halvtreds gange, skriver opskriften "\*2 r, 2 vr; gent fra \* pinden ud." Samme resultat, langt mindre plads.
 
 I strikkeopskrifter bruges stjerner (\*), klammer [] eller parenteser () til at markere en sektion af masker, der skal strikkes flere gange hen over pinden. Notationen er kompakt, når du er vant til den. Men de første møder med indlejrede gentagelser eller stjerner med restmasker kan føles som at læse et sprog, du næsten forstår.
 

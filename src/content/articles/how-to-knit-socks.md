@@ -26,7 +26,7 @@ Most fitted socks are built from the same zones, even when the construction meth
 
 **Heel.** The shaped section wrapping around your heel. This is where construction gets interesting and where most of the variety between patterns lives.
 
-**Gusset.** Triangular sections on each side of the foot that transition from the wider heel back to the narrower foot circumference. Not all heel types use one. The gusset is what makes a heel-flap sock fit well around the instep, which is the highest, widest part of the foot.
+**Gusset.** Triangular sections on each side of the foot that transition from the wider heel back to the narrower foot circumference. Not all heel types use one. In a heel-flap sock, the gusset provides room through the heel-to-instep transition. The instep is the upper part of the foot and the corresponding top-of-foot section of the sock.
 
 **Foot.** The tube covering sole and instep. Usually stockinette on the sole, pattern continuing on the instep. Length determined by foot measurement, not by row count. Try the sock on or measure as you go.
 
@@ -42,7 +42,7 @@ Advantages: well-documented heel construction, intuitive direction, and the ribb
 
 **Toe-up** starts at the toe and works toward the cuff. Cast on with a special method (Judy's Magic Cast On is the standard, Turkish cast on is a close second), knit the foot, work the heel, knit the leg, bind off with a stretchy bind off like Jeny's Surprisingly Stretchy or a sewn tubular bind off.
 
-Advantages: try on as you go, use every last yard of yarn (keep knitting the leg until it runs out, then bind off), and the toe is closed as you start so no grafting at the end. Disadvantages: toe-up heels are different techniques from cuff-down heels, the magic cast on takes a few tries to get neat, and the stretchy cuff bind off takes practice or it looks tight and pinched.
+Advantages: try on as you go, use nearly all the yarn while reserving enough for the chosen bind-off and weaving in the end, and the toe is closed as you start so no grafting at the end. Sewn and tubular bind-offs can require substantially more tail than a basic bind-off. Disadvantages: toe-up heels are different techniques from cuff-down heels, the magic cast on takes a few tries to get neat, and the stretchy cuff bind off takes practice or it looks tight and pinched.
 
 Neither direction is better. Most knitters try both and pick a favorite. Patterns specify which they use, and switching direction means reworking the heel and the cast on. In practice, that usually means choosing a different pattern.
 
@@ -99,7 +99,7 @@ If you've [knit a hat](/articles/how-to-knit-hat/) in the round and can do basic
 
 ## Sizing and fit
 
-Measure foot circumference at the widest point (the ball of the foot, just behind the toes). Measure foot length from the back of the heel to the tip of the longest toe. Most patterns give finished sock circumferences and let you pick by foot circumference.
+Use the measurement requested by the pattern. Standard foot circumference is measured around the widest part of the foot, commonly around the ball of the foot. Measure foot length from the back of the heel to the tip of the longest toe. Some sock constructions also require a heel/instep diagonal or another construction-specific measurement. Most patterns give finished sock circumferences and let you pick by foot circumference.
 
 Finished sock circumference is usually smaller than the foot (negative ease), often around 10% for a plain stretchy sock. Sock fabric needs to hug the foot to stay put. A sock the same circumference as the foot can sag. A sock too small will be uncomfortable and wear through faster.
 
@@ -126,7 +126,7 @@ Measure foot circumference at the widest point (ball of the foot). The sock's fi
 Reinforce the heel flap with a slip-stitch pattern (slip every other stitch on RS rows, purl back normally on WS rows). This doubles the yarn at the surface. Some knitters also hold a reinforcing thread alongside the yarn through the heel section. Specialty nylon reinforcement threads exist for exactly this, sold in matching colors to common sock yarns.
 
 **What if I run out of yarn before the toe?**
-In cuff-down construction, the toe is the worst place to run out. Options are: rip back and shorten the leg, switch to a contrast color for the toe (a feature, not a bug, if you commit), or accept that the socks will be slightly short. Toe-up avoids this entirely because the leg is last and you can stop whenever the yarn does.
+In cuff-down construction, the toe is the worst place to run out. Options are: rip back and shorten the leg, switch to a contrast color for the toe (a feature, not a bug, if you commit), or accept that the socks will be slightly short. Toe-up lets you use nearly all the yarn because the leg is last, but reserve enough for the chosen bind-off and for weaving in the end. Sewn or tubular bind-offs can require a substantially longer tail.
 
 **Do both socks have to match exactly?**
 No. Fraternal socks (matching pattern, different color order from a variegated yarn) are normal, and many knitters prefer them to wrestling with matching the stripe sequence on hand-dyed yarn. Whether to chase an exact match is a personal call, not a rule.

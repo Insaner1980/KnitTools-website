@@ -141,7 +141,7 @@ Utilise le chevauchement. Le joint russe a besoin de brins assez cohérents pour
 
 **Le raccord se voit-il sur l'envers ?**
 
-Un peu. Même un raccord feutré propre peut laisser un petit point où le fil change légèrement. Le chevauchement se voit comme une zone doublée jusqu'à ce que les fils soient rentrés et coupés. Le joint russe crée une section plus épaisse. Sur l'endroit d'un tissu fini et bloqué, ces raccords sont généralement discrets.
+Un peu. Même un raccord feutré propre peut laisser une légère bosse. Le chevauchement se voit comme une zone doublée jusqu'à ce que les fils soient rentrés et coupés. Le joint russe peut créer une zone plus épaisse, et d'autres raccords peuvent aussi rester visibles. La visibilité dépend du fil, de la fibre, de l'échantillon, du point, de la méthode de raccord et de son emplacement. Si l'aspect compte, fais un essai et place le raccord dans une zone moins visible lorsque c'est possible.
 
 **Comment rentrer les fils dans de la dentelle ou un tissu très ouvert ?**
 

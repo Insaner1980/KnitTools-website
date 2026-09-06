@@ -17,7 +17,7 @@ En jersey, toutes les mailles endroit regardent d'un côté et toutes les bosses
 
 ## Ce qui ne corrige pas le roulotté
 
-Une tension plus serrée rend le tissu plus ferme, donc le roulotté peut sembler un peu réduit, mais il reste là. Des aiguilles plus grosses donnent un tissu plus souple qui roule autant proportionnellement. Les fils plus raides, comme le coton ou le lin, roulent moins violemment que les fils élastiques comme la laine, mais ils roulent quand même. La vapeur peut aplatir temporairement, sauf avec l'acrylique que l'on peut modifier durablement à la vapeur, mais le roulotté revient quand le tissu se détend ou repasse au lavage.
+Une tension plus serrée rend le tissu plus ferme, donc le roulotté peut sembler un peu réduit, mais il reste là. Changer de taille d'aiguilles modifie la densité et le tombé du tissu, mais ne permet pas d'éviter le roulotté de manière fiable. Les fils plus raides, comme le coton ou le lin, roulent moins violemment que les fils élastiques comme la laine, mais ils roulent quand même. La vapeur peut aplatir temporairement, sauf avec l'acrylique que l'on peut modifier durablement à la vapeur, mais le roulotté revient quand le tissu se détend ou repasse au lavage.
 
 Rien de tout cela ne corrige la physique de base. Cela la gère seulement.
 
@@ -35,13 +35,15 @@ Ajouter un point qui ne roule pas autour des bords du jersey est la solution la 
 
 La bordure au point mousse est le choix le plus courant. Le point mousse reste plat parce que chaque rang alterne endroit et envers vu depuis une même face. Trois à cinq mailles de chaque côté et quelques rangs en haut et en bas suffisent souvent pour une écharpe. Les pièces étroites demandent proportionnellement plus de bordure.
 
-Le point de riz, qui alterne maille endroit et maille envers à chaque maille et à chaque rang, reste bien plat et crée un cadre texturé. Il utilise plus de fil que le point mousse et demande plus d'attention. Les côtes 1/1 ou 2/2 en haut et en bas sont classiques pour les bas de pulls et les poignets : plates, élastiques, avec de la tenue.
+Le point de riz alterne les mailles endroit et envers horizontalement et verticalement. Avec un nombre impair de mailles, répète 1 maille endroit, 1 maille envers à chaque rang. Avec un nombre pair, alterne un rang 1 maille endroit, 1 maille envers et un rang 1 maille envers, 1 maille endroit. Dans les deux cas, tricote à l'endroit les mailles qui se présentent à l'envers et à l'envers celles qui se présentent à l'endroit. Cette bordure réversible sert souvent à limiter le roulotté du jersey. Elle utilise plus de fil que le point mousse et demande plus d'attention. Les côtes 1/1 ou 2/2 en haut et en bas sont classiques pour les bas de pulls et les poignets : plates, élastiques, avec de la tenue.
 
 La bordure n'est pas un détail à ajouter après coup. Prévois-la dans le modèle dès le départ. En ajouter une sur une pièce terminée demande de [relever des mailles](/fr/articles/relever-des-mailles/), ce qui fonctionne, mais demande plus de travail que de l'inclure au départ.
 
 ### Largeur de bordure selon l'épaisseur de fil
 
-La largeur nécessaire dépend de l'épaisseur de fil. Un tissu plus lourd résiste un peu au roulotté par son propre poids. Un tissu fin a besoin de plus d'aide.
+À elle seule, l'épaisseur du fil ne détermine ni l'intensité du roulotté d'un bord en jersey ni la largeur de bordure nécessaire. La structure du point, l'échantillon, les propriétés de la fibre et de la matière, les dimensions de la pièce et la construction de la bordure comptent aussi. Un tissu plus épais ou plus dense peut parfois sembler moins roulé, mais ce n'est pas une règle fiable.
+
+**Repères expérimentaux approximatifs, pas des exigences universelles :**
 
 | Épaisseur de fil | Bord latéral (chaque côté) | Haut / bas |
 | ---------------- | -------------------------- | ---------- |
@@ -51,7 +53,7 @@ La largeur nécessaire dépend de l'épaisseur de fil. Un tissu plus lourd rési
 | Worsted          | 4-6 mailles                | 4-6 rangs  |
 | Aran / Bulky     | 3-4 mailles                | 3-4 rangs  |
 
-Ce sont des points de départ. Une grande largeur demande proportionnellement moins de bordure qu'une pièce très étroite. Une écharpe de 30 cm en Fingering peut demander 12 mailles de chaque côté, alors qu'un châle de 60 cm peut parfois tenir avec 8.
+Teste la bordure prévue sur un échantillon suffisamment grand, tricoté avec le fil du projet et conforme à l'échantillon prévu. Évalue-le sans le tendre, puis de nouveau après la finition ou le blocage prévus pour le projet. Ces chiffres ne garantissent pas un résultat plat.
 
 ### Lisière à maille glissée
 
@@ -89,7 +91,7 @@ C'est important dans les projets réversibles ou les panneaux décoratifs. Méla
 
 Tricoter en rond évite le problème des bords latéraux parce qu'il n'y a pas de côté ouvert. Le tissu est un tube continu. Bonnets, cols et corps de pulls en jersey ont donc souvent l'air correct sans bordure sur les côtés.
 
-Puis il y a les steeks. Un steek est une colonne de mailles supplémentaires que l'on coupe après le tricot, pour transformer un tube tricoté en panneaux plats, souvent sur un gilet. Dès que tu coupes un steek en jersey, tu crées des bords de jersey crus, et ils roulent aussi fort que n'importe quel bord de jersey à plat. C'est pourquoi les gilets steekés ont besoin de bandes relevées et tricotées rapidement. La bande stabilise le bord avant que le roulotté prenne le dessus.
+Puis il y a les steeks. Un steek est une colonne de mailles supplémentaires que l'on coupe après le tricot pour transformer un tube en panneaux plats, souvent pour un gilet. La sécurité du steek dépend de la construction prévue et du comportement du fil, pas de la rapidité avec laquelle on ajoute une bande. Lorsque la fibre ou la méthode exige un renfort, renforce avant de couper. Après la coupe, sécurise et finis les rabats ou les bords selon la méthode choisie. Une bande en mailles relevées peut ensuite couvrir le bord coupé fini et aider à le stabiliser.
 
 ## Quand le roulotté ne pose pas problème
 
@@ -105,16 +107,16 @@ Le tricot en rond, bonnets, cols, corps de pulls, supprime entièrement les bord
 Pour la laine, le blocage tient un moment, puis le roulotté revient peu à peu avec l'usage et les lavages. Pour l'acrylique, la vapeur peut détendre durablement le tissu, mais elle change son toucher. Pour le coton, l'effet durable du blocage est souvent limité.
 
 **Quelle largeur pour une bordure au point mousse ?**
-Pour une écharpe en Worsted, 4 à 6 mailles de chaque côté et 4 à 6 rangs en haut et en bas sont un bon départ. Les fils plus fins demandent plus large, les fils plus épais demandent moins. Si la pièce fait moins de 15 cm de large et qu'elle est entièrement en jersey, elle peut rouler malgré la bordure.
+Pour une écharpe en Worsted, 4 à 6 mailles de chaque côté et 4 à 6 rangs en haut et en bas peuvent servir de repère expérimental approximatif, pas de garantie. La largeur nécessaire dépend du fil, de l'échantillon, du point, des dimensions de la pièce et de la construction de la bordure. Teste-la sur un échantillon suffisamment grand.
 
 **Puis-je ajouter une bordure après avoir terminé la pièce ?**
 Oui. Relève des mailles le long des bords et tricote une bordure dessus. C'est du travail en plus, mais cela fonctionne. Une bordure au crochet est une autre option que certaines tricoteuses trouvent plus rapide.
 
 **L'épaisseur de fil influence-t-elle le roulotté du jersey ?**
-Toutes les épaisseurs roulent. Les fils plus gros donnent un tissu plus ferme qui roule moins visiblement. Le jersey en Lace roule fortement parce que le tissu est très léger et souple.
+L'épaisseur du fil peut modifier l'épaisseur et la densité du tissu, mais elle ne détermine pas seule le roulotté. La structure du point, l'échantillon, les propriétés de la fibre, les dimensions de la pièce et la construction de la bordure comptent aussi.
 
 **Pourquoi mon échantillon reste-t-il plat alors que la pièce terminée roule ?**
-Un petit échantillon a moins de pression de roulotté qu'une grande pièce. Sa propre taille le garde relativement plat, surtout s'il a été épinglé pendant la mesure. Quand tu agrandis l'ouvrage, la traction le long des bords augmente. Un échantillon de 10 cm peut sembler très sage alors qu'un châle de 50 cm, dans le même fil et avec les mêmes aiguilles, roule nettement.
+Un petit échantillon peut ne pas représenter le comportement d'une pièce grandeur nature, surtout s'il a été épinglé, étiré ou maintenu à plat pour la mesure. Utilise un échantillon suffisamment grand, examine-le sans le tendre, puis de nouveau après la finition ou le blocage prévus pour le projet.
 
 **Existe-t-il un fil qui ne roule pas en jersey ?**
 Pas vraiment. Le lin s'en approche parce qu'il a très peu d'élasticité, donc le déséquilibre entre endroit et envers a moins de ressort pour agir. Le coton ressemble à cela, mais roule quand même. Tout fil contenant beaucoup de laine ou de mélange laineux roulera de façon visible.

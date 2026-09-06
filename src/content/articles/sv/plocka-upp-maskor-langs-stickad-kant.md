@@ -50,7 +50,7 @@ Om mönstret anger ett exakt antal upplockade maskor delar du antalet med kanten
 
 Om du lyfte första maskan på varje varv medan du stickade delen har sidokanten en kedja av parvisa trådar i stället för en tydlig tråd per varv. Plocka upp en maska under varje kedjelänk, alltså under de två trådarna som bildar ett V i kedjan. Eftersom varje kedjelänk motsvarar två varv blir det 1 upplockad maska per 2 varv, vilket ofta är för lite för slätstickning.
 
-Två lösningar fungerar. Plocka upp i kedjan och lägg till en extra maska i löptråden mellan kedjelänkarna med jämna mellanrum, så att du hamnar nära 3 maskor på 4 varv. Eller plocka upp en maska per kedjelänk och acceptera en lite fastare kant. Det kan passa i resår, eftersom resår ändå drar ihop sig. Lyfta kantmaskor gör upplockningen snabbare och renare, men förhållandet måste fortfarande stämma med kanten du ska sticka.
+Följ i första hand mönstrets angivna antal maskor. Om mönstret inte anger något, beräkna och justera upplockningsförhållandet utifrån kantens varvtäthet eller längd och den nya kantens avsedda stickfasthet eller maskantal. Plocka bara upp en maska per kedjelänk om det ger rätt maskantal och en kant som ligger plant och passar; att resår drar ihop sig gör inte förhållandet automatiskt rätt.
 
 ### Längs en rätstickad kant
 
@@ -134,11 +134,9 @@ Det är användbart på tröjor där upplockningen går runt en passformskänsli
 
 ## Plocka upp för steekar
 
-Efter att en steek har klippts, alltså en extra maskkolumn i rundstickning som klipps upp för till exempel en kofta, behöver den råa kanten stabiliseras. En upplockad kant hjälper till att täcka och säkra den klippta kanten.
+En steek är extra maskor i rundstickning som klipps upp för att till exempel skapa en koftöppning. När garnet, fibern eller steekmetoden kräver förstärkning ska kanten förstärkas före klippningen. Garn som inte filtar, som bomull och superwash-ull, behöver vanligen förstärkas med virkning eller maskinsöm på båda sidor före klippning; obehandlad ull griper lättare tag i sig själv.
 
-Plocka upp i maskkolumnen precis innanför klippet, inte i de råa trådändarna. Kantens första varv fångar de klippta ändarna bakom de nya maskorna. När kanten är stickad syns ändarna inte från rätsidan och ligger fast.
-
-Garn som inte filtar, som bomull och superwash-ull, behöver förstärkas med virkning eller maskinsöm på båda sidor innan du klipper. Obehandlad ull hakar lättare i sig själv. Bomull och superwash gör det inte.
+Efter klippningen ska fliken eller kanten säkras och avslutas på ett sätt som passar den valda metoden. Plocka sedan upp maskor i maskkolumnen precis innanför klippet, inte i de råa trådändarna. En upplockad kant kan täcka och hjälpa till att stabilisera den färdiga klippkanten, men ersätter inte en förstärkning som krävs och är ingen ovillkorlig garanti för att kanten förblir säker.
 
 ## Vanliga frågor
 

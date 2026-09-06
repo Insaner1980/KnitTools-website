@@ -22,7 +22,7 @@ I glatstrik vender alle retmasker mod den ene side og alle vrangbuler mod den an
 
 ## Hvad der ikke løser rullende kanter
 
-Strammere strikkefasthed gør stoffet stivere, og det reducerer rullet en smule, men det er stadig der. Større pinde giver et mere slapt stof, der ruller omtrent lige meget forholdsmæssigt. Stivere garn, som bomuld og hør, ruller mindre aggressivt end fjedrende garn, som uld, men det ruller stadig. Damp kan flade det midlertidigt ud, men medmindre du arbejder med akryl, som kan "dræbes" med damp og ændre form permanent, kommer rullet tilbage, når stoffet slapper af eller bliver vasket.
+Strammere strikkefasthed gør stoffet stivere, og det reducerer rullet en smule, men det er stadig der. En anden pindestørrelse ændrer stoffets tæthed og fald, men er ikke en pålidelig løsning mod rullende kanter. Stivere garn, som bomuld og hør, ruller mindre aggressivt end fjedrende garn, som uld, men det ruller stadig. Damp kan flade det midlertidigt ud, men medmindre du arbejder med akryl, som kan "dræbes" med damp og ændre form permanent, kommer rullet tilbage, når stoffet slapper af eller bliver vasket.
 
 Ingen af de ting ændrer den underliggende fysik. De håndterer den bare.
 
@@ -40,13 +40,13 @@ At lægge et ikke-rullende maskemønster langs kanterne af glatstrik er den mest
 
 Retstrikket kant er det mest almindelige valg. Retstrik ligger fladt, fordi hver pind skifter ret og vrang set fra én side. Tre til fem masker i hver sidekant og nogle få pinde i top og bund er ofte nok til et tørklæde. Smalle stykker kræver forholdsmæssigt bredere kanter.
 
-Perlestrik, som skifter mellem 1 ret og 1 vrang over både masker og pinde, ligger helt fladt og giver en struktureret ramme. Det bruger mere garn end retstrik og kræver mere opmærksomhed. Rib, 1r, 1vr eller 2r, 2vr, i top og bund er standard til sweaterkanter og manchetter: fladt, elastisk og holder om kanten.
+Perlestrik skifter mellem ret og vrang både hen over maskerne og fra pind til pind. Med et ulige maskeantal strikker du 1 r, 1 vr pinden ud på hver pind. Med et lige maskeantal skifter du mellem en pind med 1 r, 1 vr og en pind med 1 vr, 1 r. Hovedreglen er at strikke ret over vrangmasker og vrang over retmasker fra den foregående pind. Det er vendbart og bruges ofte som en struktureret kant, der modvirker rulning, men garanterer ikke, at arbejdet ligger helt fladt. Perlestrik bruger mere garn end retstrik og kræver mere opmærksomhed. Rib, 1 r, 1 vr eller 2 r, 2 vr, i top og bund er standard til sweaterkanter og manchetter: flad, elastisk og tæt om kanten.
 
 Kanten er ikke en eftertanke. Planlæg den ind fra starten. At tilføje en kant til et færdigt stykke betyder at [samle masker op](/da/artikler/saml-masker-op-langs-kant/), og det virker, men det kræver mere arbejde end at have den med fra begyndelsen.
 
 ### Kantbredde efter garntykkelse
 
-Hvor bred en kant skal være, skalerer med garntykkelsen. Tungere stof modstår rullen lidt af sig selv. Tyndere stof har brug for mere hjælp.
+Garntykkelsen alene afgør ikke, hvor meget en glatstrikket kant ruller, eller hvor bred kanten skal være. Maskestruktur, strikkefasthed, fiber og materiale, stykkets mål og kantkonstruktionen spiller også ind. Et tykkere eller tættere stof kan nogle gange se ud til at rulle mindre, men det er ikke en sikker regel. Tallene nedenfor er grove eksperimentelle udgangspunkter, ikke universelle krav.
 
 | Garntykkelse          | Sidekant (hver side) | Top-/bundkant |
 | --------------------- | -------------------- | ------------- |
@@ -56,7 +56,7 @@ Hvor bred en kant skal være, skalerer med garntykkelsen. Tungere stof modstår 
 | Worsted               | 4-6 masker           | 4-6 pinde     |
 | Aran / Bulky          | 3-4 masker           | 3-4 pinde     |
 
-Det er startpunkter. Et bredt arbejde kræver forholdsmæssigt mindre kant end et smalt. Et tørklæde på 30 cm i Fingering kan have brug for 12 masker i hver side, mens et sjal på 60 cm måske kan klare sig med 8.
+Test den planlagte kant på en tilstrækkelig stor strikkeprøve med projektets garn og strikkefasthed. Vurder prøven afslappet og igen efter den samme efterbehandling eller blokning, som projektet skal have. Tallene garanterer ikke et fladt resultat.
 
 ### Løftet kantmaske
 
@@ -94,7 +94,7 @@ Det betyder noget i vendbare projekter. At kombinere glatstrik og omvendt glatst
 
 At strikke rundt undgår problemet med sidekanter, fordi der ikke er sidekanter. Stoffet er et sammenhængende rør. Huer, halsrør og sweaterkroppe i glatstrik ser derfor fine ud uden kanter langs siderne.
 
-Så er der steeks. En steek er en kolonne ekstra masker, som klippes op efter aflukning, brugt til at gøre et rundstrikket rør til flade paneler, typisk til cardigans. I det øjeblik du klipper en glatstrikket steek op, får du rå glatstrikkanter, og de ruller lige så aggressivt som enhver flad glatstrik. Derfor har steekede cardigans brug for knappestolper eller kanter, der samles op og strikkes på med det samme. Kanten stabiliserer, før rullen får tid til at sætte sig.
+Så er der steeks. En steek er en kolonne ekstra masker, som klippes op efter aflukning, brugt til at gøre et rundstrikket rør til flade paneler, typisk til cardigans. Sikkerheden kommer fra den planlagte konstruktion og garnets egenskaber, ikke fra at strikke kanten på hurtigt. Hvis fiberen eller metoden kræver det, forstærkes steeken før klipning. Efter klipning sikres og afsluttes de klippede flapper eller kanter efter den valgte metode. En opsamlet knappestolpe eller kant kan derefter dække og hjælpe med at stabilisere den færdige klippekant.
 
 ## Hvornår rullende kanter er helt fint
 
@@ -110,16 +110,16 @@ Strik rundt, huer, halsrør og sweaterkroppe, fjerner sidekanter helt. Top og bu
 For uld holder blokning et stykke tid, men rullet vender gradvist tilbage med brug og vask. For akryl kan dampblokning permanent afslappe stoffet, altså "dræbe" det, men følelsen ændres. For bomuld har blokning begrænset varig effekt.
 
 **Hvor bred skal en retstrikket kant være?**
-Til et tørklæde i Worsted-tykkelse er 4-6 masker i hver side og 4-6 pinde i top og bund et rimeligt udgangspunkt. Tyndere garn kræver bredere kanter, tykkere garn kræver mindre. Hvis stykket er under 15 cm bredt og helt glatstrikket, kan det rulle trods kant.
+Til et tørklæde i Worsted-tykkelse kan 4-6 masker i hver side og 4-6 pinde i top og bund være et groft eksperimentelt udgangspunkt, ikke en garanti. Den nødvendige bredde afhænger af projektets garn og strikkefasthed, maskemønster, mål og kantkonstruktion, så test på en tilstrækkelig stor strikkeprøve.
 
 **Kan jeg tilføje en kant efter arbejdet er færdigt?**
 Ja. Saml masker op langs kanterne og strik en kant på. Ekstra arbejde, men det virker. At hækle en kant på er en anden mulighed, som nogle strikkere synes er hurtigere.
 
 **Påvirker garntykkelse hvor meget glatstrik ruller?**
-Alle tykkelser ruller. Tykkere garn giver et stivere stof, der ruller mindre dramatisk. Lace-garn i glatstrik ruller aggressivt, fordi stoffet er så let og fleksibelt.
+Garntykkelsen kan påvirke stoffets tykkelse og tæthed, men den afgør ikke rulningen alene. Maskestruktur, strikkefasthed, fiberegenskaber, stykkets mål og kantkonstruktion spiller også ind.
 
 **Hvorfor ligger min strikkeprøve fladt, men det færdige stykke ruller?**
-En lille strikkeprøve har mindre rullepres end et bredt arbejde. Prøvens egen størrelse holder den relativt flad, især hvis den er spændt op under måling. Når du skalerer op, øges trækket langs kanterne. En strikkeprøve på 10 cm kan se mistænkeligt velopdragen ud, mens et sjal på 50 cm med samme garn og pinde ruller synligt.
+En lille strikkeprøve viser ikke altid, hvordan et færdigt arbejde i fuld størrelse vil opføre sig, især hvis prøven blev spændt, strakt eller på anden måde holdt flad under målingen. Brug en tilstrækkelig stor strikkeprøve, vurder den afslappet, og vurder den igen efter den samme efterbehandling eller blokning, som projektet skal have.
 
 **Findes der garn, der ikke ruller i glatstrik?**
 Ikke rigtigt. Hør kommer tættest på, fordi det næsten ikke har elasticitet, så den strukturelle ubalance mellem ret og vrang har mindre spændstighed at arbejde med. Bomuld minder om det, men ruller stadig. Alt med betydeligt indhold af uld eller uldblanding vil rulle synligt.

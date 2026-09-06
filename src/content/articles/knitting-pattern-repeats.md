@@ -12,7 +12,7 @@ tags:
   - "how to read knitting repeats"
 ---
 
-Repeats are how patterns avoid writing out every stitch across a 200-stitch row. Instead of "k2, p2, k2, p2, k2, p2..." twenty-five times over, the pattern writes "\*k2, p2; rep from \* to end." Same result, far less space.
+Repeats are how patterns avoid writing out every stitch across a 200-stitch row. Instead of "k2, p2, k2, p2, k2, p2..." fifty times over, the pattern writes "\*k2, p2; rep from \* to end." Same result, far less space.
 
 In knitting patterns, repeats use asterisks (\*), brackets [], or parentheses () to mark a section of stitches that gets worked multiple times across the row. The notation is compact once you're used to it. But the first few encounters with nested repeats or asterisks with remainders can feel like reading a language you almost speak.
 

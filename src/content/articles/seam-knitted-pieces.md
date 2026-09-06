@@ -64,17 +64,17 @@ Firm, neat seam with a small ridge inside. Faster than mattress stitch for horiz
 
 Requires live stitches on both pieces. If you've already bound off, you'd need to pick them up again, which defeats the purpose. Plan ahead. If the pattern uses three-needle bind off for shoulders, leave those stitches live on a holder or waste yarn.
 
-For a less visible variation, work the three-needle bind off with wrong sides together. The ridge sits on the right side and reads as a decorative chain. Some yoke patterns use this on purpose.
+For a decorative exposed variation, work the three-needle bind off with wrong sides together. The standard ridge then sits on the right side instead of the wrong side. Some yoke patterns use this on purpose.
 
 ## Kitchener stitch (grafting live stitches)
 
 The nearly invisible alternative to three-needle bind off when both pieces have live stitches. Used almost universally for sock toes and sometimes for grafted shoulders, cowls, or altered sweater sections where the pattern wants the fabric to continue without a ridge.
 
-Hold the two needles parallel with the same number of live stitches on each. Thread a yarn needle with a long length of matching yarn. Then work this four-step rhythm: front needle knit-wise off, front needle purl-wise on, back needle purl-wise off, back needle knit-wise on. Repeat across.
+Hold the two needles parallel with wrong sides together, the same number of live stockinette stitches on each, and the tips pointing right. The working yarn should come from the first stitch on the back needle. Thread a yarn needle with a long length of matching yarn. For setup, go through the first front stitch purl-wise and leave it on, then through the first back stitch knit-wise and leave it on. Repeat this four-step rhythm: front needle knit-wise off, front needle purl-wise on, back needle purl-wise off, back needle knit-wise on. When one stitch remains on each needle, take the front stitch off knit-wise and the back stitch off purl-wise. Keep each grafting loop about the size of the neighboring stitches, then adjust the yarn along the graft before weaving in the tail.
 
 Done correctly, the result is an extra row of stockinette that joins the two pieces with no visible seam at all. Done incorrectly, it's a mess of twisted stitches that's hard to undo. Print the steps and work through them slowly the first few times. Many knitters need the written rhythm beside them until the motion becomes familiar.
 
-Kitchener also works for grafting in the middle of a project. Cutting a sweater above the cast-on edge to add length, then grafting in a new section can blend well if the row gauge and stitch pattern match.
+Kitchener can also be used for grafting in the middle of a project, but cutting a finished garment is irreversible. Matching row gauge and stitch pattern is not enough: knitting direction matters, and top-to-top and top-to-bottom grafts can behave differently. Ribbing, cables, lace, and other vertically aligned motifs may show a half-stitch jog or another mismatch. Test the proposed graft in a swatch before cutting a finished garment.
 
 ## Whip stitch (fast seaming)
 

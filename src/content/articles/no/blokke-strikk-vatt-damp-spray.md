@@ -127,7 +127,7 @@ Oppbevar flatt eller brettet. Oppheng strekker strikket stoff over tid, særlig 
 ## FAQ
 
 **Må jeg blokke hvert prosjekt?**
-Nei. Kluter, øvelseslapper, ting der mål ikke betyr noe. Hopp over. Plagg, hullmønster og alt der utseende og passform betyr noe bør blokkes. Hvis du er usikker, blokk prøvelappen først. I verste fall har du brukt noen timer tørketid.
+Nei. Kluter, øvelseslapper og ting der mål ikke betyr noe, kan du hoppe over. Plagg, hullmønster og alt der utseende og passform betyr noe, bør blokkes. Hvis du er usikker, følg vaske- og stellrådene på garnetiketten eller fra produsenten, og test den planlagte blokkemetoden på en prøvelapp først. En uegnet metode kan endre eller skade enkelte fibre permanent.
 
 **Kan jeg overblokke?**
 Du kan overstrekke, særlig alpakka og superwash ull. Hvis du fester stoffet lengre enn det naturlig vil, blir maskene forvrengt. Fest til oppskriftens mål, ikke lenger.

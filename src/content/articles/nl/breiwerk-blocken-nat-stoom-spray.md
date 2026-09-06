@@ -137,7 +137,7 @@ Bewaar breiwerk plat of gevouwen. Ophangen rekt gebreide stof na verloop van tij
 ## FAQ
 
 **Moet ik elk project blocken?**
-Nee. Vaatdoekjes, oefenlapjes, dingen waarbij maten niet tellen. Sla het over. Kledingstukken, ajour en alles waarbij uiterlijk en pasvorm belangrijk zijn, block je beter wel. Twijfel je, block dan eerst je proeflapje. In het slechtste geval kost het een paar uur droogtijd.
+Nee. Vaatdoekjes, oefenlapjes en dingen waarbij maten niet tellen kun je overslaan. Kledingstukken, ajour en alles waarbij uiterlijk en pasvorm belangrijk zijn, kun je beter wel blocken. Twijfel je, volg dan het wasvoorschrift of de onderhoudsinstructies van de fabrikant en test de bedoelde blockmethode eerst op een proeflapje. Een ongeschikte methode kan sommige vezels blijvend veranderen of beschadigen.
 
 **Kan ik te veel blocken?**
 Je kunt te ver rekken, vooral bij alpaca en superwash-wol. Spelden voorbij de natuurlijke maten van de stof geeft vervormde steken. Speld op de patroondimensies, niet verder.

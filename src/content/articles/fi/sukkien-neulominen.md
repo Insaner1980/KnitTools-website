@@ -30,7 +30,7 @@ Jokaisessa sukassa on samat osat, riippumatta rakennustavasta:
 
 **Kantapää.** Muotoiltu kohta, joka asettuu kantapään ympärille. Tässä rakenteesta tulee kiinnostava.
 
-**Kiila.** Jalkaterän sivuilla olevat kolmionmuotoiset osiot, jotka siirtävät leveämmästä kantapäästä takaisin kapeampaan jalkaterän ympärykseen. Kaikki kantapäätyypit eivät käytä kiilaa. Kiila on se osa, joka tekee kantalappusukasta istuvan jalkapöydän korkeimman ja leveimmän kohdan ympärillä.
+**Kiila.** Jalkaterän sivuilla olevat kolmionmuotoiset osiot, jotka siirtävät leveämmästä kantapäästä takaisin kapeampaan jalkaterän ympärykseen. Kaikki kantapäätyypit eivät käytä kiilaa. Kantalappusukassa kiila antaa tilaa kantapään ja jalkapöydän väliseen siirtymään. Jalkapöytä tarkoittaa jalan yläosaa ja sukassa sitä peittävää yläosan aluetta.
 
 **Jalkaterä.** Putki, joka peittää jalkapohjan ja jalkapöydän. Pohja on usein sileää neuletta, ja mallineule jatkuu jalkapöydällä. Pituus määräytyy jalan mitan, ei kerrosmäärän mukaan. Sovita sukkaa tai mittaa työn edetessä.
 
@@ -46,7 +46,7 @@ Hyödyt: hyvin dokumentoitu kantapäärakenne, luonteva suunta ja anteeksiantava
 
 **Kärjestä varteen** alkaa varpaista ja etenee ylöspäin. Luo silmukat erikoisaloituksella, esimerkiksi Judy's Magic Cast Onilla, neulo jalkaterä, tee kantapää, neulo varsi ja päättele joustavalla päättelyllä.
 
-Hyödyt: voit sovittaa matkan varrella, käyttää langan viimeiseen metriin asti jatkamalla vartta kunnes lanka loppuu, eikä kärjen silmukointia tarvita lopussa. Haitat: kärjestä neulottavien sukkien kantapäät ovat eri tekniikoita kuin perinteiset kantapäät, taianomainen aloitus vaatii muutaman yrityksen siistiytyäkseen ja joustava päättely sukan suussa vaatii harjoittelua tai se näyttää kiristävältä.
+Hyödyt: voit sovittaa matkan varrella, käyttää halutessasi lähes kaiken langan, kunhan varaat riittävästi valitsemaasi päättelyyn ja langanpään päättelyyn, eikä kärjen silmukointia tarvita lopussa. Ommeltu tai putkimainen päättely voi vaatia selvästi pidemmän langanpään kuin tavallinen päättely. Haitat: kärjestä neulottavien sukkien kantapäät ovat eri tekniikoita kuin perinteiset kantapäät, taianomainen aloitus vaatii muutaman yrityksen siistiytyäkseen ja joustava päättely sukan suussa vaatii harjoittelua tai se näyttää kiristävältä.
 
 Kumpikaan suunta ei ole parempi. Useimmat kokeilevat molempia ja valitsevat suosikin. Ohje kertoo, kumpaa se käyttää, ja suunnan vaihtaminen tarkoittaa kantapään ja luomistavan uudelleensuunnittelua. Käytännössä se tarkoittaa usein eri ohjeen valitsemista.
 
@@ -103,7 +103,7 @@ Jos olet [neulonut pipon](/fi/artikkelit/pipon-neulominen/) suljettuna ja osaat 
 
 ## Koko ja istuvuus
 
-Mittaa jalan ympärys leveimmästä kohdasta, päkiän kohdalta juuri varpaiden takaa. Mittaa pituus kantapään takaa pisimmän varpaan kärkeen. Useimmat ohjeet antavat valmiin sukan ympäryksen ja koon valitaan jalan ympäryksen mukaan.
+Noudata ohjeen pyytämää mittaa. Jalan tavallinen ympärysmitta mitataan leveimmästä kohdasta, yleensä päkiän ympäriltä. Mittaa pituus kantapään takaa pisimmän varpaan kärkeen. Joissakin sukkarakenteissa tarvitaan lisäksi kantapään ympäri jalkapöydän yli kulkeva vinomitta tai muu rakenteeseen kuuluva mitta. Useimmat ohjeet antavat valmiin sukan ympäryksen ja koko valitaan jalan ympäryksen mukaan.
 
 Valmis sukka on yleensä jalkaa pienempi, usein noin 10 % negatiivisella väljyydellä tavallisessa joustavassa sukassa. Jos jalan ympärys on 22 cm, sukan valmis ympärys voi olla noin 20 cm. Sukan pitää halata jalkaa pysyäkseen paikallaan. Jalan ympäryksen kokoinen sukka voi valua. Liian pieni sukka tuntuu epämukavalta ja kuluu nopeammin.
 
@@ -130,7 +130,7 @@ Mittaa jalan ympärys leveimmästä kohdasta eli päkiän kohdalta. Sukan valmii
 Vahvista kantalappu nostettujen silmukoiden pinnalla, esimerkiksi nosta joka toinen silmukka oikean puolen kerroksilla ja neulo nurjalla puolella tavallisesti. Se kaksinkertaistaa langan pinnassa. Osa neulojista pitää myös vahvikelankaa mukana kantapään ajan. Erillisiä nailonisia vahvikelankoja myydään juuri tätä varten.
 
 **Mitä jos lanka loppuu ennen kärkeä?**
-Varresta kärkeen neulottaessa kärki on huonoin kohta langan loppumiselle. Vaihtoehdot ovat purkaa ja lyhentää vartta, vaihtaa kärki kontrastiväriin tai hyväksyä hieman lyhyemmät sukat. Kärjestä varteen -rakenne välttää tämän, koska varsi neulotaan viimeiseksi ja voit lopettaa, kun lanka loppuu.
+Varresta kärkeen neulottaessa kärki on huonoin kohta langan loppumiselle. Vaihtoehdot ovat purkaa ja lyhentää vartta, vaihtaa kärki kontrastiväriin tai hyväksyä hieman lyhyemmät sukat. Kärjestä varteen -rakenne helpottaa lähes kaiken langan käyttämistä, koska varsi neulotaan viimeiseksi, mutta valitsemaasi päättelyyn ja langanpään päättelyyn pitää jättää riittävästi lankaa.
 
 **Pitääkö molempien sukkien täsmätä täydellisesti?**
 Ei. Sisarussukat, joissa sama ohje toistuu mutta kirjavan langan värijärjestys vaihtuu, ovat täysin tavalliset. Moni pitää niistä enemmän kuin väriraportin täsmäyttämisen kanssa painimisesta. Täydellisen parin tavoittelu on makuasia, ei sääntö.

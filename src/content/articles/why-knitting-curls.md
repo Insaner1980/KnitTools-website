@@ -18,7 +18,7 @@ In stockinette, all the knit stitches face one side and all the purl bumps face 
 
 ## What doesn't fix curling
 
-Tighter tension makes the fabric stiffer, which reduces the curl slightly, but it's still there. Bigger needles produce a floppier fabric that curls the same amount proportionally. Stiffer yarns (cotton, linen) curl less aggressively than springy ones (wool), but they still curl. Steam can temporarily flatten it, but unless you're working with acrylic (which can be "killed" with steam to permanently change shape), the curl returns after the fabric relaxes or gets washed.
+Tighter tension makes the fabric stiffer, which reduces the curl slightly, but it's still there. Changing needle size changes the fabric's density and drape, but it does not reliably prevent curling. Stiffer yarns (cotton, linen) curl less aggressively than springy ones (wool), but they still curl. Steam can temporarily flatten it, but unless you're working with acrylic (which can be "killed" with steam to permanently change shape), the curl returns after the fabric relaxes or gets washed.
 
 None of these fix the underlying physics. They just manage it.
 
@@ -36,13 +36,15 @@ Adding a non-curling stitch pattern to the edges of stockinette is the most reli
 
 Garter stitch border is the most common choice. Garter lies flat because every row alternates knit and purl as seen from one face. Three to five stitches at each side edge and a few rows at top and bottom is usually enough for a scarf. Narrow pieces need proportionally wider borders.
 
-Seed stitch (alternating k1, p1 every stitch and every row) lies completely flat and adds a textured frame. Uses more yarn than garter and takes more attention to knit correctly. Ribbing (k1p1 or k2p2) at top and bottom is the standard for sweater hems and cuffs: flat, stretchy, gripping.
+Seed stitch alternates knit and purl stitches both horizontally and vertically. With an odd stitch count, repeat k1, p1 across every row. With an even stitch count, alternate a k1, p1 row with a p1, k1 row. In either case, knit the purls and purl the knits as they appear from the previous row. It is a reversible, non-curling border commonly used to counter stockinette curl. It uses more yarn than garter and takes more attention to knit correctly. Ribbing (k1p1 or k2p2) at top and bottom is the standard for sweater hems and cuffs: flat, stretchy, gripping.
 
 The border isn't an afterthought. Plan it into the design from the start. Adding one to a finished piece means [picking up stitches](/articles/pick-up-stitches/), which works but takes more effort than including it originally.
 
 ### Border width by yarn weight
 
-How wide a border needs to be scales with yarn weight. Heavier fabric resists curl on its own. Thinner fabric needs more help.
+Yarn weight alone does not determine how much a stockinette edge curls or how wide its border needs to be. Stitch structure, gauge, fiber and material properties, piece dimensions, and border construction also matter. Thicker or denser fabric may sometimes make curl look less pronounced, but that is not a reliable rule.
+
+**Rough experimental starting points, not universal requirements:**
 
 | Yarn weight      | Side border (each edge) | Top/bottom border |
 | ---------------- | ----------------------- | ----------------- |
@@ -52,7 +54,7 @@ How wide a border needs to be scales with yarn weight. Heavier fabric resists cu
 | Worsted          | 4–6 stitches            | 4–6 rows          |
 | Aran / bulky     | 3–4 stitches            | 3–4 rows          |
 
-These are starting points. A wide piece needs proportionally less border than a narrow one. A 12-inch scarf in fingering weight might need 12 stitches each side; a 24-inch wide wrap could get away with 8.
+Test the intended border on a sufficiently large swatch worked with the project yarn and gauge. Assess the swatch relaxed, then again after the same finishing or blocking planned for the project. These numbers do not guarantee a flat result.
 
 ### Slip stitch selvedge
 
@@ -90,7 +92,7 @@ This matters when designing reversible projects. Combining stockinette and rever
 
 Knitting in the round avoids the side-edge curl problem because there are no side edges. The fabric is a continuous tube. Hats, cowls, and sweater bodies in stockinette look fine without borders along the sides.
 
-Then there's steeking. A steek is a column of extra stitches you cut after binding off, used to convert a tube knitting into flat panels (typically for cardigans). The moment you cut a stockinette steek open, you reveal raw stockinette edges, and they curl as aggressively as any flat stockinette would. This is why steeked cardigans need bands picked up and knit on immediately. The band stabilizes the edge before the curl has time to set in.
+Then there's steeking. A steek is a column of extra stitches you cut after binding off, used to convert a tube knitting into flat panels (typically for cardigans). Steek safety comes from the planned construction and the yarn's behavior, not from adding a band before curl sets in. When the fiber or method requires reinforcement, reinforce before cutting. After cutting, secure and finish the flaps or edges for the chosen method. Picked-up bands can then cover and help stabilize the finished cut edge.
 
 ## When curling is fine
 
@@ -106,16 +108,16 @@ Knitting in the round (hats, cowls, sweater bodies) eliminates side edges entire
 For wool, blocking holds for a while but the curl returns gradually with wear and washing. For acrylic, careful non-contact steam can permanently relax the fabric, but it can also change the feel. For cotton, blocking has minimal lasting effect.
 
 **How wide does a garter border need to be?**
-For a worsted-weight scarf, 4–6 stitches on each side and 4–6 rows at top and bottom is a reasonable start. Thinner yarns need wider borders; bulkier yarns need less. If the piece is under 6 inches wide and all stockinette, it may curl despite any border.
+For a worsted-weight scarf, 4–6 stitches on each side and 4–6 rows at top and bottom can be a rough experimental starting point, not a guarantee. The needed width depends on the project yarn and gauge, stitch pattern, piece dimensions, and border construction, so test it on a sufficiently large swatch.
 
 **Can I add a border after the piece is finished?**
 Yes. Pick up stitches along the edges and knit a border onto them. Extra work, but it works. Crocheting a border onto the edge is another option some knitters find faster.
 
 **Does yarn weight affect how much stockinette curls?**
-All weights curl. Heavier yarns produce stiffer fabric that curls less dramatically. Lace weight stockinette curls aggressively because the fabric is so light and flexible.
+Yarn weight can affect fabric thickness and density, but it does not determine curl on its own. Stitch structure, gauge, fiber properties, piece dimensions, and border construction also matter.
 
 **Why does my swatch lie flat but the finished piece curl?**
-A small swatch has less curl pressure than a wide piece. The swatch's own size keeps it relatively flat (especially if pinned during measuring). As you scale up, the proportional pull along the edges increases. A 4-inch swatch can look deceptively well-behaved while a 20-inch shawl from the same yarn and needles rolls visibly.
+A small swatch may not show how a full-size piece will behave, especially if it was pinned, stretched, or otherwise held flat for measuring. Use a sufficiently large swatch, assess it relaxed, and assess it again after the same finishing or blocking planned for the project.
 
 **Is there a yarn that doesn't curl in stockinette?**
 Not really. Linen comes closest because it has almost no elasticity, so the structural imbalance between knit and purl has less spring to act on. Cotton is similar but still curls. Anything with significant wool or wool-blend content will curl noticeably.

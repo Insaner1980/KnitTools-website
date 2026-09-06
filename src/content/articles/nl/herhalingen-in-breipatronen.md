@@ -16,7 +16,7 @@ lang: nl
 translationKey: "knitting-pattern-repeats"
 ---
 
-Herhalingen voorkomen dat patronen elke steek uitschrijven over een toer van 200 steken. In plaats van vijfentwintig keer "2 r, 2 av, 2 r, 2 av..." schrijft het patroon "\*2 r, 2 av; herh vanaf \* tot eind." Zelfde resultaat, veel minder ruimte.
+Herhalingen voorkomen dat patronen elke steek uitschrijven over een toer van 200 steken. In plaats van vijftig keer "2 r, 2 av, 2 r, 2 av..." schrijft het patroon "\*2 r, 2 av; herh vanaf \* tot eind." Zelfde resultaat, veel minder ruimte.
 
 In breipatronen gebruiken herhalingen sterretjes (\*), blokhaken [] of haakjes () om een deel steken te markeren dat meerdere keren over de toer wordt gebreid. De notatie is compact zodra je eraan gewend bent. Maar de eerste keren met geneste herhalingen of sterretjes met reststeken kunnen voelen alsof je een taal leest die je bijna spreekt.
 

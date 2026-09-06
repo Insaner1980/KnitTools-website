@@ -44,9 +44,9 @@ If the pattern gives an exact pickup count, divide that by the edge length in in
 
 ### Picking up along a slipped-stitch selvedge
 
-If you slipped the first stitch of every row while knitting the piece, the side edge has a chain of paired strands instead of a strand per row. Pick up one stitch under each chain (the two strands that form one "V" of the chain). Because each chain represents two rows, the ratio becomes 1 picked-up stitch per 2 rows, which is too few for stockinette.
+If you slipped the first stitch of every row while knitting the piece, the side edge has a chain of paired strands instead of a strand per row. Pick up one stitch under each chain (the two strands that form one "V" of the chain). Each chain commonly represents two rows, so one picked-up stitch per chain may be substantially fewer stitches than a button band or border needs.
 
-Two fixes: pick up the chain plus an extra stitch in the running strand between chains, alternating to hit roughly 3 per 4 rows. Or pick up one per chain and accept a slightly tighter border, which works for ribbing because ribbing pulls in anyway. Slipped-stitch selvedges make pickup faster and visually cleaner, just check the ratio against your border's needs.
+Ribbing drawing in does not make one stitch per chain automatically correct. Follow the pattern's pickup count when it provides one. Otherwise, calculate and adjust the pickup ratio from the edge's row gauge or length and the border's target stitch gauge or count. Use one stitch per chain only when it gives the required count and a flat, correctly fitting edge.
 
 ### Picking up along a garter stitch edge
 
@@ -128,9 +128,9 @@ Useful for sweaters where the pickup is around a fitted neckline and you want to
 
 ## Picking up for steeks
 
-After cutting a steek (a column of extra stitches in circular knitting that gets cut to create flat panels for cardigans), the raw edge needs to be stabilized. A picked-up band helps cover and secure the cut edge.
+After cutting a properly prepared steek (a column of extra stitches in circular knitting that gets cut to create flat panels for cardigans), a picked-up band can cover and help stabilize the cut edge. It is not a substitute for reinforcement when the yarn, fiber, or steek method requires reinforcement before cutting.
 
-Pick up through the column of stitches just inside the cut (not through the raw edges themselves). The first row of the band traps the cut yarn ends behind the new stitches. After the band is knit, the cut ends are invisible from the right side and held permanently in place.
+Pick up through the column of stitches just inside the cut (not through the raw edges themselves). The band can cover the cut ends from the right side, but the cut flap or edge still needs finishing appropriate to the chosen method.
 
 For non-feltable yarn (cotton, superwash), reinforce the steek with a row of crochet or machine sewing on each side before cutting. Sticky, non-superwash wool can often grip or felt enough to behave more securely. Cotton and superwash wool do not.
 

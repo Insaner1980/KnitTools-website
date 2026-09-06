@@ -16,7 +16,7 @@ lang: fi
 translationKey: "join-new-ball-of-yarn"
 ---
 
-Vanha kerä loppuu. Uusi pitää aloittaa. Siirtymän pitää olla valmiissa neuleessa näkymätön ja tarpeeksi tukeva, ettei se purkaudu.
+Vanha kerä loppuu. Uusi pitää aloittaa. Siirtymän pitää olla valmiissa neuleessa siisti ja tarpeeksi tukeva, ettei se purkaudu.
 
 Neljä päämenetelmää ovat päällekkäisliitos (helpoin, kaksi pääteltävää langanpäätä), Russian join (ei päitä, hieman paksumpi kohta), huopaliitos eli spit splice (lähes näkymätön, mutta vain huopuville villoille) ja magic knot (nopea, mutta jättää solmun). Paras valinta riippuu langan [kuitusisällöstä](/fi/artikkelit/lankakuidut-vertailussa/) ja siitä, kuinka paljon langanpäiden päättely häiritsee.
 
@@ -132,7 +132,7 @@ Useimmiten kyllä, mutta päällekkäisliitos voi näkyä värinvaihdossa yhden 
 Käytä päällekkäisliitosta. Russian join tarvitsee riittävän koossa pysyvät säikeet, joiden sisään neula voidaan pujottaa. Yksisäikeiset, löyhäkierteiset ja hyvin pörröiset langat eivät pidä sitä kunnolla.
 
 **Näkyykö liitos nurjalla puolella?**
-Vähän. Siistikin huopaliitos voi tehdä pienen kohdan, jossa lanka tuntuu erilaiselta. Päällekkäisliitos näkyy kaksinkertaisena lankana, kunnes hännät on päätelty ja leikattu. Russian join näkyy hieman paksumpana kohtana. Valmiin ja pingotetun neuleen oikealle puolelle nämä eivät yleensä näy.
+Vähän. Siistikin huopaliitos voi tehdä pienen kohdan, jossa lanka tuntuu erilaiselta. Päällekkäisliitos näkyy kaksinkertaisena lankana, kunnes hännät on päätelty ja leikattu. Russian join voi tehdä paksumman kohdan, ja myös muut liitokset voivat jäädä näkyviin oikealla puolella. Näkyvyys riippuu langasta, kuidusta, neuletiheydestä, mallineuleesta, liitostavasta ja liitoskohdasta. Jos ulkonäöllä on väliä, testaa liitos ja sijoita se mahdollisuuksien mukaan huomaamattomampaan kohtaan.
 
 **Miten langanpäät päätellään pitsiin tai avoimeen neulepintaan?**
 Vaikeammin, koska piilotettavaa pintaa on vähemmän. Kuljeta häntä nurjalla puolella rakenteellista silmukkasaraketta pitkin, siis niitä silmukoita pitkin jotka eivät ole langankiertoja, ja halkaise säikeitä matkalla. Hyvin avoimessa pitsissä liitokset kannattaa suunnitella reunaan, jossa päät saa piiloon reunukseen eikä mallineuleen keskelle.

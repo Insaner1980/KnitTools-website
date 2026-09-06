@@ -74,7 +74,7 @@ Titta särskilt på ärmhålsdjupet. Det står ofta mindre tydligt än bröstvid
 
 Det händer ofta. Bröstmåttet hamnar i en storlek, höfterna behöver en annan, ärmlängden stämmer inte i någon.
 
-För kroppen: välj storlek efter största måttet (oftast bröst eller höft) och ändra resten. Det är lättare att lägga till midjeformning i ett mönster som passar höfterna än att lägga till bredd i ett som är för smalt.
+Välj en startstorlek genom att jämföra den färdiga skissen och måtten med den avsedda rörelsevidden och plaggets konstruktion. Fokusera på de mått som styr delarna som är svårast att ändra. I många kroppsnära plagg med isydd ärm kan axlarna och den övre delen av bålen vara en bättre utgångspunkt än det största omkretsmåttet. Växla mellan storlekar eller justera andra delar där konstruktionen tillåter det.
 
 Längd är enklast att ändra. De flesta mönster säger "sticka tills arbetet mäter X cm", och du kan justera fritt. Vill du ha 43 cm i stället för 38? Sticka 5 cm till. Ärmlängd fungerar på samma sätt. Överarmsvidd är svårare eftersom den påverkar ärmkullen, så sikta på att matcha mönstret där.
 
@@ -136,7 +136,7 @@ Innan du väljer storlek, [kontrollera stickfastheten](/sv/artiklar/sa-mater-du-
 
 Garnsort spelar också roll för passformen. Garner med mycket fall, som bomull och silke, hänger annorlunda än fjädrande ull, så en bomullströja och en ulltröja i samma storlek sitter inte likadant. Om du [byter garn](/sv/artiklar/byta-garn-i-stickmonster/), räkna in det.
 
-Om du behöver en storlek för överkroppen och en annan för nedre delen är det gradering. Följ övre storleken för ok och bröst, öka eller minska till den nedre storleken vid midjan. Vissa mönster har förkortade varv för bystformning eller separata över-/understorlekar. När mönstret inte har det kräver ändringen lite stickmatte.
+Om du behöver en storlek för överkroppen och en annan för nedre delen kan du kombinera storlekar eller växla mellan dem. Följ den övre storleken för ok och bröst och öka eller minska mot den nedre storleken vid midjan där konstruktionen tillåter det. Det här är inte mönstergradering; gradering är designerns process för att utveckla mönstret i en hel storleksserie. Vissa mönster har förkortade varv för bystformning eller separata över-/understorlekar. När mönstret inte har det kräver ändringen lite stickmatte.
 
 ## FAQ
 
@@ -144,10 +144,10 @@ Om du behöver en storlek för överkroppen och en annan för nedre delen är de
 Över ett tunt lager, till exempel en t-shirt, ligger närmast hur en tröja brukar bäras. Mäter du över tjocka kläder blir måttet för stort.
 
 **Mina mått hamnar i tre olika mönsterstorlekar. Vad nu?**
-Välj storleken närmast ditt största kritiska mått och planera ändringar för de andra punkterna. Längd är oftast den mest förlåtande ändringen. Bröstvidd är svårare att ändra. Axelbredd är svårast. Om du inte kan få allt, prioritera axlar och bröst.
+Använd den färdiga skissen och den avsedda rörelsevidden för att hitta den storlek som bäst passar den del av konstruktionen som är svårast att ändra. I många kroppsnära plagg med isydd ärm kan det innebära att prioritera axlarna och den övre delen av bålen framför det största omkretsmåttet. Växla mellan storlekar eller justera andra mått bara där konstruktionen tillåter det.
 
 **Spelar varvtäthet roll för passformen?**
-I de flesta plagg mindre än maskantalet per 10 cm. Undantaget är oktröjor, där varvtätheten bestämmer okets djup. Om varvtätheten avviker mycket kan oket bli för grunt eller för djupt. I vanliga pullovers stickas kropp och ärmar ofta till mått, vilket gör varvtätheten mer förlåtande.
+Varvtätheten kan spela mindre roll än maskantalet per 10 cm när ett enkelt stycke stickas till ett uppmätt längdmått och har liten eller ingen formning som styrs av ett fast varvantal. Den spelar roll när ett fast varvantal bestämmer lodräta mått eller tidpunkten för formning, bland annat i ok, raglanformning, ärmhål, ärmkullar, midje- och ärmformning samt lodräta mönsterrapporter.
 
 **Vad om Ravelry-projekt säger att mönstret är litet eller stort?**
 Läs flera projekt innan du drar slutsatsen. Ibland ger några stickare med fel stickfasthet ett skevt intryck. Om fem olika stickare säger att mönstret är litet, ta det på allvar och överväg större storlek.

@@ -30,7 +30,7 @@ De fleste sokker med god passform bygges av de samme sonene, selv når konstruks
 
 **Hæl.** Den formede delen som omslutter hælen. Her blir konstruksjonen interessant, og her ligger mye av forskjellen mellom sokkeoppskrifter.
 
-**Kile.** Trekantede partier på hver side av foten som går fra den bredere hælen tilbake til en smalere fotomkrets. Ikke alle hæltyper bruker kile. Kilen er det som gjør at en sokk med hælkappe sitter godt over vristen, den høyeste og bredeste delen av foten.
+**Kile.** Trekantede partier på hver side av foten som går fra den bredere hælen tilbake til en smalere fotomkrets. Ikke alle hæltyper bruker kile. I en sokk med hælkappe kan kilen gi plass i overgangen fra hæl til vrist. Vristen er oversiden av foten og den tilsvarende delen oppå sokkefoten.
 
 **Fot.** Røret som dekker såle og vrist. Som regel glattstrikk på sålen, med mønsteret videre over vristen. Lengden bestemmes av fotmålet, ikke av et fast antall omganger. Prøv sokken eller mål underveis.
 
@@ -46,7 +46,7 @@ Fordeler: godt dokumentert hælkonstruksjon, intuitiv retning og et vrangbordopp
 
 **Tå opp** starter ved tåen og arbeider mot vrangborden. Du legger opp med en spesialmetode, ofte Judy's Magic Cast On eller Turkish cast on, strikker foten, lager hælen, strikker skaftet og feller av elastisk, for eksempel med Jeny's Surprisingly Stretchy Bind-Off eller en sydd tubular avfelling.
 
-Fordeler: du kan prøve underveis, bruke nesten hele garnmengden ved å fortsette skaftet til garnet nærmer seg slutten, og tåen er lukket fra starten slik at du slipper sammenmasking til slutt. Ulemper: tå-opp-hæler er andre teknikker enn hæler ovenfra og ned, den magiske oppleggingen krever noen forsøk før den blir pen, og en elastisk avfelling øverst kan fort bli for stram før teknikken sitter.
+Fordeler: du kan prøve underveis, bruke nesten hele garnmengden så lenge du sparer nok til den valgte avfellingen og til å feste tråden, og tåen er lukket fra starten slik at du slipper sammenmasking til slutt. Sydde avfellinger, for eksempel en sydd tubular avfelling, kan kreve en betydelig lengre garnende enn en enkel avfelling. Ulemper: tå-opp-hæler er andre teknikker enn hæler ovenfra og ned, den magiske oppleggingen krever noen forsøk før den blir pen, og en elastisk avfelling øverst kan fort bli for stram før teknikken sitter.
 
 Ingen retning er bedre. De fleste sokkestrikkere prøver begge og velger favoritt. Oppskrifter sier hvilken metode de bruker, og å bytte retning betyr at hælen og opplegget må bygges om. I praksis betyr det ofte at du bør velge en annen oppskrift.
 
@@ -103,7 +103,7 @@ Hvis du har [strikket en lue](/no/artikler/strikke-lue-metoder-for-alle-nivaer/)
 
 ## Størrelse og passform
 
-Mål fotomkretsen på det bredeste punktet, ved tåballen like bak tærne. Mål fotlengden fra baksiden av hælen til tuppen av lengste tå. De fleste oppskrifter oppgir ferdig sokkeomkrets og lar deg velge størrelse etter fotomkrets.
+Bruk målet oppskriften ber om. Standard fotomkrets måles rundt fotens bredeste del, vanligvis ved tåballen. Mål fotlengden fra baksiden av hælen til tuppen av den lengste tåen. Noen sokkekonstruksjoner trenger i tillegg et diagonalmål rundt hæl og vrist eller et annet spesifikt mål. De fleste oppskrifter oppgir ferdig sokkeomkrets og lar deg velge størrelse etter fotomkrets.
 
 Ferdig sokkeomkrets er vanligvis mindre enn foten, altså negativ bevegelsesvidde, ofte rundt 10 prosent for en enkel elastisk sokk. Sokkestoffet må klemme lett rundt foten for å sitte. En sokk med samme omkrets som foten kan sige. En for liten sokk blir ubehagelig og kan slites raskere.
 
@@ -124,13 +124,13 @@ De enkelte teknikkene er ikke vanskelige. Hælen krever nøyaktig oppskriftslesi
 Ikke egentlig. Sokker er rør. Du kan strikke flate deler og sy dem sammen, men sømmene gir ubehagelige kanter inni skoen. Rundstrikket konstruksjon anbefales sterkt. Hvis rette pinner er ditt eneste valg, er et annet førsteprosjekt bedre.
 
 **Hvordan vet jeg hvilken størrelse jeg skal strikke?**
-Mål fotomkretsen på det bredeste punktet, ved tåballen. Sokkens ferdige omkrets bør være omtrent 10 prosent mindre, negativ bevegelsesvidde, fordi stoffet strekker seg rundt foten. De fleste oppskrifter oppgir størrelser ut fra dette målet. Hvis foten havner mellom to størrelser, velg mindre for tettere passform eller større hvis føttene hovner opp i løpet av dagen.
+Bruk målet oppskriften ber om. Standard fotomkrets måles rundt det bredeste punktet, vanligvis ved tåballen. Sokkens ferdige omkrets bør være omtrent 10 prosent mindre, negativ bevegelsesvidde, fordi stoffet strekker seg rundt foten. De fleste oppskrifter oppgir størrelser ut fra dette målet. Hvis oppskriften bruker et diagonalmål rundt hæl og vrist eller et annet konstruksjonsspesifikt mål, følger du det. Hvis foten havner mellom to størrelser, velg mindre for tettere passform eller større hvis føttene hovner opp i løpet av dagen.
 
 **Sokkene slites hull i hælen.**
 Forsterk hælkappen med løftede masker: løft annenhver maske på rettsidepinner og strikk vrangsiden tilbake som vanlig. Det legger dobbelt garn i overflaten. Noen strikkere holder også en forsterkningstråd sammen med garnet gjennom hælpartiet. Det finnes egne nylontråder for nettopp dette, ofte i farger som matcher vanlig sokkegarn.
 
 **Hva gjør jeg hvis garnet tar slutt før tåen?**
-I sokker ovenfra og ned er tåen det verste stedet å gå tom for garn. Alternativene er å rekke opp og korte ned skaftet, bytte til kontrastfarge på tåen eller godta at sokkene blir litt korte. Tå opp unngår dette fordi skaftet kommer til slutt og du kan stoppe når garnet gjør det.
+I sokker ovenfra og ned er tåen det verste stedet å gå tom for garn. Alternativene er å rekke opp og korte ned skaftet, bytte til kontrastfarge på tåen eller godta at sokkene blir litt korte. Tå opp reduserer denne risikoen fordi skaftet kommer til slutt, men du må stoppe mens du fortsatt har nok garn til den valgte avfellingen og til å feste tråden. En sydd avfelling, for eksempel en sydd tubular avfelling, kan kreve en betydelig lengre garnende enn en enkel avfelling.
 
 **Må begge sokkene matche nøyaktig?**
 Nei. Søskenpar, altså samme mønster men ulik fargerekkefølge fra melert eller håndfarget garn, er helt normalt. Mange foretrekker det fremfor å kjempe med helt lik stripestart. Om stripene må matche, er en smakssak, ikke en regel.

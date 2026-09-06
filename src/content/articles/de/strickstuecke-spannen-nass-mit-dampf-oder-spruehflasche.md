@@ -135,7 +135,7 @@ Lagere fertige Strickstücke flach oder gefaltet. Hängen dehnt gestrickten Stof
 ## FAQ
 
 **Muss jedes Projekt gespannt werden?**  
-Nein. Spültücher, Übungsstücke und Dinge, bei denen Maße keine Rolle spielen, kannst du auslassen. Kleidungsstücke, Lochmuster und alles, bei dem Aussehen und Passform wichtig sind, sollten gespannt werden. Wenn du unsicher bist, spann die Maschenprobe zuerst. Im schlimmsten Fall verlierst du nur Trockenzeit.
+Nein. Spültücher, Übungsstücke und Dinge, bei denen Maße keine Rolle spielen, kannst du auslassen. Kleidungsstücke, Lochmuster und alles, bei dem Aussehen und Passform wichtig sind, sollten gespannt werden. Wenn du unsicher bist, beachte die Pflegehinweise auf der Banderole oder die Angaben des Herstellers und teste die geplante Methode zuerst an einer Maschenprobe. Eine ungeeignete Methode kann manche Fasern dauerhaft verändern oder beschädigen.
 
 **Kann man zu stark spannen?**  
 Ja, besonders Alpaka und Superwash-Wolle lassen sich überdehnen. Wenn du den Stoff über seine natürliche Grenze hinaus feststeckst, werden die Maschen verzogen. Steck auf das Maß laut Anleitung, nicht weiter.

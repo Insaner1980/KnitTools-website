@@ -48,11 +48,9 @@ Geeft het patroon een exact aantal op te nemen steken, deel dat aantal dan door 
 
 ### Langs een rand met afgehaalde kantsteken
 
-Als je de eerste steek van elke toer hebt afgehaald, heeft de zijkant een ketting van dubbele draadjes in plaats van een duidelijk draadje per toer. Neem een steek op onder elke schakel van die ketting, dus onder de twee draadjes die samen een V vormen.
+Als je de eerste steek van elke toer hebt afgehaald, heeft de zijkant een ketting van dubbele draadjes in plaats van een duidelijk draadje per toer. Elke schakel van die ketting vertegenwoordigt gewoonlijk twee toeren. Eén steek per schakel opnemen kan daardoor aanzienlijk minder steken opleveren dan een knoopbies of andere rand nodig heeft.
 
-Omdat elke schakel twee toeren vertegenwoordigt, wordt dit 1 opgenomen steek per 2 toeren. Voor tricotsteek is dat vaak te weinig.
-
-Twee oplossingen werken goed. Neem op in de ketting en voeg om de paar schakels een extra steek toe in de draad tussen de schakels, zodat je dichter bij 3 steken per 4 toeren komt. Of neem 1 steek per schakel op en accepteer een iets strakkere boord. Dat kan bij boordsteek prima, omdat boordsteek toch naar binnen trekt.
+Dat boordsteek samentrekt, maakt één steek per schakel niet automatisch juist. Volg eerst het opnameaantal uit het patroon als dat er staat. Bereken en pas anders de opnameverhouding aan op basis van de toerenverhouding of lengte van de rand en de gewenste stekenverhouding of het gewenste aantal steken van de boord. Gebruik alleen één steek per schakel als dat het vereiste aantal en een vlakke, goed passende rand oplevert.
 
 Afgehaalde kantsteken maken opnemen sneller en visueel netter. Controleer alleen of de verhouding nog past bij de rand die je gaat breien.
 
@@ -138,11 +136,11 @@ Dat is handig bij truien waar de hals goed moet liggen en je zeker wilt zijn van
 
 ## Steken opnemen voor steeks
 
-Na het knippen van een steekkolom, een extra kolom steken in rondbreiwerk die wordt opengeknipt voor bijvoorbeeld een vest, moet de ruwe rand snel worden vastgezet. Losse draadeinden rafelen als ze open blijven liggen, en een opgenomen boord stabiliseert de rand.
+Na het knippen van een goed voorbereide steekkolom, een extra kolom steken in rondbreiwerk die wordt opengeknipt voor bijvoorbeeld een vest, kan een opgenomen bies de kniprand bedekken en helpen stabiliseren. De bies vervangt geen versteviging als het garen, de vezel of de steekmethode versteviging vóór het knippen vereist.
 
-Neem op in de kolom steken net binnen de knip, niet in de losse afgeknipte draadjes zelf. De eerste toer van de boord vangt de geknipte uiteinden achter de nieuwe steken. Na het breien van de boord zijn de uiteinden aan de goede kant onzichtbaar en blijven ze vast liggen.
+Neem op in de kolom steken net binnen de knip, niet in de losse afgeknipte draadjes zelf. De bies kan de geknipte uiteinden aan de goede kant bedekken, maar de geknipte flap of rand moet nog worden afgewerkt op een manier die bij de gekozen methode past.
 
-Garen dat niet vervilt, zoals katoen en superwashwol, moet voor het knippen worden verstevigd met een gehaakte rand of machinestiksel aan beide kanten. Plakkerige, niet-superwash wol kan vaak genoeg grijpen of vervilten om zich zekerder te gedragen. Katoen en superwashwol doen dat niet.
+Garen dat niet vervilt, zoals katoen en superwashwol, verstevig je vóór het knippen met een gehaakte rand of machinestiksel aan beide kanten. Plakkerige, niet-superwash wol kan vaak genoeg grijpen of vervilten om zich zekerder te gedragen.
 
 ## Veelgestelde vragen
 

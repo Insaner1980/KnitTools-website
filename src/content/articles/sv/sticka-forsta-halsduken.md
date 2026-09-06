@@ -136,7 +136,7 @@ Gör fransarna lite för långa först och jämna till dem när alla sitter på 
 
 Om du slutar mitt i ett varv, skjut maskorna ordentligt in mot mitten av stickan så att de inte glider av. Om du slutar mellan två varv är arbetet mer stabilt. Förvara projektet i en stängd påse och inte i direkt solljus, som kan bleka färger över tid.
 
-Fyrtiofem minuter är ett bra pass för nya stickare. Händer och handleder använder muskler de inte är vana vid, och om du tar i för mycket första veckan kan ömheten sitta i flera dagar. Bättre lite varje dag än två timmar en gång i veckan.
+För vissa nya stickare kan 45 minuter vara ett lagom pass. Håll greppet avslappnat, ta korta pauser och sluta eller byt aktivitet om du får smärta, stickningar eller domningar. Ihållande eller förvärrade symtom, eller neurologiska symtom som domningar, kan behöva bedömas av vårdpersonal.
 
 ## FAQ
 

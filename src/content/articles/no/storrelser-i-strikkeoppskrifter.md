@@ -74,7 +74,7 @@ Se spesielt på ermehullsdybden. Den står ofte mindre tydelig enn brystvidden, 
 
 Det skjer ofte. Brystmålet peker mot én størrelse, hoftene trenger en annen, og ermelengden passer ikke i noen av dem.
 
-For bolen: velg størrelsen som passer det største målet, ofte bryst eller hofter, og tilpass resten. Det er lettere å legge inn midjeforming i en oppskrift som passer hoftene enn å legge bredde til en som er for smal.
+Velg en startstørrelse ved å sammenligne målskissen og de ferdige målene med ønsket bevegelsesvidde og plaggets konstruksjon. Legg mest vekt på målene som styrer delene det er vanskeligst å endre. I mange kroppsnære plagg med isydde ermer kan skuldre og øvre del av overkroppen være et bedre utgangspunkt enn den største omkretsen. Kombiner størrelser eller tilpass andre områder der konstruksjonen tillater det.
 
 Lengde er lettest å endre. De fleste oppskrifter sier "strikk til arbeidet måler X cm", og du kan justere fritt. Vil du ha 43 cm i stedet for 38? Strikk 5 cm til. Ermelengde fungerer på samme måte. Overarmsvidde er vanskeligere fordi den påvirker ermetoppen, så prøv å treffe oppskriften der.
 
@@ -136,7 +136,7 @@ Før du velger størrelse, [sjekk strikkefastheten](/no/artikler/male-strikkefas
 
 Garntype betyr også noe for passform. Garn med mye fall, som bomull og silke, henger annerledes enn spenstig ull, så en bomullsgenser og en ullgenser i samme størrelse sitter ikke likt. Hvis du [bytter garn](/no/artikler/bytte-garn-i-strikkeoppskrift/), ta det med i vurderingen.
 
-Hvis du trenger én størrelse oppe og en annen nede, er det gradering. Følg øvre størrelse for bærestykke og bryst, og øk eller fell mot nedre størrelse ved midjen. Noen oppskrifter har forkortede pinner for bysteforming eller separate øvre og nedre størrelser. Når de ikke har det, krever endringen litt strikkematte.
+Hvis du trenger én størrelse oppe og en annen nede, kombinerer du størrelser eller går mellom dem. Følg øvre størrelse for bærestykke og bryst, og øk eller fell mot nedre størrelse ved midjen der konstruksjonen tillater det. Dette er ikke gradering; gradering er designerens arbeid med å utvikle oppskriften i hele størrelsesspennet. Noen oppskrifter har forkortede pinner for bysteforming eller separate øvre og nedre størrelser. Når de ikke har det, krever endringen litt strikkematte.
 
 ## FAQ
 
@@ -144,10 +144,10 @@ Hvis du trenger én størrelse oppe og en annen nede, er det gradering. Følg ø
 Over et tynt lag, for eksempel en t-skjorte, ligger nærmest hvordan en genser vanligvis brukes. Måling over tykke klær gjør tallet for stort.
 
 **Målingene mine havner i tre ulike oppskriftsstørrelser. Hva nå?**
-Velg størrelsen nærmest det største kritiske målet ditt, og planlegg endringer for de andre punktene. Lengde er som regel den mest tilgivende endringen. Brystvidde er vanskeligere å endre. Skulderbredde er vanskeligst. Hvis du ikke kan få alt, prioriter skuldre og bryst.
+Bruk målskissen og ønsket bevegelsesvidde til å finne størrelsen som passer best til den delen av konstruksjonen som er vanskeligst å endre. I mange kroppsnære plagg med isydde ermer kan det bety å prioritere skuldre og øvre del av overkroppen fremfor den største omkretsen. Kombiner størrelser eller tilpass andre mål bare der konstruksjonen tillater det.
 
 **Spiller pinnefasthet rolle for passform?**
-I de fleste plagg mindre enn maskeantall per 10 cm. Unntaket er gensere med bærestykke, der pinnefastheten bestemmer bærestykkets dybde. Hvis pinnefastheten avviker mye, kan bærestykket bli for grunt eller for dypt. I vanlige gensere strikkes bol og ermer ofte til mål, noe som gjør pinnefastheten mer tilgivende.
+Pinnefastheten kan bety mindre enn maskefastheten når en enkel del strikkes til målt lengde og har lite eller ingen forming som styres av pinneantallet. Den er viktig når et fast pinneantall styrer loddrette mål eller plassering, blant annet i bærestykker, raglanforming, ermehull, ermetopper, midje- eller ermeforming og loddrette mønsterrapporter.
 
 **Hva hvis Ravelry-prosjekter sier at oppskriften er liten eller stor?**
 Les flere prosjekter før du konkluderer. Noen få strikkere med feil strikkefasthet kan gi et skjevt inntrykk. Hvis fem ulike strikkere sier at oppskriften er liten, ta det på alvor og vurder større størrelse.

@@ -76,11 +76,11 @@ Voor een meer zichtbare variant kun je met de verkeerde kanten tegen elkaar afka
 
 Maassteek, in Engelstalige patronen vaak Kitchener stitch, is het bijna onzichtbare alternatief wanneer twee randen met levende steken worden verbonden. Je gebruikt het voor sokkentenen en soms voor schouders, halsranden of aangepaste truidelen waarbij het breiwerk zonder rand moet doorlopen.
 
-Houd twee naalden parallel met hetzelfde aantal levende steken op elke naald. Rijg een maasnaald met een lange draad passend garen. In tricotsteek is het ritme: voorste naald recht af, voorste naald averecht op, achterste naald averecht af, achterste naald recht op. Herhaal tot het einde.
+Houd de twee naalden parallel, met de verkeerde kanten tegen elkaar, hetzelfde aantal levende tricotsteken op elke naald en de naaldpunten naar rechts. De werkdraad komt uit de eerste steek op de achterste naald. Rijg een maasnaald met een lange draad passend garen. Ter voorbereiding steek je de maasnaald averecht in de eerste steek op de voorste naald en laat je die staan. Steek daarna recht in de eerste steek op de achterste naald en laat ook die staan. Herhaal vervolgens dit ritme van vier stappen: voorste naald recht af, voorste naald averecht op, achterste naald averecht af, achterste naald recht op. Wanneer op elke naald nog één steek staat, haal je de voorste steek recht af en de achterste steek averecht af. Houd elke gemaasde lus ongeveer even groot als de omliggende steken en verdeel daarna de spanning langs de verbinding voordat je het draadeinde wegwerkt.
 
 Goed uitgevoerd vormt maassteek een extra toer tricotsteek die de delen zonder zichtbare naad verbindt. Fout uitgevoerd geeft het een rij gedraaide of ongelijke steken die vervelend is om uit te halen. Leg de stappen de eerste keren voor je neer. Na een sokkenteen zit het ritme vaak in je handen.
 
-Maassteek kan ook midden in een project worden gebruikt. Knip je een truilijf boven de opzetrand open om lengte toe te voegen, dan kan een nieuw deel netjes worden ingemaasd als toerenverhouding en steekpatroon kloppen.
+Maassteek kan ook midden in een project worden gebruikt, maar in een afgewerkt kledingstuk knippen is onomkeerbaar. Een gelijke toerenverhouding en hetzelfde steekpatroon zijn niet genoeg: ook de breirichting is belangrijk, en een verbinding van bovenkant naar bovenkant kan zich anders gedragen dan een verbinding van bovenkant naar onderkant. Bij boordsteek, kabels, ajour en andere verticale motieven kan een verschuiving van een halve steek of een andere afwijking zichtbaar worden. Test de geplande maasverbinding op een proeflapje voordat je in een afgewerkt kledingstuk knipt.
 
 ## Overhandse steek, snelle naad
 

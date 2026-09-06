@@ -22,7 +22,7 @@ Bei glatt rechts zeigen alle rechten Maschen zur einen Seite und alle linken Mas
 
 ## Was Einrollen nicht behebt
 
-Festere Fadenspannung macht den Stoff steifer und reduziert das Rollen etwas, aber es bleibt. Größere Nadeln erzeugen einen weicheren Stoff, der sich proportional genauso einrollt. Steifere Garne wie Baumwolle oder Leinen rollen weniger stark als elastische Garne wie Wolle, aber sie rollen trotzdem. Dampf kann das Stück vorübergehend flachlegen, aber außer bei Acryl, das mit Dampf dauerhaft verändert werden kann, kommt die Rollkante zurück, wenn der Stoff sich entspannt oder gewaschen wird.
+Festere Fadenspannung macht den Stoff steifer und reduziert das Rollen etwas, aber es bleibt. Eine andere Nadelstärke verändert Dichte und Fall des Gestricks, verhindert das Einrollen aber nicht zuverlässig. Steifere Garne wie Baumwolle oder Leinen rollen weniger stark als elastische Garne wie Wolle, aber sie rollen trotzdem. Dampf kann das Stück vorübergehend flachlegen, aber außer bei Acryl, das mit Dampf dauerhaft verändert werden kann, kommt die Rollkante zurück, wenn der Stoff sich entspannt oder gewaschen wird.
 
 Nichts davon behebt die Struktur. Es verwaltet sie nur.
 
@@ -40,13 +40,15 @@ Ein nicht rollendes Muster an den Kanten von glatt rechts ist die zuverlässigst
 
 Kraus rechts ist der häufigste Rand. Kraus rechts liegt flach, weil sich aus einer Blickrichtung rechte und linke Reihen abwechseln. Drei bis fünf Maschen an jeder Seitenkante und ein paar Reihen oben und unten reichen bei einem Schal oft. Schmale Stücke brauchen im Verhältnis breitere Ränder.
 
-Perlmuster, also 1 M rechts, 1 M links abwechselnd über Maschen und Reihen, liegt vollständig flach und gibt einen strukturierten Rahmen. Es verbraucht mehr Garn als kraus rechts und braucht mehr Aufmerksamkeit. Rippenmuster, 1 M rechts, 1 M links oder 2 M rechts, 2 M links, ist der Standard für Pulloverbündchen und Ärmelbündchen. Flach, elastisch, haltend.
+Perlmuster wechselt rechte und linke Maschen waagerecht und senkrecht ab. Bei einer ungeraden Maschenzahl arbeitest du in jeder Reihe 1 M rechts, 1 M links im Wechsel. Bei einer geraden Maschenzahl wechselst du eine Reihe 1 M rechts, 1 M links mit einer Reihe 1 M links, 1 M rechts ab. Allgemein strickst du die linken Maschen der Vorreihe rechts und die rechten Maschen links. Perlmuster ist beidseitig nutzbar, neigt deutlich weniger zum Einrollen als glatt rechts und eignet sich deshalb gut als strukturierter Rand. Es verbraucht mehr Garn als kraus rechts und braucht mehr Aufmerksamkeit. Rippenmuster, 1 M rechts, 1 M links oder 2 M rechts, 2 M links, ist der Standard für Pulloverbündchen und Ärmelbündchen. Flach, elastisch, haltend.
 
 Der Rand ist kein Nachgedanke. Plane ihn von Anfang an ein. Einen Rand an ein fertiges Stück zu setzen bedeutet [Maschen aufzunehmen](/de/artikel/maschen-an-einer-strickkante-aufnehmen/). Das funktioniert, macht aber mehr Arbeit als ihn gleich mitzustricken.
 
 ### Randbreite nach Garnstärke
 
-Je dünner und leichter der Stoff ist, desto mehr Arbeit muss der Rand leisten. Drei kraus-rechte Maschen können bei einem Worsted-Schal reichen, aber bei einem schmalen Fingering-Schal nur dekorativ aussehen.
+Die Garnstärke allein bestimmt weder, wie stark sich glatt rechts einrollt, noch wie breit der Rand sein muss. Auch Maschenstruktur, Maschenprobe, Faser- und Materialeigenschaften, Maße des Strickstücks und Randkonstruktion spielen eine Rolle. Ein dickerer oder dichterer Stoff kann manchmal weniger stark eingerollt wirken, ist aber keine verlässliche Regel.
+
+**Grobe experimentelle Ausgangswerte, keine allgemeingültigen Vorgaben:**
 
 | Garnstärke       | Seitenrand je Kante | Oben/unten  |
 | ---------------- | ------------------- | ----------- |
@@ -56,7 +58,7 @@ Je dünner und leichter der Stoff ist, desto mehr Arbeit muss der Rand leisten. 
 | Worsted          | 4-6 Maschen         | 4-6 Reihen  |
 | Aran / Bulky     | 3-4 Maschen         | 3-4 Reihen  |
 
-Das sind Startpunkte, keine Gesetze. Ein breites Tuch braucht im Verhältnis weniger Rand als ein sehr schmaler Schal. Ein 30-cm-Schal aus Fingering-Garn braucht vielleicht 12 Randmaschen pro Seite; ein 60-cm-Tuch kommt vielleicht mit 8 aus.
+Teste den geplanten Rand an einer ausreichend großen Probe aus dem Projektgarn, gearbeitet mit der vorgesehenen Maschen- und Reihenprobe. Beurteile sie entspannt und noch einmal nach derselben Fertigstellung oder demselben Spannen, das für das Projekt vorgesehen ist. Diese Zahlen garantieren kein flaches Ergebnis.
 
 ### Abgehobene Randmasche
 
@@ -98,7 +100,7 @@ Rund gestricktes glatt rechts wirkt einfacher, weil es keine Seitenkanten gibt. 
 
 Obere und untere Kanten rollen trotzdem, wenn sie nicht mit Bündchen, kraus rechts oder einem anderen Rand abgeschlossen werden.
 
-Bei Steeks kommt die Rollkante zurück. Ein Steek ist eine zusätzliche Maschensäule, die nach dem Stricken aufgeschnitten wird, etwa für eine Jacke. Sobald du glatt rechts aufschneidest, entstehen rohe Seitenkanten, und diese rollen. Deshalb brauchen steeked Cardigans sofort eine stabile Blende oder Kante.
+Bei Steeks kommt die Rollkante zurück. Ein Steek ist eine zusätzliche Maschensäule, die nach dem Stricken aufgeschnitten wird, etwa für eine Jacke. Die Sicherheit entsteht durch eine geplante Steek-Konstruktion und das Verhalten des Garns, nicht durch eine sofort angesetzte Blende. Wenn Faser oder Methode eine Verstärkung verlangen, verstärke den Steek vor dem Schneiden. Sichere und versäubere nach dem Schneiden die Steek-Zugaben oder Schnittkanten passend zur gewählten Methode. Eine aufgenommene Blende kann die fertige Schnittkante anschließend verdecken und zusätzlich stabilisieren.
 
 ## Wann Einrollen in Ordnung ist
 
@@ -116,7 +118,7 @@ Bei Wolle hält Spannen eine Weile, aber das Rollen kommt mit Tragen und Waschen
 
 **Wie breit muss ein kraus-rechts-Rand sein?**
 
-Bei einem Schal sind 4-6 Maschen an jeder Seite und 4-6 Reihen oben und unten ein sinnvoller Start. Breitere Stücke brauchen im Verhältnis weniger Rand. Wenn das Stück unter 15 cm breit und komplett glatt rechts ist, kann es sich trotz Rand einrollen.
+Bei einem Schal aus Worsted-Garn können 4-6 Maschen an jeder Seite und 4-6 Reihen oben und unten ein grober experimenteller Ausgangspunkt sein, keine Garantie. Die nötige Breite hängt von Projektgarn und Maschenprobe, Muster, Maßen des Strickstücks und Randkonstruktion ab. Teste sie an einer ausreichend großen Maschenprobe.
 
 **Kann ich nachträglich einen Rand hinzufügen?**
 
@@ -124,11 +126,11 @@ Ja. Nimm Maschen entlang der Kanten auf und strick einen Rand daran. Mehr Arbeit
 
 **Beeinflusst die Garnstärke, wie stark glatt rechts rollt?**
 
-Alle Garnstärken rollen. Dickere Garne erzeugen einen steiferen Stoff, der weniger dramatisch rollt. Lace-Garn in glatt rechts rollt stark, weil der Stoff so leicht und beweglich ist.
+Die Garnstärke kann Dicke und Dichte des Gestricks beeinflussen, bestimmt das Einrollen aber nicht allein. Auch Maschenstruktur, Maschenprobe, Fasereigenschaften, Maße des Strickstücks und Randkonstruktion spielen eine Rolle.
 
 **Warum liegt meine Maschenprobe flach, aber das fertige Stück rollt?**
 
-Eine kleine Maschenprobe hat weniger Rollkraft als ein großes Stück. Außerdem wird sie beim Messen oft glattgestrichen oder festgesteckt. In voller Breite kann dieselbe Kombination aus Garn, Nadeln und Muster deutlich stärker rollen.
+Eine kleine Maschenprobe zeigt möglicherweise nicht, wie sich ein Stück in voller Größe verhält, besonders wenn sie zum Messen festgesteckt, gedehnt oder anderweitig flachgehalten wurde. Nutze eine ausreichend große Maschenprobe, beurteile sie entspannt und prüfe sie nach derselben Fertigstellung oder demselben Spannen erneut, das für das Projekt vorgesehen ist.
 
 **Gibt es ein Garn, das in glatt rechts nicht rollt?**
 

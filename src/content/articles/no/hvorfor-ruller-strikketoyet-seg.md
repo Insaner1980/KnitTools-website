@@ -22,7 +22,7 @@ I glattstrikk vender alle rettmaskene mot én side og alle vrangkulene mot den a
 
 ## Hva som ikke fikser rulling
 
-Strammere strikkefasthet gjør stoffet stivere, som reduserer rullingen litt, men den er fortsatt der. Større pinner gir slappere stoff som ruller like mye relativt sett. Stivere garn, som bomull og lin, ruller mindre aggressivt enn spenstige garn som ull, men de ruller fortsatt. Damp kan midlertidig flate det ut, men med mindre du jobber med akryl, som kan "drepes" med damp og endre form permanent, kommer rullingen tilbake når stoffet slapper av eller vaskes.
+Strammere strikkefasthet gjør stoffet stivere, som reduserer rullingen litt, men den er fortsatt der. Å bytte pinnestørrelse endrer stoffets tetthet og fall, men er ingen pålitelig løsning mot rulling. Stivere garn, som bomull og lin, ruller mindre aggressivt enn spenstige garn som ull, men de ruller fortsatt. Damp kan midlertidig flate det ut, men med mindre du jobber med akryl, som kan "drepes" med damp og endre form permanent, kommer rullingen tilbake når stoffet slapper av eller vaskes.
 
 Ingenting av dette fikser den underliggende fysikken. Det håndterer den bare.
 
@@ -40,13 +40,15 @@ Det kan gjøre glattstrikkrulling vanskeligere å håndtere, særlig i ustruktur
 
 Rillestrikket kant er vanligst. Rillestrikk ligger flatt fordi hver pinne veksler rett og vrang sett fra én side. Tre til fem masker i hver side og noen pinner øverst og nederst er ofte nok til et skjerf. Smale arbeider trenger forholdsmessig bredere kanter.
 
-Perlestrikk, som veksler én rett og én vrang over hver maske og hver pinne, ligger helt flatt og gir en strukturert ramme. Det bruker mer garn enn rillestrikk og krever mer oppmerksomhet å strikke riktig. Vrangbord, 1 r, 1 vr eller 2 r, 2 vr, øverst og nederst er standard på genserkanter og mansjetter: flatt, elastisk og gripende.
+Perlestrikk veksler rette og vrange masker både vannrett og loddrett. Med et oddetall masker gjentar du 1 r, 1 vr på hver pinne. Med et partall masker veksler du mellom en pinne med 1 r, 1 vr og en pinne med 1 vr, 1 r. I begge tilfeller strikker du rett i de vrange maskene og vrangt i de rette maskene fra forrige pinne. Perlestrikk er vendbart og brukes ofte som en kant som motvirker rulling i glattstrikk. Det bruker mer garn enn rillestrikk og krever mer oppmerksomhet. Vrangbord, 1 r, 1 vr eller 2 r, 2 vr, øverst og nederst er standard på genserkanter og mansjetter: flatt, elastisk og gripende.
 
 Kanten er ikke en ettertanke. Planlegg den inn fra start. Å legge til kant på et ferdig arbeid betyr å [plukke opp masker](/no/artikler/plukke-opp-masker-langs-strikket-kant/), som fungerer, men krever mer arbeid enn å inkludere den fra begynnelsen.
 
 ### Kantbredde etter garntykkelse
 
-Hvor bred en kant må være, skalerer med garntykkelsen. Tyngre stoff motstår rulling litt av seg selv. Tynnere stoff trenger mer hjelp.
+Garntykkelsen alene avgjør ikke hvor mye en glattstrikket kant ruller eller hvor bred kanten må være. Maskestruktur, strikkefasthet, fiber- og materialegenskaper, arbeidets mål og kantkonstruksjonen spiller også inn. Tykkere eller tettere stoff kan noen ganger få rullingen til å virke mindre tydelig, men det er ingen pålitelig regel.
+
+**Grove, eksperimentelle startpunkter, ikke universelle krav:**
 
 | Garntykkelse          | Sidekant (hver side) | Topp-/bunnkant |
 | --------------------- | -------------------- | -------------- |
@@ -56,7 +58,7 @@ Hvor bred en kant må være, skalerer med garntykkelsen. Tyngre stoff motstår r
 | Worsted               | 4-6 masker           | 4-6 pinner     |
 | Aran / Bulky          | 3-4 masker           | 3-4 pinner     |
 
-Dette er startpunkter. Et bredt arbeid trenger forholdsmessig mindre kant enn et smalt. Et 30 cm bredt skjerf i Fingering kan trenge 12 masker i hver side, mens et 60 cm bredt sjal kan klare seg med 8.
+Test den planlagte kanten på en tilstrekkelig stor prøvelapp i prosjektgarnet og med prosjektets strikkefasthet. Vurder prøvelappen avslappet, og vurder den på nytt etter samme ferdigstilling eller blokking som er planlagt for prosjektet. Tallene garanterer ikke et flatt resultat.
 
 ### Løftet kantmaske
 
@@ -94,7 +96,7 @@ Dette betyr noe når du designer vendbare prosjekter. Å kombinere glattstrikk o
 
 Å strikke rundt unngår sidekantproblemet fordi det ikke finnes sidekanter. Stoffet er et sammenhengende rør. Luer, halser og boler i glattstrikk ser fine ut uten kanter langs sidene.
 
-Så finnes steeking. En steek er en kolonne ekstra masker som klippes opp etter avfelling, brukt for å gjøre en rundstrikket tube om til flate paneler, ofte til cardigans. I det øyeblikket du klipper opp en glattstrikket steek, får du rå glattstrikkkanter, og de ruller like aggressivt som enhver flat glattstrikk. Derfor trenger steekede cardigans knappestolper eller kanter som plukkes opp og strikkes på med én gang. Kanten stabiliserer før rullingen rekker å sette seg.
+Så finnes steeking. En steek er en kolonne ekstra masker som klippes opp etter avfelling for å gjøre et rundstrikket rør om til flate paneler, ofte i cardigans. En trygg steek avhenger av planlagt konstruksjon og hvordan garnet oppfører seg, ikke av at en kant strikkes på før rullingen rekker å «sette seg». Når fiberen eller metoden krever det, forsterker du før du klipper. Etter klippingen sikrer og ferdigstiller du de klippede flikene eller kantene etter valgt metode. En oppplukket stolpe eller kant kan deretter dekke og bidra til å stabilisere den ferdigbehandlede klippekanten.
 
 ## Når rulling er greit
 
@@ -110,16 +112,16 @@ Rundstrikking, luer, halser og boler, fjerner sidekanter helt. Topp og bunn kan 
 For ull holder blokking en stund, men rullingen kommer gradvis tilbake med bruk og vask. For akryl kan dampblokking permanent slappe av stoffet, altså "drepe" det, men følelsen endres. For bomull har blokking liten varig effekt.
 
 **Hvor bred må en rillestrikket kant være?**
-For et skjerf i Worsted-tykkelse er 4-6 masker i hver side og 4-6 pinner øverst og nederst et rimelig startpunkt. Tynnere garn trenger bredere kanter; tykkere garn trenger mindre. Hvis arbeidet er under 15 cm bredt og alt er glattstrikk, kan det rulle tross kant.
+For et skjerf i Worsted-tykkelse kan 4-6 masker i hver side og 4-6 pinner øverst og nederst være et grovt, eksperimentelt startpunkt, ikke en garanti. Nødvendig bredde avhenger av prosjektgarnet og strikkefastheten, maskemønsteret, arbeidets mål og kantkonstruksjonen, så test på en tilstrekkelig stor prøvelapp.
 
 **Kan jeg legge til kant etter at arbeidet er ferdig?**
 Ja. Plukk opp masker langs kantene og strikk en kant på. Ekstra arbeid, men det fungerer. Heklet kant langs kanten er et annet alternativ noen synes går raskere.
 
 **Påvirker garntykkelse hvor mye glattstrikk ruller?**
-Alle tykkelser ruller. Tykkere garn gir stivere stoff som ruller mindre dramatisk. Lace-glattstrikk ruller aggressivt fordi stoffet er så lett og fleksibelt.
+Garntykkelsen kan påvirke stoffets tykkelse og tetthet, men avgjør ikke rullingen alene. Maskestruktur, strikkefasthet, fiberegenskaper, arbeidets mål og kantkonstruksjonen spiller også inn.
 
 **Hvorfor ligger prøvelappen flat, men det ferdige arbeidet ruller?**
-En liten prøvelapp har mindre rullepress enn et bredt arbeid. Prøvelappens egen størrelse holder den relativt flat, særlig hvis den er festet med nåler under måling. Når du skalerer opp, øker den forholdsmessige trekken langs kantene. En prøvelapp på 10 cm kan se mistenkelig veloppdragen ut, mens et sjal på 50 cm fra samme garn og pinner ruller synlig.
+En liten prøvelapp viser ikke alltid hvordan et arbeid i full størrelse vil oppføre seg, særlig hvis den er festet, strukket eller på annen måte holdt flat under måling. Bruk en tilstrekkelig stor prøvelapp, vurder den avslappet, og vurder den på nytt etter samme ferdigstilling eller blokking som er planlagt for prosjektet.
 
 **Finnes det garn som ikke ruller i glattstrikk?**
 Ikke egentlig. Lin kommer nærmest fordi det nesten ikke har elastisitet, så den strukturelle ubalansen mellom rett og vrang har mindre spenst å virke med. Bomull er lignende, men ruller fortsatt. Alt med betydelig ull eller ullblanding vil rulle merkbart.

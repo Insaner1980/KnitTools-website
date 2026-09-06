@@ -133,7 +133,7 @@ Opbevar strik fladt eller foldet. Ophæng strækker strikket stof over tid, isæ
 ## FAQ
 
 **Skal jeg blokke alle projekter?**
-Nej. Karklude, øveprøver og ting hvor mål ikke betyder noget kan springes over. Tøj, hulmønster og alt hvor udseende og pasform betyder noget, bør blokkes. Hvis du er i tvivl, så blok strikkeprøven først. Værste fald er ekstra tørretid.
+Nej. Karklude, øveprøver og ting hvor mål ikke betyder noget kan springes over. Tøj, hulmønster og alt hvor udseende og pasform betyder noget, bør blokkes. Hvis du er i tvivl, så følg banderolens eller producentens vaskeanvisning, og test først den planlagte blokningsmetode på en strikkeprøve. En uegnet metode kan ændre eller beskadige nogle fibre permanent.
 
 **Kan jeg overblokke?**
 Du kan strække for meget, især alpaka og superwash-uld. Hvis du spænder stoffet ud over dets naturlige mål, får du forvrængede masker. Spænd op efter opskriftens mål, ikke længere.

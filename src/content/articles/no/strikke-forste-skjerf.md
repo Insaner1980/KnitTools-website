@@ -136,7 +136,7 @@ Lag frynsene litt for lange først og jevn dem til når alle sitter på plass. E
 
 Hvis du stopper midt på en pinne, skyv maskene godt inn mot midten av pinnen slik at de ikke glir av. Hvis du stopper mellom to pinner, er arbeidet mer stabilt. Oppbevar prosjektet i en lukket pose og ikke i direkte sollys, som kan bleke farger over tid.
 
-Førtifem minutter er en god økt for nye strikkere. Hender og håndledd bruker muskler de ikke er vant til, og hvis du tar for hardt i den første uken, kan ømheten sitte i flere dager. Bedre å strikke litt hver dag enn to timer én gang i uken.
+For noen nye strikkere kan 45 minutter være en overkommelig økt. Hold grepet avslappet, ta korte pauser, og stopp eller bytt aktivitet hvis du får smerter, prikking eller nummenhet. Vedvarende, forverrede eller nevrologiske symptomer som nummenhet kan kreve vurdering hos helsepersonell.
 
 ## FAQ
 

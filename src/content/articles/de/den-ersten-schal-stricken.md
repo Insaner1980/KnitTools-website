@@ -130,7 +130,7 @@ Für einen traditionelleren Abschluss kannst du Fransen an die kurzen Enden setz
 
 Wenn du mitten in einer Reihe aufhörst, schiebe die Maschen weit in die Mitte der Nadel, damit sie nicht abrutschen. Wenn du zwischen zwei Reihen aufhörst, ist die Arbeit stabiler. Bewahre das Projekt in einer geschlossenen Tasche auf und nicht in direkter Sonne, die Farben mit der Zeit ausbleichen kann.
 
-45 Minuten sind eine gute Sitzung für neue Strickende. Hände und Handgelenke benutzen Muskeln, die sie noch nicht gewohnt sind. Wenn du in der ersten Woche übertreibst, kann die Reizung tagelang bleiben. Lieber jeden Tag ein wenig als einmal pro Woche zwei Stunden.
+Für manche neue Strickende sind 45 Minuten eine gut überschaubare Beispielsitzung. Halte Nadeln und Faden locker, mach kurze Pausen und hör auf oder wechsle die Tätigkeit, wenn Schmerzen, Kribbeln oder Taubheitsgefühle auftreten. Anhaltende, zunehmende oder neurologische Beschwerden wie Taubheitsgefühle sollten fachlich abgeklärt werden.
 
 ## FAQ
 

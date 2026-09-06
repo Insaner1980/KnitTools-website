@@ -30,7 +30,7 @@ La plupart des chaussettes ajustées sont construites avec les mêmes zones, mê
 
 **Talon.** La partie façonnée qui enveloppe ton talon. C'est là que la construction devient intéressante.
 
-**Gousset.** Sections triangulaires de chaque côté du pied qui passent du talon plus large au tour plus étroit du pied. Tous les types de talon n'en utilisent pas. Le gousset est ce qui aide un talon à rabat à bien passer sur le cou-de-pied, la zone la plus haute et la plus large du dessus du pied.
+**Gousset.** Sections triangulaires de chaque côté du pied qui passent du talon plus large au tour plus étroit du pied. Tous les types de talon n'en utilisent pas. Dans une chaussette à rabat de talon, le gousset peut donner de l'aisance au passage entre le talon et le cou-de-pied. Le cou-de-pied est la partie supérieure du pied et, par extension, la section correspondante sur le dessus de la chaussette.
 
 **Pied.** Le tube qui couvre la semelle et le dessus du pied. Souvent jersey sur la semelle, motif qui continue sur le dessus. La longueur dépend de la mesure du pied, pas d'un nombre fixe de tours. Essaie la chaussette ou mesure en cours de route.
 
@@ -46,7 +46,7 @@ Avantages : construction de talon très documentée, sens intuitif, et montage d
 
 **De la pointe vers le haut** commence à la pointe et remonte vers le bord. Monter avec une méthode spéciale (Judy's Magic Cast On est la référence, le montage turc vient juste derrière), tricoter le pied, faire le talon, tricoter la jambe, rabattre avec un rabattage extensible comme Jeny's Surprisingly Stretchy Bind-Off ou un rabattage tubulaire cousu.
 
-Avantages : tu peux essayer au fur et à mesure, utiliser presque tout le fil en continuant la jambe jusqu'à la fin de la pelote, et la pointe est déjà fermée dès le départ. Inconvénients : les talons toe-up sont des techniques différentes des talons top-down, le montage magique demande quelques essais pour être propre, et le rabattage extensible du bord demande de la pratique, sinon il peut sembler serré et pincé.
+Avantages : tu peux essayer au fur et à mesure, utiliser presque tout le fil tout en réservant assez pour le rabattage choisi et pour rentrer l'extrémité, et la pointe est déjà fermée dès le départ. Un rabattage cousu ou tubulaire peut demander une queue nettement plus longue qu'un rabattage simple. Inconvénients : les talons toe-up sont des techniques différentes des talons top-down, le montage magique demande quelques essais pour être propre, et le rabattage extensible du bord demande de la pratique, sinon il peut sembler serré et pincé.
 
 Aucun sens n'est meilleur en soi. La plupart des personnes qui tricotent des chaussettes essaient les deux et choisissent leur préféré. Les modèles précisent le sens utilisé, et changer de sens oblige à retravailler le talon et le montage. En pratique, cela veut souvent dire choisir un autre modèle.
 
@@ -103,7 +103,7 @@ Si tu as déjà [tricoté un bonnet](/fr/articles/tricoter-un-bonnet/) en rond e
 
 ## Taille et ajustement
 
-Mesure le tour du pied au point le plus large, au niveau de l'avant-pied juste derrière les orteils. Mesure la longueur du pied depuis l'arrière du talon jusqu'au bout de l'orteil le plus long. La plupart des modèles donnent les tours finis de chaussette et te laissent choisir selon le tour du pied.
+Suis la mesure demandée par le modèle. Le tour de pied standard se mesure autour de sa partie la plus large, généralement au niveau de l'avant-pied. Mesure la longueur du pied depuis l'arrière du talon jusqu'au bout de l'orteil le plus long. Certaines constructions demandent aussi une diagonale talon–cou-de-pied ou une autre mesure spécifique. La plupart des modèles donnent les tours finis de chaussette et te laissent choisir selon le tour du pied.
 
 Le tour fini de la chaussette est en général plus petit que le pied : c'est l'aisance négative, souvent autour de 10 % pour une chaussette simple et élastique. Le tissu doit épouser le pied pour rester en place. Une chaussette du même tour que le pied peut glisser. Une chaussette trop petite sera inconfortable et s'usera plus vite.
 
@@ -124,13 +124,13 @@ Les techniques séparées ne le sont pas. Le talon demande de suivre attentiveme
 Pas vraiment. Les chaussettes sont des tubes. Tu peux tricoter des pièces à plat et les coudre, mais les coutures créent des surépaisseurs inconfortables à l'intérieur de la chaussure. La construction en rond est fortement recommandée. Si les aiguilles droites sont ta seule option, choisis plutôt un autre premier projet.
 
 **Comment savoir quelle taille tricoter ?**  
-Mesure le tour du pied au point le plus large, au niveau de l'avant-pied. Le tour fini de la chaussette doit être environ 10 % plus petit (aisance négative), parce que le tissu s'étire pour épouser le pied. La plupart des modèles donnent les tailles à partir de cette mesure. Si ton pied tombe entre deux tailles, prends la plus petite pour un ajustement plus serré, ou la plus grande si tes pieds gonflent dans la journée.
+Suis la mesure demandée par le modèle. Le plus souvent, il s'agit du tour de pied à sa partie la plus large, généralement au niveau de l'avant-pied. Certaines constructions demandent aussi une diagonale talon–cou-de-pied ou une autre mesure spécifique. Lorsque le modèle choisit la taille d'après le tour de pied, le tour fini de la chaussette est souvent environ 10 % plus petit pour créer une aisance négative. Si ton pied tombe entre deux tailles, suis les indications d'aisance et de construction du modèle.
 
 **Mes chaussettes s'usent au talon.**  
 Renforce le rabat de talon avec un point de mailles glissées : glisse une maille sur deux sur les rangs endroit, puis tricote les rangs envers normalement. Cela double le fil à la surface. Certaines personnes tiennent aussi un fil de renfort avec le fil principal pendant la section du talon. Il existe des fils de renfort en nylon faits pour ça, souvent vendus dans des couleurs proches des fils à chaussettes courants.
 
 **Que faire s'il ne reste plus assez de fil avant la pointe ?**
-Dans une chaussette du haut vers la pointe, la pointe est le pire endroit pour manquer de fil. Les options : défaire et raccourcir la jambe, passer à une couleur contrastante pour la pointe, ou accepter des chaussettes un peu courtes. La construction toe-up évite ce problème, parce que la jambe vient en dernier et tu peux t'arrêter quand le fil s'arrête.
+Dans une chaussette du haut vers la pointe, la pointe est le pire endroit pour manquer de fil. Les options : défaire et raccourcir la jambe, passer à une couleur contrastante pour la pointe, ou accepter des chaussettes un peu courtes. La construction toe-up facilite la gestion du reste de fil, parce que la jambe vient en dernier : tu peux utiliser presque tout le fil, mais réserve assez pour le rabattage choisi et pour rentrer l'extrémité. Un rabattage cousu ou tubulaire peut demander une queue plus longue.
 
 **Les deux chaussettes doivent-elles correspondre exactement ?**
 Non. Les chaussettes fraternelles, avec le même modèle mais un ordre de couleurs différent dans un fil chiné ou teint à la main, sont normales. Beaucoup de personnes les préfèrent à la bataille pour faire commencer les rayures au même endroit. Chercher une paire parfaitement identique est une préférence, pas une règle.

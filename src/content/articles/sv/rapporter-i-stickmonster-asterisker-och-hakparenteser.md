@@ -16,7 +16,7 @@ lang: sv
 translationKey: "knitting-pattern-repeats"
 ---
 
-Rapporter gör att ett stickmönster slipper skriva ut varje maska på ett 200-maskorsvarv. I stället för "2 rm, 2 am, 2 rm, 2 am, 2 rm, 2 am..." tjugofem gånger skriver mönstret `*2 rm, 2 am; upprepa från * varvet ut`. Samma resultat, mycket mindre plats.
+Rapporter gör att ett stickmönster slipper skriva ut varje maska på ett 200-maskorsvarv. I stället för "2 rm, 2 am, 2 rm, 2 am, 2 rm, 2 am..." femtio gånger skriver mönstret `*2 rm, 2 am; upprepa från * varvet ut`. Samma resultat, mycket mindre plats.
 
 I stickmönster används asterisker (\*), hakparenteser [] eller parenteser () för att markera en grupp maskor som ska upprepas flera gånger över varvet. Notationen är effektiv när du vant dig. Men de första gångerna du möter nästlade rapporter eller asterisker med rester kan det kännas som att läsa ett språk du nästan kan.
 

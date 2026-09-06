@@ -73,7 +73,7 @@ Kiinnitä huomiota kädentien syvyyteen. Se ei aina näy yhtä korostetusti kuin
 
 Tätä tapahtuu usein. Rinnanympärys osuu yhteen kokoon, lantio vaatii toisen, eikä hihan pituus sovi kumpaankaan.
 
-Vartalossa valitse koko, joka sopii suurimpaan mittaasi, yleensä rintaan tai lantioon, ja muokkaa muuta. Vyötärömuotoilun lisääminen lantiolle sopivaan kokoon on helpompaa kuin leveyden lisääminen liian kapeaan kokoon.
+Valitse lähtökoko vertaamalla valmiin vaatteen mittapiirrosta ja valmiita mittoja tavoiteltuun väljyyteen sekä vaatteen rakenteeseen. Keskity mittoihin, jotka määräävät vaikeimmin muutettavat kohdat. Monissa istuvissa vaatteissa, joissa on istutettu hiha, hartioiden ja ylävartalon istuvuus voi olla parempi lähtökohta kuin suurin ympärysmitta. Yhdistä kokoja tai muuta muita kohtia siellä, missä rakenne sen sallii.
 
 Pituus on helpoin muuttaa. Useimmat ohjeet sanovat "neulo kunnes kappaleen pituus on X cm", ja voit säätää vapaasti. Haluat 43 cm 38 cm sijaan? Neulo 5 cm lisää. Hihan pituus toimii samalla tavalla. Olkavarren leveys on hankalampi, koska se vaikuttaa hihan pyöriöön, joten siihen kannattaa osua mahdollisimman hyvin.
 
@@ -143,10 +143,10 @@ Jos tarvitset ylävartalolle yhden koon ja alavartalolle toisen, kyse on koosta 
 Ohut vaatekerros, kuten t-paita, on yleensä lähimpänä sitä, miten villapaitaa käytetään. Paksun vaatteen päältä mittaaminen suurentaa lukua liikaa.
 
 **Mitä jos mittani osuvat kolmeen eri ohjekokoon?**
-Valitse koko, joka on lähimpänä suurinta kriittistä mittaasi, ja suunnittele muutokset muihin kohtiin. Pituus on yleensä anteeksiantavin muutos. Rinnan leveyttä on hankalampi muuttaa. Olkapään leveys on vaikein. Jos et voi saada kaikkea, priorisoi hartiat ja rinta.
+Vertaa valmiin vaatteen mittapiirrosta ja mittoja tavoiteltuun väljyyteen ja valitse koko, joka sopii parhaiten rakenteen vaikeimmin muutettavaan kohtaan. Monissa istuvissa vaatteissa, joissa on istutettu hiha, tämä voi tarkoittaa hartioiden ja ylävartalon asettamista suurimman ympärysmitan edelle. Yhdistä kokoja tai muuta muita mittoja vain siellä, missä rakenne sen sallii.
 
 **Vaikuttaako kerrostiheys istuvuuteen?**
-Useimmissa kappaleissa vähemmän kuin silmukkatiheys. Poikkeus on kaarrokepaita, jossa kerrostiheys määrää kaarrokkeen syvyyden. Jos kerrostiheys heittää paljon, kaarroke voi jäädä liian matalaksi tai liian syväksi. Tavallisissa puseroissa vartalon ja hihan pituus neulotaan usein mittoihin, jolloin kerrostiheys joustaa enemmän.
+Kerrostiheydellä voi olla vähemmän merkitystä kuin silmukkatiheydellä, kun yksinkertainen kappale neulotaan mittoihin eikä muotoilu juuri riipu kerrosmäärästä. Sillä on merkitystä aina, kun kiinteä kerrosmäärä määrää pystysuuntaisen mitan tai muotoilun ajoituksen, kuten kaarrokkeissa, raglanmuotoiluissa, kädenteissä, hihan pyöriöissä, vyötärö- tai hihamuotoiluissa ja mallineuleen pystysuuntaisissa toistoissa.
 
 **Mitä jos Ravelryn projektit sanovat, että ohje on pieni tai suuri?**
 Lue useampi projekti ennen kuin päätät. Joskus muutama projekti väärällä neuletiheydellä vääristää vaikutelman. Jos viisi eri neulojaa sanoo, että ohje on pieni, ota se vakavasti ja harkitse isompaa kokoa.

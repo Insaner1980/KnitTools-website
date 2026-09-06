@@ -48,9 +48,9 @@ Hvis opskriften giver et præcist antal masker der skal samles op, dividerer du 
 
 ### Langs en kant med løftede kantmasker
 
-Hvis du har taget første maske løst af på hver pind, har sidekanten en kæde af parrede tråde i stedet for en tråd for hver pind. Saml én maske op under hver kæde, altså de to tråde der danner et V i kæden. Fordi hver kæde svarer til to pinde, bliver forholdet 1 opsamlet maske for hver 2 pinde, og det er ofte for få i glatstrik.
+Hvis du har taget første maske løst af på hver pind, har sidekanten en kæde af parrede tråde i stedet for en tråd for hver pind. Saml én maske op under hver kæde, altså de to tråde der danner et V i kæden. Hver kæde svarer ofte til to pinde, så én opsamlet maske pr. kæde kan give væsentligt færre masker, end en knapkant eller anden kant har brug for.
 
-Der er to løsninger. Saml op i kæden plus en ekstra maske i løbetråden mellem kæderne, skiftevis, så du lander tæt på 3 masker for hver 4 pinde. Eller saml én maske op pr. kæde og accepter en lidt fastere kant, hvilket ofte fungerer i rib, fordi rib trækker sig sammen alligevel. Løftede kantmasker gør opsamlingen hurtigere og pænere, men tjek forholdet mod den kant du skal strikke.
+At rib trækker sig sammen, gør ikke automatisk én maske pr. kæde til det rigtige forhold. Følg opskriftens opsamlingsantal, når det er angivet. Ellers beregner og justerer du forholdet ud fra kantens pindefasthed eller længde og kantens ønskede maskefasthed eller maskeantal. Brug kun én maske pr. kæde, når det giver det nødvendige antal og en flad kant med den rigtige pasform.
 
 ### Langs en retstrikket kant
 
@@ -132,9 +132,9 @@ Det er nyttigt på sweatre, hvor opsamlingen ligger omkring en halskant der skal
 
 ## Samle op ved steeks
 
-Efter en steek er klippet, altså en kolonne ekstra masker i rundstrik der klippes op for at lave flade paneler til cardigans, skal den rå kant stabiliseres. En opsamlet kant hjælper med at dække og sikre de klippede ender.
+Efter at en korrekt forberedt steek er klippet, altså en kolonne ekstra masker i rundstrik der klippes op for at lave flade paneler til cardigans, kan en opsamlet kant dække og hjælpe med at stabilisere klippekanten. Den erstatter ikke den forstærkning, som garnet, fiberen eller steekmetoden kan kræve før klipning.
 
-Saml op gennem maskekolonnen lige inden for klippet, ikke gennem de rå trådender. Første række af kanten fanger de klippede garnender bag de nye masker. Når kanten er strikket, er de klippede ender usynlige fra retsiden og holdes permanent på plads.
+Saml op gennem maskekolonnen lige inden for klippet, ikke gennem de rå trådender. Kanten kan dække de klippede ender fra retsiden, men den klippede flap eller kant skal stadig afsluttes på en måde, der passer til den valgte metode.
 
 Ved garn der ikke filter, som bomuld og superwash-uld, skal steeken forstærkes med en hæklet eller maskinsyet række på hver side før klipning. Klæbrig uld uden superwash kan ofte gribe eller filte nok til at opføre sig mere sikkert. Bomuld og superwash-uld gør ikke.
 

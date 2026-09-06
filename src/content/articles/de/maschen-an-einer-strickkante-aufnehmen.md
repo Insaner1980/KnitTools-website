@@ -136,11 +136,9 @@ Das ist besonders nützlich bei Pullovern, deren Halsausschnitt gut sitzen muss,
 
 ## Aus einer Steek-Kante aufnehmen
 
-Nach dem Schneiden eines Steeks, also einer zusätzlichen Maschensäule in rund gestricktem Gestrick, braucht die Schnittkante schnell eine Blende. Die abgeschnittenen Fäden können ausfransen, und die Blende stabilisiert sie.
+Die Sicherheit eines Steeks entsteht durch die geplante Konstruktion und das Verhalten des Garns. Wenn Garn, Faser oder Methode eine Verstärkung verlangen, verstärke den Steek vor dem Schneiden, zum Beispiel mit Häkelmaschen oder Maschinennähten auf beiden Seiten. Griffige, nicht superwash-behandelte Wolle kann je nach Methode ohne zusätzliche Verstärkung auskommen; Baumwolle und Superwash-Wolle brauchen sie häufig.
 
-Nimm aus der Maschensäule direkt neben der Schnittkante auf, nicht aus den losen Schnittfäden selbst. Die erste Blendenreihe fängt die abgeschnittenen Enden hinter den neuen Maschen ein. Nach der fertigen Blende sind sie von rechts unsichtbar und dauerhaft gesichert.
-
-Nicht filzende Garne wie Baumwolle oder Superwash-Wolle brauchen vor dem Schneiden eine Sicherung, zum Beispiel mit Häkelmaschen oder Maschinennähten auf beiden Seiten. Griffige, nicht superwash-behandelte Wolle kann oft genug haften oder leicht anfilzen, um sicherer zu reagieren. Baumwolle und Superwash-Wolle tun das nicht.
+Schneide den vorbereiteten Steek auf und sichere oder versäubere anschließend die Steek-Zugaben oder Schnittkanten passend zur gewählten Methode. Nimm die Maschen für die Blende aus der Maschensäule direkt neben der Schnittkante auf, nicht aus den losen Schnittfäden selbst. Die Blende kann die Schnittkante von rechts verdecken und zusätzlich stabilisieren, ersetzt aber weder eine erforderliche Verstärkung noch die passende Kantenbearbeitung.
 
 ## Häufige Fragen
 

@@ -74,7 +74,7 @@ Se især på ærmegabsdybden. Den står ofte mindre tydeligt end brystvidden, me
 
 Det sker tit. Brystmålet peger på én størrelse, hofterne kræver en anden, og ærmelængden passer ingen af dem.
 
-Til kroppen vælger du den størrelse, der passer dit største relevante mål (ofte bryst eller hofter), og tilpasser resten. Det er lettere at lægge taljeform ind i en opskrift, der passer hofterne, end at lægge bredde til en, der er for smal.
+Vælg en udgangsstørrelse ved at sammenholde målskitse og færdige mål med det tilsigtede bevægelsesrum og tøjets konstruktion. Prioritér de mål, der styrer de dele af modellen, som er sværest at ændre. I mange kropsnære modeller med isyede ærmer kan skuldre og overkrop være et bedre udgangspunkt end den største omkreds. Gå gradvist mellem størrelser eller tilpas andre områder, hvor konstruktionen tillader det.
 
 Længde er det letteste at ændre. De fleste opskrifter siger "strik til arbejdet måler X cm", og så kan du justere frit. Vil du have 43 cm i stedet for 38 cm? Strik 5 cm mere. Ærmelængde fungerer på samme måde. Overarmsbredde er sværere, fordi den påvirker ærmekuplen, så prøv at ramme opskriften der.
 
@@ -136,7 +136,7 @@ Før du vælger størrelse, [tjek strikkefastheden](/da/artikler/maal-strikkefas
 
 Garnets type betyder også noget for pasformen. Garner med fald, som bomuld og silke, hænger anderledes end fjedrende uld, så en bomuldssweater og en uldsweater i samme størrelse sidder ikke ens. Hvis du [skifter garn](/da/artikler/skift-garn-i-strikkeopskrift/), skal det med i beslutningen.
 
-Hvis du skal bruge én størrelse til overkroppen og en anden til underkroppen, er det grading. Følg overkropsstørrelsen til bærestykke og bryst, og tag ud eller ind til den nederste størrelse ved taljen. Nogle opskrifter har vendepinde til brystform eller separate over-/underkropsstørrelser. Hvis de ikke har, kræver ændringen lidt strikkematematik.
+Hvis du skal bruge én størrelse til overkroppen og en anden til underkroppen, skal du gå gradvist fra den ene størrelse til den anden. Følg overkropsstørrelsen til bærestykke og bryst, og tag ud eller ind mod den nederste størrelse ved taljen, hvor konstruktionen tillader det. Det er ikke størrelsesgraduering. Størrelsesgraduering er designerens arbejde med at udvikle opskriften til hele størrelsesrækken. Nogle opskrifter har vendepinde til brystform eller separate over-/underkropsstørrelser. Hvis de ikke har, kræver ændringen lidt strikkematematik.
 
 ## FAQ
 
@@ -144,10 +144,10 @@ Hvis du skal bruge én størrelse til overkroppen og en anden til underkroppen, 
 Over et tyndt lag, for eksempel en T-shirt, ligger tættest på hvordan en sweater normalt bruges. Måling over tykt tøj gør tallet for stort.
 
 **Mine mål lander i tre forskellige opskriftsstørrelser. Hvad nu?**
-Vælg den størrelse, der ligger tættest på dit største kritiske mål, og planlæg ændringer for de andre punkter. Længde er som regel den mest tilgivende ændring. Brystbredde er sværere at ændre. Skulderbredde er sværest. Hvis du ikke kan få alt, så prioritér skuldre og bryst.
+Brug målskitsen og det tilsigtede bevægelsesrum til at finde den størrelse, der passer bedst til den del af modellen, som er sværest at ændre. I mange kropsnære modeller med isyede ærmer kan det betyde, at skuldre og overkrop prioriteres frem for den største omkreds. Gå gradvist mellem størrelser eller tilpas andre mål kun dér, hvor opskriftens konstruktion tillader det.
 
 **Betyder pindefasthed noget for pasformen?**
-I de fleste dele mindre end maskefasthed. Undtagelsen er sweaters med bærestykke, hvor pindefastheden bestemmer bærestykkets dybde. Hvis pindefastheden er skæv, kan bærestykket blive for lavt eller for dybt. I de fleste pullovers strikkes krop og ærmer til mål, så pindefastheden er mere tilgivende.
+Pindefastheden kan betyde mindre end maskefastheden, når et enkelt stykke strikkes til et bestemt mål og næsten ikke har formgivning, der styres af et fast pindeantal. Den er vigtig, hver gang et fast pindeantal bestemmer lodrette mål eller timingen af formgivning, blandt andet ved bærestykker, raglanformgivning, ærmegab, ærmekupler, talje- og ærmeformgivning samt lodrette mønsterrapporter.
 
 **Hvad hvis Ravelry-projekter siger, at opskriften er lille eller stor i størrelsen?**
 Læs flere projekter før du konkluderer. Nogle få strikkere med forkert strikkefasthed kan give et skævt indtryk. Hvis fem forskellige strikkere siger, at opskriften er lille, så tag det alvorligt og overvej en større størrelse.

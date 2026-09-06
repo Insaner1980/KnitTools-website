@@ -15,7 +15,7 @@ lang: fi
 translationKey: "knitting-pattern-repeats"
 ---
 
-Toistojen avulla ohjeen ei tarvitse kirjoittaa jokaista silmukkaa auki 200 silmukan kerroksella. Sen sijaan että ohje sanoisi "2 o, 2 n, 2 o, 2 n, 2 o, 2 n..." kaksikymmentäviisi kertaa, se kirjoittaa `*2 o, 2 n; toista * kerroksen loppuun`. Sama lopputulos, paljon vähemmän tilaa.
+Toistojen avulla ohjeen ei tarvitse kirjoittaa jokaista silmukkaa auki 200 silmukan kerroksella. Sen sijaan että ohje sanoisi "2 o, 2 n, 2 o, 2 n, 2 o, 2 n..." viisikymmentä kertaa, se kirjoittaa `*2 o, 2 n; toista * kerroksen loppuun`. Sama lopputulos, paljon vähemmän tilaa.
 
 Neuleohjeissa toistot merkitään tähdillä (\*), hakasulkeilla [] tai sulkeilla (). Ne rajaavat silmukkajakson, joka tehdään useita kertoja saman kerroksen aikana. Merkintä on tehokas, kun siihen tottuu. Ensimmäiset sisäkkäiset toistot tai tähdet ylijäävien silmukoiden kanssa voivat silti tuntua kieleltä, jota melkein ymmärtää.
 

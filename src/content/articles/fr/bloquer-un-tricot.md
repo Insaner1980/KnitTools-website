@@ -133,7 +133,7 @@ Range à plat ou plié. Suspendre un tricot l'étire avec le temps, surtout les 
 ## FAQ
 
 **Faut-il bloquer chaque projet ?**  
-Non. Lavettes, échantillons d'entraînement, objets dont les dimensions ne comptent pas : tu peux sauter. Les vêtements, la dentelle et tout ce qui dépend de l'aspect ou de l'ajustement devraient être bloqués. En cas de doute, bloque d'abord l'échantillon. Au pire, tu perds quelques heures de séchage.
+Non. Tu peux t'en passer pour les lavettes, les échantillons d'entraînement et les objets dont les dimensions n'ont pas d'importance. Les vêtements, la dentelle et tout ce dont l'aspect ou l'ajustement compte devraient être bloqués. En cas de doute, suis les consignes d'entretien de l'étiquette ou du fabricant et teste d'abord la méthode prévue sur un échantillon. Une méthode inadaptée peut altérer ou endommager définitivement certaines fibres.
 
 **Peut-on trop bloquer ?**  
 Oui, on peut trop étirer, surtout l'alpaga et la laine superwash. Épingler au-delà des dimensions naturelles du tissu laisse des mailles déformées. Épingle aux mesures du modèle, pas plus loin.

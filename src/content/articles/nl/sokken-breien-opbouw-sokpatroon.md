@@ -30,7 +30,7 @@ De meeste goed passende sokken bestaan uit dezelfde zones, ook als de constructi
 
 **Hiel.** Het gevormde deel dat om je hiel valt. Hier wordt de constructie interessant en hier zit het meeste verschil tussen sokpatronen.
 
-**Spie.** Driehoekige delen aan beide kanten van de voet die de overgang maken van de bredere hiel terug naar de smallere voetomtrek. Niet elk hieltype gebruikt een spie. De spie zorgt ervoor dat een sok met hielflap goed over de wreef past, het hoogste en breedste deel van de bovenkant van de voet.
+**Spie.** Driehoekige delen aan beide kanten van de voet die de overgang maken van de bredere hiel naar de smallere voetomtrek. Niet elk hieltype gebruikt een spie. Bij een sok met hielflap kan de spie ruimte geven in de overgang van hiel naar wreef. De wreef is de bovenkant van de voet en het overeenkomstige bovenste deel van de sok.
 
 **Voet.** De buis rond zool en wreef. Meestal tricotsteek op de zool, met het patroon dat doorloopt op de wreef. De lengte wordt bepaald door je voetmaat, niet door een vast aantal toeren. Pas de sok of meet terwijl je breit.
 
@@ -46,7 +46,7 @@ Voordelen: goed gedocumenteerde hielconstructie, logische richting en een boordo
 
 **Vanaf de teen** begint bij de teen en werkt naar de boord. Zet op met een speciale methode, vaak Judy's Magic Cast On of Turkish cast on, brei de voet, werk de hiel, brei de schacht en kant af met een rekbare afkanting zoals Jeny's Surprisingly Stretchy Bind-Off of een genaaide tubular bind-off.
 
-Voordelen: passen terwijl je breit, bijna elke laatste meter garen gebruiken door de schacht te breien tot het garen bijna op is, en de teen is vanaf het begin gesloten, dus je hoeft aan het einde niet te mazen. Nadelen: toe-up hielen zijn andere technieken dan hielen vanaf de boord, de magische opzet vraagt een paar pogingen voordat hij netjes wordt, en een rekbare afkanting voor de boord vraagt oefening of hij oogt strak en geknepen.
+Voordelen: passen terwijl je breit, bijna al het garen gebruiken terwijl je genoeg reserveert voor de gekozen afkanting en het wegwerken van het draadeinde, en de teen is vanaf het begin gesloten, dus je hoeft aan het einde niet te mazen. Voor een genaaide of tubular afkanting kan een aanzienlijk langere draadstaart nodig zijn dan voor een eenvoudige afkanting. Nadelen: toe-up hielen zijn andere technieken dan hielen vanaf de boord, de magische opzet vraagt een paar pogingen voordat hij netjes wordt, en een rekbare afkanting voor de boord vraagt oefening of hij oogt strak en geknepen.
 
 Geen van beide richtingen is beter. De meeste sokkenbreiers proberen allebei en kiezen een favoriet. Patronen geven aan welke richting ze gebruiken, en van richting wisselen betekent dat je de hiel en opzet opnieuw moet uitwerken. In de praktijk kies je dan meestal beter een ander patroon.
 
@@ -103,7 +103,7 @@ Als je al [een muts in het rond hebt gebreid](/nl/artikelen/een-muts-breien-vers
 
 ## Maat en pasvorm
 
-Meet de voetomtrek op het breedste punt, bij de bal van de voet net achter de tenen. Meet de voetlengte van de achterkant van de hiel tot de punt van de langste teen. De meeste patronen geven afgewerkte sokomtrekken en laten je kiezen op basis van voetomtrek.
+Volg de meting die het patroon vraagt. De standaard voetomtrek meet je rond het breedste deel van de voet, meestal bij de bal van de voet net achter de tenen. Meet de voetlengte van de achterkant van de hiel tot de punt van de langste teen. Sommige sokconstructies vragen ook om een diagonale maat over hiel en wreef of een andere maat die bij de constructie hoort. De meeste patronen geven afgewerkte sokomtrekken en laten je kiezen op basis van de voetomtrek.
 
 De afgewerkte sokomtrek is meestal kleiner dan de voet: negatieve bewegingsruimte, vaak rond 10% voor een eenvoudige rekbare sok. Sokkenstof moet om de voet sluiten om te blijven zitten. Een sok met dezelfde omtrek als de voet kan gaan zakken. Een te kleine sok zit onprettig en slijt sneller.
 
@@ -136,7 +136,7 @@ Versterk de hielflap met een afgehaald-steekpatroon (op toeren aan de goede kant
 Er bestaan speciale nylon verstevigingsdraden voor precies dit doel, vaak in kleuren die bij gangbaar sokkengaren passen.
 
 **Wat als het garen op is voor de teen?**
-Bij sokken vanaf de boord is de teen de vervelendste plek om zonder garen te zitten. Mogelijkheden: uithalen en de schacht korter maken, overstappen op een contrastkleur voor de teen, of accepteren dat de sokken iets korter worden. Toe-up voorkomt dit, omdat de schacht als laatste komt en je kunt stoppen wanneer het garen stopt.
+Bij sokken vanaf de boord is de teen de vervelendste plek om zonder garen te zitten. Mogelijkheden: uithalen en de schacht korter maken, overstappen op een contrastkleur voor de teen, of accepteren dat de sokken iets korter worden. Bij toe-up kun je bijna al het garen gebruiken, maar reserveer genoeg voor de gekozen afkanting en het wegwerken van het draadeinde. Voor een genaaide of tubular afkanting kan een langere draadstaart nodig zijn.
 
 **Moeten beide sokken exact gelijk zijn?**
 Nee. Broederlijke sokken, hetzelfde patroon maar een andere kleurvolgorde uit gemeleerd of handgeverfd garen, zijn normaal. Veel breiers vinden dat prettiger dan vechten om exact dezelfde streepvolgorde. Perfect matchende sokken zijn een voorkeur, geen regel.

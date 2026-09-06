@@ -48,11 +48,11 @@ Si le modèle donne un nombre exact à relever, divise ce nombre par la longueur
 
 ### Le long d'une lisière à mailles glissées
 
-Si tu as glissé la première maille de chaque rang pendant que tu tricotais la pièce, le bord forme une chaînette de deux brins au lieu d'un brin clair par rang. Relève une maille sous chaque maillon de chaînette, c'est-à-dire sous les deux brins qui forment le V.
+Si tu as glissé la première maille de chaque rang pendant que tu tricotais la pièce, le bord forme une chaînette de deux brins au lieu d'un brin clair par rang. Relève une maille sous chaque maillon de chaînette, c'est-à-dire sous les deux brins qui forment le V. Chaque maillon représente généralement deux rangs ; relever une maille par maillon peut donc donner nettement moins de mailles qu'il n'en faut pour une bande de boutonnage ou une bordure.
 
-Comme chaque maillon représente deux rangs, cela donne 1 maille relevée pour 2 rangs, souvent trop peu pour du jersey. Deux solutions fonctionnent : relever dans la chaînette puis ajouter une maille supplémentaire dans le brin entre deux maillons à intervalles réguliers, pour se rapprocher de 3 mailles sur 4 rangs ; ou relever une maille par maillon et accepter une bordure un peu plus ferme. Cette deuxième option peut convenir aux côtes, qui se resserrent de toute façon.
+Le fait que les côtes se resserrent ne rend pas automatiquement correcte la proportion d'une maille par maillon. Suis d'abord le nombre de mailles indiqué par le modèle. S'il n'en donne pas, calcule et ajuste la proportion à partir de l'échantillon en rangs ou de la longueur du bord, ainsi que de l'échantillon en mailles ou du nombre cible de la bordure. N'utilise une maille par maillon que si cela donne le nombre requis et un bord plat, bien ajusté.
 
-Les lisières à mailles glissées rendent le relevage plus rapide et plus propre visuellement. Le ratio doit quand même correspondre à la bordure que tu vas tricoter.
+Les lisières à mailles glissées rendent le relevage plus rapide et plus propre visuellement. La proportion doit quand même correspondre à la bordure que tu vas tricoter.
 
 ### Le long d'un bord au point mousse
 
@@ -136,9 +136,9 @@ C'est utile sur un pull où l'encolure doit bien tomber et où tu veux vérifier
 
 ## Relever des mailles pour les steeks
 
-Après avoir coupé un steek, c'est-à-dire une colonne de mailles supplémentaires tricotée en rond puis ouverte pour créer un cardigan ou une ouverture, le bord brut doit être stabilisé rapidement. Les fils coupés s'effilochent s'ils restent exposés, et la bordure relevée les bloque.
+Après avoir coupé un steek correctement préparé, c'est-à-dire une colonne de mailles supplémentaires tricotée en rond puis ouverte pour créer un cardigan ou une ouverture, une bande en mailles relevées peut couvrir le bord coupé et aider à le stabiliser. Elle ne remplace pas le renfort lorsque le fil, la fibre ou la méthode du steek exige un renfort avant la coupe.
 
-Relève dans la colonne de mailles juste à l'intérieur de la coupe, pas dans les fils coupés eux-mêmes. Le premier rang de bordure emprisonne les extrémités derrière les nouvelles mailles. Une fois la bordure tricotée, les bouts coupés ne se voient plus sur l'endroit et restent maintenus.
+Relève dans la colonne de mailles juste à l'intérieur de la coupe, pas dans les fils coupés eux-mêmes. La bande peut masquer les extrémités coupées sur l'endroit, mais le rabat ou le bord coupé doit encore recevoir une finition adaptée à la méthode choisie.
 
 Les fils qui ne feutrent pas, comme le coton ou la laine superwash, doivent être renforcés par un rang de crochet ou une couture machine de chaque côté avant la coupe. Une laine non traitée et accrochante peut souvent se tenir ou feutrer assez pour être plus stable. Le coton et le superwash ne le font pas.
 
