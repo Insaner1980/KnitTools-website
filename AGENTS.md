@@ -37,7 +37,7 @@ sonar             # SonarCloud-skannaus, raportit reports/sonar*.*
 
 - Nykyinen editorial-paletti: `--paper` (#F4EAD9), `--paper-2` (#EADFC9), `--ink` (#2A1E17), `--ink-soft` (#4A382C), `--terracotta` (#A05038), `--sage` (#5B8072), `--walnut` (#6B4332), `--amber` (#C2703E), `--wheat` (#C4A661).
 - Stripe-derived card palette on yhä käytössä korttien väreissä: `--stripe-terracotta`, `--stripe-rust`, `--stripe-sand`, `--stripe-brown`, `--stripe-teal`. Korttitekstin AA-kontrastia varten `--stripe-rust-accessible` ja `--stripe-teal-accessible` ovat korttitaustojen käytettävät variantit silloin kun alkuperäinen sävy ei riitä.
-- Legacy-tokenit `--dark`, `--cream`, `--accent`, `--avocado`, `--mustard`, `--dusty-rose` ja `--bebas-*` ovat vielä olemassa vanhempien shared-tyylien takia. Älä tulkitse niitä merkiksi vanhasta Geist/Bebas-designista.
+- Nykyisessä `global.css`-lähteessä aktiiviset legacy-tokenit ovat `--cream`, `--cream-muted`, `--accent`, `--accent-hover` ja `--bebas-*`. Tokenit `--dark`, `--avocado`, `--mustard` ja `--dusty-rose` eivät ole nykyisessä `src/`-lähteessä. Älä tulkitse legacy-nimiä merkiksi vanhasta Geist/Bebas-designista äläkä käytä poistettuja tokeneita uuden UI:n lähtökohtana.
 - Ei koskaan #000000 tai #FFFFFF.
 
 ### Fonts (self-hosted woff2, `/public/fonts/`)

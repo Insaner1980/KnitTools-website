@@ -337,6 +337,24 @@ Artikkelien frontmatter määritellään tiedostossa `src/content.config.ts`. Ny
 
 Jos `translationKey` puuttuu, nykyinen artikkelijärjestelmä käyttää ryhmäavaimena lähdetiedoston nimeen perustuvaa fallbackia. Eksplisiittistä avainta käytetään lokalisoitujen vastineiden yhdistämiseen, kun tiedostonimet eroavat toisistaan.
 
+### Nykyinen sisältöinventaario ja kenttäasymmetriat
+
+Sisältöskeema kertoo, mikä on sallittua. Nykyiset 304 tiedostoa muodostavat sitä tiukemman käytännön sopimuksen:
+
+| Nykyinen ominaisuus | Toteutunut määrä tai tila | Tarkistusmerkitys |
+| ------------------- | ------------------------- | ---------------- |
+| Tiedostomuoto | 304 `.md`-tiedostoa, 0 `.mdx`-tiedostoa | Loader hyväksyy sekä Markdownin että MDX:n, mutta MDX olisi uusi nykyisestä sisällöstä poikkeava toteutusmalli. |
+| Yhteiset pakolliset metatiedot | Kaikissa 304 tiedostossa ovat `title`, `description`, `category`, `publishDate`, `categoryOrder` ja `tags`. | `categoryOrder` on skeemassa valinnainen, mutta nykyinen artikkelitesti vaatii sen jokaiselta tiedostolta. |
+| Englannin identiteetti | 38 juuritason tiedostoa; kaikissa `browserTitle`, ei eksplisiittistä `lang`- tai `translationKey`-kenttää. | `lang` saa oletuksen `en`, ja englannin tiedostonimi toimii käännösavaimena. |
+| Lokalisoitu identiteetti | 266 tiedostoa; kaikissa eksplisiittiset `lang` ja `translationKey`. | Hakemiston kieli, `lang` ja käännösryhmä tarkistetaan yhdessä. |
+| Draft-kenttä | DE-, SV-, NO-, FR-, NL- ja DA-tiedostot sisältävät yhteensä 228 eksplisiittistä `draft: false` -arvoa. EN- ja FI-tiedostot käyttävät skeeman `false`-oletusta. | `draft`-kentän puuttuminen ei nykyisessä skeemassa tarkoita draftia. Yhtään `draft: true` -tiedostoa ei ole. |
+| Käyttämättömät valinnaiset kentät | `readTime`- ja `updatedDate`-arvoja ei ole nykyisessä sisällössä. | Kentät ovat tuettuja, mutta niiden lisääminen muuttaa nykyistä sisältösopimusta ja vaatii renderöintivaikutuksen tarkistamisen. |
+| Body-assetit ja ulkoiset Markdown-linkit | Artikkelibodyissa ei ole Markdown-kuvia eikä `http://`- tai `https://`-Markdown-linkkejä. | Kuva tai ulkoinen lähdelinkki olisi sallittu Markdown-muutos, mutta samalla uusi nykyisestä aineistosta poikkeava sisältö- ja SEO-tapaus. |
+
+`browserTitle` ei ole yleinen lokalisoitujen artikkelien override nykyisessä reittitoteutuksessa. Vain `src/pages/articles/[...slug].astro` välittää sen `ArticleLayout`-layoutille. Lokalisoidut artikkelireitit välittävät `title`, `description`, `category`, päivät ja tagit, mutta eivät `browserTitle`-kenttää. `BaseLayout` käyttää dokumentti-, Open Graph- ja Twitter-otsikkona `browserTitle`-arvoa, kun se on välitetty; näkyvä H1 ja Article JSON-LD:n `headline` tulevat silti `title`-kentästä.
+
+`updatedDate` vaikuttaisi nykyisessä `ArticleLayout`-ketjussa näkyvään `Updated`-metatietoon, Open Graphin `article:modified_time`-arvoon ja Article JSON-LD:n `dateModified`-arvoon. Ilman sitä kaikki kolme käyttävät `publishDate`-fallbackia. `ArticleCard` näyttää aina `publishDate`-päivän, joten päivityspäivän lisääminen ei muuta listakortin päivää.
+
 ### Kielikohtaiset käännösoppaat
 
 Kielikohtaiset termi-, tyyli- ja lokalisointilinjaukset on dokumentoitu repositoryn juuressa olevissa oppaissa. Tarkista asianomaisen kielen opas ennen kyseisen kielen käännös- tai lokalisointimuutosta. Älä kopioi oppaiden yksityiskohtaisia sääntöjä tähän käsikirjaan.
@@ -379,6 +397,39 @@ Artikkelijärjestelmän testit varmistavat sisältö- ja URL-identiteetin, kää
 Artikkeli-indexit näyttävät kategoriat `CATEGORY_ORDER`-järjestyksessä. `buildArticleCategorySections()` lajittelee artikkelit `categoryOrder`-kentän mukaan, käyttää puuttuvalle arvolle fallbackia `999`, näyttää kustakin kategoriasta enintään kolme preview-korttia ja laskee loput `remainingCount`-arvoon. Kategoriasivu näyttää saman kategorian koko julkaistun listan samassa järjestyksessä.
 
 `getArticleAlternates()` rajaa hreflangit todellisuudessa näkyvien saman käännösavaimen artikkeleiden kieliin, kun sille annetaan `visibleArticles`. Draftin lisäys ei siis saa perustua pelkkään `articleTranslations`-karttaan. `getArticlePath()` käyttää kartoitettua polkua, jos se löytyy, ja muuten kielikohtaista slug-fallbackia.
+
+### Artikkelin renderöinti ja näkyvä rakenne
+
+Artikkelin detail-reitti hakee content collectionin, suodattaa buildissa näkyvät artikkelit, valitsee kielen, renderöi Markdownin Astron `render()`-helperillä ja välittää tuloksen `ArticleLayout.astro`-layoutille. `ArticleLayout` käyttää `PageLayout`- ja `ClosingCTA`-komponentteja, joten artikkeli saa yhteisen Navbarin, Footerin, waitlistin, head-metadatan ja globaalit tyylit.
+
+Artikkelibody on enintään 720 pikseliä leveä. `ArticleLayout` omistaa scoped-tyylit, joissa slottiin tulevat Markdown-elementit käsitellään `:global()`-selektoreilla. Nykyiset erityisesti tuetut body-elementit ovat kappaleet, H2/H3-otsikot, linkit, strong/em, järjestetyt ja järjestämättömät listat, blockquote, inline-code, code block, taulukko, vaakaviiva ja kuva. Uusi Markdown-rakenne on tarkistettava sekä Astron generoimasta HTML:stä että todellisessa artikkelileveydessä; pelkkä Markdown-lähteen silmäily ei osoita cascadea, vaakavieritystä tai mobiiliasettelua.
+
+`ArticleCard.astro` omistaa index- ja kategorianäkymien kortin. Kortin `title`, `description`, `category`, `publishDate` ja kohdepolku tulevat artikkelidatasta; `headingLevel` on 2 tai 3 kutsuvan sivun heading-hierarkian mukaan. Kategorian väri tulee `CATEGORY_COLORS`-kartasta. Artikkelibodyyn tehty muutos ei muuta korttia, ellei samalla muuteta kortin käyttämää frontmatteria.
+
+### Artikkelityön vaikutus- ja todistusmalli
+
+Artikkelin tekninen eheys, julkaisuidentiteetti, kielellinen laatu ja neulontaväitteen oikeellisuus ovat eri tarkistuksia:
+
+| Muutos tai väite | Kanoninen lähde ja vaikutus | Riittävä vähimmäistodiste |
+| ---------------- | --------------------------- | ------------------------- |
+| Yhden artikkelin body-copy | Kyseinen `src/content/articles/**/*.md`; ArticleLayout renderöi sisällön. | Lähteen kieli- ja faktatarkistus sekä `astro check`/build renderöitävyyttä varten. |
+| Sama tekninen väite usealla kielellä | Kahdeksan saman `translationKey`-ryhmän Markdown-tiedostoa. | Jokainen muutettu kieliversio tarkistetaan oman oppaansa ja saman teknisen merkityksen mukaan; testisuite ei vertaa bodyjen merkityspariteettia. |
+| Neulontafakta, mitoitus, tekniikkajärjestys tai tuotekohtainen luku | Artikkelibody; repositoryssa ei ole faktatietokantaa tai lähdeviiterekisteriä. | Täsmällinen ulkoinen lähde tai muu tehtävässä nimetty asiantuntijatodiste. Build, HTTP 200 ja käännöspariteetti eivät todista faktan oikeellisuutta. |
+| Frontmatter | `src/content.config.ts` sekä kyseinen Markdown-tiedosto. | `npm run test:articles`, `npm run check` ja build. |
+| Slug tai julkinen artikkeli-URL | Tiedostonimi, `articleTranslations`, kielikohtainen reitti, canonical ja hreflang. | `npm run test:articles`; tarkoituksellisessa URL-joukon muutoksessa testin URL-määrä ja SHA-256-identiteetti on tarkistettava ja tarvittaessa päivitettävä; lisäksi sitemap- ja pariteettitarkistus on ajettava. |
+| Kategoria tai järjestys | Frontmatter, `CATEGORY_ORDER`, kategoriadatat ja kategoriapolut. | Artikkelitesti tarkistaa sallitun kategorian, positiivisen `categoryOrder`-arvon ja saman kielen kategorian sisäisen järjestysavaimen yksikäsitteisyyden. |
+| Sisäinen linkki | Artikkelibody ja `routes.ts`/`articleTranslations` kohteen mukaan. | Buildin jälkeen `npm run seo:audit`; lokalisoitu linkki tarkistetaan nimenomaan saman kielen julkiseen polkuun. |
+| Metaotsikko, kuvaus tai päivämäärä | Frontmatter, artikkelireitti, ArticleLayout ja BaseLayout. | Generoidun detail-sivun H1, `<title>`, meta/OG/Twitter-kentät ja Article JSON-LD tarkistetaan erikseen. |
+| Julkaistu näkyvyys | `draft`, `isArticleVisibleInCurrentBuild()`, reittien `getStaticPaths()` ja alternates-suodatus. | Production-buildin URL/sitemap ja hreflang; dev-näkyvyys ei todista tuotantojulkaisua. |
+
+Artikkelimuutoksen käytännön tarkistusjärjestys:
+
+1. Tunnista tiedoston kieli, `translationKey`, kategoria, `categoryOrder`, julkinen slug ja samaan ryhmään kuuluvat seitsemän muuta versiota.
+2. Rajaa, onko muutos kielellinen, faktuaalinen, SEO-metatietoa muuttava, reittiä muuttava vai useaa näistä. Englanti on artikkelien faktuaalinen lähdekieli ja muiden kieliversioiden merkityspariteetin vertailukohta.
+3. Tarkista tekninen väite juuri sitä tukevasta lähteestä. Lähteen pitää tukea muutettavan virkkeen merkitys ja rajaus, ei vain artikkelin yleistä aihetta.
+4. Muokkaa vain päätetyt kieliversiot. Jos yhteinen faktavirhe esiintyy koko käännösryhmässä, tarkista kaikki kahdeksan erikseen; mekaaninen korvaus ei todista luonnollista kieltä tai samaa merkitystä.
+5. Säilytä kielikohtaiset sisäiset linkit. Nykyinen artikkelitesti estää lokalisoidun Markdownin suoran `](/)`-kotisivulinkin, mutta se ei todista kaikkien body-linkkien semanttista oikeellisuutta eikä neulontasisällön faktuaalisuutta.
+6. Aja vaikutusalueen tarkistukset. `npm run test:articles` todistaa identiteetti- ja frontmatter-sopimuksia; `npm run build` todistaa renderöityvyyden; buildin jälkeinen `npm run seo:audit` todistaa paikallisen HTML:n linkki- ja SEO-sopimuksia. Vasta `seo:live` tarkistaa deployatun sivun, eikä sekään todista artikkelin neulontafaktaa tai käännöksen laatua.
 
 ## 10. Landing page
 
@@ -611,7 +662,7 @@ Korttien stripe-nimiset palettitokenit ovat edelleen käytössä korttitaustoiss
 | General Sans 400/500/600 | Body, navigaatio, labelit, napit ja metadata |
 | Teko 400/500 subset      | KnitTools-wordmark                           |
 
-Legacy-tokenit kuten --dark, --cream, --accent ja --bebas-\* ovat yhä yhteisten tyylien käytössä. Niitä ei pidä tulkita merkiksi vanhasta Geist/Bebas-ulkoasusta.
+Nykyisessä `global.css`-lähteessä yhä aktiiviset legacy-tokenit ovat `--cream`, `--cream-muted`, `--accent`, `--accent-hover` ja `--bebas-*`. Tokenit `--dark`, `--avocado`, `--mustard` ja `--dusty-rose` eivät ole nykyisessä `src/`-lähteessä. Legacy-nimeä ei pidä tulkita merkiksi vanhasta Geist/Bebas-ulkoasusta, mutta poistettua tokenia ei myöskään saa käyttää uuden UI:n lähtökohtana.
 
 Primary-painikkeet ovat suorakulmaisia, General Sans -fontilla, uppercase-tekstillä ja vahvalla trackingilla.
 
@@ -622,6 +673,28 @@ Primary-painikkeet ovat suorakulmaisia, General Sans -fontilla, uppercase-teksti
 Astro-komponentin `<style>` on scoped, mutta slottiin tuotu markup ja JavaScriptillä luodut elementit eivät saa omistavan komponentin scope-attribuuttia. `LocalizedToolPage.astro` käyttää siksi tarkoituksella `:global()`-selektoreita tool-slotin taulukoille, lyhennelistalle, hakukentille ja kokotaulukon kontrolleille. Sama koskee `PullQuote.astro`-komponentin GSAP SplitTextin luomia `.pq-word`-elementtejä sekä laskureiden JavaScriptillä luomia tulos- ja virhe-elementtejä.
 
 Globaali `a { color: var(--accent) }` voi yliajaa komponenttilinkin värin, ellei komponenttiselektori ole riittävän tarkka. Globaali `h1/h2` käyttää Lalezaria, mutta komponentit voivat vaihtaa roolin: landingin H1-wordmark käyttää Tekoa ja labelit/metadata General Sansia. UI-tarkistuksessa on luettava sekä globaali että komponenttikohtainen sääntö ennen cascade-päätelmää.
+
+### UI-muutoksen vaikutusala
+
+Sama visuaalinen elementti voi olla yhden sivun scoped-tyyli, kaikkien lokalisoitujen työkalujen jaettu pinta tai koko sivuston globaali sopimus. Nykyinen vaikutusmatriisi:
+
+| Omistava lähde | Nykyinen renderöintiala | Tarkistettava sivuvaikutus |
+| -------------- | ----------------------- | -------------------------- |
+| `BaseLayout.astro` + `global.css` | Kaikki 411 buildattua HTML-sivua joko suoraan tai `PageLayout`-ketjun kautta. | Head, fonttipreloadit, skip-linkki, analytiikka, waitlist-alustus, aluehinta, globaalit tokenit ja reset/cascade. |
+| `PageLayout.astro` | Kaikki tavalliset sivut, myös landing, sekä 304 artikkelidetailia ArticleLayout-ketjun kautta. | Navbar, main landmark ja Footer voivat muuttua usealla reittityypillä yhtä aikaa. |
+| `ArticleLayout.astro` | 304 artikkelin detail-sivua. | Näkyvä metadata, prose-tyylit, Article JSON-LD, OG-artikkelikentät ja ClosingCTA kaikilla kahdeksalla kielellä. |
+| `ArticleCard.astro` | Kahdeksan artikkeli-indexiä ja 40 kategoriasivua. | Heading-taso, kategoria, väriteema, päivä, linkki ja pitkä lokalisoitu copy. |
+| `ToolsIndexPage.astro` | Kahdeksan tools-indexiä. | 12-palstainen desktop-grid, english/localized-variantit, CollectionPage JSON-LD ja kuusi linkkiä per kieli. |
+| `LocalizedToolPage.astro` | 42 lokalisoitua tool-detail-sivua. | Hero, slot-cascade, FAQ, WebApplication/FAQ JSON-LD, ClosingCTA ja valinnaiset taulukko-ohjaimet; kuusi EN-sivua eivät peri muutosta. |
+| `CastOnCalculator.astro` | Kahdeksan cast-on-sivua. | Yksi logiikka ja kahdeksan copy-objektia; ID-, label-, parseri-, yksikkö- ja pyöristysmuutos on monikielinen. |
+| `YarnEstimator.astro` | Kahdeksan yarn-estimator-sivua. | 30 projektia, yhdeksän kerrointa, metri/yard-rajat, lokalisoidut labelit ja client-renderöidyt tulokset. |
+| `WpiIdentifier.astro` | Kahdeksan yarn-weight-sivua. | Jaettu 1-40-syöte, päällekkäisten WPI-alueiden tulkinta ja lokalisoitu tulosteksti. |
+| `sizeChartControls.ts` | Kahdeksan size-chart-sivua. | Tab/radio-näppäimistö, ARIA, unit classit ja JS:llä luotu mobiilivalitsin. |
+| `responsiveTableControls.ts` | Kahdeksan needle-size-sivua. | Otsikoista johdetut mobiililabelit ja taulukon valmiustila. |
+| `src/components/dutch-tools/` tai `danish-tools/` | Seitsemän komponenttia per kieli yhden tool-catch-all-reitin takana. | Reittitiedosto valitsee komponentin data-avaimella; komponenttimuutos ei automaattisesti vaikuta muihin kieliin. |
+| `src/lib/categories.ts` | Artikkelien detail-, index-, kategoria-, kortti- ja footer-pinnat. | Label, kuvaus, järjestys, väriluokka, structured data ja reitit on tarkistettava yhdessä. |
+
+Vaikutusmäärä kertoo, missä muutos voi näkyä, ei sitä, että nykyiset source-testit olisivat renderöineet jokaisen sivun oikeassa selaimessa. Korkean vaikutusalan UI-muutos tarvitsee edustavat englannin ja pitkän lokalisoidun copyn sivut, breakpointtien molemmat puolet, keyboard/focus-tilat sekä tarvittaessa JS pois/reduced motion -tilan.
 
 ### Responsiiviset rajat
 
@@ -755,7 +828,7 @@ public/\_headers määrittää tällä hetkellä:
 
 CSP ei tällä hetkellä määritä default-src-, script-src-, style-src-, img-src-, font-src- tai connect-src-direktiivejä. Tätä ei tule kuvata kattavana CSP:nä. Source-testin läpäisy osoittaa public/\_headers-tiedoston odotetun sisällön, ei sitä, että Cloudflare palauttaa headerit tuotannossa.
 
-public/.well-known/security.txt sisältää yhteystiedon ja vanhenemispäivän 30.4.2027. Tarkista päivämäärä ennen sitä.
+`public/.well-known/security.txt` ja `public/security.txt` ovat nykyisin sisällöltään identtiset. Molemmat sisältävät yhteystiedon ja vanhenemispäivän 30.4.2027, mutta `Canonical` osoittaa `/.well-known/security.txt`-polkuun. Muuta ne yhdessä. Nykyinen `scripts/security-headers.test.mjs` ei lue kumpaakaan security.txt-tiedostoa, joten testin läpäisy ei todista niiden synkronointia tai vanhenemispäivää.
 
 `public/robots.txt` sallii kaikki crawlerit ja osoittaa tuotannon sitemap-indexiin. `public/_redirects` ohjaa vain `/sitemap.xml` → `/sitemap-index.xml` koodilla 301. Nämä ovat staattisia deploy-lähteitä; Cloudflaren dashboard-säännöt, bot-asetukset tai reunapalvelun mahdolliset lisäheaderit eivät näy repositoriossa.
 
