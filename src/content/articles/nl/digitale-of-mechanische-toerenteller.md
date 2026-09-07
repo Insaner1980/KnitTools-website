@@ -67,7 +67,7 @@ Elk project met vormgeving. Truien, mutsen met topminderingen, sokken met hielbo
 
 Meerdere actieve projecten. Drie of meer lopende projecten, elk met een eigen toerenteller en patroonpositie. Een digitale tracker die ze allemaal toont wint van zoeken in tassen en plakbriefjes controleren.
 
-Complexe steekpatronen. Kabels, ajour, kleurwerk. Je plek in een rapport kwijtraken kost tijd. Meerdere tellers die verschillende delen van het patroon volgen is iets wat fysieke tellers helemaal niet kunnen.
+Complexe steekpatronen. Kabels, ajour, kleurwerk. Je plek in een rapport kwijtraken kost tijd. Meerdere digitale tellers houden die tellingen bij elkaar; met eenvoudige fysieke tellers heb je daarvoor aparte tellers of extra notities nodig.
 
 Langlopende projecten. Een trui die maanden duurt heeft baat bij vaste opslag en sessiegeschiedenis. Je ziet dat je er dinsdag voor het laatst aan werkte, dat je op toer 47 was en dat de volgende mindering op toer 52 komt. Een klikker zegt "47" en verder niets.
 

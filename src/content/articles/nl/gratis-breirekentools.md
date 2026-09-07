@@ -89,7 +89,7 @@ De berekening kan exact zijn, maar het bruikbare antwoord hangt af van de invoer
 Opzetrekenen en stekenverhouding omrekenen hebben allebei een meting uit je proeflapje nodig. Daar is geen omweg voor. Een garenberekenaar kan zonder stekenverhouding een grove schatting geven omdat hij werkt met projecttype en garendikte, maar de schatting is ruwer.
 
 **Waarom niet gewoon met de hand rekenen?**
-Dat kan. Stekenverhouding keer breedte, klaar. Het voordeel van de calculator is dat hij patroonrapporten, afrondingsvoorwaarden en verdeling van reststeken netjes afhandelt, zeker wanneer je in de wolwinkel staat met drie bollen in je hand en een steekpatroon dat over 7 steken herhaalt.
+Dat kan. De calculator berekent het aantal steken uit stekenverhouding en breedte en rondt af naar het dichtstbijzijnde even getal. Bij een patroonrapport van 7 steken pas je het resultaat zelf aan zodat de patroonsteken uit volledige herhalingen bestaan; eventuele kantsteken tel je apart mee.
 
 **Hoe nauwkeurig is een garenschatting als ik nog geen proeflapje heb gebreid?**
 Een garenschatting voor het proeflapje is een planningsbereik, geen belofte. Het is goed genoeg om te weten of je waarschijnlijk een paar bollen koopt of een truihoeveelheid, maar niet goed genoeg om de buffer over te slaan. Vergelijk na je proeflapje je stekenverhouding en het gedrag van het breisel met het patroon of de schatting, en voeg extra garen toe als het project groot, gestructureerd of verfbadgevoelig is.

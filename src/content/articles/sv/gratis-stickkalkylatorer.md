@@ -92,7 +92,7 @@ En uppläggningskalkylator och en stickfasthetsomvandlare behöver ett mått fr�
 
 **Varför inte bara räkna för hand?**
 
-Det kan du. Stickfasthet gånger bredd, klart. Kalkylatorns fördel är att den hanterar rapporter, avrundningskrav och jämn fördelning av resterande maskor snyggt, särskilt när du står i garnbutiken med tre nystan i handen och ett mönster som upprepas över 7 maskor.
+Det kan du. Kalkylatorn räknar ut maskantalet från stickfasthet och bredd och avrundar resultatet till närmaste jämna maskantal. För ett mönster med en rapport på 7 maskor justerar du resultatet manuellt så att mönstermaskorna bildar hela rapporter, och räknar kantmaskorna separat.
 
 **Hur exakt är en garnuppskattning innan jag har stickat provlapp?**
 

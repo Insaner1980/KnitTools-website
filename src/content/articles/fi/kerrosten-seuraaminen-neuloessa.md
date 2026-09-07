@@ -51,7 +51,7 @@ Ei varsinaisesti seurantamenetelmä. Enemmän palautusmenetelmä. Kun luku katoa
 
 Sileässä neuleessa oikealla puolella näkyy V-muotoja. Jokainen V on yksi kerros. Ainaoikeassa muodostuu harjanteita, ja jokainen harjanne on kaksi kerrosta. Joustinta on vaikeampi lukea, mutta kärsivällisyydellä sekin on laskettavissa.
 
-Mallineuleissa itse kuvio antaa usein ankkureita. Jos palmikko käännetään joka 8. kerros, voit laskea palmikon käännöt ja kertoa kahdeksalla. Pitsissä on usein erottuva kerros, esimerkiksi langankiertorivi tai siirtymäkerros, jonka näkee oikealta puolelta.
+Mallineuleissa itse kuvio antaa usein ankkureita. Jos palmikko käännetään joka 8. kerros, ota lähtökohdaksi ensimmäisen käännön kerrosnumero, lisää 8 kerrosta jokaista seuraavaa kääntöä kohti ja lisää lopuksi viimeisen käännön jälkeen neulotut kerrokset. Pitsissä on usein erottuva kerros, esimerkiksi langankiertorivi tai siirtymäkerros, jonka näkee oikealta puolelta.
 
 Taito kannattaa opetella riippumatta siitä, mitä muuta seurantatapaa käytät. Laskuri kertoo numeron. Neulepinnan lukeminen kertoo, näyttääkö numero oikealta.
 

@@ -25,7 +25,7 @@ Breitijd bijhouden maakt van vage indrukken echte gegevens. Hoeveel uren er in d
 
 Drie redenen, in de volgorde waarin ze het snelst iets opleveren.
 
-**Je planning wordt realistischer.** Als je weet dat een muts in worsted-garen je ongeveer 8 uur kost, kun je de planning voor een trui beter inschatten. Als het lijf van die muts 15 cm tricotsteek was en je daar 45 minuten per 2,5 cm over deed, dan zit een truilijf van 38 cm in dezelfde stekenverhouding in elk geval in de juiste orde van grootte. Niet perfect, want vormgeving en naden kosten ook tijd, maar een ruwe schatting is beter dan "geen idee".
+**Je planning wordt realistischer.** Als je weet dat een muts in worsted-garen je ongeveer 8 uur kost, kan dat helpen bij het schatten van de tijd voor een trui, maar je moet ook rekening houden met de andere afmetingen. Als het lijf van die muts 15 cm tricotsteek was en je daar 45 minuten per 2,5 cm over deed, moet je voor een truilijf van 38 cm bij dezelfde steken- en toerenverhouding niet alleen de extra centimeters, maar ook het verschil in het aantal steken per toer meerekenen. Vormgeving en afwerking kosten extra tijd.
 
 **Je merkt vertragingen voordat ze problemen worden.** Als je gemiddeld 12 toeren per sessie breit aan een project en dat zakt een week lang naar 6, dan is er iets veranderd. Misschien werd het steekpatroon lastiger. Misschien vecht je met het garen. Misschien is je spanning verschoven en compenseer je onbewust. De cijfers laten de verandering zien voordat je drie sessies verder bent en je afvraagt waarom het project zo stroperig voelt.
 
@@ -51,7 +51,7 @@ Een breitijdtracker in een projectapp automatiseert de onderdelen waar handmatig
 
 KnitTools wordt gebouwd met sessies bijhouden gekoppeld aan de [toerenteller](/nl/artikelen/toeren-bijhouden-tijdens-het-breien/). De bedoelde flow is eenvoudig: tel toeren, sla de sessie op en bewaar datum, duur, voltooide toeren en toeren per uur bij het project. Na verloop van tijd bouwt dat een geschiedenis op per project en over al je projecten heen.
 
-Het voordeel boven handmatige methodes is consistentie. Je gebruikt toch al de teller, dus de tijdregistratie blijft in dezelfde workflow. Geen losse timer om te starten, geen notitieboek om bij te werken, geen spreadsheet om te onderhouden. De data groeit door zonder dat je er een tweede taak van maakt.
+In KnitTools start en stop je elke breisessie zelf binnen dezelfde workflow als de toerenteller. Tikken op de toerenteller start de tijdregistratie niet automatisch, en geregistreerde sessies blijven aan het project gekoppeld.
 
 ## Wat de cijfers je echt vertellen
 
@@ -67,7 +67,7 @@ Deze cijfers verschillen enorm per breier. De nuttige vergelijking is niet jouw 
 
 Een trui kost niet overal evenveel tijd per centimeter. Het lijf in tricotsteek schiet op. De pas met kleurwerk of kabels vertraagt. Mouwen op sokkennaalden of magic loop kunnen ook trager zijn dan het lijf op een lange rondbreinaald, omdat de opstelling priegeliger is.
 
-Sessies bijhouden maakt die verschillen zichtbaar. Als het lijf 20 uur kostte en de pas 15 uur voor de helft van het aantal toeren, dan was de pas per toer twee keer zo traag. Handig om te weten voor de volgende trui met pas.
+Sessies bijhouden maakt die verschillen zichtbaar. Als het lijf 20 uur kostte en de pas 15 uur voor de helft van het aantal toeren, kostte een toer van de pas gemiddeld 50% meer tijd, oftewel 1,5 keer zoveel. Handig om te weten voor de volgende trui met pas.
 
 ### Tempoverbetering door de tijd
 

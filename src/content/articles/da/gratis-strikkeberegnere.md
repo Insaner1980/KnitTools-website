@@ -92,7 +92,7 @@ Opslagsmatematik og strikkefasthedsomregning kræver en måling fra din strikkep
 
 **Hvorfor ikke bare regne det i hånden?**
 
-Det kan du godt. Strikkefasthed gange bredde, færdig. Beregnerens fordel er, at den håndterer rapporter, afrundingskrav og fordeling af resterende masker rent, især når du står i garnbutikken med tre nøgler i hånden og et maskemønster, der gentages over 7.
+Det kan du godt. Beregneren regner ud fra strikkefasthed og bredde og runder resultatet til nærmeste lige maskeantal. Ved et mønster med en 7-maskers rapport skal du selv justere resultatet, så mønstermaskerne danner hele rapporter, og regne eventuelle kantmasker separat.
 
 **Hvor præcist er et garnestimat, før jeg har strikket en strikkeprøve?**
 

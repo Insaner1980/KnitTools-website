@@ -88,7 +88,7 @@ Peruslasku voi olla täsmällinen, mutta hyödyllinen vastaus riippuu lähtötie
 Silmukkalaskuri ja neuletiheyden muunnin tarvitsevat mallitilkusta mitatun neuletiheyden. Siihen ei ole oikotietä. Langanmenekkilaskuri voi antaa karkean arvion projektityypin ja lankavahvuuden perusteella, mutta arvio on epätarkempi.
 
 **Miksi en vain laskisi käsin?**
-Voit. Neuletiheys kertaa leveys, valmis. Laskurin etu on mallikertojen, pyöristyssääntöjen ja jäljelle jäävien silmukoiden jakamisen siisti käsittely, etenkin kun päätös pitää tehdä lankakaupassa kolme kerää kädessä ja mallineule toistuu seitsemällä silmukalla.
+Voit. Laskuri tekee neuletiheyteen ja leveyteen perustuvan laskun ja pyöristää tuloksen lähimpään parilliseen lukuun. Jos mallikerta on 7 silmukkaa, säädä tulosta käsin niin, että mallineuleen silmukat muodostavat kokonaisia mallikertoja, ja huomioi reunasilmukat erikseen.
 
 **Kuinka tarkka lanka-arvio on ennen mallitilkkua?**
 Ennen mallitilkkua lanka-arvio on suunnitteluhaarukka, ei lupaus. Se riittää kertomaan ostatko todennäköisesti muutaman kerän vai villapaitamäärän, mutta ei riitä turvamarginaalin ohittamiseen. Kun mallitilkku on neulottu, vertaa omaa neuletiheyttä ja neulepinnan käyttäytymistä ohjeeseen tai arvioon ja lisää lankaa, jos projekti on iso, teksturoitu tai värjäyserälle herkkä.

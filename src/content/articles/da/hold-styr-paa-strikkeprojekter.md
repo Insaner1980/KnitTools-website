@@ -76,7 +76,7 @@ Når du har flere projekter i gang, bliver garnlogistikken filtret. Hvilke proje
 
 At holde styr på garn pr. projekt, hvor meget du startede med, og hvor meget der er tilbage, forhindrer de to værste udfald: at løbe tør midt i projektet med et udgået farveparti, og at købe dubletter fordi du har glemt, hvad du allerede har.
 
-Et nyttigt trick til aktive projekter: vej restgarnet med nogle sessioners mellemrum, og skriv gramvægten ned med dato. Hvis et sweaterærme brugte 47 g, ved du præcis hvor meget det andet ærme kræver, plus en lille buffer. Det gør et uklart "jeg tror der er nok" til et konkret ja eller nej.
+Et nyttigt trick til aktive projekter: vej restgarnet med nogle sessioners mellemrum, og skriv gramvægten ned med dato. Hvis et sweaterærme brugte 47 g, har du et nyttigt estimat for det andet ærme, men læg en buffer til for normal variation. Det gør et uklart "jeg tror der er nok" til et mere konkret planlægningstjek.
 
 Gem garnets banderoleoplysninger, så garntykkelse, fiberindhold, vaskeanvisning og farveparti stadig er tilgængelige, når den fysiske banderole løsner sig fra nøglet. KnitTools bygges til at holde de noter sammen med det projekt, de hører til.
 

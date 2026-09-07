@@ -25,7 +25,7 @@ Att följa sticktid gör vaga intryck till faktisk data. Hur många timmar som g
 
 Tre skäl, i den ordning de brukar börja ge nytta.
 
-**Projektplaneringen blir mer realistisk.** Om du vet att en mössa i Worsted tar dig ungefär 8 timmar blir tidslinjen för en tröja möjlig att uppskatta. Om mösskroppen var 15 cm slätstickning och tog 45 minuter per 2,5 cm hamnar en tröjkropp på 38 cm i samma stickfasthet åtminstone i rätt storleksordning. Inte exakt, eftersom formning och montering lägger till tid, men en storleksordning slår "ingen aning".
+**Projektplaneringen blir mer realistisk.** Om du vet att en mössa i Worsted tar dig ungefär 8 timmar kan det hjälpa dig att uppskatta tiden för en tröja, men du behöver också ta hänsyn till de olika måtten. Om mösskroppen var 15 cm slätstickning och tog 45 minuter per 2,5 cm behöver en uppskattning för en 38 cm lång tröjkropp, med samma stickfasthet mätt i både maskor och varv, också skalas efter det relativa antalet maskor i varje varv. Formning och montering tar ytterligare tid.
 
 **Du märker inbromsningar innan de blir problem.** Om ett vanligt pass ger 12 varv på ett projekt och samma projekt plötsligt ger 6 varv per pass har något förändrats. Kanske blev strukturen svårare. Kanske bråkar garnet. Kanske har stickfastheten glidit och du kompenserar utan att tänka på det. Siffrorna visar skiftet innan du har lagt tre pass till på att undra varför arbetet känns segt.
 
@@ -51,7 +51,7 @@ En sticktidsmätare inbyggd i en projektapp kan ta bort de delar där manuella m
 
 [KnitTools-appen](/sv/verktyg/#join) byggs med passregistrering kopplad till sin [varvräknare](/sv/artiklar/halla-koll-pa-varv-nar-du-stickar/). Det tänkta flödet är rakt: räkna varv, spara passet och behåll datum, tid, färdiga varv och varv per timme i projektet. Med tiden bildas en historik per projekt och över alla projekt.
 
-Fördelen jämfört med manuella metoder är konsekvens. Du trycker redan på varvräknaren, så tidsuppföljningen sker i samma arbetsflöde. Ingen separat timer att starta, ingen anteckningsbok att uppdatera, inget kalkylblad att underhålla. Datan samlas utan att du behöver göra ett extra moment av den.
+I KnitTools behöver du själv starta och stoppa arbetspassen i varvräknarflödet. De registrerade passen förblir kopplade till projektet, och tryck på varvräknaren startar inte tidsregistreringen automatiskt.
 
 ## Vad datan faktiskt berättar
 
@@ -67,7 +67,7 @@ Siffrorna varierar mycket mellan stickare. Den användbara jämförelsen är int
 
 En tröja tar inte lika lång tid per centimeter överallt. Kroppen i slätstickning kan gå snabbt. Oket med flerfärgsstickning eller flätor kan bromsa. Ärmar på strumpstickor eller magic loop kan också ta längre tid än kroppen på en lång rundsticka, eftersom upplägget är pilligare.
 
-Passregistrering visar sådana skillnader. Om kroppen tog 20 timmar och oket tog 15 timmar för hälften så många varv, var oket dubbelt så långsamt per varv. Det är användbart inför nästa oktröja.
+Passregistrering visar sådana skillnader. Om kroppen tog 20 timmar och oket tog 15 timmar för hälften så många varv, var den genomsnittliga tiden per varv i oket 50 % längre, alltså 1,5 gånger så lång. Det är användbart inför nästa oktröja.
 
 ### Hastighetsutveckling över tid
 

@@ -89,7 +89,7 @@ Matematikken kan være eksakt, men det nyttige svaret avhenger av inndata og avr
 Oppleggsmatte og strikkefasthetsomregning trenger en måling fra prøvelappen. Det finnes ingen snarvei rundt det. En garnberegner kan gi et grovt anslag uten strikkefasthet fordi den bruker prosjekttype og garntykkelse, men anslaget blir grovere.
 
 **Hvorfor ikke bare regne for hånd?**
-Det kan du. Strikkefasthet ganger bredde, ferdig. Fordelen med kalkulatoren er at den håndterer rapporter, avrundingskrav og fordeling av resterende masker ryddig, særlig når du står i garnbutikken med tre nøster i hånden og et maskemønster som går over 7 masker.
+Det kan du. Kalkulatoren regner ut fra strikkefasthet og bredde og runder resultatet til nærmeste partall. Hvis mønsteret har en rapport på 7 masker, må du justere resultatet manuelt slik at mønstermaskene danner hele rapporter, og ta hensyn til eventuelle kantmasker separat.
 
 **Hvor nøyaktig er et garnanslag før jeg har strikket prøvelapp?**
 Et garnanslag før prøvelapp er et planleggingsintervall, ikke et løfte. Det er godt nok til å si om du sannsynligvis kjøper noen få nøster eller en gensermengde, men ikke godt nok til å hoppe over bufferen. Etter prøvelappen sammenligner du strikkefastheten og stoffets oppførsel med oppskriften eller anslaget, og legger til ekstra garn hvis prosjektet er stort, strukturstrikket eller følsomt for fargeparti.

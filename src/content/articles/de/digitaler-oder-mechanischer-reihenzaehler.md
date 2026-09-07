@@ -27,9 +27,9 @@ Der klassische mechanische Zähler ist ein kleiner Zylinder, der auf das Ende ei
 
 **Was sie gut können.** Keine Einrichtung. Aus der Schublade nehmen, klicken, fertig. Kein Konto, keine App, keine Lernkurve. Das physische Klicken wird Teil des Strickrhythmus, und manche mögen dieses haptische Feedback lieber als das Tippen auf einen Bildschirm. Sie funktionieren ohne Strom, kümmern sich nicht um Spiegelungen und kosten nur ein paar Euro. Schwer, dagegen zu argumentieren.
 
-**Wo sie schwach sind.** Sie zählen eine Sache in eine Richtung. Musst du eine Reihe zurückstricken? Denk daran, zurückzuklicken. Bei Zylinderzählern ist das Zurückdrehen außerdem fummelig. Vergisst du es, ist die Zahl falsch und lässt sich nicht prüfen.
+**Wo sie schwach sind.** Ein einfacher mechanischer Reihenzähler mit nur einem Zählstand hält eine Zahl fest und führt nicht automatisch einen Zählverlauf. Musst du eine Reihe zurückstricken? Denk daran, zurückzuklicken. Bei Zylinderzählern ist das Zurückdrehen außerdem fummelig. Vergisst du es, ist die Zahl falsch und lässt sich nicht prüfen.
 
-Sie können nicht mehrere Dinge gleichzeitig verfolgen. Ein Pullover kann Gesamt-Reihenzahl, Position im Zopfrapport und nächste Abnahmereihe brauchen. Ein mechanischer Zähler schafft eins davon.
+Mit einfachen mechanischen Reihenzählern brauchst du für mehrere Größen mehrere Zähler oder zusätzliche Notizen. Ein Pullover kann Gesamt-Reihenzahl, Position im Zopfrapport und nächste Abnahmereihe brauchen. Ein einzelner mechanischer Zähler schafft eins davon.
 
 Sie verstellen sich. Projektbeutel ins Auto werfen, Rädchen dreht sich, und du schaust auf eine Zahl, die stimmen kann oder nicht. Außerdem passt der Zylinder nicht zu Rundstricknadeln, mit denen die meisten Kleidungsstücke gestrickt werden. Anhänger- oder Tischzähler lösen das Nadelproblem, bringen aber eigene Umstände mit.
 
@@ -65,7 +65,7 @@ Jedes Projekt mit Formgebung. Pullover, Mützen mit Abnahmen an der Spitze, Sock
 
 Mehrere aktive Projekte. Drei oder mehr WIPs, jedes mit eigener Reihenzahl und Position in der Anleitung. Ein digitaler Tracker, der alles zeigt, schlägt Projektbeutel und Zettel.
 
-Komplexe Muster. Zöpfe, Lochmuster, Jacquard. Den Platz im Rapport zu verlieren kostet Zeit. Mehrere Zähler für verschiedene Aspekte des Musters sind etwas, das mechanische Zähler nicht leisten.
+Komplexe Muster. Zöpfe, Lochmuster, Jacquard. Den Platz im Rapport zu verlieren kostet Zeit. Mehrere digitale Zähler halten diese Zählstände zusammen; mit einfachen mechanischen Zählern brauchst du dafür separate Zähler oder Notizen.
 
 Langzeitprojekte. Ein Pullover über Monate profitiert von dauerhaft gespeicherten Daten und Sitzungsverlauf. Du siehst: zuletzt Dienstag, Reihe 47, nächste Abnahme in Reihe 52. Ein Klicker sagt „47“ und sonst nichts.
 

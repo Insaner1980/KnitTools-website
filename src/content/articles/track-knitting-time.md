@@ -21,7 +21,7 @@ Tracking knitting time turns vague impressions into actual data. How many hours 
 
 Three reasons, in order of how quickly they pay off.
 
-**Project planning gets realistic.** Knowing that a worsted-weight hat takes you about 8 hours makes the timeline for a sweater possible to estimate. If the hat body was 6 inches of stockinette at 45 minutes per inch, a 15-inch sweater body at the same gauge is at least in the right ballpark. Not perfectly, because shaping and seaming add time, but a ballpark beats "no idea."
+**Project planning gets realistic.** Knowing that a worsted-weight hat takes you about 8 hours can help inform a sweater estimate, but you also need to account for the different dimensions. If the hat body was 6 inches of stockinette at 45 minutes per inch, estimating a 15-inch sweater body at the same stitch and row gauge also requires scaling for the relative number of stitches per row or round. Shaping and finishing add more time.
 
 **You notice slowdowns before they become problems.** If your average session produces 12 rows on a project and one week it drops to 6, something changed. Maybe the stitch pattern got harder. Maybe you're fighting the yarn. Maybe tension drifted and you're unconsciously compensating. The numbers flag the shift before you've spent three more sessions wondering why the project feels sluggish.
 
@@ -47,7 +47,7 @@ A knitting time tracker built into a project management app automates the parts 
 
 The [KnitTools app](/) is being built with session tracking tied to its [row counter](/articles/track-rows-knitting/). The intended flow is simple: count rows, save the session, and keep date, duration, rows completed, and rows per hour with the project. Over time this builds a history per project and across all projects.
 
-The advantage over manual methods is consistency. You're already tapping the row counter, so the time tracking happens as a side effect. No separate timer to start, no notebook to update, no spreadsheet to maintain. The data accumulates whether or not you think about it.
+In KnitTools, you start and stop work sessions explicitly in the row-counter workflow, and recorded sessions stay linked to the project. Row-counter taps do not start time tracking automatically.
 
 ## What the data actually tells you
 
@@ -63,7 +63,7 @@ These numbers vary enormously between knitters. The useful comparison isn't your
 
 A sweater doesn't take one uniform amount of time per inch. The body in stockinette may move quickly. The yoke with colorwork or cables can slow down. Sleeves on DPNs or magic loop can also take longer than the body on a long circular because the setup is fiddlier.
 
-Session tracking reveals these differences. If the body took 20 hours and the yoke took 15 for half the rows, the yoke was twice as slow per row. That's useful to know for the next yoked sweater.
+Session tracking reveals these differences. If the body took 20 hours and the yoke took 15 for half as many rows, the average time per yoke row was 50% longer, or 1.5 times as long. That's useful to know for the next yoked sweater.
 
 ### Speed improvement over time
 
@@ -81,7 +81,7 @@ Don't compare your numbers to other knitters. Hand size, tension style, yarn pre
 
 Track at the granularity that's useful. Per-session data (duration, rows) is enough for most purposes. Per-row timing is overkill unless you're debugging a specific problem.
 
-If tracking feels like a chore rather than a tool, stop. The data is only worth collecting if you'll actually use it. A knitting session tracker that runs automatically (like one built into a row counter) has the lowest friction. A manual spreadsheet that goes un-updated for weeks isn't helping.
+If tracking feels like a chore rather than a tool, stop. The data is only worth collecting if you'll actually use it. An integrated tracker such as KnitTools keeps session controls close to the row counter, but you still need to start and stop each session. A manual spreadsheet that goes un-updated for weeks isn't helping.
 
 ## Connecting time tracking to project management
 

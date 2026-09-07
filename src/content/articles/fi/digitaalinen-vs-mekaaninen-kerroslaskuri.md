@@ -28,7 +28,7 @@ Klassinen mekaaninen laskuri on pieni tynnyri, joka pujotetaan suoran puikon pä
 
 **Missä ne jäävät vajaiksi.** Ne laskevat yhtä asiaa yhteen suuntaan. Pitääkö purkaa kerros? Muista klikata taaksepäin. Tynnyrimallissa taaksepäin kääntäminen on vieläpä näpertelyä, koska sisärengasta pitää kääntää varovasti pyörittämättä ulompaa. Jos unohdat, luku on väärin eikä sitä voi tarkistaa mistään.
 
-Ne eivät seuraa monta asiaa yhtä aikaa. Villapaidassa voi olla kokonaiskerrosluku, palmikkoraportin kohta ja seuraava kavennuskerros. Mekaaninen laskuri hoitaa yhden niistä.
+Jos käytät yhden luvun mekaanisia peruslaskureita, useiden asioiden seuraaminen vaatii useita laskureita tai erillisiä muistiinpanoja. Villapaidassa voi olla kokonaiskerrosluku, palmikkoraportin kohta ja seuraava kavennuskerros. Yksi mekaaninen laskuri hoitaa yhden niistä.
 
 Ne vaihtavat lukuaan kolhuista. Heität projektipussin autoon, kiekko pyörähtää, ja nyt katsot numeroa, joka voi olla oikein tai olla olematta. Tynnyrimalli ei myöskään sovi pyöröpuikoille, joilla suurin osa vaatteista neulotaan. Riippuvat ja pöytälaskurit ratkaisevat puikko-ongelman, mutta tuovat oman kitkansa.
 
@@ -64,7 +64,7 @@ Mikä tahansa muotoiltava projekti. Villapaidat, pipot päälaen kavennuksilla, 
 
 Useita aktiivisia töitä. Kolme tai useampi keskeneräinen neule, jokaisella oma kerrosluku ja ohjekohta. Digitaalinen seuranta, jossa kaikki näkyvät, voittaa vaihtoehdon, jossa kaivelet projektipusseja ja tarkistat muistilappuja.
 
-Monimutkaiset mallineuleet. Palmikot, pitsi, kirjoneule. Mallikerran kohdan kadottaminen maksaa aikaa. Useat laskurit, jotka seuraavat eri asioita, ovat jotain mihin mekaaniset laskurit eivät pysty lainkaan.
+Monimutkaiset mallineuleet. Palmikot, pitsi, kirjoneule. Mallikerran kohdan kadottaminen maksaa aikaa. Useat digitaaliset laskurit pitävät nämä luvut yhdessä. Sama onnistuu mekaanisilla yhden luvun peruslaskureilla käyttämällä erillisiä laskureita tai muistiinpanoja.
 
 Pitkät projektit. Kuukausia kestävä villapaita hyötyy pysyvyydestä ja sessiohistoriasta. Näet, että työstit sitä viimeksi tiistaina, olit kerroksella 47 ja seuraava kavennus on kerroksella 52. Klikkeri kertoo "47" eikä muuta.
 

@@ -29,9 +29,9 @@ Den klassiska mekaniska räknaren är en liten cylinder som sitter på änden av
 
 **Det de gör bra.** Ingen installation. Ta upp den ur lådan, klicka, klart. Inget konto, ingen app, ingen inlärningskurva. Det fysiska klicket blir en del av stickrytmen, och vissa stickare tycker att den taktila återkopplingen är mer tillfredsställande än att trycka på en skärm. De fungerar utan el, bryr sig inte om skärmreflexer och är oftast billiga. Svårt att argumentera emot.
 
-**Där de brister.** De räknar en sak i en riktning. Behöver du repa upp ett varv? Kom ihåg att klicka tillbaka. Cylinderformade räknare är dessutom pilliga att vrida bakåt, eftersom du måste vrida den inre ringen försiktigt utan att snurra den yttre. Glömmer du det är siffran fel, utan något sätt att kontrollera.
+**Där de brister.** En enkel fysisk räknare med ett enda räkneverk registrerar ett enda tal och sparar inte automatiskt någon räkningshistorik. Behöver du repa upp ett varv? Kom ihåg att klicka tillbaka. Cylinderformade räknare är dessutom pilliga att vrida bakåt, eftersom du måste vrida den inre ringen försiktigt utan att snurra den yttre. Glömmer du det är siffran fel, utan något sätt att kontrollera.
 
-De kan inte följa flera saker samtidigt. En tröja kan behöva totalt varvantal, position i en flätrapport och nästa minskningsvarv. En mekanisk räknare klarar en av dem.
+Med enkla fysiska räknare med ett enda räkneverk behöver du flera räknare eller extra anteckningar för att följa flera saker samtidigt. En tröja kan behöva totalt varvantal, position i en flätrapport och nästa minskningsvarv. En mekanisk räknare klarar en av dem.
 
 De råkar vridas. Släng projektpåsen i bilen, vredet flyttar sig, och nu tittar du på en siffra som kanske stämmer och kanske inte. Cylindermodellen passar dessutom inte rundstickor, vilket är hur de flesta plagg stickas. Hängen och bordsräknare löser stickproblemet men skapar sin egen friktion.
 
@@ -67,7 +67,7 @@ Alla projekt med formning. Tröjor, mössor med toppminskningar, sockor med häl
 
 Flera aktiva projekt. Tre eller fler WIP:ar, var och en med sitt eget varvantal och sin egen mönsterposition. En digital översikt över alla slår alternativet att rota i påsar och kontrollera post-it-lappar.
 
-Komplexa strukturmönster. Flätor, spets, flerfärgsstickning. Att tappa bort sig i en rapport blir dyrt. Flera räknare som följer olika delar av mönstret är något fysiska räknare inte klarar alls.
+Komplexa strukturmönster. Flätor, spets, flerfärgsstickning. Att tappa bort sig i en rapport blir dyrt. Flera digitala räknare håller de olika räkningarna samlade; med enkla fysiska räknare behövs separata räknare eller anteckningar för samma sak.
 
 Långvariga projekt. En tröja som tar månader har nytta av sparat läge och passhistorik. Du kan se att du senast arbetade med den i tisdags, att du var på varv 47 och att nästa minskning kommer på varv 52. En klickräknare säger "47" och inget mer.
 

@@ -72,7 +72,7 @@ When you're running multiple projects, yarn logistics get tangled. Which project
 
 Keeping track of yarn by project (how much you started with, how much remains) prevents the two worst outcomes: running out mid-project with a discontinued dye lot, and buying duplicates because you forgot what you already had.
 
-A useful trick for active projects: weigh remaining yarn every few sessions and write the gram count somewhere with the date. A sweater sleeve that used 47 g tells you exactly how much the second sleeve needs, plus a small buffer. This converts vague "I think I have enough" into a concrete yes or no.
+A useful trick for active projects: weigh remaining yarn every few sessions and write the gram count somewhere with the date. A sweater sleeve that used 47 g gives you a useful estimate for a matching second sleeve, but allow a buffer for normal variation. This turns "I think I have enough" into a more concrete planning check.
 
 Saving yarn label details means the weight, fiber content, care instructions, and dye lot stay accessible even after the physical label detaches from the skein. KnitTools is being built to keep those notes with the project they belong to.
 

@@ -75,7 +75,7 @@ Kun projekteja on monta, lankalogistiikka sotkeutuu. Mitkä projektit käyttäv�
 
 Langan seuraaminen projektikohtaisesti, paljonko aloitit ja paljonko on jäljellä, estää kaksi pahinta lopputulosta: lanka loppuu kesken, kun värjäyserää ei enää saa, tai ostat tuplia, koska et muista mitä sinulla jo on.
 
-Hyvä aktiivisen projektin niksi: punnitse jäljellä oleva lanka muutaman session välein ja kirjoita grammamäärä ylös päivämäärän kanssa. Jos ensimmäinen hiha käytti 47 g, tiedät paljonko toinen hiha tarvitsee, pienen varan kanssa. "Luulen että riittää" muuttuu konkreettiseksi kyllä- tai ei-vastaukseksi.
+Hyvä aktiivisen projektin niksi: punnitse jäljellä oleva lanka muutaman session välein ja kirjoita grammamäärä ylös päivämäärän kanssa. Jos ensimmäinen hiha käytti 47 g, saat siitä hyödyllisen arvion vastaavan toisen hihan langantarpeesta, mutta varaa hieman ylimääräistä normaalia vaihtelua varten. "Luulen että riittää" muuttuu konkreettisemmaksi suunnittelutarkistukseksi.
 
 Kirjoita lankatiedot talteen silloin, kun vyöte on vielä käsillä: vahvuus, kuitusisältö, hoito-ohjeet ja värjäyserä. [KnitTools](/fi/tyokalut/#join)-sovellusta rakennetaan pitämään nämä muistiinpanot sen projektin yhteydessä, johon ne kuuluvat, jolloin tieto ei elä irrallisena paperinpalana projektipussin pohjalla.
 

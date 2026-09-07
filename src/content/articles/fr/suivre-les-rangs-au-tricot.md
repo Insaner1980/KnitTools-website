@@ -50,7 +50,7 @@ Ce n'est pas exactement une méthode de suivi. C'est plutôt une méthode de ré
 
 En jersey, les mailles endroit forment des V visibles sur l'endroit. Chaque V correspond à un rang. Le point mousse forme des crêtes, et chaque crête représente deux rangs. Les côtes sont plus difficiles à lire, mais restent comptables avec de la patience.
 
-Dans les points fantaisie, le motif donne souvent des points d'ancrage. Une torsade croisée tous les 8 rangs permet de compter les croisements et de retrouver le rang. Une dentelle comporte souvent un rang distinctif, avec jetés ou transition, visible depuis l'endroit.
+Dans les points fantaisie, le motif donne souvent des points d'ancrage. Une torsade croisée tous les 8 rangs fournit des repères visibles dans le tissu ; pour retrouver le rang actuel, pars d'un croisement dont tu connais le numéro, puis compte les rangs tricotés depuis ce repère. Une dentelle comporte souvent un rang distinctif, avec jetés ou transition, visible depuis l'endroit.
 
 C'est une compétence qui vaut la peine d'être développée, quelle que soit la méthode de suivi utilisée. Le compteur donne le nombre. Lire le tissu te dit si ce nombre semble cohérent. Le guide pour [lire un modèle de tricot](/fr/articles/lire-un-modele-de-tricot/) explique aussi comment les instructions de rangs et les répétitions se combinent.
 

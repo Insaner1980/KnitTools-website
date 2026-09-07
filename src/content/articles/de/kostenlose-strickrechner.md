@@ -91,7 +91,7 @@ Maschenanschlag und Maschenproben-Umrechnung brauchen eine Messung aus deiner Ma
 
 **Warum nicht einfach von Hand rechnen?**
 
-Du kannst. Maschenprobe mal Breite, fertig. Der Vorteil des Rechners ist, dass er Musterrapporte, Rundungsregeln und Restverteilung sauber behandelt, besonders wenn du im Garnladen mit drei Knäueln in der Hand entscheidest und dein Muster über 7 Maschen läuft.
+Du kannst. Der Rechner führt die Berechnung aus Maschenprobe und Breite durch und rundet das Ergebnis auf die nächstgelegene gerade Maschenzahl. Bei einem Muster mit 7-Maschen-Rapport passt du das Ergebnis von Hand so an, dass die Mustermaschen vollständige Rapporte ergeben; Randmaschen rechnest du separat ein.
 
 **Wie genau ist eine Garnschätzung, wenn ich noch keine Maschenprobe gestrickt habe?**
 

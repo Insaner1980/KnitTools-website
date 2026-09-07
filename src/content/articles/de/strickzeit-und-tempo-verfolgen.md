@@ -25,7 +25,7 @@ Strickzeit zu verfolgen macht aus Eindrücken Daten. Wie viele Stunden im Pullov
 
 Drei Gründe, in der Reihenfolge, in der sie sich bemerkbar machen.
 
-**Projektplanung wird realistischer.** Wenn du weißt, dass eine Worsted-Mütze bei dir etwa 8 Stunden dauert, kannst du die Zeit für einen Pullover besser einschätzen. Wenn der Mützenkörper 15 cm glatt rechts war und 45 Minuten pro 2,5 cm gebraucht hat, liegt ein 38-cm-Pulloverkörper mit derselben Maschenprobe zumindest in der richtigen Größenordnung. Nicht perfekt, weil Formgebung und Nähte Zeit addieren, aber eine Größenordnung ist besser als keine Ahnung.
+**Projektplanung wird realistischer.** Wenn du weißt, dass eine Worsted-Mütze bei dir etwa 8 Stunden dauert, kann das die Zeitschätzung für einen Pullover unterstützen, aber du musst die unterschiedlichen Maße berücksichtigen. Wenn der Mützenkörper 15 cm glatt rechts war und 45 Minuten pro 2,5 cm gebraucht hat, musst du für einen 38-cm-Pulloverkörper bei gleicher Maschen- und Reihenprobe zusätzlich nach der relativen Maschenzahl pro Reihe oder Runde skalieren. Formgebung und Fertigstellung brauchen weitere Zeit.
 
 **Du bemerkst Verlangsamung, bevor sie zum Problem wird.** Wenn eine normale Sitzung bei einem Projekt 12 Reihen ergibt und es in einer Woche nur 6 sind, hat sich etwas geändert. Vielleicht wurde das Muster schwieriger. Vielleicht kämpfst du mit dem Garn. Vielleicht hat sich deine Spannung verschoben und du kompensierst unbewusst. Die Zahlen zeigen den Wechsel, bevor du drei weitere Sitzungen damit verbringst, dich über zähen Fortschritt zu wundern.
 
@@ -51,7 +51,7 @@ Ein Strickzeit-Tracker in einer Projektverwaltungs-App automatisiert die Punkte,
 
 Die [KnitTools-App](/de/werkzeuge/#join) wird mit Sitzungsverfolgung entwickelt, die zum [Reihenzähler](/de/artikel/reihen-beim-stricken-zaehlen/) gehört. Der geplante Ablauf ist einfach: Reihen zählen, Sitzung speichern und Datum, Dauer, fertige Reihen sowie Reihen pro Stunde beim Projekt behalten. Mit der Zeit entsteht ein Verlauf pro Projekt und über alle Projekte hinweg.
 
-Der Vorteil gegenüber manuellen Methoden ist Konsistenz. Du tippst ohnehin den Reihenzähler, also passiert die Zeiterfassung als Nebenwirkung. Kein separater Timer, kein Notizbuch, keine Tabelle. Die Daten sammeln sich, auch wenn du nicht daran denkst.
+In KnitTools startest und stoppst du Arbeitssitzungen ausdrücklich innerhalb des Reihenzähler-Ablaufs; aufgezeichnete Sitzungen bleiben mit dem Projekt verknüpft. Tippen auf den Reihenzähler startet die Zeiterfassung nicht automatisch.
 
 ## Was die Daten wirklich sagen
 
@@ -67,7 +67,7 @@ Diese Zahlen schwanken stark zwischen Menschen. Der nützliche Vergleich ist nic
 
 Ein Pullover braucht nicht pro Zentimeter gleich viel Zeit. Der Körper in glatt rechts läuft schnell. Die Passe mit Jacquard oder Zöpfen bremst. Ärmel auf Nadelspiel oder Magic Loop sind langsamer als der Körper auf langer Rundstricknadel, weil das Handling fummeliger ist.
 
-Sitzungsverlauf zeigt diese Unterschiede. Wenn der Körper 20 Stunden brauchte und die Passe 15 Stunden für halb so viele Reihen, war die Passe pro Reihe doppelt so langsam. Das hilft beim nächsten Pullover mit Passe.
+Sitzungsverlauf zeigt diese Unterschiede. Wenn der Körper 20 Stunden brauchte und die Passe 15 Stunden für halb so viele Reihen, war die durchschnittliche Zeit pro Passenreihe 50 % länger, also 1,5-mal so lang. Das hilft beim nächsten Pullover mit Passe.
 
 ### Tempoentwicklung über Zeit
 
@@ -85,7 +85,7 @@ Vergleiche deine Zahlen nicht mit anderen. Handgröße, Strickstil, Garnvorliebe
 
 Verfolge nur so genau, wie es nützlich ist. Sitzungsdaten, also Dauer und Reihen, reichen meistens. Zeit pro Reihe ist übertrieben, außer du untersuchst ein bestimmtes Problem.
 
-Wenn Tracking sich wie Arbeit anfühlt statt wie ein Werkzeug, hör auf. Daten lohnen sich nur, wenn du sie nutzt. Ein automatischer Stricksitzungs-Tracker, etwa im Reihenzähler eingebaut, hat die geringste Reibung. Eine manuelle Tabelle, die wochenlang nicht gepflegt wird, hilft nicht.
+Wenn Tracking sich wie Arbeit anfühlt statt wie ein Werkzeug, hör auf. Daten lohnen sich nur, wenn du sie nutzt. Ein integrierter Tracker wie KnitTools hält die Sitzungssteuerung nahe am Reihenzähler, aber du musst jede Sitzung selbst starten und stoppen. Eine manuelle Tabelle, die wochenlang nicht gepflegt wird, hilft nicht.
 
 ## Zeittracking und Projektverwaltung verbinden
 

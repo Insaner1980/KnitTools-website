@@ -29,7 +29,7 @@ Den klassiske mekaniske tæller er en lille tønde, der sættes på enden af en 
 
 **Hvad de gør godt.** Ingen opsætning. Tag den op af skuffen, klik, færdig. Ingen konto, ingen app, ingen læringskurve. Det fysiske klik bliver en del af strikkerytmen, og nogle strikkere synes, den taktile feedback er rarere end at trykke på en skærm. De virker uden strøm, er ligeglade med skærmglans og er som regel billige.
 
-**Hvor de kommer til kort.** De tæller én ting i én retning. Skal du trevle en pind op? Så skal du huske at klikke tilbage, og tøndeformede tællere er besværlige at dreje baglæns uden at flytte det forkerte hjul. Glemmer du det, er tallet forkert uden nogen måde at tjekke det på.
+**Hvor de kommer til kort.** En enkel fysisk tæller kan registrere ét tal, men gemmer ikke automatisk en historik over optællingen. Skal du trevle en pind op? Så skal du huske at klikke tilbage, og tøndeformede tællere er besværlige at dreje baglæns uden at flytte det forkerte hjul. Glemmer du det, er tallet forkert uden nogen måde at tjekke det på.
 
 De kan ikke følge flere ting samtidig. En sweater kan kræve samlet pindetal, placering i en snoningsrapport og næste indtagningspind. En fysisk tæller klarer én af dem.
 
@@ -67,7 +67,7 @@ Alle projekter med formgivning. Sweatre, huer med topindtagninger, strømper med
 
 Flere aktive projekter. Tre eller flere WIP'er, hver med eget pindetal og position i opskriften. Et digitalt projektværktøj, der viser dem samlet, slår alternativet med at rode i poser og tjekke sedler.
 
-Komplekse maskemønstre. Snoninger, hulmønster, mønsterstrik. At miste stedet i en rapport kan koste dyrt. Flere tællere, der følger forskellige dele af mønsteret, er noget fysiske tællere slet ikke kan.
+Komplekse maskemønstre. Snoninger, hulmønster, mønsterstrik. At miste stedet i en rapport kan koste dyrt. Flere digitale tællere holder de forskellige tal samlet; med enkle fysiske tællere kræver samme løsning separate tællere eller noter.
 
 Langvarige projekter. En sweater der tager måneder, har glæde af gemte data og sessionshistorik. Du kan se, at du sidst arbejdede på den tirsdag, du var på pind 47, og næste indtagning er på pind 52. En klikker fortæller dig "47" og intet andet.
 

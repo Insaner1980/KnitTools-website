@@ -24,7 +24,7 @@ Neulonta-ajan seuraaminen muuttaa tuntumat oikeaksi dataksi. Montako tuntia vill
 
 Kolme syytä, siinä järjestyksessä kuin ne alkavat hyödyttää.
 
-**Projektisuunnittelu muuttuu realistisemmaksi.** Kun tiedät, että worsted-vahvuinen pipo vie sinulta noin 8 tuntia, villapaidan aikataulua voi alkaa arvioida. Jos pipon vartalo oli 15 cm sileää neuletta ja se vei 45 minuuttia per 2,5 cm, 38 cm villapaidan vartalo samalla neuletiheydellä osuu ainakin oikeaan suuruusluokkaan. Ei täydellisesti, koska muotoilut ja saumaaminen lisäävät aikaa, mutta suuruusluokka voittaa "ei mitään käsitystä".
+**Projektisuunnittelu muuttuu realistisemmaksi.** Kun tiedät, että worsted-vahvuinen pipo vie sinulta noin 8 tuntia, tieto auttaa villapaidan ajan arvioinnissa, mutta kappaleiden eri mitat pitää huomioida. Jos pipon vartalo oli 15 cm sileää neuletta ja siihen kului 45 minuuttia per 2,5 cm, 38 cm pitkän villapaidan vartalon arviointi samalla silmukka- ja kerrostiheydellä edellyttää myös pipon ja villapaidan kerroskohtaisten silmukkamäärien suhteuttamista. Muotoilut ja viimeistely lisäävät aikaa.
 
 **Huomaat hidastumiset ennen kuin niistä tulee ongelmia.** Jos tavallinen sessiosi tuottaa projektissa 12 kerrosta ja yhtenä viikkona määrä putoaa kuuteen, jokin muuttui. Ehkä silmukkamalli vaikeutui. Ehkä lanka taistelee vastaan. Ehkä kireys muuttui ja kompensoit sitä huomaamatta. Numerot nostavat muutoksen näkyviin ennen kuin käytät kolme lisäsessiota ihmetellen, miksi työ tuntuu tahmealta.
 
@@ -50,7 +50,7 @@ Projektinhallintasovellukseen rakennettu neulonta-ajan seuranta automatisoi ne k
 
 [KnitTools-sovellusta](/fi/tyokalut/#join) rakennetaan niin, että sessioseuranta liittyy [kerroslaskuriin](/fi/artikkelit/kerrosten-seuraaminen-neuloessa/). Tarkoitettu työnkulku on yksinkertainen: laske kerroksia, tallenna sessio ja pidä päivä, kesto, valmistuneet kerrokset sekä kerrokset tunnissa projektin yhteydessä. Ajan myötä tästä kertyy historia per projekti ja kaikkien projektien yli.
 
-Etuna manuaalisiin tapoihin verrattuna on johdonmukaisuus. Napautat jo kerroslaskuria, joten ajan seuranta tapahtuu sivutuotteena. Ei erillistä ajastinta, ei päivitettävää muistikirjaa, ei ylläpidettävää taulukkoa. Data kertyy, vaikka et ajattele sitä.
+KnitTools-sovelluksessa työskentelysessio aloitetaan ja lopetetaan erikseen kerroslaskurin työnkulussa, ja tallennetut sessiot pysyvät projektiin liitettyinä. Kerroslaskurin napautukset eivät käynnistä ajan seurantaa automaattisesti.
 
 ## Mitä data oikeasti kertoo
 
@@ -66,7 +66,7 @@ Nämä luvut vaihtelevat valtavasti neulojien välillä. Hyödyllinen vertailu e
 
 Villapaita ei vie yhtä tasaista aikaa per sentti. Sileä vartalo etenee nopeasti. Kaarroke kirjoneuleella tai palmikoilla hidastaa. Hihat sukkapuikoilla tai magic loopilla ovat hitaampia kuin vartalo pitkällä pyöröpuikolla, koska asettelu on näpertelyä.
 
-Sessioseuranta näyttää nämä erot. Jos vartalo vei 20 tuntia ja kaarroke 15 tuntia puolilla kerroksilla, kaarroke oli per kerros kaksinkertaisesti hitaampi. Se on hyödyllinen tieto seuraavaa kaarrokepaitaa varten.
+Sessioseuranta näyttää nämä erot. Jos vartalo vei 20 tuntia ja kaarroke 15 tuntia puolella vartalon kerrosmäärästä, yhteen kaarrokekerrokseen kului keskimäärin 50 % enemmän aikaa eli 1,5 kertaa niin kauan. Se on hyödyllinen tieto seuraavaa kaarrokepaitaa varten.
 
 ### Nopeuden kehittyminen ajan myötä
 
@@ -84,7 +84,7 @@ Hyödyllisen datan ja haitallisen itsetarkkailun välissä on raja. Muutama ohje
 
 Seuraa sillä tarkkuudella, josta on hyötyä. Sessiodata, eli kesto ja kerrokset, riittää useimpiin tarkoituksiin. Kerroskohtainen ajanotto on liikaa, ellei selvitä jotain tiettyä ongelmaa.
 
-Jos seuranta tuntuu työltä eikä työkalulta, lopeta. Data on keräämisen arvoista vain, jos käytät sitä. Automaattisesti toimiva neulesessioseuranta, esimerkiksi kerroslaskuriin rakennettu, on kitkattomin. Käsin täytettävä taulukko, joka jää viikoiksi päivittämättä, ei auta.
+Jos seuranta tuntuu työltä eikä työkalulta, lopeta. Data on keräämisen arvoista vain, jos käytät sitä. Integroitu seuranta, kuten KnitTools, pitää session aloitus- ja lopetustoiminnot kerroslaskurin lähellä, mutta jokainen sessio pitää silti aloittaa ja lopettaa erikseen. Käsin täytettävä taulukko, joka jää viikoiksi päivittämättä, ei auta.
 
 ## Aikaseuranta osana projektinhallintaa
 

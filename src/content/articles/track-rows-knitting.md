@@ -48,7 +48,7 @@ Not a tracking method exactly. More of a recovery method. When you lose count, b
 
 Stockinette has visible V-shapes on the right side. Each V is one row. Garter stitch forms ridges, each ridge two rows. Ribbing is harder to read but still countable with patience.
 
-For pattern stitches, the pattern itself usually gives you anchors. A cable cross every 8 rows means counting cables and multiplying by 8 to find your row. Lace patterns often have a distinctive row (an eyelet row or a transition row) that's easy to spot from the front.
+For pattern stitches, the pattern itself usually gives you anchors. For cables crossed every 8 rows, take the row number of the first cross, add 8 for each subsequent cross, then add any rows worked since the last cross. Lace patterns often have a distinctive row (an eyelet row or a transition row) that's easy to spot from the front.
 
 Worth developing as a skill regardless of what other tracking method you use. The counter tells you the number. Reading the fabric tells you whether that number looks right.
 

@@ -75,7 +75,7 @@ Wenn mehrere Projekte laufen, verheddert sich die Garnlogistik. Welche Projekte 
 
 Garn projektbezogen zu verfolgen, also Startmenge und Restmenge, verhindert zwei schlechte Ergebnisse: Garn geht mitten im Projekt aus, wenn die Farbpartie verschwunden ist, oder du kaufst doppelt, weil du vergessen hast, was du hast.
 
-Ein nützlicher Trick für aktive Projekte: Wiege das übrige Garn alle paar Sitzungen und notiere Grammzahl und Datum. Wenn ein Ärmel 47 g gebraucht hat, weißt du genau, was der zweite Ärmel ungefähr braucht, plus etwas Reserve. Aus „ich glaube, es reicht“ wird ein konkretes Ja oder Nein.
+Ein nützlicher Trick für aktive Projekte: Wiege das übrige Garn alle paar Sitzungen und notiere Grammzahl und Datum. Wenn ein Ärmel 47 g gebraucht hat, liefert das eine nützliche Schätzung für den passenden zweiten Ärmel; plane wegen normaler Schwankungen etwas Reserve ein. Aus „ich glaube, es reicht“ wird eine konkretere Planungsgrundlage.
 
 Notiere die Garninformationen, solange die Banderole noch da ist: Garnstärke, Materialzusammensetzung, Pflegehinweise und Farbpartie. Die [KnitTools-App](/de/werkzeuge/#join) wird dafür gebaut, solche Notizen beim passenden Projekt zu halten, statt sie als losen Zettel im Projektbeutel verschwinden zu lassen.
 

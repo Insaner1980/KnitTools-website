@@ -51,7 +51,7 @@ Ikke en tællemetode præcis. Mere en redningsmetode. Når du mister tallet, kan
 
 Glatstrik har tydelige V-formede masker på retsiden. Hvert V er én pind. Retstrik danner riller, og hver rille er to pinde. Rib er sværere at læse, men kan stadig tælles med lidt tålmodighed.
 
-I maskemønstre giver mønsteret ofte sine egne ankre. En snoning der krydses hver 8. pind, kan tælles via snoningskrydsene og ganges med 8. Hulmønstre har ofte en tydelig pind, for eksempel en omslagspind eller overgangspind, som er let at se fra retsiden.
+I maskemønstre giver mønsteret ofte sine egne ankre. Ved en snoning, der krydses hver 8. pind, kan krydsene bruges som synlige pejlemærker, hvis du kender pindenummeret for ét af dem og tæller videre derfra. Hulmønstre har ofte en tydelig pind, for eksempel en omslagspind eller overgangspind, som er let at se fra retsiden.
 
 Værd at lære uanset hvilken anden metode du bruger. Tælleren fortæller tallet. Stoffet fortæller, om tallet ser rigtigt ud.
 

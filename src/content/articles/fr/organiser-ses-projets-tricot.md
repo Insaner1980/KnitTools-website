@@ -76,7 +76,7 @@ Quand tu as plusieurs projets en cours, la logistique du fil s'emmêle. Quels pr
 
 Suivre le fil par projet, combien tu avais au départ, combien il reste, évite les deux pires résultats : manquer en plein milieu avec un bain introuvable, et acheter des doublons parce que tu as oublié ce que tu avais déjà.
 
-Un bon réflexe pour les projets actifs : peser le fil restant toutes les quelques séances et noter le nombre de grammes avec la date. Si la première manche a utilisé 47 g, tu sais à peu près ce que la seconde demandera, avec une petite marge. "Je crois que ça suffit" devient un oui ou non concret.
+Un bon réflexe pour les projets actifs : peser le fil restant toutes les quelques séances et noter le nombre de grammes avec la date. Si la première manche a utilisé 47 g, tu sais à peu près ce que la seconde demandera, avec une petite marge. "Je crois que ça suffit" devient une vérification plus concrète pour planifier.
 
 Note les informations de la banderole pendant qu'elle existe encore : épaisseur de fil, composition, consignes d'entretien et bain. KnitTools se développe pour garder ces notes avec le bon projet, au lieu d'une feuille volante au fond du sac.
 

@@ -76,7 +76,7 @@ Når du har flere prosjekter, floker garnlogistikken seg. Hvilke prosjekter bruk
 
 Å følge garn per prosjekt, hvor mye du startet med og hvor mye som gjenstår, hindrer de to verste utfallene: gå tom midt i prosjekt med utgått fargeparti, og kjøpe dobbelt fordi du glemte hva du hadde.
 
-Et godt knep for aktive prosjekter: vei garnet som er igjen med noen økters mellomrom og skriv ned gramantallet med dato. Hvis den første ermen brukte 47 g, vet du omtrent hva den andre ermen trenger, pluss litt margin. "Jeg tror det holder" blir et konkret ja eller nei.
+Et godt knep for aktive prosjekter: vei garnet som er igjen med noen økters mellomrom og skriv ned gramantallet med dato. Hvis den første ermen brukte 47 g, vet du omtrent hva den andre ermen trenger, pluss litt margin. "Jeg tror det holder" blir en mer konkret planleggingssjekk.
 
 Skriv ned garninformasjonen mens banderolen fortsatt finnes: garntykkelse, fiberinnhold, vaskeanvisning og fargeparti. KnitTools utvikles for å holde slike notater sammen med riktig prosjekt, i stedet for at de blir en løs lapp nederst i prosjektposen.
 

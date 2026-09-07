@@ -29,9 +29,9 @@ Den klassiske mekaniske telleren er en liten sylinder som passer på enden av en
 
 **Det de gjør godt.** Ingen oppsett. Ta den ut av skuffen, klikk, ferdig. Ingen konto, ingen app, ingen læringskurve. Det fysiske klikket blir en del av strikkerytmen, og noen synes den taktile tilbakemeldingen er mer tilfredsstillende enn å trykke på skjerm. De fungerer uten strøm, bryr seg ikke om skjermrefleks og er vanligvis billige.
 
-**Hvor de kommer til kort.** De teller én ting om gangen, uten historikk. Må du rekke opp en pinne? Husk å klikke tilbake. Tønneformede tellere er dessuten fiklete å reversere. Glemmer du det, er tallet feil uten at du kan sjekke.
+**Hvor de kommer til kort.** En enkel fysisk teller registrerer ett tall og fører ikke automatisk noen tellehistorikk. Må du rekke opp en pinne? Husk å klikke tilbake. Tønneformede tellere er dessuten fiklete å reversere. Glemmer du det, er tallet feil uten at du kan sjekke.
 
-De kan ikke følge flere ting samtidig. En genser kan trenge totalt pinneantall, posisjon i en flettet rapport og neste fellingspinne. En fysisk teller håndterer én av dem.
+Med enkle fysiske tellere som registrerer ett tall, krever det flere tellere eller ekstra notater å følge flere ting samtidig. En genser kan trenge totalt pinneantall, posisjon i en flettet rapport og neste fellingspinne. Én fysisk teller håndterer én av dem.
 
 De blir dyttet på. Sleng prosjektposen i bilen, hjulet flytter seg, og nå ser du på et tall som kanskje stemmer. Tønnevarianten passer heller ikke rundpinner, som er det de fleste plagg strikkes på. Hengende eller bordstående tellere løser pinneproblemet, men ikke problemet med flere tall, angre eller prosjektminne.
 
@@ -67,7 +67,7 @@ Alle prosjekter med forming. Gensere, luer med toppfelling, sokker med hælvendi
 
 Flere aktive prosjekter. Tre eller flere WIP-er, hver med sitt eget tall og sin egen posisjon i oppskriften. En digital tracker som viser alle, slår alternativet med å lete gjennom poser og sjekke lapper.
 
-Kompliserte maskemønstre. Fletter, hullmønster, mønsterstrikk. Å miste plassen i en rapport er dyrt. Flere tellere som følger ulike deler av mønsteret, er noe fysiske tellere ikke kan gjøre.
+Kompliserte maskemønstre. Fletter, hullmønster, mønsterstrikk. Å miste plassen i en rapport er dyrt. Flere digitale tellere holder disse tellingene samlet. Med enkle fysiske tellere trenger du separate tellere eller notater for å gjøre det samme.
 
 Langtidsprosjekter. En genser som tar måneder, har nytte av lagring og økthistorikk. Du kan se at du sist jobbet på den tirsdagen, at du var på pinne 47, og at neste felling er på pinne 52. En klikkteller sier "47" og ingenting mer.
 

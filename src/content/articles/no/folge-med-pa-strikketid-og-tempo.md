@@ -25,7 +25,7 @@ De fleste strikkere har en vag følelse av hvor lang tid prosjekter tar. "Genser
 
 Tre grunner, i rekkefølge etter hvor raskt de gir verdi.
 
-**Prosjektplanlegging blir realistisk.** Når du vet at en worsted-lue tar deg omtrent 8 timer, blir tidslinjen for en genser mulig å anslå. Hvis luekroppen var 15 cm glattstrikk med 45 minutter per 2,5 cm, er en genserbol på 38 cm i samme strikkefasthet i hvert fall i riktig størrelsesorden. Ikke nøyaktig, fordi forming og montering legger til tid, men et anslag slår "ingen idé".
+**Prosjektplanlegging blir realistisk.** Når du vet at en lue i worsted-garn tar omtrent 8 timer, kan det hjelpe deg å anslå tidsbruken for en genser, men du må også ta hensyn til de ulike målene. Hvis luebolen var 15 cm glattstrikk med 45 minutter per 2,5 cm, må et anslag for en 38 cm lang genserbol med samme strikkefasthet i både masker og pinner også skaleres etter hvor mange masker hvert stykke har per pinne eller omgang. Forming og montering tar ekstra tid.
 
 **Du merker treghet før den blir et problem.** Hvis en vanlig økt gir 12 pinner på et prosjekt, og én uke faller det til 6, har noe endret seg. Kanskje maskemønsteret ble vanskeligere. Kanskje du kjemper med garnet. Kanskje strikkefastheten drev og du ubevisst kompenserer. Tallene flagger skiftet før du bruker tre økter til på å lure på hvorfor prosjektet føles tungt.
 
@@ -51,7 +51,7 @@ En strikketidssporing bygget inn i en prosjektapp automatiserer det manuelle met
 
 [KnitTools](/no/verktoy/#join) utvikles med øktsporing koblet til [omgangstelleren](/no/artikler/holde-styr-pa-pinner-og-omganger/). Den tiltenkte flyten er enkel: tell pinner eller omganger, lagre økten og behold dato, varighet, fullførte pinner eller omganger og tempo sammen med prosjektet. Over tid bygges historikk per prosjekt og på tvers av prosjekter.
 
-Fordelen over manuelle metoder er konsistens. Du bruker allerede telleren, så tidsmålingen skjer i samme arbeidsflyt. Ingen egen timer å starte, ingen notatbok å oppdatere, ingen regneark å vedlikeholde. Dataene samler seg uten at du må gjøre et ekstra moment av det.
+Fordelen over manuelle metoder er konsistens. I KnitTools starter og stopper du hver arbeidsøkt selv i samme arbeidsflyt som omgangstelleren. Trykk på omgangstelleren starter ikke tidsmålingen automatisk, og registrerte økter blir knyttet til prosjektet.
 
 ## Hva dataene faktisk forteller
 
@@ -67,7 +67,7 @@ Tallene varierer mye mellom strikkere. Den nyttige sammenligningen er ikke farte
 
 En genser tar ikke like lang tid per centimeter hele veien. Bolen i glattstrikk går fort. Bærestykke med mønsterstrikk eller fletter går saktere. Ermer på strømpepinner eller magic loop er tregere enn bol på lang rundpinne fordi oppsettet er mer fiklete.
 
-Øktsporing viser forskjellene. Hvis bolen tok 20 timer og bærestykket tok 15 for halvparten så mange pinner, var bærestykket dobbelt så sakte per pinne. Nyttig å vite til neste bærestykke.
+Øktsporing viser forskjellene. Hvis bolen tok 20 timer og bærestykket tok 15 for halvparten så mange pinner, var den gjennomsnittlige tiden per pinne i bærestykket 50 % lengre, altså 1,5 ganger så lang. Nyttig å vite til neste bærestykke.
 
 ### Tempoendring over tid
 

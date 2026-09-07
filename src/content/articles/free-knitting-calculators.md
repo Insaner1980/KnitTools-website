@@ -85,7 +85,7 @@ The arithmetic can be exact, but the useful answer depends on the inputs and the
 Cast-on math and gauge conversion both need a gauge measurement from your swatch. No shortcut around that. A yarn estimator can give a ballpark without gauge since it works from project type and yarn weight, but the estimate is rougher.
 
 **Why not just do the math by hand?**
-You can. Gauge times width, done. The calculator's advantage is handling pattern repeats, rounding constraints, and remaining-stitch distribution cleanly, especially when you're making decisions at the yarn store with three skeins in your hands and a stitch pattern that repeats over 7.
+You can. The calculator does the gauge-and-width calculation and rounds the result to the nearest even number. For a pattern with a 7-stitch repeat, adjust the result manually so the pattern stitches form complete repeats, with any edge stitches accounted for separately.
 
 **How accurate is a yarn estimate when I haven't swatched yet?**
 A pre-swatch yarn estimate is a planning range, not a promise. It is good enough to tell whether you are probably buying a few skeins or a sweater quantity, but not good enough to skip the buffer. After you swatch, compare your gauge and fabric behavior with the pattern or estimator, then add extra yarn if the project is large, textured, or dye-lot sensitive.

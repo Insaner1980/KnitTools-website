@@ -25,9 +25,9 @@ The classic mechanical counter is a small barrel that fits on the end of a strai
 
 **What they do well.** No setup. Pull it out of the drawer, click, done. No account, no app, no learning curve. The physical click becomes part of the knitting rhythm, and some knitters find that tactile feedback more satisfying than tapping a screen. They work without electricity, don't care about screen glare, and are usually inexpensive. Hard to argue with that.
 
-**Where they fall short.** They track one thing at a time, with no history. Need to undo a row? Remember to click back, and barrel-style counters are fiddly to reverse (you have to turn the inner ring carefully without spinning the outer one). Forget, and the count is wrong with no way to verify.
+**Where they fall short.** A basic single-count physical counter records one number and does not automatically keep a counting history. Need to undo a row? Remember to click back, and barrel-style counters are fiddly to reverse (you have to turn the inner ring carefully without spinning the outer one). Forget, and the count is wrong with no way to verify.
 
-They can't track multiple things at once. A sweater might need overall row count, position within a cable repeat, and the next decrease row. A physical counter handles one of those.
+With basic single-count physical counters, tracking several things requires multiple counters or additional notes. A sweater might need overall row count, position within a cable repeat, and the next decrease row. A physical counter handles one of those.
 
 They get bumped. Toss the project bag in the car, the dial shifts, and now you're looking at a number that may or may not be right. And the barrel style doesn't fit circular needles, which is how most garments get knit. Pendant or tabletop counters solve the needle problem but introduce their own friction.
 
@@ -63,7 +63,7 @@ Any project with shaping. Sweaters, hats with crown decreases, socks with heel t
 
 Multiple active projects. Three or more WIPs, each with their own row count and pattern position. A digital tracker that shows all of them beats the alternative of fishing through bags and checking sticky notes.
 
-Complex stitch patterns. Cables, lace, colorwork. Losing your place in a repeat is expensive. Multiple counters tracking different aspects of the pattern is something physical counters can't do at all.
+Complex stitch patterns. Cables, lace, colorwork. Losing your place in a repeat is expensive. Multiple digital counters keep those counts together; doing the same with basic physical counters requires separate counters or notes.
 
 Long-term projects. A sweater that takes months benefits from persistence and session history. You can see you last worked on it Tuesday, you were on row 47, the next decrease is at row 52. A clicker tells you "47" and nothing else.
 

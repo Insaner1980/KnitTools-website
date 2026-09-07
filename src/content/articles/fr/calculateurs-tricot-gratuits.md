@@ -89,7 +89,7 @@ L'arithmétique peut être exacte, mais la réponse utile dépend des données s
 Un calculateur de mailles à monter et un convertisseur d'échantillon demandent une mesure d'échantillon. Il n'y a pas de raccourci. Un estimateur de fil peut donner un ordre de grandeur sans échantillon parce qu'il part du type de projet et de l'épaisseur du fil, mais l'estimation est plus approximative.
 
 **Pourquoi ne pas faire les calculs à la main ?**  
-Tu peux. Échantillon multiplié par largeur, terminé. L'avantage du calculateur est de gérer proprement les répétitions de point, les contraintes d'arrondi et la répartition des mailles restantes, surtout quand tu décides dans un magasin avec trois pelotes dans les mains et un point qui se répète sur 7 mailles.
+Tu peux. Le calculateur fait le calcul à partir de l'échantillon et de la largeur, puis arrondit au nombre pair le plus proche. Pour un motif qui se répète sur 7 mailles, ajuste ensuite le résultat manuellement afin d'obtenir des répétitions complètes, en comptant les mailles lisières séparément.
 
 **Quelle est la précision d'une estimation de fil avant l'échantillon ?**
 Une estimation de fil avant échantillon est une plage de planification, pas une promesse. Elle suffit pour savoir si tu vas probablement acheter quelques pelotes ou une quantité pour pull, mais pas pour supprimer la marge de sécurité. Après l'échantillon, compare ta tension et le comportement du tissu avec le modèle ou l'estimation, puis ajoute du fil si le projet est grand, texturé ou sensible au bain.

@@ -76,7 +76,7 @@ Als je meerdere projecten tegelijk hebt, raakt de garenlogistiek snel in de knoo
 
 Garen per project bijhouden, hoeveel je had bij de start en hoeveel er over is, voorkomt de twee vervelendste uitkomsten: midden in een project zonder garen zitten terwijl het verfbad uit de collectie is, en dubbele aankopen doen omdat je vergeten bent wat je al had.
 
-Een goed trucje voor actieve projecten: weeg het resterende garen om de paar sessies en noteer het aantal gram met datum. Als de eerste mouw 47 g gebruikte, weet je ongeveer wat de tweede mouw nodig heeft, plus een kleine marge. "Ik denk dat ik genoeg heb" wordt een concreet ja of nee.
+Een goed trucje voor actieve projecten: weeg het resterende garen om de paar sessies en noteer het aantal gram met datum. Als de eerste mouw 47 g gebruikte, weet je ongeveer wat de tweede mouw nodig heeft, plus een kleine marge. Zo wordt "ik denk dat ik genoeg heb" een concretere inschatting voor je planning.
 
 Noteer gareninformatie terwijl het label er nog is: garendikte, vezelsamenstelling, wasvoorschrift en verfbad. KnitTools wordt gebouwd om zulke notities bij het juiste project te bewaren, in plaats van als los briefje onderin de projecttas.
 

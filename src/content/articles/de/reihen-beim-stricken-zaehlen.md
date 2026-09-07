@@ -51,7 +51,7 @@ Keine Tracking-Methode im engeren Sinn. Eher eine Rettungsmethode. Wenn die Zahl
 
 Glatt rechts zeigt auf der rechten Seite sichtbare V-Formen. Jedes V ist eine Reihe. Kraus rechts bildet Rippen, jede Rippe entspricht zwei Reihen. Rippenmuster ist schwerer zu lesen, aber mit Geduld zählbar.
 
-Bei Mustern gibt das Muster selbst oft Anker. Eine Zopfkreuzung alle 8 Reihen bedeutet: Zöpfe zählen und mit 8 multiplizieren. Lochmuster haben häufig eine auffällige Reihe, etwa eine Umschlagreihe oder eine Übergangsreihe, die sich von der rechten Seite gut erkennen lässt.
+Bei Mustern gibt das Muster selbst oft Anker. Bei einem Zopf, der alle 8 Reihen gekreuzt wird, nimmst du die Reihenzahl der ersten Kreuzung, addierst für jede weitere Kreuzung 8 und zählst anschließend die seit der letzten Kreuzung gestrickten Reihen hinzu. Lochmuster haben häufig eine auffällige Reihe, etwa eine Umschlagreihe oder eine Übergangsreihe, die sich von der rechten Seite gut erkennen lässt.
 
 Diese Fähigkeit lohnt sich unabhängig von der Methode, die du nutzt. Der Zähler sagt die Zahl. Das Gestrick sagt, ob die Zahl plausibel aussieht.
 

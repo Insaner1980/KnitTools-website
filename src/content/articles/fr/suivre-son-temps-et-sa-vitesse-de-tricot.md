@@ -24,7 +24,7 @@ Suivre le temps de tricot transforme ces impressions en données concrètes. Com
 
 Trois raisons paient vite.
 
-**La planification devient plus réaliste.** Si tu sais qu'un bonnet en fil worsted te prend environ 8 heures, tu peux commencer à estimer le calendrier d'un pull. Si le corps du bonnet faisait 15 cm de jersey à 45 minutes pour 2,5 cm, un corps de pull de 38 cm dans le même échantillon donne au moins un ordre de grandeur. Pas une certitude, parce que les mises en forme et l'assemblage ajoutent du temps, mais un ordre de grandeur vaut mieux que "aucune idée".
+**La planification devient plus réaliste.** Si tu sais qu'un bonnet en fil worsted te prend environ 8 heures, tu peux commencer à estimer le calendrier d'un pull. Si le corps du bonnet faisait 15 cm de jersey à 45 minutes pour 2,5 cm, estimer un corps de pull de 38 cm avec le même échantillon en mailles et en rangs demande aussi de tenir compte du nombre de mailles par rang ou par tour. Les mises en forme et l'assemblage ajoutent encore du temps.
 
 **Tu remarques les ralentissements avant qu'ils deviennent un problème.** Si une séance habituelle produit 12 rangs sur un projet et qu'une semaine elle tombe à 6, quelque chose a changé. Le point est peut-être plus exigeant. Le fil résiste peut-être. La tension a peut-être dérivé et tu compenses sans t'en rendre compte. Les chiffres signalent le changement avant que tu passes trois séances de plus à te demander pourquoi l'ouvrage semble lourd.
 
@@ -50,7 +50,7 @@ Un suivi du temps intégré à un outil de gestion de projet automatise les part
 
 [KnitTools](/fr/outils/#join) est en cours de développement avec un suivi de séance relié au [compteur de rangs](/fr/articles/suivre-les-rangs-au-tricot/). Le flux prévu est direct : compter les rangs ou les tours, enregistrer la séance, puis garder la date, la durée, les rangs ou tours terminés et le rythme avec le projet. Avec le temps, cela construit un historique par projet et sur l'ensemble des projets.
 
-L'avantage par rapport aux méthodes manuelles, c'est la régularité. Tu utilises déjà le compteur, donc le suivi du temps reste dans le même geste. Pas de minuteur séparé à lancer, pas de carnet à mettre à jour, pas de tableur à entretenir. Les données s'accumulent sans ajouter une deuxième tâche.
+L'avantage par rapport aux méthodes manuelles, c'est que les commandes de séance restent près du compteur de rangs. Tu dois toutefois démarrer et arrêter explicitement chaque séance ; les appuis sur le compteur ne lancent pas automatiquement le suivi du temps. Les séances enregistrées restent rattachées au projet.
 
 ## Ce que les données disent vraiment
 
@@ -66,7 +66,7 @@ Les chiffres varient énormément d'une personne à l'autre. La comparaison util
 
 Un pull ne prend pas le même temps par centimètre du début à la fin. Le corps en jersey peut avancer vite. L'empiècement avec jacquard ou torsades peut ralentir. Les manches sur aiguilles doubles pointes ou en magic loop peuvent aussi prendre plus de temps que le corps sur une longue aiguille circulaire, parce que la manipulation est plus contraignante.
 
-Le suivi des séances rend ces différences visibles. Si le corps a pris 20 heures et l'empiècement 15 heures pour deux fois moins de rangs, l'empiècement était deux fois plus lent par rang. C'est utile à savoir pour le prochain pull à empiècement.
+Le suivi des séances rend ces différences visibles. Si le corps a pris 20 heures et l'empiècement 15 heures pour la moitié du nombre de rangs, le temps moyen par rang de l'empiècement était 50 % plus long, soit 1,5 fois celui du corps. C'est utile à savoir pour le prochain pull à empiècement.
 
 ### Changement de rythme avec le temps
 

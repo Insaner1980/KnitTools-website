@@ -25,7 +25,7 @@ Når du registrerer strikketid, bliver mavefornemmelser til data. Hvor mange tim
 
 Tre grunde, i den rækkefølge de hurtigst betaler sig.
 
-**Projektplanlægning bliver realistisk.** Når du ved, at en hue i Worsted / Medium-garn tager dig omkring 8 timer, kan du begynde at estimere tidslinjen for en sweater. Hvis huens krop var 15 cm glatstrik ved 45 minutter pr. 2,5 cm, er en sweaterkrop på 38 cm ved samme strikkefasthed i det mindste i den rigtige størrelsesorden. Ikke præcist, fordi formgivning og sammensyning også tager tid, men en størrelsesorden slår "ingen anelse".
+**Projektplanlægning bliver realistisk.** Når du ved, at en hue i Worsted / Medium-garn tager dig omkring 8 timer, kan det hjælpe med et sweaterestimat, men du skal også tage højde for de forskellige mål. Hvis huens krop var 15 cm glatstrik ved 45 minutter pr. 2,5 cm, kræver et estimat for en sweaterkrop på 38 cm ved samme maske- og pindefasthed også, at du skalerer efter det relative antal masker pr. pind eller omgang. Formgivning og færdiggørelse tager også tid.
 
 **Du opdager opbremsninger før de bliver problemer.** Hvis en normal session giver 12 pinde på et projekt, og det en uge falder til 6, har noget ændret sig. Måske blev maskemønsteret sværere. Måske kæmper du med garnet. Måske har din strikkefasthed flyttet sig, og du kompenserer uden at lægge mærke til det. Tallene viser skiftet, før du bruger tre sessioner mere på at undre dig over, hvorfor projektet føles trægt.
 
@@ -67,7 +67,7 @@ Tallene varierer enormt fra strikker til strikker. Den nyttige sammenligning er 
 
 En sweater tager ikke lige lang tid pr. centimeter hele vejen. Kroppen i glatstrik går hurtigt. Bærestykket med mønsterstrik eller snoninger går langsommere. Ærmer på strømpepinde eller magic loop er langsommere end kroppen på en lang rundpind, fordi opsætningen er mere bøvlet.
 
-Sessionsregistrering viser forskellene. Hvis kroppen tog 20 timer, og bærestykket tog 15 for halvt så mange pinde, var bærestykket dobbelt så langsomt pr. pind. Det er nyttigt at vide til næste sweater med bærestykke.
+Sessionsregistrering viser forskellene. Hvis kroppen tog 20 timer, og bærestykket tog 15 timer for halvt så mange pinde, var den gennemsnitlige tid pr. pind på bærestykket 50 % længere, altså 1,5 gange så lang. Det er nyttigt at vide til næste sweater med bærestykke.
 
 ### Tempo over tid
 

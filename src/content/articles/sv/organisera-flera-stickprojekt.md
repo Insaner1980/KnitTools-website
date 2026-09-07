@@ -76,7 +76,7 @@ När du har flera projekt igång trasslar garnlogistiken lätt ihop sig. Vilka p
 
 Att hålla koll på garn per projekt, hur mycket du började med och hur mycket som finns kvar, förhindrar de två värsta scenarierna: att garnet tar slut mitt i ett projekt med ett utgånget färgbad, och att du köper dubbletter för att du glömt vad du redan hade.
 
-Ett bra knep för aktiva projekt: väg garnet som är kvar med några pass mellanrum och skriv upp gramantalet med datum. Om den första ärmen använde 47 g vet du ungefär vad den andra ärmen behöver, plus lite marginal. "Jag tror att det räcker" blir ett konkret ja eller nej.
+Ett bra knep för aktiva projekt: väg garnet som är kvar med några pass mellanrum och skriv upp gramantalet med datum. Om den första ärmen använde 47 g vet du ungefär vad den andra ärmen behöver, plus lite marginal. "Jag tror att det räcker" blir en mer konkret kontroll i planeringen.
 
 Skriv ner garninformationen medan banderollen fortfarande finns: garntjocklek, fiberinnehåll, tvättråd och färgbad. [KnitTools-appen](/sv/verktyg/#join) byggs för att hålla sådana anteckningar med rätt projekt, i stället för att de blir en lös lapp längst ner i projektpåsen.
 
