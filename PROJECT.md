@@ -57,6 +57,7 @@ Sivumäärän rakenne:
 | src/content.config.ts           | Artikkelien sisältöskeema                                                    |
 | src/i18n/routes.ts              | Lokalisoitujen reittien kanoninen lähde                                      |
 | src/i18n/articles.ts            | Artikkelikäännösten translationKey-paritus ja kategoriat                     |
+| src/i18n/navigation.ts          | Navigaation kielivaihtoehtojen suodatus ja lokalisointi                      |
 | src/i18n/ui.ts                  | Jaetut lokalisoidut käyttöliittymätekstit                                    |
 | src/i18n/tools.ts               | Footerin lokalisoidut työkalulinkit                                          |
 | src/lib/toolReferenceData.ts    | Puikko- ja lankavahvuustaulukoiden yhteinen numerodata                       |
@@ -77,7 +78,7 @@ Koodikannan tämänhetkinen suuruusluokka:
 - 63 Astro-sivutiedostoa
 - 6 selaimessa suoritettavaa TypeScript-skriptiä
 - 304 Markdown-artikkelia
-- 13 Node-testitiedostoa
+- 14 Node-testitiedostoa
 - 25 public-assettia
 
 Lukumäärät ovat toteutuksen rakennetta kuvaavia inventaariotietoja. Ne on laskettava uudelleen lähteestä, jos tiedostoja lisätään tai poistetaan; yksittäisen aiemman buildin tulostetta ei pidä käyttää nykytilan todisteena.
@@ -140,10 +141,11 @@ Sharp ei ole nykyinen suora riippuvuus. Kolmannen osapuolen riippuvuuksia ei tul
 | npm run test:cast-on   | Ajaa silmukkalaskurin tuotantologiikan ja simuloidun DOM-ohjaimen regressiotestit                              |
 | npm run test:yarn-labels | Ajaa Yarn Estimatorin lokalisointidatan lähdesopimukset ja valintaohjaimen simuloidun DOM:n regressiotestit   |
 | npm run test:design    | Ajaa design-token-, saavutettavuus-, komponenttisopimus-, heading-tyyli- ja puikkokokodatan pariteettitestit   |
+| npm run test:language-switcher | Buildaa sivuston ja testaa kielivaihtoehdot sekä näkyvän navigaatiointegraation                              |
 | npm run astro          | Nykyinen alias komennolle `npm run verify`; ei välitä Astro CLI -argumentteja                                  |
 | npm run test:seo       | Testaa SEO-auditiscriptien omaa käyttäytymistä                                                                 |
 | npm run test:security  | Testaa `_headers`- ja `robots.txt`-lähdesopimukset                                                             |
-| npm run verify         | Check, lint, format-check, article-, cast-on-, Yarn Estimator-, design- ja security-testit sekä build; ei aja `test:seo`:ta |
+| npm run verify         | Check, lint, format-check, article-, cast-on-, Yarn Estimator-, design-, security- ja kielenvaihtotestit sekä build; ei aja `test:seo`:ta |
 | npm run seo:audit      | Auditoi paikallisen dist-buildin                                                                               |
 | npm run seo:urls       | Vertaa paikallista ja tuotannon sitemapia                                                                      |
 | npm run seo:live       | Auditoi tuotannon sivut, sitemapin, robotsin ja linkit                                                         |
@@ -169,6 +171,7 @@ Testit käyttävät Node.js:n sisäänrakennettua `node:test`-runneria. Reposito
 | `scripts/design-token-hygiene.test.mjs` | Tokenit, kontrastiparit, waitlistin saavutettavuus, taulukko-ohjaimet, hinnoittelu, fontit, animaatiot ja komponenttisopimukset |
 | `scripts/page-heading-style.test.mjs`   | H1/eyebrow/back-link-tyylit, landing-copy, laskurin label-ID-suhde, englannin puikkohaun lähdesopimus, pricing ja WPI-syötteen reduced-motion/CSS-sopimus |
 | `scripts/needle-size-data-parity.test.mjs` | Jaetun puikkodatan JP 6 = 3,9 mm -invarianssi sekä saksan kaikkien numeromuunnosten ja norjan 3,0 ja 3,3 mm:n lankavahvuusluokkien pariteetti nykyiseen jaettuun dataan |
+| `scripts/language-switcher.test.mjs` | Reitti- ja artikkelivaihtoehdot, alias- ja `x-default`-suodatus, norjan `no`/`nb`-semantiikka sekä buildatun näkyvän Navbarin integraatio |
 | `scripts/seo-audit.test.mjs`            | Paikallisen build-auditin parserit, metadata, linkit, robots, kuvat, canonical/hreflang ja JSON-LD                              |
 | `scripts/live-seo-audit.test.mjs`       | Live-sitemap-, reitti- ja robots-parserit sekä Cloudflare-email-protection-poikkeus                                             |
 | `scripts/url-parity-audit.test.mjs`     | Paikallisen ja live-URL-joukon lisäykset, poistot ja raportointi                                                                |
@@ -487,7 +490,9 @@ Offers-solmuissa ei ole availability-arvoa, koska Google Play -tilaus tai lataus
 
 ### Navbar
 
-Navbarin mobiilityyli on aktiivinen enintään 640 pikselissä ja desktop-media query alkaa 641 pikselistä. Mobiilivalikko päivittää `data-menu-open`-, `menu-open`-, `aria-expanded`- ja toggle-label-tilat. Se sulkeutuu linkin valinnasta, Escape-näppäimellä, ulkopuolisesta klikkauksesta ja desktop-leveyteen siirryttäessä; Escape palauttaa fokuksen toggleen. Scrolled-tila aktivoituu yli 80 pikselin vierityksessä. Navbar on `position: fixed`, ja globaali `body` varaa sille 80 pikseliä yläpaddingia.
+Navbarin mobiilityyli on aktiivinen enintään 640 pikselissä ja desktop-media query alkaa 641 pikselistä. Mobiilivalikko päivittää `data-menu-open`-, `menu-open`-, `aria-expanded`- ja toggle-label-tilat. Se sulkeutuu linkin valinnasta, Escape-näppäimellä, ulkopuolisesta klikkauksesta ja breakpointin vaihtuessa; Escape palauttaa fokuksen toggleen. Scrolled-tila aktivoituu yli 80 pikselin vierityksessä. Navbar on `position: fixed`, ja globaali `body` varaa sille 80 pikseliä yläpaddingia.
+
+`PageLayout` välittää sivun olemassa olevan `alternates`-datan Navbarille. Navbar näyttää yhden responsiivisen, linkkipohjaisen kielivalinnan vain, kun renderöidyllä sivulla on vähintään yksi todellinen erikielinen vastine. Vaihtoehdot tulevat nykyisistä työkalu-, indeksi-, kategoria- tai `translationKey`-kartoituksista; nykyinen kieli merkitään `aria-current="page"`-attribuutilla. Sisäinen norjan avain säilyy `no`-muodossa ja näkyvien linkkien `lang`/`hreflang` käyttää Bokmålin `nb`-arvoa. Landing ja About eivät anna alternates-dataa, joten niillä ei ole kielivalintaa.
 
 Brändilinkki vie juureen /. Lokalisoitujen sivujen Join-linkki kohdistuu kielen omaan työkaluindexiin ja sen #join-ankkuriin.
 

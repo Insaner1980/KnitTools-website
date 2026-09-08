@@ -2,18 +2,21 @@
 import { getArticlesIndexPath } from "../i18n/articles";
 import { getToolsIndexPath } from "../i18n/tools";
 import { useTranslations } from "../i18n/ui";
-import type { Lang } from "../i18n/config";
+import { languages, type Lang } from "../i18n/config";
+import { buildLanguageOptions } from "../i18n/navigation";
 
 interface Props {
   lang?: Lang;
+  alternates?: Partial<Record<Lang, string>>;
 }
 
-const { lang = "en" } = Astro.props;
+const { lang = "en", alternates } = Astro.props;
 const t = useTranslations(lang);
 const homeHref = "/";
 const toolsIndexHref = getToolsIndexPath(lang);
 const joinHref = lang === "en" ? "/#join" : `${toolsIndexHref}#join`;
 const articlesHref = getArticlesIndexPath(lang);
+const languageOptions = buildLanguageOptions(alternates, lang);
 ---
 
 <header class="nav-editorial" data-nav data-menu-open="false">
@@ -35,6 +38,39 @@ const articlesHref = getArticlesIndexPath(lang);
   <nav class="nav-links" id="primary-navigation" data-nav-links>
     <a href={toolsIndexHref}>{t("navTools")}</a>
     <a href={articlesHref}>{t("navArticles")}</a>
+    {
+      languageOptions.length > 0 && (
+        <details class="language-switcher" data-language-switcher>
+          <summary
+            aria-label={`${t("navLanguage")}: ${languages[lang]}`}
+            data-language-summary
+          >
+            <span>{languages[lang]}</span>
+            <span class="language-chevron" aria-hidden="true" />
+          </summary>
+          <ul aria-label={t("navLanguage")}>
+            {languageOptions.map((option) => (
+              <li>
+                <a
+                  href={option.href}
+                  data-language-option={option.lang}
+                  lang={option.htmlLang}
+                  hreflang={option.htmlLang}
+                  aria-current={option.current ? "page" : undefined}
+                >
+                  <span>{option.name}</span>
+                  {option.current && (
+                    <span class="language-current" aria-hidden="true">
+                      ✓
+                    </span>
+                  )}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )
+    }
     <a href={joinHref} class="waitlist" aria-label={t("notifyAtLaunch")}>
       <span>{t("notifyAtLaunch")}</span>
     </a>
@@ -47,9 +83,21 @@ const articlesHref = getArticlesIndexPath(lang);
     if (!nav) return;
     const toggle = nav.querySelector("[data-nav-toggle]");
     const links = nav.querySelector("[data-nav-links]");
+    const languageSwitcher = nav.querySelector("[data-language-switcher]");
+    const languageSummary = nav.querySelector("[data-language-summary]");
     const desktopQuery = window.matchMedia("(min-width: 641px)");
 
+    const setLanguageOpen = (open, options = {}) => {
+      if (languageSwitcher instanceof HTMLDetailsElement) {
+        languageSwitcher.open = open;
+      }
+      if (options.restoreFocus && languageSummary instanceof HTMLElement) {
+        languageSummary.focus();
+      }
+    };
+
     const setMenuOpen = (open, options = {}) => {
+      if (!open) setLanguageOpen(false);
       nav.dataset.menuOpen = open ? "true" : "false";
       nav.classList.toggle("menu-open", open);
       if (toggle) {
@@ -74,10 +122,21 @@ const articlesHref = getArticlesIndexPath(lang);
     });
 
     links?.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => setMenuOpen(false));
+      link.addEventListener("click", () => {
+        setLanguageOpen(false);
+        setMenuOpen(false);
+      });
     });
 
     document.addEventListener("click", (event) => {
+      if (
+        languageSwitcher instanceof HTMLDetailsElement &&
+        languageSwitcher.open &&
+        event.target instanceof Node &&
+        !languageSwitcher.contains(event.target)
+      ) {
+        setLanguageOpen(false);
+      }
       if (nav.dataset.menuOpen !== "true") return;
       if (event.target instanceof Node && !nav.contains(event.target)) {
         setMenuOpen(false);
@@ -85,13 +144,26 @@ const articlesHref = getArticlesIndexPath(lang);
     });
 
     document.addEventListener("keydown", (event) => {
+      if (
+        event.key === "Escape" &&
+        languageSwitcher instanceof HTMLDetailsElement &&
+        languageSwitcher.open
+      ) {
+        setLanguageOpen(false, { restoreFocus: true });
+        return;
+      }
       if (event.key === "Escape" && nav.dataset.menuOpen === "true") {
         setMenuOpen(false, { restoreFocus: true });
       }
     });
 
     desktopQuery.addEventListener("change", () => {
-      if (desktopQuery.matches) setMenuOpen(false);
+      const focusWasInLinks =
+        links instanceof HTMLElement && links.contains(document.activeElement);
+      setLanguageOpen(false);
+      setMenuOpen(false, {
+        restoreFocus: !desktopQuery.matches && focusWasInLinks,
+      });
     });
 
     onScroll();
@@ -158,6 +230,82 @@ const articlesHref = getArticlesIndexPath(lang);
   }
   .nav-links a:hover {
     color: var(--terracotta);
+  }
+
+  .language-switcher {
+    position: relative;
+    flex: 0 0 auto;
+    font-family: var(--font-body);
+  }
+  .language-switcher summary {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--ink);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    line-height: 1.4;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    list-style: none;
+    transition: color 0.15s ease;
+  }
+  .language-switcher summary::-webkit-details-marker {
+    display: none;
+  }
+  .language-switcher summary:hover,
+  .language-switcher[open] summary {
+    color: var(--terracotta);
+  }
+  .language-switcher summary:focus-visible {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 4px;
+  }
+  .language-chevron {
+    width: 7px;
+    height: 7px;
+    border-right: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    transform: translateY(-2px) rotate(45deg);
+    transition: transform 0.15s ease;
+  }
+  .language-switcher[open] .language-chevron {
+    transform: translateY(2px) rotate(225deg);
+  }
+  .language-switcher ul {
+    position: absolute;
+    top: calc(100% + 13px);
+    right: 0;
+    z-index: 1;
+    min-width: 180px;
+    margin: 0;
+    padding: 7px 0;
+    list-style: none;
+    background: var(--paper);
+    border: 1px solid var(--ink);
+  }
+  .language-switcher li {
+    margin: 0;
+  }
+  .nav-links .language-switcher a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+    padding: 9px 13px;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+    text-transform: none;
+  }
+  .nav-links .language-switcher a[aria-current="page"] {
+    background: var(--paper-2);
+    font-weight: 600;
+  }
+  .language-current {
+    flex: 0 0 auto;
   }
 
   .nav-links a.waitlist {
@@ -254,6 +402,28 @@ const articlesHref = getArticlesIndexPath(lang);
       width: 100%;
       padding: 15px 0;
       border-top: 1px solid var(--paper-2);
+    }
+    .language-switcher {
+      width: 100%;
+      border-top: 1px solid var(--paper-2);
+    }
+    .language-switcher summary {
+      justify-content: space-between;
+      width: 100%;
+      padding: 15px 0;
+      letter-spacing: 0.12em;
+    }
+    .language-switcher ul {
+      position: static;
+      min-width: 0;
+      padding: 0 0 8px 16px;
+      background: transparent;
+      border: 0;
+    }
+    .nav-links .language-switcher a {
+      padding: 12px 0;
+      font-size: 14px;
+      letter-spacing: 0.02em;
     }
     .nav-links a.waitlist {
       margin-top: 10px;

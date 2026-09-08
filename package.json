@@ -14,6 +14,7 @@
     "test:yarn-labels": "node --test scripts/yarn-estimator-localization.test.mjs scripts/yarn-estimator-selection.test.mjs",
     "test:cast-on": "node --test scripts/cast-on-calculator.test.mjs",
     "test:design": "node --test scripts/design-token-hygiene.test.mjs scripts/page-heading-style.test.mjs scripts/needle-size-data-parity.test.mjs",
+    "test:language-switcher": "npm run build && node --test scripts/language-switcher.test.mjs",
     "test:seo": "node --test scripts/seo-audit.test.mjs scripts/live-seo-audit.test.mjs scripts/url-parity-audit.test.mjs scripts/seo-release-gate.test.mjs",
     "test:security": "node --test scripts/security-headers.test.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
@@ -24,7 +25,7 @@
     "verify:release": "npm run check && npm run lint && npm run format:check && npm run test:articles && npm run test:cast-on && npm run test:yarn-labels && npm run test:design && npm run test:seo && npm run test:security && npm run verify:seo",
     "preview": "astro preview",
     "astro": "npm run verify",
-    "verify": "npm run check && npm run lint && npm run format:check && npm run test:articles && npm run test:cast-on && npm run test:yarn-labels && npm run test:design && npm run test:security && npm run build"
+    "verify": "npm run check && npm run lint && npm run format:check && npm run test:articles && npm run test:cast-on && npm run test:yarn-labels && npm run test:design && npm run test:security && npm run test:language-switcher"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
