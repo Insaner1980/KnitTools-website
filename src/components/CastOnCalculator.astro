@@ -1,144 +1,16 @@
 ---
 import type { Lang } from "../i18n/config";
+import {
+  CAST_ON_INPUT_LIMITS,
+  CAST_ON_LOCALE_CONFIGS,
+} from "../scripts/castOnCalculator";
 
 interface Props {
   lang?: Lang;
 }
 
 const { lang = "en" } = Astro.props;
-const usesDecimalComma = lang !== "en";
-const metricOnly = lang === "fr" || lang === "nl" || lang === "da";
-const numericInputType = usesDecimalComma ? "text" : "number";
-const copy = {
-  en: {
-    legend: "Cast On Calculator",
-    gauge: "Gauge (stitches per 10 cm / 4 in)",
-    decreaseGauge: "Decrease gauge",
-    increaseGauge: "Increase gauge",
-    gaugePlaceholder: "e.g. 20",
-    width: "Desired width",
-    decreaseWidth: "Decrease width",
-    increaseWidth: "Increase width",
-    widthPlaceholder: "e.g. 50",
-    unitSelection: "Unit selection",
-    inches: "inches",
-    calculate: "Calculate",
-    error: "Please enter valid gauge and width values.",
-    resultLabel: "stitches to cast on",
-  },
-  fi: {
-    legend: "Silmukkalaskuri",
-    gauge: "Neuletiheys (silmukkaa / 10 cm tai 4 in)",
-    decreaseGauge: "Pienennä neuletiheyttä",
-    increaseGauge: "Suurenna neuletiheyttä",
-    gaugePlaceholder: "esim. 20",
-    width: "Haluttu leveys",
-    decreaseWidth: "Pienennä leveyttä",
-    increaseWidth: "Suurenna leveyttä",
-    widthPlaceholder: "esim. 50",
-    unitSelection: "Mittayksikkö",
-    inches: "tuumaa",
-    calculate: "Laske",
-    error: "Syötä kelvollinen neuletiheys ja leveys.",
-    resultLabel: "luotavaa silmukkaa",
-  },
-  de: {
-    legend: "Maschenanschlag-Rechner",
-    gauge: "Maschenprobe (Maschen pro 10 cm / 4 Zoll)",
-    decreaseGauge: "Maschenprobe verkleinern",
-    increaseGauge: "Maschenprobe vergrößern",
-    gaugePlaceholder: "z. B. 20",
-    width: "Gewünschte Breite",
-    decreaseWidth: "Breite verkleinern",
-    increaseWidth: "Breite vergrößern",
-    widthPlaceholder: "z. B. 50",
-    unitSelection: "Einheit",
-    inches: "Zoll",
-    calculate: "Berechnen",
-    error: "Gib eine gültige Maschenprobe und Breite ein.",
-    resultLabel: "anzuschlagende Maschen",
-  },
-  sv: {
-    legend: "Uppläggningskalkylator",
-    gauge: "Stickfasthet (maskor per 10 cm / 4 tum)",
-    decreaseGauge: "Minska stickfastheten",
-    increaseGauge: "Öka stickfastheten",
-    gaugePlaceholder: "t.ex. 20",
-    width: "Önskad bredd",
-    decreaseWidth: "Minska bredden",
-    increaseWidth: "Öka bredden",
-    widthPlaceholder: "t.ex. 50",
-    unitSelection: "Måttenhet",
-    inches: "tum",
-    calculate: "Räkna ut",
-    error: "Ange giltiga värden för stickfasthet och bredd.",
-    resultLabel: "maskor att lägga upp",
-  },
-  no: {
-    legend: "Oppleggskalkulator",
-    gauge: "Strikkefasthet (masker per 10 cm / 4 in)",
-    decreaseGauge: "Reduser strikkefastheten",
-    increaseGauge: "Øk strikkefastheten",
-    gaugePlaceholder: "f.eks. 20",
-    width: "Ønsket bredde",
-    decreaseWidth: "Reduser bredden",
-    increaseWidth: "Øk bredden",
-    widthPlaceholder: "f.eks. 50",
-    unitSelection: "Måleenhet",
-    inches: "tommer",
-    calculate: "Beregn",
-    error: "Skriv inn gyldig strikkefasthet og bredde.",
-    resultLabel: "masker å legge opp",
-  },
-  fr: {
-    legend: "Calculateur de mailles à monter",
-    gauge: "Échantillon (mailles pour 10 cm)",
-    decreaseGauge: "Réduire l'échantillon",
-    increaseGauge: "Augmenter l'échantillon",
-    gaugePlaceholder: "ex. 20",
-    width: "Largeur souhaitée (cm)",
-    decreaseWidth: "Réduire la largeur",
-    increaseWidth: "Augmenter la largeur",
-    widthPlaceholder: "ex. 50",
-    unitSelection: "Unité",
-    inches: "pouces",
-    calculate: "Calculer",
-    error: "Entre un échantillon et une largeur valides.",
-    resultLabel: "mailles à monter",
-  },
-  nl: {
-    legend: "Opzetcalculator",
-    gauge: "Stekenverhouding (steken per 10 cm)",
-    decreaseGauge: "Stekenverhouding verlagen",
-    increaseGauge: "Stekenverhouding verhogen",
-    gaugePlaceholder: "bijv. 20",
-    width: "Gewenste breedte (cm)",
-    decreaseWidth: "Breedte verlagen",
-    increaseWidth: "Breedte verhogen",
-    widthPlaceholder: "bijv. 50",
-    unitSelection: "Maateenheid",
-    inches: "inch",
-    calculate: "Berekenen",
-    error: "Vul een geldige stekenverhouding en breedte in.",
-    resultLabel: "op te zetten steken",
-  },
-  da: {
-    legend: "Opslagsberegner",
-    gauge: "Strikkefasthed (masker pr. 10 cm)",
-    decreaseGauge: "Sænk strikkefastheden",
-    increaseGauge: "Øg strikkefastheden",
-    gaugePlaceholder: "fx 20",
-    width: "Ønsket bredde (cm)",
-    decreaseWidth: "Sænk bredden",
-    increaseWidth: "Øg bredden",
-    widthPlaceholder: "fx 50",
-    unitSelection: "Måleenhed",
-    inches: "inch",
-    calculate: "Beregn",
-    error: "Skriv en gyldig strikkefasthed og bredde.",
-    resultLabel: "masker der skal slås op",
-  },
-}[lang];
+const { copy, metricOnly, numericInputType } = CAST_ON_LOCALE_CONFIGS[lang];
 ---
 
 <div
@@ -161,9 +33,9 @@ const copy = {
           type={numericInputType}
           inputmode="decimal"
           id="gauge"
-          min="1"
-          max="100"
-          step="0.5"
+          min={CAST_ON_INPUT_LIMITS.gauge.min}
+          max={CAST_ON_INPUT_LIMITS.gauge.max}
+          step={CAST_ON_INPUT_LIMITS.gauge.step}
           placeholder={copy.gaugePlaceholder}
         />
         <button
@@ -186,9 +58,9 @@ const copy = {
           type={numericInputType}
           inputmode="decimal"
           id="width"
-          min="0.1"
-          max="1000"
-          step="0.1"
+          min={CAST_ON_INPUT_LIMITS.width.min}
+          max={CAST_ON_INPUT_LIMITS.width.max}
+          step={CAST_ON_INPUT_LIMITS.width.step}
           placeholder={copy.widthPlaceholder}
         />
         <button
@@ -231,139 +103,10 @@ const copy = {
 </div>
 
 <script>
+  import { initCastOnCalculators } from "../scripts/castOnCalculator";
   import { countUp } from "../scripts/motion";
 
-  function initCastOnCalculator() {
-    const calculators = document.querySelectorAll(".cast-on-calculator");
-
-    calculators.forEach((calc) => {
-      const gaugeInput = calc.querySelector("#gauge") as HTMLInputElement;
-      const widthInput = calc.querySelector("#width") as HTMLInputElement;
-      const gaugeLabel = calc.querySelector(
-        'label[for="gauge"]',
-      ) as HTMLLabelElement;
-      const widthLabel = calc.querySelector(
-        'label[for="width"]',
-      ) as HTMLLabelElement;
-      const unitRadios = calc.querySelectorAll('input[name="unit"]');
-      const calcBtn = calc.querySelector(".calc-btn") as HTMLButtonElement;
-      const resultEl = calc.querySelector("#cast-on-result") as HTMLElement;
-      const resultArea = calc.querySelector(".result-area") as HTMLElement;
-
-      if (
-        !gaugeInput ||
-        !widthInput ||
-        !gaugeLabel ||
-        !widthLabel ||
-        !calcBtn ||
-        !resultEl ||
-        !resultArea
-      )
-        return;
-
-      const id = Math.random().toString(36).slice(2, 8);
-      gaugeInput.id = `gauge-${id}`;
-      gaugeLabel.setAttribute("for", gaugeInput.id);
-      widthInput.id = `width-${id}`;
-      widthLabel.setAttribute("for", widthInput.id);
-      resultEl.id = `cast-on-result-${id}`;
-      unitRadios.forEach((r) => {
-        (r as HTMLInputElement).name = `unit-${id}`;
-      });
-
-      const parseInputNumber = (raw: string) => {
-        const normalized = raw.trim().replace(/\s+/g, "").replace(",", ".");
-        const value = Number(normalized);
-        return Number.isFinite(value) ? value : NaN;
-      };
-
-      calcBtn.addEventListener("click", () => {
-        const gauge = parseInputNumber(gaugeInput.value);
-        const width = parseInputNumber(widthInput.value);
-        const unit =
-          (
-            calc.querySelector(
-              `input[name="unit-${id}"]:checked`,
-            ) as HTMLInputElement
-          )?.value || "cm";
-
-        resultEl.textContent = "";
-        resultEl.className = "result-value";
-
-        if (!gauge || gauge <= 0 || !width || width <= 0) {
-          const errorSpan = document.createElement("span");
-          errorSpan.className = "form-error";
-          errorSpan.setAttribute("role", "alert");
-          errorSpan.textContent = calc.getAttribute("data-error") || "";
-          resultEl.appendChild(errorSpan);
-          resultArea.classList.add("is-open");
-          return;
-        }
-
-        let stitches: number;
-        if (unit === "cm") {
-          stitches = (gauge / 10) * width;
-        } else {
-          stitches = (gauge / 4) * width;
-        }
-        stitches = Math.round(stitches / 2) * 2;
-
-        const wrapper = document.createElement("div");
-        wrapper.className = "tool-result";
-        const numberEl = document.createElement("span");
-        numberEl.className = "result-number";
-        numberEl.textContent = "0";
-        const labelEl = document.createElement("span");
-        labelEl.className = "result-label";
-        labelEl.textContent = calc.getAttribute("data-result-label") || "";
-        wrapper.appendChild(numberEl);
-        wrapper.appendChild(labelEl);
-        resultEl.appendChild(wrapper);
-
-        resultArea.classList.add("is-open");
-
-        countUp(numberEl, stitches);
-      });
-    });
-  }
-
-  initCastOnCalculator();
-
-  document.querySelectorAll(".spin-btn").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const wrap = btn.closest(".number-input-wrap");
-      if (!wrap) return;
-      const input = wrap.querySelector("input") as HTMLInputElement;
-      if (!input) return;
-      const usesDecimalComma = input.type === "text";
-      const parseInputNumber = (raw: string | null) => {
-        const normalized = (raw || "")
-          .trim()
-          .replace(/\s+/g, "")
-          .replace(",", ".");
-        const value = Number(normalized);
-        return Number.isFinite(value) ? value : NaN;
-      };
-      const formatInputNumber = (value: number) => {
-        const formatted = String(Number(value.toFixed(2)));
-        return usesDecimalComma ? formatted.replace(".", ",") : formatted;
-      };
-
-      const step = parseInputNumber(input.getAttribute("step")) || 1;
-      const min = parseInputNumber(input.getAttribute("min"));
-      const max = parseInputNumber(input.getAttribute("max"));
-      let val = parseInputNumber(input.value) || 0;
-      if (btn.classList.contains("spin-up")) {
-        val += step;
-        if (!isNaN(max) && val > max) val = max;
-      } else {
-        val -= step;
-        if (!isNaN(min) && val < min) val = min;
-      }
-      input.value = formatInputNumber(val);
-      input.dispatchEvent(new Event("input"));
-    });
-  });
+  initCastOnCalculators(document, countUp);
 </script>
 
 <style>

@@ -75,9 +75,9 @@ Koodikannan tämänhetkinen suuruusluokka:
 
 - 37 Astro-komponenttia
 - 63 Astro-sivutiedostoa
-- 5 selaimessa suoritettavaa TypeScript-skriptiä
+- 6 selaimessa suoritettavaa TypeScript-skriptiä
 - 304 Markdown-artikkelia
-- 9 Node-testitiedostoa
+- 13 Node-testitiedostoa
 - 25 public-assettia
 
 Lukumäärät ovat toteutuksen rakennetta kuvaavia inventaariotietoja. Ne on laskettava uudelleen lähteestä, jos tiedostoja lisätään tai poistetaan; yksittäisen aiemman buildin tulostetta ei pidä käyttää nykytilan todisteena.
@@ -137,11 +137,13 @@ Sharp ei ole nykyinen suora riippuvuus. Kolmannen osapuolen riippuvuuksia ei tul
 | npm run format         | Ajaa Prettierin kirjoittavassa tilassa ja voi muuttaa tiedostoja; käytä vain, kun tehtävä sallii formatoinnin  |
 | npm run format:check   | Tarkistaa Prettier-muotoilun kirjoittamatta tarkoituksellisesti tiedostoja                                     |
 | npm run test:articles  | Ajaa artikkelijärjestelmän ja migraattorin Node-testit                                                         |
-| npm run test:design    | Ajaa design-token-, saavutettavuus-, komponenttisopimus- ja heading-tyylitestit                                |
+| npm run test:cast-on   | Ajaa silmukkalaskurin tuotantologiikan ja simuloidun DOM-ohjaimen regressiotestit                              |
+| npm run test:yarn-labels | Ajaa Yarn Estimatorin lokalisointidatan lähdesopimukset ja valintaohjaimen simuloidun DOM:n regressiotestit   |
+| npm run test:design    | Ajaa design-token-, saavutettavuus-, komponenttisopimus-, heading-tyyli- ja puikkokokodatan pariteettitestit   |
 | npm run astro          | Nykyinen alias komennolle `npm run verify`; ei välitä Astro CLI -argumentteja                                  |
 | npm run test:seo       | Testaa SEO-auditiscriptien omaa käyttäytymistä                                                                 |
 | npm run test:security  | Testaa `_headers`- ja `robots.txt`-lähdesopimukset                                                             |
-| npm run verify         | Check, lint, format-check, article/design/security-source-testit ja build; ei aja `test:seo`:ta                |
+| npm run verify         | Check, lint, format-check, article-, cast-on-, Yarn Estimator-, design- ja security-testit sekä build; ei aja `test:seo`:ta |
 | npm run seo:audit      | Auditoi paikallisen dist-buildin                                                                               |
 | npm run seo:urls       | Vertaa paikallista ja tuotannon sitemapia                                                                      |
 | npm run seo:live       | Auditoi tuotannon sivut, sitemapin, robotsin ja linkit                                                         |
@@ -161,8 +163,12 @@ Testit käyttävät Node.js:n sisäänrakennettua `node:test`-runneria. Reposito
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | `scripts/article-system.test.mjs`       | 8 kieltä, 38 käännösryhmää, 352 artikkeli-URLia, frontmatter-pariteetti, kategoriat, linkit ja reittihelperit                   |
 | `scripts/migrate-articles.test.mjs`     | Vanhan artikkelimigraattorin parseri ja regexin turvallinen rakenne                                                             |
+| `scripts/cast-on-calculator.test.mjs`   | Laskurin rajat, askellus, kaavat, lokalisaatiot ja simuloidun DOM-ohjaimen tapahtuma- sekä palautumispolut                      |
+| `scripts/yarn-estimator-localization.test.mjs` | Yarn Estimatorin tuotantodatan identiteetti sekä FI/FR/NL/DA-kokolabelien kattavuus ja säilytettävät kielikartoitukset |
+| `scripts/yarn-estimator-selection.test.mjs` | Tuotantoalustuksen valinta-, kokoresetointi- ja overflow-synkronointi simuloidussa DOM:ssa; ei selaimen tekstiasettelua |
 | `scripts/design-token-hygiene.test.mjs` | Tokenit, kontrastiparit, waitlistin saavutettavuus, taulukko-ohjaimet, hinnoittelu, fontit, animaatiot ja komponenttisopimukset |
-| `scripts/page-heading-style.test.mjs`   | H1/eyebrow/back-link-tyylit, landing-copy, laskurin label-ID-suhde, puikkohaku, pricing ja WPI-rajat                            |
+| `scripts/page-heading-style.test.mjs`   | H1/eyebrow/back-link-tyylit, landing-copy, laskurin label-ID-suhde, englannin puikkohaun lähdesopimus, pricing ja WPI-syötteen reduced-motion/CSS-sopimus |
+| `scripts/needle-size-data-parity.test.mjs` | Jaetun puikkodatan JP 6 = 3,9 mm -invarianssi sekä saksan kaikkien numeromuunnosten ja norjan 3,0 ja 3,3 mm:n lankavahvuusluokkien pariteetti nykyiseen jaettuun dataan |
 | `scripts/seo-audit.test.mjs`            | Paikallisen build-auditin parserit, metadata, linkit, robots, kuvat, canonical/hreflang ja JSON-LD                              |
 | `scripts/live-seo-audit.test.mjs`       | Live-sitemap-, reitti- ja robots-parserit sekä Cloudflare-email-protection-poikkeus                                             |
 | `scripts/url-parity-audit.test.mjs`     | Paikallisen ja live-URL-joukon lisäykset, poistot ja raportointi                                                                |
@@ -546,7 +552,7 @@ Keskeiset työkalukomponenttien rajapinnat:
 | `ToolsIndexPage.astro`          | metadata, canonical, kaikki alternates, kieli, CollectionPage-tekstit, kuusi korttia ja `english`/`localized`-variantti; `lang`-oletus on `en`                                                                                                        |
 | `LocalizedToolPage.astro`       | title/description/canonical/alternates, intro, schema-nimi ja -kuvaus, FAQ-lista, värivariantti sekä valinnaiset size/responsive table -ohjaimet; `lang`-oletus on historiallisesti `fi`, joten uuden kutsujan on välitettävä kieli eksplisiittisesti |
 | `ToolStructuredData.astro`      | WebApplication + valinnainen FAQPage; oletusvaluutta `USD`, hinta aina `0`, `operatingSystem: Any`                                                                                                                                                    |
-| `CastOnCalculator.astro`        | vain `lang`; sama komponentti sisältää kahdeksan kopiojoukkoa ja yhden laskentalogiikan                                                                                                                                                               |
+| `CastOnCalculator.astro`        | vain `lang`; markup ja tyylit ovat komponentissa, kun taas kahdeksan kopiojoukkoa, rajat ja selainohjain ovat `src/scripts/castOnCalculator.ts`-moduulissa                                                                                            |
 | `YarnEstimator.astro`           | vain `lang`; sama 30 projektin data ja kerroinlogiikka kaikille kielille, lokalisoidut labelit komponentissa                                                                                                                                          |
 | `WpiIdentifier.astro`           | vain `lang`; yhteinen WPI-rajadata `toolReferenceData.ts`-lähteestä ja lokalisoitu vastauskopio komponentissa                                                                                                                                         |
 | `SizeChartControls.astro`       | ei propseja; tuo `initSizeChartControls()`-alustuksen vain sitä tarvitsevalle sivulle                                                                                                                                                                 |
@@ -558,7 +564,7 @@ Englannin tool-sivut toistavat oman hero/content/FAQ/waitlist-rakenteensa ja kut
 
 ### CastOnCalculator.astro
 
-Jaettu silmukkalaskuri on käytössä kaikilla kahdeksalla kielellä.
+Jaettu silmukkalaskuri on käytössä kaikilla kahdeksalla kielellä. `CastOnCalculator.astro` renderöi markupin ja tyylit, ja `src/scripts/castOnCalculator.ts` omistaa kielikonfiguraatiot, syöterajat, parserin, laskennan, askelluksen sekä DOM-ohjaimen.
 
 - Neuletiheys: min 1, max 100, askel 0,5
 - Leveys: min 0,1, max 1000, askel 0,1
@@ -567,6 +573,8 @@ Jaettu silmukkalaskuri on käytössä kaikilla kahdeksalla kielellä.
 - tulos pyöristetään lähimpään parilliseen lukuun Math.round(stitches / 2) \* 2
 - ranska, hollanti ja tanska ovat metricOnly
 - jaettu numeroparseri hyväksyy desimaalipisteen ja normalisoi desimaalipilkun kaikilla kielillä, myös englanniksi
+- käsin syötetyt rajojen sisällä olevat desimaalit hyväksytään, vaikka ne eivät osuisi painikkeiden askelväliin
+- laskentapolku hylkää rajojen ulkopuoliset arvot, ja askelpainikkeet pysyvät samoissa inclusive-rajoissa
 - instanssit saavat uniikit kenttä-ID:t, ja labelien for-attribuutit päivitetään vastaamaan niitä
 - virhe renderöidään alert-tilaan
 - tulos käyttää countUp-animaatiota
@@ -574,6 +582,10 @@ Jaettu silmukkalaskuri on käytössä kaikilla kahdeksalla kielellä.
 Silmukkalaskurin muutoksissa tarkista erikseen usean instanssin ID/label-suhteet, desimaalipilkku, yksikkövaihto, rajat ja pyöristys.
 
 ### YarnEstimator.astro
+
+Valitsimen alle näytetään nykyinen valintateksti rivittyvänä vain, jos se ei mahdu suljettuun natiivivalitsimeen. Komponentti päivittää tekstin valinnan ja projektin kokoresetin jälkeen sekä fonttien latautuessa ja valitsimen koon muuttuessa. `scripts/yarn-estimator-selection.test.mjs` suorittaa komponentin tuotantoalustuksen simuloidussa DOM:ssa ja kuuluu `test:yarn-labels`-komentoon; varsinainen luettavuus todetaan selaimessa.
+
+`npm run test:yarn-labels` lukee komponentin tuotantodatan ja tarkistaa FI/FR/NL/DA-kokolabelien kattavuuden, neutraalit kokomerkinnät sekä projektidatan ja muiden kokokäännösten säilymisen. Testi kuuluu `verify`- ja `verify:release`-komentoihin; selaimessa tarkistetaan erikseen serialisointi ja dynaamiset kokovalinnat.
 
 Lanka-arvio sisältää 30 projektityyppiä ja yhdeksän lankavahvuuden kerrointa:
 
@@ -605,7 +617,7 @@ Dataomistus ei kata kaikkia kuutta työkalua samalla tavalla:
 
 | Työkalu        | Kanoninen data tai logiikka                                               | Kielikohtainen osa                                             | Muutosriski                                                                          |
 | -------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| Cast on        | `CastOnCalculator.astro`                                                  | kahdeksan copy-objektia samassa komponentissa                  | kaava- tai input-muutos vaikuttaa kaikkiin kieliin                                   |
+| Cast on        | `CastOnCalculator.astro` + `src/scripts/castOnCalculator.ts`              | kahdeksan copy-objektia ja yksi jaettu selainohjain             | kaava- tai input-muutos vaikuttaa kaikkiin kieliin                                   |
 | Yarn estimator | `YarnEstimator.astro`                                                     | copy, lankavahvuus- ja kokolabelit samassa komponentissa       | projektidata, labelit, metri/yard-näyttö ja pyöristys tarkistettava yhdessä          |
 | Needle sizes   | `NEEDLE_SIZE_BASE_ROWS` + `getNeedleSizeRows()`                           | otsikot, selitteet, haku ja osa desimaalimuotoilusta sivuissa  | perusriviä ei saa kopioida sivulle                                                   |
 | Yarn weights   | `YARN_WEIGHT_BASE_ROWS` ja formatter/helperit                             | kahdeksan rivin nimet, aluekuvaukset ja käyttötekstit sivuissa | WPI-, CYC-, gauge- ja puikkoalueet pysyvät helperissä                                |
@@ -615,6 +627,8 @@ Dataomistus ei kata kaikkia kuutta työkalua samalla tavalla:
 ### WPI ja responsiiviset taulukot
 
 WpiIdentifier.astro on yhteinen kaikille kahdeksalle lankavahvuussivulle. Syötearvo on 1-40. Alueet voivat olla päällekkäisiä, joten tuloslogiikan muutokset pitää tarkistaa kaikkien rajojen ympärillä.
+
+`scripts/page-heading-style.test.mjs` tarkistaa WPI:n osalta vain syötteen reduced-motion/CSS-sopimuksen. Nykyinen Node-testikokoonpano ei suorita numeerisia WPI-rajoja; todellisessa selaimessa tehtävä toiminnallinen tarkistus on siitä erillinen todiste.
 
 src/scripts/responsiveTableControls.ts muuntaa data-mobile-table="cards" -puikkokokotaulukot enintään 600 pikselin leveydessä label-value-korteiksi taulukon omista sarakeotsikoista. Lokalisoituja mobiililabeleita ei kuulu kopioida JavaScriptiin.
 
@@ -632,7 +646,7 @@ Tabien roving tabindex -malli tukee Left/Right/Home/End-näppäimiä sekä Space
 
 `responsiveTableControls.ts` ei kopioi otsikoita ennalta määritellystä listasta: se lukee `thead th` -tekstit ja kirjoittaa ne solujen `data-mobile-label`-attribuutteihin. Tämä on syy siihen, että lähdeotsikoiden, sarakkeiden ja solumäärien on pysyttävä linjassa.
 
-Lyhennesivut käyttävät selainpuolen hakua ja suodatusta. Englannin puikkokokosivulla on lisäksi nykyisessä lähteessä haku, joka tunnistaa myös US-, UK-, JP-, Japan- ja Japanese-etuliitteitä.
+Lyhennesivut käyttävät selainpuolen hakua ja suodatusta. Kaikkien kahdeksan puikkokokosivun haku tunnistaa US-, UK- ja JP-etuliitteet sekä japanilaisen järjestelmän kielikohtaiset nimialiaset.
 
 ## 14. Design system ja UI-invariantit
 
@@ -686,7 +700,7 @@ Sama visuaalinen elementti voi olla yhden sivun scoped-tyyli, kaikkien lokalisoi
 | `ArticleCard.astro` | Kahdeksan artikkeli-indexiä ja 40 kategoriasivua. | Heading-taso, kategoria, väriteema, päivä, linkki ja pitkä lokalisoitu copy. |
 | `ToolsIndexPage.astro` | Kahdeksan tools-indexiä. | 12-palstainen desktop-grid, english/localized-variantit, CollectionPage JSON-LD ja kuusi linkkiä per kieli. |
 | `LocalizedToolPage.astro` | 42 lokalisoitua tool-detail-sivua. | Hero, slot-cascade, FAQ, WebApplication/FAQ JSON-LD, ClosingCTA ja valinnaiset taulukko-ohjaimet; kuusi EN-sivua eivät peri muutosta. |
-| `CastOnCalculator.astro` | Kahdeksan cast-on-sivua. | Yksi logiikka ja kahdeksan copy-objektia; ID-, label-, parseri-, yksikkö- ja pyöristysmuutos on monikielinen. |
+| `CastOnCalculator.astro` | Kahdeksan cast-on-sivua. | Komponentti ja `castOnCalculator.ts` jakavat yhden logiikan ja kahdeksan copy-objektia; muutokset ovat monikielisiä. |
 | `YarnEstimator.astro` | Kahdeksan yarn-estimator-sivua. | 30 projektia, yhdeksän kerrointa, metri/yard-rajat, lokalisoidut labelit ja client-renderöidyt tulokset. |
 | `WpiIdentifier.astro` | Kahdeksan yarn-weight-sivua. | Jaettu 1-40-syöte, päällekkäisten WPI-alueiden tulkinta ja lokalisoitu tulosteksti. |
 | `sizeChartControls.ts` | Kahdeksan size-chart-sivua. | Tab/radio-näppäimistö, ARIA, unit classit ja JS:llä luotu mobiilivalitsin. |

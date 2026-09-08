@@ -3,9 +3,7 @@ import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import { routes } from "../../../i18n/routes";
 import { getNeedleSizeRows } from "../../../lib/toolReferenceData";
 
-const rows = getNeedleSizeRows().map((row, index) =>
-  index === 8 ? ([row[0], row[1], row[2], row[3], "Fine"] as const) : row,
-);
+const rows = getNeedleSizeRows();
 
 const formatMm = (value: string) => value.replace(".", ",");
 

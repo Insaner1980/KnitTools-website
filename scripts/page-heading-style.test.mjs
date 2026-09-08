@@ -156,8 +156,12 @@ test("homepage privacy card keeps the requested device-local copy", () => {
 });
 
 test("cast-on calculator keeps labels connected after assigning unique input IDs", () => {
-  const source = read("src/components/CastOnCalculator.astro");
+  const component = read("src/components/CastOnCalculator.astro");
+  const source = read("src/scripts/castOnCalculator.ts");
 
+  assert.match(component, /<label for="gauge"/);
+  assert.match(component, /<label for="width"/);
+  assert.match(component, /class="result-area" aria-live="polite"/);
   assert.match(source, /label\[for="gauge"\]/);
   assert.match(source, /label\[for="width"\]/);
   assert.match(source, /gaugeLabel\.setAttribute\("for", gaugeInput\.id\)/);

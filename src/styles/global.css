@@ -718,12 +718,13 @@ p {
 
   [data-size-chart] .size-table :is(th, td):first-child {
     width: 62%;
-    white-space: normal;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
   }
 
   [data-size-chart] .size-table :is(th, td):not(:first-child) {
     width: 38%;
-    white-space: normal;
+    white-space: normal !important;
   }
 
   table[data-mobile-table="cards"].is-mobile-card-ready,

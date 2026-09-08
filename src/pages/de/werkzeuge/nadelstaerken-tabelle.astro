@@ -44,10 +44,7 @@ const needleYarnWeightLabels = [
   "Jumbo",
 ] as const;
 
-const rows = getNeedleSizeRows("comma", needleYarnWeightLabels).map(
-  (row, index) =>
-    index === 15 ? ([row[0], row[1], row[2], "6", row[4]] as const) : row,
-);
+const rows = getNeedleSizeRows("comma", needleYarnWeightLabels);
 
 const faqs = [
   {

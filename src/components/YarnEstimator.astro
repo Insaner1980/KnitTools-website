@@ -531,6 +531,50 @@ const yarnWeightLabels = {
 }[lang];
 
 const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
+  fi: {
+    Preemie: "Keskonen",
+    Newborn: "Vastasyntynyt",
+    "3M": "3 kk",
+    "6M": "6 kk",
+    "12M": "12 kk",
+    "18M": "18 kk",
+    "24M": "24 kk",
+    "3-6M": "3-6 kk",
+    "6-12M": "6-12 kk",
+    "12-24M": "12-24 kk",
+    "2Y": "2 v",
+    "4Y": "4 v",
+    "6Y": "6 v",
+    "8Y": "8 v",
+    "10Y": "10 v",
+    "12Y": "12 v",
+    Toddler: "Taapero",
+    Child: "Lapsi",
+    Teen: "Nuori",
+    Adult: "Aikuinen",
+    Short: "Matala",
+    Tall: "Korkea",
+    "Short (120cm)": "Lyhyt (120 cm)",
+    "Medium (150cm)": "Keskipitkä (150 cm)",
+    "Long (180cm)": "Pitkä (180 cm)",
+    "Extra Long (200cm+)": "Erittäin pitkä (200 cm+)",
+    Small: "Pieni",
+    Medium: "Keskikokoinen",
+    Large: "Suuri",
+    "Small (60×75cm)": "Pieni (60 x 75 cm)",
+    "Standard (75×100cm)": "Tavallinen (75 x 100 cm)",
+    "Large (100×100cm)": "Suuri (100 x 100 cm)",
+    "Small (100×125cm)": "Pieni (100 x 125 cm)",
+    "Standard (125×150cm)": "Tavallinen (125 x 150 cm)",
+    "Large (150×175cm)": "Suuri (150 x 175 cm)",
+    "One Size (90×120cm)": "Yksi koko (90 x 120 cm)",
+    "Twin (170×225cm)": "Yhden hengen (170 x 225 cm)",
+    "Full (195×225cm)": "Kahden hengen (195 x 225 cm)",
+    "One Size": "Yksi koko",
+    "Small (30×30cm)": "Pieni (30 x 30 cm)",
+    "Medium (40×40cm)": "Keskikokoinen (40 x 40 cm)",
+    "Large (50×50cm)": "Suuri (50 x 50 cm)",
+  },
   de: {
     Preemie: "Frühchen",
     Newborn: "Neugeboren",
@@ -588,6 +632,14 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
     "3-6M": "3-6 mois",
     "6-12M": "6-12 mois",
     "12-24M": "12-24 mois",
+    "2Y": "2 ans",
+    "4Y": "4 ans",
+    "6Y": "6 ans",
+    "8Y": "8 ans",
+    "10Y": "10 ans",
+    "12Y": "12 ans",
+    Short: "Bas",
+    Tall: "Haut",
     Toddler: "Tout-petit",
     Child: "Enfant",
     Teen: "Ado",
@@ -719,6 +771,14 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
     "6-12M": "6-12 mnd",
     "12-24M": "12-24 mnd",
     Toddler: "Peuter",
+    "2Y": "2 jaar",
+    "4Y": "4 jaar",
+    "6Y": "6 jaar",
+    "8Y": "8 jaar",
+    "10Y": "10 jaar",
+    "12Y": "12 jaar",
+    Short: "Laag",
+    Tall: "Hoog",
     Child: "Kind",
     Teen: "Tiener",
     Adult: "Volwassene",
@@ -756,6 +816,14 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
     "3-6M": "3-6 mdr.",
     "6-12M": "6-12 mdr.",
     "12-24M": "12-24 mdr.",
+    "2Y": "2 år",
+    "4Y": "4 år",
+    "6Y": "6 år",
+    "8Y": "8 år",
+    "10Y": "10 år",
+    "12Y": "12 år",
+    Short: "Lav",
+    Tall: "Høj",
     Toddler: "Tumling",
     Child: "Barn",
     Teen: "Teenager",
@@ -852,6 +920,7 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
           <option value="pillow-cover">{copy.options.pillowCover}</option>
         </optgroup>
       </select>
+      <p class="selected-label" aria-hidden="true" hidden></p>
     </div>
 
     <div class="form-group">
@@ -859,6 +928,7 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
       <select id="project-size">
         <option value="M">M</option>
       </select>
+      <p class="selected-label" aria-hidden="true" hidden></p>
     </div>
 
     <div class="form-group">
@@ -874,6 +944,7 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
         <option value="super-bulky">{yarnWeightLabels.superBulky}</option>
         <option value="jumbo">{yarnWeightLabels.jumbo}</option>
       </select>
+      <p class="selected-label" aria-hidden="true" hidden></p>
     </div>
 
     <button type="button" class="btn-primary estimate-btn"
@@ -1095,6 +1166,31 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
       updateSizes();
       projectSelect.addEventListener("change", updateSizes);
 
+      const selects = [projectSelect, sizeSelect, weightSelect];
+      const textMeasure = document.createElement("canvas").getContext("2d")!;
+      function updateSelectedLabels() {
+        selects.forEach((select) => {
+          const label = select.nextElementSibling as HTMLElement;
+          const text = select.selectedOptions[0]?.textContent || "";
+          const style = getComputedStyle(select);
+          textMeasure.font = style.font;
+          const availableWidth =
+            select.clientWidth -
+            parseFloat(style.paddingLeft) -
+            parseFloat(style.paddingRight);
+          label.textContent = text;
+          label.hidden = textMeasure.measureText(text).width <= availableWidth;
+        });
+      }
+      updateSelectedLabels();
+      // Runs after the project listener has rebuilt and reset the size options.
+      selects.forEach((select) =>
+        select.addEventListener("change", updateSelectedLabels),
+      );
+      const labelResizeObserver = new ResizeObserver(updateSelectedLabels);
+      selects.forEach((select) => labelResizeObserver.observe(select));
+      void document.fonts.ready.then(updateSelectedLabels);
+
       estimateBtn.addEventListener("click", () => {
         const project = PROJECTS[projectSelect.value];
         const size = sizeSelect.value;
@@ -1162,6 +1258,15 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
   }
   .form-group:first-child {
     margin-top: 0;
+  }
+
+  .selected-label {
+    margin: 8px 0 0;
+    font-family: var(--body-ed);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--ink);
+    overflow-wrap: anywhere;
   }
 
   .yarn-estimator label {

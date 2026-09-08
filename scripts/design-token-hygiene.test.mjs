@@ -112,7 +112,11 @@ describe("design token hygiene", () => {
       "src/components/YarnEstimator.astro",
     ]) {
       const source = read(path);
-      assert.match(source, /className = "form-error"/);
+      const behaviorSource =
+        path === "src/components/CastOnCalculator.astro"
+          ? read("src/scripts/castOnCalculator.ts")
+          : source;
+      assert.match(behaviorSource, /className = "form-error"/);
       assert.match(source, /:global\(\.form-error\)/, path);
       assert.doesNotMatch(source, /\n\s*\.form-error\s*\{/, path);
     }
@@ -769,5 +773,26 @@ describe("performance hygiene", () => {
     for (const path of mobileSizeChartPages) {
       assert.match(read(path), /data-mobile-size-label=/, path);
     }
+  });
+
+  it("allows narrow size-chart measurement labels to wrap", () => {
+    const globalCss = read("src/styles/global.css");
+    const firstColumn = cssBlock(
+      globalCss,
+      "[data-size-chart] .size-table :is(th, td):first-child",
+    );
+
+    assert.match(firstColumn, /white-space:\s*normal\s*!important;/);
+    assert.match(firstColumn, /overflow-wrap:\s*anywhere;/);
+  });
+
+  it("allows narrow size-chart values to wrap", () => {
+    const globalCss = read("src/styles/global.css");
+    const valueColumns = cssBlock(
+      globalCss,
+      "[data-size-chart] .size-table :is(th, td):not(:first-child)",
+    );
+
+    assert.match(valueColumns, /white-space:\s*normal\s*!important;/);
   });
 });
