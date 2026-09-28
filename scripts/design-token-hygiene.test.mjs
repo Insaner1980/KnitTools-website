@@ -553,7 +553,11 @@ describe("performance hygiene", () => {
     assert.match(lockfile.packages[""].dependencies.gsap, /^\^?3\./);
     assert.equal(lockfile.packages[""].dependencies.sharp, undefined);
     assert.ok(lockfile.packages["node_modules/gsap"]);
-    assert.equal(lockfile.packages["node_modules/sharp"], undefined);
+    // Astro uses Sharp as optional build tooling, never as a direct app dependency.
+    assert.ok(
+      lockfile.packages["node_modules/astro"].optionalDependencies.sharp,
+    );
+    assert.equal(lockfile.packages["node_modules/sharp"].optional, true);
   });
 
   it("caches regional pricing country lookup between page loads", () => {
