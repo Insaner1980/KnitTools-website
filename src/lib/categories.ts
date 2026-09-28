@@ -1,9 +1,5 @@
 export type CategorySlug =
-  | "gauge-calculations"
-  | "yarn"
-  | "needles"
-  | "techniques"
-  | "app-tools";
+  "gauge-calculations" | "yarn" | "needles" | "techniques" | "app-tools";
 
 export const CATEGORY_ORDER: CategorySlug[] = [
   "gauge-calculations",
