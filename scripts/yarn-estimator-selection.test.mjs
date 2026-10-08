@@ -5,11 +5,23 @@ import test from "node:test";
 import { runInNewContext } from "node:vm";
 
 const source = readFileSync("src/components/YarnEstimator.astro", "utf8");
+const scriptBlockPattern = /<script\b[^>]*>([\s\S]*?)<\/script\b[^>]*>/i;
 const script = stripTypeScriptTypes(
-  source
-    .match(/<script\b[^>]*>([\s\S]*?)<\/script\s*>/i)[1]
-    .replace(/import .*?;/g, ""),
+  source.match(scriptBlockPattern)[1].replace(/import .*?;/g, ""),
 );
+
+test("script extraction accepts HTML closing-tag variants without matching other tags", () => {
+  for (const closingTag of [
+    "</script>",
+    "</SCRIPT >",
+    "</script\t\n bar>",
+    "</script/>",
+  ]) {
+    const fixture = `<SCRIPT type="module">const value = 1;${closingTag}`;
+    assert.equal(fixture.match(scriptBlockPattern)?.[1], "const value = 1;");
+  }
+  assert.equal("<scripture>text</scripture>".match(scriptBlockPattern), null);
+});
 
 // Execute the entire production initializer; fake geometry tests visibility
 // decisions only. Actual text fitting and wrapping require browser verification.
