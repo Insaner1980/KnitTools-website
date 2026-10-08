@@ -672,13 +672,14 @@ describe("performance hygiene", () => {
 
   it("keeps Cloudflare Web Analytics out of the document head", () => {
     const baseLayout = read("src/layouts/BaseLayout.astro");
-    const headMarkup = baseLayout.split("</head>")[0];
-
-    assert.ok(!headMarkup.includes("static.cloudflareinsights.com"));
-    assert.ok(
-      baseLayout.indexOf("static.cloudflareinsights.com") >
-        baseLayout.indexOf("</script>\n  </body>"),
+    const beacon = baseLayout.match(
+      /<script\b[^>]*\ssrc="https:\/\/static\.cloudflareinsights\.com\/beacon\.min\.js"[^>]*>/i,
     );
+
+    assert.ok(beacon, "the exact Cloudflare beacon script must be present");
+    assert.ok(beacon.index > baseLayout.indexOf("<body"));
+    assert.ok(beacon.index < baseLayout.indexOf("</body>"));
+    assert.match(beacon[0], /\bdefer\b/);
   });
 
   it("uses the shared GSAP reveal animation helper on all tool pages", () => {

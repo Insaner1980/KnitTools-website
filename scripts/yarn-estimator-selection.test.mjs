@@ -6,7 +6,9 @@ import { runInNewContext } from "node:vm";
 
 const source = readFileSync("src/components/YarnEstimator.astro", "utf8");
 const script = stripTypeScriptTypes(
-  source.match(/<script>([\s\S]*?)<\/script>/)[1].replace(/import .*?;/g, ""),
+  source
+    .match(/<script\b[^>]*>([\s\S]*?)<\/script\s*>/i)[1]
+    .replace(/import .*?;/g, ""),
 );
 
 // Execute the entire production initializer; fake geometry tests visibility
