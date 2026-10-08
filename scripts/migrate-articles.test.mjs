@@ -1,6 +1,24 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { test } from "node:test";
+import { cleanBody } from "./migrate-articles.mjs";
+
+test("body cleanup removes comments and the opening H1 while preserving Markdown", () => {
+  assert.equal(
+    cleanBody(
+      "<!-- metadata -->\r\n# Title\r\n\r\n## Section\r\nKnit<!-- note -->ting **guide**.",
+    ),
+    "## Section\nKnitting **guide**.\n",
+  );
+});
+
+test("body cleanup removes comments reconstructed by earlier removals", () => {
+  const cleaned = cleanBody(
+    "<<!-- first -->!-- hidden -->\n# Title\n\nVisible text",
+  );
+  assert.equal(cleaned, "Visible text\n");
+  assert.equal(cleanBody(cleaned), cleaned);
+});
 
 const migrationScriptSource = readFileSync(
   new URL("./migrate-articles.mjs", import.meta.url),

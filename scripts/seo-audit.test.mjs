@@ -13,6 +13,24 @@ import {
   routeFromHtmlPath,
 } from "./seo-audit.mjs";
 
+test("text extraction handles markup, nested delimiters and literal entities", () => {
+  const page = extractPageData({
+    htmlPath: "dist/test/index.html",
+    route: "/test/",
+    siteUrl: "https://knittoolsapp.com",
+    html: `<title><span>Title</span></title>
+      <h1>Knit<strong>ting</strong> &amp; crochet</h1>
+      <a href="/tools/"><SCRIPT>Tools</SCRIPT></a>
+      <a href="/articles/">Literal &lt;script&gt; text</a>
+      <a href="/about/"><script<script>>About</script></a>`,
+  });
+  assert.deepEqual(page.titles, ["Title"]);
+  assert.deepEqual(page.h1, ["Knitting & crochet"]);
+  assert.equal(page.links[0].text, "Tools");
+  assert.equal(page.links[1].text, "Literal <script> text");
+  assert.equal(page.links[2].text, ">About");
+});
+
 test("routeFromHtmlPath maps dist index files to stable public routes", () => {
   assert.equal(routeFromHtmlPath("dist/index.html", "dist"), "/");
   assert.equal(

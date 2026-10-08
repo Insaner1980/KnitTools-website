@@ -1771,9 +1771,12 @@ function hasRel(relValue, relName) {
 }
 
 function cleanText(text) {
-  return decodeEntities(text.replace(/<[^>]+>/g, ""))
-    .replace(/\s+/g, " ")
-    .trim();
+  let previous;
+  do {
+    previous = text;
+    text = text.replace(/<[^>]+>/g, "");
+  } while (text !== previous);
+  return decodeEntities(text).replace(/\s+/g, " ").trim();
 }
 
 function getAccessibleLinkText(innerHtml, attrs) {

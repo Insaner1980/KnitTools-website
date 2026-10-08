@@ -138,8 +138,13 @@ function extractMetadata(source) {
 }
 
 // Strip HTML comments + first H1 line, normalize leading whitespace.
-function cleanBody(source) {
-  let body = source.replace(/<!--[\s\S]*?-->/g, "");
+export function cleanBody(source) {
+  let body = source;
+  let previous;
+  do {
+    previous = body;
+    body = body.replace(/<!--[\s\S]*?-->/g, "");
+  } while (body !== previous);
   body = body.replace(/^\s+/, ""); // leading blanks after comment removal
 
   // Strip first H1 line if it's the first non-blank line
