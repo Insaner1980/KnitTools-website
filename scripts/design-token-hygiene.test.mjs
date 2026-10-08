@@ -618,7 +618,7 @@ describe("performance hygiene", () => {
     const baseLayout = read("src/layouts/BaseLayout.astro");
     const indexPage = read("src/pages/index.astro");
     const logoPreload = 'href="/fonts/teko-500-subset.woff2"';
-    const displayPreload = 'href="/fonts/lalezar.woff2"';
+    const displayPreload = 'href="/fonts/lalezar-latin.woff2"';
 
     assert.match(baseLayout, /href="\/fonts\/general-sans-600\.woff2"/);
     assert.doesNotMatch(

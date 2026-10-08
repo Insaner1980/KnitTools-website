@@ -7,6 +7,7 @@ export default defineConfig({
   trailingSlash: "always",
   build: {
     assets: "_assets",
+    inlineStylesheets: "always",
   },
   markdown: {
     shikiConfig: {
