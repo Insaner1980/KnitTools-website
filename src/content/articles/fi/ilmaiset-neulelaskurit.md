@@ -50,7 +50,7 @@ Villapaitoihin ja muihin isoihin töihin käytännöllinen turvamarginaali on yk
 
 Mallitilkku antaa 22 silmukkaa 4 tuumalla, mutta ohje ilmoittaa neuletiheyden 10 cm matkalla. Tai mittasit 5 cm alueelta ja pitää skaalata suuremmaksi. Teoriassa pelkkää jakolaskua. Käytännössä helppo sotkea, kun muutat samaan aikaan metri- ja tuumamitoitusta ja mittausalueen kokoa.
 
-Saat silmukkamäärän 10 cm:lle jakamalla lasketut silmukat mittausalueen leveydellä senttimetreinä ja kertomalla tuloksen kymmenellä. Tämä lasketaan käsin; sivustolla ei ole erillistä neuletiheyden muunninta. [Neuletiheyden mittausohje](/fi/artikkelit/neuletiheyden-mittaaminen/) kertoo, miten mittaat mallitilkun ennen laskemista.
+Muunna tuumina mitattu leveys ensin senttimetreiksi kertomalla se luvulla 2,54: 4 tuumaa on 10,16 cm. Saat silmukkamäärän 10 cm:lle jakamalla lasketut silmukat mittausalueen leveydellä senttimetreinä ja kertomalla tuloksen kymmenellä. Esimerkissä 22 ÷ 10,16 × 10 antaa noin 21,7 silmukkaa / 10 cm. Tämä lasketaan käsin; sivustolla ei ole erillistä neuletiheyden muunninta. [Neuletiheyden mittausohje](/fi/artikkelit/neuletiheyden-mittaaminen/) kertoo, miten mittaat mallitilkun ennen laskemista.
 
 ## Lisäysten ja kavennusten jakaminen tasaisesti käsin
 

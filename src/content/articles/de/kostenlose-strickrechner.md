@@ -50,7 +50,7 @@ Für Pullover und größere Projekte ist ein praktischer Puffer ein ganzes Knäu
 
 Deine Maschenprobe ergibt 22 Maschen auf 4 Zoll, aber die Anleitung nennt die Maschenprobe pro 10 cm. Oder du hast über 5 cm gemessen und musst auf 10 cm hochrechnen. In der Theorie ist das einfache Division. In der Praxis ist es genau die Art Kopfrechnen, die schiefgeht, während du gleichzeitig Maschen zählst und zwischen metrischen und imperialen Angaben wechselst.
 
-Für die Maschenzahl pro 10 cm teilst du die gezählten Maschen durch die gemessene Breite in Zentimetern und multiplizierst das Ergebnis mit 10. Einen separaten interaktiven Rechner für diese Umrechnung gibt es hier nicht. Der Artikel [Maschenprobe messen](/de/artikel/maschenprobe-messen/) zeigt, wie du zuerst eine verlässliche Messung bekommst, bevor du etwas umrechnest.
+Für die Maschenzahl pro 10 cm rechnest du eine Breite in Zoll zuerst in Zentimeter um, indem du sie mit 2,54 multiplizierst: 4 Zoll sind 10,16 cm. Dann teilst du die gezählten Maschen durch die gemessene Breite in Zentimetern und multiplizierst das Ergebnis mit 10. Im Beispiel ergibt 22 ÷ 10,16 × 10 etwa 21,7 Maschen pro 10 cm. Einen separaten interaktiven Rechner für diese Umrechnung gibt es hier nicht. Der Artikel [Maschenprobe messen](/de/artikel/maschenprobe-messen/) zeigt, wie du zuerst eine verlässliche Messung bekommst, bevor du etwas umrechnest.
 
 ## Zu- und Abnahmen von Hand gleichmäßig verteilen
 

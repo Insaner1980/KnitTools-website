@@ -118,7 +118,7 @@ Bedst hvor holdbarhed betyder noget: taskestropper, skuldersømme på tunge swea
 
 ### Sy ærmets lange søm
 
-Når et ærme er strikket frem og tilbage, lukker den lange søm fra manchetten til underarmen ærmet til et rør. Her mødes to sidekanter. Brug lodrette madrassting på de lige stykker eller retstrikvarianten ovenfor, hvis ærmet er strikket i retstrik. Sørg for, at manchetkanter og eventuelle striber mødes. Denne søm sætter ikke ærmet fast på kroppen.
+Når et ærme er strikket frem og tilbage, lukker den lange søm fra manchetten til armhulen ærmet til et rør. Her mødes to sidekanter. Brug lodrette madrassting på de lige stykker eller retstrikvarianten ovenfor, hvis ærmet er strikket i retstrik. Sørg for, at manchetkanter og eventuelle striber mødes. Denne søm sætter ikke ærmet fast på kroppen.
 
 ### Sy en formet ærmekuppel i ærmegabet
 

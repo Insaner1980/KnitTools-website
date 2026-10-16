@@ -120,7 +120,7 @@ Det passer der holdbarhet er viktig: veskehåndtak, skuldersømmer på tunge pla
 
 ### Madrassting langs ermet
 
-Når et erme er strikket flatt, lukker den lange sømmen fra mansjetten mot underarmen ermet til et rør. Her møtes to sidekanter. På rette partier bruker du vertikale madrassting som beskrevet over, eller rillestrikkvarianten hvis ermet er strikket i riller. Pass på at mansjett og eventuelle striper møtes. Denne sømmen fester ikke ermet til bolen.
+Når et erme er strikket flatt, lukker den lange sømmen fra mansjetten mot armhulen ermet til et rør. Her møtes to sidekanter. På rette partier bruker du vertikale madrassting som beskrevet over, eller rillestrikkvarianten hvis ermet er strikket i riller. Pass på at mansjett og eventuelle striper møtes. Denne sømmen fester ikke ermet til bolen.
 
 ### En formet ermetopp i ermehullet
 

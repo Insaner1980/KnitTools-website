@@ -47,7 +47,7 @@ A practical buffer for sweaters and larger projects is one full skein over the e
 
 Your swatch gives you 22 stitches over 4 inches but the pattern specifies gauge per 10 cm. Or you measured over 2 inches and need to scale up. Simple division in theory. Easy to mess up when you're converting between metric and imperial and scaling from a small swatch at the same time.
 
-To calculate stitches per 10 cm by hand, divide the stitch count by the measured width in centimeters, then multiply by 10. There is no separate interactive gauge converter here. The [gauge measurement guide](/articles/how-to-measure-knitting-gauge/) covers how to get a reliable swatch reading before you convert anything.
+To calculate stitches per 10 cm by hand, first convert any inch measurement to centimeters by multiplying by 2.54: 4 inches is 10.16 cm. Then divide the stitch count by the measured width in centimeters and multiply by 10. In this example, 22 ÷ 10.16 × 10 gives about 21.7 stitches per 10 cm. There is no separate interactive gauge converter here. The [gauge measurement guide](/articles/how-to-measure-knitting-gauge/) covers how to get a reliable swatch reading before you convert anything.
 
 ## Space increases and decreases evenly by hand
 
