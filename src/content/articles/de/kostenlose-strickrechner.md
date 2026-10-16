@@ -1,6 +1,6 @@
 ---
-title: "Kostenlose Strickrechner"
-description: "Kostenlose Strickrechner und Tabellen für Maschenanschlag, Garnbedarf, Maschenprobe, Nadelstärken, Garnstärken, Abkürzungen und Größen."
+title: "Kostenlose Strickrechner für Maschen und Garn"
+description: "Zwei kostenlose Rechner für Maschenanschlag und Garnbedarf. Dazu Anleitungen zum Umrechnen der Maschenprobe und zum Verteilen von Zu- und Abnahmen von Hand."
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 5
@@ -10,22 +10,27 @@ tags:
     "kostenlose Strickrechner",
     "Maschenanschlag Rechner",
     "Garnrechner",
-    "Maschenprobe Rechner",
+    "Maschenprobe umrechnen",
   ]
 draft: false
 lang: de
 translationKey: "free-knitting-calculators"
 ---
 
-Beim Stricken steckt mehr Rechnen dahinter, als viele erwarten. Wie viele Maschen brauchst du für einen 23 cm breiten Schal bei deiner Maschenprobe? Wie viel Garn frisst eine Decke? Wie verteilst du 8 Zunahmen gleichmäßig über 64 Maschen? Das ist keine schwierige Mathematik, aber sie taucht ständig auf, und falsche Zahlen können bedeuten, dass du nach drei Abenden bis zum Anschlag zurückribbeln musst.
+Diese beiden kostenlosen Rechner kannst du direkt im Browser nutzen:
 
-Die öffentlichen Tools hier decken die zwei Entscheidungen ab, bei denen Fehler besonders teuer werden: Maschenanschlag und Garnbedarf. Dieser Artikel erklärt außerdem die begleitende Mathematik für Maschenproben-Umrechnung, gleichmäßige Zu- und Abnahmen sowie Nachschlagetabellen, damit du weißt, wann ein Rechner reicht und wann die Anleitung noch eigenes Urteil verlangt.
+- [Berechne, wie viele Maschen du anschlagen musst](/de/werkzeuge/maschenanschlag-rechner/) – aus deiner Maschenprobe und der gewünschten Breite.
+- [Schätze deinen Garnbedarf](/de/werkzeuge/garnbedarfsrechner/) anhand von Projektart, Größe und Garnstärke.
+
+Außerdem findest du hier Anleitungen, um deine Maschenprobe umzurechnen und Zu- und Abnahmen von Hand gleichmäßig zu verteilen, sowie Links zu Nachschlagetabellen. Diese Abschnitte enthalten schriftliche Erklärungen und Nachschlagehilfen, keine weiteren interaktiven Rechner.
+
+Beim Stricken steckt mehr Rechnen dahinter, als viele erwarten. Wie viele Maschen brauchst du für einen 23 cm breiten Schal bei deiner Maschenprobe? Wie viel Garn frisst eine Decke? Wie verteilst du 8 Zunahmen gleichmäßig über 64 Maschen? Das ist keine schwierige Mathematik, aber sie taucht ständig auf, und falsche Zahlen können bedeuten, dass du nach drei Abenden bis zum Anschlag zurückribbeln musst.
 
 ## Maschenanschlag-Rechner
 
 Du kennst deine Maschenprobe aus dem Probestück und weißt, wie breit das Teil werden soll. Der [Maschenanschlag-Rechner](/de/werkzeuge/maschenanschlag-rechner/) multipliziert diese Zahlen und rundet auf die nächste gerade Maschenzahl. Das ist für viele Bündchen und Muster ein nützlicher Standard.
 
-Die Formel ist einfach genug für glatt rechts. Einfach ist sie nicht mehr, wenn dein Muster über 6 Maschen plus 2 Ausgleichsmaschen läuft und die Zahl sowohl zur Breite als auch zum Rapport passen muss. Dann verdient ein Rechner seinen Platz.
+Die Formel ist einfach genug für glatt rechts. Einfach ist sie nicht mehr, wenn dein Muster über 6 Maschen plus 2 Ausgleichsmaschen läuft und die Zahl sowohl zur Breite als auch zum Rapport passen muss. Der Rechner liefert einen Ausgangswert; an Musterrapporte und Randmaschen passt du ihn selbst an.
 
 Ein Beispiel: Deine Maschenprobe liegt bei 22 Maschen auf 10 cm, die Zielbreite ist 22,5 cm, und das Muster hat einen Zopf-Rapport über 6 Maschen plus 4 Randmaschen in glatt rechts. Die rohe Rechnung ergibt 49,5 Maschen, ein gerader Rechnerwert also 50. Wenn du 4 Randmaschen abziehst, bleiben 46 Mustermaschen, und 46 ist nicht durch 6 teilbar. Mit 52 Maschen erhältst du 48 Mustermaschen plus 4 Randmaschen, und die Zöpfe gehen sauber auf.
 
@@ -41,17 +46,19 @@ Der [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) auf dieser Seite dec
 
 Für Pullover und größere Projekte ist ein praktischer Puffer ein ganzes Knäuel über der Schätzung, besonders bei Garnen mit Farbpartie. Bei Socken und kleinen Projekten kauf nicht exakt nach Schätzung, außer du kennst Anleitung, Garn und deine eigene Spannung bereits gut. Farbpartien sind ein echtes Risiko, besonders bei handgefärbten Garnen und auslaufenden Qualitäten. Ein zusätzliches Knäuel beim Kauf ist meist weniger ärgerlich als ein fast fertiger Pullover ohne passendes Garn.
 
-## Maschenproben-Umrechnung
+## Maschenprobe von Hand umrechnen
 
 Deine Maschenprobe ergibt 22 Maschen auf 4 Zoll, aber die Anleitung nennt die Maschenprobe pro 10 cm. Oder du hast über 5 cm gemessen und musst auf 10 cm hochrechnen. In der Theorie ist das einfache Division. In der Praxis ist es genau die Art Kopfrechnen, die schiefgeht, während du gleichzeitig Maschen zählst und zwischen metrischen und imperialen Angaben wechselst.
 
-Du brauchst diese Umrechnung seltener als Maschenanschlag oder Garnbedarf, aber wenn du sie brauchst, ist Handrechnung unnötig fehleranfällig. Der Artikel [Maschenprobe messen](/de/artikel/maschenprobe-messen/) zeigt, wie du zuerst eine verlässliche Messung bekommst, bevor du etwas umrechnest.
+Für die Maschenzahl pro 10 cm teilst du die gezählten Maschen durch die gemessene Breite in Zentimetern und multiplizierst das Ergebnis mit 10. Einen separaten interaktiven Rechner für diese Umrechnung gibt es hier nicht. Der Artikel [Maschenprobe messen](/de/artikel/maschenprobe-messen/) zeigt, wie du zuerst eine verlässliche Messung bekommst, bevor du etwas umrechnest.
 
-## Rechner für Zu- und Abnahmen
+## Zu- und Abnahmen von Hand gleichmäßig verteilen
+
+Hier findest du eine Rechenanleitung, keinen interaktiven Rechner für Zu- und Abnahmen.
 
 Die Anleitung sagt: "In der nächsten Reihe 12 Maschen gleichmäßig zunehmen." 80 Maschen sind auf der Nadel. Wohin kommen die Zunahmen?
 
-80 geteilt durch 12 ergibt 6,67. Einige Abstände sind also 6 Maschen, einige 7. Ein ausgeschriebener Verteilplan sagt dir, welche Abstände kürzer und welche länger sind, damit die Verteilung wirklich gleichmäßig aussieht. Vier Zunahmen von Hand zu verteilen ist machbar. 18 Zunahmen über 142 Maschen sind Rechnergebiet.
+80 geteilt durch 12 ergibt 6,67. Einige Abstände sind also 6 Maschen, einige 7. Ein ausgeschriebener Verteilplan sagt dir, welche Abstände kürzer und welche länger sind, damit die Verteilung wirklich gleichmäßig aussieht. Vier Zunahmen von Hand zu verteilen ist machbar. Bei 18 Zunahmen über 142 Maschen lohnt es sich besonders, die Verteilung vor dem Stricken aufzuschreiben.
 
 Alle Formgebungsreihen profitieren davon: Ärmelzunahmen, Passenabnahmen, [Übergänge nach Bündchen](/de/artikel/zunahmen-und-abnahmen-gleichmaessig-verteilen/), bei denen sich die Maschenzahl zwischen Abschnitten verändert, und Raglanformen, bei denen vier Abnahmestellen jede zweite Reihe wiederkehren.
 
@@ -87,7 +94,7 @@ Die Rechnung kann exakt sein, aber die nützliche Antwort hängt von deinen Eing
 
 **Kann ich Strickrechner ohne Maschenprobe verwenden?**
 
-Maschenanschlag und Maschenproben-Umrechnung brauchen eine Messung aus deiner Maschenprobe. Daran führt kein sinnvoller Weg vorbei. Ein Garnbedarfsrechner kann eine grobe Schätzung ohne Maschenprobe geben, weil er mit Projektart und Garnstärke arbeitet, aber die Schätzung ist ungenauer.
+Sowohl der Maschenanschlag-Rechner als auch die Umrechnung von Hand brauchen eine Messung aus deiner Maschenprobe. Daran führt kein sinnvoller Weg vorbei. Ein Garnbedarfsrechner kann eine grobe Schätzung ohne Maschenprobe geben, weil er mit Projektart und Garnstärke arbeitet, aber die Schätzung ist ungenauer.
 
 **Warum nicht einfach von Hand rechnen?**
 

@@ -18,9 +18,13 @@ translationKey: "seam-knitted-pieces"
 
 Sammensying er den delen av strikking som lettest blir utsatt. En haug ferdige genserdeler kan ligge i en prosjektpose i ukevis fordi få gleder seg til å sy dem sammen. Men en god søm er usynlig, og en dårlig søm kan ødelegge et ellers pent strikket plagg. Forskjellen mellom noe som ser hjemmelaget ut og noe som ser håndstrikket ut, ligger ofte i avslutningen.
 
-Madrassting lager en usynlig søm ved å plukke opp horisontale tråder én maske inn fra kanten på hver del og trekke dem sammen, slik at skjøten ser ut som sammenhengende strikk. Metoden avhenger av sømretningen: vertikale kanter som sidesømmer, horisontale kanter som skuldersømmer, formede deler inn i åpninger som ermer eller levende masker som skal føyes sammen med maskesting.
+I glattstrikk lager madrassting en usynlig søm ved å plukke opp horisontale tråder én maske inn fra kanten på hver del og trekke dem sammen, slik at skjøten ser ut som sammenhengende strikk. Metoden avhenger av sømretningen: vertikale kanter som sidesømmer, horisontale kanter som skuldersømmer, formede deler inn i åpninger som ermer eller levende masker som skal føyes sammen med maskesting.
+
+Vil du sy riller eller ermer? Gå til [madrassting i rillestrikk](#madrassting-i-rillestrikk) eller [ermesøm og isetting av ermer](#sette-inn-ermer).
 
 ## Sømmetoder sammenlignet
+
+<div role="region" aria-label="Sømmetoder sammenlignet" tabindex="0" style="overflow-x: auto;">
 
 | Metode                         | Retning                              | Synlighet          | Passer best til                   |
 | ------------------------------ | ------------------------------------ | ------------------ | --------------------------------- |
@@ -32,11 +36,13 @@ Madrassting lager en usynlig søm ved å plukke opp horisontale tråder én mask
 | Attersting                     | Valgfri retning                      | Kraftig innside    | Veskehåndtak, belastede sømmer    |
 | Madrassting ved isetting ermer | Vertikal kant mot blandet kantforløp | I stor grad skjult | Isydde ermer, ermehull            |
 
+</div>
+
 Den praktiske regelen for gensere: madrassting til vertikale sømmer, horisontalt madrassting eller sammenstrikket avfelling til mange skuldersømmer, og maskesting når oppskriften vil ha en usynlig skjøt mellom levende masker. Kastesting, attersting og andre metoder har mer spesifikke oppgaver.
 
 ## Madrassting, vertikale sømmer
 
-Dette er standardmetoden for sidesømmer og ermesømmer. Resultatet blir en usynlig sammenføying som ser ut som sammenhengende strikk.
+Dette er standardmetoden for sidesømmer og de lange sømmene under ermer. Fremgangsmåten nedenfor gjelder glattstrikk; rillestrikk har andre innstikkspunkter. Resultatet blir en usynlig sammenføying som ser ut som sammenhengende strikk.
 
 Legg begge delene flatt, med rettsiden opp og kantene mot hverandre. Tre en butt stoppenål med matchende garn, eller med et glatt garn i samme farge hvis prosjektgarnet er strukturert eller skjørt.
 
@@ -46,7 +52,21 @@ Start nederst. Før nålen under den horisontale tråden mellom første og andre
 
 Arbeid konsekvent. Samme antall tråder på hver side. Hvis du plukker opp én tråd på høyre side og to på venstre, begynner sømmen å vandre. I glattstrikk er grunnrytmen én tråd per side per pinne.
 
-Madrassting fungerer i glattstrikk, omvendt glattstrikk og rillestrikk, men rillestrikk krever et annet grep. Plukk opp den øverste løkken i rillen på den ene siden og den nederste løkken i tilsvarende rille på den andre. Da hekter rillene seg i hverandre og sømmen blir vanskelig å se.
+### Madrassting i rillestrikk
+
+Her syr du **sidekant mot sidekant**, med rillene på tvers av sømmen. Dette er ikke en sammenføyning av oppleggs- eller avfellingskanter. Bruk en butt stoppenål og matchende garn.
+
+**1. Legg delene riktig vei.** Legg dem ved siden av hverandre med den siden som skal vende ut, opp. Ha oppleggskantene nederst og rillene på samme høyde. Fest gjerne noen riller mot hverandre med markører.
+
+**2. Finn buene ved kanten.** Strekk kanten lett fra hverandre. Rillen har en nedre U-bue og en øvre bue som en omvendt U. Plukk opp den ytterste U-buen på venstre del og den ytterste øvre buen på høyre del. Helt ved kanten ser U-buen ofte litt sammenklemt ut under den tydeligere øvre buen. Før nålen nedenfra og opp **under buen**, uten å dele garnet. Her arbeider du helt ved kanten, ikke én hel maske innenfor som i glattstrikk.
+
+**3. Sy vekselvis fra side til side.** Begynn i nederste rille og la det være en garnende til festing. Gå under U-buen på venstre del, så under den øvre buen i samme rille på høyre del. Fortsett med neste rille opp på samme måte. Behold samme type bue på hver side hele veien, og la stingene ligge løst mens du syr.
+
+**4. Trekk sammen litt om gangen.** Etter noen sting trekker du forsiktig i sømgarnet til kantene møtes. Glatt ut arbeidet: rillene skal fortsette over skjøten uten folder, og sømmen skal kunne følge strikkens strekk. Har kanten trukket seg sammen i lengden, løsner du de siste stingene og fordeler garnet på nytt. Fest endene når sømmen er jevn.
+
+Kantmasker som er tatt løst av, kan se annerledes ut. Finn buene på en prøvelapp før du syr plagget.
+
+Se også nærbilder hos [Nimble Needles](https://nimble-needles.com/tutorials/seaming-garter-stitch-for-beginners/) og demonstrasjonen hos [Purl Soho](https://www.purlsoho.com/create/seaming-garter-stitch/).
 
 ### Omvendt glattstrikk og strukturerte flater
 
@@ -98,11 +118,19 @@ Det passer der holdbarhet er viktig: veskehåndtak, skuldersømmer på tunge pla
 
 ## Sette inn ermer
 
-Å sy en ermetopp inn i et ermehull føyer sammen en avfelt kant med en blanding av avfelte masker og pinnekanter. Det er en av de vanskeligere sømmene i plaggkonstruksjon.
+### Madrassting langs ermet
 
-Fest ermet i ermehullet først. Match midten av ermetoppen mot skuldersømmen og legg underarmskantene mot hverandre. Fordel eventuell ekstra vidde jevnt. Sy deretter med madrassting eller attersting rundt kurven.
+Når et erme er strikket flatt, lukker den lange sømmen fra mansjetten mot underarmen ermet til et rør. Her møtes to sidekanter. På rette partier bruker du vertikale madrassting som beskrevet over, eller rillestrikkvarianten hvis ermet er strikket i riller. Pass på at mansjett og eventuelle striper møtes. Denne sømmen fester ikke ermet til bolen.
+
+### En formet ermetopp i ermehullet
+
+Å sy en formet ermetopp inn i et ermehull er en annen oppgave: langs kurven møtes både pinnekanter, skrå partier og avfelte masker. Du kan derfor ikke bruke én fast pinne-mot-pinne-rytme hele veien.
+
+Fest ermet i ermehullet først. Match midten av ermetoppen mot skuldersømmen og legg underarmskantene mot hverandre. Fordel eventuell ekstra vidde jevnt, uten folder. Følg oppskriftens monteringsrekkefølge og sømmetode; madrassting må tilpasses kantene langs kurven, mens attersting er et alternativ når oppskriften angir det.
 
 Utfordringen er at ermetoppen og ermehullet er formet ulikt og kan ha ulike maske-til-pinne-forhold langs kurven. Festing før du syr reduserer risikoen for forskyvning og folder. Bruk låsbare maskemarkører eller rustfrie T-nåler. Tynne rette synåler glir lett ut av strikk og bøyer seg.
+
+På plagg strikket i flate deler kan ermetoppen ofte sys i etter skuldersømmene, før du lukker erme- og sidesømmene. [Modern Daily Knitting viser forskjellen mellom denne monteringen og å sette et ferdig ermerør i et ermehull](https://www.moderndailyknitting.com/community/how-to-set-in-a-sleeve/).
 
 Isydde ermer er den vanskeligste varianten. Raglan og nedsenket skulder er enklere fordi skjøtene er rette linjer. Ved nedsenket skulder møter en vertikal kant en avfelt horisontal kant, en T-skjøt som håndteres med samme tanke som når horisontale og vertikale deler møtes ved en halsutringning.
 

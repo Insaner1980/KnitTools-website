@@ -1,7 +1,7 @@
 ---
-title: "Free knitting calculators: tools every knitter needs"
-browserTitle: "Free Knitting Calculators: Tools Every Knitter Needs"
-description: "Free knitting calculators and reference tools for cast-on stitches, yarn estimates, gauge math, needle sizes, yarn weights, abbreviations, and size charts."
+title: "Free knitting calculators: stitches and yarn"
+browserTitle: "Free Knitting Calculators: Stitches and Yarn"
+description: "Calculate cast-on stitches and estimate yarn with two free calculators. Learn how to space increases and decreases by hand, with links to knitting charts."
 category: "app-tools"
 categoryOrder: 5
 publishDate: "2026-05-01"
@@ -10,19 +10,24 @@ tags:
   - "free knitting calculators"
   - "cast on calculator"
   - "yarn calculator"
-  - "gauge converter"
+  - "gauge calculations"
   - "knitting tools"
 ---
 
-Knitting involves more arithmetic than most people expect. How many stitches to cast on for a 9-inch-wide scarf at your gauge. How much yarn a blanket will eat. How to space 8 increases evenly across 64 stitches. None of this is hard math, but it comes up constantly, and getting it wrong means frogging back to the cast-on row after three evenings of work.
+Start with these two free calculators, which work directly in your browser:
 
-The public tools here cover the two decisions that cause the most expensive mistakes: cast-on stitch counts and yarn quantity. This article also explains the companion math for gauge conversion, increase and decrease spacing, and reference lookups, so you know when a calculator is enough and when the pattern still needs judgment.
+- [Calculate how many stitches to cast on](/tools/cast-on-calculator/) from your gauge and desired width.
+- [Estimate how much yarn you need](/tools/yarn-estimator/) from your project type, size, and yarn weight.
+
+The article also includes written guidance for converting gauge and spacing increases and decreases by hand, plus links to reference charts. Those sections explain manual methods and lookups; they are not interactive calculators.
+
+Knitting involves more arithmetic than most people expect. How many stitches to cast on for a 9-inch-wide scarf at your gauge. How much yarn a blanket will eat. How to space 8 increases evenly across 64 stitches. None of this is hard math, but it comes up constantly, and getting it wrong means frogging back to the cast-on row after three evenings of work.
 
 ## Cast on calculator
 
 You know your gauge from your swatch and you know how wide you want the piece. The [Cast On Calculator](/tools/cast-on-calculator/) multiplies those numbers and rounds to the nearest even stitch count, which is a useful default for many ribbing and stitch-pattern setups.
 
-The formula is simple enough to do in your head for plain stockinette. It stops being simple when your stitch pattern repeats over 6 stitches plus 2 balancing stitches and you need a number that satisfies both the repeat and the width. That's when a calculator earns its keep.
+The formula is simple enough to do in your head for plain stockinette. It stops being simple when your stitch pattern repeats over 6 stitches plus 2 balancing stitches and you need a number that satisfies both the repeat and the width. The calculator gives you a starting count; you adjust for stitch repeats and edge stitches yourself.
 
 A worked example: gauge is 5.5 stitches per inch, target width 9 inches, stitch pattern is a 6-stitch cable repeat plus 4 edge stitches in stockinette. Raw math gives 49.5 stitches, so an even-number calculator result is 50. If you subtract 4 edge stitches, 46 pattern stitches remain, and 46 does not divide by 6. Adjusting to 52 stitches gives you 48 pattern stitches plus 4 edge stitches, so the cables line up cleanly.
 
@@ -38,17 +43,19 @@ The [Yarn Estimator](/tools/yarn-estimator/) on this site covers garments, hats,
 
 A practical buffer for sweaters and larger projects is one full skein over the estimate, especially when the yarn has a dye lot. For socks and small projects, avoid buying exactly to the estimate unless you already know the pattern, yarn, and your own tension well. Dye lot risk is real, especially with hand-dyed yarn and discontinued commercial lines, and the cost of one extra skein up front is usually lower than the cost of finishing a sweater short with no matching yarn available later.
 
-## Gauge conversion math
+## Convert gauge by hand
 
 Your swatch gives you 22 stitches over 4 inches but the pattern specifies gauge per 10 cm. Or you measured over 2 inches and need to scale up. Simple division in theory. Easy to mess up when you're converting between metric and imperial and scaling from a small swatch at the same time.
 
-Gauge conversion is less frequently needed than cast-on or yardage math, but when you need it, doing the conversion by hand is exactly the kind of mental arithmetic that goes wrong while you're also counting stitches. The [gauge measurement guide](/articles/how-to-measure-knitting-gauge/) covers how to get a reliable swatch reading before you convert anything.
+To calculate stitches per 10 cm by hand, divide the stitch count by the measured width in centimeters, then multiply by 10. There is no separate interactive gauge converter here. The [gauge measurement guide](/articles/how-to-measure-knitting-gauge/) covers how to get a reliable swatch reading before you convert anything.
 
-## Increase/decrease spacing math
+## Space increases and decreases evenly by hand
+
+This is a manual method, not an interactive increase/decrease calculator.
 
 Pattern says "increase 12 stitches evenly across the next row." 80 stitches on the needle. Where do the increases go?
 
-Divide 80 by 12 and you get 6.67, which means some intervals are 6 stitches and some are 7. A written spacing plan tells you which intervals are shorter and which are longer, so the distribution actually looks even. Spacing 4 increases by hand is manageable. Spacing 18 increases across 142 stitches is calculator territory.
+Divide 80 by 12 and you get 6.67, which means some intervals are 6 stitches and some are 7. A written spacing plan tells you which intervals are shorter and which are longer, so the distribution actually looks even. Spacing 4 increases by hand is manageable. For 18 increases across 142 stitches, writing out the spacing before you knit is especially helpful.
 
 Any shaping row benefits: sleeve increases, yoke decreases, [ribbing transitions](/articles/increase-decrease-evenly/) where the stitch count changes between sections, raglan shaping where four sets of decreases happen on alternating rows.
 
@@ -82,7 +89,7 @@ The free calculators and reference pages on this site handle the most common kni
 The arithmetic can be exact, but the useful answer depends on the inputs and the rounding rule. One calculator rounds to the nearest whole number, another to the nearest even number, a third may round to the nearest multiple of 4 for a 2x2 rib. Check what your pattern requires and use a calculator that matches those constraints.
 
 **Can I use knitting calculators without knowing my gauge?**
-Cast-on math and gauge conversion both need a gauge measurement from your swatch. No shortcut around that. A yarn estimator can give a ballpark without gauge since it works from project type and yarn weight, but the estimate is rougher.
+The cast-on calculator and manual gauge conversion both need a gauge measurement from your swatch. No shortcut around that. A yarn estimator can give a ballpark without gauge since it works from project type and yarn weight, but the estimate is rougher.
 
 **Why not just do the math by hand?**
 You can. The calculator does the gauge-and-width calculation and rounds the result to the nearest even number. For a pattern with a 7-stitch repeat, adjust the result manually so the pattern stitches form complete repeats, with any edge stitches accounted for separately.

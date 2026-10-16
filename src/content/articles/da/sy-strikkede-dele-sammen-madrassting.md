@@ -18,9 +18,13 @@ translationKey: "seam-knitted-pieces"
 
 Sammensyning er den mindst glamourøse del af strik, og den del der lettest bliver udskudt. En bunke færdige sweaterdele kan ligge i en projektpose i ugevis, fordi ingen glæder sig til at sy dem sammen. Men en god søm er usynlig, og en dårlig søm kan ødelægge et ellers velstrikket stykke tøj. Forskellen mellem en sweater der ser hjemmelavet ud, og en sweater der ser håndlavet ud, ligger næsten altid i monteringen.
 
-Madrassting laver en usynlig søm ved at samle de vandrette lænker op én maske inde fra kanten på hver del og trække dem sammen, så samlingen ligner sammenhængende stof. Metoden afhænger af sømmens retning: lodrette kanter, vandrette kanter, formede dele ind i åbninger eller levende masker mod levende masker.
+I glatstrik laver madrassting en usynlig søm ved at samle de vandrette lænker op én maske inde fra kanten på hver del og trække dem sammen, så samlingen ligner sammenhængende stof. Metoden afhænger af sømmens retning: lodrette kanter, vandrette kanter, formede dele ind i åbninger eller levende masker mod levende masker.
+
+Skal du sy retstrik sammen eller montere ærmer? Gå direkte til [madrassting i retstrik](#madrassting-i-retstrik) eller [ærmesømme og isyning af ærmer](#isyning-af-ærmer).
 
 ## Sømmetoder sammenlignet
+
+<div role="region" aria-label="Sømmetoder sammenlignet" tabindex="0" style="overflow-x: auto;">
 
 | Metode                       | Retning                         | Synlighed              | Bedst til                          |
 | ---------------------------- | ------------------------------- | ---------------------- | ---------------------------------- |
@@ -32,11 +36,13 @@ Madrassting laver en usynlig søm ved at samle de vandrette lænker op én maske
 | Bagsting                     | Alle retninger                  | Fyldigere indvendigt   | Taskestropper, belastede sømme     |
 | Madrassting til ærmer        | Lodret mod blandet kant         | Mest skjult            | Isyede ærmer, ærmegab              |
 
+</div>
+
 Den praktiske regel for sweaterkonstruktion: madrassting til lodrette sømme, horisontalt madrassting eller aflukning med tre pinde til mange skuldersømme og maskesting, når opskriften vil have en sammenmaskning af levende masker. Kastesting, bagsting og de andre metoder løser mere specifikke problemer.
 
 ## Madrassting (lodrette sømme)
 
-Standardmetoden til sidesømme og ærmesømme. Den giver en usynlig samling, der ligner sammenhængende strik.
+Madrassting er standardmetoden til sidesømme og de lange sømme under ærmerne. Fremgangsmåden her gælder glatstrik; i retstrik syr du under andre løkker. Samlingen kommer til at ligne sammenhængende strik.
 
 Læg begge dele fladt med retsiden opad og kanterne mod hinanden. Tråd en stump stoppenål med matchende garn eller et glat garn i samme farve, hvis projektgarnet er struktureret eller skrøbeligt.
 
@@ -46,7 +52,21 @@ Start nederst. Før nålen under den vandrette lænke mellem første og anden ma
 
 Arbejd konsekvent. Samme antal lænker på hver side. Hvis du tager én lænke på højre side og to på venstre, begynder sømmen at drive. I glatstrik er det én lænke på hver side for hver pind.
 
-Madrassting virker i glatstrik, omvendt glatstrik og retstrik, men retstrik er lidt anderledes. Tag øverste løkke af rillen på den ene side og nederste løkke af den tilsvarende rille på den anden. Så låser rillerne sig ind i hinanden, og sømmen bliver usynlig.
+### Madrassting i retstrik
+
+Her syr du **sidekant mod sidekant**, så retrillerne går på tværs af sømmen. Det er ikke en sammensyning af opslags- eller aflukningskanter. Brug en stump stoppenål og garn, der passer til arbejdet.
+
+**1. Læg delene til rette.** Læg dem ved siden af hinanden med de sider, der skal vende udad, opad. Lad opslagskanterne ligge nederst, og sørg for, at rillerne ligger ud for hinanden. Hold gerne nogle af rillerne sammen med låsbare maskemarkører.
+
+**2. Find løkkerne ved kanten.** Træk forsigtigt kanten lidt fra hinanden. Rillen har en nedre U-formet løkke og en øvre løkke som et omvendt U. Tag den yderste nedre løkke på venstre del og den yderste øvre løkke på højre del. Helt ude ved kanten ser den nedre løkke ofte lidt klemt ud under den tydeligere øvre løkke. Før nålen nedefra og op **under løkken** uden at stikke gennem selve garnet. Her syr du helt ude ved kanten, ikke en hel maske inde som i glatstrik.
+
+**3. Sy skiftevis fra side til side.** Begynd i den nederste rille, og lad en garnende være fri til hæftning. Før nålen under den nedre løkke til venstre og derefter under den øvre løkke i den tilsvarende rille til højre. Fortsæt på samme måde i næste rille opad. Brug samme slags løkke på hver side hele vejen, og lad stingene være løse, mens du syr.
+
+**4. Træk sammen lidt ad gangen.** Efter nogle få sting trækker du forsigtigt i garnet, til kanterne mødes. Glat strikket ud: rillerne skal fortsætte hen over samlingen uden folder, og sømmen skal kunne give sig sammen med strikket. Hvis kanten er trukket sammen på langs, så løsn de sidste sting, og fordel garnet igen. Hæft enderne, når sømmen er jævn.
+
+Kantmasker, der er taget løst af, kan se anderledes ud. Find løkkerne på en strikkeprøve, før du syr tøjet sammen.
+
+Se nærbillederne hos [Nimble Needles](https://nimble-needles.com/tutorials/seaming-garter-stitch-for-beginners/) og demonstrationen hos [Purl Soho](https://www.purlsoho.com/create/seaming-garter-stitch/). Begge vejledninger er på engelsk.
 
 ### Omvendt glatstrik og strukturmønstre
 
@@ -96,11 +116,19 @@ Bedst hvor holdbarhed betyder noget: taskestropper, skuldersømme på tunge swea
 
 ## Isyning af ærmer
 
-At sy en ærmekuppel ind i et ærmegab forbinder en aflukket kant med en blanding af aflukkede masker og sidekanter. Det er den mest krævende søm i tøjkonstruktion.
+### Sy ærmets lange søm
 
-Sæt ærmet fast i ærmegabet med markører eller rustfri T-nåle først. Midten af ærmekuplen skal møde skuldersømmen, og underarmskanterne skal ligge ud for hinanden. Fordel den ekstra længde jævnt. Sy derefter med madrassting eller bagsting rundt langs kurven.
+Når et ærme er strikket frem og tilbage, lukker den lange søm fra manchetten til underarmen ærmet til et rør. Her mødes to sidekanter. Brug lodrette madrassting på de lige stykker eller retstrikvarianten ovenfor, hvis ærmet er strikket i retstrik. Sørg for, at manchetkanter og eventuelle striber mødes. Denne søm sætter ikke ærmet fast på kroppen.
+
+### Sy en formet ærmekuppel i ærmegabet
+
+At sætte en formet ærmekuppel i et ærmegab er en anden opgave. Langs kurven mødes sidekanter, skrå stykker og aflukkede masker. Derfor kan du ikke sy med den samme faste pind-mod-pind-rytme hele vejen rundt.
+
+Sæt først ærmet fast i ærmegabet med markører eller rustfri T-nåle. Midten af ærmekuplen skal møde skuldersømmen, og underarmskanterne skal ligge ud for hinanden. Fordel eventuel ekstra vidde jævnt uden folder. Følg opskriftens monteringsrækkefølge og valg af søm: madrasstingene skal tilpasses kanterne langs kurven. Bagsting er et alternativ, når opskriften angiver det.
 
 Udfordringen er, at ærmekuppel og ærmegab er formet forskelligt og kan have forskellige maske-til-pind-forhold langs kurven. Nåle før syning forhindrer forskydning og små folder. Brug låsbare maskemarkører eller rustfri T-nåle, ikke almindelige synåle, som let glider ud af strik og bøjer.
+
+På tøj strikket i separate, flade dele kan ærmekuplerne ofte sys i efter skuldersømmene, før ærme- og sidesømmene lukkes. [Modern Daily Knitting viser forskellen på denne montering og at sætte et færdigt ærmerør i et ærmegab](https://www.moderndailyknitting.com/community/how-to-set-in-a-sleeve/) (på engelsk).
 
 Isyede ærmer er den svære version. Raglan og sænkede skuldre er enklere, fordi samlingerne er lige linjer. Sænkede skuldre kræver ofte bare madrassting langs en lodret kant mod en aflukket vandret kant, en T-samling der håndteres på samme måde som en vandret-til-lodret halsopsamling.
 

@@ -17,9 +17,13 @@ translationKey: "seam-knitted-pieces"
 
 Saumaaminen on neulomisen vähiten hohdokas osa ja se, jota lykätään helpoimmin. Valmiiden villapaitakappaleiden pino voi maata projektipussissa viikkoja, koska niiden ompeleminen yhteen ei varsinaisesti houkuttele. Hyvä sauma on kuitenkin näkymätön, ja huono sauma voi pilata muuten hyvin neulotun vaatteen. Ero kotikutoisen näköisen ja käsin tehdyn näköisen neuleen välillä on usein viimeistelyssä.
 
-Patjapisto tekee näkymättömän sauman poimimalla vaakalankoja yhden silmukan päässä kummankin kappaleen reunasta ja vetämällä ne yhteen niin, että liitos näyttää yhtenäiseltä neulepinnalta. Käytettävä tapa riippuu sauman suunnasta: pystysuorat reunat, kuten sivusaumat, vaakasuorat reunat, kuten olkasaumat, muotoillut kappaleet aukkoihin, kuten hihat, tai elävät silmukat eläviin silmukoihin.
+Sileässä neuleessa patjapisto tekee näkymättömän sauman poimimalla vaakalankoja yhden silmukan päässä kummankin kappaleen reunasta ja vetämällä ne yhteen niin, että liitos näyttää yhtenäiseltä neulepinnalta. Käytettävä tapa riippuu sauman suunnasta: pystysuorat reunat, kuten sivusaumat, vaakasuorat reunat, kuten olkasaumat, muotoillut kappaleet aukkoihin, kuten hihat, tai elävät silmukat eläviin silmukoihin.
+
+Oletko yhdistämässä aina oikein -neuletta tai ompelemassa hihoja? Siirry suoraan kohtaan [patjapisto aina oikein -neuleessa](#patjapisto-aina-oikein--neuleessa) tai [hihasaumat ja hihojen istutus](#hihojen-istutus).
 
 ## Saumaustavat lyhyesti
+
+<div role="region" aria-label="Saumaustavat lyhyesti" tabindex="0" style="overflow-x: auto;">
 
 | Menetelmä                     | Suunta                              | Näkyvyys              | Paras käyttö                           |
 | ----------------------------- | ----------------------------------- | --------------------- | -------------------------------------- |
@@ -31,11 +35,13 @@ Patjapisto tekee näkymättömän sauman poimimalla vaakalankoja yhden silmukan 
 | Jälkipisto                    | Mikä tahansa                        | Paksu sisäpuolelta    | Laukun kahvat, kuormaa kantavat saumat |
 | Patjapisto hihan istutuksessa | Pystyreuna yhdistelmäreunaan        | Enimmäkseen piilossa  | Istutetut hihat, kädentiet             |
 
+</div>
+
 Käytännön sääntö villapaitaan: patjapisto pystysaumoihin, vaakasuora patjapisto tai kolmen puikon päättely moniin olkasaumoihin ja silmukointi silloin, kun ohje haluaa elävien silmukoiden jatkumon ilman harjannetta. Luotospisto, jälkipisto ja muut tavat täyttävät omat kapeammat tehtävänsä.
 
 ## Patjapisto pystysaumoihin
 
-Tavallinen tapa sivusaumoihin ja hihasaumoihin. Lopputuloksena on näkymätön liitos, joka näyttää yhtenäiseltä neulepinnalta.
+Patjapisto sopii sivusaumoihin ja hihan alapuolella kulkevaan pitkään saumaan. Seuraava ohje koskee sileää neuletta; aina oikein -neuleessa neula viedään eri lenkkien alta. Valmis sauma näyttää yhtenäiseltä neulepinnalta.
 
 Levitä molemmat kappaleet tasaisesti oikea puoli ylöspäin, reunat vastakkain. Pujota päättelyneulaan sopivaa lankaa, joko samaa lankaa tai sileää samanväristä lankaa, jos projektin lanka on teksturoitua tai haurasta.
 
@@ -45,7 +51,21 @@ Aloita alareunasta. Työnnä neula oikean kappaleen vaakalangan alta, ensimmäis
 
 Työskentele johdonmukaisesti. Sama määrä lankoja molemmilta puolilta. Jos poimit oikealta yhden langan ja vasemmalta kaksi, sauma alkaa vaeltaa. Sileässä neuleessa yksi lanka kummaltakin puolelta jokaiselta kerrokselta.
 
-Patjapisto toimii sileässä neuleessa, nurjassa sileässä ja ainaoikeassa, mutta ainaoikeassa tapa muuttuu: poimi harjanteen ylälenkki toiselta puolelta ja vastaavan harjanteen alalenkki toiselta. Harjanteet lukittuvat toisiinsa ja saumasta tulee näkymätön.
+### Patjapisto aina oikein -neuleessa
+
+Tässä yhdistetään **kappaleiden sivureunat**, jolloin aina oikein -neuleen harjanteet kulkevat poikittain saumaan nähden. Ohje ei koske luomis- tai päättelyreunojen yhdistämistä. Käytä tylppää päättelyneulaa ja neuleeseen sopivaa lankaa.
+
+**1. Asettele kappaleet.** Levitä kappaleet vierekkäin niin, että ulospäin tulevat puolet ovat ylöspäin. Aseta luomisreunat alas ja kohdista harjanteet. Voit kiinnittää muutaman harjanneparin toisiinsa lukittavilla silmukkamerkeillä.
+
+**2. Etsi reunimmaiset lenkit.** Avaa reunaa kevyesti sormilla. Harjanteessa näkyy alempi U:n muotoinen lenkki ja ylempi, ylösalaisen U:n muotoinen lenkki. Poimi vasemmasta kappaleesta reunimmainen alalenkki ja oikeasta reunimmainen ylälenkki. Aivan reunassa alalenkki jää usein hieman puristuksiin selvemmin erottuvan ylälenkin alle. Vie neula alhaalta ylöspäin **lenkin alta** halkaisematta lankaa. Ompele aivan reunasta, älä yhden silmukan päästä kuten sileässä neuleessa.
+
+**3. Ompele vuorotellen kummaltakin puolelta.** Aloita alimmasta harjanteesta ja jätä langanpäätä päättelyä varten. Vie neula vasemman kappaleen alalenkin alta ja sitten vastaavan harjanteen ylälenkin alta oikealla. Siirry seuraavaan harjanteeseen ja jatka samoin. Poimi kummaltakin puolelta aina samantyyppinen lenkki ja jätä pistot aluksi löysiksi.
+
+**4. Kiristä vähän kerrallaan.** Vedä ompelulankaa muutaman piston jälkeen varovasti, kunnes reunat kohtaavat. Tasoita neuletta: harjanteiden pitäisi jatkua sauman yli ilman poimuja, ja sauman pitää joustaa neuleen mukana. Jos reuna on vetäytynyt pituussuunnassa kasaan, löysää viimeisiä pistoja ja tasaa langankireys uudelleen. Päättele langanpäät, kun sauma on tasainen.
+
+Jos reunasilmukat on nostettu neulomatta, reuna voi näyttää erilaiselta. Etsi oikeat lenkit ensin mallitilkusta ennen kuin ompelet vaatteen saumat.
+
+Katso myös [Nimble Needlesin lähikuvat](https://nimble-needles.com/tutorials/seaming-garter-stitch-for-beginners/) ja [Purl Sohon video-ohje](https://www.purlsoho.com/create/seaming-garter-stitch/). Molemmat ohjeet ovat englanniksi.
 
 ### Nurja sileä ja pintaneuleet
 
@@ -97,11 +117,19 @@ Paras kohtiin, joissa kestävyys merkitsee: laukun kahvat, raskaiden vaatteiden 
 
 ## Hihojen istutus
 
-Hihan pyöriön yhdistäminen kädentiehen liittää päätellyn reunan yhdistelmään pääteltyjä silmukoita ja kerrosreunoja. Tämä on vaatteenrakennuksen monimutkaisin sauma.
+### Hihan pitkän sauman ompelu
 
-Neulaa hiha ensin kädentiehen. Kohdista hihan pyöriön keskikohta olkasaumaan ja kainaloreunat toisiinsa. Jaa väljyys tasaisesti. Ompele sen jälkeen patjapistolla tai jälkipistolla kaaren ympäri.
+Tasona neulotun hihan pitkä sauma kulkee ranteesta kainaloon ja sulkee hihan putkeksi. Siinä yhdistetään kaksi sivureunaa. Ompele suorat osuudet pystysauman patjapistolla tai käytä yllä olevaa aina oikein -neuleen ohjetta, jos hiha on neulottu aina oikein. Kohdista hihansuun reunat ja mahdolliset raidat. Tämä sauma ei vielä kiinnitä hihaa miehustaan.
+
+### Muotoillun hihanpyöriön istuttaminen kädentiehen
+
+Hihanpyöriön istuttaminen on eri työvaihe. Kaaren varrella yhdistetään sivureunoja, vinoja osuuksia ja pääteltyjä silmukoita. Siksi koko kaarta ei voi ommella samalla kerros kerrokselta etenevällä rytmillä.
+
+Kiinnitä hiha ensin kädentiehen. Kohdista pyöriön keskikohta olkasaumaan ja kainalokohdat vastakkain. Syötä mahdollinen ylimääräinen pituus tasaisesti niin, ettei saumaan jää poimuja. Noudata neuleohjeen kokoamisjärjestystä ja saumaustapaa: patjapiston poimintakohdat täytyy sovittaa reunan rakenteeseen. Jälkipisto on vaihtoehto silloin, kun ohjeessa neuvotaan käyttämään sitä.
 
 Haaste on siinä, että hihan pyöriö ja kädentie on muotoiltu eri tavalla, ja kaarella voi olla eri silmukka- ja kerrossuhteita. Neulaaminen ennen ompelua estää siirtymistä ja ryppyjä. Käytä lukittavia silmukkamerkkejä tai ruostumattomia T-neuloja, älä ohuita ompeluneuloja, jotka liukuvat neuleesta helposti pois ja taipuvat.
+
+Erillisinä tasokappaleina neulotussa vaatteessa hihanpyöriöt voi usein ommella paikoilleen olkasaumojen jälkeen, ennen hiha- ja sivusaumojen sulkemista. [Modern Daily Knitting näyttää, miten tämä eroaa valmiiksi putkeksi ommellun hihan istuttamisesta](https://www.moderndailyknitting.com/community/how-to-set-in-a-sleeve/) (englanniksi).
 
 Istuva hiha on vaikein versio. Raglan ja pudotettu olka ovat helpompia, koska liitokset ovat suoria linjoja. Pudotetussa olassa pystysuora reuna kohtaa päätellyn vaakareunan. Se on T-liitos, jonka ajatus on sama kuin vaakasuoran ja pystysuoran reunan yhdistämisessä pääntiellä.
 

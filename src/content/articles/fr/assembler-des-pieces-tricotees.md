@@ -18,9 +18,13 @@ translationKey: "seam-knitted-pieces"
 
 L'assemblage est la partie du tricot qu'on remet le plus volontiers à plus tard. Un tas de pièces de pull terminées peut rester des semaines dans un sac à projet, parce que coudre les côtés et les manches ne fait rêver personne. Mais une bonne couture se voit à peine, et une mauvaise peut gâcher un vêtement par ailleurs bien tricoté. La différence entre un ouvrage qui semble bricolé et un ouvrage qui semble fini tient souvent aux finitions.
 
-Le point de matelas crée une couture presque invisible en prenant les barres horizontales une maille à l'intérieur du bord sur chaque pièce, puis en les rapprochant pour que la jonction ressemble à un tricot continu. La méthode dépend du sens de la couture : bords verticaux pour les côtés, bords horizontaux pour les épaules, pièces façonnées dans des ouvertures comme les manches, ou mailles vivantes à assembler par grafting.
+En jersey endroit, le point de matelas crée une couture presque invisible en prenant les barres horizontales une maille à l'intérieur du bord sur chaque pièce, puis en les rapprochant pour que la jonction ressemble à un tricot continu. La méthode dépend du sens de la couture : bords verticaux pour les côtés, bords horizontaux pour les épaules, pièces façonnées dans des ouvertures comme les manches, ou mailles vivantes à assembler par grafting.
+
+Tu veux assembler du point mousse ou coudre des manches ? Va directement au [point de matelas sur du point mousse](#point-de-matelas-sur-du-point-mousse) ou aux [coutures et au montage des manches](#monter-les-manches).
 
 ## Méthodes d'assemblage comparées
+
+<div role="region" aria-label="Méthodes d'assemblage comparées" tabindex="0" style="overflow-x: auto;">
 
 | Méthode                             | Sens                                     | Visibilité            | À utiliser surtout pour                     |
 | ----------------------------------- | ---------------------------------------- | --------------------- | ------------------------------------------- |
@@ -32,11 +36,13 @@ Le point de matelas crée une couture presque invisible en prenant les barres ho
 | Point arrière                       | Tous sens                                | Intérieur plus épais  | Anses de sac, coutures qui portent du poids |
 | Point de matelas pour manche montée | Bord vertical vers bord mixte            | Souvent caché         | Manches montées, emmanchures                |
 
+</div>
+
 La règle pratique pour un pull : point de matelas pour les coutures verticales, point de matelas horizontal ou rabattage à trois aiguilles pour beaucoup d'épaules, et grafting quand le modèle veut une jonction invisible entre mailles vivantes. Le surjet, le point arrière et les autres méthodes servent des cas plus précis.
 
 ## Point de matelas, coutures verticales
 
-C'est la méthode standard pour les coutures de côtés et de manches. Elle crée une jonction presque invisible qui ressemble à un tricot continu.
+Le point de matelas est la méthode habituelle pour les côtés du vêtement et la longue couture sous chaque manche. Les explications ci-dessous concernent le jersey endroit ; au point mousse, on passe sous d’autres boucles. La jonction ressemble à un tricot continu.
 
 Pose les deux pièces à plat, endroit vers le haut, bords l'un contre l'autre. Enfile une aiguille à laine à bout rond avec le fil du projet, ou avec un fil lisse de la même couleur si le fil du projet est texturé ou fragile.
 
@@ -46,7 +52,21 @@ Commence en bas. Passe l'aiguille sous la barre horizontale entre la première e
 
 Reste régulière. Même nombre de barres de chaque côté. Si tu prends une barre à droite et deux à gauche, la couture se décale. En jersey, la base est une barre par côté et par rang.
 
-Le point de matelas fonctionne en jersey, en jersey envers et au point mousse, mais le point mousse demande un geste différent. Prends la boucle supérieure d'une côte d'un côté et la boucle inférieure de la côte correspondante de l'autre. Les côtes s'emboîtent et la couture devient difficile à repérer.
+### Point de matelas sur du point mousse
+
+Ici, tu assembles **deux lisières**, avec les reliefs du point mousse perpendiculaires à la couture. Il ne s’agit pas de joindre des bords de montage ou de rabattage. Utilise une aiguille à laine à bout rond et un fil assorti.
+
+**1. Aligne les pièces.** Pose-les côte à côte, avec les faces qui seront visibles sur le vêtement tournées vers toi. Place les bords de montage en bas et les reliefs à la même hauteur. Quelques marqueurs verrouillables peuvent les maintenir en place.
+
+**2. Repère les boucles au bord.** Écarte légèrement la lisière avec les doigts. Chaque relief présente des boucles basses en forme de U et des boucles hautes en forme de U renversé. Prends la boucle basse la plus proche du bord sur la pièce de gauche, puis la boucle haute la plus proche du bord sur celle de droite. Tout au bord, la boucle basse paraît souvent un peu écrasée sous la boucle haute, plus visible. Glisse l’aiguille de bas en haut **sous la boucle**, sans piquer dans le fil. Tu travailles ici au bord même, et non à une maille de la lisière comme en jersey.
+
+**3. Alterne entre les deux pièces.** Commence par le relief du bas en laissant une longueur de fil à rentrer. Passe sous la boucle basse à gauche, puis sous la boucle haute du relief correspondant à droite. Continue de la même façon sur le relief suivant. Garde le même type de boucle de chaque côté et laisse le fil de couture souple pendant que tu avances.
+
+**4. Resserre progressivement.** Après quelques points, tire doucement sur le fil pour rapprocher les bords. Mets le tricot à plat : les reliefs doivent se prolonger de part et d’autre sans plis, et la couture doit rester extensible. Si elle raccourcit le bord, desserre les derniers points et répartis à nouveau le fil. Rentre les extrémités lorsque la tension est régulière.
+
+Les lisières à mailles glissées peuvent avoir un aspect différent. Repère les boucles sur un échantillon avant de coudre le vêtement.
+
+Tu peux consulter les gros plans de [Nimble Needles](https://nimble-needles.com/tutorials/seaming-garter-stitch-for-beginners/) et la démonstration de [Purl Soho](https://www.purlsoho.com/create/seaming-garter-stitch/). Ces deux ressources sont en anglais.
 
 ### Jersey envers et textures
 
@@ -98,11 +118,19 @@ Utilise-le quand la résistance compte : anses de sac, coutures d'épaules sur v
 
 ## Monter les manches
 
-Assembler une tête de manche à une emmanchure relie un bord rabattu à un mélange de mailles rabattues et de bords de rangs. C'est l'une des coutures les plus délicates dans la construction d'un vêtement.
+### Fermer la couture sous la manche
 
-Épingle d'abord la manche dans l'emmanchure. Fais correspondre le centre de la tête de manche avec la couture d'épaule et aligne les dessous de bras. Répartis l'aisance régulièrement. Couds ensuite autour de la courbe au point de matelas ou au point arrière.
+Pour une manche tricotée à plat, la longue couture du poignet à l’aisselle ferme la manche en tube. Elle réunit deux lisières. Sur les parties droites, utilise le point de matelas vertical ou la variante ci-dessus si la manche est au point mousse. Fais coïncider les bords du poignet et les éventuelles rayures. Cette couture ne fixe pas encore la manche au corps du vêtement.
+
+### Monter une tête de manche façonnée dans l’emmanchure
+
+Monter une tête de manche façonnée est une autre opération. Le long de l’arrondi, tu rencontres des bords de rangs, des parties inclinées et des mailles rabattues. Tu ne peux donc pas garder le même rythme rang contre rang sur tout le pourtour.
+
+Épingle d’abord la manche dans l’emmanchure. Fais correspondre le milieu de la tête de manche à la couture d’épaule et aligne les dessous de bras. Répartis l’éventuel embu régulièrement, sans former de plis. Respecte l’ordre de montage et la couture indiqués dans le modèle : au point de matelas, les endroits où tu piques doivent suivre la structure des bords. Le point arrière est une autre possibilité lorsque le modèle le prévoit.
 
 La difficulté vient du fait que la tête de manche et l'emmanchure n'ont pas la même forme et peuvent avoir des rapports maille/rang différents sur la courbe. Épingler avant de coudre limite les décalages et les fronces. Utilise des marqueurs verrouillables ou des épingles en T inoxydables. Les petites épingles de couture sortent souvent du tricot et se tordent.
+
+Pour un vêtement tricoté à plat en pièces séparées, on peut souvent monter les têtes de manches après les coutures d’épaules, avant de fermer les manches et les côtés. [Modern Daily Knitting montre la différence avec le montage d’une manche déjà fermée en tube](https://www.moderndailyknitting.com/community/how-to-set-in-a-sleeve/) (en anglais).
 
 Les manches montées sont la version la plus exigeante. Le raglan et les épaules tombantes sont plus directs, parce que les jonctions suivent des lignes droites. Avec une épaule tombante, un bord vertical rencontre souvent un bord horizontal rabattu : c'est une jonction en T, à traiter avec la même logique qu'un bord horizontal et un bord vertical près d'une encolure.
 

@@ -18,9 +18,13 @@ translationKey: "seam-knitted-pieces"
 
 Montering är den del av stickningen som lättast skjuts upp. En hög färdiga tröjdelar kan ligga i en projektpåse i veckor, eftersom få längtar efter att sy ihop dem. Men en bra söm är osynlig, och en dålig söm kan förstöra ett annars välstickat plagg. Skillnaden mellan något som ser hemgjort ut och något som ser handstickat ut sitter ofta i avslutningen.
 
-Madrassöm skapar en osynlig söm genom att plocka upp horisontella trådar en maska in från kanten på varje del och dra ihop dem så att skarven ser ut som sammanhängande stickning. Metoden beror på sömmens riktning: vertikala kanter som sidsömmar, horisontella kanter som axelsömmar, formade delar in i öppningar som ärmar eller levande maskor som ska fogas ihop med maskstygn.
+I slätstickning skapar madrassöm en osynlig söm genom att plocka upp horisontella trådar en maska in från kanten på varje del och dra ihop dem så att skarven ser ut som sammanhängande stickning. Metoden beror på sömmens riktning: vertikala kanter som sidsömmar, horisontella kanter som axelsömmar, formade delar in i öppningar som ärmar eller levande maskor som ska fogas ihop med maskstygn.
+
+Ska du sy ihop rätstickning eller montera ärmar? Gå direkt till [madrassöm i rätstickning](#madrassöm-i-rätstickning) eller [ärmsömmar och isättning av ärmar](#sätta-i-ärmar).
 
 ## Sömmetoder jämförda
+
+<div role="region" aria-label="Sömmetoder jämförda" tabindex="0" style="overflow-x: auto;">
 
 | Metod                         | Riktning                            | Synlighet            | Passar bäst till              |
 | ----------------------------- | ----------------------------------- | -------------------- | ----------------------------- |
@@ -32,11 +36,13 @@ Madrassöm skapar en osynlig söm genom att plocka upp horisontella trådar en m
 | Efterstygn                    | Valfri riktning                     | Grov insida          | Väskhandtag, belastade sömmar |
 | Madrassöm vid isättning ärmar | Vertikal kant mot blandad kantlinje | Till stor del dold   | Isydda ärmar, ärmhål          |
 
+</div>
+
 Den praktiska regeln för tröjor: madrassöm till vertikala sömmar, horisontell madrassöm eller avmaskning med tre stickor till många axelsömmar och maskstygn när mönstret vill ha en osynlig fog mellan levande maskor. Kaststygn, efterstygn och andra metoder har mer specifika uppgifter.
 
 ## Madrassöm, vertikala sömmar
 
-Det här är standardmetoden för sidsömmar och ärmsömmar. Resultatet blir en osynlig fog som ser ut som sammanhängande stickning.
+Det här är standardmetoden för sidsömmar och de långa sömmarna under ärmarna. Beskrivningen nedan gäller slätstickning; i rätstickning plockar du upp andra öglor. Resultatet blir en osynlig fog som ser ut som sammanhängande stickning.
 
 Lägg båda delarna plant, med rätsidan upp och kanterna mot varandra. Trä en trubbig stoppnål med matchande garn, eller med ett slätt garn i samma färg om projektgarnet är strukturerat eller skört.
 
@@ -46,7 +52,21 @@ Börja längst ned. För in nålen under den horisontella tråden mellan första
 
 Arbeta konsekvent. Samma antal trådar på varje sida. Om du plockar upp en tråd på höger sida och två på vänster börjar sömmen vandra. I slätstickning är grundtakten en tråd per sida per varv.
 
-Madrassöm fungerar i slätstickning, avigvänd slätstickning och rätstickning, men rätstickning kräver ett annat grepp. Plocka upp den övre öglan i åsen på ena sidan och den nedre öglan i motsvarande ås på den andra. Då hakar åsarna i varandra och sömmen blir svår att se.
+### Madrassöm i rätstickning
+
+Här syr du ihop **två sidkanter**, med de rätstickade åsarna tvärs över sömmen. Beskrivningen gäller inte uppläggnings- eller avmaskningskanter. Använd en trubbig stoppnål och garn som passar till arbetet.
+
+**1. Lägg delarna till rätta.** Lägg dem bredvid varandra med de sidor som ska synas utåt vända uppåt. Ha uppläggningskanterna längst ned och passa ihop åsarna. Fäst gärna några åsar mot varandra med låsbara markörer.
+
+**2. Hitta öglorna vid kanten.** Dra försiktigt isär kanten med fingrarna. I åsen finns en nedre U-formad ögla och en övre ögla som ett uppochnedvänt U. Plocka upp den yttersta nedre öglan på vänster del och den yttersta övre öglan på höger del. Precis vid kanten kan den nedre öglan ligga lite hoptryckt under den tydligare övre öglan. För nålen nedifrån och upp **under öglan**, utan att dela garnet. Här syr du längst ute vid kanten, inte en hel maska in som i slätstickning.
+
+**3. Sy växelvis från sida till sida.** Börja i den nedersta åsen och lämna en garnände att fästa. För nålen under den nedre öglan till vänster och sedan under den övre öglan i motsvarande ås till höger. Fortsätt likadant i nästa ås uppåt. Plocka upp samma sorts ögla på respektive sida hela vägen och låt stygnen vara lösa medan du syr.
+
+**4. Dra ihop lite i taget.** Efter några stygn drar du försiktigt i garnet du syr med tills kanterna möts. Släta ut stickningen: åsarna ska fortsätta över skarven utan veck, och sömmen ska kunna töjas med plagget. Om kanten har dragits ihop på längden, lossa de senaste stygnen och fördela garnet på nytt. Fäst ändarna när sömmen är jämn.
+
+Lyfta kantmaskor kan se annorlunda ut. Leta upp öglorna på en provlapp innan du syr ihop plagget.
+
+Se närbilderna hos [Nimble Needles](https://nimble-needles.com/tutorials/seaming-garter-stitch-for-beginners/) och genomgången hos [Purl Soho](https://www.purlsoho.com/create/seaming-garter-stitch/). Båda är på engelska.
 
 ### Avigvänd slätstickning och strukturerade ytor
 
@@ -98,11 +118,19 @@ Det passar där hållbarhet är viktig: väskhandtag, axelsömmar på tunga plag
 
 ## Sätta i ärmar
 
-Att sy fast en ärmkulle i ett ärmhål fogar ihop en avmaskad kant med en blandning av avmaskade maskor och varvkanter. Det är en av de svårare sömmarna i plaggkonstruktion.
+### Sy ärmens långa söm
 
-Nåla fast ärmen i ärmhålet först. Matcha mitten av ärmkullen mot axelsömmen och lägg underarmskanterna mot varandra. Fördela eventuell extra vidd jämnt. Sy sedan med madrassöm eller efterstygn runt kurvan.
+På en ärm som är stickad fram och tillbaka går den långa sömmen från mudden till armhålan och sluter ärmen till ett rör. Här möts två sidkanter. Sy de raka partierna med vanlig vertikal madrassöm, eller använd rätstickningsvarianten ovan om ärmen är rätstickad. Passa ihop muddkanterna och eventuella ränder. Den här sömmen fäster inte ärmen vid bålen.
+
+### Sy fast en formad ärmkulle i ärmhålet
+
+Att sätta i en formad ärmkulle är ett annat moment. Längs rundningen möts varvkanter, sneda partier och avmaskade maskor. Därför kan du inte sy varv mot varv i samma takt hela vägen.
+
+Nåla först fast ärmen i ärmhålet. Passa in ärmkullens mitt mot axelsömmen och lägg underarmskanterna mot varandra. Fördela eventuell extra vidd jämnt utan att det bildas veck. Följ mönstrets monteringsordning och val av söm: madrassömmen behöver anpassas efter kanterna längs rundningen. Efterstygn är ett alternativ när mönstret anger det.
 
 Utmaningen är att ärmkullen och ärmhålet är formade olika och kan ha olika mask-till-varv-förhållanden längs kurvan. Nåla innan du syr, så minskar risken för förskjutning och veck. Använd låsbara markörer eller rostfria T-nålar. Tunna raka synålar glider lätt ur stickat och böjs.
+
+På plagg som stickas i separata, plana delar går det ofta att sy fast ärmkullarna efter axelsömmarna, innan ärm- och sidsömmarna sluts. [Modern Daily Knitting visar skillnaden mellan detta och att sätta ett färdigt ärmrör i ett ärmhål](https://www.moderndailyknitting.com/community/how-to-set-in-a-sleeve/) (på engelska).
 
 Isydda ärmar är den svåraste varianten. Raglan och nedhasad axel är enklare eftersom fogarna är raka linjer. Vid nedhasad axel möter en vertikal kant en avmaskad horisontell kant, en T-fog som hanteras med samma tanke som när horisontella och vertikala delar möts vid en halsringning.
 
