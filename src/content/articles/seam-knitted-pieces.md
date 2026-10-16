@@ -14,9 +14,13 @@ tags:
 
 Seaming is the least glamorous part of knitting and the part most likely to be procrastinated. A pile of finished sweater pieces can sit in a project bag for weeks because nobody's excited about sewing them together. But a good seam is invisible, and a bad one can ruin an otherwise well-knit garment. The difference between a sweater that looks homemade and a sweater that looks handmade is almost always the finishing.
 
-Mattress stitch creates an invisible seam by picking up horizontal bars one stitch in from the edge on each piece, drawing them together so the join looks like continuous fabric. The method you use depends on the seam direction: vertical edges (side seams), horizontal edges (shoulder seams), shaped pieces into openings (sleeves), or live stitches to live stitches (grafting a sock toe or shoulder).
+In stockinette, mattress stitch creates an invisible seam by picking up horizontal bars one stitch in from the edge on each piece, drawing them together so the join looks like continuous fabric. The method you use depends on the seam direction: vertical edges (side seams), horizontal edges (shoulder seams), shaped pieces into openings (sleeves), or live stitches to live stitches (grafting a sock toe or shoulder).
+
+Working in garter stitch or joining sleeves? Go straight to [mattress stitch for garter stitch](#mattress-stitch-for-garter-stitch) or [sleeve seams and setting in sleeves](#setting-in-sleeves).
 
 ## Seaming methods compared
+
+<div role="region" aria-label="Seaming methods compared" tabindex="0" style="overflow-x: auto;">
 
 | Method                   | Direction                  | Visibility             | Best for                        |
 | ------------------------ | -------------------------- | ---------------------- | ------------------------------- |
@@ -28,11 +32,13 @@ Mattress stitch creates an invisible seam by picking up horizontal bars one stit
 | Backstitch               | Any                        | Bulky inside           | Bag handles, load-bearing seams |
 | Mattress stitch (sleeve) | Vertical to combination    | Mostly hidden          | Set-in sleeves, armholes        |
 
+</div>
+
 The practical rule for sweater construction: mattress stitch for vertical seams, horizontal mattress or three-needle bind off for many shoulder seams, and Kitchener stitch when the pattern wants a grafted live-stitch join. Whip stitch, backstitch, and the rest fill specific niches.
 
 ## Mattress stitch (vertical seams)
 
-The standard for side seams and sleeve seams. Creates an invisible join that looks like continuous knitted fabric.
+Mattress stitch is the usual choice for side seams and the long seams under sleeves. The instructions below are for stockinette; garter stitch uses different loops. The finished join looks like continuous knitted fabric.
 
 Lay both pieces flat, right side up, edges touching. Thread a blunt yarn needle with matching yarn, or with a smooth yarn in the same color if the project yarn is textured or fragile.
 
@@ -42,7 +48,21 @@ Starting at the bottom, insert the needle under the horizontal bar between the f
 
 Work consistently. Same number of bars on each side. If you pick up one bar on the right and two on the left, the seam drifts. For stockinette, one bar per side per row.
 
-Mattress stitch works in stockinette, reverse stockinette, and garter, though garter differs. Pick up the top loop of the ridge on one side and the bottom loop of the matching ridge on the other. This interlocks the ridges and makes the seam invisible.
+### Mattress stitch for garter stitch
+
+This joins **two side edges**, with the garter ridges running across the seam. It is not a join between cast-on or bound-off edges. Use a blunt yarn needle and matching yarn.
+
+**1. Line up the pieces.** Lay them side by side with the faces you want on the outside facing up. Keep the cast-on edges at the bottom and align the ridges. A few locking stitch markers can help hold them in place.
+
+**2. Find the edge loops.** Gently spread the edge to see the lower, U-shaped bumps and the upper, arch-shaped bumps. Pick up the outermost lower bump on the left piece and the outermost upper bump on the right. At the very edge, the lower bump often looks squashed beneath the more obvious upper one. Slide the needle upward **under the bump**, without splitting the yarn. Work right at the edge here, rather than a whole stitch in as you would for stockinette.
+
+**3. Alternate sides.** Start at the bottom ridge, leaving a tail to weave in. Go under the lower bump on the left, then the upper bump of the matching ridge on the right. Move up to the next ridge and repeat. Keep picking up the same type of bump on each side, leaving the seaming yarn loose as you work.
+
+**4. Close the seam gradually.** After a few stitches, gently pull the seaming yarn until the edges meet. Smooth out the fabric: the ridges should run across the join without puckering, and the seam should still stretch with the knitting. If the seam has shortened the edge, loosen the last few stitches and redistribute the yarn. Weave in the ends once the tension is even.
+
+Slipped edge stitches can look different. Find the loops on a swatch before seaming the garment.
+
+For close-up photos, see [Nimble Needles](https://nimble-needles.com/tutorials/seaming-garter-stitch-for-beginners/), or follow the demonstration at [Purl Soho](https://www.purlsoho.com/create/seaming-garter-stitch/).
 
 ### Reverse stockinette and textured fabrics
 
@@ -92,11 +112,19 @@ Best where durability matters: bag handles, shoulder seams on heavy garments, ar
 
 ## Setting in sleeves
 
-Joining a sleeve cap to an armhole connects a bound-off edge to a combination of bound-off stitches and row edges. This is the most complex seam in garment construction.
+### Seaming the length of a sleeve
 
-Pin the sleeve into the armhole first. Match center of sleeve cap to shoulder seam, underarm edges aligned. Distribute ease evenly. Then sew with mattress stitch or backstitch, working around the curve.
+For a sleeve knitted flat, the long seam from cuff to underarm closes it into a tube. You are joining two side edges. Use vertical mattress stitch along straight sections, or the garter-stitch version for a garter-stitch sleeve. Match the cuff edges and any stripes. This seam does not attach the sleeve to the body.
+
+### Fitting a shaped sleeve cap into an armhole
+
+Setting in a shaped sleeve cap is a different job. Along the curve, you will meet row edges, sloping sections, and bound-off stitches. You cannot follow one fixed row-to-row rhythm all the way around.
+
+Pin the sleeve in place first. Match the center of the sleeve cap to the shoulder seam and align the underarm edges. Distribute any extra fullness evenly without making folds. Follow the pattern's assembly order and seaming method: mattress stitch needs to be adapted to the edges along the curve, while backstitch is an option when the pattern calls for it.
 
 The challenge: the sleeve cap and armhole are shaped differently and may have different stitch-to-row ratios along the curve. Pinning before sewing prevents shifting and puckers. Use locking stitch markers or rust-proof T-pins, not straight sewing pins, which slip out of knit fabric and bend.
+
+For garments knitted in flat pieces, you can often sew in the sleeve caps after joining the shoulders, before closing the sleeve and side seams. [Modern Daily Knitting explains how this differs from fitting a completed sleeve tube into an armhole](https://www.moderndailyknitting.com/community/how-to-set-in-a-sleeve/).
 
 Set-in sleeves are the hardest version. Raglan and drop-shoulder construction are simpler because the joins are straight lines. Drop shoulders just need mattress stitch along a vertical edge meeting a bound-off horizontal edge, which is a T-junction handled the same way as a horizontal-to-vertical neckline pickup.
 

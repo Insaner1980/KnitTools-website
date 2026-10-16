@@ -18,9 +18,13 @@ translationKey: "seam-knitted-pieces"
 
 Naden is het deel van breien dat het makkelijkst blijft liggen. Een stapel afgewerkte truidelen kan weken in een projecttas zitten, omdat bijna niemand staat te springen om zijkanten en mouwen aan elkaar te naaien. Maar een goede naad is bijna onzichtbaar, en een slechte naad kan een verder goed gebreid kledingstuk verpesten. Het verschil tussen slordig zelfgemaakt en netjes handgemaakt zit vaak in de afwerking.
 
-Matrassteek maakt een onzichtbare naad door horizontale draadjes een steek vanaf de rand op elk deel op te pakken en de delen naar elkaar toe te trekken, zodat de verbinding eruitziet als doorlopend breiwerk. Welke methode je gebruikt hangt af van de richting van de naad: verticale randen, horizontale randen, gevormde delen in openingen zoals mouwen, of levende steken die met maassteek worden verbonden.
+Bij tricotsteek maakt de matrassteek een onzichtbare naad door horizontale draadjes een steek vanaf de rand op elk deel op te pakken en de delen naar elkaar toe te trekken, zodat de verbinding eruitziet als doorlopend breiwerk. Welke methode je gebruikt hangt af van de richting van de naad: verticale randen, horizontale randen, gevormde delen in openingen zoals mouwen, of levende steken die met maassteek worden verbonden.
+
+Wil je ribbelsteek aan elkaar naaien of mouwen inzetten? Ga direct naar [matrassteek bij ribbelsteek](#matrassteek-bij-ribbelsteek) of [mouwnaden en mouwen inzetten](#mouwen-inzetten).
 
 ## Naadmethodes vergeleken
+
+<div role="region" aria-label="Naadmethodes vergeleken" tabindex="0" style="overflow-x: auto;">
 
 | Methode                         | Richting                            | Zichtbaarheid         | Beste voor                          |
 | ------------------------------- | ----------------------------------- | --------------------- | ----------------------------------- |
@@ -32,11 +36,13 @@ Matrassteek maakt een onzichtbare naad door horizontale draadjes een steek vanaf
 | Stiksteek                       | Elke richting                       | Dikkere binnenkant    | Tashengsels, dragende naden         |
 | Matrassteek voor ingezette mouw | Verticaal naar gemengde rand        | Meestal verborgen     | Ingezette mouwen, armsgaten         |
 
+</div>
+
 De praktische regel voor truien: matrassteek voor verticale naden, horizontale matrassteek of afkanten met drie naalden voor veel schoudernaden, en maassteek wanneer het patroon een onzichtbare verbinding tussen levende steken wil. Overhandse steek, stiksteek en andere methodes hebben specifiekere taken.
 
 ## Matrassteek, verticale naden
 
-Dit is de standaard voor zijnaden en mouwnaden. Het resultaat is een onzichtbare verbinding die eruitziet als doorlopend breiwerk.
+Matrassteek is de gebruikelijke methode voor zijnaden en de lange naden onder de mouwen. De uitleg hieronder geldt voor tricotsteek; bij ribbelsteek neem je andere lusjes op. De verbinding ziet eruit als doorlopend breiwerk.
 
 Leg beide delen plat, goede kant naar boven, randen tegen elkaar. Rijg een stompe maasnaald met passend garen, of met een glad garen in dezelfde kleur als je projectgaren gestructureerd of kwetsbaar is.
 
@@ -46,7 +52,21 @@ Begin onderaan. Steek de naald onder het horizontale draadje tussen de eerste en
 
 Werk consequent. Hetzelfde aantal draadjes aan elke kant. Als je rechts een draadje oppakt en links twee, gaat de naad scheef lopen. Bij tricotsteek is de basis een draadje per kant per toer.
 
-Matrassteek werkt in tricotsteek, omgekeerde tricotsteek en ribbelsteek, al vraagt ribbelsteek een ander punt van insteken. Pak aan de ene kant de bovenste lus van de ribbel op en aan de andere kant de onderste lus van de bijpassende ribbel. Zo grijpen de ribbels in elkaar en wordt de naad moeilijk te zien.
+### Matrassteek bij ribbelsteek
+
+Hier naai je **twee zijranden** aan elkaar, met de ribbels dwars op de naad. Deze methode is niet bedoeld om opzet- of afkantranden te verbinden. Gebruik een stompe maasnaald en bijpassend garen.
+
+**1. Leg de delen naast elkaar.** Houd de kanten die straks aan de buitenkant zitten naar boven. Leg de opzetranden onderaan en zorg dat de ribbels op dezelfde hoogte liggen. Met een paar sluitbare stekenmarkeerders kun je de bijbehorende ribbels bij elkaar houden.
+
+**2. Zoek de lusjes aan de rand.** Trek de rand voorzichtig een beetje open. Je ziet onderste U-vormige lusjes en bovenste boogjes als een omgekeerde U. Neem op het linkerdeel het buitenste onderste lusje op en op het rechterdeel het buitenste bovenste boogje. Helemaal aan de rand zit het onderste lusje vaak wat samengedrukt onder het duidelijker zichtbare bovenste boogje. Steek de naald van onder naar boven **onder het lusje door**, zonder het garen te splijten. Je werkt hier aan de uiterste rand, niet een hele steek naar binnen zoals bij tricotsteek.
+
+**3. Wissel links en rechts af.** Begin bij de onderste ribbel en laat een draad over om af te hechten. Ga onder het onderste lusje links door, daarna onder het bovenste boogje van de bijpassende ribbel rechts. Werk op dezelfde manier verder in de volgende ribbel erboven. Neem aan elke kant steeds hetzelfde soort lusje op en laat de naaidraad voorlopig losjes liggen.
+
+**4. Trek de naad beetje bij beetje dicht.** Trek na een paar steken voorzichtig aan de naaidraad tot de randen tegen elkaar liggen. Strijk het breiwerk glad: de ribbels moeten zonder plooien doorlopen en de naad moet met het breiwerk mee kunnen rekken. Is de rand in de lengte samengetrokken, maak dan de laatste steken losser en verdeel het garen opnieuw. Werk de draadeinden weg zodra de spanning gelijkmatig is.
+
+Afgehaalde kantsteken kunnen er anders uitzien. Zoek de lusjes eerst op een proeflapje voordat je het kledingstuk in elkaar zet.
+
+Bekijk ook de detailfoto’s van [Nimble Needles](https://nimble-needles.com/tutorials/seaming-garter-stitch-for-beginners/) en de uitleg van [Purl Soho](https://www.purlsoho.com/create/seaming-garter-stitch/). Beide zijn in het Engels.
 
 ### Omgekeerde tricotsteek en structuurpatronen
 
@@ -98,11 +118,19 @@ Gebruik dit waar stevigheid belangrijker is dan rek: tashengsels, schoudernaden 
 
 ## Mouwen inzetten
 
-Een mouwkop in een armsgat zetten verbindt een afgekante rand met een combinatie van afgekante steken en toerranden. Dit is een van de lastigste naden in kledingconstructie.
+### De lange mouwnaad sluiten
 
-Speld de mouw eerst in het armsgat. Leg het midden van de mouwkop op de schoudernaad en lijn de okselranden uit. Verdeel eventuele extra ruimte gelijkmatig. Naai daarna met matrassteek of stiksteek rond de bocht.
+Bij een plat gebreide mouw sluit de lange naad van de manchet tot de oksel de mouw tot een koker. Je verbindt daarbij twee zijranden. Naai rechte stukken met de verticale matrassteek, of gebruik de variant hierboven als de mouw in ribbelsteek is gebreid. Laat de manchetranden en eventuele strepen op elkaar aansluiten. Met deze naad zet je de mouw nog niet aan het lijf vast.
+
+### Een gevormde mouwkop in het armsgat zetten
+
+Een gevormde mouwkop inzetten is een andere stap. Langs de ronding komen toerranden, schuine stukken en afgekante steken bij elkaar. Je kunt dus niet overal in hetzelfde ritme toer voor toer naaien.
+
+Speld de mouw eerst in het armsgat. Leg het midden van de mouwkop bij de schoudernaad en breng de okselranden bij elkaar. Verdeel eventuele extra ruimte gelijkmatig zonder plooien te maken. Volg de montagevolgorde en naaimethode uit het breipatroon: bij matrassteek moet je de insteekpunten aanpassen aan de randen langs de ronding. Stiksteek is een alternatief wanneer het patroon dat aangeeft.
 
 De uitdaging is dat mouwkop en armsgat anders gevormd zijn en langs de ronding andere steek-tot-toer-verhoudingen kunnen hebben. Vastzetten voor het naaien voorkomt verschuiven en plooien. Gebruik afsluitbare stekenmarkeerders of roestvrije T-spelden. Dunne rechte naaispelden glijden snel uit breiwerk en buigen makkelijk.
+
+Bij kledingstukken die in losse, platte delen zijn gebreid, kun je de mouwkoppen vaak na de schoudernaden inzetten, voordat je de mouw- en zijnaden sluit. [Modern Daily Knitting laat het verschil zien met het inzetten van een mouw die al tot een koker is gesloten](https://www.moderndailyknitting.com/community/how-to-set-in-a-sleeve/) (in het Engels).
 
 Ingezette mouwen zijn de moeilijkste versie. Raglan en verlaagde schouders zijn eenvoudiger, omdat de naden rechte lijnen volgen. Bij een verlaagde schouder raakt een verticale rand vaak een horizontale afkantrand. Dat is een T-verbinding, met dezelfde logica als waar horizontale en verticale delen bij een halslijn samenkomen.
 

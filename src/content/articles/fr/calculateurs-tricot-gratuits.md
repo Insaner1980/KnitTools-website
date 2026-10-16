@@ -1,6 +1,6 @@
 ---
-title: "Calculateurs tricot gratuits"
-description: "Calculateurs tricot gratuits en ligne pour mailles à monter, quantité de fil, conversion d'échantillon et répartition des augmentations."
+title: "Calculateurs tricot gratuits : mailles et fil"
+description: "Deux calculateurs gratuits pour les mailles à monter et la quantité de fil. Apprends aussi à répartir augmentations et diminutions à la main."
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 5
@@ -10,7 +10,7 @@ tags:
     "calculateurs tricot gratuits",
     "calculateur mailles à monter",
     "calculateur laine",
-    "convertisseur échantillon",
+    "calcul échantillon",
     "outils tricot",
   ]
 draft: false
@@ -18,15 +18,20 @@ lang: fr
 translationKey: "free-knitting-calculators"
 ---
 
-Le tricot contient plus de calculs qu'on ne l'imagine. Combien de mailles monter pour une écharpe de 23 cm de large avec ton échantillon. Combien de fil une couverture va avaler. Comment répartir 8 augmentations régulièrement sur 64 mailles. Rien de tout cela n'est des maths difficiles, mais cela revient sans arrêt, et se tromper veut dire défaire jusqu'au rang de montage après trois soirées de travail.
+Voici deux calculateurs gratuits à utiliser directement dans ton navigateur :
 
-Les outils publics de ce site couvrent les deux décisions où une erreur coûte le plus cher : le nombre de mailles à monter et la quantité de fil. Cet article explique aussi les calculs liés à l'échantillon, à la répartition des augmentations et diminutions, et aux recherches de référence, pour savoir quand un calculateur suffit et quand le modèle demande encore du jugement.
+- [Calcule combien de mailles monter](/fr/outils/calculateur-mailles-a-monter/) à partir de ton échantillon et de la largeur souhaitée.
+- [Estime la quantité de fil nécessaire](/fr/outils/estimateur-quantite-laine/) selon le type d'ouvrage, la taille et l'épaisseur du fil.
+
+L'article explique aussi comment ramener les mesures de ton échantillon à 10 cm et répartir les augmentations et diminutions à la main. Tu y trouveras également des liens vers des tableaux et un lexique d'abréviations. Ces parties sont des explications écrites et des références à consulter, pas des calculateurs interactifs.
+
+Le tricot contient plus de calculs qu'on ne l'imagine. Combien de mailles monter pour une écharpe de 23 cm de large avec ton échantillon. Combien de fil une couverture va avaler. Comment répartir 8 augmentations régulièrement sur 64 mailles. Rien de tout cela n'est des maths difficiles, mais cela revient sans arrêt, et se tromper veut dire défaire jusqu'au rang de montage après trois soirées de travail.
 
 ## Calculateur de mailles à monter
 
 Tu connais ton nombre de mailles pour 10 cm grâce à ton échantillon, et tu sais quelle largeur tu veux. Le [calculateur de mailles à monter](/fr/outils/calculateur-mailles-a-monter/) multiplie ces nombres et arrondit au nombre pair le plus proche, un choix utile par défaut pour beaucoup de côtes et de motifs.
 
-La formule est assez simple à faire de tête pour du jersey. Elle cesse d'être simple quand ton point se répète sur 6 mailles plus 2 mailles d'équilibre et que le nombre doit respecter à la fois la répétition et la largeur. C'est là qu'un calculateur mérite sa place.
+La formule est assez simple à faire de tête pour du jersey. Elle cesse d'être simple quand ton point se répète sur 6 mailles plus 2 mailles d'équilibre et que le nombre doit respecter à la fois la répétition et la largeur. Le calculateur te donne un nombre de départ ; c'est à toi de l'ajuster pour les répétitions du motif et les mailles lisières.
 
 Exemple concret : l'échantillon est de 22 mailles pour 10 cm, la largeur visée est de 23 cm, et le motif est une torsade sur 6 mailles avec 4 mailles lisières en jersey. Le calcul brut donne 50,6 mailles, donc un résultat pair donne 50. Si tu retires 4 mailles lisières, il reste 46 mailles de motif, et 46 ne se divise pas par 6. Ajuster à 52 mailles donne 48 mailles de motif plus 4 mailles lisières, et les torsades tombent juste.
 
@@ -38,21 +43,23 @@ Trois pelotes suffiront-elles ? La question hante chaque achat de laine, et se t
 
 Un estimateur de quantité de fil part du type de projet, de la taille, de l'épaisseur de fil et d'une base de tissu supposée. Un pull très torsadé utilise souvent plus de fil qu'un pull en jersey aux mêmes dimensions finies, parce que les torsades resserrent le tissu horizontalement. Un motif ajouré peut utiliser moins de fil que le jersey au même échantillon, parce que les jetés ouvrent le tissu. Le point mousse peut aussi modifier l'estimation, car son échantillon en rangs se comporte différemment du jersey.
 
-L'[estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) de ce site couvre vêtements, bonnets, gants, chaussettes, couvertures et accessoires maison, avec ajustement par taille et par épaisseur de fil. Il donne un besoin approximatif en mètres et en yards, puis tu ajoutes une marge de sécurité avant d'acheter. Il compte aussi quand tu remplaces un fil. Si le modèle d'origine utilise un fil à 200 m pour 100 g et que ton fil de remplacement fait 150 m pour 100 g, il faudra plus de pelotes même si la catégorie d'épaisseur est la même, parce que le métrage par gramme varie selon la fibre, la densité et la construction du fil.
+L'[estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) de ce site couvre vêtements, bonnets, gants, chaussettes, couvertures et accessoires maison, avec ajustement par taille et par épaisseur de fil. Il donne un besoin approximatif en mètres, puis tu ajoutes une marge de sécurité avant d'acheter. Il compte aussi quand tu remplaces un fil. Si le modèle d'origine utilise un fil à 200 m pour 100 g et que ton fil de remplacement fait 150 m pour 100 g, il faudra plus de pelotes même si la catégorie d'épaisseur est la même, parce que le métrage par gramme varie selon la fibre, la densité et la construction du fil.
 
 Pour les pulls et les grands projets, une marge pratique est une pelote entière au-dessus de l'estimation, surtout quand le fil a un bain. Pour les chaussettes et les petits projets, évite d'acheter exactement au plus juste sauf si tu connais déjà le modèle, le fil et ta propre tension. Le risque de bain existe vraiment, surtout avec les fils teints à la main et les gammes commerciales arrêtées.
 
-## Convertisseur d'échantillon
+## Ramener ton échantillon à 10 cm à la main
 
 Ton échantillon donne 22 mailles sur 10 cm, mais le modèle exprime l'échantillon dans un autre format. Ou tu as mesuré sur 5 cm et tu dois extrapoler. En théorie, c'est une simple division. En pratique, c'est facile à rater quand tu convertis entre métrique et impérial, ou quand tu pars d'une petite zone mesurée.
 
-Moins souvent nécessaire que les autres calculateurs, mais quand tu en as besoin, le faire de tête est exactement le genre de calcul qui se trompe pendant que tu comptes déjà des mailles. Le [guide de mesure de l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/) explique comment obtenir une mesure fiable avant de convertir quoi que ce soit.
+Pour obtenir le nombre de mailles pour 10 cm, divise le nombre de mailles comptées par la largeur mesurée en centimètres, puis multiplie par 10. Ce calcul se fait à la main : il n'y a pas de convertisseur d'échantillon interactif ici. Le [guide de mesure de l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/) explique comment obtenir une mesure fiable avant de faire le calcul.
 
-## Calculateur de répartition des augmentations/diminutions
+## Répartir augmentations et diminutions à la main
+
+Cette section explique une méthode de calcul à la main. Elle ne propose pas de calculateur interactif pour les augmentations et diminutions.
 
 Le modèle dit : "augmenter 12 mailles régulièrement sur le rang suivant." Tu as 80 mailles sur l'aiguille. Où vont les augmentations ?
 
-80 divisé par 12 donne 6,67. Cela signifie que certains intervalles feront 6 mailles et d'autres 7. Le calculateur te dit exactement lesquels pour que la répartition ait vraiment l'air régulière. Répartir 4 augmentations à la main reste gérable. Répartir 18 augmentations sur 142 mailles, c'est le territoire du calculateur.
+80 divisé par 12 donne 6,67. Cela signifie que certains intervalles feront 6 mailles et d'autres 7. Note où placer les intervalles courts et les intervalles longs pour obtenir une répartition régulière. Répartir 4 augmentations à la main reste gérable. Pour 18 augmentations sur 142 mailles, mieux vaut écrire la répartition avant de tricoter.
 
 Tout rang de mise en forme en profite : augmentations de manches, diminutions d'empiècement, [transitions de côtes](/fr/articles/repartir-augmentations-diminutions-regulierement/) où le nombre de mailles change entre deux sections, façonnage raglan avec quatre séries de diminutions tous les deux rangs.
 
@@ -86,7 +93,7 @@ Les calculateurs gratuits et les pages de référence de ce site couvrent les ma
 L'arithmétique peut être exacte, mais la réponse utile dépend des données saisies et de la règle d'arrondi. Un calculateur arrondit à l'entier le plus proche, un autre au nombre pair le plus proche, un troisième au multiple de 4 le plus proche pour des côtes 2/2. Vérifie ce que ton modèle exige et utilise un calculateur qui respecte ces contraintes.
 
 **Puis-je utiliser des calculateurs tricot sans connaître mon échantillon ?**  
-Un calculateur de mailles à monter et un convertisseur d'échantillon demandent une mesure d'échantillon. Il n'y a pas de raccourci. Un estimateur de fil peut donner un ordre de grandeur sans échantillon parce qu'il part du type de projet et de l'épaisseur du fil, mais l'estimation est plus approximative.
+Le calculateur de mailles à monter demande une mesure de ton échantillon, tout comme le calcul à la main pour ramener cette mesure à 10 cm. Il n'y a pas de raccourci. Un estimateur de fil peut donner un ordre de grandeur sans échantillon parce qu'il part du type de projet et de l'épaisseur du fil, mais l'estimation est plus approximative.
 
 **Pourquoi ne pas faire les calculs à la main ?**  
 Tu peux. Le calculateur fait le calcul à partir de l'échantillon et de la largeur, puis arrondit au nombre pair le plus proche. Pour un motif qui se répète sur 7 mailles, ajuste ensuite le résultat manuellement afin d'obtenir des répétitions complètes, en comptant les mailles lisières séparément.

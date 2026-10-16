@@ -18,9 +18,13 @@ translationKey: "seam-knitted-pieces"
 
 Zusammennähen ist der am wenigsten glamouröse Teil des Strickens und der, der am leichtesten liegen bleibt. Ein Stapel fertiger Pulloverteile kann wochenlang im Projektbeutel bleiben, weil niemand Lust hat, ihn zusammenzunähen. Aber eine gute Naht ist unsichtbar, und eine schlechte kann ein sonst gut gestricktes Kleidungsstück ruinieren.
 
-Matratzenstich erzeugt eine unsichtbare Naht, indem waagerechte Fäden eine Masche vom Rand entfernt auf beiden Teilen aufgenommen und zusammengezogen werden. Die Verbindung sieht danach wie durchgehender Stoff aus. Welche Methode du nutzt, hängt von der Richtung der Naht ab: senkrechte Kanten, waagerechte Kanten, geformte Teile in Öffnungen, etwa Ärmel, oder lebende Maschen an lebende Maschen.
+Bei glatt rechtem Gestrick erzeugt der Matratzenstich eine unsichtbare Naht, indem waagerechte Fäden eine Masche vom Rand entfernt auf beiden Teilen aufgenommen und zusammengezogen werden. Die Verbindung sieht danach wie durchgehender Stoff aus. Welche Methode du nutzt, hängt von der Richtung der Naht ab: senkrechte Kanten, waagerechte Kanten, geformte Teile in Öffnungen, etwa Ärmel, oder lebende Maschen an lebende Maschen.
+
+Du möchtest kraus rechte Teile zusammennähen oder Ärmel einsetzen? Hier geht es direkt zum [Matratzenstich bei kraus rechts](#matratzenstich-bei-kraus-rechts) und zu den [Ärmelnähten und dem Einsetzen von Ärmeln](#ärmel-einsetzen).
 
 ## Nahtmethoden im Vergleich
+
+<div role="region" aria-label="Nahtmethoden im Vergleich" tabindex="0" style="overflow-x: auto;">
 
 | Methode                     | Richtung                           | Sichtbarkeit          | Am besten für                        |
 | --------------------------- | ---------------------------------- | --------------------- | ------------------------------------ |
@@ -32,11 +36,13 @@ Matratzenstich erzeugt eine unsichtbare Naht, indem waagerechte Fäden eine Masc
 | Rückstich                   | fast jede Richtung                 | innen dicker          | Taschengriffe, belastete Nähte       |
 | Matratzenstich am Ärmel     | senkrecht zu gemischter Kante      | meist verborgen       | eingesetzte Ärmel, Armlöcher         |
 
+</div>
+
 Die praktische Regel für Pullover: Matratzenstich für senkrechte Nähte, waagerechter Matratzenstich oder Abketten mit drei Nadeln für viele Schulternähte, und Maschenstich, wenn lebende Maschen ohne sichtbare Erhebung verbunden werden sollen. Überwendlichstich, Rückstich und die übrigen Methoden haben engere Spezialfälle.
 
 ## Matratzenstich für senkrechte Nähte
 
-Der Standard für Seiten- und Ärmelnähte. Ergibt eine unsichtbare Verbindung, die wie durchgehendes Gestrick aussieht.
+Der Matratzenstich ist die übliche Wahl für Seitennähte und die langen Nähte an der Ärmelunterseite. Die folgende Anleitung gilt für glatt rechts; bei kraus rechts stichst du unter andere Schlingen. Die fertige Naht wirkt wie durchgehendes Gestrick.
 
 Leg beide Teile flach hin, rechte Seite nach oben, Kanten aneinander. Fädel eine Wollnadel mit passendem Garn ein, oder mit glattem Garn in derselben Farbe, wenn das Projektgarn strukturiert oder empfindlich ist.
 
@@ -46,7 +52,21 @@ Beginne unten. Stich unter den waagerechten Faden zwischen erster und zweiter Ma
 
 Arbeite konsequent. Gleiche Anzahl Fäden auf beiden Seiten. Wenn du rechts einen Faden und links zwei aufnimmst, wandert die Naht. Bei glatt rechts: ein Faden pro Seite pro Reihe.
 
-Matratzenstich funktioniert in glatt rechts, glatt links und kraus rechts. Bei kraus rechts ist die Bewegung anders: Nimm auf einer Seite die obere Schlaufe der Rippe auf und auf der anderen die untere Schlaufe der passenden Rippe. So greifen die Rippen ineinander und die Naht verschwindet.
+### Matratzenstich bei kraus rechts
+
+Hier verbindest du **zwei Seitenkanten**. Die Krausrippen verlaufen dabei quer zur Naht. Diese Methode ist nicht für das Verbinden von Anschlag- oder Abkettkanten gedacht. Verwende eine stumpfe Wollnadel und passendes Garn.
+
+**1. Richte die Teile aus.** Leg sie nebeneinander, jeweils mit der späteren Außenseite nach oben. Die Anschlagkanten liegen unten, die Krausrippen auf gleicher Höhe. Mit ein paar verschließbaren Maschenmarkierern kannst du die Rippen paarweise zusammenhalten.
+
+**2. Such die Schlingen am Rand.** Zieh die Kante mit den Fingern leicht auseinander. An der Rippe erkennst du untere U-förmige Schlingen und obere Bögen wie ein umgedrehtes U. Nimm am linken Teil die äußerste untere Schlinge auf, am rechten Teil den äußersten oberen Bogen. Direkt am Rand liegt die untere Schlinge oft etwas zusammengedrückt unter dem deutlicher sichtbaren oberen Bogen. Führe die Nadel von unten nach oben **unter der Schlinge hindurch**, ohne den Faden zu spalten. Du nähst hier direkt am Rand, nicht eine ganze Masche weiter innen wie bei glatt rechts.
+
+**3. Nähe abwechselnd auf beiden Seiten.** Beginne an der untersten Rippe und lass einen Faden zum Vernähen hängen. Stich links unter die untere Schlinge, dann rechts unter den oberen Bogen der passenden Rippe. Geh zur nächsten Rippe darüber und wiederhole die Schritte. Bleib auf jeder Seite immer bei derselben Schlingenart und lass den Nähfaden zunächst locker.
+
+**4. Zieh die Naht nach und nach zusammen.** Zieh nach einigen Stichen vorsichtig am Nähfaden, bis die Kanten aneinanderliegen. Streich das Gestrick glatt: Die Rippen sollen ohne Falten über die Naht hinweg weiterlaufen, und die Naht muss sich mit dem Gestrick dehnen können. Hat sich die Kante in der Länge zusammengezogen, lockere die letzten Stiche und verteile den Faden neu. Vernähe die Enden, sobald die Naht gleichmäßig ist.
+
+Abgehobene Randmaschen können anders aussehen. Such die passenden Schlingen zuerst an einer Maschenprobe, bevor du das Kleidungsstück zusammennähst.
+
+Nahaufnahmen findest du bei [Nimble Needles](https://nimble-needles.com/tutorials/seaming-garter-stitch-for-beginners/), eine Vorführung bei [Purl Soho](https://www.purlsoho.com/create/seaming-garter-stitch/). Beide Anleitungen sind auf Englisch.
 
 ### Glatt links und Strukturmuster
 
@@ -98,11 +118,19 @@ Gut, wo Haltbarkeit zählt: Taschengriffe, Schultern schwerer Kleidungsstücke, 
 
 ## Ärmel einsetzen
 
-Eine Ärmelkappe ins Armloch einzusetzen verbindet eine abgekettete Kante mit einer Mischung aus abgeketteten Maschen und Reihenrändern. Das ist die komplexeste Naht in der Kleidungskonstruktion.
+### Die lange Ärmelnaht schließen
 
-Steck den Ärmel zuerst ins Armloch. Mitte der Ärmelkappe auf die Schulternaht, Unterarmkanten ausrichten. Verteile Mehrweite gleichmäßig. Danach nähst du mit Matratzenstich oder Rückstich um die Kurve.
+Bei einem in Reihen gestrickten Ärmel schließt die lange Naht vom Bündchen bis zur Achsel den Ärmel zum Schlauch. Dabei treffen zwei Seitenkanten aufeinander. Nähe gerade Abschnitte mit dem senkrechten Matratzenstich oder nutze bei kraus rechten Ärmeln die oben beschriebene Variante. Achte darauf, dass Bündchenkanten und Streifen aufeinandertreffen. Diese Naht verbindet den Ärmel noch nicht mit dem Rumpf.
 
-Die Schwierigkeit: Ärmelkappe und Armloch sind unterschiedlich geformt und können entlang der Kurve unterschiedliche Maschen-zu-Reihen-Verhältnisse haben. Feststecken vor dem Nähen verhindert Verschieben und Falten. Nimm verschließbare Maschenmarkierer oder rostfreie T-Nadeln, nicht gerade Nähnadeln, die aus Gestrick rutschen und sich verbiegen.
+### Eine geformte Ärmelkugel ins Armloch einsetzen
+
+Das Einsetzen einer geformten Ärmelkugel ist ein anderer Arbeitsschritt. Entlang der Rundung treffen Reihenränder, schräge Abschnitte und abgekettete Maschen aufeinander. Du kannst deshalb nicht überall gleichmäßig Reihe an Reihe nähen.
+
+Steck den Ärmel zuerst im Armloch fest. Richte die Mitte der Ärmelkugel an der Schulternaht aus und bring die Unterarmkanten zusammen. Verteile mögliche Mehrweite gleichmäßig, ohne Falten zu legen. Halte dich an die Montagereihenfolge und Nahtmethode der Strickanleitung: Beim Matratzenstich musst du die Einstichstellen an die jeweilige Kante anpassen. Rückstich ist eine Alternative, wenn die Anleitung ihn vorsieht.
+
+Die Schwierigkeit: Ärmelkugel und Armloch sind unterschiedlich geformt und können entlang der Kurve unterschiedliche Maschen-zu-Reihen-Verhältnisse haben. Feststecken vor dem Nähen verhindert Verschieben und Falten. Nimm verschließbare Maschenmarkierer oder rostfreie T-Nadeln, nicht gerade Nähnadeln, die aus Gestrick rutschen und sich verbiegen.
+
+Bei Kleidungsstücken aus flach gestrickten Einzelteilen lassen sich die Ärmelkugeln oft nach den Schulternähten einnähen, bevor du Ärmel- und Seitennähte schließt. [Modern Daily Knitting zeigt den Unterschied zum Einsetzen eines bereits geschlossenen Ärmels](https://www.moderndailyknitting.com/community/how-to-set-in-a-sleeve/) (auf Englisch).
 
 Eingesetzte Ärmel sind die schwierigste Variante. Raglan und überschnittene Schultern sind einfacher, weil die Verbindungen gerade Linien sind. Bei überschnittenen Schultern trifft meist eine senkrechte Kante auf eine abgekettete waagerechte Kante. Diese T-Form behandelst du ähnlich wie eine waagerecht-senkrechte Stelle beim Aufnehmen an einem Halsausschnitt.
 

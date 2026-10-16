@@ -1,6 +1,6 @@
 ---
-title: "Gratis strikkekalkulatorer på nett"
-description: "Gratis strikkekalkulatorer og referanseverktøy for opplegg, garnanslag, strikkefasthet, pinnestørrelser, garntykkelser, forkortelser og størrelsestabeller."
+title: "Gratis strikkekalkulatorer for masker og garn"
+description: "Beregn maskeantall til opplegg og anslå garnforbruk med to gratis kalkulatorer. Les også hvordan du fordeler økninger og fellinger jevnt for hånd."
 publishDate: 2026-05-01
 category: app-tools
 categoryOrder: 5
@@ -10,7 +10,7 @@ tags:
     "gratis strikkekalkulatorer",
     "oppleggskalkulator",
     "garnkalkulator",
-    "strikkefasthet kalkulator",
+    "strikkefasthet",
     "strikkeverktøy",
   ]
 draft: false
@@ -18,15 +18,20 @@ lang: no
 translationKey: "free-knitting-calculators"
 ---
 
-Strikking inneholder mer regning enn mange forventer. Hvor mange masker du skal legge opp til et 23 cm bredt skjerf med din strikkefasthet. Hvor mye garn et teppe sluker. Hvordan du fordeler 8 økninger jevnt over 64 masker. Ingenting av dette er vanskelig matte, men det dukker opp hele tiden, og feil svar kan bety å rekke opp tilbake til oppleggskanten etter tre kvelders arbeid.
+Her finner du to gratis kalkulatorer du kan bruke direkte i nettleseren:
 
-De åpne verktøyene her dekker de to beslutningene der feil koster mest: maskeantall ved opplegg og garnmengde. Denne artikkelen går også gjennom tilhørende matematikk for strikkefasthet, jevn fordeling av økninger og fellinger samt referanseoppslag, så du vet når en kalkulator er nok og når oppskriften fortsatt krever egen vurdering.
+- [Regn ut hvor mange masker du skal legge opp](/no/verktoy/oppleggskalkulator/) ut fra strikkefastheten din og ønsket bredde.
+- [Anslå hvor mye garn du trenger](/no/verktoy/garnberegner/) ut fra prosjekttype, størrelse og garntykkelse.
+
+Artikkelen forklarer også hvordan du regner om strikkefasthet og fordeler økninger og fellinger for hånd, og lenker til tabeller og strikkeforkortelser. Disse delene er skriftlige veiledninger og oppslagsverk, ikke egne interaktive kalkulatorer.
+
+Strikking inneholder mer regning enn mange forventer. Hvor mange masker du skal legge opp til et 23 cm bredt skjerf med din strikkefasthet. Hvor mye garn et teppe sluker. Hvordan du fordeler 8 økninger jevnt over 64 masker. Ingenting av dette er vanskelig matte, men det dukker opp hele tiden, og feil svar kan bety å rekke opp tilbake til oppleggskanten etter tre kvelders arbeid.
 
 ## Oppleggskalkulator
 
 Du kjenner strikkefastheten din fra prøvelappen, og du vet hvor bredt arbeidet skal være. [Oppleggskalkulatoren](/no/verktoy/oppleggskalkulator/) multipliserer disse tallene og runder til nærmeste partall, som er en nyttig standard for mange vrangborder og maskemønstre.
 
-Formelen er enkel nok å gjøre i hodet for vanlig glattstrikk. Den slutter å være enkel når maskemønsteret ditt går over 6 masker pluss 2 balansemasker, og du trenger et tall som passer både rapporten og bredden. Da gjør en kalkulator nytten sin.
+Formelen er enkel nok å gjøre i hodet for vanlig glattstrikk. Den slutter å være enkel når maskemønsteret ditt går over 6 masker pluss 2 balansemasker, og du trenger et tall som passer både rapporten og bredden. Kalkulatoren gir et utgangspunkt; du tilpasser selv maskeantallet til mønsterrapporter og kantmasker.
 
 Et eksempel: strikkefastheten er 22 masker per 10 cm, målbredden er 23 cm, og mønsteret har en 6-maskers fletterapport pluss 4 kantmasker i glattstrikk. Rå matematikk gir 50,6 masker, så et partallsresultat blir 50. Hvis du trekker fra 4 kantmasker, står 46 mønstermasker igjen, og 46 går ikke opp i 6. Justering til 52 masker gir 48 mønstermasker pluss 4 kantmasker, slik at flettene legger seg rent.
 
@@ -42,17 +47,19 @@ En garnberegner tar utgangspunkt i prosjekttype, størrelse, garntykkelse og en 
 
 For gensere og større prosjekter er en praktisk buffer ett helt nøste over anslaget, spesielt når garnet har fargeparti. For sokker og små prosjekter bør du unngå å kjøpe akkurat på grensen hvis du ikke allerede kjenner oppskriften, garnet og din egen hånd godt. Fargepartirisiko er reell, særlig med håndfarget garn og utgående kommersielle garn, og ett ekstra nøste ved kjøp koster som regel mindre enn å mangle matchende garn senere.
 
-## Strikkefasthetsomregning
+## Regn om strikkefasthet for hånd
 
 Prøvelappen din gir 22 masker over 10 cm, men oppskriften oppgir strikkefasthet i et annet format. Eller du har målt over 5 cm og trenger å skalere opp. Enkel divisjon i teorien. Lett å rote til når du samtidig konverterer mellom målesystemer og skalerer fra en liten prøvelapp.
 
-Dette brukes sjeldnere enn de andre kalkulatorene, men når du trenger det, er håndregning akkurat den typen mental matte som går galt mens du også teller masker. [Guiden til måling av strikkefasthet](/no/artikler/male-strikkefasthet/) dekker hvordan du får en nøyaktig prøvelappmåling før du konverterer noe.
+For å finne antall masker per 10 cm deler du maskeantallet på den målte bredden i centimeter og ganger med 10. Dette regner du ut for hånd; her finnes det ingen egen interaktiv kalkulator for omregning av strikkefasthet. [Guiden til måling av strikkefasthet](/no/artikler/male-strikkefasthet/) viser hvordan du måler prøvelappen før du regner om.
 
-## Kalkulator for jevn økning og felling
+## Fordel økninger og fellinger jevnt for hånd
+
+Dette er en fremgangsmåte for å regne selv, ikke en interaktiv kalkulator for økninger og fellinger.
 
 Oppskriften sier "øk 12 masker jevnt over neste pinne". 80 masker på pinnen. Hvor skal økningene ligge?
 
-Del 80 på 12, og du får 6,67. Det betyr at noen intervaller er 6 masker og noen er 7. En skrevet fordelingsplan forteller hvilke intervaller som er kortere og hvilke som er lengre, så fordelingen faktisk ser jevn ut. Å plassere 4 økninger for hånd er overkommelig. Å plassere 18 økninger over 142 masker er kalkulatorjobb.
+Del 80 på 12, og du får 6,67. Det betyr at noen mellomrom er 6 masker og noen er 7. Skriv ned hvor de kortere og lengre mellomrommene skal være, slik at økningene blir jevnt fordelt. Fire økninger er greit å holde styr på. Skal du fordele 18 økninger over 142 masker, er det særlig nyttig å skrive ned fordelingen før du strikker.
 
 Alle formingspinner har nytte av dette: ermeøkninger, bærestykkefellinger, [overganger fra vrangbord](/no/artikler/fordele-okninger-og-fellinger-jevnt/) der maskeantallet endres mellom seksjoner, og raglanforming der fire sett med fellinger gjentas annenhver pinne.
 
@@ -86,7 +93,7 @@ De gratis kalkulatorene og referansesidene på dette nettstedet håndterer den v
 Matematikken kan være eksakt, men det nyttige svaret avhenger av inndata og avrundingsregel. Én kalkulator runder til nærmeste hele tall, en annen til nærmeste partall, en tredje kan runde til nærmeste multiplum av 4 for 2 x 2-vrangbord. Sjekk hva oppskriften krever, og bruk en kalkulator som matcher de kravene.
 
 **Kan jeg bruke strikkekalkulatorer uten å vite strikkefastheten?**
-Oppleggsmatte og strikkefasthetsomregning trenger en måling fra prøvelappen. Det finnes ingen snarvei rundt det. En garnberegner kan gi et grovt anslag uten strikkefasthet fordi den bruker prosjekttype og garntykkelse, men anslaget blir grovere.
+Oppleggskalkulatoren og omregning av strikkefasthet for hånd krever begge en måling fra prøvelappen. Det finnes ingen snarvei rundt det. En garnberegner kan gi et grovt anslag uten strikkefasthet fordi den bruker prosjekttype og garntykkelse, men anslaget blir grovere.
 
 **Hvorfor ikke bare regne for hånd?**
 Det kan du. Kalkulatoren regner ut fra strikkefasthet og bredde og runder resultatet til nærmeste partall. Hvis mønsteret har en rapport på 7 masker, må du justere resultatet manuelt slik at mønstermaskene danner hele rapporter, og ta hensyn til eventuelle kantmasker separat.
