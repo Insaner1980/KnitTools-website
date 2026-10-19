@@ -22,8 +22,26 @@ const pages = {
   nl: "src/components/dutch-tools/DutchYarnWeightChartPage.astro",
 };
 const source = readFileSync("src/components/WpiIdentifier.astro", "utf8");
-const script = source.match(/<script[\s\S]*?>\s*([\s\S]*?)<\/script>/)[1];
+const scriptBlockPattern =
+  /<script(?=[\s/>])[^>]*>\s*([\s\S]*?)<\/script(?=[\s/>])[^>]*>/i;
+const script = source.match(scriptBlockPattern)[1];
 const declarations = source.match(/const copy: Copy =[\s\S]*?(?=\n---)/)[0];
+
+test("script extraction accepts HTML tag variants without matching other tags", () => {
+  for (const closingTag of [
+    "</script>",
+    "</SCRIPT >",
+    "</script\t\n bar>",
+    "</script/>",
+  ]) {
+    const fixture = `<SCRIPT type="module">const value = 1;${closingTag}`;
+    assert.equal(fixture.match(scriptBlockPattern)?.[1], "const value = 1;");
+  }
+  for (const tag of ["scripture", "script-widget"]) {
+    assert.equal(`<${tag}>text</${tag}>`.match(scriptBlockPattern), null);
+    assert.equal(`<script>text</${tag}>`.match(scriptBlockPattern), null);
+  }
+});
 
 function evaluate(code, context = {}) {
   return vm.runInNewContext(

@@ -190,6 +190,31 @@ const normalize = (s) =>
     .replace(/ cm|"| †/g, "")
     .replaceAll(",", ".")
     .replaceAll("-", "–");
+const bodySizingLinkPattern =
+  /<a\s+href="https:\/\/www\.craftyarncouncil\.com\/standards\/body-sizing"(?=[\s>])/i;
+
+test("body-sizing source links require the exact CYC destination", () => {
+  const destination = "https://www.craftyarncouncil.com/standards/body-sizing";
+  assert.match(
+    `<a href="${destination}">Body sizing</a>`,
+    bodySizingLinkPattern,
+  );
+  for (const href of [
+    `https://example.com/${destination}`,
+    `https://example.com/?next=${destination}`,
+    `${destination}.example.com`,
+    `${destination}/other-page`,
+    "https://www.craftyarncouncil.com@evil.example/standards/body-sizing",
+    "https://www.craftyarncouncil.com.evil.example/standards/body-sizing",
+  ]) {
+    assert.doesNotMatch(
+      `<a href="${href}">Body sizing</a>`,
+      bodySizingLinkPattern,
+    );
+  }
+  assert.doesNotMatch(`<p>${destination}</p>`, bodySizingLinkPattern);
+});
+
 function readPanels(source) {
   const code = source.slice(
     source.indexOf("const c ="),
@@ -309,11 +334,7 @@ for (const [languageIndex, [lang, path]] of Object.entries(pages).entries()) {
         /aria-describedby=\{\s*cell\.cm === null\s*\? "size-source-note"\s*: undefined\s*\}/,
       );
       assert.match(source, /<th scope="col">\{(?:s|size)\}<\/th>/);
-      assert.ok(
-        source.includes(
-          "https://www.craftyarncouncil.com/standards/body-sizing",
-        ),
-      );
+      assert.match(source, bodySizingLinkPattern);
     },
   );
 }
