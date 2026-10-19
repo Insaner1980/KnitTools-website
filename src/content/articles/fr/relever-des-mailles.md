@@ -2,6 +2,7 @@
 title: "Relever des mailles le long d'un bord tricoté"
 description: "Apprends à relever des mailles sur des bords horizontaux, verticaux et courbes : ratios, encolures, bandes de boutonnage et erreurs."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 11
 tags:
@@ -16,154 +17,119 @@ lang: fr
 translationKey: "pick-up-stitches"
 ---
 
-Relever des mailles crée un nouveau rang de mailles vivantes le long d'un bord existant, pour tricoter une bordure, une encolure, une bande de boutonnage ou un col directement sur la pièce sans couture. Un bord brut devient un bord fini.
+Relever des mailles permet de tricoter une bordure, un col ou une bande de boutonnage directement sur l'ouvrage. La méthode décrite ici forme de nouvelles mailles en tirant le fil de travail à travers le bord. Le point d'insertion et le nombre de mailles doivent convenir à la bordure terminée.
 
-Le ratio de départ courant le long d'un bord vertical en jersey est 3 mailles pour 4 rangs. Cela compense la différence entre la largeur d'une maille et la hauteur d'un rang. Le geste lui-même n'est pas la partie la plus difficile. La partie délicate, c'est l'espacement : combien de mailles relever sur une longueur donnée, et comment les répartir régulièrement.
+Trois mailles pour quatre rangs est un point de départ possible sur un côté en jersey, pas une règle universelle. Suis d'abord la construction et le nombre indiqués par le modèle.
 
 ## Relever ou relever et tricoter
 
-Les modèles utilisent les deux formules. Elles peuvent avoir une nuance, même si beaucoup de personnes les emploient comme synonymes.
+Placer des boucles existantes du bord sur l'aiguille et tirer du nouveau fil à travers le bord sont deux gestes différents. Les explications peuvent appeler les deux « relever ». Vérifie le sens donné par le modèle. Remettre des mailles en attente sur l'aiguille ou rattraper une maille tombée sont encore d'autres opérations.
 
-**Relever :** soulever une boucle ou un brin existant du bord et le placer sur l'aiguille, sans utiliser de nouveau fil.
+Ici, tu relèves en tricotant à l'endroit, dans le sens habituel du tricot droitier :
 
-**Relever et tricoter :** insérer l'aiguille dans le bord, enrouler le fil et tirer une boucle à travers dans un seul geste de maille endroit. La maille est créée et tricotée en même temps.
+1. Tiens l'endroit face à toi et le bord à travailler en haut. Commence au point indiqué ; sur un échantillon, pars de la droite et avance vers la gauche. Fais pivoter l'ouvrage pour suivre une encolure.
+2. Garde le fil de travail derrière l'ouvrage et laisse une extrémité à rentrer. Pique l'aiguille droite à l'endroit choisi, de l'avant vers l'arrière, à travers toute l'épaisseur sans fendre le fil.
+3. Enroule le fil comme pour une maille endroit et ramène une nouvelle boucle sur l'avant. Garde-la sur l'aiguille et maintiens l'extrémité du fil pendant la maille suivante.
+4. Passe au prochain point prévu. Laisse les positions sautées intactes. Garde les boucles sur le corps de l'aiguille, sans les serrer autour de la pointe.
 
-En pratique, beaucoup de modèles disent "relever" quand ils veulent dire "relever et tricoter". Si le modèle indique un nombre, c'est le nombre de mailles qui doit être sur ton aiguille à la fin.
+Chaque nouvelle boucle compte pour une maille. Dans l'orientation occidentale habituelle, le brin droit est devant l'aiguille. D'autres façons de tricoter peuvent donner une autre orientation. Travaille par le brin qui se présente en premier pour ouvrir la maille sans croiser ses jambes, sauf si le modèle demande une maille torse.
 
 ## Le long d'un bord horizontal (montage ou rabattage)
 
-C'est la direction la plus simple. Chaque maille du bord a un V visible. Insère l'aiguille au centre du V, sous les deux jambes, enroule le fil et tire une boucle à travers. Une maille par maille du bord.
+Sur un bord rabattu en jersey, pique au centre d'un V complet juste sous la chaînette de rabattage, à travers l'ouvrage. La nouvelle maille suit ainsi sa colonne. Ce V n'est pas un maillon couché de la chaînette ; il ne s'agit pas non plus de simplement soulever deux brins sur l'aiguille.
 
-Le ratio est généralement 1:1. Quatre-vingts mailles rabattues, relève 80 mailles, ou le nombre demandé par le modèle. Parfois, le modèle demande moins. Dans ce cas, tu sautes des mailles à intervalles réguliers.
+Tourne le bord de montage vers le haut et repère les V complets dans cette orientation, juste à l'intérieur du montage. Ils sont décalés d'une demi-maille par rapport aux colonnes d'origine. À plat, il peut y avoir un V complet de moins ; traite les extrémités selon le modèle pour obtenir le total voulu. Ne compte pas deux fois une même boucle d'extrémité. Les montages diffèrent : teste le point d'insertion sur un échantillon.
 
-## Le long d'un bord vertical (côté du tissu)
+Avec des nombres de mailles par centimètre comparables, le rapport 1:1 peut convenir : 80 mailles rabattues donnent 80 nouvelles mailles. Une autre bordure ou le nombre prévu peut nécessiter de sauter des positions. Relever sous certains brins du bord est aussi une méthode, mais elle ne donne pas forcément la même jonction.
 
-C'est là que l'espacement compte. Les rangs et les mailles n'ont pas la même hauteur. Un échantillon en jersey courant peut donner 20 mailles pour 10 cm horizontalement, mais 28 rangs pour 10 cm verticalement. Relever une maille dans chaque rang donne plus de mailles par centimètre sur le bord vertical que sur l'horizontal, et la bordure gondole ou s'évase.
+## Le long d'un bord vertical (côté de l'ouvrage)
 
-Le ratio de départ en jersey : 3 mailles pour 4 rangs. Relève dans chacun des 3 premiers rangs, saute le 4e, puis répète. Cela fonctionne pour beaucoup d'échantillons, mais tes nombres précis peuvent demander un ajustement.
+Pique à travers l'ouvrage entre la colonne de mailles extérieure et la suivante, aux rangs choisis. Une colonne reste en marge sur l'envers. Ce geste diffère du prélèvement d'un fil horizontal pour une couture au point de matelas.
 
-Pour trouver le ratio exact, divise l'échantillon en mailles par l'échantillon en rangs. Si ton échantillon est 20 mailles et 28 rangs pour 10 cm, le ratio est 20/28 = 0,71. Cela donne environ 7 mailles pour 10 rangs, ou presque 3 pour 4. Si tu dois d'abord [vérifier ton échantillon](/fr/articles/mesurer-un-echantillon-tricot/), commence là.
+Calcule **le nombre de mailles de la nouvelle bordure par unité de longueur divisé par le nombre de rangs de la pièce d'origine pour la même longueur**. Mesure dans l'état prévu pour l'ouvrage terminé. Avec 20 mailles pour 10 cm dans la bordure et 28 rangs pour 10 cm dans la pièce, le rapport est 20/28 = 5/7 ≈ 0,714. [Mesure ton échantillon](/fr/articles/mesurer-un-echantillon-tricot/) d'abord.
 
-Si le modèle donne un nombre exact à relever, divise ce nombre par la longueur du bord. Tu obtiens le rythme par centimètre. Relève à ce rythme, en espaçant les rangs sautés aussi régulièrement que possible.
+Dans chaque groupe de sept rangs du bord, relève aux positions 1, 2, 4, 5 et 7 ; saute 3 et 6. Quatre groupes utilisent 28 positions : 20 mailles relevées et 8 positions sautées. Trois pour quatre donnerait 21 mailles sur ces mêmes 28 rangs. Sept pour dix est également une autre approximation, pas forcément assez proche.
 
 ### Le long d'une lisière à mailles glissées
 
-Si tu as glissé la première maille de chaque rang pendant que tu tricotais la pièce, le bord forme une chaînette de deux brins au lieu d'un brin clair par rang. Relève une maille sous chaque maillon de chaînette, c'est-à-dire sous les deux brins qui forment le V. Chaque maillon représente généralement deux rangs ; relever une maille par maillon peut donc donner nettement moins de mailles qu'il n'en faut pour une bande de boutonnage ou une bordure.
-
-Le fait que les côtes se resserrent ne rend pas automatiquement correcte la proportion d'une maille par maillon. Suis d'abord le nombre de mailles indiqué par le modèle. S'il n'en donne pas, calcule et ajuste la proportion à partir de l'échantillon en rangs ou de la longueur du bord, ainsi que de l'échantillon en mailles ou du nombre cible de la bordure. N'utilise une maille par maillon que si cela donne le nombre requis et un bord plat, bien ajusté.
-
-Les lisières à mailles glissées rendent le relevage plus rapide et plus propre visuellement. La proportion doit quand même correspondre à la bordure que tu vas tricoter.
+Un maillon représente souvent deux rangs. Une nouvelle maille sous les deux brins du maillon donne alors seulement une maille pour deux rangs. Utilise ce rapport uniquement si le nombre et la tenue conviennent ; le resserrement des côtes ne justifie pas un nombre insuffisant. S'il faut davantage de points d'insertion, travaille au niveau des rangs une colonne à l'intérieur de la chaînette, ou suis la méthode de lisière du modèle. Ne force pas plusieurs mailles dans une boucle lâche sans essai.
 
 ### Le long d'un bord au point mousse
 
-Les bords au point mousse ont deux petites bosses visibles par barre, et une barre de point mousse correspond à deux rangs. Relève sous la paire de brins au bord de chaque barre, en restant au même endroit tout le long.
+Une barre de point mousse correspond à deux rangs. Tu peux piquer à travers l'ouvrage entre les barres, une colonne à l'intérieur du bord, et tirer du nouveau fil vers l'avant. Une autre méthode consiste à passer l'aiguille de bas en haut sous la bosse envers extérieure, en forme d'arc tourné vers le bas, de chaque barre, sans fendre le fil, puis à tirer le fil de travail à travers cette boucle. Garde la même insertion dans chaque section.
 
-Le ratio est souvent 1 maille par barre, donc 1 maille pour 2 rangs. Une bordure relevée sur point mousse a tendance à paraître plus serrée que sur jersey. Elle peut demander une maille supplémentaire toutes les quelques barres pour éviter que la bordure tire vers l'intérieur.
+Une maille par barre signifie une pour deux rangs et peut convenir au point mousse. Vérifie la longueur du bord et l'échantillon de la nouvelle bordure ; n'ajoute pas automatiquement une maille toutes les quelques barres.
 
-## Des ratios différents selon les bordures
+## Des rapports différents selon les bordures
 
-Le ratio 3 pour 4 suppose un bord latéral en jersey et une bordure dont l'échantillon reste proche du tissu principal. D'autres combinaisons demandent un autre rythme.
+Utilise l'échantillon réel des côtes, du point mousse ou du point de riz que tu vas tricoter. Les côtes n'ont pas la même largeur au repos et étirées. Ni le point mousse ni le point de riz n'imposent un rapport universel de trois pour quatre. Une bordure en i-cord suit son propre rythme de fixation dans le modèle.
 
-Les côtes, comme 1/1 ou 2/2, se resserrent en largeur. Elles peuvent donc tolérer un peu plus de mailles relevées que le jersey. Suis le modèle s'il donne un nombre, parce que la profondeur de l'encolure et la taille d'aiguille changent le résultat.
-
-Une bordure au point mousse se comporte assez près du jersey. 3 pour 4 reste un bon point de départ.
-
-Le point de riz est aussi proche du jersey en largeur, donc 3 pour 4 fonctionne souvent.
-
-Une bordure en i-cord s'attache dans beaucoup de modèles tous les deux rangs, ou avec un rythme très spécifique au modèle. Là, suis le modèle au lieu de forcer la règle 3 pour 4.
-
-Si tu hésites et que le modèle ne dit rien, teste sur une petite portion de bord. Relève sur quelques centimètres, tricote quelques rangs de bordure et regarde si cela tire ou gondole. Mieux vaut le découvrir là que sur toute l'encolure.
+Sans nombre indiqué, teste la bordure sur un petit échantillon avec le fil du projet. Tricote assez pour juger la longueur, la profondeur et l'élasticité. Applique uniquement un traitement autorisé par les consignes d'entretien et évalue l'ouvrage sec, au repos. Le blocage ne corrige pas à coup sûr un mauvais nombre ou un rang de relevage trop serré.
 
 ## Le long d'un bord courbe (encolures)
 
-Les encolures combinent des bords horizontaux, des bords verticaux et des bords courbes ou diagonaux. Chaque section a son propre rythme.
+Marque les sections horizontales, verticales et façonnées. Utilise la méthode adaptée à chacune. Sur une diagonale, suis une ligne régulière à l'intérieur des marches de rabattage, sans piquer dans leurs grands trous. Utilise les nombres par section du modèle ou la longueur réelle de la diagonale et l'échantillon de la bordure. Il n'existe pas de rapport fixe à mi-chemin entre horizontal et vertical.
 
-**Mailles rabattues :** 1 maille par maille, comme un bord horizontal.
-
-**Côtés verticaux :** ratio 3 pour 4, ou celui que ton échantillon demande.
-
-**Bords diagonaux de façonnage :** quelque part entre vertical et horizontal. Commence près du nombre du modèle, ou utilise la diagonale comme guide et ajuste après le premier rang de bordure.
-
-**Coins entre horizontal et diagonal :** relève une maille dans la maille du coin elle-même si le bord veut s'ouvrir à cet endroit. Cela évite le trou le plus fréquent dans les encolures.
-
-Le modèle donne généralement le nombre total de mailles à relever. Répartis-le proportionnellement entre les sections : compte les mailles rabattues devant, les rangs le long de chaque côté, puis alloue en conséquence.
-
-Si l'encolure gondole après le premier rang, il y a trop de mailles. Si elle tire vers l'intérieur, il n'y en a pas assez. Quelques mailles en plus ou en moins corrigent souvent le problème.
+Attribue chaque coin ou limite commune à une seule section. S'il faut une maille supplémentaire contre un trou, relève-la dans une partie ferme voisine et inclus-la dans le total. Fais une éventuelle diminution ultérieure selon le modèle. Les diminutions d'une encolure en V et les augmentations d'un angle extérieur aux rangs suivants sont un façonnage distinct ; des mailles supplémentaires au relevage ne les remplacent pas.
 
 ## Où insérer l'aiguille
 
-**Une maille à l'intérieur du bord.** Entre la maille lisière et la deuxième maille. C'est souvent le résultat le plus net. La maille de bord forme une ligne de pli et la bordure se place juste à l'intérieur plutôt que sur le bord.
-
-**Dans la maille de bord elle-même.** Un peu plus épais, mais plus direct et plus intuitif. Certains modèles le précisent.
-
-Pour les bords cousus, relève entre la maille de couture et la maille suivante. La marge de couture se cache derrière la bordure.
-
-Garde la même méthode sur tout le bord. Changer de méthode en plein milieu crée une différence visible.
+Une colonne en marge convient à la méthode du bord latéral en jersey ci-dessus. Relever dans la maille lisière elle-même peut réduire l'épaisseur, mais change la jonction. Mailles glissées, point mousse, coutures et bords façonnés peuvent demander d'autres points d'insertion. Utilise du tricot ferme à l'intérieur d'une marge de couture existante, pas un fil de couture lâche. Changer de méthode quand la structure change est légitime.
 
 ## Répartir les mailles régulièrement
 
-La cause la plus fréquente d'un relevage irrégulier est de tout faire au feeling et de se retrouver avec trop de mailles au début et trop peu à la fin, ou l'inverse. Un peu de préparation évite de tout recommencer.
+Place les marqueurs entre les points de relevage pour ne pas compter deux fois les extrémités. Des sections de même longueur et de même structure peuvent recevoir le même nombre.
 
-Divise le bord en segments égaux avec des marqueurs ouvrables ou des épingles. Pour un long bord, marque d'abord les moitiés, puis les quarts, puis des sections plus petites si nécessaire. Compte dans chaque section au lieu de garder tout le bord en tête.
+Pour relever 100 mailles sur 140 rangs du bord, divise en quatre sections de 35 rangs. Relève 25 mailles dans chacune, avec cinq répétitions de la séquence 5 sur 7. Chaque section comporte 10 positions sautées : au total, 100 relevées + 40 sautées = 140 positions.
 
-Pour les encolures, marque les coins et les limites de section avant de commencer. C'est là que les petites erreurs grossissent.
+Pour 102 mailles, répartis symétriquement 26 + 25 + 25 + 26. Dans chacune des deux sections extérieures, utilise aussi la position 17, jusque-là sautée. Il y reste 9 positions sautées : au total, 102 + 38 = 140. Les première et dernière positions sont déjà incluses ; ne les rajoute pas aux marqueurs.
+
+En rond, les côtes 1/1 demandent un nombre pair et les côtes 2/2 un multiple de 4. À plat, des côtes 2/2 commençant et finissant par 2 mailles endroit demandent 4n + 2 mailles avant d'éventuelles lisières séparées. Ainsi, 102 = 4 × 25 + 2 convient. Avec encore une maille lisière à chaque extrémité, le total devient 104. Inclus-les dans la répartition ou ajoute-les selon le modèle. Vérifie également la longueur et la tenue.
+
+Pour relever 104 mailles sur les mêmes 140 positions, relève 26 mailles par section en utilisant la position 17 dans les quatre sections : 104 relevées + 36 sautées = 140.
 
 ## Utiliser un crochet
 
-Sur les bords fermes ou très serrés, un crochet peut tirer les boucles avec moins d'effort qu'une aiguille à tricoter. Pique le crochet dans le bord, attrape le fil, tire une boucle, puis transfère-la sur l'aiguille.
-
-Certaines personnes font tout le rang de relevage de cette façon, surtout sur du coton serré ou des lisières très denses. C'est un peu plus lent qu'avec l'aiguille, mais moins dur pour les mains et souvent plus régulier sur les bords difficiles.
+Pique le crochet au même endroit choisi, attrape le fil de travail derrière l'ouvrage et tire une nouvelle boucle vers l'avant. Transfère-la sur l'aiguille sans la tordre. L'outil ne change ni le nombre ni le rythme.
 
 ## Tester le relevage avec un reste de fil
 
-Si le relevage te semble incertain, teste d'abord le rang avec un reste de fil lisse. Compte les mailles, vérifie l'espacement, puis retire-le et recommence avec le fil du projet quand le rythme est bon. Cela permet de vérifier le nombre et la répartition sans abîmer le vrai fil par plusieurs essais.
-
-C'est utile sur un pull où l'encolure doit bien tomber et où tu veux vérifier le nombre avant de continuer. C'est aussi utile quand le bord est ferme, duveteux ou sombre au point qu'un vrai relevage à refaire deviendrait pénible.
+Un fil lisse permet de répéter le geste et de vérifier le nombre. Une autre épaisseur ou élasticité ne valide pas la tenue de la bordure finale. Teste celle-ci avec le fil du projet et le point prévu.
 
 ## Erreurs fréquentes
 
-**Trop de mailles.** La bordure s'évase et ondule. Recommence le rang de relevage avec moins de mailles. Mieux vaut le voir tout de suite qu'après plusieurs rangs de bordure.
+**Ondulations ou fronces.** Trop de mailles peuvent évaser la bordure ; trop peu peuvent resserrer la pièce. Vérifie aussi la tension, la profondeur d'insertion, l'échantillon, le façonnage et l'élasticité du rabattage. Recommence si le nombre ou la répartition est incorrect. Changer d'aiguilles ou diminuer plus tard n'enlève pas l'excédent déjà pris dans la jonction.
 
-**Pas assez de mailles.** La bordure tire vers l'intérieur et crée des fronces. Même correction : refaire.
+**Répartition irrégulière.** Vérifie chaque section et espace les positions sautées. Des nombres égaux ne conviennent que si la longueur et la structure le justifient.
 
-**Espacement irrégulier.** Sections étirées et sections tassées. Avant de relever, divise le bord en segments égaux avec des épingles ou des marqueurs, puis relève le même nombre dans chaque segment.
+**Trous dans les coins.** Évite les boucles lâches et les coins comptés deux fois. Un petit trou restant peut être fermé avec une extrémité de fil sans resserrer le bord ; consulte le [guide d'assemblage](/fr/articles/assembler-des-pieces-tricotees/). N'ajoute pas automatiquement trois mailles au coin.
 
-**Trous dans les coins.** Relève dans la maille du coin elle-même et une maille dans chaque section voisine. Si un petit trou reste, ferme-le avec quelques points de fil pendant les finitions. Le [guide d'assemblage](/fr/articles/assembler-des-pieces-tricotees/) couvre ces corrections plus en détail.
-
-**Mailles torses.** Si la maille relevée a les jambes croisées, elle aura l'air différente au rang suivant. La jambe avant doit se trouver devant l'aiguille, de façon cohérente avec ta manière de tricoter.
-
-**Ligne de relevage visible sur l'endroit.** Cela veut souvent dire que tu as relevé trop près du bord, ou dans la maille de bord quand le modèle supposait une maille à l'intérieur. Déplace-toi d'une maille vers l'intérieur, et la ligne se cache sur l'envers.
+**Mailles torses ou ligne visible.** Vérifie l'orientation des mailles, la face de travail et le point d'insertion. Piquer plus profondément peut ajouter de l'épaisseur et ne règle pas toutes les causes. Rentre les fils sans limiter l'élasticité et respecte les consignes d'entretien.
 
 ## Relever des mailles pour les steeks
 
-Après avoir coupé un steek correctement préparé, c'est-à-dire une colonne de mailles supplémentaires tricotée en rond puis ouverte pour créer un cardigan ou une ouverture, une bande en mailles relevées peut couvrir le bord coupé et aider à le stabiliser. Elle ne remplace pas le renfort lorsque le fil, la fibre ou la méthode du steek exige un renfort avant la coupe.
+Un steek est une ouverture prévue pour être coupée dans le tricot. Choisis une méthode éprouvée pour le fil ; un renfort au crochet ne suffit pas pour tous les fils lisses ou non feutrants. Effectue le renfort nécessaire avant de couper. Une bande relevée ne le remplace pas.
 
-Relève dans la colonne de mailles juste à l'intérieur de la coupe, pas dans les fils coupés eux-mêmes. La bande peut masquer les extrémités coupées sur l'endroit, mais le rabat ou le bord coupé doit encore recevoir une finition adaptée à la méthode choisie.
-
-Les fils qui ne feutrent pas, comme le coton ou la laine superwash, doivent être renforcés par un rang de crochet ou une couture machine de chaque côté avant la coupe. Une laine non traitée et accrochante peut souvent se tenir ou feutrer assez pour être plus stable. Le coton et le superwash ne le font pas.
+Relève sur la ligne indiquée, du côté du vêtement par rapport à la marge du steek, pas juste à côté de la coupe ni dans les fils coupés. La marge doit encore être fixée ou enfermée. Selon la construction, le relevage peut précéder ou suivre la coupe ; respecte cet ordre.
 
 ## Questions fréquentes
 
 **Quelle taille d'aiguille utiliser pour relever ?**
-
-Utilise celle que le modèle indique pour la bordure, souvent une ou deux tailles plus petites que les aiguilles du corps. Des aiguilles plus petites pour les bordures en côtes donnent un bord plus ferme et plus net.
+Utilise celle de la bordure indiquée et vérifie l'échantillon. Une aiguille plus fine ou un crochet peut aider à entrer dans un bord serré. Transfère les boucles sur l'aiguille de travail sans serrer le relevage. Plus fin ne signifie pas toujours plus net.
 
 **Faut-il relever avec l'endroit face à soi ?**
-
-En général, oui. Relève avec l'endroit face à toi, pour que le premier rang de bordure soit un rang envers dans une bordure en jersey. Cela place la ligne de relevage sur l'envers.
+Oui, pour cette méthode. À plat, tourne ensuite l'ouvrage et suis les explications du rang sur l'envers. En rond, continue sans tourner, sauf indication contraire. Un rang sur l'envers n'est pas forcément un rang entièrement tricoté à l'envers.
 
 **Combien de mailles pour une bande de boutonnage ?**
-
-Le modèle devrait le dire. S'il ne le fait pas, utilise l'échantillon du point de bordure multiplié par la longueur du bord comme point de départ. Ajuste ensuite si la bande tire ou gondole.
+Suis le modèle. Sans nombre, multiplie la longueur souhaitée par le nombre de mailles de la bande par unité de longueur. Vérifie le motif, les extrémités et l'étirement prévu. Utilise le nombre de rangs de la pièce pour répartir ce total.
 
 **Pourquoi mon rang de relevage paraît-il irrégulier sur l'endroit ?**
+Vérifie profondeur d'insertion, répartition et tension des boucles avant de recommencer. Un coin ou une structure différente peut demander un autre point d'insertion.
 
-Le plus souvent, la profondeur d'insertion varie. Certaines mailles sont relevées une maille à l'intérieur, d'autres dans la maille de bord. Recommence après avoir choisi une seule méthode.
-
-**Puis-je ajouter de la longueur en relevant des mailles sur un bord rabattu et en tricotant vers le bas ?**
-
-Oui. Relève le long du bord rabattu comme sur n'importe quel bord horizontal, souvent 1 maille par maille rabattue, puis tricote vers le bas. La nouvelle section aura une direction légèrement différente dans le tissu parce que les mailles sont inversées par rapport à l'original. En jersey uni ou en point mousse, cela peut rester discret ; dans un point directionnel, cela peut se voir.
+**Puis-je ajouter de la longueur sur un bord rabattu ?**
+Oui, mais le rabattage conservé forme un relief et peut limiter l'élasticité. Depuis ce bord, tu continues normalement dans le sens initial du tricot. Depuis le montage, le sens s'inverse et les colonnes peuvent se décaler d'une demi-maille. Fais un essai : la jonction n'est pas toujours invisible.
 
 **Mon nombre de mailles correspond au modèle, mais le bord gondole. Pourquoi ?**
+La longueur réelle, l'échantillon de la bordure ou la tension du relevage peut différer. Vérifie-les avant de changer le nombre. Des augmentations ou diminutions prévues peuvent adapter le total au motif suivant, mais ne garantissent pas une jonction plate avec un rapport de relevage inadapté.
 
-Le modèle suppose peut-être une autre relation entre l'échantillon en rangs, l'échantillon en mailles et la longueur du bord. Relève de nouveau en te basant sur ton bord réel, puis ajuste le rang de bordure suivant avec des augmentations ou des diminutions si nécessaire.
+Sources techniques en anglais : [Purl Soho : relever des mailles](https://www.purlsoho.com/create/picking-up-stitches/) et [La Visch Designs : sections d'une encolure](https://www.lavisch.com/site/tutorial-picking-up-stitches-to-work-a-neckline/).

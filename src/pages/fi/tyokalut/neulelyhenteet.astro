@@ -98,8 +98,8 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "alt",
-    def: "vuorottele / vaihtoehtoinen (alternate)",
-    search: "alternate vuorottele vaihtoehtoinen",
+    def: "joka toinen; esim. alt rows tarkoittaa joka toista kerrosta",
+    search: "alternate vuorottele joka toinen",
     categories: ["general"],
   },
   {
@@ -128,13 +128,13 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "sl",
-    def: "nosta silmukka (slip)",
+    def: "nosta neulomatta; tarkista ohjeesta, nostetaanko oikein vai nurin",
     search: "slip nosta silmukka",
     categories: ["general"],
   },
   {
     abbr: "sl st",
-    def: "nostettu silmukka (slip stitch)",
+    def: "nosta silmukka neulomatta; tarkista ohjeesta nostosuunta",
     search: "slip stitch nostettu silmukka",
     categories: ["general"],
   },
@@ -201,13 +201,13 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "kfb",
-    def: "neulo etu- ja takareunasta (knit front and back)",
+    def: "neulo sama silmukka oikein etu- ja takareunasta (1 silmukka lisää)",
     search: "knit front and back etureuna takareuna lisäys",
     categories: ["increases"],
   },
   {
     abbr: "pfb",
-    def: "neulo nurin etu- ja takareunasta (purl front and back)",
+    def: "neulo sama silmukka nurin etu- ja takareunasta (1 silmukka lisää)",
     search: "purl front and back nurin etureuna takareuna lisäys",
     categories: ["increases"],
   },
@@ -239,34 +239,34 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "ssk",
-    def: "vasemmalle kallistuva kavennus (slip, slip, knit)",
+    def: "nosta 2 silmukkaa yksitellen oikein neulomatta, neulo ne takareunoista oikein yhteen (vasemmalle; 1 silmukka vähenee)",
     search: "slip slip knit vasemmalle kallistuva kavennus",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "skp",
-    def: "nosta, neulo, vedä nostettu yli",
+    def: "nosta 1 silmukka oikein neulomatta, neulo 1 oikein ja vedä nostettu yli (vasemmalle; 1 silmukka vähenee)",
     search:
       "slip knit pass slipped stitch over nosta neulo vedä nostettu yli kavennus",
     categories: ["decreases"],
   },
   {
     abbr: "sk2p",
-    def: "nosta 1, neulo 2 oikein yhteen, vedä nostettu yli",
+    def: "nosta 1 silmukka oikein neulomatta, neulo 2 oikein yhteen ja vedä nostettu yli (vasemmalle; 2 silmukkaa vähenee)",
     search:
-      "slip one knit two together pass slipped stitch over keskitetty kavennus",
+      "slip one knit two together pass slipped stitch over vasemmalle kallistuva kavennus",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "s2kp",
-    def: "nosta 2, neulo 1, vedä nostetut yli",
+    def: "nosta 2 silmukkaa yhdessä kuin neuloisit ne oikein yhteen, neulo 1 oikein ja vedä molemmat nostetut yli (keskitetty; 2 silmukkaa vähenee)",
     search:
       "slip two knit one pass two slipped stitches over keskitetty kaksoiskavennus",
     categories: ["decreases"],
   },
   {
     abbr: "CDD",
-    def: "keskitetty kaksoiskavennus (centered double decrease)",
+    def: "keskitetty kaksoiskavennus (2 silmukkaa vähenee); tarkista tekotapa ohjeesta",
     search: "centered double decrease keskitetty kaksoiskavennus kavennus",
     categories: ["decreases"],
   },
@@ -285,37 +285,37 @@ const abbreviations: Abbreviation[] = [
 
   {
     abbr: "C4F",
-    def: "4 silmukan palmikko eteen (cable 4 front)",
+    def: "4 silmukan palmikko: siirrä 2 silmukkaa apupuikolle työn eteen, neulo 2 oikein ja apupuikon 2 silmukkaa oikein",
     search: "cable four front palmikko eteen",
     categories: ["cables"],
   },
   {
     abbr: "C4B",
-    def: "4 silmukan palmikko taakse (cable 4 back)",
+    def: "4 silmukan palmikko: siirrä 2 silmukkaa apupuikolle työn taakse, neulo 2 oikein ja apupuikon 2 silmukkaa oikein",
     search: "cable four back palmikko taakse",
     categories: ["cables"],
   },
   {
     abbr: "C6F",
-    def: "6 silmukan palmikko eteen (cable 6 front)",
+    def: "6 silmukan palmikko: siirrä 3 silmukkaa apupuikolle työn eteen, neulo 3 oikein ja apupuikon 3 silmukkaa oikein",
     search: "cable six front palmikko eteen",
     categories: ["cables"],
   },
   {
     abbr: "C6B",
-    def: "6 silmukan palmikko taakse (cable 6 back)",
+    def: "6 silmukan palmikko: siirrä 3 silmukkaa apupuikolle työn taakse, neulo 3 oikein ja apupuikon 3 silmukkaa oikein",
     search: "cable six back palmikko taakse",
     categories: ["cables"],
   },
   {
     abbr: "T2F",
-    def: "2 silmukan kierto eteen (twist 2 front)",
+    def: "2 silmukan risteys, 1 silmukka odottaa työn edessä; oikeat ja nurjat silmukat ohjeen mukaan",
     search: "twist two front kierto eteen palmikko",
     categories: ["cables"],
   },
   {
     abbr: "T2B",
-    def: "2 silmukan kierto taakse (twist 2 back)",
+    def: "2 silmukan risteys, 1 silmukka odottaa työn takana; oikeat ja nurjat silmukat ohjeen mukaan",
     search: "twist two back kierto taakse palmikko",
     categories: ["cables"],
   },
@@ -378,11 +378,11 @@ const filterOrder: Array<Category | "all"> = [
 const faqs = [
   {
     q: "Ovatko englannin ja suomen lyhenteet samoja?",
-    a: "Eivät yleensä. Suomenkielisissä ohjeissa käytetään usein o, n, krs ja s -tyyppisiä lyhenteitä. Englanninkielisissä ohjeissa vastaan tulevat k, p, yo, ssk ja muut kansainväliset lyhenteet.",
+    a: "Eivät yleensä. Suomenkielisissä ohjeissa käytetään usein o, n, krs ja s -tyyppisiä lyhenteitä. Englanninkielisissä ohjeissa vastaan tulevat k, p, yo, ssk ja muut englanninkieliset lyhenteet.",
   },
   {
     q: "Mitä tähti tarkoittaa neuleohjeessa?",
-    a: 'Tähti merkitsee yleensä toistoa. Kaikki tähdestä seuraavaan toisto-ohjeeseen, kuten "toista *-kohdasta", neulotaan uudelleen kerroksen tai jakson yli. Sulkeet ja hakasulkeet ryhmittelevät samalla tavalla ohjeen osia, jotka tehdään useamman kerran.',
+    a: "Tähti merkitsee toiston alkua. Toista merkitty jakso ohjeessa ilmoitettu määrä tai annettuun kohtaan asti. Sulkeet ja hakasulkeet voivat ryhmitellä toistoja, mutta myös eri kokojen lukuja tai samaan silmukkaan tehtäviä vaiheita. Lue aina merkintään liittyvä ohje.",
   },
   {
     q: "Mitä jos ohje käyttää omaa lyhennettä?",
@@ -390,25 +390,33 @@ const faqs = [
   },
   {
     q: "Mitä eroa on lyhenteillä ssk ja skp?",
-    a: "Molemmat ovat vasemmalle kallistuvia kavennuksia ja näyttävät valmiissa neuleessa hyvin samanlaisilta. ssk on nykyohjeissa yleisempi, skp tulee vastaan useammin vanhemmissa ohjeissa. Tee se kavennus, jonka ohje pyytää.",
+    a: "Molemmat vähentävät yhden silmukan ja kallistuvat vasemmalle sileän neuleen oikealta puolelta katsottuna. Tavallisessa ssk:ssa nostetaan kaksi silmukkaa yksitellen oikein neulomatta ja neulotaan ne takareunoista oikein yhteen. Skp:ssä nostetaan yksi oikein neulomatta, neulotaan yksi oikein ja vedetään nostettu yli. Ulkonäkö voi erota, joten noudata ohjeen tekotapaa.",
   },
 ];
 ---
 
 <LocalizedToolPage
   lang="fi"
-  title="Neulelyhenteet: haettava sanasto"
-  description="Neuleohjeiden lyhenteet suomeksi: hae englanninkielinen lyhenne ja tarkista, mitä se tarkoittaa käytännössä."
+  title="Englannin neulelyhenteet suomeksi"
+  description="Hae tavallisia englanninkielisiä neulelyhenteitä ja tekniikoita suomenkielisillä selityksillä. Rajaa hakua kategorian mukaan."
   canonicalPath={routes.tool.knittingAbbreviations.fi}
   alternates={routes.tool.knittingAbbreviations}
-  intro="Hae lyhenne tai tekniikka. Sanasto auttaa lukemaan englanninkielisiä neuleohjeita suomeksi."
+  intro="Hae lyhenne tai tekniikka. Tämä englanninkielisten neulelyhenteiden valikoima auttaa lukemaan ohjeita suomeksi."
   schemaName="Neulelyhenteet"
-  schemaDescription="Haettava neuleohjeiden lyhennesanasto englanninkielisille ja suomenkielisille termeille."
+  schemaDescription="Hae tavallisia englanninkielisiä neulelyhenteitä ja tekniikoita suomenkielisillä selityksillä. Rajaa hakua kategorian mukaan."
   faqs={faqs}
   variant="brown"
 >
   <div slot="tool">
     <div class="abbr-wrapper">
+      <p>
+        Ohjeen oma merkkiselite on ensisijainen. Tässä silmukat neulotaan
+        vasemmalta puikolta oikealle, ja oikeiden silmukoiden lisäysten ja
+        kavennusten suuntaa katsotaan sileän neuleen oikealta puolelta. Lanka
+        edessä/takana tarkoittaa neulojan puolta/vastakkaista puolta, ei työn
+        oikeaa/nurjaa puolta. Nostosuunta ja palmikon tekotapa tarkistetaan
+        ohjeesta; myös ssk:sta on eri versioita.
+      </p>
       <input
         type="text"
         id="abbr-search"
@@ -466,7 +474,7 @@ const faqs = [
   <div slot="content">
     <h2>Lyhenne pitää lukea ohjeen yhteydessä</h2>
     <p>
-      Sama lyhenne voi olla helppo, mutta kohta ohjeessa ratkaisee. K2tog ei ole
+      Sama lyhenne voi olla helppo, mutta kohta ohjeessa ratkaisee. k2tog ei ole
       vain kaksi silmukkaa yhteen, vaan oikealle kallistuva kavennus. Jos työn
       symmetria näkyy valmiissa neuleessa, kallistussuunnalla on väliä.
     </p>

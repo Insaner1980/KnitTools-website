@@ -2,6 +2,7 @@
 title: "Fibres de fil : laine, coton, acrylique"
 description: "Différences entre laine, coton, acrylique et mélanges au tricot : chaleur, tombé, tenue, entretien, blocage et meilleurs usages."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: "yarn"
 categoryOrder: 8
 tags:
@@ -16,94 +17,88 @@ lang: fr
 translationKey: "yarn-fibers-compared"
 ---
 
-Tricote le même échantillon torsadé en laine puis en coton, pose-les côte à côte, et on dirait presque deux modèles différents. La version en laine rebondit. Les torsades ressortent. La version en coton tombe un peu, s'aplatit davantage, montre chaque maille avec une honnêteté presque rude. Même aiguille, mêmes mains, même nombre de mailles. Tissu complètement différent.
+Tricote le même échantillon torsadé en laine et en coton, puis compare-les après lavage et séchage selon leurs étiquettes. Une laine avec du ressort peut donner des torsades arrondies, un coton lisse une surface plus plate aux mailles bien définies. Les mêmes aiguilles et le même nombre de mailles ne garantissent ni les mêmes mesures ni le même tissu tricoté. Ce sont des propriétés à observer, pas des résultats garantis par le nom de la fibre.
 
-Cette différence n'est pas seulement esthétique. La composition du fil change la sensation du projet sous les doigts, sa réaction au blocage, sa tenue après des mois ou des années d'usage, et sa capacité à garder sa forme ou à céder lentement à la gravité. La laine apporte de l'élasticité et un vrai potentiel de blocage, le coton donne du tombé et supporte bien le lavage, l'acrylique offre un prix accessible et un entretien simple. L'étiquette d'une pelote n'est pas un détail. C'est l'information la plus utile pour savoir ce que le fil va réellement faire.
+La composition influence le toucher, le blocage et l'usure. Mais la finesse et la longueur des fibres, la construction du fil, sa torsion, le mélange, les traitements, le nombre de mailles par centimètre et le point comptent aussi. Lis l'étiquette et vérifie le tombé, la reprise de forme après étirement et l'entretien sur un échantillon. Pouvoir s'étirer ne signifie pas revenir entièrement aux dimensions d'origine.
 
 ## Laine
 
-La laine est la fibre à laquelle on compare presque toutes les autres, et ce n'est pas sans raison. Elle est chaude, élastique, tolérante avec une tension irrégulière, et elle réagit au blocage mieux que presque tout ce qu'on utilise au tricot.
+La laine est un bon point de départ pour un tricot chaud et avec du ressort. L'ondulation naturelle de la fibre et sa capacité à reprendre sa forme contribuent à l'élasticité de nombreux fils de laine.
 
-Son élasticité compte énormément. La laine s'étire pendant le travail puis revient en place. Les côtes restent serrées. Les torsades gardent leur relief sculpté. Le jersey a une main vivante, agréable, qui reprend sa forme après avoir été froissé. Ce ressort est aussi ce qui rend la laine si coopérative au blocage humide. Trempe une pièce en laine, épingle-la, laisse-la sécher, et le tissu peut ressembler à une version beaucoup plus aboutie du même projet. Le guide sur le [blocage](/fr/articles/bloquer-un-tricot/) détaille les méthodes selon les fibres. La dentelle s'ouvre franchement. Les mailles se régularisent. Les premières fois, la transformation peut vraiment surprendre.
+Ce ressort rend la laine intéressante pour les côtes et les torsades en relief. Le blocage humide, si les consignes du fil l'autorisent, peut régulariser les mailles et ouvrir la dentelle. Mets l'ouvrage aux dimensions prévues et laisse-le sécher complètement. Ne compte pas sur le blocage pour corriger un échantillon inadapté ou conserver une nouvelle forme à travers tous les lavages suivants. Le guide sur le [blocage](/fr/articles/bloquer-un-tricot/) présente les méthodes ; les consignes du fabricant du fil priment si elles diffèrent.
 
-La laine est utile par temps frais et humide parce qu'elle isole, gère l'humidité et peut rester confortable quand elle est légèrement humide. Si elle domine les vêtements d'extérieur et les accessoires d'hiver, ce n'est pas par nostalgie.
+Les fibres de laine absorbent de la vapeur d'eau, et l'air retenu dans un tricot gonflant aide à isoler. La laine est donc intéressante par temps frais, mais chaleur et confort dépendent aussi de l'épaisseur, de la construction, de l'humidité du vêtement et des conditions d'utilisation. Absorber l'humidité ne garantit pas une peau sèche.
 
-Il y a tout de même des contreparties. La laine non superwash feutre avec la chaleur, l'humidité et l'agitation. C'est un avantage pour certains projets et une catastrophe pour d'autres. Et "laine" couvre une immense variété de douceurs. Certaines races donnent un fil agréable contre la peau nue. D'autres appartiennent clairement aux vestes et accessoires extérieurs, sauf si la personne aime être grattée. Le mérinos se situe plutôt du côté doux, et beaucoup de personnes qui ne supportent pas une laine générique tolèrent très bien le mérinos. Mais la sensibilité est personnelle. Le seul test fiable, c'est de porter le fil.
+Une laine non traitée peut feutrer lorsque les mouvements dans l'eau font s'accrocher les écailles des fibres entre elles ; la chaleur peut favoriser ce processus. Le feutrage compacte le tricot et peut provoquer un rétrécissement irréversible. La douceur est une autre question. La finesse des fibres et les extrémités grossières qui dépassent influencent la sensation de picotement. Un mérinos fin est une option pour un tricot doux, mais le nom de la fibre ne garantit pas le confort sur la peau. Évalue l'échantillon lavé.
 
-La laine superwash réduit le risque de feutrage et de rétrécissement grâce à un traitement anti-rétrécissement, et elle est réellement pratique quand l'étiquette autorise le lavage en machine. En échange, elle se sent souvent plus glissante sur les aiguilles et peut se détendre ou grandir au lavage d'une façon que la laine non traitée ne fait pas. Avec la superwash, l'échantillon compte plus, pas moins.
+Le traitement superwash réduit le rétrécissement par feutrage en modifiant ou en recouvrant les écailles des fibres. Il n'autorise pas automatiquement tous les programmes de lavage ni le sèche-linge. Suis les consignes précises de lavage et de séchage du fil. Un tricot traité ou non traité peut changer de dimensions lorsque les mailles se détendent au lavage : mesure l'échantillon sec.
 
-Pour les points texturés, le jacquard et tout ce qui demande de la structure, la laine est le choix le plus solide. Pas le seul. Le plus solide.
+Pour les points texturés, le jacquard et les ouvrages qui demandent du ressort, la laine est un choix de départ pratique. Vérifie la définition des mailles et la reprise de forme avec le fil et la densité de tricot prévus.
 
 ## Coton
 
-Le coton est l'opposé de la laine sur presque tous les points importants, et comprendre où il excelle demande de comprendre ce qu'il n'a pas.
+Le coton offre un autre point de départ : une fibre végétale absorbante, intéressante pour les lavettes et les hauts d'été.
 
-Il n'a pratiquement pas d'élasticité. Aucune, ou presque. Le fil ne s'étire pas puis ne revient pas en place pendant le travail, donc les irrégularités de tension restent visibles dans le tissu fini. Les tricoteuses très régulières aiment le coton parce que la définition de maille est nette comme une lame. Les tricoteuses moins expérimentées le trouvent parfois impitoyable.
+Les fibres de coton reprennent moins bien leur forme après étirement que la laine. Un tricot en coton peut pourtant s'étirer lorsque ses boucles se déplacent, sans revenir entièrement aux mêmes dimensions. Un fil de coton lisse peut montrer nettement les mailles et les irrégularités de tension. La torsion, la surface du fil et la densité du tricot influencent aussi la définition des mailles.
 
-Le poids et le tombé sont l'endroit où le coton brille ou échoue, selon le projet. Un débardeur en coton tombe joliment avec un poids fluide. Un pull en coton peut s'allonger lentement jusqu'à perdre ses proportions. Avec le coton, la gravité finit toujours par gagner, et aucune mémoire élastique ne lutte contre elle.
+Le tombé est une propriété du tissu tricoté fini. Un débardeur souple en coton peut tomber joliment, tandis qu'un pull lourd et tricoté lâche peut s'allonger sous son propre poids. Ce n'est pas inévitable : construction, densité du tricot, poids du vêtement et entretien jouent un rôle.
 
-Bloquer du coton n'a pas vraiment le même sens que bloquer de la laine. On peut lisser, vaporiser, mettre en forme. Mais le tissu ne gardera pas une transformation spectaculaire comme la laine. Ce qui tombe des aiguilles reste assez proche de ce qui restera.
+Le coton peut aussi être bloqué : lave et sèche l'échantillon selon les consignes, mets-le en forme sans le forcer et mesure-le à nouveau une fois sec. Un tricot en coton peut rétrécir ou changer de forme au lavage. N'utilise vapeur ou fer que si l'étiquette le permet.
 
-Côté pratique, beaucoup de fils de coton supportent bien les lavages fréquents quand l'étiquette l'autorise. Le coton résiste bien à l'usage quotidien. Pour les lavettes, les sacs filet, les articles bébé qui passent souvent en machine et les hauts d'été, c'est un choix évident. Le coton mercerisé a une surface lisse et légèrement brillante. Le coton non mercerisé commence plus mat et plus rêche, puis s'assouplit très bien au fil des lavages.
+Le coton mérite d'être envisagé pour les lavettes, sacs filet, articles bébé souvent lavés et hauts d'été lorsque l'entretien convient à l'usage. La mercerisation augmente le lustre, mais ne détermine pas seule la douceur. Un coton non mercerisé est généralement plus mat, pas forcément plus rêche. Le lavage ne garantit pas une évolution précise du toucher.
 
-Les longues séances de tricot en coton peuvent fatiguer davantage les mains. Comme le fil n'a presque pas de souplesse, le mouvement répétitif se répercute plus directement dans les doigts et les poignets. C'est bon à savoir, parce que beaucoup de tricoteuses le découvrent seulement en cours de projet.
-
-Pour le tombé, les lavages fréquents et les vêtements de saison chaude, le coton bat clairement la laine. Pour la structure, le retour élastique et le blocage, il ne s'en approche pas.
+Choisis le coton pour son absorption et un tissu adapté à l'été ; une laine avec du ressort lorsque la reprise de forme est essentielle. Aucune fibre ne gagne toutes les comparaisons de tombé, de résistance ou de facilité de lavage.
 
 ## Acrylique
 
 L'acrylique reçoit beaucoup de mépris qu'il ne mérite pas toujours. Il est aussi surestimé dans certains discours. La vérité est au milieu, plutôt du côté pratique.
 
-Il est abordable, largement disponible, généralement simple à entretenir, et il garde la laine hors du projet. Pour les couvertures bébé à laver sans arrêt, les tricots solidaires où le budget compte, et les personnes qui ont besoin d'un fil sans laine, l'acrylique peut être un bon choix plutôt qu'une option de second rang.
+L'acrylique est une fibre synthétique utilisée dans de nombreux fils à petit prix. Un fil acrylique adapté est une option pratique pour une couverture bébé souvent lavée, un tricot solidaire à budget limité ou un projet sans laine. Vérifie le prix réel, le toucher et les consignes d'entretien du fil.
 
-Il ne se bloque pas comme la laine. Il peut boulocher. Il respire moins bien contre la peau. Une chaleur trop forte peut l'abîmer définitivement : un fer ou une vapeur agressive peuvent faire fondre la fibre. Il est aussi issu du pétrole et relâche des microplastiques au lavage.
+La fibre acrylique absorbe peu d'humidité, mais cela ne détermine pas à lui seul la perméabilité à l'air du tricot ni sa sensation de sécheresse sur la peau. L'acrylique peut boulocher. La chaleur peut fixer ou déformer sa structure et abîmer le fil : le blocage à la vapeur n'est pas équivalent au blocage humide. Vérifie l'étiquette avant tout traitement thermique. Le lavage de textiles acryliques peut libérer des microfibres plastiques. La quantité dépend du textile et des conditions de lavage ; ce fait ne constitue pas à lui seul un bilan environnemental comparatif des fibres.
 
-Remplacer la laine par de l'acrylique dans un modèle est techniquement possible dans beaucoup de cas, mais le tissu obtenu se comportera autrement. Pour les couvertures et beaucoup d'accessoires, cette différence ne posera pas de problème. Pour les vêtements ajustés, la dentelle ou les motifs très texturés, fais un échantillon et sois honnête : est-ce que le tissu fait ce dont le modèle a besoin ?
+Remplacer la laine par de l'acrylique demande à la fois un échantillon aux bonnes mesures et un tissu adapté. Pour une couverture, vérifie tombé, poids et entretien. Pour un vêtement ajusté, de la dentelle ou des points texturés, vérifie aussi la reprise de forme et la lisibilité du motif après lavage et séchage.
 
 ## Autres fibres à connaître
 
-**Alpaga** : doux, chaud et plus tombant que la laine. La chaleur est réelle, ce qui en fait un bon choix pour les accessoires d'hiver. Mais les vêtements en alpaga pur ont tendance à grandir avec le temps, parce que la fibre a moins de mémoire élastique que beaucoup de laines. Un pull en alpaga pur qui tombe bien après blocage peut s'allonger nettement après quelques ports. Un mélange avec de la laine peut ajouter du ressort et aider la forme à tenir. L'alpaga pur fonctionne mieux pour les écharpes, cols et châles, où un peu d'allongement n'est pas grave.
+**Alpaga** : à envisager pour les écharpes, cols et châles chauds au tombé souple. Finesse, ondulation des fibres et construction du fil varient : l'alpaga n'est pas toujours plus doux, plus chaud ou moins élastique que toutes les laines. Pour un pull, surveille particulièrement le tombé et les changements de dimensions de l'échantillon lavé. Un mélange laine/alpaga est une autre option à essayer, pas une garantie contre l'allongement.
 
-**Soie** : elle ajoute de la brillance, de la résistance et du tombé. Elle est rarement utilisée pure dans les fils à tricoter, parce qu'elle coûte cher et peut glisser sur les aiguilles. En mélange, en revanche, elle transforme un fil. Une proportion modeste de soie donne à la laine un lustre visible et une main plus lisse sans transformer le fil en pur tombé. La soie ajoute aussi de la résistance à la traction, ce qui explique sa présence dans les fils dentelle très fins qui doivent tenir sans casser. Le revers : la soie peut marquer à l'eau et ne revient pas après étirement comme la laine.
+**Soie** : connue pour son lustre, sa résistance à la traction et son tombé. Ce sont des raisons de l'envisager pour les châles et fils dentelle, y compris en mélange avec la laine. Le résultat dépend du type de soie et de la construction du fil, pas seulement de son pourcentage. Certaines étoffes de soie marquent à l'eau ; suis les consignes du fil. Résistance ne signifie pas reprise de forme comparable à la laine.
 
-**Lin** : solide, frais à porter, et il s'améliore vraiment à chaque lavage. La première pelote peut sembler raide, parfois presque sèche et cassante sous les doigts. C'est normal. Après deux ou trois lavages, le tissu s'assouplit fortement. Le lin est un choix classique pour les hauts d'été et les climats chauds, parce qu'il respire et évacue l'humidité au lieu de retenir la chaleur. Il ne se bloque pas comme la laine, avec presque aucune capacité de remodelage, et son manque d'élasticité peut fatiguer sur les longues séances. Mais un vêtement en lin bien porté a un tombé et une main difficiles à imiter.
+**Lin** : une fibre végétale solide et absorbante, avec peu de reprise élastique. Il convient aux hauts d'été lorsque l'échantillon donne le toucher frais et le tombé souhaités. Certains fils de lin sont d'abord raides et s'assouplissent au lavage et à l'usage, mais aucun nombre fixe de lavages ne garantit la douceur. Lave et mets en forme l'échantillon selon l'étiquette : la faible élasticité de la fibre n'empêche pas le tricot de changer de dimensions.
 
-**Mohair et kid mohair** : ils créent un halo, ce flou doux qui entoure les mailles. On les tricote souvent avec un second fil, la soie étant l'association classique, plutôt que seuls à une épaisseur importante. L'effet de halo est difficile à reproduire avec une autre fibre. Le kid mohair est plus doux et plus fin. Le mohair classique peut gratter davantage contre la peau. Les deux déposent des fibres sur tout ce qui se trouve autour.
+**Mohair et kid mohair** : utilisés dans les fils brossés pour le halo duveteux autour des mailles. Le mohair provient de la chèvre angora ; le kid mohair vient des jeunes chèvres et est généralement plus fin. Douceur et perte de fibres dépendent néanmoins de la qualité et de la construction. Un mélange mohair/soie constitue déjà un fil ; le tricoter avec un second fil séparé est un autre choix. Il peut aussi se tricoter seul si le modèle et l'échantillon conviennent. Le halo n'est pas propre au mohair.
 
-**Nylon** : il joue rarement le rôle principal. Il apparaît dans les mélanges pour la résistance à l'abrasion, ce qui explique sa présence dans beaucoup de fils à chaussettes du marché. Une petite proportion, souvent autour de 10 à 25 %, peut prolonger la vie des zones très sollicitées sans prendre le dessus sur la sensation du fil entre les doigts.
+**Nylon**, aussi appelé polyamide sur les étiquettes : utilisé dans de nombreux fils à chaussettes pour sa résistance à l'abrasion. Le pourcentage seul ne prédit pas leur durée de vie : torsion, densité du tricot, ajustement et usage comptent aussi.
 
 ## Mélanges : résoudre de vrais problèmes
 
-Les mélanges existent parce que les fibres pures ont des manques prévisibles, et que les mélanger permet de les combler.
+Les mélanges associent des fibres pour rechercher certaines qualités, mais ne cumulent pas automatiquement tous les avantages de chaque composant.
 
-Laine/nylon, c'est le mélange classique pour chaussettes. La laine apporte chaleur et élasticité. Le nylon ajoute la résistance à l'abrasion qui évite aux talons et aux pointes de s'user trop vite. Aucune des deux fibres ne couvre entièrement les deux besoins seule.
+Laine/nylon est un mélange familier pour les chaussettes. La laine contribue au ressort et à l'isolation, le nylon est ajouté pour la résistance à l'abrasion. C'est une option utile pour les talons et pointes soumis aux frottements, pas une garantie contre les trous. On peut aussi tricoter des chaussettes sans nylon.
 
-Mérinos/soie ajoute du tombé et de l'éclat à une base de laine sans sacrifier beaucoup de structure. Coton/acrylique allège le tissu et simplifie l'entretien par rapport au coton pur. Laine/alpaga garde plus de structure que l'alpaga pur tout en gagnant en douceur.
+Essaie mérinos/soie pour le lustre et le tombé, laine/alpaga pour l'équilibre entre douceur et ressort. Pour coton/acrylique, compare le poids et l'entretien du tissu obtenu. Le nom du mélange ne prouve pas qu'il soit plus léger, plus doux, plus facile à laver ou plus stable qu'un fil composé d'une seule fibre.
 
-Quand tu regardes un mélange, le ratio compte. Un fil étiqueté 90/10 mérinos/soie reste du mérinos avec une légère brillance. Un 50/50 se comporte comme un vrai compromis entre les deux fibres. Les petites proportions ajustent. Les grandes proportions transforment.
+Une étiquette fictive indiquant 90 % mérinos / 10 % soie décrit les proportions en poids. 50 % / 50 % signifie des poids égaux de fibres, pas une performance à mi-chemin pour chaque propriété. Aucun de ces rapports ne prédit le degré de lustre, de reprise de forme ou de tombé. Évalue le fil sans fixer un seuil de qualité à partir du pourcentage d'une fibre luxueuse.
 
-À surveiller : certains mélanges sont choisis pour le marketing plus que pour leur fonction. Un mélange avec 3 % de cachemire peut être plus un signal sur l'étiquette qu'une vraie transformation de la main du fil. Avec de très petites proportions de fibre luxueuse, considère le fil comme la fibre majoritaire et prends le reste comme un bonus si tu le remarques.
-
-Autre point utile : les mélanges peuvent réagir de façon imprévisible au blocage. Un mélange laine/coton ne répondra pas forcément au blocage humide comme une laine pure, parce que la partie coton ne se remodèle pas. Fais un échantillon et bloque-le. Le fil te dira ce qu'il accepte.
+Un mélange laine/coton demande son propre échantillon et la vérification des consignes d'entretien. Lave et sèche-le comme tu comptes traiter l'ouvrage fini. Évalue ensuite les dimensions, la surface, le tombé et la reprise de forme. Aucune des deux fibres ne détermine seule le résultat.
 
 ## Choisir la fibre pour ton projet
 
 Trois questions suffisent à éclaircir la plupart des choix.
 
-Comment le projet sera-t-il lavé ? Un lavage régulier en machine limite vite les options à la laine superwash, l'acrylique, le coton et certains mélanges. Le lavage à la main ouvre beaucoup plus de possibilités. Si la personne qui recevra le tricot ne lavera pas à la main, et la plupart des non-tricoteurs ne le feront pas, prévois en conséquence.
+Comment le projet sera-t-il lavé ? Si un lavage régulier en machine est indispensable, commence par les fils dont l'étiquette autorise le programme et le séchage nécessaires. Vérifie comment la personne qui le recevra compte réellement l'entretenir. Ni le nom de la fibre ni la mention superwash ne remplacent ces consignes.
 
-De quoi le projet a-t-il besoin structurellement ? Les torsades et les points texturés aiment l'élasticité. Cela pointe vers la laine ou un mélange majoritairement laine. Le tombé et le mouvement fluide appellent plutôt coton, soie ou lin. Le halo appelle le mohair. Les zones de frottement ont besoin de nylon dans le mélange.
+De quoi le projet a-t-il besoin structurellement ? Pour des côtes avec du ressort et des torsades en relief, essaie d'abord la laine ou un mélange riche en laine. Pour un tombé fluide, teste un fil de coton, de soie ou de lin adapté aux mesures d'échantillon du modèle. Envisage le mohair brossé pour un aspect duveteux, un mélange avec du nylon pour des chaussettes soumises aux frottements. Ce sont des points de départ, pas des ingrédients obligatoires.
 
-Pour quel climat ? La laine et l'alpaga isolent. Le coton et le lin respirent et restent frais. L'acrylique peut tenir chaud, mais beaucoup de tissus acryliques paraissent moins respirants contre la peau que la laine, le coton ou le lin.
+Pour quel climat ? Les tricots gonflants en laine ou alpaga sont un bon point de départ pour la chaleur, les tricots plus légers en coton ou lin pour l'été. L'acrylique peut aussi tenir chaud. Épaisseur et ouverture du point influencent isolation et circulation de l'air : compare des échantillons finis plutôt que de classer la respirabilité selon les noms de fibres.
 
 Les réponses ne désignent pas toujours une seule fibre. Mais elles éliminent souvent plusieurs mauvais choix.
 
 ## Quelques points à régler
 
-Si tu débutes et que tu choisis ton premier fil, le guide du [meilleur fil pour débuter](/fr/articles/meilleur-fil-pour-debuter-le-tricot/) réduit les options. La fibre influence aussi la quantité de fil nécessaire, même indirectement. Des fibres différentes ne donnent pas le même métrage dans une pelote du même poids, c'est pourquoi estimer seulement en grammes peut laisser un projet à court. L'[Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) de KnitTools donne une fourchette de planification approximative selon le type de projet, la taille et l'épaisseur du fil, mais il ne tient pas compte de la composition du fil.
-
-Sur la question de la durabilité, qui revient souvent : le nylon est le principal renfort dans les fils à tricoter. C'est pour cela qu'on le trouve dans beaucoup de mélanges pour chaussettes. Le lin est aussi remarquablement solide parmi les fibres végétales, même s'il attire moins l'attention pour cet usage.
+Si tu choisis ton premier fil, le guide du [meilleur fil pour débuter](/fr/articles/meilleur-fil-pour-debuter-le-tricot/) aide à réduire les options. La fibre et la construction influencent le métrage pour un poids de pelote donné ; les grammes seuls ne remplacent donc pas le métrage de l'étiquette. [Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) — Quantités de référence de modèles nommés, pas une prévision personnalisée de consommation. Choisis un projet, une taille d’un modèle nommé et une unité. Le résultat est la quantité de référence de ce modèle, pas une prévision pour ton propre projet.
 
 Le coton et la laine peuvent très bien cohabiter dans une réserve de fils, et dans une vie de tricoteuse. L'idée qu'il faudrait choisir un camp est étrange. Ils font des choses très différentes. Posséder un manteau d'hiver et une chemise d'été n'est pas contradictoire. Tricoter avec les deux non plus, et choisir celui qui convient au projet encore moins.
 
-Et si tout cela ne suffit pas à trancher : fais un échantillon. Pas parce que c'est amusant, ça ne l'est pas toujours, mais parce que 10 g de fil et une heure de tricot en disent plus sur une fibre que n'importe quel article.
+Si le choix reste ouvert, tricote un échantillon dans le point prévu et traite-le selon l'entretien envisagé. Laisse-le sécher complètement, puis évalue ses mesures et son toucher. La quantité de fil et le temps nécessaires dépendent de l'échantillon ; un petit morceau ne prouve pas comment un vêtement entier résistera à des années d'usage.

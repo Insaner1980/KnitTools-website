@@ -1,0 +1,432 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link "KnitTools home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - text: KnitTools
+      - navigation [ref=e6]:
+        - link "Tools" [ref=e7] [cursor=pointer]:
+          - /url: /tools/
+        - link "Articles" [ref=e8] [cursor=pointer]:
+          - /url: /articles/
+        - group [ref=e9]:
+          - 'generic "Language: English" [ref=e10] [cursor=pointer]': English
+        - link "Notify me at launch" [ref=e13] [cursor=pointer]:
+          - /url: /#join
+    - main [ref=e14]:
+      - generic [ref=e16]:
+        - paragraph [ref=e17]:
+          - link "← All tools" [ref=e18] [cursor=pointer]:
+            - /url: /tools/
+        - heading "Knitting Abbreviations" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Search an abbreviation to see what it means, or search a technique to find its abbreviations.
+        - generic [ref=e22]:
+          - textbox "Search abbreviations and techniques" [ref=e23]:
+            - /placeholder: Search abbreviation or technique (e.g. "ssk", "decrease")
+          - group "Filter by category" [ref=e24]:
+            - button "All" [pressed] [ref=e25] [cursor=pointer]
+            - button "Cast On/Bind Off" [ref=e26] [cursor=pointer]
+            - button "Increases" [ref=e27] [cursor=pointer]
+            - button "Decreases" [ref=e28] [cursor=pointer]
+            - button "Cables" [ref=e29] [cursor=pointer]
+            - button "Lace" [ref=e30] [cursor=pointer]
+            - button "General" [ref=e31] [cursor=pointer]
+            - button "Stitch Patterns" [ref=e32] [cursor=pointer]
+          - list [ref=e33]:
+            - listitem [ref=e34]:
+              - generic [ref=e35]: CO
+              - generic [ref=e36]: Cast on
+            - listitem [ref=e37]:
+              - generic [ref=e38]: BO
+              - generic [ref=e39]: Bind off (US) / Cast off (UK)
+            - listitem [ref=e40]:
+              - generic [ref=e41]: k
+              - generic [ref=e42]: Knit
+            - listitem [ref=e43]:
+              - generic [ref=e44]: p
+              - generic [ref=e45]: Purl
+            - listitem [ref=e46]:
+              - generic [ref=e47]: st(s)
+              - generic [ref=e48]: Stitch(es)
+            - listitem [ref=e49]:
+              - generic [ref=e50]: RS
+              - generic [ref=e51]: Right side
+            - listitem [ref=e52]:
+              - generic [ref=e53]: WS
+              - generic [ref=e54]: Wrong side
+            - listitem [ref=e55]:
+              - generic [ref=e56]: rep
+              - generic [ref=e57]: Repeat
+            - listitem [ref=e58]:
+              - generic [ref=e59]: beg
+              - generic [ref=e60]: Beginning
+            - listitem [ref=e61]:
+              - generic [ref=e62]: rem
+              - generic [ref=e63]: Remaining
+            - listitem [ref=e64]:
+              - generic [ref=e65]: cont
+              - generic [ref=e66]: Continue
+            - listitem [ref=e67]:
+              - generic [ref=e68]: alt
+              - generic [ref=e69]: Alternate
+            - listitem [ref=e70]:
+              - generic [ref=e71]: approx
+              - generic [ref=e72]: Approximately
+            - listitem [ref=e73]:
+              - generic [ref=e74]: tbl
+              - generic [ref=e75]: Through back loop
+            - listitem [ref=e76]:
+              - generic [ref=e77]: wyif
+              - generic [ref=e78]: With yarn in front
+            - listitem [ref=e79]:
+              - generic [ref=e80]: wyib
+              - generic [ref=e81]: With yarn in back
+            - listitem [ref=e82]:
+              - generic [ref=e83]: sl
+              - generic [ref=e84]: Slip
+            - listitem [ref=e85]:
+              - generic [ref=e86]: sl st
+              - generic [ref=e87]: Slip stitch
+            - listitem [ref=e88]:
+              - generic [ref=e89]: pm
+              - generic [ref=e90]: Place marker
+            - listitem [ref=e91]:
+              - generic [ref=e92]: sm
+              - generic [ref=e93]: Slip marker
+            - listitem [ref=e94]:
+              - generic [ref=e95]: MC
+              - generic [ref=e96]: Main color
+            - listitem [ref=e97]:
+              - generic [ref=e98]: CC
+              - generic [ref=e99]: Contrast color
+            - listitem [ref=e100]:
+              - generic [ref=e101]: dpn(s)
+              - generic [ref=e102]: Double-pointed needle(s)
+            - listitem [ref=e103]:
+              - generic [ref=e104]: cn
+              - generic [ref=e105]: Cable needle
+            - listitem [ref=e106]:
+              - generic [ref=e107]: rnd(s)
+              - generic [ref=e108]: Round(s)
+            - listitem [ref=e109]:
+              - generic [ref=e110]: M1
+              - generic [ref=e111]: Make one (generic)
+            - listitem [ref=e112]:
+              - generic [ref=e113]: M1L
+              - generic [ref=e114]: Make one left
+            - listitem [ref=e115]:
+              - generic [ref=e116]: M1R
+              - generic [ref=e117]: Make one right
+            - listitem [ref=e118]:
+              - generic [ref=e119]: kfb
+              - generic [ref=e120]: Knit front and back
+            - listitem [ref=e121]:
+              - generic [ref=e122]: pfb
+              - generic [ref=e123]: Purl front and back
+            - listitem [ref=e124]:
+              - generic [ref=e125]: yo
+              - generic [ref=e126]: Yarn over
+            - listitem [ref=e127]:
+              - generic [ref=e128]: inc
+              - generic [ref=e129]: Increase
+            - listitem [ref=e130]:
+              - generic [ref=e131]: k2tog
+              - generic [ref=e132]: Knit two together
+            - listitem [ref=e133]:
+              - generic [ref=e134]: p2tog
+              - generic [ref=e135]: Purl two together
+            - listitem [ref=e136]:
+              - generic [ref=e137]: ssk
+              - generic [ref=e138]: Slip, slip, knit (left-leaning decrease)
+            - listitem [ref=e139]:
+              - generic [ref=e140]: skp
+              - generic [ref=e141]: Slip, knit, pass slipped stitch over
+            - listitem [ref=e142]:
+              - generic [ref=e143]: sk2p
+              - generic [ref=e144]: Slip 1, knit 2 together, pass slipped stitch over
+            - listitem [ref=e145]:
+              - generic [ref=e146]: s2kp
+              - generic [ref=e147]: Slip 2, knit 1, pass 2 slipped stitches over (centered double decrease)
+            - listitem [ref=e148]:
+              - generic [ref=e149]: CDD
+              - generic [ref=e150]: Centered double decrease
+            - listitem [ref=e151]:
+              - generic [ref=e152]: psso
+              - generic [ref=e153]: Pass slipped stitch over
+            - listitem [ref=e154]:
+              - generic [ref=e155]: dec
+              - generic [ref=e156]: Decrease
+            - listitem [ref=e157]:
+              - generic [ref=e158]: C4F
+              - generic [ref=e159]: Cable 4 front
+            - listitem [ref=e160]:
+              - generic [ref=e161]: C4B
+              - generic [ref=e162]: Cable 4 back
+            - listitem [ref=e163]:
+              - generic [ref=e164]: C6F
+              - generic [ref=e165]: Cable 6 front
+            - listitem [ref=e166]:
+              - generic [ref=e167]: C6B
+              - generic [ref=e168]: Cable 6 back
+            - listitem [ref=e169]:
+              - generic [ref=e170]: T2F
+              - generic [ref=e171]: Twist 2 front
+            - listitem [ref=e172]:
+              - generic [ref=e173]: T2B
+              - generic [ref=e174]: Twist 2 back
+            - listitem [ref=e175]:
+              - generic [ref=e176]: St st
+              - generic [ref=e177]: Stockinette stitch / Stocking stitch (UK)
+            - listitem [ref=e178]:
+              - generic [ref=e179]: g st
+              - generic [ref=e180]: Garter stitch
+            - listitem [ref=e181]:
+              - generic [ref=e182]: rev St st
+              - generic [ref=e183]: Reverse stockinette stitch
+            - listitem [ref=e184]:
+              - generic [ref=e185]: rib
+              - generic [ref=e186]: Ribbing
+            - listitem [ref=e187]:
+              - generic [ref=e188]: moss st
+              - generic [ref=e189]: Moss stitch
+            - listitem [ref=e190]:
+              - generic [ref=e191]: seed st
+              - generic [ref=e192]: Seed stitch
+            - listitem [ref=e193]:
+              - generic [ref=e194]: MB
+              - generic [ref=e195]: Make bobble (pattern-specific)
+      - generic [ref=e197]:
+        - heading "How abbreviations read in context" [level=2] [ref=e198]
+        - paragraph [ref=e199]: Most abbreviations sort themselves into a few groups, and recognizing the group helps more than memorizing individual terms.
+        - paragraph [ref=e200]:
+          - strong [ref=e201]: Basic stitches
+          - text: are single letters.
+          - code [ref=e202]: k
+          - text: is knit,
+          - code [ref=e203]: p
+          - text: "is purl. A number after the letter tells you how many:"
+          - code [ref=e204]: k5
+          - text: means knit five stitches. That's the whole system for the simplest ones.
+        - paragraph [ref=e205]:
+          - strong [ref=e206]: Combined actions
+          - text: stack letters and numbers.
+          - code [ref=e207]: k2tog
+          - text: means knit two stitches together.
+          - code [ref=e208]: p2tog
+          - text: ", same idea but purled. A lot of knitting shorthand works this way. Slow it down, read it literally."
+        - paragraph [ref=e209]:
+          - strong [ref=e210]: Directional markers
+          - text: tell you which side of the fabric you're on.
+          - code [ref=e211]: RS
+          - text: is right side,
+          - code [ref=e212]: WS
+          - text: is wrong side. Matters because the same hand movement produces a different result depending on whether you're working the public face or the back.
+        - paragraph [ref=e213]:
+          - strong [ref=e214]: Shaping abbreviations
+          - text: control how fabric grows or narrows.
+          - code [ref=e215]: M1
+          - text: ","
+          - code [ref=e216]: M1L
+          - text: ","
+          - code [ref=e217]: M1R
+          - text: ", and"
+          - code [ref=e218]: kfb
+          - text: add stitches.
+          - code [ref=e219]: k2tog
+          - text: and
+          - code [ref=e220]: ssk
+          - text: remove them. Knowing which ones lean left, which lean right, and which just add or subtract makes patterns easier to read at a glance.
+        - paragraph [ref=e221]:
+          - strong [ref=e222]: Structure terms
+          - text: keep the instructions compact.
+          - code [ref=e223]: rep
+          - text: ","
+          - code [ref=e224]: st(s)
+          - text: ","
+          - code [ref=e225]: beg
+          - text: ","
+          - code [ref=e226]: rem
+          - text: ","
+          - code [ref=e227]: cont
+          - text: . Scaffolding, not stitches.
+        - paragraph [ref=e228]:
+          - text: Punctuation matters too. Asterisks and semicolons aren't decoration.
+          - code [ref=e229]: "*k2, p2; rep from *"
+          - text: means everything between the asterisk and the semicolon repeats. Brackets and parentheses work similarly, grouping a set of actions that get repeated a specified number of times. Missing a repeat marker is one of the fastest ways to end up with the wrong stitch count.
+        - heading "US vs UK differences" [level=2] [ref=e230]
+        - paragraph [ref=e231]: "A few terms shift across the Atlantic. The big ones:"
+        - paragraph [ref=e232]: "US \"bind off\" is UK \"cast off.\" US \"gauge\" is UK \"tension.\" US \"stockinette\" is UK \"stocking stitch.\" And the classic trap: \"seed stitch\" and \"moss stitch\" can swap meanings depending on the source, so a written stitch definition beats the name alone every time."
+        - paragraph [ref=e233]:
+          - text: Most common abbreviations (
+          - code [ref=e234]: k
+          - text: ","
+          - code [ref=e235]: p
+          - text: ","
+          - code [ref=e236]: yo
+          - text: ","
+          - code [ref=e237]: k2tog
+          - text: ) are the same in both systems. If a pattern doesn't specify US or UK conventions, the stitch definitions section usually clears it up. When there's no stitch definition section at all, the designer's location is your best clue.
+        - heading "Pattern-specific abbreviations" [level=2] [ref=e238]
+        - paragraph [ref=e239]: This is where things get interesting, because plenty of abbreviations won't appear in any standard list. That's normal. They're custom shortcuts invented by the designer for that specific pattern, and they should be defined near the beginning of the instructions.
+        - paragraph [ref=e240]:
+          - text: Cable patterns are the biggest source of these. A chart key might define
+          - code [ref=e241]: C4F
+          - text: ","
+          - code [ref=e242]: C6B
+          - text: ", or something more specific to the design. The number typically tells you how many stitches cross. The letter at the end (F or B) tells you the direction: front or back, referring to where you hold the cable needle while crossing. But designers aren't always consistent with that convention. Some use L and R instead. Some number the total stitches involved, others number only the stitches that travel. The pattern's own definition is what counts."
+        - paragraph [ref=e243]:
+          - text: Lace patterns build compound shortcuts too. One pattern writes
+          - code [ref=e244]: CDD
+          - text: for a centered double decrease. Another spells the same thing out as
+          - code [ref=e245]: sl2-k1-p2sso
+          - text: . A third uses
+          - code [ref=e246]: s2kp
+          - text: . All three point at the same basic idea, but the exact execution can differ between designers, and some of these abbreviations get used for slightly different decreases depending on the source. If an abbreviation looks unfamiliar, check the pattern key before assuming it matches the most common version. Pattern keys exist for exactly this reason.
+        - paragraph [ref=e247]: Colorwork patterns sometimes abbreviate color names or assignments. You might see MC (main color) and CC (contrast color), or CC1 and CC2 when multiple contrast colors are in play. Some designers use A, B, C instead. The abbreviations themselves are straightforward, but mixing up which color goes where will show in the finished fabric.
+        - paragraph [ref=e248]: Some designers also create shorthand for repeated stitch sequences specific to their design. A pattern might define something like "MB" for a particular bobble method, or "cluster" for a specific combination of wraps and pulls that only applies to that project. These shortcuts save the designer from writing out a multi-step instruction every time it appears in the pattern. They only make sense inside that pattern.
+        - paragraph [ref=e249]: "The general rule: if you can't find an abbreviation in a standard reference, it's almost certainly defined in the pattern header. Scroll up before searching elsewhere."
+        - heading "What the symbols on knitting charts mean" [level=2] [ref=e250]
+        - paragraph [ref=e251]: Charts use symbols instead of written-out rows. Each square is one stitch, and the symbol inside it tells you what to do.
+        - paragraph [ref=e252]:
+          - text: There's no universal chart symbol standard, but many designers stay close to Craft Yarn Council conventions. An empty square usually means knit on RS and purl on WS. A dash means purl on RS. A circle is
+          - code [ref=e253]: yo
+          - text: . A right-leaning slash marks
+          - code [ref=e254]: k2tog
+          - text: ", a left-leaning one marks"
+          - code [ref=e255]: ssk
+          - text: .
+        - paragraph [ref=e256]: Charts read bottom to top (knitting grows upward). On flat charts, RS rows go right to left, WS rows left to right, matching the direction your needles move. Circular knitting charts read right to left on every row, since you're always working the RS.
+        - paragraph [ref=e257]: If a pattern has both written and charted instructions, they should agree. When they don't (and it happens more than anyone would like), the pattern notes should say which takes priority. If they don't say, swatch a repeat before trusting either version.
+        - heading "A few abbreviations worth knowing early" [level=2] [ref=e258]
+        - paragraph [ref=e259]:
+          - text: There's no need to memorize everything before casting on. A first scarf might only use
+          - code [ref=e260]: k
+          - text: and
+          - code [ref=e261]: p
+          - text: . A simple hat adds a decrease or two. The rest accumulates naturally with the patterns you choose, and you'll find the same dozen abbreviations cover most of what you knit.
+        - paragraph [ref=e262]:
+          - text: "One pair that trips people up:"
+          - code [ref=e263]: ssk
+          - text: and
+          - code [ref=e264]: skp
+          - text: are both left-leaning decreases.
+          - code [ref=e265]: ssk
+          - text: is the modern standard.
+          - code [ref=e266]: skp
+          - text: shows up more in older patterns. They're close in result but differ slightly in execution, so follow the pattern as written unless it gives permission to substitute.
+        - paragraph [ref=e267]:
+          - text: "Another one worth flagging:"
+          - code [ref=e268]: psso
+          - text: (pass slipped stitch over) shows up both on its own and as part of compound abbreviations like
+          - code [ref=e269]: sl1-k2tog-psso
+          - text: . When you see it standalone, it's usually following a slip instruction from the previous step.
+        - paragraph [ref=e270]: The Craft Yarn Council publishes a widely used standard abbreviation list, and most designers follow it for common terms. Beyond those basics, regional habits and pattern-specific shorthand take over. "Check the pattern key" is better advice than "memorize a master list."
+        - paragraph [ref=e271]:
+          - text: Keep a reference open while you knit. This page is searchable, which is faster than flipping through tabs when your row is halfway worked. If you're also sorting out needle sizes or
+          - link "gauge measurements" [ref=e272] [cursor=pointer]:
+            - /url: /articles/how-to-measure-knitting-gauge/
+          - text: ", those references pair well with this glossary. And if you're new to"
+          - link "reading knitting patterns" [ref=e273] [cursor=pointer]:
+            - /url: /articles/how-to-read-knitting-pattern/
+          - text: ", the abbreviation key in your pattern is the first section to check before casting on."
+      - generic [ref=e275]:
+        - heading "Frequently asked questions" [level=2] [ref=e276]
+        - generic [ref=e277]:
+          - group [ref=e278]:
+            - generic "Are knitting abbreviations the same in US and UK patterns?" [ref=e279] [cursor=pointer]:
+              - text: Are knitting abbreviations the same in US and UK patterns?
+              - generic [aria-hidden] [ref=e280]: +
+          - group [ref=e281]:
+            - generic "What does the asterisk mean in a knitting pattern?" [ref=e282] [cursor=pointer]:
+              - text: What does the asterisk mean in a knitting pattern?
+              - generic [aria-hidden] [ref=e283]: +
+          - group [ref=e284]:
+            - generic "What if I can't find an abbreviation in a standard list?" [ref=e285] [cursor=pointer]:
+              - text: What if I can't find an abbreviation in a standard list?
+              - generic [aria-hidden] [ref=e286]: +
+          - group [ref=e287]:
+            - generic "What's the difference between ssk and skp?" [ref=e288] [cursor=pointer]:
+              - text: What's the difference between ssk and skp?
+              - generic [aria-hidden] [ref=e289]: +
+      - generic [ref=e292]:
+        - generic [aria-hidden] [ref=e293]: Leave this field empty
+        - textbox [aria-hidden] [ref=e294]
+        - generic [ref=e295]: Email address
+        - generic [ref=e296]:
+          - heading [level=2] [ref=e297]:
+            - text: Where every stitch
+            - emphasis [ref=e298]: counts.
+          - generic [ref=e299]:
+            - textbox "Email address" [ref=e300]:
+              - /placeholder: your@email.com
+            - button "Notify me at launch" [ref=e301] [cursor=pointer]
+          - paragraph [ref=e302]:
+            - text: Coming Fall 2026 to Google Play. Launch price
+            - strong [ref=e303]: $9.99
+            - text: . Regular price
+            - strong [ref=e304]: $14.99
+            - text: later.
+    - contentinfo [ref=e305]:
+      - generic [ref=e306]:
+        - generic [ref=e307]:
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - heading "Tools" [level=2] [ref=e310]
+              - list [ref=e311]:
+                - listitem [ref=e312]:
+                  - link "Cast On Calculator" [ref=e313] [cursor=pointer]:
+                    - /url: /tools/cast-on-calculator/
+                - listitem [ref=e314]:
+                  - link "Yarn Estimator" [ref=e315] [cursor=pointer]:
+                    - /url: /tools/yarn-estimator/
+                - listitem [ref=e316]:
+                  - link "Needle Size Chart" [ref=e317] [cursor=pointer]:
+                    - /url: /tools/needle-size-chart/
+                - listitem [ref=e318]:
+                  - link "Yarn Weight Chart" [ref=e319] [cursor=pointer]:
+                    - /url: /tools/yarn-weight-chart/
+                - listitem [ref=e320]:
+                  - link "Knitting Abbreviations" [ref=e321] [cursor=pointer]:
+                    - /url: /tools/knitting-abbreviations/
+                - listitem [ref=e322]:
+                  - link "Knitting Size Charts" [ref=e323] [cursor=pointer]:
+                    - /url: /tools/knitting-size-charts/
+            - generic [ref=e324]:
+              - heading "Articles" [level=2] [ref=e325]
+              - list [ref=e326]:
+                - listitem [ref=e327]:
+                  - link "Gauge & Calculations" [ref=e328] [cursor=pointer]:
+                    - /url: /articles/category/gauge-calculations/
+                - listitem [ref=e329]:
+                  - link "Yarn" [ref=e330] [cursor=pointer]:
+                    - /url: /articles/category/yarn/
+                - listitem [ref=e331]:
+                  - link "Needles" [ref=e332] [cursor=pointer]:
+                    - /url: /articles/category/needles/
+                - listitem [ref=e333]:
+                  - link "Techniques" [ref=e334] [cursor=pointer]:
+                    - /url: /articles/category/techniques/
+                - listitem [ref=e335]:
+                  - link "App & Tools" [ref=e336] [cursor=pointer]:
+                    - /url: /articles/category/app-tools/
+            - generic [ref=e337]:
+              - heading "App" [level=2] [ref=e338]
+              - list [ref=e339]:
+                - listitem [ref=e340]: Launching soon
+                - listitem [ref=e341]:
+                  - link "About" [ref=e342] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=e343]:
+                  - link "Privacy Policy" [ref=e344] [cursor=pointer]:
+                    - /url: https://finnvek.com/privacy#knittools
+          - img "KnitTools" [ref=e345]
+        - paragraph [ref=e347]:
+          - text: © MMXXVI KnitTools.
+          - link "Finnvek" [ref=e348] [cursor=pointer]:
+            - /url: https://finnvek.com
+          - text: .
+          - link "Contact" [ref=e349] [cursor=pointer]:
+            - /url: mailto:contact@finnvek.com
+          - text: .

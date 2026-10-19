@@ -1,0 +1,118 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link "KnitTools home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - text: KnitTools
+      - navigation [ref=e6]:
+        - link "Tools" [ref=e7] [cursor=pointer]:
+          - /url: /tools/
+        - link "Articles" [ref=e8] [cursor=pointer]:
+          - /url: /articles/
+        - group [ref=e9]:
+          - 'generic "Language: English" [ref=e10] [cursor=pointer]': English
+        - link "Notify me at launch" [ref=e13] [cursor=pointer]:
+          - /url: /#join
+    - main [ref=e14]:
+      - generic [ref=e16]:
+        - paragraph [ref=e17]:
+          - link "← All articles" [ref=e18] [cursor=pointer]:
+            - /url: /articles/
+        - paragraph [ref=e19]: Category
+        - heading "Needles." [level=1] [ref=e20]
+        - paragraph [ref=e21]: Materials, sizes, and types of knitting needles. What to buy and when each one is the right tool.
+      - generic [ref=e23]:
+        - link [ref=e24] [cursor=pointer]:
+          - /url: /articles/circular-vs-straight-vs-dpn/
+          - 'heading "Circular vs straight vs DPN needles: when to use which" [level=2] [ref=e25]'
+          - paragraph [ref=e26]: Compare circular, straight, and double-pointed knitting needles. Learn which type works best for different projects, plus pros and cons of each.
+          - time [ref=e28]: May 1, 2026
+        - link [ref=e29] [cursor=pointer]:
+          - /url: /articles/knitting-needle-materials/
+          - heading "How to choose the right knitting needle material" [level=2] [ref=e30]
+          - paragraph [ref=e31]: "Compare metal, wood, bamboo, plastic and carbon-fiber knitting needles: surface finish, grip, tip shape, care and checking gauge when you switch."
+          - time [ref=e33]: May 1, 2026
+        - link [ref=e34] [cursor=pointer]:
+          - /url: /articles/needle-size-for-beginners/
+          - heading "What size knitting needles for beginners?" [level=2] [ref=e35]
+          - paragraph [ref=e36]: Start knitting with 5 mm needles and suitable worsted yarn. Learn how diameter, length, material and a gauge swatch guide your first needle choice.
+          - time [ref=e38]: May 1, 2026
+      - region [ref=e39]:
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: Be there at launch
+          - heading [level=2] [ref=e42]:
+            - text: Where every stitch
+            - emphasis [ref=e43]: counts.
+          - generic [ref=e44]:
+            - generic [ref=e45]: Email address
+            - generic [aria-hidden] [ref=e46]: Leave this field empty
+            - textbox [aria-hidden] [ref=e47]
+            - generic [ref=e48]:
+              - textbox "Email address" [ref=e49]:
+                - /placeholder: your@email.com
+              - button "Notify me at launch" [ref=e50] [cursor=pointer]
+          - paragraph [ref=e51]: Free tier from day one. No card required.
+    - contentinfo [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - heading "Tools" [level=2] [ref=e57]
+              - list [ref=e58]:
+                - listitem [ref=e59]:
+                  - link "Cast On Calculator" [ref=e60] [cursor=pointer]:
+                    - /url: /tools/cast-on-calculator/
+                - listitem [ref=e61]:
+                  - link "Yarn Estimator" [ref=e62] [cursor=pointer]:
+                    - /url: /tools/yarn-estimator/
+                - listitem [ref=e63]:
+                  - link "Needle Size Chart" [ref=e64] [cursor=pointer]:
+                    - /url: /tools/needle-size-chart/
+                - listitem [ref=e65]:
+                  - link "Yarn Weight Chart" [ref=e66] [cursor=pointer]:
+                    - /url: /tools/yarn-weight-chart/
+                - listitem [ref=e67]:
+                  - link "Knitting Abbreviations" [ref=e68] [cursor=pointer]:
+                    - /url: /tools/knitting-abbreviations/
+                - listitem [ref=e69]:
+                  - link "Knitting Size Charts" [ref=e70] [cursor=pointer]:
+                    - /url: /tools/knitting-size-charts/
+            - generic [ref=e71]:
+              - heading "Articles" [level=2] [ref=e72]
+              - list [ref=e73]:
+                - listitem [ref=e74]:
+                  - link "Gauge & Calculations" [ref=e75] [cursor=pointer]:
+                    - /url: /articles/category/gauge-calculations/
+                - listitem [ref=e76]:
+                  - link "Yarn" [ref=e77] [cursor=pointer]:
+                    - /url: /articles/category/yarn/
+                - listitem [ref=e78]:
+                  - link "Needles" [ref=e79] [cursor=pointer]:
+                    - /url: /articles/category/needles/
+                - listitem [ref=e80]:
+                  - link "Techniques" [ref=e81] [cursor=pointer]:
+                    - /url: /articles/category/techniques/
+                - listitem [ref=e82]:
+                  - link "App & Tools" [ref=e83] [cursor=pointer]:
+                    - /url: /articles/category/app-tools/
+            - generic [ref=e84]:
+              - heading "App" [level=2] [ref=e85]
+              - list [ref=e86]:
+                - listitem [ref=e87]: Launching soon
+                - listitem [ref=e88]:
+                  - link "About" [ref=e89] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=e90]:
+                  - link "Privacy Policy" [ref=e91] [cursor=pointer]:
+                    - /url: https://finnvek.com/privacy#knittools
+          - img "KnitTools" [ref=e92]
+        - paragraph [ref=e94]:
+          - text: © MMXXVI KnitTools.
+          - link "Finnvek" [ref=e95] [cursor=pointer]:
+            - /url: https://finnvek.com
+          - text: .
+          - link "Contact" [ref=e96] [cursor=pointer]:
+            - /url: mailto:contact@finnvek.com
+          - text: .

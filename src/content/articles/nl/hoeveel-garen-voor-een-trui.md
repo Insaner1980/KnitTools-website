@@ -1,7 +1,8 @@
 ---
 title: "Hoeveel garen voor een trui?"
-description: "Bereken hoeveel garen je nodig hebt voor een gebreide trui. Meterindicaties per maat en garendikte, plus wat mouwen, kabels en vesten toevoegen."
+description: "Plan garen voor een trui met patroonmaten en een onderbouwd maatvoorbeeld. Reken meters om naar hele bollen en houd rekening met mouwen, steken en aanpassingen."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 4
 tags:
@@ -19,109 +20,83 @@ lang: nl
 translationKey: "yarn-for-sweater"
 ---
 
-Een trui is het grootste kledingstuk dat de meeste breiers maken, en dat zie je terug in het garenverbruik. Onderschat je het, dan jaag je met een halve mouw te gaan achter een verdwenen verfbad aan. Overschat je te ruim, dan blijft duur garen eindeloos in je voorraad liggen.
+Plan het garenverbruik van je trui voordat je garen koopt. Onderschat je het, dan jaag je met een halve mouw te gaan achter een verdwenen verfbad aan. Overschat je te ruim, dan blijft duur garen eindeloos in je voorraad liggen.
 
-De juiste hoeveelheid hangt af van drie dingen: de maat van de trui, de garendikte en de constructiestijl. Een korte pullover in bulky heeft misschien 600 m nodig. Een lang vest in fingering kan voorbij 2 600 m gaan. De bereiken hieronder dekken het gewone midden.
+Begin met de garenhoeveelheid voor de maat die je in het patroon wilt breien. De afgewerkte borstomtrek, lijf- en mouwlengte, halslijn, het steekpatroon, de stekenverhouding en de garenopbouw tellen mee. Een maatletter of garendikte alleen is niet genoeg.
 
 ## Meterindicaties per maat
 
-Deze schattingen gaan uit van een standaard pullover in tricotsteek. Ronde hals, lange mouwen, heuplengte. Vesten, korte modellen en structuurpatronen passen de cijfers aan (zie hieronder).
+Vergelijk je lichaamsmaten met de afgewerkte maten en de bedoelde bewegingsruimte van het patroon. S/M/L betekenen niet bij elk patroon dezelfde maten. [De Craft Yarn Council legt lichaamsmaten en bewegingsruimte uit](https://www.craftyarncouncil.com/standards/body-sizing).
 
-**XS-S (borstomtrek 80-90 cm)**
-Fingering: 1 200-1 500 m
-DK: 900-1 200 m
-Worsted: 700-1 000 m
-Bulky: 550-750 m
+Een concreet voorbeeld is de [Novice Sweater van PetiteKnit](https://www.petiteknit.com/en/products/novice-sweater), een naadloze trui die van boven naar beneden in tricotsteek wordt gebreid, met ronde pas en ribboorden. Hieronder staan drie maten met de garenoptie Kos, gebreid met een enkele draad. De stekenverhouding is 16 steken × 21 toeren per 10 × 10 cm op naalden van 6 mm. De lengte wordt middenachter gemeten, zonder halsboord.
 
-**M-L (borstomtrek 95-110 cm)**
-Fingering: 1 500-2 000 m
-DK: 1 200-1 600 m
-Worsted: 1 000-1 400 m
-Bulky: 750-1 000 m
+| Maat | Afgewerkte borstomtrek / lengte (cm) | Kos (g / m) |
+| ---- | ------------------------------------ | ----------- |
+| S    | 98 / 55                              | 300 / 900   |
+| M    | 103 / 57                             | 350 / 1 050 |
+| XL   | 116 / 62                             | 400 / 1 200 |
 
-**XL-2XL (borstomtrek 115-130 cm)**
-Fingering: 2 000-2 500 m
-DK: 1 600-2 100 m
-Worsted: 1 400-1 800 m
-Bulky: 1 000-1 300 m
+[Sandnes Garn vermeldt circa 150 m per 50 g Kos](https://www.sandnesgarn.no/kos), een mengsel van alpaca en wol dat in een nylon buisje wordt geblazen. De rijen komen dus overeen met 6, 7 en 8 bollen. De meters zijn de lengte in de opgegeven hoeveelheid, geen gemeten verbruik. Dit voorbeeld geldt alleen voor dit patroon en garen. De openbare beschrijving vermeldt geen mouwlengtes of afzonderlijke reserve; raadpleeg het volledige patroon voordat je die wijzigt.
 
-**3XL+ (borstomtrek 135+ cm)**
-Fingering: 2 500-3 000 m
-DK: 2 100-2 600 m
-Worsted: 1 800-2 300 m
-Bulky: 1 300-1 700 m
-
-Voor een persoonlijke schatting op basis van je maat, garendikte en truistijl rekent de [Garenberekenaar](/nl/breitools/garenberekenaar/) het uit.
+[Garenberekenaar](/nl/breitools/garenberekenaar/) — Referentiehoeveelheden uit benoemde patronen, geen persoonlijke verbruiksvoorspelling. Kies een project, een maat uit een benoemd patroon en een eenheid. Het resultaat is de referentiehoeveelheid van dat patroon, geen voorspelling voor je eigen project.
 
 ## Aanpassingen per stijl
 
-**Vesten:** plan iets extra boven een pullover in dezelfde maat. Knoopbiezen, extra voorranden en een opgenomen halsrand gebruiken garen. Een diep overlappend voorpand of sjaalkraag vraagt meer dan een smalle bies met vijf knopen.
+**Vesten:** begin met de hoeveelheid uit een vestpatroon. Tel voorpanden, overlap, knoopbiezen en kraag mee. Een truihoeveelheid plus een vaste toeslag vervangt dat niet.
 
-**Korte lengte:** ga naar de onderkant van het bereik. Hoeveel je bespaart hangt af van waar de trui eindigt. Net onder de borst bespaart meer dan net boven de heup.
+**Korte trui of tuniek:** schat het verwijderde of toegevoegde lijfdeel op basis van breedte, vormgeving en steekpatroon. Een grotere borstomtrek vergroot mouwen en halslijn niet in dezelfde verhouding.
 
-**Tuniek / lang model:** ga naar de bovenkant van het bereik en neem marge. Voor elke extra centimeter lijfhoogte brei je over de hele breedte van het kledingstuk extra toeren; hoeveel hangt af van het aantal toeren per 10 cm in je proeflapje. Dat loopt snel op.
+**Korte mouwen of spencer:** bereken de gewijzigde mouwen en armsgatboorden opnieuw. Een schatting voor een trui is geen automatische bovengrens voor een anders opgebouwde spencer.
 
-**Korte mouwen of kapmouwtjes:** gebruik minder dan voor een pullover met lange mouwen. Mouwen vormen een verrassend groot deel van het totale garenverbruik, dus het grootste deel van die lengte schrappen scheelt veel.
-
-**Mouwloos / spencer:** gebruik de pulloverinschatting als bovengrens en verminder daarna voor de ontbrekende mouwen.
-
-**Negatieve bewegingsruimte:** een trui die gedragen wordt met rek op het lichaam gebruikt iets minder garen dan hetzelfde patroon op de volledige lichaamsmaat. Het verschil is niet enorm, maar het duwt je richting de onderkant van het maatbereik.
+**Negatieve bewegingsruimte:** het afgewerkte kledingstuk is kleiner dan de overeenkomstige lichaamsmaat. Kies eerst de pasvorm en het gebreide materiaal; maak de trui niet krapper alleen om garen te besparen.
 
 ## Aanpassingen per steekpatroon
 
-**Kabels:** neem een ruime buffer. Kabels trekken de stof naar binnen, dus de trui heeft meer steken nodig om dezelfde borstbreedte te halen. Een trui vol kabels is een van de meer garenhongerige constructies. Een enkel kabelpaneel middenvoor en middenachter ligt dichter bij gewoon tricotsteekverbruik.
+**Kabels, patentsteek, gerstekorrelsteek en ajour:** gebruik de patroonhoeveelheid of meet het verbruik van een representatief proeflapje in het betreffende steekpatroon. Een schatting voor tricotsteek bepaalt dat verbruik niet. Er is geen algemene kabeltoeslag of automatische besparing bij ajour.
 
-**Inbreien / jacquard:** neem marge over alle kleuren samen. De meeloopdraden aan de verkeerde kant gebruiken garen dat aan de voorkant niet zichtbaar is. Een trui met kleurwerkpas gebruikt merkbaar meer garen dan een gewone tricotversie in dezelfde maat. De hoofdkleur neemt meestal het grootste deel, terwijl contrastkleuren de rest verdelen.
+**Inbreien met meerdere kleuren:** gebruik hoeveelheden per kleur. Het garen loopt ook mee aan de achterkant, dus het zichtbare kleuroppervlak is niet genoeg. Meet iedere kleur in een representatieve herhaling en rond de aankoophoeveelheid per kleur apart naar boven af.
 
-**Structuursteken zoals brioche en gerstekorrelsteek:** neem marge. Brioche maakt een dikkere, garenhongerige stof dan tricotsteek, en gerstekorrelsteek kan de stekenverhouding genoeg aantrekken om de schatting te veranderen.
-
-**Ajour:** ongeveer hetzelfde als tricotsteek, of iets minder. De open structuur rekt bij blocken, waardoor een ajourpaneel meer oppervlak haalt uit dezelfde meters.
+**Meerdere draden samen:** controleer of het patroon een hoeveelheid per draad of een totaal noemt. Iedere draad moet genoeg lengte hebben voor het deel waarin hij wordt meegebreid. Verdeel de behoefte voor één draad niet over twee draden en verdubbel geen totaal waarin beide al zijn opgenomen.
 
 ## De mouwenvalkuil
 
-Mouwen zijn waar fouten in garenschattingen gebeuren. Een paar lange mouwen voor een M-L-trui in worsted kan meerdere honderden meters gebruiken. Dat is een groot deel van het totale projectverbruik. Breiers die schatten op basis van het lijf ontdekken bij de mouwen vaak dat ze twee bollen tekortkomen.
+Reserveer garen voor beide mouwen en hun boorden voordat je het lijf verlengt. Een voltooid lijf bewijst niet dat het resterende garen genoeg is.
 
-Als de hoeveelheid krap is, brei dan eerst de mouwen. Tegen je gevoel in, maar praktisch: het lijf is het deel waar je de lengte het makkelijkst kunt aanpassen als je te weinig garen hebt (maak het 2,5 of 5 cm korter), terwijl mouwen vaste eisen hebben. Je kunt de ene mouw niet korter maken dan de andere. Als je precies weet hoeveel de mouwen hebben gebruikt, heb je een duidelijk meterbudget voor de rest.
-
-Top-down uit een stuk maakt de lichaamslengte makkelijker aanpasbaar, maar het mouwenprobleem verdwijnt niet. Je breit de pas, splitst voor lijf en mouwen en breit vaak eerst het lijf. Als de schatting verkeerd is, betalen de mouwen de prijs. Plan daarop.
+Als de constructie het toelaat, brei je de mouwen voordat je de definitieve lijflengte bepaalt. Bij een trui met ronde pas van boven naar beneden moet je eerst de splitsing voor lijf en mouwen bereiken. Daarna kun je de mouwen afmaken voordat de rest naar het onderste lijfdeel gaat. Bewaar ook garen voor de onderboord, halsafwerking en draadjes.
 
 ## Constructie en waar het garen heen gaat
 
-In de meeste pullovers gaat het grootste deel van het garen naar lijf en mouwen. Boorden, halsranden, knoopbiezen en afwerking gebruiken minder, maar ze moeten nog steeds worden meegerekend. Een raglan of ronde pas verplaatst meer garen naar het bovenlijf. Een trui met verlaagde schouder stopt meer garen in het lijf, omdat de mouwen smaller en korter zijn.
+Maak een lijst van lijf, beide mouwen, pas of schouderdelen, ribboorden, halsboord, eventuele knoopbiezen, naden en draadjes. Tel ieder deel één keer: de pas bevat zowel het bovenlijf als de bovenste mouwdelen. Raglan of een verlaagde schouder vertelt op zichzelf niet hoe het garen wordt verdeeld.
 
-Dit telt vooral wanneer je rond een beperkte hoeveelheid garen plant. Een pullover met verlaagde schouder uit voorraadgaren geeft meer speelruimte in het lijf en minder in de mouwen. Een ronde-pas-trui met kleurwerk legt een groot deel van het garen vast in een zichtbaar deel, en juist daar beïnvloeden veranderingen in het kleurpatroon het totaal het sterkst.
+Voor een wijziging geeft [Rita Buchanans oppervlaktemethode](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf) een uitgangspunt: garenverbruik proeflapje × oppervlak gewijzigd deel / oppervlak proeflapje. Gebruik hetzelfde garen, dezelfde naalden, hetzelfde steekpatroon en dezelfde werkwijze, rond of heen en weer, als in de trui. Was en droog het proeflapje volledig volgens de geplande verzorging en de wasvoorschriften van het garen. Het gewogen of gemeten garen moet bij het gemeten oppervlak horen; behandel randen en losse draadeinden apart en gebruik een voldoende nauwkeurige weegschaal. Bereken gevormde delen en verschillende steekpatronen afzonderlijk. De methode garandeert geen totaalverbruik.
 
 ## Meters omrekenen naar bollen
 
-Kijk op het garenlabel hoeveel meter er per bol zit. Deel je totale schatting door dat getal. Rond naar boven af.
+Lees op het label de lengte per bol. Deel de benodigde lengte door de bollengte in dezelfde eenheid en rond naar boven af op hele bollen.
 
-Je trui heeft ongeveer 1 280 m nodig. Het garen heeft 160 m per bol van 50 g. Dat zijn 8 bollen. Koop er 9. Een extra voor veiligheid.
+Een denkbeeldig rekenvoorbeeld: bij een onderbouwde behoefte van 1 280 m en 160 m per 50 g geldt 1 280 / 160 = 8 bollen, dus 400 g. Dat bewijst niet dat 1 280 m bij een specifieke trui past. Een negende bol geeft 160 m extra, maar is niet automatisch nodig of voldoende als reserve.
 
-Juist bij truien is die extra bol de moeite waard, ook als de berekening precies lijkt. Verschil in stekenverhouding door het project heen (de meeste breiers gaan ongemerkt strakker of losser breien als ze in een patroon komen), garen voor proeflapjes, draadjes wegwerken en eventueel uithalen eten allemaal van de voorraad.
-
-Veel garenwinkels nemen ongebruikte, niet-opgewonden bollen met de wikkel intact terug. Vraag dat voordat je koopt. Zelfs als retourneren niet kan, is een extra bol goed garen zelden verspild: mutsen, wanten, reparaties of latere contrastkleur voor kleurwerk.
+Controleer wat het patroon al rekent voor proeflapjes, afwerking en onzekerheid. Voeg alleen toe wat jouw project nodig heeft, zonder dezelfde reserve dubbel te tellen. Uithalen verbruikt het garen niet opnieuw als het herbruikbaar is; afgeknipte of beschadigde stukken moet je vervangen. Controleer de retourvoorwaarden van de winkel voordat je op retourneren rekent.
 
 ## Terugrekenen vanuit voorraadgaren
 
-Veelvoorkomende situatie: je hebt een vaste hoeveelheid garen en wilt weten wat je ermee kunt maken.
+Bij hele bollen vermenigvuldig je het aantal met de looplengte op het label. Weeg gedeeltelijke bollen als droog garen zonder wikkel of kern. De schatting is: resterende grammen / labelgrammen × labellengte. Afgeronde labelwaarden en de nauwkeurigheid van de weegschaal begrenzen het resultaat.
 
-Weeg een volle bol om het totaalgewicht te bevestigen, vermenigvuldig met het aantal bollen en gebruik de looplengte per bol op het label om het totaal aantal meters te berekenen. Kijk daarna of je meters binnen het bereik vallen voor de maat en stijl die je wilt.
-
-Zit je op de rand, dus net genoeg voor de schatting, overweeg dan aanpassingen die garen besparen: kortere mouwen, een korter lijf, een smallere pasvorm of een mouwloze versie. Beter vooraf plannen dan improviseren wanneer de tweede mouw bijna zonder garen zit. Een kleinere maat kiezen en met een iets lossere stekenverhouding breien kan ook helpen, maar dat vraagt een serieus proeflapje.
+Vergelijk je voorraad met de behoefte van een geschikt patroon, per kleur en per meegebreide draad. Plan een korter lijf of kortere mouwen vooraf en bereken de gewijzigde delen opnieuw. Een kleinere patroonmaat en losser breien zijn geen betrouwbare bespaartruc: ze veranderen stekenverhouding, maten en het gebreide materiaal.
 
 ## FAQ
 
 **Hoeveel meer garen heb ik nodig voor een herentrui dan voor een damestrui?**
-Het verschil zit in maat, niet in constructie. Een heren-L en een dames-L met dezelfde borstomtrek gebruiken ongeveer evenveel garen. Herentruien vallen gemiddeld vaker in grotere maatbereiken, dus in de praktijk heb je vaak meer nodig. Maar omdat de trui groter is, niet omdat het "heren" is.
+Vergelijk afgewerkte maten, lijf- en mouwlengte, garen, stekenverhouding, steekpatroon en constructie. Dezelfde borstomtrek of maatletter alleen is niet genoeg, ongeacht of het patroon voor heren of dames is benoemd.
 
 **Kan ik een andere garendikte gebruiken dan het patroon vraagt?**
-Ja, maar het aantal meters verandert flink. Van worsted naar DK gaan verhoogt het totale aantal meters, ook al is het garen dunner, omdat er in alle richtingen meer steken zitten. De [gids voor een andere garendikte](/nl/artikelen/een-andere-garendikte-gebruiken/) behandelt het volledige proces, inclusief stekenverhouding en stofgedrag.
+Dat kan, maar dezelfde totale lengte bevestigt geen geschikte vervanging. Controleer steken en toeren per meeteenheid, het gewassen proeflapje, de vezelsamenstelling en garenopbouw. Een overstap van worsted naar DK geeft geen vaste verandering in meters. De [gids voor een andere garendikte](/nl/artikelen/een-andere-garendikte-gebruiken/) bespreekt deze punten.
 
 **Hoeveel garen gebruikt de pas van een top-down trui?**
-De pas kan een groot deel van het totale trui-garen gebruiken, afhankelijk van diepte en vormgeving. Diepe kleurwerkpassen, ook lange IJslandse-achtige passen, zitten aan de hoge kant omdat het deel breed, zichtbaar en vaak met meeloopdraden gebreid wordt.
+Er is geen vast aandeel. Gebruik de werkelijke diepte, vormgeving, het steekpatroon en de hoeveelheden per kleur. Tel de bovenste mouwdelen niet opnieuw mee bij de mouwen onder de splitsing.
 
 **Is het beter om extra garen te kopen of het risico te nemen dat je tekortkomt?**
-Koop extra als het garen beschikbaar is en het budget dat toelaat. Een ongebruikte bol kan misschien terug, gebruikt worden voor accessoires of bewaard blijven voor reparaties. Een half afgemaakte trui die niet af kan omdat het verfbad op is, is een veel slechtere uitkomst.
+Plan een reserve voor het project en controleer wat het patroon al dekt. Hetzelfde verfbad kan later lastig te vinden zijn. Weeg de kosten van reservegaren af tegen dat risico en controleer de retourvoorwaarden. Eén extra bol is geen universele regel.
 
 **Heeft de vezel invloed op hoeveel garen ik nodig heb?**
-Een beetje. Wol en wolmengsels blijven vaak dicht bij de standaardinschattingen. Katoen en linnen zijn zwaarder en minder elastisch, dus een proeflapje telt extra als de marge krap is. Alpaca en zijde kunnen na blocken meer vallen en in de lengte groeien, afhankelijk van mengsel en constructie. Dat kan de maat sterker verschuiven dan kleine aanpassingen aan het aantal steken.
+Vezel en garenopbouw beïnvloeden het gebreide materiaal en de reactie op wassen. Controleer de werkelijke looplengte op het label en een behandeld proeflapje. Er is geen universele vezelfactor voor de garenbehoefte van een trui.

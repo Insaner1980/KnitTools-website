@@ -15,13 +15,13 @@ lang: fi
 translationKey: "increase-decrease-evenly"
 ---
 
-"Lisää seuraavalla kerroksella 8 silmukkaa tasaisesti." Ohje jatkaa eteenpäin. Sinä jäät katsomaan eläviä silmukoita ja tekemään päässälaskua.
+"Lisää seuraavalla kerroksella 8 silmukkaa tasaisesti." Ohje jatkaa eteenpäin. Sinä jäät katsomaan puikolla olevia silmukoita ja tekemään päässälaskua.
 
-Tarvitsitpa lisäyksiä tai kavennuksia, lasku on sama. Jaa nykyinen silmukkamäärä niiden muutosten määrällä, jotka haluat tehdä. Tulos on muotoilukohtien väli. Siinä on koko kaava. Kiinnostava osa on kaikki sen ympärillä: mitä lisäys- tai kavennustapaa käytetään, miten jakojäännökset hoidetaan, mitä reunoille tapahtuu ja miten jaosta tulee neulepinnassa tasaisen näköinen eikä vain paperilla oikea.
+Jaa muotoiluun käytettävissä olevien silmukoiden määrä lisäys- tai kavennuskertojen määrällä. Lasku antaa jaon lähtökohdan, mutta tekniikka määrää kirjoitetun toiston. Reunat, jakojäännökset ja mallineule on huomioitava erikseen.
 
 ## Kaava yhdessä rivissä
 
-Nykyinen silmukkamäärä / muutosten määrä = muotoilukohtien väli.
+Muotoiluun käytettävät alkuperäiset silmukat / lisäys- tai kavennuskerrat = alkuperäisten silmukoiden keskimäärä kerrallaan. Tulos kuvaa koko toiston kokoa, ei välttämättä tavallisten silmukoiden määrää muotoilukohtien välissä.
 
 Väli kertoo, kuinka monta nykyistä silmukkaa kuuluu kuhunkin muutokseen, mutta kirjoitettu toisto riippuu menetelmästä. Alla olevissa M1-esimerkeissä lisäys tehdään nykyisten silmukoiden väliin, joten väli 10 voidaan kirjoittaa `10 o, M1`. KFB tehdään olemassa olevaan silmukkaan, joka kuuluu väliin: kirjoita `9 o, KFB`, ei `10 o, KFB`, sillä jälkimmäinen kuluttaa 11 alkuperäistä silmukkaa. Kavennuksissa väli sisältää kavennuksen kuluttamat silmukat; `2 o yhteen` kuluttaa kaksi alkuperäistä silmukkaa.
 
@@ -29,53 +29,53 @@ Jos jotkin reunasilmukat on tarkoitus jättää muotoilun ulkopuolelle, vähenn�
 
 Sama lasku, kaksi hieman eri tapaa ajatella sitä.
 
+Laske tekokerrat erikseen silmukkamäärän muutoksesta: M1 ja KFB lisäävät 1 silmukan, 2 o yhteen ja ssk vähentävät 1 silmukan, 3 o yhteen vähentää 2. Tekokertojen määrän on oltava positiivinen kokonaisluku. Jos käytettäviä silmukoita on U ja tekokertoja E, 2 o yhteen vaatii U ≥ 2 × E ja 3 o yhteen U ≥ 3 × E. KFB tarvitsee yhden alkuperäisen silmukan jokaista lisäystä varten. Tässä M1 tarkoittaa yhtä kiertäen neulottua välilankalisäystä kutakin käytettävää väliä kohti: U silmukan tasokerroksella on U − 1 sisäväliä ja jo yhdistetyssä suljetussa neuleessa U väliä. Varatut reunukset voivat rajoittaa lisäyskohtia lisää. Esimerkeissä neulotaan oikein eikä reunoja varata erikseen, ellei niin sanota.
+
 ## Esimerkki: siisti lisäys
 
 Puikolla on 80 silmukkaa. Ohje pyytää 8 lisäystä.
 
 80 / 8 = 10.
 
-Kerros voidaan lukea "neulo 10, M1" kahdeksan kertaa. Se kuluttaa kaikki 80 silmukkaa puikolta, lisää 8 uutta silmukkaa ja päättyy 88 silmukkaan. Lasku pitää, lisäykset osuvat tasaiseen rytmiin ja neule levenee tasaisesti.
+Neulo tasona "5 o, M1, (10 o, M1) 7 kertaa, 5 o". Tämä kuluttaa 5 + 7 × 10 + 5 = 80 alkuperäistä silmukkaa ja tekee 1 + 7 = 8 lisäystä: tuloksena on 88 silmukkaa. Lisäykset tulevat alkuperäisten silmukoiden 5, 15, 25, 35, 45, 55, 65 ja 75 jälkeen. Väli on 10 silmukkaa ja kumpaankin päähän jää 5, joten sijoittelu on symmetrinen.
 
-Reunasta reunaan tehdyssä versiossa on yksi ulkonäköön liittyvä ongelma: viimeinen M1 osuu aivan kerroksen loppuun, eikä sen jälkeen jää tavallisia silmukoita. Osa ohjeista hyväksyy sen, osa ei. Jos haluat puskurin molempiin reunoihin, jaa yksi väli kerroksen alkuun ja loppuun. Kerros voi olla "neulo 5, M1, (neulo 10, M1) 7 kertaa, neulo 5." Sama 80 silmukkaa kulutetaan, samat 8 lisäystä tehdään ja tuloksena on edelleen 88 silmukkaa. Lisäykset pysyvät poissa reunoista, mikä tekee saumoista ja myöhemmästä silmukoiden poimimisesta siistimpää.
+"10 o, M1" 8 kertaa kuluttaa myös 80 silmukkaa, mutta tämä versio sopii jo yhdistettyyn suljettuun neuleeseen: viimeinen M1 tehdään kerrosrajan välilangasta. Tasokerroksen viimeisen silmukan jälkeen ei ole kahden silmukan välistä lankaa. Viimeinen M1 ei siis ole pelkkä ulkonäköongelma.
 
 ## Esimerkki: jakojäännös, joka pitää hoitaa
-
-Oikeat ohjeet jakautuvat harvoin näin siististi.
 
 Otetaan 75 silmukkaa ja 8 lisäystä.
 
 75 / 8 = 9, jakojäännös 3.
 
-Se tarkoittaa viittä 9 silmukan osiota ja kolmea 10 silmukan osiota. Jokaisen osion loppuun tulee yksi M1. Viisi kertaa "neulo 9, M1" ja kolme kertaa "neulo 10, M1" kuluttavat yhteensä 75 silmukkaa ja tekevät 8 lisäystä, joten kerros päättyy 83 silmukkaan.
+Jo yhdistetyssä suljetussa neuleessa käytä viittä 9 silmukan ja kolmea 10 silmukan jaksoa. Tee jokaisen jälkeen M1. Yksi järjestys on 9, 9, 10, 9, 9, 10, 9, 10: neulo luvun verran oikein ja tee M1. Alkuperäisiä silmukoita kuluu 5 × 9 + 3 × 10 = 75, lisäyksiä tulee 8 ja lopputulos on 83 silmukkaa. Kaikki välit, myös kerrosmerkin yli, ovat 9 tai 10 alkuperäistä silmukkaa.
 
-Mihin pidemmät osiot laitetaan? Levitä ne. Älä tee kaikkia kolmea 10 silmukan osiota kerroksen alkuun ja sen jälkeen viittä 9 silmukan osiota loppuun. Silmä lukee sen epätasaiseksi, vaikka lasku teknisesti täsmää.
+Tasona voit käyttää tätä symmetristä jakoa:
 
-Toimiva järjestys voi olla 9, 9, 10, 9, 9, 10, 9, 10. Pidemmät osiot osuvat suunnilleen joka kolmanteen väliin, joten jako näyttää harkitulta eikä toispuoleiselta.
+1. Neulo 5 o, M1.
+2. Neulo 9 o, M1; 9 o, M1; 10 o, M1; 9 o, M1; 10 o, M1; 9 o, M1; 9 o, M1.
+3. Neulo loput 5 silmukkaa oikein.
 
-Täydellinen tarkkuus ei ole tavoite. Yhden silmukan heitto sijoittelussa ei näy useimmissa valmiissa töissä. Tavoite on tasaiselta näyttävä jako, ei matemaattinen täydellisyys.
+Päihin kuluu 5 + 5 silmukkaa ja seitsemään sisäväliin 5 × 9 + 2 × 10. Yhteensä kuluu 75 alkuperäistä silmukkaa, tehdään 8 M1-lisäystä ja saadaan 83 silmukkaa. Lisäykset ovat silmukoiden 5, 14, 23, 33, 42, 52, 61 ja 70 jälkeen. Peilikuvaparien summat ovat 75. Nämä ovat kaksi mahdollista jakoa, eivät ainoat ratkaisut.
 
 ## Sama kaava kavennuksiin
 
-Kavennuksiin tarvitaan yksi lisäkehys, koska 2 o yhteen kuluttaa kaksi silmukkaa ja tuottaa yhden. Väli on koko toisto, ei pelkkien tavallisten silmukoiden määrä ennen kavennusta.
+Kavennuksissa on huomioitava toiston koko, koska 2 o yhteen kuluttaa kaksi silmukkaa ja tuottaa yhden. Väli on koko toisto, ei pelkkien tavallisten silmukoiden määrä ennen kavennusta.
 
 Otetaan 90 silmukkaa ja 10 kavennusta.
 
 90 / 10 = 9.
 
-Jokainen toisto kattaa 9 silmukkaa: ensimmäiset 7 neulotaan tavallisesti ja kaksi viimeistä neulotaan yhteen. Kerros luetaan siis "neulo 7, 2 o yhteen" kymmenen kertaa. Se kuluttaa kaikki 90 silmukkaa ja poistaa 10, joten jäljelle jää 80 silmukkaa. Ylijääviä silmukoita ei ole, eikä reunapuskuria tarvita ellei sitä haluta.
+Jokainen toisto kattaa 9 silmukkaa: ensimmäiset 7 neulotaan tavallisesti ja kaksi viimeistä neulotaan yhteen. Kerros luetaan siis "neulo 7, 2 o yhteen" kymmenen kertaa. Se kuluttaa kaikki 90 silmukkaa ja poistaa 10, joten jäljelle jää 80 silmukkaa. Ylijääviä silmukoita ei ole. Tässä esimerkissä reunasilmukoita ei ole varattu erikseen.
 
-Jakojäännökset toimivat samoin kuin lisäyksissä. 95 silmukkaa ja 10 kavennusta antaa 9 ja jakojäännökseksi 5: viisi toistoa on 9 silmukan mittaisia ja viisi 10 silmukan mittaisia. Levitä pidemmät toistot kerrokselle sen sijaan, että kasaisit ne yhteen kohtaan.
+Kun silmukoita on 95 ja yhden silmukan kavennuksia tarvitaan 10, 95 / 10 = 9 ja jakojäännös 5. Neulo "7 o, 2 o yhteen, 8 o, 2 o yhteen" yhteensä 5 kertaa. Kukin pari kuluttaa 9 + 10 = 19 alkuperäistä silmukkaa ja tuottaa 8 + 9 = 17: kaikki 95 silmukkaa käytetään, kavennuksia tulee 10 ja jäljelle jää 85 silmukkaa. Lyhyet ja pitkät toistot vuorottelevat. Tässä ei varata reunasilmukoita.
 
 ## Miksi ohje pyytää tasaista jakamista
 
-Yhteen kohtaan kasatut lisäykset leventävät yhtä aluetta, kun muu neulepinta pysyy entisellään. Valmiiseen työhön syntyy näkyvä kiila eikä pehmeä siirtymä. Yhteen kasatut kavennukset vetävät neuletta sisään väärästä kohdasta, joskus niin selvästi että valmis kappale näyttää vinolta jo kaukaa.
+Tasainen jako levittää silmukkamäärän muutoksen valitulle alueelle. Muutosten keskittäminen tiettyihin kohtiin muotoilee neuletta eri tavalla.
 
-Yleisin paikka tälle on siirtymäkerros heti joustimen jälkeen. Joustin vetää sisään samalla silmukkamäärällä, jolla vartalo-osa haluaa asettua litteäksi. Yksi lisäyskerros leventää neuleen vartalo-osaa varten ilman uutta aloitusta. Tasainen jakaminen saa siirtymän katoamaan neulepintaan sen sijaan, että se huutaisi olemassaoloaan.
+Joustimesta vartalo-osaan siirryttäessä noudata ohjeen tavoitemäärää ja kummankin neulepinnan tiheyttä; lisäyksiä ei tarvita automaattisesti. Tasainen jako ei yksin takaa huomaamatonta siirtymää.
 
-Pipon laki on toinen klassinen tilanne. Tasaisiin väleihin tehdyt kavennukset muodostavat pipon päälle siistin spiraalin tai tähden. Epätasainen jako tekee laesta toispuoleisen, ja sitä on vaikea korjata purkamatta. [Pipon neulomisen opas](/fi/artikkelit/pipon-neulominen/) käy päälaen muotoilua tarkemmin läpi.
-
-Näet "lisää tasaisesti" myös raglankaarrokkeissa, hihan pyöriöissä ja kaikissa tilanteissa, joissa suunnittelija haluaa silmukkamäärän muuttuvan ilman että muutos näkyy itse neulepinnassa.
+[Pipon neulomisen opas](/fi/artikkelit/pipon-neulominen/) käsittelee päälaen muotoilua. Siihen vaikuttavat myös kavennusten paikat, suunnat ja välikerrokset. Raglanlinjat ja hihanpyöriöt tarvitsevat omat sijoitteluohjeensa, joita ei korvata yleisellä tasaisella jaolla.
 
 ## Mitä lisäystapaa kannattaa käyttää
 
@@ -83,51 +83,39 @@ Jos ohje määrittää lisäyksen, käytä sitä. Suunnittelija valitsee lisäyk
 
 Jos ohje sanoo vain "lisää", valinta on sinun. Menetelmät käyttäytyvät vähän eri tavoin.
 
-**M1L ja M1R** ovat tavallisia huomaamattomia lisäyksiä sileässä neuleessa. Ne nostavat kahden silmukan välisen langan ja kiertävät sen niin, ettei kohtaan jää reikää. M1L kallistuu vasemmalle, M1R oikealle. Kun lisäykset levitetään tasaisesti kerrokselle eivätkä muodosta näkyvää muotoilulinjaa, kallistussuunnalla on vähemmän merkitystä. Paritetussa raglan- tai v-pääntiemuotoilussa noudata ohjeen vasemmalle ja oikealle kallistuvia lisäyksiä, jotta muotoilu peilaa.
+**M1L ja M1R** tehdään silmukoiden välisestä langasta kuluttamatta puikolla olevaa silmukkaa. Pidä työlanka takana. M1L: nosta välilanka vasemmalle puikolle edestä taakse ja neulo takareunasta oikein. M1R: nosta takaa eteen ja neulo etureunasta oikein. Näin välilanka kiertyy. Katso [Purl Sohon M1-ohje](https://www.purlsoho.com/create/make-one-right-m1r-make-one-left-m1l/). Suunnat tarkoittavat oikealta puolelta näkyvää kallistusta, kun neulotaan vasemmalta puikolta oikealle. Noudata paritetussa muotoilussa neuleohjetta.
 
-**KFB** eli silmukan neulominen etu- ja takareunasta tekee lisäyksen olemassa olevaan silmukkaan eikä kahden silmukan väliin. Se jättää pienen vaakapalkin, joka näyttää vähän nurjalta nyppylältä. Se toimii ainaoikeassa ja pintaneuleissa, joissa palkki katoaa. Sileässä neuleessa se näkyy helpommin ja tasainen rivi KFB-lisäyksiä voi erottua hentona viivana.
+**KFB** eli silmukan neulominen etu- ja takareunasta kuluttaa yhden silmukan ja tuottaa kaksi. Neulo ensin etureunasta oikein, jätä silmukka vasemmalle puikolle ja neulo sama silmukka takareunasta oikein ennen pudottamista. Lisäys jättää pienen vaakapalkin. Toisin kuin M1, KFB:n silmukka lasketaan toiston alkuperäisiin silmukoihin.
 
 **Langankierto** tekee tarkoituksellisen reiän. Sitä käytetään pitsissä, reikäriveissä ja pareittain kavennuksen kanssa, kun silmukkamäärä halutaan pitää samana. Se ei yleensä ole se, mitä ohje tarkoittaa "lisää tasaisesti" -kohdassa, ellei ohje nimenomaan sano niin.
 
-**Nostetut lisäykset** hakevat uuden silmukan edelliseltä kerrokselta. Ne voivat olla hyvin huomaamattomia sileässä neuleessa, mutta lähekkäin pinotut nostetut lisäykset tarvitsevat huomiota, koska ne voivat vetää kangasta.
-
 ## Mitä kavennustapaa kannattaa käyttää
 
-**2 o yhteen** kallistuu oikealle. Se on useimpien "kavenna 1" -ohjeiden perusvalinta silloin, kun kallistussuunnalla ei ole väliä.
+**2 o yhteen** neuloo kaksi silmukkaa yhdeksi ja kallistuu neuleen oikealta puolelta katsottuna oikealle. Käytä ohjeen määräämää kavennusta.
 
-**Ssk** kallistuu vasemmalle. Se on luonnollinen pari 2 o yhteen -kavennukselle peilatuissa kavennuksissa, kuten kerroksen alussa ja lopussa symmetrisessä raglanmuotoilussa. Osa neulojista käyttää sen sijaan skp-kavennusta eli nosta, neulo, vedä nostettu silmukka yli. Lopputulos on visuaalisesti samankaltainen.
+**Ssk** on vasemmalle kallistuva yhden silmukan kavennus: nosta kaksi silmukkaa yksitellen oikein neulomatta ja neulo ne takareunoistaan oikein yhteen. **Skp** eli ylivetokavennus tehdään nostamalla yksi silmukka oikein neulomatta, neulomalla seuraava oikein ja vetämällä nostettu silmukka neulotun yli. Molemmat kuluttavat 2 silmukkaa ja tuottavat 1, mutta työvaiheet eroavat. Noudata ohjeen tekotapaa.
 
 **3 o yhteen** poistaa kaksi silmukkaa yhdellä kertaa ja kallistuu vahvasti oikealle. Sitä käytetään, kun ohje haluaa jyrkemmän kavennuksen tai kun pitsikaavio pinoaa kavennuksia.
 
-**Keskitetty kaksoiskavennus**, usein englanniksi CDD ja joskus muodossa S2KP2 tai sl2-k1-p2sso, poistaa kaksi silmukkaa ja pitää keskimmäisen silmukan kulkemassa suoraan keskellä. Sitä käytetään pitsissä, siksak-kuvioissa ja pipon laessa silloin, kun kuvio haluaa vahvan pystylinjan.
-
-Jos ohje sanoo tavallisella oikealla kerroksella vain "kavenna tasaisesti", 2 o yhteen on usein järkevä oletus, ellei ohje määritä muuta. Kavennukset ovat hajallaan, joten kallistus näkyy vähemmän kuin varsinaisessa muotoilulinjassa.
+**Keskitetty kaksoiskavennus (CDD)** vähentää 2 silmukkaa keskitetysti. Yksi tekotapa on **S2KP2**: nosta 2 silmukkaa yhdessä kuin neuloisit ne oikein yhteen, neulo 1 oikein ja vedä molemmat nostetut silmukat sen yli. Kolmesta silmukasta jää yksi. Tarkista CDD:n tekotapa ohjeesta; lyhenteet eivät aina tarkoita samaa menetelmää.
 
 ## Reunasilmukat ja saumavara
 
-Kaava ei päätä reunoja puolestasi.
+Jätä ohjeessa varatut reunus- tai saumasilmukat muotoilun ulkopuolelle. Neulo ensin alkureunus, tee muotoilu käytettäville silmukoille ja neulo loppureunus. Yllä olevan symmetrisen 80 silmukan esimerkin 5 silmukan päät kuuluvat 80 silmukan jakoon; erillistä reunusta ei ole varattu.
 
-Jos kappale ommellaan myöhemmin yhteen, pidä ensimmäinen ja viimeinen muotoilukohta ainakin muutaman silmukan päässä reunasta. Reunasilmukkaan tehty kavennus hankaloittaa saumaamista ja näkyy valmiissa saumassa. Sama pätee aivan reunaan tehtyyn lisäykseen: se rikkoo reunan ja vaikeuttaa silmukoiden poimimista, jos projektiin tulee myöhemmin nappilista tai pääntien reunus.
-
-Ensimmäisen välin jakaminen puoliksi hoitaa tämän ilman lisälaskua. Sen sijaan että aloittaisit heti "neulo 10, M1", kerros alkaa "neulo 5, M1, neulo 10, M1..." ja ensimmäisen M1:n ja reunan väliin jää 5 silmukan puskuri.
-
-Jos ohje antaa tarkan sijoittelun, kuten `2 o, *M1, 9 o; toista * viimeisiin 2 s asti, 2 o`, suunnittelija on jo rakentanut reunapuskurin mukaan. Noudata ohjetta sellaisenaan.
+Jos kerroksella on 76 silmukkaa ja kummassakin päässä varataan 2, käytettäviä silmukoita on 76 − 4 = 72. Kahdeksalle M1-lisäykselle 72 / 8 = 9. Neulo `2 o, *M1, 9 o; tee tähdestä alkava jakso yhteensä 8 kertaa, 2 o`. Toisto kuluttaa 9 silmukkaa ja tuottaa 10. Yhteensä kuluu 2 + 8 × 9 + 2 = 76 ja syntyy 2 + 8 × 10 + 2 = 84 silmukkaa. Viimeisen M1:n jälkeen on vielä 11 alkuperäistä silmukkaa. Varatut reunasilmukat säilyvät, mutta päätyvälit eivät ole symmetriset.
 
 ## Kun muotoilukohta osuu nurjaan silmukkaan
 
-Tätä tapahtuu joustimen siirtymissä ja kauttaaltaan kuvioiduissa mallineuleissa.
+Myös nurin tehty lisäys tai kavennus muuttaa silmukkamäärää. Esimerkiksi pfb kuluttaa yhden silmukan ja tuottaa kaksi; 2 n yhteen kuluttaa kaksi ja tuottaa yhden. Valitse tekniikka ja kallistussuunta ohjeen tarkoittaman neulepuolen mukaan.
 
-Jos muotoilukohta osuu työssä oikeaan silmukkaan, tee lisäys tai kavennus ohjeen mukaan. Jos se osuu nurjaan silmukkaan, siistein tulos tulee yleensä saman menetelmän nurjan puolen versiosta: M1 nurin, pfb KFB:n sijaan, 2 n yhteen 2 o yhteen -kavennuksen sijaan. Silloin silmukka näyttää osalta mallineuletta eikä sen keskeytykseltä.
-
-Osa ohjeista hoitaa tämän automaattisesti siirtämällä väliä hieman niin, että muotoilukohdat osuvat oikeisiin silmukoihin. Se on suunnittelijan valinta. Sinun ei tarvitse arvailla sitä uusiksi.
+Oikean tekniikan vaihtaminen nurjaan ei automaattisesti säilytä joustinta, palmikkoa tai pitsiä. Tarkista, mitkä silmukat kukin toimi kuluttaa, mihin uudet silmukat kuuluvat ja miten seuraava kerros jatkuu. Jos ohje siirtää muotoilukohtaa kuvion vuoksi, säilytä sijoittelu ja laske koko kerros uudelleen.
 
 ## Pyörönä neulominen
 
-Sama kaava, mutta reunoja ei tarvitse varoa. Työn ympäryksen silmukkamäärä jaetaan muutosten määrällä, ja muotoilu toistuu koko kierroksen ympäri.
+Jo yhdistetyssä suljetussa neuleessa ei ole sivureunoja, mutta myös viimeisen ja ensimmäisen muotoilukohdan väli lasketaan. Kun silmukoita on 80, "10 o, M1" 8 kertaa tuottaa 88. Viimeinen M1 tehdään kerrosrajan välilangasta ja seuraava väli on 10 alkuperäistä silmukkaa. Siirrä merkkiä tarvittaessa välilangan nostamista varten ja palauta se kerroksen oikeaan aloituskohtaan. Älä siirrä yhtä muotoilukohtaa tarkistamatta molempia viereisiä välejä.
 
-Yksi kohta kannattaa huomata: jos muotoilukohta osuu täsmälleen kerrosmerkin päälle, pidä kierroksen alku vapaana jos ohje sallii sen. Merkin yli kulkeva kavennus on hankala tehdä ja vaikeampi lukea seuraavalla kierroksella. Käytä muotoilukohtaan väliaikaista merkkiä, jos kierroksen alun pitää pysyä paikallaan.
-
-Erityisesti pipoissa kavennuskierrokset on yleensä kirjoitettu auki, esimerkiksi "8 o, 2 o yhteen koko kierros, sitten yksi välikierros, sitten 7 o, 2 o yhteen koko kierros". Yllä oleva kaava auttaa ensimmäiseen kavennuskierrokseen silloin, kun ohje sanoo vain "kavenna 8 silmukkaa tasaisesti".
+Päälaen laskuesimerkki alkaa 80 silmukasta: "8 o, 2 o yhteen" 8 kertaa kuluttaa 80 silmukkaa ja tekee 8 kavennusta, joten jäljelle jää 72. Neulo yksi välikerros näillä 72 silmukalla. Sitten "7 o, 2 o yhteen" 8 kertaa kuluttaa 72 ja jättää 64 silmukkaa. Välikerros ei muuta määrää. Tämä tarkistaa kyseisten kerrosten laskun; koko päälaen muoto ja kavennustahti tulevat neuleohjeesta.
 
 ## Symmetrinen ja paritettu muotoilu
 
@@ -139,7 +127,7 @@ Kun ohje sanoo "lisää 1 silmukka kummassakin reunassa joka 6. kerros", kyse on
 
 ## Muutama yleinen väli kannattaa tunnistaa
 
-Jotkut jaot tulevat vastaan niin usein, että ne alkavat jäädä mieleen.
+Seuraavat kolme lisäysesimerkkiä on tarkoitettu jo yhdistettyyn suljettuun neuleeseen: viimeinen M1 tehdään kerrosrajan välilangasta. Kavennusesimerkit sopivat tasona tai suljettuna neulomiseen ilman erikseen varattuja reunasilmukoita. Tavalliset silmukat neulotaan oikein.
 
 - 80 silmukkaa, lisää 8 -> "10 o, M1" kahdeksan kertaa -> 88 silmukkaa
 - 60 silmukkaa, lisää 6 -> "10 o, M1" kuusi kertaa -> 66 silmukkaa
@@ -152,15 +140,15 @@ Numerot eivät aina asetu näin nätisti. Kun ne eivät asetu, jakojäännös le
 
 ## Kun lasku alkaa ärsyttää
 
-127 silmukkaa, 11 lisäystä ja samalla 6 silmukan pitsimallikerta, jota ei saa rikkoa. Tuollaisella kerroksella elävien silmukoiden päällä laskeminen voi kestää kauemmin kuin itse lisäykset, ja juuri siinä virheitä syntyy. Kirjoitettu jakotaulukko tai lisäys- ja kavennuslaskuri on silloin hyödyllinen, koska se antaa konkreettisen kerrosohjeen sen sijaan, että kaikki pitää päätellä puikolla olevasta työstä.
+Kirjoita monimutkaisen muotoilukerroksen koko työjärjestys ennen neulomista. Oikea lopullinen silmukkamäärä ei todista pitsin tai palmikon jatkuvan oikein: tarkista myös kaavio ja seuraava kerros.
 
-Yksinkertaisemmilla kerroksilla käsin laskeminen on nopeaa ja luotettavaa. Osa sujuvaa työskentelyä on tietää, milloin työkalu säästää virheitä ja milloin kaava riittää.
+Tämä on käsinlaskentaohje. Sivustolla ei ole interaktiivista lisäys- ja kavennuslaskuria.
 
 ## Tavallisia tilanteita
 
 Jos ohje sanoo "lisää tasaisesti" mutta ei kerro määrää, katso seuraavaa silmukkamäärää, jota ohje odottaa. Vähennä siitä nykyinen silmukkamäärä. Erotus on lisäysten määrä. Tämä on harvinaista, mutta sitä näkee vanhemmissa ohjeissa ja omissa muokkauksissa.
 
-Jos väli heittää yhdessä tai kahdessa kohdassa silmukalla, älä pura heti. Useimmissa töissä se ei näy valmiissa neuleessa. Todellinen tavoite on tasaiselta näyttävä jako.
+Jos muotoilukohta siirtyy, tarkista silmukkamäärä, viereiset välit ja mallineule ennen purkupäätöstä. Näkyvyys riippuu neulepinnasta; oikea kokonaismäärä ei yksin todista sijoittelua oikeaksi.
 
 Nurjalla kerroksella lisääminen tai kaventaminen toimii samalla tavalla. Käytä valitsemasi menetelmän nurjan puolen versiota. Jakokaava ei muutu.
 
@@ -169,19 +157,19 @@ Itse luotavien silmukoiden määrää käsittelee [silmukoiden luomisen opas](/f
 ## FAQ
 
 **Voinko arvioida välin silmämääräisesti ilman laskua?**
-Pienissä muutoksissa ja leveissä kappaleissa, kuten peitossa tai huivissa, se voi toimia. Istuvissa vaatteissa tai kaikessa, missä lasku vaikuttaa mittoihin, tee lasku. Viisi minuuttia aritmetiikkaa on parempi kuin hihan pyöriön purkaminen.
+Suunnittele ja laske lisäys- tai kavennuskerrat myös pienessä muutoksessa. Tarkista paikat suhteessa mallineuleeseen ja tavoiteltuun muotoon.
 
 **Mitä jos ohje ei kerro, mitä lisäystä käytetään?**
-Sileässä neuleessa M1L tai M1R on turvallinen oletus. Ainaoikeassa tai pintaneuleessa KFB voi kadota paremmin. Lisäystavalla on enemmän väliä, kun muotoilu näkyy, kuten raglanlinjassa tai kaarrokkeessa, kuin silloin kun lisäykset on hajautettu tasaisesti kerrokselle.
+Näissä oikein neulottavissa esimerkeissä voit käyttää yllä kuvattua välilankalisäystä, jos ohje jättää valinnan sinulle. KFB näyttää erilaiselta ja kuluttaa alkuperäisen silmukan, joten kirjoita toisto uudelleen, jos vaihdat tekniikkaa.
 
 **Miksi lasku antaa joskus yhden muutoksen liikaa tai liian vähän?**
 Yleensä jakojäännös jäi huomioimatta tai tuli yhden silmukan virhe siinä, alkaako ensimmäinen osio täydellä vai puolikkaalla välillä. Käy kerros mielessä läpi ennen neulomista ja varmista lasku laskemalla suunnitellut muotoilukohdat.
 
 **Muuttuuko kaava, jos kavennan 3 o yhteen -kavennuksella kaksi silmukkaa kerralla?**
-Kavennuskohtien määrä pysyy samana, mutta jokainen kohta poistaa 2 silmukkaa yhden sijaan. 90 silmukkaa ja 5 kappaletta 3 o yhteen -kavennuksia jättää 80 silmukkaa, ei 85. Laske poistettujen silmukoiden määrää, älä vain kavennustoimien määrää.
+Kyllä: jaa poistettavien silmukoiden määrä kahdella saadaksesi 3 o yhteen -kavennusten määrän. Kun 90 silmukasta halutaan 80, poistetaan 10 silmukkaa viidellä kavennuksella. 90 / 5 = 18 alkuperäistä silmukkaa toistoa kohti: "15 o, 3 o yhteen" 5 kertaa kuluttaa 90 ja tuottaa 5 × 16 = 80 silmukkaa. Paritonta vähennystä ei voi tehdä pelkillä kahden silmukan kavennuksilla.
 
 **Voinko lisätä tai kaventaa samalla kerroksella kuin mallikerran toisto?**
-Jos kerros on tavallinen siirtymäkerros, esimerkiksi joustimesta sileään, muotoilu on suoraviivaista. Jos kerros on keskellä mallineuletta, muotoilun pitää kunnioittaa toistoa ja sijoittelusta tulee monimutkaisempaa. Siksi monet ohjeet sijoittavat muotoilun juuri siirtymäkerroksille.
+Vain jos muotoiluohje huomioi kuvion ja sen jatkumisen. Oikea kokonaismäärä tai jaollisuus mallikerran koolla ei yksin säilytä joustinta, palmikoita tai pitsiä.
 
 **Ohje sanoo "lisää tasaisesti", eikä silmukkamäärä jakaudu tasan. Teenkö jotain väärin?**
 Et. Se on normaalia. Jakojäännös hoidetaan tekemällä osasta välejä yhden silmukan pidempiä. Levitä pidemmät välit kerrokselle äläkä kasaa niitä yhteen, niin valmis neule näyttää tasaiselta.

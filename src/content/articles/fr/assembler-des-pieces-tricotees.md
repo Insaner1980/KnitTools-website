@@ -2,6 +2,7 @@
 title: "Assembler un tricot : point de matelas"
 description: "Assembler des pièces tricotées au point de matelas, surjet et rabattage à trois aiguilles. Coutures verticales, horizontales et manches."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 10
 tags:
@@ -16,7 +17,7 @@ lang: fr
 translationKey: "seam-knitted-pieces"
 ---
 
-L'assemblage est la partie du tricot qu'on remet le plus volontiers à plus tard. Un tas de pièces de pull terminées peut rester des semaines dans un sac à projet, parce que coudre les côtés et les manches ne fait rêver personne. Mais une bonne couture se voit à peine, et une mauvaise peut gâcher un vêtement par ailleurs bien tricoté. La différence entre un ouvrage qui semble bricolé et un ouvrage qui semble fini tient souvent aux finitions.
+Une couture adaptée maintient les pièces et permet au vêtement de tomber comme prévu. Certaines jonctions se fondent dans le tricot, d’autres forment volontairement un relief. Choisis la méthode selon les bords, le point et la souplesse nécessaire.
 
 En jersey endroit, le point de matelas crée une couture presque invisible en prenant les barres horizontales une maille à l'intérieur du bord sur chaque pièce, puis en les rapprochant pour que la jonction ressemble à un tricot continu. La méthode dépend du sens de la couture : bords verticaux pour les côtés, bords horizontaux pour les épaules, pièces façonnées dans des ouvertures comme les manches, ou mailles vivantes à assembler par grafting.
 
@@ -32,9 +33,9 @@ Tu veux assembler du point mousse ou coudre des manches ? Va directement au [poi
 | Point de matelas horizontal         | Bord rabattu contre bord rabattu         | Ressemble à du tricot | Épaules rabattues                           |
 | Rabattage à trois aiguilles         | Mailles vivantes contre mailles vivantes | Petite crête dedans   | Épaules stables                             |
 | Grafting, point de Kitchener        | Mailles vivantes contre mailles vivantes | Presque invisible     | Pointes de chaussettes, jonctions graftées  |
-| Surjet                              | Tous sens                                | Relief visible        | Jouets, doublures, coutures cachées         |
-| Point arrière                       | Tous sens                                | Intérieur plus épais  | Anses de sac, coutures qui portent du poids |
-| Point de matelas pour manche montée | Bord vertical vers bord mixte            | Souvent caché         | Manches montées, emmanchures                |
+| Surjet                              | Selon les bords                          | Relief visible        | Jouets, doublures, coutures cachées         |
+| Point arrière                       | Selon les bords                          | Intérieur plus épais  | Anses de sac, coutures qui portent du poids |
+| Point de matelas pour manche montée | Bords de rangs et de mailles             | Souvent caché         | Manches montées, emmanchures                |
 
 </div>
 
@@ -42,19 +43,19 @@ La règle pratique pour un pull : point de matelas pour les coutures verticales,
 
 ## Point de matelas, coutures verticales
 
-Le point de matelas est la méthode habituelle pour les côtés du vêtement et la longue couture sous chaque manche. Les explications ci-dessous concernent le jersey endroit ; au point mousse, on passe sous d’autres boucles. La jonction ressemble à un tricot continu.
+La couture au point de matelas convient aux côtés et à la longue couture sous la manche. Ces instructions concernent le jersey endroit avec des mailles lisières tricotées normalement ; le point mousse utilise d’autres boucles. Une tension régulière peut donner l’apparence d’un tricot continu.
 
-Pose les deux pièces à plat, endroit vers le haut, bords l'un contre l'autre. Enfile une aiguille à laine à bout rond avec le fil du projet, ou avec un fil lisse de la même couleur si le fil du projet est texturé ou fragile.
+Pose les pièces côte à côte, endroit vers toi, avec les coins inférieurs alignés. Enfile un fil adapté dans une aiguille à laine à bout rond et garde une extrémité à rentrer. Passe dans chaque coin inférieur de l’arrière vers l’avant pour former un huit avec le fil. Rapproche doucement les coins.
 
-Commence en bas. Passe l'aiguille sous la barre horizontale entre la première et la deuxième maille de la pièce de droite. Passe ensuite sous la barre correspondante de la pièce de gauche. Tire le fil. Retourne à droite et prends la barre suivante. Retourne à gauche. Après quelques points, resserre doucement pour fermer la couture. Les bords se rapprochent et la couture disparaît.
+À droite, glisse l’aiguille vers le haut sous le brin horizontal entre la première et la deuxième colonne de mailles, puis sous le brin correspondant à gauche. Reviens au dernier point de sortie à droite et passe sous le brin suivant, juste au-dessus. Continue en alternant. Resserre doucement après quelques points et remets le tricot à sa longueur au repos. Relie les derniers coins, vérifie la tension et rentre les deux fils dans la marge de couture sur l’envers.
 
-**La clé :** prends les barres une maille à l'intérieur du bord, pas dans le bord lui-même. La maille de bord devient la marge de couture et se replie derrière l'ouvrage. C'est pour cela que certains modèles ajoutent une maille lisière. Elle est absorbée par la couture.
+**Marge de couture :** une maille lisière de chaque pièce se replie sur l’envers. Deux colonnes au total se retrouvent donc dans la couture et ne comptent plus dans la largeur visible. Elles sont enfermées, pas supprimées par une diminution. Respecte la marge prévue par le modèle.
 
-Reste régulière. Même nombre de barres de chaque côté. Si tu prends une barre à droite et deux à gauche, la couture se décale. En jersey, la base est une barre par côté et par rang.
+À nombre de rangs et hauteur de rang identiques, un brin de chaque côté maintient les rangs alignés. Prendre deux brins de chaque côté est aussi une variante courante. Si une même longueur prévue contient des nombres de rangs différents, répartis-les entre les repères.
 
 ### Point de matelas sur du point mousse
 
-Ici, tu assembles **deux lisières**, avec les reliefs du point mousse perpendiculaires à la couture. Il ne s’agit pas de joindre des bords de montage ou de rabattage. Utilise une aiguille à laine à bout rond et un fil assorti.
+On relie ici **deux bords latéraux**, avec les côtes mousse perpendiculaires à la couture. Une côte mousse correspond à deux rangs tricotés. Cela ne concerne pas les bords de montage ou de rabattage. Utilise une aiguille à bout rond et un fil adapté ; relie d’abord les coins inférieurs comme ci-dessus.
 
 **1. Aligne les pièces.** Pose-les côte à côte, avec les faces qui seront visibles sur le vêtement tournées vers toi. Place les bords de montage en bas et les reliefs à la même hauteur. Quelques marqueurs verrouillables peuvent les maintenir en place.
 
@@ -62,7 +63,7 @@ Ici, tu assembles **deux lisières**, avec les reliefs du point mousse perpendic
 
 **3. Alterne entre les deux pièces.** Commence par le relief du bas en laissant une longueur de fil à rentrer. Passe sous la boucle basse à gauche, puis sous la boucle haute du relief correspondant à droite. Continue de la même façon sur le relief suivant. Garde le même type de boucle de chaque côté et laisse le fil de couture souple pendant que tu avances.
 
-**4. Resserre progressivement.** Après quelques points, tire doucement sur le fil pour rapprocher les bords. Mets le tricot à plat : les reliefs doivent se prolonger de part et d’autre sans plis, et la couture doit rester extensible. Si elle raccourcit le bord, desserre les derniers points et répartis à nouveau le fil. Rentre les extrémités lorsque la tension est régulière.
+**4. Resserre progressivement.** Après quelques points, tire doucement sur le fil pour rapprocher les bords. Mets le tricot à plat : les reliefs doivent se prolonger de part et d’autre sans plis, et la couture doit rester extensible. Si elle raccourcit le bord, desserre les derniers points et répartis à nouveau le fil. Relie les derniers coins et rentre les extrémités lorsque la tension est régulière.
 
 Les lisières à mailles glissées peuvent avoir un aspect différent. Repère les boucles sur un échantillon avant de coudre le vêtement.
 
@@ -70,25 +71,27 @@ Tu peux consulter les gros plans de [Nimble Needles](https://nimble-needles.com/
 
 ### Jersey envers et textures
 
-En jersey envers, quand les bosses envers sont sur l'endroit de l'ouvrage, il est souvent plus lisible de coudre depuis le côté jersey si la construction le permet. Les barres horizontales s'y voient mieux. Si tu dois travailler depuis le côté envers, cherche les fils qui courent entre les bosses et prends-les de la même manière. Même logique, moins de visibilité.
+Pour le jersey envers, garde vers toi les faces à mailles envers destinées à être visibles. Coudre un point de matelas ordinaire depuis la face à mailles endroit placerait la marge sur l’extérieur du vêtement. Passe alternativement sous une boucle basse en U au bord gauche et sous l’arc supérieur correspondant à droite. Avance le long des rangs à faire coïncider et teste la structure de la lisière ainsi que la tension sur un échantillon.
 
-Pour les torsades et les autres textures, ne te laisse pas distraire par le motif au bord. Prends les barres de la colonne de bord comme en jersey. Le motif compte quand même pour l'alignement : côtes, torsades, rayures et débuts de répétition doivent se rejoindre là où l'oeil les attend.
+Examine les mailles lisières des torsades et points texturés. Une bordure simple en jersey endroit peut se coudre comme ci-dessus. Des lisières glissées, façonnées ou intégrées au motif demandent la méthode du modèle ou une adaptation testée. Tous les bords ne présentent pas les mêmes brins horizontaux.
 
 ### Demi-maille pour les côtes
 
-Les côtes demandent souvent un ajustement d'une demi-maille. Au lieu de prendre une maille entière à l'intérieur, travaille à la limite entre les colonnes endroit et envers. Les côtes continuent alors à travers la couture, sans créer une double colonne endroit ou une double colonne envers.
+Choisis la couture selon la succession des côtes et les mailles lisières. Si chaque bord se termine par une colonne endroit et que les deux doivent n’en former qu’une, une couture à une demi-maille du bord peut convenir : passe alternativement sous le brin extérieur du V de chaque maille lisière, rang après rang. Les moitiés restantes se rejoignent en une colonne endroit. La couture passe **dans une maille endroit**, pas entre une colonne endroit et une colonne envers. D’autres bords demandent une maille entière de marge. Vérifie le motif et l’élasticité sur un échantillon.
 
-Si tu ignores ce décalage, la couture peut casser le rythme des côtes. Couds quelques centimètres, resserre, puis vérifie l'endroit avant de faire toute la longueur.
+## Couture horizontale entre des bords terminés
+
+Place les bords rabattus en jersey face à face, endroit vers toi. Relie les coins de départ et garde une extrémité à rentrer. Couds dans les mailles entières juste sous le rabattage : sur une pièce, passe sous les deux brins d’un V. Sur l’autre, entre au centre d’un V et ressors au centre du suivant, sous les brins voisins situés entre les deux centres. Alterne les côtés, reviens au dernier point de sortie et avance d’une maille. Ajuste les boucles cousues à la taille des mailles, relie les coins finaux et rentre les fils sur l’envers. Les bords rabattus se replient à l’intérieur. Les bords de montage demandent une vérification particulière de l’alignement ; cette couture ne nécessite pas de mailles vivantes. [Purl Soho montre le trajet de l’aiguille](https://www.purlsoho.com/create/seaming-stockinette-stitch-stitches-to-stitches/) (en anglais).
 
 ## Rabattage à trois aiguilles, coutures horizontales
 
-C'est une méthode solide pour assembler deux ensembles de mailles vivantes. Elle sert souvent aux épaules. Au lieu de rabattre chaque pièce séparément puis de les coudre, tu rabats les deux pièces ensemble. La couture et la finition du bord se font dans le même geste.
+Le rabattage à trois aiguilles assemble et rabat simultanément deux groupes de mailles vivantes de même taille. Il est souvent utilisé aux épaules quand le modèle prévoit une couture de soutien.
 
-Tiens les deux aiguilles parallèles, endroit contre endroit. Avec une troisième aiguille, tricote ensemble une maille de l'aiguille avant et une maille de l'aiguille arrière. Fais une deuxième maille de la même façon. Passe la première par-dessus la deuxième pour rabattre. Continue sur toute la largeur.
+Tiens les aiguilles parallèles avec autant de mailles sur chacune, les pointes dans le même sens et les endroits l’un contre l’autre. Avec la troisième aiguille, tricote ensemble à l’endroit la première maille de devant et celle de derrière, puis la paire suivante. Passe la plus ancienne maille de la troisième aiguille par-dessus la nouvelle. Continue avec une paire tricotée ensemble puis la maille précédente passée par-dessus, jusqu’à ce qu’il reste une maille. Coupe le fil en gardant de quoi le rentrer, passe-le dans la dernière maille et rentre-le.
 
-La couture est ferme et nette, avec une petite crête à l'intérieur. Elle va plus vite qu'un point de matelas sur beaucoup de jonctions horizontales. L'épaule ne se détend pas, parce que le bord rabattu reste stable, ce qui compte quand le poids du pull tire vers le bas.
+Le rabattage forme un relief intérieur et peut soutenir l’épaule. Sa souplesse dépend du fil et de la tension ; il n’empêche pas toute déformation.
 
-Il faut des mailles vivantes sur les deux pièces. Si tu as déjà rabattu, il faudrait les relever, ce qui enlève une grande partie de l'intérêt. Anticipe. Si le modèle demande un rabattage à trois aiguilles aux épaules, laisse ces mailles en attente sur un arrêt de mailles ou un fil auxiliaire.
+Les deux bords doivent porter des mailles vivantes. S’ils sont déjà rabattus, défais prudemment le rabattage et remets les mailles d’origine sur les aiguilles, ou choisis une couture. Relever de nouvelles mailles dans un bord terminé donne une autre construction.
 
 Pour une variation plus visible, fais le rabattage avec les envers l'un contre l'autre. La crête se place sur l'endroit et devient une chaîne décorative. Certains modèles à empiècement l'utilisent volontairement.
 
@@ -96,25 +99,25 @@ Pour une variation plus visible, fais le rabattage avec les envers l'un contre l
 
 Le grafting, souvent appelé point de Kitchener dans les modèles anglophones, est l'alternative presque invisible au rabattage à trois aiguilles quand les deux bords ont des mailles vivantes. Il sert aux pointes de chaussettes et parfois aux épaules, cols ou parties de pull modifiées quand le modèle veut que le tricot continue sans crête.
 
-Tiens les deux aiguilles parallèles, envers contre envers, avec le même nombre de mailles vivantes en jersey sur chacune et les pointes dirigées vers la droite. Le fil de travail doit partir de la première maille de l'aiguille arrière. Enfile une aiguille à laine avec une bonne longueur de fil assorti. Pour la mise en place, passe dans la première maille de l'aiguille avant comme pour la tricoter à l'envers et laisse-la sur l'aiguille, puis dans la première maille de l'aiguille arrière comme pour la tricoter à l'endroit et laisse-la sur l'aiguille. Répète ensuite ce rythme en quatre temps : aiguille avant, comme à l'endroit, retire la maille ; aiguille avant, comme à l'envers, laisse la maille ; aiguille arrière, comme à l'envers, retire la maille ; aiguille arrière, comme à l'endroit, laisse la maille. Lorsqu'il reste une maille sur chaque aiguille, retire celle de l'aiguille avant comme à l'endroit et celle de l'aiguille arrière comme à l'envers. Garde chaque boucle de grafting à peu près de la taille des mailles voisines, puis répartis la tension du fil le long du grafting avant de rentrer l'extrémité.
+Tiens les deux aiguilles parallèles, envers contre envers, avec le même nombre de mailles vivantes en jersey sur chacune et les pointes dirigées vers la droite. Les mailles doivent être non torses, avec leur brin droit devant chaque aiguille. Utilise une longue extrémité venant de la première maille arrière ou un fil assorti séparé, en gardant une extrémité à rentrer. Enfile-le dans une aiguille à laine à bout rond. Pour la mise en place, passe dans la première maille de l'aiguille avant comme pour la tricoter à l'envers et laisse-la sur l'aiguille, puis dans la première maille de l'aiguille arrière comme pour la tricoter à l'endroit et laisse-la sur l'aiguille. Tant qu’il reste au moins deux mailles sur chaque aiguille, répète ce rythme en quatre temps : aiguille avant, comme à l'endroit, retire la maille ; aiguille avant, comme à l'envers, laisse la maille ; aiguille arrière, comme à l'envers, retire la maille ; aiguille arrière, comme à l'endroit, laisse la maille. Lorsqu'il reste une maille sur chaque aiguille, retire celle de l'aiguille avant comme à l'endroit et celle de l'aiguille arrière comme à l'envers. Garde chaque boucle de grafting à peu près de la taille des mailles voisines, puis répartis la tension du fil le long du grafting avant de rentrer l'extrémité.
 
-Bien exécuté, le grafting forme un rang supplémentaire de jersey qui relie les deux pièces sans couture visible. Mal exécuté, il produit une ligne de mailles vrillées ou irrégulières qui prend du temps à défaire. Garde les étapes sous les yeux les premières fois. Après une pointe de chaussette, le rythme commence souvent à rester dans les mains.
+Le grafting forme un rang supplémentaire de jersey. Garde la séquence à portée de main et ajuste les boucles à la taille des mailles voisines. Le sens du tricot et la tension influencent aussi le résultat.
 
 Le grafting peut aussi servir au milieu d'un projet, mais couper un vêtement terminé est irréversible. Faire correspondre l'échantillon en rangs et le point ne suffit pas : le sens du tricot compte, et un grafting haut contre haut ne se comporte pas comme un grafting haut contre bas. Les côtes, torsades, dentelles et autres motifs verticaux peuvent présenter un décalage d'une demi-maille ou un autre défaut d'alignement. Teste le grafting prévu sur un échantillon avant de couper un vêtement terminé.
 
-## Surjet, assemblage rapide
+## Surjet
 
-Le surjet est moins exigeant que le point de matelas. Tiens les pièces endroit contre endroit, envers vers l'extérieur. Pique à travers les deux bords de l'arrière vers l'avant, un point à la fois.
+Place les pièces endroit contre endroit, bords alignés. Garde une extrémité de fil et fixe les coins de départ. Passe l’aiguille dans les deux épaisseurs de l’arrière vers l’avant, puis ramène le fil **par-dessus les bords** vers l’arrière. Fais le point suivant dans le même sens, un peu plus loin. Continue à intervalles réguliers avec des boucles assez souples. Fixe le dernier coin et rentre les fils.
 
-Le surjet laisse une petite surépaisseur à l'intérieur. Il n'est pas invisible comme le point de matelas, mais il va nettement plus vite. Il convient bien aux coutures qui ne se voient pas : intérieur d'objets doublés, assemblage de carrés, fermeture de jouets rembourrés.
+Cette variante forme un relief à l’intérieur. Elle peut convenir aux coutures cachées, aux jouets ou aux carrés assemblés si son aspect et sa souplesse conviennent au projet.
 
-Sur un vêtement où la couture reste visible, le point de matelas mérite le temps qu'il prend. Pour le reste, le surjet fait le travail.
+Teste la couture dans le matériau du projet si son épaisseur ou son élasticité est importante.
 
 ## Point arrière, coutures solides
 
-Tiens les pièces endroit contre endroit. Pique vers l'avant d'un point, puis reviens en arrière d'un demi-point pour créer des points qui se chevauchent. Le résultat est solide et un peu rigide.
+Pose les pièces endroit contre endroit et marque la ligne de couture. Garde une extrémité de fil. Fais sortir l’aiguille à travers les deux épaisseurs en B, une longueur de point de couture après le départ A. Pique en A et ressors en C, une longueur de point après B. Repique en B et ressors une longueur de point après C. Répète : reviens à la fin du point précédent, puis ressors plus loin. Comble le dernier intervalle et rentre les fils dans la marge. Ces distances désignent des points cousus, pas un nombre de mailles tricotées.
 
-Utilise-le quand la résistance compte : anses de sac, coutures d'épaules sur vêtements lourds, zones qui portent du poids. La marge de couture est visible à l'intérieur et la ligne a moins d'élasticité qu'un point de matelas. Évite-le sur un vêtement qui doit suivre la souplesse naturelle du tricot.
+Le point arrière peut soutenir une épaule ou une anse lorsque le modèle le prévoit. Résistance et élasticité dépendent du tricot, du fil, de la longueur des points et de la tension. Teste la couture pour l’usage attendu.
 
 ## Monter les manches
 
@@ -126,17 +129,17 @@ Pour une manche tricotée à plat, la longue couture du poignet à l’aisselle 
 
 Monter une tête de manche façonnée est une autre opération. Le long de l’arrondi, tu rencontres des bords de rangs, des parties inclinées et des mailles rabattues. Tu ne peux donc pas garder le même rythme rang contre rang sur tout le pourtour.
 
-Épingle d’abord la manche dans l’emmanchure. Fais correspondre le milieu de la tête de manche à la couture d’épaule et aligne les dessous de bras. Répartis l’éventuel embu régulièrement, sans former de plis. Respecte l’ordre de montage et la couture indiqués dans le modèle : au point de matelas, les endroits où tu piques doivent suivre la structure des bords. Le point arrière est une autre possibilité lorsque le modèle le prévoit.
+Fais coïncider les repères du modèle sur la tête de manche et l’emmanchure, y compris sous le bras. Le centre de la tête rejoint la couture d’épaule seulement si la construction le prévoit. Répartis entre les repères uniquement l’embu prévu par le modèle, sans plis. Vérifie les autres écarts de dimensions avant de coudre. Adapte le point de matelas à chaque portion de bord ou utilise le point arrière indiqué.
 
-La difficulté vient du fait que la tête de manche et l'emmanchure n'ont pas la même forme et peuvent avoir des rapports maille/rang différents sur la courbe. Épingler avant de coudre limite les décalages et les fronces. Utilise des marqueurs verrouillables ou des épingles en T inoxydables. Les petites épingles de couture sortent souvent du tricot et se tordent.
+Des marqueurs ouvrables, des pinces ou des épingles inoxydables adaptées maintiennent les repères. Ils ne corrigent pas des dimensions erronées et ne garantissent pas une couture sans fronces. Vérifie le tissu au repos en avançant.
 
 Pour un vêtement tricoté à plat en pièces séparées, on peut souvent monter les têtes de manches après les coutures d’épaules, avant de fermer les manches et les côtés. [Modern Daily Knitting montre la différence avec le montage d’une manche déjà fermée en tube](https://www.moderndailyknitting.com/community/how-to-set-in-a-sleeve/) (en anglais).
 
-Les manches montées sont la version la plus exigeante. Le raglan et les épaules tombantes sont plus directs, parce que les jonctions suivent des lignes droites. Avec une épaule tombante, un bord vertical rencontre souvent un bord horizontal rabattu : c'est une jonction en T, à traiter avec la même logique qu'un bord horizontal et un bord vertical près d'une encolure.
+Pour une épaule tombante, le bord rabattu de la manche peut rencontrer le bord latéral du corps. Côté mailles, entre au centre d’un V entier et ressors au centre du suivant. Côté rangs, passe sous le brin horizontal entre les deux premières colonnes. Alterne en revenant au dernier point de sortie. Répartis les rangs face aux mailles selon leurs nombres réels, l’échantillon et la même longueur à assembler entre repères ; il n’existe pas de rapport universel. [Purl Soho illustre cette jonction](https://www.purlsoho.com/create/seaming-stockinette-stitch-stitches-to-rows/) (en anglais). Le raglan suit ses bords façonnés et son ordre de montage.
 
 ## Assembler rayures et jacquard
 
-Quand les deux pièces ont des rayures ou du jacquard, les changements de couleur doivent se rejoindre à la couture. Sinon, l'oeil voit le décalage immédiatement. Épingle chaque changement de couleur avant de coudre. Si une rayure est un rang plus haut que l'autre, compense une seule fois en prenant deux barres au lieu d'une du côté le plus long. Une fois, cela disparaît presque. Répété au même endroit, cela crée des fronces.
+Aligne d’abord les changements de couleur prévus. Une petite différence de rangs sur une même longueur prévue peut parfois se répartir en prenant un brin supplémentaire du côté comportant plus de rangs, entre les repères. Cela ne corrige pas des rayures tricotées différemment et n’est pas forcément invisible. Vérifie à nouveau si le tissu fronce.
 
 Avec un fil autorayant, les rayures ne sont pas toujours censées tomber au même endroit. Ne poursuis pas un alignement impossible. Une tension de couture régulière donnera un meilleur résultat qu'une couture qui gondole pour rattraper des rayures.
 
@@ -144,48 +147,48 @@ Avec un fil autorayant, les rayures ne sont pas toujours censées tomber au mêm
 
 Utilise une aiguille à laine à bout rond. Une aiguille pointue fend le fil et perce les mailles au lieu de glisser entre les brins. Le chas doit laisser passer le fil sans l'abîmer.
 
-Prévois une longueur de fil suffisante. Les raccords en plein milieu d'une couture créent des bosses. Une longueur plusieurs fois supérieure à la couture suffit souvent. Si tu dois ajouter du fil, fais-le dans une zone moins visible, par exemple sous le bras.
+Utilise une longueur de fil maniable, avec de quoi rentrer les extrémités. Un fil très long peut s’user en traversant le tricot. Si tu dois changer de fil, rentre séparément les anciennes et nouvelles extrémités dans la marge, sans nœud dur ni surépaisseur.
 
-[Bloque avant d'assembler](/fr/articles/bloquer-un-tricot/). Les pièces bloquées s'épinglent aux bonnes dimensions et s'alignent mieux. Des pièces non bloquées peuvent être légèrement différentes, et le jersey non bloqué roule assez pour cacher les barres que tu dois voir.
+[Prépare les pièces avant l’assemblage](/fr/articles/bloquer-un-tricot/) selon les consignes d’entretien et avec une méthode testée sur l’échantillon. Laisse sécher entièrement et compare les mesures au repos avec le modèle. Le blocage ne garantit pas la bonne taille et ne supprime pas la tendance structurelle du jersey à rouler.
 
-Épingle avant de coudre. Ne commence pas à une extrémité en espérant que l'autre tombera juste. Épingle le haut, le bas et le milieu, puis complète entre les repères. Les différences de longueur se répartissent sur toute la couture.
+Fais d’abord coïncider les extrémités et les repères intermédiaires. Contrôle chaque portion et ne répartis que les différences compatibles avec la construction. N’étire pas de force une pièce mal dimensionnée.
 
-Pour le point de matelas sur deux pièces de même longueur, les nombres de rangs devraient correspondre. Si un côté a un ou deux rangs de plus, prends occasionnellement une barre supplémentaire du côté le plus long pour répartir l'écart. Cela se remarque peu quand cela arrive une ou deux fois.
+Des bords de même longueur peuvent avoir des nombres de rangs différents si la hauteur des rangs diffère. Compte les rangs réels et répartis-les entre repères correspondants. Un écart important ou inexpliqué demande de vérifier l’échantillon et le tricot.
 
-Adapte le fil d'assemblage au projet. Un gros pull cousu avec du fil à chaussettes fin aura une jonction fragile. Un ouvrage fin cousu avec un fil worsted prendra du volume et pourra se voir sur l'endroit. Le fil du projet est le choix le plus sûr, sauf s'il est trop fragile, poilu ou épais pour coudre proprement.
+Choisis le fil de couture selon sa résistance, son épaisseur, sa souplesse, la tenue des couleurs et la compatibilité de l’entretien. Le fil du projet convient souvent, mais un fil épais ou fragile peut être remplacé par un fil plus lisse et plus fin. Fin ne signifie pas forcément fragile : teste la couture pour son usage.
 
 ## Erreurs fréquentes
 
-**La couture fait un relief visible sur l'endroit.** Tu prends les barres trop loin du bord, par exemple deux mailles à l'intérieur au lieu d'une, ou tu changes de profondeur en cours de route. Recommence en restant à une barre du bord.
+**Le relief de couture apparaît à l’extérieur.** Le point de matelas ordinaire laisse une marge sur l’envers. Vérifie les faces, le trajet de l’aiguille, la profondeur régulière et la tension. Dans la méthode pour le jersey endroit, travaille entre les deux premières colonnes de mailles, pas « à un brin du bord ».
 
-**La couture gondole ou fronce.** La tension est trop forte ou trop lâche. Le point de matelas se resserre doucement après quelques points, il ne se tire pas d'un coup sec. Si tu as trop serré, fais revenir le fil dans les derniers centimètres avec la pointe de l'aiguille et règle à nouveau la tension.
+**La couture gondole ou fronce.** Desserre d’abord les points trop tendus et répartis le fil régulièrement. Vérifie aussi les repères, les nombres de rangs ou de mailles et la méthode : un excès de tissu ou une mauvaise répartition peut créer des fronces.
 
 **La couture se défait.** L'extrémité du fil n'a pas été fixée. Rentre le fil dans la marge de couture dans plus d'un sens avant de couper.
 
-**Les pièces sont vrillées à la jonction.** Une pièce était posée endroit vers le haut et l'autre envers vers le haut. Vérifie l'orientation avant le premier point.
+**Les pièces se tordent à la jonction.** Vérifie endroit, envers, haut, bas et coins correspondants. Une orientation incorrecte ou une tension irrégulière peut déformer l’assemblage.
 
 ## FAQ
 
 **Quel fil utiliser pour assembler ?**
 
-Le fil du projet, parce qu'il correspond. Si le fil du projet est texturé, épais ou fragile, comme du mohair, du bouclé ou un single peu retordu, utilise un fil lisse et solide dans la même couleur. Certaines tricoteuses gardent du fil à chaussettes lisse dans des couleurs courantes pour ce genre de couture.
+Utilise le fil du projet s’il se coud bien, ou un fil lisse dont la résistance, la souplesse, la couleur et l’entretien conviennent. Un fil plus fin peut réduire l’épaisseur. Essaie-le sur une couture d’échantillon.
 
 **Comment coudre des côtes ?**
 
-Fais correspondre le motif à travers la couture. Si les deux pièces se terminent par une colonne endroit, la couture doit former une colonne endroit continue une fois resserrée. Utilise le point de matelas à une demi-maille : prends les barres à la limite entre colonnes endroit et envers, pas tout au bord. Les côtes restent alors lisibles à travers la jonction.
+Vérifie les colonnes de bord et la succession des côtes. La couture à une demi-maille prend le brin extérieur du V des mailles endroit de bord quand deux colonnes doivent n’en former qu’une. Elle ne passe pas entre colonnes endroit et envers. Certains bords demandent une maille entière de marge.
 
 **Peut-on éviter complètement les coutures ?**
 
-Oui. Choisis des modèles tricotés d'une seule pièce ou en rond. Les pulls top-down, les empiècements circulaires bottom-up et les constructions continues peuvent supprimer la plupart des finitions. Les [bonnets](/fr/articles/tricoter-un-bonnet/) et les [chaussettes](/fr/articles/tricoter-des-chaussettes/) tricotés en rond n'ont pas de coutures latérales. Si tu n'aimes pas l'assemblage, cherche des modèles avec "construction sans couture" ou "tricoté en rond".
+Oui. Choisis des modèles tricotés d'une seule pièce ou en rond. Les pulls top-down, les empiècements circulaires bottom-up et les constructions continues peuvent supprimer la plupart des coutures ; les fils à rentrer et les autres finitions restent nécessaires. Les [bonnets](/fr/articles/tricoter-un-bonnet/) et les [chaussettes](/fr/articles/tricoter-des-chaussettes/) tricotés en rond n'ont pas de coutures latérales. Si tu n'aimes pas l'assemblage, cherche des modèles avec "construction sans couture" ou "tricoté en rond".
 
 **Ma couture fronce.**
 
-Tu tires trop fort sur le fil. Le point de matelas se resserre doucement, pas brutalement. Si tu as trop serré, fais revenir le fil dans les derniers points et règle à nouveau la tension.
+Desserre d’abord les points trop tendus et répartis le fil régulièrement. Vérifie aussi les repères, les nombres de rangs ou de mailles et la méthode : un excès de tissu ou une mauvaise répartition peut créer des fronces.
 
 **Faut-il rentrer les fils avant ou après l'assemblage ?**
 
-Souvent après. Les extrémités peuvent être cachées dans la couture pendant que tu assembles, ce qui fait gagner du temps et stabilise la finition. Laisse assez de fil pour enfiler l'aiguille confortablement, rentre-le dans la marge de couture, puis coupe quand la couture s'est posée.
+Rentre les fils de couture lorsque la tension est réglée. Passe chaque extrémité séparément dans la marge sur l’envers et change de direction selon le fil. Cacher simplement un bout libre dans la couture ne le fixe pas de façon fiable. Vérifie avant de couper.
 
 **Peut-on défaire une couture sans abîmer les pièces ?**
 
-Le point de matelas et le surjet se défont assez proprement en coupant le fil d'assemblage tous les quelques points, puis en le tirant. Le rabattage à trois aiguilles demande plus de soin : il faut revenir maille par maille sur une aiguille. Le grafting prend du temps à défaire et peut déformer les mailles, donc vérifie bien avant de couper l'extrémité.
+Repère le fil de couture et défais depuis une extrémité sans abîmer les brins tricotés. Si tu dois couper, isole d’abord uniquement le fil de couture. Démonte le rabattage à trois aiguilles ou le grafting maille par maille en récupérant les mailles libérées sur les aiguilles. Un fil duveteux peut être difficile à séparer sans dommage.

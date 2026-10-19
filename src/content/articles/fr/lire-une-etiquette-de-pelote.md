@@ -1,6 +1,7 @@
 ---
 title: "Lire une étiquette de pelote"
 description: "Décode les étiquettes de fil : composition, épaisseur, échantillon, entretien, bain de teinture, numéro de coloris et symboles."
+updatedDate: 2026-10-17
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 3
@@ -16,15 +17,15 @@ lang: fr
 translationKey: "how-to-read-yarn-label"
 ---
 
-Cette petite bande de papier autour d'une pelote ? Elle ne sert pas seulement à tenir le fil ensemble. Chaque symbole, nombre et icône existe parce que quelqu'un, quelque part, a acheté le mauvais fil ou a ruiné un pull fini au lavage. L'étiquette est l'aide-mémoire qu'on aurait aimé lire avant.
+Garde la banderole en papier autour de la pelote : elle permet d'identifier le fil et de retrouver ses consignes d'entretien plus tard.
 
-Une étiquette de pelote te donne la composition du fil, la catégorie d'épaisseur, l'échantillon recommandé, la taille d'aiguille, les consignes d'entretien et le bain de teinture. Tout ce qu'il faut pour choisir, utiliser et entretenir le fil correctement. Prends une pelote sur une étagère ou sors-en une de ton stock. Voici ce que chaque partie raconte vraiment.
+Une étiquette indique généralement la composition, le poids et le métrage, l'échantillon et les aiguilles conseillés, l'entretien ainsi que le coloris ou le lot. Les informations et leur présentation varient selon les fabricants et les marchés. Les compositions et noms de coloris ci-dessous sont des exemples fictifs, pas l'étiquette d'un fabricant précis.
 
 ## Symbole d'épaisseur de fil
 
-L'icône en forme de pelote avec un nombre à l'intérieur correspond à la catégorie d'épaisseur du Craft Yarn Council. Beaucoup d'étiquettes utilisent encore la plage familière de Lace à Jumbo, et CYC a commencé à mettre à jour le système avec la catégorie 8 et des symboles supplémentaires. Utilise le nombre comme raccourci, puis vérifie aussi le nom de la catégorie et la case d'échantillon avant d'associer le fil à un modèle.
+L'icône en forme de pelote avec un nombre indique la catégorie d'épaisseur du Craft Yarn Council. Son tableau publié va de 0 (Lace) à 7 (Jumbo). Ce nombre n'est ni une taille d'aiguille, ni le poids de la pelote en grammes, ni le nombre de brins retordus ensemble.
 
-Le texte à côté indique souvent DK, Worsted ou Bulky. Toutes les marques n'impriment pas l'icône CYC, et certaines utilisent des noms propres à la marque, comme "Studio" ou "Soft Touch". Quand le nom d'épaisseur n'est pas clair, la case d'échantillon donne de meilleurs indices.
+L'étiquette peut aussi porter les noms DK, Worsted ou Bulky. Tous les fabricants n'utilisent pas le système CYC. Lis ensemble l'épaisseur, le métrage, la composition et l'échantillon ; un nom de produit ne suffit pas à identifier l'épaisseur.
 
 Le [tableau des épaisseurs de fil](/fr/outils/epaisseurs-de-fil/) détaille toutes les catégories avec leurs fourchettes d'échantillon et tailles d'aiguilles typiques.
 
@@ -34,63 +35,53 @@ Elle est indiquée en pourcentages. `100 % laine mérinos`. `75 % acrylique, 25 
 
 Regarde-la attentivement quand tu [remplaces un fil](/fr/articles/remplacer-un-fil-dans-un-modele/). Un DK en laine et un DK en coton sont tous les deux DK. Ils peuvent se tricoter à des échantillons proches. Mais le tissu fini ne se comportera pas du tout de la même manière. Le [guide des fibres](/fr/articles/fibres-de-fil-laine-coton-acrylique/) couvre ces différences.
 
-Les étiquettes indiquent parfois si le fil est superwash, mercerisé ou brossé. Ce ne sont pas des mots décoratifs. La laine superwash est traitée pour mieux résister au feutrage et peut être indiquée comme lavable en machine. La laine non superwash demande un soin plus doux, car chaleur, humidité et agitation peuvent la feutrer. C'est un détail à voir avant de monter 300 mailles pour une couverture de bébé.
+L'étiquette peut préciser si le fil est superwash, mercerisé ou brossé. Le traitement superwash réduit la tendance de la laine à feutrer ; suis les instructions de lavage propres au fil. Le mot seul n'autorise ni sèche-linge, ni repassage, ni blocage à la vapeur.
 
 ## Informations d'échantillon
 
-La case d'échantillon donne un nombre de mailles et de rangs sur un échantillon standard, généralement 10 cm, avec une taille d'aiguille ou de crochet conseillée.
+La case d'échantillon au tricot indique les mailles en largeur et les rangs en hauteur sur la surface précisée, souvent 10 × 10 cm, avec une taille d'aiguilles conseillée. L'échantillon au crochet et la taille de crochet sont des indications distinctes : ne lis pas une taille de crochet comme une taille d'aiguilles. Vérifie les millimètres ou le système de numérotation régional, ainsi que les éventuelles précisions sur le point et le traitement.
 
-C'est un point de départ. Le fabricant a tricoté un échantillon avec sa tension et a noté le résultat. Tes mains, tes aiguilles et la densité de tissu que tu préfères peuvent donner autre chose. Fais quand même ton propre échantillon.
+L'échantillon de l'étiquette est un repère, pas une garantie de ta tension ni des dimensions finales. Tricote ton échantillon dans le point du modèle, traite-le selon les consignes du fil et mesure-le sec pour le comparer au modèle. Si l'étiquette ne précise pas si sa mesure est prise avant ou après lavage, ne le suppose pas.
 
 ## Poids et longueur de la pelote
 
-Poids en grammes et longueur du fil en mètres, parfois aussi avec l'équivalent impérial. Deux nombres, mais la longueur est celle qui compte pour planifier un projet. Deux pelotes de 100 g peuvent contenir des quantités de fil très différentes selon la densité de la fibre. C'est pour ça que le [guide d'estimation de fil](/fr/articles/combien-de-fil-faut-il/) travaille à partir du métrage, pas du nombre de pelotes.
+Poids en grammes et longueur du fil en mètres, parfois aussi avec l'équivalent impérial. Deux nombres, mais la longueur est celle qui compte pour planifier un projet. Deux pelotes de 100 g peuvent avoir des métrages très différents selon l’épaisseur, les fibres et la construction du fil. Un même poids ou métrage ne rend pas deux fils interchangeables. C'est pour ça que le [guide d'estimation de fil](/fr/articles/combien-de-fil-faut-il/) travaille à partir du métrage, pas du nombre de pelotes.
 
 ## Symboles d'entretien
 
-C'est la section qui ressemble à des hiéroglyphes tant qu'on ne connaît pas le système. Les icônes suivent la norme internationale d'étiquetage textile, la même que sur les vêtements. Chaque symbole couvre un type d'entretien : lavage, blanchiment, séchage, repassage et nettoyage professionnel.
+Nous décrivons ici les symboles d'entretien du système GINETEX / ISO. D'autres systèmes et d'anciennes étiquettes peuvent différer ; demande au fabricant le sens d'un signe inconnu. Ce sont des descriptions en mots, pas des reproductions de pictogrammes normalisés. Le [guide des symboles GINETEX](https://www.ginetex.net/GB/labelling/care-symbols.asp) montre leurs formes réelles.
 
-**Le lavage** utilise l'icône de cuve. Un nombre dedans indique la température maximale en degrés Celsius. Une main dans la cuve signifie lavage à la main seulement. Les traits sous la cuve indiquent des cycles machine plus doux, avec plus de traits pour un traitement plus délicat.
+**Lavage :** le nombre dans la cuve est une température maximale en °C, pas une température obligatoire. Une barre dessous signifie un traitement modéré, deux un traitement très modéré. Ni l'une ni l'autre ne signifie lavage à la main. Une main dans la cuve indique le lavage à la main ; vérifie la variante du symbole et la température. Une cuve barrée interdit le lavage domestique, y compris à la main.
 
-Une croix sur la cuve signifie ne pas laver, ce qui est rare pour le fil mais apparaît sur certaines fibres spéciales.
+**Blanchiment :** un triangle vide autorise le chlore et l'oxygène. Deux traits obliques autorisent uniquement le blanchiment à l'oxygène. Un triangle barré interdit tout blanchiment.
 
-**Le blanchiment** est le triangle. Un triangle vide signifie que le blanchiment est autorisé. Deux lignes diagonales à l'intérieur limitent au blanchiment sans chlore, à l'oxygène. Une croix sur le triangle : aucun blanchiment.
+**Séchage :** le cercle dans un carré désigne le sèche-linge. Un point indique une température réduite, deux une température normale ; une croix sur ce symbole interdit le sèche-linge. Un trait horizontal dans le carré signifie sécher à plat, un trait vertical sécher sur fil. Ce sont des modes de séchage naturel, pas des réglages du sèche-linge.
 
-On ne sort pas souvent l'eau de Javel pour un tricot. Mais si tu fais quelque chose de blanc ou très clair, savoir si la fibre le tolère compte.
+**Repassage :** les points du fer indiquent le niveau de chaleur autorisé : un faible, deux modéré, trois élevé. Vérifie les limites du système utilisé et les éventuelles restrictions de vapeur. Un fer barré interdit le repassage. Le nom de la fibre ou une consigne de lavage n'autorise pas à lui seul le blocage à la vapeur.
 
-**Le séchage** utilise un carré. Un cercle dans le carré signifie que le sèche-linge est autorisé. Les points dans ce cercle indiquent la chaleur : un point pour basse température, deux pour normale. Une ligne horizontale dans le carré signifie sécher à plat, ce qui est de toute façon la bonne méthode pour la plupart des vêtements tricotés. Une ligne verticale dans le carré signifie suspendre ou sécher sur fil.
+**Entretien professionnel :** le cercle concerne les professionnels. P et F désignent des groupes de solvants autorisés pour le nettoyage à sec ; le professionnel interprète le symbole complet selon la norme concernée. W signifie nettoyage professionnel à l'eau, pas lavage à domicile. Une barre dessous impose un traitement plus doux. Confie toutes les indications de l'étiquette au professionnel.
 
-C'est là que beaucoup se trompent : ce n'est pas parce que le fil survit au sèche-linge que le tissu tricoté fini devrait y aller. Un bonnet tricoté lâche en laine superwash peut se détendre au sèche-linge même si l'étiquette l'autorise techniquement.
-
-Le symbole **fer à repasser** a la forme d'un fer. Les points indiquent la température, un point pour basse température, trois pour haute. Une croix dessus signifie ne pas repasser. Pour le tricot, le fer compte surtout quand on presse des coutures ou qu'on bloque à la vapeur. Certains synthétiques réagissent mal à la chaleur et peuvent fondre ou devenir brillants sous un fer chaud.
-
-Le **nettoyage professionnel** utilise un cercle. P et F indiquent des solvants de nettoyage à sec (perchloroéthylène et hydrocarbures). W signifie nettoyage professionnel à l'eau, donc un procédé à base d'eau et non de solvant. Beaucoup de personnes ignorent cette partie, mais elle apparaît sur les étiquettes de mélanges soie, cachemire et autres fibres qui peuvent bénéficier d'un soin professionnel.
-
-Ces symboles ne sont pas des suggestions. Une laine lavage main peut feutrer si elle passe dans un cycle machine classique avec eau chaude et agitation. Une fibre qui ne supporte pas la chaleur peut sortir d'un sèche-linge chaud comme un autre objet que celui qui y est entré.
+Suis les consignes propres au fil pour laver, sécher et mettre en forme l'échantillon et l'ouvrage. Lavable en machine ne signifie pas automatiquement compatible avec le sèche-linge ou le repassage.
 
 ## Bain de teinture et numéro de coloris
 
 C'est là que les erreurs arrivent. Deux numéros différents, deux usages différents, et les confondre peut donner une rayure visible sur ton pull au moment où tu changes de pelote.
 
-Le **numéro de coloris** (ou nom de couleur) identifie la teinte. "Coloris 412" ou "Dusty Rose". Il reste le même d'un lot à l'autre. C'est ce qui permet de retrouver la même couleur l'année suivante.
+Le **numéro de coloris** ou son nom identifie la teinte dans une gamme précise, par exemple les mentions fictives « coloris 412 » ou « Dusty Rose ». Le **numéro de bain** identifie le lot de production, pas la couleur elle-même. Deux lots peuvent présenter une différence visible, mais ce n'est pas systématique.
 
-Le **numéro de bain** identifie la cuve précise dans laquelle le fil a été teint. Deux pelotes avec le même numéro de coloris mais des bains différents peuvent sembler identiques en magasin et légèrement différentes une fois tricotées côte à côte. Parfois, la différence ne se voit qu'après avoir tricoté dix rangs après le changement de pelote.
+Achète si possible une quantité suffisante du même bain et compare les pelotes. Un même bain ne garantit pas une couleur parfaitement uniforme, notamment pour les fils teints à la main. Si tu mélanges des bains, essaie d'alterner les pelotes sur un échantillon. Cela peut adoucir la transition, sans garantir un raccord invisible.
 
-Achète tout le fil d'un projet dans le même bain. Toutes les pelotes. Si ce n'est pas possible, alterner les pelotes tous les deux rangs aide à fondre la transition, pour qu'un éventuel changement de couleur ne fasse pas une ligne nette.
-
-Certains fils indiquent `no dye lot`, c'est-à-dire que le fabricant vise une couleur stable d'un lot à l'autre. Le fil teint à la main, lui, varie presque toujours d'une pelote à l'autre. C'est une partie de son charme, mais cela veut aussi dire que l'alternance des pelotes est une pratique normale.
+`No dye lot` signifie que le fabricant vise une couleur constante entre les lots, sans devoir assortir les numéros de bain. Ce n'est pas une promesse que toutes les pelotes seront identiques ; vérifie l'explication du fabricant et compare-les.
 
 ## Pays d'origine et informations de marque
 
-Nom de marque, gamme de fil, pays d'origine. Utile si tu dois en racheter plus tard ou si tu veux te souvenir de ce qui a bien fonctionné.
+La marque, la gamme, la référence du produit et l'éventuel pays d'origine aident à identifier le fil. Ces mentions et leur présentation varient.
 
 ## Ce que l'étiquette ne te dit pas
 
 Les étiquettes couvrent beaucoup de choses. Mais elles laissent de côté certains points importants.
 
-Rien n'indique comment le fil rendra une fois tricoté. Une pelote unie et discrète peut donner un tissu magnifique. Une pelote teinte à la main très spectaculaire peut former des flaques de couleur. Impossible à prévoir depuis la banderole seule.
-
-Rien sur la durabilité non plus. Est-ce que le fil bouloche beaucoup, s'assouplit ou durcit au lavage, tient après un hiver d'usage quotidien ? Ces réponses viennent de l'expérience et des avis, pas de l'étiquette.
+L'étiquette seule ne prédit pas avec certitude l'aspect ni la résistance de ton ouvrage. Lis les éventuelles informations du fabricant, puis examine ton propre échantillon et sa réaction à l'entretien autorisé.
 
 Et la case d'échantillon est le résultat du fabricant, pas le tien. Prends-la comme une référence, pas comme une garantie.
 
@@ -99,13 +90,13 @@ Note tout de suite les informations importantes de l'étiquette dans tes notes d
 ## FAQ
 
 **Et si l'étiquette est dans une langue que je ne comprends pas ?**  
-Les symboles d'entretien réduisent la dépendance à la langue, et les icônes d'épaisseur suivent souvent les conventions CYC. Vérifie quand même la case d'échantillon et les pourcentages de fibres si le texte est inconnu.
+Identifie le système de symboles et demande au fabricant le sens des mots ou signes inconnus. Les symboles ne traduisent pas les noms des fibres ni toutes les conditions d’entretien.
 
-**L'étiquette donne un échantillon sur 10 cm, mais mon modèle anglophone l'écrit autrement. C'est comparable ?**  
-Presque, mais pas exactement. 10 cm font environ 3,94 inches. Si le modèle donne l'échantillon sur 10 cm, mesure 10 cm. S'il le donne sur 4 inches, mesure 4 inches.
+**L'étiquette donne un échantillon sur 10 cm, mais mon modèle anglophone utilise 4 pouces. Est-ce la même chose ?**\
+Presque, mais pas exactement. 10 cm font environ 3,94 pouces. Si le modèle donne l'échantillon sur 10 cm, mesure 10 cm. S'il le donne sur 4 pouces, mesure 4 pouces.
 
 **Faut-il garder l'étiquette de la pelote ?**  
 Oui. Au moins jusqu'à ce que le projet soit terminé et lavé.
 
 **Que veut dire "lavable en machine" pour un ouvrage tricoté ?**  
-Le fil peut survivre au lavage en machine dans les conditions indiquées. Cela ne veut pas dire que le tissu tricoté est indestructible, surtout avec un échantillon lâche ou dans un vêtement qui peut se détendre.
+Utilise le programme machine et les limites de température indiqués pour ce fil. Vérifie séparément le séchage et le repassage, puis teste l’entretien autorisé sur ton échantillon.

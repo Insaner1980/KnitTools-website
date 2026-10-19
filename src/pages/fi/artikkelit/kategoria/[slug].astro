@@ -51,6 +51,11 @@ const sortedArticles = [...articles].sort(byCategoryOrder);
   canonicalPath={routes.category[category].fi}
   lang="fi"
   alternates={routes.category[category]}
+  contentPage={category === "gauge-calculations" ||
+    category === "yarn" ||
+    category === "needles" ||
+    category === "techniques" ||
+    category === "app-tools"}
 >
   <section class="cat-header-section">
     <div class="cat-header-inner">
@@ -77,7 +82,15 @@ const sortedArticles = [...articles].sort(byCategoryOrder);
       }
     </div>
   </section>
-  <ClosingCTA variant="page" lang="fi" />
+  <ClosingCTA
+    variant="page"
+    lang="fi"
+    contentPage={category === "gauge-calculations" ||
+      category === "yarn" ||
+      category === "needles" ||
+      category === "techniques" ||
+      category === "app-tools"}
+  />
 </PageLayout>
 
 <style>

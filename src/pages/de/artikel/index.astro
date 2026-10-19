@@ -23,6 +23,7 @@ const sections = buildArticleCategorySections(germanArticles, "de");
   canonicalPath={routes.articlesIndex.de}
   lang="de"
   alternates={routes.articlesIndex}
+  contentPage
 >
   <section class="articles-header">
     <div class="articles-header-inner">
@@ -86,7 +87,7 @@ const sections = buildArticleCategorySections(germanArticles, "de");
       ))
     )
   }
-  <ClosingCTA variant="page" lang="de" />
+  <ClosingCTA variant="page" lang="de" contentPage />
 </PageLayout>
 
 <style>

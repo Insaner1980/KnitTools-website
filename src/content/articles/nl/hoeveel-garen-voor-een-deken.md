@@ -1,7 +1,8 @@
 ---
 title: "Hoeveel garen voor een deken?"
-description: "Bereken hoeveel garen je nodig hebt voor een gebreide deken. Meterindicaties per dekenmaat en garendikte, van babydeken tot grote plaid."
+description: "Schat garen voor een gebreide deken met concrete patroonvoorbeelden, afgewerkte maten en een proeflapje. Reken de benodigde meters om naar hele bollen."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 5
 tags:
@@ -19,102 +20,88 @@ lang: nl
 translationKey: "yarn-for-blanket"
 ---
 
-Dekens vreten garen. Zelfs een kleine babydeken gebruikt meer meters dan de meeste kledingstukken, en een grote plaid kan met worsted-garen makkelijk voorbij 2 300 m gaan. Halverwege zonder garen zitten, zeker bij een verfbad dat niet meer te krijgen is, is precies het soort brei-ellende dat je met redelijke planning kunt voorkomen.
+Dekens vreten garen. Halverwege zonder garen zitten, zeker wanneer hetzelfde verfbad niet meer verkrijgbaar is, is brei-ellende die goede planning kan helpen voorkomen.
 
-De schattingen hieronder geven een startbereik. Je echte garenverbruik hangt af van stekenverhouding, steekpatroon en afmetingen, dus behandel deze getallen als inkoopbereiken, niet als beloften van een patroon.
+Begin met de afgewerkte breedte en lengte, het garen en het steekpatroon. Hieronder staan hoeveelheden uit genoemde breipatronen en adviezen om het verbruik voor een andere deken te schatten.
 
 ## Meterindicaties per dekenmaat
 
-Deze bereiken gaan uit van tricotsteek of een vergelijkbaar vlak steekpatroon. Structuurpatronen gebruiken meer garen (aanpassingen hieronder).
+Babydeken, plaid en kingsize zijn omschrijvingen, geen universele afmetingen. Bepaal bij een sprei de afgewerkte maat en hoeveel de randen moeten afhangen; matrasmaten alleen bepalen niet de dekenmaat.
 
-**Babydeken (75 x 100 cm / 30 x 40 inch)**
-Worsted: 700-1 000 m
-DK: 900-1 200 m
-Bulky: 500-800 m
+**Babydeken: [Bright Cuddles Blanket, DROPS Baby 46-4](https://www.garnstudio.com/pattern.php?id=11395&cid=7).** Deze deken wordt heen en weer gebreid met één draad DROPS Big Merino, in ajour met ribbelranden die tegelijk worden meegebreid. De stekenverhouding is 16 steken en 22 toeren per 10 × 10 cm in ajour. [Big Merino](https://www.garnstudio.com/yarn.php?show=drops-big-merino&cid=19) is aran/worsted-garen met ongeveer 75 m per bol van 50 g.
 
-**Schootdeken / kleine plaid (100 x 130 cm / 40 x 50 inch)**
-Worsted: 1 400-1 800 m
-DK: 1 650-2 200 m
-Bulky: 1 000-1 400 m
+| Afgewerkte maat | Garen / bollen | Looplengte |
+| --------------- | -------------- | ---------- |
+| 44 × 59 cm      | 300 g / 6      | 450 m      |
+| 57 × 68 cm      | 450 g / 9      | 675 m      |
+| 69 × 77 cm      | 600 g / 12     | 900 m      |
 
-**Grote plaid (130 x 180 cm / 50 x 70 inch)**
-Worsted: 2 100-2 900 m
-DK: 2 750-3 500 m
-Bulky: 1 550-2 200 m
+Afmetingen en looplengtes zijn bij benadering. De maten omvatten de randen uit het patroon. De meters geven de inhoud van de aanbevolen hele bollen aan, niet het gemeten verbruik of de zekerheid dat elke meter wordt gebruikt.
 
-**Extra groot / kingsize (180 x 230 cm / 70 x 90 inch)**
-Worsted: 3 500-4 600 m
-DK: 4 600-5 700 m
-Bulky: 2 600-3 400 m
+**Grotere deken: [Strawberry Sky, DROPS 223-37](https://www.garnstudio.com/pattern.php?id=10186&cid=19).** Deze deken meet 100 × 140 cm en wordt heen en weer van hoek tot hoek in ribbelsteek gebreid, met één draad DROPS Fabel. De stekenverhouding is 20 steken en 39 toeren per 10 × 10 cm. Het patroon noemt 550 g van kleur 623. Het fingering-garen [Fabel](https://www.garnstudio.com/yarn.php?show=drops-fabel&cid=19) bevat ongeveer 205 m per 50 g: 11 bollen leveren 2 255 m. Dit is een apart patroonvoorbeeld, geen grotere maat van de ajourdeken.
 
-Voor een projectspecifiekere schatting op basis van projecttype, dekenmaat en garendikte dekt de [Garenberekenaar](/nl/breitools/garenberekenaar/) dekens van babymaat tot grote deken in de standaard garendiktes van de tool.
+[Garenberekenaar](/nl/breitools/garenberekenaar/) — Referentiehoeveelheden uit benoemde patronen, geen persoonlijke verbruiksvoorspelling. Kies een project, een maat uit een benoemd patroon en een eenheid. Het resultaat is de referentiehoeveelheid van dat patroon, geen voorspelling voor je eigen project.
 
 ## Waarom garendikte zoveel verschil maakt
 
-Dunner garen betekent meer steken per centimeter, en dus meer garen per toer. Een deken in DK heeft meer steken over dezelfde breedte dan een deken in worsted, en naar verhouding meer toeren om dezelfde lengte te bereiken. Dezelfde dekenmaat, meer garen in de stof.
+Garendikte beschrijft de dikte; gram geeft het fysieke gewicht aan. Een garencategorie of aantal steken bepaalt niet op zichzelf hoeveel meters nodig zijn. Vergelijk het garen, de stekenverhouding en het steekpatroon van het gekozen breipatroon.
 
-Daarom zijn super bulky dekens populair bij nieuwere breiers. Snel te breien, minder totale meters nodig. De adder: super bulky garen kost vaak meer per 100 g en geeft minder meters per bol, waardoor de totale projectprijs vaak ongeveer gelijk uitkomt ondanks de lagere meterstand. Lion Brand noemt voor effen Wool-Ease Thick & Quick 97 m / 106 yards per bol, met sommige prints, strepen en metallic kleuren korter. Gewone effen Wool-Ease staat op 180 m / 197 yards per bol. Voor dezelfde dekenoppervlakte heb je minder bollen van het dikkere garen nodig, maar elke bol legt minder afstand af.
+Dikker garen kan met minder steken in de breedte een ander breisel opleveren, maar daaruit volgt geen vaste vermindering van meters of bollen. Zowel de looplengte op het label als het verbruik voor dit breisel telt. Vergelijk de prijs van de volledige benodigde hoeveelheid.
 
 ## Aanpassingen per steekpatroon
 
-De schattingen hierboven gaan uit van vlakke stof. Tel erbij op voor:
+Brei het proeflapje in het werkelijke steekpatroon. Kabels, gerstekorrelsteek, dubbele gerstekorrel, ribbelsteek, ajour en inbreiwerk moeten niet allemaal dezelfde schatting voor tricotsteek gebruiken. Er bestaat geen universele procentuele toeslag. Neem een volledig rapport mee en bij inbreiwerk ook de meeloopdraden en het verbruik per kleur.
 
-**Kabels:** neem een ruime buffer. Kabels trekken de stof horizontaal samen, dus je hebt meer steken nodig om dezelfde dekenbreedte te halen. Een dicht bekabelde Aran-deken kan merkbaar meer garen gebruiken dan dezelfde afmetingen in tricotsteek.
+Voor een zelfbedachte rechthoekige deken geeft [Rita Buchanans oppervlaktemethode](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf) een uitgangspunt: vermenigvuldig de gemeten garenlengte of het garengewicht van het proeflapje met **dekenoppervlakte ÷ proeflapoppervlakte**. Oppervlakte is breedte × lengte. Gebruik overal dezelfde oppervlakte-eenheid, bijvoorbeeld cm².
 
-**Gerstekorrelsteek en dubbele gerstekorrel:** neem een kleinere buffer. De afwisseling tussen recht en averecht maakt een dichtere stof en vaak een iets strakkere stekenverhouding.
+Garen, steekpatroon en stekenverhouding moeten overeenkomen met de deken. Behandel het proeflapje zoals de deken, binnen de wasvoorschriften, en meet het volledig droog. Het gewogen of gemeten garen moet bij de gemeten oppervlakte horen: tel extra randen of lange draadeinden niet mee bij het gewicht van een kleiner middenstuk. Kies een proeflapje dat groot genoeg is voor de resolutie van je weegschaal.
 
-**Inbreien / jacquard:** brei een proeflapje van het kleurwerkrapport voordat je krappe hoeveelheden koopt. Meeloopdraden aan de achterkant gebruiken garen dat niet bijdraagt aan de breedte van de stof. Fair Isle-dekens kunnen mooi zijn, maar ze vreten garen, en de meeloopdraden maken de deken ook zwaarder en minder soepel dan een effen versie.
-
-**Ribbelsteek:** ongeveer hetzelfde totale garenverbruik als tricotsteek, soms rond 5% meer. Ribbelsteek trekt in de hoogte samen, dus je breit vaak een paar extra toeren om dezelfde lengte te halen. De deken wordt dikker en veerkrachtiger bij hetzelfde aantal steken.
-
-**Ajour:** kan iets minder gebruiken dan tricotsteek, omdat de open structuur verder uitrekt bij blocken. Een ajourdeken die stevig wordt opgespannen kan met dezelfde meters een grotere eindmaat halen. Reken alleen niet op enorme besparingen, en ajourdekens zijn meestal niet het doel wanneer warmte belangrijk is.
+Dezelfde oppervlakteverhouding helpt bij het aanpassen van een patroon als het breisel gelijk blijft. Alleen de lengte verdubbelen verdubbelt de oppervlakte; breedte en lengte verdubbelen maakt de oppervlakte vier keer zo groot. Bereken randen, naden en franjes apart, tenzij ze al in een representatieve meting zitten. Tel elk onderdeel één keer. De afgeronde aankoophoeveelheid uit een patroon is geen gemeten verbruik; schalen blijft dus een schatting.
 
 ## Meters omrekenen naar bollen
 
-Kijk op het garenlabel hoeveel meter er per bol zit. Deel je totale meterstand door het aantal meter per bol. Rond naar boven af.
+Lees op het garenlabel hoeveel meter een bol bevat. Deel de totale benodigde meters door de meters per bol en rond naar boven af op hele bollen.
 
-Je deken heeft ongeveer 2 000 m nodig. Het garen heeft 200 m per bol van 100 g. Dat zijn 10 bollen. Koop er 11. Die extra bol dekt verschillen in stekenverhouding, opzetranden, eventueel uithalen en het feit dat garenschattingen een bereik zijn, geen belofte.
+Stel als rekenvoorbeeld dat je 2 000 m nodig hebt en het label 200 m per 100 g aangeeft: 2 000 ÷ 200 = **10 bollen**, samen 1 000 g. Dit laat de omrekening zien, niet het garenverbruik voor een bepaalde dekenmaat.
 
-Koop bij dekens een extra bol of twee als het budget dat toelaat en het garen terug kan of later bruikbaar is. De kosten zijn klein vergeleken met drie kwart onderweg tekortkomen wanneer het verfbad op is. De [gids voor garen inschatten](/nl/artikelen/hoeveel-garen-heb-je-nodig/) behandelt de weegmethode om gedeeltelijke bollen halverwege een project te controleren.
+Plan reserve voor je project en controleer eerst of de uitgangshoeveelheid al proeflapje en afwerking omvat. Een elfde bol voegt 200 m toe, maar is niet automatisch nodig of voldoende. Uitgehaald garen dat je hergebruikt wordt niet tweemaal verbruikt; houd rekening met werkelijk verlies. Bereken en rond elke kleur apart af. De [gids voor garen inschatten](/nl/artikelen/hoeveel-garen-heb-je-nodig/) legt het wegen van gedeeltelijk gebruikte bollen uit.
 
 ## Verfbad plannen
 
-Dekens vragen genoeg bollen dat verfbad ineens echt telt. Garen dat in verschillende batches is geverfd kan duidelijk anders lijken zodra het naast elkaar gebreid is, ook als de bollen in de winkel identiek lijken.
+Garen dat in verschillende batches is geverfd kan duidelijk anders lijken zodra het naast elkaar gebreid is, ook als de bollen in de winkel identiek lijken.
 
 Koop al het garen tegelijk, uit hetzelfde verfbad. Controleer het verfbadnummer op elk label. Het staat meestal in de buurt van het kleurnummer en kan "Lot" of "Color Lot" heten. Heeft de winkel niet genoeg uit een batch, vraag dan of ze meer uit dezelfde batch kunnen bestellen.
 
-Eindig je ondanks alles met twee verfbaden, wissel dan de bollen door de hele deken heen af. Twee toeren van verfbad A, twee toeren van verfbad B, herhalen. Het kleurverschil mengt geleidelijker en wordt minder zichtbaar. Veel beter dan eerst heel verfbad A gebruiken en daarna een zichtbare lijn krijgen waar verfbad B begint. Sommige breiers doen dit ook met passend verfbad bij handgeverfd of kettle-dyed garen, omdat variatie binnen een verfbad nog steeds zichtbaar kan zijn.
+Heb je verschillende verfbaden, probeer het afwisselen van bollen dan eerst in een proeflapje. Het ritme hangt af van garen en patroon; afwisselen garandeert niet dat het verschil verdwijnt. Ook handgeverfde strengen uit hetzelfde verfbad kunnen verschillen. [Malabrigo's advies voor Sock](https://malabrigoyarn.com/yarns/sock) beschrijft de variatie en het afwisselen van bollen.
 
 ## Garendikte kiezen voor een deken
 
-**Bulky en super bulky:** snel, grove structuur, warm. Goed voor plaids die vooral knus moeten zijn in plaats van verfijnd. De stof is zwaar, wat een pluspunt kan zijn, bijna als een verzwaringsdeken, of een nadeel wanneer hij soepel over een bankleuning moet vallen. Let ook op vermoeide handen. Veel uren op 9 mm naalden en groter voelen anders in de polsen dan worsted op 5 mm.
+**Bulky en super bulky:** kies voor een grove structuur en controleer gewicht en valling van het proeflapje. Dikte alleen garandeert geen warmte of verzwaringsdekeneffect.
 
-**Worsted:** de meest gebruikte dekendikte. Goede balans tussen snelheid, dichtheid en valling. Een worsted-deken is warm zonder stijf te worden. Werkt voor de meeste steekpatronen. Veel degelijke worsted-garens hebben diepe kleurkaarten, en dat telt wanneer je twee of drie duizend meter in een kleur koopt.
+**Worsted:** een mogelijkheid voor gladde en gestructureerde dekens. Beoordeel dichtheid en zachtheid in een proeflapje met de gevraagde stekenverhouding; garens uit dezelfde categorie vallen niet allemaal hetzelfde.
 
-**DK:** fijnere structuur, lichter gewicht, meer valling. Duurt langer, maar geeft een deken die verfijnder voelt. Goed voor babydekens waarbij je zachtheid wilt zonder bulk.
+**DK:** een mogelijkheid voor een fijner stekenbeeld. Beoordeel het afgewerkte breisel in plaats van de categorie als garantie voor zachtheid of geschiktheid voor een babydeken te zien.
 
-**Sport en fingering:** prachtige stof. Een serieuze tijdsinvestering. Een deken in fingering-garen is een project van maanden, soms jaren. Het resultaat is licht en soepel, meer als een geweven deken dan als een typische gebreide plaid. Modulaire constructies, zoals mitered squares of log cabin-vakken, maken dit soort project hanteerbaarder omdat je kleine stukken breit en later samenvoegt, in plaats van een volledige dekenbreedte de hele tijd op rondbreinaalden mee te slepen.
+**Sport en fingering:** overweeg vierkanten of andere delen als je liever kleine stukken hanteert. Sommige delen naai je samen, andere verbind je tijdens het breien. Volg de constructie van het patroon.
 
 ## Naalden, vezels en wat echt goed blijft
 
-Een paar praktische punten zie je niet terug in de meterrekensom.
+Een rondbreinaald kan de steken dragen terwijl je heen en weer breit. Kies een totale lengte waarop de steken comfortabel passen. De patronen hierboven noemen rondbreinaalden van respectievelijk 60 en 80 cm; dat zijn patroonspecifieke totale lengtes, geen kabellengtes voor iedere deken.
 
-Gebruik een lange rondbreinaald voor elke deken boven schootformaat. Een kabel van 100 cm werkt voor de meeste plaids. Grote en kingsize dekens zijn makkelijker op 120 of 150 cm kabels. De steken zitten nog steeds dicht op elkaar, maar je vermijdt het voortdurende gevecht met een kabel die te kort is. De deken wordt plat gebreid, heen en weer op de rondbreinaald, niet in het rond.
+Kies de naalddikte op basis van de gevraagde stekenverhouding en het gewassen, droge breisel dat je wilt. Andere naalden kunnen maten en verbruik veranderen. Brei daarom opnieuw een proeflapje in plaats van automatisch één naalddikte groter te kiezen dan voor een trui.
 
-Voor meer valling kun je een naalddikte groter overwegen dan je voor een aansluitende trui in hetzelfde garen zou gebruiken. Worsted dat een stevige trui geeft op 4,5 mm kan op 5 of 5,5 mm een zachtere, soepelere deken geven. Te strak gebreide dekens voelen stijf.
-
-Begin bij babydekens en dekens die vaak gewassen worden met garen waarvan het label de echte wasroutine toestaat. Superwash-wol, katoen of zachte acryl is veiliger dan onbehandelde wol voor dekens die in de machine gewassen worden, omdat onbehandelde wol kan vervilten. Mohair en angora zijn warm, maar verharen, en zijn slechte keuzes voor babydekens. Linnen kan een fijne zomerdeken worden, maar controleer het garenverbruik met een proeflapje omdat de stof zich anders gedraagt dan wol.
+Begin bij babydekens en dekens die vaak gewassen worden met garen waarvan het label de werkelijke wasroutine toestaat. Vezelnamen en het woord superwash bepalen niet op zichzelf alle was- en drooginstellingen.
 
 ## FAQ
 
 **Kan ik restgaren gebruiken voor een deken?**
-Restjesdekens zijn ideaal om je garenvoorraad op te maken. De regel: houd alle garens in dezelfde diktecategorie. Dikte mengen geeft ongelijke spanning en stukken die na blocken anders trekken. Dezelfde dikte, verschillende kleuren, werkt goed. Modulaire patronen zoals een eenvoudige mitered-square-deken zijn precies voor dit soort project gemaakt.
+Restjesdekens zijn een goede manier om je voorraad te gebruiken. Vergelijkbare garendikte is een begin, maar controleer ook stekenverhouding, breisel en verenigbare wasvoorschriften. Meet het verbruik van een heel representatief vierkant, vermenigvuldig met het benodigde aantal hele vierkanten en bereken garen voor verbindingen en randen apart. Bereken de behoefte per kleur.
 
 **Is een deken breien goedkoper dan er een kopen?**
-Een handgebreide deken kost vaak meer aan materiaal dan een machinaal gemaakte. De waarde zit in het proces, de aanpassing en de kwaliteit. Is budget het belangrijkste, dan houdt acryl in worsted of bulky de materiaalkosten redelijk, en grote bollen of cones geven meestal meer meters per euro.
+Vergelijk de prijs van alle benodigde bollen, inclusief elke kleur en geplande reserve, met de prijs van de deken die je zou kopen. Grote bollen of conen maken het project niet automatisch goedkoper als meer garen overblijft.
 
 **Hoelang duurt het om een deken te breien?**
-Een super bulky plaid kan 20-30 uur kosten. Worsted-garen 60-100 uur. Fingering-garen kan boven de 200 uur uitkomen. Tempo, ingewikkeldheid van het steekpatroon en hoeveel uur per week je breit verschuiven die cijfers allemaal.
+Meet de tijd voor een representatief stuk in je gekozen garen en steekpatroon om je eigen breitijd te schatten. Tel samenvoegen, randen en afwerking apart mee. De garencategorie alleen geeft geen betrouwbaar aantal uren.
 
 **Moet ik een deken plat breien of in het rond?**
-De meeste dekens worden plat gebreid op lange rondbreinaalden, heen en weer gebruikt en niet gesloten. Sommige modulaire ontwerpen, zoals vierkanten, zeshoeken en log cabin-vakken, worden apart gebreid en samengezet. Rondbreien kan voor ronde dekens, maar is ongebruikelijk voor rechthoekige plaids.
+Volg het patroon. Een deken kan heen en weer op een rondbreinaald worden gebreid. Delen kun je achteraf samenvoegen of tijdens het breien verbinden. Andere patronen beginnen in het midden en worden in het rond naar buiten gebreid; een rondbreinaald alleen betekent niet dat je in het rond werkt.

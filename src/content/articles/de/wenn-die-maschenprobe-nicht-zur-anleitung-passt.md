@@ -1,6 +1,6 @@
 ---
 title: "Wenn die Maschenprobe nicht zur Anleitung passt"
-description: "Deine Maschenprobe passt nicht zur Strickanleitung? So findest du die Ursache und korrigierst Nadelstärke, Stoffgefühl und Maße."
+description: "Deine Maschenprobe passt nicht zur Anleitung? Prüfe Maße, Nadelstärke und Gestrick und erfahre, wo das Anpassen von Maschen- und Reihenzahlen an Grenzen stößt."
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 3
@@ -16,122 +16,111 @@ lang: de
 translationKey: "gauge-doesnt-match"
 ---
 
-Deine Maschenprobe ergibt 19 Maschen auf 10 cm. Die Anleitung verlangt 20. Eine Masche klingt nicht nach viel, bis du sie auf einen Pulloverumfang von 100 cm hochrechnest und merkst, dass das fertige Kleidungsstück mehrere Zentimeter zu weit wird. Das ist der Unterschied zwischen einem passenden Teil und einem, das von den Schultern hängt.
+Deine Maschenprobe ergibt 19 Maschen auf 10 cm. Die Anleitung verlangt 20 und verwendet 200 Maschen für einen Umfang von 100 cm. Bei deiner Maschenprobe ergeben dieselben Maschen 200 ÷ 19 × 10 ≈ 105,3 cm. Das verändert die geplante Mehrweite; der Umfang allein entscheidet aber nicht über die gesamte Passform.
 
 Eine abweichende Maschenprobe lässt sich korrigieren. Die richtige Reaktion hängt davon ab, wie weit du danebenliegst, welches Projekt du strickst und ob sich der Stoff selbst auf der Nadel richtig anfühlt.
 
 ## Prüfe zuerst die Messung
 
-Bevor du etwas änderst, schließe Messfehler aus. Lege die Maschenprobe flach auf eine harte Oberfläche, ohne sie zu dehnen. Das Lineal liegt in der Mitte, nicht nahe an Anschlag- oder Abkettkante, wo sich Maschen anders verhalten.
+Vergleiche dieselbe Messstrecke, dasselbe Strickmuster, dieselbe Arbeitsweise (in Reihen oder Runden) und denselben Behandlungszustand. Beachte auch, ob entspannt oder gedehnt gemessen werden soll. Die üblichen Messstrecken 10 cm und 4 Zoll sind nicht exakt gleich: 4 Zoll entsprechen 10,16 cm. Verwende für den Vergleich die Einheit der Anleitung.
+
+Wenn die Maschenprobe entspannt gemessen werden soll, prüfe die Messung so, bevor du die Nadeln wechselst. Lege die Maschenprobe flach auf eine harte Oberfläche, ohne sie zu dehnen. Das Lineal liegt in der Mitte, nicht nahe an Anschlag- oder Abkettkante, wo sich Maschen anders verhalten.
 
 Zähle die Maschen über 10 cm. Zähle auch halbe Maschen. Sie zählen. Eine Probe, die gerundet "20 Maschen" zeigt, kann ehrlich gezählt 19,5 Maschen haben, und das ist über ein ganzes Kleidungsstück ein echter Unterschied. Der Artikel [Maschenprobe messen](/de/artikel/maschenprobe-messen/) zeigt den ganzen Ablauf. Die Kurzfassung: in der Mitte messen, genau zählen, nicht ziehen.
 
 Eine Maschenprobe von etwa 15 cm im Quadrat ist praktisch, weil sie Platz für eine mittlere Messfläche von 10 cm mit Abstand zu Anschlag-, Abkett- und Seitenrändern lässt. Das ist kein allgemeines Mindestmaß: Auch eine kleinere Probe kann brauchbar sein, wenn sie eine ausreichend große, repräsentative und unverzerrte Messfläche bietet. Folge konkreten Größen- oder Messvorgaben der Anleitung.
 
-Miss an zwei Stellen der Probe und bilde den Durchschnitt. Handgestrickter Stoff ist nie völlig gleichmäßig, und eine einzelne Messung kann gerade auf einer etwas festeren oder lockereren Stelle liegen.
+Miss an mehreren unverzerrten Stellen in der Mitte und im selben Zustand. Kleine Unterschiede lassen sich mitteln; untersuche größere Abweichungen, statt sie durch einen passenden Durchschnitt zu verdecken.
 
 ## Zu viele Maschen auf 10 cm: du strickst fest
 
-Mehr Maschen als in der Anleitung bedeuten kleinere Maschen. Das fertige Teil wird schmaler als geplant.
+Mehr Maschen auf derselben Strecke bedeuten schmalere Maschen. Bei gleicher Maschenzahl wird das Gestrick quer zu den Maschen schmaler; das sagt nichts über seine Länge aus.
 
-**Nimm eine größere Nadelstärke.** Das ist die Standardkorrektur. Wenn die Anleitung 4,0 mm verlangt und du zu fest strickst, probiere 4,5 mm. Die größere Nadel bildet größere Schlaufen, also passen weniger Maschen auf 10 cm. Stricke erneut eine Probe. Miss erneut.
+**Nimm eine größere Nadelstärke.** Das ist die Standardkorrektur. Wenn die Anleitung 4,0 mm verlangt und du zu fest strickst, probiere 4,5 mm. Die größere Nadel bildet größere Schlaufen, also passen weniger Maschen auf 10 cm. Stricke erneut eine Probe. Miss erneut. Diese Nadelstärken sind Versuche, keine Formel: 0,5 mm bewirken keine feste Änderung der Maschenzahl. Prüfe nach jedem Wechsel Maschen und Reihen sowie das fertig behandelte Gestrick.
 
 Manchmal musst du zwei Größen größer gehen. Das ist in Ordnung. Die Nadelstärke in der Anleitung ist ein Startpunkt, keine Pflicht. Pflicht ist, dass deine Maschenprobe zur Anleitung passt. Manche stricken grundsätzlich mit einer anderen Nadelstärke als in der Anleitung steht. Das ist kein Problem, solange du es über dich weißt.
 
 ## Zu wenige Maschen auf 10 cm: du strickst locker
 
-Weniger Maschen bedeuten größere Maschen. Das fertige Teil wird größer.
+Weniger Maschen auf derselben Strecke bedeuten breitere Maschen. Bei gleicher Maschenzahl wird das Gestrick quer zu den Maschen breiter.
 
 **Nimm eine kleinere Nadelstärke.** Zum Beispiel von 4,0 mm auf 3,75 mm, dann erneut eine Probe. Wenn eine ganze Größe zu weit korrigiert und deine ideale Maschenprobe zwischen zwei Größen liegt, schau auf die tatsächliche metrische Größe statt nur auf die US-Nummer. Manche Nadelsets bieten feinere metrische Abstufungen als die benannten US-Größen vermuten lassen. Die [Nadelstärken-Tabelle](/de/werkzeuge/nadelstaerken-tabelle/) ist die schnelle Referenz.
 
 ## Reihenprobe: der Teil, den viele überspringen
 
-Anleitungen geben oft auch eine Reihenprobe an, also die vertikale Zahl. Viele ignorieren sie. Oft ist das okay. Viele Anleitungen sagen "stricke, bis das Teil X cm misst" statt "stricke X Reihen", und dann beeinflusst deine Reihenprobe die fertige Länge weniger.
+Die Reihenprobe beschreibt die Anzahl der Reihen beziehungsweise Runden auf der angegebenen Höhe. In einem geraden Abschnitt kannst du nach Maß stricken, wenn die Anleitung es zulässt und du die Veränderung durch die Nachbehandlung berücksichtigst. Formgebung, Rapporte, Armausschnitte oder Passen sind damit nicht automatisch korrigiert. Bei quer gestrickten Teilen können Reihen stattdessen die Kleidungsbreite bestimmen.
 
-Wichtig wird sie bei Formgebung nach Reihen: "jede 6. Reihe 8-mal abnehmen". Wenn deine Reihenprobe abweicht, liegen die Abnahmen anders auseinander als geplant, und die Proportionen verändern sich. Ein Ärmel, der sanft zulaufen soll, läuft vielleicht zu schnell oder zu langsam zu.
+'Jede 6. Reihe 8-mal abnehmen' legt sowohl den Abstand als auch die Anzahl der Abnahmen fest. Eine andere Reihenzahl pro 10 cm verändert diesen Abstand. Die Umrechnung in Zentimeter beschreibt nur die beabsichtigte Strecke: Ganze Reihen, Hin- und Rückreihen, Rapporte, Gesamthöhe der Formgebung und endgültige Maschenzahl müssen weiterhin zusammenpassen. Suche anleitungsspezifische Hilfe, wenn diese Vorgaben kollidieren.
 
-Die Reihenprobe ist schwerer zu korrigieren als die Maschenprobe. Eine andere Nadelstärke beeinflusst beide, aber nicht immer im gleichen Verhältnis. Wenn die Maschenprobe passt und die Reihenprobe nicht, ist die praktische Lösung, reihenbasierte Angaben in Maße umzurechnen. Berechne mit der Reihenprobe der Anleitung, wie viele Zentimeter zwischen den Abnahmen gemeint waren, und arbeite dann mit deiner eigenen Reihenprobe zu diesen Maßen. Der Artikel [Maschenprobe messen](/de/artikel/maschenprobe-messen/) enthält die Zahlen, die du dafür brauchst.
+Ein Wechsel der Nadelstärke beeinflusst beide Werte ohne festes Verhältnis. Stimmen die Maschen, aber nicht die Reihen, kannst du Nadeln gleicher Stärke aus anderem Material an einem neuen Probestück ausprobieren; rechne nicht damit, dass sich nur die Reihen ändern. Stimmen die Reihen, aber nicht die Maschen, bleibt das Breitenproblem bestehen. Prüfe nach Änderungen beide Werte. [Maschenprobe messen](/de/artikel/maschenprobe-messen/) erklärt, wie du vergleichbare Zahlen erhältst.
 
 ## Wenn die richtige Maschenprobe den falschen Stoff ergibt
 
 Manchmal triffst du die Zahlen, aber der Stoff fühlt sich falsch an. Zu steif, zu schlabbrig, zu löchrig. Die Zahlen passen. Der Stoff nicht.
 
-Das bedeutet meistens, dass das Garn nicht gut zur Anleitung passt, auch wenn die Garnstärke dieselbe ist. Ein dicht gezwirntes Worsted-Garn und ein luftiges, locker gezwirntes Worsted-Garn können beide mit unterschiedlichen Nadeln 20 Maschen auf 10 cm ergeben und trotzdem sehr verschiedene Stoffe erzeugen. Baumwolle wirkt oft dichter und flacher. Wolle kann aufblühen und Lücken füllen. Acryl fällt anders als beides.
+Dieselbe Garnstärkenkategorie garantiert noch nicht das vorgesehene Gestrick. Vergleiche auch Faserzusammensetzung und Garnaufbau. Beurteile Dichte, Fall und Eignung für das Projekt an der gewaschenen, trockenen Probe.
 
 Wenn der Stoff bei korrekter Maschenprobe falsch ist, bleiben zwei Optionen: ein anderes Garn probieren, das näher an der Faserzusammensetzung des Originals liegt, oder akzeptieren, dass diese Garn-Anleitung-Kombination nicht funktioniert. Nicht jedes Garn passt zu jeder Anleitung, auch wenn die Rechnung aufgeht. Der [Leitfaden zum Garnersatz](/de/artikel/garn-in-einer-strickanleitung-ersetzen/) erklärt diese Seite genauer.
 
 ## Gewaschene und ungewaschene Maschenprobe
 
-Die Maschenprobe direkt von den Nadeln ist nicht immer dieselbe wie nach Waschen und Spannen. Unterschiedliche Garne verschieben sich unterschiedlich stark.
+Die Maschenprobe kann sich durch Waschen und Spannen verändern. Miss die Veränderung an deinem eigenen Gestrick, statt sie allein aus dem Fasernamen abzuleiten.
 
-Wolle kann aufblühen und die Maschen füllen. Baumwolle kann nach unten entspannen. Superwash-Wolle kann wachsen, besonders in der Länge. Alpaka kann sich dehnen und stärker fallen. Leinen wird weicher, und die Maschenprobe kann sich öffnen.
+Verwende den Messzustand der Anleitung, auch unbehandelt, wenn das verlangt wird. Fehlt eine Angabe, behandle die Probe wie das fertige Stück innerhalb der Pflegehinweise des Garns. Lass sie vollständig trocknen, entferne gegebenenfalls Spannnadeln und lass sie entspannen, sofern die Anleitung nichts anderes vorgibt. Notiere die Werte davor und danach getrennt.
 
-Maßgeblich ist der Messzustand, den die Anleitung vorgibt, auch ungespannt, wenn sie das ausdrücklich verlangt. Fehlt eine Angabe, behandle die Probe wie das fertige Stück und miss danach. Notiere beide Werte, damit du die Probe auch mit dem noch unbehandelten Projekt vergleichen kannst.
+Die vorgesehene Nachbehandlung ist etwas anderes, als ungeeignetes Gestrick auf ein Zielmaß zu ziehen. Ein durch Nadeln gehaltenes Maß belegt weder die entspannte Größe noch eine dauerhafte Veränderung beim Tragen oder späteren Waschen.
 
 ## Wann Maschenprobe weniger zählt
 
-Ein Schal, der ein paar Zentimeter breiter wird als geplant, ist immer noch ein guter Schal. Ein Spültuch funktioniert auch mit etwas lockereren Maschen. Genauigkeit bei der Maschenprobe zählt vor allem dort, wo Passform zählt: Pullover, Socken, Mützen, anliegende Fäustlinge.
+Hat ein Schal oder eine Decke kein festes Größenmaß, kannst du andere Maße akzeptieren, sofern das Gestrick zum Zweck passt. Bei körpernahen Kleidungsstücken brauchen Maße und Mehrweite besondere Aufmerksamkeit. Es gibt keine allgemeine Maschentoleranz für alle Kleidungsstücke oder Accessoires.
 
-Bei Accessoires ohne genaue Passform, Tüchern, Cowls und Decken reicht nah dran oft aus. Stricke eine Probe, um zu prüfen, ob der Stoff sich gut anfühlt, aber jage nicht drei Proben lang einer exakten Maschenzahl hinterher.
-
-Eine Ausnahme: Die Maschenprobe beeinflusst den Garnbedarf. Eine lockerere Maschenprobe bei einer Decke kann mehr Garn pro Reihe bedeuten und das Risiko erhöhen, dass das Garn nicht reicht. Wenn deine Maschenprobe von der Anleitung abweicht, prüfe den Bedarf mit dem [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/), bevor du kaufst.
+Eine andere Maschenprobe kann auch Maße und Garnbedarf verändern. [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) — Referenzmengen benannter Anleitungen, keine persönliche Verbrauchsprognose. Wähle Projekt, Größe einer benannten Anleitung und Einheit. Das Ergebnis ist die Referenzmenge dieser Anleitung, keine Prognose für dein eigenes Projekt.
 
 ## Das Problem mit der halben Masche
 
-Deine Maschenprobe liegt bei 18 Maschen auf 10 cm. Die Anleitung will 20. Nah genug?
+Auch halbe Maschen solltest du beim Messen nicht wegrunden. Betrachten wir einen größeren Unterschied: Du misst 18 Maschen auf 10 cm, die Anleitung verlangt 20.
 
-Bei 100 cm Umfang kann das ungefähr 10 cm zusätzliche Weite bedeuten. Nicht subtil.
+Die Maschenzahl am Rumpf bleibt bei 200: 200 ÷ 20 × 10 = 100 cm, aber 200 ÷ 18 × 10 ≈ 111,1 cm. Das sind etwa 11,1 % mehr als der geplante Umfang von 100 cm, nicht 10 %. Die Rechnung setzt dasselbe Strickmuster und denselben Behandlungszustand voraus und enthält keine Nahtzugaben.
 
-Zwei Maschen Unterschied auf 10 cm sind die Schwelle, bei der die meisten passgenauen Projekte eine neue Probe verdienen. Darunter, etwa eine Masche Unterschied auf 10 cm, ist es oft nicht kritisch, außer das Projekt ist sehr breit oder sehr passgenau.
+Auch eine Masche Unterschied ist nicht automatisch unbedeutend: Bei 19 Maschen auf 10 cm ergeben dieselben 200 Maschen etwa 105,3 cm. Vergleiche die Abweichung mit den gewünschten Maßen und der Mehrweite.
 
 ## In Runden oder flach gestrickte Maschenprobe
 
-Dasselbe Garn auf denselben Nadeln kann flach gestrickt eine andere Maschenprobe ergeben als in Runden. Bei vielen Strickenden sind rechte und linke Maschen nicht exakt gleich fest. Eine flache Probe, die rechte und linke Reihen abwechselt, kann deshalb anders ausfallen als ein Rundstrickstück, in dem jede Runde rechts gestrickt wird.
+Dasselbe Garn auf denselben Nadeln kann in Reihen und Runden unterschiedliche Werte ergeben. Glatt rechts in Reihen wechselt zwischen rechten und linken Reihen, in Runden werden alle Maschen rechts gestrickt. Unterschiedliche Spannung beim Rechts- und Linksstricken kann daher das Ergebnis verändern.
 
-Wenn das Projekt in Runden gestrickt wird, sollte auch die Probe in Runden entstehen. Die klassische Variante ist ein kleiner Schlauch auf Nadelspiel oder mit Magic Loop. Die Abkürzung: Maschen anschlagen, eine Reihe stricken, die Maschen zurück ans rechte Nadelende schieben, ohne zu wenden, den Faden locker hinten mitführen und wieder von rechts stricken. Vor dem Messen schneidest du die Spannfäden auf der Rückseite auf. Die Vorderseite sieht aus wie glatt rechts in Runden.
+Stricke die Probe mit der Arbeitsweise des Projekts und im für die Maschenprobe angegebenen Muster. Ein kleiner Schlauch ist eine Möglichkeit für Rundstrickproben. Auch eine Schnellprobe mit lockeren Fäden auf der Rückseite kann das Arbeiten nur von der Vorderseite nachbilden. Alles rechts von der Vorderseite zu stricken gilt für glatt rechts, nicht für jedes Muster.
 
 ## Maschenprobe verändert sich: gleiches Garn, gleiche Nadeln, andere Zahl
 
-Gleiche Person, gleiches Garn, gleiche Nadeln, zwei Proben im Abstand von einer Woche. Die Zahlen stimmen nicht überein. Das passiert, und manche nehmen deshalb den Durchschnitt aus mehreren Proben.
+Passt das laufende Projekt nicht mehr zur Probe, miss mehrere mittlere Bereiche abseits von Rändern und den Maschen auf der Nadel. Vergleiche ungewaschenes Gestrick mit der ungewaschenen Probe im selben Muster und über dieselbe Strecke. Prüfe, ob Nadeln, Garn oder Arbeitsweise gewechselt haben. Vermische unterschiedliche Behandlungszustände oder eine deutliche Spannungsänderung nicht zu einem Durchschnitt.
 
-Die Spannung folgt Stimmung, Haltung und Tagesform. Stress, Müdigkeit, kalte Hände und ein anderer Stuhl können den Stoff verändern. Die Probe, die du in den ersten zehn Minuten einer Sitzung strickst, bevor die Hände warm sind, ist nicht unbedingt repräsentativ dafür, wie du später am eigentlichen Projekt strickst.
-
-Die ehrliche Lösung: Stricke die Probe in einer normalen Stricksituation, nicht unter Sonderbedingungen, und wenn möglich über zwei Sitzungen, damit sie deine durchschnittliche Spannung besser abbildet.
+Berechne die Maße mit der gemessenen Maschenprobe. Ist die Abweichung nicht akzeptabel, halte an und teste die Korrektur an einer neuen Probe, bevor du entscheidest, wie weit du aufribbelst. Ein Nadelwechsel verändert nur das folgende Gestrick, nicht das bereits gestrickte, und der Übergang kann sichtbar bleiben. Verlasse dich nicht darauf, dass Spannen einen ungeprüften Größenunterschied rettet.
 
 ## So arbeitest du dich durch
 
-Die Reihenfolge bei den meisten Maschenproben-Problemen:
+Miss sorgfältig, auch Teile von Maschen. Beurteile die Abweichung anhand der nötigen Maße, nicht nach einer festen Grenze von zwei Maschen. Probiere dickere Nadeln bei zu vielen Maschen auf derselben Strecke und dünnere bei zu wenigen. Stricke eine neue Probe und prüfe beide Werte sowie das Gestrick.
 
-Miss die Probe sorgfältig und zähle halbe Maschen. Wenn du mehr als zwei Maschen auf 10 cm danebenliegst, ändere die Nadelstärke. Größer bei zu festem Gestrick, kleiner bei zu lockerem. Stricke erneut eine Probe. Miss erneut.
+Führt ein Nadelwechsel nicht zum passenden Ergebnis, vergleiche dein Garn mit dem empfohlenen. Garnstärkenkategorie und Lauflänge pro 100 g sind Anhaltspunkte, kein Beweis für gleiche Dicke oder Maschenprobe; Fasern und Aufbau zählen ebenfalls. Teste das Ersatzgarn an einer Probe.
 
-Wenn du die Nadel schon zweimal gewechselt hast und die Maschenprobe immer noch nicht triffst, prüfe, ob dein Garn wirklich in derselben Garnstärke liegt wie das Garn der Anleitung. DK ist nicht bei jedem Hersteller gleich. Vergleiche die Meter pro 100 g auf deiner Banderole mit dem empfohlenen Garn der Anleitung. Wenn die Werte weit auseinanderliegen, sind Maschenproben-Probleme naheliegend.
-
-Der [Maschenanschlag-Rechner](/de/werkzeuge/maschenanschlag-rechner/) passt Maschenzahlen an deine tatsächliche Maschenprobe an. Wenn du leicht von der Anleitung abweichst, kannst du trotzdem die richtige Anschlagszahl für deine Maße berechnen. Nützlich, wenn du ein passendes Ergebnis möchtest, ohne endlos neue Proben zu stricken.
+Der [Maschenanschlag-Rechner](/de/werkzeuge/maschenanschlag-rechner/) multipliziert die Maschen pro Längeneinheit mit der gewünschten Breite und rundet auf die nächste gerade Maschenzahl. Verwende übereinstimmende Einheiten. Er berücksichtigt weder Rapporte, Randmaschen, Mehrweite noch Formgebung und passt keine Kleidungsanleitung an. Er garantiert keine Passform.
 
 ## Wann du die Anleitung lieber aufgibst
 
-Wenn die Maschenprobe nach mehreren Proben immer noch nicht passt, ist manchmal ein anderes Garn oder eine andere Anleitung die bessere Entscheidung. Ein Garn, das von selbst bei 22 Maschen auf 10 cm liegt, auf 18 Maschen zu zwingen, ergibt oft an anderer Stelle den falschen Stoff: zu fest und hart in der engeren Variante oder löchrig und schlabbrig in der weiteren.
-
-Die Rechnung kann nach genug Proben irgendwann aufgehen, aber das fertige Stück fühlt sich dann trotzdem nicht richtig an. Das Garn für ein anderes Projekt aufzubewahren und eine Anleitung zu suchen, die zur natürlichen Maschenprobe dieses Garns passt, ist oft die Lösung mit weniger Schmerz.
+Ergibt die richtige Maschenprobe ein zu steifes, zu offenes oder sonst ungeeignetes Gestrick, probiere ein anderes Garn oder eine Anleitung für das Gestrick, das dir gefällt. Ein Garn hat nicht nur eine zwingende Maschenprobe; die passende Zahl allein belegt noch keine geeignete Kombination.
 
 ## FAQ
 
 **Wie genau muss meine Maschenprobe sein?**
-
-Bei passgenauer Kleidung solltest du die Maschenprobe in der Breite möglichst exakt treffen. Bei Accessoires ist eine Abweichung von etwa einer Masche auf 10 cm oft akzeptabel. Bei der Reihenprobe sind die Toleranzen meist größer, weil viele Anleitungen nach Maßen statt nach Reihen arbeiten.
+Triff die Vorgabe der Anleitung möglichst genau, wenn Maße wichtig sind. Beurteile Abweichungen anhand fertiger Maße, Mehrweite, Gestrick und Konstruktion. Es gibt keine allgemeine Toleranz von einer Masche; auch die Reihen können für die Formgebung entscheidend sein.
 
 **Soll ich die Maschenprobe vor dem Messen waschen?**
-
-Wenn das fertige Teil gewaschen wird, ja. Manche Garne verändern die Maschenprobe nach dem Waschen deutlich. Superwash-Wolle kann in die Länge wachsen, Baumwolle entspannt sich, Alpaka kann sich dehnen oder stärker fallen. Stricke die Probe, wasche und spanne sie wie das fertige Teil, lass sie vollständig trocknen und miss dann. Die [Schritt-für-Schritt-Anleitung zur Maschenprobe](/de/artikel/maschenprobe-stricken-schritt-fuer-schritt/) zeigt den Ablauf.
+Miss zuerst die ungewaschene Probe. Behandle sie dann wie das fertige Stück nach den Pflegehinweisen und lass sie vollständig trocknen. Vergleiche im Zustand der Anleitung; fehlt die Angabe, verwende die fertig behandelte Probe. Die [Schritt-für-Schritt-Anleitung zur Maschenprobe](/de/artikel/maschenprobe-stricken-schritt-fuer-schritt/) zeigt den Ablauf.
 
 **Beeinflusst Spannen die Maschenprobe?**
-
-Nassspannen öffnet Maschen oft leicht, besonders bei Lochmustern und lockeren Stoffen. Wolle kann auf ein Zielmaß gedehnt und festgesteckt werden. Baumwolle hält ihre Form anders. Verwende den Messzustand der Anleitung. Fehlt eine Angabe, miss nach der Behandlung wie beim fertigen Projekt und notiere den Wert davor und danach.
+Das kann es. Vergleiche vor und nach der Behandlung und miss trockenes, entspanntes Gestrick, sofern die Anleitung nichts anderes fordert. Ziehe die Probe nicht gewaltsam auf ein Zielmaß und setze nicht voraus, dass ein festgestecktes Maß dauerhaft bleibt.
 
 **Meine Maschenprobe in der Breite passt, aber die Reihenprobe nicht. Was mache ich?**
-
-Arbeite nach Maßen statt nach Reihen, wann immer die Anleitung es erlaubt. Wenn die Formgebung nach Reihenzahl angegeben ist, rechne diese Reihen mit der Reihenprobe der Anleitung in Zentimeter um und arbeite dann mit deinen eigenen Maßen.
+Arbeite nur dort nach Maß, wo die Konstruktion es erlaubt. Reihenbasierte Formgebung braucht einen Plan mit ganzen Reihen, der Rapporte, Anzahl der Abnahmen, endgültige Maschenzahl und Gesamtmaße erhält. Die Umrechnung in Zentimeter allein reicht nicht.
 
 **Kann ich einfach mehr oder weniger Maschen anschlagen, um die Maschenprobe auszugleichen?**
-
-Bei einfachen Formen, etwa Rechtecken oder einfachen Tüchern, ja. Dann kannst du die Anschlagszahl proportional anpassen. Bei geformten Kleidungsstücken meistens nicht, außer du schreibst auch die Formgebung neu. Zunahmen, Abnahmen und Passform der Anleitung sind auf die ursprüngliche Maschenzahl berechnet. Eine geänderte Anschlagszahl zieht fast jede weitere Anweisung mit.
+Für ein Rechteck ohne Formgebung ist die Ausgangsrechnung gewünschte Breite × Maschen pro Längeneinheit. Passe die Zahl an den Rapport und zusätzliche Randmaschen an und prüfe danach die Breite. Geformte Tücher brauchen mehr als eine andere Anschlagszahl. Bei Kleidung garantieren weder andere Maschenzahlen noch eine andere Anleitungsgröße passende Armausschnitte, Ärmel, Passen und übrige Maße; nutze anleitungsspezifische Hilfe.

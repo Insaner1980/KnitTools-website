@@ -18,11 +18,11 @@ translationKey: "increase-decrease-evenly"
 
 "Tag 8 masker ud jævnt fordelt på næste pind." Opskriften går videre. Du sidder tilbage med levende masker på pinden og hovedregning i gang.
 
-Uanset om pinden skal have flere masker eller færre, er beregningen den samme. Del det nuværende maskeantal med antallet af ændringer. Svaret er intervallet mellem hvert formgivningspunkt. Det er formlen. Resten handler om hvilken udtagning eller indtagning du bruger, hvordan du håndterer de rester der næsten altid dukker op, hvad der sker ved kanterne, og hvordan fordelingen faktisk ser ud i stoffet.
+Del antallet af masker, der indgår i formgivningen, med antallet af udtagninger eller indtagninger, du skal udføre. Det giver et udgangspunkt for fordelingen, men teknikken afgør den skrevne gentagelse. Kanter, rester og mønster skal også medregnes.
 
 ## Formlen i én linje
 
-Nuværende maskeantal / antal ændringer = intervallet mellem hver ændring.
+Oprindelige masker til formgivning / antal udtagninger eller indtagninger = gennemsnitligt antal oprindelige masker pr. handling. Det er hele gentagelsens størrelse, ikke nødvendigvis antallet af almindelige masker mellem handlingerne.
 
 Intervallet fortæller, hvor mange eksisterende masker der indgår i hver ændring, men den skrevne gentagelse afhænger af metoden. M1-eksemplerne nedenfor placerer udtagningen mellem eksisterende masker, så et interval på 10 kan skrives `strik 10, M1`. Ved en udtagning, der arbejdes i en eksisterende maske, som KFB, tæller den maske med i intervallet: skriv `strik 9, KFB`, ikke `strik 10, KFB`, fordi den sidste version bruger 11 oprindelige masker. Ved indtagninger er intervallet hele rapporten, inklusive de masker indtagningen bruger.
 
@@ -30,31 +30,33 @@ Samme matematik, to lidt forskellige måder at skrive pinden på.
 
 Hvis bestemte kant- eller sømmasker skal holdes uden for formgivningen, trækker du det samlede antal af dem fra, før du beregner intervallet: `(nuværende maskeantal - masker uden for formgivningen) / antal ændringer`. Fordel kun ændringerne over de masker, der indgår i formgivningen, og strik de øvrige masker som angivet. Hvis kantmaskerne skal indgå i formgivningen, bruger du hele det nuværende maskeantal. Det er noget andet end at dele det første og sidste interval for at få balance, for dér indgår de yderste masker stadig i fordelingen.
 
+Skeln mellem antallet af handlinger og ændringen i maskeantal: M1 og KFB øger med 1; 2 r sm og ssk mindsker med 1; 3 r sm mindsker med 2. Antallet af handlinger skal være et positivt heltal. Med U tilgængelige masker og E handlinger kræver 2 r sm U ≥ 2 × E, og 3 r sm U ≥ 3 × E. KFB kræver én oprindelig maske pr. udtagning. Her betyder M1 én drejet udtagning i lænken pr. tilgængeligt mellemrum: U masker frem og tilbage har U − 1 indre mellemrum; en allerede samlet omgang har U. Reserverede kanter kan begrænse placeringen yderligere. Eksemplerne strikkes ret uden reserverede kantmasker, medmindre andet er angivet.
+
 ## Eksempel: en ren udtagning
 
 Du har 80 masker på pinden. Opskriften beder om 8 udtagninger.
 
 80 / 8 = 10.
 
-Pinden kan skrives "strik 10, M1" gentaget 8 gange. Det bruger alle 80 masker på pinden, lægger 8 nye masker til og ender med 88 masker. Regnestykket passer, udtagningerne ligger med jævnt mellemrum, og stoffet bliver jævnt bredere.
+Frem og tilbage strikker du "5 r, M1, (10 r, M1) 7 gange, 5 r". Det bruger 5 + 7 × 10 + 5 = 80 oprindelige masker og giver 1 + 7 = 8 udtagninger: 88 masker. Udtagningerne ligger efter oprindelig maske 5, 15, 25, 35, 45, 55, 65 og 75. Afstanden er 10 masker med 5 i hver ende, altså symmetrisk placering.
 
-Der er ét lille kantproblem med versionen fra kant til kant: den sidste M1 lander helt i slutningen af pinden uden almindelige masker bagefter. Nogle opskrifter accepterer det. Andre gør ikke. Hvis du vil have en buffer ved begge kanter, kan du dele ét interval mellem begyndelsen og slutningen af pinden: "strik 5, M1, (strik 10, M1) 7 gange, strik 5." Samme 80 masker bruges, samme 8 udtagninger laves, og du ender stadig med 88 masker. Udtagningerne kommer væk fra kanterne, hvilket gør sammensyning og senere opsamling af masker pænere.
+"10 r, M1" 8 gange bruger også 80 masker, men passer på en allerede samlet omgang, hvor sidste M1 laves i lænken ved omgangens slutning. Frem og tilbage er der ingen lænke mellem to masker efter sidste maske. Den sidste M1 er derfor ikke bare et spørgsmål om udseende.
 
 ## Eksempel: en rest du skal håndtere
-
-Rigtige opskrifter går sjældent rent op.
 
 Tag 75 masker og 8 udtagninger.
 
 75 / 8 = 9 med rest 3.
 
-Det betyder fem sektioner med 9 masker og tre sektioner med 10 masker. Hver sektion får én M1 i slutningen. Fem "strik 9, M1" plus tre "strik 10, M1" bruger 75 masker og giver 8 udtagninger, så pinden ender på 83 masker.
+På en allerede samlet omgang bruger du fem sektioner med 9 masker og tre med 10, med én M1 efter hver. En rækkefølge er 9, 9, 10, 9, 9, 10, 9, 10: strik antallet af masker ret, og lav M1. Det bruger 5 × 9 + 3 × 10 = 75 masker og giver 8 udtagninger: 83 masker. Alle afstande, også over omgangsmarkøren, er 9 eller 10 oprindelige masker.
 
-Hvor skal de længere sektioner ligge? Spred dem ud. Læg ikke alle tre 10-maskers sektioner i begyndelsen og derefter fem 9-maskers sektioner. Øjet læser det som ujævnt, selv når matematikken teknisk går op.
+Frem og tilbage kan du fordele symmetrisk sådan:
 
-En brugbar fordeling er 9, 9, 10, 9, 9, 10, 9, 10. De længere sektioner falder omtrent hver tredje gang, så fordelingen ser planlagt ud i stedet for skæv.
+1. Strik 5 r, M1.
+2. Strik 9 r, M1; 9 r, M1; 10 r, M1; 9 r, M1; 10 r, M1; 9 r, M1; 9 r, M1.
+3. Strik de sidste 5 masker ret.
 
-Du behøver ikke være millimeterpræcis. En maske fra eller til i placeringen ses sjældent i det færdige stof. Målet er en fordeling der ser jævn ud, ikke matematisk perfektion.
+Enderne bruger 5 + 5 masker, og de syv indre mellemrum bruger 5 × 9 + 2 × 10. I alt bruges 75 masker og laves 8 M1, så resultatet er 83 masker. Udtagningerne ligger efter maske 5, 14, 23, 33, 42, 52, 61 og 70. Hvert spejlpar giver summen 75. Det er to mulige fordelinger, ikke de eneste.
 
 ## Indtagningssiden af samme formel
 
@@ -66,17 +68,15 @@ Tag 90 masker og 10 indtagninger.
 
 Hver rapport dækker 9 masker: de første 7 strikkes almindeligt, de sidste 2 strikkes sammen. Pinden bliver altså "strik 7, 2 r sm" gentaget 10 gange. Det bruger alle 90 masker og fjerner 10, så du ender med 80 masker.
 
-Rester fungerer på samme måde som ved udtagninger. 95 masker og 10 indtagninger giver 9 med rest 5. Fem rapporter bliver 9 masker, og fem bliver 10 masker. Spred de længere rapporter ud over pinden i stedet for at samle dem.
+Med 95 masker og 10 enkeltindtagninger er 95 / 10 = 9 med rest 5. Strik "7 r, 2 r sm, 8 r, 2 r sm" i alt 5 gange. Hvert par bruger 9 + 10 = 19 oprindelige masker og giver 8 + 9 = 17: alle 95 bruges, der laves 10 indtagninger, og 85 masker er tilbage. Korte og lange gentagelser veksler. Ingen kantmasker er reserveret her.
 
 ## Hvorfor opskrifter beder om jævn fordeling
 
-Udtagninger samlet ét sted får stoffet til at flare dér, mens resten ligger fladt. Indtagninger samlet ét sted trækker stoffet ind det forkerte sted.
+Jævn placering spreder ændringen i maskeantal over det valgte område. Samler du formgivningen bestemte steder, får du en anden form.
 
-Det mest almindelige sted at møde "tag ud jævnt fordelt" er lige efter rib. Rib trækker sig sammen, kroppen skal bruge flere masker, og én overgangspind håndterer skiftet. Jævn fordeling får overgangen til at forsvinde ind i stoffet i stedet for at se brat ud. Hvis du først skal finde startens maskeantal, gennemgår [guiden til opslag](/da/artikler/hvor-mange-masker-skal-du-slaa-op/) det trin.
+Ved overgangen fra rib til kroppen følger du opskriftens maskeantal og strikkefasthed for hver struktur; udtagninger er ikke automatisk nødvendige. Jævn fordeling garanterer ikke en usynlig overgang. [Guiden til opslag](/da/artikler/hvor-mange-masker-skal-du-slaa-op/) forklarer startantallet.
 
-[Hue-toppe](/da/artikler/strik-hue-metoder/) er et andet velkendt eksempel. Indtagninger gentaget jævnt over flere omgange laver de pæne spiraler eller stjerner op mod toppen. Rodet afstand giver en rodet top.
-
-Du ser også "tag ud jævnt" i raglanbærestykker, ærmekupler og andre steder, hvor designeren skal ændre maskeantallet uden at selve ændringen tager al opmærksomheden.
+[Guiden til at strikke hue](/da/artikler/strik-hue-metoder/) behandler huens top. Placering, hældning og omgange mellem indtagningerne påvirker også formen. Raglanlinjer og ærmekupler kræver egne instruktioner, som ikke skal erstattes af en generel jævn fordeling.
 
 ## Hvilken udtagningsmetode skal du bruge?
 
@@ -84,51 +84,39 @@ Hvis opskriften angiver en metode, bruger du den. Designere vælger udtagninger 
 
 Hvis opskriften bare siger "tag ud", vælger du efter stoffet.
 
-**M1L og M1R** er almindelige diskrete udtagninger i glatstrik. De løfter tråden mellem to masker og drejer den, så der ikke kommer hul. M1L hælder mod venstre, M1R mod højre. Når udtagningerne er spredt jævnt over en pind, betyder hældningen mindre. Ved synlige formgivningslinjer, som raglan eller v-hals, bør hældningen følge opskriften, så siderne spejler hinanden.
+**M1L og M1R** laves i lænken mellem masker uden at bruge en maske fra pinden. Hold garnet bag arbejdet. M1L: løft lænken forfra med venstre pind, og strik ret i bagerste maskeled. M1R: løft bagfra, og strik ret i forreste maskeled. Så drejes lænken. Se [Purl Sohos M1-instruktioner](https://www.purlsoho.com/create/make-one-right-m1r-make-one-left-m1l/). Hældningen beskrives fra retsiden, når du strikker fra venstre pind til højre. Følg opskriften ved parvis formgivning.
 
-**KFB** øger i en eksisterende maske. Den efterlader en lille vandret bjælke, der kan ligne en lille vrangbule. Den fungerer fint i retstrik eller strukturmønstre, hvor bjælken forsvinder, men den ses mere i glatstrik.
+**KFB** bruger én eksisterende maske og giver to. Strik ret i forreste maskeled, behold masken på venstre pind, og strik ret i bagerste maskeled, før du slipper den af. Udtagningen efterlader en lille tværgående streg. I modsætning til M1 tæller KFB-masken med i gentagelsens oprindelige masker.
 
 **Slå om** laver et bevidst hul. Det hører hjemme i hulmønstre og pinde, hvor udtagningen parres med en indtagning et andet sted for at holde maskeantallet stabilt. Det er sjældent det en opskrift mener med "tag ud jævnt", medmindre den siger det tydeligt.
 
-**Løftede udtagninger** henter en ny maske fra pinden under. De kan være meget diskrete i glatstrik, men flere løftede udtagninger tæt på hinanden kan trække i stoffet.
-
 ## Hvilken indtagningsmetode skal du bruge?
 
-**2 r sm** hælder mod højre. Det er standardvalget for mange "tag 1 ind"-instruktioner, når hældningen ikke betyder noget.
+**2 r sm** strikker to masker til én og hælder mod højre set fra retsiden. Brug den indtagning, opskriften angiver.
 
-**Ssk** hælder mod venstre. Det er den naturlige makker til `2 r sm`, når indtagningerne skal spejle hinanden, for eksempel i raglan eller ved begyndelsen og slutningen af en pind. Nogle bruger skp, altså tag en maske løst af, strik én og træk den løse maske over. Resultatet er visuelt ret ens.
+**Ssk** er en venstrehældende enkeltindtagning: tag to masker ret løst af, én ad gangen, og strik dem derefter ret sammen gennem de bagerste maskeled. **Skp** tager i stedet én maske ret løst af, strikker næste ret og trækker den løse maske over. Begge bruger 2 masker og giver 1, men teknikkerne er forskellige. Følg opskriftens variant.
 
 **3 r sm** fjerner to masker i én handling og hælder tydeligt mod højre. Den bruges, når opskriften vil have en stejlere indtagning eller i bestemte hulmønsterdiagrammer.
 
-**Centreret dobbeltindtagning**, ofte skrevet CDD, s2kp eller sl2-k1-psso i engelske opskrifter, fjerner to masker og lader midtermasken ligge lige op gennem midten. Den er almindelig i hulmønstre, chevronmønstre og hue-toppe, hvor designet vil have en tydelig lodret linje.
-
-Ved en almindelig "tag ind jævnt fordelt over pinden" på en retpind er `2 r sm` ofte et fornuftigt valg, hvis opskriften ikke siger andet. Når indtagningerne er spredt, betyder jævn placering som regel mere end hældningen.
+**Centreret dobbeltindtagning (CDD)** mindsker med 2 masker med centreret placering. En variant er **S2KP2**: tag 2 masker løst af sammen, som skulle de strikkes ret sammen, strik 1 ret, og træk begge løse masker over den. Tre masker bliver til én. Tjek opskriftens definition af CDD; forkortelser angiver ikke altid samme teknik.
 
 ## Kantmasker og sømrum
 
-Formlen bestemmer ikke kantbehandlingen for dig.
+Hold angivne kant- eller sømmasker uden for fordelingen. Strik først kanten i begyndelsen, form over de tilgængelige masker, og strik slutkanten. I det symmetriske eksempel med 80 masker indgår de 5 masker i hver ende i de 80; ingen særskilt kant er reserveret.
 
-For dele der skal sys sammen, så hold første og sidste formgivningspunkt mindst et par masker inde fra kanten. En indtagning i selve kantmasken gør sømmen sværere og ses lettere. En udtagning helt ude i kanten forstyrrer også kanten og kan gøre senere opsamling af masker mere besværlig.
-
-Tricket med at dele første interval i to løser ofte det. I stedet for at starte direkte med "strik 10, M1" kan pinden begynde "strik 5, M1, strik 10, M1..." Så får kanten en lille buffer.
-
-Hvis opskriften giver nøjagtig placering, som `2 r, *M1, 9 r; gent fra * til de sidste 2 m, 2 r`, har designeren allerede håndteret det.
+Med 76 masker og 2 reserverede i hver ende er der 76 − 4 = 72 til rådighed. For 8 M1 er 72 / 8 = 9. Strik `2 r, *M1, 9 r; strik fra * i alt 8 gange, 2 r`. Gentagelsen bruger 9 masker og giver 10. I alt bruges 2 + 8 × 9 + 2 = 76, og resultatet er 2 + 8 × 10 + 2 = 84 masker. Efter sidste M1 er der 11 oprindelige masker tilbage. Kantmaskerne holdes fri, men afstanden til enderne er ikke symmetrisk.
 
 ## Når formgivningspunktet lander på en vrangmaske
 
-Det sker i overgange fra rib og i gennemgående strukturmønstre.
+En vrang udtagning eller indtagning ændrer også maskeantallet. Pfb bruger for eksempel 1 maske og giver 2; 2 vr sm bruger 2 og giver 1. Vælg teknik og hældning ud fra den side af arbejdet, opskriften henviser til.
 
-Hvis formgivningspunktet lander på en retmaske i mønsteret, kan du ofte lave udtagningen eller indtagningen som normalt. Hvis det lander på en vrangmaske, bliver resultatet som regel renest med vrangsidevarianten: M1 vrang, pfb i stedet for KFB eller `2 vr sm` i stedet for `2 r sm`.
-
-Nogle opskrifter flytter placeringen en maske eller to, så alle formgivningspunkterne lander på retmasker. Det er ikke en fejl. Stoffet bryder sig mere om hvordan mønsteret læses, end om præcis hvor regnestykket først placerede udtagningen.
+Et skift fra ret til vrang teknik bevarer ikke automatisk rib, snoninger eller hulmønster. Tjek hvilke masker handlingen bruger, hvor nye masker hører til, og hvordan næste pind fortsætter. Flytter opskriften et formgivningspunkt af hensyn til motivet, så behold placeringen, og tæl hele pinden igennem.
 
 ## Når du strikker rundt
 
-Samme formel, men uden kanter. Omkredsen i masker deles med antallet af ændringer, og formgivningen gentages hele vejen rundt.
+En allerede samlet omgang har ingen sidekanter, men afstanden fra sidste formgivningspunkt tilbage til det første tæller også. Med 80 masker giver "10 r, M1" 8 gange 88 masker. Sidste M1 ligger ved omgangsgrænsen; næste afstand er 10 oprindelige masker. Flyt markøren efter behov for at komme til lænken, og sæt den tilbage ved den tilsigtede omgangsstart. Flyt ikke ét punkt uden at tjekke begge naboafstande.
 
-Det du skal holde øje med, er omgangsmarkøren. Hvis en indtagning lander lige over markøren, bliver den sværere at strikke og læse på næste omgang. Flyt formgivningspunktet en maske eller to, hvis opskriften tillader det, eller brug en ekstra markør til præcis den indtagning.
-
-Ved hue-toppe er indtagningsomgangene ofte skrevet ud i opskriften, for eksempel "strik 8, 2 r sm omgangen rundt, strik én omgang almindeligt, strik 7, 2 r sm". Formlen er mest nyttig, når opskriften bare siger "tag 8 masker ind jævnt fordelt".
+Et eksempel på en huetop begynder med 80 masker: "8 r, 2 r sm" 8 gange bruger 80 og giver 8 indtagninger, så 72 er tilbage. Strik én omgang ret over de 72 masker. Derefter bruger "7 r, 2 r sm" 8 gange alle 72 og efterlader 64. Omgangen uden indtagninger ændrer ikke maskeantallet. Dette kontrollerer de nævnte omgangsberegninger; hele toppens form og indtagningstakt følger opskriften.
 
 ## Symmetrisk og parvis formgivning
 
@@ -140,7 +128,7 @@ Når en opskrift siger "tag 1 maske ud i hver side på hver 6. pind", handler de
 
 ## Nogle almindelige intervaller
 
-Nogle tal dukker op ofte nok til, at du begynder at kende dem.
+De tre første eksempler gælder allerede samlet rundstrik: sidste M1 laves i lænken ved omgangsgrænsen. Indtagningseksemplerne kan bruges frem og tilbage eller rundt uden reserverede kantmasker. Almindelige masker strikkes ret.
 
 - 80 masker, tag 8 ud -> "strik 10, M1" 8 gange -> 88 masker
 - 60 masker, tag 6 ud -> "strik 10, M1" 6 gange -> 66 masker
@@ -153,17 +141,15 @@ Når tallene ikke samarbejder så pænt, fordeles resten som længere sektioner,
 
 ## Når regningen bliver irriterende
 
-80 masker, tag 8 ud. Færdig.
+Skriv hele arbejdsrækkefølgen ned før en kompliceret formgivningspind. Et korrekt slutantal beviser ikke, at et hulmønster eller en snoning kan fortsætte: tjek også diagrammet og næste pind.
 
-127 masker, tag 11 ud, mens pinden også skal balancere omkring en 6-maskers rapport. Det er en type pind, hvor hovedregning over levende masker tager længere tid end selve udtagningerne, og det er også der fejlene kommer. Skriv hele rytmen ned først, eller brug en udtagnings- og indtagningsberegner, før du begynder at strikke.
-
-For enklere pinde er håndregningen hurtig og pålidelig. At vide hvornår du skal tage et værktøj frem, og hvornår det ikke er nødvendigt, er en del af effektiv strikning.
+Dette er en guide til at regne i hånden. Hjemmesiden har ingen interaktiv udtagnings- og indtagningsberegner.
 
 ## Ting der dukker op
 
 Hvis en opskrift siger "tag jævnt ud" uden at angive hvor mange, så kig efter næste mål for maskeantal. Træk det du har, fra det mål. Det er usædvanligt, men det sker i ældre opskrifter og egne konstruktioner.
 
-Hvis placeringen bliver én maske forkert et par steder, så trevl ikke op. I de fleste projekter ses det ikke. Målet er en fordeling der ser jævn ud.
+Hvis et formgivningspunkt forskydes, så tjek maskeantal, naboafstande og mønster, før du beslutter, om du skal trevle op. Synligheden afhænger af strikketøjet; et korrekt totalantal beviser ikke korrekt placering.
 
 At tage ud eller ind på en vrangpind fungerer på samme måde. Brug vrangsidevarianten af den metode du bruger. Placeringsregningen ændrer sig ikke.
 
@@ -172,19 +158,19 @@ For selve opslagstallet dækker [guiden til hvor mange masker du skal slå op](/
 ## FAQ
 
 **Kan jeg bare fordele med øjemål i stedet for at regne?**
-Ved små justeringer på brede stykker, som et tæppe eller tørklæde, fungerer det ofte. Til tøj og alt hvor målene betyder noget, bør du regne. Fem minutters matematik er mindre arbejde end at trevle en ærmekuppel op.
+Planlæg og tæl handlingerne også ved små justeringer. Tjek placeringen i forhold til mønsteret og den ønskede form.
 
 **Hvad gør jeg, hvis opskriften ikke siger hvilken udtagning jeg skal bruge?**
-M1L eller M1R er et trygt standardvalg i glatstrik. KFB fungerer i retstrik eller struktur, hvor den lille bjælke forsvinder. Udtagningstypen betyder mere, når formgivningen er synlig, end når den er spredt jævnt over en pind.
+I de retstrikkede eksempler her kan du bruge lænkeudtagningen ovenfor, hvis opskriften lader dig vælge. KFB ser anderledes ud og bruger en eksisterende maske, så skriv gentagelsen om, hvis du skifter teknik.
 
 **Hvorfor får jeg nogle gange én udtagning for lidt eller for meget?**
 Som regel er en rest glemt, eller der er gået noget galt i om første sektion skal have helt eller halvt interval. Gå pinden igennem i hovedet før du strikker, og tæl antallet af formgivningspunkter.
 
 **Ændrer formlen sig, hvis jeg tager to masker ind ad gangen med 3 r sm?**
-Antallet af indtagningspunkter er det samme, men hvert punkt fjerner to masker. 90 masker med fem `3 r sm` ender altså på 80 masker, ikke 85. Regn efter antallet af masker der forsvinder, ikke kun antallet af indtagningsbevægelser.
+Ja: del antallet af masker, der skal fjernes, med 2 for at finde antallet af dobbeltindtagninger. Fra 90 til 80 skal 10 masker fjernes med 5 dobbeltindtagninger. 90 / 5 = 18 oprindelige masker pr. gentagelse: "15 r, 3 r sm" 5 gange bruger 90 og giver 5 × 16 = 80 masker. Et ulige antal kan ikke fjernes med dobbeltindtagninger alene.
 
 **Kan jeg tage ud eller ind på samme pind som en mønsterrapport?**
-Nogle gange. Hvis pinden er en glat overgangspind, er det enkelt. Hvis pinden ligger midt i en rapport, skal formgivningen respektere rapporten, og placeringen bliver mere følsom. Mange opskrifter lægger derfor formgivning på overgangspinde.
+Kun hvis formgivningen tager hensyn til motivet og dets fortsættelse. Et korrekt totalantal eller delelighed med rapportens størrelse bevarer ikke i sig selv rib, snoninger eller hulmønster.
 
 **Opskriften siger "tag jævnt ud", og maskeantallet går ikke op. Gør jeg noget forkert?**
 Nej. Det er normalt. Resten fordeles ved at nogle sektioner bliver én maske længere end de andre. Spred de længere sektioner ud over pinden i stedet for at samle dem.

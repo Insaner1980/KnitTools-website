@@ -2,6 +2,7 @@
 title: "Gratis strikkekalkulatorer for masker og garn"
 description: "Beregn maskeantall til opplegg og anslå garnforbruk med to gratis kalkulatorer. Les også hvordan du fordeler økninger og fellinger jevnt for hånd."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 5
 tags:
@@ -18,22 +19,22 @@ lang: no
 translationKey: "free-knitting-calculators"
 ---
 
-Her finner du to gratis kalkulatorer du kan bruke direkte i nettleseren:
+Her finner du to gratis kalkulatorer som virker i nettleseren uten registrering eller installasjon av en app:
 
 - [Regn ut hvor mange masker du skal legge opp](/no/verktoy/oppleggskalkulator/) ut fra strikkefastheten din og ønsket bredde.
-- [Anslå hvor mye garn du trenger](/no/verktoy/garnberegner/) ut fra prosjekttype, størrelse og garntykkelse.
+- [Sammenlign oppskriftenes garnmengder](/no/verktoy/garnberegner/).
 
 Artikkelen forklarer også hvordan du regner om strikkefasthet og fordeler økninger og fellinger for hånd, og lenker til tabeller og strikkeforkortelser. Disse delene er skriftlige veiledninger og oppslagsverk, ikke egne interaktive kalkulatorer.
 
-Strikking inneholder mer regning enn mange forventer. Hvor mange masker du skal legge opp til et 23 cm bredt skjerf med din strikkefasthet. Hvor mye garn et teppe sluker. Hvordan du fordeler 8 økninger jevnt over 64 masker. Ingenting av dette er vanskelig matte, men det dukker opp hele tiden, og feil svar kan bety å rekke opp tilbake til oppleggskanten etter tre kvelders arbeid.
+Hvor mange masker trenger du til et 23 cm bredt skjerf? Hvor mye garn skal du beregne til et teppe? Hvordan fordeler du 8 økninger over 64 masker? Kalkulatorer hjelper med regningen, men svaret må fortsatt kontrolleres mot prøvelappen og oppskriften.
 
 ## Oppleggskalkulator
 
-Du kjenner strikkefastheten din fra prøvelappen, og du vet hvor bredt arbeidet skal være. [Oppleggskalkulatoren](/no/verktoy/oppleggskalkulator/) multipliserer disse tallene og runder til nærmeste partall, som er en nyttig standard for mange vrangborder og maskemønstre.
+Mål strikkefastheten i en prøvelapp med prosjektets garn, pinner, maskemønster og etterbehandling. I [oppleggskalkulatoren](/no/verktoy/oppleggskalkulator/) bruker du masker per 10 cm med bredde i cm, eller masker per 4 tommer med bredde i tommer. Den deler strikkefastheten på 10 eller 4 før den ganger med bredden, og runder til nærmeste partall; et oddetall rundes opp. Bytte av enhet regner ikke om inndataene. Velg ferdig bredde eller omkrets med ønsket positiv eller negativ bevegelsesvidde. Kalkulatoren legger ikke til bevegelsesvidde, rapporter eller kantmasker.
 
 Formelen er enkel nok å gjøre i hodet for vanlig glattstrikk. Den slutter å være enkel når maskemønsteret ditt går over 6 masker pluss 2 balansemasker, og du trenger et tall som passer både rapporten og bredden. Kalkulatoren gir et utgangspunkt; du tilpasser selv maskeantallet til mønsterrapporter og kantmasker.
 
-Et eksempel: strikkefastheten er 22 masker per 10 cm, målbredden er 23 cm, og mønsteret har en 6-maskers fletterapport pluss 4 kantmasker i glattstrikk. Rå matematikk gir 50,6 masker, så et partallsresultat blir 50. Hvis du trekker fra 4 kantmasker, står 46 mønstermasker igjen, og 46 går ikke opp i 6. Justering til 52 masker gir 48 mønstermasker pluss 4 kantmasker, slik at flettene legger seg rent.
+Et eksempel: strikkefastheten er 22 masker per 10 cm og målbredden 23 cm. Velg cm, skriv **22** og **23**: 22 ÷ 10 × 23 = 50,6, som kalkulatoren runder til **50**. En fletterapport på 6 masker pluss 4 kantmasker krever en manuell justering: 50 − 4 = 46 går ikke opp i 6, mens **52** gir 8 × 6 + 4. Ved jevn strikkefasthet ville 52 masker måle omtrent **23,64 cm**, ikke 23 cm. Fletter og glattstrikkede kanter kan ha ulik strikkefasthet, så mål hele kombinasjonen i prøvelappen.
 
 Bruk kalkulatoren når du tilpasser en oppskrift til egne mål, designer uten oppskrift eller [bytter garn](/no/artikler/bytte-garn-i-strikkeoppskrift/) og strikkefastheten din ikke stemmer med oppskriften. Hvis maskemønsteret krever et bestemt multiplum, bruk kalkulatorresultatet som startpunkt og flytt deretter til nærmeste gyldige maskeantall. [Guiden til oppleggstall](/no/artikler/hvor-mange-masker-skal-du-legge-opp/) dekker den justeringen mer detaljert.
 
@@ -41,11 +42,11 @@ Bruk kalkulatoren når du tilpasser en oppskrift til egne mål, designer uten op
 
 Holder tre nøster? Spørsmålet hjemsøker mange garnkjøp, og feil gjetning betyr enten å gå tom midt på ermet, med fargepartiet utgått, eller sitte igjen med dyre rester.
 
-En garnberegner tar utgangspunkt i prosjekttype, størrelse, garntykkelse og en antatt grunnstruktur. En genser med mye fletter bruker ofte mer garn enn en glattstrikket genser i samme ferdige mål, fordi fletter trekker stoffet sammen horisontalt. Hullmønster kan bruke mindre garn enn glattstrikk ved samme strikkefasthet fordi kastene åpner stoffet. Rillestrikk kan også endre anslaget fordi pinnefastheten oppfører seg annerledes enn i glattstrikk.
+Resultatet skiller mellom nominell innkjøpsmengde, oppskriftens oppgitte garnbehov og omtrentlig nødvendig lengde. Innkjøpsmengde: gram × etikettens lengde ÷ vekt; dette er ikke målt forbruk. Garn som strikkes sammen oppgis separat; hovedtallet er samlet innkjøpslengde, ikke lengden på én tråd. Kildens intervaller beholdes. Omregning: 1 yard = 0,9144 m; bare sluttvisningen avrundes.
 
-[Garnberegneren](/no/verktoy/garnberegner/) på dette nettstedet dekker plagg, luer, votter, sokker, tepper og interiørprosjekter med justering for størrelse og garntykkelse. Den gir et omtrentlig behov i meter, og så legger du til en sikkerhetsmargin før kjøp. Den er også nyttig når du bytter garn. Hvis originaloppskriften bruker et garn med ca. 200 m per 100 g og erstatningen har 150 m per 100 g, trenger du flere nøster selv om garntykkelsen er i samme kategori, fordi løpelengde per gram varierer med fiber, tetthet og garnkonstruksjon.
+[Garnberegner](/no/verktoy/garnberegner/) — Referansemengder fra navngitte oppskrifter, ikke en personlig forbruksprognose. 133 referanser fra 19 oppskrifter i 28 prosjektkategorier. Stolaer og putetrekk har ingen bekreftet referanse her. Ingen skalering etter garntykkelse, strikkefasthet eller mål; ingen automatisk reserve.
 
-For gensere og større prosjekter er en praktisk buffer ett helt nøste over anslaget, spesielt når garnet har fargeparti. For sokker og små prosjekter bør du unngå å kjøpe akkurat på grensen hvis du ikke allerede kjenner oppskriften, garnet og din egen hånd godt. Fargepartirisiko er reell, særlig med håndfarget garn og utgående kommersielle garn, og ett ekstra nøste ved kjøp koster som regel mindre enn å mangle matchende garn senere.
+Regn nøster for hånd: del nødvendig totallengde på lengden per nøste i samme enhet, og rund opp. Trenger du 600 m og begge garn selges i 100 g nøster, gir 200 m per nøste 3 nøster, mens 150 m gir **4 nøster**. Dette forutsetter samme nødvendige lengde; samme garntykkelse garanterer ikke et egnet garnbytte. Planlegg prøvelapp, montering og ekstra garn til endringer før avrunding. Ett ekstra nøste er ingen universell margin. Kontroller også fargepartiet.
 
 ## Regn om strikkefasthet for hånd
 
@@ -59,33 +60,33 @@ Dette er en fremgangsmåte for å regne selv, ikke en interaktiv kalkulator for 
 
 Oppskriften sier "øk 12 masker jevnt over neste pinne". 80 masker på pinnen. Hvor skal økningene ligge?
 
-Del 80 på 12, og du får 6,67. Det betyr at noen mellomrom er 6 masker og noen er 7. Skriv ned hvor de kortere og lengre mellomrommene skal være, slik at økningene blir jevnt fordelt. Fire økninger er greit å holde styr på. Skal du fordele 18 økninger over 142 masker, er det særlig nyttig å skrive ned fordelingen før du strikker.
+80 ÷ 12 ≈ 6,67 er et gjennomsnitt, ikke en ferdig instruksjon. På en pinne frem og tilbake kan du øke én maske vridd i tråden mellom maskene etter opprinnelig maske **3, 10, 17, 23, 30, 37, 43, 50, 57, 63, 70 og 77**, og så strikke de siste 3 maskene. Tell bare de opprinnelige maskene når du finner plassene. Økningen bruker ingen gammel maske: 80 + 12 = **92**, med 3 vanlige masker i hver ende.
 
-Alle formingspinner har nytte av dette: ermeøkninger, bærestykkefellinger, [overganger fra vrangbord](/no/artikler/fordele-okninger-og-fellinger-jevnt/) der maskeantallet endres mellom seksjoner, og raglanforming der fire sett med fellinger gjentas annenhver pinne.
+For 18 økninger over 142 masker på en etablert omgang kan du bruke seksten grupper på 8 masker og to på 7, med de korte gruppene spredt rundt omgangen. Strikk siste maske i hver gruppe i både fremre og bakre maskeledd; den inngår i gruppens antall. Du bruker 16 × 8 + 2 × 7 = 142 masker og får **160**. [Guiden til økninger og fellinger](/no/artikler/fordele-okninger-og-fellinger-jevnt/) forklarer metodene og restfordelingen. Jevn fordeling kan passe etter vrangbord, men skal ikke erstatte oppskriftens raglanlinjer, ermeforming eller plasseringer i bærestykket.
 
-En egen felle: Oppskrifter sier ofte "fell 18 masker jevnt over neste pinne" uten å si om fellingen skal ligge helt ute i kanten eller om du skal la en buffer stå igjen. Hvis kanten skal sys eller maskene skal plukkes opp senere, la én eller to vanlige masker stå i hver kant hvis oppskriften ikke sier noe annet.
+En felling bruker gamle masker. Gjenta «4 rett, 2 rett sammen; 5 rett, 2 rett sammen; 5 rett, 2 rett sammen» fire ganger: 4 × (6 + 7 + 7) = 80 masker brukes, 12 felles og **68** står igjen. Eksemplet reserverer ingen kantmasker. Krever oppskriften urørte kanter, trekker du dem fra før fordelingen, regner mellomrommene på nytt og strikker kantene separat.
 
 ## Tilpasse en oppskrift til din størrelse
 
-Kalkulatorer kan hjelpe når en oppskrift ikke finnes i din størrelse, men de kan ikke trygt gradere et helt plagg alene. Hvis oppskriften er skrevet for 96 cm brystvidde og du trenger 112 cm, og strikkefastheten stemmer, kan oppleggskalkulatoren anslå et nytt maskeantall for bolen. Det egentlige arbeidet ligger likevel i formingen: hvor mange flere økningsomganger bærestykket trenger, hvordan ermehull eller ermekuppel endres, og hvor avfellingene havner.
+Kalkulatoren gir et utgangspunkt, men graderer ikke et helt plagg. Skill kroppsmål fra ferdige mål. Hvis **96 cm og 112 cm er ferdige omkretser på bolen**, er ønsket bevegelsesvidde allerede med. For en rett bol rundt legger du inn 112 cm og egen strikkefasthet. Et flatt for- eller bakstykke trenger sin egen bredde, ikke hele omkretsen, samt eventuelle søm- og kanttilpasninger. Ermehull, hals, ermetopp og bærestykke krever fortsatt oppskriftens konstruksjon og pinne-/omgangsfasthet.
 
 Her kjedes matematikken sammen. Bolvidde blir masker, økninger fordeles i bærestykket, strikkefastheten må kanskje regnes om hvis oppskriften veksler mellom centimeter og tommer. Hver del er håndterbar alene. Å holde alt i hodet den tredje strikkekvelden er der feilene sniker seg inn.
 
 ## Hva skiller en nyttig kalkulator fra en dårlig
 
-En kalkulator som ganger strikkefasthet med bredde og runder til nærmeste heltall gjør 90 % av jobben, men bommer på de 10 % som gir problemer. Ekte strikking har begrensninger, rapporter, kantmasker og krav om partall, som en rå formel ikke tar hensyn til.
+En nyttig kalkulator viser enheter og avrundingsregel. Rapporter, kantmasker og passform må fortsatt kontrolleres; et partall passer ikke automatisk til alle maskemønstre.
 
-Den må også fungere på telefon. De fleste strikkere regner ved hobbybordet eller i garnbutikken, ikke ved skrivebordet. De beste verktøyene viser avrundingsvalget tydelig i stedet for å skjule det, slik at du kan avgjøre om svaret passer rapporten, kanten eller vrangborden du faktisk har foran deg.
+Den bør også være lesbar og brukbar på telefon. Kontroller enheter, inndata og resultat sammen: riktig regning er ikke en ferdig oppskriftstilpasning.
 
 ## Mer enn kalkulatorer: referanseverktøy
 
-Noe strikkematte er ikke beregning, men oppslag. Hvilken US-størrelse tilsvarer 3,75 mm? Hvilken garntykkelse passer en strikkefasthet på 20 masker per 10 cm? Hva betyr "psso"? Hvilket kroppsmål bør du bruke før du velger mønsterstørrelse?
+Noen spørsmål er oppslag: 3,75 mm tilsvarer US 5 i pinnetabellen, og ordlisten forklarer «psso». Strikkefasthetsområdene for garntykkelse er veiledende; 20 masker per 10 cm identifiserer ikke et garn nøyaktig. Sammenlign tabellenes kroppsmål med egne mål og oppskriftens ferdige mål.
 
-Sidene [Pinnestørrelser](/no/verktoy/pinnestorrelser/), [Garntykkelser](/no/verktoy/garntykkelser/), [Størrelsestabeller](/no/verktoy/storrelsestabeller-strikking/) og [Strikkeforkortelser](/no/verktoy/strikkeforkortelser/) på dette nettstedet er søkbare referanser for slike spørsmål. De er ikke kalkulatorer, men du kommer til å bruke dem like ofte.
+[Pinnestørrelser](/no/verktoy/pinnestorrelser/), [Garntykkelser](/no/verktoy/garntykkelser/), [Størrelsestabeller](/no/verktoy/storrelsestabeller-strikking/) og [Strikkeforkortelser](/no/verktoy/strikkeforkortelser/) er oppslagssider. Pinnestørrelser og forkortelser har søkefelt, garntykkelser har WPI-hjelp og størrelsestabellene har kategori- og enhetsvalg. De har andre oppgaver enn de to kalkulatorene.
 
 ## Alt samlet på ett sted
 
-De gratis kalkulatorene og referansesidene på dette nettstedet håndterer den vanligste strikkematematikken i nettleseren. For strikkere som vil ha de samme kjerneverktøyene i en prosjektfokusert Android-verktøykasse, bygges [KnitTools](/no/verktoy/#join) rundt telling av pinner og omganger, prosjektstyring, kalkulatorer og referanser.
+Nettleserverktøyene er gratis uten konto eller installasjon. Den separate Android-appen KnitTools bygges rundt prosjekter og manuell telling av pinner og omganger, med gratis- og Pro-funksjoner. Gratis nettlesertilgang betyr ikke at alle appfunksjoner er gratis eller identiske. [Les om lanseringen og meld interesse for KnitTools](/no/verktoy/#join).
 
 ## FAQ
 
@@ -93,10 +94,10 @@ De gratis kalkulatorene og referansesidene på dette nettstedet håndterer den v
 Matematikken kan være eksakt, men det nyttige svaret avhenger av inndata og avrundingsregel. Én kalkulator runder til nærmeste hele tall, en annen til nærmeste partall, en tredje kan runde til nærmeste multiplum av 4 for 2 x 2-vrangbord. Sjekk hva oppskriften krever, og bruk en kalkulator som matcher de kravene.
 
 **Kan jeg bruke strikkekalkulatorer uten å vite strikkefastheten?**
-Oppleggskalkulatoren og omregning av strikkefasthet for hånd krever begge en måling fra prøvelappen. Det finnes ingen snarvei rundt det. En garnberegner kan gi et grovt anslag uten strikkefasthet fordi den bruker prosjekttype og garntykkelse, men anslaget blir grovere.
+Oppleggskalkulatoren og omregning av strikkefasthet krever en måling fra prøvelappen. Velg prosjekt, en størrelse i en navngitt oppskrift og enhet. Resultatet er oppskriftens referansemengde, ikke en prognose for ditt eget prosjekt.
 
 **Hvorfor ikke bare regne for hånd?**
 Det kan du. Kalkulatoren regner ut fra strikkefasthet og bredde og runder resultatet til nærmeste partall. Hvis mønsteret har en rapport på 7 masker, må du justere resultatet manuelt slik at mønstermaskene danner hele rapporter, og ta hensyn til eventuelle kantmasker separat.
 
 **Hvor nøyaktig er et garnanslag før jeg har strikket prøvelapp?**
-Et garnanslag før prøvelapp er et planleggingsintervall, ikke et løfte. Det er godt nok til å si om du sannsynligvis kjøper noen få nøster eller en gensermengde, men ikke godt nok til å hoppe over bufferen. Etter prøvelappen sammenligner du strikkefastheten og stoffets oppførsel med oppskriften eller anslaget, og legger til ekstra garn hvis prosjektet er stort, strukturstrikket eller følsomt for fargeparti.
+Referansemengder fra navngitte oppskrifter, ikke en personlig forbruksprognose. Kontroller størrelse, garn, konstruksjon og strikkefasthet i den lenkede originaloppskriften. Mengden forutsier ikke forbruket for en annen strikkeflate eller endrede mål. Kontroller hver farge og anvisningene for prøvelapp og reserve før du kjøper hele nøster. Tilgjengeligheten til de navngitte garnene og fargene garanteres ikke.

@@ -7,9 +7,10 @@ import { CONTACT_MAILTO, FINNVEK_URL } from "../config/brand";
 
 interface Props {
   lang?: Lang;
+  contentPage?: boolean;
 }
 
-const { lang = "en" } = Astro.props;
+const { lang = "en", contentPage = false } = Astro.props;
 const t = useTranslations(lang);
 const tools = getToolLinks(lang);
 const articles = getArticleCategoryLinks(lang);
@@ -47,7 +48,7 @@ const articles = getArticleCategoryLinks(lang);
           <h2>{t("app")}</h2>
           <ul>
             <li><span class="muted">{t("launchingSoon")}</span></li>
-            <li><a href="/about/">About</a></li>
+            <li><a href="/about/">{contentPage ? t("about") : "About"}</a></li>
             <li>
               <a
                 href="https://finnvek.com/privacy#knittools"
@@ -74,7 +75,8 @@ const articles = getArticleCategoryLinks(lang);
       <p class="copyright">
         © MMXXVI KnitTools. <a href={FINNVEK_URL} target="_blank" rel="noopener"
           >Finnvek</a
-        >. <a href={CONTACT_MAILTO}>Contact</a>.
+        >. <a href={CONTACT_MAILTO}>{contentPage ? t("contact") : "Contact"}</a
+        >.
       </p>
     </div>
   </div>

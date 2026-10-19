@@ -24,15 +24,17 @@ Gauge of 5 stitches per inch and a target width of 10 inches → cast on 50 stit
 
 If the gauge is measured over 4 inches, divide first. 20 stitches over 4 inches gives 5 stitches per inch.
 
-KnitTools' [Cast On Calculator](/tools/cast-on-calculator/) handles the base arithmetic and even-number rounding, but knowing what a reasonable answer looks like helps. If a 20-inch-wide worsted-weight blanket panel supposedly needs only a few dozen stitches, something's off.
+KnitTools' [Cast On Calculator](/tools/cast-on-calculator/) calculates the base count and rounds to the nearest even number (an odd whole number rounds up). Enter stitches per 10 cm with a width in cm, or select inches and enter stitches per 4 inches with a width in inches. Switching units does not convert the inputs. The usual “10 cm / 4 in” gauge notation is approximate: 4 inches is exactly 10.16 cm. You must allow for ease, repeats, balancing stitches, borders and seams yourself; the calculator does not resize a pattern.
 
 ## Measure your gauge correctly
 
 The cast-on number is only as good as the swatch behind it. Two mistakes cause problems over and over again.
 
+Use your project's yarn, needles and stitch pattern, and swatch flat or in the round to match the construction. Stockinette gauge does not predict the width of ribbing, lace or cables.
+
 **Measuring at the edge of the swatch.** Edge stitches aren't reliable. Measure in the center, away from the cast-on, bind-off, and side edges.
 
-**Measuring before washing and blocking.** The swatch on the needles isn't the finished fabric. If the pattern gauge is based on washed or blocked fabric, use the washed or blocked swatch for the cast-on math.
+**Using the wrong measurement state.** Follow the pattern's gauge instructions, including unblocked gauge if specified. Otherwise, measure the swatch after treating it like the finished project, within the yarn's care instructions, and letting it dry and relax.
 
 No swatch yet? [Measuring gauge](/articles/how-to-measure-knitting-gauge/) covers the full process.
 
@@ -40,13 +42,11 @@ No swatch yet? [Measuring gauge](/articles/how-to-measure-knitting-gauge/) cover
 
 Take a simple stockinette scarf, 8 inches wide, gauge of 4.5 stitches per inch.
 
-8 × 4.5 = 36 stitches.
+8 × 4.5 = 36 stitches. In the calculator, select inches and enter 18 stitches per 4 inches and a width of 8: the result is 36.
 
-That's the base count. If the pattern uses a 2x2 ribbed border (multiple of 4), 36 already lands on the repeat, so no adjustment needed. If the border were a 6-stitch lace repeat, 36 still works because it's a multiple of 6. If the lace repeat were 8 stitches, the nearest options would be 32 (slightly narrower) or 40 (slightly wider).
+For a different stitch pattern, measure a new swatch. If that pattern also measures 4.5 stitches per inch and needs a pure multiple of 4 or 6, 36 works. For a pure multiple of 8, choose between 32 and 40: about 7.1 or 8.9 inches wide. Check the complete pattern setup before choosing.
 
-If the 8-inch target describes the central pattern area, one selvage stitch at each edge outside that area brings the cast-on to 38 stitches total. If the full 8-inch width is meant to include the selvages, keep those edge stitches within the calculated 36-stitch total instead of adding them afterward.
-
-The math takes about thirty seconds. Doing it before casting on is faster than realizing the scarf came out 6 inches wide after the first six rows.
+If 8 inches describes only the central area, 36 central stitches plus one separately required selvage at each side gives 38 total. At the same gauge throughout, that is about 8.4 inches before seaming. If 8 inches includes those two edges and the center requires a multiple of 8, use the full formula 8n + 2 (n = number of repeats): (36 − 2) ÷ 8 = 4.25 repeats. Four or five repeats give 34 or 42 total stitches, about 7.6 or 9.3 inches. Do not round 36 to a repeat multiple and add edges afterward. Different border gauges or stitches lost in seams require a separate width allowance.
 
 ## Adjusting for pattern repeats
 
@@ -54,7 +54,7 @@ The base multiplication is a first draft, not the final number.
 
 Most stitch patterns repeat over a fixed number of stitches, and the cast-on count has to fit that repeat. Landing on any number and hoping the pattern works out isn't a strategy.
 
-Say the base math gives 97 stitches but the stitch pattern repeats over 6. The nearest workable counts are 96 and 102. The choice usually becomes obvious once you think about it for a moment.
+For example, 5 stitches per inch × 19.4 inches gives 97 stitches. With a pure 6-stitch repeat, the neighboring counts are 96 and 102, giving 19.2 and 20.4 inches. If the full requirement is 6n + 2 instead, subtract the two extra stitches first: (97 − 2) ÷ 6 ≈ 15.83. Choose 15 or 16 repeats, then add the two stitches once: 92 or 98 total, giving 18.4 or 19.6 inches at that gauge.
 
 Some patterns also need edge or balancing stitches outside the repeat. If the instructions say something like `k2, *p2, k2; rep from *`, those extra stitches are part of the required setup. Not optional decoration. Skip them and the pattern won't balance across the row.
 
@@ -65,128 +65,99 @@ When working with a pattern repeat of 8 stitches plus 2 balancing stitches, the 
 - "Multiple of 8 + 2" → 34, 42, 50, 58, 66
 - "Multiple of 12 + 3" → 27, 39, 51, 63, 75
 
-The wider the piece, the less a small adjustment matters. Adding or dropping 4 stitches on a blanket panel barely changes anything. On a sock, that's the difference between fits and doesn't.
+Check the resulting width, not just divisibility. At 5 stitches per inch, four stitches change the width by 0.8 inch, whatever the project's total width. Whether that is acceptable depends on the intended fit.
 
 ## Edge stitches and selvage
 
-For flat pieces that'll be seamed, edge treatment matters.
+For flat pieces that will be seamed, follow the pattern's edge treatment and seam allowance. Check whether the stated count already includes those stitches; do not automatically add two more.
 
-Many patterns add one selvage stitch at each edge. Some use two. If the pattern doesn't specify and the piece will be seamed, one stitch on each side is a common starting point.
+For exposed edges, choose the intended border or selvage and include its width in the plan. A border in another stitch pattern may need its own gauge. The seam consumes some of the knitted width, so distinguish the unseamed width from the finished visible width.
 
-For scarves, blankets, and other pieces with exposed edges, extra selvage stitches are optional unless a specific edge finish is wanted. A chained selvage (slip the first stitch of every row) produces a tidy line that some knitters prefer for scarf edges.
-
-Circular knitting doesn't need selvage stitches. There are no side edges to seam.
+Ordinary seamless circular knitting has no side selvages. Extra joining stitches or steek stitches are separate, pattern-specific instructions.
 
 ## Width at the cast-on vs in the body
 
 The cast-on edge and the body don't always behave the same way. Some cast-ons run tighter. Some stretch more. Some flare.
 
-For a body that needs to match the cast-on cleanly, either use a cast-on method with enough stretch for the project, or use the common workaround: cast on with a needle one or two sizes larger than the working needle. The cast-on edge ends up looser and more in line with the body's natural width.
+Choose and swatch a cast-on that suits the edge. A larger needle makes larger loops, but does not by itself make a long-tail cast-on stretchier: the yarn between stitches must also have room to spread. Test the edge with the fabric and opening it needs to fit.
 
 When the cast-on is part of the finished fit (sock cuffs, hat brims), tension at the edge matters just as much as the stitch count.
 
 ## Casting on for ribbing
 
-Ribbing pulls narrower than stockinette at the same stitch count. If the pattern calls for [increasing evenly](/articles/increase-decrease-evenly/) after the ribbing, that transition row handles the difference. That's the whole point of it.
+Measure ribbing in the state specified by the pattern; do not substitute stockinette gauge. Follow the instructed transition, including any [evenly spaced increases](/articles/increase-decrease-evenly/).
 
-Some patterns keep the same stitch count through ribbing and body. Others cast on fewer stitches for the ribbing and increase afterward. If you're designing your own piece, make that choice on purpose. The two approaches produce different visual results: continuous count gives a clean transition, while smaller ribbing followed by an increase row produces a more pronounced "lip" between ribbing and body.
-
-For visible-edge ribbing on sweater hems, a tubular or German twisted cast-on can create a stretchier, more elastic edge than long-tail. Standard long-tail isn't bad, but it can feel firmer than those two.
+Some patterns keep the same count through ribbing and body; others change it. When designing your own piece, swatch both sections and their transition. A count change alone does not guarantee a particular shape or a smooth join.
 
 ## Casting on for circular knitting
 
-Calculating the count is the same as for flat work: gauge × target circumference. For hats and socks, that target circumference is usually smaller than the body measurement because the fabric needs negative ease. The execution gets one extra consideration: joining without twisting.
+Use stitches per inch × desired finished circumference, with gauge measured for circular knitting. A tube's circumference is not its laid-flat width. Decide the ease before calculating: finished circumference equals body circumference plus positive ease, or minus the chosen negative ease. The amount depends on the pattern, fabric and intended fit; there is no universal reduction for hats or socks.
 
-Before knitting the first round, lay the needle flat and check that every stitch faces the same direction. The bottom edge of the cast-on should run along the inside of the needle with no spiraling. If you notice the twist at the end of the first round, it can still be corrected at the join. Once additional rounds have been worked, ripping back is usually the cleanest fix.
+Before joining, lay out the cast-on and check that the lower edge runs around without spiraling. If the joined fabric is twisted, undo enough work to correct it before continuing.
 
-To close the small gap that forms at the join point, many knitters cast on one extra stitch and decrease it away at the join. The working stitch count stays correct, and the join looks neater than starting round one with a gap.
+If your chosen joining method uses an extra stitch, remove that stitch as instructed at the join so the working count returns to the planned total. It is not an extra stitch to keep in every circular project.
 
-For toe-up socks, Judy's magic cast-on creates two parallel rows of live stitches with no seam at the toe. For top-down socks, the cuff is cast on flat (long-tail or German twisted) and joined in the round.
-
-Sock cast-on counts by yarn weight, for plain adult socks with negative ease:
-
-- Worsted (4 sts/inch): 32–40 stitches for adult socks
-- DK (6 sts/inch): 48–56 stitches
-- Sport (6.5 sts/inch): 52–60 stitches
-- Fingering (7.5–8 sts/inch): 60–72 stitches
-
-Use these as starting points, not finished sizing rules. Measure foot circumference at the widest point, subtract the negative ease your sock fabric needs, then multiply by your gauge. Smaller feet take fewer stitches, larger feet take more, and ribbed cuffs forgive a wider range than plain stockinette.
+For toe-up socks, Judy's magic cast-on creates two sets of live stitches with no seam at the toe; the toe shaping determines the starting count. For cuff-down socks, calculate and check the cuff separately, including whether its cast-on stretches over the heel.
 
 ## Cast-on methods, briefly compared
 
 The right method depends on what the edge needs to do.
 
-**Long-tail.** The default. Moderate stretch, neat appearance, works for almost everything. Requires estimating the tail before starting (a usable rule: three times the cast-on width, plus extra). Tighter than tubular or German twisted.
+**Long-tail.** A general-purpose cast-on using the working yarn and a reserved tail. Its stretch depends on how it is worked. Estimate the tail before starting; see the FAQ below.
 
-**Knitted cast-on.** Plain to learn and memorable once your hands know the movement. The edge is less polished than long-tail. Good for beginners and for adding stitches mid-row.
+**Knitted cast-on.** Makes new stitches by knitting into an existing loop. Useful for learning to cast on and for adding stitches during a project.
 
-**Cable cast-on.** Firmer and more decorative than knitted. Less stretch. Useful for buttonholes and for edges that don't need to stretch.
+**Cable cast-on.** Makes new stitches between the previous two stitches. It gives a relatively firm edge with limited stretch, useful for buttonholes and firm edges.
 
 **German twisted (old Norwegian).** A long-tail variation with extra stretch built in. Excellent for sock cuffs and ribbed hems where the edge needs to stretch over a foot or a head.
 
-**Tubular cast-on.** Creates a folded, hollow edge that flows cleanly into 1x1 or 2x2 ribbing. A polished edge for ribbed hems. More complex to set up.
+**Tubular cast-on.** Creates a rounded edge for ribbing with the appropriate foundation rows. Follow a setup specifically for 1x1 or 2x2 ribbing; a 1x1 setup does not automatically become 2x2 without rearranging the stitches.
 
 **Provisional cast-on.** Holds live stitches that can be picked up and worked in the other direction later. Used in top-down shawls, hems that fold under, and any time the cast-on edge will be reworked.
 
 **Judy's magic cast-on.** Toe-up sock cast-on that produces two parallel rows of stitches with no seam at the toe.
 
-No need to memorize all of these. Most knitters use long-tail for everything for a while, then pick up one or two specialty methods as projects demand them.
-
 ## Cast-on tension
 
-Tight cast-ons trap the bottom of a sweater or sock. The body wants to relax outward and the cast-on edge holds it in like a drawstring. Loose cast-ons flare and look sloppy. Matching the body's natural width is the goal.
+A tight cast-on can restrict an otherwise correctly sized piece; a loose one can flare. Test the cast-on with several rows or rounds of the intended fabric.
 
-Two practical fixes when the cast-on consistently comes out too tight:
+For long-tail cast-on, leave room between stitches rather than pulling each new stitch tightly against the previous one. A larger needle or two needles held together enlarge the loops but do not guarantee enough yarn between them. If the edge still lacks the required stretch, try a suitable alternative, such as German twisted, and test again.
 
-1. Cast on with a needle one or two sizes larger, then switch to the working needle for the first row.
-2. Use a stretchier method (German twisted or tubular) instead of long-tail.
-
-Casting on too loose is less common but happens with certain hand positions and yarn types. The fix is usually switching down a needle size for the cast-on row only, or using a firmer method like cable cast-on.
+If the edge flares, adjust the tension or needle size for that method and repeat the sample. A fixed change of one or two needle sizes is not a universal solution.
 
 ## Common cast-on counts for standard projects
 
-Rough sanity checks, not substitute pattern numbers. For worsted-weight projects, CYC's Medium range spans roughly 4 to 5 stitches per inch, so the same cast-on count can mean a different finished width depending on your swatch.
+There is no standard cast-on count for a dishcloth, scarf, cowl, hat or pair of socks based on yarn category alone. Choose the finished width or circumference, account for ease where needed, then use the relevant measured gauge and the complete pattern formula.
 
-- **Dishcloth:** 36–48 stitches
-- **Scarf:** 30–50 stitches depending on width
-- **Cowl:** 100–140 stitches in the round depending on circumference and ease
-- **Adult hat:** often 80–108 stitches in the round, depending on gauge and negative ease
-- **Toddler hat:** often 60–84 stitches in the round
-- **Baby hat:** often 48–76 stitches in the round
-- **Adult socks (worsted):** 32–40 stitches
-- **Adult socks (fingering):** 60–72 stitches
-
-Sweater pieces vary too much for a single useful range. That's why patterns list separate counts by size, and why gauge-based calculation matters when modifying anything.
-
-For all of these, the [Cast On Calculator](/tools/cast-on-calculator/) is the faster route once gauge is known.
+The [Cast On Calculator](/tools/cast-on-calculator/) provides the base estimate once these inputs are known. Its even-number rounding does not check ribbing, crown decreases, heel construction or garment shaping.
 
 ## Top-down vs bottom-up sweaters
 
-For bottom-up garments, the cast-on count is the body circumference at the hem. For top-down garments, the cast-on is at the neckline and is much smaller.
+For a sweater worked from the bottom up, use the actual hem or individual panel dimensions, not automatically the chest circumference. For one worked from the top down, use the neckline setup specified by the construction.
 
-A bottom-up worsted-weight sweater with a 40-inch finished chest needs 200 stitches at the hem (5 sts/inch × 40”). A top-down version of the same sweater might cast on 80 stitches at the neck and increase from there.
+A straight body worked in the round with a finished hem circumference of 40 inches and a hem gauge of 5 stitches per inch gives 5 × 40 = 200 stitches before any pattern-specific adjustment; 200 ÷ 5 = 40 inches. This assumes the hem uses that gauge and count. It does not determine a neckline count or the count for a separate front or back.
 
-Different starting points, same finished garment. The pattern dictates which one applies, but if you're designing, the choice affects what calculation you do first.
+Changing only the cast-on does not resize a sweater. Shaping, row gauge, lengths, sleeves and neckline all need checking.
 
 ## FAQ
 
 **Should I cast on an odd or even number of stitches?**
-Depends on the stitch pattern. Stockinette doesn't care. Ribbing and textured repeats usually do. 1x1 ribbing wants an even number, 2x2 ribbing wants a multiple of 4 (or multiple of 4 plus 2 if both edges should look the same).
+For ordinary circular 1x1 ribbing, use a multiple of 2; for circular 2x2 ribbing, a multiple of 4. Flat ribbing depends on its edges: starting and ending with one knit stitch needs 2n + 1 for 1x1; starting and ending with two knit stitches needs 4n + 2 for 2x2. Add separate selvages only if the instructions require them and they are not already counted.
 
 **What if my pattern gives a cast-on number but my gauge doesn't match?**
-The published cast-on count will produce a different width than intended. Either match the pattern gauge or recalculate from your own.
+The stated count will produce a different width. Match the pattern gauge, or assess the whole adaptation, including row gauge and shaping. A new cast-on count alone is not a complete resizing method.
 
 **Do I count the slip knot as a stitch?**
-For long-tail, yes. For most knitted-on methods, also yes. For cable cast-on, the slip knot is the first stitch. A few methods skip it. Follow the mechanics of the specific cast-on you're using.
+In the conventional long-tail, knitted and cable cast-ons that begin with a slip knot, the knot left on the needle counts as the first stitch. Other setups may omit it or use a temporary knot that is removed. Follow the specific method.
 
 **How long should the tail be for long-tail cast-on?**
-Roughly three times the planned cast-on width, plus a few extra inches for weaving in. For 200 stitches over 40 inches, that's about 120 inches (3 1/3 yards) of tail. Better too long than too short. Running out mid-cast-on means starting over.
+A width multiplier is only an estimate. For the long-tail method, [Purl Soho](https://www.purlsoho.com/create/long-tail-cast-on/) suggests about 3.5 times the planned width: 40 × 3.5 = 140 inches. Allow additional yarn for weaving in or seaming. Yarn, tension and technique affect the amount; the 200-stitch example is not a guaranteed tail-length rule.
 
 **Can I use the cable cast-on for a stretchy edge like a sock cuff?**
-Not ideal. Cable cast-on is firmer than long-tail and noticeably less stretchy. For sock cuffs and any edge that needs to fit over a foot, hand, or head, use long-tail with a larger needle, German twisted, or a tubular cast-on instead.
+A standard cable cast-on has limited stretch. For a cuff that must pass over the heel, test the opening; a correctly spaced long-tail or German twisted cast-on, or a suitable tubular setup, is an alternative. A larger needle alone does not guarantee stretch.
 
 **How do I cast on for knitting in the round?**
-Cast on the target circumference in stitches, lay the needle flat to check there's no twist, then join. No selvage stitches needed. To close the small gap at the join, cast on one extra stitch and decrease it away as you join so the final stitch count is still correct.
+Use the finished circumference and circular gauge, adjust for the pattern, and check for a twist before joining. Ordinary seamless work needs no side selvages. Add and remove an extra joining stitch only if your joining method calls for it.
 
 **My pattern says "cast on X stitches loosely." How loose is loose?**
-Loose enough that the cast-on edge stretches as much as the working fabric will. The practical fix: cast on with a needle one or two sizes larger than the working needle, or use a stretchier method like German twisted.
+Loose enough for the opening and fabric the pattern requires, without an unwanted flare. Test the method and stitch spacing; changing needle size is a trial, not a guaranteed fix.

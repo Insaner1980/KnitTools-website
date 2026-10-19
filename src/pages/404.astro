@@ -25,7 +25,7 @@ const recoveryLinks = [
 
 <PageLayout
   title="Page Not Found"
-  description="The page could not be found. Return to KnitTools tools, articles, and Android knitting app information from the home page."
+  description="The page could not be found. Return to the KnitTools home page, explore free knitting tools, or browse knitting articles."
   canonicalPath="/404"
   bodyClass="not-found-page"
 >
@@ -200,6 +200,11 @@ const recoveryLinks = [
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--terracotta);
+  }
+
+  .recovery-link:hover .link-label,
+  .recovery-link:focus-visible .link-label {
+    color: inherit;
   }
 
   .link-title {

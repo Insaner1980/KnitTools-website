@@ -14,11 +14,11 @@ const faqs = [
   },
   {
     q: "Les tailles d'aiguilles sont-elles identiques selon les marques ?",
-    a: "Elles devraient l'être. En pratique, il existe de petites différences, surtout avec les sets bon marché ou les aiguilles anciennes. Si ton échantillon est toujours décalé, mesure l'aiguille.",
+    a: "Pas toujours. Un même numéro US peut correspondre à différents diamètres selon la marque ou le tableau, surtout US 17 et 19. Vérifie le marquage en millimètres ou mesure le corps de l’aiguille avec une jauge à aiguilles, puis tricote un échantillon.",
   },
   {
     q: "Et les aiguilles circulaires ?",
-    a: "Même système que les aiguilles droites. La taille décrit le diamètre de la pointe, pas la longueur du câble. Une circulaire de 4,5 mm reste une aiguille de 4,5 mm, que le câble soit court pour un bonnet ou long pour le magic loop.",
+    a: "Même système que pour les aiguilles droites. La taille indique le diamètre du corps régulier de l’aiguille, derrière la pointe effilée, et non la longueur de l’aiguille ou du câble. Une circulaire de 4,5 mm a le même diamètre nominal qu’une aiguille droite de 4,5 mm.",
   },
   {
     q: "Faut-il posséder toutes les tailles d'aiguilles ?",
@@ -42,6 +42,20 @@ const faqs = [
 >
   <div slot="tool">
     <div class="table-wrapper">
+      <p>
+        Ce tableau concerne les aiguilles à tricoter, pas les crochets.
+        UK/Canada désigne l’ancienne numérotation. Les demi-tailles US suivent
+        KnitPro et les numéros japonais 0–15 suivent Clover (0 = 2,1 mm). Un
+        tiret signifie qu’aucun numéro équivalent n’est indiqué ici ; les
+        aiguilles japonaises plus grosses sont indiquées en millimètres.
+      </p>
+      <p>
+        Les numéros US varient : KnitPro regroupe 12–12,75 mm sous US 17 et
+        15–16 mm sous US 19 ; ChiaoGoo utilise respectivement 12,75 mm et 15 mm.
+        Fie-toi au diamètre en millimètres. Les catégories de fil sont des
+        repères du CYC, pas une garantie de tension ou de dimensions finales. La
+        dentelle ajourée se tricote souvent avec de plus grosses aiguilles.
+      </p>
       <input
         type="text"
         id="needle-search"
@@ -72,7 +86,7 @@ const faqs = [
                 >
                   <td class="col-mm">{formatMm(row[0])}</td>
                   {row.slice(1).map((cell) => (
-                    <td>{cell === "-" ? "—" : cell}</td>
+                    <td>{cell === "-" ? "—" : formatMm(cell)}</td>
                   ))}
                 </tr>
               ))
@@ -128,14 +142,13 @@ const faqs = [
     <p>
       <strong>Le système UK est inversé.</strong> Les tailles US montent quand les
       aiguilles grossissent. Les anciennes tailles UK descendent. US 6 correspond
-      à 4,0 mm. UK 6 correspond à 5,0 mm. Les confondre décale ton échantillon d'un
-      millimètre entier avant même le premier rang. Ça arrive plus souvent qu'on ne
-      le croit.
+      à 4,0 mm. UK 6 correspond à 5,0 mm. Les confondre change le diamètre de l’aiguille
+      d’un millimètre entier, ce qui peut modifier la tension de ton tricot.
     </p>
     <p>
       <strong>Toutes les tailles n'ont pas d'équivalent exact.</strong> Toutes les
       tailles métriques ne tombent pas proprement dans chaque autre système. Une aiguille
-      de 3,0 mm est parfois marquée US 2.5 par certaines marques, tandis que d'autres
+      de 3,0 mm est parfois marquée US 2,5 par certaines marques, tandis que d'autres
       tableaux la placent entre US 2 et US 3. Une aiguille de 3,5 mm n'a souvent aucun
       équivalent UK ancien. Dans ce cas, reviens aux millimètres et ignore le reste.
     </p>
@@ -147,9 +160,10 @@ const faqs = [
       la valeur en mm. Pas le numéro imprimé. Toujours la valeur en mm.
     </p>
     <p>
-      <strong>Les demi-tailles et tailles impaires existent vraiment.</strong> Les
-      aiguilles de 2,5 mm, 3,0 mm et 6,5 mm sont des tailles standard, même si ton
-      set interchangeable les a sautées. C'est pour cela que "prendre une demi-taille
+      <strong
+        >Les demi-tailles et tailles intermédiaires existent vraiment.</strong
+      > Les aiguilles de 2,5 mm, 3,0 mm et 6,5 mm sont des tailles standard, même
+      si ton set interchangeable les a sautées. C'est pour cela que "prendre une demi-taille
       au-dessus" finit parfois en fouille complète du sac à projet.
     </p>
     <p>
@@ -161,8 +175,8 @@ const faqs = [
 
     <h2>Associer taille d'aiguilles et épaisseur de fil</h2>
     <p>
-      Le tableau t'amène dans la bonne zone. L'échantillon donne l'adresse
-      exacte.
+      Le tableau t'amène dans la bonne zone. L’échantillon permet de choisir la
+      taille adaptée.
     </p>
     <p>
       Le système actuel du Craft Yarn Council associe Lace à 1,5-2,25 mm, Super

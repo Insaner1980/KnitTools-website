@@ -99,7 +99,7 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "alt",
-    def: "afwisselen / afwisselend (alternate)",
+    def: "afwisselend; alt rows betekent om de naald",
     search: "alternate afwisselen afwisselend",
     categories: ["general"],
   },
@@ -129,13 +129,13 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "sl",
-    def: "steek afhalen (slip)",
+    def: "afhalen zonder te breien; recht of averecht afhalen volgens het patroon",
     search: "slip steek afhalen afgehaalde steek",
     categories: ["general"],
   },
   {
     abbr: "sl st",
-    def: "afgehaalde steek (slip stitch)",
+    def: "een steek afhalen zonder te breien; volg de afhaalrichting in het patroon",
     search: "slip stitch afgehaalde steek",
     categories: ["general"],
   },
@@ -202,13 +202,13 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "kfb",
-    def: "recht in voorste en achterste lus breien (knit front and back)",
+    def: "brei dezelfde steek recht in de voorste en achterste lus (1 steek gemeerderd)",
     search: "knit front and back voorste achterste lus meerdering",
     categories: ["increases"],
   },
   {
     abbr: "pfb",
-    def: "averecht in voorste en achterste lus breien (purl front and back)",
+    def: "brei dezelfde steek averecht in de voorste en achterste lus (1 steek gemeerderd)",
     search: "purl front and back voorste achterste lus meerdering",
     categories: ["increases"],
   },
@@ -239,33 +239,33 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "ssk",
-    def: "afhalen, afhalen, breien, links hellende mindering",
+    def: "haal 2 steken één voor één recht af en brei ze recht samen door de achterste lussen (linkshellend; 1 steek geminderd)",
     search: "slip slip knit ssk afhalen afhalen breien AAB mindering links",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "skp",
-    def: "afhalen, recht breien, afgehaalde steek overhalen",
+    def: "haal 1 steek recht af, brei 1 recht en haal de afgehaalde steek erover (linkshellend; 1 steek geminderd)",
     search: "slip knit pass slipped stitch over overhalen mindering",
     categories: ["decreases"],
   },
   {
     abbr: "sk2p",
-    def: "1 afhalen, 2 recht samenbreien, afgehaalde steek overhalen",
+    def: "haal 1 steek recht af, brei 2 recht samen en haal de afgehaalde steek erover (linkshellend; 2 steken geminderd)",
     search:
       "slip one knit two together pass slipped stitch over dubbele mindering",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "s2kp",
-    def: "2 afhalen, 1 recht breien, 2 afgehaalde steken overhalen, gecentreerde dubbele mindering",
+    def: "haal 2 steken samen af alsof je ze recht samenbreit, brei 1 recht en haal beide afgehaalde steken erover (gecentreerd; 2 steken geminderd)",
     search:
       "slip two knit one pass two slipped stitches over gecentreerde dubbele mindering",
     categories: ["decreases"],
   },
   {
     abbr: "CDD",
-    def: "gecentreerde dubbele mindering (centered double decrease)",
+    def: "gecentreerde dubbele mindering (2 steken geminderd); volg de methode in het patroon",
     search: "centered double decrease gecentreerde dubbele mindering",
     categories: ["decreases"],
   },
@@ -284,37 +284,37 @@ const abbreviations: Abbreviation[] = [
 
   {
     abbr: "C4F",
-    def: "kabel over 4 steken naar voren (cable 4 front)",
+    def: "kabel over 4 steken: houd 2 steken op een kabelnaald vóór het werk, brei 2 recht en dan de 2 wachtende steken recht",
     search: "cable four front kabel naar voren",
     categories: ["cables"],
   },
   {
     abbr: "C4B",
-    def: "kabel over 4 steken naar achteren (cable 4 back)",
+    def: "kabel over 4 steken: houd 2 steken op een kabelnaald achter het werk, brei 2 recht en dan de 2 wachtende steken recht",
     search: "cable four back kabel naar achteren",
     categories: ["cables"],
   },
   {
     abbr: "C6F",
-    def: "kabel over 6 steken naar voren (cable 6 front)",
+    def: "kabel over 6 steken: houd 3 steken op een kabelnaald vóór het werk, brei 3 recht en dan de 3 wachtende steken recht",
     search: "cable six front kabel naar voren",
     categories: ["cables"],
   },
   {
     abbr: "C6B",
-    def: "kabel over 6 steken naar achteren (cable 6 back)",
+    def: "kabel over 6 steken: houd 3 steken op een kabelnaald achter het werk, brei 3 recht en dan de 3 wachtende steken recht",
     search: "cable six back kabel naar achteren",
     categories: ["cables"],
   },
   {
     abbr: "T2F",
-    def: "2 steken naar voren kruisen (twist 2 front)",
+    def: "kruis 2 steken met 1 steek vóór het werk; recht/averecht volgens het patroon",
     search: "twist two front kruisen kabel naar voren",
     categories: ["cables"],
   },
   {
     abbr: "T2B",
-    def: "2 steken naar achteren kruisen (twist 2 back)",
+    def: "kruis 2 steken met 1 steek achter het werk; recht/averecht volgens het patroon",
     search: "twist two back kruisen kabel naar achteren",
     categories: ["cables"],
   },
@@ -345,7 +345,7 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "moss st",
-    def: "dubbele gerstekorrel of rijstekorrel, afhankelijk van het patroon",
+    def: "moss stitch: Britse gerstekorrel; in Amerikaanse patronen een andere variant, volg de steekdefinitie",
     search: "moss stitch dubbele gerstekorrel rijstekorrel",
     categories: ["stitch-patterns"],
   },
@@ -381,33 +381,41 @@ const faqs = [
   },
   {
     q: "Wat betekent het sterretje in een breipatroon?",
-    a: 'Het markeert een herhaling. Alles tussen het sterretje en de bijbehorende instructie, vaak "rep from *", wordt steeds opnieuw over de toer gebreid. Haakjes en vierkante haken doen hetzelfde: ze groeperen een reeks handelingen die een bepaald aantal keer wordt herhaald. Een herhalingsmarkering missen is een snelle manier om op het verkeerde aantal steken uit te komen.',
+    a: "Een sterretje geeft het begin van een herhaling aan. Herhaal de gemarkeerde reeks het opgegeven aantal keren of tot het aangegeven punt. Haakjes en vierkante haken kunnen ook verschillende maten of meerdere handelingen in dezelfde steek aangeven. Lees de bijbehorende instructie.",
   },
   {
     q: "Wat als ik een afkorting niet in een standaardlijst vind?",
-    a: "Dan is het bijna zeker patroonspecifieke afkorting van de ontwerper. Ga terug naar het begin van het patroon en zoek naar een lijst met afkortingen of steekdefinities. Kabel- en ajourpatronen leveren de meeste eigen afkortingen op, omdat ontwerpers compacte notatie maken voor technieken die alleen in dat ontwerp voorkomen. Staat het daar niet, kijk dan in de patroonnotities of de sleutel bij het telpatroon.",
+    a: "Het kan een afkorting zijn die alleen in dat patroon wordt uitgelegd. Controleer de afkortingenlijst, steekbeschrijvingen, notities en legenda. Vraag bij onduidelijkheid de ontwerper om uitleg voordat je een techniek vervangt.",
   },
   {
     q: "Wat is het verschil tussen ssk en skp?",
-    a: "Beide zijn links hellende minderingen en geven in het afgewerkte breiwerk bijna hetzelfde resultaat. ssk is de moderne standaard en staat in de meeste huidige patronen. skp zie je vaker in oudere patronen. De uitvoering verschilt iets, dus volg wat het patroon aangeeft in plaats van zomaar te wisselen.",
+    a: "Beide minderen één steek en hellen naar links vanaf de rechte kant van tricotsteek bekeken. Gebruikelijke ssk: haal twee steken één voor één recht af en brei ze recht samen door de achterste lussen. Skp: haal één steek recht af, brei één recht en haal de afgehaalde steek erover. Het uiterlijk kan verschillen; volg de methode in het patroon.",
   },
 ];
 ---
 
 <LocalizedToolPage
-  title="Breiafkortingen: zoekbare woordenlijst"
-  description="Zoek een breiafkorting of technieknaam op. Volledige woordenlijst met patroontermen van k2tog tot psso, geordend per categorie."
+  title="Engelse breiafkortingen in het Nederlands"
+  description="Zoek gangbare Engelse breiafkortingen op met Nederlandse uitleg. Zoek op afkorting of techniek en filter de woordenlijst op categorie."
   canonicalPath={dutchToolRoutes.knittingAbbreviations}
   lang="nl"
   alternates={routes.tool.knittingAbbreviations}
-  intro="Zoek een afkorting om te zien wat die betekent, of zoek een techniek om de bijbehorende afkortingen te vinden."
+  intro="Zoek in een selectie van gangbare Engelse breiafkortingen en technieken met Nederlandse uitleg. Zo lees je Engelse patronen gemakkelijker."
   schemaName="Breiafkortingen"
-  schemaDescription="Zoekbare woordenlijst met breiafkortingen en techniektermen."
+  schemaDescription="Zoek gangbare Engelse breiafkortingen op met Nederlandse uitleg. Zoek op afkorting of techniek en filter de woordenlijst op categorie."
   faqs={faqs}
   variant="brown"
 >
   <div slot="tool">
     <div class="abbr-wrapper">
+      <p>
+        De uitleg in het patroon gaat voor. Hier worden steken van de linker-
+        naar de rechternaald gebreid; de helling van recht gebreide meerderingen
+        en minderingen wordt vanaf de rechte kant van tricotsteek beschreven.
+        Draad vóór/achter betekent naar je toe/van je af, ongeacht de goede of
+        verkeerde kant. Afhaalrichting en kabeltechniek volgen het patroon; ook
+        ssk heeft meerdere varianten.
+      </p>
       <input
         type="text"
         id="abbr-search"
@@ -502,12 +510,11 @@ const faqs = [
       >. Dat is het raamwerk, niet de steek zelf.
     </p>
     <p>
-      Interpunctie telt ook. Sterretjes en puntkomma's zijn geen versiering. <code
-        >*k2, p2; rep from *</code
-      > betekent dat alles tussen het sterretje en de puntkomma wordt herhaald. Haakjes
-      en vierkante haken werken vergelijkbaar en groeperen handelingen die een bepaald
-      aantal keer herhaald worden. Een herhalingsmarkering missen is een van de snelste
-      manieren om met het verkeerde aantal steken te eindigen.
+      <code>*k2, p2; rep from *</code> herhaalt twee recht en twee averecht: vier
+      steken per herhaling. Een sterretje geeft het begin van een herhaling aan. Herhaal
+      de gemarkeerde reeks het opgegeven aantal keren of tot het aangegeven punt.
+      Haakjes en vierkante haken kunnen ook verschillende maten of meerdere handelingen
+      in dezelfde steek aangeven. Lees de bijbehorende instructie.
     </p>
 
     <h2>Verschillen tussen US en UK</h2>
@@ -538,9 +545,9 @@ const faqs = [
       begin van de instructies uitgelegd te worden.
     </p>
     <p>
-      Kabelpatronen leveren de meeste van dit soort afkortingen. Een sleutel bij
-      een telpatroon kan <code>C4F</code>, <code>C6B</code> of iets heel specifieks
-      voor het ontwerp definiëren. Het getal geeft meestal aan hoeveel steken kruisen.
+      Kabelpatronen kunnen eigen afkortingen gebruiken. Een sleutel bij een
+      telpatroon kan <code>C4F</code>, <code>C6B</code> of iets heel specifieks voor
+      het ontwerp definiëren. Het getal geeft meestal aan hoeveel steken kruisen.
       De letter aan het eind, F of B, geeft de richting aan: front of back, dus waar
       je de kabelnaald houdt tijdens het kruisen. Maar ontwerpers zijn niet altijd
       consequent met die afspraak. Sommigen gebruiken L en R. Sommigen tellen alle
@@ -574,15 +581,19 @@ const faqs = [
       hebben alleen betekenis binnen dat patroon.
     </p>
     <p>
-      De praktische regel: vind je een afkorting niet in een
-      standaardreferentie, dan staat hij vrijwel zeker in de kop van het
-      patroon. Scroll omhoog voordat je elders zoekt.
+      Het kan een afkorting zijn die alleen in dat patroon wordt uitgelegd.
+      Controleer de afkortingenlijst, steekbeschrijvingen, notities en legenda.
+      Vraag bij onduidelijkheid de ontwerper om uitleg voordat je een techniek
+      vervangt.
     </p>
 
     <h2>Wat symbolen in telpatronen betekenen</h2>
     <p>
-      Telpatronen gebruiken symbolen in plaats van uitgeschreven toeren. Elk
-      vakje is een steek, en het symbool in het vakje vertelt wat je doet.
+      Symbolen in een telpatroon geven handelingen aan. Een vakje staat vaak
+      voor één resulterende steek, maar minderingen gebruiken meerdere steken en
+      kabelsymbolen kunnen meerdere vakjes beslaan. Een vakje voor “geen steek”
+      sla je over zonder een steek te breien of af te halen. Tel met behulp van
+      de legenda.
     </p>
     <p>
       Er is geen universele standaard voor alle telpatroonsymbolen, maar veel
@@ -594,11 +605,12 @@ const faqs = [
       >, een schuine streep naar links markeert <code>ssk</code>.
     </p>
     <p>
-      Telpatronen lees je van onder naar boven, omdat breiwerk omhoog groeit.
-      Bij plat breien lees je toeren aan de goede kant van rechts naar links en
-      toeren aan de verkeerde kant van links naar rechts, in de richting waarin
-      je naalden werken. Bij rondbreien lees je elke toer van rechts naar links,
-      omdat je altijd op de goede kant werkt.
+      Telpatronen lees je meestal van onder naar boven. Bij breien van de
+      linker- naar de rechternaald lees je naalden aan de goede kant normaal van
+      rechts naar links en aan de verkeerde kant van links naar rechts. Bij
+      rondbreien met de goede kant naar je toe lees je normaal van rechts naar
+      links. Controleer nummers en notities: teruggaande naalden kunnen
+      ontbreken en andere werkrichtingen hebben eigen instructies nodig.
     </p>
     <p>
       Als een patroon zowel geschreven als getekende instructies geeft, zouden
@@ -617,12 +629,11 @@ const faqs = [
       grootste deel van wat je breit.
     </p>
     <p>
-      Een duo waar mensen vaak over struikelen: <code>ssk</code> en <code
-        >skp</code
-      > zijn allebei links hellende minderingen. <code>ssk</code> is de moderne standaard.
-      <code>skp</code> staat vaker in oudere patronen. Het resultaat lijkt op elkaar,
-      maar de uitvoering verschilt iets, dus volg het patroon zoals het geschreven
-      is tenzij het vervanging toestaat.
+      Beide minderen één steek en hellen naar links vanaf de rechte kant van
+      tricotsteek bekeken. Gebruikelijke ssk: haal twee steken één voor één
+      recht af en brei ze recht samen door de achterste lussen. Skp: haal één
+      steek recht af, brei één recht en haal de afgehaalde steek erover. Het
+      uiterlijk kan verschillen; volg de methode in het patroon.
     </p>
     <p>
       Nog een om te markeren: <code>psso</code>, pass slipped stitch over,
@@ -632,11 +643,9 @@ const faqs = [
       vorige stap.
     </p>
     <p>
-      De Craft Yarn Council publiceert een veelgebruikte standaardlijst met
-      afkortingen, en de meeste ontwerpers volgen die voor gangbare termen.
-      Daarbuiten nemen regionale gewoontes en patroonspecifieke snelkoppelingen
-      het over. "Check de patroonsleutel" is beter advies dan "leer een
-      volledige lijst uit je hoofd".
+      De Craft Yarn Council publiceert een referentielijst met gangbare
+      breiafkortingen. Regionale en patroonspecifieke notaties kunnen
+      verschillen, dus controleer de uitleg in het patroon.
     </p>
     <p>
       Houd een referentie open terwijl je breit. Deze KnitTools-woordenlijst is

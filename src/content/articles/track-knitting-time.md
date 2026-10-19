@@ -1,10 +1,11 @@
 ---
-title: "How to track your knitting time and improve your speed"
-browserTitle: "How to Track Your Knitting Time and Improve Your Speed"
-description: "Track knitting sessions to see where your time goes and how your speed changes over time. Practical methods from simple timers to dedicated session trackers."
+title: "How to track your knitting time and pace"
+browserTitle: "Track Knitting Time: Sessions, Pace and Estimates"
+description: "Track knitting time with a stopwatch, notes, or a project app. Calculate comparable session rates and separate measured time from completion estimates."
 category: "app-tools"
 categoryOrder: 7
 publishDate: "2026-05-01"
+updatedDate: 2026-10-18
 tags:
   - "track knitting time"
   - "knitting session tracker"
@@ -15,61 +16,67 @@ tags:
 
 Most knitters have a vague sense of how long projects take. "The sweater took a few months." "The socks were pretty quick." But vague doesn't help when you're trying to decide whether to start a cardigan six weeks before Christmas, or figure out why a hat pattern that should take one evening is stretching into three.
 
-Tracking knitting time turns vague impressions into actual data. How many hours went into the sweater. How many rows you average per session. Whether you knit faster on stockinette or on cables, and by how much. The numbers won't make your hands move faster, but they'll help you plan better and notice when something is quietly going wrong.
+Tracking gives you a record of the time and work you log. It can help with planning, but a counter cannot tell whether you were actively knitting, reading the pattern, or taking a break. Decide what your numbers include before comparing them.
+
+Active knitting time covers working the stitches; elapsed session time may also include interruptions. Total project work can include swatching, checking instructions, correcting mistakes, assembly, and finishing. Calendar time until completion also includes days when you do not knit and time spent waiting for a washed piece to dry. Record these separately where they matter.
 
 ## Why bother tracking
 
-Three reasons, in order of how quickly they pay off.
+Three possible uses for a time log:
 
-**Project planning gets realistic.** Knowing that a worsted-weight hat takes you about 8 hours can help inform a sweater estimate, but you also need to account for the different dimensions. If the hat body was 6 inches of stockinette at 45 minutes per inch, estimating a 15-inch sweater body at the same stitch and row gauge also requires scaling for the relative number of stitches per row or round. Shaping and finishing add more time.
+**Planning from comparable work.** Suppose a worsted-weight hat took you about 8 hours in total. If its 6-inch stockinette body took 45 minutes per inch, that section accounts for 4 hours 30 minutes, not all 8 hours. An estimate for a 15-inch sweater body also needs the relative stitch counts per row or round, comparable gauge, and a similar technique. Length alone cannot give the sweater's time; shaping and finishing need separate allowances.
 
-**You notice slowdowns before they become problems.** If your average session produces 12 rows on a project and one week it drops to 6, something changed. Maybe the stitch pattern got harder. Maybe you're fighting the yarn. Maybe tension drifted and you're unconsciously compensating. The numbers flag the shift before you've spent three more sessions wondering why the project feels sluggish.
+**Understanding a change in output.** If one session produces 12 rows and another produces 6, check their durations first. A shorter session can explain the difference without any change in pace. For equally long sessions, note changes in row length, stitch pattern, yarn, breaks, or time spent fixing mistakes. The count alone does not identify a problem or its cause.
 
-Then there's the long game. Knitting speed can change with practice, but the change is often gradual enough that you don't feel it happening. Session data from six months ago compared to now can show the difference concretely: more rows per hour, fewer mistakes, faster recovery from errors. Progress that's invisible day to day becomes easier to see over months.
+**Following your own work over time.** Comparing similar sections six months apart may show a change in pace. Time and row counts alone do not measure mistakes or recovery from them; add a note if those are what you want to compare.
 
-## Simple tracking: phone timer
+## Simple tracking: a phone stopwatch
 
-The lowest-effort method. Start a timer when you pick up the needles, stop when you put them down. Write the time and row count in a notebook or notes app.
+Use a stopwatch that counts up, rather than a countdown timer. Start when you begin the work you want to measure. To exclude breaks, pause it when you put the needles down and resume when you return. Stop at the end and copy the duration and completed row or round count before resetting it. If there is no pause function, log separate timed intervals and add them once. The stopwatch does not recognize knitting automatically.
 
-Works fine for a single project. Gets messy with multiple WIPs because you need a separate entry for each, and the notebook fills with unsorted timestamps. Also requires the discipline to start and stop the timer every time, which is exactly the kind of habit that lasts two weeks and then quietly dies.
+A notebook or notes app can work for one project or several. Label each entry with the project and section. If you forget to start or stop, record a correction and mark uncertain time as estimated. Remove duplicate entries and do not count overlapping intervals twice. A manual entry copied from a stopwatch is measured time; a duration reconstructed from memory, a counter, or an earlier project's pace is an estimate.
 
 ## Spreadsheet tracking
 
-A step up. Columns for date, project name, start row, end row, duration. Formulas calculate rows per session, rows per hour, cumulative time.
+Use columns for date, project, section, completed count before and after, duration, and whether breaks are included. With no resets or unraveling, the count difference gives completed rows or rounds. Otherwise note the correction separately: net progress and all the work you did are different quantities.
 
-This gives you real data to analyze. Plot rows per hour over time and the speed curve becomes visible. Compare projects and the effect of stitch pattern complexity shows up in the numbers. If your notes show a plain stockinette project moving much faster than a cabled project, that difference becomes usable planning data instead of a vague feeling.
+For an illustrative session of 20 completed rows in 45 minutes: 45 ÷ 60 = 0.75 hours, so 20 ÷ 0.75 ≈ 26.7 rows per hour. Time per row is 45 ÷ 20 = 2.25 minutes, or 2 minutes 15 seconds. Write durations unambiguously: 1 h 30 min = 1.5 hours, not 1.30 hours.
 
-The downside: requires manual entry after every session. If you forget, the data has gaps. If you round ("about 45 minutes, maybe 20 rows"), the precision that makes spreadsheet tracking useful disappears.
+For comparable sessions of 20 rows in 45 minutes and 10 rows in 15 minutes, the combined rate is 30 rows ÷ 1 hour = 30 rows per hour. Averaging the two session rates without weighting gives about 33.3, which is not the overall rate. Divide total completed work by total measured time.
+
+Compare sessions with similar row lengths, stitch patterns, yarn, tools, and treatment of breaks. Faster progress in a stockinette project than in a cabled one does not isolate the effect of cables if other conditions differ. If you calculate stitches per minute, use stitches actually worked during that timed interval. Rows × stitches per row only works when the stitch count stays constant; shaping, short rows, and changing sections need separate counts.
+
+Manual entry takes a little attention after each session. Approximate entries such as “about 45 minutes, perhaps 20 rows” can still help with rough planning, but keep them marked as estimates and round the resulting pace accordingly. Missing time is unknown, not zero.
 
 ## Dedicated knitting session tracker
 
-A knitting time tracker built into a project management app automates the parts that manual methods get wrong. Start a session, knit, end the session. The app records duration, links it to the project, and tracks the row count alongside it.
+A project app can keep timing and counting in one place, but the controls and correction options depend on the app. Check what is saved and what you must enter yourself.
 
-The [KnitTools app](/) is being built with session tracking tied to its [row counter](/articles/track-rows-knitting/). The intended flow is simple: count rows, save the session, and keep date, duration, rows completed, and rows per hour with the project. Over time this builds a history per project and across all projects.
+The [KnitTools app](/) is being built with explicit work sessions alongside its [row counter](/articles/track-rows-knitting/). In the current implementation, start a session yourself, record counter changes as you work, then stop and choose whether to save or discard the session summary. Saved history keeps the date, duration, and counter range with the project. Counter taps do not start timing or detect active knitting. The website link is for launch information, not an app download.
 
-In KnitTools, you start and stop work sessions explicitly in the row-counter workflow, and recorded sessions stay linked to the project. Row-counter taps do not start time tracking automatically.
+To exclude a break in this workflow, stop and save, then start a new session when you return. A saved session can be deleted from history; it is not a general time-entry editor. Keep a separate corrected note if you forgot a start or stop. Insights uses saved sessions for time totals and minutes per row; those figures reflect recorded time and counts, not independently observed knitting. Do not assume every chart is included in the free tier.
 
 ## What the data actually tells you
 
 ### Rows per hour by stitch pattern
 
-For many knitters, stockinette becomes the baseline fast fabric. Other stitch patterns often slow the pace because they add turning, purl changes, chart reading, cable crosses, yarn overs, or decreases.
+Stockinette can be a useful comparison for your own work. Other patterns may involve more chart reading, cable crosses, yarn overs, or decreases. Measure the time for the actual section rather than assigning a fixed speed to a stitch pattern.
 
 Exact rows-per-hour ranges are not portable. A narrow scarf row, a sweater body row, and a sock round are not equivalent units, even before yarn weight and stitch pattern enter the picture.
 
-These numbers vary enormously between knitters. The useful comparison isn't your speed versus someone else's. It's your speed on this pattern versus your speed on the last one.
+Even your own previous project is only a useful pace comparison when the work and timing conditions are comparable. Otherwise, treat it as background for a new estimate.
 
 ### Time per project section
 
 A sweater doesn't take one uniform amount of time per inch. The body in stockinette may move quickly. The yoke with colorwork or cables can slow down. Sleeves on DPNs or magic loop can also take longer than the body on a long circular because the setup is fiddlier.
 
-Session tracking reveals these differences. If the body took 20 hours and the yoke took 15 for half as many rows, the average time per yoke row was 50% longer, or 1.5 times as long. That's useful to know for the next yoked sweater.
+For a hypothetical sweater, suppose the body took 20 hours and the yoke took 15 for half as many rows. The average time per yoke row was 50% longer, or 1.5 times as long: (15 ÷ 0.5) ÷ 20 = 1.5. This describes those sections; it does not prove a change in hand speed or predict a differently shaped yoke.
 
-### Speed improvement over time
+### Changes in pace over time
 
-Compare your first sock to your fifth. Your rows per hour on stockinette in January versus June. The change might be small, large, or uneven, but at least you're comparing your own work instead of guessing from memory.
+You can compare your first sock with your fifth, or similar stockinette sections in January and June. Keep the row length and timing method comparable, and note any changes in yarn or technique.
 
-Speed isn't the point of knitting for most people. But watching yourself get measurably better at something is satisfying in a way that's hard to get from a hobby where progress is otherwise measured in "I finished a scarf."
+If seeing a change in your own pace is satisfying, keep that comparison. Faster knitting is not a measure of the quality or value of the finished work.
 
 ## Tracking without obsessing
 
@@ -77,22 +84,24 @@ There's a line between useful data and counterproductive self-monitoring. A few 
 
 Don't optimize for speed at the expense of enjoyment. Knitting faster doesn't matter if the process stops being pleasant. The data is for planning and awareness, not for turning a relaxing hobby into a productivity exercise.
 
-Don't compare your numbers to other knitters. Hand size, tension style, yarn preference, and experience level all affect speed. Someone else's 40 rows per hour in fingering weight says nothing about your 20.
+Someone else's illustrative 40 rows per hour cannot be judged against your 20 without comparable row lengths, patterns, yarn, and timing conditions. Neither number is a target.
 
-Track at the granularity that's useful. Per-session data (duration, rows) is enough for most purposes. Per-row timing is overkill unless you're debugging a specific problem.
+Choose the detail that answers your question. Session duration and completed rows may be enough for planning; timing one row or repeat can help estimate a similar section. Record finishing separately instead of assigning it a row rate.
 
 If tracking feels like a chore rather than a tool, stop. The data is only worth collecting if you'll actually use it. An integrated tracker such as KnitTools keeps session controls close to the row counter, but you still need to start and stop each session. A manual spreadsheet that goes un-updated for weeks isn't helping.
 
 ## Connecting time tracking to project management
 
-Time data becomes more useful when it's connected to your [project organization](/articles/organize-knitting-projects/). Knowing that a project hasn't been touched in three weeks is one thing. Knowing you've invested 35 hours and the estimated total is 50 is better context for deciding whether to push through or set it aside.
+Time records can support your [project organization](/articles/organize-knitting-projects/). Suppose you have logged 35 hours and your current estimate for all project work is 50 hours: that leaves an estimated 15 hours, not a measured remainder. Reassess the unworked sections, assembly, and finishing. At an assumed 5 available work hours a week, 15 hours would take about 3 weeks, plus any drying or other waiting time.
 
-For multi-project knitters, time-per-project data also reveals allocation patterns. You might discover you're spending 80% of your knitting time on the easy sock and 20% on the sweater you actually want to finish. Sometimes seeing the numbers is enough to shift the balance.
+35 ÷ 50 = 70% of the estimated time budget; it does not prove that the garment is 70% complete. Length, rows, yarn used, and time spent measure different things. Do not substitute one percentage for another without a construction-specific reason.
+
+With several projects, you might find that 80% of your logged time went to socks and 20% to a sweater. Use the same date range and non-overlapping entries for both. This describes the time you recorded, not how complete either project is.
 
 ## FAQ
 
 **How accurate does session tracking need to be?**
-Within a few minutes is fine. If you forgot to start the timer for the first five minutes or stopped ten minutes after putting the needles down, the data is still useful for trends. Don't discard a session because the timing wasn't perfect.
+It depends on the use and session length. Five missing minutes or ten extra minutes can substantially distort a short session's rate. Correct known errors, label uncertain entries as estimates, and leave them out of precise pace comparisons. They can still inform a rough project-time estimate.
 
 **Does knitting speed actually improve with practice?**
 It can, but not as a guaranteed smooth curve. Familiar yarn, repeated stitch patterns, fewer mistakes, and more comfortable hand movements can all change your pace. A new technique may slow you down first, then become faster once it stops needing so much attention.
@@ -101,4 +110,4 @@ It can, but not as a guaranteed smooth curve. Familiar yarn, repeated stitch pat
 There's no meaningful "normal." Speed depends on yarn weight, stitch pattern, row length, needle type, knitting style, and how much attention the pattern demands. Track your own numbers and compare to yourself.
 
 **Should I track time on every project?**
-Track on projects where the data is useful: garments with deadlines, complex projects where you want to estimate remaining time, or any project where you're curious about pace. A mindless TV scarf probably doesn't need session logging.
+Track on projects where the data is useful: garments with deadlines, complex projects where you want to estimate remaining time, or any project where you're curious about pace. A simple TV scarf probably doesn't need session logging.

@@ -2,6 +2,7 @@
 title: "Silmukoiden poimiminen neuleen reunasta"
 description: "Opi poimimaan silmukoita vaakasuorista, pystysuorista ja kaarevista reunoista. Mukana poimintasuhteet, pääntiet, nappilistat ja yleiset virheet."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 11
 tags:
@@ -15,144 +16,119 @@ lang: fi
 translationKey: "pick-up-stitches"
 ---
 
-Silmukoiden poimiminen luo uuden kerroksen eläviä silmukoita valmiin reunan varrelle, jotta voit neuloa reunuksen, pääntieresorin, nappilistan tai kauluksen suoraan kappaleeseen ilman ompelua. Raaka reuna muuttuu viimeistellyksi.
+Silmukoita poimimalla voit neuloa reunuksen, pääntiejoustimen, nappilistan tai kauluksen suoraan valmiiseen kappaleeseen. Tässä opeteltavassa menetelmässä vedät työlangasta uusia silmukoita reunan läpi. Olennaista on poimintakohta sekä valmiin reunuksen tarvitsema silmukkamäärä.
 
-Sileän neuleen pystysuorassa reunassa tavallinen poimintasuhde on 3 silmukkaa jokaista 4 kerrosta kohti. Se korjaa eron silmukan leveyden ja kerroskorkeuden välillä. Itse liike on nopea oppia. Hankala osa on väli: montako silmukkaa poimitaan tietyltä matkalta ja miten ne jaetaan tasaisesti.
+Sileän neuleen pystysivulla 3 silmukkaa 4 kerrosta kohti on mahdollinen lähtökohta, ei kaikkien reunusten sääntö. Noudata ensisijaisesti neuleohjeen rakennetta ja poimintamäärää.
 
-## Poimi vs poimi ja neulo
+## Poimiminen ja oikein neuloen poimiminen
 
-Ohjeissa käytetään molempia ilmauksia. Ne tarkoittavat hieman eri asioita, vaikka moni neuloja ja suunnittelija käyttää niitä käytännössä sekaisin.
+Ohjeen ”poimi” voi tarkoittaa reunassa jo olevien lenkkien nostamista puikolle tai uusien silmukoiden neulomista työlangalla reunan läpi. Tarkista ohjeen tarkoittama menetelmä. Kumpikaan ei ole sama asia kuin apulangalla odottavien elävien silmukoiden palauttaminen puikolle tai pudonneen silmukan korjaaminen.
 
-**Poimi:** nosta olemassa oleva reunalenkki tai langansäie puikolle.
+Seuraava ohje kuvaa oikein neuloen poimimista tavalliseen oikeakätiseen neulomissuuntaan:
 
-**Poimi ja neulo:** työnnä puikko reunan läpi, kierrä lanka ja vedä se läpi yhdellä neulontaliikkeellä. Silmukka syntyy ja neulotaan samalla kertaa.
+1. Pidä työn oikea puoli itseesi päin ja poimittava reuna ylhäällä. Aloita ohjeen määräämästä kohdasta; harjoitusreunassa aloita oikeasta päästä ja etene vasemmalle. Käännä kappaletta tarvittaessa pääntietä seuratessasi.
+2. Pidä työlanka neuleen takana ja jätä päättelyyn riittävä langanpää. Vie oikean puikon kärki valitusta kohdasta koko neuleen läpi edestä taakse halkaisematta lankaa.
+3. Ota työlanka puikolle kuten oikeaa silmukkaa neuloessa ja vedä uusi lenkki työn etupuolelle. Jätä lenkki puikolle. Pidä langanpäästä kiinni seuraavan silmukan ajan.
+4. Siirry seuraavaan suunniteltuun poimintakohtaan. Jätä ohitettavat kohdat työstämättä. Anna silmukoiden asettua puikon varrelle; älä kiristä niitä kärjen ympärille.
 
-Käytännössä moni ohje sanoo "poimi", vaikka se tarkoittaa "poimi ja neulo". Jos ohje antaa lukumäärän, se on silmukoiden määrä, jonka pitää olla puikolla lopuksi.
+Jokainen uusi lenkki on yksi silmukka. Tavallisessa länsimaisessa silmukka-asennossa oikea jalka on puikon edessä. Muissa neulontatavoissa asento voi olla toinen. Neulo johtavasta jalasta niin, etteivät jalat risteä, ellei ohje pyydä kiertynyttä silmukkaa.
 
 ## Vaakasuorasta reunasta, luomis- tai päättelyreunasta
 
-Helpoin suunta. Jokaisessa reunan silmukassa näkyy V. Työnnä puikko V:n keskeltä, molempien jalkojen alta, kierrä lanka ja vedä läpi. Yksi silmukka jokaista reunan silmukkaa kohti.
+Sileän neuleen päättelyreunassa vie puikko päättelyketjun alapuolisen kokonaisen V-silmukan keskeltä läpi neuleen. Uusi silmukka kohdistuu näin silmukkapylvääseen. V ei tarkoita päättelyketjun sivuttaista lenkkiä eikä sen molempien lankojen nostamista puikolle.
 
-Suhde on yleensä 1:1. Jos päättelyreunassa on 80 silmukkaa, poimi 80, tai sen verran kuin ohje käskee. Joskus ohje pyytää vähemmän, jolloin silmukoita jätetään väliin säännöllisesti.
+Käännä luomisreuna ylös ja etsi siinä suunnassa näkyvät kokonaiset V:t aivan luomisreunan sisäpuolelta. Ne ovat puoli silmukkaa sivussa alkuperäisistä ylöspäin kulkevista pylväistä. Tasoneuleessa kokonaisia V:itä voi olla yksi vähemmän; käsittele päätykohdat ohjeen mukaan, jotta saat tavoitemäärän. Älä laske samaa päätylenkkiä kahdesti. Luomistavat eroavat, joten kokeile poimintakohtaa tilkulla.
+
+Kun silmukkatiheydet vastaavat toisiaan, 1:1 on käyttökelpoinen lähtökohta: 80 päätellystä silmukasta voidaan poimia 80 uutta. Ohjeen määrä tai erilainen reunuksen tiheys voi vaatia kohtien ohittamista. Myös reunan lankojen alta poimiminen on mahdollinen menetelmä, mutta sen kohdistus ja saumanvara voivat poiketa tässä kuvatusta.
 
 ## Pystysuorasta reunasta, neulepinnan sivusta
 
-Tässä väli merkitsee. Kerrokset ja silmukat eivät ole saman korkuisia. Tavallinen sileän neuleen neuletiheys voi olla 20 silmukkaa / 10 cm vaakasuunnassa mutta 28 kerrosta / 10 cm pystysuunnassa. Jos poimit yhden silmukan joka kerrokselta, pystysuoraan reunaan tulee enemmän silmukoita senttiä kohti kuin vaakasuunnassa, ja reunus kupruilee tai levenee.
+Vie puikko sileän neuleen reunimmaisen silmukkapylvään ja seuraavan pylvään välistä läpi työn. Poimi valittujen kerrosten kohdilta. Yksi reunapylväs jää nurjalle saumanvaraksi. Tämä ei ole patjapiston poikkilangan nostaminen ompelua varten.
 
-Sileän neuleen tavallinen suhde: 3 silmukkaa jokaista 4 kerrosta kohti. Poimi kolmelta ensimmäiseltä kerrokselta, jätä neljäs väliin, toista. Toimii useimmilla neuletiheyksillä, mutta omat luvut voivat vaatia säätöä.
+Laske suhde jakamalla **uuden reunuksen silmukkatiheys alkuperäisen neuleen kerrostiheydellä**. Mittaa molemmat samalta pituudelta ja tarkoitetussa viimeistellyssä tilassa. Jos reunuksessa on 20 silmukkaa / 10 cm ja alkuperäisessä kappaleessa 28 kerrosta / 10 cm, suhde on 20/28 = 5/7 ≈ 0,714. [Tarkista neuletiheys](/fi/artikkelit/neuletiheyden-mittaaminen/) ennen rytmin valintaa.
 
-Tarkan suhteen saa jakamalla silmukkatiheyden kerrostiheydellä. Jos neuletiheytesi on 20 silmukkaa ja 28 kerrosta / 10 cm, suhde on 20/28 = 0,71. Se on suunnilleen 7 silmukkaa 10 kerrosta kohti, tai noin 3 jokaista 4 kerrosta kohti, eli 0,75 ja tarpeeksi lähellä. Jos sinun pitää ensin [tarkistaa neuletiheys](/fi/artikkelit/neuletiheyden-mittaaminen/), aloita siitä.
-
-Jos ohje antaa tarkan poimittavan määrän, jaa se reunan pituudella. Sillä saat poimintatiheyden. Poimi sitten sillä tahdilla ja sijoita väliin jätettävät kerrokset mahdollisimman tasaisesti.
+Poimi jokaisen seitsemän kerroksen jakson kohdista 1, 2, 4, 5 ja 7; ohita kohdat 3 ja 6. Neljä jaksoa kattaa 28 reunakerrosta: 20 poimintaa ja 8 ohitettua kohtaa. Suhde 3:4 tuottaisi samalta 28 kerroksen matkalta 21 silmukkaa. Myös 7:10 on eri likiarvo, ei automaattisesti yhtä sopiva määrä.
 
 ### Nostetun reunasilmukan reunasta
 
-Jos olet nostanut jokaisen kerroksen ensimmäisen silmukan, reunaan muodostuu lankaparien ketju. Yksi ketjun lenkki vastaa tavallisesti kahta kerrosta, joten yksi poimittu silmukka lenkkiä kohti voi olla nappilistaan tai reunukseen selvästi liian vähän.
-
-Se, että joustin vetää sisäänpäin, ei tee tästä suhteesta automaattisesti oikeaa. Käytä ohjeen antamaa poimintamäärää, jos sellainen on. Muussa tapauksessa määritä ja säädä poimintasuhde reunan kerrostiheyden tai pituuden sekä reunuksen tavoitellun silmukkatiheyden tai silmukkamäärän perusteella. Poimi yksi silmukka ketjun lenkkiä kohti vain, jos saat sillä tavoitellun määrän ja reunus asettuu suoraksi ja sopivaksi.
+Nostettujen reunasilmukoiden ketjussa yksi lenkki vastaa usein kahta kerrosta. Yksi poiminta lenkin molempien lankojen alta antaa silloin yhden silmukan kahta kerrosta kohti. Käytä sitä vain, jos saat tavoitemäärän ja sopivan reunan; joustimen supistuminen ei korvaa liian pientä silmukkamäärää. Jos tarvitset enemmän kohtia, poimi kerrosten kohdalta yhden silmukkapylvään verran ketjun sisäpuolelta tai noudata ohjeen omaa reunamenetelmää. Älä pakota useita silmukoita löyhään lenkkiin kokeilematta tulosta.
 
 ### Ainaoikean reunasta
 
-Ainaoikeassa kerrokset muodostavat harjanteita. Reunassa näkyy kaksi nyppyä yhtä harjannetta kohti, ja yksi harjanne vastaa kahta kerrosta. Poimi yleensä yksi silmukka jokaista harjannetta kohti, harjanteen reunalenkistä tai lankaparista johdonmukaisesti koko matkan.
+Yksi ainaoikean harjanne vastaa kahta kerrosta. Voit poimia harjanteiden välistä, yhden reunapylvään sisäpuolelta: puikko edestä taakse ja uusi lanka läpi. Toinen tapa on viedä puikko harjanteen reunimmaisen alaspäin kaartuvan nurjan lenkin alta alhaalta ylös, lankaa halkaisematta, ja vetää työlanka lenkin läpi. Valitse kyseiselle osuudelle yhtenäinen tapa.
 
-Ainaoikeasta poimittu reuna näyttää helposti napakammalta kuin sileästä poimittu. Se voi tarvita lisäsilmukan muutaman harjanteen välein, jotta reunus ei vedä sisäänpäin.
+Yksi silmukka harjannetta kohti tarkoittaa yhtä silmukkaa kahta kerrosta kohti. Se voi sopia ainaoikeaan, mutta tarkista reunan pituus ja uuden reunuksen tiheys. Lisäsilmukkaa muutaman harjanteen välein ei tarvita automaattisesti.
 
 ## Eri reunuksiin tarvitaan eri suhteet
 
-3:4-suhde olettaa sileän neuleen pystysivun ja reunuksen, jonka neuletiheys on lähellä pääneuletta. Muut yhdistelmät tarvitsevat eri rytmin.
+Käytä joustimen, ainaoikean tai helmineuleen omaa silmukkatiheyttä siinä tilassa, jossa reunuksen on tarkoitus olla. Joustimen lepo- ja venytysleveys eroavat. Ainaoikealle tai helmineuleelle ei ole yleispätevää 3:4-suhdetta. I-cord-reunuksen kiinnitysrytmi määräytyy sen ohjeesta.
 
-Joustinneule, kuten 1 o, 1 n tai 2 o, 2 n, vetää vaakasuunnassa sisäänpäin, joten se kestää hieman suuremman poimintamäärän kuin sileä neule. Seuraa ohjetta, jos se antaa luvun, koska pääntien syvyys ja puikkokoko muuttavat tulosta.
-
-Ainaoikea reunus käyttäytyy lähellä sileää neuletta. 3:4 on turvallinen lähtökohta.
-
-Helmineule on leveydeltään lähellä sileää neuletta, joten 3:4 toimii usein sielläkin.
-
-I-cord-reunus kiinnitetään monissa ohjeissa joka toiselle kerrokselle tai täysin ohjekohtaisella tahdilla. Älä pakota siihen 3:4-sääntöä, jos ohje antaa oman rytmin.
-
-Jos olet epävarma eikä ohje kerro, neulo pieni koereuna. Poimi lyhyeltä testipätkältä, neulo muutama kerros reunusta ja katso vetääkö tai aaltoileeko se. Parempi siinä kuin oikeassa pääntiessä.
+Jos ohje ei anna määrää, neulo varsinainen reunus koereunaan projektin langalla. Tee riittävästi reunusta, jotta voit arvioida pituutta, syvyyttä ja joustoa. Käsittele vain langan hoito-ohjeen sallimalla tavalla ja mittaa kuivana, vapaasti asettuneena. Pingotus ei takaa väärän silmukkamäärän tai kiristävän poimintakerroksen korjausta.
 
 ## Kaarevasta reunasta, kuten pääntieltä
 
-Pääntie yhdistää vaakasuoria reunoja, pystysuoria reunoja sekä kaarevia tai viistoja muotoilureunoja. Jokaisessa osassa on eri poimintatahti.
+Merkitse vaakasuorat, pystysuorat ja muotoillut osuudet erikseen. Käytä päätellyillä osuuksilla vaakareunan menetelmää ja sivuilla kerrosreunan menetelmää. Seuraa viistossa tasaista linjaa porrastusten sisäpuolella, älä niiden suuria aukkoja. Käytä ohjeen osamääriä tai todellista viiston reunan pituutta ja reunuksen tiheyttä. Viistolle ei ole kiinteää pysty- ja vaakareunan välistä suhdetta.
 
-**Päätellyt silmukat:** 1 per silmukka, kuten vaakasuorassa reunassa.
-
-**Pystysivut:** 3 jokaista 4 kerrosta kohti, tai se suhde jonka oma neuletiheys vaatii.
-
-**Viistot muotoilureunat:** jotain pystyn ja vaakasuoran välistä. Aloita lähellä ohjeen lukua tai käytä viistoa reunaa itseään oppaana ja säädä ensimmäisen reunuskerroksen jälkeen.
-
-**Kulmat, joissa vaakasuora kohtaa viiston:** poimi 1 silmukka itse kulmasilmukasta. Tämä estää aukon, joka on yleisin pääntien poimintaongelma.
-
-Ohje antaa yleensä poimittavien silmukoiden kokonaismäärän. Jaa määrä osiin suhteessa: laske etuosan päätellyt silmukat, kummankin sivun kerrokset ja jaa poiminnat sen mukaan.
-
-Jos pääntie näyttää ensimmäisen kerroksen jälkeen aaltoilevalta, silmukoita on liikaa. Jos se vetää sisäänpäin, niitä on liian vähän. Muutaman silmukan säätö kumpaan suuntaan tahansa korjaa useimmat ongelmat.
+Laske jokainen yhteinen rajakohta tai kulma vain yhteen osuuteen. Jos aukon sulkemiseksi tarvitaan ylimääräinen poiminta, poimi tukevasta viereisestä neuleesta ja laske se kokonaismäärään. Tee mahdollinen myöhempi kavennus ohjeen mukaan. V-pääntien kavennukset tai ulkokulman myöhemmät lisäykset ovat erillistä muotoilua; ylimääräiset poiminnat eivät korvaa niitä.
 
 ## Mihin puikko työnnetään
 
-**Yksi silmukka reunasta sisäänpäin.** Reunasilmukan ja toisen silmukan välistä. Siistein lopputulos. Reunasilmukka muodostaa taitelinjan, ja reunus istuu hieman reunan sisäpuolella eikä sen päällä.
-
-**Itse reunasilmukan läpi.** Hieman paksumpi mutta helpompi ja intuitiivisempi. Jotkut ohjeet määräävät tämän.
-
-Saumatuissa reunoissa poimi saumasilmukan ja seuraavan silmukan välistä. Saumanvara jää reunuksen taakse piiloon.
-
-Ole johdonmukainen koko reunan matkalla. Tavan vaihtaminen kesken reunan näkyy epätasaisuutena.
+Yhden pylvään saumanvara sopii yllä kuvattuun sileän neuleen sivureunaan. Itse reunasilmukasta poimiminen voi vähentää paksuutta mutta muuttaa liitosta. Nostettu, ainaoikea, saumattu tai muotoiltu reuna voi tarvita eri kohdan. Poimi olemassa olevan saumanvaran sisäpuolisesta tukevasta neuleesta, älä löyhästä ompelulangasta. Tavan vaihtaminen reunan rakenteen vaihtuessa on perusteltua.
 
 ## Silmukoiden jakaminen tasaisesti
 
-Merkitse reuna osiin ennen poimimista. Puolita reuna, puolita puolikkaat ja jatka, kunnes sinulla on hallittavia välejä. Jos pitää poimia 100 silmukkaa koko reunalta, neljä 25 silmukan osiota on helpompi pitää tasaisena kuin yksi pitkä lasku.
+Merkitse osien rajat poimintakohtien väliin, jotta päätykohtia ei lasketa kahdesti. Samanpituisille ja samanrakenteisille osuuksille voidaan jakaa sama määrä.
 
-Tämä toimii erityisen hyvin pääntiellä ja nappilistoissa. Saat virheen kiinni heti yhdessä osiossa, et vasta lopussa, kun silmukoita on 7 liikaa.
+Jos 140 reunakerroksesta tarvitaan 100 silmukkaa, jaa reuna neljään 35 kerroksen osaan. Poimi kustakin 25 silmukkaa: toista edellä kuvattu 5/7-rytmi viisi kertaa. Jokaisesta osasta ohitetaan 10 kohtaa. Yhteensä 100 poimintaa + 40 ohitettua kohtaa = 140.
+
+Jos ohje tarvitsee 102 silmukkaa, jaa ne symmetrisesti 26 + 25 + 25 + 26. Poimi kummankin uloimman osan kohdasta 17 yksi lisäsilmukka aiemman ohituksen sijaan. Ulompiin osiin jää 9 ohitusta kumpaankin: yhteensä 102 poimintaa + 38 ohitusta = 140. Ensimmäinen ja viimeinen kohta ovat jo mukana; niitä ei lisätä uudelleen merkkien kohdalla.
+
+Suljettu 1 o, 1 n -joustin tarvitsee parillisen määrän ja 2 o, 2 n -joustin neljällä jaollisen määrän. Tasossa 2 o, 2 n -joustin, joka alkaa ja loppuu kahdella oikealla, tarvitsee 4n + 2 silmukkaa ennen erillisiä reunasilmukoita. Siihen sopii 102 = 4 × 25 + 2. Jos lisäät vielä yhden reunasilmukan kumpaankin päähän, kokonaismäärä on 104; ne pitää sisällyttää poimintajakoon tai lisätä ohjeen määräämällä tavalla. Tarkista myös pituus ja istuvuus, ei vain jaollisuus.
+
+Jos samasta 140 kohdasta poimitaan 104 silmukkaa, poimi 26 jokaisesta osasta käyttämällä kohtaa 17 kaikissa neljässä osassa: 104 poimintaa + 36 ohitettua kohtaa = 140.
 
 ## Virkkuukoukun käyttäminen
 
-Virkkuukoukku voi olla helpompi, jos reuna on tiukka tai puikko tuntuu kömpelöltä. Vedä lenkki reunasta koukulla ja siirrä se puikolle. Tee sama koko reunan matkalla.
-
-Koukku ei muuta poimintatiheyttä. Se on vain väline lenkin nostamiseen. Laske silmukat samalla tavalla kuin puikolla poimiessa.
+Vie koukku samaan valittuun kohtaan, ota työlanka neuleen takaa ja vedä uusi lenkki eteen. Siirrä se puikolle kiertämättä silmukkaa. Koukku vaihtaa työvälineen, ei poimintamäärää tai -suhdetta.
 
 ## Apulangalla testaaminen
 
-Jos poiminta epäilyttää, testaa poimintarivi ensin sileällä apulangalla. Laske silmukat, tarkista väli ja pura testirivi pois. Kun tahti on oikea, tee sama uudelleen varsinaisella langalla.
-
-Näin voit tarkistaa määrän ja jaon ilman, että varsinainen lanka rispaantuu toistuvasta käsittelystä. Tämä on hyödyllistä villapaidan pääntiessä, jossa istuvuus riippuu poimintamäärästä. Se auttaa myös silloin, kun reuna on napakka, pörröinen tai niin tumma, että oikean poiminnan purkaminen olisi ärsyttävää.
+Sileällä apulangalla voit kokeilla poimintakohtia ja määrää ennen varsinaista lankaa. Eripaksuinen tai eri tavoin joustava apulanka ei todista valmiin reunuksen istuvuutta. Kokeile sitä projektin langalla ja oikealla mallineuleella.
 
 ## Yleiset virheet
 
-**Liikaa silmukoita.** Reunus levenee ulospäin ja näyttää aaltoilevalta. Tee poimintakerros uudelleen vähemmillä silmukoilla. Parempi huomata heti kuin usean reunuskerroksen jälkeen.
+**Aaltoilu tai poimut.** Liika silmukkamäärä voi levittää reunusta, liian pieni kiristää alkuperäistä reunaa. Tarkista myös langankireys, poimintasyvyys, reunuksen tiheys, muotoilu ja päättelyn jousto. Tee poiminta uudelleen, jos määrä tai jako on väärä. Puikkokoon vaihto tai myöhempi kavennuskerros ei poista liittymään jo jäänyttä ylimääräistä neuletta.
 
-**Liian vähän silmukoita.** Reunus vetää sisäänpäin ja tekee ryppyjä. Sama korjaus: tee uudelleen.
+**Epätasainen jako.** Tarkista osat yksitellen ja hajauta ohitukset. Sama silmukkamäärä sopii yhtä suuriin osiin vain, jos myös rakenne vastaa toisiaan.
 
-**Epätasainen väli.** Osa kohdista venyy ja osa kerääntyy. Ennen poimimista jaa reuna yhtä suuriin osiin, merkitse ne nuppineuloilla tai merkeillä ja poimi sama määrä jokaisesta osasta.
+**Aukot kulmissa.** Vältä löyhiä reunalenkkejä ja kulmien laskemista kahdesti. Pienen jäljelle jäävän aukon voi sulkea langanpäällä reunaa kiristämättä; katso [saumausopas](/fi/artikkelit/neulekappaleiden-yhdistaminen/). Älä lisää automaattisesti kolmea kulmasilmukkaa.
 
-**Aukot kulmissa.** Poimi aivan kulmasilmukasta ja yksi silmukka kummastakin viereisestä osasta. Jos pieni reikä jää silti, sulje se viimeistelyssä muutamalla pistolla. [Saumausopas](/fi/artikkelit/neulekappaleiden-yhdistaminen/) käsittelee sulkemistekniikoita tarkemmin.
-
-**Kiertyneet silmukat.** Jos poimittu silmukka istuu jalat ristissä, se näyttää erilaiselta neulottaessa. Johtavan jalan pitäisi olla puikon edessä, oman neulontatavan mukaisesti.
-
-**Poimintareuna näkyy oikealle puolelle.** Yleensä poimit liian läheltä reunaa tai reunasilmukan läpi, kun ohje olisi tarvinnut yhden silmukan verran sisemmän poiminnan. Siirry yksi silmukka syvemmälle, jolloin poimintaharjanne jää nurjalle puolelle.
+**Kiertynyt silmukka tai näkyvä poimintaharjanne.** Tarkista silmukka-asento, työn puoli ja poimintareitti. Syvemmältä poimiminen voi lisätä paksuutta eikä korjaa kaikkia syitä. Päättele langanpäät joustoa rajoittamatta ja viimeistele langan hoito-ohjeen mukaan.
 
 ## Steekkireunasta poimiminen
 
-Kun asianmukaisesti valmisteltu steek on leikattu eli suljettuun neuleeseen on avattu ylimääräisten silmukoiden sarake esimerkiksi neuletakkia varten, poimittu reunalista voi peittää leikkausreunan ja auttaa vakauttamaan sitä. Reunalista ei korvaa ennen leikkaamista tehtävää vahvistusta silloin, kun lanka, kuitu tai steek-menetelmä sitä vaatii.
+Steek on neuleeseen suunniteltu leikattava aukko. Käytä langalle sopivaa kokeiltua menetelmää: virkattu vahvistus ei riitä kaikille sileille tai huopumattomille langoille. Tee vaadittu vahvistus ennen leikkaamista; reunalista ei korvaa sitä.
 
-Poimi silmukat leikkausreunan sisäpuolella olevasta silmukkasarakkeesta, ei leikatuista langanpäistä. Reunalista voi peittää leikatut päät oikealta puolelta, mutta leikattu läppä tai reuna pitää silti viimeistellä valitun menetelmän mukaisesti.
-
-Huopumattomilla langoilla, kuten puuvillalla ja superwash-villalla, steek pitää vahvistaa virkkaamalla tai ompelemalla molemmin puolin ennen leikkaamista. Käsittelemätön villa tarttuu itseensä paremmin. Puuvilla ja superwash eivät.
+Poimi menetelmän osoittamasta linjasta steekin saumanvaran vaatteenpuoleiselta rajalta, älä aivan leikkauksen vierestä tai katkaistuista langanpäistä. Leikattu saumanvara pitää edelleen kiinnittää tai sulkea reunuksen sisään. Rakenteesta riippuen poiminta tehdään ennen leikkausta tai sen jälkeen; noudata valittua työjärjestystä.
 
 ## Yleisiä kysymyksiä
 
 **Minkä kokoisella puikolla poimitaan?**
-Käytä sitä kokoa, jonka ohje antaa reunukselle, usein yhtä tai kahta kokoa pienempää kuin vartalossa. Pienemmät puikot joustinreunassa tekevät napakamman ja siistimmän reunan.
+Käytä ohjeen reunuspuikkoa ja tarkista reunuksen tiheys. Pienempi puikko tai koukku voi helpottaa tiukan reunan lävistämistä, mutta siirrä silmukat työpuikolle kiristämättä poimintakerrosta. Pienempi ei ole automaattisesti siistimpi.
 
 **Poimitaanko oikea puoli näkyvissä?**
-Yleensä kyllä. Poimi oikea puoli näkyvissä, jolloin ensimmäinen reunuskerros on nurjan puolen kerros, sileään neuleeseen perustuvissa reunuksissa nurja. Poimintaharjanne jää nurjalle puolelle.
+Tässä oikein neuloen tehtävässä menetelmässä kyllä. Tasoneuleessa käännä työ poiminnan jälkeen ja seuraa nurjan puolen kerroksen ohjetta. Suljettuna jatkettaessa työtä ei käännetä, ellei ohje niin käske. Nurjan puolen kerros ei tarkoita kaikkien silmukoiden neulomista nurin.
 
 **Montako silmukkaa nappilistaan?**
-Ohjeen pitäisi kertoa. Jos ei kerro, käytä reunusmallin silmukkatiheyttä kerrottuna reunan pituudella. Jos etureuna on 50 cm ja reunuksen neuletiheys on 20 silmukkaa / 10 cm, se on noin 100 silmukkaa. Säädä, jos lista kiristää tai kupruilee.
+Noudata ohjetta. Ilman lukumäärää arvioi reunuksen tavoitepituus × sen silmukkatiheys: 50 cm × 20 silmukkaa / 10 cm = 100 silmukkaa. Tarkista mallikerta, päätykohdat ja tarkoitettu jousto. Käytä alkuperäisen reunan kerrosmäärää tämän kokonaismäärän jakamiseen.
 
 **Miksi poimintarivi näyttää epätasaiselta oikealta puolelta?**
-Useimmiten syy on vaihteleva poimintasyvyys. Osa silmukoista on poimittu yksi silmukka reunasta sisäänpäin, osa itse reunasilmukan läpi. Poimi uudelleen ja päätä ensin, kumpaa tapaa käytät koko matkalla.
+Tarkista poimintasyvyys, jako ja lenkkien kireys. Korjaa syy ennen uutta yritystä. Sopiva poimintakohta voi vaihtua kulmassa tai reunan rakenteen muuttuessa.
 
-**Voiko valmiiseen pääteltyyn reunaan lisätä pituutta poimimalla silmukat ja neulomalla alaspäin?**
-Kyllä. Poimi päätellystä reunasta kuten vaakasuorasta reunasta, yleensä yksi silmukka jokaista pääteltyä silmukkaa kohti, ja neulo alaspäin. Uusi osa kulkee rakenteessa eri suuntaan, koska silmukat ovat alkuperäiseen nähden ylösalaisin, mutta useimmissa mallineuleissa ero ei näy. Kätevä silloin kun villapaidan miehusta jää pari senttiä liian lyhyeksi.
+**Voiko pääteltyyn reunaan lisätä pituutta poimimalla silmukoita?**
+Voi, mutta jäljelle jäävä päättely tekee harjanteen ja voi rajoittaa joustoa. Päättelyreunasta jatketaan yleensä alkuperäiseen neulomissuuntaan. Luomisreunasta ulospäin neulominen kääntää suunnan ja voi siirtää pylväitä puoli silmukkaa. Liitoksen näkymättömyyttä ei voi luvata; kokeile rakennetta ensin tilkulla.
 
 **Poimintamäärä täsmää ohjeeseen, mutta reuna aaltoilee. Miksi?**
-Ohje voi olettaa eri kerrostiheyden kuin sinun neuleesi. Jos kerrostiheytesi on tiheämpi, samalle matkalle tulee enemmän kerroksia ja ohjeen poimintamäärä voi käyttäytyä eri tavalla. Poimi uudelleen oman reunan mukaan ja säädä seuraavalla reunuskerroksella silmukkamäärää lisäys- tai kavennuskerroksella, jos ohjeen kokonaismäärään pitää palata.
+Todellinen reunan pituus, reunuksen tiheys tai poimintakireys voi erota ohjeen oletuksesta. Tarkista ne ennen määrän muuttamista. Suunnitellut lisäykset tai kavennukset voivat sovittaa määrän myöhempään mallikertaan, mutta eivät takaa väärällä poimintasuhteella tehdyn liitoksen tasaisuutta.
+
+Tekniikkalähteitä: [Piia Maria Knit: silmukoiden poimiminen oikein neuloen](https://piiamariaknit.com/silmukoiden-poimiminen-oikein-neuloen/) ja [Purl Sohon poimintaohjeet (englanniksi)](https://www.purlsoho.com/create/picking-up-stitches/).

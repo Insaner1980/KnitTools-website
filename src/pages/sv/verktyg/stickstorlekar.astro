@@ -14,11 +14,11 @@ const faqs = [
   },
   {
     q: "Är stickstorlekar samma hos alla märken?",
-    a: "De borde vara det. I praktiken finns små skillnader, särskilt på billigare set eller äldre stickor. Om stickfastheten hela tiden är fel, mät stickan.",
+    a: "Inte alltid. Samma US-nummer kan motsvara olika millimetermått hos olika märken eller i olika tabeller, särskilt US 17 och 19. Kontrollera millimetermärkningen eller mät skaftet med en stickmätare och gör ett stickprov.",
   },
   {
     q: "Vad gäller för rundstickor?",
-    a: "Samma storlekar som för raka stickor. Storleken beskriver spetsens diameter, inte kabelns längd. En rundsticka på 4,5 mm är en sticka på 4,5 mm oavsett om kabeln är kort för en mössa eller lång för magic loop.",
+    a: "Samma storlekar som för raka stickor. Storleken anger diametern på det jämntjocka skaftet bakom den avsmalnande spetsen, inte stickans eller kabelns längd. En rundsticka på 4,5 mm har samma nominella diameter som en rak sticka på 4,5 mm.",
   },
   {
     q: "Behöver jag varje stickstorlek?",
@@ -42,6 +42,19 @@ const faqs = [
 >
   <div slot="tool">
     <div class="table-wrapper">
+      <p>
+        Tabellen gäller stickor, inte virknålar. UK/Kanada avser det gamla
+        nummersystemet. US-halvstorlekar följer KnitPro och japanska nummer 0–15
+        följer Clover (0 = 2,1 mm). Ett streck betyder att ingen numrerad
+        motsvarighet anges här; grövre japanska stickor märks i millimeter.
+      </p>
+      <p>
+        US-märkningen varierar: KnitPro anger 12–12,75 mm som US 17 och 15–16 mm
+        som US 19; ChiaoGoo använder 12,75 mm respektive 15 mm. Utgå från
+        diametern i millimeter. Garnkategorierna är riktlinjer från CYC, ingen
+        garanti för stickfasthet eller passform. Till spetsstickning används
+        ofta grövre stickor för ett öppet mönster.
+      </p>
       <input
         type="text"
         id="needle-search"
@@ -72,7 +85,7 @@ const faqs = [
                 >
                   <td class="col-mm">{formatMm(row[0])}</td>
                   {row.slice(1).map((cell) => (
-                    <td>{cell === "-" ? "—" : cell}</td>
+                    <td>{cell === "-" ? "—" : formatMm(cell)}</td>
                   ))}
                 </tr>
               ))
@@ -126,13 +139,13 @@ const faqs = [
     <p>
       <strong>UK-systemet går åt andra hållet.</strong> US-storlekar blir högre när
       stickorna blir grövre. Gamla UK-storlekar blir lägre. US 6 är 4,0 mm. UK 6 är
-      5,0 mm. Byt ihop dem och stickprovet är en hel millimeter fel innan du ens har
-      stickat första varvet. Det händer fler än man tror.
+      5,0 mm. Blandar du ihop dem skiljer stickornas diameter en hel millimeter, vilket
+      kan ändra stickfastheten.
     </p>
     <p>
       <strong>Alla storlekar har inte perfekta motsvarigheter.</strong> Alla metriska
       storlekar har inte en ren motsvarighet i varje annat system. En sticka på 3,0
-      mm märks ibland som US 2.5 av vissa märken, medan andra tabeller placerar den
+      mm märks ibland som US 2,5 av vissa märken, medan andra tabeller placerar den
       mellan US 2 och US 3. En sticka på 3,5 mm saknar ofta gammal UK-motsvarighet
       helt. När det händer, gå tillbaka till millimeterstorleken och strunta i resten.
     </p>

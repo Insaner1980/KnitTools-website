@@ -14,27 +14,28 @@ tags:
 draft: false
 lang: fr
 translationKey: "knitting-pattern-repeats"
+updatedDate: 2026-10-18
 ---
 
-Les répétitions évitent aux modèles d'écrire chaque maille sur un rang de 200 mailles. Au lieu de `2 m. end., 2 m. env., 2 m. end., 2 m. env...` cinquante fois, le modèle écrit `*2 m. end., 2 m. env.; rép. depuis * jusqu'à la fin`. Même résultat, beaucoup moins de place.
+Un rang de 200 mailles contient 50 groupes de `2 m. end., 2 m. env.`. Écrire `*2 m. end., 2 m. env.; rép. depuis * jusqu'à la fin` évite de recopier ce groupe 50 fois. Chaque maille endroit ou envers utilise une ancienne maille et en produit une : le rang se termine avec 200 mailles.
 
-Dans les modèles de tricot, les répétitions utilisent des astérisques (\*), des crochets [] ou des parenthèses () pour marquer une section de mailles à travailler plusieurs fois sur le rang. La notation est efficace une fois qu'on y est habitué. Mais les premières rencontres avec des répétitions imbriquées ou des astérisques avec restes peuvent donner l'impression de lire une langue qu'on parle presque.
+Les exemples suivent les conventions de répétition décrites par le [Craft Yarn Council](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern). La ponctuation n'a pas un sens universel : lis les définitions du modèle. Un rapport est une unité de mailles, parfois sur plusieurs rangs ; répéter une action ne revient pas toujours à répéter tout le motif. Les exemples sont indépendants, sans mailles de bord supplémentaires non indiquées.
 
 ## Répétitions avec astérisque
 
-Le format le plus courant. L'astérisque marque le début de la section répétée.
+Ici, l'astérisque marque le début et la consigne de répétition précise la fin. Deux astérisques `* ... *` peuvent encadrer le groupe. Un double astérisque `**` peut servir d'autre point de renvoi : suis la consigne qui y renvoie, sans supposer qu'il signifie « deux fois ».
 
 **Simple :** `*3 m. end., 1 m. env.; rép. depuis * jusqu'à la fin.`
 
-Tricote 3 mailles endroit, 1 maille envers, reviens à l'astérisque, tricote 3 mailles endroit, 1 maille envers, continue jusqu'à la fin du rang. Ton nombre total de mailles doit être un multiple de 4, l'unité de répétition étant 3 mailles endroit + 1 maille envers.
+Avec 12 mailles, tricote `3 m. end., 1 m. env.` trois fois. Chaque groupe utilise et produit 4 mailles ; il reste 8, 4 puis 0 mailles à travailler. Total final : 12. La formule est 4n, où n est le nombre total de groupes.
 
 **Avec des restes :** `1 m. end., *2 m. end., 2 m. env.; rép. depuis * jusqu'aux 3 dernières m., 3 m. end.`
 
-Tricote 1 maille avant le début de la répétition, puis répète 2 mailles endroit, 2 mailles envers sur le rang. Quand il reste 3 mailles, pas assez pour une répétition complète, tricote ces 3 mailles. Les mailles en dehors de la zone d'astérisque sont des mailles d'équilibre ou des mailles de bord. Elles permettent au point de commencer et finir symétriquement.
+Commence avec 20 mailles : 1 endroit, quatre fois `2 m. end., 2 m. env.`, puis les 3 dernières à l'endroit. Il reste successivement 19, 15, 11, 7, 3 et 0 mailles à travailler ; total final 20. Formule : 1 + 4n + 3 = 4n + 4. Les quatre mailles extérieures sont déjà comprises ; ne les ajoute pas à nouveau comme bordure. Elles sont réservées volontairement, pas laissées par erreur. Elles ne garantissent pas toujours la symétrie.
 
 **Avec un nombre :** `*1 jeté, 2 m. ens. à l'end.; rép. depuis * encore 5 fois.`
 
-"Encore 5 fois" signifie travailler la section une première fois, puis la répéter 5 fois de plus, donc 6 fois au total. C'est un piège classique. "Rép. encore 5 fois" = 6 au total. "Rép. 5 fois" peut se comprendre dans les deux sens. La plupart des modèles veulent dire 5 au total, mais si ton nombre de mailles ne fonctionne pas, essaie de le lire comme 5 fois supplémentaires et vois si le calcul tombe juste.
+« Encore 5 fois » signifie un premier passage et cinq passages supplémentaires : six au total. Commence avec 12 mailles. Un jeté utilise 0 ancienne maille et en produit 1 ; 2 m. ens. à l'end. en utilise 2 et en produit 1. Fais `1 jeté, 2 m. ens. à l'end.` six fois. Il reste 10, 8, 6, 4, 2 et 0 mailles à travailler ; total final 12. « Répéter 5 fois » sans « encore » se lit selon les conventions et le contexte du modèle. Le calcul sert à vérifier, pas à choisir arbitrairement l'interprétation qui tombe juste.
 
 ## Répétitions entre crochets et parenthèses
 
@@ -42,15 +43,15 @@ Plus visuelles que les astérisques.
 
 **Crochets :** `[1 m. end., 1 m. env.] 4 fois.`
 
-Tricoter 1 maille endroit, 1 maille envers, quatre fois au total. Huit mailles, soit 4 répétitions de 2. Les crochets sont clairs : le nombre indique toujours le total.
+Ici, le groupe se travaille quatre fois au total : `1 m. end., 1 m. env., 1 m. end., 1 m. env., 1 m. end., 1 m. env., 1 m. end., 1 m. env.`. On commence et termine avec 8 mailles ; chaque paire utilise et produit 2 mailles. Cette lecture vient de la formulation de l'exemple, pas des crochets seuls.
 
 **Parenthèses :** `(2 m. ens. à l'end., 1 jeté) tout le rang.`
 
-Même idée. La section entre parenthèses se répète sur tout le rang.
+Ici, les parenthèses regroupent des opérations successives sur le rang. Avec 8 mailles, fais `2 m. ens. à l'end., 1 jeté` quatre fois : 2→1 puis 0→1, donc 8→8 sans reste. En revanche, « (1 m. end., 1 m. env., 1 m. end.) dans la prochaine maille » signifie trois opérations dans la même ancienne maille. Garde-la sur l'aiguille gauche jusqu'à la dernière opération : 1→3. Les parenthèses peuvent aussi contenir les valeurs des différentes tailles ; choisis celle de ta taille sans répéter la liste.
 
 **Notation mélangée :** `2 m. end., [1 m. end., 1 m. env.] 3 fois, *4 m. end., 2 m. env.; rép. depuis * jusqu'aux 2 dernières m., 2 m. end.`
 
-Crochets et astérisques dans le même rang. Lis de gauche à droite : tricote 2 mailles endroit, travaille 1 maille endroit/1 maille envers trois fois (6 mailles), puis répète 4 mailles endroit/2 mailles envers jusqu'à la fin, en terminant avec 2 mailles endroit. La répétition entre crochets se fait une fois à un endroit fixe. La répétition avec astérisque remplit la largeur restante.
+Commence avec 22 mailles : `2 m. end.`, puis trois fois `1 m. end., 1 m. env.` (6 mailles), deux fois `4 m. end., 2 m. env.` (12 mailles), puis `2 m. end.`. Il reste 20, 14, 8, 2 et 0 mailles à travailler. Le groupe entre crochets se fait à un seul endroit avant la section étoilée et ne se répète pas avec elle. Formule : 2 + 6 + 6n + 2 = 6n + 10 ; total final 22.
 
 ## Répétitions imbriquées
 
@@ -58,80 +59,74 @@ Parfois, une répétition vit à l'intérieur d'une autre. Généralement dans l
 
 `*[1 m. end., 1 m. env.] 3 fois, 2 m. ens. à l'end., 1 jeté; rép. depuis * jusqu'à la fin.`
 
-La répétition intérieure [1 m. end., 1 m. env.] 3 fois donne 6 mailles de côtes. Puis 2 m. ens. utilise 2 mailles et en produit 1, et le jeté ajoute une maille. L'unité complète consomme 8 mailles de l'aiguille gauche et remet 8 mailles sur l'aiguille droite. Toute l'unité se répète sur le rang.
+Avec 16 mailles, développe le groupe extérieur : `1 m. end., 1 m. env., 1 m. end., 1 m. env., 1 m. end., 1 m. env., 2 m. ens. à l'end., 1 jeté`. Fais cette séquence entière deux fois. Chaque paire intérieure utilise et produit 2 mailles ; la diminution fait 2→1 et le jeté 0→1. Le groupe extérieur fait donc 8→8. Au total : six paires intérieures, deux diminutions et deux jetés ; 16 mailles à la fin, sans reste. « 3 fois » concerne seulement la paire entre crochets.
 
 Lis les répétitions imbriquées de l'intérieur vers l'extérieur. Résous d'abord le crochet, puis traite toute la section avec astérisque comme ton unité de répétition.
 
 ## Rangs de mise en place et points établis
 
-Certains modèles ont un rang de mise en place, souvent noté `set-up row` ou `set-up round`, avant le vrai rapport. Ce rang arrange les mailles dans le rythme que la répétition utilisera ensuite. Un modèle peut dire :
+Un rang de mise en place, set-up row, prépare les mailles avant le rapport. Dans cet exemple indépendant de 18 mailles, tricote `2 m. end., *2 m. env., 2 m. end.; rép. depuis * jusqu'à la fin` : 2 endroit, puis quatre fois `2 m. env., 2 m. end.`. Cela utilise et produit 2 + 4 × 4 = 18 mailles.
 
-```text
-Rang de mise en place : 2 m. end., *2 m. env., 2 m. end.; rép. depuis * jusqu'à la fin.
-En commençant au rang 1, travailler le point comme suit...
-```
+Ici, ce rang se fait une fois et ne fait pas partie du cycle numéroté suivant. Suis le modèle s'il prévoit plusieurs rangs de préparation.
 
-Le rang de mise en place ne fait pas partie de la répétition. Il se travaille une seule fois. Ensuite, le rang 1 du point principal commence depuis une position déjà préparée.
-
-Plus loin, des formules comme `comme établi`, `en suivant le point établi` ou l'anglais `as established` renvoient à cette organisation. Si un pull dit de continuer les emmanchures en gardant les mailles comme établi, garde les mêmes colonnes de mailles endroit et envers, torsades ou dentelle. Ne repars pas au début du motif.
+« Comme établi », ou as established, demande de conserver l'alignement et la succession des rangs du point pendant les augmentations ou diminutions indiquées. Cela ne veut pas dire recommencer le rapport ni tricoter tous les rangs de la même façon.
 
 ## Répétitions sur plusieurs rangs
 
-Certains modèles regroupent plusieurs rangs en bloc.
+Exemple indépendant tricoté à plat : 16 mailles sans bordure supplémentaire, le premier rang sur l'endroit étant le rang 1.
 
 ```text
-Rangs 1 à 4 : *2 m. end., 2 m. env.; rép. depuis * jusqu'à la fin.
-Rang 5 : tout à l'endroit.
-Rang 6 : tout à l'envers.
-Répéter les rangs 1 à 6 jusqu'à ce que la pièce mesure 25 cm.
+Rangs 1–4 : *2 m. end., 2 m. env.; rép. depuis * jusqu'à la fin.
+Rang 5 : toutes les mailles à l'endroit.
+Rang 6 : toutes les mailles à l'envers.
+Répéter les rangs 1–6 le nombre de fois indiqué.
 ```
 
-Travaille la séquence de 6 rangs comme une unité, en répétant tout le bloc jusqu'à la longueur cible. Les rangs 1 à 4 sont les côtes, les rangs 5 et 6 créent le contraste, et tout recommence.
+Chaque rang 1–4 contient quatre groupes de `2 m. end., 2 m. env.`. Le rang 5 comporte 16 mailles endroit et le rang 6, 16 mailles envers. Chaque rang fait 16→16. Tourne après chaque rang. Ici, les rangs 1–4 forment des côtes et 5–6 une bande de jersey. Ces instructions ne se transposent pas telles quelles au tricot en rond.
 
-Attention aux instructions comme `répéter les 2 derniers rangs` ou `répéter seulement les rangs 3 et 4`. Elles désignent une partie plus petite du bloc précédent, pas toute la séquence de 6 rangs. Beaucoup de gens se trompent parce que le cerveau veut remettre les numéros à zéro au moment de répéter. Un compteur de rangs ou des coches sur papier enlève cette charge mentale.
+Les rangs 1–6 comprennent six rangs. Trois exécutions complètes donnent 18 rangs et finissent au rang 6 du cycle. Après les six premiers rangs, trois exécutions **supplémentaires** donnent 24 rangs au total. « Répéter les 2 derniers rangs » après le rang 6 renvoie à 5–6 ; « répéter les rangs 3–4 » désigne une autre paire. Chaque paire compte deux rangs. Une longueur cible de 25 cm ne fixe pas le nombre de rangs sans échantillon en hauteur et rang final précisé.
 
-C'est courant dans les points texturés, les séquences de rayures et la dentelle. Si tu utilises un compteur de rangs, note à la fois le rang absolu et le rang dans la répétition, par exemple `rang 34, rang 4 du rapport`. C'est plus facile à reprendre après une pause.
+Note à la fois le rang total et sa place dans le cycle. Sans rang de mise en place supplémentaire, le rang 34 est le quatrième de la sixième exécution : 5 × 6 + 4 = 34. Un compteur ou des coches sur papier aident à suivre les deux.
 
 ## Marqueurs entre les répétitions
 
-Des marqueurs placés entre les unités de répétition transforment chaque rapport en point de contrôle. Quand tu arrives au marqueur suivant et que le nombre de mailles de cette section est faux, tu sais exactement où l'erreur s'est produite. Inutile de défaire tout le rang pour chercher.
+Les marqueurs entre rapports aident à vérifier le nombre attendu de mailles. Ils ne prouvent pas où l'erreur s'est produite : la limite peut avoir bougé, ou l'erreur se trouver sur un rang précédent. Vérifie le nombre et l'ordre des mailles avant de défaire.
 
-En dentelle, cela fait gagner du temps réel. Un rapport avec jetés et diminutions doit souvent consommer et rendre le même nombre de mailles, sauf si le modèle augmente ou diminue explicitement dans ce rapport. Si tu arrives au marqueur avec une maille en trop ou en moins, le problème est dans le dernier rapport. Défaire seulement cette section suffit souvent.
+Un rapport de dentelle ne conserve pas forcément son nombre de mailles à chaque rang. Vérifie ce que ce rang utilise et produit, et suis les consignes de déplacement des marqueurs ou de travail à cheval sur une limite. Un jeté oublié et une diminution oubliée peuvent se compenser dans le total tout en donnant un motif incorrect.
 
 Dans les motifs imbriqués, deux couleurs de marqueurs aident. Une couleur pour les rapports extérieurs, une autre pour les rapports intérieurs. La première fois, cela peut sembler pointilleux. Dans une étole ou un châle complexe, l'habitude devient vite normale.
 
 ## Diagrammes avec boîtes de répétition
 
-Dans les diagrammes, les répétitions apparaissent souvent dans une boîte encadrée, parfois avec un trait épais ou une couleur. La zone encadrée correspond aux mailles répétées. Tout ce qui se trouve hors de la boîte se travaille une seule fois par rang comme bordure ou mailles d'équilibre.
+Le cadre délimite le groupe selon les indications du diagramme. Les mailles extérieures peuvent se travailler une fois avant et après, ou appartenir à d'autres panneaux et à des points de départ propres aux tailles. Ce ne sont pas automatiquement des mailles de bord.
 
-Un diagramme de dentelle courant se lit ainsi : mailles de bord à droite, boîte de répétition au centre, mailles de bord à gauche. La boîte peut faire 8 ou 12 mailles de large. Tu travailles le bord droit, puis la boîte une fois, encore une fois, encore une fois, jusqu'à atteindre le bord gauche.
+Une convention courante se lit de bas en haut : rangs sur l'endroit de droite à gauche, rangs sur l'envers de gauche à droite ; tours de droite à gauche lorsque l'endroit reste face à toi. Suis la numérotation et la signification des symboles sur chaque face. Travaille les rangs non dessinés selon le texte ; ne les saute pas.
 
-Certains diagrammes ont deux boîtes : une répétition verticale pour les rangs qui se répètent en hauteur, et une répétition horizontale pour les mailles qui se répètent en largeur. La boîte verticale indique le cycle de rangs. La boîte horizontale indique l'unité de mailles.
+La répétition horizontale reste sur la même ligne du diagramme. Verticalement, reviens au début de l'intervalle indiqué après son dernier rang, en ayant travaillé aussi les rangs intermédiaires non dessinés. Respecte le point de départ et les déplacements de marqueurs du rang ou tour suivant.
 
-Lis toujours la légende avant de commencer. Tous les modèles ne marquent pas les boîtes de la même manière, et une limite mal lue décale tout le motif.
+La largeur du diagramme n'est pas forcément le nombre de mailles vivantes : une diminution en utilise plusieurs, un jeté aucune, et une case explicitement définie comme « aucune maille » fait 0→0. Saute la case du diagramme, pas une maille sur l'aiguille. Le [guide de Tin Can Knits](https://blog.tincanknits.com/2014/06/06/how-to-read-a-knitting-chart/) explique les sens de lecture et les limites des rapports.
 
 ## Lignes de vie pour les répétitions complexes
 
-Une ligne de vie est un fil lisse contrastant, souvent du fil dentaire ou un coton fin, passé dans un rang complet de mailles vivantes à un point où l'ouvrage est correct. Si les vingt rangs suivants tournent mal, tu peux défaire jusqu'à la ligne de vie sans perdre les mailles. Le fil contrastant les retient jusqu'à ce que tu les remettes sur l'aiguille.
+Une ligne de vie est un fil lisse contrastant passé dans toutes les mailles vivantes à un endroit vérifié. Laisse les mailles sur l'aiguille, inclus les boucles des jetés, ne passe pas dans les marqueurs et sécurise les extrémités pour éviter que le fil ne glisse hors des mailles.
 
-En dentelle et dans les torsades complexes, les lignes de vie valent la peine avant que l'ouvrage devienne stressant. Place-en une toutes les 10 à 20 rangs, ou à une pause naturelle : fin d'un rapport de diagramme, rang avant une section délicate, rang de mise en place.
-
-Évite de poser une ligne de vie sur un rang plein de jetés. Les jetés rendent la reprise plus confuse, parce que certains trous sont encore ouverts. Un rang endroit, un rang de mise en place ou un rang très lisible est plus sûr.
+Choisis un rang identifiable et vérifié, par exemple la fin d'un rapport, et note son numéro. Il n'existe pas d'intervalle universel de 10–20 rangs ni d'interdiction des rangs avec jetés. Si tu défais jusqu'à la ligne de vie, remets toutes les boucles sur l'aiguille et contrôle leur orientation et leur nombre avant de continuer.
 
 ## Répétitions décalées et demi-rapport
 
-Toutes les répétitions ne commencent pas à la même maille à chaque rang. Dans certaines dentelles ou certains jacquards, le rapport se décale latéralement après quelques rangs pour créer des diagonales ou des losanges. Un demi-rapport décalé déplace le motif d'une moitié de largeur à chaque répétition verticale. Le diagramme peut ressembler à un mur de briques.
+Certains modèles déplacent le début du rapport entre les rangs. Un décalage horizontal d'un demi-rapport représente la moitié de sa largeur ; le modèle précise quand il se produit. Tous les décalages ne sont pas des demi-rapports.
 
-Dans des explications écrites, cela apparaît souvent comme deux rangs alternés :
+Exemple complet à plat sur 16 mailles : A signifie `3 m. end., 5 m. env.` (8→8).
 
 ```text
-Rang 1 : *motif A; rép. depuis *.
-Rang 3 : 3 m. end., *motif A; rép. depuis * jusqu'aux 5 dernières m., travailler les mailles de bord.
+Rang 1 (endroit) : travailler A deux fois.
+Rang 2 (envers) : les 16 mailles à l'envers.
+Rang 3 (endroit) : 3 m. end., travailler A une fois, 5 m. end.
+Rang 4 (envers) : les 16 mailles à l'envers.
+Répéter les rangs 1–4.
 ```
 
-Le décalage est intégré au second rang parce que la répétition commence à un autre endroit.
-
-Ces motifs deviennent plus faciles à lire quand tu vois le décalage dans le tissu fini. Si tu es au milieu d'un rapport décalé et que le rang suivant ne semble pas aligné avec le précédent, c'est peut-être volontaire. Compare avec les rangs déjà tricotés avant de supposer une erreur.
+Le rang 1 est `3 m. end., 5 m. env., 3 m. end., 5 m. env.` ; le rang 3 est `3 m. end., 3 m. end., 5 m. env., 5 m. end.`. Chacun utilise et produit 16 mailles sans reste. Le début de A se décale de 3 mailles, pas de la moitié de sa largeur (4). Les rangs 2 et 4 sont inclus ; après le rang 4, retourne au rang 1. Compare un décalage inattendu avec la bonne instruction, pas seulement avec un passage précédent qui lui ressemble.
 
 ## Quand le calcul ne tombe pas juste
 
@@ -139,36 +134,30 @@ Si tu suis la répétition et qu'il te reste des mailles, ou que tu en manques t
 
 1. Vérifie ton nombre de mailles. Compte les mailles vivantes sur l'aiguille. Est-ce qu'il correspond au nombre indiqué pour ta taille ?
 
-2. Vérifie l'unité de répétition. Si la répétition est \*3 m. end., 2 m. env. (5 mailles), ton total moins les mailles d'équilibre doit être un multiple de 5.
+2. Vérifie la consommation du groupe. `3 m. end., 2 m. env.` utilise et produit 5 mailles. Sans bordure, 15 mailles donnent trois groupes et un total final de 15. Formule : nombre initial = mailles avant + n × consommation du groupe + mailles après. Ajoute une bordure séparée seulement si elle n'est pas déjà comprise. Avec des augmentations ou diminutions, calcule séparément le résultat de chaque rang.
 
 3. Vérifie la notation des tailles. Dans un modèle multi-tailles, il est facile de prendre le mauvais nombre dans une série entre parenthèses.
 
-4. Vérifie les errata. Si le calcul ne fonctionne vraiment pas avec le bon nombre de mailles, le modèle peut contenir une erreur. Regarde la page d'errata du modèle ou les notes Ravelry.
+4. Vérifie la version du modèle et les errata officiels de l'éditeur. Les notes de projet d'autres personnes peuvent donner des pistes, mais ne remplacent pas une correction officielle. Si la formulation reste ambiguë, demande à l'éditeur au lieu de forcer le calcul.
 
 Pour le contexte plus large sur la [lecture des modèles de tricot](/fr/articles/lire-un-modele-de-tricot/), y compris tailles, abréviations et diagrammes, c'est couvert séparément.
 
 ## FAQ
 
 **Que veut dire "rép. depuis \* jusqu'aux X dernières m." ?**
-
-Continue à répéter jusqu'à ce qu'il reste X mailles sur l'aiguille gauche. Ces mailles restantes sont ensuite travaillées selon ce qui suit, souvent en maille endroit ou envers, ou en répétition partielle pour équilibrer.
+Travaille des groupes complets jusqu'à ce qu'il reste X mailles d'origine, puis suis la fin de l'instruction. Ne commence pas un groupe qui consommerait ces mailles réservées. Si le nombre ne convient pas, vérifie le texte sans inventer une répétition partielle.
 
 **Est-ce que je compte le premier passage ?**
-
-Oui. "Rép. depuis \* encore 3 fois" = 4 fois au total (1 passage initial + 3 de plus). "Rép. 3 fois" sans "encore" signifie généralement 3 au total. Le calcul du nombre de mailles te dit quelle lecture est juste quand la formulation est ambiguë.
+Un premier passage et 3 de plus donnent 4 au total ; avec `1 jeté, 2 m. ens. à l'end.`, cela fait 8→8. Trois passages au total feraient 6→6. Sans « encore », vérifie les conventions et le contexte ; le nombre de mailles ne résout pas toujours l'ambiguïté.
 
 **Comment suivre ma place dans une longue répétition ?**
-
-Avec des marqueurs entre les unités de répétition. Quand tu arrives à un marqueur, tu recommences proprement. Pour les répétitions sur plusieurs rangs, un compteur de rangs ou des coches sur papier.
+Utilise des marqueurs lorsque les limites le permettent et note le rang total ainsi que le rang dans le cycle. Un marqueur est un point de contrôle, pas une consigne de recommencer tout le motif.
 
 **Pourquoi des astérisques plutôt que des crochets ?**
-
-Préférence de rédaction. Les crochets sont plus explicites, le nombre indique toujours le total. Les astérisques sont traditionnels et compacts. Certains modèles utilisent les deux : astérisques pour la répétition principale, crochets pour les sous-répétitions.
+L'éditeur choisit la convention. Ici, `[1 m. end., 1 m. env.] 4 fois` signifie quatre passages au total. Les crochets n'annulent pas le mot « encore », et les parenthèses peuvent aussi indiquer des tailles ou plusieurs opérations dans une seule maille.
 
 **Puis-je ajouter une ligne de vie au milieu d'un rang ?**
-
-Pas facilement. Les lignes de vie fonctionnent mieux à travers un rang complet de mailles vivantes sur l'aiguille. Si tu en veux une au milieu d'un long rang, termine le rang, puis passe la ligne de vie dans toutes les mailles avant de continuer.
+Pour la méthode décrite ici, choisis un rang complet et vérifié. Si tu remarques une erreur en cours de rang, résous-la avant de choisir l'emplacement de la ligne de vie ; ne termine pas un rang incorrect uniquement pour l'installer. Note le rang et inclus toutes les boucles vivantes.
 
 **Que faire si le rapport se décale soudainement ?**
-
-Vérifie si le modèle utilise une répétition décalée ou un demi-rapport. Cela peut être volontaire. Compare le dernier rang avec une partie déjà tricotée du même motif. Si le décalage correspond, tu es probablement sur la bonne voie. Sinon, défais jusqu'au dernier nombre de mailles vérifié et retricote.
+Vérifie le numéro du rang, les limites, les augmentations ou diminutions et le décalage ou déplacement de marqueurs indiqué. Un total correct ou une ressemblance avec un rang précédent ne prouve pas que le motif est juste. Localise l'erreur avant de décider jusqu'où défaire.

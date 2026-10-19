@@ -1,0 +1,209 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f2e3]:
+    - banner [ref=f2e4]:
+      - link "KnitTools home" [ref=f2e5] [cursor=pointer]:
+        - /url: /
+        - text: KnitTools
+      - navigation [ref=f2e6]:
+        - link "Tools" [ref=f2e7] [cursor=pointer]:
+          - /url: /tools/
+        - link "Articles" [ref=f2e8] [cursor=pointer]:
+          - /url: /articles/
+        - group [ref=f2e9]:
+          - 'generic "Language: English" [ref=f2e10] [cursor=pointer]': English
+        - link "Notify me at launch" [ref=f2e13] [cursor=pointer]:
+          - /url: /#join
+    - main [ref=f2e14]:
+      - article [ref=f2e15]:
+        - generic [ref=f2e17]:
+          - paragraph [ref=f2e18]:
+            - link "← All articles" [ref=f2e19] [cursor=pointer]:
+              - /url: /articles/
+          - paragraph [ref=f2e20]: Gauge & Calculations
+          - heading "What is gauge in knitting and why does it change?" [level=1] [ref=f2e21]
+          - paragraph [ref=f2e22]:
+            - generic [ref=f2e23]: By KnitTools
+            - generic [ref=f2e24]: Published May 2026
+        - generic [ref=f2e26]:
+          - paragraph [ref=f2e27]: Gauge is the number of stitches and rows (or rounds) that fit into a measured section of knitted fabric. When a pattern says “20 stitches and 28 rows = 4 x 4 inches in stockinette,” that’s what the designer’s fabric looked like. Match that density and your project has a much better chance of coming out the right size.
+          - paragraph [ref=f2e28]: That’s the short version. The more useful version is understanding why two knitters can get completely different gauge from the same yarn and needles, and why your own gauge can drift partway through a single project.
+          - heading "Gauge is personal" [level=2] [ref=f2e29]
+          - paragraph [ref=f2e30]: Everyone holds yarn differently. Some knitters wrap it tightly around their fingers. Some let it flow more freely. Two knitters using the exact same yarn, the same needle size, and the same pattern can produce noticeably different fabric. This surprises people, but it shouldn’t.
+          - paragraph [ref=f2e31]: That’s why swatching exists. The pattern gives you a target. Your swatch tells you whether your hands, with this yarn and these needles, actually hit it. If you’re off, needle size is usually the first thing to change. More stitches over the stated width usually calls for larger needles; fewer calls for smaller needles. Swatch again to check both gauge and fabric.
+          - paragraph [ref=f2e32]: There’s no morally correct knitting tension. Tight knitters aren’t wrong. Loose knitters aren’t wrong. The goal is to get the fabric the pattern requires, however you get there.
+          - heading "Knitting style changes gauge too" [level=2] [ref=f2e33]
+          - paragraph [ref=f2e34]: Needle size gets blamed for a lot of gauge problems that actually trace back to how the yarn is held and wrapped. Continental knitters carry the yarn in the left hand and pick it with the needle tip. English knitters hold the yarn in the right hand and throw it around the needle. Combination knitting changes the stitch mount through the purl wrap; on the following row, work into the leading leg so the stitch stays untwisted. Portuguese knitters tension the yarn around the neck or through a pin on the chest, and guide the yarn with the thumb.
+          - paragraph [ref=f2e35]: Each of these can produce a slightly different fabric with the same yarn and the same needle. Purl tension is where the styles often diverge. Some knitters purl looser than they knit. Others purl tighter. If your knit rows and purl rows don’t match neatly, flat stockinette and stockinette in the round may not measure the same.
+          - paragraph [ref=f2e36]: If you’ve been knitting English for ten years and decide to learn Continental to speed up, your gauge may shift. It’s not a flaw in either style. It’s a different fabric coming off the needles.
+          - heading "Why gauge changes within a project" [level=2] [ref=f2e37]
+          - paragraph [ref=f2e38]: Matching gauge in your swatch doesn’t guarantee it stays the same for the next 40 hours of knitting. A few things push it around.
+          - paragraph [ref=f2e39]: Some knitters start tight and loosen up as they settle into a project. Others go the other direction when they get tired. Over a sweater’s worth of knitting, that shift can show. Stress, fatigue, cold hands. They can all affect tension.
+          - paragraph [ref=f2e40]: Yarn joins and new skeins can introduce small shifts too, especially if the twist varies a little between skeins. And stitch pattern changes affect gauge even when your hands are doing exactly what they always do. Ribbing, stockinette, cables, lace, seed stitch. They all behave differently.
+          - paragraph [ref=f2e41]: "The one that catches a lot of people: circular vs flat knitting. Flat stockinette alternates knit and purl rows. Stockinette in the round is all knit rounds. If your purl tension differs from your knit tension (and for many knitters, it does), the fabric changes. Neither swatch was wrong."
+          - heading "Needle material affects gauge" [level=2] [ref=f2e42]
+          - paragraph [ref=f2e43]: Different needle materials grip the yarn differently, and that can change gauge. The amount and direction vary with the knitter, yarn, and needle finish.
+          - paragraph [ref=f2e44]: Metal needles are usually the slickest. Stitches slide off quickly, the working yarn moves freely, and some knitters end up slightly looser on metal. Within the metal category there’s already variation.
+          - paragraph [ref=f2e45]: Wood and bamboo have more friction. The stitches don’t slip around as much, the yarn drags a little, and some knitters end up slightly tighter on wood. For slippery fibers like silk, mercerized cotton, or rayon-blend yarns, wood or bamboo can also keep stitches from sliding off mid-row.
+          - paragraph [ref=f2e46]: Carbon fiber needles can feel different again; there is no fixed grip ranking that applies to every needle and yarn combination.
+          - paragraph [ref=f2e47]: "The practical lesson: swatch on the same needles you’ll use for the project. Swatching on bamboo and then switching to metal partway through gives you one more variable to explain if the gauge changes at the colorwork yoke."
+          - heading "Pre-block vs post-block gauge" [level=2] [ref=f2e48]
+          - paragraph [ref=f2e49]: This is a major source of “my swatch was right but the sweater doesn’t fit” complaints.
+          - paragraph [ref=f2e50]: The fabric coming off the needles is not the finished fabric. Wool can bloom after wet blocking, opening up and softening. Cotton can relax and lengthen. Superwash wool can grow. Linen softens and drapes. The point isn’t that every fiber behaves the same way every time. It’s that the first wash can change the fabric enough to matter.
+          - paragraph [ref=f2e51]:
+            - text: Compare gauge in the state the pattern specifies, including unblocked if requested. To assess finished size, also wash and dry the swatch as you will the finished item. If the pattern gives no state, use the finished swatch as your reference. The
+            - link "blocking guide" [ref=f2e52] [cursor=pointer]:
+              - /url: /articles/how-to-block-knitting/
+            - text: covers the wet-blocking process, and the
+            - link "gauge measurement guide" [ref=f2e53] [cursor=pointer]:
+              - /url: /articles/how-to-measure-knitting-gauge/
+            - text: walks through where and how to measure once the swatch is dry.
+          - paragraph [ref=f2e54]: A change after blocking reflects how the fabric responds to finishing, not a change in your hands while knitting. Compare measurements taken in the same state.
+          - heading "Gauge and yarn behavior" [level=2] [ref=f2e55]
+          - paragraph [ref=f2e56]:
+            - text: Fiber content affects how stable gauge stays. Wool usually springs back. Cotton can stretch under its own weight. Superwash wool can shift after washing in ways untreated wool doesn’t. The
+            - link "fiber comparison guide" [ref=f2e57] [cursor=pointer]:
+              - /url: /articles/yarn-fibers-compared/
+            - text: gets into this in more depth.
+          - paragraph [ref=f2e58]: Yarn construction matters too. A dense, tightly plied yarn behaves differently from a lofty singles. Handspun can vary from one section to the next, and that variation is part of the deal. Even dye lot differences can shift the hand of the yarn slightly between skeins. Old stash yarn that’s been compressed in a bin for two years doesn’t always feel the same as a fresh skein.
+          - paragraph [ref=f2e59]: Smaller needles generally make denser fabric; larger needles make looser fabric. Hitting gauge on numbers alone isn’t the same as making fabric suitable for the project. Even a change from US 7 to US 3 can be appropriate for your knitting. Check the washed swatch’s gauge, drape, and feel before deciding whether the yarn works.
+          - heading "Pattern stitch gauge vs stockinette gauge" [level=2] [ref=f2e60]
+          - paragraph [ref=f2e61]: A pattern may give gauge in stockinette or in the stitch pattern used for the project. Read carefully.
+          - paragraph [ref=f2e62]: Swatch in the stitch the gauge is given for. Cables pull the fabric in horizontally and need more stitches to cover the same width. Lace can open up and need fewer, depending on the stitch pattern and blocking. Ribbing compresses when relaxed and expands when stretched, so measure it relaxed or stretched as the pattern specifies. A stockinette gauge doesn’t predict a cabled gauge.
+          - paragraph [ref=f2e63]: For mixed-stitch projects, swatching both can be worth the time.
+          - heading "Ease, gauge, and fit" [level=2] [ref=f2e64]
+          - paragraph [ref=f2e65]: Ease is the difference between body measurement and finished garment measurement. Negative ease means the garment is smaller than the body (close-fitting tees, socks, fitted pullovers). Zero ease matches the body. Positive ease means more room (relaxed sweaters, oversized cardigans, drop-shoulder pullovers).
+          - paragraph [ref=f2e66]: Gauge errors hit different ease categories with different force.
+          - paragraph [ref=f2e67]: "A half stitch off per inch can matter. Suppose a sweater has 200 stitches around the body: at 5 stitches per inch, its circumference is 40 inches. With the same stitch count and pattern, 5.5 stitches per inch gives 200 ÷ 5.5 ≈ 36.4 inches (9.1% smaller); 4.5 gives about 44.4 inches (11.1% larger). Both percentages use the intended 40 inches as the baseline. A roughly 4-inch change can strongly affect a fitted pullover; in a cardigan with 10 inches of positive ease it may be less noticeable. It does not correspond to a fixed number of clothing sizes."
+          - paragraph [ref=f2e68]: This is why fitted garments need stricter gauge checks than oversized ones. The math doesn’t care which kind of sweater you’re making, but the finished object does.
+          - heading "Why 4 inches / 10 cm?" [level=2] [ref=f2e69]
+          - paragraph [ref=f2e70]: Most gauge measurements use this size for a reason. Smaller measurements amplify counting errors. A miscount of one stitch across 1 inch is a much bigger percentage error than the same miscount across 4 inches. The swatch should be larger than the measurement window so you can avoid distorted edges.
+          - paragraph [ref=f2e71]: "Four inches and 10 cm are the common measurement windows because they’re large enough to reduce counting error without turning the swatch into a project. They’re close, but not identical: 10 cm is about 3.94 inches. If a pattern gives gauge over 10 cm, measure 10 cm. If it gives gauge over 4 inches, measure 4 inches."
+          - paragraph [ref=f2e72]: Prefer the pattern’s full measurement window to counting over just 1 inch and multiplying.
+          - heading "Gauge tools" [level=2] [ref=f2e73]
+          - paragraph [ref=f2e74]: A ruler does the job. Everything else is convenience.
+          - list [ref=f2e75]:
+            - listitem [ref=f2e76]: A clear plastic ruler with both inch and cm markings handles most situations
+            - listitem [ref=f2e77]: A knit gauge tool (the L-shaped or rectangular kind with a cutout window) helps isolate the stitches you are counting; view it straight from above
+            - listitem [ref=f2e78]: A flexible tape measure works for circumference checks on the body and on in-progress garments
+            - listitem [ref=f2e79]: T-pins for pinning a swatch flat during blocking
+          - paragraph [ref=f2e80]: Brands like ChiaoGoo, KnitPro, and Susan Bates make gauge windows. Most knitters do fine with whatever ruler is in the drawer.
+          - heading "Checking gauge mid-project" [level=2] [ref=f2e81]
+          - paragraph [ref=f2e82]: For projects where gauge matters, check it more than once. Don’t assume the initial swatch holds forever.
+          - paragraph [ref=f2e83]: Lay the work flat and measure in the body of the fabric, away from edges and away from the live stitches on the needle. Edges distort, and stitches near the needle haven’t relaxed yet. Compare unwashed work with the unwashed swatch, not directly with its blocked gauge.
+          - paragraph [ref=f2e84]: If gauge has drifted, you have options. A small needle-size adjustment may correct future knitting; it will not resize fabric already knitted. Measuring by length instead of counting rows works sometimes. And sometimes the honest answer is the difference is too small to worry about.
+          - paragraph [ref=f2e85]: Ripping back is always an option for bigger drift, but that call is much easier to make after 4 inches than after the whole body is finished.
+          - heading "The relationship between gauge and finished dimensions" [level=2] [ref=f2e86]
+          - paragraph [ref=f2e87]: "In conventionally oriented knitting, stitch gauge generally controls width and row gauge generally controls length. In sideways constructions, those roles can change: row gauge may determine width, while stitch gauge may determine length."
+          - paragraph [ref=f2e88]: "When a pattern says “knit to 14 inches,” row gauge matters less because you stop when the fabric reaches the target length. When the pattern says “knit 96 rows,” row gauge matters much more because the length depends entirely on how tall each row is. Allow for changes after washing, and check row-based shaping such as raglan increases separately: reaching the overall length does not fix their spacing."
+          - paragraph [ref=f2e89]:
+            - text: For the practical swatch-and-ruler side of all this, the
+            - link "gauge measurement guide" [ref=f2e90] [cursor=pointer]:
+              - /url: /articles/how-to-measure-knitting-gauge/
+            - text: walks through the process step by step. If you want a quick
+            - link "step-by-step swatch walkthrough" [ref=f2e91] [cursor=pointer]:
+              - /url: /articles/gauge-swatch-step-by-step/
+            - text: without the theory, that’s also available.
+          - heading "FAQ" [level=2] [ref=f2e92]
+          - paragraph [ref=f2e93]:
+            - strong [ref=f2e94]: Is “gauge” the same as “tension”?
+            - text: "In a gauge statement, yes: North American patterns usually say “gauge”, while British patterns often say “tension”. Elsewhere, tension can mean how tightly you hold the yarn rather than a measured stitch or row count."
+          - paragraph [ref=f2e95]:
+            - strong [ref=f2e96]: Can I skip the gauge swatch if I’ve used this yarn before?
+            - text: Risky. Yarn familiarity helps, but a different stitch pattern, different needle material, or a different project type can all change the fabric enough to matter.
+          - paragraph [ref=f2e97]:
+            - strong [ref=f2e98]: Why does my gauge match horizontally but not vertically?
+            - text: Stitch gauge and row gauge can differ independently. Working to a measured length can help in a plain section, allowing for washing, but row-based shaping and pattern repeats may need recalculation. Matching stitch gauge alone does not guarantee fit.
+          - paragraph [ref=f2e99]:
+            - strong [ref=f2e100]: Does needle material affect gauge?
+            - text: Yes. The
+            - link "needle materials guide" [ref=f2e101] [cursor=pointer]:
+              - /url: /articles/knitting-needle-materials/
+            - text: covers how each affects your knitting. If you swatch on bamboo and knit the project on metal, check again.
+          - paragraph [ref=f2e102]:
+            - strong [ref=f2e103]: My gauge was right before blocking and wrong after. What happened?
+            - text: The fabric responded to washing or blocking. Wool can bloom, cotton can lengthen, and superwash wool can grow, but the result depends on the yarn and treatment. Compare with the pattern’s stated measurement condition and check the dry, finished swatch too.
+          - paragraph [ref=f2e104]:
+            - strong [ref=f2e105]: My knit rows and purl rows have different tension. Is that normal?
+            - text: For many knitters, yes. If the difference is large enough to show, some knitters compensate with a different needle size on purl rows or by changing how they tension the yarn.
+          - paragraph [ref=f2e106]:
+            - strong [ref=f2e107]: Does gauge change when I’m tired?
+            - text: It can. If a project takes weeks, the gauge drift between rested and exhausted sessions can show in the fabric.
+      - region [ref=f2e108]:
+        - generic [ref=f2e109]:
+          - paragraph [ref=f2e110]: Be there at launch
+          - heading [level=2] [ref=f2e111]:
+            - text: Where every stitch
+            - emphasis [ref=f2e112]: counts.
+          - generic [ref=f2e113]:
+            - generic [ref=f2e114]: Email address
+            - generic [aria-hidden] [ref=f2e115]: Leave this field empty
+            - textbox [aria-hidden] [ref=f2e116]
+            - generic [ref=f2e117]:
+              - textbox "Email address" [ref=f2e118]:
+                - /placeholder: your@email.com
+              - button "Notify me at launch" [ref=f2e119] [cursor=pointer]
+          - paragraph [ref=f2e120]: Free tier from day one. No card required.
+    - contentinfo [ref=f2e121]:
+      - generic [ref=f2e122]:
+        - generic [ref=f2e123]:
+          - generic [ref=f2e124]:
+            - generic [ref=f2e125]:
+              - heading "Tools" [level=2] [ref=f2e126]
+              - list [ref=f2e127]:
+                - listitem [ref=f2e128]:
+                  - link "Cast On Calculator" [ref=f2e129] [cursor=pointer]:
+                    - /url: /tools/cast-on-calculator/
+                - listitem [ref=f2e130]:
+                  - link "Yarn Estimator" [ref=f2e131] [cursor=pointer]:
+                    - /url: /tools/yarn-estimator/
+                - listitem [ref=f2e132]:
+                  - link "Needle Size Chart" [ref=f2e133] [cursor=pointer]:
+                    - /url: /tools/needle-size-chart/
+                - listitem [ref=f2e134]:
+                  - link "Yarn Weight Chart" [ref=f2e135] [cursor=pointer]:
+                    - /url: /tools/yarn-weight-chart/
+                - listitem [ref=f2e136]:
+                  - link "Knitting Abbreviations" [ref=f2e137] [cursor=pointer]:
+                    - /url: /tools/knitting-abbreviations/
+                - listitem [ref=f2e138]:
+                  - link "Knitting Size Charts" [ref=f2e139] [cursor=pointer]:
+                    - /url: /tools/knitting-size-charts/
+            - generic [ref=f2e140]:
+              - heading "Articles" [level=2] [ref=f2e141]
+              - list [ref=f2e142]:
+                - listitem [ref=f2e143]:
+                  - link "Gauge & Calculations" [ref=f2e144] [cursor=pointer]:
+                    - /url: /articles/category/gauge-calculations/
+                - listitem [ref=f2e145]:
+                  - link "Yarn" [ref=f2e146] [cursor=pointer]:
+                    - /url: /articles/category/yarn/
+                - listitem [ref=f2e147]:
+                  - link "Needles" [ref=f2e148] [cursor=pointer]:
+                    - /url: /articles/category/needles/
+                - listitem [ref=f2e149]:
+                  - link "Techniques" [ref=f2e150] [cursor=pointer]:
+                    - /url: /articles/category/techniques/
+                - listitem [ref=f2e151]:
+                  - link "App & Tools" [ref=f2e152] [cursor=pointer]:
+                    - /url: /articles/category/app-tools/
+            - generic [ref=f2e153]:
+              - heading "App" [level=2] [ref=f2e154]
+              - list [ref=f2e155]:
+                - listitem [ref=f2e156]: Launching soon
+                - listitem [ref=f2e157]:
+                  - link "About" [ref=f2e158] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=f2e159]:
+                  - link "Privacy Policy" [ref=f2e160] [cursor=pointer]:
+                    - /url: https://finnvek.com/privacy#knittools
+          - img "KnitTools" [ref=f2e161]
+        - paragraph [ref=f2e163]:
+          - text: © MMXXVI KnitTools.
+          - link "Finnvek" [ref=f2e164] [cursor=pointer]:
+            - /url: https://finnvek.com
+          - text: .
+          - link "Contact" [ref=f2e165] [cursor=pointer]:
+            - /url: mailto:contact@finnvek.com
+          - text: .

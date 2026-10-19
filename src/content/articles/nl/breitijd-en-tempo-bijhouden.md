@@ -1,7 +1,8 @@
 ---
 title: "Je breitijd en tempo bijhouden"
-description: "Houd breisessies bij om te zien waar je tijd naartoe gaat en hoe je tempo verandert. Praktische methodes, van simpele timers tot sessietrackers."
+description: "Houd breitijd bij met een stopwatch, notities of een projectapp. Bereken vergelijkbare toeren per uur en onderscheid gemeten tijd van geschatte resterende tijd."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 7
 tags:
@@ -19,61 +20,67 @@ translationKey: "track-knitting-time"
 
 De meeste breiers hebben vaag in hun hoofd hoelang projecten duren. "Die trui duurde een paar maanden." "Die sokken gingen best snel." Maar vaag helpt niet als je moet beslissen of je zes weken voor kerst nog aan een vest begint, of als je wilt snappen waarom een muts die in een avond klaar zou moeten zijn ineens drie avonden kost.
 
-Breitijd bijhouden maakt van vage indrukken echte gegevens. Hoeveel uren er in de trui gingen. Hoeveel toeren je gemiddeld per sessie breit. Of je sneller breit in tricotsteek dan in kabels, en hoeveel sneller. De cijfers laten je handen niet sneller bewegen, maar ze helpen je beter plannen en eerder merken wanneer er stilletjes iets misloopt.
+Een tijdlog laat het werk en de tijd zien die je vastlegt. Dat kan helpen bij het plannen, maar een teller weet niet of je breit, het patroon leest of pauzeert. Bepaal vóór het vergelijken wat je meet.
+
+Actieve breitijd is de tijd waarin je de steken werkt. De totale sessieduur kan ook onderbrekingen bevatten. De totale werktijd voor een project kan een proeflapje, lezen, fouten herstellen, in elkaar zetten en afwerken omvatten. De kalendertijd tot het werk af is bevat ook dagen zonder breien en wachten tot gewassen breiwerk droog is. Houd die tijden uit elkaar.
 
 ## Waarom tijd bijhouden
 
-Drie redenen, in de volgorde waarin ze het snelst iets opleveren.
+Drie mogelijke toepassingen:
 
-**Je planning wordt realistischer.** Als je weet dat een muts in worsted-garen je ongeveer 8 uur kost, kan dat helpen bij het schatten van de tijd voor een trui, maar je moet ook rekening houden met de andere afmetingen. Als het lijf van die muts 15 cm tricotsteek was en je daar 45 minuten per 2,5 cm over deed, moet je voor een truilijf van 38 cm bij dezelfde steken- en toerenverhouding niet alleen de extra centimeters, maar ook het verschil in het aantal steken per toer meerekenen. Vormgeving en afwerking kosten extra tijd.
+**Plannen met vergelijkbaar werk.** Stel dat een muts in worsted-garen je in totaal ongeveer 8 uur kostte. Als het rechte deel 15 cm tricotsteek was met 45 minuten per 2,5 cm, kostte dat deel 4 uur 30 minuten. Voor een truilijf van 38 cm moet je ook steken per toer, stekenverhouding en techniek vergelijken. Alleen de lengte is niet genoeg; vormgeving en afwerking vragen eigen schattingen.
 
-**Je merkt vertragingen voordat ze problemen worden.** Als je gemiddeld 12 toeren per sessie breit aan een project en dat zakt een week lang naar 6, dan is er iets veranderd. Misschien werd het steekpatroon lastiger. Misschien vecht je met het garen. Misschien is je spanning verschoven en compenseer je onbewust. De cijfers laten de verandering zien voordat je drie sessies verder bent en je afvraagt waarom het project zo stroperig voelt.
+**Veranderde hoeveelheid werk begrijpen.** Als één sessie 12 toeren oplevert en een andere 6, vergelijk dan eerst de duur. Een kortere sessie kan het verschil verklaren zonder veranderd tempo. Bij even lange sessies kun je kijken naar stekenaantal, steekpatroon, garen, pauzes en herstelwerk. Het toerenaantal toont op zichzelf geen probleem of oorzaak aan.
 
-En dan is er het lange spel. Breitempo kan veranderen door oefening, maar vaak zo geleidelijk dat je het niet voelt gebeuren. Sessiedata van zes maanden geleden naast die van nu laat het concreet zien: meer toeren per uur, minder fouten, sneller herstellen na vergissingen. Vooruitgang die van dag tot dag onzichtbaar is, wordt over maanden makkelijker te zien.
+**Je eigen werk door de tijd volgen.** Vergelijkbare delen die je met zes maanden ertussen breit, kunnen een tempoverschil laten zien. Tijd en toerenaantal meten geen fouten of de snelheid waarmee je die herstelt. Noteer dat apart als je juist die zaken wilt vergelijken.
 
-## Simpel bijhouden: timer op je telefoon
+## Eenvoudig bijhouden: stopwatch op je telefoon
 
-De methode met de minste moeite. Start een timer wanneer je de naalden oppakt, stop hem wanneer je ze neerlegt. Schrijf tijd en aantal toeren in een notitieboek of notitie-app.
+Gebruik een stopwatch die de verstreken tijd optelt. Start bij het begin van het werk dat je wilt meten. Pauzeer bij onderbrekingen en hervat wanneer je verdergaat als je pauzes wilt uitsluiten. Stop aan het einde en noteer de duur en voltooide toeren voordat je op nul zet. Zonder pauzefunctie kun je losse intervallen optellen, elk maar één keer. De stopwatch herkent breien niet automatisch.
 
-Werkt prima voor een enkel project. Wordt rommelig met meerdere WIP's, omdat je voor elk project een aparte regel nodig hebt en je notitieboek volloopt met losse tijdstippen. Het vraagt ook discipline om de timer elke keer te starten en te stoppen, precies zo'n gewoonte die twee weken standhoudt en daarna stilletjes verdwijnt.
+Een notitieboek of notitie-app werkt ook voor meerdere projecten als elke notitie project en onderdeel noemt. Corrigeer vergeten starts of stops en markeer onzekere tijd als geschat. Verwijder dubbele notities en tel overlappende tijd niet twee keer. Een duur die je van de stopwatch overschrijft is gemeten; een duur uit je geheugen, tellerstand of eerder projecttempo is geschat.
 
 ## Bijhouden in een spreadsheet
 
-Een stap serieuzer. Kolommen voor datum, projectnaam, begintoer, eindtoer en duur. Formules berekenen toeren per sessie, toeren per uur en totale tijd.
+Gebruik kolommen voor datum, project, onderdeel, voltooide toeren vóór en na de sessie, duur en omgang met pauzes. Het verschil geeft voltooide toeren als je de teller niet hebt gereset en niets hebt uitgehaald. Noteer anders de correctie apart: nettovoortgang is niet al het werk dat je hebt gedaan.
 
-Dit geeft je echte gegevens om naar te kijken. Zet toeren per uur in een grafiek en je ziet je tempolijn. Vergelijk projecten en de invloed van een ingewikkeld steekpatroon verschijnt in de cijfers. Als je notities laten zien dat een eenvoudig tricotproject veel sneller gaat dan een kabelproject, wordt dat bruikbare planningsdata in plaats van een vaag gevoel.
+Rekenvoorbeeld: 20 toeren in 45 minuten. 45 ÷ 60 = 0,75 uur, dus 20 ÷ 0,75 ≈ 26,7 toeren per uur. Tijd per toer is 45 ÷ 20 = 2,25 minuten, ofwel 2 minuten 15 seconden. Schrijf de duur duidelijk: 1 uur 30 min = 1,5 uur, niet 1,30 uur.
 
-Het nadeel: na elke sessie handmatig invoeren. Vergeet je het, dan zitten er gaten in de data. Rond je af, "ongeveer 45 minuten, misschien 20 toeren", dan verdwijnt precies de nauwkeurigheid die een spreadsheet nuttig maakt.
+Bij vergelijkbare sessies van 20 toeren in 45 minuten en 10 toeren in 15 minuten is het gezamenlijke tempo 30 toeren ÷ 1 uur = 30 toeren per uur. Het ongewogen gemiddelde van de sessietempo's zou ongeveer 33,3 zijn en beschrijft niet de hele tijd. Deel het totale werk door de totale gemeten tijd.
+
+Vergelijk soortgelijke stekenaantallen, steekpatronen, garens, naalden en pauzeregels. Een sneller tricotproject toont niet alleen het tijdseffect van kabels als andere omstandigheden verschillen. Voor steken per minuut heb je de werkelijk gewerkte steken in dat tijdvak nodig. Toeren × steken per toer geldt alleen bij een gelijkblijvend stekenaantal; vormgeving, verkorte toeren en wisselende delen vragen aparte tellingen.
+
+Handmatig invoeren vraagt een notitie na de sessie. “Ongeveer 45 minuten, misschien 20 toeren” kan nog steeds helpen bij een grove planning, maar markeer de getallen als schattingen en rond het tempo passend af. Ontbrekende tijd is onbekend, niet nul.
 
 ## Een breisessie-tracker
 
-Een breitijdtracker in een projectapp automatiseert de onderdelen waar handmatige methodes vaak misgaan. Start een sessie, brei, stop de sessie. De app bewaart de duur, koppelt die aan het project en houdt het aantal toeren erbij.
+Een projectapp kan tijdmeting en tellen bij elkaar houden. Controleer wat de app opslaat en wat je zelf moet invoeren; pauze- en correctiemogelijkheden verschillen.
 
-KnitTools wordt gebouwd met sessies bijhouden gekoppeld aan de [toerenteller](/nl/artikelen/toeren-bijhouden-tijdens-het-breien/). De bedoelde flow is eenvoudig: tel toeren, sla de sessie op en bewaar datum, duur, voltooide toeren en toeren per uur bij het project. Na verloop van tijd bouwt dat een geschiedenis op per project en over al je projecten heen.
+KnitTools wordt ontwikkeld met werksessies bij de [toerenteller](/nl/artikelen/toeren-bijhouden-tijdens-het-breien/). In de huidige uitvoering start je zelf een sessie, verwerk je tellerwijzigingen tijdens het breien en stop je daarna om het overzicht op te slaan of te verwerpen. De geschiedenis bewaart datum, duur en begin- en eindstand bij het project. Tikken op de teller start geen tijdmeting en herkent geen actief breien.
 
-In KnitTools start en stop je elke breisessie zelf binnen dezelfde workflow als de toerenteller. Tikken op de toerenteller start de tijdregistratie niet automatisch, en geregistreerde sessies blijven aan het project gekoppeld.
+Om een pauze uit te sluiten beëindig je de sessie en sla je die op; bij terugkomst start je een nieuwe. Een opgeslagen sessie kun je uit de geschiedenis verwijderen, maar die geschiedenis is geen algemene editor voor tijdnotities. Bewaar een gecorrigeerde tijd apart als je start of stop vergat. Insights gebruikt opgeslagen sessies voor tijdtotalen en minuten per toer. Die cijfers weerspiegelen registraties, geen onafhankelijk waargenomen breiwerk. Ga er niet van uit dat alle grafieken in de gratis versie zitten.
 
 ## Wat de cijfers je echt vertellen
 
 ### Toeren per uur per steekpatroon
 
-Voor veel breiers wordt tricotsteek de snelle basisstof. Andere steekpatronen vertragen het tempo vaak, omdat ze keren, averechte delen, telpatroon lezen, kabelkruisingen, omslagen of minderingen toevoegen.
+Tricotsteek kan een vergelijking voor je eigen werk zijn. Andere steekpatronen kunnen meer telpatroonlezen, kabelkruisingen, omslagen of minderingen vragen. Meet het betreffende deel in plaats van een vast tempo aan een steekpatroon toe te kennen.
 
 Exacte toeren-per-uur-bereiken zijn niet overdraagbaar. Een smalle sjaaltoer, een toer over een truilijf en een sokkentoer zijn geen gelijke eenheden, nog los van garendikte en steekpatroon.
 
-Deze cijfers verschillen enorm per breier. De nuttige vergelijking is niet jouw tempo tegenover dat van iemand anders. Het is jouw tempo in dit patroon tegenover jouw tempo in het vorige.
+Ook je eigen vorige project is alleen direct vergelijkbaar als werk en meetmethode voldoende op elkaar lijken. Anders is het achtergrond voor een nieuwe schatting.
 
 ### Tijd per onderdeel van een project
 
 Een trui kost niet overal evenveel tijd per centimeter. Het lijf in tricotsteek schiet op. De pas met kleurwerk of kabels vertraagt. Mouwen op sokkennaalden of magic loop kunnen ook trager zijn dan het lijf op een lange rondbreinaald, omdat de opstelling priegeliger is.
 
-Sessies bijhouden maakt die verschillen zichtbaar. Als het lijf 20 uur kostte en de pas 15 uur voor de helft van het aantal toeren, kostte een toer van de pas gemiddeld 50% meer tijd, oftewel 1,5 keer zoveel. Handig om te weten voor de volgende trui met pas.
+Stel dat het lijf 20 uur kostte en de pas 15 uur voor de helft van het aantal toeren. Een toer van de pas kostte gemiddeld 50% meer tijd, ofwel 1,5 keer zoveel: (15 ÷ 0,5) ÷ 20 = 1,5. Dat beschrijft deze delen, niet een veranderde handsnelheid of de duur van een anders gevormde pas.
 
-### Tempoverbetering door de tijd
+### Tempoverandering door de tijd
 
-Vergelijk je eerste sok met je vijfde. Je toeren per uur in tricotsteek in januari met juni. De verandering kan klein, groot of ongelijk zijn, maar je vergelijkt tenminste je eigen werk in plaats van te gokken uit je geheugen.
+Je kunt je eerste sok met je vijfde vergelijken, of vergelijkbare tricotdelen in januari en juni. Houd stekenaantal en meetmethode vergelijkbaar en noteer veranderingen in garen of techniek.
 
-Tempo is voor de meeste mensen niet het doel van breien. Maar zien dat je meetbaar beter wordt in iets geeft voldoening, zeker bij een hobby waar vooruitgang anders vaak wordt samengevat als "ik heb een sjaal af".
+Als je het prettig vindt je eigen tempo te volgen, kun je dat doen. Een hoger tempo meet niet de kwaliteit of waarde van het werk.
 
 ## Bijhouden zonder obsessief te worden
 
@@ -81,23 +88,25 @@ Er zit een grens tussen nuttige data en jezelf tegenwerken met te veel controle.
 
 Optimaliseer niet op snelheid ten koste van plezier. Sneller breien doet er niet toe als het proces niet meer prettig is. De data is er voor planning en bewustzijn, niet om van een ontspannende hobby een productiviteitsoefening te maken.
 
-Vergelijk je cijfers niet met die van andere breiers. Handgrootte, breistijl, garenvoorkeur en ervaring beïnvloeden allemaal het tempo. Iemands 40 toeren per uur met fingering-garen zegt niets over jouw 20.
+Een voorbeeld van 40 toeren per uur bij iemand anders kun je niet beoordelen tegenover jouw 20 zonder vergelijkbare stekenaantallen, steekpatronen, garens en meetomstandigheden. Geen van beide getallen is een doel.
 
-Houd bij op het niveau dat nuttig is. Per sessie, dus duur en toeren, is voor de meeste doelen genoeg. Per toer timen is overdreven, tenzij je een heel specifiek probleem probeert te vinden.
+Kies het detailniveau dat je vraag beantwoordt. Duur en voltooide toeren per sessie kunnen genoeg zijn voor planning; tijd per toer of rapport kan helpen bij een vergelijkbaar deel. Noteer het in elkaar zetten apart zonder toerentempo.
 
-Voelt bijhouden als een klus in plaats van een hulpmiddel, stop dan. Data is alleen het verzamelen waard als je er echt iets mee doet. Een breisessie-tracker die in dezelfde flow zit als een toerenteller heeft de minste wrijving. Een handmatige spreadsheet die weken niet wordt bijgewerkt helpt niet.
+Als bijhouden een verplichting wordt, kun je ermee stoppen. KnitTools zet de sessieknoppen bij de toerenteller, maar je start en stopt elke sessie zelf. Kies een methode die je wilt gebruiken.
 
 ## Breitijd koppelen aan projectbeheer
 
-Tijdgegevens worden nuttiger als ze gekoppeld zijn aan je [projectorganisatie](/nl/artikelen/meerdere-breiprojecten-organiseren/). Weten dat je drie weken niet aan een project hebt gewerkt is een ding. Weten dat je er 35 uur in hebt zitten en dat de geschatte totale tijd 50 uur is, geeft betere context om te beslissen of je doorzet of het even weglegt.
+Tijdgegevens kunnen je [projectorganisatie](/nl/artikelen/meerdere-breiprojecten-organiseren/) ondersteunen. Als je 35 uur hebt vastgelegd en het totale werk nu op 50 uur schat, blijven naar schatting 15 uur over. Dat is geen gemeten resttijd: beoordeel de resterende delen, het in elkaar zetten en de afwerking opnieuw. Bij veronderstelde 5 beschikbare werkuren per week betekent dat ongeveer 3 weken, plus eventuele droogtijd of ander wachten.
 
-Voor breiers met meerdere projecten laat tijd per project ook zien hoe je je brei-uren verdeelt. Misschien ontdek je dat 80% van je breitijd naar de makkelijke sok gaat en 20% naar de trui die je eigenlijk af wilt hebben. Soms is het zien van de cijfers al genoeg om de balans te verschuiven.
+35 ÷ 50 = 70% van het geschatte tijdbudget, geen bewijs dat het werk 70% af is. Lengte, toeren, gebruikt garen en tijd meten verschillende dingen. Wissel die percentages niet uit zonder onderbouwing vanuit de constructie.
+
+Met meerdere projecten ging misschien 80% van je vastgelegde tijd naar sokken en 20% naar een trui. Gebruik dezelfde datumperiode en vermijd overlappende notities. De verdeling beschrijft vastgelegde tijd, niet hoe ver elk project af is.
 
 ## Veelgestelde vragen
 
-**Hoe nauwkeurig moet sessies bijhouden zijn?**
+**Hoe nauwkeurig moet je sessies bijhouden?**
 
-Binnen een paar minuten is prima. Ben je vergeten de timer de eerste vijf minuten te starten, of stopte je hem tien minuten nadat je de naalden neerlegde, dan is de data nog steeds bruikbaar voor trends. Gooi een sessie niet weg omdat de timing niet perfect was.
+Dat hangt af van het doel en de sessieduur. Vijf ontbrekende of tien extra minuten kunnen het tempo van een korte sessie sterk vertekenen. Corrigeer bekende fouten, markeer onzekere notities als schattingen en laat ze weg uit nauwkeurige tempovergelijkingen. Ze kunnen nog wel helpen bij een grove tijdschatting.
 
 **Wordt je breitempo echt beter door oefening?**
 
@@ -109,4 +118,4 @@ Er is geen zinvol "normaal". Tempo hangt af van garendikte, steekpatroon, toer- 
 
 **Moet ik de tijd bij elk project bijhouden?**
 
-Doe het bij projecten waar de data nuttig is: kledingstukken met een deadline, complexe projecten waarvan je de resterende tijd wilt inschatten, of elk project waarbij je benieuwd bent naar je tempo. Een gedachteloze tv-sjaal heeft waarschijnlijk geen sessielog nodig.
+Doe het bij projecten waar de data nuttig is: kledingstukken met een deadline, complexe projecten waarvan je de resterende tijd wilt inschatten, of elk project waarbij je benieuwd bent naar je tempo. Een eenvoudige tv-sjaal heeft waarschijnlijk geen sessielog nodig.

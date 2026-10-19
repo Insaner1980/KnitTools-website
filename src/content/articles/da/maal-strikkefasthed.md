@@ -10,15 +10,15 @@ lang: da
 translationKey: "how-to-measure-knitting-gauge"
 ---
 
-Strikkefasthed er den del, strikkere springer over lige før et projekt får forkert størrelse. Huen der blev slasket. Sweateren der voksede til et telt. Ærmet der endte 5 cm længere end måleskemaet lovede. Næsten alle de historier starter på samme måde: "strikkeprøven virkede valgfri."
+En strikkeprøve hjælper dig med at kontrollere projektets mål, før du begynder. En slap hue, en for stor sweater eller et uventet langt ærme kan skyldes afvigende strikkefasthed, men strikkefastheden afgør ikke pasformen alene.
 
-Det er den ikke. Ikke rigtigt. For at måle strikkefasthed skal du strikke en prøve på cirka 15 x 15 cm i det maskemønster, opskriften angiver, eller følge opskriftens egne anvisninger om prøvestørrelse. Behandl og mål prøven i den tilstand, opskriften kræver. Angiver opskriften ingen tilstand, vasker eller blokker du prøven på samme måde som det færdige arbejde. Tæl derefter masker og pinde over et centralt felt på 10 cm væk fra kanterne. Den lille omvej sparer langt mere tid end at trevle en halv trøje op senere. Matematikken er ikke det svære. Det svære er at få sig selv til at gøre det, før du slår op til det rigtige arbejde.
+Strik en prøve på cirka 15 x 15 cm i det maskemønster, der er angivet for strikkefastheden, eller følg opskriftens prøvemål. Sammenlign i den tilstand, opskriften angiver. Angiver den ingen tilstand, behandler du prøven som det færdige arbejde, lader den tørre helt og tæller masker og pinde eller omgange over 10 cm midt på prøven, væk fra kanterne.
 
 ## Hvad strikkefasthed betyder
 
-Strikkefasthed, kaldet tension i mange britiske opskrifter og gauge i nordamerikanske, er antallet af masker og pinde, der passer inden for et bestemt mål af stof. En opskrift kan skrive det som "20 m og 26 p over 10 x 10 cm i glatstrik på pind 4,5 mm (US 7)".
+Strikkefasthed, kaldet tension i mange britiske opskrifter og gauge i nordamerikanske, er antallet af masker og pinde eller omgange, der passer inden for et bestemt mål af stof. En opskrift kan skrive det som "20 m og 26 p over 10 x 10 cm i glatstrik på pind 4,5 mm (US 7)".
 
-Den linje fortæller dig, hvordan designerens færdige stof så ud. Hvis dit strik matcher, har de færdige mål en god chance for også at matche. Hvis det ikke gør, begynder projektets mål straks at drive. Forskellen behøver ikke være dramatisk. En afvigelse på 2 masker pr. 10 cm bliver hurtigt stor. På en sweater med en planlagt overvidde på 100 cm kan den ændre den færdige omkreds med flere centimeter, afhængigt af opskriftens strikkefasthed og af, om du strikker løsere eller fastere. Med samme maskeantal bliver arbejdet bredere ved løsere strikkefasthed og smallere ved fastere strikkefasthed. Det er afstanden mellem "tæt nok på" og "hvorfor hænger den ned over skuldrene?"
+Den linje angiver målegrundlaget: maskemønsteret og en eventuel behandling. Med samme maskeantal og maskemønster ændrer en afvigende strikkefasthed målene. For eksempel giver 200 masker ved 20 masker pr. 10 cm en omkreds på 100 cm. Ved 18 masker pr. 10 cm giver de samme 200 masker cirka 111,1 cm; ved 22 bliver det cirka 90,9 cm. Korrekt strikkefasthed hjælper dig med at vurdere størrelsen, men garanterer ikke pasformen.
 
 ## Sådan strikker du en strikkeprøve
 
@@ -26,45 +26,47 @@ Strikkeprøven er et lille teststykke lavet med dit garn, dine pinde og det mask
 
 Slå nok masker op til en prøve på cirka 15 cm i bredden, eller følg opskriftens egne anvisninger om prøvestørrelse. Lidt større er bedre, hvis garnet er levende, eller projektet skal sidde tæt. Cirka 15 cm er en klar praktisk anbefaling, fordi det giver ekstra stof omkring et centralt målefelt på 10 cm, men det er ikke et universelt minimum. En mindre prøve er ikke automatisk ugyldig, hvis den stadig rummer et tilstrækkeligt stort, repræsentativt og uforvrænget målefelt i midten. Opslagskanten, aflukningskanten og sidemaskerne opfører sig anderledes end midten af stoffet, så de 10 cm må ikke måles fra kant til kant.
 
-Hvis opskriften siger "i glatstrik", laver du prøven i glatstrik. Hvis den siger "i mønster", bruger du projektets maskemønster. Den del betyder mere, end mange strikkere forventer. Snoninger trækker sig sammen. Hulmønster åbner sig. Rib komprimerer. Ingen af de stoffer opfører sig som almindelig glatstrik, og at behandle dem som udskiftelige er dér strikkefastheden går skævt. Et snoningstungt stof med samme maskeantal som glatstrik kan let ende flere centimeter smallere over 25 cm.
+Hvis opskriften siger "i glatstrik", laver du prøven i glatstrik. Hvis den siger "i mønster", bruger du projektets maskemønster. Den del betyder mere, end mange strikkere forventer. Snoninger trækker sig sammen. Hulmønster åbner sig. Rib komprimerer. Ingen af de stoffer opfører sig som almindelig glatstrik, og at behandle dem som udskiftelige er dér strikkefastheden går skævt. Et stof med mange snoninger kan blive smallere end glatstrik med samme maskeantal.
 
 Strik til prøven er cirka 15 cm høj, eller til den har nok uforvrænget stof til, at du kan måle et centralt felt på 10 cm væk fra opslags- og aflukningskanten. Luk af.
 
-Det er her, mange finder linealen frem. Mål og notér nu, hvis opskriften beder om ublokket strikkefasthed, eller hvis du vil sammenligne prøven før og efter behandling. Ellers venter du, til prøven er behandlet og helt tør.
+Mål og notér også strikkefastheden på den ubehandlede prøve. Den kan sammenlignes med uvasket arbejde undervejs eller med en opskrift, der udtrykkeligt angiver ublokket strikkefasthed.
 
 ## Vask og blok strikkeprøven
 
-Det er her, de fleste strikkefasthedsfejl faktisk sker. Stoffet lige fra pindene er endnu ikke det stof, du skal have på. Garn ændrer sig, når det bliver vådt og tørrer igen. Nogle gange lidt, nogle gange meget.
+Vask og blokning kan ændre stoffets mål. Resultatet afhænger af garn, maskemønster og behandling. Måling før og efter behandlingen viser ændringen i netop din prøve.
 
-Uld blomstrer, og maskerne fylder sig ud, så stoffet bliver en smule bredere og blødere. Bomuld slapper af og får ofte mere fald. Superwash merino kan vokse tydeligt i længden. Hør bliver blødere efter en vask eller to. Akryl sætter sig ofte efter håndtering og vask. Hver fiber gør noget, og den eneste måde at vide, hvad dit konkrete garn gør, er at gøre prøven våd.
+Sammenlign i den tilstand, opskriften angiver, også ublokket, hvis det er kravet. For at vurdere det færdige stof behandler du desuden prøven som det færdige arbejde efter garnets vaskeanvisning. Håndvask og tør fladt, hvis tøjet skal plejes sådan; brug kun det planlagte maskinprogram, hvis garnet tåler det. Angiver opskriften ingen tilstand, bruger du den færdigbehandlede prøve som reference.
 
-Hvis opskriften eller det færdige projekts behandling kræver en vasket eller blokket måling, kan du få et misvisende tal ved at springe behandlingen over. Prøven kan passe frisk fra pindene, mens den færdige sweater ændrer størrelse ved første vask. Det er en almindelig vej til "min strikkefasthed passede, men sweateren passer ikke".
-
-Brug den måletilstand, opskriften angiver. Beder den om ublokket strikkefasthed, måler du prøven ublokket. Angiver den ingen tilstand, behandler du prøven på samme måde som det færdige projekt. Hvis sweateren skal håndvaskes og tørres fladt, gør du det med prøven. Hvis garnet kan maskinvaskes, og det færdige arbejde skal passes sådan, vasker du prøven på samme måde. Pointen er at efterligne det liv, tøjet faktisk skal have.
-
-Når du sammenligner før og efter behandling, måler og noterer du først strikkefastheden på den ubehandlede prøve. Lad derefter den vaskede eller blokkede prøve tørre helt. Ikke næsten tør. Helt tør. Stoffet slapper af og åbner sig efter vådblokning, og en lineal på et stadig fugtigt stykke giver et tal, der ikke holder, når det tørrer færdigt. Mål igen, når prøven er helt tør, og gem begge tal. Målingen før behandling er nyttig, når du sammenligner med et projekt undervejs; målingen efter behandling viser, hvordan det færdige stof opfører sig. Nogle gange er forskellen lille. Nogle gange er det hele grunden til, at du lavede prøven.
+Lad den behandlede prøve tørre helt, fjern eventuelle knappenåle, og lad stoffet hvile før måling, medmindre opskriften udtrykkeligt angiver andet. Stræk ikke prøven for at tvinge den til at passe med strikkefastheden. Ingen tørretid passer til alle prøver. Hold værdierne før og efter behandling adskilt; sammenlign uvasket arbejde med den uvaskede prøve.
 
 ## Sådan måler du prøven
 
-Læg prøven fladt på en hård overflade og lad den slappe af. Stræk den ikke. Spænd den ikke op med nåle, medmindre opspændt blokning er en del af det færdige stof, som ved hulmønster.
+Læg prøven fladt på et fast underlag uden at strække eller presse den sammen. Hold rullende kanter uden for målefeltet. Mål rib afslappet eller strakt efter opskriftens anvisning. Er det uklart, så notér et afslappet mål og spørg designeren, hvilken tilstand målet i opskriften gælder for.
 
-Læg en lineal eller et strikkefasthedsmål hen over midten af prøven. Ikke tæt på opslaget. Ikke tæt på aflukningen. Ikke ude ved kanterne. Midten giver den reneste aflæsning, fordi de yderste områder ofte er forvrængede.
+Læg linealen parallelt med en pind eller omgang i et uforvrænget område i midten. Sæt nulstregen, ikke linealens ende, ved siden af en hel maske. Aflæs lige ovenfra uden at presse stoffet ned.
 
-Tæl maskerne over 10 cm. Tæl omhyggeligt. Halve masker betyder noget. En aflæsning på 21,5 masker over 10 cm er ikke "tæt nok på" 20, hvis projektet skal sidde til.
+På retsiden af glatstrik er hvert helt V én maske; de to ben er ikke to masker. Tæl vandret frem til 10 cm-stregen, og medregn den del af en maske, der ligger ved slutpunktet. For eksempel skal 21,5 masker pr. 10 cm forblive 21,5, ikke 20 eller 22. Angiver opskriften fire tommer, så mål fire tommer: det er præcis 10,16 cm, ikke 10 cm.
 
-Tæl derefter pindene over 10 cm i samme midterområde.
+Drej linealen lodret langs en maskesøjle, og tæl pinde eller omgange over samme målelængde. Hvert V over det næste svarer til én pind i glatstrik frem og tilbage eller én omgang i glatstrik rundt. Medregn også dele af pinde eller omgange ved slutpunktet.
 
-Hvis du har en strikkefasthedsmåler med vindue, så brug den. Ellers fungerer en almindelig lineal fint.
+I rib tæller du både ret- og vrangmasker, også de vrange, der skjuler sig mellem de rette søjler. I hulmønster og snoninger hjælper opskriften eller diagrammet dig med at finde masker og pinde eller omgange; et hul eller en snoning er ikke én maske eller én pind. Er de enkelte masker svære at følge, så mål mellem tilsvarende punkter over hele rapporter, og brug det kendte maske- eller pindeantal mellem punkterne. Angiver opskriften et færdigt rapportmål, sammenligner du direkte med det.
+
+Mål nogle forskellige uforvrængede steder i midten. Små forskelle mellem målinger over samme længde og i samme tilstand kan beregnes som et gennemsnit: (21 + 21,5 + 22) ÷ 3 = 21,5 masker pr. 10 cm. Tre målinger er et eksempel, ikke et krav. Undersøg store forskelle i stedet for at regne dem væk for at nå opskriftens værdi.
+
+Måler du bredden af et bestemt maskeantal, så regn antal ÷ målt længde × ønsket målelængde med samme længdeenhed. For eksempel giver 30 masker over 14 cm: 30 ÷ 14 × 10 ≈ 21,43 masker pr. 10 cm. Notér det oprindelige antal og mål; rund ikke af til 20 for at få det til at passe. Samme metode gælder for pinde og omgange.
+
+Notér garn, pinde, maskemønster, strik frem og tilbage eller rundt, behandling, afslappet eller strakt tilstand, målelængde samt antal masker og pinde eller omgange. Sammenlign på samme grundlag. Et målevindue er valgfrit; en almindelig lineal fungerer.
 
 ## Når strikkefastheden ikke passer
 
-Den passer ofte ikke i første forsøg. Det er normalt. Spænding er personlig, og to strikkere kan bruge samme garn og samme pind og stadig få forskelligt stof.
+Den passer ofte ikke i første forsøg. Det er normalt. Strikkefasthed er individuel, og to strikkere kan bruge samme garn og samme pind og stadig få forskelligt stof.
 
 **For mange masker pr. 10 cm.** Dit stof er fastere end designerens. Gå en pindestørrelse op og lav en ny prøve. Hvis du skal tjekke næste størrelse i et andet system, er [pindestørrelsestabellen](/da/strikkevaerktoejer/pindestoerrelser/) den hurtige reference.
 
 **For få masker pr. 10 cm.** Dit stof er løsere. Gå en pindestørrelse ned og lav en ny prøve.
 
-Nogle gange løser én størrelse det. Nogle gange kræver det to spring. Af og til nægter maskefasthed og pindefasthed at passe samtidig. Når det sker, får maskefastheden normalt førsteprioritet, fordi den styrer bredden. Pindefastheden betyder stadig noget, især til ærmekupler, bærestykker og lodret placering af mønster, men breddeproblemer er sværere at rette midt i projektet end længdeproblemer.
+Nogle gange er ét skift i pindestørrelse nok; andre gange kræves flere prøver. Hvis maske- og pindefasthed ikke passer samtidig, så tjek konstruktionen, før du prioriterer den ene. Ved almindelig strikkeretning styrer maskefastheden bredden og pindefastheden længden; ved strik på tværs kan rollerne byttes. At strikke til et bestemt længdemål kan hjælpe i et lige stykke, men retter ikke formgivning baseret på pinde eller omgange, ærmekupler, bærestykker eller rapporternes placering.
 
 Hvis du vil forstå [hvorfor strikkefasthed varierer mellem strikkere](/da/artikler/hvad-er-strikkefasthed/) og hvorfor den kan ændre sig undervejs, er det et dybere emne. Lad ikke flere strikkeprøver føles som fejl. Erfarne strikkere forventer dem. Nogle strikkere ligger stabilt stramt, andre stabilt løst, og det er nyttigt at kende sin tendens. Men det erstatter aldrig prøven, fordi garnfiber, pindemateriale og maskemønster alle skubber stoffet på hver deres måde.
 
@@ -72,34 +74,34 @@ Hvis du vil forstå [hvorfor strikkefasthed varierer mellem strikkere](/da/artik
 
 Opskrifter fortæller som regel, hvilket mønster strikkefastheden er målt i. Den linje er værd at læse.
 
-Glatstrik er det almindelige udgangspunkt. Hvis opskriften siger "i glatstrik", bruger du glatstrik til prøven, selv hvis projektet har snoninger andre steder. Designeren har allerede bygget forskellene ind i maskeantallet.
+Glatstrik er det almindelige udgangspunkt. Hvis opskriften siger "i glatstrik", bruger du glatstrik til prøven, selv hvis projektet har snoninger andre steder.
 
 Hvis opskriften siger "i mønster", laver du prøven i det faktiske maskemønster. Det betyder mest i heldækkende struktur, snoningstunge stoffer, hulmønster og alt hvor maskemønsteret er selve stoffet, ikke pynt ovenpå.
 
-Nogle opskrifter giver både en glatstrikket strikkefasthed og en mønsterfasthed. Brug den, der hører til det færdige stof, du faktisk strikker.
+Nogle opskrifter angiver strikkefasthed både i glatstrik og i mønster. Kontrollér begge for de dele, hvor opskriften bruger dem; det ene resultat bekræfter ikke det andet.
 
 ## Strikkefasthed rundt og fladt
 
-Fladt strik og rundstrik kan give forskellig strikkefasthed selv med samme garn og pindestørrelse. Mange strikkere strikker vrang med anden spænding end ret, så fladt glatstrik og glatstrik rundt er ikke altid udskiftelige.
+Strik frem og tilbage og rundstrik kan give forskellig strikkefasthed selv med samme garn og pindestørrelse. Mange strikkere strikker vrang med anden spænding end ret, så glatstrik frem og tilbage og glatstrik rundt er ikke altid udskiftelige.
 
-Hvis projektet strikkes rundt, så lav prøven rundt. Et lille rør på strømpepinde eller en lang rundpind fungerer. Pointen er at strikke ret hver omgang i stedet for at skifte mellem ret- og vrangpinde.
+Hvis projektet strikkes rundt, så strik prøven rundt i det angivne maskemønster. Brug om muligt samme type pinde, og lav røret stort nok til et uforvrænget målefelt, når det ligger fladt, væk fra folderne. I glatstrik rundt strikkes alle omgange ret; det gælder ikke alle maskemønstre.
 
 ## Hvordan strikkefasthed hænger sammen med planlægning
 
-Når strikkefastheden er kendt, bliver resten af planlægningen lettere. KnitTools' [opslagsberegner](/da/strikkevaerktoejer/opslagsberegner/) bruger den til at beregne maskeantal til en bestemt bredde. [Garnberegneren](/da/strikkevaerktoejer/garnberegner/) bruger projekttype, størrelse og garntykkelse til et garnestimat, så behandl den som et planlægningstjek ved siden af din strikkefasthed og opskriftens detaljer. Til en [strikkeprøve-guide trin for trin](/da/artikler/strikkeproeve-trin-for-trin/) uden teorien findes der en separat side.
+Når strikkefastheden er kendt, bliver resten af planlægningen lettere. KnitTools' [opslagsberegner](/da/strikkevaerktoejer/opslagsberegner/) bruger den til at beregne maskeantal til en bestemt bredde. [Garnberegner](/da/strikkevaerktoejer/garnberegner/) — Referencemængder fra navngivne opskrifter, ikke en personlig forbrugsprognose. Til en [strikkeprøve-guide trin for trin](/da/artikler/strikkeproeve-trin-for-trin/) findes der en separat side.
 
 Den kæde betyder noget. Strikkefasthed styrer maskeantal. Maskeantal styrer mål. Mål styrer garnforbrug. Hvis det første tal er forkert, driver alt efter det med.
 
 ## FAQ
 
 **Kan jeg bare måle et par masker i stedet for en hel prøve?**
-Måling over et meget lille område forstørrer hver tællefejl. Selv en kvart maske forkert vælter tallene, når du kun ser på få centimeter stof. Mål over mindst 10 cm i midten af prøven, hvor maskerne har sat sig og er mest ens.
+Et lille målefelt forstærker tællefejl. Brug hele opskriftens målelængde, normalt 10 cm eller fire tommer, væk fra forvrængede kanter. Angiver opskriften størrelsen på en rapport eller et panel, bruger du det som grundlag.
 
 **Hvor mange strikkeprøver skal jeg lave?**
-Én er minimum. Hvis den første prøve ikke rammer strikkefastheden, og du ændrer pindestørrelse, skal du lave en ny. Til tætsiddende tøj er to eller tre prøver før opslag helt normalt. Til tørklæder og tæpper er tolerancen større, og én kan være nok.
+Lav en ny prøve, når du skifter pinde, garn eller teknik for at ændre strikkefastheden. Der findes ikke et universelt antal prøver eller en afvigelse, der altid er acceptabel. Vurdér de mål og det stof, projektet kræver; også et tørklæde eller tæppe kan skulle have en bestemt størrelse.
 
 **Påvirker garntykkelse hvor meget strikkefasthed betyder?**
-Tykkere garn forstørrer størrelsesfejl hurtigere, fordi hver maske fysisk er større. En afvigelse på 2 masker pr. 10 cm i Bulky-garn flytter stoffet mere end samme fejl i Fingering. Men til tætsiddende tøj betyder strikkefasthed noget ved alle garntykkelser. Indsatsen bliver bare højere, jo tykkere garnet er.
+Virkningen afhænger af den ønskede strikkefasthed og projektets størrelse, ikke kun af garntykkelsen. Ved samme planlagte bredde er en given afvigelse i maskeantal pr. 10 cm forholdsmæssigt større ved en lavere målstrikkefasthed. Kontrollér den målte strikkefasthed ved alle garntykkelser.
 
 **Min strikkefasthed passer efter blokning, men ikke før. Hvilken tæller?**
 Brug den måletilstand, opskriften angiver, også ublokket strikkefasthed, hvis det er det, den kræver. Angiver opskriften ingen tilstand, bruger du strikkefastheden efter vask eller blokning på samme måde som det færdige projekt. Notér både målingen før og efter behandlingen.

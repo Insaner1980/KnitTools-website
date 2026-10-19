@@ -1,7 +1,8 @@
 ---
 title: "Den ersten Schal stricken"
-description: "Alles für deinen ersten Schal: Garn, Nadeln, Maschen anschlagen, rechte Maschen, abketten und Fäden vernähen. Ein Rechteck, das funktioniert."
+description: "Stricke deinen ersten Schal kraus rechts: Maschenprobe messen, Breite wählen, anschlagen, stricken und abketten. Mit Links zu bebilderten Techniken."
 publishDate: 2026-05-01
+updatedDate: "2026-10-18"
 category: techniques
 categoryOrder: 1
 tags:
@@ -16,47 +17,47 @@ lang: de
 translationKey: "knit-first-scarf"
 ---
 
-Ein Schal ist ein starkes erstes Strickprojekt, weil er ein Rechteck ist. Keine Formgebung, keine Passform, keine komplizierte Reihenfolge, sobald du die Masche verstanden hast. Maschen anschlagen, stricken, bis er lang genug ist, abketten. Dabei übst du die Grundlagen für alles, was später kommt: Maschen anschlagen, rechte Maschen und abketten. Bis der Schal fertig ist, hast du die rechte Masche ein paar tausend Mal gearbeitet, und irgendwo in der Mitte fühlt sie sich nicht mehr ganz fremd an.
+Ein Schal ist ein starkes erstes Strickprojekt, weil er ein Rechteck ist. Keine Formgebung, keine Passform, keine komplizierte Reihenfolge, sobald du die Masche verstanden hast. Maschen anschlagen, stricken, bis er lang genug ist, abketten. Dabei übst du die Grundlagen für alles, was später kommt: Maschen anschlagen, rechte Maschen und abketten.
 
 ## Was du brauchst
 
-Ein Knäuel Worsted-Garn in einer hellen, einfarbigen Farbe. Der [Garnleitfaden für den Einstieg](/de/artikel/das-beste-garn-fuer-den-einstieg-ins-stricken/) erklärt die Gründe genauer, aber kurz gesagt: Helle Farben zeigen deine Maschen deutlich, und einfarbiges Garn zeigt die Maschenstruktur besser als buntes. Acryl oder eine Wolle/Acryl-Mischung verzeiht Fehler und ist oft maschinenwaschbar. Ein Knäuel reicht zum Üben oder für einen kurzen Schal. Für einen längeren Erwachsenenschal brauchst du meist mehr Lauflänge.
+Wähle helles, einfarbiges Worsted-Garn. Der [Garnleitfaden für den Einstieg](/de/artikel/das-beste-garn-fuer-den-einstieg-ins-stricken/) erklärt, warum gut erkennbare Maschen helfen. Acryl oder eine Wolle/Acryl-Mischung ist eine Möglichkeit; prüfe die Pflegehinweise des konkreten Garns. Kaufe nach dem Bedarf für deine gewählten Maße, nicht nach dem Versprechen, ein Knäuel reiche für einen Schal. Beachte das Mengenbeispiel weiter unten und plane Garn zum Üben, Vernähen und für eventuelle Fransen ein.
 
 Wähle ein glattes, fest gezwirntes Worsted-Garn statt eines flauschigen, splittigen oder stark strukturierten Garns. Vermeide Schwarz, Marineblau, Dunkelbraun und flauschige Garne für das erste Projekt. Die Maschen müssen sichtbar sein.
 
-Gerade Nadeln in 5,0 mm, etwa 25 oder 35 cm lang. Für den Einstieg sind Bambus oder Holz freundlich, weil die Oberfläche die Maschen etwas festhält. Metallnadeln sind schneller, wenn du Rhythmus hast, aber in Anfängerhänden oft zu glatt. Der [Leitfaden zur Nadelstärke](/de/artikel/welche-nadelstaerke-fuer-den-einstieg/) erklärt die Abwägung genauer.
+Gerade Nadeln in 5,0 mm, etwa 25 oder 35 cm lang, sind ein Ausgangspunkt für Worsted-Garn, dessen Banderole diese Stärke empfiehlt. Die Länge soll die Maschen bequem aufnehmen. Probiere glattes Holz oder Bambus, wenn Maschen abrutschen; auch Metall eignet sich von Anfang an. Oberfläche, Garn und Griff beeinflussen das Stricken. Der [Leitfaden zur Nadelstärke](/de/artikel/welche-nadelstaerke-fuer-den-einstieg/) erklärt mehr.
 
-Schere und eine stumpfe Wollnadel zum Vernähen der Fadenenden. Ein Maßband hilft, ist aber nicht zwingend nötig. Das ist die ganze Einkaufsliste.
+Schere, eine stumpfe Wollnadel und ein Maßband oder Lineal. Eine Häkelnadel hilft bei Fransen und fallengelassenen Maschen.
 
 ## Muster wählen
 
-Für den ersten Schal gibt es zwei praktische Optionen.
+Die Schritte unten ergeben einen kraus rechts gestrickten Schal in Hin- und Rückreihen. Perlmuster ist eine Alternative, wenn du linke Maschen kannst; verwende dann dessen Rapport statt ausschließlich rechter Reihen.
 
 **Kraus rechts** heißt: jede Reihe rechts stricken. Einfacher wird Strickstoff nicht. Jede Masche, jede Reihe, dieselbe Bewegung. Der Stoff hat waagerechte Rippen, ist weich, beidseitig tragbar und liegt flach. Wenn du nur rechte Maschen kannst, ist das dein Muster.
 
-**Perlmuster** verlangt auch linke Maschen. Es wechselt rechte und linke Maschen ab und versetzt sie in der nächsten Reihe, sodass rechte Maschen über linken und linke Maschen über rechten liegen. Der Stoff ist flacher und strukturierter als kraus rechts. Wenn du vor dem Start beide Maschen lernen möchtest, ergibt Perlmuster einen ordentlichen Schal, braucht aber mehr Aufmerksamkeit.
+**Perlmuster** wechselt rechte und linke Maschen ab: Stricke links über einer Masche, die dir rechts erscheint, und rechts über einer links erscheinenden Masche. Bei 30 Maschen in Reihen: Reihe 1, 1 rechts, 1 links bis zum Ende wiederholen; Reihe 2, 1 links, 1 rechts bis zum Ende wiederholen. Wiederhole diese zwei Reihen. Bei ungerader Maschenzahl arbeitest du in jeder Reihe abwechselnd 1 rechts, 1 links und endest mit 1 rechts. Führe den Faden zwischen den Nadelspitzen nach hinten für rechts und nach vorn für links. Die Ränder sind im Rapport enthalten; ergänze nicht den unten beschriebenen abgehobenen Rand für kraus rechts.
 
-Beginne keinen Schal in glatt rechts. Glatt rechts rollt sich an den Rändern ein, und ein eingerollter Schal ist ein Schlauch, kein Schal. Kraus rechts und Perlmuster liegen ohne zusätzliche Randbehandlung flach.
+Glatt rechts, in Reihen abwechselnd eine Reihe rechts und eine Reihe links, rollt sich von Natur aus an den Rändern ein. Kraus rechts und Perlmuster eignen sich für diesen Schal ohne zusätzliche Randblende. Spannen beseitigt das natürliche Einrollen von glatt rechts nicht dauerhaft.
 
 ## Wie viele Maschen anschlagen?
 
-Für Worsted-Garn auf 5,0 mm Nadeln liegt die Maschenprobe ungefähr bei 20 Maschen pro 10 cm:
+Die Nadelstärke garantiert keine Maschenprobe. Stricke mit dem vorgesehenen Garn und den Nadeln ein kraus rechtes Probestück, größer als die Messfläche. Wasche und trockne es nach den Pflegehinweisen und miss in der Mitte ohne Dehnen. Nutze diese Maschenprobe, nicht die glatt rechte Angabe auf der Banderole. Bei 20 Maschen pro 10 cm ergeben sich folgende Rechenbeispiele:
 
-Schmaler Schal, 10-13 cm: 20-25 Maschen.
-Mittlerer Schal, 15-18 cm: 30-35 Maschen.
-Breiter Schal oder Loop-Breite: 40-45 Maschen.
+- 20–25 Maschen: 10–12,5 cm Breite.
+- 30–35 Maschen: 15–17,5 cm Breite.
+- 40–45 Maschen: 20–22,5 cm Breite.
 
-Beginne mit 30 Maschen. Das ist angenehm breit, nicht so schmal wie ein Band und nicht so breit, dass das Projekt ewig dauert.
+Zum Beispiel: 30 ÷ 20 × 10 = 15 cm. Beide Ränder sind in den 30 Maschen enthalten; keine zusätzlichen Randmaschen anschlagen. Bei anderer Maschenprobe teilst du die Maschenzahl durch deine Maschen pro 10 cm und multiplizierst mit zehn. Für Perlmuster misst du ein Probestück im Perlmuster.
 
-Die exakte Zahl ist beim Schal nicht kritisch. Wenn du 28 oder 32 statt 30 Maschen hast, wird der Schal etwas schmaler oder breiter. Bei einem Rechteck ist das in Ordnung.
+Du kannst mit 30 Maschen üben und nach einigen Reihen die Breite prüfen. Passt sie nicht, beginne mit einer anderen Zahl neu. Auch 28 oder 32 sind als gewählte Anfangszahl möglich; halte diese Zahl danach konstant, damit der Schal rechteckig bleibt.
 
 ## Den Faden halten
 
 Es gibt zwei verbreitete Arten, den Faden zu halten, und du wirst wahrscheinlich zu einer davon tendieren.
 
-**Englisch, Faden in der rechten Hand:** Die rechte Hand legt den Faden für jede Masche um die Nadel. Das wird oft "Werfen" genannt. Viele lernen es zuerst leichter, langfristig ist es meist etwas langsamer.
+**Englisch, Faden in der rechten Hand:** Die rechte Hand legt den Faden für jede Masche um die Nadel. Auf Englisch wird das oft "throwing" genannt.
 
-**Kontinental, Faden in der linken Hand:** Die rechte Nadel holt den Faden aus der linken Hand. Das ist schnell, wenn es sitzt, besonders bei rechten Maschen, aber die Fadenspannung fühlt sich am Anfang ungewohnt an.
+**Kontinental, Faden in der linken Hand:** Die rechte Nadel holt den Faden aus der linken Hand. Wähle nach deinem Gefühl, nicht nach einem Geschwindigkeitsversprechen.
 
 Schau dir vor dem Start ein kurzes Video zu beiden Arten an und wähle die, die bequemer aussieht. Beides funktioniert. Mach dir keine Sorgen, ob du die "beste" Methode wählst. Viele sehr gute Strickende stricken englisch, viele kontinental. Das fertige Stück sieht gleich aus.
 
@@ -64,9 +65,9 @@ Führe den Faden irgendwie durch die Finger, damit er nicht lose hängt. Eine ty
 
 ## Maschen anschlagen
 
-Der Kreuzanschlag, auch Long-Tail Cast-On, ist häufig, dehnbar und sauber. Mach eine Anfangsschlinge und lass ein Fadenende hängen, das etwa 3- bis 4-mal so lang ist wie die Breite deines Anschlags, plus etwas Reserve. Für 30 Maschen in Worsted sind 75-90 cm ein sinnvoller Bereich. Das Fadenende bildet eine Seite jeder Masche, der Arbeitsfaden die andere.
+Der Kreuzanschlag, auch Long-Tail Cast-On, ist eine Möglichkeit. Wenn du ihn noch nicht kennst, folge [Purl Sohos bebilderter Anleitung](https://www.purlsoho.com/create/long-tail-cast-on/) (auf Englisch) für Anfangsschlinge, Handhaltung und Bewegungen; dieser Absatz ist nur eine Übersicht. Plane zunächst ein Fadenende von 3–4-mal der vorgesehenen Breite plus etwa 15 cm zum Vernähen. Bei 15 cm Breite sind das 60–75 cm. Prüfe nach dem Anschlag, ob genug Ende zum Vernähen bleibt. Die Anfangsschlinge zählt als erste Masche.
 
-Wenn das kompliziert wirkt, ist der gestrickte Anschlag leichter. Anfangsschlinge, eine Masche hinein stricken, die neue Masche zurück auf die linke Nadel setzen. Wiederholen, bis du 30 Maschen hast. Langsamer, aber gut zu lernen.
+Alternativ kannst du Maschen aufstricken. Lege eine Anfangsschlinge auf die linke Nadel und lasse etwa 15 cm Fadenende. Ziehe mit dem Knäuelfaden eine neue rechte Schlinge hindurch, lasse die alte Masche aber auf der linken Nadel. Setze die neue Schlinge unverdreht auf die linke Nadel. Wiederhole in der zuletzt entstandenen Masche, bis insgesamt 30 Maschen einschließlich Anfangsschlinge auf der Nadel liegen. Die [Bildanleitung des Craft Yarn Council](https://media.craftyarncouncil.com/node/29) (auf Englisch) zeigt das Umsetzen und die rechte Masche.
 
 Beide Methoden funktionieren. Dem Schal ist egal, welche du benutzt.
 
@@ -74,37 +75,39 @@ Zähle nach dem Anschlagen. Schiebe die Maschen einzeln auf der Nadel entlang. W
 
 ## Den Schal stricken
 
-Strick jede Masche in jeder Reihe rechts. Das ist kraus rechts.
+Stricke in Hin- und Rückreihen jede Masche rechts, auch die erste und letzte. Wende nach jeder Reihe. Auch auf einer Rundstricknadel wird gewendet; schließe die Maschen nicht zur Runde.
 
-Halte die Nadel mit den Maschen in der linken Hand. Stich mit der rechten Nadel von links nach rechts in die erste Masche, also von vorn nach hinten. Lege den Faden gegen den Uhrzeigersinn um die rechte Nadel, zieh die Schlinge nach vorn durch und lass die alte Masche von der linken Nadel gleiten. Eine rechte Masche. Wiederhole das bis zum Reihenende. Dann Nadeln tauschen, sodass die Nadel mit den Maschen wieder links liegt, und von vorn beginnen.
+Halte die Nadel mit den Maschen links und den Knäuelfaden hinter der Arbeit. Stich mit der rechten Nadel von links nach rechts durch das vordere Maschenbein. Führe den Faden unter und über die rechte Spitze, ziehe die neue Schlinge nach vorn durch die alte und lasse nur die alte Masche von der linken Nadel gleiten. Wiederhole bis zum Reihenende. Wende die Arbeit, sodass die andere Seite zu dir zeigt, und nimm die volle Nadel links. Führe den Faden zwischen den Spitzen nach hinten, nicht über die Nadel, und beginne die nächste Reihe.
 
 Die ersten Reihen sind langsam und ungelenk. Normal. Nach genug Wiederholung finden deine Hände einen Rhythmus. Heb dir Stricken beim Fernsehen für später auf, wenn du Maschen bilden kannst, ohne jede Bewegung anzuschauen.
 
 ### Lesen, was du gestrickt hast
 
-Eine rechte Masche sieht von vorn wie ein kleines V aus. In kraus rechts wechseln sich Reihen aus V-Formen und waagerechten Knubbeln ab und bilden die Rippenstruktur. Zwei Reihen ergeben eine Rippe. Zähle Rippen statt Reihen: Das ist leichter und doppelt so schnell. Zwanzig Rippen sind vierzig Reihen.
+Eine rechte Masche sieht von vorn wie ein kleines V aus. Kraus rechts bildet Rippen: Eine Krausrippe entspricht zwei gestrickten Reihen. Zähle auf einer Seite, nicht die Rippen beider Seiten zusammen. Zwanzig vollständige Krausrippen entsprechen vierzig Reihen; ohne Reihenprobe ergibt das keine bestimmte Länge.
 
-Die Maschen auf deiner Nadel sollten gleich aussehen: eine Schlinge, deren vorderes Bein vorn liegt. Wenn eine Masche verdreht aussieht und die Beine gekreuzt sind, hast du den Faden in dieser Masche in die falsche Richtung gelegt. Heb die Masche ab, entdrehe sie und setz sie wieder auf die Nadel. Kein Drama.
+Bei der Methode oben liegt das rechte Bein der noch ungestrickten Masche vor der Nadel. Liegt die Schlinge andersherum, sichere sie mit der anderen Nadel und setze sie vor dem Stricken richtig auf. Das korrigiert keine bereits verschränkt gestrickte Masche weiter unten; ribble bei Bedarf bis dorthin auf. Lasse eine offene Masche nicht ungesichert.
 
 ### Häufige Anfängerprobleme
 
 **Die Maschen werden mehr.** Du erzeugst versehentlich neue Maschen, meist weil der Faden am Reihenanfang über die Nadel gelegt wird. Bevor du die erste Masche strickst, prüf, dass der Faden unter und hinter der Nadel hängt, nicht über ihr.
 
-**Die Ränder sehen unruhig aus.** Das wird mit Übung besser. Für sauberere Ränder kannst du die erste Masche jeder Reihe wie zum Linksstricken abheben, ohne sie zu stricken, mit dem Faden hinten. Das ergibt einen Kettenrand, der ordentlicher aussieht und später leichter zu nähen ist, falls du das einmal brauchst.
+**Die Ränder sehen unruhig aus.** Probiere zuerst, alle Randmaschen mit gleichmäßiger Spannung rechts zu stricken. Für einen abgehobenen Rand bei kraus rechts führst du den Faden zwischen den Spitzen nach hinten, hebst die erste Masche wie zum Linksstricken ab und strickst alle übrigen Maschen einschließlich der letzten rechts. Wiederhole in jeder Reihe. Das Abheben ersetzt das Stricken der ersten Masche; es bleiben 30. Behalte die gewählte Randart bei.
 
-**Die Spannung ist ungleichmäßig.** Völlig normal beim ersten Projekt. Manche Maschen sind fest, andere locker. Der Stoff wirkt unruhig. Beim Spannen gleicht sich das etwas aus, durch Übung deutlich mehr. Dein zehnter Schal wird anders aussehen als der erste.
+**Die Spannung ist ungleichmäßig.** Bilde die Maschen auf dem vollen Nadelschaft, ohne sie festzuziehen, und übe am Probestück. Waschen nach Pflegeanweisung kann den Stoff entspannen, repariert aber keine zusätzlichen, verlorenen oder verschränkten Maschen.
 
-**Das Garn splittet.** Die Nadel geht zwischen die Fäden statt in die Maschenschlinge, und es entsteht eine halbe, fusselige Masche. Verlangsame das Einstechen. Wenn es immer wieder passiert, ist das Garn für diese Nadel zu splittig. Wechsle zu einer spitzeren Nadel oder einem glatteren Garn.
+**Das Garn splittet.** Die Nadel hat nur einen Teil der Fäden erfasst. Löse diese Masche auf und stricke durch die ganze Schlinge. Stich langsamer ein und prüfe den Weg der Spitze. Trifft eine scharfe Spitze immer wieder zwischen die Fäden, probiere eine rundere Spitze oder glatteres Garn und prüfe die Maschenprobe erneut.
 
-**Die Maschenzahl wandert.** Zähle ungefähr alle zehn Reihen. Wenn du mit 30 Maschen begonnen hast und jetzt 31 hast, hast du eine hinzugefügt. Wenn du 29 hast, ist eine gefallen. Früh finden heißt früh beheben.
+**Die Maschenzahl verändert sich.** Zähle anfangs nach jeder Reihe, später regelmäßig, etwa alle zehn Reihen. Von 30 auf 31 ist netto eine Masche mehr; 29 können durch eine verlorene Masche oder eine unbeabsichtigte Abnahme entstehen. Suche die Ursache vor dem Weiterstricken. Sichere eine verlorene Schlinge sofort, statt den Fehler durch eine neue Masche zu verdecken.
 
 ## Wie lang soll der Schal werden?
 
-Normaler Erwachsenenschal: 125-150 cm. Kurzer Schal zum einmaligen Umlegen: etwa 100 cm. Langer Schal zum doppelten Wickeln: 180-200 cm.
+Als Längenziel für Erwachsene kannst du 125–150 cm ausprobieren, etwa 100 cm für einen kürzeren oder 180–200 cm für einen längeren Schal. Das sind Vorschläge, keine Standardmaße oder garantierten Wickellängen. Vergleiche mit einem Schal, den du magst, und berücksichtige die Maßänderung deiner gewaschenen Maschenprobe.
 
 Miss nicht zwanghaft. Strick, bis der Schal für dich lang genug ist. Halt ihn hoch, leg ihn um den Hals. Wenn die Länge passt, hör auf.
 
-Viele 100-g-Knäuel Worsted-Garn enthalten ungefähr 180-200 m. Das kann für einen kurzen Schal von etwa 100 cm reichen, wenn er 12-15 cm breit ist. Für einen längeren Schal kauf genug Lauflänge, bevor du anfängst, und achte auf dieselbe Farbpartie, wenn das Garn eine hat. Reserviere ein paar Meter zum Abketten, sonst endet das Garn genau im falschen Moment.
+Ein belegtes Vergleichsbeispiel ist Liz Chandlers [Basic Scarf in Garter Stitch](https://purlsandpixels.com/wp-content/uploads/2019/02/beginner-knit-scarf-revised-2019.pdf) (auf Englisch): Für den etwa 18 × 152 cm großen Standardschal schätzt sie 304,5 Yards, rund 278 m Caron Simply Soft. Die Materialliste nennt zwei Knäuel à 315 Yards: 630 Yards, rund 576 m, als Einkaufsmenge, nicht als Verbrauch. Nutze diese Menge mit der Originalanleitung; sie garantiert nicht den Bedarf dieses Leitfadens mit 30 Maschen oder eines anderen Garns. Für eigene Maße nutze eine vergleichbare Anleitung oder schätze anhand einer Probe im gleichen Muster, mit Garn für Probe, Fadenenden und Fransen zusätzlich. Achte gegebenenfalls auf dieselbe Farbpartie. Lasse am Ende Garn für eine vollständige Abkettreihe und etwa 15 cm Fadenende; ribble nötigenfalls eine Reihe auf.
+
+Der [Leitfaden zum Garnbedarf](/de/artikel/wie-viel-garn-brauche-ich/) erklärt die Berechnung anhand der Maschenprobe und das Aufrunden auf ganze Knäuel.
 
 ### Ein neues Knäuel ansetzen
 
@@ -118,9 +121,9 @@ Nicht zu fest abketten. Ein zu fester Abschluss macht das Ende schmaler als den 
 
 ## Fertigstellen
 
-Zwei Fadenenden: eins vom Anschlag, eins vom Abketten. Fädel jedes in eine Wollnadel und führ es auf der Rückseite der Maschen etwa 5 cm entlang, dann noch etwa 2,5 cm zurück in die Gegenrichtung. Abschneiden. Von vorn sind die Enden unsichtbar und sie gehen nicht auf.
+Vernähe alle Fäden: vom Anschlag und Abketten sowie beide Enden jeder Garnverbindung. Führe die stumpfe Wollnadel auf einer Seite etwa 5 cm unter den Maschenbögen der Krausrippen entlang, wechsle durch benachbarte Bögen die Richtung und vernähe weitere etwa 2,5 cm, ohne den Stoff zusammenzuziehen. Prüfe beide Seiten und dehne leicht vor dem Abschneiden. Glattes Garn kann einen längeren Weg brauchen; teste an der Maschenprobe. Eine feste Strecke garantiert nicht bei jedem Garn unsichtbare oder sichere Enden.
 
-Für ein saubereres Ergebnis kannst du den Schal spannen: in lauwarmem Wasser etwa 15 Minuten einweichen, vorsichtig in einem Handtuch ausdrücken, nicht wringen, flach auf ein sauberes Handtuch legen, Kanten gerade ziehen und über Nacht trocknen lassen. Beim ersten Acrylprojekt ist das optional. Bei Wolle sieht man den Unterschied stärker: Der Stoff entspannt sich, die Spannung gleicht sich aus, die Rippen wirken gleichmäßiger.
+Beachte die Pflegehinweise des konkreten Garns. Sind Handwäsche und liegendes Trocknen erlaubt, wasche bei der angegebenen Temperatur, drücke überschüssiges Wasser vorsichtig ohne Wringen aus und lege den Schal ohne Dehnen in Form. Lasse ihn vollständig trocknen. Teste die Behandlung zuerst an der Maschenprobe. Wolle oder Acryl allein bedeutet nicht, dass Einweichen, Dämpfen oder Trocknen über Nacht richtig ist.
 
 ### Fransen, wenn du möchtest
 
@@ -128,29 +131,29 @@ Für einen traditionelleren Abschluss kannst du Fransen an die kurzen Enden setz
 
 ## Zwischen den Sitzungen
 
-Wenn du mitten in einer Reihe aufhörst, schiebe die Maschen weit in die Mitte der Nadel, damit sie nicht abrutschen. Wenn du zwischen zwei Reihen aufhörst, ist die Arbeit stabiler. Bewahre das Projekt in einer geschlossenen Tasche auf und nicht in direkter Sonne, die Farben mit der Zeit ausbleichen kann.
+Schiebe offene Maschen in Pausen von den Spitzen weg und nutze vorhandene Nadelspitzenschützer. Auch am Reihenende können Maschen abrutschen. Bewahre die Arbeit in einer geschlossenen Projekttasche ohne direkte Sonne auf.
 
-Für manche neue Strickende sind 45 Minuten eine gut überschaubare Beispielsitzung. Halte Nadeln und Faden locker, mach kurze Pausen und hör auf oder wechsle die Tätigkeit, wenn Schmerzen, Kribbeln oder Taubheitsgefühle auftreten. Anhaltende, zunehmende oder neurologische Beschwerden wie Taubheitsgefühle sollten fachlich abgeklärt werden.
+Halte Nadeln und Faden locker, mach kurze Pausen und hör auf oder wechsle die Tätigkeit, wenn Schmerzen, Kribbeln oder Taubheitsgefühle auftreten. Anhaltende, zunehmende oder neurologische Beschwerden wie Taubheitsgefühle sollten fachlich abgeklärt werden.
 
 ## FAQ
 
 **Wie lange dauert der erste Schal?**
-Sehr unterschiedlich. Ein langsamer Einstieg kann 15-20 Stunden brauchen. Ein durchschnittliches Tempo liegt bei 8-12 Stunden. Geschwindigkeit kommt durch Übung, nicht durch Anstrengung.
+Es gibt keine verlässliche Durchschnittszeit: Breite, Länge, Garn und Übung beeinflussen sie. Stricke in angenehmen Etappen statt mit einer festen Stundenvorgabe.
 
 **Kann ich eine andere Garnstärke nehmen?**
-Ja. Bulky auf 8,0 mm Nadeln mit 20 Maschen ergibt einen schnelleren, dickeren Schal. Fingering auf 3,25 mm Nadeln mit 50 Maschen ergibt ein feineres und längeres Projekt. Worsted auf 5,0 mm ist der empfohlene Einstieg, weil es Tempo und Lernbarkeit gut ausgleicht.
+Ja. Wähle zum Garn empfohlene Nadeln, stricke eine kraus rechte Maschenprobe und berechne die Maschenzahl für deine gewünschte Breite. Prüfe auch den Garnbedarf; dieselbe Maschenzahl ergibt mit anderer Garnstärke nicht denselben Schal.
 
 **Was, wenn ich einen Fehler mache?**
-Drei Optionen: ignorieren, bei kleinen Fehlern im Schal oft wirklich in Ordnung, bis zum Fehler aufribbeln und neu stricken, oder die Unvollkommenheit akzeptieren. Erste Projekte sind zum Lernen da. Wenn du eine Masche fallen lässt und es sofort merkst, setz sie zurück auf die linke Nadel. Wenn sie mehrere Reihen nach unten gelaufen ist, zeigt der [Guide zu fallengelassenen Maschen](/de/artikel/fallengelassene-maschen-retten-ohne-aufzuribbeln/), wie du sie mit einer Häkelnadel wieder hochholst.
+Eine rein optische Unregelmäßigkeit kann bleiben; sichere eine verlorene offene Masche vor dem Weiterstricken. Wenn du eine Masche fallen lässt und es sofort merkst, setz sie zurück auf die linke Nadel. Wenn sie mehrere Reihen nach unten gelaufen ist, zeigt der [Guide zu fallengelassenen Maschen](/de/artikel/fallengelassene-maschen-retten-ohne-aufzuribbeln/), wie du sie mit einer Häkelnadel wieder hochholst.
 
 **Das Garn ist mitten im Schal gerissen. Was jetzt?**
-Behandle es wie ein neues Knäuel. Wenn genug Faden da ist, ribble bis zum Reihenanfang zurück und setz dort neu an. Wenn nicht, setz an der Bruchstelle an, lass an beiden Enden etwa 15 cm hängen und vernähe sie beim Fertigstellen. Verlass dich nicht auf einen Knoten, um den Schal zusammenzuhalten.
+Behandle es wie ein neues Knäuel. Wenn genug Faden da ist, ribble bis zum Reihenanfang zurück und setz dort neu an. Wenn nicht, setz an der Bruchstelle an, lass an beiden Enden etwa 15 cm hängen und vernähe sie beim Fertigstellen. Verlass dich nicht auf einen Knoten, um den Schal zusammenzuhalten. Löse an der Bruchstelle genügend Maschen, damit ein vernähbares Fadenende bleibt.
 
 **Was ist der Unterschied zwischen rechter und linker Masche?**
-Eine rechte Masche wird von vorn durch die Schlinge gezogen und bildet vorn ein V. Eine linke Masche wird von der anderen Seite gearbeitet und bildet vorn einen waagerechten Knubbel. Es sind zwei Seiten derselben Masche: Von der Rückseite sieht eine rechte Masche wie eine linke aus.
+Eine rechte Masche zeigt von der Seite, auf der sie gestrickt wurde, ein V und auf der Rückseite einen linken Maschenbogen. Für eine normale linke Masche liegt der Faden vorn; die rechte Nadel wird von rechts nach links durch das vordere Maschenbein geführt. Die [Anleitung für linke Maschen](https://www.purlsoho.com/create/purl-stitch/) (auf Englisch) zeigt die vollständige Bewegung für das Perlmuster.
 
 **Kann ich beim Fernsehen stricken?**
-Später ja, und die meisten Strickenden tun das. Nicht in den ersten Stunden deines ersten Schals. Schau auf deine Hände, bis die Bewegungen sitzen, und teile deine Aufmerksamkeit erst danach.
+Teile deine Aufmerksamkeit erst, wenn du Maschen sicher bilden und dabei die Arbeit kontrollieren kannst.
 
 **Was soll ich nach einem Schal stricken?**
 Ein Spültuch mit denselben Grundfertigkeiten, aber anderer Form und einer einfachen Anleitung. Oder eine Mütze, die Rundstricken und einfache Abnahmen einführt. Beides baut auf dem auf, was du im Schal gelernt hast.

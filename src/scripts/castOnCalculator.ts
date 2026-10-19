@@ -40,7 +40,8 @@ export const CAST_ON_LOCALE_CONFIGS: Record<Lang, CastOnLocaleConfig> = {
       unitSelection: "Unit selection",
       inches: "inches",
       calculate: "Calculate",
-      error: "Please enter valid gauge and width values.",
+      error:
+        "Enter a gauge from 1 to 100 and a width from 0.1 to 1000 in the selected unit.",
       resultLabel: "stitches to cast on",
     },
   },
@@ -60,7 +61,8 @@ export const CAST_ON_LOCALE_CONFIGS: Record<Lang, CastOnLocaleConfig> = {
       unitSelection: "Mittayksikkö",
       inches: "tuumaa",
       calculate: "Laske",
-      error: "Syötä kelvollinen neuletiheys ja leveys.",
+      error:
+        "Syötä neuletiheys väliltä 1–100 ja leveys väliltä 0,1–1000 valitussa yksikössä.",
       resultLabel: "luotavaa silmukkaa",
     },
   },
@@ -70,8 +72,8 @@ export const CAST_ON_LOCALE_CONFIGS: Record<Lang, CastOnLocaleConfig> = {
     copy: {
       legend: "Maschenanschlag-Rechner",
       gauge: "Maschenprobe (Maschen pro 10 cm / 4 Zoll)",
-      decreaseGauge: "Maschenprobe verkleinern",
-      increaseGauge: "Maschenprobe vergrößern",
+      decreaseGauge: "Maschenzahl verringern",
+      increaseGauge: "Maschenzahl erhöhen",
       gaugePlaceholder: "z. B. 20",
       width: "Gewünschte Breite",
       decreaseWidth: "Breite verkleinern",
@@ -80,7 +82,8 @@ export const CAST_ON_LOCALE_CONFIGS: Record<Lang, CastOnLocaleConfig> = {
       unitSelection: "Einheit",
       inches: "Zoll",
       calculate: "Berechnen",
-      error: "Gib eine gültige Maschenprobe und Breite ein.",
+      error:
+        "Gib 1–100 Maschen für die Maschenprobe und eine Breite von 0,1–1000 in der gewählten Einheit ein.",
       resultLabel: "anzuschlagende Maschen",
     },
   },
@@ -100,7 +103,8 @@ export const CAST_ON_LOCALE_CONFIGS: Record<Lang, CastOnLocaleConfig> = {
       unitSelection: "Måttenhet",
       inches: "tum",
       calculate: "Räkna ut",
-      error: "Ange giltiga värden för stickfasthet och bredd.",
+      error:
+        "Ange en stickfasthet på 1–100 maskor och en bredd på 0,1–1000 i vald enhet.",
       resultLabel: "maskor att lägga upp",
     },
   },
@@ -120,7 +124,8 @@ export const CAST_ON_LOCALE_CONFIGS: Record<Lang, CastOnLocaleConfig> = {
       unitSelection: "Måleenhet",
       inches: "tommer",
       calculate: "Beregn",
-      error: "Skriv inn gyldig strikkefasthet og bredde.",
+      error:
+        "Skriv inn en strikkefasthet på 1–100 masker og en bredde på 0,1–1000 i valgt enhet.",
       resultLabel: "masker å legge opp",
     },
   },
@@ -130,8 +135,8 @@ export const CAST_ON_LOCALE_CONFIGS: Record<Lang, CastOnLocaleConfig> = {
     copy: {
       legend: "Calculateur de mailles à monter",
       gauge: "Échantillon (mailles pour 10 cm)",
-      decreaseGauge: "Réduire l'échantillon",
-      increaseGauge: "Augmenter l'échantillon",
+      decreaseGauge: "Réduire le nombre de mailles",
+      increaseGauge: "Augmenter le nombre de mailles",
       gaugePlaceholder: "ex. 20",
       width: "Largeur souhaitée (cm)",
       decreaseWidth: "Réduire la largeur",
@@ -140,7 +145,8 @@ export const CAST_ON_LOCALE_CONFIGS: Record<Lang, CastOnLocaleConfig> = {
       unitSelection: "Unité",
       inches: "pouces",
       calculate: "Calculer",
-      error: "Entre un échantillon et une largeur valides.",
+      error:
+        "Saisis un nombre de mailles entre 1 et 100 pour 10 cm et une largeur entre 0,1 et 1000 cm.",
       resultLabel: "mailles à monter",
     },
   },
@@ -160,7 +166,7 @@ export const CAST_ON_LOCALE_CONFIGS: Record<Lang, CastOnLocaleConfig> = {
       unitSelection: "Maateenheid",
       inches: "inch",
       calculate: "Berekenen",
-      error: "Vul een geldige stekenverhouding en breedte in.",
+      error: "Vul 1–100 steken per 10 cm en een breedte van 0,1–1000 cm in.",
       resultLabel: "op te zetten steken",
     },
   },
@@ -180,7 +186,8 @@ export const CAST_ON_LOCALE_CONFIGS: Record<Lang, CastOnLocaleConfig> = {
       unitSelection: "Måleenhed",
       inches: "inch",
       calculate: "Beregn",
-      error: "Skriv en gyldig strikkefasthed og bredde.",
+      error:
+        "Skriv en strikkefasthed på 1–100 masker pr. 10 cm og en bredde på 0,1–1000 cm.",
       resultLabel: "masker der skal slås op",
     },
   },
@@ -198,7 +205,9 @@ export type CastOnCalculation =
   | { ok: false; invalidFields: CastOnInputName[] };
 
 export const parseCastOnNumber = (raw: string | null) => {
-  const normalized = (raw || "").trim().replace(/\s+/g, "").replace(",", ".");
+  const normalized = (raw || "").trim().replace(",", ".");
+  if (!/^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?$/i.test(normalized))
+    return NaN;
   const value = Number(normalized);
   return Number.isFinite(value) ? value : NaN;
 };

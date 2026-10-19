@@ -1,7 +1,8 @@
 ---
 title: "Kerrosten seuraaminen neuloessa"
-description: "Menikö kerrosluku sekaisin kesken työn? Tässä 7 luotettavaa tapaa seurata neuleen kerroksia paperista digitaalisiin laskureihin ja muistutuksiin."
+description: "Seitsemän tapaa seurata neuleen kerroksia. Selkeä laskutapa, mallikertojen seuranta ja ohjeet kerrosluvun tarkistamiseen keskeytysten jälkeen."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 2
 tags:
@@ -9,7 +10,6 @@ tags:
     "kerrosten seuraaminen neuloessa",
     "neuleen kerroslaskuri",
     "kerrosmäärän seuraaminen",
-    "silmukkalaskuri",
     "digitaalinen kerroslaskuri",
     "kerroslaskuri-sovellus",
   ]
@@ -17,109 +17,113 @@ lang: fi
 translationKey: "track-rows-knitting"
 ---
 
-Lasket työn käsistä avataksesi oven. Otat sen takaisin kahdenkymmenen minuutin päästä. Oliko tämä kerros 14 vai 15? Sileässä neuleessa sillä ei ehkä ole väliä. Pitsissä, jossa parittomat ja parilliset kerrokset tekevät täysin eri asioita, yhden kerroksen heitto tarkoittaa purkamista.
+Lasket työn käsistä avataksesi oven. Otat sen takaisin kahdenkymmenen minuutin päästä. Oliko tämä kerros 14 vai 15? Kerrosluvulla voi olla väliä sileässäkin neuleessa, kun teet muotoiluja tai kahta samanlaista kappaletta. Pitsissä väärä kerros voi sotkea kuvion.
 
-Yksi tapa ei toimi joka projektissa. Nämä seitsemän vaihtelevat täysin tekniikattomasta sovelluspohjaiseen, ja useimmat neulojat päätyvät käyttämään useampaa kuin yhtä.
+Yksi tapa ei toimi joka projektissa. Näitä seitsemää menetelmää voi käyttää erikseen tai yhdessä.
+
+Tämän oppaan kokonaislaskuri näyttää **valmiiden kerrosten määrän**. Aloita nollasta ja lisää 1 vasta kokonaisen kerroksen valmistuttua. Kun luku on 14, seuraavaksi neulot kerroksen 15. Jos pysähdyt sen keskelle, jätä laskurin lukemaksi 14 ja kirjaa, minkä silmukan kohdalle jäit. Jatka siitä ja vaihda luvuksi 15 vasta kerroksen lopussa. Luomista ei lasketa näissä esimerkeissä. Noudata ohjeen numerointia aloituskerroksissa ja viimeistelyssä; kirjaa vanha kokonaisluku ja uuden osion alkukohta ennen osiolaskurin nollaamista.
 
 ## 1. Viivat paperilla
 
-Vähätekninen tapa, ja yhä toimiva. Muistilappu neuleen vieressä, yksi viiva per kerros, ryhmiteltynä viiden sarjoihin.
+Pidä muistilappu neuleen vieressä: yksi viiva valmista kerrosta kohti, ryhmiteltynä viiden sarjoihin.
 
-Toimii suoraviivaisissa projekteissa: ainaoikea peitto, sileä huivi, mikä tahansa työ jossa kerrosmäärä on ainoa seurattava asia. Hajoaa, kun pitää seurata samaan aikaan mallikertoja, muotoiluvälejä ja kokonaiskerrosmäärää. Yhteen viivasarakkeeseen ei mahdu kaikkea.
+Yksi viivasarake sopii esimerkiksi ainaoikeaan peittoon tai sileään huiviin. Jos seuraat myös muotoiluja ja mallikertoja, lisää omat sarakkeet kokonaisluvulle, seuraavalle mallikerran kerrokselle ja seuraavalle muotoilulle. Paperikin sopii rinnakkaiseen seurantaan.
 
 Osa tulostaa ohjeen ja merkitsee kerrokset suoraan sivulle ohjerivin viereen. Se toimii hyvin kaavioissa ja ohjeissa, joissa jokaisella kerroksella on oma rivinsä.
 
 ## 2. Mekaaniset kerroslaskurit
 
-Tynnyrimäiset laskurit, jotka laitetaan suoran puikon päähän. Kierrä jokaisen kerroksen jälkeen, ja numero kasvaa. Edullinen, ei pattereita, ja yleinen syystä.
+Puikkoon kiinnitettävän mekaanisen kerroslaskurin numerokiekkoja käännetään käsin. Kasvata lukua jokaisen valmiin kerroksen jälkeen. Tällainen laskuri ei tarvitse paristoa; tarkista, miten se kiinnitetään omiin puikkoihisi tai projektipussiin.
 
-Rajoitukset ovat silti todellisia. Monet peruslaskurit laskevat vain ylöspäin, joten kerroksen purkaminen tarkoittaa, että pitää muistaa säätää luku takaisin. Tynnyrilaskurit voivat olla hankalia pyöröpuikoilla. Osa neulojista kiinnittää erillisen laskurin projektipussiin, mikä ratkaisee puikko-ongelman mutta ei purkuongelmaa.
+Tarkista omasta laskuristasi luvun pienentäminen ja nollaus. Kerroksen purkaminen ei muuta näyttöä, vaan korjaat luvun itse. Renkaasta riippuva laskuri voi sopia pyöröpuikoille paremmin kuin suoran puikon päähän tarkoitettu malli.
 
-Osa painonappilaskureista, sellaisista pienistä riipuksen näköisistä diginäytöllä, laskee molempiin suuntiin. Ne taas osuvat helposti projektipussissa johonkin ja nollautuvat. Oma ongelmansa sekin.
+Digitaalinäytöllä varustettu painonappilaskuri on sähköinen laite. Luvun pienentäminen, nollaus ja näppäinlukko riippuvat mallista. Tarkista näyttö, kun otat laskurin projektipussista.
 
-## 3. Lukittavat silmukkamerkit kerroslippuina
+## 3. Lukittavat silmukkamerkit kerrosten maamerkkeinä
 
-Aseta lukittava silmukkamerkki tietylle kerrokselle, esimerkiksi palmikkotoiston ensimmäiselle kerrokselle, ja kun olet neulonut tietyn määrän kerroksia sen yli, siirrä merkkiä ylemmäs. Visuaalinen ankkuri neulepinnassa, ei ulkoinen luku.
+Kiinnitä lukittava silmukkamerkki tunnetun valmiin kerroksen silmukkaan ja kirjaa kerrosnumero. Laske sen yläpuoliset kerrokset laskematta merkittyä kerrosta uudelleen. Kirjaa uusi viitenumero ennen merkin siirtämistä. Puikolla oleva merkki osoittaa silmukoiden välisen paikan, ei valmiiden kerrosten määrää.
 
-Tämä loistaa palmikoissa ja pitsissä, joissa pitää nähdä, missä toisto alkaa suhteessa nykyiseen kohtaan. Vähemmän hyödyllinen koko villapaidan vartalon kokonaiskerrosmäärän seuraamiseen.
+Menetelmä auttaa palmikoissa ja pitsissä, kun haluat hahmottaa mallikerran alkukohdan neulepinnasta. Kokonaiskerrosmäärää varten tarvitset lisäksi tiedon merkityn kerroksen numerosta.
 
-Värikoodatut lukittavat merkit vievät ajatusta pidemmälle. Yksi väri nykyisen mallikerran alkuun, toinen jo tehtyihin muotoilukerroksiin, kolmas kohtaan "seuraava asia, jota pitää vahtia". Järjestelmä vaatii vähän ylläpitoa, mutta monimutkaisessa työssä itse neulepinta alkaa kantaa osan tiedosta.
+Voit käyttää eri värejä mallikerran alkukohdalle ja jo tehdylle muotoilukerrokselle. Kirjaa värien merkitykset. Pelkkä merkki ei kerro valmiiden mallikertojen määrää eikä voi osoittaa vielä neulomatonta tulevaa kerrosta.
 
 ## 4. Neuleen lukeminen
 
-Ei varsinaisesti seurantamenetelmä. Enemmän palautusmenetelmä. Kun luku katoaa, neulepinnan lukeminen auttaa selvittämään missä olet ilman purkamista tunnettuun kohtaan asti.
+Neulepinnan lukeminen auttaa tarkistamaan muistiinpanoja ja löytämään keskeytyskohdan. Tarkkaa kerroslukua ei silti aina pysty palauttamaan vaikeasti erottuvasta mallineuleesta.
 
-Sileässä neuleessa oikealla puolella näkyy V-muotoja. Jokainen V on yksi kerros. Ainaoikeassa muodostuu harjanteita, ja jokainen harjanne on kaksi kerrosta. Joustinta on vaikeampi lukea, mutta kärsivällisyydellä sekin on laskettavissa.
+Seuraa sileän neuleen oikealla puolella yhtä pystysuuntaista silmukkapylvästä. Jokainen V-muotoinen silmukka kuuluu yhteen kerrokseen. Tunnista ensimmäinen neulottu kerros luomisrakenteen yläpuolelta tai aloita tunnetun merkityn kerroksen yläpuolelta. Kokonaisen kerroksen valmistuttua puikolla oleva silmukka kuuluu viimeiseen neulottuun kerrokseen: laske se kerran, älä ylimääräiseksi kerrokseksi. Kesken kerroksen puikoilla on kahden kerroksen silmukoita. Tarkista valmiiden kerrosten määrä vielä neulomattomasta silmukkapylväästä ja kirjaa keskeneräinen osuus erikseen.
 
-Mallineuleissa itse kuvio antaa usein ankkureita. Jos palmikko käännetään joka 8. kerros, ota lähtökohdaksi ensimmäisen käännön kerrosnumero, lisää 8 kerrosta jokaista seuraavaa kääntöä kohti ja lisää lopuksi viimeisen käännön jälkeen neulotut kerrokset. Pitsissä on usein erottuva kerros, esimerkiksi langankiertorivi tai siirtymäkerros, jonka näkee oikealta puolelta.
+Laske ainaoikean harjanteet yhdeltä puolelta: yksi kokonainen harjannejakso vastaa kahta kerrosta. Tarkista luomisreuna ja mahdollinen viimeinen pariton kerros erikseen. Älä laske molempien puolien harjanteita yhteen tai tulkitse jokaista reunan kohoumaa kahdeksi kerrokseksi. Puikon silmukat kuuluvat viimeiseen neulottuun kerrokseen.
+
+Jos palmikon kierto tehdään joka 8. kerroksella, tarvitset yhden kierron tunnetun kerrosnumeron. Kun ensimmäinen kierto on kerroksella 4, seuraavat ovat kerroksilla 12 ja 20. Kolmen sitä seuraavan kerroksen valmistuttua kokonaisluku on 23. Tässä esimerkissä numerointi alkaa luomisen jälkeen eikä erillisiä aloituskerroksia ole. Pitsissäkin erottuva kerros voi toimia maamerkkinä, kun sen numero tunnetaan ohjeesta.
 
 Taito kannattaa opetella riippumatta siitä, mitä muuta seurantatapaa käytät. Laskuri kertoo numeron. Neulepinnan lukeminen kertoo, näyttääkö numero oikealta.
 
 ## 5. Taulukot ja muistiinpanosovellukset
 
-Osa neulojista ylläpitää taulukkoa: yksi sarake per osio, kerrosnumero, silmukkamallin kerros, muistiinpanot. Toiset käyttävät muistiinpanosovellusta ja päivittävät muutaman kerroksen välein. Tämä skaalautuu hyvin monimutkaisiin vaatteisiin, joissa muotoilut, mallikerrat ja langanvaihdot osuvat päällekkäin.
+Taulukkoon tai muistiinpanosovellukseen voi kirjata valmiiden kerrosten kokonaismäärän, seuraavan mallikerran kerroksen ja muotoilut omiin sarakkeisiinsa. Jos päivität tietoja vain tauoilla, pidä välissä tukkimiehen kirjanpitoa, jotta puuttuvia kerroksia ei tarvitse muistella.
 
-Huono puoli: laite pitää olla lähellä ja päivitys pitää oikeasti tehdä. Jos istut alas ja neulot tunnin putkeen, taulukon avaaminen jokaisen kerroksen jälkeen rikkoo rytmin pahasti. Todellinen käyttötapa on päivittää luontevissa taukokohdissa: kerroksen lopussa, osion lopussa tai ennen kuin lasket työn käsistä.
+Valitse itsellesi toimiva päivityshetki: kerroksen loppu, osion vaihto tai työn laskeminen käsistä. Merkitse kesken kerroksen jäänyt kohta erilleen valmiiden kerrosten määrästä.
 
 ## 6. Erilliset kerroslaskurisovellukset
 
-Puhelimen digitaalinen kerroslaskuri yhdistää napsuttimen helppouden asioihin, joihin fyysiset laskurit eivät pysty. Napauta eteenpäin, peru virhe, aseta muistutuksia tietyille kerroksille.
+Kerroslaskurisovellukseen kirjataan eteneminen käsin; lisätoiminnot vaihtelevat. Esimerkiksi [My Row Counterin ominaisuusohje](https://rowcounterapp.com/counter.html) kuvaa muistutukset valittuihin laskuriarvoihin. Muistutus reagoi kirjattuun lukuun, ei neuleesta tunnistettuihin silmukoihin.
 
-Muistutukset ovat kohta, jossa sovellus nousee listan muiden tapojen ohi. Ohje sanoo, että kavenna kerroksilla 15, 25, 35 ja 45? Aseta ne kerran. Sovellus kertoo, kun olet kohdalla. Ei päässälaskua, ei tarralappuja ohjeen päällä.
+Oletetaan, että kavennat kerroksilla 15, 25, 35 ja 45: ensimmäinen kavennuskerros on 15, sitten toistat sen vielä kolme kertaa kymmenen kerroksen välein. Kavennuskerroksia on yhteensä neljä. Kun laskuri näyttää valmiit kerrokset, tarkista kavennusohje luvuissa 14, 24, 34 ja 44 ennen seuraavan kerroksen aloittamista. Kavennuskerrosten valmistuttua lukemat ovat 15, 25, 35 ja 45. Jos sovellus muistuttaa laskurin saavuttaessa tietyn luvun, ennakkovaroituksen arvoksi tulee edellinen valmis kerros. Tarkista sovelluksen toimintatapa: luvussa 15 tuleva ilmoitus voi olla liian myöhäinen kerroksen 15 alkuun.
 
-Osa kerroslaskurisovelluksista kirjaa myös sessio- tai edistymistietoa, joten näet kauanko olet työskennellyt ja voit verrata tahtia sessioiden välillä. Silloin laskuri ei ole vain yksi numero, vaan projektin muistijälki.
+Työskentelykertojen historia täydentää kerroslukua, mutta kuvaa sovelluksen käyttöä ja kirjattua etenemistä. Se ei todista, että jokainen kerros on neulottu tai napautus tehty oikein.
 
-[KnitTools-sovellusta](/fi/tyokalut/#join) rakennetaan Android-työkalupakiksi, jossa on napautuslaskenta, peruutus, useat laskurit ja sessioseuranta moniosaisiin projekteihin.
+[KnitTools-sovellusta](/fi/tyokalut/#join) rakennetaan Androidille. Siinä on manuaalinen napautuslaskenta, tuettujen viimeaikaisten päälaskurimuutosten peruutus, projektin lisälaskurit ja työskentelykertojen seuranta. Peruutus muuttaa kirjattua lukua, ei neuletta. Nämä ominaisuudet eivät tarkoita, että erilliset laskurit etenisivät yhdessä tai että mukana olisi muistutuksia. Linkki johtaa julkaisuilmoittautumiseen, ei sovelluksen lataukseen.
 
 ## 7. Yhdistelmämenetelmät
 
-Useimmat neulojat päätyvät yhdistelmään. Digitaalinen laskuri kokonaiskerrosmäärälle. Silmukkamerkit neulepinnassa mallikerran suunnistamiseen. Kyky lukea neuletta varmistuksena.
+Voit yhdistää kokonaislaskurin, neulepinnan tunnettuja kohtia osoittavat merkit ja ohjemuistiinpanot. Kukin auttaa tarkistamaan eri asian.
 
-Ne palvelevat eri tarkoituksia. Laskuri kertoo "kerros 23". Merkki neuleessa kertoo "palmikkopaneelin kolmas toisto". Neuleen lukeminen kertoo "tämä on oikean puolen kerros". Eri kysymykset, eri työkalut.
+Erota kokonaiskerrosmäärä mallikerran kohdasta. Kun 8 kerroksen mallikerta alkaa työn kerrokselta 1, kokonaisluku 23 tarkoittaa kahta valmista mallikertaa ja kolmannen seitsemää valmista kerrosta. Seuraavaksi neulot mallikerran kerroksen 8. Luvussa 24 kolme mallikertaa on valmiina ja seuraavaksi tulee mallikerran kerros 1. Kokonaislaskuri jää lukuun 24. Jos toinen laskuri näyttää nykyisen mallikerran valmiit kerrokset, kirjaa mallikerta valmiiksi ja nollaa vain tämä laskuri luvusta 8 nollaan. Mallikertaa edeltävät aloituskerrokset on huomioitava erikseen.
 
-["Samaan aikaan" -muotoiluissa](/fi/artikkelit/samaan-aikaan-neuleohjeessa/) kaksi tai kolme rinnakkaista laskuria on usein siistein tapa välttää ohjeiden sekoittuminen. Kädentien kavennukset yhdelle laskurille, pääntien muotoilu toiselle. Ne tikittävät itsenäisesti, kuten ohjekin vaatii.
+["Samaan aikaan" -muotoiluissa](/fi/artikkelit/samaan-aikaan-neuleohjeessa/) nimeä jokaiselle tapahtumasarjalle alkukohta ja aikataulu. Voit käyttää erillisiä laskureita tai yhtä kokonaislukua ja erillisiä kirjallisia aikatauluja. Eri muotoiluvälit eivät tarkoita eri kerroksia: kaksi ohjetta voi osua samalle kerrokselle. Pidä erillisten kappaleiden luvut erillään. Älä oleta, että laskurit on linkitetty tai että ne nollautuvat automaattisesti.
 
 ## Suljettuna vai tasona
 
-Tasona neulominen ja suljettuna neulominen seurataan hieman eri tavalla.
+Tasona ja suljettuna neulotun työn kerroksia seurataan hieman eri tavoin.
 
-Tasona neuloessa työssä on selvä oikea ja nurja puoli, ja jokainen matka puikoilla on yksi kerros. V:t on melko helppo laskea luomisreunasta ylöspäin.
+Tasoneuleessa yksi kokonainen matka työn reunasta toiseen on kerros. Merkitse, kumman puolen ohje nimeää oikeaksi. Parittomat kerrokset ovat oikean puolen kerroksia vain, jos kerros 1 on oikealla puolella ja neulot tavallisia kokonaisia kerroksia vuorotellen kummaltakin puolelta.
 
-Suljettuna neuloessa puhutaan kerroksista tai kierroksista. Jokainen puikkojen ympäri tehty kierros on yksi valmis kerros, mutta aloituskohta katoaa helposti ilman merkkiä. Tavallinen ratkaisu on asettaa silmukkamerkki kerroksen alkuun ja laskea jokainen merkin ohitus yhdeksi valmiiksi kerrokseksi. Osa lisää toisen merkin kymmenen kerroksen ryhmiä varten, ettei 47 kerrosta tarvitse laskea yksitellen.
+Suljetun neuleen kerros kulkee koko työn ympäri, ei vain yhden sukkapuikon läpi. Aseta alkumerkki ja jätä laskurin lukemaksi 0. Lisää 1 vasta, kun olet neulonut kaikki silmukat ja palannut merkille. Merkin asettaminen tai siirtäminen ennen ensimmäistä kierrosta ei lisää lukua. Kymmenen kerroksen ryhmiä varten kiinnitä toinen merkki valmiiseen kerrokseen 10 ja siirrä se myöhemmin kerroksiin 20, 30 ja 40 kirjaten viitenumero. Kerroksella 47 kerroksen 40 merkin yläpuolella on seitsemän valmista kerrosta. Pelkkä ylimääräinen rengas puikolla ei laske kymmeniä.
 
 ## Kun lasku on kadonnut
 
-Sitä tapahtuu. Kaksi tapaa toimii useimmiten.
+Pysähdy ennen laskurin muuttamista ja selvitä, mitä olet todella neulonut.
 
 Laske tunnetusta kohdasta. Luomisreuna, kirjoneuleosion alku, joustimen loppu, palmikon käännös tai värinvaihto. Mikä tahansa näkyvä kohta, jonka kerrosnumeron tiedät, antaa paikan josta laskea eteenpäin.
 
-Vertaa ohjeen edistymismerkkeihin. Moni ohje kertoo mittoja tietyissä kohdissa, esimerkiksi "työ on 18 cm luomisreunasta ensimmäisen kavennusosion jälkeen". Jos mitat täsmäävät, kerrosluku todennäköisesti täsmää myös.
+Mitta on vain suuntaa antava tarkistus. Sama pituus ei todista samaa kerrosmäärää, koska kerrostiheys, käsiala ja pingotus vaikuttavat mittaan. Tarkista myös neulepinta sekä ohjeen muotoilu- ja mallikertakohdat.
 
-Viimeinen tarkistus: laske kahdella tavalla. Laske V:t alhaalta, ainaoikean harjanteet alhaalta tai kerrokset kahden merkin välistä ja valitse luku, joka toistuu. Jos luvut ovat ristiriidassa, yksi laskutapa on pielessä, ja se löytyy yleensä rauhallisella uudelleenlaskulla.
+Laske uudelleen samasta viitekohdasta samoilla rajauksilla. Älä vertaa harjanteiden määrää suoraan kerrosten määrään. Jos laskuri näyttää 23 mutta varmistat 24 valmista kerrosta, korjaa luvuksi 24. Jos tuplanapautus näyttää 24 ja valmiita on 23, korjaa luvuksi 23. Kun purat luvusta 24 kolme kokonaista kerrosta, jäljelle jää 21; päivitä myös seuraava mallikerran kerros ja muotoilukohta. Merkitse osittain purettu kerros erikseen. Peruutuspainike ei palauta kirjaamatta jäänyttä työvaihetta.
 
 ## Menetelmä projektin mukaan
 
 **Yksinkertaiset projektit ilman muotoilua** (huivi, tiskirätti): paperi ja kynä tai perusklikkeri riittää.
 
-**Muotoillut projektit** (villapaidat, pipot joissa on päälaen kavennuksia): kerroslaskurisovellus muistutuksilla säästää oikeita harmeja. Kaksi minuuttia asetuksia alussa, vähemmän virheitä koko työn aikana.
+**Muotoillut projektit** (villapaidat, päälaelta kavennettavat pipot): kirjallinen aikataulu tai tarkistettu muistutusasetus voi auttaa huomaamaan seuraavan muotoilukerroksen.
 
-**Monimutkainen pitsi tai kirjoneule**: digitaalinen laskuri kokonaisedistymiseen, silmukkamerkit neulepinnassa toistojen hahmottamiseen. Liikkuvia osia on liikaa yhdelle menetelmälle.
+**Monimutkainen pitsi tai kirjoneule**: yhdistä kokonaisluku mallikertamuistiinpanoihin tai silmukkamerkkeihin, jos se helpottaa ohjeen seuraamista.
 
-**Usein keskeytyvä neulominen**: digitaalinen laskuri, joka tallentaa paikan automaattisesti. Paperi katoaa. Mekaaninen laskuri osuu vahingossa. Sovellus muistaa, mihin jäit, vaikka projekti olisi koskematta viikon.
+**Usein keskeytyvä neulominen**: kirjaa valmiiden kerrosten määrä ja mahdollinen kesken kerroksen jäänyt kohta. Jos käytät sovellusta, tarkista sulkemisen ja uudelleen avaamisen jälkeen oikea projekti ja luku. Tallennus on eri asia kuin varmuuskopio tai laitteiden synkronointi.
 
 ## FAQ
 
 **Miten kerrokset lasketaan sileässä neuleessa?**
-Kankaan oikealta puolelta: jokainen V-muotoinen silmukka on yksi kerros. Laske V:t pystysuunnassa luomisreunasta puikoille asti. Nurjalla puolella laske nurjat nypyt. Määrä on sama kummalta puolelta tahansa.
+Seuraa yhtä pystysuuntaista silmukkapylvästä tunnetusta kohdasta. Jätä merkitty viitekerros pois ja laske sen yläpuolelta puikon silmukkaan asti, kun koko kerros on valmis. Erota luomisrakenne neulotuista kerroksista. Keskeneräinen kerros ei ole uusi valmis kerros; tarkempi rajaus on neuleen lukemisen osiossa.
 
 **Lasketaanko luomiskerros kerrokseksi 1?**
-Riippuu ohjeesta. Noudata ensin suunnittelijan sanamuotoa. Jos ohje ei kerro, moni neuloja jättää luomisreunan laskun ulkopuolelle ja pitää ensimmäistä neulottua kerrosta kerroksena 1, sitten tarkistaa täsmääkö kokonaiskerrosmäärä siihen, mitä neulepinta näyttää. [Neuleohjeen lukemisen opas](/fi/artikkelit/neuleohjeen-lukeminen/) käsittelee näitä käytäntöjä tarkemmin.
+Noudata suunnittelijan numerointia. Tässä oppaassa luominen jää laskun ulkopuolelle ja ensimmäinen neulottu kerros on kerros 1. Osa luontitavoista muodostaa kerrokselta näyttävää pintaa, joten pelkkä ulkonäkö ei kerro numerointia. Pidä erikseen nimetyt aloituskerrokset ja päättelyohje erillään numeroidusta osiosta. [Neuleohjeen lukemisen opas](/fi/artikkelit/neuleohjeen-lukeminen/) auttaa tulkitsemaan ohjetta.
 
 **Miten kerroksia seurataan suljettuna neuleena?**
-Aseta silmukkamerkki kerroksen alkuun. Joka kerta kun ohitat sen, yksi kerros on valmis. Merkki ja kerroslaskuri yhdessä antavat tarkan luvun. Ilman merkkiä on helppo kadottaa, missä yksi kerros päättyy ja seuraava alkaa, varsinkin tavallisessa sileässä neuleessa, jossa liittymäkohta ei näy selvästi.
+Merkitse kerroksen alku ja lisää 1 vasta palattuasi merkille kokonaisen kierroksen jälkeen. Merkin asettaminen ennen aloittamista ei tee kerrosta valmiiksi. Merkki osoittaa rajan; laskuri tai kirjanpito kertoo valmiiden kerrosten määrän.
 
 **Entä raitojen seuraaminen?**
-Jos kaksivärinen raidoitus toistuu samalla rytmillä, voit laskea raitapareja kerrosten sijaan: 8 kerrosta värillä A ja 8 kerrosta värillä B on yksi raitapari, mikä on helpompi laskea kuin 16 erillistä kerrosta. Monimutkaisemmissa raidoissa kerroslaskuri, jossa on toistotuki, säästää päässälaskua.
+Kahdeksan valmista kerrosta värillä A ja kahdeksan värillä B muodostaa 16 kerroksen raitaparin. Aloita kokonais- ja parilaskenta nollasta: luvussa 8 vaihda väriin B, luvussa 16 kirjaa yksi valmis pari ja aloita taas A. Luvussa 32 valmiita pareja on kaksi. Pidä kokonaisluku, parien määrä ja nykyisen raidan kohta erillään. Luominen sekä erilliset aloitus- ja viimeistelykerrokset eivät kuulu näihin lukuihin.
 
 **Kannattaako yhteen projektiin asettaa useita laskureita?**
-Peruspipoon tai huiviin ei. Villapaitaan, jossa kädentien muotoilu, pääntien muotoilu ja tekstuurimallineule kulkevat eri kerrosrytmeissä, kyllä. Useat laskurit pitävät jokaisen muuttujan omalla radallaan sen sijaan, että kaikki puristetaan yhteen epäselvään numeroon.
+Käytä useita laskureita, jos niiden nimet ja päivitystavat selkeyttävät työtä. Yksi kokonaisluku ja erilliset muotoilu- ja mallikertamuistiinpanot voivat myös riittää. Määrittele jokaiselle laskurille, näyttääkö se valmiita kerroksia, valmiita mallikertoja vai seuraavaa neulottavaa kerrosta. Tarkista mahdollinen linkitys ja nollaus ennen niihin luottamista.

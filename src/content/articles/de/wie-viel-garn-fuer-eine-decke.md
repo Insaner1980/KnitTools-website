@@ -1,7 +1,8 @@
 ---
 title: "Wie viel Garn für eine Decke?"
-description: "Garnbedarf für gestrickte Decken nach Größe und Garnstärke. Von Babydecke bis großer Wohndecke, mit Anpassungen für Muster."
+description: "Garnbedarf für eine gestrickte Decke anhand konkreter Anleitungen, Fertigmaße und einer Maschenprobe schätzen. Benötigte Meter in ganze Knäuel umrechnen."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 5
 tags:
@@ -16,102 +17,88 @@ lang: de
 translationKey: "yarn-for-blanket"
 ---
 
-Decken fressen Garn. Selbst eine kleine Babydecke braucht mehr Meter als viele Kleidungsstücke, und eine große Wohndecke aus Worsted kann über 2.300 m verbrauchen. Wenn das Garn mittendrin ausgeht, besonders bei einer verschwundenen Farbpartie, ist das genau die Art Strickärger, die sich mit vernünftiger Planung vermeiden lässt.
+Decken fressen Garn. Wenn das Garn mittendrin ausgeht, besonders wenn dieselbe Farbpartie nicht mehr erhältlich ist, hilft gute Planung, solchen Strickärger zu vermeiden.
 
-Die Schätzungen unten geben eine Startspanne. Dein tatsächlicher Garnbedarf hängt von Maschenprobe, Muster und Maßen ab, also behandle diese Zahlen als Einkaufsbereiche statt als Versprechen aus einer Anleitung.
+Beginne mit der fertigen Breite und Länge, dem Garn und dem Muster. Unten findest du Mengen aus benannten Anleitungen und Hinweise zum Schätzen einer anderen Decke.
 
 ## Garnbedarf nach Deckengröße
 
-Diese Spannen gehen von glatt rechts oder einem ähnlich flachen Muster aus. Strukturmuster verbrauchen mehr, dazu unten mehr.
+Babydecke, Wohndecke und king-size sind Bezeichnungen, keine einheitlichen Maße. Lege bei einer Bettdecke die fertige Größe und den gewünschten Überhang fest; die Matratzenmaße allein bestimmen nicht die Deckengröße.
 
-**Babydecke (75 x 100 cm)**
-Worsted: 700-1.000 m
-DK: 900-1.200 m
-Bulky: 500-800 m
+**Babydecke: [Bright Cuddles Blanket, DROPS Baby 46-4](https://www.garnstudio.com/pattern.php?id=11395&cid=9).** Die Decke wird mit einem Faden DROPS Big Merino in Hin- und Rückreihen im Lochmuster mit mitgestrickten kraus rechten Rändern gearbeitet. Die Maschenprobe beträgt 16 Maschen und 22 Reihen auf 10 × 10 cm im Lochmuster. [Big Merino](https://www.garnstudio.com/yarn.php?show=drops-big-merino&cid=19) ist ein Aran/Worsted-Garn mit etwa 75 m pro 50-g-Knäuel.
 
-**Schoßdecke / kleine Wohndecke (100 x 130 cm)**
-Worsted: 1.400-1.800 m
-DK: 1.600-2.200 m
-Bulky: 1.000-1.400 m
+| Fertigmaße | Menge / Knäuel | Lauflänge |
+| ---------- | -------------- | --------- |
+| 44 × 59 cm | 300 g / 6      | 450 m     |
+| 57 × 68 cm | 450 g / 9      | 675 m     |
+| 69 × 77 cm | 600 g / 12     | 900 m     |
 
-**Große Wohndecke (130 x 180 cm)**
-Worsted: 2.100-2.900 m
-DK: 2.700-3.500 m
-Bulky: 1.600-2.200 m
+Maße und Lauflängen sind Näherungswerte. Die Fertigmaße enthalten die Ränder der Anleitung. Die Meterzahlen ergeben sich aus den empfohlenen ganzen Knäueln. Sie sind kein gemessener Verbrauch und bedeuten nicht, dass jeder Meter verstrickt wird.
 
-**Sehr groß / king-size (180 x 230 cm)**
-Worsted: 3.500-4.600 m
-DK: 4.600-5.700 m
-Bulky: 2.600-3.400 m
+**Größere Decke: [Strawberry Sky, DROPS 223-37](https://www.garnstudio.com/pattern.php?id=10186&cid=19).** Diese Decke misst 100 × 140 cm und wird mit einem Faden DROPS Fabel kraus rechts von Ecke zu Ecke in Hin- und Rückreihen gestrickt. Die Maschenprobe beträgt 20 Maschen und 39 Reihen auf 10 × 10 cm. Angegeben sind 550 g der Farbe 623. Das Fingering-Garn [Fabel](https://www.garnstudio.com/yarn.php?show=drops-fabel&cid=19) enthält etwa 205 m pro 50 g: 11 Knäuel liefern 2.255 m. Dies ist eine eigene Anleitung, keine größere Variante der Lochmusterdecke.
 
-Für eine genauere Schätzung nach Projektart, Größe und Garnstärke deckt der [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) Decken von Babygröße bis king-size über die im Tool enthaltenen Garnstärken ab.
+[Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) — Referenzmengen benannter Anleitungen, keine persönliche Verbrauchsprognose. Wähle Projekt, Größe einer benannten Anleitung und Einheit. Das Ergebnis ist die Referenzmenge dieser Anleitung, keine Prognose für dein eigenes Projekt.
 
 ## Warum die Garnstärke so viel verändert
 
-Dünneres Garn bedeutet mehr Maschen auf 10 cm. Eine DK-Decke hat über dieselbe Breite mehr Maschen als eine Worsted-Decke und braucht meist entsprechend mehr Reihen für dieselbe Länge. Gleiche Deckengröße, mehr Maschen insgesamt und normalerweise mehr Meter Garn.
+Garnstärke beschreibt die Dicke; Gramm geben das tatsächliche Gewicht an. Eine Garnkategorie oder Maschenzahl allein bestimmt nicht die benötigte Lauflänge. Vergleiche Garn, Maschenprobe und Muster der gewählten Anleitung.
 
-Das ist ein Grund, warum Super-Bulky-Decken bei neueren Strickenden beliebt sind. Sie sind schnell fertig und brauchen weniger Meter. Der Haken: Super-Bulky-Garn kostet oft mehr pro 100 g und hat weniger Meter pro Knäuel. Du brauchst weniger Knäuel als bei dünnerem Garn, aber jedes Knäuel reicht weniger weit. Die Gesamtkosten können trotz niedrigerer Meterzahl ähnlich ausfallen.
+Ein dickeres Garn kann mit weniger Maschen in der Breite ein anderes Gestrick ergeben. Daraus folgt aber keine feste Verringerung der Meter- oder Knäuelzahl. Sowohl die Lauflänge auf der Banderole als auch der Verbrauch für dieses Gestrick zählen. Vergleiche den Preis der insgesamt benötigten Menge.
 
 ## Anpassungen nach Muster
 
-Die Werte oben gehen von flachem Gestrick aus. Passe nach oben an bei:
+Strick die Maschenprobe im tatsächlichen Muster. Zöpfe, kleines und großes Perlmuster, kraus rechts, Lochmuster und mehrfarbige Muster mit Spannfäden sollten nicht alle denselben Ausgangswert wie glatt rechts verwenden. Es gibt keinen allgemeingültigen prozentualen Zuschlag. Berücksichtige einen ganzen Rapport und bei mehrfarbigem Stricken auch Spannfäden und den Verbrauch jeder Farbe.
 
-**Zöpfen:** Rechne mit einem großzügigen Puffer. Zöpfe komprimieren das Gestrick horizontal, daher brauchst du mehr Maschen für dieselbe Deckenbreite. Eine stark verzopfte Aran-Decke kann deutlich mehr Garn verbrauchen als dieselben Maße in glatt rechts.
+Für eine selbst geplante rechteckige Decke liefert [Rita Buchanans Flächenmethode](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf) einen Ausgangswert: Multipliziere die gemessene Garnlänge oder das Garngewicht der Probe mit **Deckenfläche ÷ Probenfläche**. Fläche ist Breite × Länge. Verwende durchgehend dieselben Flächeneinheiten, etwa cm².
 
-**Perlmuster und doppeltem Perlmuster:** Rechne mit einem kleineren Puffer. Das wechselnde Rechts-Links-Muster ergibt einen dichteren Stoff und oft eine etwas festere Maschenprobe.
+Garn, Muster und Maschenprobe müssen der Decke entsprechen. Behandle die Probe nach den Pflegehinweisen so wie später die Decke und miss sie vollständig trocken. Das gewogene oder gemessene Garn muss zur gemessenen Fläche gehören: Zusätzliche Ränder oder lange Fadenenden dürfen nicht zum Gewicht eines kleineren Mittelteils zählen. Die Probe muss für die Auflösung deiner Waage groß genug sein.
 
-**Mehrfarbigem Stricken mit Spannfäden:** Strick den Rapport als Maschenprobe, bevor du sehr knapp einkaufst. Spannfäden auf der Rückseite verbrauchen Garn, das nicht zur Breite beiträgt. Fair-Isle-Decken sind schön, aber garnhungrig, und die Spannfäden machen die Decke schwerer und weniger fließend als eine einfarbige Version.
-
-**Kraus rechts:** ungefähr dieselbe Gesamtmeterzahl wie glatt rechts, manchmal etwas mehr. Kraus rechts komprimiert in der Höhe, ist also Reihe für Reihe kürzer als glatt rechts. Du strickst oft ein paar zusätzliche Reihen, bis die Länge stimmt. Die Decke wird bei derselben Maschenzahl dicker und weicher.
-
-**Lochmuster:** kann etwas weniger als glatt rechts brauchen, weil die offene Struktur beim Spannen weiter wächst. Eine stark gespannte Lochmusterdecke kann aus derselben Garnmenge eine größere fertige Fläche erreichen. Verlass dich aber nicht auf riesige Ersparnis, und Lochmusterdecken sind selten die beste Wahl, wenn Wärme das Hauptziel ist.
+Dasselbe Flächenverhältnis hilft beim Ändern einer Anleitung, wenn das Gestrick unverändert bleibt. Doppelte Länge ergibt doppelte Fläche; doppelte Breite und Länge ergeben die vierfache Fläche. Ränder, Nähte und Fransen brauchen eine eigene Berechnung, sofern sie nicht schon in einer repräsentativen Messung enthalten sind. Zähle jeden Teil einmal. Die gerundete Einkaufsmenge einer Anleitung ist kein gemessener Verbrauch; ihre Skalierung bleibt eine Schätzung.
 
 ## Meter in Knäuel umrechnen
 
-Schau auf die Banderole, wie viele Meter ein Knäuel enthält. Teile die Gesamtmeter durch die Meter pro Knäuel. Runde auf.
+Lies die Meter pro Knäuel auf der Banderole ab. Teile die insgesamt benötigten Meter durch die Lauflänge eines Knäuels und runde auf ganze Knäuel auf.
 
-Deine Decke braucht etwa 2.000 m. Das Garn hat 200 m pro 100-g-Knäuel. Das sind 10 Knäuel. Kauf 11. Das Extraknäuel deckt Maschenprobenschwankungen, Anschlagsfäden, Aufribbeln und die Tatsache ab, dass Garnbedarf eine Spanne ist, kein Versprechen.
+Angenommen, du brauchst 2.000 m und die Banderole nennt 200 m pro 100 g: 2.000 ÷ 200 = **10 Knäuel**, insgesamt 1.000 g. Das ist ein Rechenbeispiel, keine Mengenempfehlung für eine bestimmte Deckengröße.
 
-Für Decken lohnt sich ein oder zwei Knäuel Reserve fast immer, wenn das Budget es erlaubt und das Garn zurückgegeben oder sinnvoll als Rest verwendet werden kann. Die Kosten sind klein verglichen damit, dass das Garn nach drei Vierteln ausgeht und die Farbpartie nicht mehr da ist. Der [Garnbedarfs-Leitfaden](/de/artikel/wie-viel-garn-brauche-ich/) erklärt die Wiege-Methode für Teilknäuel während des Projekts.
+Plane Reserve passend zum Projekt und prüfe zuerst, ob die Ausgangsmenge bereits Maschenprobe und Fertigstellung berücksichtigt. Ein elftes Knäuel liefert 200 m zusätzlich, ist aber nicht automatisch nötig oder ausreichend. Aufgeribbeltes, wiederverwendbares Garn wird nicht zweimal verbraucht; berücksichtige tatsächlichen Verlust. Berechne und runde jede Farbe getrennt auf. Der [Garnbedarfs-Leitfaden](/de/artikel/wie-viel-garn-brauche-ich/) erklärt das Wiegen angebrochener Knäuel.
 
 ## Farbpartie planen
 
-Decken brauchen so viele Knäuel, dass die Farbpartie ein echtes Thema wird. Garn aus verschiedenen Färbungen kann nebeneinander gestrickt deutlich unterschiedlich aussehen, selbst wenn die Knäuel im Laden gleich wirken.
+Garn aus verschiedenen Färbungen kann nebeneinander gestrickt deutlich unterschiedlich aussehen, selbst wenn die Knäuel im Laden gleich wirken.
 
 Kauf alles Garn auf einmal und aus derselben Farbpartie. Prüfe die Partienummer auf jeder Banderole. Sie steht oft in der Nähe der Farbnummer und kann als "Lot" oder "Color Lot" beschriftet sein. Wenn der Laden nicht genug aus einer Partie hat, frag, ob er aus derselben Partie nachbestellen kann.
 
-Wenn du trotz allem zwei Farbpartien hast, wechsle die Knäuel durch die ganze Decke hindurch ab. Zwei Reihen aus Partie A, zwei Reihen aus Partie B, wiederholen. Der Farbunterschied mischt sich so langsam, dass er weniger sichtbar wird. Viel besser, als zuerst eine Partie komplett zu verstricken und dann eine harte Linie beim Wechsel zu bekommen. Manche Strickende machen das sogar mit gleicher Farbpartie, wenn das Garn handgefärbt oder kettle-dyed ist, weil auch innerhalb einer Partie leichte Unterschiede sichtbar sein können.
+Wenn du unterschiedliche Farbpartien hast, probiere das Abwechseln der Knäuel zuerst an einer Maschenprobe aus. Der Wechselrhythmus hängt von Garn und Muster ab; er garantiert nicht, dass der Unterschied verschwindet. Auch handgefärbte Stränge derselben Partie können variieren. [Malabrigos Hinweise zu Sock](https://malabrigoyarn.com/yarns/sock) beschreiben die Unterschiede und das Abwechseln.
 
 ## Garnstärke für eine Decke wählen
 
-**Bulky und Super Bulky:** schnell, dicke Struktur, warm. Gut für Decken, die gemütlich statt fein wirken sollen. Das Gestrick ist schwer, was entweder ein Vorteil ist, fast wie ein Gewichtsdecken-Gefühl, oder ein Nachteil, wenn es schwer über die Sofalehne fällt. Achte auch auf die Hände. Stundenlang mit 9 mm und größeren Nadeln zu stricken belastet Handgelenke anders als Worsted auf 5 mm.
+**Bulky und Super Bulky:** eine Wahl für eine grobe Struktur. Prüfe Gewicht und Fall der Probe; die Dicke allein garantiert weder Wärme noch die Wirkung einer Gewichtsdecke.
 
-**Worsted:** die häufigste Deckenstärke. Gute Balance aus Tempo, Dichte und Fall. Eine Worsted-Decke ist warm, ohne steif zu sein. Passt zu den meisten Mustern. Viele alltagstaugliche Worsted-Garne haben breite Farbpaletten, und das zählt, wenn du dich auf zwei oder drei tausend Meter in einem Farbton festlegst.
+**Worsted:** eine Möglichkeit für glatte und strukturierte Decken. Beurteile Dichte und Weichheit an einer Probe mit der vorgesehenen Maschenprobe; Garne derselben Stärke fallen nicht alle gleich.
 
-**DK:** feinere Oberfläche, leichteres Gewicht, mehr Fall. Dauert länger, ergibt aber eine Decke mit polierterem Gefühl. Gut für Babydecken, wenn du Weichheit ohne zu viel Dicke möchtest.
+**DK:** eine Möglichkeit für ein feineres Maschenbild. Beurteile das fertige Gestrick, statt die Kategorie als Garantie für Weichheit oder Eignung als Babydecke zu sehen.
 
-**Sport und Fingering:** schönes Gestrick. Ernsthafte Zeitbindung. Eine Fingering-Decke ist ein Projekt, das eher in Monaten, manchmal Jahren, gemessen wird. Das Ergebnis ist leicht und weich fallend, mehr wie eine gewebte Decke als wie eine typische gestrickte Wohndecke. Modulare Konstruktionen wie Gehrungsquadrate oder Log-Cabin-Teile machen solche Projekte handhabbarer, weil du kleine Stücke strickst und später verbindest, statt die ganze Breite die ganze Zeit auf der Rundnadel mitzuschleppen.
+**Sport und Fingering:** erwäge einzelne Quadrate oder andere Teile, wenn du lieber kleine Stücke handhabst. Manche werden zusammengenäht, andere beim Stricken verbunden. Folge der Konstruktion der Anleitung.
 
 ## Nadeln, Fasern und was wirklich hält
 
-Ein paar praktische Punkte tauchen in der reinen Meterrechnung nicht auf.
+Eine Rundstricknadel kann die Maschen halten, während du in Hin- und Rückreihen strickst. Wähle eine Gesamtlänge, auf der die Maschen gut Platz haben. Die Anleitungen oben nennen 60 beziehungsweise 80 cm lange Rundstricknadeln; das sind anleitungsspezifische Gesamtlängen, keine Seillängen für jede Decke.
 
-Nimm für jede Decke über Schoßgröße eine lange Rundstricknadel. Ein 100-cm-Seil reicht für viele Wohndecken. Große und king-size Decken sind auf 120-cm- oder 150-cm-Seilen angenehmer. Die Maschen sitzen trotzdem dicht, aber du kämpfst nicht ständig gegen ein zu kurzes Seil. Die Decke wird auf der Rundnadel flach hin und her gestrickt, nicht zur Runde geschlossen.
+Wähle die Nadelstärke nach der geforderten Maschenprobe und dem gewaschenen, trockenen Gestrick. Ein Nadelwechsel kann Maße und Verbrauch verändern. Strick deshalb eine neue Probe, statt automatisch eine Stärke größer als für einen Pullover zu wählen.
 
-Für mehr Fall kann eine Nadelstärke größer sinnvoll sein als bei einem körpernahen Pullover aus demselben Garn. Ein Worsted-Garn, das für einen festen Pullover auf 4,5 mm gut sitzt, kann auf 5 oder 5,5 mm eine weichere, fließendere Decke ergeben. Zu fest gestrickte Decken fühlen sich schnell steif an.
-
-Für Babydecken und alle Decken, die oft gewaschen werden, sollte die Banderole zur echten Pflegeroutine passen. Superwash-Wolle, Baumwolle oder weiches Acryl sind für maschinengewaschene Decken sicherer als unbehandelte Wolle, die filzen kann. Mohair und Angora sind warm, verlieren aber Fasern und sind für Babydecken schlechte Kandidaten. Leinen kann eine gute Sommerdecke ergeben, aber prüfe den Garnbedarf mit einer Maschenprobe, weil der Stoff sich anders verhält als Wolle.
+Für Babydecken und oft gewaschene Decken sollte die Banderole zur tatsächlichen Pflegeroutine passen. Faserbezeichnungen und das Wort Superwash allein legen nicht alle Wasch- und Trocknereinstellungen fest.
 
 ## FAQ
 
 **Kann ich eine Decke aus Garnresten stricken?**
-Restedecken sind ein gutes Projekt für den Garnvorrat. Die Regel: Halte alle Garne in derselben Garnstärke. Unterschiedliche Stärken erzeugen ungleichmäßige Spannung und Bereiche, die sich nach dem Waschen unterschiedlich verziehen. Gleiche Stärke, gemischte Farben, funktioniert gut. Einfache modulare Modelle wie Gehrungsquadrate sind genau für so etwas gemacht.
+Restedecken sind ein gutes Projekt für den Garnvorrat. Ähnliche Garnstärken sind ein Ausgangspunkt; prüfe zusätzlich Maschenprobe, Gestrick und miteinander vereinbare Pflegehinweise. Miss bei einer modularen Decke den Verbrauch eines ganzen repräsentativen Quadrats, multipliziere mit der Anzahl ganzer Quadrate und rechne Garn für Verbindungen und Ränder separat hinzu. Berechne jede Farbe einzeln.
 
 **Ist eine gestrickte Decke günstiger als eine gekaufte?**
-Eine handgestrickte Decke kostet beim Material fast immer mehr als eine maschinell hergestellte. Der Wert liegt im Prozess, in der Anpassung und in der Qualität. Wenn Budget das Wichtigste ist, halten Acrylgarne in Worsted oder Bulky die Materialkosten im Rahmen. Große Knäuel, große Aufmachungen oder Konen geben oft mehr Meter pro Euro als kleine Knäuel.
+Vergleiche den Preis aller benötigten Knäuel, einschließlich jeder Farbe und geplanter Reserve, mit dem Preis der Decke, die du kaufen würdest. Große Knäuel oder Konen machen das Projekt nicht automatisch günstiger, wenn dadurch mehr Garn übrig bleibt.
 
 **Wie lange dauert es, eine Decke zu stricken?**
-Eine Super-Bulky-Wohndecke kann 20-30 Stunden brauchen. Worsted liegt eher bei 60-100 Stunden. Fingering kann über 200 Stunden gehen. Stricktempo, Musterkomplexität und wöchentliche Strickzeit verschieben diese Zahlen stark. Modulare Decken fühlen sich oft schneller an, weil jedes Quadrat ein kleiner Abschluss ist, auch wenn die Gesamtstunden ähnlich bleiben.
+Stoppe die Zeit für einen repräsentativen Abschnitt mit deinem Garn und Muster, um deine eigene Strickzeit zu schätzen. Berechne Verbindungen, Ränder und Fertigstellung separat. Die Garnkategorie allein liefert keine verlässliche Stundenzahl.
 
 **Strickt man eine Decke flach oder in Runden?**
-Die meisten Decken werden flach auf langen Rundstricknadeln gestrickt, hin und her, nicht zur Runde geschlossen. Manche modularen Modelle, etwa Quadrate oder Hexagone, werden einzeln gestrickt und zusammengesetzt. Runde Konstruktionen funktionieren für runde Decken, sind bei rechteckigen Wohndecken aber selten.
+Folge der Anleitung. Flache Decken lassen sich in Hin- und Rückreihen auf Rundstricknadeln arbeiten. Einzelteile werden später oder schon beim Stricken verbunden. Andere Modelle beginnen in der Mitte und wachsen in Runden nach außen; eine Rundstricknadel allein bedeutet nicht, dass in Runden gestrickt wird.

@@ -1,7 +1,8 @@
 ---
 title: "Digitaalinen vai mekaaninen kerroslaskuri?"
-description: "Mekaaninen klikkeri vai kerroslaskurisovellus? Rehellinen vertailu eri projektien, neuletyylien ja monimutkaisten ohjeiden kannalta."
+description: "Vertaa mekaanista kerroslaskuria, elektronista erillislaskuria ja sovellusta: lukeman korjaaminen, projektitiedot ja omaan neulontaan sopiva käyttö."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 4
 tags:
@@ -10,82 +11,67 @@ tags:
     "kerroslaskuri sovellus",
     "neulonnan kerroslaskuri",
     "mekaaninen kerroslaskuri",
-    "handsfree kerroslaskuri",
   ]
 lang: fi
 translationKey: "digital-vs-physical-row-counters"
 ---
 
-Puikon päähän laitettava pieni tynnyrimäinen laskuri on ollut neulonnan peruskerroslaskuri vuosikymmeniä. Halpa, ei paristoja, toimii. Mutta kerroslaskurisovellukset ovat parantuneet, ja heti kun neulot jotain huivia monimutkaisempaa, digitaalinen versio tekee asioita, joihin mekaaninen ei pysty.
+Kerroslaskuri voi olla mekaaninen kiekko- tai painikelaskuri, elektroninen erillislaite tai puhelimen tai tabletin sovellus. Fyysinen laskuri ei siis aina ole paristoton, eikä digitaalinen laskuri tarkoita vain sovellusta. Valinta riippuu siitä, mitä haluat kirjata ja millainen käyttötapa sopii sinulle.
 
-Silti kaikki eivät tarvitse digitaalisen laskurin ominaisuuksia. Oikea valinta riippuu projektista.
+Tässä käsitellyt laskurit tarvitsevat käyttäjän tekemän kirjauksen. Kiekon kääntäminen, painallus, puhekomento tai linkitetyn laskurin eteneminen ei tunnista valmistunutta neulekerrosta. Tasoneuleessa lasketaan kokonainen kerros, suljetussa neuleessa kokonainen kierros työn ympäri.
 
 ## Mekaaniset kerroslaskurit
 
-Klassinen mekaaninen laskuri on pieni tynnyri, joka pujotetaan suoran puikon päähän. Käännät kiekkoa jokaisen kerroksen jälkeen. Puikkoon tai työhön ripustettavat yleislaskurit, kaulassa roikkuvat klikkerit ja pöydällä pidettävät kacha-kacha-laskurit ovat tavallisia vaihtoehtoja. Digitaaliset sormilaskurit, joita myydään usein golfpisteiden laskemiseen, näkyvät neulekasseissa niin usein, että ne ansaitsevat oman kategoriansa.
+Mekaaninen laskuri toimii numerokiekoilla tai painikemekanismilla ilman paristoa. Puikkoon kiinnitettävä laskuri, riipusmalli ja pöytälaskuri tarjoavat erilaisia sijoituspaikkoja. Tarkista juuri kyseisen mallin kiinnitys ja kokorajat; pelkkä tynnyrimäinen muoto ei kerro sopivuutta pyöröpuikoille.
 
-**Missä ne toimivat hyvin.** Ei säätöä. Otat laatikosta, klikkaat, valmis. Ei tiliä, ei sovellusta, ei opettelua. Fyysinen klikkaus tulee osaksi neulerytmiä, ja osa neulojista pitää sen tuntopalautteesta enemmän kuin ruudun napauttamisesta. Ne toimivat ilman sähköä, eivät välitä näytön heijastuksista ja ovat yleensä edullisia. Siitä on vaikea valittaa.
+**Missä ne toimivat hyvin.** Mekaaninen laskuri sopii ruuduttomaan neulehetkeen. Osa neulojista pitää klikkauksen tai kiekon tuntumasta enemmän kuin kosketusnäytöstä. Kokeile numeroiden luettavuutta, tarvittavaa painamisvoimaa ja sijoittelua omilla käsilläsi tavallisessa valaistuksessa. Mikään laskurityyppi ei ole automaattisesti helpompi käyttää.
 
-**Missä ne jäävät vajaiksi.** Ne laskevat yhtä asiaa yhteen suuntaan. Pitääkö purkaa kerros? Muista klikata taaksepäin. Tynnyrimallissa taaksepäin kääntäminen on vieläpä näpertelyä, koska sisärengasta pitää kääntää varovasti pyörittämättä ulompaa. Jos unohdat, luku on väärin eikä sitä voi tarkistaa mistään.
+**Mitä kannattaa tarkistaa.** Yhden luvun peruslaskuri näyttää nykyisen lukeman, ei projektihistoriaa. Lukeman pienentäminen, nollaus, lukitus ja näyttöalueen raja ovat eri ominaisuuksia. Esimerkiksi [Clover Mini Knitting Counter 3118](https://clover-usa.com/products/knitting-counter-mini-kacha-kacha) kasvattaa lukua yhdellä alueella 0–99, sisältää lukituksen ja nollataan numerokiekoista. Ohje ei kerro kaikkien mallien toimintaa eikä sitä, mitä suurimman näyttöarvon jälkeen tapahtuu. Kirjaa sadat erikseen, jos seuraat pitkää työtä kaksinumeroisella laskurilla.
 
-Jos käytät yhden luvun mekaanisia peruslaskureita, useiden asioiden seuraaminen vaatii useita laskureita tai erillisiä muistiinpanoja. Villapaidassa voi olla kokonaiskerrosluku, palmikkoraportin kohta ja seuraava kavennuskerros. Yksi mekaaninen laskuri hoitaa yhden niistä.
+Lukitus auttaa suojaamaan asetusta, mutta tarkista lukema kuljetuksen jälkeen. Jos epäilet virhettä, vertaa sitä muistiinpanoihin ja neulepintaan.
 
-Ne vaihtavat lukuaan kolhuista. Heität projektipussin autoon, kiekko pyörähtää, ja nyt katsot numeroa, joka voi olla oikein tai olla olematta. Tynnyrimalli ei myöskään sovi pyöröpuikoille, joilla suurin osa vaatteista neulotaan. Riippuvat ja pöytälaskurit ratkaisevat puikko-ongelman, mutta tuovat oman kitkansa.
+## Elektroniset erillislaskurit
 
-## Digitaaliset kerroslaskurit
+Elektroninen sormilaskuri on sekä fyysinen että digitaalinen. Siinä on näyttö, ja se tarvitsee virtaa, mutta puhelinta ei välttämättä tarvita. Valmistajan mukaan [Prymin elektronisessa kerroslaskurissa 611883](https://www.prym.com/de/automatischer-reihenzaehler) on vaihdettava paristo, painikkeella tehtävä laskenta ja nollaus sekä viimeisen lukeman muisti. Saksankielisestä tuotenimestä ”Automatischer Reihenzähler” huolimatta kuvaus kertoo painalluksella toimivasta laskennasta.
 
-Kerroslaskurisovellus korvaa klikkauksen puhelimen napautuksella. Luku tallentuu automaattisesti. Useimmat sovellukset lisäävät päälle muita ominaisuuksia: peruutus, useat laskurit, muistutukset, sessioseuranta, ohjenäkymä tai kellotuki. Yksityiskohdat vaihtelevat sovelluksen mukaan, joten ominaisuuksilla on enemmän väliä kuin sillä, että sovellusta kutsutaan kerroslaskuriksi.
+Viimeisen lukeman muisti ei todista projektikohtaisia tallenteita, kumoamistoimintoa tai tapahtumahistoriaa. Tarkista mallin pienennystoiminto, enimmäisluku, lukitus ja lukeman säilyminen paristonvaihdossa; tuotesivu ei ratkaise kaikkia näitä kysymyksiä. Sormihihna pitää laitteen lähellä, mutta painiketta käytetään silti käsin. Kaikkia pieniä näyttölaskureita ei pidä kutsua LED-laskureiksi.
 
-**Missä ne toimivat hyvin.** Ne muistavat kaiken. Sulje sovellus, sammuta puhelin, nosta projekti esiin ensi viikolla. Luku on täsmälleen siinä mihin jäit. Jos työn alla on [useita projekteja](/fi/artikkelit/neuleprojektien-jarjestaminen/), niiden näkeminen yhdessä listassa nykyisine kerroslukuineen ja viimeisine työskentelypäivineen säästää "millä kerroksella olinkaan" -hetken joka kerta kun vaihdat työtä.
+## Kerroslaskurisovellukset
 
-Kerrosmuistutukset ovat ominaisuus, jota mekaaninen laskuri ei oikeasti pysty korvaamaan. Aseta muistutus kerrokselle 15 napinläpeä varten, kerrokselle 30 kavennusta varten ja kerrokselle 45 päättelyä varten. Sovellus ilmoittaa, kun olet siellä. Kun ohjeessa on muotoiluja tietyin välein, tämä poistaa sen päässä pyörivän laskemisen, joka muuten tarkoittaa jatkuvaa ohjeen tarkistamista.
+Sovellus voi koota [useiden projektien](/fi/artikkelit/neuleprojektien-jarjestaminen/) lukemia ja merkintöjä samaan paikkaan. Etsi tarvitsemasi toiminnot: lukeman muuttaminen, tuetun muutoksen kumoaminen, mallikertojen seuranta, muistutukset tai työskentelykertojen historia. Tallennettu luku, muutoshistoria ja työskentelyaika ovat eri tietoja.
 
-Useat laskurit samassa projektissa vastaavat monimutkaisen neulonnan todellisuutta. Yksi laskuri kokonaiskerroksille, toinen palmikkoraportille, kolmas ohjeen osiolle. Kaikki näkyvissä yhtä aikaa, kaikki itsenäisiä. Mekaaninen vastine olisi kolme erillistä klikkeriä ja muistilappu siitä, mikä niistä tarkoittaa mitä.
+Esimerkiksi [My Row Counterin laskuriohje](https://rowcounterapp.com/counter.html) kuvaa valittuihin lukemiin sidottuja muistutuksia, toiston nollauksia ja oletuksena päälaskuriin linkitettyjä lisälaskureita. Ne eivät siis välttämättä ole itsenäisiä. Sovita alkuluku ja linkitykset omaan laskentatapaan ja tarkista edelleen neuleohje.
 
-Sessioseuranta näyttää milloin ja kuinka kauan työstit kutakin projektia. Se ei ole pelkkää laskemista, vaan muistijälki tekemisestä. Osa neulojista saa motivaatiota siitä, että näkee kokonaistunnit ja etenemistahdin ajan mittaan. Pitkä villapaita tuntuu erilaiselta, kun näet 47 iltaa, jotka siihen menivät.
+Paikallinen tallennus, varmuuskopiointi, palautus ja laitteiden välinen synkronointi ovat eri asioita. Tarkista kunkin toiminnon tili- ja yhteysvaatimukset, palautettavan kopion tekeminen sekä puhelimen vaihto. Tyhjä akku estää sovelluksen käytön lataamiseen asti, mutta ei yksin todista viimeisimmän muutoksen tallentuneen tai tietojen kadonneen.
 
-**Missä ne jäävät vajaiksi.** Puhelimen pitää olla lähellä. Jos neulot nimenomaan päästäksesi irti ruuduista, puhelin neulehetkessä rikkoo osan tarkoituksesta. Täysin pätevä syy pysyä klikkerissä.
+KnitTools on tämän sivuston julkaisijan Finnvekin kehittämä Android-sovellus. Nykyinen toteutus sisältää käsin tehtävän napautuslaskennan, tuettujen viimeaikaisten päälaskurimuutosten kumoamisen, projektin lisälaskurit, kerrosmuistutukset ja työskentelykertojen historian. Uusien lisälaskurien ja muistutusten luominen vaatii Pro-käyttöoikeuden, johon kuuluu myös aktiivinen kokeilujakso. Tiedot perustuvat lähdekoodin tarkastukseen, eivät käyttökokeeseen tai palautumistakuuseen. [KnitToolsin julkaisuilmoittautuminen](/fi/tyokalut/#join) ei ole latauslinkki.
 
-Pieni oppimiskynnys on olemassa. Ei suuri, mutta mekaaninen laskuri on välitön tavalla, jolla sovellus ei ole: avaa sovellus, etsi projekti, napauta. Muutama sekunti, jota tynnyri ei vaadi.
+## Päätä, mitä lukema tarkoittaa
 
-Akku on riippuvuus. Puhelimen sammuminen ei kadota lukua, koska se on tallessa, mutta jättää sinut ilman laskuria kunnes lataat laitteen. Harvoin käytännön ongelma, mutta riippuvuus kuitenkin.
+Yksi selkeä käytäntö on laskea **valmiita kerroksia**: aloita nollasta ja lisää yksi vasta kokonaisen kerroksen valmistuttua. Lukemalla 47 kerros 47 on valmis ja seuraava on 48. Jos kavennus tehdään kerroksella 52, neulo ensin kerrokset 48–51 eli neljä kerrosta. Vasta lukemalla 52 näkyvä muistutus tulisi tässä käytännössä kerroksen jälkeen, joten aseta muistutus toimintoa edeltävään kohtaan ja tarkista sovelluksen toiminta.
 
-## Milloin mekaaninen voittaa
+Jos purat varmennetusta 47 kerroksesta kolme kokonaista kerrosta, valmiita jää 44 ja seuraava on 45. Korjaa luku mallin tukemalla tavalla tai merkitse oikea arvo erikseen. Nollaus ei tarkoita kolmen vähentämistä, eikä painalluksen kumoaminen pura neuletta.
 
-Yksinkertaiset projektit ilman muotoiluja. Huivit, tiskirätit, peruspeitot. Yksi laskettava asia, suoraviivaista neulontaa. Sovellus projektiin, joka ei sitä tarvitse, on ylimääräistä vaivaa ilman hyötyä.
+Kun kahdeksan kerroksen mallikerta alkaa kerrokselta 1, lukema 24 tarkoittaa kolmea valmista mallikertaa ja seuraavaksi mallikerran kerrosta 1. Säilytä kokonaisluku 24 ja seuraa mallikerran kohtaa erikseen. Nimeä samanaikaisten muotoilujen ja parillisten kappaleiden laskurit tai merkinnät: kappale, tarkoitus ja laskennan alku. Sama onnistuu paperin sarakkeilla ja erillisillä laskureilla.
 
-Ruuduttomat neulehetket. Jos laitteista irrottautuminen on osa sitä, miksi neulot, klikkeri kunnioittaa sitä rajaa. Sama pätee paikkoihin, joissa puhelin on hankala: hiljainen junavaunu, pitkä kokous tai neulontaryhmä, jossa ihmiset haluavat olla pois ruuduilta.
+## Valitse käyttötapasi mukaan
 
-Varalaskuri. Moni sovellusta käyttäväkin pitää klikkerin projektipussissa niitä hetkiä varten, kun puhelin on tyhjä, hukassa tai jonkun muun kädessä.
+Yhteen lukemaan tai ruuduttomaan neulehetkeen mekaaninen laskuri voi riittää. Elektroninen laskuri tarjoaa pienen näytön ilman puhelinta. Sovellus voi sopia, jos haluat useat luvut ja merkinnät yhteen paikkaan. Mikään tyyppi ei ole yleisesti paras aloittelijalle, muotoiluihin tai pitsiin eikä takaa virheetöntä kirjaamista.
 
-## Milloin digitaalinen voittaa
+Vertaa luettavuutta, otetta, tahattomien painallusten mahdollisuutta, kuljettamista ja häiriöitä. Erillislaitteella on hankintahinta. Sovelluksissa ilmainen lataus, pysyvät ilmaistoiminnot, kokeilu, maksullinen avaus ja tilaus ovat eri asioita. Tarkista hinta omasta sovelluskaupasta oikealle alustalle ja valuutalle.
 
-Mikä tahansa muotoiltava projekti. Villapaidat, pipot päälaen kavennuksilla, sukat kantapään käännöksillä. Kerrosmuistutukset estävät virheitä, jotka muuten tarkoittavat purkamista usean sentin matkalta.
-
-Useita aktiivisia töitä. Kolme tai useampi keskeneräinen neule, jokaisella oma kerrosluku ja ohjekohta. Digitaalinen seuranta, jossa kaikki näkyvät, voittaa vaihtoehdon, jossa kaivelet projektipusseja ja tarkistat muistilappuja.
-
-Monimutkaiset mallineuleet. Palmikot, pitsi, kirjoneule. Mallikerran kohdan kadottaminen maksaa aikaa. Useat digitaaliset laskurit pitävät nämä luvut yhdessä. Sama onnistuu mekaanisilla yhden luvun peruslaskureilla käyttämällä erillisiä laskureita tai muistiinpanoja.
-
-Pitkät projektit. Kuukausia kestävä villapaita hyötyy pysyvyydestä ja sessiohistoriasta. Näet, että työstit sitä viimeksi tiistaina, olit kerroksella 47 ja seuraava kavennus on kerroksella 52. Klikkeri kertoo "47" eikä muuta.
-
-[KnitTools-sovellusta](/fi/tyokalut/#join) rakennetaan Androidille, ja se yhdistää napautuslaskennan, peruutuksen, kerrosmuistutukset, useat laskurit per projekti ja sessioseurannan. Laskurin ja projektidatan ydinosat on suunniteltu paikallisen projektidatan ympärille.
-
-## Yhdistelmä toimii myös
-
-Moni neuloja käyttää molempia. Klikkeri matkasukkaan, sovellus kotona neulottavaan villapaitaan. Mikään sääntö ei pakota valitsemaan yhtä järjestelmää kaikkeen.
-
-Käytännön kysymys on tämä: tarvitseeko projekti enemmän kuin yhden laskun? Jos tarvitsee, digitaalinen. Jos ei, käytä kumpaa pidät parempana. Osa pitää klikkerin silmukoiden laskemiseen kerroksen sisällä, esimerkiksi joka viides silmukka pitkää luomisreunaa tehdessä, ja sovelluksen varsinaiseen kerrosseurantaan. Se sopii kummankin työkalun vahvuuksiin.
+Voit käyttää klikkeriä matkasukassa ja sovellusta villapaidassa. Siirrä varmennettu lukema ja sen merkitys, kun vaihdat menetelmää. Varalaskuri on ajan tasalla vain, jos päivität sen. Jos yksi painallus tarkoittaa viittä luotua silmukkaa, neljä painallusta tarkoittaa 20 silmukkaa, ei neljää kerrosta. Merkitse yksikkö erikseen.
 
 ## FAQ
 
-**Toimivatko kerroslaskurisovellukset offline-tilassa?**
-Osa toimii, osa ei. Sovellukset, jotka tallentavat datan paikallisesti, toimivat offline-tilassa. Pilvipohjaiset sovellukset voivat tarvita yhteyden. Tarkista ennen kuin luotat sovellukseen mökillä tai lennolla. KnitTools on suunniteltu paikallisen projekti- ja laskuridatan ympärille ydintoiminnoissa.
+**Toimivatko kerroslaskurisovellukset ilman verkkoyhteyttä?**
+Tarkista tarvitsemasi toiminnot erikseen. Paikallinen tallennus ei yksin takaa kirjautumisen, tuotujen ohjeiden tai kaikkien toimintojen offline-käyttöä. Kokeile aiottu työnkulku ennen käyttöä ilman yhteyttä ja tarkista varmuuskopiointi erikseen.
 
 **Voinko käyttää älykelloa kerroslaskurina?**
-Osa neulesovelluksista tarjoaa kellokumppanin, ja lisäksi on erillisiä kellolaskureita. Ruutu on pieni, mutta laskuri on kirjaimellisesti ranteessa. Kannattaa kokeilla, jos käytät kelloa jo neuloessa. Kellon napauttaminen häiritsee usein vähemmän kuin puhelimen nostaminen.
+[My Row Counter dokumentoi Apple Watch- ja Wear OS -tuen](https://rowcounterapp.com/features.html). Tarkista kellosi, puhelimesi ja sovelluskaupan nykyiset vaatimukset sekä lukemien siirtyminen. Kellon napautus on käsin tehtävä kirjaus; sen häiritsevyys riippuu omasta käyttötavastasi.
 
-**Onko olemassa laskureita, jotka toimivat pyöröpuikoilla?**
-Riippuvat laskurit roikkuvat silmukkamerkissä tai kiinnittyvät työhön. Ne toimivat millä tahansa puikkotyypillä. Paras mekaaninen vaihtoehto, jos pyöröpuikot ovat pääasialliset puikkosi. Osa neulojista käyttää myös irrotettavaa silmukkamerkkiä ja paperille tehtyjä merkkejä, mikä ei maksa mitään eikä nollaudu vahingossa.
+**Onko olemassa laskureita pyöröpuikoille?**
+Kyllä. Pöytälaskurin ei tarvitse sopia puikkoon, ja Clover 3118:aa voi käyttää nauhassa. Puikkoon tai työhön kiinnitettävästä mallista tarkistetaan kiinnitys sekä mahdollinen haitta silmukoille ja langalle. Kaikille parasta kiinnitystapaa ei ole.
 
-**Entä LED-sormilaskurit?**
-Pienet rengaslaskurit, joita myydään golfiin tai tasbih-rukoushelmiin, toimivat neulonnassakin. Yksi painike, yksi lisäys, usein nollaus. Ei taaksepäin laskemista eikä muistia projektien välillä, mutta ne ovat käsissä mukana tavalla, johon tynnyrilaskuri ei pysty, eivätkä ne riipu puikkokoosta.
+**Entä elektroniset sormilaskurit?**
+Tarkista malli sen sijaan, että olettaisit kaikkien olevan vailla pienennystoimintoa tai muistia. Prym 611883:n kuvauksessa on viimeisen lukeman muisti; se ei tarkoita usean projektin erillisiä historioita. Painiketta täytyy edelleen painaa itse.

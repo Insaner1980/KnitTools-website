@@ -1,6 +1,7 @@
 ---
 title: "Lankavyötteen lukeminen: symbolit ja numerot"
 description: "Näin luet lankavyötteen: kuitusisältö, lankavahvuus, neuletiheys, hoito-ohjeet, värinumero ja värjäyserä."
+updatedDate: 2026-10-17
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 3
@@ -15,15 +16,15 @@ lang: fi
 translationKey: "how-to-read-yarn-label"
 ---
 
-Se pieni paperivyöte kerän ympärillä tekee muutakin kuin pitää langan kasassa. Jokainen symboli, numero ja kuvake on siinä siksi, että joku on joskus ostanut väärän langan tai pilannut valmiin neuleen pesussa. Vyöte on muistilappu, joka olisi kannattanut lukea ensin.
+Kerän paperivyöte kannattaa säilyttää: sen avulla tunnistat langan ja löydät hoito-ohjeet myöhemminkin.
 
-Lankavyöte kertoo kuitusisällön, lankavahvuuden, suositellun neuletiheyden, puikkokoon, hoito-ohjeet ja värjäyserän. Siinä on kaikki, mitä tarvitset langan valintaan, käyttöön ja hoitoon. Ota kerä hyllystä tai kaiva vyöte lankavarastosta. Tässä mitä jokainen osa kertoo.
+Vyötteessä kerrotaan tavallisesti kuitusisältö, paino ja pituus, suositeltu neuletiheys ja puikkokoko, hoito-ohjeet sekä väri- ja erätiedot. Tietojen sisältö ja sijoittelu vaihtelevat valmistajan ja markkina-alueen mukaan. Alla olevat koostumukset ja värinimet ovat havainnollistavia esimerkkejä, eivät tietyn valmistajan vyöte.
 
 ## Lankavahvuuden symboli
 
-Keränmuotoinen kuvake, jonka sisällä on numero, on Craft Yarn Councilin vahvuuskategoria. Moni vyöte käyttää edelleen tuttua numeroitua asteikkoa Lace-vahvuudesta Jumboon, ja CYC on alkanut päivittää järjestelmään Size 8 -luokkaa ja lisäsymboleja. Pidä numeroa pikavalintana, mutta tarkista myös vahvuusnimi ja neuletiheysruutu ennen kuin sovitat lankaa ohjeeseen.
+Keränmuotoinen kuvake, jonka sisällä on numero, tarkoittaa Craft Yarn Councilin lankavahvuusluokkaa. Julkaistu taulukko ulottuu luokasta 0 (Lace) luokkaan 7 (Jumbo). Numero ei tarkoita puikkokokoa, kerän painoa grammoina eikä yhteen kerrattujen säikeiden määrää.
 
-Vieressä lukee usein DK, Worsted tai Bulky. Kaikki merkit eivät paina CYC-symbolia, mutta useimmat kertovat jonkin vahvuusnimen. Jos vyöte antaa vain merkin oman nimen, kuten "Studio" tai "Soft Touch", katso neuletiheysruutua vihjeeksi.
+Vyötteessä voi lukea esimerkiksi DK, Worsted tai Bulky. Kaikki valmistajat eivät käytä CYC-järjestelmää. Tarkista vahvuuden lisäksi juoksevuus, kuitusisältö ja neuletiheys; pelkkä tuotenimi ei kerro langan paksuutta.
 
 [Lankavahvuustaulukko](/fi/tyokalut/lankavahvuudet/) näyttää kategoriat, neuletiheysalueet ja tyypilliset puikkokoot.
 
@@ -31,74 +32,64 @@ Vieressä lukee usein DK, Worsted tai Bulky. Kaikki merkit eivät paina CYC-symb
 
 Kuitusisältö ilmoitetaan prosentteina: `100 % merinovilla`, `75 % akryyli, 25 % villa`, `60 % puuvilla, 40 % modaali`. Tämä kertoo, mistä lanka on tehty, ja vaikuttaa valmiin neuleen tuntuun, laskeutuvuuteen, joustoon ja kestoon.
 
-Tämä kohta on tärkeä, kun [korvaat langan](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/). Villa-DK ja puuvilla-DK ovat molemmat DK-vahvuisia ja voivat neuloontua samaan neuletiheyteen, mutta valmis neulepinta ei käyttäydy samalla tavalla. [Kuituvertailu](/fi/artikkelit/lankakuidut-vertailussa/) käy eroja läpi tarkemmin.
+Tämä kohta on tärkeä, kun [korvaat langan](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/). Villa-DK ja puuvilla-DK ovat molemmat DK-vahvuisia ja voivat neuloutua samaan neuletiheyteen, mutta valmis neulepinta ei käyttäydy samalla tavalla. [Kuituvertailu](/fi/artikkelit/lankakuidut-vertailussa/) käy eroja läpi tarkemmin.
 
-Vyöte voi myös kertoa, onko lanka superwash-käsitelty, merseroitu tai harjattu. Nämä eivät ole koristeellisia sanoja. Superwash-villa on käsitelty vastustamaan huopumista ja voi olla vyötteen mukaan konepestävä. Tavallinen villa tarvitsee hellävaraisempaa hoitoa, koska lämpö, kosteus ja hankaus voivat huovuttaa sen. Se kannattaa huomata ennen kuin luot 300 silmukkaa vauvanpeittoon.
+Vyöte voi myös kertoa, onko lanka superwash-käsitelty, merseroitu tai harjattu. Superwash-käsittely vähentää villan huopumista; noudata juuri kyseisen langan pesuohjetta. Pelkkä sana ei salli rumpukuivausta, silitystä tai höyrypingotusta.
 
 ## Neuletiheystiedot
 
-Neuletiheysruutu näyttää silmukka- ja kerrosmäärän vakiomallitilkulla, yleensä 10 cm matkalla, sekä suositellun puikko- tai koukkukoon. Englanninkielisissä vyötteissä sama alue voidaan ilmoittaa 4 tuumana.
+Neuletiheysruutu kertoo silmukat vaakasuunnassa ja kerrokset pystysuunnassa ilmoitetulla alueella, usein 10 × 10 cm, sekä suositellun neulepuikon koon. Virkkaustiheys ja virkkuukoukun kokosuositus ovat eri tietoja: älä lue koukkukokoa puikkokooksi. Tarkista millimetrit tai alueellinen kokojärjestelmä sekä mahdolliset mallineuletta ja käsittelyä koskevat ehdot.
 
-Tämä on lähtöpiste. Valmistaja on neulonut mallitilkun omalla käsialallaan ja kirjannut tuloksen. Sinun kätesi, puikkosi ja haluamasi neulepinnan tiheys voivat tuottaa toisen lukeman. Tee silti oma mallitilkku.
+Vyötteen neuletiheys on lähtökohta, ei takuu omasta neuletiheydestäsi tai valmiin neuleen istuvuudesta. Neulo tilkku ohjeen mallineuleella, käsittele langan sallimalla tavalla ja vertaa kuivana ohjeen tiheyteen. Jos vyöte ei kerro, onko sen tiheys mitattu ennen pesua vai pesun jälkeen, älä oleta käsittelytilaa.
 
 ## Kerän paino ja metrit
 
-Vyöte kertoo kerän painon grammoina ja langan pituuden metreinä, joskus myös jaardeina. Molemmat ovat hyödyllisiä, mutta projektin suunnittelussa pituus on tärkein. Kaksi 100 gramman kerää voi sisältää aivan eri määrän lankaa kuitutiheyden mukaan. Siksi [langanmenekin opas](/fi/artikkelit/paljonko-lankaa-tarvitaan/) käyttää metrejä, ei pelkkää kerien lukumäärää.
+Vyöte kertoo kerän painon grammoina ja langan pituuden metreinä, joskus myös jaardeina. Molemmat ovat hyödyllisiä, mutta projektin suunnittelussa pituus on tärkein. Kaksi 100 gramman kerää voi sisältää hyvin eri pituisen langan, sillä paksuus, kuitu ja rakenne vaikuttavat juoksevuuteen. Sama paino tai pituus ei tee langoista keskenään korvaavia. Siksi [langanmenekin opas](/fi/artikkelit/paljonko-lankaa-tarvitaan/) käyttää metrejä, ei pelkkää kerien lukumäärää.
 
 ## Hoitosymbolit
 
-Tämä osio näyttää hieroglyfeiltä, kunnes järjestelmän tuntee. Symbolit noudattavat kansainvälistä tekstiilien hoitomerkintästandardia, samaa jota käytetään vaatteissa. Jokainen symboli kertoo yhden hoidon osa-alueen: pesun, valkaisun, kuivauksen, silityksen ja ammattilaispuhdistuksen.
+Tässä kuvataan GINETEXin / ISO-standardin hoitosymbolijärjestelmää. Muut järjestelmät ja vanhat merkinnät voivat poiketa siitä; tarkista tuntematon merkki valmistajalta. Symbolit selitetään sanallisesti, ei piirrettyinä vakiomerkkeinä. Todelliset muodot näet [GINETEXin symbolioppaasta](https://www.ginetex.net/GB/labelling/care-symbols.asp).
 
-**Pesu** merkitään pesuallas-symbolilla. Numero altaassa kertoo enimmäislämpötilan celsiusasteina. Käsi altaassa tarkoittaa vain käsinpesua. Altaan alla olevat viivat tarkoittavat hellävaraisempaa koneohjelmaa; useampi viiva tarkoittaa hellävaraisempaa käsittelyä.
+**Pesu:** pesualtaan numero on enimmäislämpötila celsiusasteina, ei pakollinen pesulämpötila. Yksi viiva altaan alla tarkoittaa hellävaraista, kaksi erittäin hellävaraista pesua. Kumpikaan ei tarkoita käsinpesua. Käsi altaassa merkitsee käsinpesua; tarkista kyseinen merkkiversio ja lämpötila. Ylirastittu allas kieltää kotipesun, myös käsinpesun.
 
-Altaan yli vedetty X tarkoittaa, ettei tuotetta saa pestä lainkaan. Langoissa se on harvinaista, mutta erikoiskuiduissa sitä voi näkyä.
+**Valkaisu:** tyhjä kolmio sallii kloori- ja happivalkaisun. Kaksi vinoviivaa sallii vain happivalkaisun. Ylirastittu kolmio kieltää valkaisun.
 
-**Valkaisu** on kolmio. Avoin kolmio tarkoittaa, että valkaisu on sallittu. Kaksi vinoviivaa kolmion sisällä rajoittaa valkaisun kloorittomaan happivalkaisuun. X kolmion päällä tarkoittaa, ettei valkaisua saa käyttää.
+**Kuivaus:** ympyrä neliön sisällä viittaa rumpukuivaukseen. Yksi piste tarkoittaa matalaa, kaksi normaalia lämpöä; ylirastittu rumpukuivausmerkki kieltää rumpukuivauksen. Yksi vaakaviiva neliössä tarkoittaa tasokuivausta ja yksi pystyviiva narukuivausta. Nämä ovat ilmakuivaustapoja, eivät kuivausrummun asetuksia.
 
-Useimmat neulojat eivät tartu valkaisuaineeseen usein. Mutta valkoisissa ja hyvin vaaleissa töissä on hyödyllistä tietää, kestääkö kuitu sitä.
+**Silitys:** raudan pisteet kuvaavat sallittua lämpötasoa: yksi matalaa, kaksi keskilämpöä ja kolme korkeaa. Tarkista käytetyn merkintäjärjestelmän lämpörajat ja mahdollinen höyrytysrajoitus. Ylirastittu rauta kieltää silityksen. Kuitunimi tai pesuohje ei yksin anna lupaa höyrypingotukseen.
 
-**Kuivaus** käyttää neliötä. Ympyrä neliön sisällä tarkoittaa rumpukuivausta. Pisteet ympyrässä kertovat lämpötilan: yksi piste matalalle lämmölle, kaksi normaalille. Vaakaviiva neliössä tarkoittaa tasokuivausta, joka on useimmille neulevaatteille muutenkin turvallisin tapa. Pystyviiva tarkoittaa ripustus- tai narukuivausta.
+**Ammattimainen puhdistus:** ympyrä kuuluu ammattilaiskäsittelyyn. P ja F määrittävät kemiallisen pesun sallitut liuotinryhmät; pesula tulkitsee koko symbolin käytetyn standardin mukaan. W tarkoittaa ammattimaista vesipesua, ei kotipesua. Alusviiva edellyttää hellävaraisempaa käsittelyä. Anna pesulalle koko vyötteen tiedot.
 
-Tässä moni erehtyy: vaikka lanka kestäisi rumpukuivauksen, valmis neulepinta ei välttämättä kuulu kuivausrumpuun. Löyhästi neulottu superwash-villapipo voi venyä rummussa, vaikka vyöte teknisesti sallisi kuivauksen.
-
-**Silitys** näyttää silitysraudalta. Pisteet kertovat lämpötilan. X päällä tarkoittaa, ettei saa silittää. Neuleissa silitys liittyy lähinnä saumojen painamiseen tai höyryttämiseen. Osa synteettisistä kuiduista reagoi kuumuuteen huonosti ja voi sulaa tai kiiltää.
-
-**Ammattilaispuhdistus** on ympyrä. P ja F kertovat kuivapesuliuottimista. W tarkoittaa ammattimaista vesipesua, ei liuotinta. Useimmat neulojat ohittavat tämän, mutta symboli näkyy silkkisekoituksissa, kashmirissa ja muissa kuiduissa, jotka voivat hyötyä ammattilaiskäsittelystä.
-
-Symbolit eivät ole ehdotuksia. Käsinpestävä villa huopuu tavallisessa koneohjelmassa lämpimällä vedellä ja mekaanisella käsittelyllä. Kuitu, joka ei kestä kuumuutta, voi tulla kuivausrummusta ulos aivan eri esineenä.
+Noudata juuri kyseisen langan ohjeita tilkun ja työn pesussa, kuivauksessa ja viimeistelyssä. Konepesun salliminen ei samalla salli rumpukuivausta tai silitystä.
 
 ## Värinumero ja värjäyserä
 
 Tässä moni jää kiinni. Kaksi eri numeroa, kaksi eri tarkoitusta, ja niiden sekoittaminen voi tarkoittaa näkyvää raitaa keskellä villapaitaa.
 
-**Värinumero** tai värin nimi tunnistaa sävyn: "Color 412" tai "Dusty Rose". Se pysyy samana erästä toiseen. Sen avulla löydät saman värin myöhemmin.
+**Värinumero** tai värin nimi yksilöi sävyn kyseisessä lankasarjassa, esimerkiksi kuvitteellinen ”väri 412” tai ”Dusty Rose”. **Värjäyserän numero** yksilöi tuotantoerän, ei itse väriä. Eri erät voivat erota näkyvästi, mutta ero ei ole väistämätön.
 
-**Värjäyserän numero** kertoo, missä tietyssä värjäyserässä lanka on värjätty. Kaksi kerää samalla värinumerolla mutta eri värjäyserällä voi näyttää kaupassa samalta ja neulottuna vierekkäin hieman erilaiselta. Joskus ero näkyy vasta, kun olet neulonut kymmenen kerrosta keränvaihdon jälkeen.
+Osta riittävästi samaa erää, jos mahdollista, ja vertaa keriä keskenään. Sama erä ei takaa täysin tasaista väriä, varsinkaan käsinvärjätyssä langassa. Jos yhdistät eri eriä, kokeile kerien vuorottelua ensin tilkussa: se voi pehmentää siirtymää, mutta ei takaa huomaamatonta keränvaihtoa.
 
-Osta koko projektin langat samasta värjäyserästä. Kaikki kerät. Jos et voi, kerien vuorottelu kahden kerroksen välein auttaa häivyttämään eron, jotta värimuutos ei jää kovaksi rajaksi.
-
-Joissakin langoissa lukee `no dye lot`, mikä tarkoittaa, että valmistaja odottaa värin pysyvän erästä toiseen tasaisena. Käsinvärjätty lanka taas vaihtelee lähes aina kerästä toiseen. Se on osa viehätystä, mutta se tarkoittaa myös, että kerien vuorottelu on tavallinen käytäntö.
+Merkintä `no dye lot` kertoo, että valmistaja tavoittelee erien välillä tasaista väriä ilman tarvetta sovittaa värjäyserän numeroita. Se ei lupaa kaikkien kerien näyttävän samoilta; tarkista valmistajan selitys ja vertaa keriä.
 
 ## Alkuperämaa ja merkkitiedot
 
-Vyötteessä on merkin nimi, lankasarja ja alkuperämaa. Nämä ovat hyödyllisiä, jos tarvitset lankaa lisää tai haluat muistaa, mikä toimi.
+Merkki, lankasarja, tuotekoodi ja mahdollinen alkuperämaatieto auttavat tunnistamaan langan. Merkinnät ja niiden esitystapa vaihtelevat.
 
 ## Mitä vyöte ei kerro
 
 Vyöte kertoo paljon, mutta ei kaikkea.
 
-Se ei kerro, miltä lanka näyttää neulottuna. Rauhallinen yksivärinen kerä voi tuottaa kauniin neulepinnan. Näyttävä käsinvärjätty kerä voi lammikoitua laikukkaaksi pinnaksi. Sitä ei voi päätellä vyötteestä varmasti.
-
-Vyöte ei myöskään kerro kestosta. Nukkaantuuko lanka, pehmeneekö tai kovettuuko se pesussa, kestääkö se talven päivittäistä käyttöä. Nämä vastaukset tulevat kokemuksesta ja arvioista, eivät paperinauhasta.
+Pelkkä vyöte ei ennusta luotettavasti juuri sinun neuleesi ulkonäköä tai kestävyyttä. Lue valmistajan mahdolliset lisätiedot ja tarkista tilkusta neulepinta sekä sen käyttäytyminen sallitussa hoidossa.
 
 Neuletiheysruutu on valmistajan tulos, ei sinun. Pidä sitä viitteenä, ei takuuna.
 
-[KnitTools](/fi/tyokalut/#join) voi pitää samat vyötetiedot projektimuistiinpanossa. Se on kätevää, kun paperivyöte on katoamassa projektipussin pohjalle eikä palaa sieltä ajoissa.
+Säilytä vyöte tai selkeä kuva projektimuistiinpanojen mukana. Kirjaa langan nimi, juoksevuus, kuitusisältö, väri ja värjäyserä.
 
 ## FAQ
 
 **Mitä jos vyöte on kielellä, jota en ymmärrä?**
-Hoitosymbolit vähentävät kieliriippuvuutta, ja lankavahvuuskuvakkeet seuraavat usein CYC-käytäntöä. Tarkista silti neuletiheysruutu ja kuituprosentit, jos sanallinen osa on vieras.
+Tunnista symbolijärjestelmä ja kysy valmistajalta tuntemattomista sanoista tai merkeistä. Symbolit eivät käännä kuitunimiä eivätkä selitä kaikkia hoidon ehtoja.
 
 **Vyöte antaa neuletiheyden 10 cm matkalle, mutta englanninkielinen ohje käyttää 4 tuumaa. Onko se sama?**
 Lähellä, mutta ei aivan sama. 10 cm on noin 3,94 tuumaa. Jos ohje antaa neuletiheyden 10 cm matkalle, mittaa 10 cm. Jos se antaa neuletiheyden 4 tuumalle, mittaa 4 tuumaa.
@@ -107,4 +98,4 @@ Lähellä, mutta ei aivan sama. 10 cm on noin 3,94 tuumaa. Jos ohje antaa neulet
 Kyllä. Ainakin siihen asti, että projekti on valmis ja pesty.
 
 **Mitä "konepestävä" tarkoittaa neuleelle?**
-Lanka kestää konepesun merkityissä olosuhteissa. Se ei tarkoita, että valmis neulepinta olisi tuhoutumaton, varsinkaan löysällä neuletiheydellä tai venyvissä vaatteissa.
+Käytä langalle ilmoitettua konepesuohjelmaa ja noudata lämpörajaa. Tarkista kuivaus ja silitys erikseen sekä kokeile sallittua hoitoa ensin mallitilkkuun.

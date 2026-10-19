@@ -37,7 +37,7 @@ const yarnWeightCopy = [
   },
   {
     name: "Super Bulky",
-    regional: "Super Chunky / Bulky / Roving",
+    regional: "Super Chunky / Super Bulky / Roving",
     uses: "Grosses couvertures, cols, accessoires rapides",
   },
   {
@@ -47,24 +47,27 @@ const yarnWeightCopy = [
   },
 ] as const;
 
-const rows = getLocalizedYarnWeightRows(yarnWeightCopy, "m. / 10 cm");
+const rows = getLocalizedYarnWeightRows(
+  yarnWeightCopy,
+  "m. / 4 pouces (env. 10 cm)",
+);
 
 const faqs = [
   {
-    q: "Quelle est l'épaisseur de fil la plus courante ?",
-    a: "Le worsted reste la base de nombreux modèles nord-américains. Le DK apparaît partout dans le tricot britannique et européen. Entre ces deux catégories, tu couvres la grande majorité des vêtements, accessoires et projets maison. Si tu construis un stock polyvalent, c’est un bon point de départ.",
+    q: "Quelles épaisseurs de fil sont polyvalentes ?",
+    a: "Le DK et le worsted sont des points de départ utiles pour les pulls, bonnets, écharpes et couvertures. Choisis le fil selon l’échantillon du modèle et le rendu souhaité.",
   },
   {
     q: "Peut-on remplacer une épaisseur de fil par une autre ?",
-    a: "Oui, mais cela change plus que la taille. Le tombé, la quantité de fil et la taille d'aiguilles changent aussi. Certains remplacements pardonnent bien, comme du DK pour un worsted léger. D'autres deviennent un projet complètement différent. Tricote toujours un échantillon avant de te décider, et recalcule le métrage à partir du nombre total de mailles du modèle d'origine.",
+    a: "Oui, mais le tombé, le métrage nécessaire et la taille des aiguilles peuvent changer. Tricote un échantillon dans le point du modèle, lave-le et sèche-le comme l’ouvrage fini, puis vérifie les mesures et le rendu. Compare les longueurs de fil plutôt que le nombre de pelotes ; le nombre initial de mailles ne suffit pas à déterminer le nouveau métrage.",
   },
   {
     q: 'Que veut dire "held double" ?',
-    a: "Cela veut dire tricoter deux fils ensemble comme s'ils formaient un seul fil plus épais. Deux fils fingering tenus ensemble donnent à peu près une matière DK, mais la fibre, la torsion et le gonflant peuvent rendre le résultat plus léger ou plus lourd. C'est utile quand tu ne trouves pas la bonne épaisseur dans la couleur ou la fibre voulue. Fais un échantillon, parce que le résultat n'est pas entièrement prévisible.",
+    a: "Cela veut dire tricoter deux fils ensemble comme s'ils formaient un seul fil plus épais. Deux fils fingering tenus ensemble donnent à peu près un tricot d’une épaisseur proche du DK, mais la fibre, la torsion et le gonflant peuvent rendre le résultat plus léger ou plus lourd. C'est utile quand tu ne trouves pas la bonne épaisseur dans la couleur ou la fibre voulue. Fais un échantillon, parce que le résultat n'est pas entièrement prévisible.",
   },
   {
     q: "Pourquoi mon fil paraît-il plus fin ou plus épais que ce que dit l'étiquette ?",
-    a: "Parce que les catégories d'épaisseur sont des plages, pas des points fixes. Un DK peut être près du bord fin de sa catégorie, un autre près du bord épais. La composition change aussi l'impression visuelle. Le coton paraît souvent plus plat et plus fin que la laine au même WPI, tandis que l'alpaga peut gonfler au lavage et paraître plus épais. La catégorie sur l'étiquette donne une zone ; l'échantillon confirme où ton fil se place vraiment.",
+    a: "Les catégories d’épaisseur couvrent des plages. La fibre, la torsion et la construction influencent l’aspect, et le lavage peut modifier le tricot. Vérifie un échantillon lavé et séché plutôt que de classer le fil d’après son seul aspect.",
   },
 ];
 ---
@@ -82,6 +85,16 @@ const faqs = [
   variant="sand"
 >
   <div slot="tool">
+    <p>
+      Les <a
+        href="https://www.craftyarncouncil.com/standards/yarn-weight-system"
+        >repères du CYC</a
+      > indiquent le nombre de mailles en jersey sur 4 pouces (environ 10 cm) et des
+      tailles d’aiguilles pour commencer. La dentelle se tricote souvent avec des
+      aiguilles plus grosses pour un résultat ajouré ; suis l’échantillon du modèle.
+      Les noms régionaux sont des rapprochements approximatifs, pas des équivalences
+      exactes.
+    </p>
     <div class="cat-list">
       {
         rows.map((row) => (
@@ -130,8 +143,7 @@ const faqs = [
   <div slot="content">
     <h2>Le problème des noms</h2>
     <p>
-      C'est là que l'épaisseur de fil devient franchement confuse, et c'est là
-      que commencent la plupart des erreurs de substitution.
+      Les noms régionaux peuvent compliquer le choix d’un fil de remplacement.
     </p>
 
     <h3>Ply ne veut pas dire ce qu'on croit</h3>
@@ -143,13 +155,9 @@ const faqs = [
       être bulky. Un 6-ply très retordu peut se retrouver en sport.
     </p>
     <p>
-      Le terme est resté parce qu'autrefois, les conventions de filature
-      faisaient qu'un 4-ply sortait de façon assez fiable dans une certaine
-      épaisseur. Ce lien s'est cassé quand les méthodes de filature se sont
-      diversifiées, mais les noms n'ont pas suivi. Donc quand un ancien modèle
-      britannique demande du "3-ply", il désigne une plage d'épaisseur précise,
-      proche de lace ou light fingering, pas un fil littéralement composé de
-      trois brins.
+      Pour un ancien modèle, vérifie le fil indiqué et l’échantillon au lieu de
+      déduire l’épaisseur du nombre de ply. Les appellations régionales en ply
+      sont des conventions, pas toujours le nombre de brins du fil.
     </p>
     <p>Ça piège plus de monde qu'on ne le pense.</p>
 
@@ -204,7 +212,7 @@ const faqs = [
     <ul>
       <li>
         <strong>0 - Lace.</strong> Fil très fin pour les châles en dentelle et les
-        tissus ajourés.
+        tricots ajourés.
       </li>
       <li>
         <strong>1 - Super Fine.</strong> Territoire fingering et fil à chaussettes.
@@ -214,8 +222,8 @@ const faqs = [
         <strong>3 - Light.</strong> DK et fils intermédiaires pour vêtements.
       </li>
       <li>
-        <strong>4 - Medium.</strong> Worsted et aran. La plage où beaucoup de tricots
-        passent le plus de temps.
+        <strong>4 - Medium.</strong> Worsted et aran. Une plage adaptée à de nombreux
+        vêtements et accessoires.
       </li>
       <li><strong>5 - Bulky.</strong> Fils plus épais qui montent vite.</li>
       <li>
@@ -226,12 +234,11 @@ const faqs = [
       </li>
     </ul>
     <p>
-      Le tableau ci-dessus couvre les catégories 0 à 7 avec les plages
-      détaillées d'échantillon, d'aiguilles et de WPI disponibles dans les
-      standards publiés. Le CYC indique désormais aussi une taille 8 dans son
-      système mis à jour, mais les ressources détaillées correspondantes restent
-      annoncées comme à venir. Pour un fil plus gros que Jumbo, fie-toi donc
-      d'abord à l'étiquette du fabricant et à ton échantillon.
+      Cette page couvre les catégories 0 à 7 des tableaux CYC liés, du fil très
+      fin Lace au fil très épais Jumbo. Sock et Baby désignent des usages
+      courants, pas une épaisseur unique. Les grammes mesurent le poids de la
+      pelote et les mètres la longueur du fil ; aucun des deux ne suffit à
+      déterminer sa catégorie.
     </p>
 
     <h2>Identifier l'épaisseur d'un fil sans étiquette</h2>
@@ -242,14 +249,20 @@ const faqs = [
     </p>
     <p>
       Le premier test le plus rapide est le WPI, c'est-à-dire le nombre de tours
-      de fil sur 2,5 cm.
+      de fil sur 2,54 cm.
     </p>
 
     <h3>Mesurer le WPI</h3>
     <p>
       Enroule le fil autour d'un crayon, d'une règle ou d'un outil WPI. Garde
       les tours côte à côte, assez serrés, sans étirer ni chevaucher. Compte
-      combien tiennent sur 2,5 cm. Le guide CYC utilise ces grandes plages :
+      combien tiennent sur 2,54 cm. Le guide CYC utilise ces grandes plages :
+    </p>
+    <p>
+      <a
+        href="https://www.craftyarncouncil.com/standards/how-measure-wraps-inch-wpi"
+        >guide WPI du CYC</a
+      >
     </p>
     <ul>
       <li>30-40+ WPI -&gt; Lace (0)</li>
@@ -294,14 +307,13 @@ const faqs = [
       fini.
     </p>
     <p>
-      Les épaisseurs fines, 0-2, donnent plus de tombé et une meilleure
-      définition des mailles. Bien pour les chaussettes, châles et jacquards qui
-      demandent un détail net. Les épaisseurs intermédiaires, 3-4, surtout DK et
-      worsted, couvrent énormément de projets : pulls, bonnets, couvertures,
-      layette, accessoires texturés. Les épaisseurs plus fortes, 5-7,
-      privilégient la vitesse et la chaleur, mais donnent des coutures plus
-      épaisses et un ouvrage fini plus lourd. À garder en tête avant de
-      remplacer.
+      Les fils fins (0–2) servent souvent aux chaussettes, châles et jacquards
+      détaillés. Le DK et le worsted (3–4) conviennent à de nombreux vêtements,
+      bonnets et couvertures ; les fils épais (5–7) peuvent donner de plus
+      grandes mailles et des projets plus rapides. Le tombé, la chaleur, la
+      définition des mailles et le poids final dépendent aussi de la fibre, de
+      la construction, du point et de l’échantillon, pas seulement de
+      l’épaisseur.
     </p>
     <p>
       Si tu remplaces par une épaisseur hors de la catégorie d'origine,

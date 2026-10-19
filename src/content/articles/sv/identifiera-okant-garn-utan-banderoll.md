@@ -1,7 +1,8 @@
 ---
 title: "Identifiera okänt garn utan banderoll"
-description: "Ta reda på vad du har när banderollen saknas. Tester för fiberinnehåll (brännprov, vattentest), garntjocklek via WPI och tips för okänt garn."
+description: "Bedöm garn utan banderoll med WPI och en provlapp. Jämför känsla, stickfasthet och tvättresultat innan du väljer ett projekt för okänt garn."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 9
 tags:
@@ -18,15 +19,13 @@ translationKey: "identify-mystery-yarn"
 
 De flesta stickare hamnar förr eller senare med okänt garn. Banderollen har fallit av, garnet kom från någon annans förråd, eller nystanet hade aldrig särskilt mycket information från början. Second hand-påsar, ärvda samlingar, rester från byten.
 
-För att identifiera okänt garn börjar du med WPI, alltså lindningar per tum (cirka 2,5 cm), för att hitta garntjockleken, och använder sedan brännprov och vattentest för att ringa in fiberfamiljen. Du får inte alltid exakt märke eller procent, men tjockleksintervall och grov fibertyp räcker oftast.
+Börja med WPI, alltså lindningar per tum, för att uppskatta garntjockleken. Sticka sedan en provlapp för att bedöma det stickade tyget. Det hjälper dig att välja projekt, men fastställer inte märke, färgbad, exakta fiberandelar, superwashbehandling eller ursprungliga tvättråd.
 
 ## Steg ett: hitta tjockleken med WPI
 
-WPI är den snabbaste första kontrollen.
+Linda garnet runt en slät, jämntjock del av en penna eller WPI-mätare. Lägg lindningarna intill varandra utan mellanrum eller överlappning och utan att sträcka eller platta till garnet. Linda över flera tum och räkna sedan med en linjal hur många lindningar som ryms på en tum, exakt 2,54 cm.
 
-Linda garnet runt en penna, linjal eller WPI-mätare. Håll lindningarna tätt intill varandra utan att sträcka garnet. Räkna sedan hur många lindningar som ryms på en tum, alltså ungefär 2,5 cm.
-
-Craft Yarn Councils guide använder de här breda intervallen:
+[Craft Yarn Councils WPI-guide](https://www.craftyarncouncil.com/standards/how-measure-wraps-inch-wpi) anger dessa ungefärliga intervall för kategorierna 0–7:
 
 - 30 till 40+ lindningar: lace (kategori 0)
 - 14 till 30 lindningar: super fine eller fingering-området (kategori 1)
@@ -37,69 +36,57 @@ Craft Yarn Councils guide använder de här breda intervallen:
 - 5 till 6 lindningar: super bulky (kategori 6)
 - 1 till 4 lindningar: jumbo (kategori 7)
 
-Ja, intervallen överlappar. WPI tar dig till rätt område, inte till exakt adress. Mät på mer än ett ställe, särskilt om garnet är strukturerat, luddigt eller handspunnet.
+Intervallen överlappar. Mät på flera ställen: garn som lätt trycks ihop, är luddigt, ojämnt eller har tydlig struktur är svårt att linda likadant varje gång. WPI ger en ledtråd om tjocklek, inte om fiber eller stickfasthet.
 
-När du har ett intervall är [garntjocklekstabellen](/sv/verktyg/garntjocklekar/) bättre för att jämföra trolig stickfasthet och stickstorlek.
+[Garntjocklekstabellen](/sv/verktyg/garntjocklekar/) ger intervall för stickfasthet och stickstorlek som utgångspunkt för provlappen. WPI-verktyget jämför ditt mått med tjockleksintervall; det identifierar inte fiber, märke, tvättråd eller återstående garnlängd.
 
 ## Steg två: identifiera fibern
 
-Det spelar roll för skötsel och för hur tyget beter sig. [Fiberguiden](/sv/artiklar/garnfibrer-jamforda-ull-bomull-akryl/) går igenom varje fibertyp mer i detalj, men här är vad du kan titta efter i ett snabbt hemmatest. Ett okänt ullgarn och ett okänt akrylgarn kan se lika ut i nystanet och bete sig helt olika när de stickas och tvättas.
+[Fiberguiden](/sv/artiklar/garnfibrer-jamforda-ull-bomull-akryl/) förklarar skillnader mellan fibrer. Nystan som ser lika ut kan ändå ge olika stickade tyger: utseende och känsel bekräftar inte sammansättningen.
 
 ### Brännprovet
 
-Klipp en liten bit, håll den med pincett över ett brandsäkert underlag och tänd den. Ha vatten nära till hands, arbeta utomhus eller med mycket god ventilation och avbryt om garnet smälter, droppar eller ger ifrån sig skarpa ångor. Lägg märke till hur den brinner, hur den luktar och vad som finns kvar när den svalnat.
-
-Animaliska fibrer (ull, alpacka, silke) luktar bränt hår och lämnar en aska som går att krossa. Växtfibrer (bomull, lin) luktar mer som bränt papper och lämnar en lättare aska. Syntet smälter och hårdnar till en pärla i stället för att bli aska. Blandningar visar blandat beteende, vilket säger att garnet är blandat men inte ger exakta procent.
-
-Gör inte brännprovet med en stor bit, nära barn eller bredvid något lättantändligt. Syntetiska ångor är en verklig anledning att hålla provet mycket litet.
-
-En kommentar om förväntningar: brännprovet är en grov identifieringsmetod, inte ett labbresultat. Det är mest användbart för att skilja de stora fiberfamiljerna åt. Förvänta dig inte att det berättar skillnaden mellan merino och corriedale.
+Hoppa över brännprovet i den här nybörjarguiden. Det förstör provet och innebär öppen låga. Blandningar och efterbehandlingar gör resultatet svårare att tolka; en reaktion identifierar inte garnet säkert eller återskapar dess tvättråd. Ett otydligt resultat bevisar inte att garnet är en blandning.
 
 ### Vattentestet
 
-Snällare, och användbart tillsammans med brännprovet. Blötlägg en liten bit i varmt vatten och se vad som händer.
+Undersök tvättbeteendet med en liten provlapp som du kan avvara, inte för att identifiera fibern. Om du provar försiktig tvätt i svalt vatten och plantorkning, anteckna förhållandena och jämför den helt torra lappen med dess ursprungliga mått och utseende. Även detta kan skada okänt garn; börja inte med hela nystanet eller ett värdefullt plagg.
 
-Obehandlad ull kan börja filta om du lägger till värme, tvål och bearbetning. Superwash-ull blir våt men motstår filtning. Bomull suger åt sig vatten snabbt och känns märkbart tyngre våt. Akryl beter sig annorlunda än bomull och ull, men vattentestet identifierar det inte säkert på egen hand.
-
-Fortfarande bara en ledtråd, särskilt med blandningar. Men det snävar in fältet.
+Filtning eller krympning visar att provet förändrades under just de förhållandena. Utebliven filtning bevisar varken superwashbehandling eller maskintvättbarhet. Vattenupptagning, svällning, blandningar, behandlingar och garnets konstruktion gör vattentestet otillförlitligt som fiberidentifiering.
 
 ### Känseltestet
 
-Mindre vetenskapligt, mer instinktivt. Hantera garnet och lägg märke till vad som sticker ut.
+Känn på ytan, mjukheten, töjbarheten och hur garnet återfår formen. Jämför gärna med märkt garn, men anteckna likheter som ledtrådar, inte som en säker identifiering.
 
-Ull känns ofta fjädrande och varm. Bomull känns svalare och mindre elastisk. Akryl kan kännas slätare eller gnissligare beroende på kvalitet. Lin börjar stelt. Silke känns slätt och svalt.
-
-Känsel räcker inte som bevis. Tillsammans med de andra testen hjälper det ändå till att bygga bilden.
+Tvinning, tråduppbyggnad, blandningar och efterbehandling påverkar känslan. Släthet pekar inte entydigt på silke, spänst på ull eller stelhet och gnissel på lin eller akryl. Iakttagelserna hjälper främst när du bedömer om du tycker om garnets känsla.
 
 ## Steg tre: sticka provlapp innan du bestämmer dig
 
-När du har en grov gissning om tjocklek och fiber, sticka provlapp. Det är delen som gör ledtrådarna användbara.
+Sticka provlappen i projektets strukturmönster och på samma sätt, fram och tillbaka eller runt. Gör den stor nog att mäta mitt på, bort från kanterna. Välj stickor att prova utifrån den uppskattade tjockleken och justera storleken tills tyget passar; det finns ingen universellt rätt stickstorlek för okänt garn.
 
-Provlappen bekräftar din tjockleksgissning, visar hur garnet fungerar med ditt handlag och avslöjar sådant hemmatesterna inte kan: om garnet delar sig, blommar, faller, noppar, känns stelt och hur det ser ut efter tvätt. Om garnet filtade ens lite i vattentestet, behandla det som handtvätt och planera därefter.
+Mät maskor och varv över samma sträcka som i beskrivningen, med lappen plant och utan att sträcka den. Mät igen efter provbehandlingen ovan och fullständig torkning. Bedöm om garnet delar sig, hur ytan förändras, fall, stelhet och mått. Provlappen visar din stickfasthet och tygets beteende under dessa förhållanden, inte ursprunglig garnkategori eller produkt. Ett kort prov visar inte långvarig noppbildning eller slitstyrka.
 
 ## Använda okänt garn i praktiken
 
-Vissa projekt förlåter osäkerhet bättre än andra.
+En halsduk eller halskrage med flexibla mått kan vara ett första projekt om provlappen känns lämplig. En filt kräver fortfarande fungerande skötsel och tillräckligt med garn; disktrasor behöver rätt uppsugningsförmåga och tvättegenskaper. Kroppsnära plagg och sockor ställer högre krav på mått, formåterhämtning och slitstyrka.
 
-Halsdukar, halskragar, filtar, disktrasor, kuddar. Alla är bra val för garn du inte helt kan identifiera. Kroppsnära plagg, sockor och allt där elasticitet, återhämtning eller tvättegenskaper verkligen spelar roll är mer riskabelt.
+Utan banderoll är även försiktig tvätt ett försök, inte ett bekräftat tvättråd. Om provlappen filtar, tappar formen eller färgar av sig, överväg ett annat projekt eller fråga en sakkunnig. Ett lyckat tvättprov motiverar inte högre temperatur eller byte till maskintvätt.
 
-Skötselproblemet är verkligt. Utan banderoll gissar du utifrån beteende. När du är osäker: tvätta försiktigt i svalt vatten och torka plant tills garnet visat att det klarar mer.
-
-Om du planerar att använda mycket okänt garn i ett projekt, testa färgäkthet också. Blötlägg en bit och tryck mot vitt tyg. Om färg släpper ändrar det tvättplanen.
+Kontrollera vid provtvätten om färg överförs till en vit tygbit. Prova färgerna tillsammans i lappen om du ska kombinera dem. Synlig färgöverföring visar ett problem; utebliven överföring i ett enda test garanterar inte färgäkthet under andra förhållanden.
 
 ## Bygga garninventering
 
-Om du har mycket omärkt garn sparar en eftermiddag med testning och märkning framtida huvudvärk. Även en handskriven lapp ("troligen DK, förmodligen ullblandning, handtvätt") är bättre än ännu ett mysterienystan om sex månader.
+Skilj observationer från gissningar i anteckningarna. Exempel: "WPI tyder på DK; fiber okänd; provlappens mått och tvättförhållanden antecknade." Spara lappen med garnet. Nystanets storlek, garnets tjocklek eller vikt visar inte ensamt hur många meter som återstår.
 
 KnitTools kan hjälpa här också. För okänt garn kan du spara en projektnotis med din bästa uppskattning och dina testanteckningar.
 
 ## FAQ
 
-**Kan jag skicka garn till ett labb för fiberidentifiering?**  
-Det går, men det är överkurs för det mesta förrådsgarn. Labbtest är rimligare för garn som är värdefullt, sentimentalt eller finns i tillräcklig mängd för att motivera kostnaden.
+**Kan jag skicka garn till ett labb för fiberidentifiering?**
+Ett textillaboratorium kan ge råd om fiberanalys. Fråga vilka fibrer eller blandningsandelar det kan fastställa, hur mycket provmaterial som behövs och vad det kostar. En fiberanalys identifierar inte i sig garnprodukten eller dess ursprungliga tvättråd.
 
-**Brännprovet gav inget tydligt svar. Vad gör jag nu?**  
-Oftast betyder det att garnet är en blandning, eller att resultatet var för otydligt att läsa. Var försiktig med skötsel och låt provlappen styra beslut därifrån.
+**Brännprovet gav inget tydligt svar. Vad gör jag nu?**
+Det bekräftar varken en blandning eller en viss fiber. Upprepa inte brännprovet för att tvinga fram ett svar. Låt sammansättningen förbli okänd och bedöm användningen med provlappen. Sök professionell analys om sammansättningen är avgörande.
 
-**Kan jag blanda okänt garn med märkt garn i ett projekt?**  
-Ja, men kontrollera först att båda reagerar liknande på tvätt och torkning. Om ett garn filtar, blöder färg eller töjer sig mycket mer än det andra kommer det att synas i det färdiga projektet.
+**Kan jag blanda okänt garn med märkt garn i ett projekt?**
+Sticka båda tillsammans i en provlapp och jämför mått, färgöverföring och utseende efter den tänkta tvätten och torkningen. Olika reaktioner kan förändra formen eller missfärga arbetet. Ett lyckat försök ger information om just den kombinationen, inte en garanti för likadant beteende på lång sikt.

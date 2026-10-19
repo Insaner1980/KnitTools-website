@@ -83,8 +83,8 @@ export const CATEGORY_COLORS: Record<CategorySlug, string> = {
 
 export const CATEGORY_DESCRIPTIONS: Record<CategorySlug, string> = {
   "gauge-calculations":
-    "Gauge math, swatches, and stitch counts. The calculations that decide whether your finished piece comes out the size you wanted.",
-  yarn: "Choosing yarn, substituting it, reading labels, and figuring out how much a project will actually need.",
+    "Guides to measuring stitch and row gauge, knitting swatches, calculating cast-on counts, and spacing increases and decreases, with worked examples.",
+  yarn: "Choosing yarn, substituting it, reading labels, and estimating how much a project may need.",
   needles:
     "Materials, sizes, and types of knitting needles. What to buy and when each one is the right tool.",
   techniques:
@@ -95,19 +95,19 @@ export const CATEGORY_DESCRIPTIONS: Record<CategorySlug, string> = {
 
 export const CATEGORY_DESCRIPTIONS_FI: Record<CategorySlug, string> = {
   "gauge-calculations":
-    "Neuletiheys, mallitilkut ja silmukkamäärät. Ne laskut, joista valmiin neuleen koko lopulta riippuu.",
+    "Artikkelit neuletiheydestä, mallitilkuista ja silmukkamäärien laskemisesta. Opettele mittaamaan tiheys ja jakamaan lisäykset ja kavennukset.",
   yarn: "Langan valinta, korvaaminen, vyötteen lukeminen ja menekin arviointi silloin kun ohjeen numerot eivät yksin riitä.",
   needles:
     "Puikkokoot, materiaalit ja puikkotyypit. Mitä kannattaa ostaa ja milloin mikäkin puikko tuntuu oikealta työssä.",
   techniques:
     "Käytännön tekniikkaohjeita. Virheiden korjaamista, viimeistelyä ja ohjeiden lukemista luomisesta päättelyyn.",
   "app-tools":
-    "Sovellukset, laskurit ja apuvälineet, joilla neuleprojektien seuraaminen ja suunnittelu pysyy helpompana.",
+    "Sovellukset, laskurit ja apuvälineet, joilla neuleprojekteja on helpompi seurata ja suunnitella.",
 };
 
 export const CATEGORY_DESCRIPTIONS_DE: Record<CategorySlug, string> = {
   "gauge-calculations":
-    "Maschenprobe, Probestücke und Maschenzahlen. Die Rechnungen, die entscheiden, ob dein Strickstück am Ende die geplante Größe hat.",
+    "Anleitungen zum Stricken und Messen der Maschenprobe, Berechnen der Anschlagszahl und Verteilen von Zu- und Abnahmen, mit Rechenbeispielen.",
   yarn: "Garn auswählen, ersetzen, Banderolen lesen und einschätzen, wie viel Garn ein Projekt wirklich braucht.",
   needles:
     "Nadelstärken, Materialien und Nadeltypen. Was sinnvoll ist und wann welche Nadel zum Projekt passt.",
@@ -119,8 +119,8 @@ export const CATEGORY_DESCRIPTIONS_DE: Record<CategorySlug, string> = {
 
 export const CATEGORY_DESCRIPTIONS_SV: Record<CategorySlug, string> = {
   "gauge-calculations":
-    "Stickfasthet, provlappar och maskantal. Beräkningarna som avgör om det färdiga arbetet får den storlek du tänkte dig.",
-  yarn: "Att välja garn, byta garn, läsa banderoller och räkna ut hur mycket garn ett projekt faktiskt behöver.",
+    "Guider till stickfasthet, provlappar och maskantal. Lär dig mäta, beräkna uppläggningen och fördela ökningar och minskningar med räkneexempel.",
+  yarn: "Att välja garn, byta garn, läsa banderoller och uppskatta garnåtgången till ett projekt.",
   needles:
     "Stickstorlekar, material och typer av stickor. Vad som är värt att köpa och när varje sort passar bäst.",
   techniques:
@@ -131,8 +131,8 @@ export const CATEGORY_DESCRIPTIONS_SV: Record<CategorySlug, string> = {
 
 export const CATEGORY_DESCRIPTIONS_NO: Record<CategorySlug, string> = {
   "gauge-calculations":
-    "Strikkefasthet, prøvelapper og maskeantall. Beregningene som avgjør om det ferdige arbeidet får størrelsen du hadde tenkt.",
-  yarn: "Valg av garn, garnbytte, garnetiketter og beregning av hvor mye garn et prosjekt faktisk trenger.",
+    "Guider om strikkefasthet, prøvelapper og maskeantall. Lær å måle, beregne oppleggstall og fordele økninger og fellinger med regneeksempler.",
+  yarn: "Valg av garn, garnbytte, garnetiketter og anslag på garnmengden til et prosjekt.",
   needles:
     "Pinnestørrelser, materialer og typer strikkepinner. Hva som er verdt å kjøpe, og når hver type passer best.",
   techniques:
@@ -143,7 +143,7 @@ export const CATEGORY_DESCRIPTIONS_NO: Record<CategorySlug, string> = {
 
 export const CATEGORY_DESCRIPTIONS_FR: Record<CategorySlug, string> = {
   "gauge-calculations":
-    "Échantillon, mailles et calculs. Les chiffres qui décident si ton ouvrage fini aura la taille prévue.",
+    "Guides pour tricoter et mesurer un échantillon, calculer les mailles à monter et répartir augmentations et diminutions, avec des exemples de calcul.",
   yarn: "Choisir un fil, le remplacer, lire une étiquette et estimer la quantité nécessaire pour un projet.",
   needles:
     "Tailles, matières et types d'aiguilles à tricoter. Quoi acheter et quand chaque aiguille est utile.",
@@ -155,8 +155,8 @@ export const CATEGORY_DESCRIPTIONS_FR: Record<CategorySlug, string> = {
 
 export const CATEGORY_DESCRIPTIONS_NL: Record<CategorySlug, string> = {
   "gauge-calculations":
-    "Stekenverhouding, proeflapjes en steekenaantallen. De berekeningen die bepalen of je breiwerk uiteindelijk de maat krijgt die je bedoelde.",
-  yarn: "Garen kiezen, vervangen, labels lezen en garenverbruik inschatten voor truien, dekens en andere breiprojecten zonder giswerk.",
+    "Artikelen over stekenverhouding, proeflapjes en stekenaantallen. Leer meten, opzetsteken berekenen en meerderingen en minderingen verdelen met rekenvoorbeelden.",
+  yarn: "Garen kiezen, vervangen, labels lezen en garenverbruik inschatten voor truien, dekens en andere breiprojecten.",
   needles:
     "Naalddiktes, materialen en soorten breinaalden. Kies de juiste maat en het juiste type voor sokken, truien, mutsen en meer.",
   techniques:
@@ -167,14 +167,14 @@ export const CATEGORY_DESCRIPTIONS_NL: Record<CategorySlug, string> = {
 
 export const CATEGORY_DESCRIPTIONS_DA: Record<CategorySlug, string> = {
   "gauge-calculations":
-    "Strikkefasthed, strikkeprøver og maskeantal. Beregningerne der afgør, om det færdige arbejde får den størrelse, du havde tænkt dig.",
-  yarn: "Valg af garn, garnalternativer, banderoler og beregning af hvor meget garn et projekt faktisk kræver, før du køber garn.",
+    "Artikler om strikkefasthed, strikkeprøver og maskeantal. Lær at måle, beregne opslagsmasker og fordele udtagninger og indtagninger med regneeksempler.",
+  yarn: "Valg af garn, garnalternativer, banderoler og vurdering af garnforbruget, før du køber garn.",
   needles:
     "Pindestørrelser, materialer og typer strikkepinde. Hvad der er værd at købe, og hvornår hver type passer bedst til projektet.",
   techniques:
     "Praktiske teknikguides trin for trin. Ret fejl, afslut pænt og læs strikkeopskrifter fra opslag til aflukning undervejs.",
   "app-tools":
-    "Apps, beregnere og hjælpemidler, der gør det lettere at planlægge, følge og holde styr på strikkeprojekter uden løse noter.",
+    "Apps, beregnere og hjælpemidler, der gør det lettere at planlægge, følge og holde styr på strikkeprojekter.",
 };
 
 export function getCategoryLabel(

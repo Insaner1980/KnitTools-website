@@ -6,23 +6,23 @@ import { routes } from "../../../i18n/routes";
 const faqs = [
   {
     q: "Est-ce que je dois vraiment tricoter un échantillon ?",
-    a: "Oui. Sauter l'échantillon est l'une des raisons les plus fréquentes pour lesquelles un ouvrage ne sort pas à la bonne taille. Cela prend un peu de temps au départ et peut éviter des heures à détricoter.",
+    a: "Oui, si les dimensions comptent. Un échantillon montre combien de mailles tu obtiens avec le fil, les aiguilles et le point prévus.",
   },
   {
     q: "Faut-il compter les mailles de bord dans l'échantillon ?",
-    a: "Non. Mesure au centre de l'échantillon, en évitant les deux premières et les deux dernières mailles. Les mailles de bord sont souvent plus serrées ou plus lâches que le reste.",
+    a: "Mesure au centre d'un échantillon plus grand que la zone à mesurer, loin du montage et des mailles irrégulières des bords.",
   },
   {
     q: "Pourquoi le calculateur arrondit-il à un nombre pair ?",
-    a: "Beaucoup de points simples, notamment les côtes courantes, tombent plus proprement sur un nombre pair de mailles. Arrondir au nombre pair le plus proche donne un point de départ pratique avant d'ajuster pour un multiple précis du modèle.",
+    a: "C'est une règle d'arrondi, pas une garantie que le nombre convient au motif. Les côtes, les torsades et d'autres points peuvent demander un multiple précis et des mailles supplémentaires.",
   },
   {
     q: "Et si mon modèle demande un multiple précis ?",
-    a: "Ajoute ou enlève quelques mailles pour atteindre le multiple le plus proche demandé par le modèle. Par exemple, si le motif se répète sur 4 mailles et que le calculateur donne 46, ajuste à 44 ou 48.",
+    a: "Pour un motif de 4 mailles sans mailles supplémentaires, ajuste 46 à 44 ou 48. Tiens compte des mailles lisières et des autres mailles supplémentaires prévues par le modèle, puis vérifie l'effet sur la largeur.",
   },
   {
     q: "Puis-je l’utiliser pour tricoter en rond ?",
-    a: "Oui. Entre la circonférence complète comme largeur souhaitée. Le calcul fonctionne de la même façon pour le tricot à plat et le tricot en rond.",
+    a: "Oui. Mesure un échantillon tricoté en rond et saisis la circonférence finale souhaitée comme largeur. Tiens compte de l'aisance souhaitée dans cette mesure : le calculateur ne l'ajoute ni ne la retranche.",
   },
 ];
 ---
@@ -48,8 +48,9 @@ const faqs = [
       Monter les mailles est la première étape de presque tous les projets
       tricot : c'est la façon de créer le premier rang de mailles sur
       l'aiguille. Le nombre de mailles montées détermine la largeur de l'ouvrage
-      fini. Trop peu, et il sera trop étroit. Trop, et tu auras perdu du fil et
-      du temps. Avoir le bon nombre dès le départ évite de détricoter plus tard.
+      au départ, avec la densité de ton échantillon. Trop peu, et il sera trop
+      étroit. Trop, et tu auras perdu du fil et du temps. Avoir le bon nombre
+      dès le départ peut éviter de détricoter plus tard.
     </p>
 
     <h2>Pourquoi l'échantillon compte</h2>
@@ -58,8 +59,9 @@ const faqs = [
       aiguilles, ta tension produit une matière un peu différente de celle de
       quelqu'un d'autre. C'est pour cela que les modèles donnent un échantillon
       recommandé, et que tu dois tricoter un échantillon pour trouver le tien.
-      Mesure combien de mailles tiennent sur 10 cm, et tu as le nombre dont le
-      calculateur a besoin.
+      Utilise le point prévu pour l'ouvrage, lave et bloque l'échantillon comme
+      l'ouvrage fini, puis mesure-le une fois sec. Compte les mailles au centre
+      sur 10 cm : c'est le nombre dont le calculateur a besoin.
     </p>
 
     <h2>Comment utiliser ce calculateur</h2>
@@ -69,8 +71,23 @@ const faqs = [
       >, c'est-à-dire le nombre de mailles obtenues sur 10 cm de tricot, et la <strong
         >largeur souhaitée</strong
       > de l'ouvrage. Tricote d'abord un échantillon, mesure-le, puis entre ces valeurs.
-      Le calculateur arrondit au nombre pair le plus proche, ce qui donne un point
-      de départ pratique pour beaucoup de points simples.
+      Vérifie ensuite le multiple du motif et les éventuelles mailles supplémentaires
+      du modèle.
+    </p>
+    <p>
+      Utilise le nombre de mailles pour 10 cm et la largeur en centimètres. La
+      formule est : mailles pour 10 cm × largeur ÷ 10. Cette version calcule
+      uniquement en cm. Si ton échantillon est mesuré sur 4 pouces, convertis
+      d'abord sa densité en mailles pour 10 cm : 4 pouces font exactement 10,16
+      cm, pas 10 cm.
+    </p>
+
+    <p>
+      Le résultat est arrondi au nombre pair le plus proche ; à égale distance,
+      l'arrondi se fait vers le haut. Par exemple, 99 devient 100. Une largeur
+      très petite peut donner 0 après arrondi : ce n'est pas un nombre de
+      mailles utilisable pour le montage. Vérifie les mesures et le modèle avant
+      de monter les mailles.
     </p>
   </div>
 </LocalizedToolPage>

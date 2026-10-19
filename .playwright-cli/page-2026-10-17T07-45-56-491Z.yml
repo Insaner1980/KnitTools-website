@@ -1,0 +1,198 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link "KnitTools home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - text: KnitTools
+      - navigation [ref=e6]:
+        - link "Tools" [ref=e7] [cursor=pointer]:
+          - /url: /tools/
+        - link "Articles" [ref=e8] [cursor=pointer]:
+          - /url: /articles/
+        - group [ref=e9]:
+          - 'generic "Language: English" [ref=e10] [cursor=pointer]': English
+        - link "Notify me at launch" [ref=e13] [cursor=pointer]:
+          - /url: /#join
+    - main [ref=e14]:
+      - article [ref=e15]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]:
+            - link "← All articles" [ref=e19] [cursor=pointer]:
+              - /url: /articles/
+          - paragraph [ref=e20]: Gauge & Calculations
+          - heading "What to do when your gauge doesn't match the pattern" [level=1] [ref=e21]
+          - paragraph [ref=e22]:
+            - generic [ref=e23]: By KnitTools
+            - generic [ref=e24]: Published May 2026
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: Your swatch gives you 19 stitches over 4 inches. The pattern wants 20. For a body circumference of 40 inches, the pattern uses 200 stitches. At your gauge, those same stitches span 200 ÷ 19 × 4 ≈ 42.1 inches. That changes the intended ease; it does not tell you by itself whether the garment will fit.
+          - paragraph [ref=e28]: A gauge mismatch is fixable. The response depends on how far off you are, what kind of project you’re making, and whether the fabric itself feels right on the needle.
+          - 'heading "First: check your swatch measurement" [level=2] [ref=e29]'
+          - paragraph [ref=e30]: "First compare the same measurement length, stitch pattern, flat or circular method, and finishing state. Use the state specified by the pattern, including relaxed or stretched if stated. The conventional 4-inch and 10 cm gauge windows are not exact equivalents: 4 inches is 10.16 cm. Use the pattern’s stated unit for your comparison."
+          - paragraph [ref=e31]: For a relaxed gauge measurement, rule out measurement error before changing needles. Lay the swatch flat on a hard surface without stretching it. Ruler across the center, not near the cast-on or bind-off edges where stitches behave differently.
+          - paragraph [ref=e32]:
+            - text: Count stitches across 4 inches. Include half-stitches because they matter. A swatch that reads “20 stitches” when you round versus “19.5 stitches” when you count honestly is a real difference across a full garment. The
+            - link "gauge measurement guide" [ref=e33] [cursor=pointer]:
+              - /url: /articles/how-to-measure-knitting-gauge/
+            - text: "covers the full process, but the short version: measure in the center, count precisely, don’t stretch."
+          - paragraph [ref=e34]: "A swatch about 6 inches square is a practical choice because it leaves room for a central 4-inch measurement area away from the cast-on, bind-off, and side edges. It is not a universal minimum: a smaller swatch can still be usable if it provides a large enough representative, undistorted area for the measurement. Follow any specific swatch-size or measurement instructions in the pattern."
+          - paragraph [ref=e35]: Measure several undistorted central areas in the same state. Small differences can be averaged; investigate large differences instead of averaging them into the target number.
+          - 'heading "Too many stitches per inch: your knitting is tight" [level=2] [ref=e36]'
+          - paragraph [ref=e37]: More stitches over the same distance means narrower stitches. With the same stitch count, the fabric is narrower across the stitches; this is not a prediction of its length.
+          - paragraph [ref=e38]:
+            - strong [ref=e39]: Go up a needle size.
+            - text: "Standard gauge adjustment. If the pattern calls for US 6 (4.0 mm) and you’re knitting too tightly, try US 7 (4.5 mm). The larger needle creates a larger loop, fewer stitches fit per inch. Swatch again. Measure again. These sizes are examples to try, not a formula: a 0.5 mm change has no fixed stitch-count effect. Check both stitch and row gauge and the finished fabric after each change."
+          - paragraph [ref=e40]: Sometimes you need to go up two sizes. That’s fine. The needle size printed in the pattern is a starting point, not a requirement. Your stitches per inch matching the pattern gauge is the requirement. Some knitters consistently need a different needle size from the one printed in the pattern, and it isn’t a problem as long as you know it about yourself.
+          - 'heading "Too few stitches per inch: your knitting is loose" [level=2] [ref=e41]'
+          - paragraph [ref=e42]: Fewer stitches over the same distance means wider stitches. With the same stitch count, the fabric is wider across the stitches.
+          - paragraph [ref=e43]:
+            - strong [ref=e44]: Go down a needle size.
+            - text: US 6 to US 5 (3.75 mm), swatch again. If going down a full size overshoots the correction and your ideal gauge sits between two needles, check the actual metric size rather than only the US label. Some needle sets give you smaller metric steps than the named US sizes suggest. The
+            - link "needle size chart" [ref=e45] [cursor=pointer]:
+              - /url: /tools/needle-size-chart/
+            - text: is the fast reference.
+          - 'heading "Row gauge: the one people skip" [level=2] [ref=e46]'
+          - paragraph [ref=e47]: Row gauge counts rows, or rounds in circular knitting, over the stated height. Working to a length can help in a plain section where the pattern allows it, accounting for changes after finishing. It does not automatically correct shaping, pattern repeats, armholes, or yokes. In sideways knitting, rows may control garment width instead.
+          - paragraph [ref=e48]: "For example, ‘decrease every 6th row, 8 times’ specifies both spacing and a number of decreases. Different row gauge changes that spacing. Converting a row interval to inches only describes the intended distance: you must still plan whole rows, right-side/wrong-side placement, repeats, total shaping length, and the required final stitch count. Seek pattern-specific help if those constraints conflict."
+          - paragraph [ref=e49]:
+            - text: Changing needle size can affect both gauges, without a fixed ratio. If stitch gauge matches but row gauge does not, another needle material at the same diameter is one option to swatch; do not assume it will change only rows. If row gauge matches but stitch gauge does not, the width issue still needs correction. Recheck both after any change. The
+            - link "gauge measurement guide" [ref=e50] [cursor=pointer]:
+              - /url: /articles/how-to-measure-knitting-gauge/
+            - text: explains how to obtain comparable readings.
+          - heading "When the right gauge gives the wrong fabric" [level=2] [ref=e51]
+          - paragraph [ref=e52]: Sometimes you hit the pattern gauge but the fabric feels wrong. Too stiff, too floppy, gaps between stitches where you don’t want them. The numbers match. The fabric doesn’t.
+          - paragraph [ref=e53]: Matching the yarn weight category alone does not ensure the intended fabric. Compare fiber content and yarn construction as well as gauge, then judge the washed and dried swatch for density, drape, and suitability for the project.
+          - paragraph [ref=e54]:
+            - text: "If the fabric quality is off at correct gauge, the options are: try a different yarn closer to the original’s fiber content, or accept that this yarn-pattern combination isn’t going to work. Not every yarn suits every pattern, even when the math cooperates. The"
+            - link "yarn substitution guide" [ref=e55] [cursor=pointer]:
+              - /url: /articles/how-to-substitute-yarn/
+            - text: covers the fiber-matching side of this problem.
+          - heading "Blocked vs unblocked gauge" [level=2] [ref=e56]
+          - paragraph [ref=e57]: A swatch’s gauge can change after washing and finishing. Measure the change in your own fabric rather than predicting it from the fiber name.
+          - paragraph [ref=e58]: Use the pattern’s stated measurement condition, including unblocked gauge when requested. If none is stated, use the swatch treated as you will treat the finished item, following the yarn’s care instructions. Let it dry completely, remove any pins, and let it relax before measuring unless the pattern specifies otherwise. Keep the before- and after-treatment readings separately.
+          - paragraph [ref=e59]: Blocking to the intended finish is different from pulling unsuitable fabric to the target number. A measurement held by pins is not proof of the relaxed size or of a permanent change during wear or later washing.
+          - heading "When gauge doesn’t matter (much)" [level=2] [ref=e60]
+          - paragraph [ref=e61]: If a scarf or blanket has no fixed size requirement, you may accept a different finished size provided you also like the fabric. Fitted garments need closer attention to dimensions and intended ease. There is no stitch-count tolerance that suits every accessory or garment.
+          - paragraph [ref=e62]:
+            - text: Gauge changes can also alter dimensions and yarn needs. The
+            - link "Yarn Estimator" [ref=e63] [cursor=pointer]:
+              - /url: /tools/yarn-estimator/
+            - text: gives a rough table-based estimate by project, size, and yarn weight; it does not accept your gauge or dimensions and cannot recalculate the effect of this mismatch.
+          - heading "The half-stitch problem" [level=2] [ref=e64]
+          - paragraph [ref=e65]: Your gauge reads 4.5 stitches per inch. The pattern wants 5. Over 4 inches, that is 18 stitches instead of 20.
+          - paragraph [ref=e66]: "Keep the body stitch count fixed at 200: 200 ÷ 5 = 40 inches, but 200 ÷ 4.5 ≈ 44.4 inches. The increase is about 11.1% relative to the intended 40 inches, not 10%. These are circumference estimates for the same stitch pattern and finishing state, excluding seam allowances."
+          - paragraph [ref=e67]: Even a quarter-stitch difference has no universal safe threshold. At 4.75 rather than 5 stitches per inch, those 200 stitches span about 42.1 inches. Compare the calculated difference with your project’s intended dimensions and ease.
+          - heading "In the round vs flat gauge" [level=2] [ref=e68]
+          - paragraph [ref=e69]: The same yarn and needles can give different gauges flat and in the round. In stockinette, flat work alternates knit and purl rows, while circular work uses knit rounds; a difference between knit and purl tension can therefore change the result.
+          - paragraph [ref=e70]: Swatch using the project’s method and the stitch pattern specified for its gauge. A small tube is one option for circular work. A speed swatch with loose strands across the back can also simulate working from the right side. Knitting every row from the right side applies to stockinette, not to every stitch pattern.
+          - 'heading "Gauge drift: same yarn, same needles, different gauge" [level=2] [ref=e71]'
+          - paragraph [ref=e72]: If the project no longer matches the swatch, remeasure several central areas away from edges and live stitches. Compare unwashed work with the unwashed swatch, using the same stitch pattern and measurement length. Check whether needles, yarn, or knitting method changed; do not average different treatment states or a clear change in tension together.
+          - paragraph [ref=e73]: Estimate the resulting dimensions using the measured gauge. If the difference is unacceptable, stop and test the correction on a new swatch before deciding how far to rip back. Changing needles now affects future knitting, not fabric already made; it can leave a visible transition. Do not rely on blocking to rescue an untested size difference.
+          - heading "Working through it" [level=2] [ref=e74]
+          - paragraph [ref=e75]: Measure carefully, including partial stitches. Judge the mismatch against the required dimensions rather than a fixed half-stitch cutoff. Try larger needles for too many stitches over the stated distance, smaller for too few. Swatch again and check both gauges and fabric.
+          - paragraph [ref=e76]: If needle changes do not give a suitable result, compare the yarn with the recommended one. Weight category and length per 100 g are clues, not proof of equivalent thickness or gauge; fiber and construction matter too. Test the substitute rather than predicting the result from the label alone.
+          - paragraph [ref=e77]:
+            - text: The
+            - link "Cast On Calculator" [ref=e78] [cursor=pointer]:
+              - /url: /tools/cast-on-calculator/
+            - text: multiplies your stitch gauge by the requested width and rounds to the nearest even stitch count. Use matching units. It does not account for repeats, edge stitches, ease, or shaping and does not resize a garment pattern or guarantee fit.
+          - heading "When to give up on the pattern" [level=2] [ref=e79]
+          - paragraph [ref=e80]: If matching gauge gives fabric that is too stiff, too open, or otherwise unsuitable, try another yarn or a pattern suited to the fabric you like. A yarn does not have one compulsory gauge, and hitting a number is not enough to establish a good match.
+          - heading "FAQ" [level=2] [ref=e81]
+          - paragraph [ref=e82]:
+            - strong [ref=e83]: How close does my gauge need to be?
+            - text: Aim for the pattern’s stated gauge when dimensions matter. Assess any difference through finished measurements, ease, fabric, and construction. There is no general quarter-stitch allowance, and row gauge can be crucial for shaping.
+          - paragraph [ref=e84]:
+            - strong [ref=e85]: Should I wash my gauge swatch before measuring?
+            - text: Record the unwashed swatch first, then treat it as the finished item within the yarn’s care instructions and let it dry completely. Compare with the state the pattern specifies; if none is given, use the finished swatch. The
+            - link "gauge swatch walkthrough" [ref=e86] [cursor=pointer]:
+              - /url: /articles/gauge-swatch-step-by-step/
+            - text: covers the process.
+          - paragraph [ref=e87]:
+            - strong [ref=e88]: Does blocking affect gauge?
+            - text: It can. Compare before and after treatment, and measure the dry, relaxed fabric unless the pattern calls for another state. Do not force the swatch to a target or assume a pinned measurement will persist.
+          - paragraph [ref=e89]:
+            - strong [ref=e90]: My stitch gauge matches but my row gauge is off. What do I do?
+            - text: Work to length only where the construction permits. Row-based shaping needs a workable whole-row schedule that preserves repeats, decrease counts, final stitch counts, and overall dimensions. Converting rows to inches alone is not enough.
+          - paragraph [ref=e91]:
+            - strong [ref=e92]: Can I just cast on more or fewer stitches to fix gauge?
+            - text: For an unshaped rectangle, a starting count is desired width × stitches per unit of length. Fit that count to the stitch repeat and any extra edge stitches, then recheck the resulting width. Shawls with shaping need more than a cast-on adjustment. For garments, changing the count or choosing another pattern size does not establish that armholes, sleeves, yoke, and other dimensions will fit; use pattern-specific guidance.
+      - region [ref=e93]:
+        - generic [ref=e94]:
+          - paragraph [ref=e95]: Be there at launch
+          - heading [level=2] [ref=e96]:
+            - text: Where every stitch
+            - emphasis [ref=e97]: counts.
+          - generic [ref=e98]:
+            - generic [ref=e99]: Email address
+            - generic [aria-hidden] [ref=e100]: Leave this field empty
+            - textbox [aria-hidden] [ref=e101]
+            - generic [ref=e102]:
+              - textbox "Email address" [ref=e103]:
+                - /placeholder: your@email.com
+              - button "Notify me at launch" [ref=e104] [cursor=pointer]
+          - paragraph [ref=e105]: Free tier from day one. No card required.
+    - contentinfo [ref=e106]:
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - heading "Tools" [level=2] [ref=e111]
+              - list [ref=e112]:
+                - listitem [ref=e113]:
+                  - link "Cast On Calculator" [ref=e114] [cursor=pointer]:
+                    - /url: /tools/cast-on-calculator/
+                - listitem [ref=e115]:
+                  - link "Yarn Estimator" [ref=e116] [cursor=pointer]:
+                    - /url: /tools/yarn-estimator/
+                - listitem [ref=e117]:
+                  - link "Needle Size Chart" [ref=e118] [cursor=pointer]:
+                    - /url: /tools/needle-size-chart/
+                - listitem [ref=e119]:
+                  - link "Yarn Weight Chart" [ref=e120] [cursor=pointer]:
+                    - /url: /tools/yarn-weight-chart/
+                - listitem [ref=e121]:
+                  - link "Knitting Abbreviations" [ref=e122] [cursor=pointer]:
+                    - /url: /tools/knitting-abbreviations/
+                - listitem [ref=e123]:
+                  - link "Knitting Size Charts" [ref=e124] [cursor=pointer]:
+                    - /url: /tools/knitting-size-charts/
+            - generic [ref=e125]:
+              - heading "Articles" [level=2] [ref=e126]
+              - list [ref=e127]:
+                - listitem [ref=e128]:
+                  - link "Gauge & Calculations" [ref=e129] [cursor=pointer]:
+                    - /url: /articles/category/gauge-calculations/
+                - listitem [ref=e130]:
+                  - link "Yarn" [ref=e131] [cursor=pointer]:
+                    - /url: /articles/category/yarn/
+                - listitem [ref=e132]:
+                  - link "Needles" [ref=e133] [cursor=pointer]:
+                    - /url: /articles/category/needles/
+                - listitem [ref=e134]:
+                  - link "Techniques" [ref=e135] [cursor=pointer]:
+                    - /url: /articles/category/techniques/
+                - listitem [ref=e136]:
+                  - link "App & Tools" [ref=e137] [cursor=pointer]:
+                    - /url: /articles/category/app-tools/
+            - generic [ref=e138]:
+              - heading "App" [level=2] [ref=e139]
+              - list [ref=e140]:
+                - listitem [ref=e141]: Launching soon
+                - listitem [ref=e142]:
+                  - link "About" [ref=e143] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=e144]:
+                  - link "Privacy Policy" [ref=e145] [cursor=pointer]:
+                    - /url: https://finnvek.com/privacy#knittools
+          - img "KnitTools" [ref=e146]
+        - paragraph [ref=e148]:
+          - text: © MMXXVI KnitTools.
+          - link "Finnvek" [ref=e149] [cursor=pointer]:
+            - /url: https://finnvek.com
+          - text: .
+          - link "Contact" [ref=e150] [cursor=pointer]:
+            - /url: mailto:contact@finnvek.com
+          - text: .

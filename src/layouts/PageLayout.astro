@@ -3,6 +3,7 @@ import BaseLayout from "./BaseLayout.astro";
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 import type { Lang } from "../i18n/config";
+import { useTranslations } from "../i18n/ui";
 
 interface Props {
   title: string;
@@ -21,6 +22,7 @@ interface Props {
   articleTags?: string[];
   enableRevealAnimations?: boolean;
   preloadDisplayFont?: boolean;
+  contentPage?: boolean;
 }
 
 const {
@@ -40,7 +42,9 @@ const {
   articleTags,
   enableRevealAnimations = false,
   preloadDisplayFont = true,
+  contentPage = false,
 } = Astro.props;
+const t = useTranslations(lang);
 ---
 
 <BaseLayout
@@ -52,7 +56,7 @@ const {
   lang={lang}
   alternates={alternates}
   ogType={ogType}
-  ogImageAlt={ogImageAlt}
+  ogImageAlt={ogImageAlt ?? (contentPage ? t("contentImageAlt") : undefined)}
   articlePublishedTime={articlePublishedTime}
   articleModifiedTime={articleModifiedTime}
   articleAuthorUrl={articleAuthorUrl}
@@ -65,5 +69,5 @@ const {
   <main id="main-content">
     <slot />
   </main>
-  <Footer lang={lang} />
+  <Footer lang={lang} contentPage={contentPage} />
 </BaseLayout>

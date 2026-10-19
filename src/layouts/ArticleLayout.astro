@@ -109,6 +109,7 @@ const articlesPath = getArticlesIndexPath(lang);
   description={description}
   canonicalPath={articleCanonicalPath}
   bodyClass="article"
+  contentPage
   lang={lang}
   alternates={alternates}
   ogType="article"
@@ -146,8 +147,28 @@ const articlesPath = getArticlesIndexPath(lang);
     </div>
   </article>
 
-  <ClosingCTA variant="page" lang={lang} />
+  <ClosingCTA variant="page" lang={lang} contentPage />
 </PageLayout>
+
+<script>
+  document.querySelectorAll(".article-body .prose > table").forEach((table) => {
+    let heading = table.previousElementSibling;
+    while (heading && !/^H[2-6]$/.test(heading.tagName)) {
+      heading = heading.previousElementSibling;
+    }
+    const region = document.createElement("div");
+    region.className = "article-table-scroll";
+    region.setAttribute("role", "region");
+    region.setAttribute(
+      "aria-label",
+      heading?.textContent?.trim() ||
+        document.querySelector("h1")!.textContent!,
+    );
+    region.tabIndex = 0;
+    table.before(region);
+    region.append(table);
+  });
+</script>
 
 <style>
   .article {
@@ -190,6 +211,7 @@ const articlesPath = getArticlesIndexPath(lang);
   }
 
   .article-header h1 {
+    overflow-wrap: anywhere;
     font-family: var(--serif);
     font-weight: 400;
     font-size: clamp(2.25rem, 4.5vw, 3.75rem);
@@ -232,6 +254,7 @@ const articlesPath = getArticlesIndexPath(lang);
   }
 
   .prose :global(h2) {
+    overflow-wrap: anywhere;
     font-family: var(--serif);
     font-weight: 400;
     font-size: clamp(1.6rem, 2.6vw, 2.25rem);
@@ -242,6 +265,7 @@ const articlesPath = getArticlesIndexPath(lang);
   }
 
   .prose :global(h3) {
+    overflow-wrap: anywhere;
     font-family: var(--serif);
     font-weight: 400;
     font-size: clamp(1.2rem, 1.8vw, 1.5rem);
@@ -325,6 +349,20 @@ const articlesPath = getArticlesIndexPath(lang);
     background: transparent;
     color: inherit;
     line-height: 1.6;
+  }
+
+  .prose :global(.article-table-scroll) {
+    overflow-x: auto;
+    margin: 1.8em 0;
+  }
+
+  .prose :global(.article-table-scroll:focus-visible) {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 3px;
+  }
+
+  .prose :global(.article-table-scroll > table) {
+    margin: 0;
   }
 
   .prose :global(table) {

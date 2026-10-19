@@ -1,7 +1,8 @@
 ---
 title: "Breiwerk blocken: nat, stoom en spray"
-description: "Leer nat blocken, met stoom blocken en sprayblocken voor breiwerk. Welke methode past bij welke vezel en wanneer blocken telt."
+description: "Nat blocken, stomen en sprayblocken volgens de verzorgingsvoorschriften van je garen. Vorm, droog en meet breiwerk zonder de stekenverhouding te forceren."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 9
 tags:
@@ -16,140 +17,99 @@ lang: nl
 translationKey: "how-to-block-knitting"
 ---
 
-Blocken is het natmaken, stomen of licht bevochtigen van een afgewerkt breideel en het in vorm brengen tot de bedoelde maten. Het maakt van bobbelig, ongelijk breiwerk afgewerkte stof. Steken trekken gelijk, de stof ontspant naar de bedoelde afmetingen en ajour opent van een krap rommeltje naar een herkenbaar patroon. Sommige projecten hebben het amper nodig. Andere zijn zonder blocken bijna niet herkenbaar.
+Blocken is breiwerk in vorm brengen, vaak na een toegestane behandeling met water of stoom. Het kan steken egaler maken en ajour openen, maar garandeert niet de gewenste maat. Wassen reinigt; bij nat blocken vorm je het vochtige werk. Sprayblocken bevochtigt het oppervlak, terwijl stoom warmte en vocht toevoegt. Vormen betekent niet altijd uitrekken, en een project heeft niet alle drie de methoden nodig.
 
-De methode hangt af van de vezel. Wol reageert goed op nat blocken. Acryl kan door stoom veranderen, maar warmte is blijvend, dus daarmee moet je voorzichtiger zijn dan met water. Katoen en linnen kun je vormen, maar ze veren niet terug zoals wol.
+Begin met de was- en verzorgingsvoorschriften van het gebruikte garen en de afwerkinstructies in het patroon. Controleer temperatuur, wassen, weken, drogen en warmte voordat je kiest. Probeer een toegestane behandeling op een representatief proeflapje. Een geslaagde proef heft een verbod van de fabrikant niet op. Zijn garen of voorschriften onbekend, probeer dat dan op te helderen voordat je het hele kledingstuk behandelt. Een proeflapje dat je kunt missen, toont alleen het resultaat onder de geteste omstandigheden.
 
 ## Nat blocken
 
-De meest gebruikte methode en de methode met het duidelijkste resultaat, zeker bij wol.
+Gebruik deze methode als het garen de waterbehandeling en liggend vormen toestaat. Leg de afgewerkte maten uit het patroon, een schone teil en een geschikte droogondergrond klaar. Noteer eerst de droge maten.
 
-Week het afgewerkte stuk 15-20 minuten in lauwwarm water. Een druppel wolwasmiddel (Eucalan, Soak of een vergelijkbaar niet-uitspoelbaar wasmiddel) kan, maar gewoon water werkt ook. Het doel is dat de vezel volledig nat wordt. Niet bewegen of wrijven, zeker niet bij niet-superwash-wol. Laat het gewoon liggen.
+1. Maak het werk nat of was het volgens de garenfabrikant. Volg de watertemperatuur en de doseer- en spoelinstructies van een geschikt wasmiddel. Laat alleen weken als dat is toegestaan, gedurende de aangegeven tijd. Er is geen universele weektijd: de [DROPS-verzorgingsvoorschriften](https://www.garnstudio.com/yarn-care.php?cid=19) verbieden weken, ook voor de genoemde superwash-merinogarens.
+2. Ondersteun het hele natte werk wanneer je het optilt. Til het niet aan een rand op en vermijd wrijven en wringen. Verwijder water op een toegestane manier. Zacht drukken tussen schone handdoeken kan geschikt zijn; rol het alleen in een handdoek als de garenvoorschriften dat toestaan. Sommige DROPS-adviezen voor garencombinaties verbieden ook oprollen.
+3. Leg het plat op een schone, voor het garen geschikte ondergrond en bescherm die tegen vocht en afgevende kleur. Breng het voorzichtig naar de patroonvorm en controleer de maten zonder de stof te forceren. Speld alleen waar een rand of vorm steun nodig heeft.
+4. Laat alles volledig drogen, ook naden en dubbele lagen. Verwijder spelden en blockdraden voorzichtig, laat de stof zonder spanning tot rust komen en meet opnieuw. De opgespelde maat is niet noodzakelijk de ontspannen eindmaat.
 
-Til het stuk met beide handen ondersteunend uit het water, zodat het gewicht het niet uitrekt. Niet wringen. Knijp overtollig water voorzichtig eruit, rol het daarna in een schone handdoek en druk om meer vocht op te nemen.
+### Let op afgevende kleuren
 
-Leg plat op blockmatten (in elkaar passende schuimtegels werken goed) of op een handdoek op een vlakke ondergrond. Strijk glad tot de juiste maten. Speld de randen vast waar je een specifieke vorm moet vasthouden. Ajour en omslagdoeken moeten vaak gespeld worden om het patroon te openen. Truidelen moeten op de maten van het schema worden gespeld. Sjaals en rechthoeken hoeven vaak alleen gladgestreken te worden. Laat volledig drogen. Enkele uren tot een volle dag.
-
-Het water ontspant de garenvezels, zodat ze kunnen verschuiven en zich zetten. Wol zwelt iets op, vult openingen en maakt spanningsverschillen gelijker. Vooral niet-superwash-wol verandert duidelijk: zachter, samenhangender, zichtbaar gelijkmatiger. Nat blocken is meestal de sterkste methode voor wol en veel andere dierlijke vezels, maar alpaca vraagt een lichtere hand omdat het kan uitrekken.
-
-### Let op kleurafgifte
-
-Handgeverfd garen en heel verzadigde kleuren kunnen tijdens het weken afgeven. Indigo, dieprood en zwart zijn de bekende risicokleuren. Bij een effen project is dat meestal vooral cosmetisch, maar bij meerkleurig werk kan een donkere streep de lichte kleur ernaast blijvend bevlekken.
-
-Twee voorzorgen helpen. Test eerst een restje garen of je proeflapje voordat je het afgewerkte project in bad legt. Gebruik koel water en een korte weektijd bij sterk contrasterend kleurwerk, en was het project apart als een kleur bekend staat om afgeven. Een kleurvangdoekje kan losse verf in het water opnemen, maar het is geen garantie.
-
-Vertrouw niet op azijn om verf pas tijdens het blocken te fixeren. Azijn kan in sommige verfprocessen nuttig zijn, maar het fixeert geen afgewerkt garen dat kleur blijft loslaten. Geeft het garen sterk af, spoel het dan apart door en laat donkere delen niet nat tegen lichte delen liggen.
-
-Als een project de eerste keer veel kleur afgeeft, reken er dan op dat het nog een paar wasbeurten blijft afgeven. Was het de volgende keren apart.
+Test de projectkleuren samen in een proeflapje met de toegestane verzorgingsmethode. Losse kleurstof kan lichte delen verkleuren; helder water bij één proef garandeert geen blijvende kleurechtheid. Vraag bij kleurafgifte advies aan de garenfabrikant voordat je het kledingstuk behandelt. Was apart als dat is voorgeschreven en laat natte donkere delen niet tegen lichte delen gevouwen liggen. Kouder water, korter weken, azijn en kleurvangdoekjes zijn geen universele oplossing en vervangen de voorschriften niet.
 
 ## Met stoom blocken
 
-Warmte en vocht van een stoomstrijkijzer of kledingstomer, zonder weken.
+Gebruik alleen stoom als de fabrikant dit voor het garen en de betreffende structuur toestaat. Wasbaarheid betekent geen toestemming om te stomen. Omzeil een strijkverbod niet door het strijkijzer boven het werk te houden.
 
-Leg het stuk plat op een zachte ondergrond. Houd het strijkijzer ongeveer 1 tot 2,5 cm boven de stof en geef stoom. Druk het ijzer niet op het breiwerk. De stoom doet het werk, niet de zool van het strijkijzer. Beweeg langzaam over het oppervlak, speld wat vorm moet houden en laat afkoelen voor je het verplaatst.
+Test eerst de toegestane behandeling op een proeflapje en beoordeel het afgekoeld en droog. Als stomen zonder contact is toegestaan, leg je het werk op een gewatteerde ondergrond die bestand is tegen warmte en vocht. Breng het voorzichtig in vorm en zet zo nodig vast. Volg de voorgeschreven instelling, afstand en behandeltijd; raak het breiwerk niet met de hete zool of het mondstuk. Behandel de delen zonder de structuur plat te drukken. Laat alles volledig afkoelen en drogen voordat je de steun verwijdert en de ontspannen maten controleert.
 
-Het effect is minder dramatisch dan nat blocken, maar meestal sneller. Bij acryl kan water de steken wat netter maken, maar het blijvende effect is beperkt. Stoom kan acryl blijvender zetten, maar warmte verandert de vezel ook. Te veel warmte smelt het oppervlak tot een vlak, slap gevoel. Dat "doden" van acryl wordt soms expres gedaan, maar je kunt het niet terugdraaien.
+Er is geen afstand of temperatuur die veilig is voor alle garens. Een persdoek hoort bij een andere werkwijze en maakt niet elke warmtebehandeling geschikt. Vraag de fabrikant om uitleg als de warmtevoorschriften onduidelijk zijn.
 
-Stoom werkt ook voor kleine correcties bij wol en lichte vormaanpassingen, al geeft nat blocken betere resultaten bij dierlijke vezels. Een harde regel: druk het strijkijzer nooit rechtstreeks op breiwerk. Geconcentreerde warmte plet steken en maakt structuur blijvend vlak, vooral kabels en nopjes.
+### Acryl bewust blijvend veranderen
 
-### Acryl expres doden
+De term ‘killing acrylic’ beschrijft bij breien een blijvend verlies van volume of veerkracht na warmtebehandeling. Warmte kan acryl zachter maken en structuurveranderingen mogelijk maken; afgekoeld kan het breiwerk een andere vorm of valling behouden. Zachter worden, blijvend fixeren, ongewenst vervormen en daadwerkelijk smelten zijn verschillende effecten. Zachter of platter breiwerk bewijst niet dat het is gesmolten, en niet elke blootstelling aan warmte geeft hetzelfde resultaat.
 
-Sommige acrylprojecten worden beter wanneer je het acryl bewust doodt. Soepele omslagdoeken en dekens kunnen juist dat slappe, hangende gevoel nodig hebben. Zonder dat doden kan dezelfde stof stijf en springerig blijven.
-
-Speld het project op de uiteindelijke maten. Stoom doelbewust vanaf ongeveer 2,5 cm afstand, werk in stukken en houd het strijkijzer van de stof af. De stof wordt vochtig en ontspant zichtbaar. Laat alles volledig gespeld afkoelen. Het resultaat is permanent: de stof verliest veerkracht en keert niet terug naar het oorspronkelijke gevoel. Test eerst op een proeflapje. Wol-acrylmengsels gedragen zich minder voorspelbaar, en pure polyester of acrylmengsels met veel polyester kunnen sneller plat worden of smelten dan je verwacht.
+Dit is geen algemene werkwijze voor acryl of menggarens. [Knit Picks raadt stoomblocken van Brava af](https://tutorials.knitpicks.com/caring-for-easy-care-yarns/), en [Lion Brand raadt stoom op acryl af](https://support.lionbrand.com/support/solutions/articles/17000035400-what-is-blocking-and-how-do-i-do-it-). Een proeflapje heft zulke beperkingen niet op. Verlies van herstelvermogen kan ribboorden, mutsen en aansluitende kleding bederven. Reken er niet op dat wassen warmteschade herstelt, of dat vezelnamen de warmtegrenzen van een mengsel bepalen.
 
 ## Sprayblocken
 
-Een lichtere optie. Vernevel water over het oppervlak, speld in vorm en laat drogen.
+Bij breiwerk dat water verdraagt, kan licht bevochtigen genoeg zijn voor kleine vormcorrecties. Het reinigt niet en bootst voor een proeflapje geen volledige wasbeurt na.
 
-Leg plat, speld op maat en spray tot het gelijkmatig vochtig is, niet doorweekt. De vezels ontspannen iets, het gelijkmaken van de steken is bescheiden en de stof houdt de gespelde vorm tijdens het drogen.
-
-Geschikt voor stukken die lichte vorm nodig hebben in plaats van een volledige transformatie. Katoen en linnen kun je als lichte afwerking sprayblocken, maar verwacht geen wolachtige bloom of veerkracht. Ook handig om iets op te frissen dat al eens nat geblockt is en alleen weer even in vorm moet.
+Leg het werk plat op een geschikte ondergrond, besproei het gelijkmatig met water op een toegestane temperatuur en pas de vorm voorzichtig aan. Speld zo nodig vast zonder de stof strak te trekken. Laat volledig drogen, verwijder de steun en controleer de ontspannen maten. Test eerst: ook weinig vocht kan het garen of de kleur beïnvloeden.
 
 ## Ajour blocken
 
-Ajour is waar blocken het meeste uitmaakt. Ongeblockt ajour lijkt vaak een verfrommeld hoopje. Geblockt ajour wordt het patroon.
+Kies een toegestane bevochtigingsmethode en verwijder overtollig water zoals hierboven beschreven. Open het ajour gelijkmatig naar de bedoelde eindvorm. Trek niet tot de maximale rek en voeg geen willekeurige marge toe voor mogelijk terugveren. Het proeflapje en patroon bepalen hoe open de stof moet worden.
 
-Block volledig nat: goed weken en voorzichtig in een handdoek uitdrukken. Speld stevig uit, zodat omslagen en punten openen zonder de stof te forceren. Het ajour mag opener lijken dan je verwacht. Tijdens het drogen trekken veel vezels iets terug en worden de maten zachter.
-
-Blockdraden besparen uren spelden. Rijg een dunne, flexibele draad door de randsteken langs elke rechte zijde en speld daarna de draad in plaats van elke steek. Rechte randen worden rechter en je hebt tientallen spelden nodig in plaats van honderden.
-
-Voor driehoekige of geschulpte omslagdoeken geven losse T-spelden of spelden met puntbeschermers bij elke punt de meeste controle. Een grote omslagdoek kost tijd om uit te spelden. Het resultaat is het waard.
+Blockdraden verdelen de spanning langs rechte randen. Rijg schone, gladde draden door geschikte openingen in de rand zonder het garen te splijten en zet ze vast met roestvrije spelden. Gebruik losse spelden voor punten of bogen. Pas de afstand aan zodat een rechte rand geen onbedoelde punten krijgt. Laat volledig drogen voordat je alles losmaakt en de maat na ontspanning controleert.
 
 ## Truidelen blocken
 
-Bij kledingstukken met naden maakt elk deel plat blocken voor het [aan elkaar naaien](/nl/artikelen/breidelen-aan-elkaar-naaien/) de montage netter. Speld elk deel op de maten van het schema: rugpand, voorpanden en mouwen naast elkaar, zodat je kunt vergelijken of ze consistent zijn.
+Vormen vóór het [aan elkaar naaien](/nl/artikelen/breidelen-aan-elkaar-naaien/) kan helpen om overeenkomstige randen op elkaar af te stemmen. Vergelijk rugpand, voorpanden en mouwen met de maattekening. Vorm rondingen vloeiend zonder scherpe hoeken. Spelden zijn niet nodig als de delen zelf hun vorm houden.
 
-Speld oksel- en schouderpunten op specifieke maten. Strijk breedte en lengte van het lijf glad. Speld de rondingen van armsgaten en halslijnen niet te strak vast. Die moeten tijdens het naaien nog kunnen meebewegen; te harde pinning zet de bocht te scherp vast.
-
-Bij kledingstukken uit een stuk block je het hele project plat nadat het breien klaar is. Speld lijflengte, mouwlengte en borstwijdte. De stof valt in de bedoelde vorm en aansluitpunten zoals pas of raglanlijnen worden gelijkmatiger.
+Ondersteun bij een afgewerkt kledingstuk zowel lijf als mouwen volledig. Controleer lengte en plat gemeten breedte; borstbreedte is niet hetzelfde als borstomtrek. Hang nat breiwerk niet op. Volg de volgorde van het patroon, vóór of na het in elkaar zetten; een tweede behandeling is alleen nodig als het project daarom vraagt.
 
 ## Wat blocken wel en niet kan
 
-Blocken maakt steekspanning gelijker, opent ajour, ontspant krullen tijdelijk, past afmetingen licht aan, verzacht garen en verbetert meestal de afgewerkte uitstraling.
+Blocken kan kleine onregelmatigheden verminderen en ajour openen, maar herstelt geen verdraaide steken, verkeerd geplaatste vormgeving of onjuist stekenaantal. Tricotsteek kan door zijn structuur blijven krullen. Bewaar de bedoelde ontspannen vorm van ribboorden en het reliëf van kabels en structuursteken in plaats van alles plat te rekken.
 
-Het lost geen constructiefouten op. Verkeerde maat door een fout in de stekenverhouding? Blocken redt dat niet. Wol kan meestal een bescheiden correctie aan, zeker bij ajour of los gebreide stof, maar blocken is geen maatconversie. Katoen kan nat uitrekken en toch niet netjes terugveren. Gedraaide steken, verkeerde patronen, ongelijk gevormde delen: blocken herstelt die niet.
-
-Hoe lang het effect blijft hangt af van de vezel. Wol houdt blocken goed vast, al kan het iets ontspannen nadat je de spelden verwijdert. Katoen en linnen moet je na het wassen opnieuw in vorm leggen. Acryl houdt nat blocken niet goed vast, maar stoomblocken kan de stof blijvend veranderen. Reken erop dat je kledingstukken van natuurlijke vezels na elke wasbeurt plat in vorm laat drogen.
+Forceer een proeflapje niet tot de gevraagde stekenverhouding en ga er niet van uit dat een verkeerde maat te redden is. Meet in de toestand die het patroon aangeeft, na de verzorging die je voor het kledingstuk gaat gebruiken. Controleer eindmaten droog, zonder spelden en na ontspanning, tenzij het patroon uitdrukkelijk een uitgerekte maat verlangt. Dragen en latere wasbeurten kunnen de maten veranderen; blocken garandeert geen blijvende pasvorm.
 
 ## Welke methode voor welke vezel
 
-Niet-superwash-wol: nat blocken, beste resultaat. Voorzichtig behandelen (lauwwarm water, niet bewegen) om vervilten te voorkomen.
+- **Wol en superwash-wol:** controleer het specifieke garen. Superwash garandeert niet dat weken, de wasdroger of uitrekken geschikt is. Ondersteun natte stof en beoordeel maatveranderingen op het proeflapje.
+- **Alpaca en mohair:** behandel natte stof voorzichtig en behoud de structuur. De vezelnaam geeft geen toegestane rekmarge of toestemming voor stoom.
+- **Katoen en linnen:** ondersteun het natte gewicht. Controleer krimp, groei en herstelvermogen op het afgewerkte proeflapje. Verwacht niet automatisch het gedrag van wol of een bepaalde zachtheid na een vast aantal wasbeurten.
+- **Zijde:** volg de productvoorschriften over water, kleur en warmte. Nat blocken of sprayblocken is niet automatisch geschikt.
+- **Acryl en mengsels:** volg de verzorgingsvoorschriften van het product. Verzorging met water kan geschikt zijn zonder warmtefixatie. Bij meerdere samen gebreide garens moet de methode aan alle voorschriften voldoen; vraag de fabrikanten om advies als ze botsen.
 
-Superwash-wol: ook goed nat te blocken, maar kan in de lengte groeien wanneer het nat is. Speld op maat in plaats van los te laten drogen. Moet je je [stekenverhouding meten](/nl/artikelen/stekenverhouding-meten/), block het proeflapje dan op dezelfde manier als het project.
+De [vezelgids](/nl/artikelen/garenvezels-vergeleken/) geeft achtergrond. Wil je je [stekenverhouding meten](/nl/artikelen/stekenverhouding-meten/), behandel het proeflapje dan zoals het project en houd je aan de meetvoorwaarden van het patroon.
 
-Alpaca: rekt als het nat is en veert niet terug zoals wol. Speld behoudend. Een trui van pure alpaca die te agressief wordt opgespannen kan veel groter worden dan bedoeld en herstelt mogelijk niet.
+## Droogtijd
 
-Katoen: reageert op vocht en vorm, maar bloeit niet op en veert niet terug zoals wol. Ondersteun het gewicht als het nat is, want katoen kan zwaar worden. Linnen wordt zachter met elke was- en blockcyclus, dus de eerste keer kan tegenvallen.
+Dikte, achtergebleven water, dubbele lagen, omstandigheden in de kamer en luchtcirculatie beïnvloeden het drogen. Een tijdschema per vezel bepaalt niet wanneer jouw werk droog is. Controleer ook de onderkant en dikke plekken. Zorg voor luchtcirculatie en vermijd directe zon, radiator en föhn. Volg eventuele specifiekere droogvoorschriften van het garen.
 
-Acryl: water kan het iets gladder maken, maar stoom verandert de stof sterker. Wees voorzichtig met warmte.
+## Benodigdheden
 
-Zijde: nat of met spray goed te blocken, maar verdraagt geen hoge hitte. Houd water lauwwarm.
-
-Mengsels: volg de gevoeligste vezel. Wol/zijde krijgt lauwwarm nat blocken. Wol/acryl kan beide kanten op. De [vezelgids](/nl/artikelen/garenvezels-vergeleken/) behandelt per vezel uitgebreider hoe die zich gedraagt.
-
-## Droogtijd per vezel
-
-Droogtijd verschilt meer dan veel breiers verwachten. Een dikke wollen trui kan op een koele dag twee volle dagen nodig hebben. Een ajour omslagdoek kan in de zomer in drie uur droog zijn.
-
-Als grove richtlijn: ajour en fingering-weight wol drogen vaak in 6 tot 12 uur. DK- en worsted-wol hebben vaak 12 tot 24 uur nodig. Dikke wol kan 24 tot 48 uur nodig hebben. Katoen houdt veel water vast en voelt zwaar als het nat is, dus ga er niet van uit dat het snel droog is. Acryl droogt meestal sneller dan natuurlijke vezels, omdat het minder vocht opneemt.
-
-Versnellen kan soms. Een ventilator die langs het project blaast verkort de droogtijd duidelijk. Direct zonlicht is sneller, maar kan kleuren laten verbleken en ongelijk drogen geven. Warmte van een radiator of fohn versnelt ook, maar kan niet-superwash-wol laten vervilten als het te heet wordt.
-
-Geduld is meestal de beste keuze. Haal je een project van de blockmat voordat het volledig droog is, dan trekken de maten terug en was het werk voor niets.
-
-## Materiaal
-
-Blockmatten (schuimvloertegels of kinderspeelmatten), roestvrije spelden (T-spelden of blockpinnen; blockdraden geven rechte randen op omslagdoeken zonder elke centimeter een speld), plantenspuit, meetlint om de maten tegen het schema te controleren tijdens het spelden.
-
-Een schoon tapijt met een handdoek erop werkt ook als je geen matten hebt.
-
-Een bed met een handdoek over het dekbed werkt voor eenmalig blocken, maar dan ben je het bed een dag kwijt. Een extra kamer is ideaal.
-
-Als er huisdieren in huis zijn, is blocken een risico. Een gespelde omslagdoek is verleidelijk. Een deur die dicht kan is de betrouwbaarste bescherming. Anders houdt een grote omgekeerde kartonnen doos het project afgeschermd, met luchtgaten voor ventilatie.
+Gebruik een meetlint, geschikte ondergrond en waar nodig roestvrije spelden, gladde blockdraden en een plantenspuit. Een schuimrubberen speelmat is niet automatisch hittebestendig. Bescherm meubels en vloer en laat het werk niet op een blijvend natte, absorberende laag liggen. Houd kinderen en huisdieren weg van werk en spelden zonder de luchtcirculatie te belemmeren.
 
 ## Na het blocken
 
-Verwijder de spelden voorzichtig als alles droog is. Spelden die je scheef lostrekt kunnen steken haken, zeker bij ajour. Trek spelden recht omhoog, niet onder een hoek.
+Als het werk droog en afgekoeld is, trek je de spelden onder hun insteekhoek uit zonder steken te haken. Verwijder de draden voorzichtig. Laat de stof vrij rusten voor de laatste meting. Bewaar droge kleding gevouwen of plat, zodat het eigen gewicht haar niet uitrekt.
 
-Bewaar breiwerk plat of gevouwen. Ophangen rekt gebreide stof na verloop van tijd uit, vooral zware kledingstukken. Een gevouwen trui in een lade houdt zijn vorm beter dan een trui aan een hanger. Schone opslag is het belangrijkst bij natuurlijke vezels. Ceder of lavendel kan helpen, maar vervangt niet dat je het kledingstuk wast en bewaart waar motten er niet bij kunnen.
-
-## FAQ
+## Veelgestelde vragen
 
 **Moet ik elk project blocken?**
-Nee. Vaatdoekjes, oefenlapjes en dingen waarbij maten niet tellen kun je overslaan. Kledingstukken, ajour en alles waarbij uiterlijk en pasvorm belangrijk zijn, kun je beter wel blocken. Twijfel je, volg dan het wasvoorschrift of de onderhoudsinstructies van de fabrikant en test de bedoelde blockmethode eerst op een proeflapje. Een ongeschikte methode kan sommige vezels blijvend veranderen of beschadigen.
+Nee. Gewoon toegestaan wassen en voorzichtig in vorm leggen kan genoeg zijn. Ajour kan spelden nodig hebben; een proeflapje heeft de behandeling nodig waarmee je zinvol met het patroon kunt vergelijken.
 
 **Kan ik te veel blocken?**
-Je kunt te ver rekken, vooral bij alpaca en superwash-wol. Spelden voorbij de natuurlijke maten van de stof geeft vervormde steken. Speld op de patroondimensies, niet verder.
+Ja. Uitrekken tot een doelmaat maakt die maat niet stabiel. Stop als steken vervormen of de structuur plat wordt, ook als de maattekening grotere maten aangeeft.
 
 **Hoe vaak moet ik een trui opnieuw blocken?**
-Na elke wasbeurt leg je hem plat in de juiste vorm te drogen. Dat is in feite opnieuw blocken. Heeft de trui tussen wasbeurten alleen een vormreset nodig, dan werkt licht sprayblocken.
+Volg na elke wasbeurt de verzorgingsvoorschriften en vorm zo nodig bij. Bevochtig tussen wasbeurten alleen licht als dat is toegestaan. Opnieuw opspelden of stomen is niet automatisch nodig.
 
-**Delen blocken voor het naden, of het hele kledingstuk?**
-Allebei kan. Blocken voor het [aan elkaar naaien](/nl/artikelen/breidelen-aan-elkaar-naaien/) maakt delen makkelijker exact op maat te spelden en het naden netter. Het afgewerkte kledingstuk blocken is sneller en corrigeert vervorming door het in elkaar zetten. Veel breiers doen beide: eerst de delen blocken, daarna licht nabehandelen na het naden.
+**Block ik de delen vóór het naaien of het hele kledingstuk?**
+Volg het patroon. Voorgevormde delen kunnen het [aan elkaar naaien](/nl/artikelen/breidelen-aan-elkaar-naaien/) makkelijker maken; een toegestane nabehandeling kan kleine vervormingen door het naaien verminderen. Geen van beide volgordes garandeert exacte maten.
 
-**Kan ik een afgewerkte trui blocken als hij al verkeerd voelt?**
-Soms. Is een wollen trui een beetje te klein, dan kan zorgvuldig nat blocken en spelden naar een iets grotere maat misschien 1 tot 2,5 cm terugwinnen. Is hij veel te groot, dan krimpt blocken hem niet gecontroleerd. Vollen of vervilten kan niet-superwash-wol laten krimpen, maar verandert de stof blijvend en is geen betrouwbare pasvormoplossing.
+**Kan ik een afgewerkte trui blocken die niet goed past?**
+Een proeflapje kan ruimte voor een kleine aanpassing tonen, maar extra breedte of lengte is niet gegarandeerd. Blocken maakt een te groot kledingstuk niet betrouwbaar kleiner. Bewust vilten verandert de stof onomkeerbaar en is geen gecontroleerde maatcorrectie.
 
 **Waarom groeit mijn trui tijdens het blocken?**
-Zware natte stof rekt door zijn eigen gewicht. Til het stuk van onderen ondersteund op, draag het niet aan een rand en rol het in een handdoek voordat je het neerlegt. Superwash-wol en alpaca groeien het meest. Speld op de schemamaten in plaats van de stof te laten liggen waar de zwaartekracht hem heen trekt.
+Nat gewicht, garenconstructie, vezelbehandeling en steekpatroon kunnen de maten beïnvloeden. Ondersteun het werk tijdens alle handelingen en beoordeel het droog en ontspannen. Superwash-wol en alpaca hebben geen universele groeifactor; spelden herstellen geen ongeschikte stekenverhouding.

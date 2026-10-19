@@ -14,115 +14,109 @@ tags:
 draft: false
 lang: no
 translationKey: "how-to-knit-hat"
+updatedDate: 2026-10-18
 ---
 
-En lue er et godt andre- eller tredjeprosjekt etter et skjerf. Den introduserer rundstrikking, felling og enkel forming i et prosjekt som er lite nok til å bli ferdig før gjentakelsen blir kjedelig. De fleste luer i worsted er korte prosjekter sammenlignet med gensere, men den første ber deg fortsatt lære nye teknikker.
+En lue er et nyttig prosjekt etter et skjerf når du vil øve på forming og kanskje rundstrikking. Her sammenligner vi konstruksjoner og går gjennom beregninger for størrelse og topp. Dette er ikke en gradert oppskrift for alle garn og hodestørrelser. Velg en oppskrift til selve luen, og bruk regnestykkene til å forstå passformen.
 
-For å strikke en enkel lue legger du opp masker til hodeomkrets minus 2,5-5 cm negativ bevegelsesvidde, strikker vrangbord til kanten, strikker kroppen i glattstrikk og [feller jevnt](/no/artikler/fordele-okninger-og-fellinger-jevnt/) i toppen. Det finnes flere konstruksjonsmetoder. Riktig metode avhenger av hvilke teknikker du kan og hvilket utstyr du har.
+En enkel lue nedenfra begynner med masker til **luens ferdige omkrets**, deretter vrangbord, midtparti og [jevne fellinger](/no/artikler/fordele-okninger-og-fellinger-jevnt/) i toppen. Hvor mye mindre luen skal være enn hodet, avhenger av stoffets elastisitet og ønsket passform; ikke trekk fra et fast mål for alle luer.
 
 ## Metode 1: nedenfra og opp rundt
 
-Standardmetoden. Legg opp til luens målomkrets, sett sammen til en ring, strikk oppover og fell i toppen for å lukke.
+Legg opp til målomkretsen. Kontroller at oppleggskanten ikke er vridd rundt pinnen, sett en markør ved omgangsstart og samle til en ring ved å strikke første maske. Fortsett rundt uten å snu. Glattstrikk rundt er rett på hver omgang; rillestrikk rundt veksler mellom en rett og en vrang omgang.
 
-Du trenger en 40 cm rundpinne til kroppen og strømpepinner, eller magic loop med en lengre rundpinne, til toppen der omkretsen blir for liten for 40 cm-vaieren. Bytt når maskene ikke lenger beveger seg komfortabelt rundt vaieren. Venter du for lenge, blir toppen vanskeligere enn den trenger å være.
+En 40 cm rundpinne passer ofte til midtpartiet på en voksenlue. Det er **hele lengden fra spiss til spiss**, ikke bare vaieren. Pinnetykkelsen oppgis separat i millimeter. Maskene må nå rundt uten å strekkes. Bruk strømpepinner eller magic loop på en lang, fleksibel rundpinne til små luer og den krympende toppen. Bytt før maskene strammes rundt den korte rundpinnen. Seksjonsmarkørene følger oppskriften uavhengig av fordelingen mellom pinnene.
 
-Legg opp, strikk vrangbord til kanten, 2,5-5 cm med 1 r, 1 vr eller 2 r, 2 vr, bytt til glattstrikk eller valgt maskemønster, strikk til ønsket lengde og fell deretter jevnt over flere omganger til få masker gjenstår. Tre garnet gjennom dem og stram.
+Strikk vrangbord og deretter glattstrikk eller valgt maskemønster. En kant uten oppbrett kan for eksempel være 2,5–5 cm høy, men følg oppskriftens mål. Sett av høyde til toppen før du bestemmer hvor midtpartiet slutter. Tre til slutt garnet gjennom de levende maskene som beskrevet nedenfor.
 
-Ingen søm. Ser rent ut, føles behagelig. Slik er de fleste lueoppskrifter skrevet. Kompromisset: du må være komfortabel med rundpinne og enten strømpepinner eller magic loop til toppen.
+Du får ingen sidesøm. Legg gjerne omgangsstart bak hvis du vil skjule et stripehakk, og behold markøren gjennom hele arbeidet.
 
-Når du samler arbeidet til en ring, er omgangsstart stedet der eventuelle stripehakk synes. Legg det bak på luen, der det synes mindre. Sett en maskemarkør. Oppleggshalen kan fungere som visuell hjelp, men en markør er raskere å finne fem omganger senere når halen har gjemt seg i arbeidet.
+## Metode 2: frem og tilbake med søm
 
-## Metode 2: flat og sydd sammen
+Strikk et flatt stykke med formet overkant på rette pinner eller frem og tilbake på rundpinne. Snu etter hver pinne. I glattstrikk strikker du rett på rettsiden og vrangt på vrangsiden; i rillestrikk strikker du rett på hver pinne. Flat strikking krever altså ikke alltid vrangpinner.
 
-Strikk luen som et flatt rektangel på rette pinner, og sy sidesømmen.
+Følg en oppskrift for flatstrikk når det gjelder vrangbord, kantmasker og topp. Hvis sømmen tar inn én maske på hver side, trenger du to ekstra kantmasker: 96 synlige masker + 2 = **98 oppleggsmasker**. Hold kantene utenfor toppseksjonene og planlegg hvordan vrangborden møtes ved sømmen. Rundstrikkens instruksjoner kan ikke brukes uendret over alle 98 maskene.
 
-Legg opp, strikk vrangbord, strikk kroppen, fell over rettsidepinner, fell av når få masker gjenstår, og sy sømmen med [madrassting](/no/artikler/sy-sammen-strikkede-deler-madrassting/).
-
-Bruker bare flate strikkeferdigheter. Bra hvis du ikke er klar for rundpinner. Kompromisset: en søm. Madrassting gjør den nesten usynlig, men den legger til et steg og en liten kant på innsiden. Sømmen ligger vanligvis bak på luen, der hår dekker den.
-
-Én ting flat strikking tvinger deg til: du strikker vrangt annenhver pinne. Hvis vrange masker går saktere enn rette for deg, noe som gjelder mange, tar en flat lue merkbart lenger tid enn samme lue rundt, selv før sømmen regnes med.
+Fell på pinnene oppskriften angir. Ved en sammentrukket topp trer du garnet gjennom de gjenværende levende maskene i stedet for å felle dem av vanlig. Sy sidesømmen med [madrassting](/no/artikler/sy-sammen-strikkede-deler-madrassting/) og fest trådene. Sømmen gir en liten kant på innsiden; sjekk hvilken side som synes etter at kanten brettes opp.
 
 ## Metode 3: ovenfra og ned
 
-Mindre vanlig, men verdt å kjenne til. Legg opp et lite antall masker i toppen, øk utover i seksjoner, strikk kroppen, avslutt med vrangbord og fell av elastisk.
+Legg opp få masker i toppen, øk i seksjoner, strikk midtpartiet og avslutt med vrangbord og elastisk avfelling. Bruk strømpepinner eller magic loop til den lille starten.
 
-Fordeler: du kan prøve underveis, toppen trenger ikke trekkes sammen til slutt, og kanten kan bestemmes etter hvor mye garn som er igjen. Ulemper: opplegget er pirkete, ofte et rundt opplegg eller Emily Ockers opplegg, og økningene må passe til en planlagt toppform i stedet for bare å vokse til en tilfeldig sirkel.
+Du kan prøve luen når åpningen er stor nok og tilpasse kantlengden til garnet som er igjen. Et rundt opplegg, som Emily Ockers opplegg, trenger fortsatt at startåpningen lukkes og tråden festes. Følg en planlagt økningsrytme; tilfeldige økninger endrer både omkrets og topphøyde.
 
 ## Størrelse
 
-Hodeomkrets bestemmer oppleggstallet. Mål rundt den bredeste delen, rett over ørene og over pannen.
+Mål **hodeomkretsen** rundt den bredeste delen, over pannen, over ørene og rundt bakhodet. Målebåndet skal ligge inntil uten å presse. **Ferdig lueomkrets** måles på luen i avslappet tilstand. En omkrets på 51 cm tilsvarer omtrent 25,5 cm bredde når luen ligger flatt.
 
-Strikkede luer bruker negativ bevegelsesvidde: ferdig omkrets er mindre enn hodet, slik at det elastiske stoffet griper. For en tettsittende lue med vrangbordkant er omtrent 2,5 cm negativ bevegelsesvidde et vanlig startpunkt. Et hode på 56 cm kan få en ferdig omkrets rundt 51-53 cm, avhengig av stoffets elastisitet og ønsket passform. Slouchy luer bruker ofte mindre negativ bevegelsesvidde fordi henget kommer fra ekstra lengde, ikke strammere passform.
+Negativ bevegelsesvidde betyr at luen er mindre enn hodet. Et regneeksempel med 56 cm hodeomkrets og 51–53 cm lueomkrets gir 3–5 cm, omtrent 5,4–8,9 % **av hodeomkretsen**, i negativ bevegelsesvidde. Prøvelappens strekk og evne til å trekke seg tilbake etter vask og tørking avgjør hva som passer. Ekstra lengde gir heng i toppen, men bestemmer ikke i seg selv hvor vid kanten skal være.
 
-Maskeantall: gang maskefasthet per cm med målomkrets. Ved 2 masker per cm til en 51 cm lue: 102 masker. Rund til et tall som passer vrangbord og toppfelling. Til 2 r, 2 vr-vrangbord med 8-delt toppfelling er 96 rent, delelig med 4 for vrangbord og 8 for toppen.
+Bruk strikkefastheten fra en vasket og tørket prøvelapp i glattstrikk, målt uten strekk. Strikk lappen flatt eller rundt på samme måte som luen. Kontroller kanten separat, siden vrangbord trekker seg annerledes sammen. Med 20 masker per 10 cm, altså 2 masker/cm, gir 51 cm **102 masker**. Rundt krever 1 r, 1 vr et partall, 2 r, 2 vr et tall delelig med 4 og åtte like toppseksjoner et tall delelig med 8. Sjekk også rapporten i midtpartiet. **104 masker** oppfyller de to siste kravene og gir 52 cm, omtrent 7,1 % negativ bevegelsesvidde på et hode på 56 cm. Også 96 er delelig, men gir bare **48 cm**, omtrent 14,3 % negativ bevegelsesvidde. Velg etter passform; 96 bevarer ikke målet på 51 cm.
 
-KnitTools [Oppleggskalkulator](/no/verktoy/oppleggskalkulator/) gjør denne regningen fra strikkefasthet og omkrets.
+I KnitTools [oppleggskalkulator](/no/verktoy/oppleggskalkulator/) skriver du ferdig omkrets i breddefeltet: 20 masker per 10 cm og 51 cm gir 102. Verktøyet runder til nærmeste partall. Bevegelsesvidde, rapporter, sømmonn og toppinndeling må du kontrollere selv; det lager ikke en full lueoppskrift eller fellingsplan.
 
-**Standardmål for voksenlue:** CYC lister voksen hodeomkrets rundt 53-58,5 cm for kvinner og 56-61 cm for menn. Den ferdige luen er vanligvis mindre enn dette på grunn av negativ bevegelsesvidde. Mange tettsittende beanies starter toppfellingen etter omtrent 18-20 cm fra kanten, men følg oppskriftens dybde hvis den finnes. For en slouchy lue legger du til lengde før toppfellingen.
+**Voksne og barn:** [Craft Yarn Councils tabell](https://www.craftyarncouncil.com/standards/head-circumference-chart) oppgir hodeomkrets 53–58,5 cm for kvinner, 56–61 cm for menn, 40,5–46 cm for småbarn og 45,5–51 cm for barn. Dette er veiledende hodemål, ikke ferdige luemål eller sikre aldersstørrelser. Mål mottakeren når det er mulig, også spedbarn, og sammenlign med oppskriftens angitte hodestørrelse.
 
-**Barneluer:** CYC lister toddler-hodeomkrets som 40,5-46 cm og child som 45,5-51 cm. Baby- og prematurstørrelser varierer mye mer, så bruk en oppskrift med aldersspesifikk størrelse i stedet for å gjette fra en voksenformel.
+**Høyde:** mål fra ønsket nederkant til toppen av hodet, eller på en lue som passer. Ferdig høyde inkluderer toppen. Med et mål på 22 cm og beregnet topp på 7,5 cm starter fellingene etter **14,5 cm inkludert kanten uten oppbrett**. Med 5 cm oppbrett starter de **19,5 cm fra oppleggskanten, målt uten å brette**: 19,5 − 5 + 7,5 = 22 cm. En dobbelt kant som er 5 cm høy etter bretting, trenger omtrent 10 cm strikket vrangbord. Dette er regneeksempler, ikke standarddybder for alle voksne.
 
 ## Toppfelling
 
-Her går luen fra rør til kuppel. Fellinger plasseres med jevne mellomrom og fjerner masker rundt hele omgangen.
+Her er hele eksemplet med **96 masker i glattstrikk rundt**. Plasser åtte markører mellom åtte seksjoner på 12 masker; skill markøren ved omgangsstart fra de andre. På fellingsomgangene strikker du til to masker før hver markør, strikker dem rett sammen og flytter markøren. Hver seksjon mister én maske, hele omgangen åtte.
 
-Vanlig metode: del maskene i 6 eller 8 like seksjoner, med maskemarkører mellom. Fell én maske i slutten av hver seksjon annenhver omgang. Det lager synlige fellingslinjer som spiraler mot toppen.
+- Omgang 1: [10 r, 2 r sammen] åtte ganger; 96 → 88 masker.
+- Omgang 3: [9 r, 2 r sammen] åtte ganger; 88 → 80.
+- Omgang 5: [8 r, 2 r sammen] åtte ganger; 80 → 72.
+- Omgang 7: [7 r, 2 r sammen] åtte ganger; 72 → 64.
+- Omgang 9: [6 r, 2 r sammen] åtte ganger; 64 → 56.
+- Omgang 11: [5 r, 2 r sammen] åtte ganger; 56 → 48.
+- Omgang 13: [4 r, 2 r sammen] åtte ganger; 48 → 40.
+- Omgang 15: [3 r, 2 r sammen] åtte ganger; 40 → 32.
+- Omgang 17: [2 r, 2 r sammen] åtte ganger; 32 → 24.
+- Omgang 19: [1 r, 2 r sammen] åtte ganger; 24 → 16.
+- Omgang 21: [2 r sammen] åtte ganger; 16 → 8.
 
-For 96 masker i 8 seksjoner på 12:
+Strikk **alle partallsomgangene fra 2 til 20 rett uten fellinger** og flytt markørene. På omgang 21 er det ingen vanlige masker mellom fellingene. Stopp ved åtte masker. Klipp en tråd som rekker til både lukking og festing, tre den gjennom hver levende maske med en stoppenål, ta ut pinnene, trekk sammen og fest på innsiden. Dette er ikke vanlig avfelling.
 
-Omgang 1: _10 r, 2 r sammen; gjenta fra _ rundt. (88 m)
-Omgang 2: Strikk.
-Omgang 3: _9 r, 2 r sammen; gjenta fra _ rundt. (80 m)
-Omgang 4: Strikk.
+Det blir **11 fellingsomganger og 10 mellomomganger, totalt 21 omganger**. Ved for eksempel 28 omganger per 10 cm er beregnet topphøyde **7,5 cm**. Masker per 10 cm sier ikke hvor mange omganger du får; mål en prøvelapp strikket og behandlet som luen og kontroller toppen underveis.
 
-Fortsett til 8-16 masker gjenstår. Klipp garnet, tre gjennom resten med stoppenål, stram og fest på innsiden.
+For **104 masker** starter du med åtte seksjoner på 13: [11 r, 2 r sammen] åtte ganger gir 104 → 96. Strikk en rett mellomomgang og deretter hele rekken ovenfor, med omgangsnumrene forskjøvet med to. Totalt 23 omganger gir omtrent **8,2 cm** ved 28 omganger per 10 cm. Kort ned midtpartiet tilsvarende hvis ferdig høyde skal være den samme.
 
-Antall seksjoner påvirker toppformen, men fellingstakten gjør det også. Seks eller åtte seksjoner er vanlige fordi de deler mange oppleggstall rent. Hvis toppen blir for spiss eller for flat, er løsningen ofte å endre hvor ofte du feller, ikke bare antall seksjoner.
-
-Noen oppskrifter bruker parvise fellinger, for eksempel 2 r sammen før markøren og ssk etter, i stedet for én enkel felling. Linjene ser mer symmetriske ut, noe som betyr mer på ensfargede luer enn på mønstrede der fellingene skjules.
+Andre oppskrifter kan bruke seks seksjoner, felle hver omgang mot slutten eller ha parvise fellinger rundt markørene, for eksempel 2 r sammen og venstrelent ssk. Ett par fjerner to masker; åtte par fjerner 16 per fellingsomgang. Endrer du metoden, må antall masker, rytme og høyde beregnes på nytt.
 
 ## Vrangbordvalg
 
-Vrangborden i kanten er mer enn pynt. Det er den som holder luen på hodet.
+**1 r, 1 vr** gir smale kolonner og **2 r, 2 vr** bredere. Begge kan gi en elastisk kant, men garn, strikkefasthet, oppleggets elastisitet og bevegelsesvidde påvirker passformen.
 
-**1 r, 1 vr** gir ofte en tett og elastisk kant. Den trekker godt inn og griper godt. Passer til tettsittende beanies.
+**Vridd vrangbord** vrir maskene oppskriften angir. En vanlig vestlig montert rettmaske vris ved å strikkes gjennom bakre maskeledd. Sjekk om bare rettmaskene eller også vrangmaskene vris; vridd vrangbord er ikke automatisk mer elastisk.
 
-**2 r, 2 vr** er lett å lese og går godt for mange strikkere. Den strekker seg fortsatt bra, men får et bredere vrangborduttrykk.
+**Brettet kant:** strikk til to lag og brett opp. Til 5 cm synlig kant trengs omtrent 10 cm vrangbord. Ta oppbretten med i høydemålet. Tynnere pinner kan gi en fastere kant, men prøv resultatet i stedet for å anta at én pinnestørrelse mindre alltid hjelper.
 
-**Vridd vrangbord**, der rettmaskene strikkes gjennom bakre maskeledd, strammer kolonnene mer og gir et tydeligere vrangborduttrykk. Den går saktere fordi vridde masker er vanskeligere å strikke i.
-
-**Brettet kant** er dobbelt så høy som en vanlig kant og brettes opp. Den strikkes ofte på en pinnestørrelse mindre enn kroppen for å gripe bedre. På luer for kaldt vær er dobbelt stoff over ørene praktisk.
-
-For en mer polert kant lager tubular cast on en myk kant som ser ut til å vokse rett ut av vrangborden. Verdt å lære senere hvis du strikker gaveluer.
+Et italiensk eller tubular opplegg kan gi en myk overgang til vrangborden. Velg en variant for ditt ribbemønster; 1 r, 1 vr og 2 r, 2 vr kan kreve ulike forberedelser.
 
 ## Garn og pinner
 
-**Worsted på 4,5-5,0 mm:** vanligste kombinasjon til enkel lue. Varm, moderat tykk og raskere enn tynnere garn.
+Mulige utgangspunkt for prøvelappen er **Worsted på 4,5–5 mm**, **Bulky på 6–8 mm** og **DK på 3,75–4 mm**. Dette er prøvekombinasjoner, ikke faste regler for garntykkelsene. Velg pinner som gir oppskriftens strikkefasthet og et stoff du liker. Tykt garn gir ikke automatisk utydelige masker.
 
-**Bulky på 6,0-8,0 mm:** rask, men tykt stoff har mindre maskedefinisjon. Bra til chunky, avslappet stil.
+Ull og ullblandinger kan gi nyttig elastisitet og spenst. Kjenn prøvelappen mot pannen og vurder varme og form etter vask. Bomull, akryl og blandinger kan også passe med riktig konstruksjon; fibernavnet garanterer ikke komfort eller passform. Følg garnetikettens vaskeanvisning også for superwash-ull og akryl.
 
-**DK på 3,75-4,0 mm:** lettere lue, finere definisjon. Tar lenger tid, men ser mer raffinert ut. Bra til mønsterstrikk fordi tynnere stoff holder volumet nede med flere farger.
+Bruk oppskriftens garnbehov for valgt størrelse og nøstets løpelengde. **100 g** er vekt, ikke en fast lengde eller garanti for at ett nøste rekker. Brettet kant, ekstra lengde, fletter, flerfargestrikk, prøvelapp og dusk påvirker forbruket.
 
-Ull eller ullblanding er vanligvis lettest til varme luer: elastisk, formholdende og mottakelig for blokking. Superwash ull er enklere å vaske. Akryl fungerer og er maskinvaskbart, men kan kjennes mindre pustende i mildt vær. Bomull er ikke et godt vinterluegarn fordi det mangler ullens spenst og varme, selv om bomullsblandinger kan fungere til vår og høst.
+## Dusker og avslutning
 
-Hvor mye garn? Mange enkle voksenluer i worsted ligger et sted rundt 137-229 m, men kantdybde, slouch, fletter og flerfargestrikk endrer garnmengden raskt. Sjekk oppskriftens garnmengde før du kjøper. Ett 100 g nøste worsted er ofte nok til en enkel beanie.
+En dusk dekker punktet der toppen trekkes sammen. Lag en av samme garn eller kontrastgarn med en duskemaker eller to pappsirkler, eller fest en fuskepelsdusk slik at den kan tas av ved vask.
 
-## Dusker og finish
+Fest tråden i toppen godt også under en dusk. Du kan tre den gjennom maskene en gang til før du trekker sammen hvis garnet og åpningen tillater det, men fest den fortsatt i stoffet på innsiden. En ekstra runde gjennom løkkene erstatter ikke trådfestingen.
 
-En dusk dekker samlingspunktet der toppen lukkes. Lag en av samme eller kontrastgarn med dusk-maker, eller to pappsirkler, eller kjøp en fuskepelsdusk og fest den så den kan tas av ved vask. En avtagbar dusk er lettere å stelle enn en som er sydd fast permanent.
-
-For ren finish uten dusk må toppavslutningen være stram, og tråden festet godt på innsiden. Tre garnet gjennom de gjenværende maskene to ganger i stedet for én hvis du vil ha ekstra sikkerhet.
-
-Blokk over en ballong, bolle eller lueform nær planlagt størrelse. Det jevner masker og gir luen endelig form. Ikke strekk vrangbordkanten flat under blokking. Den er laget for å trekke seg sammen og gripe.
+Avslutt etter garnets vaskeanvisning, og prøv behandlingen på prøvelappen først. Tørk flatt eller på en egnet form hvis materialet og oppskriften tillater det. Form til **luens mål**, ikke automatisk den større hodeomkretsen, og ikke strekk vrangborden åpen. Blokking kan jevne ut masker, men garanterer ikke at feil størrelse blir riktig.
 
 ## Vanlige spørsmål
 
-Kan du strikke lue på rette pinner? Ja, med flat-og-sydd-metoden. Kompromisset er sømmen. Mange nybegynneroppskrifter på luer er skrevet spesielt for flat strikking.
+**Kan du strikke lue på rette pinner?** Ja, med en oppskrift for flatstrikk, formet topp og sidesøm. Følg rettside- og vrangsidepinnene og sømmonnet i den.
 
-Hvordan unngår du hakk i striper? Fargeskiftet ved omgangens begynnelse lager et synlig trinn. Jogless jog-teknikken, å løfte første maske i den nye fargen på andre omgang, minimerer det. Ensfargede luer har ikke dette problemet.
+**Hvordan unngår du hakk i striper?** Til glattstrikkede striper rundt som er minst to omganger høye, kan du strikke første omgang i ny farge, så løfte første maske vrangt av med garnet bak på andre omgang og strikke resten rett. Det kan redusere hakket, men forkorte maskekolonnen. Énomgangsstriper og andre maskemønstre trenger en metode som passer til dem.
 
-Hva hvis luen er for stor? Enkleste løsning på ferdig lue: tre elastikk gjennom innsiden av kanten. Neste gang: [strikk prøvelapp mer nøye](/no/artikler/male-strikkefasthet/) eller velg én størrelse mindre. En litt liten lue strekker seg. For stor sklir av.
+**Hva hvis luen er for stor?** Hvis bare kanten er løs, kan elastikk hjelpe så lenge den ikke strammer ubehagelig. Den gjør ikke midtpartiet eller toppen mindre. [Kontroller strikkefastheten](/no/artikler/male-strikkefasthet/), avslappet omkrets og høyde før du rekker opp. En mindre størrelse hjelper bare hvis målene passer; en for liten lue strekker seg ikke nødvendigvis til behagelig passform.
 
-Kan du legge til øreklaffer? Ja, men det er enklere når oppskriften har dem fra starten. Øreklaffer er trekantede forlengelser som plukkes opp fra kanten eller legges opp som en del av den. Hvis du legger dem til selv, marker øreposisjonene først, plukk opp en liten seksjon på hver side og fell mot en spiss. Legg til en i-cord eller tvunnet snor nederst hvis du vil knyte dem under haken.
+**Kan du legge til øreklaffer?** Ja, plukket opp fra kanten eller som del av konstruksjonen. En oppskrift med øreklaffer angir plassering, bredde, forming og avslutning. Marker ørene på den som skal bruke luen. Velg en barneegnet konstruksjon til barneluer fremfor å legge til knytebånd under haken uten nærmere vurdering.
 
-Hva med fôrede luer? En dobbel kant eller helt fôr gir mer varme og en mykere følelse mot pannen. En vanlig metode er å strikke ekstra lengde, brette fôret til innsiden og feste det pent. Det tar tid, men blir varmt.
+**Hva med fôrede luer?** Dobbel kant eller fôr kan gi mer isolasjon og en annen følelse mot pannen. Et helt fôr trenger egen høyde og toppforming samt plass inne i luen. Sjekk strekk og passform med begge lagene; ekstra lengde alene er ingen fullstendig fôroppskrift.

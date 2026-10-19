@@ -1,7 +1,8 @@
 ---
 title: "Uuden lankakerän liittäminen kesken kerroksen"
-description: "Näin liität uuden langan neuleeseen. Ohje päällekkäisliitokseen, Russian joiniin, huopaliitokseen ja magic knotiin sekä niiden hyviin ja huonoihin puoliin."
+description: "Näin liität uuden lankakerän neuleeseen: päällekkäisliitos, venäläinen liitos, huopaliitos ja magic knot sekä materiaalirajat ja langanpäiden päättely."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 5
 tags:
@@ -18,124 +19,123 @@ translationKey: "join-new-ball-of-yarn"
 
 Vanha kerä loppuu. Uusi pitää aloittaa. Siirtymän pitää olla valmiissa neuleessa siisti ja tarpeeksi tukeva, ettei se purkaudu.
 
-Neljä päämenetelmää ovat päällekkäisliitos (helpoin, kaksi pääteltävää langanpäätä), Russian join (ei päitä, hieman paksumpi kohta), huopaliitos eli spit splice (lähes näkymätön, mutta vain huopuville villoille) ja magic knot (nopea, mutta jättää solmun). Paras valinta riippuu langan [kuitusisällöstä](/fi/artikkelit/lankakuidut-vertailussa/) ja siitä, kuinka paljon langanpäiden päättely häiritsee.
+Tässä vertaillaan kahdella langalla neulottavaa päällekkäisliitosta, venäläistä liitosta (Russian join), huopaliitosta ja magic knot -solmua. Niiden kiinnitystapa ja viimeistelytarve eroavat toisistaan. Valitse menetelmä langan [kuitusisällön](/fi/artikkelit/lankakuidut-vertailussa/), rakenteen ja neulepinnan mukaan.
 
 ## Pikavertailu
 
-| Menetelmä      | Mille langoille                 | Pääteltävät päät   | Näkyvyys                      | Paras käyttö                       |
-| -------------- | ------------------------------- | ------------------ | ----------------------------- | ---------------------------------- |
-| Päällekkäisyys | Kaikki langat                   | 2                  | Vähäinen viimeistelyn jälkeen | Oletusvalinta, kaikki langat       |
-| Russian join   | Parhaiten kerratuille langoille | 0 irrallista päätä | Hieman paksumpi kohta         | Kun et halua päätellä              |
-| Huopaliitos    | Huopuvat eläinkuidut            | 0                  | Lähes näkymätön               | Käsittelemätön villalanka          |
-| Magic knot     | Monet langat, kompromisseilla   | 0                  | Solmu neuleessa               | Vain paksut tai huovutettavat työt |
+| Menetelmä      | Mille langoille                            | Pääteltävät päät                | Näkyvyys                             | Paras käyttö                             |
+| -------------- | ------------------------------------------ | ------------------------------- | ------------------------------------ | ---------------------------------------- |
+| Päällekkäisyys | Kokeile kaksinkertaisen langan paksuutta   | 2                               | Kaksinkertainen silmukka tai jakso   | Kun lisäpaksuus sopii neuleeseen         |
+| Russian join   | Lanka, jonka sisään pää voidaan kiinnittää | Päät kiinnitetään langan sisään | Paksumpi jakso                       | Solmuton liitos, rakenne testattava      |
+| Huopaliitos    | Aidosti huopuva lanka                      | Ei onnistuneessa liitoksessa    | Riippuu ohennuksesta ja huopumisesta | Huopuva lanka ilman superwash-käsittelyä |
+| Magic knot     | Lanka, jossa solmu pitää                   | 2 alla olevassa versiossa       | Solmu jää näkyviin tai tuntumaan     | Kun solmu sopii työhön                   |
 
 ## Menetelmä 1: päällekkäisliitos
 
-Yksinkertaisin. Aloita neulominen uudella langalla ja jätä sekä vanhasta että uudesta langasta noin 15 cm häntä. Neulo muutama ensimmäinen silmukka uudella langalla niin, että vanha häntä kulkee mukana. Pudota vanha häntä muutaman silmukan jälkeen. Päättele molemmat päät myöhemmin.
+Päällekkäisliitoksessa neulot hetken vanhalla langalla ja uudelta kerältä tulevalla langalla yhdessä. Pelkkä vanhan langan jättäminen pois ja uudella aloittaminen on eri tapa.
 
-Toimii kaikilla langoilla, ei vaadi valmistelua, ja sen voi tehdä kesken kerroksen tai reunassa. Huono puoli: kaksi pääteltävää päätä, ja päällekkäiset silmukat voivat näyttää hieman paksummilta, kunnes päät on päätelty ja kangas [pingotettu](/fi/artikkelit/neuleen-pingotus/). Tämä on menetelmä, jonka moni oppii ensimmäisenä, ja se on oikea valinta aina kun päättely ei haittaa.
+1. Pysähdy, kun vanhaa lankaa on vielä liitokseen ja päättelyyn. Jätä myös uudesta langasta päättelyvara. Noin 15 cm on käytännöllinen lähtökohta, ei kaikille langoille riittävä vähimmäispituus.
+2. Ota vanha työlanka ja uuden kerän työlanka rinnakkain. Jätä uuden langan vapaa pää erilleen. Neulo yksi silmukka molemmilla langoilla [Elizabeth Smithin esimerkin](https://elizabethsmithknits.com/2021/04/29/how-to-join-a-new-skein-of-yarn/) tapaan.
+3. Jätä vanha lanka pois ja jatka vain uudelta kerältä tulevalla langalla. Vanhaan päähän pitää jäädä päättelyvaraa. Tasaa liitoksen silmukat varovasti viereisten kokoisiksi.
+4. Neulo seuraavalla kerroksella kaksinkertaisen silmukan molemmat lankalenkit yhdessä **yhtenä silmukkana**, oikein tai nurin mallineuleen mukaan. Silmukkamäärä ei muutu. Jos neuloit useita silmukoita kaksinkertaisella langalla, käsittele jokainen pari näin.
+5. Päättele molemmat vapaat langanpäät. Kaksinkertaisella langalla neulominen ei korvaa päättelyä.
 
-Osa neulojista liittää mieluummin kerroksen alussa kuin keskellä. Päät päätyvät reunaan, jossa ne on helpompi piilottaa saumaan. Tasokappaleissa, jotka ommellaan yhteen, tämä on siistein tapa. Suljetussa neuleessa reunaa ei ole, joten kesken kierroksen liittäminen on väistämätöntä.
+Kaksinkertainen kohta jää paksummaksi myös päiden leikkaamisen jälkeen; [pingotus](/fi/artikkelit/neuleen-pingotus/) ei takaa sen häviämistä. Jos kohta on liian paksu, jätä vanha lanka pois ja neulo seuraava silmukka vain uuden kerän työlangalla. Jätä molemmat päät pääteltäviksi. Pidä uudesta vapaasta päästä kiinni ensimmäisten silmukoiden ajan, tasaa kireys ja päättele päät.
 
-### Päällekkäisten häntien päättely hyvin
+Sauma voi peittää reunaliitoksen, mutta avoimessa reunassa tai kaksipuolisessa työssä se voi näkyä. Liitos voi olla myös kesken kerroksen. Suljetussa neuleessa voit vaihtaa kerää kerrosmerkin kohdalla tai muualla viimeistelyyn sopivassa kohdassa.
 
-Päättele hännät neulepinnan nurjalle puolelle samaa reittiä kuin silmukat kulkevat. Älä vedä lankaa suoraksi viivaksi, koska se kiristää ja näkyy oikealle puolelle. Kulje muutama sentti yhteen suuntaan, halkaise ympäröivien silmukoiden säikeitä päättelyneulalla, vaihda suuntaa ja kulje vähän takaisin. Säikeiden halkaiseminen lukitsee hännän kitkalla paremmin kuin langan kuljettaminen pelkkää pintaa pitkin.
+<h3 id="päällekkäisten-häntien-päättely-hyvin">Päällekkäisliitoksen langanpäiden päättely</h3>
 
-Superwash-villassa, silkissä, bambussa, merseroidussa puuvillassa ja muissa liukkaissa langoissa jätä pidemmät hännät ja päättele pidemmälle. Näissä langoissa kuitu ei auta pitämään päätä paikallaan, joten mekaanisen päättelyn pitää tehdä työ.
+Tasaa ensin liitoksen löysät silmukat kiristämättä neuletta kasaan. Aseta langanpäät ristiin nurjalla puolella liitosaukon kohdalla ennen niiden päättelyä viereisiin silmukoihin, mutta älä kiristä neuletta. Pujota toinen pää päättelyneulaan ja seuraa langan kulkua nurjan puolen silmukoissa usean silmukan verran. Vaihda suuntaa viereisten silmukoiden kautta; älä palaa täsmälleen samaa reittiä ja pura juuri tekemääsi päättelyä. Päättele toinen pää samalla periaatteella. [Purl Sohon ohje näyttää reittejä eri neulepinnoille](https://www.purlsoho.com/create/weaving-in-your-ends/).
+
+Säilytä neuleen jousto. Sopivan langan säikeiden halkaiseminen on vaihtoehto, ei kaikkien lankarakenteiden vaatimus. Liukkaassa langassa päättelyn pituus ja reitti korostuvat. Anna neuleen asettua, viimeistele vain langan hoito-ohjeen sallimalla tavalla ja tarkista liitos ennen ylimääräisen pään leikkaamista. Älä leikkaa kiinnittämätöntä päätä liitoksen juuresta.
 
 ## Menetelmä 2: Russian join
 
-Ei pääteltäviä päitä. Vanhan ja uuden langan hännät pujotetaan takaisin itseensä päättelyneulalla, jolloin syntyy kaksi toisiinsa lukittuvaa lenkkiä.
+Venäläisessä liitoksessa kaksi lenkkiä yhdistetään ja kumpikin pää pujotetaan oman lankansa sisään ennen neulomista. Menetelmä ei perustu huopumiseen. Valitse ohut päättelyneula, joka kulkee langan keskellä vahingoittamatta sitä.
 
-Pujota vanhan langan häntä päättelyneulaan. Pistä neula takaisin vanhan langan säikeiden sisään lyhyen matkaa niin, että langan päähän jää lenkki. Tee sama uudelle langalle. Linkitä kaksi lenkkiä toisiinsa kuin ketjunlenkit ennen kiristämistä. Leikkaa hännät läheltä.
+1. Pujota vanhan langan pää neulaan. Taita pää takaisin ja kuljeta neulaa pituussuunnassa vanhan langan sisällä kohti neuletta. Jätä taitteeseen pieni lenkki.
+2. [Knit Picksin ohjeessa](https://tutorials.knitpicks.com/russian-join/) pään sisään pujotettava osuus on noin 5 cm, ja pituutta sovitetaan langan liukkauteen. Vedä neula ulos ja tasaa poimuttunut lanka, mutta jätä lenkki auki.
+3. Pujota uuden langan pää neulaan ja vie se **ensin vanhan lenkin läpi**. Taita sitten uusi pää takaisin ja pujota se oman lankansa sisään kohti uutta kerää vastaavan matkan verran. Lenkit ovat nyt sisäkkäin.
+4. Vedä päistä lenkit kiinni ja tasaa molemmat paksummat osuudet. Tarkista, etteivät päät liu'u ulos. Leikkaa vain sisään pujotettujen osuuksien ulkopuolelle jäävä ylimääräinen lanka, älä itse liitosta.
+5. Neulo liitoslangan yli tavalliseen tapaan kohti uutta kerää. Neulo syntyneet silmukat normaalisti myös seuraavalla kerroksella; silmukoita ei lisätä. Onnistuneessa liitoksessa päät on kiinnitetty langan sisään, eivätkä ne jää erikseen neuleeseen pääteltäviksi.
 
-Terävä päättelyneula auttaa. Tylppä neula liukuu säikeiden välistä sen sijaan, että se kulkisi langan sisällä, ja liitoksesta voi tulla heikompi. Neulassa pitää olla tarpeeksi iso silmä langalle ja riittävän terävä kärki langan sisään pujottamiseen.
-
-Erittäin tukeva, koska liitos on rakennettu langan sisään. Liitetty kohta on hieman paksumpi, kaksi kerrosta lyhyen matkaa molempiin suuntiin, ja se voi näkyä hyvin ohuessa langassa. Ei toimi yksisäikeisissä tai liian helposti halkeavissa langoissa, joita ei saa pujotettua omien säikeidensä sisään.
-
-Paras neulojille, jotka oikeasti inhoavat päättelyä ja käyttävät kerrattua lankaa. DK-vahvuudesta ylöspäin paksuuden lisäys on usein huomaamaton. Fingering- ja lace-vahvuuksissa se voi näkyä paksumpana kohtana, vaikka viimeistely pehmentää sitä.
+Langan rakenne ratkaisee enemmän kuin DK-vahvuusraja. Pään on mahduttava langan sisään ja pysyttävä siellä; nauhalanka, avoin ketjurakenne sekä hyvin löyhä tai liukas lanka arvioidaan erikseen. Yksisäikeisyys ei yksin sulje menetelmää pois. Kokeile liitosta tilkussa ja langan sallimassa hoidossa. Paksumpi kohta voi jäädä näkyviin. Jos pää ei pysy sisällä, valitse pääteltävät päät jättävä liitos.
 
 ## Menetelmä 3: huopaliitos eli spit splice
 
-Toimii vain käsittelemättömällä villalla ja muilla huopuvilla eläinkuiduilla.
+Käytä oikeasti huopuvaa lankaa, esimerkiksi siihen sopivaa villalankaa ilman superwash-käsittelyä. Pelkkä villamerkintä ei riitä: käsittely, sekoite ja rakenne vaikuttavat. Superwash-villa, puuvilla, pellava ja akryyli eivät sovellu tähän huopaliitokseen. Älä oleta eläinkuitusekoitteen huopuvan luotettavasti.
 
-Aseta päät päällekkäin noin 7-8 cm matkalta. Kostuta ne. Nimi tulee perinteisestä tavasta, mutta vesi toimii aivan yhtä hyvin. Pyöritä päällekkäistä kohtaa voimakkaasti kämmenten välissä. Kitka ja kosteus huovuttavat kuidut yhteen ja muodostavat pysyvän liitoksen ilman paksuutta ja ilman pääteltäviä päitä.
+[Purl Sohon ohjeen](https://www.purlsoho.com/create/wet-splice-aka-spit-splice/) suorassa päällekkäisliitoksessa:
 
-Lopputulos voi olla lähes näkymätön: ei selvää paksuuden muutosta, ei pääteltävää. Rajoitus on selvä. Se toimii vain huopuvalla langalla. Puuvilla, akryyli, superwash-villa, silkki ja pellava eivät huovu. Jos liitos ei ole tarpeeksi vahva, koska kitkaa tai kosteutta oli liian vähän, se vetäytyy auki.
+1. Jätä vanhaa lankaa sen verran, että voit käsitellä päätä vetämättä viimeistä silmukkaa. Avaa kummankin pään viimeiset noin 2,5–5 cm; erottele säikeet, jos lanka on kerrattua.
+2. Poista kummastakin päästä osa kuiduista, jotta limitys ei jää liian paksuksi. Jätä riittävästi kuituja yhtenäiseen liitokseen, älä katkaise kumpaakaan lankaa kokonaan.
+3. Kostuta valmistellut päät vedellä ja aseta ne päällekkäin niin, että neule ja uusi kerä jäävät vastakkaisiin suuntiin.
+4. Hiero limityskohtaa kämmenten välissä, kunnes kuidut tarttuvat yhteen. Kokeile varovasti: jos liitos aukeaa, älä neulo sitä työhön valmiina liitoksena.
+5. Jatka liitetyllä langalla. Neulo seuraavan kerroksen silmukat normaalisti. Onnistuneessa huopaliitoksessa molemmat päät sisältyvät liitokseen, joten siitä ei jää irrallisia pääteltäviä tai pois leikattavia päitä.
 
-Monen villaneulojan suosikkimenetelmä. Jos lanka huopuu, tämä kannattaa opetella.
-
-Testaa ensin kahdella lyhyellä langanpätkällä. Osa "villalangoista" on superwash-käsiteltyjä tai sekoitteita, jotka eivät huovu kunnolla. Pieni testi on parempi kuin huomata puolessa välissä villapaitaa, että liitokset pettävät.
+Kokeile ensin langanpätkillä ja neulotussa tilkussa, myös langan sallimalla pesulla ja kuivauksella. Kevyt vetokoe kertoo alkuperäisestä kiinnittymisestä, ei takaa pysyvää kestävyyttä. Paksuus ja näkyvyys riippuvat valmistelusta ja langasta.
 
 ## Menetelmä 4: magic knot
 
-Aseta vanha ja uusi lanka limittäin. Solmi vanha lanka uuden ympärille tavallisella solmulla ja sitten uusi vanhan ympärille toisella solmulla. Liu'uta solmut toisiaan kohti, kunnes ne kohtaavat ja lukittuvat. Leikkaa hännät läheltä.
+Magic knot muodostuu kahdesta tavallisesta solmusta: kumpikin tehdään toisen langan ympärille ja vedetään lopuksi toista vasten. Jätä pituutta solmimiseen sekä tässä versiossa myös päiden päättelyyn.
 
-Nopea, tukeva hyvin solmittuna eikä jätä pääteltäviä päitä. Mutta neuleeseen jää solmu. Tiukkakin magic knot tekee pienen kovan kohdan, joka voi tuntua ohuessa kankaassa ja nousta ajan myötä pintaan. Liukkaissa langoissa, kuten silkissä ja bambussa, solmut voivat aueta. Moni neuloja pitää solmuja vaatteissa yksinkertaisesti kelvottomina.
+1. Aseta vanha ja uusi lanka rinnakkain, vapaat päät vastakkaisiin suuntiin.
+2. Vie vanha pää uuden langan yli ja ali. Vie se sitten oman lankansa pitkän osuuden yli lenkiksi, pujota pää lenkistä alapuolelta ja kiristä solmu uuden langan ympärille.
+3. Tee samalla yli–ali-järjestyksellä uudella langanpäällä toinen solmu vanhan langan ympärille.
+4. Vedä neuleeseen ja uuteen kerään johtavista pitkistä langoista, **älä vapaista päistä**, kunnes solmut liukuvat vastakkain. Kiristä ja tarkista, etteivät ne luista.
+5. Jatka uuden kerän työlangalla ja sijoita solmu mahdollisuuksien mukaan silmukoiden väliin. Seuraavat silmukat neulotaan normaalisti; solmu ei ole lisäsilmukka. Säilytä molemmat päät ja päättele ne ennen leikkaamista, kuten [YarnThriftin ohjeen vaihtoehdossa](https://yarnthrift.com/how-to-join-yarn-using-the-magic-knot-crochet-tutorial/).
 
-Paras paksuihin pintoihin, joissa solmu katoaa, esimerkiksi bulky-peittoihin tai huovutettaviin töihin. Ei vaatteisiin tai herkkään neuleeseen.
+Joissakin versioissa päät leikataan heti solmun juuresta. Silloin pitävyys jää solmun varaan; se ei ole tässä opetettu viimeistelytapa. [Nimble Needles huomauttaa solmujen löystymisestä liukkaissa langoissa](https://nimble-needles.com/tutorials/joining-yarn-with-a-magic-knot-in-knitting/). Vetokoe ei takaa koko käyttöiän kestävyyttä. Solmu voi näkyä tai tuntua myös paksussa neuleessa. Käytä sitä, kun hyväksyt tämän ominaisuuden: solmu ei ole aina kielletty vaatteessa eikä automaattisesti sopiva peittoon tai huovutukseen.
 
 ## Oikean menetelmän valinta
 
-Useimmissa tilanteissa päällekkäisliitos ja päätellyt langanpäät on turvallisin ja yleisin valinta. Toimii joka langalla, antaa siistin lopputuloksen viimeistelyn jälkeen eikä vaadi erityistä tekniikkaa.
-
-Käsittelemättömälle villalle huopaliitos antaa siisteimmän tuloksen. Paineen ja kosteuden määrä vaatii vähän harjoittelua, mutta kun se napsahtaa kohdalleen, se on nopein ja näkymättömin liitos.
-
-Russian join sopii neulojille, jotka eivät halua päätellä ja käyttävät kerrattua lankaa DK-vahvuudesta ylöspäin.
+Valitse tilkun perusteella: päällekkäisliitos lisää paksuutta ja jättää kaksi pääteltävää päätä; venäläinen liitos kiinnittää päät langan sisään mutta paksuntaa sitä; huopaliitos tarvitsee pitävän huopumisen; magic knot jättää solmun. Pelkkä uudella langalla aloittaminen ja molempien päiden päättely sopii kokeiltavaksi, jos kaksinkertainen silmukka on liian paksu. Yksi menetelmä ei sovi kaikkiin lankarakenteisiin ja töihin.
 
 ## Milloin liitos tehdään
 
-Jos pystyt suunnittelemaan etukäteen, sinulla on vaihtoehtoja. Kun kerä lähenee loppuaan, mittaa jäljellä oleva lanka työn leveyttä vasten. Karkea nyrkkisääntö: jos lankaa on noin neljä kertaa neulottavan kerroksen leveys, sitä on suunnilleen yhden kerroksen verran. Lasku ei ole tarkka, koska nurjat silmukat ja mallineuleet voivat kuluttaa eri määrän lankaa, mutta se riittää liitoskohdan suunnitteluun.
+Suunnittele liitos ennen kuin vanha pää jää liian lyhyeksi käsitellä ja päätellä. Jäljellä olevan langan vertaaminen työn leveyteen ei ennusta kokonaisen kerroksen menekkiä luotettavasti kaikissa mallineuleissa. Jos haluat reunaliitoksen etkä ole varma langan riittämisestä seuraavaan kerrokseen **ja päättelyvaraan**, vaihda kerää ennen kerroksen aloittamista.
 
-Jos lankaa riittää juuri ja juuri yhteen kerrokseen, liitä seuraavan kerroksen alussa, jotta hännät jäävät reunaan.
-
-Sileässä suljetussa neuleessa liitoskohdat kannattaa porrastaa, etteivät ne osu aina samaan kohtaan. Siirrä liitosta muutama silmukka joka kerta, niin et saa näkyvää pystysaraketta hieman erilaisesta tekstuurista.
+Suljetussa neuleessa voit sijoittaa liitoksia eri kohtiin huomaamattomille alueille, jotta paksummat jaksot eivät kasautuisi päällekkäin. Sijoittelu ei poista niiden paksuutta eikä muuta liitoksen lujuutta.
 
 ## Käsinvärjätyn langan vaihtaminen kerästä toiseen
 
-Käsinvärjättyjen kerien välillä voi olla eroa, vaikka värinimi ja värjäyserä olisivat samat. Jos vaihdat kerän kerralla, neuleeseen voi jäädä selvä raja. Vuorottele vanhaa ja uutta kerää useamman kerroksen ajan.
+Käsinvärjätyt kerät voivat erota myös saman värjäyserän sisällä. Esimerkiksi [Malabrigo suosittelee Rios-langan kerien vuorottelua](https://malabrigoyarn.com/yarns/rios) sävyerojen hajauttamiseksi. Vuorottelu ei takaa näkymätöntä vaihtoa tai kaikkien värikeskittymien häviämistä.
 
-Kaksi kerrosta vanhalla, kaksi uudella toimii monessa tasoneuleessa. Kuljeta käyttämätöntä lankaa löyhästi reunassa. Tarkoitus on sekoittaa sävyero siirtymäalueeksi, ei jättää yhtä näkyvää vaihtorajaa. Kun olet toistanut vuorottelua muutaman kerran, pudota vanha kerä pois ja jatka uudella.
-
-Voimakkaasti kirjavissa käsinvärjätyissä langoissa vuorottelu auttaa myös värien lätäköitymiseen. Kaksi kerää yhdessä käyttäytyy eri tavalla kuin kumpikaan yksin.
+Neulo tasossa kaksi kerrosta vanhalla ja kaksi uudella kerällä, jolloin molemmat langat palaavat samaan reunaan. Kuljeta lepäävää lankaa reunassa kiristämättä ja ota se mukaan langanvaihdossa. Toista ja arvioi siirtymää. Jätä vanhan kerän käytön lopuksi riittävästi lankaa päättelyyn. Tämä on tasoneule-esimerkki; suljetussa neuleessa lanka kulkee valitussa vaihtokohdassa, ei sivureunassa. Eri värjäyserät voivat erottua vuorottelun jälkeenkin.
 
 ## Tehdassolmut kerän sisällä
 
-Jos kerästä löytyy solmu, älä neulo sen yli. Leikkaa solmu pois, käsittele kahta pätkää erillisinä kerinä ja tee oma liitos langalle sopivalla menetelmällä. Tehdassolmu voi olla tukeva tai ei, etkä tiedä miten se käyttäytyy pesussa ja käytössä.
-
-Tämä harmittaa aina, mutta solmun ohittaminen on pienempi vaiva kuin se, että valmis työ näyttää virheelliseltä juuri siitä kohdasta. Tehdassolmuja tulee vastaan etenkin massatuotetuissa langoissa.
+Tarkista solmu ennen sen neulomista työhön. Jos sen rakenne tai pitävyys on epävarma, poista se ja liitä lanka työhön sopivalla menetelmällä. Jätä kummallekin puolelle menetelmän tarvitsema lankavara; pura tarvittaessa hieman. Tehdassolmu ei osoita kaikkien solmujen sopivuutta tai sopimattomuutta neuleeseesi.
 
 ## Kun lanka katkeaa kesken silmukan
 
-Pysähdy. Puoliksi neulottu silmukka voidaan siirtää takaisin vasemmalle puikolle. Käsittele katkeama tavallisena liitoskohtana: jätä katkenneeseen päähän häntä, liitä uusi lanka valitsemallasi menetelmällä ja jatka siitä mihin jäit. Se, että katkeama tapahtui kesken silmukan, ei muuta tekniikkaa.
+Pysähdy ja varmista silmukka. Jos vanha silmukka on vielä vasemmalla puikolla, pidä se siinä ja pura keskeneräinen uusi lenkki. Jos vanha silmukka on pudonnut, poimi se takaisin ennen jatkamista; katkennut langanpää ei ole kokonainen silmukka.
 
-Jos hännät jäävät liian lyhyiksi pääteltäviksi, pura muutama silmukka tai kerros takaisin kohtaan, jossa päättely onnistuu. Yritä olla tekemättä minisolmua keskelle silmukkaa.
-
-Jos lanka katkeaa toistuvasti eri kohdista, tarkista koko kerä. Vanha, auringossa säilytetty tai vaurioitunut kerä voi olla täynnä heikkoja kohtia. Jos ostit langan hiljattain, se kannattaa palauttaa.
+Pura sen verran, että saat vanhaan lankaan riittävän päättelyvaran. Liitä ehjä uusi lanka ja neulo silmukka uudelleen. Tarkista silmukkamäärä. Jos lanka katkeaa toistuvasti, tarkista se ja ota yhteyttä myyjään mahdollisesta viasta sen sijaan, että jatkaisit tutkimatta heikkoja kohtia.
 
 ## Huomioita langan liittämisestä
 
-Tavallinen solmu ja jatkaminen on teknisesti mahdollista mutta yleensä huono tapa. Solmu tekee kovan möykyn, voi löystyä ja näkyy läheltä katsottuna.
-
-Jätä päihin sen verran pituutta, että päättelyneulaa on mukava käyttää. Liian lyhyt häntä tekee päättelystä turhaa näpertelyä. Liukkaissa langoissa pidempi häntä on turvallisempi.
-
-Liitoskohta riippuu projektista. Saumattavat vaatteet: liitä reunassa, jolloin päät katoavat saumaan. Suljettu neule: kesken kierroksen liitos on väistämätön. Vältä villapaidan keskietua, jos voit.
-
-Jos uusi kerä on hieman eri sävyinen, esimerkiksi eri värjäyserästä, vuorottele keriä muutaman kerroksen ajan ennen täyttä vaihtoa. Kaksi kerrosta vanhalla, kaksi uudella, toistettuna useamman kerran, sekoittaa siirtymän sen sijaan, että neuleeseen tulisi terävä raja.
+Liitos ja sen viimeistely kuuluvat samaan työjärjestykseen. Jätä menetelmän tarvitsemat päättelyvarat ja tarkista neuleen molemmat puolet ennen leikkaamista. Kaksipuolisessa työssä kumpikaan puoli ei automaattisesti jää piiloon. Sävyeroihin voit kokeilla edellä kuvattua kerien vuorottelua, mutta arvioi lopputulos erikseen.
 
 ## FAQ
 
 **Voiko uuden värin liittää samalla tavalla kuin samanvärisen uuden kerän?**
-Useimmiten kyllä, mutta päällekkäisliitos voi näkyä värinvaihdossa yhden tai kahden kerroksen sekoittumisena. Siistiä värinvaihtoa varten liitä uusi väri kerroksen reunassa ja päättele hännät nurjalle saman värialueen sisään. Huopaliitos ei sovi värinvaihtoon, koska se sekoittaa kaksi väriä näkyvästi.
+
+Kun haluat vaihtaa värin tietyssä silmukassa, lopeta vanhalla värillä ennen sitä ja neulo silmukka vain uuden värin työlangalla. Jätä molemmat päät, tasaa kireys ja päättele päät omiin värialueisiinsa. Vaihtokohdan ei tarvitse olla reunassa. Kaksinkertainen lanka sekoittaa värejä niissä silmukoissa, jotka neulot molemmilla langoilla, ei automaattisesti yhdessä tai kahdessa kokonaisessa kerroksessa. Huovutettu limitys sekoittaa kuituja; myös venäläistä liitosta ja solmua on vaikea kohdistaa täsmälleen tiettyyn silmukkaan. Nämä liitokset eivät itsessään poista suljettujen raitojen porrastumista.
 
 **Mitä jos lanka on liian helposti halkeavaa Russian joiniin?**
-Käytä päällekkäisliitosta. Russian join tarvitsee riittävän koossa pysyvät säikeet, joiden sisään neula voidaan pujottaa. Yksisäikeiset, löyhäkierteiset ja hyvin pörröiset langat eivät pidä sitä kunnolla.
+
+Jos päätä ei saa juuri tämän langan sisään pysyvästi, käytä päällekkäisliitosta tai aloita uudella langalla ja päättele molemmat päät. Älä ratkaise soveltuvuutta pelkän säiemäärän perusteella: rakenne, kitka ja tilkku ratkaisevat.
 
 **Näkyykö liitos nurjalla puolella?**
-Vähän. Siistikin huopaliitos voi tehdä pienen kohdan, jossa lanka tuntuu erilaiselta. Päällekkäisliitos näkyy kaksinkertaisena lankana, kunnes hännät on päätelty ja leikattu. Russian join voi tehdä paksumman kohdan, ja myös muut liitokset voivat jäädä näkyviin oikealla puolella. Näkyvyys riippuu langasta, kuidusta, neuletiheydestä, mallineuleesta, liitostavasta ja liitoskohdasta. Jos ulkonäöllä on väliä, testaa liitos ja sijoita se mahdollisuuksien mukaan huomaamattomampaan kohtaan.
+
+Liitos voi näkyä kummallakin puolella. Päiden leikkaaminen ei poista päällekkäisliitoksen kaksinkertaista lankaa eikä venäläisen liitoksen paksuutta. Huopaliitoksen jälki riippuu valmistelusta ja solmu jää solmuksi. Tarkista lanka, neuletiheys, mallineule ja sijoittelu omassa työssä.
 
 **Miten langanpäät päätellään pitsiin tai avoimeen neulepintaan?**
-Vaikeammin, koska piilotettavaa pintaa on vähemmän. Kuljeta häntä nurjalla puolella rakenteellista silmukkasaraketta pitkin, siis niitä silmukoita pitkin jotka eivät ole langankiertoja, ja halkaise säikeitä matkalla. Hyvin avoimessa pitsissä liitokset kannattaa suunnitella reunaan, jossa päät saa piiloon reunukseen eikä mallineuleen keskelle.
+
+Seuraa mallineuleen yhtenäistä silmukka-aluetta äläkä vedä päätä langankiertojen aukkojen yli. Reunus tai sauma voi tarjota päättelypaikan, mutta avoin reuna voi myös näyttää päät. Kokeile reittiä ja joustoa tilkussa. Säikeiden halkaiseminen on vaihtoehto vain siihen sopivassa langassa.
 
 **Miksi päätelty langanpää nousee aina esiin?**
-Yleensä häntä on liian lyhyt, suunnanvaihtoja on liian vähän tai lanka ei tartu itseensä, kuten superwash, silkki ja liukkaat synteettiset kuidut. Jatka päättelyä pidemmälle, lisää siksakmainen suunnanvaihto ja halkaise säikeitä sen sijaan, että kuljetat langan pinnalla. Jos lanka on hyvin liukas, jätä pidempi häntä ja tarkista päät uudelleen pingotuksen jälkeen.
+
+Tarkista päätellyn osuuden pituus, reitti ja kireys. Tee liian lyhyt tai liukuva päättely uudelleen pidempää reittiä viereisten silmukoiden kautta. Kokeile liukkaan langan päättelyä sen sallitussa hoidossa ennen lisäleikkaamista. Pesu tai pingotus ei korvaa pään kiinnittämistä.

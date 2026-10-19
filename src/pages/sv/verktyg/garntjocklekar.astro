@@ -37,7 +37,7 @@ const yarnWeightCopy = [
   },
   {
     name: "Super Bulky",
-    regional: "Super Chunky / Bulky / Roving",
+    regional: "Super Chunky / Super Bulky / Roving",
     uses: "Tunga filtar, halskragar och snabba accessoarer",
   },
   {
@@ -47,24 +47,27 @@ const yarnWeightCopy = [
   },
 ] as const;
 
-const rows = getLocalizedYarnWeightRows(yarnWeightCopy, "maskor / 10 cm");
+const rows = getLocalizedYarnWeightRows(
+  yarnWeightCopy,
+  "maskor / 4 tum (ca 10 cm)",
+);
 
 const faqs = [
   {
-    q: "Vilken garntjocklek är vanligast?",
-    a: "Worsted är fortfarande standard i många nordamerikanska mönster. DK dyker upp hela tiden i brittisk och europeisk stickning. Mellan de två kategorierna kan du täcka de flesta plagg, accessoarer och hemprojekt. Om du bygger ett garnlager för mångsidighet är de en bra start.",
+    q: "Vilka garntjocklekar är mångsidiga?",
+    a: "DK och worsted är användbara utgångspunkter för tröjor, mössor, halsdukar och filtar. Välj garn efter mönstrets stickfasthet och det resultat du vill ha.",
   },
   {
     q: "Kan man byta en garntjocklek mot en annan?",
-    a: "Ja, men det ändrar mer än storleken. Fall, garnåtgång och stickstorlek flyttar sig också. Vissa byten är förlåtande, till exempel DK mot en lätt worsted. Andra blir i praktiken ett helt annat projekt. Gör alltid ett stickprov innan du bestämmer dig, och räkna om garnåtgången med mönstrets totala maskantal som utgångspunkt.",
+    a: "Ja, men fall, garnåtgång och stickstorlek kan ändras. Gör ett stickprov i mönstrets struktur, tvätta och torka det som det färdiga plagget och kontrollera både stickfasthet och känsla. Jämför garnlängder i stället för antal nystan; det ursprungliga maskantalet räcker inte för att bestämma den nya garnåtgången.",
   },
   {
     q: 'Vad betyder "held double"?',
-    a: "Det betyder att du stickar två trådar tillsammans som om de vore ett tjockare garn. Två trådar fingering motsvarar ungefär DK-tyg, men fiber, tvinning och luftighet kan göra resultatet både lättare och tyngre. Det är användbart när du inte hittar rätt tjocklek i färgen eller fibern du vill ha. Gör ett stickprov, för resultatet går inte att förutsäga helt.",
+    a: "Det betyder att du stickar två trådar tillsammans som om de vore ett tjockare garn. Två trådar fingering motsvarar ungefär en stickad yta i ungefär DK-tjocklek, men fiber, tvinning och luftighet kan göra resultatet både lättare och tyngre. Det är användbart när du inte hittar rätt tjocklek i färgen eller fibern du vill ha. Gör ett stickprov, för resultatet går inte att förutsäga helt.",
   },
   {
     q: "Varför ser mitt garn tunnare eller tjockare ut än banderollen säger?",
-    a: "För att garntjocklekar är intervall, inte fasta punkter. Ett DK-garn ligger nära den tunna kanten av kategorin, ett annat nära den tjocka. Fiberinnehållet ändrar också intrycket. Bomull ser ofta plattare och tunnare ut än ull vid samma WPI, medan alpacka kan blomma upp och se tjockare ut efter tvätt. Kategorin på banderollen är en ungefärlig plats, och stickfastheten bekräftar var just ditt garn faktiskt hamnar.",
+    a: "Garntjocklekar är intervall. Fiber, tvinning och konstruktion påverkar utseendet, och tvätt kan ändra stickningen. Kontrollera ett tvättat och torkat stickprov i stället för att avgöra kategorin enbart utifrån utseendet.",
   },
 ];
 ---
@@ -82,6 +85,14 @@ const faqs = [
   variant="sand"
 >
   <div slot="tool">
+    <p>
+      <a href="https://www.craftyarncouncil.com/standards/yarn-weight-system"
+        >CYC:s riktvärden</a
+      > gäller maskantal i slätstickning över 4 tum (ungefär 10 cm) och stickstorlekar
+      att börja med. Spets stickas ofta på grövre stickor för ett öppet resultat;
+      följ mönstrets stickfasthet. Regionala namn är ungefärliga jämförelser, inte
+      exakta motsvarigheter.
+    </p>
     <div class="cat-list">
       {
         rows.map((row) => (
@@ -129,10 +140,7 @@ const faqs = [
 
   <div slot="content">
     <h2>Problemet med alla namn</h2>
-    <p>
-      Det är här garntjocklek blir riktigt rörigt, och det är här de flesta
-      misstag vid garnbyte börjar.
-    </p>
+    <p>Regionala garnnamn kan göra det svårt att välja ersättningsgarn.</p>
 
     <h3>Ply betyder inte det du tror</h3>
     <p>
@@ -143,12 +151,10 @@ const faqs = [
       i sport.
     </p>
     <p>
-      Termen levde kvar eftersom äldre spinningsstandarder gjorde att ett
-      4-ply-garn ganska pålitligt landade i en viss tjocklek. Den kopplingen
-      bröts när spinningsmetoderna blev mer varierade, men namnen följde inte
-      med. Så när ett äldre brittiskt mönster efterfrågar "3-ply" betyder det
-      ett specifikt tjockleksintervall, nära lace eller light fingering, inte
-      ett garn som bokstavligen består av tre trådar.
+      I ett äldre mönster bör du kontrollera det angivna garnet och
+      stickfastheten i stället för att gissa tjockleken från ply-talet.
+      Regionala ply-namn är beteckningar för tjocklek, inte alltid antalet
+      trådar i garnet.
     </p>
     <p>Det ställer till det för fler än man tror.</p>
 
@@ -161,8 +167,8 @@ const faqs = [
     </p>
     <p>
       Vissa garnföretag använder "worsted" och "aran" omväxlande på banderoller.
-      Andra drar en tydlig gräns. Stickprovet på banderollen är mer pålitligt än
-      namnet.
+      Andra drar en tydlig gräns. Stickfastheten på banderollen är mer pålitlig
+      än namnet.
     </p>
 
     <h3>DK, Light Worsted, 8-ply</h3>
@@ -208,11 +214,11 @@ const faqs = [
         <strong>3 - Light.</strong> DK och liknande mellantjocka plagg-garner.
       </li>
       <li>
-        <strong>4 - Medium.</strong> Worsted och aran. Intervallet de flesta stickare
-        tillbringar mest tid i.
+        <strong>4 - Medium.</strong> Worsted och aran.
       </li>
       <li>
-        <strong>5 - Bulky.</strong> Tjockare garner som bygger tyg snabbt.
+        <strong>5 - Bulky.</strong> Tjockare garner som ger stora maskor och snabba
+        projekt.
       </li>
       <li>
         <strong>6 - Super Bulky.</strong> Snabba accessoarer, tydlig struktur.
@@ -222,11 +228,10 @@ const faqs = [
       </li>
     </ul>
     <p>
-      Den här tabellen täcker de offentliga 0-7-intervallen i CYC:s nuvarande
-      tabell. CYC noterar numera att det uppdaterade systemet innehåller en Size
-      8-symbol, men de offentliga stickfasthets-, stickstorleks- och
-      WPI-intervallen som används här är fortfarande de publicerade
-      0-7-intervallen.
+      Sidan omfattar kategorierna 0–7 i de länkade CYC-tabellerna, från det
+      tunna Lace till det mycket tjocka Jumbo. Sock och Baby beskriver vanliga
+      användningar, inte en enda garntjocklek. Gram anger nystanets vikt och
+      meter garnets längd; inget av dem avgör ensamt garntjockleken.
     </p>
 
     <h2>Så identifierar du garntjocklek utan banderoll</h2>
@@ -237,14 +242,20 @@ const faqs = [
     </p>
     <p>
       Det snabbaste första testet är WPI, alltså hur många lindningar som ryms
-      på 2,5 cm.
+      på 2,54 cm.
     </p>
 
     <h3>Mäta WPI</h3>
     <p>
       Linda garnet runt en penna, linjal eller WPI-mätare. Håll varven lagom
       täta och sida vid sida, inte utsträckta eller överlappande. Räkna hur
-      många som ryms på 2,5 cm. CYC-guiden använder de här breda intervallen:
+      många som ryms på 2,54 cm. CYC-guiden använder de här breda intervallen:
+    </p>
+    <p>
+      <a
+        href="https://www.craftyarncouncil.com/standards/how-measure-wraps-inch-wpi"
+        >CYC:s WPI-guide</a
+      >
     </p>
     <ul>
       <li>30-40+ WPI -&gt; Lace (0)</li>
@@ -277,17 +288,16 @@ const faqs = [
 
     <h2>Välja garntjocklek till projektet</h2>
     <p>
-      Mönsterdesigners väljer tjocklek för tyget de vill ha, inte bara för
-      hastigheten. Byter du tjocklek ändras fall, täthet, värme och ofta hela
-      skalan på det färdiga arbetet.
+      Mönsterdesigners väljer tjocklek för den stickade yta de vill ha, inte
+      bara för hastigheten. Byter du tjocklek ändras fall, täthet, värme och
+      ofta hela skalan på det färdiga arbetet.
     </p>
     <p>
-      Tunnare tjocklekar, 0-2, ger mer fall och skarpare maskdefinition. Bra för
-      sockor, sjalar och flerfärgsstickning som behöver tydliga detaljer.
-      Mellantjocklekar, 3-4, särskilt DK och worsted, täcker enormt mycket:
-      tröjor, mössor, filtar, babystickning och texturerade accessoarer.
-      Tjockare tjocklekar, 5-7, prioriterar fart och värme men ger tjockare
-      sömmar och ett tyngre färdigt objekt. Värt att tänka på innan du byter.
+      Tunna garner (0–2) används ofta till sockor, sjalar och detaljerad
+      flerfärgsstickning. DK och worsted (3–4) passar många plagg, mössor och
+      filtar; tjocka garner (5–7) kan ge större maskor och snabbare projekt.
+      Fall, värme, maskdefinition och färdig vikt beror också på fiber,
+      konstruktion, strukturmönster och stickfasthet, inte bara tjocklek.
     </p>
     <p>
       Om du byter utanför den ursprungliga tjocklekskategorin behöver du räkna

@@ -1,17 +1,13 @@
 ---
 import type { Lang } from "../i18n/config";
+import { yarnReferences } from "../lib/yarnReferences";
+import { yarnReferenceCopy } from "../i18n/yarnReference";
 
 interface Props {
   lang?: Lang;
 }
 
 const { lang = "en" } = Astro.props;
-const showSecondaryYards =
-  lang !== "sv" &&
-  lang !== "no" &&
-  lang !== "fr" &&
-  lang !== "nl" &&
-  lang !== "da";
 const copy = {
   en: {
     legend: "Yarn Estimator",
@@ -31,8 +27,6 @@ const copy = {
     error: "Please select valid options.",
     metersLabel: "meters",
     yardsLabel: "yards",
-    disclaimer:
-      "Estimate based on stockinette stitch. Cables, colorwork, and textured stitches can use more yarn; 15-20% is a useful planning margin. Consider one extra skein when dye lots matter.",
     options: {
       sweater: "Sweater / Pullover",
       cardigan: "Cardigan",
@@ -67,7 +61,7 @@ const copy = {
     },
   },
   fi: {
-    legend: "Lankamuunnin",
+    legend: "Langanmenekkilaskuri",
     projectType: "Työn tyyppi",
     adultGarments: "AIKUISTEN VAATTEET",
     childGarments: "LASTEN VAATTEET",
@@ -84,8 +78,6 @@ const copy = {
     error: "Valitse kelvolliset vaihtoehdot.",
     metersLabel: "metriä",
     yardsLabel: "jaardia",
-    disclaimer:
-      "Arvio perustuu sileään neuleeseen. Palmikot, kirjoneule ja pintaneuleet voivat viedä enemmän lankaa; 15-20 % on hyödyllinen suunnittelumarginaali. Harkitse yhtä varakerää, kun värjäyserällä on väliä.",
     options: {
       sweater: "Neulepaita / pusero",
       cardigan: "Neuletakki",
@@ -110,7 +102,7 @@ const copy = {
       scarf: "Huivi",
       cowl: "Tuubihuivi / kauluri",
       shawl: "Hartiahuivi",
-      wrap: "Iso huivi / stole",
+      wrap: "Iso hartiahuivi",
       babyBlanket: "Vauvanpeitto",
       throwBlanket: "Torkkupeitto",
       lapBlanket: "Sylissä pidettävä peitto",
@@ -137,8 +129,6 @@ const copy = {
     error: "Wähle gültige Optionen aus.",
     metersLabel: "Meter",
     yardsLabel: "Yards",
-    disclaimer:
-      "Schätzung basiert auf glatt rechts. Zopfmuster, mehrfarbiges Stricken und Strukturmuster können mehr Garn brauchen; 15-20 % ist ein nützlicher Planungsspielraum. Zieh ein zusätzliches Knäuel in Betracht, wenn die Farbpartie wichtig ist.",
     options: {
       sweater: "Pullover",
       cardigan: "Cardigan / Strickjacke",
@@ -190,8 +180,6 @@ const copy = {
     error: "Välj giltiga alternativ.",
     metersLabel: "meter",
     yardsLabel: "yards",
-    disclaimer:
-      "Uppskattningen bygger på slätstickning. Flätor, flerfärgsstickning och strukturmönster kan kräva mer garn; 15-20 % är en användbar planeringsmarginal. Överväg ett extra nystan när färgbad spelar roll.",
     options: {
       sweater: "Tröja / pullover",
       cardigan: "Kofta",
@@ -243,8 +231,6 @@ const copy = {
     error: "Velg gyldige alternativer.",
     metersLabel: "meter",
     yardsLabel: "yards",
-    disclaimer:
-      "Beregningen tar utgangspunkt i glattstrikk. Fletter, mønsterstrikk og strukturmønster kan bruke mer garn; 15-20 % er en nyttig planleggingsmargin. Vurder ett ekstra nøste når fargeparti har betydning.",
     options: {
       sweater: "Genser",
       cardigan: "Cardigan / strikkejakke",
@@ -296,8 +282,6 @@ const copy = {
     error: "Choisis des options valides.",
     metersLabel: "mètres",
     yardsLabel: "yards",
-    disclaimer:
-      "Estimation basée sur du jersey. Les torsades, le jacquard et les points texturés utilisent souvent 15 à 20 % de fil en plus. Envisage une pelote de plus quand le numéro de bain compte.",
     options: {
       sweater: "Pull",
       cardigan: "Gilet / cardigan",
@@ -349,8 +333,6 @@ const copy = {
     error: "Kies geldige opties.",
     metersLabel: "meter",
     yardsLabel: "yards",
-    disclaimer:
-      "Schatting op basis van tricotsteek. Kabels, kleurwerk en structuursteken kunnen meer garen gebruiken; 15-20 % is een nuttige planningsmarge. Overweeg een extra bol als het verfbad belangrijk is.",
     options: {
       sweater: "Trui / pullover",
       cardigan: "Vest",
@@ -402,8 +384,6 @@ const copy = {
     error: "Vælg gyldige muligheder.",
     metersLabel: "meter",
     yardsLabel: "yards",
-    disclaimer:
-      "Beregningen tager udgangspunkt i glatstrik. Snoninger, mønsterstrik og strukturmønstre kan bruge mere garn; 15-20 % er en nyttig planlægningsmargen. Overvej ét nøgle ekstra, når farvepartiet betyder noget.",
     options: {
       sweater: "Sweater / trøje",
       cardigan: "Cardigan / strikkejakke",
@@ -439,419 +419,59 @@ const copy = {
   },
 }[lang];
 
-const yarnWeightLabels = {
-  en: {
-    lace: "Lace",
-    fingering: "Fingering",
-    sport: "Sport",
-    dk: "DK",
-    worsted: "Worsted",
-    aran: "Aran",
-    bulky: "Bulky",
-    superBulky: "Super Bulky",
-    jumbo: "Jumbo",
-  },
-  fi: {
-    lace: "Lace",
-    fingering: "Fingering",
-    sport: "Sport",
-    dk: "DK",
-    worsted: "Worsted",
-    aran: "Aran",
-    bulky: "Bulky",
-    superBulky: "Super Bulky",
-    jumbo: "Jumbo",
-  },
-  de: {
-    lace: "Lace",
-    fingering: "Fingering / Sockengarn",
-    sport: "Sport",
-    dk: "DK / Light",
-    worsted: "Worsted / Medium",
-    aran: "Aran",
-    bulky: "Bulky / Chunky",
-    superBulky: "Super Bulky / Super Chunky",
-    jumbo: "Jumbo",
-  },
-  sv: {
-    lace: "Lace",
-    fingering: "Fingering / sockgarn",
-    sport: "Sport",
-    dk: "DK",
-    worsted: "Worsted",
-    aran: "Aran",
-    bulky: "Bulky / chunky",
-    superBulky: "Super Bulky",
-    jumbo: "Jumbo",
-  },
-  no: {
-    lace: "Lace",
-    fingering: "Fingering / sokkegarn",
-    sport: "Sport",
-    dk: "DK / Light",
-    worsted: "Worsted / Aran / Medium",
-    aran: "Aran",
-    bulky: "Bulky / Chunky",
-    superBulky: "Super Bulky / Super Chunky",
-    jumbo: "Jumbo",
-  },
-  fr: {
-    lace: "Lace / dentelle",
-    fingering: "Fingering / Sock",
-    sport: "Sport",
-    dk: "DK / Light",
-    worsted: "Worsted / Aran / Medium",
-    aran: "Aran",
-    bulky: "Bulky / Chunky",
-    superBulky: "Super Bulky",
-    jumbo: "Jumbo",
-  },
-  nl: {
-    lace: "Lace",
-    fingering: "Fingering / sokkengaren",
-    sport: "Sport",
-    dk: "DK / Light Worsted",
-    worsted: "Worsted / Aran / Medium",
-    aran: "Aran",
-    bulky: "Bulky / Chunky",
-    superBulky: "Super Bulky / Super Chunky",
-    jumbo: "Jumbo",
-  },
-  da: {
-    lace: "Lace",
-    fingering: "Fingering / strømpegarn",
-    sport: "Sport",
-    dk: "DK / Light Worsted",
-    worsted: "Worsted / Aran / Medium",
-    aran: "Aran",
-    bulky: "Bulky / Chunky",
-    superBulky: "Super Bulky / Super Chunky",
-    jumbo: "Jumbo",
-  },
-}[lang];
-
-const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
-  fi: {
-    Preemie: "Keskonen",
-    Newborn: "Vastasyntynyt",
-    "3M": "3 kk",
-    "6M": "6 kk",
-    "12M": "12 kk",
-    "18M": "18 kk",
-    "24M": "24 kk",
-    "3-6M": "3-6 kk",
-    "6-12M": "6-12 kk",
-    "12-24M": "12-24 kk",
-    "2Y": "2 v",
-    "4Y": "4 v",
-    "6Y": "6 v",
-    "8Y": "8 v",
-    "10Y": "10 v",
-    "12Y": "12 v",
-    Toddler: "Taapero",
-    Child: "Lapsi",
-    Teen: "Nuori",
-    Adult: "Aikuinen",
-    Short: "Matala",
-    Tall: "Korkea",
-    "Short (120cm)": "Lyhyt (120 cm)",
-    "Medium (150cm)": "Keskipitkä (150 cm)",
-    "Long (180cm)": "Pitkä (180 cm)",
-    "Extra Long (200cm+)": "Erittäin pitkä (200 cm+)",
-    Small: "Pieni",
-    Medium: "Keskikokoinen",
-    Large: "Suuri",
-    "Small (60×75cm)": "Pieni (60 x 75 cm)",
-    "Standard (75×100cm)": "Tavallinen (75 x 100 cm)",
-    "Large (100×100cm)": "Suuri (100 x 100 cm)",
-    "Small (100×125cm)": "Pieni (100 x 125 cm)",
-    "Standard (125×150cm)": "Tavallinen (125 x 150 cm)",
-    "Large (150×175cm)": "Suuri (150 x 175 cm)",
-    "One Size (90×120cm)": "Yksi koko (90 x 120 cm)",
-    "Twin (170×225cm)": "Yhden hengen (170 x 225 cm)",
-    "Full (195×225cm)": "Kahden hengen (195 x 225 cm)",
-    "One Size": "Yksi koko",
-    "Small (30×30cm)": "Pieni (30 x 30 cm)",
-    "Medium (40×40cm)": "Keskikokoinen (40 x 40 cm)",
-    "Large (50×50cm)": "Suuri (50 x 50 cm)",
-  },
-  de: {
-    Preemie: "Frühchen",
-    Newborn: "Neugeboren",
-    "3M": "3 Mon.",
-    "6M": "6 Mon.",
-    "12M": "12 Mon.",
-    "18M": "18 Mon.",
-    "24M": "24 Mon.",
-    "3-6M": "3-6 Mon.",
-    "6-12M": "6-12 Mon.",
-    "12-24M": "12-24 Mon.",
-    "2Y": "2 J.",
-    "4Y": "4 J.",
-    "6Y": "6 J.",
-    "8Y": "8 J.",
-    "10Y": "10 J.",
-    "12Y": "12 J.",
-    Toddler: "Kleinkind",
-    Child: "Kind",
-    Teen: "Teenager",
-    Adult: "Erwachsen",
-    Short: "Kurz",
-    Tall: "Hoch",
-    "Short (120cm)": "Kurz (120 cm)",
-    "Medium (150cm)": "Mittel (150 cm)",
-    "Long (180cm)": "Lang (180 cm)",
-    "Extra Long (200cm+)": "Extra lang (200 cm+)",
-    Small: "Klein",
-    Medium: "Mittel",
-    Large: "Groß",
-    "Small (60×75cm)": "Klein (60 x 75 cm)",
-    "Standard (75×100cm)": "Standard (75 x 100 cm)",
-    "Large (100×100cm)": "Groß (100 x 100 cm)",
-    "Small (100×125cm)": "Klein (100 x 125 cm)",
-    "Standard (125×150cm)": "Standard (125 x 150 cm)",
-    "Large (150×175cm)": "Groß (150 x 175 cm)",
-    "One Size (90×120cm)": "Einheitsgröße (90 x 120 cm)",
-    "Twin (170×225cm)": "Einzelbett (170 x 225 cm)",
-    "Full (195×225cm)": "Doppelbett (195 x 225 cm)",
-    "Queen (230×250cm)": "Queen (230 x 250 cm)",
-    "King (270×250cm)": "King (270 x 250 cm)",
-    "One Size": "Einheitsgröße",
-    "Small (30×30cm)": "Klein (30 x 30 cm)",
-    "Medium (40×40cm)": "Mittel (40 x 40 cm)",
-    "Large (50×50cm)": "Groß (50 x 50 cm)",
-  },
-  fr: {
-    Preemie: "Prématuré",
-    Newborn: "Naissance",
-    "3M": "3 mois",
-    "6M": "6 mois",
-    "12M": "12 mois",
-    "18M": "18 mois",
-    "24M": "24 mois",
-    "3-6M": "3-6 mois",
-    "6-12M": "6-12 mois",
-    "12-24M": "12-24 mois",
-    "2Y": "2 ans",
-    "4Y": "4 ans",
-    "6Y": "6 ans",
-    "8Y": "8 ans",
-    "10Y": "10 ans",
-    "12Y": "12 ans",
-    Short: "Bas",
-    Tall: "Haut",
-    Toddler: "Tout-petit",
-    Child: "Enfant",
-    Teen: "Ado",
-    Adult: "Adulte",
-    "Short (120cm)": "Court (120 cm)",
-    "Medium (150cm)": "Moyen (150 cm)",
-    "Long (180cm)": "Long (180 cm)",
-    "Extra Long (200cm+)": "Très long (200 cm+)",
-    Small: "Petit",
-    Medium: "Moyen",
-    Large: "Grand",
-    "Small (60×75cm)": "Petit (60 x 75 cm)",
-    "Standard (75×100cm)": "Standard (75 x 100 cm)",
-    "Large (100×100cm)": "Grand (100 x 100 cm)",
-    "Small (100×125cm)": "Petit (100 x 125 cm)",
-    "Standard (125×150cm)": "Standard (125 x 150 cm)",
-    "Large (150×175cm)": "Grand (150 x 175 cm)",
-    "One Size (90×120cm)": "Taille unique (90 x 120 cm)",
-    "Twin (170×225cm)": "Lit une place (170 x 225 cm)",
-    "Full (195×225cm)": "Lit double (195 x 225 cm)",
-    "Queen (230×250cm)": "Queen (230 x 250 cm)",
-    "King (270×250cm)": "King (270 x 250 cm)",
-    "One Size": "Taille unique",
-    "Small (30×30cm)": "Petit (30 x 30 cm)",
-    "Medium (40×40cm)": "Moyen (40 x 40 cm)",
-    "Large (50×50cm)": "Grand (50 x 50 cm)",
-  },
-  sv: {
-    Preemie: "Prematur",
-    Newborn: "Nyfödd",
-    "3M": "3 mån",
-    "6M": "6 mån",
-    "12M": "12 mån",
-    "18M": "18 mån",
-    "24M": "24 mån",
-    "3-6M": "3-6 mån",
-    "6-12M": "6-12 mån",
-    "12-24M": "12-24 mån",
-    "2Y": "2 år",
-    "4Y": "4 år",
-    "6Y": "6 år",
-    "8Y": "8 år",
-    "10Y": "10 år",
-    "12Y": "12 år",
-    Toddler: "Småbarn",
-    Child: "Barn",
-    Teen: "Tonåring",
-    Adult: "Vuxen",
-    Short: "Kort",
-    Tall: "Hög",
-    "Short (120cm)": "Kort (120 cm)",
-    "Medium (150cm)": "Mellan (150 cm)",
-    "Long (180cm)": "Lång (180 cm)",
-    "Extra Long (200cm+)": "Extra lång (200 cm+)",
-    Small: "Liten",
-    Medium: "Mellan",
-    Large: "Stor",
-    "Small (60×75cm)": "Liten (60 x 75 cm)",
-    "Standard (75×100cm)": "Standard (75 x 100 cm)",
-    "Large (100×100cm)": "Stor (100 x 100 cm)",
-    "Small (100×125cm)": "Liten (100 x 125 cm)",
-    "Standard (125×150cm)": "Standard (125 x 150 cm)",
-    "Large (150×175cm)": "Stor (150 x 175 cm)",
-    "One Size (90×120cm)": "En storlek (90 x 120 cm)",
-    "Twin (170×225cm)": "Enkelsäng (170 x 225 cm)",
-    "Full (195×225cm)": "Dubbelsäng (195 x 225 cm)",
-    "Queen (230×250cm)": "Queen (230 x 250 cm)",
-    "King (270×250cm)": "King (270 x 250 cm)",
-    "One Size": "En storlek",
-    "Small (30×30cm)": "Liten (30 x 30 cm)",
-    "Medium (40×40cm)": "Mellan (40 x 40 cm)",
-    "Large (50×50cm)": "Stor (50 x 50 cm)",
-  },
-  no: {
-    Preemie: "Prematur",
-    Newborn: "Nyfødt",
-    "3M": "3 mnd",
-    "6M": "6 mnd",
-    "12M": "12 mnd",
-    "18M": "18 mnd",
-    "24M": "24 mnd",
-    "3-6M": "3-6 mnd",
-    "6-12M": "6-12 mnd",
-    "12-24M": "12-24 mnd",
-    "2Y": "2 år",
-    "4Y": "4 år",
-    "6Y": "6 år",
-    "8Y": "8 år",
-    "10Y": "10 år",
-    "12Y": "12 år",
-    Toddler: "Småbarn",
-    Child: "Barn",
-    Teen: "Ungdom",
-    Adult: "Voksen",
-    Short: "Kort",
-    Tall: "Høy",
-    "Short (120cm)": "Kort (120 cm)",
-    "Medium (150cm)": "Middels (150 cm)",
-    "Long (180cm)": "Lang (180 cm)",
-    "Extra Long (200cm+)": "Ekstra lang (200 cm+)",
-    Small: "Liten",
-    Medium: "Middels",
-    Large: "Stor",
-    "Small (60×75cm)": "Lite (60 x 75 cm)",
-    "Standard (75×100cm)": "Standard (75 x 100 cm)",
-    "Large (100×100cm)": "Stort (100 x 100 cm)",
-    "Small (100×125cm)": "Lite (100 x 125 cm)",
-    "Standard (125×150cm)": "Standard (125 x 150 cm)",
-    "Large (150×175cm)": "Stort (150 x 175 cm)",
-    "One Size (90×120cm)": "En størrelse (90 x 120 cm)",
-    "Twin (170×225cm)": "Enkeltseng (170 x 225 cm)",
-    "Full (195×225cm)": "Dobbeltseng (195 x 225 cm)",
-    "Queen (230×250cm)": "Queen (230 x 250 cm)",
-    "King (270×250cm)": "King (270 x 250 cm)",
-    "One Size": "En størrelse",
-    "Small (30×30cm)": "Lite (30 x 30 cm)",
-    "Medium (40×40cm)": "Middels (40 x 40 cm)",
-    "Large (50×50cm)": "Stort (50 x 50 cm)",
-  },
-  nl: {
-    Preemie: "Prematuur",
-    Newborn: "Pasgeboren",
-    "3M": "3 mnd",
-    "6M": "6 mnd",
-    "12M": "12 mnd",
-    "18M": "18 mnd",
-    "24M": "24 mnd",
-    "3-6M": "3-6 mnd",
-    "6-12M": "6-12 mnd",
-    "12-24M": "12-24 mnd",
-    Toddler: "Peuter",
-    "2Y": "2 jaar",
-    "4Y": "4 jaar",
-    "6Y": "6 jaar",
-    "8Y": "8 jaar",
-    "10Y": "10 jaar",
-    "12Y": "12 jaar",
-    Short: "Laag",
-    Tall: "Hoog",
-    Child: "Kind",
-    Teen: "Tiener",
-    Adult: "Volwassene",
-    "Short (120cm)": "Kort (120 cm)",
-    "Medium (150cm)": "Gemiddeld (150 cm)",
-    "Long (180cm)": "Lang (180 cm)",
-    "Extra Long (200cm+)": "Extra lang (200 cm+)",
-    Small: "Klein",
-    Medium: "Middel",
-    Large: "Groot",
-    "Small (60×75cm)": "Klein (60 x 75 cm)",
-    "Standard (75×100cm)": "Standaard (75 x 100 cm)",
-    "Large (100×100cm)": "Groot (100 x 100 cm)",
-    "Small (100×125cm)": "Klein (100 x 125 cm)",
-    "Standard (125×150cm)": "Standaard (125 x 150 cm)",
-    "Large (150×175cm)": "Groot (150 x 175 cm)",
-    "One Size (90×120cm)": "Een maat (90 x 120 cm)",
-    "Twin (170×225cm)": "Eenpersoonsbed (170 x 225 cm)",
-    "Full (195×225cm)": "Tweepersoonsbed (195 x 225 cm)",
-    "Queen (230×250cm)": "Queen (230 x 250 cm)",
-    "King (270×250cm)": "King (270 x 250 cm)",
-    "One Size": "Een maat",
-    "Small (30×30cm)": "Klein (30 x 30 cm)",
-    "Medium (40×40cm)": "Middel (40 x 40 cm)",
-    "Large (50×50cm)": "Groot (50 x 50 cm)",
-  },
-  da: {
-    Preemie: "For tidligt født",
-    Newborn: "Nyfødt",
-    "3M": "3 mdr.",
-    "6M": "6 mdr.",
-    "12M": "12 mdr.",
-    "18M": "18 mdr.",
-    "24M": "24 mdr.",
-    "3-6M": "3-6 mdr.",
-    "6-12M": "6-12 mdr.",
-    "12-24M": "12-24 mdr.",
-    "2Y": "2 år",
-    "4Y": "4 år",
-    "6Y": "6 år",
-    "8Y": "8 år",
-    "10Y": "10 år",
-    "12Y": "12 år",
-    Short: "Lav",
-    Tall: "Høj",
-    Toddler: "Tumling",
-    Child: "Barn",
-    Teen: "Teenager",
-    Adult: "Voksen",
-    "Short (120cm)": "Kort (120 cm)",
-    "Medium (150cm)": "Mellem (150 cm)",
-    "Long (180cm)": "Langt (180 cm)",
-    "Extra Long (200cm+)": "Ekstra langt (200 cm+)",
-    Small: "Lille",
-    Medium: "Mellem",
-    Large: "Stor",
-    "Small (60×75cm)": "Lille (60 x 75 cm)",
-    "Standard (75×100cm)": "Standard (75 x 100 cm)",
-    "Large (100×100cm)": "Stort (100 x 100 cm)",
-    "Small (100×125cm)": "Lille (100 x 125 cm)",
-    "Standard (125×150cm)": "Standard (125 x 150 cm)",
-    "Large (150×175cm)": "Stort (150 x 175 cm)",
-    "One Size (90×120cm)": "Én størrelse (90 x 120 cm)",
-    "Twin (170×225cm)": "Enkeltseng (170 x 225 cm)",
-    "Full (195×225cm)": "Dobbeltseng (195 x 225 cm)",
-    "Queen (230×250cm)": "Queen (230 x 250 cm)",
-    "King (270×250cm)": "King (270 x 250 cm)",
-    "One Size": "Én størrelse",
-    "Small (30×30cm)": "Lille (30 x 30 cm)",
-    "Medium (40×40cm)": "Mellem (40 x 40 cm)",
-    "Large (50×50cm)": "Stor (50 x 50 cm)",
-  },
-};
+const referenceCopy = yarnReferenceCopy[lang];
+const number = new Intl.NumberFormat(lang === "no" ? "nb" : lang, {
+  maximumFractionDigits: 3,
+});
+const references = yarnReferences.map((item) => {
+  const dimensionLabel = item.dimensionLabel
+    ? referenceCopy[item.dimensionLabel]
+    : item.family === "cowl"
+      ? referenceCopy.cowlDimensions
+      : referenceCopy.flatDimensions;
+  const dimensions =
+    (item.gauge[2] === 10 ? "" : "≈ ") +
+    item.dimensionsCm.map((value) => number.format(value)).join(" × ") +
+    " cm";
+  return {
+    ...item,
+    label: item.name + " / " + item.size + " / " + dimensions,
+    sizeLabel: item.size + " / " + dimensions,
+    details: [
+      referenceCopy[item.basis],
+      referenceCopy.dimensions + ": " + dimensionLabel + " " + dimensions,
+      referenceCopy.gauge +
+        ": " +
+        item.gauge[0] +
+        " " +
+        referenceCopy.stitches +
+        (item.gauge[1] === null
+          ? ""
+          : " × " +
+            item.gauge[1] +
+            " " +
+            (item.family === "cowl" || item.rounds
+              ? referenceCopy.rounds
+              : referenceCopy.rows)) +
+        " / " +
+        number.format(item.gauge[2]) +
+        (item.gauge[1] === null ? "" : " × " + number.format(item.gauge[2])) +
+        " cm",
+      referenceCopy.construction + ": " + referenceCopy[item.family],
+      referenceCopy.yarn + ": " + item.yarn,
+      referenceCopy.materials + ": " + item.materials,
+      ...(item.bodyCm
+        ? [
+            referenceCopy.bodyBust +
+              ": " +
+              item.bodyCm.map((value) => number.format(value)).join("–") +
+              " cm",
+          ]
+        : []),
+      ...(item.fit ? [referenceCopy[item.fit]] : []),
+    ],
+  };
+});
 ---
 
 <div
@@ -859,10 +479,14 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
   data-error={copy.error}
   data-meters-label={copy.metersLabel}
   data-yards-label={copy.yardsLabel}
-  data-show-secondary-yards={showSecondaryYards ? "true" : "false"}
-  data-size-labels={JSON.stringify(sizeLabelsByLang[lang] ?? {})}
-  data-disclaimer={copy.disclaimer}
+  data-lang={lang === "no" ? "nb" : lang}
+  data-references={JSON.stringify(references)}
+  data-unavailable={referenceCopy.unavailable}
+  data-source-label={referenceCopy.source}
+  data-disclaimer={referenceCopy.reference}
 >
+  <p class="reference-intro">{referenceCopy.reference}</p>
+  <p class="reference-intro">{referenceCopy.coverage}</p>
   <fieldset>
     <legend class="sr-only">{copy.legend}</legend>
 
@@ -924,34 +548,49 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
     </div>
 
     <div class="form-group">
-      <label for="project-size">{copy.size}</label>
-      <select id="project-size">
-        <option value="M">M</option>
+      <label for="reference-pattern">{referenceCopy.patternName}</label>
+      <select id="reference-pattern">
+        {
+          [
+            ...new Map(
+              references
+                .filter((item) => item.project === "sweater")
+                .map((item) => [item.family, item.name]),
+            ).entries(),
+          ].map(([family, name]) => <option value={family}>{name}</option>)
+        }
       </select>
       <p class="selected-label" aria-hidden="true" hidden></p>
     </div>
 
     <div class="form-group">
-      <label for="yarn-weight">{copy.yarnWeight}</label>
-      <select id="yarn-weight">
-        <option value="lace">{yarnWeightLabels.lace}</option>
-        <option value="fingering">{yarnWeightLabels.fingering}</option>
-        <option value="sport">{yarnWeightLabels.sport}</option>
-        <option value="dk">{yarnWeightLabels.dk}</option>
-        <option value="worsted" selected>{yarnWeightLabels.worsted}</option>
-        <option value="aran">{yarnWeightLabels.aran}</option>
-        <option value="bulky">{yarnWeightLabels.bulky}</option>
-        <option value="super-bulky">{yarnWeightLabels.superBulky}</option>
-        <option value="jumbo">{yarnWeightLabels.jumbo}</option>
+      <label for="project-size">{referenceCopy.case}</label>
+      <select id="project-size">
+        {
+          references
+            .filter(
+              (item) => item.project === "sweater" && item.family === "novice",
+            )
+            .map((item) => <option value={item.id}>{item.sizeLabel}</option>)
+        }
+      </select>
+      <p class="selected-label" aria-hidden="true" hidden></p>
+    </div>
+
+    <div class="form-group">
+      <label for="length-unit">{referenceCopy.unit}</label>
+      <select id="length-unit">
+        <option value="m">{copy.metersLabel}</option>
+        <option value="yd">{copy.yardsLabel}</option>
       </select>
       <p class="selected-label" aria-hidden="true" hidden></p>
     </div>
 
     <button type="button" class="btn-primary estimate-btn"
-      >{copy.estimate}</button
+      >{referenceCopy.show}</button
     >
 
-    <div class="result-area" aria-live="polite">
+    <div class="result-area" aria-live="polite" aria-atomic="true">
       <div class="result-wrapper">
         <div class="result-value" id="yarn-result"></div>
       </div>
@@ -960,151 +599,9 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
 </div>
 
 <script>
-  import { countUp } from "../scripts/motion";
+  import { referenceQuantity } from "../lib/yarnReferences";
 
   function initYarnEstimator() {
-    const PROJECTS: Record<string, Record<string, number>> = {
-      sweater: {
-        XS: 1000,
-        S: 1100,
-        M: 1200,
-        L: 1350,
-        XL: 1500,
-        "2XL": 1650,
-        "3XL": 1800,
-        "4XL": 1950,
-        "5XL": 2100,
-      },
-      cardigan: {
-        XS: 1100,
-        S: 1250,
-        M: 1400,
-        L: 1550,
-        XL: 1700,
-        "2XL": 1850,
-        "3XL": 2050,
-        "4XL": 2200,
-        "5XL": 2400,
-      },
-      vest: {
-        XS: 550,
-        S: 625,
-        M: 700,
-        L: 800,
-        XL: 900,
-        "2XL": 1000,
-        "3XL": 1100,
-      },
-      poncho: { "S/M": 900, "L/XL": 1100, "2XL+": 1300 },
-      "child-sweater": {
-        "2Y": 350,
-        "4Y": 425,
-        "6Y": 525,
-        "8Y": 625,
-        "10Y": 725,
-        "12Y": 850,
-      },
-      "child-cardigan": {
-        "2Y": 400,
-        "4Y": 500,
-        "6Y": 600,
-        "8Y": 725,
-        "10Y": 850,
-        "12Y": 975,
-      },
-      "baby-sweater": {
-        Preemie: 125,
-        Newborn: 150,
-        "3M": 175,
-        "6M": 200,
-        "12M": 250,
-        "18M": 300,
-        "24M": 350,
-      },
-      "baby-cardigan": {
-        Preemie: 150,
-        Newborn: 175,
-        "3M": 200,
-        "6M": 250,
-        "12M": 300,
-        "18M": 350,
-        "24M": 400,
-      },
-      "baby-booties": {
-        Preemie: 25,
-        Newborn: 30,
-        "3-6M": 40,
-        "6-12M": 50,
-        "12-24M": 60,
-      },
-      "adult-hat": { S: 100, M: 125, L: 150 },
-      "child-hat": { Toddler: 60, Child: 80, Teen: 100 },
-      "baby-hat": {
-        Preemie: 25,
-        Newborn: 35,
-        "3-6M": 45,
-        "6-12M": 55,
-        "12-24M": 65,
-      },
-      headband: { Child: 30, Adult: 50 },
-      "adult-mittens": { S: 100, M: 125, L: 150 },
-      "child-mittens": { Toddler: 45, Child: 65, Teen: 85 },
-      "adult-gloves": { S: 150, M: 175, L: 200 },
-      "fingerless-mitts": { S: 75, M: 90, L: 110 },
-      "adult-socks": {
-        "S (EU 36-38)": 175,
-        "M (EU 39-41)": 200,
-        "L (EU 42-44)": 225,
-        "XL (EU 45-47)": 250,
-      },
-      "child-socks": { Toddler: 75, Child: 100, Teen: 140 },
-      slippers: { S: 100, M: 125, L: 150 },
-      scarf: {
-        "Short (120cm)": 200,
-        "Medium (150cm)": 275,
-        "Long (180cm)": 350,
-        "Extra Long (200cm+)": 425,
-      },
-      cowl: { Short: 125, Tall: 200 },
-      shawl: { Small: 350, Medium: 550, Large: 750 },
-      wrap: { Small: 500, Medium: 700, Large: 900 },
-      "baby-blanket": {
-        "Small (60×75cm)": 550,
-        "Standard (75×100cm)": 750,
-        "Large (100×100cm)": 950,
-      },
-      "throw-blanket": {
-        "Small (100×125cm)": 1200,
-        "Standard (125×150cm)": 1600,
-        "Large (150×175cm)": 2100,
-      },
-      "lap-blanket": { "One Size (90×120cm)": 1000 },
-      afghan: {
-        "Twin (170×225cm)": 2750,
-        "Full (195×225cm)": 3200,
-        "Queen (230×250cm)": 4000,
-        "King (270×250cm)": 4800,
-      },
-      dishcloth: { "One Size": 60 },
-      "pillow-cover": {
-        "Small (30×30cm)": 150,
-        "Medium (40×40cm)": 250,
-        "Large (50×50cm)": 375,
-      },
-    };
-
-    const MULTIPLIERS: Record<string, number> = {
-      lace: 1.5,
-      fingering: 1.35,
-      sport: 1.2,
-      dk: 1.1,
-      worsted: 1.0,
-      aran: 0.95,
-      bulky: 0.8,
-      "super-bulky": 0.6,
-      jumbo: 0.45,
-    };
-
     document.querySelectorAll(".yarn-estimator").forEach((est) => {
       const projectSelect = est.querySelector(
         "#project-type",
@@ -1112,9 +609,10 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
       const sizeSelect = est.querySelector(
         "#project-size",
       ) as HTMLSelectElement;
-      const weightSelect = est.querySelector(
-        "#yarn-weight",
+      const patternSelect = est.querySelector(
+        "#reference-pattern",
       ) as HTMLSelectElement;
+      const unitSelect = est.querySelector("#length-unit") as HTMLSelectElement;
       const estimateBtn = est.querySelector(
         ".estimate-btn",
       ) as HTMLButtonElement;
@@ -1123,17 +621,36 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
       if (
         !projectSelect ||
         !sizeSelect ||
-        !weightSelect ||
+        !patternSelect ||
+        !unitSelect ||
         !estimateBtn ||
         !resultEl ||
         !resultArea
       )
         return;
-      const sizeLabels = JSON.parse(
-        est.getAttribute("data-size-labels") || "{}",
-      ) as Record<string, string>;
+      const references = JSON.parse(
+        est.getAttribute("data-references") || "[]",
+      ) as {
+        id: string;
+        project: string;
+        family: string;
+        name: string;
+        label: string;
+        sizeLabel: string;
+        details: string[];
+        source: string;
+      }[];
+      const format = new Intl.NumberFormat(
+        est.getAttribute("data-lang") || "en",
+        { maximumFractionDigits: 0 },
+      );
 
       const id = Math.random().toString(36).slice(2, 8);
+      patternSelect.id = `reference-pattern-${id}`;
+      (patternSelect.previousElementSibling as HTMLElement).setAttribute(
+        "for",
+        patternSelect.id,
+      );
       projectSelect.id = `project-type-${id}`;
       (projectSelect.previousElementSibling as HTMLElement).setAttribute(
         "for",
@@ -1144,29 +661,59 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
         "for",
         sizeSelect.id,
       );
-      weightSelect.id = `yarn-weight-${id}`;
-      (weightSelect.previousElementSibling as HTMLElement).setAttribute(
+      unitSelect.id = `length-unit-${id}`;
+      (unitSelect.previousElementSibling as HTMLElement).setAttribute(
         "for",
-        weightSelect.id,
+        unitSelect.id,
       );
       resultEl.id = `yarn-result-${id}`;
 
       function updateSizes() {
-        const project = PROJECTS[projectSelect.value];
-        if (!project) return;
-        const sizes = Object.keys(project);
+        const cases = references.filter(
+          (item) =>
+            item.project === projectSelect.value &&
+            item.family === patternSelect.value,
+        );
         sizeSelect.textContent = "";
-        sizes.forEach((size) => {
+        for (const item of cases) {
           const option = document.createElement("option");
-          option.value = size;
-          option.textContent = sizeLabels[size] || size;
+          option.value = item.id;
+          option.textContent = item.sizeLabel;
           sizeSelect.appendChild(option);
-        });
+        }
+        if (!cases.length) {
+          const option = document.createElement("option");
+          option.value = "";
+          option.textContent = est.getAttribute("data-unavailable") || "";
+          sizeSelect.appendChild(option);
+        }
       }
-      updateSizes();
-      projectSelect.addEventListener("change", updateSizes);
+      function updatePatterns() {
+        patternSelect.textContent = "";
+        const patterns = new Map(
+          references
+            .filter((item) => item.project === projectSelect.value)
+            .map((item) => [item.family, item.name]),
+        );
+        for (const [family, name] of patterns) {
+          const option = document.createElement("option");
+          option.value = family;
+          option.textContent = name;
+          patternSelect.appendChild(option);
+        }
+        if (!patterns.size) {
+          const option = document.createElement("option");
+          option.value = "";
+          option.textContent = est.getAttribute("data-unavailable") || "";
+          patternSelect.appendChild(option);
+        }
+        updateSizes();
+      }
+      updatePatterns();
+      projectSelect.addEventListener("change", updatePatterns);
+      patternSelect.addEventListener("change", updateSizes);
 
-      const selects = [projectSelect, sizeSelect, weightSelect];
+      const selects = [projectSelect, patternSelect, sizeSelect, unitSelect];
       const textMeasure = document.createElement("canvas").getContext("2d")!;
       function updateSelectedLabels() {
         selects.forEach((select) => {
@@ -1185,60 +732,71 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
       updateSelectedLabels();
       // Runs after the project listener has rebuilt and reset the size options.
       selects.forEach((select) =>
-        select.addEventListener("change", updateSelectedLabels),
+        select.addEventListener("change", () => {
+          updateSelectedLabels();
+          resultEl.textContent = "";
+          resultArea.classList.remove("is-open");
+        }),
       );
       const labelResizeObserver = new ResizeObserver(updateSelectedLabels);
       selects.forEach((select) => labelResizeObserver.observe(select));
       void document.fonts.ready.then(updateSelectedLabels);
 
       estimateBtn.addEventListener("click", () => {
-        const project = PROJECTS[projectSelect.value];
-        const size = sizeSelect.value;
-        const yarnWeight = weightSelect.value;
+        const result = referenceQuantity(
+          projectSelect.value,
+          sizeSelect.value,
+          unitSelect.value,
+        );
         resultEl.textContent = "";
         resultEl.className = "result-value";
-
-        if (!project || !project[size] || !MULTIPLIERS[yarnWeight]) {
-          const errorSpan = document.createElement("span");
-          errorSpan.className = "form-error";
-          errorSpan.setAttribute("role", "alert");
-          errorSpan.textContent = est.getAttribute("data-error") || "";
-          resultEl.appendChild(errorSpan);
-          resultArea.classList.add("is-open");
+        resultArea.classList.add("is-open");
+        if (!result || result.reference.family !== patternSelect.value) {
+          const message = document.createElement("span");
+          message.className = "form-error";
+          message.textContent = est.getAttribute("data-unavailable") || "";
+          resultEl.appendChild(message);
           return;
         }
-
-        const baseMeters = project[size];
-        const multiplier = MULTIPLIERS[yarnWeight];
-        const meters = Math.round(baseMeters * multiplier);
-        const yards = Math.round(meters * 1.094);
-
+        const details = references.find(
+          (item) => item.id === result.reference.id,
+        )!;
         const wrapper = document.createElement("div");
         wrapper.className = "tool-result";
-        const numberEl = document.createElement("span");
-        numberEl.className = "result-number";
-        numberEl.textContent = "0";
-        const labelEl = document.createElement("span");
-        labelEl.className = "result-label";
-        const metersLabel = est.getAttribute("data-meters-label") || "";
-        const yardsLabel = est.getAttribute("data-yards-label") || "";
-        const showSecondaryYards =
-          est.getAttribute("data-show-secondary-yards") === "true";
-        labelEl.textContent = showSecondaryYards
-          ? `${metersLabel} (~${yards} ${yardsLabel})`
-          : metersLabel;
-        wrapper.appendChild(numberEl);
-        wrapper.appendChild(labelEl);
-
-        const disclaimer = document.createElement("div");
-        disclaimer.className = "result-disclaimer";
-        disclaimer.textContent = est.getAttribute("data-disclaimer") || "";
-        wrapper.appendChild(disclaimer);
-
+        const title = document.createElement("p");
+        title.textContent = details.label;
+        wrapper.appendChild(title);
+        const number = document.createElement("span");
+        number.className =
+          result.quantityMax === undefined
+            ? "result-number"
+            : "result-number is-range";
+        number.textContent =
+          format.format(result.quantity) +
+          (result.quantityMax === undefined
+            ? ""
+            : "–" + format.format(result.quantityMax));
+        wrapper.appendChild(number);
+        const unit = document.createElement("span");
+        unit.className = "result-label";
+        unit.textContent =
+          est.getAttribute(
+            unitSelect.value === "m" ? "data-meters-label" : "data-yards-label",
+          ) || "";
+        wrapper.appendChild(unit);
+        for (const text of [
+          ...details.details,
+          est.getAttribute("data-disclaimer") || "",
+        ]) {
+          const paragraph = document.createElement("p");
+          paragraph.textContent = text;
+          wrapper.appendChild(paragraph);
+        }
+        const link = document.createElement("a");
+        link.href = details.source;
+        link.textContent = est.getAttribute("data-source-label") || "";
+        wrapper.appendChild(link);
         resultEl.appendChild(wrapper);
-        resultArea.classList.add("is-open");
-
-        countUp(numberEl, meters);
       });
     });
   }
@@ -1246,6 +804,23 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
 </script>
 
 <style>
+  :global(.form-card.variant-rust:has(.yarn-estimator)) {
+    --paper: var(--stripe-rust-accessible);
+    --paper-2: var(--walnut);
+  }
+
+  :global(.yarn-estimator .tool-result a) {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+
+  .reference-intro,
+  :global(.yarn-estimator .tool-result) {
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
   .yarn-estimator fieldset {
     border: 0;
     margin: 0;
@@ -1414,8 +989,12 @@ const sizeLabelsByLang: Partial<Record<Lang, Record<string, string>>> = {
     font-family: var(--body-ed);
     font-size: 1rem;
     color: var(--ink);
-    opacity: 0.7;
+    opacity: 1;
     margin-top: 4px;
+  }
+
+  :global(.yarn-estimator .result-number.is-range) {
+    font-size: clamp(1.75rem, 5vw, 3rem);
   }
 
   :global(.result-disclaimer) {

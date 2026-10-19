@@ -98,8 +98,8 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "alt",
-    def: "vekselvis / alternativt (alternate)",
-    search: "alternate vekselvis alternativt",
+    def: "annenhver; f.eks. alt rows betyr annenhver pinne",
+    search: "alternate vekselvis annenhver pinne",
     categories: ["general"],
   },
   {
@@ -128,13 +128,13 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "sl",
-    def: "ta masken løst av (slip)",
+    def: "ta løst av uten å strikke; oppskriften angir rett eller vrang avløfting",
     search: "slip ta masken løst av løft maske",
     categories: ["general"],
   },
   {
     abbr: "sl st",
-    def: "ta masken løst av (slip stitch)",
+    def: "ta en maske løst av uten å strikke; følg oppskriftens anvisning",
     search: "slip stitch ta masken løst av løft maske",
     categories: ["general"],
   },
@@ -201,13 +201,13 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "kfb",
-    def: "strikk rett i fremre og bakre maskeledd (knit front and back)",
+    def: "strikk rett i fremre og bakre maskeledd i samme maske (1 maske økt)",
     search: "knit front and back fremre bakre maskeledd økning",
     categories: ["increases"],
   },
   {
     abbr: "pfb",
-    def: "strikk vrangt i fremre og bakre maskeledd (purl front and back)",
+    def: "strikk vrang i fremre og bakre maskeledd i samme maske (1 maske økt)",
     search: "purl front and back vrangt fremre bakre maskeledd økning",
     categories: ["increases"],
   },
@@ -238,33 +238,33 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "ssk",
-    def: "ta 2 masker løst av, strikk dem rett sammen, venstrelent felling",
+    def: "ta 2 masker rett løst av én om gangen, strikk dem rett sammen gjennom bakre maskeledd (mot venstre; 1 maske felt)",
     search: "slip slip knit venstrelent felling",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "skp",
-    def: "ta 1 maske løst av, strikk 1 rett, trekk den løse masken over",
+    def: "ta 1 maske rett løst av, strikk 1 rett og trekk den løse masken over (mot venstre; 1 maske felt)",
     search: "slip knit pass slipped stitch over trekk løs maske over felling",
     categories: ["decreases"],
   },
   {
     abbr: "sk2p",
-    def: "ta 1 løs av, strikk 2 rett sammen, trekk den løse masken over",
+    def: "ta 1 maske rett løst av, strikk 2 rett sammen og trekk den løse masken over (mot venstre; 2 masker felt)",
     search:
       "slip one knit two together pass slipped stitch over dobbel felling",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "s2kp",
-    def: "ta 2 løst av, strikk 1 rett, trekk de 2 løse maskene over, sentrert dobbel felling",
+    def: "ta 2 masker løst av sammen som om de skulle strikkes rett sammen, strikk 1 rett og trekk begge løse maskene over (sentrert; 2 masker felt)",
     search:
       "slip two knit one pass two slipped stitches over sentrert dobbel felling",
     categories: ["decreases"],
   },
   {
     abbr: "CDD",
-    def: "sentrert dobbel felling (centered double decrease)",
+    def: "sentrert dobbel felling (2 masker felt); følg metoden i oppskriften",
     search: "centered double decrease sentrert dobbel felling",
     categories: ["decreases"],
   },
@@ -283,37 +283,37 @@ const abbreviations: Abbreviation[] = [
 
   {
     abbr: "C4F",
-    def: "flette over 4 masker foran (cable 4 front)",
+    def: "flette over 4 masker: hold 2 på flettepinne foran arbeidet, strikk 2 rett og deretter de 2 på flettepinnen rett",
     search: "cable four front flette foran",
     categories: ["cables"],
   },
   {
     abbr: "C4B",
-    def: "flette over 4 masker bak (cable 4 back)",
+    def: "flette over 4 masker: hold 2 på flettepinne bak arbeidet, strikk 2 rett og deretter de 2 på flettepinnen rett",
     search: "cable four back flette bak",
     categories: ["cables"],
   },
   {
     abbr: "C6F",
-    def: "flette over 6 masker foran (cable 6 front)",
+    def: "flette over 6 masker: hold 3 på flettepinne foran arbeidet, strikk 3 rett og deretter de 3 på flettepinnen rett",
     search: "cable six front flette foran",
     categories: ["cables"],
   },
   {
     abbr: "C6B",
-    def: "flette over 6 masker bak (cable 6 back)",
+    def: "flette over 6 masker: hold 3 på flettepinne bak arbeidet, strikk 3 rett og deretter de 3 på flettepinnen rett",
     search: "cable six back flette bak",
     categories: ["cables"],
   },
   {
     abbr: "T2F",
-    def: "vri 2 masker foran (twist 2 front)",
+    def: "kryss 2 masker med 1 maske foran arbeidet; rett og vrang strikkes som angitt i oppskriften",
     search: "twist two front vri foran flette",
     categories: ["cables"],
   },
   {
     abbr: "T2B",
-    def: "vri 2 masker bak (twist 2 back)",
+    def: "kryss 2 masker med 1 maske bak arbeidet; rett og vrang strikkes som angitt i oppskriften",
     search: "twist two back vri bak flette",
     categories: ["cables"],
   },
@@ -380,33 +380,40 @@ const faqs = [
   },
   {
     q: "Hva betyr stjernen i en strikkeoppskrift?",
-    a: 'Den markerer en repetisjon. Alt mellom stjernen og neste matchende instruksjon, ofte "rep from *", strikkes om og om igjen over pinnen eller omgangen. Klammer og parenteser gjør samme jobb: de grupperer en serie trinn som gjentas et bestemt antall ganger. Å overse en repetisjonsmarkør er en rask vei til feil maskeantall.',
+    a: "En stjerne markerer starten på en gjentakelse. Gjenta den markerte sekvensen så mange ganger eller til det punktet oppskriften angir. Parenteser og klammer kan også vise ulike størrelser eller flere trinn i samme maske. Les instruksjonen som hører til markeringen.",
   },
   {
     q: "Hva gjør jeg hvis jeg ikke finner en forkortelse i en standardliste?",
-    a: "Da er det nesten sikkert en oppskriftsspesifikk forkortelse som designeren har definert. Gå tilbake til starten av oppskriften og se etter en forkortelsesliste eller et avsnitt med maskedefinisjoner. Flette- og hullmønstre er den største kilden til egne kortformer, siden designere ofte lager kompakt notasjon for teknikker som bare gjelder akkurat det designet. Hvis forkortelsen ikke står der, er oppskriftsnotater eller diagramnøkkel neste sted å sjekke.",
+    a: "Det kan være en forkortelse som er definert i akkurat den oppskriften. Sjekk forkortelseslisten, maskeforklaringene, merknadene og tegnforklaringen. Spør designeren hvis betydningen fortsatt er uklar før du bytter teknikk.",
   },
   {
     q: "Hva er forskjellen på ssk og skp?",
-    a: "Begge er venstrelente fellinger og gir nesten samme resultat i det ferdige strikketøyet. ssk er moderne standard og finnes i de fleste nye oppskrifter. skp dukker oftere opp i eldre oppskrifter. Utførelsen er litt forskjellig, så følg forkortelsen oppskriften bruker.",
+    a: "Begge feller én maske og heller mot venstre sett fra glattstrikkens rettside. Vanlig ssk: ta to masker rett løst av én om gangen og strikk dem rett sammen gjennom bakre maskeledd. Skp: ta én maske rett løst av, strikk én rett og trekk den løse masken over. Utseendet kan variere, så følg oppskriftens metode.",
   },
 ];
 ---
 
 <LocalizedToolPage
-  title="Strikkeforkortelser: søkbar ordliste"
-  description="Slå opp strikkeforkortelser eller søk etter teknikk. Komplett ordliste over oppskriftstermer fra k2tog til psso, sortert etter kategori."
+  title="Engelske strikkeforkortelser på norsk"
+  description="Slå opp vanlige engelske strikkeforkortelser med norske forklaringer. Søk etter forkortelse eller teknikk og filtrer etter kategori."
   canonicalPath={routes.tool.knittingAbbreviations.no}
   lang="no"
   alternates={routes.tool.knittingAbbreviations}
-  intro="Søk etter en forkortelse for å se hva den betyr, eller søk etter en teknikk for å finne forkortelsene."
+  intro="Søk blant vanlige engelske strikkeforkortelser og teknikker forklart på norsk bokmål. Utvalget hjelper deg å lese engelske oppskrifter."
   schemaName="Strikkeforkortelser"
-  schemaDescription="Søkbar ordliste over strikkeforkortelser og teknikknavn."
+  schemaDescription="Slå opp vanlige engelske strikkeforkortelser med norske forklaringer. Søk etter forkortelse eller teknikk og filtrer etter kategori."
   faqs={faqs}
   variant="brown"
 >
   <div slot="tool">
     <div class="abbr-wrapper">
+      <p>
+        Oppskriftens egen forklaring gjelder. Her strikkes maskene fra venstre
+        til høyre pinne, og økninger og fellinger i rettmasker beskrives sett
+        fra glattstrikkens rettside. Garn foran/bak betyr mot deg/fra deg,
+        uansett rettside eller vrangside. Følg oppskriften for avløfting og
+        flettemetoder; også ssk finnes i flere varianter.
+      </p>
       <input
         type="text"
         id="abbr-search"
@@ -477,7 +484,7 @@ const faqs = [
       <strong>Sammensatte trinn</strong> stabler bokstaver og tall. <code
         >k2tog</code
       > betyr strikk to masker rett sammen. <code>p2tog</code> er samme idé, men vrangt.
-      Mye strikkeforkortelse fungerer slik. Senk tempoet og les bokstavelig.
+      Mange strikkeforkortelser fungerer slik. Senk tempoet og les bokstavelig.
     </p>
     <p>
       <strong>Sidemarkører</strong> forteller hvilken side av arbeidet du er på. <code
@@ -499,11 +506,11 @@ const faqs = [
       >. Rammeverk, ikke masker.
     </p>
     <p>
-      Tegnsetting betyr også noe. Stjerner og semikolon er ikke pynt. <code
-        >*k2, p2; rep from *</code
-      > betyr at alt mellom stjernen og semikolonet gjentas. Klammer og parenteser
-      fungerer på lignende måte og grupperer trinn som gjentas et bestemt antall ganger.
-      Å overse en repetisjonsmarkør er en rask vei til feil maskeantall.
+      <code>*k2, p2; rep from *</code> gjentar to rett og to vrang: fire masker per
+      rapport. En stjerne markerer starten på en gjentakelse. Gjenta den markerte
+      sekvensen så mange ganger eller til det punktet oppskriften angir. Parenteser
+      og klammer kan også vise ulike størrelser eller flere trinn i samme maske. Les
+      instruksjonen som hører til markeringen.
     </p>
 
     <h2>Forskjeller mellom US og UK</h2>
@@ -531,13 +538,13 @@ const faqs = [
       instruksjonene.
     </p>
     <p>
-      Flettemønstre er den største kilden til slike. En diagramnøkkel kan
-      definere <code>C4F</code>, <code>C6B</code> eller noe mer spesifikt for designet.
-      Tallet sier som regel hvor mange masker som krysses. Bokstaven til slutt, F
-      eller B, sier retning: front eller back, altså hvor du holder flettepinnen mens
-      du krysser. Men designere er ikke alltid konsekvente. Noen bruker L og R i stedet.
-      Noen teller alle maskene som inngår, andre bare maskene som flyttes. Oppskriftens
-      egen definisjon gjelder.
+      Flettemønstre kan bruke egne forkortelser. En diagramnøkkel kan definere <code
+        >C4F</code
+      >, <code>C6B</code> eller noe mer spesifikt for designet. Tallet sier som regel
+      hvor mange masker som krysses. Bokstaven til slutt, F eller B, sier retning:
+      front eller back, altså hvor du holder flettepinnen mens du krysser. Men designere
+      er ikke alltid konsekvente. Noen bruker L og R i stedet. Noen teller alle maskene
+      som inngår, andre bare maskene som flyttes. Oppskriftens egen definisjon gjelder.
     </p>
     <p>
       Hullmønstre bygger også sammensatte kortformer. Én oppskrift skriver <code
@@ -563,15 +570,18 @@ const faqs = [
       De sparer plass, men gir bare mening i den oppskriften.
     </p>
     <p>
-      Grunnregelen: hvis du ikke finner forkortelsen i en standardreferanse, er
-      den nesten sikkert definert i oppskriftshodet. Bla opp før du leter
-      videre.
+      Det kan være en forkortelse som er definert i akkurat den oppskriften.
+      Sjekk forkortelseslisten, maskeforklaringene, merknadene og
+      tegnforklaringen. Spør designeren hvis betydningen fortsatt er uklar før
+      du bytter teknikk.
     </p>
 
     <h2>Hva symbolene i strikkediagrammer betyr</h2>
     <p>
-      Diagrammer bruker symboler i stedet for utskrevne pinner eller omganger.
-      Hver rute er én maske, og symbolet i ruten sier hva du skal gjøre.
+      Diagramsymboler viser hva du skal gjøre. En rute tilsvarer ofte én ferdig
+      maske, men fellinger bruker flere masker, og flettesymboler kan dekke
+      flere ruter. En rute for “ingen maske” hoppes over uten å strikke eller ta
+      av en maske. Bruk tegnforklaringen når du teller.
     </p>
     <p>
       Det finnes ingen universell standard for diagramsymboler, men mange
@@ -582,11 +592,12 @@ const faqs = [
       venstre markerer <code>ssk</code>.
     </p>
     <p>
-      Diagrammer leses nedenfra og opp, fordi strikketøyet vokser oppover. På
-      flate diagrammer går RS-pinner fra høyre mot venstre og WS-pinner fra
-      venstre mot høyre, i samme retning som pinnene beveger seg. Diagrammer for
-      rundstrikk leses fra høyre mot venstre på hver omgang, siden du alltid
-      arbeider fra rettsiden.
+      Diagrammer leses vanligvis nedenfra og opp. Når maskene strikkes fra
+      venstre til høyre pinne, leses rettsidepinner normalt fra høyre mot
+      venstre og vrangsidepinner fra venstre mot høyre. Ved rundstrikk med
+      rettsiden mot deg leses omgangene normalt fra høyre mot venstre. Sjekk
+      nummerering og merknader: vrangsidepinner kan være utelatt, og andre
+      arbeidsretninger krever egne instrukser.
     </p>
     <p>
       Hvis en oppskrift har både skrevne instruksjoner og diagram, bør de
@@ -603,10 +614,11 @@ const faqs = [
       samme dusin forkortelsene dekker mye av det du strikker.
     </p>
     <p>
-      Et par som ofte forvirrer: <code>ssk</code> og <code>skp</code> er begge venstrelente
-      fellinger. <code>ssk</code> er moderne standard. <code>skp</code> ses mer i
-      eldre oppskrifter. De blir like i resultatet, men utførelsen er litt ulik, så
-      følg oppskriften slik den står.
+      Begge feller én maske og heller mot venstre sett fra glattstrikkens
+      rettside. Vanlig ssk: ta to masker rett løst av én om gangen og strikk dem
+      rett sammen gjennom bakre maskeledd. Skp: ta én maske rett løst av, strikk
+      én rett og trekk den løse masken over. Utseendet kan variere, så følg
+      oppskriftens metode.
     </p>
     <p>
       En annen verdt å merke seg: <code>psso</code>, pass slipped stitch over,
@@ -616,10 +628,9 @@ const faqs = [
       løst av i forrige trinn.
     </p>
     <p>
-      Craft Yarn Council publiserer en mye brukt standardliste over
-      forkortelser, og de fleste designere følger den for vanlige termer. Utover
-      grunnbegrepene tar regionale vaner og oppskriftsspesifikke kortformer
-      over. "Sjekk oppskriftsnøkkelen" er bedre råd enn "pugg en hovedliste".
+      Craft Yarn Council har en referanseliste for vanlige strikkeforkortelser.
+      Regionale og oppskriftsspesifikke betegnelser kan variere, så sjekk
+      oppskriftens egen forklaring.
     </p>
     <p>
       Ha en referanse åpen mens du strikker. <a href="/">KnitTools</a> har en søkbar

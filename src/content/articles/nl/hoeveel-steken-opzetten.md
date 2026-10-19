@@ -28,15 +28,17 @@ Je proeflapje geeft 20 steken per 10 cm en je wilt iets van 25 cm breed? Zet 50 
 
 Heb je over 5 cm gemeten, reken dan eerst om. 10 steken over 5 cm geeft 20 steken per 10 cm.
 
-De [Opzetcalculator](/nl/breitools/opzetcalculator/) van KnitTools doet de basisrekensom en afronding naar even aantallen voor je, maar het helpt nog steeds om te weten hoe een logisch antwoord eruitziet. Als een dekenpaneel van 50 cm breed in worsted-garen volgens de berekening maar een paar dozijn steken nodig heeft, klopt er iets niet.
+De [Opzetcalculator](/nl/breitools/opzetcalculator/) van KnitTools berekent het basisaantal en rondt af naar het dichtstbijzijnde even aantal; een oneven geheel getal wordt naar boven afgerond. De Nederlandse versie gebruikt alleen cm: voer steken per 10 cm en breedte in cm in. De gebruikelijke aanduiding 10 cm / 4 inch is bij benadering: 4 inch is precies 10,16 cm. Reken een meting over 4 inch dus eerst om naar steken per 10 cm. Bewegingsruimte, rapporten, balanssteken, randen en naden moet je zelf verwerken; de calculator past niet het hele patroon aan een andere maat aan.
 
 ## Meet je stekenverhouding goed
 
 Het aantal opzetsteken is zo betrouwbaar als het proeflapje erachter. Twee fouten zorgen steeds opnieuw voor problemen:
 
+Gebruik het garen, de naalden en het steekpatroon van je project. Brei het proeflapje heen en weer of in het rond, net als het werk. De stekenverhouding in tricotsteek voorspelt niet de breedte van boordsteek, ajour of kabels.
+
 **Meten aan de rand van het proeflapje.** Randsteken zijn niet betrouwbaar. Meet in het midden, weg van de opzetrand, de afkantrand en de zijkanten.
 
-**Meten voor wassen en blocken.** Het proeflapje op de naald is nog niet de afgewerkte stof. Als de stekenverhouding in het patroon gebaseerd is op gewassen of geblockt breiwerk, gebruik dan ook je gewassen of geblockte proeflapje voor de opzetberekening.
+**In de verkeerde toestand meten.** Volg de toestand die het patroon aangeeft, ook vóór blocken als dat gevraagd wordt. Anders behandel je het lapje zoals het afgewerkte werk, binnen de wasvoorschriften van het garen, en meet je het volledig droog en ontspannen.
 
 Nog geen proeflapje? [Stekenverhouding meten](/nl/artikelen/stekenverhouding-meten/) behandelt het hele proces.
 
@@ -44,15 +46,11 @@ Nog geen proeflapje? [Stekenverhouding meten](/nl/artikelen/stekenverhouding-met
 
 Neem een eenvoudige sjaal in tricotsteek, 20 cm breed, met een stekenverhouding van 18 steken per 10 cm.
 
-18 ÷ 10 = 1,8 steken per cm.
+18 ÷ 10 = 1,8 steken per cm. 20 × 1,8 = 36 steken. Voer 18 en 20 in de calculator in: het resultaat is 36.
 
-20 x 1,8 = 36 steken.
+Bij een ander steekpatroon meet je een nieuw proeflapje. Geeft ook dat patroon 1,8 steken per cm en vraagt het een zuiver veelvoud van 4 of 6, dan past 36. Voor een zuiver veelvoud van 8 zijn de opties 32 en 40, ongeveer 17,8 en 22,2 cm. Controleer de volledige opbouw voordat je kiest.
 
-Dat is het basisaantal. Als de rand in 2x2 boordsteek wordt gebreid, dus een veelvoud van 4, past 36 al precies. Als de rand een ajourrapport van 6 steken gebruikt, werkt 36 ook. Is het rapport 8 steken, dan liggen de dichtstbijzijnde opties op 32 steken, iets smaller, of 40 steken, iets breder.
-
-Beschrijft de doelbreedte van 20 cm alleen het centrale patroonvlak, dan brengen één kantsteek aan elke kant buiten dat vlak het totaal op 38 steken. Moet de volledige breedte van 20 cm de kantsteken al bevatten, houd ze dan binnen het berekende totaal van 36 steken in plaats van ze achteraf toe te voegen; 38 steken meten bij 1,8 steken per cm ongeveer 21,1 cm.
-
-De rekensom kost ongeveer een halve minuut. Dat doen voor je opzet is sneller dan na zes toeren ontdekken dat de sjaal maar 15 cm breed wordt.
+Geldt 20 cm alleen voor het middenvlak, dan geven 36 steken daar plus één aparte kantsteek aan elke kant 38 in totaal. Bij dezelfde stekenverhouding over de hele breedte is dat ongeveer 21,1 cm vóór het naaien. Omvat 20 cm ook de twee randen en vraagt het midden een veelvoud van 8, gebruik dan de volledige formule 8n + 2 (n = aantal rapporten): (36 − 2) ÷ 8 = 4,25 rapporten. Vier of vijf rapporten geven 34 of 42 steken in totaal, ongeveer 18,9 of 23,3 cm. Rond niet eerst het totaal af op een rapportveelvoud om daarna de randen toe te voegen. Een andere stekenverhouding in de rand en de breedte die in naden verdwijnt, bereken je apart.
 
 ## Aanpassen voor patroonherhalingen
 
@@ -60,7 +58,7 @@ Hier wordt het interessanter. De simpele vermenigvuldiging hierboven? Dat is een
 
 De meeste steekpatronen herhalen over een vast aantal steken, en je opzet moet bij die herhaling passen. Je kunt niet zomaar op elk getal uitkomen en hopen dat het patroon goed uitkomt.
 
-Stel dat de basisberekening 97 steken oplevert, maar je steekpatroon herhaalt over 6 steken. De dichtstbijzijnde werkbare aantallen zijn 96 en 102. Je moet dan kiezen of iets smaller of iets breder logischer is voor je project. Meestal is dat duidelijk zodra je er even over nadenkt.
+Bijvoorbeeld: 20 steken per 10 cm × 48,5 cm geeft 97 steken. Met een zuiver rapport van 6 steken zijn de aangrenzende opties 96 en 102, dus 48 en 51 cm. Is de volledige eis 6n + 2, trek dan eerst de twee extra steken af: (97 − 2) ÷ 6 ≈ 15,83. Kies 15 of 16 rapporten en tel de twee steken één keer op: 92 of 98 in totaal, dus 46 of 49 cm bij deze stekenverhouding.
 
 Dit is het stuk dat vaak wordt gemist: sommige patronen hebben ook kantsteken of balanssteken buiten de herhaling nodig. Als de instructie zoiets zegt als `2 r, *2 av, 2 r; herh vanaf *`, dan horen die extra steken bij de opzet. Dat is geen vrijblijvende versiering. Sla je ze over, dan loopt het patroon niet mooi in balans over de toer.
 
@@ -71,128 +69,99 @@ Werk je met een patroonherhaling van bijvoorbeeld 8 steken plus 2 balanssteken, 
 - "Veelvoud van 8 + 2" -> 34, 42, 50, 58, 66
 - "Veelvoud van 12 + 3" -> 27, 39, 51, 63, 75
 
-Goed om te weten: hoe breder het werkstuk, hoe minder een kleine aanpassing uitmaakt. 4 steken erbij of eraf op een dekenpaneel verandert bijna niets. Bij een sok is dat een ander verhaal.
+Controleer de breedte na de aanpassing. Bij 20 steken per 10 cm veranderen vier steken de breedte met 2 cm, ongeacht de totale breedte. Of dat past, hangt af van de gewenste pasvorm.
 
 ## Kantsteken en zelfkant
 
-Brei je platte delen die later aan elkaar worden genaaid? Dan doet de rand ertoe.
+Volg voor delen die je aan elkaar naait de randafwerking en naadtoeslag van het patroon. Controleer of die steken al in het opgegeven aantal zitten; voeg niet automatisch twee extra steken toe.
 
-Veel patronen voegen aan elke kant een kantsteek toe. Sommige gebruiken er twee. Als het patroon niets zegt en je gaat naden, is een steek aan elke kant een gewone startkeuze.
+Kies voor zichtbare randen kantsteken of een randpatroon en neem de breedte mee in je berekening. Een rand in een ander steekpatroon kan een eigen proeflapje nodig hebben. De naad neemt een deel van de gebreide breedte in beslag: onderscheid de breedte vóór het naaien van de uiteindelijke zichtbare breedte.
 
-Voor sjaals, dekens en andere stukken met zichtbare randen zijn extra kantsteken optioneel, tenzij je een specifieke randafwerking wilt. Een kettingrand, waarbij je de eerste steek van elke toer afhaalt, geeft een nette lijn die veel breiers prettig vinden bij sjaalranden.
-
-Rondbreien heeft geen kantsteken nodig. Er zijn geen zijnaden om te sluiten.
+Gewoon naadloos rondbreiwerk heeft geen kantsteken aan de zijkanten. Extra steken voor het sluiten of voor een knipbies volgen afzonderlijke patrooninstructies.
 
 ## Breedte aan de opzetrand tegenover breedte in het werk
 
 De opzetrand en het breiwerk zelf gedragen zich niet altijd hetzelfde. Sommige opzetranden zijn strakker. Sommige rekken meer. Sommige waaieren uit.
 
-Moet de opzetrand netjes bij de rest van het werk passen, kies dan een opzetmethode met genoeg rek voor het project, of gebruik de bekende truc: zet op met een naald die een of twee maten dikker is dan de werknaald. De opzetrand wordt losser en komt dichter bij de natuurlijke breedte van het breiwerk.
+Kies een opzet die bij de rand past en probeer die in een lapje. Een dikkere naald maakt grotere lussen, maar maakt een long-tail-opzet niet vanzelf rekbaarder: ook het garen tussen de steken moet ruimte hebben. Test de rand samen met het breiwerk en de benodigde opening.
 
 Als de opzetrand deel is van de pasvorm (sokboorden, mutsranden), is de spanning aan de rand net zo belangrijk als het aantal steken zelf.
 
 ## Opzetten voor boordsteek
 
-Boordsteek trekt smaller dan tricotsteek bij hetzelfde aantal steken. Als het patroon na de boord [gelijkmatig meerderen](/nl/artikelen/gelijkmatig-meerderen-of-minderen-over-een-toer/) vraagt, vangt die overgangstoer het verschil op. Dat is precies het doel ervan.
+Meet boordsteek in de toestand die het patroon aangeeft; vervang die stekenverhouding niet door die van tricotsteek. Volg de voorgeschreven overgang, inclusief eventuele [gelijkmatig verdeelde meerderingen](/nl/artikelen/gelijkmatig-meerderen-of-minderen-over-een-toer/).
 
-Sommige patronen houden hetzelfde aantal steken door boord en lijf. Andere zetten minder steken op voor de boord en meerderen daarna. Ontwerp je je eigen stuk, maak die keuze dan bewust. De twee oplossingen geven een ander beeld: hetzelfde aantal steken geeft een rustige overgang, terwijl een smallere boord met daarna een meerderingstoer een duidelijker rand tussen boord en lijf maakt.
-
-Voor zichtbare boordranden aan truien kan een tubulaire opzet of Duitse gedraaide opzet elastischer zijn dan een gewone long-tail-opzet. Long-tail is niet slecht, maar voelt vaak steviger dan die twee.
+Sommige patronen houden hetzelfde aantal tussen boord en lijf, andere veranderen het. Test bij een eigen ontwerp beide structuren en de overgang. Een ander aantal steken alleen garandeert geen bepaalde vorm of een gelijkmatige overgang.
 
 ## Opzetten voor rondbreien
 
-De berekening is dezelfde als bij plat breien: stekenverhouding x gewenste omtrek. Voor mutsen en sokken is die gewenste omtrek vaak kleiner dan de lichaamsmaat, omdat het breiwerk negatieve bewegingsruimte nodig heeft. In de uitvoering komt er een extra controle bij: sluiten zonder draaien.
+Vermenigvuldig steken per cm uit een in het rond gebreid proeflapje met de gewenste afgewerkte omtrek. De omtrek van een buis is niet de breedte als die plat ligt. Bepaal eerst de bewegingsruimte: tel de gewenste positieve bewegingsruimte bij de lichaamsmaat op, of trek de gekozen negatieve bewegingsruimte af. Hoeveel hangt af van patroon, breiwerk en pasvorm; er is geen vaste vermindering voor alle mutsen of sokken.
 
-Leg de naald voor de eerste toer plat neer en controleer dat alle steken dezelfde kant op wijzen. De onderrand van de opzet moet langs de binnenkant van de naald lopen, zonder spiraal. Merk je de draai aan het einde van de eerste toer, dan kun je hem bij de aansluiting nog corrigeren. Na meerdere toeren is uithalen en opnieuw opzetten meestal de netste oplossing.
+Controleer vóór het sluiten dat de opzetrand zonder spiraal rondloopt. Is het gesloten werk gedraaid, haal dan genoeg uit om de draai te corrigeren voordat je verdergaat.
 
-Om het kleine gaatje bij het begin van de toer te sluiten, zetten veel breiers een extra steek op en minderen die weg bij het sluiten. Het werkelijke aantal steken blijft dan correct, en de overgang oogt netter dan wanneer de eerste toer met een opening begint.
+Gebruikt je sluitmethode een extra steek, verwijder die dan volgens de instructie bij het sluiten, zodat het geplande werkaantal overblijft. Die steek hoort niet automatisch bij elk rondgebreid project.
 
-Voor toe-up sokken maakt Judy's magic cast-on twee parallelle rijen levende steken zonder naad bij de teen. Voor top-down sokken wordt de boord meestal plat opgezet, vaak met long-tail of Duitse gedraaide opzet, en daarna in het rond gesloten.
-
-Richtgetallen voor eenvoudige volwassen sokken met negatieve bewegingsruimte:
-
-- Worsted, ongeveer 16 steken per 10 cm: 32-40 steken
-- DK, ongeveer 24 steken per 10 cm: 48-56 steken
-- Sport, ongeveer 26 steken per 10 cm: 52-60 steken
-- Fingering, ongeveer 30-32 steken per 10 cm: 60-72 steken
-
-Gebruik ze als startpunten, niet als vaste maatregels. Meet de voetomtrek op het breedste punt, trek de negatieve bewegingsruimte af die je sokkenstof nodig heeft, en vermenigvuldig met je eigen stekenverhouding. Kleinere voeten hebben minder steken nodig, grotere voeten meer, en een geribde boord vergeeft meer dan glad tricot.
+Voor sokken vanaf de teen maakt Judy's magic cast-on twee groepen levende steken zonder teennaad; de teenvorm bepaalt het beginaantal. Bij sokken vanaf de boord controleer je die apart, ook of de opzetrand over de hiel kan rekken.
 
 ## Opzetmethodes kort vergeleken
 
 De juiste methode hangt af van wat de rand moet doen.
 
-**Long-tail.** De standaard. Matige rek, nette uitstraling, bruikbaar voor bijna alles. Je moet de draadstaart vooraf inschatten. Een bruikbare vuistregel: drie keer de opzetbreedte, plus extra. Minder rekbaar dan tubulair of Duitse gedraaide opzet.
+**Long-tail.** Een veelzijdige opzet met de werkdraad en een afgemeten draadstaart. De rek hangt af van de uitvoering. Schat de draadlengte vooraf; zie de FAQ hieronder.
 
-**Gebreide opzet.** Eenvoudig te leren en makkelijk te onthouden zodra je handen de beweging kennen. De rand is minder strak afgewerkt dan long-tail. Goed voor beginners en voor extra steken midden in een toer.
+**Gebreide opzet.** Nieuwe steken worden in een bestaande steek gebreid. Bruikbaar om te leren opzetten en om tijdens het werk steken toe te voegen.
 
-**Cable cast-on.** Steviger en decoratiever dan de gebreide opzet. Minder rekbaar. Handig voor knoopsgaten en randen die niet veel hoeven te rekken.
+**Kabelopzet (cable cast-on).** Nieuwe steken worden tussen de twee vorige steken gevormd. Geeft een relatief stevige rand met beperkte rek, bijvoorbeeld voor knoopsgaten.
 
 **Duitse gedraaide opzet, of old Norwegian.** Een long-tail-variant met extra rek. Erg geschikt voor sokboorden en geribde randen die over een voet of hoofd moeten.
 
-**Tubulaire opzet.** Maakt een gevouwen, holle rand die netjes overloopt in 1x1 of 2x2 boordsteek. Een verzorgde rand voor boorden, maar wat ingewikkelder om op te zetten.
+**Tubulaire opzet.** Vormt met de juiste voorbereidende toeren een afgeronde boordrand. Volg een opzet speciaal voor 1x1 of 2x2 boordsteek; voor de overgang van een 1x1-opzet naar 2x2 moet de steekvolgorde worden aangepast.
 
 **Voorlopige opzet.** Houdt levende steken vast die je later kunt opnemen en in de andere richting kunt breien. Handig bij top-down omslagdoeken, omgeslagen zomen en situaties waarin de opzetrand later wordt doorgewerkt.
 
 **Judy's magic cast-on.** Toe-up sokkenopzet die twee parallelle rijen steken maakt zonder naad bij de teen.
 
-Je hoeft ze niet allemaal uit je hoofd te kennen. Veel breiers gebruiken een tijd lang long-tail voor bijna alles, en leren daarna een of twee speciale opzetmethodes zodra een project daarom vraagt.
-
 ## Spanning in de opzetrand
 
-Te strakke opzetranden houden de onderkant van een trui of sok gevangen. Het lijf wil ontspannen naar buiten, maar de opzetrand trekt het samen als een koord. Te losse opzetranden waaieren uit en ogen slordig. Het doel is dat de rand past bij de natuurlijke breedte van het breiwerk.
+Een strakke opzet kan een verder goed berekend werkstuk beperken; een te losse rand kan uitwaaieren. Test de opzet met enkele toeren in het bedoelde steekpatroon.
 
-Twee praktische oplossingen als je opzet vaak te strak wordt:
+Laat bij long-tail-opzet ruimte tussen de steken in plaats van elke nieuwe steek strak tegen de vorige te trekken. Een dikkere naald of twee naalden samen vergroten de lussen, maar garanderen niet genoeg garen ertussen. Probeer zo nodig een rekbare methode, zoals de Duitse gedraaide opzet, en controleer opnieuw.
 
-1. Zet op met een naald die een of twee maten dikker is, en wissel daarna naar de werknaald voor de eerste toer.
-2. Gebruik een rekbaardere methode, zoals Duitse gedraaide opzet of tubulaire opzet, in plaats van long-tail.
-
-Te los opzetten komt minder vaak voor, maar het gebeurt bij sommige handhoudingen en garentypes. De oplossing is meestal een maat kleinere naald gebruiken voor alleen de opzettoer, of een stevigere methode zoals cable cast-on.
+Waaiert de rand uit, pas dan de spanning of naalddikte voor die methode aan en maak een nieuw proefje. Een verandering van één of twee naaldmaten is geen algemene oplossing.
 
 ## Veelvoorkomende opzetaantallen voor standaardprojecten
 
-Ruwe redelijkheidstest, geen vervanging voor patroonaantallen. Voor worsted-garen loopt de CYC Medium-categorie ongeveer van 16 tot 20 steken per 10 cm in tricotsteek, dus hetzelfde opzetaantal kan een andere afgewerkte breedte geven afhankelijk van je proeflapje.
+Alleen de garendikte geeft geen standaardopzetaantal voor vaatdoekjes, sjaals, cols, mutsen of sokken. Kies de afgewerkte breedte of omtrek, houd rekening met bewegingsruimte en gebruik de gemeten stekenverhouding en volledige patroonformule.
 
-- **Vaatdoekje:** 36-48 steken
-- **Sjaal:** 30-50 steken, afhankelijk van breedte
-- **Col:** 100-140 steken in het rond, afhankelijk van omtrek en bewegingsruimte
-- **Volwassen muts:** vaak 80-108 steken in het rond, afhankelijk van stekenverhouding en negatieve bewegingsruimte
-- **Peutermuts:** vaak 60-84 steken in het rond
-- **Babymuts:** vaak 48-76 steken in het rond
-- **Volwassen sokken in worsted:** 32-40 steken
-- **Volwassen sokken in fingering:** 60-72 steken
-
-Truidelen verschillen te veel voor een nuttig standaardbereik. Precies daarom geven patronen aparte aantallen per maat, en precies daarom is rekenen vanuit stekenverhouding belangrijk zodra je iets aanpast.
-
-Voor al deze gevallen is de [Opzetcalculator](/nl/breitools/opzetcalculator/) de snelste route zodra je stekenverhouding bekend is.
+De [Opzetcalculator](/nl/breitools/opzetcalculator/) geeft daarmee het basisaantal. Afronding naar een even aantal controleert geen boordsteek, mutsminderingen, hielconstructie of kledingvormgeving.
 
 ## Top-down of bottom-up truien
 
-Bij kledingstukken die van onder naar boven worden gebreid, is het aantal opzetsteken de lichaamsomtrek bij de zoom. Bij kledingstukken die van boven naar beneden worden gebreid, zit de opzet bij de hals en is die veel kleiner.
+Gebruik voor een trui van onder naar boven de werkelijke zoommaat of de afmetingen van het afzonderlijke deel, niet automatisch de borstomtrek. Volg voor een trui van boven naar beneden de halsconstructie.
 
-Een bottom-up trui in worsted-garen met een afgewerkte borstomtrek van 100 cm heeft bij 20 steken per 10 cm 200 steken aan de zoom nodig. Een top-down versie van dezelfde trui zet misschien 80 steken op bij de hals en meerdert daarna.
+Een recht, rondgebreid lijf met 100 cm afgewerkte zoomomtrek en 20 steken per 10 cm bij de zoom geeft 20 ÷ 10 × 100 = 200 steken vóór patroonspecifieke aanpassingen. 200 ÷ 2 = 100 cm. Dat veronderstelt deze stekenverhouding en dit aantal bij de zoom; het bepaalt niet het aantal bij de hals of voor een apart voor- of achterpand.
 
-Verschillende startpunten, hetzelfde afgewerkte kledingstuk. Het patroon bepaalt welke berekening geldt. Ontwerp je zelf, dan bepaalt die constructiekeuze welk getal je eerst moet uitrekenen.
+Alleen een ander opzetaantal verandert niet de hele truimaat. Controleer ook de vormgeving, toerenverhouding, lengtes, mouwen en hals.
 
 ## FAQ
 
 **Moet ik een oneven of even aantal steken opzetten?**
-Dat hangt af van het steekpatroon. Voor tricotsteek maakt het niet uit. Voor boordsteek en structuurherhalingen meestal wel. 1x1 boordsteek wil een even aantal. 2x2 boordsteek wil een veelvoud van 4, of een veelvoud van 4 plus 2 als beide randen er hetzelfde uit moeten zien.
+Gewone 1x1 boordsteek in het rond vraagt een veelvoud van 2, 2x2 een veelvoud van 4. Bij heen-en-weer breien bepalen de randen de opbouw: 1x1 die begint en eindigt met één rechte steek vraagt 2n + 1; 2x2 die begint en eindigt met twee rechte steken vraagt 4n + 2. Voeg aparte kantsteken alleen toe als ze gevraagd worden en nog niet zijn meegeteld.
 
 **Wat als mijn patroon een opzetaantal geeft, maar mijn stekenverhouding niet klopt?**
-Dan levert het gepubliceerde aantal steken een andere breedte op dan bedoeld. Haal de stekenverhouding van het patroon, of reken opnieuw met die van jezelf.
+Het opgegeven aantal geeft dan een andere breedte. Bereik de stekenverhouding van het patroon of beoordeel de volledige aanpassing, inclusief toerenverhouding en vormgeving. Alleen een nieuw opzetaantal is geen volledige maataanpassing.
 
 **Tel ik de opzetlus als steek?**
-Bij long-tail wel. Bij de meeste gebreide opzetmethodes ook. Bij cable cast-on is de opzetlus de eerste steek. Sommige methodes slaan hem over. Volg de logica van de specifieke opzet die je gebruikt.
+Bij de gebruikelijke long-tail-, gebreide en kabelopzet die met een schuifknoop beginnen, telt de knoop op de naald als eerste steek. Andere varianten laten de knoop weg of verwijderen een tijdelijke knoop. Volg de specifieke methode.
 
 **Hoe lang moet de draadstaart zijn voor long-tail-opzet?**
-Ongeveer drie keer de geplande opzetbreedte, plus een beetje extra om later weg te werken. Voor 200 steken over 100 cm is dat ongeveer 300 cm draadstaart. Liever te lang dan te kort. Raakt de draadstaart halverwege op, dan moet je opnieuw beginnen.
+Een breedtefactor blijft een schatting. [Purl Soho](https://www.purlsoho.com/create/long-tail-cast-on/) adviseert voor long-tail ongeveer 3,5 keer de geplande breedte: 100 × 3,5 = 350 cm. Reken extra garen voor afhechten of naaien. Garen, spanning en techniek beïnvloeden de hoeveelheid; het voorbeeld met 200 steken garandeert geen vaste draadlengte.
 
 **Kan ik cable cast-on gebruiken voor een rekbare rand, zoals een sokboord?**
-Liever niet. Cable cast-on is steviger dan long-tail en duidelijk minder rekbaar. Voor sokboorden en andere randen die over een voet, hand of hoofd moeten passen, kies je beter long-tail met een dikkere naald, Duitse gedraaide opzet of een tubulaire opzet.
+Gewone kabelopzet heeft beperkte rek. Test of de sokopening over de hiel kan. Long-tail met voldoende ruimte tussen de steken, Duitse gedraaide opzet of een passende tubulaire opzet zijn alternatieven. Alleen een dikkere naald garandeert geen rek.
 
 **Hoe zet ik steken op voor rondbreien?**
-Zet de gewenste omtrek in steken op, leg de naald plat neer om te controleren dat er geen draai in zit, en sluit daarna in het rond. Kantsteken zijn niet nodig. Wil je het kleine gaatje bij de overgang sluiten, zet dan een extra steek op en minder die weg bij het sluiten, zodat het uiteindelijke aantal steken nog steeds klopt.
+Gebruik de afgewerkte omtrek en in het rond gemeten stekenverhouding, pas het aantal aan het patroon aan en controleer vóór het sluiten op draaien. Gewoon naadloos werk heeft geen kantsteken aan de zijkanten nodig. Voeg een extra sluitsteek alleen toe en verwijder die weer als de methode dat vraagt.
 
 **Mijn patroon zegt "zet X steken los op". Hoe los is los?**
-Los genoeg dat de opzetrand net zo ver kan rekken als het gebreide stofdeel. De praktische oplossing: zet op met een naald die een of twee maten dikker is dan de werknaald, of gebruik een rekbaardere methode zoals Duitse gedraaide opzet.
+Los genoeg voor de opening en het breiwerk van het patroon, zonder ongewenst uitwaaieren. Test de methode en de ruimte tussen de steken; een andere naalddikte is een proef, geen garantie.

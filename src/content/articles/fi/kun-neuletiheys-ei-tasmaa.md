@@ -18,25 +18,27 @@ lang: fi
 translationKey: "gauge-doesnt-match"
 ---
 
-Mallitilkkusi antaa 19 silmukkaa 10 cm matkalla. Ohje haluaa 20. Yksi silmukka ei kuulosta paljolta ennen kuin kerrot sen 100 cm ympärykseen ja huomaat, että valmiista vaatteesta tulee useita senttejä liian leveä. Se on ero istuvan vaatteen ja hartioilta roikkuvan vaatteen välillä.
+Mallitilkkusi antaa 19 silmukkaa 10 cm matkalla. Ohjeen tiheys on 20 silmukkaa, joten 100 cm:n ympärykseen tarvitaan 200 silmukkaa. Omalla tiheydelläsi samat silmukat tuottavat 200 ÷ 19 × 10 ≈ 105,3 cm. Tämä muuttaa suunniteltua väljyysvaraa, mutta pelkkä ympärysmitta ei ratkaise koko vaatteen istuvuutta.
 
 Neuletiheyden heitto on korjattavissa. Ratkaisu riippuu siitä, kuinka paljon heittoa on, millaista projektia teet ja tuntuuko neulepinta itsessään oikealta.
 
 ## Tarkista ensin mallitilkun mittaus
 
-Ennen kuin muutat mitään, sulje pois mittausvirhe. Levitä mallitilkku tasaiselle kovalle alustalle venyttämättä. Aseta viivain keskelle, ei luomis- tai päättelyreunan lähelle.
+Vertaa ensin samaa mittausmatkaa, mallineuletta, neulomistapaa (tasona tai suljettuna) ja viimeistelytilaa. Noudata myös ohjeen mahdollista rentoa tai venytettyä mittaustilaa. Tavalliset 10 cm:n ja 4 tuuman mittausalueet eivät ole täsmälleen yhtä pitkät: 4 tuumaa on 10,16 cm. Käytä vertailussa ohjeen mittayksikköä.
+
+Kun ohjeen mittaustila on rento, tarkista mittaus näin ennen puikkojen vaihtamista. Levitä mallitilkku tasaiselle kovalle alustalle venyttämättä. Aseta viivain keskelle, ei luomis- tai päättelyreunan lähelle.
 
 Laske silmukat 10 cm matkalta. Laske myös puolikkaat. Ne merkitsevät. Tilkku, joka näyttää pyöristettynä "20 silmukalta", voi tarkasti laskettuna olla 19,5, ja se on oikeassa vaatteessa todellinen ero. [Neuletiheyden mittausohje](/fi/artikkelit/neuletiheyden-mittaaminen/) käy läpi koko prosessin, mutta lyhyt versio on tämä: mittaa keskeltä, laske tarkasti, älä venytä.
 
 Noin 15 cm leveä ja korkea mallitilkku on käytännöllinen valinta, koska siinä on tilaa 10 cm:n mittausalueelle riittävän kaukana luomis-, päättely- ja sivureunoista. Se ei ole yleinen vähimmäismitta: pienempi tilkku voi olla käyttökelpoinen, jos siinä on riittävän suuri, edustava ja vääristymätön mittausalue. Noudata ohjeen mahdollisia mallitilkun kokoa tai mittausta koskevia ohjeita.
 
-Mittaa mallitilkku kahdesta kohdasta ja käytä keskiarvoa. Käsinneulottu pinta ei ole täysin tasainen, ja yksittäinen mittaus voi osua tavallista löysempään tai tiukempaan kohtaan.
+Mittaa useasta vääristymättömästä kohdasta keskialueelta samassa käsittelytilassa. Pienet erot voi keskiarvoistaa; suuret erot pitää selvittää, ei häivyttää tavoitelukuun sopivaksi keskiarvoksi.
 
 ## Liikaa silmukoita 10 cm matkalla: neulot tiukasti
 
-Jos silmukoita on enemmän kuin ohjeen neuletiheydessä, silmukat ovat pienempiä. Valmis kappaleesta tulee suunniteltua kapeampi.
+Jos samalla matkalla on enemmän silmukoita kuin ohjeessa, silmukat ovat kapeampia. Samalla silmukkamäärällä kappaleesta tulee silmukoiden suunnassa kapeampi; tämä ei kerro sen pituudesta.
 
-**Vaihda suurempaan puikkokokoon.** Tämä on tavallinen korjaus. Jos ohje pyytää 4,0 mm puikkoja ja neulot liian tiukasti, kokeile 4,5 mm puikkoja. Suurempi puikko tekee suuremman silmukan, joten vähemmän silmukoita mahtuu sentille. Neulo uusi mallitilkku ja mittaa uudelleen.
+**Vaihda suurempaan puikkokokoon.** Tämä on tavallinen korjaus. Jos ohje pyytää 4,0 mm puikkoja ja neulot liian tiukasti, kokeile 4,5 mm puikkoja. Suurempi puikko tekee suuremman silmukan, joten vähemmän silmukoita mahtuu sentille. Neulo uusi mallitilkku ja mittaa uudelleen. Nämä puikkokoot ovat kokeiluesimerkkejä: 0,5 mm:n muutos ei muuta silmukkamäärää aina saman verran. Tarkista jokaisen muutoksen jälkeen sekä silmukka- että kerrostiheys ja viimeistelty neulepinta.
 
 Joskus pitää nousta kaksi kokoa. Se on normaalia. Ohjeessa mainittu puikkokoko on lähtöpiste, ei vaatimus. Vaatimus on se, että silmukkatiheys vastaa ohjetta.
 
@@ -44,73 +46,67 @@ Osa neulojista tarvitsee lähes aina eri puikkokoon kuin ohjeessa mainitaan. Se 
 
 ## Liian vähän silmukoita 10 cm matkalla: neulot löysästi
 
-Jos silmukoita on vähemmän, silmukat ovat suurempia. Valmiista kappaleesta tulee isompi.
+Jos samalla matkalla on vähemmän silmukoita, silmukat ovat leveämpiä. Samalla silmukkamäärällä kappaleesta tulee silmukoiden suunnassa leveämpi.
 
 **Vaihda pienempään puikkokokoon.** Esimerkiksi 4,0 mm puikoista 3,75 mm puikkoihin, ja uusi mallitilkku. Jos täysi koko hyppää ohi ja ihannelukema jäisi kahden koon väliin, joillakin valmistajilla on välikokoja. [Puikkokokotaulukko](/fi/tyokalut/puikkokoot/) näyttää koot eri järjestelmissä.
 
 ## Kerrostiheys: se jonka moni ohittaa
 
-Ohjeet ilmoittavat yleensä myös kerrostiheyden eli pystysuuntaisen lukeman. Moni jättää sen huomiotta. Usein se on ihan ok, koska ohje sanoo "neulo kunnes kappale on X cm" eikä "neulo X kerrosta".
+Kerrostiheys kertoo kerrosten määrän ilmoitetulla korkeudella sekä taso- että suljetussa neuleessa. Suoran osuuden voi neuloa mittaan, jos ohje sallii sen ja viimeistelyn vaikutus huomioidaan. Tämä ei yksin korjaa muotoilua, mallikertoja, kädenteitä tai kaarrokkeita. Sivuttain neulotussa työssä kerrokset voivat määrätä vaatteen leveyden.
 
-Kerrostiheydellä on väliä silloin, kun muotoilu on määritelty kerrosten mukaan: "kavenna joka 6. kerros 8 kertaa". Jos kerrostiheytesi on eri, kavennukset osuvat eri välein kuin suunnittelija tarkoitti ja mittasuhteet muuttuvat.
+Esimerkiksi 'kavenna joka 6. kerros 8 kertaa' määrää sekä kavennusvälin että kavennusten määrän. Eri kerrostiheys muuttaa välimatkaa. Kerrosvälin muuntaminen senteiksi kertoo tavoite-etäisyyden, mutta lisäksi on suunniteltava kokonaiset kerrokset, oikean ja nurjan puolen sijoittelu, mallikerrat, muotoilun kokonaispituus ja lopullinen silmukkamäärä. Jos nämä eivät sovi yhteen, pyydä ohjekohtaista apua.
 
-Kerrostiheys on vaikeampi korjata kuin silmukkatiheys. Puikkokoon vaihtaminen vaikuttaa molempiin, mutta ei aina samassa suhteessa. Jos silmukkatiheys täsmää ja kerrostiheys ei, käytännöllinen ratkaisu on muuntaa kerroksiin perustuvat ohjeet mitoiksi. Laske ohjeen kerrostiheyden perusteella, montako senttiä suunnittelija tarkoitti kavennusten väliin, ja neulo omalla neuletiheydelläsi siihen mittaan. [Neuletiheyden mittausohje](/fi/artikkelit/neuletiheyden-mittaaminen/) kertoo, mitä lukuja tarvitset ennen muunnosta.
+Puikkokoon muutos vaikuttaa molempiin tiheyksiin ilman vakiosuhdetta. Jos silmukkatiheys täsmää mutta kerrostiheys ei, voit kokeilla samankokoista puikkoa eri materiaalista uudessa mallitilkussa; älä oleta sen muuttavan vain kerrostiheyttä. Jos taas kerrostiheys täsmää mutta silmukkatiheys ei, leveysongelma jää ratkaistavaksi. Tarkista molemmat uudelleen muutoksen jälkeen. [Neuletiheyden mittausohje](/fi/artikkelit/neuletiheyden-mittaaminen/) auttaa saamaan vertailukelpoiset luvut.
 
 ## Kun oikea neuletiheys antaa väärän neulepinnan
 
 Joskus saat numerot täsmäämään, mutta neulepinta tuntuu väärältä. Liian jäykältä, liian lerpulta tai liian harvalta. Numerot ovat oikein. Neulepinta ei ole.
 
-Tämä tarkoittaa yleensä, ettei lanka sovi ohjeeseen, vaikka lankavahvuus olisi sama. Tiivis, vahvasti kerrattu worsted ja ilmava löyhäkierteinen worsted voivat molemmat osua 20 silmukkaan 10 cm matkalla eri puikoilla ja tuottaa silti hyvin erilaisen neulepinnan. Puuvilla tekee usein tiiviimmän ja litteämmän pinnan. Villa pöyhistyy ja täyttää aukkoja. Akryyli laskeutuu eri tavalla kuin kumpikaan.
+Pelkkä sama lankavahvuusluokka ei takaa ohjeen mukaista neulepintaa. Vertaa myös kuitusisältöä ja langan rakennetta sekä arvioi pestystä ja kuivasta tilkusta pinnan tiiviys, laskeutuvuus ja sopivuus työhön.
 
 Jos oikeassa neuletiheydessä neulepinta on väärä, vaihtoehdot ovat kokeilla toista lankaa, joka muistuttaa paremmin alkuperäistä kuitua, tai hyväksyä, ettei tämä lanka ja ohje sovi yhteen. Kaikki langat eivät sovi kaikkiin ohjeisiin, vaikka matematiikka antaisi luvan. [Langan korvaamisen opas](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/) käsittelee tätä kuitupuolta tarkemmin.
 
 ## Viimeistelty ja viimeistelemätön neuletiheys
 
-Puikoilta tullut mallitilkku ei välttämättä vastaa pestyä ja viimeisteltyä mallitilkkua. Eri langat muuttuvat eri tavoin.
+Mallitilkun tiheys voi muuttua pesussa ja viimeistelyssä. Mittaa muutos omasta neulepinnastasi sen sijaan, että päättelisit sen kuidun nimestä.
 
-Villa voi pöyhistyä ja täyttää silmukoiden välejä. Silmukkamäärä 10 cm matkalla voi pienentyä hieman kuitujen rentoutuessa. Puuvilla voi rentoutua alaspäin. Superwash-villa voi kasvaa, erityisesti pituussuunnassa. Alpakka voi venyä ja laskeutua. Pellava pehmenee ja neuletiheys voi avautua.
+Noudata ohjeen mittaustilaa, myös viimeistelemätöntä tilaa, jos sitä pyydetään. Jos tilaa ei määritellä, käsittele tilkku kuten valmis työ langan hoito-ohjeen rajoissa. Anna kuivua kokonaan, poista mahdolliset pingotusneulat ja anna tilkun rentoutua ennen mittausta, ellei ohje määrää toisin. Kirjaa ennen käsittelyä ja sen jälkeen saadut luvut erikseen.
 
-Noudata ensin ohjeessa määritettyä mittausvaihetta, myös silloin kun ohje antaa neuletiheyden viimeistelemättömästä neuleesta. Jos ohje ei täsmennä asiaa, viimeistele mallitilkku kuten valmis työ ja käytä sen jälkeen mitattua neuletiheyttä. Kirjaa sekä ennen viimeistelyä että sen jälkeen mitatut arvot; ennen viimeistelyä mitattu luku auttaa vertaamaan keskeneräistä työtä mallitilkkuun ennen työn pesua tai viimeistelyä.
+Työn tarkoitettu viimeistely on eri asia kuin sopimattoman neulepinnan venyttäminen tavoitelukuun. Neulojen varassa saavutettu mitta ei todista rentoa kokoa eikä pysyvää muutosta käytössä tai myöhemmissä pesuissa.
 
 ## Milloin neuletiheydellä ei ole niin paljon väliä
 
-Huivi, joka on pari senttiä suunniteltua leveämpi, on edelleen hyvä huivi. Tiskirätti toimii, vaikka silmukat olisivat vähän löysemmät. Neuletiheyden tarkkuus merkitsee eniten silloin, kun istuvuus merkitsee: villapaidat, sukat, pipot ja istuvat lapaset.
+Jos huivilla tai peitolla ei ole tarkkaa tavoitekokoa, voit hyväksyä eri mitat, kun myös neulepinta sopii käyttöön. Istuvassa vaatteessa mitat ja väljyysvara vaativat enemmän huomiota. Kaikille asusteille tai vaatteille sopivaa silmukkamäärän poikkeamarajaa ei ole.
 
-Asusteissa, joissa ei ole tarkkaa istuvuutta, kuten hartiahuiveissa, kaulureissa ja peitoissa, lähellä on usein tarpeeksi. Tee mallitilkku varmistaaksesi, että neulepinta tuntuu hyvältä, mutta tarkan silmukkaluvun jahtaaminen kolmella mallitilkulla ei aina ole tarpeen.
-
-Poikkeus: neuletiheys vaikuttaa langanmenekkiin. Jos peiton neuletiheys poikkeaa, valmiin työn pinta-ala ja neulepinnan tiheys voivat muuttua niin paljon, että langanmenekki muuttuu. Tarkista arvio [lankamuuntimella](/fi/tyokalut/lankamuunnin/) ennen ostamista.
+Neuletiheyden muutos voi vaikuttaa myös mittoihin ja langanmenekkiin. [Langanmenekkilaskuri](/fi/tyokalut/lankamuunnin/) — Nimettyjen ohjeiden vertailumäärät, ei henkilökohtainen menekkiennuste. Valitse työ, nimetyn ohjeen koko ja yksikkö. Tulos on kyseisen ohjeen vertailumäärä, ei oman työsi menekkiennuste.
 
 ## Puolen silmukan ongelma
 
-Neuletiheys on 18 silmukkaa 10 cm matkalla. Ohje haluaa 20. Tarpeeksi lähellä?
+Puolikkaitakaan silmukoita ei kannata pyöristää pois mittauksesta. Tarkastellaan suurempaa eroa: oma tiheys on 18 silmukkaa 10 cm matkalla ja ohjeen tiheys 20.
 
-100 cm ympäryksessä se voi tarkoittaa noin 10 cm ylimääräistä leveyttä. Ei kovin huomaamatonta.
+Pidetään miehustan silmukkamäärä samana, 200 silmukkana. Ohjeen tiheydellä ympärys on 200 ÷ 20 × 10 = 100 cm, omalla tiheydellä 200 ÷ 18 × 10 ≈ 111,1 cm. Lisäys on noin 11,1 % tavoitellusta 100 cm:stä, ei 10 %. Lasku olettaa saman mallineuleen ja viimeistelytilan eikä sisällä saumavaroja.
 
-Kahden silmukan ero 10 cm matkalla on raja, jossa useimpien kannattaa kokeilla toista puikkokokoa. Sitä pienempi ero, esimerkiksi yhden silmukan heitto 10 cm matkalla, harvoin merkitsee paljon, ellei projekti ole hyvin leveä tai hyvin istuva.
+Yhden silmukan poikkeama ei sekään ole automaattisesti merkityksetön: tiheydellä 19 s / 10 cm samat 200 silmukkaa tuottavat noin 105,3 cm. Vertaa eroa työn tavoitemittoihin ja väljyysvaraan.
 
 ## Suljettuna ja tasona neulottu neuletiheys
 
-Moni neuloo oikeat ja nurjat silmukat eri kireydellä. Siksi tasoneuleen sileä pinta voi antaa eri tiheyden kuin suljettuna neulottu sileä pinta, jossa kaikki kerrokset ovat oikeita.
+Sama lanka ja samat puikot voivat antaa eri tiheyden tasona ja suljettuna. Sileässä tasoneuleessa neulotaan vuorotellen oikeita ja nurjia kerroksia, suljetussa sileässä kaikki kerrokset oikein. Oikeiden ja nurjien silmukoiden erilainen kireys voi siksi muuttaa tulosta.
 
-Jos varsinainen projekti neulotaan suljettuna, tee mallitilkku samalla tavalla. Pieni pyöröneuletilkku tai speed swatch, jossa lankaa kuljetetaan löyhästi takana, on lähempänä todellisuutta kuin tavallinen tasotilkku.
+Tee tilkku työn neulomistavalla ja tiheydelle ilmoitetulla mallineuleella. Pieni putki sopii suljetun neuleen kokeiluun. Myös tilkku, jossa lanka kulkee löysästi takana ja kerrokset neulotaan oikealta puolelta, voi jäljitellä suljettua neuletta. Kaikkien kerrosten neulominen oikein koskee sileää neuletta, ei kaikkia mallineuleita.
 
 ## Neuletiheys muuttuu projektin aikana
 
-Sama neuloja, sama lanka, samat puikot, mutta kaksi eri päivänä neulottua mallitilkkua eivät täsmää. Näin käy, ja siksi osa neulojista käyttää useamman mallitilkun keskiarvoa.
+Jos työ ei enää vastaa tilkkua, mittaa uudelleen useasta keskialueen kohdasta kaukana reunoista ja puikoilla olevista silmukoista. Vertaa pesemätöntä työtä pesemättömään tilkkuun samalla mallineuleella ja mittausmatkalla. Tarkista, ovatko puikot, lanka tai neulomistapa vaihtuneet. Älä keskiarvoista eri käsittelytiloja tai selvää käsialan muutosta yhteen.
 
-Käsiala voi seurata mielialaa, asentoa ja kellonaikaa. Stressi, väsymys, kylmät kädet tai eri tuoli voivat muuttaa neulepintaa. Neulomisrupeaman ensimmäisten kymmenen minuutin tilkku, ennen kuin kädet lämpenevät, ei aina vastaa sitä, miten neulot varsinaista projektia.
-
-Rehellinen ratkaisu on neuloa mallitilkku tavallisessa neulomishetkessä, mieluiten parissa erässä, jotta se kuvaa keskimääräistä käsialaasi.
+Arvioi mitat mitatun tiheyden avulla. Jos ero ei sovi työhön, pysähdy ja kokeile korjausta uudessa tilkussa ennen kuin päätät purkamisen laajuudesta. Puikkokoon vaihtaminen vaikuttaa tuleviin kerroksiin, ei jo neulottuun pintaan, ja vaihtumiskohta voi näkyä. Älä luota siihen, että viimeistely korjaa testaamattoman kokoeron.
 
 ## Näin etenet
 
-Useimmissa neuletiheysongelmissa järjestys on tämä:
+Mittaa huolellisesti myös silmukan osat. Arvioi poikkeama tavoitemittojen perusteella, älä kiinteän kahden silmukan rajan avulla. Kokeile suurempia puikkoja, jos samalla matkalla on liikaa silmukoita, ja pienempiä, jos niitä on liian vähän. Tee uusi tilkku ja tarkista molemmat tiheydet sekä neulepinta.
 
-Mittaa mallitilkku huolellisesti ja laske puolikkaat. Jos ero on yli kaksi silmukkaa 10 cm matkalla, vaihda puikkokokoa. Suurempi puikko liian tiukkaan neuleeseen, pienempi liian löysään. Tee uusi mallitilkku. Mittaa uudelleen.
+Jos puikkokoon vaihto ei tuota sopivaa tulosta, vertaa lankaa ohjeen lankaan. Lankavahvuusluokka ja metrit 100 grammaa kohti ovat vihjeitä, eivät todiste samasta paksuudesta tai tiheydestä; myös kuidut ja rakenne vaikuttavat. Kokeile korvaavaa lankaa tilkussa.
 
-Jos olet vaihtanut puikkoa kahdesti etkä silti osu ohjeen neuletiheyteen, tarkista onko lanka todella samaa vahvuusaluetta kuin ohjeen lanka. Yhden valmistajan DK ei aina ole sama kuin toisen valmistajan DK. Vertaa vyötteen metrejä 100 grammaa kohti ohjeen lankaan. Jos luvut ovat kaukana toisistaan, neuletiheysongelmat seuraavat perässä.
-
-[Silmukkalaskuri](/fi/tyokalut/silmukkalaskuri/) säätää silmukkamäärän todellisen neuletiheytesi mukaan. Jos olet hieman ohjeesta sivussa, voit silti laskea oikean luomismäärän omille mitoillesi. Se on hyödyllistä, kun haluat istuvan lopputuloksen ilman loputonta mallitilkkujen neulomista.
+[Silmukkalaskuri](/fi/tyokalut/silmukkalaskuri/) laskee silmukkamäärän syötetystä neuletiheydestä ja leveydestä ja pyöristää lähimpään parilliseen silmukkamäärään. Käytä yhteneviä mittayksiköitä. Laskuri ei huomioi mallikertoja, reunasilmukoita, väljyysvaraa tai muotoilua eikä muuta neuleohjeen kokoa tai takaa istuvuutta.
 
 ## Milloin ohje kannattaa jättää väliin
 
@@ -121,16 +117,16 @@ Sama pätee, jos joudut vaihtamaan puikkokokoa niin paljon, että valmis pinta m
 ## FAQ
 
 **Kuinka lähellä neuletiheyden pitää olla?**
-Istuviin vaatteisiin pyri täsmäämään silmukkatiheys tarkasti. Asusteissa yhden silmukan heitto 10 cm matkalla on usein hyväksyttävä. Kerrostiheyden toleranssi on yleensä väljempi, koska moni ohje neulotaan mittoihin eikä kerrosmääriin.
+Pyri ohjeen tiheyteen, kun mitoilla on väliä. Arvioi poikkeamaa valmiiden mittojen, väljyysvaran, neulepinnan ja rakenteen kautta. Yleistä yhden silmukan sallittua poikkeamaa ei ole, ja kerrostiheys voi olla muotoilulle ratkaiseva.
 
 **Pitääkö mallitilkku pestä ennen mittaamista?**
-Jos valmis työ pestään, kyllä. Jotkut langat muuttavat neuletiheyttä selvästi pesussa. Superwash-villa voi kasvaa pituutta, puuvilla rentoutuu. Neulo tilkku, pese ja viimeistele se kuten valmiin työn, anna kuivua kokonaan ja mittaa vasta sitten. [Mallitilkun vaiheittainen ohje](/fi/artikkelit/mallitilkun-neulominen-vaiheittain/) käy prosessin läpi.
+Mittaa ensin pesemätön tilkku. Käsittele se sitten kuten valmis työ langan hoito-ohjeen rajoissa ja anna kuivua täysin. Vertaa ohjeen ilmoittamassa tilassa; jos tilaa ei anneta, käytä viimeisteltyä tilkkua. [Mallitilkun vaiheittainen ohje](/fi/artikkelit/mallitilkun-neulominen-vaiheittain/) käy prosessin läpi.
 
 **Vaikuttaako pingotus tai viimeistely neuletiheyteen?**
-Märkäviimeistely avaa silmukoita usein hieman, erityisesti pitsissä ja löysemmissä pinnoissa. Villa voidaan venyttää ja pingottaa tiettyyn mittaan. Puuvilla pitää muotonsa eri tavalla. Käytä ohjeessa määritettyä mittausvaihetta; jos ohje ei täsmennä asiaa, käytä valmiin työn tavoin käsitellyn mallitilkun neuletiheyttä. Kirjaa myös ennen viimeistelyä mitattu arvo, jotta voit verrata sitä keskeneräiseen työhön.
+Voi vaikuttaa. Vertaa ennen käsittelyä ja sen jälkeen, ja mittaa kuiva, rentoutunut pinta, ellei ohje edellytä muuta tilaa. Älä pakota tilkkua tavoitemittaan tai oleta neulojen varassa saavutetun mitan säilyvän.
 
 **Silmukkatiheys täsmää mutta kerrostiheys ei. Mitä teen?**
-Neulo mittoihin kerrosmäärien sijaan aina kun ohje sallii. Jos muotoilu on annettu kerroksina, muunna ohjeen kerrokset senteiksi ohjeen kerrostiheyden perusteella ja käytä sitten omia mittojasi.
+Neulo mittaan vain, jos rakenne sallii sen. Kerroksiin sidottu muotoilu vaatii kokonaisille kerroksille sopivan suunnitelman, joka säilyttää mallikerrat, kavennusten määrän, loppusilmukkamäärän ja kokonaismitat. Pelkkä kerrosten muuntaminen senteiksi ei riitä.
 
 **Voinko vain luoda enemmän tai vähemmän silmukoita neuletiheyden korjaamiseksi?**
-Yksinkertaisissa muodoissa, kuten suorakaiteissa ja perushuiveissa, usein kyllä. Säädä luomismäärä suhteessa omaan neuletiheyteen. Muotoilluissa vaatteissa yleensä ei, ellet samalla kirjoita muotoilulaskelmia uusiksi. Ohjeen lisäykset, kavennukset ja muotoilut on laskettu alkuperäisen silmukkamäärän ympärille. Yksi muutos vaikuttaa kaikkeen muuhun.
+Muotoilemattomassa suorakaiteessa lähtöluku on haluttu leveys × silmukat pituusyksikköä kohti. Sovita luku mallikertaan ja tarvittaviin reunasilmukoihin ja tarkista syntyvä leveys. Muotoiltu huivi vaatii muutakin kuin uuden luomismäärän. Vaatteessa silmukkamäärän muuttaminen tai toisen ohjekoon valinta ei takaa kädenteiden, hihojen, kaarrokkeen ja muiden mittojen sopivuutta; käytä ohjekohtaista neuvontaa.

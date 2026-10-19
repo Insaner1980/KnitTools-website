@@ -14,15 +14,15 @@ const faqs = [
   },
   {
     q: "Miksi laskuri pyöristää parilliseen silmukkamäärään?",
-    a: "Moni yksinkertainen mallineule, kuten tavallinen joustin, toimii siististi parillisella silmukkamäärällä. Jos ohje vaatii tietyn silmukkajaon, säädä lopuksi lähimpään sopivaan jakoon.",
+    a: "Parillisuus on laskurin pyöristyssääntö, ei tae mallineuleen sopivuudesta. Joustin, palmikot ja muut mallineuleet voivat vaatia tietyn mallikerran sekä lisäsilmukoita.",
   },
   {
     q: "Mitä jos ohje vaatii tietyn silmukkajaon?",
-    a: "Lisää tai vähennä muutama silmukka, jotta pääset ohjeen vaatimaan jakoon. Jos kuvio toistuu esimerkiksi neljällä silmukalla ja laskuri antaa 46, säädä määrä 44:ään tai 48:aan.",
+    a: "Jos mallikerta on neljä silmukkaa eikä lisäsilmukoita tarvita, säädä tulos 46 silmukasta 44:ään tai 48:aan. Huomioi ohjeen reuna- ja muut lisäsilmukat sekä muutoksen vaikutus leveyteen.",
   },
   {
     q: "Voiko tätä käyttää suljettuun neuleeseen?",
-    a: "Voi. Syötä haluttu ympärysmitta leveydeksi. Lasku on sama, mutta suljetussa neuleessa jaot, merkit ja mahdollinen joustin kannattaa tarkistaa erikseen.",
+    a: "Voi. Mittaa neuletiheys suljettuna neulotusta mallitilkusta ja syötä haluttu valmiin työn ympärysmitta leveydeksi. Huomioi haluttu väljyys jo mitassa: laskuri ei lisää eikä vähennä väljyyttä.",
   },
 ];
 ---
@@ -45,10 +45,11 @@ const faqs = [
   <div slot="content">
     <h2>Mitä silmukoiden luominen tarkoittaa?</h2>
     <p>
-      Silmukoiden luominen on neuleen ensimmäinen rivi. Siinä tehdään puikolle
-      ne silmukat, joista työ lähtee kasvamaan. Määrä ratkaisee leveyden. Liian
-      vähän silmukoita, ja kappaleesta tulee kapea. Liian paljon, ja työ alkaa
-      väärässä koossa jo ennen ensimmäistä varsinaista kerrosta.
+      Silmukoiden luomisessa tehdään neuleen aloitussilmukat. Siinä tehdään
+      puikolle ne silmukat, joista työ lähtee kasvamaan. Määrä ja neuletiheys
+      ratkaisevat aloitusleveyden. Liian vähän silmukoita, ja kappaleesta tulee
+      kapea. Liian paljon, ja työ alkaa väärässä koossa jo ennen ensimmäistä
+      varsinaista kerrosta.
     </p>
 
     <h2>Miksi neuletiheys ratkaisee</h2>
@@ -56,7 +57,7 @@ const faqs = [
       Sama lanka ja sama puikkokoko eivät tuota kaikille samaa neulepintaa. Yksi
       neuloo tiukasti, toinen rennommin. Siksi ohjeen neuletiheys on lähtökohta,
       ei lupaus. Neulo mallitilkku, kastele tai viimeistele se samalla tavalla
-      kuin valmis työ, ja mittaa silmukat 10 cm matkalta keskeltä tilkkua.
+      kuin valmis työ. Mittaa kuivuneen tilkun keskeltä silmukat 10 cm matkalta.
     </p>
 
     <h2>Näin käytät laskuria</h2>
@@ -68,9 +69,25 @@ const faqs = [
     </p>
 
     <p>
-      Jos reunaan tulee joustinneule, palmikko tai pitsikuvio, lopullinen
-      silmukkamäärä voi vaatia pienen säädön. Laskuri antaa järkevän
-      lähtöpisteen. Ohjeen toisto kertoo viimeisen sanan.
+      Jos reunaan tulee joustinneule, palmikko tai pitsikuvio, mittaa
+      neuletiheys kyseisessä mallineuleessa. Lopullinen silmukkamäärä voi vaatia
+      säädön. Laskuri antaa järkevän lähtöpisteen. Ohjeen toisto kertoo
+      viimeisen sanan.
+    </p>
+    <p>
+      Valitse cm, kun leveys on senttimetreinä ja neuletiheys on mitattu 10 cm
+      matkalta. Valitse tuumat, kun leveys on tuumina ja neuletiheys on mitattu
+      4 tuuman matkalta. Nämä ovat tavanomaisia mittausvälejä, eivät tarkkoja
+      vastineita: 4 tuumaa on 10,16 cm. Yksikön vaihto ei muunna syötettyjä
+      lukuja. Kaava on neuletiheys × leveys ÷ 10 senttimetreillä tai ÷ 4
+      tuumilla.
+    </p>
+
+    <p>
+      Tulos pyöristetään lähimpään parilliseen lukuun; tasatilanteessa ylöspäin.
+      Esimerkiksi 99 pyöristyy 100:aan. Hyvin pieni leveys voi antaa
+      pyöristyksen jälkeen 0 silmukkaa, joka ei ole käyttökelpoinen
+      aloitusmäärä. Tarkista mitat ja ohje ennen silmukoiden luomista.
     </p>
   </div>
 </LocalizedToolPage>

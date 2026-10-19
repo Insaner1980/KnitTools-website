@@ -1,7 +1,8 @@
 ---
 title: "Sæt et nyt nøgle til midt på pinden"
-description: "Lær at sætte et nyt nøgle garn til under strikning. Dækker overlap, Russian join, filt-samling og magic knot med fordele og ulemper."
+description: "Lær at sætte nyt garn til med overlap, russisk samling, filtsamling eller magic knot. Se arbejdsgang, materialekrav og hæftning af ender."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 5
 tags:
@@ -18,130 +19,123 @@ translationKey: "join-new-ball-of-yarn"
 
 Det gamle nøgle slipper op. Det nye skal begynde. Overgangen skal være pæn i det færdige stof og sikker nok til ikke at gå op.
 
-De fire hovedmetoder er overlap (enklest, to ender at hæfte), Russian join (ingen ender, lidt tykkere), filt-samling eller spit splice (næsten usynlig, men kun til filtbar uld) og magic knot (hurtig, men efterlader en knude). Det bedste valg afhænger af garnets [fiberindhold](/da/artikler/garnfibre-sammenlignet/) og hvor meget du hader at hæfte ender.
+Her sammenlignes overlap med to tråde, russisk samling (Russian join), filtsamling og magic knot. De holder garnet sammen på forskellige måder og kræver forskellig afslutning. Vælg efter garnets [fiberindhold](/da/artikler/garnfibre-sammenlignet/), konstruktion og strikkefladen.
 
 ## Hurtig sammenligning
 
-| Metode       | Passer til garn                | Ender at hæfte | Synlighed           | Bedst til                         |
-| ------------ | ------------------------------ | -------------- | ------------------- | --------------------------------- |
-| Overlap      | Alt garn                       | 2              | Lav efter montering | Standardvalg, alle garner         |
-| Russian join | Flertrådet garn fungerer bedst | 0 løse ender   | Lidt tykkere punkt  | Når du hader at hæfte ender       |
-| Spit splice  | Filtbare animalske fibre       | 0              | Næsten usynlig      | Ikke-superwash uldprojekter       |
-| Magic knot   | Mange garner, med kompromis    | 0              | Knude i stoffet     | Kun tykke eller filtede projekter |
+| Metode       | Passer til garn                          | Ender at hæfte                 | Synlighed                         | Bedst til                                 |
+| ------------ | ---------------------------------------- | ------------------------------ | --------------------------------- | ----------------------------------------- |
+| Overlap      | Afprøv tykkelsen med dobbelt tråd        | 2                              | En dobbelt maske eller strækning  | Når strikket tåler ekstra tykkelse        |
+| Russian join | Garn der kan holde en ende inde i tråden | Enderne fæstnes inde i garnet  | Tykkere parti                     | Samling uden knude; afprøv konstruktionen |
+| Filtsamling  | Garn der faktisk filter                  | Ingen ved en vellykket samling | Afhænger af udtynding og filtning | Filtbart garn uden superwash              |
+| Magic knot   | Garn hvor knuden holder                  | 2 i varianten nedenfor         | En knude bliver tilbage           | Når en knude passer til arbejdet          |
 
 ## Metode 1: overlap
 
-Mest universel. Begynd at strikke med det nye garn, og lad der være hale på både gammelt og nyt garn. Strik de første masker med det nye garn, mens du holder den gamle hale ved siden af. Slip den gamle hale efter nogle få masker. Hæft begge ender senere.
+Overlap betyder her, at du kortvarigt strikker med det gamle garn og tråden fra det nye nøgle sammen. Det er noget andet end at slippe det gamle garn og begynde med det nye alene.
 
-Virker med alt garn, kræver ingen forberedelse, og du kan gøre det midt på pinden eller ved kanten. Ulempen: to ender at hæfte, og overlapmaskerne kan se lidt tykkere ud, indtil enderne er hæftet og stoffet er [blokket](/da/artikler/blokke-strik-vaadt-damp-spray/). Det er metoden de fleste strikkere lærer først, og den er det rigtige valg, når hæftning af ender ikke generer dig.
+1. Stop, mens det gamle garn stadig rækker til samlingen og en ende at hæfte. Lad også det nye garn have en fri ende. Cirka 15 cm er et praktisk udgangspunkt, ikke en mindstelængde der passer til alle garner.
+2. Hold den gamle arbejdstråd og arbejdstråden fra det nye nøgle sammen. Lad den nye ende være fri. Strik én maske med begge tråde som i [Elizabeth Smiths eksempel](https://elizabethsmithknits.com/2021/04/29/how-to-join-a-new-skein-of-yarn/).
+3. Slip det gamle garn og fortsæt kun med tråden fra det nye nøgle. Den gamle ende skal stadig være lang nok til at hæfte. Justér forsigtigt maskerne til samme størrelse som nabomaskerne.
+4. På næste pind eller omgang strikker du begge løkker i den dobbelte maske sammen som **én maske**, ret eller vrang efter mønstret. Maskeantallet er uændret. Har du strikket flere masker med dobbelt tråd, behandles hvert par sådan.
+5. Hæft begge frie ender. Dobbelt tråd erstatter ikke hæftningen.
 
-Nogle strikkere foretrækker at sætte nyt garn til ved begyndelsen af en pind i stedet for midt på pinden. Enderne lander ved kanten, hvor de er lettere at skjule i en søm. Til flade dele der skal sys sammen, er det renest. I rundstrik er der ingen kant, så samling midt på en omgang kan ikke altid undgås.
+Det dobbelte parti er stadig tykkere, når enderne er klippet; [blokning](/da/artikler/blokke-strik-vaadt-damp-spray/) garanterer ikke, at det forsvinder. Bliver det for tykt, kan du slippe det gamle garn og strikke næste maske med den nye arbejdstråd alene. Lad begge ender være til hæftning. Hold den nye ende for at stabilisere de første masker, justér spændingen og hæft enderne.
+
+En søm kan skjule samlingen ved kanten, men en synlig kant eller et vendbart arbejde kan vise den. Du kan også samle midt på pinden. I rundstrik kan du skifte ved omgangsmarkøren eller et andet sted, hvor hæftningen passer.
 
 ### Hæft overlap-enderne ordentligt
 
-Det er hæftningen der afgør, om overlapmetoden holder. En sjusket hæftet ende kan arbejde sig ud igen, især i superwash-uld hvor fibrene ikke griber hinanden godt.
+Jævn først de løse masker ud uden at snøre strikket sammen. Kryds enderne på vrangsiden ved åbningen, før du hæfter dem i nabomaskerne, uden at stramme strikket. Tråd en stoppenål med den ene ende, og følg garnets vej gennem flere masker på vrangsiden. Skift retning gennem nabomasker; gå ikke præcis tilbage ad samme vej, så du trækker hæftningen ud igen. Gentag med den anden ende. [Purl Soho viser forskellige føringer til forskellige maskemønstre](https://www.purlsoho.com/create/weaving-in-your-ends/).
 
-Tråd enden på en stoppenål. Arbejd på vrangsiden, og følg maskernes vej i stedet for bare at trække garnet hen over overfladen. Del gerne enkelte tråde i maskerne omkring enden, så friktionen låser den bedre. Gå nogle centimeter én vej, skift retning og gå lidt tilbage, før du klipper enden efter blokning.
-
-Til superwash, silke, bambus, merceriseret bomuld og andre glatte garner skal enderne være længere og hæftningen mere grundig. Den mekaniske hæftning skal gøre hele arbejdet, når fiberen ikke selv hjælper.
+Bevar elasticiteten. At dele garnets deltråde med nålen er en mulighed for egnede garner, ikke et krav til alle konstruktioner. I glatte garner er længde og føring særlig vigtig. Lad strikket slappe af, efterbehandl kun efter garnets vaskeanvisning, og kontrollér samlingen før overskuddet klippes. Klip ikke en uhæftet ende tæt ved samlingen.
 
 ## Metode 2: Russian join
 
-Ingen ender at hæfte. Den gamle og nye garnende trækkes tilbage gennem sig selv med en stoppenål, så de danner to løkker der griber ind i hinanden.
+En russisk samling forbinder to løkker og fæstner hver ende inde i dens egen tråd før strikning. Metoden kræver ikke filtning. Brug en tynd stoppenål, der kan føres gennem garnets midte uden at beskadige det.
 
-Tråd den gamle garnende på en stoppenål. Stik nålen tilbage gennem garnets egne tråde i cirka 5 cm, så der dannes en løkke for enden. Gør det samme med det nye garn. Hægt de to løkker sammen som kædeled, før du trækker til. Klip enderne tæt af.
+1. Tråd nålen med den gamle ende. Fold den tilbage og før nålen på langs inde i den gamle tråd mod strikket. Lad en lille løkke stå åben ved folden.
+2. [Knit Picks bruger cirka 5 cm](https://tutorials.knitpicks.com/russian-join/) inde i garnet og tilpasser længden til, hvor glat det er. Træk nålen ud, og glat garnet uden at lukke løkken.
+3. Tråd nålen med den nye ende, og før den **først gennem den gamle løkke**. Fold så den nye ende tilbage, og før den tilsvarende langt inde i sin egen tråd mod det nye nøgle. Nu griber løkkerne ind i hinanden.
+4. Træk enderne til, så løkkerne lukkes, og glat begge fortykkelser. Kontrollér, at enderne ikke glider ud. Klip kun overskuddet uden for de indførte stykker, ikke selve samlingen.
+5. Strik over den samlede tråd som normalt mod det nye nøgle. Strik maskerne normalt på næste pind eller omgang; der tilføjes ingen masker. I en vellykket samling er enderne fæstnet inde i garnet og ligger ikke løse i strikket.
 
-En spids stoppenål hjælper. En stump nål glider let mellem trådene i stedet for at gå ind i garnet, og så kan samlingen blive svagere. Nålen skal have et øje der er stort nok til garnet, og en spids der faktisk kan arbejde sig ind i tråden.
-
-Meget sikker, fordi samlingen er bygget ind i selve garnet. Den samlede sektion er lidt tykkere (to lag i cirka 5 cm på hver side), og det kan ses i meget tyndt garn. Virker ikke med entrådet garn eller garn der splitter for meget til at gennembore.
-
-Bedst til strikkere der virkelig ikke gider hæfte ender, og som arbejder med flertrådet garn. Fra DK og tykkere forsvinder den ekstra tykkelse ofte i det færdige stof.
-
-I Fingering og Lace kan Russian join ses som et lidt tykkere punkt, selv om blokning ofte blødgør overgangen.
+Konstruktionen betyder mere end en grænse ved DK. Garnet skal kunne rumme og holde enden. Båndgarn, åbne kædekonstruktioner og meget løse eller glatte tråde vurderes hver for sig. Entrådet garn er ikke automatisk udelukket. Prøv i en strikkeprøve og med tilladt vask og tørring. Fortykkelsen kan være synlig. Glider enden ud, eller kan den ikke føres ind, så vælg en metode med ender, der hæftes i strikket.
 
 ## Metode 3: filt-samling
 
-Virker kun med ikke-superwash uld og andre filtbare animalske fibre.
+Brug garn, der faktisk filter, for eksempel egnet uld uden superwash-behandling. Uld på banderolen er ikke nok: behandling, blanding og konstruktion spiller ind. Superwash, bomuld, hør og akryl passer ikke til denne filtsamling. Antag ikke, at en blanding med animalske fibre binder sikkert.
 
-Læg enderne over hinanden i cirka 7-8 cm. Fugt dem (navnet spit splice kommer fra den traditionelle metode, men vand virker fint). Rul overlapningen kraftigt mellem håndfladerne. Friktion plus fugt filter fibrene sammen og laver en permanent samling uden klump og uden ender.
+Til det lige overlap i [Purl Sohos vejledning](https://www.purlsoho.com/create/wet-splice-aka-spit-splice/):
 
-Resultatet kan blive næsten usynligt: ingen tydelig tykkelsesændring og intet at hæfte. Begrænsningen er tydelig. Det virker kun med filtbare garner. Bomuld, akryl, superwash-uld, silke, hør og bambus filter ikke. Hvis samlingen ikke bliver stærk nok, ofte på grund af for lidt friktion eller fugt, trækker den fra hinanden.
+1. Lad der være nok gammelt garn til at håndtere enden uden at trække i sidste maske. Åbn de sidste cirka 2,5–5 cm af begge ender; skil deltrådene, hvis garnet er flertrådet.
+2. Fjern nogle fibre fra hver ende for at mindske tykkelsen. Bevar nok til et sammenhængende overlap, og klip ikke hele tråden over.
+3. Fugt de klargjorte ender med vand, og læg dem over hinanden med strikket og det nye nøgle i modsatte retninger.
+4. Gnid overlappet mellem håndfladerne, til fibrene binder. Prøv forsigtigt; går samlingen fra hinanden, skal den ikke strikkes ind som en færdig samling.
+5. Fortsæt med den samlede tråd. Strik maskerne normalt på næste pind eller omgang. En vellykket samling indarbejder begge ender, så der ikke er løse ender her at hæfte eller klippe væk.
 
-Mange uldstrikkeres favoritmetode. Hvis dit garn filter, er den værd at lære.
-
-Test først på to korte garnrester. Nogle garner der ligner almindelig uld, er superwash-behandlet eller blandet med fibre, der forhindrer filtning. En lille test er bedre end at opdage halvvejs gennem en sweater, at samlingerne ikke holder.
+Prøv først på rester og i en strikkeprøve, også med garnets tilladte vask og tørring. Et let træk viser den første binding, ikke varig holdbarhed. Tykkelse og synlighed afhænger af forberedelsen og garnet.
 
 ## Metode 4: magic knot
 
-Læg gammelt og nyt garn over hinanden. Bind det gamle garn omkring det nye med en enkel knude, og bind derefter det nye omkring det gamle med en anden. Skub knuderne mod hinanden, til de mødes og låser. Klip enderne tæt af.
+Magic knot er to enkle knuder, hver omkring den anden tråd, som trækkes sammen. Lad der være længde til at knytte og i denne variant også hæfte enderne bagefter.
 
-Hurtig, sikker når den er bundet godt, og ingen ender at hæfte. Men der er en knude i stoffet. Selv en stram magic knot laver et lille hårdt punkt, der kan mærkes i tyndt stof og arbejde sig frem til overfladen med tiden. I glatte garner som silke og bambus kan knuderne glide op. Mange strikkere undgår knuder i tøj. Punktum.
+1. Læg gammelt og nyt garn ved siden af hinanden med de frie ender i modsatte retninger.
+2. Før den gamle ende over og under den nye tråd. Kryds den over sin egen lange tråd til en løkke, før enden gennem løkken nedefra, og stram knuden omkring den nye tråd.
+3. Gentag samme over–under-rækkefølge med den nye ende omkring den gamle tråd.
+4. Træk i de lange tråde mod strikket og det nye nøgle, **ikke i enderne**, til knuderne glider sammen. Stram og kontrollér, at de ikke glider op.
+5. Fortsæt med den nye arbejdstråd, og læg om muligt knuden mellem maskerne. Strik følgende masker normalt; knuden er ikke en ekstra maske. Bevar begge ender, og hæft dem før klipning, en mulighed i [YarnThrifts vejledning](https://yarnthrift.com/how-to-join-yarn-using-the-magic-knot-crochet-tutorial/).
 
-Bedst til tykke stoffer hvor en knude forsvinder, som Bulky-tæpper og filtede ting. Ikke til tøj eller fint arbejde.
+Nogle varianter klipper straks tæt ved knuden. Så afhænger sikkerheden af knuden; det er ikke afslutningen, der undervises i her. [Nimble Needles beskriver, at knuder kan løsne sig i glatte garner](https://nimble-needles.com/tutorials/joining-yarn-with-a-magic-knot-in-knitting/). Et træk giver ingen livslang garanti. Knuden kan ses eller mærkes selv i tykt strik. Vælg den, når du accepterer det; knuder er hverken altid forbudt i tøj eller automatisk egnede til tæpper og filtede arbejder.
 
 ## Vælg den rigtige metode
 
-I de fleste situationer er overlap med hæftede ender det sikreste og mest universelle. Det virker med alt garn, giver et rent resultat efter montering og kræver ingen særlig teknik.
-
-Til ikke-superwash uld giver filt-samling det reneste resultat. Det kræver lidt øvelse at ramme tryk og fugt rigtigt, men når det først sidder, er det den hurtigste og mest usynlige samling.
-
-Russian join passer til strikkere, der virkelig ikke bryder sig om ender, og til flertrådet garn fra DK og opefter.
-
-Magic knot er hurtigt, men det er et kompromis. Brug det først og fremmest i tykke flader, hvor knuden forsvinder, eller i projekter der skal filtes.
+Vælg efter strikkeprøven: overlap giver dobbelt tråd og to ender at hæfte; Russian join fæstner enderne inde i garnet, men gør det tykkere; filtsamling kræver en pålidelig binding; magic knot efterlader en knude. At begynde med den nye tråd alene og hæfte begge ender er et alternativ, når dobbelte masker bliver for tykke. Ingen metode passer til alle garner og projekter.
 
 ## Timing af samlingen
 
-Hvis du kan planlægge, har du muligheder. Når du nærmer dig slutningen af et nøgle, så mål resten af garnet mod arbejdets bredde. En grov tommelfingerregel: hvis garnet er cirka fire gange så langt som pinden eller rækken du skal strikke, har du omtrent nok til én pind. Det er ikke præcist, fordi vrangmasker og strukturmønstre kan bruge forskellig mængde garn, men det er tæt nok til at planlægge en ren samling.
+Planlæg samlingen, før den gamle ende bliver for kort at håndtere og hæfte. Garnlængden sammenholdt med arbejdets bredde forudsiger ikke sikkert en hel pind i alle maskemønstre. Vil du samle ved kanten og er usikker på, om garnet rækker til næste pind **og en ende at hæfte**, så skift før pinden starter.
 
-Hvis garnet kun lige rækker til én pind, så sæt nyt garn til ved begyndelsen af næste pind, så enderne lander ved kanten.
-
-I glatstrik rundt er det smart at forskyde dine samlinger, så de ikke alle lander samme sted. Flyt samlingen nogle masker hver gang, så du undgår en synlig søjle med lidt anderledes struktur.
+I rundstrik kan du fordele samlingerne på mindre synlige steder, så fortykkelserne ikke ligger oven over hinanden. Det ændrer placeringen, ikke tykkelsen eller styrken.
 
 ## Skift mellem håndfarvede nøgler
 
-Håndfarvede nøgler kan variere, selv inden for samme farveparti. Hvis du skifter nøgle brat, kan der komme en tydelig stribe, hvor skiftet sker.
+Håndfarvede nøgler kan variere også inden for samme farveparti. [Malabrigo anbefaler for eksempel at skifte mellem nøgler af Rios](https://malabrigoyarn.com/yarns/rios) for at fordele farveforskelle. Det garanterer ikke en usynlig overgang eller fjerner enhver farveansamling.
 
-Når du starter et nyt nøgle i et håndfarvet projekt, så skift mellem gammelt og nyt nøgle i flere pinde. Mange bruger to pinde fra det ene nøgle og to pinde fra det andet. Lad det garn du ikke bruger, følge løst langs kanten. Så bliver nuanceforskellen til en overgangszone i stedet for en skarp linje.
-
-Ved kraftigt melerede håndfarvede garner hjælper samme trick også mod pooling. To nøgler sammen opfører sig anderledes end hvert nøgle alene.
+Ved strik frem og tilbage kan du strikke to pinde med det gamle nøgle og to med det nye. Så vender begge tilbage til samme kant. Før den hvilende tråd langs kanten uden at stramme, og fang den ved skiftet. Gentag og vurder overgangen; lad en ende være tilbage til hæftning, når du stopper med det gamle nøgle. Dette er et eksempel til fladstrik. I rundstrik følger garnet det valgte skiftepunkt, ikke en sidekant. Forskellige farvepartier kan stadig skille sig ud.
 
 ## Fabriksknuder i nøglet
 
-Nogle gange er der en knude inde i selve nøglet. Garnproducenter kan samle garnet under opnøgling, når en tråd brister, og den knude dukker op midt i projektet.
-
-Strik ikke hen over knuden. Klip den væk, behandl de to dele som separate nøgler, og brug den samlingsmetode der passer til garnet. En lille knude i færdig strik ligner en fejl, selv hvis den ikke går op. Fabriksknuder sker, især i masseproducerede garner.
+Kontrollér knuden, før du strikker forbi den. Er konstruktionen eller holdbarheden usikker, så fjern den og saml med en metode, der passer til arbejdet. Bevar nok længde på begge sider, og trevl lidt op ved behov. En fabriksknude beviser ikke, at alle knuder passer eller ikke passer til strikket.
 
 ## Når garnet knækker midt i en maske
 
-Stop. En halvstrikket maske kan løftes tilbage på venstre pind. Behandl bruddet som en almindelig samling: lad der være en ende på det knækkede garn, sæt nyt garn til med den metode du foretrækker, og fortsæt hvor du var.
+Stop og sikr masken. Er den gamle løkke stadig på venstre pind, så behold den dér og fjern den ufuldstændige nye løkke. Er den gamle maske gledet af, så saml den op, før du fortsætter; en knækket garnende er ikke en hel maske.
 
-Hvis enderne er for korte til at hæfte, så trevl nogle masker eller én pind tilbage, til du har nok længde at arbejde med. Lav ikke en lille nødknude midt i masken.
-
-Hvis garnet knækker flere steder, så tjek hele nøglet. Gammelt garn, solskadet garn eller et beskadiget nøgle kan have mange svage punkter. Hvis garnet er nykøbt, kan det være værd at reklamere.
+Trevl nok op til at få en gammel ende, der kan hæftes. Sæt helt garn til, og strik masken igen. Kontrollér maskeantallet. Knækker garnet gentagne gange, så undersøg det og kontakt sælgeren om en mulig fejl i stedet for at fortsætte med ukontrollerede svage partier.
 
 ## Noter om at sætte garn til
 
-En enkel knude og så bare videre er teknisk muligt, men som regel dårlig praksis. Knuden laver en hård bule, kan arbejde sig løs og kan ses ved nærmere kig.
-
-Lad enderne være lange nok til, at du komfortabelt kan tråde en stoppenål. For korte ender gør hæftningen unødigt besværlig. I glatte garner er længere ender sikrere.
-
-Hvor du sætter til, afhænger af projektet. Syede stykker: gør det ved kanten, så enderne kan skjules i sømmen. Rundstrik: samlinger midt på omgangen kan ikke undgås. Undgå midt foran på en sweater, hvis du kan.
-
-Hvis det nye garn har en lidt anden nuance, et andet farveparti, så skift mellem nøgler nogle pinde, før du skifter helt. To pinde gammelt, to pinde nyt, gentag over flere pinde. Det blander overgangen i stedet for at lave en skarp linje.
+Samlingen og hæftningen hører sammen. Bevar brugbare ender, hvor metoden kræver det, og kontrollér begge sider før klipning. På vendbare arbejder er ingen side automatisk skjult. Prøv skift mellem nøgler som beskrevet ovenfor ved nuanceforskelle, og vurder resultatet uden at forvente et perfekt farvematch.
 
 ## FAQ
 
 **Kan jeg sætte en ny farve til på samme måde som et nyt nøgle i samme farve?**
-Som regel ja, men en overlapssamling kan give én eller to masker, hvor farverne blandes. Til rene farveskift bør du sætte den nye farve til ved kanten og hæfte enderne på vrangsiden inden for samme farvefelt. Spit splice passer ikke til farveskift, fordi den blander de to farver synligt.
 
-**Hvad gør jeg, hvis garnet er for splittevenligt til Russian join?**
-Brug overlap i stedet. Russian join kræver sammenhængende tråde, som nålen kan gå igennem. Entrådede, løst tvundne og meget fluffy garner holder ikke samlingen lige så godt.
+Ved et skift i en bestemt maske stopper du den gamle farve før masken og strikker den med den nye arbejdstråd alene. Lad begge ender være tilbage, justér spændingen og hæft dem i hver sit farvefelt. Skiftet behøver ikke ske ved kanten. Dobbelt tråd blander farver i de masker, der faktisk strikkes dobbelt, ikke automatisk i én eller to hele pinde eller omgange. Filtet overlap blander fibrene; også Russian join og knuder er svære at placere ved præcis én maske. Metoderne fjerner ikke i sig selv niveauforskellen mellem striber i rundstrik.
+
+**Hvad gør jeg, hvis garnet splitter for let til Russian join?**
+
+Kan du ikke føre enden ind og holde den i netop dette garn, så brug overlap eller begynd med den nye tråd og hæft begge ender. Antallet af deltråde afgør det ikke alene; konstruktion, friktion og strikkeprøven må vurderes.
 
 **Ses samlingen på vrangsiden?**
-Lidt. Selv en ren filtsamling kan mærkes som et lille punkt, hvor garnet er anderledes. Overlap ses som et dobbelt stykke garn, indtil enderne er hæftet og klippet. Russian join kan give et tykkere område, og andre samlinger kan også forblive synlige. Synligheden afhænger af garn, fiber, strikkefasthed, maskemønster, samlingstype og placering. Hvis udseendet er vigtigt, så test samlingen og placér den et mindre synligt sted, når det er praktisk muligt.
+
+Den kan ses på begge sider. Klipning fjerner ikke den dobbelte tråd i overlappet eller fortykkelsen i Russian join. En filtsamling afhænger af forberedelsen, og en knude bliver tilbage. Afprøv garn, strikkefasthed, maskemønster og placering i dit arbejde.
 
 **Hvordan hæfter jeg ender i hulmønster eller andet åbent stof?**
-Det er sværere, fordi der er mindre stof at skjule enderne i. Følg en stabil maskesøjle på vrangsiden, altså masker der ikke er omslag, og del trådene let mens du hæfter. I meget åbent hulmønster er det bedre at planlægge samlinger ved kanten.
+
+Følg en sammenhængende del af maskemønstret i stedet for at trække enden over åbne omslag. En kant eller søm kan give plads til hæftning, men en åben kant kan også vise enderne. Afprøv føring og elasticitet i en prøve; deling af deltråde passer kun til nogle garner.
 
 **Hvorfor kryber den hæftede garnende frem igen?**
-Som regel er enden for kort, der er for få retningsskift, eller garnet griber ikke godt i sig selv, som superwash, silke eller glatte synteter. Hæft længere, læg en zigzag-retning ind, og del trådene i stedet for bare at følge overfladen. Hvis garnet er meget glat, så lad enden være længere og tjek den igen efter blokning.
+
+Kontrollér det hæftede partis længde, føring og spænding. Lav en for kort eller glidende hæftning om med en længere vej gennem nabomaskerne. Afprøv hæftningen i glatte garner med tilladt vask og tørring, før du klipper mere. Vask eller blokning erstatter ikke hæftningen.

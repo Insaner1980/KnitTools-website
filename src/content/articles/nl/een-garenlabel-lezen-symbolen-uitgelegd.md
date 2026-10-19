@@ -1,6 +1,7 @@
 ---
 title: "Een garenlabel lezen: symbolen uitgelegd"
-description: "Ontcijfer garenlabels: vezelsamenstelling, garendikte, stekenverhouding, wasvoorschrift, verfbad en wat elk symbool betekent."
+description: "Ontcijfer garenlabels: vezelsamenstelling, garendikte, stekenverhouding, wasvoorschrift, verfbad en veelvoorkomende onderhoudssymbolen."
+updatedDate: 2026-10-17
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 3
@@ -16,15 +17,15 @@ lang: nl
 translationKey: "how-to-read-yarn-label"
 ---
 
-Dat kleine papieren bandje rond een bol? Het doet meer dan het garen bij elkaar houden. Elk symbool, getal en icoon staat erop omdat iemand ergens het verkeerde garen kocht of een afgewerkte trui in de was verpestte. Het label is het spiekbriefje dat diegene eerder had willen lezen.
+Bewaar de papieren banderol rond de bol: daarmee kun je het garen later herkennen en de onderhoudsinstructies terugvinden.
 
-Een garenlabel vertelt je de vezelsamenstelling, garendikte, aanbevolen stekenverhouding, naalddikte, wasvoorschrift en verfbad. Alles wat je nodig hebt om het garen goed te kiezen, te gebruiken en te verzorgen. Pak een bol uit de kast of graaf er een uit je voorraad. Dit is wat elk onderdeel echt vertelt.
+Een garenlabel vermeldt meestal vezelsamenstelling, gewicht en looplengte, aanbevolen stekenverhouding en naalddikte, onderhoud en kleur- of lotnummer. Inhoud en indeling verschillen per fabrikant en markt. De samenstellingen en kleurnamen hieronder zijn verzonnen voorbeelden, geen label van een bepaalde fabrikant.
 
 ## Symbool voor garendikte
 
-Het bolvormige icoon met een getal erin is de Craft Yarn Council-garencategorie. Veel labels gebruiken nog de bekende reeks van Lace tot Jumbo, en CYC is begonnen het systeem uit te breiden met Size 8 en extra symbolen. Zie het getal als snelle aanwijzing, maar controleer daarna ook de categorienaam en het vak met stekenverhouding voordat je garen aan een patroon koppelt.
+Het bolvormige symbool met een getal geeft de garendiktecategorie van de Craft Yarn Council aan. De gepubliceerde tabel loopt van 0 (Lace) tot 7 (Jumbo). Dat getal is geen naalddikte, bolgewicht in grammen of aantal samengedraaide draden.
 
-De tekst ernaast zegt vaak iets als DK, Worsted of Bulky. Niet elk merk drukt het CYC-icoon af, en sommige gebruiken merkspecifieke namen zoals "Studio" of "Soft Touch". Als de diktenaam onduidelijk is, geeft het vak met stekenverhouding betere aanwijzingen.
+Je kunt ook namen als DK, Worsted of Bulky tegenkomen. Niet alle fabrikanten gebruiken het CYC-systeem. Bekijk dikte, looplengte, vezelsamenstelling en stekenverhouding samen; alleen een productnaam vertelt niet hoe dik het garen is.
 
 De [tabel met garendiktes](/nl/breitools/garendiktes/) zet alle categorieën op een rij met hun bereiken voor stekenverhouding en gebruikelijke naalddiktes.
 
@@ -34,63 +35,53 @@ Staat vermeld in percentages. `100% merinowol`. `75% acryl, 25% wol`. `60% katoe
 
 Let hier goed op bij [garen vervangen](/nl/artikelen/garen-vervangen-in-een-breipatroon/). Een DK-garen van wol en een DK-garen van katoen zijn allebei DK. Ze kunnen op vergelijkbare stekenverhoudingen uitkomen. Maar de stof gedraagt zich totaal anders. De [vezelgids](/nl/artikelen/garenvezels-vergeleken/) behandelt die verschillen.
 
-Labels noemen soms of het garen superwash, gemerceriseerd of geborsteld is. Dat zijn geen sierwoorden. Superwash-wol is behandeld om vervilten beter te weerstaan en kan als machinewasbaar gelabeld zijn. Niet-superwash-wol vraagt zachtere verzorging, omdat warmte, vocht en beweging de vezel kunnen laten vervilten. Dat is een detail dat je wilt zien voordat je 300 steken opzet voor een babydeken.
+Het label kan vermelden of het garen superwashbehandeld, gemerceriseerd of geborsteld is. Superwashbehandeling maakt wol minder gevoelig voor vervilten; volg het wasvoorschrift voor dat specifieke garen. Het woord alleen geeft geen toestemming voor trommeldrogen, strijken of blocken met stoom.
 
 ## Informatie over stekenverhouding
 
-Het vak met stekenverhouding toont een aantal steken en toeren over een standaard proeflapje, meestal 10 cm of 4 inch, plus een aanbevolen naald- of haaknaalddikte.
+Het vak voor de stekenverhouding bij breien geeft steken in de breedte en toeren in de hoogte over het vermelde oppervlak, vaak 10 × 10 cm, met een aanbevolen breinaalddikte. De stekenverhouding bij haken en de haaknaalddikte zijn aparte gegevens: lees een haaknaalddikte niet als een breinaalddikte. Controleer millimeters of het regionale maatsysteem en eventuele informatie over steekpatroon en behandeling.
 
-Dit is een startpunt. De fabrikant breide een proeflapje met hun gekozen spanning en noteerde het resultaat. Jouw handen, jouw naalden en jouw gewenste stofdichtheid kunnen iets anders opleveren. Brei toch een proeflapje.
+De stekenverhouding op het label is een richtlijn, geen garantie voor jouw stekenverhouding of de pasvorm. Brei een proeflapje in de steek van het patroon, behandel het volgens de instructies voor het garen en vergelijk het droog met de vereiste stekenverhouding. Staat er niet of de labelwaarde vóór of na het wassen is gemeten, neem dat dan niet aan.
 
 ## Looplengte en bolinformatie
 
-Bolgewicht in grammen en garenlengte in meters, soms ook met een internationale tweede eenheid erbij. Twee getallen, maar de lengte is het getal dat telt voor projectplanning. Twee bollen van 100 g kunnen heel verschillende hoeveelheden garen bevatten, afhankelijk van vezeldichtheid. Daarom werkt de [gids over garen schatten](/nl/artikelen/hoeveel-garen-heb-je-nodig/) met meters, niet met aantal bollen.
+Bolgewicht in grammen en garenlengte in meters, soms ook met een internationale tweede eenheid erbij. Twee getallen, maar de lengte is het getal dat telt voor projectplanning. Twee bollen van 100 g kunnen sterk verschillen in looplengte door dikte, vezel en constructie. Een gelijk gewicht of gelijke lengte maakt garens niet uitwisselbaar. Daarom werkt de [gids over garen schatten](/nl/artikelen/hoeveel-garen-heb-je-nodig/) met meters, niet met aantal bollen.
 
 ## Wasvoorschriften
 
-Dit is het deel dat op hiërogliefen lijkt tot je het systeem kent. De iconen volgen de internationale textielverzorgingssymbolen, dezelfde als op kleding. Elk symbool gaat over een soort verzorging: wassen, bleken, drogen, strijken en professionele reiniging.
+Hier beschrijven we de onderhoudssymbolen van het GINETEX-/ISO-systeem. Andere systemen en oudere labels kunnen afwijken; vraag de fabrikant naar onbekende tekens. Het zijn beschrijvingen in woorden, geen afgebeelde standaardpictogrammen. De [GINETEX-symbolengids](https://www.ginetex.net/GB/labelling/care-symbols.asp) toont de werkelijke vormen.
 
-**Wassen** gebruikt het wastobbe-icoon. Een getal erin is de maximale temperatuur in graden Celsius. Een hand in de tobbe betekent alleen handwas. Strepen onder de tobbe geven mildere machineprogramma's aan; meer strepen betekent voorzichtiger behandelen.
+**Wassen:** het getal in de wastobbe is de maximumtemperatuur in °C, geen verplichte wastemperatuur. Eén streep eronder betekent een mild proces, twee een zeer mild proces. Geen van beide betekent handwas. Een hand in de tobbe betekent handwas; controleer de symboolvariant en temperatuur. Een doorgestreepte tobbe verbiedt thuis wassen, ook met de hand.
 
-Een X door de wastobbe betekent niet wassen. Dat is zeldzaam bij garen, maar het komt voor bij sommige speciale vezels.
+**Bleken:** een lege driehoek staat chloor- en zuurstofbleekmiddel toe. Twee schuine strepen staan alleen zuurstofbleekmiddel toe. Een doorgestreepte driehoek betekent niet bleken.
 
-**Bleken** is de driehoek. Een lege driehoek betekent dat bleken mag. Twee diagonale strepen erin beperken je tot chloorvrij zuurstofbleekmiddel. Een X door de driehoek: geen bleekmiddel van welke soort dan ook.
+**Drogen:** een cirkel in een vierkant verwijst naar trommeldrogen. Eén stip betekent lage, twee normale warmte; een kruis door dit symbool verbiedt trommeldrogen. Eén horizontale streep in het vierkant betekent liggend drogen, één verticale streep drogen aan de lijn. Dit zijn natuurlijke droogmethoden, geen drogerinstellingen.
 
-De meeste breiers pakken niet vaak bleekmiddel. Maar maak je iets wits of heel lichts, dan telt het of de vezel ertegen kan.
+**Strijken:** de stippen in het strijkijzer geven de toegestane warmtestand aan: één laag, twee matig, drie hoog. Controleer de temperatuurgrenzen van het gebruikte systeem en eventuele beperkingen voor stoom. Een doorgestreept strijkijzer betekent niet strijken. De vezelnaam of het wasvoorschrift alleen geeft geen toestemming voor blocken met stoom.
 
-**Drogen** gebruikt een vierkant. Een cirkel in het vierkant betekent dat drogen in de droger mag. Stippen in die cirkel geven de warmtestand aan: een stip voor lage temperatuur, twee voor normaal. Een horizontale streep in het vierkant betekent liggend drogen, wat voor de meeste gebreide kleding toch de beste methode is. Een verticale streep in het vierkant betekent hangend of aan de lijn drogen.
+**Professionele reiniging:** de cirkel verwijst naar professionele textielverzorging. P en F duiden verschillende toegestane groepen oplosmiddelen voor chemische reiniging aan; de vakman interpreteert het volledige symbool volgens de betreffende norm. W betekent professionele natreiniging, geen wasbeurt thuis. Een streep eronder vereist een milder proces. Geef de reiniger alle labelinformatie mee.
 
-Hier gaan breiers vaak de mist in: alleen omdat het garen de droger overleeft, betekent niet dat de afgewerkte gebreide stof erin moet. Een los gebreide muts in superwash-wol kan in de droger uitrekken, ook als het label technisch toestaat dat het garen in de droger gaat.
-
-Het **strijkijzer**-symbool ziet eruit als, inderdaad, een strijkijzer. Stippen erin geven de temperatuur aan (een stip is laag, drie is hoog). Een X erdoor betekent niet strijken. Bij breiwerk telt het strijkijzer vooral bij naden persen of blocken met stoom. Sommige synthetische vezels reageren slecht op hitte en kunnen smelten of glimmen onder een heet ijzer.
-
-**Professionele reiniging** krijgt een cirkel. P en F erin geven chemische reinigingsmiddelen aan (perchloorethyleen en koolwaterstof). W betekent professionele natreiniging, een proces met water en geen oplosmiddel. De meeste breiers slaan dit volledig over, maar het staat op labels van zijdemengsels, kasjmier en andere vezels die baat kunnen hebben bij professionele zorg.
-
-Deze symbolen zijn geen vrijblijvende suggesties. Wol met alleen handwas vervilt als je die in een normaal machineprogramma met warm water en beweging gooit. Een vezel die geen hitte verdraagt, komt uit een hete droger als een ander object dan wat erin ging.
+Volg voor wassen, drogen en afwerken van proeflapje en project de instructies voor het specifieke garen. Machinewasbaar betekent niet automatisch geschikt voor de droger of om te strijken.
 
 ## Verfbad en kleurnummer
 
 Hier gaat het vaak mis. Twee verschillende nummers, twee verschillende functies, en ze verwarren kan een zichtbare streep over je trui betekenen precies waar je van bol wisselde.
 
-Het **kleurnummer** (of de kleurnaam) geeft de tint aan. "Kleur 412" of "Dusty Rose". Dit blijft hetzelfde van batch tot batch. Zo vind je volgend jaar dezelfde kleur terug.
+Het **kleurnummer** of de kleurnaam identificeert de tint binnen een bepaalde garenlijn, bijvoorbeeld de verzonnen aanduidingen ‘kleur 412’ of ‘Dusty Rose’. Het **verfbadnummer** identificeert de productiepartij, niet de kleur zelf. Verschillende partijen kunnen zichtbaar afwijken, maar dat hoeft niet.
 
-Het **verfbadnummer** geeft de specifieke partij aan waarin het garen is geverfd. Twee bollen met hetzelfde kleurnummer maar een verschillend verfbad kunnen in de winkel identiek lijken en naast elkaar gebreid toch subtiel verschillen. Soms zie je het verschil pas nadat je al tien toeren voorbij de bolwissel bent.
+Koop zo mogelijk voldoende uit hetzelfde verfbad en vergelijk de bollen. Hetzelfde verfbad garandeert geen volkomen egale kleur, zeker niet bij handgeverfd garen. Moet je partijen mengen, probeer het afwisselen van bollen dan eerst in een proeflapje. Het kan de overgang verzachten, maar garandeert geen onzichtbare bolwissel.
 
-Koop al het projectgaren uit hetzelfde verfbad. Elke bol. Lukt dat niet, wissel dan om de twee toeren van bol zodat de overgang mengt en het kleurverschil niet als harde lijn valt.
-
-Sommige garens hebben `no dye lot` op het label, wat betekent dat de fabrikant constante kleur tussen batches verwacht. Handgeverfd garen varieert daarentegen bijna altijd van bol tot bol. Dat is deel van de charme, maar het betekent ook dat afwisselend breien standaard is.
+`No dye lot` betekent dat de fabrikant streeft naar een constante kleur tussen partijen, zonder dat verfbadnummers hoeven overeen te komen. Het belooft niet dat alle bollen er identiek uitzien; controleer de uitleg van de fabrikant en vergelijk ze.
 
 ## Land van herkomst en merkinformatie
 
-Merknaam, garenlijn, land van herkomst. Handig als je later meer nodig hebt, of als je wilt onthouden wat goed werkte.
+Merk, garenlijn, productcode en eventueel land van herkomst helpen het garen te identificeren. De gegevens en de vorm ervan verschillen.
 
 ## Wat het label je niet vertelt
 
 Labels vertellen veel. Maar ze laten ook dingen weg die ertoe doen.
 
-Er staat niet op hoe het garen eruitziet als het gebreid is. Een rustige, effen bol kan prachtige stof geven. Een spectaculaire handgeverfde bol kan in vlekken poolen. Dat voorspel je niet alleen vanaf de banderol.
-
-Ook niets over duurzaamheid. Hoeveel het garen pilt, of het zachter of juist harder wordt door wassen, hoe het zich houdt na een winter dagelijks dragen. Die antwoorden komen uit ervaring en reviews, niet van het label.
+Een label alleen voorspelt niet betrouwbaar het uiterlijk of de slijtvastheid van jouw breiwerk. Lees eventuele aanvullende informatie van de fabrikant en bekijk in je eigen proeflapje hoe het breiwerk reageert op het toegestane onderhoud.
 
 En het vak met stekenverhouding is het resultaat van de fabrikant, niet dat van jou. Zie het als referentie, niet als garantie.
 
@@ -99,7 +90,7 @@ Noteer de belangrijkste labelgegevens meteen in je projectnotities: garendikte, 
 ## FAQ
 
 **Wat als het label in een taal is die ik niet kan lezen?**
-De wasvoorschriften beperken de taalafhankelijkheid, en garendikte-iconen volgen vaak CYC-conventies. Controleer toch het vak met stekenverhouding en de vezelpercentages als de tekst onbekend is.
+Stel vast welk symbolensysteem wordt gebruikt en vraag de fabrikant naar onbekende woorden of tekens. Symbolen vertalen geen vezelnamen en verklaren niet alle onderhoudsvoorwaarden.
 
 **Het label geeft stekenverhouding per 10 cm, maar mijn patroon gebruikt 4 inch. Is dat hetzelfde?**
 Bijna, maar niet precies. 10 cm is ongeveer 3,94 inch. Geeft het patroon de stekenverhouding over 10 cm, meet dan 10 cm. Geeft het patroon 4 inch, meet dan 4 inch.
@@ -108,4 +99,4 @@ Bijna, maar niet precies. 10 cm is ongeveer 3,94 inch. Geeft het patroon de stek
 Ja. In elk geval tot het project af en gewassen is.
 
 **Wat betekent "machinewasbaar" voor gebreide stukken?**
-Het garen kan machinewas overleven onder de voorwaarden op het label. Dat betekent niet dat de gebreide stof onverwoestbaar is, vooral niet bij lossere stekenverhouding of kledingstukken die kunnen uitrekken.
+Gebruik het machineprogramma en de temperatuurgrenzen die voor dit garen zijn aangegeven. Controleer drogen en strijken apart en probeer het toegestane onderhoud op je proeflapje.

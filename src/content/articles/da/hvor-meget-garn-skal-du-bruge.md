@@ -18,49 +18,43 @@ translationKey: "how-much-yarn-do-i-need"
 
 At løbe tør for garn tre fjerdedele inde i et projekt er en særlig slags nederlag. Farvepartiet er væk. Butikken er udsolgt. Eller erstatningsnøglet så tæt nok ud i butikken og helt forkert, da det blev strikket op ved siden af det oprindelige. To centimeter fra aflukningen går hele projektet i stå. Det sker oftere, end det burde, og bedre planlægning forebygger meget af det.
 
-Mængden af garn et strikkeprojekt kræver, afhænger af fire ting: projektets mål, garntykkelse, maskemønster og strikkefasthed. Et godt estimat er ikke gætteri. Det handler om at få de fire input rigtigt. Får du dem rigtigt, kommer estimatet overraskende tæt på. Ignorerer du ét af dem, gambler du.
+Garnforbruget afhænger af projektets mål, garntykkelse, maskemønster, strikkefasthed og konstruktion. Begynd med opskriftens mængde til den størrelse, du vil strikke, og vurder betydningen af dit garn og dine ændringer.
 
 ## Hurtige garnmængder efter projekttype
 
 Nogle gange skal du bare have en fornemmelse, før du går i gang med at købe garn. Ikke en præcis beregning. Bare størrelsesordenen.
 
-En enkel voksenhue i Worsted / Medium-garn holder sig ofte inden for ét eller to nøgler à 100 g. Et sted mellem 140 og 230 m, afhængigt af størrelse og om kanten er dobbelt. Tørklæder ligger typisk i området nogle hundrede meter, men bredde og længde flytter tallet hurtigt. Et smalt tørklæde i Fingering og et bredt Chunky-halsrør lever i helt forskellige garnforbrugsverdener, selv om begge kaldes "tørklæder".
+En offentliggjort tabel giver et første pejlemærke. [Lion Brands oversigt](https://www.lionbrand.com/pages/how-much-yarn-do-i-need) angiver for eksempel 200–225 yards, cirka 183–206 m, til en hue i kategorien Medium. Tabellen angiver ikke færdige mål, strikkefasthed eller maskemønster for denne post, så mængden gælder ikke alle voksenhuer. Til tørklæder, sweatre og tæpper bør du finde en opskrift med de mål og den konstruktion, du planlægger.
 
-Voksensweatre er projekter med firecifret meterforbrug. En tætsiddende sweater i DK kan kræve 1 350 m eller mere. En oversize cardigan med snoninger i Worsted kan komme over 1 800 m. Tæpper ryger hurtigt op i tusindvis af meter, og et stort sengetæppe kan sluge 2 750 m eller mere.
-
-Det er skala, ikke præcision. En hue med snoninger bruger mere garn end en glatstrikket. En kort sweater og en tunikalang sweater er ikke engang i samme kvarter. Et tæppe med tung struktur bruger mere garn end et glatstrikket rektangel.
-
-Til noget projektspecifikt arbejder KnitTools' [garnberegner](/da/strikkevaerktoejer/garnberegner/) ud fra projekttype, størrelse og garntykkelse i stedet for ét samlet gennemsnit.
+[Garnberegner](/da/strikkevaerktoejer/garnberegner/) — Referencemængder fra navngivne opskrifter, ikke en personlig forbrugsprognose. Vælg projekt, en størrelse i en navngiven opskrift og enhed. Resultatet er opskriftens referencemængde, ikke en prognose for dit eget projekt.
 
 ## Hvordan garntykkelse ændrer totalen
 
-Tyndere garn betyder flere masker pr. 10 cm. Flere masker pr. 10 cm betyder flere masker i alt. Flere masker i alt betyder som regel flere meter garn. Indtil videre ret enkelt.
+Garntykkelse er ikke det samme som vægt i gram. Tyndere garn ved tættere strikkefasthed ændrer både maskeantal og længden pr. maske. Tykkelsen alene giver derfor ikke totalforbruget. Læs garnets faktiske længde og vægt på banderolen. To nøgler på 100 g behøver ikke have samme løbelængde, og lige mange meter giver ikke automatisk samme strikkede stof.
 
-Men her er sagen. Nøgler indeholder ikke samme antal meter. Fingering-garn har langt flere meter i 100 g end Worsted, så en Fingering-sweater kan kræve flere meter, mens den bruger omtrent samme vægt garn i alt. Et nøgle Fingering på 100 g kan indeholde 365 m. Et nøgle Bulky på 100 g kan indeholde omkring 100 m. Samme vægt på køkkenvægten, helt forskellig længde.
-
-Derfor er løbelængde eller meter det tal, der betyder noget, ikke "hvor mange nøgler". To nøgler à 100 g kan indeholde meget forskellige længder garn afhængigt af fiber og mærke. Silke pakker anderledes end uld. Et entrådet garn opfører sig anderledes end et flertrådet garn. Ét firmas 100 g nøgle kan rumme markant mere garn end et andet firmas. Hvis du er usikker på garntykkelsen, bryder [tabellen over garntykkelser](/da/strikkevaerktoejer/garntykkelser/) det ned.
+Skeln mellem projektets samlede garnbehov i meter, garnets vægt og antallet af nøgler, du skal købe. [Tabellen over garntykkelser](/da/strikkevaerktoejer/garntykkelser/) forklarer kategorierne; en kategori har ikke én bestemt løbelængde pr. nøgle.
 
 ## Beregning ud fra strikkefasthed
 
-Det mest præcise estimat starter med en faktisk strikkeprøve.
+En repræsentativ strikkeprøve hjælper dig med at kontrollere strikkefastheden og måle garnforbruget. Strikkefasthed alene giver masker og pinde, ikke meter pr. maske.
 
-Strikkefasthed fortæller, hvor mange masker og pinde der passer ind i et mål. Projektets mål fortæller, hvor meget stof du laver. Sætter du dem sammen, kommer du meget tættere på det reelle maskeantal end nogen generel regel. Det er kernen.
+Et tænkt rektangel med 18 masker og 24 pinde pr. 10 cm og 50 cm bredde giver 50 × 18 / 10 = 90 masker. Til 63 cm længde bliver det 63 × 24 / 10 = 151,2 pinde. Vælger du 151 hele pinde, får du 90 × 151 = 13 590 masker og cirka 62,9 cm længde. Formgivning, kanter og montering er ikke med; det er ikke et estimat for en hel sweater.
 
-Sådan ser det ud i praksis. Din prøve viser 18 masker og 24 pinde over 10 cm. Forstykket på en sweater er 50 cm bredt og 63 cm langt. Det giver 90 masker i bredden og omkring 151 pinde i højden. Ganger du dem sammen, får du omkring 13 600 masker til forstykket alene. Derfra bliver det samlede garnforbrug et regnestykke i stedet for et gæt, hvis du ved, hvor mange meter hver maske bruger, noget du kan måle eller estimere fra strikkeprøven.
+Til et arealbaseret estimat strikker du med projektets garn, pinde, maskemønster og arbejdsform, frem og tilbage eller rundt. Vask og tør som det færdige arbejde, og mål først, når prøven er helt tør. Arealet skal svare til den garnmængde, du vejer eller måler. Del ikke hele prøvens vægt med kun målefeltet i midten. Beregn afvigende kanter og løse trådender separat, og brug en vægt, der er præcis nok til prøvens størrelse.
 
-Du behøver ikke lave hvert estimat i hånden. En garnberegner som [garnberegneren](/da/strikkevaerktoejer/garnberegner/) er nyttig til et hurtigt interval ud fra projekttype, størrelse og garntykkelse, før du sammenligner tallet med opskriften, strikkeprøven og banderolen.
+Beregn: prøvens garnforbrug × projektets strikkede areal / prøvens areal. [Rita Buchanans metode](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf) beskriver princippet. Beregn formede dele og forskellige maskemønstre hver for sig, og medregn sømme, kanter og garn til strikkeprøver. Arealskalering garanterer ikke tøjets samlede forbrug.
 
-Det hjælper stadig at forstå størrelsesordenen. Hvis en beregner siger 365 m til et sengetæppe, er der noget galt. Flere tusind? I det mindste muligt. Den mavefornemmelse fanger inputfejl, før du køber garn efter dem. Og selv en grov strikkeprøve kommer tættere på end at springe trinnet over. En prøve strikket om aftenen, blokket natten over, målt om morgenen. Ikke en enorm tidsudgift for den tryghed, den giver.
+[Garnberegner](/da/strikkevaerktoejer/garnberegner/) — Referencemængder fra navngivne opskrifter, ikke en personlig forbrugsprognose. Vælg projekt, en størrelse i en navngiven opskrift og enhed. Resultatet er opskriftens referencemængde, ikke en prognose for dit eget projekt.
 
 ## Vejemetoden til delvise nøgler
 
 Har du halve nøgler i garnlageret? En køkkenvægt er din bedste ven.
 
-Tag to tal fra banderolen: total vægt og total løbelængde. Hvis et helt nøgle på 100 g indeholder 200 m, og resten vejer 63 g, er der cirka 126 m tilbage. Hurtig regning: del restvægten med fuld vægt, og gang med total løbelængde. Præcist nok til planlægning.
+Brug banderolen til netop dette garn, og vej kun tørt garn uden banderole eller papkerne. Et tænkt eksempel: 100 g indeholder 200 m, og resten vejer 63 g. Så bliver det 63 / 100 × 200 = 126 m. Det er et estimat ud fra banderolens forholdstal, ikke en måling af den resterende længde.
 
-En køkkenvægt, der måler i gram, fungerer fint. En badevægt gør ikke. Slet ikke. Du vil have præcision ned til grammet, ikke afrunding til nærmeste halve kilo.
+Kontrollér vægtens opløsning og nøjagtighed. Hele gram kan være brugbare til et større restnøgle, men for grove til en lille rest eller strikkeprøve. Afrundede banderoleoplysninger og vægtaflæsninger er ikke eksakte mål.
 
-Tricket virker også midt i et projekt. Strik en sektion, vej det der er tilbage, og tjek, om det stadig giver mening for resten. Hvis du er på sidste nøgle, og ærmet ikke er færdigt, fortæller vejning, om du er på sporet eller på vej mod problemer. Nogle strikkere vejer efter hver større sektion i projekter med knapt garn. Andre vejer først, når nøglet begynder at føles mistænkeligt let.
+Vejning undervejs viser, hvor meget garn der er tilbage. Sammenlign med et separat estimat for de resterende dele; vægten alene forudsiger ikke næste ærmes eller kants forbrug.
 
 Mistet banderolen? Hvis du kender garnnavnet, står løbelængden pr. nøgle som regel på producentens hjemmeside eller på Ravelry. Uden nogen banderoleoplysninger hjælper vægten alene ikke meget, fordi du skal bruge begge tal for at regne.
 
@@ -68,54 +62,46 @@ Det virker også godt til at vurdere rester fra tidligere projekter. Huer, vante
 
 ## Hvad bruger ekstra garn
 
-Nogle konstruktioner bruger stille og roligt mere garn end glatstrik. Det er her estimater skrider.
+**Snoninger og struktur.** Mål det aktuelle maskemønster i stedet for at lægge samme procent til alle snoninger. En glatstrikket prøve repræsenterer ikke et parti med snoninger eller rib med samme færdige mål.
 
-**Snoninger** er den store. Hver snoning trækker ekstra garn gennem stoffet, fordi maskerne flytter sig sidelæns i stedet for at ligge lige oven på hinanden. Jo bredere snoning, jo mere garn bruger hver krydsning. En enkel 4-maskers snoning lægger lidt til. En 12-maskers flettet snoning lægger en del mere til. En Aran-sweater med mange snoninger kræver en større buffer end en glatstrikket sweater med samme mål. Hvis hele kroppen er fuld af snoninger, skal du ikke estimere ud fra glatstrik. Så løber du tør.
+**Flerfarvestrik.** Brug opskriftens mængde pr. farve, eller mål hver farves forbrug i en repræsentativ rapport. Trådene på vrangsiden betyder, at den synlige farveflade ikke er nok til at fordele garnet. Intarsia har separat garn til hvert farvefelt; medregn samlinger og trådender. Rund indkøbet op til hele nøgler for hver farve separat.
 
-Mønsterstrik med flere farver fører garn hen over bagsiden, og de flotteringer tæller på måder, der ikke er tydelige, når du kigger på diagrammet på papir. Bundfarven kræver ofte mere, end du tror. Kontrastfarver forsvinder hurtigere i mønstersektioner, end det føles, mens du ser på forsiden. Længden på flotteringer betyder også noget. At hæfte flotteringer for hver 3-4 masker bruger lidt mere garn end at lade dem løbe langt, men stoffet opfører sig bedre. Intarsia er anderledes, fordi hvert farvefelt har sit eget garn uden lange flotteringer. Til flerfarvede projekter: estimer først det samlede forbrug, og fordel derefter efter hvor stor en del af arbejdet hver farve faktisk dækker.
+Med to tråde sammen: kontrollér, om opskriften angiver mængden pr. tråd eller samlet for begge. Begge tråde følger hele det pågældende parti. Del ikke én tråds længde mellem to tråde, og fordobl ikke en mængde, der allerede omfatter begge.
 
-Rib trækker stoffet ind. Tætte strukturmønstre øger også garnforbruget pr. centimeter bredde. Hvis hele projektet er ribbet eller kraftigt struktureret, undervurderer et glatstrikket estimat forbruget.
-
-**Long-tail-opslag.** Lad mere garnhale være, end du tror. Især ved store opslag med 200+ masker kan halen sluge overraskende meget garn. At løbe tør for hale midt i opslaget betyder start forfra.
-
-Sammensyning bruger også garn. Ikke voldsomt meget, men nemt at glemme.
+**Krydsopslag, sømme og trådender.** Medregn disse sammen med strikkeprøver og montering. Kontrollér, hvad opskriftens mængde allerede dækker, før du tilføjer en reserve.
 
 ## Reglen om ét ekstra nøgle
 
-Køb ét ekstra nøgle, hvis garnet er tilgængeligt og budgettet tillader det. Det er reglen.
-
-Garnestimater kommer tæt på. De kan ikke forudse alt. Det ekstra nøgle er billig forsikring sammenlignet med at mangle få meter til sidst i projektet. Mange butikker tager uåbnede nøgler retur inden for en rimelig frist, så ulempen er lille. Og hvis de ikke gør, er ét reservenøgle stadig mere nyttigt end et projekt, der er gået i stå af mangel på et halvt ærme.
+Ét ekstra nøgle er ingen universel regel. Behovet afhænger af nøglets løbelængde, projektet og dine ændringer. Planlæg garn til strikkeprøver, montering og usikkerhed, og rund totalen op til hele nøgler. Tæl ikke samme reserve to gange, hvis opskriften allerede har taget højde for den. Køb samme farveparti, når det er muligt; [Lion Brand forklarer forskellene mellem partier](https://support.lionbrand.com/support/solutions/articles/17000035215-what-are-dye-lots-can-i-order-more-of-the-same-lot-). Tjek butikkens returvilkår.
 
 Det betyder endnu mere med håndfarvet, småparti- eller udgået garn, hvor et matchende nøgle senere kan være umuligt at finde.
 
 ## Estimat fra opskrift eller eget design
 
-Udgivne opskrifter angiver garnforbrug. Start dér. Det tal er som regel det bedste udgangspunkt, du får, især hvis designeren også angiver færdige mål og strikkefasthed tydeligt.
+Begynd med opskriftens garnmængde til den valgte størrelse, og tjek færdige mål og strikkefasthed. Mængden kan stå i meter, yards, gram eller nøgler. Gram og nøgler kræver banderoleoplysninger om det garn, opskriften bruger.
 
-Men opskriftens garnforbrug har grænser. Det går ud fra, at du strikker præcis den angivne størrelse, i et garn med lignende egenskaber, ved designerens strikkefasthed. Ændrer du noget af det, flytter tallet sig.
+Når du [skifter garn](/da/artikler/skift-garn-i-strikkeopskrift/), omregner du først originalmængden til længde. I [DROPS' regneeksempel](https://www.garnstudio.com/lesson.php?id=14&cid=3) giver 300 g med 170 m pr. 50 g: 300 / 50 × 170 = 1 020 m. Erstatningsgarn med 150 m pr. 50 g kræver 1 020 / 150 = 6,8 nøgler, rundet op til 7 nøgler: 350 g og 1 050 m. De 300 g er eksemplets forudsætning, ikke et generelt sweaterforbrug. De 30 m, afrundingen giver tilovers, er ikke automatisk nok reserve.
 
-Designer du fra bunden eller laver store ændringer? Så holder opskriftens garnforbrug op med at være pålideligt. Ekstra længde i kroppen, større størrelser, andre maskemønstre eller et skift til en anden garntykkelse flytter totalen. 7,5 cm ekstra kropslængde på en Worsted-sweater kan let lægge 90-180 m til projektet.
+Brug samme længdeenhed gennem beregningen. [Én yard er præcis 0,9144 m ifølge NIST](https://www.nist.gov/pml/owm/si-units-length). Gang yards med 0,9144 for meter; divider meter med 0,9144 for yards. Behold den uafrundede længde indtil beregningen af nøgler, og rund derefter nøgleantallet op.
 
-Når du [skifter garn](/da/artikler/skift-garn-i-strikkeopskrift/), skal du matche samlet løbelængde i stedet for antal nøgler. En opskrift, der siger "8 nøgler", er kun nyttig, hvis du bruger samme garn. Hvis du skifter til noget med anden løbelængde pr. nøgle, bliver antal nøgler meningsløst. Match meterne. Tjek derefter, at garntykkelsen er tæt nok, og [lav en strikkeprøve for at bekræfte strikkefastheden](/da/artikler/maal-strikkefasthed/).
-
-Det er her [garnberegneren](/da/strikkevaerktoejer/garnberegner/) er praktisk: den tjekker størrelsesordenen for et projekt ud fra type, størrelse og garntykkelse, før du køber.
+Samme længde er et udgangspunkt, ikke bevis på, at garnene opfører sig ens. [Kontrollér strikkefastheden i en strikkeprøve](/da/artikler/maal-strikkefasthed/), og vurder stoffet efter vask. Beregn ekstra længde, formgivning og ændrede maskemønstre fra relevante prøver. Et par ekstra centimeter på en sweater har ikke ét fast garnforbrug.
 
 ## FAQ
 
 **Kan jeg estimere garn uden strikkeprøve?**
-Grove estimater efter projekttype fungerer til indkøbsoverblik. Til alt med pasform: lav prøven først.
+Opskriftens mængde til din størrelse giver et udgangspunkt. Kontrollér strikkefasthed og stof, før du stoler på mængden, især til tøj med bestemt pasform. Et generelt interval bekræfter ikke indkøbsmængden.
 
 **Hvad hvis jeg ikke kan finde samme farveparti?**
-Skift mellem nøgler hver anden pind. Farveforskellen fordeles mere jævnt og bliver mindre tydelig.
+Sammenlign i dagslys og i en vasket prøve. Skift mellem nøgler kan mildne overgangen, men garanterer ikke samme farve. Vurder, om forskellen er acceptabel, før du fortsætter.
 
 **Hvordan estimerer jeg til striber?**
-Beregn det samlede garnforbrug, og fordel derefter proportionalt efter hvor mange pinde hver farve dækker. Læg en lille buffer til for hvert farveskift.
+Fordeling efter pinde eller omgange fungerer kun, når bredde, garn, strikkefasthed og maskemønster er sammenlignelige. Beregn formede partier og forskellige garner separat. Medregn medførte tråde eller ender, og rund hver farves indkøb op for sig.
 
 **Påvirker fiberindhold hvor meget garn jeg skal bruge?**
-Ikke direkte. Men fibre som superwash merino kan vokse efter blokning, og det kan ændre strikkefastheden og flytte garnestimatet.
+Fiber og garnkonstruktion påvirker stoffet og ændringer ved vask. Tjek banderolens længde og en behandlet strikkeprøve. Der findes ingen universel forbrugsfaktor for en fiber.
 
 **Hvad er det værste projekt at løbe tør for garn i?**
-Alt med et særligt farveparti, du ikke kan erstatte. Især håndfarvet garn. Køb det ekstra nøgle.
+Et projekt med et farveparti, du ikke kan supplere, er svært at redde. Planlæg hele behovet og en reserve til projektet; ét ekstra nøgle dækker ikke altid behovet.
 
 **Kan jeg bruge restegarn fra forskellige projekter sammen?**
-Ja, hvis garntykkelse og vaskeanvisning passer sammen. Vej hver rest, så du ved, hvad du arbejder med.
+Tjek vaskeanvisningerne, og strik og vask garnerne sammen for at vurdere strikkefasthed, stof og afsmitning. Vej hvert identificeret garn separat, og brug dets egne banderoleoplysninger til længdeestimatet.

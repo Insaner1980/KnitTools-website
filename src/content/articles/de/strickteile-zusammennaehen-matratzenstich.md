@@ -2,6 +2,7 @@
 title: "Strickteile zusammennähen: Matratzenstich"
 description: "So nähst du Strickteile zusammen: Matratzenstich, Überwendlichstich, Abketten mit drei Nadeln, senkrechte und waagerechte Nähte."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 10
 tags:
@@ -16,9 +17,9 @@ lang: de
 translationKey: "seam-knitted-pieces"
 ---
 
-Zusammennähen ist der am wenigsten glamouröse Teil des Strickens und der, der am leichtesten liegen bleibt. Ein Stapel fertiger Pulloverteile kann wochenlang im Projektbeutel bleiben, weil niemand Lust hat, ihn zusammenzunähen. Aber eine gute Naht ist unsichtbar, und eine schlechte kann ein sonst gut gestricktes Kleidungsstück ruinieren.
+Eine passende Naht hält die Teile zusammen und lässt das Kleidungsstück wie vorgesehen fallen. Manche Verbindungen verschwinden fast im Maschenbild, andere bilden bewusst einen sichtbaren Steg. Wähle die Methode nach Kanten, Muster und benötigter Dehnbarkeit.
 
-Bei glatt rechtem Gestrick erzeugt der Matratzenstich eine unsichtbare Naht, indem waagerechte Fäden eine Masche vom Rand entfernt auf beiden Teilen aufgenommen und zusammengezogen werden. Die Verbindung sieht danach wie durchgehender Stoff aus. Welche Methode du nutzt, hängt von der Richtung der Naht ab: senkrechte Kanten, waagerechte Kanten, geformte Teile in Öffnungen, etwa Ärmel, oder lebende Maschen an lebende Maschen.
+Bei glatt rechtem Gestrick kann der Matratzenstich eine fast unsichtbare Naht erzeugen, indem waagerechte Fäden eine Masche vom Rand entfernt auf beiden Teilen aufgenommen und zusammengezogen werden. Bei passender Spannung kann die Verbindung wie durchgehendes Gestrick aussehen. Welche Methode du nutzt, hängt von der Richtung der Naht ab: senkrechte Kanten, waagerechte Kanten, geformte Teile in Öffnungen, etwa Ärmel, oder lebende Maschen an lebende Maschen.
 
 Du möchtest kraus rechte Teile zusammennähen oder Ärmel einsetzen? Hier geht es direkt zum [Matratzenstich bei kraus rechts](#matratzenstich-bei-kraus-rechts) und zu den [Ärmelnähten und dem Einsetzen von Ärmeln](#ärmel-einsetzen).
 
@@ -32,9 +33,9 @@ Du möchtest kraus rechte Teile zusammennähen oder Ärmel einsetzen? Hier geht 
 | Waagerechter Matratzenstich | Abkettkante an Abkettkante         | wirkt wie Gestrick    | abgekettete Schulternähte            |
 | Abketten mit drei Nadeln    | lebende Maschen an lebende Maschen | kleine Erhebung innen | stabile Schulternähte                |
 | Maschenstich / Kitchener    | lebende Maschen an lebende Maschen | fast unsichtbar       | Sockenspitzen, unsichtbare Übergänge |
-| Überwendlichstich           | fast jede Richtung                 | sichtbare Erhebung    | Spielzeug, Futter, verdeckte Nähte   |
-| Rückstich                   | fast jede Richtung                 | innen dicker          | Taschengriffe, belastete Nähte       |
-| Matratzenstich am Ärmel     | senkrecht zu gemischter Kante      | meist verborgen       | eingesetzte Ärmel, Armlöcher         |
+| Überwendlichstich           | je nach Kanten                     | sichtbare Erhebung    | Spielzeug, Futter, verdeckte Nähte   |
+| Rückstich                   | je nach Kanten                     | innen dicker          | Taschengriffe, belastete Nähte       |
+| Matratzenstich am Ärmel     | Reihen- und Maschenkanten          | meist verborgen       | eingesetzte Ärmel, Armlöcher         |
 
 </div>
 
@@ -42,19 +43,19 @@ Die praktische Regel für Pullover: Matratzenstich für senkrechte Nähte, waage
 
 ## Matratzenstich für senkrechte Nähte
 
-Der Matratzenstich ist die übliche Wahl für Seitennähte und die langen Nähte an der Ärmelunterseite. Die folgende Anleitung gilt für glatt rechts; bei kraus rechts stichst du unter andere Schlingen. Die fertige Naht wirkt wie durchgehendes Gestrick.
+Der Matratzenstich eignet sich für Seitennähte und die lange Ärmelnaht. Diese Anleitung gilt für glatt rechts mit normal gestrickten Randmaschen; kraus rechts werden andere Schlingen erfasst. Bei gleichmäßiger Spannung kann die Verbindung wie eine durchgehende Strickfläche aussehen.
 
-Leg beide Teile flach hin, rechte Seite nach oben, Kanten aneinander. Fädel eine Wollnadel mit passendem Garn ein, oder mit glattem Garn in derselben Farbe, wenn das Projektgarn strukturiert oder empfindlich ist.
+Lege die Teile mit den rechten Seiten nach oben nebeneinander und richte die unteren Ecken aus. Fädle geeignetes Nähgarn in eine stumpfe Wollnadel und lasse einen Faden zum Vernähen stehen. Führe die Nadel durch jede untere Ecke von hinten nach vorn, sodass der Faden eine Acht bildet. Ziehe die Ecken vorsichtig zusammen.
 
-Beginne unten. Stich unter den waagerechten Faden zwischen erster und zweiter Masche am rechten Teil. Dann unter den entsprechenden Faden am linken Teil. Durchziehen. Zurück nach rechts, den nächsten Faden aufnehmen. Zurück nach links. Nach ein paar Stichen sanft anziehen, damit sich die Naht schließt. Die Kanten ziehen sich zusammen und die Naht verschwindet.
+Führe die Nadel rechts von unten nach oben unter den Querfaden zwischen erster und zweiter Maschensäule, dann unter den entsprechenden Querfaden links. Kehre rechts zur letzten Austrittsstelle zurück und erfasse den nächsten Querfaden darüber. Arbeite abwechselnd weiter. Ziehe die Naht nach einigen Stichen behutsam zusammen und streiche sie auf ihre ungedehnte Länge aus. Verbinde die letzten Ecken, prüfe die Spannung und vernähe beide Enden in der Nahtzugabe auf der linken Seite.
 
-**Der Schlüssel:** Nimm die Fäden eine Masche vom Rand entfernt auf, nicht direkt an der Kante. Die Randmasche wird zur Nahtzugabe und faltet sich nach hinten. Deshalb fügen Anleitungen manchmal eine Randmasche hinzu. Sie verschwindet in der Naht.
+**Nahtzugabe:** Auf jeder Seite wird eine Randmasche nach innen gefaltet. Insgesamt liegen also zwei Maschensäulen in der Naht und zählen nicht zur sichtbaren Breite. Die Maschen werden eingeschlossen, nicht abgenommen. Halte dich an die Nahtzugabe der Anleitung.
 
-Arbeite konsequent. Gleiche Anzahl Fäden auf beiden Seiten. Wenn du rechts einen Faden und links zwei aufnimmst, wandert die Naht. Bei glatt rechts: ein Faden pro Seite pro Reihe.
+Bei gleicher Reihenanzahl und Reihendichte hält ein Querfaden pro Seite die Reihen auf gleicher Höhe. Zwei Querfäden pro Seite sind ebenfalls eine gebräuchliche Variante. Bei unterschiedlichen Reihenzahlen auf derselben vorgesehenen Länge muss die Verteilung zwischen den Markierungen angepasst werden.
 
 ### Matratzenstich bei kraus rechts
 
-Hier verbindest du **zwei Seitenkanten**. Die Krausrippen verlaufen dabei quer zur Naht. Diese Methode ist nicht für das Verbinden von Anschlag- oder Abkettkanten gedacht. Verwende eine stumpfe Wollnadel und passendes Garn.
+Hier werden **zwei Seitenkanten** verbunden; die Krausrippen verlaufen quer zur Naht. Eine Krausrippe entspricht zwei gestrickten Reihen. Die Methode gilt nicht für Anschlag- oder Abkettkanten. Verwende eine stumpfe Wollnadel und geeignetes Garn; verbinde zuerst die unteren Ecken wie oben beschrieben.
 
 **1. Richte die Teile aus.** Leg sie nebeneinander, jeweils mit der späteren Außenseite nach oben. Die Anschlagkanten liegen unten, die Krausrippen auf gleicher Höhe. Mit ein paar verschließbaren Maschenmarkierern kannst du die Rippen paarweise zusammenhalten.
 
@@ -62,7 +63,7 @@ Hier verbindest du **zwei Seitenkanten**. Die Krausrippen verlaufen dabei quer z
 
 **3. Nähe abwechselnd auf beiden Seiten.** Beginne an der untersten Rippe und lass einen Faden zum Vernähen hängen. Stich links unter die untere Schlinge, dann rechts unter den oberen Bogen der passenden Rippe. Geh zur nächsten Rippe darüber und wiederhole die Schritte. Bleib auf jeder Seite immer bei derselben Schlingenart und lass den Nähfaden zunächst locker.
 
-**4. Zieh die Naht nach und nach zusammen.** Zieh nach einigen Stichen vorsichtig am Nähfaden, bis die Kanten aneinanderliegen. Streich das Gestrick glatt: Die Rippen sollen ohne Falten über die Naht hinweg weiterlaufen, und die Naht muss sich mit dem Gestrick dehnen können. Hat sich die Kante in der Länge zusammengezogen, lockere die letzten Stiche und verteile den Faden neu. Vernähe die Enden, sobald die Naht gleichmäßig ist.
+**4. Zieh die Naht nach und nach zusammen.** Zieh nach einigen Stichen vorsichtig am Nähfaden, bis die Kanten aneinanderliegen. Streich das Gestrick glatt: Die Rippen sollen ohne Falten über die Naht hinweg weiterlaufen, und die Naht muss sich mit dem Gestrick dehnen können. Hat sich die Kante in der Länge zusammengezogen, lockere die letzten Stiche und verteile den Faden neu. Verbinde die letzten Ecken und vernähe die Enden, sobald die Naht gleichmäßig ist.
 
 Abgehobene Randmaschen können anders aussehen. Such die passenden Schlingen zuerst an einer Maschenprobe, bevor du das Kleidungsstück zusammennähst.
 
@@ -70,25 +71,27 @@ Nahaufnahmen findest du bei [Nimble Needles](https://nimble-needles.com/tutorial
 
 ### Glatt links und Strukturmuster
 
-Bei glatt links, wenn also die linke Seite die rechte Seite des Projekts ist, nähst du nach Möglichkeit von der glatt-rechten Seite. Die Querfäden sind dort leichter zu sehen. Wenn du von der linken Seite arbeiten musst, such die Fäden zwischen den linken Maschenknubbeln und nimm diese auf. Gleiche Logik, schlechtere Sicht.
+Bei glatt links liegt die später sichtbare Fläche mit den linken Maschen oben. Ein normaler Matratzenstich von der rechts gestrickten Seite aus würde die Nahtzugabe nach außen legen. Erfasse links abwechselnd einen unteren U-förmigen Randbogen und rechts den entsprechenden oberen Bogen. Arbeite entlang der zusammengehörigen Reihen weiter. Prüfe Randstruktur und Spannung an einer Probe.
 
-Bei Zöpfen und anderen Strukturmustern ignorierst du die Textur direkt an der Kante und nimmst die Fäden wie bei glatt rechts auf. Das Muster in der Fläche ändert die Struktur der Randspalte nicht.
+Untersuche bei Zöpfen und Strukturmustern die tatsächlichen Randmaschen. Ein glatt rechts gestrickter Rand kann wie oben verbunden werden. Abgehobene, geformte oder gemusterte Ränder brauchen die Methode der Anleitung oder eine erprobte Anpassung. Nicht jede Kante bietet dieselben Querfäden.
 
 ### Halbe Masche bei Rippen
 
-Rippenmuster brauchen eine halbe-Masche-Anpassung. Statt eine volle Masche vom Rand entfernt zu arbeiten, gehst du an die Grenze zwischen rechter und linker Spalte. So bleibt der Rippenrhythmus über die Naht erhalten.
+Wähle die Naht nach Rippenfolge und Randmaschen. Enden beide Kanten mit einer rechten Maschensäule, aus denen eine einzige werden soll, kann eine Naht mit einer halben Masche Zugabe passen: Erfasse abwechselnd das äußere Bein jedes Randmaschen-Vs und gehe Reihe für Reihe weiter. Die verbleibenden Hälften treffen sich zu einer rechten Maschensäule. Die Naht liegt **innerhalb einer rechten Masche**, nicht zwischen rechten und linken Säulen. Andere Randfolgen können eine ganze Masche Nahtzugabe brauchen. Prüfe Musterverlauf und Dehnbarkeit an einer Probe.
 
-Wenn du das nicht machst, unterbricht die Naht das Muster mit einer doppelten rechten oder doppelten linken Spalte. Nähe ein paar Zentimeter, zieh die Naht vorsichtig zu und prüfe die rechte Seite, bevor du die ganze Kante schließt.
+## Waagerechte Naht zwischen abgeschlossenen Kanten
+
+Lege die abgeketteten Kanten glatt rechts gestrickter Teile mit den rechten Seiten nach oben zueinander. Verbinde die Anfangsecken und lasse einen Faden zum Vernähen stehen. Arbeite in vollständigen Maschen direkt unter der Abkettkante: Führe die Nadel auf einem Teil unter beide Beine eines Vs. Auf dem anderen stichst du in die Mitte eines Vs ein und in der Mitte des nächsten heraus, unter den benachbarten Maschenbeinen dazwischen. Wechsle die Seite, kehre zur letzten Austrittsstelle zurück und gehe eine Masche weiter. Passe die genähten Schlingen der Maschengröße an, verbinde die letzten Ecken und vernähe auf der linken Seite. Die Abkettkanten liegen innen. Bei Anschlagkanten muss die Ausrichtung gesondert geprüft werden; diese genähte Verbindung braucht keine offenen Maschen. [Purl Soho zeigt den Nadelweg](https://www.purlsoho.com/create/seaming-stockinette-stitch-stitches-to-stitches/) (auf Englisch).
 
 ## Abketten mit drei Nadeln für waagerechte Nähte
 
-Die beste Methode, um zwei Reihen lebender Maschen zu verbinden. Am häufigsten bei Schultern. Statt beide Teile getrennt abzuketten und später zusammenzunähen, kettest du sie gemeinsam ab. Naht und Kantenabschluss entstehen in einem Schritt.
+Abketten mit drei Nadeln verbindet zwei gleich große Gruppen offener Maschen und kettet sie gleichzeitig ab. Die Methode wird häufig für Schultern verwendet, wenn die Anleitung eine stützende Naht vorsieht.
 
-Halte beide Nadeln parallel, rechte Seiten aufeinander. Mit einer dritten Nadel strickst du eine Masche von der vorderen und eine von der hinteren Nadel zusammen. Wiederhole das für eine zweite Masche. Heb die erste über die zweite zum Abketten. So weiter über die ganze Reihe.
+Halte beide Nadeln parallel mit gleich vielen Maschen, Spitzen in dieselbe Richtung und rechten Seiten aufeinander. Stricke mit der dritten Nadel die erste vordere und hintere Masche rechts zusammen, dann das nächste Paar. Hebe die ältere Masche auf der dritten Nadel über die neuere. Stricke jeweils ein weiteres Paar zusammen und hebe die ältere Masche darüber, bis eine übrig bleibt. Schneide den Faden mit einer Zugabe zum Vernähen ab, ziehe ihn durch die letzte Masche und vernähe ihn.
 
-Feste, saubere Naht mit kleiner Erhebung innen. Schneller als Matratzenstich für waagerechte Verbindungen. Die Schulter dehnt sich nicht aus, weil die Abkettkante stabil ist. Genau das willst du an einer Schulter, an der das Gewicht des Pullovers nach unten zieht.
+Die Abkettkante bildet innen einen Steg und kann die Schulter stützen. Wie stark sie sich dehnt, hängt von Garn und Spannung ab; völlig unelastisch wird die Schulter dadurch nicht.
 
-Voraussetzung sind lebende Maschen auf beiden Teilen. Wenn du schon abgekettet hast, müsstest du sie wieder aufnehmen, und damit geht der Sinn verloren. Plane voraus: Wenn die Anleitung Abketten mit drei Nadeln für Schultern nutzt, lass diese Maschen auf Maschenhaltern oder Restgarn liegen.
+Beide Kanten brauchen offene Maschen. Sind sie bereits abgekettet, löse die Abkettung vorsichtig und nimm die ursprünglichen Maschen wieder auf Nadeln oder wähle eine genähte Naht. Neue Maschen aus einer fertigen Kante aufzunehmen ergibt eine andere Konstruktion.
 
 Für eine dekorative Variante arbeitest du mit linken Seiten aufeinander. Die Erhebung liegt dann außen und wirkt wie eine sichtbare Kette. Manche Passen- oder Schulterdetails nutzen das absichtlich.
 
@@ -96,25 +99,25 @@ Für eine dekorative Variante arbeitest du mit linken Seiten aufeinander. Die Er
 
 Maschenstich, oft auch Kitchener Stitch genannt, verbindet zwei Reihen lebender Maschen fast unsichtbar. Er wird ständig für Sockenspitzen verwendet, aber auch für Schultern, Loops oder Änderungen an Pullovern, wenn das Gestrick ohne Erhebung weiterlaufen soll.
 
-Halte die beiden Nadeln parallel, sodass die linken Seiten aufeinanderliegen, mit gleich vielen Maschen glatt rechts auf beiden Nadeln und den Nadelspitzen nach rechts. Der Arbeitsfaden kommt von der ersten Masche der hinteren Nadel. Fädle eine Wollnadel mit einem langen Stück passenden Garns ein. Zur Vorbereitung stichst du in die erste Masche der vorderen Nadel wie zum Linksstricken ein und lässt sie auf der Nadel. Dann stichst du in die erste Masche der hinteren Nadel wie zum Rechtsstricken ein und lässt sie ebenfalls auf der Nadel. Danach wiederholst du: vordere Nadel wie zum Rechtsstricken einstechen und die Masche abheben; vordere Nadel wie zum Linksstricken einstechen und die Masche auf der Nadel lassen; hintere Nadel wie zum Linksstricken einstechen und die Masche abheben; hintere Nadel wie zum Rechtsstricken einstechen und die Masche auf der Nadel lassen. Wenn auf jeder Nadel noch eine Masche liegt, hebst du die vordere wie zum Rechtsstricken und die hintere wie zum Linksstricken ab. Halte jede neue Schlinge etwa so groß wie die benachbarten Maschen und verteile die Fadenspannung entlang der Verbindung, bevor du das Ende vernähst.
+Halte die beiden Nadeln parallel, sodass die linken Seiten aufeinanderliegen, mit gleich vielen Maschen glatt rechts auf beiden Nadeln und den Nadelspitzen nach rechts. Die Maschen liegen unverdreht auf den Nadeln, mit dem rechten Maschenbein vorn. Verwende einen langen Faden von der ersten hinteren Masche oder einen separaten passenden Faden mit einer Zugabe zum Vernähen. Fädle ihn in eine stumpfe Wollnadel. Zur Vorbereitung stichst du in die erste Masche der vorderen Nadel wie zum Linksstricken ein und lässt sie auf der Nadel. Dann stichst du in die erste Masche der hinteren Nadel wie zum Rechtsstricken ein und lässt sie ebenfalls auf der Nadel. Solange auf jeder Nadel mindestens zwei Maschen liegen, wiederholst du: vordere Nadel wie zum Rechtsstricken einstechen und die Masche abheben; vordere Nadel wie zum Linksstricken einstechen und die Masche auf der Nadel lassen; hintere Nadel wie zum Linksstricken einstechen und die Masche abheben; hintere Nadel wie zum Rechtsstricken einstechen und die Masche auf der Nadel lassen. Wenn auf jeder Nadel noch eine Masche liegt, hebst du die vordere wie zum Rechtsstricken und die hintere wie zum Linksstricken ab. Halte jede neue Schlinge etwa so groß wie die benachbarten Maschen und verteile die Fadenspannung entlang der Verbindung, bevor du das Ende vernähst.
 
-Richtig gearbeitet entsteht eine zusätzliche Reihe glatt rechts, die die beiden Kanten verbindet. Falsch gearbeitet wird es schnell zu verdrehten Maschen, die mühsam zu lösen sind. Schreib dir die vier Schritte beim ersten Mal sichtbar hin und arbeite langsam.
+Der Maschenstich bildet eine zusätzliche Reihe glatt rechts. Halte die Reihenfolge bereit und passe die Schlingen an die benachbarten Maschen an. Auch Strickrichtung und Fadenspannung bestimmen das Ergebnis.
 
 Maschenstich kann auch mitten im Projekt eingesetzt werden, aber ein fertiges Kleidungsstück aufzuschneiden ist unumkehrbar. Übereinstimmende Reihenprobe und dasselbe Muster reichen nicht aus: Auch die Strickrichtung zählt, und Verbindungen von Oberkante zu Oberkante können sich anders verhalten als Verbindungen von Oberkante zu Unterkante. Bei Rippen, Zöpfen, Lochmustern und anderen senkrechten Motiven kann ein Versatz um eine halbe Masche oder eine andere sichtbare Abweichung entstehen. Teste die geplante Verbindung an einer Maschenprobe, bevor du ein fertiges Kleidungsstück aufschneidest.
 
-## Überwendlichstich für schnelle Nähte
+## Überwendlichstich
 
-Einfacher, schneller. Halte die Teile mit rechten Seiten aufeinander, linke Seiten nach außen. Stich durch beide Kanten von hinten nach vorn, Stich für Stich.
+Lege die Teile rechts auf rechts mit passenden Kanten aufeinander. Lasse einen Faden stehen und befestige die Anfangsecken. Stich durch beide Lagen von hinten nach vorn und führe den Faden **über die Kanten** zurück nach hinten. Setze den nächsten Stich etwas weiter vorn in derselben Richtung. Arbeite mit gleichmäßigen Abständen und ausreichend lockeren Schlingen. Befestige die letzte Ecke und vernähe die Enden.
 
-Überwendlichstich hinterlässt innen eine kleine Erhebung. Er ist nicht unsichtbar wie Matratzenstich, aber deutlich schneller. Gut für Nähte, die man nicht sieht: Innenseiten gefütterter Stücke, zusammengesetzte Quadrate, ausgestopfte Spielzeuge.
+Bei dieser Variante entsteht innen ein Steg. Sie kann für verdeckte Nähte, Spielzeug oder zusammengesetzte Quadrate passen, wenn Aussehen und Dehnbarkeit zum Projekt passen.
 
-Bei Kleidung, bei der die Naht sichtbar ist, lohnt sich Matratzenstich. Bei allem anderen erledigt Überwendlichstich die Arbeit.
+Teste die Naht am tatsächlichen Material, wenn Dicke oder Elastizität wichtig sind.
 
 ## Rückstich für starke Nähte
 
-Halte die Teile mit rechten Seiten aufeinander. Stich eine Masche nach vorn und eine halbe Masche zurück, sodass sich die Stiche überlappen. Stark, aber etwas steif.
+Lege die Teile rechts auf rechts und markiere die Nahtlinie. Lasse einen Faden stehen. Führe die Nadel durch beide Lagen bei B nach vorn, eine Nähstichlänge vor dem Anfang A. Stich bei A ein und bei C wieder aus, eine Stichlänge vor B. Stich zurück bei B ein und eine Stichlänge vor C aus. Wiederhole: zurück zum Ende des vorigen Stichs und weiter vorn wieder heraus. Schließe zuletzt die letzte Lücke und vernähe in der Nahtzugabe. Die Abstände meinen Nähstiche, keine Anzahl gestrickter Maschen.
 
-Gut, wo Haltbarkeit zählt: Taschengriffe, Schultern schwerer Kleidungsstücke, Stellen mit Zug. Innen bleibt eine sichtbare Nahtzugabe, und die Naht ist weniger flexibel als Matratzenstich. Vermeide sie bei sehr dehnbaren Kleidungsstücken, weil die Stichlinie die natürliche Elastizität des Gestricks bremst.
+Rückstiche können etwa eine Schulter oder einen Taschengriff stützen, wenn die Anleitung sie vorsieht. Festigkeit und Dehnbarkeit hängen von Stoff, Garn, Stichlänge und Spannung ab. Prüfe die Naht für die vorgesehene Belastung.
 
 ## Ärmel einsetzen
 
@@ -126,17 +129,17 @@ Bei einem in Reihen gestrickten Ärmel schließt die lange Naht vom Bündchen bi
 
 Das Einsetzen einer geformten Ärmelkugel ist ein anderer Arbeitsschritt. Entlang der Rundung treffen Reihenränder, schräge Abschnitte und abgekettete Maschen aufeinander. Du kannst deshalb nicht überall gleichmäßig Reihe an Reihe nähen.
 
-Steck den Ärmel zuerst im Armloch fest. Richte die Mitte der Ärmelkugel an der Schulternaht aus und bring die Unterarmkanten zusammen. Verteile mögliche Mehrweite gleichmäßig, ohne Falten zu legen. Halte dich an die Montagereihenfolge und Nahtmethode der Strickanleitung: Beim Matratzenstich musst du die Einstichstellen an die jeweilige Kante anpassen. Rückstich ist eine Alternative, wenn die Anleitung ihn vorsieht.
+Richte die Markierungen der Anleitung an Armkugel und Armausschnitt aus, auch die Punkte unter der Achsel. Die Kugelmitte gehört nur dann an die Schulternaht, wenn die Konstruktion das vorsieht. Verteile ausschließlich die eingeplante Mehrlänge der Armkugel zwischen den Markierungen, ohne Falten. Kläre andere Maßabweichungen vor dem Nähen. Passe den Matratzenstich an jeden Kantenabschnitt an oder verwende Rückstiche nach Anleitung.
 
-Die Schwierigkeit: Ärmelkugel und Armloch sind unterschiedlich geformt und können entlang der Kurve unterschiedliche Maschen-zu-Reihen-Verhältnisse haben. Feststecken vor dem Nähen verhindert Verschieben und Falten. Nimm verschließbare Maschenmarkierer oder rostfreie T-Nadeln, nicht gerade Nähnadeln, die aus Gestrick rutschen und sich verbiegen.
+Verschließbare Maschenmarkierer, Klammern oder geeignete rostfreie Nadeln halten die Passpunkte fest. Sie korrigieren keine falschen Maße und garantieren keine faltenfreie Naht. Kontrolliere das Gestrick während des Nähens ohne Zug.
 
 Bei Kleidungsstücken aus flach gestrickten Einzelteilen lassen sich die Ärmelkugeln oft nach den Schulternähten einnähen, bevor du Ärmel- und Seitennähte schließt. [Modern Daily Knitting zeigt den Unterschied zum Einsetzen eines bereits geschlossenen Ärmels](https://www.moderndailyknitting.com/community/how-to-set-in-a-sleeve/) (auf Englisch).
 
-Eingesetzte Ärmel sind die schwierigste Variante. Raglan und überschnittene Schultern sind einfacher, weil die Verbindungen gerade Linien sind. Bei überschnittenen Schultern trifft meist eine senkrechte Kante auf eine abgekettete waagerechte Kante. Diese T-Form behandelst du ähnlich wie eine waagerecht-senkrechte Stelle beim Aufnehmen an einem Halsausschnitt.
+Bei überschnittenen Schultern kann die abgekettete Ärmelkante auf die Reihenkante des Rumpfs treffen. Stich an der Maschenkante in die Mitte eines vollständigen Vs ein und in der Mitte des nächsten aus. Erfasse an der Reihenkante den Querfaden zwischen erster und zweiter Maschensäule. Wechsle die Seiten und kehre jeweils zur letzten Austrittsstelle zurück. Verteile Reihen und Maschen anhand ihrer tatsächlichen Anzahlen, Maschenprobe und gemeinsamen Nahtlänge zwischen den Markierungen; ein universelles Verhältnis gibt es nicht. [Purl Soho zeigt diese Verbindung](https://www.purlsoho.com/create/seaming-stockinette-stitch-stitches-to-rows/) (auf Englisch). Raglannähte folgen ihren geformten Kanten und der jeweiligen Montageanleitung.
 
 ## Streifen und Jacquard zusammennähen
 
-Bei Streifen und mehrfarbigen Mustern fällt jede Verschiebung sofort auf. Steck zuerst jeden Farbwechsel fest. Wenn ein Streifen auf einer Seite eine Reihe höher liegt, kannst du den Unterschied ausgleichen, indem du auf der längeren Seite einmal zwei Querfäden statt einem aufnimmst. Einmal verteilt ist das unsichtbar. Wiederholt an derselben Stelle macht es Falten.
+Richte die vorgesehenen Farbwechsel vor dem Nähen aus. Ein kleiner Reihenunterschied auf gleicher vorgesehener Länge lässt sich manchmal durch einen zusätzlichen Querfaden auf der Seite mit mehr Reihen zwischen Markierungen verteilen. Das korrigiert keine unterschiedlich gestrickten Streifenfolgen und bleibt nicht zwangsläufig unsichtbar. Prüfe neu, sobald sich das Gestrick kräuselt.
 
 Bei selbststreifendem Garn müssen die Streifen nicht immer exakt treffen. Dann ist gleichmäßige Nahtspannung wichtiger als perfektes Matching. Nicht ganz passende Streifen sehen besser aus als eine verzogene Naht.
 
@@ -144,38 +147,38 @@ Bei selbststreifendem Garn müssen die Streifen nicht immer exakt treffen. Dann 
 
 Nimm eine stumpfe Wollnadel. Scharfe Nadeln spalten Garn und stechen durch den Stoff, statt zwischen den Maschen zu laufen. Das Öhr muss groß genug für das Garn sein, ohne es aufzureiben, und die Spitze soll zwischen Fäden gleiten, nicht hindurchstechen.
 
-Nimm ein ausreichend langes Stück Garn. Neue Fäden mitten in der Naht erzeugen kleine Verdickungen. Ein Faden, der mehrere Male so lang ist wie die Naht, reicht meist. Wenn du bei einer langen Seitennaht trotzdem ansetzen musst, mach es an einer weniger sichtbaren Stelle.
+Verwende eine handliche Fadenlänge mit Enden zum Vernähen. Ein sehr langer Faden kann beim Durchziehen aufscheuern. Musst du neu ansetzen, vernähe alte und neue Enden getrennt in der Nahtzugabe, ohne harte Knoten oder Knubbel.
 
-[Spann vor dem Zusammennähen](/de/artikel/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche/). Gespannte Teile lassen sich auf die richtigen Maße stecken und leichter ausrichten. Ungespannte Teile können leicht unterschiedliche Größen haben.
+[Bereite die Teile vor dem Zusammennähen vor](/de/artikel/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche/) und beachte dabei die Pflegeangaben sowie eine an der Probe getestete Methode. Lass alles vollständig trocknen und vergleiche die ungedehnten Maße mit der Anleitung. Spannen garantiert weder die richtige Größe noch dauerhaft flache glatt-rechts-Kanten.
 
-Glatt rechts rollt ungespannt stark ein. Genau die Fäden, die du für den Matratzenstich sehen musst, verschwinden dann im Rollrand. Spannen macht die Naht nicht nur schöner, sondern auch einfacher zu arbeiten.
+Glatt rechts kann sich trotz sachgerechter Vorbereitung weiter einrollen. Halte die Kante beim Nähen vorsichtig offen, um die richtigen Querfäden zu erkennen; spanne sie nicht dauerhaft gegen ihre Struktur flach.
 
-Steck vor dem Nähen. Fang nicht an einem Ende an und hoffe, dass das andere passt. Steck oben, unten und in der Mitte, dann füll die Zwischenräume. So verteilen sich kleine Längenunterschiede gleichmäßig.
+Richte zuerst Enden und Zwischenmarkierungen aus. Prüfe Abschnitt für Abschnitt und verteile nur Unterschiede, die zur Konstruktion gehören. Ziehe ein falsch bemessenes Teil nicht gewaltsam auf Länge.
 
-Bei Matratzenstich an gleich langen Teilen sollten die Reihenzahlen passen. Wenn eine Seite ein oder zwei Reihen mehr hat, nimm gelegentlich einen zusätzlichen Faden auf der längeren Seite auf, um den Unterschied zu verteilen. Das fällt kaum auf, wenn es nur ein- oder zweimal passiert.
+Gleich lange Kanten können bei unterschiedlicher Reihendichte verschieden viele Reihen haben. Zähle die tatsächlichen Kanten und verteile sie zwischen passenden Markierungen. Große oder unerklärte Unterschiede erfordern eine Prüfung der Maschenprobe und des Gestricks.
 
-Passe die Stärke des Nahtgarns an das Projekt an. Ein Bulky-Pullover mit Fingering-Garn genäht hat eine schwache Naht. Ein Fingering-Projekt mit Worsted-Garn genäht wird dick und kann von rechts durchscheinen. Dasselbe Garn ist die sichere Wahl, außer es ist zum Nähen zu empfindlich oder zu unruhig.
+Wähle Nähgarn nach Festigkeit, Dicke, Dehnbarkeit, Farbechtheit und passenden Pflegeangaben. Das Projektgarn eignet sich oft; sehr dickes oder empfindliches Garn lässt sich aber manchmal besser mit einem glatteren, dünneren Garn vernähen. Dünn bedeutet nicht automatisch schwach. Teste die Naht für ihren Einsatz.
 
 ## Häufige Fehler
 
-**Nahtwulst sichtbar von rechts.** Du hast die Fäden zu tief aufgenommen, etwa zwei Maschen vom Rand statt einer, oder die Tiefe wechselt. Nähe neu und bleib genau eine Masche vom Rand entfernt.
+**Der Nahtsteg ist außen sichtbar.** Beim normalen Matratzenstich liegt die Nahtzugabe auf der linken Seite. Prüfe die Ausrichtung, den Nadelweg sowie gleichmäßige Tiefe und Spannung. Bei der Methode für glatt rechts verläuft die Naht zwischen erster und zweiter Maschensäule, nicht „einen Querfaden vom Rand“.
 
-**Wellige oder gezogene Naht.** Die Spannung ist zu fest oder zu locker. Matratzenstich wird alle paar Stiche sanft geschlossen, nicht festgezerrt. Wenn du zu fest gezogen hast, löse den Faden mit der Nadelspitze ein paar Zentimeter zurück und verteile ihn neu.
+**Wellige oder gezogene Naht.** Lockere zunächst zu feste Stiche und verteile den Faden gleichmäßig. Prüfe außerdem Passpunkte, Reihen- oder Maschenzahlen und die Nahtmethode: Zu viel Stoff oder eine falsche Verteilung kann ebenfalls Falten verursachen.
 
 **Naht löst sich.** Der Faden wurde nicht gesichert. Vernäh den Faden in der Nahtzugabe in mehr als eine Richtung, bevor du abschneidest.
 
-**Verdrehte Teile.** Ein Teil lag mit der rechten Seite oben, das andere mit der linken. Prüfe die Ausrichtung vor dem ersten Stich.
+**Die Teile verdrehen sich an der Naht.** Prüfe rechte und linke Seite, Ober- und Unterkante sowie passende Ecken. Auch ungleichmäßige Spannung kann die Verbindung verziehen.
 
-**Vor dem Spannen genäht.** Wenn ein Vorderteil einen Zentimeter länger ist als das andere, macht Nähen daraus nicht automatisch gleiche Maße. Erst spannen, dann stecken, dann nähen.
+**Unterschiedliche Maße übergangen.** Wenn ein Vorderteil einen Zentimeter länger ist als das andere, macht Nähen daraus nicht automatisch gleiche Maße. Auch Spannen garantiert keine Korrektur. Prüfe die nach Pflegeangaben vorbereiteten, trockenen Teile und kläre die Ursache vor dem Zusammennähen.
 
 ## FAQ
 
-**Welches Garn zum Zusammennähen?**  
-Das Projektgarn, weil es farblich passt. Wenn das Projektgarn strukturiert, dick oder empfindlich ist, etwa Mohair, Bouclé oder locker gesponnene Singles, nimm ein glattes, starkes Garn in derselben Farbe. Manche halten glattes Sockengarn in Grundfarben nur fürs Zusammennähen bereit.
+**Welches Garn zum Zusammennähen?**
+Verwende gut vernähbares Projektgarn oder eine glatte Alternative mit geeigneter Festigkeit, Dehnbarkeit, Farbe und Pflege. Dünneres Garn kann die Naht weniger dick machen. Prüfe es an einer Probenaht.
 
 **Wie näht man Rippenmuster zusammen?**
 
-Muster über die Naht ausrichten. Wenn beide Teile mit einer rechten Spalte enden, soll die Naht geschlossen wie eine durchgehende rechte Spalte aussehen. Nutze Matratzenstich eine halbe Masche vom Rand entfernt: Nimm Fäden an der Grenze zwischen rechter und linker Spalte auf, nicht ganz außen. So bleibt das Rippenmuster über der Verbindung erhalten.
+Prüfe Randmaschen und Rippenfolge. Eine Halbmaschennaht erfasst das äußere Bein der rechten Randmaschen-Vs, wenn zwei Randmaschensäulen zu einer werden sollen. Sie verläuft nicht zwischen rechten und linken Säulen. Manche Ränder brauchen eine ganze Masche Nahtzugabe.
 
 **Kann ich Nähte ganz vermeiden?**
 
@@ -183,12 +186,12 @@ Ja. Wähle Anleitungen, die in einem Stück oder in Runden gestrickt werden: top
 
 **Meine Naht wellt sich.**
 
-Du ziehst den Faden zu fest. Matratzenstich wird sanft geschlossen, nicht festgezerrt. Wenn du zu fest gezogen hast, lockere den Faden durch die letzten Stiche zurück und stell die Spannung neu ein.
+Lockere zunächst zu feste Stiche und verteile den Faden gleichmäßig. Prüfe außerdem Passpunkte, Reihen- oder Maschenzahlen und die Nahtmethode: Zu viel Stoff oder eine falsche Verteilung kann ebenfalls Falten verursachen.
 
 **Fäden vor oder nach dem Zusammennähen vernähen?**
 
-Meist danach. Lose Fadenenden kannst du beim Nähen in die Nahtzugabe legen und später dort vernähen. Lass genug Länge, um bequem mit der Wollnadel zu arbeiten, und schneide erst ab, wenn die Naht sitzt.
+Vernähe die Nähfäden, wenn die Spannung stimmt. Führe jedes Ende einzeln durch die Nahtzugabe auf der linken Seite und wechsle je nach Garn die Richtung. Ein lose in der Naht versteckter Faden ist nicht zuverlässig befestigt. Prüfe den Halt vor dem Kürzen.
 
 **Kann ich eine Naht lösen, ohne die Teile zu beschädigen?**
 
-Matratzenstich und Überwendlichstich lassen sich meist sauber lösen, indem du den Nahtfaden alle paar Stiche durchschneidest und herausziehst. Abketten mit drei Nadeln muss vorsichtiger Masche für Masche zurück auf die Nadel gelöst werden. Maschenstich ist mühsam zu öffnen und verzieht sich leicht, deshalb prüfe ihn vor dem Abschneiden des Fadens.
+Identifiziere den Nähfaden und löse die Naht von einem Ende aus, ohne die gestrickten Fäden zu verletzen. Falls Schneiden nötig ist, isoliere zuerst nur den Nähfaden. Löse eine Abkettung mit drei Nadeln oder einen Maschenstich Masche für Masche und sichere frei werdende Maschen auf Nadeln. Flauschige Garne lassen sich manchmal kaum ohne Schäden trennen.

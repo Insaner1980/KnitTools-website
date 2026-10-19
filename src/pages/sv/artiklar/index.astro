@@ -23,6 +23,7 @@ const sections = buildArticleCategorySections(swedishArticles, "sv");
   canonicalPath={routes.articlesIndex.sv}
   lang="sv"
   alternates={routes.articlesIndex}
+  contentPage
 >
   <section class="articles-header">
     <div class="articles-header-inner">
@@ -83,7 +84,7 @@ const sections = buildArticleCategorySections(swedishArticles, "sv");
       ))
     )
   }
-  <ClosingCTA variant="page" lang="sv" />
+  <ClosingCTA variant="page" lang="sv" contentPage />
 </PageLayout>
 
 <style>

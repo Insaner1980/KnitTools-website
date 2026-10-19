@@ -2,6 +2,7 @@
 title: "Circulaires, droites ou double pointe ?"
 description: "Comparer aiguilles circulaires, droites et doubles pointes. Quel type choisir selon le projet, avec avantages et limites de chaque option."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: needles
 categoryOrder: 1
 tags:
@@ -16,117 +17,109 @@ lang: fr
 translationKey: "circular-vs-straight-vs-dpn"
 ---
 
-Il existe trois grands types d'aiguilles parce que les projets ne demandent pas tous la même chose. Les aiguilles droites gèrent le tricot à plat. Les circulaires gèrent le tricot à plat et les tubes. Les doubles pointes gèrent les petites circonférences. Une fois cette logique comprise, acheter des aiguilles devient beaucoup moins intimidant.
-
-Ce qui complique le choix, c'est que les catégories se recoupent. Une longue aiguille circulaire peut faire tout ce qu'une aiguille droite fait. Une circulaire utilisée en magic loop peut faire une grande partie du travail d'un jeu d'aiguilles doubles pointes. La vraie question n'est donc pas seulement "quel type pour quel projet", mais "quelle combinaison d'aiguilles as-tu envie d'utiliser au quotidien".
+Les aiguilles droites conviennent au tricot à plat, les circulaires au tricot à plat ou en rond, et les doubles pointes aux petites circonférences. Les usages se recoupent. Choisis selon le modèle, la place nécessaire aux mailles et ta prise en main.
 
 ## Vue d'ensemble
 
-| Type                                   | Idéal pour                                                | Limite                                                        | Conseil d'achat                                  | Courbe d'apprentissage |
-| -------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------ | ---------------------- |
-| Aiguilles droites                      | Pièces plates étroites, débutants qui aiment la sensation | Les grands ouvrages manquent de place, le poids fatigue       | Peu chères à essayer                             | Aucune                 |
-| Circulaires fixes                      | Bonnets, corps de pull, couvertures, tricot plat ou rond  | Bloquées sur une taille d'aiguille et une longueur de câble   | Acheter une taille et une longueur               | Faible                 |
-| Circulaires interchangeables           | Outil quotidien de beaucoup de tricoteuses régulières     | Coût de départ plus élevé, raccords qui peuvent se desserrer  | Plus utile quand tu sais que tu tricotes souvent | Faible                 |
-| Aiguilles doubles pointes              | Chaussettes, moufles, couronnes de bonnet, petits tubes   | Début un peu capricieux, échelles aux changements d'aiguilles | Un petit jeu par taille                          | Moyenne                |
-| Magic loop, longue aiguille circulaire | Même usage que les doubles pointes avec moins d'aiguilles | Les boucles de câble peuvent se tordre si tu vas trop vite    | Utilise une seule longue circulaire              | Moyenne                |
+| Type                | Usage                                  | Limite                                     | Conseil d'achat              | À pratiquer                         |
+| ------------------- | -------------------------------------- | ------------------------------------------ | ---------------------------- | ----------------------------------- |
+| Aiguilles droites   | Pièces étroites à plat                 | Les mailles doivent tenir sur les tiges    | Choisir diamètre et longueur | Tourner après chaque rang           |
+| Circulaire fixe     | À plat ou en rond                      | Diamètre et longueur totale fixes          | Une circulaire complète      | Tourner ou joindre en rond          |
+| Kit interchangeable | Différents diamètres et longueurs      | Pointes et câbles doivent être compatibles | Vérifier le contenu          | Fixer les raccords                  |
+| Doubles pointes     | Chaussettes, moufles, hauts de bonnets | Plusieurs aiguilles et transitions         | Un jeu du diamètre voulu     | Tricoter avec l'aiguille libre      |
+| Magic loop          | Petites circonférences                 | Demande un câble souple assez long         | Une longue circulaire        | Déplacer les mailles et les boucles |
 
-Le tableau est un point de départ, pas un verdict. Beaucoup de tricoteuses contredisent chaque ligne et obtiennent quand même de très bons résultats.
+Le tableau décrit le fonctionnement. Le confort et la facilité d'apprentissage sont personnels.
 
 ## Aiguilles droites
 
 Deux aiguilles séparées, une pointe d'un côté, un embout de l'autre. L'image classique du tricot, et encore un bon choix pour des pièces plates de largeur modérée.
 
-La limite, c'est la place. Toutes les mailles doivent tenir sur la tige, donc les projets larges manquent vite de place. Un tissu lourd qui pend de deux aiguilles rigides fatigue aussi pendant les longues séances. Les aiguilles droites sont intuitives pour débuter parce que l'installation est évidente et le sens du travail facile à lire. Mais beaucoup de tricoteuses passent aux circulaires dès qu'elles comprennent qu'elles font tout ce que font les droites, et plus encore.
+Toutes les mailles doivent tenir sur la tige sans tomber. Des aiguilles de 25 cm peuvent convenir à une lavette ou une écharpe étroite ; 35 cm offrent davantage de place. Choisis le diamètre selon le fil, le tissu souhaité et l'échantillon demandé. Ces longueurs sont des exemples de tailles commerciales, pas une garantie qu'un ouvrage précis tiendra dessus.
 
-La longueur compte plus qu'on ne le croit. Une aiguille droite de 25 cm en taille moyenne est confortable pour une lavette ou une écharpe étroite. Une aiguille de 35 cm accueille un ouvrage plus large, mais peut sembler maladroite dans de petites mains. Les longues aiguilles droites en bois qu'on héritait souvent servaient à tricoter des devants de pull entiers à plat. Beaucoup de modèles modernes supposent plutôt que tu as des circulaires.
-
-Les droites gardent quand même leur place dans certains sacs. Elles sont peu chères, solides, et certaines tricoteuses aiment vraiment la façon dont le poids s'équilibre de chaque côté. Si cette forme te convient, rien ne t'oblige à l'abandonner.
+Si la prise en main et l'équilibre te conviennent, rien ne t'oblige à abandonner les aiguilles droites. Essaie la longueur avec ton propre ouvrage.
 
 ## Aiguilles circulaires
 
-Deux pointes courtes reliées par un câble souple. Les mailles reposent sur le câble, et tu tricotes d'une pointe à l'autre.
+Deux pointes courtes reliées par un câble souple. Les mailles reposent sur le câble et les pointes pendant que tu tricotes d'une pointe à l'autre. Sur une circulaire fixe, le câble est fixé en permanence ; les pointes interchangeables se détachent.
 
-Pour tricoter en rond, on joint les mailles et on continue sans tourner. Bonnets, cols, corps de pulls, empiècements. Tout cela vit ici. Pour tricoter à plat, les circulaires fonctionnent aussi très bien. Tu tricotes jusqu'au bout, tu tournes, tu repars dans l'autre sens. Le câble tient simplement les mailles entre les pointes.
+Avant de joindre en rond, vérifie que le bord de montage ne s'enroule pas autour de l'aiguille. Marque le début du tour et tricote la première maille montée avec le fil venant de la dernière. Continue en rond. À plat, ne joins pas les extrémités : tricote jusqu'au bout du rang, tourne et travaille dans l'autre sens selon les explications.
 
-La plupart des tricoteuses finissent par utiliser des circulaires pour presque tout. Le câble porte le poids plus confortablement, les pointes courtes prennent moins de place, et tu n'es pas limitée par la longueur de la tige. C'est probablement le type d'aiguille le plus polyvalent à posséder.
+Le câble maintient un ouvrage large entre les pointes, ce qui permet au tissu de reposer sur tes genoux. Le confort de la prise en main est personnel.
 
 ### Longueur de câble
 
-La longueur de câble doit correspondre à l'usage.
+La longueur de circulaire désigne ici la longueur totale d'une pointe à l'autre, câble et deux pointes compris. Le diamètre en millimètres est une autre mesure.
 
-Pour tricoter en rond, la circonférence du projet donne la limite haute. La longueur totale de la circulaire doit être un peu plus courte que l'ouvrage, sinon les mailles ne peuvent pas circuler sans être étirées. Une circulaire de 40 cm est courante pour les bonnets. Une circulaire de 60 ou 80 cm convient à beaucoup de corps de pulls, selon la taille. Trop long, et les mailles n'atteignent pas les deux pointes sans tension. Trop court, et les mailles ne tiennent pas autour.
+Pour tricoter en rond de façon classique, choisis une longueur totale inférieure à la circonférence de l'ouvrage, avec assez d'espace pour bouger les pointes sans étirer les mailles. 40 cm est un point de départ courant pour un bonnet adulte ; 60 ou 80 cm peuvent convenir au corps d'un pull, selon sa taille. Un petit bonnet peut demander une autre méthode. Les mailles peuvent se serrer sur une aiguille plus courte, mais un excès rend leur déplacement difficile. Les pointes doivent aussi être assez courtes pour se rejoindre aisément. Passe aux doubles pointes, au magic loop ou à deux circulaires avant que les diminutions rendent la circonférence trop petite.
 
-Pour tricoter à plat, le câble doit seulement porter toutes les mailles confortablement. Environ 80 cm est une bonne longueur standard pour beaucoup d'ouvrages plats. Les couvertures et grands châles demandent souvent 100 cm ou plus. Un câble peut être plus long que nécessaire sans grand problème, mais pas trop court.
+À plat, il n'y a pas de circonférence fermée à respecter. 80 cm est utile pour beaucoup d'ouvrages ; 100 cm ou plus donnent davantage de place pour de grandes couvertures ou des châles. Choisis une capacité suffisante et un câble facile à manipuler. Le magic loop utilise volontairement du câble en excès : la règle du tricot en rond classique ne s'y applique pas.
 
 ### Qualité du câble
 
-Tous les câbles ne se valent pas. Un câble rigide qui garde la mémoire de son emballage va lutter contre toi au début de chaque projet. Un câble souple se pose plus facilement et se comporte mieux. Le raccord entre câble et pointe est aussi l'endroit où les circulaires bon marché échouent souvent. Un fil qui accroche à cet endroit semble une petite irritation, mais elle devient pénible sur tout un ouvrage.
+Vérifie la souplesse du câble et le passage des mailles sur les raccords, sans accrochage. Le prix seul ne permet pas de juger ces qualités.
 
-Si tu achètes un kit, le système de câble compte autant que les pointes. Les raccords vissés peuvent être très lisses, mais ils peuvent se desserrer si tu ne les serres pas correctement. Certaines marques utilisent des clés de serrage, d'autres des câbles pivotants, des systèmes à clic ou des verrouillages par rotation. Aucun système n'est le meilleur pour tout le monde. Essaie une pointe et un câble, ou emprunte un kit, avant d'investir dans un ensemble complet.
+Fixe les pointes interchangeables selon les instructions du fabricant. ChiaoGoo recommande par exemple sa clé de serrage pour ses raccords vissés. Un câble pivotant et un mécanisme de verrouillage sont deux caractéristiques distinctes ; vérifie le système concerné.
 
 ## Magic loop
 
-Le magic loop permet de tricoter de petites circonférences sur une longue circulaire au lieu d'utiliser des aiguilles doubles pointes. Après quelques essais, le geste devient naturel.
+Le magic loop permet de tricoter une petite circonférence avec une seule longue circulaire. Le câble forme des boucles à l'extérieur de l'ouvrage.
 
-L'idée de base : monte ou répartis les mailles de façon à placer la moitié d'un côté du câble et la moitié de l'autre. Tire une boucle de câble entre les deux moitiés pour que la pointe avant, celle avec laquelle tu vas tricoter, sorte droit devant. Tricote cette moitié. Quand tu arrives au bout, fais glisser l'ouvrage sur le câble, remets la moitié non travaillée sur la pointe avant et recommence.
+Divise les mailles en deux groupes généralement proches de la moitié. Fais-les glisser sur les deux pointes, tenues parallèles vers la droite, avec le fil de travail au groupe arrière. Vérifie que le bord de montage n'est pas vrillé avant de joindre. Tire la **pointe arrière** pour laisser ses mailles sur le câble. Avec cette pointe libérée dans la main droite, tricote les mailles de la **pointe avant**, tenue dans la main gauche. Réoriente l'ouvrage, fais glisser le groupe suivant sur la pointe avant et libère de nouveau la pointe arrière. Deux moitiés forment un tour. Repère le début du tour, par exemple avec un marqueur ouvrable fixé dans le tissu.
 
-Pour beaucoup de tricoteuses, une circulaire de 100 cm est le standard confortable. Une circulaire souple de 80 cm peut fonctionner pour les chaussettes, mais un peu plus de câble facilite les boucles. Pour deux chaussettes à la fois, 100 ou 120 cm donnent plus de place.
+Une circulaire souple de 80 ou 100 cm est un point de départ à essayer. La taille de l'ouvrage, la longueur des pointes et la souplesse du câble déterminent si les deux boucles ont assez de jeu sans écarter les mailles. Deux chaussettes à la fois demandent de la place pour les deux ouvrages ; essaie 100 ou 120 cm selon ce besoin.
 
-La technique a ses compromis. Le magic loop est plus lent aux transitions entre les deux moitiés parce que tu fais glisser les mailles et tires les boucles de câble à chaque demi-tour. Les aiguilles doubles pointes peuvent être plus rapides une fois que tu ne te bats plus avec elles. Mais tu transportes moins d'outils, et le magic loop crée moins de points où des échelles peuvent apparaître : deux transitions par tour au lieu de trois ou quatre.
+Le magic loop comporte deux transitions entre groupes par tour, contre trois ou quatre avec un jeu de doubles pointes classique. Cela ne garantit ni moins d'échelles ni une plus grande vitesse.
 
 ## Deux aiguilles circulaires
 
-Une option intermédiaire dont on parle moins. Utilise deux circulaires séparées, toutes les deux de longueur moyenne, environ 60 ou 80 cm. Place la moitié des mailles sur l'une et la moitié sur l'autre, puis tricote chaque moitié avec sa propre circulaire. Les mailles que tu ne travailles pas reposent sur le câble inactif.
+Utilise deux circulaires de même diamètre, assez longues pour porter leurs groupes de mailles et déplacer librement les pointes. 60 ou 80 cm sont des exemples, pas des longueurs obligatoires. Répartis les mailles approximativement en deux moitiés. Tricote chaque groupe avec les deux pointes de sa propre circulaire ; l'autre groupe repose sur son câble. Ne tricote pas d'une circulaire sur l'autre.
 
-Cette méthode sert surtout pour tricoter deux chaussettes à la fois ou pour les personnes qui n'aiment ni le magic loop ni les doubles pointes. La limite, c'est qu'il faut deux circulaires de la même taille, ce qui est rare si tu n'as pas de kit interchangeable avec plusieurs câbles.
+Cette méthode convient à un petit tube et à des projets adaptés pour deux pièces à la fois. Il faut deux circulaires complètes : des câbles supplémentaires dans un kit ne signifient pas qu'il contient deux paires de pointes du même diamètre.
 
 ## Aiguilles doubles pointes
 
-Aiguilles courtes, environ 13 à 20 cm, pointues aux deux extrémités, utilisées par lots de 4 ou 5. Tu répartis les mailles sur 3 ou 4 aiguilles et tu tricotes avec celle qui reste.
+Les aiguilles doubles pointes sont pointues aux deux extrémités. Avec quatre aiguilles, trois portent les mailles et la quatrième est libre au départ. Avec cinq, quatre portent les mailles et la cinquième est libre. Tricote les mailles d'une aiguille avec l'aiguille libre ; celle que tu viens de vider sert à tricoter le groupe suivant.
 
-Les doubles pointes sont l'outil classique pour les petits tubes : pointes de [chaussettes](/fr/articles/tricoter-des-chaussettes/), pouces de moufles, couronnes de [bonnets](/fr/articles/tricoter-un-bonnet/), manches étroites. Au début, elles semblent capricieuses. Les extrémités libres gênent, et les échelles entre les aiguilles sont courantes jusqu'à ce que tu prennes l'habitude de serrer un peu la première maille.
-
-Certaines tricoteuses les évitent complètement au profit du magic loop. D'autres les utilisent toujours pour les chaussettes et les moufles parce qu'elles deviennent compactes et rapides quand on arrête de se battre avec. Les avis sont forts des deux côtés.
+Les doubles pointes conviennent aux pointes de [chaussettes](/fr/articles/tricoter-des-chaussettes/), aux pouces de moufles, aux hauts de [bonnets](/fr/articles/tricoter-un-bonnet/) et aux manches étroites. Vérifie que le bord de montage n'est pas vrillé avant de joindre. Fixe le marqueur de début de tour dans le tissu si un anneau risquerait de tomber au bout d'une aiguille. Suis la répartition du modèle ; les groupes n'ont pas besoin d'être égaux.
 
 ### Corriger les échelles
 
-Une échelle est la colonne lâche qui apparaît à l'endroit où une aiguille double pointe rejoint la suivante. La solution est surtout mécanique. Serre la première maille de chaque nouvelle aiguille contre la dernière maille de l'aiguille précédente avant de la tricoter. Certaines tricoteuses donnent aussi un petit coup de tension sur la deuxième maille.
+Une échelle correspond à des fils horizontaux lâches entre deux colonnes de mailles au changement d'aiguille. Rapproche les aiguilles voisines pendant que tu tricotes les premières mailles du groupe suivant, puis reprends doucement le fil en excès. Ne serre pas au point d'empêcher les nouvelles mailles de glisser sur toute la largeur de la tige.
 
-Autre astuce : déplace les mailles pour que le point de jonction change de place toutes les quelques tours. Si tu changes toujours d'aiguille dans la même colonne, le relâchement s'accumule. En décalant d'une ou deux mailles de temps en temps, tu répartis le mou, et les irrégularités restantes deviennent beaucoup moins visibles.
-
-Le blocage peut lisser de petites échelles qui résistent à ces astuces, surtout avec un fil à chaussettes riche en laine qui gonfle légèrement après lavage.
+Tu peux déplacer la transition en tricotant une ou deux mailles supplémentaires sur l'aiguille en cours. Garde des repères indépendants pour le début du tour et les divisions du modèle. Déplacer les transitions ne garantit pas un résultat invisible. Observe la tension sur plusieurs tours ; tirer très fort ou compter sur le blocage n'est pas une réparation assurée.
 
 ### Longueur et nombre d'aiguilles doubles pointes
 
-Les doubles pointes courtes, 13 ou 15 cm, sont plus faciles à gérer pour les petits projets comme les pointes de chaussettes et les doigts de gants. Les plus longues, 18 ou 20 cm, portent davantage de mailles mais peuvent sembler encombrantes dans les petits tours. Les jeux existent souvent en 4 ou 5 aiguilles. Un jeu de 5 aiguilles répartit les mailles sur 4 aiguilles de travail, avec un espacement plus régulier mais plus de jonctions à gérer. Un jeu de 4 aiguilles utilise 3 aiguilles de travail, avec moins de jonctions mais des angles plus serrés. C'est une préférence personnelle.
+Des doubles pointes d'environ 13–15 cm peuvent convenir aux petites pièces ; 18–20 cm offrent davantage de place pour les mailles. Choisis une longueur qui maintient les mailles en attente sans qu'elles tombent et qui te laisse une prise agréable.
+
+Par exemple, 60 mailles peuvent se répartir en 20 + 20 + 20 sur trois aiguilles, avec une quatrième pour tricoter, ou en 15 + 15 + 15 + 15 sur quatre, avec une cinquième pour tricoter. Des groupes égaux ne sont pas obligatoires. Cela donne respectivement trois ou quatre transitions par tour.
 
 ## Kits d'aiguilles interchangeables
 
-Ils méritent une mention parce qu'ils sont devenus le choix pratique de beaucoup de tricoteuses régulières. Un seul kit donne plusieurs tailles de pointes et plusieurs longueurs de câbles, sans acheter un tiroir entier de circulaires fixes.
+Un kit interchangeable offre plusieurs diamètres de pointes et longueurs de câbles. Vérifie que les pièces couvrent les combinaisons nécessaires ; un câble supplémentaire seul ne forme pas une autre circulaire.
 
-ChiaoGoo, KnitPro (Knitter's Pride), Addi, HiyaHiya et Lykke sont des noms courants. La plage exacte de tailles dépend du kit, et certaines marques séparent les petites et les grandes pointes en systèmes différents.
+Les indications de longueur dépendent du système. [ChiaoGoo](https://www.chiaogoo.com/faqs/) indique la longueur du câble seul : 20 cm de câble et deux pointes de 10 cm donnent une circulaire nominale de 40 cm. Ses pointes de 13 cm ne conviennent pas à cette combinaison courte. [KnitPro](https://www.knitpro.eu/en/blog/knitting-needle-cables-guide-length-types-tips) indique la longueur totale avec les pointes prévues. Vérifie la longueur de pointes correspondante. Les valeurs en cm et en pouces sont des tailles commerciales nominales, pas toujours des conversions exactes.
 
-Ce qui distingue un bon kit d'un kit frustrant n'est pas toujours la pointe elle-même. C'est tout ce qui l'entoure : raccords de câble lisses ou non, verrouillage fiable, changement facile, câbles qui gardent ou non la forme de l'emballage, marquage des tailles qui résiste ou s'efface après quelques projets. Le coût de départ est plus élevé qu'une circulaire fixe, donc le kit a du sens quand tu tricotes assez souvent pour avoir besoin de plus de deux ou trois tailles.
+Ne suppose pas que toutes les marques, ni toutes les gammes d'une marque, sont compatibles. Les pièces TWIST et SPIN de ChiaoGoo sont compatibles à taille de raccord identique. MINI, S et L ont des raccords différents ; certaines combinaisons demandent l'adaptateur indiqué.
 
 ## Circulaires de 23 cm
 
-Un outil spécialisé qui mérite d'être mentionné. Une aiguille circulaire si courte que les pointes sont minuscules et que le câble se voit à peine. L'ensemble tient dans la circonférence d'une chaussette, ce qui permet de tricoter une chaussette en rond sans magic loop, sans doubles pointes et sans changement d'aiguille.
+Une circulaire de 23 cm est un outil court spécialisé. Cette taille se vend aussi sous l'appellation 9 pouces, soit exactement 22,86 cm. La longueur totale inclut les pointes courtes. La circonférence doit permettre aux mailles de circuler sans étirement et laisser de la place pour bouger les pointes. Elle ne convient pas à toutes les chaussettes, pointes de pied, doigts ou poignets.
 
-Pour certaines tricoteuses, les circulaires de 23 cm sont la solution qu'elles attendaient. Le rythme est rapide, il n'y a pas d'échelles, et l'ouvrage reste compact. Pour d'autres, les pointes sont trop courtes pour être tenues confortablement, et les mains fatiguent en quelques tours. Il n'y a pas vraiment moyen de le savoir avant d'essayer.
+Les changements entre doubles pointes disparaissent, mais cela ne garantit ni une tension régulière ni une plus grande vitesse. Essaie de tenir les pointes pour juger le confort. Choisis le diamètre selon ton échantillon.
 
-Si cela t'intéresse, achète une seule circulaire de 23 cm dans ta taille de chaussettes la plus courante avant d'acheter un jeu complet. La plupart des personnes qui les essaient les adorent ou les rangent discrètement après une chaussette.
+Change de méthode quand la circonférence devient trop petite. Un talon travaillé à plat peut aussi demander une autre disposition. Vérifie l'échantillon après un changement d'aiguilles ou de méthode : le même diamètre nominal ne garantit pas le même nombre de mailles et de rangs/tours par unité de mesure.
 
 ## Formes ergonomiques
 
-Au-delà des aiguilles rondes classiques, quelques formes alternatives existent. Les aiguilles carrées, vendues par Kollage et quelques petites marques, ont des côtés plats qui se placent autrement dans la main et peuvent réduire la fatigue chez certaines personnes qui ont mal aux mains. Les Cubics de KnitPro suivent une idée similaire. Les aiguilles Prym Ergonomics sont fabriquées dans un matériau synthétique souple à hautes performances, avec des pointes en forme de goutte et une tige dont la section passe du rond au triangulaire.
-
-Que cela aide ou non dépend de la personne et de l'origine de la douleur. Le marché est plus petit, les prix sont plus élevés, et ces aiguilles ne remplacent pas un avis médical en cas de douleur sérieuse. Mais pour une gêne légère, certaines tricoteuses trouvent une solution inattendue en changeant de forme plutôt que de matière ou de taille.
+La forme de l'aiguille modifie aussi la prise en main. Les aiguilles droites prym.ergonomics de Prym ont par exemple des pointes en goutte et une tige qui passe du rond au triangulaire. Cela décrit leur construction, pas un traitement démontré des douleurs aux mains. Évalue la prise et le confort avec ton propre tricot.
 
 ## Quel type pour quel projet
 
-Une écharpe plate fonctionne sur aiguilles droites ou sur circulaires utilisées à plat. Un bonnet commence souvent sur circulaire pour le corps, puis passe aux doubles pointes ou au magic loop pour les diminutions de couronne. Les chaussettes se tricotent sur doubles pointes, en magic loop, sur deux circulaires ou sur circulaires de 23 cm, selon la préférence. Les pulls tricotés en pièces peuvent se faire sur droites ou sur circulaires à plat. Les pulls sans couture demandent des circulaires, puis des doubles pointes ou du magic loop quand les manches deviennent trop étroites. Les couvertures vont sur de longues circulaires utilisées à plat. Les moufles et les gants vont sur doubles pointes ou en magic loop.
+Une écharpe peut se tricoter à plat sur des aiguilles droites ou circulaires. Un bonnet commencé par le bord peut utiliser une circulaire assez courte, puis des doubles pointes ou le magic loop lorsque le haut se rétrécit. Chaussettes, moufles et gants demandent une méthode adaptée à la circonférence de la partie en cours : doubles pointes, magic loop, deux circulaires ou une courte circulaire là où elle convient.
 
-Le résumé pratique : un jeu de circulaires plus des doubles pointes, ou la maîtrise du magic loop, couvre presque tout. Les aiguilles droites sont optionnelles, sauf si tu en as déjà et que tu les préfères.
+Les pièces d'un pull se tricotent à plat sur droites ou circulaires. Les circulaires sont pratiques pour un corps sans couture ; les manches étroites demandent une méthode pour petites circonférences. Une longue circulaire convient à une grande couverture à plat, tandis que des panneaux étroits peuvent tenir sur des droites. Suis la construction du modèle et vérifie l'échantillon quand tu changes de matériel.
 
 Si tu essaies aussi de choisir la [taille](/fr/outils/tailles-aiguilles/) ou la [matière](/fr/articles/aiguilles-a-tricoter-metal-bois-bambou/) des aiguilles, ce sont des décisions séparées du type d'aiguille.
 
@@ -134,24 +127,24 @@ Si tu essaies aussi de choisir la [taille](/fr/outils/tailles-aiguilles/) ou la 
 
 **Les circulaires peuvent-elles remplacer les droites pour tricoter à plat ?**
 
-Oui. Les aiguilles droites sont aujourd'hui une préférence, pas une obligation.
+Oui. Ne joins pas les extrémités : tourne après chaque rang et suis les explications pour le tricot à plat.
 
 **Combien de longueurs de câble faut-il vraiment ?**
 
-Une circulaire de 40 cm pour les bonnets, une 60 ou 80 cm pour les pulls et la plupart des ouvrages plats, et une 100 cm ou plus pour le magic loop, les couvertures et les grands châles couvrent presque tout. Ajoute une deuxième 80 cm si tu tricotes souvent deux pièces à la fois.
+Commence par la longueur nécessaire à ton projet. Les exemples de 40, 60/80 et 100 cm ci-dessus sont des longueurs totales pour différents usages, pas une liste d'achats obligatoire. Deux circulaires signifient deux aiguilles complètes, pas seulement un câble supplémentaire.
 
 **Pourquoi le câble de ma circulaire s'enroule-t-il sans arrêt ?**
 
-La mémoire de forme et l'entretien du câble varient selon le produit. Suis les instructions du fabricant : certains câbles à âme en acier inoxydable peuvent être détendus à la vapeur ou à l'eau tiède, tandis que les câbles sans effet mémoire n'ont parfois pas besoin d'être redressés.
+Certains câbles gardent la forme de leur emballage. Suis les consignes d'entretien du produit précis ; ne suppose pas que tous les câbles et raccords supportent la chaleur.
 
 **Les circulaires en bois valent-elles le supplément ?**
 
-Pour certaines tricoteuses, oui. Le bois accroche plus que le métal, mais moins que le bambou. Les longues séances avec un fil glissant ne donnent pas la même sensation. Pour la plupart des projets courants, une circulaire fixe en métal basique suffit jusqu'à ce que tu saches que tu veux le toucher du bois.
+Évalue le toucher et le prix d'une aiguille précise avec ton fil. La finition et la construction comptent ; on ne peut pas classer systématiquement bois, métal et bambou selon leur adhérence.
 
 **Faut-il apprendre à la fois les doubles pointes et le magic loop ?**
 
-Non. Une seule méthode suffit. Celle que tu apprends en premier devient souvent ton standard. Les personnes qui commencent avec les doubles pointes y restent souvent. Celles qui apprennent d'abord le magic loop achètent rarement beaucoup de doubles pointes. Les deux méthodes sont interchangeables pour presque tous les projets de petite circonférence.
+Une méthode adaptée aux petites circonférences suffit pour commencer. Adapte la répartition par aiguille du modèle, marque le début du tour et vérifie l'échantillon quand tu changes de méthode.
 
 **Les circulaires de 23 cm méritent-elles leur réputation ?**
 
-Pour certaines personnes, oui. Pour d'autres, les pointes sont trop courtes et crispent les mains. N'en achète pas dans toutes les tailles avant de savoir si elles conviennent à tes mains. Essaie-en une seule d'abord.
+Essaie-en une si sa longueur totale convient à l'ouvrage et si les pointes courtes sont agréables à tenir. Prévois une autre méthode pour les parties trop petites.

@@ -14,11 +14,11 @@ tags:
 
 "Increase 8 stitches evenly across the next row." The pattern moves on. You're left holding live stitches and doing mental math.
 
-Whether the row needs to add stitches or remove them, the calculation is the same. Divide the current stitch count by the number of changes you want to make, and that result is the interval between each shaping point. That's the formula. The interesting part is everything around it: which increase or decrease method to use, how to handle the remainders that almost always show up, what to do at the edges, and how to keep the spacing readable in fabric instead of just on paper.
+Start with the stitches available for shaping and the number of shaping operations. The division gives a starting point for the spacing; the technique determines how to write the repeat. Edges, remainders and stitch patterns still need to be accounted for.
 
 ## The formula in one line
 
-Current stitch count / number of changes = interval between each change.
+Usable original stitches / number of shaping operations = average original stitches per operation. This is a repeat size, not necessarily the number of plain stitches between operations.
 
 The interval tells you how many existing stitches belong to each change, but the written repeat depends on the method. The M1 examples below place the increase between existing stitches, so an interval of 10 can be written `k10, M1`. If the increase is worked into an existing stitch, as with KFB, count that stitch within the interval: write `k9, kfb`, not `k10, kfb`, because the latter consumes 11 original stitches. For decreases, the interval is the repeat size, and it includes the stitches consumed by the decrease.
 
@@ -26,31 +26,33 @@ Same math, two slightly different framings.
 
 If any edge or selvage stitches must remain untouched, subtract their total before calculating the interval: `(current stitches - reserved edge stitches) / number of changes`. Distribute the changes only across the remaining workable stitches, then work the reserved edge stitches as instructed. If the edge stitches are part of the shaping distribution, use the full current stitch count instead. This is different from splitting the first and last intervals for balance, where those outer stitches still participate in the distribution.
 
+Count operations, not just the net change: M1 or KFB adds 1; k2tog or ssk removes 1; k3tog removes 2. The operation count must be a positive whole number. With U usable stitches and E operations, k2tog needs U ≥ 2 × E, and k3tog needs U ≥ 3 × E. KFB needs one original stitch per operation. Here M1 means one twisted running-thread increase per available gap: a flat row of U stitches has U − 1 internal gaps, while an established round has U including the join. Reserved borders can restrict the available gaps further. These examples use plain knit stitches, with no reserved edges unless stated.
+
 ## Worked example: a clean increase
 
 You have 80 stitches on the needle. The pattern asks for 8 increases.
 
 80 / 8 = 10.
 
-The row reads "knit 10, M1" repeated 8 times. That uses all 80 stitches on the needle, adds 8 new stitches from the M1s, and finishes with 88 stitches in the new row. Math holds, increases land on a regular interval, fabric ends up evenly widened.
+For a flat row, work "knit 5, M1, (knit 10, M1) 7 times, knit 5." This consumes 5 + 7 × 10 + 5 = 80 original stitches and makes 1 + 7 = 8 increases: 88 stitches. The increase positions are after original stitches 5, 15, 25, 35, 45, 55, 65 and 75. They are spaced 10 stitches apart with 5 at each end, so the placement is symmetric.
 
-There's one cosmetic issue with the edge-to-edge version: the last M1 falls at the very end of the row, with no plain stitches after it. Some patterns are fine with that. Some aren't. If you want a buffer on both edges, split one interval between the start and end of the row. The row becomes "knit 5, M1, (knit 10, M1) 7 times, knit 5." Same 80 stitches consumed, same 8 increases worked, same 88 stitches out. The M1s stay away from the edges, which makes seaming and pickup tidier later.
+"Knit 10, M1" 8 times also consumes 80 stitches, but use it on an established circular round, where the last M1 uses the strand at the round boundary. On a flat row there is no strand between two stitches after the last stitch; that final M1 is not merely a cosmetic edge issue.
 
 ## Worked example: a remainder you have to deal with
-
-Real patterns rarely divide cleanly.
 
 Take 75 stitches with 8 increases.
 
 75 / 8 = 9 remainder 3.
 
-That means 5 sections of 9 stitches and 3 sections of 10 stitches. Each section gets one M1 at the end. Five "knit 9, M1" plus three "knit 10, M1" works out to 75 stitches consumed and 8 increases worked, ending the row at 83 stitches.
+For an established round, use five 9-stitch sections and three 10-stitch sections, each followed by one M1. One arrangement is 9, 9, 10, 9, 9, 10, 9, 10. Work that many knit stitches and then M1 for each section. This consumes 5 × 9 + 3 × 10 = 75 stitches and adds 8: 83 stitches. The gaps around the whole circle, including across the marker, are all 9 or 10 original stitches.
 
-Where do the longer sections go? Spread them out. Don't put all three 10-stitch sections at the start of the row and follow with five 9-stitch sections at the end. The eye reads that as uneven even when the math technically adds up.
+For a flat row, use this symmetric arrangement instead:
 
-A workable arrangement: section of 9, section of 9, section of 10, section of 9, section of 9, section of 10, section of 9, section of 10. The longer sections fall at roughly every third interval, which keeps the distribution looking deliberate rather than lopsided.
+1. Knit 5, M1.
+2. Knit 9, M1; knit 9, M1; knit 10, M1; knit 9, M1; knit 10, M1; knit 9, M1; knit 9, M1.
+3. Knit the remaining 5 stitches.
 
-You don't have to be precise. Off-by-one stitches in placement won't show in the finished fabric for most projects. The goal is even-looking distribution, not mathematical perfection.
+The ends use 5 + 5 stitches; the seven internal gaps use 5 × 9 + 2 × 10. Total: 75 original stitches, 8 M1s and 83 resulting stitches. The M1s fall after original stitches 5, 14, 23, 33, 42, 52, 61 and 70. Each mirrored pair adds to 75. These are two valid arrangements, not a unique solution.
 
 ## The decrease side of the same formula
 
@@ -60,19 +62,17 @@ Take 90 stitches with 10 decreases.
 
 90 / 10 = 9.
 
-Each repeat covers 9 stitches: the first 7 are plain, the last 2 are worked together. So the row reads "knit 7, k2tog" repeated 10 times. That consumes all 90 stitches and removes 10, ending at 80. No leftover stitches, no edge buffer needed unless you want one.
+Each repeat covers 9 stitches: the first 7 are plain, the last 2 are worked together. So the row reads "knit 7, k2tog" repeated 10 times. That consumes all 90 stitches and removes 10, ending at 80. No stitches remain unworked. No separate edge stitches are reserved in this example.
 
-Remainders work the same way they do for increases. A row with 95 stitches and 10 decreases gives 9 remainder 5: five repeats are 9 stitches and five are 10 stitches. Distribute the longer ones across the row instead of clustering them.
+With 95 stitches and 10 single decreases, 95 / 10 = 9 remainder 5. Work "knit 7, k2tog, knit 8, k2tog" 5 times in total. Each pair consumes 9 + 10 = 19 original stitches and produces 8 + 9 = 17: 95 stitches consumed, 10 decreases and 85 stitches left. The shorter and longer repeats alternate. No edge stitches are reserved in this example.
 
 ## Why patterns ask for even spacing
 
-Bunched increases make one area flare while the rest of the fabric stays the same width. The garment ends up with a visible wedge instead of a smooth transition. Bunched decreases pull the fabric inward at the wrong spot, sometimes visibly enough that the finished piece looks crooked from across the room.
+Spacing spreads the stitch-count change across the chosen area. Concentrating it at particular points creates a different shape.
 
-The most common place this comes up is the transition row right after ribbing. Ribbing pulls inward at the same stitch count that the body wants to sit flat at. Adding stitches in that one transition row widens the fabric for the body without re-casting on. Even spacing is what makes that transition disappear into the fabric instead of announcing itself.
+At a ribbing-to-body transition, follow the pattern's target count and gauge for each fabric; an increase is not automatically required. Even spacing alone does not guarantee an invisible transition.
 
-Hat crowns are the other classic case. Crown decreases worked at even intervals over a series of rounds produce the tidy spiral or star pattern at the top of a hat. Uneven spacing gives a lopsided crown that's hard to fix without ripping back. The [hat knitting guide](/articles/how-to-knit-hat/) walks through crown shaping in more detail.
-
-You'll also see "increase evenly" in raglan yokes, sleeve cap shaping, and any place a designer needs the stitch count to change without drawing attention to the change itself.
+The [hat knitting guide](/articles/how-to-knit-hat/) discusses crown shaping. A crown also depends on the decrease positions, their direction and the number of rounds between them. Raglan lines and sleeve caps need their own placement instructions; do not replace those with a general evenly-spaced row.
 
 ## Which increase method to use
 
@@ -80,51 +80,39 @@ If the pattern specifies an increase, use that one. Designers pick increases for
 
 If the pattern just says "increase," the choice is yours. Each method behaves a little differently.
 
-**M1L and M1R** are common discreet increases for stockinette. They lift the running thread between two stitches and twist it so it doesn't leave a hole. M1L leans left, M1R leans right. When increases are scattered evenly across a row (rather than arranged as a visible shaping line), the lean direction matters less. For paired shaping along a raglan or v-neck, follow the pattern's left- and right-leaning directions so the shaping mirrors.
+**M1L and M1R** use the strand between stitches, without consuming a live stitch. With the yarn behind the work, lift that strand onto the left needle: front to back and knit through the back loop for M1L; back to front and knit through the front loop for M1R. This twists the strand. See [Purl Soho's M1 instructions](https://www.purlsoho.com/create/make-one-right-m1r-make-one-left-m1l/). Here, directions describe the knit face when working from the left needle to the right. Follow the pattern for paired shaping.
 
-**KFB** (knit front and back) works the increase into an existing stitch instead of between two stitches. It leaves a small horizontal bar that looks a bit like a purl bump. Fine in garter stitch or in texture patterns where the bar disappears. More visible in plain stockinette, where a row of KFB increases tends to show as a faint line.
+**KFB** (knit front and back) consumes one existing stitch and produces two. Knit into its front, keep it on the left needle, then knit into its back before letting it off. It leaves a small bar. Unlike M1, it belongs within the count of original stitches in a repeat.
 
 **YO** (yarn over) creates a deliberate hole and is used in lace, eyelet patterns, and as a paired increase with a decrease elsewhere on the row to keep the stitch count balanced. Not usually what a pattern means by "increase evenly" unless it specifies.
 
-**Lifted increases** pull a new stitch up from the row below. They can be very inconspicuous in stockinette, but stacked lifted increases need care because they can tug at the fabric if placed too close together.
-
 ## Which decrease method to use
 
-**k2tog** leans right. It's the default for most "decrease 1" instructions when the lean doesn't matter.
+**k2tog** knits two stitches together into one and leans right on the knit face. Use the decrease specified by the pattern.
 
-**ssk** leans left. The natural partner to k2tog for mirrored decreases, like at the start and end of a row for symmetrical raglan shaping. Some knitters swap in skp (slip, knit, pass slipped stitch over) instead. The result is visually similar.
+**ssk** is a left-leaning single decrease: slip two stitches individually knitwise, then knit them together through the back loops. **skp** instead slips one stitch knitwise, knits the next and passes the slipped stitch over it. Both consume 2 stitches and produce 1, but they are different techniques; follow the pattern's version.
 
 **k3tog** removes two stitches in one action and leans strongly right. Used when the pattern wants a steeper decrease or when stacking decreases in a lace chart.
 
-**Central double decrease (CDD)**, sometimes written S2KP2 or sl2-k1-p2sso, removes two stitches and keeps the center stitch sitting straight up the middle. Common in lace, in chevron patterns, and at hat crowns where the design wants a strong vertical line.
-
-For "decrease evenly across a row" instructions on a plain knit row, k2tog is often a reasonable default unless the pattern specifies something else. The decreases are scattered, so the lean usually matters less than it would on a visible shaping line.
+**Central double decrease (CDD)** removes 2 stitches with centered placement. One version is **S2KP2**: slip 2 together as if to knit them together, knit 1, then pass both slipped stitches over it. This consumes 3 stitches and produces 1. Check the pattern's definition of CDD rather than assuming every abbreviation names the same method.
 
 ## Edge stitches and seam allowance
 
-The formula doesn't decide what happens at the edges. That part is up to you.
+Keep any specified border or seam stitches outside the distribution. Work the starting border first, shape over the usable stitches, then work the ending border. The symmetric 80-stitch example above has no separately reserved border: its 5-stitch ends are part of the 80.
 
-For pieces that will be seamed, keep the first and last shaping points at least a couple of stitches in from the edge. A decrease worked on the edge stitch makes seaming harder and shows up on the finished seam. The same goes for an increase right at the edge: it disrupts the selvage and complicates pickup later if the project needs a button band or a neckband.
-
-The split-first-interval trick (mentioned earlier) handles this without extra thought. Instead of "knit 10, M1" right from the start, the row begins "knit 5, M1, knit 10, M1..." which puts a 5-stitch buffer between the edge and the first M1.
-
-If the pattern gives exact placement, like `k2, *M1, k9; rep from * to last 2 sts, k2`, the designer has already built the edge buffer in. Follow it as written.
+For a row with 76 stitches and 2 reserved at each end, the usable count is 76 − 4 = 72. For 8 M1s, 72 / 8 = 9. Work `k2, *M1, k9; work from * 8 times in total, k2.` The repeat consumes 9 and produces 10. Total: 2 + 8 × 9 + 2 = 76 consumed and 2 + 8 × 10 + 2 = 84 produced. The last M1 still has 11 original stitches after it. This respects the two reserved edge stitches; it does not claim symmetric end spacing.
 
 ## When the shaping point lands on a purl stitch
 
-This comes up in ribbing transitions and in any allover textured pattern.
+A purlwise increase or decrease changes stitch count too. For example, pfb consumes 1 stitch and produces 2; p2tog consumes 2 and produces 1. Choose the technique and its direction for the face of the fabric specified by the pattern.
 
-If the shaping point falls on a knit stitch in the working pattern, work the increase or decrease as written. If it falls on a purl stitch, the cleanest result usually comes from working the purl-side version of the same method. M1 purlwise. pfb instead of KFB. p2tog instead of k2tog. The stitch reads as part of the pattern instead of interrupting it.
-
-Some patterns handle this automatically by shifting the spacing slightly so all the shaping points fall on knit stitches. That's a designer's call. You don't need to second-guess it.
+Switching from knit to purl does not automatically preserve ribbing, cables or lace. Check which stitches each operation consumes, where the new stitches belong and how the next row continues. If the pattern shifts a shaping point to preserve a motif, keep that placement and recount the whole row.
 
 ## Working in the round
 
-Same formula, but with no edges to worry about. The round circumference in stitches divided by the number of changes gives the interval, and the shaping repeats all the way around.
+An established round has no side edges, but the gap from the final shaping point back to the first counts too. With 80 stitches, "k10, M1" 8 times gives 88; the final M1 is at the join and the next gap is 10 original stitches. Move the marker as needed to reach the strand, then restore the intended beginning of round. Do not shift just one shaping point without checking both neighbouring gaps.
 
-The one thing to watch for: if a shaping point lands exactly on the round marker, keep the beginning-of-round clear if the pattern allows it. A decrease that crosses the marker is awkward to work and harder to read on the next round. Use a temporary marker for the shaping point if the beginning of the round must stay fixed.
-
-For hat crowns specifically, the decrease rounds are usually spelled out by the pattern (something like "k8, k2tog around, then knit one round plain, then k7, k2tog around"). The formula above handles the first decrease round when the pattern just says "decrease 8 stitches evenly."
+For a crown example starting with 80 stitches, work "k8, k2tog" 8 times: 80 consumed, 8 decreases, 72 left. Knit one round on those 72 stitches. Then "k7, k2tog" 8 times consumes 72 and leaves 64. The plain round changes no stitch count. This checks the arithmetic of those rounds; the complete crown shape and decrease frequency still come from the pattern.
 
 ## Symmetric and paired shaping
 
@@ -136,7 +124,7 @@ When a pattern says "increase 1 stitch at each end of every 6th row," that's pai
 
 ## A few common intervals worth recognizing
 
-Some divisions show up often enough that knitters start recognizing them on sight.
+The first three examples below are for established circular rounds, so the final M1 uses the strand at the join. The decrease examples reserve no edge stitches and work across a row or round. All plain stitches are knitted.
 
 - 80 stitches, increase 8 -> "k10, M1" repeated 8 times -> 88 stitches
 - 60 stitches, increase 6 -> "k10, M1" repeated 6 times -> 66 stitches
@@ -149,15 +137,15 @@ The numbers won't always cooperate this neatly. When they don't, the remainder g
 
 ## When the math gets annoying
 
-127 stitches, increase 11, with a 6-stitch lace repeat to respect. That's the kind of row where the arithmetic on live stitches takes longer than the increases themselves, and it's also where mistakes happen. The Increase & Decrease Calculator in the [KnitTools app](/) gives you a worked-out row-by-row instruction instead of leaving you to figure it out from the needle.
+Write the complete sequence down before working a complicated shaping row. A correct final count does not prove that a lace or cable repeat will continue: check the actual chart and the following row as well.
 
-For simpler rows, the calculation by hand is fast and reliable. Knowing when to reach for a tool and when not to is part of working efficiently.
+This is a manual calculation guide. The website does not provide an interactive increase/decrease calculator.
 
 ## A few things that come up
 
 If a pattern says "increase evenly" without giving a number, look at the next stitch count it expects. Subtract what you currently have, and that's the number of increases. Uncommon, but it happens in older patterns and in self-drafted designs.
 
-If the spacing ends up off by one stitch in a spot or two, don't rip. The finished fabric won't show it on most projects. Even-looking distribution is the real target.
+If a shaping point is displaced, check the count, neighbouring gaps and stitch pattern before deciding whether to undo it. Its visibility depends on the fabric; a correct total alone does not establish correct placement.
 
 Increasing or decreasing on a purl row works the same way. Use the purl-side equivalent of whichever method you're using. The spacing formula doesn't change.
 
@@ -166,19 +154,19 @@ For the cast-on count itself, the [stitches-to-cast-on guide](/articles/how-many
 ## FAQ
 
 **Can I eyeball the spacing instead of doing the math?**
-For small adjustments on wide pieces (a blanket, a scarf), eyeballing works fine. For fitted garments or anything where the math affects the final dimensions, do the calculation. Five minutes of arithmetic beats ripping a sleeve cap.
+Plan and count the shaping operations even for a small adjustment. Check their placement against the stitch pattern and the intended finished shape.
 
 **What if the pattern doesn't tell me which increase to use?**
-M1L or M1R is the safe default for stockinette. KFB if the pattern is in garter stitch or texture where the bar disappears. The increase type matters more when shaping is visible (a raglan line, a yoke shaping) than when it's scattered evenly across a row.
+For the plain knit examples here, choose the running-thread M1 described above if the pattern leaves the choice open. KFB has a different appearance and consumes an existing stitch, so rewrite the repeat if you change methods.
 
 **Why does my math sometimes give me one fewer or one more change than I need?**
 Usually a remainder that wasn't accounted for, or an off-by-one when deciding whether the first section gets a full interval or a half interval. Walk through the row mentally before knitting and confirm the math by counting the planned shaping points.
 
 **Does the formula change if I'm decreasing 2 stitches at a time with k3tog?**
-The number of decrease points stays the same, but each one removes 2 stitches instead of 1. So 90 stitches with 5 k3togs evenly distributed leaves 80 stitches, not 85. Count by the number of stitches removed, not the number of decrease actions.
+Yes: divide the required stitch reduction by 2 to find the number of k3tog operations. To go from 90 to 80, remove 10 stitches with 5 k3togs. Then 90 / 5 = 18 original stitches per repeat: "k15, k3tog" 5 times consumes 90 and produces 5 × 16 = 80. With an odd reduction, k3tog alone cannot reach the target.
 
 **Can I increase or decrease on the same row as a stitch pattern repeat?**
-Sometimes. If the row is plain (a transition row between ribbing and stockinette, for example), shaping is straightforward. If the row is mid-pattern, the shaping has to respect the repeat, and the placement gets more complex. Most patterns put shaping on transition rows for exactly this reason.
+Only if the shaping instructions account for the motif and its continuation. A correct total or a multiple of the repeat size does not by itself preserve ribbing, cables or lace.
 
 **The pattern says "increase evenly" and the number doesn't divide my stitch count cleanly. Am I doing something wrong?**
-No, that's normal. The remainder gets distributed by making some sections one stitch longer than others. Spread the longer sections out across the row rather than clustering them, and the finished fabric will look even.
+No. Use shorter and longer sections as in the worked example, with appropriate end spacing for a flat row or a checked gap across the round boundary. Count every operation and all original stitches before starting.

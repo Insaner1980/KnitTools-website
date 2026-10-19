@@ -1,0 +1,258 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link "KnitTools home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - text: KnitTools
+      - navigation [ref=e6]:
+        - link "Tools" [ref=e7] [cursor=pointer]:
+          - /url: /tools/
+        - link "Articles" [ref=e8] [cursor=pointer]:
+          - /url: /articles/
+        - group [ref=e9]:
+          - 'generic "Language: English" [ref=e10] [cursor=pointer]': English
+        - link "Notify me at launch" [ref=e13] [cursor=pointer]:
+          - /url: /#join
+    - main [ref=e14]:
+      - article [ref=e15]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]:
+            - link "← All articles" [ref=e19] [cursor=pointer]:
+              - /url: /articles/
+          - paragraph [ref=e20]: Techniques
+          - heading "What does \"at the same time\" mean in knitting patterns?" [level=1] [ref=e21]
+          - paragraph [ref=e22]:
+            - generic [ref=e23]: By KnitTools
+            - generic [ref=e24]: Updated October 2026
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: “At the same time” means that two sets of instructions overlap during part of the knitting. Individual actions may fall on different rows; only some rows may need both. Keep following each instruction from its own starting point until its stated stopping point.
+          - paragraph [ref=e28]:
+            - text: Read the whole section for your chosen size before starting. The pattern’s notes and legend take precedence over general conventions. The
+            - link "Craft Yarn Council’s pattern-reading guide" [ref=e29] [cursor=pointer]:
+              - /url: https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern
+            - text: explains simultaneous shaping and reversing it for a matching piece.
+          - heading "A concrete example" [level=2] [ref=e30]
+          - paragraph [ref=e31]: "Here is an illustrative flat-knitting exercise on 40 live stitches. Row 1 is the next row of this section, a wrong-side (WS) row; earlier rows and the cast-on are not included. The first decrease is explicitly on row 6, a right-side (RS) row:"
+          - paragraph [ref=e32]: "“Continue in stockinette. On row 6, decrease 1 stitch at each end. Repeat these decreases every 6th row 4 more times: 5 decrease rows in total.”"
+          - list [ref=e33]:
+            - listitem [ref=e34]: "Row 1 (WS): purl across."
+            - listitem [ref=e35]: "Row 2 (RS): knit across."
+            - listitem [ref=e36]: "Row 3 (WS): purl across."
+            - listitem [ref=e37]: "Row 4 (RS): knit across."
+            - listitem [ref=e38]: "Row 5 (WS): purl across."
+            - listitem [ref=e39]: "Row 6 (RS): ssk, knit to the last 2 stitches, k2tog. 38 stitches remain."
+            - listitem [ref=e40]: "Row 7 (WS): purl across."
+          - paragraph [ref=e41]: Continue purling odd-numbered rows and knitting even-numbered rows in this example. Repeat the decrease row on rows 12, 18, 24 and 30; the counts after those rows are 36, 34, 32 and 30. Each decrease uses 2 stitches and produces 1, so each decrease row removes 2 stitches. The total is 40 − 5 × 2 = 30 stitches. Stop decreasing after row 30 and continue as the pattern directs.
+          - paragraph [ref=e42]:
+            - text: There are five intervening rows between decrease rows. Five times
+            - strong [ref=e43]: in total
+            - text: includes row 6; five
+            - strong [ref=e44]: more
+            - text: "times after row 6 would mean six decrease rows, ending on row 36 with 28 stitches. An isolated phrase such as “every 6th row” does not establish the first decrease row: find that starting point in the surrounding instructions."
+          - heading "Where this shows up" [level=2] [ref=e45]
+          - paragraph [ref=e46]: "You may encounter overlapping armhole and neckline shaping. A pattern can start one at a row number and the other when the piece reaches a stated length. Measure from the specified point and follow any instruction about which side to finish on. A length alone does not identify a row: estimating rows needs row gauge and rounding to a suitable whole row, and does not replace checking the actual measurement. Once both schedules are running, some rows may have one decrease, both, or neither."
+          - paragraph [ref=e47]: "Also appears when stitch patterns change during shaping. A sweater body might transition from ribbing to cables at the same time as waist increases. Front bands too: “Continue in seed stitch. AT THE SAME TIME, work buttonhole on rows 4, 14, 24, and 34.” The seed stitch carries on. The buttonholes slot in at intervals."
+          - heading "A worked example with two overlapping schedules" [level=2] [ref=e48]
+          - paragraph [ref=e49]: This separate flat example follows just one front section with 30 live stitches, with an armhole edge at the beginning of an RS row and a neck edge at its end. Row 1 starts this section on the RS; even rows are WS. On row 1, decrease 1 stitch at each edge. Repeat the armhole decrease every other row 4 more times (5 total) and the neck decrease every fourth row 2 more times (3 total). Use ssk at the beginning and k2tog at the end here; purl the WS rows.
+          - table [ref=e50]:
+            - rowgroup [ref=e51]:
+              - row [ref=e52]:
+                - columnheader "Row" [ref=e53]
+                - columnheader "RS/WS" [ref=e54]
+                - columnheader "Armhole" [ref=e55]
+                - columnheader "Neck" [ref=e56]
+                - columnheader "Both?" [ref=e57]
+            - rowgroup [ref=e58]:
+              - row [ref=e59]:
+                - cell "1" [ref=e60]
+                - cell "RS" [ref=e61]
+                - cell "yes" [ref=e62]
+                - cell "yes" [ref=e63]
+                - cell "yes" [ref=e64]
+              - row [ref=e65]:
+                - cell "2" [ref=e66]
+                - cell "WS" [ref=e67]
+                - cell "–" [ref=e68]
+                - cell "–" [ref=e69]
+                - cell "–" [ref=e70]
+              - row [ref=e71]:
+                - cell "3" [ref=e72]
+                - cell "RS" [ref=e73]
+                - cell "yes" [ref=e74]
+                - cell "–" [ref=e75]
+                - cell "armhole only" [ref=e76]
+              - row [ref=e77]:
+                - cell "4" [ref=e78]
+                - cell "WS" [ref=e79]
+                - cell "–" [ref=e80]
+                - cell "–" [ref=e81]
+                - cell "–" [ref=e82]
+              - row [ref=e83]:
+                - cell "5" [ref=e84]
+                - cell "RS" [ref=e85]
+                - cell "yes" [ref=e86]
+                - cell "yes" [ref=e87]
+                - cell "yes" [ref=e88]
+              - row [ref=e89]:
+                - cell "6" [ref=e90]
+                - cell "WS" [ref=e91]
+                - cell "–" [ref=e92]
+                - cell "–" [ref=e93]
+                - cell "–" [ref=e94]
+              - row [ref=e95]:
+                - cell "7" [ref=e96]
+                - cell "RS" [ref=e97]
+                - cell "yes" [ref=e98]
+                - cell "–" [ref=e99]
+                - cell "armhole only" [ref=e100]
+              - row [ref=e101]:
+                - cell "8" [ref=e102]
+                - cell "WS" [ref=e103]
+                - cell "–" [ref=e104]
+                - cell "–" [ref=e105]
+                - cell "–" [ref=e106]
+              - row [ref=e107]:
+                - cell "9" [ref=e108]
+                - cell "RS" [ref=e109]
+                - cell "yes" [ref=e110]
+                - cell "yes" [ref=e111]
+                - cell "yes" [ref=e112]
+          - paragraph [ref=e113]:
+            - text: The armhole decreases are on rows 1, 3, 5, 7 and 9; the neck decreases are on rows 1, 5 and 9. Both occur on rows 1, 5 and 9, not on multiples of 4. Stitch counts after rows 1–9 are
+            - strong [ref=e114]: 28, 28, 27, 27, 25, 25, 24, 24, 22
+            - text: ". After row 9 both schedules are complete: 30 − 5 − 3 = 22 stitches. No stitches are held or bound off in this example."
+          - paragraph [ref=e115]: These are counts for one section, not a whole garment or both fronts combined. After a neckline divides a piece, record each side’s live stitches and schedule separately. Record held stitches separately from bound-off stitches; held stitches still exist. Follow the pattern for working the sides with separate yarns and for the other side’s mirrored shaping.
+          - heading "Why patterns are written this way" [level=2] [ref=e116]
+          - paragraph [ref=e117]: Separating a stitch pattern from its shaping schedule keeps an instruction concise, especially across several sizes. A merged row-by-row plan can still be easier to follow while knitting.
+          - paragraph [ref=e118]: Think of it as two tracks playing simultaneously. Melody and bass line. Each makes sense alone. You play both.
+          - heading "How to keep track" [level=2] [ref=e119]
+          - paragraph [ref=e120]: Write the starting row, interval, total occurrences, edge and ending condition for each instruction. A row labelled “next row” means the next row you will work; do not count the last completed row again. Mark setup rows separately and distinguish the garment’s row count from a count restarted at a section or shaping event.
+          - paragraph [ref=e121]: "For the table above, your list starts: “Row 1: knit with both decreases. Row 2: purl. Row 3: knit with the armhole decrease only.” Tick off each completed row and each shaping action. If you use two manual counters for intervals, advance both after every completed row while their schedules are active, including rows without shaping. Record completed decreases separately so you know when to stop."
+          - paragraph [ref=e122]:
+            - text: KnitTools’
+            - link "Row Counter" [ref=e123] [cursor=pointer]:
+              - /url: /
+            - text: includes multiple counters as a Pro feature. For this method, you can use separate, unlinked counters that you advance yourself. You still interpret the pattern, enter the starting counts and track which actions are due; this is not a promise that the app reads the instructions or creates this merged plan automatically.
+          - heading "Decrease type and symmetry" [level=2] [ref=e124]
+          - paragraph [ref=e125]: When two shaping actions happen on the same row, follow the decrease types named in the pattern. If the pattern leaves the choice to you, pair the leans deliberately.
+          - paragraph [ref=e126]: K2tog is a right-leaning decrease. Ssk is a left-leaning decrease. For visible shaping, use the same logic on matching edges so the shaping lines mirror each other instead of drifting in different directions.
+          - paragraph [ref=e127]: When the decreases overlap, work them in the order they appear across the row. Handle the shaping at the first edge, knit across, handle the shaping at the other edge. If both shaping actions are near the same edge, do exactly what the pattern says and check the stitch count before moving on.
+          - paragraph [ref=e128]: Binding off is a different operation from decreasing. In ordinary flat knitting, edge bind-offs are generally worked at the beginning of a row, so matching edges may be bound off on successive RS and WS rows. Do not replace this with decreases at both ends of one row. After turning, the beginning is the opposite physical edge. For neckline or shoulder shaping, follow the specified edge, working direction and method; “left” and “right” garment pieces refer to the wearer.
+          - heading "When intervals collide" [level=2] [ref=e129]
+          - paragraph [ref=e130]: "Intervals alone do not tell you where actions coincide: their first rows matter too. In the table, both start on row 1, so the 2-row and 4-row schedules coincide on rows 1, 5 and 9. Different starting rows can change or prevent that overlap."
+          - paragraph [ref=e131]: Work the specified operations in the order you reach them across the row. If they are near the same edge, check which stitches each uses; do not assume you can use the same stitches twice. Keep any established stitch pattern aligned, including its edge stitches and any incomplete repeats, as the pattern directs.
+          - heading "When the schedule falls on a WS row" [level=2] [ref=e132]
+          - paragraph [ref=e133]:
+            - text: In ordinary flat knitting without short rows, RS and WS alternate. Repeating a decrease four rows after the previous decrease keeps it on the same side, with three rows between the decreases. This depends on the first
+            - strong [ref=e134]: decrease
+            - text: "row, not just where you began counting. Odd rows are not universally RS: row 1 is WS in the first exercise and RS in the table."
+          - paragraph [ref=e135]: If a schedule conflicts with an instruction to shape only on RS rows, check the starting point, notes and errata, or ask the designer. Do not silently move the decrease to the next RS row. For a WS decrease, use the specified method, such as p2tog or ssp. In ordinary knitting in the round the RS stays facing you, so the flat examples’ alternating knit/purl rows do not apply.
+          - heading "When the actions don’t start together" [level=2] [ref=e136]
+          - paragraph [ref=e137]: Sometimes armhole shaping starts first and neckline shaping starts later. The instructions overlap for only part of the work, and one may finish first. Record each actual starting row and stopping condition; do not restart the first schedule when the second begins.
+          - paragraph [ref=e138]:
+            - text: This is where a merged row-by-row plan pays off most. Map the armhole rows. Overlay the neck rows. Mark which rows have only armhole, which have only neck, which have both. Knit from the merged plan. If you’re also untangling the rest of the
+            - link "pattern’s structure" [ref=e139] [cursor=pointer]:
+              - /url: /articles/how-to-read-knitting-pattern/
+            - text: ", that guide covers sizes, repeats, and abbreviations."
+          - heading "Buttonholes in front bands" [level=2] [ref=e140]
+          - paragraph [ref=e141]: "A common variation is: “Continue in seed stitch (or ribbing). AT THE SAME TIME, work buttonholes on rows 6, 16, 26, 36 and 46.”"
+          - paragraph [ref=e142]: These numbers describe five buttonhole rows, 10 rows apart, with nine intervening rows. The earlier example, rows 4, 14, 24 and 34, describes four buttonhole rows with the same spacing. Count from the start of the band in these illustrative schedules, excluding any preceding setup row. Here row 1 is WS, so the listed even rows are RS. That is an explicit assumption for these examples, not a universal rule.
+          - paragraph [ref=e143]: "These are timing examples, not complete button-band patterns: they do not specify the initial stitch count or the hole’s position across the band. For a simple yarn-over buttonhole, a yarn over adds 1 stitch and k2tog removes 1: the starting count is restored within that row. Work the other stitches in the established pattern. A buttonhole made by binding off and casting on may temporarily change the count, so track both steps on the specified rows. Follow the pattern’s buttonhole method and placement rather than treating every hole as one interchangeable action."
+          - paragraph [ref=e144]: Mark the rows and completed holes on paper or in manually maintained notes. If a published pattern gives exact rows or a different counting origin, follow those instructions.
+          - heading "Cross-checking with Ravelry" [level=2] [ref=e145]
+          - paragraph [ref=e146]: If a section remains unclear, other knitters’ Ravelry project notes may help you identify a question to check. Compare the same size, pattern version and any modifications, and verify proposed corrections against the designer’s notes or errata. A project note is not an authoritative correction by itself.
+          - heading "Common questions" [level=2] [ref=e147]
+          - paragraph [ref=e148]:
+            - strong [ref=e149]: Can you forget one of the actions for a few rows and recover?
+            - text: Check which action was missed, on which row, and how it affects the shape and stitch pattern. An extra decrease later restores a count but does not restore its original position or the intended slope. Working back to the error is the way to reproduce the written sequence; an alternative needs to be checked for that particular pattern.
+          - paragraph [ref=e150]:
+            - strong [ref=e151]: Can you do the actions separately instead of together?
+            - text: No. The timing is intentional. Armhole and neckline shaping overlap because the decreases need specific intervals for the correct shape. Finishing one then starting the other changes the proportions.
+          - paragraph [ref=e152]:
+            - strong [ref=e153]: Does this only show up in garments?
+            - text: No. Accessories can combine a stitch or colour pattern with shaping too, such as a hat motif continuing while crown decreases begin. Follow round numbers if the piece is worked in the round.
+          - paragraph [ref=e154]:
+            - strong [ref=e155]: Why don’t patterns write every row out?
+            - text: Some do, especially beginner-friendly patterns. Separating repeated instructions saves space across multiple sizes. You can write out your selected size without changing its sequence.
+          - paragraph [ref=e156]:
+            - strong [ref=e157]: What’s the fastest way to draft a merged row plan?
+            - text: Use a row-number column and one column per action. First enter each action’s actual starting row, then its interval and total occurrences. For the table here, mark the armhole on 1, 3, 5, 7, 9 and the neck on 1, 5, 9. Include the intervening rows and stop each schedule after its specified total, even if the other continues.
+      - region [ref=e158]:
+        - generic [ref=e159]:
+          - paragraph [ref=e160]: Be there at launch
+          - heading [level=2] [ref=e161]:
+            - text: Where every stitch
+            - emphasis [ref=e162]: counts.
+          - generic [ref=e163]:
+            - generic [ref=e164]: Email address
+            - generic [aria-hidden] [ref=e165]: Leave this field empty
+            - textbox [aria-hidden] [ref=e166]
+            - generic [ref=e167]:
+              - textbox "Email address" [ref=e168]:
+                - /placeholder: your@email.com
+              - button "Notify me at launch" [ref=e169] [cursor=pointer]
+          - paragraph [ref=e170]: Free tier from day one. No card required.
+    - contentinfo [ref=e171]:
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - heading "Tools" [level=2] [ref=e176]
+              - list [ref=e177]:
+                - listitem [ref=e178]:
+                  - link "Cast On Calculator" [ref=e179] [cursor=pointer]:
+                    - /url: /tools/cast-on-calculator/
+                - listitem [ref=e180]:
+                  - link "Yarn Estimator" [ref=e181] [cursor=pointer]:
+                    - /url: /tools/yarn-estimator/
+                - listitem [ref=e182]:
+                  - link "Needle Size Chart" [ref=e183] [cursor=pointer]:
+                    - /url: /tools/needle-size-chart/
+                - listitem [ref=e184]:
+                  - link "Yarn Weight Chart" [ref=e185] [cursor=pointer]:
+                    - /url: /tools/yarn-weight-chart/
+                - listitem [ref=e186]:
+                  - link "Knitting Abbreviations" [ref=e187] [cursor=pointer]:
+                    - /url: /tools/knitting-abbreviations/
+                - listitem [ref=e188]:
+                  - link "Knitting Size Charts" [ref=e189] [cursor=pointer]:
+                    - /url: /tools/knitting-size-charts/
+            - generic [ref=e190]:
+              - heading "Articles" [level=2] [ref=e191]
+              - list [ref=e192]:
+                - listitem [ref=e193]:
+                  - link "Gauge & Calculations" [ref=e194] [cursor=pointer]:
+                    - /url: /articles/category/gauge-calculations/
+                - listitem [ref=e195]:
+                  - link "Yarn" [ref=e196] [cursor=pointer]:
+                    - /url: /articles/category/yarn/
+                - listitem [ref=e197]:
+                  - link "Needles" [ref=e198] [cursor=pointer]:
+                    - /url: /articles/category/needles/
+                - listitem [ref=e199]:
+                  - link "Techniques" [ref=e200] [cursor=pointer]:
+                    - /url: /articles/category/techniques/
+                - listitem [ref=e201]:
+                  - link "App & Tools" [ref=e202] [cursor=pointer]:
+                    - /url: /articles/category/app-tools/
+            - generic [ref=e203]:
+              - heading "App" [level=2] [ref=e204]
+              - list [ref=e205]:
+                - listitem [ref=e206]: Launching soon
+                - listitem [ref=e207]:
+                  - link "About" [ref=e208] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=e209]:
+                  - link "Privacy Policy" [ref=e210] [cursor=pointer]:
+                    - /url: https://finnvek.com/privacy#knittools
+          - img "KnitTools" [ref=e211]
+        - paragraph [ref=e213]:
+          - text: © MMXXVI KnitTools.
+          - link "Finnvek" [ref=e214] [cursor=pointer]:
+            - /url: https://finnvek.com
+          - text: .
+          - link "Contact" [ref=e215] [cursor=pointer]:
+            - /url: mailto:contact@finnvek.com
+          - text: .

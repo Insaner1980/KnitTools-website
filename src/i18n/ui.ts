@@ -2,6 +2,11 @@ import type { Lang } from "./config";
 
 export const ui = {
   en: {
+    about: "About",
+    contact: "Contact",
+    contentImageAlt: "KnitTools knitting app and tools",
+    signupMeta:
+      "Free tier from day one. Get an email when the KnitTools Android app launches.",
     skipToContent: "Skip to content",
     navHome: "KnitTools home",
     navTools: "Tools",
@@ -40,6 +45,11 @@ export const ui = {
     closingMeta: "Free tier from day one. No card required.",
   },
   fi: {
+    about: "Tietoa KnitToolsista",
+    contact: "Ota yhteyttä",
+    contentImageAlt: "KnitTools-neulontasovellus ja työkalut",
+    signupMeta:
+      "Ilmainen taso heti julkaisusta. Saat sähköposti-ilmoituksen KnitTools-Android-sovelluksen julkaisusta.",
     skipToContent: "Siirry sisältöön",
     navHome: "KnitTools etusivu",
     navTools: "Työkalut",
@@ -78,6 +88,11 @@ export const ui = {
     closingMeta: "Ilmainen taso heti julkaisusta. Ei maksukorttia.",
   },
   de: {
+    about: "Über KnitTools",
+    contact: "Kontakt",
+    contentImageAlt: "Die Strick-App KnitTools und Strickwerkzeuge",
+    signupMeta:
+      "Kostenlose Version ab Tag eins. Erhalte eine E-Mail, wenn die KnitTools-App für Android erscheint.",
     skipToContent: "Zum Inhalt springen",
     navHome: "KnitTools Startseite",
     navTools: "Werkzeuge",
@@ -116,6 +131,11 @@ export const ui = {
     closingMeta: "Kostenlose Version ab Tag eins. Keine Karte erforderlich.",
   },
   sv: {
+    about: "Om KnitTools",
+    contact: "Kontakt",
+    contentImageAlt: "Stickappen KnitTools och stickverktyg",
+    signupMeta:
+      "Gratisnivå från dag ett. Få ett mejl när KnitTools-appen för Android lanseras.",
     skipToContent: "Hoppa till innehållet",
     navHome: "KnitTools startsida",
     navTools: "Verktyg",
@@ -154,6 +174,11 @@ export const ui = {
     closingMeta: "Gratisnivå från dag ett. Inget kort krävs.",
   },
   no: {
+    about: "Om KnitTools",
+    contact: "Kontakt",
+    contentImageAlt: "Strikkeappen KnitTools og strikkeverktøy",
+    signupMeta:
+      "Gratisnivå fra dag én. Få en e-post når KnitTools-appen for Android lanseres.",
     skipToContent: "Hopp til innhold",
     navHome: "KnitTools startside",
     navTools: "Verktøy",
@@ -192,6 +217,11 @@ export const ui = {
     closingMeta: "Gratisnivå fra dag én. Ingen kort kreves.",
   },
   fr: {
+    about: "À propos de KnitTools",
+    contact: "Contact",
+    contentImageAlt: "L’application de tricot KnitTools et ses outils",
+    signupMeta:
+      "Version gratuite dès le premier jour. Reçois un e-mail lors du lancement de l’application KnitTools pour Android.",
     skipToContent: "Aller au contenu",
     navHome: "Accueil KnitTools",
     navTools: "Outils",
@@ -231,6 +261,11 @@ export const ui = {
     closingMeta: "Version gratuite dès le premier jour. Pas de carte bancaire.",
   },
   nl: {
+    about: "Over KnitTools",
+    contact: "Contact",
+    contentImageAlt: "De breiapp KnitTools en breitools",
+    signupMeta:
+      "Gratis versie vanaf dag een. Ontvang een e-mail zodra de KnitTools-app voor Android beschikbaar is.",
     skipToContent: "Ga naar de inhoud",
     navHome: "KnitTools startpagina",
     navTools: "Breitools",
@@ -261,7 +296,7 @@ export const ui = {
     emailAddress: "E-mailadres",
     honeypot: "Laat dit veld leeg",
     emailPlaceholder: "jij@email.nl",
-    notifyAtLaunch: "Laat me weten bij lancering",
+    notifyAtLaunch: "Mail me bij de lancering",
     notifySuccess: "Je staat op de lijst. We laten het weten bij de lancering.",
     genericError: "Er ging iets mis. Probeer het opnieuw.",
     networkError: "Netwerkfout. Controleer je verbinding.",
@@ -269,6 +304,11 @@ export const ui = {
     closingMeta: "Gratis versie vanaf dag een. Geen betaalkaart nodig.",
   },
   da: {
+    about: "Om KnitTools",
+    contact: "Kontakt",
+    contentImageAlt: "Strikkeappen KnitTools og strikkeværktøjer",
+    signupMeta:
+      "Gratis niveau fra dag ét. Få en e-mail, når KnitTools-appen til Android lanceres.",
     skipToContent: "Gå til indhold",
     navHome: "KnitTools forside",
     navTools: "Værktøjer",

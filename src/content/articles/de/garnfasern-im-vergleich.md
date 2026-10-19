@@ -2,6 +2,7 @@
 title: "Garnfasern im Vergleich"
 description: "Wie Wolle, Baumwolle, Acryl und Mischgarne sich beim Stricken verhalten: Wärme, Fall, Haltbarkeit, Pflege und Spannen."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 8
 tags:
@@ -16,94 +17,88 @@ lang: de
 translationKey: "yarn-fibers-compared"
 ---
 
-Strick dieselbe Zopfprobe aus Wolle und aus Baumwolle, leg beide nebeneinander, und sie sehen aus, als kämen sie aus verschiedenen Anleitungen. Die Wollversion federt. Zöpfe treten hervor. Die Baumwollversion hängt etwas, liegt flacher und zeigt jede Masche fast unangenehm ehrlich. Gleiche Nadel, gleiche Hände, gleiche Maschenzahl. Völlig anderes Gestrick.
+Strick dieselbe Zopfprobe aus Wolle und Baumwolle und vergleiche beide nach dem Waschen und Trocknen gemäß Banderole. Ein elastisches Wollgarn kann plastische Zöpfe ergeben, ein glattes Baumwollgarn eine flachere Fläche mit klaren Maschen. Gleiche Nadeln und Maschenzahl garantieren weder dieselbe Maschenprobe noch dasselbe Gestrick. Das sind Eigenschaften zum Prüfen, keine sicheren Folgen des Fasernamens.
 
-Dieser Unterschied ist nicht nur Optik. Die Materialzusammensetzung bestimmt, wie sich ein Projekt beim Stricken in den Händen anfühlt, wie es sich spannen lässt, wie es sich über Monate und Jahre trägt und ob es seine Form hält oder langsam der Schwerkraft nachgibt. Wolle bringt Elastizität und gute Spannbarkeit, Baumwolle bringt Fall und Waschbarkeit, Acryl bringt niedrige Kosten und pflegeleichte Haltbarkeit. Die Faserangabe auf der Banderole ist kein Kleingedrucktes. Sie ist die nützlichste Information darüber, was dieses Garn wirklich tun wird.
+Die Faserzusammensetzung beeinflusst Griff, Spannen und Verschleiß. Doch auch Faserfeinheit und -länge, Garnaufbau, Drehung, Mischung, Behandlung, Maschenprobe und Strickmuster wirken mit. Lies die Banderole und prüfe Fall, Rücksprung nach dem Dehnen und Pflege an einer Maschenprobe. Dehnbarkeit und Rücksprung sind verschieden: Ein Gestrick kann sich dehnen, ohne vollständig zu seinen ursprünglichen Maßen zurückzukehren.
 
 ## Wolle
 
-Wolle ist die Faser, mit der alles andere verglichen wird, und das hat sie sich verdient. Sie ist warm, elastisch, verzeiht ungleichmäßige Spannung und reagiert auf das Spannen wie kaum eine andere Strickfaser.
+Wolle ist ein guter Ausgangspunkt für warme, elastische Strickstücke. Die natürliche Kräuselung und das Rückstellvermögen der Faser tragen zur Spannkraft vieler Wollgarne bei.
 
-Die Elastizität zählt am meisten. Wolle dehnt sich beim Stricken und springt zurück. Rippen bleiben fest. Zöpfe behalten ihre plastische Tiefe. Glatt rechts hat einen lebendigen Griff und erholt sich nach dem Zusammendrücken. Diese Federung macht Wolle auch beim Nassspannen so kooperativ. Einweichen, in Form legen, trocknen lassen, und das Stück sieht oft wie ein anderes, besseres Projekt aus. Der [Leitfaden zum Spannen](/de/artikel/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche/) erklärt Methoden nach Faser. Lochmuster öffnen sich deutlich. Maschen werden gleichmäßiger. Die Veränderung kann in den ersten Projekten wirklich überraschen.
+Diese Spannkraft macht Wolle für Rippen und plastische Zöpfe interessant. Nassspannen kann Maschen ausgleichen und Lochmuster öffnen, sofern die Pflegehinweise es erlauben. Leg das Stück auf die vorgesehenen Maße und lass es vollständig trocknen. Verlass dich nicht darauf, dass Spannen eine unpassende Maschenprobe korrigiert oder die neue Form bei jeder späteren Wäsche erhalten bleibt. Der [Leitfaden zum Spannen](/de/artikel/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche/) erklärt die Methoden; bei abweichenden Angaben gelten die Hinweise des Garnherstellers.
 
-Wolle ist bei kühlem, feuchtem Wetter nützlich, weil sie isoliert, Feuchtigkeit reguliert und sich auch leicht feucht noch angenehm anfühlen kann. Dass sie bei Winteraccessoires und Outdoor-Kleidung dominiert, hat einen Grund. Nicht nur Nostalgie.
+Wollfasern nehmen Wasserdampf auf, und die Luft in einem voluminösen Gestrick hilft bei der Wärmeisolierung. Das macht Wolle für kühles Wetter nützlich. Wärme und Tragekomfort hängen aber auch von Dicke, Aufbau, Nässe und Einsatzbedingungen ab. Feuchtigkeitsaufnahme garantiert keine trockene Haut.
 
-Die Nachteile zählen aber auch. Nicht-superwash-behandelte Wolle filzt durch Wärme, Feuchtigkeit und Bewegung. Das ist bei manchen Projekten eine Eigenschaft und bei anderen eine Katastrophe. Außerdem deckt "Wolle" eine enorme Spanne an Weichheit ab. Manche Rassen liefern Garn, das angenehm direkt auf der Haut liegt. Andere gehören klar in Oberbekleidung, außer die tragende Person mag Kratzen. Merino liegt eher am weichen Ende, und viele, die gewöhnliche Wolle nicht gut vertragen, kommen mit Merino zurecht. Empfindlichkeit ist trotzdem persönlich. Der einzige verlässliche Test ist Tragen.
+Unbehandelte Wolle kann verfilzen, wenn Bewegung im Wasser die Oberflächenschuppen der Fasern ineinander verhakt; Wärme kann diesen Vorgang begünstigen. Verfilzen verdichtet das Gestrick und kann es dauerhaft schrumpfen lassen. Weichheit ist eine andere Frage. Faserfeinheit und herausragende grobe Faserenden beeinflussen das Kratzen. Feine Merino ist eine Option für ein weiches Gestrick, doch der Fasername garantiert keinen angenehmen Hautkontakt. Beurteile die gewaschene Probe.
 
-Superwash-Wolle reduziert Filz- und Schrumpfrisiko durch eine filzhemmende Behandlung und ist für maschinenwaschbare Kleidungsstücke wirklich praktisch, wenn die Banderole Maschinenwäsche erlaubt. Der Tausch: Superwash fühlt sich auf den Nadeln oft glatter an und kann nach dem Waschen auf eine Weise wachsen, die unbehandelte Wolle nicht zeigt. Bei Superwash ist die Maschenprobe wichtiger, nicht weniger wichtig.
+Die Superwash-Behandlung verringert Filzschrumpfung, indem sie die Faserschuppen verändert oder bedeckt. Sie erlaubt nicht automatisch jedes Waschprogramm oder das Trocknen im Wäschetrockner. Halte dich an die Wasch- und Trockenhinweise des konkreten Garns. Sowohl behandelte als auch unbehandelte Gestricke können ihre Maße ändern, wenn sich die Maschen beim Waschen entspannen. Miss deshalb die trockene Probe.
 
-Für Strukturmuster, mehrfarbiges Stricken und alles, was Form braucht, ist Wolle die stärkste Wahl. Nicht die einzige. Die stärkste.
+Für Strukturmuster, mehrfarbiges Stricken und Arbeiten, die Spannkraft brauchen, ist Wolle eine praktische erste Wahl. Prüfe Maschenbild und Rücksprung mit dem vorgesehenen Garn bei der geplanten Maschenprobe.
 
 ## Baumwolle
 
-Baumwolle ist in fast allem, was wichtig ist, das Gegenteil von Wolle. Ihre Stärken versteht man erst, wenn man ihre Schwächen mitdenkt.
+Baumwolle bietet einen anderen Ausgangspunkt: eine saugfähige Pflanzenfaser, die für Waschlappen und Sommertops infrage kommt.
 
-Sie hat praktisch keine Elastizität. Keine nennenswerte. Das Garn dehnt sich beim Stricken nicht und springt nicht zurück, daher bleiben Unregelmäßigkeiten in der Spannung im fertigen Stoff sichtbar. Sehr gleichmäßig Strickende mögen Baumwolle, weil die Maschendefinition messerscharf ist. Weniger erfahrene Strickende finden sie manchmal gnadenlos.
+Baumwollfasern haben weniger elastisches Rückstellvermögen als Wolle. Ein Baumwollgestrick kann sich trotzdem dehnen, wenn sich die Maschen verschieben, ohne danach vollständig zurückzuspringen. Ein glattes Baumwollgarn kann Maschen und ungleichmäßige Fadenspannung deutlich zeigen. Auch Drehung, Oberflächenstruktur und Maschenprobe beeinflussen das Maschenbild.
 
-Gewicht und Fall entscheiden, ob Baumwolle glänzt oder scheitert. Ein Baumwolltop fällt schön mit fließendem Gewicht. Ein Baumwollpullover kann langsam immer länger werden, bis die Proportionen nicht mehr stimmen. Schwerkraft gewinnt bei Baumwolle fast immer, und es gibt keine elastische Erinnerung, die dagegen arbeitet.
+Der Fall ist eine Eigenschaft des fertigen Gestricks. Ein geschmeidiges Baumwolltop kann schön fallen, während ein schwerer, locker gestrickter Pullover unter seinem Eigengewicht länger werden kann. Das ist nicht unvermeidlich: Aufbau, Maschenprobe, Kleidungsgewicht und Pflege beeinflussen das Ergebnis.
 
-Baumwolle spannen ist nicht Spannen im Woll-Sinn. Man kann den Stoff glätten, dämpfen und auslegen. Aber er hält keine stark veränderte Form wie Wolle. Was von den Nadeln kommt, ist nah an dem, was bleibt.
+Auch Baumwolle lässt sich spannen: Wasch und trockne die Probe nach Pflegehinweis, leg sie ohne gewaltsames Dehnen in Form und miss sie trocken erneut. Baumwollgestricke können beim Waschen schrumpfen oder ihre Form verändern. Dämpfe oder bügle nur, wenn die Banderole es erlaubt.
 
-Praktisch ist Baumwolle beim Waschen. Sie ist haltbar im Alltag. Für Spültücher, Markttaschen, häufig gewaschene Babyteile und Sommertops ist sie die naheliegende Wahl. Mercerisierte Baumwolle hat eine glatte, leicht glänzende Oberfläche. Nicht mercerisierte Baumwolle startet matter und rauer, wird aber mit wiederholtem Waschen schön weich.
+Baumwolle ist für Spültücher, Einkaufsnetze, häufig gewaschene Babyteile und Sommertops interessant, wenn die Pflegehinweise zur Nutzung passen. Mercerisieren erhöht den Glanz, bestimmt aber nicht allein die Weichheit. Nicht mercerisierte Baumwolle ist meist matter, nicht zwangsläufig rauer. Waschen garantiert keine bestimmte Veränderung des Griffs.
 
-Lange Strickphasen mit Baumwolle können anstrengender für die Hände sein. Weil das Garn kaum nachgibt, landet die wiederholte Bewegung direkter in Fingern und Handgelenken. Das überrascht manche.
-
-Für Fall, Waschbarkeit und warme Temperaturen schlägt Baumwolle Wolle klar. Für Struktur, Rücksprung und Spannbarkeit kommt sie nicht heran.
+Wähle Baumwolle für Saugfähigkeit und ein sommertaugliches Gestrick; ein elastisches Wollgarn, wenn Rücksprung wichtig ist. Keine der Fasern gewinnt jeden Vergleich von Fall, Haltbarkeit oder Waschbarkeit.
 
 ## Acryl
 
-Acryl bekommt viel Geringschätzung, die es nicht vollständig verdient. Es wird in manchen Ecken auch überlobt. Die Wahrheit liegt in der Mitte, auf der praktischen Seite.
+Acryl wird oft zu Unrecht abgewertet. Manchmal werden seine Vorteile auch übertrieben. Hilfreicher ist es, das Garn nach den Anforderungen des Projekts zu beurteilen.
 
-Es ist günstig, leicht erhältlich, meist pflegeleicht und hält Wolle aus dem Projekt. Für Babydecken, die ständig gewaschen werden, für Charity-Projekte mit kleinem Budget und für Menschen, die wollfreies Garn brauchen, kann Acryl eine gute Antwort sein statt nur die zweitbeste Option.
+Acryl ist eine synthetische Faser, die in vielen preisgünstigen Garnen verwendet wird. Ein geeignetes Acrylgarn ist eine praktische Option für häufig gewaschene Babydecken, Spendenprojekte mit begrenztem Budget oder wollfreie Arbeiten. Prüfe den tatsächlichen Preis, Griff und Pflegehinweis des Garns.
 
-Es lässt sich nicht wie Wolle spannen. Es kann pillen. Es atmet auf der Haut nicht besonders gut. Zu viel Hitze kann es dauerhaft beschädigen, etwa ein Bügeleisen oder aggressives Dämpfen, das die Faser anschmilzt. Außerdem basiert Acryl auf Erdöl und gibt beim Waschen Mikroplastik ab.
+Acrylfasern nehmen wenig Feuchtigkeit auf. Das allein bestimmt aber weder die Luftdurchlässigkeit des Gestricks noch sein trockenes Gefühl auf der Haut. Acryl kann pillen. Wärme kann die Form fixieren oder verziehen und das Garn beschädigen; Dämpfen ist nicht mit Nassspannen gleichzusetzen. Prüfe die Pflegehinweise vor jeder Wärmebehandlung. Beim Waschen von Acryltextilien können Kunststoffmikrofasern frei werden. Die Menge hängt vom Textil und den Waschbedingungen ab; das ist allein noch kein vollständiger Umweltvergleich der Fasern.
 
-Acryl statt Wolle zu verwenden ist in vielen Anleitungen technisch möglich, aber der Stoff verhält sich anders. Bei Decken und vielen Accessoires stört das kaum. Bei körpernaher Kleidung, Lochmustern oder stark strukturierten Designs solltest du zuerst eine Maschenprobe stricken und ehrlich prüfen, ob das Gestrick tut, was die Anleitung braucht.
+Wolle durch Acryl zu ersetzen erfordert sowohl passende Maschenzahlen pro Strecke als auch ein geeignetes Gestrick. Prüfe für eine Decke Fall, Gewicht und Pflege; für körpernahe Kleidung, Loch- und Strukturmuster außerdem Rücksprung und Maschenbild nach dem Waschen und Trocknen.
 
 ## Weitere Fasern, die du kennen solltest
 
-**Alpaka** ist weich, warm und fällt stärker als Wolle. Das macht es zu einer guten Wahl für Accessoires bei kaltem Wetter. Reine Alpakakleidung kann allerdings mit der Zeit wachsen, weil die Faser weniger elastische Erinnerung hat als viele Wollgarne. Ein reiner Alpakapullover, der direkt nach dem Spannen gut sitzt, kann nach dem Tragen sichtbar länger werden. Eine Mischung mit Wolle kann Rücksprung geben und dem Stoff helfen, die Form besser zu halten. Reines Alpaka funktioniert am besten in Schals, Cowls und Tüchern, wo etwas Längung nicht stört.
+**Alpaka** ist für warme Schals, Schlauchschals und Tücher mit weichem Fall interessant. Feinheit, Kräuselung und Garnaufbau variieren: Alpaka ist nicht immer weicher, wärmer oder weniger elastisch als jede Wolle. Für einen Pullover sind Fall und Maßänderung der gewaschenen Probe besonders wichtig. Eine Woll-Alpaka-Mischung ist eine weitere Option zum Ausprobieren, keine Garantie gegen Längenwachstum.
 
-**Seide** bringt Glanz, Stärke und Fall. Reine Seide wird in Strickgarn selten verwendet, weil sie teuer ist und auf den Nadeln glatt sein kann. Als Mischfaser verändert sie Garn aber deutlich. Ein moderater Seidenanteil gibt Wolle sichtbaren Glanz und einen glatteren Griff, ohne das Garn in reinen Fall zu verwandeln. Seide bringt auch Zugfestigkeit, deshalb taucht sie in Lace-Garnen auf, die bei sehr feiner Maschenprobe stabil bleiben müssen. Der Nachteil: Seide kann Wasserflecken bekommen und springt nach dem Dehnen nicht wie Wolle zurück.
+**Seide** ist für Glanz, Zugfestigkeit und Fall bekannt. Deshalb ist sie für Tuch- und Lace-Garne interessant, auch in Wollmischungen. Das Ergebnis hängt von Seidenart und Garnaufbau ab, nicht nur vom Anteil. Manche Seidenstoffe zeigen Wasserflecken; halte dich an die Pflegehinweise des Garns. Festigkeit bedeutet nicht, dass ein Seidengestrick wie Wolle zurückspringt.
 
-**Leinen** ist stark, kühl zu tragen und wird mit Tragen und Waschen oft weicher. Das erste Knäuel fühlt sich steif an, manchmal fast knackig. Das ist normal. Nach wiederholtem Waschen wird das Gestrick weicher und entspannter. Leinen ist eine gute Wahl für Sommertops und warme Klimazonen, weil es atmet und Feuchtigkeit ableitet, statt Wärme zu speichern. Es lässt sich nicht wie Wolle spannen und hat kaum Elastizität, daher kann langes Stricken ermüdend sein. Ein gut getragenes Leinenstück hat aber einen Fall und Griff, den kaum eine andere Faser nachahmt.
+**Leinen** ist eine feste, saugfähige Pflanzenfaser mit geringem elastischem Rückstellvermögen. Es eignet sich für Sommertops, wenn die Probe den gewünschten kühlen Griff und Fall ergibt. Manche Leinengarne sind anfangs steif und werden durch Waschen und Tragen weicher, doch eine feste Zahl von Wäschen garantiert keine Weichheit. Wasch und forme die Probe nach Banderole: Geringe Faserelastizität verhindert keine Maßänderungen im Gestrick.
 
-**Mohair und Kid Mohair** erzeugen Halo, diese flauschige Wolke um die Maschen. Meist wird es zusammen mit einem zweiten Garn gehalten, klassisch mit Seide, statt allein in dickerer Maschenprobe verstrickt. Der Halo-Effekt lässt sich durch kaum eine andere Faser überzeugend ersetzen. Kid Mohair ist weicher und feiner. Normales Mohair kann auf der Haut kratziger wirken. Beide verlieren Fasern an alles in der Nähe.
+**Mohair und Kid Mohair** werden in aufgebürsteten Garnen für den flauschigen Schleier um die Maschen verwendet. Mohair stammt von Angoraziegen; Kid Mohair von jungen Ziegen und ist meist feiner. Weichheit und Faserverlust hängen trotzdem von Qualität und Konstruktion ab. Eine Mohair-Seide-Mischung ist bereits ein Garn. Sie zusammen mit einem separaten Garn zu verstricken, ist eine andere Entscheidung. Sie lässt sich auch allein verstricken, wenn Anleitung und Probe dazu passen. Flausch ist kein Alleinstellungsmerkmal von Mohair.
 
-**Nylon** spielt selten die Hauptrolle. Es steckt in Mischungen wegen der Abriebfestigkeit, deshalb erscheint es in vielen kommerziellen Sockengarnen. Ein kleiner Anteil, oft 10-25 %, kann die Lebensdauer stark beanspruchter Stellen verlängern, ohne den Griff des Garns stark zu verändern.
+**Nylon**, auf Banderolen auch Polyamid genannt, wird in vielen Sockengarnen für Abriebfestigkeit eingesetzt. Der Anteil allein sagt die Lebensdauer nicht voraus: Auch Drehung, Strickdichte, Passform und Nutzung zählen.
 
 ## Mischungen lösen echte Probleme
 
-Mischgarne gibt es, weil reine Fasern vorhersehbare Lücken haben und Kombinationen sie schließen.
+Mischungen kombinieren Fasern für bestimmte Eigenschaften, übernehmen aber nicht automatisch alle Vorteile jeder Komponente.
 
-Wolle/Nylon ist die klassische Sockengarnmischung. Wolle bringt Wärme und Elastizität. Nylon bringt Abriebfestigkeit für Fersen und Spitzen. Du kannst Socken ohne Nylon stricken, aber diese Mischung löst ein häufiges Problem an stark beanspruchten Stellen.
+Wolle/Nylon ist eine bekannte Sockengarnmischung. Wolle trägt Spannkraft und Isolierung bei, Nylon wird für Abriebfestigkeit eingesetzt. Das ist eine sinnvolle Option für reibungsbelastete Fersen und Spitzen, keine Garantie gegen Löcher. Socken lassen sich auch ohne Nylon stricken.
 
-Merino/Seide bringt Fall und Glanz in eine Wollbasis, ohne viel Struktur zu opfern. Baumwolle/Acryl macht den Stoff leichter und die Pflege einfacher als reine Baumwolle. Wolle/Alpaka behält mehr Form als reines Alpaka und gewinnt Weichheit.
+Probiere Merino/Seide für Glanz und Fall, Wolle/Alpaka für das Verhältnis von Weichheit und Spannkraft. Vergleiche bei Baumwolle/Acryl das tatsächliche Gewicht und die Pflege des Gestricks. Der Mischungsname beweist nicht, dass ein Garn leichter, weicher, pflegeleichter oder formstabiler als ein Garn aus einer einzigen Faser ist.
 
-Das Verhältnis zählt. Ein Garn mit 90/10 Merino/Seide ist Merino mit etwas Glanz. Eine 50/50-Mischung verhält sich schon wie ein echter Kompromiss zwischen beiden Fasern. Kleine Prozente justieren. Große Prozente verändern.
+Eine beispielhafte Banderole mit 90 % Merino / 10 % Seide nennt Gewichtsanteile. 50 % / 50 % bedeutet gleiche Fasergewichte, keinen Mittelwert jeder Eigenschaft. Keines der Verhältnisse sagt den Grad von Glanz, Rücksprung oder Fall voraus. Beurteile das Garn, statt einen bestimmten Luxusfaseranteil zur Qualitätsgrenze zu machen.
 
-Ein Punkt ist wichtig: Manche Mischungen werden eher aus Marketinggründen gewählt als aus funktionalen. 3 % Kaschmir machen ein Garn nicht kaschmirweich. Sie machen das Wort Kaschmir auf der Banderole möglich. Liegt der Anteil einer Luxusfaser unter 10 %, behandle das Garn wie die Hauptfaser und nimm den Rest als Bonus, falls du ihn überhaupt bemerkst.
-
-Mischungen können sich beim Spannen unvorhersehbar verhalten. Eine Woll-Baumwoll-Mischung reagiert vielleicht nicht wie reine Wolle auf Nassspannen, weil der Baumwollanteil sich nicht umformen lässt. Strick und wasch die Maschenprobe. Das Garn zeigt dir, wozu es bereit ist.
+Eine Woll-Baumwoll-Mischung braucht eine eigene Maschenprobe und einen Blick auf die Pflegehinweise. Wasch und trockne sie wie das geplante fertige Stück. Beurteile dann Maße, Oberfläche, Fall und Rücksprung. Keine der Fasern bestimmt das Ergebnis allein.
 
 ## Die richtige Faser für dein Projekt wählen
 
 Drei Fragen klären die meisten Entscheidungen.
 
-Wie wird das Stück gewaschen? Wenn es regelmäßig in die Maschine soll, starte mit Garnen, deren Banderole Maschinenwäsche erlaubt. Das sind oft Superwash-Wolle, Acryl, Baumwolle und bestimmte Mischungen. Handwäsche öffnet mehr Optionen. Wenn die beschenkte Person nicht von Hand waschen wird, und viele Nichtstrickende werden es nicht tun, plane entsprechend.
+Wie wird das Stück gewaschen? Wenn regelmäßige Maschinenwäsche nötig ist, beginne mit Garnen, deren Banderole das gewünschte Programm und die Trocknung erlaubt. Kläre, wie die beschenkte Person das Stück tatsächlich pflegen wird. Weder Fasername noch Superwash-Kennzeichnung ersetzen die Pflegehinweise.
 
-Was braucht das Projekt strukturell? Zöpfe und Strukturmuster wollen Elastizität. Das bedeutet Wolle oder eine wollreiche Mischung. Fall und fließende Bewegung wollen Baumwolle, Seide oder Leinen. Halo will Mohair. Haltbarkeit an stark beanspruchten Stellen will Nylon in der Mischung.
+Was braucht das Projekt strukturell? Probiere für elastische Rippen und plastische Zöpfe zuerst Wolle oder eine wollreiche Mischung. Für fließenden Fall teste ein passendes Baumwoll-, Seiden- oder Leinengarn bei der vorgesehenen Maschenprobe. Für Flausch kommt aufgebürstetes Mohair infrage, für stark beanspruchte Socken eine Nylonmischung. Das sind Ausgangspunkte, keine Pflichtbestandteile.
 
-Für welches Klima ist es gedacht? Wolle und Alpaka isolieren. Baumwolle und Leinen atmen und bleiben kühler. Acryl kann wärmen, aber viele Acrylstoffe fühlen sich auf der Haut weniger atmungsaktiv an als Wolle, Baumwolle oder Leinen.
+Für welches Klima ist es gedacht? Luftige Woll- oder Alpakagestricke sind ein guter Ausgangspunkt für Wärme, leichtere Baumwoll- oder Leinengestricke für den Sommer. Auch Acryl kann wärmen. Dicke und Offenheit des Strickmusters beeinflussen Isolierung und Luftdurchlass. Vergleiche fertige Proben, statt die Atmungsaktivität nach Fasernamen zu ordnen.
 
 Die Antworten zeigen nicht immer auf eine einzige Faser. Aber sie schließen meist mehrere aus.
 
 ## Ein paar Dinge, die oft auftauchen
 
-Wenn du neu strickst und dein erstes Garn auswählst, grenzt der [Anfängerleitfaden für Garn](/de/artikel/das-beste-garn-fuer-den-einstieg-ins-stricken/) die Optionen ein. Die Materialzusammensetzung beeinflusst den Garnbedarf indirekt. Verschiedene Fasern packen unterschiedliche Meterzahlen in dasselbe Knäuelgewicht, deshalb kann eine Schätzung nur nach Gramm zu wenig ergeben. Der KnitTools-[Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) liefert anhand von Projektart, Größe und Garnstärke eine grobe Spanne für die Planung, berücksichtigt die Materialzusammensetzung aber nicht.
-
-Zur Haltbarkeit, die ständig gefragt wird: Nylon ist der wichtigste Verstärker in Strickgarnen. Deshalb steckt es in vielen Sockengarnmischungen. Leinen ist ebenfalls eine bemerkenswert starke Pflanzenfaser, bekommt in diesem Zusammenhang aber weniger Aufmerksamkeit.
+Wenn du dein erstes Garn auswählst, hilft der [Anfängerleitfaden für Garn](/de/artikel/das-beste-garn-fuer-den-einstieg-ins-stricken/) beim Eingrenzen. Faser und Garnaufbau beeinflussen die Lauflänge bei einem bestimmten Knäuelgewicht; Gramm allein ersetzen deshalb die Meterangabe auf der Banderole nicht. [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) — Referenzmengen benannter Anleitungen, keine persönliche Verbrauchsprognose. Wähle Projekt, Größe einer benannten Anleitung und Einheit. Das Ergebnis ist die Referenzmenge dieser Anleitung, keine Prognose für dein eigenes Projekt.
 
 Baumwolle und Wolle können problemlos im selben Garnvorrat und im selben Strickleben existieren. Die Idee, man müsse ein Lager wählen, ist seltsam. Sie tun völlig unterschiedliche Dinge. Wintermantel und Sommerhemd zu besitzen ist kein Widerspruch. Mit beiden Fasern zu stricken und jeweils die passende zu wählen auch nicht.
 
-Und wenn das alles noch nicht genug eingrenzt: Strick eine Maschenprobe. Nicht, weil es immer Spaß macht, oft tut es das nicht, sondern weil 10 g Garn und eine Stunde Stricken mehr über eine Faser verraten als jeder Artikel.
+Wenn die Auswahl noch offen ist, strick eine Maschenprobe im vorgesehenen Muster und behandle sie mit der geplanten Pflegemethode. Lass sie vollständig trocknen und prüfe sowohl Maße als auch Griff. Garnmenge und Zeit hängen von der Probe ab; ein kleines Stück beweist nicht, wie ein ganzes Kleidungsstück über Jahre verschleißt.

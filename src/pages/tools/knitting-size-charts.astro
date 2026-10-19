@@ -8,8 +8,8 @@ import SizeChartControls from "../../components/SizeChartControls.astro";
 import { routes } from "../../i18n/routes";
 
 interface Cell {
-  cm: string;
-  inch: string;
+  cm: string | null;
+  inch: string | null;
 }
 
 interface Row {
@@ -31,7 +31,8 @@ interface Panel {
   tables: Table[];
 }
 
-const c = (cm: string, inch: string): Cell => ({ cm, inch });
+const c = (cm: string | null, inch: string | null): Cell => ({ cm, inch });
+const unavailableValue = "No verified source value";
 
 const panels: Panel[] = [
   {
@@ -72,7 +73,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Arm Length to Underarm",
+            label: "Arm Length: Armpit to Wrist",
             cells: [
               c("15.5 cm", '6"'),
               c("16.5 cm", '6.5"'),
@@ -173,7 +174,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Arm Length to Underarm",
+            label: "Arm Length: Armpit to Wrist",
             cells: [
               c("21.5 cm", '8.5"'),
               c("26.5 cm", '10.5"'),
@@ -268,7 +269,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Arm Length to Underarm",
+            label: "Arm Length: Armpit to Wrist",
             cells: [
               c("38 cm", '15"'),
               c("40.5 cm", '16"'),
@@ -354,7 +355,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Arm Length to Underarm",
+            label: "Arm Length: Armpit to Wrist",
             cells: [
               c("42 cm", '16.5"'),
               c("43 cm", '17"'),
@@ -406,7 +407,7 @@ const panels: Panel[] = [
           {
             label: "Center Back Neck-to-Wrist",
             cells: [
-              c("66–68.5 cm", '26–26.5"'),
+              c(null, null),
               c("68.5–70 cm", '27–27.5"'),
               c("71–72.5 cm", '28–28.5"'),
               c("73.5–75 cm", '29–29.5"'),
@@ -447,7 +448,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Arm Length to Underarm",
+            label: "Arm Length: Armpit to Wrist",
             cells: [
               c("45.5 cm", '18"'),
               c("45.5 cm", '18"'),
@@ -461,7 +462,7 @@ const panels: Panel[] = [
               c("39.5 cm", '15.5"'),
               c("43 cm", '17"'),
               c("47 cm", '18.5"'),
-              c("49.5 cm", '18.5"'),
+              c("49.5 cm", '19.5"'),
             ],
           },
           {
@@ -522,7 +523,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Back Waist Length",
+            label: "Back Hip Length",
             cells: [
               c("58.5–61 cm", '23–24"'),
               c("63.5–66 cm", '25–26"'),
@@ -540,7 +541,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Arm Length to Underarm",
+            label: "Arm Length: Armpit to Wrist",
             cells: [
               c("45.5 cm", '18"'),
               c("47 cm", '18.5"'),
@@ -609,7 +610,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Back Waist Length",
+            label: "Back Hip Length",
             cells: [
               c("73.5 cm", '29"'),
               c("76 cm", '30"'),
@@ -621,18 +622,18 @@ const panels: Panel[] = [
             label: "Cross Back",
             cells: [
               c("48–51 cm", '19–20"'),
-              c("48–51 cm", '20–21"'),
-              c("51–54.5 cm", '21–21.5"'),
+              c(null, null),
+              c(null, null),
               c("56–57 cm", '22–22.5"'),
             ],
           },
           {
-            label: "Arm Length to Underarm",
+            label: "Arm Length: Armpit to Wrist",
             cells: [
               c("52 cm", '20.5"'),
               c("52 cm", '20.5"'),
-              c("49.5 cm", '21"'),
-              c("53.5–54.5 cm", '21.5"'),
+              c(null, null),
+              c(null, null),
             ],
           },
           {
@@ -641,7 +642,7 @@ const panels: Panel[] = [
               c("42 cm", '16.5"'),
               c("44.5 cm", '17.5"'),
               c("47 cm", '18.5"'),
-              c("48 cm", '20"'),
+              c(null, null),
             ],
           },
           {
@@ -705,31 +706,52 @@ const panels: Panel[] = [
         ],
       },
       {
-        caption: "Foot Size",
-        sizeHeader: "Size",
+        caption: "Total Foot Length",
+        sizeHeader: "US shoe size / reference age",
         sizes: ["Length"],
         rows: [
-          { label: "Baby (0–6 mo)", cells: [c("9 cm", '3.5"')] },
-          { label: "Baby (6–12 mo)", cells: [c("10–11 cm", '4–4.5"')] },
-          { label: "Toddler (1–2)", cells: [c("12–13 cm", '4.75–5"')] },
-          { label: "Child (3–6)", cells: [c("14–18 cm", '5.5–7"')] },
-          { label: "Child (7–10)", cells: [c("19–21 cm", '7.5–8.25"')] },
-          { label: "Youth", cells: [c("22–24 cm", '8.5–9.5"')] },
-          { label: "Women", cells: [c("23–26 cm", '9–10.25"')] },
-          { label: "Men", cells: [c("25–29 cm", '10–11.5"')] },
+          {
+            label: "Baby, US 0–4 (6–18 mo)",
+            cells: [c("7.75–11.5 cm", '3–4.5"')],
+          },
+          {
+            label: "Toddler, US 5–9 (2–3 y)",
+            cells: [c("12–15.25 cm", '4.75–6"')],
+          },
+          {
+            label: "Child, US 10–13 (4–5 y)",
+            cells: [c("16.5–19 cm", '6.5–7.5"')],
+          },
+          {
+            label: "Youth, US 1–3 (6–9 y)",
+            cells: [c("19.75–21.5 cm", '7.75–8.5"')],
+          },
+          {
+            label: "Youth, US 4–6 (10–13 y)",
+            cells: [c("22.25–24 cm", '8.75–9.5"')],
+          },
+          { label: "Women, US 4–6.5", cells: [c("20.25–23 cm", '8–9"')] },
+          { label: "Women, US 7–9.5", cells: [c("23.5–25.5 cm", '9.25–10"')] },
+          { label: "Women, US 10–12.5", cells: [c("26–28 cm", '10.25–11"')] },
+          { label: "Men, US 6–8.5", cells: [c("23.5–25.5 cm", '9.25–10"')] },
+          { label: "Men, US 9–11.5", cells: [c("26–28 cm", '10.25–11"')] },
+          { label: "Men, US 12–14", cells: [c("28.5–30.5 cm", '11.25–12"')] },
         ],
       },
       {
-        caption: "Hand Size",
-        sizeHeader: "Size",
+        caption: "Hand Circumference",
+        sizeHeader: "CYC group / size",
         sizes: ["Circumference"],
         rows: [
-          { label: "Baby", cells: [c("10–13 cm", '4–5"')] },
-          { label: "Toddler", cells: [c("13–15 cm", '5–6"')] },
-          { label: "Child", cells: [c("15–18 cm", '6–7"')] },
-          { label: "Youth", cells: [c("18–20 cm", '7–8"')] },
-          { label: "Women", cells: [c("18–20 cm", '7–8"')] },
-          { label: "Men", cells: [c("20–23 cm", '8–9"')] },
+          { label: "Child 2–4 y", cells: [c("13 cm", '5"')] },
+          { label: "Child 4–6 y", cells: [c("15 cm", '6"')] },
+          { label: "Child 6–8 y", cells: [c("16.5 cm", '6.5"')] },
+          { label: "Women S", cells: [c("18 cm", '7"')] },
+          { label: "Women M", cells: [c("19 cm", '7.5"')] },
+          { label: "Women L", cells: [c("20.5 cm", '8"')] },
+          { label: "Men S", cells: [c("20.5 cm", '8"')] },
+          { label: "Men M", cells: [c("21.5 cm", '8.5"')] },
+          { label: "Men L", cells: [c("23.5 cm", '9"')] },
         ],
       },
     ],
@@ -741,11 +763,11 @@ const defaultPanel = "women";
 const faqs = [
   {
     q: "Are these measurements the same across all knitting patterns?",
-    a: "Many publishers and designers use Craft Yarn Council-style body measurements, but there's no universal enforcement. Some designers use their own sizing, particularly those focused on size-inclusive design with more granular options. Always check the specific pattern's size chart if one is provided.",
+    a: "CYC publishes a reference convention, but knitting patterns do not all use the same size system. Designers may use their own measurements and size labels. Always check the pattern’s own size guide and schematic.",
   },
   {
     q: "How do I choose a size if the pattern uses numbered sizes instead of XS/S/M/L?",
-    a: "Compare the chest measurement listed for each numbered size with the charts above. The chest measurement is what matters. Ignore the label.",
+    a: "Use the pattern’s measurements, not its number or letter label. Check whether they describe the body or the finished garment; for finished measurements, account for the intended ease. For a sweater, compare the chest and any other fit-critical measurements.",
   },
   {
     q: "Should I measure over clothing or on bare skin?",
@@ -759,6 +781,7 @@ const faqs = [
 ---
 
 <PageLayout
+  contentPage
   title="Knitting Size Charts for Body Measurements"
   description="Standard body measurement charts for knitting. Baby through adult sizes with chest, waist, hips, arm length, and more, in cm and inches."
   canonicalPath="/tools/knitting-size-charts/"
@@ -786,8 +809,8 @@ const faqs = [
         to see the chart.
       </p>
       <p class="hero-note" data-reveal>
-        These are body measurements, not finished garment measurements. Add ease
-        for the fit you want.
+        These are body measurements, not finished garment measurements. Use the
+        pattern’s intended ease for the fit you want.
       </p>
 
       <div
@@ -796,6 +819,20 @@ const faqs = [
         data-size-chart
         data-mobile-size-label="Choose size"
       >
+        <p class="panel-intro">
+          These are CYC body references, not finished garment dimensions or
+          universal sizes. Child/youth numbers are US reference sizes, not ages
+          or European height sizes. Baby ages are approximate. XS–5XL follow
+          CYC; 2XL–5XL mean its 2X–5X. Measure the wearer and use the pattern’s
+          own sizing.
+        </p>
+        <p class="panel-intro" id="size-source-note">
+          CM and inches show CYC’s published, rounded pairs, not exact
+          conversions. Six measurements are unavailable from a verified source
+          because the published values conflict. Both numbers have been
+          withheld. Measure the wearer using the guidance below and consult the
+          pattern’s sizing and intended ease.
+        </p>
         <div class="chart-controls">
           <div class="tab-scroller">
             <div class="tabs" role="tablist" aria-label="Size category">
@@ -849,6 +886,7 @@ const faqs = [
                 class={`panel${p.id === defaultPanel ? " is-active" : ""}`}
                 data-panel={p.id}
                 role="tabpanel"
+                tabindex="0"
                 id={`panel-${p.id}`}
                 aria-labelledby={`tab-${p.id}`}
                 hidden={p.id !== defaultPanel}
@@ -861,11 +899,11 @@ const faqs = [
                       <table class="size-table">
                         <thead>
                           <tr>
-                            <th class="sticky-col">
+                            <th scope="col" class="sticky-col">
                               {t.sizeHeader ?? "Measurement"}
                             </th>
                             {t.sizes.map((s) => (
-                              <th>{s}</th>
+                              <th scope="col">{s}</th>
                             ))}
                           </tr>
                         </thead>
@@ -876,9 +914,22 @@ const faqs = [
                                 {r.label}
                               </th>
                               {r.cells.map((cell) => (
-                                <td>
-                                  <span class="unit-cm">{cell.cm}</span>
-                                  <span class="unit-inch">{cell.inch}</span>
+                                <td
+                                  data-unavailable={
+                                    cell.cm === null || undefined
+                                  }
+                                  aria-describedby={
+                                    cell.cm === null
+                                      ? "size-source-note"
+                                      : undefined
+                                  }
+                                >
+                                  <span class="unit-cm">
+                                    {cell.cm ?? unavailableValue}
+                                  </span>
+                                  <span class="unit-inch">
+                                    {cell.inch ?? unavailableValue}
+                                  </span>
                                 </td>
                               ))}
                             </tr>
@@ -930,34 +981,44 @@ const faqs = [
         back of the neck straight down to the natural waist. This determines how long
         the torso section of a garment needs to be.
       </p>
+      <p>
+        <strong>Back Hip Length (men):</strong> The men’s table uses the CYC PDF’s
+        neck-to-hip back length, not neck-to-waist length. Check this endpoint against
+        the pattern schematic.
+      </p>
       <p data-reveal>
-        <strong>Arm Length to Underarm:</strong> Measure from the wrist bone to the
-        underarm. This is your sleeve length guide.
+        <strong>Arm Length: Armpit to Wrist:</strong> With the arm slightly bent,
+        measure from the armpit to the wrist. This body measurement is a guide for
+        sleeve length, not a finished sleeve dimension.
       </p>
       <p data-reveal>
         <strong>Upper Arm:</strong> Measure the circumference at the fullest part
         of the upper arm, with the arm relaxed at the side.
       </p>
       <p data-reveal>
-        <strong>Armhole Depth:</strong> Measure from the top of the shoulder straight
-        down to the underarm. This determines how deep the armhole shaping needs to
-        be.
+        <strong>Armhole Depth:</strong> Measure vertically from the outer top edge
+        of the shoulder to the armpit.
       </p>
       <p data-reveal>
-        <strong>Center Back Neck-to-Wrist:</strong> Measure from the center back of
-        the neck, across the shoulder and down the arm to the wrist bone. This combined
-        measurement is used for raglan and yoke constructions where the body and sleeve
-        are worked together.
+        <strong>Center Back Neck-to-Wrist:</strong> With the arm straight, measure
+        from the base of the neck at center back, across the shoulder and along the
+        arm to the wrist.
+      </p>
+      <p>
+        <strong>Accessories:</strong> Measure head circumference around the forehead
+        and the whole head; foot length on the floor from the back of the heel to
+        the longest toe; hand circumference around the dominant palm just below the
+        knuckles, excluding the thumb. These are body measurements, not hat, sock
+        or mitten dimensions. Foot length is not a shoe-size conversion or a complete
+        sock measurement. Age ranges are only references.
       </p>
 
       <h2 data-reveal="clip">
         Body measurements vs finished garment measurements
       </h2>
       <p data-reveal>
-        This is the most common source of sizing confusion in knitting. These
-        charts show body measurements, the actual dimensions of the person. A
-        finished garment can be smaller, equal, or larger depending on the ease
-        the designer built into the pattern.
+        These charts show body measurements. A finished garment may be smaller,
+        equal or larger, depending on the pattern’s intended ease.
       </p>
       <p data-reveal>
         <strong>Negative ease:</strong> The garment is smaller than the body. For
@@ -966,24 +1027,22 @@ const faqs = [
         own project-specific grip.
       </p>
       <p data-reveal>
-        <strong>Zero ease:</strong> The garment matches body measurements exactly.
-        In knitted fabric this usually reads as very close fitting unless the stitch
-        pattern is especially relaxed.
+        <strong>Zero ease:</strong> The finished garment measurement equals the corresponding
+        body measurement.
       </p>
       <p data-reveal>
-        <strong>Positive ease (5–10 cm):</strong> The garment is slightly larger than
-        the body. This is standard fit for most sweaters, cardigans, and tops.
+        <strong>Positive ease:</strong> The garment is larger than the body. CYC suggests
+        about 5–10 cm at the chest for a classic sweater fit; this is a guide, not
+        a rule for every design.
       </p>
       <p data-reveal>
-        <strong>Loose or oversized ease (10-15+ cm):</strong> The garment is noticeably
-        larger than the body. Slouchy sweaters, cocoon cardigans, and relaxed-fit
-        garments live here.
+        <strong>Loose and oversized fit:</strong> CYC suggests about 10–15 cm of chest
+        ease for a loose sweater and 15 cm or more for an oversized one.
       </p>
       <p data-reveal>
-        When a pattern says "to fit chest 91.5 cm" and gives a finished bust
-        measurement of 101.5 cm, the 10 cm difference is the ease. Your job is
-        to choose the size where the "to fit" measurement matches your body, not
-        the finished measurement.
+        For example, a pattern for a 91.5 cm body chest with a 101.5 cm finished
+        chest has 10 cm of positive ease. Compare both the body-size guidance
+        and the finished schematic measurements with your intended fit.
       </p>
       <p data-reveal>
         Once you know your target size, the <a href="/tools/yarn-estimator/"
@@ -995,10 +1054,11 @@ const faqs = [
 
       <h2 data-reveal="clip">Choosing between sizes</h2>
       <p data-reveal>
-        If your chest measurement falls between two sizes, the right choice
-        depends on the garment's intended fit. For a close-fitting garment, go
-        with the smaller size. For a relaxed or oversized fit, go with the
-        larger size.
+        Between sizes, compare the finished measurements with your body and the
+        ease the pattern intends. Do not automatically size down for a fitted
+        garment or up for an oversized one. Stitch pattern, fiber and the
+        washed, dried swatch affect stretch and drape. Hats and socks need their
+        own pattern-specific ease; no fixed allowance guarantees fit.
       </p>
       <p data-reveal>
         Also compare other measurements, especially hips for longer garments and
@@ -1013,6 +1073,39 @@ const faqs = [
         The <a href="/articles/how-to-measure-knitting-gauge/"
           >how to measure gauge</a
         > guide covers the swatching process in full.
+      </p>
+
+      <h2>Sources and measurement conventions</h2>
+      <p>
+        <a href="https://www.craftyarncouncil.com/standards/body-sizing"
+          >Craft Yarn Council: Sources and measurement conventions</a
+        >. <a href="https://www.craftyarncouncil.com/standards/baby-size-chart"
+          >Baby</a
+        >, <a
+          href="https://www.craftyarncouncil.com/standards/child-youth-sizes"
+          >Child/youth</a
+        >, <a href="https://www.craftyarncouncil.com/standards/woman-size"
+          >Women</a
+        >, <a href="https://www.craftyarncouncil.com/standards/man-size">Men</a
+        >, <a
+          href="https://www.craftyarncouncil.com/standards/head-circumference-chart"
+          >Head</a
+        >, <a href="https://www.craftyarncouncil.com/standards/foot-size-charts"
+          >Foot</a
+        >, <a href="https://www.craftyarncouncil.com/standards/hand-size-charts"
+          >Hand</a
+        >. <a
+          href="https://media.craftyarncouncil.com/sites/default/files/images/standards/CYC_YarnStandards-2018-11-06.pdf"
+          >CYC PDF</a
+        >.
+      </p>
+      <p>
+        Source: Craft Yarn Council. The linked PDF (pages 17–18) resolves two
+        web-table errors: women’s 5XL upper arm is 19.5 inches, and the men’s
+        back length ends at the hip, not the waist. The six other source
+        conflicts remain unresolved. This website withholds both unit values for
+        those measurements; it does not supply corrected or calculated
+        replacements.
       </p>
     </div>
   </section>
@@ -1048,6 +1141,7 @@ const faqs = [
         method="post"
         id="waitlist-form"
         data-waitlist-signup
+        data-localized-errors="true"
         data-source="knittools"
         data-sending-text="Sending..."
         data-generic-error="Something went wrong. Please try again."

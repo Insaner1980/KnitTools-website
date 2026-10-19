@@ -14,15 +14,15 @@ const faqs = [
   },
   {
     q: "Warum rundet der Rechner auf eine gerade Maschenzahl?",
-    a: "Viele Rippenmuster, Zöpfe und mehrfarbige Muster funktionieren sauberer mit einer geraden Maschenzahl. Wenn deine Anleitung einen bestimmten Rapport braucht, passe die Zahl danach daran an.",
+    a: "Das ist eine Rundungsregel, keine Garantie für einen passenden Rapport. Rippen, Zöpfe und andere Muster können ein bestimmtes Vielfaches plus zusätzliche Maschen verlangen.",
   },
   {
     q: "Was mache ich, wenn die Anleitung ein bestimmtes Vielfaches verlangt?",
-    a: "Addiere oder ziehe ein paar Maschen ab, bis die Zahl zum Rapport passt. Wenn der Rapport über 4 Maschen läuft und der Rechner 46 ergibt, nimm zum Beispiel 44 oder 48.",
+    a: "Bei einem Rapport über 4 Maschen ohne Zusatzmaschen kannst du 46 auf 44 oder 48 anpassen. Berücksichtige Randmaschen und andere Zusatzmaschen aus der Anleitung und prüfe, wie sich die Breite dadurch ändert.",
   },
   {
     q: "Kann ich den Rechner fürs Stricken in Runden nutzen?",
-    a: "Ja. Gib den gesamten Umfang als gewünschte Breite ein. Die Rechnung ist gleich, nur Rapport, Markierer und Bündchen solltest du separat prüfen.",
+    a: "Ja. Verwende eine in Runden gestrickte Maschenprobe und gib den gewünschten fertigen Umfang als Breite ein. Berücksichtige die gewünschte Mehrweite bereits im Maß; der Rechner fügt sie nicht hinzu und zieht sie nicht ab.",
   },
 ];
 ---
@@ -47,9 +47,9 @@ const faqs = [
     <p>
       Maschen anschlagen ist der erste Schritt eines Strickprojekts. Dabei
       entstehen die Anfangsmaschen auf der Nadel, aus denen dein Strickstück
-      wächst. Die Maschenzahl bestimmt die Breite. Zu wenige Maschen machen das
-      Stück zu schmal, zu viele lassen es schon vor der ersten richtigen Reihe
-      in der falschen Größe starten.
+      wächst. Maschenzahl und Maschenprobe bestimmen die Anfangsbreite. Zu
+      wenige Maschen machen das Stück zu schmal, zu viele lassen es schon vor
+      der ersten richtigen Reihe in der falschen Größe starten.
     </p>
 
     <h2>Warum die Maschenprobe entscheidet</h2>
@@ -57,8 +57,8 @@ const faqs = [
       Dasselbe Garn und dieselbe Nadelstärke ergeben nicht bei allen dieselbe
       Strickfläche. Manche stricken fest, andere lockerer. Deshalb ist die
       Maschenprobe in der Anleitung ein Zielwert, kein Versprechen. Stricke eine
-      Maschenprobe, wasche oder spanne sie wie das fertige Stück und miss die
-      Maschen in der Mitte über 10 cm.
+      Maschenprobe im vorgesehenen Muster, wasche oder spanne sie wie das
+      fertige Stück und miss nach dem Trocknen in der Mitte über 10 cm.
     </p>
 
     <h2>So nutzt du den Rechner</h2>
@@ -70,10 +70,24 @@ const faqs = [
     </p>
 
     <p>
-      Wenn am Rand ein Bündchenmuster, ein Zopf oder ein Lochmuster sitzt, kann
-      die endgültige Maschenzahl eine kleine Anpassung brauchen. Der Rechner
-      gibt dir einen sauberen Ausgangspunkt. Die Anleitung hat beim Rapport das
-      letzte Wort.
+      Wenn am Rand ein Bündchenmuster, ein Zopf oder ein Lochmuster sitzt, miss
+      die Maschenprobe in diesem Muster. Die endgültige Maschenzahl kann eine
+      Anpassung brauchen. Der Rechner gibt dir einen sauberen Ausgangspunkt. Die
+      Anleitung hat beim Rapport das letzte Wort.
+    </p>
+    <p>
+      Wähle cm für die Breite in Zentimetern und die Maschenzahl auf 10 cm.
+      Wähle Zoll für die Breite in Zoll und die Maschenzahl auf 4 Zoll. Das sind
+      übliche Messstrecken, keine exakten Entsprechungen: 4 Zoll sind 10,16 cm.
+      Ein Einheitenwechsel rechnet deine Eingaben nicht um. Die Formel lautet
+      Maschenzahl der Probe × Breite ÷ 10 bei cm oder ÷ 4 bei Zoll.
+    </p>
+
+    <p>
+      Das Ergebnis wird auf die nächste gerade Zahl gerundet; bei gleichem
+      Abstand nach oben. Aus 99 wird zum Beispiel 100. Eine sehr kleine Breite
+      kann nach dem Runden 0 ergeben; das ist keine brauchbare Anschlagzahl.
+      Prüfe Maße und Anleitung vor dem Anschlag.
     </p>
   </div>
 </LocalizedToolPage>

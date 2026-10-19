@@ -14,115 +14,109 @@ tags:
 draft: false
 lang: da
 translationKey: "how-to-knit-hat"
+updatedDate: 2026-10-18
 ---
 
-En hue er et godt andet- eller tredjeprojekt efter et tørklæde. Den introducerer rundstrik, indtagninger og enkel formgivning i et projekt, der er lille nok til at blive færdigt, før gentagelsen bliver kedelig. Mange huer i Worsted / Medium-garn er korte projekter sammenlignet med sweatre, men den første hue kræver stadig nye færdigheder.
+En hue er et nyttigt projekt efter et tørklæde, når du vil øve formgivning og måske rundstrik. Her sammenligner vi konstruktioner og gennemgår beregninger for størrelse og top. Guiden er ikke en gradueret opskrift til alle garner og hovedstørrelser. Vælg en opskrift til selve huen, og brug regnestykkerne til at forstå pasformen.
 
-For at strikke en enkel hue slår du masker op til hovedets omkreds minus 2,5-5 cm negativt bevægelsesrum, strikker rib til kanten, strikker kroppen i glatstrik og [tager jævnt ind](/da/artikler/fordel-udtagninger-indtagninger-jaevnt/) i toppen. Der findes flere konstruktioner. Den rigtige afhænger af, hvilke teknikker du kan, og hvilket udstyr du har.
+En enkel hue nedefra begynder med masker til **huens færdige omkreds**, derefter ribkant, midterstykke og [jævne indtagninger](/da/artikler/fordel-udtagninger-indtagninger-jaevnt/) i toppen. Hvor meget mindre huen skal være end hovedet, afhænger af strikkens elasticitet og den ønskede pasform; træk ikke et fast mål fra til alle huer.
 
 ## Metode 1: nedefra og op rundt
 
-Standardmetoden. Slå op til huens målomkreds, saml til rundstrik, strik opad, og tag ind i toppen for at lukke huen.
+Slå op til målomkredsen. Kontroller, at opslagskanten ikke er snoet omkring pinden, sæt en markør ved omgangsstart, og saml til rundstrik ved at strikke første maske. Fortsæt rundt uden at vende. Glatstrik rundt er ret på hver omgang; retstrik rundt skifter mellem en ret og en vrang omgang.
 
-Du skal bruge en 40 cm rundpind til kroppen og strømpepinde eller magic loop med en længere rundpind til toppen, hvor omkredsen bliver for lille til kablet på 40 cm. Skift, når maskerne ikke længere bevæger sig behageligt rundt på kablet. Venter du for længe, bliver toppen sværere end nødvendigt.
+En 40 cm rundpind passer ofte til midterstykket på en voksenhue. Det er **hele længden fra spids til spids**, ikke kun kablet. Pindetykkelsen angives separat i millimeter. Maskerne skal kunne nå rundt uden at blive strakt. Brug strømpepinde eller magic loop på en lang, fleksibel rundpind til små huer og den stadig mindre top. Skift, før maskerne strammes rundt om den korte rundpind. Sektionsmarkørerne følger opskriften uanset fordelingen mellem pindene.
 
-Slå op, strik rib til kanten, 2,5-5 cm med 1 r, 1 vr eller 2 r, 2 vr, skift til glatstrik eller dit valgte maskemønster, strik til ønsket længde, og tag derefter jævnt ind over flere omgange, til der kun er få masker tilbage. Træk garnet gennem dem, og stram til.
+Strik ribkant og derefter glatstrik eller det valgte maskemønster. En kant uden ombuk kan eksempelvis være 2,5–5 cm høj, men følg opskriftens mål. Sæt højde af til toppen, før du bestemmer, hvor midterstykket slutter. Træk til sidst garnet gennem de levende masker som beskrevet nedenfor.
 
-Ingen søm. Ser rent ud og føles behageligt. Det er sådan, de fleste hueopskrifter er skrevet. Ulempen: du skal være tryg ved rundpinde og enten strømpepinde eller magic loop til toppen.
+Der er ingen sidesøm. Læg gerne omgangsstart bagpå, hvis du vil skjule et hak i striberne, og behold markøren gennem hele arbejdet.
 
-Når du samler arbejdet til en ring, er omgangsstart også det sted, hvor et eventuelt hak i striber kan ses. Læg det bag på huen, hvor det er mindre synligt. Sæt en maskemarkør. Opslagshalen kan fungere som visuel hjælp, men en markør er hurtigere at finde fem omgange senere, når halen har gemt sig i arbejdet.
+## Metode 2: frem og tilbage med søm
 
-## Metode 2: fladt og syet sammen
+Strik et fladt stykke med formet overkant på jumperpinde eller frem og tilbage på en rundpind. Vend efter hver pind. I glatstrik strikker du ret på retsiden og vrang på vrangsiden; i retstrik strikker du ret på hver pind. Flad strik kræver altså ikke altid vrangpinde.
 
-Strik huen som et fladt rektangel på lige pinde, og sy sidesømmen bagefter.
+Følg en opskrift til flad strik med hensyn til rib, kantmasker og top. Hvis sømmen tager én maske ind i hver side, skal du bruge to ekstra kantmasker: 96 synlige masker + 2 = **98 opslåede masker**. Hold kanterne uden for topsektionerne, og planlæg, hvordan ribben mødes ved sømmen. Rundstrikkens instruktioner kan ikke bruges uændret over alle 98 masker.
 
-Slå op, strik rib, strik kroppen, tag ind på retsidepinde, luk af når der er få masker tilbage, og sy sømmen med [madrassting](/da/artikler/sy-strikkede-dele-sammen-madrassting/).
-
-Bruger kun flade strikkefærdigheder. Godt hvis du ikke er klar til rundpinde. Ulempen er en søm. Madrassting gør den næsten usynlig, men den er et ekstra trin og giver en lille kant indvendigt. Sømmen ligger som regel bag på huen, hvor hår dækker den.
-
-Én ting flad strik tvinger dig til: du strikker vrang på hver anden pind. Hvis vrangmasker går langsommere end retmasker for dig, hvad de gør for mange, tager en flad hue mærkbart længere tid end samme hue rundt, selv før sammensyningen tælles med.
+Tag ind på de pinde, opskriften angiver. Ved en sammentrukket top trækker du garnet gennem de resterende levende masker i stedet for at lukke dem almindeligt af. Sy sidesømmen med [madrassting](/da/artikler/sy-strikkede-dele-sammen-madrassting/), og hæft enderne. Sømmen giver en lille kant indvendigt; tjek, hvilken side der ses, når ribkanten foldes op.
 
 ## Metode 3: oppefra og ned
 
-Mindre almindelig, men værd at kende. Slå et lille antal masker op i toppen, tag udad i sektioner, strik kroppen, afslut med rib, og luk elastisk af.
+Slå få masker op i toppen, tag ud i sektioner, strik midterstykket, og afslut med rib og elastisk aflukning. Brug strømpepinde eller magic loop til den lille begyndelse.
 
-Fordele: du kan prøve huen undervejs, toppen skal ikke trækkes sammen til sidst, og du kan bestemme ribkantens længde ud fra, hvor meget garn der er tilbage. Ulemper: opslaget er småbesværligt, ofte et rundt opslag eller Emily Ocker's cast-on, og udtagningerne skal passe til en planlagt topform i stedet for bare at vokse til en tilfældig cirkel.
+Du kan prøve huen, når åbningen er stor nok, og tilpasse kantens længde til det resterende garn. Et rundt opslag, eksempelvis Emily Ockers opslag, kræver stadig, at starthullet lukkes og tråden hæftes. Følg en planlagt udtagningsrytme; tilfældige udtagninger ændrer både omkreds og tophøjde.
 
 ## Størrelse
 
-Hovedomkredsen bestemmer opslagstallet. Mål rundt om det bredeste sted, lige over ørerne og hen over panden.
+Mål **hovedomkredsen** omkring det bredeste sted, hen over panden, over ørerne og omkring baghovedet. Målebåndet skal ligge til uden at presse. **Færdig hueomkreds** måles på huen uden at strække den. En omkreds på 51 cm svarer til cirka 25,5 cm bredde, når huen ligger fladt.
 
-Strikkede huer bruger negativt bevægelsesrum: den færdige omkreds er mindre end hovedet, så det elastiske stof griber. Til en tætsiddende hue med ribkant er cirka 2,5 cm negativt bevægelsesrum et almindeligt udgangspunkt. Et hoved på 56 cm kan få en færdig hueomkreds omkring 51-53 cm, afhængigt af stoffets elasticitet og ønsket pasform. Slouchy huer bruger ofte mindre negativt bevægelsesrum, fordi slouchet kommer fra ekstra længde, ikke fra strammere pasform.
+Negativt bevægelsesrum betyder, at huen er mindre end hovedet. Et regneeksempel med 56 cm hovedomkreds og 51–53 cm hueomkreds giver 3–5 cm, cirka 5,4–8,9 % **af hovedomkredsen**, i negativt bevægelsesrum. Strikkeprøvens stræk og evne til at trække sig tilbage efter vask og tørring afgør, hvad der passer. Ekstra længde giver en løs top, men bestemmer ikke i sig selv ribkantens omkreds.
 
-Maskeantal: gang maskefasthed pr. cm med målomkredsen. Ved 20 masker pr. 10 cm til en hue på 51 cm: cirka 102 masker. Rund til et tal, der passer til rib og topindtagninger. Til 2 r, 2 vr rib med en 8-delt top er 96 rent, deleligt med 4 til rib og med 8 til toppen.
+Brug strikkefastheden fra en vasket og tørret prøve i glatstrik, målt uden stræk. Strik prøven fladt eller rundt på samme måde som huen. Kontroller ribkanten separat, da rib trækker sig anderledes sammen. Med 20 masker pr. 10 cm, altså 2 masker/cm, giver 51 cm præcis **102 masker**. Rundt kræver 1 r, 1 vr et lige antal, 2 r, 2 vr et tal deleligt med 4 og otte lige topsektioner et tal deleligt med 8. Tjek også midterstykkets rapport. **104 masker** opfylder de to sidste krav og giver 52 cm, cirka 7,1 % negativt bevægelsesrum på et hoved på 56 cm. Også 96 er deleligt, men giver kun **48 cm**, cirka 14,3 % negativt bevægelsesrum. Vælg efter pasform; 96 bevarer ikke målet på 51 cm.
 
-KnitTools' [opslagsberegner](/da/strikkevaerktoejer/opslagsberegner/) laver regnestykket ud fra din strikkefasthed og omkreds.
+I KnitTools' [opslagsberegner](/da/strikkevaerktoejer/opslagsberegner/) skriver du færdig omkreds i breddefeltet: 20 masker pr. 10 cm og 51 cm giver 102. Værktøjet afrunder til nærmeste lige antal. Bevægelsesrum, rapporter, sømrum og topinddeling skal du kontrollere selv; det laver ikke en hel hueopskrift eller indtagningsplan.
 
-**Standardmål til voksenhuer:** Craft Yarn Council angiver voksen-hovedomkreds omkring 53-58,5 cm for kvinder og 56-61 cm for mænd. Den færdige hue er normalt mindre end det på grund af negativt bevægelsesrum. Mange tætsiddende beanies starter topindtagninger efter cirka 18-20 cm fra kanten, men følg opskriftens dybde, hvis den er angivet. Til en slouchy hue strikker du ekstra længde, før toppen begynder.
+**Voksne og børn:** [Craft Yarn Councils tabel](https://www.craftyarncouncil.com/standards/head-circumference-chart) angiver hovedomkreds på 53–58,5 cm for kvinder, 56–61 cm for mænd, 40,5–46 cm for småbørn og 45,5–51 cm for børn. Det er vejledende hovedmål, ikke færdige huemål eller sikre aldersstørrelser. Mål modtageren, når det er muligt, også spædbørn, og sammenlign med opskriftens angivne hovedstørrelse.
 
-**Børnehuer:** Craft Yarn Council angiver tumlinge-hovedomkreds omkring 40,5-46 cm og børne-hovedomkreds omkring 45,5-51 cm. Baby- og prematurstørrelser varierer meget mere, så brug en opskrift med aldersspecifikke mål i stedet for at gætte ud fra en voksenformel.
+**Højde:** mål fra den ønskede underkant til toppen af hovedet, eller på en hue, der passer. Færdig højde inkluderer toppen. Med et mål på 22 cm og beregnet top på 7,5 cm begynder indtagningerne efter **14,5 cm inklusive kanten uden ombuk**. Med 5 cm ombuk begynder de **19,5 cm fra opslagskanten, målt uden ombuk**: 19,5 − 5 + 7,5 = 22 cm. En dobbelt kant, der er 5 cm høj efter ombuk, kræver cirka 10 cm strikket rib. Det er regneeksempler, ikke standarddybder til alle voksne.
 
 ## Topindtagninger
 
-Det er her huen går fra rør til kuppel. Indtagninger placeres med jævne mellemrum og fjerner masker hele vejen rundt.
+Her er hele eksemplet med **96 masker i glatstrik rundt**. Sæt otte markører mellem otte sektioner med 12 masker i hver; lad omgangsstartens markør skille sig ud. På indtagningsomgangene strikker du til to masker før hver markør, strikker dem ret sammen og flytter markøren. Hver sektion mister én maske, hele omgangen otte.
 
-Almindelig metode: del maskerne i 6 eller 8 lige store sektioner med maskemarkører mellem hver. Tag én maske ind i slutningen af hver sektion på hver anden omgang. Det giver synlige indtagningslinjer, der drejer mod toppen.
+- Omgang 1: [10 r, 2 r sm] otte gange; 96 → 88 masker.
+- Omgang 3: [9 r, 2 r sm] otte gange; 88 → 80.
+- Omgang 5: [8 r, 2 r sm] otte gange; 80 → 72.
+- Omgang 7: [7 r, 2 r sm] otte gange; 72 → 64.
+- Omgang 9: [6 r, 2 r sm] otte gange; 64 → 56.
+- Omgang 11: [5 r, 2 r sm] otte gange; 56 → 48.
+- Omgang 13: [4 r, 2 r sm] otte gange; 48 → 40.
+- Omgang 15: [3 r, 2 r sm] otte gange; 40 → 32.
+- Omgang 17: [2 r, 2 r sm] otte gange; 32 → 24.
+- Omgang 19: [1 r, 2 r sm] otte gange; 24 → 16.
+- Omgang 21: [2 r sm] otte gange; 16 → 8.
 
-For 96 masker i 8 sektioner à 12:
+Strik **alle lige omgange fra 2 til 20 ret uden indtagninger**, og flyt markørerne. På omgang 21 er der ingen almindelige masker mellem indtagningerne. Stop ved otte masker. Klip en tråd, der rækker til både lukning og hæftning, træk den gennem hver levende maske med en stoppenål, fjern pindene, stram åbningen til, og hæft på indersiden. Det er ikke almindelig aflukning.
 
-Omgang 1: _10 r, 2 r sm; gent fra _ omg ud. (88 m)
-Omgang 2: Strik ret.
-Omgang 3: _9 r, 2 r sm; gent fra _ omg ud. (80 m)
-Omgang 4: Strik ret.
+Det bliver **11 indtagningsomgange og 10 mellemomgange, i alt 21 omgange**. Ved eksempelvis 28 omgange pr. 10 cm er den beregnede tophøjde **7,5 cm**. Masker pr. 10 cm fortæller ikke, hvor mange omgange du får; mål en prøve, der er strikket og behandlet som huen, og kontroller toppen undervejs.
 
-Fortsæt til der er 8-16 masker tilbage. Klip garnet, træk det gennem de resterende masker med en stoppenål, stram til, og hæft enden på indersiden.
+Til **104 masker** begynder du med otte sektioner à 13: [11 r, 2 r sm] otte gange giver 104 → 96. Strik en ret mellemomgang og derefter hele rækken ovenfor med omgangsnumrene forskudt med to. I alt 23 omgange giver cirka **8,2 cm** ved 28 omgange pr. 10 cm. Gør midterstykket tilsvarende kortere, hvis den færdige højde skal være den samme.
 
-Antallet af sektioner påvirker topformen, men indtagningstakten gør det også. Seks eller otte sektioner er almindelige, fordi de deler mange opslagstal pænt. Hvis toppen bliver for spids eller for flad, er løsningen ofte at ændre, hvor tit du tager ind, ikke kun antallet af sektioner.
-
-Nogle opskrifter bruger parvise indtagninger, for eksempel 2 r sm før markøren og ssk efter, i stedet for én enkelt indtagning. Linjerne ser mere symmetriske ud. Det betyder mest på ensfarvede huer; i mønstrede huer bliver indtagningerne oftere skjult.
+Andre opskrifter kan bruge seks sektioner, tage ind hver omgang mod slutningen eller have parvise indtagninger omkring markørerne, eksempelvis 2 r sm og venstrehældende ssk. Et par fjerner to masker; otte par fjerner 16 pr. indtagningsomgang. Ændrer du metoden, skal maskeantal, rytme og højde beregnes igen.
 
 ## Ribvalg
 
-Ribkanten gør mere end at pynte. Det er den, der holder huen på hovedet.
+**1 r, 1 vr** giver smalle ribkolonner og **2 r, 2 vr** bredere. Begge kan give en elastisk kant, men garn, strikkefasthed, opslagets elasticitet og bevægelsesrum påvirker pasformen.
 
-**1 r, 1 vr** giver ofte en tæt og elastisk kant. Den trækker godt ind og griber godt. God til tætsiddende beanies.
+**Drejet rib** drejer de masker, opskriften angiver. En almindeligt vestligt monteret retmaske drejes ved at strikke den i bagerste maskeled. Tjek, om kun retmaskerne eller også vrangmaskerne drejes; drejet rib er ikke automatisk mere elastisk.
 
-**2 r, 2 vr** er let at læse og glider godt for mange strikkere. Den strækker stadig fint, men får et bredere ribudtryk.
+**Foldet kant:** strik til to lag, og fold op. Til 5 cm synlig kant skal der bruges cirka 10 cm rib. Regn ombukket med i højdemålet. Tyndere pinde kan give en fastere kant, men prøv resultatet frem for at antage, at én pindestørrelse mindre altid hjælper.
 
-**Drejet rib**, hvor retmaskerne strikkes i bagerste maskeled, strammer kolonnerne mere og giver et tydeligere ribudtryk. Den er langsommere at strikke, fordi drejede masker er sværere at stikke i.
-
-**Foldet kant** er dobbelt så høj som en almindelig kant og foldes op. Den strikkes ofte på en pindestørrelse mindre end kroppen, så den griber mere fast. Til huer i koldt vejr er dobbelt tykkelse over ørerne en reel fordel.
-
-Til en mere poleret kant giver tubular cast-on en blød kant, der ser ud til at vokse direkte ud af ribben. Det er værd at lære senere, hvis du strikker gavehuer.
+Et italiensk opslag kan give en blød overgang til ribben. Vælg en variant til dit ribmønster; 1 r, 1 vr og 2 r, 2 vr kan kræve forskellige forberedelser.
 
 ## Garn og pinde
 
-**Worsted / Medium på 4,5-5,0 mm:** den mest almindelige kombination til en enkel hue. Varm, moderat tyk og hurtigere end finere garn.
+Mulige udgangspunkter for strikkeprøven er **Worsted / Medium på 4,5–5 mm**, **Bulky / Chunky på 6–8 mm** og **DK på 3,75–4 mm**. Det er prøvekombinationer, ikke faste regler for garntykkelserne. Vælg pinde, der giver opskriftens strikkefasthed og en overflade, du kan lide. Tykt garn giver ikke automatisk utydelige masker.
 
-**Bulky / Chunky på 6,0-8,0 mm:** hurtig, men giver et tykt stof med mindre maskedefinition. God til kraftige, afslappede huer.
+Uld og uldblandinger kan give nyttig elasticitet og spændstighed. Mærk prøven mod panden, og vurder varme og form efter vask. Bomuld, akryl og blandinger kan også passe til en egnet konstruktion; fibernavnet garanterer ikke komfort eller pasform. Følg banderolens vaskeanvisning også til superwash-uld og akryl.
 
-**DK på 3,75-4,0 mm:** lettere hue med finere definition. Tager længere tid, men ser mere raffineret ud. God til flerfarvestrik, fordi det tyndere stof ikke bliver så kraftigt med flere farver.
-
-Uld eller uldblanding er som regel den nemmeste fiber til varme huer: elastisk, formstabil og god til blokning. Superwash-uld er lettere at vaske. Akryl fungerer og kan maskinvaskes, men kan føles mindre åndbart i mildt vejr. Bomuld er ikke et oplagt vinterhuefiber, fordi det mangler uldens spændstighed og varme, men bomuldsblandinger kan fungere til forår og efterår.
-
-Hvor meget garn? Mange enkle voksenhuer i Worsted / Medium ligger omkring 140-230 m, men ribkantens dybde, slouch, snoninger og flerfarvestrik flytter garnforbruget hurtigt. Tjek opskriftens garnforbrug, før du køber. Ét nøgle på 100 g Worsted / Medium er ofte nok til en enkel beanie.
+Brug opskriftens garnforbrug til den valgte størrelse og nøglets løbelængde. **100 g** er vægt, ikke en fast længde eller garanti for, at ét nøgle rækker. Foldet kant, ekstra længde, snoninger, flerfarvestrik, strikkeprøve og pompon påvirker forbruget.
 
 ## Pomponer og finish
 
-En pompon dækker det sammentrukne punkt, hvor toppen lukkes. Lav en af matchende eller kontrastfarvet garn med et pomponværktøj eller to papcirkler, eller køb en imiteret pels-pompon og sæt den fast, så den kan tages af ved vask. En aftagelig pompon er lettere at passe end en, der er syet fast permanent.
+En pompon dækker punktet, hvor toppen trækkes sammen. Lav en af samme garn eller kontrastgarn med et pomponværktøj eller to papcirkler, eller fastgør en pompon i imiteret pels, så den kan tages af ved vask.
 
-Til en ren finish uden pompon skal topaflukningen være stram, og garnenden skal hæftes sikkert på indersiden. Træk garnet gennem de resterende masker to gange i stedet for én for ekstra sikkerhed.
+Hæft tråden i toppen godt, også under en pompon. Du kan trække den gennem maskerne en gang til før sammentrækningen, hvis garnet og åbningen tillader det, men hæft den stadig i strikken på indersiden. En ekstra tur gennem løkkerne erstatter ikke hæftningen.
 
-Blok over en ballon, skål eller hueform tæt på den ønskede størrelse. Det jævner maskerne og giver huen sin endelige form. Ribkanter må ikke strækkes flade under blokning. Ribkanter er lavet til at trække sig sammen og gribe.
+Afslut efter garnets vaskeanvisning, og prøv behandlingen på strikkeprøven først. Tør fladt eller på en egnet form, hvis materialet og opskriften tillader det. Form efter **huens mål**, ikke automatisk den større hovedomkreds, og stræk ikke ribben åben. Blokning kan jævne masker, men garanterer ikke, at en forkert størrelse bliver rigtig.
 
 ## Almindelige spørgsmål
 
-Kan man strikke en hue på lige pinde? Ja, med metoden fladt og syet sammen. Den eneste ulempe er sømmen. Mange begynderopskrifter på huer er skrevet specifikt til flad strik.
+**Kan man strikke en hue på lige pinde?** Ja, med en opskrift til flad strik, formet top og sidesøm. Følg dens retside- og vrangsidepinde og sømrum.
 
-Hvordan undgår man et hak ved striber? Farveskiftet ved omgangens begyndelse giver et synligt trin. Teknikken jogless jog, hvor første maske i den nye farve tages løst af på anden omgang, gør det mindre synligt. Ensfarvede huer har ikke det problem.
+**Hvordan undgår man et hak ved striber?** Til glatstrikkede striber rundt, som er mindst to omgange høje, kan du strikke første omgang i den nye farve, så tage første maske vrang løs af med garnet bag arbejdet på anden omgang og strikke resten ret. Det kan mindske hakket, men forkorte maskekolonnen. Striber på én omgang og andre maskemønstre kræver en metode, der passer til dem.
 
-Hvad hvis huen er for stor? Letteste løsning på en færdig hue: træk elastik gennem indersiden af ribkanten. Næste gang: [lav en mere omhyggelig strikkeprøve](/da/artikler/maal-strikkefasthed/) eller vælg en størrelse mindre. En lidt lille hue strækker sig. En for stor glider af.
+**Hvad hvis huen er for stor?** Hvis kun kanten er løs, kan elastik hjælpe, så længe den ikke strammer ubehageligt. Den gør ikke midterstykket eller toppen mindre. [Kontroller strikkefastheden](/da/artikler/maal-strikkefasthed/), omkredsen uden stræk og højden, før du trevler op. En mindre størrelse hjælper kun, hvis målene passer; en for lille hue strækker sig ikke nødvendigvis til en behagelig pasform.
 
-Kan man tilføje øreklapper? Ja, men det er lettere, når opskriften har dem med fra starten. Øreklapper er trekantede forlængelser, der samles op fra ribkanten eller slås op som en del af den. Hvis du tilføjer dem selv, så marker ørepositionerne først, saml en lille sektion masker op i hver side, og tag ind mod en spids. Tilføj en i-cord eller snoet snor i spidsen, hvis de skal bindes under hagen.
+**Kan man tilføje øreklapper?** Ja, samlet op fra kanten eller som del af konstruktionen. En opskrift med øreklapper angiver placering, bredde, formgivning og afslutning. Marker ørernes placering på den, der skal bruge huen. Vælg en børneegnet konstruktion til børnehuer frem for uden videre at tilføje bindebånd under hagen.
 
-Hvad med forede huer? En dobbelt kant eller et helt for giver mere varme og en blødere fornemmelse mod panden. En almindelig metode er at strikke ekstra længde, folde foret ind på indersiden og sy det pænt fast. Det tager tid, men det bliver varmt.
+**Hvad med forede huer?** Dobbelt kant eller for kan give mere isolering og en anden følelse mod panden. Et helt for kræver egen højde og topform samt plads inde i huen. Tjek stræk og pasform med begge lag; ekstra længde alene er ikke en fuldstændig opskrift på et for.

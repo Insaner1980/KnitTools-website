@@ -1,7 +1,8 @@
 ---
 title: "Garn in einer Strickanleitung ersetzen"
-description: "So ersetzt du Garn in einer Strickanleitung, ohne das Projekt zu ruinieren: Garnstärke, Maschenprobe, Faser, Meter und Risiken prüfen."
+description: "Prüfe Ersatzgarn anhand von Maschenprobe, Gestrick, Fasern, Konstruktion und Pflege. Berechne eine Ausgangsmenge in Metern und beurteile das Probestück."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 6
 tags:
@@ -18,88 +19,94 @@ translationKey: "how-to-substitute-yarn"
 
 Das Garn aus der Anleitung ist eingestellt. Oder es kostet 30 Euro pro Knäuel und das Budget sagt nein. Oder es ist 100 % Wolle, und die beschenkte Person wirft das fertige Stück am ersten Tag in die Waschmaschine.
 
-Garn zu ersetzen ist normal. Die meisten Strickenden tun es häufig. Ein gelungener Garnersatz bedeutet, dass vier Dinge zwischen Original und Ersatz zusammenpassen: Garnstärke, Maschenprobe, Faserverhalten und Gesamtmeter. Fehlt eines davon, beginnt das Projekt zu wandern. Fehlen zwei, ist es im Grunde ein anderes Projekt.
+Beginne mit den Anforderungen der Anleitung: fertige Maße, Strickmuster, Gestrick und Pflege. Garnstärke, Maschenprobe, Fasereigenschaften und Gesamtlauflänge helfen bei der Vorauswahl. Gleiche Banderolenangaben garantieren weder das gleiche Gestrick noch die gleiche Passform.
 
 ## Erst die Garnstärke abgleichen
 
 Das ist der schnellste Filter. Eine DK-Anleitung und ein Bulky-Ersatz sind keine kleine Anpassung. Das ist eine Neugestaltung.
 
-Prüfe die Craft-Yarn-Council-Kategorie des Originalgarns und des Ersatzgarns. Gleiche Kategorie, gleicher Startpunkt. Sitzt ein Garn am dicken Ende und das andere am dünnen Ende der Kategorie, kann der Tausch trotzdem funktionieren, aber rechne mit mehr Maschenproben als üblich. Die [Garnstärken-Tabelle](/de/werkzeuge/garnstaerken-tabelle/) ist der schnellste Vergleich, wenn Banderolen unklar sind oder fehlen.
+Die [Garnstärken-Tabelle](/de/werkzeuge/garnstaerken-tabelle/) hilft beim Einordnen der Kategorien. Die Werte des [Craft Yarn Council](https://www.craftyarncouncil.com/standards/yarn-weight-system) sind Richtwerte: Zwei Garne derselben Kategorie können als Ersatz ungeeignet sein. Nicht jede Banderole verwendet dieses System.
 
-Wichtig: Worsted und Aran überschneiden sich stark genug, dass viele Wechsel zwischen ihnen gut handhabbar sind. Light Fingering zu Heavy Fingering ähnlich. Eine ganze Kategorie zu springen bedeutet fast immer, die Nadelstärke zu ändern, die Maschenprobe neu zu denken und vielleicht Maschenzahlen anzupassen. Das lohnt sich nur, wenn die Anleitung einfach genug ist, um sie zu verändern.
+Worsted und Aran stehen beide in der CYC-Kategorie Medium, sind aber nicht automatisch austauschbar. Prüfe vor einem Wechsel der Garnstärke die Anforderungen an das Gestrick. Maschenzahlen zu ändern ist eine gesonderte Anpassung der Anleitung.
 
 ## Dann die Maschenprobe, nicht die Banderole
 
-Zwei Garne derselben Garnstärke können sich trotzdem unterschiedlich verstricken. Ein dicht gesponnenes, fest verzwirntes Worsted und ein luftiges, locker gesponnenes Worsted können beide "Worsted" heißen und auf derselben Nadelstärke deutlich verschiedene Stoffe ergeben.
+Zwei Garne derselben Garnstärke können sich trotzdem unterschiedlich verstricken. Ein dicht gesponnenes, fest verzwirntes Worsted und ein luftiges, locker gesponnenes Worsted können bei derselben Nadelstärke deutlich unterschiedliche Gestricke ergeben.
 
 Die Banderole ist ein Vorschlag. Die Maschenprobe ist der Test.
 
 Strick mit dem Ersatzgarn und prüfe, ob du die Maschenprobe der Anleitung erreichst und dabei ein Gestrick bekommst, das du wirklich tragen oder benutzen möchtest. Richtige Zahlen auf steifem, leblosem Stoff sind kein erfolgreicher Garnersatz.
 
+Verwende das angegebene Strickmuster und arbeite wie im Projekt in Reihen oder Runden. Vergleiche im Zustand, den die Anleitung vorgibt. Wasch und spanne die Probe außerdem so, wie die Garnpflege es erlaubt und du das fertige Stück behandeln wirst. Miss sie vollständig trocken. Zähle Maschen und Reihen beziehungsweise Runden über die angegebene Messstrecke. Die Reihenzahl ist wichtig, wenn Länge oder Formgebung von festen Reihenangaben abhängen.
+
+Beurteile auch Fall, Gewicht, Maschenbild und Rücksprung nach leichtem Dehnen. Verbessert eine andere Nadelstärke einen Wert, verschlechtert aber das Gestrick oder den anderen Wert, probier ein anderes Garn. [Brooklyn Tweeds Anleitung zur Maschenprobe](https://brooklyntweed.com/pages/swatching-101) erklärt, wie die Probe das Projekt möglichst gut abbildet.
+
 ## Faserverhalten berücksichtigen
 
-Garnstärke und Maschenprobe sagen etwas über die Größe. Die Faser sagt fast alles andere: wie es sich anfühlt, wie es fällt, wie es sich trägt und wie es das Waschen überlebt.
+Die Faserzusammensetzung ist nur ein Teil des Vergleichs. Mischungsverhältnis, Spinnweise, Fadenzahl, Zwirnung, Oberfläche und Behandlung beeinflussen ebenfalls das Gestrick. Der [Faservergleich](/de/artikel/garnfasern-im-vergleich/) stellt Materialien vor; beurteile das konkrete Ersatzgarn an der Maschenprobe.
 
-Der [Faservergleich](/de/artikel/garnfasern-im-vergleich/) geht die Fasern genauer durch, aber für Garnersatz zählt vor allem Folgendes. **Wolle** macht vieles richtig. Sie hat Elastizität und Erinnerung. Sie springt nach dem Dehnen zurück, hält Zöpfe und Strukturmuster schön und reagiert meist gut auf das Spannen. Wolle ist auch beim Stricken verzeihend, weil der Griff zwischen den Fasern Maschen kontrollierbar hält und Ribbeln möglich ist, ohne dass das Garn sofort abgenutzt aussieht. Wenn eine Anleitung für Wolle entworfen wurde und auf diese federnde Struktur setzt, verändert ein Wechsel zu Pflanzenfaser das fertige Stück stärker, als die Maschenprobe vermuten lässt.
+**Wolle:** Braucht das Modell elastische Bündchen oder deutliche Zöpfe, prüfe Rücksprung und Maschenbild an der Probe. Das Wort Wolle garantiert diese Eigenschaften nicht und legt keine Waschmethode fest.
 
-**Baumwolle** ist der häufige Ersatz, der überrascht. Sie ist bei derselben Dicke schwerer als Wolle, hat fast keine Elastizität und wächst durch Schwerkraft und Waschen. Ein Baumwollpullover hängt anders als ein Wollpullover, selbst wenn die Maschenprobe perfekt stimmt. Trotzdem funktioniert Baumwolle gut für Spültücher, Sommertops und alles, wo Fall wichtiger ist als Struktur. Erwarte nur nicht, dass sie ein Zopfmuster so hält wie Wolle.
+**Baumwolle:** Geh nicht davon aus, dass Baumwolle sich wie das ursprüngliche Wollgarn verhält. Prüfe Formstabilität, Gewicht und Fall nach dem Waschen. Mischungen und luftige Garnkonstruktionen müssen einzeln beurteilt werden.
 
-**Acryl** erledigt die Aufgabe bei Projekten, die Maschinenwäsche und harte Nutzung aushalten müssen: Babydecken, Charity-Stricken, Geschenke für Menschen, die nicht von Hand waschen. Es lässt sich nicht wie Wolle spannen, daher können Lochmuster, die starkes Spannen brauchen, enttäuschend aussehen.
+**Acryl:** Prüfe die konkreten Hinweise zu Waschen, Trocknen und Wärmebehandlung. Der Fasername verspricht weder Strapazierfähigkeit noch die gewünschte Form eines Lochmusters nach dem Spannen.
 
-**Mischungen** machen Garnersatz oft leichter, weil sie Unterschiede abfedern. Ein Woll-Nylon-Sockengarn verhält sich anders als reine Wolle, behält aber genug Elastizität für ähnliche Projekte. Nylon bringt Haltbarkeit an stark beanspruchten Stellen, ohne den Charakter stark zu verändern.
+**Mischungen:** Vergleiche Faseranteile und Konstruktion. Wolle/Polyamid entspricht nicht automatisch reiner Wolle; Polyamid allein belegt nicht die für dein Projekt nötige Haltbarkeit.
 
-**Superwash und normale Wolle** überraschen häufiger als erwartet. Superwash ist glatter, dehnt sich mit der Zeit stärker und kann nach dem Waschen wachsen. Wenn das Original eine griffige, federnde Wolle verlangt, die Struktur hält, kann ein Superwash-Ersatz anfangs passen und später hängen.
+**Superwash und unbehandelte Wolle:** Beachte die Pflegehinweise des Herstellers und die gewaschene Probe. Nicht alle Superwashgarne dehnen sich gleich oder ersetzen unbehandelte Wolle. Die [Pflegehinweise von DROPS](https://www.garnstudio.com/yarn-care.php?cid=9) zeigen, warum die Pflege für das konkrete Garn geprüft werden muss.
 
 ## Meter berechnen, nicht Knäuel
 
-Die Anleitung sagt 5 Knäuel. Diese Zahl bedeutet nur etwas, wenn dein Ersatzgarn in exakt derselben Knäuelgröße kommt.
+Die Anleitung sagt 5 Knäuel. Prüfe vor der Übernahme dieser Zahl die Lauflänge pro Original- und Ersatzknäuel. Gleiches Knäuelgewicht bedeutet nicht gleiche Länge.
 
-Multipliziere die Knäuelzahl der Anleitung mit den Metern pro Originalknäuel. Das ist die Gesamtmenge, die du brauchst.
+Multipliziere die Knäuelzahl der Anleitung mit der Lauflänge pro Originalknäuel. Das ergibt die Länge in der empfohlenen Einkaufsmenge, nicht den gemessenen Verbrauch. Verwende den ausdrücklich genannten Meterbedarf, falls vorhanden. Die Umrechnung ist eine Ausgangsschätzung bei vergleichbarer Maschenprobe, ähnlichem Gestrick und unveränderten Maßen, kein Beleg für identischen Verbrauch. [DROPS zeigt die Umrechnung](https://www.garnstudio.com/lesson.php?id=14&cid=9).
 
-**Beispiel:** 5 Knäuel mit 200 m pro Knäuel = 1.000 m insgesamt. Wenn das Ersatzgarn 150 m pro Knäuel hat, teile 1.000 durch 150 und runde auf. Sieben Knäuel.
+**Beispiel:** 5 Knäuel mit je 200 m = 1.000 m. Bei 150 m pro Ersatzknäuel ergibt 1.000 ÷ 150 ≈ 6,67, aufgerundet 7 Knäuel. Sie enthalten 1.050 m, also 50 m mehr als die Ausgangsmenge. Knäuelgewichte fehlen hier, daher lässt sich kein Gesamtgewicht berechnen.
 
-Wenn sich die Materialzusammensetzung ändert, zählen Meter noch mehr. Dasselbe Gewicht pro Knäuel kann sehr unterschiedliche Garnlängen verbergen.
+Vergleiche Lauflängen auf derselben Gewichtsbasis: 100 m pro 50 g = 200 m pro 100 g. Gleiche Meter pro 100 g garantieren dennoch weder gleiche Garnstärke noch gleiches Gestrick. Für den Einkauf teilst du durch die Länge im tatsächlichen Ersatzknäuel.
 
-Der [Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) kann eine Garnbedarfskontrolle nach Projekttyp, Größe und Garnstärke liefern, ersetzt aber weder die Meterangabe der Anleitung noch die Lauflänge des Ersatzgarns oder eine neue Maschenprobe, wenn sich die Maschenprobe ändert.
+Prüfe vor zusätzlicher Reserve, was die Anleitung bereits für Maschenprobe und Fertigstellung einrechnet. Aufrunden garantiert keinen ausreichenden Vorrat; ein Extraknäuel oder ein fester Prozentsatz passt nicht zu jedem Garnwechsel. Berechne und runde jede Farbe einzeln auf.
+
+[Garnbedarfsrechner](/de/werkzeuge/garnbedarfsrechner/) — Referenzmengen benannter Anleitungen, keine persönliche Verbrauchsprognose. Wähle Projekt, Größe einer benannten Anleitung und Einheit. Das Ergebnis ist die Referenzmenge dieser Anleitung, keine Prognose für dein eigenes Projekt.
 
 ## Wann Garnersatz riskant ist
 
-Nicht jedes Projekt verträgt einen Garnwechsel gleich gut. Das sollte klar sein, bevor du acht Knäuel Ersatzgarn kaufst.
+Das Risiko hängt davon ab, was unverändert bleiben muss, nicht nur vom Projektnamen.
 
-**Niedriges Risiko:** Schals, Tücher, Decken, Spültücher. Eine Abweichung von etwa zwei Maschen auf 10 cm verändert die fertige Größe, führt aber meist nicht zu einem Passformproblem wie bei Kleidung. Rechne neu, wenn exakte Deckengröße oder Garnmenge wichtig sind. Das sind die Projekte, bei denen Garnersatz fast immer funktioniert.
+**Weniger passformabhängig:** Schals, Tücher, Decken und Spültücher erlauben teilweise freiere Maße. Prüfe trotzdem Gestrick und Garnmenge; eine Abweichung der Maschenprobe ist nicht automatisch klein oder unsichtbar.
 
-**Mittleres Risiko:** Mützen, Cowls, Taschen. Passform und Struktur zählen mehr, aber kleine Unterschiede sind noch tolerierbar. Eine etwas zu große Mütze wird durch Spannen nicht zuverlässig kleiner; prüfe die Maschenprobe erneut oder schenk sie jemandem mit größerem Kopf.
+**Passform oder Struktur zählt:** Mützen, Cowls und Taschen brauchen passende Maße, Dehnbarkeit oder Festigkeit. Eine etwas zu große Mütze wird durch Spannen nicht zuverlässig kleiner; prüfe die Maschenprobe erneut oder schenk sie jemandem mit größerem Kopf.
 
-**Hohes Risiko:** körpernahe Kleidung, Socken, Handschuhe. Kleine Unterschiede in der Maschenprobe vervielfachen sich über viele Zentimeter, und das Faserverhalten zählt genauso wie die Maschenzahl. Ein Pullover aus dem falschen Garn kann untragbar werden, obwohl die Rechnung gut aussah. Strick eine gründliche Maschenprobe und betrachte sie ehrlich.
+**Körpernahe Kleidung:** Socken, Handschuhe und eng sitzende Modelle erfordern eine genaue Prüfung von Maschenprobe und Rücksprung. Passende Maschenzahlen pro Messstrecke reichen nicht, wenn Reihenangaben Länge und Formgebung bestimmen.
 
-**Sehr hohes Risiko, fast lieber lassen:** Projekte, die um einen bestimmten Fasereffekt herum entworfen wurden. Mohair-Halo. Seidenglanz. Griffige Wolle für mehrfarbiges Stricken, bei dem die Maschen ineinandergreifen sollen. Ein bestimmter Fall, der nur mit genau diesem Garn funktioniert. Solche Projekte können ihren Charakter völlig verändern, selbst wenn die Maschenprobe stimmt. Wenn die Designerin das Garn aus einem anderen Grund als Garnstärke und Farbe gewählt hat, arbeitet der Garnersatz gegen die Konstruktion.
+**Ein bestimmter Garneffekt:** Mohairflaum, Seidenglanz oder eine besondere Oberfläche und ein bestimmter Fall müssen auch optisch und durch Anfassen beurteilt werden. Gleiche Maschenprobe erzeugt diese Effekte nicht automatisch. Nutze vorhandene Angaben der Anleitung zu den Garneigenschaften.
 
 ## Checkliste für Garnersatz
 
 Vor dem Kauf:
 
-1. Gleiche Garnstärke wie das Anleitungsgarn. Nicht verhandelbar.
-2. Maschenprobenbereich auf der Banderole überschneidet sich mit der Anleitung. Nah genug für eine Maschenprobe.
-3. Faser verhält sich ähnlich. Elastizität, Fall, Reaktion auf Spannen.
-4. Gesamtmeter aus Metern berechnet, nicht aus der Knäuelzahl.
-5. Ein Extraknäuel, wenn du es bekommen kannst. Farbpartien verschwinden.
+1. Nutze eine ähnliche Garnstärke zur Vorauswahl, nicht als Eignungsgarantie.
+2. Vergleiche Maschenprobe und Nadelvorschlag der Banderole mit Strickmuster und gewünschtem Gestrick.
+3. Prüfe Zusammensetzung, Konstruktion, Oberfläche und Pflege sowie die für das Modell nötigen Eigenschaften.
+4. Rechne die Originalmenge in Länge um und teile durch die Lauflänge pro Ersatzknäuel.
+5. Plane zusätzliche Reserve getrennt. Prüfe bereits enthaltene Zuschläge und die Verfügbarkeit derselben Farbpartie.
 
-Nach dem Kauf:
+Nach dem Kauf einer Garnprobe:
 
-6. Strick eine Maschenprobe im Muster der Anleitung mit den empfohlenen Nadeln.
-7. Wasch und spanne die Probe so, wie du das fertige Stück pflegen wirst. Dieser Schritt wird ständig übersprungen. Überspring ihn nicht.
-8. Miss die Maschenprobe und betrachte das Gestrick. Wenn Zahlen und Griff stimmen, weiter. Wenn die Zahlen stimmen, aber der Stoff falsch ist, probier eine andere Nadelstärke oder ein anderes Garn.
+6. Strick im angegebenen Muster, in Reihen oder Runden wie das Projekt. Beginne mit den empfohlenen Nadeln.
+7. Wasch und spanne entsprechend der Garnpflege und der vorgesehenen Behandlung des fertigen Stücks. Lass die Probe vollständig trocknen.
+8. Vergleiche Maschen und Reihen im vorgeschriebenen Zustand und beurteile das Gestrick. Ändere die Nadelstärke nur, wenn beides passt; wähle sonst ein anderes Garn.
 
 ## FAQ
 
 **Kann ich eine andere Garnstärke ersetzen, wenn ich die Nadelstärke ändere?**
-Technisch manchmal, aber der Charakter des Gestricks ändert sich. Dickeres Garn auf kleineren Nadeln wird dicht und steif. Dünneres Garn auf größeren Nadeln wird locker und offen. Bei manchen Projekten passt das. Bei anderen zerstört es die Idee des Designs, besonders bei Kleidung, bei der Fall und Griff wichtig sind.
+Manchmal, aber die Nadelstärke allein macht unterschiedliche Garne nicht gleichwertig. Prüfe Maschenprobe und brauchbares Gestrick gemeinsam. Erzwungene Zahlen können zu zu dichtem oder zu offenem Gestrick führen. Andere Maschen- oder Reihenzahlen erfordern eine Anpassung der Anleitung außerhalb dieser Checkliste.
 
 **Das Anleitungsgarn ist eingestellt. Wie finde ich einen guten Ersatz?**
-Die Garndatenbank von Ravelry ist ein guter Startpunkt, weil du Garnstärke, Faser und Maschenprobenbereiche nebeneinander vergleichen kannst. Ein guter lokaler Garnladen hilft ebenfalls, wenn du konkrete Angaben mitbringst: Maschenprobe der Anleitung, Gesamtmeter und Materialzusammensetzung. "Was ist ähnlich?" ohne diese Zahlen zwingt das Personal zum Raten.
+Ravelrys Garndatenbank hilft bei der Suche nach Angaben zu Garnstärke, Zusammensetzung und Maschenprobe. Bestätige die genaue Garnvariante und aktuelle Daten beim Hersteller; ein Datenbankeintrag prüft keine Eignung. Nimm die Maschenprobe der Anleitung, das Strickmuster, den Meterbedarf und die Originalgarndaten mit in den Garnladen.
 
 **Muss die Fadenzahl übereinstimmen?**
-Nein. Ply beschreibt die Konstruktion, nicht die Dicke. Ein 2-ply kann dicker sein als ein 4-ply, je nachdem, wie die Einzelfäden gesponnen sind. Gleiche Maschenprobe, Garnstärke und Faserverhalten ab. Die Fadenzahl ist interessant, aber kein Ersatzkriterium.
+Nicht unbedingt, aber die Konstruktion zählt. Ein tatsächlich zweifach verzwirntes Garn besteht aus zwei zusammengedrehten Einzelfäden; deren Zahl allein bestimmt nicht die Garnstärke. Regionale Bezeichnungen wie 4-ply können stattdessen eine Stärkenklasse meinen, wie [Ravelrys Tabelle](https://www.ravelry.com/help/yarn/weights) zeigt. Vergleiche auch Zwirnung, Oberfläche, Maschenbild und Rücksprung. Das ist etwas anderes als Stricken mit mehreren separat zusammengehaltenen Garnen.
 
 **Was ist mit handgefärbtem und industriell gefärbtem Garn?**
-Handgefärbtes Garn hat oft mehr sichtbare Farbabweichung zwischen Knäueln und manchmal innerhalb eines Knäuels. Bei größeren Projekten hilft es, Knäuel alle zwei Reihen abzuwechseln. So verteilt sich die Variation im Stoff, statt harte Farbübergänge an Knäuelwechseln zu erzeugen. Es ist zusätzliche Arbeit, aber bei allem Größeren als einer Mütze lohnt sie sich.
+Vergleiche die Knäuel und folge den Hinweisen der Färberei. Abwechselndes Verstricken kann Farbunterschiede verteilen; der Rhythmus hängt vom Garn und vom Stricken in Reihen oder Runden ab. Teste es an der Probe, denn Unterschiede verschwinden nicht garantiert. Auch innerhalb einer handgefärbten Partie sind Abweichungen möglich.

@@ -2,6 +2,7 @@
 title: "Changer d'épaisseur de fil : quand et comment"
 description: "Comment utiliser une autre épaisseur de fil dans un modèle : recalcul des mailles, aiguilles, métrage, échantillon et limites à respecter."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: "yarn"
 categoryOrder: 7
 tags:
@@ -16,148 +17,95 @@ lang: fr
 translationKey: "yarn-weight-substitution"
 ---
 
-Changer de marque dans la même catégorie d'épaisseur est une chose. Changer vraiment d'épaisseur de fil en est une autre. Parfois, c'est exactement le but : un modèle en Fingering te plaît, mais tu veux une version plus chaude et plus rapide en DK. Parfois, cela devient discrètement une réécriture du modèle, et tu comprends à mi-chemin que le modèle portait le comportement du fil d'origine plus que prévu.
+Changer de marque dans la même catégorie d'épaisseur est une chose. Changer vraiment d'épaisseur de fil en est une autre. Parfois, tu recherches un tricot différent ; parfois, il faut revoir les explications.
 
-Remplacer par une autre épaisseur de fil signifie utiliser un fil plus fin ou plus épais que celui prévu par le modèle. Il faut alors recalculer le nombre de mailles, la taille d'aiguilles et le métrage total à partir du nouvel échantillon. Les calculs eux-mêmes ne sont pas le plus dur. La vraie question est de savoir si le tissu fini aura encore du sens pour le projet que le modèle devait créer.
+L'épaisseur ne désigne pas le poids en grammes. Essaie d'abord d'obtenir l'échantillon du modèle avec un tricot adapté au projet. Les nombres de mailles peuvent alors convenir sans modification. Garder un autre échantillon implique une adaptation volontaire du modèle. Changer d'aiguilles ou tricoter deux fils ensemble ne fait pas cette adaptation à ta place.
 
 ## Ce qui change quand tu changes d'épaisseur
 
-Beaucoup de choses. Autant le dire clairement.
+**Le nombre de mailles dépend de l'échantillon mesuré.** Avec 200 mailles inchangées, 20 mailles pour 10 cm donnent un tour de 100 cm. À 16 mailles pour 10 cm, il devient 125 cm, soit 25 % de plus que les 100 cm d'origine. Pour garder 100 cm, il faut plutôt 160 mailles, avant de vérifier la construction et les répétitions.
 
-**Le nombre de mailles change** parce qu'un fil plus épais donne moins de mailles pour 10 cm et un fil plus fin en donne davantage. Un modèle écrit pour 20 mailles pour 10 cm et recalculé à 16 mailles pour 10 cm demande de nouveaux nombres de mailles partout : corps, manches, encolure, augmentations et diminutions.
+**La taille d'aiguilles se détermine par essai**, pas par calcul à partir de la catégorie. Le bon nombre de mailles pour 10 cm ne suffit pas si le tricot est trop raide, ajouré ou lourd.
 
-**La taille d'aiguilles change**, et l'aiguille recommandée par le modèle n'est plus automatiquement pertinente. Pars de la plage conseillée pour le nouveau fil, puis laisse l'échantillon confirmer.
-
-**Le caractère du tissu change.** Un modèle écrit pour du DK peut devenir lourd et raide en Worsted, ou aérien et lâche en Fingering. Profondeur des torsades, ouverture de la dentelle, tombé, main du tissu : tout bouge.
-
-**L'estimation de métrage d'origine cesse d'être fiable.** Le nombre "8 pelotes de 200 m" du modèle a été calculé pour un fil précis à un échantillon précis. Si tu changes l'un des deux, le total glisse.
-
-**Le temps de projet change**, et c'est parfois toute la raison du changement. Une version Worsted d'un pull Fingering monte beaucoup plus vite. Sur un projet qui se mesure en mois, ce n'est pas un détail.
+**Le tricot et le métrage se vérifient séparément.** Compare les fibres, la construction du fil, le tombé, la reprise de forme et l'entretien. Moins de mailles ne justifie pas une réduction proportionnelle des mètres ou des grammes.
 
 ## Quand le changement d'épaisseur marche bien
 
-Monter ou descendre d'une seule catégorie d'épaisseur dans un modèle simple est le cas le plus maîtrisable. Écharpes, beaucoup de cols, couvertures et sacs simples ont assez de tolérance pour absorber une part de variation de taille. Et parfois, le but est vraiment d'obtenir un tissu différent. Un modèle de châle prévu en Fingering et tricoté en DK donne un grand châle plus chaud. Ce n'est pas une erreur, c'est un choix.
+Un rectangle dont les dimensions finales sont souples constitue une première adaptation simple à suivre : choisis la largeur, calcule les mailles, vérifie toute la répétition et tricote jusqu'à la longueur voulue. Même une écharpe exige un tricot adapté et assez de fil.
 
-Les vêtements droits et amples tolèrent mieux les changements d'épaisseur que les vêtements ajustés. Un pull à épaules tombantes avec peu de mise en forme pardonne davantage. Une coupe près du corps avec manches montées et taille marquée, beaucoup moins.
+Un vêtement droit et ample comporte moins de mise en forme qu'un vêtement ajusté, mais manches, encolure et emmanchures doivent toujours convenir. Une catégorie d'écart n'est pas une limite de sécurité. Les [catégories du CYC](https://www.craftyarncouncil.com/standards/yarn-weight-system) sont indicatives ; Worsted et Aran appartiennent toutes deux à Medium.
 
 ## Quand cela devient risqué
 
-Changer de plus d'une catégorie dans un sens ou dans l'autre modifie vite le tissu et les proportions.
+L'aisance, la mise en forme et les proportions dépendent des mailles et des rangs par unité de mesure. Les diminutions de tête de manche, la profondeur d'emmanchure, l'encolure et la hauteur d'empiècement ne se recalculent pas avec un seul rapport de mailles du corps.
 
-Les vêtements ajustés sont les plus risqués. L'aisance, les augmentations, les diminutions et les proportions ont été calculées pour l'échantillon d'origine. Changer l'épaisseur te pousse vers une vraie réécriture du modèle, pas seulement une substitution.
+En jacquard à deux couleurs, la couleur inutilisée passe derrière les mailles en un fil flottant. Le maintenir en place ne crée pas un deuxième brin. Évalue épaisseur et souplesse dans un échantillon du jacquard ; la catégorie de fil ne garantit ni épaisseur double ni protection contre le vent.
 
-Les têtes de manche sont particulièrement sensibles : les diminutions rang par rang qui les forment dépendent aussi de l'échantillon en rangs. Un autre fil change cet échantillon d'une façon que le simple nombre de mailles ne résout pas.
-
-La dentelle dépend de l'échelle. Un motif ajouré qui s'ouvre joliment en Fingering sur des aiguilles fines peut devenir lourd et confus en Worsted avec le même nombre de mailles. Les trous grandissent, mais les proportions ne suivent pas toujours. Certains motifs survivent au changement d'échelle. D'autres non.
-
-Le jacquard à fils tirés devient vite épais quand le fil grossit. Dans un jacquard à fils tirés à deux couleurs, le fil de la couleur non utilisée passe derrière les mailles tricotées en formant un seul fil flottant. Attraper ce fil flottant permet de le maintenir en place ; cela ne crée pas un deuxième brin. Un pull Fair Isle en Worsted peut devenir double épaisseur dans les zones jacquard : très bien pour un vêtement d'extérieur, moins agréable près du corps. Les épaisseurs plus fines restent souples. Les plus grosses deviennent presque des coupe-vent.
-
-Les torsades changent aussi d'effet. Une torsade sur 4 mailles en Fingering paraît fine. Le même croisement en Bulky consomme nettement plus de fil par croisement et donne une présence visuelle beaucoup plus forte.
-
-Pour une substitution dans la même épaisseur, c'est-à-dire changer de marque plutôt que de catégorie, le guide pour [remplacer un fil dans un modèle](/fr/articles/remplacer-un-fil-dans-un-modele/) couvre cette situation.
+Le guide pour [remplacer un fil dans un modèle](/fr/articles/remplacer-un-fil-dans-un-modele/) aide à choisir le fil et à évaluer le tricot. Modifier les nombres de mailles est une étape distincte.
 
 ## Exemple : modèle Worsted avec fil DK
 
-Imagine un pull écrit pour du Worsted, avec un échantillon de 20 mailles pour 10 cm et 100 cm de tour de poitrine fini. Cela donne 200 mailles autour du corps. Tu veux le tricoter en DK, et ton échantillon donne 24 mailles pour 10 cm.
+Il s'agit d'un calcul de dimensions fictif, pas de la conversion complète d'un pull. Compare le même point, le même état de traitement et la même méthode de tricot. Le tour de poitrine fini est de 100 cm, aisance choisie comprise. L'ancien échantillon de 20 mailles pour 10 cm donne 200 mailles. Le nouvel échantillon mesuré est de 24 mailles pour 10 cm. Pour les mêmes 100 cm, il faut 100 ÷ 10 × 24 = **240 mailles**. Le rapport est 24 ÷ 20 = 1,2, soit 20 % de plus que les 200 mailles d'origine. Garder 200 mailles donnerait environ 83,33 cm.
 
-Le nouveau nombre de mailles pour le même tour de poitrine devient 100 / 10 x 24 = 240 mailles.
+Pour le poignet, supposons des échantillons mesurés séparément de 20 et 24 mailles pour 10 cm ; ne transpose pas le jersey aux côtes. Les anciennes 44 mailles donnent **22 cm**, pas 22,5 cm. La même mesure demande désormais 52,8 mailles. Si le nombre doit être pair, 52 mailles donnent environ 21,67 cm et 54 mailles 22,5 cm. Vérifie l'ajustement et la répétition avant de choisir.
 
-Cela fait 40 mailles de plus autour du corps. Les manches se recalculent de la même manière. Si le poignet du modèle comptait 44 mailles à l'échantillon Worsted, soit environ 22,5 cm de circonférence, la version DK demandera 54 mailles pour obtenir la même circonférence.
+Une section droite de 40 cm demande 112 rangs avec l'ancien échantillon de 28 rangs pour 10 cm et **128 rangs** avec le nouveau de 32 rangs pour 10 cm. En rond, utilise l'échantillon mesuré en tours. Le rapport est 32 ÷ 28, pas 24 ÷ 20. Une ancienne section de 50 rangs mesurait environ 17,86 cm et demande maintenant environ 57,14 rangs : 57 donnent environ 17,81 cm et 58 environ 18,13 cm. Vérifie répétitions en hauteur et mise en forme.
 
-L'échantillon en rangs change aussi. Le Worsted peut donner 28 rangs pour 10 cm, et le DK 32 rangs pour 10 cm. Un corps qui doit mesurer 40 cm de haut demande 112 rangs en Worsted et 128 rangs en DK. Là où le modèle dit "tricoter 50 rangs", repars de la longueur finie au lieu de suivre le nombre de rangs tel quel.
-
-Puis vient le métrage. Le modèle d'origine demandait 1 280 m de Worsted. Le DK sur la même surface finie demande plus de mètres parce que chaque maille est plus fine et que les nombres de mailles et de rangs augmentent. Pour cet exemple, une fourchette de planification autour de 1 650 à 1 830 m est plus réaliste que de supposer que les 1 280 m d'origine suffiront encore. L'[Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) donne une fourchette de planification approximative selon le type de projet, la taille et l'épaisseur du fil, mais il n'utilise pas les mesures de ton échantillon.
-
-Chaque conversion a ses propres calculs, mais la structure reste la même : transformer les mesures finies avec le nouvel échantillon, puis recalculer tout ce qui repose sur des rangs plutôt que sur des centimètres.
+Ces nombres ne justifient aucune nouvelle fourchette de métrage. [Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) — Quantités de référence de modèles nommés, pas une prévision personnalisée de consommation. Choisis un projet, une taille d’un modèle nommé et une unité. Le résultat est la quantité de référence de ce modèle, pas une prévision pour ton propre projet.
 
 ## Recalculer étape par étape
 
-Si tu décides de continuer, le processus ressemble à ceci :
-
-1. Tricote un échantillon avec le nouveau fil et des aiguilles adaptées jusqu'à obtenir un tissu qui a le bon aspect et la bonne main. Cet échantillon devient ton point de départ. Pas l'échantillon de l'étiquette, pas celui du modèle, mais celui que tu obtiens vraiment. Le guide pour [mesurer l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/) détaille la méthode.
-
-2. Extrais les mesures finies du modèle : tour de corps, longueur, longueur de manche, tour de manche, profondeur d'encolure. Travaille depuis les mesures, pas depuis les nombres de mailles d'origine.
-
-3. Recalcule les nombres de mailles avec le nouvel échantillon. Le [Calculateur de mailles à monter](/fr/outils/calculateur-mailles-a-monter/) de KnitTools gère le calcul largeur vers nombre de mailles.
-
-4. Respecte les répétitions de point et les mailles d'équilibre. Si le point demande un multiple de 8 mailles plus 2, le nouveau montage doit encore tomber sur ce multiple. Arrondis vers le haut ou vers le bas au nombre utilisable le plus proche.
-
-5. Recalcule les nombres de rangs partout où le modèle dépend des rangs plutôt que des mesures. Les têtes de manche et les mises en forme précises sont les plus délicates, parce que le rythme des diminutions dépendait de l'échantillon en rangs d'origine.
-
-6. Recalcule le métrage depuis le nouvel échantillon et les mesures finies. Ne reprends pas le total d'origine tel quel.
-
-Pour une construction complexe, passer chaque section sur papier avant de monter les mailles évite beaucoup de frustration. L'échantillon dit ce que le tissu fait. Les calculs disent quelle quantité de ce tissu il faut produire.
+1. Tricote l'échantillon dans le point du projet, à plat ou en rond comme l'ouvrage. Compare dans l'état indiqué par le modèle ; lave et termine selon l'entretien permis par le fil et l'usage prévu, puis mesure complètement sec. Vérifie mailles, rangs ou tours et qualité du tricot. Voir le guide pour [mesurer l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/).
+2. Choisis les dimensions finies et l'aisance. Distingue circonférence et largeur d'une pièce à plat ; prévois coutures, bordures et bandes de boutonnage si nécessaire.
+3. Calcule chaque partie avec son propre échantillon. Le [Calculateur de mailles à monter](/fr/outils/calculateur-mailles-a-monter/) arrondit le nombre obtenu à partir de la largeur à un nombre pair. Il ne traite ni répétitions, ni lisières, ni mise en forme, ni redimensionnement complet.
+4. Garde la formule entière. Pour une pièce à plat de 8 × n + 2 mailles au total, 240 ne convient pas. Les nombres voisins sont 234 et 242 ; à 24 mailles pour 10 cm, ils donnent 97,5 et environ 100,83 cm. Les deux mailles supplémentaires comptent une fois ; vérifie si des lisières distinctes s'ajoutent.
+5. Vérifie le nombre et la répartition des augmentations et diminutions selon largeur et hauteur. Manches, emmanchures, encolure, empiècement et répétitions en hauteur demandent leurs propres calculs.
+6. Utilise une version du modèle prévue pour le nouveau fil et l'échantillon, ou estime la quantité d'après la consommation d'un échantillon représentatif et la surface prévue. Traite séparément bordures, couleurs, finitions et marge déjà comprise. L'échantillon chiffré et la surface seuls ne donnent pas un métrage.
 
 ## Tricoter deux fils ensemble pour changer d'épaisseur
 
-Au lieu d'acheter un fil plus épais, tu peux tricoter deux brins ensemble et les traiter comme un seul fil de travail.
+Tiens deux brins ensemble et tricote-les comme un seul. Teste la combinaison : fibres, torsion et construction influencent le résultat. Deux brins Fingering ne sont pas toujours équivalents à du DK ; un brin unique ne donne pas toujours des torsades plus nettes.
 
-Cela sert souvent à utiliser le stock, créer des effets chinés ou obtenir un tissu qu'aucun fil unique ne donnerait exactement.
-
-Repères grossiers pour tricoter deux brins ensemble :
-
-- 2 brins Lace ≈ Fingering ou Sport
-- 2 brins Fingering ≈ DK ou Light Worsted
-- 2 brins Sport ≈ Worsted ou Aran
-- 2 brins DK ≈ Aran ou Bulky
-- 2 brins Worsted ≈ Bulky ou Super Bulky
-
-Ces repères sont approximatifs. Deux brins ensemble se comportent souvent de façon plus gonflante qu'un fil unique de même épaisseur nominale, et la définition de maille est souvent plus douce. Deux brins Fingering tricotés à un échantillon DK peuvent donner un tissu plus aérien qu'une vraie pelote DK, ce qui convient bien aux châles et aux couches extérieures. Pour des torsades très nettes, un fil unique garde l'avantage.
-
-Un vrai échantillon reste obligatoire. Les repères ci-dessus t'amènent dans la bonne zone d'aiguilles. L'échantillon dit si le tissu obtenu est celui que tu veux.
+Si tu as besoin, par hypothèse, de 300 m de fil de travail double, il faut **300 m de chaque fil**, soit 600 m de fils individuels au total. Avec des pelotes de 150 m / 50 g pour chacun, cela représente 2 pelotes de chaque fil, 4 pelotes et 200 g au total. Ce calcul ne prouve pas qu'un vêtement demande 300 m ; échantillon et marge ne sont pas compris. Arrondis chaque fil et chaque couleur séparément. Prendre les deux extrémités d'une pelote ne double pas sa longueur disponible.
 
 ## Modèles anciens et noms d'épaisseurs imprécis
 
-Les modèles anciens n'utilisent pas toujours les noms d'épaisseur aussi régulièrement que les catégories modernes du Craft Yarn Council. Un modèle peut donner un nom de fil, un poids en grammes, une taille d'aiguilles et un échantillon, sans dire clairement "DK" ou "Worsted".
+Ne déduis pas l'épaisseur d'un fil ancien de son seul nom. Lis l'échantillon, le point, les mesures et les éventuelles spécifications d'origine conservées. Une information manquante ne permet pas d'attribuer une catégorie actuelle.
 
-Si un modèle ancien indique "knitting worsted" mais donne un échantillon autour de 24 mailles pour 10 cm, vérifie l'échantillon avant de supposer qu'un Worsted actuel est le bon choix. Le fil prévu était peut-être plus proche d'un Sport, d'un DK ou d'un Light Worsted moderne. Remplacer directement par un Worsted actuel peut produire un vêtement plus épais, plus lâche et très différent de l'original.
-
-La solution reste la même : comprendre l'échantillon pour lequel le modèle a été construit, choisir un fil moderne qui peut atteindre cet échantillon, puis recalculer depuis les mesures. Si l'étiquette du fil manque, le WPI peut aider à deviner une épaisseur, mais les catégories restent des repères, pas des promesses. L'échantillon tranche quand même.
+Un nom régional comme 4-ply peut désigner une classe d'épaisseur ; ply décrit aussi les brins retordus pour former un fil. Cela ne signifie pas tricoter quatre fils séparés ensemble. Le [tableau terminologique de Ravelry](https://www.ravelry.com/help/yarn/weights) montre ces usages régionaux. Recherche l'échantillon requis avec un tricot adapté, ou procède à une adaptation volontaire.
 
 ## Dentelle et texture dans la nouvelle épaisseur
 
-Les motifs ajourés et les points très texturés sont réglés pour le fil d'origine. Les agrandir ou les réduire garde rarement exactement le même effet visuel.
+Tricote des répétitions complètes du point ajouré ou texturé et mesure leur largeur et leur hauteur après la finition prévue. Évalue ouvertures, netteté des torsades et tombé. Un ou deux écarts de catégorie ne prédisent pas ces propriétés.
 
-En dentelle, l'ouverture de chaque jeté dépend à la fois de l'épaisseur du fil et de la taille d'aiguilles. Un motif délicat en Fingering peut rester intéressant en Worsted, mais les proportions se lisent autrement. Les trous deviennent de petites fenêtres au lieu de points fins. Si le modèle devait être très aérien, cet effet peut disparaître dans un fil plus gros.
-
-Pour les textures, comme le point de riz, les nopes ou les mailles glissées, le rythme du point survit souvent à un changement d'une catégorie. Deux catégories commencent à pousser les proportions. Des nopes en Bulky deviennent visuellement dominantes d'une façon que des nopes en Fingering ne font jamais.
-
-Ce n'est pas une règle absolue. Tricote le point du modèle dans le nouveau fil et regarde le tissu honnêtement. Le tissu dit ce qui est possible.
+Une répétition à nombre de rangs fixe change de hauteur avec l'échantillon en rangs. Déplacer un motif ou changer le nombre de répétitions affecte aussi la mise en forme autour ; vérifie toute la section concernée.
 
 ## Questions courantes
 
-**Descendre d'une épaisseur pour rendre un modèle plus léger et plus délicat** fonctionne, avec les mêmes réserves dans l'autre sens. Le projet prend plus longtemps, le nombre de mailles augmente et le caractère du tissu change. Les calculs sont les mêmes.
+**Garder l'échantillon du modèle :** conserve les nombres seulement si le tricot et les mesures nécessaires en mailles et en rangs conviennent.
 
-**Monter en épaisseur pour terminer plus vite** est souvent possible, mais attention aux vêtements ajustés où la mise en forme devient vite complexe. Un pull droit et ample se redimensionne mieux qu'un gilet cintré à la taille.
+**Garder un autre échantillon :** calcule les dimensions et vérifie la construction. Changer d'aiguilles est un essai, pas une garantie.
 
-**La taille d'aiguilles du modèle devra presque sûrement changer.** Pars de la plage recommandée pour le nouveau fil, puis fais confiance à l'échantillon.
+**Suivre une autre taille indiquée :** le bon nombre de mailles du corps fait de cette taille une candidate. Plus de mailles pour 10 cm exigent plus de mailles du corps à circonférence égale ; moins en exigent moins. Vérifie toutes les autres mesures, l'aisance, les longueurs et les intervalles de mise en forme. Le bon tour de poitrine ne garantit pas toute la coupe. L'[exemple de Tin Can Knits](https://blog.tincanknits.com/2016/04/07/how-to-knit-a-garment-at-a-different-gauge/) illustre le contrôle séparé d'un motif à nombre de tours fixe.
 
-**Pour une construction de vêtement complexe**, "substitution de fil" n'est pas toujours le bon cadre. Tu es plutôt en train de recalculer le modèle pour un nouvel échantillon. C'est plus qu'un simple échange, et mieux vaut le savoir avant de monter les mailles.
-
-Si tu veux comprendre [pourquoi l'échantillon varie](/fr/articles/comprendre-l-echantillon-au-tricot/) avant de décider si le changement d'épaisseur est raisonnable, ce contexte aide. Une fois le nouveau fil en main, le guide pour [mesurer l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/) est le bon point de départ.
+Lis aussi [pourquoi l'échantillon varie](/fr/articles/comprendre-l-echantillon-au-tricot/) et le guide pour [mesurer l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/).
 
 ## FAQ
 
 **Puis-je changer d'épaisseur sans changer de taille d'aiguilles ?**
-
-Pas vraiment. Des épaisseurs différentes demandent des aiguilles différentes pour produire un tissu raisonnable. Un fil plus gros sur les aiguilles d'origine donne un tissu dense et raide. Un fil plus fin sur les aiguilles d'origine donne un tissu lâche et pendant. Change d'aiguilles.
+Parfois. Essaie les aiguilles prévues et vérifie l'échantillon et le tricot. Change de taille si cela aide, mais choisis un autre fil ou adapte le modèle si les bons chiffres donnent un tricot inadapté.
 
 **Comment savoir si un modèle tolère un changement d'épaisseur ?**
-
-Plus la construction est simple, plus elle pardonne. Les pulls à épaules tombantes, les châles rectangulaires, les écharpes et les couvertures tolèrent souvent bien le changement. Les coupes ajustées, la dentelle fine et le jacquard à fils tirés sont plus difficiles.
+Commence par les mesures et la construction. Un rectangle simple s'adapte plus facilement qu'une coupe ajustée, mais le type de projet ne garantit rien. Vérifie aussi répétitions, tricot et quantité.
 
 **Le vêtement ressemblera-t-il encore à la photo du modèle ?**
-
-Probablement pas, et il faut le savoir avant de s'engager. Un modèle photographié en Fingering et retricoté en Worsted devient un autre vêtement. Parfois c'est une amélioration. Parfois non.
+Ne le suppose pas. Compare la texture, le tombé et l'échelle de l'échantillon fini à l'effet recherché.
 
 **Quel changement d'épaisseur est le plus abordable à tenter ?**
-
-Une seule catégorie vers le haut ou vers le bas, dans un modèle avec peu de mise en forme. Worsted vers Aran dans un pull ample. Fingering vers Sport dans un châle triangulaire. Peu de calculs, une différence de tissu modérée et beaucoup de tolérance sur la taille.
+Un rectangle simple aux dimensions flexibles, ou une version du modèle prévue pour ton échantillon. Le nom de catégorie seul ne mesure pas la difficulté.
 
 **Puis-je mélanger deux épaisseurs de fil dans un même projet ?**
-
-Oui, avec des réserves. Des rayures qui alternent fil plus épais et fil plus fin donnent un effet de rayure texturée. Tenir plusieurs brins ensemble pour créer un fil chiné est courant. Ce qui marche mal, c'est de changer d'épaisseur au milieu d'un rang avec la même tension. Le tissu ne restera pas plat.
+Oui. Teste la combinaison réelle, ensemble ou en rayures et motifs séparés. Vérifie les variations indésirables de largeur, les fronces et les changements après lavage. Changer de fil au milieu d'un rang n'est pas impossible en soi.
 
 **La créatrice du modèle donne-t-elle parfois plusieurs épaisseurs ?**
-
-Certains modèles le font, surtout les modèles récents. Si le même design existe en version Fingering et en version DK, la créatrice a déjà fait les calculs. C'est le changement d'épaisseur le plus confortable, parce que ce n'est presque plus une substitution.
+Oui, parfois. Utilise l'échantillon, les nombres, les mesures et les quantités de la version choisie au lieu de mélanger automatiquement plusieurs versions.

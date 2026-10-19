@@ -13,27 +13,28 @@ tags:
   ]
 lang: fi
 translationKey: "knitting-pattern-repeats"
+updatedDate: 2026-10-18
 ---
 
-Toistojen avulla ohjeen ei tarvitse kirjoittaa jokaista silmukkaa auki 200 silmukan kerroksella. Sen sijaan että ohje sanoisi "2 o, 2 n, 2 o, 2 n, 2 o, 2 n..." viisikymmentä kertaa, se kirjoittaa `*2 o, 2 n; toista * kerroksen loppuun`. Sama lopputulos, paljon vähemmän tilaa.
+200 silmukan kerrokselle mahtuu 50 neljän silmukan jaksoa `2 o, 2 n`. Merkintä `*2 o, 2 n; toista tähdestä kerroksen loppuun` säästää jakson kirjoittamisen 50 kertaa. Jokainen oikea ja nurja silmukka käyttää yhden vanhan silmukan ja tuottaa yhden: lopussa on yhä 200 silmukkaa.
 
-Neuleohjeissa toistot merkitään tähdillä (\*), hakasulkeilla [] tai sulkeilla (). Ne rajaavat silmukkajakson, joka tehdään useita kertoja saman kerroksen aikana. Merkintä on tehokas, kun siihen tottuu. Ensimmäiset sisäkkäiset toistot tai tähdet ylijäävien silmukoiden kanssa voivat silti tuntua kieleltä, jota melkein ymmärtää.
+Seuraavat esimerkit käyttävät [Craft Yarn Councilin kuvaamia toistokäytäntöjä](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern). Välimerkeillä ei ole yhtä yleispätevää merkitystä: lue oman ohjeen selitykset. Mallikerta on silmukoista ja joskus useista kerroksista koostuva kokonaisuus; yhden toiminnon toistaminen ei välttämättä toista koko mallikertaa. Esimerkit ovat erillisiä, eikä niihin lisätä muita reunasilmukoita.
 
 ## Tähtitoistot
 
-Yleisin muoto. Tähti merkitsee toistettavan jakson alun.
+Tässä tähti merkitsee toiston alun ja toistokäsky sen lopun. Tähtipari `* ... *` voi rajata jakson. Kaksoistähti `**` voi olla toinen viitekohta: noudata siihen viittaavaa käskyä, älä tulkitse sitä automaattisesti kahdeksi toistoksi.
 
-**Yksinkertainen:** `*3 o, 1 n; toista * kerroksen loppuun.`
+**Yksinkertainen:** `*3 o, 1 n; toista tähdestä kerroksen loppuun.`
 
-Neulo 3 oikein, 1 nurin, palaa tähteen, neulo 3 oikein, 1 nurin ja jatka, kunnes kerros on valmis. Kokonaismäärän pitää olla neljällä jaollinen, koska toistoyksikkö on 3 o + 1 n.
+Aloita 12 silmukalla ja neulo `3 o, 1 n` kolme kertaa. Jakso käyttää ja tuottaa 4 silmukkaa; neulomatta jää 8, 4 ja 0. Lopussa on 12 silmukkaa. Kaava on 4n, jossa n on jaksojen kokonaismäärä.
 
-**Ylijäävillä silmukoilla:** `1 o, *2 o, 2 n; toista * viimeisiin 3 s asti, 3 o.`
+**Ylijäävillä silmukoilla:** `1 o, *2 o, 2 n; toista tähdestä viimeisiin 3 s asti, 3 o.`
 
-Neulo 1 oikein ennen toiston alkua. Toista sitten 2 o, 2 n kerroksen poikki, ja kun jäljellä on 3 silmukkaa, ei enää kokonaista toistoa, neulo ne 3 oikein. Tähtijakson ulkopuolisia silmukoita kutsutaan tasapainottaviksi silmukoiksi tai reunasilmukoiksi. Niiden avulla kuvio alkaa ja päättyy symmetrisesti.
+Aloita 20 silmukalla: neulo 1 oikein, tee `2 o, 2 n` neljä kertaa ja neulo viimeiset 3 oikein. Neulomatta jää 19, 15, 11, 7, 3 ja 0; lopputulos on 20 silmukkaa. Kaava: 1 + 4n + 3 = 4n + 4. Neljä ulkopuolista silmukkaa sisältyvät jo määrään, joten niitä ei lisätä uudelleen reunuksena. Ne on varattu tarkoituksella, eivätkä tällaiset silmukat aina takaa kuvion symmetriaa.
 
-**Lukumäärällä:** `*lk, 2 o yhteen; toista * vielä 5 kertaa.`
+**Lukumäärällä:** `*lk, 2 o yhteen; toista tähdestä vielä 5 kertaa.`
 
-"Vielä 5 kertaa" tarkoittaa, että teet jakson ensin kerran ja toistat sen sen jälkeen 5 kertaa lisää, yhteensä 6 kertaa. Tämä kompastuttaa monia. "Toista vielä 5 kertaa" = 6 yhteensä. Jos ohje sanoo "toista 5 kertaa" ilman sanaa "vielä", käytä silmukkamäärää varmistamaan, lasketaanko ensimmäinen kerta mukaan.
+”Vielä 5 kertaa” tarkoittaa yhtä ensimmäistä suoritusta ja viittä lisätoistoa, yhteensä kuutta. Aloita 12 silmukalla. Langankierto käyttää 0 vanhaa silmukkaa ja tuottaa 1; 2 o yhteen käyttää 2 ja tuottaa 1. Tee `lk, 2 o yhteen` kuusi kertaa: neulomatta jää 10, 8, 6, 4, 2 ja 0; lopussa on 12 silmukkaa. ”Toista 5 kertaa” ilman sanaa ”vielä” tulkitaan ohjeen käytännön ja asiayhteyden mukaan. Silmukkalasku on tarkistus, ei lupa arvata.
 
 ## Hakasulkeet ja sulkeet
 
@@ -41,84 +42,90 @@ Ne ovat visuaalisempia kuin tähdet.
 
 **Hakasulkeet:** `[1 o, 1 n] 4 kertaa.`
 
-Neulo 1 oikein ja 1 nurin neljä kertaa yhteensä. Kahdeksan silmukkaa, eli 4 kahden silmukan toistoa. Hakasulkeet ovat yksiselitteiset: numero on aina kokonaismäärä.
+Tässä jakso tehdään yhteensä neljä kertaa: `1 o, 1 n, 1 o, 1 n, 1 o, 1 n, 1 o, 1 n`. Alussa ja lopussa on 8 silmukkaa; pari käyttää ja tuottaa 2. Kokonaismäärä perustuu tämän esimerkin sanamuotoon, ei pelkkiin hakasulkeisiin.
 
 **Sulkeet:** `(2 o yhteen, lk) kerroksen loppuun.`
 
-Sama ajatus. Sulkeiden sisällä oleva jakso toistuu koko kerroksen poikki.
+Tässä sulkeet ryhmittelevät kerroksella peräkkäin tehtävät toiminnot. Aloita 8 silmukalla ja tee `2 o yhteen, lk` neljä kertaa: 2→1 ja sitten 0→1, joten 8→8 eikä silmukoita jää yli. Sen sijaan ”(1 o, 1 n, 1 o) samaan seuraavaan silmukkaan” tarkoittaa kolmea toimintoa yhteen vanhaan silmukkaan. Pidä vanha silmukka vasemmalla puikolla viimeiseen toimintoon asti: 1→3. Sulkeissa voi myös olla eri kokojen lukuja; valitse oman koon luku, älä toista luetteloa.
 
-**Sekamerkintä:** `2 o, [1 o, 1 n] 3 kertaa, *4 o, 2 n; toista * viimeisiin 2 s asti, 2 o.`
+**Sekamerkintä:** `2 o, [1 o, 1 n] 3 kertaa, *4 o, 2 n; toista tähdestä viimeisiin 2 s asti, 2 o.`
 
-Sekä hakasulkeet että tähti samalla kerroksella. Lue vasemmalta oikealle: neulo 2 oikein, tee 1 o / 1 n kolme kertaa, eli 6 silmukkaa, ja toista sen jälkeen 4 o / 2 n loppua kohti, viimeistellen 2 oikein. Hakasuljetoisto tapahtuu kerran tietyssä kohdassa. Tähtitoisto täyttää jäljellä olevan leveyden.
+Aloita 22 silmukalla: `2 o`, sitten `1 o, 1 n` kolme kertaa (6 silmukkaa), sitten `4 o, 2 n` kahdesti (12 silmukkaa) ja lopuksi `2 o`. Neulomatta jää 20, 14, 8, 2 ja 0. Hakasulkeiden ryhmä tehdään kerran ennen tähtijaksoa, eikä se toistu tähtijakson mukana. Kaava: 2 + 6 + 6n + 2 = 6n + 10; lopussa 22 silmukkaa.
 
 ## Sisäkkäiset toistot
 
 Joskus toisto on toisen toiston sisällä. Useimmiten monimutkaisessa pitsissä tai kirjoneuleessa.
 
-`*[1 o, 1 n] 3 kertaa, 2 o yhteen, lk; toista * kerroksen loppuun.`
+`*[1 o, 1 n] 3 kertaa, 2 o yhteen, lk; toista tähdestä kerroksen loppuun.`
 
-Sisäinen toisto [1 o, 1 n] 3 kertaa tekee 6 silmukkaa joustinta. Sitten 2 o yhteen käyttää 2 silmukkaa ja tuottaa 1 silmukan, ja lk lisää uuden silmukan. Koko toistoyksikkö kuluttaa vasemmalta puikolta 8 silmukkaa ja palauttaa oikealle puikolle 8 silmukkaa. Sama yksikkö toistuu kerroksen poikki.
+Kun alussa on 16 silmukkaa, avaa ulompi jakso muotoon `1 o, 1 n, 1 o, 1 n, 1 o, 1 n, 2 o yhteen, lk` ja tee koko sarja kahdesti. Sisäinen pari käyttää ja tuottaa 2 silmukkaa, kavennus on 2→1 ja langankierto 0→1: ulompi jakso on 8→8. Yhteensä tulee kuusi sisäistä paria, kaksi kavennusta ja kaksi langankiertoa. Lopussa on 16 silmukkaa, ei ylijäämää. ”3 kertaa” koskee vain hakasulkeiden paria.
 
 Lue sisäkkäiset toistot sisältä ulospäin. Ratkaise ensin hakasulje, ja käsittele sitten koko tähtijakso yhtenä toistoyksikkönä.
 
 ## Aloituskerrokset ja vakiintunut mallineule
 
-Joissakin ohjeissa on set-up row tai set-up round ennen varsinaista toistoa. Aloituskerros järjestää silmukat siihen rytmiin, jota varsinainen mallineule tarvitsee. Ohje voi sanoa: `Set-up row: 2 o, *2 n, 2 o; toista * kerroksen loppuun. Beginning with Row 1, work in pattern as follows...`
+Aloituskerros eli set-up row valmistelee mallineuleen. Tässä erillisessä 18 silmukan esimerkissä neulotaan `2 o, *2 n, 2 o; toista tähdestä kerroksen loppuun`: ensin 2 oikein, sitten `2 n, 2 o` neljä kertaa. Kulutus ja tuotto ovat 2 + 4 × 4 = 18 silmukkaa.
 
-Aloituskerros ei ole osa toistoa. Se tehdään kerran. Sen jälkeen mallineuleen ensimmäinen kerros jatkaa valmiista lähtötilanteesta.
+Tässä aloituskerros tehdään kerran eikä se kuulu seuraavaan numeroituun kerroskiertoon. Oma ohje voi määrätä useampia valmistelukerroksia.
 
-"As established" tai "as set" myöhemmin ohjeessa viittaa tähän jo luotuun rytmiin. Jos villapaidan ohje sanoo "continue armhole shaping, working stitches as established", jatkat samoja oikeiden ja nurjien sarakkeita, palmikoita tai pitsiä, joita olet tehnyt siihen asti. Älä aloita mallineuletta alusta.
+”As established” tarkoittaa mallineuleen kohdistuksen ja kerrosjärjestyksen säilyttämistä annetun muotoilun aikana. Se ei tarkoita mallikerran aloittamista alusta eikä jokaisen kerroksen neulomista samalla tavalla.
 
 ## Monen kerroksen toistot
 
-Jotkut ohjeet kokoavat useita kerroksia yhdeksi jaksoksi.
+Aloita erillinen tasoneuleharjoitus 16 silmukalla ilman ylimääräisiä reunoja. Ensimmäinen oikean puolen kerros on kerros 1:
 
 ```text
-Kerrokset 1-4: *2 o, 2 n; toista * kerroksen loppuun.
-Kerros 5: Neulo oikein.
-Kerros 6: Neulo nurin.
-Toista kerroksia 1-6, kunnes kappaleen pituus on 25 cm.
+Kerrokset 1–4: *2 o, 2 n; toista tähdestä kerroksen loppuun.
+Kerros 5: Neulo kaikki oikein.
+Kerros 6: Neulo kaikki nurin.
+Toista kerroksia 1–6 annetun määrän mukaan.
 ```
 
-Tee 6 kerroksen jakso yhtenä kokonaisuutena ja toista koko jaksoa tavoitepituuteen asti. Kerrokset 1-4 ovat joustinta, kerrokset 5 ja 6 kontrastiosuus, ja koko paketti kiertää uudelleen.
+Jokaisella kerroksella 1–4 tehdään neljä `2 o, 2 n` -jaksoa. Kerroksella 5 neulotaan kaikki 16 oikein ja kerroksella 6 kaikki 16 nurin. Jokainen kerros on 16→16. Käännä työ kerroksen lopussa. Tässä kerrokset 1–4 muodostavat joustinta ja 5–6 sileän raidan; suljettuun neuleeseen ohjetta ei siirretä sellaisenaan.
 
-Varo ohjeita kuten "toista viimeisiä 2 kerrosta" tai "toista vain kerrokset 3 ja 4". Ne tarkoittavat pienempää osaa edellisestä jaksosta, eivät koko 6 kerroksen sarjaa. Tässä kohtaa lasku menee helposti sekaisin, koska mieli nollaa kerrosnumerot. Kerroslaskuri tai paperille tehty viivalista ohittaa ongelman.
+Kerrokset 1–6 sisältävät kuusi kerrosta. Kolme kokonaista suoritusta on 18 kerrosta ja päättyy kierron kerrokseen 6. Ensimmäisten kuuden kerroksen jälkeen kolme **lisätoistoa** antaa 24 kerrosta. ”Toista viimeisiä 2 kerrosta” viittaa kerroksen 6 jälkeen kerroksiin 5–6; ”toista kerroksia 3–4” tarkoittaa eri paria. Molemmissa on kaksi kerrosta. Tavoitepituus, kuten 25 cm, ei yksin määrää kerrosmäärää: tarvitaan kerrostiheys ja tieto lopetuskerroksesta.
 
-Tätä näkee tekstuuripinnoissa, raitajaksoissa ja pitsissä. Kerroslaskuri tai paperille tehty merkintä auttaa tässä, jolloin päässä ei tarvitse pitää, oletko nykyisen jakson kerroksella 3 vai 4.
+Kerroslaskuri tai paperimerkintä auttaa seuraamaan sekä työn kokonaiskerrosmäärää että kohtaa kerroskierrossa.
 
 ## Silmukkamerkit toistojen väliin
 
-Silmukkamerkit toistoyksiköiden välissä tekevät jokaisesta toistosta oman tarkistuspisteensä. Kun saavut seuraavalle merkille ja osion silmukkamäärä on väärä, tiedät täsmälleen missä väli meni pieleen. Koko kerrosta ei tarvitse purkaa virhettä etsiessä.
+Mallikertojen väliset silmukkamerkit auttavat tarkistamaan jakson odotetun silmukkamäärän. Ne eivät todista virheen paikkaa: raja on voinut siirtyä tai virhe olla aiemmalla kerroksella. Tarkista määrä ja silmukoiden järjestys ennen purkamista.
 
-Pitsissä tämä säästää oikeasti aikaa. Toisto, jossa on langankiertoja ja kavennuksia, kuluttaa ja tuottaa yleensä saman määrän silmukoita, ellei ohje nimenomaan lisää tai vähennä. Jos merkille tullessa on yksi silmukka liikaa tai puuttuu yksi, virhe on edellisessä toistossa. Pura vain se väli.
+Pitsimallikerran silmukkamäärä ei välttämättä säily joka kerroksella. Laske kyseisen kerroksen kulutus ja tuotto ja noudata ohjetta merkin siirtämisestä tai rajan ylittävästä toiminnosta. Puuttuva langankierto ja puuttuva kavennus voivat kumota toisensa määrässä, vaikka kuvio olisi väärä.
 
 Sisäkkäisissä kuvioissa kaksi eri merkkiväriä auttaa. Yksi väri rajaa ulommat toistot, toinen sisäiset toistot. Ensimmäisellä monimutkaisella huivilla se voi tuntua pikkutarkalta. Sitten se alkaa tuntua välttämättömältä.
 
 ## Kaaviot ja toistoruudut
 
-Kaaviossa toisto merkitään usein rajatulla alueella, paksulla reunuksella tai värillisellä korostuksella. Rajattu alue on se silmukkajakso, joka toistetaan. Reunuksen ulkopuoliset silmukat tehdään kerran kerroksen alussa tai lopussa, usein reunuksena tai tasapainottavina silmukoina.
+Mallikerran kehys rajaa toistettavan jakson kaavion ohjeen mukaan. Ulkopuoliset silmukat voidaan tehdä kerran ennen jaksoa ja sen jälkeen, tai ohje voi jakaa ne eri kuvioalueisiin ja kokokohtaisiin aloituksiin. Ne eivät automaattisesti ole reunasilmukoita.
 
-Tavallinen pitsikaavion rakenne: reunasilmukat oikealla, toistoruutu keskellä, reunasilmukat vasemmalla. Toistoruutu voi olla 8 tai 12 silmukkaa leveä. Neulot oikean reunan, sitten toistoruudun kerran, uudelleen ja uudelleen, kunnes jäljellä ovat vasemman reunan silmukat.
+Tavallinen lukutapa on alhaalta ylöspäin: oikean puolen kerrokset oikealta vasemmalle, nurjan puolen kerrokset vasemmalta oikealle. Suljetun neuleen kerrokset luetaan oikealta vasemmalle, kun oikea puoli on koko ajan näkyvissä. Tarkista numerointi ja puolikohtaiset merkkiselitteet. Kaaviosta puuttuvat kerrokset neulotaan tekstin mukaan, niitä ei ohiteta.
 
-Joissakin kaavioissa on kaksi toistoaluetta: pystysuora toisto, joka kertoo toistuvat kerrokset, ja vaakasuora toisto, joka kertoo toistuvat silmukat. Pystylaatikko kertoo mallineuleen kerroskierron. Vaakasuora laatikko kertoo silmukkayksikön.
+Vaakatoisto pysyy samalla kaavion kerroksella. Pystysuunnassa palataan nimetyn kerrosvälin alkuun vasta viimeisen kerroksen jälkeen; myös väliin jäävät piirtämättömät kerrokset neulotaan. Noudata seuraavan kerroksen mahdollista uutta aloituskohtaa tai merkin siirtoa.
 
-Lue merkkiselite ennen aloitusta. Suunnittelijat merkitsevät laatikot eri tavoin, ja väärin luettu raja sekoittaa koko mallineuleen.
+Kaavion leveys ei aina vastaa puikolla olevaa silmukkamäärää: kavennus käyttää useita silmukoita, langankierto ei yhtään ja nimenomaisesti ”ei silmukkaa” -ruutu on 0→0. Ohita kaavion ruutu, älä puikon silmukkaa. [Tin Can Knitsin kaavio-opas](https://blog.tincanknits.com/2014/06/06/how-to-read-a-knitting-chart/) selittää lukusuunnat ja mallikertojen rajat.
 
 ## Apulanka monimutkaisiin toistoihin
 
-Apulanka eli lifeline on sileä erivärinen lanka, usein hammaslankaa tai ohutta puuvillalankaa, joka pujotetaan valmiin kerroksen elävien silmukoiden läpi. Jos seuraavat 20 kerrosta menevät pieleen, voit purkaa apulankaan asti luottavaisin mielin. Jokainen silmukka pysyy tallessa apulangalla ja on valmis nostettavaksi takaisin puikolle.
+Apulanka eli lifeline pujotetaan kaikkien puikolla olevien silmukoiden läpi tarkistetussa kohdassa. Käytä sileää eriväristä lankaa, jätä silmukat puikolle, ota myös langankiertolenkit mukaan, älä pujota lankaa silmukkamerkkien läpi ja varmista päiden pysyminen paikallaan.
 
-Pitsissä ja monimutkaisissa palmikoissa apulanka kannattaa laittaa ennen kuin työ alkaa tuntua riskiltä. Pujota uusi apulanka 10-20 kerroksen välein tai luonnolliseen taukokohtaan, kuten kaaviotoiston loppuun tai ennen hankalaa osiota.
-
-Paras kohta on aloituskerros, sileä kerros tai muu selkeä kerros, ei kerros jossa on langankiertoja. Langankierrot tekevät silmukoiden takaisin poimimisesta hankalampaa, koska osa niistä on avoimia aukkoja.
+Valitse tunnistettava, tarkistettu kerros, esimerkiksi mallikerran loppu, ja merkitse sen numero. Yleistä 10–20 kerroksen väliä tai langankiertokerrosten kieltoa ei ole. Jos purat apulankaan asti, palauta jokainen lenkki puikolle ja tarkista silmukoiden asento ja määrä ennen jatkamista.
 
 ## Siirtyvät toistot
 
-Kaikki toistot eivät ala joka kerroksella samasta silmukasta. Joissakin pitsi- ja kirjoneulekuvioissa toisto siirtyy sivusuunnassa muutaman kerroksen välein, jolloin syntyy vinokuvioita tai timantteja. Half-drop-toisto siirtää kuviota puolen toistoyksikön verran jokaisessa pystysuorassa mallikerrassa. Kaavio näyttää tiiliseinältä: jokainen tiilirivi on puolen tiilen verran edellistä sivussa.
+Joissakin malleissa mallikerran aloituskohta siirtyy kerrosten välillä. Vaakasuuntainen half-drop tarkoittaa puolen mallikerran levyistä siirtymää; oma ohje kertoo sen ajankohdan. Kaikki siirtymät eivät ole puolikkaita mallikertoja.
 
-Tekstiohjeessa tämä näkyy usein kahtena vuorottelevana kerroksena: `Row 1: *pattern A; rep from *.` ja `Row 3: K3, *pattern A; rep from * to last 5 sts, work edge stitches.` Siirtymä rakennetaan toiseen kerrokseen muuttamalla kohtaa, josta toisto alkaa.
+Täydellinen tasoneule-esimerkki 16 silmukalle: A tarkoittaa `3 o, 5 n` (8→8).
 
-Näiden lukeminen helpottuu, kun näet siirtymän valmiissa neulepinnassa. Jos olet half-drop-kuvion keskellä ja seuraavan kerroksen toisto ei tunnu osuvan edelliseen, se voi olla tarkoitus eikä virhe.
+```text
+Kerros 1 (OP): tee A kahdesti.
+Kerros 2 (NP): neulo kaikki 16 nurin.
+Kerros 3 (OP): 3 o, tee A kerran, 5 o.
+Kerros 4 (NP): neulo kaikki 16 nurin.
+Toista kerroksia 1–4.
+```
+
+Kerros 1 on `3 o, 5 n, 3 o, 5 n`; kerros 3 on `3 o, 3 o, 5 n, 5 o`. Molemmat käyttävät ja tuottavat 16 silmukkaa ilman ylijäämää. A:n alku siirtyy 3 silmukkaa, ei puolta leveydestään (4). Myös kerrokset 2 ja 4 tehdään; kerroksen 4 jälkeen palataan kerrokseen 1. Vertaa odottamatonta siirtymää oikeaan ohjekerrokseen, älä vain samannäköiseen aiempaan kohtaan.
 
 ## Kun lasku ei täsmää
 
@@ -126,30 +133,30 @@ Jos seuraat toistoa ja silmukoita jää yli tai ne loppuvat liian aikaisin, joki
 
 1. Tarkista silmukkamäärä. Laske puikolla olevat silmukat. Täsmääkö määrä ohjeen omaan kokoon?
 
-2. Tarkista toistoyksikkö. Jos toisto on \*3 o, 2 n eli 5 silmukkaa, kokonaismäärästä pitää vähentää mahdolliset tasapainottavat silmukat, ja loppuosan pitää olla jaollinen viidellä.
+2. Tarkista jakson kulutus. `3 o, 2 n` käyttää ja tuottaa 5 silmukkaa. Ilman reunoja 15 silmukasta tulee kolme jaksoa ja lopussa 15 silmukkaa. Yleinen kaava: lähtömäärä = silmukat ennen + n × jakson kulutus + silmukat jälkeen. Erillinen reunus lisätään vain, jos se ei jo sisälly määrään. Muotoilussa laske myös jokaisen kerroksen tuotto erikseen.
 
 3. Tarkista kokomerkinnät. Monikokoisessa ohjeessa on helppo napata väärä numero sulkumerkkijonosta.
 
-4. Tarkista errata eli ohjeen korjaukset. Jos lasku ei oikealla silmukkamäärällä aidosti toimi, ohjeessa voi olla virhe. Katso suunnittelijan korjaussivu tai Ravelryn muistiinpanot.
+4. Tarkista ohjeversio ja julkaisijan virallinen errata eli korjaukset. Muiden neulojien projektimuistiinpanot voivat antaa vihjeitä, mutta eivät korvaa julkaisijan korjausta. Jos sanamuoto jää ristiriitaiseksi, selvitä tulkinta julkaisijalta sen sijaan, että pakottaisit laskun täsmäämään.
 
 Laajempi [neuleohjeen lukemisen opas](/fi/artikkelit/neuleohjeen-lukeminen/) käsittelee myös kokoja, lyhenteitä ja kaavioita.
 
 ## FAQ
 
 **Mitä "toista \* viimeisiin X s asti" tarkoittaa?**
-Toista, kunnes vasemmalla puikolla on X silmukkaa jäljellä. Ne jäljelle jäävät silmukat tehdään sen mukaan, mitä ohjeessa seuraavaksi sanotaan, yleensä oikein, nurin tai tasapainottava osatoisto.
+Tee kokonaisia jaksoja, kunnes vasemmalla puikolla on X alkuperäistä silmukkaa neulomatta. Neulo ne loppuohjeen mukaan. Älä aloita jaksoa, joka käyttäisi varatut silmukat. Jos määrä ei sovi, tarkista ohje äläkä keksi osatoistoa.
 
 **Lasketaanko ensimmäinen kerta mukaan?**
-Kyllä. "Toista \* vielä 3 kertaa" = 4 kertaa yhteensä, eli 1 ensimmäinen + 3 lisää. "Toista 3 kertaa" ilman sanaa "vielä" tarkoittaa yleensä 3 kertaa yhteensä. Silmukkamäärän lasku kertoo, kumpi tulkinta on oikea, jos sanamuoto on epäselvä.
+Yksi ensimmäinen suoritus ja 3 lisätoistoa on 4 yhteensä: kahden silmukan `lk, 2 o yhteen` -jaksolla 8→8. Kolme suoritusta yhteensä olisi 6→6. Ilman sanaa ”vielä” tarkista ohjeen käytäntö ja asiayhteys; silmukkamäärä ei aina yksin ratkaise epäselvyyttä.
 
 **Miten pysyn mukana pitkässä toistossa?**
-Laita silmukkamerkit toistoyksiköiden väliin. Kun tulet merkille, aloitat puhtaalta pöydältä. Monen kerroksen toistoissa auttaa kerroslaskuri tai paperille tehdyt viivat.
+Käytä merkkejä ohjeen rajojen salliessa ja kirjaa sekä kokonaiskerros että kerroskierron kohta. Merkki on tarkistuspiste, ei käsky aloittaa koko mallineule alusta.
 
 **Miksi tähtiä eikä hakasulkeita?**
-Suunnittelijan mieltymys. Hakasulkeet ovat täsmällisempiä, koska numero on aina kokonaismäärä. Tähdet ovat perinteisiä ja tiiviitä. Osa suunnittelijoista käyttää molempia: tähteä päätoistolle ja hakasulkeita alitoistoille.
+Julkaisija valitsee ryhmittelykäytännön. Tässä `[1 o, 1 n] 4 kertaa` tarkoittaa neljää suoritusta yhteensä. Hakasulkeet eivät kumoa sanaa ”vielä”, ja sulkeissa voi olla myös kokolukuja tai samaan silmukkaan tehtäviä toimintoja.
 
 **Voiko apulangan lisätä kesken kerroksen?**
-Ei helposti. Apulanka toimii parhaiten kokonaisella valmiilla kerroksella, puikolla olevien elävien silmukoiden läpi. Jos haluat apulangan kesken pitkän rivin, neulo kerros ensin loppuun ja pujota apulanka sitten joka silmukan läpi ennen jatkamista.
+Tässä kuvattuun tapaan sopii kokonainen, tarkistettu kerros. Jos huomaat virheen kesken kerroksen, selvitä se ennen apulangan paikan valintaa. Älä neulo virheellistä kerrosta loppuun vain apulankaa varten. Kirjaa kerros ja ota kaikki puikolla olevat lenkit mukaan.
 
 **Mitä jos toisto siirtyy yllättäen?**
-Tarkista, käyttääkö ohje siirtyvää tai half-drop-toistoa. Se voi olla tarkoituksellista. Vertaa uutta kerrosta valmiiseen kohtaan samasta kuviosta. Jos siirtymä vastaa aiempia kerroksia, olet oikeilla jäljillä. Jos ei, pura viimeiseen varmistettuun silmukkamäärään ja tee kohta uudelleen.
+Tarkista kerrosnumero, mallikerran rajat, muotoilu sekä mahdollinen siirtymä tai merkin siirto. Oikea silmukkamäärä tai aiemman kerroksen näköinen kohta ei yksin todista kuviota oikeaksi. Paikanna virhe ennen purkurajan valintaa.

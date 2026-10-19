@@ -2,6 +2,7 @@
 title: "Sy strikkede dele sammen med madrassting"
 description: "Sy strikkede dele sammen med madrassting, kastesting, aflukning med tre pinde og maskesting. Dækker lodrette sømme, skuldre og ærmer."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 10
 tags:
@@ -16,9 +17,9 @@ lang: da
 translationKey: "seam-knitted-pieces"
 ---
 
-Sammensyning er den mindst glamourøse del af strik, og den del der lettest bliver udskudt. En bunke færdige sweaterdele kan ligge i en projektpose i ugevis, fordi ingen glæder sig til at sy dem sammen. Men en god søm er usynlig, og en dårlig søm kan ødelægge et ellers velstrikket stykke tøj. Forskellen mellem en sweater der ser hjemmelavet ud, og en sweater der ser håndlavet ud, ligger næsten altid i monteringen.
+En god søm holder delene sammen og lader tøjet falde som planlagt. Nogle samlinger glider ind i maskebilledet, andre giver en synlig kant med vilje. Vælg metode efter kanterne, mønstret og den elasticitet, sømmen skal have.
 
-I glatstrik laver madrassting en usynlig søm ved at samle de vandrette lænker op én maske inde fra kanten på hver del og trække dem sammen, så samlingen ligner sammenhængende stof. Metoden afhænger af sømmens retning: lodrette kanter, vandrette kanter, formede dele ind i åbninger eller levende masker mod levende masker.
+I glatstrik kan madrassting give en næsten usynlig søm ved at samle de vandrette lænker op én maske inde fra kanten på hver del og trække dem sammen, så samlingen ligner sammenhængende stof. Metoden afhænger af sømmens retning: lodrette kanter, vandrette kanter, formede dele ind i åbninger eller levende masker mod levende masker.
 
 Skal du sy retstrik sammen eller montere ærmer? Gå direkte til [madrassting i retstrik](#madrassting-i-retstrik) eller [ærmesømme og isyning af ærmer](#isyning-af-ærmer).
 
@@ -26,15 +27,15 @@ Skal du sy retstrik sammen eller montere ærmer? Gå direkte til [madrassting i 
 
 <div role="region" aria-label="Sømmetoder sammenlignet" tabindex="0" style="overflow-x: auto;">
 
-| Metode                       | Retning                         | Synlighed              | Bedst til                          |
-| ---------------------------- | ------------------------------- | ---------------------- | ---------------------------------- |
-| Madrassting                  | Lodret, pind mod pind           | Næsten usynlig         | Sidesømme, ærmesømme               |
-| Horisontalt madrassting      | Aflukket kant mod aflukket kant | Ligner strikket stof   | Aflukkede skuldersømme             |
-| Aflukning med tre pinde      | Levende masker mod levende      | Synlig kant indvendigt | Stabile skuldersømme               |
-| Maskesting, Kitchener stitch | Levende masker mod levende      | Næsten usynlig         | Strømpe-tæer, sammenmaskede kanter |
-| Kastesting                   | Alle retninger                  | Synlig kant            | Figurer, foer, skjulte sømme       |
-| Bagsting                     | Alle retninger                  | Fyldigere indvendigt   | Taskestropper, belastede sømme     |
-| Madrassting til ærmer        | Lodret mod blandet kant         | Mest skjult            | Isyede ærmer, ærmegab              |
+| Metode                       | Retning                         | Synlighed              | Bedst til                         |
+| ---------------------------- | ------------------------------- | ---------------------- | --------------------------------- |
+| Madrassting                  | Lodret, pind mod pind           | Næsten usynlig         | Sidesømme, ærmesømme              |
+| Horisontalt madrassting      | Aflukket kant mod aflukket kant | Ligner strikket stof   | Aflukkede skuldersømme            |
+| Aflukning med tre pinde      | Levende masker mod levende      | Synlig kant indvendigt | Stabile skuldersømme              |
+| Maskesting, Kitchener stitch | Levende masker mod levende      | Næsten usynlig         | Strømpetæer, sammenmaskede kanter |
+| Kastesting                   | Afhænger af kanterne            | Synlig kant            | Figurer, foer, skjulte sømme      |
+| Bagsting                     | Afhænger af kanterne            | Fyldigere indvendigt   | Taskestropper, belastede sømme    |
+| Madrassting til ærmer        | Pinde- og maskekanter           | Mest skjult            | Isyede ærmer, ærmegab             |
 
 </div>
 
@@ -42,19 +43,19 @@ Den praktiske regel for sweaterkonstruktion: madrassting til lodrette sømme, ho
 
 ## Madrassting (lodrette sømme)
 
-Madrassting er standardmetoden til sidesømme og de lange sømme under ærmerne. Fremgangsmåden her gælder glatstrik; i retstrik syr du under andre løkker. Samlingen kommer til at ligne sammenhængende strik.
+Madrassting passer til sidesømme og ærmets lange søm. Her beskrives glatstrik med almindeligt strikkede kantmasker; retstrik bruger andre løkker. Med jævn spænding kan samlingen ligne sammenhængende strik.
 
-Læg begge dele fladt med retsiden opad og kanterne mod hinanden. Tråd en stump stoppenål med matchende garn eller et glat garn i samme farve, hvis projektgarnet er struktureret eller skrøbeligt.
+Læg delene ved siden af hinanden med retsiderne op og de nederste hjørner på linje. Tråd en stump stoppenål med egnet garn og lad en ende være til hæftning. Før nålen gennem hvert nederste hjørne bagfra og frem, så garnet danner et ottetal. Træk forsigtigt hjørnerne sammen.
 
-Start nederst. Før nålen under den vandrette lænke mellem første og anden maske på højre del. Derefter under den tilsvarende lænke på venstre del. Træk igennem. Tilbage til højre, tag næste lænke op. Tilbage til venstre. Efter nogle få sting trækker du forsigtigt, så sømmen lukker sig. Kanterne mødes, og sømmen forsvinder.
+Før nålen opad under tværtråden mellem første og anden maskesøjle på højre del, derefter under den tilsvarende tråd til venstre. Vend tilbage til forrige udgangssted på højre side og gå under næste tråd ovenover. Fortsæt skiftevis. Træk forsigtigt sammen efter nogle sting og glat ud til afslappet længde. Saml de sidste hjørner, kontrollér spændingen og hæft begge ender i sømrummet på vrangen.
 
-**Nøglen:** saml lænkerne op én maske inde fra kanten, ikke helt ude i kanten. Kantmasken bliver sømrum og folder om på bagsiden af arbejdet. Det er derfor opskrifter nogle gange lægger en kantmaske til. Den bliver brugt i sømmen.
+**Sømrum:** én kantmaske på hver del foldes ind på vrangen. To maskesøjler i alt indgår derfor ikke i den synlige bredde efter sammensyning. Maskerne ligger inde i sømmen; de tages ikke ind. Følg opskriftens sømrum.
 
-Arbejd konsekvent. Samme antal lænker på hver side. Hvis du tager én lænke på højre side og to på venstre, begynder sømmen at drive. I glatstrik er det én lænke på hver side for hver pind.
+Med samme pindetal og pindefasthed holder én tværtråd på hver side kanterne på linje. To tråde på hver side er også en anvendt variant. Ved forskellige pindetal over samme tiltænkte længde skal forskellen fordeles mellem mærkerne.
 
 ### Madrassting i retstrik
 
-Her syr du **sidekant mod sidekant**, så retrillerne går på tværs af sømmen. Det er ikke en sammensyning af opslags- eller aflukningskanter. Brug en stump stoppenål og garn, der passer til arbejdet.
+Her sys **to sidekanter** sammen med retrillerne på tværs af sømmen. Én retrille svarer til to strikkede pinde. Metoden gælder ikke opslags- eller aflukningskanter. Brug stump stoppenål og passende garn; forbind først de nederste hjørner som ovenfor.
 
 **1. Læg delene til rette.** Læg dem ved siden af hinanden med de sider, der skal vende udad, opad. Lad opslagskanterne ligge nederst, og sørg for, at rillerne ligger ud for hinanden. Hold gerne nogle af rillerne sammen med låsbare maskemarkører.
 
@@ -62,7 +63,7 @@ Her syr du **sidekant mod sidekant**, så retrillerne går på tværs af sømmen
 
 **3. Sy skiftevis fra side til side.** Begynd i den nederste rille, og lad en garnende være fri til hæftning. Før nålen under den nedre løkke til venstre og derefter under den øvre løkke i den tilsvarende rille til højre. Fortsæt på samme måde i næste rille opad. Brug samme slags løkke på hver side hele vejen, og lad stingene være løse, mens du syr.
 
-**4. Træk sammen lidt ad gangen.** Efter nogle få sting trækker du forsigtigt i garnet, til kanterne mødes. Glat strikket ud: rillerne skal fortsætte hen over samlingen uden folder, og sømmen skal kunne give sig sammen med strikket. Hvis kanten er trukket sammen på langs, så løsn de sidste sting, og fordel garnet igen. Hæft enderne, når sømmen er jævn.
+**4. Træk sammen lidt ad gangen.** Efter nogle få sting trækker du forsigtigt i garnet, til kanterne mødes. Glat strikket ud: rillerne skal fortsætte hen over samlingen uden folder, og sømmen skal kunne give sig sammen med strikket. Hvis kanten er trukket sammen på langs, så løsn de sidste sting, og fordel garnet igen. Forbind de sidste hjørner og hæft enderne, når sømmen er jævn.
 
 Kantmasker, der er taget løst af, kan se anderledes ud. Find løkkerne på en strikkeprøve, før du syr tøjet sammen.
 
@@ -70,49 +71,53 @@ Se nærbillederne hos [Nimble Needles](https://nimble-needles.com/tutorials/seam
 
 ### Omvendt glatstrik og strukturmønstre
 
-Ved omvendt glatstrik, hvor vrangsiden er retsiden, er det lettest at sy fra den glatstrikkede side, hvis konstruktionen tillader det. Lænkerne er nemmere at se. Hvis sømmen skal sys fra vrangsiden, skal du finde løbetrådene mellem vrangbulerne og samle dem op. Samme logik, bare sværere at se undervejs.
+Når vrangmaskesiden skal vende ud, skal den ligge opad under syningen. Almindelige madrassting fra retmaskesiden ville placere sømrummet på tøjets yderside. Før nålen skiftevis under en nedre U-formet kantløkke til venstre og den tilsvarende øvre bue til højre. Fortsæt langs de pinde, der skal mødes, og afprøv kantstruktur og spænding på en strikkeprøve.
 
-Ved snoninger og andre strukturmønstre skal du ignorere strukturen og samle lænkerne op ved den samme sømlinje, som du ville bruge i glatstrik, som regel én maske inde fra kanten. Strukturmønsteret ændrer ikke lænkerne i kantkolonnen.
+Undersøg kantmaskerne i snoninger og strukturstrik. En almindelig glatstrikket kant kan sys som ovenfor. Løftede, formede eller mønstrede kanter kræver opskriftens metode eller en afprøvet tilpasning. Alle kanter har ikke de samme tværtråde.
 
 ### En halv maske ind i rib
 
-Ribkanter, som manchetter, nederkanter eller halskanter der sys sammen, kræver en halv maske justering. I stedet for at samle op en hel maske inde, samler du op ved grænsen mellem ret- og vrangkolonnen. Så fortsætter ribben hen over sømmen, og en retkolonne på den ene del møder en vrangkolonne på den anden i den forventede rækkefølge. Spring det over, og sømmen bryder ribben med en dobbelt ret- eller dobbelt vrangkolonne.
+Vælg søm efter ribmønstret og kantmaskerne. Hvis begge kanter ender med en retmaskesøjle, som skal blive til én søjle, kan en halvmaske-søm bruges: før nålen skiftevis under det yderste maskeben i hver kantmaskes V og fortsæt én pind ad gangen. De resterende halvdele mødes som én retmaskesøjle. Sømmen ligger **inde i en retmaske**, ikke mellem ret- og vrangmaskesøjler. Andre kanter kan kræve en hel maskes sømrum. Kontrollér mønster og elasticitet på en strikkeprøve.
+
+## Vandret søm mellem afsluttede kanter
+
+Læg de aflukkede glatstrikkede kanter mod hinanden med retsiderne op. Forbind starthjørnerne og lad en garnende være. Sy i hele masker lige under aflukningen: gå under begge ben i et V på den ene del. På den anden går nålen ned midt i et V og op midt i det næste, under de tilstødende maskeben mellem dem. Skift side, vend tilbage til forrige udgangssted og flyt én maske frem. Tilpas de syede løkker til maskestørrelsen, forbind sluthjørnerne og hæft på vrangen. Aflukningskanterne foldes ind. Opslagskanter skal tilpasses særskilt; denne syede samling kræver ikke levende masker. [Purl Soho viser nålens vej](https://www.purlsoho.com/create/seaming-stockinette-stitch-stitches-to-stitches/) (på engelsk).
 
 ## Aflukning med tre pinde (vandrette sømme)
 
-Den bedste metode til at samle to sæt levende masker. Bruges oftest til skuldersømme. I stedet for at lukke hver del af for sig og sy bagefter, lukker du dem af sammen. Søm og kantafslutning i ét trin.
+Aflukning med tre pinde samler og lukker to lige store grupper levende masker af samtidig. Metoden bruges ofte ved skuldre, når opskriften kræver en støttende søm.
 
-Hold begge pinde parallelt med retsiderne mod hinanden. Brug en tredje pind, og strik én maske fra forreste pind og én fra bagerste pind sammen. Gentag med næste maske. Træk den første maske over den anden for at lukke af. Fortsæt hele vejen.
+Hold pindene parallelt med lige mange masker, spidserne samme vej og retsiderne mod hinanden. Strik første maske fra hver pind ret sammen på en tredje pind, derefter næste par. Løft den ældste maske på tredje pind over den nyeste. Fortsæt med ét par sammen og den ældste over, til én maske er tilbage. Klip med en ende til hæftning, træk garnet gennem sidste maske og hæft.
 
-Det giver en fast, pæn søm med en lille kant indvendigt. Det er hurtigere end madrassting til vandrette samlinger. Skulderen strækker sig ikke, fordi aflukningskanten er stabil, og det er præcis det du vil have ved en skulder, hvor sweaterens vægt trækker nedad.
+Aflukningen giver en kant på indersiden og kan støtte skulderen. Elasticiteten afhænger af garn og spænding; sømmen forhindrer ikke al udstrækning.
 
-Kræver levende masker på begge dele. Hvis du allerede har lukket af, skal maskerne samles op igen, og så ryger pointen. Planlæg det: hvis opskriften bruger aflukning med tre pinde til skuldrene, så lad maskerne sidde på en maskeholder eller hjælpetråd.
+Begge kanter skal have levende masker. Er de allerede lukket af, må du forsigtigt trævle aflukningen op og sætte de oprindelige masker på pinde eller vælge en syet søm. At samle nye masker op langs kanten giver en anden konstruktion.
 
 En mindre skjult variant er at lave aflukningen med vrangsiderne mod hinanden. Så ligger kanten på retsiden som en dekorativ kæde. Nogle bærestykkeopskrifter bruger det med vilje.
 
 ## Maskesting, Kitchener stitch
 
-Maskesting er det næsten usynlige alternativ til aflukning med tre pinde, når begge dele har levende masker. Det bruges næsten altid til strømpe-tæer og nogle gange til sammenmaskede skuldre, halsrør eller ændringer i sweatre, hvor stoffet skal fortsætte uden en kant.
+Maskesting er det næsten usynlige alternativ til aflukning med tre pinde, når begge dele har levende masker. Det bruges næsten altid til strømpetæer og nogle gange til sammenmaskede skuldre, halsrør eller ændringer i sweatre, hvor stoffet skal fortsætte uden en kant.
 
-Hold de to pinde parallelt med vrangsiderne mod hinanden, samme antal levende masker i glatstrik på hver pind og pindespidserne mod højre. Arbejdsgarnet skal komme fra den første maske på den bagerste pind. Tråd en stoppenål med et langt stykke matchende garn. Som forberedelse føres nålen vrangvis gennem den første maske på den forreste pind, som bliver siddende, og derefter retvis gennem den første maske på den bagerste pind, som også bliver siddende. Gentag så rytmen i fire trin: forreste pind retvis, masken af; forreste pind vrangvis, masken bliver på; bagerste pind vrangvis, masken af; bagerste pind retvis, masken bliver på. Når der er én maske tilbage på hver pind, tages den forreste maske retvis af og den bagerste maske vrangvis af. Hold hver syet løkke omtrent lige stor som nabomaskerne, og justér garnet langs samlingen, før enden hæftes.
+Hold de to pinde parallelt med vrangsiderne mod hinanden, samme antal levende masker i glatstrik på hver pind og pindespidserne mod højre. Maskerne skal sidde uden drejning, med højre maskeben foran pinden. Brug en lang ende fra første bagerste maske eller en separat passende tråd med en ende til hæftning. Tråd den på en stump stoppenål. Som forberedelse føres nålen vrangvis gennem den første maske på den forreste pind, som bliver siddende, og derefter retvis gennem den første maske på den bagerste pind, som også bliver siddende. Så længe der er mindst to masker på hver pind, gentages rytmen i fire trin: forreste pind retvis, masken af; forreste pind vrangvis, masken bliver på; bagerste pind vrangvis, masken af; bagerste pind retvis, masken bliver på. Når der er én maske tilbage på hver pind, tages den forreste maske retvis af og den bagerste maske vrangvis af. Hold hver syet løkke omtrent lige stor som nabomaskerne, og justér garnet langs samlingen, før enden hæftes.
 
-Når det lykkes, ligner resultatet en ekstra række glatstrik, der samler de to dele uden synlig søm. Når det går galt, bliver det en række drejede masker, som er irriterende at pille op. Hav trinene foran dig og arbejd langsomt de første gange. De fleste strikkere får rytmen ind efter en strømpe-tå eller to.
+Maskestingene danner én ekstra pind glatstrik. Hav rækkefølgen foran dig og tilpas de syede løkker til nabomaskerne. Strikkeretning og spænding påvirker også resultatet.
 
 Maskesting kan også bruges midt i et projekt, men det er uigenkaldeligt at klippe i et færdigt stykke tøj. Matchende pindefasthed og maskemønster er ikke nok: strikkeretningen har betydning, og sammenmaskning top mod top kan opføre sig anderledes end top mod bund. Rib, snoninger, hulmønster og andre lodrette motiver kan få en halv maskes forskydning eller en anden synlig overgang. Test den planlagte sammenmaskning på en strikkeprøve, før du klipper i det færdige stykke.
 
-## Kastesting (hurtig sammensyning)
+## Kastesting
 
-Kastesting er enklere og hurtigere end madrassting. Hold de to dele med retsiderne mod hinanden, så vrangsiderne vender ud. Sy gennem begge kanter fra bagside til forside, ét sting ad gangen.
+Læg delene ret mod ret med kanterne på linje. Lad en garnende være og fæstn starthjørnerne. Før nålen gennem begge lag bagfra og frem, og før garnet **over kanterne** tilbage til bagsiden. Sy næste sting samme vej lidt længere fremme. Fortsæt med jævne mellemrum og passende løse løkker. Fæstn sluthjørnet og hæft enderne.
 
-Kastesting efterlader en lille kant på indersiden. Ikke usynlig som madrassting, men betydeligt hurtigere. Det fungerer fint til sømme der ikke ses: indersiden af forede ting, sammenføjning af firkanter og lukning af fyldte figurer.
+Denne variant giver en kant på indersiden. Den kan passe til skjulte sømme, legetøj og sammenføjede firkanter, når udseende og elasticitet passer til arbejdet.
 
-På tøj hvor sømmen kan ses, er madrassting den ekstra tid værd. Til resten får kastesting arbejdet gjort.
+Afprøv sømmen i det aktuelle materiale, hvis tykkelse eller elasticitet er vigtig.
 
 ## Bagsting (stærke sømme)
 
-Hold delene med retsiderne mod hinanden. Sy frem ét sting, tilbage et halvt sting, så stingene overlapper. Stærkt og en smule stift.
+Læg delene ret mod ret og markér sømlinjen. Lad en garnende være. Før nålen gennem begge lag frem ved B, én systingslængde foran startpunkt A. Stik ned ved A og op ved C, én stinglængde foran B. Stik tilbage ved B og kom op én stinglængde foran C. Gentag bagud til forrige stings slutning og frem til næste punkt. Udfyld sidste mellemrum og hæft i sømrummet. Afstandene gælder syede sting, ikke antal strikmasker.
 
-Bedst hvor holdbarhed betyder noget: taskestropper, skuldersømme på tunge sweatre og områder der bærer vægt. Der kommer synligt sømrum på indersiden og mindre fleksibilitet end med madrassting. Undgå det i elastiske beklædningsdele, hvor sømlinjen vil modarbejde strikkens naturlige bevægelse.
+Bagsting kan støtte en skulder eller en taskehank, når opskriften anbefaler det. Styrke og elasticitet afhænger af materiale, garn, stinglængde og spænding. Afprøv sømmen til den belastning, den skal tåle.
 
 ## Isyning af ærmer
 
@@ -124,17 +129,17 @@ Når et ærme er strikket frem og tilbage, lukker den lange søm fra manchetten 
 
 At sætte en formet ærmekuppel i et ærmegab er en anden opgave. Langs kurven mødes sidekanter, skrå stykker og aflukkede masker. Derfor kan du ikke sy med den samme faste pind-mod-pind-rytme hele vejen rundt.
 
-Sæt først ærmet fast i ærmegabet med markører eller rustfri T-nåle. Midten af ærmekuplen skal møde skuldersømmen, og underarmskanterne skal ligge ud for hinanden. Fordel eventuel ekstra vidde jævnt uden folder. Følg opskriftens monteringsrækkefølge og valg af søm: madrasstingene skal tilpasses kanterne langs kurven. Bagsting er et alternativ, når opskriften angiver det.
+Følg opskriftens mærker på ærmekuplen og ærmegabet, også punkterne ved armhulen. Kuplens midte skal kun møde skuldersømmen, når konstruktionen kræver det. Fordel kun den ekstra kuppellængde, opskriften har beregnet, mellem mærkerne uden folder. Undersøg andre størrelsesforskelle før syning. Tilpas madrasstingene til hver kantdel, eller brug bagsting efter opskriften.
 
-Udfordringen er, at ærmekuppel og ærmegab er formet forskelligt og kan have forskellige maske-til-pind-forhold langs kurven. Nåle før syning forhindrer forskydning og små folder. Brug låsbare maskemarkører eller rustfri T-nåle, ikke almindelige synåle, som let glider ud af strik og bøjer.
+Låsbare maskemarkører, klemmer eller egnede rustfri nåle holder mærkerne på plads. De retter ikke forkerte mål og garanterer ikke en glat søm. Kontrollér stoffet uden at strække det undervejs.
 
 På tøj strikket i separate, flade dele kan ærmekuplerne ofte sys i efter skuldersømmene, før ærme- og sidesømmene lukkes. [Modern Daily Knitting viser forskellen på denne montering og at sætte et færdigt ærmerør i et ærmegab](https://www.moderndailyknitting.com/community/how-to-set-in-a-sleeve/) (på engelsk).
 
-Isyede ærmer er den svære version. Raglan og sænkede skuldre er enklere, fordi samlingerne er lige linjer. Sænkede skuldre kræver ofte bare madrassting langs en lodret kant mod en aflukket vandret kant, en T-samling der håndteres på samme måde som en vandret-til-lodret halsopsamling.
+Ved en sænket skulder kan ærmets aflukkede kant møde kroppens sidekant. På maskekanten går nålen ned midt i et helt V og op midt i det næste. På sidekanten går den under tværtråden mellem første og anden maskesøjle. Skift side og vend tilbage til forrige udgangssted. Fordel pindene mod maskerne efter faktiske antal, strikkefasthed og samme sømlængde mellem mærkerne; der findes ikke ét universelt forhold. [Purl Soho viser denne samling](https://www.purlsoho.com/create/seaming-stockinette-stitch-stitches-to-rows/) (på engelsk). Raglan følger sine formede kanter og opskriftens montering.
 
 ## Sy striber og flerfarvestrik sammen
 
-Når begge dele har striber eller flerfarvestrik, skal striberne mødes over sømmen, ellers fanger øjet forskydningen med det samme. Sæt nåle i ved hvert farveskift først. Hvis én stribe ligger en pind højere end den anden, kan du snyde lidt ved at samle to lænker op i stedet for én en enkelt gang på den længere side. Gøres det én gang, er det usynligt. Gøres det samme sted gentagne gange, rynker sømmen.
+Placér de tilsigtede farveskift over for hinanden først. En lille forskel i pindetal over samme tiltænkte længde kan nogle gange fordeles ved at tage en ekstra tværtråd på siden med flere pinde mellem mærkerne. Det retter ikke forskelligt strikkede striber og bliver ikke nødvendigvis usynligt. Kontrollér igen, hvis stoffet rynker.
 
 Ved selvstribende garn, hvor striberne ikke skal mødes præcist, er det bedre at stoppe jagten på perfekt match og gå efter jævn spænding. Selvstribende sømme der ikke matcher, ser stadig bedre ud end sømme der rynker.
 
@@ -142,42 +147,42 @@ Ved selvstribende garn, hvor striberne ikke skal mødes præcist, er det bedre a
 
 Brug en stump stoppenål. Skarpe nåle splitter garnet og stikker gennem stoffet i stedet for at glide mellem maskerne. Øjet skal passe til garnet uden at flosse det, og spidsen skal skubbe trådene til side i stedet for at gennembore dem.
 
-Brug et langt nok stykke garn. Garnskift midt i en søm laver buler. Et stykke flere gange længere end sømmen er som regel nok, og hvis du er nødt til at skifte, så gør det et mindre synligt sted som under armen.
+Brug en håndterlig garnlængde med ender til hæftning. En meget lang tråd kan slides, når den trækkes gennem strikket. Skal du skifte tråd, hæft gamle og nye ender hver for sig i sømrummet uden hårde knuder eller klumper.
 
-[Blok før sammensyning](/da/artikler/blokke-strik-vaadt-damp-spray/). Blokkede dele kan spændes op til de rigtige mål og ligger lettere kant mod kant. Ublokkede dele kan være en smule forskellige i størrelse, og glatstrik ruller kraftigt, når det ikke er blokket, så de lænker du skal bruge, bliver sværere at se.
+[Forbered delene før sammensyning](/da/artikler/blokke-strik-vaadt-damp-spray/) efter vaskeanvisningen og med en metode afprøvet på en strikkeprøve. Lad dem tørre helt og sammenlign afslappede mål med opskriften. Blokning garanterer ikke den rigtige størrelse og fjerner ikke glatstriks naturlige tendens til at rulle.
 
-Sæt nåle i før du syr. Start ikke i den ene ende og håb, at den anden passer. Sæt nåle i top, bund og midte først, og fyld derefter ud. Så bliver eventuelle længdeforskelle fordelt jævnt.
+Fæstn enderne og opskriftens mellemmærker først. Kontrollér hvert afsnit og fordel kun forskelle, konstruktionen tillader. Stræk ikke en del med forkert størrelse for at tvinge kanterne sammen.
 
-Ved madrassting på lige lange dele bør pindeantallet passe. Hvis den ene side har en pind eller to mere, kan du tage en ekstra lænke på den længere side en enkelt gang eller to for at fordele forskellen. Det ses næsten ikke, når det sker sjældent.
+Lige lange kanter kan have forskellige pindetal ved forskellig pindefasthed. Tæl kanterne og fordel pindene mellem mærkerne. Store eller uforklarede forskelle kræver kontrol af strikkefasthed og arbejdet.
 
-Match sammensyningsgarnets tykkelse med projektet. En Bulky-sweater syet med tyndt strømpegarn får en svag søm. Et tyndt projekt syet med Worsted-garn får en synlig og klodset søm. Samme garn er det sikre valg, medmindre projektgarnet er umuligt at sy med.
+Vælg sygarn efter styrke, tykkelse, elasticitet, farveægthed og forenelige vaskeanvisninger. Projektgarnet passer ofte, men tykt eller skrøbeligt garn kan erstattes med et glattere og tyndere garn. Tyndt betyder ikke automatisk svagt; afprøv sømmen til brugen.
 
 ## Almindelige fejl
 
-**Synlig sømkant fra retsiden.** Du samler lænkerne op for langt inde, for eksempel to masker inde i stedet for én, eller du skifter dybde undervejs. Sy om og hold dig præcist én lænke inde.
+**Sømkanten ses på ydersiden.** Almindelige madrassting har sømrum på vrangen. Kontrollér delenes sider, nålens vej samt jævn dybde og spænding. I glatstrikmetoden ovenfor går nålen mellem første og anden maskesøjle, ikke »én tråd inde«.
 
-**Sømmen bølger eller rynker.** Spændingen er for hård eller for løs. Madrassting skal strammes blidt efter nogle få sting, ikke hives til. Hvis du har trukket for hårdt, kan du føre garnet lidt tilbage gennem de sidste centimeter med nålespidsen og justere igen.
+**Sømmen bølger eller rynker.** Løsn først for stramme sting og fordel garnet jævnt. Kontrollér også mærker, pindetal eller maskeantal og metode: for meget stof eller forkert fordeling kan give rynker.
 
 **Sømmen går op.** Garnenden er ikke hæftet. Hæft enden gennem sømrummet i mere end én retning, før du klipper.
 
-**Delene er drejet ved samlingen.** Den ene del lå med retsiden opad og den anden med vrangsiden opad. Tjek orienteringen før første sting.
+**Delene drejer i samlingen.** Kontrollér retside, vrangside, top, bund og tilsvarende hjørner. Forkert placering og ujævn spænding kan forvride samlingen.
 
 ## FAQ
 
 **Hvilket garn skal bruges til sammensyning?**
-Projektgarnet, fordi det matcher. Hvis projektgarnet er struktureret, Bulky eller skrøbeligt, som mohair, bouclé eller løst spundet entrådet garn, så brug et glat og stærkt garn i samme farve. Nogle strikkere har glat strømpegarn i basisfarver liggende kun til sammensyning.
+Brug projektgarn, hvis det er godt at sy med, eller et glat alternativ med passende styrke, elasticitet, farve og pleje. Tyndere garn kan mindske tykkelsen. Afprøv det i en søm på en strikkeprøve.
 
 **Hvordan syr jeg rib sammen?**
-Match ribben hen over sømmen. Hvis begge dele slutter med en retkolonne, skal sømmen danne en sammenhængende retkolonne, når den lukkes. Brug madrassting en halv maske inde: saml lænker op ved grænsen mellem ret- og vrangkolonner, ikke helt ude i kanten. Så fortsætter ribben pænt over samlingen.
+Kontrollér kantmaskerne og ribmønstret. En halvmaske-søm går under det yderste ben i kantens rette V, når to kantmaskesøjler skal blive én. Den går ikke mellem rette og vrange søjler. Nogle kanter kræver en hel maskes sømrum.
 
 **Kan jeg undgå sammensyning helt?**
-Ja. Vælg opskrifter der strikkes i ét stykke eller rundt. Oppefra og ned-sweatre, nedefra og op-rundbærestykker og sammenhængende konstruktioner kan fjerne det meste eller al montering. [Huer](/da/artikler/strik-hue-metoder/) og [strømper](/da/artikler/strik-stroemper-stroempeopskrift/) strikket rundt har slet ingen sidesømme. Hvis du hader sammensyning, så filtrer opskriftssøgninger efter "strikket i ét stykke" eller "strikket rundt".
+Ja. Vælg opskrifter der strikkes i ét stykke eller rundt. Oppefra og ned-sweatre, nedefra og op-rundbærestykker og sammenhængende konstruktioner kan fjerne de fleste eller alle sømme, men garnender og anden efterbehandling mangler stadig. [Huer](/da/artikler/strik-hue-metoder/) og [strømper](/da/artikler/strik-stroemper-stroempeopskrift/) strikket rundt har slet ingen sidesømme. Hvis du hader sammensyning, så filtrer opskriftssøgninger efter "strikket i ét stykke" eller "strikket rundt".
 
 **Min søm rynker.**
-Du trækker garnet for stramt. Madrassting skal strammes blidt, ikke hives til. Hvis du har trukket for hårdt, så før garnet lidt tilbage gennem de sidste sting og juster spændingen.
+Løsn først for stramme sting og fordel garnet jævnt. Kontrollér også mærker, pindetal eller maskeantal og metode: for meget stof eller forkert fordeling kan give rynker.
 
 **Skal garnender hæftes før eller efter sammensyning?**
-Efter. Løse ender kan lægges ind i selve sømmen, mens du syr, så de bliver hæftet samtidig. Lad halen være lang nok til at tråde nålen, sy den ind i sømrummet, og klip først når sømmen har sat sig.
+Hæft sygarnet, når spændingen er jævn. Væv hver ende separat gennem sømrummet på vrangen og skift retning efter garnets behov. En løs ende, der blot skjules i sømmen, sidder ikke sikkert. Kontrollér før klipning.
 
 **Kan jeg pille en søm op uden at skade delene?**
-Madrassting og kastesting kan pilles rent op ved at klippe sammensyningsgarnet med nogle sting imellem og trække det ud. Aflukning med tre pinde kræver mere forsigtighed: pil aflukningen op maske for maske tilbage på en pind. Maskesting er langsomt at pille op og kan forvrænge maskerne, så tjek grundigt, før du klipper garnenden.
+Find sygarnet og pil sømmen op fra en ende uden at skade de strikkede tråde. Skal du klippe, så skil først kun sytråden ud. Trævl aflukning med tre pinde eller maskesting op maske for maske, og fang de frigjorte masker på pinde. Loddent garn kan være svært at skille uden skade.

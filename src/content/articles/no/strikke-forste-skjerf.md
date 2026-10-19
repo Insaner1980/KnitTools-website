@@ -1,7 +1,8 @@
 ---
 title: "Strikke ditt første skjerf"
-description: "Alt du trenger for å strikke ditt første skjerf: garn, pinner, opplegg, rettmaske og avfelling. Bare et rektangel som blir fint."
+description: "Strikk ditt første skjerf i rillestrikk: mål strikkefasthet, velg bredde, legg opp, strikk og fell av. Med lenker til teknikkveiledninger med bilder."
 publishDate: 2026-05-01
+updatedDate: "2026-10-18"
 category: techniques
 categoryOrder: 1
 tags:
@@ -16,47 +17,47 @@ lang: no
 translationKey: "knit-first-scarf"
 ---
 
-Et skjerf er et sterkt første strikkeprosjekt fordi det er et rektangel. Ingen forming, ingen passform og ingen pinne-for-pinne-oppskrift når du først forstår masken. Legg opp, strikk til det er langt nok, fell av. Samtidig øver du på ferdighetene nesten all senere strikking bygger på: å legge opp masker, strikke rette masker og felle av. I løpet av ett skjerf rekker du å strikke rettmasken noen tusen ganger, og et sted rundt midten slutter bevegelsen å føles helt fremmed.
+Et skjerf er et godt første strikkeprosjekt fordi det er et rektangel. Ingen forming, ingen passform og ingen pinne-for-pinne-oppskrift når du først forstår masken. Legg opp, strikk til det er langt nok, fell av. Samtidig øver du på ferdighetene nesten all senere strikking bygger på: å legge opp masker, strikke rette masker og felle av.
 
 ## Dette trenger du
 
-Ett nøste worsted-garn i en lys, ensfarget farge. [Nybegynnerguiden til garn](/no/artikler/beste-garn-for-nybegynnere/) forklarer hele vurderingen, men kortversjonen er: lyse farger viser maskene tydelig, og ensfarget garn gjør det lettere å se maskestrukturen enn melert eller flerfarget garn. Akryl eller en ull/akryl-blanding er tilgivende og ofte maskinvaskbar. Ett nøste holder til øving eller et kort skjerf. Et lengre voksenskjerf trenger vanligvis mer garn.
+Velg lyst, ensfarget worsted-garn. [Nybegynnerguiden til garn](/no/artikler/beste-garn-for-nybegynnere/) forklarer hvorfor synlige masker hjelper. Akryl eller en ull/akryl-blanding er et alternativ; sjekk vaskeanvisningen for det aktuelle garnet. Kjøp etter garnmengden størrelsen trenger, ikke et løfte om at ett nøste gir et skjerf. Se mengdeeksemplet nedenfor, og beregn også garn til øving, avslutning og eventuelle frynser.
 
-Velg et glatt, fast tvunnet worsted-garn, ikke et fluffy, splittevennlig eller veldig strukturert garn. Unngå svart, marineblått, mørkebrunt og fluffy garn i det første prosjektet. Maskene må synes.
+Velg et glatt, fast tvunnet worsted-garn som ikke deler seg lett. Unngå svart, marineblått, mørkebrunt og svært lodne eller strukturerte garn til første prosjekt. Maskene må være lette å se.
 
-Rette pinner i 5,0 mm, 25 eller 35 cm lange. Bambus eller tre er vennlig for nybegynnere fordi overflaten gir grep og holder maskene bedre på pinnen. Metallpinner er raskere når du har rytmen, men kan føles glatte i uvante hender. [Pinnestørrelsesguiden](/no/artikler/pinnestorrelse-for-nybegynnere/) forklarer avveiningen mer detaljert.
+Rette pinner på 5,0 mm, cirka 25 eller 35 cm lange, er et utgangspunkt for worsted-garn som anbefaler denne pinnestørrelsen. Velg en lengde som rommer maskene godt. Prøv glatt tre eller bambus hvis maskene glir av; metall fungerer også fra starten. Overflate, garn og grep påvirker. [Pinnestørrelsesguiden](/no/artikler/pinnestorrelse-for-nybegynnere/) forklarer mer.
 
-Saks og en butt stoppenål til å feste garnender. Et målebånd hjelper, men er ikke nødvendig. Det er hele handlelisten.
+Saks, en butt stoppenål og et målebånd eller en linjal. En heklenål er nyttig til frynser og mistede masker.
 
 ## Velg maskemønster
 
-To praktiske alternativer til første skjerf.
+Fremgangsmåten nedenfor gir et skjerf i rillestrikk frem og tilbake. Perlestrikk er et alternativ hvis du kan strikke vrang; bruk da denne rapporten i stedet for bare rette masker.
 
 **Rillestrikk** (strikk rett på hver pinne) er det enkleste stoffet som finnes. Hver maske, hver pinne, samme bevegelse. Stoffet har vannrette riller, er mykt, vendbart og ligger flatt. Hvis du bare kan rettmasken, er dette mønsteret ditt.
 
-**Perlestrikk** krever at du lærer vrangmasker også. Du veksler rett og vrang, og forskyver dem på neste pinne slik at rette masker ligger over vrange og vrange over rette. Stoffet blir flatere og mer strukturert enn rillestrikk. Hvis du vil lære begge maskene før du starter, gir perlestrikk et ryddig skjerf, men det krever mer oppmerksomhet.
+**Perlestrikk** veksler mellom rett og vrang: strikk vrangt over masken som ser rett ut mot deg, og rett over den som ser vrang ut. Med 30 masker frem og tilbake: 1. pinne, gjenta 1 rett, 1 vrang ut pinnen; 2. pinne, gjenta 1 vrang, 1 rett ut pinnen. Gjenta disse to pinnene. Med et oddetall masker veksler du 1 rett, 1 vrang og avslutter med 1 rett på hver pinne. Flytt garnet mellom pinnespissene: bak for rett, foran for vrang. Kantene inngår i rapporten; ikke legg til den løse kantmasken for rillestrikk som beskrives nedenfor.
 
-Ikke start med glattstrikk til skjerf. Glattstrikk ruller i kantene, og et rullende skjerf blir et rør, ikke et skjerf. Rillestrikk og perlestrikk ligger begge flatt uten kantbehandling.
+Glattstrikk, vekselvis en pinne rett og en pinne vrang frem og tilbake, ruller naturlig i kantene. Rillestrikk og perlestrikk passer til dette skjerfet uten ekstra kant. Blokking fjerner ikke glattstrikkens naturlige rulling permanent.
 
 ## Hvor mange masker du skal legge opp
 
-For worsted-garn på 5,0 mm, omtrent 20 masker per 10 cm:
+Pinnestørrelsen garanterer ikke strikkefastheten. Strikk en prøvelapp i rillestrikk med garnet og pinnene du skal bruke, større enn måleområdet. Vask og tørk etter garnets anvisning og mål midt på uten å strekke. Bruk denne strikkefastheten, ikke etikettens glattstrikkede prøve. Hvis du får 20 masker per 10 cm, blir regneeksemplene:
 
-Smalt skjerf (10-13 cm): 20-25 masker.
-Middels skjerf (15-18 cm): 30-35 masker.
-Bredt skjerf eller hals-bredde: 40-45 masker.
+- 20–25 masker: 10–12,5 cm bredde.
+- 30–35 masker: 15–17,5 cm bredde.
+- 40–45 masker: 20–22,5 cm bredde.
 
-Start med 30. Behagelig bredde, ikke så smalt at det ser ut som en remse, ikke så bredt at det tar evig.
+For eksempel: 30 ÷ 20 × 10 = 15 cm. Begge kantene er med i de 30 maskene; ikke legg til kantmasker. Ved annen strikkefasthet deler du maskeantallet på dine masker per 10 cm og ganger med ti. Velger du perlestrikk, mål en prøvelapp i perlestrikk.
 
-Det eksakte tallet betyr lite for et skjerf. Hvis du ender med 28 eller 32 i stedet for 30, blir skjerfet litt smalere eller bredere. For et rektangel er det greit.
+Du kan begynne å øve med 30 masker og sjekke bredden etter noen pinner. Passer den ikke, begynn på nytt med et annet antall. Du kan velge 28 eller 32 fra starten, men behold det valgte antallet gjennom hele skjerfet så det forblir rektangulært.
 
 ## Holde garnet
 
 Det finnes to vanlige måter å holde garnet på, og de fleste finner sin variant ved å prøve.
 
-**Engelsk stil, garnet i høyre hånd:** høyre hånd kaster garnet rundt pinnen for hver maske. Den er ofte lett å lære først, men kan bli litt langsommere på sikt.
+**Engelsk stil, garnet i høyre hånd:** høyre hånd legger garnet rundt pinnen for hver maske, ofte kalt "throwing" på engelsk.
 
-**Kontinental stil, garnet i venstre hånd:** høyre pinne plukker garnet fra venstre hånd. Den kan bli rask når den sitter, særlig for rette masker, men garnspenningen føles ofte merkelig i starten.
+**Kontinental stil, garnet i venstre hånd:** høyre pinne henter garnet fra venstre hånd. Velg etter hva som kjennes behagelig, ikke et løfte om høyere fart.
 
 Se en kort video av begge før du begynner og velg den som ser mest håndterbar ut. Begge fungerer. Ikke bli sittende fast i spørsmålet om hva som er "best". Det ferdige stoffet ser likt ut.
 
@@ -64,9 +65,9 @@ Før garnet gjennom fingrene på en eller annen måte slik at det ikke henger he
 
 ## Legge opp
 
-Long-tail-opplegg er den vanligste metoden. Lag en løkkeknute og la halen være omtrent 3-4 ganger bredden på opplegget, pluss litt ekstra. For 30 masker i worsted er ca. 90 cm en romslig margin. Halen danner én side av hver maske, arbeidsgarnet den andre.
+Vanlig opplegg med lang trådende, også kalt long-tail-opplegg, er ett alternativ. Er metoden ny, følg [Purl Sohos illustrerte veiledning](https://www.purlsoho.com/create/long-tail-cast-on/) (på engelsk) for løkkeknuten, håndstillingen og bevegelsene; dette avsnittet er bare en oversikt. Beregn først 3–4 ganger planlagt bredde pluss cirka 15 cm til å feste. For 15 cm bredde blir det 60–75 cm. Sjekk at det er nok trådende igjen etter opplegget. Løkkeknuten teller som første maske.
 
-Hvis det føles komplisert, er strikkeopplegg enklere. Løkkeknute, strikk en maske i den, sett den nye masken tilbake på venstre pinne. Gjenta til du har 30. Langsommere, men lettere å lære.
+Et alternativ er strikket opplegg. Lag en løkkeknute på venstre pinne med cirka 15 cm trådende. Trekk en ny rett maske gjennom med garnet fra nøstet, men behold den gamle masken på venstre pinne. Sett den nye løkken på venstre pinne uten å vri den. Gjenta i den nyeste masken til du har 30 totalt, inkludert løkkeknuten. [Craft Yarn Councils bildeveiledning](https://media.craftyarncouncil.com/node/29) (på engelsk) viser overføringen og rettmasken.
 
 Begge metoder fungerer. Skjerfet bryr seg ikke om hvilken du brukte.
 
@@ -74,37 +75,39 @@ Tell etter opplegg. Flytt maskene langs pinnen én og én og sjekk antallet. Hvi
 
 ## Strikke skjerfet
 
-Strikk hver maske på hver pinne. Det er rillestrikk.
+Strikk frem og tilbake: alle masker rett, også første og siste. Snu etter hver pinne. Bruker du rundpinne, snur du fortsatt; ikke sett maskene sammen til en omgang.
 
-Hold pinnen med masker i venstre hånd. Sett høyre pinne inn i første maske fra venstre mot høyre, forfra og bakover. Legg garnet rundt høyre pinne mot klokken, trekk garnet gjennom masken til forsiden og skyv den gamle masken av venstre pinne. Én rettmaske. Gjenta ut pinnen. Ved slutten av pinnen bytter du hender slik at pinnen med masker ligger i venstre hånd igjen, og starter på nytt.
+Hold pinnen med masker i venstre hånd og garnet fra nøstet bak arbeidet. Stikk høyre pinne gjennom fremre maskebein fra venstre mot høyre. Før garnet under og over høyre spiss, trekk den nye løkken frem gjennom den gamle og la bare den gamle masken gli av venstre pinne. Gjenta ut pinnen. Snu arbeidet slik at den andre siden vender mot deg, og ta den fulle pinnen i venstre hånd. Før garnet bakover mellom spissene, ikke over pinnen, og begynn neste pinne.
 
 De første pinnene går langsomt og føles kantete. Normalt. Etter nok gjentakelser begynner hendene å finne en rytme. Spar TV-strikkingen til senere, når du kan lage masker uten å se på hver bevegelse.
 
 ### Les det du har strikket
 
-En rettmaske ser ut som en liten V fra forsiden. I rillestrikk lager vekslingen mellom V-er og vannrette buler de tydelige rillene. To pinner blir én rille. Tell riller i stedet for pinner: enklere og halvparten så mye å telle. Tjue riller er førti pinner.
+En rettmaske ser ut som en liten V fra forsiden. I rillestrikk tilsvarer én rille to strikkede pinner. Tell riller på én side, ikke begge sidene til sammen. Tjue hele riller tilsvarer førti pinner; lengden kan ikke bestemmes uten strikkefastheten i høyden.
 
-Maskene på pinnen bør se like ut: en løkke med fremre maskebein foran. Hvis en maske ser vridd ut, med beina i kryss, har garnet gått feil vei i den masken. Løft den av, vri den riktig og sett den tilbake. Ikke en katastrofe.
+Med metoden over skal høyre maskebein på den ustrikkede masken ligge foran pinnen. Ligger løkken motsatt vei, støtt den med den andre pinnen og snu den før du strikker. Dette retter ikke en allerede vridd maske lenger ned; rekk opp til den hvis du vil rette den. Ikke la en åpen maske være uten støtte.
 
 ### Vanlige nybegynnerproblemer
 
 **Maskene blir flere.** Du lager nye masker ved et uhell, ofte ved å legge garnet over pinnen i starten av en pinne. Før du strikker første maske, sjekk at garnet henger ned og bak pinnen, ikke over toppen.
 
-**Kantene ser rotete ut.** Det blir bedre med øvelse. For penere kanter kan du prøve å løfte første maske vrangvis på hver pinne: flytt den fra venstre til høyre pinne uten å strikke den, med garnet bak arbeidet. Det gir en kjedekant som blir ryddigere og lettere å sy i senere hvis du noen gang vil det.
+**Kantene ser rotete ut.** Prøv først å strikke alle kantmaskene rett med jevn spenning. For en løftet kant i rillestrikk fører du garnet bak mellom spissene, tar første maske vrang løst av uten å strikke den og strikker resten rett, også siste maske. Gjenta på hver pinne. Den løse masken erstatter strikkingen av første maske; totalen er fortsatt 30. Bruk samme kant gjennom hele arbeidet.
 
-**Maskebildet er ujevnt.** Helt normalt i første prosjekt. Noen masker er stramme, andre løse. Stoffet ser klumpete ut. Det jevner seg litt med blokking og mye med øvelse. Ditt tiende skjerf vil se annerledes ut enn det første.
+**Maskebildet er ujevnt.** Form maskene på hele pinnens tykkelse uten å stramme hardt, og øv på prøvelappen. Vask etter anvisningen kan la stoffet slappe av, men reparerer ikke ekstra, mistede eller vridde masker.
 
-**Garnet deler seg.** Pinnen går mellom trådene i garnet i stedet for inn i maskeløkken, og masken blir en fluffy halvmaske. Senk farten når du fører inn pinnen. Hvis det fortsetter, er garnet for splittevennlig for pinnen: bytt til en spissere pinnespiss eller et glattere garn.
+**Garnet deler seg.** Pinnen har fanget bare noen av trådene. Rekk opp masken og strikk gjennom hele løkken. Senk farten og sjekk spissens vei. Hvis en skarp spiss stadig deler garnet, prøv en rundere spiss eller et glattere garn og sjekk strikkefastheten på nytt.
 
-**Maskeantallet driver.** Tell maskene omtrent hver tiende pinne. Hvis du begynte med 30 og nå har 31, har du lagt til en ved et uhell. Hvis du har 29, har du mistet en maske. En feil du finner tidlig, er mye lettere å fikse.
+**Maskeantallet endrer seg.** Tell etter hver pinne i starten og senere jevnlig, for eksempel hver tiende pinne. Fra 30 til 31 er en netto økning; 29 kan skyldes en mistet maske eller en utilsiktet felling. Finn årsaken før du fortsetter. Sikre en mistet løkke med en gang; ikke skjul feilen ved å legge opp en ny maske.
 
 ## Hvor langt bør det være?
 
-Standard voksenskjerf: 125-150 cm. Kort, én gang rundt halsen: ca. 100 cm. Langt dobbelt surret: 180-200 cm.
+Prøv 125–150 cm som lengdemål for et voksenskjerf, cirka 100 cm for et kortere eller 180–200 cm for et lengre. Dette er valg, ikke standardmål eller garantier for antall ganger rundt halsen. Sammenlign med et skjerf du liker, og ta hensyn til prøvelappens mål etter vask.
 
 Ikke mål besatt. Strikk til skjerfet er så langt du vil ha det. Hold det opp, prøv å legge det rundt halsen. Når det føles riktig, stopp.
 
-Mange 100 g-nøster med worsted-garn inneholder rundt 180 m. Det kan rekke til et kort skjerf på omtrent 100 cm hvis bredden er 12-15 cm. For et lengre skjerf, kjøp nok garn før du begynner og match fargepartiet hvis garnet har et. Spar noen meter til avfellingen, ellers går garnet tomt på verst mulig tidspunkt.
+Et kildebelagt eksempel er Liz Chandlers [Basic Scarf in Garter Stitch](https://purlsandpixels.com/wp-content/uploads/2019/02/beginner-knit-scarf-revised-2019.pdf) (på engelsk): standardutgaven på cirka 18 × 152 cm har et anslått forbruk på 304,5 yards, cirka 278 m Caron Simply Soft. Materiallisten ber om to nøster på 315 yards: 630 yards, cirka 576 m, kjøpt, ikke brukt. Bruk mengden med originaloppskriften; den garanterer ikke forbruket til denne guidens 30 masker eller et annet garn. For egne mål, bruk en sammenlignbar oppskrift eller anslå fra en prøvelapp i samme mønster, med tillegg til prøvelapp, trådender og frynser. Velg samme fargeparti når det oppgis. Spar garn til en hel avfellingspinne og cirka 15 cm trådende; rekk opp en pinne hvis garnet ellers ikke rekker.
+
+[Guiden til garnmengde](/no/artikler/hvor-mye-garn-trenger-jeg/) viser beregning fra prøvelapp og avrunding opp til hele nøster.
 
 ### Sette til et nytt nøste
 
@@ -122,9 +125,9 @@ Nybegynnertesten: dra forsiktig i avfellingskanten med hendene. Hvis den strekke
 
 ## Ferdigstilling
 
-To garnender: én fra opplegg, én fra avfelling. Tre hver ende på stoppenålen, fest gjennom baksiden av maskene i ca. 5 cm, snu retning og fest et par centimeter til. Klipp. Endene er usynlige fra forsiden og går ikke opp.
+Fest alle tråder: fra opplegg og avfelling samt begge endene ved hver skjøt. Før stoppenålen under rillenes maskebuer på én side i cirka 5 cm, bytt retning gjennom nabobuer og fortsett cirka 2,5 cm uten å snurpe stoffet. Sjekk begge sider og strekk lett før du klipper. Glatt garn kan trenge en lengre festestrekning; prøv på prøvelappen. En fast lengde garanterer ikke usynlige eller sikre ender i alle garn.
 
-For en mer ferdig finish, blokk skjerfet: bløtlegg i lunkent vann i omtrent 15 minutter, klem forsiktig i et håndkle (ikke vri), legg flatt på et rent håndkle, rett opp kantene og la tørke over natten. For et første prosjekt i akryl er dette valgfritt. For ull gjør det tydelig forskjell: stoffet slapper av, ujevnhetene jevnes ut og rillene ser mer ensartede ut.
+Avslutt etter det aktuelle garnets vaskeanvisning. Hvis håndvask og flat tørking er tillatt, bruk angitt temperatur, klem ut vannet forsiktig uten å vri og legg skjerfet flatt i ønsket form uten å strekke. La det tørke helt. Prøv behandlingen på prøvelappen først. Ull eller akryl betyr ikke i seg selv at arbeidet skal bløtlegges, dampes eller tørke over natten.
 
 ### Frynser hvis du vil
 
@@ -134,29 +137,29 @@ Lag frynsene litt for lange først og jevn dem til når alle sitter på plass. E
 
 ## Mellom øktene
 
-Hvis du stopper midt på en pinne, skyv maskene godt inn mot midten av pinnen slik at de ikke glir av. Hvis du stopper mellom to pinner, er arbeidet mer stabilt. Oppbevar prosjektet i en lukket pose og ikke i direkte sollys, som kan bleke farger over tid.
+Flytt åpne masker bort fra spissene i pausene, og bruk pinnebeskyttere hvis du har dem. Masker kan gli av også ved slutten av en pinne. Oppbevar arbeidet i en lukket prosjektpose uten direkte sollys.
 
-For noen nye strikkere kan 45 minutter være en overkommelig økt. Hold grepet avslappet, ta korte pauser, og stopp eller bytt aktivitet hvis du får smerter, prikking eller nummenhet. Vedvarende, forverrede eller nevrologiske symptomer som nummenhet kan kreve vurdering hos helsepersonell.
+Hold grepet avslappet, ta korte pauser, og stopp eller bytt aktivitet hvis du får smerter, prikking eller nummenhet. Vedvarende, forverrede eller nevrologiske symptomer som nummenhet kan kreve vurdering hos helsepersonell.
 
 ## FAQ
 
 **Hvor lang tid tar et første skjerf?**
-Veldig ulikt. En langsom nybegynner kan bruke 15-20 timer. Gjennomsnittlig 8-12 timer. Fart kommer med øvelse, ikke anstrengelse.
+Det finnes ingen pålitelig gjennomsnittstid: bredde, lengde, garn og øvelse påvirker. Strikk i økter som passer deg fremfor å sikte mot et bestemt timetall.
 
 **Kan jeg bruke en annen garntykkelse?**
-Ja. Bulky på 8 mm med 20 masker gir et raskere, tykkere skjerf. Fingering på 3,25 mm med 50 masker gir et finere, lengre prosjekt. Worsted på 5 mm anbefales fordi det balanserer fart og læring.
+Ja. Velg pinner anbefalt til garnet, strikk en prøvelapp i rillestrikk og beregn maskeantallet fra ønsket bredde. Sjekk også garnmengden; samme maskeantall gir ikke samme skjerf med en annen garntykkelse.
 
 **Hva hvis jeg gjør en feil?**
-Tre alternativer: ignorer den (små feil i et skjerf er ærlig talt ofte greit), rekk opp til feilen og strikk på nytt, eller godta at første prosjekt ikke blir helt jevnt. Første prosjekter er til for læring. Hvis du mister en maske og ser det med en gang, sett den tilbake på venstre pinne. Hvis den har raknet flere pinner ned, viser [guiden til mistede masker](/no/artikler/redde-mistede-masker-uten-a-rekke-opp/) hvordan du løfter den opp igjen med en heklenål.
+En kosmetisk ujevnhet kan bli værende; sikre en mistet åpen maske før du fortsetter. Hvis du mister en maske og ser det med en gang, sett den tilbake på venstre pinne. Hvis den har raknet flere pinner ned, viser [guiden til mistede masker](/no/artikler/redde-mistede-masker-uten-a-rekke-opp/) hvordan du løfter den opp igjen med en heklenål.
 
 **Garnet røk midt i skjerfet. Hva gjør jeg?**
-Behandle det som et garnskifte. Hvis garnenden rekker, rekk opp tilbake til begynnelsen av pinnen og sett til nytt garn der. Hvis ikke, skjøt der bruddet skjedde, la det være omtrent 15 cm garnende på begge sider og fest dem i ferdigstillingen. Ikke stol på en knute som konstruksjon.
+Behandle det som et garnskifte. Hvis garnenden rekker, rekk opp tilbake til begynnelsen av pinnen og sett til nytt garn der. Hvis ikke, skjøt der bruddet skjedde, la det være omtrent 15 cm garnende på begge sider og fest dem i ferdigstillingen. Ikke stol på en knute som konstruksjon. Rekk opp nok masker ved bruddet til at du får en garnende som kan festes.
 
 **Hva er forskjellen på en rett og en vrang maske?**
-En rettmaske trekkes gjennom forsiden av løkken og lager en V på forsiden. En vrangmaske trekkes fra motsatt side og lager en vannrett bulk på forsiden. De er to sider av samme maske: en rettmaske på den ene siden ser ut som en vrangmaske på den andre.
+En rett maske viser en V fra siden den ble strikket på, og en vrang bue på baksiden. Ved vanlig vrangstrikking holdes garnet foran, og høyre pinne stikkes inn gjennom fremre maskebein fra høyre mot venstre. [Veiledningen til vrangmasker](https://www.purlsoho.com/create/purl-stitch/) (på engelsk) viser hele bevegelsen hvis du velger perlestrikk.
 
 **Kan jeg strikke mens jeg ser på TV?**
-Etter hvert, ja, og mange strikkere gjør det. Ikke de første timene av det første skjerfet. Se på hendene til bevegelsene begynner å sitte, og del oppmerksomheten først etter det.
+Del oppmerksomheten først når du kan lage masker sikkert og samtidig kontrollere arbeidet.
 
 **Hva bør jeg strikke etter et skjerf?**
 En klut, med samme ferdigheter, annen form og enkel oppskriftslesing, eller en lue, som introduserer rundstrikking og enkle fellinger. Begge bygger videre på det du har lært.

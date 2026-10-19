@@ -1,7 +1,8 @@
 ---
 title: "Reihen beim Stricken zählen"
-description: "Reihenzahl verloren? Sieben zuverlässige Wege, Reihen beim Stricken zu verfolgen, von Papier bis digitalem Reihenzähler."
+description: "Sieben Methoden zum Zählen von Reihen und Runden: fertige Reihen, Rapporte und Abnahmen auseinanderhalten und nach einer Pause wieder einsteigen."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 2
 tags:
@@ -17,111 +18,113 @@ lang: de
 translationKey: "track-rows-knitting"
 ---
 
-Du legst das Projekt weg, um die Tür zu öffnen. Zwanzig Minuten später nimmst du es wieder auf. War das Reihe 14 oder 15? In glatt rechts ist das vielleicht egal. In einem Lochmuster, in dem ungerade und gerade Reihen völlig unterschiedliche Dinge tun, bedeutet eine Reihe daneben: zurückribbeln.
+Du legst das Projekt weg, um die Tür zu öffnen. Zwanzig Minuten später nimmst du es wieder auf. War das Reihe 14 oder 15? Auch bei glatt rechts kann die Zahl für Abnahmen oder zwei gleiche Teile wichtig sein. Im Lochmuster kann eine falsche Reihe das Muster unterbrechen.
 
-Keine Methode passt zu jedem Projekt. Diese sieben reichen von ganz ohne Technik bis zur App, und die meisten Strickenden landen bei mehr als einer.
+Keine Methode passt zu jedem Projekt. Diese sieben reichen von Papier bis zur App und lassen sich kombinieren.
+
+In den Beispielen zeigt der Gesamtzähler **fertig gestrickte Reihen oder Runden**. Beginne bei 0 und erhöhe erst nach einer vollständigen Reihe oder Runde um 1. Bei 14 ist Reihe 15 als Nächstes dran. Unterbrichst du mittendrin, bleibt der Zähler auf 14; notiere die Masche, an der du aufgehört hast. Stricke dort weiter und erhöhe erst am Reihenende auf 15. Der Anschlag wird hier nicht mitgezählt. Folge bei Vorbereitungsreihen und Abschluss der Nummerierung der Anleitung. Notiere vor dem Zurücksetzen eines Abschnittszählers die bisherige Gesamtzahl und den Beginn des neuen Abschnitts.
 
 ## 1. Striche auf Papier
 
-Die älteste Methode zum Reihenzählen und immer noch brauchbar. Notizzettel neben dem Strickzeug, ein Strich pro Reihe, in Fünfergruppen.
+Lege einen Zettel neben das Strickzeug: ein Strich pro fertiger Reihe, in Fünfergruppen.
 
-Funktioniert für geradlinige Projekte: Decke in kraus rechts, Schal in glatt rechts, alles, wo die Reihenzahl das Einzige ist, was du verfolgst. Fällt auseinander, wenn du gleichzeitig Musterrapporte, Formgebungsabstände und Gesamt-Reihenzahl verfolgen musst. Eine einzelne Strichspalte hat dafür keinen Platz.
+Eine Spalte reicht für einfache Projekte wie eine kraus rechte Decke oder einen glatt rechten Schal. Ergänze bei Bedarf eigene Spalten für Gesamtzahl, nächste Musterreihe und nächste Zu- oder Abnahme. Auch auf Papier lassen sich mehrere Abläufe verfolgen.
 
 Manche drucken die Anleitung aus und haken Reihen direkt neben der jeweiligen Anweisungszeile ab. Bei Charts oder ausgeschriebenen Anleitungen, in denen jede Reihe eine eigene Zeile hat, ist das oft übersichtlicher als eine separate Liste.
 
 ## 2. Mechanische Reihenzähler
 
-Die zylinderförmigen Klickzähler, die auf das Ende einer geraden Nadel geschoben werden. Nach jeder Reihe drehen, Zahl steigt. Günstig, keine Batterien, seit Jahrzehnten im Einsatz, weil sie funktionieren.
+Bei einem mechanischen Reihenzähler mit Zahlenrädern drehst du die Zahl nach jeder fertigen Reihe von Hand weiter. Dieser Typ braucht keine Batterie. Prüfe, wie sich das Modell an Nadel oder Projektbeutel befestigen lässt.
 
-Die Grenzen sind real. Viele einfache Zähler zählen nur nach oben, also musst du beim Zurückstricken daran denken, zurückzudrehen. Auf Rundstricknadeln hängt der Zähler an einer Spitze und ist im Weg. Manche befestigen einen separaten Zähler am Projektbeutel, was das Nadelproblem löst, aber nicht das Rückgängig-Problem.
+Prüfe, wie sich dein Zähler rückwärts einstellen und zurücksetzen lässt. Beim Aufribbeln ändert sich die Anzeige nicht von selbst. Ein an einem Ring hängendes Modell kann für Rundstricknadeln geeigneter sein als eines für das Ende einer geraden Nadel.
 
-Kleine Klickzähler mit digitaler Anzeige können oft vorwärts und rückwärts zählen. Dafür werden sie im Projektbeutel leicht versehentlich gedrückt oder auf null zurückgesetzt. Das löst ein Problem und schafft ein anderes.
+Ein Handzähler mit digitaler Anzeige ist elektronisch, auch wenn du einen mechanischen Knopf drückst. Rückwärtszählen, Zurücksetzen und Tastensperre unterscheiden sich je nach Modell. Kontrolliere die Anzeige beim Herausnehmen aus dem Beutel.
 
 ## 3. Verschließbare Maschenmarkierer als Reihenmarker
 
-Setz einen verschließbaren Maschenmarkierer in eine bestimmte Reihe, etwa die erste Reihe eines Zopfrapports. Wenn du eine feste Anzahl Reihen darüber gestrickt hast, setzt du ihn höher. Ein visueller Anker im Gestrick statt einer externen Zahl.
+Befestige einen verschließbaren Markierer in einer Masche einer bekannten fertigen Reihe und notiere ihre Nummer. Zähle die Reihen darüber, ohne die markierte Reihe erneut mitzuzählen. Notiere vor dem Versetzen die neue Bezugsnummer. Ein Ring auf der Nadel markiert eine Stelle zwischen Maschen, nicht die Zahl fertiger Reihen.
 
 Das ist stark bei Zöpfen und Lochmustern, wenn du sehen musst, wo ein Rapport relativ zu deiner aktuellen Stelle beginnt. Weniger nützlich für die Gesamt-Reihenzahl eines ganzen Pulloverkörpers.
 
-Farbcodierte Markierer erweitern die Methode. Eine Farbe für den Anfang des aktuellen Rapports, eine zweite für bereits gearbeitete Formgebungsreihen, eine dritte für „als Nächstes aufpassen“. Das braucht etwas System, aber bei komplexen Projekten trägt das Gestrick selbst einen Teil der Information.
+Nutze bei Bedarf verschiedene Farben für den Rapportbeginn und eine fertige Abnahmereihe. Notiere die Bedeutung der Farben. Ein Markierer allein nennt weder die Anzahl fertiger Rapporte noch eine zukünftige, noch nicht gestrickte Reihe.
 
 ## 4. Das Gestrick lesen
 
-Keine Tracking-Methode im engeren Sinn. Eher eine Rettungsmethode. Wenn die Zahl verloren geht, hilft dir das Lesen des Gestricks, deine Stelle zu finden, ohne zu einem sicheren Punkt zurückzuribbeln.
+Das Lesen des Gestricks hilft, die Stelle wiederzufinden und Notizen zu kontrollieren. Bei schwer erkennbarem Strukturmuster lässt sich die genaue Reihenzahl aber nicht immer rekonstruieren.
 
-Glatt rechts zeigt auf der rechten Seite sichtbare V-Formen. Jedes V ist eine Reihe. Kraus rechts bildet Rippen, jede Rippe entspricht zwei Reihen. Rippenmuster ist schwerer zu lesen, aber mit Geduld zählbar.
+Folge auf der rechten Seite von glatt rechts einer senkrechten Maschensäule. Jede V-förmige Masche gehört zu einer Reihe. Erkenne die erste gestrickte Reihe oberhalb der Anschlagstruktur oder beginne oberhalb einer markierten Reihe mit bekannter Nummer. Nach einer vollständig gestrickten Reihe gehört die offene Masche auf der Nadel zur zuletzt gestrickten Reihe: zähle sie einmal, nicht als zusätzliche Reihe. Mitten in der Reihe liegen Maschen aus zwei Reihen auf den Nadeln. Prüfe eine noch nicht bearbeitete Maschensäule für die Zahl fertiger Reihen und notiere die Teilreihe separat.
 
-Bei Mustern gibt das Muster selbst oft Anker. Bei einem Zopf, der alle 8 Reihen gekreuzt wird, nimmst du die Reihenzahl der ersten Kreuzung, addierst für jede weitere Kreuzung 8 und zählst anschließend die seit der letzten Kreuzung gestrickten Reihen hinzu. Lochmuster haben häufig eine auffällige Reihe, etwa eine Umschlagreihe oder eine Übergangsreihe, die sich von der rechten Seite gut erkennen lässt.
+Zähle kraus rechte Rippen auf einer Seite: Ein vollständiger Rippenzyklus umfasst zwei Reihen. Prüfe Anschlagkante und eine mögliche letzte ungepaarte Reihe gesondert. Addiere nicht die Rippen beider Seiten und werte nicht jedes Knötchen an der Kante als zwei Reihen. Die Maschen auf der Nadel gehören zur zuletzt gestrickten Reihe.
+
+Bei einer Zopfkreuzung alle 8 Reihen brauchst du die bekannte Nummer einer Kreuzungsreihe. Liegt die erste auf Reihe 4, folgen 12 und 20. Nach drei weiteren fertigen Reihen ist die Gesamtzahl 23. Hier beginnt die Nummerierung nach dem Anschlag, ohne zusätzliche Vorbereitungsreihen. Auch Lochmuster bieten erkennbare Bezugspunkte; deren Nummern ergeben sich aus der Anleitung.
 
 Diese Fähigkeit lohnt sich unabhängig von der Methode, die du nutzt. Der Zähler sagt die Zahl. Das Gestrick sagt, ob die Zahl plausibel aussieht.
 
 ## 5. Tabellen und Notizen-Apps
 
-Manche führen eine Tabelle: eine Spalte pro Abschnitt, Reihenzahl, Musterreihe, Notizen. Andere nutzen eine Notizen-App und aktualisieren alle paar Reihen. Das skaliert gut für komplexe Kleidungsstücke, bei denen Formgebung, Rapporte und Garnwechsel überlappen.
+In einer Tabelle oder Notizen-App können fertige Reihen, nächste Musterreihe und Formgebung eigene Spalten haben. Aktualisierst du erst in einer Pause, führe zwischendurch eine Strichliste, statt die fehlenden Reihen später aus dem Gedächtnis zu ergänzen.
 
-Der Nachteil: Ein Gerät muss in der Nähe sein, und du musst wirklich aktualisieren. Wenn du dich hinsetzt und eine Stunde durchstrickst, bricht eine Tabelle nach jeder Reihe den Rhythmus stark.
+Wähle eine praktikable Routine: nach jeder Reihe, beim Abschnittswechsel oder vor dem Weglegen. Halte eine Unterbrechung mitten in der Reihe getrennt von der Gesamtzahl fest.
 
-Realistischer ist es, an natürlichen Pausenpunkten zu aktualisieren: am Ende einer Reihe, am Ende eines Abschnitts oder bevor du das Projekt weglegst.
+## 6. Reihenzähler-Apps
 
-## 6. Eigene Reihenzähler-Apps
+In Zähler-Apps erfasst du den Fortschritt manuell; Zusatzfunktionen unterscheiden sich. Die [Funktionsübersicht von My Row Counter](https://rowcounterapp.com/counter.html) beschreibt beispielsweise Erinnerungen bei gewählten Zählerständen. Sie reagieren auf eingetragene Zahlen, nicht auf erkannte Maschen im Gestrick.
 
-Ein digitaler Reihenzähler auf dem Handy verbindet die Einfachheit eines Klickers mit Dingen, die physische Zähler nicht können. Tippen zum Weiterzählen, Fehler rückgängig machen und Erinnerungen für bestimmte Reihen setzen.
+Angenommen, du nimmst in Reihe 15, 25, 35 und 45 ab: zuerst in 15, dann noch dreimal im Abstand von 10 Reihen, insgesamt vier Abnahmereihen. Mit einem Zähler für fertige Reihen prüfst du die Anweisung bei 14, 24, 34 und 44, bevor die nächste Reihe beginnt. Nach den Abnahmereihen steht er auf 15, 25, 35 und 45. Wird eine Erinnerung beim Erreichen eines Wertes ausgelöst, nutze für einen Vorabhinweis die vorherige fertige Reihe. Prüfe den tatsächlichen Auslöser: Bei Zählerstand 15 kann der Hinweis für den Beginn von Reihe 15 zu spät kommen.
 
-Die Erinnerungen sind der Punkt, an dem ein Reihenzähler mit Erinnerungen alles andere auf dieser Liste überholt. Anleitung sagt: abnehmen in Reihe 15, 25, 35 und 45? Einmal einstellen. Die App sagt dir, wann du dort bist. Kein Kopfrechnen, keine Klebezettel auf der Anleitung.
+Ein Protokoll der Arbeitszeiten kann die Zählung ergänzen. Es zeigt App-Nutzung und eingegebenen Fortschritt, beweist aber nicht, dass jede Reihe gestrickt und jeder Tastendruck richtig war.
 
-Einige Zähler-Apps protokollieren auch Sitzungs- oder Fortschrittsdaten. Dann siehst du, wie lange du gearbeitet hast und kannst Tempo über Sitzungen hinweg vergleichen. Der Zähler ist nicht nur eine Zahl, sondern ein Projektprotokoll.
-
-Die [KnitTools-App](/de/werkzeuge/#join) wird als Android-Werkzeugkasten mit Tippen zum Zählen, Rückgängig, mehreren Zählern und Sitzungsverfolgung für Projekte mit mehreren Abschnitten entwickelt.
+Die [KnitTools-App](/de/werkzeuge/#join) wird für Android entwickelt: mit manuellem Tippen zum Zählen, Rückgängig für unterstützte letzte Änderungen des Hauptzählers, zusätzlichen Projektzählern und Erfassung der Arbeitszeiten. Rückgängig ändert den Zahlenstand, nicht das Gestrick. Daraus folgt weder, dass unabhängige Zähler gemeinsam weiterlaufen, noch, dass Erinnerungen enthalten sind. Der Link führt zur Anmeldung für die Veröffentlichung, nicht zum App-Download.
 
 ## 7. Kombinationen
 
-Die meisten landen bei einer Mischung. Digitaler Zähler für Gesamt-Reihen. Maschenmarkierer im Gestrick für Orientierung im Rapport. Die Fähigkeit, das Gestrick als Gegencheck zu lesen.
+Du kannst einen Gesamtzähler, Markierer an bekannten Stellen und Notizen zur Anleitung kombinieren. Sie bieten unterschiedliche Kontrollmöglichkeiten.
 
-Diese Dinge beantworten verschiedene Fragen. Der Zähler sagt „Reihe 23“. Der Markierer im Gestrick sagt „dritter Rapport im Zopfpanel“. Das Gestrick sagt „das ist eine Reihe auf der rechten Seite“. Unterschiedliche Fragen, unterschiedliche Werkzeuge.
+Trenne Gesamtzahl und Rapportposition. Bei einem Rapport über 8 Reihen ab Projektreihe 1 bedeutet 23: zwei ganze Rapporte und sieben Reihen des dritten sind fertig; als Nächstes kommt Musterreihe 8. Bei 24 sind drei Rapporte fertig und Musterreihe 1 folgt. Der Gesamtzähler bleibt auf 24. Zeigt ein zweiter Zähler fertige Reihen innerhalb des Rapports, notiere den fertigen Rapport und setze nur diesen Zähler von 8 auf 0 zurück. Vorbereitungsreihen vor dem Rapport brauchen einen gesonderten Versatz.
 
-Bei [„gleichzeitig“-Formgebungen](/de/artikel/gleichzeitig-in-strickanleitungen/) sind zwei oder drei parallele Zähler oft der sauberste Weg, Anweisungen nicht zu vermischen. Armausschnitt-Abnahmen auf einem Zähler, Halsausschnitt-Formgebung auf einem anderen. Sie laufen unabhängig, genau wie die Anleitung es verlangt.
+Bei [„gleichzeitig“-Anweisungen](/de/artikel/gleichzeitig-in-strickanleitungen/) braucht jeder Ablauf einen benannten Startpunkt und Zeitplan. Nutze separate Zähler oder eine Gesamtzahl mit getrennten Notizen. Verschiedene Abstände können auf derselben Reihe zusammentreffen. Führe für getrennte Teile eigene Aufzeichnungen. Setze weder verknüpfte Zähler noch automatisches Zurücksetzen voraus.
 
 ## In Runden oder in Reihen
 
 Flach gestrickte und rund gestrickte Projekte werden etwas unterschiedlich gezählt.
 
-Beim flachen Stricken gibt es eine rechte und eine linke Seite, und jeder Weg über die Nadeln ist eine Reihe. V-Formen lassen sich meist von der Anschlagkante nach oben zählen.
+Beim Stricken in Reihen ist eine vollständige Strecke über das Werk eine Reihe. Markiere die von der Anleitung benannte rechte Seite. Ungerade Reihen sind nur dann Hinreihen, wenn Reihe 1 eine Hinreihe ist und du gewöhnliche vollständige Reihen abwechselnd von beiden Seiten arbeitest.
 
-Beim Rundstricken spricht man von Runden. Jeder Durchgang um die Nadeln ergibt eine fertige Runde, aber der Rundenanfang ist ohne Markierer leicht zu verlieren. Die übliche Lösung: einen Maschenmarkierer an den Rundenanfang setzen und jedes Passieren dieses Markierers als eine abgeschlossene Runde zählen. Manche setzen einen zweiten Markierer für Zehnergruppen, damit sie nicht 47 Runden einzeln mitzählen müssen.
+Eine Runde führt um das gesamte Werk, nicht nur über eine Nadel des Nadelspiels. Setze den Markierer an den Anfang und lasse den Zähler auf 0. Erhöhe erst um 1, wenn alle Maschen gestrickt sind und du wieder am Markierer ankommst. Das Einsetzen oder Abheben vor der ersten Runde zählt nicht. Für Zehnergruppen kannst du einen weiteren Markierer in fertige Runde 10 hängen und später auf 20, 30 und 40 versetzen; notiere jeweils die Nummer. Bei Runde 47 liegen sieben fertige Runden über dem Markierer in Runde 40. Ein zusätzlicher Ring auf der Nadel zählt allein keine Zehnergruppen.
 
 ## Wenn du den Überblick verloren hast
 
-Das passiert. Zwei Wege retten die Situation oft.
+Halte vor einer Zählerkorrektur an und kläre, was tatsächlich gestrickt ist.
 
 Zähle ab einem bekannten Punkt. Anschlagkante, Anfang eines Jacquardabschnitts, Ende des Bündchens, Zopfkreuzung oder Farbwechsel. Alles Sichtbare, dessen Reihenzahl du kennst, gibt dir einen Startpunkt.
 
-Vergleiche mit den Fortschrittsmarken der Anleitung. Viele Anleitungen nennen Maße an bestimmten Stellen, etwa „Teil misst 18 cm ab Anschlag nach dem ersten Abnahmeabschnitt“. Wenn die Maße passen, stimmt die Reihenzahl wahrscheinlich auch.
+Die Länge ist nur eine grobe Gegenkontrolle. Dasselbe Maß beweist nicht dieselbe Reihenzahl: Reihendichte, Fadenspannung und Spannen beeinflussen die Länge. Prüfe Gestrick und die Bezugspunkte für Formgebung und Rapporte.
 
-Im Zweifel zählst du auf zwei Arten: V-Formen von unten, kraus-rechte Rippen von unten oder Reihen zwischen zwei Markierern. Nimm die Zahl, die sich bestätigt. Wenn die Ergebnisse nicht zusammenpassen, ist eine Zählweise falsch, und ruhiges Nachzählen findet meist heraus, welche.
+Zähle vom selben Punkt mit denselben Grenzen und Einheiten erneut. Vergleiche Rippen nicht direkt mit Reihen. Zeigt der Zähler 23, du bestätigst aber 24 fertige Reihen, korrigiere auf 24. Steht er nach einem doppelten Tippen auf 24, obwohl erst 23 fertig sind, korrigiere auf 23. Ribbelst du drei volle Reihen von 24 zurück, bleiben 21; passe auch nächste Musterreihe und Formgebung an. Notiere eine teilweise zurückgestrickte Reihe separat. Rückgängig rekonstruiert keine Arbeit, die nie erfasst wurde.
 
 ## Methode nach Projekt wählen
 
 **Einfache Projekte ohne Formgebung** (Schal, Spültuch): Papier und Stift oder einfacher Klicker reichen.
 
-**Projekte mit Formgebung** (Pullover, Mützen mit Abnahmen an der Spitze): Eine Reihenzähler-App mit Erinnerungen spart echten Ärger. Zwei Minuten Einrichtung am Anfang, weniger Fehler im Projekt.
+**Projekte mit Formgebung** (Pullover, Mützen mit Abnahmen): Ein schriftlicher Plan oder geprüfte Erinnerungen können helfen, die nächste Zu- oder Abnahmereihe im Blick zu behalten.
 
-**Komplexes Lochmuster oder Jacquard:** Digitaler Zähler für Gesamtfortschritt, Maschenmarkierer im Gestrick für Orientierung innerhalb der Rapporte. Zu viele bewegliche Teile für eine einzelne Methode.
+**Komplexes Lochmuster oder Jacquard:** Kombiniere die Gesamtzahl mit Rapportnotizen oder Markierern, wenn das die Anleitung übersichtlicher macht.
 
-**Häufig unterbrochenes Stricken:** Digitaler Zähler, der deine Stelle automatisch speichert. Papier geht verloren. Mechanische Zähler werden verstellt. Eine App merkt sich, wo du aufgehört hast, auch wenn das Projekt eine Woche liegen bleibt.
+**Häufig unterbrochenes Stricken:** Notiere fertige Reihen und eine eventuelle Unterbrechung mitten in der Reihe. Prüfe bei einer App, ob nach Schließen und erneutem Öffnen das richtige Projekt und der richtige Zahlenstand erhalten bleiben. Speichern ist nicht dasselbe wie eine Sicherungskopie oder Gerätesynchronisierung.
 
 ## FAQ
 
 **Wie zählt man Reihen in glatt rechts?**
-Auf der rechten Seite: Jede V-förmige Masche ist eine Reihe. Zähle die Vs senkrecht von der Anschlagkante bis zu den Nadeln. Auf der linken Seite zählst du die linken Knötchen. Die Zahl ist dieselbe.
+Folge einer Maschensäule ab einem bekannten Punkt. Zähle oberhalb der markierten Bezugsreihe bis zur offenen Masche auf der Nadel, wenn die ganze Reihe fertig ist. Trenne Anschlagstruktur und gestrickte Reihen. Eine angefangene Reihe ist keine weitere fertige Reihe; siehe den Abschnitt zum Lesen des Gestricks.
 
 **Zählt die Anschlagkante als Reihe 1?**
-Kommt auf die Anleitung an. Folge zuerst der Formulierung der Designerin oder des Designers. Wenn die Anleitung nichts sagt, lassen viele Strickende den Anschlag aus der Zählung heraus und behandeln die erste gestrickte Reihe als Reihe 1. Prüfe danach, ob die Gesamt-Reihenzahl zu dem passt, was du im Gestrick liest. Der [Leitfaden zum Lesen von Strickanleitungen](/de/artikel/strickanleitung-lesen/) erklärt diese Konventionen genauer.
+Folge der Nummerierung der Anleitung. Hier zählt der Anschlag nicht mit; die erste gestrickte Reihe ist Reihe 1. Manche Anschläge bilden eine Struktur, die wie eine Reihe aussieht. Bestimme die Nummer deshalb nicht allein nach dem Aussehen. Halte gesonderte Vorbereitungsreihen und Abketten vom nummerierten Abschnitt getrennt. Der [Leitfaden zum Lesen von Strickanleitungen](/de/artikel/strickanleitung-lesen/) hilft bei der Auslegung.
 
 **Wie zählt man Reihen beim Stricken in Runden?**
-Setz einen Maschenmarkierer an den Rundenanfang. Jedes Mal, wenn du ihn passierst, ist eine Runde fertig. Markierer plus Reihenzähler ergibt eine genaue Zahl. Ohne Markierer verlierst du leicht, wo eine Runde endet und die nächste beginnt, besonders in schlichtem glatt rechts, wo der Übergang kaum sichtbar ist.
+Markiere den Anfang und erhöhe erst nach einer vollständigen Runde zurück zum Markierer um 1. Das Einsetzen vor Beginn zählt nicht. Der Markierer zeigt die Grenze; Zähler oder Notizen zeigen die Zahl fertiger Runden.
 
 **Wie verfolge ich Streifen?**
-Bei zweifarbigen Streifen mit gleichmäßigem Rhythmus kannst du Streifenpaare statt einzelner Reihen zählen: 8 Reihen Farbe A und 8 Reihen Farbe B ergeben ein Streifenpaar. Das ist leichter als 16 einzelne Reihen. Bei komplizierteren Streifenfolgen hilft ein Reihenzähler mit Rapport- oder Wiederholungsfunktion, damit du nicht alles im Kopf rechnen musst.
+Acht fertige Reihen in Farbe A und acht in B ergeben ein Streifenpaar mit 16 Reihen. Beginne Gesamt- und Paarzählung bei 0. Bei 8 wechselst du zu B; bei 16 notierst du ein fertiges Paar und beginnst wieder mit A. Bei 32 sind zwei Paare fertig. Halte Gesamtzahl, Paarzahl und Position im aktuellen Streifen getrennt. Anschlag sowie gesonderte Vorbereitungs- und Abschlussreihen zählen hier nicht mit.
 
 **Lohnen sich mehrere Zähler in einem Projekt?**
-Für eine einfache Mütze oder einen Schal meist nicht. Für einen Pullover mit Armausschnittformung, Halsausschnittformung und Strukturmuster mit eigenem Reihenrhythmus ja. Mehrere Zähler halten jede Variable auf einer eigenen Spur, statt alles in eine einzige uneindeutige Zahl zu pressen.
+Nutze mehrere Zähler, wenn eindeutige Namen und Aktualisierungsregeln helfen. Eine Gesamtzahl mit getrennten Notizen für Formgebung und Rapporte kann ebenfalls reichen. Lege fest, ob jeder Zähler fertige Reihen, fertige Rapporte oder die nächste Musterreihe zeigt. Prüfe mögliche Verknüpfungen und Rücksetzfunktionen.

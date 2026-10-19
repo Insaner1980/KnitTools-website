@@ -1,7 +1,8 @@
 ---
-title: "Rattraper une maille tombée sans tout défaire"
+title: "Rattraper une maille tombée avec un crochet"
 description: "Rattraper une maille tombée avec un crochet : jersey, envers, point mousse, côtes, et comment repérer une maille avant qu'elle ne file."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 3
 tags:
@@ -16,91 +17,101 @@ lang: fr
 translationKey: "fix-dropped-stitches"
 ---
 
-Une maille tombée ne veut pas dire qu'il faut défaire tout l'ouvrage. Dans la plupart des surfaces simples, tu peux la rattraper avec un crochet. La maille glisse de l'aiguille, et si tu ne la rattrapes pas, elle file dans les rangs en dessous comme une échelle dans un collant. Mais chaque barreau de cette échelle est un brin de fil qui attend d'être repassé dans la maille, rang après rang, jusqu'à ce qu'elle revienne sur l'aiguille.
+Une maille tombée ne signifie pas forcément qu'il faut tout défaire. En jersey simple, un crochet permet de reconstruire une colonne à partir de la boucle ouverte et des fils horizontaux au-dessus. Chaque fil correspond à un rang défait. Le point mousse et les côtes demandent la succession de mailles endroit et envers décrite ci-dessous.
 
-Pour rattraper une maille tombée, passe un crochet dans la boucle lâche, attrape le brin horizontal derrière elle et tire-le à travers. Répète pour chaque rang que la maille a descendu. Garde dans ta trousse un crochet d'une taille proche de tes aiguilles. Tu t'en serviras.
+Ces méthodes concernent une maille ordinaire à l'intérieur du tricot, sans mise en forme ni changement de point dans la colonne abîmée. Devant signifie vers toi, derrière signifie loin de toi, indépendamment de l'endroit et de l'envers du vêtement. Tu récupères une maille existante ; tu ne relèves pas de nouvelles mailles le long d'un bord.
 
 ## Premier geste : arrêter la course
 
-Dès que tu vois une maille tombée, passe un marqueur ouvrable, une épingle de sûreté ou même un trombone dans la boucle vivante. Le marqueur l'empêche de filer plus bas pendant que tu termines le rang, que tu prends une pause ou que tu cherches ton crochet. Sécurise d'abord. Répare ensuite.
+Passe aussitôt un marqueur ouvrable dans la boucle ouverte au bas de l'échelle. Éloigne aussi les autres mailles des pointes ou pose des protège-pointes. Sécurise d'abord, cherche le crochet ensuite.
 
-Cette seule habitude évite la plupart des situations du type "je l'ai laissée cinq minutes et elle a filé sur vingt rangs". Marque d'abord, puis répare quand tu as le temps et l'attention nécessaires.
+Repère la colonne et avance jusqu'à son emplacement avant la réparation. Garde la boucle sécurisée quand tu retournes l'ouvrage ou changes d'outil. N'étire pas l'échelle.
 
 ## Rattraper une maille endroit tombée
 
-La situation la plus courante. Une maille a glissé et filé sur l'endroit du jersey.
+Garde l'endroit du jersey face à toi, avec les V des mailles visibles. [DROPS montre les étapes](https://www.garnstudio.com/lesson.php?id=10&cid=8).
 
-Passe le crochet dans la maille tombée de l'avant vers l'arrière. Le brin horizontal lâche, le barreau de l'échelle, se trouve derrière la maille. Attrape ce brin avec le crochet et tire-le à travers. Un rang est récupéré.
+1. Passe le crochet dans la boucle de l'avant vers l'arrière sans croiser ses brins. Transfère la boucle du marqueur au crochet.
+2. Repère le fil horizontal inutilisé le plus bas, juste au-dessus. Si les fils se croisent, suis-le jusqu'aux mailles voisines. Il doit être derrière la boucle.
+3. Attrape le fil et tire-le vers l'avant à travers la boucle. L'ancienne boucle quitte le crochet, la nouvelle reste dessus : un rang est reconstitué.
+4. Continue de bas en haut, un fil à la fois. Utilise chaque fil une seule fois, sans en sauter ni en prendre deux ensemble.
+5. Retourne dans la position de reprise du tricot. Replace la maille à son emplacement : à gauche si elle n'a pas encore été travaillée sur ce rang, à droite si elle l'a déjà été. Ne tricote pas deux fois le même rang dans cette colonne.
 
-Si la maille a descendu plusieurs rangs, plusieurs brins sont empilés derrière elle. Travaille-les de bas en haut, en tirant chaque brin à travers la maille sur le crochet. Quand tous les brins sont repris, la maille est revenue au rang actuel. Glisse-la du crochet sur l'aiguille gauche, en vérifiant qu'elle n'est pas torsadée (la jambe droite devant l'aiguille).
+Ici, on utilise l'orientation occidentale : le brin droit de la maille à travailler se trouve devant l'aiguille gauche, ce qui permet de travailler par le brin avant sans croiser les brins. Vérifie après avoir retourné l'ouvrage. Une autre orientation n'est pas une erreur en soi ; le sens d'entrée doit lui correspondre.
+
+Compte les mailles, vérifie la colonne des deux côtés et répartis doucement le mou dans les mailles voisines. Dans une section de 20 mailles sans augmentation ni diminution, une colonne tombée laisse 19 mailles sur les aiguilles et une boucle libre. Quatre fils d'échelle reconstituent quatre rangs, mais une seule maille sur l'aiguille : 20 au total, pas 23.
 
 ## Rattraper une maille envers tombée
 
-Même réparation, sens inverse. La maille tombée est sur l'envers du jersey, ou dans une colonne de mailles envers en côtes.
+Garde la face avec les bosses envers vers toi : l'envers du jersey endroit, l'endroit du jersey envers ou une colonne envers de côtes simples. [Nimble Needles montre ce sens de travail](https://nimble-needles.com/tutorials/how-to-fix-a-dropped-stitch-in-knitting/) (en anglais).
 
-Passe le crochet dans la maille de l'arrière vers l'avant. Cette fois, le brin est devant. Attrape-le et tire-le à travers.
+1. Maintiens la boucle et place le fil inutilisé le plus bas devant elle, vers toi. Déplace la boucle par rapport au fil sans la tordre.
+2. Passe le crochet dans la boucle de l'arrière vers l'avant. Attrape le fil devant et tire-le vers l'arrière à travers la boucle, loin de toi. Garde la nouvelle boucle : une maille envers est reconstituée.
+3. Tiens la nouvelle boucle pendant que tu retires le crochet et le réinsères par l'arrière. Place le fil suivant devant et répète vers le haut, un fil par rang.
 
-Les réparations côté envers peuvent sembler pénibles. Une astuce : tourne l'ouvrage pour que l'envers devienne l'endroit, répare comme une maille endroit, plus facile, puis retourne. Le résultat est le même.
+Tu peux aussi retourner l'ouvrage pour voir l'autre face de cette colonne envers, qui présente des V endroit. Répare avec la méthode endroit puis retourne. L'endroit et l'envers du vêtement ne changent pas de nom. Termine par les vérifications d'orientation, de nombre, d'alignement et de tension décrites plus haut.
 
 ## Rattraper une maille au point mousse
 
-Le point mousse alterne rangs endroit et envers, ce qui veut dire que les brins de l'échelle alternent entre l'arrière et l'avant de la maille. Tu ne peux pas tirer tous les brins dans le même sens.
+À plat, le point mousse se tricote à l'endroit à chaque rang, en tournant entre les rangs. Vu d'une seule face, il alterne pourtant rangs endroit et envers. Une côte de point mousse correspond à deux rangs : compte les fils d'échelle, pas les côtes.
 
-Travaille un brin comme une maille endroit (crochet par l'avant, brin derrière). Le brin suivant comme une maille envers (crochet par l'arrière, brin devant). Alterne pour chaque rang.
+Garde la même face vers toi. Compare les mailles intactes à côté du rang manquant le plus bas : faut-il d'abord un V endroit ou une bosse envers ? Ne commence pas systématiquement à l'endroit.
 
-Si tu te perds : regarde la maille que tu viens de former. Une petite bosse envers en haut signifie que le brin suivant se reprend comme une maille endroit. Un V lisse signifie que le suivant se reprend comme une maille envers.
+1. Niveau endroit : place le fil derrière la boucle, entre avec le crochet de l'avant vers l'arrière et tire le fil vers l'avant à travers la boucle.
+2. Niveau envers : maintiens la boucle en repositionnant le crochet. Place le fil devant, entre de l'arrière vers l'avant et tire le fil vers l'arrière à travers la boucle.
+3. Alterne en remontant, chaque fil suivant une seule fois. Tiens la boucle à chaque changement et vérifie que les côtes s'alignent avec le tricot voisin.
 
-C'est plus lent et plus sujet aux erreurs que le jersey. Prends les brins un par un.
+[DROPS montre le changement de direction](https://www.garnstudio.com/video.php?id=505&lang=fr). Quatre rangs manquants demandent quatre fils et deux paires endroit/envers ; les mailles voisines déterminent par quoi commencer. Vérifie ensuite l'orientation sur l'aiguille, le nombre et la tension.
 
 ## Rattraper une maille en côtes
 
-Les côtes sont des colonnes alternées de mailles endroit et de mailles envers. Détermine si la maille tombée appartient à une colonne endroit ou envers en regardant les mailles autour.
+Les côtes simples 1/1 ou 2/2 ont des colonnes constantes. Garde la même face vers toi et identifie la colonne abîmée grâce aux mailles intactes en dessous et aux explications. La maille juste à côté peut appartenir à un autre type de colonne.
 
-Colonne endroit : reprends une série de mailles endroit (brin derrière, crochet vers l'avant). Colonne envers : reprends une série de mailles envers (brin devant, crochet vers l'arrière). N'alterne pas comme au point mousse. Chaque colonne est cohérente.
+Reconstitue une colonne endroit à l'endroit à chaque niveau et une colonne envers à l'envers. Tu peux retourner toute la colonne envers pour la réparer depuis sa face endroit, puis revenir. N'alterne pas dans une colonne comme au point mousse. Vérifie la succession des côtes et le nombre de mailles. Cela ne couvre pas les côtes anglaises, les côtes torses ni les transitions entre points.
 
 ## La repérer avant qu'elle ne file
 
-Une maille tombée qui n'a pas encore filé, une boucle vivante juste sous l'aiguille sans échelle, est la plus facile à corriger. Remets-la sur l'aiguille gauche. Terminé. Pas d'échelle à remonter.
+Si la maille a seulement glissé de l'aiguille sans se défaire, tu as une boucle ouverte sans échelle. Sécurise-la et remets-la à sa place initiale : aiguille gauche si elle n'est pas encore travaillée, droite si elle l'est déjà sur ce rang. Vérifie orientation et nombre ; ne crée pas une maille supplémentaire avec le fil de travail.
 
-Pour repérer les mailles tombées tôt : regarde ton aiguille de temps en temps. Une maille manquante forme un trou et un brin lâche à l'endroit où la maille devrait être. La voir dans le rang suivant ou deux rangs plus loin signifie une réparation rapide. Vingt rangs plus tard, c'est une longue échelle.
+Un trou seul ne prouve pas qu'une maille est tombée. Un jeté accidentel ajoute une maille, une maille endroit ou envers mal choisie existe encore et une maille volontairement glissée reste sur une aiguille. Les motifs à mailles lâchées volontairement ont leurs propres explications. Cherche la boucle ouverte et compare le nombre de mailles au modèle.
 
-Les marqueurs aident. Place-en un toutes les 20 mailles et tu n'as plus qu'une petite section à compter pour trouver le problème.
+Place par exemple un marqueur toutes les 20 mailles et compte les sections. Tiens compte des augmentations et diminutions prévues.
 
 ## Fil de survie comme prévention
 
-Un fil de survie est un fil lisse et contrastant, comme du fil dentaire, un coton à crocheter fin ou un reste de fil bien lisse, passé dans un rang de mailles vivantes à un point sûr du projet. Si une maille tombe et file plus loin que tu ne peux facilement la rattraper, le fil de survie arrête la course au rang où tu l'as posé. Au pire, tu défais jusqu'au fil de survie. Toutes les mailles sont toujours là, tenues sur le fil.
+Un fil de survie est un fil lisse contrastant passé dans toutes les mailles ouvertes d'un rang vérifié. Il retient ces boucles si tu défais, mais ne protège que les mailles qu'il traverse et ne corrige pas une erreur antérieure. [Knit Picks décrit la méthode](https://blog.knitpicks.com/how-to-use-a-lifeline-for-lace-knitting/) (en anglais).
 
-Passe le fil de survie avec une aiguille à laine dans chaque maille vivante de l'aiguille, sans passer dans l'aiguille elle-même. Laisse des extrémités assez longues pour que le fil ne sorte pas pendant que tu continues à tricoter.
+Avec une aiguille à laine, passe dans les boucles encore sur l'aiguille à tricoter, y compris les jetés du rang. Ne dédouble pas le fil et contourne les marqueurs amovibles. Laisse des extrémités longues et fixées, et note le rang ou la position dans le diagramme. Ne tricote pas le fil de survie avec les mailles au rang suivant.
 
-Utilise un fil de survie avant une section délicate : diagramme ajouré, rang de torsades ou début d'une longue séquence de mise en forme. Dans du jersey simple, ce n'est pas nécessaire au quotidien. Dans un motif complexe où une maille tombée peut descendre dans un diagramme difficile à reconstruire, c'est ce qui évite de perdre des heures.
+Choisis avant une section délicate un rang dont tu reconnais toutes les mailles. Si tu défais jusqu'à lui, replace chaque boucle sur l'aiguille et vérifie nombre et orientation avant de retirer le fil. Reprends au rang suivant celui noté. Si la structure est incertaine, consulte un tutoriel adapté au motif ou demande de l'aide.
 
 ## Quand la maille file jusqu'au bord de montage
 
-Si la maille a filé jusqu'en bas et qu'il reste encore un brin avec lequel travailler, tu peux parfois reconstruire la colonne. Utilise le crochet pour tirer le brin du bas à travers lui-même et créer une nouvelle boucle de base, puis reprends chaque brin au-dessus. Cette boucle de base n'a pas exactement la même structure qu'une maille montée, donc vérifie le bord après [blocage](/fr/articles/bloquer-un-tricot/). Si le bord de montage s'est ouvert ou déformé nettement, il est souvent plus propre de défaire.
+Cherche d'abord une boucle intacte à la base de la colonne. Si le montage est intact, sécurise cette boucle et reconstitue les rangs au-dessus dans l'ordre.
 
-Si la maille a beaucoup filé et que les brins sont emmêlés, fixe la zone avec un marqueur ouvrable pour éviter d'aggraver les dégâts pendant la réparation.
+Si la maille de montage elle-même est défaite, la réparation en échelle n'a plus de base intacte. Ne tire pas un fil du bas au hasard à travers lui-même en supposant le bord réparé. La méthode dépend du montage : [le tutoriel de VeryPink](https://verypink.com/2019/02/06/recovering-a-dropped-cast-on-stitch/) (en anglais) concerne le montage à longue queue, ou long-tail cast-on. Sécurise les boucles voisines et suis un tutoriel adapté à ton montage, ou recommence si le bord ne peut pas être rétabli. Vérifie le bord avant de continuer ; le blocage ne remplace pas une maille manquante.
 
 ## Corriger une maille torse dix rangs plus tard
 
-Tu termines une section, tu regardes l'ouvrage, et une colonne contient une maille un peu plus serrée, inclinée différemment. Souvent, c'est une maille torse créée pendant une réparation rapide. Le tissu n'est pas ruiné, mais la colonne ne se lit pas comme ses voisines.
+Une maille torse déjà tricotée a ses brins croisés dans le tissu. Réorienter seulement la boucle actuelle sur l'aiguille ne supprime pas une torsion plusieurs rangs plus bas.
 
-Pour une seule maille torse, laisse descendre uniquement cette colonne jusqu'à la maille en question, puis remonte-la dans le bon sens. Fais glisser la boucle vivante de la colonne hors de l'aiguille, laisse-la filer jusqu'au rang de la maille torse, puis utilise le crochet pour remonter un brin à la fois. Tu travailles une seule colonne, pas tout le rang. C'est bien moins pénible que de défaire toute une section.
+Pour une colonne ordinaire sans mise en forme : sécurise la maille intacte juste sous l'erreur avec un marqueur ouvrable. Avance jusqu'à la colonne, sécurise ses voisines puis défais cette seule colonne jusqu'au marqueur, y compris la maille fautive. Reconstitue chaque fil selon la succession endroit/envers du point. Vérifie que le croisement a disparu, puis l'orientation, le nombre et la tension. Une mauvaise maille endroit ou envers peut se corriger ainsi aussi, mais ce n'est pas une maille manquante.
 
-Certaines mailles torses ne valent pas la réparation. Une seule maille torse au milieu d'une écharpe au point mousse ne se verra probablement que pour toi. Choisis ce qui mérite vraiment le temps.
+À travers une torsade, augmentation ou diminution, cette suite simple ne suffit pas. Utilise les explications adaptées ou défais jusqu'à un rang vérifié. Corriger un défaut purement esthétique reste ton choix ; une boucle ouverte libre doit toujours être sécurisée.
 
 ## Mohair et autres fils qui accrochent
 
-Les fils brossés, comme le mohair, l'alpaga brossé ou les fils simples très duveteux, rendent toutes les réparations plus difficiles. Les fibres s'accrochent entre elles et résistent quand tu veux les tirer proprement. Le crochet accroche chaque brin, et défaire devient aussi lent parce que les rangs ne se séparent pas sans insister.
+Si les fibres accrochent entre elles, comme cela peut arriver avec du mohair ou de l'alpaga brossé, sépare doucement les fils plutôt que de tendre l'échelle. Choisis un crochet qui entre dans la boucle et attrape tout le fil sans le dédoubler. Un crochet un peu plus petit peut aider dans une boucle serrée.
 
-Utilise un crochet légèrement plus petit que d'habitude pour qu'il glisse dans les fibres serrées sans attraper de brins en trop. Travaille lentement et ne tire pas d'un coup. Avec un fil très accrocheur, il peut être plus sûr de détricoter quelques mailles que de forcer une longue réparation en échelle.
+Ne force pas sur des fils coincés. Pour une erreur proche, tu peux détricoter maille par maille : récupère sur une aiguille la boucle libérée du rang précédent avant de défaire la suivante. Une erreur éloignée ou emmêlée demande un point de reprise identifiable.
 
 ## Quand il vaut mieux défaire
 
-Toutes les mailles tombées ne valent pas la peine d'être réparées en place. Si elle tombe dans une torsade complexe ou un motif ajouré, la réparation doit recréer exactement la séquence du point (jetés, diminutions, croisements) pour chaque rang traversé. Cela peut être plus difficile que de défaire.
+La même réparation d'une colonne ne s'applique pas partout sans adaptation. Torsades, dentelle, augmentations, diminutions et jacquard demandent la vraie succession des mailles et des fils à chaque niveau. Les lisières et plusieurs mailles tombées côte à côte nécessitent aussi une reconstruction adaptée ; sécurise chaque boucle d'abord.
 
-Pour des points simples (jersey, point mousse, côtes) dans un fil lisse, la réparation au crochet fonctionne généralement proprement. Pour les points texturés, cela dépend du nombre de rangs à reconstruire et de la complexité de chaque rang. Deux rangs d'une torsade : réparable. Dix rangs d'un diagramme ajouré complexe : probablement plus rapide à défaire.
+Si tu ne peux pas identifier tous les fils et toutes les mailles, défais jusqu'à un fil de survie vérifié ou un rang dont tu peux récupérer les boucles. Le nombre de rangs ne décide pas seul de la possibilité de réparer. Vérifie nombre, alignement, tension et dimensions de la zone réparée. Ni une réparation invisible ni une coupe inchangée ne sont garanties.
 
-Les fils duveteux (mohair, alpaga brossé) rendent les réparations plus difficiles parce que les fibres accrochent et refusent de glisser proprement. Travaille lentement avec un crochet légèrement plus petit que d'habitude.
+Si tu as tricoté d'autres rangs alors que la maille manquait, les espaces du haut peuvent contenir trop peu de fil pour reconstruire la colonne. Ne force pas des fils courts à former de nouvelles mailles. Défais jusqu'à une échelle disposant d'assez de fil, ou demande de l'aide pour une réparation adaptée.
 
 ## FAQ
 
@@ -108,16 +119,16 @@ Les fils duveteux (mohair, alpaga brossé) rendent les réparations plus diffici
 Proche de la taille de tes aiguilles, ou légèrement plus petit. Trop gros, il ne passe pas dans la maille. Trop petit, il attrape mal le brin. L'exactitude parfaite n'est pas nécessaire.
 
 **La maille réparée se verra-t-elle ?**  
-Parfois un peu. La tension des mailles réparées peut être irrégulière parce que tu tires le fil à la main. Le blocage égalise souvent. Si une maille paraît trop serrée ou trop lâche, tire doucement sur les mailles voisines pour répartir le fil.
+Parfois. Répartis doucement le mou dans les mailles voisines sans tirer brusquement. Le [blocage](/fr/articles/bloquer-un-tricot/) selon l'entretien du fil peut aider le tissu à se mettre en place, mais ne corrige ni brins croisés, ni fils sautés, ni mauvais nombre de mailles, et ne garantit pas une réparation invisible.
 
 **Puis-je utiliser une aiguille à tricoter ?**  
-Pour un seul rang, oui. Prends la maille et le brin sur la pointe de l'aiguille et fais passer l'un dans l'autre. Pour plusieurs rangs, un crochet est beaucoup plus facile parce qu'il attrape et tire en un geste.
+Oui, pour une maille endroit défaite sur un rang. Garde la face endroit vers toi, place la boucle sur l'aiguille gauche avec son brin droit devant et le fil d'échelle derrière. Entre avec l'aiguille droite comme pour tricoter à l'endroit, tire ce fil existant à travers au lieu du fil de travail et libère l'ancienne boucle. Replace la nouvelle au bon endroit et vérifie son orientation. Le tutoriel Nimble Needles cité plus haut montre aussi cette méthode ; le crochet est plus simple sur plusieurs rangs.
 
 **Et si je torsade la maille en la remettant ?**  
-Une maille torse a les jambes croisées, avec la jambe gauche devant. Elle donne une maille plus serrée, légèrement inclinée. Si tu le vois tout de suite, retire-la, tourne-la et remets-la. Si tu ne t'en rends compte que plus tard, la réparation par colonne décrite plus haut est souvent plus rapide que de défaire.
+Le brin gauche devant l'aiguille ne signifie pas automatiquement une maille torse. [Patty Lyons explique orientation et sens d'entrée](https://pattylyons.com/2016/03/tuesday-tip-how-avoid-twisted-stitches/) (en anglais). Pour la méthode occidentale utilisée ici, maintiens la boucle avec une aiguille ou un crochet et replace son brin droit devant avant de travailler par le brin avant. Ne la lâche pas librement. Un croisement déjà tricoté dans le tissu demande la réparation distincte ci-dessus.
 
 **Puis-je laisser une maille tombée et la réparer après le rabattage ?**
-S'il reste une boucle vivante, non. La maille continuera à filer chaque fois que tu manipules l'ouvrage. Répare-la ou bloque-la avec un marqueur ouvrable. Pour une échelle découverte dans un ouvrage déjà terminé, tu peux parfois couvrir l'ouverture au point de maille avec le même fil. C'est une réparation esthétique, pas structurelle. Elle peut fonctionner en jersey simple, mais rarement proprement dans un motif ajouré ou des torsades.
+Ne laisse pas la boucle ouverte libre, même sur un ouvrage terminé. Sécurise-la immédiatement. Couvrir le trou ne fixe pas cette boucle. Reconstitue la colonne si la structure le permet puis fixe la boucle finale avec une réparation adaptée au bord, ou défais assez du rabattage pour y intégrer la maille et rabats à nouveau. Si la structure est incertaine, demande de l'aide avant d'enlever le marqueur.
 
 **Comment éviter les mailles tombées ?**
-Ralentis au moment de changer d'aiguille, surveille la maille en cours quand tu poses le projet au milieu d'un rang, et utilise des aiguilles qui accrochent mieux, comme le bambou ou le bois, avec les fils glissants. Sur des aiguilles droites, des embouts empêchent les mailles de glisser par l'arrière quand l'ouvrage attend dans un sac.
+Ralentis aux changements d'aiguille et vérifie la maille en cours avant de poser l'ouvrage. Le bois ou le bambou peuvent offrir plus d'adhérence avec un fil glissant. Mets des protège-pointes sur les extrémités ouvertes pendant les pauses ; le bouton arrière d'une aiguille droite n'empêche pas les mailles de glisser par la pointe de travail.

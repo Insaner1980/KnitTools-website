@@ -1,6 +1,6 @@
 ---
 title: "Maschenprobe stricken: Schritt für Schritt"
-description: "Eine praktische Anleitung zur Maschenprobe: Maschen anschlagen, waschen, spannen und messen, damit die Maschenprobe wirklich stimmt."
+description: "Eine praktische Anleitung zur Maschenprobe: Maschen anschlagen, waschen, spannen und messen, um die Werte mit der Anleitung zu vergleichen."
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 4
@@ -16,102 +16,103 @@ lang: de
 translationKey: "gauge-swatch-step-by-step"
 ---
 
-Eine Maschenprobe ist ein Testquadrat aus deinem Projektgarn und dem vorgesehenen Muster. Du wäschst und spannst es und misst dann meist über 10 cm, ob deine Maschen zur Anleitung passen. Das hier ist die praktische Schritt-für-Schritt-Anleitung. Wenn du zuerst verstehen willst, warum die Maschenprobe wichtig ist und was du tust, wenn sie nicht passt, erklärt [Maschenprobe messen](/de/artikel/maschenprobe-messen/) das Gesamtbild. Diese Seite ist für den Moment, in dem du den Grund schon kennst und nur die Schritte brauchst.
+Eine Maschenprobe ist ein Probestück aus deinem Projektgarn im Muster, das für die Maschenprobe angegeben ist. Miss über die Strecke und in dem Zustand, den die Anleitung nennt, meist über 10 cm. Hier geht es um die Herstellung der Probe; [Maschenprobe messen](/de/artikel/maschenprobe-messen/) erklärt die Messung genauer.
 
 ## Was du brauchst
 
-Du brauchst dein Projektgarn, die in der Anleitung empfohlene Nadelstärke oder die Empfehlung auf der Banderole, wenn du ohne Anleitung arbeitest, ein Lineal oder Maschenprobenmaß und ein paar Stecknadeln. Ein kleines Notizbuch oder die Notizen-App auf dem Handy hilft ebenfalls. Schreib Nadelstärke, Maschenzahl und Reihenprobe für jede Probe auf; nach dem Trocknen über Nacht weißt du sonst schnell nicht mehr, welche Probe welche war.
+Du brauchst dein Projektgarn, die in der Anleitung empfohlene Nadelstärke oder die Empfehlung auf der Banderole, wenn du ohne Anleitung arbeitest, ein Lineal oder Maschenprobenmaß und ein paar Stecknadeln. Ein kleines Notizbuch oder die Notizen-App auf dem Handy hilft ebenfalls. Schreib Nadelstärke, Maschen- und Reihenzahl für jede Probe auf; nach dem Trocknen über Nacht weißt du sonst schnell nicht mehr, welche Probe welche war.
 
-Wenn die Anleitung von jemand anderem geschrieben wurde, prüfe auch, ob die Maschenprobe in glatt rechts oder im Muster angegeben ist. Das entscheidet, was du als Nächstes strickst.
+Prüfe, welches Muster für die Maschenprobe gilt und ob das Projekt in Reihen oder Runden gestrickt wird. Verwende denselben Nadeltyp und dieselbe Arbeitsweise. Eine Rundstricknadel allein macht eine in Reihen gestrickte Probe nicht zur Rundstrickprobe. Die Abkürzung weiter unten ahmt glatt rechts in Runden nach.
 
 ## Schritt 1: Maschen anschlagen
 
-Schlage genug Maschen für etwa 15 cm Breite an oder folge der Größenangabe der Anleitung. So bleibt meist Platz für eine mittlere Messfläche von 10 cm mit Abstand zu den Seitenrändern.
+Plane etwa 15 cm des zu messenden Musters oder folge der Probengröße der Anleitung. Ziel ist eine mittlere Messstrecke von 10 cm mit zusätzlichem Gestrick auf allen Seiten, innerhalb möglicher Ränder. Das sind Planungsmaße, keine Garantie: Deine tatsächliche Maschenprobe steht noch nicht fest.
 
-Schnelle Rechnung: Multipliziere die Maschenprobe der Anleitung auf 10 cm mit 1,5, um die Maschenzahl für etwa 15 cm zu schätzen. Zum Beispiel ergeben 20 × 1,5 = 30 Maschen. Bei einem Dezimalergebnis rundest du auf die nächste ganze Masche auf. Passe die Zahl bei Bedarf an einen vollständigen Musterrapport an und addiere Rand- oder Blendenmaschen separat, wenn sie außerhalb der mittleren Messfläche liegen.
+Schnelle Rechnung: 20 Maschen pro 10 cm × 1,5 = 30 Maschen für etwa 15 cm bei der vorgegebenen Maschenprobe. Runde Dezimalergebnisse auf ganze Maschen auf und passe die Zahl an vollständige Rapporte sowie zusätzliche Maschen der Musteranweisung an. Addiere einen optionalen Rand separat: 30 Maschen glatt rechts plus je 3 Maschen kraus rechts an beiden Seiten ergeben 36 anzuschlagende Maschen. Die gesamte Probe ist breiter als das glatt rechte Feld; die Ränder zählen nicht zu dessen Maschenprobe.
 
-Die Anschlagmethode ist für die Probe weniger entscheidend, als man denkt, aber nutze möglichst dieselbe Methode wie im Projekt. Der Kreuzanschlag ist für viele flach gestrickte Stücke der normale Ausgangspunkt. Wenn das Projekt mit einem Bündchen beginnt, muss die Probe nicht zwingend damit beginnen, aber es ist nützlich zu wissen, ob dein Anschlag zu fest wird.
+Schlage so an, dass die Kante das Gestrick nicht zusammenzieht, möglichst mit der Methode des Projekts. Ein Rippenbündchen muss nicht enthalten sein, sofern die Maschenprobenanweisung es nicht verlangt.
 
 ## Schritt 2: Probe stricken
 
 Stricke in dem Muster, das im Abschnitt zur Maschenprobe angegeben ist. "Glatt rechts" heißt glatt rechts. "Im Muster" heißt das tatsächliche Muster des Projekts. Dieser Unterschied zählt, weil verschiedene Muster verschiedene Maschenproben erzeugen. Ein Zopffeld zieht sich zusammen. Ein Lochmuster öffnet sich nach dem Spannen. Rippenmuster komprimiert seitlich. Eine glatt rechte Probe zu messen und daraus die Maschenprobe einer Zopfpasse abzuleiten, ist ein schneller Weg zu einem Pullover, der nicht passt.
 
-Stricke bis etwa 15 cm Höhe oder bis eine mittlere Messfläche von 10 cm mit Abstand zu Anschlag- und Abkettkante vorhanden ist. Etwa 15 cm sind eine robuste Empfehlung, kein allgemeines Mindestmaß.
+Stricke genügend Reihen oder Runden, um in der Mitte 10 cm Höhe ohne Einfluss von Anschlag, Abkettkante oder Rändern messen zu können. Etwa 15 cm des zu messenden Musters sind ein praktischer Ausgangspunkt, kein allgemeines Mindestmaß. Beende bei Bedarf vollständige Höhenrapporte. Ist die fertige Messfläche zu klein, stricke eine größere Probe.
 
-Manche stricken einen Rand in kraus rechts, zum Beispiel 3 oder 4 Maschen an den Seiten und 3 oder 4 Reihen oben und unten, damit die Probe nicht einrollt. Glatt rechts rollt sich ein. Eine flache Probe ist leichter zu messen. Der kraus rechte Rand verändert die Maschenprobe in der glatt rechten Mitte nicht. Die kleine Zusatzarbeit lohnt sich oft.
+Ein kraus rechter Rand kann gegen das Einrollen von glatt rechts helfen, durch die unterschiedliche Maschenprobe aber auch das Gestrick verzerren. Für eine flache Probe mit je 3 Randmaschen: Stricke zuerst einige Reihen kraus rechts. Stricke dann die ersten und letzten 3 Maschen jeder Reihe rechts und die Mitte glatt rechts, in Hinreihen rechts und in Rückreihen links. Beende die Probe mit einigen kraus rechten Reihen vor dem Abketten. Miss weder die Ränder noch beeinflusste Bereiche mit. Wird die Mitte verzerrt, stricke eine größere Probe oder lass den Rand weg.
 
 Kette locker ab. Eine zu feste Abkettkante zieht die obere Kante zusammen und verzerrt die Reihen direkt darunter, also genau den Bereich, den du nicht verzerrt messen möchtest.
 
 ## Schritt 3: Waschen und spannen
 
-Dieser Schritt wird am häufigsten übersprungen und ist oft der wichtigste.
+Miss und notiere die unbehandelte Probe zuerst nach Schritt 4, bevor du sie wäschst oder spannst. Behalte diesen Wert zum Vergleich mit ungewaschenem Gestrick oder einer Anleitung, die ausdrücklich eine unbehandelte Maschenprobe angibt.
 
-Weiche die Probe etwa 15 bis 20 Minuten in lauwarmem Wasser ein, sofern die Banderole nichts anderes verlangt. Drücke sie vorsichtig in einem Handtuch aus, wringe sie nicht. Lege sie flach hin und lass sie vollständig trocknen. Wenn das Garn besser gedämpft als eingeweicht wird, behandle die Probe auf diese Weise. Der [Leitfaden zum Spannen](/de/artikel/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche/) erklärt faserspezifische Methoden genauer.
+Behandle die Probe anschließend wie das fertige Projekt, unter Beachtung der Pflegehinweise des Garns. Soll das Stück von Hand gewaschen und liegend getrocknet werden, mache es mit der Probe ebenso: Drücke Wasser vorsichtig in einem Handtuch aus, ohne zu wringen, und trockne sie liegend. Einweichzeit, Wassertemperatur und mögliches Dämpfen hängen vom Garn und der geplanten Pflege ab; 15–20 Minuten sind keine allgemeine Regel. Der [Leitfaden zum Spannen](/de/artikel/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche/) beschreibt verschiedene Methoden.
 
-Garn verändert sich, wenn es nass wird. Wolle kann aufblühen und die Maschen füllen. Baumwolle kann entspannen. Leinen wird weicher. Superwash-Wolle und Alpaka können stärker wachsen oder fallen als erwartet. Die Probe direkt von den Nadeln ist nicht immer dieselbe Probe nach der ersten Wäsche, und dein fertiges Projekt wird irgendwann gewaschen. Miss die gewaschene Probe, nicht die rohe.
-
-Spanne oder trockne die Probe so, wie du auch das fertige Stück behandeln wirst. Wenn das fertige Stück eingeweicht und flach festgesteckt wird, mach das mit der Probe. Wenn es gedämpft wird, dämpfe die Probe. Wenn du einen Wollpullover von Hand wäschst und liegend trocknest, mach genau das mit der Probe. Zu aggressives Feststecken, das die Probe auseinanderzieht, liefert eine Zahl, die nicht zum späteren Verhalten am Körper passt.
+Lass die Probe vollständig trocknen, entferne mögliche Stecknadeln und lass das Gestrick ruhen, bevor du misst, sofern die Anleitung keinen anderen Zustand verlangt. Ziehe oder drücke es nicht auf den Zielwert. Halte Vorher- und Nachherwerte getrennt: Die Veränderung gilt für diese Probe und garantiert nicht das Verhalten aller Garne derselben Faser oder des getragenen Kleidungsstücks. Vergleiche im angegebenen Zustand; fehlt die Angabe, verwende die fertig behandelte Probe.
 
 ## Schritt 4: Messen
 
-Lege die trockene Probe auf eine flache, harte Oberfläche. Dehne sie nicht.
+Lege die trockene Probe auf eine ebene, feste Unterlage. Miss eine entspannte Maschenprobe ohne Dehnen. Bei Rippen folgst du der Angabe zu entspanntem oder gedehntem Messen; frage bei Unklarheit die Person, die die Anleitung entworfen hat.
 
-Lege dein Lineal waagerecht in die Mitte der Probe, mindestens ein paar Zentimeter von Anschlag- und Abkettkante entfernt. Zähle die Maschen über 10 cm. Halbe Maschen zählen. Runde sie nicht weg. Wenn die Anleitung 20 Maschen auf 10 cm erwartet und deine Probe 18 Maschen zeigt, wird ein Körper mit 200 Maschen ungefähr 111 cm statt 100 cm breit.
+Lege die Nullmarkierung des Lineals an eine Maschengrenze in der unverzerrten Mitte, parallel zu einer Reihe. Die gesamte Messstrecke muss Abstand zu allen Rändern haben. Zähle Maschen über 10 cm, auch Maschenanteile. Verwende die Maßeinheit der Anleitung: Die übliche Angabe 10 cm / 4 Zoll ist keine exakte Umrechnung, denn 4 Zoll sind 10,16 cm.
 
-Miss dann vertikal: Zähle die Reihen über 10 cm im mittleren Bereich, weg von den Seitenrändern.
+Beispiel: 200 Maschen für den Rumpfumfang ergeben im selben Muster bei 20 Maschen pro 10 cm einen Umfang von 200 ÷ 20 × 10 = 100 cm. Bei 18 Maschen sind es 200 ÷ 18 × 10 ≈ 111,1 cm, vor einer möglichen Nahtzugabe.
 
-Schreib beide Zahlen auf. Wenn du besonders sorgfältig sein willst, miss an zwei Stellen der Probe und bilde den Durchschnitt. Handgestrickter Stoff ist nie völlig gleichmäßig, und eine einzelne Messung kann gerade auf einer etwas festeren oder lockereren Stelle liegen.
+Drehe das Lineal senkrecht entlang einer Maschensäule und zähle Reihen oder Runden über dieselbe Strecke, einschließlich Anteilen. Bei glatt rechts ist ein vollständiges V eine Masche; übereinanderliegende V zeigen die Reihen oder Runden. Zähle bei Rippen auch die verdeckten linken Maschen. Nutze bei Loch- und Zopfmustern die Strickschrift oder miss vollständige Rapporte; ein Loch oder eine Kreuzung ist keine einzelne Masche. Der verlinkte Messleitfaden erläutert die Methoden genauer.
+
+Notiere beide Werte und den Zustand. Miss an mehreren Stellen in der Mitte. Bilde nur bei kleinen Unterschieden zwischen vergleichbaren Messungen einen Durchschnitt; kläre große Unterschiede, statt sie zum Zielwert zu mitteln.
 
 ## Schritt 5: Vergleichen
 
-Vergleiche deine Werte mit der Maschenprobe der Anleitung.
+Vergleiche Maschen und Reihen oder Runden über dieselbe Strecke, im selben Muster und Zustand mit der Anleitung.
 
-**Passt:** Du kannst das Projekt anschlagen.
+**Passt:** Prüfe auch, ob das Gestrick zum Projekt passt, bevor du anschlägst.
 
-**Zu viele Maschen auf 10 cm:** Deine Maschen sind kleiner als in der Anleitung. Nimm eine Nadelstärke größer. Stricke erneut eine Probe.
+**Zu viele Maschen auf 10 cm:** Die Maschen sind schmaler. Probiere dickere Nadeln und stricke eine neue Probe.
 
-**Zu wenige Maschen:** Deine Maschen sind größer. Nimm eine Nadelstärke kleiner. Stricke erneut eine Probe.
+**Zu wenige Maschen:** Die Maschen sind breiter. Probiere dünnere Nadeln und stricke eine neue Probe.
 
-Wiederhole das, bis die Maschenprobe passt. Priorisiere die Maschenprobe in der Breite vor der Reihenprobe. Die meisten Anleitungen können Unterschiede in der Reihenprobe ausgleichen, weil Längen häufig gemessen und nicht gezählt werden.
-
-Wie groß soll der Nadelwechsel sein? Beginne bei einer kleinen Abweichung mit einer Größe. Wenn du etwa 2 Maschen auf 10 cm danebenliegst, kann ein Sprung um zwei Größen der bessere erste Test sein. Für jeden winzigen Zwischenschritt eine neue Probe zu stricken, wird schnell mühsam.
+Eine benachbarte Nadelstärke ist ein Versuch, keine feste Korrektur pro abweichender Masche. Prüfe nach jeder Änderung beide Werte. Reihen oder Runden beeinflussen Formgebung und Rapporte; bis zu einer Länge zu stricken reicht nur, wo die Anleitung es erlaubt. Lies [wenn die Maschenprobe nicht zur Anleitung passt](/de/artikel/wenn-die-maschenprobe-nicht-zur-anleitung-passt/) für die nächste Entscheidung.
 
 ## Wie lange dauert das?
 
-Mit Worsted-Garn etwa 45 Minuten Strickzeit plus Trockenzeit von einigen Stunden bis über Nacht. Fingering-Garn dauert länger. Kleinere Maschen, mehr davon für dieselbe Fläche. Eine Fingering-Probe kann einen Abend dauern. Lace-Garn dauert noch länger.
+Plane Zeit für Stricken, Behandlung, vollständiges Trocknen und mögliche weitere Proben ein. Die Dauer hängt von Garn, Muster, Probengröße und Tempo ab. Weder 45 Minuten Strickzeit noch Trocknen über Nacht sind eine verlässliche Regel.
 
 ## Wann du sie überspringen kannst
 
-Ehrlich? Fast nie, wenn die Größe zählt. Praktisch: manchmal bei Schals, Decken, Spültüchern und Teilen, bei denen ein halber Zentimeter Unterschied egal ist. Wenn das Projekt ein passgenaues Kleidungsstück, eine gut sitzende Mütze oder Socken sind, stricke eine Probe. Die Stunde jetzt spart später viele Stunden Aufribbeln.
+Wenn du bei einem einfachen Schal oder Spültuch eine andere Größe akzeptierst, kannst du ohne separate Probe beginnen. Damit akzeptierst du auch Unsicherheit über Gestrick und Garnbedarf. Stricke vor einem passgenauen Kleidungsstück, einer Mütze oder Socken eine Probe.
 
-Garnersatz ist die andere Situation, in der eine Maschenprobe nicht optional ist. Selbst wenn das Ersatzgarn dieselbe Garnstärke trägt wie das empfohlene Garn der Anleitung, kann die Maschenprobe wandern. Zwei DK-Garne aus unterschiedlichen Spinnereien, eines aus Wolle und eines aus einer Baumwollmischung, können für denselben Stoff unterschiedliche Nadelstärken brauchen.
+Teste auch ein Ersatzgarn. Dieselbe Garnstärkenkategorie garantiert weder dieselbe Maschenprobe noch dasselbe Gestrick; beurteile die fertig behandelte Probe statt nur der Banderole.
 
 ## Tipps für bessere Maschenproben
 
-Stricke die Probe mit demselben Nadeltyp, den du für das Projekt verwenden wirst. Metall und Bambus können unterschiedliche Maschenproben erzeugen. Wenn du auf geraden Bambusnadeln probst, das Projekt aber auf Metall-Rundstricknadeln arbeitest, kann die Maschenprobe wandern. Dasselbe gilt für Runden: Wenn das Projekt in Runden gestrickt wird, stricke die Probe in Runden. Deine rechten und linken Maschen haben vermutlich nicht exakt dieselbe Spannung, und eine flache Probe passt nicht immer zu Rundstrick.
+Verwende dieselben Nadeln und dieselbe Arbeitsweise wie im Projekt. Für Rundstrick kannst du einen Schlauch im Projektmuster stricken, dessen Umfang groß genug ist, um abseits von Nadelübergängen und Falten zu messen. Glatt rechts in Reihen wechselt zwischen rechten und linken Reihen; das muss nicht dieselbe Maschenprobe ergeben wie ausschließlich rechte Runden.
 
-Die Abkürzung für eine Probe in Runden: Schlage die Maschen auf einer Rundstricknadel an, stricke eine Reihe, schiebe die Maschen zurück ans andere Nadelende, ohne zu wenden, führe den Faden locker über die Rückseite und stricke die nächste Reihe wieder von rechts. So ahmst du Rundstrick nach, ohne einen Schlauch zu stricken. Die Spannfäden auf der Rückseite werden vor dem Messen aufgeschnitten. Die Vorderseite sieht aus wie glatt rechts in Runden.
+Abkürzung für **glatt rechts in Runden**:
 
-Bewahre Proben auf. Hänge ein Etikett daran: Garnname, Nadelstärke, Maschenprobe. Das ist mitten im Projekt nützlich und auch Monate später, wenn du herausfinden willst, ob der Garnrest das DK-Garn mit 22 Maschen oder das mit 24 Maschen war.
+1. Schlage eine großzügige Probenbreite auf einer Rundstricknadel an und stricke eine Reihe rechts.
+2. Lass die Vorderseite zu dir zeigen. Wende nicht, sondern schiebe die Maschen über das Seil zur anderen Spitze, um sie erneut zu stricken. Beim üblichen Stricken von rechts nach links liegt der Arbeitsfaden jetzt am linken Rand.
+3. Führe den Faden hinter dem Gestrick in einer langen, lockeren Schlaufe von links nach rechts und stricke die nächste Reihe rechts. Lass genug Faden, damit die Probe bei Behandlung und Messung in voller Breite liegen kann, ohne dass die Schlaufe die Ränder zusammenzieht.
+4. Wiederhole Schieben, lockeren Rückfaden und rechte Reihe, bis die Mitte hoch genug ist. Kette ohne Zusammenziehen ab. Notiere den unbehandelten Wert, behandle und trockne wie oben beschrieben. Miss abseits der lockeren Seitenmaschen. Die Fäden müssen nicht durchgeschnitten werden, wenn die Probe spannungsfrei flach liegt.
 
-Verwende Proben-Garn nicht sofort wieder. Es wurde gestrickt, gewaschen und gedehnt, daher kann es sich anders verhalten als frisches Garn. Wenn du das Garn brauchst, lass es erst trocknen und entspannen, und rechne trotzdem damit, dass es etwas anders aussieht als unbenutztes Garn.
+Nur rechte Reihen ersetzen keine Anleitung für Rippen, kraus rechts, Zöpfe oder Lochmuster: Dafür ist die tatsächliche Rundenfolge nötig. Stricke einen Schlauch, wenn die Abkürzung deine Arbeitsweise nicht abbildet oder keine unverzerrte Mitte ergibt.
 
-Wenn sich deine Maschenprobe mitten im Projekt verändert, prüfe zuerst die naheliegenden Variablen: ein neues Knäuel, eine andere Nadel, ein anderer Strickplatz oder eine lange, müde Stricksitzung. Strickspannung folgt Haltung und Stimmung stärker, als man gern zugibt.
+Beschrifte die Probe vor dem Waschen mit Garn, Nadelstärke in mm und Nadeltyp, Muster, Arbeitsweise und Vorher-/Nachherwerten samt Messstrecke. Bewahre sie als Referenz auf. Testest du mehrere Nadelstärken in einem Streifen, markiere die Wechsel und stricke jedes Feld groß genug für eine Messung abseits des Übergangs. Benachbarte Felder sind nicht automatisch unverzerrt; stricke separate Proben, wenn sie sich gegenseitig zusammenziehen.
 
 ## Kurze Antworten
 
 **Kann ich über weniger als 10 cm messen?**
 
-Du kannst, aber ein Fehler von einer halben Masche über 5 cm ist proportional viel größer. Miss mindestens 10 cm. Bei sehr dickem Garn, bei dem 10 cm nur wenige Maschen sind, miss über eine breitere Strecke, wenn die Probe groß genug ist.
+Eine kürzere Strecke vergrößert Zählfehler: Eine halbe Masche Fehler auf 5 cm wird bei der Umrechnung auf 10 cm zu einer ganzen Masche. Nutze möglichst die Messstrecke der Anleitung; eine größere nutzbare Fläche hilft bei dickem Garn oder langen Rapporten.
 
 **Ändert sich die Maschenprobe je nach Tag?**
 
-Ja. Strickspannung variiert mit Stimmung, Müdigkeit und Länge der Stricksitzung. Stricke die Probe in einer normalen Stricksituation, nicht in den ersten zehn Minuten, wenn die Hände noch kalt sind. Wenn deine Maschenprobe stark schwankt, nimm den Durchschnitt aus zwei oder drei Proben.
+Vergleiche Proben mit demselben Garn, denselben Nadeln, derselben Arbeitsweise und Behandlung. Weichen die Werte stark ab, prüfe die Bedingungen und stricke eine neue repräsentative Probe, statt unvereinbare Ergebnisse zu mitteln.
 
 **Separate Maschenprobe oder das Projekt messen?**
 
-Du kannst das Projekt nach ein paar Zentimetern messen, aber dann hast du dich schon festgelegt. Wenn die Maschenprobe falsch ist, ribbelst du auf und beginnst neu. Eine separate Probe erkennt das Problem, bevor echte Projektzeit darin steckt. Die Ausnahme sind Top-down-Kleidungsstücke, bei denen die frühe Passe klein und leicht zu ribbeln ist. Manche nutzen die Passe selbst als Probe. Das ist riskanter, funktioniert aber für sie.
+Du kannst am Projekt messen, sobald genügend unverzerrtes Gestrick vorhanden ist. Eine ungeeignete Maschenprobe zu korrigieren kann jedoch Aufribbeln bedeuten. Vergleiche unbehandeltes Gestrick mit der unbehandelten Probe. Eine kleine, von oben gestrickte Passe ist nicht automatisch eine repräsentative Messfläche.
 
 **Was, wenn die Anleitung keine Maschenprobe angibt?**
 
-Prüfe die empfohlene Nadelstärke auf der Banderole und beginne dort. Stricke eine Probe in glatt rechts. Was du misst, ist deine Maschenprobe, und das Projekt wird so groß, wie diese Rechnung es ergibt. Das ist für Schals und Tücher sinnvoll, bei denen die exakte Größe nicht kritisch ist.
+Frage beim Anbieter der Anleitung nach, wenn die Größe wichtig ist. Für einen eigenen einfachen Entwurf kannst du mit der Nadelempfehlung der Banderole beginnen und im vorgesehenen Muster probestricken. Das liefert eine Grundlage für Maßberechnungen; glatt rechts sagt nicht die Maschenprobe aller anderen Muster voraus.

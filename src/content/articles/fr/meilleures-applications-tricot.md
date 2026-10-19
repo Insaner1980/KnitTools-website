@@ -1,13 +1,14 @@
 ---
-title: "Meilleures applications tricot : quoi regarder"
-description: "Comparer les fonctions utiles d'une application tricot : compteurs de rangs, calculateurs, gestion du stock, modèles enregistrés et accès hors ligne."
+title: "Choisir une application tricot : les fonctions utiles"
+description: "Choisis ton application tricot selon tes besoins : compteurs, calculs, PDF, accès hors ligne, tarifs, sauvegardes et appareils compatibles."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 1
 tags:
   [
     "meilleures applications tricot",
-    "avis application tricot",
+    "choisir une application tricot",
     "application compteur de rangs",
     "application calculateur tricot",
     "application tricot android",
@@ -17,123 +18,95 @@ lang: fr
 translationKey: "best-knitting-apps"
 ---
 
-Les applications tricot remplacent les bouts de papier, les calculs faits à la main et les rangs comptés de tête que les tricoteuses utilisent depuis toujours. Une bonne application fait gagner du temps et évite des erreurs. Une mauvaise ajoute de la friction, cache les fonctions dans des menus confus ou te pousse vers un abonnement pour des choses basiques.
+Une application tricot peut réunir compteurs, calculs et notes de projet. Les fonctions utiles dépendent de ta façon de tricoter. Un compteur simple peut suffire pour une écharpe ; plusieurs mises en forme peuvent être plus faciles à suivre avec des compteurs supplémentaires et des notes.
 
-Une bonne application tricot doit avoir trois bases : un compteur de rangs avec plusieurs compteurs simultanés, des calculateurs pratiques (au moins montage des mailles et estimation du fil) et un accès hors ligne pour les fonctions utilisées pendant que tu tricotes. Les classements d'app store et les listes de fonctions changent, donc la meilleure question est ce qu'il faut évaluer avant d'installer une application.
+Ce guide propose des critères de choix, pas un classement d'applications testées. Commence par les tâches pour lesquelles tu souhaites de l'aide, puis vérifie la documentation de la version proposée pour ton appareil.
 
 ## Les fonctions qui comptent le plus
 
-### Compteur de rangs
+### Compteur de rangs et de tours
 
-C'est souvent la raison pour laquelle on télécharge une application tricot au départ. La base est simple : appuyer pour avancer, afficher le compte. Mais l'écart entre un compteur basique et un compteur utile est énorme.
+Un compteur simple avance quand tu appuies. Décide si tu enregistres les rangs terminés à plat, les tours en rond ou les répétitions d'un motif, puis conserve cette convention. Un compteur actionné par un appui ne détecte pas automatiquement ton tricot.
 
-**Ce qui distingue un bon compteur de rangs :**
+Pour les instructions [« en même temps »](/fr/articles/au-meme-temps-dans-un-modele-tricot/), des compteurs séparés peuvent aider à suivre des mises en forme à intervalles différents. Un calendrier écrit associé à un seul compte de rangs peut aussi convenir. Le modèle n'impose pas un nombre fixe de compteurs.
 
-Plusieurs compteurs qui tournent en même temps. Pour les instructions ["en même temps"](/fr/articles/au-meme-temps-dans-un-modele-tricot/), comme une emmanchure et une encolure façonnées à des intervalles différents, il faut au moins deux compteurs indépendants. Un raglan top-down avec façonnage du corps et des manches en parallèle peut en demander quatre.
+Vérifie que chaque projet conserve ses compteurs quand tu changes d'ouvrage. Note aussi la section du modèle et tes modifications. L'historique des séances peut indiquer quand tu as travaillé, mais retrouver ta place dépend toujours de la justesse de tes saisies.
 
-Lien avec le projet. Un compteur qui se souvient du projet auquel il appartient et te laisse changer de projet sans perdre ta place. Si tu as trois ouvrages en cours, remettre un compteur à zéro ne doit pas effacer les autres.
-
-Historique des sessions. Voir combien de rangs tu as tricotés dans une séance, et quand tu as travaillé pour la dernière fois sur un projet, aide à suivre l'avancement et à reprendre après une pause. Utile quand un ouvrage est resté deux mois de côté et qu'il te faut un indice pour retrouver où tu en étais.
-
-Grandes zones de toucher. Un bouton de compteur doit être facile à atteindre sans regarder l'écran, pendant que tes yeux restent sur l'ouvrage. Un petit bouton plus qui demande un appui précis rate le but. Les meilleurs compteurs fonctionnent avec un grand geste d'appui, pas seulement une petite icône.
-
-Un compteur qui n'est qu'un chiffre avec un bouton plus, c'est comme le minuteur du téléphone : techniquement fonctionnel, pratiquement insuffisant.
+Essaie les zones tactiles, l'annulation, la taille du texte et le lecteur d'écran sur ton appareil. Pour la commande vocale, vérifie les commandes, les langues et le besoin de connexion. Une liste de fonctions ne prouve ni l'accessibilité ni la fiabilité.
 
 ### Calculateurs
 
-Ceux que les tricoteuses utilisent vraiment :
+**Calculateur de mailles à monter.** Vérifie les unités de l'échantillon et de la largeur ainsi que l'arrondi. Pour un motif de 8 mailles ou un multiple de 12 plus 3, vérifie la prise en charge ou adapte le résultat toi-même, lisières comprises.
 
-**Calculateur de mailles à monter.** Tu entres l'échantillon et la largeur voulue, tu obtiens le nombre de mailles. Il évite le calcul mental à chaque nouveau projet. Les bons calculateurs tiennent aussi compte des multiples de motif : une torsade qui se répète sur 8 mailles, ou un point ajouré qui demande un multiple de 12 plus 3, afin que le résultat soit un nombre réellement utilisable.
+**Estimateur de quantité de fil.** Des tailles prédéfinies et des catégories d'épaisseur ne remplacent pas tes propres mesures ou la consommation de ton échantillon. Le résultat reste une estimation, pas une garantie d'avoir assez de fil. Vérifie si la marge pour l'échantillon et les finitions est incluse.
 
-**Estimateur de quantité de fil.** Type de projet, dimensions et épaisseur de fil entrent, métrage total sort. Il évite l'angoisse du "est-ce que j'aurai assez de fil ?" et la réalité du "je n'en aurai clairement pas assez". Les versions intelligentes ajoutent une marge pour l'échantillon et les finitions.
+**Calculateur d'augmentations et de diminutions.** Vérifie s'il demande le nombre de changements ou le nombre final de mailles, et si la répartition convient aux bords et au point utilisé.
 
-**Calculateur d'augmentations/diminutions.** Nombre de mailles actuel et nombre à ajouter ou retirer entrent, répartition des intervalles sort. Il évite la division avec reste que les modèles te laissent souvent faire de tête.
+**Calculateur d'échantillon.** Une comparaison peut montrer un écart avec le modèle. Elle ne garantit ni la bonne taille d'aiguilles ni le tissu souhaité ; vérifie avec un nouvel échantillon.
 
-**Calculateur d'échantillon.** Mesures de l'échantillon contre exigences du modèle, pour savoir s'il faut changer de taille d'aiguille.
+Tous ces outils n'ont pas besoin d'être dans la même application. Choisis ceux qui te servent.
 
-Certaines applications regroupent tout cela. D'autres se spécialisent. Une application avec un bon calculateur de montage et un bon estimateur de fil couvre les deux besoins les plus fréquents.
+### Gestion du stock de fil
 
-### Gestion du stock de laine
-
-Des fiches numériques pour le fil : composition, épaisseur, coloris, métrage, entretien. Utile si ton stock commence à prendre de la place, parce que tu peux vérifier ce que tu as sans fouiller dans les boîtes. Filtrer par épaisseur pour retrouver "tout mon DK" avant de commencer un projet est le genre de fonction qui gagne sa place.
-
-Les meilleures versions rendent la saisie manuelle rapide : dupliquer une fiche existante, enregistrer les champs fréquents, garder le bain et l'entretien visibles là où tu en as besoin. La friction est réelle, donc une fiche de fil doit ressembler davantage à une note prise depuis une banderole qu'à une base de données à remplir.
-
-L'utilité dépend de l'échelle. Cinq pelotes ? Tu t'en souviens. Cinquante ? Un inventaire numérique évite des allers-retours dans le placard à laine. Deux cents ? L'inventaire devient la seule façon réaliste de savoir ce que tu possèdes.
+Pour un stock numérique, recherche les champs composition, épaisseur, coloris, bain de teinture, métrage, quantité et entretien. Essaie la recherche et les filtres avec un fil que tu possèdes. Copier une fiche ou ajouter une photo peut limiter la saisie, mais vérifie les informations à entrer manuellement. Les quantités doivent rester à jour.
 
 ### Accès hors ligne
 
-On tricote souvent là où Internet n'est pas fiable : trains, avions, salles d'attente, canapé avec wifi capricieux. Une application qui a besoin d'une connexion pour afficher ton rang ou lancer un calculateur échoue au moment précis où tu en as besoin.
+Vérifie chaque action sans connexion : ouvrir un projet, modifier son compteur, calculer ou lire un modèle déjà téléchargé. Un lien web enregistré n'est pas un PDF disponible hors ligne. Distingue les exigences du premier téléchargement et de la connexion au compte de l'utilisation courante sans réseau.
 
-Le hors ligne pour les fonctions de base (compteur, calculateurs, fiches de fil) devrait être standard. Pas premium.
+## Les fonctions adaptées à ta pratique
 
-Une application qui cache le hors ligne derrière un abonnement a mal compris ce dont les tricoteuses ont besoin.
+Lire le modèle à côté du compteur peut être une priorité. L'importation d'un PDF, son affichage, les annotations et l'export sont des fonctions distinctes. Importer ne signifie pas interpréter les instructions. Vérifie si les annotations restent présentes dans la copie exportée.
 
-## Les fonctions qui semblent utiles mais le sont rarement
-
-Le stockage et la lecture de modèles semblent pratiques en théorie. Ton modèle et ton compteur au même endroit. En pratique, lire un modèle complexe sur un écran de téléphone est pénible. La plupart des tricoteuses préfèrent un modèle imprimé ou une tablette. Le téléphone reste pour le compteur et les calculs.
-
-Les fonctions sociales (fil d'actualité, partage d'avancement, communauté) atteignent rarement une masse critique. Ravelry et Instagram remplissent déjà bien ce rôle. Un troisième fil social dans une application de compteur n'ajoute pas grand-chose.
-
-Les animations de points sont impressionnantes dans la fiche de l'application, puis on les ouvre une fois et on les oublie. Pour apprendre un point, une vidéo YouTube vaut mieux qu'une animation en boucle sur petit écran, parce que tu vois mieux la position des mains, la tension et le mouvement.
-
-Les minuteurs intégrés, rappels "intelligents" et séries de productivité ne se transposent pas toujours bien à un loisir. Le tricot est souvent une pause loin des notifications. Les applications qui essaient de le transformer en jeu finissent souvent supprimées.
+Les fonctions communautaires peuvent servir à partager des projets ou à discuter d'un modèle. Évalue les vidéos et animations selon la visibilité des mains, les commandes de lecture et la clarté des explications. Chronomètres, rappels et objectifs quotidiens sont facultatifs : choisis-les s'ils t'aident et vérifie qu'ils peuvent être désactivés.
 
 ## Téléphone ou tablette
 
-Le téléphone est l'appareil que tu as dans la poche, donc c'est le support naturel pour le compteur. La tablette est l'endroit où la lecture d'un modèle fonctionne vraiment. Beaucoup de tricoteuses utilisent les deux : le téléphone suit les rangs, la tablette affiche le PDF.
-
-Si tu veux tout faire sur un seul appareil, la tablette gagne pour les modèles et perd en portabilité. Le téléphone gagne presque partout sauf pour la lecture. Il n'y a pas de bonne réponse unique. Le test honnête : est-ce que tu tricotes toujours au même endroit à la maison, ou est-ce que tu emportes ton ouvrage ?
+Essaie les textes et diagrammes que tu utilises habituellement. Un grand écran peut limiter le zoom ; un téléphone peut être plus facile à emporter. Si tu utilises les deux, vérifie la compatibilité, la validité de l'achat sur chaque plateforme et la synchronisation des modifications. Deux installations ne signifient pas automatiquement des projets synchronisés.
 
 ## Modèles de prix
 
-**Paiement unique** est le modèle le plus favorable aux tricoteuses. Tu paies une fois, l'application est à toi. Tu ne paies pas chaque mois pour un compteur de rangs.
+**Achat unique :** vérifie ce que le paiement débloque, ainsi que les autres plateformes et futures versions majeures éventuellement incluses. Un paiement unique ne promet pas des mises à jour indéfinies.
 
-**Abonnement** peut se justifier pour de vraies fonctions premium, comme une grande base de modèles, une synchronisation cloud ou des outils avancés pour les diagrammes, mais la plupart des tricoteuses n'ont pas besoin d'un accès mensuel à un calculateur. Fais le calcul : même un petit prix mensuel devient une dépense de fil sur un an.
+**Abonnement :** compare la période facturée, les fonctions, le renouvellement et l'accès après résiliation. Compare le tarif annuel à 12 mensualités uniquement pour des fonctions identiques.
 
-Vérifie ce que contient la version gratuite et si tu utiliserais réellement les fonctions payantes chaque semaine. Les applications mettent souvent en avant leurs meilleures fonctions, puis les placent derrière le niveau le plus cher. Lis la liste des achats intégrés avant d'installer.
+**Téléchargement gratuit ou période d'essai :** ni l'un ni l'autre ne signifie forcément un usage gratuit durable. Vérifie l'expiration, le renouvellement automatique, les limites de projets et les fonctions qui restent gratuites.
 
-**Gratuit avec publicités** fonctionne, mais agace. Des publicités dans un compteur de rangs cassent le rythme. Si une publicité apparaît quand tu appuies sur le compteur, paie pour les retirer ou cherche une autre application.
+**Publicités ou options payantes :** vérifie où les annonces apparaissent et ce qu'un achat retire ou débloque. Évalue la version gratuite selon tes besoins ; un compteur utile n'a pas forcément besoin de calculateurs.
 
-**Freemium** (base gratuite, avancé payant) est raisonnable si la version gratuite inclut un compteur utilisable et au moins un calculateur. Beaucoup moins si tout est bloqué derrière un paywall et que la version "gratuite" est surtout une démo.
+Consulte le prix de ta région, dans ta devise et sur ta plateforme. Ce guide ne cite pas de tarifs d'autres applications.
 
 ## Confidentialité et données
 
-Une application tricot n'a pas besoin d'accéder à tes contacts, à ta localisation ou à des fichiers sans rapport avec l'application pour compter, calculer ou garder des notes de projet. Si elle demande des autorisations inutiles, demande-toi pourquoi.
+Vérifie le motif des autorisations demandées et leur lien avec une fonction souhaitée, comme choisir un PDF ou ajouter une photo. Lis les informations de confidentialité et les exigences de compte. Ne suppose pas que les données de tricot sont sans importance, ni que l'accès hors ligne exclut toute collecte.
 
-Tes données de projet (rangs, stock de laine, modèles) doivent être stockées localement ou pouvoir être sauvegardées dans un cloud standard, pas enfermées dans un format propriétaire. Si tu changes d'application, tes données doivent pouvoir te suivre.
-
-Les fonctions d'export comptent pour la même raison que les sauvegardes : les téléphones se cassent ou se remplacent, et trois ans de notes de stock ne doivent pas disparaître avec l'appareil.
-
-Les autorisations doivent être liées à des fonctions visibles et demandées seulement quand tu utilises ces fonctions, pas à l'installation "au cas où".
+L'enregistrement conserve la copie de travail. Une sauvegarde doit permettre sa restauration. L'export fournit un fichier dont tu dois vérifier le contenu et la compatibilité. La synchronisation transmet les modifications entre appareils ; une sauvegarde du téléphone ne prouve pas cette fonction. Vérifie l'inclusion des PDF, photos et notes, ainsi que leur devenir après la fermeture du compte ou la fin de l'abonnement.
 
 ## Plateforme et appareil
 
-La disponibilité est le premier filtre. Une application iPad très soignée ne t'aide pas si tu comptes tes rangs sur un téléphone Android, et un compteur Android ne t'aide pas si ton modèle vit sur un iPad. Regarde d'abord l'appareil avec lequel tu tricotes vraiment, puis compare les fonctions de base : compteur, calculateurs, accès hors ligne, export et sauvegarde.
-
-Le test pratique n'est pas quelle plateforme a la plus jolie fiche. C'est de savoir si l'application se comporte naturellement sur ton appareil : grandes zones de toucher, retour prévisible, notifications utiles et pas besoin de changer d'appareil un rang sur deux.
+Vérifie le nom exact du produit, son développeur, les appareils, la version du système et les langues de l'interface. Un article ou une fiche de boutique en français ne prouve pas que l'application est en français. Évalue ensuite les commandes et la lisibilité sur ton appareil.
 
 ## Ce que KnitTools inclut
 
-Transparence : ceci est le site de KnitTools.
+Ce guide est publié par Finnvek, qui développe KnitTools.
 
-[KnitTools](/fr/outils/#join) est en cours de développement comme boîte à outils Android pour le suivi de projets, le comptage des rangs, les calculs et les références. L'objectif est de garder les tâches courantes de tricot au même endroit : plusieurs compteurs simultanés, notes de projet, modèles enregistrés, calculateurs et références pour les tailles d'aiguilles, les épaisseurs de fil, les abréviations et les tableaux de tailles.
+KnitTools est en cours de développement comme boîte à outils Android pour les projets, les compteurs de rangs et de tours, les calculs et les références. L'implémentation comprend plusieurs compteurs par projet, des notes, des modèles enregistrés, des calculateurs et des références. Ce sont des fonctions de l'application ; les calculateurs web ci-dessous sont des outils séparés.
 
-Elle est pensée comme une boîte à outils pratique plutôt qu'une application à usage unique, afin que suivi de projet, comptage, calculs et références suivent le même rythme de travail.
+[Inscris-toi pour être informé du lancement de l'application Android](/fr/outils/#join). Le lien mène à l'inscription, pas au téléchargement de l'application.
 
-## FAQ
+## Questions fréquentes
 
-**Ai-je vraiment besoin d'une application tricot ?**  
-Non. On a tricoté pendant des siècles avec du papier et un crayon. Une application est un confort. Si ton système actuel fonctionne (traits sur le modèle, calcul mental, carnet pour le stock), aucune raison de changer. Les applications sont surtout utiles quand on gère plusieurs projets, qu'on fait beaucoup de calculs (création de vêtements, substitution de fil) ou qu'on veut suivre son stock numériquement.
+**Ai-je vraiment besoin d'une application tricot ?**
+Non. Si les marques sur le modèle et un carnet te conviennent, garde-les. Envisage une application pour une tâche précise où tu souhaites de l'aide.
 
-**Puis-je utiliser plusieurs applications tricot ensemble ?**  
-Bien sûr. Certaines personnes utilisent une application pour le compteur et une autre pour les calculs, ou une application plus Ravelry pour les modèles. Rien n'oblige à tout regrouper. Mais une seule application qui gère les fonctions principales est plus simple, et passer entre trois applications au milieu d'un modèle crée sa propre friction.
+**Puis-je utiliser plusieurs applications tricot ensemble ?**
+Oui. L'une peut compter, une autre calculer ou afficher les modèles. Prévois comment garder ta place et transférer les informations utiles entre elles.
 
-**Existe-t-il de bons calculateurs tricot gratuits en ligne ?**  
-Oui. Le [calculateur de mailles à monter](/fr/outils/calculateur-mailles-a-monter/) et l'[estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) de ce site sont gratuits, fonctionnent dans le navigateur et ne demandent ni compte ni installation. Pour un usage ponctuel, c'est largement suffisant. Les outils du navigateur ne suivent pas tes projets entre les séances, ce qui est l'endroit où une application installée devient utile.
+**Existe-t-il des calculateurs tricot gratuits en ligne ?**
+Oui. Le [calculateur de mailles à monter](/fr/outils/calculateur-mailles-a-monter/) et l'[estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) de ce site fonctionnent dans le navigateur sans compte ni installation. Ils ne gèrent pas de projets enregistrés. Le résultat du montage est arrondi à un nombre pair ; vérifie les multiples du motif séparément. Quantités de référence de modèles nommés, pas une prévision personnalisée de consommation.
 
-**Et Ravelry ?**  
-Ravelry est une grande communauté textile, un carnet et une base de modèles et de fils. Ce n'est pas la même catégorie qu'une application boîte à outils. Ravelry est très fort pour découvrir des modèles, enregistrer des projets, chercher des fils, noter son stock et participer à la communauté. Une application de compteur et de calculateurs sert un autre besoin, donc les deux peuvent se compléter.
+**Et Ravelry ?**
+[Ravelry](https://www.ravelry.com/about) est un site de Ravelry, LLC proposant un carnet de projets, un stock de fil, des bases de modèles et de fils, ainsi que des fonctions communautaires. Il peut compléter un compteur. Ravelry indique qu'il [n'existe pas d'application mobile officielle](https://www.ravelry.com/about/apps) ; les applications connectées sont des produits distincts d'autres développeurs. Sources consultées le 18 octobre 2026.
 
 **Et les compteurs sur montre connectée ?**
-Ils peuvent être pratiques, surtout si tu ne veux pas poser ton ouvrage. Les limites : petit écran, contrôles réduits et batterie sollicitée si tu appuies beaucoup. Bon complément, mais rarement un remplacement complet pour une application sur un écran plus grand.
+Vérifie la compatibilité avec la montre et le téléphone, le mode de saisie et le transfert des comptes vers le projet. Appuyer sur la montre reste une saisie manuelle. La commande vocale ou la détection automatique doivent être documentées pour le produit concerné ; le mot compteur ne les garantit pas.

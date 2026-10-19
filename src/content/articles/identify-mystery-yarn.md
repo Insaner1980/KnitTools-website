@@ -1,10 +1,11 @@
 ---
 title: "How to identify mystery yarn without a label"
 browserTitle: "How to Identify Mystery Yarn Without a Label"
-description: "Figure out what yarn you have when the label is missing. Tests for fiber content, weight via WPI, and practical tips for using unknown yarn."
+description: "Assess yarn without a label: estimate thickness with WPI, compare its feel, and swatch to check fabric and washing behavior before choosing a project."
 category: "yarn"
 categoryOrder: 9
 publishDate: "2026-05-01"
+updatedDate: 2026-10-17
 tags:
   - "identify mystery yarn"
   - "yarn without label"
@@ -14,15 +15,13 @@ tags:
 
 Most knitters end up with mystery yarn eventually. The label fell off, the yarn came from someone else's stash, or the skein never had much information to begin with. Thrift store bags, inherited collections, odds and ends from swaps.
 
-To identify mystery yarn, start with wraps per inch (WPI) to estimate the weight category, then use small-sample tests to narrow down the fiber family. You won't always get the exact brand or percentage, but the weight range and broad fiber type are usually enough for choosing a sensible project.
+Start with wraps per inch (WPI) to estimate thickness, then swatch to assess the fabric. These steps help you choose a project; they do not establish the brand, dye lot, exact fiber percentages, superwash treatment, or original care instructions.
 
 ## Step one: figure out the weight with WPI
 
-Wraps per inch (WPI) is the fastest first pass.
+Wrap the yarn around a smooth, straight section of a pencil or WPI tool with a consistent circumference. Lay the wraps side by side without gaps or overlaps, stretching the yarn, or squashing it flat. Wrap over several inches, then count the wraps along one inch (exactly 2.54 cm) with a ruler.
 
-Wrap the yarn around a pencil, ruler, or WPI tool. Keep the wraps snug and side by side without stretching. Then count how many fit in one inch.
-
-The Craft Yarn Council guide uses these broad ranges:
+The [Craft Yarn Council WPI guide](https://www.craftyarncouncil.com/standards/how-measure-wraps-inch-wpi) gives these approximate ranges for categories 0–7:
 
 - 30 to 40+ wraps: lace weight (category 0)
 - 14 to 30 wraps: super fine or fingering range (category 1)
@@ -33,69 +32,57 @@ The Craft Yarn Council guide uses these broad ranges:
 - 5 to 6 wraps: super bulky range (category 6)
 - 1 to 4 wraps: jumbo range (category 7)
 
-Yes, those ranges overlap. WPI gets you into the neighborhood, not the exact address. Measure in more than one spot, especially if the yarn is textured, fuzzy, or handspun.
+The ranges overlap. Repeat the measurement at several points; compressible, fuzzy, irregular, or textured yarn can be difficult to wrap consistently. WPI is a thickness clue, not a fiber or gauge test.
 
-Once you have a range, the [yarn weight chart](/tools/yarn-weight-chart/) is the better place to compare likely gauge and needle size.
+The [yarn weight chart](/tools/yarn-weight-chart/) provides gauge and needle ranges as starting points for swatching. Its WPI identifier compares your measurement with thickness ranges; it cannot detect fiber, brand, care requirements, or available length.
 
 ## Step two: identify the fiber
 
-This matters for care and for how the fabric behaves. The [fiber comparison guide](/articles/yarn-fibers-compared/) covers each fiber type in depth, but here's what to look for in a quick home test. A wool mystery yarn and an acrylic mystery yarn can look similar in the ball and act nothing alike once knitted and washed.
+The [fiber comparison guide](/articles/yarn-fibers-compared/) explains how fibers differ. But similar-looking balls can produce different fabrics: appearance and feel alone cannot confirm composition.
 
 ### The burn test
 
-Cut a small piece, hold it with tweezers over a fireproof surface, and light it. Keep water nearby, work outside or under strong ventilation, and stop if the yarn melts, drips, or gives off harsh fumes. Pay attention to how it burns, what it smells like, and what's left when it cools.
-
-Animal fibers (wool, alpaca, silk) smell like burning hair and leave a crushable ash. Plant fibers (cotton, linen) smell more like burning paper with a lighter ash. Synthetics melt and harden into a bead instead of turning to ash. Blends show mixed behavior, which tells you the yarn is mixed but won't give you exact percentages.
-
-Don't use the burn test on a large piece, near children, or around anything flammable. Synthetic fumes are a real reason to keep the sample tiny.
-
-A word on expectations: the burn test is a rough identification method, not a lab result. It's most useful for distinguishing the big fiber families. Don't expect it to tell you the difference between merino and corriedale.
+Skip the burn test for this beginner workflow. It destroys the sample and involves an open flame. Blends and finishes complicate interpretation; one reaction cannot reliably identify a yarn or recover its care label. An unclear result is not proof of a blend.
 
 ### The water test
 
-Gentler, and useful alongside the burn test. Soak a small piece in warm water and watch what happens.
+Use a small, expendable swatch to observe washing behavior, not to identify a fiber. If you choose to try a gentle cool-water wash and flat drying, record the conditions and compare the fully dry sample with its original size and appearance. Even this can damage unknown yarn; do not start with the whole ball or a valued garment.
 
-Non-superwash wool may start to felt if you add heat, soap, and agitation. Superwash wool gets wet but resists felting. Cotton absorbs water readily and feels noticeably heavier wet. Acrylic behaves differently from cotton or wool, but this test won't identify it precisely on its own.
-
-Still only a clue, especially with blends. But it narrows things down.
+Felting or shrinkage shows that the sample changed under those conditions. No felting does not prove superwash treatment or machine washability. Water uptake, swelling, blends, treatments, and yarn construction prevent this from being a reliable fiber-identification test.
 
 ### The touch test
 
-Less scientific, more instinctive. Handle the yarn and notice what stands out.
+Handle the yarn and note its surface, softness, stretch, and recovery. Compare it with labeled yarn if available, but record similarities as clues rather than an identification.
 
-Wool often feels springy and warm. Cotton feels cooler, less elastic. Acrylic can feel smoother or squeakier depending on quality. Linen starts stiff. Silk feels smooth and cool.
-
-Touch alone won't prove anything. Combined with the other tests, though, it helps build the picture.
+Twist, ply structure, blends, and finishing affect feel. A smooth or springy yarn is not uniquely silk or wool, and stiffness or squeaking does not reliably identify linen or acrylic. These observations are more useful for deciding whether you like the yarn than for naming its fibers.
 
 ## Step three: swatch before committing
 
-Once you have a rough guess about weight and fiber, swatch it. This is the part that turns clues into something you can actually work with.
+Make a swatch in the intended stitch pattern, worked flat or in the round as the project requires. Make it large enough to measure away from the edges. Choose trial needles from the approximate thickness range and adjust them to obtain a useful fabric; there is no universally correct needle size for unknown yarn.
 
-The swatch confirms your weight guess, shows how the yarn handles with your tension, and reveals things the home tests can't: splitting, bloom, drape, pilling, stiffness, and how it looks after washing. If the yarn felted even a little in the water test, treat it as hand-wash and plan accordingly.
+Measure stitches and rows over the same distance used by the pattern, with the swatch flat and relaxed. Recheck after the sample treatment described above and full drying. Assess splitting, surface changes, drape, stiffness, and dimensions. The swatch shows your gauge and fabric under those conditions, not the original yarn category or product. A short trial cannot establish long-term pilling or wear.
 
 ## Using mystery yarn in practice
 
-Some projects are more forgiving of uncertainty than others.
+A scarf or cowl with flexible dimensions can be a reasonable first project if the swatch feels suitable. A blanket still needs a workable care method and enough yarn; dishcloths need appropriate absorbency and washing performance. Fitted garments and socks demand more confidence in dimensions, recovery, and wear.
 
-Scarves, cowls, blankets, dishcloths, pillows: all good choices for yarn you can't fully identify. Fitted garments, socks, and anything where stretch, recovery, or washing behavior really matters are riskier bets.
+Without a label, even gentle washing is a trial, not a verified care instruction. If the sample felts, distorts, or sheds color, reconsider the project or seek specialist advice. A successful sample wash does not justify increasing the temperature or switching to a machine.
 
-The care problem is real. Without a label, you're guessing based on behavior. When in doubt, wash gently in cool water and dry flat until the yarn proves it can handle more.
-
-If you're planning to use a lot of mystery yarn in one project, test color fastness too. Soak a piece and blot it on white cloth. If color transfers, that changes your washing plan.
+During the sample wash, check for color transfer onto a white cloth and, if combining colors, test them together in the swatch. Visible transfer flags a problem; no transfer in this one test does not guarantee colorfastness in other conditions.
 
 ## Building a stash inventory
 
-If you have a lot of unlabeled yarn, spending one afternoon testing and tagging it saves future headaches. Even a handwritten note like "likely DK, probably wool blend, hand wash" beats another mystery ball six months from now.
+Keep observations separate from guesses. A useful note might read: "WPI suggests DK; fiber unknown; sample dimensions and wash conditions recorded." Keep the swatch with the yarn. Ball size, thickness, or mass alone does not tell you its remaining length.
 
 KnitTools can help here too. For mystery yarn, save a project note with your best estimate and any test notes.
 
 ## FAQ
 
 **Can I send yarn to a lab for fiber identification?**
-You can, though it's overkill for most stash yarn. Lab testing makes more sense for yarn that's valuable, sentimental, or present in enough quantity to justify the cost.
+A textile-testing laboratory can advise on fiber analysis. Ask which fibers or blend proportions it can determine, how much sample it needs, and the cost. Fiber analysis does not by itself identify the commercial yarn or its original care label.
 
 **The burn test didn't give me a clear answer. What now?**
-Usually means it's a blend, or the result was too ambiguous to read. Be conservative with care and let the swatch guide decisions from there.
+It does not confirm a blend or a particular fiber. Do not repeat the burn test to force an answer. Leave the composition unknown and base project decisions on the swatch; seek professional analysis if composition matters.
 
 **Can I mix mystery yarn with labeled yarn in one project?**
-Yes, but check that both react similarly to washing and drying first. If one felts or bleeds or stretches far more than the other, the finished project will show it.
+Try both together in a swatch and compare their dimensions, color transfer, and appearance after the proposed washing and drying. Different reactions can distort or stain the work. Matching in one trial is useful evidence for that combination, not a guarantee of identical long-term behavior.

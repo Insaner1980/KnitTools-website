@@ -70,6 +70,13 @@ const categoryDescription = category
       canonicalPath={routes.category[category].no}
       lang="no"
       alternates={routes.category[category]}
+      contentPage={
+        category === "gauge-calculations" ||
+        category === "yarn" ||
+        category === "needles" ||
+        category === "techniques" ||
+        category === "app-tools"
+      }
     >
       <section class="cat-header-section">
         <div class="cat-header-inner">
@@ -94,7 +101,17 @@ const categoryDescription = category
           ))}
         </div>
       </section>
-      <ClosingCTA variant="page" lang="no" />
+      <ClosingCTA
+        variant="page"
+        lang="no"
+        contentPage={
+          category === "gauge-calculations" ||
+          category === "yarn" ||
+          category === "needles" ||
+          category === "techniques" ||
+          category === "app-tools"
+        }
+      />
     </PageLayout>
   ) : (
     <PageLayout
@@ -103,6 +120,7 @@ const categoryDescription = category
       canonicalPath={routes.articlesIndex.no}
       lang="no"
       alternates={routes.articlesIndex}
+      contentPage
     >
       <section class="articles-header">
         <div class="articles-header-inner">
@@ -169,7 +187,7 @@ const categoryDescription = category
           </section>
         ))
       )}
-      <ClosingCTA variant="page" lang="no" />
+      <ClosingCTA variant="page" lang="no" contentPage />
     </PageLayout>
   )
 }
