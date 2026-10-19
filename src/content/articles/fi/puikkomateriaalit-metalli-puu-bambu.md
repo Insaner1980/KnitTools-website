@@ -1,7 +1,8 @@
 ---
 title: "Puikkomateriaalit: metalli, puu ja bambu"
-description: "Vertailu neulepuikkojen materiaaleista: metalli, puu, bambu, muovi ja hiilikuitu. Pito, nopeus, paino ja sopivat langat."
+description: "Vertaa metalli-, puu-, bambu-, muovi- ja hiilikuitupuikkoja: pinnan pito, kärjen muoto, hoito ja neuletiheyden tarkistaminen puikkoja vaihtaessa."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: needles
 categoryOrder: 2
 tags:
@@ -15,110 +16,113 @@ lang: fi
 translationKey: "knitting-needle-materials"
 ---
 
-Puikon materiaali muuttaa sitä, miten lanka liikkuu, miltä puikko tuntuu kädessä ja kuinka väsyneiltä kädet tuntuvat tunnin neulomisen jälkeen. Siksi sama neuloja voi ottaa metallipuikot yhteen projektiin ja bambupuikot seuraavaan.
+Puikon materiaali vaikuttaa siihen, miten lanka liikkuu ja miltä puikko tuntuu kädessä. Siksi sama neuloja voi ottaa metallipuikot yhteen projektiin ja bambupuikot seuraavaan.
 
-Metallipuikot ovat yleensä liukkaimmat ja kestävimmät arkikäytössä, puu tuntuu lämpimältä ja antaa kohtuullisesti pitoa, ja bambussa on eniten kitkaa, mikä tekee siitä aloittelijalle anteeksiantavan. Yhtä yleisesti parasta materiaalia ei ole. On vain parempi osuma lankaan, projektiin ja omaan neulomistapaan.
+Sileää metallipuikkoa kannattaa kokeilla, jos silmukat liikkuvat nihkeästi; puuta tai bambua, jos kaipaat enemmän pitoa. Tämä ei ole paremmuusjärjestys. Kiillotus, pinnoite, halkaisija, kärjen muoto, rakenne, lanka ja oma neulomistapa vaikuttavat yhdessä.
 
 ## Pikavertailu
 
-| Materiaali                   | Langan liike     | Pito               | Paino      | Ääni      | Kestävyys       | Paras käyttö                             |
-| ---------------------------- | ---------------- | ------------------ | ---------- | --------- | --------------- | ---------------------------------------- |
-| Alumiini                     | Nopea            | Vähäinen           | Kevyt      | Naksuva   | Hyvä            | Edulliset metallipuikot                  |
-| Ruostumaton teräs            | Nopea            | Vähäinen           | Keskipaino | Naksuva   | Hyvä            | Sileä neulominen ja pienet koot          |
-| Messinki / nikkelöity pinta  | Erittäin nopea   | Hyvin vähäinen     | Vaihtelee  | Naksuva   | Hyvä            | Nopeutta hakeva neulominen               |
-| Puu, kuten koivu ja ruusupuu | Keskinopea       | Kohtuullinen       | Keskipaino | Hiljainen | Kohtuullinen    | Lämmin tuntuma ja hallittu liike         |
-| Bambu                        | Hitaampi         | Vahva              | Kevyt      | Hiljainen | Heikompi, kuluu | Aloittelijat ja liukkaat langat          |
-| Muovi / akryyli              | Vaihtelee        | Vaihtelee          | Kevyt      | Hiljainen | Kohtuullinen    | Isot puikkokoot ja kevyet työvälineet    |
-| Hiilikuitu                   | Keskinopea-nopea | Kohtuullisen pieni | Kevyt      | Hiljainen | Hyvä            | Kevyet ja jäykät puikot, joissa on pitoa |
+| Materiaali                     | Langan liike             | Pito                             | Paino                | Ääni                   | Hoito / rajoite              | Kokeile, kun etsit               |
+| ------------------------------ | ------------------------ | -------------------------------- | -------------------- | ---------------------- | ---------------------------- | -------------------------------- |
+| Alumiini                       | Riippuu pinnasta         | Anodisointi voi lisätä pitoa     | Usein kevyt          | Voi kilistä            | Suojaa pinta                 | Liikettä nihkeille silmukoille   |
+| Ruostumaton teräs              | Sileä pinta liukuu       | Riippuu pinnasta                 | Umpinainen tai ontto | Voi kilistä            | Ohut varsi voi taipua        | Ohutta puikkoa sileällä kärjellä |
+| Messinki / pinnoitettu metalli | Pinnoite vaikuttaa       | Ei aina vähäisin                 | Riippuu rakenteesta  | Voi kilistä            | Tarkista pinnoite            | Sileää pintaa                    |
+| Puu, kuten koivu ja ruusupuu   | Riippuu viimeistelystä   | Usein sileää metallia enemmän    | Mallikohtainen       | Usein hiljainen        | Ohut varsi voi katketa       | Lämmintä tuntumaa ja hallintaa   |
+| Bambu                          | Kiillotettu pinta liukuu | Hyödyksi karkaaville silmukoille | Usein kevyt          | Usein hiljainen        | Tarkista tikut               | Hallintaa ilman takertumista     |
+| Muovi / akryyli                | Riippuu viimeistelystä   | Kokeile omalla langalla          | Usein kevyt          | Kokeile mallia         | Tarkista taipuisuus ja pinta | Suurta puikkokokoa               |
+| Hiilikuitu                     | Varsi ja kärki eroavat   | Kokeile molempia pintoja         | Kevyt varsi          | Metallikärki vaikuttaa | Suojaa materiaaliliitos      | Kevyttä vartta ja metallikärkeä  |
 
-Erot kuulostavat paperilla pieniltä. Tunnin neulomisen jälkeen ne eivät tunnu pieniltä käsissä.
+Taulukko antaa valintaperusteita, ei mitattuja nopeus- tai käyttöikäarvioita. Vertaa samanpaksuisia ja suunnilleen samanpituisia puikkoja: ontto metallipuikko ei välttämättä paina enemmän kuin toisen materiaalin umpinainen puikko.
 
 ## Metalli
 
-Useimmat metallipuikot ovat alumiinia, ruostumatonta terästä tai messinkiä. Ne ovat tavallisista vaihtoehdoista liukkaimmat, ja monelle neulojalle juuri nopeus on koko pointti. Silmukat liukuvat nopeasti vähäisellä kitkalla, ja hyvät metallipuikot kestävät pitkään.
+Metallipuikkoja valmistetaan alumiinista, ruostumattomasta teräksestä ja messingistä eri pintakäsittelyillä. Sileä metalli on kokeilemisen arvoinen, jos neulot tiukasti tai joudut työntämään silmukoita eteenpäin. Anodisoitu tai kuvioitu pinta ei välttämättä tunnu yhtä liukkaalta kuin kiillotettu.
 
-Vaihtokauppa: metalli on liukas. Silkin tai bambusekoitelangan kanssa silmukat voivat karata, jos et kiinnitä huomiota. Metalli tuntuu myös aluksi kylmältä, ja osa neulojista inhoaa kilinää. Toisille se kuuluu kokemukseen.
+Jos silmukat karkaavat liian helposti, kokeile pitävämpää pintaa. Metalli voi tuntua aluksi viileältä ja kilistä puikkojen osuessa yhteen. Se, häiritseekö tämä, on makuasia.
 
-Pinnan viimeistely merkitsee enemmän kuin pelkkä sana "metalli" pakkauksessa. ChiaoGoo RED Lace -puikoissa on kirurgisesta ruostumattomasta teräksestä valmistetut kärjet, joissa on sileä, satiininkiiltoinen viimeistely, sekä muotomuistiton, nailonpäällysteinen monisäikeinen teräskaapeli. Ne tuntuvat erilaisilta kuin Addi Turbon peilikiillotettu messinki, ja HiyaHiya Sharp taas tuntuu erilaiselta terävän kärjen takia. Metallin sisälläkin vaihtelua on paljon, ja usein merkki ja viimeistely vaikuttavat enemmän kuin tarkka metalli.
+Pinnan viimeistely vaikuttaa perusmateriaalin rinnalla. [ChiaoGoo RED Lace](https://www.chiaogoo.com/circular/) -puikoissa on ruostumattomat teräskärjet, satiinipinta ja nailonpäällysteinen monisäikeinen teräskaapeli. [addi Turbon](https://www.skacelknitting.com/circulars) messinkikärjet ovat pinnoitetut, eivät pelkkää kiillotettua messinkiä. HiyaHiyalla on ruostumattomasta teräksestä valmistetut Steel- ja Sharp-mallistot eri kärkimuodoilla. Nämä ovat rakenne-esimerkkejä, eivät merkkien paremmuusjärjestys.
 
-Yksi erikoisuus kannattaa tietää: jotkut metallin ja langan yhdistelmät tuntuvat vinkuvilta tai nihkeiltä. Jos neulepinta on hyvä mutta tuntuma ärsyttää, puuhun tai bambuun vaihtaminen muuttaa pintakitkaa muuttamatta itse projektia.
+Jos puikon ja langan yhdistelmä tuntuu vinkuvan tai liikkuu nihkeästi, kokeile toista pintaa. Tarkista neuletiheys ennen kuin jatkat työtä uusilla puikoilla.
 
 ## Puu
 
-Puu sijoittuu tuntumassa metallin ja bambun väliin. Se on lämmin kädessä, antaa kohtuullisesti pitoa ja moni neuloja pitää sitä mukavimpana pitkissä neulomisrupeamissa.
+Puuta kannattaa kokeilla, jos pidät lämpimämmästä tuntumasta ja silmukoiden liikettä hillitsevästä pidosta. Puu ei sijoitu aina metallin ja bambun väliin: puulaji, laminointi ja viimeistely vaikuttavat.
 
-Tavallisia puulajeja ovat koivu, laminoitu koivu, ruusupuu ja eebenpuu. Koivu ja laminoitu koivu ovat yleisiä arkiseteissä. Ruusupuu ja eebenpuu näkyvät useammin kalliimmissa puikoissa, etenkin isoissa koissa, joissa puikko on tarpeeksi paksu tuntumaan vakaalta.
+Puikoissa käytetään esimerkiksi koivua, laminoitua koivua, ruusupuuta ja eebenpuuta. Laminoitu rakenne ja sen pinta voivat käyttäytyä eri tavalla kuin massiivipuu. Puulajin nimi ei yksin kerro pidosta tai kestävyydestä.
 
-Koska puu on luonnonmateriaali, tuntumassa voi olla pieniä eroja puikkojen välillä, jopa saman parin kärjissä. Ohuet puiset puikot voivat katketa, jos niitä rasittaa. Mitä pienempi koko, sitä suurempi katkeamisriski. Moni pitää puun käytössä noin 3,5 mm koosta ylöspäin ja vaihtaa metalliin ohuissa sukkalangoissa, joissa puikko tuntuu helposti hauraalta.
+Ohuet puupuikot voivat katketa taivutusrasituksessa. Valitse puikko sen todellisen tuntuman perusteella; puulle ei ole yleispätevää vähimmäishalkaisijaa. Taipuisuus ei tarkoita samaa kuin katkeamisen kestäminen.
 
-Puu tarvitsee vähän huolenpitoa. Älä jätä puisia puikkoja suoraan aurinkoon tai kosteaan kylpyhuoneeseen. Vääntyminen ja turpoaminen ovat tylsiä ongelmia, mutta niitä tapahtuu.
+Säilytä puupuikot kuivina ja suojassa puristukselta, suoralta auringolta ja liialliselta kuumuudelta. Noudata valmistajan ohjetta juuri kyseiselle pintakäsittelylle.
 
 ## Bambu
 
-Bambu on teknisesti ruoho eikä puu, ja se käyttäytyy eri tavalla, vaikka puikot näyttävät samankaltaisilta. Bambussa on yleensä enemmän kitkaa kuin metallissa ja usein enemmän kuin kiillotetussa puussa. Lisäpito pitää silmukat puikolla, ja siksi bambua suositellaan usein aloittelijoille.
+Bambu on heinäkasvi. Viimeistelty bambupuikko voi antaa hyödyllistä pitoa, jos silmukat karkaavat sileältä metallilta. Se ei ole aina pitävämpi kuin puupuikko. Pitoa ei pidä sekoittaa siihen, että kuidut takertuvat karheaan pintaan.
 
-Bambu on myös kevyt, hiljainen ja pidemmissä puikoissa selvästi joustava. Jos asut melulle herkkien ihmisten kanssa tai kätesi kipeytyvät helposti, nämä asiat alkavat merkitä.
+Bambupuikot tuntuvat usein kevyiltä ja ovat käytössä metallipuikkoja hiljaisempia. Taipuisuuteen vaikuttavat halkaisija, pituus ja rakenne. Kokeile sitä puikkokokoa, jota aiot käyttää.
 
-Haitat: bambu kuluu nopeammin kuin metalli. Kärjet tylsyvät ja pinta voi muuttua kovassa käytössä hieman karheaksi. Sama pito, joka auttaa hitaammassa neulomisessa, voi tuntua tahmealta kun haluat liikkua nopeasti. Laadussa on paljon vaihtelua. Hyvin viimeistelty bambu tuntuu sileältä. Halpa nimetön bambu voi olla karhea, joskus tikkuinen, ja kärjet voivat olla niin tylpät, että pitsin neulominen muuttuu taisteluksi.
+Tarkista pinta ja kärki hinnan tai tuotemerkin sijaan. Esimerkiksi Clover Takumi -puikkoja kiillotetaan valmistuksessa useaan kertaan, ja bambupuikkoja on erilaisilla kärjillä. Karheus tai tikku on syy tarkistaa puikon kunto, ei toivottava tapa lisätä pitoa.
 
-Bambu ei myöskään pidä kosteudesta. Älä säilytä bambupuikkoja kylpyhuoneessa tai kosteassa kellarissa. Ne voivat vääntyä pysyvästi kosteissa oloissa, jolloin ne tarttuvat lankaan tavalla, jota mikään kevyt kiillotus ei enää korjaa.
+Säilytä bambupuikot kuivina ja suojattuina. Noudata valmistajan ohjeita: vahaus, hionta tai kiillotus ei sovi automaattisesti jokaiseen pintaan.
 
 ## Muovi ja akryyli
 
-Valmiin puikon paino riippuu sekä materiaalista että rakenteesta. Muovipuikko on usein kevyt, kun taas metallipuikko voi olla umpinainen, ontto tai putkirakenteinen. Monet suuret metallipuikot tehdään ontoiksi liiallisen painon välttämiseksi.
+Valmiin puikon paino riippuu materiaalista ja rakenteesta. Muovipuikot ovat usein kevyitä ja kokeilemisen arvoisia suurissa puikkokoissa. Myös metallipuikko voi olla ontto painon vähentämiseksi.
 
-Tuntuma vaihtelee paljon valmistajan mukaan. Susan Bates Quicksilver ja Boye ovat tavallisia edullisia merkkejä. Osa muovipuikoista on liukkaita, osa tahmeita, osa ihan toimivia ja osa kertakäyttöisen tuntuisia.
-
-Paras käyttötapa on paksu neule, jossa raskas metallipuikko väsyttäisi kädet. Sen jälkeen muovi on usein välivaihe siihen asti, että löydät mitä oikeasti pidät.
+Muovi- ja akryylipuikkojen viimeistely ja taipuisuus vaihtelevat. Kokeile, liikkuvatko silmukat sopivasti ja tuntuuko varsi vakaalta tarvitsemassasi koossa. Muovin ei tarvitse olla välivaihe ennen toista materiaalia.
 
 ## Hiilikuitu
 
-Hiilikuitu on kevyempi kuin moni odottaa ja jäykempi kuin bambu tai puu. KnitPro Karbonz yhdistää hiilikuituvarren ja messinkipinnoitetut kärjet: kärjessä on liukkaampi liike, mutta varsi on kevyempi ja lämpimämmän tuntuinen.
+Hiilikuitupuikoissa kevyt varsi yhdistyy tuotekohtaisiin kärkiin ja liitoksiin. [KnitPro Karbonz Special -irtokärjissä](https://www.knitpro.eu/en/sets/type/knitting-needle-sets/karbonz-special-interchangeable-needle-sets) on hiilikuituvarsi ja messinkikärki, ei vain messinkipinnoite kärjen päällä. Tarkista täsmällisen mallin pintakäsittely; kaikkien hiilikuitupuikkojen metalliosat eivät ole samanlaisia.
 
-Se on silti melko marginaalinen valinta. Kannattaa kokeilla, jos kiinnostaa tai jos käsikipu pahenee kylmillä metallipuikoilla, mutta useimpien neulojien ei tarvitse erikseen metsästää hiilikuitua.
+Kokeile niitä, jos pidät kevyen varren ja metallikärjen yhdistelmästä. Tarkista, että silmukat kulkevat materiaalien liitoskohdan yli takertumatta. Hiilikuitu ei ole automaattisesti jäykempää kuin puu tai bambu. Vältä varren taivuttamista liitoskohdasta.
 
 ## Kärjen muoto
 
-Materiaali saa paljon huomiota, mutta kärjen muoto vaikuttaa päivittäiseen neulomiseen vähintään yhtä paljon.
+Kärjen muoto valitaan erikseen materiaalista.
 
-Pitsikärjet eli hyvin terävät kärjet helpottavat 2 o yhteen -kavennuksia, ssk-kavennuksia ja kavennuksia langankierron vieressä. Ne myös menevät helpommin tiukkoihin silmukoihin. Huono puoli on, että ne halkaisevat herkkiä lankoja nopeammin, jos neulot kovakouraisesti.
+Pitkä, terävä pitsikärki voi helpottaa tiukkoihin silmukoihin pääsemistä sekä 2 o yhteen- ja ssk-kavennuksia. Säikeiksi jakautuvassa langassa terävä kärki voi myös mennä langan sisään koko silmukan sijaan.
 
-Pyöreämmät kärjet ovat armollisempia halkeaville langoille ja sormenpäille. Vaihtokauppa on, että pitsikavennukset voivat tuntua työläiltä.
+Pyöreämpää kärkeä kannattaa kokeilla, jos puikko halkaisee lankaa tai terävä kärki tuntuu ikävältä sormenpäätä vasten. Tarkista silti, että ohjeen kavennukset onnistuvat sujuvasti.
 
-Monilla merkeillä on useampi kärkimalli. ChiaoGoo RED Lace on teräväkärkinen mallisto. ChiaoGoon nykyiset bambupyöröpuikot kuuluvat erilliseen mallistoon, ja kärjen muoto kannattaa tarkistaa mallikohtaisesti. KnitPro Karbonz on selvästi terävä. HiyaHiya tekee sekä Sharp-linjaa että tavallisempaa kärkeä. Valitse sen mukaan, mitä neulot. Pitsi, kavennukset ja tiukat silmukat palkitsevat terävämmän kärjen. Halkeavat langat ja tavallinen sileä neule toimivat usein paremmin pyöreämmällä kärjellä.
+ChiaoGoo RED Lace ja HiyaHiya Sharp ovat esimerkkejä teräväkärkisistä mallistoista. Tarkista kyseinen malli: kaikki bambukärjet eivät ole tylppiä eivätkä kaikki metallikärjet teräviä. Sileä neule ei edellytä tiettyä kärkimuotoa.
 
 ## Vaihdettavien pyöröpuikkojen liitos
 
-Tämä on erillinen asia materiaalista, mutta se merkitsee paljon, jos ostat setin. Kärjen ja kaapelin välinen mekanismi on kohta, jossa halvat setit usein pettävät.
+Kärjen ja kaapelin liitos vaikuttaa materiaalista riippumatta. Kokeile, kulkevatko silmukat sen yli takertumatta.
 
-Kierrettävissä järjestelmissä kärki ja kaapeli ruuvataan yhteen. Ne voivat tuntua hyvin sileiltä, kun ne on kiristetty kunnolla, mutta ne voivat myös löystyä neuloessa. Osa merkeistä antaa mukaan kiristysavaimen tai kääntyvän kaapelin tämän hallintaan. Click- tai twist-lock-järjestelmät välttävät ruuvaamisen, mutta liitos voi tuntua selvemmin silmukoiden alla.
+Noudata kierreliitoksen kiristysohjetta ja käytä mukana tulevaa kiristysavainta, jos valmistaja sitä edellyttää. Pyörivä kaapeli saa kiertyä liitoksessaan, mutta pyörivyys ei korvaa kierreliitoksen kiristämistä. Napsautettavilla tai kiertolukittavilla järjestelmillä on omat lukitusohjeensa; liitostapa ei yksin kerro pinnan sileydestä.
 
-Yhtä yleisesti parasta järjestelmää ei ole. Useimmat neulojat päätyvät valitsemaan viimeistelyn, kaapelin tuntuman ja sen mukaan, mitä settiä pääsevät kokeilemaan ennen ostamista.
+Valitse todellisen liitoksen, kaapelin tuntuman ja kokeiltavan setin perusteella. Hinta ei yksin todista liitoksen laatua.
 
 ## Materiaalin sovittaminen lankaan
 
-Liukas lanka, kuten silkki, bambusekoite tai merseroitu puuvilla, on helpompi hallita puulla tai bambulla, koska kitka pitää silmukat karkaamasta. Takertuvampi lanka, kuten käsittelemätön rustiikkinen villa, liikkuu vapaammin metallilla. Halkeilevassa langassa, kuten löyhäkierteisessä puuvillassa tai joissakin superwash-sekoitteissa, pyöreämpi kärjen muoto auttaa enemmän kuin materiaali.
+Jos silkkinen tai merseroidusta puuvillasta tehty lanka luisuu liian helposti, kokeile sileää mutta pitävämpää puu- tai bambupuikkoa. Jos villalanka liikkuu nykyisillä puikoilla nihkeästi, kokeile sileää metallia. Arvioi juuri oma lanka ja puikko yhdessä: kuitunimi ei takaa samanlaista käyttäytymistä kaikissa langoissa.
 
-Pörröinen lanka, kuten mohair tai harjattu alpakka toisen langan kanssa, tarvitsee sileämmän pinnan, jotta kuidut eivät tartu joka silmukkaan. Metalli tai kiillotettu puu voittaa tässä bambun.
+Jos puikko menee langan säikeiden väliin, kokeile pyöreämpää kärkeä. Mohairilla ja harjatulla alpakalla, yksin tai toisen langan kanssa neulottaessa, tarkista ettei pinta tai liitos takerru kuituihin. Hyvin viimeisteltyä bambua ei tarvitse sulkea pois.
 
-[Puikkokokotaulukko](/fi/tyokalut/puikkokoot/) käsittelee koot. [Puikkotyyppien opas](/fi/artikkelit/pyoropuikot-suorat-puikot-sukkapuikot/) käsittelee suorat puikot, pyöröpuikot ja sukkapuikot. Materiaali on tuntumapuoli, ja nämä kolme päätöstä ovat enimmäkseen toisistaan riippumattomia.
+[Puikkokokotaulukko](/fi/tyokalut/puikkokoot/) käsittelee koot. [Puikkotyyppien opas](/fi/artikkelit/pyoropuikot-suorat-puikot-sukkapuikot/) käsittelee suorat puikot, pyöröpuikot ja sukkapuikot.
 
 ## FAQ
 
 **Vaikuttaako puikon materiaali neuletiheyteen?**
-Voi vaikuttaa. Eri materiaalit luovat erilaista kitkaa langan kanssa, ja se voi riittää muuttamaan neuletiheyttä. Jos neulot mallitilkun yhdellä materiaalilla ja projektin toisella, tarkista neuletiheys uudelleen. Vaikutus on suurempi liukkailla langoilla ja usein tuskin huomattava rustiikkisessa villassa.
+
+Puikon vaihtaminen voi muuttaa sekä silmukka- että kerrostiheyttä, vaikka nimellinen halkaisija pysyy samana. Neulo mallitilkku työn puikoilla ja tarkista tiheys uudelleen, kun materiaali, pinta tai malli vaihtuu. Muutokselle ei ole kiinteää arvoa eikä mikään lankaryhmä takaa tiheyden säilymistä.
 
 **Mikä materiaali on paras nivelrikkoon tai käsikipuun?**
-Yhtä vastausta ei ole. Kevyemmät materiaalit, kuten bambu, hiilikuitu ja puu, vähentävät käsien kuormaa. Lämpimämmän tuntuiset materiaalit, kuten puu, bambu ja hiilikuitu, voivat tuntua mukavammilta kuin kylmä metalli. Ergonominen muoto, kuten nelikulmainen tai kaareva puikko, voi auttaa yhtä paljon kuin materiaali. Vakavissa käsiongelmissa kannattaa puhua lääkärin tai toimintaterapeutin kanssa ennen kuin etsii puikkoa, joka muka ratkaisee kaiken.
+
+Mikään materiaali ei takaa kivun helpottumista. Jos viileä metalli tuntuu epämukavalta, puuta tai bambua voi kokeilla tuntuman vuoksi. Vertaa valmiin puikon painoa, pitoa ja muotoa pelkän materiaalinimen sijaan. Pidä taukoja, lopeta jos neulominen sattuu ja kysy pitkittyvästä käsikivusta lääkäriltä tai toimintaterapeutilta.
 
 **Kannattaako ostaa setti yhdestä materiaalista vai sekoittaa?**
 Sekoittaminen on täysin tavallista. Moni neuloja löytää yhden pääsetin ja pitää muutamia muita puikkoja tietyille langoille tai tilanteille. Ei ole mitään syytä sitoutua yhteen materiaaliin ikuisesti.
 
 **Tylsyvätkö puikon kärjet ajan myötä?**
-Kyllä. Bambu ja osa puupuikoista menettävät teränsä nopeammin, ja hyvin ohuet ruusupuusukkapuikot voivat katketa. Metalli säilyttää kärjen muodon pisimpään. Kynsiviila tai hieno hiekkapaperi voi hätätilassa muotoilla tylsää puukärkeä, mutta se muuttaa viimeistelyä.
+
+Kärjet ja pinnat voivat kulua tai vaurioitua; nopeus riippuu tuotteesta ja käytöstä. Tarkista urat, tikut ja pinnoitteen vauriot. Älä muotoile kärkeä kynsiviilalla tai hiekkapaperilla, ellei valmistaja suosittele käsittelyä juuri kyseiselle tuotteelle. Kysy korjauksesta tai vaihdosta, jos puikko takertuu lankaan.
 
 **Miksi jotkut bambupuikot ovat karheita?**
-Kyse on laadunvalvonnasta. Halpa nimetön bambu voi ohittaa viimeistelyvaiheita. Kuituja ei ole suljettu ja kiillotettu kunnolla, joten puikko tarttuu lankaan ja tuntuu raapivalta. Merkkibambu, kuten Clover tai ChiaoGoo, on hiottu ja käsitelty. Hintaero halvan ja hyvän bambun välillä on usein niin pieni, ettei karheilla puikoilla kannata kärsiä.
+
+Karheus voi liittyä viimeistelyyn, kulumiseen tai vaurioon. Se ei yksin todista valmistusvaiheen jättämistä väliin. Tarkista puikko ja ota yhteyttä myyjään tai valmistajaan, jos kuidut tarttuvat siihen. Hyödyllinen pito on eri asia kuin takertuminen.
 
 **Voinko säilyttää kaikki puikot yhdessä?**
-Enimmäkseen kyllä. Poikkeus on bambu ja puu kosteissa olosuhteissa, koska ne voivat vääntyä. Rullakotelo tai oma puikkokansio on pieni mutta hyödyllinen hankinta, jos sinulla on säännöllisessä käytössä yli tusina puikkoa.
+
+Kyllä, kuivassa kotelossa, joka suojaa kärjet ja estää puikkojen puristumisen tai taipumisen. Pidä puu ja bambu poissa kosteista ja liian kuumista säilytyspaikoista ja noudata tuotteen ohjeita. Rullakotelo tai puikkokansio on hyödyllinen, jos se suojaa puikkoja ja pitää ne järjestyksessä.

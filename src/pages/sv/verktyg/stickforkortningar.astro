@@ -98,8 +98,8 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "alt",
-    def: "växelvis / alternativt (alternate)",
-    search: "alternate växelvis alternativt",
+    def: "varannan; t.ex. alt rows betyder vartannat varv",
+    search: "alternate växelvis vartannat varv",
     categories: ["general"],
   },
   {
@@ -128,13 +128,13 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "sl",
-    def: "lyft maska (slip)",
+    def: "lyft utan att sticka; mönstret anger om maskan lyfts rät eller avig",
     search: "slip lyft maska",
     categories: ["general"],
   },
   {
     abbr: "sl st",
-    def: "lyft maska (slip stitch)",
+    def: "lyft en maska utan att sticka; följ mönstrets anvisning för hur den lyfts",
     search: "slip stitch lyft maska",
     categories: ["general"],
   },
@@ -201,13 +201,13 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "kfb",
-    def: "sticka i främre och bakre maskbågen (knit front and back)",
+    def: "sticka rätt i främre och bakre maskbågen på samma maska (1 maska ökas)",
     search: "knit front and back främre bakre maskbågen ökning",
     categories: ["increases"],
   },
   {
     abbr: "pfb",
-    def: "sticka avigt i främre och bakre maskbågen (purl front and back)",
+    def: "sticka avigt i främre och bakre maskbågen på samma maska (1 maska ökas)",
     search: "purl front and back avigt främre bakre maskbågen ökning",
     categories: ["increases"],
   },
@@ -239,33 +239,33 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "ssk",
-    def: "lyft, lyft, sticka, vänsterlutande minskning",
+    def: "lyft 2 maskor räta en i taget, sticka dem rätt tillsammans genom bakre maskbågarna (vänsterlutande; 1 maska minskas)",
     search: "slip slip knit vänsterlutande minskning",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "skp",
-    def: "lyft, sticka, dra den lyfta maskan över",
+    def: "lyft 1 maska rät, sticka 1 rät och dra den lyfta maskan över (vänsterlutande; 1 maska minskas)",
     search: "slip knit pass slipped stitch over lyft sticka dra över minskning",
     categories: ["decreases"],
   },
   {
     abbr: "sk2p",
-    def: "lyft 1, sticka 2 räta tillsammans, dra den lyfta maskan över",
+    def: "lyft 1 maska rät, sticka 2 räta tillsammans och dra den lyfta maskan över (vänsterlutande; 2 maskor minskas)",
     search:
       "slip one knit two together pass slipped stitch over dubbel minskning",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "s2kp",
-    def: "lyft 2, sticka 1, dra de 2 lyfta maskorna över, centrerad dubbel minskning",
+    def: "lyft 2 maskor tillsammans som om de skulle stickas rätt tillsammans, sticka 1 rät och dra båda lyfta maskorna över (centrerad; 2 maskor minskas)",
     search:
       "slip two knit one pass two slipped stitches over centrerad dubbel minskning",
     categories: ["decreases"],
   },
   {
     abbr: "CDD",
-    def: "centrerad dubbel minskning (centered double decrease)",
+    def: "centrerad dubbel minskning (2 maskor minskas); följ mönstrets metod",
     search: "centered double decrease centrerad dubbel minskning",
     categories: ["decreases"],
   },
@@ -284,37 +284,37 @@ const abbreviations: Abbreviation[] = [
 
   {
     abbr: "C4F",
-    def: "fläta över 4 maskor framåt (cable 4 front)",
+    def: "fläta över 4 maskor: håll 2 på flätsticka framför arbetet, sticka 2 räta och sedan flätstickans 2 maskor rätt",
     search: "cable four front fläta framåt",
     categories: ["cables"],
   },
   {
     abbr: "C4B",
-    def: "fläta över 4 maskor bakåt (cable 4 back)",
+    def: "fläta över 4 maskor: håll 2 på flätsticka bakom arbetet, sticka 2 räta och sedan flätstickans 2 maskor rätt",
     search: "cable four back fläta bakåt",
     categories: ["cables"],
   },
   {
     abbr: "C6F",
-    def: "fläta över 6 maskor framåt (cable 6 front)",
+    def: "fläta över 6 maskor: håll 3 på flätsticka framför arbetet, sticka 3 räta och sedan flätstickans 3 maskor rätt",
     search: "cable six front fläta framåt",
     categories: ["cables"],
   },
   {
     abbr: "C6B",
-    def: "fläta över 6 maskor bakåt (cable 6 back)",
+    def: "fläta över 6 maskor: håll 3 på flätsticka bakom arbetet, sticka 3 räta och sedan flätstickans 3 maskor rätt",
     search: "cable six back fläta bakåt",
     categories: ["cables"],
   },
   {
     abbr: "T2F",
-    def: "vrid 2 maskor framåt (twist 2 front)",
+    def: "korsa 2 maskor med 1 maska framför arbetet; räta och aviga maskor enligt mönstret",
     search: "twist two front vrid framåt fläta",
     categories: ["cables"],
   },
   {
     abbr: "T2B",
-    def: "vrid 2 maskor bakåt (twist 2 back)",
+    def: "korsa 2 maskor med 1 maska bakom arbetet; räta och aviga maskor enligt mönstret",
     search: "twist two back vrid bakåt fläta",
     categories: ["cables"],
   },
@@ -381,33 +381,40 @@ const faqs = [
   },
   {
     q: "Vad betyder asterisken i ett stickmönster?",
-    a: 'Den markerar en upprepning. Allt mellan asterisken och nästa matchande instruktion, oftast "rep from *", stickas om och om igen över varvet. Hakparenteser och parenteser gör samma jobb: de grupperar en serie moment som upprepas ett visst antal gånger. Att missa en upprepningsmarkör är ett av de snabbaste sätten att få fel maskantal.',
+    a: "En asterisk markerar början på en upprepning. Upprepa den markerade sekvensen så många gånger eller till den punkt som mönstret anger. Parenteser och hakparenteser kan också ange olika storlekar eller flera moment i samma maska. Läs instruktionen som hör till markeringen.",
   },
   {
     q: "Vad gör jag om jag inte hittar en förkortning i en standardlista?",
-    a: "Det är nästan säkert en mönsterspecifik förkortning som designern har definierat. Gå upp till början av mönstret och leta efter en förkortningslista eller avsnitt med maskdefinitioner. Flät- och spetsmönster är den största källan till egna kortformer, eftersom designers ofta hittar på kompakt notation för tekniker som bara gäller just den designen. Om den inte finns där är mönsteranteckningar eller diagramnyckel nästa ställe att kontrollera.",
+    a: "Det kan vara en förkortning som definieras i just det mönstret. Kontrollera förkortningslistan, maskbeskrivningarna, anteckningarna och teckenförklaringen. Fråga designern om betydelsen fortfarande är oklar innan du byter teknik.",
   },
   {
     q: "Vad är skillnaden mellan ssk och skp?",
-    a: "Båda är vänsterlutande minskningar och ger nästan samma resultat i den färdiga stickningen. ssk är modern standard och syns i de flesta nya mönster. skp förekommer oftare i äldre mönster. Utförandet skiljer sig lite, så följ den förkortning som mönstret anger i stället för att byta fritt.",
+    a: "Båda minskar en maska och lutar åt vänster sedda från slätstickningens rätsida. Vanlig ssk: lyft två maskor räta en i taget och sticka dem rätt tillsammans genom bakre maskbågarna. Skp: lyft en maska rät, sticka en rät och dra den lyfta maskan över. Utseendet kan skilja sig, så följ mönstrets metod.",
   },
 ];
 ---
 
 <LocalizedToolPage
-  title="Stickförkortningar: sökbar ordlista"
-  description="Slå upp stickförkortningar eller sök efter tekniknamn. Praktisk ordlista över mönstertermer från k2tog till psso, ordnad efter kategori."
+  title="Engelska stickförkortningar på svenska"
+  description="Slå upp vanliga engelska stickförkortningar med svenska förklaringar. Sök efter förkortning eller teknik och filtrera efter kategori."
   canonicalPath={routes.tool.knittingAbbreviations.sv}
   lang="sv"
   alternates={routes.tool.knittingAbbreviations}
-  intro="Sök en förkortning för att se vad den betyder, eller sök en teknik för att hitta dess förkortningar."
+  intro="Sök bland vanliga engelska stickförkortningar och tekniknamn med svenska förklaringar. Urvalet hjälper dig att läsa engelska mönster."
   schemaName="Stickförkortningar"
-  schemaDescription="Sökbar ordlista över stickförkortningar och tekniknamn."
+  schemaDescription="Slå upp vanliga engelska stickförkortningar med svenska förklaringar. Sök efter förkortning eller teknik och filtrera efter kategori."
   faqs={faqs}
   variant="brown"
 >
   <div slot="tool">
     <div class="abbr-wrapper">
+      <p>
+        Mönstrets egen förklaring gäller alltid. Här stickas maskorna från
+        vänster till höger sticka, och ökningar och minskningar i räta maskor
+        beskrivs sedda från slätstickningens rätsida. Garn framför/bakom betyder
+        mot dig/från dig, oavsett rätsida eller avigsida. Följ mönstret för hur
+        maskor lyfts och korsas; även ssk finns i flera varianter.
+      </p>
       <input
         type="text"
         id="abbr-search"
@@ -477,8 +484,8 @@ const faqs = [
     <p>
       <strong>Kombinerade moment</strong> staplar bokstäver och siffror. <code
         >k2tog</code
-      > betyder sticka två maskor tillsammans. <code>p2tog</code> är samma idé men
-      avigt. Mycket stickförkortning fungerar så. Sakta ner och läs det bokstavligt.
+      > betyder sticka två maskor rätt tillsammans. <code>p2tog</code> är samma idé
+      men avigt. Många stickförkortningar fungerar så. Sakta ner och läs det bokstavligt.
     </p>
     <p>
       <strong>Sidmarkörer</strong> berättar vilken sida av arbetet du är på. <code
@@ -501,11 +508,11 @@ const faqs = [
       >. Stomme, inte maskor.
     </p>
     <p>
-      Interpunktion spelar också roll. Asterisker och semikolon är inte
-      dekoration. <code>*k2, p2; rep from *</code> betyder att allt mellan asterisken
-      och semikolonet upprepas. Hakparenteser och parenteser fungerar på liknande
-      sätt och grupperar moment som upprepas ett visst antal gånger. Att missa en
-      upprepningsmarkör är ett av de snabbaste sätten att få fel maskantal.
+      <code>*k2, p2; rep from *</code> upprepar två räta och två aviga: fyra maskor
+      per rapport. En asterisk markerar början på en upprepning. Upprepa den markerade
+      sekvensen så många gånger eller till den punkt som mönstret anger. Parenteser
+      och hakparenteser kan också ange olika storlekar eller flera moment i samma
+      maska. Läs instruktionen som hör till markeringen.
     </p>
 
     <h2>Skillnader mellan US och UK</h2>
@@ -534,13 +541,14 @@ const faqs = [
       instruktionerna.
     </p>
     <p>
-      Flätmönster är den största källan till sådana. En diagramnyckel kan
-      definiera <code>C4F</code>, <code>C6B</code> eller något mer specifikt för designen.
-      Siffran anger oftast hur många maskor som korsas. Bokstaven i slutet, F eller
-      B, anger riktning: front eller back, alltså var du håller flätstickan när du
-      korsar. Men designers är inte alltid konsekventa med den konventionen. Vissa
-      använder L och R i stället. Vissa räknar alla maskor som ingår, andra bara maskorna
-      som flyttas. Mönstrets egen definition är det som gäller.
+      Flätmönster kan använda egna förkortningar. En diagramnyckel kan definiera <code
+        >C4F</code
+      >, <code>C6B</code> eller något mer specifikt för designen. Siffran anger oftast
+      hur många maskor som korsas. Bokstaven i slutet, F eller B, anger riktning:
+      front eller back, alltså var du håller flätstickan när du korsar. Men designers
+      är inte alltid konsekventa med den konventionen. Vissa använder L och R i stället.
+      Vissa räknar alla maskor som ingår, andra bara maskorna som flyttas. Mönstrets
+      egen definition är det som gäller.
     </p>
     <p>
       Spetsmönster bygger också sammansatta kortformer. Ett mönster skriver <code
@@ -569,15 +577,18 @@ const faqs = [
       bara begripliga inuti det mönstret.
     </p>
     <p>
-      Grundregeln: om du inte hittar en förkortning i en standardreferens är den
-      nästan säkert definierad i mönsterhuvudet. Bläddra upp innan du söker
-      vidare.
+      Det kan vara en förkortning som definieras i just det mönstret.
+      Kontrollera förkortningslistan, maskbeskrivningarna, anteckningarna och
+      teckenförklaringen. Fråga designern om betydelsen fortfarande är oklar
+      innan du byter teknik.
     </p>
 
     <h2>Vad symbolerna i stickdiagram betyder</h2>
     <p>
-      Diagram använder symboler i stället för utskrivna varv. Varje ruta är en
-      maska, och symbolen i rutan säger vad du ska göra.
+      Diagramsymboler visar vad du ska göra. En ruta motsvarar ofta en färdig
+      maska, men minskningar använder flera maskor och flätsymboler kan sträcka
+      sig över flera rutor. En ruta för “ingen maska” hoppas över utan att du
+      stickar eller lyfter någon maska. Räkna med hjälp av teckenförklaringen.
     </p>
     <p>
       Det finns ingen universell standard för diagramsymboler, men många
@@ -589,11 +600,12 @@ const faqs = [
       >.
     </p>
     <p>
-      Diagram läses nedifrån och upp, eftersom stickningen växer uppåt. På plana
-      diagram går RS-varv från höger till vänster och WS-varv från vänster till
-      höger, i samma riktning som stickorna rör sig. Diagram för rundstickning
-      läses från höger till vänster på varje varv, eftersom du alltid arbetar
-      från rätsidan.
+      Diagram läses vanligen nedifrån och upp. När maskorna stickas från vänster
+      till höger sticka läses rätsidevarv normalt från höger till vänster och
+      avigsidevarv från vänster till höger. Vid rundstickning med rätsidan mot
+      dig läses varven normalt från höger till vänster. Kontrollera varvnummer
+      och anvisningar: avigsidevarv kan vara utelämnade, och andra arbetssätt
+      kräver egna instruktioner.
     </p>
     <p>
       Om ett mönster har både skrivna instruktioner och diagram ska de stämma
@@ -610,11 +622,11 @@ const faqs = [
       väljer, och samma dussin förkortningar täcker det mesta du stickar.
     </p>
     <p>
-      Ett par som ofta ställer till det: <code>ssk</code> och <code>skp</code> är
-      båda vänsterlutande minskningar. <code>ssk</code> är modern standard. <code
-        >skp</code
-      > syns mer i äldre mönster. De blir lika i resultatet men skiljer sig lite i
-      utförande, så följ mönstret som det står om det inte ger tillåtelse att byta.
+      Båda minskar en maska och lutar åt vänster sedda från slätstickningens
+      rätsida. Vanlig ssk: lyft två maskor räta en i taget och sticka dem rätt
+      tillsammans genom bakre maskbågarna. Skp: lyft en maska rät, sticka en rät
+      och dra den lyfta maskan över. Utseendet kan skilja sig, så följ mönstrets
+      metod.
     </p>
     <p>
       En annan värd att flagga: <code>psso</code>, pass slipped stitch over,
@@ -624,10 +636,9 @@ const faqs = [
       steg.
     </p>
     <p>
-      Craft Yarn Council publicerar en allmänt använd standardlista över
-      förkortningar, och många designers följer den för vanliga termer. Utöver
-      grunderna tar regionala vanor och mönsterspecifika kortformer över.
-      "Kontrollera mönsternyckeln" är bättre råd än "memorera en huvudlista".
+      Craft Yarn Council har en referenslista för vanliga stickförkortningar.
+      Regionala och mönsterspecifika beteckningar kan skilja sig, så kontrollera
+      mönstrets egen förklaring.
     </p>
     <p>
       Ha den här referensen öppen medan du stickar. Den sökbara ordlistan är

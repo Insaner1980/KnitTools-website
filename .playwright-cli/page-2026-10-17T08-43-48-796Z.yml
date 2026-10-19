@@ -1,0 +1,234 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link "KnitTools home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - text: KnitTools
+      - navigation [ref=e6]:
+        - link "Tools" [ref=e7] [cursor=pointer]:
+          - /url: /tools/
+        - link "Articles" [ref=e8] [cursor=pointer]:
+          - /url: /articles/
+        - group [ref=e9]:
+          - 'generic "Language: English" [ref=e10] [cursor=pointer]': English
+        - link "Notify me at launch" [ref=e13] [cursor=pointer]:
+          - /url: /#join
+    - main [ref=e14]:
+      - article [ref=e15]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]:
+            - link "← All articles" [ref=e19] [cursor=pointer]:
+              - /url: /articles/
+          - paragraph [ref=e20]: Gauge & Calculations
+          - heading "How many stitches to cast on" [level=1] [ref=e21]
+          - paragraph [ref=e22]:
+            - generic [ref=e23]: By KnitTools
+            - generic [ref=e24]: Published May 2026
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: Before the first row, before picking a cast-on method, before anything else, you need a number. That number comes from gauge, not from the yarn label, not from what worked on your last project, and definitely not from a hopeful guess.
+          - paragraph [ref=e28]: To calculate the cast-on count, multiply your gauge (stitches per inch) by the desired width in inches, then adjust for pattern repeats and edge stitches. The arithmetic is short. Getting the right inputs is the part that actually matters, and so is choosing a cast-on method that suits what comes next.
+          - heading "The core calculation" [level=2] [ref=e29]
+          - paragraph [ref=e30]: Stitches per inch from your gauge swatch, multiplied by the width you want. That’s the base cast-on count.
+          - paragraph [ref=e31]: Gauge of 5 stitches per inch and a target width of 10 inches → cast on 50 stitches.
+          - paragraph [ref=e32]: If the gauge is measured over 4 inches, divide first. 20 stitches over 4 inches gives 5 stitches per inch.
+          - paragraph [ref=e33]:
+            - text: KnitTools’
+            - link "Cast On Calculator" [ref=e34] [cursor=pointer]:
+              - /url: /tools/cast-on-calculator/
+            - text: "calculates the base count and rounds to the nearest even number (an odd whole number rounds up). Enter stitches per 10 cm with a width in cm, or select inches and enter stitches per 4 inches with a width in inches. Switching units does not convert the inputs. The usual “10 cm / 4 in” gauge notation is approximate: 4 inches is exactly 10.16 cm. You must allow for ease, repeats, balancing stitches, borders and seams yourself; the calculator does not resize a pattern."
+          - heading "Measure your gauge correctly" [level=2] [ref=e35]
+          - paragraph [ref=e36]: The cast-on number is only as good as the swatch behind it. Two mistakes cause problems over and over again.
+          - paragraph [ref=e37]: Use your project’s yarn, needles and stitch pattern, and swatch flat or in the round to match the construction. Stockinette gauge does not predict the width of ribbing, lace or cables.
+          - paragraph [ref=e38]:
+            - strong [ref=e39]: Measuring at the edge of the swatch.
+            - text: Edge stitches aren’t reliable. Measure in the center, away from the cast-on, bind-off, and side edges.
+          - paragraph [ref=e40]:
+            - strong [ref=e41]: Using the wrong measurement state.
+            - text: Follow the pattern’s gauge instructions, including unblocked gauge if specified. Otherwise, measure the swatch after treating it like the finished project, within the yarn’s care instructions, and letting it dry and relax.
+          - paragraph [ref=e42]:
+            - text: No swatch yet?
+            - link "Measuring gauge" [ref=e43] [cursor=pointer]:
+              - /url: /articles/how-to-measure-knitting-gauge/
+            - text: covers the full process.
+          - heading "A worked example" [level=2] [ref=e44]
+          - paragraph [ref=e45]: Take a simple stockinette scarf, 8 inches wide, gauge of 4.5 stitches per inch.
+          - paragraph [ref=e46]: "8 × 4.5 = 36 stitches. In the calculator, select inches and enter 18 stitches per 4 inches and a width of 8: the result is 36."
+          - paragraph [ref=e47]: "For a different stitch pattern, measure a new swatch. If that pattern also measures 4.5 stitches per inch and needs a pure multiple of 4 or 6, 36 works. For a pure multiple of 8, choose between 32 and 40: about 7.1 or 8.9 inches wide. Check the complete pattern setup before choosing."
+          - paragraph [ref=e48]: "If 8 inches describes only the central area, 36 central stitches plus one separately required selvage at each side gives 38 total. At the same gauge throughout, that is about 8.4 inches before seaming. If 8 inches includes those two edges and the center requires a multiple of 8, use the full formula 8n + 2: (36 − 2) ÷ 8 = 4.25 repeats. Four or five repeats give 34 or 42 total stitches, about 7.6 or 9.3 inches. Do not round 36 to a repeat multiple and add edges afterward. Different border gauges or stitches lost in seams require a separate width allowance."
+          - heading "Adjusting for pattern repeats" [level=2] [ref=e49]
+          - paragraph [ref=e50]: The base multiplication is a first draft, not the final number.
+          - paragraph [ref=e51]: Most stitch patterns repeat over a fixed number of stitches, and the cast-on count has to fit that repeat. Landing on any number and hoping the pattern works out isn’t a strategy.
+          - paragraph [ref=e52]: "For example, 5 stitches per inch × 19.4 inches gives 97 stitches. With a pure 6-stitch repeat, the neighboring counts are 96 and 102, giving 19.2 and 20.4 inches. If the full requirement is 6n + 2 instead, subtract the two extra stitches first: (97 − 2) ÷ 6 ≈ 15.83. Choose 15 or 16 repeats, then add the two stitches once: 92 or 98 total, giving 18.4 or 19.6 inches at that gauge."
+          - paragraph [ref=e53]:
+            - text: Some patterns also need edge or balancing stitches outside the repeat. If the instructions say something like
+            - code [ref=e54]: k2, *p2, k2; rep from *
+            - text: ", those extra stitches are part of the required setup. Not optional decoration. Skip them and the pattern won’t balance across the row."
+          - paragraph [ref=e55]: "When working with a pattern repeat of 8 stitches plus 2 balancing stitches, the target is not “a multiple of 8.” It’s “a multiple of 8, plus 2.” Common formats and what they produce:"
+          - list [ref=e56]:
+            - listitem [ref=e57]: “Multiple of 4” → 32, 36, 40, 44, 48
+            - listitem [ref=e58]: “Multiple of 6 + 1” → 31, 37, 43, 49, 55
+            - listitem [ref=e59]: “Multiple of 8 + 2” → 34, 42, 50, 58, 66
+            - listitem [ref=e60]: “Multiple of 12 + 3” → 27, 39, 51, 63, 75
+          - paragraph [ref=e61]: Check the resulting width, not just divisibility. At 5 stitches per inch, four stitches change the width by 0.8 inch, whatever the project’s total width. Whether that is acceptable depends on the intended fit.
+          - heading "Edge stitches and selvage" [level=2] [ref=e62]
+          - paragraph [ref=e63]: For flat pieces that will be seamed, follow the pattern’s edge treatment and seam allowance. Check whether the stated count already includes those stitches; do not automatically add two more.
+          - paragraph [ref=e64]: For exposed edges, choose the intended border or selvage and include its width in the plan. A border in another stitch pattern may need its own gauge. The seam consumes some of the knitted width, so distinguish the unseamed width from the finished visible width.
+          - paragraph [ref=e65]: Ordinary seamless circular knitting has no side selvages. Extra joining stitches or steek stitches are separate, pattern-specific instructions.
+          - heading "Width at the cast-on vs in the body" [level=2] [ref=e66]
+          - paragraph [ref=e67]: The cast-on edge and the body don’t always behave the same way. Some cast-ons run tighter. Some stretch more. Some flare.
+          - paragraph [ref=e68]: "Choose and swatch a cast-on that suits the edge. A larger needle makes larger loops, but does not by itself make a long-tail cast-on stretchier: the yarn between stitches must also have room to spread. Test the edge with the fabric and opening it needs to fit."
+          - paragraph [ref=e69]: When the cast-on is part of the finished fit (sock cuffs, hat brims), tension at the edge matters just as much as the stitch count.
+          - heading "Casting on for ribbing" [level=2] [ref=e70]
+          - paragraph [ref=e71]:
+            - text: Measure ribbing in the state specified by the pattern; do not substitute stockinette gauge. Follow the instructed transition, including any
+            - link "evenly spaced increases" [ref=e72] [cursor=pointer]:
+              - /url: /articles/increase-decrease-evenly/
+            - text: .
+          - paragraph [ref=e73]: Some patterns keep the same count through ribbing and body; others change it. When designing your own piece, swatch both sections and their transition. A count change alone does not guarantee a particular shape or a smooth join.
+          - heading "Casting on for circular knitting" [level=2] [ref=e74]
+          - paragraph [ref=e75]: "Use stitches per inch × desired finished circumference, with gauge measured for circular knitting. A tube’s circumference is not its laid-flat width. Decide the ease before calculating: finished circumference equals body circumference plus positive ease, or minus the chosen negative ease. The amount depends on the pattern, fabric and intended fit; there is no universal reduction for hats or socks."
+          - paragraph [ref=e76]: Before joining, lay out the cast-on and check that the lower edge runs around without spiraling. If the joined fabric is twisted, undo enough work to correct it before continuing.
+          - paragraph [ref=e77]: If your chosen joining method uses an extra stitch, remove that stitch as instructed at the join so the working count returns to the planned total. It is not an extra stitch to keep in every circular project.
+          - paragraph [ref=e78]: For toe-up socks, Judy’s magic cast-on creates two sets of live stitches with no seam at the toe; the toe shaping determines the starting count. For cuff-down socks, calculate and check the cuff separately, including whether its cast-on stretches over the heel.
+          - heading "Cast-on methods, briefly compared" [level=2] [ref=e79]
+          - paragraph [ref=e80]: The right method depends on what the edge needs to do.
+          - paragraph [ref=e81]:
+            - strong [ref=e82]: Long-tail.
+            - text: A general-purpose cast-on using the working yarn and a reserved tail. Its stretch depends on how it is worked. Estimate the tail before starting; see the FAQ below.
+          - paragraph [ref=e83]:
+            - strong [ref=e84]: Knitted cast-on.
+            - text: Makes new stitches by knitting into an existing loop. Useful for learning to cast on and for adding stitches during a project.
+          - paragraph [ref=e85]:
+            - strong [ref=e86]: Cable cast-on.
+            - text: Makes new stitches between the previous two stitches. It gives a relatively firm edge with limited stretch, useful for buttonholes and firm edges.
+          - paragraph [ref=e87]:
+            - strong [ref=e88]: German twisted (old Norwegian).
+            - text: A long-tail variation with extra stretch built in. Excellent for sock cuffs and ribbed hems where the edge needs to stretch over a foot or a head.
+          - paragraph [ref=e89]:
+            - strong [ref=e90]: Tubular cast-on.
+            - text: Creates a rounded edge for ribbing with the appropriate foundation rows. Follow a setup specifically for 1x1 or 2x2 ribbing; a 1x1 setup does not automatically become 2x2 without rearranging the stitches.
+          - paragraph [ref=e91]:
+            - strong [ref=e92]: Provisional cast-on.
+            - text: Holds live stitches that can be picked up and worked in the other direction later. Used in top-down shawls, hems that fold under, and any time the cast-on edge will be reworked.
+          - paragraph [ref=e93]:
+            - strong [ref=e94]: Judy’s magic cast-on.
+            - text: Toe-up sock cast-on that produces two parallel rows of stitches with no seam at the toe.
+          - heading "Cast-on tension" [level=2] [ref=e95]
+          - paragraph [ref=e96]: A tight cast-on can restrict an otherwise correctly sized piece; a loose one can flare. Test the cast-on with several rows or rounds of the intended fabric.
+          - paragraph [ref=e97]: For long-tail cast-on, leave room between stitches rather than pulling each new stitch tightly against the previous one. A larger needle or two needles held together enlarge the loops but do not guarantee enough yarn between them. If the edge still lacks the required stretch, try a suitable alternative, such as German twisted, and test again.
+          - paragraph [ref=e98]: If the edge flares, adjust the tension or needle size for that method and repeat the sample. A fixed change of one or two needle sizes is not a universal solution.
+          - heading "Common cast-on counts for standard projects" [level=2] [ref=e99]
+          - paragraph [ref=e100]: There is no standard cast-on count for a dishcloth, scarf, cowl, hat or pair of socks based on yarn category alone. Choose the finished width or circumference, account for ease where needed, then use the relevant measured gauge and the complete pattern formula.
+          - paragraph [ref=e101]:
+            - text: The
+            - link "Cast On Calculator" [ref=e102] [cursor=pointer]:
+              - /url: /tools/cast-on-calculator/
+            - text: provides the base estimate once these inputs are known. Its even-number rounding does not check ribbing, crown decreases, heel construction or garment shaping.
+          - heading "Top-down vs bottom-up sweaters" [level=2] [ref=e103]
+          - paragraph [ref=e104]: For a sweater worked from the bottom up, use the actual hem or individual panel dimensions, not automatically the chest circumference. For one worked from the top down, use the neckline setup specified by the construction.
+          - paragraph [ref=e105]: A straight body worked in the round with a finished hem circumference of 40 inches and a hem gauge of 5 stitches per inch gives 5 × 40 = 200 stitches before any pattern-specific adjustment; 200 ÷ 5 = 40 inches. This assumes the hem uses that gauge and count. It does not determine a neckline count or the count for a separate front or back.
+          - paragraph [ref=e106]: Changing only the cast-on does not resize a sweater. Shaping, row gauge, lengths, sleeves and neckline all need checking.
+          - heading "FAQ" [level=2] [ref=e107]
+          - paragraph [ref=e108]:
+            - strong [ref=e109]: Should I cast on an odd or even number of stitches?
+            - text: "For ordinary circular 1x1 ribbing, use a multiple of 2; for circular 2x2 ribbing, a multiple of 4. Flat ribbing depends on its edges: starting and ending with one knit stitch needs 2n + 1 for 1x1; starting and ending with two knit stitches needs 4n + 2 for 2x2. Add separate selvages only if the instructions require them and they are not already counted."
+          - paragraph [ref=e110]:
+            - strong [ref=e111]: What if my pattern gives a cast-on number but my gauge doesn’t match?
+            - text: The stated count will produce a different width. Match the pattern gauge, or assess the whole adaptation, including row gauge and shaping. A new cast-on count alone is not a complete resizing method.
+          - paragraph [ref=e112]:
+            - strong [ref=e113]: Do I count the slip knot as a stitch?
+            - text: In the conventional long-tail, knitted and cable cast-ons that begin with a slip knot, the knot left on the needle counts as the first stitch. Other setups may omit it or use a temporary knot that is removed. Follow the specific method.
+          - paragraph [ref=e114]:
+            - strong [ref=e115]: How long should the tail be for long-tail cast-on?
+            - text: A width multiplier is only an estimate. For the long-tail method,
+            - link "Purl Soho" [ref=e116] [cursor=pointer]:
+              - /url: https://www.purlsoho.com/create/long-tail-cast-on/
+            - text: "suggests about 3.5 times the planned width: 40 × 3.5 = 140 inches. Allow additional yarn for weaving in or seaming. Yarn, tension and technique affect the amount; the 200-stitch example is not a guaranteed tail-length rule."
+          - paragraph [ref=e117]:
+            - strong [ref=e118]: Can I use the cable cast-on for a stretchy edge like a sock cuff?
+            - text: A standard cable cast-on has limited stretch. For a cuff that must pass over the heel, test the opening; a correctly spaced long-tail or German twisted cast-on, or a suitable tubular setup, is an alternative. A larger needle alone does not guarantee stretch.
+          - paragraph [ref=e119]:
+            - strong [ref=e120]: How do I cast on for knitting in the round?
+            - text: Use the finished circumference and circular gauge, adjust for the pattern, and check for a twist before joining. Ordinary seamless work needs no side selvages. Add and remove an extra joining stitch only if your joining method calls for it.
+          - paragraph [ref=e121]:
+            - strong [ref=e122]: My pattern says “cast on X stitches loosely.” How loose is loose?
+            - text: Loose enough for the opening and fabric the pattern requires, without an unwanted flare. Test the method and stitch spacing; changing needle size is a trial, not a guaranteed fix.
+      - region [ref=e123]:
+        - generic [ref=e124]:
+          - paragraph [ref=e125]: Be there at launch
+          - heading [level=2] [ref=e126]:
+            - text: Where every stitch
+            - emphasis [ref=e127]: counts.
+          - generic [ref=e128]:
+            - generic [ref=e129]: Email address
+            - generic [aria-hidden] [ref=e130]: Leave this field empty
+            - textbox [aria-hidden] [ref=e131]
+            - generic [ref=e132]:
+              - textbox "Email address" [ref=e133]:
+                - /placeholder: your@email.com
+              - button "Notify me at launch" [ref=e134] [cursor=pointer]
+          - paragraph [ref=e135]: Free tier from day one. No card required.
+    - contentinfo [ref=e136]:
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - heading "Tools" [level=2] [ref=e141]
+              - list [ref=e142]:
+                - listitem [ref=e143]:
+                  - link "Cast On Calculator" [ref=e144] [cursor=pointer]:
+                    - /url: /tools/cast-on-calculator/
+                - listitem [ref=e145]:
+                  - link "Yarn Estimator" [ref=e146] [cursor=pointer]:
+                    - /url: /tools/yarn-estimator/
+                - listitem [ref=e147]:
+                  - link "Needle Size Chart" [ref=e148] [cursor=pointer]:
+                    - /url: /tools/needle-size-chart/
+                - listitem [ref=e149]:
+                  - link "Yarn Weight Chart" [ref=e150] [cursor=pointer]:
+                    - /url: /tools/yarn-weight-chart/
+                - listitem [ref=e151]:
+                  - link "Knitting Abbreviations" [ref=e152] [cursor=pointer]:
+                    - /url: /tools/knitting-abbreviations/
+                - listitem [ref=e153]:
+                  - link "Knitting Size Charts" [ref=e154] [cursor=pointer]:
+                    - /url: /tools/knitting-size-charts/
+            - generic [ref=e155]:
+              - heading "Articles" [level=2] [ref=e156]
+              - list [ref=e157]:
+                - listitem [ref=e158]:
+                  - link "Gauge & Calculations" [ref=e159] [cursor=pointer]:
+                    - /url: /articles/category/gauge-calculations/
+                - listitem [ref=e160]:
+                  - link "Yarn" [ref=e161] [cursor=pointer]:
+                    - /url: /articles/category/yarn/
+                - listitem [ref=e162]:
+                  - link "Needles" [ref=e163] [cursor=pointer]:
+                    - /url: /articles/category/needles/
+                - listitem [ref=e164]:
+                  - link "Techniques" [ref=e165] [cursor=pointer]:
+                    - /url: /articles/category/techniques/
+                - listitem [ref=e166]:
+                  - link "App & Tools" [ref=e167] [cursor=pointer]:
+                    - /url: /articles/category/app-tools/
+            - generic [ref=e168]:
+              - heading "App" [level=2] [ref=e169]
+              - list [ref=e170]:
+                - listitem [ref=e171]: Launching soon
+                - listitem [ref=e172]:
+                  - link "About" [ref=e173] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=e174]:
+                  - link "Privacy Policy" [ref=e175] [cursor=pointer]:
+                    - /url: https://finnvek.com/privacy#knittools
+          - img "KnitTools" [ref=e176]
+        - paragraph [ref=e178]:
+          - text: © MMXXVI KnitTools.
+          - link "Finnvek" [ref=e179] [cursor=pointer]:
+            - /url: https://finnvek.com
+          - text: .
+          - link "Contact" [ref=e180] [cursor=pointer]:
+            - /url: mailto:contact@finnvek.com
+          - text: .

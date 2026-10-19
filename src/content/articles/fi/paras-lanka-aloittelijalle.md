@@ -1,6 +1,6 @@
 ---
 title: "Paras lanka aloittelijalle"
-description: "Valitse hyvä lanka neulomisen opetteluun. Opas lankavahvuuteen, kuituun, väriin, vältettäviin lankoihin ja ensimmäisen projektin määrään."
+description: "Valitse hyvä lanka neulomisen opetteluun. Opas lankavahvuuteen, kuituun, väriin, vältettäviin lankoihin ja ensimmäisen projektin lankamäärään."
 publishDate: 2026-05-01
 category: yarn
 categoryOrder: 1
@@ -15,45 +15,45 @@ lang: fi
 translationKey: "best-yarn-for-beginners"
 ---
 
-Lankahylly on hämmentävä, kun et vielä tiedä mitä katsot. Seinittäin värejä, eri paksuuksia ja vyötteitä täynnä outoja termejä. Turvallisin lanka neulomisen opetteluun on worsted-vahvuinen eli CYC 4 -kategorian lanka vaaleassa yksivärisessä sävyssä: akryyli, jos budjetti ratkaisee, tai villa-akryylisekoitus, jos haluat mukavamman tuntuman. Yhdistä se 4,5-5,5 mm bambu- tai puupuikkoihin. Ensimmäistä projektia varten valinta on yksinkertaisempi kuin miltä se näyttää.
+Lankahylly on hämmentävä, kun et vielä tiedä, mitä katsot. Seinittäin värejä, eri paksuuksia ja vyötteitä täynnä outoja termejä. Käytännöllinen valinta perussilmukoiden opetteluun on worsted-vahvuinen eli CYC 4 -kategorian lanka vaaleassa yksivärisessä sävyssä: sileä akryyli tai villa-akryylisekoite, jonka hinta ja tuntuma sopivat sinulle. Noin 4,5–5,5 mm:n bambu- tai puupuikot ovat lähtökohta; tarkista vyötteen suositus. Ensimmäistä projektia varten valinta on yksinkertaisempi kuin miltä se näyttää.
 
 Tarvitset langan, joka antaa virheitä anteeksi, on helppo käsitellä ja on tarpeeksi edullinen, ettei purkaminen tunnu kalliilta.
 
 ## Vahvuus: aloita worsted-langasta
 
-Worsted-vahvuus eli CYC 4 on tavallinen aloittelijasuositus, ja syy on käytännöllinen.
+Worsted kuuluu CYC:n luokkaan 4 eli Medium. Se on käytännöllinen lähtökohta perussilmukoiden opetteluun. Lankavahvuus tarkoittaa paksuutta, ei kerän painoa grammoina.
 
 Silmukat ovat tarpeeksi isoja, jotta näet ne selvästi. Näet, miten lanka kiertyy puikon ympärille, erotat yksittäiset silmukat ja huomaat virheet ennen kuin niistä tulee isoja ongelmia. Ohuemmassa langassa silmukat sulautuvat yhteen ja virheet piiloutuvat.
 
-Työ kasvaa tyydyttävää vauhtia. Tunnin jälkeen näkyy edistystä, mikä merkitsee paljon, kun rakennat kärsivällisyyttä ja lihasmuistia. Illassa valmistuva mallitilkku motivoi paremmin kuin pieni pala, johon meni kolme iltaa.
+Keskipaksulla langalla samaan pinta-alaan tarvitaan vähemmän silmukoita kuin ohuella. Pieni harjoitustilkku on siksi sopivan kokoinen ensimmäinen tavoite.
 
-Puikkokoko 4,5-5,5 mm on mukava pitää kädessä. Ei niin pieni, että kädet väsyvät, eikä niin suuri, että puikot tuntuvat kömpelöiltä.
+CYC:n suuntaa antava puikkosuositus tälle luokalle on 4,5–5,5 mm. Aloita vyötteen suosituksesta ja valitse lopullinen koko ohjeen neuletiheyden ja halutun neulepinnan mukaan.
 
 Moni aloittelijaohje käyttää worsted-vahvuutta tai muuta keskipaksua lankaa, joten vaihtoehtoja riittää.
 
-DK-vahvuus eli kategoria 3 toimii myös. Se on hieman ohuempi, sopii keskikokoisille puikoille (3,75-4,5 mm) ja laskeutuu usein kauniisti. Jos valitset worstedin ja DK:n väliltä, seuraa ohjeen lankavahvuutta.
+DK kuuluu CYC:n luokkaan 3 eli Light ja toimii myös opettelussa. Sen suuntaa antava puikkosuositus on 3,75–4,5 mm. Jos valitset worstedin ja DK:n väliltä, seuraa ohjeen lankavahvuutta. Pelkkä paksuus ei määrää neuleen laskeutuvuutta.
 
-Älä aloita Lace-, Fingering- tai Sport-vahvuuksista. Pienet silmukat, hidas eteneminen ja helposti halkeava ohut lanka tekevät opettelusta raskaampaa. Bulky ja Super Bulky neuloutuvat nopeasti, mutta ylisuurilla silmukoilla ja paksuilla puikoilla ei opi hienomotoriikkaa yhtä hyvin, ja kireyserot näkyvät dramaattisesti. Vino silmukka fingering-langassa hädin tuskin näkyy. Sama silmukka super bulkyssa on peukalonkynnen kokoinen.
+Jättäisin Lace-, Fingering- ja Sport-vahvuudet myöhemmäksi, koska pieniä silmukoita on työläämpi erottaa. Bulky ja Super Bulky sopivat myös alkuun, jos pidät suurista puikoista. Valitse yhdistelmä, jota on mukava käsitellä; paksu lanka ei estä hyvän tekniikan oppimista.
 
 ## Kuitu: akryyli tai villasekoite
 
-**Akryyli** on käytännöllinen lähtökohta. Se on edullinen, konepestävä, helposti saatavilla ja sitä on kaikissa väreissä. Voit purkaa ja neuloa uudelleen vahingoittamatta lankaa, mikä on tärkeää opetellessa. Monet askartelukauppojen aloittelijalankasarjat on tehty helpoiksi käsitellä.
+**Akryyli** on käytännöllinen vaihtoehto, kun haluat pitää harjoittelun kustannukset pieninä. Valitse sileä lanka, jonka silmukat erottuvat, ja tarkista kyseisen langan hinta sekä vyötteen hoito-ohje.
 
-Huono puoli on, ettei valmis työ tunnu samalta kuin luonnonkuidusta tehty. Akryyli voi narista neuloessa, eikä se reagoi märkäpingotukseen samalla tavalla kuin villa, joten epätasainen käsiala ei rentoudu yhtä paljon. Ensimmäisessä projektissa, jonka tavoite on oppia tekniikkaa, nämä kompromissit ovat silti hyväksyttäviä.
+Kokeile neuloa ja purkaa muutama kerros ennen projektia. Toistuvan purkamisen kesto riippuu langan rakenteesta ja kunnosta, ei vain kuidusta. Pesu ja pingotus eivät takaa epätasaisen käsialan tasoittumista.
 
-**Villa-akryylisekoitteet** yhdistävät villan miellyttävämpää tuntua ja akryylin kestävyyttä sekä pestävyyttä. Ne ovat hieman kalliimpia, mutta selvästi mukavampia neuloa, ja valmis työ laskeutuu usein hieman paremmin. Jos budjetti sallii, sekoite on hyvä päivitys.
+**Villa-akryylisekoitteet** ovat hyvä vaihtoehto, jos pidät niiden tuntumasta. Pehmeys, kestävyys, laskeutuvuus ja hoito riippuvat sekoituksesta, langan rakenteesta ja neulepinnasta. Akryylin lisääminen ei yksin tee villasekoitteesta konepestävää.
 
-**Puhdas villa** on miellyttävää neulottavaa, mutta se maksaa enemmän, vaatii usein hellävaraisempaa pesua ellei se ole superwashia ja voi huopua väärin käsiteltynä. Säästä se toiseen tai kolmanteen projektiin, kun haluat valmiin työn tuntuvan erityiseltä. Villassa on myös palautuvuutta, joka auttaa epätasaista aloittelijan käsialaa rentoutumaan pingotuksessa. Moni ymmärtää villan viehätyksen nopeasti, kun kokeilee sitä akryylin jälkeen.
+**Puhdas villa** sopii myös ensimmäiseen projektiin. Villan luontainen joustavuus ja palautuvuus voivat tehdä siitä miellyttävää neulottavaa. Käsittelemätön villa voi huopua kosteuden ja hankauksen vaikutuksesta. Noudata valmistajan pesu- ja kuivausohjeita myös superwash-langalle; merkintä ei tarkoita, että mikä tahansa pesuohjelma sopii.
 
-**Puuvilla** ei ole paras lanka liikeratojen opetteluun. Siinä ei ole joustoa, joten epätasainen käsiala näkyy helpommin. Se on painavampaa ja raskaampaa käsille. Puuvilla toimii hyvin tiskirätteihin ja kesätöihin, kun tunnet jo oman kireytesi. Jos tavoitteena on käyttökelpoinen tiskirätti, puuvilla on järkevä valinta. Jos tavoitteena on vähästressinen harjoittelu, villasekoite tai akryyli on helpompi.
+**Puuvilla** palautuu venytyksestä heikommin kuin villa, vaikka puuvillaneulekin voi venyä. Se on järkevä ensimmäinen valinta tiskirättiin, jos haluat tehdä sellaisen. Harjoitteluun valitse lanka, jota on mukava käsitellä; sekoite ja langan rakenne vaikuttavat myös puuvillan käyttäytymiseen.
 
 ## Väri: vaalea ja yksivärinen
 
-Vaaleat värit näyttävät silmukat paremmin kuin tummat. Kerma, vaaleanharmaa, vaaleansininen, vaaleanpunainen ja pehmeä keltainen toimivat hyvin. Opetellessa sinun pitää nähdä silmukan rakenne, ja tumma lanka piilottaa kaiken.
+Vaaleat värit näyttävät silmukat paremmin kuin tummat. Kerma, vaaleanharmaa, vaaleansininen, vaaleanpunainen ja pehmeä keltainen toimivat hyvin. Opetellessa sinun pitää nähdä silmukan rakenne, ja tumma lanka vaikeuttaa silmukoiden erottamista.
 
-Yksivärinen lanka näyttää silmukkakuvan paremmin kuin monivärinen. Kirjava lanka on visuaalisesti kiireinen ja tekee yksittäisten silmukoiden, virheiden ja neulepinnan lukemisesta vaikeaa. Säästä se hetkeen, jolloin osaat neuloa katsomatta jokaista silmukkaa.
+Yksivärinen lanka näyttää silmukkakuvan paremmin kuin monivärinen. Kirjavasta langasta voi olla vaikeampi erottaa yksittäisiä silmukoita ja virheitä. Säästä se hetkeen, jolloin osaat neuloa katsomatta jokaista silmukkaa.
 
-Tonaaliset langat, joissa saman sävyn sisällä on hienoista vaihtelua, ovat kohtuullinen välimuoto jos täysin yksivärinen tuntuu tylsältä. Niistä näkee silmukat yleensä tarpeeksi hyvin.
+Tonaaliset langat, joissa saman sävyn sisällä on hienoista vaihtelua, ovat kohtuullinen välimuoto, jos täysin yksivärinen tuntuu tylsältä. Niistä näkee silmukat yleensä tarpeeksi hyvin.
 
 Tämä on väliaikainen rajoitus. Kun perusasiat sujuvat, neulo millä värillä haluat.
 
@@ -61,54 +61,54 @@ Tämä on väliaikainen rajoitus. Kun perusasiat sujuvat, neulo millä värillä
 
 Ensimmäiseen projektiin, kuten huiviin tai tiskirättiin:
 
-Monessa 100 g worsted-kerässä on noin 180 m eli noin 200 jaardia lankaa. Se riittää lyhyeen huiviin tai useampaan harjoituspalaan. Täyspitkään aikuisen huiviin tarkista ohjeen menekki ennen ostamista.
+Valitse ensin ohje ja tarkista sen langanmenekki metreinä. Samanvahvuisissakaan 100 g:n kerissä ei aina ole yhtä paljon lankaa. Jaa tarvittava metrimäärä kerän juoksevuudella ja pyöristä ylöspäin. Varaa lankaa myös mallitilkkuun, ellei ohje huomioi sitä. Esimerkiksi 360 m:n menekki ja 150 m:n kerä: 360 ÷ 150 = 2,4, joten tarvitset 3 kerää. Tämä on laskuesimerkki, ei huivin menekkiarvio.
 
-Pidempään huiviin osta kaksi kerää samasta värjäyserästä. Värjäyserällä on väliä myös yksivärisissä langoissa. Kaksi "luonnonvalkoista" kerää eri eristä voi näyttää vierekkäin eri värisiltä, ja vaihtokohta näkyy valmiissa työssä viivana. Tarkista vyötteen värjäyserän numero ja ota samasta erästä, jos ostat useamman kerän.
+Jos tarvitset useamman kerän, valitse sama värjäyserä. Värjäyserällä on väliä myös yksivärisissä langoissa. Kaksi "luonnonvalkoista" kerää eri eristä voi näyttää vierekkäin eri värisiltä, ja vaihtokohta näkyy valmiissa työssä viivana. Tarkista vyötteen värjäyserän numero ja ota samasta erästä, jos ostat useamman kerän.
 
-Älä osta liikaa. Yksi tai kaksi kerää riittää. Jos neulominen ei ole sinun juttusi, et ole sijoittanut paljon. Jos rakastut siihen, sinulle syntyy pian vahvoja mielipiteitä langoista ja ostat juuri sitä mitä haluat.
+Aloita muutaman harjoitustilkun neulominen yhdellä kerällä suuren varaston sijaan. Valmiin huivin tai tiskirätin lankamäärä tarkistetaan ohjeesta; yksi tai kaksi kerää ei ole yleispätevä menekki.
 
 ## Lue vyöte ennen ostamista
 
 Vyötteestä löytyy tieto, jonka perusteella osaat valita oikean langan. Siihen kannattaa totutella heti.
 
-Lankavahvuus merkitään usein CYC-järjestelmän mukaisella numeroidulla keräsymbolilla. 4 tarkoittaa worsted-vahvuutta. Useimmissa aloittelijan kohtaamissa vyötteissä näkyy edelleen tuttu 0-7-alue, vaikka CYC on alkanut päivittää järjestelmää uutta Size 8 -symbolia varten. Suositeltu puikkokoko on vyötteessä US-kokona, millimetreinä tai molempina. Neuletiheys ilmoitetaan usein silmukoina 10 cm:n / 4 tuuman alueella sileässä neuleessa. Juoksevuus kertoo, paljonko lankaa kerässä on. Kuitusisältö kertoo materiaalin, esimerkiksi 100 % akryyli tai 80 % akryyli ja 20 % villa. Hoito-ohje kertoo, voiko työn pestä koneessa.
+Jos vyöte käyttää CYC:n numeroitua keräsymbolia, 4 tarkoittaa Medium-luokkaa, johon kuuluvat Worsted, Afghan ja Aran. Nimet eivät korvaa neuletiheyden tarkistamista. Kaikki valmistajat eivät käytä CYC-merkintöjä. Suositeltu puikkokoko on vyötteessä US-kokona, millimetreinä tai molempina. Neuletiheys ilmoitetaan usein silmukoina 10 cm:n / 4 tuuman alueella sileässä neuleessa. Juoksevuus kertoo, paljonko lankaa kerässä on. Kuitusisältö kertoo materiaalin, esimerkiksi 100 % akryyli tai 80 % akryyli ja 20 % villa. Hoito-ohje kertoo, voiko työn pestä koneessa.
 
-Ensimmäiseen projektiin etsi worsted-merkintä, 4,5-5,5 mm puikkosuositus ja konepestävä hoito. Muu on pitkälti mieltymystä.
+Ensimmäiseen harjoitustilkkuun etsi sileä keskipaksu lanka, jonka puikkosuositus on noin 4,5–5,5 mm. Jos haluat pestä työn koneessa, valitse lanka, jonka hoito-ohje sallii sen.
 
 ## Mitä kannattaa välttää
 
-**Efektilanka** kuten eyelash, ladder, boucle ja tekoturkis. Se piilottaa silmukat täysin. Et näe mitä teet, et näe virheitä etkä opi silmukan rakennetta. Se on myös lähes mahdotonta purkaa, koska kuidut tarttuvat toisiinsa.
+**Efektilanka tai hyvin pörröinen lanka**, kuten hapsu-, tikapuu-, buklee- tai tekoturkislanka. Langan rakenne voi peittää silmukat ja vaikeuttaa virheiden löytämistä. Silmukoiden lukemista ja purkamista kannattaa opetella ensin sileällä langalla.
 
 **Hyvin tummat värit.** Musta lanka tummilla puikoilla huonossa valossa on turhauttavaa. Pudonneet silmukat ja väärin neulotut kohdat jäävät huomaamatta.
 
-**Hyvin liukas lanka** kuten puhdas silkki, bambu tai merseroitu puuvilla. Silmukat liukuvat pois puikoilta. Yhdistettynä aloittelijan epätasaiseen kireyteen se tarkoittaa jatkuvasti pudonneita silmukoita.
+**Puikoilla liian liukkaalta tuntuva lanka.** Kokeile muutamaa silmukkaa, jos kaupassa on kokeilulankaa. Jos silmukoita on vaikea pitää puikoilla, vaihda lankaa tai puikkojen materiaalia. Pelkkä kuitunimi, kuten silkki, bambu tai puuvilla, ei kerro langan koko rakennetta.
 
-**Helposti halkeava lanka** kuten löyhästi kerrattu tai yksisäikeinen lanka. Puikko tarttuu yksittäisiin säikeisiin eikä koko lankaan, jolloin silmukoista tulee sotkuisia. Sileä ja napakasti kierretty lanka halkeaa yleensä vähemmän ja on helpompi neuloa. Pelkkä säikeiden määrä ei kerro, kuinka tiukka langan kierre on. Jos olet kaupassa epävarma, kierrä säiettä hieman auki. Jos se hajoaa helposti, se todennäköisesti halkeaa myös puikoilla.
+**Helposti halkeava lanka.** Jos puikko tarttuu jatkuvasti vain osaan langasta, silmukoiden neulominen vaikeutuu. Valitse sileä lanka, joka pysyy koossa neuloessa. Säikeiden määrä ei yksin kerro paksuutta tai kierteen napakkuutta. Kokeile neulomista näytelangalla sen sijaan, että kiertäisit kaupan lankaa auki halkeilun ennustamiseksi.
 
-**Vyyhdit, jos niitä ei keritä.** Vyyhti on lankalenkki, joka pitää keriä keräksi ennen neulomista. Lankakauppa voi usein keriä sen puolestasi, mutta aloittelijan yritys neuloa suoraan vyyhdistä päättyy yleensä sotkuun. Pysy ensimmäisellä ostokerralla kerissä ja kakuissa. Jos haluat vyyhdin, pyydä kauppaa kerimään se.
+**Vyyhdit, jos niitä ei keritä.** Vyyhti on lankalenkki, joka pitää keriä keräksi ennen neulomista. Lankakauppa voi usein keriä sen puolestasi, mutta aloittelijan yritys neuloa suoraan vyyhdistä päättyy yleensä sotkuun. Valitse ensimmäisellä ostokerralla valmiiksi kerittyä lankaa. Jos haluat vyyhdin, pyydä kauppaa kerimään se.
 
 ## Ensimmäisen projektin jälkeen
 
-Kun olet tehnyt yhden tai kaksi projektia, esimerkiksi klassisen [ensimmäisen huivin](/fi/artikkelit/ensimmaisen-huivin-neulominen/), ja käsiala alkaa tasoittua, lankamaailma avautuu. Alat huomata mistä kuitutuntumasta pidät, millaiset puikot sopivat käteen ja mitkä merkit toimivat. Ehkä haluat kokeilla merinoa. Ehkä joskus sukkalankaa. Ehkä käsinvärjättyä.
+Kun olet tehnyt yhden tai kaksi projektia, esimerkiksi klassisen [ensimmäisen huivin](/fi/artikkelit/ensimmaisen-huivin-neulominen/), ja käsiala alkaa tasoittua, lankamaailma avautuu. Alat huomata, mistä kuitutuntumasta pidät, millaiset puikot sopivat käteen ja mitkä merkit toimivat. Ehkä haluat kokeilla merinoa. Ehkä joskus sukkalankaa. Ehkä käsinvärjättyä.
 
 Jos valitset samalla puikkoja, [aloittelijan puikko-opas](/fi/artikkelit/puikkokoko-aloittelijalle/) täydentää tätä artikkelia. [Lankavahvuustaulukko](/fi/tyokalut/lankavahvuudet/) auttaa, kun alat kokeilla muita kategorioita. [Kuituopas](/fi/artikkelit/lankakuidut-vertailussa/) vertailee eri kuitujen käyttäytymistä, mikä alkaa merkitä, kun valitset lankaa valmiin työn tuntuman etkä vain opettelun helppouden perusteella.
 
 ## FAQ
 
 **Onko kallis lanka parempi opetteluun?**
-Ei. Kallis lanka on parempi valmiisiin töihin, jotka haluat säilyttää. Opetteluun edullinen on ihanteellinen, koska et epäröi purkaa, tehdä virheitä tai hylätä harjoituspalaa. Oppiminen nopeutuu, kun virheet eivät maksa.
+Ei välttämättä. Valitse lanka, jolla on varaa harjoitella ja jota on mukava käsitellä. Hinta ei yksin kerro neulomisen helppoutta tai valmiin työn sopivuutta sinulle.
 
 **Voinko opetella langalla, joka minulla jo on?**
-Todennäköisesti. Jos se on worsted- tai DK-vahvuista, ei liian tummaa, ei efektilankaa eikä erittäin liukasta, se käy. Tarkista vyöte. Jos vyötettä ei ole, [tuntemattoman langan opas](/fi/artikkelit/tuntemattoman-langan-tunnistaminen/) auttaa selvittämään mitä sinulla on.
+Todennäköisesti. Jos se on worsted- tai DK-vahvuista, ei liian tummaa, ei efektilankaa eikä erittäin liukasta, se käy. Tarkista vyöte. Jos vyötettä ei ole, [tuntemattoman langan opas](/fi/artikkelit/tuntemattoman-langan-tunnistaminen/) auttaa selvittämään, mitä sinulla on.
 
 **Onko merkillä väliä?**
-Ei paljon ensimmäisessä projektissa. Mikä tahansa askartelukaupan worsted-akryyli toimii. Kokemuksen myötä löydät mieltymykset, mutta nyt riittää oikea vahvuus, helppo kuitu ja väri, josta pidät.
+Ensimmäisessä projektissa arvioi itse lankaa: sopiva vahvuus, erottuvat silmukat, tuntuma ja hoito-ohje. Merkki tai akryyli-merkintä ei yksin takaa hyvää valintaa.
 
 **Miten lankaa säilytetään?**
 Puhtaana, kuivana ja poissa suorasta auringonvalosta, joka haalistaa värejä. Suljettu laatikko kaapissa on hyvä. Koinesto merkitsee villalle ja muille eläinkuiduille, mutta akryylille sillä on paljon vähemmän merkitystä.
 
 **Askartelukauppa vai lankakauppa ensimmäiseen ostoon?**
-Isot askartelukaupat ja tavaratalot myyvät usein edullisia aloittelijaystävällisiä lankoja, ja aukioloajat ovat laajat. Lankakaupoissa on parempia kuituja, pienempiä merkkejä ja henkilökunta, joka auttaa valinnassa ja kerii vyyhdit. Jos budjetti on tärkein, askartelukauppa käy hyvin. Jos lähellä on lankakauppa ja haluat neuvoja, se voi tehdä ensimmäisestä ostosta miellyttävämmän.
+Kumpikin käy. Vertaile omaan budjettiisi sopivia lankoja. Jos tarvitset apua langan valintaan ohjetta varten tai vyyhdin kerimiseen, kysy, mitä palveluja kauppa tarjoaa.
 
 **Kannattaako lankaa koskea ennen ostamista?**
 Kyllä, jos mahdollista. Purista kerää ja hiero lankaa rannetta tai kaulaa vasten. Osa langoista tuntuu hyllyssä hyvältä mutta ihoa vasten karhealta. Tällä on enemmän merkitystä huivissa ja muissa kaulaa koskettavissa töissä kuin tiskirätissä, mutta tapa kannattaa opetella alussa.

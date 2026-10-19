@@ -1,6 +1,6 @@
 ---
 title: "Warum rollt sich mein Strickstück ein?"
-description: "Warum glatt rechts sich einrollt und was hilft: Randmuster, Spannen, geeignete Muster und Situationen, in denen Rollkanten gewollt sind."
+description: "Warum sich glatt rechts einrollt: Randbeispiel, geeignete Muster, Grenzen des Spannens und Möglichkeiten für bereits fertige Strickstücke erklärt."
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 4
@@ -14,124 +14,103 @@ tags:
 draft: false
 lang: de
 translationKey: "why-knitting-curls"
+updatedDate: 2026-10-18
 ---
 
-Glatt rechts rollt sich ein. Das ist kein Problem mit deiner Fadenspannung, kein Garnfehler und kein Zeichen, dass du etwas falsch machst. Es ist Physik.
+Glatt rechts rollt sich an freien Kanten von Natur aus ein. Das allein ist kein Zeichen dafür, dass du falsch strickst.
 
-Bei glatt rechts zeigen alle rechten Maschen zur einen Seite und alle linken Maschen zur anderen. Diese zwei Seiten sind nicht ausgewogen, deshalb ziehen die Kräfte in den Maschenschlingen den Stoff zur Rolle. In der Praxis rollt glatt rechts an Anschlag- und Abkettkante meist zur glatten rechten Seite und an den Seitenkanten zur linken, genoppten Seite.
+Das Garn bildet gebogene, ineinandergreifende Schlingen. Ihre dreidimensionale Form und ihr gegenseitiger Kontakt geben glatt rechts seine Rollneigung; es liegt nicht einfach an zu festem Stricken. [Textilversuche und Modellierung](https://arxiv.org/html/2410.13307v1) zeigen, dass die Maschengeometrie und die Maße des Stücks das Einrollen beeinflussen.
+
+Wenn die glatte Seite mit den V-förmigen Maschen zu dir zeigt, rollen Anschlag- und Abkettkante tendenziell zu dir, die Seitenkanten dagegen von dir weg zur Seite mit den linken Maschenbögen. Eine Richtung kann stärker auffallen als die andere. Gemeint ist hier das Einrollen freier Kanten, nicht ein schief verzogenes Stück, ein zusammenziehender Rand oder ein verdrehter Rundenanschluss.
 
 ## Was Einrollen nicht behebt
 
-Festere Fadenspannung macht den Stoff steifer und reduziert das Rollen etwas, aber es bleibt. Eine andere Nadelstärke verändert Dichte und Fall des Gestricks, verhindert das Einrollen aber nicht zuverlässig. Steifere Garne wie Baumwolle oder Leinen rollen weniger stark als elastische Garne wie Wolle, aber sie rollen trotzdem. Dampf kann das Stück vorübergehend flachlegen, aber außer bei Acryl, das mit Dampf dauerhaft verändert werden kann, kommt die Rollkante zurück, wenn der Stoff sich entspannt oder gewaschen wird.
+Eine andere Nadelstärke verändert die Maschenprobe und den Charakter des Gestricks, ist aber keine zuverlässige Lösung für die strukturelle Rollneigung. Stricke bei einem Nadelwechsel eine neue Probe und berechne die Maße anhand der neuen Maschenprobe. Weder festeres Stricken noch eine bestimmte Faser garantieren einen flacheren Rand.
 
-Nichts davon behebt die Struktur. Es verwaltet sie nur.
+## Superwash-Wolle rollt oft stärker?
 
-## Superwash-Wolle rollt oft stärker
-
-Superwash-Behandlung verringert, wie stark Wollfasern aneinanderhaften. Das hilft gegen Filzen und Einlaufen, aber manche Superwash-Garne entspannen sich, dehnen sich oder wachsen nach dem Waschen stärker als unbehandelte Wolle.
-
-Dadurch kann glatt rechts auf unstrukturierten Stücken schwerer zu bändigen sein. Das macht Superwash nicht schlecht; maschinenwaschbare Pflege ist bei vielen Projekten genau der Grund dafür. Es heißt nur, dass die Maschenprobe so gewaschen und getrocknet werden sollte wie das fertige Stück, bevor du dem Randverhalten vertraust.
+Die Bezeichnung Superwash sagt nicht voraus, wie stark sich ein bestimmtes glatt-rechts-Gestrick einrollt. Beurteile Garn und Konstruktion an einer Probe mit Rändern, die nach Herstellerangaben gewaschen und getrocknet wurde. Prüfe unbehandelte Wolle und andere Fasern genauso; übertrage das Verhalten eines Garns nicht pauschal auf ein anderes.
 
 ## Was wirklich hilft
 
 ### Randmuster
 
-Ein nicht rollendes Muster an den Kanten von glatt rechts ist die zuverlässigste Lösung. Der Rand muss breit genug sein, um dem Drang von glatt rechts zum Einrollen entgegenzuwirken.
+Ein Rand in kraus rechts oder Perlmuster ist eine praktische Möglichkeit, der Rollneigung entgegenzuwirken. Das glatt-rechts-Mittelfeld kann den Rand trotzdem mit einrollen oder umklappen. Teste deshalb die ganze Kombination, nicht nur das Randmuster für sich.
 
-Kraus rechts ist der häufigste Rand. Kraus rechts liegt flach, weil sich aus einer Blickrichtung rechte und linke Reihen abwechseln. Drei bis fünf Maschen an jeder Seitenkante und ein paar Reihen oben und unten reichen bei einem Schal oft. Schmale Stücke brauchen im Verhältnis breitere Ränder.
+Für einen kraus-rechts-Rand in Hin- und Rückreihen strickst du die Randmaschen in jeder Reihe rechts, auch in Rückreihen. Für einen Rahmen um ein Rechteck strickst du am Anfang und Ende über die ganze Breite kraus rechts und dazwischen an beiden Seiten. Von derselben Seite betrachtet wechseln rechte und linke Reihen; eine Krausrippe umfasst zwei Reihen.
 
-Perlmuster wechselt rechte und linke Maschen waagerecht und senkrecht ab. Bei einer ungeraden Maschenzahl arbeitest du in jeder Reihe 1 M rechts, 1 M links im Wechsel. Bei einer geraden Maschenzahl wechselst du eine Reihe 1 M rechts, 1 M links mit einer Reihe 1 M links, 1 M rechts ab. Allgemein strickst du die linken Maschen der Vorreihe rechts und die rechten Maschen links. Perlmuster ist beidseitig nutzbar, neigt deutlich weniger zum Einrollen als glatt rechts und eignet sich deshalb gut als strukturierter Rand. Es verbraucht mehr Garn als kraus rechts und braucht mehr Aufmerksamkeit. Rippenmuster, 1 M rechts, 1 M links oder 2 M rechts, 2 M links, ist der Standard für Pulloverbündchen und Ärmelbündchen. Flach, elastisch, haltend.
+Perlmuster wechselt rechte und linke Maschen waagerecht und senkrecht ab. Für eine separate Probe in Reihen mit ungerader Maschenzahl: In jeder Reihe (1 M rechts, 1 M links) bis zur letzten Masche wiederholen, 1 M rechts. Bei gerader Maschenzahl strickst du Reihe 1 durchgehend (1 M rechts, 1 M links), Reihe 2 durchgehend (1 M links, 1 M rechts); diese zwei Reihen wiederholen. Nach dem Wenden strickst du links erscheinende Maschen rechts und rechts erscheinende links. Führe den Faden zwischen den Nadelspitzen hindurch. Bei Perlmuster-Rändern zählst und verfolgst du das Muster in jedem Rand separat, nicht über das glatt-rechts-Mittelfeld hinweg.
 
-Der Rand ist kein Nachgedanke. Plane ihn von Anfang an ein. Einen Rand an ein fertiges Stück zu setzen bedeutet [Maschen aufzunehmen](/de/artikel/maschen-an-einer-strickkante-aufnehmen/). Das funktioniert, macht aber mehr Arbeit als ihn gleich mitzustricken.
+Rippenmuster wie 1 rechts, 1 links oder 2 rechts, 2 links eignet sich für Saum- und Ärmelbündchen. Es zieht sich in der Breite zusammen und dehnt sich beim Tragen. Berücksichtige seine eigene Maschenprobe und die fertigen Maße. Ein Rand verändert Aussehen und Abmessungen des Projekts.
+
+Plane Ränder möglichst vor dem Anschlag. An einem fertigen Stück kannst du [Maschen aufnehmen](/de/artikel/maschen-an-einer-strickkante-aufnehmen/) und einen Rand anstricken. Passe die Aufnahmeabstände an die Kantenrichtung und die Maschenprobe des Randmusters an; ein Verhältnis passt nicht überall. Zu viele Maschen können Wellen bilden, zu wenige ziehen den Rand zusammen. Prüfe ihn entspannt und passe die Zahl an. Ein angestrickter oder angehäkelter Rand ist eine Möglichkeit zum Ausprobieren, keine sichere Rettung für einen eng eingerollten Schal.
 
 ### Randbreite nach Garnstärke
 
-Die Garnstärke allein bestimmt weder, wie stark sich glatt rechts einrollt, noch wie breit der Rand sein muss. Auch Maschenstruktur, Maschenprobe, Faser- und Materialeigenschaften, Maße des Strickstücks und Randkonstruktion spielen eine Rolle. Ein dickerer oder dichterer Stoff kann manchmal weniger stark eingerollt wirken, ist aber keine verlässliche Regel.
+Die Garnstärke allein bestimmt nicht die nötige Randbreite. Maschenprobe, Muster, Garneigenschaften, Maße und der Übergang zum Mittelfeld spielen ebenfalls eine Rolle.
 
-**Grobe experimentelle Ausgangswerte, keine allgemeingültigen Vorgaben:**
+In [Jen Lucas' Anleitung für einen kraus-rechts-Rand](https://www.theknittingcircle.com/video/easy-borders-prevent-stockinette-stitch-curling-029719/) kommen an jeder Seite drei Maschen hinzu, insgesamt also sechs. Das ist ein Beispiel aus dieser Vorführung, kein Mindestwert für jeden Schal und keine Vorgabe für die Reihenzahl oben und unten.
 
-| Garnstärke       | Seitenrand je Kante | Oben/unten  |
-| ---------------- | ------------------- | ----------- |
-| Lace             | 10+ Maschen         | 10+ Reihen  |
-| Fingering / Sock | 8-10 Maschen        | 8-10 Reihen |
-| Sport / DK       | 6-8 Maschen         | 6-8 Reihen  |
-| Worsted          | 4-6 Maschen         | 4-6 Reihen  |
-| Aran / Bulky     | 3-4 Maschen         | 3-4 Reihen  |
-
-Teste den geplanten Rand an einer ausreichend großen Probe aus dem Projektgarn, gearbeitet mit der vorgesehenen Maschen- und Reihenprobe. Beurteile sie entspannt und noch einmal nach derselben Fertigstellung oder demselben Spannen, das für das Projekt vorgesehen ist. Diese Zahlen garantieren kein flaches Ergebnis.
+Teste den Rand an einer großzügigen Probe mit Projektgarn und geplanter Maschenprobe. Beurteile sie ohne Hilfsmittel flach liegend und erneut vollständig trocken nach der vom Hersteller erlaubten Pflege. Eine kleine, flach festgesteckte Probe garantiert nicht das Verhalten des ganzen Stücks. Ändere Breite oder Konstruktion, wenn der Rand mit dem Mittelfeld einrollt.
 
 ### Abgehobene Randmasche
 
-Eine abgehobene Randmasche macht eine saubere Kettenkante, stoppt das Einrollen aber nicht allein. Hebe am Reihenanfang die erste Masche wie zum Linksstricken mit dem Faden vorne ab und strick die letzte Masche normal.
+Eine abgehobene Randmasche ist ein Kantenabschluss, keine zuverlässige Lösung gegen Einrollen. Hebe beim Stricken in Reihen die erste Masche wie zum Linksstricken mit dem Faden vorne ab. Führe den Faden zwischen den Spitzen in die für die nächste Masche nötige Position, stricke das Mittelfeld im Muster und die letzte Masche in jeder Reihe rechts. So entsteht ein Kettrand mit länglichen Maschen.
 
-Das sieht ordentlicher aus und macht späteres Aufnehmen oder Zusammennähen leichter. Ein Schal ganz in glatt rechts braucht trotzdem kraus rechts, Perlmuster, Rippenmuster oder eine andere ausgleichende Fläche.
+Ersetze damit nicht ohne Anpassung die Maschen eines Randmusters. Der Kettrand verändert auch die Schlingen, die zum Zusammennähen oder Aufnehmen zur Verfügung stehen. Richte dich nach der vorgesehenen Ausarbeitungsmethode.
 
 ### Spannen
 
-[Nassspannen](/de/artikel/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche/) kann Einrollen reduzieren, besonders bei Wolle. Stück einweichen, flach feststecken, trocknen lassen. Der Stoff merkt sich die Form eine Weile. Durch Tragen und Waschen setzt sich die Rollneigung meist wieder durch.
+[Spannen](/de/artikel/strickstuecke-spannen-nass-mit-dampf-oder-spruehflasche/) hilft beim Formen, garantiert aber nicht, dass glatt rechts dauerhaft flach bleibt. Befeuchte, forme und trockne nur so, wie es der Garnhersteller erlaubt; Einweichen eignet sich nicht für jedes Garn. Ziehe das Stück nicht über die vorgesehenen Maße hinaus, nur um es flach zu zwingen.
 
-Spannen funktioniert am besten als Ergänzung zu einem Rand, nicht als Ersatz. Ein Schal in glatt rechts, der flach gespannt wurde, rollt sich nach ein paarmal Tragen wieder ein. Ein Schal in glatt rechts mit kraus-rechts-Rand, der flach gespannt wurde, bleibt flach.
+Beurteile das Gestrick vollständig trocken und ohne Stecknadeln oder andere Hilfsmittel. Beim Anfassen oder Waschen kann sich der Rand wieder einrollen. Prüfe auch einen Schal mit kraus-rechts-Rand: Rand und Spannen garantieren zusammen kein dauerhaft flaches Ergebnis.
 
 ### Acryl mit Dampf verändern
 
-Acryl ist Kunststoff und reagiert auf Hitze anders als Wolle. Starker Dampf kann Acryl dauerhaft entspannen. Das wird oft "Totdämpfen" genannt.
+Acryl ist hitzeempfindlich. Dampf kann Struktur und Rücksprungkraft dauerhaft verändern; das ist etwas anderes als das vorübergehende Formen eines nassen Stücks. Verwende das sogenannte Totdämpfen nicht als Standardlösung gegen Rollkanten.
 
-Das kann Rollkanten dauerhaft flacher machen, hat aber einen Preis: Der Stoff verliert Sprungkraft und kann schlaff fallen. Für Tücher oder Decken kann das gewünscht sein, für Bündchen oder Kleidungsstücke oft nicht.
-
-Wenn du Dampf verwendest, teste es zuerst an einer Maschenprobe. Stecke die Probe flach fest, halte Dampf oder Bügeleisen über den Stoff, ohne ihn zu berühren, und lass das Stück vollständig auskühlen, bevor du es löst. Hör auf, bevor die Oberfläche glänzend oder schlaff wird, außer genau das ist der gewünschte Effekt. Mischgarne können unvorhersehbar reagieren, und direkter Bügelkontakt kann die Faser beschädigen oder schmelzen.
+Beachte die Wärme- und Pflegehinweise des konkreten Garns, einschließlich eines Dampf- oder Bügelverbots. [Lion Brands Hinweise zum Spannen](https://support.lionbrand.com/support/solutions/articles/17000035400-what-is-blocking-and-how-do-i-do-it-) raten vom Dämpfen von Acryl ab. Eine Probe hebt ein Herstellerverbot nicht auf. Hier gibt es keine allgemeine Dampfanleitung für Acryl oder Mischgarne.
 
 ### Muster, die nicht rollen
 
-Wenn du flachen Stoff ohne Rand willst, wähl ein Muster, das rechte und linke Maschen auf beiden Seiten ausgleicht.
+Kraus rechts, Perlmuster und gewöhnliche Rippenmuster sind nützliche Alternativen zu einem durchgehend glatt rechten Stoff: Ihre Maschenanordnung wirkt dessen typischer Rollneigung entgegen. Kraus rechts hat waagerechte Rippen, Perlmuster versetzte Knötchen, und Rippenmuster zieht sich in der Breite zusammen.
 
-Kraus rechts: flach, waagerechte Rippen, beidseitig nutzbar. Perlmuster: flach, strukturierter. Rippenmuster: flach und zieht sich waagerecht zusammen. Korbmuster: wechselt Blöcke aus glatt rechts und glatt links, und die gegensätzlichen Blöcke heben das Rollen gegenseitig auf.
-
-Jedes Muster, das rechte und linke Maschen ungefähr ausbalanciert, rollt deutlich weniger. Glatt rechts und glatt links sind die häufigen Muster, die am stärksten rollen.
+Korbmuster verbindet Blöcke aus glatt rechts und glatt links. Gleich viele rechte und linke Maschen oder gegensätzliche Blöcke garantieren kein flaches Ergebnis. Auch Anordnung und Maße sind wichtig. Teste das gewählte Muster zusammen mit seinen Rändern.
 
 ## Glatt links rollt auch
 
-Glatt links ist keine Lösung für das Rollen von glatt rechts. Es ist dieselbe Struktur gespiegelt. Die Kanten rollen weiter, nur die sichtbare Seite wechselt.
+Bei glatt links ist die Seite mit den linken Maschenbögen die sichtbare Vorderseite. Es ist dasselbe Gestrick von der anderen Seite betrachtet; Umdrehen beseitigt das Einrollen nicht. Anschlag- und Abkettkante rollen weiterhin zur V-Maschenseite, die Seitenkanten zur Seite mit den linken Maschenbögen. Zeigen die linken Maschen zu dir, rollen obere und untere Kante also von dir weg und die Seitenkanten zu dir.
 
-Wenn glatt links die Vorderseite sein soll, plane den Rand genauso wie bei glatt rechts. Kraus rechts, Perlmuster, Rippenmuster oder eine spätere Naht halten das Stück in Form.
+Felder aus glatt rechts und glatt links verteilen diese Tendenzen unterschiedlich. Teste die gesamte Anordnung, statt davon auszugehen, dass sich die Felder gegenseitig ausgleichen.
 
 ## Steeks und glatt rechts in Runden
 
-Rund gestricktes glatt rechts wirkt einfacher, weil es keine Seitenkanten gibt. Der Stoff ist ein Schlauch. Mützen, Loops und Pulloverkörper können deshalb ohne Seitenrand gut aussehen.
+Glatt rechts in Runden bildet einen Schlauch ohne freie Seitenkanten. Anschlag- und Abkettkante können sich weiterhin einrollen. Plane ein Bündchen oder einen anderen Abschluss, wenn du keinen Rollrand möchtest. Kraus rechts in Runden braucht abwechselnd eine rechte und eine linke Runde; nur rechte Runden ergeben glatt rechts.
 
-Obere und untere Kanten rollen trotzdem, wenn sie nicht mit Bündchen, kraus rechts oder einem anderen Rand abgeschlossen werden.
-
-Bei Steeks kommt die Rollkante zurück. Ein Steek ist eine zusätzliche Maschensäule, die nach dem Stricken aufgeschnitten wird, etwa für eine Jacke. Die Sicherheit entsteht durch eine geplante Steek-Konstruktion und das Verhalten des Garns, nicht durch eine sofort angesetzte Blende. Wenn Faser oder Methode eine Verstärkung verlangen, verstärke den Steek vor dem Schneiden. Sichere und versäubere nach dem Schneiden die Steek-Zugaben oder Schnittkanten passend zur gewählten Methode. Eine aufgenommene Blende kann die fertige Schnittkante anschließend verdecken und zusätzlich stabilisieren.
+Ein Steek ist ein geplanter Bereich zusätzlicher Maschen, der zum Öffnen eines rund gestrickten Stücks aufgeschnitten wird, etwa bei einer Jacke. Dafür sind eine eigene Konstruktion und Sicherungsmethode nötig; ein Rand macht einen unvorbereiteten Schnitt nicht sicher. Folge einer vollständigen Steek-Anleitung, die zum Garn passt. Verstärke vor dem Schneiden, wenn die Methode es verlangt, und sichere und versäubere die Schnittkanten. [Tin Can Knits](https://blog.tincanknits.com/2014/09/18/steek/) zeigt, dass Blenden je nach Methode vor oder nach dem Schneiden gestrickt werden können. Das ist keine Abkürzung zum Reparieren eines fertigen, in Reihen gestrickten Schals.
 
 ## Wann Einrollen in Ordnung ist
 
-Nicht jedes Projekt braucht flache Kanten. Schals in glatt rechts rollen sich zu Röhren, und manche mögen genau das. Rollränder an Mützen und Halsausschnitten können ein bewusstes Designelement sein. Pulloverbündchen können für einen lässigen Look absichtlich rollen.
+Nicht jedes Projekt braucht flache Kanten. Schals in glatt rechts rollen sich zu Röhren, und manche mögen genau das. Rollränder an Mützen und Halsausschnitten können ein bewusstes Designelement sein. Pullover können für einen lässigen Look einen absichtlich rollenden Saum haben.
 
-Wenn du Teile strickst, die zusammengenäht werden, etwa Vorder- und Rückenteil, verschwinden die rollenden Kanten in den Nähten. Beim Stricken nervt es, im fertigen Kleidungsstück ist es versteckt.
-
-Stricken in Runden, etwa Mützen, Loops und Pulloverkörper, entfernt Seitenkanten ganz. Obere und untere Kante können weiter rollen, werden aber meistens mit Rippenmuster abgeschlossen.
+Wenn Teile zusammengenäht werden, sind die verbundenen Seitenkanten in der Naht gehalten. Das behebt keine Rollneigung an einer weiterhin freien Anschlag- oder Abkettkante. Plane diese separat, wie die obere und untere Kante eines rund gestrickten Schlauchs.
 
 ## FAQ
 
 **Behebt Spannen das Einrollen von glatt rechts dauerhaft?**
-
-Bei Wolle hält Spannen eine Weile, aber das Rollen kommt mit Tragen und Waschen allmählich zurück. Bei Acryl kann Dampf den Stoff dauerhaft entspannen, das sogenannte Totdämpfen, verändert aber den Griff. Bei Baumwolle ist die Wirkung meist wenig dauerhaft.
+Keine allgemeine Methode garantiert das. Beurteile das konkrete Garn nach erlaubter Pflege, vollständig trocken und ohne Hilfsmittel. Verwende keine Wärme entgegen den Herstellerangaben.
 
 **Wie breit muss ein kraus-rechts-Rand sein?**
-
-Bei einem Schal aus Worsted-Garn können 4-6 Maschen an jeder Seite und 4-6 Reihen oben und unten ein grober experimenteller Ausgangspunkt sein, keine Garantie. Die nötige Breite hängt von Projektgarn und Maschenprobe, Muster, Maßen des Strickstücks und Randkonstruktion ab. Teste sie an einer ausreichend großen Maschenprobe.
+Es gibt keine universelle Maschen- oder Reihenzahl. Teste den Rand mit dem glatt-rechts-Mittelfeld, dem Projektgarn und der geplanten Maschenprobe. Die drei Maschen je Seite in der verlinkten Vorführung sind ein konkretes Beispiel, keine Garantie für dein Stück.
 
 **Kann ich nachträglich einen Rand hinzufügen?**
-
-Ja. Nimm Maschen entlang der Kanten auf und strick einen Rand daran. Mehr Arbeit, aber es funktioniert. Eine gehäkelte Kante ist eine andere Option, die manche schneller finden.
+Ja, indem du Maschen aufnimmst und einen Rand anstrickst oder einen Rand anhäkelst. Passe die Aufnahmeabstände an Kante und Maschenprobe an, prüfe auf Wellen oder Zusammenziehen und berücksichtige die veränderten Maße. Das Mittelfeld kann den Rand weiterhin mit einrollen.
 
 **Beeinflusst die Garnstärke, wie stark glatt rechts rollt?**
-
-Die Garnstärke kann Dicke und Dichte des Gestricks beeinflussen, bestimmt das Einrollen aber nicht allein. Auch Maschenstruktur, Maschenprobe, Fasereigenschaften, Maße des Strickstücks und Randkonstruktion spielen eine Rolle.
+Die Garnstärke kann Dicke und Dichte beeinflussen, bestimmt das Einrollen aber nicht allein. Maschenstruktur, Maschenprobe, Garneigenschaften, Maße und Randkonstruktion spielen ebenfalls eine Rolle.
 
 **Warum liegt meine Maschenprobe flach, aber das fertige Stück rollt?**
-
-Eine kleine Maschenprobe zeigt möglicherweise nicht, wie sich ein Stück in voller Größe verhält, besonders wenn sie zum Messen festgesteckt, gedehnt oder anderweitig flachgehalten wurde. Nutze eine ausreichend große Maschenprobe, beurteile sie entspannt und prüfe sie nach derselben Fertigstellung oder demselben Spannen erneut, das für das Projekt vorgesehen ist.
+Eine kleine Probe zeigt nicht immer, wie sich das ganze Stück verhält, besonders wenn sie festgesteckt, gedehnt oder flachgehalten wurde. Verwende eine großzügige Probe, beurteile sie entspannt und nochmals nach der für das Projektgarn erlaubten Pflege.
 
 **Gibt es ein Garn, das in glatt rechts nicht rollt?**
-
-Nicht wirklich. Leinen kommt näher daran, weil es wenig Elastizität hat und dadurch weniger Rücksprung in der Struktur steckt. Baumwolle ist ähnlich, rollt aber trotzdem. Wolle und Wollmischungen rollen meist deutlicher.
+Ein Fasername allein garantiert nicht, dass glatt rechts flach liegt. Prüfe Garn, Maschenprobe und Konstruktion an einer Probe, statt Leinen, Baumwolle oder Wolle aufgrund dieser Annahme zu wählen.

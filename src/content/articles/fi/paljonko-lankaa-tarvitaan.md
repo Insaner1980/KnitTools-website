@@ -15,53 +15,45 @@ lang: fi
 translationKey: "how-much-yarn-do-i-need"
 ---
 
-Langan loppuminen kolme neljäsosaa projektin jälkeen on oma erityinen tappionsa. Värjäyserä on loppu. Kauppa on myynyt langan pois. Tai korvaava kerä näyttää kaupassa tarpeeksi samalta ja neulottuna alkuperäisen vieressä täysin väärältä. Kaksi senttiä ennen päättelyä koko työ pysähtyy. Tätä tapahtuu useammin kuin pitäisi, ja se on lähes aina vältettävissä.
+Langan loppuminen, kun kolme neljäsosaa työstä on valmiina, on erityisen turhauttavaa. Värjäyserä on loppu. Kauppa on myynyt langan pois. Tai korvaava kerä näyttää kaupassa tarpeeksi samalta ja neulottuna alkuperäisen vieressä täysin väärältä. Kaksi senttiä ennen päättelyä koko työ pysähtyy. Tätä tapahtuu useammin kuin pitäisi, ja huolellinen suunnittelu auttaa ehkäisemään sitä.
 
-Neuleprojektin langanmenekki riippuu neljästä asiasta: työn mitoista, lankavahvuudesta, mallineuleesta ja neuletiheydestä. Hyvä arvio ei ole arvailua. Se perustuu siihen, että nämä neljä lähtötietoa ovat kunnossa. Kun ne ovat oikein, arvio osuu yllättävän lähelle. Jos ohitat yhdenkin, pelaat riskillä.
+Langanmenekkiin vaikuttavat työn mitat, lankavahvuus, mallineule, neuletiheys ja rakenne. Aloita ohjeen menekistä valitsemallesi koolle ja tarkista, miten oma lanka tai ohjeeseen tekemäsi muutokset vaikuttavat arvioon.
 
 ## Nopeat menekkihaarukat projektityypin mukaan
 
 Joskus ennen ostamista tarvitset vain karkean käsityksen. Et tarkkaa laskua, vaan mittakaavan.
 
-Tavallinen aikuisen pipo worsted-vahvuisesta langasta mahtuu yleensä yhteen tai kahteen 100 gramman kerään. Noin 140-230 metriä koosta ja kaksinkertaisesta reunasta riippuen. Huivit liikkuvat muutamissa sadoissa metreissä, mutta leveys ja pituus muuttavat lukua nopeasti. Kapea fingering-huivi ja leveä paksu kauluri ovat aivan eri maailmoissa, vaikka molemmat ovat "huiveja".
+Julkaistu taulukko auttaa hahmottamaan ostomäärää alustavasti. Esimerkiksi [Lion Brandin menekkitaulukossa](https://www.lionbrand.com/pages/how-much-yarn-do-i-need) Medium-luokan pipolle annetaan 200–225 jaardia eli noin 183–206 m. Rivillä ei ilmoiteta valmiita mittoja, neuletiheyttä tai mallineuletta, joten määrä ei ole kaikkien aikuisten pipojen ostosohje. Huiviin, paitaan tai peittoon kannattaa etsiä ohje, jonka mitat ja rakenne vastaavat suunniteltua työtä.
 
-Aikuisten villapaidat ovat usein yli tuhannen metrin projekteja. Istuva DK-pusero voi tarvita yli 1 350 metriä. Väljä palmikkoneuletakki worsted-langasta voi mennä yli 1 800 metrin. Peitot nousevat tuhansiin metreihin nopeasti, ja täysikokoinen sängynpeitto voi syödä 2 700 metriä tai enemmän.
-
-Tämä on mittakaavaa, ei tarkkuutta. Palmikkopipo tarvitsee enemmän lankaa kuin sileä pipo. Lyhyt paita ja tunikamittainen paita eivät ole samassa naapurustossa. Voimakkaasti pintaneuleinen peitto kuluttaa enemmän kuin sileä suorakaide.
-
-Projektikohtaiseen arvioon KnitToolsin [lankamuunnin](/fi/tyokalut/lankamuunnin/) käyttää työn tyyppiä, kokoa ja lankavahvuutta pelkkien keskiarvojen sijaan.
+[Langanmenekkilaskuri](/fi/tyokalut/lankamuunnin/) — Nimettyjen ohjeiden vertailumäärät, ei henkilökohtainen menekkiennuste. Valitse työ, nimetyn ohjeen koko ja yksikkö. Tulos on kyseisen ohjeen vertailumäärä, ei oman työsi menekkiennuste.
 
 ## Miten lankavahvuus muuttaa menekkiä
 
-Ohuempi lanka tarkoittaa enemmän silmukoita 10 cm matkalla. Enemmän silmukoita samalla leveydellä tarkoittaa enemmän silmukoita yhteensä. Enemmän silmukoita tarkoittaa yleensä enemmän metrejä. Tähän asti suoraviivaista.
+Lankavahvuus tarkoittaa langan paksuutta, ei painoa grammoina. Ohuempi lanka ja tiheämpi neule muuttavat sekä silmukkamäärää että yhden silmukan kuluttamaa pituutta. Pelkkä vahvuus ei kerro kokonaismenekkiä. Lue vyötteestä juuri valitsemasi langan pituus ja paino. Kahdessa 100 g:n kerässä voi olla eri metrimäärä, eikä sama metrimäärä takaa samanlaista neulepintaa.
 
-Mutta kerät eivät sisällä samaa määrää lankaa. Fingering-vahvuinen lanka pakkaa 100 grammaan paljon enemmän metrejä kuin worsted. Fingering-paita voi tarvita enemmän metrejä mutta suunnilleen saman kokonaispainon lankaa. 100 gramman fingering-kerässä voi olla 365 metriä. 100 gramman bulky-kerässä voi olla 100 metriä. Sama paino vaa'alla, täysin eri pituus.
-
-Siksi metrit ovat ratkaiseva luku, ei "montako kerää". Kaksi 100 gramman kerää voi sisältää hyvin eri pituisen langan kuidusta ja merkistä riippuen. Silkki pakkautuu eri tavalla kuin villa. Yksisäikeinen lanka käyttäytyy eri tavalla kuin kerrattu lanka. Jos et ole varma, mihin vahvuusluokkaan lanka kuuluu, [lankavahvuustaulukko](/fi/tyokalut/lankavahvuudet/) auttaa hahmottamaan eron.
+Erota toisistaan työn tarvitsema kokonaispituus, langan paino ja ostettavien kerien määrä. [Lankavahvuustaulukko](/fi/tyokalut/lankavahvuudet/) selittää vahvuusluokkia; luokalla ei ole yhtä kiinteää metrimäärää kerää kohti.
 
 ## Laskeminen neuletiheyden perusteella
 
-Tarkin arvio alkaa oikeasta mallitilkusta.
+Työtä vastaava mallitilkku auttaa tarkistamaan neuletiheyden ja mittaamaan menekkiä. Pelkkä neuletiheys kertoo silmukka- ja kerrosmäärät, ei yhden silmukan kuluttamia metrejä.
 
-Neuletiheys kertoo, montako silmukkaa ja kerrosta mahtuu tiettyyn mittaan. Projektin mitat kertovat, paljonko neulepintaa teet. Kun nämä yhdistetään, pääset paljon lähemmäs todellista silmukkamäärää kuin millään yleissäännöllä.
+Kuvitteellisessa suorakaiteessa neuletiheys on 18 silmukkaa ja 24 kerrosta / 10 cm, leveys 50 cm ja pituus 62,5 cm. Leveyteen tulee 50 × 18 / 10 = 90 silmukkaa ja korkeuteen 62,5 × 24 / 10 = 150 kerrosta: yhteensä 90 × 150 = 13 500 silmukkaa. Laskussa ei ole muotoiluja, reunuksia tai viimeistelyä, eikä se kuvaa koko paidan menekkiä.
 
-Käytännössä näin: mallitilkku antaa 18 silmukkaa ja 24 kerrosta 10 cm matkalla. Villapaidan etukappale on 50 cm leveä ja 62,5 cm pitkä. Se on 90 silmukkaa leveä ja 150 kerrosta korkea. Kerrottuna se tekee 13 500 silmukkaa pelkkään etukappaleeseen. Kun tiedät tai arvioit, paljonko lankaa yksi silmukka vie, kokonaismenekki muuttuu laskuksi eikä arvaukseksi.
+Pinta-alaan perustuvaa arviota varten neulo tilkku työn langalla, puikoilla ja mallineuleella sekä samalla tavalla tasona tai suljettuna. Pese ja kuivaa kuten valmis työ ja odota, että tilkku on kokonaan kuiva. Mittaa juuri se pinta-ala, jonka langan punnitset tai mittaat: koko reunuksellisen tilkun painoa ei saa jakaa pelkän keskiosan mittausalalla. Käsittele erilaiset reunukset ja irralliset langanpäät erikseen. Vaa'an on oltava riittävän tarkka näytteelle; pienen tilkun punnitseminen kokonaisgrammoina voi aiheuttaa suuren suhteellisen virheen.
 
-Tätä ei tarvitse laskea käsin. [Lankamuunnin](/fi/tyokalut/lankamuunnin/) tekee arvion nopeammin ja vähemmällä virheriskillä kuin muistilapun reunaan tehty lasku.
+Kaava on: mitatun näytteen langanmenekki × suunnitellun neulepinnan pinta-ala / näytteen pinta-ala. [Rita Buchananin pinta-alamenetelmä](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf) kuvaa periaatteen. Arvioi muotoillut kappaleet ja eri mallineuleosuudet erikseen. Huomioi myös saumat, reunat ja mallitilkkuihin käytetty lanka. Pinta-alan skaalaaminen ei takaa vaatteen kokonaismenekkiä.
 
-Mittakaava kannattaa silti ymmärtää. Jos laskuri väittää, että sängynpeittoon riittää 400 metriä, jokin on pielessä. Tuhansia metrejä? Ainakin uskottavaa. Tällainen järkitarkistus paljastaa syöttövirheet ennen kuin ostat langat.
-
-Jo karkea mallitilkku vie lähemmäs oikeaa vastausta kuin mallitilkun ohittaminen kokonaan. Neulo tilkku illalla, viimeistele se yön yli ja mittaa aamulla. Ei suuri aika verrattuna siihen varmuuteen, jonka se antaa.
+[Langanmenekkilaskuri](/fi/tyokalut/lankamuunnin/) — Nimettyjen ohjeiden vertailumäärät, ei henkilökohtainen menekkiennuste. Valitse työ, nimetyn ohjeen koko ja yksikkö. Tulos on kyseisen ohjeen vertailumäärä, ei oman työsi menekkiennuste.
 
 ## Osittaisten kerien punnitseminen
 
 Jos lankavarastossa on vajaita keriä, keittiövaaka on paras ystävä.
 
-Tarvitset vyötteestä kaksi lukua: täyden kerän painon ja täyden kerän metrit. Jos 100 gramman kerässä on 200 metriä ja jäljellä oleva kerä painaa 63 grammaa, siinä on noin 126 metriä. Jaa jäljellä oleva paino täydellä painolla ja kerro kokonaismetreillä.
+Käytä juuri kyseisen langan vyötetietoja ja punnitse vain kuiva lanka ilman vyötettä tai pahvihylsyä. Kuvitteellisessa esimerkissä 100 g:n kerässä on 200 m ja jäljellä oleva lanka painaa 63 g: 63 / 100 × 200 = 126 m. Tulos on vyötteen suhteeseen perustuva arvio, ei mittaus käytettävissä olevasta pituudesta.
 
-Gramman tarkkuudella mittaava keittiövaaka toimii. Henkilövaaka ei. Tarvitset grammoja, et lähintä puolta kiloa.
+Tarkista vaa'an lukematarkkuus ja mittaustarkkuus suhteessa punnittavaan määrään. Gramman välein näyttävä vaaka voi riittää suurehkoon jämäkerään, mutta pienelle tilkulle tai langanlopulle se voi olla liian karkea. Vyötteen pyöristetyt luvut ja vaa'an lukema eivät ole täsmällisiä mittauksia.
 
-Sama keino toimii kesken projektin. Neulo yksi osa, punnitse jäljellä oleva lanka ja tarkista, näyttääkö määrä edelleen järkevältä loppua varten. Jos viimeinen kerä on menossa eikä hiha ole valmis, punnitus kertoo oletko aikataulussa vai ongelmissa. Osa neulojista punnitsee jokaisen ison osion jälkeen silloin, kun langan riittävyys on tiukalla. Osa punnitsee vasta, kun kerä alkaa tuntua uhkaavan kevyeltä.
+Kesken työn punnitseminen kertoo jäljellä olevan langan määrän. Vertaa sitä keskeneräisten osien erikseen arvioituun menekkiin. Pelkkä paino ei ennusta seuraavan hihan tai reunuksen kulutusta.
 
 Jos vyöte on hukassa mutta tiedät langan nimen, metrit löytyvät usein valmistajan sivuilta tai Ravelrystä. Ilman mitään vyötetietoa pelkkä paino ei auta paljon, koska tarvitset sekä painon että pituuden.
 
@@ -69,56 +61,46 @@ Tämä toimii hyvin myös jämälankojen arviointiin. Pipot, lapaset, raidat ja 
 
 ## Mikä kuluttaa ylimääräistä lankaa
 
-Jotkin rakenteet käyttävät hiljaa enemmän lankaa kuin sileä neule. Tässä arviot menevät helposti pieleen.
+**Palmikot ja pintaneuleet.** Mittaa käytettävän mallineuleen menekki sen sijaan, että lisäisit kaikille palmikoille saman prosenttivaran. Sileä tilkku ei edusta samankokoista palmikko- tai joustinneuleosuutta.
 
-**Palmikot** ovat iso tekijä. Jokainen palmikonkierto vetää lankaa sivusuunnassa, koska silmukat kulkevat ristiin eivätkä nouse suoraan ylös. Mitä leveämpi palmikko, sitä enemmän lanka liikkuu. Yksinkertainen 4 silmukan palmikko lisää vähän. 12 silmukan punospalmikko lisää paljon enemmän. Runsaspalmikkoinen aran-paita voi tarvita 20-30 % enemmän lankaa kuin samankokoinen sileä paita.
+**Monivärinen neule.** Käytä ohjeen värikohtaisia määriä tai mittaa jokaisen värin kulutus työtä vastaavasta mallikerrasta. Kirjoneuleen langanjuoksut kuluttavat lankaa myös nurjalla, joten näkyvien värialueiden pinta-ala ei yksin riitä. Intarsiassa kullakin värialueella on oma lankansa; huomioi liitokset ja pääteltävät langanpäät. Muunna jokaisen värin tarve kokonaisiksi keriksi erikseen.
 
-Kirjoneuleessa langat kulkevat nurjalla puolella, ja langanjuoksut lisäävät menekkiä tavalla, jota kaaviosta ei heti näe. Pääväriä kuluu usein enemmän kuin arvaa. Kontrastivärit katoavat kirjoneuleosuuksissa yllättävän nopeasti. Myös juoksujen pituus vaikuttaa. Juoksujen sitominen 3-4 silmukan välein käyttää hieman enemmän lankaa kuin pitkien juoksujen jättäminen, mutta neulepinta käyttäytyy paremmin.
+Jos neulot kaksinkertaisella langalla, tarkista, ilmoittaako ohje kummankin langan menekin erikseen vai niiden yhteismäärän. Molemmat langat kulkevat neulottavan osuuden läpi. Älä puolita yhden langan pituutta kahdelle langalle äläkä kaksinkertaista määrää, joka jo sisältää molemmat.
 
-Intarsia on eri asia, koska jokaisella värialueella on oma lankansa eikä pitkiä langanjuoksuja kulje taustalla. Monivärisessä työssä arvioi ensin kokonaismenekki ja jaa se vasta sen jälkeen sen mukaan, kuinka suuren pinta-alan kukin väri oikeasti peittää.
-
-Joustin vetää neulepintaa sisäänpäin. Tiiviit pintaneuleet lisäävät myös lankaa per leveys. Jos koko työ on joustinta tai vahvaa pintaneuletta, sileään neuleeseen perustuva arvio aliarvioi menekin.
-
-**Long-tail cast on** tarvitsee enemmän häntää kuin luulet. Varsinkin isoissa, yli 200 silmukan aloituksissa häntä voi viedä yllättävän paljon lankaa. Jos häntä loppuu kesken, aloitat alusta.
-
-Saumatkin käyttävät lankaa. Ei valtavasti, mutta se unohtuu helposti.
+**Ristikkäin luominen, saumat ja langanpäät.** Huomioi nämä sekä mallitilkut ja viimeistely. Tarkista, mitä ohjeen menekki jo sisältää, ennen lisävaran laskemista.
 
 ## "Osta yksi ylimääräinen" -sääntö
 
-Osta yksi ylimääräinen kerä, jos lankaa on saatavilla ja budjetti sallii. Siinä sääntö.
-
-Arvio pääsee lähelle. Se ei näe tulevaisuuteen. Ylimääräinen kerä on halpa vakuutus verrattuna siihen, että olet muutaman metrin vajaa lopussa. Monet kaupat ottavat avaamattomia keriä takaisin kohtuullisen ajan sisällä. Jos eivät ota, yksi varakerä on silti hyödyllisempi kuin puolikkaan hihan takia pysähtynyt projekti.
+Yksi ylimääräinen kerä ei ole yleissääntö: sopiva vara riippuu kerän metrimäärästä, työstä ja muutoksista. Arvioi mallitilkkujen, viimeistelyn ja epävarmuuden vaatima vara ja pyöristä kokonaismäärä ylöspäin täysiin keriin. Tarkista ohjeeseen jo sisältyvä vara, jotta et lisää samaa varaa kahdesti. Osta mahdollisuuksien mukaan samaa värjäyserää; [Lion Brand selittää erien värierot](https://support.lionbrand.com/support/solutions/articles/17000035215-what-are-dye-lots-can-i-order-more-of-the-same-lot-). Tarkista kaupan palautusehdot ennen kuin luotat palautusmahdollisuuteen.
 
 Tämä on erityisen tärkeää käsinvärjätyissä, pienerissä tai poistuvissa langoissa, joihin sopivaa kerää ei myöhemmin ehkä löydy.
 
 ## Arvio ohjeesta vs. oma suunnitelma
 
-Julkaistut ohjeet ilmoittavat langanmenekin. Aloita siitä. Se on yleensä paras lähtökohta, varsinkin jos suunnittelija antaa valmiit mitat ja neuletiheyden selvästi.
+Aloita ohjeen menekistä valitsemallesi koolle ja tarkista valmiit mitat sekä neuletiheys. Määrä voidaan ilmoittaa metreinä, jaardeina, grammoina tai kerinä. Grammat ja kerät edellyttävät ohjeessa nimetyn langan vyötetietoja.
 
-Ohjeen menekillä on silti rajat. Se olettaa, että teet juuri listatun koon, samankaltaisella langalla ja suunnittelijan neuletiheydellä. Muuta yhtäkin näistä, ja luku muuttuu.
+Kun [korvaat langan](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/), muunna alkuperäinen määrä ensin pituudeksi. [DROPSin laskuesimerkissä](https://www.garnstudio.com/lesson.php?id=14&cid=11) tarvitaan 300 g lankaa, jonka juoksevuus on 170 m / 50 g: 300 / 50 × 170 = 1 020 m. Korvaavan langan juoksevuudella 150 m / 50 g tarvitaan 1 020 / 150 = 6,8 kerää eli ylöspäin pyöristettynä 7 kerää. Se on 350 g ja 1 050 m. Lähtömäärä 300 g kuuluu esimerkkiin, ei ole yleinen paidan menekki. Pyöristyksestä jäävä 30 m ei automaattisesti riitä lisävaraksi.
 
-Jos suunnittelet itse tai muutat ohjetta paljon, ohjeen langanmenekki ei enää riitä. Lisäpituus vartaloon, suurempi koko, eri mallineule tai vaihto toiseen lankavahvuuteen siirtää kokonaismäärää. Noin 7-8 cm lisäys worsted-villapaidan vartaloon voi helposti lisätä 90-180 metriä.
+Pidä pituusyksiköt samoina. [NISTin määritelmän mukaan 1 jaardi on täsmälleen 0,9144 m](https://www.nist.gov/pml/owm/si-units-length). Muunna jaardit metreiksi kertomalla luvulla 0,9144 ja metrit jaardeiksi jakamalla samalla luvulla. Säilytä pyöristämätön pituus kerälaskuun asti ja pyöristä kerämäärä lopuksi ylöspäin.
 
-Kun [korvaat langan](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/), täsmää kokonaismetrit äläkä kerämäärää. Ohjeen "8 kerää" auttaa vain, jos käytät samaa lankaa. Jos vaihdat lankaan, jossa on eri metrimäärä per kerä, kerien määrä menettää merkityksensä. Täsmää metrit. Tarkista sitten lankavahvuus ja [neulo mallitilkku](/fi/artikkelit/neuletiheyden-mittaaminen/).
-
-Tässä [lankamuunnin](/fi/tyokalut/lankamuunnin/) on hyödyllinen, olitpa tarkistamassa ohjeen lukua omalla neuletiheydelläsi tai rakentamassa arviota alusta.
+Sama pituus on lähtökohta, ei tae korvaavan langan samanlaisesta käyttäytymisestä. [Tarkista neuletiheys mallitilkusta](/fi/artikkelit/neuletiheyden-mittaaminen/) ja arvioi valmis neulepinta. Arvioi lisäpituus, muotoilumuutokset ja eri mallineuleosuudet niitä vastaavista näytteistä. Muutama lisäsentti ei tarkoita kaikissa paidoissa samaa lisämenekkiä.
 
 ## FAQ
 
 **Voiko langanmenekin arvioida ilman mallitilkkua?**
-Karkeat projektityypin haarukat toimivat ostosreissun suunnitteluun. Istuviin töihin tee mallitilkku ensin.
+Ohjeen menekki valitsemallesi koolle antaa lähtökohdan. Tarkista neuletiheys ja neulepinta ennen määrään luottamista, erityisesti istuvissa vaatteissa. Yleinen projektikohtainen vaihteluväli ei vahvista ostomäärää.
 
 **Mitä jos samaa värjäyserää ei löydy?**
-Vuorottele keriä kahden kerroksen välein. Väriero jakautuu tasaisesti ja muuttuu lähes huomaamattomaksi.
+Vertaa lankoja päivänvalossa ja pestyssä tilkussa. Kerien vuorottelu voi häivyttää vaihtumiskohtaa, mutta ei takaa sävyjen yhteensopivuutta. Päätä ennen jatkamista, onko näkyvä ero hyväksyttävä.
 
 **Miten arvioin raidat?**
-Laske kokonaismenekki ja jaa se suhteessa siihen, montako kerrosta kukin väri kattaa. Lisää pieni varmuusvara jokaiseen värinvaihtoon.
+Kerrosmäärien suhdetta voi käyttää vain, kun kerrosten leveydet, langat, neuletiheys ja mallineule vastaavat toisiaan. Arvioi muotoillut osuudet ja eri langat erikseen. Huomioi mukana kuljetettu lanka tai pääteltävät päät ja pyöristä kunkin värin ostomäärä erikseen ylöspäin.
 
 **Vaikuttaako kuitusisältö siihen, paljonko lankaa tarvitaan?**
-Ei suoraan. Mutta esimerkiksi superwash-merino voi kasvaa viimeistelyssä, mikä voi muuttaa neuletiheyttä ja sitä kautta arviota.
+Kuitu ja langan rakenne vaikuttavat neulepintaan ja pesussa tapahtuviin muutoksiin. Tarkista vyötteen pituus ja käsitelty mallitilkku. Kuidulle ei ole yhtä yleistä menekkikerrointa.
 
 **Mikä on pahin projekti, jossa lanka loppuu kesken?**
-Kaikki, missä on ainutlaatuinen värjäyserä, jota ei voi korvata. Erityisesti käsinvärjätyt langat. Osta varakerä.
+Työ, jonka värjäyserää ei voi täydentää, on hankala pelastaa. Suunnittele koko menekki ja työn mukainen vara ennen ostamista sen sijaan, että olettaisit yhden varakerän aina riittävän.
 
 **Voinko yhdistää eri projektien jämälankoja?**
-Voit, jos vahvuus ja hoito-ohjeet sopivat yhteen. Punnitse jokainen jämäkerä, jotta tiedät millä määrällä työskentelet.
+Tarkista hoito-ohjeet sekä neulo ja pese langat yhdessä neuletiheyden, neulepinnan ja värinpäästön arvioimiseksi. Punnitse kukin tunnistettu lanka erikseen ja käytä sen omia vyötetietoja pituusarvioon.

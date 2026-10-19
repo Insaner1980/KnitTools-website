@@ -2,6 +2,7 @@
 title: "Garenvezels: wol, katoen, acryl en mengsels"
 description: "Hoe wol, katoen, acryl en mengsels zich anders gedragen in breiwerk. Over warmte, valling, slijtvastheid, verzorging, blocken en geschikte projecten."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 8
 tags:
@@ -16,94 +17,88 @@ lang: nl
 translationKey: "yarn-fibers-compared"
 ---
 
-Brei hetzelfde kabelproeflapje in wol en katoen, leg ze naast elkaar, en ze lijken uit twee verschillende patronen te komen. De wollen versie veert. Kabels komen omhoog. De katoenen versie hangt iets door, valt platter en laat elke steek bijna ongemakkelijk eerlijk zien. Dezelfde naald, dezelfde handen, hetzelfde aantal steken. Een compleet andere stof.
+Brei hetzelfde kabelproeflapje in wol en katoen en vergelijk ze na wassen en drogen volgens hun labels. Een veerkrachtig wolgaren kan ronde kabels geven, een glad katoengaren een platter oppervlak met duidelijke steken. Dezelfde naalden en hetzelfde aantal steken garanderen niet dezelfde stekenverhouding of hetzelfde breisel. Dit zijn eigenschappen om te onderzoeken, geen vaste uitkomsten van de vezelnaam.
 
-Dat verschil is niet cosmetisch. Vezelsamenstelling bepaalt hoe een project in je handen voelt tijdens het breien, hoe het blockt, hoe het maanden en jaren draagt, en of het zijn vorm houdt of langzaam toegeeft aan de zwaartekracht. Wol geeft elasticiteit en blockmogelijkheden, katoen geeft valling en wasbaarheid, acryl geeft betaalbaarheid en makkelijk onderhoud. Het label op een bol is geen kleine lettertjes. Het is de nuttigste informatie over wat dat garen echt gaat doen.
+De vezelsamenstelling beïnvloedt het gevoel, het blocken en de slijtage. Maar ook vezelfijnheid en -lengte, garenconstructie, twist, mengsel, behandeling, stekenverhouding en steekpatroon tellen mee. Lees het label en beoordeel valling, terugveren na rekken en onderhoud met een proeflapje. Rekbaarheid is iets anders dan terugveren: breiwerk kan rekken zonder helemaal naar de oorspronkelijke maten terug te keren.
 
 ## Wol
 
-Wol is de vezel waarmee alles wordt vergeleken, en dat is terecht. Het is warm, elastisch, vergevingsgezind bij ongelijke spanning en het reageert op blocken zoals bijna niets anders in breien.
+Wol is een bruikbaar vertrekpunt voor warm, veerkrachtig breiwerk. De natuurlijke kroezing en het elastische herstel van de vezel dragen bij aan de veerkracht van veel wolgarens.
 
-Die elasticiteit is het belangrijkst. Wol rekt tijdens het breien en veert daarna terug. Boord blijft strak. Kabels houden hun sculpturale diepte. Tricotsteek krijgt een prettige, levendige hand die terugveert nadat je de stof samenknijpt. Die veer in de vezel maakt wol ook zo meewerkend bij nat blocken. Week een wollen stuk, speld het uit, laat het drogen, en de stof ziet er vaak uit als een ander (beter) project. De [blockgids](/nl/artikelen/breiwerk-blocken-nat-stoom-spray/) behandelt de methode per vezel. Ajour opent spectaculair. Steken trekken gelijk. De verandering kan de eerste keren echt verbazend zijn.
+Die veerkracht maakt wol het proberen waard voor boordsteek en kabels met reliëf. Nat blocken kan steken egaliseren en ajour openen, als het wasvoorschrift dat toestaat. Leg het werk op de bedoelde maten en laat het volledig drogen. Reken er niet op dat blocken een ongeschikte stekenverhouding herstelt of een nieuwe vorm door alle latere wasbeurten behoudt. De [blockgids](/nl/artikelen/breiwerk-blocken-nat-stoom-spray/) legt de methoden uit; volg de garenfabrikant als de instructies verschillen.
 
-Wol isoleert in koel en vochtig weer beter dan bijna alles. Er is een reden dat wol zo vaak wordt gebruikt voor buitenkleding en winteraccessoires, en die reden is geen nostalgie.
+Wolvezels nemen waterdamp op, en de lucht in een volumineus breisel helpt isoleren. Dat maakt wol bruikbaar bij koel weer, maar warmte en comfort hangen ook af van dikte, constructie, hoe nat het kledingstuk is en de gebruiksomstandigheden. Vochtopname garandeert geen droge huid.
 
-De nadelen tellen wel. Niet-superwash-wol vilt door warmte, vocht en wrijving. Dat is voor sommige projecten handig en voor andere rampzalig. En "wol" omvat een enorme spreiding in zachtheid. Sommige rassen geven garen dat prima op blote huid kan. Andere horen alleen in bovenkleding, tenzij de drager graag ongemak heeft. Merino zit meestal aan de zachte kant, en veel breiers die gewone wol niet verdragen vinden merino prima. Maar gevoeligheid is persoonlijk. De enige betrouwbare test is dragen.
+Onbehandelde wol kan vervilten wanneer beweging in water de vezelschubben in elkaar laat haken; warmte kan dat proces bevorderen. Vervilten verdicht het breisel en kan blijvende krimp veroorzaken. Zachtheid is een andere kwestie. Vezelfijnheid en uitstekende grove vezeluiteinden beïnvloeden het prikkelende gevoel. Fijne merino is een optie voor zacht breiwerk, maar de vezelnaam garandeert geen prettig huidcontact. Beoordeel het gewassen proeflapje.
 
-Superwash-wol lost het viltprobleem op met een chemische behandeling, en voor machinewasbare kleding is dat echt praktisch. De keerzijde is dat superwash vaak gladder voelt op de naalden en na het wassen kan groeien op manieren waarop onbehandelde wol dat niet doet. Proeflapjes zijn belangrijker bij superwash, niet minder.
+Een superwashbehandeling vermindert viltkrimp door de vezelschubben te veranderen of te bedekken. Dat staat niet automatisch elk machineprogramma of de wasdroger toe. Volg de was- en drooginstructies van het specifieke garen. Zowel behandeld als onbehandeld breiwerk kan van maat veranderen wanneer de steken zich ontspannen in de was. Meet daarom het droge proeflapje.
 
-Voor structuur, kleurwerk en alles wat vorm nodig heeft, is wol de sterkste keuze. Niet de enige keuze. Wel de sterkste.
+Voor structuurpatronen, kleurwerk en projecten die veerkracht nodig hebben, is wol een praktische eerste keuze. Controleer de steekdefinitie en het terugveren met het gekozen garen en de bedoelde stekenverhouding.
 
 ## Katoen
 
-Katoen is in bijna alles wat telt het tegenovergestelde van wol, en begrijpen waar het goed in is betekent ook begrijpen wat het mist.
+Katoen biedt een ander vertrekpunt: een absorberende plantenvezel die het overwegen waard is voor washandjes en zomertops.
 
-Het heeft heel weinig natuurlijke elasticiteit vergeleken met wol. Het garen rekt niet veel en veert niet sterk terug tijdens het breien, waardoor onregelmatige spanning zichtbaar blijft in de afgewerkte stof. Ervaren, gelijkmatige breiers houden van katoen omdat de steekdefinitie messcherp is. Minder ervaren breiers vinden het soms genadeloos.
+Katoenvezels veren minder goed terug na rekken dan wol. Katoenen breiwerk kan toch rekken doordat de lussen bewegen, zonder daarna volledig naar dezelfde maat terug te keren. Een glad katoengaren kan steken en een onregelmatige draadspanning duidelijk laten zien. Ook twist, oppervlaktestructuur en stekenverhouding bepalen de steekdefinitie.
 
-Het gewicht en de valling zijn waar katoen uitblinkt of faalt, afhankelijk van het project. Een katoenen top valt mooi met soepel gewicht. Een katoenen trui kan langzaam langer worden tot de verhoudingen niet meer kloppen. Er is minder elastisch geheugen dat tegen de zwaartekracht in werkt.
+Valling is een eigenschap van het afgewerkte breisel. Een soepele katoenen top kan mooi vallen, terwijl een zware, losgebreide trui door zijn eigen gewicht langer kan worden. Dat is niet onvermijdelijk: constructie, stekenverhouding, kledinggewicht en onderhoud beïnvloeden de uitkomst.
 
-Katoen blocken is niet echt blocken zoals bij wol. De stof kan gladgestreken, gestoomd en in vorm gelegd worden. Maar hij houdt geen drastisch nieuwe vorm vast zoals wol dat doet. Wat van de naalden komt, blijft er ongeveer zo uitzien.
+Ook katoen kun je blocken: was en droog het proeflapje volgens het voorschrift, leg het zonder forceren in vorm en meet opnieuw zodra het droog is. Katoenen breiwerk kan krimpen of van vorm veranderen in de was. Gebruik alleen stoom of een strijkijzer als het label dat toestaat.
 
-Praktisch gezien kunnen veel katoengarens goed tegen regelmatig wassen als het label dat toestaat. Katoen is sterk in dagelijks gebruik. Voor vaatdoekjes, markttassen, babyspullen die vaak gewassen moeten worden en zomertops ligt katoen voor de hand. Gemerceriseerd katoen heeft een glad, licht glanzend oppervlak. Ongemerceriseerd katoen begint matter en ruwer, maar wordt zachter door gebruik en herhaald wassen.
+Katoen is het overwegen waard voor vaatdoekjes, boodschappennetten, vaak gewassen babyspullen en zomertops wanneer het onderhoud bij het gebruik past. Merceriseren verhoogt de glans, maar bepaalt niet alleen de zachtheid. Ongemerceriseerd katoen is meestal matter, niet noodzakelijk ruwer. Wassen garandeert geen bepaalde verandering in gevoel.
 
-Lange breisessies met katoen kunnen zwaarder zijn voor je handen. Omdat het garen niet meegeeft, komt de herhalende beweging directer in vingers en polsen terecht. Het is het vermelden waard, want sommige breiers worden erdoor verrast.
-
-Voor valling, wasbaarheid en warm-weer-kleding wint katoen duidelijk van wol. Voor structuur, terugveren en blockmogelijkheden komt het niet in de buurt.
+Kies katoen voor absorptie en een breisel dat bij zomergebruik past; een veerkrachtig wolgaren wanneer terugveren belangrijk is. Geen van beide vezels wint elke vergelijking van valling, slijtvastheid of wasbaarheid.
 
 ## Acryl
 
 Acryl krijgt veel minachting die het niet helemaal verdient. Het wordt op sommige plekken ook overschat. De waarheid zit in het midden, aan de praktische kant.
 
-Het is betaalbaar, breed verkrijgbaar, meestal makkelijk te onderhouden en houdt wol buiten het project. Voor babydekens die vaak gewassen moeten worden, voor goede-doelen-breien waar budget telt, en voor iedereen die wolvrij garen nodig heeft, kan acryl een goede keuze zijn in plaats van alleen een tweede keus.
+Acryl is een synthetische vezel die in veel budgetgarens wordt gebruikt. Een geschikt acrylgaren is een praktische optie voor vaak gewassen babydekens, breiwerk voor goede doelen met een beperkt budget of wolvrije projecten. Controleer de werkelijke prijs, het gevoel en het wasvoorschrift van het garen.
 
-Het blockt niet zoals wol. Het kan pillen. Het kan minder ademend aanvoelen op de huid. Te veel warmte kan het blijvend beschadigen (een strijkijzer of agressief stoomblocken kan de vezel smelten). Als synthetische, op aardolie gebaseerde vezel kan het tijdens het wassen ook plastic microvezels loslaten.
+Acrylvezels nemen weinig vocht op, maar dat bepaalt niet alleen de luchtdoorlatendheid van het breisel of hoe droog het op de huid voelt. Acryl kan pillen. Warmte kan de vorm vastzetten of vervormen en het garen beschadigen; stoomblocken is niet hetzelfde als nat blocken. Controleer het label voordat je warmte gebruikt. Bij het wassen van acryltextiel kunnen plastic microvezels vrijkomen. De hoeveelheid hangt af van het textiel en de wasomstandigheden; dit feit alleen vormt geen volledige milieuvergelijking van vezels.
 
-Acryl gebruiken in plaats van wol in een patroon kan technisch meestal wel, maar de stof gedraagt zich anders. Voor dekens en veel accessoires maakt dat verschil weinig uit. Voor aansluitende kleding, ajour of ontwerpen met veel structuur: maak een proeflapje en wees eerlijk of de stof doet wat het patroon nodig heeft.
+Wol vervangen door acryl vraagt zowel een geschikte stekenverhouding als een geschikt breisel. Controleer voor een deken valling, gewicht en onderhoud. Controleer voor aansluitende kleding, ajour en structuurpatronen ook het terugveren en de zichtbaarheid van het patroon na wassen en drogen.
 
 ## Andere vezels die je moet kennen
 
-**Alpaca** is zacht, warm en valt soepeler dan wol. De warmte is echt, waardoor het sterk is voor accessoires in koud weer. Maar kledingstukken van pure alpaca kunnen groeien door de tijd, omdat de vezel minder elastisch geheugen heeft dan veel wolsoorten. Een trui van pure alpaca die goed past na het blocken kan na dragen merkbaar uitrekken. Mengen met wol kan veer toevoegen en de stof helpen zijn vorm te houden. Pure alpaca werkt het best in sjaals, cols en omslagdoeken waar wat langer worden niet erg is.
+**Alpaca** is het proberen waard voor warme sjaals, cols en omslagdoeken met een zachte valling. Fijnheid, kroezing en garenconstructie variëren: alpaca is niet altijd zachter, warmer of minder veerkrachtig dan elke wolsoort. Let voor een trui vooral op valling en maatverandering van het gewassen proeflapje. Een wol/alpacamengsel is een andere optie om te proberen, geen garantie tegen uitrekken.
 
-**Zijde** voegt glans, sterkte en valling toe. Het wordt zelden puur gebruikt in breigaren omdat het duur is en glad kan voelen op de naalden. Als onderdeel van een mengsel verandert zijde garen wel duidelijk. Een bescheiden aandeel zijde geeft wol zichtbare glans en een gladdere hand zonder het garen puur draperend te maken. Zijde voegt ook treksterkte toe, daarom zie je het vaak in lace-garens die bij heel fijne stekenverhoudingen heel moeten blijven. Nadeel: zijde kan watervlekken krijgen en veert niet terug na rekken zoals wol.
+**Zijde** staat bekend om glans, treksterkte en valling. Dat zijn redenen om zijde te overwegen voor omslagdoeken en kantgarens, ook gemengd met wol. Het resultaat hangt af van de soort zijde en de garenconstructie, niet alleen van het aandeel. Sommige zijden stoffen krijgen watervlekken; volg het wasvoorschrift van het garen. Sterkte betekent niet dat het breisel terugveert zoals wol.
 
-**Linnen** is sterk, koel om te dragen en wordt vaak zachter door dragen en wassen. De eerste bol voelt stug, soms bijna knisperig. Dat is normaal. Na herhaald wassen wordt de stof zachter en meer ontspannen. Linnen is een sterke keuze voor zomertops en breien voor warme klimaten, omdat het koel aanvoelt en vocht afvoert in plaats van warmte vast te houden. Het blockt niet zoals wol, en het gebrek aan elasticiteit kan lang breien vermoeiend maken. Maar een goed gedragen linnen kledingstuk heeft een valling en hand die weinig andere vezels precies nadoen.
+**Linnen** is een sterke, absorberende plantenvezel met weinig elastisch herstel. Het past bij zomertops wanneer het proeflapje het koele gevoel en de valling geeft die je zoekt. Sommige linnengarens voelen eerst stug en worden zachter door wassen en dragen, maar een vast aantal wasbeurten garandeert geen zachtheid. Was en vorm het proeflapje volgens het label: weinig vezelrek betekent niet dat het breisel niet van maat kan veranderen.
 
-**Mohair en kid mohair** geven halo, die pluizige waas rond de steken. Meestal wordt het samen met een tweede draad gehouden (zijde is de klassieke combinatie) in plaats van alleen op een dikkere stekenverhouding gebreid. Het halo-effect is iets wat geen andere vezel overtuigend nadoet. Kid mohair is zachter en fijner. Gewone mohair kan kriebeliger voelen op de huid. Beide laten vezels los op alles in de buurt.
+**Mohair en kid mohair** worden in geborstelde garens gebruikt voor de pluizige waas rond de steken. Mohair komt van angorageiten; kid mohair komt van jonge geiten en is meestal fijner. Zachtheid en vezelverlies hangen toch af van vezelkwaliteit en constructie. Een mohair/zijdemengsel is al één garen; het samenbreien met een afzonderlijk garen is een andere keuze. Je kunt het ook alleen breien als patroon en proeflapje daarvoor geschikt zijn. De pluizige waas is niet uniek voor mohair.
 
-**Nylon** speelt zelden de hoofdrol. Het zit in mengsels voor slijtvastheid, en daarom zie je het in veel commerciële sokkengarens. Een klein percentage, vaak rond 10-25%, kan de levensduur van plekken met veel slijtage verlengen zonder dat het garen in je handen heel anders voelt.
+**Nylon**, op labels ook polyamide genoemd, wordt in veel sokkengarens gebruikt voor slijtvastheid. Het aandeel alleen voorspelt de levensduur niet: ook twist, breidichtheid, pasvorm en gebruik tellen mee.
 
 ## Mengsels: echte problemen oplossen
 
-Mengsels bestaan omdat pure vezels voorspelbare zwakke plekken hebben, en mengen vult die aan.
+Mengsels combineren vezels om bepaalde eigenschappen te bereiken, maar krijgen niet automatisch alle voordelen van elk bestanddeel.
 
-Wol/nylon is het klassieke sokkenmengsel. Wol geeft warmte en elasticiteit. Nylon geeft slijtvastheid voor hielen en tenen. Je kunt sokken zonder nylon breien, maar dit mengsel pakt een veelvoorkomend slijtageprobleem aan.
+Wol/nylon is een vertrouwd sokkenmengsel. Wol draagt bij aan veerkracht en isolatie, nylon wordt toegevoegd voor slijtvastheid. Het is een nuttige optie voor hielen en tenen die aan wrijving blootstaan, geen garantie tegen gaten. Sokken kun je ook zonder nylon breien.
 
-Merino/zijde voegt valling en glans toe aan een wollen basis zonder veel structuur op te offeren. Katoen/acryl maakt de stof lichter en de verzorging eenvoudiger dan bij puur katoen. Wol/alpaca houdt meer structuur dan pure alpaca en krijgt toch zachtheid.
+Probeer merino/zijde voor glans en valling, wol/alpaca voor de balans tussen zachtheid en veerkracht. Vergelijk bij katoen/acryl het werkelijke gewicht en onderhoud van het breisel. De mengselnaam bewijst niet dat het garen lichter, zachter, makkelijker te wassen of vormvaster is dan een garen van één vezel.
 
-Bij een mengsel telt de verhouding. Een garen met 90/10 merino/zijde is merino met een subtiele glans. Een 50/50-mengsel gedraagt zich als een echte middenweg tussen beide vezels. Kleine percentages sturen bij. Grote percentages veranderen het garen.
+Een denkbeeldig label met 90% merino / 10% zijde beschrijft gewichtspercentages. 50% / 50% betekent gelijke vezelgewichten, geen middenweg voor elke eigenschap. Geen van beide verhoudingen voorspelt de mate van glans, terugveren of valling. Beoordeel het garen zonder een kwaliteitsgrens te koppelen aan een bepaald aandeel luxevezel.
 
-Let op: sommige mengsels zijn gekozen om marketingredenen in plaats van functionele redenen. Een mengsel met 3% kasjmier kan meer een signaal op het label zijn dan een echte verandering in handgevoel. Bij heel kleine percentages luxevezel kun je het garen beter behandelen als de dominante vezel en de rest zien als bonus als je die al merkt.
-
-Ook goed om te weten: mengsels kunnen onvoorspelbaar reageren op blocken. Een wol/katoen-mengsel reageert misschien niet op nat blocken zoals pure wol, omdat het katoendeel niet mee van vorm verandert. Maak een proeflapje en block dat proeflapje. Het garen vertelt je wat het wil doen.
+Een wol/katoenmengsel vraagt een eigen proeflapje en controle van het wasvoorschrift. Was en droog het zoals je het afgewerkte project wilt behandelen. Beoordeel daarna maten, oppervlak, valling en terugveren. Geen van beide vezels bepaalt de uitkomst alleen.
 
 ## Vezel kiezen voor je project
 
 Drie vragen snijden door de meeste keuzestress heen.
 
-Hoe wordt het gewassen? Als het project regelmatig in de machine moet, begin dan bij garens waarvan het label dat toestaat. Dat zijn vaak superwash-wol, acryl, katoen en bepaalde mengsels. Handwas zet meer opties open. Als de ontvanger niet met de hand gaat wassen (en de meeste niet-breiers doen dat niet), plan daar dan naar.
+Hoe wordt het gewassen? Als regelmatige machinewas noodzakelijk is, begin dan met garens waarvan het label het benodigde programma en de droogmethode toestaat. Ga na hoe de ontvanger het werk daadwerkelijk wil onderhouden. Noch de vezelnaam noch de superwashvermelding vervangt de onderhoudsinstructies.
 
-Wat heeft het project structureel nodig? Kabels en structuurbewerkingen willen elasticiteit. Dat betekent wol of een mengsel met veel wol. Valling en vloeiende beweging willen katoen, zijde of linnen. Halo wil mohair. Slijtvastheid op plekken met veel wrijving wil nylon in het mengsel.
+Wat heeft het project structureel nodig? Probeer voor veerkrachtige boorden en kabels met reliëf eerst wol of een wolrijk mengsel. Probeer voor soepele valling een geschikt katoen-, zijde- of linnengaren bij de stekenverhouding van het patroon. Overweeg geborstelde mohair voor een pluizig oppervlak en een nylonmengsel voor sokken met veel wrijving. Het zijn vertrekpunten, geen verplichte bestanddelen.
 
-Voor welk klimaat is het? Wol en alpaca isoleren. Katoen en linnen ademen en blijven koeler. Acryl kan warmte geven, maar veel acrylstoffen voelen minder ademend op de huid dan wol, katoen of linnen.
+Voor welk klimaat is het? Luchtige breisels van wol of alpaca zijn een bruikbaar vertrekpunt voor warmte, lichtere katoenen of linnen breisels voor zomergebruik. Acryl kan ook warmte geven. Dikte en de openheid van het steekpatroon beïnvloeden isolatie en luchtstroming. Vergelijk afgewerkte proeflapjes in plaats van ademend vermogen te rangschikken op vezelnaam.
 
 De antwoorden wijzen niet altijd naar een enkele vezel. Maar ze sluiten meestal meerdere opties uit.
 
 ## Een paar punten die vaak terugkomen
 
-Ben je nieuw met breien en kies je je eerste garen, dan beperkt de [beginnersgids voor garen](/nl/artikelen/beste-garen-voor-beginners/) de opties. Vezelsamenstelling beïnvloedt hoeveel garen je nodig hebt, indirect. Verschillende vezels stoppen verschillende meters in hetzelfde bolgewicht, en daarom kan schatten op grammen alleen je project tekort laten komen. De [Garenberekenaar](/nl/breitools/garenberekenaar/) van KnitTools geeft een globale planningscheck op basis van projecttype, maat en garendikte, maar houdt geen rekening met vezelsamenstelling.
-
-Over slijtvastheid, een vraag die steeds terugkomt: nylon is de belangrijkste versterker in breigaren. Daarom zit het in veel sokkenmengsels. Linnen is ook opvallend sterk onder de plantaardige vezels, al krijgt het daar minder aandacht voor.
+Als je je eerste garen kiest, helpt de [beginnersgids voor garen](/nl/artikelen/beste-garen-voor-beginners/) je de opties te beperken. Vezel en garenconstructie beïnvloeden de looplengte bij een bepaald bolgewicht; grammen alleen vervangen dus niet de meters op het label. [Garenberekenaar](/nl/breitools/garenberekenaar/) — Referentiehoeveelheden uit benoemde patronen, geen persoonlijke verbruiksvoorspelling. Kies een project, een maat uit een benoemd patroon en een eenheid. Het resultaat is de referentiehoeveelheid van dat patroon, geen voorspelling voor je eigen project.
 
 Katoen en wol kunnen prima samen in een voorraad (en in een breileven) bestaan. Het idee dat een breier een kamp moet kiezen is vreemd. Ze doen totaal verschillende dingen. Een winterjas en een zomershirt bezitten is niet tegenstrijdig. Breien met beide vezels ook niet; je pakt gewoon wat bij het project past.
 
-En als niets hierboven genoeg richting geeft: maak een proeflapje. Niet omdat het leuk is (dat is het vaak niet), maar omdat tien gram garen en een uur breien meer over een vezel laten zien dan welk artikel ook.
+Als de keuze nog openstaat, brei dan een proeflapje in het bedoelde steekpatroon en behandel het met de geplande onderhoudsmethode. Laat het volledig drogen en beoordeel zowel stekenverhouding als gevoel. De benodigde hoeveelheid garen en tijd hangen af van het lapje; een klein proeflapje bewijst niet hoe een volledig kledingstuk jarenlang zal slijten.

@@ -1,98 +1,93 @@
 ---
 title: "Så organiserar du flera pågående stickprojekt"
-description: "Hantera flera stickprojekt samtidigt utan att tappa bort stickor, garn eller var du är i mönstret. Praktiska system som fungerar."
+description: "Ordna dina stickprojekt med tydliga mönsteranteckningar, färdiga varv och garnuppgifter. Praktiska tips för förvaring och för att återuppta ett pausat arbete."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 3
 tags:
   [
     "organisera stickprojekt",
     "WIP-hantering",
-    "stickprojekt tracker",
+    "följa stickprojekt",
     "följa stickningens framsteg",
     "flera projekt",
-    "sticktid tracker",
+    "sticktid",
   ]
 draft: false
 lang: sv
 translationKey: "organize-knitting-projects"
 ---
 
-De flesta stickare har mer än ett projekt igång samtidigt. En avancerad tröja för kvällar när du kan koncentrera dig. En enkel socka för pendlingen. En rätstickad filt som går av sig själv framför tv:n. Olika projekt passar olika humör och olika mycket ork. Det är helt normalt.
+Du kan ha flera stickprojekt igång samtidigt: en avancerad tröja för lugna kvällar, en socka för resan och en enkel rätstickad filt framför tv:n. Olika arbeten kan passa olika stunder.
 
-Problemet börjar när "några projekt" tyst blir sju, och du inte längre minns vilken stickstorlek som sitter i den halvfärdiga mössan, vilket varv du slutade på i koftan eller om du redan köpte det andra nystanet till halskragen. WIP-hantering handlar inte om att begränsa hur många projekt du får ha. Det handlar om att kunna plocka upp vilket som helst av dem utan att lägga tio minuter på att lista ut var du var.
+Det blir besvärligt när du inte minns stickstorleken i den halvfärdiga mössan, nästa varv i koftan eller om det andra nystanet till halskragen redan är köpt. WIP står för work in progress, ett pågående arbete. Att organisera projekten handlar om att spara det du behöver för att fortsätta, inte om ett bestämt maxantal.
 
 ## Vad du behöver hitta tillbaka till när du tar upp ett projekt
 
-**Var du slutade.** Varvnummer, var i rapporten du är, vilken del av mönstret du stickar. Det här är den information som är dyrast att återskapa. På ett slätstickat framstycke kan du räkna varv i arbetet. I en flätpanel eller ett spetsdiagram kan en tappad plats betyda att du måste repa upp till en säker punkt. [Guiden om varvräkning](/sv/artiklar/halla-koll-pa-varv-nar-du-stickar/) går igenom metoderna mer utförligt.
+**Mönster och storlek.** Skriv upp mönstrets namn, designer, källa och version eller datum samt vald storlek. Markera storlekens siffror i din arbetskopia. Om du följer olika storlekar i olika delar, anteckna det för varje del. Spara rättelser med kopian och kontrollera vad som ändrats i en ny version innan du för över dina anteckningar.
 
-**Vad som finns i projektpåsen.** Stickstorlek, garnets namn och färg, hur många nystan som återstår. Ta fram ett projekt efter en månad i en låda och banderollen har lossnat från nystanet. Då sitter du där och försöker identifiera mystiskt beige DK-garn, vilket snabbt blir tröttsamt. Spara banderollerna med projektet, eller skriv upp uppgifterna någonstans där du kommer åt dem. Den enklaste varianten: tejpa fast en banderoll på insidan av projektpåsen med färgbadsnumret synligt.
+**Var du slutade.** Ange del och avsnitt, senast helt färdiga varv, var räkningen börjar, position i rapporten och nästa moment. Anteckna ett påbörjat varv separat. Exempel: ”Vänster ärm, 47 varv runt färdiga efter mudden; nästa: varv 48, rapportvarv 8.” Det förutsätter en åttavarvsrapport som börjar på varv 1 utan inledande varv. Håll isär uppgifterna för varje ärm eller socka och för samtidiga formningar. En räknarsiffra ger inte hela sammanhanget. [Guiden om varvräkning](/sv/artiklar/halla-koll-pa-varv-nar-du-stickar/) går igenom metoderna mer utförligt.
 
-**Vad du har bestämt.** Ändringar, storleksjusteringar, anteckningar du gjort medan du stickade. "Lägger till 5 cm på bålen" är självklart när du bestämde det i går. Det är osynligt när du tar upp projektet igen om tre veckor. Samma sak gäller stickstorleksbyten mitt i projektet, varvet där du skarvade nytt garn för att kunna fästa ändar snyggt senare och ställen där du avvek från diagrammet.
+**Vad som finns i projektpåsen.** Anteckna stickornas diameter i mm, typ och längd. För rundstickor: ange om längden inkluderar spetsarna. Skriv upp maskor och varv per mätsträcka, vilket stickmönster du använde och om stickfastheten mättes före eller efter tvätt/blockning och torkning. Håll resultaten åtskilda. Spara banderollerna och garnuppgifterna nedan.
 
-**Var arbetsgarnet är.** Mer exakt: kommer garnet från nystanets mitt eller utsida, och vilket nystan i ordningen är aktivt? Det spelar roll när du växlar mellan två färgbad, lägger in en kontrastfärg på ett visst varv eller har delat ett nystan för matchande ärmar och behöver veta vilken halva som hör till vilken sida.
+**Vad du har bestämt.** Skriv ner ändringar och var de börjar, även byten av stickstorlek. ”Lägg till 5 cm på bålen före ärmhålsformningen” säger mer än ett löst längdmått. Skilj redan gjorda ändringar från planerade. Foton kan komplettera anteckningar men ersätter inte skrivna mått eller ändringar.
+
+**Var arbetsgarnet är.** Notera vid behov om garnet kommer från nystanets mitt eller utsida och vilket nystan som används. Det är användbart när du växlar mellan färgbad, lägger till kontrastgarn eller delar garn mellan ärmarna.
 
 ## Fysisk organisering
 
-En påse per projekt. Det är hela systemet. Projektet, stickorna, mönstret, garnet som är kvar och eventuella anteckningar bor tillsammans. Byt projekt, ta en annan påse. Inget blandas ihop.
+En påse per projekt är ett enkelt alternativ. Förvara arbetet, stickorna, mönsterkopian och anteckningarna tillsammans. Extranystan till större arbeten kan ligga separat, märkta med projektnamn och garnuppgifter. Markera att de är reserverade så att samma garn inte planeras till två projekt.
 
-Själva förvaringen spelar mindre roll. Ett fodral med dragkedja, en projektpåse med dragsko, en zip-påse för små projekt. Det viktiga är att varje projekt är självförsörjande.
+Välj en förvaring som rymmer arbetet och kontrollera sömmar, stängning och lösa tillbehör som garnet kan fastna i. Materialet ensamt avgör inte hur väl påsen skyddar. Följ garnets skötselråd vid förvaring i stället för att anta att en påse passar alla fibrer.
 
-För större projekt som använder flera nystan: ha det aktiva nystanet tillsammans med projektet och förvara extragarnet separat men märkt. En bit maskeringstejp med projektnamnet löser problemet med sex gräddvita DK-nystan från tre olika märken i garnlagret och ingen aning om vilket som hör till vad.
-
-Projektpåsens material har också praktisk betydelse. Lätta tygpåsar är trevliga att hantera, men skyddar begränsat mot att maskor fastnar, ludd eller små tillbehör som hamnar löst. Plastfickor med dragkedja eller påsar med nätfönster skyddar bättre och låter dig se innehållet utan att öppna. Större projekt behöver utrymme. Ärmar och halvfärdiga ok mår inte bra av att pressas ner i en påse i sockstorlek.
+Säkra de öppna maskorna innan du lägger undan arbetet. Om du tar bort utbytbara stickspetsar kan maskorna ligga kvar på en passande kabel med ändstoppar, eller flyttas till en lämplig maskhållare. Anteckna spetsarnas storlek och var de ligger.
 
 ## Hålla koll på var du slutade
 
-Papperslappar fungerar om du är disciplinerad nog att uppdatera dem. Skriv aktuellt varvnummer på en klisterlapp, sätt den på mönstret och uppdatera när du slutar. Problemet: efter ett bra stickpass kräver det en vana att skriva en notering innan du lägger ifrån dig stickorna, och den vanan kommer inte naturligt för de flesta.
+Både papper och digitala anteckningar behöver uppdateras. Skriv upp det senast färdiga varvet och nästa moment när du slutar. Om räknaren visar färdiga varv ökar du den först när hela varvet är klart. Ett påbörjat varv behöver en egen notering.
 
-En projekttracker för stickning i mobilen sköter det mer pålitligt. Digitala trackers sparar varvräkningen, registrerar när du senast arbetade på ett projekt och visar alla aktiva projekt i en lista. I stället för att rota i påsar ser du allt direkt: Flätkofta, varv 47, senast stickad tisdag. Enkla sockor, hälvändning, senast stickade för en vecka sedan.
+En app kan vara praktisk, men kontrollera vad just den registrerar. Datumet för ett stickpass är inte en exakt plats i mönstret, och en app känner inte till ändringar du inte har skrivit in. Lokal lagring, export av en kopia, säkerhetskopiering och återställning, synkronisering mellan enheter och delning av ett projekt är olika funktioner.
 
-[KnitTools-appen](/sv/verktyg/#join) byggs för att hålla varvräkning, passhistorik, projektanteckningar och garnuppgifter på ett ställe. Målet är enkelt: öppna projektet och komma tillbaka till arbetsläget utan att rekonstruera allt ur minnet.
+KnitTools utvecklas för Android med projekträknare, passhistorik och projektanteckningar. Du matar själv in antal och anteckningar. Att skapa nya projektanteckningar kräver Pro; befintliga anteckningar går fortfarande att använda efteråt. Garnuppgifter kan skrivas in manuellt i anteckningar. Det innebär inte separata fält för varje uppgift eller automatisk avräkning av garn. [Anmäl dig för besked om KnitTools lansering](/sv/verktyg/#join).
 
 ## Bestämma vad du ska sticka på
 
-Flera WIP blir stressande när du får dåligt samvete för dem du inte rör. Några sätt som hjälper:
+Välj det som passar din vardag. Förslagen är alternativ, inte regler för hur mycket du ska få gjort.
 
-**Ett huvudprojekt, ett bärbart, ett tankefritt.** Tre aktiva kategorier håller antalet hanterbart men ger dig ändå val. Huvudprojektet får fokustid. Det bärbara projektet följer med. Det tankefria projektet fyller stunder när du vill sticka men inte tänka. Allt annat står i kö, inte på den aktiva listan.
+**Ett huvudprojekt, ett för resan, ett enkelt.** Du kan ha ett krävande arbete, ett att ta med och ett lättare arbete igång. Tre kategorier är ett förslag, inte en gräns.
 
-**Rotationsschema.** Vik vissa pass åt vissa projekt. Vardagskvällar är för tröjan, helger för sjalen. Det hindrar mönstret där handen alltid går till det enklaste projektet medan det mer krävande blir liggande.
+**Rotationsschema.** Prova att avsätta vardagskvällar för tröjan och helger för sjalen. Ändra upplägget när det inte längre passar.
 
-**Delmål.** "Sticka klart oket innan jag börjar på något nytt" motiverar mer än "jag borde sticka på tröjan". Konkreta mål ger dig något att sikta på. Att följa tid per projekt kan också visa mönster. Om något inte har blivit rört på tre veckor kan det vara dags att antingen bestämma sig för det eller kalla det vad det är.
+**Delmål.** ”Sticka klart oket innan jag börjar på något nytt” är ett möjligt mål. Ett arbete som ofta blir liggande kan du fortsätta med, pausa medvetet eller repa upp.
 
-**Matcha projektet med stunden.** Flätmönster och spetsdiagram behöver uppmärksamhet, så de passar en lugn kväll hemma. Släta sockvarv fungerar på tåget, i väntrummet eller under ett telefonsamtal. När projektet passar tiden du faktiskt har gör du framsteg, i stället för att ta fram fel påse och lägga tillbaka den fem minuter senare för att rummet är för rörigt för ett diagram.
+**Matcha projektet med stunden.** Du kanske sparar flätdiagrammet till en lugn kväll och tar enkla sockvarv på resan. Välj efter den uppmärksamhet du har tillgänglig.
 
-## När ett WIP blir ett UFO
+## Pausa eller avsluta ett projekt
 
-Ett WIP är ett projekt du tänker återvända till. Ett UFO är ett projekt du har övergett men ännu inte erkänt för dig själv.
+En lång paus betyder inte i sig att du har övergett arbetet. Uppdatera anteckningarna, säkra maskorna och märk det reserverade garnet innan du lägger undan det. Kontrollera mönster, storlek, material och stoppunkt mot själva stickningen när du återvänder.
 
-Tecken: du minns inte vilken storlek du stickade. Mönstret är borta eller du hittar inte rätt sida. Garnet har delvis lånats till något annat. Säsongen det var tänkt för har passerat två gånger.
-
-Det är helt okej att överge projekt. Repa upp dem, ta tillbaka garnet och stickorna, ta bort dem från den aktiva listan. Fem projekt med tydlig avsikt är lättare att hantera än fem projekt plus tre dåligt-samvete-projekt längst bak i garderoben.
+Du får också välja att inte sticka klart. Om du repar upp, kontrollera garnets skick och mängd innan du använder det till något annat. Uppdatera projektlistan och garnanteckningarna. När ett arbete är färdigt kan du notera slutliga ändringar och garnrester innan du arkiverar anteckningarna.
 
 ## Hålla koll på garn mellan projekt
 
-När du har flera projekt igång trasslar garnlogistiken lätt ihop sig. Vilka projekt använder samma garntjocklek? Räcker det som är kvar på nystanet till att avsluta den andra sockan? Har du redan köpt kontrastfärgen till oket?
+Notera märke och garnnamn, fiberinnehåll, färgnamn eller färgnummer, färgbad, löplängd per nystan och nystanets vikt. Det är olika uppgifter: samma färgnummer betyder inte samma färgbad, och samma garntjocklek betyder inte samma garn.
 
-Att hålla koll på garn per projekt, hur mycket du började med och hur mycket som finns kvar, förhindrar de två värsta scenarierna: att garnet tar slut mitt i ett projekt med ett utgånget färgbad, och att du köper dubbletter för att du glömt vad du redan hade.
+Skilj på inköpt mängd, reserverad mängd och det som faktiskt finns kvar. Reserverat garn ingår i lagret och ska inte läggas till en gång till. Ändra reservationen när garn flyttas mellan projekt. Anteckningarna kan stödja inköpsplaneringen men garanterar inte att garnet räcker eller att du undviker dubbelköp.
 
-Ett bra knep för aktiva projekt: väg garnet som är kvar med några pass mellanrum och skriv upp gramantalet med datum. Om den första ärmen använde 47 g vet du ungefär vad den andra ärmen behöver, plus lite marginal. "Jag tror att det räcker" blir en mer konkret kontroll i planeringen.
-
-Skriv ner garninformationen medan banderollen fortfarande finns: garntjocklek, fiberinnehåll, tvättråd och färgbad. [KnitTools-appen](/sv/verktyg/#join) byggs för att hålla sådana anteckningar med rätt projekt, i stället för att de blir en lös lapp längst ner i projektpåsen.
+Du kan väga ett påbörjat nystan utan banderoll eller behållare och notera gram och datum. Anta exempelvis att första ärmen använde 47 g. Det ger en utgångspunkt för en likadan andra ärm i samma garn och med samma stickfasthet. Ta hänsyn till ändringar, montering och mätosäkerhet; 47 g kvar är ingen garanti för att det räcker.
 
 ## Minsta möjliga system
 
-Minst: en påse per projekt. En anteckning i varje påse, eller en digital tracker, med aktuellt varvnummer och eventuella ändringar. En lista någonstans, i mobilen, en anteckningsbok eller på en whiteboard, över alla aktiva projekt så att du ser helheten.
-
-Det räcker för att kunna ta upp vilket projekt som helst utan förvirring och märka innan antalet WIP börjar dra iväg.
+Håll varje projekts material identifierbart och anteckna mönster, storlek, senast färdiga varv, rapportposition, ändringar och nästa moment. Ha en lista över aktiva och pausade arbeten. Lägg till stick-, stickfasthets- och garnuppgifter som annars skulle behöva rekonstrueras.
 
 ## FAQ
 
 **Hur många projekt är för många?**
-Det finns inget universellt antal. Om valmöjligheterna gör dig mer överväldigad än sugen har du för många. En fungerande aktiv lista är liten nog för att varje projekt fortfarande får riktig uppmärksamhet.
+Det finns inget universellt antal. Om listan känns svår att hantera kan du pausa några arbeten eller förenkla anteckningarna. Alla projekt behöver inte få lika mycket tid.
 
 **Borde jag sticka klart ett projekt innan jag börjar på nästa?**
-Strikt projektmonogami fungerar för vissa stickare. De flesta märker att flera projekt fyller ett verkligt behov. Olika sammanhang och energinivåer vill ha olika stickning. Nyckeln är att ha ett system för att hantera dem, inte att ta bort dem.
+Båda sätten kan passa. Ett arbete håller den aktiva listan kort, flera ger olika sorters stickning att välja på. Välj det som fungerar praktiskt för dig.
 
 **Hur tar jag upp ett projekt jag inte rört på flera månader?**
-Ta reda på var du är: räkna varv, läs stickningen, kontrollera anteckningar. Om du har en digital tracker berättar varvräkningen och passhistoriken när du slutade och var. Sticka några varv långsamt för att hitta tillbaka till stickfastheten och mönstret innan du ökar tempot. Om mönstret är komplicerat, läs om den relevanta delen i stället för att börja från första sidan.
+Kontrollera mönsterversion, storlek, ändringar, stickor och garn. Jämför anteckningar och räknarställning med stickningen. Hitta senast färdiga varv och ett eventuellt påbörjat varv, och bekräfta nästa instruktion och formning. Passhistorik ensam visar inte den platsen. Om du är osäker, hitta en känd punkt innan du fortsätter och jämför stickfastheten med dina sparade mått.

@@ -1,7 +1,8 @@
 ---
 title: "Strickstücke spannen: nass, Dampf, Spray"
-description: "So spannst du Strickstücke nass, mit Dampf oder durch Anfeuchten. Mit Methoden nach Faser, typischen Grenzen und dem richtigen Zubehör."
+description: "Strickstücke nass, mit Dampf oder durch Einsprühen formen: Pflegehinweise beachten, schonend trocknen und entspannt messen. Mit Grenzen der Methoden."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 9
 tags:
@@ -16,138 +17,99 @@ lang: de
 translationKey: "how-to-block-knitting"
 ---
 
-Spannen bedeutet, ein fertiges Strickstück zu waschen, zu dämpfen oder anzufeuchten und in die vorgesehenen Maße zu bringen. Aus unruhigem, ungleichmäßigem Gestrick wird ein fertiger Stoff. Maschen gleichen sich aus, das Material entspannt sich in seine Form, und Lochmuster öffnen sich aus einem engen Gewirr zu erkennbaren Mustern. Manche Projekte brauchen es kaum. Andere sehen ohne Spannen fast unfertig aus.
+Beim Spannen wird Gestrick in Form gebracht, häufig nach einer erlaubten Behandlung mit Wasser oder Dampf. Das kann Maschen ausgleichen und Lochmuster öffnen, garantiert aber keine passende Größe. Waschen reinigt; beim Nassspannen wird das feuchte Stück geformt. Einsprühen befeuchtet die Oberfläche, Dämpfen führt Wärme und Feuchtigkeit zu. In Form legen bedeutet nicht immer Dehnen, und ein Projekt braucht nicht alle drei Methoden.
 
-Die Methode hängt von der Faser ab. Wolle reagiert gut auf Nassspannen. Acryl kann durch Dampf verändert werden, aber Hitze wirkt dauerhaft und braucht deshalb mehr Vorsicht als Wasser. Baumwolle und Leinen lassen sich formen, springen aber nicht wie Wolle zurück.
+Beginne mit den Pflegehinweisen des konkreten Garns und den Angaben zum Fertigstellen in der Anleitung. Prüfe Temperatur, Waschen, Einweichen, Trocknen und Wärmebehandlung, bevor du eine Methode wählst. Teste eine erlaubte Behandlung an einer passenden Maschenprobe. Ein gelungener Versuch hebt kein Verbot des Herstellers auf. Sind Garn oder Pflegehinweise unbekannt, kläre sie möglichst vor der Behandlung des ganzen Kleidungsstücks. Eine entbehrliche Probe zeigt nur das Ergebnis unter den getesteten Bedingungen.
 
 ## Nassspannen
 
-Die häufigste Methode und oft die mit dem deutlichsten Ergebnis, besonders bei Wolle.
+Nutze diese Methode, wenn das Garn die Wasserbehandlung und liegendes Formen erlaubt. Lege die Fertigmaße der Anleitung, ein sauberes Becken und eine geeignete Trockenunterlage bereit. Notiere vorher die trockenen Maße.
 
-Leg das fertige Stück 15-20 Minuten in lauwarmes Wasser. Ein Tropfen Wollwaschmittel, etwa Eucalan, Soak oder ein ähnliches No-Rinse-Waschmittel, ist möglich, aber reines Wasser reicht. Ziel ist, dass die Fasern vollständig durchnässt sind. Nicht reiben oder bewegen, besonders bei nicht superwash-behandelter Wolle. Einfach liegen lassen.
-
-Heb das Stück mit beiden Händen gestützt aus dem Wasser, damit das nasse Gewicht es nicht verzieht. Nicht auswringen. Drück überschüssiges Wasser vorsichtig heraus, roll es in ein sauberes Handtuch und drück weiter Feuchtigkeit heraus.
-
-Leg es flach auf Spannmatten, ineinandergreifende Schaumstoffmatten funktionieren gut, oder auf ein Handtuch auf einer ebenen Fläche. Zieh es in die Maße. Steck Kanten fest, wenn die Form genau gehalten werden soll. Lochmuster und Tücher brauchen Nadeln, damit das Muster aufgeht. Pulloverteile werden nach Schnittmaßen festgesteckt. Schals und Rechtecke brauchen oft nur Glattstreichen. Vollständig trocknen lassen. Mehrere Stunden bis zu einem ganzen Tag.
-
-Wasser entspannt die Garnfasern, sodass sie sich verschieben und setzen können. Wolle quillt leicht auf, füllt Lücken und gleicht Spannungsunterschiede aus. Besonders nicht superwash-behandelte Wolle verändert sich sichtbar: weicher, geschlossener, gleichmäßiger. Nassspannen ist meist die stärkste Methode für Wolle und viele andere tierische Fasern, aber Alpaka braucht eine leichtere Hand, weil es sich stark dehnen kann.
+1. Befeuchte oder wasche das Stück nach Herstellerangabe. Beachte Wassertemperatur sowie Dosierung und Spülhinweise eines geeigneten Waschmittels. Weiche nur ein, wenn es erlaubt ist, und nur für die angegebene Dauer. Eine allgemeingültige Einweichzeit gibt es nicht: Die [DROPS-Pflegehinweise](https://www.garnstudio.com/yarn-care.php?cid=19) verbieten Einweichen, auch bei den dort genannten Superwash-Merinogarnen.
+2. Stütze beim Herausheben das gesamte nasse Stück. Hebe es nicht an einer Kante hoch; vermeide Reiben und Wringen. Entferne Wasser auf erlaubte Weise. Sanftes Drücken zwischen sauberen Handtüchern kann geeignet sein; rolle das Stück nur ein, wenn die Garnhinweise das erlauben. Einige DROPS-Hinweise für Garnkombinationen untersagen auch das Einrollen.
+3. Lege es flach auf eine saubere, für das Garn geeignete Unterlage und schütze den Untergrund vor Feuchtigkeit und abfärbendem Garn. Forme behutsam nach den Maßen der Anleitung, ohne das Gestrick zu zwingen. Stecknadeln brauchst du nur dort, wo eine Kante oder Form gehalten werden muss.
+4. Lass alles vollständig trocknen, auch Nähte und doppelte Lagen. Entferne Nadeln und Spanndrähte vorsichtig, lass das Stück ohne Zug zur Ruhe kommen und miss erneut. Unter Nadelspannung gehaltene Maße entsprechen nicht unbedingt den entspannten Fertigmaßen.
 
 ### Auf ausblutende Farben achten
 
-Handgefärbte Garne und sehr gesättigte Farben können im Wasser Farbe abgeben. Indigo, tiefes Rot und Schwarz sind typische Kandidaten. Bei einfarbigen Stücken ist das oft nur ein optisches Ärgernis. Bei mehrfarbigen Projekten kann ein dunkler Streifen eine helle Nachbarfläche dauerhaft verfärben.
-
-Zwei Vorsichtsmaßnahmen helfen. Teste vor dem Einweichen des fertigen Stücks einen Garnrest oder die Maschenprobe. Nutze kühles Wasser und eine kürzere Einweichzeit bei starken Kontrasten, und wasche das Projekt allein, wenn eine Farbe bekanntlich ausblutet. Ein Farbfangtuch kann lose Farbe im Bad aufnehmen, ist aber keine Garantie.
-
-Verlass dich beim Spannen nicht auf Essig, um Farbe zu fixieren. Das kann in manchen Färbeprozessen eine Rolle spielen, repariert aber kein fertiges Garn zuverlässig, das weiter Farbe abgibt. Wenn ein Stück beim ersten Waschen stark ausblutet, rechne damit, dass es noch mehrere Wäschen abfärben kann. Wasche es dann separat.
+Teste die Projektfarben gemeinsam in einer Maschenprobe mit der erlaubten Pflegemethode. Überschüssiger Farbstoff kann helle Bereiche verfärben; klares Wasser bei einem Versuch garantiert keine dauerhafte Farbechtheit. Frage bei Abfärben den Garnhersteller, bevor du das Kleidungsstück behandelst. Wasche nach Vorgabe separat und lass nasse dunkle Flächen nicht auf helle gefaltet liegen. Kälteres Wasser, kürzeres Einweichen, Essig oder Farbfangtücher sind keine Universallösung und ersetzen nicht die Pflegehinweise.
 
 ## Mit Dampf spannen
 
-Hitze und Feuchtigkeit aus Dampfbügeleisen oder Steamer, ohne das Stück einzuweichen.
+Dämpfe nur, wenn der Hersteller es für dieses Garn und die betreffende Struktur erlaubt. Waschbarkeit bedeutet keine Dampferlaubnis. Umgehe ein Bügelverbot nicht, indem du das Bügeleisen über das Gestrick hältst.
 
-Leg das Stück flach auf eine gepolsterte Fläche. Halte das Bügeleisen etwa 1-2 cm über dem Gestrick und gib Dampf ab, oder nutze ein feuchtes Tuch als Schutz, wenn dein Bügeleisen sehr heiß wird. Das Bügeleisen nicht auf den Stoff drücken. Der Dampf arbeitet, nicht die Bügelsohle. Bewege dich langsam über die Fläche, steck fest, was Form halten muss, und lass das Stück abkühlen und trocknen, bevor du es bewegst.
+Teste die erlaubte Behandlung zuerst an einer Maschenprobe und beurteile sie abgekühlt und trocken. Ist kontaktloses Dämpfen erlaubt, lege das Stück auf eine gepolsterte, hitze- und feuchtigkeitsbeständige Unterlage. Forme es leicht und fixiere es bei Bedarf. Halte dich an die angegebene Einstellung, Entfernung und Behandlungsdauer; berühre das Gestrick nicht mit heißer Sohle oder Düse. Behandle die Abschnitte, ohne die Struktur flachzupressen. Lass alles vollständig abkühlen und trocknen, bevor du die Fixierung löst und die entspannten Maße prüfst.
 
-Der Effekt ist weniger stark als beim Nassspannen, aber meistens schneller. Bei Acryl kann Wasser die Maschen etwas ordnen, aber der Effekt hält begrenzt. Dampf kann Acryl dauerhafter setzen, verändert die Faser aber auch. Zu viel Hitze schmilzt die Oberfläche zu einer flachen, leblosen Fläche. Dieses "Totdämpfen" wird manchmal absichtlich gemacht, lässt sich aber nicht rückgängig machen.
+Es gibt keine für alle Garne sichere Entfernung oder Temperatur. Arbeiten mit einem Presstuch ist ein eigenes Verfahren; das Tuch macht nicht jede Wärmebehandlung geeignet. Frage bei unklaren Wärmehinweisen den Hersteller.
 
-Dampf funktioniert auch für kleine Korrekturen bei Wolle, aber Nassspannen liefert bei tierischen Fasern meist bessere Ergebnisse. Eine feste Regel: Bügeleisen niemals direkt auf Strick drücken. Konzentrierte Hitze quetscht Maschen und flacht Struktur dauerhaft ab, besonders Zöpfe und Noppen.
+### Acryl absichtlich dauerhaft verändern
 
-### Acryl absichtlich "totdämpfen"
+Der Ausdruck „killing acrylic“ bezeichnet beim Stricken einen dauerhaften Verlust von Bauschigkeit oder Rücksprungkraft nach Wärmebehandlung. Wärme kann Acryl erweichen und Strukturänderungen ermöglichen, sodass das abgekühlte Gestrick eine andere Form oder einen anderen Fall behält. Erweichen, dauerhaftes Fixieren, unerwünschtes Verformen und tatsächliches Schmelzen sind verschiedene Vorgänge. Weicheres oder flacheres Gestrick beweist kein Schmelzen, und nicht jede Wärmeeinwirkung hat denselben Effekt.
 
-Manche Acrylprojekte profitieren davon, bewusst stark gedämpft zu werden. Weich fallende Tücher oder Decken können genau diesen hängenden, fließenden Griff brauchen. Ungedämpft fühlt sich derselbe Stoff manchmal zu federnd oder steif an.
+Das ist keine allgemeine Anleitung für Acryl oder Mischgarne. [Knit Picks rät bei Brava vom Dämpfen ab](https://tutorials.knitpicks.com/caring-for-easy-care-yarns/), und auch [Lion Brands Hinweise zum Spannen](https://support.lionbrand.com/support/solutions/articles/17000035400-what-is-blocking-and-how-do-i-do-it-) raten von Dampf bei Acryl ab. Eine Maschenprobe hebt diese Einschränkungen nicht auf. Verlorene Rücksprungkraft kann Bündchen, Mützen oder körpernahe Kleidung unbrauchbar machen. Verlasse dich nicht darauf, dass Waschen Hitzeschäden rückgängig macht, oder dass Fasernamen die Wärmegrenzen einer Mischung verraten.
 
-Steck das Stück auf die endgültigen Maße. Dämpfe absichtlich aus etwa 2-3 cm Abstand, arbeite in Abschnitten und halte das Bügeleisen vom Stoff weg. Das Gestrick wird feucht und entspannt sich sichtbar. Lass es vollständig festgesteckt abkühlen.
+## Durch Einsprühen spannen
 
-Das Ergebnis ist dauerhaft: Der Stoff verliert Rücksprung und kommt nicht in seinen ursprünglichen Griff zurück. Teste zuerst an einer Maschenprobe. Wolle-Acryl-Mischungen sind weniger berechenbar, und reine Polyester- oder stark polyesterhaltige Mischungen können früher flach werden oder schmelzen als erwartet.
+Bei Gestrick, das Wasser verträgt, kann leichtes Anfeuchten für kleine Formkorrekturen genügen. Es reinigt nicht und ersetzt bei einer Maschenprobe keine vollständige Wäsche.
 
-## Mit Sprühflasche anfeuchten
-
-Die leichtere Variante. Oberfläche mit Wasser besprühen, in Form stecken, trocknen lassen.
-
-Leg das Stück flach aus, steck es auf Maß und sprüh es ein, bis es gleichmäßig feucht ist, nicht nass. Die Fasern entspannen sich leicht, Maschen gleichen sich moderat aus, und der Stoff bleibt beim Trocknen in der gesteckten Form.
-
-Das passt zu Stücken, die nur leicht geformt werden müssen. Baumwolle und Leinen können als letzter Feinschliff davon profitieren, aber erwarte kein Aufblühen oder Zurückspringen wie bei Wolle. Auch nützlich, wenn ein Stück schon einmal nass gespannt wurde und nur eine kleine Formkorrektur braucht.
+Lege das Stück flach auf eine geeignete Unterlage, besprühe es gleichmäßig mit Wasser bei erlaubter Temperatur und passe die Form behutsam an. Fixiere bei Bedarf, ohne es straff zu ziehen. Lass es ganz trocknen, löse die Fixierung und kontrolliere die entspannten Maße. Teste vorher: Auch wenig Feuchtigkeit kann Garn oder Farbe beeinflussen.
 
 ## Lochmuster spannen
 
-Bei Lochmustern zählt Spannen am meisten. Ungespanntes Lace sieht oft wie ein zusammengezogenes Gewirr aus. Gespannt wird daraus das Muster.
+Wähle eine erlaubte Befeuchtung und entferne überschüssiges Wasser wie oben beschrieben. Öffne das Lochmuster gleichmäßig zur vorgesehenen Form. Dehne nicht bis zum Maximum und füge keinen pauschalen Zuschlag für späteres Zurückspringen hinzu. Maschenprobe und Anleitung bestimmen, wie offen das Muster werden soll.
 
-Nassspannen ist hier meist die richtige Wahl: vollständig einweichen, im Handtuch ausdrücken, dann fest und kontrolliert aufstecken. Öffne Umschläge und Spitzen, ohne den Stoff zu überdehnen. Das Lochmuster darf beim Feststecken offener aussehen, als du es am Ende erwartest. Beim Trocknen setzen sich viele Fasern wieder leicht zurück.
-
-Spanndrähte sparen viel Zeit an geraden Kanten. Fädle einen dünnen flexiblen Draht durch die Randmaschen einer Seite und steck den Draht fest, statt jede Masche einzeln zu nadeln. Die Kante wird gerader, und aus sehr vielen Nadeln werden deutlich weniger.
-
-Bei dreieckigen Tüchern oder gezackten Kanten geben einzelne T-Nadeln an jeder Spitze die beste Kontrolle. Ein großes Tuch zu stecken dauert. Das Ergebnis ist der Grund, warum man es trotzdem macht.
+Spanndrähte verteilen den Zug an geraden Kanten. Führe saubere, glatte Drähte durch geeignete Randöffnungen, ohne Garn zu spalten, und befestige sie mit rostfreien Stecknadeln. Einzelne Nadeln formen Spitzen oder Bögen. Passe die Abstände so an, dass eine gerade Kante keine unbeabsichtigten Spitzen bekommt. Lass alles trocknen, bevor du die Fixierung löst und nach dem Entspannen misst.
 
 ## Pulloverteile spannen
 
-Bei zusammengenähten Kleidungsstücken macht Spannen vor dem [Zusammennähen](/de/artikel/strickteile-zusammennaehen-matratzenstich/) die Montage sauberer. Steck jedes Teil auf seine Schnittmaße: Rücken, Vorderteile und Ärmel nebeneinander, damit du sie vergleichen kannst.
+Formen vor dem [Zusammennähen](/de/artikel/strickteile-zusammennaehen-matratzenstich/) kann das Zuordnen entsprechender Kanten erleichtern. Vergleiche Rücken, Vorderteile und Ärmel mit der Schnittzeichnung. Forme Rundungen gleichmäßig statt mit scharfen Winkeln. Nadeln sind unnötig, wenn die Teile ihre Form selbst halten.
 
-Steck Achsel- und Schulterpunkte auf konkrete Maße. Glätte Körperbreite und Länge. Übertreib es bei Armausschnitten und Halsausschnitten nicht. Diese Kurven müssen beim Zusammennähen noch flexibel bleiben; zu hart festgesteckte Kurven können unnatürlich stehen.
-
-Bei nahtlosen Kleidungsstücken spannst du das fertige Stück flach, wenn das Stricken abgeschlossen ist. Steck Körperlänge, Ärmellänge und Brustumfang. Die Maschen setzen sich, und Verbindungsstellen wie Passe oder Raglanlinien wirken gleichmäßiger. Einen nassen Pullover nicht hängend trocknen lassen. Nasses Gestrick dehnt sich unter seinem eigenen Gewicht.
+Unterstütze bei einem fertigen Kleidungsstück Rumpf und Ärmel vollständig. Prüfe Länge und flach gemessene Breite; Brustbreite ist nicht dasselbe wie Brustumfang. Hänge nasses Gestrick nicht auf. Halte dich an die Reihenfolge der Anleitung vor oder nach der Montage; eine zweite Behandlung ist nur nötig, wenn das Projekt sie braucht.
 
 ## Was Spannen kann und was nicht
 
-Spannen gleicht Maschenspannung aus, öffnet Lochmuster, beruhigt Einrollen vorübergehend, passt Maße leicht an, macht Garn weicher und verbessert den fertigen Eindruck.
+Spannen kann kleine Unregelmäßigkeiten ausgleichen und Lochmuster öffnen, repariert aber keine verschränkten Maschen, falsch platzierte Formgebung oder falsche Maschenzahl. Glatt rechts kann sich wegen seiner Struktur weiterhin einrollen. Bewahre die vorgesehene entspannte Form von Rippen und das Relief von Zöpfen und Strukturmustern, statt alles flachzuziehen.
 
-Es repariert keine strukturellen Fehler. Falsche Größe wegen einer Maschenproben-Abweichung? Spannen rettet das nicht. Wolle kann eine vorsichtige kleine Maßkorrektur vertragen, besonders bei Lace oder lockerem Gestrick, aber Spannen ist keine Größenumrechnung. Baumwolle kann nass länger werden und trotzdem nicht sauber zurückspringen. Verdrehte Maschen, ein falsch gestricktes Muster oder falsch gesetzte Formgebung werden durch Spannen nicht richtig.
-
-Wie lange der Effekt hält, hängt von der Faser ab. Wolle hält die Form gut, kann sich nach dem Abstecken aber leicht entspannen. Baumwolle und Leinen müssen nach dem Waschen wieder in Form gelegt werden. Acryl hält Nassspannen kaum, kann durch Dampf aber dauerhaft verändert werden. Naturfaserkleidung solltest du nach jeder Wäsche flach in Form trocknen.
+Zwinge eine Maschenprobe nicht auf die gewünschte Maschenzahl pro Strecke und rechne nicht damit, eine ungeeignete Größe zu retten. Miss im Zustand, den die Anleitung verlangt, nach der für das Kleidungsstück vorgesehenen Pflege. Fertigmaße prüfst du trocken, ohne Nadeln und nach einer Ruhephase, sofern die Anleitung nicht ausdrücklich gedehnte Maße fordert. Tragen und spätere Wäschen können Maße verändern; Spannen garantiert keine dauerhafte Passform.
 
 ## Welche Methode für welche Faser
 
-Nicht superwash-behandelte Wolle: Nassspannen, bestes Ergebnis. Vorsichtig behandeln, lauwarmes Wasser und keine Bewegung, damit nichts filzt.
+- **Wolle und Superwash-Wolle:** prüfe das konkrete Garn. Superwash garantiert nicht, dass Einweichen, Wäschetrockner oder Dehnen geeignet sind. Stütze nasses Gestrick und beurteile Maßänderungen an der Probe.
+- **Alpaka und Mohair:** behandle nasses Gestrick behutsam und erhalte seine Struktur. Der Fasername erlaubt weder einen bestimmten Dehnungszuschlag noch Dämpfen.
+- **Baumwolle und Leinen:** stütze das nasse Gewicht. Prüfe Einlaufen, Wachstum und Rücksprungkraft an der fertig behandelten Probe. Erwarte weder automatisch Wollverhalten noch eine bestimmte Weichheit nach einer festen Zahl von Wäschen.
+- **Seide:** beachte die Hinweise zu Wasser, Farbe und Wärme. Nassspannen oder Einsprühen ist nicht automatisch geeignet.
+- **Acryl und Mischungen:** folge den Produktangaben. Pflege mit Wasser kann ohne Wärmefixierung passen. Werden mehrere Garne zusammen verstrickt, muss die Methode allen Pflegehinweisen entsprechen; frage bei Widersprüchen die Hersteller.
 
-Superwash-Wolle: lässt sich ebenfalls gut nass spannen, kann aber in der Länge wachsen, wenn sie nass ist. Auf Maß feststecken, nicht frei hängend oder ungesteckt trocknen lassen. Wenn du deine [Maschenprobe messen](/de/artikel/maschenprobe-messen/) musst, spann die Maschenprobe genauso wie später das Projekt.
+Der [Garnfaser-Vergleich](/de/artikel/garnfasern-im-vergleich/) bietet Hintergrundwissen. Wenn du deine [Maschenprobe misst](/de/artikel/maschenprobe-messen/), behandle sie wie das Projekt und beachte die Messbedingungen der Anleitung.
 
-Alpaka: dehnt sich nass und springt nicht wie Wolle zurück. Zurückhaltend feststecken. Ein Pullover aus reinem Alpaka kann weit über die Zielmaße wachsen, wenn du ihn nass zu stark ziehst.
+## Trockenzeit
 
-Baumwolle: reagiert auf Feuchtigkeit und Form, blüht aber nicht wie Wolle auf und springt nicht genauso zurück. Stütze das Gewicht, solange das Stück nass ist, weil Baumwolle schwer werden kann. Leinen wird mit wiederholtem Waschen und Spannen weicher; das erste Mal kann unspektakulär aussehen.
-
-Acryl: Wasser kann leicht glätten, aber Dampf verändert das Material stärker. Vorsicht mit Hitze.
-
-Seide: lässt sich nass oder angefeuchtet gut spannen, verträgt aber keine hohe Hitze. Wasser lauwarm halten.
-
-Mischungen: Richte dich nach der empfindlichsten Faser. Wolle/Seide bekommt lauwarmes Nassspannen. Wolle/Acryl kann je nach Ziel in beide Richtungen gehen. Der [Garnfaser-Vergleich](/de/artikel/garnfasern-im-vergleich/) erklärt das Verhalten der Fasern genauer.
-
-## Trockenzeit nach Faser
-
-Die Trockenzeit schwankt stärker, als man erwartet. Ein dicker Wollpullover kann an einem kühlen Tag zwei volle Tage brauchen. Ein Lace-Tuch im Sommer kann nach drei Stunden trocken sein.
-
-Grobe Orientierung: Lace und Fingering aus Wolle brauchen oft 6-12 Stunden. DK und Worsted aus Wolle brauchen häufig 12-24 Stunden. Bulky-Wolle kann 24-48 Stunden brauchen. Baumwolle hält viel Wasser und fühlt sich nass schwer an, also plane mehr Zeit ein. Acryl trocknet oft schneller als Naturfasern, weil es weniger Feuchtigkeit aufnimmt.
-
-Ein Ventilator, der Luft über das Stück bewegt, verkürzt die Trockenzeit deutlich. Direktes Sonnenlicht ist schneller, kann aber Farben ausbleichen und ungleichmäßig trocknen. Heizkörper oder Föhn beschleunigen ebenfalls, können nicht superwash-behandelte Wolle aber bei zu viel Hitze anfilzen.
-
-Geduld ist meistens die bessere Wahl. Wenn du ein Stück abnadelst, bevor es wirklich trocken ist, ziehen sich die Maße wieder zurück, und die Arbeit war umsonst.
+Dicke, Restwasser, übereinanderliegende Schichten, Raumklima und Luftbewegung beeinflussen das Trocknen. Ein Zeitplan nach Faser kann nicht feststellen, wann dein Stück trocken ist. Prüfe auch Unterseite und dicke Stellen. Sorge für Luftzirkulation; vermeide direkte Sonne, Heizkörper und Föhn. Beachte genauere Trockenhinweise des Garns.
 
 ## Zubehör
 
-Spannmatten, etwa Schaumstoff-Bodenfliesen oder Spielmatten, rostfreie Nadeln, T-Nadeln oder Spannnadeln, Spanndrähte für gerade Tuchkanten ohne alle 2,5 cm eine Nadel setzen zu müssen, Sprühflasche und Maßband zum Prüfen der Schnittmaße beim Feststecken.
-
-Ein sauberer Teppichboden mit Handtuch funktioniert auch, wenn du keine Matten hast. Ein Bett mit Handtuch darüber geht für einmaliges Spannen, blockiert das Bett aber für einen Tag. Ein separater Raum ist ideal.
-
-Wenn Haustiere im Haus sind, ist ein festgestecktes Strickstück ein Risiko. Eine schließbare Tür ist der zuverlässigste Schutz. Wenn das nicht geht, kann ein großer Karton über dem Stück helfen, solange Luft zirkulieren kann.
+Du brauchst Maßband, geeignete Unterlage und bei Bedarf rostfreie Nadeln, glatte Spanndrähte und Sprühflasche. Eine Schaumstoff-Spielmatte ist nicht automatisch hitzefest. Schütze Möbel und Boden und lass das Stück nicht auf einer dauerhaft nassen, saugenden Schicht liegen. Halte Kinder und Tiere von Stück und Nadeln fern, ohne die Luftzirkulation zu behindern.
 
 ## Nach dem Spannen
 
-Nimm die Nadeln erst heraus, wenn das Stück trocken ist. Zieh Nadeln gerade nach oben, nicht schräg, damit sie keine Maschen mitnehmen. Bei Lace ist das besonders wichtig.
+Wenn das Stück trocken und abgekühlt ist, ziehe Nadeln im Einstichwinkel heraus, ohne Maschen zu verhaken. Entferne die Drähte behutsam. Lass das Gestrick vor der abschließenden Messung frei ruhen. Lagere trockene Kleidung gefaltet oder flach, damit ihr Eigengewicht sie nicht ausdehnt.
 
-Lagere fertige Strickstücke flach oder gefaltet. Hängen dehnt gestrickten Stoff mit der Zeit, besonders schwere Kleidungsstücke. Ein gefalteter Pullover in der Schublade hält seine Form besser als einer auf dem Bügel. Saubere Lagerung ist bei Naturfasern besonders wichtig. Zedern- oder Lavendelsäckchen können helfen, ersetzen aber kein sauberes, gut geschütztes Aufbewahren.
+## Häufige Fragen
 
-## FAQ
+**Muss ich jedes Projekt spannen?**
+Nein. Erlaubtes Waschen und behutsames Formen können reichen. Lochmuster brauchen gegebenenfalls Nadeln; eine Maschenprobe braucht die Behandlung, die einen sinnvollen Vergleich mit der Anleitung ermöglicht.
 
-**Muss jedes Projekt gespannt werden?**  
-Nein. Spültücher, Übungsstücke und Dinge, bei denen Maße keine Rolle spielen, kannst du auslassen. Kleidungsstücke, Lochmuster und alles, bei dem Aussehen und Passform wichtig sind, sollten gespannt werden. Wenn du unsicher bist, beachte die Pflegehinweise auf der Banderole oder die Angaben des Herstellers und teste die geplante Methode zuerst an einer Maschenprobe. Eine ungeeignete Methode kann manche Fasern dauerhaft verändern oder beschädigen.
+**Kann ich zu stark spannen?**
+Ja. Dehnen auf ein Zielmaß macht diese Größe nicht stabil. Höre auf, wenn Maschen verzerren oder Struktur zusammenfällt, auch wenn die Schnittzeichnung größere Maße vorsieht.
 
-**Kann man zu stark spannen?**  
-Ja, besonders Alpaka und Superwash-Wolle lassen sich überdehnen. Wenn du den Stoff über seine natürliche Grenze hinaus feststeckst, werden die Maschen verzogen. Steck auf das Maß laut Anleitung, nicht weiter.
+**Wie oft muss ich einen Pullover neu spannen?**
+Beachte nach jeder Wäsche die Pflegehinweise und forme nach Bedarf. Leichtes Einsprühen zwischen Wäschen kommt nur infrage, wenn es erlaubt ist. Erneutes Feststecken oder Dämpfen ist nicht automatisch nötig.
 
-**Wie oft muss ein Pullover neu gespannt werden?**  
-Nach jedem Waschen flach in der richtigen Form trocknen lassen. Das ist im Grunde erneutes Spannen. Wenn der Pullover zwischen den Wäschen nur eine kleine Formkorrektur braucht, reicht leichtes Anfeuchten.
+**Vor dem Zusammennähen oder als fertiges Kleidungsstück spannen?**
+Folge der Anleitung. Vorbereitete Einzelteile können das [Zusammennähen](/de/artikel/strickteile-zusammennaehen-matratzenstich/) erleichtern; eine erlaubte Abschlussbehandlung kann kleinere Montageverzüge ausgleichen. Keine Reihenfolge garantiert genaue Maße.
 
-**Teile vor dem Zusammennähen spannen oder erst das ganze Kleidungsstück?**  
-Beides funktioniert. Vor dem [Zusammennähen](/de/artikel/strickteile-zusammennaehen-matratzenstich/) gespannte Teile lassen sich genauer auf Maß stecken und sauberer verbinden. Das fertige Kleidungsstück zu spannen geht schneller und gleicht Verzerrungen vom Zusammennähen aus. Viele machen beides: erst die Teile, danach ein leichtes finales Spannen.
-
-**Kann ich einen fertigen Pullover spannen, wenn er sich falsch anfühlt?**
-Manchmal. Wenn er aus Wolle ist und nur etwas zu klein, kann vorsichtiges Nassspannen auf leicht größere Maße helfen. Wenn er deutlich zu groß ist, schrumpft Spannen ihn nicht kontrolliert. Walken oder Filzen kann nicht superwash-behandelte Wolle schrumpfen, verändert den Stoff aber dauerhaft und ist keine verlässliche Passformkorrektur.
+**Kann ich einen fertigen Pullover mit falscher Passform spannen?**
+Eine Probe kann Spielraum für kleine Anpassungen zeigen, aber es gibt keine garantierte zusätzliche Breite oder Länge. Spannen verkleinert ein zu großes Kleidungsstück nicht zuverlässig. Absichtliches Filzen verändert das Gestrick unumkehrbar und ist keine kontrollierte Größenkorrektur.
 
 **Warum wächst mein Pullover beim Spannen?**
-Schwerer nasser Stoff dehnt sich unter seinem eigenen Gewicht. Heb das Stück von unten gestützt an, nicht an einer Kante, und roll es im Handtuch aus, bevor du es auslegst. Superwash-Wolle und Alpaka wachsen am stärksten. Steck auf Schnittmaße, statt den Stoff dorthin ziehen zu lassen, wo das Gewicht ihn hinzieht.
+Nasses Gewicht, Garnaufbau, Faserbehandlung und Maschenmuster können seine Maße verändern. Stütze ihn beim gesamten Umgang und beurteile ihn trocken und entspannt. Weder Superwash-Wolle noch Alpaka hat eine allgemeingültige Wachstumsrate; Nadeln korrigieren keine ungeeignete Maschenprobe.

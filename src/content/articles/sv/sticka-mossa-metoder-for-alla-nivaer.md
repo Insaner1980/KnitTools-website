@@ -14,115 +14,109 @@ tags:
 draft: false
 lang: sv
 translationKey: "how-to-knit-hat"
+updatedDate: 2026-10-18
 ---
 
-En mössa är ett bra andra eller tredje projekt efter en halsduk. Den tar in rundstickning, minskningar och enkel formning i ett projekt som är litet nog att bli färdigt innan upprepningen hinner kännas gammal. De flesta mössor i worsted är korta projekt jämfört med tröjor, men den första kräver ändå några nya tekniker.
+En mössa är ett användbart projekt efter en halsduk när du vill öva formning och kanske rundstickning. Här jämför vi konstruktioner och går igenom beräkningar för storlek och topp. Guiden är inte ett graderat mönster för alla garner och huvudstorlekar. Välj ett mönster till själva mössan och använd beräkningarna för att förstå passformen.
 
-En enkel mössa stickas så här: lägg upp maskor för huvudomkretsen minus 2,5-5 cm negativ rörelsevidd, sticka resår till mudden, fortsätt med kroppen i slätstickning och [minska jämnt](/sv/artiklar/oka-eller-minska-jamnt-over-ett-varv/) upptill. Det finns flera konstruktioner. Rätt metod beror på vilka tekniker du kan och vilken utrustning du har.
+En enkel mössa nerifrån börjar med maskor för **mössans färdiga omkrets**, följt av mudd, mittparti och [jämna minskningar](/sv/artiklar/oka-eller-minska-jamnt-over-ett-varv/) upptill. Hur mycket mindre mössan ska vara än huvudet beror på materialets töjbarhet och önskad passform; dra inte av ett fast mått för alla mössor.
 
 ## Metod 1: nerifrån och runt
 
-Standardmetoden. Lägg upp för den tänkta mössomkretsen, slut till en ring, sticka uppåt och minska upptill för att stänga toppen.
+Lägg upp för målomkretsen. Kontrollera att uppläggningskanten inte är vriden runt stickan, placera en markör för varvets början och slut till en ring genom att sticka första maskan. Fortsätt runt utan att vända. Slätstickning runt innebär räta maskor varje varv; rätstickning runt växlar mellan ett rätt och ett avigt varv.
 
-Du behöver en 40 cm rundsticka till kroppen och strumpstickor, eller magic loop med en längre rundsticka, till toppen där omkretsen blir för liten för 40 cm-kabeln. Byt när maskorna inte längre rör sig bekvämt runt kabeln. Väntar du för länge blir toppen krångligare än den behöver vara.
+En 40 cm rundsticka passar ofta till mittpartiet på en vuxenmössa. Det är **totallängden från spets till spets**, inte bara kabeln; stickans diameter anges separat i millimeter. Maskorna måste nå runt utan att sträckas. Använd strumpstickor eller magic loop med en lång, böjlig rundsticka till mindre mössor och den krympande toppen. Byt innan maskorna spänns runt den korta rundstickan. Sektionsmarkörerna ska följa mönstret oavsett hur maskorna fördelas mellan stickorna.
 
-Lägg upp, sticka resår till mudden, 2,5-5 cm med 1 rm, 1 am eller 2 rm, 2 am, byt till slätstickning eller vald maskbild, sticka till önskad längd och minska sedan jämnt över flera varv tills bara några maskor återstår. Trä garnet genom dem och dra åt.
+Sticka resår till mudden och sedan slätstickning eller valt mönster. En ovikt mudd kan exempelvis vara 2,5–5 cm hög, men följ ditt mönsters mått. Räkna in toppens höjd innan du bestämmer var mittpartiet slutar. Dra till sist garnet genom de levande maskorna enligt beskrivningen nedan.
 
-Ingen söm. Det ser rent ut och känns bekvämt. Det är så de flesta mössmönster skrivs. Nackdelen är att du behöver vara bekväm med rundstickor och antingen strumpstickor eller magic loop till toppen.
+Ingen sidsöm behövs. Lägg gärna varvbytet bak om du vill dölja ett randhack, och behåll markören genom hela arbetet.
 
-När du sluter arbetet till en ring är varvbytet platsen där eventuella randhack syns. Lägg det bak på mössan där det märks mindre. Sätt en markör. Uppläggningssvansen kan fungera som visuell hjälp, men en markör är snabbare att hitta fem varv senare när svansen har gömt sig i arbetet.
+## Metod 2: fram och tillbaka med söm
 
-## Metod 2: plant och sytt
+Sticka ett plant stycke med formad överkant på raka stickor eller fram och tillbaka på rundsticka. Vänd efter varje varv. Slätstickning innebär räta maskor på rätsidan och aviga på avigsidan; rätstickning innebär räta maskor varje varv. Plan stickning kräver alltså inte alltid aviga varv.
 
-Sticka mössan som ett platt stycke på raka stickor och sy sedan sidsömmen.
+Följ ett mönster för plan stickning när det gäller resår, kantmaskor och topp. Om sömmen tar in en maska i varje sida behövs två extra kantmaskor: 96 synliga maskor + 2 = **98 upplagda maskor**. Håll kanterna utanför toppens sektioner och planera hur resåren möts i sömmen. Rundstickningens instruktioner kan inte användas oförändrade över alla 98 maskor.
 
-Lägg upp, sticka resår, sticka kroppen, minska på rätsidans varv, maska av när bara några maskor återstår och sy sedan sömmen med [madrassöm](/sv/artiklar/sy-ihop-stickade-delar-madrassom/).
-
-Metoden använder bara plan stickning. Bra om du inte är redo för rundstickor. Nackdelen är sömmen. Madrassöm gör den nästan osynlig, men den lägger till ett moment och en liten ås på insidan. Sömmen hamnar oftast bak på mössan, där hår täcker den.
-
-En sak plant stickade mössor tvingar fram: du stickar vartannat varv avigt. Om aviga maskor går långsammare än räta för dig, vilket stämmer för många, tar en platt mössa märkbart längre tid än samma mössa runt, redan innan sömnaden räknas in.
+Minska på de varv som mönstret anger. Vid en hopdragen topp trär du garnet genom de återstående levande maskorna i stället för att maska av dem normalt. Sy sidsömmen med [madrassöm](/sv/artiklar/sy-ihop-stickade-delar-madrassom/) och fäst trådarna. Sömmen ger en liten ås inuti; kontrollera vilken sida som syns när en mudd viks upp.
 
 ## Metod 3: uppifrån och ned
 
-Mindre vanlig, men värd att känna till. Lägg upp ett litet antal maskor i toppen, öka utåt i sektioner, sticka kroppen, avsluta med resår och maska av elastiskt.
+Lägg upp ett litet antal maskor i toppen, öka i sektioner, sticka mittpartiet och avsluta med resår och elastisk avmaskning. Börja med strumpstickor eller magic loop för den lilla omkretsen.
 
-Fördelar: du kan prova under arbetets gång, toppen behöver inte dras ihop i slutet och muddens längd kan bestämmas efter hur mycket garn som finns kvar. Nackdelar: uppläggningen är pillig, ofta en rund uppläggning eller Emily Ockers uppläggning, och ökningen behöver följa en planerad toppform i stället för att bara växa till en slumpmässig cirkel.
+Du kan prova när öppningen blivit tillräckligt stor och anpassa muddens längd till garnet som återstår. En rund uppläggning, exempelvis Emily Ockers, behöver fortfarande dras ihop vid starten och garnänden fästas. Följ ett planerat ökningsschema; slumpmässiga ökningar ändrar både omkrets och topphöjd.
 
 ## Storlek
 
-Huvudomkretsen avgör hur många maskor du lägger upp. Mät runt den bredaste delen, strax ovanför öronen och över pannan.
+Mät **huvudomkretsen** runt den bredaste delen, över pannan, ovanför öronen och runt bakhuvudet, utan att måttbandet pressar. **Färdig mössomkrets** mäts på den avslappnade mössan. En omkrets på 51 cm motsvarar ungefär 25,5 cm bredd när mössan ligger plant.
 
-Stickade mössor använder negativ rörelsevidd: den färdiga omkretsen är mindre än huvudet så att det elastiska tyget sitter kvar. För en tätt sittande mössa med resårmudd är ungefär 2,5 cm negativ rörelsevidd en vanlig startpunkt. Ett huvud på 56 cm kan få en färdig omkrets runt 51-53 cm, beroende på tygets elasticitet och önskad passform. Slouchigare mössor använder ofta mindre negativ rörelsevidd eftersom hänget kommer från extra längd snarare än hård passform.
+Negativ rörelsevidd betyder att mössan är mindre än huvudet. Ett räkneexempel med 56 cm huvudomkrets och 51–53 cm mössomkrets ger 3–5 cm, alltså cirka 5,4–8,9 % **av huvudomkretsen**, i negativ rörelsevidd. Provlappens töjbarhet och återhämtning efter tvätt och torkning avgör vad som passar. Extra längd ger häng upptill men bestämmer inte i sig hur vid mudden ska vara.
 
-Maskantal: multiplicera stickfastheten per cm med målomkretsen. Vid 20 maskor per 10 cm, alltså 2 maskor per cm, och en målomkrets på 51 cm blir resultatet 102 maskor. Runda till ett antal som fungerar med resår och toppminskningar. För 2 rm, 2 am-resår med en topp i 8 sektioner är 96 rent, eftersom det är delbart med 4 för resåren och 8 för toppen.
+Använd stickfastheten från en tvättad och torkad provlapp i slätstickning, mätt utan att sträcka. Sticka provet plant eller runt på samma sätt som mössan. Kontrollera mudden separat eftersom resår drar ihop sig annorlunda. Med 20 maskor per 10 cm, alltså 2 maskor/cm, ger 51 cm **102 maskor**. Vid rundstickning kräver 1 rm, 1 am ett jämnt antal, 2 rm, 2 am ett antal delbart med 4 och åtta lika toppsektioner ett antal delbart med 8. Kontrollera även mittpartiets rapport. **104 maskor** passar de två senare kraven och ger 52 cm, cirka 7,1 % negativ rörelsevidd på ett huvud på 56 cm. Även 96 är delbart, men ger **48 cm**, cirka 14,3 % negativ rörelsevidd. Välj efter passform; 96 behåller inte målet 51 cm.
 
-KnitTools [uppläggningskalkylator](/sv/verktyg/upplaggningskalkylator/) gör den matten från din stickfasthet och omkrets.
+I KnitTools [uppläggningskalkylator](/sv/verktyg/upplaggningskalkylator/) anger du färdig omkrets i breddfältet: 20 maskor per 10 cm och 51 cm ger 102. Verktyget avrundar till närmaste jämna antal. Rörelsevidd, rapporter, sömsmån och toppindelning måste du kontrollera själv; det ger inte ett komplett mössmönster eller minskningsschema.
 
-**Standardmått för vuxenmössa:** CYC listar vuxen huvudomkrets runt 53-58,5 cm för kvinnor och 56-61 cm för män. Den färdiga mössan är vanligen mindre än det på grund av negativ rörelsevidd. Många tätt sittande beanies börjar toppminskningarna efter cirka 18-20 cm från mudden, men följ mönstrets djup om det finns. För en slouchy mössa lägger du till längd före toppminskningarna.
+**Vuxna och barn:** [Craft Yarn Councils tabell](https://www.craftyarncouncil.com/standards/head-circumference-chart) anger huvudomkrets 53–58,5 cm för kvinnor, 56–61 cm för män, 40,5–46 cm för småbarn och 45,5–51 cm för barn. Det är referensmått på huvuden, inte färdiga mössmått eller säkra åldersstorlekar. Mät mottagaren när det går, även spädbarn, och jämför med mönstrets angivna huvudstorlek.
 
-**Barnmössor:** CYC listar toddler-huvudomkrets som 40,5-46 cm och child som 45,5-51 cm. Baby- och prematurstorlekar varierar mer, så använd ett mönster med åldersspecifik storlek i stället för att gissa från en vuxenformel.
+**Höjd:** mät från önskad nederkant till hjässan, eller på en mössa som passar. Färdig höjd inkluderar toppen. Om målet är 22 cm och toppen beräknas bli 7,5 cm, börjar minskningarna efter **14,5 cm inklusive ovikt mudd**. Med 5 cm uppvik börjar de i stället **19,5 cm från uppläggningskanten, mätt utan uppvik**: 19,5 − 5 + 7,5 = 22 cm. En dubbel mudd som syns 5 cm behöver ungefär 10 cm stickad resår. Detta är räkneexempel, inte standarddjup för alla vuxna.
 
 ## Toppformning
 
-Det är här mössan går från tub till kupol. Minskningar placeras med jämna mellanrum och tar bort maskor runt om.
+Här är hela exemplet med **96 maskor i slätstickning runt**. Placera åtta markörer mellan åtta sektioner med 12 maskor i varje; skilj varvets första markör från de andra. På minskningsvarven stickar du till två maskor före varje markör, stickar dem räta tillsammans och flyttar markören. Varje sektion förlorar en maska, hela varvet åtta.
 
-Vanlig metod: dela maskorna i 6 eller 8 lika stora sektioner, med markörer mellan varje. Minska en maska i slutet av varje sektion vartannat varv. Det skapar synliga minskningslinjer som rör sig mot toppen.
+- Varv 1: [10 rm, 2 rm tillsammans] åtta gånger; 96 → 88 maskor.
+- Varv 3: [9 rm, 2 rm tillsammans] åtta gånger; 88 → 80.
+- Varv 5: [8 rm, 2 rm tillsammans] åtta gånger; 80 → 72.
+- Varv 7: [7 rm, 2 rm tillsammans] åtta gånger; 72 → 64.
+- Varv 9: [6 rm, 2 rm tillsammans] åtta gånger; 64 → 56.
+- Varv 11: [5 rm, 2 rm tillsammans] åtta gånger; 56 → 48.
+- Varv 13: [4 rm, 2 rm tillsammans] åtta gånger; 48 → 40.
+- Varv 15: [3 rm, 2 rm tillsammans] åtta gånger; 40 → 32.
+- Varv 17: [2 rm, 2 rm tillsammans] åtta gånger; 32 → 24.
+- Varv 19: [1 rm, 2 rm tillsammans] åtta gånger; 24 → 16.
+- Varv 21: [2 rm tillsammans] åtta gånger; 16 → 8.
 
-För 96 maskor i 8 sektioner om 12:
+Sticka **alla jämna varv från 2 till 20 räta utan minskningar** och flytta markörerna. På varv 21 finns inga vanliga maskor mellan minskningarna. Stanna vid åtta maskor. Klipp en garnände som räcker till både hopdragning och fästning, trä den genom varje levande maska med en stoppnål, ta bort stickorna, dra ihop och fäst på insidan. Detta är inte vanlig avmaskning.
 
-Varv 1: _10 rm, 2 rm tillsammans; upprepa från _ varvet runt. (88 maskor)  
-Varv 2: sticka räta maskor.  
-Varv 3: _9 rm, 2 rm tillsammans; upprepa från _ varvet runt. (80 maskor)  
-Varv 4: sticka räta maskor.
+Det blir **11 minskningsvarv och 10 mellanvarv, totalt 21 varv**. Vid exempelvis 28 varv per 10 cm är den beräknade topphöjden **7,5 cm**. Maskantal per 10 cm säger inte hur många varv du får; mät en provlapp stickad och behandlad som mössan och kontrollera toppen under arbetet.
 
-Fortsätt tills 8-16 maskor återstår. Klipp garnet, trä det genom resterande maskor med en stoppnål, dra åt och fäst på insidan.
+För **104 maskor** börjar du med åtta sektioner om 13: [11 rm, 2 rm tillsammans] åtta gånger ger 104 → 96. Sticka ett rätt mellanvarv och sedan hela följden ovan, med varvnumren förskjutna två steg. Totalt 23 varv ger cirka **8,2 cm** vid 28 varv per 10 cm. Korta mittpartiet motsvarande om den färdiga höjden ska vara densamma.
 
-Antalet sektioner påverkar toppformen, men minskningstakten gör det också. Sex eller åtta sektioner är vanliga eftersom de delar många uppläggningsantal rent. Om toppen blir för spetsig eller för platt är lösningen ofta att ändra hur ofta du minskar, inte bara antalet sektioner.
-
-Vissa mönster använder parade minskningar, till exempel 2 rm tillsammans före markören och ssk efter, i stället för en enkel minskning. Linjerna ser mer symmetriska ut, vilket syns mer på enfärgade mössor än på mönstrade där minskningarna döljs.
+Andra mönster kan ha sex sektioner, minska varje varv mot slutet eller använda ett par minskningar runt markören, till exempel 2 rm tillsammans och vänsterlutande ssk. Ett par tar bort två maskor; åtta par tar bort 16 per minskningsvarv. Ändrar du metoden måste maskantal, rytm och höjd räknas om.
 
 ## Resårval
 
-Muddens resår är mer än dekoration. Den är det som håller mössan på huvudet.
+**1 rm, 1 am** ger smala resårkolumner och **2 rm, 2 am** bredare. Båda kan ge en elastisk mudd, men garn, stickfasthet, uppläggningens töjbarhet och rörelsevidd påverkar passformen.
 
-**1 rm, 1 am** ger ofta en tät och elastisk mudd. Den drar ihop sig bra och greppar bra. Passar tätt sittande beanies.
+**Vriden resår** vrider de maskor som mönstret anger. En normalt västerländskt monterad rät maska vrids genom att stickas i bakre maskbågen. Kontrollera om bara räta eller även aviga maskor vrids; vriden resår är inte automatiskt mer töjbar.
 
-**2 rm, 2 am** är lätt att läsa och flyter på bra för många stickare. Den töjer sig fortfarande väl, men får ett bredare resårutseende.
+**Vikt mudd:** sticka för två lager och vik upp. För 5 cm synlig mudd behövs ungefär 10 cm resår. Räkna in uppviket i mössans höjd. Tunnare stickor kan ge en fastare kant, men prova resultatet i stället för att anta att en storlek mindre alltid hjälper.
 
-**Vriden resår**, där de räta maskorna stickas i bakre maskbågen, stramar åt kolumnerna mer och ger en tydligare resårbild. Den går långsammare eftersom vridna maskor är svårare att sticka i.
-
-**Vikt mudd** är dubbelt så hög som en vanlig mudd och viks upp. Den stickas ofta på en stickstorlek mindre än kroppen för att greppa bättre. I mössor för kallt väder är dubbelt tyg över öronen praktiskt.
-
-För en mer färdig kant skapar tubular cast on en mjuk kant som ser ut att växa direkt ur resåren. Den är värd att lära sig senare om du stickar presentmössor.
+En tubuppläggning kan ge en mjuk kant som fortsätter in i resåren. Välj en variant för din resår; 1 rm, 1 am och 2 rm, 2 am kan behöva olika förberedelser.
 
 ## Garn och stickor
 
-**Worsted på 4,5-5,0 mm:** en vanlig kombination för en enkel mössa. Varm, medeltjock och snabbare än tunnare garn.
+Möjliga utgångspunkter för provlappen är **Worsted på 4,5–5 mm**, **Bulky på 6–8 mm** och **DK på 3,75–4 mm**. Det är provkombinationer, inte fasta regler för garntjocklekarna. Välj stickor som ger mönstrets stickfasthet och en yta du tycker om. Tjockt garn ger inte automatiskt otydlig maskbild.
 
-**Bulky på 6,0-8,0 mm:** snabb, men det tjocka tyget har mindre tydlig maskbild. Bra för grova, avslappnade modeller.
+Ull och ullblandningar kan ge användbar elasticitet och återhämtning. Känn på provlappen mot pannan och bedöm värme och form efter tvätt. Bomull, akryl och blandningar kan också passa med rätt konstruktion; fibernamnet garanterar inte komfort eller passform. Följ banderollens skötselråd även för superwash-ull och akryl.
 
-**DK på 3,75-4,0 mm:** lättare mössa med finare definition. Tar längre tid men ser mer arbetad ut. Bra för flerfärgsstickning eftersom tunnare tyg håller nere tjockleken när flera färger används.
-
-Ull eller ullblandning är oftast den lättaste fibern för varma mössor: elastisk, formhållande och mottaglig för blockning. Superwash-ull är lättare att tvätta. Akryl fungerar och kan maskintvättas, men kan kännas mindre andande i milt väder. Bomull är inte ett bra vintermössgarn eftersom det saknar ullens studs och värme, även om bomullsblandningar kan fungera till vår och höst.
-
-Hur mycket garn? Många enkla vuxenmössor i worsted hamnar någonstans runt 137-229 m, men muddarnas höjd, slouch, flätor och flerfärgsstickning ändrar snabbt åtgången. Kontrollera mönstrets garnåtgång innan du köper. Ett nystan på 100 g worsted räcker ofta till en enkel beanie.
+Utgå från mönstrets garnåtgång för vald storlek och nystanets löplängd. **100 g** är vikt, inte en bestämd längd eller garanti för att ett nystan räcker. Vikt mudd, extra längd, flätor, flerfärgsstickning, provlapp och tofs påverkar åtgången.
 
 ## Tofsar och avslutning
 
-En tofs täcker samlingspunkten där toppen stängs. Gör en av matchande eller kontrasterande garn med en pompom-maker, eller två kartongcirklar, eller köp en fuskpälstofs och fäst den så att den kan tas av vid tvätt. En avtagbar tofs är lättare att sköta än en permanent fastsydd.
+En tofs täcker punkten där toppen dras ihop. Gör en av matchande eller kontrasterande garn med ett tofsverktyg eller två kartongcirklar, eller fäst en fuskpälstofs så att den kan tas av vid tvätt.
 
-För ett rent avslut utan tofs, se till att toppstängningen är ordentligt åtdragen och att garnänden är säkert fäst på insidan. Dra garnet genom de återstående maskorna två gånger i stället för en gång om du vill ha extra säkerhet.
+Fäst toppens garnände ordentligt även under en tofs. Du kan trä den genom maskorna en andra gång före hopdragningen om garnet och öppningen tillåter, men fäst den ändå i tyget på insidan. Ett extra varv genom öglorna ersätter inte fästningen.
 
-Blocka över en ballong, skål eller mössform nära den tänkta storleken. Det jämnar ut maskorna och ger mössan sin slutliga form. Sträck inte resårmudden platt under blockning, eftersom den är gjord för att dra ihop sig och greppa.
+Avsluta enligt garnets skötselråd och prova behandlingen på provlappen först. Torka plant eller på en lämplig form om materialet och mönstret tillåter det. Forma efter **mössans mått**, inte automatiskt den större huvudomkretsen, och sträck inte ut resåren. Blockning kan jämna ut maskor men garanterar inte att fel storlek rättas till.
 
 ## Vanliga frågor
 
-Kan man sticka mössa på raka stickor? Ja, med metoden plant och sytt. Den enda nackdelen är sömmen. Många nybörjarmönster för mössor är skrivna just för plan stickning.
+**Kan man sticka mössa på raka stickor?** Ja, med ett mönster för plan stickning, formad topp och sidsöm. Följ dess rätsides- och avigsidesvarv och sömsmån.
 
-Hur undviker man färghacket i ränder? Färgbytet vid varvets början skapar ett synligt steg. Tekniken jogless jog, där första maskan i den nya färgen lyfts på andra varvet med den nya färgen, minskar det. Enfärgade mössor har inte problemet.
+**Hur undviker man färghacket i ränder?** För slätstickade ränder runt som är minst två varv höga kan du sticka första varvet med den nya färgen, sedan lyfta första maskan avigt med garnet bakom arbetet på andra varvet och sticka resten rätt. Det kan minska hacket men förkorta maskkolumnen. Envarvsränder och andra maskmönster behöver en metod som passar dem.
 
-Vad gör jag om mössan är för stor? Den enklaste färdiga lösningen är att trä resårtråd genom insidan av mudden. Nästa gång: [sticka provlapp noggrannare](/sv/artiklar/sa-mater-du-stickfasthet/) eller välj en mindre storlek. En lite liten mössa töjer sig till passform. En för stor glider av.
+**Vad gör jag om mössan är för stor?** Om bara mudden är lös kan resårtråd hjälpa, så länge den inte stramar obehagligt. Den gör inte mittpartiet eller toppen mindre. [Kontrollera stickfastheten](/sv/artiklar/sa-mater-du-stickfasthet/), omkretsen i vila och höjden innan du repar upp. En mindre storlek hjälper bara om måtten passar; en för liten mössa töjer sig inte säkert till bekväm passform.
 
-Kan man lägga till öronlappar? Ja, men det är lättare när mönstret har dem från början. Öronlappar är triangelformade förlängningar som plockas upp från mudden eller läggs upp som en del av den. Om du lägger till dem själv, markera först öronens läge, plocka upp en liten sektion på varje sida och minska mot en spets. Lägg till en i-cord eller tvinnad snodd längst ned om du vill kunna knyta dem under hakan.
+**Kan man lägga till öronlappar?** Ja, upplockade från mudden eller som del av konstruktionen. Ett mönster med öronlappar anger placering, bredd, formning och avslutning. Markera öronens läge på den som ska bära mössan. Välj en barnanpassad konstruktion till barnmössor i stället för att lägga till hakband utan eftertanke.
 
-Hur är det med fodrade mössor? En dubbel mudd eller ett helt foder ger mer värme och en mjukare känsla mot pannan. En vanlig metod är att sticka extra längd, vika fodret mot insidan och fästa det snyggt. Det tar tid, men blir varmt.
+**Hur är det med fodrade mössor?** Dubbel mudd eller foder kan ge mer isolering och annan känsla mot pannan. Ett helt foder behöver egen höjd och toppformning samt plats inuti mössan. Kontrollera töjbarhet och passform med båda lagren; extra längd ensam är ingen fullständig foderbeskrivning.

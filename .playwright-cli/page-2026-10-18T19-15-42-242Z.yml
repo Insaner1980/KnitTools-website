@@ -1,0 +1,133 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link "KnitTools home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - text: KnitTools
+      - navigation [ref=e6]:
+        - link "Tools" [ref=e7] [cursor=pointer]:
+          - /url: /tools/
+        - link "Articles" [ref=e8] [cursor=pointer]:
+          - /url: /articles/
+        - group [ref=e9]:
+          - 'generic "Language: English" [ref=e10] [cursor=pointer]': English
+        - link "Notify me at launch" [ref=e13] [cursor=pointer]:
+          - /url: /#join
+    - main [ref=e14]:
+      - generic [ref=e16]:
+        - paragraph [ref=e17]:
+          - link "← All articles" [ref=e18] [cursor=pointer]:
+            - /url: /articles/
+        - paragraph [ref=e19]: Category
+        - heading "Gauge & Calculations." [level=1] [ref=e20]
+        - paragraph [ref=e21]: Gauge math, swatches, and stitch counts. The calculations that decide whether your finished piece comes out the size you wanted.
+      - generic [ref=e23]:
+        - link [ref=e24] [cursor=pointer]:
+          - /url: /articles/what-is-gauge-in-knitting/
+          - heading "What is gauge in knitting and why does it change?" [level=2] [ref=e25]
+          - paragraph [ref=e26]: Understand what gauge means in knitting, why it varies between knitters, and what causes it to change mid-project. Practical guide with common causes and fixes.
+          - time [ref=e28]: May 1, 2026
+        - link [ref=e29] [cursor=pointer]:
+          - /url: /articles/how-to-measure-knitting-gauge/
+          - heading "How to measure knitting gauge" [level=2] [ref=e30]
+          - paragraph [ref=e31]: Learn how to knit and measure a gauge swatch correctly. Covers washing, blocking, measuring technique, and what to do when your gauge is off.
+          - time [ref=e33]: April 27, 2026
+        - link [ref=e34] [cursor=pointer]:
+          - /url: /articles/gauge-doesnt-match/
+          - heading "What to do when your gauge doesn't match the pattern" [level=2] [ref=e35]
+          - paragraph [ref=e36]: Your gauge swatch doesn't match the pattern? Check measurements, adjust needles, assess the fabric, and understand the limits of changing stitch or row counts.
+          - time [ref=e38]: May 1, 2026
+        - link [ref=e39] [cursor=pointer]:
+          - /url: /articles/gauge-swatch-step-by-step/
+          - 'heading "Knitting a gauge swatch: step by step" [level=2] [ref=e40]'
+          - paragraph [ref=e41]: A quick, practical guide to knitting a gauge swatch. Step-by-step process from cast on to measuring, with tips for accurate results.
+          - time [ref=e43]: May 1, 2026
+        - link [ref=e44] [cursor=pointer]:
+          - /url: /articles/how-many-stitches-to-cast-on/
+          - heading "How many stitches to cast on" [level=2] [ref=e45]
+          - paragraph [ref=e46]: Calculate cast-on stitches from gauge, project width, repeats, edges, cast-on method, and whether you're joining in the round.
+          - time [ref=e48]: May 1, 2026
+        - link [ref=e49] [cursor=pointer]:
+          - /url: /articles/increase-decrease-evenly/
+          - heading "How to increase and decrease evenly across a knitting row" [level=2] [ref=e50]
+          - paragraph [ref=e51]: Learn how to space increases and decreases evenly across a row. Includes the formula, worked examples, and tips for clean results.
+          - time [ref=e53]: May 1, 2026
+      - region [ref=e54]:
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: Be there at launch
+          - heading [level=2] [ref=e57]:
+            - text: Where every stitch
+            - emphasis [ref=e58]: counts.
+          - generic [ref=e59]:
+            - generic [ref=e60]: Email address
+            - generic [aria-hidden] [ref=e61]: Leave this field empty
+            - textbox [aria-hidden] [ref=e62]
+            - generic [ref=e63]:
+              - textbox "Email address" [ref=e64]:
+                - /placeholder: your@email.com
+              - button "Notify me at launch" [ref=e65] [cursor=pointer]
+          - paragraph [ref=e66]: Free tier from day one. No card required.
+    - contentinfo [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - heading "Tools" [level=2] [ref=e72]
+              - list [ref=e73]:
+                - listitem [ref=e74]:
+                  - link "Cast On Calculator" [ref=e75] [cursor=pointer]:
+                    - /url: /tools/cast-on-calculator/
+                - listitem [ref=e76]:
+                  - link "Yarn Estimator" [ref=e77] [cursor=pointer]:
+                    - /url: /tools/yarn-estimator/
+                - listitem [ref=e78]:
+                  - link "Needle Size Chart" [ref=e79] [cursor=pointer]:
+                    - /url: /tools/needle-size-chart/
+                - listitem [ref=e80]:
+                  - link "Yarn Weight Chart" [ref=e81] [cursor=pointer]:
+                    - /url: /tools/yarn-weight-chart/
+                - listitem [ref=e82]:
+                  - link "Knitting Abbreviations" [ref=e83] [cursor=pointer]:
+                    - /url: /tools/knitting-abbreviations/
+                - listitem [ref=e84]:
+                  - link "Knitting Size Charts" [ref=e85] [cursor=pointer]:
+                    - /url: /tools/knitting-size-charts/
+            - generic [ref=e86]:
+              - heading "Articles" [level=2] [ref=e87]
+              - list [ref=e88]:
+                - listitem [ref=e89]:
+                  - link "Gauge & Calculations" [ref=e90] [cursor=pointer]:
+                    - /url: /articles/category/gauge-calculations/
+                - listitem [ref=e91]:
+                  - link "Yarn" [ref=e92] [cursor=pointer]:
+                    - /url: /articles/category/yarn/
+                - listitem [ref=e93]:
+                  - link "Needles" [ref=e94] [cursor=pointer]:
+                    - /url: /articles/category/needles/
+                - listitem [ref=e95]:
+                  - link "Techniques" [ref=e96] [cursor=pointer]:
+                    - /url: /articles/category/techniques/
+                - listitem [ref=e97]:
+                  - link "App & Tools" [ref=e98] [cursor=pointer]:
+                    - /url: /articles/category/app-tools/
+            - generic [ref=e99]:
+              - heading "App" [level=2] [ref=e100]
+              - list [ref=e101]:
+                - listitem [ref=e102]: Launching soon
+                - listitem [ref=e103]:
+                  - link "About" [ref=e104] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=e105]:
+                  - link "Privacy Policy" [ref=e106] [cursor=pointer]:
+                    - /url: https://finnvek.com/privacy#knittools
+          - img "KnitTools" [ref=e107]
+        - paragraph [ref=e109]:
+          - text: © MMXXVI KnitTools.
+          - link "Finnvek" [ref=e110] [cursor=pointer]:
+            - /url: https://finnvek.com
+          - text: .
+          - link "Contact" [ref=e111] [cursor=pointer]:
+            - /url: mailto:contact@finnvek.com
+          - text: .

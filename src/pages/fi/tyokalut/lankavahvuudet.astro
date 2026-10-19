@@ -37,34 +37,37 @@ const yarnWeightCopy = [
   },
   {
     name: "Super Bulky",
-    regional: "Super Chunky / Bulky / Roving",
+    regional: "Super Chunky / Super Bulky / Roving",
     uses: "Paksut peitot, kaulurit ja nopeasti valmistuvat asusteet",
   },
   {
     name: "Jumbo",
     regional: "Jumbo / Roving",
-    uses: "Käsivarsineulonta, dramaattinen pinta ja erittäin paksut peitot",
+    uses: "Käsivarsineulonta, näyttävä neulepinta ja erittäin paksut peitot",
   },
 ] as const;
 
-const rows = getLocalizedYarnWeightRows(yarnWeightCopy, "s / 10 cm");
+const rows = getLocalizedYarnWeightRows(
+  yarnWeightCopy,
+  "s / 4 in (noin 10 cm)",
+);
 
 const faqs = [
   {
-    q: "Mikä lankavahvuus on yleisin?",
-    a: "Pohjoisamerikkalaisissa ohjeissa worsted on hyvin yleinen. Euroopassa ja UK-ohjeissa DK tulee vastaan jatkuvasti. Molemmilla tekee paljon perusvaatteita ja asusteita.",
+    q: "Mitkä lankavahvuudet ovat monikäyttöisiä?",
+    a: "DK ja worsted sopivat monenlaisiin paitoihin, pipoihin, huiveihin ja peittoihin. Valitse lanka ohjeen neuletiheyden ja haluamasi neulepinnan mukaan.",
   },
   {
     q: "Voiko yhden lankavahvuuden korvata toisella?",
-    a: "Voi, mutta silloin muuttuvat neuletiheys, laskeutuvuus ja menekki. Lähivahvuudet ovat helpompia kuin iso hyppy ohuesta paksuun.",
+    a: "Voi, mutta neuletiheys, laskeutuvuus ja menekki voivat muuttua. Neulo mallitilkku ohjeen mallineuleella, pese ja kuivaa se kuten valmis työ ja tarkista tiheys sekä neulepinta. Vertaa lankojen metrimääriä kerämäärien sijaan. Pelkkä alkuperäinen silmukkamäärä ei kerro uuden langan menekkiä.",
   },
   {
     q: "Mitä kaksinkertaisena neulominen tarkoittaa?",
-    a: "Kaksi lankaa neulotaan yhdessä kuin yksi paksumpi lanka. Kaksi fingering-lankaa voi lähestyä DK-vahvuutta, mutta kuitu, kierre ja ilmavuus vaikuttavat paljon.",
+    a: "Kaksi lankaa neulotaan yhdessä kuin yksi paksumpi lanka. Kaksi fingering-lankaa voi lähestyä DK-vahvuutta, mutta kuitu, kierre ja ilmavuus vaikuttavat paljon. Varmista tulos pestyllä ja kuivatulla mallitilkulla.",
   },
   {
     q: "Miksi lanka näyttää ohuemmalta tai paksummalta kuin vyöte sanoo?",
-    a: "Koska lankavahvuudet ovat alueita, eivät tarkkoja pisteitä. Yksi DK voi olla kategorian ohuessa päässä ja toinen melkein worsted. Myös kuitu vaikuttaa: puuvilla näyttää usein litteämmältä kuin villa, ja alpakka voi pesun jälkeen pöyhistyä. Neuletiheys varmistaa, mihin juuri tämä lanka käytännössä asettuu.",
+    a: "Lankavahvuudet ovat alueita. Kuitu, kierre ja rakenne vaikuttavat ulkonäköön, ja pesu voi muuttaa neulepintaa. Tarkista pesty ja kuivattu mallitilkku sen sijaan, että määrittäisit vahvuuden pelkän ulkonäön perusteella.",
   },
 ];
 ---
@@ -82,6 +85,14 @@ const faqs = [
   variant="sand"
 >
   <div slot="tool">
+    <p>
+      <a href="https://www.craftyarncouncil.com/standards/yarn-weight-system"
+        >CYC:n suuntaa-antavat arvot</a
+      > koskevat sileän neuleen silmukkamäärää 4 tuumalla (noin 10 cm) ja puikkojen
+      aloituskokoa. Pitsineuletta tehdään usein suuremmilla puikoilla: noudata ohjeen
+      neuletiheyttä. Alueelliset nimet ovat likimääräisiä vastineita, eivät tarkkoja
+      muunnoksia.
+    </p>
     <div class="cat-list">
       {
         rows.map((row) => (
@@ -138,7 +149,7 @@ const faqs = [
 
     <h3>Ply ei tarkoita sitä, mitä moni luulee</h3>
     <p>
-      Ply kertoi alun perin säikeiden määrän. Nykyisissä langoissa se on usein
+      Ply voi tarkoittaa säikeiden määrää. Lankojen nimissä se on usein
       alueellinen vahvuusnimi. Nelisäikeinen lanka ei automaattisesti ole
       4-ply-vahvuutta, ja yksisäikeinen lanka voi olla hyvinkin paksu.
     </p>
@@ -166,12 +177,11 @@ const faqs = [
 
     <h2>Miten lankavahvuuskategoriat toimivat</h2>
     <p>
-      Kategoriat ovat käytännöllisiä alueita. Neuleohjeissa yleinen CYC 0-7
-      antaa yleiskuvan siitä, onko lanka pitsiohutta, sukkalankaa, DK-vahvuutta,
-      worstedia vai erittäin paksua. CYC on alkanut lisätä järjestelmään myös
-      Size 8 -luokkaa kaikkein paksuimmille langoille, mutta suurin osa
-      nykyisistä vyötteistä ja ohjeista käyttää yhä 0-7-asteikkoa. Jokaisella
-      alueella on tyypillinen neuletiheys, puikkokoko ja WPI-väli.
+      Tämä sivu kattaa linkitettyjen CYC-taulukoiden luokat 0–7: Lace on
+      pitsiohut ja Jumbo erittäin paksu lanka. Sock ja Baby kertovat
+      tavallisesta käyttökohteesta, eivät yhdestä lankavahvuudesta. Kerän paino
+      grammoina ja langan pituus metreinä ovat eri tietoja; kumpikaan ei yksin
+      määritä lankavahvuutta.
     </p>
 
     <p>
@@ -187,9 +197,15 @@ const faqs = [
     <p>
       Kierrä lanka kynän, viivaimen tai WPI-mitan ympärille. Kierrosten pitää
       olla vierekkäin, ei päällekkäin, eikä lankaa saa venyttää. Laske, montako
-      kierrosta mahtuu noin 2,5 cm matkalle. CYC käyttää näitä väljiä alueita:
+      kierrosta mahtuu 2,54 cm matkalle. CYC käyttää näitä väljiä alueita:
     </p>
 
+    <p>
+      <a
+        href="https://www.craftyarncouncil.com/standards/how-measure-wraps-inch-wpi"
+        >CYC:n WPI-ohje</a
+      >
+    </p>
     <ul>
       <li>30-40+ WPI -&gt; Lace (0)</li>
       <li>14-30 WPI -&gt; Super Fine (1)</li>
@@ -210,7 +226,7 @@ const faqs = [
     <p>
       Pörröinen, löyhästi kierretty tai litteä nauhalanka voi näyttää
       WPI-mittauksessa eri vahvuiselta kuin se käyttäytyy neuleessa. Paksu
-      mohair voi neuloontua ilmavaksi. Tiivis puuvilla voi käyttäytyä raskaammin
+      mohair voi neuloutua ilmavaksi. Tiivis puuvilla voi käyttäytyä raskaammin
       kuin luku antaa ymmärtää.
     </p>
 
@@ -222,10 +238,12 @@ const faqs = [
 
     <h2>Lankavahvuuden valinta projektiin</h2>
     <p>
-      Ohuempi lanka tekee kevyemmän ja hitaammin valmistuvan työn. Paksumpi
-      lanka valmistuu nopeasti, mutta valmis neule voi olla jäykkä, lämmin ja
-      painava. Huivi kestää enemmän kokeilua kuin istuva paita. Vaatteissa
-      kannattaa seurata ohjeen neuletiheyttä tarkemmin.
+      Ohuita lankoja käytetään usein sukkiin, huiveihin ja yksityiskohtaiseen
+      kirjoneuleeseen. DK ja worsted sopivat monenlaisiin vaatteisiin ja
+      peittoihin. Paksulla langalla työ voi edetä nopeasti. Laskeutuvuus,
+      lämpimyys, silmukoiden erottuvuus ja valmiin työn paino riippuvat myös
+      kuidusta, rakenteesta, mallineuleesta ja neuletiheydestä, eivät vain
+      lankavahvuudesta.
     </p>
 
     <h2>Lankavahvuus ja puikkokoko kuuluvat yhteen</h2>

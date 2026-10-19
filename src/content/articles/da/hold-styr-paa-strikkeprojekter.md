@@ -1,7 +1,8 @@
 ---
 title: "Hold styr på flere strikkeprojekter"
-description: "Sådan holder du styr på flere strikkeprojekter uden at miste pinde, garn eller din plads i opskriften. Praktiske systemer der virker."
+description: "Hold styr på strikkeprojekter med opskriftsnoter, færdige pinde og omgange samt garnoplysninger. Praktiske råd om opbevaring, pauser og næste skridt."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 3
 tags:
@@ -18,81 +19,75 @@ lang: da
 translationKey: "organize-knitting-projects"
 ---
 
-De fleste strikkere har mere end ét projekt i gang ad gangen. En kompleks sweater til fokuserede aftener. En enkel strømpe til transport. Et hjerneløst retstrikket tæppe til tv-strik. Forskellige projekter til forskellige humør og energiniveauer. Helt normalt.
+Du kan have flere strikkeprojekter i gang: en krævende sweater til rolige aftener, en strømpe til turen og et enkelt retstrikket tæppe foran tv'et. Forskellige arbejder kan passe til forskellige situationer.
 
-Problemet begynder, når "et par projekter" stille bliver til syv, og du ikke kan huske hvilken pindestørrelse der ligger i den halvfærdige hue, hvilken pind du stoppede på i cardiganen, eller om du allerede købte nøgle nummer to til halsrøret. WIP-styring handler ikke om at begrænse, hvor mange projekter du har. Det handler om at kunne tage et hvilket som helst af dem op uden at bruge ti minutter på at finde ud af, hvor du slap.
+Det bliver besværligt, når du ikke husker pindestørrelsen i den halvfærdige hue, næste pind i cardiganen eller om du allerede købte nøgle nummer to til halsrøret. WIP står for work in progress, et igangværende arbejde. At holde styr på projekterne handler om at gemme de oplysninger, du skal bruge for at fortsætte, ikke om en fast grænse for antallet.
 
 ## Det skal du kunne finde igen
 
-**Hvor du stoppede.** Pindenummer, placering i en rapport, hvilken sektion af opskriften du arbejder på. Det er den information, der er dyrest at genskabe. På en glatstrikket krop kan du tælle pinde i stoffet. På et snoningspanel eller et hulmønsterdiagram kan mistet placering betyde, at du må trevle tilbage til et kendt punkt. [Guiden til at holde styr på pinde og omgange](/da/artikler/hold-styr-paa-pinde-og-omgange/) dækker metoderne mere detaljeret.
+**Opskrift og størrelse.** Noter opskriftens navn, designer, kilde og version eller dato samt den valgte størrelse. Marker størrelsens tal i din arbejdskopi. Følger du forskellige størrelser i forskellige dele, så noter hvert valg. Gem rettelser sammen med kopien, og tjek ændringerne i en ny version, før du overfører egne noter.
 
-**Hvad der ligger i posen.** Pindestørrelse, garnnavn og farve, resterende nøgler. Tag et projekt frem efter en måned, og banderolen er faldet af nøglet. Nu prøver du at identificere mystisk beige DK, og det bliver hurtigt gammelt. Gem banderoler sammen med projektet, eller noter oplysningerne et sted, du faktisk kan finde.
+**Hvor du stoppede.** Angiv del og afsnit, sidste helt færdige pind eller omgang, hvor tællingen starter, placering i rapporten og næste handling. Noter en delvist strikket pind eller omgang særskilt. Eksempel: ”Venstre ærme, 47 omgange færdige efter ribben; næste: omgang 48, rapportomgang 8.” Her begynder rapporten på otte omgange ved omgang 1 uden indledende omgange. Hold oplysningerne for hvert ærme eller hver strømpe adskilt, og før separate oversigter over samtidige formgivninger. Et tal på en tæller giver ikke hele sammenhængen. [Guiden til at holde styr på pinde og omgange](/da/artikler/hold-styr-paa-pinde-og-omgange/) dækker metoderne mere detaljeret.
 
-**Hvad du har besluttet.** Ændringer, størrelsesjusteringer, noter du lavede undervejs. "Lægger 5 cm til kropslængden" er oplagt, når du besluttede det i går. Det er usynligt, når du tager projektet op om tre uger. Det samme gælder skift af pindestørrelse midt i projektet, pinden hvor du startede et nyt nøgle for at kunne hæfte ender senere, og alle steder hvor du afveg fra diagrammet.
+**Hvad der ligger i posen.** Noter pindenes diameter i mm, type og længde. For rundpinde: angiv, om længden er inklusive spidserne. Skriv maske- og pinde-/omgangsfasthed, maskemønster og om strikkeprøven blev målt før eller efter vask/blokning og tørring. Hold resultaterne adskilt. Gem banderolerne og garnoplysningerne nedenfor.
 
-**Hvor arbejdsgarnet er.** Mere præcist: kommer garnet indefra eller udefra på nøglet, og hvilket nøgle i rækkefølgen er aktivt? Det betyder noget, når du skifter mellem to farvepartier, tilføjer en kontrastfarve på en bestemt pind eller har delt et nøgle til matchende ærmer og skal vide, hvilken halvdel der hører til hvilken side.
+**Hvad du har besluttet.** Noter ændringer og deres startpunkt, også skift af pindestørrelse. ”Læg 5 cm til kroppen før ærmegabsformningen” er mere nyttigt end et løst længdemål. Skeln mellem udførte og planlagte ændringer. Fotos kan supplere noter, men erstatter ikke nedskrevne mål eller ændringer.
+
+**Hvor arbejdsgarnet er.** Noter efter behov, om garnet kommer indefra eller udefra på nøglet, og hvilket nøgle der er i brug. Det er nyttigt, når du skifter mellem farvepartier, tilføjer kontrastgarn eller fordeler garn mellem ærmerne.
 
 ## Fysisk organisering
 
-Én pose pr. projekt. Det er hele systemet. Projektet, pindene, opskriften, resterende garn og eventuelle noter bor sammen. Skift projekt, tag en anden pose. Intet blandes.
+Én pose pr. projekt er en enkel mulighed. Hold arbejdet, pindene, opskriftskopien og noterne samlet. Ekstra nøgler til større arbejder kan ligge separat, mærket med projektnavn og garnoplysninger. Marker dem som reserveret, så det samme garn ikke sættes af til to projekter.
 
-Beholderen betyder ikke så meget. En lynlåspung, en projektpose med snøre, en ziplock til små projekter. Det vigtige er, at hvert projekt er selvstændigt.
+Vælg opbevaring med plads til arbejdet, og tjek sømme, lukninger og løse småting, som garnet kan hænge fast i. Materialet alene afgør ikke, hvor godt posen beskytter. Følg garnets plejeanvisninger ved opbevaring frem for at antage, at én pose passer til alle fibre.
 
-Til større projekter med flere nøgler kan du have arbejdsgarnet i posen og opbevare ekstra nøgler separat, men mærket. Et stykke malertape med projektnavnet løser problemet med seks cremefarvede DK-nøgler fra tre forskellige mærker i garnlageret, uden at du ved hvad der hører til hvor.
-
-Projektposens materiale har også praktisk betydning. Lette stofposer er behagelige at bruge, men beskytter begrænset mod masker der hænger fast, fnug eller småting der ligger løst. Lynlåsposer i plast med netvindue klarer de problemer bedre og lader dig se indholdet uden at åbne. Større projekter ligger bedre i en tote med snørelukning; ærmer og halvfærdige bærestykker har ikke godt af at blive presset ned i noget på størrelse med en strømpepose.
+Sikr de åbne masker, før du lægger arbejdet væk. Tager du udskiftelige pindespidser af, kan maskerne blive på en passende wire med endestoppere eller flyttes til en egnet maskeholder. Noter spidsernes størrelse, og hvor du lægger dem.
 
 ## Hold styr på hvor du slap
 
-Papirnoter virker, hvis du er disciplineret nok til at opdatere dem. Skriv det aktuelle pindenummer på en sticky note, sæt den på opskriften, og opdater når du stopper. Problemet: efter en god strikkesession kræver det en vane at skrive en note, før pindene lægges væk. Mange får den ikke.
+Både papirnoter og digitale noter skal opdateres. Skriv sidste færdige pind eller omgang og næste handling, når du stopper. Viser tælleren færdige pinde eller omgange, øger du først tallet, når hele pinden eller omgangen er færdig. Delvist strikket arbejde kræver en særskilt note.
 
-Et digitalt projektværktøj på telefonen håndterer det mere pålideligt. Det gemmer omgangs- eller pindeantal automatisk, registrerer hvornår du sidst arbejdede på projektet, og viser alle aktive projekter i én liste. I stedet for at rode gennem poser ser du det hele med det samme: snoningscardigan, pind 47, sidst arbejdet tirsdag. Enkle strømper, hælvending, sidst arbejdet for en uge siden.
+En app kan være praktisk, men tjek, hvad den faktisk registrerer. Datoen for en session er ikke en præcis plads i opskriften, og appen kender ikke ændringer, du ikke har skrevet ind. Lokal lagring, eksport af en kopi, sikkerhedskopiering og gendannelse, synkronisering mellem enheder og deling af et projekt er forskellige funktioner.
 
-[KnitTools](/da/strikkevaerktoejer/#join) bygges til at organisere projekter med tilknyttet garn, omgangstæller, sessionshistorik og opskriftsnoter ét sted. Målet er enkelt: åbn et projekt, og kom tilbage til arbejdsstedet uden at genskabe det fra hukommelsen.
+KnitTools udvikles til Android med projekttællere, sessionshistorik og projektnoter. Du indtaster selv tal og noter. Oprettelse af nye projektnoter kræver Pro-adgang; eksisterende noter kan stadig bruges bagefter. Garnoplysninger kan skrives manuelt i noter. Det betyder ikke et særskilt felt til hver oplysning eller automatisk fradrag af garnforbrug. [Få besked, når KnitTools lanceres](/da/strikkevaerktoejer/#join).
 
 ## Vælg hvad du vil strikke på
 
-Flere WIP'er bliver stressende, når du får dårlig samvittighed over dem, du ikke rører. Nogle tilgange hjælper:
+Vælg det, der passer til din hverdag. Forslagene er muligheder, ikke regler for produktivitet.
 
-**Ét hovedprojekt, ét transportprojekt, ét hjerneløst projekt.** Tre aktive kategorier holder antallet håndterbart og giver stadig valgmuligheder. Hovedprojektet får fokuseret tid. Transportprojektet rejser med. Det hjerneløse projekt fylder de stunder, hvor du vil strikke, men ikke tænke. Alt andet ligger i kø, ikke på den aktive liste.
+**Ét hovedprojekt, ét til turen, ét enkelt.** Du kan have et krævende arbejde, et at tage med og et let arbejde i gang. Tre kategorier er et forslag, ikke en grænse.
 
-**Rotation.** Afsæt bestemte sessioner til bestemte projekter. Hverdagsaftener er til sweateren, weekender til sjalet. Det forhindrer mønsteret, hvor du altid tager det letteste projekt, mens det komplekse ligger urørt.
+**Rotation.** Prøv at afsætte hverdagsaftener til sweateren og weekender til sjalet. Ret planen til, når den ikke længere passer.
 
-**Milepæle.** "Færdiggør bærestykket, før du starter noget nyt" virker bedre end "jeg burde strikke på sweateren". Konkrete mål giver noget at sigte efter. At registrere tid pr. projekt kan også afsløre mønstre. Hvis et projekt bliver sprunget over igen og igen, er det måske tid til at beslutte dig: fortsæt, sæt det bevidst på pause, eller tag garnet tilbage.
+**Milepæle.** ”Gør bærestykket færdigt, før jeg begynder på noget nyt” er ét muligt mål. Et arbejde, der tit bliver liggende, kan du fortsætte med, sætte bevidst på pause eller trevle op.
 
-**Match projektet med øjeblikket.** Snoningsdiagrammer og hulmønstre kræver opmærksomhed, så de passer til en rolig aften derhjemme. Enkle strømpeomgange fungerer i toget, i et venteværelse eller under en telefonsamtale. Når projektet passer til den tid og ro du faktisk har, får du fremdrift i stedet for at tage den forkerte pose frem og lægge den tilbage fem minutter senere.
+**Tilpas projektet til situationen.** Måske gemmer du snoningsdiagrammet til en rolig aften og strikker enkle strømpeomgange på turen. Vælg efter den opmærksomhed, du har til rådighed.
 
-## Når en WIP bliver en UFO
+## Sæt et projekt på pause eller afslut det
 
-En WIP er et projekt, du har tænkt dig at vende tilbage til. En UFO er et projekt, du har forladt, men ikke helt indrømmet det endnu.
+En lang pause betyder ikke i sig selv, at du har opgivet arbejdet. Opdater noterne, sikr maskerne, og mærk det reserverede garn, før du lægger det væk. Tjek opskrift, størrelse, materialer og stoppunkt mod selve strikketøjet, når du vender tilbage.
 
-Tegn: du kan ikke huske hvilken størrelse du strikkede. Opskriften er væk, eller du kan ikke finde den rigtige side. Garnet er delvist blevet brugt til noget andet. Sæsonen det var tænkt til, er gået forbi to gange.
-
-Det er fint at opgive projekter. Trevl dem op, tag garn og pinde tilbage, fjern dem fra den aktive liste. Fem projekter med klar intention er lettere at håndtere end fem projekter plus tre skyldtunge spøgelser bagerst i skabet.
+Du må også vælge ikke at gøre arbejdet færdigt. Trevler du op, så tjek garnets tilstand og mængde, før du bruger det til noget andet. Opdater projektlisten og garnoversigten. Når arbejdet er færdigt, kan du notere de endelige ændringer og restgarnet, før du arkiverer noterne.
 
 ## Hold styr på garn på tværs af projekter
 
-Når du har flere projekter i gang, bliver garnlogistikken filtret. Hvilke projekter bruger samme garntykkelse? Er der nok tilbage i nøglet til at færdiggøre den anden strømpe? Har du allerede købt kontrastfarven til bærestykket?
+Noter mærke og garnnavn, fiberindhold, farvenavn eller farvenummer, farveparti, løbelængde pr. nøgle og nøglets vægt. Det er forskellige oplysninger: samme farvenummer betyder ikke samme farveparti, og samme garntykkelse betyder ikke samme garn.
 
-At holde styr på garn pr. projekt, hvor meget du startede med, og hvor meget der er tilbage, forhindrer de to værste udfald: at løbe tør midt i projektet med et udgået farveparti, og at købe dubletter fordi du har glemt, hvad du allerede har.
+Skeln mellem indkøbt mængde, mængde reserveret til et projekt og det, der faktisk er tilbage. Reserveret garn er en del af lageret, ikke en ekstra mængde, der skal lægges til. Opdater reservationen, når garn flyttes mellem projekter. Oversigten kan hjælpe med indkøb, men garanterer ikke, at garnet rækker, eller at du undgår dobbeltkøb.
 
-Et nyttigt trick til aktive projekter: vej restgarnet med nogle sessioners mellemrum, og skriv gramvægten ned med dato. Hvis et sweaterærme brugte 47 g, har du et nyttigt estimat for det andet ærme, men læg en buffer til for normal variation. Det gør et uklart "jeg tror der er nok" til et mere konkret planlægningstjek.
-
-Gem garnets banderoleoplysninger, så garntykkelse, fiberindhold, vaskeanvisning og farveparti stadig er tilgængelige, når den fysiske banderole løsner sig fra nøglet. KnitTools bygges til at holde de noter sammen med det projekt, de hører til.
+Du kan veje et påbegyndt nøgle uden banderole eller beholder og notere gram og dato. Antag eksempelvis, at første ærme brugte 47 g. Det giver et udgangspunkt for et tilsvarende andet ærme i samme garn og med samme strikkefasthed. Tag højde for ændringer, montering og måleusikkerhed; 47 g tilbage er ingen garanti for, at der er nok.
 
 ## Minimalversionen
 
-Som minimum: én pose pr. projekt. En note i hver pose (eller et digitalt projektværktøj) med aktuelt pindenummer og eventuelle ændringer. En liste et sted, telefon, notesbog, whiteboard, over alle aktive projekter, så du kan se hele billedet.
-
-Det er nok til at tage ethvert projekt op uden forvirring og opdage det, før antallet af WIP'er løber fra dig.
+Hold hvert projekts materialer adskilt og genkendelige, og noter opskrift, størrelse, sidste færdige pind eller omgang, rapportposition, ændringer og næste handling. Hav en liste over aktive arbejder og arbejder på pause. Tilføj pinde-, strikkefastheds- og garnoplysninger, som du ellers skulle finde frem igen.
 
 ## FAQ
 
 **Hvor mange projekter er for mange?**
-Der er ikke et universelt tal. Hvis valgmulighederne føles overvældende i stedet for energigivende, har du for mange. En brugbar aktiv liste er lille nok til, at hvert projekt stadig får reel opmærksomhed.
+Der er ikke et universelt tal. Hvis listen er svær at håndtere, kan du sætte nogle arbejder på pause eller forenkle noterne. Alle projekter behøver ikke få lige meget tid.
 
 **Skal jeg færdiggøre ét projekt, før jeg starter et andet?**
-Strik-monogami virker for nogle. De fleste oplever, at flere projekter faktisk har en funktion. Forskellige situationer og energiniveauer vil have forskellig strik. Pointen er at have et system, ikke at fjerne variationen.
+Begge dele kan passe. Ét arbejde holder den aktive liste kort; flere giver forskellige typer strik at vælge imellem. Vælg det, du finder praktisk.
 
 **Hvordan tager jeg et projekt op, jeg ikke har rørt i måneder?**
-Find ud af hvor du er: tæl pinde, læs stoffet, tjek noter. Hvis du bruger et digitalt projektværktøj, fortæller pindeantal og sessionshistorik, hvor og hvornår du stoppede. Strik nogle få pinde langsomt for at finde spændingen og maskemønsteret igen, før du øger tempoet. Hvis opskriften er kompleks, så læs den relevante sektion, ikke hele opskriften fra side ét.
+Tjek opskriftsversion, størrelse, ændringer, pinde og garn. Sammenlign noter og tællerstand med strikketøjet. Find sidste færdige pind eller omgang og eventuelt delvist strikket arbejde, og bekræft næste instruktion og formgivning. Sessionshistorikken alene viser ikke dette sted. Er du i tvivl, så find et kendt punkt, før du fortsætter, og sammenlign strikkefastheden med de noterede mål.

@@ -1,7 +1,8 @@
 ---
-title: "Redd mistede masker uten å rekke opp"
+title: "Redd mistede masker med heklenål"
 description: "Redd mistede masker i strikking med heklenål. Dekker glattstrikk, vrangside, rillestrikk og hvordan du oppdager en maske før den løper."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 3
 tags:
@@ -16,91 +17,101 @@ lang: no
 translationKey: "fix-dropped-stitches"
 ---
 
-En mistet maske betyr ikke at du må rekke opp hele stykket. I de fleste glatte strikkeflater kan du redde den med en heklenål. Masken glir av pinnen, og hvis du ikke fanger den, løper den ned gjennom pinnene under som en stige i en strømpe. Men hvert trinn i den stigen er en garntråd som kan trekkes tilbake gjennom masken, én pinne om gangen, til masken er tilbake på pinnen.
+En mistet maske betyr ikke nødvendigvis at hele arbeidet må rekkes opp. I vanlig glattstrikk kan du bygge opp én maskekolonne med heklenål fra den åpne løkken og de vannrette trådene over den. Hver tråd svarer til én pinne som er raknet. Rillestrikk og vrangbord trenger rekkefølgen av rette og vrange masker nedenfor.
 
-For å fikse en mistet maske setter du heklenålen gjennom den løse løkken, fanger den horisontale tråden bak den og trekker tråden gjennom. Gjenta for hver pinne masken har løpt ned. Ha en heklenål omtrent på størrelse med strikkepinnene i tilbehørsmappen. Du kommer til å bruke den.
+Metodene gjelder en vanlig maske inne i arbeidet, uten forming eller mønsterskifte i den skadde kolonnen. Foran betyr mot deg, bak betyr bort fra deg, uavhengig av plaggets rettside og vrangside. Her henter du opp en eksisterende maske, ikke nye masker langs en kant.
 
 ## Første grep: stopp løpet
 
-Så fort du oppdager en mistet maske, sett en låsbar maskemarkør, sikkerhetsnål eller binders gjennom den levende løkken. Da kan den ikke løpe lenger ned mens du strikker ferdig pinnen, tar frem heklenålen eller legger arbeidet fra deg. Sikre først. Reparer etterpå.
+Sett straks en låsbar maskemarkør gjennom den åpne løkken nederst i stigen. Skyv maskene på pinnene bort fra spissene eller bruk pinnestoppere. Sikre først, hent heklenålen etterpå.
 
-Denne ene vanen hindrer de fleste "jeg la det fra meg i fem minutter, og nå har masken løpt tjue pinner" -situasjoner. Marker først, fiks når du har tid og godt lys.
+Finn kolonnen og arbeid frem til den før reparasjonen. Hold løkken sikret når du snur arbeidet eller bytter redskap. Ikke strekk stigen fra hverandre.
 
 ## Fikse en mistet rettmaske
 
-Den vanligste situasjonen. En maske har falt av og løpt ned på rettsiden av glattstrikk.
+Hold rettsiden av glattstrikken mot deg, med V-maskene synlige. [DROPS viser fremgangsmåten](https://www.garnstudio.com/lesson.php?id=10&cid=1).
 
-Sett heklenålen gjennom den mistede masken fra forsiden mot baksiden. Den løse horisontale tråden, stigetrinnet, ligger bak masken. Hekt tråden og trekk den gjennom. Én pinne hentet opp.
+1. Stikk heklenålen gjennom løkken forfra og bakover uten å krysse maskebeina. Flytt løkken fra markøren til heklenålen.
+2. Finn den nederste ubrukte tråden rett over løkken. Følg den til nabomaskene hvis trådene krysser hverandre. Den skal ligge bak løkken.
+3. Hent tråden og trekk den frem gjennom løkken. Den gamle løkken går av heklenålen, den nye blir igjen: én pinne er gjenopprettet.
+4. Fortsett nedenfra og opp med én tråd om gangen. Bruk hver tråd én gang; ikke hopp over en eller trekk to gjennom samtidig.
+5. Snu tilbake til stillingen for videre strikking. Sett masken på riktig plass: venstre pinne hvis den ennå ikke er strikket på denne pinnen, høyre hvis den allerede er strikket. Ikke strikk samme pinne to ganger i kolonnen.
 
-Hvis masken har løpt flere pinner, ligger flere tråder stablet bak den. Arbeid hver tråd nedenfra og opp, og trekk hver tråd gjennom masken på heklenålen. Når alle trådene er arbeidet, er masken tilbake på nåværende pinne. Skyv den fra heklenålen over på venstre pinne, og pass på at den ikke er vridd, med høyre maskeledd foran pinnen.
+Her brukes vestlig maskeplassering: den ustrikkede masken på venstre pinne har høyre maskebein foran, slik at du kan strikke gjennom fremre maskeledd uten å krysse beina. Kontroller etter at du har snudd. Andre plasseringer er ikke feil i seg selv, men innstikket må passe til plasseringen.
+
+Tell maskene, se kolonnen fra begge sider og fordel slakk forsiktig til nabomaskene. I et felt med 20 masker uten økninger eller fellinger gir én mistet kolonne 19 masker på pinnene og én løs løkke. Fire stigetråder gjenoppretter fire pinner, men bare én maske på pinnen: totalt 20, ikke 23.
 
 ## Fikse en mistet vrangmaske
 
-Samme reparasjon, motsatt retning. Den mistede masken ligger på vrangsiden av glattstrikk, eller i en vrang kolonne i vrangbord.
+Hold siden med vrangbuler mot deg: vrangsiden av glattstrikk, rettsiden av vrang glattstrikk eller en vrang kolonne i vanlig vrangbord. [Nimble Needles viser retningen](https://nimble-needles.com/tutorials/how-to-fix-a-dropped-stitch-in-knitting/) (på engelsk).
 
-Sett heklenålen gjennom masken fra baksiden mot forsiden. Denne gangen ligger tråden foran. Hekt den og trekk gjennom.
+1. Hold løkken sikkert og legg den nederste ubrukte tråden foran den, mot deg. Flytt løkken i forhold til tråden uten å vri den.
+2. Stikk heklenålen gjennom løkken bakfra og frem. Hent tråden foran og trekk den bakover gjennom løkken, bort fra deg. Behold den nye løkken; én vrang maske er gjenopprettet.
+3. Hold den nye løkken mens du tar ut heklenålen og stikker den inn bakfra igjen. Legg neste tråd foran og gjenta oppover, én tråd per pinne.
 
-Vrangside-reparasjoner kan føles fiklete. En løsning: snu arbeidet slik at vrangsiden blir siden du jobber fra, reparer masken som en rettmaske, og snu tilbake. Samme resultat.
+Du kan også snu arbeidet slik at baksiden av akkurat denne vrange kolonnen vender mot deg og viser rette V-masker. Bruk rettmaskemetoden og snu tilbake. Plaggets rettside og vrangside bytter ikke navn. Kontroller plassering, antall, mønster og stramhet som ovenfor.
 
 ## Fikse en mistet maske i rillestrikk
 
-Rillestrikk veksler rett og vrang fra pinne til pinne sett fra samme side, som betyr at stigetrådene veksler mellom å ligge bak og foran masken. Du kan ikke trekke hver tråd fra samme retning.
+Rillestrikk frem og tilbake strikkes rett på hver pinne, med vending mellom pinnene. Sett fra samme side veksler derimot rette og vrange pinner. Én rille tilsvarer to pinner; tell hver stigetråd, ikke rillene.
 
-Arbeid én tråd som rettmaske, heklenål fra forsiden, tråd bak. Neste tråd som vrangmaske, heklenål fra baksiden, tråd foran. Veksle for hver pinne.
+Hold samme side mot deg. Se på de hele maskene ved siden av den nederste manglende pinnen: skal du først lage en rett V eller en vrangbule? Ikke start automatisk med rett.
 
-Hvis du mister oversikten: se på masken du nettopp laget. Vrangkul øverst betyr at neste tråd skal gjennom som rett. Glatt V betyr at neste skal gjennom som vrang.
+1. Rett nivå: legg tråden bak løkken, stikk heklenålen forfra og bakover og trekk tråden frem gjennom løkken.
+2. Vrangt nivå: sikre løkken mens du flytter heklenålen. Legg tråden foran, stikk heklenålen bakfra og frem og trekk tråden bakover gjennom løkken.
+3. Veksle oppover og bruk hver neste tråd nøyaktig én gang. Hold løkken ved hvert skifte og kontroller at rillene ligger på linje med resten av arbeidet.
 
-Langsommere og mer feilutsatt enn glattstrikk. Ta én tråd av gangen.
+[DROPS viser retningsskiftet](https://www.garnstudio.com/video.php?id=505&lang=no). Fire manglende pinner trenger fire tråder og to par rette/vrange masker, med første masketype bestemt av nabomaskene. Kontroller til slutt plassering på pinnen, antall og stramhet.
 
 ## Fikse en mistet maske i vrangbord
 
-Vrangbord er kolonner med rette og vrange masker. Finn ut om den mistede masken hører til en rett kolonne eller en vrang kolonne ved å se på maskene på hver side.
+Vanlig vrangbord med 1 rett, 1 vrang eller 2 rette, 2 vrange har faste kolonner. Hold samme side mot deg og følg den skadde kolonnen fra de hele maskene nedenfor og oppskriften. Nabomasken kan tilhøre en annen kolonnetype.
 
-Rett kolonne: fiks som en serie rettmasker, tråd bak, heklenål forfra. Vrang kolonne: fiks som en serie vrangmasker, tråd foran, heklenål bakfra. Ikke veksle slik du gjør i rillestrikk. Hver kolonne er konsekvent.
+Reparer en rett kolonne med rette masker på hvert nivå og en vrang med vrange. Du kan snu til den vrange kolonnens rette side under hele reparasjonen og så snu tilbake. Ikke veksle innenfor kolonnen som i rillestrikk. Kontroller vrangborden og antallet. Dette gjelder ikke patentstrikk, vridd vrangbord eller overgangen til et annet mønster.
 
 ## Fange den før den løper
 
-En mistet maske som ikke har løpt ennå, en levende løkke under pinnen uten stige, er den letteste reparasjonen. Sett den tilbake på venstre pinne. Ferdig. Ingen stige å hekle opp.
+Har masken bare glidd av uten å rakne, finnes en åpen løkke, men ingen stige. Sikre løkken og sett den på opprinnelig plass: venstre pinne hvis ustrikket, høyre hvis allerede strikket på denne pinnen. Kontroller plassering og antall; ikke lag en ekstra maske med arbeidstråden.
 
-For å oppdage mistede masker tidlig: kast et blikk på pinnen med jevne mellomrom. En manglende maske viser seg som et hull og en løs tråd der masken skulle vært. Fanger du den innen en pinne eller to, er det en rask reparasjon. Tjue pinner senere betyr lang stige.
+Et hull alene beviser ikke at en maske er mistet. Et utilsiktet kast øker antallet, en feilstrikket rett eller vrang maske finnes fortsatt, og en maske som tas løs av med vilje, blir på en pinne. Mønstre med masker som skal slippes ned, har egne instrukser. Finn den åpne løkken og sammenlign antallet med oppskriften.
 
-Maskemarkører hjelper. Sett én hver 20. maske, så trenger du bare telle innenfor en liten seksjon for å finne problemet.
+Sett for eksempel en markør hver 20. maske og tell feltene. Ta hensyn til oppskriftens økninger og fellinger.
 
 ## Livline som forebygging
 
-En livline er en glatt tråd i kontrastfarge, for eksempel tanntråd, tynn bomullstråd eller glatt restegarn, som trekkes gjennom en hel pinne med levende masker på et trygt punkt i prosjektet. Hvis en maske mistes og løper lenger enn du enkelt kan fange den, stopper livlinen løpet der du la den inn. I verste fall rekker du opp tilbake til livlinen. Alle maskene ligger fortsatt trygt på tråden.
+En livline er en glatt kontrasttråd gjennom alle åpne masker på en kontrollert pinne. Den holder disse løkkene hvis du rekker opp, men beskytter bare maskene den går gjennom og retter ikke tidligere feil. [Knit Picks beskriver metoden](https://blog.knitpicks.com/how-to-use-a-lifeline-for-lace-knitting/) (på engelsk).
 
-Tre livlinen med stoppenål gjennom hver levende maske på pinnen, ikke gjennom selve pinnen. La endene henge langt nok ut til at tråden ikke dras ut mens du strikker videre.
+Tre med stoppenål gjennom løkkene mens de fortsatt sitter på pinnen, også kastene som tilhører denne pinnen. Ikke splitt garnet, og gå utenom avtakbare maskemarkører. La endene være lange og sikret, og noter pinnen eller diagramposisjonen. Ikke strikk livlinen sammen med maskene på neste pinne.
 
-Bruk livline før vanskelige partier: hullmønsterdiagrammer, flettekryss eller starten på en lang formingssekvens. I vanlig glattstrikk er det sjelden nødvendig. I kompliserte mønstre der én mistet maske kan ødelegge en hel diagramdel, sparer den mye arbeid.
+Velg en pinne der du kan kjenne igjen alle maskene før en vanskelig del. Ved opprekking setter du alle løkkene tilbake på en pinne og kontrollerer antall og plassering før livlinen fjernes. Fortsett med pinnen etter den du noterte. Bruk en mønsterspesifikk veiledning eller be om hjelp hvis strukturen er uklar.
 
 ## Når en maske løper helt ned til oppleggskanten
 
-Hvis masken har løpt helt ned og det fortsatt finnes en tråd å jobbe fra, kan du noen ganger bygge opp kolonnen igjen. Bruk heklenålen til å trekke den nederste tråden gjennom seg selv og lage en ny grunnløkke, og arbeid deretter hver tråd over den. Grunnløkken er ikke helt lik en oppleggsmaskes struktur, så sjekk kanten etter [blokking](/no/artikler/blokke-strikk-vatt-damp-spray/). Hvis oppleggskanten har åpnet seg eller blitt tydelig skjev, er det som regel penere å rekke opp.
+Se først etter en hel løkke nederst i kolonnen. Er opplegget intakt, sikrer du løkken og bygger opp pinnene over den i rekkefølge.
 
-Hvis løpet har gått langt og trådene er flokete, fest området med en låsbar maskemarkør for å hindre mer skade mens du reparerer.
+Hvis selve oppleggsmasken er raknet, mangler stigereparasjonen et helt utgangspunkt. Ikke trekk en tilfeldig nederste tråd gjennom seg selv og anta at kanten er reparert. Metoden avhenger av opplegget: [VeryPinks veiledning](https://verypink.com/2019/02/06/recovering-a-dropped-cast-on-stitch/) (på engelsk) gjelder opplegg med lang trådende. Sikre naboløkkene og følg en veiledning for ditt opplegg, eller start på nytt hvis kanten ikke kan gjenopprettes. Kontroller kanten før du fortsetter; blokking erstatter ikke en manglende maske.
 
 ## Fikse en vridd maske ti pinner senere
 
-Du strikker ferdig en bit, ser ned og oppdager at én maske i en kolonne sitter litt strammere og heller feil vei. Ofte er det en vridd maske fra en rask reparasjon. Stoffet er ikke ødelagt, men kolonnen leses annerledes enn maskene rundt.
+En allerede strikket vridd maske har kryssede bein i selve stoffet. Å snu den åpne løkken på pinnen fjerner ikke en vridning flere pinner nedenfor.
 
-For én vridd maske kan du slippe ned akkurat den kolonnen til feilen og arbeide den opp igjen med riktig retning. La den levende løkken gli av pinnen, la kolonnen løpe ned til den vridde masken, og bruk heklenålen til å klatre opp igjen, én tråd om gangen. Du reparerer én kolonne, ikke hele pinnen. Mye mindre arbeid enn å rekke opp en hel seksjon.
+I én vanlig kolonne uten forming: sikre den hele masken rett under feilen med en låsbar markør. Arbeid frem til kolonnen, sikre nabomaskene og rekk bare denne kolonnen ned til markøren, også den feilstrikkede masken. Bygg opp hver tråd i den rette/vrange rekkefølgen stoffet krever. Kontroller at krysningen er borte, samt plassering, antall og stramhet. En feilstrikket rett eller vrang maske kan rettes på samme måte, men er ingen manglende maske.
 
-Noen vridde masker er ikke verdt å rette. Én vridd maske midt i et rillestrikket skjerf synes sannsynligvis bare for deg. Velg hva som er verdt tiden.
+Ved flettekryss, økning eller felling er ikke denne enkle rekkefølgen nok. Følg en veiledning for strukturen eller rekk opp til en kontrollert pinne. Et rent utseendeavvik velger du selv om du vil rette; en løs åpen løkke må fortsatt sikres.
 
 ## Mohair og andre garn som hekter
 
-Børstede garn, mohair, børstet alpakka og loddent entrådet garn gjør alle reparasjoner vanskeligere. Fibrene griper tak i hverandre og vil ikke trekkes rent gjennom. Heklenålen hekter i hver tråd, og å rekke opp er også sakte fordi pinnene ikke skiller seg uten motstand.
+Hvis fibrene hekter seg sammen, slik de kan gjøre i børstet mohair eller alpakka, løsner du trådene forsiktig i stedet for å stramme stigen. Velg en heklenål som passer i løkken og henter hele garntråden uten å splitte den. En litt mindre heklenål kan hjelpe i en trang løkke.
 
-Bruk en heklenål litt mindre enn du ellers ville valgt, slik at den glir gjennom tett fiber uten å fange ekstra tråder. Arbeid langsomt og ikke rykk. Hvis garnet ikke flytter seg uten kraft, kan det være tryggere å gå noen masker tilbake enn å tvinge frem en lang stigereparasjon.
+Ikke tving løs tråder som sitter fast. Ved en feil like i nærheten kan du strikke bakover maske for maske: fang den frigjorte løkken fra pinnen under før du løser neste maske. En fjern eller flokete feil krever et gjenkjennelig sted å gå tilbake til.
 
 ## Når du bør rekke opp i stedet
 
-Ikke alle mistede masker er verdt å fikse på stedet. Hvis den falt i et komplisert flette- eller hullmønster, må reparasjonen gjenskape nøyaktig maskesekvens, kast, fellinger og flettekryss for hver pinne den løp gjennom. Det kan være vanskeligere enn å rekke opp.
+Samme metode for én kolonne passer ikke uendret overalt. Fletter, hullmønstre, økninger, fellinger og flerfargestrikk krever den faktiske maske- og garnrekkefølgen på hvert nivå. Kantmasker og flere mistede nabomasker trenger også tilpasset reparasjon; sikre hver løkke først.
 
-For enkle masker, glattstrikk, rillestrikk og vrangbord, i glatt garn, fungerer heklenålmetoden som regel rent. For strukturmønstre avhenger det av hvor mange pinner du må rekonstruere, og hvor komplisert hver pinne er. To pinner i en flette: mulig. Ti pinner i et komplisert hullmønsterdiagram: sannsynligvis raskere å rekke opp.
+Kan du ikke identifisere alle tråder og masker, rekk opp til en kontrollert livline eller en pinne der du kan fange alle maskene. Antallet pinner avgjør ikke alene om reparasjonen er mulig. Kontroller antall, mønster, stramhet og målene i det reparerte området. Usynlig reparasjon og uendret passform er ikke garantert.
 
-Loddent garn, mohair eller børstet alpakka, gjør reparasjoner vanskeligere fordi fibrene henger fast og motsetter seg å trekkes rent gjennom. Jobb langsomt med en heklenål litt mindre enn du ellers ville brukt.
+Har du strikket flere pinner mens masken manglet, kan de øverste mellomrommene ha for lite garn til å bygge opp kolonnen. Ikke tving korte tråder til nye masker. Rekk opp til der stigen har nok garn, eller få hjelp til en egnet reparasjon.
 
 ## FAQ
 
@@ -108,16 +119,16 @@ Loddent garn, mohair eller børstet alpakka, gjør reparasjoner vanskeligere for
 Nær pinnestørrelsen eller litt mindre. For stor passer ikke gjennom masken. For liten får ikke godt tak i tråden. Eksakt match er ikke nødvendig.
 
 **Vil den fiksete masken se annerledes ut?**
-Noen ganger litt. Spenningen i reparerte masker kan bli ujevn fordi du trekker garn gjennom for hånd. Blokking jevner det som regel ut. Hvis en maske ser stram eller løs ut, dra litt i maskene rundt for å fordele garnet.
+Noen ganger. Fordel slakk forsiktig gjennom nabomaskene uten å rykke. [Blokking](/no/artikler/blokke-strikk-vatt-damp-spray/) etter garnets vaskeanvisning kan hjelpe stoffet å legge seg, men retter ikke kryssede maskebein, hoppede tråder eller feil maskeantall og garanterer ikke en usynlig reparasjon.
 
 **Kan jeg bruke en strikkepinne i stedet?**
-For én pinne, ja. Plukk opp masken og tråden på pinnespissen og før den ene gjennom den andre. For flere pinner er heklenål langt enklere, fordi kroken fanger og trekker i én bevegelse.
+Ja, for en rett maske som er raknet én pinne. Hold rettsiden mot deg, sett løkken på venstre pinne med høyre bein foran og stigetråden bak. Stikk høyre pinne inn som til en rett maske, trekk den eksisterende tråden gjennom i stedet for arbeidstråden og slipp den gamle løkken av. Sett den nye på riktig plass og kontroller plasseringen. Nimble Needles-veiledningen ovenfor viser også pinnemetoden; heklenål er enklere over flere pinner.
 
 **Hva hvis jeg vrir masken når jeg setter den tilbake?**
-En vridd maske ligger med maskebeina krysset, venstre bein foran. Den gir en strammere, litt skrå maske. Hvis du oppdager det med en gang, ta den av, snu den og sett den tilbake. Hvis du ikke ser det før senere, er én-kolonne-metoden over som regel raskere enn å rekke opp.
+Venstre maskebein foran pinnen betyr ikke automatisk en vridd maske. [Patty Lyons forklarer plassering og innstikk](https://pattylyons.com/2016/03/tuesday-tip-how-avoid-twisted-stitches/) (på engelsk). For den vestlige metoden her: støtt løkken med pinne eller heklenål og sett den tilbake med høyre bein foran før du strikker gjennom fremre maskeledd. Ikke slipp den fritt. En krysning som allerede er strikket inn i stoffet, trenger reparasjonen ovenfor.
 
 **Kan jeg la en mistet maske stå og fikse den etter avfelling?**
-Ikke hvis det fortsatt finnes en levende løkke. Masken fortsetter å løpe hver gang du håndterer arbeidet. Reparer den eller lås den med en maskemarkør. Hvis du oppdager et gammelt løp i et ferdig arbeid, kan du noen ganger dekke åpningen med maskesting i samme garn. Det er en kosmetisk reparasjon, ikke en strukturell. Den kan fungere i glattstrikk, men sjelden pent i hullmønster eller fletter.
+Ikke la den åpne løkken være løs, heller ikke i et ferdig plagg. Sikre den straks. Å dekke hullet fester ikke løkken. Bygg opp kolonnen der strukturen tillater det, og fest den siste løkken med en reparasjon tilpasset kanten, eller løsne nok av avfellingen til å ta med masken og fell av igjen. Be om hjelp før markøren fjernes hvis strukturen er uklar.
 
 **Hvordan forebygger jeg mistede masker?**
-Senk farten når du bytter pinne, hold øye med arbeidsmasken når du legger prosjektet fra deg midt på pinnen, og bruk pinner med bedre grep, som bambus eller tre, til glatte garn. Stoppere på rette pinner hindrer masker i å gli av bakenden når arbeidet ligger i vesken.
+Senk farten ved pinnebytte og kontroller arbeidsmasken før du legger fra deg arbeidet. Tre eller bambus kan gi bedre grep med glatt garn. Sett beskyttere på åpne pinnespisser i pausen; knotten bak på en rett pinne hindrer ikke masker i å gli av arbeidsspissen.

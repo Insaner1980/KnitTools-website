@@ -3,8 +3,8 @@ import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import { routes } from "../../../i18n/routes";
 
 interface Cell {
-  cm: string;
-  inch: string;
+  cm: string | null;
+  inch: string | null;
 }
 
 interface Row {
@@ -26,7 +26,8 @@ interface Panel {
   tables: Table[];
 }
 
-const c = (cm: string, inch: string): Cell => ({ cm, inch });
+const c = (cm: string | null, inch: string | null): Cell => ({ cm, inch });
+const unavailableValue = "Ei vahvistettua lähdearvoa";
 
 const panels: Panel[] = [
   {
@@ -67,7 +68,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Hihan sisäpituus",
+            label: "Käsivarren pituus kainalosta ranteeseen",
             cells: [
               c("15,5 cm", '6"'),
               c("16,5 cm", '6,5"'),
@@ -168,7 +169,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Hihan sisäpituus",
+            label: "Käsivarren pituus kainalosta ranteeseen",
             cells: [
               c("21,5 cm", '8,5"'),
               c("26,5 cm", '10,5"'),
@@ -263,7 +264,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Hihan sisäpituus",
+            label: "Käsivarren pituus kainalosta ranteeseen",
             cells: [
               c("38 cm", '15"'),
               c("40,5 cm", '16"'),
@@ -349,7 +350,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Hihan sisäpituus",
+            label: "Käsivarren pituus kainalosta ranteeseen",
             cells: [
               c("42 cm", '16,5"'),
               c("43 cm", '17"'),
@@ -401,7 +402,7 @@ const panels: Panel[] = [
           {
             label: "Niskasta ranteeseen",
             cells: [
-              c("66-68,5 cm", '26-26,5"'),
+              c(null, null),
               c("68,5-70 cm", '27-27,5"'),
               c("71-72,5 cm", '28-28,5"'),
               c("73,5-75 cm", '29-29,5"'),
@@ -442,7 +443,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Hihan sisäpituus",
+            label: "Käsivarren pituus kainalosta ranteeseen",
             cells: [
               c("45,5 cm", '18"'),
               c("45,5 cm", '18"'),
@@ -456,7 +457,7 @@ const panels: Panel[] = [
               c("39,5 cm", '15,5"'),
               c("43 cm", '17"'),
               c("47 cm", '18,5"'),
-              c("49,5 cm", '18,5"'),
+              c("49,5 cm", '19,5"'),
             ],
           },
           {
@@ -517,7 +518,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Selän pituus vyötärölle",
+            label: "Selän pituus lantiolle",
             cells: [
               c("58,5-61 cm", '23-24"'),
               c("63,5-66 cm", '25-26"'),
@@ -535,7 +536,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Hihan sisäpituus",
+            label: "Käsivarren pituus kainalosta ranteeseen",
             cells: [
               c("45,5 cm", '18"'),
               c("47 cm", '18,5"'),
@@ -604,7 +605,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Selän pituus vyötärölle",
+            label: "Selän pituus lantiolle",
             cells: [
               c("73,5 cm", '29"'),
               c("76 cm", '30"'),
@@ -616,18 +617,18 @@ const panels: Panel[] = [
             label: "Selän leveys",
             cells: [
               c("48-51 cm", '19-20"'),
-              c("48-51 cm", '20-21"'),
-              c("51-54,5 cm", '21-21,5"'),
+              c(null, null),
+              c(null, null),
               c("56-57 cm", '22-22,5"'),
             ],
           },
           {
-            label: "Hihan sisäpituus",
+            label: "Käsivarren pituus kainalosta ranteeseen",
             cells: [
               c("52 cm", '20,5"'),
               c("52 cm", '20,5"'),
-              c("49,5 cm", '21"'),
-              c("53,5-54,5 cm", '21,5"'),
+              c(null, null),
+              c(null, null),
             ],
           },
           {
@@ -636,7 +637,7 @@ const panels: Panel[] = [
               c("42 cm", '16,5"'),
               c("44,5 cm", '17,5"'),
               c("47 cm", '18,5"'),
-              c("48 cm", '20"'),
+              c(null, null),
             ],
           },
           {
@@ -694,37 +695,61 @@ const panels: Panel[] = [
           { label: "Vauva", cells: [c("35,5-40,5 cm", '14-16"')] },
           { label: "Taapero", cells: [c("40,5-46 cm", '16-18"')] },
           { label: "Lapsi", cells: [c("45,5-51 cm", '18-20"')] },
-          { label: "Nuori", cells: [c("51-56 cm", '20-22"')] },
+          { label: "Varhaisnuori", cells: [c("51-56 cm", '20-22"')] },
           { label: "Nainen", cells: [c("53-58,5 cm", '21-23"')] },
           { label: "Mies", cells: [c("56-61 cm", '22-24"')] },
         ],
       },
       {
         caption: "Jalkaterän pituus",
-        sizeHeader: "Koko",
+        sizeHeader: "US-kenkäkoko / viitteellinen ikä",
         sizes: ["Pituus"],
         rows: [
-          { label: "Vauva 0-6 kk", cells: [c("9 cm", '3,5"')] },
-          { label: "Vauva 6-12 kk", cells: [c("10-11 cm", '4-4,5"')] },
-          { label: "Taapero 1-2 v", cells: [c("12-13 cm", '4,75-5"')] },
-          { label: "Lapsi 3-6 v", cells: [c("14-18 cm", '5,5-7"')] },
-          { label: "Lapsi 7-10 v", cells: [c("19-21 cm", '7,5-8,25"')] },
-          { label: "Nuori", cells: [c("22-24 cm", '8,5-9,5"')] },
-          { label: "Naiset", cells: [c("23-26 cm", '9-10,25"')] },
-          { label: "Miehet", cells: [c("25-29 cm", '10-11,5"')] },
+          {
+            label: "Vauva, US 0–4 (6–18 kk)",
+            cells: [c("7,75–11,5 cm", '3–4,5"')],
+          },
+          {
+            label: "Taapero, US 5–9 (2–3 v)",
+            cells: [c("12–15,25 cm", '4,75–6"')],
+          },
+          {
+            label: "Lapsi, US 10–13 (4–5 v)",
+            cells: [c("16,5–19 cm", '6,5–7,5"')],
+          },
+          {
+            label: "Nuori, US 1–3 (6–9 v)",
+            cells: [c("19,75–21,5 cm", '7,75–8,5"')],
+          },
+          {
+            label: "Nuori, US 4–6 (10–13 v)",
+            cells: [c("22,25–24 cm", '8,75–9,5"')],
+          },
+          { label: "Naiset, US 4–6,5", cells: [c("20,25–23 cm", '8–9"')] },
+          { label: "Naiset, US 7–9,5", cells: [c("23,5–25,5 cm", '9,25–10"')] },
+          { label: "Naiset, US 10–12,5", cells: [c("26–28 cm", '10,25–11"')] },
+          { label: "Miehet, US 6–8,5", cells: [c("23,5–25,5 cm", '9,25–10"')] },
+          { label: "Miehet, US 9–11,5", cells: [c("26–28 cm", '10,25–11"')] },
+          {
+            label: "Miehet, US 12–14",
+            cells: [c("28,5–30,5 cm", '11,25–12"')],
+          },
         ],
       },
       {
-        caption: "Käden ympärys",
-        sizeHeader: "Koko",
+        caption: "Kämmenen ympärys",
+        sizeHeader: "CYC-ryhmä / koko",
         sizes: ["Ympärys"],
         rows: [
-          { label: "Vauva", cells: [c("10-13 cm", '4-5"')] },
-          { label: "Taapero", cells: [c("13-15 cm", '5-6"')] },
-          { label: "Lapsi", cells: [c("15-18 cm", '6-7"')] },
-          { label: "Nuori", cells: [c("18-20 cm", '7-8"')] },
-          { label: "Naiset", cells: [c("18-20 cm", '7-8"')] },
-          { label: "Miehet", cells: [c("20-23 cm", '8-9"')] },
+          { label: "Lapsi 2–4 v", cells: [c("13 cm", '5"')] },
+          { label: "Lapsi 4–6 v", cells: [c("15 cm", '6"')] },
+          { label: "Lapsi 6–8 v", cells: [c("16,5 cm", '6,5"')] },
+          { label: "Naiset S", cells: [c("18 cm", '7"')] },
+          { label: "Naiset M", cells: [c("19 cm", '7,5"')] },
+          { label: "Naiset L", cells: [c("20,5 cm", '8"')] },
+          { label: "Miehet S", cells: [c("20,5 cm", '8"')] },
+          { label: "Miehet M", cells: [c("21,5 cm", '8,5"')] },
+          { label: "Miehet L", cells: [c("23,5 cm", '9"')] },
         ],
       },
     ],
@@ -736,11 +761,11 @@ const defaultPanel = "naiset";
 const faqs = [
   {
     q: "Ovatko nämä mitat samat kaikissa neuleohjeissa?",
-    a: "Monet julkaisijat ja suunnittelijat käyttävät Craft Yarn Council -tyyppisiä vartalon mittoja, mutta mitään pakollista yleisstandardia ei ole. Osa suunnittelijoista käyttää omia kokotaulukoitaan, etenkin jos ohjeessa on tavallista tarkempi kokovalikoima. Tarkista aina kyseisen ohjeen oma kokotaulukko, jos sellainen on mukana.",
+    a: "CYC julkaisee viitteellisiä kokotaulukoita, mutta kaikki neuleohjeet eivät käytä samaa kokojärjestelmää. Suunnittelijoilla voi olla omat mitat ja kokomerkinnät. Tarkista aina ohjeen oma kokotaulukko ja mittapiirros.",
   },
   {
     q: "Miten valitsen koon, jos ohje käyttää numeroituja kokoja?",
-    a: "Vertaa numeroidun koon rinnanympärystä yllä olevaan taulukkoon. Rinnanympärys on yleensä tärkein lähtömitta. Koon nimi tai numero on vähemmän tärkeä kuin mitta senttimetreinä.",
+    a: "Vertaa ohjeen mittoja, älä pelkkää kokonumeroa tai kirjainta. Tarkista ensin, ovatko luvut vartalon vai valmiin vaatteen mittoja; huomioi valmiissa mitoissa ohjeen tarkoittama väljyys. Neulepaidassa vertaa rinnanympärystä ja muita istuvuuden kannalta tärkeitä mittoja.",
   },
   {
     q: "Mitataanko vaatteiden päältä vai paljaalta iholta?",
@@ -767,6 +792,20 @@ const faqs = [
   enableSizeChartControls
 >
   <div slot="tool" data-size-chart data-mobile-size-label="Valitse koko">
+    <p class="panel-intro">
+      Nämä ovat CYC:n viitteellisiä vartalonmittoja, eivät valmiin vaatteen
+      mittoja tai yleispäteviä kokoja. Lasten ja nuorten numerot ovat
+      US-viitekokoja, eivät ikävuosia tai eurooppalaisia pituuskokoja. Vauvojen
+      iät ovat suuntaa antavia. XS–5XL noudattavat CYC:tä; 2XL–5XL vastaavat sen
+      kokoja 2X–5X. Mittaa käyttäjä ja tarkista ohjeen oma kokotaulukko.
+    </p>
+    <p class="panel-intro" id="size-source-note">
+      Sentit ja tuumat ovat CYC:n julkaisemia pyöristettyjä pareja, eivät
+      tarkkoja muunnoksia. Kuudelle mitalle ei ole vahvistettua lähdearvoa,
+      koska julkaistut luvut ovat ristiriidassa. Molemmat luvut on jätetty pois.
+      Mittaa käyttäjän vartalo alla olevien ohjeiden mukaan ja tarkista
+      neuleohjeen mitoitus sekä tarkoitettu väljyys.
+    </p>
     <div class="chart-controls">
       <div class="tab-scroller">
         <div class="tabs" role="tablist" aria-label="Kokoryhmä">
@@ -816,6 +855,7 @@ const faqs = [
             class={`panel${panel.id === defaultPanel ? " is-active" : ""}`}
             data-panel={panel.id}
             role="tabpanel"
+            tabindex="0"
             id={`panel-${panel.id}`}
             aria-labelledby={`tab-${panel.id}`}
             hidden={panel.id !== defaultPanel}
@@ -830,11 +870,11 @@ const faqs = [
                   <table class="size-table">
                     <thead>
                       <tr>
-                        <th class="sticky-col">
+                        <th scope="col" class="sticky-col">
                           {table.sizeHeader ?? "Mitta"}
                         </th>
                         {table.sizes.map((size) => (
-                          <th>{size}</th>
+                          <th scope="col">{size}</th>
                         ))}
                       </tr>
                     </thead>
@@ -845,9 +885,20 @@ const faqs = [
                             {row.label}
                           </th>
                           {row.cells.map((cell) => (
-                            <td>
-                              <span class="unit-cm">{cell.cm}</span>
-                              <span class="unit-inch">{cell.inch}</span>
+                            <td
+                              data-unavailable={cell.cm === null || undefined}
+                              aria-describedby={
+                                cell.cm === null
+                                  ? "size-source-note"
+                                  : undefined
+                              }
+                            >
+                              <span class="unit-cm">
+                                {cell.cm ?? unavailableValue}
+                              </span>
+                              <span class="unit-inch">
+                                {cell.inch ?? unavailableValue}
+                              </span>
                             </td>
                           ))}
                         </tr>
@@ -866,9 +917,8 @@ const faqs = [
   <div slot="content">
     <h2>Miten vartalon mitat otetaan?</h2>
     <p>
-      Taulukon mitat vastaavat tiettyjä kohtia vartalolla. Tarkka mitta vaatii,
-      että mittanauha on oikeassa paikassa, vaakasuorassa ja napakka mutta ei
-      kiristävä.
+      Taulukon mitat vastaavat tiettyjä kohtia vartalolla. Noudata kunkin mitan
+      mittauspisteitä ja suuntaa. Pidä mittanauha vartaloa vasten kiristämättä.
     </p>
     <p>
       <strong>Rinnanympärys:</strong> mittaa rinnan tai rintakehän leveimmästä kohdasta.
@@ -893,62 +943,75 @@ const faqs = [
       luusta suoraan alas luonnolliselle vyötärölle.
     </p>
     <p>
-      <strong>Hihan sisäpituus:</strong> mittaa ranteesta kainaloon. Se toimii hihan
-      pituuden lähtökohtana.
+      <strong>Selän pituus lantiolle (miehet):</strong> Miesten taulukossa käytetään
+      CYC:n PDF:n selkämittaa niskasta lantiolle, ei vyötärölle. Tarkista mittauspiste
+      ohjeen mittapiirroksesta.
+    </p>
+    <p>
+      <strong>Käsivarren pituus kainalosta ranteeseen:</strong> Mittaa kainalosta
+      ranteeseen käsivarsi hieman koukussa. Tämä vartalonmitta auttaa hihan pituuden
+      valinnassa, mutta ei ole valmiin hihan mitta.
     </p>
     <p>
       <strong>Olkavarren ympärys:</strong> mittaa olkavarren leveimmästä kohdasta,
       käsivarsi rentona vartalon sivulla.
     </p>
     <p>
-      <strong>Kädentien syvyys:</strong> mittaa olkapään päältä suoraan alas kainalon
-      tasolle. Mitta vaikuttaa siihen, kuinka syvä kädentien muotoilu tarvitsee olla.
+      <strong>Kädentien syvyys:</strong> Mittaa olkapään uloimmasta yläreunasta pystysuoraan
+      kainalon tasolle.
     </p>
     <p>
-      <strong>Niskasta ranteeseen:</strong> mittaa niskan keskeltä olkapään yli ranteeseen.
-      Yhdistelmämittaa käytetään erityisesti raglan- ja kaarrokeneuleissa, joissa
-      vartalo ja hihat rakentuvat yhdessä.
+      <strong>Niskasta ranteeseen:</strong> Mittaa niskan tyvestä keskeltä selkää
+      olkapään yli ranteeseen käsivarsi suorana.
+    </p>
+    <p>
+      <strong>Asusteiden mitat:</strong> Mittaa päänympärys otsan kohdalta koko pään
+      ympäri, jalkaterän pituus lattialla kantapään takaosasta pisimmän varpaan kärkeen
+      ja kämmenen ympärys hallitsevasta kädestä rystysten alapuolelta ilman peukaloa.
+      Nämä ovat kehon mittoja, eivät pipon, sukan tai lapasen valmiita mittoja. Jalkaterän
+      pituus ei yksin ole kengänkokomuunnos eikä riitä sukan mitoitukseen. Ikärajat
+      ovat viitteellisiä.
     </p>
 
     <h2>Vartalon mitta ja valmis mitta ovat eri asioita</h2>
     <p>
-      Tämä on neulekoon valinnassa tavallinen sekaannus. Taulukot näyttävät
-      vartalon mittoja eli henkilön todellisia mittoja. Valmis neule voi olla
-      vartaloa pienempi, saman kokoinen tai suurempi sen mukaan, millaisen
-      väljyyden suunnittelija on rakentanut ohjeeseen.
+      Taulukot näyttävät vartalonmittoja. Valmis neule voi olla vartaloa
+      pienempi, saman kokoinen tai suurempi ohjeen tarkoitetun väljyyden mukaan.
     </p>
     <p>
-      <strong>Negatiivinen väljyys:</strong> valmis vaate on vartaloa pienempi. Hyvin
-      istuvassa neulepaidassa CYC:n ohjeellinen linja on noin 5-10 cm vähemmän kuin
-      todellinen rinnan- tai rinnanympärys. Pipot, sukat ja napakat joustinneuleet
-      käyttävät omia projektikohtaisia joustovarojaan.
+      <strong>Negatiivinen väljyys:</strong> Valmis vaate on vartaloa pienempi. CYC:n
+      ohjeellinen väljyys hyvin vartalonmyötäiselle neulepaidalle on noin 5–10 cm
+      vähemmän kuin rinnanympärys. Pipojen ja sukkien mitoitus määräytyy niiden oman
+      ohjeen mukaan.
     </p>
     <p>
-      <strong>Nollaväljyys:</strong> valmis vaate vastaa vartalon mittoja. Neulotussa
-      kankaassa tämä tuntuu yleensä hyvin istuvalta, ellei mallineule ole erityisen
-      rento.
+      <strong>Nollaväljyys:</strong> Valmiin vaatteen mitta on sama kuin vastaava
+      vartalonmitta.
     </p>
     <p>
-      <strong>Positiivinen väljyys, 5-10 cm:</strong> valmis vaate on hieman vartaloa
-      suurempi. Tämä on tavallinen perusväljyys monissa villapaidoissa, neuletakeissa
-      ja yläosissa.
+      <strong>Positiivinen väljyys:</strong> Vaate on vartaloa suurempi. CYC ehdottaa
+      perusistuvuuteen noin 5–10 cm väljyyttä rinnanympärykseen; tämä ei ole kaikkia
+      neuleita koskeva sääntö.
     </p>
     <p>
-      <strong>Väljä tai oversized-väljyys, 10-15+ cm:</strong> valmis vaate on selvästi
-      vartaloa suurempi. Rentomalliset paidat, kookkaat neuletakit ja väljät siluetit
-      elävät tällä alueella.
+      <strong>Väljä ja ylisuuri malli:</strong> CYC ehdottaa väljään neulepaitaan
+      noin 10–15 cm ja ylisuureen malliin vähintään 15 cm väljyyttä rinnanympärykseen.
     </p>
     <p>
-      Jos ohje sanoo koon sopivan 91,5 cm rinnanympärykselle ja valmiin vaatteen
-      rinnanympärys on 101,5 cm, erotus on 10 cm väljyyttä. Silloin valitaan
-      koko vartalon mitan mukaan, ei suoraan valmiin vaatteen mitan mukaan.
+      Jos ohje sopii 91,5 cm:n rinnanympärykselle ja valmiin vaatteen
+      rinnanympärys on 101,5 cm, positiivinen väljyys on 10 cm. Vertaa sekä
+      ohjeen vartalonmittoja että mittapiirroksen valmiita mittoja haluamaasi
+      istuvuuteen.
     </p>
 
     <h2>Kahden koon välillä valitseminen</h2>
     <p>
-      Jos rinnanympärys jää kahden koon väliin, valinta riippuu vaatteen
-      tarkoitetusta istuvuudesta. Istuvassa neuleessa pienempi koko voi olla
-      parempi. Rennossa tai ylisuuressa mallissa isompi koko voi olla oikea.
+      Kahden koon välillä vertaa valmiin vaatteen mittoja omiin mittoihisi ja
+      ohjeen tarkoittamaan väljyyteen. Älä valitse automaattisesti pienempää
+      kokoa istuvaan tai suurempaa kokoa ylisuureen malliin. Mallineule, kuitu
+      sekä pesty ja kuivattu mallitilkku vaikuttavat joustoon ja
+      laskeutuvuuteen. Pipojen ja sukkien väljyys määräytyy niiden ohjeen
+      mukaan; yksi kiinteä väljyysvara ei takaa istuvuutta.
     </p>
     <p>
       Vertaa myös muita mittoja, etenkin lantiota pitkissä vaatteissa ja
@@ -960,6 +1023,38 @@ const faqs = [
       Lopullisen koon jälkeen mallitilkku ratkaisee, osuuko valmis neule ohjeen
       mittoihin. Jos neuletiheys ei täsmää, myös hyvä kokovalinta voi muuttua
       väärän kokoiseksi valmiissa työssä.
+    </p>
+
+    <h2>Lähteet ja mittauskäytännöt</h2>
+    <p>
+      <a href="https://www.craftyarncouncil.com/standards/body-sizing"
+        >Craft Yarn Council: Lähteet ja mittauskäytännöt</a
+      >. <a href="https://www.craftyarncouncil.com/standards/baby-size-chart"
+        >Vauvat</a
+      >, <a href="https://www.craftyarncouncil.com/standards/child-youth-sizes"
+        >Lapset ja nuoret</a
+      >, <a href="https://www.craftyarncouncil.com/standards/woman-size"
+        >Naiset</a
+      >, <a href="https://www.craftyarncouncil.com/standards/man-size">Miehet</a
+      >, <a
+        href="https://www.craftyarncouncil.com/standards/head-circumference-chart"
+        >Pää</a
+      >, <a href="https://www.craftyarncouncil.com/standards/foot-size-charts"
+        >Jalkaterä</a
+      >, <a href="https://www.craftyarncouncil.com/standards/hand-size-charts"
+        >Käsi</a
+      >. <a
+        href="https://media.craftyarncouncil.com/sites/default/files/images/standards/CYC_YarnStandards-2018-11-06.pdf"
+        >CYC PDF</a
+      >.
+    </p>
+    <p>
+      Lähde: Craft Yarn Council. Linkitetty PDF (sivut 17–18) selventää kaksi
+      verkkotaulukoiden virhettä: naisten 5XL-olkavarren ympärys on 19,5 tuumaa
+      ja miesten selän pituus mitataan lantiolle, ei vyötärölle. Kuusi muuta
+      lähderistiriitaa ovat edelleen selvittämättä. Sivusto jättää näiden
+      mittojen molemmat yksikköarvot pois eikä tarjoa tilalle korjattuja tai
+      laskettuja lukuja.
     </p>
   </div>
 </LocalizedToolPage>

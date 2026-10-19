@@ -1,7 +1,8 @@
 ---
 title: "Tuntemattoman langan tunnistaminen"
-description: "Näin arvioit vyötteettömän langan: WPI-mittaus, polttokoe, vesitesti, kuitutyyppi ja turvallinen käyttö neuleprojekteissa."
+description: "Arvioi vyötteetöntä lankaa WPI-mittauksella ja mallitilkulla. Tutki langan tuntua, neulepintaa ja pesukäyttäytymistä ennen työn valintaa."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 9
 tags:
@@ -17,15 +18,13 @@ translationKey: "identify-mystery-yarn"
 
 Useimmille neulojille kertyy lopulta tuntematonta lankaa. Vyöte on pudonnut pois, lanka on tullut jonkun toisen varastosta tai kerässä ei alun perinkään ollut kunnollisia tietoja. Kirpputoripusseja, perittyjä lankoja, vaihtojen ja jämien sekalaisia keriä.
 
-Tuntemattoman langan tunnistamisessa kannattaa aloittaa WPI-mittauksesta, jotta saat vahvuusluokan suunnan. Sen jälkeen polttokoe ja vesitesti auttavat rajaamaan kuituperhettä. Et aina saa tarkkaa merkkiä tai prosentteja selville, mutta vahvuusalue ja karkea kuitutyyppi riittävät yleensä.
+Aloita WPI-mittauksesta eli kierrosten laskemisesta tuumalla, jotta saat arvion lankavahvuudesta. Neulo sitten mallitilkku neulepinnan arviointia varten. Näin voit suunnitella langan käyttöä, mutta et vahvistaa merkkiä, värjäyserää, tarkkoja kuituprosentteja, superwash-käsittelyä tai alkuperäistä hoito-ohjetta.
 
 ## Ensimmäinen vaihe: selvitä vahvuus WPI-mittauksella
 
-WPI-mittaus on nopein ensimmäinen arvio.
+Kierrä lankaa kynän tai WPI-mitan sileän, tasapaksun osan ympärille. Aseta kierrokset vierekkäin ilman rakoja tai päällekkäisyyksiä. Älä venytä tai litistä lankaa. Kierrä lankaa muutaman tuuman matkalle ja laske sitten viivaimella kierrokset yhden tuuman eli täsmälleen 2,54 cm:n matkalta.
 
-Kierrä lankaa kynän, viivaimen tai WPI-mitan ympärille. Pidä kierrokset napakoina ja vierekkäin, mutta älä venytä lankaa. Laske sitten, montako kierrosta mahtuu noin 2,5 cm matkalle.
-
-Craft Yarn Councilin yleisesti käytetty 0-7-järjestelmä käyttää tällaisia laajoja haarukoita. Uusin järjestelmä on laajenemassa myös Size 8 -luokkaan, mutta useimmat neuleohjeet ja lankavyötteet käyttävät edelleen näitä 0-7-kategorioita:
+[Craft Yarn Councilin WPI-ohje](https://www.craftyarncouncil.com/standards/how-measure-wraps-inch-wpi) antaa luokille 0–7 nämä likimääräiset haarukat:
 
 - 30-40+ kierrosta: Lace (kategoria 0)
 - 14-30 kierrosta: Super Fine tai Fingering -alue (kategoria 1)
@@ -36,69 +35,57 @@ Craft Yarn Councilin yleisesti käytetty 0-7-järjestelmä käyttää tällaisia
 - 5-6 kierrosta: Super Bulky -alue (kategoria 6)
 - 1-4 kierrosta: Jumbo-alue (kategoria 7)
 
-Kyllä, haarukat menevät päällekkäin. WPI vie oikealle naapurustolle, ei täsmälliseen osoitteeseen. Mittaa useammasta kohdasta, varsinkin jos lanka on pintarakenteinen, pörröinen tai käsinkehrätty.
+Haarukat menevät päällekkäin. Mittaa useasta kohdasta: kokoon painuvaa, pörröistä, epätasaista tai pintarakenteista lankaa on vaikea kiertää aina samalla tavalla. WPI arvioi paksuutta, ei kuitua tai neuletiheyttä.
 
-Kun sinulla on haarukka, [lankavahvuustaulukko](/fi/tyokalut/lankavahvuudet/) auttaa vertaamaan todennäköistä neuletiheyttä ja puikkokokoa.
+[Lankavahvuustaulukon](/fi/tyokalut/lankavahvuudet/) tiheys- ja puikkosuositukset ovat lähtökohtia mallitilkulle. Sivun WPI-tunnistin vertaa mittaustasi paksuusluokkien haarukoihin. Se ei tunnista kuitua, merkkiä, hoito-ohjetta tai jäljellä olevaa metrimäärää.
 
 ## Toinen vaihe: tunnista kuitu
 
-Tällä on merkitystä hoidon ja valmiin neulepinnan käyttäytymisen kannalta. [Kuituvertailu](/fi/artikkelit/lankakuidut-vertailussa/) käsittelee kuituja tarkemmin, mutta kotona tehtävässä pikaisessa arviossa katso näitä asioita. Villainen mysteerilanka ja akryylinen mysteerilanka voivat näyttää kerässä samanlaisilta ja käyttäytyä neulottuna sekä pestynä täysin eri tavalla.
+[Kuituvertailu](/fi/artikkelit/lankakuidut-vertailussa/) kertoo kuitujen eroista. Samannäköiset kerät voivat kuitenkin tuottaa erilaisen neulepinnan: ulkonäkö ja tuntu eivät yksin vahvista koostumusta.
 
 ### Polttokoe
 
-Leikkaa pieni pätkä, pidä sitä pinseteillä palamattoman alustan päällä ja sytytä. Pidä vettä lähellä, tee koe ulkona tai tehokkaasti tuuletetussa paikassa ja lopeta heti, jos lanka sulaa, tippuu tai päästää kovia höyryjä. Kiinnitä huomiota siihen, miten se palaa, miltä se haisee ja mitä jää jäljelle kun se jäähtyy.
-
-Eläinkuidut, kuten villa, alpakka ja silkki, haisevat palavalta hiukselta ja jättävät murenevaa tuhkaa. Kasvikuidut, kuten puuvilla ja pellava, haisevat enemmän palavalta paperilta ja jättävät kevyempää tuhkaa. Synteettiset kuidut sulavat ja kovettuvat helmiksi sen sijaan, että muuttuisivat tuhkaksi. Sekoitteet näyttävät sekalaista käytöstä, mikä kertoo että lanka on sekoite, mutta ei anna tarkkoja prosentteja.
-
-Älä tee polttokoetta isolla pätkällä, lasten lähellä tai minkään helposti syttyvän vieressä. Synteettiset höyryt ovat oikea syy pitää näyte pienenä.
-
-Odotukset kannattaa pitää realistisina: polttokoe on karkea tunnistusmenetelmä, ei laboratoriotulos. Se on hyödyllisimmillään suurten kuituperheiden erottamiseen. Älä odota sen kertovan eroa merinon ja corriedalen välillä.
+Jätä polttokoe pois tästä aloittelijan arvioinnista. Koe tuhoaa näytteen ja vaatii avotulen. Sekoitteet ja viimeistelykäsittelyt vaikeuttavat tulkintaa; yksi reaktio ei luotettavasti tunnista lankaa tai palauta sen hoito-ohjetta. Epäselvä tulos ei todista lankaa sekoitteeksi.
 
 ### Vesitesti
 
-Hellävaraisempi testi ja hyödyllinen polttokokeen rinnalla. Liota pientä pätkää lämpimässä vedessä ja katso mitä tapahtuu.
+Tutki pesukäyttäytymistä pienellä mallitilkulla, jonka voit menettää. Älä käytä koetta kuitutunnistukseen. Jos kokeilet hellävaraista pesua viileässä vedessä ja tasokuivausta, kirjaa olosuhteet ja vertaa täysin kuivunutta tilkkua alkuperäisiin mittoihin ja ulkonäköön. Tämäkin voi vahingoittaa tuntematonta lankaa; älä aloita koko kerästä tai arvokkaasta neuleesta.
 
-Käsittelemätön villa voi alkaa huopua, jos mukana on lämpöä, saippuaa ja hankausta. Superwash-villa kastuu mutta vastustaa huopumista. Puuvilla imee vettä helposti ja tuntuu märkänä selvästi painavammalta. Akryyli käyttäytyy eri tavalla kuin puuvilla tai villa, mutta pelkkä vesitesti ei tunnista sitä varmasti.
-
-Tämäkin on vain vihje, varsinkin sekoitteissa. Mutta se rajaa vaihtoehtoja.
+Huopuminen tai kutistuminen kertoo näytteen muuttuneen juuri näissä oloissa. Huopumattomuus ei todista superwash-käsittelyä tai konepestävyyttä. Veden imeytyminen, turpoaminen, sekoitteet, käsittelyt ja langan rakenne estävät käyttämästä vesikoetta luotettavana kuitutunnistuksena.
 
 ### Tuntotesti
 
-Vähemmän tieteellinen, enemmän vaistoon perustuva. Käsittele lankaa ja huomaa, mikä tuntuu selvästi.
+Tunnustele pintaa, pehmeyttä, venyvyyttä ja palautumista. Voit verrata lankaa vyötteelliseen lankaan, mutta kirjaa yhtäläisyydet vihjeiksi, älä varmaksi tunnistukseksi.
 
-Villa tuntuu usein joustavalta ja lämpimältä. Puuvilla tuntuu viileämmältä ja vähemmän joustavalta. Akryyli voi tuntua sileältä tai narisevalta laadusta riippuen. Pellava alkaa jäykkänä. Silkki tuntuu sileältä ja viileältä.
-
-Pelkkä kosketus ei todista mitään. Yhdessä muiden testien kanssa se rakentaa kuvaa.
+Kierre, säierakenne, sekoitteet ja viimeistely vaikuttavat tuntuun. Sileys ei yksilöi silkkiä, kimmoisuus villaa eikä jäykkyys tai narina pellavaa tai akryyliä. Havainnot auttavat arvioimaan, pidätkö langan tunnusta.
 
 ## Kolmas vaihe: neulo mallitilkku ennen sitoutumista
 
-Kun sinulla on karkea arvaus vahvuudesta ja kuidusta, neulo mallitilkku. Tässä kohtaa vihjeet muuttuvat sellaiseksi tiedoksi, jolla voi oikeasti tehdä jotain.
+Neulo mallitilkku työn mallineuleella ja samalla tavalla tasona tai suljettuna kuin aiottu työ. Tee siitä niin suuri, että voit mitata keskeltä, riittävän kaukana reunoista. Valitse kokeilupuikot arvioidun lankavahvuuden perusteella ja säädä kokoa sopivan neulepinnan löytämiseksi; tuntemattomalle langalle ei ole yhtä oikeaa puikkokokoa.
 
-Mallitilkku vahvistaa vahvuusarvion, näyttää miten lanka käyttäytyy sinun käsialallasi ja paljastaa asioita, joita kotitestit eivät kerro: halkeilun, pöyhistymisen, laskeutuvuuden, nyppyyntymisen, jäykkyyden ja pesun jälkeisen ulkonäön. Jos lanka huopui vesitestissä edes vähän, käsittele sitä käsinpestävänä ja suunnittele sen mukaan.
+Mittaa silmukat ja kerrokset samalta matkalta kuin ohjeessa, tilkku tasaisena ja venyttämättä. Mittaa uudelleen edellä kuvatun koekäsittelyn ja täydellisen kuivumisen jälkeen. Tarkkaile langan säikeisiin halkeamista, pintamuutoksia, laskeutuvuutta, jäykkyyttä ja mittoja. Tilkku kertoo sinun neuletiheytesi ja neulepinnan käyttäytymisestä näissä oloissa, ei alkuperäistä lankaluokkaa tai tuotetta. Lyhyt kokeilu ei osoita pitkäaikaista nyppyyntymistä tai kulutuskestoa.
 
 ## Tuntemattoman langan käyttäminen käytännössä
 
-Osa projekteista antaa epävarmuutta paremmin anteeksi kuin toiset.
+Huivi tai kauluri, jonka mitat voivat joustaa, on mahdollinen ensimmäinen työ, jos tilkku tuntuu sopivalta. Peitto tarvitsee silti toimivan hoitotavan ja riittävästi lankaa; tiskirätiltä vaaditaan imukykyä ja pesunkestoa. Istuva vaate ja sukat vaativat enemmän varmuutta mitoista, palautumisesta ja kulutuskestosta.
 
-Huivit, kaulurit, peitot, tiskirätit, tyynyt. Kaikki hyviä valintoja langalle, jota et pysty täysin tunnistamaan. Istuva vaate, sukat ja kaikki, missä jousto, palautuminen tai pesukäyttäytyminen on todella tärkeää, ovat riskialttiimpia.
+Ilman vyötettä hellävarainenkin pesu on kokeilu, ei varmennettu hoito-ohje. Jos tilkku huopuu, muuttaa muotoaan tai päästää väriä, harkitse työn valintaa uudelleen tai kysy asiantuntijalta. Onnistunut koepesu ei oikeuta nostamaan lämpötilaa tai siirtymään konepesuun.
 
-Hoito-ongelma on todellinen. Ilman vyötettä arvaat käyttäytymisen perusteella. Jos olet epävarma, pese viileässä vedessä hellästi ja kuivaa tasossa, kunnes lanka osoittaa kestävänsä enemmän.
-
-Jos aiot käyttää paljon tuntematonta lankaa samaan projektiin, testaa myös värinkesto. Liota pätkä ja paina se valkoiseen kankaaseen. Jos väriä irtoaa, pesusuunnitelma muuttuu.
+Tarkista koepesun yhteydessä, tarttuuko näytteestä väriä valkoiseen kankaaseen. Jos yhdistät värejä, kokeile niitä samassa tilkussa. Värin siirtyminen kertoo ongelmasta; sen puuttuminen yhdessä kokeessa ei takaa värinkestoa muissa oloissa.
 
 ## Lankavaraston inventointi
 
-Jos vyötteettömiä lankoja on paljon, yksi iltapäivä testaamiseen ja merkitsemiseen säästää myöhempää vaivaa. Käsin kirjoitettu lappu, kuten "todennäköisesti DK, ehkä villasekoite, käsinpesu", voittaa uuden mysteerikerän puolen vuoden päästä.
+Erota muistiinpanoissa havainnot ja arvaukset. Esimerkiksi "WPI viittaa DK-vahvuuteen; kuitu tuntematon; tilkun mitat ja pesuolot kirjattu" on käyttökelpoinen merkintä. Säilytä tilkku langan mukana. Kerän koko, langan paksuus tai massa ei yksin kerro jäljellä olevaa metrimäärää.
 
-[KnitTools](/fi/tyokalut/#join) voi auttaa tässäkin. Tallenna tuntemattomalle langalle projektimuistiinpano, jossa on paras arviosi ja testimuistiinpanot. Seuraavalla kerralla kerä ei ole enää yhtä tuntematon.
+KnitTools-sovelluksessa voit tallentaa arviosi ja havaintosi projektimuistiinpanoon. [Tilaa ilmoitus KnitToolsin julkaisusta](/fi/tyokalut/#join).
 
 ## FAQ
 
 **Voiko langan lähettää laboratorioon kuitutunnistusta varten?**
-Voi, mutta se on useimmille varastolangoille liioittelua. Laboratoriotesti on järkevämpi silloin, kun lanka on arvokasta, tunnearvoltaan tärkeää tai sitä on niin paljon, että kustannus on perusteltu.
+Tekstiilien testauslaboratorio voi neuvoa kuituanalyysissä. Kysy, mitä kuituja tai sekoitussuhteita se pystyy selvittämään, paljonko näytettä tarvitaan ja mitä tutkimus maksaa. Kuituanalyysi ei yksin tunnista kaupallista lankatuotetta tai alkuperäistä hoito-ohjetta.
 
 **Polttokoe ei antanut selvää vastausta. Mitä nyt?**
-Se tarkoittaa yleensä, että lanka on sekoite tai tulos oli liian epäselvä tulkittavaksi. Hoida lankaa varovasti ja anna mallitilkun ohjata päätöksiä.
+Tulos ei vahvista sekoitetta tai tiettyä kuitua. Älä toista polttokoetta saadaksesi väkisin vastauksen. Jätä koostumus tuntemattomaksi ja arvioi käyttöä mallitilkun avulla. Jos koostumuksen tietäminen on tärkeää, kysy ammattilaisen analyysiä.
 
 **Voiko tuntematonta lankaa sekoittaa vyötteelliseen lankaan samassa projektissa?**
-Voi, mutta tarkista ensin, että molemmat reagoivat pesuun ja kuivaukseen samalla tavalla. Jos toinen huopuu, vuotaa väriä tai venyy paljon enemmän kuin toinen, valmis työ näyttää sen.
+Neulo langat samaan tilkkuun ja vertaa mittoja, värin siirtymistä ja ulkonäköä aiotun pesun ja kuivauksen jälkeen. Erilaiset reaktiot voivat vääristää tai värjätä työtä. Yksi onnistunut kokeilu kertoo tästä yhdistelmästä näissä oloissa, ei takaa samanlaista käyttäytymistä pitkällä aikavälillä.

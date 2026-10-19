@@ -23,7 +23,7 @@ const TOOL_LABELS: Record<Lang, Record<ToolKey, string>> = {
   },
   fi: {
     castOnCalculator: "Silmukkalaskuri",
-    yarnEstimator: "Lankamuunnin",
+    yarnEstimator: "Langanmenekkilaskuri",
     needleSizeChart: "Puikkokoot",
     yarnWeightChart: "Lankavahvuudet",
     knittingAbbreviations: "Neulelyhenteet",

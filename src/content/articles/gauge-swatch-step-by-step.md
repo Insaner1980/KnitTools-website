@@ -12,94 +12,95 @@ tags:
   - "make a gauge swatch"
 ---
 
-A gauge swatch is a test square knit in your project yarn and stitch pattern, washed and blocked, then measured over 4 inches to check whether your stitches match the pattern's requirements. This is the practical how-to. If you want to understand why gauge matters and what to do when yours doesn't match, the [gauge guide](/articles/how-to-measure-knitting-gauge/) covers the full picture. This page is for when you already know why and just want the steps.
+A gauge swatch is a test piece knit in your project yarn and the stitch pattern specified for gauge. Measure it over the distance and in the finishing state the pattern requests, usually 4 inches or 10 cm. This is the practical how-to. The [gauge guide](/articles/how-to-measure-knitting-gauge/) explains measurement in more detail; here are the steps for making the swatch.
 
 ## What you need
 
 Your project yarn, the needles recommended by the pattern (or the yarn label if you're not following a pattern), a ruler or stitch gauge tool, and a few pins. A small notebook or the notes app on your phone helps too. You'll be writing down needle size, stitch count, and row count for every swatch, and trying to remember which swatch was which after they've dried overnight is a losing game.
 
-If the pattern was written by someone else, also check whether the gauge is given over stockinette or in the pattern stitch. That changes everything about what you knit next.
+Check which stitch pattern the gauge uses and whether the project is worked flat or in the round. Use the same needle type and knitting method for the swatch. Circular needles alone do not make a back-and-forth swatch circular; the circular shortcut below is for stockinette worked from the right side only.
 
 ## Step 1: cast on
 
-Cast on enough stitches for about 6 inches of fabric, or follow the swatch-size instructions in the pattern. This usually leaves room for a central 4-inch measurement area away from distorted side-edge stitches. If the pattern gauge says 20 stitches per 4 inches, 30 stitches gives 20 for the measurement area plus about 5 on each side.
+Plan about 6 inches of the stitch pattern being tested, or follow the pattern's swatch-size instructions. The aim is a central 4-inch measurement area with spare fabric on every side, outside any border. These are planning dimensions, not guaranteed results: your actual gauge is still unknown.
 
-Quick math: multiply the pattern's stitch gauge per 4 inches by 1.5 to estimate the stitches needed for about 6 inches of fabric. For example, 20 × 1.5 = 30 stitches. If the result is fractional, round up to the next whole stitch. For a patterned swatch, increase the count as needed to complete a full stitch repeat, then add any border or selvage stitches that will sit outside the central measurement area.
+Quick math: 20 stitches per 4 inches × 1.5 = 30 stitches for about 6 inches of the tested fabric at the target gauge. Round fractional counts up, then adjust for full repeats and any extra stitches required by the stitch instructions. Add optional borders separately: 30 stockinette stitches plus 3 garter stitches on each side means casting on 36 stitches, not 30. The total swatch is wider than the 30-stitch stockinette section; count neither border in its gauge.
 
-Cast-on method matters less than you'd think for the swatch itself, but use the same one you'll use for the project if you can. Long-tail is the default for most flat work. If the project starts in ribbing, the swatch doesn't have to, but knowing your cast on doesn't pull tight is useful.
+Use a cast-on edge that does not pull the fabric in, preferably the project's method where practical. A ribbed project edge need not be included unless it is part of the gauge instructions.
 
 ## Step 2: knit the swatch
 
 Knit in the stitch pattern specified by the gauge section. "In stockinette" means stockinette. "In pattern stitch" means the actual stitch pattern from the project. This distinction matters because different patterns produce different gauges. A cable panel pulls in. A lace pattern opens up after blocking. Ribbing compresses horizontally. Measuring a stockinette swatch and assuming it tells you the gauge of your cable yoke is a common way to end up with a sweater that doesn't fit.
 
-Knit until the swatch is about 6 inches tall, or until it provides enough undistorted fabric to measure a central 4-inch area away from the cast-on and bind-off edges. About 6 inches is a robust recommendation, not a universal minimum: a smaller swatch can still be usable if it provides a sufficiently large, representative, undistorted measurement area without including edge stitches just to make a 4-inch window.
+Work enough rows to leave an undistorted central 4-inch height away from the cast-on and bind-off edges and any borders. About 6 inches of the tested stitch pattern is a useful starting point, not a universal minimum. Complete vertical repeats where needed. If the finished swatch has too little usable fabric, make a larger one.
 
-A few knitters add a garter stitch border (3 or 4 stitches each side, 3 or 4 rows top and bottom) to keep the swatch from curling. Stockinette curls. A flat swatch is easier to measure. The garter border doesn't change the gauge of the stockinette area in the middle. Worth the small extra effort.
+An optional garter border can help manage stockinette curl, but it can also distort the adjoining fabric because the stitch patterns have different gauges. For a flat stockinette sample with 3 border stitches at each side: work a few garter rows first, then knit the first and last 3 stitches on every row, working the center in stockinette (knit on the right side, purl on the wrong side). Finish with a few garter rows before binding off. Keep borders and affected fabric outside the measurement area; if the center is distorted, make a larger sample or omit the border.
 
 Bind off loosely. A tight bind off pulls the top edge in and distorts the rows just below it, which is exactly the area you don't want distorted.
 
 ## Step 3: wash and block
 
-This step gets skipped the most and matters the most.
+Before washing or finishing, measure and record the untreated swatch using Step 4. Keep that reading for comparison with unwashed work or a pattern that explicitly specifies unblocked gauge.
 
-Soak in lukewarm water for about 15 to 20 minutes, unless the yarn label says otherwise. Roll the swatch in a towel to remove extra water (don't wring). Lay flat and let dry completely. If the yarn should be steamed rather than soaked, treat the swatch that way instead. The [blocking guide](/articles/how-to-block-knitting/) covers fiber-specific methods in detail.
+Then treat the swatch as you will the finished project, within the yarn's care instructions. For a hand-washed, flat-dried project, wash the swatch accordingly, press out water gently in a towel without wringing, and dry it flat. Soaking time, water temperature and any steam treatment depend on the yarn and intended care; there is no universal 15–20-minute requirement. The [blocking guide](/articles/how-to-block-knitting/) describes finishing methods.
 
-Yarn changes when it gets wet. Wool can bloom and the stitches can fill in. Cotton may relax. Linen softens. Superwash wool and alpaca can grow or drape more than expected. The swatch off the needles is not always the swatch after its first wash, and your project will get washed. Measure the washed swatch, not the raw one.
-
-Block the swatch the same way you'll block the project. If the finished item will be soaked and pinned flat, soak and pin the swatch. If it'll be steamed, steam the swatch. If you're going to hand wash a wool sweater and lay it flat to dry, do exactly that with your swatch. Aggressive pinning that stretches the swatch out gives you a number that doesn't match how the fabric will actually behave on a body.
+Let it dry completely, remove any pins and let the fabric relax before measuring, unless the pattern specifies another state. Do not stretch or compress it to force the target gauge. Keep the before and after readings separate: the change is evidence for this swatch, not a guarantee about every yarn of the same fiber or the garment in wear. Use the pattern's stated measurement state; if none is given, use the finished swatch.
 
 ## Step 4: measure
 
-Lay the dry swatch on a flat, hard surface. Don't stretch it.
+Lay the dry swatch on a flat, firm surface. For relaxed gauge, do not stretch it; for ribbing, follow any stated relaxed or stretched measurement instruction. If the intended state is unclear, ask the designer rather than guessing.
 
-Place your ruler horizontally across the center, at least an inch from cast-on and bind-off edges. Count the stitches across 4 inches to get your gauge over 4 inches. Divide that count by 4 if you need stitches per inch. Half stitches count. Don't round them away. If a pattern expects 5 stitches per inch and your swatch gives 4.5, the pattern's 200 body stitches measure about 44 inches instead of 40.
+Place the ruler's zero mark at a stitch boundary in the undistorted center, parallel to a row. Keep the entire measurement span away from all edges and borders. Count stitches over 4 inches, including partial stitches; divide by 4 for stitches per inch. Use 10 cm instead if that is the pattern's basis. The usual 4-inch/10 cm notation is conventional: 4 inches is exactly 10.16 cm.
 
-Then measure vertically: count rows across 4 inches in the center, away from side edges.
+For example, a body circumference of 200 stitches in the same stitch pattern is 200 ÷ 5 = 40 inches at 5 stitches per inch, but 200 ÷ 4.5 ≈ 44.4 inches at 4.5 stitches per inch, before any seam allowance.
 
-Write both numbers down. If you're feeling thorough, measure in two different spots on the swatch and average them. Hand-knit fabric isn't perfectly uniform, and one measurement can be misleading if you happened to land on a slightly tighter or looser patch.
+Turn the ruler vertically along a stitch column and count rows (or rounds) over the same distance, including partial rows. In stockinette, a complete V is one stitch; stacked Vs count rows. In ribbing, include the hidden purl stitches. For lace or cables, use the chart to identify stitches or measure complete repeats; a hole or crossing is not one stitch. The linked measurement guide covers these methods.
+
+Record both counts and the measurement state. Check several central areas. Average only small differences in comparable readings; investigate large differences instead of averaging them into the target.
 
 ## Step 5: compare
 
-Compare your counts to the pattern's gauge.
+Compare both counts with the pattern over the same distance, in the same stitch pattern and finishing state.
 
-**Matches:** Cast on the project.
+**Matches:** Check that the fabric also suits the project before casting on.
 
-**Too many stitches per 4 inches:** Your stitches are smaller than the pattern's. Go up one needle size. Swatch again.
+**Too many stitches per 4 inches:** The stitches are narrower. Try larger needles and swatch again.
 
-**Too few stitches:** Your stitches are bigger. Go down one needle size. Swatch again.
+**Too few stitches:** The stitches are wider. Try smaller needles and swatch again.
 
-Repeat until you match. Prioritize stitch gauge over row gauge. Most patterns can accommodate row gauge differences because length is usually measured rather than counted.
-
-How big a needle jump? Start with one size for a small miss. If you're off by about 2 stitches over 4 inches, a two-size jump may be a better first test. Burning a swatch on every tiny step gets old fast.
+A nearby needle size is a starting experiment, not a fixed correction per missing stitch. Recheck both stitch and row gauge after each change. Row gauge matters for shaping and repeats; working to a length is sufficient only where the pattern allows it. See [what to do when gauge does not match](/articles/gauge-doesnt-match/) for the next decision.
 
 ## How long does this take?
 
-Plan on roughly 45 minutes of knitting for worsted weight, plus drying time. Fingering weight takes longer. Smaller stitches, more of them for the same area. A fingering-weight swatch can take an evening. Lace weight, even longer.
+Allow time for knitting, finishing, complete drying and any further swatches. The time depends on the yarn, stitch pattern, swatch size and your pace; neither 45 minutes of knitting nor overnight drying is a reliable rule.
 
 ## When you can skip
 
-Honestly? Almost never, for anything where size matters. But practically: scarves, blankets, dishcloths, items where a half-inch difference is irrelevant. If the project is a fitted garment, a hat that needs to fit, or socks, swatch. The hour now saves the hours of reknitting later.
+If you accept a different size for a simple scarf or dishcloth, you may decide to start without a separate swatch. You are also accepting uncertainty about the fabric and yarn use. For a fitted garment, hat or socks, make the swatch before committing to the project.
 
-Yarn substitution is the other situation where swatching isn't optional. Even when the substitute is labeled the same weight as the pattern's recommended yarn, gauge can drift. Two DK yarns from different mills, one wool and one cotton-blend, may need different needle sizes to make the same fabric.
+Swatch a substitute yarn too. The same yarn-weight category does not ensure the same gauge or fabric; assess the finished sample, not just the label.
 
 ## Tips for better swatches
 
-Swatch on the same needle type you'll use for the project. Metal and bamboo can produce different gauges. If you swatch on bamboo straights but knit the project on metal circulars, the gauge may shift. Same logic: swatch in the round if the project is circular. If your knit and purl tension differ, a flat swatch won't match circular work.
+Use the same needles and knitting method as for the project. For circular work, a tube worked in the project stitch pattern is a direct option; make its circumference large enough to measure away from needle joins or folds. A flat stockinette swatch alternates knit and purl rows, which need not match your all-knit circular tension.
 
-The shortcut for an in-the-round swatch: cast on with a circular needle, knit one row, slide the stitches back to the other end of the needle (don't turn), carry the yarn loosely across the back, and knit the next row from the right side again. You're faking circular knitting without making a tube. The floats on the back get cut off before measuring. The front looks like stockinette in the round.
+For a shortcut that imitates **stockinette in the round**:
 
-Keep your swatches. Attach a label: yarn name, needle size, gauge. Useful mid-project reference. Also useful months later when you're trying to remember whether that skein of leftover yarn was the DK that gave you 22 stitches or the one that gave you 24.
+1. Cast on a generous width on a circular needle and knit one row.
+2. Keep the right side facing you. Do not turn; slide the stitches along the cable to the other tip, ready to work them again. The working yarn is now at the left edge for the usual right-to-left knitting direction.
+3. Bring the yarn behind the work from left to right in a long, slack loop, then knit the next row. Leave enough slack for the swatch to lie at its full width during finishing and measuring without the loop pulling the edges together.
+4. Repeat the slide, loose return strand and knit row until the center is tall enough. Bind off without pulling in the edge. Record the untreated gauge, then finish and dry as above. Measure away from the loose side stitches. The strands need not be cut if they allow the swatch to lie flat without tension.
 
-Don't reuse swatch yarn immediately. It's been knit, washed, and stretched, so it may behave differently from fresh yarn. If you need the yarn, let it dry and relax first, then expect it to look slightly different from untouched yarn.
+This all-knit sequence is not a substitute for ribbing, garter stitch, cables or lace instructions: those require the actual round sequence. If the shortcut does not reproduce your working method or leaves no undistorted center, knit a tube instead.
 
-If your gauge changes partway through a project, check the obvious variables first: a new skein, a different needle, a different place to knit, or a long tired session. Tension follows posture and mood more than knitters like to admit.
+Label each sample before washing: yarn, needle size in mm and type, stitch pattern, flat or circular method, and before/after gauge with its measurement distance. Keep the sample for comparison. If trying several needle sizes in one strip, mark each change and leave each section large enough to measure away from the transition. Do not assume adjacent sections are distortion-free; use separate swatches if they pull on one another.
 
 ## Quick answers
 
-Can you measure over less than 4 inches? You can, but miscounting by half a stitch over 2 inches is a bigger proportional error. Measure at least 4 inches. For very thick yarn where 4 inches is only 10 stitches, measure over a wider span if your swatch allows.
+Can you measure over less than 4 inches? A shorter span magnifies counting error: a half-stitch error over 2 inches becomes 1 stitch when scaled to 4 inches. Use the pattern's measurement span where possible; a larger usable area can help with coarse yarn or long repeats.
 
-Does gauge change depending on the day? It can. Tension varies with mood, fatigue, and time in the session. Swatch during a normal knitting session, not in the first ten minutes when your hands are still warming up. If your gauge varies a lot between swatches of the same yarn and needle, average two or three swatches.
+Does gauge change depending on the day? Compare samples made with the same yarn, needles, method and finishing state. If the readings differ substantially, check the conditions and make another representative sample rather than averaging incompatible results.
 
-Separate swatch vs measuring the project? You can measure the project after a few inches, but by then you've committed. If gauge is wrong, you rip and restart. A separate swatch catches it before you've invested real time. The exception is top-down garments where the early yoke is small and easy to rip. Some knitters skip the separate swatch and use the yoke itself. Risky, but it works for them.
+Separate swatch vs measuring the project? You can check a project once it has enough undistorted fabric, but correcting an unsuitable gauge may mean ripping back. Compare untreated work with the untreated swatch. A small top-down yoke is not automatically a representative measurement area.
 
-What if the pattern doesn't give a gauge? Check the yarn label and use the recommended needle size as a starting point. Knit a swatch in stockinette. Whatever gauge you get is your gauge, and the project will turn out at whatever size that math produces. Useful for scarves and shawls where exact size isn't critical.
+What if the pattern doesn't give a gauge? Ask the designer if size matters. For your own simple design, start with the label's needle recommendation and swatch in the intended stitch pattern. That gives a basis for calculating dimensions; stockinette gauge does not predict every other stitch pattern.

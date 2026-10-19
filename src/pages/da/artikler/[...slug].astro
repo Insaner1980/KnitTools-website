@@ -71,6 +71,13 @@ const categoryDescription = category
       description={categoryDescription}
       canonicalPath={danishArticleRoutes.category[category]}
       alternates={routes.category[category]}
+      contentPage={
+        category === "gauge-calculations" ||
+        category === "yarn" ||
+        category === "needles" ||
+        category === "techniques" ||
+        category === "app-tools"
+      }
       lang="da"
     >
       <section class="cat-header-section">
@@ -96,7 +103,17 @@ const categoryDescription = category
           ))}
         </div>
       </section>
-      <ClosingCTA variant="page" lang="da" />
+      <ClosingCTA
+        variant="page"
+        lang="da"
+        contentPage={
+          category === "gauge-calculations" ||
+          category === "yarn" ||
+          category === "needles" ||
+          category === "techniques" ||
+          category === "app-tools"
+        }
+      />
     </PageLayout>
   ) : (
     <PageLayout
@@ -104,6 +121,7 @@ const categoryDescription = category
       description="Praktiske strikkeartikler om strikkefasthed, garn, strikkepinde, teknikker, beregnere og KnitTools til rigtige projekter."
       canonicalPath={danishArticleRoutes.articlesIndex}
       alternates={routes.articlesIndex}
+      contentPage
       lang="da"
     >
       <section class="articles-header">
@@ -154,7 +172,7 @@ const categoryDescription = category
                     href={danishArticleRoutes.category[section.slug]}
                     class="cat-all-link"
                   >
-                    Se {section.remainingCount} mere &rarr;
+                    Se {section.remainingCount} flere &rarr;
                   </a>
                 )}
               </header>
@@ -171,7 +189,7 @@ const categoryDescription = category
           </section>
         ))
       )}
-      <ClosingCTA variant="page" lang="da" />
+      <ClosingCTA variant="page" lang="da" contentPage />
     </PageLayout>
   )
 }

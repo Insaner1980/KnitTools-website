@@ -2,6 +2,7 @@
 title: "Byta garntjocklek i stickmönster"
 description: "Så byter du till en annan garntjocklek i ett mönster. Om maskantal, stickstorlek, garnåtgång och när det fungerar eller inte."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 7
 tags:
@@ -16,138 +17,95 @@ lang: sv
 translationKey: "yarn-weight-substitution"
 ---
 
-Att byta märke inom samma tjocklekskategori är en sak. Att byta själva garntjockleken är ett större steg. Ibland är det precis poängen. Ett mönster ser fint ut i Fingering, men du vill ha en snabbare och varmare version i DK. Ibland blir det tyst en omkonstruktion, och halvvägs in märker du att originalgarnets beteende bar mer av mönstret än du först såg.
+Att byta märke inom samma tjocklekskategori är en sak. Att byta själva garntjockleken är ett större steg. Ibland är en annan stickad yta målet; ibland behöver mönstret göras om.
 
-Att byta garntjocklek betyder att du använder ett garn med annan tjocklek än mönstret anger. Det kräver att du räknar om maskantal, stickstorlek och garnåtgång utifrån den nya stickfastheten. Matten i sig är inte svår. Den svårare frågan är om det färdiga tyget fortfarande blir rimligt för projektet.
+Garntjocklek betyder inte vikt i gram. Prova först om du når mönstrets stickfasthet med en yta som passar projektet. Då kan maskantalen fungera oförändrade. Behåller du en annan stickfasthet måste du anpassa mönstret medvetet. Andra stickor eller dubbelt garn gör inte den anpassningen åt dig.
 
 ## Vad som ändras när du ändrar tjocklek
 
-Mycket. Värt att säga rakt ut.
+**Maskantalet beror på uppmätt stickfasthet.** Med oförändrade 200 maskor ger 20 maskor per 10 cm en omkrets på 100 cm. Vid 16 maskor per 10 cm blir den 125 cm, alltså 25 % större jämfört med ursprungliga 100 cm. För att behålla 100 cm behövs i stället 160 maskor, innan konstruktion och rapporter kontrolleras.
 
-**Maskantalet ändras** eftersom grövre garn betyder färre maskor per centimeter och tunnare garn betyder fler. Ett mönster skrivet för 20 maskor per 10 cm och omräknat till 16 maskor per 10 cm behöver nya maskantal överallt: kropp, ärmar, halsringning och formning.
+**Stickstorleken provas fram**, inte räknas fram ur garnkategorin. Rätt maskantal per 10 cm räcker inte om ytan blir för stel, gles eller tung.
 
-**Stickstorleken ändras**, och mönstrets rekommenderade sticka är inte längre relevant. Börja från det nya garnets rekommenderade intervall och låt provlappen avgöra.
-
-**Tygets karaktär skiftar.** En design skriven för DK kan kännas tung och stel i Worsted, eller luftig och lös i Fingering. Flätdjup, hålmönster, fall och handkänsla förändras.
-
-**Den ursprungliga garnåtgången slutar vara pålitlig.** Mönstrets "8 nystan à 200 m" räknades för ett visst garn vid en viss stickfasthet. Ändra något av det, och totalsumman glider.
-
-**Projekttiden ändras**, vilket ibland är hela anledningen till bytet. En Worsted-version av en Fingering-tröja stickas mycket snabbare. Det är inte oviktigt i ett projekt som annars mäts i månader.
+**Yta och garnåtgång bedöms separat.** Jämför fiber, garnkonstruktion, fall, återhämtning efter sträckning och skötsel. Färre maskor betyder inte en proportionell minskning i meter eller gram.
 
 ## När byte av garntjocklek fungerar bra
 
-Att gå upp eller ned en tjocklekskategori i enkla mönster är det mest hanterbara. Halsdukar, många halskragar, filtar och enkla väskor har tillräckligt mycket tolerans för att förlåta en del storleksförskjutning. Och ibland är målet verkligen ett annat tyg. Ett sjalmönster för Fingering stickat i DK ger en större, varmare sjal. Det är inte ett misstag, det är ett val.
+En rektangel med flexibla slutmått är en överskådlig första anpassning: välj bredd, räkna maskor, kontrollera hela rapporten och sticka till önskad längd. Även en halsduk behöver rätt yta och tillräckligt med garn.
 
-Boxiga plagg hanterar garntjockleksbyten bättre än figurnära plagg. En drop shoulder-tröja med minimal formning är förlåtande. En skräddad passform med isydd ärm och midjeformning är det inte.
+Ett rakt, rymligt plagg har färre formningsmoment än ett figurnära, men ärmar, hals och ärmhål måste ändå passa. Ett steg mellan kategorier är ingen säker gräns. [CYC:s kategorier](https://www.craftyarncouncil.com/standards/yarn-weight-system) är riktlinjer; Worsted och Aran ingår båda i Medium.
 
 ## När byte av garntjocklek blir riskabelt
 
-Att gå mer än en tjocklek åt något håll gör att tyg och proportioner ändras snabbt.
+Rörelsevidd, formning och proportioner beror på både mask- och varvfasthet. Ärmkullens minskningar, ärmhålets djup, halsringningen och okets höjd kan inte räknas om med en enda maskkvot.
 
-Figurnära plagg är största risken. Rörelsevidd, formning och proportioner är uträknade för originalstickfastheten. Att byta tjocklek där för dig mot verklig omräkning av mönstret, inte bara byte av garn. Ärmkullar är särskilt känsliga: minskningarna rad för rad bygger på varvfasthet, och en annan garntjocklek ändrar varvfastheten på sätt som maskmatten ensam inte löser.
+I tvåfärgsstickning löper den oanvända färgen bakom maskorna som en flottering. Att fånga den fäster tråden utan att skapa en extra tråd. Bedöm tjocklek och följsamhet i en provlapp med färgmönstret; garnkategorin innebär inte dubbel tjocklek eller vindtäthet.
 
-Spets beror på skala. En spetsrapport som öppnar sig fint i Fingering på tunna stickor kan se tung och oklar ut i Worsted med samma maskantal. Hålen blir större men förlorar proportion. En del hålmönster överlever skalningen. Andra gör det inte.
-
-Flerfärgsstickning blir snabbt tjock när garntjockleken ökar. I vanlig tvåfärgsstickning löper den färg som inte stickas med bakom de stickade maskorna som en enda flottering. Att fånga flotteringen fäster den; det skapar inte en andra tråd. En Fair Isle-tröja i Worsted kan bli dubbel tjocklek i mönsterpartierna, fint för ytterplagg men obekvämt nära kroppen.
-
-Flätor beter sig också olika över tjocklekar. En fyrmaskorsfläta i Fingering ser nätt ut. Samma korsning i Bulky använder märkbart mer garn per korsning och blir tydlig snarare än diskret.
-
-För byte inom samma tjocklek, alltså att byta märke snarare än kategori, täcker [guiden om att byta garn](/sv/artiklar/byta-garn-i-stickmonster/) den sidan. Den här artikeln handlar om att faktiskt ändra garntjocklek.
+[guiden om att byta garn](/sv/artiklar/byta-garn-i-stickmonster/) hjälper dig att välja garn och bedöma ytan. Att ändra maskantal är ett separat steg.
 
 ## Exempel: Worsted-mönster med DK-garn
 
-Säg att en pullover är skriven för Worsted, 18 maskor per 10 cm, med 100 cm färdig bystvidd. Det ger ungefär 180 maskor runt kroppen. Du vill sticka den i DK, och provlappen ger 22 maskor per 10 cm.
+Detta är ett påhittat måttexempel, inte en fullständig omräkning av en tröja. Jämför samma mönsterstickning, behandling och stickmetod. Den färdiga bystvidden är 100 cm inklusive vald rörelsevidd. Den gamla stickfastheten 18 maskor per 10 cm ger 180 maskor. Den nya uppmätta stickfastheten är 22 maskor per 10 cm. För samma 100 cm behövs 100 ÷ 10 × 22 = **220 maskor**. Kvoten är 22 ÷ 18 ≈ 1,2222, alltså cirka 22,22 % fler än de ursprungliga 180. Med oförändrade 180 maskor blir omkretsen cirka 81,82 cm.
 
-Det nya maskantalet för samma 100 cm: 22 x 10 = 220 maskor.
+Anta separat uppmätta stickfastheter för mudden på 18 respektive 22 maskor per 10 cm; använd inte slätstickningens mått för resår. De gamla 44 maskorna ger cirka **24,44 cm**. Samma omkrets kräver cirka 53,78 maskor vid den nya stickfastheten. Om antalet ska vara jämnt ger 54 maskor cirka 24,55 cm och 52 maskor cirka 23,64 cm. Kontrollera passform och rapport innan du väljer.
 
-Det är 40 maskor mer runt kroppen. Ärmarna skalar på samma sätt. Om mönstrets ärmmudd var 44 maskor vid Worsted-stickfasthet behöver DK-versionen omkring 54 maskor för samma omkrets.
+En rak del på 40 cm kräver 112 varv vid den gamla varvfastheten 28 varv per 10 cm och **128 varv** vid den nya, 32 varv per 10 cm. Varvkvoten är 32 ÷ 28, inte 22 ÷ 18. En gammal del på 50 varv var cirka 17,86 cm. Nu behövs cirka 57,14 varv: 57 ger cirka 17,81 cm och 58 cirka 18,13 cm. Kontrollera varvrapporter och formning.
 
-Varvfastheten flyttar sig också. Worsted kan ge 28 varv per 10 cm. DK kan ge 32. En kropp som ska vara 40 cm djup behöver då 112 varv i Worsted och 128 varv i DK. Där mönstret säger "sticka 50 varv" behöver du räkna från färdig längd i stället för att följa varvantalet rakt av.
-
-Sedan kommer garnåtgången. Om originalmönstret krävde 1 280 m Worsted behöver DK i samma färdiga yta fler meter eftersom varje maska är tunnare och mask- och varvantalet är högre. I det här exemplet är ett planeringsspann runt 1 650-1 850 m mer realistiskt än att anta att originalets 1 280 m fortfarande räcker. [Garnåtgångskalkylatorn](/sv/verktyg/garnatgangskalkylator/) ger ett ungefärligt planeringsintervall utifrån projekttyp, storlek och garntjocklek, men använder inte din stickfasthet.
-
-Varje konvertering har sin egen aritmetik, men strukturen är densamma: gör om måtten till den nya stickfastheten och räkna om allt som bygger på varv i stället för centimeter.
+Talen ger inget belägg för ett nytt garnåtgångsintervall. [Garnåtgångskalkylator](/sv/verktyg/garnatgangskalkylator/) — Referensmängder från namngivna mönster, ingen personlig förbrukningsprognos. Välj projekt, en storlek i ett namngivet mönster och enhet. Resultatet är mönstrets referensmängd, ingen prognos för ditt eget projekt.
 
 ## Så räknar du om
 
-Om du bestämmer dig för att fortsätta ser processen ut så här:
-
-1. Sticka provlapp med det nya garnet på lämpliga stickor tills tyget ser ut och känns rätt. Den stickfastheten blir din startpunkt. Inte banderollens stickfasthet, inte mönstrets stickfasthet, utan den du faktiskt får. [Guiden om att mäta stickfasthet](/sv/artiklar/sa-mater-du-stickfasthet/) går igenom mätningen.
-
-2. Plocka ut de färdiga måtten ur mönstret. Kroppsomkrets, längd, ärmlängd, ärmomkrets och halsdjup. Arbeta från måtten, inte från originalets maskantal.
-
-3. Räkna om maskantal med den nya stickfastheten. KnitTools [uppläggningskalkylator](/sv/verktyg/upplaggningskalkylator/) sköter matten från bredd till maskantal.
-
-4. Respektera rapporter och balanseringsmaskor. Om mönstret använder en rapport på 8 maskor plus 2 måste det nya uppläggningsantalet fortfarande landa rätt. Runda upp eller ned till närmaste fungerande antal.
-
-5. Räkna om varvantal där mönstret bygger på varv i stället för mått. Ärmkullar och annan exakt formning är svårast, eftersom minskningsrytmen var anpassad till originalets varvfasthet.
-
-6. Räkna om garnåtgång från den nya stickfastheten och de färdiga måtten. Använd inte mönstrets ursprungliga siffra rakt av.
-
-För komplex formning sparar det mycket frustration att gå igenom varje del på papper innan du lägger upp. Provlappen berättar vad tyget gör. Matten berättar hur mycket av det du ska göra.
+1. Sticka provlappen i projektets mönsterstickning, plant eller runt som arbetet. Jämför i det tillstånd mönstret anger; tvätta och efterbehandla enligt garnets skötselråd och projektets behov, och mät helt torrt. Kontrollera maskor, varv och yta. Se [Guiden om att mäta stickfasthet](/sv/artiklar/sa-mater-du-stickfasthet/).
+2. Bestäm färdiga mått och rörelsevidd. Skilj omkrets från bredden på en platt del; räkna med sömmar, kanter och knappslå där de behövs.
+3. Räkna varje del med dess egen stickfasthet. [Uppläggningskalkylatorn](/sv/verktyg/upplaggningskalkylator/) avrundar breddens maskantal till ett jämnt tal. Den hanterar inte rapporter, kantmaskor, formning eller omräkning av ett helt mönster.
+4. Behåll hela formeln. För en platt del med totalt 8 × n + 2 maskor är målet 220 inte giltigt. Närliggande antal är 218 och 226; vid 22 maskor per 10 cm ger de cirka 99,09 respektive 102,73 cm. De två extra maskorna ingår en gång; kontrollera om separata kantmaskor tillkommer.
+5. Kontrollera ökningar och minskningar, både antal och placering, mot bredd och höjd. Ärmar, ärmhål, hals, ok och varvrapporter behöver egna beräkningar.
+6. Utgå från en mönsterversion för det nya garnet och stickfastheten, eller uppskatta åtgång från en representativ provlapps förbrukning och planerad yta. Kanter, färger, avslutning och redan inräknad reserv kontrolleras separat. Enbart stickfasthet och yta ger inget metertal.
 
 ## Hålla garn dubbelt som tjockleksbyte
 
-I stället för att köpa grövre garn kan du hålla två trådar tillsammans och behandla dem som ett arbetsgarn. Det är vanligt när du vill använda stashgarn, skapa melerade färgeffekter eller få ett tyg som skiljer sig från en enkel tråd i samma nominella tjocklek.
+Håll två trådar tillsammans och sticka dem som en. Prova kombinationen: fiber, snodd och konstruktion påverkar resultatet. Två trådar Fingering är inte alltid DK, och en enkel tråd ger inte alltid skarpare flätor.
 
-Grova tumregler för dubbelt garn:
-
-- 2 trådar Lace ≈ Fingering eller Sport
-- 2 trådar Fingering ≈ DK eller lätt Worsted
-- 2 trådar Sport ≈ Worsted eller Aran
-- 2 trådar DK ≈ Aran eller Bulky
-- 2 trådar Worsted ≈ Bulky eller Super Bulky
-
-Det här är ungefärligt. Dubbelt garn beter sig luftigare än en enkel tråd i samma nominella tjocklek, och maskdefinitionen blir oftast mjukare. Två trådar Fingering vid DK-stickfasthet kan ge ett luftigare tyg än ett äkta DK-nystan, ofta fint till sjalar och lagerplagg. För skarpa flätor vinner en enkel tråd.
-
-En riktig provlapp är fortfarande obligatorisk. Tumreglerna tar dig till rätt område. Provlappen berättar om tyget du fick är tyget du vill ha.
+Om du hypotetiskt behöver 300 m av den dubbla arbetstråden behövs **300 m av varje garn**, totalt 600 m enskilt garn. Vid 150 m / 50 g per nystan av vardera garnet blir det 2 nystan av varje, totalt 4 nystan och 200 g. Det bevisar inte att 300 m räcker till något visst plagg; provlapp och reserv ingår inte. Avrunda varje garn och färg separat. Två ändar från samma nystan fördubblar inte den tillgängliga längden.
 
 ## Äldre mönster och saknade tjockleksnamn
 
-Äldre mönster, särskilt från mitten av 1900-talet, använder inte alltid dagens garntjockleksnamn på samma sätt. Ett mönster kan ange ett garnnamn, gram, stickstorlek och stickfasthet men inget tydligt "DK" eller "Worsted".
+Bedöm inte ett äldre garns tjocklek enbart efter namnet. Läs stickfasthet, mönsterstickning och mått samt eventuella bevarade uppgifter om originalgarnet. Saknade uppgifter ger ingen grund för att tilldela garnet en modern kategori.
 
-Om ett äldre mönster säger "knitting worsted" men ger en stickfasthet runt 24 maskor per 10 cm kan garnet ha legat närmare dagens Sport, DK eller lätt Worsted än det en modern stickare menar med Worsted. Att stoppa in ett modernt Worsted-garn kan ge ett tjockare och lösare plagg än originalet.
-
-Lösningen är samma som vid andra tjockleksbyten: ta reda på vilken stickfasthet mönstret faktiskt var byggt för, välj ett modernt garn som kan ge den stickfastheten och räkna därifrån. Om banderollen saknas kan WPI hjälpa dig att gissa garntjocklek, men CYC:s garntjockleksintervall är riktlinjer, inte löften. Stickfastheten i provlappen avgör ändå.
+Regionala namn som 4-ply kan ange en tjockleksklass, medan ply även används om trådar som tvinnats ihop till ett garn. Det betyder inte att fyra separata garner ska hållas tillsammans. [Ravelrys terminologitabell](https://www.ravelry.com/help/yarn/weights) visar regional användning. Sök rätt stickfasthet och lämplig yta, eller gör en medveten anpassning.
 
 ## Spetsstickning och struktur i ny tjocklek
 
-Spetsstickning, hålmönster och kraftiga strukturmönster är inställda på originalgarnet. Att skala dem upp eller ned behåller sällan exakt samma visuella effekt.
+Sticka hela rapporter av hålmönstret eller strukturmönstret och mät deras bredd och höjd efter avsedd efterbehandling. Bedöm öppningar, flätornas tydlighet och fall. Ett eller två steg mellan garnkategorier säger inte hur de egenskaperna blir.
 
-I lace beror varje omslags öppning på garnets tjocklek och stickstorlek tillsammans. Ett tunt hålmönster i Fingering kan fortfarande bli fint i Worsted, men proportionerna läses annorlunda. Hålen blir små fönster i stället för fina prickar. Om designen skulle vara luftig kan den effekten försvinna i grövre garn.
-
-I strukturmönster som mosstickning, bobblor och lyfta maskor överlever rytmen ofta ett steg upp eller ned. Två steg börjar trycka på proportionerna. Bobblor i Bulky blir visuellt dominerande på ett sätt som bobblor i Fingering aldrig blir.
-
-Det här är ingen absolut regel. Sticka mönsterstickningen i det nya garnet och titta ärligt på tyget. Tyget berättar vad som är möjligt.
+En rapport med fast varvantal ändrar höjd när varvfastheten ändras. Flyttade motiv eller ändrat antal rapporter påverkar också formningen runt omkring; kontrollera hela berörda delen.
 
 ## Vanliga funderingar
 
-**Att gå ned en tjocklek för att göra ett mönster lättare och mer nätt** fungerar, med samma förbehåll åt andra hållet. Projektet tar längre tid, maskantalet går upp och tygets karaktär ändras. Matten är densamma.
+**Samma stickfasthet som mönstret:** behåll antalen bara om ytan och de nödvändiga mask- och varvmåtten passar.
 
-**Att gå upp i tjocklek för att bli klar snabbare** är ofta möjligt, men se upp med figurnära plagg där formningsmatten blir knepig. En boxig tröja skalar lättare. En figursydd kofta med midjeformning gör det inte.
+**Annan stickfasthet:** beräkna måtten och kontrollera konstruktionen. Byte av stickor är ett försök, ingen garanti.
 
-**Mönstrets stickstorlek behöver nästan säkert ändras.** Börja från det nya garnets rekommenderade intervall och lita på provlappen.
+**En annan angiven storlek:** rätt maskantal runt kroppen gör storleken till en kandidat. Fler maskor per 10 cm kräver fler kroppsmaskor för samma omkrets; färre kräver färre. Kontrollera alla övriga mått, rörelsevidd, längder och formningsintervall. Rätt bystvidd säkrar inte hela passformen. [Tin Can Knits exempel](https://blog.tincanknits.com/2016/04/07/how-to-knit-a-garment-at-a-different-gauge/) visar varför ett motiv med fast varvantal behöver en separat kontroll.
 
-**Vid komplex plaggkonstruktion** är "garnbyte" ibland fel ram. Det du egentligen gör är att gradera om mönstret till en ny stickfasthet. Det är ett större arbete än ett garnbyte, och det är värt att vara ärlig med innan du lägger upp.
-
-Om du vill förstå [varför stickfasthet varierar](/sv/artiklar/vad-ar-stickfasthet/) innan du bestämmer om tjockleksbyte är vettigt, hjälper den bakgrunden. När det nya garnet finns i handen är [guiden om att mäta stickfasthet](/sv/artiklar/sa-mater-du-stickfasthet/) rätt plats att börja.
+Läs också om [varför stickfasthet varierar](/sv/artiklar/vad-ar-stickfasthet/) och [guiden om att mäta stickfasthet](/sv/artiklar/sa-mater-du-stickfasthet/).
 
 ## FAQ
 
 **Kan jag byta garntjocklek utan att byta stickstorlek?**
-Inte egentligen. Olika garntjocklekar behöver olika stickor för att ge rimligt tyg. Ett grövre garn på originalstickan ger tätt och stelt tyg. Ett tunnare garn på originalstickan ger löst och hängigt tyg. Byt sticka.
+Ibland. Prova de avsedda stickorna och bedöm både stickfasthet och yta. Byt storlek om det hjälper, men välj annat garn eller anpassa mönstret om rätt stickfasthet ger olämplig yta.
 
 **Hur vet jag om ett mönster tål en tjockleksändring?**
-Ju enklare konstruktion, desto mer förlåtande. Drop shoulder-tröjor, rektangulära sjalar, halsdukar och filtar klarar ofta tjockleksändringar. Skräddad passform, fin lace och flerfärgsstickning är svårare.
+Börja med mått och konstruktion. En enkel rektangel är lättare att anpassa än figurnära formning, men projekttypen garanterar inget. Kontrollera också rapporter, yta och åtgång.
 
 **Kommer mönstret fortfarande att se ut som originalbilden?**
-Troligen inte, och det är bra att veta innan du börjar. Ett mönster fotograferat i Fingering och omstickat i Worsted blir ett annat plagg. Ibland är det en förbättring. Ibland inte.
+Utgå inte från det. Jämför den färdigbehandlade provlappens struktur, fall och skala med den önskade effekten.
 
 **Vilken tjockleksändring är enklast att prova?**
-En kategori upp eller ned i ett mönster med lite formning. Worsted till Aran i en boxig pullover. Fingering till Sport i en triangelsjal. Lite matte, måttlig tygskillnad, hög tolerans för passform.
+En enkel rektangel med flexibla mått eller en mönsterversion för din stickfasthet. Kategorinamnet räcker inte för att bedöma svårigheten.
 
 **Kan jag blanda två olika garntjocklekar i samma projekt?**
-Ja, med reservationer. Ränder där grövre och tunnare garn turas om ger en texturerad rand. Att hålla trådar tillsammans för melerat tyg är vanligt. Det som inte fungerar bra är att byta tjocklek mitt i ett varv med samma spänning. Tyget kommer inte ligga plant.
+Ja. Prova den faktiska kombinationen, tillsammans eller i separata ränder och motiv. Kontrollera oönskade breddskillnader, veck och förändringar efter tvätt. Byte mitt i ett varv är inte i sig omöjligt.
 
 **Ger originaldesignern ibland flera garntjocklekar?**
-Vissa mönster gör det, särskilt moderna. Om samma design finns i både Fingering och DK har designern redan gjort matten. Det är den enklaste "tjockleksändringen", eftersom det egentligen inte är en substitution.
+Ja, ibland. Använd den valda versionens egna stickfastheter, maskantal, mått och garnmängder i stället för att blanda versionernas instruktioner.

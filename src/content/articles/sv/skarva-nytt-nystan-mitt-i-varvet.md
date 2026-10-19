@@ -2,6 +2,7 @@
 title: "Så skarvar du ett nytt nystan mitt i varvet"
 description: "Lär dig skarva in ett nytt nystan när du stickar. Om överlappning, Russian join, filtad skarv och magic knot, med för- och nackdelar."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 5
 tags:
@@ -18,130 +19,123 @@ translationKey: "join-new-ball-of-yarn"
 
 Det gamla nystanet tar slut. Det nya måste börja. Övergången ska bli prydlig i det färdiga tyget och tillräckligt säker för att inte repa upp sig.
 
-De fyra vanligaste metoderna är överlappningsskarv (mest allsidig, två ändar att fästa), Russian join (inga lösa ändar, lite tjockare), filtad skarv/spit splice (nästan osynlig men bara för filtbar ull) och magic knot (snabb men lämnar en knut). Bästa valet beror på garnets [fiberinnehåll](/sv/artiklar/garnfibrer-jamforda-ull-bomull-akryl/) och hur mycket du bryr dig om att fästa trådar.
+Här jämförs överlappning med två trådar, rysk skarv (Russian join), filtad skarv och magic knot. De håller ihop garnet på olika sätt och kräver olika efterarbete. Välj efter garnets [fiberinnehåll](/sv/artiklar/garnfibrer-jamforda-ull-bomull-akryl/), konstruktion och den stickade ytan.
 
 ## Snabb jämförelse
 
-| Metod        | Passar garn             | Ändar att fästa | Synlighet           | Bäst för                          |
-| ------------ | ----------------------- | --------------- | ------------------- | --------------------------------- |
-| Överlappning | Alla garner             | 2               | Låg efter montering | Standardval, alla garner          |
-| Russian join | Flertrådiga garner bäst | 0 lösa ändar    | Liten förtjockning  | När du ogillar att fästa ändar    |
-| Filtad skarv | Filtbara animalfibrer   | 0               | Nästan osynlig      | Obehandlade ullprojekt            |
-| Magic knot   | Många garn, kompromiss  | 0               | Knut inne i tyget   | Bara tjocka eller filtade arbeten |
+| Metod        | Passar garn                             | Ändar att fästa            | Synlighet                       | Bäst för                              |
+| ------------ | --------------------------------------- | -------------------------- | ------------------------------- | ------------------------------------- |
+| Överlappning | Prova tjockleken med dubbel tråd        | 2                          | En dubbel maska eller sträcka   | När ytan tål extra tjocklek           |
+| Russian join | Garn som kan hålla en ände inuti tråden | Ändarna fästs inuti garnet | Tjockare sträcka                | Skarv utan knut; prova konstruktionen |
+| Filtad skarv | Garn som faktiskt filtar                | Inga vid en lyckad skarv   | Beror på uttunning och filtning | Filtbart garn utan superwash          |
+| Magic knot   | Garn där knuten håller                  | 2 i versionen nedan        | En knut finns kvar              | När en knut passar arbetet            |
 
 ## Metod 1: överlappningsskarv
 
-Mest allsidig. Börja sticka med det nya garnet och lämna 15 cm garnände på både gammalt och nytt garn. Sticka de första maskorna med det nya garnet medan du håller den gamla änden bredvid. Släpp den gamla änden efter några maskor. Fäst båda ändarna senare.
+Överlappning betyder här att du stickar en kort bit med det gamla garnet och tråden från det nya nystanet tillsammans. Att släppa det gamla garnet och börja med det nya är en annan variant.
 
-Fungerar med alla garner, kräver ingen förberedelse och kan göras mitt i varvet eller vid kanten. Nackdelen: två ändar att fästa, och överlappningsmaskorna kan se lite tjockare ut tills ändarna är fästa och tyget är [blockat](/sv/artiklar/blocka-stickning-vat-anga-spray/). Det här är metoden de flesta stickare lär sig först, och den är rätt val när fästa trådar inte stör dig.
+1. Stanna medan det finns gammalt garn kvar till både skarven och fästningen. Lämna också en fri ände på det nya garnet. Cirka 15 cm är en praktisk utgångspunkt, inte en minsta längd som räcker för alla garner.
+2. Håll den gamla arbetstråden och arbetstråden från det nya nystanet tillsammans. Låt den nya garnänden hänga fritt. Sticka en maska med båda trådarna enligt [Elizabeth Smiths exempel](https://elizabethsmithknits.com/2021/04/29/how-to-join-a-new-skein-of-yarn/).
+3. Släpp det gamla garnet och fortsätt med bara tråden från det nya nystanet. Den gamla änden ska fortfarande räcka att fästa. Justera försiktigt maskorna till samma storlek som grannmaskorna.
+4. Nästa varv stickar du båda öglorna i den dubbla maskan tillsammans som **en maska**, rätt eller avigt enligt mönstret. Maskantalet är oförändrat. Har du stickat flera maskor med dubbel tråd, behandlar du varje par så.
+5. Fäst båda fria ändarna. Dubbel tråd ersätter inte fästningen.
 
-Vissa stickare föredrar att skarva i början av ett varv i stället för mitt i. Då hamnar trådändarna vid kanten där de är lättare att gömma i en söm. För plana delar som ska sys ihop är det renast. Vid rundstickning finns ingen kant, så skarv mitt i varvet går inte alltid att undvika.
+Den dubbla sträckan är fortfarande tjockare efter att ändarna klippts; [blockning](/sv/artiklar/blocka-stickning-vat-anga-spray/) garanterar inte att den försvinner. Blir det för tjockt kan du släppa det gamla garnet och sticka nästa maska med bara den nya arbetstråden. Lämna båda ändarna för fästning. Håll den nya änden så att de första maskorna inte glider, justera spänningen och fäst ändarna.
+
+En söm kan dölja en kantskarv, men en synlig kant eller ett vändbart arbete kan visa den. Du kan också skarva mitt i varvet. Vid rundstickning går det att byta vid varvmarkören eller på en annan plats där efterarbetet passar.
 
 ### Fästa överlappningsändar ordentligt
 
-Det är fästningen som avgör om överlappningsskarven håller. En slarvig fästning kan arbeta sig ut, särskilt i superwash-ull där fibrerna inte griper tag i varandra.
+Jämna först till lösa maskor utan att dra ihop tyget. Korsa ändarna på avigsidan vid glipan innan du fäster dem i angränsande maskor, utan att strama åt tyget. Trä en ände på en stoppnål och följ garnets väg genom flera maskor på avigsidan. Byt riktning genom angränsande maskor; gå inte exakt tillbaka samma väg så att du drar ut det du just fäst. Gör likadant med den andra änden. [Purl Soho visar flera vägar för olika maskstrukturer](https://www.purlsoho.com/create/weaving-in-your-ends/).
 
-Trä änden på en stoppnål. Arbeta på avigsidan och följ maskornas väg i stället för att dra garnet rakt över ytan. Dela gärna några av de omgivande trådarna med nålen, så låser friktionen änden bättre. Gå några centimeter åt ett håll, byt riktning och gå en bit tillbaka innan du klipper av änden efter blockning.
-
-För superwash, silke, bambu, merceriserad bomull och andra hala garner behöver ändarna vara längre och fästningen längre. Då måste den mekaniska fästningen göra hela jobbet.
+Behåll elasticiteten. Att dela garnets deltrådar med nålen är ett alternativ för lämpliga garner, inte ett krav för alla konstruktioner. I hala garner är längden och vägen särskilt viktiga. Låt tyget slappna av, efterbehandla bara enligt garnets skötselråd och kontrollera skarven innan du klipper bort överskottet. Klipp inte en ofäst ände tätt intill skarven.
 
 ## Metod 2: Russian join
 
-Inga ändar att fästa. Den gamla och nya garnänden träs tillbaka genom sig själva med en stoppnål och skapar två öglor som hakar i varandra.
+En rysk skarv kopplar ihop två öglor och gömmer varje ände inuti dess egen tråd före stickningen. Metoden kräver inte att garnet filtar. Använd en tunn stoppnål som kan gå genom garnets mitt utan att skada det.
 
-Trä den gamla garnänden på en stoppnål. Stick nålen tillbaka genom garnets egna trådar i ungefär 5 cm och skapa en ögla i änden. Gör samma med det nya garnet. Länka ihop öglorna som kedjelänkar innan du drar åt. Klipp ändarna nära.
+1. Trä den gamla änden på nålen. Vik tillbaka den och för nålen längs insidan av den gamla tråden mot stickningen. Lämna en liten ögla vid vikningen.
+2. [Knit Picks använder ungefär 5 cm](https://tutorials.knitpicks.com/russian-join/) inuti garnet och anpassar längden efter hur halt det är. Dra ut nålen och släta ut garnet, men håll öglan öppen.
+3. Trä den nya änden på nålen och för den **först genom den gamla öglan**. Vik sedan tillbaka den nya änden och för den lika långt inuti sin egen tråd mot det nya nystanet. Nu sitter öglorna ihop.
+4. Dra i ändarna så att öglorna sluts och släta ut båda förtjockningarna. Kontrollera att ändarna inte glider ut. Klipp bara bort överskott utanför de instuckna delarna, inte själva skarven.
+5. Sticka över den sammanfogade tråden som vanligt mot det nya nystanet. Sticka maskorna normalt även nästa varv; inga maskor läggs till. I en lyckad skarv är ändarna fästa inuti garnet och lämnas inte lösa i tyget.
 
-En spetsig stoppnål hjälper. En trubbig nål glider lätt mellan trådarna i stället för att gå in i garnet, och då kan skarven bli svagare. Nålen behöver både ha tillräckligt stort öga och en spets som faktiskt kan tränga in i garnet.
-
-Mycket säker eftersom skarven byggs in i själva garnet. Den skarvade delen blir lite tjockare, två lager i ungefär 5 cm på varje sida, vilket syns i mycket tunt garn. Flertrådiga garner är lättast att trä igenom rent; entrådiga och mycket splittriga garner kan vara svårare att skarva prydligt på det här sättet.
-
-Bäst för stickare som verkligen ogillar att fästa trådar och arbetar med flertrådigt garn. Från DK och grövre försvinner den extra tjockleken ofta i det färdiga tyget.
-
-I fingering och lace kan Russian join synas som en lite grövre punkt, även om blockning mildrar övergången.
+Konstruktionen betyder mer än en gräns vid DK. Garnet måste kunna rymma och hålla kvar änden. Bandgarn, öppna kedjekonstruktioner och mycket lösa eller hala trådar behöver bedömas för sig. Entrådigt garn är inte automatiskt uteslutet. Prova i en stickad lapp och med garnets tillåtna skötsel. Den tjockare delen kan synas. Glider änden ut eller går den inte att föra in, välj en metod med ändar att fästa.
 
 ## Metod 3: filtad skarv (spit splice)
 
-Fungerar bara med obehandlad ull och andra filtbara animaliska fibrer.
+Använd garn som faktiskt filtar, till exempel lämplig ull utan superwash-behandling. Att det står ull på banderollen räcker inte: behandling, blandning och konstruktion spelar roll. Superwash, bomull, lin och akryl passar inte denna filtade skarv. Utgå inte från att en blandning med animalfibrer håller ihop.
 
-Lägg ändarna omlott cirka 7-8 cm. Fukta dem (namnet kommer från den traditionella metoden, men vatten går fint). Rulla överlappningen kraftigt mellan handflatorna. Friktion plus fukt filtar ihop fibrerna och skapar en säker skarv med mycket lite bulk.
+För den raka överlappningen i [Purl Sohos instruktion](https://www.purlsoho.com/create/wet-splice-aka-spit-splice/):
 
-Resultatet kan bli nästan osynligt: ingen tydlig tjockleksförändring och inget att fästa. Begränsningen är tydlig. Den fungerar bara med filtbara garner. Bomull, akryl, superwash-ull, silke, lin och bambu filtar inte. Om skarven inte blir stark nog, ofta för lite friktion eller fukt, dras den isär.
+1. Lämna tillräckligt med gammalt garn för att hantera änden utan att dra i sista maskan. Öppna de sista cirka 2,5–5 cm av båda ändarna; sära på deltrådarna om garnet är flertrådigt.
+2. Ta bort en del fibrer från vardera änden för att minska tjockleken. Behåll tillräckligt för en sammanhängande överlappning och klipp inte av hela tråden.
+3. Fukta de förberedda ändarna med vatten och lägg dem omlott, med stickningen och det nya nystanet åt motsatta håll.
+4. Gnugga överlappningen mellan handflatorna tills fibrerna binder ihop. Prova försiktigt; går skarven isär ska du inte sticka in den som en färdig skarv.
+5. Fortsätt med den sammanfogade tråden. Sticka maskorna normalt nästa varv. I en lyckad skarv ingår båda ändarna, så det finns inga lösa ändar där att fästa eller klippa bort.
 
-Många ullstickares favoritmetod. Om garnet filtar är den värd att lära sig.
-
-Testa först på två korta garnstumpar. En del garn som ser ut som vanlig ull är superwash-behandlade eller blandade med fibrer som hindrar filtfästet.
+Prova först på garnrester och en stickad lapp, även med tillåten tvätt och torkning. Ett lätt dragprov visar den första bindningen, inte hållbarheten under hela användningstiden. Tjocklek och synlighet beror på förberedelsen och garnet.
 
 ## Metod 4: magic knot
 
-Lägg gammalt och nytt garn omlott. Knyt det gamla runt det nya med en enkel knut, och knyt sedan det nya runt det gamla med en till. Skjut knutarna mot varandra tills de möts och låser sig. Klipp ändarna nära.
+Magic knot består av två enkla knutar, en runt vardera tråden, som dras mot varandra. Lämna längd för att knyta och, i den här versionen, även fästa ändarna.
 
-Snabb, säker när den är rätt knuten och utan ändar att fästa. Men det finns en knut i tyget. Även en hårt åtdragen magic knot skapar en liten hård punkt som kan kännas i tunt tyg och arbeta sig ut mot ytan över tid. I hala garner, som silke och bambu, kan knutarna glida upp. Många stickare undviker knutar i plagg, punkt.
+1. Lägg gammalt och nytt garn bredvid varandra med de fria ändarna åt motsatta håll.
+2. För den gamla änden över och under den nya tråden. För den över sin egen långa tråd så att en ögla bildas, stick änden genom öglan underifrån och dra åt knuten runt den nya tråden.
+3. Upprepa samma över–under-följd med den nya änden runt den gamla tråden.
+4. Dra i de långa trådarna mot stickningen och det nya nystanet, **inte i ändarna**, tills knutarna glider ihop. Dra åt och kontrollera att de inte glider upp.
+5. Fortsätt med den nya arbetstråden och placera om möjligt knuten mellan maskorna. Sticka följande maskor normalt; knuten är ingen extra maska. Behåll båda ändarna och fäst dem före klippning, ett alternativ i [YarnThrifts instruktion](https://yarnthrift.com/how-to-join-yarn-using-the-magic-knot-crochet-tutorial/).
 
-Bäst för tjocka tyger där knuten försvinner (grova filtar, filtade saker). Inte för plagg eller ömtåliga arbeten.
+Vissa varianter klipper direkt intill knuten. Då hänger säkerheten på knuten; det är inte efterarbetet som lärs ut här. [Nimble Needles beskriver att knutar kan lossna i hala garner](https://nimble-needles.com/tutorials/joining-yarn-with-a-magic-knot-in-knitting/). Ett dragprov ger ingen livslång garanti. Knuten kan synas eller kännas även i tjockt tyg. Välj den när du accepterar det, utan att se knutar som alltid förbjudna i plagg eller automatiskt lämpliga i filtar och filtade arbeten.
 
 ## Välja rätt metod
 
-I de flesta lägen är överlappningsskarv med fästa ändar säkrast och mest allsidigt. Fungerar med alla garner, ger rent resultat efter montering och kräver ingen särskild teknik.
-
-För obehandlad ull ger filtad skarv renast resultat. Det krävs lite övning för att få tryck och fukt rätt, men när det väl sitter är metoden snabb och nästan osynlig.
-
-Russian join passar stickare som verkligen ogillar ändar och arbetar med flertrådigt garn från DK och grövre.
-
-Magic knot är snabbt, men det är en kompromiss. Använd det främst i tjocka ytor där knuten försvinner eller i arbeten som ska filtas.
+Välj efter provlappen: överlappning ger dubbel tråd och två ändar att fästa; Russian join fäster ändarna inuti garnet men gör det tjockare; filtad skarv behöver en pålitlig filtbindning; magic knot lämnar en knut. Att börja med bara den nya tråden och fästa båda ändarna är ett alternativ när dubbla maskor blir för tjocka. Ingen metod passar alla garner och arbeten.
 
 ## När du ska skarva
 
-Om du kan planera har du alternativ. När nystanet börjar ta slut, mät återstående garn mot arbetets bredd. En grov tumregel: om garnet är ungefär fyra gånger varvets bredd räcker det till cirka ett varv. Det är inte exakt, eftersom aviga maskor och strukturmönster kan dra olika mycket garn, men det räcker för att planera en ren skarv.
+Planera skarven innan den gamla änden blir för kort att hantera och fästa. Att jämföra garnlängden med arbetets bredd förutsäger inte säkert ett helt varv i alla maskstrukturer. Vill du skarva vid kanten och är osäker på om garnet räcker till nästa varv **och en ände att fästa**, byt innan du börjar varvet.
 
-Om garnet precis räcker till ett varv, skarva i början av nästa varv så att ändarna hamnar vid kanten.
-
-Vid slätstickning runt, sprid skarvarna så att de inte hamnar på samma ställe varje gång. Flytta skarven några maskor varje gång så undviker du en synlig kolumn med lite annan struktur.
+Vid rundstickning kan du fördela skarvarna på mindre synliga platser så att förtjockningarna inte samlas ovanpå varandra. Det ändrar placeringen, inte tjockleken eller hållfastheten.
 
 ## Byta handfärgat garn mellan nystan
 
-Handfärgade nystan kan skilja sig åt även inom samma färgbad. Om du byter nystan tvärt kan det bli en tydlig rand där skiftet sker.
+Handfärgade nystan kan skilja sig åt även inom samma färgbad. [Malabrigo rekommenderar exempelvis att växla mellan nystan av Rios](https://malabrigoyarn.com/yarns/rios) för att fördela färgskillnader. Växling garanterar inte en osynlig övergång eller att alla färgansamlingar försvinner.
 
-När du börjar ett nytt nystan i ett handfärgat projekt, växla mellan gammalt och nytt nystan i flera varv. Många använder två varv från ett nystan och två varv från det andra. Låt det garn som inte används följa löst längs kanten. På så sätt blir nyansskillnaden en övergångszon i stället för en skarp linje.
-
-För starkt melerade handfärgade garner hjälper samma knep mot färgpoolning. Två nystan tillsammans beter sig annorlunda än varje nystan för sig.
+Vid stickning fram och tillbaka kan du sticka två varv med det gamla nystanet och två med det nya. Då återvänder båda till samma kant. Låt den vilande tråden följa kanten utan att strama och fånga upp den vid bytet. Upprepa och bedöm övergången; lämna en ände att fästa när du slutar med det gamla nystanet. Det här är ett exempel för plan stickning. Vid rundstickning följer garnet den valda bytespunkten i stället för en sidokant. Olika färgbad kan fortfarande skilja sig åt.
 
 ## Fabriksknutar inne i nystanet
 
-Ibland finns det en knut inne i själva nystanet. Garnfabriker kan skarva garnet under nystningen när en tråd går av, och den knuten dyker upp mitt i projektet.
-
-Sticka inte över knuten. Klipp bort den, behandla de två bitarna som separata nystan och använd den skarvmetod som passar garnet. En liten knut i färdig stickning ser ut som ett fel även om den inte går upp. Fabriksknutar händer, särskilt i massproducerade garner.
+Kontrollera en knut innan du stickar förbi den. Är konstruktionen eller hållfastheten osäker, ta bort den och skarva med en metod som passar arbetet. Behåll tillräcklig längd på båda sidor, och repa vid behov upp en bit. En fabriksknut bevisar inte att alla knutar passar eller inte passar din stickning.
 
 ## När garnet går av mitt i en maska
 
-Garnet går av medan du arbetar en maska. Det händer inte ofta, men det kan hända med gammalt garn, svaga punkter eller hårdhänt upprepning.
+Stanna och säkra maskan. Är den gamla öglan kvar på vänster sticka, håll den där och dra ur den ofullständiga nya öglan. Har den gamla maskan glidit av, plocka upp den innan du fortsätter; en avbruten garnände är inte en hel maska.
 
-Stanna. En halvstickad maska kan lyftas tillbaka till vänster sticka. Behandla brottet som en vanlig skarv: lämna en garnände på den trasiga änden, skarva in nytt garn med din valda metod och fortsätt där du var. Att brottet hände mitt i maskan ändrar inte tekniken.
-
-Om garnet går av på flera ställen, kontrollera hela nystanet. Ibland har ett skadat nystan flera svaga punkter och är inte värt alla skarvar. Är garnet nyköpt kan det vara värt att reklamera.
+Repa upp tillräckligt för att få en gammal ände att fästa, skarva in helt garn och sticka maskan på nytt. Kontrollera maskantalet. Går garnet av upprepade gånger, undersök det och kontakta säljaren om ett möjligt fel i stället för att fortsätta med okontrollerade svaga partier.
 
 ## Anteckningar om skarvar
 
-En enkel knut och fortsätta är tekniskt möjligt men oftast dåligt hantverk. Knuten skapar en hård klump, kan lossna och syns vid granskning.
-
-Lämna så mycket garnände att du bekvämt kan trä en stoppnål. För korta ändar gör fästningen onödigt pillig. I hala garner är längre ändar säkrare.
-
-Var du skarvar beror på projektet. Plagg som sys ihop: skarva vid kanten, ändarna göms i sömmen. Rundstickning: skarv mitt i varvet går inte alltid att undvika. Undvik mitten fram på en tröja om du kan.
-
-Om det nya garnet har en lite annan nyans (annat färgbad), växla mellan nystan några varv innan du byter helt. Två varv gammalt, två varv nytt, upprepa flera gånger. Det blandar övergången i stället för att skapa en skarp linje.
+Skarven och fästningen hör ihop. Lämna användbara ändar där metoden kräver dem och kontrollera båda sidor innan du klipper. På vändbara arbeten är ingen sida automatiskt dold. Prova växlingen mellan nystan ovan vid nyansskillnader och bedöm resultatet utan att förvänta dig en perfekt matchning.
 
 ## FAQ
 
 **Kan jag skarva en ny färg på samma sätt som ett nytt nystan i samma färg?**
-Oftast ja, men en överlappningsskarv kan ge en eller två maskor där färgerna blandas. För en ren färgövergång, skarva vid kanten och fäst ändarna på avigsidan inom samma färgområde. Filtad skarv passar inte färgbyten, eftersom den blandar två färger synligt.
 
-**Vad gör jag om garnet är för deligt för Russian join?**
-Använd överlappningsskarv. Russian join behöver sammanhållna trådar som går att trä nålen genom. Entrådiga, löst tvinnade och mycket fluffiga garner håller inte skarven lika bra.
+För ett byte vid en bestämd maska slutar du med den gamla färgen före maskan och stickar den med bara den nya arbetstråden. Lämna båda ändarna, justera spänningen och fäst dem inom respektive färgfält. Bytet behöver inte ske vid kanten. Dubbla trådar blandar färger i just de dubbelt stickade maskorna, inte automatiskt under ett eller två hela varv. Filtad överlappning blandar fibrerna; även Russian join och knutar är svåra att placera exakt vid en maska. Metoderna gör inte i sig ränder i rundstickning utan förskjutning.
+
+**Vad gör jag om garnet delar sig för lätt för Russian join?**
+
+Kan du inte föra in och hålla kvar änden i just det garnet, använd överlappning eller börja med den nya tråden och fäst båda ändarna. Antalet deltrådar avgör inte ensamt; konstruktion, friktion och provlapp behövs för bedömningen.
 
 **Syns skarven på avigsidan?**
-Lite. Även en ren filtad skarv kan kännas som en liten skillnad i garnet. Överlappning syns som en dubbel garnsträcka tills ändarna är fästa och klippta. Russian join kan ge en förtjockning, och även andra skarvar kan förbli synliga. Hur tydlig skarven blir beror på garn, fiber, stickfasthet, maskstruktur, skarvmetod och placering. Om utseendet är viktigt, testa skarven och placera den så diskret som praktiskt möjligt.
+
+Den kan synas på båda sidor. Klippta ändar tar inte bort den dubbla tråden i överlappningen eller förtjockningen i Russian join. En filtad skarv beror på förberedelsen, och en knut finns kvar. Prova garn, stickfasthet, maskstruktur och placering i ditt arbete.
 
 **Hur fäster jag ändar i spets eller annat öppet tyg?**
-Det är svårare, eftersom det finns mindre tyg att gömma ändarna i. Följ en stabil maskkolumn på avigsidan, alltså maskor som inte är omslag, och dela trådarna lätt medan du fäster. I mycket öppen spets är det bättre att planera skarvar vid kanten.
+
+Följ en sammanhängande del av maskstrukturen i stället för att dra änden över öppna omslag. En bård eller söm kan ge plats att fästa, men en öppen kant kan också visa ändarna. Prova väg och elasticitet på en lapp; att dela deltrådar passar bara vissa garner.
 
 **Varför kryper den fästa garnänden fram?**
-Oftast är änden för kort, har för få riktningsbyten eller sitter i ett garn som inte griper tag i sig självt, som superwash, silke eller hala synteter. Fäst längre, lägg in en sicksackriktning och dela trådarna i stället för att bara följa ytan.
+
+Kontrollera den fästa delens längd, väg och spänning. Gör om en för kort eller glidande fästning med en längre väg genom angränsande maskor. Prova hala garners fästning med tillåten skötsel innan du klipper mer. Tvätt eller blockning ersätter inte fästningen.

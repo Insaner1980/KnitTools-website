@@ -24,94 +24,93 @@ Dit projektgarn, de pinde opskriften anbefaler, eller banderolen anbefaler, hvis
 
 En lille notesbog eller noteappen på telefonen hjælper også. Skriv pindestørrelse, maskeantal og pindetal ned for hver strikkeprøve. Efter en nat til tørre er det svært at huske, hvilken prøve der var hvilken.
 
-Hvis opskriften er skrevet af en anden, så tjek også om strikkefastheden er angivet i glatstrik eller i mønster. Det ændrer alt ved næste trin.
+Tjek, hvilket maskemønster strikkefastheden gælder, og om projektet strikkes frem og tilbage eller rundt. Brug samme pindetype og arbejdsmetode til prøven. En rundpind gør ikke i sig selv en flad prøve repræsentativ for rundstrik. Genvejen nedenfor gælder glatstrik fra retsiden.
 
 ## Trin 1: slå masker op
 
-Slå nok masker op til cirka 15 cm stof, eller følg opskriftens egne anvisninger om prøvestørrelse. Det giver som regel plads til et centralt målefelt på 10 cm væk fra forvrængede kantmasker. Hvis opskriftens strikkefasthed siger 20 masker pr. 10 cm, er 30 masker et foreløbigt skøn: 20 til målefeltet plus cirka 5 i hver side.
+Planlæg cirka 15 cm af det maskemønster, du vil måle, eller følg opskriftens prøvestørrelse. Målet er et centralt målefelt på 10 cm med ekstra strik på alle sider, inden for eventuelle kanter. Det er planlagte mål, ingen garanti: din faktiske strikkefasthed er endnu ukendt.
 
-Hurtig regning: gang opskriftens maskefasthed pr. 10 cm med 1,5 for at anslå, hvor mange masker du skal bruge til cirka 15 cm stof. For eksempel giver 20 × 1,5 = 30 masker. Hvis resultatet er et decimaltal, runder du op til nærmeste hele maske; 21 × 1,5 = 31,5 bliver altså 32. Til en strikkeprøve i mønster justerer du derefter op til en hel mønsterrapport, hvis det er nødvendigt. Ved en rapport på 6 masker bliver 32 derfor til 36. Læg kun kantmasker til særskilt, hvis de skal ligge uden for det centrale målefelt; masker, der allerede indgår i den ønskede totalbredde, må ikke lægges til igen.
+Hurtig regning: 20 masker pr. 10 cm × 1,5 = 30 masker til cirka 15 cm ved opskriftens strikkefasthed. Rund decimaltal op til hele masker: 21 × 1,5 = 31,5 bliver 32. Med en rapport på 6 masker øger du til 36 mønstermasker og tilføjer eventuelle ekstra masker fra mønsterinstruktionen. Læg kantmasker til særskilt: 36 mønstermasker plus 3 retstrikkede masker i hver side giver 42 masker at slå op. Hele prøven bliver bredere end mønsterfeltet; kanterne indgår ikke i målingen af feltet.
 
-Opslagsmetoden betyder mindre for selve prøven, end man skulle tro, men brug samme metode som i projektet, hvis det er praktisk. Langhaleopslag er et almindeligt udgangspunkt for meget fladt strik. Hvis projektet begynder med rib, behøver prøven ikke nødvendigvis gøre det, men det er nyttigt at vide, om din opslagskant trækker sig sammen.
+Slå op, så kanten ikke trækker stoffet sammen, gerne med projektets metode, hvis det er praktisk. Projektets ribkant behøver ikke være med, medmindre strikkefasthedsanvisningen kræver den.
 
 ## Trin 2: strik prøven
 
 Strik i det maskemønster, der står i afsnittet om strikkefasthed. "I glatstrik" betyder glatstrik. "I mønster" betyder det faktiske maskemønster fra projektet. Den forskel betyder noget, fordi forskellige mønstre giver forskellig strikkefasthed. En snoning trækker stoffet sammen. Hulmønster åbner sig efter blokning. Rib trækker sig sammen i bredden. At måle en glatstrikket prøve og antage, at den siger noget om et bærestykke med snoninger, er en almindelig vej til en trøje der ikke passer.
 
-Strik til prøven er cirka 15 cm høj, eller til den har nok uforvrænget stof til, at du kan måle et centralt felt på 10 cm væk fra opslags- og aflukningskanten. Cirka 15 cm er et praktisk mål, ikke et universelt minimum; en mindre prøve kan bruges, hvis målefeltet stadig er stort nok, repræsentativt og uden kantforvrængning.
+Strik nok pinde eller omgange til at kunne måle 10 cm i højden i midten uden påvirkning fra opslag, aflukning eller kanter. Cirka 15 cm af det målte maskemønster er et praktisk udgangspunkt, ikke et universelt minimum. Afslut hele rapporter i højden, hvor det er nødvendigt. Lav en større prøve, hvis det færdige målefelt er for lille.
 
-Nogle strikkere lægger en retstrikket kant til, for eksempel 3 eller 4 masker i hver side og 3 eller 4 pinde øverst og nederst, så prøven ikke ruller. Glatstrik ruller. En flad prøve er lettere at måle. Retstrikskanten ændrer ikke strikkefastheden i glatstrikfeltet i midten. Ofte den lille ekstra indsats værd.
+En retstrikket kant kan hjælpe mod glatstrikkens rulning, men forskellen mellem mønstrenes strikkefasthed kan også forvrænge stoffet. Til en flad prøve med 3 kantmasker i hver side: strik først nogle pinde ret. Strik derefter de første og sidste 3 masker ret på hver pind og midten i glatstrik, ret fra retsiden og vrang fra vrangsiden. Slut med nogle pinde ret før aflukning. Hold kanter og påvirkede områder uden for målefeltet. Lav en større prøve eller undlad kanten, hvis midten forvrænges.
 
 Luk løst af. En stram aflukning trækker overkanten ind og forvrænger pindene lige under den. Netop det område, du ikke vil måle.
 
 ## Trin 3: vask og blok
 
-Brug først den måletilstand, opskriften angiver. Beder den om ublokket strikkefasthed, måler og noterer du prøven, før den behandles. Angiver opskriften ingen tilstand, behandler du den som det færdige projekt. Hvis prøven skal vaskes eller blokkes, følger du trinene nedenfor; behandlingen og den fulde tørring betyder meget for eftermålingen.
+Mål og notér først den ubehandlede prøves strikkefasthed efter trin 4. Gem tallet til sammenligning med uvasket arbejde eller en opskrift, der udtrykkeligt angiver ublokket strikkefasthed.
 
-Læg prøven i lunkent vand i 15 til 20 minutter, medmindre banderolen siger noget andet. Rul prøven i et håndklæde for at fjerne ekstra vand, men vrid den ikke. Læg den fladt, og lad den tørre helt. Hvis garnet bør dampes i stedet for at blive lagt i blød, så behandl prøven på den måde. [Guiden til blokning](/da/artikler/blokke-strik-vaadt-damp-spray/) gennemgår fibertilpassede metoder mere detaljeret.
+Behandl derefter prøven som det færdige projekt inden for garnets vaskeanvisning. Skal projektet håndvaskes og tørres fladt, gør det samme med prøven: pres forsigtigt vand ud i et håndklæde uden at vride, og tør fladt. Iblødsætningstid, vandtemperatur og eventuel dampning afhænger af garnet og den planlagte pleje; 15–20 minutter er ingen generel regel. [Guiden til blokning](/da/artikler/blokke-strik-vaadt-damp-spray/) beskriver forskellige metoder.
 
-Garn ændrer sig, når det bliver vådt. Uld kan blomstre og fylde maskerne ud. Bomuld kan slappe af. Hør bliver blødere. Superwash-uld og alpaka kan vokse eller få mere fald end ventet. Mål og notér prøven før behandling, når opskriften beder om det, eller når du vil sammenligne med arbejdet undervejs. Mål igen, når den behandlede prøve er helt tør. Brug den værdi, opskriften kræver; hvis den ikke angiver en tilstand, bruger du værdien efter samme behandling som det færdige projekt.
-
-Blok strikkeprøven på samme måde, som du vil blokke projektet. Hvis det færdige arbejde skal lægges i blød og spændes fladt op, så gør det med prøven. Hvis det skal dampes, så damp prøven. Hvis du vil håndvaske en uldtrøje og lade den tørre fladt, så gør præcis det med prøven. Hård opspænding, der strækker prøven ud, giver et tal der ikke svarer til, hvordan stoffet opfører sig på kroppen.
+Lad prøven tørre helt, fjern eventuelle nåle, og lad stoffet hvile før måling, medmindre opskriften angiver en anden tilstand. Stræk eller pres ikke prøven sammen for at ramme måltallet. Hold før- og eftermålinger adskilt: ændringen gælder denne prøve og garanterer ikke, hvordan alle garner af samme fiber eller tøjet i brug opfører sig. Sammenlign i opskriftens angivne tilstand; angiver den ingen, brug den færdigbehandlede prøve.
 
 ## Trin 4: mål
 
-Læg den tørre prøve på en flad, hård overflade. Stræk den ikke.
+Læg den tørre prøve på et fladt, fast underlag. Mål afslappet strikkefasthed uden at strække. Ved rib følger du opskriftens anvisning om afslappet eller strakt mål; spørg designeren, hvis det er uklart.
 
-Læg linealen vandret hen over midten, mindst et par centimeter fra opslag og aflukning. Tæl masker over 10 cm for at få din maskefasthed. Halve masker tæller. Rund dem ikke væk.
+Læg linealens nulmærke ved kanten af en maske i den uforvrængede midte, parallelt med en pind. Hele målestrækningen skal være væk fra alle kanter. Tæl masker over 10 cm, også dele af masker. Brug opskriftens måleenhed: den almindelige angivelse 10 cm / 4 tommer er ingen præcis omregning, da 4 tommer er 10,16 cm.
 
-Hvis opskriften forventer 20 masker pr. 10 cm, og din prøve giver 18, måler opskriftens 200 masker til kroppen omkring 111 cm i stedet for 100 cm.
+For eksempel giver 200 masker rundt om kroppen i samme mønster 200 ÷ 20 × 10 = 100 cm ved 20 masker pr. 10 cm. Ved 18 masker bliver det 200 ÷ 18 × 10 ≈ 111,1 cm, før eventuelt sømrum.
 
-Mål derefter lodret: tæl pinde over 10 cm i midten, væk fra sidekanterne.
+Drej linealen lodret langs en maskesøjle, og tæl pinde eller omgange over samme strækning, også dele af dem. I glatstrik er et helt V én maske, og V'er over hinanden viser pindene eller omgangene. Tæl også skjulte vrangmasker i rib. Ved hulmønster og snoninger bruger du diagrammet til at identificere maskerne eller måler hele rapporter; et hul eller en krydsning er ikke én maske. Den linkede måleguide forklarer metoderne nærmere.
 
-Skriv begge tal ned. Hvis du vil være grundig, så mål to forskellige steder på prøven og brug gennemsnittet. Håndstrik er ikke helt ensartet, og en enkelt måling kan snyde, hvis du rammer et strammere eller løsere felt.
+Notér begge tal og tilstanden. Mål flere steder i midten. Tag kun gennemsnittet af små forskelle mellem sammenlignelige målinger; undersøg store forskelle i stedet for at regne dem om til måltallet.
 
 ## Trin 5: sammenlign
 
-Sammenlign dine tal med opskriftens strikkefasthed.
+Sammenlign både masker og pinde eller omgange med opskriften over samme strækning, i samme mønster og tilstand.
 
-**Passer:** Slå op til projektet.
+**Passer:** Tjek også, at stoffet egner sig til projektet, før du slår op.
 
-**For mange masker pr. 10 cm:** Dine masker er mindre end opskriftens. Gå en pindestørrelse op. Lav en ny prøve.
+**For mange masker pr. 10 cm:** Maskerne er smallere. Prøv tykkere pinde, og lav en ny prøve.
 
-**For få masker:** Dine masker er større. Gå en pindestørrelse ned. Lav en ny prøve.
+**For få masker:** Maskerne er bredere. Prøv tyndere pinde, og lav en ny prøve.
 
-Gentag til du rammer. Prioritér maskefasthed over pindefasthed. Mange opskrifter kan rumme forskelle i pindefasthed, fordi længde som regel måles i centimeter og ikke tælles i pinde.
-
-Hvor stort et pinde-spring? Start med én størrelse, hvis forskellen er lille. Hvis du er omkring 2 masker pr. 10 cm ved siden af, kan to størrelser være et bedre første forsøg. At strikke en ny prøve for hvert lille mellemtrin bliver hurtigt trættende, når forskellen er tydelig.
+En nærliggende pindestørrelse er et forsøg, ikke en fast korrektion pr. maskes afvigelse. Tjek både breddens og højdens strikkefasthed efter hver ændring. Antallet af pinde eller omgange påvirker formgivning og rapporter; at strikke til en længde er kun nok, hvor opskriften tillader det. Læs [når strikkefastheden ikke passer](/da/artikler/naar-strikkefastheden-ikke-passer/) om næste skridt.
 
 ## Hvor lang tid tager det?
 
-Regn med cirka 45 minutters strik i mellemtykt garn plus tørretid. Tyndt garn tager længere tid. Mindre masker, flere af dem på samme areal. En prøve i Fingering / strømpegarn kan tage en aften. Lace tager endnu længere.
+Afsæt tid til strikning, behandling, fuld tørring og eventuelle nye prøver. Tiden afhænger af garn, maskemønster, prøvestørrelse og tempo. Hverken 45 minutters strikning eller tørring natten over er en sikker regel.
 
 ## Hvornår kan du springe over?
 
-Ærligt? Næsten aldrig, hvis størrelsen betyder noget. Men praktisk set: tørklæder, tæpper, karklude og ting hvor 1 cm fra eller til er ligegyldigt. Hvis projektet er et tætsiddende stykke tøj, en hue der skal passe, eller strømper, så lav prøven. Den ene time nu sparer timer med optrævling senere.
+Hvis du accepterer en anden størrelse på et enkelt tørklæde eller en karklud, kan du vælge at begynde uden en separat prøve. Så accepterer du også usikkerhed om stoffet og garnforbruget. Lav prøven før et tætsiddende stykke tøj, en hue eller strømper.
 
-Garnskift er den anden situation, hvor strikkeprøven ikke er valgfri. Selv når erstatningsgarnet har samme garntykkelse på banderolen som opskriftens anbefalede garn, kan strikkefastheden flytte sig. To DK-garn fra forskellige spinderier, det ene i uld og det andet i bomuldsblanding, kan kræve forskellige pindestørrelser for at give samme stof.
+Lav også en prøve med erstatningsgarn. Samme garntykkelseskategori garanterer ikke samme strikkefasthed eller stof; vurder den færdigbehandlede prøve, ikke kun banderolen.
 
 ## Tips til bedre strikkeprøver
 
-Lav prøven på samme type pind, som du vil bruge til projektet. Metal og bambus kan give forskellig strikkefasthed. Hvis du laver prøven på lige bambuspinde, men strikker projektet på metalrundpind, kan fastheden flytte sig. Samme logik: lav prøven rundt, hvis projektet strikkes rundt. Din ret- og vrangspænding er sandsynligvis ikke ens, og en flad prøve matcher ikke nødvendigvis rundstrik.
+Brug samme pinde og arbejdsmetode som til projektet. Til rundstrik kan du strikke et rør i projektets mønster med stor nok omkreds til at måle væk fra pindeskift og folder. Glatstrik frem og tilbage skifter mellem ret- og vrangpinde, hvilket ikke nødvendigvis giver samme strikkefasthed som kun retomgange.
 
-Den hurtige version af en rundstrikket prøve: slå op på en rundpind, strik én pind, skub maskerne tilbage til den anden ende af pinden uden at vende arbejdet, før garnet løst hen over bagsiden, og strik næste pind fra retsiden igen. Du efterligner rundstrik uden at lave et rør. Trådene på bagsiden klippes op før måling. Forsiden ligner glatstrik rundt.
+Genvej, der efterligner **glatstrik rundt**:
 
-Gem dine prøver. Sæt en seddel på: garnnavn, pindestørrelse, strikkefasthed. Nyttigt midt i et projekt. Også nyttigt måneder senere, når du prøver at huske, om restegarnet var det DK-garn der gav 22 masker, eller det der gav 24.
+1. Slå op til en rigeligt bred prøve på rundpind, og strik én pind ret.
+2. Hold retsiden mod dig. Vend ikke arbejdet, men skub maskerne langs kablet til den anden spids, så de kan strikkes igen. Når du strikker fra højre mod venstre, er arbejdsgarnet nu ved venstre kant.
+3. Før garnet bag arbejdet fra venstre mod højre i en lang, løs løkke, og strik næste pind ret. Lad der være nok garn til, at prøven kan ligge i fuld bredde under behandling og måling, uden at tråden trækker kanterne sammen.
+4. Gentag forskydningen, den løse tråd bagpå og retpinden, til midten er høj nok. Luk af uden at trække kanten sammen. Notér ubehandlet strikkefasthed, behandl og tør som ovenfor. Mål væk fra de løse sidemasker. Trådene behøver ikke klippes, hvis prøven ligger fladt uden spænding.
 
-Brug ikke straks garnet fra prøven igen. Det har været strikket, vasket og strakt, så det kan opføre sig anderledes end friskt garn. Hvis du skal bruge garnet, så lad det tørre og hvile først, og forvent at det ser lidt anderledes ud end urørt garn.
+Kun retpinde erstatter ikke instruktionerne til rib, retstrik, snoninger eller hulmønster: følg da mønsterets faktiske omgange. Strik et rør, hvis genvejen ikke svarer til din arbejdsmetode eller ikke giver en uforvrænget midte.
 
-Hvis strikkefastheden ændrer sig midt i projektet, så tjek de oplagte variabler først: et nyt nøgle, en anden pind, et andet sted at strikke eller en lang træt strikkesession. Spænding følger kropsholdning og humør mere, end de fleste strikkere bryder sig om.
+Mærk prøven før vask med garn, pindestørrelse i mm og pindetype, mønster, arbejdsmetode og strikkefasthed før og efter behandling med målestrækning. Gem den som reference. Prøver du flere pindestørrelser i én strimmel, markér skiftene, og gør hvert felt stort nok til at måle væk fra overgangen. Antag ikke, at felterne er upåvirkede af hinanden; lav separate prøver, hvis de trækker i hinanden.
 
 ## Hurtige svar
 
 **Kan du måle over mindre end 10 cm?**
-Det kan du godt, men en fejl på en halv maske over 5 cm bliver en større procentvis fejl. Mål mindst 10 cm. Ved meget tykt garn, hvor 10 cm kun er få masker, kan du måle over et bredere felt, hvis prøven tillader det.
+En kortere strækning forstørrer tællefejlen: en halv maske forkert over 5 cm bliver én maske ved omregning til 10 cm. Brug opskriftens målestrækning, hvis muligt; et større brugbart felt hjælper ved tykt garn eller lange rapporter.
 
 **Ændrer strikkefasthed sig afhængigt af dagen?**
-Ja. Spænding varierer med humør, træthed og hvor længe du har strikket. Lav prøven under en normal strikkesession, ikke i de første ti minutter mens hænderne stadig bliver varme. Hvis din strikkefasthed varierer meget mellem prøver med samme garn og pinde, så brug gennemsnittet af to eller tre prøver.
+Sammenlign prøver med samme garn, pinde, arbejdsmetode og behandling. Hvis tallene afviger meget, tjek forholdene, og lav en ny repræsentativ prøve i stedet for at tage gennemsnittet af uforenelige resultater.
 
 **Separat strikkeprøve eller måle på projektet?**
-Du kan måle projektet efter nogle centimeter, men så har du allerede brugt tid. Hvis strikkefastheden er forkert, skal du trevle op og starte forfra. En separat prøve fanger det, før du har brugt reel projekttid. Undtagelsen er top-down-tøj, hvor det tidlige bærestykke er lille og let at trevle op. Nogle strikkere springer den separate prøve over og bruger bærestykket som strikkeprøve. Risikabelt, men det fungerer for dem.
+Du kan måle projektet, når der er nok uforvrænget stof, men en forkert strikkefasthed kan kræve optrævling. Sammenlign ubehandlet arbejde med den ubehandlede prøve. Et lille bærestykke strikket oppefra er ikke automatisk et repræsentativt målefelt.
 
 **Hvad hvis opskriften ikke angiver strikkefasthed?**
-Tjek banderolens anbefalede pindestørrelse, og begynd der. Strik en prøve i glatstrik. Det tal du får, er din strikkefasthed, og projektet bliver så stort som regnestykket giver. Det er brugbart til tørklæder og sjaler, hvor den præcise størrelse ikke er kritisk.
+Spørg designeren, hvis størrelsen er vigtig. Til din egen enkle model kan du begynde med banderolens pindeanbefaling og strikke prøven i det ønskede maskemønster. Det giver et grundlag for at beregne mål; glatstrikkens fasthed forudsiger ikke alle andre mønstre.

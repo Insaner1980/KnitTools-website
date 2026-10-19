@@ -1,0 +1,130 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link "KnitTools home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - text: KnitTools
+      - navigation [ref=e6]:
+        - link "Tools" [ref=e7] [cursor=pointer]:
+          - /url: /tools/
+        - link "Articles" [ref=e8] [cursor=pointer]:
+          - /url: /articles/
+        - group [ref=e9]:
+          - 'generic "Language: English" [ref=e10] [cursor=pointer]': English
+        - link "Notify me at launch" [ref=e13] [cursor=pointer]:
+          - /url: /#join
+    - main [ref=e14]:
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: Free tools
+        - heading "Knitting tools, online." [level=1] [ref=e18]
+        - paragraph [ref=e19]: Calculators and reference charts for your knitting projects. No signup, no app required.
+      - generic [ref=e21]:
+        - link "Stitches Cast On Calculator Calculate how many stitches to cast on for any width and gauge." [ref=e22] [cursor=pointer]:
+          - /url: /tools/cast-on-calculator/
+          - generic [ref=e23]: Stitches
+          - heading "Cast On Calculator" [level=2] [ref=e24]
+          - paragraph [ref=e25]: Calculate how many stitches to cast on for any width and gauge.
+        - link "Yardage Yarn Estimator Estimate yarn requirements by project type, size, and yarn weight." [ref=e26] [cursor=pointer]:
+          - /url: /tools/yarn-estimator/
+          - generic [ref=e27]: Yardage
+          - heading "Yarn Estimator" [level=2] [ref=e28]
+          - paragraph [ref=e29]: Estimate yarn requirements by project type, size, and yarn weight.
+        - link "Weights Yarn Weight Chart CYC yarn weight categories with gauge ranges, needles, and WPI." [ref=e30] [cursor=pointer]:
+          - /url: /tools/yarn-weight-chart/
+          - generic [ref=e31]: Weights
+          - heading "Yarn Weight Chart" [level=2] [ref=e32]
+          - paragraph [ref=e33]: CYC yarn weight categories with gauge ranges, needles, and WPI.
+        - link "Needles Needle Size Chart Convert between US, UK, metric, and Japanese needle sizes." [ref=e34] [cursor=pointer]:
+          - /url: /tools/needle-size-chart/
+          - generic [ref=e35]: Needles
+          - heading "Needle Size Chart" [level=2] [ref=e36]
+          - paragraph [ref=e37]: Convert between US, UK, metric, and Japanese needle sizes.
+        - link "Sizes Knitting Size Charts Body measurements for baby through adult, in cm and inches." [ref=e38] [cursor=pointer]:
+          - /url: /tools/knitting-size-charts/
+          - generic [ref=e39]: Sizes
+          - heading "Knitting Size Charts" [level=2] [ref=e40]
+          - paragraph [ref=e41]: Body measurements for baby through adult, in cm and inches.
+        - link "Glossary Knitting Abbreviations Search any abbreviation or find terms by technique." [ref=e42] [cursor=pointer]:
+          - /url: /tools/knitting-abbreviations/
+          - generic [ref=e43]: Glossary
+          - heading "Knitting Abbreviations" [level=2] [ref=e44]
+          - paragraph [ref=e45]: Search any abbreviation or find terms by technique.
+      - region [ref=e47]:
+        - generic [ref=e48]:
+          - paragraph [ref=e49]: Be there at launch
+          - heading [level=2] [ref=e50]:
+            - text: Where every stitch
+            - emphasis [ref=e51]: counts.
+          - generic [ref=e52]:
+            - generic [ref=e53]: Email address
+            - generic [aria-hidden] [ref=e54]: Leave this field empty
+            - textbox [aria-hidden] [ref=e55]
+            - generic [ref=e56]:
+              - textbox "Email address" [ref=e57]:
+                - /placeholder: your@email.com
+              - button "Notify me at launch" [ref=e58] [cursor=pointer]
+          - paragraph [ref=e59]: Free tier from day one. No card required.
+    - contentinfo [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - heading "Tools" [level=2] [ref=e65]
+              - list [ref=e66]:
+                - listitem [ref=e67]:
+                  - link "Cast On Calculator" [ref=e68] [cursor=pointer]:
+                    - /url: /tools/cast-on-calculator/
+                - listitem [ref=e69]:
+                  - link "Yarn Estimator" [ref=e70] [cursor=pointer]:
+                    - /url: /tools/yarn-estimator/
+                - listitem [ref=e71]:
+                  - link "Needle Size Chart" [ref=e72] [cursor=pointer]:
+                    - /url: /tools/needle-size-chart/
+                - listitem [ref=e73]:
+                  - link "Yarn Weight Chart" [ref=e74] [cursor=pointer]:
+                    - /url: /tools/yarn-weight-chart/
+                - listitem [ref=e75]:
+                  - link "Knitting Abbreviations" [ref=e76] [cursor=pointer]:
+                    - /url: /tools/knitting-abbreviations/
+                - listitem [ref=e77]:
+                  - link "Knitting Size Charts" [ref=e78] [cursor=pointer]:
+                    - /url: /tools/knitting-size-charts/
+            - generic [ref=e79]:
+              - heading "Articles" [level=2] [ref=e80]
+              - list [ref=e81]:
+                - listitem [ref=e82]:
+                  - link "Gauge & Calculations" [ref=e83] [cursor=pointer]:
+                    - /url: /articles/category/gauge-calculations/
+                - listitem [ref=e84]:
+                  - link "Yarn" [ref=e85] [cursor=pointer]:
+                    - /url: /articles/category/yarn/
+                - listitem [ref=e86]:
+                  - link "Needles" [ref=e87] [cursor=pointer]:
+                    - /url: /articles/category/needles/
+                - listitem [ref=e88]:
+                  - link "Techniques" [ref=e89] [cursor=pointer]:
+                    - /url: /articles/category/techniques/
+                - listitem [ref=e90]:
+                  - link "App & Tools" [ref=e91] [cursor=pointer]:
+                    - /url: /articles/category/app-tools/
+            - generic [ref=e92]:
+              - heading "App" [level=2] [ref=e93]
+              - list [ref=e94]:
+                - listitem [ref=e95]: Launching soon
+                - listitem [ref=e96]:
+                  - link "About" [ref=e97] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=e98]:
+                  - link "Privacy Policy" [ref=e99] [cursor=pointer]:
+                    - /url: https://finnvek.com/privacy#knittools
+          - img "KnitTools" [ref=e100]
+        - paragraph [ref=e102]:
+          - text: © MMXXVI KnitTools.
+          - link "Finnvek" [ref=e103] [cursor=pointer]:
+            - /url: https://finnvek.com
+          - text: .
+          - link "Contact" [ref=e104] [cursor=pointer]:
+            - /url: mailto:contact@finnvek.com
+          - text: .

@@ -13,27 +13,28 @@ tags:
   ]
 lang: fi
 translationKey: "knitting-pattern-sizes-and-fit"
+updatedDate: 2026-10-18
 ---
 
-Ohjeen "Medium" voi näyttää yhdellä ihmisellä teltalta ja tuntua toisella tiukalta. Neuleohjeiden koot eivät ole vaatekaupan kokoja. Ne perustuvat valmiin vaatteen mittoihin, ja istuvuus syntyy siitä, miten nuo mitat suhteutuvat omaan vartaloon.
+Ohjeen "Medium" voi näyttää yhdellä ihmisellä teltalta ja tuntua toisella tiukalta. Koon nimi ei yksin kerro istuvuudesta. Selvitä ensin, tarkoittavatko ohjeen luvut käyttäjän vartalonmittoja vai valmiin vaatteen mittoja.
 
 ## Vartalonmitat ja valmiin vaatteen mitat
 
 Vartalonmitta on se, mitä mittanauha näyttää rinnan, vyötärön tai lantion ympäri mitattuna. Ohjeen valmis mitta on valmiin vaatteen mitta samasta kohdasta.
 
-Nämä kaksi lukua eivät melkein koskaan ole samat, eikä niiden pidäkään olla. Villapaita, jonka rinnanympärys olisi täsmälleen sama kuin omasi, istuisi iholla ilman liikkumavaraa. Useimmat eivät halua sitä.
+Mitat voivat erota toisistaan tai olla samat tavoitellun istuvuuden ja neulepinnan mukaan. Vertaa aina samaa kohtaa ja samaa mittayksikköä.
 
-Vartalonmitan ja valmiin mitan välistä eroa kutsutaan väljyydeksi. Väljyys on tärkein yksittäinen käsite, kun haet oikeaa istuvuutta neuleohjeesta. Positiivinen väljyys tarkoittaa, että vaate on sinua suurempi. Negatiivinen väljyys tarkoittaa, että vaate venyy päälle sopivaksi.
+Väljyys lasketaan vähentämällä valmiin vaatteen mitasta vastaava vartalonmitta. Rinnanympäryksessä positiivinen tulos tarkoittaa lisätilaa, nolla yhtä suuria ympärysmittoja ja negatiivinen tulos vartaloa pienempää vaatetta ennen venymistä. Pelkkä rinnanympäryksen väljyys ei ratkaise hartioiden, hihojen tai pääntien istuvuutta.
 
 ## Mitä väljyys tarkoittaa
 
-Väljyys on vaatteen ylimääräinen tila oman vartalonmitan lisäksi.
+Laske väljyys valmiin vaatteen levossa olevasta mitasta siinä käsittelytilassa, jonka ohje määrittelee, yleensä pesun ja viimeistelyn jälkeen. Älä mittaa vaatetta vartalon päällä venytettynä.
 
-**Negatiivinen väljyys** tarkoittaa, että valmis vaate on sinua pienempi. Neulepinta venyy sopivaksi. Tätä näkee joustinreunaisissa pipoissa, joissa pipo on päätä pienempi mutta joustin venyy pitämään sen paikallaan, sukkien varsissa ja hyvin vartalonmyötäisissä neuleissa joustavasta langasta.
+**Negatiivinen väljyys** tarkoittaa, että valmis vaate on vastaavaa vartalonmittaa pienempi. Neulepinnan on venyttävä riittävästi ja palauduttava miellyttävästi. Esimerkiksi joustinneuleisissa pipoissa ja istuvissa sukissa käytetään usein negatiivista väljyyttä. Langan nimi ei yksin takaa neulepinnan joustavuutta.
 
-**Nollaväljyys** tarkoittaa, että valmis mitta on sama kuin vartalonmitta. Vaate seuraa muotoa tarkasti. Neuleessa tämä on harvinaisempaa, koska neulepinnassa on luonnostaan joustoa.
+**Nollaväljyys** tarkoittaa, että valmis mitta on sama kuin vartalonmitta. Se voi olla tarkoituksellinen vartalonmyötäinen mitoitus, ei automaattisesti kokovirhe.
 
-**Positiivinen väljyys** on tavallisin. Vaate on sinua suurempi. Villapaita, jossa on noin 5-10 cm positiivista väljyyttä, istuu mukavasti kiristämättä. Noin 10-15 cm tekee ilmeestä väljän. Sen yli vaate alkaa näyttää oversize-malliselta, mutta rakenne ja langan paksuus muuttavat sitä, kuinka dramaattiselta väljyys tuntuu.
+**Positiivinen väljyys** tarkoittaa vartalonmittaa suurempaa vaatetta. Sopiva määrä riippuu mallista ja toivotusta istuvuudesta. Suurempi rinnanympäryksen väljyys ei automaattisesti lisää tilaa olkavarteen.
 
 Ohjeen tavoittelema väljyys on suunnittelupäätös. Lyhyessä modernissa neulepaidassa voi olla 5 cm väljyyttä. Rennossa neuletakissa voi olla 15 cm. Kumpikaan ei ole väärin. Eri siluetti.
 
@@ -43,31 +44,33 @@ Tarvitset joustavan mittanauhan, ompelumittanauhan, et metallista rullamittaa.
 
 Rinta tai rinnanympärys: kierrä mittanauha rinnan leveimmän kohdan ympäri kainaloiden alta vaakasuoraan. Älä kiristä. Vyötärö: kapein kohta, yleensä hieman navan yläpuolella, ei farkkujen vyötärölinja, joka on monella alempana. Lantio: levein kohta alalantiolla.
 
-Hihan pituudessa seuraa ohjeen mittauskohtaa. Osa mittapiirroksista käyttää mittaa niskan keskeltä ranteeseen. Moni käyttää kainalosta ranteeseen. Olkavarsi tarkoittaa mittaa olkavarren leveimmästä kohdasta kyynärpään yläpuolelta.
+Seuraa hihan pituudessa ohjeen mittauspisteitä. Mitta niskan keskeltä ranteeseen kulkee olkapään ja käsivarren kautta; kainalosta ranteeseen mitataan käsivarsi hieman koukussa. Ne eivät ole sama mitta. Olkavarren ympärys mitataan sen leveimmästä kohdasta kyynärpään yläpuolelta.
 
-Olkapään leveys mitataan olkaluulta toiselle yläselän poikki. Sitä katsotaan usein liian vähän, vaikka se on syy siihen, miksi paita voi sopia kaikkialta muualta mutta ei hartioista. Yläselän poikkimitta paljastaa myös kaupan villapaidoista tutun ongelman: hartiat voivat olla liian leveät tai liian kapeat, vaikka rinnanympärys olisi sopiva.
+Hartialeveys mitataan yläselän poikki olkapäästä olkapäähän. Seuraa ohjeen mittapiirrosta: viiston olkasauman pituus on eri mitta. Sopiva rinnanympärys ei yksin takaa hartioiden istuvuutta.
 
 Kirjoita mitat muistiin. Palaat niihin joka kerta, kun valitset ohjekokoa. Mittauskaveri auttaa etenkin selän ja hartioiden mitoissa. Ne ovat hankalia ottaa tarkasti yksin.
 
 ## Oman koon valinta
 
-Useimmat ohjeet listaavat valmiit mitat kokotaulukossa tai aloitustiedoissa. Etsi valmiin vaatteen rinnanympärys, älä kokolappua.
+Lue ohjeen kokotiedot ennen valintaa. Vartalonmittoja kuvaavasta taulukosta valitaan koko omien mittojen ja suunnittelijan ohjeen mukaan. Valmiin vaatteen mittoja verrataan vartalonmittaan ja tavoiteltuun väljyyteen. Jos molemmat ovat mukana, pidä ne erillään. [Tin Can Knits havainnollistaa näiden eroa](https://blog.tincanknits.com/2022/04/08/what-is-ease/) englanniksi.
 
-Ota oma rinnanympäryksesi. Lisää haluamasi väljyys. Etsi koko, jonka valmis mitta on lähimpänä.
+Kun vertailet valmiita ympärysmittoja, lisää omaan ympärykseesi positiivinen väljyys, vähennä negatiivisen väljyyden määrä tai käytä nollaväljyydellä omaa mittaasi. Valmis mitta sisältää jo vaatteen väljyyden: älä lisää sitä toiseen kertaan valmiiseen mittaan.
 
-Esimerkki: rinnanympäryksesi on 97 cm. Haluat mukavan istuvuuden noin 7,5 cm väljyydellä, joten tavoite on noin 104 cm valmis rinnanympärys. Jos ohjeen koot ovat 97, 102, 107 ja 112 cm, koko 102 antaa noin 5 cm väljyyttä eli läheisemmän istuvuuden, ja 107 antaa noin 10 cm eli rennomman. Valitse sen mukaan, kumpaa istuvuutta haluat.
+Kuvitteellinen esimerkki: rinnanympäryksesi on 97 cm ja valitsemasi väljyysvara 7,5 cm. Tavoite on 97 + 7,5 = 104,5 cm. Jos valmiit rinnanympärykset ovat 97, 102, 107 ja 112 cm, lähimmät vaihtoehdot antavat 102 − 97 = 5 cm ja 107 − 97 = 10 cm väljyyttä. Vertaa molempia ohjeen tavoittelemaan istuvuuteen ja muihin mittoihin. Luvut eivät ole yleinen mukavuussuositus.
 
-Älä valitse Mediumia siksi, että ostat kaupasta M-kokoa. Suunnittelijan Medium voi olla 112 cm valmis rinnanympärys, tarkoituksella oversize 97 cm vartalolle, tai 102 cm, vartalonmyötäinen. Kokolappu ei kerro mitään.
+Älä valitse Mediumia vain siksi, että ostat kaupasta M-kokoa. Kuvitteellinen 112 cm:n valmis rinnanympärys antaa 97 cm:n vartalolle 15 cm väljyyttä, 102 cm:n mitta taas 5 cm. S/M/L, ikämerkinnät ja eri maiden vaatekoot tulkitaan aina kyseisen ohjeen kokotaulukosta.
 
 ## Mittapiirroksen lukeminen
 
 Monissa ohjeissa on mittapiirros: litteä viivapiirros valmiista kappaleista mittoineen. Se on istuvuuspäätösten kannalta ohjeen hyödyllisin osa.
 
-Mittapiirros näyttää leveyden ja pituuden tärkeissä kohdissa: rinta, vyötärö jos vaate on muotoiltu, lantio, hihan pituus, olkavarren leveys, olkapään leveys, vartalon pituus helmasta kainaloon. Jokaisen koon luvut annetaan samalla sulkumerkinnällä kuin varsinaisissa ohjeissa.
+Mittapiirros näyttää nimettyjen kohtien leveydet ja pituudet: rinta, vyötärö, lantio, hiha, olkavarsi, hartiat ja vartalo-osa. Tarkista, tarkoittaako nuoli tasoleveyttä, ympärysmittaa vai pituutta. Yksinkertaisen suljetun, symmetrisen vartalo-osan 51 cm:n tasoleveys vastaa noin 102 cm:n ympärysmittaa. Erillisiä kappaleita ja neuletakin päällekkäisiä etureunoja ei tulkita samalla tavalla.
 
-Vertaa mittapiirrosta omaan vartaloon kohta kerrallaan. Rinta voi sopia, mutta hihat voivat olla 5 cm liian lyhyet. Vartalo voi olla pidempi kuin haluat. Mittapiirros kertoo, missä ohje toimii sinulle ja missä sitä pitää muokata.
+Etsi oma kokosi suunnittelijan ilmoittamasta järjestyksestä ja merkitse sen luvut tekstiin, taulukoihin ja mittapiirrokseen. Sulkumerkintä on yksi käytäntö, ei ainoa. Lue myös samanaikaiset muotoiluohjeet etukäteen: toinen työvaihe voi alkaa ennen edellisen päättymistä.
 
-Kiinnitä huomiota kädentien syvyyteen. Se ei aina näy yhtä korostetusti kuin rinnanympärys, mutta liian matala kädentie kiristää kainalosta ja liian syvä tekee roikkuvan pussin kainalon alle. Vertaa mittapiirroksen kädentien syvyyttä paitaan, joka istuu sinulle hyvin. Jos ero on suuri, suunnittele ennen silmukoiden luomista.
+Vertaa vastaavia mittoja ja huomioi tavoiteltu väljyys. Rinnanympärys voi sopia, mutta hihat voivat olla 5 cm liian lyhyet. Vartalo-osa voi olla pidempi kuin haluat. Mittapiirros auttaa paikantamaan muutettavat mitat.
+
+Vertaa kädentien syvyyttä hyvin istuvaan, samantapaisella rakenteella tehtyyn vaatteeseen samoista mittauspisteistä. Matala kädentie voi kiristää, mutta syvä kädentie voi kuulua tarkoituksellisesti pudotettuun olkaan. Pelkkä rinnanympärys ei ratkaise tätä valintaa.
 
 ## Kun olet kokojen välissä
 
@@ -75,72 +78,72 @@ Tätä tapahtuu usein. Rinnanympärys osuu yhteen kokoon, lantio vaatii toisen, 
 
 Valitse lähtökoko vertaamalla valmiin vaatteen mittapiirrosta ja valmiita mittoja tavoiteltuun väljyyteen sekä vaatteen rakenteeseen. Keskity mittoihin, jotka määräävät vaikeimmin muutettavat kohdat. Monissa istuvissa vaatteissa, joissa on istutettu hiha, hartioiden ja ylävartalon istuvuus voi olla parempi lähtökohta kuin suurin ympärysmitta. Yhdistä kokoja tai muuta muita kohtia siellä, missä rakenne sen sallii.
 
-Pituus on helpoin muuttaa. Useimmat ohjeet sanovat "neulo kunnes kappaleen pituus on X cm", ja voit säätää vapaasti. Haluat 43 cm 38 cm sijaan? Neulo 5 cm lisää. Hihan pituus toimii samalla tavalla. Olkavarren leveys on hankalampi, koska se vaikuttaa hihan pyöriöön, joten siihen kannattaa osua mahdollisimman hyvin.
+Pituutta voi olla helppo muuttaa suoralla, muotoilemattomalla osuudella, joka neulotaan annettuun mittaan. Haluatko 43 cm 38 cm:n sijaan? Ero on 5 cm. Tarkista ennen lisäämistä vyötärön ja hihojen muotoilut, mallikerrat, taskujen paikat ja langan riittävyys. Olkavarren leveyden muutos vaikuttaa myös hihan liittämiseen vartalo-osaan.
 
-Jos olet ohjeen mallimittaa lyhyempi, vartalo ja hihat voivat olla liian pitkät, vaikka rinnanympärys olisi oikea. Vartalon ja hihojen lyhentäminen on yleensä pienempi riski kuin kädentien syvyyden muuttaminen, koska kädentie muuttaa koko vaatteen geometriaa. Käytännöllinen oikotie: pidä ohjeen kädentien syvyys ja lyhennä osuutta ennen kädentien alkua. Hartian istuvuus pysyy paremmin.
+Jos vartalo-osa tai hihat ovat liian pitkät, selvitä, missä ylimääräinen pituus on. Kädentien alapuolisen suoran osuuden lyhentäminen voi säilyttää hartiarakenteen, mutta alkuperäinen kädentien syvyys kannattaa säilyttää vain, jos se sopii sinulle. Kokonaispituus ei yksin määrää vartalon mittasuhteita.
 
-Jos olet ohjeen mallimittaa pidempi, ongelma on päinvastainen. Pituuden lisääminen kädentien alapuolelle vaikuttaa yleensä vähiten silmukkamääriin. Kun lisäät vartaloon ja hihoihin erikseen, mittasuhteet pysyvät luonnollisempina.
+Arvioi vartalo-osan ja hihojen lisäpituus erikseen. Lisäkerrokset voivat muuttaa muotoilujen välejä tai pystysuuntaisen mallikerran päättymiskohtaa. Myös annettuun mittaan neulottavan osuuden jälkeen tulevat ohjeet pitää tarkistaa.
 
 ## Eri koko vartaloon ja hihoihin
 
-Osa rakenteista sallii eri kokojen yhdistämisen melko kivuttomasti. Ylhäältä alas neulottu raglan, alhaalta ylös neulotut erilliset kappaleet istutetuilla hihoilla ja kaarrokepaidat antavat kaikki jonkin verran valinnanvaraa.
+Vartalo-osan ja hihojen eri kokoja voi joskus yhdistää, mutta vierekkäisetkään koot eivät sovi automaattisesti yhteen. Istutetussa hihassa pyöriön muodon ja saumapituuden on sovittava kädentiehen. Raglanissa ja pyöreässä kaarrokkeessa tarkistetaan vartalon ja hihojen silmukkamäärät, kainalosilmukat, muotoilujen rytmi ja kaarrokkeen syvyys.
 
-Jos ylävartalo on pienempi ja käsivarret tarvitsevat enemmän tilaa, tai päinvastoin, voit neuloa vartalon rinnanympäryksen mukaan ja valita hihat eri koosta. Hihan pyöriön tai kaarrokkeen geometrian pitää silti sopia kädentiehen, joten tämä toimii parhaiten vierekkäisillä koilla. Pieni vartalo ja medium-hihat on eri asia kuin pieni vartalo ja XL-hihat.
-
-Ohjeet, jotka eivät erikseen tue koon sekoittamista, ovat usein muokattavissa silti. Se vaatii neulematikkaa, ja hihan pyöriö voi pitää piirtää uudelleen. Jos muokkaaminen on uutta, valitse rakenne, jossa tämä on helpompaa.
+Käytä suunnittelijan muokkausohjeita, jos niitä on. Muussa tapauksessa suunnittele liitoskohdat ennen neulomista: S-vartalo-osan ja M-hihojen valitseminen ei vielä ole valmis muokkausohje. Ohjeen erilliset hiha- tai rinnanympärysvaihtoehdot voivat helpottaa sovittamista.
 
 ## Väljyys vaihtelee vaatetyypin mukaan
 
 Kaikki vaatteet eivät tavoittele samaa istuvuutta.
 
-Craft Yarn Councilin istuvuustaulukossa klassinen istuvuus on noin 5-10 cm positiivista väljyyttä, väljä istuvuus noin 10-15 cm ja oversize 15 cm tai enemmän. Hyvin vartalonmyötäisissä vaatteissa voi olla negatiivista väljyyttä. Pipoissa ja sukissa negatiivinen väljyys on tavallista, koska jousto pitää ne paikallaan.
+[Craft Yarn Councilin rinnanympäryksen väljyystaulukossa](https://www.craftyarncouncil.com/standards/body-sizing) klassinen istuvuus tarkoittaa noin 5–10 cm positiivista väljyyttä, väljä noin 10–15 cm ja oversize noin 15 cm tai enemmän. Nämä ovat suuntaa antavia kuvauksia, eivät istuvuustakuita. CYC:n vartalonmittataulukot eivät ole tietyn suunnittelijan valmiin vaatteen mittoja.
 
-Tapoja, ei lakeja. Mutta jos ohje sanoo "vartalonmyötäinen" ja mittapiirros näyttää omassa koossasi 15 cm väljyyttä, jokin ei täsmää.
+Seuraa ohjeen tavoiteltua väljyyttä ja tarkista mallivaatteen mitat, jos ne annetaan. Jos kuvaus ja laskemasi väljyys näyttävät ristiriitaisilta, tarkista ensin, mitä kokoa ja mittaa vertailet. Pipojen ja sukkien mitoituksessa tarvitaan niiden oman ohjeen tiedot.
 
 ## Rakenne vaikuttaa istuvuuteen
 
-Villapaita, jonka valmis rinnanympärys on 102 cm, ei istu samalla tavalla kaikissa rakenteissa.
+Neulepusero, jonka valmis rinnanympärys on 102 cm, voi istua eri tavoin rakenteen mukaan.
 
-**Pudotettu olka:** Vartalo on usein suorakaide ja hihat lähtevät leveästä olkasaumasta. Ilme on laatikkomainen ja rento. Tarvitsee yleensä enemmän väljyyttä kuin muut rakenteet, jotta se laskeutuu tarkoituksella. Olkasauma istuu reilusti oikean olkapään alapuolella, joten liikkumatila tulee väljyydestä, ei tarkasta leikkauksesta.
+**Pudotettu olka:** Olkalinja jatkuu luonnollisen olkapään ulkopuolelle. Vartalo-osa on usein suora ja väljä, mutta hihan leveys ja kädentien syvyys vaikuttavat silti liikkumiseen.
 
-**Istutettu hiha:** Hihan pyöriö muotoillaan kaarevaan kädentiehen, vähän kuin kauluspaidassa. Tämä istuu lähimpänä vartaloa. Olkasauma asettuu oikealle olkapäälle. Mittatarkkuus merkitsee eniten.
+**Istutettu hiha:** Muotoiltu hihan pyöriö liittyy muotoiltuun kädentiehen. Tarkista hartialeveys, olkavarren ympärys ja kädentien syvyys yhdessä. Rakenne ei rajoitu vain yhteen istuvuustyyliin.
 
-**Raglan:** Hihat kiinnittyvät vinossa linjassa kainalosta kaulaan. Rakenne on melko anteeksiantava eri vartaloille ja toimii sekä vartalonmyötäisenä että väljänä. Siksi sitä käytetään paljon aloittelijaystävällisissä paidoissa.
+**Raglan:** Muotoilulinjat kulkevat kainalosta pääntielle. Vartalo-osan ja hihojen mitat kytkeytyvät toisiinsa muotoilun kautta, joten oikea rinnanympärys ei yksin takaa sopivaa hihan leveyttä tai kaarrokkeen syvyyttä.
 
-**Kaarroke:** Olkapäät ja ylävartalo neulotaan yhtenä pyöreänä osana. Hyvä kaarroke asettuu tasaisesti hartioille. Kerrostiheys on tärkeä, koska kaarrokkeen syvyys riippuu siitä, montako kerrosta mahtuu tiettyyn pituuteen.
+**Pyöreä kaarroke:** Vartalon yläosa ja hihat yhdistyvät kaarrokkeeksi, jonka muotoilut jakautuvat sen ympäri. Kerrostiheys vaikuttaa syvyyteen. Satulaolka on eri rakenne: olkapään yli kulkee erillinen kaistale. Se ei ole pyöreän kaarrokkeen synonyymi. [Knit Picks esittelee rakenteita](https://blog.knitpicks.com/anatomy-of-a-sweater/) englanniksi.
 
-Sama rinnanympärys ja sama väljyys voi näyttää yhdessä rakenteessa istuvalta ja toisessa väljältä. Katso valmiita kuvia, jos niitä on. Mittapiirros kertoo numerot, mutta kuva näyttää, miten rakenne käyttäytyy vartalolla.
+Vertaa mittapiirrosta valmiisiin kuviin sekä mahdollisiin mallin vartalonmittoihin ja vaatteen väljyyteen. Kuva auttaa hahmottamaan siluetin, mutta ei korvaa mittatietoja.
 
 ## Lyhennetyt kerrokset rinnan muotoilussa
 
 Monet villapaitaohjeet kirjoitetaan vakiorinnanympäryksen ja vakiopituuden mukaan, eivät yksilöllisen rinnankorkeuden tai rinnanympäryksen mukaan. Jos etukappale tarvitsee enemmän pituutta kuin takakappale, paita voi nousta edestä samalla kun takaa se istuu hyvin. Lyhennetyt kerrokset lisäävät pituutta vain etuosaan lisäämättä silmukoita.
 
-Tekniikka on tämä: neulot osan etukappaleesta, käännyt, neulot takaisin ja käännyt uudelleen ennen edellistä käännöstä. Jokainen lyhennetty kerrospari lisää pituutta rinnan kohdalle ja muotoilee neulepintaa vähän kuin muotolaskos. Tarkka paikka riippuu rakenteesta ja siitä, missä lisäpituutta tarvitaan.
+Lyhennetty kerros käännetään ennen kerroksen loppua, jolloin pituutta syntyy paikallisesti. Rinnan muotoilussa kerrokset voivat lyhentyä tai pidentyä menetelmän ja neulomissuunnan mukaan. Seuraa kokonaista muotoiluohjetta, jossa kerrotaan käännöspaikat ja niiden viimeistely. Kääntyminen aina ennen edellistä käännöstä ei ole yleispätevä ohje.
 
 Osa ohjeista sisältää tämän vaihtoehdon suoraan. Moni ei. Lisääminen vaatii, että tiedät rinnan korkeuden suhteessa kainaloon ja suunnilleen paljonko lisäpituutta eteen tarvitaan.
 
-Tämä on yksi hyödyllisimmistä muokkauksista neulojille, joiden vartalo ei vastaa ohjeen tasaista etukappaleoletusta. Ensimmäinen kokeilu voi olla karkea. Silti opettelun arvoinen.
+Etukappaleen lisäpituus ei lisää rinnanympärystä. Jos tarvitset myös leveyttä, se on erillinen muutos. [Knitatuden muokkausopas](https://www.knitatude.ca/blog/2019/8/8/how-to-modify-patterns-part-3-tips-and-tricks-to-manipulate-a-pattern) havainnollistaa lyhennettyjen kerrosten tehtävää englanniksi; määrä ja sijainti sovitetaan valittuun vaatteeseen.
 
 ## Eri langat ja väljyysansa
 
-Tarvittava väljyys muuttuu neulepinnan paksuuden mukaan. Fingering-vahvuinen villapaita, jossa on 5 cm väljyyttä, voi tuntua mukavalta, koska kangas on ohutta ja joustavaa. Bulky-vahvuinen villapaita samalla 5 cm väljyydellä voi tuntua tiukalta. Paksu neulepinta vie tilaa vaatteen sisäpuolelta ja vähentää käytettävissä olevaa tilaa.
+Neulepinnan paksuus, laskeutuvuus, venyvyys ja palautuvuus vaikuttavat siihen, miltä sama väljyys tuntuu. Ohut ja paksu pusero voivat tuntua erilaisilta samalla 5 cm:n väljyydellä, mutta lankavahvuus ei yksin ratkaise mukavuutta.
 
-Jos korvaat langan paksummalla, harkitse isompaa kokoa. Neulepinta itse syö osan väljyydestä.
+Älä valitse automaattisesti suurempaa ohjekokoa paksummalle langalle. Jos uudella langalla silmukoita mahtuu senttimetrille vähemmän, sama silmukkamäärä tuottaa jo leveämmän kappaleen. Tarkista pesty, täysin kuiva mallitilkku, neulepinnan sopivuus ja kaikki muuttuvat mitat ennen koon valintaa.
 
 ## Käytännön kokovinkkejä
 
-Jos ohje ei listaa valmiita mittoja, se on varoitusmerkki. Ilman niitä et voi tietää, miten vaate istuu. Voit arvioida kertomalla luotavien silmukoiden määrän omalla neuletiheydellä, mutta suunnittelijan pitäisi antaa tämä tieto. Ravelryn projektisivuilta voi katsoa, mitä muut neulojat ovat saaneet.
+Jos valmiit mitat puuttuvat, kysy suunnittelijalta, mitä kokomerkinnät tarkoittavat. Suorassa osuudessa leveys senttimetreinä = silmukkamäärä ÷ silmukat 10 cm:llä × 10. Kuvitteellinen esimerkki: 200 silmukkaa vartalon ympäri tiheydellä 20 silmukkaa / 10 cm antaa 200 ÷ 20 × 10 = 100 cm:n ympäryksen. Käytä mitattavan kohdan silmukkamäärää, älä automaattisesti luomismäärää. Joustin, muotoilut, saumat ja eri mallineuleet vaikuttavat laskuun.
 
-Ennen koon valintaa [tarkista neuletiheys](/fi/artikkelit/neuletiheyden-mittaaminen/). Jos silmukkamäärä 10 cm:llä ei vastaa ohjetta, valmiit mitat eivät vastaa ohjetta myöskään. Yksi hyvin toimiva keino: levitä litteäksi villapaita, joka istuu haluamallasi tavalla, mittaa rinnanympäryksen leveys ja tuplaa se. Se antaa konkreettisen tavoitteen oman istuvuusmieltymyksen perusteella, mikä toimii usein paremmin kuin vartalonmitta plus abstrakti väljyyslasku.
+[Tarkista neuletiheys](/fi/artikkelit/neuletiheyden-mittaaminen/) ohjeen mallineuleella ja neulomistavalla, määrätyn viimeistelyn ja täydellisen kuivumisen jälkeen. Puikkokoon vaihto vaatii uuden tilkun. Toinen ohjekoko tai silmukkamäärien suhdeluku ei automaattisesti säilytä kerroksista riippuvia muotoiluja, pääntietä tai hihan pyöriötä. [Tin Can Knitsin tiheysesimerkissä](https://blog.tincanknits.com/2016/04/07/how-to-knit-a-garment-at-a-different-gauge/) vaaka- ja pystymitat lasketaan erikseen.
 
-Lankatyyppi vaikuttaa istuvuuteen myös. Laskeutuvat langat, kuten puuvilla ja silkki, käyttäytyvät eri tavalla kuin kimmoisa villa, joten samankokoinen puuvillapaita ja villapaita eivät istu samalla tavalla. Jos [korvaat lankaa](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/), ota tämä mukaan päätökseen.
+Levitä vertailupusero tasoon venyttämättä, puhtaana ja kuivana. Jos suljetun vartalo-osan etu- ja takakappale ovat yhtä leveät, kaksinkertainen rinnankohdan tasoleveys antaa valmiin ympärysmitan. Se sisältää jo vertailuvaatteen väljyyden. Vertaa samantapaisia rakenteita ja neulepintoja; huomioi aukot, päällekkäisyydet ja erilevyiset kappaleet erikseen.
 
-Jos tarvitset ylävartalolle yhden koon ja alavartalolle toisen, kyse on koosta toiseen liukumisesta. Seuraa yläkappaleessa ja rinnassa ylempää kokoa, lisää tai kavenna vyötärön kohdalla kohti alempaa kokoa. Jotkut ohjeet sisältävät lyhennettyjä kerroksia rinnan muotoiluun tai erilliset ylä- ja alakoot. Jos eivät, muokkaus vaatii hieman neulematikkaa.
+Jos [korvaat lankaa](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/), arvioi tilkun laskeutuvuus ja palautuvuus pelkän kuitunimen sijaan. Pesu ja viimeistely voivat muuttaa mittoja, mutta niillä ei voi luotettavasti pelastaa väärää kokoa. Noudata langan hoito-ohjetta ja neuleohjeen viimeistelytapaa.
+
+Jos tarvitset ylävartalolle yhden koon ja alavartalolle toisen, voit siirtyä koosta toiseen siellä, missä rakenne sen sallii. Käytä kaarrokkeessa ja rinnassa ylävartalolle valitsemasi koon ohjeita ja suunnittele lisäykset tai kavennukset kohti vyötärön tai lantion tavoitemittaa. Osa ohjeista tarjoaa tähän vaihtoehdot. Muussa tapauksessa muutos vaatii silmukkamäärien ja muotoilujen laskemista.
 
 ## FAQ
 
 **Mittaanko vaatteiden päältä vai suoraan vartalolta?**
-Ohut vaatekerros, kuten t-paita, on yleensä lähimpänä sitä, miten villapaitaa käytetään. Paksun vaatteen päältä mittaaminen suurentaa lukua liikaa.
+Seuraa ohjeen vartalonmittausohjetta. Mittaa niiden alusvaatteiden päältä, joita aiot käyttää, tai ohjeen niin neuvoessa ohuen, vartalonmyötäisen kerroksen päältä. Älä purista vartaloa mittanauhalla. Huomioi kerrospukeutumisen lisätila tavoitellussa väljyydessä niin, ettei sama vara tule mukaan kahdesti.
 
 **Mitä jos mittani osuvat kolmeen eri ohjekokoon?**
 Vertaa valmiin vaatteen mittapiirrosta ja mittoja tavoiteltuun väljyyteen ja valitse koko, joka sopii parhaiten rakenteen vaikeimmin muutettavaan kohtaan. Monissa istuvissa vaatteissa, joissa on istutettu hiha, tämä voi tarkoittaa hartioiden ja ylävartalon asettamista suurimman ympärysmitan edelle. Yhdistä kokoja tai muuta muita mittoja vain siellä, missä rakenne sen sallii.
@@ -149,4 +152,4 @@ Vertaa valmiin vaatteen mittapiirrosta ja mittoja tavoiteltuun väljyyteen ja va
 Kerrostiheydellä voi olla vähemmän merkitystä kuin silmukkatiheydellä, kun yksinkertainen kappale neulotaan mittoihin eikä muotoilu juuri riipu kerrosmäärästä. Sillä on merkitystä aina, kun kiinteä kerrosmäärä määrää pystysuuntaisen mitan tai muotoilun ajoituksen, kuten kaarrokkeissa, raglanmuotoiluissa, kädenteissä, hihan pyöriöissä, vyötärö- tai hihamuotoiluissa ja mallineuleen pystysuuntaisissa toistoissa.
 
 **Mitä jos Ravelryn projektit sanovat, että ohje on pieni tai suuri?**
-Lue useampi projekti ennen kuin päätät. Joskus muutama projekti väärällä neuletiheydellä vääristää vaikutelman. Jos viisi eri neulojaa sanoo, että ohje on pieni, ota se vakavasti ja harkitse isompaa kokoa.
+Käsittele projektimuistiinpanoja vihjeinä. Vertaa neuletiheyttä, valittua kokoa, lankaa, valmiita mittoja ja tehtyjä muutoksia sekä tarkista suunnittelijan virhekorjaukset. Toistuva kommentti antaa syyn tarkistaa ohje, mutta ei yksin määrää valitsemaan suurempaa kokoa.

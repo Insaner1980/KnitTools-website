@@ -3,39 +3,24 @@ import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import YarnEstimator from "../../../components/YarnEstimator.astro";
 import { routes } from "../../../i18n/routes";
 
+import { yarnReferenceCopy } from "../../../i18n/yarnReference";
+const referenceCopy = yarnReferenceCopy.sv;
+
 const faqs = [
-  {
-    q: "Hur vet jag hur mycket garn mitt projekt behöver?",
-    a: "Mönstret anger total garnåtgång i materialdelen, oftast i meter eller yards. Om du planerar utan mönster, jämför publicerade garnåtgångsintervall efter projekttyp, storlek och garntjocklek och lägg sedan på en säkerhetsmarginal.",
-  },
-  {
-    q: "Ska jag köpa extra garn?",
-    a: "Vanligtvis ja. Köp minst ett extra nystan när projektet är figurnära, strukturstickat eller stickas i garn med färgbad. Färgbad kan skilja lite i färg, och samma färgbad kan vara omöjligt att hitta senare om partiet tar slut.",
-  },
-  {
-    q: "Vad gör jag om mönstret anger yards eller gram?",
-    a: "Kalkylatorn visar en uppskattning i meter. Om mönstret anger yards, omvandla först till meter. Om mönstret eller ditt garnlager bara anges i gram, kontrollera banderollen för meter per nystan och räkna därifrån. Enbart vikt räcker inte, eftersom två nystan på 50 g kan innehålla olika mycket garn.",
-  },
-  {
-    q: "Påverkar garntjockleken hur mycket jag behöver?",
-    a: "Ja. Tunnare garn, som fingering och sport, kräver fler meter för samma projekt än tjockare garn, som worsted och bulky, eftersom maskorna är mindre och du behöver fler av dem för att täcka samma yta.",
-  },
-  {
-    q: "Kan jag byta till ett annat garn än mönstret rekommenderar?",
-    a: "Ja, om stickfastheten stämmer och tyget fungerar för projektet. Sticka ett prov med ersättningsgarnet, kontrollera att du får mönstrets stickfasthet och använd kalkylatorn som en planeringskontroll för den nya garntjockleken.",
-  },
+  { q: referenceCopy.methodTitle, a: referenceCopy.method },
+  { q: referenceCopy.adviceTitle, a: referenceCopy.advice },
 ];
 ---
 
 <LocalizedToolPage
   title="Garnåtgångskalkylator: hur mycket garn?"
-  description="Uppskatta hur mycket garn ditt stickprojekt behöver efter projekt, storlek och garntjocklek. Planera garnåtgång för plagg och accessoarer."
+  description={referenceCopy.description}
   canonicalPath={routes.tool.yarnEstimator.sv}
   lang="sv"
   alternates={routes.tool.yarnEstimator}
-  intro="Uppskatta hur mycket garn ditt stickprojekt behöver efter projekttyp, storlek och garntjocklek."
+  intro={referenceCopy.intro}
   schemaName="Garnåtgångskalkylator"
-  schemaDescription="Uppskattar garnåtgång för stickprojekt efter typ av projekt, storlek och garntjocklek."
+  schemaDescription={referenceCopy.description}
   faqs={faqs}
   variant="rust"
 >
@@ -44,32 +29,8 @@ const faqs = [
   </div>
 
   <div slot="content">
-    <h2>Så använder du kalkylatorn</h2>
-    <p>
-      Välj typ av projekt, storlek och garntjocklek. Kalkylatorn ger en
-      ungefärlig garnåtgång i meter. Använd den som utgångspunkt i planeringen
-      och lägg sedan på en säkerhetsmarginal innan du köper garn. Att få slut på
-      garn mitt i ett projekt när färgbadet inte längre finns är varje stickares
-      mardröm.
-    </p>
-
-    <h2>Hur mycket garn behöver jag?</h2>
-    <p>
-      Garnåtgång beror på tre saker: vad du stickar, vilken storlek och vilken
-      garntjocklek. En vuxentröja i fingering kan behöva omkring 1 200-1 500
-      meter. En enkel mössa i bulky kan klara sig på ungefär 100 meter. Om ett
-      mönster anger egen garnåtgång, använd den först. Den här kalkylatorn är
-      mest användbar när du planerar utan mönster eller vill kontrollera om en
-      viss garnmängd är realistisk.
-    </p>
-
-    <h2>Att läsa en banderoll</h2>
-    <p>
-      De flesta banderoller anger längd per nystan eller härva. När du har en
-      uppskattad totalmängd delar du den med banderollens meter eller yards per
-      nystan för att räkna ut hur mycket du ska köpa. Om banderollen saknas, väg
-      garnet på en köksvåg och kontrollera tillverkarens webbplats för meter per
-      gram.
+    <h2>{referenceCopy.methodTitle}</h2><p>{referenceCopy.method}</p><p>
+      {referenceCopy.limitations}
     </p>
   </div>
 </LocalizedToolPage>

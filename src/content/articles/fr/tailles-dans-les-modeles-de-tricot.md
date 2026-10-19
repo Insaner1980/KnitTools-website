@@ -14,27 +14,28 @@ tags:
 draft: false
 lang: fr
 translationKey: "knitting-pattern-sizes-and-fit"
+updatedDate: 2026-10-18
 ---
 
-Un modèle étiqueté "Medium" peut tomber comme une tente sur une personne et sembler serré sur une autre. Les tailles de modèles ne sont pas les tailles de magasin. Elles se basent sur les mesures du vêtement terminé, et c'est la relation entre ton corps et ces mesures qui détermine vraiment le tombé.
+Un modèle étiqueté "Medium" peut tomber comme une tente sur une personne et sembler serré sur une autre. Le nom de la taille ne suffit pas à prévoir la coupe. Vérifie d'abord si les mesures indiquées concernent le corps ou le vêtement terminé.
 
 ## Mensurations et mesures finies
 
 Tes mensurations sont ce que dit le mètre ruban autour de ta poitrine, ta taille ou tes hanches. Les mesures finies du modèle sont les dimensions du vêtement terminé à ces mêmes endroits.
 
-Ces deux nombres ne sont presque jamais identiques, et ils ne devraient pas l'être. Un pull exactement égal à ton tour de poitrine collerait sans aucune marge. La plupart des gens ne veulent pas ça.
+Ces mesures peuvent être différentes ou égales selon la coupe prévue et les propriétés du tricot. Compare le même endroit, dans la même unité.
 
-La différence entre mensuration et mesure finie s'appelle l'aisance. L'aisance est le concept le plus important pour obtenir la bonne taille dans un modèle de tricot. L'aisance positive signifie que le vêtement est plus grand que toi ; l'aisance négative signifie qu'il s'étire pour tenir.
+L'aisance se calcule en soustrayant la mensuration correspondante de la mesure du vêtement terminé. Pour le tour de poitrine, un résultat positif indique de l'espace en plus, zéro des tours égaux, et un résultat négatif un vêtement plus petit avant qu'il ne s'étire sur le corps. L'aisance à la poitrine ne détermine pas à elle seule l'ajustement des épaules, des manches ou de l'encolure.
 
 ## Ce que veut dire l'aisance
 
-L'aisance est l'espace supplémentaire prévu dans un vêtement au-delà de ton corps réel.
+Calcule l'aisance à partir des dimensions du vêtement au repos, après le traitement prévu par le modèle, généralement lavage et blocage. Ne le mesure pas étiré sur la personne.
 
-**Aisance négative** signifie que le vêtement fini est plus petit que toi. Le tissu s'étire pour s'ajuster. C'est courant pour les bonnets en côtes (le bonnet est plus petit que la tête, mais les côtes s'étirent pour tenir), les bords de chaussettes et les pièces très ajustées dans un fil élastique.
+**L'aisance négative** signifie que le vêtement est plus petit que la mensuration correspondante. Le tricot doit pouvoir s'étirer suffisamment et reprendre sa forme confortablement. Les bonnets en côtes et les chaussettes ajustées en sont des exemples courants. Le nom du fil ne garantit pas l'élasticité du tricot.
 
-**Aisance zéro** signifie que la mesure finie est égale à ton corps. Le vêtement suit exactement ta forme. C'est rare en tricot, parce que la plupart des tissus tricotés ont une élasticité naturelle.
+**L'aisance zéro** signifie que la mesure finie égale la mensuration. Ce peut être une coupe près du corps voulue, pas une erreur de taille.
 
-**Aisance positive** est la plus courante. Le vêtement est plus grand que toi. Un pull avec 5 à 10 cm d'aisance positive se pose confortablement sans coller. À 10 à 15 cm, il devient ample. Au-delà, il commence à lire oversize, mais la construction et l'épaisseur du fil changent beaucoup l'effet réel de cette aisance.
+**L'aisance positive** signifie que le vêtement est plus grand que la mensuration correspondante. La quantité dépend du modèle et de la coupe souhaitée. Plus d'aisance à la poitrine ne donne pas automatiquement plus de place au bras.
 
 L'aisance prévue par le modèle est un choix de design. Un pull court moderne peut avoir 5 cm. Un gilet confortable peut en avoir 15. Aucun n'est mauvais. Ce sont des silhouettes différentes.
 
@@ -44,31 +45,33 @@ Il te faut un mètre ruban souple, le genre couture, pas un mètre métallique d
 
 Poitrine : passe le mètre autour de la partie la plus forte, sous les bras, bien horizontal. Ne serre pas. Taille : le point le plus étroit, souvent juste au-dessus du nombril, pas la ceinture du jean, qui tombe plus bas chez beaucoup de gens. Hanches : le point le plus large, souvent autour du haut des cuisses.
 
-Pour la longueur de manche, suis le point de mesure du modèle. Certaines tables mesurent du milieu du dos jusqu'au poignet. Beaucoup de schémas mesurent de l'aisselle au poignet. Le haut du bras se mesure autour de la partie la plus large au-dessus du coude.
+Pour la longueur de manche, suis les points de mesure du modèle. Du milieu de la nuque au poignet, le mètre passe sur l'épaule puis le long du bras ; de l'aisselle au poignet, le bras est légèrement plié. Ce sont deux mesures différentes. Le tour de bras se prend à l'endroit le plus large au-dessus du coude.
 
-Largeur d'épaules : d'un os d'épaule à l'autre, dans le haut du dos. On l'ignore souvent, et c'est souvent la raison pour laquelle un pull va partout sauf aux épaules. La largeur du haut du dos repère aussi les pulls du commerce trop larges ou trop étroits aux épaules.
+La largeur d'épaules se mesure dans le haut du dos, d'une épaule à l'autre. Suis le schéma du modèle : la longueur d'une couture d'épaule inclinée est une autre mesure. Un tour de poitrine adapté ne garantit pas que les épaules conviennent.
 
 Note tout. Tu t'y référeras chaque fois que tu choisiras une taille de modèle. Une deuxième personne aide beaucoup pour le dos et les épaules ; ces mesures sont difficiles à prendre avec précision sans aide.
 
 ## Choisir ta taille
 
-La plupart des modèles listent les mesures finies dans un tableau de tailles ou dans l'en-tête. Cherche la mesure finie de poitrine, pas l'étiquette de taille.
+Lis d'abord les indications de taille. Si le tableau donne des mensurations, utilise celles de ton corps et les consignes de la personne qui a conçu le modèle. S'il donne les dimensions du vêtement terminé, compare-les à tes mensurations plus l'aisance prévue. Garde ces deux types de mesures distincts. [Tin Can Knits explique la différence](https://blog.tincanknits.com/2022/04/08/what-is-ease/) en anglais.
 
-Prends ton tour de poitrine. Ajoute l'aisance que tu veux. Trouve la taille dont la mesure finie est la plus proche.
+Pour comparer les tours finis, ajoute l'aisance positive à ton tour de poitrine, soustrais la quantité d'aisance négative ou utilise ta mensuration pour une aisance zéro. La dimension finie contient déjà l'aisance du vêtement : ne l'ajoute pas une seconde fois.
 
-Exemple : ton tour de poitrine est 96 cm. Tu veux une coupe confortable avec environ 8 cm d'aisance, donc tu vises 104 cm de poitrine finie. Si les tailles du modèle sont 96, 102, 107, 112 cm, la taille 102 donne 6 cm d'aisance, donc assez près du corps, et la taille 107 donne 11 cm, plus confortable. Choisis selon le rendu que tu préfères.
+Exemple fictif : ton tour de poitrine est de 96 cm et tu choisis 8 cm d'aisance. La cible est 96 + 8 = 104 cm. Avec des tours finis de 96, 102, 107 et 112 cm, les options les plus proches donnent 102 − 96 = 6 cm et 107 − 96 = 11 cm d'aisance. Compare les deux à la coupe prévue et aux autres dimensions. Ces nombres ne sont pas une recommandation universelle de confort.
 
-Ne choisis pas "Medium" parce que tu portes du medium en magasin. Un Medium de modèle peut avoir 112 cm de poitrine finie, volontairement oversize sur un corps de 96 cm, ou 102 cm, plus près du corps. L'étiquette ne te dit rien.
+Ne choisis pas Medium uniquement parce que tu achètes du M. Dans un exemple fictif, un tour fini de 112 cm donne 16 cm d'aisance sur un corps de 96 cm ; 102 cm en donne 6. Les mentions S/M/L, les âges et les tailles de prêt-à-porter de différents pays s'interprètent à l'aide du tableau propre au modèle.
 
 ## Lire un schéma
 
 Beaucoup de modèles incluent un schéma : un dessin plat des pièces finies avec des mesures indiquées. C'est la partie la plus utile du modèle pour les décisions d'ajustement.
 
-Le schéma montre largeur et longueur aux points clés : poitrine, taille si elle est marquée, hanches, longueur de manche, largeur du haut de manche, largeur d'épaule, longueur du corps du bas jusqu'à l'emmanchure. Les nombres de chaque taille sont indiqués avec le même format entre parenthèses que les instructions.
+Le schéma indique des largeurs et des longueurs à la poitrine, à la taille, aux hanches, aux manches, aux épaules et au corps. Vérifie si chaque flèche indique une largeur à plat, un tour complet ou une longueur. Pour un corps fermé, simple et symétrique, une largeur à plat de 51 cm correspond à environ 102 cm de tour. Les pièces séparées et les devants de gilet qui se chevauchent demandent une autre lecture.
 
-Compare le schéma à ton corps à chaque point. La poitrine peut convenir, mais les manches peuvent être 5 cm trop courtes. Le corps peut être plus long que ce que tu veux. Le schéma te dit où le modèle te va et où tu devras modifier.
+Repère ta taille dans l'ordre indiqué et marque ses nombres dans le texte, les tableaux et le schéma. Les parenthèses sont une convention, pas une présentation universelle. Lis aussi les consignes de façonnage simultané à l'avance : une opération peut commencer avant la fin de la précédente.
 
-Regarde aussi la profondeur d'emmanchure. Elle est souvent moins visible que la largeur de poitrine, mais une emmanchure trop courte serre sous le bras, et une emmanchure trop profonde crée une poche de tissu qui pend. Compare-la à un pull que tu possèdes et qui tombe bien sous le bras. Si l'écart est net, planifie avant de monter les mailles.
+Compare les mesures correspondantes en tenant compte de l'aisance. Le tour de poitrine peut convenir, mais les manches peuvent être 5 cm trop courtes. Le corps peut être trop long. Le schéma aide à repérer les dimensions à modifier.
+
+Compare la profondeur d'emmanchure à celle d'un vêtement qui te va, de construction similaire et mesuré aux mêmes points. Une emmanchure peu profonde peut gêner le mouvement, mais une emmanchure profonde peut faire partie d'une coupe à épaules tombantes. Le tour de poitrine ne suffit pas à décider.
 
 ## Quand tu es entre deux tailles
 
@@ -76,65 +79,65 @@ Cela arrive souvent. Ta poitrine te met dans une taille, tes hanches dans une au
 
 Pour choisir une taille de départ, compare le schéma et les mesures du vêtement terminé avec l'aisance prévue et la construction du vêtement. Concentre-toi sur les dimensions qui déterminent les parties les plus difficiles à modifier. Pour beaucoup de vêtements ajustés à manches montées, les épaules et le haut du buste peuvent constituer un meilleur point de départ que la plus grande circonférence. Passe progressivement d'une taille à l'autre ou ajuste d'autres zones lorsque la construction le permet.
 
-La longueur est ce qu'il y a de plus facile à changer. Beaucoup de modèles disent "tricoter jusqu'à ce que la pièce mesure X cm", et tu peux ajuster librement. Tu veux 43 cm au lieu de 38 ? Tricote 5 cm de plus. La longueur de bras fonctionne pareil. La largeur du haut de bras est plus délicate, parce qu'elle influence la tête de manche, donc essaie de la faire correspondre au modèle.
+La longueur peut être simple à modifier dans une section droite sans façonnage, tricotée jusqu'à une mesure donnée. Tu veux 43 cm au lieu de 38 cm ? La différence est de 5 cm. Vérifie d'abord le façonnage de la taille et des manches, les répétitions du motif, les poches et le métrage nécessaire. Modifier le tour de bras affecte aussi le raccord entre manche et corps.
 
-Si tu es plus petite que ce que le modèle ou la taille d'échantillon suppose, le corps et les manches peuvent être trop longs même quand la poitrine convient. Raccourcir le corps et les manches est généralement moins risqué que modifier la profondeur d'emmanchure, parce que l'emmanchure change la géométrie. Un raccourci utile : garde la profondeur d'emmanchure du modèle, puis raccourcis la section avant l'emmanchure. L'ajustement à l'épaule reste plus proche du modèle.
+Si le corps ou les manches sont trop longs, repère où se trouve la longueur en trop. Raccourcir une section droite sous l'emmanchure peut préserver la construction des épaules, mais ne conserve la profondeur d'emmanchure initiale que si elle te convient. Ta stature ne détermine pas à elle seule tes proportions.
 
-Si tu es plus grande que ce que le modèle suppose, le problème inverse apparaît. Ajouter de la longueur sous l'emmanchure touche souvent moins de nombres de mailles. Ajoute au corps et aux manches séparément pour garder des proportions naturelles.
+Évalue séparément la longueur à ajouter au corps et aux manches. Des rangs supplémentaires peuvent changer l'espacement du façonnage ou la fin d'une répétition verticale. Vérifie aussi les instructions qui suivent une section tricotée jusqu'à une mesure donnée.
 
 ## Choisir des tailles différentes pour le corps et les manches
 
-Certaines constructions le permettent assez bien. Les raglans du haut vers le bas, les pulls du bas vers le haut avec manches montées séparément et les pulls à empiècement donnent tous un peu de marge.
+Il est parfois possible de combiner des tailles pour le corps et les manches, mais même deux tailles voisines ne sont pas automatiquement compatibles. Pour une manche montée, la forme et la longueur de couture de la tête de manche doivent convenir à l'emmanchure. Pour un raglan ou un empiècement rond, vérifie les nombres de mailles du corps et des manches, les mailles sous les bras, le rythme du façonnage et la profondeur de l'empiècement.
 
-Si ton haut du corps correspond à une taille et tes bras à une autre, tu peux parfois tricoter le corps dans la taille de poitrine et choisir les manches dans la taille voisine. La géométrie de la tête de manche ou de l'empiècement doit quand même correspondre à l'emmanchure, donc cela fonctionne surtout quand les tailles sont proches : corps M et manches L, pas corps S et manches XL.
-
-Les modèles qui ne prévoient pas explicitement les tailles mélangées peuvent souvent être modifiés, mais cela demande du calcul tricot, et parfois de redessiner la tête de manche. Si les modifications sont nouvelles pour toi, choisis une construction qui rend ce choix plus simple.
+Utilise les indications d'ajustement du modèle lorsqu'elles existent. Sinon, prépare les raccords avant de les tricoter : choisir un corps M et des manches L ne constitue pas à lui seul une modification complète. Un modèle avec plusieurs options de manches ou de poitrine peut faciliter l'adaptation.
 
 ## L'aisance varie selon le vêtement
 
 Tous les vêtements ne cherchent pas la même coupe.
 
-Pour le tour de poitrine, le tableau d'ajustement du Craft Yarn Council place une coupe classique autour de 5 à 10 cm d'aisance positive, une coupe ample autour de 10 à 15 cm, et une coupe oversize autour de 15 cm ou plus. Les vêtements très ajustés peuvent utiliser de l'aisance négative. Les bonnets et les chaussettes aussi, parce que l'élasticité les garde en place.
+Le [guide d'aisance du Craft Yarn Council](https://www.craftyarncouncil.com/standards/body-sizing) décrit une coupe classique avec environ 5 à 10 cm d'aisance positive, une coupe ample avec environ 10 à 15 cm, et une coupe oversize avec environ 15 cm ou plus. Ce sont des repères, pas des garanties de coupe. Les tableaux de mensurations du CYC ne donnent pas les dimensions finies d'un modèle particulier.
 
-Ce sont des conventions, pas des règles. Mais si un modèle annonce "près du corps" et que le schéma montre 15 cm d'aisance dans ta taille, quelque chose cloche.
+Suis l'aisance prévue par le modèle et vérifie les dimensions du vêtement photographié si elles sont données. Si la description et ton calcul semblent se contredire, vérifie les mesures et la taille comparées avant de conclure à une erreur. Bonnets et chaussettes nécessitent leurs propres indications de taille.
 
 ## La construction influence la coupe
 
-Un pull avec 102 cm de poitrine finie ne tombe pas de la même façon selon la construction.
+Un pull avec 102 cm de tour de poitrine fini peut tomber différemment selon sa construction.
 
-**Épaules tombantes :** le corps est souvent un rectangle, et les manches partent d'une ligne d'épaule large. Le rendu est plus carré et décontracté. Cette construction demande souvent plus d'aisance pour bien tomber. La couture d'épaule se place sous l'épaule réelle, donc l'aisance donne la liberté de mouvement.
+**Épaules tombantes :** la ligne d'épaule se prolonge au-delà de l'épaule naturelle. Le corps est souvent droit et ample, mais la largeur des manches et la profondeur d'emmanchure influencent aussi la liberté de mouvement.
 
-**Manche montée :** la tête de manche est formée pour entrer dans une emmanchure arrondie, comme sur une chemise. C'est la construction la plus proche du corps. La couture d'épaule tombe près de l'épaule réelle. Les mesures doivent être plus précises.
+**Manche montée :** une tête de manche façonnée rejoint une emmanchure façonnée. Vérifie ensemble largeur d'épaules, tour de bras et profondeur d'emmanchure. Cette construction permet plusieurs silhouettes.
 
-**Raglan :** les manches rejoignent l'encolure par des lignes diagonales depuis l'aisselle. C'est assez tolérant selon les morphologies et cela fonctionne de près du corps à ample. Beaucoup de pulls accessibles utilisent le raglan parce que la construction se suit plus facilement qu'une manche montée.
+**Raglan :** les lignes de façonnage relient l'aisselle à l'encolure. Les dimensions du corps et des manches sont liées par ce façonnage ; un tour de poitrine adapté ne garantit pas une bonne largeur de manche ou profondeur d'empiècement.
 
-**Empiècement rond ou épaule en selle :** les épaules et le haut du buste se tricotent comme une seule pièce. Un bon empiècement repose à plat sur les épaules. L'échantillon en rangs devient important, parce que la profondeur d'empiècement dépend du nombre de rangs dans une longueur donnée.
+**Empiècement rond :** le haut du corps et les manches sont réunis dans un empiècement dont le façonnage est réparti tout autour. Le nombre de rangs ou de tours pour 10 cm influence sa profondeur. L'épaule en selle est une autre construction, avec une bande sur le dessus de l'épaule, pas un synonyme d'empiècement rond. Voir la [présentation de Knit Picks](https://blog.knitpicks.com/anatomy-of-a-sweater/) en anglais.
 
-La même mesure de poitrine et la même aisance peuvent sembler ajustées dans une construction et larges dans une autre. Regarde les photos de projets terminés quand elles existent. Le schéma donne les nombres ; les photos montrent comment la construction se comporte sur un corps.
+Compare le schéma aux photos et, lorsqu'elles sont indiquées, aux mensurations de la personne photographiée et à l'aisance portée. Une photo explique la silhouette, mais ne remplace pas les mesures.
 
 ## Rangs raccourcis pour la poitrine
 
 Beaucoup de modèles de pulls sont écrits avec des mesures de poitrine et de longueur standard, pas avec un ajustement individuel du buste. Si le devant a besoin de plus de longueur que le dos, le pull peut remonter devant pendant que le dos reste à sa place. Des rangs raccourcis à la poitrine ajoutent de la longueur seulement sur le devant, sans ajouter de mailles.
 
-Le principe : tricoter une partie du devant, tourner, revenir, puis tourner de nouveau avant le point de rotation précédent. Chaque paire de rangs raccourcis ajoute des rangs dans la zone du buste et façonne le tissu un peu comme une pince. Le placement exact dépend de la construction et de l'endroit où la longueur supplémentaire est nécessaire.
+Les rangs raccourcis tournent avant la fin du rang et ajoutent de la longueur localement. Pour les pinces de poitrine, les rangs peuvent devenir progressivement plus courts ou plus longs selon la méthode et le sens du travail. Suis une explication complète des points de retournement et de leur traitement ; tourner toujours avant le point précédent n'est pas une règle générale.
 
 Certains modèles proposent cette option clairement. Beaucoup ne le font pas. Pour l'ajouter, il faut savoir où se trouve ton point de poitrine par rapport à l'aisselle et estimer combien de longueur supplémentaire le devant demande.
 
-C'est une modification très utile quand ton corps ne correspond pas à l'hypothèse d'un devant plat. Le premier essai peut être imparfait. Cela vaut quand même la peine d'apprendre.
+Ajouter de la longueur devant n'augmente pas le tour de poitrine. Si tu as aussi besoin de largeur, c'est une modification distincte. Le [guide d'ajustement de Knitatude](https://www.knitatude.ca/blog/2019/8/8/how-to-modify-patterns-part-3-tips-and-tricks-to-manipulate-a-pattern) illustre le rôle de ces rangs raccourcis ; leur nombre et leur placement doivent convenir au vêtement.
 
 ## Le piège de l'aisance avec un autre fil
 
-La quantité d'aisance dont tu as besoin change avec l'épaisseur du tissu. Un pull en fingering avec 5 cm d'aisance semble confortable parce que le tissu est fin et souple. Un pull bulky avec les mêmes 5 cm semble serré. L'épaisseur du tissu prend de la place à l'intérieur du vêtement et réduit la marge réelle.
+L'épaisseur, le tombé, l'extensibilité et la capacité du tricot à reprendre sa forme changent la sensation d'aisance. Un pull fin et un pull épais avec les mêmes 5 cm peuvent se porter différemment, mais l'épaisseur du fil ne détermine pas à elle seule le confort.
 
-Si tu remplaces par un fil plus épais, pense à prendre une taille au-dessus. Le tissu lui-même mange l'aisance.
+Ne choisis pas automatiquement une taille supérieure avec un fil plus épais. Si tu obtiens moins de mailles par centimètre, le même nombre de mailles donne déjà plus de largeur. Vérifie un échantillon lavé et parfaitement sec, les propriétés du tricot et toutes les dimensions concernées avant de choisir.
 
 ## Conseils pratiques pour choisir une taille
 
-Si un modèle ne donne pas les mesures finies, c'est un signal d'alerte. Sans elles, tu ne peux pas savoir comment il tombera. Tu peux estimer en multipliant les mailles montées par ton échantillon, mais le modèle devrait fournir cette information. Regarde les pages projets sur Ravelry pour voir ce que d'autres personnes ont obtenu.
+Si les dimensions finies manquent, demande à la personne qui a conçu le modèle ce que représentent les tailles. Pour une section simple : largeur en cm = nombre de mailles ÷ mailles pour 10 cm × 10. Exemple fictif : 200 mailles autour du corps avec 20 mailles pour 10 cm donnent 200 ÷ 20 × 10 = 100 cm de tour. Utilise le nombre de mailles à l'endroit mesuré, pas automatiquement celui du montage. Les côtes, le façonnage, les coutures et les changements de point influencent le calcul.
 
-Avant de choisir une taille, [vérifie ton échantillon](/fr/articles/mesurer-un-echantillon-tricot/). Si tes mailles pour 10 cm ne correspondent pas au modèle, les mesures finies ne correspondront pas non plus. Une astuce qui fonctionne bien : pose à plat un pull qui te va comme tu aimes, mesure la largeur de poitrine, double-la. Cela donne une cible concrète basée sur ta vraie préférence de coupe, souvent plus utile que des mensurations plus une aisance abstraite.
+[Vérifie ton échantillon](/fr/articles/mesurer-un-echantillon-tricot/) dans le point et avec la méthode du modèle, après le traitement indiqué et le séchage complet. Changer d'aiguilles demande un nouvel échantillon. Une autre taille ou un rapport entre nombres de mailles ne préserve pas automatiquement le façonnage dépendant des rangs, l'encolure ou la tête de manche. [Tin Can Knits calcule séparément](https://blog.tincanknits.com/2016/04/07/how-to-knit-a-garment-at-a-different-gauge/) les effets sur la largeur et la hauteur.
 
-Le type de fil compte aussi pour le tombé. Les fils fluides comme le coton et la soie pendent autrement qu'une laine élastique, donc un pull en coton et un pull en laine dans la même taille ne tomberont pas de la même manière. Si tu [remplaces le fil](/fr/articles/remplacer-un-fil-dans-un-modele/), tiens-en compte.
+Pose à plat un pull que tu aimes, propre et sec, sans l'étirer. Pour un corps fermé simple, avec devant et dos de même largeur, doubler la largeur de poitrine donne le tour fini. Celui-ci contient déjà l'aisance du pull. Compare des constructions et des tricots similaires ; ouvertures, chevauchements et pièces de largeurs différentes se traitent séparément.
+
+Si tu [remplaces le fil](/fr/articles/remplacer-un-fil-dans-un-modele/), évalue le tombé et la reprise de forme de l'échantillon plutôt que le seul nom de la fibre. Lavage et blocage peuvent modifier les dimensions, mais ne corrigent pas de façon fiable une mauvaise taille. Suis les consignes d'entretien du fil et de finition du modèle.
 
 Si tu as besoin d'une taille pour le haut du corps et d'une autre pour le bas, passe progressivement d'une taille à l'autre. Suis la taille du haut pour l'empiècement et la poitrine, puis augmente ou diminue vers la taille du bas à la taille ou aux hanches, lorsque la construction le permet. Cette adaptation n'est pas de la gradation : la gradation est le processus par lequel la personne qui conçoit le modèle le décline dans toute sa gamme de tailles. Certains modèles incluent des rangs raccourcis pour la poitrine ou des tailles séparées haut/bas. Quand ce n'est pas le cas, cette modification demande un peu de calcul tricot.
 
@@ -142,7 +145,7 @@ Si tu as besoin d'une taille pour le haut du corps et d'une autre pour le bas, p
 
 **Faut-il se mesurer sur vêtements ou directement sur le corps ?**
 
-Sur une couche fine, comme un t-shirt, c'est souvent le plus proche de la façon dont un pull sera porté. Mesurer sur des vêtements épais fausse les nombres vers le haut.
+Suis les consignes de mesure du modèle. Mesure sur les sous-vêtements prévus, ou sur une couche fine près du corps si cela est indiqué. Ne comprime pas le corps avec le mètre. Prévois la place pour d'autres couches dans l'aisance souhaitée, sans compter deux fois la même marge.
 
 **Mes mesures tombent dans trois tailles différentes. Que faire ?**
 
@@ -154,4 +157,4 @@ L'échantillon en rangs peut compter moins que l'échantillon en mailles lorsqu'
 
 **Et si les projets Ravelry disent que le modèle taille petit ou grand ?**
 
-Lis plusieurs projets avant de conclure. Quelques personnes avec un échantillon différent peuvent fausser l'impression. Si plusieurs projets indépendants disent que le modèle taille petit, prends-le au sérieux et envisage la taille au-dessus.
+Considère les notes de projets comme des indices. Compare l'échantillon, la taille choisie, le fil, les dimensions finies et les modifications, puis vérifie les errata du modèle. Des remarques répétées justifient une vérification, mais ne suffisent pas à décider de prendre une taille supérieure.

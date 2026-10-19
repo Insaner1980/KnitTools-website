@@ -14,11 +14,11 @@ const faqs = [
   },
   {
     q: "Er pinnestørrelser like hos alle merker?",
-    a: "De bør være det. I praksis finnes små forskjeller, særlig på billige sett eller eldre pinner. Hvis strikkefastheten stadig blir feil, mål pinnen.",
+    a: "Ikke alltid. Samme US-nummer kan vise til ulike millimetermål hos ulike merker eller i ulike tabeller, særlig US 17 og 19. Sjekk millimetermerkingen eller mål skaftet med en pinnemåler, og strikk en prøvelapp.",
   },
   {
     q: "Hva med rundpinner?",
-    a: "Samme størrelser som for rette pinner. Størrelsen beskriver diameteren på spissen, ikke lengden på vaieren. En rundpinne på 4,5 mm er en pinne på 4,5 mm enten vaieren er kort til en lue eller lang til magic loop.",
+    a: "Samme størrelser som for rette pinner. Størrelsen viser diameteren på det jevntykke skaftet bak den avsmalnende spissen, ikke lengden på pinnen eller vaieren. En rundpinne på 4,5 mm har samme nominelle diameter som en rett pinne på 4,5 mm.",
   },
   {
     q: "Trenger jeg alle pinnestørrelser?",
@@ -42,6 +42,20 @@ const faqs = [
 >
   <div slot="tool">
     <div class="table-wrapper">
+      <p>
+        Tabellen gjelder strikkepinner, ikke heklenåler. UK/Canada viser det
+        gamle nummersystemet. US-halvstørrelser følger KnitPro, og japanske
+        nummer 0–15 følger Clover (0 = 2,1 mm). En strek betyr at ingen
+        tilsvarende nummerstørrelse er oppført her; tykkere japanske pinner
+        merkes i millimeter.
+      </p>
+      <p>
+        US-merkingen varierer: KnitPro oppgir 12–12,75 mm som US 17 og 15–16 mm
+        som US 19; ChiaoGoo bruker henholdsvis 12,75 mm og 15 mm. Ta
+        utgangspunkt i diameteren i millimeter. Garnkategoriene er veiledende
+        CYC-anbefalinger, ingen garanti for strikkefasthet eller passform. Til
+        åpne hullmønstre brukes ofte tykkere pinner.
+      </p>
       <input
         type="text"
         id="needle-search"
@@ -72,7 +86,7 @@ const faqs = [
                 >
                   <td class="col-mm">{formatMm(row[0])}</td>
                   {row.slice(1).map((cell) => (
-                    <td>{cell === "-" ? "—" : cell}</td>
+                    <td>{cell === "-" ? "—" : formatMm(cell)}</td>
                   ))}
                 </tr>
               ))
@@ -125,13 +139,13 @@ const faqs = [
     <p>
       <strong>UK-systemet går motsatt vei.</strong> US-størrelser blir høyere når
       pinnene blir tykkere. Gamle UK-størrelser blir lavere. US 6 er 4,0 mm. UK 6
-      er 5,0 mm. Blander du dem, er prøvelappen en hel millimeter feil før du har
-      strikket første pinne. Det skjer oftere enn man skulle tro.
+      er 5,0 mm. Blander du dem, skiller pinnediameteren en hel millimeter, noe som
+      kan endre strikkefastheten.
     </p>
     <p>
       <strong>Ikke alle størrelser har en perfekt match.</strong> Ikke alle metriske
       størrelser har en ren tilsvarende størrelse i hvert annet system. En pinne på
-      3,0 mm merkes noen ganger som US 2.5, mens andre tabeller legger den mellom
+      3,0 mm merkes noen ganger som US 2,5, mens andre tabeller legger den mellom
       US 2 og US 3. En pinne på 3,5 mm mangler ofte gammel UK-motpart helt. Når det
       skjer, gå tilbake til millimeterstørrelsen og se bort fra resten.
     </p>
@@ -156,8 +170,8 @@ const faqs = [
 
     <h2>Pinnestørrelse og garntykkelse henger sammen</h2>
     <p>
-      Tabellen kan få deg til riktig område. Prøvelappen avgjør den nøyaktige
-      adressen.
+      Tabellen kan få deg til riktig område. Prøvelappen avgjør hvilken
+      pinnestørrelse som passer.
     </p>
     <p>
       Craft Yarn Councils nåværende system kobler Lace til 1,5-2,25 mm, Super
@@ -166,9 +180,9 @@ const faqs = [
       Jumbo fra 12,75 mm og oppover.
     </p>
     <p>
-      Intervallene overlapper med vilje. DK kan gi et fast lue-stoff på en
-      mindre pinne eller et luftig sjal på en større. Strikkefastheten i
-      oppskriften forteller hvilken vei designeren har tenkt. Hvis du ikke er
+      Intervallene overlapper med vilje. DK kan gi et fast strikkestoff til en
+      lue på en mindre pinne eller et luftig sjal på en større. Strikkefastheten
+      i oppskriften forteller hvilken vei designeren har tenkt. Hvis du ikke er
       sikker på hvilken garntykkelse du holder i, er <a
         href={routes.tool.yarnWeightChart.no}>tabellen over garntykkelser</a
       > et bedre sted å starte.

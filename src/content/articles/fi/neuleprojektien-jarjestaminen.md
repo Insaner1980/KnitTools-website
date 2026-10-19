@@ -1,7 +1,8 @@
 ---
 title: "Usean neuleprojektin järjestäminen"
-description: "Näin hallitset useita neuleprojekteja yhtä aikaa kadottamatta puikkoja, lankoja tai ohjeen kohtaa. Käytännöllisiä järjestelmiä, jotka toimivat."
+description: "Järjestä neuleprojektit selkeillä ohjemuistiinpanoilla, kerrosmerkinnöillä ja lankatiedoilla. Käytännön vinkit keskeneräisen työn säilytykseen ja jatkamiseen."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 3
 tags:
@@ -17,81 +18,75 @@ lang: fi
 translationKey: "organize-knitting-projects"
 ---
 
-Useimmilla neulojilla on kesken enemmän kuin yksi projekti. Monimutkainen villapaita keskittyneisiin iltoihin. Helppo sukka matkalle. Aivoton ainaoikea peitto television ääreen. Eri projektit eri mielialoihin ja energiatasoihin. Normaalia.
+Kesken voi olla useampi neuleprojekti. Monimutkainen villapaita keskittyneisiin iltoihin, helppo sukka matkalle ja aina oikein neulottava peitto television ääreen. Eri työt voivat sopia eri tilanteisiin.
 
-Ongelma alkaa, kun "muutama projekti" muuttuu hiljaa seitsemäksi, etkä muista mikä puikkokoko on puolivalmiissa pipossa, mille kerrokselle neuletakissa jäit tai ostitko jo toisen kerän kauluria varten. WIP-hallinta ei tarkoita projektien määrän rajoittamista. Se tarkoittaa, että voit nostaa minkä tahansa niistä käteen ilman kymmenen minuutin selvitystyötä.
+Hankaluuksia tulee, kun et muista puolivalmiin pipon puikkokokoa, neuletakin seuraavaa kerrosta tai sitä, ostitko jo kaulurin toisen lankakerän. WIP tarkoittaa keskeneräistä työtä, englanniksi work in progress. Järjestämisen tarkoitus on pitää jatkamiseen tarvittavat tiedot tallessa, ei määrätä töille yhteistä enimmäismäärää.
 
 ## Mitä pitää palauttaa mieleen, kun otat työn käteen
 
-**Mihin jäit.** Kerrosnumero, sijainti mallikerrassa, ohjeen osio jota teet. Tätä tietoa on kalleinta rakentaa uudelleen. Sileän neuleen vartalosta voit laskea kerroksia pinnasta. Palmikkopaneelissa tai pitsikaaviossa paikan menettäminen voi tarkoittaa purkamista tunnettuun kohtaan asti. [Kerrosten seuraamisen opas](/fi/artikkelit/kerrosten-seuraaminen-neuloessa/) käsittelee menetelmät tarkemmin.
+**Ohje ja valittu koko.** Kirjaa ohjeen nimi, suunnittelija, lähde ja versio tai päiväys sekä valitsemasi koko. Merkitse oman kokosi luvut käyttämääsi ohjekopioon. Jos yhdistät eri osissa eri kokoja, kirjaa valinnat osakohtaisesti. Säilytä ohjeen korjaukset samassa paikassa ja tarkista uuden version muutokset ennen omien merkintöjesi siirtämistä.
 
-**Mitä pussissa on.** Puikkokoko, langan nimi ja väri, jäljellä olevat kerät. Kun otat projektin säilöstä kuukauden päästä ja vyöte on irronnut kerästä, yrität tunnistaa mystistä beigeä DK-lankaa. Siihen kyllästyy nopeasti. Pidä vyötteet projektin mukana tai kirjoita tiedot paikkaan, johon pääset käsiksi.
+**Mihin jäit.** Nimeä kappale ja työvaihe. Kirjaa viimeinen kokonaan valmis kerros, mistä laskenta alkaa, kohta mallikerrassa ja seuraava tehtävä. Kesken jäänyt kerros merkitään erikseen. Esimerkiksi: ”Vasen hiha, 47 suljettua kerrosta valmiina resorin jälkeen; seuraavaksi kerros 48, mallikerran kerros 8.” Tässä kahdeksan kerroksen mallikerta alkaa kerrokselta 1 eikä välissä ole aloituskerroksia. Pidä kummankin hihan tai sukan tiedot erillään ja kirjaa samanaikaisten muotoilujen aikataulut erikseen. Pelkkä laskurin lukema ei kerro tätä kaikkea. [Kerrosten seuraamisen opas](/fi/artikkelit/kerrosten-seuraaminen-neuloessa/) käsittelee menetelmiä tarkemmin.
 
-**Mitä olet päättänyt.** Muokkaukset, kokosäädöt, työn aikana tehdyt muistiinpanot. "Lisään vartaloon 5 cm pituutta" on ilmiselvää, kun päätit sen eilen. Kolmen viikon päästä se on näkymätön. Sama koskee puikkokoon vaihtoa kesken työn, kerrosta jolla aloitit uuden kerän langanpäiden päättelyä varten, ja kaikkia kohtia joissa poikkesit kaaviosta.
+**Mitä pussissa on.** Kirjaa puikon halkaisija millimetreinä, tyyppi ja pituus. Pyöröpuikosta kerro, tarkoitatko kokonaispituutta kärjet mukaan lukien. Merkitse silmukka- ja kerrostiheys, mallineule sekä se, mitattiinko tilkku ennen pesua tai pingotusta vai käsittelyn ja kuivumisen jälkeen. Säilytä tulokset erillisinä. Pidä lankavyötteet mukana ja kirjaa jäljempänä luetellut lankatiedot.
 
-**Missä työlanka on.** Tarkemmin: tuleeko lanka kerän sisältä vai ulkopuolelta, ja mikä kerä sarjassa on käytössä. Tämä merkitsee, kun vuorottelet kahta värjäyserää, liität kontrastivärin tietylle kerrokselle tai olet jakanut kerän kahteen hihaa varten ja haluat tietää kumpi puolikas kuuluu kummalle puolelle.
+**Mitä olet päättänyt.** Kirjaa muokkaukset ja niiden alkukohdat, myös puikkokoon vaihdot. ”Lisään vartalo-osaan 5 cm ennen kädentien muotoilua” kertoo enemmän kuin irrallinen pituus. Erota jo tehdyt muutokset suunnitelluista. Kuvat voivat täydentää muistiinpanoja, mutta eivät korvaa kirjattuja mittoja tai muokkauksia.
+
+**Missä työlanka on.** Merkitse tarvittaessa, tuleeko lanka kerän sisältä vai ulkopuolelta ja mikä kerä on käytössä. Tieto auttaa esimerkiksi värjäyserien vuorottelussa, kontrastivärin liittämisessä tai kahden hihan lankojen erottamisessa.
 
 ## Fyysinen järjestys
 
-Yksi pussi per projekti. Siinä koko järjestelmä. Projekti, puikot, ohje, jäljellä oleva lanka ja muistiinpanot asuvat yhdessä. Kun vaihdat projektia, otat eri pussin. Mikään ei sekoitu.
+Yksi pussi työtä kohti on yksinkertainen vaihtoehto. Pidä työ, puikot, käyttämäsi ohjekopio ja muistiinpanot yhdessä. Ison työn lisäkerät voi säilyttää erillään projektin nimellä ja lankatiedoilla merkittyinä. Merkitse kerät varatuiksi, jotta et varaa samoja lankoja myös toiseen työhön.
 
-Säilytysastian tyypillä ei ole paljon väliä. Vetoketjupussi, nyöripussi, pienille projekteille ziplock-pussi. Tärkeää on, että jokainen projekti on oma kokonaisuutensa.
+Valitse työlle riittävän tilava säilytysratkaisu ja tarkista saumat, sulkimet ja irtotarvikkeet, joihin neule voi tarttua. Pelkkä materiaali ei kerro pussin suojaavuudesta. Noudata langan hoito-ohjetta säilytyksessä; sama pussi ei välttämättä sovi joka tilanteeseen.
 
-Isommissa projekteissa, joissa on useita keriä, pidä työkera projektin mukana ja säilytä lisäkerät erillään mutta merkittyinä. Maalarinteipin pätkä projektin nimellä estää tilanteen, jossa varastossa on kuusi kerää kermanväristä DK-lankaa kolmelta merkiltä, eikä mitään käsitystä mikä kuuluu mihinkin.
-
-Projektipussin materiaalillakin on käytännön merkitystä. Kevyet kangaspussit tuntuvat mukavilta, mutta suojaavat rajallisesti nyppyyntymiseltä, nukalta tai irtotarvikkeilta. Vetoketjulliset muovipussit ja verkkokannelliset pussit suojaavat paremmin ja antavat nähdä sisällön avaamatta. Isompi työ tarvitsee tilaa. Hihat ja puolivalmis kaarroke eivät arvosta sitä, että ne ahdetaan sukkapussin kokoiseen nyssäkkään.
+Varmista, etteivät elävät silmukat pääse putoamaan säilytyksen aikana. Jos irrotat vaihtopäiset puikot, jätä silmukat yhteensopivalle kaapelille ja kiinnitä sen päätytulpat tai siirrä silmukat sopivalle pidikkeelle. Kirjaa irrotettujen puikkojen koko ja säilytyspaikka.
 
 ## Mihin jäit
 
-Paperimuistiinpanot toimivat, jos päivität niitä kurinalaisesti. Kirjoita nykyinen kerrosnumero tarralapulle, kiinnitä se ohjeeseen ja päivitä, kun lopetat. Ongelma: hyvän neulesession jälkeen lapun kirjoittaminen ennen puikkojen laskemista vaatii tavan, jota moni ei luontaisesti muodosta.
+Sekä paperiset että digitaaliset muistiinpanot on päivitettävä. Kirjaa lopettaessasi viimeinen valmis kerros ja seuraava tehtävä. Jos laskuri laskee valmiita kerroksia, kasvata lukua vasta kokonaisen kerroksen lopussa. Kesken jääneestä kerroksesta tarvitaan erillinen merkintä.
 
-Puhelimessa oleva neuleprojektien seuranta hoitaa tämän luotettavammin. Digitaaliset seurannat tallentavat kerrosmäärän automaattisesti, merkitsevät milloin viimeksi työskentelit projektin parissa ja näyttävät kaikki aktiiviset projektit yhdessä listassa. Et penko pusseja, vaan näet yhdellä vilkaisulla: Palmikkoneuletakki, kerros 47, viimeksi tiistaina. Helpot sukat, kantapään käännös, viimeksi viikko sitten.
+Puhelinsovellus voi olla kätevä, mutta tarkista, mitä käyttämäsi sovellus tallentaa. Session päiväys ei kerro tarkkaa ohjeen kohtaa, eikä sovellus tiedä kirjaamatta jäänyttä muutosta. Paikallinen tallennus, kopion vienti, varmuuskopiointi ja palautus, laitteiden synkronointi sekä projektin jakaminen ovat eri toimintoja.
 
-[KnitTools-sovellusta](/fi/tyokalut/#join) rakennetaan järjestämään projektit, niihin linkitetyt langat, kerrosmäärä, sessiohistoria ja ohjemuistiinpanot yhteen paikkaan. Tavoite on yksinkertainen: avaa projekti ja pääse takaisin työtilaan ilman muistista rekonstruointia.
+KnitToolsia kehitetään Androidille. Siinä on projektikohtaisia laskureita, sessiohistoria ja projektimuistiinpanot. Syötät luvut ja muistiinpanot itse. Uusien projektimuistiinpanojen luonti vaatii Pro-käyttöoikeuden; aiemmat muistiinpanot pysyvät käytettävissä sen jälkeenkin. Lankatietoja voi kirjoittaa muistiinpanoihin käsin. Se ei tarkoita omaa tietokenttää jokaiselle tiedolle tai automaattista lankamäärän vähennystä. [Tilaa KnitToolsin julkaisuilmoitus](/fi/tyokalut/#join).
 
 ## Mitä projektia tehdään
 
-Useat keskeneräiset projektit alkavat stressata, kun syyllistyt niistä, joihin et koske. Muutama tapa auttaa:
+Valitse omaan arkeesi sopiva tapa. Nämä ovat vaihtoehtoja, eivät tuottavuussääntöjä.
 
-**Yksi pääprojekti, yksi mukana kulkeva, yksi aivoton.** Kolme aktiivista kategoriaa pitää määrän hallittavana ja antaa silti vaihtoehtoja. Pääprojekti saa keskittyneen ajan. Mukana kulkeva projekti matkustaa. Aivoton projekti täyttää hetket, jolloin haluat neuloa mutta et ajatella. Kaikki muu on jonossa, ei aktiivisella listalla.
+**Yksi pääprojekti, yksi matkalle, yksi helppo.** Voit pitää aktiivisena keskittymistä vaativan työn, mukana kulkevan työn ja yksinkertaisen työn. Kolme kategoriaa on ehdotus, ei enimmäismäärä.
 
-**Vuorotteluaikataulu.** Varaa tietyt sessiot tietyille projekteille. Arki-illat villapaidalle, viikonloput huiville. Tämä estää tavan tarttua aina helpoimpaan projektiin, kun monimutkainen jää koskematta.
+**Vuorotteluaikataulu.** Voit varata arki-iltoja villapaidalle ja viikonloppuja huiville. Muuta aikataulua, jos se ei palvele sinua.
 
-**Edistymistavoitteet.** "Teen kaarrokkeen valmiiksi ennen kuin aloitan mitään uutta" motivoi enemmän kuin "pitäisi tehdä villapaitaa". Konkreettinen tavoite antaa suunnan. Myös ajan seuraaminen projektia kohti paljastaa kaavoja. Jos johonkin ei ole koskettu kolmeen viikkoon, voi olla aika sitoutua tai nimetä tilanne rehellisesti.
+**Välitavoitteet.** ”Teen kaarrokkeen valmiiksi ennen uuden työn aloittamista” on yksi mahdollinen tavoite. Jos työ jää toistuvasti sivuun, voit jatkaa sitä, siirtää sen tauolle tai purkaa sen.
 
-**Sovita projekti hetkeen.** Palmikkokaaviot ja pitsi tarvitsevat huomiota, joten ne sopivat rauhalliseen koti-iltaan. Tavalliset sukkakierrokset toimivat junassa, odotushuoneessa tai puhelun aikana. Kun projekti vastaa käytettävissä olevaa hetkeä, edistyt oikeasti etkä vain nosta väärää pussia esiin ja laita sitä viiden minuutin päästä takaisin.
+**Sovita projekti hetkeen.** Palmikkokaavio voi sopia rauhalliseen koti-iltaan ja yksinkertainen sukka matkalle. Valitse työ sen mukaan, mihin pystyt siinä tilanteessa keskittymään.
 
-## Milloin WIP muuttuu UFOksi
+## Työn laittaminen tauolle tai lopettaminen
 
-WIP on projekti, johon aiot palata. UFO on projekti, jonka olet hylännyt mutta et ole myöntänyt sitä itsellesi.
+Pitkä tauko ei itsessään tarkoita työn hylkäämistä. Päivitä muistiinpanot, varmista silmukoiden pysyminen paikallaan ja merkitse varatut langat ennen taukoa. Palatessasi vertaa ohjetta, kokoa, tarvikkeita ja lopetuskohtaa itse neuleeseen.
 
-Merkkejä: et muista mitä kokoa olit tekemässä. Ohje on hukassa tai oikeaa sivua ei löydy. Lankaa on jo osittain varastettu toiseen projektiin. Se vuodenaika, johon työ oli tarkoitettu, on mennyt ohi kahdesti.
-
-Projektien hylkääminen on sallittua. Pura ne, ota lanka ja puikot takaisin käyttöön ja poista ne aktiiviselta listalta. Viisi projektia selkeällä tarkoituksella on helpompi hallita kuin viisi projektia plus kolme syyllisyyttä herättävää zombia kaapin perällä.
+Työn saa myös jättää kesken. Jos purat sen, tarkista palautuneen langan kunto ja määrä ennen uutta käyttöä. Päivitä projektilista ja lankakirjanpito. Valmiista työstä kannattaa kirjata lopulliset muokkaukset ja jäljelle jäänyt lanka ennen muistiinpanojen arkistointia.
 
 ## Langan seuraaminen projektien välillä
 
-Kun projekteja on monta, lankalogistiikka sotkeutuu. Mitkä projektit käyttävät samaa vahvuutta? Riittääkö kerässä oleva jämä toisen sukan loppuun? Ostitko jo kontrastivärin kaarrokkeeseen?
+Kirjaa merkki ja langan tuotenimi, kuitusisältö, värin nimi tai numero, värjäyserä, kerän juoksevuus ja keräpaino. Nämä ovat eri tietoja: sama värinumero ei tarkoita samaa värjäyserää eikä sama lankavahvuus samaa lankaa.
 
-Langan seuraaminen projektikohtaisesti, paljonko aloitit ja paljonko on jäljellä, estää kaksi pahinta lopputulosta: lanka loppuu kesken, kun värjäyserää ei enää saa, tai ostat tuplia, koska et muista mitä sinulla jo on.
+Pidä ostettu, työhön varattu ja oikeasti jäljellä oleva määrä erillään. Varattu lanka on osa varastoa, ei siihen lisättävä erillinen määrä. Päivitä varaus, kun siirrät lankaa työstä toiseen. Kirjanpito voi auttaa hankintojen suunnittelussa, mutta ei takaa langan riittämistä tai estä kaikkia tuplaostoja.
 
-Hyvä aktiivisen projektin niksi: punnitse jäljellä oleva lanka muutaman session välein ja kirjoita grammamäärä ylös päivämäärän kanssa. Jos ensimmäinen hiha käytti 47 g, saat siitä hyödyllisen arvion vastaavan toisen hihan langantarpeesta, mutta varaa hieman ylimääräistä normaalia vaihtelua varten. "Luulen että riittää" muuttuu konkreettisemmaksi suunnittelutarkistukseksi.
-
-Kirjoita lankatiedot talteen silloin, kun vyöte on vielä käsillä: vahvuus, kuitusisältö, hoito-ohjeet ja värjäyserä. [KnitTools](/fi/tyokalut/#join)-sovellusta rakennetaan pitämään nämä muistiinpanot sen projektin yhteydessä, johon ne kuuluvat, jolloin tieto ei elä irrallisena paperinpalana projektipussin pohjalla.
+Voit punnita vajaan kerän ilman vyötettä tai säilytysastiaa ja kirjata grammamäärän sekä päiväyksen. Kuvitteellinen ensimmäisen hihan 47 g:n menekki antaa lähtöarvion samanlaiseen toiseen hihaan samalla langalla ja neuletiheydellä. Huomioi muutokset, viimeistely ja mittausepävarmuus: 47 g jäljellä ei takaa langan riittämistä.
 
 ## Minimiversio
 
-Vähintään: yksi pussi per projekti. Jokaisessa pussissa lappu tai digitaalisessa seurannassa tieto nykyisestä kerroksesta ja muokkauksista. Jossain yksi lista kaikista aktiivisista projekteista, puhelimessa, muistikirjassa tai valkotaululla, jotta näet kokonaisuuden.
-
-Se riittää siihen, että voit ottaa minkä tahansa projektin käteen ilman hämmennystä ja huomaat ennen kuin keskeneräisten määrä karkaa käsistä.
+Pidä kunkin työn tarvikkeet tunnistettavina ja kirjaa ohje, koko, viimeinen valmis kerros, mallikerran kohta, muokkaukset ja seuraava tehtävä. Pidä lista aktiivisista ja tauolla olevista töistä. Lisää puikko-, tiheys- ja lankatiedot, joita muuten joutuisit selvittämään uudelleen.
 
 ## FAQ
 
 **Kuinka monta projektia on liikaa?**
-Yleispätevää lukua ei ole. Jos vaihtoehdot tuntuvat enemmän kuormittavilta kuin innostavilta, projekteja on liikaa. Hyödyllinen aktiivinen lista on niin pieni, että jokainen projekti saa vielä oikeaa huomiota.
+Yleispätevää lukua ei ole. Jos lista tuntuu vaikealta hallita, voit siirtää töitä tauolle tai yksinkertaistaa kirjanpitoa. Kaikille töille ei tarvitse antaa yhtä paljon aikaa.
 
 **Pitäisikö yksi projekti tehdä valmiiksi ennen uuden aloittamista?**
-Tiukka yksiavioisuus toimii joillekin neulojille. Useimmille useat projektit palvelevat oikeaa tarvetta. Eri tilanteet ja energiatasot kaipaavat eri neulomista. Olennaista on järjestelmä niiden hallintaan, ei niiden poistaminen.
+Kumpikin tapa voi sopia sinulle. Yksi työ pitää aktiivisen listan lyhyenä, useampi antaa valinnanvaraa. Valitse itsellesi käytännöllinen tapa.
 
 **Miten otan käteen projektin, johon en ole koskenut kuukausiin?**
-Selvitä missä olet: laske kerrokset, lue neulepintaa, tarkista muistiinpanot. Jos käytössä on digitaalinen seuranta, kerrosmäärä ja sessiohistoria kertovat milloin ja mihin jäit. Neulo muutama kerros hitaasti, jotta kireys ja silmukkamalli palaavat mieleen ennen vauhdin nostamista. Monimutkaisessa ohjeessa lue kyseinen osio uudelleen, älä koko ohjetta alusta.
+Tarkista ohjeversio, koko, muokkaukset, puikot ja lanka. Vertaa kirjauksia ja laskurin lukua neulepintaan. Selvitä viimeinen valmis kerros ja mahdollinen kesken jäänyt kerros, sitten seuraava ohje ja muotoilut. Pelkkä sessiohistoria ei osoita tätä kohtaa. Jos olet epävarma, etsi tunnettu kohta ennen jatkamista ja vertaa neuletiheyttä kirjattuihin mittoihin.

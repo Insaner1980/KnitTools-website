@@ -17,11 +17,11 @@ const faqs = [
   },
   {
     q: "Zijn naalddiktes bij alle merken hetzelfde?",
-    a: "Dat zouden ze moeten zijn. In de praktijk zijn er kleine verschillen, vooral bij goedkopere sets of oudere naalden. Als je stekenverhouding steeds afwijkt, meet de naald dan na.",
+    a: "Niet altijd. Hetzelfde US-nummer kan per merk of tabel een andere diameter in millimeters betekenen, vooral US 17 en 19. Controleer de millimetermarkering of meet de schacht met een naaldmeter en brei een proeflapje.",
   },
   {
     q: "Hoe zit het met rondbreinaalden?",
-    a: "De maat werkt hetzelfde als bij rechte breinaalden. De dikte beschrijft de diameter van de punt, niet de kabellengte. Een rondbreinaald van 4,5 mm blijft een naald van 4,5 mm, of de kabel nu kort is voor een muts of lang voor magic loop.",
+    a: "De maat werkt hetzelfde als bij rechte breinaalden. Het gaat om de diameter van de gelijkmatig dikke schacht achter de taps toelopende punt, niet om de naald- of kabellengte. Een rondbreinaald van 4,5 mm heeft dezelfde nominale diameter als een rechte breinaald van 4,5 mm.",
   },
   {
     q: "Heb ik elke naalddikte nodig?",
@@ -45,6 +45,20 @@ const faqs = [
 >
   <div slot="tool">
     <div class="table-wrapper">
+      <p>
+        Deze tabel geldt voor breinaalden, niet voor haaknaalden. UK/Canada is
+        het oude nummersysteem. Halve US-maten volgen KnitPro en Japanse nummers
+        0–15 volgen Clover (0 = 2,1 mm). Een streepje betekent dat hier geen
+        overeenkomstig nummer staat; dikkere Japanse naalden worden in
+        millimeters aangeduid.
+      </p>
+      <p>
+        US-nummers variëren: KnitPro groepeert 12–12,75 mm onder US 17 en 15–16
+        mm onder US 19; ChiaoGoo gebruikt respectievelijk 12,75 mm en 15 mm. Ga
+        uit van de diameter in millimeters. De garencategorieën zijn
+        CYC-richtlijnen, geen garantie voor stekenverhouding of pasvorm. Voor
+        open kantpatronen worden vaak dikkere naalden gebruikt.
+      </p>
       <input
         type="text"
         id="needle-search"
@@ -128,8 +142,8 @@ const faqs = [
     <p>
       <strong>Het UK-systeem is omgekeerd.</strong> US-maten lopen op als naalden
       dikker worden. Oude UK-maten lopen af. US 6 is 4,0 mm. UK 6 is 5,0 mm. Haal
-      je die door elkaar, dan zit je proeflapje al een hele millimeter verkeerd voordat
-      je een toer hebt gebreid. Dat gebeurt vaker dan je denkt.
+      je die door elkaar, dan verschilt de naalddiameter een hele millimeter. Dat
+      kan je stekenverhouding veranderen.
     </p>
     <p>
       <strong>Niet elke maat heeft een perfecte een-op-een match.</strong> Niet elke
@@ -158,7 +172,8 @@ const faqs = [
 
     <h2>Naalddikte en garendikte combineren</h2>
     <p>
-      De tabel brengt je in de buurt. Je proeflapje bepaalt het exacte adres.
+      De tabel brengt je in de buurt. Je proeflapje bepaalt welke naalddikte
+      past.
     </p>
     <p>
       Het huidige systeem van de Craft Yarn Council koppelt Lace aan 1,5-2,25

@@ -5,9 +5,10 @@ import type { Lang } from "../i18n/config";
 interface Props {
   variant?: "hero" | "page";
   lang?: Lang;
+  contentPage?: boolean;
 }
 
-const { variant = "hero", lang = "en" } = Astro.props;
+const { variant = "hero", lang = "en", contentPage = false } = Astro.props;
 const t = useTranslations(lang);
 ---
 
@@ -27,6 +28,7 @@ const t = useTranslations(lang);
       action="#"
       method="post"
       data-waitlist-signup
+      data-localized-errors={contentPage ? "true" : undefined}
       data-source="knittools"
       data-sending-text={t("sending")}
       data-generic-error={t("genericError")}
@@ -92,7 +94,7 @@ const t = useTranslations(lang);
       </p>
     </form>
 
-    <p class="meta">{t("closingMeta")}</p>
+    <p class="meta">{t(contentPage ? "signupMeta" : "closingMeta")}</p>
   </div>
 </section>
 

@@ -16,7 +16,7 @@ lang: fr
 translationKey: "gauge-swatch-step-by-step"
 ---
 
-Un échantillon est un carré test tricoté avec le fil et le point du projet, lavé et bloqué, puis mesuré sur 10 cm pour vérifier si tes mailles correspondent aux exigences du modèle. Voici le mode d'emploi pratique. Si tu veux comprendre pourquoi l'échantillon compte et quoi faire quand il ne correspond pas, le [guide de l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/) couvre l'ensemble. Cette page est pour le moment où tu sais déjà pourquoi et veux juste les étapes.
+Un échantillon est un morceau d'essai tricoté avec le fil du projet et le point indiqué pour la mesure. Mesure-le sur la distance et dans l'état demandés par le modèle, généralement sur 10 cm. Voici les étapes pour le réaliser ; le [guide de mesure de l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/) explique la mesure plus en détail.
 
 ## Ce qu'il te faut
 
@@ -24,90 +24,89 @@ Le fil du projet, les aiguilles recommandées par le modèle (ou par l'étiquett
 
 Un petit carnet ou l'application de notes de ton téléphone aide aussi. Note la taille d'aiguille, le nombre de mailles et le nombre de rangs pour chaque échantillon. Après une nuit de séchage, essayer de se souvenir de quel échantillon était lequel est une mauvaise stratégie.
 
-Si le modèle a été écrit par quelqu'un d'autre, vérifie aussi si l'échantillon est indiqué en jersey ou dans le point du modèle. Cela change tout ce que tu vas tricoter ensuite.
+Vérifie le point indiqué pour l'échantillon et si le projet se tricote à plat ou en rond. Utilise le même type d'aiguilles et la même méthode. Une aiguille circulaire ne rend pas à elle seule un échantillon en allers-retours représentatif du tricot en rond. La méthode rapide ci-dessous reproduit le jersey en rond.
 
 ## Étape 1 : monter les mailles
 
-Monte assez de mailles pour obtenir environ 15 cm de largeur, ou suis les instructions du modèle sur la taille de l'échantillon. Cela laisse généralement une zone centrale de 10 cm loin des mailles lisières déformées. Si l'échantillon du modèle indique 20 mailles pour 10 cm, 30 mailles donnent 20 mailles pour la zone de mesure et environ 5 de chaque côté.
+Prévois environ 15 cm dans le point à mesurer, ou suis la taille d'échantillon demandée par le modèle. Le but est une zone centrale de 10 cm avec du tricot supplémentaire de chaque côté, à l'intérieur des bordures éventuelles. Ce sont des dimensions prévues, pas garanties : ta tension réelle n'est pas encore connue.
 
-Calcul rapide : multiplie le nombre de mailles indiqué pour 10 cm par 1,5 pour estimer le nombre nécessaire à environ 15 cm de tissu. Par exemple, 20 × 1,5 = 30 mailles. Ce résultat n'est pas automatiquement le nombre final à monter. Si le résultat comporte une décimale, arrondis à la maille entière supérieure : 21 × 1,5 = 31,5, donc 32 mailles. Pour un point qui se répète sur 6 mailles, monte ensuite jusqu'à la répétition complète suivante, soit 36 dans cet exemple. Ajoute séparément les mailles de bord ou lisières qui resteront hors de la zone centrale, mais n'ajoute pas de nouveau celles qui sont déjà comprises dans la largeur totale prévue.
+Calcul rapide : 20 mailles pour 10 cm × 1,5 = 30 mailles pour environ 15 cm à la tension du modèle. Arrondis les résultats décimaux à la maille supérieure : 21 × 1,5 = 31,5 devient 32. Pour un motif de 6 mailles, passe à 36 mailles de motif et ajoute les éventuelles mailles supplémentaires demandées par les explications du point. Ajoute les bordures séparément : 36 mailles de motif plus 3 mailles au point mousse de chaque côté donnent 42 mailles à monter. L'échantillon entier sera plus large que le motif ; les bordures ne font pas partie de sa mesure.
 
-La méthode de montage compte moins qu'on ne le croit pour l'échantillon lui-même, mais utilise celle du projet si tu peux. Le montage long-tail est un point de départ courant pour beaucoup d'ouvrages à plat. Si le projet commence en côtes, l'échantillon n'a pas forcément besoin de commencer en côtes, mais savoir si ton bord de montage tire est utile.
+Monte les mailles sans que le bord resserre le tricot, avec la méthode du projet si c'est pratique. Le bord en côtes du projet n'est pas nécessaire, sauf si les instructions de l'échantillon le demandent.
 
 ## Étape 2 : tricoter l'échantillon
 
 Tricote dans le point indiqué dans la section échantillon. "En jersey" veut dire jersey. "Dans le point du modèle" veut dire le vrai point utilisé dans le projet. Cette distinction compte parce que les points différents donnent des échantillons différents. Une torsade resserre le tissu. Un motif ajouré s'ouvre après blocage. Les côtes se compriment en largeur. Mesurer un échantillon en jersey et supposer qu'il dit quelque chose sur un empiècement torsadé est une bonne façon d'obtenir un pull qui ne va pas.
 
-Tricote jusqu'à ce que l'échantillon fasse environ 15 cm de haut, ou jusqu'à ce qu'il fournisse assez de tissu non déformé pour mesurer une zone centrale de 10 cm loin du bord de montage et du bord rabattu. Environ 15 cm est une recommandation solide, pas un minimum universel : un échantillon plus petit peut rester utilisable si la zone de mesure est assez grande, représentative et non déformée, sans compter des mailles de bord uniquement pour obtenir 10 cm.
+Tricote assez de rangs ou de tours pour mesurer 10 cm de hauteur au centre, sans déformation due au montage, au rabattage ou aux bordures. Environ 15 cm du point à mesurer est un repère pratique, pas un minimum universel. Termine les répétitions en hauteur si nécessaire. Fais un échantillon plus grand si la zone utile après traitement est trop petite.
 
-Certaines personnes ajoutent une bordure au point mousse, par exemple 3 ou 4 mailles de chaque côté et 3 ou 4 rangs en haut et en bas, pour empêcher l'échantillon de rouler. Le jersey roule. Un échantillon plat est plus facile à mesurer. La bordure au point mousse ne change pas l'échantillon de la zone en jersey au centre. Cela vaut souvent le petit effort.
+Une bordure au point mousse peut aider à maîtriser le jersey qui roule, mais la différence de tension entre les points peut aussi déformer le tricot. Pour un échantillon à plat avec 3 mailles de bord de chaque côté : tricote d'abord quelques rangs au point mousse. Tricote ensuite les 3 premières et les 3 dernières mailles à l'endroit à chaque rang, et le centre en jersey, à l'endroit sur l'endroit et à l'envers sur l'envers. Termine par quelques rangs au point mousse avant de rabattre. Exclus les bordures et les zones déformées de la mesure. Si le centre est déformé, agrandis l'échantillon ou supprime la bordure.
 
 Rabats souplement. Un rabattage trop serré tire le bord supérieur et déforme les rangs juste en dessous, exactement la zone que tu ne veux pas mesurer.
 
 ## Étape 3 : laver et bloquer
 
-C'est l'étape qu'on saute le plus, et celle qui compte le plus.
+Avant tout lavage ou blocage, mesure et note les valeurs de l'échantillon non traité selon l'étape 4. Garde-les pour comparer avec un ouvrage non lavé ou avec un modèle qui demande expressément un échantillon non bloqué.
 
-Fais tremper dans de l'eau tiède pendant 15 à 20 minutes, sauf indication contraire sur l'étiquette. Roule l'échantillon dans une serviette pour enlever l'excès d'eau, sans tordre. Mets à plat et laisse sécher complètement. Si le fil doit être traité à la vapeur plutôt que trempé, traite l'échantillon de cette façon. Le [guide du blocage](/fr/articles/bloquer-un-tricot/) explique les méthodes selon les fibres.
+Traite ensuite l'échantillon comme l'ouvrage fini, en respectant les consignes d'entretien du fil. Si l'ouvrage sera lavé à la main et séché à plat, fais de même : presse doucement l'eau dans une serviette sans tordre et sèche à plat. La durée de trempage, la température de l'eau et l'éventuelle vapeur dépendent du fil et de l'entretien prévu ; 15–20 minutes n'est pas une règle générale. Le [guide du blocage](/fr/articles/bloquer-un-tricot/) présente différentes méthodes.
 
-Le fil change quand il est mouillé. La laine peut gonfler et les mailles peuvent se remplir. Le coton peut se détendre. Le lin s'assouplit. La laine superwash et l'alpaga peuvent grandir ou prendre plus de tombé que prévu. Mesure et note l'échantillon avant traitement. Utilise l'état demandé par le modèle, y compris l'état non bloqué s'il le demande. S'il ne précise rien, traite l'échantillon comme l'ouvrage fini comme indiqué ci-dessous, puis mesure-le de nouveau une fois sec. Conserve les deux valeurs.
-
-Bloque l'échantillon de la même manière que tu bloqueras le projet. Si l'ouvrage fini sera trempé et épinglé à plat, fais-le avec l'échantillon. S'il sera traité à la vapeur, passe l'échantillon à la vapeur. Si tu vas laver un pull en laine à la main et le laisser sécher à plat, fais exactement cela avec ton échantillon. Épingler agressivement pour étirer l'échantillon donne un chiffre qui ne correspond pas à la façon dont le tissu se comportera réellement porté.
+Laisse sécher complètement, retire les éventuelles épingles et laisse le tricot se détendre avant de mesurer, sauf si le modèle précise un autre état. Ne l'étire pas et ne le comprime pas pour obtenir le chiffre voulu. Conserve séparément les mesures avant et après : le changement concerne cet échantillon et ne garantit pas le comportement de tous les fils de même fibre ni du vêtement porté. Compare dans l'état demandé ; à défaut d'indication, utilise l'échantillon traité comme l'ouvrage fini.
 
 ## Étape 4 : mesurer
 
-Pose l'échantillon sec sur une surface plate et dure. Ne l'étire pas.
+Pose l'échantillon sec sur une surface plane et ferme. Pour une mesure au repos, ne l'étire pas. Dans les côtes, respecte l'état demandé, au repos ou étiré ; demande une précision à la personne qui a conçu le modèle si nécessaire.
 
-Place la règle horizontalement au centre, à au moins 2 à 3 cm des bords de montage et de rabattage. Compte les mailles sur 10 cm pour obtenir ton échantillon. Les demi-mailles comptent. Ne les arrondis pas.
+Place le zéro de la règle à la limite d'une maille, au centre non déformé, parallèlement à un rang. Toute la distance mesurée doit rester éloignée des bords et bordures. Compte les mailles sur 10 cm, y compris les fractions de maille. Utilise l'unité du modèle : l'indication courante 10 cm / 4 pouces n'est pas une conversion exacte, car 4 pouces valent 10,16 cm.
 
-Si le modèle attend 20 mailles pour 10 cm et que ton échantillon donne 18, les 200 mailles du corps prévues par le modèle mesureront environ 111 cm au lieu de 100 cm.
+Par exemple, 200 mailles pour le tour du corps dans le même point donnent 200 ÷ 20 × 10 = 100 cm à 20 mailles pour 10 cm. À 18 mailles, elles donnent 200 ÷ 18 × 10 ≈ 111,1 cm, avant toute marge de couture.
 
-Mesure ensuite verticalement : compte les rangs sur 10 cm au centre, loin des bords latéraux.
+Tourne la règle verticalement le long d'une colonne de mailles et compte les rangs ou les tours sur la même distance, fractions comprises. En jersey, un V entier est une maille ; les V superposés indiquent les rangs ou les tours. Dans les côtes, compte aussi les mailles envers cachées. Pour les points ajourés ou les torsades, identifie les mailles sur le diagramme ou mesure des répétitions complètes ; un trou ou un croisement n'est pas une maille. Le guide de mesure lié plus haut détaille ces méthodes.
 
-Note les deux chiffres. Si tu veux aller plus loin, mesure à deux endroits différents de l'échantillon et fais la moyenne. Le tricot à la main n'est pas parfaitement uniforme, et une seule mesure peut être trompeuse si elle tombe sur une zone un peu plus serrée ou plus lâche.
+Note les deux valeurs et l'état de l'échantillon. Mesure plusieurs zones centrales. Ne fais la moyenne que de petits écarts entre mesures comparables ; cherche la cause des grands écarts au lieu de les moyenner pour atteindre la valeur cible.
 
 ## Étape 5 : comparer
 
-Compare tes comptes à l'échantillon du modèle.
+Compare les mailles et les rangs ou tours avec les valeurs du modèle sur la même distance, dans le même point et le même état.
 
-**Ça correspond :** monte les mailles du projet.
+**Ça correspond :** vérifie aussi que le tissu convient au projet avant de monter les mailles.
 
-**Trop de mailles sur 10 cm :** tes mailles sont plus petites que celles du modèle. Monte d'une taille d'aiguille. Retricote un échantillon.
+**Trop de mailles sur 10 cm :** les mailles sont plus étroites. Essaie des aiguilles plus grosses et refais un échantillon.
 
-**Pas assez de mailles :** tes mailles sont plus grandes. Descends d'une taille d'aiguille. Retricote un échantillon.
+**Pas assez de mailles :** les mailles sont plus larges. Essaie des aiguilles plus fines et refais un échantillon.
 
-Répète jusqu'à correspondre. Priorise l'échantillon en mailles sur l'échantillon en rangs. La plupart des modèles acceptent un écart de rangs parce que les longueurs sont souvent mesurées plutôt que comptées.
-
-Quel écart de taille d'aiguille choisir ? Commence par une taille si l'écart est petit. Si tu rates d'environ 2 mailles sur 10 cm, deux tailles peuvent être un meilleur premier essai. Tricoter un échantillon pour chaque minuscule demi-étape devient vite lassant quand l'écart est net.
+Une taille d'aiguille voisine est un essai, pas une correction fixe par maille d'écart. Vérifie les deux valeurs après chaque changement. Le nombre de rangs ou de tours influence les formes et les répétitions ; tricoter jusqu'à une certaine longueur suffit seulement là où le modèle le permet. Consulte [quand l'échantillon ne correspond pas](/fr/articles/quand-echantillon-ne-correspond-pas/) pour la suite.
 
 ## Combien de temps cela prend ?
 
-Environ 45 minutes de tricot avec un fil worsted, plus le temps de séchage. Le fingering prend plus longtemps. Les mailles sont plus petites et plus nombreuses pour la même surface. Un échantillon en fil très fin peut prendre une soirée. Le lace, encore plus.
+Prévois du temps pour tricoter, traiter, sécher complètement et éventuellement refaire l'échantillon. La durée dépend du fil, du point, de la taille de l'échantillon et de ton rythme. Ni 45 minutes de tricot ni une nuit de séchage ne sont une règle fiable.
 
 ## Quand peut-on s'en passer ?
 
-Honnêtement ? Presque jamais pour ce qui doit avoir une taille précise. Mais en pratique : écharpes, couvertures, lavettes, objets où 1 cm de différence n'a pas d'importance. Si le projet est un vêtement ajusté, un bonnet qui doit tenir, ou des chaussettes, fais un échantillon. L'heure maintenant évite les heures à détricoter plus tard.
+Si tu acceptes une autre taille pour une écharpe simple ou une lavette, tu peux décider de commencer sans échantillon séparé. Tu acceptes aussi une incertitude sur le tissu et le métrage nécessaire. Pour un vêtement ajusté, un bonnet ou des chaussettes, fais l'échantillon avant de commencer.
 
-Le remplacement de fil est l'autre situation où l'échantillon n'est pas optionnel. Même quand le fil de remplacement porte la même catégorie d'épaisseur que le fil recommandé par le modèle, l'échantillon peut bouger. Deux fils DK de fabricants différents, l'un en laine et l'autre en mélange coton, peuvent demander des tailles d'aiguilles différentes pour produire le même tissu.
+Teste également un fil de remplacement. La même catégorie d'épaisseur ne garantit ni la même tension ni le même tissu ; évalue l'échantillon traité, pas seulement l'étiquette.
 
 ## Conseils pour de meilleurs échantillons
 
-Fais l'échantillon avec le même type d'aiguilles que le projet. Métal et bambou peuvent donner des tensions différentes. Si tu fais l'échantillon avec des aiguilles droites en bambou mais que tu tricotes le projet avec des circulaires métalliques, l'échantillon peut changer. Même logique : fais l'échantillon en rond si le projet se tricote en rond. Ta tension endroit et ta tension envers sont probablement différentes, et un échantillon à plat ne correspondra pas toujours au tricot circulaire.
+Utilise les mêmes aiguilles et la même méthode que pour le projet. Pour le tricot en rond, tu peux faire un tube dans le point du projet, assez large pour mesurer loin des changements d'aiguille et des plis. Le jersey à plat alterne rangs endroit et envers, ce qui ne donne pas nécessairement la même tension que des tours entièrement à l'endroit.
 
-La version rapide d'un échantillon en rond : monte les mailles avec une aiguille circulaire, tricote un rang, fais glisser les mailles vers l'autre extrémité de l'aiguille sans tourner, fais courir le fil lâchement au dos, puis tricote le rang suivant sur l'endroit. Tu imites le tricot en rond sans fabriquer un tube. Les fils flottants au dos se coupent avant la mesure. L'endroit ressemble à du jersey en rond.
+Méthode rapide pour reproduire le **jersey en rond** :
 
-Garde tes échantillons. Attache une étiquette : nom du fil, taille d'aiguilles, échantillon. Utile comme référence en cours de projet, et utile aussi plusieurs mois plus tard quand tu essaies de te souvenir si ce reste de fil DK donnait 22 mailles ou 24.
+1. Monte assez de mailles sur une aiguille circulaire pour un échantillon généreusement large et tricote un rang à l'endroit.
+2. Garde l'endroit face à toi. Ne tourne pas le travail : fais glisser les mailles le long du câble vers l'autre pointe pour les tricoter de nouveau. Dans le sens habituel de droite à gauche, le fil de travail se trouve alors au bord gauche.
+3. Passe le fil derrière le travail, de gauche à droite, en laissant une longue boucle lâche, puis tricote le rang suivant à l'endroit. Laisse assez de fil pour que l'échantillon repose sur toute sa largeur pendant le traitement et la mesure, sans que la boucle rapproche les bords.
+4. Répète le glissement, le retour du fil lâche et le rang endroit jusqu'à obtenir assez de hauteur au centre. Rabats sans resserrer le bord. Note les valeurs avant traitement, puis traite et sèche comme indiqué plus haut. Mesure loin des mailles latérales lâches. Il n'est pas nécessaire de couper les fils si l'échantillon repose à plat sans tension.
 
-Ne réutilise pas tout de suite le fil de l'échantillon. Il a été tricoté, lavé et étiré, donc il peut se comporter autrement qu'un fil frais. Si tu as besoin du fil, laisse-le sécher et se détendre d'abord, puis attends-toi à ce qu'il ait un aspect légèrement différent d'un fil intact.
+Des rangs uniquement à l'endroit ne remplacent pas les instructions des côtes, du point mousse, des torsades ou des points ajourés : il faut leur véritable succession de tours. Fais un tube si la méthode rapide ne reproduit pas ta façon de travailler ou ne laisse pas de centre non déformé.
 
-Si ton échantillon change en cours de projet, vérifie d'abord les variables évidentes : nouvelle pelote, autre aiguille, autre endroit pour tricoter, ou longue séance de tricot avec fatigue. La tension suit la posture et l'humeur plus qu'on ne l'admet souvent.
+Étiquette chaque échantillon avant lavage : fil, diamètre d'aiguilles en mm et type, point, travail à plat ou en rond, valeurs avant et après traitement et distance mesurée. Garde-le comme référence. Si tu testes plusieurs tailles d'aiguilles dans une même bande, marque les changements et fais chaque zone assez grande pour mesurer loin de la transition. Les zones voisines ne sont pas forcément sans déformation ; fais des échantillons séparés si elles se tirent mutuellement.
 
 ## Réponses rapides
 
-Peut-on mesurer sur moins de 10 cm ? Tu peux, mais une erreur d'une demi-maille sur 5 cm devient une erreur proportionnellement plus grande. Mesure au moins 10 cm. Pour un fil très épais où 10 cm ne représentent que quelques mailles, mesure sur une zone plus large si l'échantillon le permet.
+Peut-on mesurer sur moins de 10 cm ? Une distance plus courte amplifie l'erreur de comptage : une demi-maille d'erreur sur 5 cm devient une maille une fois ramenée à 10 cm. Utilise si possible la distance du modèle ; une zone utile plus grande aide pour les fils épais ou les longues répétitions.
 
-L'échantillon change-t-il selon les jours ? Oui. La tension varie avec l'humeur, la fatigue et le moment de la séance. Fais l'échantillon pendant une séance normale, pas dans les dix premières minutes pendant que tes mains se réchauffent. Si ta tension varie beaucoup entre plusieurs échantillons avec le même fil et les mêmes aiguilles, fais la moyenne de deux ou trois échantillons.
+L'échantillon change-t-il selon les jours ? Compare des échantillons réalisés avec les mêmes fil, aiguilles, méthode et traitement. Si les résultats diffèrent beaucoup, vérifie les conditions et refais un échantillon représentatif plutôt que de moyenner des résultats incompatibles.
 
-Échantillon séparé ou mesure sur le projet ? Tu peux mesurer le projet après quelques centimètres, mais à ce moment-là tu as déjà investi du temps. Si l'échantillon est mauvais, tu défais et tu recommences. Un échantillon séparé attrape le problème avant que tu y passes du vrai temps. L'exception, ce sont les vêtements top-down où le début de l'empiècement est petit et facile à défaire. Certaines personnes sautent l'échantillon séparé et utilisent l'empiècement comme échantillon. C'est risqué, mais cela fonctionne pour elles.
+Échantillon séparé ou mesure sur le projet ? Tu peux mesurer le projet quand il offre assez de tissu non déformé, mais corriger une tension inadaptée peut demander de détricoter. Compare l'ouvrage non traité avec l'échantillon non traité. Un petit empiècement commencé par le haut n'est pas automatiquement une zone de mesure représentative.
 
-Et si le modèle ne donne pas d'échantillon ? Regarde la taille d'aiguille recommandée sur l'étiquette du fil et pars de là. Tricote un échantillon en jersey. Le résultat obtenu est ton échantillon, et le projet aura la taille que donnent ces calculs. C'est utile pour les écharpes et les châles où la taille exacte n'est pas critique.
+Et si le modèle ne donne pas d'échantillon ? Demande une précision à la personne qui l'a conçu si la taille compte. Pour ta propre création simple, pars des aiguilles recommandées sur l'étiquette et tricote un échantillon dans le point prévu. Tu obtiens une base pour calculer les dimensions ; la tension du jersey ne prédit pas celle de tous les autres points.

@@ -51,6 +51,7 @@ const {
   lang={lang}
   alternates={alternates}
   enableRevealAnimations
+  contentPage
 >
   <script
     type="application/ld+json"
@@ -100,7 +101,7 @@ const {
     </div>
   </section>
   <div data-reveal>
-    <ClosingCTA variant="page" lang={lang} />
+    <ClosingCTA variant="page" lang={lang} contentPage />
   </div>
 </PageLayout>
 
@@ -267,6 +268,8 @@ const {
   }
 
   .card-title {
+    overflow-wrap: anywhere;
+    hyphens: auto;
     font-family: var(--serif);
     font-weight: 400;
     font-size: clamp(1.5rem, 1.9vw, 1.9rem);

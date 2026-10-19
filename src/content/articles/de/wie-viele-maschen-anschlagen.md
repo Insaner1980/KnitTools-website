@@ -28,15 +28,17 @@ Wenn deine Maschenprobe 20 Maschen auf 10 cm ergibt und du ein Teil mit 25 cm Br
 
 Wenn deine Maschenprobe auf 10 cm gemessen wurde, teile zuerst durch 10. 20 Maschen auf 10 cm ergeben 2 Maschen pro Zentimeter.
 
-Der KnitTools [Maschenanschlag-Rechner](/de/werkzeuge/maschenanschlag-rechner/) erledigt die Rechnung und hilft beim Runden auf passende Zahlen, aber ein Gefühl für plausible Ergebnisse hilft trotzdem. Wenn ein 50 cm breites Deckenpanel aus Worsted-Garn angeblich nur ein paar Dutzend Maschen braucht, stimmt etwas an den Eingaben nicht.
+Der KnitTools [Maschenanschlag-Rechner](/de/werkzeuge/maschenanschlag-rechner/) berechnet die Basiszahl und rundet auf die nächste gerade Zahl; eine ungerade ganze Zahl wird aufgerundet. Gib Maschen pro 10 cm und die Breite in cm ein, oder wähle Zoll und gib Maschen pro 4 Zoll sowie die Breite in Zoll ein. Der Einheitenwechsel rechnet die Eingaben nicht um. Die übliche Angabe 10 cm / 4 Zoll ist nur näherungsweise: 4 Zoll sind genau 10,16 cm. Mehrweite, Rapporte, Ausgleichsmaschen, Ränder und Nähte berücksichtigst du selbst; der Rechner passt keine ganze Anleitung an eine andere Größe an.
 
 ## Miss die Maschenprobe richtig
 
 Die Anschlagszahl ist nur so gut wie die Probe dahinter. Zwei Fehler verursachen immer wieder Probleme.
 
+Verwende Garn, Nadeln und Muster deines Projekts. Stricke die Probe passend zum Projekt in Reihen oder in Runden. Die Maschenprobe in glatt rechts sagt nicht voraus, wie breit Rippen, Lochmuster oder Zöpfe werden.
+
 **Am Rand der Maschenprobe messen.** Randmaschen sind nicht zuverlässig. Miss in der Mitte, weg von Anschlagkante, Abkettkante und Seitenrändern.
 
-**Vor dem Waschen und Spannen messen.** Die Probe auf den Nadeln ist nicht der fertige Stoff. Wenn die Anleitung eine gewaschene oder gespannte Maschenprobe meint, nutze diese fertige Probe auch für die Anschlagsrechnung.
+**Im falschen Zustand messen.** Halte dich an den Zustand, den die Anleitung für die Maschenprobe nennt, auch ungespannt, falls so angegeben. Sonst behandelst du die Probe wie das fertige Projekt innerhalb der Pflegehinweise des Garns und misst sie vollständig trocken und entspannt.
 
 Noch keine Probe? [Maschenprobe messen](/de/artikel/maschenprobe-messen/) erklärt den Ablauf.
 
@@ -44,15 +46,11 @@ Noch keine Probe? [Maschenprobe messen](/de/artikel/maschenprobe-messen/) erklä
 
 Nimm einen einfachen glatt rechts gestrickten Schal, 20 cm breit, mit einer Maschenprobe von 18 Maschen auf 10 cm.
 
-18 ÷ 10 = 1,8 Maschen pro Zentimeter.
+18 ÷ 10 = 1,8 Maschen pro Zentimeter. 20 × 1,8 = 36 Maschen. Gib im cm-Modus des Rechners 18 und 20 ein: Das Ergebnis ist 36.
 
-20 × 1,8 = 36 Maschen.
+Bei einem anderen Muster brauchst du eine neue Maschenprobe. Ergibt auch dieses 1,8 Maschen pro cm und verlangt ein reines Vielfaches von 4 oder 6, passt 36. Für ein reines Vielfaches von 8 kommen 32 und 40 infrage, etwa 17,8 und 22,2 cm. Prüfe vor der Auswahl den vollständigen Musteraufbau.
 
-Das ist die Basiszahl. Wenn der Schal einen 2x2-Rippenrand bekommt, passt 36 bereits, weil 36 durch 4 teilbar ist. Wenn der Rand ein Lochmuster mit einem Rapport von 6 Maschen hätte, würde 36 ebenfalls passen. Bei einem Rapport von 8 Maschen wären die nächsten sinnvollen Optionen 32 Maschen, also etwas schmaler, oder 40 Maschen, also etwas breiter.
-
-Wenn die Zielbreite von 20 cm die mittlere Musterfläche beschreibt, erhöhen je eine Randmasche pro Seite außerhalb dieser Fläche den Anschlag auf insgesamt 38 Maschen. Soll die vollständige Breite von 20 cm die Randmaschen bereits enthalten, bleiben sie innerhalb der berechneten 36 Maschen und werden nicht nachträglich addiert.
-
-Diese Rechnung dauert weniger als eine Minute. Sie vor dem Anschlag zu machen ist schneller, als nach sechs Reihen zu merken, dass der Schal deutlich zu schmal wird.
+Bezeichnen die 20 cm nur das Mittelfeld, ergeben 36 Maschen dort plus je eine separate Randmasche insgesamt 38. Bei gleicher Maschenprobe über die gesamte Breite sind das vor dem Zusammennähen etwa 21,1 cm. Enthalten die 20 cm schon beide Ränder und verlangt die Mitte ein Vielfaches von 8, gilt die vollständige Formel 8n + 2 (n = Anzahl der Rapporte): (36 − 2) ÷ 8 = 4,25 Rapporte. Vier oder fünf Rapporte ergeben insgesamt 34 oder 42 Maschen, etwa 18,9 oder 23,3 cm. Runde nicht erst die Gesamtzahl auf einen Rapport und addiere danach die Ränder. Eine andere Maschenprobe am Rand und die in der Naht verschwindende Breite musst du gesondert berücksichtigen.
 
 ## An Musterrapporte anpassen
 
@@ -60,7 +58,7 @@ Hier wird die Rechnung interessant. Die einfache Multiplikation von oben ist ein
 
 Die meisten Muster wiederholen sich über eine feste Maschenzahl, und deine Anschlagszahl muss zu diesem Rapport passen. Du kannst nicht einfach bei irgendeiner Zahl landen und hoffen, dass das Muster aufgeht.
 
-Angenommen, die Grundrechnung ergibt 97 Maschen, aber dein Muster wiederholt sich über 6 Maschen. Die nächsten funktionierenden Zahlen sind 96 und 102. Du musst entscheiden, ob etwas schmaler oder etwas breiter für dein Projekt sinnvoller ist. Meist ist die Antwort klar, sobald du kurz darüber nachdenkst.
+Zum Beispiel ergeben 20 Maschen auf 10 cm × 48,5 cm 97 Maschen. Bei einem reinen 6-Maschen-Rapport liegen 96 und 102 daneben, also 48 und 51 cm. Lautet die vollständige Vorgabe 6n + 2, ziehe zunächst die zwei Zusatzmaschen ab: (97 − 2) ÷ 6 ≈ 15,83. Wähle 15 oder 16 Rapporte und addiere die zwei Maschen einmal: insgesamt 92 oder 98, also 46 oder 49 cm bei dieser Maschenprobe.
 
 Was viele übersehen: Manche Muster brauchen zusätzlich zum Rapport Rand- oder Ausgleichsmaschen. Wenn die Anleitung etwa `2 re, *2 li, 2 re; ab * wdh` sagt, sind diese zusätzlichen Maschen Teil des Aufbaus. Keine optionale Verzierung. Lässt du sie weg, gleicht sich das Muster über die Reihe nicht aus.
 
@@ -71,130 +69,101 @@ Wenn ein Musterrapport zum Beispiel aus 8 Maschen plus 2 Ausgleichsmaschen beste
 - "Vielfaches von 8 + 2" -> 34, 42, 50, 58, 66
 - "Vielfaches von 12 + 3" -> 27, 39, 51, 63, 75
 
-Der [Maschenanschlag-Rechner](/de/werkzeuge/maschenanschlag-rechner/) kann das schnell sortieren, aber wenn du den Grund verstehst, vertraust du keiner Zahl blind, die den ganzen Rapport nicht berücksichtigt.
+Der [Maschenanschlag-Rechner](/de/werkzeuge/maschenanschlag-rechner/) liefert nur die auf eine gerade Zahl gerundete Basiszahl. Die vollständige Rapportformel passt du selbst an.
 
-Je breiter das Teil ist, desto weniger fällt eine kleine Anpassung auf. Vier Maschen mehr oder weniger an einer Decke ändern kaum etwas. Bei einer Socke ist das anders.
+Prüfe nach der Anpassung die Breite. Bei 20 Maschen auf 10 cm verändern vier Maschen die Breite um 2 cm, unabhängig von der Gesamtbreite. Ob das passt, hängt von der gewünschten Passform ab.
 
 ## Randmaschen und Kanten
 
-Wenn du flache Teile strickst, die später zusammengenäht werden, zählt die Kante.
+Halte dich bei Teilen zum Zusammennähen an die Randgestaltung und Nahtzugabe der Anleitung. Prüfe, ob diese Maschen bereits in der angegebenen Zahl enthalten sind; füge nicht automatisch zwei weitere hinzu.
 
-Viele Anleitungen fügen an jeder Seite eine Randmasche hinzu. Manche zwei. Wenn die Anleitung nichts sagt und du das Teil zusammennähen willst, ist eine Masche pro Seite ein üblicher Startpunkt.
+Für sichtbare Kanten wählst du Randmaschen oder eine Blende und planst deren Breite ein. Eine Blende in einem anderen Muster kann eine eigene Maschenprobe brauchen. Die Naht verbraucht einen Teil der gestrickten Breite; unterscheide deshalb die Breite vor dem Nähen von der fertigen sichtbaren Breite.
 
-Bei Schals, Decken und anderen Teilen mit sichtbaren Kanten sind zusätzliche Randmaschen optional, außer du möchtest eine bestimmte Kantenlösung. Ein Kettrand, bei dem du zum Beispiel die erste Masche jeder Reihe abhebst, ergibt eine saubere Linie, die viele Strickerinnen an Schalrändern mögen.
-
-Rundstrick braucht keine Randmaschen. Es gibt keine Seitenkante zum Zusammennähen.
+Gewöhnliches nahtloses Rundstricken braucht keine seitlichen Randmaschen. Zusätzliche Maschen zum Schließen der Runde oder zum Aufschneiden folgen eigenen Vorgaben der Anleitung.
 
 ## Anschlagbreite und Stoffbreite
 
 Die Anschlagkante und der eigentliche Stoff verhalten sich nicht immer gleich. Manche Anschläge sind fester. Manche dehnen sich mehr. Manche weiten sich.
 
-Wenn die Anschlagkante sauber zur Stoffbreite passen soll, wähle eine Anschlagmethode mit genug Elastizität oder nutze den üblichen Trick: mit einer um eine oder zwei Stärken größeren Nadel anschlagen und danach zur Arbeitsnadel wechseln. Die Anschlagkante wird lockerer und passt besser zur natürlichen Breite des Gestricks.
+Wähle einen zur Kante passenden Anschlag und teste ihn an einer Probe. Eine dickere Nadel macht größere Schlaufen, aber allein keinen dehnbareren Long-Tail-Anschlag: Auch der Faden zwischen den Maschen braucht Spielraum. Prüfe die Kante zusammen mit dem Gestrick und der benötigten Öffnung.
 
 Wenn die Anschlagkante Teil der Passform ist, etwa bei Sockenbündchen oder Mützenrändern, zählt die Spannung an der Kante genauso wie die Maschenzahl.
 
 ## Maschen für Rippenmuster anschlagen
 
-Rippenmuster zieht sich bei gleicher Maschenzahl stärker zusammen als glatt rechts. Wenn die Anleitung nach dem Bündchen [gleichmäßig zunehmen](/de/artikel/zunahmen-und-abnahmen-gleichmaessig-verteilen/) lässt, gleicht diese Übergangsreihe den Unterschied aus. Genau dafür ist sie da.
+Miss das Rippenmuster im angegebenen Zustand; ersetze dessen Maschenprobe nicht durch die von glatt rechts. Folge dem vorgesehenen Übergang, einschließlich eventueller [gleichmäßig verteilter Zunahmen](/de/artikel/zunahmen-und-abnahmen-gleichmaessig-verteilen/).
 
-Manche Anleitungen behalten dieselbe Maschenzahl in Bündchen und Körper. Andere schlagen für das Bündchen weniger Maschen an und nehmen danach zu. Wenn du selbst entwirfst, triff diese Entscheidung bewusst. Beide Lösungen sehen anders aus: dieselbe Maschenzahl ergibt einen ruhigen Übergang, ein kleineres Bündchen mit Zunahmereihe macht den Wechsel zwischen Bündchen und Körper sichtbarer.
-
-Für sichtbare Rippenkanten an Pullovern, Mützen oder Socken kann ein italienischer Anschlag, ein German Twisted Cast-On oder eine andere elastische Methode besser passen als ein sehr fester Standardanschlag.
+Manche Anleitungen behalten die Maschenzahl zwischen Bündchen und Körper bei, andere ändern sie. Bei einem eigenen Entwurf probierst du beide Muster und den Übergang aus. Eine andere Maschenzahl allein garantiert weder eine bestimmte Form noch einen gleichmäßigen Übergang.
 
 ## Maschen für Rundstrick anschlagen
 
-Die Rechnung ist dieselbe wie bei flachen Teilen: Maschenprobe × gewünschter Umfang. Bei Mützen und Socken ist dieser Zielumfang oft kleiner als der Körperumfang, weil der Stoff negative Mehrweite braucht. Die Ausführung hat aber eine zusätzliche Gefahr: verdrehtes Schließen zur Runde.
+Multipliziere die Maschen pro Zentimeter aus einer in Runden gestrickten Probe mit dem gewünschten fertigen Umfang. Der Umfang eines Schlauchs ist nicht seine flach liegende Breite. Lege die Mehrweite vorher fest: Addiere die gewünschte positive Mehrweite zum Körpermaß oder ziehe die gewählte negative Mehrweite ab. Der Betrag hängt von Anleitung, Gestrick und Passform ab; es gibt keinen pauschalen Abzug für alle Mützen oder Socken.
 
-Lege die Rundnadel vor der ersten Runde flach hin und prüfe, dass alle Maschen in dieselbe Richtung zeigen. Die untere Anschlagkante sollte ohne Spirale entlang der Innenseite der Nadel laufen. Wenn du die Verdrehung am Ende der ersten Runde bemerkst, kannst du sie am Rundenübergang noch korrigieren. Nach weiteren Runden ist Aufribbeln meist die sauberste Lösung.
+Prüfe vor dem Schließen, ob die Anschlagkante ohne Spirale um die Nadel läuft. Ist das geschlossene Gestrick verdreht, ribble genug auf, um es vor dem Weiterstricken zu korrigieren.
 
-Viele Strickerinnen schlagen eine zusätzliche Masche an und stricken sie beim Schließen mit der ersten oder letzten Masche zusammen. Die Arbeitsmaschenzahl bleibt richtig, und der Übergang bekommt weniger Lücke.
+Verwendet deine Verbindungsmethode eine zusätzliche Masche, entferne sie beim Schließen wie angegeben, damit die geplante Arbeitsmaschenzahl stimmt. Sie gehört nicht automatisch zu jedem Rundstrickprojekt.
 
-Für Toe-up-Socken erzeugt Judy's Magic Cast-On zwei parallele Reihen lebender Maschen ohne Naht an der Spitze. Für Top-down-Socken wird das Bündchen angeschlagen, etwa mit Long-Tail oder German Twisted, und dann zur Runde geschlossen.
-
-Grobe Anschlagszahlen für einfache Erwachsenensocken mit negativer Mehrweite:
-
-- **Worsted, ca. 16 Maschen auf 10 cm:** 32-40 Maschen
-- **DK, ca. 24 Maschen auf 10 cm:** 48-56 Maschen
-- **Sport, ca. 26 Maschen auf 10 cm:** 52-60 Maschen
-- **Fingering, ca. 30-32 Maschen auf 10 cm:** 60-72 Maschen
-
-Nutze diese Zahlen nur als Plausibilitätscheck. Miss den Fußumfang an der breitesten Stelle, ziehe die nötige negative Mehrweite ab und multipliziere dann mit deiner Maschenprobe. Kleinere Füße brauchen weniger Maschen, größere mehr, und gerippte Bündchen verzeihen mehr als glatt rechts gestrickte Socken.
+Bei Socken von der Spitze aus erzeugt Judy's Magic Cast-On zwei Gruppen lebender Maschen ohne Spitzennaht; die Spitzenform bestimmt die Anfangszahl. Bei Socken vom Bündchen aus prüfst du dieses separat, auch ob sich der Anschlag über die Ferse ziehen lässt.
 
 ## Anschlagmethoden kurz verglichen
 
 Die passende Methode hängt davon ab, was die Kante leisten muss.
 
-**Long-Tail-Anschlag.** Der Standard für viele Projekte. Mäßig elastisch, sauber, vielseitig. Du musst die Fadenlänge vorab schätzen; eine brauchbare Faustregel ist etwa die dreifache geplante Anschlagsbreite plus Reserve zum Vernähen. Fester als German Twisted oder ein italienischer Anschlag.
+**Long-Tail-Anschlag.** Ein vielseitiger Anschlag mit Arbeitsfaden und abgemessenem Fadenende. Die Dehnbarkeit hängt von der Ausführung ab. Schätze die Fadenlänge vorher; siehe FAQ unten.
 
-**Aufstricken.** Leicht zu lernen und gut, wenn du später am Reihenende neue Maschen anschlagen musst. Die Kante wirkt weniger poliert als Long-Tail, ist aber für Anfängerinnen gut nachvollziehbar.
+**Aufstricken.** Neue Maschen werden aus einer vorhandenen Masche herausgestrickt. Nützlich zum Lernen und zum Hinzufügen von Maschen während des Projekts.
 
-**Cable Cast-On.** Fester und dekorativer als Aufstricken. Weniger elastisch. Gut für Knopflöcher oder Kanten, die nicht stark gedehnt werden müssen.
+**Cable Cast-On.** Neue Maschen entstehen zwischen den beiden vorherigen Maschen. Ergibt eine relativ feste, wenig dehnbare Kante, etwa für Knopflöcher.
 
 **German Twisted Cast-On.** Eine Long-Tail-Variante mit zusätzlicher Elastizität. Sehr nützlich für Sockenbündchen, Mützenränder und Rippenkanten, die über Fuß, Hand oder Kopf passen müssen.
 
-**Italienischer Anschlag.** Ergibt eine elastische, gerundete Kante, die sauber in 1x1- oder 2x2-Rippen übergehen kann. Sehr schön für sichtbare Bündchen, aber aufwendiger einzurichten.
+**Italienischer Anschlag mit Vorbereitungsreihen.** Bildet eine gerundete Rippenkante. Folge einem Aufbau ausdrücklich für 1x1- oder 2x2-Rippen; die Maschenreihenfolge für 1x1 muss für 2x2 entsprechend umgeordnet werden.
 
 **Provisorischer Anschlag.** Hält lebende Maschen bereit, die später in die andere Richtung gestrickt werden können. Nützlich für umgeschlagene Säume, Tücher und Konstruktionen, bei denen die Anschlagkante später weiterbearbeitet wird.
 
 **Judy's Magic Cast-On.** Toe-up-Sockenanschlag, der zwei parallele Maschenreihen ohne Naht an der Spitze erzeugt.
 
-Du musst nicht alle Methoden auswendig kennen. Viele Strickerinnen nutzen zuerst Long-Tail für fast alles und lernen Spezialmethoden erst dann, wenn ein Projekt sie wirklich braucht.
-
 ## Anschlagspannung
 
-Zu feste Anschläge schnüren die Unterkante eines Pullovers, einer Mütze oder einer Socke ein. Der Körper des Gestricks will sich entspannen, aber die Anschlagkante hält ihn wie ein Zugband zusammen. Zu lockere Anschläge wellen sich und sehen unruhig aus. Ziel ist eine Kante, die zur natürlichen Breite des Gestricks passt.
+Ein fester Anschlag kann ein sonst richtig bemessenes Teil einschnüren; eine zu lockere Kante kann sich wellen. Teste den Anschlag zusammen mit einigen Reihen oder Runden im vorgesehenen Muster.
 
-Zwei praktische Lösungen, wenn dein Anschlag regelmäßig zu fest wird:
+Lass beim Long-Tail-Anschlag Platz zwischen den Maschen, statt jede neue Masche eng an die vorherige zu ziehen. Eine dickere Nadel oder zwei Nadeln zusammen vergrößern die Schlaufen, garantieren aber nicht genügend Faden dazwischen. Probiere bei Bedarf eine elastische Alternative wie German Twisted und teste erneut.
 
-1. Schlage mit einer um eine oder zwei Stärken größeren Nadel an und wechsle danach zur Arbeitsnadel.
-2. Nutze eine elastischere Methode wie German Twisted oder einen italienischen Anschlag statt Long-Tail.
-
-Zu lockere Anschläge sind seltener, kommen aber je nach Handhaltung und Garn vor. Dann hilft oft eine kleinere Nadel nur für den Anschlag oder eine festere Methode wie Cable Cast-On.
+Wenn sich die Kante wellt, passe Spannung oder Nadelstärke für diese Methode an und stricke eine neue Probe. Eine Änderung um eine oder zwei Nadelstärken ist keine allgemeingültige Lösung.
 
 ## Typische Anschlagszahlen für einfache Projekte
 
-Schnelle Plausibilitätschecks, keine Ersatzwerte für eine Anleitung. Bei Projekten aus Medium-/Worsted-Garn liegt die typische Spanne grob bei 16-20 Maschen auf 10 cm, deshalb kann dieselbe Anschlagszahl je nach Maschenprobe eine andere Breite ergeben.
+Die Garnstärke allein liefert keine Standardanschlagszahl für Spültücher, Schals, Cowls, Mützen oder Socken. Wähle die fertige Breite oder den Umfang, berücksichtige die Mehrweite und rechne mit der gemessenen Maschenprobe und der vollständigen Musterformel.
 
-- **Spültuch:** etwa 36-48 Maschen
-- **Schal:** etwa 30-50 Maschen, je nach Breite
-- **Cowl:** etwa 100-140 Maschen in der Runde, je nach Umfang und Mehrweite
-- **Erwachsenenmütze:** oft 80-108 Maschen in der Runde, je nach Maschenprobe und negativer Mehrweite
-- **Kleinkindmütze:** oft 60-84 Maschen in der Runde
-- **Babymütze:** oft 48-76 Maschen in der Runde
-- **Erwachsenensocken aus Worsted:** etwa 32-40 Maschen
-- **Erwachsenensocken aus Fingering:** etwa 60-72 Maschen
-
-Pulloverteile variieren zu stark für eine einzige nützliche Spanne. Genau darum geben Anleitungen Maschenzahlen nach Größe an, und darum zählt maschenprobenbasiertes Rechnen, wenn du etwas änderst.
-
-Für all das ist der [Maschenanschlag-Rechner](/de/werkzeuge/maschenanschlag-rechner/) der schnellere Weg, sobald deine Maschenprobe bekannt ist.
+Der [Maschenanschlag-Rechner](/de/werkzeuge/maschenanschlag-rechner/) liefert daraus eine Basiszahl. Seine Rundung auf gerade Zahlen prüft weder Rippenmuster noch Mützenabnahmen, Fersenkonstruktion oder die Formgebung eines Kleidungsstücks.
 
 ## Top-down oder Bottom-up bei Pullovern
 
-Bei Bottom-up-Konstruktionen ist die Anschlagszahl meistens der Umfang am Saum oder Bündchen. Bei Top-down-Konstruktionen liegt der Anschlag am Halsausschnitt und ist viel kleiner.
+Bei einem Pullover von unten nach oben verwendest du das tatsächliche Saummaß oder die Maße des einzelnen Teils, nicht automatisch den Brustumfang. Bei einem Pullover von oben nach unten richtet sich der Anfang nach der Konstruktion des Halsausschnitts.
 
-Ein Bottom-up-Pullover aus Worsted-Garn mit 100 cm fertigem Brustumfang braucht bei 20 Maschen auf 10 cm etwa 200 Maschen am Saum. Eine Top-down-Version desselben Pullovers könnte am Hals mit 80 Maschen beginnen und von dort aus zunehmen.
+Ein gerader, in Runden gestrickter Körper mit 100 cm fertigem Saumumfang und 20 Maschen auf 10 cm am Saum ergibt 20 ÷ 10 × 100 = 200 Maschen vor musterspezifischen Anpassungen. 200 ÷ 2 = 100 cm. Das setzt genau diese Maschenprobe und Zahl am Saum voraus; es bestimmt weder die Halsmaschenzahl noch die Zahl für ein separates Vorder- oder Rückenteil.
 
-Gleiches fertiges Kleidungsstück, anderer Ausgangspunkt. Die Anleitung bestimmt, welche Rechnung gilt. Wenn du selbst entwirfst, entscheidet die Konstruktion, welche Zahl du zuerst berechnen musst.
+Eine andere Anschlagszahl allein ändert nicht die gesamte Pullovergröße. Prüfe auch Formgebung, Reihenprobe, Längen, Ärmel und Halsausschnitt.
 
 ## FAQ
 
 **Soll ich eine gerade oder ungerade Maschenzahl anschlagen?**
-Das hängt vom Muster ab. Glatt rechts ist es egal. Rippenmuster und Strukturmuster brauchen oft bestimmte Teilbarkeiten. 1x1-Rippen brauchen normalerweise eine gerade Zahl, 2x2-Rippen ein Vielfaches von 4 oder ein Vielfaches von 4 plus 2, wenn beide Kanten gleich aussehen sollen.
+Gewöhnliche 1x1-Rippen in Runden brauchen ein Vielfaches von 2, 2x2-Rippen ein Vielfaches von 4. In Reihen bestimmen die Kanten den Aufbau: 1x1 mit je einer rechten Masche am Anfang und Ende braucht 2n + 1; 2x2 mit je zwei rechten Maschen braucht 4n + 2. Separate Randmaschen kommen nur hinzu, wenn sie verlangt und nicht schon mitgezählt werden.
 
 **Was, wenn die Anleitung eine Anschlagszahl nennt, aber meine Maschenprobe nicht passt?**
-Die veröffentlichte Anschlagszahl ergibt dann eine andere Breite als geplant. Entweder triffst du die Maschenprobe der Anleitung oder du berechnest die Zahl mit deiner eigenen Maschenprobe neu.
+Die angegebene Zahl ergibt dann eine andere Breite. Erreiche die Maschenprobe der Anleitung oder beurteile die gesamte Anpassung, einschließlich Reihenprobe und Formgebung. Eine neue Anschlagszahl allein ist keine vollständige Größenanpassung.
 
 **Zählt der Anfangsknoten als Masche?**
-Beim Long-Tail-Anschlag ja. Bei vielen aufgestrickten Methoden ebenfalls. Beim Cable Cast-On ist der Anfangsknoten die erste Masche. Einige Methoden vermeiden ihn ganz. Folge der Mechanik der Anschlagmethode, die du verwendest.
+Bei den üblichen Long-Tail-, aufgestrickten und Cable-Anschlägen mit Anfangsknoten zählt der Knoten auf der Nadel als erste Masche. Andere Varianten verzichten darauf oder entfernen einen provisorischen Knoten. Folge der konkreten Methode.
 
 **Wie lang muss der Faden beim Long-Tail-Anschlag sein?**
-Grob die dreifache geplante Anschlagsbreite plus etwas Reserve zum Vernähen. Für 200 Maschen über 100 cm wären das ungefähr 300 cm Fadenende. Lieber zu lang als zu kurz; wenn der Faden mitten im Anschlag ausgeht, beginnst du neu.
+Ein Breitenfaktor ist nur eine Schätzung. [Purl Soho](https://www.purlsoho.com/create/long-tail-cast-on/)s Long-Tail-Anleitung empfiehlt etwa die 3,5-fache Breite: 100 × 3,5 = 350 cm. Plane zusätzlich Garn zum Vernähen oder für eine Naht ein. Garn, Spannung und Technik beeinflussen den Bedarf; das Beispiel mit 200 Maschen garantiert keine feste Fadenlänge.
 
 **Kann ich den Cable Cast-On für eine elastische Kante wie ein Sockenbündchen nutzen?**
-Nicht ideal. Cable Cast-On ist fester als Long-Tail und deutlich weniger elastisch. Für Sockenbündchen und alle Kanten, die über Fuß, Hand oder Kopf passen müssen, nimm Long-Tail mit größerer Nadel, German Twisted oder einen italienischen Anschlag.
+Der gewöhnliche Cable Cast-On ist wenig dehnbar. Teste, ob die Sockenöffnung über die Ferse passt. Ein Long-Tail-Anschlag mit genügend Abstand zwischen den Maschen, German Twisted oder ein geeigneter italienischer Anschlag sind Alternativen. Eine dickere Nadel allein garantiert keine Dehnbarkeit.
 
 **Wie schlage ich Maschen für Rundstrick an?**
-Schlage den kompletten Umfang in Maschen an, lege die Nadel flach hin, prüfe die Richtung der Maschen und schließe dann zur Runde. Randmaschen brauchst du nicht. Wenn du die kleine Lücke am Übergang schließen willst, schlage eine Masche extra an und nimm sie beim Schließen wieder weg, sodass die endgültige Maschenzahl stimmt.
+Verwende den fertigen Umfang und eine in Runden gemessene Maschenprobe, passe die Zahl ans Muster an und prüfe vor dem Schließen auf Verdrehungen. Gewöhnliches nahtloses Gestrick braucht keine seitlichen Randmaschen. Eine zusätzliche Verbindungsmasche schlägst du nur an und entfernst sie wieder, wenn die Methode es verlangt.
 
 **Meine Anleitung sagt "locker anschlagen". Wie locker ist locker?**
-Locker genug, dass die Anschlagkante genauso weit dehnt wie das gestrickte Stück. Praktisch heißt das: eine um eine oder zwei Stärken größere Nadel nur für den Anschlag verwenden oder eine elastischere Methode wie German Twisted wählen.
+Locker genug für die Öffnung und das Gestrick der Anleitung, ohne unerwünschte Wellen. Teste Methode und Maschenabstand; eine andere Nadelstärke ist ein Versuch, keine Garantie.

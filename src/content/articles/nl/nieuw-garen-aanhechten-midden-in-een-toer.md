@@ -2,6 +2,7 @@
 title: "Nieuw garen aanhechten midden in een toer"
 description: "Leer nieuw garen aanhechten tijdens het breien. Over overlap, Russian join, spit splice en magic knot, met voor- en nadelen."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 5
 tags:
@@ -18,130 +19,123 @@ translationKey: "join-new-ball-of-yarn"
 
 De oude bol is op. De nieuwe moet beginnen. De overgang moet netjes zijn in de afgewerkte stof en stevig genoeg om niet los te raken.
 
-De vier belangrijkste methodes zijn de overlapmethode (meest universeel, twee draadjes om weg te werken), Russian join (geen losse draadjes, iets dikker), spit splice of viltaanzet (bijna onzichtbaar, maar alleen voor viltbare wol) en magic knot (snel, maar met een knoop). De beste keuze hangt af van de [vezelsamenstelling](/nl/artikelen/garenvezels-vergeleken/) van je garen en hoeveel waarde je hecht aan zo min mogelijk draadjes wegwerken.
+Hier vergelijken we overlap met twee draden, Russisch aanhechten (Russian join), een viltverbinding en de magic knot. Ze zetten het garen op verschillende manieren vast en vragen om verschillende afwerking. Kies op basis van de [vezelsamenstelling](/nl/artikelen/garenvezels-vergeleken/), garenconstructie en gebreide stof.
 
 ## In één oogopslag
 
-| Methode      | Geschikt garen                | Draadjes wegwerken | Zichtbaarheid     | Beste voor                     |
-| ------------ | ----------------------------- | ------------------ | ----------------- | ------------------------------ |
-| Overlap      | Elk garen                     | 2                  | Laag na afwerking | Standaardkeuze, alle garens    |
-| Russian join | Getwijnd garen werkt het best | 0 losse draadjes   | Iets dikker punt  | Als je draadjes wilt vermijden |
-| Spit splice  | Viltbare dierlijke vezels     | 0                  | Bijna onzichtbaar | Niet-superwash wol             |
-| Magic knot   | Veel garens, met compromissen | 0                  | Knoop in de stof  | Alleen dikke/gevilte projecten |
+| Methode        | Geschikt garen                            | Draadjes wegwerken                | Zichtbaarheid                       | Beste voor                                  |
+| -------------- | ----------------------------------------- | --------------------------------- | ----------------------------------- | ------------------------------------------- |
+| Overlap        | Test de dikte met dubbele draad           | 2                                 | Een dubbele steek of strook         | Breiwerk dat extra dikte verdraagt          |
+| Russian join   | Garen dat een uiteinde binnenin vasthoudt | Uiteinden vastgezet in het garen  | Dikker gedeelte                     | Verbinden zonder knoop; test de constructie |
+| Viltverbinding | Garen dat werkelijk vilt                  | Geen bij een geslaagde verbinding | Afhankelijk van uitdunnen en vilten | Viltbaar garen zonder superwash             |
+| Magic knot     | Garen waarin deze knoop houdt             | 2 in de versie hieronder          | Er blijft een knoop                 | Als een knoop bij het werk past             |
 
 ## Methode 1: overlapmethode
 
-Meest universeel. Begin te breien met het nieuwe garen en laat van oud en nieuw een draadstaart hangen. Brei de eerste paar steken met het nieuwe garen, terwijl je de oude staart ernaast houdt. Laat de oude staart na een paar steken los. Werk beide uiteinden later weg.
+Overlap betekent hier dat je kort met het oude garen en de werkdraad van de nieuwe bol samen breit. De oude draad loslaten en alleen met de nieuwe beginnen is een andere variant.
 
-Werkt met elk garen, vraagt geen voorbereiding en kan midden in een toer of aan de rand. Nadeel: twee draadjes om weg te werken, en de overlappende steken kunnen iets dikker lijken tot de uiteinden zijn weggewerkt en de stof is [geblockt](/nl/artikelen/breiwerk-blocken-nat-stoom-spray/). Dit is de methode die de meeste breiers eerst leren, en het is de juiste keuze wanneer draadjes wegwerken je niet stoort.
+1. Stop zolang het oude garen nog genoeg lengte heeft voor de verbinding en een uiteinde om weg te werken. Laat ook aan het nieuwe garen een vrij uiteinde. Ongeveer 15 cm is een praktisch uitgangspunt, geen minimum dat voor elk garen volstaat.
+2. Houd de oude werkdraad en de werkdraad van de nieuwe bol samen. Laat het nieuwe losse uiteinde vrij. Brei één steek met beide draden, zoals in [het voorbeeld van Elizabeth Smith](https://elizabethsmithknits.com/2021/04/29/how-to-join-a-new-skein-of-yarn/).
+3. Laat het oude garen los en brei alleen verder met de draad van de nieuwe bol. Het oude uiteinde moet nog lang genoeg zijn om weg te werken. Trek de steken voorzichtig op dezelfde spanning als de omliggende steken.
+4. Brei in de volgende toer beide lussen van de dubbele steek samen als **één steek**, recht of averecht volgens het patroon. Het aantal steken blijft gelijk. Heb je meer steken met dubbele draad gebreid, behandel dan elk paar zo.
+5. Werk beide losse uiteinden weg. De dubbele draad vervangt die afwerking niet.
 
-Sommige breiers hechten liever aan het begin van een toer aan dan midden in de toer. De draadjes zitten dan aan de rand, waar je ze makkelijker in een naad kunt verbergen. Voor platte delen die later genaaid worden is dat het netst. Bij rondbreien is er geen rand, dus midden in de toer in het rond aanhechten is onvermijdelijk.
+Het dubbele gedeelte blijft dikker nadat de uiteinden zijn afgeknipt; [blocken](/nl/artikelen/breiwerk-blocken-nat-stoom-spray/) laat het niet gegarandeerd verdwijnen. Is het te dik, laat dan het oude garen los en brei de volgende steek alleen met de nieuwe werkdraad. Bewaar beide uiteinden voor de afwerking. Houd het nieuwe uiteinde vast om de eerste steken te stabiliseren, pas de spanning aan en werk de draadjes weg.
+
+Een naad kan een aanhechting aan de rand verbergen, maar een zichtbare rand of omkeerbaar werk kan haar juist laten zien. Midden in een toer aanhechten kan ook. Bij rondbreien kun je bij de beginmarkeerder of op een andere geschikte plek wisselen.
 
 ### Overlapdraadjes goed wegwerken
 
-Het wegwerken bepaalt of de overlapmethode blijft zitten. Slordig weggewerkte draadjes kunnen later loskomen, vooral in superwash-wol waar de vezels minder grip hebben.
+Maak eerst de losse steken gelijkmatig zonder het breiwerk samen te trekken. Kruis de uiteinden aan de verkeerde kant bij de opening voordat je ze door naburige steken wegwerkt, zonder het breiwerk strak te trekken. Rijg een uiteinde op een maasnaald en volg de bestaande draadloop door meerdere steken aan de verkeerde kant. Verander van richting door naburige steken; ga niet precies dezelfde weg terug, want dan trek je de afwerking weer los. Herhaal met het andere uiteinde. [Purl Soho laat routes voor verschillende steekpatronen zien](https://www.purlsoho.com/create/weaving-in-your-ends/).
 
-Rijg de draadstaart op een maasnaald. Werk aan de verkeerde kant van het breiwerk en ga door de achterkant van de steken, waarbij je af en toe de afzonderlijke draadjes van omliggende steken splitst in plaats van alleen over het oppervlak te lopen. Dat geeft frictie en houdt de staart beter vast. Werk ver genoeg dat de staart niet los kan trekken, verander één keer van richting en knip pas kort af nadat de stof zich heeft ontspannen.
-
-Bij superwash, gladde garens zoals zijde en bamboe, gemerceriseerd katoen en andere garens met weinig grip laat je langere draadstaarten en werk je verder door. De mechanische verankering moet dan al het werk doen.
+Behoud de rek. Door deeldraden steken is een optie bij geschikt garen, geen vereiste voor elke constructie. Bij glad garen zijn lengte en route extra belangrijk. Laat het breiwerk ontspannen, behandel het alleen volgens het wasvoorschrift en controleer de verbinding voordat je het overschot afknipt. Knip geen onbevestigd uiteinde vlak bij de aanhechting af.
 
 ## Methode 2: Russian join
 
-Geen uiteinden om weg te werken. De oude en nieuwe draadstaarten worden met een maasnaald terug door zichzelf gehaald, waardoor twee in elkaar grijpende lusjes ontstaan.
+Bij Russisch aanhechten verbind je twee lussen en steek je elk uiteinde vóór het breien terug door zijn eigen draad. De methode berust niet op vilten. Gebruik een dunne maasnaald die door het midden van het garen past zonder het te beschadigen.
 
-Rijg de oude draadstaart op een maasnaald. Steek ongeveer 5 cm terug door de draden van het oude garen, zodat er een lus aan het einde ontstaat. Doe hetzelfde met het nieuwe garen. Haak de twee lussen in elkaar als schakels voordat je aantrekt. Knip de staartjes kort af.
+1. Rijg het oude uiteinde op de naald. Vouw het terug en steek de naald in de lengte door het binnenste van de oude draad, naar het breiwerk toe. Houd een klein lusje open bij de vouw.
+2. [Knit Picks gebruikt ongeveer 5 cm](https://tutorials.knitpicks.com/russian-join/) binnenin, aangepast aan hoe glad het garen is. Trek de naald eruit en strijk het opgeschoven garen glad, maar sluit de lus nog niet.
+3. Rijg het nieuwe uiteinde op de naald en haal het **eerst door de oude lus**. Vouw het daarna terug en steek het over een vergelijkbare lengte door zijn eigen draad, richting de nieuwe bol. Nu zijn de lussen verbonden.
+4. Trek aan de uiteinden om de lussen te sluiten en strijk beide verdikkingen glad. Controleer of geen uiteinde eruit glijdt. Knip alleen het overschot buiten de ingestoken gedeelten af, niet de verbinding zelf.
+5. Brei normaal over de verbonden draad naar de nieuwe bol toe. Werk de steken in de volgende toer normaal; er komt geen steek bij. In een geslaagde verbinding zitten de uiteinden vast in het garen en blijven ze niet los in het breiwerk.
 
-Een vrij scherpe maasnaald helpt. Een stompe naald glijdt tussen de draadjes door in plaats van het garen in te gaan, en dat kan een zwakkere verbinding geven. De naald moet een oog hebben dat groot genoeg is voor het garen en een punt die in de draad kan prikken.
-
-Heel stevig, omdat de verbinding in het garen zelf zit. Het verbonden stuk is iets dikker, ongeveer twee lagen over 5 cm aan beide kanten, en dat zie je in heel dun garen. Getwijnd garen is het makkelijkst netjes te doorsteken; singles en sterk splijtend garen zijn lastiger op deze manier te verbinden.
-
-Goed voor breiers die draadjes wegwerken echt vervelend vinden en met getwijnd garen werken. Vanaf DK en dikker verdwijnt de extra dikte meestal in de afgewerkte stof.
-
-Bij fingering en Lace kan een Russian join zichtbaar zijn als een iets dikker punt, al maakt blocken de overgang vaak zachter.
+De constructie zegt meer dan een ondergrens van DK. Het garen moet het uiteinde kunnen opnemen en vasthouden. Lintgaren, open kettingconstructies en erg losse of gladde draden vragen een afzonderlijke beoordeling. Enkelvoudig garen is niet automatisch uitgesloten. Test in een proeflapje, ook met de toegestane verzorging. De verdikking kan zichtbaar blijven. Glijdt het uiteinde eruit of kun je het niet insteken, kies dan een methode waarbij je de draadjes in het breiwerk wegwerkt.
 
 ## Methode 3: spit splice of viltaanzet
 
-Werkt alleen met niet-superwash-wol en andere viltbare dierlijke vezels.
+Gebruik garen dat werkelijk vilt, bijvoorbeeld geschikte wol zonder superwash-behandeling. Alleen wol op het label is niet genoeg: behandeling, mengsel en constructie tellen mee. Superwash, katoen, linnen en acryl zijn niet geschikt voor deze viltverbinding. Neem niet aan dat een mengsel met dierlijke vezels betrouwbaar hecht.
 
-Laat de uiteinden ongeveer 7 tot 8 cm overlappen. Maak ze nat. De naam komt van de traditionele methode, maar water werkt prima. Rol de overlap stevig tussen je handpalmen. Wrijving plus vocht vilt de vezels aan elkaar en maakt een blijvende verbinding met heel weinig dikte en zonder draadjes.
+Voor de rechte overlap in [de uitleg van Purl Soho](https://www.purlsoho.com/create/wet-splice-aka-spit-splice/):
 
-Het resultaat kan bijna onzichtbaar zijn: geen duidelijke dikteverandering en niets om weg te werken. De beperking is duidelijk. Het werkt alleen met viltbaar garen. Katoen, acryl, superwash-wol, zijde, linnen en bamboe vilten niet. Als de verbinding niet sterk genoeg is, door te weinig wrijving of vocht, trek je hem weer los.
+1. Laat genoeg oud garen over om te werken zonder aan de laatste steek te trekken. Maak de laatste ongeveer 2,5–5 cm van beide uiteinden los; scheid bij getwijnd garen de deeldraden.
+2. Verwijder uit elk uiteinde wat vezels om de dikte te beperken. Houd genoeg over voor een aaneengesloten overlap en knip geen hele draad door.
+3. Bevochtig de voorbereide uiteinden met water en leg ze over elkaar, met het breiwerk en de nieuwe bol in tegengestelde richtingen.
+4. Wrijf de overlap tussen je handpalmen tot de vezels zich verbinden. Test voorzichtig; laat de verbinding los, brei haar dan niet als voltooide verbinding in het werk.
+5. Brei verder met de verbonden draad. Werk de steken in de volgende toer normaal. Een geslaagde verbinding neemt beide uiteinden op, zodat er daar geen losse draadjes zijn om weg te werken of af te knippen.
 
-Veel wolbreiers zweren erbij. Als je garen vilt, is het de moeite waard om te leren.
-
-Test eerst met twee korte restjes. Sommige garens die als wol aanvoelen zijn superwash-behandeld of gemengd met vezels die vilten tegenhouden. Een kleine test is beter dan halverwege een trui ontdekken dat je verbindingen falen.
+Probeer eerst restjes en een gebreid proeflapje, ook met het toegestane wassen en drogen. Een lichte trektest controleert de eerste hechting, niet de blijvende duurzaamheid. Dikte en zichtbaarheid hangen af van voorbereiding en garen.
 
 ## Methode 4: magic knot
 
-Laat oud en nieuw garen overlappen. Knoop het oude garen om het nieuwe met een eenvoudige knoop, en knoop daarna het nieuwe om het oude. Schuif beide knopen naar elkaar toe tot ze elkaar raken en vastzetten. Knip de staartjes kort af.
+De magic knot bestaat uit twee overhandse knopen, elk rond de andere draad, die je naar elkaar toe trekt. Laat genoeg lengte om te knopen en in deze versie ook om de uiteinden later weg te werken.
 
-Snel, stevig wanneer hij goed gelegd is, en geen draadjes om weg te werken. Maar er zit een knoop in de stof. Zelfs een strakke magic knot maakt een klein hard puntje dat je in dunne stof kunt voelen en dat met de tijd naar de voorkant kan werken. In gladde garens zoals zijde of bamboe kunnen knopen losglijden. Veel breiers vermijden knopen in kleding helemaal.
+1. Leg de draden naast elkaar, met de losse uiteinden in tegengestelde richtingen.
+2. Haal het oude uiteinde over en onder de nieuwe draad. Kruis het over zijn eigen lange draad tot een lus, haal het uiteinde van onderaf door die lus en trek de knoop rond de nieuwe draad aan.
+3. Herhaal dezelfde over–onder-volgorde met het nieuwe uiteinde rond de oude draad.
+4. Trek aan de lange draden naar het breiwerk en de nieuwe bol, **niet aan de uiteinden**, totdat de knopen tegen elkaar schuiven. Trek aan en controleer of ze niet wegglijden.
+5. Brei verder met de nieuwe werkdraad en plaats de knoop waar mogelijk tussen de steken. Werk de volgende steken normaal; de knoop is geen extra steek. Bewaar beide uiteinden en werk ze weg vóór het afknippen, een optie uit [de uitleg van YarnThrift](https://yarnthrift.com/how-to-join-yarn-using-the-magic-knot-crochet-tutorial/).
 
-Het best voor dikke stoffen waarin een knoop verdwijnt, zoals bulky dekens of gevilte projecten. Niet voor kleding of fijn werk.
+Sommige versies knippen de uiteinden meteen vlak bij de knoop af. Dan hangt de zekerheid van de knoop af; dat is niet de afwerking die we hier uitleggen. [Nimble Needles wijst op knopen die in glad garen losraken](https://nimble-needles.com/tutorials/joining-yarn-with-a-magic-knot-in-knitting/). Een trektest geeft geen levenslange garantie. De knoop kan ook in dik breiwerk zichtbaar of voelbaar blijven. Kies hem wanneer je dat accepteert: knopen zijn niet altijd verboden in kleding en niet automatisch geschikt voor dekens of viltwerk.
 
 ## De juiste methode kiezen
 
-Voor de meeste situaties is de overlapmethode met weggewerkte uiteinden het veiligst en het meest algemeen bruikbaar. Werkt met elk garen, geeft na de afwerking een schoon resultaat en vraagt geen speciale techniek.
-
-Voor niet-superwash-wol geeft de spit splice het netste resultaat. Het kost oefening om druk en vocht goed te krijgen, maar zodra het klikt, is de verbinding snel en bijna onzichtbaar.
-
-De Russian join past bij breiers die draadjes echt willen vermijden en werken met getwijnd garen vanaf DK-dikte.
-
-Magic knot is snel, maar het blijft een compromis. Gebruik hem vooral in dikke oppervlakken waar de knoop verdwijnt, of in werk dat later gevilt wordt.
+Kies op basis van het proeflapje: overlap geeft dubbele draad en twee uiteinden om weg te werken; Russian join zet ze in het garen vast maar verdikt het; een viltverbinding vraagt een betrouwbare hechting; magic knot laat een knoop achter. Alleen met de nieuwe draad beginnen en beide uiteinden wegwerken is een alternatief als dubbele steken te dik worden. Geen methode past bij elk garen en project.
 
 ## Wanneer hecht je aan?
 
-Als je vooruit kunt plannen, heb je opties. Kom je in de buurt van het einde van een bol, meet dan het resterende garen langs de breedte van je werk. Een grove vuistregel: is het resterende garen ongeveer vier keer de breedte van de toer die je gaat breien, dan heb je ongeveer genoeg voor één toer. Het is niet exact, omdat averechte steken en structuurpatronen anders garen gebruiken, maar het is nauwkeurig genoeg om een nette plek te kiezen.
+Plan de verbinding voordat het oude uiteinde te kort is om te hanteren en weg te werken. Resterende garenlengte vergelijken met de breedte voorspelt niet betrouwbaar een hele toer in elk steekpatroon. Wil je aan de rand aanhechten en twijfel je of het garen genoeg is voor de volgende toer **plus een af te werken uiteinde**, wissel dan vóór die toer.
 
-Heb je nog net genoeg voor één toer, hecht dan aan het begin van de volgende toer aan zodat de draadjes aan de rand zitten.
-
-Bij tricotsteek in het rond kun je aanhechtingen beter laten verspringen, zodat ze niet allemaal op hetzelfde punt vallen. De aanhechting telkens een paar steken opschuiven voorkomt een zichtbare kolom met net iets andere structuur.
+Bij rondbreien kun je de aanhechtingen over minder zichtbare plekken verdelen in plaats van alle verdikkingen boven elkaar te plaatsen. Dat verandert de plaats, niet de dikte of sterkte.
 
 ## Handgeverfd garen tussen bollen wisselen
 
-Handgeverfde bollen kunnen van elkaar verschillen, zelfs binnen hetzelfde verfbad. Als je abrupt van de ene bol naar de andere gaat, kan er een duidelijke kleurgrens ontstaan.
+Handgeverfde bollen kunnen ook binnen hetzelfde verfbad verschillen. [Malabrigo adviseert bijvoorbeeld bollen Rios af te wisselen](https://malabrigoyarn.com/yarns/rios) om kleurverschillen te verdelen. Dat garandeert geen onzichtbare overgang en verwijdert niet elke ophoping van kleur.
 
-Begin je een nieuwe bol in een handgeverfd project, wissel dan een paar toeren af tussen de oude en de nieuwe bol. Veel breiers doen twee toeren van de ene bol, dan twee toeren van de andere. Laat het ongebruikte garen losjes langs de zijkant meelopen. Zo wordt het kleurverschil een overgangszone in plaats van een harde lijn.
-
-Bij sterk gemêleerd handgeverfd garen helpt dezelfde truc ook tegen pooling. Twee bollen samen gedragen zich anders dan elke bol afzonderlijk.
+Brei heen en weer twee toeren met de oude bol en twee met de nieuwe. Beide draden komen dan terug bij dezelfde rand. Laat de rustende draad zonder spanning langs die rand meelopen en vang hem bij de wissel op. Herhaal en beoordeel de overgang; laat een uiteinde over om weg te werken wanneer je met de oude bol stopt. Dit is een voorbeeld voor plat breiwerk. In het rond loopt het garen langs het gekozen wisselpunt, niet langs een zijrand. Verschillende verfbaden kunnen zichtbaar verschillend blijven.
 
 ## Fabrieksknopen in een bol
 
-Soms zit de knoop al in de bol. Producenten kunnen garen tijdens het winden verbinden wanneer een draad breekt, en die knoop kom je midden in je project tegen.
-
-Brei niet over de knoop heen. Knip het garen bij de knoop door, behandel de twee delen als aparte bollen en gebruik de aanhechtmethode die bij je garen past. Een kleine knoop in afgewerkt breiwerk leest als een fout, ook als hij niet losraakt. Fabrieksknopen bestaan, vooral in massaproductie.
+Controleer een knoop voordat je eroverheen breit. Is de constructie of stevigheid onzeker, verwijder hem dan en verbind het garen opnieuw op een manier die bij het werk past. Houd aan beide kanten genoeg lengte over en haal zo nodig iets uit. Een fabrieksknoop bewijst niet dat alle knopen wel of niet bij jouw breiwerk passen.
 
 ## Wanneer garen midden in een steek breekt
 
-Stop. Een half gebreide steek kan terug op de linkernaald. Behandel de breuk als een gewone aanhechting: laat een draadstaart aan het gebroken uiteinde, hecht nieuw garen aan met je gekozen methode en ga verder waar je was.
+Stop en zet de steek veilig. Zit de oude lus nog op de linkernaald, laat haar daar en haal de onvolledige nieuwe lus uit. Is de oude steek eraf gegleden, haal haar dan eerst op; een gebroken draadeind is geen hele steek.
 
-Zijn de uiteinden te kort om weg te werken, haal dan een paar steken of één toer terug tot je genoeg lengte hebt om mee te werken. Leg geen klein noodknoopje midden in de steek.
-
-Breekt het garen op meerdere plekken, controleer dan de hele bol. Oud garen, zonbeschadigd garen of een beschadigde bol kan meerdere zwakke plekken hebben. Als het garen nieuw gekocht is, kan terugbrengen of reclameren redelijk zijn.
+Haal genoeg uit om een oud uiteinde te krijgen dat je kunt wegwerken. Hecht onbeschadigd garen aan en brei de steek opnieuw. Controleer het aantal steken. Breekt het garen steeds, onderzoek het dan en neem contact op met de verkoper over een mogelijk gebrek in plaats van ongecontroleerde zwakke stukken verder te verwerken.
 
 ## Aantekeningen over aanhechten
 
-Een simpele knoop leggen en doorgaan kan technisch, maar is meestal slechte praktijk. De knoop maakt een harde bobbel, kan loswerken en is bij inspectie zichtbaar.
-
-Laat draadstaarten lang genoeg dat je comfortabel een maasnaald kunt inrijgen. Te korte uiteinden maken wegwerken onnodig priegelig. Bij gladde garens zijn langere staarten veiliger.
-
-Waar je aanhecht hangt af van het project. Kleding met naden: hecht aan aan de rand, zodat de draadjes in de naad verdwijnen. Rondbreien: midden in de toer in het rond is onvermijdelijk. Vermijd het middenvoor van een trui als dat kan.
-
-Als het nieuwe garen net een andere tint heeft, bijvoorbeeld door een ander verfbad, wissel dan een paar toeren af voordat je volledig overstapt. Twee toeren oud, twee toeren nieuw, meerdere keren herhaald. Zo mengt de overgang in plaats van een scherpe lijn te maken.
+Aanhechten en afwerken horen bij elkaar. Bewaar de benodigde uiteinden en controleer beide kanten voordat je knipt. Bij omkeerbaar werk is geen kant automatisch verborgen. Probeer bij tintverschillen het afwisselen hierboven en beoordeel het resultaat zonder een perfecte overeenkomst te verwachten.
 
 ## FAQ
 
 **Kan ik een nieuwe kleur op dezelfde manier aanhechten als een nieuwe bol van dezelfde kleur?**
-Meestal wel, maar een overlap kan één of twee steken geven waarin de kleuren licht mengen. Voor scherpe kleurwissels hecht je de nieuwe kleur liever aan de rand van de toer aan en werk je de draadjes aan de achterkant binnen het bijpassende kleurvlak weg. Spit splice past niet bij kleurwissels, omdat hij de twee kleuren zichtbaar mengt.
 
-**Wat als mijn garen te splijtend is voor Russian join?**
-Gebruik dan de overlapmethode. Russian join heeft samenhangende draadjes nodig waar de naald doorheen kan prikken. Singles, los getwijnde garens en erg pluizige garens houden deze verbinding minder goed.
+Voor een wissel bij een bepaalde steek stop je de oude kleur vóór die steek en brei je haar alleen met de nieuwe werkdraad. Bewaar beide uiteinden, pas de spanning aan en werk ze weg in hun eigen kleurvlakken. De wissel hoeft niet aan de rand te zitten. Dubbele draden mengen kleuren in de werkelijk dubbel gebreide steken, niet automatisch gedurende één of twee hele toeren. Gevilte overlap mengt vezels; ook Russian joins en knopen zijn moeilijk precies bij één steek te plaatsen. Deze verbindingen voorkomen op zichzelf geen verspringing van strepen in het rond.
+
+**Wat als mijn draad te gemakkelijk splijt voor een Russian join?**
+
+Kun je het uiteinde niet in dit garen insteken en vasthouden, gebruik dan overlap of begin met de nieuwe draad en werk beide uiteinden weg. Het aantal deeldraden beslist niet alleen; constructie, wrijving en proeflapje tellen mee.
 
 **Is de aanhechting zichtbaar aan de verkeerde kant?**
-Een beetje. Zelfs een nette spit splice kan een klein bobbeltje hebben waar de verbinding zit. Overlapverbindingen tonen een dubbel stuk garen tot de draadjes zijn weggewerkt en afgeknipt. Een Russian join kan een verdikte sectie vormen, en ook andere verbindingen kunnen zichtbaar blijven. Hoe zichtbaar ze zijn hangt af van het garen, de vezel, de stekenverhouding, het steekpatroon, de verbindingsmethode en de plaatsing. Als het uiterlijk belangrijk is, test je de verbinding en plaats je die waar mogelijk op een minder opvallende plek.
+
+De verbinding kan aan beide kanten zichtbaar zijn. Afknippen verwijdert niet de dubbele draad in de overlap of de verdikking van de Russian join. Een viltverbinding hangt af van de voorbereiding en een knoop blijft zitten. Test garen, stekenverhouding, steekpatroon en plaatsing in je werk.
 
 **Hoe werk ik draadjes weg in ajour of andere open stof?**
-Dat is lastiger, omdat er minder stof is om de draadstaarten in te verbergen. Werk de staart langs een stabiele steekkolom aan de achterkant, dus niet langs de omslagen, en splits onderweg voorzichtig enkele draadjes. Bij heel open ajour plan je aanhechtingen liever aan de rand dan midden in het motief.
+
+Volg een dicht gedeelte van het steekpatroon in plaats van het uiteinde over open omslagen te spannen. Een boord of naad kan ruimte bieden, maar een open rand kan de uiteinden ook laten zien. Test de route en rek op een proeflapje; door deeldraden steken is alleen een optie bij geschikt garen.
 
 **Waarom komt mijn weggewerkte draadstaart steeds los?**
-Meestal is de staart te kort, zijn er te weinig richtingswissels, of heeft het garen weinig grip, zoals superwash, zijde of gladde synthetische vezels. Werk verder door, voeg een zigzag toe en splits draadjes in plaats van alleen over het oppervlak te lopen. Is het garen erg glad, laat dan een langere staart en controleer de uiteinden opnieuw na het blocken.
+
+Controleer lengte, route en spanning van het weggewerkte gedeelte. Werk een te kort of glijdend uiteinde opnieuw weg over een langere route door naburige steken. Test glad garen met de toegestane verzorging voordat je meer afknipt. Wassen of blocken vervangt het vastzetten niet.

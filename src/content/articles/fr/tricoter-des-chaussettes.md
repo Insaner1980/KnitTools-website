@@ -2,6 +2,7 @@
 title: "Tricoter des chaussettes. Anatomie d'un modèle"
 description: "Comprendre les parties d'une chaussette tricotée : bord, jambe, talon, gousset, pied, pointe, construction et choix du fil."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 13
 tags:
@@ -20,11 +21,13 @@ Les chaussettes impressionnent parce qu'elles utilisent des techniques qu'on ne 
 
 Une chaussette classique tricotée du haut vers la pointe a un bord, une jambe, un rabat de talon, un tournant de talon, un gousset, un pied et une pointe. Les chaussettes toe-up utilisent la même anatomie dans un autre ordre. Comprendre ces pièces rend n'importe quel modèle de chaussettes beaucoup moins mystérieux.
 
+Ce guide aide à lire les sections. Pour les rangs du tournant, le façonnage et la fermeture propres à ta taille, suis un modèle complet.
+
 ## Les parties d'une chaussette
 
 La plupart des chaussettes ajustées sont construites avec les mêmes zones, même quand la méthode change :
 
-**Bord.** Le haut, généralement en côtes 1/1 ou 2/2 pour tenir sur la jambe et empêcher la chaussette de tomber. Souvent 2,5 à 5 cm pour des socquettes, plus long pour des chaussettes mi-mollet ou hautes. Les côtes ne sont pas seulement décoratives. Un bord en jersey roulerait.
+**Bord.** Le haut, généralement en côtes 1/1 ou 2/2 pour tenir sur la jambe et empêcher la chaussette de tomber. Un bord de 2,5 à 5 cm est une possibilité ; choisis sa hauteur selon le modèle. Les côtes ne sont pas seulement décoratives. Un bord en jersey roulerait.
 
 **Jambe.** Du bord au talon. Peut être en jersey, en côtes ou en motif. La longueur va de presque rien pour les socquettes à plusieurs centimètres sur les chaussettes mi-mollet, et davantage pour les chaussettes hautes. Les jambes à torsades, dentelle ou motifs qui se déplacent mettent le fil en valeur et cassent la longue portion de jersey.
 
@@ -34,19 +37,19 @@ La plupart des chaussettes ajustées sont construites avec les mêmes zones, mê
 
 **Pied.** Le tube qui couvre la semelle et le dessus du pied. Souvent jersey sur la semelle, motif qui continue sur le dessus. La longueur dépend de la mesure du pied, pas d'un nombre fixe de tours. Essaie la chaussette ou mesure en cours de route.
 
-**Pointe.** Façonnée avec des diminutions pour fermer le tube. Généralement terminée au point de grafting (Kitchener stitch, qui crée une fermeture invisible) ou par une fermeture froncée.
+**Pointe.** Depuis le haut, elle est façonnée par des diminutions ; depuis la pointe, on commence généralement par des augmentations. Une pointe travaillée depuis le haut peut être fermée au grafting (Kitchener stitch) ou en resserrant les dernières mailles, selon sa forme.
 
 ## Du haut vers la pointe ou de la pointe vers le haut
 
 Deux sens de construction. Le modèle décide lequel.
 
-**Du haut vers la pointe** commence en haut et se tricote vers les orteils. C'est l'approche traditionnelle. Monter les mailles au bord, tricoter la jambe, tourner le talon, relever les mailles de gousset, tricoter le pied, former la pointe, fermer au grafting.
+**Du haut vers la pointe** commence au bord. Dans un modèle à rabat, tricote le bord et la jambe en rond, puis le rabat et le tournant du talon en aller-retour. Relève ensuite les mailles du gousset et reprends en rond. Fais les diminutions du gousset, tricote le pied, diminue pour la pointe et ferme selon la méthode indiquée.
 
-Avantages : construction de talon très documentée, sens intuitif, et montage du bord en côtes assez tolérant. Un montage long-tail avec une aiguille une taille plus grosse fonctionne souvent bien. Inconvénients : utiliser le fil jusqu'au dernier mètre est plus difficile, parce que la pointe vient en dernier. Les essayages restent utiles, surtout une fois le talon et le gousset faits, mais si tu manques de fil près de la pointe, il n'y a pas de façon propre d'ajouter de la longueur sans défaire.
+Tu apprends les sections dans cet ordre. Vérifie que le montage passe par-dessus le talon en s’étirant et reste confortable autour de la jambe. Une aiguille plus grosse au montage ne garantit pas cette élasticité. Garde du fil pour les deux pieds et les deux pointes, travaillés en dernier.
 
-**De la pointe vers le haut** commence à la pointe et remonte vers le bord. Monter avec une méthode spéciale (Judy's Magic Cast On est la référence, le montage turc vient juste derrière), tricoter le pied, faire le talon, tricoter la jambe, rabattre avec un rabattage extensible comme Jeny's Surprisingly Stretchy Bind-Off ou un rabattage tubulaire cousu.
+**De la pointe vers le haut** commence par un montage fermé, comme Judy’s Magic Cast On ou le montage turc. Augmente jusqu’au nombre de mailles prévu pour le pied, tricote le pied puis suis la construction du talon choisie. Un talon à rabat tricoté depuis la pointe peut comporter des augmentations de gousset avant le tournant et le rabat. Termine par la jambe, le bord et un rabattage extensible.
 
-Avantages : tu peux essayer au fur et à mesure, utiliser presque tout le fil tout en réservant assez pour le rabattage choisi et pour rentrer l'extrémité, et la pointe est déjà fermée dès le départ. Un rabattage cousu ou tubulaire peut demander une queue nettement plus longue qu'un rabattage simple. Inconvénients : les talons toe-up sont des techniques différentes des talons top-down, le montage magique demande quelques essais pour être propre, et le rabattage extensible du bord demande de la pratique, sinon il peut sembler serré et pincé.
+Les deux constructions permettent des essayages. Depuis la pointe, tu peux adapter la hauteur de jambe au fil restant, mais répartis le fil entre les deux chaussettes et réserve de quoi rabattre et rentrer les fils sur chacune. Un rabattage cousu ou tubulaire peut nécessiter une longue extrémité. Certains talons fonctionnent dans les deux sens ; les explications d’un talon à rabat du haut vers le bas ne se lisent toutefois pas simplement à l’envers.
 
 Aucun sens n'est meilleur en soi. La plupart des personnes qui tricotent des chaussettes essaient les deux et choisissent leur préféré. Les modèles précisent le sens utilisé, et changer de sens oblige à retravailler le talon et le montage. En pratique, cela veut souvent dire choisir un autre modèle.
 
@@ -54,27 +57,34 @@ Aucun sens n'est meilleur en soi. La plupart des personnes qui tricotent des cha
 
 C'est la section qui crée le plus de variantes et d'avis dans le tricot de chaussettes.
 
-**Talon à rabat et gousset.** Le classique. Un rabat rectangulaire est tricoté en aller-retour sur la moitié des mailles, souvent sur un nombre de rangs proche du nombre de mailles du rabat. Le talon est ensuite tourné avec des rangs raccourcis sous le talon pour créer une forme creusée. Les mailles sont relevées le long des côtés du rabat pour créer le gousset, qui diminue ensuite jusqu'au tour du pied. Solide, bien ajusté, facile à renforcer. Beaucoup de modèles de premières chaussettes utilisent ce talon.
+**Talon à rabat et gousset.** Le rabat se tricote en aller-retour sur les mailles du talon, souvent la moitié des mailles de la chaussette. Les mailles du dessus du pied restent en attente sur une aiguille, un câble ou un fil. La largeur et le nombre de rangs dépendent du modèle et de la profondeur du talon ; autant de rangs que de mailles n’est pas une règle universelle. Le tournant forme le dessous avec des rangs raccourcis et des diminutions. Suis les points de retournement et les nombres de mailles de ce talon précis.
 
-Le rabat lui-même est souvent travaillé avec des mailles glissées. Glisse 1 maille à l'envers avec le fil derrière, tricote 1 maille endroit, répète. Les mailles glissées créent un tissu plus dense exactement là où les chaussettes s'usent d'abord. L'eye of partridge est une variante qui décale les mailles glissées un rang endroit sur deux pour une texture différente.
+Un rabat renforcé courant utilise cette répétition sur un **nombre pair de mailles**, avec l’endroit face à toi au départ :
 
-**Talon en rangs raccourcis.** Pas de rabat, pas de gousset. La forme est créée entièrement par des rangs raccourcis qui forment une coque. Plus rapide, utilisable dans les deux sens, et avec moins de mailles au total. L'ajustement est différent : moins de couverture au talon, une coque moins profonde. Les pieds avec un cou-de-pied haut trouvent parfois ce talon trop serré.
+1. Rang sur l’endroit : répète [glisser 1 maille comme pour la tricoter à l’envers, fil derrière l’ouvrage ; tricoter 1 maille endroit] jusqu’au bout. Tourne.
+2. Rang sur l’envers : glisse la première maille comme pour la tricoter à l’envers, fil devant l’ouvrage ; tricote toutes les autres à l’envers. Tourne.
 
-Les rangs raccourcis existent en plusieurs variantes. Le wrap and turn est traditionnel, mais laisse des enroulements à relever. Les rangs raccourcis allemands tirent la maille précédente pour créer une double maille, souvent plus nette. Les shadow wraps et les rangs raccourcis japonais sont d'autres options. Le choix change rarement l'ajustement ; il change surtout l'apparence de l'envers et le niveau de minutie de la technique.
+Les mailles du dessus du pied restent en attente sur les deux rangs. Le nombre de mailles ne change pas. Répète jusqu’à la hauteur ou au nombre de rangs du modèle et termine sur la face indiquée avant le tournant. La première maille glissée forme une longue maille de lisière, normalement une pour deux rangs. C’est le point du rabat, pas les explications du tournant. Le point œil-de-perdrix utilise une autre répétition avec des mailles glissées décalées.
 
-**Afterthought heel et autres.** Il existe beaucoup de variantes. L'afterthought heel se tricote à la fin : un fil provisoire est placé là où le talon ira, le pied est tricoté tout droit, puis ce fil est retiré pour tricoter le talon dans les mailles vivantes. C'est utile avec un fil autorayant quand tu ne veux pas qu'un rabat de talon interrompe les rayures. Chaque talon tombe un peu différemment. Pour une première paire, le talon à rabat et gousset est le plus tolérant et le mieux documenté.
+Après le tournant, relève les mailles sur les deux bords et tricote les mailles en attente du dessus du pied pour reprendre en rond. Additionne les mailles restantes du talon, les mailles relevées de chaque côté, celles du dessus du pied et les éventuelles mailles supplémentaires aux angles. Ces dernières doivent être supprimées ou intégrées aux diminutions du gousset. Une diminution simple de chaque côté du dessus du pied enlève deux mailles au total : quatre mailles deviennent deux. Conserve le motif du dessus et respecte l’espacement des diminutions et le nombre final prévu pour le pied, qui n’est pas forcément celui du montage.
+
+**Talon en rangs raccourcis.** Une version de base travaille en aller-retour sur une partie des mailles pendant que celles du dessus du pied restent en attente. Les mailles du talon sont ensuite réintégrées pour terminer la coque. Il n’y a ni rabat séparé ni gousset, mais certaines variantes ajoutent un gousset. La profondeur et l’ajustement dépendent du modèle ; un cou-de-pied haut peut demander plus de place.
+
+Le wrap and turn, les rangs raccourcis allemands, les shadow wraps et les rangs raccourcis japonais traitent les retournements différemment. Un enroulement se tricote avec sa maille au moment prévu par la méthode. Une double maille allemande compte toujours comme **une maille** : tricote ses deux brins ensemble comme une seule maille lorsque tu la retrouves. Ces boucles supplémentaires ne sont pas des augmentations ordinaires. Suis l’ordre de la méthode ; en changer peut déplacer le point de retournement.
+
+**Talon tricoté après le pied.** Dans la variante prévue avec un fil provisoire, tricote les mailles désignées du talon avec ce fil, remets-les sur l’aiguille gauche et retricote-les avec le fil principal avant de poursuivre le tube. Plus tard, place sur des aiguilles les mailles vivantes au-dessus et au-dessous du fil provisoire avant de le retirer. Tricote le talon et ferme-le selon le modèle. Cette variante porte aussi les noms peasant heel et forethought heel. Un véritable afterthought heel peut nécessiter de couper dans un tube non marqué et demande ses propres explications. Le tube peut préserver la succession des rayures d’un fil autorayant.
 
 ## Fil pour chaussettes
 
-Le fil à chaussettes est presque une catégorie à part. Il est souvent fingering, catégorie CYC 1, en mélange laine et nylon. Les mélanges 75/25 et 80/20 sont courants. La laine apporte chaleur et ressort. Le nylon ajoute de la résistance au talon et à la pointe, là où le frottement est le plus fort. Les chaussettes en pure laine peuvent être très agréables, mais elles demandent souvent plus de soin à porter et à laver.
+Le fil à chaussettes désigne un usage, pas une seule épaisseur. Le fingering est une possibilité, mais tous les fils de cette épaisseur ne conviennent pas aux chaussettes soumises à l’usure. La laine peut apporter chaleur et ressort ; le polyamide peut améliorer la résistance au frottement. [DROPS Fabel](https://www.garnstudio.com/yarn.php?show=drops-fabel&cid=8) contient par exemple 75 % de laine et 25 % de polyamide. Fibres, torsion, densité du tricot et ajustement influencent l’usure ; la composition ne garantit pas une durée de vie précise.
 
-Le fingering est standard parce qu'il donne un tissu fin et confortable qui rentre dans les chaussures. Le DK ou le worsted donne des chaussettes plus épaisses, qui demandent des chaussures plus larges. Certaines personnes aiment les grosses chaussettes d'intérieur en bulky, mais ce sont des chaussettes de détente, pas des chaussettes de tous les jours dans des chaussures.
+Le fingering peut donner un tricot fin qui entre dans les chaussures. Le DK, le worsted et le bulky peuvent donner des chaussettes plus épaisses ou d’intérieur. Vérifie l’épaisseur du tricot et la place dans les chaussures.
 
-**Le superwash est courant** parce que les chaussettes se lavent souvent et que beaucoup de personnes veulent un lavage en machine. Le non-superwash est possible, mais cela veut dire soin plus doux et attention à la température de l'eau et à l'agitation.
+**L’entretien suit l’étiquette.** Le traitement superwash n’autorise pas le même lavage en machine ou séchage en tambour pour tous les fils. Lave et sèche l’échantillon et les chaussettes selon les consignes du fabricant.
 
 **Fils teints à la main et autorayants** : ils forment un monde à part. Les écheveaux teints à la main peuvent varier légèrement entre bains, parfois même entre deux écheveaux du même bain, ce qui compte si les deux chaussettes doivent se ressembler. Certaines personnes alternent les écheveaux tous les quelques tours pour fondre les variations. Les fils autorayants sont teints en longues sections de couleur qui créent les rayures pendant le tricot, mais les rayures ne s'alignent que si les deux chaussettes commencent au même point du rapport de couleur.
 
-**Métrage :** beaucoup de modèles de chaussettes adultes en fingering utilisent environ 320 à 365 m, et beaucoup de pelotes de fil à chaussettes contiennent environ 365 à 400 m. Grands pieds, jambes plus longues, torsades et jacquard dense mangent vite cette marge. Vérifie le métrage du modèle avant de supposer qu'une seule pelote suffira.
+**Métrage :** vérifie la quantité du modèle pour ta taille, ta hauteur de jambe et ton fil, ainsi que la mention d’une chaussette ou d’une paire. Les pelotes n’ont pas toutes le même format : Fabel contient environ 205 m pour 50 g ; deux pelotes donnent donc environ 410 m pour 100 g. C’est la quantité achetée, pas une garantie pour toutes les paires. Prévois aussi le fil de l’échantillon et celui utilisé pour aligner les rayures.
 
 ## Aiguilles pour chaussettes
 
@@ -82,11 +92,11 @@ Ce sont de petits tubes, donc il te faut des aiguilles doubles pointes (jeu de 4
 
 Les aiguilles doubles pointes sont la méthode traditionnelle. Les mailles sont réparties sur 3 ou 4 aiguilles, et tu tricotes avec la quatrième ou la cinquième. Les pointes peuvent accrocher dans le canapé ou dans un sac. Certaines personnes adorent le rythme, d'autres trouvent ça encombrant.
 
-Le magic loop utilise une longue aiguille circulaire, souvent 80 cm ou plus, avec le câble tiré pour diviser les mailles. Une seule aiguille à suivre, moins d'échelles aux jonctions si tu fais attention, mais la gestion du câble doit devenir naturelle. Beaucoup de modèles peuvent se tricoter en magic loop ou sur aiguilles doubles pointes si tu comprends comment les mailles sont réparties.
+Le magic loop utilise une longue aiguille circulaire, souvent d’environ 80 cm ou plus, **mesurée d’une pointe à l’autre**. C’est la longueur, pas le diamètre. Le câble souple est tiré entre les groupes de mailles. Évite d’étirer les jonctions ; la méthode ne supprime pas automatiquement les colonnes de mailles lâches.
 
-Deux circulaires est une solution intermédiaire. Une aiguille porte les mailles du dessus, l'autre celles du dessous. Moins de manipulation d'aiguilles qu'avec les doubles pointes, moins de câble à gérer qu'avec le magic loop.
+Avec deux aiguilles circulaires de même diamètre, chacune porte une partie des mailles. Travaille ce groupe avec **les deux pointes de la même circulaire**, tandis que l’autre reste au repos. Repère les limites du talon et du dessus du pied, même si elles ne coïncident pas avec les changements d’aiguille.
 
-Taille d'aiguille courante pour un fil à chaussettes fingering : 2,25 à 3,25 mm, selon ta tension. [Tricote un échantillon](/fr/articles/tricoter-un-echantillon-etape-par-etape/) pour trouver la tienne. Le tissu de chaussette doit être plus dense qu'un jersey ordinaire, parce que les chaussettes subissent frottements et poids du corps. Beaucoup de modèles en fingering visent environ 28 à 36 mailles pour 10 cm.
+Choisis le diamètre qui permet d’obtenir le nombre de mailles et de tours du modèle et un tricot adapté aux chaussettes. [Tricote un échantillon](/fr/articles/tricoter-un-echantillon-etape-par-etape/) en rond, lave-le et sèche-le selon l’étiquette, puis mesure-le sans l’étirer. Un diamètre fixe ou la tension indiquée sur la pelote ne détermine pas l’ajustement de toutes les chaussettes.
 
 ## Compétences à avoir avant de commencer
 
@@ -97,7 +107,7 @@ Les chaussettes réunissent plusieurs techniques :
 - **Construction du talon** (rangs raccourcis ou rabat de talon)
 - **Relever des mailles** (pour le gousset, expliqué dans le [guide pour relever des mailles](/fr/articles/relever-des-mailles/))
 - **Diminuer** (façonnage de la pointe : 2 m. ens. à l'endroit et ssk)
-- **Point de grafting / Kitchener stitch** (fermeture de la pointe, ou pointe froncée comme option plus simple)
+- **Point de grafting / Kitchener stitch** (fermeture de la pointe, ou fermeture prévue pour la forme de pointe)
 
 Si tu as déjà [tricoté un bonnet](/fr/articles/tricoter-un-bonnet/) en rond et que tu sais faire des diminutions simples, tu as déjà la plupart de ce qu'il faut. Le talon est la nouveauté, et cela vaut la peine de l'apprendre en vidéo la première fois. Les explications écrites d'un talon peuvent sembler opaques tant qu'on n'a pas vu le mouvement physique. Les rangs raccourcis ou les rangs de tournant de talon sont l'endroit où beaucoup de premières chaussettes coincent.
 
@@ -105,9 +115,13 @@ Si tu as déjà [tricoté un bonnet](/fr/articles/tricoter-un-bonnet/) en rond e
 
 Suis la mesure demandée par le modèle. Le tour de pied standard se mesure autour de sa partie la plus large, généralement au niveau de l'avant-pied. Mesure la longueur du pied depuis l'arrière du talon jusqu'au bout de l'orteil le plus long. Certaines constructions demandent aussi une diagonale talon–cou-de-pied ou une autre mesure spécifique. La plupart des modèles donnent les tours finis de chaussette et te laissent choisir selon le tour du pied.
 
-Le tour fini de la chaussette est en général plus petit que le pied : c'est l'aisance négative, souvent autour de 10 % pour une chaussette simple et élastique. Le tissu doit épouser le pied pour rester en place. Une chaussette du même tour que le pied peut glisser. Une chaussette trop petite sera inconfortable et s'usera plus vite.
+Mesure aussi la jambe à l’emplacement du bord et du haut de la chaussette, surtout pour les modèles hauts. Le bord doit pouvoir s’étirer pour passer le talon.
 
-La longueur du pied dépend de la forme de pointe, car toutes les pointes n'ajoutent pas la même longueur. Pour beaucoup de pointes en coin, les diminutions commencent environ 5 cm avant la longueur finale souhaitée. Essaie la chaussette, ou compare-la à une chaussette qui te va bien, avant de commencer la pointe.
+Le tour fini est la circonférence du tricot au repos, pas le tour du pied ni la largeur de la chaussette posée à plat. Une chaussette extensible comporte souvent une aisance négative, dont la valeur dépend du fil, du point et de la personne. Si le modèle prévoit 10 % d’aisance négative, multiplie le tour du pied par 0,90. Vérifie le nombre de mailles avec l’échantillon lavé et recalcule le tour fini après arrondi. En rond, les côtes 1/1 demandent un multiple de 2 mailles et les côtes 2/2 un multiple de 4. Le motif de jambe et le talon peuvent imposer d’autres contraintes. Ne modifie pas le montage sans vérifier les sections suivantes.
+
+Sur une chaussette commencée en haut, mesure le pied depuis **l’arrière du talon**, pas depuis la fin du gousset ou du rabat. Commence la pointe à la longueur finale souhaitée moins la longueur ajoutée par la pointe du modèle. Environ 5 cm n’est qu’une réserve possible ; les tours de façonnage et leur hauteur déterminent cette longueur. Depuis la pointe, la mesure comprend déjà celle-ci. Commence le gousset et le talon aux endroits indiqués pour cette construction. Longueur et circonférence sont deux choix distincts.
+
+Suis les sections de la pointe, les tours de diminutions et les tours intermédiaires. Quatre diminutions simples enlèvent quatre mailles par tour. Arrête-toi au nombre et à la répartition indiqués : une pointe en grafting comporte généralement deux groupes égaux de mailles vivantes ; une pointe froncée demande le petit nombre final prévu pour cette forme. Le grafting relie des mailles vivantes, ce n’est pas un rabattage ordinaire. Ne change pas de fermeture à un nombre arbitraire de mailles.
 
 ## Le syndrome de la deuxième chaussette
 
@@ -118,19 +132,19 @@ Certaines personnes contournent ça en tricotant deux chaussettes à la fois, su
 ## FAQ
 
 **Les chaussettes sont-elles difficiles à tricoter ?**  
-Les techniques séparées ne le sont pas. Le talon demande de suivre attentivement le modèle la première fois. Après une paire, cela devient routinier. Beaucoup de personnes trouvent les chaussettes méditatives une fois le modèle intégré.
+Les chaussettes réunissent plusieurs techniques. Le talon demande une lecture attentive, et l’aisance vient avec la pratique. Il n’a pas à devenir routinier dès la première paire.
 
 **Peut-on tricoter des chaussettes sur aiguilles droites ?**  
-Pas vraiment. Les chaussettes sont des tubes. Tu peux tricoter des pièces à plat et les coudre, mais les coutures créent des surépaisseurs inconfortables à l'intérieur de la chaussure. La construction en rond est fortement recommandée. Si les aiguilles droites sont ta seule option, choisis plutôt un autre premier projet.
+Oui, avec un modèle conçu pour être tricoté à plat puis cousu. La position et l’épaisseur de la couture influencent le confort dans la chaussure. Un modèle en rond doit être adapté pour être tricoté à plat.
 
 **Comment savoir quelle taille tricoter ?**  
-Suis la mesure demandée par le modèle. Le plus souvent, il s'agit du tour de pied à sa partie la plus large, généralement au niveau de l'avant-pied. Certaines constructions demandent aussi une diagonale talon–cou-de-pied ou une autre mesure spécifique. Lorsque le modèle choisit la taille d'après le tour de pied, le tour fini de la chaussette est souvent environ 10 % plus petit pour créer une aisance négative. Si ton pied tombe entre deux tailles, suis les indications d'aisance et de construction du modèle.
+Mesure le tour de l’avant-pied et la longueur de l’arrière du talon au plus long orteil. Compare ces mesures aux mensurations, dimensions finies et indications d’aisance du modèle. La pointure ou l’âge ne suffit pas à déterminer la largeur du pied ou le tour de jambe. Entre deux tailles, vérifie l’élasticité et la place pour le talon et le cou-de-pied plutôt que de choisir automatiquement la plus petite.
 
 **Mes chaussettes s'usent au talon.**  
-Renforce le rabat de talon avec un point de mailles glissées : glisse une maille sur deux sur les rangs endroit, puis tricote les rangs envers normalement. Cela double le fil à la surface. Certaines personnes tiennent aussi un fil de renfort avec le fil principal pendant la section du talon. Il existe des fils de renfort en nylon faits pour ça, souvent vendus dans des couleurs proches des fils à chaussettes courants.
+Les mailles glissées laissent de courts fils flottants derrière les mailles ; elles ne doublent pas uniformément le fil sur toute la surface. Utilise la répétition complète ci-dessus ou celle du modèle. Un fil de renfort est une autre possibilité : vérifie son entretien et son effet sur l’épaisseur et la tension du tricot.
 
 **Que faire s'il ne reste plus assez de fil avant la pointe ?**
-Dans une chaussette du haut vers la pointe, la pointe est le pire endroit pour manquer de fil. Les options : défaire et raccourcir la jambe, passer à une couleur contrastante pour la pointe, ou accepter des chaussettes un peu courtes. La construction toe-up facilite la gestion du reste de fil, parce que la jambe vient en dernier : tu peux utiliser presque tout le fil, mais réserve assez pour le rabattage choisi et pour rentrer l'extrémité. Un rabattage cousu ou tubulaire peut demander une queue plus longue.
+Conserve la longueur prévue du pied et de la pointe. Utilise un fil contrastant compatible ou défais la chaussette pour la retricoter avec une jambe plus courte ; raccourcir le pied peut compromettre l’ajustement. Depuis la pointe, tu peux arrêter la jambe plus tôt si tu as réservé le fil pour la deuxième chaussette et les deux finitions.
 
 **Les deux chaussettes doivent-elles correspondre exactement ?**
 Non. Les chaussettes fraternelles, avec le même modèle mais un ordre de couleurs différent dans un fil chiné ou teint à la main, sont normales. Beaucoup de personnes les préfèrent à la bataille pour faire commencer les rayures au même endroit. Chercher une paire parfaitement identique est une préférence, pas une règle.

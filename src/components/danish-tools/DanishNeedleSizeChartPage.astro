@@ -16,11 +16,11 @@ const faqs = [
   },
   {
     q: "Er pindestørrelser ens hos alle mærker?",
-    a: "Det burde de være. I praksis er der små forskelle, især i billige sæt eller på ældre pinde. Hvis din strikkefasthed bliver ved med at ramme forkert, så mål pinden.",
+    a: "Ikke altid. Samme US-nummer kan betyde forskellige millimetermål hos forskellige mærker eller i forskellige tabeller, især US 17 og 19. Tjek millimetermærkningen, eller mål skaftet med en pindemåler, og strik en strikkeprøve.",
   },
   {
     q: "Hvad med rundpinde?",
-    a: "Størrelsen fungerer på samme måde som ved jumperpinde. Størrelsen beskriver spidsens diameter, ikke wirens længde. En rundpind på 4,5 mm er stadig en pind på 4,5 mm, uanset om wiren er kort til en hue eller lang til magic loop.",
+    a: "Størrelsen fungerer som ved jumperpinde. Den angiver diameteren på det lige skaft bag den tilspidsede spids, ikke pindens eller wirens længde. En rundpind på 4,5 mm har samme nominelle diameter som en jumperpind på 4,5 mm.",
   },
   {
     q: "Har jeg brug for alle pindestørrelser?",
@@ -44,6 +44,20 @@ const faqs = [
 >
   <div slot="tool">
     <div class="table-wrapper">
+      <p>
+        Tabellen gælder strikkepinde, ikke hæklenåle. UK/Canada er det gamle
+        nummersystem. US-halvstørrelser følger KnitPro, og japanske numre 0–15
+        følger Clover (0 = 2,1 mm). En streg betyder, at der ikke er angivet en
+        tilsvarende nummerstørrelse her; tykkere japanske pinde mærkes i
+        millimeter.
+      </p>
+      <p>
+        US-mærkningen varierer: KnitPro angiver 12–12,75 mm som US 17 og 15–16
+        mm som US 19; ChiaoGoo bruger henholdsvis 12,75 mm og 15 mm. Gå efter
+        diameteren i millimeter. Garnkategorierne er vejledende
+        CYC-anbefalinger, ikke en garanti for strikkefasthed eller pasform. Til
+        åbne hulmønstre bruges ofte tykkere pinde.
+      </p>
       <input
         type="text"
         id="needle-search"
@@ -128,8 +142,8 @@ const faqs = [
     <p>
       <strong>UK-systemet er omvendt.</strong> US-størrelser går op, når pinden bliver
       tykkere. Gamle UK-størrelser går ned. US 6 er 4,0 mm. UK 6 er 5,0 mm. Bytter
-      du rundt på dem, er din strikkeprøve en hel millimeter forkert, før du har strikket
-      en eneste pind. Det sker oftere, end man skulle tro.
+      du rundt på dem, er der en hel millimeters forskel på pindenes diameter, hvilket
+      kan ændre strikkefastheden.
     </p>
     <p>
       <strong>Ikke alle størrelser har en ren en-til-en-match.</strong> Ikke alle
@@ -159,7 +173,10 @@ const faqs = [
     </p>
 
     <h2>At kombinere pindestørrelse og garntykkelse</h2>
-    <p>Tabellen får dig tæt på. Strikkeprøven afgør den præcise adresse.</p>
+    <p>
+      Tabellen får dig tæt på. Strikkeprøven afgør, hvilken pindestørrelse der
+      passer.
+    </p>
     <p>
       Det nuværende Craft Yarn Council-system kobler Lace til 1,5-2,25 mm, Super
       Fine til 2,25-3,25 mm, Fine til 3,25-3,75 mm, Light til 3,75-4,5 mm,

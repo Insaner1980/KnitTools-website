@@ -1,7 +1,8 @@
 ---
 title: "Neulonta-ajan ja nopeuden seuraaminen"
-description: "Seuraa neulesessioita ja näe, mihin aika kuluu ja miten vauhti muuttuu. Käytännön tavat yksinkertaisesta ajastimesta erilliseen sessioseurantaan."
+description: "Seuraa neulonta-aikaa sekuntikellolla, muistiinpanoilla tai sovelluksella. Laske vertailukelpoinen kerrosvauhti ja erota mitattu aika valmistumisarviosta."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 7
 tags:
@@ -16,63 +17,69 @@ lang: fi
 translationKey: "track-knitting-time"
 ---
 
-Useimmilla neulojilla on epämääräinen tunne siitä, kauanko projektit vievät. "Villapaita kesti pari kuukautta." "Sukat valmistuivat aika nopeasti." Epämääräisyys ei auta, kun mietit kannattaako neuletakki aloittaa kuusi viikkoa ennen joulua tai miksi pipo-ohje, jonka piti valmistua yhdessä illassa, venyy kolmeen.
+Useimmilla neulojilla on epämääräinen tunne siitä, kauanko projektit vievät. "Villapaita kesti pari kuukautta." "Sukat valmistuivat aika nopeasti." Epämääräisyys ei auta, kun mietit, kannattaako neuletakki aloittaa kuusi viikkoa ennen joulua tai miksi pipo-ohje, jonka piti valmistua yhdessä illassa, venyy kolmeen.
 
-Neulonta-ajan seuraaminen muuttaa tuntumat oikeaksi dataksi. Montako tuntia villapaitaan meni. Montako kerrosta teet keskimäärin yhdessä sessiossa. Neulotko nopeammin sileää neuletta vai palmikoita, ja kuinka paljon ero on? Numerot eivät saa käsiä liikkumaan nopeammin, mutta ne auttavat suunnittelemaan paremmin ja huomaamaan, kun jokin alkaa hiljaa mennä pieleen.
+Ajan seuraaminen kertoo kirjatusta työstä ja ajasta. Se voi auttaa suunnittelussa, mutta laskuri ei tiedä, neulotko, luetko ohjetta vai pidätkö taukoa. Päätä ennen vertailua, mitä mittaat.
+
+Aktiivinen neulonta-aika tarkoittaa silmukoiden tekemiseen käytettyä aikaa. Työskentelykerran kokonaiskestoon voivat sisältyä myös tauot. Projektin koko työmäärään kuuluvat tarvittaessa mallitilkku, ohjeen lukeminen, korjaukset, kokoaminen ja viimeistely. Kalenteriaikaan sisältyvät lisäksi neulomattomat päivät ja esimerkiksi pestyn neuleen kuivuminen. Erota nämä toisistaan kirjanpidossa.
 
 ## Miksi aikaa kannattaa seurata
 
-Kolme syytä, siinä järjestyksessä kuin ne alkavat hyödyttää.
+Kolme mahdollista käyttötapaa:
 
-**Projektisuunnittelu muuttuu realistisemmaksi.** Kun tiedät, että worsted-vahvuinen pipo vie sinulta noin 8 tuntia, tieto auttaa villapaidan ajan arvioinnissa, mutta kappaleiden eri mitat pitää huomioida. Jos pipon vartalo oli 15 cm sileää neuletta ja siihen kului 45 minuuttia per 2,5 cm, 38 cm pitkän villapaidan vartalon arviointi samalla silmukka- ja kerrostiheydellä edellyttää myös pipon ja villapaidan kerroskohtaisten silmukkamäärien suhteuttamista. Muotoilut ja viimeistely lisäävät aikaa.
+**Suunnittelu vertailukelpoisen työn avulla.** Oletetaan, että Worsted-vahvuisen pipon koko tekemiseen kului noin 8 tuntia. Jos sen 15 cm:n sileään osuuteen kului 45 minuuttia jokaista 2,5 cm:ä kohti, osuuden aika oli 4 tuntia 30 minuuttia, ei koko 8 tuntia. Arvio 38 cm:n pituiselle villapaidan vartalolle vaatii lisäksi kerroskohtaisten silmukkamäärien suhteuttamista sekä vastaavan neuletiheyden ja tekniikan. Pelkkä pituus ei riitä; muotoilu ja viimeistely arvioidaan erikseen.
 
-**Huomaat hidastumiset ennen kuin niistä tulee ongelmia.** Jos tavallinen sessiosi tuottaa projektissa 12 kerrosta ja yhtenä viikkona määrä putoaa kuuteen, jokin muuttui. Ehkä silmukkamalli vaikeutui. Ehkä lanka taistelee vastaan. Ehkä kireys muuttui ja kompensoit sitä huomaamatta. Numerot nostavat muutoksen näkyviin ennen kuin käytät kolme lisäsessiota ihmetellen, miksi työ tuntuu tahmealta.
+**Työmäärän muutoksen ymmärtäminen.** Jos yhdellä kerralla valmistuu 12 kerrosta ja toisella 6, vertaa ensin käytettyä aikaa. Lyhyempi työskentelykerta voi selittää eron ilman vauhdin muutosta. Yhtä pitkissä jaksoissa tarkista kerrosten pituus, mallineule, lanka, tauot ja korjauksiin kulunut aika. Pelkkä kerrosmäärä ei kerro ongelmasta tai sen syystä.
 
-Sitten on pitkä peli. Neulontanopeus voi muuttua harjoittelun myötä, mutta muutos on usein niin asteittainen, ettei sitä tunne tapahtuvan. Kuuden kuukauden takainen sessiodata verrattuna nykyiseen näyttää eron konkreettisesti: enemmän kerroksia tunnissa, vähemmän virheitä, nopeampi toipuminen virheistä. Edistyminen, joka on arjessa näkymätöntä, tulee kuukausissa helpommin näkyviin.
+**Oman tekemisen seuraaminen.** Samankaltaisten osuuksien vertailu kuuden kuukauden välein voi näyttää muutoksen vauhdissa. Kesto ja kerrosmäärä eivät yksin mittaa virheiden määrää tai korjaamisen nopeutta. Lisää niistä erillinen muistiinpano, jos haluat seurata niitä.
 
-## Yksinkertainen seuranta: puhelimen ajastin
+## Yksinkertainen seuranta: puhelimen sekuntikello
 
-Pienimmän vaivan tapa. Käynnistä ajastin, kun otat puikot käteen, pysäytä kun lasket ne pois. Kirjoita aika ja kerrosmäärä muistikirjaan tai muistiinpanosovellukseen.
+Valitse ylöspäin aikaa mittaava sekuntikello, ei aikaa alaspäin laskevaa ajastinta. Käynnistä ajanotto, kun aloitat mitattavan työn. Jos haluat jättää tauot pois, keskeytä ajanotto tauoksi ja jatka palatessasi. Pysäytä lopuksi ja kirjaa kesto sekä valmiit kerrokset ennen nollausta. Jos taukotoimintoa ei ole, kirjaa jaksot erikseen ja laske ne yhteen vain kerran. Sekuntikello ei tunnista neulomista automaattisesti.
 
-Toimii hyvin yhdelle projektille. Usean WIPin kanssa sotkeutuu, koska jokainen tarvitsee oman merkintänsä ja muistikirja täyttyy lajittelemattomista aikaleimoista. Vaatii myös kuria käynnistää ja pysäyttää ajastin joka kerta, juuri sellainen tapa joka kestää kaksi viikkoa ja kuolee sitten hiljaa.
+Muistikirja tai muistiinpanosovellus sopii myös usealle keskeneräiselle työlle, kun nimeät projektin ja osuuden. Korjaa unohtunut aloitus tai lopetus ja merkitse epävarma aika arvioksi. Poista kaksoiskirjaukset äläkä laske päällekkäistä aikaa kahdesti. Sekuntikellosta käsin kopioitu kesto on mitattu; muistista, laskuriluvusta tai aiemman projektin vauhdista päätelty aika on arvio.
 
 ## Taulukkolaskenta
 
-Askelen verran pidemmälle. Sarakkeet päivälle, projektin nimelle, aloituskerrokselle, lopetuskerrokselle ja kestolle. Kaavat laskevat kerrokset per sessio, kerrokset per tunti ja kokonaisajan.
+Tee sarakkeet päivälle, projektille, osuudelle, valmiille kerrosmäärälle ennen ja jälkeen sekä kestolle ja taukokäytännölle. Lukemien erotus kertoo valmistuneet kerrokset, jos laskuria ei nollattu eikä työtä purettu. Muussa tapauksessa kirjaa korjaus erikseen: nettolisäys ja kaikki tehty työ ovat eri asioita.
 
-Tämä antaa oikeaa analysoitavaa dataa. Kun piirrät kerrokset per tunti ajan yli, nopeuskäyrä tulee näkyviin. Projektien vertailu paljastaa silmukkamallin monimutkaisuuden vaikutuksen. Sileä huivi 30 kerrosta tunnissa verrattuna palmikkopaitaan 14 kerrosta tunnissa kertoo konkreettisesti, paljonko palmikot maksavat ajassa.
+Laskuesimerkki: 20 valmista kerrosta 45 minuutissa. 45 ÷ 60 = 0,75 tuntia, joten 20 ÷ 0,75 ≈ 26,7 kerrosta tunnissa. Yhteen kerrokseen kului keskimäärin 45 ÷ 20 = 2,25 minuuttia eli 2 minuuttia 15 sekuntia. Kirjoita kesto selvästi: 1 t 30 min = 1,5 tuntia, ei 1,30 tuntia.
 
-Huono puoli: jokaisen session jälkeen pitää syöttää tiedot käsin. Jos unohdat, dataan tulee aukkoja. Jos pyöristät, "noin 45 minuuttia, ehkä 20 kerrosta", se tarkkuus katoaa, joka tekee taulukosta hyödyllisen.
+Jos vertailukelpoisilla kerroilla valmistuu 20 kerrosta 45 minuutissa ja 10 kerrosta 15 minuutissa, yhteinen vauhti on 30 kerrosta ÷ 1 tunti = 30 kerrosta tunnissa. Kertakohtaisten vauhtien painottamaton keskiarvo olisi noin 33,3, eikä se kuvaa koko ajan vauhtia. Jaa valmistunut työ yhteensä käytetyllä ajalla.
 
-## Erillinen neulesessioseuranta
+Sileän huivin 30 kerrosta tunnissa ja palmikkopaidan 14 kerrosta tunnissa ovat mahdollisia esimerkkilukuja, eivät palmikoiden aikavaikutuksen mittaus. Kerrospituus, lanka, puikot ja taukokäytäntö voivat erota. Vertaa mahdollisimman samanlaisia osuuksia. Jos lasket silmukoita minuutissa, käytä kyseisen ajan aikana todella tehtyjä silmukoita. Kerrokset × silmukat kerroksella toimii vain silmukkamäärän pysyessä samana; muotoilu, lyhennetyt kerrokset ja vaihtuvat osuudet vaativat erilliset määrät.
 
-Projektinhallintasovellukseen rakennettu neulonta-ajan seuranta automatisoi ne kohdat, joissa manuaaliset tavat hajoavat. Aloita sessio, neulo, lopeta sessio. Sovellus tallentaa keston, yhdistää sen projektiin ja seuraa kerrosmäärää samalla.
+Tiedot pitää kirjata jokaisen työskentelykerran jälkeen. Myös merkintä ”noin 45 minuuttia, ehkä 20 kerrosta” voi auttaa karkeassa suunnittelussa, kun merkitset sen arvioksi ja pyöristät tuloksen sen mukaisesti. Puuttuva aika on tuntematon, ei nolla.
 
-[KnitTools-sovellusta](/fi/tyokalut/#join) rakennetaan niin, että sessioseuranta liittyy [kerroslaskuriin](/fi/artikkelit/kerrosten-seuraaminen-neuloessa/). Tarkoitettu työnkulku on yksinkertainen: laske kerroksia, tallenna sessio ja pidä päivä, kesto, valmistuneet kerrokset sekä kerrokset tunnissa projektin yhteydessä. Ajan myötä tästä kertyy historia per projekti ja kaikkien projektien yli.
+## Työskentelykertojen seuranta sovelluksessa
 
-KnitTools-sovelluksessa työskentelysessio aloitetaan ja lopetetaan erikseen kerroslaskurin työnkulussa, ja tallennetut sessiot pysyvät projektiin liitettyinä. Kerroslaskurin napautukset eivät käynnistä ajan seurantaa automaattisesti.
+Projektisovellus voi pitää ajanoton ja kerroslaskurin samassa paikassa. Tarkista silti, mitä se tallentaa ja mitä sinun pitää kirjata itse: tauko- ja korjaustoiminnot vaihtelevat sovelluksittain.
+
+[KnitTools-sovellusta](/fi/tyokalut/#join) kehitetään niin, että työskentelykertojen seuranta on [kerroslaskurin](/fi/artikkelit/kerrosten-seuraaminen-neuloessa/) yhteydessä. Nykyisessä toteutuksessa aloitat työskentelykerran itse, kirjaat laskurimuutokset neuloessasi ja lopuksi lopetat sekä tallennat tai hylkäät yhteenvedon. Historiaan jäävät projektin yhteyteen päivä, kesto ja laskurin alku- ja loppulukema. Laskurin napautukset eivät käynnistä ajanottoa tai tunnista aktiivista neulontaa. Sivustolinkki vie julkaisuilmoittautumiseen, ei sovelluksen lataukseen.
+
+Jos haluat jättää tauon pois tästä seurannasta, lopeta ja tallenna työskentelykerta ja aloita uusi palatessasi. Tallennetun merkinnän voi poistaa historiasta; historia ei ole yleinen aikamerkintöjen muokkain. Pidä korjattu aika erillisessä muistiinpanossa, jos aloitus tai lopetus unohtui. Insights laskee tallennetuista kerroista kokonaisaikaa ja minuutteja kerrosta kohti. Luvut kuvaavat kirjauksia, eivät itsenäisesti havaittua neulontaa. Kaikkia kaavioita ei pidä olettaa ilmaistason ominaisuuksiksi.
 
 ## Mitä data oikeasti kertoo
 
 ### Kerrokset tunnissa silmukkamallin mukaan
 
-Monelle neulojalle sileä neule muuttuu nopeaksi peruspinnaksi. Muut mallineuleet hidastavat usein tahtia, koska mukaan tulee kääntymistä, nurjien vaihtelua, kaavion lukemista, palmikonkiertoja, langankiertoja tai kavennuksia.
+Sileä neule voi toimia oman työn vertailukohtana. Muut mallineuleet voivat vaatia enemmän kaavion lukemista, palmikonkiertoja, langankiertoja tai kavennuksia. Mittaa kyseinen osuus sen sijaan, että olettaisit mallineuleelle kiinteän vauhdin.
 
-Tarkat kerrokset tunnissa -luvut eivät siirry hyvin projektista toiseen. Kapea huivirivi, villapaidan vartalokerros ja sukkakierros eivät ole sama yksikkö edes ennen lankavahvuutta ja mallineuletta.
+Tarkat kerrosta tunnissa -luvut eivät siirry sellaisinaan projektista toiseen. Kapean huivin tasokerros, villapaidan vartalokerros ja sukan suljettu kerros ovat eripituisia, ja myös lankavahvuus sekä mallineule vaikuttavat vertailuun.
 
-Nämä luvut vaihtelevat valtavasti neulojien välillä. Hyödyllinen vertailu ei ole sinun nopeutesi jonkun toisen nopeuteen. Se on sinun nopeutesi tässä ohjeessa verrattuna edelliseen.
+Omankin edellisen projektin vauhti on suoraan vertailukelpoinen vain, jos työ ja mittaustapa vastaavat toisiaan. Muussa tapauksessa se on uuden arvion taustatietoa.
 
 ### Aika projektin osaa kohti
 
-Villapaita ei vie yhtä tasaista aikaa per sentti. Sileä vartalo etenee nopeasti. Kaarroke kirjoneuleella tai palmikoilla hidastaa. Hihat sukkapuikoilla tai magic loopilla ovat hitaampia kuin vartalo pitkällä pyöröpuikolla, koska asettelu on näpertelyä.
+Villapaidan eri osiin ei välttämättä kulu yhtä paljon aikaa senttimetriä kohti. Sileä vartalo, kirjoneulekaarroke ja hihat voivat edetä eri tahtiin. Myös sukkapuikot, magic loop ja pitkä pyöröpuikko muuttavat työskentelytapaa; mikään niistä ei tee hihoista automaattisesti hitaampia.
 
-Sessioseuranta näyttää nämä erot. Jos vartalo vei 20 tuntia ja kaarroke 15 tuntia puolella vartalon kerrosmäärästä, yhteen kaarrokekerrokseen kului keskimäärin 50 % enemmän aikaa eli 1,5 kertaa niin kauan. Se on hyödyllinen tieto seuraavaa kaarrokepaitaa varten.
+Oletetaan, että vartaloon kului 20 tuntia ja kaarrokkeeseen 15 tuntia puolella vartalon kerrosmäärästä. Yhteen kaarrokekerrokseen kului keskimäärin 50 % enemmän aikaa eli 1,5 kertaa niin kauan: (15 ÷ 0,5) ÷ 20 = 1,5. Esimerkki kuvaa näitä osuuksia, ei käsien nopeuden muutosta tai erimuotoisen kaarrokkeen valmistumisaikaa.
 
-### Nopeuden kehittyminen ajan myötä
+### Vauhdin muutokset ajan myötä
 
-Vertaa ensimmäistä sukkaa viidenteen. Sileän neuleen kerroksia tunnissa tammikuussa ja kesäkuussa. Muutos voi olla pieni, suuri tai epätasainen, mutta ainakin vertaat omaa tekemistäsi muistikuviin nojaamisen sijaan.
+Voit verrata ensimmäistä sukkaa viidenteen tai samanlaisia sileitä osuuksia tammikuussa ja kesäkuussa. Pidä kerrospituus ja mittaustapa vertailukelpoisina ja kirjaa langan tai tekniikan muutokset.
 
-Useimmille neulomisen tarkoitus ei ole nopeus. Silti oman mitattavan kehittymisen näkeminen tuntuu hyvältä tavalla, jota on vaikea saada harrastuksesta, jossa edistystä mitataan muuten lauseella "sain huivin valmiiksi".
+Jos oman vauhdin muutoksen näkeminen tuntuu mielekkäältä, seuraa sitä. Nopeus ei mittaa neuleen laatua tai arvoa.
 
 ## Seuranta ilman pakkomiellettä
 
@@ -80,22 +87,24 @@ Hyödyllisen datan ja haitallisen itsetarkkailun välissä on raja. Muutama ohje
 
 Älä optimoi nopeutta neulomisen nautinnon kustannuksella. Nopeampi neulominen ei merkitse mitään, jos prosessi lakkaa olemasta miellyttävä. Data on suunnittelua ja havainnointia varten, ei rentouttavan harrastuksen muuttamista tuottavuusharjoitukseksi.
 
-Älä vertaa lukujasi muiden neulojien lukuihin. Käsien koko, neulontatapa, lankamieltymykset ja kokemus vaikuttavat kaikki nopeuteen. Jonkun toisen 40 kerrosta tunnissa fingering-langalla ei kerro mitään sinun 20 kerroksestasi.
+Toisen neulojan esimerkkivauhtia 40 kerrosta tunnissa ei voi arvioida suhteessa omaan 20 kerrokseesi ilman vastaavia kerrospituuksia, mallineuleita, lankoja ja mittaustapoja. Kumpikaan luku ei ole tavoite.
 
-Seuraa sillä tarkkuudella, josta on hyötyä. Sessiodata, eli kesto ja kerrokset, riittää useimpiin tarkoituksiin. Kerroskohtainen ajanotto on liikaa, ellei selvitä jotain tiettyä ongelmaa.
+Valitse omaan kysymykseesi sopiva tarkkuus. Työskentelykerran kesto ja valmiit kerrokset voivat riittää suunnitteluun. Yhden kerroksen tai mallikerran ajanotto voi auttaa vastaavan osuuden arvioinnissa. Kirjaa viimeistely erikseen ilman kerrosvauhtia.
 
-Jos seuranta tuntuu työltä eikä työkalulta, lopeta. Data on keräämisen arvoista vain, jos käytät sitä. Integroitu seuranta, kuten KnitTools, pitää session aloitus- ja lopetustoiminnot kerroslaskurin lähellä, mutta jokainen sessio pitää silti aloittaa ja lopettaa erikseen. Käsin täytettävä taulukko, joka jää viikoiksi päivittämättä, ei auta.
+Jos seuranta tuntuu ylimääräiseltä työltä, voit jättää sen pois. KnitToolsin ajanoton toiminnot ovat kerroslaskurin yhteydessä, mutta aloitat ja lopetat jokaisen työskentelykerran itse. Valitse kirjaustapa, jota haluat käyttää.
 
 ## Aikaseuranta osana projektinhallintaa
 
-Aikadata hyödyttää enemmän, kun se liittyy [projektien järjestämiseen](/fi/artikkelit/neuleprojektien-jarjestaminen/). On yksi asia tietää, ettei projektiin ole koskettu kolmeen viikkoon. Vielä parempi päätöksenteon kannalta on tietää, että siihen on sijoitettu 35 tuntia ja arvioitu kokonaisaika on 50.
+Aikatiedot voivat auttaa [projektien järjestämisessä](/fi/artikkelit/neuleprojektien-jarjestaminen/). Jos olet kirjannut 35 tuntia ja nykyinen arvio koko työmäärästä on 50 tuntia, jäljellä on arviolta 15 tuntia. Se ei ole mitattu loppuaika: tarkista jäljellä olevat osuudet, kokoaminen ja viimeistely. Jos työlle on käytettävissä 5 tuntia viikossa, 15 tuntia tarkoittaisi noin 3 viikkoa sekä mahdollista kuivumis- tai muuta odotusaikaa.
 
-Usean projektin neulojille projektikohtainen aika paljastaa myös jakautumisen. Saatat huomata käyttäväsi 80 % neulonta-ajasta helppoon sukkaan ja 20 % siihen villapaitaan, jonka oikeasti haluat valmiiksi. Joskus lukujen näkeminen riittää muuttamaan tasapainoa.
+35 ÷ 50 = 70 % arvioidusta aikabudjetista, ei todiste siitä, että neule on 70-prosenttisesti valmis. Pituus, kerrokset, käytetty lanka ja aika mittaavat eri asioita. Niiden prosenttiosuuksia ei voi vaihtaa keskenään ilman työn rakenteeseen perustuvaa syytä.
+
+Usean projektin seurannassa saatat huomata, että 80 % kirjatusta ajasta meni sukkiin ja 20 % villapaitaan. Käytä samaa ajanjaksoa ja vältä päällekkäisiä kirjauksia. Jakauma kertoo merkitystä ajasta, ei kummankaan työn valmiusasteesta.
 
 ## FAQ
 
-**Kuinka tarkkaa sessioseurannan pitää olla?**
-Muutaman minuutin tarkkuus riittää. Jos unohdit käynnistää ajastimen ensimmäiseksi viideksi minuutiksi tai pysäytit sen kymmenen minuuttia puikkojen laskemisen jälkeen, data on silti hyödyllistä trendien kannalta. Älä hylkää sessiota siksi, ettei ajoitus ollut täydellinen.
+**Kuinka tarkkaa ajanseurannan pitää olla?**
+Se riippuu käyttötarkoituksesta ja jakson kestosta. Viisi puuttuvaa tai kymmenen ylimääräistä minuuttia voi vääristää lyhyen jakson vauhtia paljon. Korjaa tunnetut virheet, merkitse epävarmat kirjaukset arvioiksi ja jätä ne pois tarkasta vauhtivertailusta. Karkeassa työaika-arviossa niistä voi silti olla hyötyä.
 
 **Paraneeko neulontanopeus oikeasti harjoittelemalla?**
 Se voi parantua, mutta ei välttämättä tasaisena käyränä. Tuttu lanka, toistuvat mallineuleet, virheiden väheneminen ja mukavammat käsiliikkeet voivat kaikki muuttaa tahtia. Uusi tekniikka voi ensin hidastaa ja nopeutua vasta, kun se ei enää vaadi niin paljon huomiota.
@@ -104,4 +113,4 @@ Se voi parantua, mutta ei välttämättä tasaisena käyränä. Tuttu lanka, toi
 Merkityksellistä normaalia ei ole. Nopeus riippuu langan vahvuudesta, mallineuleesta, kerroksen pituudesta, puikkotyypistä, neulontatavasta ja siitä, paljonko ohje vaatii huomiota. Seuraa omia lukujasi ja vertaa itseesi.
 
 **Pitäisikö aikaa seurata jokaisessa projektissa?**
-Seuraa projekteissa, joissa datasta on hyötyä: määräajalliset vaatteet, monimutkaiset projektit joiden jäljellä olevaa aikaa haluat arvioida, tai mikä tahansa projekti, jonka tahtia haluat ymmärtää. Aivoton TV-huivi ei välttämättä tarvitse sessiolokia.
+Seuraa aikaa, kun siitä on sinulle hyötyä: määräajalliseen työhön, jäljellä olevan ajan arviointiin tai oman vauhdin tarkasteluun. Rento television ääressä neulottava huivi ei välttämättä tarvitse työskentelykertojen kirjaamista.

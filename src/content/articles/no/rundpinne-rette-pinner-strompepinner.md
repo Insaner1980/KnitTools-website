@@ -2,6 +2,7 @@
 title: "Rundpinne, rette pinner eller strømpepinner?"
 description: "Sammenlign rundpinner, rette pinner og strømpepinner. Lær hvilken type som passer best til ulike prosjekter, med fordeler og ulemper."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: needles
 categoryOrder: 1
 tags:
@@ -16,134 +17,134 @@ lang: no
 translationKey: "circular-vs-straight-vs-dpn"
 ---
 
-Tre pinnetyper finnes fordi ulike prosjekter krever ulike ting. Rette pinner håndterer flatt arbeid. Rundpinner håndterer både flatt arbeid og rør. Strømpepinner håndterer små omkretser. Når den grunnlogikken sitter, blir pinnekjøp mye mindre overveldende.
-
-Det som gjør valget vanskeligere, er at kategoriene overlapper. En lang rundpinne kan gjøre alt en rett pinne kan. En rundpinne til magic loop kan gjøre det meste et sett strømpepinner gjør. Det egentlige spørsmålet er derfor ikke bare hvilken type som passer hvilket prosjekt, men hvilken kombinasjon av pinner du faktisk vil jobbe med.
+Rette pinner passer til strikking frem og tilbake, rundpinner kan brukes både frem og tilbake og rundt, og strømpepinner passer til små omkretser. Bruksområdene overlapper. Velg etter oppskriften, plassen maskene trenger og hvordan du liker å holde pinnene.
 
 ## Oversikt
 
-| Type                        | Best til                                                | Svakhet                                                       | Kjøperåd                            | Læringskurve |
-| --------------------------- | ------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------- | ------------ |
-| Rette pinner                | Smale flate arbeider, nybegynnere som liker følelsen    | Brede prosjekter får plassmangel, tungt arbeid sliter hendene | Billige å prøve                     | Ingen        |
-| Rundpinne, fast             | Luer, bol, tepper, flat og rund strikking               | Låst til én pinnestørrelse og vaierlengde                     | Kjøp én størrelse og lengde         | Minimal      |
-| Rundpinne, utskiftbart sett | Mange strikkeres hverdagsverktøy over flere størrelser  | Høyere startkostnad, overganger kan løsne                     | Best når du vet at du strikker ofte | Minimal      |
-| Strømpepinner               | Sokker, votter, luetopper, små rør                      | Fiklete start, stiger i overgangene                           | Ett lite sett per størrelse         | Moderat      |
-| Magic loop, lang rundpinne  | Samme små omkretser som strømpepinner, med færre pinner | Vaierløkkene kan vri seg hvis du stresser                     | Bruker én lang rundpinne            | Moderat      |
+| Type             | Bruk                           | Begrensning                       | Kjøperåd                  | Å øve på                      |
+| ---------------- | ------------------------------ | --------------------------------- | ------------------------- | ----------------------------- |
+| Rette pinner     | Smale arbeider frem og tilbake | Maskene må få plass på skaftene   | Velg tykkelse og lengde   | Snu etter hver pinne          |
+| Fast rundpinne   | Frem og tilbake eller rundt    | Fast tykkelse og totallengde      | Én ferdig rundpinne       | Snu eller samle til en ring   |
+| Utskiftbart sett | Ulike tykkelser og lengder     | Spisser og vaiere må passe sammen | Sjekk innholdet           | Feste koblingene              |
+| Strømpepinner    | Sokker, votter, luetopper      | Flere pinner og overganger        | Et sett i riktig tykkelse | Strikke med den ledige pinnen |
+| Magic loop       | Små omkretser                  | Krever myk vaier med nok lengde   | Én lang rundpinne         | Flytte masker og vaierløkker  |
 
-Tabellen er et startpunkt, ikke en dom. Mange strikkere bryter alle reglene i den og får likevel gode resultater.
+Tabellen beskriver arbeidsmåten. Komfort og læring varierer fra person til person.
 
 ## Rette pinner
 
-To separate pinner, spiss i den ene enden og stopper i den andre. Det klassiske bildet av strikking, og fortsatt et godt valg for flate arbeider med moderat bredde.
+To separate pinner, spiss i den ene enden og stopper i den andre. Rette pinner passer til moderat brede arbeider som strikkes frem og tilbake.
 
-Begrensningen er plass. Alle maskene må få plass på pinnen, så brede prosjekter går raskt tom for rom. Tungt arbeid som henger fra to stive pinner blir også slitsomt over lange økter. Rette pinner er intuitive for nybegynnere fordi oppsettet er tydelig og arbeidsretningen lett å lese. Men de fleste strikkere går videre når de prøver rundpinner og oppdager at rundpinner gjør alt rette pinner gjør, pluss mer.
+Alle maskene må få plass på skaftet uten å falle av. Pinner på 25 cm kan passe til en klut eller et smalt skjerf; 35 cm gir mer plass. Velg tykkelsen etter garnet, ønsket strikket stoff og strikkefastheten. Lengdene er eksempler på handelsstørrelser, ingen garanti for at et bestemt arbeid får plass.
 
-Lengden betyr mer enn mange tror. En 25 cm rett pinne i mellomstørrelse er behagelig til en klut eller et smalt skjerf. En 35 cm pinne rommer bredere arbeid, men kan kjennes klønete i mindre hender. De klassiske rette trepinnene mange arvet, var ofte lange fordi de ble brukt til hele genserforstykker strikket flatt. Mange moderne oppskrifter antar at du har rundpinner.
-
-Rette pinner fortjener fortsatt en plass i noen vesker. De er billige, robuste, og noen strikkere liker virkelig hvordan vekten balanserer på begge sider. Hvis formen passer deg, finnes det ingen grunn til å forlate den.
+Hvis grepet og balansen passer deg, trenger du ikke slutte å bruke rette pinner. Prøv lengden med ditt eget arbeid.
 
 ## Rundpinner
 
-To korte spisser koblet sammen med en fleksibel vaier. Maskene ligger på vaieren, og du strikker fra den ene spissen til den andre.
+To korte spisser koblet sammen med en fleksibel vaier. Maskene ligger på vaieren og spissene mens du strikker fra den ene til den andre. På faste rundpinner er vaieren permanent festet; utskiftbare spisser kan tas av.
 
-Når du strikker rundt, samler du maskene til en ring og fortsetter uten å snu. Luer, halser, bol og bærestykker hører hjemme her. Til flat strikking fungerer rundpinner like godt. Strikk til enden, snu, strikk tilbake. Vaieren holder bare maskene mellom spissene.
+Før du samler til en omgang, kontroller at oppleggskanten ikke er vridd rundt pinnen. Marker starten på omgangen og strikk den første masken du la opp, med arbeidsgarnet fra den siste. Fortsett rundt. Ved strikking frem og tilbake skal endene ikke samles: strikk ut pinnen, snu og strikk tilbake etter oppskriften.
 
-De fleste strikkere ender med å bruke rundpinner til nesten alt. Vaieren bærer vekten mer komfortabelt, de korte spissene tar mindre plass, og du er ikke begrenset av pinnelengden. Det er trolig den mest allsidige pinnetypen du kan eie.
+Vaieren holder et bredt arbeid mellom spissene, slik at stoffet kan hvile i fanget. Hvilket grep som er behagelig, er individuelt.
 
 ### Vaierlengde
 
-Vaierlengden må passe til hvordan du bruker pinnen.
+Rundpinnens lengde betyr her hele lengden fra spiss til spiss, inkludert begge spissene og vaieren. Tykkelsen i millimeter er et annet mål.
 
-Når du strikker rundt, setter prosjektets omkrets den øvre grensen. Hele rundpinnens lengde må være litt kortere enn arbeidet, ellers kan ikke maskene bevege seg rundt uten å strekkes. En 40 cm rundpinne er vanlig til luer. En 60 eller 80 cm rundpinne fungerer til mange bol, avhengig av størrelse. For lang vaier gjør at maskene ikke når fra spiss til spiss uten å tøyes. For kort vaier gjør at maskene ikke får plass rundt.
+Ved vanlig rundstrikking skal totallengden være kortere enn arbeidets omkrets, med plass til å bevege spissene uten å strekke maskene. 40 cm er et vanlig utgangspunkt til en voksenlue; 60 eller 80 cm kan passe til en genserbol, avhengig av størrelse. En liten lue kan trenge en annen metode. Maskene kan samles tett på en kortere pinne, men for mange blir vanskelige å flytte. Spissene må også være korte nok til å møtes uten å tvinges sammen. Bytt til strømpepinner, magic loop eller to rundpinner før fellingene gjør omkretsen for liten.
 
-Til flat strikking trenger vaieren bare å holde alle maskene komfortabelt. Rundt 80 cm er en nyttig standard for mye flatt arbeid. Tepper og store sjal vil ofte ha 100 cm eller mer. Vaieren kan være lengre enn nødvendig uten store problemer, bare ikke for kort.
+Ved strikking frem og tilbake er det ingen lukket omkrets å passe inn i. 80 cm er nyttig til mange arbeider; 100 cm eller mer gir ekstra plass til store tepper og sjal. Velg nok kapasitet og en håndterlig vaier. Magic loop bruker bevisst ekstra vaier og følger ikke lengderegelen for vanlig rundstrikking.
 
 ### Vaierkvalitet
 
-Ikke alle vaiere er like. En stiv vaier som husker formen fra pakken, kommer til å krangle med deg i starten av hvert prosjekt. En myk, føyelig vaier ligger flatere og oppfører seg bedre. Overgangen mellom vaier og spiss er også stedet der billige rundpinner ofte feiler først. Garn som hekter seg i overgangen er en liten irritasjon som blir stor gjennom et helt prosjekt.
+Sjekk vaierens fleksibilitet og at maskene glir over koblingen uten å hekte seg fast. Prisen alene sier ikke hvordan dette fungerer.
 
-Hvis du kjøper et sett, betyr vaiersystemet like mye som spissene. Gjengede overganger kan være glatte, men de kan løsne hvis du ikke strammer dem ordentlig. Noen merker bruker strammenøkler, noen har roterende vaiere, og andre bruker klikk- eller vrilåser. Ingen systemer er best for alle. Prøv én spiss og vaier, eller lån av noen, før du kjøper et helt sett.
+Fest utskiftbare spisser etter produsentens anvisninger. ChiaoGoo anbefaler for eksempel strammenøkkelen til sine gjengede koblinger. Roterende vaier og låsemekanisme er ulike egenskaper; sjekk det aktuelle systemet.
 
 ## Magic loop
 
-Magic loop er en måte å strikke små omkretser på en lang rundpinne i stedet for på strømpepinner. Når du har gjort det noen ganger, blir bevegelsen naturlig.
+Med magic loop strikker du en liten omkrets på én lang rundpinne. Vaieren danner løkker utenfor arbeidet.
 
-Grunnideen: legg opp eller arranger maskene slik at halvparten ligger på den ene siden av vaieren og halvparten på den andre. Trekk ut en vaierløkke mellom de to halvdelene slik at den fremre pinnespissen, den du skal strikke med, peker rett ut. Strikk over den halvdelen. Når du kommer til slutten, skyver du arbeidet rundt på vaieren, flytter den ustrikkede halvdelen frem og gjentar.
+Del maskene i to grupper, vanligvis omtrent like store. Skyv gruppene opp på spissene og hold spissene parallelt mot høyre, med arbeidsgarnet ved den bakerste gruppen. Kontroller at oppleggskanten ikke er vridd før du samler til en omgang. Trekk ut den **bakerste spissen**, slik at dens masker ligger på vaieren. Bruk den frigjorte spissen i høyre hånd til å strikke maskene på den **fremste spissen** i venstre hånd. Flytt arbeidet, skyv neste gruppe opp på fremre spiss og trekk ut bakre spiss igjen. To halvdeler utgjør én omgang. Marker starten på omgangen, for eksempel med en låsbar maskemarkør i stoffet.
 
-For mange strikkere er en 100 cm rundpinne en komfortabel standard. En myk 80 cm rundpinne kan fungere til sokker, men ekstra vaier gjør løkkene enklere å håndtere. Til to sokker samtidig gir 100 eller 120 cm mer plass.
+En myk rundpinne på 80 eller 100 cm er et utgangspunkt å prøve. Arbeidets størrelse, spissenes lengde og vaierens fleksibilitet avgjør om begge løkkene får nok plass uten å trekke maskene fra hverandre. To sokker samtidig krever plass til begge arbeidene; prøv 100 eller 120 cm ut fra dette behovet.
 
-Teknikken har kompromisser. Magic loop er treg i overgangen mellom halvdelene fordi du skyver masker og trekker vaierløkker hver halve omgang. Strømpepinner er raskere når du slutter å kjempe med dem. Men du bærer færre verktøy, og magic loop gir færre mulige stiger fordi det bare er to overganger per omgang i stedet for tre eller fire.
+Magic loop har to overganger mellom grupper per omgang, mot tre eller fire med et vanlig strømpepinneoppsett. Det garanterer ikke færre stiger eller høyere fart.
 
 ## To rundpinner
 
-Et mellomalternativ som ikke snakkes om like ofte. Bruk to separate rundpinner, begge i mellomlengde rundt 60 eller 80 cm. Legg halvparten av maskene på den ene og halvparten på den andre, og strikk hver halvdel med sin egen rundpinne. Maskene du ikke arbeider med ligger på den inaktive vaieren.
+Bruk to rundpinner med samme tykkelse og nok lengde til maskegruppene og fri bevegelse av spissene. 60 eller 80 cm er eksempler, ikke krav. Fordel maskene omtrent på halvparten. Strikk hver rundpinnes masker med dens egen andre spiss, mens maskene på den andre rundpinnen hviler på vaieren. Ikke strikk fra den ene rundpinnen over på den andre.
 
-Dette brukes mest til to sokker samtidig og av strikkere som ikke liker magic loop, men heller ikke vil bruke strømpepinner. Ulempen er at du trenger to rundpinner i samme størrelse, noe som er uvanlig hvis du ikke har et utskiftbart sett med flere vaiere.
+Metoden fungerer for ett lite rør og for tilpassede prosjekter med to deler samtidig. Du trenger to komplette rundpinner: ekstra vaiere i et sett betyr ikke at to par spisser i samme tykkelse følger med.
 
 ## Strømpepinner
 
-Korte pinner, ofte 13-20 cm, med spiss i begge ender, brukt i sett på 4 eller 5. Du fordeler maskene over 3 eller 4 pinner og strikker med den ledige.
+Strømpepinner har spiss i begge ender. Med fire pinner holder tre maskene, og den fjerde er ledig fra starten. Med fem holder fire maskene, og den femte er ledig. Strikk maskene av én pinne med den ledige; den nettopp tømte pinnen brukes til neste gruppe.
 
-Strømpepinner er standardverktøy for små rør: tå på [sokker](/no/artikler/strikke-sokker-sokkeoppskriftens-deler/), tomler på votter, toppfelling på [luer](/no/artikler/strikke-lue-metoder-for-alle-nivaer/) og smale ermer. De føles fiklete i starten. Løse ender er irriterende, og stiger i overgangene mellom pinnene er vanlige til du får inn vanen med å stramme første maske litt ekstra.
+Strømpepinner passer til tær på [sokker](/no/artikler/strikke-sokker-sokkeoppskriftens-deler/), vottetomler, toppfelling på [luer](/no/artikler/strikke-lue-metoder-for-alle-nivaer/) og smale ermer. Kontroller at oppleggskanten ikke er vridd før sammenføyningen. Fest omgangsmarkøren i stoffet hvis en ringmarkør ville falle av pinneenden. Følg oppskriftens maskefordeling; gruppene trenger ikke være like store.
 
 ### Å fikse stiger
 
-En stige er den løse kolonnen av masker som dannes der én strømpepinne møter den neste. Løsningen er mest mekanisk. Stram den første masken på hver nye pinne tett mot den forrige pinnens siste maske før du strikker den. Noen strikkere gir også den andre masken et lite ekstra rykk.
+En stige består av løse vannrette tråder mellom maskekolonnene ved et pinnebytte. Hold nabopinnene nær hverandre mens du strikker de første maskene i neste gruppe, og ta forsiktig inn overflødig slakk. Ikke stram så hardt at de nye maskene ikke glir over pinnens fulle tykkelse.
 
-Et annet knep er å flytte maskene slik at overgangspunktet bytter plass med noen omgangers mellomrom. Hvis du alltid bytter pinne i samme kolonne, forsterkes løsningen der. Hvis du flytter overgangen en eller to masker iblant, fordeles slakken og det som er igjen blir mindre synlig.
-
-Blokking kan jevne ut små stiger som overlever disse knepene, særlig i ullrikt sokkegarn som blomstrer litt etter vask.
+Du kan flytte overgangen ved å strikke én eller to ekstra masker på den aktuelle pinnen. Behold markeringene for omgangens start og oppskriftens inndeling. Flytting garanterer ikke et usynlig resultat. Vurder spenningen over flere omganger; et hardt rykk eller blokking er ingen sikker løsning.
 
 ### Lengde og antall strømpepinner
 
-Kortere strømpepinner, 13 eller 15 cm, er lettere å håndtere i små prosjekter som sokketær og hanskefingre. Lengre strømpepinner, 18 eller 20 cm, rommer flere masker, men kan kjennes uhåndterlige i trange omganger. Sett finnes med fire eller fem pinner. Et fempinnersett fordeler maskene over fire arbeidspinner, noe som gir jevnere avstand, men flere overganger å håndtere. Et firpinnersett bruker tre arbeidspinner, med færre overganger men skarpere vinkler mellom pinnene. Smakssak.
+Strømpepinner på omtrent 13–15 cm kan passe til små deler; 18–20 cm gir mer plass til maskene. Velg en lengde som holder de hvilende maskene på pinnene og er behagelig å håndtere.
+
+60 masker kan for eksempel fordeles 20 + 20 + 20 på tre pinner og strikkes med en fjerde, eller 15 + 15 + 15 + 15 på fire og strikkes med en femte. Lik fordeling er ikke et krav. Det gir henholdsvis tre og fire overganger mellom grupper per omgang.
 
 ## Utskiftbare rundpinnesett
 
-De fortjener en egen del fordi de har blitt det praktiske standardvalget for mange som strikker regelmessig. Ett sett gir flere spissstørrelser og vaierlengder uten at du må kjøpe en skuff full av faste rundpinner.
+Et utskiftbart sett gir flere spisstykkelser og vaierlengder. Sjekk at delene dekker kombinasjonene du trenger; en ekstra vaier alene blir ikke en ny rundpinne.
 
-ChiaoGoo, KnitPro (Knitter's Pride), Addi, HiyaHiya og Lykke er vanlige navn. Nøyaktig størrelsesutvalg avhenger av settet, og noen merker deler små og store spisser i separate systemer.
+Vaierlengder merkes ulikt. [ChiaoGoo](https://www.chiaogoo.com/faqs/) angir selve vaierens lengde: 20 cm vaier og to spisser på 10 cm gir en nominell rundpinne på 40 cm. Deres 13 cm spisser passer ikke til dette korte oppsettet. [KnitPro](https://www.knitpro.eu/en/blog/knitting-needle-cables-guide-length-types-tips) angir ferdig lengde fra spiss til spiss med de tiltenkte spissene. Sjekk hvilken spisslengde vaieren er merket for. Cm- og tommemålene er nominelle handelsstørrelser, ikke alltid nøyaktige omregninger.
 
-Det som skiller et godt sett fra et frustrerende, er ofte ikke spissene. Det er alt rundt dem: hvor glatte vaierovergangene er, hvor pålitelig låsen er, om byttet går lett, om vaierne husker pakkeformen sin, og om størrelsesmerkingen slites bort etter noen prosjekter. Startkostnaden er høyere enn for en fast rundpinne, så settet gir mening først når du strikker ofte nok til å trenge mer enn to eller tre størrelser.
+Ikke anta at ulike merker eller alle serier innen samme merke passer sammen. ChiaoGoos TWIST- og SPIN-deler passer sammen når koblingsstørrelsen er lik. MINI, S og L har ulike koblinger; noen kombinasjoner krever angitt adapter.
 
 ## 23 cm rundpinner
 
-Et spesialverktøy som er verdt å nevne. En rundpinne så kort at spissene er veldig små og vaieren knapt synes. Hele pinnen får plass i en sokkeomkrets, noe som betyr at du kan strikke rundt en sokk uten magic loop, strømpepinner eller overganger.
+En 23 cm rundpinne er et kort spesialverktøy. Størrelsen selges også som 9 tommer, som nøyaktig tilsvarer 22,86 cm. Totallengden inkluderer de korte spissene. Arbeidets omkrets må være stor nok til at maskene beveger seg uten å strekkes, og spissene trenger arbeidsrom. Den passer ikke til alle sokker, tær, fingre eller mansjetter.
 
-For noen strikkere er 23 cm rundpinner akkurat løsningen de manglet. Tempoet er høyt, det blir ingen stiger, og arbeidet er kompakt. For andre er spissene for korte å gripe komfortabelt, og hånden blir sliten etter noen omganger. Det går ikke an å vite før du prøver.
+Du slipper strømpepinnenes bytter, men det garanterer ikke jevn spenning eller høyere fart. Prøv om du får et behagelig grep om spissene. Velg tykkelse etter strikkefastheten din.
 
-Hvis du er nysgjerrig, kjøp én 23 cm rundpinne i en sokkestørrelse du bruker ofte før du kjøper et helt sett. De fleste som prøver dem, elsker dem eller legger dem stille bort etter én sokk.
+Bytt metode når omkretsen blir for liten. En hæl som strikkes frem og tilbake, kan også kreve et annet oppsett. Kontroller strikkefastheten etter bytte av pinnetype eller metode: samme nominelle tykkelse garanterer ikke samme antall masker og pinner/omganger per måleenhet.
 
 ## Ergonomiske former
 
-Utover vanlige runde pinner finnes noen alternative former. Firkantede pinner, som selges av Kollage og noen mindre merker, har flate sider som ligger annerledes i hånden og kan redusere belastning for noen med håndsmerter. Cubics fra KnitPro bruker en lignende idé. Prym Ergonomics-pinner er laget av fleksibelt syntetisk materiale med høy ytelse. De har dråpeformede spisser og et skaft som går fra rundt til trekantet.
-
-Om det hjelper, avhenger av personen og hvor smerten kommer fra. Markedet er mindre, prisene høyere, og de erstatter ikke helsehjelp ved alvorlige håndproblemer. Men ved mildt ubehag finner noen strikkere en uventet løsning ved å bytte form i stedet for materiale eller størrelse.
+Pinnens form påvirker også grepet. Pryms rette prym.ergonomics-pinner har for eksempel dråpeformede spisser og et skaft som går fra rundt til trekantet. Dette beskriver konstruksjonen, ikke en dokumentert behandling for håndsmerter. Vurder grep og komfort med ditt eget arbeid.
 
 ## Hvilken type til hvilket prosjekt
 
-Et flatt skjerf fungerer på rette pinner eller rundpinner brukt flatt. En lue starter ofte på rundpinne til kroppen og bytter til strømpepinner eller magic loop for toppfellingene. Sokker strikkes på strømpepinner, magic loop, to rundpinner eller 23 cm rundpinner, avhengig av preferanse. Gensere strikket i deler fungerer på rette pinner eller rundpinner brukt flatt. Sømløse gensere trenger rundpinner, og bytter til strømpepinner eller magic loop når ermene blir for smale. Tepper hører hjemme på lange rundpinner brukt flatt. Votter og hansker strikkes på strømpepinner eller magic loop.
+Et skjerf kan strikkes frem og tilbake på rette pinner eller rundpinne. En lue fra kant til topp kan begynne på en passe kort rundpinne og fortsette på strømpepinner eller med magic loop når toppen smalner. Sokker, votter og hansker trenger en metode som passer til omkretsen på delen du strikker: strømpepinner, magic loop, to rundpinner eller en kort rundpinne der den passer.
 
-Den praktiske konklusjonen: et sett rundpinner pluss enten strømpepinner eller magic loop-ferdighet dekker nesten alt. Rette pinner er valgfrie med mindre du allerede har dem og foretrekker dem.
+Genserdeler kan strikkes frem og tilbake på rette pinner eller rundpinne. Rundpinner er praktiske til en sømløs bol; smale ermer trenger en metode for små omkretser. En lang rundpinne passer til et bredt teppe strikket frem og tilbake, mens smale teppedeler kan få plass på rette pinner. Følg oppskriftens konstruksjon og kontroller strikkefastheten når du bytter oppsett.
 
 Hvis du også prøver å finne riktig [størrelse](/no/verktoy/pinnestorrelser/) eller [materiale](/no/artikler/strikkepinner-metall-tre-bambus/), er det egne valg adskilt fra pinnetype.
 
 ## Noen vanlige spørsmål
 
 **Kan rundpinner erstatte rette pinner til flat strikking?**
-Ja. Rette pinner er nå en preferanse, ikke et krav.
+
+Ja. Ikke samle endene til en ring: snu etter hver pinne og følg oppskriftens instruksjoner for frem og tilbake.
 
 **Hvor mange vaierlengder trenger jeg egentlig?**
-En 40 cm rundpinne til luer, en 60 eller 80 cm til gensere og det meste flate arbeidet, og en 100 cm eller lengre til magic loop, tepper og store sjal dekker nesten alt. Legg til en ekstra 80 cm hvis du ofte strikker to ting samtidig.
+
+Start med lengden prosjektet ditt trenger. Eksemplene 40, 60/80 og 100 cm over er totallengder til ulike bruksområder, ingen obligatorisk handleliste. To rundpinner betyr to komplette pinner, ikke bare en ekstra vaier.
 
 **Hvorfor krøller vaieren på rundpinnen seg?**
-Vaierens formminne og stell varierer fra produkt til produkt. Følg produsentens anvisninger: Noen vaiere med kjerne av rustfritt stål kan rettes ut med damp eller lunkent vann, mens vaiere uten formminne kanskje ikke trenger å rettes ut.
+
+Noen vaiere beholder formen fra pakken. Følg vedlikeholdsrådene for akkurat produktet; ikke anta at alle vaiere og koblinger tåler varme.
 
 **Er rundpinner i tre verdt ekstra kostnad?**
-For noen strikkere, ja. Tre har mer grep enn metall, men mindre enn bambus. Lange økter med glatt garn føles annerledes. Til det meste holder en enkel fast rundpinne i metall til du vet at du vil ha trefølelsen.
+
+Vurder følelsen og prisen på en bestemt pinne med garnet ditt. Overflatebehandling og konstruksjon spiller inn, så tre, metall og bambus har ingen fast rangering for friksjon.
 
 **Trenger jeg både strømpepinner og magic loop?**
-Nei, én av metodene holder. Den du lærer først blir ofte standard. Strikkere som begynte med strømpepinner, blir ofte der. Strikkere som lærte magic loop først, kjøper sjelden strømpepinner. Ferdighetene er utskiftbare for nesten alle prosjekter med liten omkrets.
+
+Én egnet metode for små omkretser holder i starten. Tilpass oppskriftens pinnebaserte maskefordeling, marker starten på omgangen og kontroller strikkefastheten når du bytter metode.
 
 **Er 23 cm rundpinner verdt oppmerksomheten?**
-For noen, ja. For andre er spissene for trange. Ikke kjøp dem i alle størrelser før du vet om de fungerer for hendene dine. Prøv én først.
+
+Prøv én hvis totallengden passer arbeidet og du får et behagelig grep om spissene. Ha en annen metode til delene som blir for små.

@@ -1,7 +1,8 @@
 ---
 title: "Combien de fil pour un pull ?"
-description: "Estimer la quantité de fil pour un pull tricoté : métrages par taille et épaisseur, plus les ajustements pour manches, torsades et gilets."
+description: "Prévois le fil pour un pull à partir des mesures du modèle et d’un exemple sourcé. Convertis les mètres en pelotes et tiens compte des manches et modifications."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: "yarn"
 categoryOrder: 4
 tags:
@@ -17,118 +18,83 @@ lang: fr
 translationKey: "yarn-for-sweater"
 ---
 
-Un pull est souvent le plus grand vêtement qu'une tricoteuse réalise, et le métrage le reflète. Sous-estime la quantité et tu te retrouves à chercher un bain de teinture introuvable avec une demi-manche encore à tricoter. Surestime trop, et un fil coûteux dort dans le stock pendant des années.
+Prévois la quantité de fil pour ton pull avant d’acheter. Sous-estime la quantité et tu te retrouves à chercher un bain de teinture introuvable avec une demi-manche encore à tricoter. Surestime trop, et un fil coûteux dort dans le stock pendant des années.
 
-La bonne quantité dépend de trois choses : la taille du pull, l'épaisseur du fil et la construction. Un pull court en Bulky peut demander 600 m. Un long gilet en Fingering peut dépasser 2 600 m. Les fourchettes ci-dessous couvrent les cas les plus courants.
+Pars de la quantité indiquée pour la taille que tu veux tricoter. Tour de poitrine du pull fini, longueur du corps et des manches, encolure, point, échantillon et construction du fil comptent. Une lettre de taille ou une catégorie d’épaisseur ne suffit pas.
 
 ## Estimations par taille
 
-Ces chiffres supposent un pull standard en jersey : col rond, manches longues, longueur hanches. Les gilets, les pulls courts et les points texturés demandent des ajustements plus bas.
+Compare tes mensurations aux dimensions finies du modèle et à l’aisance prévue. S/M/L ne désignent pas les mêmes mesures dans tous les modèles. [Le Craft Yarn Council explique les mensurations et l’aisance](https://www.craftyarncouncil.com/standards/body-sizing).
 
-**XS-S (tour de poitrine 80 à 90 cm)**
+Prenons le [Novice Sweater de PetiteKnit](https://www.petiteknit.com/en/products/novice-sweater), un pull sans coutures tricoté de haut en bas en jersey, avec empiècement rond et bordures en côtes. Voici trois tailles avec l’option Kos, tricotée avec un seul fil. L’échantillon est de 16 mailles × 21 rangs pour 10 × 10 cm sur des aiguilles de 6 mm. La longueur est mesurée au milieu du dos, sans les côtes de l’encolure.
 
-Fingering : 1 200 à 1 500 m
-DK : 900 à 1 200 m
-Worsted : 700 à 1 000 m
-Bulky : 550 à 750 m
+| Taille | Tour de poitrine fini / longueur (cm) | Kos (g / m) |
+| ------ | ------------------------------------- | ----------- |
+| S      | 98 / 55                               | 300 / 900   |
+| M      | 103 / 57                              | 350 / 1 050 |
+| XL     | 116 / 62                              | 400 / 1 200 |
 
-**M-L (tour de poitrine 95 à 110 cm)**
+[Sandnes Garn indique environ 150 m pour 50 g de Kos](https://www.sandnesgarn.no/kos), un mélange d’alpaga et de laine soufflé dans un tube de nylon. Ces quantités correspondent donc à 6, 7 et 8 pelotes. Les mètres représentent la longueur fournie par les quantités indiquées, pas une consommation mesurée. L’exemple concerne ce modèle et ce fil uniquement. La présentation publique ne précise ni la longueur des manches ni une réserve distincte ; consulte les explications complètes avant de les modifier.
 
-Fingering : 1 500 à 2 000 m
-DK : 1 200 à 1 600 m
-Worsted : 1 000 à 1 400 m
-Bulky : 750 à 1 000 m
-
-**XL-2XL (tour de poitrine 115 à 130 cm)**
-
-Fingering : 2 000 à 2 500 m
-DK : 1 600 à 2 100 m
-Worsted : 1 400 à 1 800 m
-Bulky : 1 000 à 1 300 m
-
-**3XL+ (tour de poitrine 135 cm et plus)**
-
-Fingering : 2 500 à 3 000 m
-DK : 2 100 à 2 600 m
-Worsted : 1 800 à 2 300 m
-Bulky : 1 300 à 1 700 m
-
-Pour une estimation personnalisée selon ta taille, l'épaisseur du fil et le style du pull, l'[Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) fait le calcul.
+[Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) — Quantités de référence de modèles nommés, pas une prévision personnalisée de consommation. Choisis un projet, une taille d’un modèle nommé et une unité. Le résultat est la quantité de référence de ce modèle, pas une prévision pour ton propre projet.
 
 ## Ajustements selon le style
 
-**Gilets :** prévois un peu plus qu'un pull fermé de même taille. Les bandes de boutonnage, les lisières supplémentaires et le col relevé consomment du fil. Un devant très croisé ou un col châle ajoute plus qu'une bande étroite avec cinq boutons.
+**Gilets :** pars de la quantité d’un modèle de gilet. Compte les devants, le chevauchement, les bandes de boutonnage et le col. La quantité d’un pull augmentée d’un supplément fixe ne les remplace pas.
 
-**Longueur courte :** va vers le bas de la fourchette. Le gain dépend de l'endroit où le pull s'arrête. Juste sous la poitrine économise plus que juste au-dessus des hanches.
+**Pull court ou tunique :** estime la partie du corps retirée ou ajoutée selon sa largeur, sa forme et son point. Agrandir le tour de poitrine n’agrandit pas les manches et l’encolure dans la même proportion.
 
-**Tunique / modèle long :** va vers le haut de la fourchette et ajoute une marge. Chaque centimètre ajouté au corps demande des rangs ou des tours supplémentaires sur toute la largeur du vêtement ; leur nombre dépend de ton échantillon en rangs. Cela monte vite.
+**Manches courtes ou débardeur :** recalcule les manches modifiées et les bordures d’emmanchure. Une estimation de pull n’est pas une limite haute automatique pour un débardeur construit autrement.
 
-**Manches courtes ou petites manches :** utilise moins qu'un pull à manches longues. Les manches représentent une part étonnamment grande du métrage total, donc en retirer la majeure partie change vraiment la quantité.
-
-**Sans manches / débardeur :** utilise l'estimation du pull comme limite haute, puis réduis pour les manches absentes.
-
-**Aisance négative :** un pull prévu pour s'étirer sur le corps utilise un peu moins de fil que le même modèle tricoté aux mensurations complètes. La différence n'est pas énorme, mais elle pousse vers le bas de la fourchette de taille.
+**Aisance négative :** le vêtement fini est plus petit que la mensuration correspondante. Choisis d’abord la coupe et le tissu tricoté, plutôt que de resserrer le pull uniquement pour économiser du fil.
 
 ## Ajustements selon le point
 
-**Torsades :** ajoute une bonne marge. Les torsades tirent le tissu vers l'intérieur, donc le pull demande plus de mailles pour obtenir la même largeur de poitrine. Un pull couvert de torsades fait partie des constructions les plus gourmandes en fil. Un seul panneau torsadé devant et dos reste plus proche d'un jersey dans la consommation totale.
+**Torsades, brioche, point de riz et dentelle :** utilise la quantité du modèle ou mesure la consommation d’un échantillon représentatif dans le point concerné. Une estimation pour le jersey ne donne pas leur consommation. Il n’existe pas de supplément universel pour les torsades ni d’économie automatique pour la dentelle.
 
-**Jacquard à fils tirés :** ajoute une marge sur tous les coloris ensemble. Les fils flottants sur l'envers consomment du fil qui ne se voit pas sur l'endroit. Un pull à empiècement jacquard consomme nettement plus qu'une version en jersey uni de même taille. La couleur principale prend souvent la plus grande part, tandis que les contrastes se partagent le reste.
+**Jacquard à fils tirés :** utilise les quantités par coloris. Le fil passe aussi sur l’envers en fils flottants ; la surface visible de chaque couleur ne suffit donc pas. Mesure chaque coloris sur une répétition représentative et arrondis séparément sa quantité à acheter.
 
-**Points texturés, brioche, point de riz :** ajoute une marge. La brioche crée un tissu plus épais et plus gourmand en fil que le jersey, et le point de riz peut resserrer l'échantillon au point de modifier l'estimation.
-
-**Dentelle :** environ autant que le jersey, ou un peu moins. La structure ajourée s'étire au blocage, donc un panneau de dentelle couvre plus de surface par mètre.
+**Plusieurs fils ensemble :** vérifie si le modèle donne une quantité par fil ou un total. Chaque fil doit avoir assez de longueur pour la partie où il est tricoté. Ne partage pas un besoin à un seul fil entre deux fils, et ne double pas un total qui comprend déjà les deux.
 
 ## Le piège des manches
 
-Les manches sont l'endroit où les erreurs d'estimation arrivent souvent. Une paire de manches longues pour un pull M-L en Worsted peut utiliser plusieurs centaines de mètres. C'est une grande part du métrage total du projet. Les tricoteuses qui estiment la quantité d'après le corps découvrent parfois au moment des manches qu'il manque deux pelotes.
+Réserve du fil pour les deux manches et leurs poignets avant d’allonger le corps. Un corps terminé ne prouve pas que le fil restant suffira.
 
-Si les quantités sont serrées, tricote les manches d'abord. Cela semble contre-intuitif, mais c'est pratique : le corps est la partie où tu peux ajuster la longueur le plus directement si le fil commence à manquer, en le raccourcissant d'un ou deux centimètres, alors que les manches doivent rester symétriques. Tu ne peux pas en faire une plus courte que l'autre sans que cela paraisse volontaire. Savoir combien les manches ont consommé donne un budget clair pour le reste.
-
-La construction top-down en une seule pièce rend la longueur du corps plus ajustable, mais le problème des manches reste là. Tu termines l'empiècement, tu sépares le corps et les manches, puis tu tricotes souvent le corps en premier. Si l'estimation est mauvaise, ce sont les manches qui paient. Prévois-le.
+Si la construction le permet, tricote les manches avant de fixer la longueur définitive du corps. Pour un pull à empiècement tricoté de haut en bas, il faut d’abord atteindre la séparation du corps et des manches. Tu peux ensuite finir les manches avant d’utiliser le reste pour le bas du corps. Garde aussi du fil pour la bordure du bas, l’encolure et les fils à rentrer.
 
 ## Construction et répartition du métrage
 
-Dans la plupart des pulls, le corps et les manches consomment l'essentiel du fil. Les côtes, les encolures, les bandes de boutonnage et les finitions en utilisent moins, mais il faut quand même les compter. Un raglan ou un pull à empiècement déplace plus de fil vers le haut du corps. Un pull à épaules tombantes en met davantage dans le corps, parce que les manches sont plus étroites et plus courtes.
+Liste le corps, les deux manches, l’empiècement ou les épaules, les côtes, l’encolure, les éventuelles bandes de boutonnage, les coutures et les fils à rentrer. Compte chaque partie une seule fois : l’empiècement comprend le haut du corps et des manches. Un raglan ou des épaules tombantes ne déterminent pas à eux seuls la répartition du fil.
 
-Cela compte surtout quand tu travailles avec une quantité limitée. Un pull à épaules tombantes en fil de stock donne plus de marge sur le corps et moins sur les manches. Un pull à empiècement jacquard engage une grande part du métrage dans une zone très visible, là où toute modification du motif de couleur affecte aussi le total.
+Pour une modification, [la méthode par surface de Rita Buchanan](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf) donne un point de départ : consommation de l’échantillon × surface de la partie modifiée / surface de l’échantillon. Utilise le même fil, les mêmes aiguilles, le même point et le même travail à plat ou en rond que pour le pull. Lave et sèche complètement l’échantillon selon l’entretien prévu, dans les limites des consignes du fil. Le fil pesé ou mesuré doit correspondre à la surface mesurée ; traite les bordures et les bouts libres séparément et utilise une balance assez précise. Calcule séparément les pièces mises en forme et les différents points. Cette méthode ne garantit pas le besoin total du vêtement.
 
 ## Convertir le métrage en pelotes
 
-Regarde l'étiquette du fil pour connaître le nombre de mètres par pelote. Divise ton estimation totale par ce nombre. Arrondis au-dessus.
+Lis le métrage par pelote sur l’étiquette. Divise la longueur nécessaire par celle d’une pelote dans la même unité, puis arrondis au nombre entier supérieur.
 
-Ton pull demande environ 1 300 m. Le fil donne 160 m par pelote de 50 g. Cela fait 8 pelotes. Achète-en 9. Une pelote de sécurité.
+Exemple de calcul hypothétique : pour un besoin établi de 1 300 m et un fil de 160 m par pelote de 50 g, 1 300 / 160 = 8,125. Il faut donc 9 pelotes, soit 450 g et 1 440 m. Les 8 premières ne donnent que 1 280 m : la neuvième est nécessaire pour atteindre 1 300 m, pas une pelote de sécurité supplémentaire. Les 140 m issus de l’arrondi ne constituent pas automatiquement une réserve suffisante. Le calcul ne prouve pas que 1 300 m conviennent à un pull précis.
 
-Pour les pulls, la pelote supplémentaire vaut la peine même quand le calcul semble exact. La variation d'échantillon au fil du projet, le fil utilisé pour l'échantillon, les fils à rentrer et les éventuels détricotages grignotent tous la réserve. Un échantillon utile et quelques côtes défaites puis retricotées peuvent consommer une quantité surprenante de fil avant même que le vrai vêtement commence.
-
-Beaucoup de boutiques reprennent les pelotes inutilisées, non bobinées, avec la bande intacte. Demande avant d'acheter. Même sans retour possible, une pelote de bon fil sert rarement à rien : bonnet, moufles, réparations ou touches de couleur dans un futur jacquard.
+Vérifie ce que le modèle inclut déjà pour l’échantillon, les finitions et les imprévus. Ajoute seulement la réserve utile à ton projet, sans la compter deux fois. Détricoter ne consomme pas à nouveau le fil s’il est réutilisable ; les morceaux coupés ou abîmés doivent être remplacés. Vérifie les conditions de retour de la boutique avant de compter dessus.
 
 ## Partir du fil déjà en stock
 
-Scénario courant : tu as une quantité précise de fil et tu veux savoir ce que tu peux en faire.
+Pour les pelotes entières, multiplie leur nombre par le métrage indiqué. Pour les pelotes entamées, pèse uniquement le fil sec, sans étiquette ni support central. L’estimation est : grammes restants / grammes de l’étiquette × métrage de l’étiquette. Les valeurs arrondies et la précision de la balance limitent le résultat.
 
-Pèse une pelote pleine pour confirmer son poids réel, multiplie par le nombre de pelotes, puis utilise le métrage indiqué sur l'étiquette pour calculer le total. Vérifie ensuite si ce total entre dans la fourchette correspondant à la taille et au style souhaités.
-
-Si tu es à la limite, c'est-à-dire tout juste dans l'estimation, envisage des modifications qui réduisent la quantité : manches plus courtes, corps raccourci, coupe plus près du corps ou version sans manches. Mieux vaut décider cela au départ que l'improviser quand la deuxième manche manque de fil. Choisir une taille plus petite et tricoter à un échantillon un peu plus lâche peut aussi aider, mais cela demande un échantillon sérieux.
+Compare ton stock au besoin d’un modèle adapté, coloris par coloris et fil par fil. Prévois les manches ou le corps raccourcis à l’avance et recalcule les parties modifiées. Choisir une taille plus petite et tricoter plus lâche n’est pas une économie fiable : cela modifie l’échantillon, les dimensions et le tissu.
 
 ## FAQ
 
 **Faut-il plus de fil pour un pull homme que pour un pull femme ?**
-
-La différence vient des dimensions finies, pas de l'étiquette de taille. Un pull homme et un pull femme avec le même tour de poitrine, la même longueur, les mêmes manches, le même échantillon et la même construction utilisent à peu près la même quantité de fil. Les tailles homme couvrent souvent des mesures plus grandes ou plus longues, donc en pratique il faut souvent plus de fil. Mais parce que le pull est plus grand, pas parce qu'il est "homme".
+Compare les dimensions finies, les longueurs du corps et des manches, le fil, l’échantillon, le point et la construction. Le même tour de poitrine ou la même lettre de taille ne suffit pas, quelle que soit la désignation homme ou femme.
 
 **Puis-je utiliser une autre épaisseur de fil que celle du modèle ?**
-
-Oui, mais le métrage change beaucoup. Passer du Worsted au DK augmente la longueur totale même si le fil est plus fin, parce qu'il y a plus de mailles dans toutes les directions. Le guide pour [changer d'épaisseur de fil](/fr/articles/remplacer-par-une-autre-epaisseur-de-fil/) explique le processus complet, avec l'échantillon et le comportement du tissu.
+C’est possible, mais une longueur totale identique ne valide pas un remplacement. Vérifie les mailles et les rangs de l’échantillon, le tissu lavé, la composition et la construction du fil. Passer du Worsted au DK ne donne pas une variation fixe du métrage. Le guide pour [changer d’épaisseur de fil](/fr/articles/remplacer-par-une-autre-epaisseur-de-fil/) aborde ces points.
 
 **Combien de fil utilise l'empiècement d'un pull top-down ?**
-
-L'empiècement peut prendre une grande part du métrage total du pull, selon sa profondeur et sa mise en forme. Les empiècements jacquard profonds, y compris les longs empiècements d'inspiration islandaise, se placent en haut de la fourchette parce que la zone est large, visible et souvent tricotée avec plusieurs fils.
+Il n’y a pas de proportion fixe. Utilise la profondeur réelle, la mise en forme, le point et les quantités par coloris. Ne compte pas à nouveau le haut des manches lorsque tu estimes celles qui se trouvent sous la séparation.
 
 **Vaut-il mieux acheter trop de fil ou risquer d'en manquer ?**
-
-Achète un peu plus si le fil est disponible et que le budget le permet. Une pelote non utilisée peut être retournable, servir à un accessoire ou rester disponible pour les réparations. Un pull à moitié fini qu'on ne peut pas terminer parce que le bain a disparu est un bien pire résultat.
+Prévois une réserve adaptée au projet et vérifie ce que le modèle couvre déjà. Retrouver le même bain peut être difficile. Compare le coût de la réserve à ce risque et vérifie les conditions de retour. Une pelote supplémentaire n’est pas une règle universelle.
 
 **La fibre du fil change-t-elle la quantité nécessaire ?**
-
-Un peu. La laine et les mélanges de laine suivent souvent assez bien les estimations standard. Le coton et le lin sont plus lourds et moins élastiques, donc l'échantillon compte davantage si la marge est serrée. L'alpaga et la soie peuvent tomber et s'allonger après blocage selon le mélange et la construction, ce qui peut déplacer la taille plus que de petits ajustements du nombre de mailles.
+La fibre et la construction du fil influencent le tissu et sa réaction au lavage. Vérifie le métrage réel indiqué et un échantillon traité. Il n’existe pas de coefficient universel lié à la fibre pour le métrage d’un pull.

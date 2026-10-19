@@ -2,6 +2,7 @@
 title: '"Samtidig" i strikkeopskrifter'
 description: 'Forstå instruktionen "samtidig" i strikkeopskrifter. Følg to handlinger på samme tid med eksempler på ærmer, hals og indtagninger.'
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 8
 tags:
@@ -16,39 +17,37 @@ lang: da
 translationKey: "at-the-same-time-knitting"
 ---
 
-Det betyder præcis det, der står. Og det er netop derfor, det kan være forvirrende. To forskellige ting sker på de samme pinde, og opskriften beskriver dem hver for sig, selv om du gør dem samtidig.
+"Samtidig" betyder, at to sæt instruktioner overlapper i en del af arbejdet. De enkelte handlinger kan falde på forskellige pinde eller omgange; kun nogle kræver begge dele. Følg hver instruktion fra dens egen start til det angivne slutpunkt.
 
-"Samtidig" i en strikkeopskrift betyder, at to sæt instruktioner sker parallelt over de samme pinde eller omgange. Typisk er den ene handling en formgivning, der ligger oven på et løbende maskemønster. Det ses mest i tøj. Opskriften kan ikke altid skrive begge ting rent i én linje, så den beskriver først den ene handling, skriver "samtidig" og beskriver derefter den anden.
+Læs hele afsnittet for din valgte størrelse, før du begynder. Opskriftens egne noter og tegnforklaring går forud for generelle regler. [Craft Yarn Councils vejledning i at læse opskrifter](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern) forklarer samtidig og spejlvendt formgivning (på engelsk).
 
 ## Et konkret eksempel
 
-Et typisk sted i en sweateropskrift:
+Her er en tænkt øvelse i glatstrik frem og tilbage med 40 masker på pinden. Pind 1 er næste pind i dette afsnit, fra vrangsiden (VS). Tidligere pinde og opslaget tælles ikke med. Den første indtagning ligger udtrykkeligt på pind 6, fra retsiden (RS):
 
-"Fortsæt i glatstrik. SAMTIDIG tages 1 m ind i hver side på hver 6. pind, 5 gange."
+"Fortsæt i glatstrik. Tag 1 maske ind i hver side på pind 6. Gentag indtagningerne på hver 6. pind yderligere 4 gange, i alt 5 indtagningspinde."
 
-Fortsæt altså i glatstrik, ret på retsiden og vrang på vrangsiden, men på hver 6. pind laver du en indtagning i begyndelsen og slutningen af pinden. Indtagningerne sker på glatstrikpindene. Du gør ikke først den ene del færdig og derefter den anden.
+- Pind 1 (VS): strik vrang.
+- Pind 2 (RS): strik ret.
+- Pind 3 (VS): strik vrang.
+- Pind 4 (RS): strik ret.
+- Pind 5 (VS): strik vrang.
+- Pind 6 (RS): ssk, strik ret til de sidste 2 m, strik 2 r sm. Der er 38 masker tilbage.
+- Pind 7 (VS): strik vrang.
 
-Pind 1: strik ret  
-Pind 2: strik vrang  
-Pind 3: strik ret  
-Pind 4: strik vrang  
-Pind 5: strik ret  
-Pind 6: ssk, strik ret til der er 2 m tilbage, 2 r sm (indtagningspind, stadig glatstrik)  
-Pind 7: strik vrang
+Fortsæt med vrang på ulige pinde og ret på lige pinde i dette eksempel. Tag også ind på pind 12, 18, 24 og 30. Efter dem er der henholdsvis 36, 34, 32 og 30 masker. Hver indtagning gør 2 masker til 1, så hver indtagningspind fjerner 2 masker: 40 − 5 × 2 = 30. Stop indtagningerne efter pind 30 og fortsæt efter opskriften.
 
-Fortsæt på samme måde, med indtagning på hver 6. pind, i alt 5 indtagningspinde.
-
-Glatstrikken stopper ikke. Indtagningerne lægges ind i den.
+Der er fem pinde mellem indtagningspindene. Fem gange **i alt** inkluderer pind 6. Fem gange **mere** efter pind 6 ville give seks indtagningspinde, den sidste på pind 36, med 28 masker tilbage. "Hver 6. pind" angiver ikke i sig selv den første indtagningspind: find starten i de omgivende instruktioner.
 
 ## Hvor du møder det
 
-Det mest almindelige er ærmegab og halsudskæring på samme tid. Opskriften giver først indtagningerne til ærmegabet og skriver derefter "samtidig, når arbejdet måler X cm, begyndes halsudskæringen". Når halsen starter, kører begge indtagninger på de samme pinde. Du tager altså ind i begge kanter samtidig, men i forskellige rytmer. Ærmegab måske på hver anden pind, hals på hver 4. pind.
+Ærmegab og halsudskæring kan formes i samme del af arbejdet. Den ene formgivning kan starte på en bestemt pind, den anden ved et bestemt mål. Mål fra det punkt, opskriften angiver, og følg eventuelle krav om at slutte med en bestemt sidepind. Et længdemål alene giver ikke et pindenummer: et overslag kræver antal pinde pr. længdeenhed og afrunding til en passende hel pind og erstatter ikke måling af arbejdet. Under overlapningen kan en pind have én indtagning, begge eller ingen.
 
 Det dukker også op, når et maskemønster skifter under formgivningen. Kroppen på en sweater kan gå fra rib til snoninger samtidig med, at taljeudtagningerne starter. Forkanter bruger samme logik: "Fortsæt i perlestrik. SAMTIDIG laves knaphul på pind 4, 14, 24 og 34." Perlestrikken fortsætter. Knaphullerne placeres ind imellem.
 
 ## Et gennemarbejdet eksempel med to overlappende rytmer
 
-For at se hvordan det ser ud i praksis, forestil dig indtagninger til ærmegab på hver 2. pind og indtagninger til hals på hver 4. pind, begge med start på samme pind.
+Dette separate eksempel strikkes frem og tilbage over én forstykkedel med 30 masker. På retsiden ligger ærmegabskanten i begyndelsen af pinden og halskanten i slutningen. Pind 1 starter dette afsnit fra retsiden (RS); lige pinde er fra vrangsiden (VS). Tag 1 maske ind ved hver kant på pind 1. Gentag ærmegabsindtagningen på hver anden pind yderligere 4 gange (5 i alt) og halsindtagningen på hver fjerde pind yderligere 2 gange (3 i alt). Brug her ssk i begyndelsen og 2 r sm i slutningen; strik vrang på vrangsiden.
 
 | Pind | RS/VS | Ærmegab | Hals | Begge?      |
 | ---- | ----- | ------- | ---- | ----------- |
@@ -62,25 +61,23 @@ For at se hvordan det ser ud i praksis, forestil dig indtagninger til ærmegab p
 | 8    | VS    | nej     | nej  | nej         |
 | 9    | RS    | ja      | ja   | ja          |
 
-Hver 2. pind får ærmegabet en indtagning. Hver 4. pind får halsen en indtagning. Hver 4. pind sker begge dele på samme pind. Skemaet er hele tricket. Når du kan se overlapningen, bliver strikningen bare en række markerede indtagninger.
+Ærmegabsindtagningerne ligger på pind 1, 3, 5, 7 og 9; halsindtagningerne på pind 1, 5 og 9. Begge sker på pind 1, 5 og 9, ikke på pindenumre, der er delelige med 4. Maskeantallet efter pind 1–9 er **28, 28, 27, 27, 25, 25, 24, 24, 22**. Begge serier slutter efter pind 9: 30 − 5 − 3 = 22 masker. Ingen masker sættes til hvile eller lukkes af i eksemplet.
 
-At skrive skemaet ud før du starter tager fem minutter. Det sparer timer af forvirring midt i arbejdet.
+Tallene gælder én del, ikke hele tøjet eller begge forstykker tilsammen. Når halsudskæringen deler arbejdet, følger du hver sides maskeantal og instruktioner separat. Hold hvilende masker adskilt fra aflukkede masker; hvilende masker findes stadig. Følg opskriften for separate garntråde og spejlvendt formgivning på den anden side.
 
 ## Hvorfor opskrifter skrives sådan
 
-Alternativet er værre. Hvis hver pind blev skrevet ud med alle samtidige handlinger flettet sammen, blev opskriften lang, gentagende og sværere at følge for alle, der ikke er helt nye. Det er renere at skille handlingerne ad og fortælle, at de skal kombineres, når du først kender konventionen.
+At beskrive maskemønster og formgivning hver for sig holder instruktionen kort, især når den omfatter flere størrelser. En samlet pind-for-pind-liste kan stadig være lettere at følge, mens du strikker.
 
 Tænk på det som to spor, der spiller samtidig. Melodi og bas. Hver giver mening alene. Du spiller begge.
 
 ## Sådan holder du styr på det
 
-Strikningen er sjældent den svære del. Det svære er at huske, hvilken pind der skal have hvilken handling, eller begge.
+Skriv startpind, interval, samlet antal gange, kant og slutbetingelse for hver instruktion. "Næste pind" er den pind, du skal strikke nu; tæl ikke den senest afsluttede pind igen. Marker forberedende pinde særskilt, og skeln mellem hele arbejdets pindenumre og en optælling, der begynder ved et nyt afsnit eller en formgivning.
 
-Den enkleste metode: skriv det ud, før du starter. Flet de to instruktioner sammen til én pind-for-pind-liste. "Pind 1: ret, tag ind ved ærmegabet. Pind 2: vrang. Pind 3: ret, tag ind ved halskanten." Det tager et par minutter, men fjerner regnearbejdet, når du faktisk sidder og strikker.
+Listen til tabellen begynder: "Pind 1: ret med begge indtagninger. Pind 2: vrang. Pind 3: ret med kun ærmegabsindtagningen." Kryds både pinden og handlingerne af. Bruger du to manuelle intervaltællere, øger du begge efter hver færdig pind, mens deres serier er i gang, også pinde uden indtagninger. Noter antallet af udførte indtagninger særskilt, så du ved, hvornår du skal stoppe.
 
-To tællere virker også. Én følger ærmegabets rytme, den anden halsen. Når begge rammer samme pind, laver du begge handlinger. Nogle strikkere markerer direkte i opskriften, hvilke pinde der har ærmegabsindtagning, halsindtagning eller begge. Forskellige farver hjælper.
-
-KnitTools' [omgangstæller](/da/strikkevaerktoejer/#join) understøtter flere samtidige tællere netop til den slags.
+Flere tællere i KnitTools' [omgangstæller](/da/strikkevaerktoejer/#join) er en Pro-funktion. Til denne metode kan du bruge separate tællere uden sammenkobling og øge dem selv. Du fortolker opskriften, angiver startværdierne og holder styr på de handlinger, der skal udføres; dette lover ikke, at appen læser instruktionerne eller laver den samlede plan automatisk.
 
 ## Indtagningstype og symmetri
 
@@ -90,48 +87,52 @@ Når to formgivninger sker på samme pind, skal du følge de indtagningstyper, o
 
 Når indtagningerne overlapper, arbejder du dem i den rækkefølge, de ligger på pinden. Lav formgivningen ved den første kant, strik hen over pinden, og lav formgivningen ved den anden kant. Hvis begge handlinger ligger tæt på samme kant, så gør præcis det opskriften siger, og tjek maskeantallet før du går videre.
 
+Aflukning er noget andet end indtagning. Ved almindelig strik frem og tilbage lukkes kantmasker normalt af i begyndelsen af pinden. Modsatte kanter kan derfor lukkes af på efterfølgende ret- og vrangsidepinde. Erstat ikke det med indtagninger i begge ender af samme pind. Når du vender, ligger begyndelsen ved den modsatte kant. Følg angivet kant, arbejdsretning og metode ved hals- og skulderformgivning. Tøjets venstre og højre dele navngives set fra den, der bærer det.
+
 ## Når rytmerne rammer samme pind
 
-Når to handlinger kører med forskellige intervaller, får nogle pinde begge dele. Ærmegabsindtagning på hver 2. pind og halsindtagning på hver 4. pind betyder, at hver 4. pind får to sæt indtagninger.
+Intervaller alene bestemmer ikke, hvilke pinde der får begge handlinger: startpindene er også afgørende. I tabellen starter begge på pind 1, så intervallerne på 2 og 4 pinde mødes på pind 1, 5 og 9. Andre startpunkter kan flytte overlapningen eller betyde, at handlingerne aldrig falder på samme pind.
 
-Lav dem som separate handlinger på samme pind. Start med den indtagning, der hører til i begyndelsen af pinden, strik hen over pinden og lav den anden ude i den modsatte kant. Hvis begge sker i samme kant, sjældnere men muligt i asymmetriske konstruktioner, laver du dem efter hinanden.
+Udfør handlingerne i den rækkefølge, du når dem langs pinden. Ligger de tæt på samme kant, så kontroller, hvilke masker hver handling bruger; regn ikke med at bruge de samme masker to gange. Bevar maskemønstrets placering, kantmasker og eventuelle ufuldstændige rapporter efter opskriften.
 
 ## Når rytmen lander på en vrangsidepind
 
-Det meste synlige formgivning skrives til retsidepinde, fordi indtagningerne er lettere at læse på retsiden. Men formuleringer med "hver 4. pind" kan stadig snyde. Hvis en rytme starter på en retsidepind, bliver de næste indtagningspinde også retsidepinde. Hvis optællingen starter fra en vrangsidepind, lander de udløsende pinde på vrangsiden.
+Når du strikker frem og tilbage uden vendepinde, skifter ret- og vrangsiden. En indtagning fire pinde efter den forrige ligger på samme side, med tre pinde imellem. Det afgørende er den første **indtagningspind**, ikke blot optællingens start. Ulige pinde er ikke altid retsidepinde: pind 1 er vrangside i den første øvelse og retside i tabellen.
 
-Flyt ikke bare en indtagning, fordi pinden føles upraktisk. Tjek først opskriftens noter, maskeantal og eventuelle rettelser. Hvis opskriften kræver en indtagning på vrangsiden, så brug den vrangsideindtagning den giver, for eksempel 2 vr sm eller ssp. Hvis opskriften siger, at formgivning kun sker på retsidepinde, så læg indtagningen på næste retsidepind og marker optællingen tydeligt.
-
-Det vigtige er ikke at gætte. Det samlede antal indtagninger skal stadig passe med opskriften, og formgivningslinjen skal være konsekvent.
+Hvis intervallet strider mod en instruktion om kun at forme fra retsiden, så kontroller startpunkt, noter og rettelser eller spørg designeren. Flyt ikke selv indtagningen til næste retsidepind. Brug den angivne vrangsideindtagning, for eksempel 2 vr sm eller ssp. Ved almindelig rundstrik vender retsiden mod dig hele tiden; de flade eksemplers skift mellem ret- og vrangpinde gælder ikke dér.
 
 ## Når handlingerne ikke starter samtidig
 
-Nogle gange er starten forskudt. Først "begynd ærmegabsformgivning", og tre pinde senere "samtidig begyndes halsudskæringen". De overlapper kun en del af vejen. Den ene starter først, begge kører samtidig et stykke tid, og den ene slutter før den anden.
+Nogle gange starter ærmegabsformgivningen først og halsudskæringen senere. De overlapper kun en del af arbejdet, og den ene kan slutte først. Noter begges faktiske startpind og slutbetingelse; start ikke den første optælling forfra, når den anden formgivning begynder.
 
 Her betaler en samlet pind-for-pind-plan sig. Marker ærmegabspindene. Læg halspindene ovenpå. Marker hvor der kun er ærmegab, hvor der kun er hals, og hvor der er begge. Strik efter den samlede plan. Hvis du også er ved at få styr på resten af [opskriftens opbygning](/da/artikler/laes-strikkeopskrift/), gennemgår den guide størrelser, gentagelser og forkortelser.
 
 ## Knaphuller i forkanter
 
-En almindelig variant: "Fortsæt i perlestrik (eller rib). SAMTIDIG laves knaphuller på pind 6, 16, 26, 36 og 46."
+En almindelig variant: "Fortsæt i perlestrik eller rib. SAMTIDIG laves knaphuller på pind 6, 16, 26, 36 og 46."
 
-Det adskiller sig fra formgivning på to måder. Knaphuller bygger sig ikke op; hvert knaphul er en enkelt hændelse, ikke en løbende reduktion i maskeantal. Og afstanden er ofte fastlagt med nøjagtige pindetal. Den reneste metode er at markere de pindetal på forhånd med små sedler i opskriften eller noter i en omgangstæller-app.
+Det er fem knaphulspinde med 10 pindes interval og ni pinde imellem. Det tidligere eksempel, pind 4, 14, 24 og 34, giver fire knaphulspinde med samme afstand. I disse tænkte skemaer tæller du fra forkantens begyndelse uden en eventuel tidligere forberedende pind. Her er pind 1 fra vrangsiden, så de angivne lige pinde er fra retsiden. Det er en udtrykkelig forudsætning for eksemplerne, ikke en generel regel.
 
-Hvis du selv planlægger afstanden, så beslut om knaphullerne hører hjemme på retsidepinde, og marker dem før du strikker forkanten. Hvis den udgivne opskrift giver præcise pinde, følger du dem, medmindre opskriftens noter siger noget andet.
+Dette er skemaer for placeringen på pinde, ikke komplette forkantopskrifter: startantallet af masker og knaphullets plads på pinden er ikke angivet. I et enkelt knaphul med omslag giver omslaget 1 ny maske, mens 2 r sm fjerner 1. Startantallet er genoprettet på samme pind. Strik de øvrige masker i det etablerede mønster. Et knaphul med aflukning og opslag kan ændre antallet midlertidigt; følg begge trin på de angivne pinde. Brug opskriftens knaphulsmetode og placering.
+
+Marker pindene og færdige knaphuller på papir eller i noter, du selv opdaterer. Følg den udgivne opskrift, hvis den angiver andre pinde eller et andet udgangspunkt for optællingen.
 
 ## Tjek med Ravelry
 
-Hvis en del af opskriften bliver ved med at være forvirrende, så søg efter opskriften på Ravelry og kig på projektsiderne. Andre strikkere skriver ofte, hvor de fik problemer med timingen, især omkring "samtidig"-afsnit. Noter som "ærmegab og hals overlapper, jeg skrev pindene ud først" er almindelige, og det samme er rettelser af tvetydig formulering.
-
-En kompleks opskrift uden Ravelry-projekter giver mindre hjælp udefra. Det gør ikke opskriften dårlig, men det betyder, at din egen pindplan og kontrol af maskeantal bliver vigtigere.
+Andre strikkeres projektnoter på Ravelry kan hjælpe dig med at finde det spørgsmål, du skal have afklaret. Sammenlign samme størrelse, opskriftsversion og eventuelle ændringer. Kontroller foreslåede rettelser mod designerens noter eller rettelsesliste; en projektnote er ikke i sig selv en officiel rettelse.
 
 ## FAQ
 
-**Kan man glemme den ene handling et par pinde og rette det senere?** Hvis du opdager det inden for en pind eller to, så trevl tilbage. Hvis du allerede er flere centimeter længere fremme, kan du måske lave en ekstra indtagning på næste passende pind. Én glemt indtagning kan tit justeres. Flere betyder som regel, at det er sikrere at trevle op.
+**Kan man glemme den ene handling et par pinde og rette det senere?**
+Kontroller, hvilken handling du glemte, på hvilken pind, og hvordan det påvirker formen og maskemønstret. En ekstra indtagning senere genopretter antallet, men ikke den oprindelige placering eller formgivningslinje. For at genskabe den skrevne rækkefølge kan du trevle tilbage til fejlen; en anden løsning skal vurderes for netop den opskrift.
 
 **Kan man lave handlingerne hver for sig i stedet for samtidig?** Nej. Timingen er med vilje. Ærmegab og halsudskæring overlapper, fordi indtagningerne skal ligge med bestemte intervaller for at give den rigtige form. Hvis du gør den ene færdig først og starter den anden bagefter, ændrer proportionerne sig.
 
-**Ses det kun i tøj?** Mest. Af og til i tilbehør, for eksempel når mønsterstrik i en hue skifter samtidig med, at topindtagningerne begynder, eller i mere komplekse maskemønstre. Tøjformgivning er klart det mest almindelige sted.
+**Ses det kun i tøj?**
+Nej. Tilbehør kan også kombinere maskemønster eller flerfarvestrik med formgivning, som når et huemønster fortsætter, mens topindtagningerne begynder. Følg omgangsnumrene, hvis arbejdet strikkes rundt.
 
-**Hvorfor skriver opskriften ikke bare hver pind ud?** Nogle gør, især opskrifter til begyndere. Men i komplekse modeller med mange størrelser ville pind-for-pind-instruktioner til hver størrelse hurtigt lægge ti sider til. Konventionen sparer plads, og erfarne strikkere forventer den.
+**Hvorfor skriver opskriften ikke bare hver pind ud?**
+Nogle gør, især begynderopskrifter. At skille gentagne instruktioner ud sparer plads, når flere størrelser er med. Du kan skrive din egen størrelse ud pind for pind uden at ændre rækkefølgen.
 
-**Hvad er den hurtigste måde at lave en samlet pindplan?** Brug et lille regneark eller en kolonne med pindetal på papir og sæt kryds for hver handling. Nummerer pindene 1 til 60, eller så langt du har brug for. Sæt kryds i ærmegabskolonnen på hver 2. pind, i halskolonnen på hver 4. pind, og cirkl de pinde hvor begge sker. Fem minutters forberedelse sparer meget mental belastning.
+**Hvad er den hurtigste måde at lave en samlet pindplan?**
+Brug en kolonne med pindetal og én for hver handling. Angiv først den faktiske startpind, derefter interval og samlet antal gange. I tabellen markeres ærmegab på 1, 3, 5, 7, 9 og hals på 1, 5, 9. Tag mellempindene med, og afslut hver serie, når dens antal er nået, selv om den anden fortsætter.

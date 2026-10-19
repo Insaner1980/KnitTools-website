@@ -14,27 +14,28 @@ tags:
 draft: false
 lang: de
 translationKey: "knitting-pattern-sizes-and-fit"
+updatedDate: 2026-10-18
 ---
 
-Eine Anleitung mit der Größe „Medium“ kann an einer Person wie ein Zelt sitzen und an einer anderen eng wirken. Größen in Strickanleitungen sind keine Kaufgrößen. Sie beruhen auf Fertigmaßen, und die Beziehung zwischen deinem Körper und diesen Maßen entscheidet, wie das Stück wirklich sitzt.
+Eine Anleitung mit der Größe „Medium“ kann an einer Person wie ein Zelt sitzen und an einer anderen eng wirken. Der Größenname allein sagt wenig über die Passform. Kläre zuerst, ob die angegebenen Maße den Körper oder das fertige Kleidungsstück beschreiben.
 
 ## Körpermaße und Fertigmaße
 
 Dein Körpermaß ist das, was das Maßband zeigt, wenn du Brust, Taille oder Hüfte misst. Das Fertigmaß der Anleitung ist das Maß des fertigen Kleidungsstücks an derselben Stelle.
 
-Diese zwei Zahlen sind fast nie gleich, und das sollten sie auch nicht sein. Ein Pullover, der exakt deinem Brustumfang entspricht, würde ohne Spielraum anliegen. Die meisten wollen das nicht.
+Diese Maße können sich unterscheiden oder gleich sein, je nach gewünschter Passform und Gestrick. Vergleiche dieselbe Stelle und dieselbe Maßeinheit.
 
-Der Unterschied zwischen Körpermaß und Fertigmaß heißt Mehrweite. Mehrweite ist das wichtigste Konzept, wenn du aus einer Strickanleitung die richtige Passform bekommen willst. Positive Mehrweite bedeutet, das Kleidungsstück ist größer als du. Negative Mehrweite bedeutet, es dehnt sich, um zu passen.
+Mehrweite ist das Fertigmaß minus das entsprechende Körpermaß. Beim Brustumfang bedeutet ein positiver Wert zusätzlichen Raum, null gleiche Umfänge und ein negativer Wert ein kleineres Kleidungsstück, bevor es am Körper gedehnt wird. Die Mehrweite an der Brust bestimmt nicht allein die Passform an Schultern, Armen oder Ausschnitt.
 
 ## Was Mehrweite bedeutet
 
-Mehrweite ist der zusätzliche Raum im Kleidungsstück über dein tatsächliches Körpermaß hinaus.
+Berechne die Mehrweite anhand des entspannten Fertigmaßes nach der in der Anleitung vorgesehenen Behandlung, meist nach Waschen und Spannen. Miss das Kleidungsstück nicht gedehnt am Körper.
 
-**Negative Mehrweite** heißt, dass das fertige Kleidungsstück kleiner ist als du. Der Stoff dehnt sich. Häufig bei Rippenmützen, die kleiner als der Kopfumfang sind und durch das Rippenmuster halten, bei Sockenbündchen und sehr körpernahen Teilen aus elastischem Garn.
+**Negative Mehrweite** bedeutet, dass das Kleidungsstück kleiner als das entsprechende Körpermaß ist. Das Gestrick muss sich ausreichend dehnen und angenehm in seine Form zurückkehren können. Rippenmützen und eng anliegende Socken sind typische Beispiele. Der Garnname garantiert nicht die Elastizität des Gestricks.
 
-**Null Mehrweite** heißt, dass Fertigmaß und Körpermaß gleich sind. Das Kleidungsstück folgt deiner Form genau. Beim Stricken ist das eher selten, weil Gestrick von Natur aus dehnt.
+**Null Mehrweite** bedeutet, dass Fertigmaß und Körpermaß gleich sind. Das kann eine bewusst körpernahe Passform sein und ist nicht automatisch ein Größenfehler.
 
-**Positive Mehrweite** ist am häufigsten. Das Kleidungsstück ist größer als du. Ein Pullover mit 5-10 cm positiver Mehrweite sitzt bequem ohne zu kleben. Bei 10-15 cm wirkt er locker. Darüber liest er sich schnell oversized, aber Konstruktion und Garnstärke verändern, wie deutlich diese Mehrweite wirkt.
+**Positive Mehrweite** bedeutet, dass das Kleidungsstück größer als das entsprechende Körpermaß ist. Die Menge hängt vom Modell und der gewünschten Passform ab. Mehr Weite an der Brust schafft nicht automatisch mehr Platz am Oberarm.
 
 Die beabsichtigte Mehrweite ist eine Designentscheidung. Ein kurzer moderner Pullover kann 5 cm haben. Ein gemütlicher Cardigan 15 cm. Beides kann richtig sein. Andere Silhouette.
 
@@ -44,31 +45,33 @@ Du brauchst ein flexibles Maßband, also ein Nähmaßband, kein Metallband aus d
 
 Brust oder Brustumfang: Maßband um die breiteste Stelle führen, unter den Armen, waagerecht. Nicht festziehen. Taille: schmalste Stelle, meist knapp über dem Nabel, nicht der Hosenbund, der bei vielen tiefer sitzt. Hüfte: breiteste Stelle, oft auf Höhe der oberen Oberschenkel.
 
-Bei der Ärmellänge gilt der Messpunkt der Anleitung. Manche Schnittzeichnungen verwenden die Strecke vom hinteren Halsausschnitt bis zum Handgelenk. Viele messen von der Achsel bis zum Handgelenk. Oberarm bedeutet: um die breiteste Stelle oberhalb des Ellbogens.
+Beachte bei der Ärmellänge die Messpunkte der Anleitung. Vom hinteren Halsansatz bis zum Handgelenk wird über die Schulter und den Arm gemessen; von der Achsel bis zum Handgelenk mit leicht gebeugtem Arm. Das sind verschiedene Maße. Den Oberarmumfang misst du an der breitesten Stelle oberhalb des Ellbogens.
 
-Schulterbreite misst du von Schulterknochen zu Schulterknochen über den oberen Rücken. Dieses Maß wird oft übersehen und ist trotzdem der Grund, warum ein Pullover überall passt, nur an den Schultern nicht. Die Querweite am oberen Rücken zeigt auch ein typisches Kaufpullover-Problem: Die Schultern können zu breit oder zu schmal sein, obwohl der Brustumfang stimmt.
+Die Schulterbreite verläuft über den oberen Rücken von Schulter zu Schulter. Folge der Schnittzeichnung: Die Länge einer schrägen Schulternaht ist ein anderes Maß. Ein passender Brustumfang garantiert keine passende Schulterbreite.
 
 Schreib die Maße auf. Du brauchst sie jedes Mal, wenn du eine Anleitungsgröße auswählst. Eine zweite Person hilft besonders bei Rücken- und Schultermessungen. Allein sind sie schwer sauber zu nehmen.
 
 ## Deine Größe wählen
 
-Die meisten Anleitungen listen Fertigmaße in einer Größentabelle oder im Kopfbereich. Such nach dem fertigen Brustumfang, nicht nach dem Größenlabel.
+Lies zuerst die Größenhinweise. Nennt die Tabelle Körpermaße, wählst du anhand deiner Maße und der Anweisungen der Anleitung. Nennt sie Fertigmaße, vergleichst du diese mit Körpermaß plus gewünschter Mehrweite. Halte beide Angaben auseinander, wenn sie nebeneinander stehen. [Tin Can Knits erklärt den Unterschied](https://blog.tincanknits.com/2022/04/08/what-is-ease/) auf Englisch.
 
-Nimm deinen Brustumfang. Addiere die gewünschte Mehrweite. Such die Größe, deren Fertigmaß am nächsten liegt.
+Zum Vergleich mit fertigen Umfängen addierst du positive Mehrweite zum Körpermaß, ziehst den Betrag negativer Mehrweite ab oder verwendest bei null Mehrweite das Körpermaß. Das Fertigmaß enthält die Mehrweite bereits: Addiere sie nicht noch einmal zu diesem Wert.
 
-Beispiel: Dein Brustumfang ist 97 cm. Du möchtest eine bequeme Passform mit etwa 7,5 cm Mehrweite, also zielst du auf ungefähr 104 cm fertigen Brustumfang. Wenn die Anleitung 97, 102, 107 und 112 cm anbietet, gibt 102 cm etwa 5 cm Mehrweite, also enger, und 107 cm etwa 10 cm, also entspannter. Wähle nach der Passform, die du möchtest.
+Ein hypothetisches Beispiel: Dein Brustumfang beträgt 97 cm, und du wählst 7,5 cm Mehrweite. Das Ziel ist 97 + 7,5 = 104,5 cm. Bei fertigen Umfängen von 97, 102, 107 und 112 cm ergeben die nächsten Optionen 102 − 97 = 5 cm und 107 − 97 = 10 cm Mehrweite. Vergleiche beide mit der beabsichtigten Passform und den übrigen Maßen. Die Zahlen sind keine allgemeine Komfortempfehlung.
 
-Wähle nicht „Medium“, nur weil du im Laden M trägst. Ein Designer-Medium kann 112 cm fertigen Brustumfang haben, bewusst oversized an einem 97-cm-Körper, oder 102 cm, körpernah. Das Label sagt nichts.
+Wähle nicht Medium, nur weil du im Laden M kaufst. Ein hypothetischer fertiger Brustumfang von 112 cm ergibt an einem Körper mit 97 cm Brustumfang 15 cm Mehrweite; 102 cm ergeben 5 cm. S/M/L, Altersangaben und regionale Kaufgrößen müssen anhand der jeweiligen Anleitung eingeordnet werden.
 
 ## Schnittzeichnung lesen
 
 Viele Anleitungen enthalten eine Schnittzeichnung: eine flache Linienzeichnung der fertigen Teile mit Maßen. Für Passformentscheidungen ist das der nützlichste Teil der Anleitung.
 
-Die Schnittzeichnung zeigt Breite und Länge an wichtigen Punkten: Brust, Taille (falls geformt), Hüfte, Ärmellänge, Oberarmweite, Schulterbreite, Körperlänge von Saum bis Achsel. Die Zahlen für alle Größen stehen im gleichen Klammerformat wie die Anleitung.
+Die Schnittzeichnung zeigt Breiten und Längen an Brust, Taille, Hüfte, Ärmel, Oberarm, Schultern und Rumpf. Prüfe bei jedem Pfeil, ob er flach gemessene Breite, Umfang oder Länge meint. Bei einem einfachen geschlossenen, symmetrischen Rumpf entsprechen 51 cm flacher Breite ungefähr 102 cm Umfang. Einzelteile und überlappende Jackenvorderteile müssen anders gelesen werden.
 
-Vergleiche die Schnittzeichnung Punkt für Punkt mit deinem Körper. Die Brust kann passen, aber die Ärmel können 5 cm zu kurz sein. Der Körper kann länger sein, als du möchtest. Die Zeichnung zeigt, wo die Anleitung für dich funktioniert und wo du anpassen musst.
+Suche deine Größe in der angegebenen Reihenfolge und markiere ihre Zahlen in Text, Tabellen und Schnittzeichnung. Klammern sind eine Darstellungsweise, keine allgemeine Vorschrift. Lies auch Hinweise auf gleichzeitige Formgebung vorab: Ein zweiter Arbeitsschritt kann beginnen, bevor der erste abgeschlossen ist.
 
-Beachte die Armausschnitttiefe in der Schnittzeichnung. Sie steht oft weniger prominent da als der Brustumfang, aber ein zu flacher Armausschnitt zieht in der Achsel, und ein zu tiefer Armausschnitt bildet eine hängende Stofftasche. Vergleiche die Armausschnitttiefe mit einem Pullover, der dir an der Achsel gut sitzt. Wenn der Unterschied groß ist, plane vor dem Anschlagen.
+Vergleiche entsprechende Maße unter Berücksichtigung der Mehrweite. Der Brustumfang kann passen, während die Ärmel 5 cm zu kurz sind. Der Rumpf kann länger sein als gewünscht. Die Schnittzeichnung hilft dir, den Änderungsbedarf zu erkennen.
+
+Vergleiche die Armausschnitttiefe mit einem gut sitzenden Kleidungsstück ähnlicher Konstruktion und nutze dieselben Messpunkte. Ein flacher Armausschnitt kann einengen, ein tiefer kann aber bewusst zu einer überschnittenen Schulter gehören. Der Brustumfang allein entscheidet das nicht.
 
 ## Wenn du zwischen Größen liegst
 
@@ -76,72 +79,72 @@ Das passiert oft. Dein Brustumfang liegt in einer Größe, deine Hüfte braucht 
 
 Wähle die Ausgangsgröße nicht automatisch nach deinem größten Körpermaß. Vergleiche Schnittzeichnung und Fertigmaße mit der beabsichtigten Mehrweite und der Konstruktion des Kleidungsstücks. Konzentriere dich auf die Maße, die die am schwierigsten zu ändernden Bereiche bestimmen. Bei vielen körpernahen Modellen mit eingesetzten Ärmeln können Schulter und oberer Rumpf ein besserer Ausgangspunkt sein als der größte Umfang. Wechsle zwischen Größen oder passe andere Bereiche an, wo die Konstruktion es zulässt.
 
-Länge ist am leichtesten zu ändern. Viele Anleitungen sagen „stricken, bis das Teil X cm misst“, und du kannst frei anpassen. Du willst 43 cm statt 38 cm? Strick 5 cm mehr. Ärmellänge funktioniert genauso. Oberarmweite ist schwieriger, weil sie die Armkugel beeinflusst, also sollte sie möglichst gut passen.
+Die Länge lässt sich in einem geraden Abschnitt ohne Formgebung, der bis zu einem bestimmten Maß gestrickt wird, oft einfach ändern. Du möchtest 43 cm statt 38 cm? Die Differenz beträgt 5 cm. Prüfe vorher Taillen- und Ärmelformung, Rapporte, Taschenposition und Garnbedarf. Eine Änderung der Oberarmweite beeinflusst auch die Verbindung zum Rumpf.
 
-Wenn du kleiner bist als die Modellmaße der Anleitung, können Körper und Ärmel zu lang sein, obwohl der Brustumfang stimmt. Körper und Ärmel zu kürzen ist meist risikoärmer als die Armausschnitttiefe zu ändern, weil der Armausschnitt die Geometrie des ganzen Kleidungsstücks beeinflusst. Praktischer Ansatz: Behalte die Armausschnitttiefe der Anleitung und kürze den Abschnitt vor Beginn des Armausschnitts. Die Schulterpassform bleibt eher erhalten.
+Sind Rumpf oder Ärmel zu lang, finde zuerst heraus, wo die zusätzliche Länge sitzt. Ein kürzerer gerader Abschnitt unter dem Armausschnitt kann die Schulterkonstruktion erhalten. Behalte die ursprüngliche Armausschnitttiefe aber nur bei, wenn sie dir passt. Die Körpergröße allein bestimmt nicht die Proportionen.
 
-Wenn du größer bist als die Anleitung annimmt, zeigt sich das umgekehrte Problem. Länge unterhalb des Armausschnitts zu ergänzen verändert meist weniger Maschenzahlen. Wenn du Körper und Ärmel getrennt verlängerst, bleiben die Proportionen natürlicher.
+Beurteile zusätzliche Rumpf- und Ärmellänge getrennt. Mehr Reihen können die Abstände der Formgebung oder das Ende eines senkrechten Rapports verändern. Prüfe auch die Anweisungen nach einem Abschnitt, der bis zu einem bestimmten Maß gestrickt wird.
 
 ## Unterschiedliche Größen für Körper und Ärmel
 
-Manche Konstruktionen erlauben das recht gut. Raglanpullover von oben, von unten gestrickte Einzelteile mit eingesetzten Ärmeln und Rundpassen geben dir jeweils etwas Spielraum.
+Rumpf- und Ärmelgrößen lassen sich manchmal kombinieren, aber selbst benachbarte Größen passen nicht automatisch zusammen. Bei eingesetzten Ärmeln müssen Form und Nahtlänge der Armkugel zum Armausschnitt passen. Bei Raglan und Rundpasse sind Maschenzahlen von Rumpf und Ärmeln, Unterarmmaschen, Zu- oder Abnahmerhythmus und Passentiefe zu prüfen.
 
-Wenn dein Oberkörper kleiner ist und die Arme mehr Platz brauchen, oder umgekehrt, kannst du den Körper nach deinem Brustumfang stricken und die Ärmel aus einer anderen Größe nehmen. Die Armkugel oder Passe muss trotzdem zum Armausschnitt passen. Deshalb funktioniert das am besten mit benachbarten Größen: kleiner Körper plus mittlere Ärmel ist etwas anderes als kleiner Körper plus XL-Ärmel.
-
-Anleitungen, die Mischgrößen nicht ausdrücklich unterstützen, lassen sich oft trotzdem anpassen. Das braucht aber Strickmathematik, und die Armkugel muss eventuell neu berechnet werden. Wenn Änderungen für dich neu sind, wähle lieber eine Konstruktion, die diese Anpassung einfacher macht.
+Nutze die Anpassungshinweise der Anleitung, sofern vorhanden. Andernfalls müssen die Verbindungen vor dem Stricken geplant werden: Rumpf S und Ärmel M auszuwählen ist noch keine vollständige Anpassung. Eine Anleitung mit getrennten Ärmel- oder Brustoptionen kann dies erleichtern.
 
 ## Mehrweite variiert nach Kleidungsart
 
 Nicht alle Kleidungsstücke wollen dieselbe Passform.
 
-Für Brust- oder Oberkörperweite setzt die Craft Yarn Council-Fit-Tabelle eine klassische Passform bei etwa 5-10 cm positiver Mehrweite an, eine lockere Passform bei etwa 10-15 cm und oversized bei 15 cm oder mehr. Sehr körpernahe Kleidungsstücke können negative Mehrweite haben. Mützen und Socken nutzen oft ebenfalls negative Mehrweite, weil Dehnung sie an Ort und Stelle hält.
+Die [Mehrweitenrichtlinien des Craft Yarn Council](https://www.craftyarncouncil.com/standards/body-sizing) beschreiben eine klassische Passform mit etwa 5–10 cm positiver Mehrweite, eine lockere mit etwa 10–15 cm und eine Oversize-Passform mit etwa 15 cm oder mehr. Das sind Richtwerte, keine Passformgarantien. Die Körpermaßtabellen des CYC enthalten keine Fertigmaße eines bestimmten Designs.
 
-Konventionen, keine Gesetze. Aber wenn eine Anleitung „körpernah“ sagt und die Schnittzeichnung in deiner Größe 15 cm Mehrweite zeigt, stimmt etwas nicht.
+Beachte die beabsichtigte Mehrweite und gegebenenfalls die Maße des gezeigten Kleidungsstücks. Wenn Beschreibung und berechnete Mehrweite widersprüchlich wirken, prüfe zunächst, welche Größe und Maße du vergleichst. Mützen und Socken benötigen ihre eigenen Größenhinweise.
 
 ## Konstruktion beeinflusst die Passform
 
-Ein Pullover mit 102 cm fertigem Brustumfang sitzt nicht in jeder Konstruktion gleich.
+Ein Pullover mit 102 cm fertigem Brustumfang kann je nach Konstruktion unterschiedlich sitzen.
 
-**Überschnittene Schulter:** Der Körper ist oft ein Rechteck, die Ärmel hängen von einer breiten Schulterlinie nach unten. Das wirkt kastig und lässig. Diese Konstruktion braucht meist mehr Mehrweite als andere, damit sie gewollt fällt. Die Schulternaht sitzt deutlich unterhalb deiner echten Schulter. Bewegungsfreiheit kommt also aus der Weite, nicht aus einem genauen Schnitt.
+**Überschnittene Schulter:** Die Schulterlinie reicht über die natürliche Schulter hinaus. Der Rumpf ist oft gerade und weit, doch Ärmelweite und Armausschnitttiefe beeinflussen weiterhin die Bewegungsfreiheit.
 
-**Eingesetzter Ärmel:** Die Armkugel wird in einen geformten Armausschnitt gesetzt, ähnlich wie bei einem Hemd. Das sitzt am körpernahesten. Die Schulternaht liegt an der echten Schulter. Die Maße müssen hier am genauesten passen.
+**Eingesetzter Ärmel:** Eine geformte Armkugel wird mit einem geformten Armausschnitt verbunden. Prüfe Schulterbreite, Oberarmumfang und Armausschnitttiefe zusammen. Die Konstruktion erlaubt verschiedene Silhouetten.
 
-**Raglan:** Die Ärmel laufen in schrägen Linien von der Achsel zum Hals. Raglan ist über verschiedene Körperformen recht verzeihend und funktioniert körpernah bis locker. Deshalb ist diese Konstruktion in anfängerfreundlichen Pullovern häufig.
+**Raglan:** Die Formgebung verläuft zwischen Achsel und Halsausschnitt. Rumpf- und Ärmelmaße hängen dadurch zusammen; ein passender Brustumfang garantiert keine passende Ärmelweite oder Passentiefe.
 
-**Rundpasse oder Sattelschulter:** Schultern und oberer Körper werden als zusammenhängender Bereich gestrickt. Eine gute Passe liegt flach über den Schultern. Die Reihenprobe ist wichtig, weil die Passentiefe davon abhängt, wie viele Reihen in eine bestimmte Länge passen.
+**Rundpasse:** Oberer Rumpf und Ärmel werden in einer Passe mit rundum verteilter Formgebung verbunden. Die Anzahl der Reihen oder Runden pro 10 cm beeinflusst die Tiefe. Eine Sattelschulter ist eine andere Konstruktion mit einem Streifen über der Schulter, kein anderes Wort für Rundpasse. Siehe die [Konstruktionsübersicht von Knit Picks](https://blog.knitpicks.com/anatomy-of-a-sweater/) auf Englisch.
 
-Die gleiche Brustweite und die gleiche Mehrweite können in einer Konstruktion passend und in einer anderen sehr weit wirken. Schau dir fertige Fotos an, wenn es sie gibt. Die Schnittzeichnung gibt Zahlen, aber Fotos zeigen, wie die Konstruktion am Körper fällt.
+Vergleiche die Schnittzeichnung mit Fotos und gegebenenfalls den Körpermaßen des Models sowie der getragenen Mehrweite. Fotos erklären die Silhouette, ersetzen aber keine Maßangaben.
 
 ## Verkürzte Reihen für Brustformung
 
 Viele Pulloveranleitungen werden aus Standardmaßen für Brust und Länge geschrieben, nicht aus einer individuellen Brustanpassung. Wenn die Vorderseite mehr Länge braucht als der Rücken, kann der Pullover vorn hochrutschen, während er hinten richtig sitzt. Verkürzte Reihen für Brustformung fügen nur vorn zusätzliche Länge hinzu, ohne Maschen zuzunehmen.
 
-Das Prinzip: Du strickst nur einen Teil der Vorderseite, wendest, strickst zurück und wendest wieder vor der vorherigen Wendestelle. Jedes Paar verkürzter Reihen fügt im Brustbereich zusätzliche Reihen ein und formt das Gestrick ähnlich wie ein Abnäher. Die genaue Platzierung hängt von der Konstruktion und davon ab, wo zusätzliche Länge gebraucht wird.
+Verkürzte Reihen wenden vor dem Reihenende und fügen örtlich Länge hinzu. Bei Brustabnähern können die Reihen je nach Methode und Strickrichtung schrittweise kürzer oder länger werden. Folge einer vollständigen Beschreibung der Wendepunkte und ihrer Verarbeitung; immer vor der vorherigen Wendestelle umzudrehen ist keine allgemeine Regel.
 
 Manche Anleitungen enthalten diese Option ausdrücklich. Viele nicht. Sie selbst einzubauen setzt voraus, dass du die Brusthöhe im Verhältnis zur Achsel kennst und ungefähr weißt, wie viel zusätzliche Vorderlänge du brauchst.
 
-Das ist eine der nützlichsten Anpassungen, wenn der eigene Körper nicht zur flachen Vorderteil-Annahme der Anleitung passt. Der erste Versuch darf grob sein. Lernen lohnt sich trotzdem.
+Zusätzliche Vorderlänge vergrößert nicht den Brustumfang. Brauchst du auch mehr Weite, ist das eine gesonderte Anpassung. [Knitatudes Änderungsleitfaden](https://www.knitatude.ca/blog/2019/8/8/how-to-modify-patterns-part-3-tips-and-tricks-to-manipulate-a-pattern) zeigt die Funktion verkürzter Reihen an der Brust; Umfang und Platzierung müssen zum Kleidungsstück passen.
 
 ## Die Mehrweiten-Falle bei anderem Garn
 
-Wie viel Mehrweite du brauchst, hängt von der Stoffdicke ab. Ein Fingering-Pullover mit 5 cm Mehrweite fühlt sich bequem an, weil der Stoff dünn und flexibel ist. Ein Bulky-Pullover mit denselben 5 cm kann eng wirken. Der dicke Stoff nimmt im Inneren des Kleidungsstücks Raum weg und reduziert den tatsächlichen Platz.
+Dicke, Fall, Dehnbarkeit und Rücksprung des Gestricks beeinflussen, wie sich Mehrweite anfühlt. Ein dünner und ein dicker Pullover mit denselben 5 cm können sich unterschiedlich tragen. Die Garnstärke allein entscheidet nicht über den Komfort.
 
-Wenn du ein dickeres Garn ersetzt, erwäge eine größere Größe. Das Gestrick selbst frisst einen Teil der Mehrweite.
+Wähle mit dickerem Garn nicht automatisch eine größere Anleitungsgröße. Weniger Maschen pro Zentimeter machen dieselbe Maschenzahl bereits breiter. Prüfe eine gewaschene, vollständig trockene Maschenprobe, das Gestrick und alle betroffenen Maße vor der Größenwahl.
 
 ## Praktische Tipps zur Größe
 
-Wenn eine Anleitung keine Fertigmaße nennt, ist das ein Warnzeichen. Ohne sie kannst du nicht wissen, wie sie sitzen wird. Du kannst grob schätzen, indem du Anschlagsmaschen mit deiner Maschenprobe multiplizierst, aber die Anleitung sollte diese Information liefern. Ravelry-Projektseiten zeigen oft, was andere bekommen haben.
+Fehlen Fertigmaße, frage nach, worauf sich die Größenangaben beziehen. Für einen einfachen Abschnitt gilt: Breite in cm = Maschenzahl ÷ Maschen pro 10 cm × 10. Ein hypothetisches Beispiel: 200 Maschen rund um den Rumpf bei 20 Maschen pro 10 cm ergeben 200 ÷ 20 × 10 = 100 cm Umfang. Verwende die Maschenzahl an der gemessenen Stelle, nicht automatisch die Anschlagszahl. Rippen, Formgebung, Nähte und unterschiedliche Muster beeinflussen die Rechnung.
 
-Prüfe vor der Größenwahl deine [Maschenprobe](/de/artikel/maschenprobe-messen/). Wenn deine Maschen pro 10 cm nicht zur Anleitung passen, passen die Fertigmaße ebenfalls nicht. Ein Trick, der gut funktioniert: Lege einen Pullover flach hin, der so sitzt, wie du es magst, miss die Brustbreite und verdopple sie. Das ergibt ein konkretes Ziel aus deiner echten Passformvorliebe und funktioniert oft besser als Körpermaß plus abstrakte Mehrweitenrechnung.
+Prüfe deine [Maschenprobe](/de/artikel/maschenprobe-messen/) im angegebenen Muster und in der passenden Strickweise, nach der vorgesehenen Behandlung und vollständigem Trocknen. Eine andere Nadelstärke erfordert eine neue Probe. Eine andere Anleitungsgröße oder ein Verhältnis zwischen Maschenzahlen erhält nicht automatisch reihenabhängige Formgebung, Ausschnitt oder Armkugel. [Tin Can Knits berechnet im Beispiel](https://blog.tincanknits.com/2016/04/07/how-to-knit-a-garment-at-a-different-gauge/) Breite und Höhe getrennt.
 
-Die Garnart beeinflusst die Passform ebenfalls. Weich fallende Garne wie Baumwolle und Seide hängen anders als federnde Wolle. Ein Baumwollpullover und ein Wollpullover in derselben Größe sitzen nicht gleich. Wenn du [Garn ersetzt](/de/artikel/garn-in-einer-strickanleitung-ersetzen/), rechne das mit ein.
+Lege einen gut sitzenden Pullover sauber und trocken flach hin, ohne ihn zu dehnen. Bei einem einfachen geschlossenen Rumpf mit gleich breitem Vorder- und Rückenteil ergibt die doppelte Brustbreite den fertigen Umfang. Dieser enthält die vorhandene Mehrweite bereits. Vergleiche ähnliche Konstruktionen und Gestricke; Öffnungen, Überlappungen und unterschiedlich breite Teile sind gesondert zu berücksichtigen.
+
+Wenn du [Garn ersetzt](/de/artikel/garn-in-einer-strickanleitung-ersetzen/), beurteile Fall und Rücksprung der Probe statt nur den Fasernamen. Waschen und Spannen können Maße verändern, retten aber nicht zuverlässig eine falsche Größe. Beachte die Pflegehinweise des Garns und die Fertigstellung in der Anleitung.
 
 Wenn du für den Oberkörper eine Größe und für den unteren Körper eine andere brauchst, wechselst du zwischen Größen oder kombinierst sie. Folge für Passe und Brust der oberen Größe und nimm zur Taille hin dort zu oder ab, wo die Konstruktion es zulässt, bis du die untere Größe erreichst. Das ist kein Gradieren: Beim Gradieren wird eine Anleitung für eine ganze Größenreihe entwickelt. Manche Anleitungen enthalten verkürzte Reihen für Brustformung oder getrennte Ober-/Untergrößen. Wenn nicht, braucht diese Änderung etwas Strickmathematik.
 
 ## FAQ
 
 **Messe ich über Kleidung oder direkt am Körper?**
-Eine dünne Schicht, zum Beispiel ein T-Shirt, kommt dem späteren Tragen meist am nächsten. Über dicker Kleidung wird das Maß zu groß.
+Folge den Messhinweisen der Anleitung. Miss über der vorgesehenen Unterwäsche oder, falls angegeben, über einer dünnen körpernahen Schicht. Das Maßband darf den Körper nicht zusammendrücken. Berücksichtige Platz für weitere Kleidung in der gewünschten Mehrweite, ohne denselben Zuschlag zweimal einzurechnen.
 
 **Meine Maße liegen in drei verschiedenen Größen. Was nun?**
 Nutze die Schnittzeichnung und die beabsichtigte Mehrweite, um die Größe zu finden, die am besten zum am schwierigsten zu ändernden Bereich der Konstruktion passt. Bei vielen körpernahen Modellen mit eingesetzten Ärmeln kann das bedeuten, Schulter und oberen Rumpf statt des größten Umfangs zu priorisieren. Wechsle zwischen Größen oder ändere andere Maße nur dort, wo die Konstruktion der Anleitung es zulässt.
@@ -150,4 +153,4 @@ Nutze die Schnittzeichnung und die beabsichtigte Mehrweite, um die Größe zu fi
 Die Reihenprobe kann bei einem einfachen Teil weniger wichtig sein als die Maschenprobe, wenn bis zu einem gemessenen Maß gestrickt wird und wenig oder keine von festen Reihenzahlen abhängige Formgebung vorkommt. Sie ist wichtig, sobald feste Reihenzahlen senkrechte Maße oder den Zeitpunkt der Formgebung bestimmen, etwa bei Passen, Raglanschrägen, Armausschnitten, Armkugeln, Taillen- oder Ärmelformung und vertikalen Musterrapporten.
 
 **Was, wenn Ravelry-Projekte sagen, dass die Anleitung klein oder groß ausfällt?**
-Lies mehrere Projekte, bevor du daraus eine Regel machst. Manchmal verzerren ein paar Projekte mit falscher Maschenprobe den Eindruck. Wenn fünf verschiedene Personen schreiben, dass die Anleitung klein ausfällt, nimm das ernst und erwäge eine größere Größe.
+Behandle Projektnotizen als Hinweise. Vergleiche Maschenprobe, gewählte Größe, Garn, Fertigmaße und Änderungen und prüfe die veröffentlichten Korrekturen zur Anleitung. Wiederholte Kommentare sind ein Anlass zur Prüfung, aber allein kein Grund, eine größere Größe zu wählen.

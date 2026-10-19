@@ -1,7 +1,8 @@
 ---
-title: "Neuleen pingotus: märkä, höyry ja suihkutus"
-description: "Näin pingotat neuleen märkäpingotuksella, höyryllä tai suihkuttamalla. Opas kuituihin, menetelmiin ja siihen milloin pingotus muuttaa työn."
+title: "Neuleen viimeistely: muotoilu ja pingotus"
+description: "Neuleen muotoilu ja pingotus vedellä, höyryllä tai suihkuttamalla langan hoito-ohjeen mukaan. Opas kuivaukseen, lepomittoihin ja käsittelyjen rajoihin."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 9
 tags:
@@ -16,140 +17,99 @@ lang: fi
 translationKey: "how-to-block-knitting"
 ---
 
-Pingotus on valmiin neulekappaleen kostuttamista, höyryttämistä tai suihkuttamista ja muotoilua tarkoitettuihin mittoihin. Se muuttaa möykkyisen ja epätasaisen neuleen valmiiksi kankaaksi. Silmukat tasoittuvat, kangas rentoutuu mittoihinsa ja pitsi avautuu ahtaasta mytystä tunnistettavaksi kuvioksi. Osa projekteista tarvitsee sitä tuskin lainkaan. Osa on melkein tunnistamaton ilman sitä.
+Neuleen viimeistelyyn voi kuulua pesu, kostutus, höyrytys ja muotoilu. Pesu puhdistaa työn; märkäviimeistelyssä kostea neule asetellaan muotoonsa. Suihkuttaminen kostuttaa pintaa, höyrytys tuo sekä lämpöä että kosteutta. Pingotuksessa muotoa pidetään esimerkiksi neuloilla, mutta kaikkea neuletta ei tarvitse venyttää eikä jokaista työtä käsitellä kaikilla menetelmillä. Viimeistely voi tasoittaa silmukoita ja avata pitsiä, mutta se ei takaa oikeaa kokoa.
 
-Menetelmä riippuu kuidusta. Villa reagoi hyvin märkäpingotukseen. Akryyliä voi muuttaa höyryllä, mutta lämpövaikutus on pysyvä, joten se vaatii enemmän varovaisuutta kuin vesi. Puuvillaa ja pellavaa voi muotoilla, mutta ne eivät palaudu kuten villa.
+Tarkista ensin oman langan hoito-ohje ja neuleohjeen viimeistelyohje. Selvitä sallitut pesutavat, veden lämpötila, liotus, kuivaus ja lämpökäsittely. Kokeile sallittua menetelmää työn mallineuleella neulottuun mallitilkkuun. Onnistunut koe ei kumoa valmistajan kieltoa. Jos lankaa tai hoito-ohjetta ei tunneta, selvitä asia ennen koko vaatteen käsittelyä. Uhrattavasta tilkusta voi havaita vaurioita testatuissa oloissa, mutta koe ei luo langalle luotettavaa hoito-ohjetta.
 
 ## Märkäpingotus
 
-Yleisin menetelmä ja se, joka antaa usein selvimmän tuloksen, erityisesti villalle.
+Menetelmä sopii vain, jos langan hoito-ohje sallii vesikäsittelyn ja tasossa muotoilun. Varaa neuleohjeen valmismitat, puhdas pesuastia ja sopiva kuivausalusta. Kirjaa kuivan työn mitat ennen käsittelyä.
 
-Liota valmis kappale haaleassa vedessä 15-20 minuuttia. Voit lisätä tipan villapesuainetta, kuten Eucalania, Soakia tai muuta huuhtelematonta pesuainetta, mutta pelkkä vesi toimii. Tavoite on, että kuitu kastuu kokonaan. Älä hankaa tai pyörittele, varsinkaan käsittelemätöntä villaa. Anna olla.
-
-Nosta työ vedestä kahdella kädellä tukien, jotta painava märkä neule ei veny. Älä väännä. Purista ylimääräinen vesi varovasti pois, rullaa työ puhtaaseen pyyhkeeseen ja painele lisää vettä pois.
-
-Levitä tasaiselle alustalle, esimerkiksi pingotusalustoille tai pyyhkeen päälle. Muotoile mittoihin. Neulaa reunat, jos muodon pitää pysyä täsmällisenä. Pitsi ja huivit tarvitsevat neulausta, jotta kuvio avautuu. Villapaidan kappaleet neulataan kaavion mittoihin. Huivit ja suorakulmiot tarvitsevat usein vain suoristamisen. Anna kuivua täysin. Useita tunteja tai koko päivä.
-
-Vesi rentouttaa lankakuidut, jolloin ne siirtyvät ja asettuvat. Villa turpoaa hieman eli pöyhistyy, täyttää aukkoja ja tasoittaa kireyseroja. Erityisesti käsittelemätön villa muuttuu selvästi: pehmeämmäksi, yhtenäisemmäksi ja tasaisemmaksi. Märkäpingotus on yleensä vahvin menetelmä villalle ja monille muille eläinkuiduille, mutta alpakkaa pitää käsitellä kevyemmin, koska se voi venyä.
+1. Kastele tai pese työ valmistajan ohjeen mukaan. Noudata ohjeessa annettua veden lämpötilaa sekä sopivan pesuaineen annostelu- ja huuhteluohjetta. Liota vain, jos se on sallittua, ja vain ohjeen mukaisen ajan. Yleistä liotusaikaa ei ole: esimerkiksi [DROPSin hoito-ohje](https://www.garnstudio.com/yarn-care.php?cid=19) kieltää liottamisen myös nimetyiltä superwash-merinolangoiltaan.
+2. Tue koko märkää työtä nostaessasi sen vedestä. Älä kanna reunasta, hankaa tai väännä. Poista vesi sallitulla tavalla. Kevyt painelu puhtaiden pyyhkeiden välissä voi sopia; rullaa pyyhkeeseen vain, jos hoito-ohje sallii sen. Osa DROPSin lankayhdistelmien ohjeista kieltää myös rullaamisen.
+3. Levitä työ tasaiselle, langalle sopivalle alustalle. Suojaa alusta kosteudelta ja irtoavalta väriltä. Muotoile varovasti ja vertaa ohjeen mittoihin pakottamatta neuletta. Kiinnitä neuloilla vain kohdat, jotka tarvitsevat tukea.
+4. Anna kuivua kokonaan myös saumojen ja päällekkäisten kerrosten kohdalta. Irrota neulat ja vaijerit varovasti, anna neuleen asettua vapaasti ja mittaa uudelleen. Neulattuna venytetty mitta ei välttämättä ole valmiin neuleen lepomitta.
 
 ### Tarkista värin vuotaminen
 
-Käsinvärjätyt langat ja voimakkaat, kylläiset värit voivat vuotaa liotuksessa. Indigo, syvä punainen ja musta ovat tavallisia epäiltyjä. Yksivärisessä työssä vuoto on usein kosmeettinen harmi, mutta monivärisessä neuleessa tumma raita voi värjätä viereisen vaalean alueen pysyvästi.
-
-Testaa pieni langanpää tai mallitilkku ennen kuin koko työ ui vedessä. Käytä viileää vettä ja lyhyempää liotusta vahvoissa kontrastiväreissä, ja pese työ yksin, jos jokin väri tunnetusti vuotaa. Värinkerääjäliina voi napata osan irtoväristä, mutta siihen ei pidä luottaa varmistuksena.
-
-Älä luota etikkaan värin kiinnittäjänä pingotusvaiheessa. Siitä voi olla hyötyä joissakin värjäysprosesseissa, mutta se ei luotettavasti korjaa valmista lankaa, joka päästää jatkuvasti väriä. Jos lanka vuotaa voimakkaasti ensimmäisellä pesulla, odota sen vuotavan vielä muutaman pesun ajan ja pese se erillään.
+Kokeile työn värit samassa mallitilkussa sallitulla pesutavalla. Irtoava väri voi värjätä viereisen vaalean alueen; kirkas pesuvesi yhdessä kokeessa ei takaa pysyvää värinkestoa. Jos väriä siirtyy, kysy valmistajalta ennen vaatteen käsittelyä. Pese erillään ohjeen mukaan äläkä jätä märkiä tummia osia taitettuina vaaleita vasten. Viileämpi vesi, lyhyempi liotus, etikka tai värinkerääjäliina eivät ole yleispäteviä korjauksia eivätkä korvaa hoito-ohjetta.
 
 ## Höyrypingotus
 
-Höyrysilitysraudan tai vaatehöyrystimen lämpö ja kosteus, ilman liottamista.
+Höyryä käytetään vain, jos valmistaja sallii sen kyseiselle langalle ja neulepinnalle. Pesunkestävyys ei tarkoita höyrytyksen sallimista, eikä silityskieltoa pidä kiertää pitämällä rautaa työn yläpuolella.
 
-Levitä työ tasaiselle pehmustetulle alustalle. Pidä silitysrautaa noin 1-2 cm neuleen yläpuolella ja päästä höyryä. Älä paina rautaa neuleeseen. Höyry tekee työn, ei raudan pohja. Liiku hitaasti pinnan yli, neulaa muotoa tarvitsevat kohdat ja anna jäähtyä ennen siirtämistä.
+Kokeile sallittua käsittelyä ensin tilkkuun ja arvioi se jäähtyneenä ja kuivana. Jos valmistaja sallii höyryttämisen ilman kosketusta, levitä työ lämpöä ja kosteutta kestävälle pehmustetulle alustalle, muotoile kevyesti ja kiinnitä tarvittaessa. Käytä ohjeen mukaista laitteen asetusta, etäisyyttä ja käsittelyaikaa. Pidä kuuma pohja tai suutin irti neuleesta ja käsittele alueet ohjeen mukaan litistämättä pintaa. Anna jäähtyä ja kuivua täysin ennen tukien poistamista ja lepomittojen tarkistamista.
 
-Vaikutus on märkäpingotusta pienempi mutta yleensä nopeampi. Akryylissä vesi voi siistiä silmukoita vähän, mutta vaikutus ei pysy samalla tavalla. Höyry voi asettaa akryylin pysyvämmin, mutta lämpö myös muuttaa kuitua. Liika lämpö sulattaa pinnan litteäksi ja elottomaksi, mitä kutsutaan joskus akryylin "tappamiseksi". Sitä tehdään joskus tarkoituksella, mutta sitä ei voi perua.
-
-Höyry toimii myös villan pieneen muotoiluun ja korjailuun, vaikka märkäpingotus antaa eläinkuiduilla paremman tuloksen. Yksi sääntö on tiukka: älä koskaan paina silitysrautaa suoraan neuleeseen. Keskittynyt lämpö litistää silmukat ja painaa tekstuurin pysyvästi, erityisesti palmikot ja nyppylät.
+Yhtä kaikille turvallista etäisyyttä tai lämpötilaa ei ole. Kostean silitysliinan käyttö on erillinen menetelmä, ei keino tehdä mistä tahansa kuumasta raudasta sopivaa. Kysy epäselvästä lämpöohjeesta valmistajalta.
 
 ### Akryylin tarkoituksellinen "tappaminen"
 
-Akryylin tappaminen tarkoittaa, että kuitua höyrytetään niin paljon, että se menettää osan kimmoisuudestaan ja jää pehmeämmäksi, laskeutuvammaksi ja litteämmäksi. Tämä voi olla hyvä asia huivissa tai peitossa, jossa halutaan valuvampi pinta.
+Englannin ”killing acrylic” tarkoittaa neulonnassa lämpökäsittelyn aiheuttamaa pysyvää kuohkeuden tai kimmoisan palautumisen menetystä. Lämpö voi pehmentää akryyliä ja muuttaa sen rakennetta niin, että jäähtynyt neule säilyttää muuttuneen muodon tai laskeutuvuuden. Pehmeneminen, pysyvä muodon asettuminen, ei-toivottu vääristyminen ja varsinainen sulaminen ovat eri ilmiöitä. Pelkkä pehmeä tai litteä pinta ei todista sulamista, eikä jokainen lämpöaltistus vaikuta samalla tavalla.
 
-Neulaa työ lopullisiin mittoihin. Höyrytä tarkoituksella noin parin sentin päästä, työskentele osissa ja pidä rauta irti neuleesta. Kangas kostuu ja rentoutuu näkyvästi. Anna sen jäähtyä kokonaan neulattuna.
-
-Se on huono idea joustimessa, pipossa tai vaatteessa, jonka pitää palautua. Tee aina testi mallitilkulle. Kun akryyli on kerran ylikuumennettu, sitä ei saa takaisin entiseksi. Villa-akryylisekoitteet käyttäytyvät vähemmän ennustettavasti, ja polyesteripitoiset sekoitteet voivat litistyä tai sulaa odotettua nopeammin.
+Tästä ei voi tehdä yleistä akryylin tai sekoitelangan viimeistelyohjetta. [Knit Picks varoittaa Bravan höyryttämisestä](https://tutorials.knitpicks.com/caring-for-easy-care-yarns/), ja [Lion Brandin viimeistelyohje](https://support.lionbrand.com/support/solutions/articles/17000035400-what-is-blocking-and-how-do-i-do-it-) neuvoo välttämään akryylin höyrytystä. Tilkkukoe ei kumoa kieltoa. Palautuvuuden menetys voi pilata joustimen, pipon tai istuvan vaatteen. Älä oleta pesun korjaavan lämpövauriota tai päättele sekoitteen lämpörajoja kuitunimistä.
 
 ## Suihkupingotus
 
-Kevyempi vaihtoehto. Suihkuta pinta vedellä, neulaa muotoon ja anna kuivua.
+Vesikäsittelyn sallivalle neuleelle kevyt kostutus voi riittää pieneen muotoiluun. Se ei pese työtä eikä vastaa neuletiheyttä varten tehtävää kokonaista pesukäsittelyä.
 
-Levitä työ tasaiseksi, neulaa mittoihin ja suihkuta, kunnes pinta on tasaisesti kostea mutta ei läpimärkä. Kuidut rentoutuvat hieman, silmukoiden tasaantuminen on maltillista ja kangas pysyy neuloissa kuivumisen ajan.
-
-Sopii töihin, jotka tarvitsevat pientä muotoilua eivätkä täyttä muutosta. Puuvilla, joka ei reagoi vahvasti mihinkään pingotusmenetelmään, voi hyötyä suihkupingotuksesta kevyenä viimeistelynä. Se on hyödyllinen myös työn raikastamiseen, jos se on jo kerran märkäpingotettu ja tarvitsee vain muodon palautuksen.
+Levitä työ sopivalle tasaiselle alustalle. Suihkuta tasaisesti hoito-ohjeen lämpöistä vettä ja muotoile kevyesti. Kiinnitä tarvittaessa neuloilla venyttämättä tiukalle. Anna kuivua kokonaan, poista tuet ja tarkista lepomitat. Kokeile ensin tilkkuun: vähäinenkään kosteus ei ole kaikille langoille tai väreille automaattisesti haitatonta.
 
 ## Pitsin pingotus
 
-Pitsissä pingotus merkitsee eniten. Pingottamaton pitsi näyttää usein ryppyiseltä verkkokasalta. Pingotettu pitsi muuttuu kuvioksi.
+Kostuta sallitulla tavalla ja poista ylimääräinen vesi edellä kuvatusti. Avaa pitsi tasaisesti kohti ohjeen valmista muotoa. Älä venytä äärimmilleen tai lisää omin päin palautumisvaraa. Tilkku ja neuleohje näyttävät, kuinka avoimeksi pinta on tarkoitettu.
 
-Märkäpingota kunnolla: liota, painele pyyhkeeseen ja neulaa napakasti auki. Avaa langankierrot ja kärjet venyttämättä kangasta väkisin. Pitsin kuuluu näyttää avoimemmalta kuin odotat. Kuivuessaan moni kuitu palautuu hieman ja mitat pehmenevät oikeaan muotoon.
-
-Pingotusvaijerit helpottavat suoria reunoja. Pujota ohut joustava vaijeri reunasilmukoiden läpi ja neulaa vaijeri, ei jokaista silmukkaa erikseen. Reunoista tulee suoremmat ja neulojen määrä putoaa sadoista kymmeniin.
-
-Kolmiohuiveissa ja sahalaitaisissa reunoissa yksittäiset T-neulat tai kärkipidikkeet jokaisessa kärjessä antavat paremman hallinnan. Ison huivin neulaaminen voi viedä aikaa. Lopputulos on sen arvoinen.
+Pingotusvaijerit jakavat vetoa suorille reunoille. Pujota puhdas, sileä vaijeri sopivista reunan aukoista halkaisematta lankaa ja kiinnitä vaijeri ruostumattomilla pingotusneuloilla. Muotoile kärjet ja kaaret erillisillä neuloilla. Säädä neulojen väliä niin, ettei suoraksi tarkoitettuun reunaan synny tahattomia kärkiä. Kuivata täysin ennen irrottamista ja asettuneiden mittojen tarkistamista.
 
 ## Villapaidan kappaleiden pingotus
 
-Kappaleina neulottu paita on helpompi saumata, kun kappaleet on pingotettu mittoihin ennen ompelua. Neulaa jokainen kappale kaavion mittoihin: takakappale, etukappaleet ja hihat vierekkäin, jotta näet vastaavatko ne toisiaan.
+Kappaleiden muotoilu ennen [saumojen ompelua](/fi/artikkelit/neulekappaleiden-yhdistaminen/) voi helpottaa vastinreunojen yhdistämistä. Vertaa taka- ja etukappaleita sekä hihoja mittapiirrokseen. Muotoile kaaret pehmeiksi äläkä vedä niitä kulmikkaiksi. Neuloja ei tarvita, jos kappaleet pysyvät halutussa muodossa muutenkin.
 
-Neulaa kainalot ja olkapäät tiettyihin mittoihin. Suorista vartalon leveys ja pituus. Älä ylineulaa kädentien ja pääntien kaaria. Niiden pitää joustaa saumaamisen aikana, ja liian terävästi neulattu kaari voi jäädä jäykäksi.
-
-Saumattomassa paidassa loppupingotus tekee työn valmiiksi: helma tasoittuu, kaarroke rentoutuu ja neulepinta näyttää yhtenäisemmältä. Neulaa vartalon pituus, hihan pituus ja rinnanympärys. Älä ripusta märkää villapaitaa kuivumaan. Märkä neule venyy omasta painostaan.
+Tue valmiin neulepuseron vartalo-osa ja hihat kokonaan. Tarkista pituudet ja tasoleveys: rinnanympärys ei ole sama mitta kuin tasossa mitattu leveys. Älä ripusta märkää neuletta. Noudata ohjeen järjestystä ennen kokoamista tai sen jälkeen; toinen käsittely on tarpeen vain, jos työ sitä vaatii.
 
 ## Mitä pingotus voi ja ei voi tehdä
 
-Pingotus tasoittaa silmukkakireyttä, avaa pitsiä, rauhoittaa rullautumista väliaikaisesti, säätää mittoja hieman, pehmentää lankaa ja parantaa yleisilmettä.
+Viimeistely voi tasoittaa pieniä kireyseroja ja avata pitsiä, mutta se ei korjaa kiertyneitä silmukoita, väärään kohtaan tehtyjä muotoiluja tai väärää silmukkamäärää. Sileä neule voi yhä rullautua rakenteensa vuoksi. Säilytä joustimen tarkoitettu lepomuoto sekä palmikoiden ja muiden kohokuvioiden korkeus; kaikkea ei pingoteta litteäksi.
 
-Se ei korjaa rakenteellisia ongelmia. Väärä koko neuletiheysvirheen takia? Pingotus ei pelasta sitä. Villa kestää yleensä pienen säädön, varsinkin pitsissä tai löyhässä neuleessa, mutta pingotus ei ole koonmuunnos. Puuvilla voi venyä märkänä eikä silti palaudu siististi. Kiertyneet silmukat, väärin neulottu mallineule, epätasainen muotoilu. Pingotus ei korjaa näitä.
-
-Kesto riippuu kuidusta. Villa pitää pingotuksen hyvin, vaikka se voi rentoutua vähän neulojen irrottamisen jälkeen. Puuvilla ja pellava pitää muotoilla uudelleen pesun jälkeen. Akryyli ei pidä märkäpingotusta hyvin, mutta höyrypingotus voi muuttaa kankaan pysyvästi. Luonnonkuituiset vaatteet kannattaa levittää pesun jälkeen aina oikeaan muotoon kuivumaan.
+Älä pakota mallitilkkua tavoitetiheyteen tai oleta viimeistelyn pelastavan väärää kokoa. Mittaa tilkku neuleohjeen edellyttämässä tilassa ja käsittele se kuten valmis työ. Valmismittoja verrataan kuivasta, neuloista irrotetusta ja asettuneesta neuleesta, ellei ohje nimenomaan pyydä venytettyä mittaa. Käyttö ja seuraava pesu voivat muuttaa mittoja: pingotus ei takaa pysyvää istuvuutta.
 
 ## Menetelmä kuidun mukaan
 
-Käsittelemätön villa: märkäpingotus, paras tulos. Käsittele varovasti, haalea vesi ja ei hankausta, jotta villa ei huovu.
+- **Villa ja superwash-villa:** tarkista kyseisen lankatuotteen ohje. Superwash ei takaa liotuksen, rumpukuivauksen tai venytyksen soveltuvuutta. Tue märkää työtä ja arvioi mittamuutos tilkusta.
+- **Alpakka ja mohair:** käsittele märkää pintaa kevyesti ja säilytä sen rakenne. Kuitunimi ei määritä venytysvaraa eikä anna höyrytyslupaa.
+- **Puuvilla ja pellava:** tue märän työn painoa. Tarkista kutistuminen, venyminen ja palautuminen viimeistellystä tilkusta. Älä oleta villan kaltaista käyttäytymistä tai pehmenemistä tietyn pesumäärän jälkeen.
+- **Silkki:** noudata tuotteen vettä, värejä ja lämpöä koskevia rajoja. Märkä- tai suihkuviimeistely ei sovi automaattisesti.
+- **Akryyli ja sekoitteet:** seuraa tuotteen hoito-ohjetta. Vesipesu voi sopia ilman lämpökäsittelyä. Yhdessä neulottaville eri langoille tarvitaan kaikkien hoito-ohjeiden sallima menetelmä; kysy ristiriidoista valmistajilta.
 
-Superwash-villa: myös märkäpingottuu hyvin, mutta voi kasvaa pituutta märkänä. Neulaa mittoihin äläkä jätä sitä kuivumaan vapaasti venyen. Jos sinun pitää [mitata neuletiheys](/fi/artikkelit/neuletiheyden-mittaaminen/), viimeistele mallitilkku samalla tavalla kuin valmis työ.
+[Kuituopas](/fi/artikkelit/lankakuidut-vertailussa/) antaa taustatietoa. Kun [mittaat neuletiheyttä](/fi/artikkelit/neuletiheyden-mittaaminen/), käsittele tilkku työn tavoin ja huomioi ohjeen mittausehdot.
 
-Alpakka: venyy märkänä eikä palaudu kuten villa. Neulaa varovaisesti.
+## Kuivumisaika
 
-Puhdas alpakka voi kasvaa reilusti yli suunniteltujen mittojen, jos sitä venytetään märkänä liikaa. Neulaa mieluummin konservatiivisesti kuin yritä pakottaa sitä suuremmaksi.
-
-Puuvilla: reagoi kosteuteen ja muotoiluun, mutta ei pöyhisty tai palaudu kuin villa. Tue paino märkänä, koska puuvilla voi olla yllättävän raskas. Pellava pehmenee jokaisella pesu- ja pingotuskerralla. Ensimmäinen kerta voi näyttää laimealta, mutta kolmannella tai neljännellä pesulla kangas muuttuu selvästi.
-
-Akryyli: reagoi höyryyn, ei veteen. Ole varovainen lämmön kanssa.
-
-Silkki: märkä- tai suihkupingottuu hyvin, ei siedä kovaa lämpöä. Pidä vesi haaleana.
-
-Sekoitteet: seuraa herkintä kuitua. Villa-silkki saa haalean märkäpingotuksen. Villa-akryyli voi mennä kumpaan suuntaan tahansa. [Kuituopas](/fi/artikkelit/lankakuidut-vertailussa/) käy tarkemmin läpi eri kuitujen käyttäytymistä.
-
-## Kuivumisaika kuidun mukaan
-
-Kuivumisaika vaihtelee enemmän kuin neulojat usein odottavat. Paksu villapaita viileänä päivänä voi tarvita kaksi täyttä päivää. Kesäinen pitsihuivi voi kuivua kolmessa tunnissa.
-
-Karkeat arviot: lace- ja fingering-vahvuinen villa voi kuivua 6-12 tunnissa. DK- ja worsted-vahvuinen villa tarvitsee usein 12-24 tuntia. Bulky-villa voi tarvita 24-48 tuntia. Puuvilla imee paljon vettä ja tuntuu märkänä painavalta, joten älä oleta sen kuivuvan nopeasti. Akryyli kuivuu usein nopeammin kuin luonnonkuidut, koska se imee vähemmän kosteutta.
-
-Tuuletin, joka liikuttaa ilmaa työn yli, lyhentää kuivumisaikaa selvästi. Suora aurinko on nopeampi, mutta se voi haalistaa värejä ja kuivattaa epätasaisesti. Patteri tai hiustenkuivaaja nopeuttaa, mutta liian kuuma lämpö voi huovuttaa käsittelemätöntä villaa.
-
-Anna työn kuivua kokonaan ennen kuin irrotat neulat. Jos pinta tuntuu viileältä poskea vasten, siinä on usein vielä kosteutta. Liian aikaisin nostettu pitsi vetäytyy takaisin.
+Paksuus, jäljellä oleva vesi, päällekkäiset kerrokset, huoneen olosuhteet ja ilmanvaihto vaikuttavat kuivumiseen. Kuitukohtainen tuntiarvio ei kerro työn kuivuutta. Tarkista myös alapuoli ja paksut kohdat. Anna ilman kiertää ja vältä suoraa aurinkoa, patteria ja hiustenkuivaajaa. Noudata langan tarkempaa kuivausohjetta.
 
 ## Välineet
 
-Pingotusalustat, esimerkiksi vaahtomuoviset lattialaatat tai lasten leikkimatot, ruostumattomat neulat, T-neulat tai pingotusneulat, pingotusvaijerit suorille huivireunoille ilman neulaa joka 2,5 cm välein, suihkepullo ja mittanauha, jolla tarkistat mitat kaaviota vasten neulatessa.
-
-Puhdas kokolattiamatto pyyhkeen kanssa toimii myös, jos alustoja ei ole. Sänky pyyhkeen päällä toimii yksittäiseen pingotukseen, mutta se varaa sängyn päiväksi. Erillinen huone on paras.
-
-Jos kotona on lemmikkejä, pingotus on riski. Neulattu huivi houkuttelee tassuja. Suljettava ovi on luotettavin suoja. Tarvittaessa iso pahvilaatikko nurinpäin työn päälle pitää lemmikit loitolla, kunhan ilma pääsee kiertämään.
+Tarvitset mittanauhan ja sopivan alustan sekä tarvittaessa ruostumattomat pingotusneulat, sileät vaijerit ja suihkepullon. Vaahtomuovinen leikkimatto ei ole automaattisesti lämmönkestävä. Suojaa kalusteet ja lattia äläkä jätä neuletta jatkuvasti märän, kosteutta imevän kerroksen päälle. Pidä työ ja neulat lasten ja lemmikkien ulottumattomissa estämättä ilmankiertoa.
 
 ## Pingotuksen jälkeen
 
-Irrota neulat vasta, kun työ on kuiva. Vedä neulat suoraan ylöspäin, ei vinossa, jotta et nappaa silmukoita mukaan. Tämä on erityisen tärkeää pitsissä.
+Irrota neulat vasta kuivan ja jäähtyneen työn pinnasta niiden pistosuunnan mukaisesti tarttumatta silmukoihin. Vedä vaijerit varovasti pois. Anna neuleen asettua vapaasti ennen lopullista mittausta. Säilytä kuiva vaate taiteltuna tai tasossa, jotta sen paino ei venytä sitä.
 
-Säilytä valmis neule taiteltuna, ei henkarilla. Ripustaminen venyttää neuletta ajan kanssa, erityisesti raskaita vaatteita. Puhdas säilytys on luonnonkuiduille tärkeintä. Setri- tai laventelipussit voivat auttaa, mutta ne eivät korvaa vaatteen pesua ja säilytystä paikassa, johon koit eivät pääse.
-
-## FAQ
+## Usein kysytyt kysymykset
 
 **Pitääkö jokainen projekti pingottaa?**
-Ei. Tiskirätit, harjoitustilkut ja työt, joissa mitoilla ei ole väliä, voi jättää väliin. Vaatteet, pitsi ja kaikki, missä ulkonäkö ja istuvuus merkitsevät, kannattaa pingottaa. Jos et ole varma, noudata vyötteen tai valmistajan hoito-ohjeita ja testaa aiottu pingotusmenetelmä ensin mallitilkkuun. Sopimaton menetelmä voi muuttaa tai vahingoittaa joitakin kuituja pysyvästi.
+Ei. Sallittu pesu ja kevyt muotoilu voivat riittää. Pitsi voi tarvita neulausta, ja neuletiheyden mallitilkku käsitellään niin, että sitä voi verrata neuleohjeeseen.
 
 **Voiko pingottaa liikaa?**
-Voi venyttää liikaa, erityisesti alpakkaa ja superwash-villaa. Jos neulaat kankaan yli sen luontaisten mittojen, silmukat vääristyvät. Neulaa ohjeen mittoihin, älä pidemmälle.
+Voi. Tavoitemittaan venyttäminen ei tee koosta pysyvää. Lopeta, jos silmukat vääristyvät tai kohokuvio litistyy, vaikka mittapiirros vaatisi suurempaa kokoa.
 
 **Kuinka usein villapaita pitää pingottaa uudelleen?**
-Jokaisen pesun jälkeen levitä se kuivumaan oikeaan muotoon. Se on käytännössä uudelleenpingotus. Jos paita tarvitsee vain pienen muodon palautuksen pesujen välissä, kevyt suihkupingotus riittää.
+Noudata hoito-ohjetta jokaisen pesun jälkeen ja muotoile tarvittaessa. Pesujen välissä kevyt suihkutus käy vain, jos se on sallittu. Toistuva neulaus tai höyrytys ei ole automaattisesti tarpeen.
 
 **Pingotetaanko kappaleet ennen saumojen ompelua vai koko vaate lopuksi?**
-Molemmat toimivat. Pingotus ennen [saumojen ompelua](/fi/artikkelit/neulekappaleiden-yhdistaminen/) helpottaa kappaleiden neulaamista täsmällisiin mittoihin ja tekee saumasta siistimmän. Valmiin vaatteen pingotus on nopeampaa ja korjaa kokoamisessa syntyneitä vääristymiä. Moni tekee molemmat: kappaleet ensin, kevyt loppupingotus saumojen jälkeen.
+Noudata neuleohjetta. Kappaleiden muotoilu voi helpottaa saumojen ompelua, ja sallittu loppukäsittely voi siistiä koottua vaatetta. Kumpikaan järjestys ei takaa täsmällisiä mittoja.
 
 **Voiko valmiin villapaidan pingottaa, jos se tuntuu väärän kokoiselta?**
-Jos paita on villasta ja vain hieman liian pieni, varovainen märkäpingotus suurempiin mittoihin voi auttaa vähän. Jos se on selvästi liian suuri, pingotus ei kutista sitä hallitusti. Huovuttaminen voi kutistaa käsittelemätöntä villaa, mutta se muuttaa kankaan pysyvästi eikä ole luotettava istuvuuskorjaus.
+Tilkun perusteella voi joskus arvioida pienen säädön mahdollisuutta, mutta lisäleveyttä tai -pituutta ei voi luvata. Pingotus ei kutista liian suurta vaatetta luotettavasti. Huovutus muuttaa pintaa pysyvästi eikä ole hallittu istuvuuskorjaus.
 
 **Miksi villapaita kasvaa pingotuksessa?**
-Painava märkä kangas venyy omasta painostaan. Nosta työ alhaalta tukien, älä kanna sitä reunasta, ja rullaa se pyyhkeeseen ennen levittämistä, jotta ylimääräinen vesi poistuu. Superwash-villa ja alpakka kasvavat eniten. Neulaa kaavion mittoihin sen sijaan, että annat kankaan asettua siihen mihin painovoima vetää.
+Märän työn paino, langan rakenne, kuitujen käsittely ja mallineule vaikuttavat mittoihin. Tue työtä koko käsittelyn ajan ja arvioi se kuivana levossa. Superwash-villalla tai alpakalla ei ole yleistä kasvulukua, eivätkä neulat korjaa väärää neuletiheyttä.

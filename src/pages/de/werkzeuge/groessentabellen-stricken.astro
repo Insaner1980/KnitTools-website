@@ -3,8 +3,8 @@ import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import { routes } from "../../../i18n/routes";
 
 interface Cell {
-  cm: string;
-  inch: string;
+  cm: string | null;
+  inch: string | null;
 }
 
 interface Row {
@@ -26,7 +26,8 @@ interface Panel {
   tables: Table[];
 }
 
-const c = (cm: string, inch: string): Cell => ({ cm, inch });
+const c = (cm: string | null, inch: string | null): Cell => ({ cm, inch });
+const unavailableValue = "Kein verifizierter Quellenwert";
 
 const panels: Panel[] = [
   {
@@ -67,7 +68,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ärmellänge bis Unterarm",
+            label: "Armlänge: Achsel bis Handgelenk",
             cells: [
               c("15,5 cm", '6"'),
               c("16,5 cm", '6,5"'),
@@ -168,7 +169,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ärmellänge bis Unterarm",
+            label: "Armlänge: Achsel bis Handgelenk",
             cells: [
               c("21,5 cm", '8,5"'),
               c("26,5 cm", '10,5"'),
@@ -263,7 +264,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ärmellänge bis Unterarm",
+            label: "Armlänge: Achsel bis Handgelenk",
             cells: [
               c("38 cm", '15"'),
               c("40,5 cm", '16"'),
@@ -349,7 +350,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ärmellänge bis Unterarm",
+            label: "Armlänge: Achsel bis Handgelenk",
             cells: [
               c("42 cm", '16,5"'),
               c("43 cm", '17"'),
@@ -401,7 +402,7 @@ const panels: Panel[] = [
           {
             label: "Nacken bis Handgelenk",
             cells: [
-              c("66-68,5 cm", '26-26,5"'),
+              c(null, null),
               c("68,5-70 cm", '27-27,5"'),
               c("71-72,5 cm", '28-28,5"'),
               c("73,5-75 cm", '29-29,5"'),
@@ -442,7 +443,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ärmellänge bis Unterarm",
+            label: "Armlänge: Achsel bis Handgelenk",
             cells: [
               c("45,5 cm", '18"'),
               c("45,5 cm", '18"'),
@@ -456,7 +457,7 @@ const panels: Panel[] = [
               c("39,5 cm", '15,5"'),
               c("43 cm", '17"'),
               c("47 cm", '18,5"'),
-              c("49,5 cm", '18,5"'),
+              c("49,5 cm", '19,5"'),
             ],
           },
           {
@@ -517,7 +518,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Rückenlänge bis Taille",
+            label: "Rückenlänge bis Hüfte",
             cells: [
               c("58,5-61 cm", '23-24"'),
               c("63,5-66 cm", '25-26"'),
@@ -535,7 +536,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ärmellänge bis Unterarm",
+            label: "Armlänge: Achsel bis Handgelenk",
             cells: [
               c("45,5 cm", '18"'),
               c("47 cm", '18,5"'),
@@ -604,7 +605,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Rückenlänge bis Taille",
+            label: "Rückenlänge bis Hüfte",
             cells: [
               c("73,5 cm", '29"'),
               c("76 cm", '30"'),
@@ -616,18 +617,18 @@ const panels: Panel[] = [
             label: "Rückenbreite",
             cells: [
               c("48-51 cm", '19-20"'),
-              c("48-51 cm", '20-21"'),
-              c("51-54,5 cm", '21-21,5"'),
+              c(null, null),
+              c(null, null),
               c("56-57 cm", '22-22,5"'),
             ],
           },
           {
-            label: "Ärmellänge bis Unterarm",
+            label: "Armlänge: Achsel bis Handgelenk",
             cells: [
               c("52 cm", '20,5"'),
               c("52 cm", '20,5"'),
-              c("49,5 cm", '21"'),
-              c("53,5-54,5 cm", '21,5"'),
+              c(null, null),
+              c(null, null),
             ],
           },
           {
@@ -636,7 +637,7 @@ const panels: Panel[] = [
               c("42 cm", '16,5"'),
               c("44,5 cm", '17,5"'),
               c("47 cm", '18,5"'),
-              c("48 cm", '20"'),
+              c(null, null),
             ],
           },
           {
@@ -694,37 +695,61 @@ const panels: Panel[] = [
           { label: "Baby", cells: [c("35,5-40,5 cm", '14-16"')] },
           { label: "Kleinkind", cells: [c("40,5-46 cm", '16-18"')] },
           { label: "Kind", cells: [c("45,5-51 cm", '18-20"')] },
-          { label: "Teen", cells: [c("51-56 cm", '20-22"')] },
+          { label: "Vorpubertät", cells: [c("51-56 cm", '20-22"')] },
           { label: "Frau", cells: [c("53-58,5 cm", '21-23"')] },
           { label: "Mann", cells: [c("56-61 cm", '22-24"')] },
         ],
       },
       {
         caption: "Fußlänge",
-        sizeHeader: "Größe",
+        sizeHeader: "US-Schuhgröße / Richtalter",
         sizes: ["Länge"],
         rows: [
-          { label: "Baby 0-6 M", cells: [c("9 cm", '3,5"')] },
-          { label: "Baby 6-12 M", cells: [c("10-11 cm", '4-4,5"')] },
-          { label: "Kleinkind 1-2 J", cells: [c("12-13 cm", '4,75-5"')] },
-          { label: "Kind 3-6 J", cells: [c("14-18 cm", '5,5-7"')] },
-          { label: "Kind 7-10 J", cells: [c("19-21 cm", '7,5-8,25"')] },
-          { label: "Jugend", cells: [c("22-24 cm", '8,5-9,5"')] },
-          { label: "Frauen", cells: [c("23-26 cm", '9-10,25"')] },
-          { label: "Männer", cells: [c("25-29 cm", '10-11,5"')] },
+          {
+            label: "Baby, US 0–4 (6–18 Monate)",
+            cells: [c("7,75–11,5 cm", '3–4,5"')],
+          },
+          {
+            label: "Kleinkind, US 5–9 (2–3 Jahre)",
+            cells: [c("12–15,25 cm", '4,75–6"')],
+          },
+          {
+            label: "Kind, US 10–13 (4–5 Jahre)",
+            cells: [c("16,5–19 cm", '6,5–7,5"')],
+          },
+          {
+            label: "Jugend, US 1–3 (6–9 Jahre)",
+            cells: [c("19,75–21,5 cm", '7,75–8,5"')],
+          },
+          {
+            label: "Jugend, US 4–6 (10–13 Jahre)",
+            cells: [c("22,25–24 cm", '8,75–9,5"')],
+          },
+          { label: "Frauen, US 4–6,5", cells: [c("20,25–23 cm", '8–9"')] },
+          { label: "Frauen, US 7–9,5", cells: [c("23,5–25,5 cm", '9,25–10"')] },
+          { label: "Frauen, US 10–12,5", cells: [c("26–28 cm", '10,25–11"')] },
+          { label: "Männer, US 6–8,5", cells: [c("23,5–25,5 cm", '9,25–10"')] },
+          { label: "Männer, US 9–11,5", cells: [c("26–28 cm", '10,25–11"')] },
+          {
+            label: "Männer, US 12–14",
+            cells: [c("28,5–30,5 cm", '11,25–12"')],
+          },
         ],
       },
       {
         caption: "Handumfang",
-        sizeHeader: "Größe",
+        sizeHeader: "CYC-Gruppe / Größe",
         sizes: ["Umfang"],
         rows: [
-          { label: "Baby", cells: [c("10-13 cm", '4-5"')] },
-          { label: "Kleinkind", cells: [c("13-15 cm", '5-6"')] },
-          { label: "Kind", cells: [c("15-18 cm", '6-7"')] },
-          { label: "Jugend", cells: [c("18-20 cm", '7-8"')] },
-          { label: "Frauen", cells: [c("18-20 cm", '7-8"')] },
-          { label: "Männer", cells: [c("20-23 cm", '8-9"')] },
+          { label: "Kind 2–4 Jahre", cells: [c("13 cm", '5"')] },
+          { label: "Kind 4–6 Jahre", cells: [c("15 cm", '6"')] },
+          { label: "Kind 6–8 Jahre", cells: [c("16,5 cm", '6,5"')] },
+          { label: "Frauen S", cells: [c("18 cm", '7"')] },
+          { label: "Frauen M", cells: [c("19 cm", '7,5"')] },
+          { label: "Frauen L", cells: [c("20,5 cm", '8"')] },
+          { label: "Männer S", cells: [c("20,5 cm", '8"')] },
+          { label: "Männer M", cells: [c("21,5 cm", '8,5"')] },
+          { label: "Männer L", cells: [c("23,5 cm", '9"')] },
         ],
       },
     ],
@@ -736,11 +761,11 @@ const defaultPanel = "frauen";
 const faqs = [
   {
     q: "Sind diese Maße in allen Strickanleitungen gleich?",
-    a: "Viele Verlage und Strickdesigns orientieren sich an Körpermaßtabellen im Stil des Craft Yarn Council, aber es gibt keine universelle Durchsetzung. Manche Anleitungen verwenden eigene Größen, besonders wenn sie sehr fein abgestufte Größen anbieten. Prüfe immer die Größentabelle der konkreten Anleitung, wenn eine vorhanden ist.",
+    a: "CYC veröffentlicht Referenztabellen, aber nicht alle Strickanleitungen verwenden dasselbe Größensystem. Designer können eigene Maße und Größenbezeichnungen nutzen. Prüfe immer die Größentabelle und Maßzeichnung der Anleitung.",
   },
   {
     q: "Wie wähle ich die Größe, wenn die Anleitung nummerierte Größen statt XS/S/M/L verwendet?",
-    a: "Vergleiche den Brustumfang jeder nummerierten Größe mit den Tabellen oben. Der Brustumfang ist der entscheidende Wert. Das Etikett der Größe ist weniger wichtig.",
+    a: "Nutze die Maße der Anleitung, nicht nur die Zahl oder den Buchstaben. Prüfe, ob es Körpermaße oder Fertigmaße sind; berücksichtige bei Fertigmaßen die vorgesehene Mehrweite. Vergleiche bei einem Pullover den Brustumfang und weitere für die Passform wichtige Maße.",
   },
   {
     q: "Messe ich über Kleidung oder auf der Haut?",
@@ -759,7 +784,7 @@ const faqs = [
   canonicalPath={routes.tool.knittingSizeCharts.de}
   lang="de"
   alternates={routes.tool.knittingSizeCharts}
-  intro="Körpermaße für typische Strickprojekte. Wähle eine Gruppe und Einheit, aber denk daran: Das sind Körpermaße, keine Fertigmaße. Die gewünschte Mehrweite kommt danach dazu."
+  intro="Körpermaße für typische Strickprojekte. Wähle eine Gruppe und Einheit, aber denk daran: Das sind Körpermaße, keine Fertigmaße. Berücksichtige die Mehrweite, die die Anleitung vorsieht."
   schemaName="Größentabellen fürs Stricken"
   schemaDescription="Körpermaßtabellen zur Größenwahl in Strickanleitungen."
   faqs={faqs}
@@ -767,6 +792,20 @@ const faqs = [
   enableSizeChartControls
 >
   <div slot="tool" data-size-chart data-mobile-size-label="Größe wählen">
+    <p class="panel-intro">
+      Dies sind CYC-Referenzmaße des Körpers, keine Fertigmaße oder universellen
+      Größen. Die Kinder- und Jugendnummern sind US-Referenzgrößen, keine
+      Altersangaben oder europäischen Körperhöhengrößen. Babyalter sind
+      Richtwerte. XS–5XL folgen CYC; 2XL–5XL entsprechen dort 2X–5X. Miss die
+      Person und nutze die Größentabelle der Anleitung.
+    </p>
+    <p class="panel-intro" id="size-source-note">
+      CM und Zoll zeigen die veröffentlichten, gerundeten CYC-Wertepaare, keine
+      exakten Umrechnungen. Für sechs Maße liegt kein verifizierter Quellenwert
+      vor, weil sich die veröffentlichten Werte widersprechen. Beide Werte
+      wurden weggelassen. Miss den Körper wie unten beschrieben und prüfe die
+      Größenangaben und die vorgesehene Bewegungszugabe der Anleitung.
+    </p>
     <div class="chart-controls">
       <div class="tab-scroller">
         <div class="tabs" role="tablist" aria-label="Größengruppe">
@@ -816,6 +855,7 @@ const faqs = [
             class={`panel${panel.id === defaultPanel ? " is-active" : ""}`}
             data-panel={panel.id}
             role="tabpanel"
+            tabindex="0"
             id={`panel-${panel.id}`}
             aria-labelledby={`tab-${panel.id}`}
             hidden={panel.id !== defaultPanel}
@@ -830,9 +870,11 @@ const faqs = [
                   <table class="size-table">
                     <thead>
                       <tr>
-                        <th class="sticky-col">{table.sizeHeader ?? "Maß"}</th>
+                        <th scope="col" class="sticky-col">
+                          {table.sizeHeader ?? "Maß"}
+                        </th>
                         {table.sizes.map((size) => (
-                          <th>{size}</th>
+                          <th scope="col">{size}</th>
                         ))}
                       </tr>
                     </thead>
@@ -843,9 +885,20 @@ const faqs = [
                             {row.label}
                           </th>
                           {row.cells.map((cell) => (
-                            <td>
-                              <span class="unit-cm">{cell.cm}</span>
-                              <span class="unit-inch">{cell.inch}</span>
+                            <td
+                              data-unavailable={cell.cm === null || undefined}
+                              aria-describedby={
+                                cell.cm === null
+                                  ? "size-source-note"
+                                  : undefined
+                              }
+                            >
+                              <span class="unit-cm">
+                                {cell.cm ?? unavailableValue}
+                              </span>
+                              <span class="unit-inch">
+                                {cell.inch ?? unavailableValue}
+                              </span>
                             </td>
                           ))}
                         </tr>
@@ -893,58 +946,65 @@ const faqs = [
       sein muss.
     </p>
     <p>
-      <strong>Ärmellänge bis Unterarm:</strong> Miss vom Handgelenksknochen bis zum
-      Unterarm. Das ist dein Ausgangswert für die Ärmellänge.
+      <strong>Rückenlänge bis Hüfte (Männer):</strong> Die Männertabelle folgt dem
+      CYC-PDF und misst vom Nacken bis zur Hüfte, nicht zur Taille. Prüfe diesen Endpunkt
+      an der Maßzeichnung der Anleitung.
+    </p>
+    <p>
+      <strong>Armlänge: Achsel bis Handgelenk:</strong> Miss bei leicht gebeugtem
+      Arm von der Achsel bis zum Handgelenk. Dieses Körpermaß hilft bei der Ärmellänge,
+      ist aber kein fertiges Ärmelmaß.
     </p>
     <p>
       <strong>Oberarmumfang:</strong> Miss an der vollsten Stelle des Oberarms, während
       der Arm locker an der Seite hängt.
     </p>
     <p>
-      <strong>Armausschnitttiefe:</strong> Miss von der Schulterspitze gerade nach
-      unten bis zum Unterarm. Dieses Maß beeinflusst, wie tief die Armlochformung
-      sein muss.
+      <strong>Armausschnitttiefe:</strong> Miss von der äußeren Oberkante der Schulter
+      senkrecht hinunter bis zur Achsel.
     </p>
     <p>
-      <strong>Nacken bis Handgelenk:</strong> Miss von der hinteren Halsmitte über
-      die Schulter und den Arm hinunter bis zum Handgelenksknochen. Dieses kombinierte
-      Maß ist besonders bei Raglan- und Passenkonstruktionen nützlich, bei denen Körper
-      und Ärmel zusammen entstehen.
+      <strong>Nacken bis Handgelenk:</strong> Miss bei gestrecktem Arm vom hinteren
+      Halsansatz über die Schulter und am Arm entlang bis zum Handgelenk.
+    </p>
+    <p>
+      <strong>Accessoires:</strong> Miss den Kopfumfang über die Stirn um den ganzen
+      Kopf, die Fußlänge auf dem Boden von der Fersenrückseite bis zum längsten Zeh
+      und den Handumfang an der dominanten Hand unterhalb der Fingerknöchel, ohne
+      Daumen. Dies sind Körpermaße, keine Fertigmaße von Mützen, Socken oder Fäustlingen.
+      Die Fußlänge ist keine Schuhgrößenumrechnung und reicht allein nicht zur Sockenbemessung.
+      Altersangaben sind Richtwerte.
     </p>
 
     <h2>Körpermaße vs. Fertigmaße</h2>
     <p>
-      Hier entstehen beim Stricken die meisten Größenfehler. Diese Tabellen
-      zeigen Körpermaße, also die tatsächlichen Maße der Person. Ein fertiges
-      Kleidungsstück kann kleiner, gleich groß oder größer sein, je nachdem,
-      welche Mehrweite die Anleitung vorsieht.
+      Diese Tabellen zeigen Körpermaße. Ein fertiges Kleidungsstück kann je nach
+      vorgesehener Mehrweite kleiner, gleich groß oder größer sein.
     </p>
     <p>
       <strong>Negative Mehrweite:</strong> Das Kleidungsstück ist kleiner als der
-      Körper. Für eine sehr körpernahe Pulloverpassform nennt die CYC-Richtlinie ungefähr
-      5-10 cm weniger als den tatsächlichen Brust- oder Oberbrustumfang; Mützen, Socken
-      und enges Rippenmuster haben eigene projektspezifische Regeln.
+      Körper. Für sehr körpernahe Pullover nennt CYC etwa 5–10 cm weniger als den
+      Brustumfang. Mützen und Socken benötigen die in ihrer jeweiligen Anleitung vorgesehene
+      Mehrweite.
     </p>
     <p>
-      <strong>Keine Mehrweite:</strong> Das Kleidungsstück entspricht dem Körpermaß.
-      In gestrickter Fläche wirkt das meist sehr körpernah, außer das Muster ist besonders
-      locker.
+      <strong>Keine Mehrweite:</strong> Das Fertigmaß entspricht dem jeweiligen Körpermaß.
     </p>
     <p>
-      <strong>Positive Mehrweite (5-10 cm):</strong> Das Kleidungsstück ist etwas
-      größer als der Körper. Das ist eine typische Passform für viele Pullover, Cardigans
-      und Tops.
+      <strong>Positive Mehrweite:</strong> Das Kleidungsstück ist größer als der Körper.
+      CYC empfiehlt etwa 5–10 cm zusätzliche Brustweite für einen klassischen Pulloversitz,
+      nicht als Regel für alle Modelle.
     </p>
     <p>
-      <strong>Lockere oder Oversize-Mehrweite (10-15+ cm):</strong> Das Kleidungsstück
-      ist sichtbar größer als der Körper. Lässige Pullover, Cocoon-Cardigans und relaxed-fit-Modelle
-      liegen in diesem Bereich.
+      <strong>Lockere und Oversize-Passform:</strong> CYC empfiehlt etwa 10–15 cm
+      zusätzliche Brustweite für einen lockeren Pullover und mindestens 15 cm für
+      einen Oversize-Pullover.
     </p>
     <p>
-      Wenn eine Anleitung "für Brustumfang 91,5 cm" sagt und ein Fertigmaß von
-      101,5 cm nennt, sind die 10 cm Differenz die Mehrweite. Du wählst also die
-      Größe, deren Körpermaß zu dir passt, nicht einfach die Größe mit deinem
-      gewünschten Fertigmaß.
+      Wenn eine Anleitung für 91,5 cm Brustumfang ein Fertigmaß von 101,5 cm
+      vorsieht, beträgt die positive Mehrweite 10 cm. Vergleiche sowohl die
+      Körpermaßangaben als auch die Fertigmaße der Maßzeichnung mit deiner
+      gewünschten Passform.
     </p>
     <p>
       Wenn du deine Zielgröße kennst, kann der <a
@@ -957,10 +1017,12 @@ const faqs = [
 
     <h2>Zwischen zwei Größen wählen</h2>
     <p>
-      Wenn dein Brustumfang zwischen zwei Größen liegt, entscheidet die
-      gewünschte Passform. Für ein körpernahes Kleidungsstück ist eher die
-      kleinere Größe sinnvoll. Für eine lockere oder oversized Passform eher die
-      größere.
+      Vergleiche zwischen zwei Größen die Fertigmaße mit deinem Körper und der
+      vorgesehenen Mehrweite. Wähle nicht automatisch kleiner für körpernah oder
+      größer für Oversize. Maschenmuster, Faser und eine gewaschene, getrocknete
+      Maschenprobe beeinflussen Dehnbarkeit und Fall. Mützen und Socken
+      benötigen die jeweilige Mehrweite ihrer Anleitung; eine feste Zugabe
+      garantiert keine passende Größe.
     </p>
     <p>
       Vergleiche außerdem andere Maße, besonders Hüfte bei längeren
@@ -976,6 +1038,39 @@ const faqs = [
       passt. Der Leitfaden zum <a href="/de/artikel/maschenprobe-messen/"
         >Messen der Maschenprobe</a
       > erklärt den Prozess genauer.
+    </p>
+
+    <h2>Quellen und Messkonventionen</h2>
+    <p>
+      <a href="https://www.craftyarncouncil.com/standards/body-sizing"
+        >Craft Yarn Council: Quellen und Messkonventionen</a
+      >. <a href="https://www.craftyarncouncil.com/standards/baby-size-chart"
+        >Baby</a
+      >, <a href="https://www.craftyarncouncil.com/standards/child-youth-sizes"
+        >Kinder und Jugendliche</a
+      >, <a href="https://www.craftyarncouncil.com/standards/woman-size"
+        >Frauen</a
+      >, <a href="https://www.craftyarncouncil.com/standards/man-size">Männer</a
+      >, <a
+        href="https://www.craftyarncouncil.com/standards/head-circumference-chart"
+        >Kopf</a
+      >, <a href="https://www.craftyarncouncil.com/standards/foot-size-charts"
+        >Fuß</a
+      >, <a href="https://www.craftyarncouncil.com/standards/hand-size-charts"
+        >Hand</a
+      >. <a
+        href="https://media.craftyarncouncil.com/sites/default/files/images/standards/CYC_YarnStandards-2018-11-06.pdf"
+        >CYC PDF</a
+      >.
+    </p>
+    <p>
+      Quelle: Craft Yarn Council. Das verlinkte PDF (Seiten 17–18) klärt zwei
+      Fehler der Webtabellen: Der Oberarmumfang für Frauen 5XL beträgt 19,5
+      Zoll, und die Rückenlänge der Männer reicht bis zur Hüfte, nicht zur
+      Taille. Die sechs weiteren Widersprüche in der Quelle sind weiterhin
+      ungeklärt. Diese Website lässt für die betroffenen Maße beide
+      Einheitenwerte weg und ersetzt sie nicht durch korrigierte oder berechnete
+      Werte.
     </p>
   </div>
 </LocalizedToolPage>

@@ -1,7 +1,8 @@
 ---
 title: "Hur mycket garn behövs till en filt?"
-description: "Räkna ut hur mycket garn du behöver till en stickad filt. Uppskattningar efter filtstorlek och garntjocklek, från babyfiltar till stora plädar."
+description: "Uppskatta garnåtgången till en stickad filt med mönsterexempel, färdiga mått och en provlapp. Räkna om den nödvändiga löplängden till hela nystan."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 5
 tags:
@@ -19,102 +20,88 @@ lang: sv
 translationKey: "yarn-for-blanket"
 ---
 
-Filtar äter garn. Till och med en liten babyfilt använder mer löplängd än de flesta plagg, och en stor pläd kan passera 2 300 meter i Worsted. Att få slut mitt i, särskilt med ett utgånget färgbad, är precis den sortens stickelände som går att undvika med rimlig planering.
+Filtar äter garn. Att få slut mitt i, särskilt när samma färgbad inte längre finns att köpa, är stickelände som bättre planering kan hjälpa dig att undvika.
 
-Uppskattningarna nedan ger ett startspann. Din faktiska garnåtgång beror på stickfasthet, struktur och mått, så behandla siffrorna som inköpsspann snarare än löften från ett mönster.
+Börja med filtens färdiga bredd och längd, garnet och stickmönstret. Nedan finns garnmängder från namngivna mönster och råd för att uppskatta åtgången till en annan filt.
 
 ## Garnåtgång efter filtstorlek
 
-De här spannen utgår från slätstickning eller en liknande platt struktur. Strukturerade mönster använder mer, med justeringar nedan.
+Babyfilt, pläd och king size är beskrivningar, inte universella mått. Bestäm överkastets färdiga storlek och hur långt det ska hänga ner; madrassens mått är inte filtens mått.
 
-**Babyfilt (75 x 100 cm)**
-Worsted: 700-1 000 m
-DK: 900-1 200 m
-Bulky: 500-800 m
+**Babyfilt: [Bright Cuddles Blanket, DROPS Baby 46-4](https://www.garnstudio.com/pattern.php?id=11395&cid=12).** Filten stickas fram och tillbaka med en tråd DROPS Big Merino, i hålmönster med rätstickade kanter som stickas samtidigt. Stickfastheten är 16 maskor och 22 varv per 10 × 10 cm i hålmönstret. [Big Merino](https://www.garnstudio.com/yarn.php?show=drops-big-merino&cid=19) är ett aran/worsted-garn med cirka 75 m per nystan à 50 g.
 
-**Knäfilt / liten pläd (100 x 130 cm)**
-Worsted: 1 400-1 800 m
-DK: 1 650-2 200 m
-Bulky: 1 000-1 400 m
+| Färdiga mått | Mönstrets mängd / nystan | Nystanens totala längd |
+| ------------ | ------------------------ | ---------------------- |
+| 44 × 59 cm   | 300 g / 6                | 450 m                  |
+| 57 × 68 cm   | 450 g / 9                | 675 m                  |
+| 69 × 77 cm   | 600 g / 12               | 900 m                  |
 
-**Hel pläd (130 x 180 cm)**
-Worsted: 2 100-2 900 m
-DK: 2 750-3 500 m
-Bulky: 1 550-2 200 m
+Mått och löplängd är ungefärliga. Måtten gäller hela filten inklusive kanterna. Meterangivelserna visar hur mycket garn de rekommenderade hela nystanen innehåller, inte uppmätt förbrukning eller att varje meter används.
 
-**Stor / king size (180 x 230 cm)**
-Worsted: 3 500-4 600 m
-DK: 4 600-5 700 m
-Bulky: 2 600-3 400 m
+**Större filt: [Strawberry Sky, DROPS 223-37](https://www.garnstudio.com/pattern.php?id=10186&cid=19).** Filten mäter 100 × 140 cm och stickas fram och tillbaka från hörn till hörn i rätstickning, med en tråd DROPS Fabel. Stickfastheten är 20 maskor och 39 varv per 10 × 10 cm. Mönstret anger 550 g av färg 623. [Fabel](https://www.garnstudio.com/yarn.php?show=drops-fabel&cid=19) är ett fingering-garn med cirka 205 m per 50 g: 11 nystan innehåller 2 255 m. Detta är ett separat mönsterexempel, inte en större storlek av spetsfilten.
 
-För en mer projektspecifik uppskattning baserad på ditt garn och dina mått täcker [garnåtgångskalkylatorn](/sv/verktyg/garnatgangskalkylator/) filtar från baby till king size över de vanliga garntjocklekarna som används i verktyget.
+[Garnåtgångskalkylator](/sv/verktyg/garnatgangskalkylator/) — Referensmängder från namngivna mönster, ingen personlig förbrukningsprognos. Välj projekt, en storlek i ett namngivet mönster och enhet. Resultatet är mönstrets referensmängd, ingen prognos för ditt eget projekt.
 
 ## Varför garntjocklek ändrar totalen så mycket
 
-Tunnare garn betyder fler maskor per centimeter, vilket betyder mer garn per varv. En filt i DK har fler maskor över samma bredd än en filt i Worsted, och proportionellt fler varv för att nå samma längd. Samma filtstorlek, mer garn i den.
+Garntjocklek beskriver tjockleken; gram anger den fysiska vikten. En garnkategori eller ett maskantal räcker inte för att bestämma löplängden som behövs. Jämför garn, stickfasthet och stickmönster i det valda mönstret.
 
-Det är delvis därför Super Bulky-filtar är populära bland nya stickare. Snabba att sticka, färre meter totalt. Haken: Super Bulky-garn kostar ofta mer per 100 g och ger färre meter per nystan, så den totala projektkostnaden kan bli liknande trots lägre löplängd. Lion Brand listar enfärgad Wool-Ease Thick & Quick till 97 m per nystan, med kortare löplängd i vissa print-, rand- och metallicfärger. Vanlig enfärgad Wool-Ease listas till 180 m per nystan. För samma filtyta behöver du färre nystan av det tjockare garnet, men varje nystan räcker kortare sträcka.
+Ett grövre garn kan ge en annan yta med färre maskor på bredden, men det ger ingen fast minskning av meter eller antal nystan. Både löplängden på banderollen och åtgången till just den stickade ytan spelar roll. Jämför priset för hela den mängd som behövs.
 
 ## Justeringar för struktur
 
-Uppskattningarna ovan utgår från platt tyg. Justera upp för:
+Sticka provlappen i det faktiska mönstret. Flätor, mosstickning, dubbel mosstickning, rätstickning, spets och flerfärgsstickning ska inte alla utgå från samma uppskattning för slätstickning. Det finns inget allmängiltigt procenttillägg. Ta med en hel rapport och, vid flerfärgsstickning, flotteringarna och förbrukningen av varje färg.
 
-**Flätor:** Lägg till en generös marginal. Flätor drar ihop tyget på bredden, så du behöver fler maskor för att få samma filtbredd. En tätt flätstickad Aran-filt kan använda märkbart mer garn än samma mått i slätstickning.
+För en egen rektangulär filt ger [Rita Buchanans areametod](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf) en utgångspunkt: multiplicera provlappens uppmätta garnlängd eller garnvikt med **filtens area ÷ provlappens area**. Area är bredd × längd. Använd samma ytenhet, exempelvis cm², genom hela beräkningen.
 
-**Mosstickning och seed stitch:** Lägg till en mindre marginal. Det växlande räta/aviga mönstret ger tätare tyg och ofta lite fastare stickfasthet.
+Garn, stickmönster och stickfasthet ska motsvara filten. Behandla provlappen som filten ska behandlas, enligt garnets skötselråd, och mät när den är helt torr. Garnet som vägs eller mäts ska motsvara den uppmätta ytan: räkna inte extra kanter eller långa garnändar till vikten av en mindre mittdel. Provet måste vara tillräckligt stort för vågens upplösning.
 
-**Flerfärgsstickning:** Sticka en provbit av färgrapporten innan du köper snäva mängder. Flotteringar på baksidan förbrukar garn som inte bidrar till tygbredden. Fair Isle-filtar kan bli fina men garnhungriga, och flotteringarna gör också filten tyngre och mindre följsam än en enfärgad version.
-
-**Rätstickning:** Ungefär samma totala garnåtgång som slätstickning, ibland omkring 5 % mer. Rätstickning drar ihop sig på höjden, så du stickar ofta några extra varv för att nå samma längd. Filten blir tjockare och mer fjädrande vid samma maskantal.
-
-**Spets:** Kan använda lite mindre än slätstickning eftersom den öppna strukturen sträcker sig längre när den blockas. En spetsfilt som blockas hårt kan nå större färdig storlek med samma garnmängd. Räkna ändå inte med stora besparingar, och spetsfilt är sällan målet om värme är viktigast.
+Samma areaförhållande kan användas när du ändrar storlek på oförändrad stickad yta i ett mönster. Dubblerad längd ger dubblerad area; dubblerad bredd och längd ger fyrdubblad area. Beräkna kanter, sömmar och fransar separat om de inte redan ingår i en representativ mätning. Räkna varje del en gång. Mönstrets avrundade inköpsmängd är inte uppmätt förbrukning, så en sådan skalning är fortfarande ungefärlig.
 
 ## Omvandla meter till nystan
 
-Kontrollera banderollen för meter per nystan. Dela total löplängd med löplängd per nystan. Avrunda uppåt.
+Kontrollera meter per nystan på banderollen. Dela den totala längden med längden per nystan och avrunda uppåt till hela nystan.
 
-Din filt behöver ungefär 2 000 m. Garnet ger 200 m per 100 g-nystan. Det är 10 nystan. Köp 11. Det extra täcker variation i stickfasthet, uppläggningssvansar, eventuell upprepning och verkligheten att garnuppskattning är ett spann, inte ett löfte.
+Anta som räkneexempel att du behöver 2 000 m och att banderollen anger 200 m per 100 g. Då blir 2 000 ÷ 200 = **10 nystan**, totalt 1 000 g. Det är ett omräkningsexempel, inte en mängdrekommendation för en viss filtstorlek.
 
-Köp ett extra nystan eller två till filtar om budgeten tillåter och garnet går att returnera eller använda som reserv. Kostnaden är liten jämfört med att få slut tre fjärdedelar in när färgbadet är borta. [Guiden om garnåtgång](/sv/artiklar/hur-mycket-garn-behover-jag/) går igenom vägmetoden för att kontrollera delvis använda nystan mitt i projektet.
+Planera reserv efter projektet och kontrollera först om grundmängden redan täcker provlapp och montering. Ett elfte nystan ger 200 m extra, men är inte automatiskt nödvändigt eller tillräckligt. Garn som repas upp och återanvänds förbrukas inte två gånger; räkna med verkligt spill. Beräkna och avrunda varje färg separat. [Guiden om garnåtgång](/sv/artiklar/hur-mycket-garn-behover-jag/) förklarar hur du väger delvis använda nystan.
 
 ## Planera färgbad
 
-Filtar kräver så många nystan att färgbad blir en verklig fråga. Garn färgat i olika omgångar kan se tydligt olika ut när det stickas bredvid varandra, även om nystanen ser identiska ut i butiken.
+Garn färgat i olika omgångar kan se tydligt olika ut när det stickas bredvid varandra, även om nystanen ser identiska ut i butiken.
 
 Köp allt garn samtidigt, från samma färgbad. Kontrollera färgbadsnumret på varje banderoll. Det står ofta nära färgnumret och kan vara märkt som "Lot" eller "Color Lot". Om butiken inte har tillräckligt från ett färgbad, fråga om de kan beställa mer från samma omgång.
 
-Om du trots allt hamnar med två färgbad, alternera nystan genom hela filten. Två varv från färgbad A, två varv från färgbad B, upprepa. Färgskillnaden blandas mer gradvis och blir mindre synlig. Mycket bättre än att använda hela det ena färgbadet först och få en tydlig linje där det andra börjar. En del stickare gör detta även med matchande färgbad i handfärgade eller kettle-dyed garner, eftersom variationen kan synas också inom samma färgbad.
+Har du olika färgbad, prova att växla mellan nystanen i en provlapp först. Intervallet beror på garn och mönster; växlingen garanterar inte att skillnaden försvinner. Även handfärgade nystan inom samma färgbad kan skilja sig. [Malabrigos råd för Sock](https://malabrigoyarn.com/yarns/sock) beskriver variationen och hur man växlar mellan nystan.
 
 ## Välja garntjocklek till en filt
 
-**Bulky och Super Bulky:** Snabbt, grov struktur, varmt. Bra till plädar som ska vara mysiga snarare än raffinerade. Tyget blir tungt, vilket antingen är en fördel, som en tyngdfiltskänsla, eller en nackdel när filten ska falla över en soffarm. Se också upp med handtrötthet. Många timmar på 9 mm-stickor och grövre känns annorlunda i handlederna än Worsted på 5 mm.
+**Bulky och Super Bulky:** välj för en grov struktur och kontrollera provlappens vikt och fall. Tjockleken ensam garanterar varken värme eller en tyngdfiltseffekt.
 
-**Worsted:** Den vanligaste filttjockleken. Bra balans mellan hastighet, täthet och fall. En filt i Worsted är varm utan att bli stel. Fungerar för de flesta strukturer. Många slitstarka Worsted-garner har dessutom djupa färgkartor, vilket spelar roll när du binder upp två eller tre tusen meter i samma nyans.
+**Worsted:** ett alternativ för både släta och mönstrade filtar. Bedöm täthet och mjukhet i en provlapp med mönstrets stickfasthet; alla garner i samma kategori faller inte likadant.
 
-**DK:** Finare struktur, lättare vikt, mer fall. Tar längre tid men ger en filt som känns mer polerad. Bra till babyfiltar där du vill ha mjukhet utan bulk.
+**DK:** ett alternativ för en finare maskbild. Bedöm den färdiga ytan i stället för att se kategorin som en garanti för mjukhet eller lämplighet till en babyfilt.
 
-**Sport och Fingering:** Vackert tyg. Ett seriöst tidsåtagande. En filt i Fingering är ett projekt som mäts i månader, ibland år. Resultatet blir lätt och följsamt, mer som en vävd filt än en typisk stickad pläd. Modulära konstruktioner, som mitred squares eller log cabin-rutor, gör den här typen av projekt mer hanterlig eftersom du stickar små delar och syr eller stickar ihop dem senare.
+**Sport och Fingering:** överväg rutor eller andra delar om du föredrar mindre stickningar att hantera. Vissa delar sys ihop, andra fogas samman under stickningen. Följ mönstrets konstruktion.
 
 ## Stickor, fibrer och vad som faktiskt håller
 
-Några praktiska punkter syns inte i garnmatematiken.
+En rundsticka kan hålla maskorna när du stickar fram och tillbaka. Välj en totallängd som ger plats för maskorna. Mönstren ovan anger rundstickor på 60 respektive 80 cm; det är mönsterspecifika totallängder, inte kabellängder för alla filtar.
 
-Använd en lång rundsticka till alla filtar över knästorlek. En 100 cm kabel räcker till de flesta plädar. Stora filtar och överkast är lättare på 120 eller 150 cm kabel. Maskorna kommer fortfarande att trängas, men du slipper den ständiga kampen med en för kort kabel. Filten stickas fram och tillbaka på rundstickan, inte runt.
+Välj stickstorlek efter mönstrets stickfasthet och den tvättade, torra yta du vill ha. Ett stickbyte kan ändra mått och åtgång. Sticka därför en ny provlapp i stället för att automatiskt gå upp en storlek från tröjstickorna.
 
-För mer fall kan du överväga en stickstorlek större än du skulle använda till en figurnära tröja i samma garn. Ett Worsted-garn som ger en fast tröja på 4,5 mm kan ge en mjukare, mer följsam filt på 5 eller 5,5 mm. Tätt stickade filtar kan kännas stela.
-
-Till babyfiltar och filtar som sannolikt tvättas ofta, börja med garn vars banderoll tillåter den skötsel filten faktiskt kommer att få. Superwash-ull, bomull eller mjuk akryl är säkrare än obehandlad ull till maskintvättade filtar, eftersom obehandlad ull kan filta. Mohair och angora är varma men fäller, vilket gör dem dåliga val för babyfiltar. Linne fungerar till en somrig pläd, men kontrollera garnåtgången med en provbit eftersom tyget beter sig annorlunda än ull.
+Till babyfiltar och filtar som ska tvättas ofta, börja med garn vars banderoll tillåter den skötsel filten faktiskt kommer att få. Fibernamn och ordet superwash anger inte ensamma alla tvätt- och torkinställningar.
 
 ## FAQ
 
 **Kan jag använda restgarn till en filt?**
-Restgarnsfiltar är ett utmärkt sätt att minska garnlagret. Regeln: håll alla garner i samma tjocklekskategori. Att blanda tjocklekar ger ojämn stickfasthet och delar som drar olika efter blockning. Samma tjocklek, blandade färger, fungerar bra. Modulära mönster som en enkel filt av mitred squares är gjorda för just detta.
+Restgarnsfiltar är ett bra sätt att använda garnlagret. Liknande garntjocklek är en utgångspunkt, men kontrollera också stickfasthet, yta och förenliga skötselråd. Mät åtgången till en hel representativ ruta, multiplicera med antalet hela rutor och lägg till garn för sammanfogning och kanter separat. Beräkna varje färgs behov.
 
 **Är det billigare att sticka en filt eller köpa en?**
-En handstickad filt kostar ofta mer i material än en maskintillverkad. Värdet ligger i processen, anpassningen och kvaliteten. Om budget är huvudfrågan håller akryl i Worsted eller Bulky materialkostnaden rimlig, och stora nystan eller koner brukar ge bättre meter per krona.
+Jämför priset för alla nystan som behövs, inklusive varje färg och planerad reserv, med priset på filten du skulle köpa. Stora nystan eller koner gör inte automatiskt projektet billigare om mer garn blir över.
 
 **Hur lång tid tar det att sticka en filt?**
-En pläd i Super Bulky kan ta 20-30 timmar. Worsted, 60-100 timmar. Fingering kan passera 200. Hastighet, mönstrets komplexitet och hur många timmar per vecka du stickar flyttar siffrorna. Modulära filtar känns ofta snabbare eftersom varje ruta blir en liten avslutning, även om totalantalet timmar är liknande.
+Ta tid på en representativ del med ditt garn och stickmönster för att uppskatta din egen sticktid. Räkna sammanfogning, kanter och montering separat. Garnkategorin ensam ger inget tillförlitligt timantal.
 
 **Ska jag sticka en filt fram och tillbaka eller runt?**
-De flesta filtar stickas fram och tillbaka på lång rundsticka, alltså inte ihopstickade runt. Vissa modulära designer, som rutor, hexagoner och log cabin-delar, stickas var för sig och fogas ihop. Rund konstruktion fungerar för runda filtar men är ovanligt för rektangulära plädar.
+Följ mönstret. En filt kan stickas fram och tillbaka på rundsticka. Delar kan fogas samman efteråt eller under stickningen. Andra mönster börjar i mitten och stickas utåt i varv; rundstickan i sig betyder inte att arbetet stickas runt.

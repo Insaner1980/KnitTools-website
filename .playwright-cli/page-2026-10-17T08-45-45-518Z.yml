@@ -1,0 +1,154 @@
+- generic [active] [ref=f17e1]:
+  - link "Skip to content" [ref=f17e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f17e3]:
+    - banner [ref=f17e4]:
+      - link "KnitTools home" [ref=f17e5] [cursor=pointer]:
+        - /url: /
+        - text: KnitTools
+      - button "Open navigation menu" [ref=f17e6] [cursor=pointer]
+    - main [ref=f17e10]:
+      - generic [ref=f17e12]:
+        - paragraph [ref=f17e13]:
+          - link "← All tools" [ref=f17e14] [cursor=pointer]:
+            - /url: /tools/
+        - heading "Cast On Calculator" [level=1] [ref=f17e15]
+        - paragraph [ref=f17e16]: Calculate a starting stitch count from your gauge and desired width.
+        - group "Cast On Calculator" [ref=f17e19]:
+          - generic [ref=f17e21]:
+            - generic [ref=f17e22]: Gauge (stitches per 10 cm / 4 in)
+            - generic [ref=f17e23]:
+              - button "Decrease gauge" [ref=f17e24] [cursor=pointer]: −
+              - spinbutton "Gauge (stitches per 10 cm / 4 in)" [ref=f17e25]
+              - button "Increase gauge" [ref=f17e26] [cursor=pointer]: +
+          - generic [ref=f17e27]:
+            - generic [ref=f17e28]: Desired width
+            - generic [ref=f17e29]:
+              - button "Decrease width" [ref=f17e30] [cursor=pointer]: −
+              - spinbutton "Desired width" [ref=f17e31]
+              - button "Increase width" [ref=f17e32] [cursor=pointer]: +
+          - radiogroup "Unit selection" [ref=f17e34]:
+            - generic [ref=f17e35] [cursor=pointer]:
+              - radio "cm" [checked]
+              - generic [ref=f17e36]: cm
+            - generic [ref=f17e37] [cursor=pointer]:
+              - radio "inches"
+              - generic [ref=f17e38]: inches
+          - button "Calculate" [ref=f17e39] [cursor=pointer]
+      - generic [ref=f17e41]:
+        - heading "What is cast on in knitting?" [level=2] [ref=f17e42]
+        - paragraph [ref=f17e43]: "Casting on starts most knitting projects: it's how you create the initial row of stitches on your needle. The number of stitches you cast on, together with your gauge, determines the starting width. Too few and it's too narrow. Too many and you've wasted yarn and time. Checking this number at the start can save frogging later."
+        - heading "Why gauge matters" [level=2] [ref=f17e44]
+        - paragraph [ref=f17e45]: Every knitter knits differently. Even with the same yarn and needles, your tension produces a slightly different fabric than someone else's. That's why patterns list a recommended gauge, and why you need to knit a swatch in your project stitch pattern to find yours. Wash and finish it as you will the project, then measure it once dry. Count the stitches across the center over 10 cm (or 4 inches), and you have the number this calculator needs.
+        - heading "How to use this calculator" [level=2] [ref=f17e46]
+        - paragraph [ref=f17e47]:
+          - text: "To calculate your cast on stitches, you need two things: your"
+          - strong [ref=f17e48]: gauge
+          - text: (how many stitches you get in 10 cm or 4 inches of knitting) and the
+          - strong [ref=f17e49]: desired width
+          - text: of your piece. Knit a gauge swatch first, measure it, and enter those numbers. Treat the result as a starting point and check the repeat and any extra stitches your pattern requires.
+        - paragraph [ref=f17e50]: "Select cm for a width in centimeters and gauge measured over 10 cm; select inches for a width in inches and gauge measured over 4 inches. These are conventional gauge spans, not exact equivalents: 4 inches is 10.16 cm. Changing the unit does not convert your entries. The formula is gauge × width ÷ 10 in cm, or gauge × width ÷ 4 in inches."
+        - paragraph [ref=f17e51]: The result is rounded to the nearest even number; a tie rounds up. For example, 99 becomes 100. A very small width can give 0 after rounding; that is not a usable cast-on count. Check your measurements and the pattern before casting on.
+      - generic [ref=f17e53]:
+        - heading "Frequently asked questions" [level=2] [ref=f17e54]
+        - generic [ref=f17e55]:
+          - group [ref=f17e56]:
+            - generic "Do I really need to knit a gauge swatch?" [ref=f17e57] [cursor=pointer]:
+              - text: Do I really need to knit a gauge swatch?
+              - generic [aria-hidden] [ref=f17e58]: +
+          - group [ref=f17e59]:
+            - generic "Should I count edge stitches in my gauge?" [ref=f17e60] [cursor=pointer]:
+              - text: Should I count edge stitches in my gauge?
+              - generic [aria-hidden] [ref=f17e61]: +
+          - group [ref=f17e62]:
+            - generic "Why does the calculator round to an even number?" [ref=f17e63] [cursor=pointer]:
+              - text: Why does the calculator round to an even number?
+              - generic [aria-hidden] [ref=f17e64]: +
+          - group [ref=f17e65]:
+            - generic "What if my pattern requires a specific stitch multiple?" [ref=f17e66] [cursor=pointer]:
+              - text: What if my pattern requires a specific stitch multiple?
+              - generic [aria-hidden] [ref=f17e67]: +
+          - group [ref=f17e68]:
+            - generic "Can I use this for circular knitting?" [ref=f17e69] [cursor=pointer]:
+              - text: Can I use this for circular knitting?
+              - generic [aria-hidden] [ref=f17e70]: +
+      - generic [ref=f17e73]:
+        - generic [aria-hidden] [ref=f17e74]: Leave this field empty
+        - textbox [aria-hidden] [ref=f17e75]
+        - generic [ref=f17e76]: Email address
+        - generic [ref=f17e77]:
+          - heading [level=2] [ref=f17e78]:
+            - text: Where every stitch
+            - emphasis [ref=f17e79]: counts.
+          - generic [ref=f17e80]:
+            - textbox "Email address" [ref=f17e81]:
+              - /placeholder: your@email.com
+            - button "Notify me at launch" [ref=f17e82] [cursor=pointer]
+          - paragraph [ref=f17e83]:
+            - text: Coming Fall 2026 to Google Play. Launch price
+            - strong [ref=f17e84]: $9.99
+            - text: . Regular price
+            - strong [ref=f17e85]: $14.99
+            - text: later.
+    - contentinfo [ref=f17e86]:
+      - generic [ref=f17e87]:
+        - generic [ref=f17e88]:
+          - generic [ref=f17e89]:
+            - generic [ref=f17e90]:
+              - heading "Tools" [level=2] [ref=f17e91]
+              - list [ref=f17e92]:
+                - listitem [ref=f17e93]:
+                  - link "Cast On Calculator" [ref=f17e94] [cursor=pointer]:
+                    - /url: /tools/cast-on-calculator/
+                - listitem [ref=f17e95]:
+                  - link "Yarn Estimator" [ref=f17e96] [cursor=pointer]:
+                    - /url: /tools/yarn-estimator/
+                - listitem [ref=f17e97]:
+                  - link "Needle Size Chart" [ref=f17e98] [cursor=pointer]:
+                    - /url: /tools/needle-size-chart/
+                - listitem [ref=f17e99]:
+                  - link "Yarn Weight Chart" [ref=f17e100] [cursor=pointer]:
+                    - /url: /tools/yarn-weight-chart/
+                - listitem [ref=f17e101]:
+                  - link "Knitting Abbreviations" [ref=f17e102] [cursor=pointer]:
+                    - /url: /tools/knitting-abbreviations/
+                - listitem [ref=f17e103]:
+                  - link "Knitting Size Charts" [ref=f17e104] [cursor=pointer]:
+                    - /url: /tools/knitting-size-charts/
+            - generic [ref=f17e105]:
+              - heading "Articles" [level=2] [ref=f17e106]
+              - list [ref=f17e107]:
+                - listitem [ref=f17e108]:
+                  - link "Gauge & Calculations" [ref=f17e109] [cursor=pointer]:
+                    - /url: /articles/category/gauge-calculations/
+                - listitem [ref=f17e110]:
+                  - link "Yarn" [ref=f17e111] [cursor=pointer]:
+                    - /url: /articles/category/yarn/
+                - listitem [ref=f17e112]:
+                  - link "Needles" [ref=f17e113] [cursor=pointer]:
+                    - /url: /articles/category/needles/
+                - listitem [ref=f17e114]:
+                  - link "Techniques" [ref=f17e115] [cursor=pointer]:
+                    - /url: /articles/category/techniques/
+                - listitem [ref=f17e116]:
+                  - link "App & Tools" [ref=f17e117] [cursor=pointer]:
+                    - /url: /articles/category/app-tools/
+            - generic [ref=f17e118]:
+              - heading "App" [level=2] [ref=f17e119]
+              - list [ref=f17e120]:
+                - listitem [ref=f17e121]: Launching soon
+                - listitem [ref=f17e122]:
+                  - link "About" [ref=f17e123] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=f17e124]:
+                  - link "Privacy Policy" [ref=f17e125] [cursor=pointer]:
+                    - /url: https://finnvek.com/privacy#knittools
+          - img "KnitTools" [ref=f17e126]
+        - paragraph [ref=f17e128]:
+          - text: © MMXXVI KnitTools.
+          - link "Finnvek" [ref=f17e129] [cursor=pointer]:
+            - /url: https://finnvek.com
+          - text: .
+          - link "Contact" [ref=f17e130] [cursor=pointer]:
+            - /url: mailto:contact@finnvek.com
+          - text: .

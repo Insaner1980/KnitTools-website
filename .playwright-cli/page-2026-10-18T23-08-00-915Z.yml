@@ -1,0 +1,379 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link "KnitTools home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - text: KnitTools
+      - navigation [ref=e6]:
+        - link "Tools" [ref=e7] [cursor=pointer]:
+          - /url: /tools/
+        - link "Articles" [ref=e8] [cursor=pointer]:
+          - /url: /articles/
+        - group [ref=e9]:
+          - 'generic "Language: English" [ref=e10] [cursor=pointer]': English
+        - link "Notify me at launch" [ref=e13] [cursor=pointer]:
+          - /url: /#join
+    - main [ref=e14]:
+      - generic [ref=e16]:
+        - paragraph [ref=e17]:
+          - link "← All tools" [ref=e18] [cursor=pointer]:
+            - /url: /tools/
+        - heading "Knitting Size Charts" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Body measurements for common knitting projects. Pick a category and unit to see the chart.
+        - paragraph [ref=e21]: These are body measurements, not finished garment measurements. Use the pattern’s intended ease for the fit you want.
+        - generic [ref=e22]:
+          - paragraph [ref=e23]: These are CYC body references, not finished garment dimensions or universal sizes. Child/youth numbers are US reference sizes, not ages or European height sizes. Baby ages are approximate. XS–5XL follow CYC; 2XL–5XL mean its 2X–5X. Measure the wearer and use the pattern’s own sizing.
+          - paragraph [ref=e24]: CM and inches show CYC’s published, rounded pairs, not exact conversions. Six measurements are unavailable from a verified source because the published values conflict. Both numbers have been withheld. Measure the wearer using the guidance below and consult the pattern’s sizing and intended ease.
+          - generic [ref=e25]:
+            - tablist "Size category" [ref=e27]:
+              - tab "Baby" [ref=e28] [cursor=pointer]
+              - tab "Child" [ref=e29] [cursor=pointer]
+              - tab "Youth" [ref=e30] [cursor=pointer]
+              - tab "Women" [selected] [ref=e31] [cursor=pointer]
+              - tab "Men" [ref=e32] [cursor=pointer]
+              - tab "Accessories" [ref=e33] [cursor=pointer]
+            - radiogroup "Measurement unit" [ref=e34]:
+              - radio "CM" [checked] [ref=e35] [cursor=pointer]
+              - radio "Inches" [ref=e36] [cursor=pointer]
+          - tabpanel "Women" [ref=e38]:
+            - generic [ref=e39]:
+              - heading "Women XS–XL" [level=3] [ref=e40]
+              - table [ref=e42]:
+                - rowgroup [ref=e43]:
+                  - row [ref=e44]:
+                    - columnheader "Measurement" [ref=e45]
+                    - columnheader "XS" [ref=e46]
+                    - columnheader "S" [ref=e47]
+                    - columnheader "M" [ref=e48]
+                    - columnheader "L" [ref=e49]
+                    - columnheader "XL" [ref=e50]
+                - rowgroup [ref=e51]:
+                  - row [ref=e52]:
+                    - rowheader "Chest" [ref=e53]
+                    - cell "71–76 cm" [ref=e54]
+                    - cell "81–86 cm" [ref=e55]
+                    - cell "91.5–96.5 cm" [ref=e56]
+                    - cell "101.5–106.5 cm" [ref=e57]
+                    - cell "111.5–117 cm" [ref=e58]
+                  - row [ref=e59]:
+                    - rowheader "Back Waist Length" [ref=e60]
+                    - cell "42 cm" [ref=e61]
+                    - cell "43 cm" [ref=e62]
+                    - cell "43.5 cm" [ref=e63]
+                    - cell "44.5 cm" [ref=e64]
+                    - cell "45 cm" [ref=e65]
+                  - row [ref=e66]:
+                    - rowheader "Cross Back" [ref=e67]
+                    - cell "35.5–37 cm" [ref=e68]
+                    - cell "37–38 cm" [ref=e69]
+                    - cell "39.5–40.5 cm" [ref=e70]
+                    - cell "42–43 cm" [ref=e71]
+                    - cell "44.5 cm" [ref=e72]
+                  - row [ref=e73]:
+                    - 'rowheader "Arm Length: Armpit to Wrist" [ref=e74]'
+                    - cell "42 cm" [ref=e75]
+                    - cell "43 cm" [ref=e76]
+                    - cell "43 cm" [ref=e77]
+                    - cell "44.5 cm" [ref=e78]
+                    - cell "44.5 cm" [ref=e79]
+                  - row [ref=e80]:
+                    - rowheader "Upper Arm" [ref=e81]
+                    - cell "25 cm" [ref=e82]
+                    - cell "26 cm" [ref=e83]
+                    - cell "28 cm" [ref=e84]
+                    - cell "30.5 cm" [ref=e85]
+                    - cell "34.5 cm" [ref=e86]
+                  - row [ref=e87]:
+                    - rowheader "Armhole Depth" [ref=e88]
+                    - cell "15.5–16.5 cm" [ref=e89]
+                    - cell "16.5–17.5 cm" [ref=e90]
+                    - cell "17.5–19 cm" [ref=e91]
+                    - cell "19–20.5 cm" [ref=e92]
+                    - cell "20.5–21.5 cm" [ref=e93]
+                  - row [ref=e94]:
+                    - rowheader "Waist" [ref=e95]
+                    - cell "58.5–61 cm" [ref=e96]
+                    - cell "63.5–67.5 cm" [ref=e97]
+                    - cell "71–76 cm" [ref=e98]
+                    - cell "81.5–86.5 cm" [ref=e99]
+                    - cell "91.5–96.5 cm" [ref=e100]
+                  - row [ref=e101]:
+                    - rowheader "Hips" [ref=e102]
+                    - cell "83.5–86 cm" [ref=e103]
+                    - cell "89–91.5 cm" [ref=e104]
+                    - cell "96.5–101.5 cm" [ref=e105]
+                    - cell "106.5–111.5 cm" [ref=e106]
+                    - cell "116.5–122 cm" [ref=e107]
+                  - row [ref=e108]:
+                    - rowheader "Center Back Neck-to-Wrist" [ref=e109]
+                    - cell "No verified source value" [ref=e110]
+                    - cell "68.5–70 cm" [ref=e111]
+                    - cell "71–72.5 cm" [ref=e112]
+                    - cell "73.5–75 cm" [ref=e113]
+                    - cell "73.5–75 cm" [ref=e114]
+            - generic [ref=e115]:
+              - heading "Women 2XL–5XL" [level=3] [ref=e116]
+              - table [ref=e118]:
+                - rowgroup [ref=e119]:
+                  - row [ref=e120]:
+                    - columnheader "Measurement" [ref=e121]
+                    - columnheader "2XL" [ref=e122]
+                    - columnheader "3XL" [ref=e123]
+                    - columnheader "4XL" [ref=e124]
+                    - columnheader "5XL" [ref=e125]
+                - rowgroup [ref=e126]:
+                  - row [ref=e127]:
+                    - rowheader "Chest" [ref=e128]
+                    - cell "122–127 cm" [ref=e129]
+                    - cell "132–137 cm" [ref=e130]
+                    - cell "142–147 cm" [ref=e131]
+                    - cell "152–158 cm" [ref=e132]
+                  - row [ref=e133]:
+                    - rowheader "Back Waist Length" [ref=e134]
+                    - cell "45.5 cm" [ref=e135]
+                    - cell "45.5 cm" [ref=e136]
+                    - cell "47 cm" [ref=e137]
+                    - cell "47 cm" [ref=e138]
+                  - row [ref=e139]:
+                    - rowheader "Cross Back" [ref=e140]
+                    - cell "45.5 cm" [ref=e141]
+                    - cell "45.5 cm" [ref=e142]
+                    - cell "47 cm" [ref=e143]
+                    - cell "47 cm" [ref=e144]
+                  - row [ref=e145]:
+                    - 'rowheader "Arm Length: Armpit to Wrist" [ref=e146]'
+                    - cell "45.5 cm" [ref=e147]
+                    - cell "45.5 cm" [ref=e148]
+                    - cell "47 cm" [ref=e149]
+                    - cell "47 cm" [ref=e150]
+                  - row [ref=e151]:
+                    - rowheader "Upper Arm" [ref=e152]
+                    - cell "39.5 cm" [ref=e153]
+                    - cell "43 cm" [ref=e154]
+                    - cell "47 cm" [ref=e155]
+                    - cell "49.5 cm" [ref=e156]
+                  - row [ref=e157]:
+                    - rowheader "Armhole Depth" [ref=e158]
+                    - cell "21.5–23 cm" [ref=e159]
+                    - cell "23–24 cm" [ref=e160]
+                    - cell "24–25.5 cm" [ref=e161]
+                    - cell "25.5–26.5 cm" [ref=e162]
+                  - row [ref=e163]:
+                    - rowheader "Waist" [ref=e164]
+                    - cell "101.5–106.5 cm" [ref=e165]
+                    - cell "111.5–114 cm" [ref=e166]
+                    - cell "116.5–119 cm" [ref=e167]
+                    - cell "124–127 cm" [ref=e168]
+                  - row [ref=e169]:
+                    - rowheader "Hips" [ref=e170]
+                    - cell "132–134.5 cm" [ref=e171]
+                    - cell "137–139.5 cm" [ref=e172]
+                    - cell "142–144.5 cm" [ref=e173]
+                    - cell "155–157 cm" [ref=e174]
+                  - row [ref=e175]:
+                    - rowheader "Center Back Neck-to-Wrist" [ref=e176]
+                    - cell "76.5–77.5 cm" [ref=e177]
+                    - cell "77.5–79 cm" [ref=e178]
+                    - cell "80–81.5 cm" [ref=e179]
+                    - cell "80–81.5 cm" [ref=e180]
+      - generic [ref=e182]:
+        - heading "How to take body measurements" [level=2] [ref=e183]
+        - paragraph [ref=e184]: The measurements in these charts correspond to specific points on the body. Getting an accurate reading requires measuring in the right place.
+        - paragraph [ref=e185]:
+          - strong [ref=e186]: "Chest / Bust:"
+          - text: Measure around the fullest part of the chest, keeping the tape level and snug but not tight. For women, this is at the fullest point of the bust. This is the primary measurement used to determine garment size.
+        - paragraph [ref=e187]:
+          - strong [ref=e188]: "Waist:"
+          - text: Measure at the natural waistline, the narrowest point of the torso, usually just above the navel. Bending to one side helps locate it if you're unsure.
+        - paragraph [ref=e189]:
+          - strong [ref=e190]: "Hips:"
+          - text: Measure around the widest part of the lower hip. For many bodies this sits below the natural waist, but the widest point matters more than a fixed distance. Keep the tape level.
+        - paragraph [ref=e191]:
+          - strong [ref=e192]: "Cross Back (shoulder to shoulder):"
+          - text: Measure straight across the back from the tip of one shoulder to the other. This determines the shoulder width of a garment.
+        - paragraph [ref=e193]:
+          - strong [ref=e194]: "Back Waist Length:"
+          - text: Measure from the prominent bone at the back of the neck straight down to the natural waist. This determines how long the torso section of a garment needs to be.
+        - paragraph [ref=e195]:
+          - strong [ref=e196]: "Back Hip Length (men):"
+          - text: The men’s table uses the CYC PDF’s neck-to-hip back length, not neck-to-waist length. Check this endpoint against the pattern schematic.
+        - paragraph [ref=e197]:
+          - strong [ref=e198]: "Arm Length: Armpit to Wrist:"
+          - text: With the arm slightly bent, measure from the armpit to the wrist. This body measurement is a guide for sleeve length, not a finished sleeve dimension.
+        - paragraph [ref=e199]:
+          - strong [ref=e200]: "Upper Arm:"
+          - text: Measure the circumference at the fullest part of the upper arm, with the arm relaxed at the side.
+        - paragraph [ref=e201]:
+          - strong [ref=e202]: "Armhole Depth:"
+          - text: Measure vertically from the outer top edge of the shoulder to the armpit.
+        - paragraph [ref=e203]:
+          - strong [ref=e204]: "Center Back Neck-to-Wrist:"
+          - text: With the arm straight, measure from the base of the neck at center back, across the shoulder and along the arm to the wrist.
+        - paragraph [ref=e205]:
+          - strong [ref=e206]: "Accessories:"
+          - text: Measure head circumference around the forehead and the whole head; foot length on the floor from the back of the heel to the longest toe; hand circumference around the dominant palm just below the knuckles, excluding the thumb. These are body measurements, not hat, sock or mitten dimensions. Foot length is not a shoe-size conversion or a complete sock measurement. Age ranges are only references.
+        - heading "Body measurements vs finished garment measurements" [level=2] [ref=e207]
+        - paragraph [ref=e208]: These charts show body measurements. A finished garment may be smaller, equal or larger, depending on the pattern’s intended ease.
+        - paragraph [ref=e209]:
+          - strong [ref=e210]: "Negative ease:"
+          - text: The garment is smaller than the body. For a very close sweater fit, CYC's guidance is roughly 5-10 cm less than the actual bust or chest measurement; hats, socks, and fitted ribbing use their own project-specific grip.
+        - paragraph [ref=e211]:
+          - strong [ref=e212]: "Zero ease:"
+          - text: The finished garment measurement equals the corresponding body measurement.
+        - paragraph [ref=e213]:
+          - strong [ref=e214]: "Positive ease:"
+          - text: The garment is larger than the body. CYC suggests about 5–10 cm at the chest for a classic sweater fit; this is a guide, not a rule for every design.
+        - paragraph [ref=e215]:
+          - strong [ref=e216]: "Loose and oversized fit:"
+          - text: CYC suggests about 10–15 cm of chest ease for a loose sweater and 15 cm or more for an oversized one.
+        - paragraph [ref=e217]: For example, a pattern for a 91.5 cm body chest with a 101.5 cm finished chest has 10 cm of positive ease. Compare both the body-size guidance and the finished schematic measurements with your intended fit.
+        - paragraph [ref=e218]:
+          - text: Once you know your target size, the
+          - link "Yarn Estimator" [ref=e219] [cursor=pointer]:
+            - /url: /tools/yarn-estimator/
+          - text: can sanity-check yardage, and the
+          - link "sweater yarn guide" [ref=e220] [cursor=pointer]:
+            - /url: /articles/yarn-for-sweater/
+          - text: walks through sizing calculations in more depth.
+        - heading "Choosing between sizes" [level=2] [ref=e221]
+        - paragraph [ref=e222]: Between sizes, compare the finished measurements with your body and the ease the pattern intends. Do not automatically size down for a fitted garment or up for an oversized one. Stitch pattern, fiber and the washed, dried swatch affect stretch and drape. Hats and socks need their own pattern-specific ease; no fixed allowance guarantees fit.
+        - paragraph [ref=e223]: Also compare other measurements, especially hips for longer garments and upper arm for fitted sleeves. If your chest says M but your hips say L, check the pattern's schematic to see whether the hip difference matters for the garment's length and silhouette.
+        - paragraph [ref=e224]:
+          - text: Whichever size you pick, the
+          - link "gauge swatch" [ref=e225] [cursor=pointer]:
+            - /url: /articles/gauge-swatch-step-by-step/
+          - text: decides whether the finished piece actually matches the pattern's numbers. The
+          - link "how to measure gauge" [ref=e226] [cursor=pointer]:
+            - /url: /articles/how-to-measure-knitting-gauge/
+          - text: guide covers the swatching process in full.
+        - heading "Sources and measurement conventions" [level=2] [ref=e227]
+        - paragraph [ref=e228]:
+          - 'link "Craft Yarn Council: Sources and measurement conventions" [ref=e229] [cursor=pointer]':
+            - /url: https://www.craftyarncouncil.com/standards/body-sizing
+          - text: .
+          - link "Baby" [ref=e230] [cursor=pointer]:
+            - /url: https://www.craftyarncouncil.com/standards/baby-size-chart
+          - text: ","
+          - link "Child/youth" [ref=e231] [cursor=pointer]:
+            - /url: https://www.craftyarncouncil.com/standards/child-youth-sizes
+          - text: ","
+          - link "Women" [ref=e232] [cursor=pointer]:
+            - /url: https://www.craftyarncouncil.com/standards/woman-size
+          - text: ","
+          - link "Men" [ref=e233] [cursor=pointer]:
+            - /url: https://www.craftyarncouncil.com/standards/man-size
+          - text: ","
+          - link "Head" [ref=e234] [cursor=pointer]:
+            - /url: https://www.craftyarncouncil.com/standards/head-circumference-chart
+          - text: ","
+          - link "Foot" [ref=e235] [cursor=pointer]:
+            - /url: https://www.craftyarncouncil.com/standards/foot-size-charts
+          - text: ","
+          - link "Hand" [ref=e236] [cursor=pointer]:
+            - /url: https://www.craftyarncouncil.com/standards/hand-size-charts
+          - text: .
+          - link "CYC PDF" [ref=e237] [cursor=pointer]:
+            - /url: https://media.craftyarncouncil.com/sites/default/files/images/standards/CYC_YarnStandards-2018-11-06.pdf
+          - text: .
+        - paragraph [ref=e238]: "Source: Craft Yarn Council. The linked PDF (pages 17–18) resolves two web-table errors: women’s 5XL upper arm is 19.5 inches, and the men’s back length ends at the hip, not the waist. The six other source conflicts remain unresolved. This website withholds both unit values for those measurements; it does not supply corrected or calculated replacements."
+      - generic [ref=e240]:
+        - heading "Frequently asked questions" [level=2] [ref=e241]
+        - generic [ref=e242]:
+          - group [ref=e243]:
+            - generic "Are these measurements the same across all knitting patterns?" [ref=e244] [cursor=pointer]:
+              - text: Are these measurements the same across all knitting patterns?
+              - generic [aria-hidden] [ref=e245]: +
+          - group [ref=e246]:
+            - generic "How do I choose a size if the pattern uses numbered sizes instead of XS/S/M/L?" [ref=e247] [cursor=pointer]:
+              - text: How do I choose a size if the pattern uses numbered sizes instead of XS/S/M/L?
+              - generic [aria-hidden] [ref=e248]: +
+          - group [ref=e249]:
+            - generic "Should I measure over clothing or on bare skin?" [ref=e250] [cursor=pointer]:
+              - text: Should I measure over clothing or on bare skin?
+              - generic [aria-hidden] [ref=e251]: +
+          - group [ref=e252]:
+            - generic "What if my measurements don't fit neatly into one size?" [ref=e253] [cursor=pointer]:
+              - text: What if my measurements don't fit neatly into one size?
+              - generic [aria-hidden] [ref=e254]: +
+      - generic [ref=e257]:
+        - generic [aria-hidden] [ref=e258]: Leave this field empty
+        - textbox [aria-hidden] [ref=e259]
+        - generic [ref=e260]: Email address
+        - generic [ref=e261]:
+          - heading [level=2] [ref=e262]:
+            - text: Where every stitch
+            - emphasis [ref=e263]: counts.
+          - generic [ref=e264]:
+            - textbox "Email address" [ref=e265]:
+              - /placeholder: your@email.com
+            - button "Notify me at launch" [ref=e266] [cursor=pointer]
+          - paragraph [ref=e267]:
+            - text: Coming Fall 2026 to Google Play. Launch price
+            - strong [ref=e268]: $9.99
+            - text: . Regular price
+            - strong [ref=e269]: $14.99
+            - text: later.
+    - contentinfo [ref=e270]:
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]:
+            - generic [ref=e274]:
+              - heading "Tools" [level=2] [ref=e275]
+              - list [ref=e276]:
+                - listitem [ref=e277]:
+                  - link "Cast On Calculator" [ref=e278] [cursor=pointer]:
+                    - /url: /tools/cast-on-calculator/
+                - listitem [ref=e279]:
+                  - link "Yarn Estimator" [ref=e280] [cursor=pointer]:
+                    - /url: /tools/yarn-estimator/
+                - listitem [ref=e281]:
+                  - link "Needle Size Chart" [ref=e282] [cursor=pointer]:
+                    - /url: /tools/needle-size-chart/
+                - listitem [ref=e283]:
+                  - link "Yarn Weight Chart" [ref=e284] [cursor=pointer]:
+                    - /url: /tools/yarn-weight-chart/
+                - listitem [ref=e285]:
+                  - link "Knitting Abbreviations" [ref=e286] [cursor=pointer]:
+                    - /url: /tools/knitting-abbreviations/
+                - listitem [ref=e287]:
+                  - link "Knitting Size Charts" [ref=e288] [cursor=pointer]:
+                    - /url: /tools/knitting-size-charts/
+            - generic [ref=e289]:
+              - heading "Articles" [level=2] [ref=e290]
+              - list [ref=e291]:
+                - listitem [ref=e292]:
+                  - link "Gauge & Calculations" [ref=e293] [cursor=pointer]:
+                    - /url: /articles/category/gauge-calculations/
+                - listitem [ref=e294]:
+                  - link "Yarn" [ref=e295] [cursor=pointer]:
+                    - /url: /articles/category/yarn/
+                - listitem [ref=e296]:
+                  - link "Needles" [ref=e297] [cursor=pointer]:
+                    - /url: /articles/category/needles/
+                - listitem [ref=e298]:
+                  - link "Techniques" [ref=e299] [cursor=pointer]:
+                    - /url: /articles/category/techniques/
+                - listitem [ref=e300]:
+                  - link "App & Tools" [ref=e301] [cursor=pointer]:
+                    - /url: /articles/category/app-tools/
+            - generic [ref=e302]:
+              - heading "App" [level=2] [ref=e303]
+              - list [ref=e304]:
+                - listitem [ref=e305]: Launching soon
+                - listitem [ref=e306]:
+                  - link "About" [ref=e307] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=e308]:
+                  - link "Privacy Policy" [ref=e309] [cursor=pointer]:
+                    - /url: https://finnvek.com/privacy#knittools
+          - img "KnitTools" [ref=e310]
+        - paragraph [ref=e312]:
+          - text: © MMXXVI KnitTools.
+          - link "Finnvek" [ref=e313] [cursor=pointer]:
+            - /url: https://finnvek.com
+          - text: .
+          - link "Contact" [ref=e314] [cursor=pointer]:
+            - /url: mailto:contact@finnvek.com
+          - text: .

@@ -6,23 +6,23 @@ import { routes } from "../../../i18n/routes";
 const faqs = [
   {
     q: "Behöver jag verkligen sticka ett stickprov?",
-    a: "Ja. Att hoppa över stickprovet är en av de vanligaste orsakerna till att stickade delar får fel storlek. Det tar extra tid i början och kan spara timmar av omstickning.",
+    a: "Ja, när storleken spelar roll. Ett stickprov visar din stickfasthet med det garn, de stickor och det maskmönster du ska använda.",
   },
   {
     q: "Ska jag räkna kantmaskor i stickfastheten?",
-    a: "Nej. Mät i mitten av stickprovet och undvik de första och sista två maskorna. Kantmaskor är ofta hårdare eller lösare än resten.",
+    a: "Mät mitt på en provlapp som är större än mätområdet, en bit från uppläggningskanten och sidornas ojämna maskor.",
   },
   {
     q: "Varför avrundar kalkylatorn till ett jämnt maskantal?",
-    a: "Många enkla mönster, däribland vanliga resårer, fungerar smidigt över ett jämnt maskantal. Avrundning till närmaste jämna tal ger en praktisk startpunkt innan du justerar för en mönsterspecifik multipel.",
+    a: "Det är en avrundningsregel, ingen garanti för att maskantalet passar mönstret. Resår, flätor och andra maskmönster kan kräva en viss rapport plus extra maskor.",
   },
   {
     q: "Vad gör jag om mönstret kräver en viss maskmultipel?",
-    a: "Lägg till eller dra bort några maskor så att du hamnar på närmaste multipel som mönstret behöver. Om rapporten går över 4 maskor och kalkylatorn ger 46, justera till 44 eller 48.",
+    a: "Om rapporten är 4 maskor utan extra maskor kan du justera 46 till 44 eller 48. Räkna med eventuella kantmaskor och andra extra maskor enligt mönstret, och kontrollera hur bredden påverkas.",
   },
   {
     q: "Kan jag använda den för rundstickning?",
-    a: "Ja. Ange hela omkretsen som önskad bredd. Kalkylatorn fungerar på samma sätt för fram-och-tillbaka-stickning och rundstickning.",
+    a: "Ja. Mät stickfastheten på ett prov stickat runt och ange arbetets önskade färdiga omkrets som bredd. Ta hänsyn till önskad rörelsevidd i måttet; kalkylatorn lägger inte till eller drar ifrån rörelsevidd.",
   },
 ];
 ---
@@ -33,7 +33,7 @@ const faqs = [
   canonicalPath={routes.tool.castOnCalculator.sv}
   lang="sv"
   alternates={routes.tool.castOnCalculator}
-  intro="Räkna ut hur många maskor du ska lägga upp för valfri bredd och stickfasthet."
+  intro="Räkna ut hur många maskor du ska lägga upp utifrån önskad bredd och din stickfasthet."
   schemaName="Uppläggningskalkylator"
   schemaDescription="Räknar ut hur många maskor som ska läggas upp utifrån stickfasthet och önskad bredd."
   faqs={faqs}
@@ -45,20 +45,21 @@ const faqs = [
   <div slot="content">
     <h2>Vad betyder uppläggning i stickning?</h2>
     <p>
-      Att lägga upp maskor är första steget i varje stickprojekt: det är så du
-      skapar den första raden maskor på stickan. Antalet maskor du lägger upp
-      avgör bredden på det färdiga arbetet. För få, och det blir för smalt. För
-      många, och du har slösat garn och tid. Att få rätt antal från början
-      sparar att behöva repa upp senare.
+      Att lägga upp maskor är första steget i de flesta stickprojekt: det är så
+      du skapar den första raden maskor på stickan. Antalet maskor du lägger upp
+      avgör tillsammans med stickfastheten arbetets bredd vid starten. För få,
+      och det blir för smalt. För många, och du har slösat garn och tid. Att få
+      rätt antal från början kan minska risken att behöva repa upp senare.
     </p>
 
     <h2>Varför stickfastheten spelar roll</h2>
     <p>
-      Alla stickar olika. Även med samma garn och samma stickor ger din
-      handspänning en lite annan stickad yta än någon annans. Därför anger
-      mönster en rekommenderad stickfasthet, och därför behöver du sticka ett
-      prov för att hitta din egen. Mät hur många maskor som ryms på 10 cm eller
-      4 tum, så har du talet som kalkylatorn behöver.
+      Alla stickar olika. Även med samma garn och samma stickor kan
+      stickfastheten skilja sig mellan olika personer. Därför anger mönster en
+      rekommenderad stickfasthet, och därför behöver du sticka ett prov i
+      projektets maskmönster för att hitta din egen. Tvätta och blocka det som
+      det färdiga arbetet och mät när det har torkat. Räkna maskorna mitt på
+      provet över 10 cm eller 4 tum, så har du talet som kalkylatorn behöver.
     </p>
 
     <h2>Så använder du kalkylatorn</h2>
@@ -67,9 +68,22 @@ const faqs = [
         >stickfasthet</strong
       >, alltså hur många maskor du får på 10 cm eller 4 tum stickning, och den <strong
         >önskade bredden</strong
-      > på arbetet. Sticka ett stickprov först, mät det och skriv in värdena. Kalkylatorn
-      avrundar till närmaste jämna tal, vilket är en praktisk standard för många enkla
-      mönster.
+      > på arbetet. Sticka ett stickprov först, mät det och skriv in värdena. Kontrollera
+      sedan rapporten och eventuella extra maskor i mönstret.
+    </p>
+    <p>
+      Välj cm för bredd i centimeter och stickfasthet mätt över 10 cm. Välj tum
+      för bredd i tum och stickfasthet mätt över 4 tum. Det är vanliga
+      mätsträckor, inte exakta motsvarigheter: 4 tum är 10,16 cm. Ett byte av
+      enhet räknar inte om dina inmatade värden. Formeln är stickfasthet × bredd
+      ÷ 10 i cm, eller ÷ 4 i tum.
+    </p>
+
+    <p>
+      Resultatet avrundas till närmaste jämna tal; mitt emellan avrundas det
+      uppåt. Till exempel blir 99 till 100. En mycket liten bredd kan ge 0 efter
+      avrundning, vilket inte är ett användbart uppläggningsantal. Kontrollera
+      måtten och mönstret innan du lägger upp.
     </p>
   </div>
 </LocalizedToolPage>

@@ -5,6 +5,7 @@ import { getWpiCategories } from "../lib/toolReferenceData";
 interface Copy {
   heading: string;
   intro: string;
+  note: string;
   placeholder: string;
   prompt: string;
   invalid: string;
@@ -26,127 +27,134 @@ const copy: Copy = {
   en: {
     heading: "Don't know your weight? Try WPI",
     intro:
-      "Wrap your yarn around a pencil or ruler, count how many wraps fit in one inch, then enter that number.",
+      "WPI means wraps per inch. Wrap yarn around an evenly thick pencil, with strands touching side by side, without gaps, overlap or stretching. Count the wraps over exactly 1 inch (2.54 cm). Measure several places, then enter your count or average.",
+    note: "This is an approximate thickness guide, not a measurement of fibre content, gauge or yarn requirements. This tool accepts 1–40 WPI, including decimals. The Lace range in the chart continues above 40.",
     placeholder: "e.g. 10",
     prompt: "Enter a WPI value between 1 and 40",
     invalid: "Enter a WPI value between 1 and 40",
-    between: "sits between standard categories. Swatch to confirm.",
+    between: "sits between the listed ranges. Swatch to confirm.",
     swatch: "Your gauge swatch decides.",
     suggests: "suggests",
     matches: "matches",
     or: "or",
     fallback:
-      "JavaScript is disabled. Scroll up and pick the category whose WPI range contains your count.",
+      "JavaScript is disabled. Compare all categories whose WPI ranges contain your count, then check a gauge swatch.",
   },
   fi: {
     heading: "Etkö tiedä lankavahvuutta? Kokeile WPI:tä",
     intro:
-      "Kierrä lanka kynän tai viivaimen ympärille, laske montako kierrosta mahtuu noin 2,5 cm matkalle ja syötä luku.",
+      "WPI tarkoittaa kierroksia tuumalla. Kierrä lanka tasapaksun kynän ympärille vierekkäin ilman rakoja, päällekkäisyyksiä tai venyttämistä. Laske kierrokset täsmälleen 2,54 cm:n eli yhden tuuman matkalta. Mittaa useasta kohdasta ja syötä lukema tai keskiarvo.",
+    note: "Tulos on suuntaa-antava lankavahvuusarvio. Se ei määritä kuitua, neuletiheyttä tai langanmenekkiä. Työkalu hyväksyy arvot 1–40, myös desimaalit. Taulukon Lace-alue jatkuu yli 40 WPI:n.",
     placeholder: "esim. 10",
     prompt: "Syötä WPI-arvo väliltä 1-40",
     invalid: "Syötä WPI-arvo väliltä 1-40",
-    between: "osuu vakioluokkien väliin. Varmista mallitilkulla.",
+    between: "osuu taulukon alueiden väliin. Varmista mallitilkulla.",
     swatch: "Mallitilkku ratkaisee.",
     suggests: "viittaa vahvuuteen",
     matches: "osuu luokkiin",
     or: "tai",
     fallback:
-      "JavaScript ei ole käytössä. Valitse yllä oleva kategoria, jonka WPI-väliin laskemasi arvo osuu.",
+      "JavaScript ei ole käytössä. Vertaa kaikkia luokkia, joiden WPI-alueelle lukema osuu, ja varmista tulos mallitilkulla.",
   },
   de: {
     heading: "Garnstärke unsicher? Miss WPI",
     intro:
-      "Wickle das Garn um einen Stift oder ein Lineal, zähle die Wicklungen auf 2,5 cm (1 inch) und gib die Zahl ein.",
+      "WPI bedeutet Wicklungen pro Zoll. Wickle das Garn um einen gleichmäßig dicken Stift, nebeneinander ohne Lücken, Überlappungen oder Dehnen. Zähle die Wicklungen auf genau 2,54 cm (1 Zoll). Miss an mehreren Stellen und gib die Zahl oder den Mittelwert ein.",
+    note: "Das Ergebnis ist ein ungefährer Hinweis auf die Garnstärke, keine Bestimmung von Faser, Maschenprobe oder Garnbedarf. Das Tool akzeptiert 1–40 WPI, auch Dezimalzahlen. Der Lace-Bereich in der Tabelle reicht über 40 hinaus.",
     placeholder: "z. B. 10",
     prompt: "Gib einen WPI-Wert von 1 bis 40 ein",
     invalid: "Gib einen WPI-Wert von 1 bis 40 ein",
     between:
-      "liegt zwischen den Standardkategorien. Prüfe es mit einer Maschenprobe.",
+      "liegt zwischen den aufgeführten Bereichen. Prüfe es mit einer Maschenprobe.",
     swatch: "Die Maschenprobe entscheidet.",
     suggests: "weist auf",
     matches: "passt zu",
     or: "oder",
     fallback:
-      "JavaScript ist deaktiviert. Wähle oben die Kategorie, deren WPI-Bereich deine Zahl enthält.",
+      "JavaScript ist deaktiviert. Vergleiche alle Kategorien, deren WPI-Bereich deine Zahl enthält, und prüfe das Ergebnis mit einer Maschenprobe.",
   },
   sv: {
     heading: "Osäker på garntjockleken? Prova WPI",
     intro:
-      "Linda garnet runt en penna eller linjal, räkna hur många varv som ryms på 2,5 cm och skriv in talet.",
+      "WPI betyder lindningar per tum. Linda garnet runt en jämntjock penna, sida vid sida utan mellanrum, överlappning eller sträckning. Räkna lindningarna över exakt 2,54 cm (1 tum). Mät på flera ställen och ange antalet eller medelvärdet.",
+    note: "Resultatet är en ungefärlig guide till tjocklek, inte ett mått på fiberinnehåll, stickfasthet eller garnåtgång. Verktyget tar emot 1–40 WPI, även decimaltal. Tabellens Lace-intervall fortsätter över 40.",
     placeholder: "t.ex. 10",
     prompt: "Ange ett WPI-värde mellan 1 och 40",
     invalid: "Ange ett WPI-värde mellan 1 och 40",
     between:
-      "hamnar mellan standardkategorier. Gör ett stickprov för att kontrollera.",
+      "hamnar mellan tabellens intervall. Gör ett stickprov för att kontrollera.",
     swatch: "Stickprovet avgör.",
     suggests: "pekar på",
     matches: "matchar",
     or: "eller",
     fallback:
-      "JavaScript är avstängt. Välj kategorin ovan där ditt WPI-värde passar in.",
+      "JavaScript är avstängt. Jämför alla kategorier vars WPI-intervall innehåller ditt värde och kontrollera med ett stickprov.",
   },
   no: {
     heading: "Usikker på garntykkelsen? Prøv WPI",
     intro:
-      "Surr garnet rundt en blyant eller linjal, tell hvor mange runder som får plass på 2,5 cm / 1 tomme, og skriv inn tallet.",
+      "WPI betyr omviklinger per tomme. Surr garnet rundt en jevntykk blyant, side ved side uten mellomrom, overlapping eller strekking. Tell omviklingene over nøyaktig 2,54 cm (1 tomme). Mål flere steder og skriv inn antallet eller gjennomsnittet.",
+    note: "Resultatet er en omtrentlig veiledning om tykkelse, ikke et mål på fiberinnhold, strikkefasthet eller garnforbruk. Verktøyet godtar 1–40 WPI, også desimaltall. Lace-intervallet i tabellen fortsetter over 40.",
     placeholder: "f.eks. 10",
     prompt: "Skriv inn en WPI-verdi mellom 1 og 40",
     invalid: "Skriv inn en WPI-verdi mellom 1 og 40",
     between:
-      "havner mellom standardkategoriene. Strikk en prøvelapp for å sjekke.",
+      "havner mellom intervallene i tabellen. Strikk en prøvelapp for å sjekke.",
     swatch: "Prøvelappen avgjør.",
     suggests: "peker mot",
     matches: "passer med",
     or: "eller",
     fallback:
-      "JavaScript er slått av. Velg kategorien ovenfor der WPI-verdien din passer inn.",
+      "JavaScript er slått av. Sammenlign alle kategorier der WPI-verdien passer inn, og sjekk med en prøvelapp.",
   },
   fr: {
     heading: "Tu ne connais pas l'épaisseur ? Essaie le WPI",
     intro:
-      "Enroule le fil autour d’un crayon ou d’une règle, compte le nombre de tours sur 2,5 cm, puis entre ce nombre.",
+      "WPI signifie wraps per inch, soit le nombre de tours de fil par pouce. Enroule le fil autour d’un crayon de diamètre constant, côte à côte, sans espace, chevauchement ni étirement. Compte les tours sur exactement 2,54 cm (1 pouce). Mesure à plusieurs endroits, puis saisis le nombre ou la moyenne.",
+    note: "Le résultat est un repère approximatif d’épaisseur, pas une mesure de la composition, de l’échantillon ou du métrage nécessaire. L’outil accepte de 1 à 40 WPI, y compris les décimales. La plage Lace du tableau continue au-delà de 40.",
     placeholder: "ex. 10",
     prompt: "Entre une valeur WPI entre 1 et 40",
     invalid: "Entre une valeur WPI entre 1 et 40",
-    between:
-      "tombe entre deux catégories standard. Confirme avec un échantillon.",
+    between: "tombe entre les plages du tableau. Confirme avec un échantillon.",
     swatch: "C'est l'échantillon qui tranche.",
     suggests: "suggère",
     matches: "correspond à",
     or: "ou",
     fallback:
-      "JavaScript est désactivé. Choisis plus haut la catégorie dont l'intervalle WPI contient ton nombre.",
+      "JavaScript est désactivé. Compare toutes les catégories dont la plage WPI contient ton nombre, puis vérifie avec un échantillon.",
   },
   nl: {
     heading: "Weet je de garendikte niet? Probeer WPI",
     intro:
-      "Wikkel het garen om een potlood of liniaal, tel hoeveel wikkelingen op 2,5 cm passen en vul dat getal in.",
+      "WPI betekent wikkelingen per inch. Wikkel het garen om een overal even dik potlood, naast elkaar zonder tussenruimte, overlap of uitrekken. Tel de wikkelingen over precies 2,54 cm (1 inch). Meet op meerdere plekken en vul het aantal of het gemiddelde in.",
+    note: "Het resultaat is een benadering van de dikte, geen meting van vezelsamenstelling, stekenverhouding of garenverbruik. De tool accepteert 1–40 WPI, ook decimalen. Het Lace-bereik in de tabel loopt door boven 40.",
     placeholder: "bijv. 10",
     prompt: "Vul een WPI-waarde tussen 1 en 40 in",
     invalid: "Vul een WPI-waarde tussen 1 en 40 in",
     between:
-      "valt tussen de standaardcategorieën. Controleer met een proeflapje.",
+      "valt tussen de bereiken in de tabel. Controleer met een proeflapje.",
     swatch: "Je proeflapje beslist.",
     suggests: "wijst op",
     matches: "past bij",
     or: "of",
     fallback:
-      "JavaScript staat uit. Kies hierboven de categorie waarvan het WPI-bereik je telling bevat.",
+      "JavaScript staat uit. Vergelijk alle categorieën waarvan het WPI-bereik je getal bevat en controleer met een proeflapje.",
   },
   da: {
     heading: "Kender du ikke garntykkelsen? Prøv WPI",
     intro:
-      "Vikl garnet om en blyant eller lineal, tæl hvor mange omviklinger der passer på ca. 2,5 cm (1 inch), og skriv tallet ind.",
+      "WPI betyder omviklinger pr. tomme. Vikl garnet om en blyant med ens tykkelse, side om side uden mellemrum, overlap eller stræk. Tæl omviklingerne over præcis 2,54 cm (1 tomme). Mål flere steder og indtast antallet eller gennemsnittet.",
+    note: "Resultatet er en omtrentlig guide til tykkelse, ikke et mål for fiberindhold, strikkefasthed eller garnforbrug. Værktøjet accepterer 1–40 WPI, også decimaltal. Tabellens Lace-interval fortsætter over 40.",
     placeholder: "fx 10",
     prompt: "Skriv en WPI-værdi mellem 1 og 40",
     invalid: "Skriv en WPI-værdi mellem 1 og 40",
-    between: "ligger mellem standardkategorierne. Tjek med en strikkeprøve.",
+    between: "ligger mellem tabellens intervaller. Tjek med en strikkeprøve.",
     swatch: "Strikkeprøven afgør det.",
     suggests: "peger på",
     matches: "passer til",
     or: "eller",
     fallback:
-      "JavaScript er slået fra. Vælg ovenfor den kategori, hvor din WPI-værdi passer ind.",
+      "JavaScript er slået fra. Sammenlign alle kategorier, hvis WPI-intervaller indeholder dit tal, og tjek med en strikkeprøve.",
   },
 }[lang];
 
@@ -183,12 +191,12 @@ const wpiCategoryCopy = {
   ],
   sv: [
     { name: "Lace", regional: "Cobweb/Lace" },
-    { name: "Fingering / sockgarn", regional: "Super Fine" },
-    { name: "Sport", regional: "Fine" },
-    { name: "DK / Light", regional: "Light" },
-    { name: "Worsted / Aran / Medium", regional: "Medium" },
-    { name: "Bulky / Chunky", regional: "Bulky" },
-    { name: "Super Bulky", regional: "Super Bulky" },
+    { name: "Super Fine", regional: "Sock/Fingering" },
+    { name: "Fine", regional: "Sport" },
+    { name: "Light", regional: "DK/8-ply" },
+    { name: "Medium", regional: "Worsted/Aran" },
+    { name: "Bulky", regional: "Chunky" },
+    { name: "Super Bulky", regional: "Super Chunky" },
     { name: "Jumbo", regional: "Jumbo" },
   ],
   no: [
@@ -239,16 +247,14 @@ const categories = getWpiCategories(wpiCategoryCopy[lang]);
 <div class="wpi-tool gs-form" data-wpi-tool>
   <h2 class="wpi-heading">{copy.heading}</h2>
   <p class="wpi-intro">{copy.intro}</p>
+  <p class="wpi-intro">{copy.note}</p>
   <div class="wpi-input-wrap">
     <input
-      type="number"
+      type="text"
       class="wpi-input"
       aria-label={copy.prompt}
       placeholder={copy.placeholder}
-      min="1"
-      max="40"
-      step="1"
-      inputmode="numeric"
+      inputmode="decimal"
       autocomplete="off"
       data-wpi-input
     />
@@ -264,6 +270,7 @@ const categories = getWpiCategories(wpiCategoryCopy[lang]);
   define:vars={{
     wpiCategories: categories,
     wpiCopy: copy,
+    wpiLocale: lang === "no" ? "nb" : lang,
   }}
 >
   (() => {
@@ -283,7 +290,7 @@ const categories = getWpiCategories(wpiCategoryCopy[lang]);
     const formatMatches = (matches) => {
       if (matches.length === 1) {
         const match = matches[0];
-        return `${wpiCopy.suggests} ${match.name} (CYC ${match.cyc}), ${match.regional}`;
+        return `${wpiCopy.suggests} ${match.name} (CYC ${match.cyc}), ${match.regional}. ${wpiCopy.swatch}`;
       }
 
       const parts = matches.map((match) => `${match.name} (CYC ${match.cyc})`);
@@ -293,23 +300,33 @@ const categories = getWpiCategories(wpiCategoryCopy[lang]);
     input.addEventListener("input", () => {
       const raw = input.value.trim();
       if (raw === "") {
+        input.removeAttribute("aria-invalid");
         result.textContent = wpiCopy.prompt;
         return;
       }
 
-      const value = Number(raw);
+      // Native number fields can discard a comma instead of treating it as a decimal.
+      const isNumber = /^[+-]?(?:\d+(?:[.,]\d*)?|[.,]\d+)(?:e[+-]?\d+)?$/i.test(
+        raw,
+      );
+      const value = isNumber ? Number(raw.replace(",", ".")) : NaN;
       if (!Number.isFinite(value) || value < 1 || value > 40) {
+        input.setAttribute("aria-invalid", "true");
         result.textContent = wpiCopy.invalid;
         return;
       }
 
+      input.removeAttribute("aria-invalid");
+      const displayedValue = new Intl.NumberFormat(wpiLocale, {
+        maximumSignificantDigits: 15,
+      }).format(value);
       const matches = wpiCategories.filter(
         (category) => value >= category.min && value <= category.max,
       );
       result.textContent =
         matches.length === 0
-          ? `${value} WPI ${wpiCopy.between}`
-          : `${value} WPI ${formatMatches(matches)}`;
+          ? `${displayedValue} WPI ${wpiCopy.between}`
+          : `${displayedValue} WPI ${formatMatches(matches)}`;
     });
   })();
 </script>
@@ -379,7 +396,7 @@ const categories = getWpiCategories(wpiCategoryCopy[lang]);
     margin: 0;
   }
 
-  .wpi-input[type="number"] {
+  .wpi-input[type="text"] {
     -moz-appearance: textfield;
   }
 

@@ -4,8 +4,8 @@ import { dutchToolRoutes } from "../../i18n/dutchTools";
 import { routes } from "../../i18n/routes";
 
 interface Cell {
-  cm: string;
-  inch: string;
+  cm: string | null;
+  inch: string | null;
 }
 
 interface Row {
@@ -27,7 +27,8 @@ interface Panel {
   tables: Table[];
 }
 
-const c = (cm: string, inch: string): Cell => ({ cm, inch });
+const c = (cm: string | null, inch: string | null): Cell => ({ cm, inch });
+const unavailableValue = "Geen geverifieerde bronwaarde";
 const formatNumberText = (value: string) => value.replaceAll(".", ",");
 
 const panels: Panel[] = [
@@ -69,7 +70,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Mouwlengte tot oksel",
+            label: "Armlengte: oksel tot pols",
             cells: [
               c("15.5 cm", '6"'),
               c("16.5 cm", '6.5"'),
@@ -170,7 +171,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Mouwlengte tot oksel",
+            label: "Armlengte: oksel tot pols",
             cells: [
               c("21.5 cm", '8.5"'),
               c("26.5 cm", '10.5"'),
@@ -265,7 +266,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Mouwlengte tot oksel",
+            label: "Armlengte: oksel tot pols",
             cells: [
               c("38 cm", '15"'),
               c("40.5 cm", '16"'),
@@ -351,7 +352,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Mouwlengte tot oksel",
+            label: "Armlengte: oksel tot pols",
             cells: [
               c("42 cm", '16.5"'),
               c("43 cm", '17"'),
@@ -403,7 +404,7 @@ const panels: Panel[] = [
           {
             label: "Middenachter hals tot pols",
             cells: [
-              c("66-68.5 cm", '26-26.5"'),
+              c(null, null),
               c("68.5-70 cm", '27-27.5"'),
               c("71-72.5 cm", '28-28.5"'),
               c("73.5-75 cm", '29-29.5"'),
@@ -444,7 +445,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Mouwlengte tot oksel",
+            label: "Armlengte: oksel tot pols",
             cells: [
               c("45.5 cm", '18"'),
               c("45.5 cm", '18"'),
@@ -458,7 +459,7 @@ const panels: Panel[] = [
               c("39.5 cm", '15.5"'),
               c("43 cm", '17"'),
               c("47 cm", '18.5"'),
-              c("49.5 cm", '18.5"'),
+              c("49.5 cm", '19,5"'),
             ],
           },
           {
@@ -519,7 +520,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ruglengte tot taille",
+            label: "Ruglengte tot heup",
             cells: [
               c("58.5-61 cm", '23-24"'),
               c("63.5-66 cm", '25-26"'),
@@ -537,7 +538,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Mouwlengte tot oksel",
+            label: "Armlengte: oksel tot pols",
             cells: [
               c("45.5 cm", '18"'),
               c("47 cm", '18.5"'),
@@ -606,7 +607,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ruglengte tot taille",
+            label: "Ruglengte tot heup",
             cells: [
               c("73.5 cm", '29"'),
               c("76 cm", '30"'),
@@ -618,18 +619,18 @@ const panels: Panel[] = [
             label: "Rugbreedte",
             cells: [
               c("48-51 cm", '19-20"'),
-              c("48-51 cm", '20-21"'),
-              c("51-54.5 cm", '21-21.5"'),
+              c(null, null),
+              c(null, null),
               c("56-57 cm", '22-22.5"'),
             ],
           },
           {
-            label: "Mouwlengte tot oksel",
+            label: "Armlengte: oksel tot pols",
             cells: [
               c("52 cm", '20.5"'),
               c("52 cm", '20.5"'),
-              c("49.5 cm", '21"'),
-              c("53.5-54.5 cm", '21.5"'),
+              c(null, null),
+              c(null, null),
             ],
           },
           {
@@ -638,7 +639,7 @@ const panels: Panel[] = [
               c("42 cm", '16.5"'),
               c("44.5 cm", '17.5"'),
               c("47 cm", '18.5"'),
-              c("48 cm", '20"'),
+              c(null, null),
             ],
           },
           {
@@ -696,37 +697,58 @@ const panels: Panel[] = [
           { label: "Baby", cells: [c("35.5-40.5 cm", '14-16"')] },
           { label: "Peuter", cells: [c("40.5-46 cm", '16-18"')] },
           { label: "Kind", cells: [c("45.5-51 cm", '18-20"')] },
-          { label: "Tiener", cells: [c("51-56 cm", '20-22"')] },
+          { label: "Pre-tiener", cells: [c("51-56 cm", '20-22"')] },
           { label: "Vrouw", cells: [c("53-58.5 cm", '21-23"')] },
           { label: "Man", cells: [c("56-61 cm", '22-24"')] },
         ],
       },
       {
         caption: "Voetlengte",
-        sizeHeader: "Maat",
+        sizeHeader: "US-schoenmaat / richtleeftijd",
         sizes: ["Lengte"],
         rows: [
-          { label: "Baby (0-6 mnd)", cells: [c("9 cm", '3.5"')] },
-          { label: "Baby (6-12 mnd)", cells: [c("10-11 cm", '4-4.5"')] },
-          { label: "Peuter (1-2)", cells: [c("12-13 cm", '4.75-5"')] },
-          { label: "Kind (3-6)", cells: [c("14-18 cm", '5.5-7"')] },
-          { label: "Kind (7-10)", cells: [c("19-21 cm", '7.5-8.25"')] },
-          { label: "Tiener", cells: [c("22-24 cm", '8.5-9.5"')] },
-          { label: "Vrouw", cells: [c("23-26 cm", '9-10.25"')] },
-          { label: "Man", cells: [c("25-29 cm", '10-11.5"')] },
+          {
+            label: "Baby, US 0–4 (6–18 mnd)",
+            cells: [c("7,75–11,5 cm", '3–4,5"')],
+          },
+          {
+            label: "Peuter, US 5–9 (2–3 jaar)",
+            cells: [c("12–15,25 cm", '4,75–6"')],
+          },
+          {
+            label: "Kind, US 10–13 (4–5 jaar)",
+            cells: [c("16,5–19 cm", '6,5–7,5"')],
+          },
+          {
+            label: "Jeugd, US 1–3 (6–9 jaar)",
+            cells: [c("19,75–21,5 cm", '7,75–8,5"')],
+          },
+          {
+            label: "Jeugd, US 4–6 (10–13 jaar)",
+            cells: [c("22,25–24 cm", '8,75–9,5"')],
+          },
+          { label: "Vrouw, US 4–6,5", cells: [c("20,25–23 cm", '8–9"')] },
+          { label: "Vrouw, US 7–9,5", cells: [c("23,5–25,5 cm", '9,25–10"')] },
+          { label: "Vrouw, US 10–12,5", cells: [c("26–28 cm", '10,25–11"')] },
+          { label: "Man, US 6–8,5", cells: [c("23,5–25,5 cm", '9,25–10"')] },
+          { label: "Man, US 9–11,5", cells: [c("26–28 cm", '10,25–11"')] },
+          { label: "Man, US 12–14", cells: [c("28,5–30,5 cm", '11,25–12"')] },
         ],
       },
       {
         caption: "Handomtrek",
-        sizeHeader: "Maat",
+        sizeHeader: "CYC-groep / maat",
         sizes: ["Omtrek"],
         rows: [
-          { label: "Baby", cells: [c("10-13 cm", '4-5"')] },
-          { label: "Peuter", cells: [c("13-15 cm", '5-6"')] },
-          { label: "Kind", cells: [c("15-18 cm", '6-7"')] },
-          { label: "Tiener", cells: [c("18-20 cm", '7-8"')] },
-          { label: "Vrouw", cells: [c("18-20 cm", '7-8"')] },
-          { label: "Man", cells: [c("20-23 cm", '8-9"')] },
+          { label: "Kind 2–4 jaar", cells: [c("13 cm", '5"')] },
+          { label: "Kind 4–6 jaar", cells: [c("15 cm", '6"')] },
+          { label: "Kind 6–8 jaar", cells: [c("16,5 cm", '6,5"')] },
+          { label: "Vrouw S", cells: [c("18 cm", '7"')] },
+          { label: "Vrouw M", cells: [c("19 cm", '7,5"')] },
+          { label: "Vrouw L", cells: [c("20,5 cm", '8"')] },
+          { label: "Man S", cells: [c("20,5 cm", '8"')] },
+          { label: "Man M", cells: [c("21,5 cm", '8,5"')] },
+          { label: "Man L", cells: [c("23,5 cm", '9"')] },
         ],
       },
     ],
@@ -738,15 +760,15 @@ const defaultPanel = "vrouw";
 const faqs = [
   {
     q: "Zijn deze maten hetzelfde in alle breipatronen?",
-    a: "De meeste grote uitgevers en onafhankelijke ontwerpers volgen de standaarden van de Craft Yarn Council, maar er is geen universele controle. Sommige ontwerpers gebruiken hun eigen maattabellen, vooral bij maat-inclusieve patronen met meer opties. Controleer altijd de maattabel van het patroon als die erbij staat.",
+    a: "CYC publiceert referentietabellen, maar niet alle breipatronen gebruiken hetzelfde maatsysteem. Ontwerpers kunnen eigen maten en maatnamen gebruiken. Controleer altijd de maattabel en het maatschema van het patroon.",
   },
   {
     q: "Hoe kies ik een maat als het patroon genummerde maten gebruikt in plaats van XS/S/M/L?",
-    a: "Vergelijk de borstomtrek bij elke genummerde maat met de tabellen hierboven. De borstomtrek is wat telt. Negeer het label.",
+    a: "Gebruik de maten van het patroon, niet alleen het nummer of de letter. Controleer of het lichaamsmaten of afgewerkte maten zijn; houd bij afgewerkte maten rekening met de bedoelde bewegingsruimte. Vergelijk voor een trui de borstomtrek en andere maten die belangrijk zijn voor de pasvorm.",
   },
   {
     q: "Meet ik over kleding of op de huid?",
-    a: "Over lichte kleding: een aansluitend T-shirt of dunne laag. Een dikke trui voegt centimeters toe die niet bij je lichaam horen. Op de blote huid kan de maat net iets kleiner uitvallen dan het kledingstuk uiteindelijk nodig heeft.",
+    a: "Meet op de huid of over een dunne, aansluitende laag en vermijd dikke kleding. Houd lichaamsmaten en afgewerkte maten uit elkaar; de bewegingsruimte in het patroon is bedoeld voor de gewenste pasvorm.",
   },
   {
     q: "Wat als mijn maten niet netjes in een maat vallen?",
@@ -772,6 +794,20 @@ const faqs = [
     <p class="panel-intro">
       Dit zijn lichaamsmaten, geen maten van het afgewerkte kledingstuk. Tel
       bewegingsruimte op voor de pasvorm die je wilt.
+    </p>
+    <p class="panel-intro">
+      Dit zijn CYC-referentiematen van het lichaam, geen afgewerkte kledingmaten
+      of universele maten. De kinder- en jeugdnummers zijn Amerikaanse
+      referentiematen, geen leeftijden of Europese lengtematen. Babyleeftijden
+      zijn bij benadering. XS–5XL volgen CYC; 2XL–5XL staan voor hun 2X–5X. Meet
+      de persoon en gebruik de maattabel van het patroon.
+    </p>
+    <p class="panel-intro" id="size-source-note">
+      CM en inches tonen de gepubliceerde, afgeronde CYC-paren, geen exacte
+      omrekeningen. Voor zes maten is geen geverifieerde bronwaarde beschikbaar,
+      omdat de gepubliceerde waarden elkaar tegenspreken. Beide waarden zijn
+      weggelaten. Meet het lichaam volgens de aanwijzingen hieronder en
+      raadpleeg de maattabel en de bedoelde bewegingsruimte van het patroon.
     </p>
     <div class="chart-controls">
       <div class="tab-scroller">
@@ -822,6 +858,7 @@ const faqs = [
             class={`panel${panel.id === defaultPanel ? " is-active" : ""}`}
             data-panel={panel.id}
             role="tabpanel"
+            tabindex="0"
             id={`panel-${panel.id}`}
             aria-labelledby={`tab-${panel.id}`}
             hidden={panel.id !== defaultPanel}
@@ -836,9 +873,11 @@ const faqs = [
                   <table class="size-table">
                     <thead>
                       <tr>
-                        <th class="sticky-col">{table.sizeHeader ?? "Maat"}</th>
+                        <th scope="col" class="sticky-col">
+                          {table.sizeHeader ?? "Maat"}
+                        </th>
                         {table.sizes.map((size) => (
-                          <th>{size}</th>
+                          <th scope="col">{size}</th>
                         ))}
                       </tr>
                     </thead>
@@ -849,12 +888,21 @@ const faqs = [
                             {row.label}
                           </th>
                           {row.cells.map((cell) => (
-                            <td>
+                            <td
+                              data-unavailable={cell.cm === null || undefined}
+                              aria-describedby={
+                                cell.cm === null
+                                  ? "size-source-note"
+                                  : undefined
+                              }
+                            >
                               <span class="unit-cm">
-                                {formatNumberText(cell.cm)}
+                                {formatNumberText(cell.cm ?? unavailableValue)}
                               </span>
                               <span class="unit-inch">
-                                {formatNumberText(cell.inch)}
+                                {formatNumberText(
+                                  cell.inch ?? unavailableValue,
+                                )}
                               </span>
                             </td>
                           ))}
@@ -889,8 +937,9 @@ const faqs = [
       waar je taille zit.
     </p>
     <p>
-      <strong>Heupen:</strong> Meet rond het breedste deel van de heupen, vaak 18-23
-      cm onder de taille. Houd het meetlint horizontaal.
+      <strong>Heupen:</strong> Meet rond het breedste deel van de heupen met het meetlint
+      horizontaal. Gebruik het breedste punt van het lichaam, niet een vaste afstand
+      onder de taille.
     </p>
     <p>
       <strong>Rugbreedte:</strong> Meet recht over de rug, van schouderpunt tot schouderpunt.
@@ -901,30 +950,40 @@ const faqs = [
       tot de natuurlijke taille. Dit geeft de benodigde lengte van het lijf aan.
     </p>
     <p>
-      <strong>Mouwlengte tot oksel:</strong> Meet vanaf het polsbotje tot de oksel.
-      Dit is je richtpunt voor mouwlengte.
+      <strong>Ruglengte tot heup (man):</strong> De herentabel volgt de CYC-PDF: van
+      de nek tot de heup, niet tot de taille. Controleer dit meetpunt in het maatschema
+      van het patroon.
+    </p>
+    <p>
+      <strong>Armlengte: oksel tot pols:</strong> Meet van de oksel tot de pols met
+      de arm licht gebogen. Deze lichaamsmaat is een uitgangspunt voor de mouwlengte,
+      geen afgewerkte mouwmaat.
     </p>
     <p>
       <strong>Bovenarm:</strong> Meet rond het breedste deel van de bovenarm, met
       de arm ontspannen langs het lichaam.
     </p>
     <p>
-      <strong>Armsgatdiepte:</strong> Meet vanaf de bovenkant van de schouder tot
-      de oksel. Dit bepaalt de diepte van het armsgat.
+      <strong>Armsgatdiepte:</strong> Meet verticaal van de buitenste bovenrand van
+      de schouder tot de oksel.
     </p>
     <p>
-      <strong>Middenachter hals tot pols:</strong> Meet vanaf middenachter bij de
-      nek, over de schouder en langs de arm tot het polsbotje. Deze totale maat is
-      nuttig bij raglan- en pasconstructies, waar lijf en mouwen met elkaar verbonden
-      zijn.
+      <strong>Middenachter hals tot pols:</strong> Houd de arm recht en meet vanaf
+      de basis van de nek middenachter, over de schouder en langs de arm tot de pols.
+    </p>
+    <p>
+      <strong>Accessoirematen:</strong> Meet de hoofdomtrek over het voorhoofd en
+      rond het hele hoofd, de voetlengte op de vloer van de achterkant van de hiel
+      tot de langste teen en de handomtrek rond de handpalm van de dominante hand
+      vlak onder de knokkels, zonder duim. Dit zijn lichaamsmaten, geen afgewerkte
+      maten van mutsen, sokken of wanten. Voetlengte is geen schoenmaatomrekening
+      en is op zichzelf niet genoeg om een sok te bepalen. Leeftijden zijn richtlijnen.
     </p>
 
     <h2>Lichaamsmaten of afgewerkte maten</h2>
     <p>
-      Dit is de meest voorkomende verwarring bij breimaten. De tabellen tonen
-      lichaamsmaten, dus de echte maten van het lichaam. Een afgewerkt
-      kledingstuk kan kleiner, even groot of groter zijn, afhankelijk van de
-      bewegingsruimte die de ontwerper in het patroon heeft gezet.
+      De tabellen tonen lichaamsmaten. Het afgewerkte kledingstuk kan kleiner,
+      even groot of groter zijn, afhankelijk van de bedoelde bewegingsruimte.
     </p>
     <p>
       <strong>Negatieve bewegingsruimte:</strong> Het kledingstuk is kleiner dan het
@@ -933,25 +992,23 @@ const faqs = [
       projectspecifieke grip.
     </p>
     <p>
-      <strong>Geen bewegingsruimte:</strong> Het kledingstuk komt exact overeen met
-      de lichaamsmaten. In gebreide stof leest dat meestal als heel aansluitend, tenzij
-      het steekpatroon bijzonder los valt.
+      <strong>Geen bewegingsruimte:</strong> De afgewerkte maat is gelijk aan de bijbehorende
+      lichaamsmaat.
     </p>
     <p>
-      <strong>Positieve bewegingsruimte (5-10 cm):</strong> Het kledingstuk is iets
-      groter dan het lichaam. Dit is de standaardpasvorm voor de meeste truien, vesten
-      en tops.
+      <strong>Positieve bewegingsruimte:</strong> Het kledingstuk is groter dan het
+      lichaam. CYC stelt ongeveer 5–10 cm extra borstomtrek voor bij een klassieke
+      truipasvorm, niet als regel voor elk ontwerp.
     </p>
     <p>
-      <strong>Losse of oversized bewegingsruimte (10-15+ cm):</strong> Het kledingstuk
-      is duidelijk groter dan het lichaam. Ruime truien, coconvesten en ontspannen
-      pasvormen vallen in dit gebied.
+      <strong>Losse en oversized pasvorm:</strong> CYC stelt ongeveer 10–15 cm extra
+      borstomtrek voor bij een losse trui en minstens 15 cm bij een oversized trui.
     </p>
     <p>
-      Als een patroon "to fit chest 91,5 cm" zegt en daarna een afgewerkte
-      borstomtrek van 101,5 cm geeft, is het verschil van 10 cm de
-      bewegingsruimte. Jouw taak is de maat kiezen waarvan de "to fit"-maat bij
-      het lichaam past, niet de afgewerkte maat.
+      Als een patroon voor een borstomtrek van 91,5 cm een afgewerkte
+      borstomtrek van 101,5 cm geeft, is de positieve bewegingsruimte 10 cm.
+      Vergelijk zowel de opgegeven lichaamsmaten als de afgewerkte maten in het
+      schema met de gewenste pasvorm.
     </p>
     <p>
       Zodra je de doelmaat hebt gekozen, kan de <a
@@ -964,9 +1021,12 @@ const faqs = [
 
     <h2>Kiezen tussen twee maten</h2>
     <p>
-      Valt je borstomtrek tussen twee maten, dan hangt de juiste keuze af van de
-      bedoelde pasvorm. Voor een aansluitend kledingstuk kies je de kleinere.
-      Voor een ontspannen of oversized pasvorm kies je de grotere.
+      Vergelijk tussen twee maten de afgewerkte maten met je lichaam en de
+      bedoelde bewegingsruimte. Kies niet automatisch kleiner voor aansluitend
+      of groter voor oversized. Steekpatroon, vezel en een gewassen, gedroogd
+      proeflapje beïnvloeden rek en valling. Mutsen en sokken hebben hun eigen
+      patroongebonden bewegingsruimte; een vaste toeslag garandeert geen goede
+      pasvorm.
     </p>
     <p>
       Vergelijk ook de andere maten, vooral heupen bij langere kledingstukken en
@@ -981,6 +1041,37 @@ const faqs = [
       gids <a href="/nl/artikelen/stekenverhouding-meten/"
         >stekenverhouding meten</a
       > legt de methode uit.
+    </p>
+
+    <h2>Bronnen en meetafspraken</h2>
+    <p>
+      <a href="https://www.craftyarncouncil.com/standards/body-sizing"
+        >Craft Yarn Council: Bronnen en meetafspraken</a
+      >. <a href="https://www.craftyarncouncil.com/standards/baby-size-chart"
+        >Baby</a
+      >, <a href="https://www.craftyarncouncil.com/standards/child-youth-sizes"
+        >Kind en jeugd</a
+      >, <a href="https://www.craftyarncouncil.com/standards/woman-size"
+        >Vrouw</a
+      >, <a href="https://www.craftyarncouncil.com/standards/man-size">Man</a>, <a
+        href="https://www.craftyarncouncil.com/standards/head-circumference-chart"
+        >Hoofd</a
+      >, <a href="https://www.craftyarncouncil.com/standards/foot-size-charts"
+        >Voet</a
+      >, <a href="https://www.craftyarncouncil.com/standards/hand-size-charts"
+        >Hand</a
+      >. <a
+        href="https://media.craftyarncouncil.com/sites/default/files/images/standards/CYC_YarnStandards-2018-11-06.pdf"
+        >CYC PDF</a
+      >.
+    </p>
+    <p>
+      Bron: Craft Yarn Council. De gekoppelde PDF (pagina’s 17–18) verduidelijkt
+      twee fouten in de webtabellen: de bovenarmomtrek voor vrouw 5XL is 19,5
+      inch en de ruglengte voor mannen loopt tot de heup, niet de taille. De zes
+      overige tegenstrijdigheden in de bron zijn nog niet opgelost. Deze website
+      laat voor die maten beide eenheidswaarden weg en vervangt ze niet door
+      gecorrigeerde of berekende waarden.
     </p>
   </div>
 </LocalizedToolPage>

@@ -1,7 +1,8 @@
 ---
 title: "Paljonko lankaa peittoon?"
-description: "Arviot neulotun peiton langanmenekkiin koon ja lankavahvuuden mukaan. Vauvanpeitot, torkkupeitot ja suuret peitot."
+description: "Arvioi peiton langanmenekki neuleohjeen, valmiiden mittojen ja mallitilkun avulla. Katso lähteistetyt peittoesimerkit ja muunna metrimäärä kokonaisiksi keriksi."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 5
 tags:
@@ -15,102 +16,88 @@ lang: fi
 translationKey: "yarn-for-blanket"
 ---
 
-Peitot syövät lankaa. Pienikin vauvanpeitto käyttää enemmän metrejä kuin moni vaate, ja täysikokoinen torkkupeitto voi mennä yli 2 300 metrin worsted-vahvuisella langalla. Langan loppuminen kesken, varsinkin kun värjäyserä on jo kadonnut, on juuri sellainen neulekurjuus, jonka voi välttää kohtuullisella suunnittelulla.
+Peitot syövät lankaa. Langan loppuminen kesken, varsinkin kun samaa värjäyserää ei enää saa, on neulekurjuutta, jota suunnittelu auttaa ehkäisemään.
 
-Alla olevat arviot antavat lähtöhaarukan. Todellinen langanmenekki riippuu neuletiheydestä, mallineuleesta ja mitoista, joten käsittele näitä ostoshaarukoina eikä ohjeen lupauksina.
+Aloita valmiin peiton leveydestä ja pituudesta, langasta ja mallineuleesta. Alla on nimettyjen ohjeiden lankamääriä sekä neuvoja oman peiton menekin arviointiin.
 
 ## Menekkiarviot peiton koon mukaan
 
-Nämä haarukat olettavat sileän neuleen tai vastaavan litteän neulepinnan. Pintaneuleet käyttävät enemmän, niistä alla.
+Vauvanpeitto, torkkupeitto ja king-kokoinen peitto eivät tarkoita yleispäteviä mittoja. Määritä sängynpeiton valmis koko ja haluamasi reunojen laskeutuminen; pelkkä patjan koko ei ole peiton koko.
 
-**Vauvanpeitto (75 x 100 cm)**
-Worsted: noin 700-1 000 metriä
-DK: noin 900-1 200 metriä
-Bulky: noin 500-800 metriä
+**Vauvanpeittoesimerkki: [Bright Cuddles Blanket, DROPS Baby 46-4](https://www.garnstudio.com/pattern.php?id=11395&cid=11).** Peitto neulotaan tasona yksinkertaisella DROPS Big Merino -langalla, pitsineuleena ja samanaikaisesti neulottavin aina oikein -reunuksin. Ohjeen tiheys on 16 silmukkaa ja 22 kerrosta / 10 × 10 cm pitsineuletta. [Big Merino](https://www.garnstudio.com/yarn.php?show=drops-big-merino&cid=19) on aran/worsted-vahvuista: 50 g:n kerässä on noin 75 m.
 
-**Sylissä pidettävä peitto / pieni torkkupeitto (100 x 130 cm)**
-Worsted: noin 1 400-1 800 metriä
-DK: noin 1 650-2 200 metriä
-Bulky: noin 1 000-1 400 metriä
+| Valmis koko | Ohjeen määrä / kerät | Kerien pituus yhteensä |
+| ----------- | -------------------- | ---------------------- |
+| 44 × 59 cm  | 300 g / 6            | 450 m                  |
+| 57 × 68 cm  | 450 g / 9            | 675 m                  |
+| 69 × 77 cm  | 600 g / 12           | 900 m                  |
 
-**Täysikokoinen torkkupeitto (130 x 180 cm)**
-Worsted: noin 2 100-2 900 metriä
-DK: noin 2 700-3 500 metriä
-Bulky: noin 1 550-2 200 metriä
+Mitat ja vyötteen juoksevuus ovat likimääräisiä. Valmiit koot sisältävät ohjeen reunukset. Metrit kertovat suositeltujen kokonaisten kerien sisältämän pituuden, eivät mitattua kulutusta tai lupausta jokaisen metrin käyttämisestä.
 
-**Suuri / king-kokoinen peitto (180 x 230 cm)**
-Worsted: noin 3 500-4 600 metriä
-DK: noin 4 600-5 700 metriä
-Bulky: noin 2 600-3 400 metriä
+**Suurempi peitto: [Strawberry Sky, DROPS 223-37](https://www.garnstudio.com/pattern.php?id=10186&cid=19).** Valmis koko on 100 × 140 cm. Peitto neulotaan kulmasta kulmaan tasona aina oikein, yksinkertaisella DROPS Fabel -langalla. Tiheys on 20 silmukkaa ja 39 kerrosta / 10 × 10 cm. Ohjeessa on 550 g väriä 623. Fingering-vahvuisen [Fabelin](https://www.garnstudio.com/yarn.php?show=drops-fabel&cid=19) 50 g:n kerässä on noin 205 m: 11 kerää sisältää 2 255 m. Tämä on erillinen ohje-esimerkki, ei pitsipeiton suurempi koko.
 
-Tarkempaan arvioon omalla langalla ja mitoilla [lankamuunnin](/fi/tyokalut/lankamuunnin/) kattaa peitot vauvanpeitosta king-kokoon kaikilla tavallisilla lankavahvuuksilla.
+[Langanmenekkilaskuri](/fi/tyokalut/lankamuunnin/) — Nimettyjen ohjeiden vertailumäärät, ei henkilökohtainen menekkiennuste. Valitse työ, nimetyn ohjeen koko ja yksikkö. Tulos on kyseisen ohjeen vertailumäärä, ei oman työsi menekkiennuste.
 
 ## Miksi lankavahvuus muuttaa määrää niin paljon
 
-Ohuempi lanka tarkoittaa enemmän silmukoita 10 cm matkalla, eli enemmän lankaa jokaiselle kerrokselle. DK-vahvuisessa peitossa on enemmän silmukoita samalla leveydellä kuin worsted-vahvuisessa, ja myös enemmän kerroksia samaan pituuteen. Sama peiton koko, selvästi enemmän lankaa sen sisällä.
+Lankavahvuus kertoo paksuudesta, grammat fyysisestä painosta. Vahvuusluokka tai silmukkamäärä ei yksin kerro tarvittavaa metrimäärää. Vertaa valitun ohjeen lankaa, neuletiheyttä ja mallineuletta.
 
-Tämä on osasyy siihen, miksi super bulky -peitot ovat suosittuja uusien neulojien keskuudessa. Ne valmistuvat nopeasti ja tarvitsevat vähemmän metrejä. Mutta super bulky -lanka maksaa usein enemmän 100 grammaa kohti ja yhdessä kerässä on vähemmän metrejä, joten kokonaiskustannus voi olla yllättävän samanlainen pienemmästä metrimäärästä huolimatta. Esimerkiksi Lion Brandin Wool-Ease Thick & Quick -langan yksivärisessä kerässä on noin 97 metriä (106 yd), ja joissakin printti- ja raitaväreissä vähemmän. Tavallinen Wool-Ease-yksivärinen kerä on noin 180 metriä (197 yd). Paksua lankaa tarvitaan vähemmän keriä, mutta jokainen kerä tekee lyhyemmän matkan.
+Paksummalla langalla voi syntyä erilainen pinta ja vähemmän silmukoita samalle leveydelle, mutta siitä ei seuraa kiinteää vähennystä metreihin tai kerien määrään. Sekä vyötteen juoksevuus että juuri kyseisen neulepinnan menekki ratkaisevat. Vertaa koko tarvittavan lankamäärän hintaa.
 
 ## Mallineuleen vaikutus
 
-Yllä olevat arviot olettavat tasaisen neulepinnan. Lisää menekkiä näin:
+Neulo mallitilkku työn mallineuleella: palmikoille, helmineuleelle, pidennetylle helmineuleelle, aina oikein -neuleelle, pitsille ja kirjoneuleelle ei pidä käyttää samaa sileän neuleen arviota. Niille ei ole yleispätevää lisäprosenttia. Ota mukaan kokonainen mallikerta ja kirjoneuleessa langanjuoksut sekä jokaisen värin kulutus.
 
-**Palmikot:** lisää reilu varamäärä. Palmikot puristavat neulepintaa vaakasuunnassa, joten samaan peiton leveyteen tarvitaan enemmän silmukoita. Runsaspalmikkoinen aran-tyylinen peitto voi käyttää selvästi enemmän lankaa kuin samankokoinen sileä peitto.
+Oman suorakulmaisen peiton lähtöarvion saa [Rita Buchananin kuvaamalla pinta-alamenetelmällä](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf): kerro tilkun langan mitattu pituus tai paino suhteella **peiton pinta-ala ÷ tilkun pinta-ala**. Pinta-ala on leveys × pituus. Käytä samoja neliöyksiköitä, esimerkiksi cm².
 
-**Helmineule ja sammalneule:** lisää pienempi varamäärä. Vaihteleva oikea-nurja-rakenne tekee neulepinnasta tiiviimmän ja neuletiheydestä hieman napakamman.
+Langan, mallineuleen ja neuletiheyden pitää vastata peittoa. Käsittele tilkku peiton tavoin langan hoito-ohjeen sallimalla tavalla ja mittaa se täysin kuivana. Punnitun tai mitatun langan pitää vastata mitattua pinta-alaa: ylimääräisiä reunuksia tai pitkiä langanpäitä ei lasketa pienen keskialueen painoon. Tilkun on oltava riittävän suuri vaa'an erotuskykyyn nähden.
 
-**Kirjoneule:** neulo mallikerta ennen kuin ostat langan aivan tiukalla määrällä. Nurjan puolen langanjuoksut kuluttavat lankaa, joka ei lisää neulepinnan leveyttä. Fair Isle -peitot ovat kauniita, mutta lankasyöppöjä, ja langanjuoksut tekevät peitosta myös painavamman ja vähemmän laskeutuvan kuin yksivärinen versio.
-
-**Ainaoikein:** suunnilleen sama kokonaismetrimäärä kuin sileässä neuleessa, joskus noin 5 % enemmän. Ainaoikein puristuu pystysuunnassa, eli samalla kerrosmäärällä se jää matalammaksi kuin sileä neule. Peittoon tulee usein muutama lisäkerros, jotta pituus osuu kohdalleen. Lopputulos on samalla silmukkamäärällä paksumpi ja joustavampi.
-
-**Pitsi:** voi käyttää hieman vähemmän kuin sileä neule, koska avoin rakenne venyy viimeistelyssä laajemmalle. Voimakkaasti pingotettu pitsipeitto voi saavuttaa suuremman valmiin koon samalla lankamäärällä. Isoihin säästöihin ei silti kannata luottaa, eikä pitsipeitto ole yleensä paras valinta, jos lämpö on tärkein tavoite.
+Sama pinta-alasuhde auttaa ohjeen koon muuttamisessa, kun neulepinta säilyy samanlaisena. Pelkän pituuden kaksinkertaistaminen kaksinkertaistaa alan; molempien mittojen kaksinkertaistaminen nelinkertaistaa sen. Arvioi reunukset, saumat ja hapsut erikseen, elleivät ne jo sisälly edustavaan mittaukseen. Laske kukin osa vain kerran. Ohjeen pyöristetyn ostomäärän skaalaus on edelleen arvio, ei mitattua kulutusta.
 
 ## Metrien muuttaminen keriksi
 
-Katso vyötteestä, montako metriä kerässä on. Jaa kokonaismetrimäärä kerän metrimäärällä. Pyöristä ylöspäin.
+Katso vyötteestä, montako metriä kerässä on. Jaa kokonaismetrimäärä kerän metrimäärällä ja pyöristä ylöspäin kokonaisiin keriin.
 
-Peitto tarvitsee noin 2 000 metriä. Langassa on 200 metriä per 100 gramman kerä. Se on 10 kerää. Osta 11. Ylimääräinen ottaa huomioon neuletiheyden vaihtelun, luomishännät, purkamisen ja sen, että langanmenekki on haarukka eikä lupaus.
+Kuvitteellinen tarve on 2 000 m ja vyötteessä 200 m / 100 g. Lasku on 2 000 ÷ 200 = **10 kerää**, yhteensä 1 000 g. Tämä on muunnosesimerkki, ei tietyn peittokoon menekkisuositus.
 
-Peittoon kannattaa ostaa yksi tai kaksi ylimääräistä kerää, jos budjetti sallii ja lanka on palautettavissa tai hyödyllinen varana. Kustannus on pieni verrattuna siihen, että lanka loppuu kolme neljäsosaa työn jälkeen ja värjäyserä on poissa. [Langanmenekin opas](/fi/artikkelit/paljonko-lankaa-tarvitaan/) käsittelee punnitusmenetelmää vajaiden kerien tarkistamiseen projektin aikana.
+Suunnittele lisävara työn mukaan ja tarkista ensin, sisältääkö lähtömäärä jo tilkun ja viimeistelyn. Yhdestoista kerä lisäisi 200 m, mutta se ei ole automaattisesti tarpeellinen tai riittävä. Purettu, uudelleen käytettävä lanka ei kulu kahdesti; huomioi todellinen hukka. Laske ja pyöristä jokainen väri erikseen. [Langanmenekin opas](/fi/artikkelit/paljonko-lankaa-tarvitaan/) käsittelee vajaiden kerien punnitsemista.
 
 ## Värjäyserän suunnittelu
 
-Peitot tarvitsevat niin monta kerää, että värjäyserästä tulee oikea huoli. Eri erissä värjätty lanka voi näyttää neulottuna vierekkäin selvästi erilaiselta, vaikka kerät näyttäisivät kaupassa samoilta.
+Eri erissä värjätty lanka voi näyttää neulottuna vierekkäin selvästi erilaiselta, vaikka kerät näyttäisivät kaupassa samoilta.
 
-Osta kaikki langat kerralla samasta värjäyserästä. Tarkista jokaisen vyötteen eränumero. Se on yleensä värinumeron lähellä ja voi olla merkitty esimerkiksi "Lot" tai "Color Lot". Jos kaupalla ei ole tarpeeksi samaa erää, kysy voiko sitä tilata lisää samasta erästä.
+Osta kaikki langat kerralla samasta värjäyserästä. Tarkista jokaisen vyötteen eränumero. Se on yleensä värinumeron lähellä ja voi olla merkitty esimerkiksi "Lot" tai "Color Lot". Jos kaupalla ei ole tarpeeksi samaa erää, kysy, voiko sitä tilata lisää samasta erästä.
 
-Jos päädyt kahteen värjäyserään kaikesta huolimatta, vuorottele keriä koko peiton ajan. Kaksi kerrosta erästä A, kaksi kerrosta erästä B, toista. Väriero sekoittuu niin vähitellen, että siitä tulee näkymätön. Paljon parempi kuin neuloa ensin kaikki yhdestä erästä ja saada selvä raja siihen kohtaan, jossa toinen alkaa. Osa neulojista tekee tämän varmuuden vuoksi myös samalla erällä, jos lanka on käsinvärjättyä tai kattilavärjättyä. Yhdenkin erän sisällä voi olla pientä vaihtelua.
+Jos käytössä on eri värjäyseriä, kokeile kerien vuorottelua ensin mallitilkussa. Sopiva vaihtoväli riippuu ohjeesta ja langasta; vuorottelu ei takaa värieron häviämistä. Myös saman erän käsinvärjätyt langat voivat erota. [Malabrigon Sock-ohje](https://malabrigoyarn.com/yarns/sock) kuvaa sekä vaihtelua että kerien vuorottelua.
 
 ## Lankavahvuuden valinta peittoon
 
-**Bulky ja super bulky:** nopea, muhkea pinta, lämmin. Hyvä torkkupeittoihin, joiden tarkoitus on olla kotoisia eikä hienostuneita. Neule on painava, mikä voi olla ominaisuus tai haitta. Toiselle se tuntuu painopeitolta, toiselle se on hankala asetella sohvan käsinojalle. Varo myös käsien väsymistä. 9 mm:n (US 13) ja sitä suuremmilla puikoilla neulominen tuntuu ranteissa eri tavalla kuin worsted-vahvuus 5 mm:n puikoilla.
+**Bulky ja super bulky:** valitse, kun tavoittelet muhkeaa pintaa, ja tarkista tilkun paino ja laskeutuvuus. Paksuus yksin ei takaa lämpöä tai painopeiton vaikutusta.
 
-**Worsted:** yleisin peittovahvuus. Hyvä tasapaino nopeuden, tiheyden ja laskeutuvuuden välillä. Worsted-peitto on lämmin olematta jäykkä. Sopii useimpiin mallineuleisiin. Monissa arkikäyttöisissä worsted-langoissa on laajat värikartat, millä on väliä silloin kun sitoudut kahteen tai kolmeen tuhanteen metriin samaa sävyä.
+**Worsted:** vaihtoehto sekä sileisiin että kuvioituihin peittoihin. Arvioi tiiviys ja pehmeys ohjeen tiheydellä neulotusta tilkusta; kaikki saman vahvuuden langat eivät laskeudu samalla tavalla.
 
-**DK:** hienompi pinta, kevyempi paino, enemmän laskeutuvuutta. Vie pidempään, mutta tuottaa viimeistellymmän tuntuisen peiton. Hyvä vauvanpeittoihin, kun haluat pehmeyttä ilman liikaa paksuutta.
+**DK:** vaihtoehto hienompaan silmukkapintaan. Kokeile valmista pintaa sen sijaan, että pitäisit vahvuusluokkaa pehmeyden tai vauvanpeittoon sopivuuden takeena.
 
-**Sport ja fingering:** kaunis neulepinta. Vakava ajallinen sitoumus. Fingering-vahvuinen peitto on projekti, jota mitataan kuukausissa, joskus vuosissa. Lopputulos on kevyt ja laskeutuva, enemmän kudotun peiton oloinen kuin tavallisen neulotun torkkupeiton. Modulaariset rakenteet, kuten viistoneliöt tai log cabin -palat, tekevät näin ohuesta peitosta helpommin hallittavan, koska neulot pieniä osia etkä raahaa täysleveää peittoa pyöröpuikoilla koko projektin ajan.
+**Sport ja fingering:** palarakenne sopii, jos haluat käsitellä pieniä osia. Osa paloista ommellaan yhteen, osa liitetään neuloessa. Noudata valitun ohjeen rakennetta.
 
 ## Puikot, kuidut ja mikä oikeasti kestää
 
-Muutama käytännön asia ei näy metrilaskussa.
+Pyöröpuikolla voi neuloa peiton tasona edestakaisin. Valitse kokonaispituus, jolle silmukat mahtuvat hyvin. Edellä mainitut ohjeet käyttävät 60 cm:n ja 80 cm:n pyöröpuikkoja; kyse on ohjekohtaisista puikkojen kokonaispituuksista, ei kaikkien peittojen kaapelisuosituksista.
 
-Käytä pitkää pyöröpuikkoa kaikkiin sylikokoa suurempiin peittoihin. 100 cm kaapeli riittää useimpiin torkkupeittoihin. Täysikokoiset ja king-kokoiset peitot ovat helpompia 120 tai 150 cm kaapelilla. Silmukat ovat silti tiiviisti puikolla, mutta et joudu taistelemaan liian lyhyen kaapelin kanssa. Peitto neulotaan pyöröpuikolla tasona edestakaisin, ei suljettuna neuleena.
+Valitse puikkokoko ohjeen neuletiheyden ja pestyn, kuivan neulepinnan mukaan. Puikon vaihtaminen voi muuttaa mittoja ja menekkiä, joten tee uusi tilkku sen sijaan, että valitsisit automaattisesti villapaitaa suuremman puikon.
 
-Jos haluat peittoon laskeutuvuutta, harkitse yhtä puikkokokoa suurempaa kuin käyttäisit samasta langasta neulottuun istuvaan villapaitaan. Worsted-lanka, joka toimii napakassa paidassa 4,5 mm puikolla, voi tehdä peitosta pehmeämmän ja virtaavamman 5 tai 5,5 mm puikolla. Liian tiukka peittoneulos tuntuu jäykältä.
-
-Vauvanpeittoihin ja usein pestäviin peittoihin kannattaa valita lanka, jonka vyötteen hoito-ohje sopii siihen pesuun, jonka peitto oikeasti saa. Superwash-villa, puuvilla tai pehmeä akryyli on turvallisempi valinta konepestävään peittoon kuin käsittelemätön villa, joka voi huopua. Mohair ja angora ovat lämpimiä, mutta ne karisevat, joten ne ovat huonoja vauvanpeittoihin. Pellava toimii kesäisessä torkkupeitossa, mutta tarkista menekki mallitilkulla, koska kangas käyttäytyy eri tavalla kuin villa.
+Vauvanpeittoihin ja usein pestäviin peittoihin kannattaa valita lanka, jonka vyötteen hoito-ohje sopii todelliseen käyttöön. Kuitunimi tai superwash-merkintä ei yksin määritä kaikkia pesu- ja kuivausasetuksia.
 
 ## FAQ
 
 **Voiko peiton tehdä jämälangoista?**
-Jämäpeitto on hyvä tapa käyttää lankavarastoa. Sääntö: pidä kaikki langat samassa vahvuusluokassa. Vahvuuksien sekoittaminen tekee epätasaisen neuletiheyden ja osia, jotka vetävät eri tavalla viimeistelyn jälkeen. Sama vahvuus, eri värit, toimii hyvin. Perusmallinen viistoneliöpeitto on tehty juuri tällaiseen.
+Jämäpeitto on hyvä tapa käyttää lankavarastoa. Samanlainen vahvuus on lähtökohta, mutta tarkista myös neuletiheys, neulepinta ja yhteensopivat hoito-ohjeet. Mittaa palapeitossa yhden kokonaisen edustavan palan menekki, kerro kokonaisten palojen määrällä ja lisää liitosten sekä reunusten lanka erikseen. Laske jokaisen värin tarve.
 
 **Onko peiton neulominen halvempaa kuin ostaminen?**
-Käsinneulottu peitto maksaa usein materiaaleiltaan enemmän kuin koneella tehty. Arvo on tekemisessä, muokattavuudessa ja laadussa. Jos budjetti on tärkein asia, worsted- tai bulky-vahvuinen akryyli pitää materiaalikulut kohtuullisina. Isot kerät ja kartiot antavat yleensä enemmän metrejä samalla rahalla.
+Vertaa kaikkien tarvittavien kerien hintaa ostettavan peiton hintaan. Ota mukaan eri värit ja suunniteltu vara. Suuri kerä tai kartio ei automaattisesti tee työstä edullisempaa, jos lankaa jää enemmän yli.
 
 **Kauanko peiton neulominen kestää?**
-Super bulky -torkkupeitto voi viedä 20-30 tuntia. Worsted-vahvuinen 60-100 tuntia. Fingering-vahvuinen voi mennä yli 200 tunnin. Oma nopeus, mallineuleen monimutkaisuus ja viikoittaiset neulomistunnit heiluttavat lukuja paljon. Modulaarinen peitto tuntuu usein nopeammalta, koska jokainen neliö valmistuu erikseen, vaikka kokonaistunnit olisivat samaa luokkaa.
+Mittaa, kauanko edustavan osan neulominen vie valitulla langalla ja mallineuleella. Arvioi oma työaikasi sen perusteella ja laske yhdistäminen, reunukset ja viimeistely erikseen. Pelkkä lankavahvuus ei anna luotettavaa tuntimäärää.
 
 **Neulotaanko peitto tasona vai pyörönä?**
-Useimmat peitot neulotaan tasona pitkillä pyöröpuikoilla, edestakaisin eikä suljettuna. Osa modulaarisista malleista, kuten neliöt tai kuusikulmiot, neulotaan erikseen ja yhdistetään. Pyörörakenne toimii pyöreissä peitoissa, mutta on harvinainen suorakaiteen muotoisissa torkkupeitoissa.
+Noudata ohjetta. Tasopeiton voi neuloa pyöröpuikolla edestakaisin. Palapeitto voi koostua erikseen yhdistettävistä tai neuloessa liitettävistä osista. Jotkin peitot neulotaan keskeltä ulospäin suljettuina kerroksina; pyöröpuikko ei yksin tarkoita suljettua neuletta.

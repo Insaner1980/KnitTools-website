@@ -23,11 +23,12 @@ const sections = buildArticleCategorySections(finnishArticles, "fi");
   canonicalPath={routes.articlesIndex.fi}
   lang="fi"
   alternates={routes.articlesIndex}
+  contentPage
 >
   <section class="articles-header">
     <div class="articles-header-inner">
       <p class="eyebrow">Artikkelit</p>
-      <h1>Neuleohjeita ja käytännön vinkkejä.</h1>
+      <h1>Neuleartikkeleita ja käytännön vinkkejä.</h1>
       <p class="articles-intro">
         Kirjoituksia neulojalle, joka haluaa saada työn etenemään:
         neuletiheyttä, lankavalintoja, puikkoja, ohjeiden lukemista ja
@@ -70,7 +71,7 @@ const sections = buildArticleCategorySections(finnishArticles, "fi");
       </section>
     ))
   }
-  <ClosingCTA variant="page" lang="fi" />
+  <ClosingCTA variant="page" lang="fi" contentPage />
 </PageLayout>
 
 <style>

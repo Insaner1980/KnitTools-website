@@ -1,98 +1,93 @@
 ---
 title: "Meerdere breiprojecten organiseren"
-description: "Meerdere breiprojecten tegelijk beheren zonder naalden, garen of je plek in het patroon kwijt te raken. Praktische systemen die werken."
+description: "Organiseer breiprojecten met duidelijke patroonnotities, voltooide toeren en garengegevens. Praktische tips voor opbergen en verder breien na een pauze."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 3
 tags:
   [
     "breiprojecten organiseren",
-    "WIP beheer",
-    "breiproject tracker",
+    "WIP-beheer",
+    "breiprojecten bijhouden",
     "breivoortgang bijhouden",
     "meerdere projecten",
-    "breitijd tracker",
+    "breitijd bijhouden",
   ]
 draft: false
 lang: nl
 translationKey: "organize-knitting-projects"
 ---
 
-De meeste breiers hebben meer dan één project tegelijk op de naalden. Een ingewikkelde trui voor geconcentreerde avonden. Een simpele sok voor onderweg. Een hersenloze ribbeldeken voor breien voor de tv. Verschillende projecten voor verschillende stemmingen en energieniveaus. Dat is normaal.
+Je kunt meerdere breiprojecten tegelijk op de naalden hebben: een ingewikkelde trui voor rustige avonden, een sok voor onderweg en een eenvoudige ribbeldeken voor de tv. Verschillende projecten kunnen bij verschillende momenten passen.
 
-Het probleem begint wanneer "een paar projecten" ongemerkt zeven wordt, en je niet meer weet welke naalddikte in die half afgemaakte muts zit, bij welke toer je in het vest stopte, of of je die tweede bol voor de col al gekocht had. WIP-beheer gaat er niet om hoeveel projecten je mag hebben. Het gaat erom dat je elk project kunt oppakken zonder eerst tien minuten uit te zoeken waar je gebleven was.
+Het wordt lastig wanneer je de naalddikte van de half afgemaakte muts, de volgende toer van het vest of de aankoop van die tweede bol voor de col niet meer weet. WIP staat voor work in progress, een werk in uitvoering. Organiseren betekent hier de informatie bewaren die je nodig hebt om verder te gaan, niet een vast maximum aan projecten aanhouden.
 
 ## Wat je moet terugvinden wanneer je iets oppakt
 
-**Waar je stopte.** Toernummer, positie binnen een patroonherhaling, welk deel van het patroon je breit. Dit is de informatie die het duurst is om opnieuw te reconstrueren. Bij een lijf in tricotsteek kun je toeren in de stof tellen. Bij een kabelpaneel of ajourschema kan je plek kwijt zijn betekenen dat je terug moet halen tot een zeker punt. De [gids over toeren bijhouden](/nl/artikelen/toeren-bijhouden-tijdens-het-breien/) behandelt methodes uitgebreider.
+**Patroon en maat.** Noteer de titel, ontwerper, bron en versie of datum van het breipatroon, plus je gekozen maat. Markeer de bijbehorende getallen in je werkexemplaar. Gebruik je verschillende maten voor verschillende delen, noteer dan elke keuze. Bewaar correcties bij dat exemplaar en bekijk de wijzigingen in een nieuwe versie voordat je eigen aantekeningen overneemt.
 
-**Wat er in de tas zit.** Naalddikte, garennaam en kleur, resterende bollen. Haal je een project na een maand uit de kast en is het label van de bol gevallen, dan probeer je ineens mysterieus beige DK-garen te herkennen. Dat wordt snel oud. Bewaar labels bij het project of noteer de gegevens ergens waar je erbij kunt. De simpelste versie: plak één garenlabel in de projecttas met het verfbad zichtbaar.
+**Waar je stopte.** Noteer onderdeel en patroongedeelte, de laatste volledig gebreide toer, het beginpunt van de telling, de positie in de herhaling en de volgende handeling. Schrijf een gedeeltelijk gebreide naald of toer apart op. Bijvoorbeeld: ”Linkermouw, 47 toeren in het rond klaar na de boord; hierna toer 48, herhalingstoer 8.” Dit veronderstelt een herhaling van acht toeren vanaf toer 1, zonder voorbereidende toeren. Houd voor elke mouw of sok aparte gegevens bij en noteer gelijktijdige meerderingen en minderingen afzonderlijk. Een tellerstand alleen geeft die context niet. De [gids over toeren bijhouden](/nl/artikelen/toeren-bijhouden-tijdens-het-breien/) behandelt de methodes uitgebreider.
 
-**Wat je hebt besloten.** Aanpassingen, maatwijzigingen, notities die je maakte tijdens het breien. "5 cm extra aan het lijf" is duidelijk wanneer je het gisteren besloot. Drie weken later is het onzichtbaar. Hetzelfde geldt voor een naalddiktewissel halverwege het project, de toer waar je een nieuwe bol begon zodat je draadjes later logisch kunt wegwerken, en elk punt waar je van het telpatroon afweek.
+**Wat er in de tas zit.** Noteer naalddikte in mm, naaldtype en lengte. Vermeld bij rondbreinaalden of de lengte inclusief punten is. Schrijf de steken- en toerenverhouding, het steekpatroon en de toestand van het proeflapje op: vóór of na wassen/blocken en drogen. Bewaar die meetresultaten apart. Houd de garenlabels en de hieronder genoemde garengegevens bij het project.
 
-**Waar het werkgaren is.** Preciezer: komt het garen uit het midden van de bol of van buitenaf, en welke bol in de volgorde is actief? Dat maakt uit wanneer je twee verfbaden afwisselt, een contrastkleur op een specifieke toer toevoegt, of een bol hebt verdeeld voor twee bijpassende mouwen en moet weten welke helft bij welke kant hoort.
+**Wat je hebt besloten.** Noteer aanpassingen en waar ze beginnen, ook wisselingen van naalddikte. ”Het lijf vóór de armsgatvorming 5 cm verlengen” zegt meer dan een losse lengtemaat. Maak onderscheid tussen uitgevoerde en geplande wijzigingen. Foto's kunnen notities aanvullen, maar vervangen geen geschreven maten of overzicht van aanpassingen.
+
+**Waar het werkgaren is.** Noteer zo nodig of de draad uit het midden of van buitenaf komt en welke bol in gebruik is. Dat is nuttig bij het afwisselen van verfbaden, het toevoegen van een contrastkleur of het verdelen van garen over twee mouwen.
 
 ## Fysieke organisatie
 
-Eén tas per project. Dat is het hele systeem. Het project, de naalden, het patroon, het resterende garen en eventuele notities blijven bij elkaar. Wil je wisselen, dan pak je een andere tas. Niets raakt gemengd.
+Eén tas per project is een eenvoudige optie. Bewaar werk, naalden, werkexemplaar van het patroon en notities samen. Extra bollen voor grotere projecten kunnen apart liggen, voorzien van projectnaam en garengegevens. Markeer ze als gereserveerd zodat je hetzelfde garen niet voor twee projecten inplant.
 
-De verpakking maakt weinig uit. Een etui met rits, een projectzak, een ziplock voor kleine projecten. Belangrijk is dat elk project op zichzelf compleet is.
+Kies een opbergplek met voldoende ruimte en controleer naden, sluitingen en losse accessoires waaraan het breiwerk kan blijven haken. Het materiaal alleen bepaalt niet hoe goed een tas beschermt. Volg de onderhoudsinstructies van het garen bij het opbergen; ga er niet van uit dat één tas bij alle vezels past.
 
-Voor grotere projecten met meerdere bollen bewaar je de werkende bol bij het project en de extra bollen apart, maar gelabeld. Een stukje schilderstape met de projectnaam voorkomt het probleem dat je zes bollen crèmekleurige DK van drie verschillende merken in je voorraad hebt en geen idee welke waar bij hoort.
-
-Het materiaal van de projecttas heeft ook praktische gevolgen. Lichte stoffen zakjes zijn prettig in de hand, maar beschermen beperkt tegen haken, pluis of losse accessoires. Kunststof mapjes met rits of tasjes met een mesh-venster beschermen beter en laten zien wat erin zit zonder dat je alles opent. Grotere projecten hebben ruimte nodig. Mouwen en half afgemaakte passen worden niet blij van een sokkenzakje.
+Zet de open steken veilig weg voordat je het werk opbergt. Haal je verwisselbare naaldpunten los, laat de steken dan op een passende kabel met eindstoppers staan of zet ze op een geschikte stekenhouder. Noteer de dikte van de verwijderde punten en waar je ze bewaart.
 
 ## Bijhouden waar je gebleven bent
 
-Papieren notities werken als je consequent bent. Schrijf het huidige toernummer op een plakbriefje, plak het op het patroon en werk het bij wanneer je stopt. Het probleem: na een fijne breisessie nog een notitie schrijven voordat je de naalden neerlegt, vraagt een gewoonte die de meeste mensen niet vanzelf ontwikkelen.
+Papieren en digitale notities moeten allebei worden bijgewerkt. Noteer bij het stoppen de laatste voltooide toer en de volgende handeling. Telt je teller voltooide toeren, verhoog hem dan pas na de hele toer. Een gedeeltelijk gebreide naald of toer vraagt om een aparte notitie.
 
-Een breiprojecttracker op je telefoon doet dit betrouwbaarder. Digitale trackers bewaren het toernummer automatisch, leggen vast wanneer je voor het laatst aan een project werkte en tonen alle actieve projecten in één lijst. In plaats van door tassen te graaien, zie je alles in één oogopslag: kabelvest, toer 47, laatst gewerkt dinsdag. Simpele sokken, hiel keren, laatst gewerkt een week geleden.
+Een app kan handig zijn, maar controleer wat die daadwerkelijk vastlegt. De datum van een sessie is geen precieze patroonpositie, en de app kent geen wijzigingen die je niet hebt ingevoerd. Lokaal opslaan, een kopie exporteren, een back-up maken en herstellen, apparaten synchroniseren en een project delen zijn verschillende functies.
 
-KnitTools wordt gebouwd om projecten, gekoppeld garen, toerentellerstanden, sessiegeschiedenis en patroonnotities op één plek te houden. Het doel is simpel: een project openen en terugkeren naar de werkstand zonder alles uit je geheugen te reconstrueren.
+KnitTools wordt ontwikkeld voor Android met projecttellers, sessiegeschiedenis en projectnotities. Je voert aantallen en notities zelf in. Nieuwe projectnotities maken vereist Pro-toegang; bestaande notities blijven daarna bruikbaar. Garengegevens kun je handmatig in notities schrijven. Dat betekent geen apart veld voor elk gegeven en geen automatische aftrek van garenverbruik.
 
 ## Kiezen waaraan je werkt
 
-Meerdere WIP's worden stressvol wanneer je je schuldig voelt over wat je niet aanraakt. Een paar aanpakken helpen:
+Kies een aanpak die bij je dagelijks leven past. Dit zijn mogelijkheden, geen productiviteitsregels.
 
-**Eén hoofdproject, één meeneemproject, één gedachteloos project.** Drie actieve categorieën houden het aantal beheersbaar en geven toch opties. Het hoofdproject krijgt geconcentreerde tijd. Het meeneemproject reist mee. Het gedachteloze project vult momenten waarop je wilt breien maar niet wilt nadenken. Alles daarbuiten staat in de wachtrij, niet op de actieve lijst.
+**Eén hoofdproject, één voor onderweg, één eenvoudig project.** Je kunt een ingewikkeld werk, een meeneemproject en een makkelijk werk klaarhouden. Drie categorieën zijn een suggestie, geen maximum.
 
-**Rouleren met vaste momenten.** Koppel bepaalde sessies aan bepaalde projecten. Doordeweekse avonden zijn voor de trui, weekenden voor de omslagdoek. Dat voorkomt dat je steeds het makkelijkste project pakt terwijl het ingewikkelde blijft liggen.
+**Rouleren met vaste momenten.** Probeer bijvoorbeeld doordeweekse avonden voor de trui en weekenden voor de omslagdoek. Pas de planning aan wanneer die niet meer helpt.
 
-**Voortgangsmijlpalen.** "De pas afmaken voordat ik iets nieuws begin" motiveert meer dan "ik zou aan de trui moeten werken". Concrete doelen geven iets om naartoe te werken. Tijd per project bijhouden kan ook patronen zichtbaar maken. Is iets drie weken niet aangeraakt, dan is het misschien tijd om te kiezen: doorgaan, bewust pauzeren of het garen terugwinnen.
+**Tussendoelen.** ”De pas afmaken voordat ik iets nieuws begin” is een mogelijk doel. Een werk dat vaak blijft liggen, kun je voortzetten, bewust pauzeren of uithalen.
 
-**Koppel het project aan het moment.** Kabels en ajourschema's vragen aandacht, dus die passen bij een rustige avond thuis. Eenvoudige sokkentoeren werken in de trein, in een wachtkamer of tijdens een telefoongesprek. Als het project past bij de tijd en het geluidsniveau die je echt hebt, maak je voortgang in plaats van de verkeerde tas te pakken en vijf minuten later weer weg te leggen.
+**Koppel het project aan het moment.** Misschien bewaar je het kabelschema voor een rustige avond en brei je eenvoudige sokkentoeren onderweg. Kies naar de aandacht die je op dat moment beschikbaar hebt.
 
-## Wanneer een WIP een UFO wordt
+## Een project pauzeren of beëindigen
 
-Een WIP is een project waar je naar wilt terugkeren. Een UFO is een project dat je hebt opgegeven, maar nog niet aan jezelf hebt toegegeven.
+Een lange pauze betekent op zichzelf niet dat je het project hebt opgegeven. Werk eerst de notities bij, zet de steken veilig weg en label het gereserveerde garen. Vergelijk bij het hervatten patroon, maat, materialen en stoppunt met het breiwerk zelf.
 
-Signalen: je weet niet meer welke maat je maakte. Het patroon is kwijt of je vindt de juiste pagina niet. Het garen is deels voor iets anders gebruikt. Het seizoen waarvoor het bedoeld was is al twee keer voorbij.
-
-Projecten opgeven mag. Haal ze uit, win garen en naalden terug, verwijder ze uit je actieve lijst. Vijf projecten met een duidelijk doel zijn beter beheersbaar dan vijf projecten plus drie schuldprojecten achterin de kast.
+Je mag ook besluiten een project niet af te maken. Haal je het uit, controleer dan de toestand en hoeveelheid van het teruggewonnen garen voordat je het ergens anders voor reserveert. Werk de projectlijst en garenadministratie bij. Bij een voltooid werk kun je de uiteindelijke aanpassingen en het restgaren noteren voordat je de notities opbergt.
 
 ## Garen volgen over projecten heen
 
-Als je meerdere projecten tegelijk hebt, raakt de garenlogistiek snel in de knoop. Welke projecten gebruiken dezelfde dikte? Is er genoeg over van die bol om de tweede sok af te maken? Had je de contrastkleur voor de pas al gekocht?
+Noteer merk en productnaam, vezelsamenstelling, kleurnaam of kleurnummer, verfbad, looplengte per bol en bolgewicht. Dit zijn verschillende gegevens: hetzelfde kleurnummer betekent niet hetzelfde verfbad, en dezelfde garendikte betekent niet hetzelfde garen.
 
-Garen per project bijhouden, hoeveel je had bij de start en hoeveel er over is, voorkomt de twee vervelendste uitkomsten: midden in een project zonder garen zitten terwijl het verfbad uit de collectie is, en dubbele aankopen doen omdat je vergeten bent wat je al had.
+Houd gekochte hoeveelheid, voor een project gereserveerde hoeveelheid en daadwerkelijk resterend garen apart bij. Gereserveerd garen is onderdeel van je voorraad, geen extra hoeveelheid om nogmaals op te tellen. Werk de reservering bij wanneer garen naar een ander project gaat. Dit kan helpen bij het plannen van aankopen, maar garandeert niet dat je genoeg garen hebt of dubbele aankopen vermijdt.
 
-Een goed trucje voor actieve projecten: weeg het resterende garen om de paar sessies en noteer het aantal gram met datum. Als de eerste mouw 47 g gebruikte, weet je ongeveer wat de tweede mouw nodig heeft, plus een kleine marge. Zo wordt "ik denk dat ik genoeg heb" een concretere inschatting voor je planning.
-
-Noteer gareninformatie terwijl het label er nog is: garendikte, vezelsamenstelling, wasvoorschrift en verfbad. KnitTools wordt gebouwd om zulke notities bij het juiste project te bewaren, in plaats van als los briefje onderin de projecttas.
+Je kunt een aangebroken bol zonder label of opbergbakje wegen en grammen en datum noteren. Stel bijvoorbeeld dat de eerste mouw 47 g gebruikte. Dat is een uitgangspunt voor een overeenkomstige tweede mouw met hetzelfde garen en dezelfde stekenverhouding. Houd rekening met wijzigingen, afwerking en meetonzekerheid; 47 g over is geen garantie dat het genoeg is.
 
 ## De minimale versie
 
-Minimaal: één tas per project. Een notitie in elke tas, of een digitale tracker, met het huidige toernummer en eventuele aanpassingen. Ergens een lijst, telefoon, notitieboek of whiteboard, met alle actieve projecten zodat je het volledige beeld ziet.
-
-Dat is genoeg om elk project zonder verwarring op te pakken en jezelf te betrappen voordat het aantal WIP's uit de hand loopt.
+Houd de materialen van elk project herkenbaar en noteer patroon, maat, laatste voltooide toer, herhalingspositie, wijzigingen en volgende handeling. Bewaar een lijst van actieve en gepauzeerde werken. Voeg naald-, stekenverhoudings- en garengegevens toe die je anders opnieuw zou moeten achterhalen.
 
 ## FAQ
 
 **Hoeveel projecten is te veel?**
-Geen universeel getal. Als je je overweldigd voelt in plaats van blij met de opties, heb je er te veel. Een bruikbare actieve lijst is klein genoeg dat elk project nog echte aandacht krijgt.
+Er is geen universeel aantal. Als de lijst lastig te beheren is, kun je werken pauzeren of je notities vereenvoudigen. Niet elk project hoeft evenveel tijd te krijgen.
 
 **Moet ik één project afmaken voordat ik aan een ander begin?**
-Strikte monogamie werkt voor sommige breiers. De meeste merken dat meerdere projecten een echte functie hebben. Verschillende situaties en energieniveaus vragen om verschillend breiwerk. De sleutel is een systeem om ze te beheren, niet alle variatie schrappen.
+Beide manieren kunnen passen. Eén werk houdt de actieve lijst kort; meerdere geven verschillende soorten breiwerk om uit te kiezen. Kies wat je praktisch vindt.
 
 **Hoe pak ik een project op dat ik maanden niet heb aangeraakt?**
-Bepaal waar je bent: tel toeren, lees de stof, check notities. Heb je een digitale tracker, dan vertellen toernummer en sessiegeschiedenis wanneer je stopte en waar. Brei een paar toeren langzaam om je spanning terug te vinden en het steekpatroon weer in je handen te krijgen voordat je versnelt. Is het patroon complex, lees dan het relevante deel opnieuw in plaats van vanaf pagina één te beginnen.
+Controleer patroonversie, maat, aanpassingen, naalden en garen. Vergelijk notities en tellerstand met het breiwerk. Zoek de laatste voltooide toer en eventueel gedeeltelijk gebreid werk, en bevestig de volgende instructie en vormgeving. Sessiegeschiedenis alleen geeft die plek niet aan. Zoek bij twijfel een bekend punt voordat je verdergaat en vergelijk de stekenverhouding met je genoteerde maten.

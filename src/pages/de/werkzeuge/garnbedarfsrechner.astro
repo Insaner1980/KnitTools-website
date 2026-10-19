@@ -3,39 +3,24 @@ import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import YarnEstimator from "../../../components/YarnEstimator.astro";
 import { routes } from "../../../i18n/routes";
 
+import { yarnReferenceCopy } from "../../../i18n/yarnReference";
+const referenceCopy = yarnReferenceCopy.de;
+
 const faqs = [
-  {
-    q: "Woher weiß ich, wie viel Garn meine Anleitung braucht?",
-    a: "Die meisten Anleitungen nennen den gesamten Garnbedarf im Materialteil, oft in Metern oder Yards. Wenn du ohne Anleitung planst, vergleiche veröffentlichte Richtwerte nach Projektart, Größe und Garnstärke und rechne dann einen Sicherheitsspielraum ein.",
-  },
-  {
-    q: "Sollte ich extra Garn kaufen?",
-    a: "Meistens ja. Ein zusätzliches Knäuel spart Ärger, besonders bei Garn mit Farbpartie. Genau dieselbe Partie kann später schwer oder unmöglich zu finden sein.",
-  },
-  {
-    q: "Was ist, wenn die Anleitung Yards oder Gramm angibt?",
-    a: "Der Rechner zeigt Meter und Yards. Wenn du nur Gramm hast, prüfe auf der Banderole die Meter oder Yards pro Knäuel. Gewicht allein reicht nicht, weil zwei 50-g-Knäuel sehr unterschiedliche Lauflängen haben können.",
-  },
-  {
-    q: "Beeinflusst die Garnstärke den Garnbedarf?",
-    a: "Ja. Dünneres Garn braucht für dieselbe Fläche mehr Meter als dickeres Garn. Zopfmuster, mehrfarbiges Stricken und Strukturmuster verbrauchen außerdem oft mehr Garn als glatt rechts.",
-  },
-  {
-    q: "Kann ich das empfohlene Garn ersetzen?",
-    a: "Ja, wenn die Maschenprobe passt und die Strickfläche sich richtig anfühlt. Stricke eine Maschenprobe mit dem Ersatzgarn und nutze den Rechner als Planungscheck für die neue Garnstärke.",
-  },
+  { q: referenceCopy.methodTitle, a: referenceCopy.method },
+  { q: referenceCopy.adviceTitle, a: referenceCopy.advice },
 ];
 ---
 
 <LocalizedToolPage
   title="Garnbedarfsrechner: Wie viel Garn brauche ich?"
-  description="Schätze, wie viel Garn dein Strickprojekt braucht. Wähle Projektart, Größe und Garnstärke für eine Angabe in Metern und Yards."
+  description={referenceCopy.description}
   canonicalPath={routes.tool.yarnEstimator.de}
   lang="de"
   alternates={routes.tool.yarnEstimator}
-  intro="Wähle Projektart, Größe und Garnstärke. Der Rechner schätzt den Garnbedarf in Metern und Yards."
+  intro={referenceCopy.intro}
   schemaName="Garnbedarfsrechner"
-  schemaDescription="Schätzt den Garnbedarf für Strickprojekte nach Projektart, Größe und Garnstärke."
+  schemaDescription={referenceCopy.description}
   faqs={faqs}
   variant="rust"
 >
@@ -44,33 +29,8 @@ const faqs = [
   </div>
 
   <div slot="content">
-    <h2>So nutzt du den Garnbedarfsrechner</h2>
-    <p>
-      Wähle zuerst die Projektart, dann die Größe und zuletzt die Garnstärke.
-      Der Rechner gibt dir eine ungefähre Garnmenge in Metern und Yards. Nutze
-      das Ergebnis als Planungsgrundlage und rechne vor dem Kauf einen
-      Sicherheitsspielraum ein. Mitten im Projekt keine passende Farbpartie mehr
-      zu finden, ist ein vermeidbares Risiko.
-    </p>
-
-    <h2>Wie viel Garn brauche ich?</h2>
-    <p>
-      Der Garnbedarf hängt vor allem von drei Dingen ab: was du strickst, in
-      welcher Größe und mit welcher Garnstärke. Ein Pullover für Erwachsene aus
-      Fingering-Garn kann ungefähr 1200-1500 m brauchen. Eine Mütze aus dickem
-      Garn kann mit etwa 100 m auskommen. Wenn deine Anleitung einen eigenen
-      Garnbedarf nennt, nutze zuerst diese Angabe. Der Rechner ist am
-      nützlichsten, wenn du ohne Anleitung planst oder prüfen willst, ob eine
-      vorhandene Garnmenge realistisch ist.
-    </p>
-
-    <h2>Lies die Meter auf der Banderole</h2>
-    <p>
-      Die Banderole nennt meistens Gewicht und Lauflänge pro Knäuel. Für den
-      Einkauf zählt vor allem die Lauflänge. Wenn du eine Gesamtschätzung hast,
-      teilst du sie durch die Meter oder Yards pro Knäuel auf der Banderole. Ist
-      die Banderole weg, wiege dein Garn auf einer Küchenwaage und suche beim
-      Hersteller nach dem Verhältnis von Metern pro Gramm.
+    <h2>{referenceCopy.methodTitle}</h2><p>{referenceCopy.method}</p><p>
+      {referenceCopy.limitations}
     </p>
   </div>
 </LocalizedToolPage>

@@ -7,13 +7,14 @@ const needleYarnWeightLabels = [
   "Lace",
   "Lace",
   "Lace",
-  "Lace / Fingering / Sockengarn",
-  "Fingering / Sockengarn",
-  "Fingering / Sockengarn",
-  "Fingering / Sockengarn",
-  "Fingering / Sockengarn",
-  "Fingering / Sockengarn",
-  "Fingering / Sockengarn / Sport",
+  "Lace",
+  "Lace / Fingering",
+  "Fingering",
+  "Fingering",
+  "Fingering",
+  "Fingering",
+  "Fingering",
+  "Fingering / Sport",
   "Sport",
   "Sport",
   "Sport",
@@ -53,11 +54,11 @@ const faqs = [
   },
   {
     q: "Sind Nadelstärken bei allen Marken gleich?",
-    a: "Eigentlich sollten sie gleich sein. In der Praxis gibt es kleine Abweichungen, besonders bei alten Nadeln oder sehr günstigen Sets. Wenn die Maschenprobe dauerhaft nicht passt, miss die Nadel nach.",
+    a: "Nicht immer. Dieselbe US-Nummer kann je nach Marke oder Tabelle unterschiedliche Millimeterwerte bezeichnen, besonders US 17 und 19. Prüfe die Millimeterangabe oder miss den Schaft mit einem Nadelmaß und stricke eine Maschenprobe.",
   },
   {
     q: "Gilt die Nadelstärke auch für Rundstricknadeln?",
-    a: "Ja. Die Nadelstärke beschreibt den Durchmesser der Spitze, nicht die Kabellänge. Eine Rundstricknadel mit 4,5 mm hat dieselbe Stärke wie eine gerade Nadel mit 4,5 mm.",
+    a: "Ja. Die Nadelstärke beschreibt den Durchmesser des gleichmäßig dicken Schafts hinter der verjüngten Spitze, nicht die Nadel- oder Seillänge. Eine Rundstricknadel mit 4,5 mm hat dieselbe nominelle Stärke wie eine gerade Nadel mit 4,5 mm.",
   },
   {
     q: "Brauche ich jede Nadelstärke?",
@@ -81,11 +82,25 @@ const faqs = [
 >
   <div slot="tool">
     <div class="table-wrapper">
+      <p>
+        Die Tabelle gilt für Stricknadeln, nicht für Häkelnadeln. UK/Kanada
+        bezeichnet das alte Nummernsystem. US-Zwischengrößen folgen KnitPro,
+        japanische Nummern 0–15 folgen Clover (0 = 2,1 mm). Ein Strich bedeutet,
+        dass hier keine entsprechende Nummer angegeben ist; dickere japanische
+        Nadeln werden in Millimetern beschriftet.
+      </p>
+      <p>
+        US-Angaben variieren: KnitPro fasst 12–12,75 mm als US 17 und 15–16 mm
+        als US 19 zusammen; ChiaoGoo verwendet dafür 12,75 mm bzw. 15 mm.
+        Entscheidend ist der Durchmesser in Millimetern. Die Garnkategorien sind
+        CYC-Richtwerte, keine Garantie für Maschenprobe oder Passform. Für
+        offene Lochmuster werden oft dickere Nadeln verwendet.
+      </p>
       <input
         type="text"
         id="needle-search"
         class="search-input"
-        aria-label="Nadelgrößen suchen"
+        aria-label="Nadelstärken suchen"
         placeholder='Größe suchen, z. B. "4,5", "US 7" oder "UK 7"'
         autocomplete="off"
       />
@@ -166,8 +181,8 @@ const faqs = [
     <p>
       <strong>Die UK-Umkehrung.</strong> US-Größen werden größer, wenn Nadeln dicker
       werden. Alte UK-Größen werden kleiner. US 6 ist 4,0 mm. UK 6 ist 5,0 mm. Wenn
-      du das vertauschst, ist deine Maschenprobe schon vor der ersten Reihe um einen
-      ganzen Millimeter verschoben.
+      du das vertauschst, unterscheidet sich der Nadeldurchmesser um einen ganzen
+      Millimeter. Das kann die Maschenprobe verändern.
     </p>
     <p>
       <strong>Fehlende Eins-zu-eins-Treffer.</strong> Nicht jede metrische Größe hat
@@ -188,7 +203,7 @@ const faqs = [
       hat.
     </p>
     <p>
-      <strong>Alte Anleitunghefte nennen nicht immer das System.</strong> Eine Anleitung
+      <strong>Alte Anleitungshefte nennen nicht immer das System.</strong> Eine Anleitung
       aus den 1970ern, die "size 6 needles" verlangt, kann je nach Herkunft US 6 (4,0
       mm) oder UK 6 (5,0 mm) meinen. Prüfe den Verlag und dann die Tabelle.
     </p>
@@ -200,9 +215,9 @@ const faqs = [
     </p>
     <p>
       Das aktuelle Craft-Yarn-Council-System ordnet Lace meist 1,5-2,25 mm zu,
-      Fingering / Sockengarn 2,25-3,25 mm, Sport 3,25-3,75 mm, DK / Light
-      3,75-4,5 mm, Worsted / Aran / Medium 4,5-5,5 mm, Bulky 5,5-8 mm, Super
-      Bulky 8-12,75 mm und Jumbo ab 12,75 mm.
+      Fingering 2,25-3,25 mm, Sport 3,25-3,75 mm, DK / Light 3,75-4,5 mm,
+      Worsted / Aran / Medium 4,5-5,5 mm, Bulky 5,5-8 mm, Super Bulky 8-12,75 mm
+      und Jumbo ab 12,75 mm.
     </p>
     <p>
       Diese Bereiche überlappen absichtlich. DK kann auf kleinerer Nadel eine

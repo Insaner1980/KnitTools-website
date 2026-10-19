@@ -20,96 +20,95 @@ Een proeflapje is een testvierkant gebreid met je projectgaren en steekpatroon. 
 
 ## Wat je nodig hebt
 
-Je projectgaren, de naalden die het patroon aanbeveelt, of het garenlabel als je geen patroon volgt, een liniaal of stekenmeter en een paar spelden. Een klein notitieboekje of de notitie-app op je telefoon helpt ook. Schrijf voor elk proeflapje naalddikte, aantal steken en aantal toeren op. Na een nacht drogen proberen te onthouden welk proeflapje welk was, is een slechte strategie.
+Je projectgaren, de naalden die het patroon aanbeveelt, of de aanbevolen naalden op het garenlabel als je geen patroon volgt, een liniaal of stekenmeter en een paar spelden. Een klein notitieboekje of de notitie-app op je telefoon helpt ook. Schrijf voor elk proeflapje naalddikte, aantal steken en aantal toeren op. Na een nacht drogen proberen te onthouden welk proeflapje welk was, is een slechte strategie.
 
-Als het patroon door iemand anders is geschreven, controleer dan ook of de stekenverhouding in tricotsteek of in het steekpatroon wordt gegeven. Dat verandert alles aan wat je hierna breit.
+Controleer voor welk steekpatroon de stekenverhouding geldt en of het project heen en weer of in het rond wordt gebreid. Gebruik hetzelfde naaldtype en dezelfde werkwijze voor het proeflapje. Een rondbreinaald maakt een heen-en-weer gebreid lapje op zichzelf niet representatief voor rondbreiwerk. De snelle methode hieronder bootst tricotsteek in het rond na.
 
 ## Stap 1: zet op
 
-Zet genoeg steken op voor ongeveer 15 cm breiwerk, of volg de instructies voor de proeflapgrootte in het patroon. Zo blijft er meestal ruimte voor een centraal meetgebied van 10 cm, weg van vervormde zijrandsteken. Geeft het patroon 20 steken per 10 cm, dan geven 30 steken je 20 steken voor het meetgebied en ongeveer 5 aan elke kant.
+Plan ongeveer 15 cm van het steekpatroon dat je wilt meten, of volg de proeflapgrootte van het patroon. Het doel is een centraal meetgebied van 10 cm met extra breiwerk aan alle kanten, binnen eventuele randen. Dit zijn planningsmaten, geen garantie: je werkelijke stekenverhouding is nog onbekend.
 
-Snelle rekensom: vermenigvuldig de stekenverhouding van het patroon per 10 cm met 1,5 om het aantal steken voor ongeveer 15 cm breiwerk te schatten. Bijvoorbeeld: 20 × 1,5 = 30 steken. Is de uitkomst geen heel getal, rond dan naar boven af. Brei je een proeflapje in een patroon, verhoog het aantal zo nodig tot een volledig rapport past en tel daarna kant- of randsteken op die buiten het centrale meetgebied komen.
+Snelle rekensom: 20 steken per 10 cm × 1,5 = 30 steken voor ongeveer 15 cm bij de stekenverhouding van het patroon. Rond decimalen naar boven af op hele steken en pas het aantal aan volledige rapporten en eventuele extra steken uit de steekinstructie aan. Tel een optionele rand apart op: 30 steken tricotsteek plus 3 ribbelsteken aan elke kant betekent 36 steken opzetten. Het hele lapje is breder dan het tricotdeel; de randen tellen niet mee bij de meting daarvan.
 
-De opzetmethode maakt voor het proeflapje zelf minder uit dan je misschien denkt, maar gebruik dezelfde methode als voor het project als dat kan. Long-tail is een gebruikelijk startpunt voor veel plat breiwerk. Als het project met boordsteek begint, hoeft het proeflapje dat niet per se te doen, maar weten of je opzetrand trekt is wel nuttig.
+Zet op zonder dat de rand het breiwerk samentrekt, liefst met de methode van het project als dat praktisch is. De boordsteek van het project hoeft niet in het lapje, tenzij de instructie voor de stekenverhouding daarom vraagt.
 
 ## Stap 2: brei het proeflapje
 
 Brei in het steekpatroon dat in het gedeelte over stekenverhouding staat. "In tricotsteek" betekent tricotsteek. "In patroonsteek" betekent het echte steekpatroon van het project. Dit onderscheid doet ertoe omdat verschillende patronen verschillende stekenverhoudingen geven. Een kabel trekt de stof samen. Ajour opent na blocken. Boordsteek comprimeert in de breedte. Een proeflapje in tricotsteek meten en aannemen dat het iets zegt over een pas met kabels is een gewone route naar een trui die niet past.
 
-Brei tot het lapje ongeveer 15 cm hoog is, of tot er genoeg onvervormd breiwerk is om middenin 10 cm te meten, weg van de opzet- en afkantrand. Ongeveer 15 cm is een sterke aanbeveling, geen universeel minimum: een kleiner proeflapje kan bruikbaar zijn als het een voldoende groot, representatief en onvervormd meetgebied geeft zonder randsteken mee te tellen om aan 10 cm te komen.
+Brei genoeg toeren om in het midden 10 cm hoogte te kunnen meten zonder invloed van opzet, afkantrand of andere randen. Ongeveer 15 cm van het te meten steekpatroon is een praktisch uitgangspunt, geen universeel minimum. Maak waar nodig ook rapporten in de hoogte af. Brei een groter lapje als het afgewerkte meetgebied te klein is.
 
-Sommige breiers voegen een rand in ribbelsteek toe, bijvoorbeeld 3 of 4 steken aan elke zijkant en 3 of 4 toeren boven en onder, zodat het proeflapje niet opkrult. Tricotsteek krult. Een plat proeflapje is makkelijker te meten. De ribbelrand verandert de stekenverhouding van het tricotdeel in het midden niet. Vaak de kleine extra moeite waard.
+Een ribbelrand kan helpen tegen krullende tricotsteek, maar door het verschil in stekenverhouding kan hij het breiwerk ook vervormen. Voor een plat lapje met 3 randsteken aan elke kant: brei eerst enkele toeren ribbelsteek. Brei daarna de eerste en laatste 3 steken van elke toer recht en het midden in tricotsteek, recht aan de goede kant en averecht aan de verkeerde kant. Eindig met enkele toeren ribbelsteek voordat je afkant. Houd randen en vervormde delen buiten het meetgebied. Maak een groter lapje of laat de rand weg als het midden vervormt.
 
 Kant losjes af. Een strakke afkantrand trekt de bovenrand naar binnen en vervormt de toeren er net onder, precies het gebied dat je niet wilt meten.
 
 ## Stap 3: was en block
 
-Deze stap wordt het vaakst overgeslagen en is het belangrijkst.
+Meet en noteer eerst de stekenverhouding van het onbehandelde lapje volgens stap 4, vóór wassen of blocken. Bewaar die waarde voor vergelijking met ongewassen werk of een patroon dat uitdrukkelijk een ongeblockte stekenverhouding vraagt.
 
-Laat 15 tot 20 minuten weken in lauwwarm water, tenzij het garenlabel iets anders zegt. Rol het proeflapje in een handdoek om extra water te verwijderen, maar wring niet. Leg plat neer en laat volledig drogen. Als het garen beter gestoomd dan geweekt kan worden, behandel het proeflapje dan zo. De [blockgids](/nl/artikelen/breiwerk-blocken-nat-stoom-spray/) behandelt vezelspecifieke methoden in detail.
+Behandel het lapje vervolgens zoals het afgewerkte project, binnen de wasvoorschriften van het garen. Wordt het project met de hand gewassen en plat gedroogd, doe dat dan ook met het lapje: druk water voorzichtig in een handdoek uit zonder te wringen en droog plat. Weektijd, watertemperatuur en eventueel stomen hangen af van het garen en de geplande verzorging; 15–20 minuten is geen algemene regel. De [blockgids](/nl/artikelen/breiwerk-blocken-nat-stoom-spray/) beschrijft verschillende methoden.
 
-Garen verandert wanneer het nat wordt. Wol kan opbloeien en de steken vullen. Katoen kan ontspannen. Linnen wordt zachter. Superwash-wol en alpaca kunnen groeien of meer valling krijgen dan verwacht. Noteer daarom de stekenverhouding vóór deze behandeling en meet opnieuw nadat het proeflapje volledig is opgedroogd. Bewaar beide waarden: de eerste is bruikbaar als het patroon een ongeblockte stekenverhouding vraagt en om te vergelijken met breiwerk in uitvoering; de tweede beschrijft hoe de afgewerkte stof zich gedraagt.
-
-Block het proeflapje op dezelfde manier als je het project gaat blocken. Als het afgewerkte stuk geweekt en plat vastgespeld wordt, doe dat met het proeflapje. Als het gestoomd wordt, stoom het proeflapje. Als je een wollen trui met de hand gaat wassen en plat laat drogen, doe precies dat met je proeflapje. Agressief spelden waardoor je het proeflapje uitrekt, geeft een getal dat niet overeenkomt met hoe de stof zich later op een lichaam gedraagt.
+Laat het lapje volledig drogen, verwijder eventuele spelden en laat het breiwerk ontspannen voordat je meet, tenzij het patroon een andere toestand voorschrijft. Rek of druk het niet naar de gewenste stekenverhouding. Houd de waarden vóór en na behandeling apart: de verandering geldt voor dit lapje en garandeert niet het gedrag van alle garens van dezelfde vezel of van het gedragen kledingstuk. Vergelijk in de voorgeschreven toestand; ontbreekt die, gebruik dan het afgewerkte lapje.
 
 ## Stap 4: meet
 
-Leg het droge proeflapje op een vlakke, harde ondergrond. Trek er niet aan.
+Leg het droge lapje op een vlakke, stevige ondergrond. Meet een ontspannen stekenverhouding zonder uitrekken. Volg bij boordsteek de instructie voor ontspannen of uitgerekt meten; vraag de ontwerper om uitleg als die onduidelijk is.
 
-Leg je liniaal horizontaal over het midden, minstens een paar centimeter van opzetrand en afkantrand. Tel steken over 10 cm om je stekenverhouding te krijgen. Halve steken tellen mee. Rond ze niet weg.
+Leg de nulmarkering van de liniaal bij een steekgrens in het onvervormde midden, evenwijdig aan een toer. Houd de hele meetafstand weg van alle randen. Tel steken over 10 cm, ook delen van steken. Gebruik de maateenheid van het patroon: de gebruikelijke aanduiding 10 cm / 4 inch is geen exacte omrekening, want 4 inch is 10,16 cm.
 
-Als het patroon 20 steken per 10 cm verwacht en je proeflapje 18 geeft, meten de 200 steken voor het lijf uit het patroon ongeveer 111 cm in plaats van 100 cm.
+Bijvoorbeeld: 200 steken rondom het lijf in hetzelfde steekpatroon geven bij 20 steken per 10 cm een omtrek van 200 ÷ 20 × 10 = 100 cm. Bij 18 steken wordt dat 200 ÷ 18 × 10 ≈ 111,1 cm, vóór eventuele naadtoeslag.
 
-Meet daarna verticaal: tel toeren over 10 cm in het midden, weg van de zijkanten.
+Draai de liniaal verticaal langs een kolom steken en tel toeren over dezelfde afstand, ook delen ervan. In tricotsteek is een hele V één steek; V's boven elkaar geven de toeren aan. Tel in boordsteek ook de verborgen averechte steken. Gebruik bij ajour en kabels het telpatroon om steken te herkennen of meet volledige rapporten; een gaatje of kruising is niet één steek. De gelinkte meetgids legt deze methoden verder uit.
 
-Schrijf beide getallen op. Als je grondig wilt zijn, meet dan op twee verschillende plekken in het proeflapje en neem het gemiddelde. Handgebreid werk is niet volmaakt gelijkmatig, en een enkele meting kan misleiden als je net op een strakker of losser stukje meet.
+Noteer beide waarden en de toestand. Meet verschillende plekken in het midden. Neem alleen het gemiddelde van kleine verschillen tussen vergelijkbare metingen; onderzoek grote verschillen in plaats van ze naar het doelgetal te middelen.
 
 ## Stap 5: vergelijk
 
-Vergelijk je aantallen met de stekenverhouding van het patroon.
+Vergelijk steken en toeren met het patroon over dezelfde afstand, in hetzelfde steekpatroon en dezelfde toestand.
 
-**Klopt:** zet het project op.
+**Klopt:** Controleer ook of het breiwerk geschikt is voor het project voordat je opzet.
 
-**Te veel steken per 10 cm:** je steken zijn kleiner dan die van het patroon. Neem een naalddikte groter. Brei opnieuw een proeflapje.
+**Te veel steken per 10 cm:** De steken zijn smaller. Probeer dikkere naalden en brei een nieuw proeflapje.
 
-**Te weinig steken:** je steken zijn groter. Neem een naalddikte kleiner. Brei opnieuw een proeflapje.
+**Te weinig steken:** De steken zijn breder. Probeer dunnere naalden en brei een nieuw proeflapje.
 
-Herhaal tot het klopt. Geef prioriteit aan stekenverhouding boven toerenverhouding. De meeste patronen kunnen afwijkingen in toerenverhouding opvangen omdat lengte meestal gemeten wordt in plaats van geteld.
-
-Hoe groot moet de naaldsprong zijn? Begin met een maat als de afwijking klein is. Als je ongeveer 2 steken per 10 cm afwijkt, kan twee maten een betere eerste poging zijn. Voor elk miniem tussenstapje een nieuw proeflapje breien wordt snel vermoeiend wanneer de afwijking duidelijk is.
+Een nabijgelegen naalddikte is een experiment, geen vaste correctie per afwijkende steek. Controleer beide waarden na elke verandering. De toerenverhouding beïnvloedt vormgeving en rapporten; tot een bepaalde lengte breien is alleen genoeg waar het patroon dat toestaat. Lees [als je stekenverhouding niet klopt](/nl/artikelen/als-je-stekenverhouding-niet-klopt/) voor de volgende stap.
 
 ## Hoe lang duurt dit?
 
-Reken op ongeveer 45 minuten breien met middel dik garen, plus droogtijd. Fingering duurt langer. Kleinere steken, meer steken voor hetzelfde oppervlak. Een proeflapje in sokkengaren kan een avond kosten. Lace duurt nog langer.
+Reserveer tijd voor breien, afwerken, volledig drogen en eventuele nieuwe proeflapjes. De tijd hangt af van garen, steekpatroon, grootte van het lapje en je tempo. Noch 45 minuten breien, noch een nacht drogen is een betrouwbare regel.
 
 ## Wanneer kun je overslaan?
 
-Eerlijk? Bijna nooit, als maat ertoe doet. Maar praktisch: sjaals, dekens, vaatdoekjes, dingen waarbij 1 cm verschil niet uitmaakt. Is het project een passend kledingstuk, een muts die moet passen of sokken, brei een proeflapje. Dat uur nu bespaart later uren opnieuw breien.
+Als je bij een eenvoudige sjaal of vaatdoek een andere maat accepteert, kun je besluiten zonder apart proeflapje te beginnen. Daarmee accepteer je ook onzekerheid over het breiwerk en het garenverbruik. Maak eerst een proeflapje voor een aansluitend kledingstuk, een muts of sokken.
 
-Garen vervangen is de andere situatie waarin een proeflapje niet optioneel is. Zelfs wanneer het vervangende garen dezelfde garendikte op de banderol heeft als het aanbevolen garen in het patroon, kan de stekenverhouding verschuiven. Twee DK-garens van verschillende producenten, het ene wol en het andere een katoenmix, kunnen verschillende naalddiktes nodig hebben om dezelfde stof te geven.
+Test ook vervangend garen. Dezelfde garendiktecategorie garandeert niet dezelfde stekenverhouding of hetzelfde breiwerk; beoordeel het afgewerkte lapje, niet alleen de banderol.
 
 ## Tips voor betere proeflapjes
 
-Brei je proeflapje op hetzelfde type naald dat je voor het project gebruikt. Metaal en bamboe kunnen verschillende stekenverhoudingen geven. Als je proeflapje op rechte bamboenaalden breit maar je project op metalen rondbreinaalden, kan je verhouding verschuiven. Zelfde logica: brei je proeflapje in het rond als je project in het rond is. Je rechte en averechte spanning verschillen waarschijnlijk, en een plat proeflapje komt dan niet altijd overeen met rondbreiwerk.
+Gebruik dezelfde naalden en werkwijze als voor het project. Voor rondbreiwerk kun je een buis in het projectpatroon breien, met voldoende omtrek om weg van naaldwisselingen en vouwen te meten. Tricotsteek heen en weer wisselt rechte en averechte toeren af; dat hoeft niet dezelfde stekenverhouding te geven als uitsluitend rechte toeren in het rond.
 
-De snelle versie van een rond proeflapje: zet op met een rondbreinaald, brei een toer, schuif de steken terug naar het andere uiteinde van de naald zonder te keren, laat de draad losjes over de achterkant lopen en brei de volgende toer weer vanaf de goede kant. Je bootst rondbreien na zonder een tube te maken. De draden aan de achterkant knip je door voordat je meet. De voorkant lijkt op tricotsteek in het rond.
+Snelle methode voor **tricotsteek in het rond**:
 
-Bewaar je proeflapjes. Hang er een label aan: garennaam, naalddikte, stekenverhouding. Handige referentie midden in een project. Ook handig maanden later, wanneer je probeert te onthouden of dat restje DK-garen 22 steken of 24 steken gaf.
+1. Zet op een rondbreinaald genoeg steken op voor een ruim proeflapje en brei één toer recht.
+2. Houd de goede kant naar je toe. Keer niet, maar schuif de steken langs de kabel naar de andere punt om ze opnieuw te breien. Als je zoals gebruikelijk van rechts naar links breit, zit de werkdraad nu aan de linkerrand.
+3. Breng het garen achter het werk van links naar rechts in een lange, losse lus en brei de volgende toer recht. Laat genoeg garen om het lapje tijdens afwerken en meten op volle breedte te laten liggen zonder dat de lus de randen samentrekt.
+4. Herhaal het schuiven, de losse draad achterlangs en de rechte toer tot het midden hoog genoeg is. Kant af zonder de rand samen te trekken. Noteer de onbehandelde stekenverhouding, werk af en droog zoals hierboven. Meet weg van de losse zijsteken. De draden hoeven niet doorgeknipt te worden als het lapje zonder spanning plat ligt.
 
-Gebruik proeflapjesgaren niet meteen opnieuw. Het is gebreid, gewassen en uitgerekt, dus het kan zich anders gedragen dan vers garen. Als je het garen nodig hebt, laat het eerst drogen en ontspannen, en verwacht dat het er iets anders uitziet dan onaangeraakt garen.
+Alleen rechte toeren vervangen geen instructies voor boordsteek, ribbelsteek, kabels of ajour: volg daarvoor de werkelijke opeenvolging van toeren in het rond. Brei een buis als de snelle methode je werkwijze niet nabootst of geen onvervormd midden oplevert.
 
-Als je stekenverhouding halverwege een project verandert, controleer dan eerst de voor de hand liggende variabelen: een nieuwe bol, een andere naald, een andere plek om te breien of een lange vermoeide breisessie. Spanning volgt houding en stemming meer dan breiers graag toegeven.
+Label elk lapje vóór het wassen met garen, naalddikte in mm en naaldtype, steekpatroon, plat of rond breien en de waarden vóór en na behandeling met meetafstand. Bewaar het als referentie. Test je verschillende naalddiktes in één strook, markeer dan elke wisseling en maak elk deel groot genoeg om weg van de overgang te meten. Ga er niet van uit dat aangrenzende delen onvervormd zijn; brei aparte lapjes als ze aan elkaar trekken.
 
 ## Snelle antwoorden
 
 Kun je over minder dan 10 cm meten?
-Dat kan, maar een halve steek verkeerd tellen over 5 cm geeft een grotere procentuele fout. Meet minstens 10 cm. Bij heel dik garen, waar 10 cm maar een paar steken is, meet je over een groter stuk als je proeflapje dat toelaat.
+Een kortere afstand vergroot de telfout: een halve steek verkeerd over 5 cm wordt één steek bij omrekening naar 10 cm. Gebruik waar mogelijk de meetafstand van het patroon; een groter bruikbaar deel helpt bij dik garen of lange rapporten.
 
 Verandert stekenverhouding per dag?
-Ja. Spanning wisselt met stemming, vermoeidheid en hoelang je al aan het breien bent. Brei je proeflapje tijdens een normale breisessie, niet in de eerste tien minuten wanneer je handen nog warm worden. Als je stekenverhouding veel schommelt tussen proeflapjes met hetzelfde garen en dezelfde naalden, neem dan het gemiddelde van twee of drie proeflapjes.
+Vergelijk lapjes met hetzelfde garen, dezelfde naalden, werkwijze en behandeling. Wijken de waarden sterk af, controleer dan de omstandigheden en maak een nieuw representatief lapje in plaats van onverenigbare resultaten te middelen.
 
 Apart proeflapje of het project meten?
-Je kunt het project na een paar centimeter meten, maar dan heb je al tijd geïnvesteerd. Als de stekenverhouding niet klopt, haal je uit en begin je opnieuw. Een apart proeflapje vangt dat op voordat je echte projecttijd hebt besteed. De uitzondering is top-down kleding waarbij de eerste pas klein en makkelijk uit te halen is. Sommige breiers slaan een apart proeflapje over en gebruiken de pas zelf als proeflapje. Riskant, maar voor hen werkt het.
+Je kunt het project meten zodra er genoeg onvervormd breiwerk is, maar een ongeschikte stekenverhouding corrigeren kan uithalen betekenen. Vergelijk onbehandeld werk met het onbehandelde lapje. Een kleine pas die van bovenaf wordt gebreid is niet automatisch een representatief meetgebied.
 
 Wat als het patroon geen stekenverhouding geeft?
-Kijk naar de aanbevolen naalddikte op de banderol en begin daar. Brei een proeflapje in tricotsteek. Wat je krijgt, is jouw stekenverhouding, en het project wordt zo groot als die rekensom oplevert. Dat is bruikbaar voor sjaals en omslagdoeken waarbij exacte maat niet kritisch is.
+Vraag de ontwerper om uitleg als de maat belangrijk is. Begin voor je eigen eenvoudige ontwerp met de naaldaanbeveling op de banderol en brei het lapje in het bedoelde steekpatroon. Dat geeft een basis voor maatberekeningen; de stekenverhouding van tricotsteek voorspelt niet die van alle andere steekpatronen.

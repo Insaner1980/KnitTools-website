@@ -2,6 +2,7 @@
 title: "Maschen an einer Strickkante aufnehmen"
 description: "So nimmst du Maschen an waagerechten, senkrechten und gebogenen Kanten auf: Verteilung, Halsausschnitt, Knopfleisten und typische Fehler."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 11
 tags:
@@ -16,151 +17,119 @@ lang: de
 translationKey: "pick-up-stitches"
 ---
 
-Maschen aufnehmen erzeugt eine neue Reihe lebender Maschen entlang einer vorhandenen Kante. So kannst du eine Blende, ein Halsbündchen, eine Knopfleiste oder einen Kragen direkt an das Stück stricken, ohne etwas anzunähen. Aus einer rohen Kante wird eine fertige.
+Durch aufgenommene Maschen kannst du ein Halsbündchen, eine Knopfleiste, eine Blende oder einen Kragen direkt anstricken. Bei der hier beschriebenen Methode ziehst du neue Schlingen aus dem Arbeitsfaden durch die Kante. Einstichstelle und Maschenzahl müssen zur fertigen Blende passen.
 
-Das übliche Verhältnis an einer senkrechten glatt-rechts-Kante ist 3 Maschen aus 4 Reihen. Es gleicht den Unterschied zwischen Maschenbreite und Reihenhöhe aus. Die Bewegung selbst ist schnell gelernt. Schwieriger ist die Verteilung: wie viele Maschen über eine bestimmte Länge aufgenommen werden und wie sie gleichmäßig liegen.
+Drei Maschen aus vier Reihen sind an einer glatt rechts gestrickten Seitenkante ein möglicher Ausgangspunkt, keine allgemeine Regel. Folge zuerst der Konstruktion und Maschenzahl deiner Anleitung.
 
 ## Maschen aufnehmen oder aufnehmen und stricken
 
-Anleitungen verwenden beide Formulierungen. Sie bedeuten leicht Unterschiedliches, auch wenn viele Strickende und Designerinnen sie austauschbar nutzen.
+Vorhandene Randschlingen auf die Nadel zu heben ist etwas anderes, als neuen Faden durch die Kante zu ziehen. Anleitungen können beides „Maschen aufnehmen“ nennen. Prüfe, was gemeint ist. Stillgelegte Maschen wieder auf die Nadel zu nehmen oder eine fallengelassene Masche zu retten sind andere Arbeitsschritte.
 
-**Maschen aufnehmen:** Eine vorhandene Schlaufe oder einen Faden an der Kante auf die Nadel heben.
+Hier nimmst du rechts strickend auf, in der üblichen rechtshändigen Strickrichtung:
 
-**Maschen aufnehmen und stricken:** Durch die Kante stechen, Faden holen und in einer Strickbewegung durchziehen. Die Masche entsteht und wird gleichzeitig gestrickt.
+1. Halte die rechte Seite zu dir und die aufzunehmende Kante oben. Beginne an der vorgegebenen Stelle; an einem Probestück rechts beginnen und nach links arbeiten. Drehe das Stück beim Arbeiten um den Halsausschnitt entsprechend mit.
+2. Halte den Arbeitsfaden hinter dem Gestrick und lass einen Fadenrest zum Vernähen. Stich mit der rechten Nadel an der gewählten Stelle von vorn nach hinten ganz durch das Gestrick, ohne den Faden zu spalten.
+3. Lege den Arbeitsfaden wie für eine rechte Masche um die Nadel und ziehe eine neue Schlinge nach vorn durch. Lass sie auf der Nadel und halte den Fadenrest beim Bilden der nächsten Masche fest.
+4. Gehe zur nächsten geplanten Einstichstelle. Übersprungene Stellen bleiben unbearbeitet. Lass die Maschen auf dem Nadelschaft liegen; ziehe sie nicht um die Spitze fest.
 
-In der Praxis schreiben viele Anleitungen „Maschen aufnehmen“, obwohl „aufnehmen und stricken“ gemeint ist. Wenn die Anleitung eine Zahl nennt, sollen am Ende genau so viele Maschen auf der Nadel liegen.
+Jede neue Schlinge zählt als eine Masche. Bei der üblichen westlichen Maschenlage liegt das rechte Maschenbein vor der Nadel. Andere Strickweisen können eine andere Lage ergeben. Stricke durch das führende Bein, sodass sich die Beine nicht kreuzen, sofern keine verschränkte Masche verlangt wird.
 
 ## An einer waagerechten Kante, Anschlag oder Abkettkante
 
-Die einfachste Richtung. Jede Masche an der Kante hat ein sichtbares V. Stich in die Mitte des V, unter beide Beine, hol den Faden und zieh ihn durch. Eine Masche pro Kantenmasche.
+An einer glatt rechts gestrickten Abkettkante stichst du durch die Mitte eines vollständigen V direkt unter der Abkettkette, ganz durch das Gestrick. So folgt die neue Masche der Maschensäule. Verwechsle das V nicht mit den seitlich liegenden Gliedern der Abkettkette oder dem bloßen Anheben zweier Fäden.
 
-Das Verhältnis ist meist 1:1. Bei 80 abgeketteten Maschen nimmst du 80 auf, oder so viele, wie die Anleitung verlangt. Manchmal sollen es weniger sein, dann überspringst du Maschen in regelmäßigen Abständen.
+Drehe die Anschlagkante nach oben und suche die in dieser Richtung sichtbaren vollständigen V direkt innerhalb des Anschlags. Sie sind gegenüber den ursprünglichen Säulen um eine halbe Masche versetzt. Bei einem flachen Stück kann es ein vollständiges V weniger geben; behandle die Endpunkte nach Anleitung, um die Gesamtzahl zu erreichen. Zähle keine Endschlinge doppelt. Anschläge unterscheiden sich, also teste die Einstichstelle am Probestück.
 
-## An einer senkrechten Kante, der Stoffseite
+Bei entsprechender Maschenprobe kann 1:1 passen: 80 abgekettete Maschen ergeben 80 neue. Eine andere Blendenmaschenprobe oder die vorgegebene Zahl kann übersprungene Stellen erfordern. Die Aufnahme unter bestimmten Randfäden ist ebenfalls eine Methode, ergibt aber nicht unbedingt denselben Übergang.
 
-Hier zählt die Verteilung. Reihen und Maschen sind nicht gleich hoch. Eine typische glatt-rechts-Maschenprobe kann 20 Maschen pro 10 cm waagerecht haben, aber 28 Reihen pro 10 cm senkrecht. Wenn du aus jeder Reihe eine Masche aufnimmst, landen an der senkrechten Kante mehr Maschen pro cm als waagerecht. Die Blende wellt sich oder steht ab.
+## An einer senkrechten Seitenkante
 
-Der Standard bei glatt rechts: 3 Maschen aus 4 Reihen aufnehmen. Aus den ersten 3 Reihen aufnehmen, die 4. überspringen, wiederholen. Das passt für viele Maschenproben, aber deine Zahlen können etwas anderes brauchen.
+Stich an den ausgewählten Reihen zwischen der äußersten Maschensäule und der nächsten ganz durch das Gestrick. Eine Säule bleibt als Nahtzugabe auf der linken Seite. Das ist nicht das Anheben eines Querfadens für den Matratzenstich.
 
-Das genaue Verhältnis bekommst du, indem du Maschenzahl durch Reihenzahl teilst. Wenn deine Maschenprobe 20 Maschen und 28 Reihen pro 10 cm hat, ist das 20/28 = 0,71. Also ungefähr 7 Maschen aus 10 Reihen oder etwa 3 aus 4, 0,75 und nahe genug. Wenn du deine [Maschenprobe](/de/artikel/maschenprobe-messen/) zuerst prüfen musst, fang dort an.
+Berechne **die Maschen der neuen Blende pro Längeneinheit geteilt durch die Reihen des ursprünglichen Stücks pro gleicher Längeneinheit**. Miss im vorgesehenen fertigen Zustand. Bei 20 Maschen pro 10 cm in der Blende und 28 Reihen pro 10 cm im Hauptteil ist das 20/28 = 5/7 ≈ 0,714. [Miss die Maschenprobe](/de/artikel/maschenprobe-messen/) zuerst.
 
-Wenn die Anleitung eine genaue Aufnahmemenge nennt, teile diese Zahl durch die Kantenlänge. So bekommst du die Rate. Dann nimmst du in diesem Rhythmus auf und verteilst übersprungene Reihen möglichst gleichmäßig.
+Nimm in jeder Gruppe aus sieben Randreihen an Position 1, 2, 4, 5 und 7 auf; überspringe 3 und 6. Vier Gruppen nutzen 28 Positionen: 20 Aufnahmen und 8 übersprungene Stellen. Drei aus vier ergäben auf denselben 28 Reihen 21 Maschen. Auch sieben aus zehn ist eine andere Näherung, nicht automatisch nah genug.
 
 ### Aus einer Hebemaschen-Randkante
 
-Wenn du die erste Masche jeder Reihe abgehoben hast, bildet die Seitenkante eine Kette aus paarigen Fäden. Das sieht sauber aus und macht das Aufnehmen schneller, aber es gibt weniger Aufnahmepunkte als bei einer normalen Seitenkante. Eine Kettenmasche steht für zwei Reihen.
-
-Eine Masche pro Kette ist bei glatt rechts oft zu wenig. Zwei Lösungen funktionieren: Nimm aus der Kette auf und ergänze dazwischen gelegentlich eine Masche aus dem laufenden Faden zwischen den Ketten, bis du ungefähr beim 3:4-Verhältnis landest. Oder nimm nur eine Masche pro Kette auf und akzeptiere eine etwas festere Blende. Das kann bei Rippenblenden passen, weil Rippen ohnehin zusammenziehen.
-
-Hebemaschen-Ränder sind schön, aber das Verhältnis muss trotzdem zur Blende passen.
+Ein Kettenglied entspricht oft zwei Reihen. Eine neue Masche unter beiden Fäden des Glieds ergibt dann nur eine Masche pro zwei Reihen. Das passt nur, wenn Zahl und Sitz stimmen. Dass Rippen sich zusammenziehen, rechtfertigt keine zu geringe Maschenzahl. Brauchst du mehr Stellen, nimm an den Reihen eine Maschensäule innerhalb der Kette auf oder verwende die Randmethode deiner Anleitung. Dränge nicht ungeprüft mehrere Maschen durch eine lockere Schlinge.
 
 ### Aus einer kraus-rechten Kante
 
-Kraus rechts bildet Rippen. An der Kante siehst du zwei kleine Bögen pro Rippe, und eine Rippe entspricht zwei Reihen. Nimm meist eine Masche pro Rippe auf, konsequent aus derselben Stelle der Randstruktur.
+Eine Krausrippe entspricht zwei Reihen. Du kannst zwischen den Rippen, eine Maschensäule innerhalb der Kante, von vorn nach hinten durchstechen und neuen Faden durchziehen. Eine andere Methode führt die Nadel von unten nach oben unter den äußersten nach unten gebogenen linken Maschenbogen jeder Rippe, ohne den Faden zu spalten; durch diesen Bogen ziehst du den Arbeitsfaden. Bleibe innerhalb des Abschnitts bei einer Platzierung.
 
-Eine aus kraus rechts aufgenommene Kante wirkt schnell fester als eine aus glatt rechts aufgenommene. Wenn die Blende zieht, füge alle paar Rippen eine zusätzliche Masche ein, statt stur bei einer Masche pro Rippe zu bleiben.
+Eine Masche pro Rippe bedeutet eine pro zwei Reihen und kann bei kraus rechts passen. Prüfe Kantenlänge und Blendenmaschenprobe; eine zusätzliche Masche alle paar Rippen ist nicht automatisch nötig.
 
 ## Verschiedene Blenden brauchen verschiedene Verhältnisse
 
-Das 3:4-Verhältnis setzt eine senkrechte glatt-rechts-Kante und eine Blende voraus, deren Maschenprobe nahe am Hauptteil liegt. Andere Kanten und Blenden brauchen andere Raten.
+Verwende die Maschenprobe des tatsächlichen Rippenmusters, kraus-rechten Musters oder Perlmusters. Rippen haben entspannt und gedehnt unterschiedliche Breiten. Weder kraus rechts noch Perlmuster hat eine allgemeine 3:4-Regel. Eine I-Cord-Kante folgt ihrem eigenen Befestigungsrhythmus in der Anleitung.
 
-Rippenblenden, etwa 1 re, 1 li oder 2 re, 2 li, ziehen waagerecht zusammen. Sie vertragen oft etwas mehr aufgenommene Maschen als glatt rechts. Folge der Anleitung, wenn sie eine Zahl nennt, weil Tiefe der Blende, Nadelstärke und Halsausschnittform das Ergebnis verändern.
-
-Kraus-rechte Blenden verhalten sich recht nah an glatt rechts. 3:4 ist ein guter Ausgangspunkt.
-
-Perlmuster ist in der Breite ebenfalls nah an glatt rechts, deshalb funktioniert 3:4 oft auch dort.
-
-I-Cord-Kanten sind anders. Viele Anleitungen befestigen den I-Cord an jeder zweiten Reihe oder mit einem ganz bestimmten Rhythmus. Erzwinge hier nicht die 3:4-Regel, wenn die Anleitung eine eigene Rate gibt.
-
-Wenn du unsicher bist und die Anleitung keine Zahl nennt, mach eine kleine Probe. Nimm an einem Teststück Maschen auf, strick ein paar Reihen Blende und schau, ob sie zieht oder wellt. Besser dort als am echten Halsausschnitt.
+Fehlt eine Zahl, teste die Blende an einem Probestück mit dem Projektgarn. Stricke genug, um Länge, Tiefe und Dehnbarkeit zu beurteilen. Behandle die Probe nur gemäß den Pflegehinweisen und beurteile sie trocken und entspannt. Spannen korrigiert nicht zuverlässig eine falsche Zahl oder eine einschnürende Aufnahmereihe.
 
 ## An einer gebogenen Kante, etwa am Halsausschnitt
 
-Halsausschnitte kombinieren waagerechte Kanten, senkrechte Seiten und gebogene oder schräge Formungskanten. Jeder Abschnitt braucht eine andere Rate.
+Markiere waagerechte, senkrechte und geformte Abschnitte. Verwende jeweils die passende Methode. Folge an Schrägen einer gleichmäßigen Linie innerhalb der Abkettstufen, nicht den großen Löchern an den Stufen. Nutze die Abschnittszahlen der Anleitung oder die tatsächliche schräge Länge und die Blendenmaschenprobe. Es gibt keinen festen Mittelwert zwischen waagerechter und senkrechter Aufnahmerate.
 
-**Abgekettete Maschen:** 1 pro Masche, wie an einer waagerechten Kante.
-
-**Senkrechte Seiten:** 3 aus 4 Reihen, oder das Verhältnis, das deine Maschenprobe braucht.
-
-**Schräge Formungskanten:** irgendwo zwischen senkrecht und waagerecht. Starte nahe an der Zahl der Anleitung oder nutze die schräge Kante selbst als Führung und korrigiere nach der ersten Blendenreihe.
-
-**Ecken, an denen waagerecht und schräg zusammentreffen:** 1 Masche aus der Eckmasche aufnehmen. Das verhindert die Lücke, die am Halsausschnitt am häufigsten auftritt.
-
-Die Anleitung gibt meist die Gesamtzahl der aufzunehmenden Maschen an. Verteile sie proportional über die Abschnitte: abgekettete Maschen vorn zählen, Reihen an jeder Seite zählen und die Aufnahmen entsprechend zuordnen.
-
-Wenn der Halsausschnitt nach der ersten Reihe wellig aussieht, sind es zu viele Maschen. Wenn er nach innen zieht, sind es zu wenige. Ein paar Maschen mehr oder weniger beheben die meisten Probleme.
+Ordne jede Ecke oder gemeinsame Grenze nur einem Abschnitt zu. Wird gegen eine Lücke eine zusätzliche Masche gebraucht, nimm sie aus festem benachbartem Gestrick auf und zähle sie zur Gesamtzahl. Arbeite eine spätere Abnahme nach dem Plan der Anleitung. Abnahmen am V-Ausschnitt und spätere Zunahmen an einer Außenecke sind eigene Formgebung; zusätzliche Aufnahmen ersetzen sie nicht.
 
 ## Wo die Nadel eingestochen wird
 
-**Eine Masche vom Rand entfernt.** Zwischen Randmasche und zweiter Masche. Das ergibt den saubersten Abschluss. Die Randmasche bildet eine Falte, und die Blende sitzt knapp innen statt direkt oben auf der Kante.
-
-**Durch die Randmasche selbst.** Etwas dicker, aber leichter und intuitiver. Manche Anleitungen verlangen das.
-
-Bei genähten Kanten nimm zwischen Nahtmasche und nächster Masche auf. Die Nahtzugabe verschwindet hinter der Blende.
-
-Bleib über die ganze Kante konsequent. Wenn du mitten im Rand die Methode wechselst, sieht man es.
+Eine Säule Nahtzugabe passt zur oben beschriebenen glatt-rechts-Seitenkante. Die Aufnahme durch die Randmasche selbst kann weniger auftragen, verändert aber den Übergang. Hebemaschen, kraus rechte Kanten, Nähte und geformte Ränder können andere Stellen brauchen. Verwende festes Gestrick innerhalb einer vorhandenen Nahtzugabe, keinen lockeren Nähfaden. Bei veränderter Randstruktur darf die Methode wechseln.
 
 ## Maschen gleichmäßig verteilen
 
-Die häufigste Ursache für eine ungleichmäßige Aufnahmereihe ist, nach Gefühl zu arbeiten und am Anfang zu viele Maschen aufzunehmen. Am Ende fehlen dann Stellen, oder umgekehrt. Ein bisschen Vorbereitung verhindert das.
+Setze Markierer zwischen die Aufnahmestellen, damit Endpunkte nicht doppelt zählen. Gleich lange Abschnitte gleicher Struktur können gleich viele Maschen erhalten.
 
-Teile die Kante mit verschließbaren Maschenmarkierern oder Sicherheitsnadeln in gleich große Abschnitte. Bei einer langen Kante markierst du erst die Hälfte, dann Viertel und bei Bedarf kleinere Abschnitte. Zähle innerhalb jedes Abschnitts, statt die ganze Kante in einem Durchgang zu kontrollieren.
+Für 100 Maschen aus 140 Randreihen teilst du in vier Abschnitte mit je 35 Reihen. Nimm je 25 auf, indem du die 5-aus-7-Folge fünfmal arbeitest. Pro Abschnitt werden 10 Stellen übersprungen: insgesamt 100 aufgenommen + 40 übersprungen = 140 Positionen.
 
-Bei Halsausschnitten markierst du vor dem Start die Ecken und Abschnittsgrenzen. Genau dort summieren sich Fehler am schnellsten.
+Brauchst du 102 Maschen, verteile symmetrisch 26 + 25 + 25 + 26. Verwende in jedem äußeren Abschnitt zusätzlich die bisher übersprungene Position 17. Dort bleiben jeweils 9 übersprungene Stellen: insgesamt 102 + 38 = 140. Erste und letzte Position sind schon enthalten und werden an den Markierern nicht erneut hinzugezählt.
+
+Für 1 re, 1 li in Runden brauchst du eine gerade Zahl, für 2 re, 2 li eine durch 4 teilbare Zahl. In Reihen mit je 2 rechten Maschen am Anfang und Ende benötigt 2 re, 2 li dagegen 4n + 2 Maschen vor zusätzlichen Randmaschen. Dafür passen 102 = 4 × 25 + 2. Mit noch einer Randmasche an jedem Ende sind es 104. Berücksichtige sie bei der Aufnahme oder füge sie nach Anleitung hinzu. Prüfe auch Länge und Sitz.
+
+Sollen aus denselben 140 Positionen 104 Maschen aufgenommen werden, nimm in jedem Abschnitt 26 auf, indem du Position 17 in allen vier Abschnitten nutzt: 104 aufgenommen + 36 übersprungen = 140.
 
 ## Häkelnadel verwenden
 
-Bei sehr festen oder engen Kanten kann eine Häkelnadel die Schlaufen leichter durchziehen als eine Stricknadel. Stich mit der Häkelnadel durch die Kante, hol den Faden, zieh eine Schlaufe durch und schieb diese Schlaufe auf die Stricknadel.
-
-Manche verwenden diese Methode für die ganze Aufnahmereihe, besonders bei festem Baumwollgestrick oder sehr engen Randmaschen. Sie ist etwas langsamer, aber oft angenehmer für die Hände und ergibt an störrischen Kanten ein gleichmäßigeres Ergebnis.
+Stich mit der Häkelnadel an derselben gewählten Stelle ein, hole den Arbeitsfaden hinter dem Gestrick und ziehe eine neue Schlinge nach vorn. Schiebe sie unverdreht auf die Stricknadel. Das Werkzeug ändert weder Zahl noch Rhythmus.
 
 ## Mit Restgarn testen
 
-Ein Trick, wenn du bei der Aufnahmemenge unsicher bist: Teste die Aufnahmereihe zuerst mit einem glatten Restgarn. Zähle die Maschen, prüfe die Verteilung, entferne das Restgarn wieder und wiederhole die Aufnahme mit dem Projektgarn, sobald die Rate stimmt. So musst du das eigentliche Garn nicht durch wiederholtes Auftrennen strapazieren.
-
-Das ist besonders nützlich bei Pullovern, deren Halsausschnitt gut sitzen muss, bevor du weiterstrickst. Auch bei festen, flauschigen oder dunklen Kanten ist es angenehmer, die Testaufnahme mit einem glatten Hilfsgarn zu machen.
+Mit glattem Restgarn kannst du Platzierung und Anzahl üben. Eine andere Stärke oder Elastizität beweist nicht den Sitz der fertigen Blende. Teste diesen mit Projektgarn und dem tatsächlichen Blendenmuster.
 
 ## Häufige Fehler
 
-**Zu viele Maschen.** Die Blende steht ab und wirkt wellig. Nimm die Aufnahmereihe mit weniger Maschen neu auf. Besser sofort merken als nach mehreren Reihen Blende.
+**Wellen oder Falten.** Zu viele Maschen können die Blende ausstellen, zu wenige das Hauptteil zusammenziehen. Prüfe auch Fadenspannung, Einstichtiefe, Maschenprobe, Formgebung und Elastizität der Abkettkante. Nimm neu auf, wenn Zahl oder Verteilung falsch sind. Andere Nadeln oder spätere Abnahmen entfernen keinen Überschuss, der schon im Ansatz sitzt.
 
-**Zu wenige Maschen.** Die Blende zieht nach innen und bildet Falten. Gleiche Reparatur: neu machen.
+**Ungleichmäßige Verteilung.** Kontrolliere jeden Abschnitt und verteile übersprungene Stellen. Gleiche Zahlen passen nur, wenn Länge und Struktur dies begründen.
 
-**Ungleichmäßige Verteilung.** Manche Abschnitte sind gedehnt, andere gestaucht. Teile die Kante vor dem Aufnehmen in gleiche Abschnitte, markiere sie mit Stecknadeln oder Markierern und nimm in jedem Abschnitt dieselbe Zahl auf.
+**Lücken an Ecken.** Vermeide lockere Randschlingen und doppelt gezählte Ecken. Ein kleines verbleibendes Loch kannst du mit einem Fadenende schließen, ohne die Kante zusammenzuziehen; siehe den [Leitfaden zum Zusammennähen](/de/artikel/strickteile-zusammennaehen-matratzenstich/). Nimm nicht automatisch drei Eckmaschen zusätzlich auf.
 
-**Lücken an Ecken.** Nimm aus der Eckmasche selbst und je eine Masche aus den angrenzenden Abschnitten auf. Wenn eine kleine Lücke bleibt, schließ sie beim Fertigstellen mit ein paar Stichen. Der [Leitfaden zum Zusammennähen](/de/artikel/strickteile-zusammennaehen-matratzenstich/) erklärt solche Korrekturen genauer.
-
-**Verdrehte Maschen.** Wenn eine aufgenommene Masche mit gekreuzten Beinen auf der Nadel sitzt, sieht sie beim Stricken anders aus. Das führende Bein sollte vorn an der Nadel liegen, passend zu deiner Strickweise.
-
-**Aufnahmekante sichtbar auf der rechten Seite.** Meist wurde zu nah an der Kante aufgenommen, oder durch die Randmasche, obwohl die Anleitung eine Masche tiefer wollte. Geh eine Masche weiter nach innen, dann liegt die Aufnahmerippe auf der linken Seite.
+**Verdrehte Maschen oder sichtbare Aufnahmerippe.** Prüfe Maschenlage, Arbeitsseite und Einstichstelle. Tieferes Einstechen kann mehr auftragen und löst nicht jede Ursache. Vernähe Fäden ohne Einschränkung der Dehnbarkeit und beachte die Pflegehinweise.
 
 ## Aus einer Steek-Kante aufnehmen
 
-Die Sicherheit eines Steeks entsteht durch die geplante Konstruktion und das Verhalten des Garns. Wenn Garn, Faser oder Methode eine Verstärkung verlangen, verstärke den Steek vor dem Schneiden, zum Beispiel mit Häkelmaschen oder Maschinennähten auf beiden Seiten. Griffige, nicht superwash-behandelte Wolle kann je nach Methode ohne zusätzliche Verstärkung auskommen; Baumwolle und Superwash-Wolle brauchen sie häufig.
+Ein Steek ist eine geplante Schnittöffnung im Gestrick. Wähle eine erprobte Methode für das Garn; Häkelverstärkung reicht nicht für jedes glatte oder nicht filzende Garn. Führe nötige Verstärkungen vor dem Schneiden aus. Eine aufgenommene Blende ersetzt sie nicht.
 
-Schneide den vorbereiteten Steek auf und sichere oder versäubere anschließend die Steek-Zugaben oder Schnittkanten passend zur gewählten Methode. Nimm die Maschen für die Blende aus der Maschensäule direkt neben der Schnittkante auf, nicht aus den losen Schnittfäden selbst. Die Blende kann die Schnittkante von rechts verdecken und zusätzlich stabilisieren, ersetzt aber weder eine erforderliche Verstärkung noch die passende Kantenbearbeitung.
+Nimm an der vorgegebenen Linie auf der Kleidungsseite der Steek-Zugabe auf, nicht direkt neben dem Schnitt oder aus abgeschnittenen Fäden. Die Zugabe muss weiterhin befestigt oder eingefasst werden. Je nach Konstruktion wird vor oder nach dem Schneiden aufgenommen; folge dieser Reihenfolge.
 
 ## Häufige Fragen
 
-**Welche Nadelstärke zum Aufnehmen?**  
-Nimm die Stärke, die die Anleitung für die Blende nennt, oft eine oder zwei Stärken kleiner als für den Körper. Kleinere Nadeln bei Rippenblenden ergeben eine festere und sauberere Kante.
+**Welche Nadelstärke zum Aufnehmen?**
+Verwende die Blendenstärke der Anleitung und prüfe die Maschenprobe. Eine dünnere Nadel oder Häkelnadel kann bei einer festen Kante helfen. Übertrage die Maschen auf die Arbeitsnadel, ohne die Aufnahmereihe einzuschnüren. Kleiner ist nicht automatisch sauberer.
 
 **Rechte Seite beim Aufnehmen sichtbar?**
-
-Meist ja. Nimm mit der rechten Seite zu dir auf, damit die erste Blendenreihe eine linke Reihe ist, bei glatt-rechts-basierten Blenden also links gestrickt wird. Die Aufnahmerippe liegt dann auf der linken Seite.
+Ja, bei dieser Methode. In Reihen wendest du anschließend und folgst der Rückreihenanweisung. In Runden arbeitest du ohne Wenden weiter, sofern nichts anderes angegeben ist. Eine Rückreihe bedeutet nicht automatisch, alle Maschen links zu stricken.
 
 **Wie viele Maschen für eine Knopfleiste?**
-
-Die Anleitung sollte es sagen. Wenn nicht, nimm die Maschenprobe des Blendenmusters mal Kantenlänge. Bei einer 50 cm langen Vorderkante und einer Blende mit 20 Maschen pro 10 cm sind das etwa 100 Maschen. Passe an, wenn die Leiste zieht oder wellt.
+Folge der Anleitung. Ohne Zahl berechnest du die gewünschte Leistenlänge mal ihre Maschen pro Längeneinheit: 50 cm × 20 Maschen / 10 cm = 100 Maschen. Prüfe Rapport, Endpunkte und geplante Dehnung. Die Reihenzahl der ursprünglichen Kante hilft, diese Gesamtzahl zu verteilen.
 
 **Warum sieht meine Aufnahmereihe rechts ungleichmäßig aus?**
-
-Meist liegt es an unterschiedlicher Einstichtiefe. Einige Maschen wurden eine Masche vom Rand entfernt aufgenommen, andere direkt durch die Randmasche. Nimm neu auf und entscheide dich vorher für eine Methode.
+Prüfe Einstichtiefe, Verteilung und Schlingenspannung vor dem nächsten Versuch. Eine Ecke oder andere Randstruktur kann eine andere Einstichstelle brauchen.
 
 **Kann ich an einer abgeketteten Kante Länge anstricken?**
-
-Ja. Nimm aus der Abkettkante wie aus jeder waagerechten Kante auf, meist 1 Masche pro abgekettete Masche, und strick nach unten weiter. Die neue Partie liegt technisch in einer anderen Richtung, weil die Maschen im Verhältnis zum Original auf dem Kopf stehen. In glatt rechts oder kraus rechts kann das dezent sein; in richtungsabhängigen Mustern kann es auffallen.
+Ja, aber die Abkettkante hinterlässt eine Rippe und kann die Dehnbarkeit begrenzen. Von der Abkettkante setzt du normalerweise die ursprüngliche Strickrichtung fort. Vom Anschlag aus kehrt sich die Richtung um, und Säulen können um eine halbe Masche versetzt sein. Teste zuerst; der Übergang ist nicht immer unsichtbar.
 
 **Die Maschenzahl stimmt, aber die Kante wellt sich. Warum?**
+Tatsächliche Länge, Blendenmaschenprobe oder Aufnahmespannung können abweichen. Prüfe dies vor einer Änderung der Zahl. Geplante Zu- oder Abnahmen können die Zahl an einen späteren Rapport anpassen, garantieren aber bei ungeeigneter Aufnahmerate keinen flachen Ansatz.
 
-Die Anleitung kann ein anderes Verhältnis zwischen Reihenprobe, Maschenprobe und Kantenlänge voraussetzen als dein Gestrick. Nimm nach deiner tatsächlichen Kante neu auf und gleiche die Maschenzahl in der nächsten Blendenreihe bei Bedarf mit Zu- oder Abnahmen an.
+Technikquellen auf Englisch: [Purl Soho: Maschen aufnehmen](https://www.purlsoho.com/create/picking-up-stitches/) und [La Visch Designs: Abschnitte am Halsausschnitt](https://www.lavisch.com/site/tutorial-picking-up-stitches-to-work-a-neckline/).

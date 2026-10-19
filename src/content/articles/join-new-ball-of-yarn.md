@@ -5,6 +5,7 @@ description: "Learn how to join a new ball of yarn while knitting. Covers the ov
 category: "techniques"
 categoryOrder: 5
 publishDate: "2026-05-01"
+updatedDate: 2026-10-18
 tags:
   - "join new ball of yarn knitting"
   - "attach new yarn knitting"
@@ -14,126 +15,123 @@ tags:
 
 The old skein runs out. The new one needs to start. The transition should be tidy in the finished fabric and secure enough not to unravel.
 
-The four main methods are the overlap join (most universal, two tails to weave in), Russian join (no loose tails, slightly thicker), spit splice (nearly invisible but only for feltable wool), and magic knot (fast but leaves a knot). The best choice depends on the yarn's [fiber content](/articles/yarn-fibers-compared/) and how much you care about weaving in ends.
+This guide compares an overlap worked with two strands, a Russian join, a felted splice, and a magic knot. They secure yarn in different ways and do not have the same finishing requirements. Choose for the yarn's [fiber content](/articles/yarn-fibers-compared/), construction, and the fabric you are making.
 
 ## At a glance
 
-| Method       | Yarn compatibility          | Tails to weave | Visibility          | Best for                    |
-| ------------ | --------------------------- | -------------- | ------------------- | --------------------------- |
-| Overlap      | Any                         | 2              | Low after finishing | Default choice, all yarns   |
-| Russian join | Plied yarns work best       | 0 loose tails  | Slight thickening   | Knitters who hate weaving   |
-| Spit splice  | Feltable animal fibers      | 0              | Nearly invisible    | Non-superwash wool projects |
-| Magic knot   | Many yarns, with trade-offs | 0              | Knot in fabric      | Bulky/felted projects only  |
+| Method       | Yarn compatibility               | Tails to weave               | Visibility                      | Best for                               |
+| ------------ | -------------------------------- | ---------------------------- | ------------------------------- | -------------------------------------- |
+| Overlap      | Test doubled thickness           | 2                            | A doubled stitch or section     | When the fabric tolerates extra yarn   |
+| Russian join | Yarn that can hold a buried tail | Ends secured inside the yarn | Thicker section                 | Avoiding a knot; test the construction |
+| Spit splice  | Yarn that actually felts         | None at a successful splice  | Depends on thinning and felting | Feltable, non-superwash yarn           |
+| Magic knot   | Yarn that holds this knot        | 2 in the version below       | A knot remains                  | Where a knot is acceptable             |
 
 ## Method 1: the overlap join
 
-Most universal. Start knitting with the new yarn, leaving tails on both old and new. Knit the first few stitches with the new yarn, holding the old tail alongside. Drop the old tail after a few stitches. Weave in both ends later.
+Here, overlap means knitting briefly with the old yarn and the strand coming from the new ball held together. It is different from dropping the old yarn and simply starting with the new one.
 
-Works with any yarn, needs no prep, and you can do it mid-row or at the edge. The downside: two tails to weave in, and the overlap stitches can look slightly thicker until the ends are woven in and the fabric is [blocked](/articles/how-to-block-knitting/). This is the method most knitters learn first, and it's the right choice whenever weaving in ends doesn't bother you.
+1. Stop while the old yarn still has enough length for the join and a tail to weave in. Leave a similar tail on the new yarn; about 6 inches (15 cm) is a practical starting allowance, not a minimum for every yarn.
+2. Hold the old working yarn and the new ball's working strand together. Keep the new tail free. Knit one stitch with both strands, following [Elizabeth Smith's double-stitch example](https://elizabethsmithknits.com/2021/04/29/how-to-join-a-new-skein-of-yarn/).
+3. Drop the old yarn and continue with only the strand from the new ball. The old tail must still be long enough to weave in. Adjust the join gently to match neighboring stitches.
+4. On the next row or round, work both loops of that doubled stitch together as **one stitch**, knit or purl as the pattern requires. The stitch count stays unchanged. If you doubled several stitches, treat each pair this way.
+5. Weave in both remaining tails. Doubling the yarn does not replace finishing them.
 
-Some knitters prefer to join at row beginnings rather than mid-row. The tails end up at the edge where they're easier to hide in a seam. For flat pieces that get seamed, this is cleanest. For knitting in the round, there's no edge, so mid-round joining is unavoidable.
+The doubled section stays thicker even after the tails are trimmed; [blocking](/articles/how-to-block-knitting/) is not a guarantee that it will disappear. If this is too bulky, drop the old yarn and work the next stitch with the new working strand alone, leaving both tails for finishing. Hold the new tail to stabilize the first stitches, then adjust their tension and weave in the ends.
+
+A seam can hide an edge join, but an exposed or reversible edge may show it. A mid-row join is also an option. In the round, you can join at the beginning-of-round marker or elsewhere; choose a place where the finishing fits the fabric.
 
 ### Weaving in overlap tails well
 
-The weave-in is what makes or breaks the overlap join. A sloppy weave-in unravels eventually, especially in superwash wool where the fibers don't grip.
+First adjust the loose stitches around the join without puckering the fabric. Cross the two tails on the wrong side at the gap before weaving them into neighboring stitches, without pulling the fabric tight. Thread one tail onto a yarn needle and follow the existing stitch path on the wrong side for several stitches. Change direction through neighboring stitches rather than retracing exactly the same path and undoing your work. Repeat with the other tail. [Purl Soho shows several routes for different stitch patterns](https://www.purlsoho.com/create/weaving-in-your-ends/).
 
-Thread the tail onto a yarn needle. Travel through the back of the work, splitting individual plies of the surrounding stitches rather than running along the surface. Splitting plies locks the tail in place through friction. Work far enough that the tail won't pull free, change direction once, then trim close after the fabric has relaxed. The change of direction helps stop the tail from working loose with washing.
-
-For superwash, slippery yarns (silk, bamboo, mercerized cotton), or anything that doesn't grip well, leave longer tails and weave further. The mechanical security has to do all the work because the fiber itself won't help.
+Keep the fabric's stretch. Splitting suitable yarn plies is an option, not a requirement for every yarn construction. Slippery yarn needs particular attention to the length and route of the woven-in end. Let the fabric relax, finish only as the yarn's care label permits, and inspect the join before trimming the excess. Do not cut an unsecured end flush with the join.
 
 ## Method 2: the Russian join
 
-No loose ends to weave in. The old and new tails are threaded back through themselves with a yarn needle, creating two interlocking loops.
+A Russian join connects two loops and buries each tail inside its own strand before knitting. It does not rely on felting. Use a fine yarn needle that can pass through the yarn's center without damaging it.
 
-Thread the old yarn's tail onto a yarn needle. Pierce back through the old yarn's plies for a short distance, creating a loop at the end. Do the same with the new yarn. Link the two loops together like chain links before pulling tight. Trim the tails close.
+1. Thread the old tail onto the needle. Fold it back and run the needle lengthwise inside the old strand toward the knitting, leaving a small loop at the fold.
+2. [Knit Picks uses about 2 inches](https://tutorials.knitpicks.com/russian-join/) (5 cm) of buried tail, adjusted for slipperiness. Pull the needle out and smooth the gathered yarn, keeping the loop open.
+3. Thread the new tail onto the needle and pass it **through the old loop first**. Then fold the new tail back and bury it inside its own strand toward the new ball for a similar distance. Now the two loops are linked.
+4. Draw the tails through to close the loops and smooth both thickened sections. Check that neither buried end slides out. Only trim excess protruding beyond the buried sections; do not cut into the join.
+5. Knit across the joined strand normally, continuing toward the new ball. Work each resulting stitch normally on the next row or round; no stitch is added. A successful join has its tails secured inside the yarn rather than loose in the fabric.
 
-A sharp yarn needle helps. Blunt needles slide between plies rather than splitting into the yarn, which can produce a weaker join. The needle needs an eye large enough for the yarn and a tip sharp enough to burrow into the strand.
-
-Very secure because the join is integrated into the yarn itself. The joined section is slightly thicker (two layers for about 2 inches on each side), which shows in very thin yarn. Plied yarns are easiest to pierce cleanly; singles and very splitty yarns can be harder to join neatly this way.
-
-Best for knitters who genuinely dislike weaving in ends and are working with plied yarn. From DK weight and heavier, the thickness increase is often unobtrusive. For fingering and lace, the join can show as a slightly thicker spot, though finishing usually softens it.
+Construction matters more than a DK-or-heavier rule. The yarn must allow a tail to be buried and retained; a flat tape, an open chain, or a very loose or slippery strand needs its own assessment. Singles are not automatically excluded. Test the join in your fabric and under the yarn's permitted care; the thickened part can remain visible. If it slips or cannot be buried, use a join with woven-in ends.
 
 ## Method 3: the spit splice (felt join)
 
-Only works with non-superwash wool and other feltable animal fibers.
+Use yarn that actually felts, such as suitable non-superwash wool. A wool label alone is not enough: treatment, blend and construction matter. Superwash, cotton, linen and acrylic are not candidates for this felted join. Do not assume an animal-fiber blend will bond reliably.
 
-Overlap the ends by a few inches. Wet them (the name comes from the traditional method, but water works fine). Roll the overlap vigorously between your palms. Friction plus moisture felts the fibers together, creating a secure bond with very little bulk.
+For the straight overlap version shown in [Purl Soho's wet-splice tutorial](https://www.purlsoho.com/create/wet-splice-aka-spit-splice/):
 
-The result can be nearly invisible: no obvious thickness change and nothing to weave in. The limitation is obvious. It only works with feltable yarn. Cotton, acrylic, superwash wool, silk, linen, and bamboo won't felt. If the bond isn't strong enough (not enough friction or moisture), it pulls apart.
+1. Leave enough old yarn to handle without pulling the last stitch. Open out about 1–2 inches (roughly 2.5–5 cm) of each end; separate plies if present.
+2. Remove some fibers from each end to reduce the doubled bulk. Keep enough fiber for a continuous overlap; do not cut either strand through.
+3. Moisten the prepared ends with water and lay them over one another, with the knitting and new ball extending in opposite directions.
+4. Rub the overlap between your palms until the fibers bind together. Check it gently; if it separates, do not knit it into the project as a finished join.
+5. Continue knitting with the joined strand. On the next row or round, work the stitches normally. A successful splice incorporates both ends, so there are no loose tails at this join to weave in or trim away.
 
-Many wool knitters' favorite method. If your yarn felts, worth learning.
-
-To test whether a yarn will splice, take two short scraps and try it before committing to a project. Some "wool" yarns have a superwash treatment or non-feltable blend that prevents the felt bond. A small test is better than discovering halfway through a sweater that the joins fail.
+Try scraps and a knitted sample first, including the yarn's permitted washing and drying. A quick pull test checks the initial bond, not permanent durability. Thickness and visibility depend on preparation and the actual yarn.
 
 ## Method 4: the magic knot
 
-Overlap old and new yarn. Tie the old around the new with an overhand knot, then tie the new around the old with another. Slide both knots toward each other until they meet and lock. Trim tails close.
+This is two overhand knots, each tied around the other strand, then pulled together. Keep enough tail to tie the knots and, in the version here, weave in the ends afterward.
 
-Fast, secure when tied well, and no ends to weave in. But there's a knot in the fabric. Even a tight magic knot creates a small hard point that can be felt in thin fabric and may work to the surface over time. In slippery yarns (silk, bamboo), the knots can slip undone. Many knitters avoid knots in garments, full stop.
+1. Lay the old and new yarn alongside each other with the free ends pointing in opposite directions.
+2. Take the old tail over and under the new strand. Cross it over its own standing strand to make a loop, pass the tail through that loop from underneath, and tighten the overhand knot around the new strand.
+3. Repeat the same over–under sequence with the new tail around the old strand, forming the second overhand knot.
+4. Pull the long strands leading to the knitting and the new ball, **not the tails**, until the knots slide together. Tighten and check that neither slips.
+5. Continue with the new working yarn, leaving the knot between stitches where practical. Work subsequent stitches normally; the knot is not an extra stitch. Keep both tails and weave them in before trimming, as allowed in [YarnThrift's tutorial](https://yarnthrift.com/how-to-join-yarn-using-the-magic-knot-crochet-tutorial/).
 
-Best for thick fabrics where a knot disappears (bulky blankets, felted items). Not for garments or delicate work.
+Some versions trim the tails close immediately. That leaves security dependent on the knot and is not the finishing choice taught here. [Nimble Needles notes that knots can loosen in slippery yarn](https://nimble-needles.com/tutorials/joining-yarn-with-a-magic-knot-in-knitting/). A pull test is not a lifetime guarantee. A knot can remain visible or uncomfortable even in thick fabric; use it only where you accept that tradeoff. It is neither universally forbidden in garments nor automatically suitable for blankets or felting.
 
 ## Choosing the right method
 
-For most situations, the overlap join with woven-in ends is safest and most universal. Works with every yarn, clean result after finishing, no special technique needed.
-
-For non-superwash wool, the spit splice gives the cleanest result. It takes practice to get the pressure and moisture right, but once it clicks, it's fast and nearly invisible.
-
-The Russian join suits knitters who genuinely dislike ends, working with plied yarn from DK and heavier.
+Choose by the sample: overlap adds doubled yarn and still needs two ends woven in; a Russian join buries the ends but adds thickness; a felted splice needs a reliable felting bond; a magic knot leaves a knot. Simply starting with the new strand and weaving in both tails is useful when doubled stitches are too bulky. No one method suits every construction or project.
 
 ## Timing the join
 
-If you can plan ahead, you have options. When you're getting close to the end of a skein, measure the remaining yarn against the width of your work. Enough for several more rows? You have room. Barely enough for one? Join at the beginning of the next row so the tails land at the edge.
+Plan the join before the old end becomes too short to handle and finish. Comparing the remaining length with the width of the fabric does not reliably predict a whole row in every stitch pattern. If you want an edge join and are unsure there is enough yarn for the next row **plus a finishing tail**, join before starting that row.
 
-A rough rule for measuring: lay the remaining yarn next to the row you're about to knit. If it's about 4 times the row width, you have one row's worth. The math isn't exact (purls use slightly more yarn than knits, stitch patterns vary), but it's close enough to plan a clean join location.
-
-For stockinette in the round, stagger your joins so they don't all fall at the same point. Moving the join a few stitches each time prevents a visible column of slightly different texture.
+In the round, you can distribute joins around less conspicuous areas instead of stacking all the thickened sections. This changes their placement, not their thickness or strength.
 
 ## Joining hand-dyed yarn between skeins
 
-Hand-dyed yarn varies skein to skein, even within the same dye lot. The "alternating skeins" trick prevents a sharp color line where two skeins meet.
+Hand-dyed yarn can vary even within one dye lot. For example, [Malabrigo recommends alternating balls of Rios](https://malabrigoyarn.com/yarns/rios) to distribute color differences. Alternation does not guarantee an invisible transition or eliminate every patch of color pooling.
 
-When starting a new skein on a hand-dyed project, alternate between the old and new skeins for several rows. Many knitters use two rows from one skein, then two rows from the other. Carry the unused yarn loosely up the side. This blends any tonal difference into a transition zone instead of a visible line. After several repeats, drop the old skein for good and continue with the new.
-
-For high-contrast hand-dyed (variegated yarn with strong color pooling), the alternating-skein trick also helps avoid stripes lining up across skein changes. Two skeins blended together pool differently than either one alone.
+For flat knitting, work two rows with the old ball, then two with the new, so both yarns return to the same edge. Carry the resting yarn up that edge without tightening it, catching it at the change. Repeat while assessing the transition, then stop using the old ball with enough yarn left to weave in its end. This is a flat-knitting example; in the round, carry at the chosen change point rather than looking for a side edge. Different dye lots can still look different after alternating.
 
 ## Factory knots inside skeins
 
-Sometimes the skein itself has a knot. Yarn mills sometimes splice mid-skein when a strand breaks during winding, tying the two pieces together with a small knot. You'll find these mid-project without warning.
-
-Don't knit through the knot. Cut the yarn at the knot, treat the two pieces as separate skeins, and use whichever join method matches your yarn. A small knot in finished knitting reads as a flaw even if it doesn't unravel. Factory knots happen with mass-produced yarn.
+Inspect a knot before knitting past it. If its construction or security is uncertain, remove it and rejoin the yarn using a method suited to the project. Keep enough yarn on each side for that method; unknit a little if needed. A factory knot is not evidence that every kind of knot is suitable or unsuitable for your fabric.
 
 ## When yarn breaks mid-stitch
 
-The yarn snaps while you're working a stitch. Doesn't happen often, but it does happen with old yarn, weakened spots, or aggressive frogging.
+Stop and secure the live stitch. If the old loop is still on the left needle, keep it there and undo the incomplete new loop. If it has slipped off, recover that stitch before continuing; do not mistake a broken yarn end for a complete stitch.
 
-Stop. The half-worked stitch can be slipped back to the left needle. Treat the break as a normal join: leave a tail on the broken end, attach the new yarn with your preferred method, and continue from where you left off. The fact that the break happened mid-stitch doesn't change the technique.
-
-If the yarn breaks repeatedly in different places, check the skein. Sometimes a damaged skein has multiple weak spots and the whole skein isn't worth the joins. Return it if you bought it recently.
+Unknit far enough to obtain an old tail you can finish, then join sound new yarn and rework the stitch. Check the stitch count. If the yarn repeatedly breaks, inspect it and contact the seller about a possible defect rather than building the project from unexamined weak sections.
 
 ## Notes on joining
 
-Tying a knot and continuing is technically possible but generally poor practice. The knot creates a hard lump, can work loose, and shows on inspection.
-
-For tails, leave enough length to thread a yarn needle comfortably. Too short, and weaving becomes fussy. For slippery yarns, longer tails are safer.
-
-Where you join depends on the project. Seamed garments: join at the edge, tails hide in the seam. Knitting in the round: mid-round joins are unavoidable. Avoid the center front of a sweater if you can.
-
-If the new yarn is a slightly different shade (different dye lot), alternate skeins for a few rows before switching completely. Two rows old, two rows new, repeated several times, blends the transition instead of creating a sharp line.
+A join and its finishing are one sequence. Leave usable tails where the method requires them, and check both sides of the fabric before cutting. On reversible work, neither side is automatically hidden. For different shades, use the alternating-ball example above and assess the result rather than expecting a perfect match.
 
 ## FAQ
 
 **Can I join a new color the same way as a new ball of the same color?**
-Mostly yes, but a color change joined with an overlap will show one or two rows of slight blending. For clean color transitions in colorwork, join the new color at the edge of the row and weave the tails into the back of the matching color section. Spit splices don't work for color changes because they blend the two yarns visibly.
+
+For a change at a chosen stitch, stop the old color before that stitch and work it with the new working strand alone, leaving both tails. Adjust the tension and weave the tails into their matching color areas. The change need not be at an edge. Doubled strands blend colors in the stitches actually worked double, not automatically for one or two whole rows. A felted overlap blends the fibers; Russian joins and knots are also difficult to position at an exact stitch. These joins do not by themselves make round stripes jogless.
 
 **What if my yarn is too splitty for a Russian join?**
-Use the overlap method instead. The Russian join needs cohesive plies to pierce through. Singles, loosely-plied yarns, and very fluffy yarns won't hold the join.
+
+If you cannot bury and retain the tail in that particular yarn, use the overlap or simply start with the new strand and weave in both ends. Do not decide from the number of plies alone; construction, friction and the sample matter.
 
 **Does the join show on the wrong side?**
-Slightly. Even a clean spit splice has a tiny bump where the splice happens. Overlap joins show as a doubled section of yarn until the tails are trimmed. Russian joins can create a thickened area, and other joins may remain visible too. Visibility depends on the yarn, fiber, gauge, stitch pattern, join type, and placement. If appearance matters, test the join and place it in a less conspicuous spot where practical.
+
+It can show on either side. Trimming the ends does not remove the doubled yarn in an overlap or the thickened Russian join. A felted splice depends on preparation, and a knot remains a knot. Check the actual yarn, gauge, stitch pattern and placement.
 
 **How do I weave in ends in lace or other open fabric?**
-Harder, because there's less fabric to hide tails in. Work the tail along the back of a structural column (the stitches that aren't yarn overs), splitting plies as you go. For very open lace, plan joins at the edges where they can be woven into the border rather than the body of the pattern.
+
+Follow a solid part of the stitch pattern rather than stretching a tail across open yarn overs. A border or seam can provide a place to finish, but an exposed edge may show too. Test the route and stretch on a sample; splitting plies is only an option for suitable yarns.
 
 **Why does my woven-in tail keep working loose?**
-Usually too short, not enough direction changes, or the yarn doesn't grip well (superwash, silk, slippery synthetics). Extend the weave, add a zigzag, and split plies rather than running along the surface. If the yarn is very slippery, leave a longer tail and check the ends again after blocking.
+
+Check the length, route and tension of the woven-in section. Rework an end that is too short or slips out, allowing a longer route through neighboring stitches. For a slippery yarn, test the finishing under its permitted care before trimming further. Washing or blocking cannot substitute for securing an end.

@@ -1,7 +1,8 @@
 ---
 title: "Så följer du din sticktid och hastighet"
-description: "Följ stickpass för att se vart tiden tar vägen och hur din hastighet förändras. Praktiska metoder från enkla timers till särskild passregistrering."
+description: "Följ sticktid med stoppur, anteckningar eller en projektapp. Räkna ut jämförbara varv per timme och skilj uppmätt tid från uppskattad tid till färdigt plagg."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 7
 tags:
@@ -19,61 +20,67 @@ translationKey: "track-knitting-time"
 
 De flesta stickare har en ungefärlig känsla för hur lång tid projekt tar. "Tröjan tog några månader." "Sockorna gick ganska fort." Men ungefärligt hjälper inte när du ska avgöra om en kofta hinner bli klar sex veckor före jul, eller varför ett mössmönster som borde ta en kväll drar ut över tre.
 
-Att följa sticktid gör vaga intryck till faktisk data. Hur många timmar som gick åt till tröjan. Hur många varv du i snitt stickar per pass. Om du stickar snabbare i slätstickning än i flätor, och med hur stor skillnad. Siffrorna får inte händerna att röra sig snabbare, men de hjälper dig planera bättre och märka när något börjar gå fel i tysthet.
+En tidslogg visar den tid och det arbete du registrerar. Den kan hjälpa dig att planera, men en räknare vet inte om du stickar, läser mönstret eller tar paus. Bestäm vad du mäter innan du jämför.
+
+Aktiv sticktid är tiden då du arbetar med maskorna. Ett helt stickpass kan även innehålla pauser. Projektets totala arbetstid kan omfatta provlapp, mönsterläsning, rättningar, montering och efterbehandling. Kalendertiden fram till ett färdigt plagg innehåller också dagar utan stickning och väntan på att ett tvättat plagg ska torka. Håll isär dessa tider.
 
 ## Varför följa tiden
 
-Tre skäl, i den ordning de brukar börja ge nytta.
+Tre möjliga användningar för en tidslogg:
 
-**Projektplaneringen blir mer realistisk.** Om du vet att en mössa i Worsted tar dig ungefär 8 timmar kan det hjälpa dig att uppskatta tiden för en tröja, men du behöver också ta hänsyn till de olika måtten. Om mösskroppen var 15 cm slätstickning och tog 45 minuter per 2,5 cm behöver en uppskattning för en 38 cm lång tröjkropp, med samma stickfasthet mätt i både maskor och varv, också skalas efter det relativa antalet maskor i varje varv. Formning och montering tar ytterligare tid.
+**Planera utifrån jämförbart arbete.** Anta att en mössa i Worsted tog ungefär 8 timmar totalt. Om den raka delen var 15 cm slätstickning och tog 45 minuter per 2,5 cm, motsvarar just den delen 4 timmar 30 minuter. För en 38 cm lång tröjkropp behöver du dessutom jämföra antalet maskor per varv, stickfasthet och teknik. Längden ensam räcker inte; formning och montering behöver egna tidsuppskattningar.
 
-**Du märker inbromsningar innan de blir problem.** Om ett vanligt pass ger 12 varv på ett projekt och samma projekt plötsligt ger 6 varv per pass har något förändrats. Kanske blev strukturen svårare. Kanske bråkar garnet. Kanske har stickfastheten glidit och du kompenserar utan att tänka på det. Siffrorna visar skiftet innan du har lagt tre pass till på att undra varför arbetet känns segt.
+**Förstå ändrad arbetsmängd.** Om ett pass ger 12 varv och ett annat 6, jämför först hur långa passen var. Ett kortare pass kan förklara skillnaden utan ändrat tempo. Vid lika långa pass kan du kontrollera varvlängd, struktur, garn, pauser och rättningar. Antalet varv visar inte i sig ett problem eller dess orsak.
 
-Sedan finns det den långa utvecklingen. Stickhastighet kan ändras med övning, men förändringen är ofta så gradvis att den inte känns när den händer. Passdata från sex månader sedan jämfört med nu kan visa skillnaden konkret: fler varv per timme, färre misstag, snabbare återhämtning efter fel. Framsteg som inte syns dag för dag blir lättare att se över månader.
+**Följa ditt eget arbete över tid.** Liknande avsnitt stickade med sex månaders mellanrum kan visa en förändring i tempo. Tid och varvantal mäter däremot inte antalet misstag eller hur snabbt du rättar dem. Anteckna sådant separat om det är det du vill följa.
 
-## Enkel uppföljning: timer i mobilen
+## Enkel uppföljning: stoppur i mobilen
 
-Minsta möjliga insats. Starta en timer när du tar upp stickorna, stoppa den när du lägger ner dem. Skriv tiden och varvantalet i en anteckningsbok eller anteckningsapp.
+Använd ett stoppur som räknar upp tiden. Starta när du börjar det arbete du vill mäta. Pausa under avbrott och fortsätt när du återvänder om du vill mäta tid utan pauser. Stoppa till sist och skriv ner tiden och antalet färdiga varv innan du nollställer. Saknas pausfunktion kan du summera separata intervall, en gång vardera. Stoppuret känner inte automatiskt av stickning.
 
-Det fungerar bra för ett enda projekt. Med flera WIP blir det rörigt, eftersom varje projekt behöver en egen rad och anteckningarna fylls med osorterade tider. Det kräver också disciplinen att starta och stoppa timern varje gång. Just den vanan håller lätt i två veckor och försvinner sedan.
+En anteckningsbok eller anteckningsapp fungerar även för flera projekt om varje post har projektets namn och avsnitt. Rätta glömd start eller stopp och märk osäker tid som uppskattad. Ta bort dubbletter och räkna inte överlappande tid två gånger. En tid som du skriver av från stoppuret är uppmätt; tid som du räknar fram från minnet, en räknare eller ett tidigare projekt är uppskattad.
 
 ## Kalkylblad
 
-Ett steg upp. Kolumner för datum, projektnamn, startvarv, slutvarv och tid. Formler räknar varv per pass, varv per timme och total tid.
+Använd kolumner för datum, projekt, avsnitt, färdiga varv före och efter passet, tid och hur pauser hanteras. Skillnaden i varvantal ger färdiga varv om du inte har nollställt räknaren eller repat upp. Anteckna annars rättningen separat: nettotillskott är inte allt arbete du har gjort.
 
-Det ger data att analysera. Rita varv per timme över tid och hastighetskurvan blir synlig. Jämför projekt och effekten av olika strukturer syns i siffrorna. Om anteckningarna visar att ett slätstickat projekt rör sig snabbare än ett flätstickat, blir skillnaden användbar planeringsdata i stället för en känsla.
+Ett räkneexempel: 20 varv på 45 minuter. 45 ÷ 60 = 0,75 timmar, så 20 ÷ 0,75 ≈ 26,7 varv per timme. Tid per varv blir 45 ÷ 20 = 2,25 minuter, alltså 2 minuter 15 sekunder. Skriv tiden tydligt: 1 h 30 min = 1,5 timmar, inte 1,30 timmar.
 
-Nackdelen är manuell inmatning efter varje pass. Om du glömmer får datan luckor. Om du avrundar, "ungefär 45 minuter, kanske 20 varv", försvinner den precision som gör kalkylbladet användbart.
+För jämförbara pass med 20 varv på 45 minuter och 10 varv på 15 minuter blir det gemensamma tempot 30 varv ÷ 1 timme = 30 varv per timme. Ett oviktat medelvärde av passens hastigheter blir cirka 33,3 och beskriver inte hela tidsperioden. Dela det totala arbetet med den totala tiden.
+
+Jämför liknande varvlängd, struktur, garn, stickor och pausrutiner. Ett slätstickat projekt som går fortare än ett flätstickat visar inte enbart flätornas inverkan om andra villkor skiljer sig. För maskor per minut behöver du antalet maskor som faktiskt arbetats under intervallet. Varv × maskor per varv fungerar bara vid oförändrat maskantal; formning, förkortade varv och olika avsnitt kräver separata beräkningar.
+
+Manuell inmatning kräver en anteckning efter passet. ”Ungefär 45 minuter, kanske 20 varv” kan fortfarande hjälpa vid grov planering, men märk uppgifterna som uppskattade och avrunda tempot därefter. Saknad tid är okänd, inte noll.
 
 ## Särskild passregistrering för stickning
 
-En sticktidsmätare inbyggd i en projektapp kan ta bort de delar där manuella metoder ofta faller. Starta ett pass, sticka, avsluta passet. Appen registrerar tiden, kopplar den till projektet och håller varvantalet bredvid.
+En projektapp kan samla tidtagning och varvräkning. Kontrollera vad appen sparar och vad du måste registrera själv; paus- och rättningsfunktionerna varierar.
 
-[KnitTools-appen](/sv/verktyg/#join) byggs med passregistrering kopplad till sin [varvräknare](/sv/artiklar/halla-koll-pa-varv-nar-du-stickar/). Det tänkta flödet är rakt: räkna varv, spara passet och behåll datum, tid, färdiga varv och varv per timme i projektet. Med tiden bildas en historik per projekt och över alla projekt.
+[KnitTools-appen](/sv/verktyg/#join) utvecklas med arbetspass vid [varvräknaren](/sv/artiklar/halla-koll-pa-varv-nar-du-stickar/). I den nuvarande implementationen startar du själv ett pass, registrerar räknarändringar medan du arbetar och stoppar sedan passet för att spara eller kasta sammanfattningen. Historiken behåller datum, tid samt räknarens start- och slutvärde i projektet. Tryck på räknaren startar inte tidtagningen och känner inte av aktiv stickning. Webbplatslänken gäller besked om lanseringen, inte nedladdning av appen.
 
-I KnitTools behöver du själv starta och stoppa arbetspassen i varvräknarflödet. De registrerade passen förblir kopplade till projektet, och tryck på varvräknaren startar inte tidsregistreringen automatiskt.
+För att lämna en paus utanför tiden avslutar och sparar du passet och startar ett nytt när du återvänder. Ett sparat pass kan raderas ur historiken, men historiken är ingen allmän redigerare för tidsuppgifter. Spara en rättad anteckning separat om du glömt start eller stopp. Insights använder sparade pass för total tid och minuter per varv. Siffrorna bygger på registreringarna, inte på oberoende upptäckt av stickning. Utgå inte från att alla diagram ingår i gratisnivån.
 
 ## Vad datan faktiskt berättar
 
 ### Varv per timme efter struktur
 
-För många stickare blir slätstickning den snabba grundytan. Andra strukturer sänker ofta tempot, eftersom de lägger till vändningar, aviga partier, diagramläsning, flätkorsningar, omslag eller minskningar.
+Slätstickning kan vara en jämförelse för ditt eget arbete. Andra strukturer kan kräva mer diagramläsning, flätkorsningar, omslag eller minskningar. Mät det aktuella avsnittet i stället för att anta en fast hastighet för en struktur.
 
 Exakta spann för varv per timme går inte att flytta mellan projekt. Ett smalt halsduksvarv, ett tröjvarv över kroppen och ett sockvarv är inte samma enhet, även innan garntjocklek och struktur räknas in.
 
-Siffrorna varierar mycket mellan stickare. Den användbara jämförelsen är inte din hastighet mot någon annans. Det är din hastighet i det här mönstret mot din hastighet i det förra.
+Även ditt eget tidigare projekt är direkt jämförbart bara om arbete och tidtagningsmetod liknar varandra. Annars är det underlag för en ny uppskattning.
 
 ### Tid per projektdel
 
 En tröja tar inte lika lång tid per centimeter överallt. Kroppen i slätstickning kan gå snabbt. Oket med flerfärgsstickning eller flätor kan bromsa. Ärmar på strumpstickor eller magic loop kan också ta längre tid än kroppen på en lång rundsticka, eftersom upplägget är pilligare.
 
-Passregistrering visar sådana skillnader. Om kroppen tog 20 timmar och oket tog 15 timmar för hälften så många varv, var den genomsnittliga tiden per varv i oket 50 % längre, alltså 1,5 gånger så lång. Det är användbart inför nästa oktröja.
+Anta att kroppen tog 20 timmar och oket 15 timmar för hälften så många varv. Tiden per varv i oket var då 50 % längre, alltså 1,5 gånger så lång: (15 ÷ 0,5) ÷ 20 = 1,5. Det beskriver dessa avsnitt, inte ändrad handhastighet eller tiden för ett ok med annan form.
 
-### Hastighetsutveckling över tid
+### Förändringar i tempo över tid
 
-Jämför din första socka med din femte. Dina varv per timme i slätstickning i januari och juni. Förändringen kan vara liten, stor eller ojämn, men då jämför du ditt eget arbete i stället för att gissa från minnet.
+Du kan jämföra den första sockan med den femte, eller liknande slätstickade avsnitt i januari och juni. Håll varvlängd och tidtagning jämförbara och notera ändringar i garn eller teknik.
 
-Hastighet är inte poängen med stickning för de flesta. Men att se sig själv bli mätbart bättre på något är tillfredsställande på ett sätt som är svårt i en hobby där framsteg annars mäts i "jag blev klar med en halsduk".
+Om det känns givande att följa ditt tempo kan du göra det. Högre hastighet är inget mått på arbetets kvalitet eller värde.
 
 ## Följa utan att fastna
 
@@ -81,22 +88,24 @@ Det finns en gräns mellan användbar data och kontraproduktiv självövervaknin
 
 Optimera inte för hastighet på bekostnad av glädje. Att sticka snabbare spelar ingen roll om processen slutar vara trevlig. Datan är till för planering och medvetenhet, inte för att göra en avkopplande hobby till ett produktivitetsprojekt.
 
-Jämför inte dina siffror med andra stickares. Handstorlek, stickstil, garnpreferens och erfarenhet påverkar hastighet. Någon annans 40 varv per timme i Fingering säger inget om dina 20.
+Någon annans exempel på 40 varv per timme kan inte värderas mot dina 20 utan jämförbar varvlängd, struktur, garn och tidtagning. Inget av talen är ett mål.
 
-Följ på den detaljnivå som är användbar. Data per pass, alltså tid och varv, räcker för de flesta syften. Tid per varv är överdrivet om du inte felsöker ett specifikt problem.
+Välj den detaljnivå som besvarar din fråga. Tid och färdiga varv per pass kan räcka för planering; tiden för ett varv eller en rapport kan hjälpa vid ett liknande avsnitt. Registrera montering separat utan varvhastighet.
 
-Om uppföljningen känns som en syssla i stället för ett verktyg, sluta. Datan är bara värd att samla om du faktiskt använder den. En sticktidsmätare som ligger i samma flöde som en varvräknare har låg friktion. Ett manuellt kalkylblad som inte uppdateras på veckor hjälper inte.
+Om uppföljningen känns som en plikt kan du avstå. KnitTools samlar passkontrollerna vid varvräknaren, men du startar och stoppar varje pass själv. Välj en metod du vill använda.
 
 ## Koppla tidsuppföljning till projektorganisering
 
-Tidsdata blir mer användbar när den hänger ihop med din [projektorganisering](/sv/artiklar/organisera-flera-stickprojekt/). Att veta att ett projekt inte har rörts på tre veckor är en sak. Att veta att du har lagt 35 timmar och att den uppskattade totalen är 50 ger bättre sammanhang när du ska avgöra om du ska fortsätta eller lägga det åt sidan.
+Tidsuppgifter kan stödja din [projektorganisering](/sv/artiklar/organisera-flera-stickprojekt/). Om du har registrerat 35 timmar och nu uppskattar hela arbetet till 50 timmar, återstår uppskattningsvis 15 timmar. Det är ingen uppmätt resttid: bedöm återstående avsnitt, montering och efterbehandling på nytt. Med antagna 5 tillgängliga arbetstimmar i veckan motsvarar det cirka 3 veckor, plus eventuell torktid eller annan väntan.
 
-För stickare med flera projekt visar tid per projekt också fördelningsmönster. Du kanske upptäcker att du lägger 80 % av sticktiden på den enkla sockan och 20 % på tröjan du egentligen vill få klar. Ibland räcker det att se siffrorna för att balansen ska skifta.
+35 ÷ 50 = 70 % av den uppskattade tidsbudgeten, inte bevis för att plagget är 70 % färdigt. Längd, varv, använt garn och tid mäter olika saker. Byt inte ut ett sådant procenttal mot ett annat utan stöd i konstruktionen.
+
+Med flera projekt kanske 80 % av den registrerade tiden gick till sockor och 20 % till en tröja. Använd samma datumintervall och undvik överlappande poster. Fördelningen gäller registrerad tid, inte hur färdiga projekten är.
 
 ## FAQ
 
 **Hur exakt behöver passregistreringen vara?**
-Några minuters precision räcker. Om du glömde starta timern de första fem minuterna eller stoppade den tio minuter efter att du lagt ner stickorna är datan fortfarande användbar för trender. Kasta inte ett pass bara för att tajmingen inte var exakt.
+Det beror på syftet och passets längd. Fem saknade eller tio extra minuter kan ge stor snedvridning i ett kort pass. Rätta kända fel, märk osäkra poster som uppskattningar och lämna dem utanför noggranna tempojämförelser. De kan fortfarande hjälpa vid grov tidsplanering.
 
 **Blir man faktiskt snabbare på att sticka med övning?**
 Det kan hända, men inte som en garanterat jämn kurva. Bekant garn, upprepade strukturer, färre misstag och mer bekväma handrörelser kan alla ändra tempot. En ny teknik kan först sakta ner dig och sedan gå snabbare när den inte kräver lika mycket uppmärksamhet.
@@ -105,4 +114,4 @@ Det kan hända, men inte som en garanterat jämn kurva. Bekant garn, upprepade s
 Det finns inget meningsfullt normalt. Hastighet beror på garntjocklek, struktur, varvlängd, sticktyp, stickstil och hur mycket uppmärksamhet mönstret kräver. Följ dina egna siffror och jämför med dig själv.
 
 **Borde jag följa tiden på varje projekt?**
-Följ projekt där datan är användbar: plagg med deadline, komplicerade projekt där du vill uppskatta återstående tid, eller projekt där du är nyfiken på tempot. En tankefri tv-halsduk behöver antagligen inte passloggning.
+Följ projekt där datan är användbar: plagg med deadline, komplicerade projekt där du vill uppskatta återstående tid, eller projekt där du är nyfiken på tempot. En enkel tv-halsduk behöver antagligen inte passloggning.

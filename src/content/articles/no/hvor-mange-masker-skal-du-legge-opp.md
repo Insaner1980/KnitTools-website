@@ -22,17 +22,19 @@ For å beregne oppleggstallet ganger du strikkefastheten din med ønsket bredde,
 
 ## Grunnberegningen
 
-Masker per centimeter fra prøvelappen, ganger bredden du vil ha. Det er grunn-oppleggstallet ditt.
+Masker per centimeter fra prøvelappen, ganger bredden du vil ha. Det er grunnantallet ditt.
 
 Hvis strikkefastheten er 2 masker per cm og du vil ha noe som er 25 cm bredt, legger du opp 50 masker.
 
 Hvis strikkefastheten er målt over 10 cm, del først. 20 masker over 10 cm gir 2 masker per cm.
 
-KnitTools [Oppleggskalkulator](/no/verktoy/oppleggskalkulator/) håndterer grunnregningen og avrunding til partall, men det hjelper fortsatt å vite hva et rimelig svar ser ut som. Hvis et 50 cm bredt teppepanel i worsted-garn visstnok bare trenger noen få titalls masker, er noe feil.
+KnitTools [oppleggskalkulator](/no/verktoy/oppleggskalkulator/) regner ut grunnantallet og avrunder til nærmeste partall; et helt oddetall avrundes oppover. Oppgi masker per 10 cm og bredde i cm, eller velg tommer og oppgi masker per 4 tommer og bredde i tommer. Enhetsbyttet omregner ikke verdiene. Vanlig 10 cm / 4 tommer-merking er omtrentlig: 4 tommer er nøyaktig 10,16 cm. Bevegelsesvidde, rapporter, balansemasker, kanter og sømmer må du ta hensyn til selv; kalkulatoren endrer ikke størrelsen på hele oppskriften.
 
 ## Mål strikkefastheten riktig
 
 Oppleggstallet er bare så godt som prøvelappen bak det. To feil skaper problemer igjen og igjen:
+
+Bruk prosjektets garn, pinner og maskemønster. Strikk prøvelappen frem og tilbake eller rundt slik arbeidet skal strikkes. Strikkefastheten i glattstrikk sier ikke hva bredden blir i vrangbord, hullmønster eller fletter.
 
 **Å måle ved kanten av prøvelappen.** Kantmasker er ikke pålitelige. Mål i midten, borte fra opplegg, avfelling og sidekanter.
 
@@ -44,15 +46,11 @@ Ingen prøvelapp ennå? [Måling av strikkefasthet](/no/artikler/male-strikkefas
 
 Du vil strikke et enkelt glattstrikket skjerf, 20 cm bredt, og strikkefastheten din er 18 masker per 10 cm.
 
-18 ÷ 10 = 1,8 masker per cm.
+18 ÷ 10 = 1,8 masker per cm. 20 × 1,8 = 36 masker. Oppgi 18 og 20 i kalkulatorens cm-modus: resultatet er 36.
 
-20 × 1,8 = 36 masker.
+Bytter du maskemønster, må du måle en ny prøvelapp. Hvis også dette mønsteret gir 1,8 masker per cm og krever et rent multiplum av 4 eller 6, passer 36. For et rent multiplum av 8 er valgene 32 og 40, omtrent 17,8 og 22,2 cm. Kontroller hele oppsettet før du velger.
 
-Det er grunnantallet. Hvis kanten skal strikkes i 2x2-vrangbord, altså et multiplum av 4, fungerer 36 allerede. Hvis kanten i stedet har en hullmønsterrapport på 6 masker, fungerer 36 fortsatt. Hvis rapporten er 8 masker, blir de nærmeste valgene 32 masker, litt smalere, eller 40 masker, litt bredere.
-
-Hvis målet på 20 cm beskriver det sentrale mønsterfeltet, gir én kantmaske på hver side utenfor feltet totalt 38 masker. Hvis de 20 centimeterne beskriver hele den ferdige bredden, skal kantmaskene inngå i de beregnede 36 maskene i stedet for å legges til etterpå.
-
-Regningen tar omtrent et halvt minutt. Å gjøre den før opplegget er raskere enn å oppdage etter seks pinner at skjerfet ble 15 cm bredt.
+Hvis 20 cm bare gjelder midtfeltet, gir 36 masker der pluss én separat kantmaske i hver side 38 totalt. Med samme strikkefasthet over hele stykket blir det omtrent 21,1 cm før sammensying. Hvis 20 cm inkluderer de to kantene og midtfeltet krever et multiplum av 8, bruker du hele formelen 8n + 2 (n = antall rapporter): (36 − 2) ÷ 8 = 4,25 rapporter. Fire eller fem rapporter gir 34 eller 42 masker totalt, omtrent 18,9 eller 23,3 cm. Ikke avrund totalen til et rapportmultiplum og legg kantene til etterpå. Annen strikkefasthet i kanten og bredde som går med i sømmen må beregnes separat.
 
 ## Justering for rapporter
 
@@ -60,9 +58,9 @@ Her blir det interessant. Den enkle multiplikasjonen over? Det er førsteutkaste
 
 De fleste maskemønstre gjentas over et fast antall masker, og oppleggstallet må passe til den rapporten. Du kan ikke bare lande på hvilket som helst tall og håpe at mønsteret går opp.
 
-Si at grunnberegningen gir 97 masker, men maskemønsteret gjentas over 6. De nærmeste brukbare tallene er 96 og 102. Da må du velge om litt smalere eller litt bredere gir mest mening for prosjektet. Som regel er svaret ganske tydelig når du tenker på det et øyeblikk.
+For eksempel gir 20 masker per 10 cm × 48,5 cm 97 masker. Med en ren rapport på 6 masker er valgene 96 og 102, altså 48 og 51 cm. Krever hele oppsettet 6n + 2, trekker du først fra de to ekstra maskene: (97 − 2) ÷ 6 ≈ 15,83. Velg 15 eller 16 rapporter og legg til de to maskene én gang: 92 eller 98 totalt, altså 46 eller 49 cm ved denne strikkefastheten.
 
-Dette er delen mange overser: noen mønstre trenger også kantmasker eller balansemasker utenfor rapporten. Hvis instruksjonen sier noe som `k2, *p2, k2; rep from *`, er de ekstra maskene en del av oppsettet. Ikke pynt. Hopper du over dem, balanserer ikke mønsteret over pinnen.
+Dette er delen mange overser: noen mønstre trenger også kantmasker eller balansemasker utenfor rapporten. Hvis instruksjonen sier noe som `2 rett, *2 vrang, 2 rett; gjenta fra *`, er de ekstra maskene en del av oppsettet. Ikke pynt. Hopper du over dem, balanserer ikke mønsteret over pinnen.
 
 Når du jobber med en rapport på for eksempel 8 masker pluss 2 balansemasker, er målet ikke bare "et multiplum av 8". Det er "et multiplum av 8, pluss 2". Vanlige formater og hva de gir:
 
@@ -71,128 +69,99 @@ Når du jobber med en rapport på for eksempel 8 masker pluss 2 balansemasker, e
 - "Multiplum av 8 + 2" -> 34, 42, 50, 58, 66
 - "Multiplum av 12 + 3" -> 27, 39, 51, 63, 75
 
-Verdt å merke seg: jo bredere arbeidet er, desto mindre betyr en liten justering. Å legge til eller ta bort 4 masker på et teppepanel endrer knapt noe. På en sokk? Annen sak.
+Kontroller bredden etter justeringen. Ved 20 masker per 10 cm endrer fire masker bredden med 2 cm, uansett arbeidets totale bredde. Om det passer, avhenger av ønsket passform.
 
 ## Kantmasker og jarekant
 
-Strikker du flate deler som skal sys sammen, betyr kantbehandlingen noe.
+Følg oppskriftens kantbehandling og sømmonn for deler som skal sys sammen. Kontroller om maskene allerede er med i antallet; ikke legg til to ekstra automatisk.
 
-Mange oppskrifter legger til én kantmaske i hver side. Noen bruker to. Hvis oppskriften ikke sier noe og du skal sy sammen, er én maske i hver side et vanlig startpunkt.
+For synlige kanter velger du kantmasker eller en bord og tar bredden med i planen. En bord i et annet maskemønster kan trenge egen måling av strikkefastheten. Sømmen bruker noe av den strikkede bredden, så skill mellom bredden før sammensying og den ferdige synlige bredden.
 
-For skjerf, tepper og andre deler med synlige kanter er ekstra kantmasker valgfrie, med mindre du vil ha en bestemt kantfinish. En kjedekant, der første maske på hver pinne løftes av, gir en ryddig linje som mange liker på skjerf.
-
-Rundstrikking trenger ikke kantmasker. Ingen sidekanter som skal sys.
+Vanlig sømløs rundstrikking har ingen sidekantmasker. Ekstra sammenføyningsmasker eller klippemasker følger egne instrukser i oppskriften.
 
 ## Bredde ved oppleggskanten mot bredde i kroppen
 
 Oppleggskanten og resten av stoffet oppfører seg ikke alltid likt. Noen opplegg blir stramme. Noen strekker seg mer. Noen bølger ut.
 
-Hvis oppleggskanten må matche kroppen pent, bruk et opplegg med nok elastisitet for prosjektet, eller prøv det vanlige trikset med å legge opp på en pinne én eller to størrelser større før du bytter til arbeidspinnen. Kanten blir løsere og nærmere kroppens naturlige bredde.
+Velg et opplegg som passer kanten, og prøv det på en prøvelapp. En tykkere pinne gir større maskeløkker, men gjør ikke alene long-tail-opplegget mer elastisk: garnet mellom maskene trenger også plass. Test kanten mot stoffet og åpningen den skal passe til.
 
 Når opplegget er en del av passformen, som sokkemansjetter og luekanter, betyr spenningen i kanten like mye som selve maskeantallet.
 
 ## Opplegg til vrangbord
 
-Vrangbord trekker seg smalere enn glattstrikk ved samme maskeantall. Hvis oppskriften ber deg [øke jevnt](/no/artikler/fordele-okninger-og-fellinger-jevnt/) etter vrangborden, håndterer overgangspinnen forskjellen. Det er hele poenget.
+Mål vrangborden i tilstanden oppskriften angir; ikke bruk strikkefastheten fra glattstrikk i stedet. Følg overgangen, inkludert eventuelle [jevnt fordelte økninger](/no/artikler/fordele-okninger-og-fellinger-jevnt/).
 
-Noen oppskrifter beholder samme maskeantall gjennom vrangbord og kropp, andre legger opp færre masker til vrangbord og øker etterpå. Designer du selv, bør det være et bevisst valg. De to løsningene ser ulike ut: samme maskeantall gir en ren overgang, mens færre vrangbordmasker fulgt av økninger gir en tydeligere kant mellom vrangbord og kropp.
-
-For synlige vrangbordkanter på genserkanter kan tubular cast-on eller German twisted cast-on gi en mer elastisk kant enn vanlig long-tail. Long-tail er ikke dårlig, men den kan kjennes fastere enn de to.
+Noen oppskrifter beholder antallet gjennom vrangbord og bol, andre endrer det. I din egen modell må du prøve begge strukturene og overgangen. En endring i maskeantallet garanterer ikke en bestemt form eller en jevn overgang.
 
 ## Opplegg til rundstrikking
 
-Beregningen er den samme som for flatt arbeid: strikkefasthet × ønsket omkrets. For luer og sokker er målomkretsen ofte mindre enn kroppsmålet fordi stoffet trenger negativ bevegelsesvidde. Selve opplegget får én ekstra kontroll: arbeidet må samles uten å vri seg.
+Gang masker per cm fra en rundstrikket prøvelapp med ønsket ferdig omkrets. Omkretsen av et rør er ikke bredden når det ligger flatt. Bestem bevegelsesvidden først: legg ønsket positiv bevegelsesvidde til kroppsmålet, eller trekk fra valgt negativ bevegelsesvidde. Mengden avhenger av oppskrift, stoff og passform; det finnes ingen felles reduksjon for alle luer eller sokker.
 
-Før du strikker første omgang, legg pinnen flatt og sjekk at alle maskene vender samme vei. Oppleggskanten skal løpe langs innsiden av pinnen uten spiral. Hvis du oppdager vridningen ved slutten av den første omgangen, kan du fortsatt rette den ved skjøten. Etter flere omganger er det som regel ryddigst å rekke opp.
+Kontroller før sammenføyningen at oppleggskanten går rundt uten spiral. Hvis det sammenføyde arbeidet er vridd, rekk opp nok til å rette det før du fortsetter.
 
-For å lukke det lille gapet ved omgangsstart legger mange opp én ekstra maske og feller den bort når de samler arbeidet. Det arbeidende maskeantallet blir riktig, og skjøten ser penere ut enn om første omgang starter med et hull.
+Hvis sammenføyningsmetoden bruker en ekstra maske, fjerner du den som anvist ved sammenføyningen, slik at arbeidsantallet blir det planlagte. Den skal ikke legges til automatisk i alle rundstrikkede prosjekter.
 
-Til tå-opp-sokker lager Judy's magic cast-on to parallelle rader levende masker uten søm i tåen. Til sokker ovenfra og ned legges vrangborden vanligvis opp flatt, ofte med long-tail eller German twisted, og samles deretter til en ring.
-
-Omtrentlige oppleggstall for enkle voksensokker med negativ bevegelsesvidde:
-
-- Worsted, ca. 16 masker per 10 cm: 32-40 masker
-- DK, ca. 24 masker per 10 cm: 48-56 masker
-- Sport, ca. 26 masker per 10 cm: 52-60 masker
-- Fingering, ca. 30-32 masker per 10 cm: 60-72 masker
-
-Bruk dem som startpunkter, ikke ferdige størrelsesregler. Mål fotomkretsen der foten er bredest, trekk fra den negative bevegelsesvidden sokkestoffet trenger, og gang med din egen strikkefasthet. Mindre føtter trenger færre masker, større føtter flere, og vrangbordmansjetten tilgir mer enn glattstrikk.
+Til sokker fra tåen lager Judy's magic cast-on to grupper levende masker uten tåsøm; tåens forming bestemmer startantallet. Til sokker fra skaftet må vrangborden kontrolleres separat, også om oppleggskanten kan strekkes over hælen.
 
 ## Oppleggsmåter kort sammenlignet
 
 Riktig metode avhenger av hva kanten skal gjøre.
 
-**Long-tail.** Standardmetoden. Moderat elastisk, pen og brukbar til det meste. Krever at du beregner garnhalen før du begynner; en brukbar tommelfingerregel er tre ganger oppleggsbredden, pluss litt ekstra. Mindre elastisk enn tubular eller German twisted.
+**Long-tail.** Et allsidig opplegg med tråden fra nøstet og en avmålt garnende. Elastisiteten avhenger av utførelsen. Beregn garnenden før start; se FAQ nedenfor.
 
-**Strikket opplegg.** Lett å lære og lett å huske når hendene kan bevegelsen. Kanten blir mindre polert enn long-tail. Bra for nybegynnere og for å legge opp masker midt i en pinne.
+**Strikket opplegg.** Nye masker strikkes i en eksisterende maske. Nyttig når du lærer opplegg og når masker skal legges til underveis.
 
-**Cable cast-on.** Fastere og mer dekorativt enn strikket opplegg. Mindre elastisk. Nyttig til knapphull og kanter som ikke trenger å strekkes.
+**Cable cast-on.** Nye masker dannes mellom de to foregående maskene. Gir en relativt fast kant med begrenset elastisitet, for eksempel til knapphull.
 
 **German twisted, eller old Norwegian.** En long-tail-variant med ekstra elastisitet. Svært god til sokkemansjetter og vrangbordkanter som skal over en fot eller et hode.
 
-**Tubular cast-on.** Lager en brettet, hul kant som glir pent inn i 1x1- eller 2x2-vrangbord. En polert kant til vrangbordkanter. Mer komplisert å sette opp.
+**Italiensk opplegg med støttepinner (tubular cast-on).** Danner en avrundet vrangbordkant. Følg et oppsett for akkurat 1 rett, 1 vrang eller 2 rett, 2 vrang; maskerekkefølgen for det første må omorganiseres for å passe det andre.
 
 **Provisorisk opplegg.** Holder levende masker som kan plukkes opp og strikkes i motsatt retning senere. Brukes i sjal ovenfra og ned, falder som brettes inn, og situasjoner der oppleggskanten skal bearbeides senere.
 
 **Judy's magic cast-on.** Tå-opp-opplegg for sokker som gir to parallelle maskerader uten søm i tåen.
 
-Du trenger ikke kunne alle. Mange strikkere bruker long-tail til nesten alt en stund, og lærer deretter én eller to spesialmetoder når prosjektene krever det.
-
 ## Spenning i oppleggskanten
 
-For stramme opplegg låser nederkanten på en genser eller sokk. Kroppen vil slappe av utover, mens oppleggskanten holder igjen som en snor. For løse opplegg blafrer og ser slurvete ut. Målet er at kanten skal matche arbeidets naturlige bredde.
+Et stramt opplegg kan begrense et ellers riktig dimensjonert arbeid; en løs kant kan bølge. Test opplegget sammen med noen pinner eller omganger i det aktuelle maskemønsteret.
 
-To praktiske løsninger når opplegget ofte blir for stramt:
+Ved long-tail-opplegg lar du det være plass mellom maskene i stedet for å stramme hver nye maske helt inntil den forrige. En tykkere pinne eller to pinner sammen gjør løkkene større, men garanterer ikke nok garn mellom dem. Prøv om nødvendig en elastisk metode, som German twisted, og kontroller igjen.
 
-1. Legg opp med en pinne én eller to størrelser større, og bytt til arbeidspinnen på første pinne.
-2. Bruk en mer elastisk metode, for eksempel German twisted eller tubular, i stedet for long-tail.
-
-Å legge opp for løst er mindre vanlig, men skjer med noen håndgrep og garntyper. Løsningen er ofte å gå ned en pinnestørrelse bare for oppleggspinnen, eller bruke en fastere metode som cable cast-on.
+Hvis kanten bølger, juster spenningen eller pinnestørrelsen for denne metoden og lag en ny prøve. Én eller to pinnestørrelsers endring er ingen generell løsning.
 
 ## Vanlige oppleggstall for standardprosjekter
 
-Raske rimelighetssjekker, ikke erstatning for oppskriftens tall. For worsted-garn ligger CYCs Medium-intervall omtrent på 16-20 masker per 10 cm, så samme oppleggstall kan gi ulik ferdig bredde avhengig av prøvelappen din.
+Garntykkelsen alene gir ikke noe standardantall til kluter, skjerf, halser, luer eller sokker. Velg ferdig bredde eller omkrets, ta hensyn til bevegelsesvidden og bruk målt strikkefasthet og hele formelen i oppskriften.
 
-- **Klut:** 36-48 masker
-- **Skjerf:** 30-50 masker, avhengig av bredde
-- **Hals:** 100-140 masker rundt, avhengig av omkrets og bevegelsesvidde
-- **Voksenlue:** ofte 80-108 masker rundt, avhengig av strikkefasthet og negativ bevegelsesvidde
-- **Småbarnslue:** ofte 60-84 masker rundt
-- **Babylue:** ofte 48-76 masker rundt
-- **Voksensokker, worsted:** 32-40 masker
-- **Voksensokker, fingering:** 60-72 masker
-
-Genserdeler varierer for mye til at ett intervall er nyttig. Det er nettopp derfor oppskrifter gir egne tall for hver størrelse, og derfor strikkefasthetsbasert beregning betyr noe når du endrer noe.
-
-For alle disse er [Oppleggskalkulatoren](/no/verktoy/oppleggskalkulator/) raskere når strikkefastheten er kjent.
+[Oppleggskalkulatoren](/no/verktoy/oppleggskalkulator/) gir et grunnantall fra disse målene. Avrundingen til partall kontrollerer ikke vrangbord, luefellinger, hælkonstruksjon eller plaggets forming.
 
 ## Ovenfra og ned eller nedenfra og opp
 
-For plagg som strikkes nedenfra og opp, er oppleggstallet kroppens omkrets ved falden. For plagg som strikkes ovenfra og ned, starter opplegget ved halsen og er mye mindre.
+Til en genser nedenfra og opp bruker du målet ved nederkanten eller på den enkelte delen, ikke automatisk brystomkretsen. Til en genser ovenfra og ned følger du halsåpningens konstruksjon.
 
-En nedenfra-og-opp-genser i worsted med 100 cm ferdig brystvidde trenger 200 masker ved falden hvis strikkefastheten er 20 masker per 10 cm. En ovenfra-og-ned-versjon av samme genser legger kanskje opp 80 masker ved halsen og øker derfra.
+En rett, rundstrikket bol med 100 cm ferdig omkrets ved nederkanten og 20 masker per 10 cm der gir 20 ÷ 10 × 100 = 200 masker før tilpasning til mønsteret. 200 ÷ 2 = 100 cm. Dette forutsetter samme strikkefasthet og antall i nederkanten; det bestemmer ikke antallet ved halsen eller på et separat for- eller bakstykke.
 
-Ulike startpunkter, samme ferdige plagg. Oppskriften avgjør hvilken beregning som gjelder. Hvis du designer selv, påvirker valget hvilket tall du må regne ut først.
+Et nytt oppleggstall alene endrer ikke størrelsen på hele genseren. Kontroller også forming, strikkefasthet i høyden, lengder, ermer og halsåpning.
 
 ## FAQ
 
 **Bør jeg legge opp et oddetall eller partall?**
-Det avhenger av maskemønsteret. Glattstrikk bryr seg ikke. Vrangbord og strukturmønstre gjør ofte det. 1x1-vrangbord vil ha et partall, mens 2x2-vrangbord vil ha et multiplum av 4, eller et multiplum av 4 pluss 2 hvis begge kanter skal se like ut.
+Vanlig rundstrikket vrangbord med 1 rett, 1 vrang trenger et partall; 2 rett, 2 vrang trenger et multiplum av 4. Frem og tilbake bestemmer kantene: 1 rett, 1 vrang som starter og slutter med én rett trenger 2n + 1; 2 rett, 2 vrang som starter og slutter med to rette trenger 4n + 2. Legg til separate kantmasker bare hvis oppskriften krever det og de ikke allerede er med.
 
 **Hva om oppskriften gir et oppleggstall, men strikkefastheten min ikke stemmer?**
-Det publiserte oppleggstallet vil gi en annen bredde enn planlagt. Enten må du treffe oppskriftens strikkefasthet, eller regne på nytt fra din egen.
+Oppskriftens antall gir da en annen bredde. Treff oppskriftens strikkefasthet, eller vurder hele tilpasningen, også strikkefastheten i høyden og formingen. Et nytt oppleggstall alene endrer ikke hele størrelsen.
 
 **Teller løkkeknuten som en maske?**
-For long-tail, ja. For de fleste strikkede opplegg også. For cable cast-on er løkkeknuten den første masken. Noen metoder hopper over den. Følg mekanikken i akkurat det opplegget du bruker.
+I vanlige long-tail-, strikkede og cable-opplegg som begynner med en løkkeknute, teller knuten på pinnen som første maske. Andre varianter utelater knuten eller fjerner en midlertidig knute. Følg den konkrete metoden.
 
 **Hvor lang hale trenger jeg til long-tail-opplegg?**
-Omtrent tre ganger den planlagte oppleggsbredden, pluss litt ekstra til å feste tråden. For 200 masker over 100 cm blir det omtrent 300 cm hale. Hellere for lang enn for kort. Går halen tom midt i opplegget, må du begynne på nytt.
+En breddefaktor er bare et anslag. [Purl Soho](https://www.purlsoho.com/create/long-tail-cast-on/)s long-tail-veiledning foreslår omtrent 3,5 ganger bredden: 100 × 3,5 = 350 cm. Beregn ekstra garn til festing eller søm. Garn, håndlag og teknikk påvirker behovet; eksemplet med 200 masker garanterer ingen bestemt garnlengde.
 
 **Kan jeg bruke cable cast-on til en elastisk kant, som en sokkemansjett?**
-Helst ikke. Cable cast-on er fastere enn long-tail og merkbart mindre elastisk. Til sokkemansjetter og andre kanter som skal over en fot, hånd eller et hode, er long-tail med større pinne, German twisted eller tubular bedre valg.
+Vanlig cable cast-on har begrenset elastisitet. Test at sokkeåpningen kan strekkes over hælen. Long-tail med nok plass mellom maskene, German twisted eller et passende italiensk opplegg er alternativer. En tykkere pinne alene garanterer ikke elastisitet.
 
 **Hvordan legger jeg opp til rundstrikking?**
-Legg opp målomkretsen i masker, legg pinnen flatt for å sjekke at ingenting er vridd, og samle deretter til en ring. Ingen kantmasker trengs. Vil du lukke det lille gapet ved skjøten, legg opp én ekstra maske og fell den bort når du samler arbeidet, slik at sluttantallet fortsatt stemmer.
+Bruk ferdig omkrets og rundstrikket strikkefasthet, tilpass antallet til oppskriften og kontroller vridning før sammenføyningen. Vanlig sømløst arbeid trenger ingen sidekantmasker. Legg til og fjern en ekstra sammenføyningsmaske bare hvis metoden krever det.
 
 **Oppskriften sier "legg opp X masker løst". Hvor løst er løst?**
-Løst nok til at oppleggskanten kan strekke seg like mye som selve stoffet. Den praktiske løsningen er å legge opp med en pinne én eller to størrelser større enn arbeidspinnen, eller bruke en mer elastisk metode som German twisted.
+Løst nok til åpningen og stoffet oppskriften krever, uten uønsket bølging. Prøv metoden og avstanden mellom maskene; en annen pinnestørrelse er et forsøk, ingen garanti.

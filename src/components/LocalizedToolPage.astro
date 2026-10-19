@@ -55,6 +55,7 @@ const toolsIndexPath = getToolsIndexPath(lang);
   lang={lang}
   alternates={alternates}
   enableRevealAnimations
+  contentPage
 >
   <ToolStructuredData
     name={schemaName}
@@ -106,7 +107,7 @@ const toolsIndexPath = getToolsIndexPath(lang);
     </div>
   </section>
 
-  <ClosingCTA variant="page" lang={lang} />
+  <ClosingCTA variant="page" lang={lang} contentPage />
   {enableSizeChartControls && <SizeChartControls />}
   {enableResponsiveTableControls && <ResponsiveTableControls />}
 </PageLayout>
@@ -549,6 +550,7 @@ const toolsIndexPath = getToolsIndexPath(lang);
   }
 
   .form-card :global(.abbr-def) {
+    overflow-wrap: anywhere;
     font-family: var(--body-ed);
     font-size: 15px;
     line-height: 1.55;

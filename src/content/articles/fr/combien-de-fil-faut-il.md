@@ -18,49 +18,43 @@ translationKey: "how-much-yarn-do-i-need"
 
 Manquer de fil aux trois quarts d'un projet a quelque chose de particulièrement décourageant. Le bain n'existe plus. La boutique est en rupture. Ou la pelote de remplacement semblait assez proche en magasin, puis complètement fausse une fois tricotée à côté de l'originale. À 5 cm du rabattage, tout le projet s'arrête. Cela arrive plus souvent que ça ne devrait, et une meilleure planification en évite une bonne partie.
 
-La quantité de fil nécessaire dépend de quatre choses : les dimensions du projet, l'épaisseur du fil, le point utilisé et l'échantillon. Une bonne estimation n'est pas une devinette. Il faut simplement bien renseigner ces quatre éléments. Si tu les as, l'estimation devient étonnamment proche. Si tu en ignores un, tu joues à pile ou face.
+La quantité de fil dépend des dimensions, de l'épaisseur du fil, du point, du nombre de mailles et de rangs mesurés sur l'échantillon, et de la construction. Pars de la quantité prévue pour ta taille dans le modèle, puis examine l'effet de ton fil et de tes modifications.
 
 ## Fourchettes rapides par type de projet
 
 Parfois, il te faut seulement un ordre de grandeur avant d'acheter. Pas un calcul précis. Juste une idée de l'échelle.
 
-Un bonnet adulte simple en worsted tient généralement dans une ou deux pelotes de 100 g. Environ 140 à 230 m selon la taille et selon qu'il y a un bord replié ou non. Les écharpes tournent autour de quelques centaines de mètres, mais la largeur et la longueur font vite bouger le chiffre. Une écharpe étroite en fingering et un grand col chunky ne vivent pas dans le même monde de métrage, même si les deux sont des "écharpes".
+Un tableau publié donne un premier repère. Le [guide de Lion Brand](https://www.lionbrand.com/pages/how-much-yarn-do-i-need) indique par exemple 200–225 yards, soit environ 183–206 m, pour un bonnet dans la catégorie Medium. Cette ligne ne précise ni dimensions finies, ni échantillon, ni point : ce n'est donc pas une quantité d'achat valable pour tous les bonnets adultes. Pour une écharpe, un pull ou une couverture, cherche un modèle aux dimensions et à la construction prévues.
 
-Les pulls adultes sont des projets à quatre chiffres en mètres. Un pull près du corps en DK peut demander environ 1 350 m ou plus. Un gilet oversize à torsades en worsted peut dépasser 1 800 m. Les couvertures montent vite dans les milliers, et un grand plaid de lit peut avaler 2 700 m ou plus.
-
-C'est une échelle, pas une précision. Un bonnet torsadé demande plus de fil qu'un bonnet simple. Un pull court et un pull longueur tunique ne jouent pas dans la même catégorie. Une couverture très texturée consomme plus qu'un rectangle en jersey.
-
-Pour une estimation liée à ton projet, l'[estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) de KnitTools part du type de projet, de la taille et de l'épaisseur du fil plutôt que d'une moyenne unique.
+[Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) — Quantités de référence de modèles nommés, pas une prévision personnalisée de consommation. Choisis un projet, une taille d’un modèle nommé et une unité. Le résultat est la quantité de référence de ce modèle, pas une prévision pour ton propre projet.
 
 ## Comment l'épaisseur de fil change le total
 
-Un fil plus fin signifie plus de mailles pour 10 cm. Plus de mailles pour 10 cm signifie plus de mailles au total. Plus de mailles au total signifie généralement plus de métrage. Jusque-là, c'est simple.
+L'épaisseur du fil n'est pas son poids en grammes. Un fil plus fin tricoté plus serré change à la fois le nombre de mailles et la longueur consommée par maille. L'épaisseur seule ne donne donc pas le besoin total. Lis la longueur et le poids réels sur l'étiquette. Deux pelotes de 100 g n'ont pas forcément le même métrage, et une même longueur ne garantit pas le même tissu.
 
-Mais voilà le point important. Toutes les pelotes ne contiennent pas la même longueur. Un fil fingering met beaucoup plus de mètres dans 100 g qu'un worsted, donc un pull en fingering peut demander plus de mètres tout en utilisant à peu près le même poids total de fil. Une pelote de fingering de 100 g peut contenir 365 m. Une pelote bulky de 100 g peut contenir 100 m. Même poids sur la balance, longueurs complètement différentes.
-
-C'est pour ça que le métrage est le nombre qui compte, pas "combien de pelotes". Deux pelotes de 100 g peuvent contenir des longueurs très différentes selon la fibre et la marque. La soie ne se tasse pas comme la laine. Un fil à un brin ne se comporte pas comme un fil retordu à plusieurs brins. Une pelote de 100 g d'une marque peut contenir beaucoup plus de fil qu'une autre. Si tu ne sais pas dans quelle catégorie se situe ton fil, le [tableau des épaisseurs de fil](/fr/outils/epaisseurs-de-fil/) aide à comparer.
+Distingue le métrage total nécessaire, le poids du fil et le nombre de pelotes à acheter. Le [tableau des épaisseurs de fil](/fr/outils/epaisseurs-de-fil/) explique les catégories ; une catégorie ne correspond pas à un métrage fixe par pelote.
 
 ## Calculer à partir de ton échantillon
 
-L'estimation la plus fiable commence par un vrai échantillon.
+Un échantillon représentatif permet de vérifier le nombre de mailles et de rangs et de mesurer la consommation. Le nombre de mailles et de rangs sur une distance ne donne pas, à lui seul, les mètres consommés par maille.
 
-L'échantillon te dit combien de mailles et de rangs tiennent dans une mesure donnée. Les dimensions du projet te disent quelle surface de tissu tu vas fabriquer. Mets les deux ensemble et tu t'approches beaucoup plus du vrai nombre de mailles que n'importe quelle règle générale. C'est le cœur du calcul.
+Pour un rectangle fictif de 50 cm de large et 62,5 cm de long, avec 18 mailles et 24 rangs pour 10 cm : 50 × 18 / 10 = 90 mailles et 62,5 × 24 / 10 = 150 rangs. Soit 90 × 150 = 13 500 mailles. Ce calcul exclut les mises en forme, bordures et finitions ; il ne représente pas un pull entier.
 
-Voilà comment ça marche en pratique. Disons que ton échantillon donne 18 mailles et 24 rangs pour 10 cm. Le devant d'un pull mesure 50 cm de large et 62,5 cm de long. Cela donne 90 mailles en largeur et 150 rangs en hauteur. Multiplie les deux : 13 500 mailles pour le devant seul. À partir de là, si tu sais combien de fil consomme chaque maille (ce que tu peux mesurer ou estimer à partir de ton échantillon), le métrage total devient un problème de calcul plutôt qu'une supposition.
+Pour estimer par surface, utilise le fil, les aiguilles, le point et le mode de travail du projet, à plat ou en rond. Lave et sèche comme l'ouvrage fini, puis mesure une fois l'échantillon entièrement sec. La surface doit correspondre au fil pesé ou mesuré : ne divise pas le poids de tout l'échantillon par la seule zone centrale. Traite séparément les bordures différentes et les bouts de fil libres. La balance doit être assez précise pour la taille de l'échantillon.
 
-Tu n'as pas besoin de faire chaque estimation à la main. Un calculateur comme l'[estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) donne rapidement une fourchette selon le type de projet, la taille et l'épaisseur du fil, avant de comparer cette fourchette avec ton modèle, ton échantillon et l'étiquette du fil.
+Calcule : fil consommé par l'échantillon × surface prévue / surface de l'échantillon. La [méthode de Rita Buchanan](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf) décrit ce principe. Estime séparément les pièces mises en forme et les différents points, puis prévois coutures, bordures et fil d'échantillonnage. Le calcul par surface ne garantit pas le besoin total d'un vêtement.
 
-C'est quand même utile de comprendre les ordres de grandeur. Si un calculateur annonce 365 m pour une couverture de lit, quelque chose cloche. Des milliers de mètres ? Au moins plausible. Ce contrôle instinctif repère les erreurs de saisie avant que tu achètes du fil à partir d'elles. Même un échantillon approximatif te rapproche plus du réel que de sauter l'étape. Un échantillon tricoté le soir, bloqué pendant la nuit, mesuré le matin. Ce n'est pas un énorme investissement pour la confiance que ça donne.
+[Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) — Quantités de référence de modèles nommés, pas une prévision personnalisée de consommation. Choisis un projet, une taille d’un modèle nommé et une unité. Le résultat est la quantité de référence de ce modèle, pas une prévision pour ton propre projet.
 
 ## La méthode de pesée pour les pelotes entamées
 
 Tu as des pelotes entamées dans ton stock ? Une balance de cuisine devient ton meilleur outil.
 
-Prends deux nombres sur l'étiquette : le poids total et le métrage total. Si une pelote complète de 100 g contient 200 m et que la pelote restante pèse 63 g, il reste environ 126 m. Calcul rapide : poids restant divisé par poids complet, multiplié par métrage total. Suffisamment précis pour planifier.
+Utilise l'étiquette de ce fil précis et pèse uniquement le fil sec, sans étiquette ni tube en carton. Exemple fictif : une pelote de 100 g contient 200 m et le reste pèse 63 g. Le calcul donne 63 / 100 × 200 = 126 m. C'est une estimation fondée sur le rapport de l'étiquette, pas une mesure de la longueur restante.
 
-Une balance de cuisine qui mesure au gramme fonctionne très bien. Un pèse-personne, non. Pas du tout. Il te faut une précision au gramme, pas un arrondi au demi-kilo.
+Vérifie la résolution et la précision de la balance. Une lecture au gramme peut convenir à un reste important, mais être trop grossière pour un petit reste ou un échantillon. Les valeurs arrondies de l'étiquette et de la balance ne sont pas des mesures exactes.
 
-Cette astuce fonctionne aussi en cours de projet. Tricote une section, pèse ce qu'il reste, vérifie si ça tient encore pour la suite. Si tu es sur la dernière pelote et que la manche n'est pas terminée, la pesée te dit si tu es dans les temps ou si tu vas manquer. Certaines personnes pèsent après chaque grande section sur les projets où le métrage est serré. D'autres ne pèsent qu'une fois, quand la pelote commence à paraître légère.
+Peser en cours de travail indique la quantité restante. Compare-la à une estimation séparée des parties à finir ; le poids seul ne prédit pas la consommation de la prochaine manche ou bordure.
 
 Tu as perdu l'étiquette ? Si tu connais le nom du fil, le métrage par pelote est souvent indiqué sur le site du fabricant ou sur Ravelry. Sans aucune information d'étiquette, le poids seul n'aide pas beaucoup, parce qu'il faut les deux nombres pour que le calcul fonctionne.
 
@@ -68,54 +62,46 @@ Très pratique aussi pour évaluer les restes de projets précédents. Bonnets, 
 
 ## Ce qui consomme du fil en plus
 
-Certains choix de construction utilisent discrètement plus de fil que le jersey. C'est là que les estimations dérapent.
+**Torsades et points texturés.** Mesure le point utilisé au lieu d'ajouter le même pourcentage à toutes les torsades. Un échantillon en jersey ne représente pas une partie en torsades ou en côtes aux mêmes dimensions finies.
 
-**Les torsades** sont le grand cas classique. Chaque croisement tire plus de fil à travers le tissu, parce que les mailles se déplacent latéralement au lieu de s'empiler droit. Plus la torsade est large, plus chaque croisement consomme. Une petite torsade corde sur 4 mailles ajoute un peu. Une torsade tressée sur 12 mailles ajoute beaucoup plus. Un pull aran très torsadé demande une marge plus large qu'un pull en jersey aux mêmes dimensions. Si tout le corps est torsadé, n'estime pas à partir d'un métrage de jersey simple. Tu risques de manquer.
+**Plusieurs couleurs.** Utilise les quantités du modèle par couleur ou mesure la consommation de chaque fil sur un motif complet représentatif. En jacquard à fils tirés, les flottés au dos consomment aussi du fil : la surface de couleur visible ne suffit pas. En intarsia, chaque zone a son propre fil ; prévois raccords et bouts à rentrer. Arrondis l'achat à des pelotes entières séparément pour chaque couleur.
 
-Le jacquard à fils tirés transporte le fil à l'arrière du tissu, et ces fils flottants s'additionnent d'une manière peu évidente quand on regarde seulement le diagramme sur papier. La couleur principale demande souvent plus que prévu. Les couleurs contrastantes disparaissent plus vite dans les zones jacquard qu'on ne le croit en regardant l'endroit de l'ouvrage. La longueur des flottés compte aussi. Attraper les fils tous les 3 ou 4 mailles utilise un peu plus de fil que les laisser courir longtemps, même si le tissu se comporte mieux. L'intarsia est différent, parce que chaque zone de couleur a son propre fil, sans longs flottés. Pour tout projet multicolore, estime d'abord le métrage total, puis répartis-le selon la surface réellement couverte par chaque couleur.
+Avec deux fils tenus ensemble, vérifie si le modèle donne une quantité par fil ou un total pour les deux. Chaque fil parcourt la partie travaillée. Ne partage pas la longueur d'un seul fil entre les deux et ne double pas une quantité qui les inclut déjà.
 
-Les côtes resserrent le tissu. Les points texturés denses augmentent aussi la quantité de fil utilisée par centimètre de largeur. Si tout le projet est en côtes ou très texturé, une estimation en jersey simple sous-comptera.
-
-**Le montage long-tail.** Laisse plus de longueur de fil que tu ne crois. Surtout sur les grands montages de 200 mailles ou plus, la longueur de départ peut avaler une quantité surprenante de fil. Manquer de fil au milieu du montage veut dire recommencer.
-
-Les coutures consomment aussi du fil. Pas énormément, mais c'est facile à oublier.
+**Montage à longue queue, coutures et bouts de fil.** Compte-les avec l'échantillonnage et les finitions. Vérifie ce que la quantité du modèle comprend déjà avant d'ajouter une réserve.
 
 ## La règle de "prendre une pelote en plus"
 
-Achète une pelote en plus si le fil est disponible et si le budget le permet. C'est tout. C'est la règle.
-
-L'estimation de fil s'approche du réel. Elle ne devine pas l'avenir. Cette pelote supplémentaire est une assurance bon marché comparée au fait de manquer de quelques mètres à la fin d'un projet. Beaucoup de boutiques acceptent les retours de pelotes non ouvertes dans un délai raisonnable, donc le risque est faible. Et si elles ne la reprennent pas, une pelote de secours reste plus utile qu'un projet bloqué pour une demi-manche.
+Une pelote supplémentaire n'est pas une règle universelle. La réserve dépend du métrage de la pelote, du projet et des modifications. Prévois échantillons, finitions et incertitude, puis arrondis le total aux pelotes entières supérieures. Ne compte pas deux fois une marge déjà incluse dans le modèle. Achète le même bain si possible ; [Lion Brand explique les différences entre bains](https://support.lionbrand.com/support/solutions/articles/17000035215-what-are-dye-lots-can-i-order-more-of-the-same-lot-). Vérifie les conditions de retour de la boutique.
 
 C'est encore plus vrai avec les fils teints à la main, les petits bains ou les fils arrêtés, où retrouver une pelote assortie plus tard peut être impossible.
 
 ## Estimer depuis un modèle ou créer soi-même
 
-Les modèles publiés indiquent le métrage. Commence là. Ce nombre est souvent la meilleure base disponible, surtout si la créatrice donne clairement les dimensions finies et l'échantillon.
+Pars de la quantité indiquée pour la taille choisie et vérifie les dimensions finies ainsi que l'échantillon demandé. La quantité peut être en mètres, yards, grammes ou pelotes. Grammes et pelotes nécessitent les informations de l'étiquette du fil nommé dans le modèle.
 
-Mais le métrage d'un modèle a ses limites. Il suppose que tu tricotes exactement la taille indiquée, dans un fil aux caractéristiques proches, avec l'échantillon de la créatrice. Change un de ces éléments et le nombre bouge.
+Quand tu [remplaces un fil](/fr/articles/remplacer-un-fil-dans-un-modele/), convertis d'abord la quantité d'origine en longueur. Dans l'[exemple de DROPS](https://www.garnstudio.com/lesson.php?id=14&cid=8), 300 g d'un fil de 170 m pour 50 g donnent 300 / 50 × 170 = 1 020 m. Un fil de remplacement de 150 m pour 50 g demande 1 020 / 150 = 6,8 pelotes, arrondies à 7 pelotes : 350 g et 1 050 m. Les 300 g sont l'hypothèse de l'exemple, pas un besoin général pour un pull. Les 30 m restants après arrondi ne constituent pas automatiquement une réserve suffisante.
 
-Tu crées à partir de zéro ou tu fais de grosses modifications ? Le métrage du modèle cesse d'être fiable. Corps plus long, taille plus grande, point différent ou fil d'une autre épaisseur déplacent tous le total. Ajouter 7 à 8 cm de longueur au corps d'un pull en worsted peut facilement ajouter 90 à 180 m au projet.
+Garde la même unité de longueur. [Selon le NIST, 1 yard vaut exactement 0,9144 m](https://www.nist.gov/pml/owm/si-units-length). Multiplie les yards par 0,9144 pour obtenir des mètres ; divise les mètres par 0,9144 pour obtenir des yards. Conserve la longueur non arrondie jusqu'au calcul des pelotes, puis arrondis leur nombre au supérieur.
 
-Quand tu [remplaces un fil](/fr/articles/remplacer-un-fil-dans-un-modele/), fais correspondre le métrage total plutôt que le nombre de pelotes. Un modèle qui demande "8 pelotes" n'est utile que si tu utilises le même fil. Si tu as changé pour un fil avec un autre métrage par pelote, le nombre de pelotes ne veut plus rien dire. Fais correspondre les mètres. Puis vérifie que l'épaisseur du fil est assez proche et [tricote un échantillon pour confirmer](/fr/articles/mesurer-un-echantillon-tricot/) que l'échantillon fonctionne toujours.
-
-C'est là que l'[estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) devient utile : vérifier l'ordre de grandeur d'un projet selon son type, sa taille et l'épaisseur du fil avant d'acheter.
+Un métrage identique est un point de départ, pas une preuve de comportement identique. [Vérifie les mailles et les rangs de l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/) et le tissu après lavage. Estime longueur ajoutée, mises en forme et changements de point à partir de tests représentatifs. Quelques centimètres ajoutés à un pull n'ont pas un supplément de métrage fixe.
 
 ## FAQ
 
-**Peut-on estimer sans tricoter d'échantillon ?**  
-Les fourchettes par type de projet suffisent pour un premier repérage en boutique. Pour tout ce qui doit aller à une taille précise, fais un échantillon.
+**Peut-on estimer sans tricoter d'échantillon ?**
+La quantité du modèle pour ta taille donne un point de départ. Vérifie l'échantillon et le tissu avant de t'y fier, surtout pour un vêtement ajusté. Une fourchette générale ne confirme pas la quantité à acheter.
 
-**Et si je ne trouve pas le même bain ?**  
-Alterne les pelotes tous les deux rangs. La différence de couleur se répartit plus régulièrement et devient moins visible.
+**Et si je ne trouve pas le même bain ?**
+Compare les fils à la lumière du jour et dans un échantillon lavé. Alterner les pelotes peut adoucir la transition, sans garantir une couleur identique. Décide si la différence est acceptable avant de continuer.
 
-**Comment estimer pour des rayures ?**  
-Calcule le métrage total, puis répartis proportionnellement selon le nombre de rangs couverts par chaque couleur. Ajoute une petite marge pour chaque changement de couleur.
+**Comment estimer pour des rayures ?**
+La proportion de rangs n'est utile que si largeur, fils, échantillon et point sont comparables. Estime séparément les zones mises en forme et les fils différents. Compte les fils transportés ou les bouts à rentrer, puis arrondis l'achat de chaque couleur séparément au supérieur.
 
-**La composition du fil change-t-elle la quantité nécessaire ?**  
-Pas directement. Mais des fibres comme le mérinos superwash peuvent s'allonger après blocage, ce qui peut modifier ton échantillon et déplacer l'estimation.
+**La composition du fil change-t-elle la quantité nécessaire ?**
+Les fibres et la construction du fil influencent le tissu et son évolution au lavage. Vérifie le métrage de l'étiquette et un échantillon traité. Il n'existe pas de coefficient universel de consommation par fibre.
 
-**Quel est le pire projet pour manquer de fil ?**  
-Tout projet avec un bain unique impossible à remplacer. Surtout le fil teint à la main. Achète la pelote en plus.
+**Quel est le pire projet pour manquer de fil ?**
+Un projet dont le bain ne peut plus être acheté est difficile à rattraper. Prévois le besoin total et une réserve adaptée ; une seule pelote supplémentaire ne suffit pas toujours.
 
-**Puis-je utiliser ensemble des restes de fils de projets différents ?**  
-Oui, tant que l'épaisseur et les consignes d'entretien sont compatibles. Pèse chaque reste pour savoir ce que tu as vraiment.
+**Puis-je utiliser ensemble des restes de fils de projets différents ?**
+Vérifie l'entretien et tricote puis lave les fils ensemble pour évaluer l'échantillon, le tissu et les couleurs qui dégorgent. Pèse chaque fil identifié séparément et utilise ses propres données d'étiquette pour estimer la longueur.

@@ -12,11 +12,11 @@ const faqs = [
   },
   {
     q: "Ovatko puikkokoot samoja kaikilla merkeillä?",
-    a: "Niiden pitäisi olla, mutta vanhoissa tai halvoissa puikoissa voi olla pientä heittoa. Jos neuletiheys ei millään täsmää, mittaa puikko puikkomitalla.",
+    a: "Eivät aina. Sama US-numero voi tarkoittaa eri millimetrikokoa eri merkeillä tai eri taulukoissa, etenkin ko’oissa US 17 ja 19. Tarkista millimetrimerkintä tai mittaa puikon varsi puikkomitalla ja neulo mallitilkku.",
   },
   {
     q: "Onko pyöröpuikon koko eri asia kuin suoran puikon?",
-    a: "Ei. Koko kertoo kärjen halkaisijan. Kaapelin pituus on erillinen asia.",
+    a: "Ei. Koko kertoo puikon tasapaksun varren halkaisijan kapenevan kärjen takaa. Puikon ja kaapelin pituus ovat eri mittoja.",
   },
   {
     q: "Tarvitsenko jokaisen puikkokoon?",
@@ -40,6 +40,20 @@ const faqs = [
 >
   <div slot="tool">
     <div class="table-wrapper">
+      <p>
+        Taulukko koskee neulepuikkoja, ei virkkuukoukkuja. UK/Kanada tarkoittaa
+        vanhaa numerointia. US-puolikkaat koot noudattavat KnitPron taulukkoa ja
+        Japanin numerot 0–15 Cloverin mittoja (0 = 2,1 mm). Viiva tarkoittaa,
+        ettei tässä ole numerovastinetta; suuremmat japanilaiset puikot
+        merkitään millimetreinä.
+      </p>
+      <p>
+        US-merkinnät vaihtelevat: KnitPro yhdistää 12–12,75 mm kokoon US 17 ja
+        15–16 mm kokoon US 19; ChiaoGoo käyttää vastaavasti 12,75 mm ja 15 mm.
+        Tarkista halkaisija millimetreinä. Lankaluokat ovat CYC:n suuntaa
+        antavia suosituksia, eivät takuu neuletiheydestä tai istuvuudesta.
+        Ilmavaan pitsiin käytetään usein suurempia puikkoja.
+      </p>
       <input
         type="text"
         id="needle-search"
@@ -54,7 +68,7 @@ const faqs = [
             <tr>
               <th>Millimetrit</th>
               <th>US</th>
-              <th>UK/Canada</th>
+              <th>UK/Kanada</th>
               <th>Japani</th>
               <th>Lankavahvuus</th>
             </tr>
@@ -158,7 +172,8 @@ const faqs = [
     </p>
     <p>
       Mittaa varresta, älä kärjestä. Kapeneva kärki näyttää liian pieneltä.
-      Pyöröpuikon kaapelia ei mitata: koko tarkoittaa puikon kärjen halkaisijaa.
+      Pyöröpuikon kaapelia ei mitata: koko tarkoittaa puikon tasapaksun varren
+      halkaisijaa.
     </p>
   </div>
 </LocalizedToolPage>

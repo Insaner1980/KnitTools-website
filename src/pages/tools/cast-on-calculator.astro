@@ -10,32 +10,33 @@ import { routes } from "../../i18n/routes";
 const canonicalPath = "/tools/cast-on-calculator/";
 const pageTitle = "Cast On Calculator for Knitting Patterns";
 const pageDescription =
-  "Calculate how many stitches to cast on for any width. Enter your gauge and target measurement for an instant count.";
+  "Calculate how many stitches to cast on from your gauge and desired width. Get a rounded starting count, then check your pattern repeat and fit.";
 const faqItems = [
   {
     q: "Do I really need to knit a gauge swatch?",
-    a: "Yes. Skipping the swatch is one of the most common reasons knitted pieces come out the wrong size. It takes extra time up front and can save hours of rework.",
+    a: "Yes, when size matters. A swatch shows your gauge with the yarn, needles and stitch pattern you plan to use.",
   },
   {
     q: "Should I count edge stitches in my gauge?",
-    a: "No. Measure from the center of your swatch, avoiding the first and last two stitches. Edge stitches are often tighter or looser than the rest.",
+    a: "Measure across the center of a swatch larger than the measuring area, away from distorted edges and the cast-on edge.",
   },
   {
     q: "Why does the calculator round to an even number?",
-    a: "Many simple stitch patterns, including common ribbing repeats, work cleanly over an even number of stitches. Rounding to the nearest even number gives you a practical default before you adjust for any pattern-specific multiple.",
+    a: "This is a rounding rule, not a guarantee that the count fits your pattern. Ribbing, cables and other stitch patterns can require a specific multiple plus extra stitches.",
   },
   {
     q: "What if my pattern requires a specific stitch multiple?",
-    a: "Add or subtract a few stitches to reach the nearest multiple your pattern needs. For example, if your pattern repeats over 4 stitches and the calculator says 46, adjust to 44 or 48.",
+    a: "For a repeat of 4 stitches with no extra stitches, adjust 46 to 44 or 48. Include any edge or balancing stitches required by the pattern, and check how the adjustment changes the width.",
   },
   {
     q: "Can I use this for circular knitting?",
-    a: "Yes. Enter the full circumference as your desired width. The calculator works the same way for flat and circular knitting.",
+    a: "Yes. Use a gauge swatch worked in the round and enter the desired finished circumference as the width. Allow for the fit you want before entering the measurement; the calculator does not add or subtract ease.",
   },
 ] as const;
 ---
 
 <PageLayout
+  contentPage
   title={pageTitle}
   description={pageDescription}
   canonicalPath={canonicalPath}
@@ -59,7 +60,7 @@ const faqItems = [
         Cast On Calculator
       </h1>
       <p class="hero-intro" data-reveal>
-        Calculate how many stitches to cast on for any width and gauge.
+        Calculate a starting stitch count from your gauge and desired width.
       </p>
       <div class="form-card variant-terracotta" data-reveal="scale">
         <CastOnCalculator />
@@ -72,11 +73,11 @@ const faqItems = [
     <div class="content-inner">
       <h2 data-reveal="clip">What is cast on in knitting?</h2>
       <p data-reveal>
-        Casting on is the first step in any knitting project: it's how you
-        create the initial row of stitches on your needle. The number of
-        stitches you cast on determines the width of your finished piece. Too
-        few and it's too narrow. Too many and you've wasted yarn and time.
-        Getting this number right from the start saves frogging later.
+        Casting on starts most knitting projects: it's how you create the
+        initial row of stitches on your needle. The number of stitches you cast
+        on, together with your gauge, determines the starting width. Too few and
+        it's too narrow. Too many and you've wasted yarn and time. Checking this
+        number at the start can save frogging later.
       </p>
 
       <h2 data-reveal="clip">Why gauge matters</h2>
@@ -84,8 +85,10 @@ const faqItems = [
         Every knitter knits differently. Even with the same yarn and needles,
         your tension produces a slightly different fabric than someone else's.
         That's why patterns list a recommended gauge, and why you need to knit a
-        swatch to find yours. Measure how many stitches fit in 10 cm (or 4
-        inches), and you have the number this calculator needs.
+        swatch in your project stitch pattern to find yours. Wash and finish it
+        as you will the project, then measure it once dry. Count the stitches
+        across the center over 10 cm (or 4 inches), and you have the number this
+        calculator needs.
       </p>
 
       <h2 data-reveal="clip">How to use this calculator</h2>
@@ -95,8 +98,22 @@ const faqItems = [
         > (how many stitches you get in 10 cm or 4 inches of knitting) and the <strong
           >desired width</strong
         > of your piece. Knit a gauge swatch first, measure it, and enter those numbers.
-        The calculator rounds to the nearest even number, which is a practical default
-        for many simple stitch patterns.
+        Treat the result as a starting point and check the repeat and any extra stitches
+        your pattern requires.
+      </p>
+      <p data-reveal>
+        Select cm for a width in centimeters and gauge measured over 10 cm;
+        select inches for a width in inches and gauge measured over 4 inches.
+        These are conventional gauge spans, not exact equivalents: 4 inches is
+        10.16 cm. Changing the unit does not convert your entries. The formula
+        is gauge × width ÷ 10 in cm, or gauge × width ÷ 4 in inches.
+      </p>
+
+      <p data-reveal>
+        The result is rounded to the nearest even number; a tie rounds up. For
+        example, 99 becomes 100. A very small width can give 0 after rounding;
+        that is not a usable cast-on count. Check your measurements and the
+        pattern before casting on.
       </p>
     </div>
   </section>
@@ -132,6 +149,7 @@ const faqItems = [
         method="post"
         id="waitlist-form"
         data-waitlist-signup
+        data-localized-errors="true"
         data-source="knittools"
         data-sending-text="Sending..."
         data-generic-error="Something went wrong. Please try again."

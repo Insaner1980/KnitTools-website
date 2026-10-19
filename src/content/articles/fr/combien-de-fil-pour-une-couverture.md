@@ -1,7 +1,8 @@
 ---
 title: "Combien de fil pour une couverture ?"
-description: "Estimer la quantité de fil pour une couverture tricotée : métrages par taille et épaisseur de fil, de la couverture bébé au grand plaid."
+description: "Estime le fil pour une couverture tricotée avec des modèles précis, les dimensions finies et un échantillon. Convertis le métrage en pelotes entières."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: "yarn"
 categoryOrder: 5
 tags:
@@ -17,106 +18,88 @@ lang: fr
 translationKey: "yarn-for-blanket"
 ---
 
-Les couvertures avalent le fil. Même une petite couverture bébé utilise plus de métrage que beaucoup d'accessoires, et un grand plaid en Worsted peut dépasser 2 300 m. Tomber à court en plein projet, surtout avec un bain de teinture disparu, fait partie des petits drames de tricot qu'on peut souvent éviter avec un minimum de préparation.
+Les couvertures avalent le fil. Tomber à court en plein projet, surtout quand le même bain de teinture n'est plus disponible, fait partie des soucis que la préparation peut aider à éviter.
 
-Les estimations ci-dessous donnent une base de départ. Ton métrage réel dépend de l'échantillon, du point et des dimensions, donc traite ces chiffres comme des fourchettes d'achat plutôt que comme des promesses de modèle.
+Commence par la largeur et la longueur finies, le fil et le point. Tu trouveras ci-dessous les quantités de modèles identifiés, puis des conseils pour estimer celles d'une autre couverture.
 
 ## Estimations par taille de couverture
 
-Ces fourchettes supposent du jersey ou un point plat similaire. Les points texturés utilisent davantage de fil, avec des ajustements plus bas.
+Couverture bébé, plaid et king-size sont des appellations, pas des dimensions universelles. Pour un couvre-lit, définis les dimensions finies et le débord souhaité ; les dimensions du matelas ne sont pas celles de la couverture.
 
-**Couverture bébé (75 x 100 cm / 30 x 40 inches)**
+**Couverture bébé : [Bright Cuddles Blanket, DROPS Baby 46-4](https://www.garnstudio.com/pattern.php?id=11395&cid=8).** Elle se tricote à plat avec un seul fil DROPS Big Merino, au point ajouré avec des bordures au point mousse tricotées en même temps. L'échantillon est de 16 mailles et 22 rangs pour 10 × 10 cm au point ajouré. [Big Merino](https://www.garnstudio.com/yarn.php?show=drops-big-merino&cid=19) est un fil aran/worsted d'environ 75 m par pelote de 50 g.
 
-Worsted : 700 à 1 000 m
-DK : 900 à 1 200 m
-Bulky : 500 à 800 m
+| Dimensions finies | Quantité du modèle / pelotes | Métrage des pelotes |
+| ----------------- | ---------------------------- | ------------------- |
+| 44 × 59 cm        | 300 g / 6                    | 450 m               |
+| 57 × 68 cm        | 450 g / 9                    | 675 m               |
+| 69 × 77 cm        | 600 g / 12                   | 900 m               |
 
-**Plaid genoux / petit plaid (100 x 130 cm / 40 x 50 inches)**
+Les dimensions et les métrages sont approximatifs. Les dimensions comprennent les bordures du modèle. Les mètres indiquent le contenu des pelotes entières recommandées, pas une consommation mesurée ni l'utilisation de chaque mètre.
 
-Worsted : 1 400 à 1 800 m
-DK : 1 600 à 2 200 m
-Bulky : 1 000 à 1 400 m
+**Couverture plus grande : [Strawberry Sky, DROPS 223-37](https://www.garnstudio.com/pattern.php?id=10186&cid=19).** Elle mesure 100 × 140 cm et se tricote à plat d'un coin à l'autre, au point mousse, avec un seul fil DROPS Fabel. L'échantillon est de 20 mailles et 39 rangs pour 10 × 10 cm. Le modèle indique 550 g du coloris 623. Le fil fingering [Fabel](https://www.garnstudio.com/yarn.php?show=drops-fabel&cid=19) contient environ 205 m par pelote de 50 g : 11 pelotes fournissent 2 255 m. C'est un modèle distinct, pas une taille supérieure de la couverture ajourée.
 
-**Grand plaid (130 x 180 cm / 50 x 70 inches)**
-
-Worsted : 2 100 à 3 000 m
-DK : 2 700 à 3 500 m
-Bulky : 1 600 à 2 200 m
-
-**Très grande couverture / king-size (180 x 230 cm / 70 x 90 inches)**
-
-Worsted : 3 500 à 4 600 m
-DK : 4 600 à 5 700 m
-Bulky : 2 600 à 3 400 m
-
-Pour une estimation plus précise basée sur ton fil et tes dimensions, l'[Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) couvre les couvertures de la taille bébé aux très grands formats avec les épaisseurs de fil courantes.
+[Estimateur de quantité de laine](/fr/outils/estimateur-quantite-laine/) — Quantités de référence de modèles nommés, pas une prévision personnalisée de consommation. Choisis un projet, une taille d’un modèle nommé et une unité. Le résultat est la quantité de référence de ce modèle, pas une prévision pour ton propre projet.
 
 ## Pourquoi l'épaisseur du fil change autant le total
 
-Un fil plus fin signifie plus de mailles par centimètre, donc plus de fil consommé par rang. Une couverture en DK a plus de mailles sur la même largeur qu'une couverture en worsted, et proportionnellement plus de rangs pour atteindre la même longueur. Même taille finale, davantage de fil dans le tissu.
+L'épaisseur du fil décrit sa grosseur ; les grammes indiquent son poids physique. Une catégorie ou un nombre de mailles ne suffit pas à déterminer le métrage nécessaire. Compare le fil, l'échantillon et le point du modèle choisi.
 
-C'est en partie pour cela que les couvertures en super bulky plaisent aux tricoteuses moins expérimentées. Elles montent vite et demandent moins de mètres au total. Le piège : le super bulky coûte souvent plus cher aux 100 g et donne moins de mètres par pelote, donc le coût total du projet peut rester proche malgré le métrage plus faible. Lion Brand indique par exemple 97 m par pelote pour Wool-Ease Thick & Quick uni, avec certaines couleurs imprimées ou rayées plus courtes, contre 180 m pour Wool-Ease uni standard. Pour couvrir la même surface, il faut moins de pelotes épaisses, mais chaque pelote parcourt moins de distance.
+Un fil plus épais peut donner une autre étoffe avec moins de mailles en largeur, sans établir une réduction fixe du métrage ou du nombre de pelotes. Le métrage de l'étiquette et la consommation de cette étoffe comptent tous les deux. Compare le prix de la quantité totale nécessaire.
 
 ## Ajustements selon le point
 
-Les estimations ci-dessus supposent un tissu plat. Ajoute une marge pour :
+Tricote l'échantillon dans le point prévu. Torsades, point de riz, point de blé, point mousse, dentelle et jacquard à fils tirés ne doivent pas tous reprendre une estimation pour du jersey. Il n'existe pas de pourcentage supplémentaire universel. Inclus un motif complet et, pour le jacquard, les fils flottants ainsi que la consommation de chaque couleur.
 
-**Torsades :** ajoute une marge généreuse. Les torsades resserrent le tissu horizontalement, donc il faut plus de mailles pour obtenir la même largeur. Une couverture Aran très torsadée peut utiliser nettement plus de fil qu'une couverture de mêmes dimensions en jersey.
+Pour une couverture rectangulaire personnelle, la [méthode par surface de Rita Buchanan](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf) donne une base : multiplie la longueur ou le poids de fil mesuré pour l'échantillon par **surface de la couverture ÷ surface de l'échantillon**. La surface est la largeur × la longueur. Utilise la même unité de surface, par exemple des cm², partout.
 
-**Point de riz et point de blé :** ajoute une marge plus petite. L'alternance endroit/envers crée un tissu plus dense et souvent un échantillon légèrement plus serré.
+Le fil, le point et la tension doivent correspondre à la couverture. Traite l'échantillon comme la couverture, dans les limites de l'entretien autorisé, puis mesure-le bien sec. Le fil pesé ou mesuré doit correspondre à la surface mesurée : n'inclus pas des bordures supplémentaires ou de longues extrémités dans le poids d'une petite zone centrale. Prévois un échantillon assez grand pour la résolution de ta balance.
 
-**Jacquard à fils tirés :** fais un échantillon du motif avant d'acheter des quantités trop justes. Les fils flottants au dos consomment du fil sans contribuer à la largeur du tissu. Les couvertures Fair Isle sont magnifiques, mais gourmandes, et les fils flottants rendent aussi la couverture plus lourde et moins souple qu'une version unie.
-
-**Point mousse :** métrage total à peu près équivalent au jersey, parfois environ 5 % de plus. Le point mousse se compacte en hauteur, donc tu tricotes souvent quelques rangs de plus pour atteindre la même longueur. La couverture sera plus épaisse et plus moelleuse avec le même nombre de mailles.
-
-**Dentelle :** peut utiliser un peu moins de fil que le jersey, parce que la structure ajourée s'étire davantage au blocage. Une couverture en dentelle bloquée fortement peut atteindre une taille finale plus grande avec le même métrage. Ne compte pas sur une économie énorme, et la dentelle n'est généralement pas l'objectif si la chaleur est le point principal.
+Le même rapport de surfaces aide à redimensionner un modèle si l'étoffe reste identique. Doubler seulement la longueur double la surface ; doubler largeur et longueur la multiplie par quatre. Calcule séparément bordures, coutures et franges, sauf si une mesure représentative les inclut déjà. Compte chaque partie une seule fois. La quantité d'achat arrondie d'un modèle n'est pas une consommation mesurée : sa mise à l'échelle reste approximative.
 
 ## Convertir le métrage en pelotes
 
-Regarde l'étiquette pour connaître le nombre de mètres par pelote. Divise le métrage total par le métrage d'une pelote. Arrondis au-dessus.
+Lis le métrage par pelote sur l'étiquette. Divise le métrage total nécessaire par celui d'une pelote et arrondis à la pelote entière supérieure.
 
-Ta couverture demande environ 2 000 m. Le fil donne 200 m par pelote de 100 g. Cela fait 10 pelotes. Achète-en 11. La pelote supplémentaire couvre les variations d'échantillon, les fils de montage, les éventuels détricotages et le fait qu'une estimation reste une fourchette, pas une promesse.
+Supposons un besoin de 2 000 m et une étiquette indiquant 200 m pour 100 g : 2 000 ÷ 200 = **10 pelotes**, soit 1 000 g. C'est un exemple de conversion, pas une recommandation pour une taille de couverture précise.
 
-Pour les couvertures, achète une ou deux pelotes de plus si le budget le permet et si le fil peut être retourné ou utilisé comme réserve. Le coût est faible comparé au fait de manquer de fil aux trois quarts du projet quand le bain de teinture n'existe plus. Le guide pour [estimer la quantité de fil](/fr/articles/combien-de-fil-faut-il/) explique aussi la méthode par pesée pour contrôler des pelotes entamées en cours de projet.
+Prévois la réserve selon le projet et vérifie d'abord si la quantité de départ comprend déjà l'échantillon et les finitions. Une onzième pelote ajoute 200 m, sans être automatiquement nécessaire ou suffisante. Un fil détricoté et réutilisé n'est pas consommé deux fois ; compte les pertes réelles. Calcule et arrondis chaque couleur séparément. Le guide pour [estimer la quantité de fil](/fr/articles/combien-de-fil-faut-il/) explique la pesée des pelotes entamées.
 
 ## Prévoir les bains de teinture
 
-Les couvertures demandent assez de pelotes pour que les bains de teinture deviennent une vraie question. Deux bains différents peuvent se voir nettement une fois tricotés côte à côte, même si les pelotes semblaient identiques en boutique.
+Deux bains différents peuvent se voir nettement une fois tricotés côte à côte, même si les pelotes semblaient identiques en boutique.
 
 Achète tout le fil en une seule fois, dans le même bain. Vérifie le numéro de bain sur chaque étiquette. Si la boutique n'a pas assez de pelotes du même bain, demande s'il est possible d'en commander du même lot.
 
-Si tu te retrouves malgré tout avec deux bains, alterne les pelotes dans toute la couverture. Deux rangs avec le bain A, deux rangs avec le bain B, et ainsi de suite. La différence de couleur se fond progressivement et devient beaucoup moins visible. C'est bien mieux que de tricoter tout un bain d'abord puis de créer une ligne nette au moment de passer au second. Certaines tricoteuses le font par principe même avec un bain identique quand le fil est teint à la main ou teint en marmite, parce que les variations peuvent rester visibles dans un même lot.
+Si tu as différents bains, essaie d'alterner les pelotes dans un échantillon avant de commencer la couverture. Le rythme dépend du fil et du modèle ; l'alternance ne garantit pas la disparition de la différence. Même dans un seul bain, les écheveaux teints à la main peuvent varier. Les [conseils de Malabrigo pour Sock](https://malabrigoyarn.com/yarns/sock) décrivent ces variations et l'alternance des pelotes.
 
 ## Choisir l'épaisseur de fil pour une couverture
 
-**Bulky et super bulky :** rapide, texture épaisse, très chaud. Bien pour les plaids pensés comme cocons plutôt que comme pièces raffinées. Le tissu est lourd, ce qui peut être un avantage, façon couverture lestée, ou un inconvénient si tu veux le draper sur un accoudoir. Attention aussi à la fatigue des mains : plusieurs heures sur des aiguilles 9 mm ou plus sollicitent les poignets autrement qu'un worsted sur 5 mm.
+**Bulky et super bulky :** un choix pour une texture épaisse. Vérifie le poids et le tombé de l'échantillon ; l'épaisseur seule ne garantit ni la chaleur ni l'effet d'une couverture lestée.
 
-**Worsted :** l'épaisseur la plus courante pour les couvertures. Bon équilibre entre rapidité, densité et tombé. Une couverture en worsted est chaude sans être raide. Elle accepte la plupart des points. Beaucoup de fils worsted de base existent aussi dans de grandes gammes de couleurs, ce qui compte quand tu engages deux ou trois mille mètres dans une seule nuance.
+**Worsted :** une option pour les couvertures unies ou texturées. Évalue densité et douceur avec l'échantillon demandé ; les fils d'une même catégorie ne donnent pas tous le même tombé.
 
-**DK :** texture plus fine, poids plus léger, plus de tombé. Le projet prend plus de temps, mais le résultat paraît souvent plus soigné. Bon choix pour les couvertures bébé quand on veut de la douceur sans trop d'épaisseur.
+**DK :** une option pour un dessin de mailles plus fin. Évalue l'étoffe terminée plutôt que de considérer la catégorie comme une garantie de douceur ou d'adaptation à une couverture bébé.
 
-**Sport et fingering :** tissu magnifique. Engagement sérieux. Une couverture en fingering se mesure en mois, parfois en années. Le résultat est léger et souple, plus proche d'une couverture tissée que d'un plaid tricoté classique. Les constructions modulaires, carrés en onglet ou log cabin, rendent ce type de projet plus gérable parce que tu tricotes de petites pièces avant de les assembler, au lieu de traîner une couverture entière sur des aiguilles circulaires pendant toute la durée du projet.
+**Sport et fingering :** envisage des carrés ou d'autres éléments si tu préfères manipuler de petites pièces. Certains sont cousus ensemble, d'autres reliés en cours de tricot. Suis la construction du modèle.
 
 ## Aiguilles, fibres et tenue réelle
 
-Quelques points pratiques ne se voient pas dans le calcul du métrage.
+Une aiguille circulaire peut porter les mailles pendant que tu tricotes à plat, en allers-retours. Choisis une longueur totale qui accueille les mailles confortablement. Les modèles ci-dessus indiquent respectivement 60 et 80 cm ; ce sont des longueurs totales propres aux modèles, pas des longueurs de câble universelles.
 
-Utilise une longue aiguille circulaire pour toute couverture au-delà de la taille genoux. Un câble de 100 cm suffit pour la plupart des plaids. Les grandes couvertures et formats king-size se manipulent mieux sur 120 cm ou 150 cm. Les mailles seront quand même serrées sur le câble, mais tu évites de lutter contre une aiguille trop courte. La couverture se tricote à plat, en allers-retours sur l'aiguille circulaire, pas en rond.
+Choisis la taille d'aiguilles selon l'échantillon demandé et l'étoffe lavée et sèche que tu souhaites. Changer d'aiguilles peut modifier dimensions et consommation. Refais un échantillon plutôt que de prendre automatiquement une taille de plus que pour un pull.
 
-Pour plus de tombé, tu peux envisager une taille d'aiguilles au-dessus de celle que tu utiliserais pour un pull ajusté dans le même fil. Un worsted qui demande du 4,5 mm pour un pull ferme peut donner une couverture plus souple sur 5 ou 5,5 mm. Une couverture tricotée trop serré peut devenir raide.
-
-Pour les couvertures bébé et toutes les couvertures qui seront lavées souvent, commence par des fils dont l'étiquette accepte le rythme d'entretien réel. La laine superwash, le coton ou un acrylique doux sont plus sûrs qu'une laine non traitée pour les couvertures lavées en machine, parce qu'une laine non traitée peut feutrer. Le mohair et l'angora sont chauds mais perdent des fibres, et ce sont de mauvais choix pour une couverture bébé. Le lin donne un bon plaid d'été, mais vérifie le métrage avec un échantillon parce que son tissu se comporte autrement que la laine.
+Pour les couvertures bébé et celles qui seront lavées souvent, commence par des fils dont l'étiquette autorise l'entretien prévu. Le nom de la fibre et le mot superwash ne définissent pas à eux seuls tous les réglages de lavage et de séchage.
 
 ## FAQ
 
-**Puis-je utiliser des restes de fil pour une couverture ?**  
-Les couvertures multicolores conviennent très bien pour vider les stocks. La règle : garde tous les fils dans la même catégorie d'épaisseur. Mélanger les épaisseurs crée une tension irrégulière et des sections qui tirent différemment après blocage. Même épaisseur, couleurs mélangées, ça marche bien. Les constructions modulaires, comme une couverture simple en carrés en onglet, sont faites pour cela.
+**Puis-je utiliser des restes de fil pour une couverture ?**
+Les couvertures de restes sont un bon moyen d'utiliser ton stock. Une épaisseur proche est un point de départ, mais vérifie aussi la tension, l'étoffe et la compatibilité des consignes d'entretien. Pour des carrés, mesure la consommation d'un carré entier représentatif, multiplie par le nombre de carrés entiers nécessaires, puis compte séparément le fil d'assemblage et des bordures. Calcule les besoins de chaque couleur.
 
-**Est-ce moins cher de tricoter une couverture ou d'en acheter une ?**  
-Une couverture tricotée main coûte presque toujours plus cher en matériaux qu'une couverture industrielle. Sa valeur est dans le processus, la personnalisation et la qualité. Si le budget est la priorité, l'acrylique en Worsted ou Bulky garde un coût raisonnable, et les grosses pelotes ou les cônes donnent souvent plus de mètres par euro.
+**Est-ce moins cher de tricoter une couverture ou d'en acheter une ?**
+Compare le prix de toutes les pelotes nécessaires, y compris chaque couleur et la réserve prévue, avec celui de la couverture que tu achèterais. Les grosses pelotes ou les cônes ne rendent pas automatiquement le projet moins cher s'il reste davantage de fil inutilisé.
 
-**Combien de temps faut-il pour tricoter une couverture ?**  
-Un plaid en Super Bulky peut prendre 20 à 30 heures. En Worsted, 60 à 100 heures. En Fingering, plus de 200 heures. La vitesse, la complexité du point et le nombre d'heures que tu tricotes par semaine changent beaucoup ces chiffres. Les couvertures modulaires peuvent paraître plus rapides parce que chaque carré avance vite, même si le total d'heures reste proche.
+**Combien de temps faut-il pour tricoter une couverture ?**
+Chronomètre une partie représentative avec ton fil et ton point pour estimer ton propre temps de tricot. Compte assemblage, bordures et finitions séparément. La catégorie du fil seule ne permet pas de donner un nombre d'heures fiable.
 
-**Faut-il tricoter une couverture à plat ou en rond ?**  
-La plupart des couvertures se tricotent à plat sur de longues aiguilles circulaires, utilisées en allers-retours sans fermer en rond. Certains modèles modulaires, comme les carrés ou hexagones, se tricotent séparément puis s'assemblent. La construction circulaire existe pour les couvertures rondes, mais elle est rare pour les plaids rectangulaires.
+**Faut-il tricoter une couverture à plat ou en rond ?**
+Suis le modèle. Une couverture à plat peut se tricoter en allers-retours sur une aiguille circulaire. Les éléments peuvent être assemblés ensuite ou reliés en cours de tricot. D'autres modèles partent du centre et se tricotent en tours vers l'extérieur ; l'aiguille circulaire seule n'implique pas de tricoter en rond.

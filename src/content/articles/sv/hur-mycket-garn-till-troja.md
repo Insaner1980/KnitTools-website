@@ -1,7 +1,8 @@
 ---
 title: "Hur mycket garn behövs till en tröja?"
-description: "Räkna ut hur mycket garn du behöver till en stickad tröja. Uppskattningar efter storlek och garntjocklek, plus vad ärmar, flätor och koftor lägger till."
+description: "Planera garn till en tröja utifrån mönstrets mått och ett belagt storleksexempel. Räkna om meter till nystan och ta hänsyn till ärmar, struktur och ändringar."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 4
 tags:
@@ -19,109 +20,83 @@ lang: sv
 translationKey: "yarn-for-sweater"
 ---
 
-En tröja är det största plagget de flesta stickare gör, och garnåtgången visar det. Underskatta och du jagar ett utgånget färgbad med en halv ärm kvar att sticka. Överskatta för mycket och dyrt garn blir liggande i garnlagret på obestämd tid.
+Planera garnmängden till tröjan innan du handlar. Underskatta och du jagar ett utgånget färgbad med en halv ärm kvar att sticka. Överskatta för mycket och dyrt garn blir liggande i garnlagret på obestämd tid.
 
-Rätt mängd beror på tre saker: tröjans storlek, garntjockleken och konstruktionen. En kort pullover i Bulky kan behöva omkring 600 m. En lång kofta i Fingering kan gå över 2 500 m. Spannen nedan täcker det vanligaste.
+Börja med garnmängden för den storlek du ska sticka i ditt mönster. Plaggets färdiga bystvidd, bålens och ärmarnas längd, halsringning, stickfasthet, struktur och garnets uppbyggnad påverkar åtgången. En storleksbokstav eller garntjocklek räcker inte.
 
 ## Garnåtgång efter storlek
 
-Det här utgår från en vanlig pullover i slätstickning. Rund hals, långa ärmar, höftlängd. Koftor, korta modeller och strukturerade mönster justerar siffrorna (se nedan).
+Jämför dina kroppsmått med mönstrets färdiga plaggmått och avsedda rörelsevidd. S/M/L betyder inte samma mått i alla mönster. [Craft Yarn Council förklarar kroppsmått och rörelsevidd](https://www.craftyarncouncil.com/standards/body-sizing).
 
-**XS-S (byst 80-90 cm)**
-Fingering: 1 200-1 500 m
-DK: 900-1 200 m
-Worsted: 700-1 000 m
-Bulky: 550-750 m
+Ett konkret exempel är [PetiteKnits Novice Sweater](https://www.petiteknit.com/sv/products/novice-sweater), en sömlös tröja stickad uppifrån och ner i slätstickning, med runt ok och resårkanter. Här visas tre storlekar med mönstrets garnalternativ Kos, stickat med enkel tråd. Stickfastheten är 16 maskor × 21 varv per 10 × 10 cm på stickor 6 mm. Längden mäts mitt bak utan halsresåren.
 
-**M-L (byst 95-110 cm)**
-Fingering: 1 500-2 000 m
-DK: 1 200-1 600 m
-Worsted: 1 000-1 400 m
-Bulky: 750-1 000 m
+| Storlek | Färdig bystvidd / längd (cm) | Kos (g / m) |
+| ------- | ---------------------------- | ----------- |
+| S       | 98 / 55                      | 300 / 900   |
+| M       | 103 / 57                     | 350 / 1 050 |
+| XL      | 116 / 62                     | 400 / 1 200 |
 
-**XL-2XL (byst 115-130 cm)**
-Fingering: 2 000-2 500 m
-DK: 1 600-2 100 m
-Worsted: 1 400-1 800 m
-Bulky: 1 000-1 300 m
+[Sandnes Garn anger cirka 150 m per 50 g Kos](https://www.sandnesgarn.no/kos), en alpacka- och ullblandning som blåses in i en nylonstrumpa. Raderna motsvarar alltså 6, 7 och 8 nystan. Meterangivelserna är längden i de angivna garnmängderna, inte uppmätt förbrukning. Exemplet gäller just detta mönster och garn. Den offentliga presentationen anger inte ärmlängder eller en separat reserv; kontrollera hela mönstret innan du ändrar dem.
 
-**3XL+ (byst 135+ cm)**
-Fingering: 2 500-3 000 m
-DK: 2 100-2 600 m
-Worsted: 1 800-2 300 m
-Bulky: 1 300-1 700 m
-
-För en projektspecifik uppskattning baserad på din storlek, garntjocklek och tröjmodell gör [garnåtgångskalkylatorn](/sv/verktyg/garnatgangskalkylator/) matten.
+[Garnåtgångskalkylator](/sv/verktyg/garnatgangskalkylator/) — Referensmängder från namngivna mönster, ingen personlig förbrukningsprognos. Välj projekt, en storlek i ett namngivet mönster och enhet. Resultatet är mönstrets referensmängd, ingen prognos för ditt eget projekt.
 
 ## Stiljusteringar
 
-**Koftor:** Planera lite extra jämfört med en pullover i samma storlek. Knappkanter, extra framkanter och upplockad halskant förbrukar garn. En front med stor omlott eller sjalkrage lägger till mer än en smal kant med fem knappar.
+**Koftor:** utgå från mängden i ett koftmönster. Räkna med framstycken, överlappning, knappkanter och krage. En tröjmängd plus ett fast tillägg ersätter inte det.
 
-**Kort modell:** Rör dig mot den nedre delen av spannet. Hur mycket beror på var längden slutar. Strax under bysten sparar mer än strax ovanför höften.
+**Kort modell eller tunika:** uppskatta den båldel som tas bort eller läggs till utifrån bredd, formning och stickmönster. Ökad bystvidd innebär inte att ärmar och halsringning ökar i samma proportion.
 
-**Tunika / lång modell:** Rör dig mot den övre delen och lägg till marginal. För varje extra centimeter kroppslängd behöver du sticka ytterligare varv över plaggets fulla bredd; hur många beror på varvfastheten. Det växer snabbt.
+**Korta ärmar eller väst:** räkna om de ändrade ärmarna och ärmhålskanterna. En tröjuppskattning är ingen automatisk övre gräns för en annorlunda konstruerad väst.
 
-**Korta ärmar eller holkärmar:** Använd mindre än till en långärmad pullover. Ärmar står för en förvånansvärt stor del av total garnåtgång, så att ta bort större delen av den längden gör stor skillnad.
-
-**Ärmlös / väst:** Använd pulloveruppskattningen som övre gräns och minska för de saknade ärmarna.
-
-**Negativ rörelsevidd:** En tröja som är tänkt att töjas på kroppen använder lite mindre garn än samma mönster stickat efter fullt kroppsmått. Skillnaden är inte enorm, men den knuffar dig mot den nedre delen av storleksspannet.
+**Negativ rörelsevidd:** det färdiga plagget är mindre än motsvarande kroppsmått. Välj passform och stickat material först, i stället för att göra plagget snävare bara för att spara garn.
 
 ## Justeringar för struktur
 
-**Flätor:** Lägg till en generös marginal. Flätor drar ihop tyget, så tröjan behöver fler maskor för att få samma bystvidd. En heltäckande flätstickad tröja är en av de mer garnhungriga konstruktionerna. En enstaka flätpanel fram och bak ligger närmare slätstickning i total förbrukning.
+**Flätor, patentstickning, mosstickning och spets:** använd mönstrets mängd eller mät åtgången i en representativ provlapp med det aktuella stickmönstret. En uppskattning för slätstickning ger inte åtgången för dessa strukturer. Det finns inget allmänt flättillägg eller någon automatisk besparing för spets.
 
-**Flerfärgsstickning:** Lägg till marginal över alla färger tillsammans. Flotteringarna på avigsidan förbrukar garn som inte syns på framsidan. En oktröja med flerfärgsstickning äter märkbart mer garn än en enkel slätstickad version i samma storlek. Huvudfärgen tar oftast det mesta, medan kontrastfärgerna delar på resten.
+**Flerfärgsstickning:** använd mängden för varje färg. Garnet löper också på avigsidan som flotteringar, så den synliga färgytan räcker inte för beräkningen. Mät varje färg i en representativ rapport och avrunda inköpsmängden för varje färg separat.
 
-**Strukturerade maskor, som brioche och mosstickning:** Lägg till marginal. Brioche skapar ett tjockare och mer garnkrävande tyg än slätstickning, och mosstickning kan dra ihop stickfastheten tillräckligt för att ändra uppskattningen.
-
-**Spets:** Ungefär samma som slätstickning, eller lite mindre. Den öppna strukturen sträcker sig när den blockas, så en spetspanel täcker mer yta per meter.
+**Flera trådar tillsammans:** kontrollera om mönstret anger mängden per tråd eller sammanlagt. Varje tråd behöver tillräcklig längd för den del där den stickas med. Dela inte en enkel tråds behov mellan två trådar och dubbla inte en mängd som redan omfattar båda.
 
 ## Ärmfällan
 
-Ärmar är där garnuppskattningar går fel. Ett par långa ärmar till en M-L-tröja i Worsted kan använda flera hundra meter. Det är en stor del av projektets totala garnåtgång. Stickare som uppskattar utifrån den färdiga kroppen upptäcker ofta vid ärmarna att de saknar två nystan.
+Avsätt garn till båda ärmarna och deras muddar innan du förlänger bålen. Att bålen är klar visar inte att det återstående garnet räcker.
 
-Om mängden är snäv, sticka ärmarna först. Det låter bakvänt men är praktiskt: kroppen är där du lättast kan justera längden om garnet börjar ta slut (korta den en centimeter eller två), medan ärmarna har fasta krav. Du kan inte göra den ena kortare än den andra. När du vet exakt hur mycket ärmarna tog har du en tydlig garnbudget för resten.
-
-Uppifrån och ner i ett stycke gör kroppslängden lättare att justera, men ärmproblemet försvinner inte. Du stickar oket, delar för kropp och ärmar och stickar ofta kroppen först. Om uppskattningen är fel blir det ärmarna som får betala. Planera därefter.
+Om konstruktionen tillåter det kan du sticka ärmarna innan du bestämmer bålens slutliga längd. På en oktröja uppifrån och ner måste du först nå delningen för bål och ärmar. Därefter kan du avsluta ärmarna innan resten av garnet går till nedre bålen. Spara även garn till nederkant, halskant och trådfästning.
 
 ## Konstruktion och vart garnet tar vägen
 
-I de flesta pullovers går den största delen av garnet till kropp och ärmar. Resårer, halskanter, knappkanter och finish tar mindre, men de måste fortfarande räknas med. En raglan eller oktröja flyttar mer garn till överkroppen. En drop shoulder-tröja lägger mer garn i kroppen eftersom ärmarna är smalare och kortare.
+Lista bål, båda ärmar, ok eller axelpartier, resår, halskant, eventuella knappkanter, sömmar och trådändar. Räkna varje del en gång: oket innehåller både övre bålen och ärmarnas överdelar. Raglan eller nedhasad axel avgör inte i sig hur garnet fördelas.
 
-Det här spelar störst roll när du planerar runt begränsat garn. En drop shoulder-pullover i stashgarn ger mer utrymme i kroppen och mindre i ärmarna. En oktröja med flerfärgsstickning binder en stor del av garnet till en enda, mycket synlig del, där ändringar i färgmönstret också påverkar totalsumman mest.
+Vid ändringar ger [Rita Buchanans ytmetod](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf) ett utgångsvärde: provlappens garnåtgång × den ändrade delens yta / provlappens yta. Använd samma garn, stickor, stickmönster och rund- eller fram-och-tillbaka-stickning som i plagget. Tvätta och torka provlappen helt enligt plaggets planerade skötsel och garnets skötselråd. Garnet som vägs eller mäts måste motsvara hela den uppmätta ytan; hantera kanter och lösa ändar separat och använd en tillräckligt noggrann våg. Beräkna formade delar och olika strukturer var för sig. Metoden garanterar inte hela plaggets garnåtgång.
 
 ## Omvandla meter till nystan
 
-Kontrollera banderollen för meter per nystan. Dela din totala uppskattning med den siffran. Avrunda uppåt.
+Kontrollera banderollens längd per nystan. Dela den behövda längden med nystanets längd i samma enhet och avrunda uppåt till hela nystan.
 
-Din tröja behöver ungefär 1 280 m. Garnet ger 160 m per 50 g-nystan. Det är 8 nystan. Köp 9. Ett extra för säkerhets skull.
+Ett hypotetiskt räkneexempel: om det fastställda behovet är 1 280 m och garnet har 160 m per 50 g, blir 1 280 / 160 = 8 nystan, alltså 400 g. Det bevisar inte att 1 280 m räcker till en viss tröja. Ett nionde nystan ger 160 m extra men är inte automatiskt nödvändigt eller en tillräcklig reserv.
 
-För tröjor är det extra nystanet värt det även när matten verkar exakt. Variation i stickfasthet genom projektet (de flesta stickare spänner eller släpper omedvetet när de kommer in i ett mönster), garn till provlapp, trådfästning och eventuell upprepning äter allt på marginalen.
-
-Många garnbutiker tar emot oanvända, ovindade nystan med banderollen kvar. Fråga innan du köper. Även om retur inte fungerar är ett extra nystan bra garn sällan bortkastat: mössor, vantar, lagningar och framtida kontrastfärger.
+Kontrollera vad mönstret redan räknar in för provlapp, avslutning och marginal. Lägg bara till det projektet behöver, utan att räkna samma reserv två gånger. Att repa upp förbrukar inte garnet på nytt om det går att återanvända; avklippta eller skadade bitar behöver ersättas. Kontrollera butikens returvillkor innan du räknar med en retur.
 
 ## Räkna baklänges från garn du redan har
 
-Vanligt scenario: du har en viss mängd garn och vill veta vad du kan göra av den.
+För hela nystan multiplicerar du antalet med banderollens löplängd. Väg ofullständiga nystan som torrt garn utan banderoll eller kärna. Uppskattningen blir återstående gram / banderollens gram × banderollens längd. Avrundade etikettvärden och vågens precision begränsar resultatet.
 
-Väg ett fullt nystan för att bekräfta totalvikten, multiplicera med antalet nystan och använd löplängden per nystan från banderollen för att räkna ut totalen. Kontrollera sedan om din löplängd passar spannet för storleken och modellen du vill sticka.
-
-Om du ligger på gränsen, alltså knappt har nog för uppskattningen, överväg ändringar som minskar garnåtgången: kortare ärmar, kortare kropp, smalare passform eller västversion. Bättre att planera dem i förväg än att improvisera när andra ärmen börjar få slut på garn. Att välja en mindre storlek och sticka med lite lösare stickfasthet kan också hjälpa, men det kräver en noggrann provlapp.
+Jämför mängden med ett lämpligt mönsters behov, färg för färg och tråd för tråd. Planera kortare bål eller ärmar i förväg och räkna om berörda delar. En mindre mönsterstorlek och lösare stickfasthet är ingen pålitlig genväg för att spara garn: det ändrar stickfasthet, mått och materialets egenskaper.
 
 ## FAQ
 
 **Hur mycket mer garn behövs till en herrtröja jämfört med en damtröja?**
-Skillnaden är storlek, inte konstruktion. En herr-L och en dam-L med samma bystmått använder ungefär samma mängd garn. Herrtröjor tenderar att ligga i större storleksspann totalt sett, så i praktiken behöver du ofta mer. Men för att tröjan är större, inte för att den är "herr".
+Jämför färdiga mått, bål- och ärmlängd, garn, stickfasthet, stickmönster och konstruktion. Samma bystvidd eller storleksbokstav räcker inte, oavsett om mönstret kallas herr- eller damtröja.
 
 **Kan jag använda en annan garntjocklek än mönstret anger?**
-Ja, men garnåtgången ändras mycket. Att byta från Worsted till DK ökar total löplängd trots att garnet är tunnare, eftersom det finns fler maskor åt alla håll. [Guiden om att byta garn](/sv/artiklar/byta-garn-i-stickmonster/) går igenom hela processen, inklusive stickfasthet och tygkänsla.
+Det kan gå, men samma totala längd räcker inte för att bekräfta ett garnbyte. Kontrollera mask- och varvfasthet samt den tvättade provlappens egenskaper, fibersammansättning och garnets uppbyggnad. Ett byte från Worsted till DK ger ingen fast förändring i meter. [Guiden om att byta garn](/sv/artiklar/byta-garn-i-stickmonster/) tar upp dessa frågor.
 
 **Hur mycket garn går åt till oket på en uppifrån-och-ned-tröja?**
-Oket kan ta en stor del av tröjans totala garnåtgång, beroende på djup och formning. Djupa flerfärgsok, även långa isländska ok, ligger högt i spannet eftersom avsnittet är brett, synligt och ofta flerfärgsstickat.
+Det finns ingen fast andel. Utgå från okets faktiska djup, formning, stickmönster och mängder per färg. Räkna inte ärmarnas överdelar igen när du uppskattar ärmarna nedanför delningen.
 
 **Är det bättre att köpa extra garn eller riskera att få slut?**
-Köp extra om garnet finns och budgeten tillåter. Ett oanvänt nystan kan vara returnerbart, användas till accessoarer eller sparas för lagningar. En halvfärdig tröja som inte kan färdigställas för att färgbadet är slut är ett mycket sämre resultat.
+Planera en reserv för projektet och kontrollera vad mönstret redan omfattar. Samma färgbad kan vara svårt att få tag på senare. Väg reservens kostnad mot den risken och kontrollera returvillkoren. Ett extra nystan är ingen allmän regel.
 
 **Påverkar fibern hur mycket garn jag behöver?**
-Lite. Ull och ullblandningar beter sig ofta nära standarduppskattningarna. Bomull och linne är tyngre och mindre elastiska, så provlappen spelar större roll om marginalen är snäv. Alpacka och silke kan falla och växa på längden efter blockning, beroende på blandning och konstruktion, vilket kan flytta storleken mer än små justeringar av maskantal gör.
+Fibrerna och garnets uppbyggnad påverkar det stickade materialet och hur det reagerar på tvätt. Kontrollera den faktiska löplängden och en behandlad provlapp. Det finns ingen allmän fiberbaserad faktor för tröjans garnåtgång.

@@ -3,39 +3,24 @@ import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import YarnEstimator from "../../../components/YarnEstimator.astro";
 import { routes } from "../../../i18n/routes";
 
+import { yarnReferenceCopy } from "../../../i18n/yarnReference";
+const referenceCopy = yarnReferenceCopy.fr;
+
 const faqs = [
-  {
-    q: "Comment savoir combien de laine mon projet demande ?",
-    a: "Le modèle indique normalement le métrage total dans la partie matériel. Si tu prépares un projet sans modèle, compare les fourchettes publiées pour le même type de projet, la même taille et la même épaisseur de fil, puis ajoute une marge de sécurité.",
-  },
-  {
-    q: "Faut-il acheter du fil en plus ?",
-    a: "Le plus souvent, oui. Achète au moins une pelote de plus quand le projet est ajusté, texturé ou tricoté dans un fil avec numéro de bain. Les bains peuvent varier légèrement en couleur, et retrouver le même plus tard peut être impossible si le lot est épuisé.",
-  },
-  {
-    q: "Que faire si mon modèle donne des yards ou des grammes ?",
-    a: "L'estimateur affiche les mètres. Si ton modèle donne des yards, convertis d'abord en mètres. Si le modèle ou ton stock n'est indiqué qu'en grammes, regarde l'étiquette pour connaître les mètres par pelote et calcule à partir de là. Le poids seul ne suffit pas, car deux pelotes de 50 g peuvent contenir des longueurs de fil très différentes.",
-  },
-  {
-    q: "L'épaisseur du fil change-t-elle la quantité nécessaire ?",
-    a: "Oui. Un fil fin, comme fingering ou sport, demande plus de mètres pour le même projet qu’un fil plus épais, comme worsted ou bulky, parce que les mailles sont plus petites et qu’il en faut davantage pour couvrir la même surface.",
-  },
-  {
-    q: "Puis-je remplacer le fil recommandé par un autre ?",
-    a: "Oui, si l'échantillon et la matière conviennent au projet. Tricote un échantillon avec le fil de remplacement, vérifie que tu obtiens l'échantillon du modèle, puis utilise ce calculateur comme contrôle de planification pour cette nouvelle épaisseur de fil.",
-  },
+  { q: referenceCopy.methodTitle, a: referenceCopy.method },
+  { q: referenceCopy.adviceTitle, a: referenceCopy.advice },
 ];
 ---
 
 <LocalizedToolPage
   title="Estimateur de quantité de laine"
-  description="Estime la quantité de fil nécessaire pour ton projet selon le type d'ouvrage, la taille et l'épaisseur du fil."
+  description={referenceCopy.description}
   canonicalPath={routes.tool.yarnEstimator.fr}
   lang="fr"
   alternates={routes.tool.yarnEstimator}
-  intro="Estime la quantité de fil nécessaire selon le type de projet, la taille et l'épaisseur du fil."
+  intro={referenceCopy.intro}
   schemaName="Estimateur de quantité de laine"
-  schemaDescription="Estime le métrage nécessaire pour un projet tricot selon le type d'ouvrage, la taille et l'épaisseur du fil."
+  schemaDescription={referenceCopy.description}
   faqs={faqs}
   variant="rust"
 >
@@ -44,32 +29,8 @@ const faqs = [
   </div>
 
   <div slot="content">
-    <h2>Comment utiliser ce calculateur</h2>
-    <p>
-      Choisis le type de projet, la taille et l'épaisseur du fil. L'estimateur
-      donne une quantité approximative en mètres. Utilise-la comme base de
-      planification, puis ajoute une marge de sécurité avant d'acheter ton fil.
-      Tomber à court au milieu d'un projet avec un bain introuvable, c'est le
-      cauchemar classique.
-    </p>
-
-    <h2>De combien de laine ai-je besoin ?</h2>
-    <p>
-      La quantité de fil dépend de trois choses : ce que tu tricotes, la taille
-      et l'épaisseur du fil. Un pull adulte taille M en fingering demande
-      environ 1 200 à 1 500 mètres. Un bonnet simple en bulky peut se contenter
-      d'environ 100 mètres. Si un modèle donne son propre métrage, utilise-le en
-      priorité ; cet estimateur sert surtout à planifier sans modèle ou à
-      vérifier si une quantité de fil est réaliste.
-    </p>
-
-    <h2>Lire une étiquette de pelote</h2>
-    <p>
-      Chaque étiquette, ou bande de pelote, indique la longueur par pelote. Une
-      fois que tu as une estimation totale, divise ce nombre par les mètres par
-      pelote indiqués sur l'étiquette pour savoir combien acheter. Si tu as
-      perdu l'étiquette, pèse ton fil sur une balance de cuisine et vérifie sur
-      le site du fabricant le ratio mètres par gramme.
+    <h2>{referenceCopy.methodTitle}</h2><p>{referenceCopy.method}</p><p>
+      {referenceCopy.limitations}
     </p>
   </div>
 </LocalizedToolPage>

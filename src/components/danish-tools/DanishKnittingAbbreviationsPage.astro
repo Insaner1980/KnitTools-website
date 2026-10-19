@@ -98,7 +98,7 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "alt",
-    def: "skiftevis / skifte (alternate)",
+    def: "hver anden; fx betyder alt rows hver anden pind",
     search: "alternate skiftevis skifte",
     categories: ["general"],
   },
@@ -128,13 +128,13 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "sl",
-    def: "tage en maske løst af (slip)",
+    def: "tag løs af uden at strikke; opskriften angiver ret eller vrang løs af",
     search: "slip tage maske løst af løs maske",
     categories: ["general"],
   },
   {
     abbr: "sl st",
-    def: "løs maske (slip stitch)",
+    def: "tag en maske løs af uden at strikke; følg opskriftens anvisning",
     search: "slip stitch løs maske",
     categories: ["general"],
   },
@@ -201,13 +201,13 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "kfb",
-    def: "strik ret i forreste og bagerste maskeled (knit front and back)",
+    def: "strik ret i forreste og bagerste maskeled i samme maske (1 maske taget ud)",
     search: "knit front and back forreste bagerste maskeled udtagning",
     categories: ["increases"],
   },
   {
     abbr: "pfb",
-    def: "strik vrang i forreste og bagerste maskeled (purl front and back)",
+    def: "strik vrang i forreste og bagerste maskeled i samme maske (1 maske taget ud)",
     search: "purl front and back forreste bagerste maskeled udtagning",
     categories: ["increases"],
   },
@@ -238,33 +238,33 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "ssk",
-    def: "ssk, venstrehældende indtagning",
+    def: "tag 2 masker ret løs af én ad gangen, strik dem ret sammen gennem bagerste maskeled (mod venstre; 1 maske taget ind)",
     search: "slip slip knit ssk venstrehældende indtagning",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "skp",
-    def: "tag 1 maske løst af, strik ret, træk den løse maske over",
+    def: "tag 1 maske ret løs af, strik 1 ret og træk den løse maske over (mod venstre; 1 maske taget ind)",
     search: "slip knit pass slipped stitch over overtrækning indtagning",
     categories: ["decreases"],
   },
   {
     abbr: "sk2p",
-    def: "tag 1 maske løst af, strik 2 ret sammen, træk den løse maske over",
+    def: "tag 1 maske ret løs af, strik 2 ret sammen og træk den løse maske over (mod venstre; 2 masker taget ind)",
     search:
       "slip one knit two together pass slipped stitch over dobbelt indtagning",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "s2kp",
-    def: "tag 2 masker løst af, strik 1 ret, træk de 2 løse masker over, centreret dobbeltindtagning",
+    def: "tag 2 masker løs af sammen, som skulle de strikkes ret sammen, strik 1 ret og træk begge løse masker over (centreret; 2 masker taget ind)",
     search:
       "slip two knit one pass two slipped stitches over centreret dobbeltindtagning",
     categories: ["decreases"],
   },
   {
     abbr: "CDD",
-    def: "centreret dobbeltindtagning (centered double decrease)",
+    def: "centreret dobbeltindtagning (2 masker taget ind); følg opskriftens metode",
     search: "centered double decrease centreret dobbeltindtagning",
     categories: ["decreases"],
   },
@@ -284,37 +284,37 @@ const abbreviations: Abbreviation[] = [
 
   {
     abbr: "C4F",
-    def: "snoning over 4 masker foran (cable 4 front)",
+    def: "snoning over 4 masker: hold 2 på hjælpepind foran arbejdet, strik 2 ret og derefter hjælpepindens 2 masker ret",
     search: "cable four front snoning foran",
     categories: ["cables"],
   },
   {
     abbr: "C4B",
-    def: "snoning over 4 masker bagved (cable 4 back)",
+    def: "snoning over 4 masker: hold 2 på hjælpepind bag arbejdet, strik 2 ret og derefter hjælpepindens 2 masker ret",
     search: "cable four back snoning bagved",
     categories: ["cables"],
   },
   {
     abbr: "C6F",
-    def: "snoning over 6 masker foran (cable 6 front)",
+    def: "snoning over 6 masker: hold 3 på hjælpepind foran arbejdet, strik 3 ret og derefter hjælpepindens 3 masker ret",
     search: "cable six front snoning foran",
     categories: ["cables"],
   },
   {
     abbr: "C6B",
-    def: "snoning over 6 masker bagved (cable 6 back)",
+    def: "snoning over 6 masker: hold 3 på hjælpepind bag arbejdet, strik 3 ret og derefter hjælpepindens 3 masker ret",
     search: "cable six back snoning bagved",
     categories: ["cables"],
   },
   {
     abbr: "T2F",
-    def: "kryds 2 masker foran (twist 2 front)",
+    def: "kryds 2 masker med 1 maske foran arbejdet; ret og vrang efter opskriften",
     search: "twist two front kryds snoning foran",
     categories: ["cables"],
   },
   {
     abbr: "T2B",
-    def: "kryds 2 masker bagved (twist 2 back)",
+    def: "kryds 2 masker med 1 maske bag arbejdet; ret og vrang efter opskriften",
     search: "twist two back kryds snoning bagved",
     categories: ["cables"],
   },
@@ -381,33 +381,40 @@ const faqs = [
   },
   {
     q: "Hvad betyder stjernen i en strikkeopskrift?",
-    a: 'Den markerer en gentagelse. Alt mellem stjernen og den tilhørende instruktion, ofte "rep from *", strikkes igen og igen hen over pinden. Parenteser og klammer gør det samme: de samler en række handlinger, der gentages et bestemt antal gange. At overse en gentagelsesmarkering er en hurtig vej til forkert maskeantal.',
+    a: "En stjerne markerer starten på en gentagelse. Gentag den markerede sekvens det antal gange eller til det punkt, opskriften angiver. Parenteser og klammer kan også vise forskellige størrelser eller flere handlinger i samme maske. Læs den tilhørende instruktion.",
   },
   {
     q: "Hvad hvis jeg ikke kan finde en forkortelse i en standardliste?",
-    a: "Så er det næsten helt sikkert en opskriftsspecifik forkortelse fra designeren. Gå tilbage til begyndelsen af opskriften og se efter en liste med forkortelser eller maskedefinitioner. Snoninger og hulmønstre giver flest egne forkortelser, fordi designere laver kompakt notation til teknikker, der kun bruges i netop det design. Står den ikke der, er opskriftsnoter eller diagramnøgle næste sted at kigge.",
+    a: "Det kan være en forkortelse, der er defineret i netop den opskrift. Tjek forkortelseslisten, maskeforklaringerne, noterne og tegnforklaringen. Spørg designeren, hvis betydningen stadig er uklar, før du skifter teknik.",
   },
   {
     q: "Hvad er forskellen på ssk og skp?",
-    a: "Begge er venstrehældende indtagninger og giver næsten samme resultat i det færdige strik. ssk er den moderne standard og står i de fleste nye opskrifter. skp ses oftere i ældre opskrifter. Udførelsen er lidt forskellig, så følg det, opskriften angiver, i stedet for bare at skifte.",
+    a: "Begge tager én maske ind og hælder mod venstre set fra glatstrikkens retside. Almindelig ssk: tag to masker ret løs af én ad gangen, og strik dem ret sammen gennem bagerste maskeled. Skp: tag én maske ret løs af, strik én ret, og træk den løse maske over. Udseendet kan variere, så følg opskriftens metode.",
   },
 ];
 ---
 
 <LocalizedToolPage
-  title="Strikkeforkortelser: søgbar ordliste"
-  description="Slå en strikkeforkortelse eller teknik op. Komplet ordliste med opskriftstermer fra k2tog til psso, ordnet efter kategori."
+  title="Engelske strikkeforkortelser på dansk"
+  description="Slå almindelige engelske strikkeforkortelser op med danske forklaringer. Søg efter forkortelse eller teknik, og filtrer efter kategori."
   canonicalPath={danishToolRoutes.knittingAbbreviations}
   lang="da"
   alternates={danishToolAlternates.tool.knittingAbbreviations}
-  intro="Søg en forkortelse for at se, hvad den betyder, eller søg på en teknik for at finde de tilhørende forkortelser."
+  intro="Søg blandt almindelige engelske strikkeforkortelser og teknikker forklaret på dansk. Udvalget hjælper dig med at læse engelske opskrifter."
   schemaName="Strikkeforkortelser"
-  schemaDescription="Søgbar ordliste med strikkeforkortelser og tekniske termer."
+  schemaDescription="Slå almindelige engelske strikkeforkortelser op med danske forklaringer. Søg efter forkortelse eller teknik, og filtrer efter kategori."
   faqs={faqs}
   variant="brown"
 >
   <div slot="tool">
     <div class="abbr-wrapper">
+      <p>
+        Opskriftens egen forklaring gælder. Her strikkes maskerne fra venstre
+        til højre pind, og retstrikkede udtagninger og indtagninger beskrives
+        set fra glatstrikkens retside. Garn foran/bagved betyder mod dig/væk fra
+        dig, uanset retside eller vrangside. Følg opskriften for at tage masker
+        løs af og strikke snoninger; også ssk findes i flere varianter.
+      </p>
       <input
         type="text"
         id="abbr-search"
@@ -502,12 +509,11 @@ const faqs = [
       >. Det er rammen, ikke maskerne.
     </p>
     <p>
-      Tegnsætning tæller også. Stjerner og semikoloner er ikke pynt. <code
-        >*k2, p2; rep from *</code
-      > betyder, at alt mellem stjernen og semikolonet gentages. Parenteser og klammer
-      fungerer på samme måde og samler handlinger, der gentages et bestemt antal gange.
-      At overse en gentagelsesmarkering er en af de hurtigste måder at ende med forkert
-      maskeantal.
+      <code>*k2, p2; rep from *</code> gentager to ret og to vrang: fire masker pr.
+      rapport. En stjerne markerer starten på en gentagelse. Gentag den markerede
+      sekvens det antal gange eller til det punkt, opskriften angiver. Parenteser
+      og klammer kan også vise forskellige størrelser eller flere handlinger i samme
+      maske. Læs den tilhørende instruktion.
     </p>
 
     <h2>Forskelle mellem US og UK</h2>
@@ -535,7 +541,7 @@ const faqs = [
       konkrete opskrift, og de bør forklares nær begyndelsen af instruktionerne.
     </p>
     <p>
-      Snoningsmønstre er den største kilde. En diagramnøgle kan definere <code
+      Snoningsmønstre kan bruge egne forkortelser. En diagramnøgle kan definere <code
         >C4F</code
       >, <code>C6B</code> eller noget mere specifikt for designet. Tallet angiver
       typisk, hvor mange masker der krydser. Bogstavet til sidst, F eller B, angiver
@@ -570,15 +576,18 @@ const faqs = [
       inde i den opskrift.
     </p>
     <p>
-      Den praktiske regel: finder du ikke en forkortelse i en standardreference,
-      står den næsten sikkert i opskriftens begyndelse. Rul op, før du søger
-      andre steder.
+      Det kan være en forkortelse, der er defineret i netop den opskrift. Tjek
+      forkortelseslisten, maskeforklaringerne, noterne og tegnforklaringen.
+      Spørg designeren, hvis betydningen stadig er uklar, før du skifter teknik.
     </p>
 
     <h2>Hvad symboler i diagrammer betyder</h2>
     <p>
-      Diagrammer bruger symboler i stedet for udskrevne pinde. Hver rude er én
-      maske, og symbolet i ruden fortæller, hvad du skal gøre.
+      Diagramsymboler viser, hvad du skal gøre. En rude svarer ofte til én
+      færdig maske, men indtagninger bruger flere masker, og snoningssymboler
+      kan dække flere ruder. En rude for “ingen maske” springes over, uden at du
+      strikker eller tager en maske løs af. Brug tegnforklaringen, når du
+      tæller.
     </p>
     <p>
       Der findes ingen universel standard for alle diagramsymboler, men mange
@@ -590,11 +599,12 @@ const faqs = [
       >.
     </p>
     <p>
-      Diagrammer læses nedefra og op, fordi strik vokser opad. Ved fladstrik
-      læses pinde på retsiden fra højre mod venstre og pinde på vrangsiden fra
-      venstre mod højre, i samme retning som pindene bevæger sig. Ved rundstrik
-      læses hver omgang fra højre mod venstre, fordi du altid arbejder på
-      retsiden.
+      Diagrammer læses normalt nedefra og op. Når maskerne strikkes fra venstre
+      til højre pind, læses retsidepinde normalt fra højre mod venstre og
+      vrangsidepinde fra venstre mod højre. Ved rundstrik med retsiden mod dig
+      læses omgangene normalt fra højre mod venstre. Tjek nummerering og noter:
+      vrangsidepinde kan være udeladt, og andre arbejdsretninger kræver egne
+      instruktioner.
     </p>
     <p>
       Hvis en opskrift har både skrevne instruktioner og diagram, bør de være
@@ -611,11 +621,11 @@ const faqs = [
       og de samme tolv forkortelser dækker det meste af det, du strikker.
     </p>
     <p>
-      Et par mange snubler over: <code>ssk</code> og <code>skp</code> er begge venstrehældende
-      indtagninger. <code>ssk</code> er den moderne standard. <code>skp</code> står
-      oftere i ældre opskrifter. Resultatet ligner hinanden, men udførelsen er lidt
-      forskellig, så følg opskriften, som den er skrevet, medmindre den giver lov
-      til at skifte.
+      Begge tager én maske ind og hælder mod venstre set fra glatstrikkens
+      retside. Almindelig ssk: tag to masker ret løs af én ad gangen, og strik
+      dem ret sammen gennem bagerste maskeled. Skp: tag én maske ret løs af,
+      strik én ret, og træk den løse maske over. Udseendet kan variere, så følg
+      opskriftens metode.
     </p>
     <p>
       En anden, der er værd at markere: <code>psso</code>, pass slipped stitch
@@ -625,10 +635,9 @@ const faqs = [
       taget løst af i forrige trin.
     </p>
     <p>
-      Craft Yarn Council udgiver en meget brugt standardliste over forkortelser,
-      og de fleste designere følger den for almindelige termer. Derudover tager
-      regionale vaner og opskriftsspecifikke genveje over. "Tjek
-      opskriftsnøglen" er bedre råd end "lær en komplet liste udenad".
+      Craft Yarn Council har en referenceliste over almindelige
+      strikkeforkortelser. Regionale og opskriftsspecifikke betegnelser kan
+      variere, så tjek opskriftens egen forklaring.
     </p>
     <p>
       Hold en reference åben, mens du strikker. <a href="/">KnitTools</a> har en søgbar

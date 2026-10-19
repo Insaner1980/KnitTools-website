@@ -20,11 +20,11 @@ const faqItems = [
   },
   {
     q: "Are needle sizes the same across all brands?",
-    a: "They should be. In practice there are slight differences, especially on cheaper sets or older needles. If your gauge is persistently off, measure the needle.",
+    a: "Not always. US labels can represent different metric diameters across brands or charts, especially US 17 and 19. Check the millimeter marking or measure the shaft with a needle gauge, then swatch.",
   },
   {
     q: "What about circular needle sizes?",
-    a: "Same sizing as straights. The size describes tip diameter, not cable length. A 4.5 mm circular is a 4.5 mm needle whether the cable is short for a hat or long for magic loop.",
+    a: "Same sizing as straights. The size describes the diameter of the straight shaft behind the tapered tip, not the needle or cable length. A 4.5 mm circular and a 4.5 mm straight needle have the same nominal diameter.",
   },
   {
     q: "Do I need every needle size?",
@@ -34,6 +34,7 @@ const faqItems = [
 ---
 
 <PageLayout
+  contentPage
   title="Needle Size Chart: US, UK, Metric & Japanese"
   description="Convert knitting needle sizes between US, UK, metric (mm), and Japanese systems. Searchable chart with recommended yarn weights per needle size."
   canonicalPath={canonicalPath}
@@ -63,6 +64,20 @@ const faqItems = [
 
       <div class="form-card variant-teal is-wide" data-reveal="scale">
         <div class="table-wrapper">
+          <p>
+            These are knitting-needle sizes, not crochet-hook sizes. UK/Canadian
+            means the traditional numbering system. US half sizes follow
+            KnitPro; Japanese numbers 0–15 follow Clover (0 = 2.1 mm). A dash
+            means no numbered equivalent is listed here; larger Japanese needles
+            use millimeters.
+          </p>
+          <p>
+            US labels vary: KnitPro groups 12–12.75 mm as US 17 and 15–16 mm as
+            US 19; ChiaoGoo uses 12.75 mm and 15 mm respectively. Match the
+            millimeter diameter, not just the number. Yarn categories are CYC
+            guidelines, not guarantees of gauge or fit; lace often uses larger
+            needles for openwork.
+          </p>
           <input
             type="text"
             id="needle-search"
@@ -154,8 +169,7 @@ const faqItems = [
       <p data-reveal>
         <strong>The UK reversal.</strong> US sizes go up as needles get bigger. Old
         UK sizes go down. A US 6 is 4.0 mm. A UK 6 is 5.0 mm. Swap those and your
-        swatch is off by a full millimeter before you've knit a single row. That trips
-        up more people than you'd expect.
+        needle diameter is off by a full millimeter, which can change your gauge.
       </p>
       <p data-reveal>
         <strong>The missing one-to-one matches.</strong> Not every metric size has
@@ -259,6 +273,7 @@ const faqItems = [
         method="post"
         id="waitlist-form"
         data-waitlist-signup
+        data-localized-errors="true"
         data-source="knittools"
         data-sending-text="Sending..."
         data-generic-error="Something went wrong. Please try again."

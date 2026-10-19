@@ -1,7 +1,8 @@
 ---
-title: "Parhaat neulesovellukset: mitä kannattaa katsoa"
-description: "Millainen on hyvä neulesovellus Androidille? Vertaa kerroslaskureita, laskureita, lankavaraston hallintaa ja offline-käyttöä."
+title: "Neulesovelluksen valinta: mitä kannattaa katsoa"
+description: "Valitse neulesovellus omaan neulontaan: kerroslaskurit, laskimet, PDF-ohjeet, offline-käyttö, hinnoittelu, varmuuskopiot ja sopiva laite."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 1
 tags:
@@ -16,123 +17,95 @@ lang: fi
 translationKey: "best-knitting-apps"
 ---
 
-Neulesovellukset korvaavat paperinpalat, käsin tehdyt laskut ja päässä pidetyn kerrosluvun, joihin neulojat ovat luottaneet pitkään. Hyvä sovellus säästää aikaa ja estää virheitä. Huono lisää kitkaa, piilottaa tavalliset toiminnot sekaviin valikoihin tai tyrkyttää tilausta asioista, joiden pitäisi olla perustyökaluja.
+Neulesovellus voi koota kerrosluvut, laskut ja projektimuistiinpanot yhteen. Tarpeet riippuvat neulomisestasi: huiviin voi riittää yksinkertainen kerroslaskuri, kun taas usean muotoilun seuraamiseen voi olla hyötyä lisälaskureista ja muistiinpanoista.
 
-Hyvässä neulesovelluksessa on kolme ydinasiaa: kerroslaskuri, jossa voi olla useita samanaikaisia laskureita, käytännölliset laskurit (ainakin silmukoiden luomiseen ja langanmenekin arviointiin) sekä offline-käyttö niille osille, joita käytät neuloessa. Sovelluskauppojen sijoitukset ja ominaisuuslistat muuttuvat, joten parempi kysymys on se, mitä kannattaa arvioida ennen asennusta.
+Tämä on ominaisuuksien valintaopas, ei sovellusten testattu paremmuusjärjestys. Aloita tehtävistä, joihin kaipaat apua, ja tarkista sitten sovelluksen ohjeista, mitä omalle laitteellesi tarjottu versio tekee.
 
 ## Tärkeimmät ominaisuudet
 
 ### Kerroslaskuri
 
-Tämä on se ominaisuus, jonka vuoksi moni lataa neulesovelluksen ensimmäisenä. Perustaso on helppo: napauta, luku kasvaa. Mutta yksinkertaisen laskurin ja oikeasti hyödyllisen laskurin väli on iso.
+Tavallinen kerroslaskuri kasvaa napautuksesta. Päätä, merkitsetkö valmiita kerroksia tasossa tai suljettuna neulottaessa vai mallikerran toistoja. Noudata samaa kirjaustapaa. Napautettava laskuri ei tunnista neulomista automaattisesti.
 
-**Hyvän kerroslaskurin erottaa tästä:**
+[Samaan aikaan etenevissä muotoiluissa](/fi/artikkelit/samaan-aikaan-neuleohjeessa/) erilliset laskurit voivat auttaa seuraamaan eri kerrosvälejä. Myös yhteen kerroslukuun sidottu kirjallinen aikataulu toimii; ohje ei edellytä tiettyä laskurimäärää.
 
-Useita laskureita yhtä aikaa. ["Samaan aikaan" -ohjeissa](/fi/artikkelit/samaan-aikaan-neuleohjeessa/) kädentien ja pääntien muotoilut voivat kulkea eri väleillä. Silloin tarvitset vähintään kaksi itsenäistä laskuria.
+Tarkista, säilyvätkö laskurit omissa projekteissaan, kun vaihdat työtä. Kirjaa myös ohjeen kohta ja omat muutokset. Työskentelykertojen historia auttaa hahmottamaan taukoja, mutta oikea jatkamiskohta riippuu omien merkintöjesi tarkkuudesta.
 
-Yläosasta aloitettu raglan, jossa miehustan ja hihojen muotoilut kulkevat samaan aikaan, voi tarvita neljäkin laskuria. Yksi numero ei enää riitä.
+Kokeile painikkeiden kokoa, kumoamista, tekstikokoa ja ruudunlukijan toimintaa omalla laitteella. Jos tarvitset puheohjausta, tarkista komennot, kielet ja verkkoyhteyden tarve. Ominaisuuslista ei yksin todista saavutettavuutta tai toimintavarmuutta.
 
-Yhteys projektiin. Laskuri muistaa, mihin projektiin se kuuluu, ja antaa vaihtaa projektia menettämättä paikkaa. Jos työn alla on kolme neuletta, yhden laskurin nollaaminen ei saa pyyhkiä muita.
+### Laskimet
 
-Sessiohistoria. Kun näet, montako kerrosta neuloit yhdellä kerralla ja milloin viimeksi työstit projektia, edistymisen seuraaminen ja tauon jälkeen jatkaminen on helpompaa. Se auttaa erityisesti silloin, kun projekti on ollut syrjässä kaksi kuukautta ja tarvitset vihjeen siitä, missä olit.
+**Silmukkalaskuri.** Tarkista neuletiheyden ja leveyden yksiköt sekä pyöristystapa. Jos ohjeessa on 8 silmukan mallikerta tai 12 silmukan monikerta ja 3 lisäsilmukkaa, varmista laskurin tuki tai sovita tulos itse. Huomioi myös reunasilmukat.
 
-Isot napautusalueet. Laskurin painikkeeseen pitää osua katsomatta, kun silmät ovat neuleessa. Pieni plusikoni, johon pitää tähdätä tarkasti, ohittaa koko laskurin idean. Parhaat laskurit toimivat eleenä tai napautuksena lähes missä tahansa näytöllä.
+**Langanmenekin arvioija.** Tarkista lähtötiedot: valmiit kokoluokat ja lankavahvuudet ovat eri asia kuin omat mitat tai mallitilkun kulutus. Tulos on arvio, ei takuu langan riittävyydestä. Selvitä, sisältyykö siihen varaus mallitilkulle ja viimeistelylle.
 
-Laskuri, joka on vain numero ja pluspainike, on kuin puhelimen ajastin: teknisesti toimiva, käytännössä riittämätön.
+**Lisäys- ja kavennuslaskuri.** Tarkista, annetaanko laskimelle muutosten määrä vai lopullinen silmukkamäärä ja sopiiko ehdotettu jako reunoihin sekä mallineuleeseen.
 
-### Laskurit
+**Neuletiheyslaskuri.** Vertailu voi osoittaa eron ohjeen tiheyteen. Se ei takaa sopivaa puikkokokoa tai neulepintaa; varmista ne uudella mallitilkulla.
 
-Neulojat käyttävät oikeasti näitä:
-
-**Silmukkalaskuri.** Neuletiheys ja haluttu leveys sisään, silmukkamäärä ulos. Säästää päässälaskun jokaisessa uudessa projektissa. Hyvä laskuri huomioi myös mallineuleen jaot, esimerkiksi 8 silmukan palmikkoraportin tai pitsin, joka tarvitsee 12 jaollisen silmukkamäärän plus 3 silmukkaa.
-
-**Langanmenekin arvioija.** Projektityyppi, mitat ja lankavahvuus sisään, kokonaismenekki ulos. Vähentää "riittääkö lanka" -ahdistusta ja sitä hetkeä, kun käy selväksi ettei lanka todellakaan riitä. Fiksut versiot lisäävät pienen varan mallitilkulle ja viimeistelylle.
-
-**Lisäys- ja kavennuslaskuri.** Nykyinen silmukkamäärä ja tavoitemuutos sisään, tasainen jakorytmi ulos. Säästää jakojäännösten laskemisen, jonka ohjeet usein jättävät neulojalle.
-
-**Neuletiheyslaskuri.** Vertaa mallitilkun mittoja ohjeen vaatimuksiin ja kertoo, pitääkö puikkokokoa muuttaa.
-
-Osa sovelluksista sisältää kaikki nämä. Osa keskittyy yhteen asiaan. Sovellus, jossa on hyvä silmukkalaskuri ja langanmenekin arviointi, kattaa kaksi yleisintä tarvetta.
+Kaikkien laskinten ei tarvitse olla samassa sovelluksessa. Valitse omiin töihisi hyödylliset.
 
 ### Lankavaraston hallinta
 
-Digitaaliset lankakortit tallentavat kuitusisällön, lankavahvuuden, värin, metrimäärän ja hoito-ohjeet. Jos lankavarasto on kasvanut yhtään, tämä on hyödyllistä, koska voit tarkistaa mitä sinulla on ilman laatikoiden penkomista. "Kaikki DK-vahvuiset langat" -suodatus ansaitsee paikkansa silloin, kun aloitat uutta projektia omista langoista.
-
-Hyvä lankakortti tekee käsin täytöstä nopeaa: kopioi olemassa oleva kortti, tallenna usein toistuvat kentät ja pidä värjäyserä sekä hoito-ohjeet näkyvissä. Kitka on todellinen. Lankakortin pitäisi tuntua lähempänä vyötteen muistiin kirjaamista kuin tietokannan täyttämistä.
-
-Tarve riippuu määrästä. Viisi kerää? Muistat ne. Viisikymmentä? Digitaalinen inventaario säästää käyntejä lankakaapille. Kaksisataa? Ilman inventaariota et oikeasti tiedä, mitä omistat.
+Jos haluat digitaalisen lankavaraston, etsi kentät kuitusisällölle, lankavahvuudelle, värille, värjäyserälle, metrimäärälle, kerämäärälle ja hoito-ohjeille. Kokeile oman langan hakemista ja suodattamista. Kortin kopiointi tai kuva voi vähentää kirjoittamista, mutta tarkista, mitkä tiedot syötetään käsin. Varastolista pysyy hyödyllisenä vain, jos päivität määriä.
 
 ### Offline-käyttö
 
-Neulomista tapahtuu paikoissa, joissa netti ei ole luotettava: junassa, lentokoneessa, odotushuoneessa, sohvalla jossa wifi pätkii. Sovellus, joka tarvitsee yhteyden näyttääkseen kerrosluvun tai ajaakseen laskurin, pettää juuri sillä hetkellä kun sitä tarvitset.
+Selvitä, mitä voit tehdä ilman verkkoyhteyttä: avata projektin, muuttaa kerroslukua, laskea tai lukea jo ladattua ohjetta. Tallennettu verkkolinkki ei ole offline-tilassa luettava PDF. Tarkista ensimmäisen latauksen ja kirjautumisen vaatimukset erikseen tavallisesta käytöstä.
 
-Ydintoimintojen offline-käytön pitäisi olla oletus: laskuri, neulelaskurit ja lankakortit. Ei maksullinen lisä. Sovellus, joka piilottaa offline-käytön tilauksen taakse, ei ole ymmärtänyt millaisessa tilanteessa laskuria käytetään.
+## Ominaisuudet oman työtavan mukaan
 
-## Ominaisuudet, jotka kuulostavat hyödyllisiltä mutta eivät aina ole
+Ohjeen lukeminen laskurin vieressä voi olla tärkeä valintaperuste. PDF:n tuonti, katselu, merkintöjen tekeminen ja vienti ovat eri toimintoja. Tuonti ei tarkoita ohjeen automaattista tulkitsemista. Tarkista myös merkintöjen säilyminen vietävässä kopiossa.
 
-Ohjeiden tallennus ja lukeminen kuulostaa hyvältä. Ohje ja laskuri samassa paikassa. Käytännössä monimutkaisen ohjeen lukeminen puhelimen ruudulta on raskasta. Moni neuloja suosii tulostettua ohjetta tai tablettia. Puhelin jää laskuriksi ja laskimeksi.
-
-Sosiaaliset ominaisuudet, kuten syötteet, edistymisen jakaminen ja yhteisö, saavuttavat harvoin kriittisen massan. Ravelry ja Instagram palvelevat neuleyhteisöä jo hyvin. Kolmas sosiaalinen syöte kerroslaskurisovelluksen sisällä ei yleensä lisää mitään.
-
-Silmukkakirjaston animaatiot näyttävät sovelluskaupassa hienoilta, mutta ne avataan kerran ja unohdetaan. Kun opettelet silmukkaa, YouTube-video voittaa pienen ruudun silmukan, koska käsien asento, langankireys ja liike näkyvät paremmin.
-
-Sisäänrakennetut ajastimet, "älykkäät" muistutukset neuloa ja pelillistetyt putket ovat tuottavuussovellusten ideoita. Ne eivät aina sovi harrastukseen. Neulonta on monelle tauko muistutuksista, ei uusi paikka saada niitä lisää.
+Yhteisötoiminnoista voi olla hyötyä projektien jakamiseen ja ohjeista keskustelemiseen. Videoita ja animaatioita kannattaa arvioida käsien liikkeiden näkyvyyden, toiston ja ymmärrettävien selitysten perusteella. Ajastimet, muistutukset ja tavoiteputket ovat valinnaisia: valitse ne, jos niistä on sinulle hyötyä, ja tarkista, saako ne pois päältä.
 
 ## Puhelin vai tabletti
 
-Puhelin on se laite, joka on taskussa, ja siksi luonnollinen koti kerroslaskurille. Tabletti on paikka, jossa ohjeen lukeminen toimii oikeasti. Moni käyttää molempia: puhelin seuraa kerroksia, tabletti näyttää PDF-ohjeen.
-
-Jos valitset yhden laitteen kaikkeen, tabletti voittaa ohjeissa ja häviää mukana kulkemisessa. Puhelin voittaa kaikessa muussa paitsi lukemisessa. Yhtä oikeaa vastausta ei ole. Rehellinen testi on tämä: neulotko yleensä kotona yhdessä paikassa vai kulkeeko projekti mukana?
+Kokeile tavallisesti käyttämäsi ohjeen tai kaavion luettavuutta. Suurempi näyttö voi vähentää zoomaamista; puhelin voi kulkea helpommin mukana. Jos käytät molempia, tarkista sovelluksen ja ostoksen toimivuus kummallakin sekä projektimuutosten synkronointi. Kaksi asennusta ei itsessään tarkoita synkronointia.
 
 ## Hinnoittelumallit
 
-**Kertamaksu** on neulojalle ystävällisin malli. Maksat kerran ja omistat sovelluksen. Kerroslaskurista ei tarvitse maksaa joka kuukausi.
+**Kertamaksu:** tarkista, mitä ostat ja kattaako maksu muut alustat tai tulevat pääversiot. Kertamaksu ei lupaa päivityksiä ikuisesti.
 
-**Tilaushinnoittelu** voi olla perusteltu, jos mukana on oikeasti maksullisen tason sisältöä, kuten suuri ohjetietokanta, pilvisynkronointi tai edistyneet kaaviotyökalut. Useimmat neulojat eivät silti tarvitse kuukausimaksullista laskinta. Pienikin kuukausimaksu muuttuu vuodessa lankarahaksi.
+**Tilaus:** vertaile laskutuskautta, ominaisuuksia, uusimista ja käyttöoikeutta tilauksen päätyttyä. Vertaa vuosihintaa 12 kuukausimaksuun vain, jos sisältö on sama.
 
-Katso, mitä ilmaisversio sisältää ja käyttäisitkö maksullisia ominaisuuksia oikeasti joka viikko. Tarkista myös sovelluksen sisäiset ostot ennen asennusta, koska paras ominaisuus voi olla korkeimman maksutason takana.
+**Ilmainen lataus tai kokeilujakso:** kumpikaan ei välttämättä tarkoita jatkuvasti ilmaista käyttöä. Tarkista kokeilun päättyminen, automaattinen uusiminen, projektirajat ja ilmaiseksi jäävät toiminnot.
 
-**Ilmainen mainoksilla** toimii, mutta ärsyttää. Mainokset kerroslaskurissa katkaisevat rytmin. Jos mainos aukeaa, kun napautat laskuria, maksa mieluummin poisto tai etsi toinen sovellus.
+**Mainosrahoitus tai maksulliset lisät:** selvitä, missä mainokset näkyvät ja mitä ostos poistaa tai avaa. Arvioi ilmaistasoa omien tarpeidesi mukaan; käyttökelpoinen kerroslaskuri ei tarvitse rinnalleen laskimia.
 
-**Freemium** eli perusversio ilmaiseksi ja lisäominaisuudet maksulla on järkevä, jos ilmaisversiossa on käyttökelpoinen laskuri ja ainakin yksi laskin. Vähemmän järkevä, jos kaikki lukitaan maksuseinän taakse ja "ilmainen" versio on vain demo.
+Tarkista hinta omalle alueellesi, valuutallesi ja alustallesi. Tässä oppaassa ei ilmoiteta muiden sovellusten hintoja.
 
-## Yksityisyys ja data
+## Yksityisyys ja tiedot
 
-Neulesovellus ei tarvitse pääsyä yhteystietoihin, sijaintiin tai asiaankuulumattomiin tiedostoihin. Jos sovellus pyytää oikeuksia, joille ei ole selvää yhteyttä näkyvään ominaisuuteen, kysy miksi.
+Tarkista käyttöoikeuden tarkoitus ja yhteys haluamaasi toimintoon, kuten PDF:n valintaan tai valokuvan lisäämiseen. Lue tietosuojatiedot ja tilivaatimukset. Neuleprojektin tietoja ei pidä olettaa merkityksettömiksi eikä offline-käyttöä todisteeksi siitä, ettei tietoja kerätä.
 
-Projektidatan, kuten kerroslukujen, lankavaraston ja ohjeiden, pitäisi olla paikallisesti tallessa tai varmuuskopioitavissa tavalliseen pilveen, ei lukittuna omaan suljettuun formaattiin. Jos vaihdat sovellusta, datan pitäisi tulla mukaan.
-
-Vientitoiminnot merkitsevät samasta syystä kuin varmuuskopiot: puhelin voi hajota tai vaihtua, eikä kolmen vuoden lankavarastotietojen pitäisi kadota laitteen mukana.
-
-Oikeuksien pitäisi liittyä näkyviin toimintoihin ja tulla pyydetyksi vasta, kun käytät kyseistä toimintoa. Ei heti asennuksessa varmuuden vuoksi.
+Tallennus säilyttää työkopion. Varmuuskopion pitäisi mahdollistaa palauttaminen. Viennistä saat tiedoston, jonka sisältö ja yhteensopivuus pitää tarkistaa. Synkronointi siirtää muutoksia laitteiden välillä; laitteen varmuuskopio ei yksin osoita tätä. Selvitä myös PDF:ien, kuvien ja muistiinpanojen mukanaolo sekä tietojen kohtalo tilin tai tilauksen päättyessä.
 
 ## Alustan sopivuus
 
-Saatavuus on ensimmäinen suodatin. Hieno iPad-sovellus ei auta, jos lasket kerroksia Android-puhelimella, eikä Android-laskuri auta, jos ohjeesi elää iPadissa. Tarkista se laite, jolla oikeasti neulot, ja vertaa sitten ydintoimintoja: laskuri, laskurit, offline-käyttö, vienti ja varmuuskopiointi.
-
-Käytännön testi ei ole se, millä alustalla sovelluskaupan sivu näyttää paremmalta. Tärkeämpää on, tuntuuko sovellus luonnolliselta omalla laitteella: isot napautusalueet, ennakoitava takaisin-navigointi, hyödylliset ilmoitukset ja se, ettei laitetta tarvitse vaihtaa joka toisella kerroksella.
+Tarkista tarkka tuotenimi, kehittäjä, tuetut laitteet, käyttöjärjestelmäversio ja käyttöliittymän kielet. Suomenkielinen artikkeli tai kauppakuvaus ei todista, että sovellus toimii suomeksi. Arvioi sitten painikkeet ja luettavuus sillä laitteella, jolla neulot.
 
 ## Mitä KnitTools sisältää
 
-Täysi läpinäkyvyys: tämä on KnitTools-sivusto.
+Oppaan julkaisija Finnvek kehittää KnitTools-sovellusta.
 
-[KnitTools](/fi/tyokalut/#join)-sovellusta rakennetaan Android-työkalupakiksi projektien seurantaan, kerroslaskentaan, laskureihin ja viitetiedon hakemiseen. Tavoite on pitää tavalliset neulonnan työtehtävät yhdessä paikassa: useita samanaikaisia laskureita, projektimuistiinpanot, tallennetut ohjeet, laskurit sekä viitemateriaali puikkokoista, lankavahvuuksista, lyhenteistä ja kokotaulukoista.
+KnitToolsia rakennetaan Android-työkalupakiksi projektien seurantaan, kerroslaskentaan, laskemiseen ja viitetiedon hakemiseen. Toteutuksessa on projektikohtaisia lisälaskureita, projektimuistiinpanoja, tallennettuja ohjeita, laskimia ja viitemateriaalia. Nämä ovat sovelluksen toimintoja; alla linkitetyt selainlaskurit ovat erillisiä työkaluja.
 
-Se on suunniteltu käytännön työkalupakiksi eikä yhden asian laskuriksi, jotta projektien seuraaminen, laskeminen, laskurit ja viitetieto sopivat samaan työrytmiin.
+[Tilaa ilmoitus Android-sovelluksen julkaisusta](/fi/tyokalut/#join). Linkki vie ilmoittautumiseen, ei sovelluksen lataukseen.
 
-## FAQ
+## Usein kysytyt kysymykset
 
 **Tarvitsenko neulesovellusta lainkaan?**
-Et. Neulojat pärjäsivät vuosisatoja paperilla ja kynällä. Sovellus on mukavuus. Jos nykyinen järjestelmä toimii, esimerkiksi merkit ohjeen reunassa, päässälasku ja vihko lankavarastolle, ei ole pakko vaihtaa. Sovellukset ovat hyödyllisimmillään silloin, kun projekteja on monta, laskemista on paljon tai lankavarasto halutaan pitää digitaalisena.
+Et. Jos merkinnät ohjeen reunassa ja vihko toimivat, jatka niillä. Sovellusta kannattaa harkita tiettyyn tehtävään, johon kaipaat apua.
 
 **Voiko useita neulesovelluksia käyttää yhdessä?**
-Voi. Osa käyttää yhtä sovellusta laskuriin ja toista laskuihin, tai sovellusta yhdessä Ravelryn kanssa ohjeiden hallintaan. Mitään pakkoa keskittää ei ole. Yksi sovellus, joka hoitaa ydintoiminnot, on vain yksinkertaisempi, ja kolmen sovelluksen välillä hyppiminen kesken ohjeen on oma kitkansa.
+Voi. Yksi voi hoitaa kerroslaskennan ja toinen laskut tai ohjeet. Mieti, miten säilytät jatkamiskohdan ja siirrät tarvittavat tiedot niiden välillä.
 
-**Onko verkossa hyviä ilmaisia neulelaskureita?**
-On. Tämän sivuston [silmukkalaskuri](/fi/tyokalut/silmukkalaskuri/) ja [lankamuunnin](/fi/tyokalut/lankamuunnin/) ovat ilmaisia, selaimessa toimivia eivätkä vaadi tiliä tai asennusta. Satunnaiseen käyttöön ne riittävät hyvin. Selainpohjaiset työkalut eivät seuraa projektejasi sessioiden välillä, ja siinä asennettu sovellus ansaitsee paikkansa.
+**Onko verkossa ilmaisia neulelaskureita?**
+On. Sivuston [silmukkalaskuri](/fi/tyokalut/silmukkalaskuri/) ja [lankamuunnin](/fi/tyokalut/lankamuunnin/) toimivat selaimessa ilman tiliä tai asennusta. Ne eivät hallitse tallennettuja projekteja. Silmukkalaskuri pyöristää parilliseen lukuun, joten tarkista mallikerrat erikseen. Nimettyjen ohjeiden vertailumäärät, ei henkilökohtainen menekkiennuste.
 
 **Entä Ravelry?**
-Ravelry on suuri kuitukäsitöiden yhteisö, muistikirja sekä ohje- ja lankatietokanta. Se on eri kategoria kuin työkalusovellus. Se on vahva ohjeiden löytämisessä, projektien kirjaamisessa, lankatiedoissa, lankavarastossa ja yhteisössä. Kerroslaskuri- ja laskurisovellus palvelee eri työtä, joten ne voivat täydentää toisiaan.
+[Ravelry](https://www.ravelry.com/about) on Ravelry, LLC:n verkkopalvelu, jossa on projektimuistikirja, lankavarasto, ohje- ja lankatietokannat sekä yhteisötoimintoja. Se voi täydentää kerroslaskuria. Ravelryn mukaan sillä [ei ole virallista mobiilisovellusta](https://www.ravelry.com/about/apps); palveluun yhdistyvät sovellukset ovat muiden kehittäjien erillisiä tuotteita. Lähteet tarkistettiin 18.10.2026.
 
 **Entä älykellon kerroslaskurit?**
-Ne voivat olla käteviä, varsinkin jos et halua laskea työtä käsistä. Haittapuolina ovat pieni ruutu, rajalliset ohjaimet ja akun kuluminen, jos napautuksia tulee paljon. Hyvä lisä, ei yleensä korvike puhelimen tai tabletin sovellukselle.
+Tarkista kellon ja puhelimen yhteensopivuus, lukujen syöttötapa ja siirtyminen projektiin. Kellon napauttaminen on käsin tehtävä kirjaus. Puheohjaus tai automaattinen tunnistus pitää varmistaa kyseiselle tuotteelle erikseen; sana kerroslaskuri ei lupaa niitä.

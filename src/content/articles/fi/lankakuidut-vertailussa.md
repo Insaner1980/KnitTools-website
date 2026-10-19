@@ -2,6 +2,7 @@
 title: "Lankakuidut: villa, puuvilla ja akryyli"
 description: "Miten villa, puuvilla, akryyli ja sekoitteet käyttäytyvät neuleessa: lämpö, laskeutuvuus, kesto, hoito ja viimeistely."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 8
 tags:
@@ -15,94 +16,88 @@ lang: fi
 translationKey: "yarn-fibers-compared"
 ---
 
-Neulo sama palmikkotilkku villasta ja puuvillasta, pidä niitä vierekkäin, ja ne näyttävät kuin eri ohjeista tulleilta. Villaversio joustaa. Palmikot nousevat esiin. Puuvillaversio roikkuu vähän, asettuu litteämmin ja näyttää jokaisen silmukan melkein kiusallisen rehellisesti. Sama puikko, samat kädet, sama silmukkamäärä. Täysin eri neulepinta.
+Neulo sama palmikkotilkku villasta ja puuvillasta ja vertaa niitä vyötteiden mukaisen pesun ja kuivauksen jälkeen. Kimmoisa villalanka voi nostaa palmikot esiin, sileä puuvillalanka taas tehdä pinnasta litteämmän ja silmukoista selkeät. Samat puikot ja silmukkamäärä eivät takaa samaa neuletiheyttä tai neulepintaa. Nämä ovat vertailtavia ominaisuuksia, eivät kuitunimen takaamia tuloksia.
 
-Ero ei ole vain ulkonäköä. Kuitusisältö vaikuttaa siihen, miltä lanka tuntuu neuloessa, miten se käyttäytyy viimeistelyssä, miten se kestää kuukausien ja vuosien käytössä ja pitääkö valmis neule muotonsa vai antautuuko se vähitellen painovoimalle. Kuitusisältö määrittää valmiin neulepinnan tunnun, laskeutuvuuden, viimeistelyn ja kestävyyden. Villa antaa joustoa ja muotoutuu viimeistelyssä, puuvilla antaa laskeutuvuutta ja pestävyyttä, akryyli antaa edullisuutta ja konepesun kestävää käytännöllisyyttä. Vyötteen kuitutieto ei ole pientä pränttiä. Se on hyödyllisin tieto siitä, mitä lanka oikeasti tekee.
+Kuitusisältö vaikuttaa langan tuntuun, viimeistelyyn ja kulumiseen. Myös kuitujen paksuus ja pituus, langan rakenne, kierre, sekoite, käsittelyt, neuletiheys ja mallineule vaikuttavat. Lue vyöte ja tarkista tilkusta laskeutuvuus, venymisestä palautuminen ja hoito. Venymä ja palautuvuus ovat eri asioita: neule voi venyä palautumatta alkuperäisiin mittoihinsa.
 
 ## Villa
 
-Villa on kuitu, johon kaikkea muuta verrataan, ja syystä. Se on lämmin, joustava, antaa anteeksi käsialan epätasaisuutta ja reagoi viimeistelyyn paremmin kuin mikään muu tavallinen neulekuitu.
+Villa on hyvä lähtökohta lämpimään, kimmoisaan neuleeseen. Kuidun kiharuus ja elastinen palautuvuus auttavat selittämään monien villalankojen joustoa.
 
-Jousto on tärkein osa. Villa venyy neulottaessa ja palautuu. Joustin pysyy napakkana. Palmikot säilyttävät kolmiulotteisen muotonsa. Sileässä neuleessa on elävä tuntu, joka palautuu kun neulepintaa puristelee. Sama jousto tekee villasta yhteistyöhaluisen märkäviimeistelyssä. Liota villaneule, aseta se muotoon, anna kuivua, ja työ näyttää usein aivan eri (paremmalta) projektilta. [Viimeistelyohje](/fi/artikkelit/neuleen-pingotus/) käy menetelmät kuidun mukaan. Pitsi avautuu kunnolla. Silmukat tasoittuvat. Muutos voi tuntua ensimmäisillä kerroilla melkein hämmästyttävältä.
+Kimmoisuus tekee villasta varteenotettavan valinnan joustinneuleisiin ja koholla erottuviin palmikoihin. Hoito-ohjeen sallima märkäviimeistely voi tasoittaa silmukoita ja avata pitsiä. Asettele työ tavoitemittoihin ja anna kuivua kokonaan. Älä oleta viimeistelyn korjaavan sopimatonta neuletiheyttä tai säilyttävän uutta muotoa kaikissa myöhemmissä pesuissa. [Viimeistelyohje](/fi/artikkelit/neuleen-pingotus/) esittelee menetelmiä; noudata oman langan valmistajan ohjeita, jos ne poikkeavat niistä.
 
-Villa toimii hyvin viileissä ja kosteissa oloissa, koska se eristää, käsittelee kosteutta ja voi tuntua mukavalta myös kevyesti kosteana. Sillä on syynsä, miksi se hallitsee ulkovaatteita ja talviasusteita, eikä se syy ole pelkkä nostalgia.
+Villakuitu sitoo vesihöyryä, ja kuohkean neuleen sisältämä ilma auttaa eristämään lämpöä. Siksi villa sopii viileän sään neuleisiin. Lämpöön ja käyttömukavuuteen vaikuttavat myös neuleen paksuus, rakenne, märkyys ja käyttöolot. Kosteuden sitominen ei takaa ihon pysymistä kuivana.
 
-Vaihtokaupat ovat silti todellisia. Tavallinen, superwash-käsittelemätön villa huopuu lämmön, kosteuden ja hankauksen yhteisvaikutuksesta. Se on joissain projekteissa ominaisuus ja toisissa katastrofi. Lisäksi "villa" kattaa valtavan pehmeysalueen. Jotkut rodut tuottavat lankaa, joka tuntuu hyvältä paljasta ihoa vasten. Toiset kuuluvat ulkovaatteisiin, ellei käyttäjä pidä karheudesta. Merino on yleensä pehmeämmässä päässä, ja moni tavallista villaa huonosti sietävä käyttää merinoa ongelmitta. Herkkyys on silti henkilökohtaista. Ainoa luotettava testi on käyttää lankaa ihoa vasten.
+Käsittelemätön villa voi huopua, kun liike vedessä saa kuitujen pintasuomut takertumaan toisiinsa; lämpö voi edistää tätä. Huopuminen tiivistää neuletta ja voi kutistaa sitä peruuttamattomasti. Pehmeys on eri asia. Kuitujen hienous ja pinnasta ulkonevat karkeat kuidut vaikuttavat pistelevään tuntuun. Hieno merino on yksi vaihtoehto pehmeään neuleeseen, mutta kuitunimi ei takaa mukavuutta ihoa vasten. Arvioi pestyn tilkun tuntua.
 
-Superwash-villa vähentää huopumis- ja kutistumisriskiä shrink-resist-käsittelyllä, ja konepestäviin vaatteisiin se on aidosti käytännöllinen silloin, kun vyöte sallii konepesun. Vastineeksi superwash tuntuu usein liukkaammalta puikoilla ja voi rentoutua tai kasvaa pesussa tavalla, jota käsittelemätön villa ei tee. Mallitilkku on superwashin kanssa tärkeämpi, ei vähemmän tärkeä.
+Superwash-käsittely vähentää huopumiskutistumista muokkaamalla tai peittämällä kuidun pintasuomuja. Se ei salli kaikkia konepesuohjelmia tai rumpukuivausta. Noudata juuri kyseisen langan pesu- ja kuivausohjetta. Sekä käsitelty että käsittelemätön neule voi muuttaa mittojaan silmukoiden rentoutuessa pesussa, joten mittaa kuiva mallitilkku.
 
-Pintaneuleisiin, kirjoneuleeseen ja kaikkeen rakenteeseen nojaavaan villa on vahvin valinta. Ei ainoa valinta. Vahvin.
+Pintaneuleisiin, kirjoneuleeseen ja kimmoisuutta tarvitseviin töihin villa on käytännöllinen lähtövalinta. Tarkista kuvion erottuminen ja palautuvuus valitulla langalla ja neuletiheydellä.
 
 ## Puuvilla
 
-Puuvilla on villan vastakohta lähes kaikessa, millä on merkitystä. Sen vahvuuksien ymmärtäminen tarkoittaa myös sen puutteiden ymmärtämistä.
+Puuvilla tarjoaa toisen lähtökohdan: se on imukykyinen kasvikuitu, jota kannattaa harkita esimerkiksi pesuliinoihin ja kesätoppeihin.
 
-Siinä ei käytännössä ole joustoa. Ei oikeastaan lainkaan. Lanka ei veny ja palaudu neulottaessa, joten käsialan epätasaisuudet jäävät valmiiseen pintaan näkyviin. Taitavat, tasaisesti neulovat ihmiset pitävät puuvillasta, koska silmukanpiirto on veitsenterävä. Vähemmän kokeneelle neulojalle se voi olla armoton.
+Puuvillakuidun elastinen palautuvuus on villaa vähäisempi. Puuvillaneule voi silti venyä silmukoiden liikkuessa, mutta venyminen ei takaa palautumista. Sileä puuvillalanka voi näyttää silmukat ja käsialan epätasaisuudet selvästi. Silmukanpiirtoon vaikuttavat myös kierre, pinnan rakenne ja neuletiheys.
 
-Paino ja laskeutuvuus ratkaisevat, onnistuuko puuvilla vai ei. Puuvillainen toppi laskeutuu kauniisti ja tuntuu viileän painavalta. Puuvillainen villapaita voi venyä hitaasti yhä pidemmäksi, kunnes mittasuhteet näyttävät vääriltä. Painovoima voittaa puuvillan kanssa aina, eikä kuidussa ole elastista muistia taistelemassa vastaan.
+Laskeutuvuus on valmiin neulepinnan ominaisuus. Notkea puuvillatoppi voi laskeutua kauniisti, kun taas painava, löyhästi neulottu paita voi pidentyä omasta painostaan. Venymä ei ole väistämätön: rakenne, neuletiheys, vaatteen paino ja hoito vaikuttavat.
 
-Puuvillan viimeistely ei ole viimeistelyä samassa mielessä kuin villalla. Kangasta voi silottaa, höyryttää ja asetella. Se ei kuitenkaan pidä dramaattisesti muotoiltua rakennetta kuten villa. Se, mikä tulee puikoilta, on lähellä sitä mikä jää käyttöön.
+Puuvillankin voi viimeistellä: pese ja kuivaa tilkku ohjeen mukaan, asettele se muotoon venyttämättä väkisin ja mittaa kuivana. Puuvillaneule voi kutistua tai muuttaa muotoaan pesussa. Höyrytä tai silitä vain, jos hoito-ohje sallii sen.
 
-Käytännöllisellä puolella puuvilla kestää pesua hyvin. Se on kestävä arkikäytössä. Tiskirätteihin, kauppakasseihin, usein pestäviin vauvanvaatteisiin ja kesätoppeihin se on ilmeinen valinta. Merseroitu puuvilla on sileä ja hieman kiiltävä. Merseroimaton puuvilla alkaa mattapintaisempana ja karheampana, mutta pehmenee kauniisti pesujen myötä.
+Puuvillaa kannattaa harkita tiskirätteihin, kauppakasseihin, usein pestäviin vauvanvaatteisiin ja kesätoppeihin, kun hoito-ohje sopii käyttöön. Merserointi lisää kiiltoa, mutta ei yksin määrää pehmeyttä. Merseroimaton puuvilla on yleensä mattapintaisempaa, ei välttämättä karheaa. Pesu ei takaa tiettyä tunnun muutosta.
 
-Pitkät neulomisrupeamat puuvillalla voivat rasittaa käsiä. Kun langassa ei ole joustoa, toistuva liike siirtyy suoremmin sormiin ja ranteisiin. Se kannattaa mainita, koska se yllättää osan neulojista.
-
-Laskeutuvuudessa, pestävyydessä ja lämpimän sään vaatteissa puuvilla voittaa villan selvästi. Rakenteessa, palautuvuudessa ja viimeistelyssä se ei pääse lähellekään.
+Valitse puuvilla, kun tavoitteena on imukyky ja kesäkäyttöön sopiva pinta; kimmoisa villalanka, kun palautuvuus on tärkeää. Kumpikaan ei voita kaikkia laskeutuvuuden, kestävyyden tai pestävyyden vertailuja.
 
 ## Akryyli
 
 Akryyli saa paljon vähättelyä, jota se ei kokonaan ansaitse. Sitä myös kehutaan joskus liikaa. Totuus on keskellä, käytännöllisellä puolella.
 
-Se on edullista, helposti saatavilla, yleensä helppohoitoista ja villaton vaihtoehto. Vauvanpeittoihin, joita pestään jatkuvasti, hyväntekeväisyysneuleisiin joissa budjetilla on väliä ja kaikille, jotka tarvitsevat villattoman langan, akryyli voi olla hyvä vastaus eikä vain toiseksi paras vaihtoehto.
+Akryyli on synteettinen kuitu, jota käytetään monissa edullisissa langoissa. Sopiva akryylilanka on käytännöllinen vaihtoehto usein pestävään vauvanpeittoon, pienen budjetin hyväntekeväisyysneuleeseen tai villattomaan työhön. Tarkista langan todellinen hinta, tuntu ja hoito-ohje.
 
-Se ei viimeisty kuin villa. Se voi nyppyyntyä. Se ei hengitä ihoa vasten erityisen hyvin. Liika lämpö voi vahingoittaa sitä pysyvästi, esimerkiksi silitysrauta tai liian aggressiivinen höyrytys voi sulattaa kuitua. Se on myös öljypohjainen kuitu ja päästää pesussa mikromuoveja.
+Akryylikuitu sitoo vähän kosteutta, mutta se ei yksin kerro neuleen ilmanläpäisevyydestä tai kuivuuden tunnusta iholla. Akryyli voi nyppyyntyä. Lämpö voi kiinnittää tai vääristää muotoa ja vaurioittaa lankaa; höyrytys ei vastaa märkäviimeistelyä, joten tarkista hoito-ohje ennen lämpökäsittelyä. Akryylitekstiilien pesussa voi irrota muovimikrokuituja. Määrä riippuu tekstiilistä ja pesuoloista; tämä ei yksin muodosta kuitujen koko ympäristövertailua.
 
-Akryylin käyttäminen villan sijaan on teknisesti mahdollista monessa ohjeessa, mutta neulepinta käyttäytyy eri tavalla. Peitoissa ja monissa asusteissa ero ei haittaa. Istuviin vaatteisiin, pitsiin tai vahvasti pintaneuleisiin malleihin neulo ensin mallitilkku ja katso rehellisesti, tekeekö neulepinta sen mitä ohje tarvitsee.
+Villan korvaaminen akryylillä edellyttää sopivaa neuletiheyttä ja neulepintaa. Tarkista peittoon laskeutuvuus, paino ja hoito. Istuvaan vaatteeseen, pitsiin tai pintaneuleeseen tarkista lisäksi palautuvuus ja kuvion erottuminen pesun ja kuivauksen jälkeen.
 
 ## Muita kuituja, jotka kannattaa tuntea
 
-**Alpakka** on pehmeä, lämmin ja laskeutuvampi kuin villa. Lämpö on todellista, joten se sopii kylmän sään asusteisiin. Puhdas alpakka voi kuitenkin venyä ajan myötä, koska kuidussa on vähemmän elastista muistia kuin monissa villoissa. Puhdas alpakkaneule, joka sopii täydellisesti viimeistelyalustalta nostettuna, voi venyä selvästi käytössä. Villaan sekoittaminen voi tuoda joustoa ja auttaa neulepintaa pitämään muotonsa. Puhdas alpakka toimii parhaiten huiveissa, kaulureissa ja hartiahuiveissa, joissa pieni piteneminen ei haittaa.
+**Alpakkaa** kannattaa harkita lämpimiin huiveihin, kaulureihin ja hartiahuiveihin, joihin halutaan pehmeästi laskeutuva pinta. Kuidun hienous, kiharuus ja langan rakenne vaihtelevat: alpakka ei ole aina jokaista villaa pehmeämpää, lämpimämpää tai vähemmän kimmoisaa. Paitaan tarkista erityisesti pestyn tilkun laskeutuvuus ja mittamuutos. Villa-alpakkasekoite on toinen kokeiltava vaihtoehto, ei tae venymättömyydestä.
 
-**Silkki** tuo kiiltoa, lujuutta ja laskeutuvuutta. Sitä käytetään harvoin neulelangassa puhtaana, koska se on kallista ja voi tuntua puikoilla liukkaalta. Sekoitteessa silkki voi kuitenkin muuttaa lankaa selvästi. Maltillinen silkki-osuus antaa villalle näkyvää hohdetta ja sileämmän tunnun ilman että rakenne muuttuu pelkäksi laskeutuvuudeksi. Silkki tuo myös vetolujuutta, minkä vuoksi sitä näkyy ohuissa pitsilangoissa. Haittapuoli: silkki voi saada vesitahroja eikä palaudu venymisestä kuten villa.
+**Silkki** tunnetaan kiillosta, vetolujuudesta ja laskeutuvuudesta. Siksi sitä kannattaa harkita huivi- ja pitsilankoihin, myös villasekoitteissa. Tulos riippuu silkin laadusta ja langan rakenteesta, ei vain prosenttiosuudesta. Joihinkin silkkipintoihin jää vesijälkiä; noudata langan hoito-ohjetta. Lujuus ei tarkoita villan kaltaista palautuvuutta.
 
-**Pellava** on vahva, viileä käyttää ja usein pehmenee käytössä ja pesuissa. Ensimmäinen kerä tuntuu jäykältä, joskus melkein rapisevalta. Se on normaalia. Toistuvat pesut tekevät neulepinnasta pehmeämmän ja rennomman. Pellava on kesätoppien ja lämpimän ilmaston neuleiden perusvalinta, koska se tuntuu viileältä ja käsittelee kosteutta keräämättä lämpöä. Se ei viimeisty kuten villa, muotoa ei juuri voi muuttaa, ja jouston puute voi väsyttää käsiä pitkissä neulomisrupeamissa. Hyvin käytetyssä pellavaneuleessa on kuitenkin laskeutuvuus ja tuntu, joita mikään muu kuitu ei aivan toista.
+**Pellava** on luja, imukykyinen kasvikuitu, jonka elastinen palautuvuus on vähäinen. Se sopii kesätoppiin, kun tilkun viileä tuntu ja laskeutuvuus vastaavat tavoitetta. Jotkin pellavalangat tuntuvat aluksi jäykiltä ja pehmenevät pesussa ja käytössä, mutta tietty pesumäärä ei takaa pehmeyttä. Pese ja muotoile tilkku hoito-ohjeen mukaan: kuidun vähäinen jousto ei estä neuleen mittamuutoksia.
 
-**Mohair ja kid mohair** tekevät halon, sen pörröisen pilven silmukoiden ympärille. Niitä pidetään usein yhdessä toisen langan kanssa, klassisesti silkin, eikä neulota yksinään paksummalla neuletiheydellä. Halo on vaikutelma, jota mikään muu kuitu ei uskottavasti toista. Kid mohair on pehmeämpää ja hienompaa. Tavallinen mohair voi tuntua karheammalta ihoa vasten. Molemmat pudottavat kuituja ympärilleen.
+**Mohairia ja kid mohairia** käytetään harjatuissa langoissa silmukoita ympäröivän pörröisen pinnan vuoksi. Mohair saadaan angoravuohesta; kid mohair on nuoren vuohen yleensä hienompaa kuitua. Pehmeys ja kuitujen irtoaminen riippuvat silti laadusta ja rakenteesta. Mohair-silkkisekoite on jo yksi lanka, ja sen neulominen erillisen toisen langan kanssa on eri valinta. Sitä voi neuloa myös yksinään, jos ohje ja tilkku sopivat siihen. Pörröisyys ei ole vain mohairin ominaisuus.
 
-**Nylon** harvoin esiintyy pääroolissa. Se näkyy sekoitteissa hankauksenkestävyyden takia, ja siksi sitä on monissa kaupallisissa sukkalangoissa. Pieni määrä, usein noin 10-25 %, voi pidentää kovassa kulutuksessa olevien töiden ikää ilman että se ottaa koko langan tunnun haltuun.
+**Nylonia**, vyötteissä myös polyamidia, käytetään monissa sukkalankasekoitteissa hankauksenkestävyyden vuoksi. Pelkkä osuus ei ennusta sukkien käyttöikää: myös kierre, neuletiheys, istuvuus ja käyttö vaikuttavat.
 
 ## Sekoitteet ratkaisevat todellisia ongelmia
 
-Sekoitteita tehdään, koska puhtailla kuiduilla on ennustettavia aukkoja ja kuitujen yhdistäminen paikkaa niitä.
+Sekoitteilla tavoitellaan tiettyjä ominaisuuksia, mutta yhdistelmä ei automaattisesti saa jokaisen ainesosan kaikkia etuja.
 
-Villa/nylon on klassinen sukkalankasekoite. Villa tuo lämpöä ja joustoa. Nylon tuo hankauksenkestävyyttä kantapäihin ja kärkiin. Sukkia voi neuloa ilman nylonia, mutta tämä sekoite ratkaisee tavallisen kulutusongelman.
+Villa-polyamidi on tuttu sukkalankasekoite. Villa tuo kimmoisuutta ja lämmöneristystä, polyamidi on mukana hankauksenkestävyyden vuoksi. Se on käyttökelpoinen vaihtoehto hankautuviin kantapäihin ja kärkiin, ei lupaus kulumattomista sukista. Sukkia voi neuloa myös ilman polyamidia.
 
-Merino/silkki tuo villapohjaan laskeutuvuutta ja kiiltoa ilman että rakenne katoaa kokonaan. Puuvilla/akryyli keventää neulepintaa ja helpottaa hoitoa puhtaaseen puuvillaan verrattuna. Villa/alpakka säilyttää enemmän rakennetta kuin puhdas alpakka mutta saa pehmeyttä.
+Merino-silkkiä kannattaa kokeilla kiillon ja laskeutuvuuden, villa-alpakkaa pehmeyden ja kimmoisuuden tasapainon vuoksi. Puuvilla-akryylissä vertaa todellisen neulepinnan painoa ja hoitoa. Sekoitteen nimi ei todista sitä puhdasta kuitulankaa kevyemmäksi, pehmeämmäksi, helppohoitoisemmaksi tai muotonsa paremmin säilyttäväksi.
 
-Suhde merkitsee. Lanka, jossa lukee 90/10 merino/silkki, on merinoa pienellä kiillolla. 50/50-sekoite käyttäytyy jo aidosti molempien kuitujen kompromissina. Pienet prosentit säätävät. Suuret prosentit muuttavat.
+Kuvitteellinen vyötemerkintä 90 % merinoa / 10 % silkkiä kertoo kuitujen paino-osuudet. 50 % / 50 % tarkoittaa yhtä suuria kuitupainoja, ei jokaisen ominaisuuden puoliväliä. Kumpikaan suhde ei ennusta kiillon, palautuvuuden tai laskeutuvuuden määrää. Arvioi lankaa sen sijaan, että asettaisit luksuskuidun prosentille laaturajan.
 
-Yksi asia kannattaa huomata: jotkut sekoitteet valitaan enemmän markkinoinnin kuin toiminnan vuoksi. 3 % kashmiria ei tee langasta kashmirin tuntuista. Se tekee vyötteeseen sanan kashmir. Jos luksuskuidun osuus on alle 10 %, käsittele lankaa pääkuidun mukaan ja pidä loppua bonuksena, jos huomaat sen.
-
-Sekoitteet voivat käyttäytyä viimeistelyssä arvaamattomasti. Villa/puuvilla-sekoite ei välttämättä reagoi märkäviimeistelyyn kuten puhdas villa, koska puuvillaosa ei muotoudu. Neulo mallitilkku ja viimeistele se. Lanka kertoo, mihin se suostuu.
+Villa-puuvillasekoite tarvitsee oman mallitilkun ja hoito-ohjeen tarkistuksen. Pese ja kuivaa tilkku kuten aiot hoitaa valmista työtä. Arvioi sitten mitat, pinta, laskeutuvuus ja palautuvuus. Kumpikaan kuitu ei yksin määrää lopputulosta.
 
 ## Kuidun valitseminen projektiin
 
 Kolme kysymystä selkeyttää suurimman osan valinnoista.
 
-Miten työ pestään? Säännöllinen konepesu rajaa vaihtoehtoja Superwash-villaan, akryyliin, puuvillaan ja tiettyihin sekoitteisiin. Käsinpesu avaa kaiken. Jos saaja ei aio käsinpestä, ja useimmat ei-neulojat eivät aio, suunnittele sen mukaan.
+Miten työ pestään? Jos säännöllinen konepesu on välttämätön, aloita langoista, joiden vyöte sallii tarvittavan ohjelman ja kuivaustavan. Selvitä, miten saaja aikoo hoitaa työn. Kuitunimi tai superwash-merkintä ei korvaa hoito-ohjetta.
 
-Mitä projekti tarvitsee rakenteellisesti? Palmikot ja pintaneuleet tarvitsevat joustoa. Se tarkoittaa villaa tai villapitoista sekoitetta. Laskeutuvuus ja liike tarvitsevat puuvillaa, silkkiä tai pellavaa. Halo tarvitsee mohairia. Kovaan kulutukseen tarvitaan nylon sekaan.
+Mitä projekti tarvitsee rakenteellisesti? Kokeile joustinneuleisiin ja koholla erottuviin palmikoihin ensin villaa tai villapitoista sekoitetta. Laskeutuvaan pintaan kokeile sopivaa puuvilla-, silkki- tai pellavalankaa ohjeen neuletiheydellä. Pörröiseen pintaan harkitse harjattua mohairia, hankautuviin sukkiin polyamidisekoitusta. Nämä ovat lähtövalintoja, eivät pakollisia ainesosia.
 
-Mihin ilmastoon työ tulee? Villa ja alpakka eristävät. Puuvilla ja pellava hengittävät ja pysyvät viileämpinä. Akryyli voi lämmittää, mutta moni akryylineule tuntuu ihoa vasten vähemmän hengittävältä kuin villa, puuvilla tai pellava.
+Mihin ilmastoon työ tulee? Kuohkea villa- tai alpakkaneule on hyvä lähtökohta lämpöön, kevyt puuvilla- tai pellavaneule kesäkäyttöön. Myös akryyli voi lämmittää. Paksuus ja mallineuleen avoimuus vaikuttavat eristävyyteen ja ilman kulkuun, joten vertaa valmiita tilkkuja kuitunimiin perustuvan hengittävyysjärjestyksen sijaan.
 
 Vastaukset eivät aina osoita yhteen kuituun. Mutta ne karsivat yleensä monta pois.
 
 ## Muutama asia, joka tulee vastaan
 
-Jos olet uusi neuloja ja valitset ensimmäistä lankaa, [aloittelijan lankaopas](/fi/artikkelit/paras-lanka-aloittelijalle/) rajaa vaihtoehtoja. Kuitusisältö vaikuttaa langanmenekkiin epäsuorasti. Eri kuidut pakkaavat eri määrän metrejä samaan keräpainoon, ja siksi pelkkiin grammoihin perustuva arvio voi jättää projektin vajaaksi. KnitToolsin [lankamuunnin](/fi/tyokalut/lankamuunnin/) antaa karkean suunnitteluhaarukan projektityypin, koon ja lankavahvuuden perusteella, mutta se ei huomioi kuitua.
-
-Kestävyyskysymykseen, joka nousee esiin jatkuvasti: nylon on tärkein vahvistaja neulelangoissa. Siksi sitä on lähes jokaisessa sukkalankasekoitteessa. Pellava on myös huomattavan vahva kasvikuitu, vaikka siitä puhutaan tässä yhteydessä vähemmän.
+Jos valitset ensimmäistä lankaa, [aloittelijan lankaopas](/fi/artikkelit/paras-lanka-aloittelijalle/) rajaa vaihtoehtoja. Kuitu ja langan rakenne vaikuttavat keräpainoa vastaavaan pituuteen, joten pelkät grammat eivät korvaa vyötteen metrimäärää. [Langanmenekkilaskuri](/fi/tyokalut/lankamuunnin/) — Nimettyjen ohjeiden vertailumäärät, ei henkilökohtainen menekkiennuste. Valitse työ, nimetyn ohjeen koko ja yksikkö. Tulos on kyseisen ohjeen vertailumäärä, ei oman työsi menekkiennuste.
 
 Puuvilla ja villa voivat aivan hyvin elää samassa lankavarastossa ja samassa neule-elämässä. Ajatus siitä, että neulojan pitäisi valita leiri, on outo. Ne tekevät täysin eri asioita. Talvitakin ja kesäpaidan omistaminen ei ole ristiriita. Ei ole sekään, että neulot molemmilla kuiduilla ja valitset sen, joka sopii projektiin.
 
-Ja jos mikään yllä oleva ei rajaa tarpeeksi: neulo mallitilkku. Ei siksi, että se olisi aina hauskaa (usein ei ole), vaan koska kymmenen grammaa lankaa ja tunti neulomista kertoo kuidusta enemmän kuin mikään artikkeli.
+Jos valinta jää vielä auki, neulo mallitilkku työn mallineuleella ja käsittele se suunnitellulla hoitotavalla. Anna kuivua kokonaan ja arvioi sekä neuletiheys että tuntu. Lankamäärä ja työaika riippuvat tilkusta; pieni näyte ei todista koko vaatteen vuosien kulutuskestävyyttä.

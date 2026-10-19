@@ -1,7 +1,8 @@
 ---
-title: "Så fixar du tappade maskor utan att repa upp"
+title: "Så lagar du tappade maskor med en virknål"
 description: "Rädda tappade maskor med en virknål. Går igenom slätstickning, avigsida, rätstickning och hur du upptäcker en tappad maska innan den löper."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 3
 tags:
@@ -16,91 +17,101 @@ lang: sv
 translationKey: "fix-dropped-stitches"
 ---
 
-En tappad maska betyder inte att du måste repa upp hela arbetet. I de flesta släta stickade ytor kan du rädda den med en virknål. Maskan glider av stickan, och om du inte fångar den löper den ner genom varven under som en maska i en strumpa. Men varje "pinne" i den där stegen är en garntråd som väntar på att dras tillbaka genom maskan, ett varv i taget, tills maskan är tillbaka på stickan.
+En tappad maska betyder inte att du måste repa upp hela arbetet. I vanlig slätstickning kan du bygga upp en maskkolumn med en virknål, från den lösa öglan och de vågräta trådarna ovanför. Varje tråd motsvarar ett varv som har repats upp. Rätstickning och resår kräver den följd av räta och aviga maskor som beskrivs nedan.
 
-För att fixa en tappad maska: för in en virknål genom den lösa öglan, fånga den horisontella tråden bakom den och dra tråden igenom. Upprepa för varje varv som maskan har löpt ner. Ha en virknål i ungefär samma storlek som stickorna i tillbehörsväskan. Du kommer att använda den.
+Metoderna gäller en vanlig maska inne i arbetet, utan formning eller byte av mönster i den skadade kolumnen. Framför betyder mot dig och bakom betyder bort från dig, oavsett plaggets rät- eller avigsida. Här återställer du en befintlig maska, inte nya maskor längs en kant.
 
 ## Första steget: stoppa maskan
 
-Så fort du ser en tappad maska, sätt en låsbar maskmarkör, säkerhetsnål eller ett gem genom den levande öglan. Då kan den inte löpa längre ner medan du stickar klart varvet, tar fram virknålen eller lägger arbetet ifrån dig. Säkra först. Laga sedan.
+Sätt genast en låsbar maskmarkör genom den öppna öglan längst ner i stegen. Skjut också maskorna på stickorna bort från spetsarna eller sätt på stickskydd. Säkra först, hämta virknålen sedan.
 
-Den vanan räddar de flesta "jag lade ner arbetet i fem minuter och nu har maskan löpt tjugo varv" -situationer. Markera först, fixa när du har tid och bra ljus.
+Hitta kolumnen och arbeta fram till den innan du lagar. Håll öglan säkrad när du vänder arbetet eller byter redskap. Dra inte isär stegen.
 
 ## Fixa en tappad rät maska
 
-Det vanligaste läget. En maska har glidit av och löpt ner på den räta sidan av slätstickning.
+Håll slätstickningens rätsida mot dig så att maskornas V syns. [DROPS stegvisa instruktion](https://www.garnstudio.com/lesson.php?id=10&cid=12) visar lagningen.
 
-För in virknålen genom den tappade maskan framifrån och bakåt. Den lösa horisontella tråden, stegpinnen, ligger bakom maskan. Fånga tråden med virknålen och dra den igenom. Ett varv är räddat.
+1. För virknålen genom öglan framifrån och bakåt utan att korsa maskbenen. Flytta öglan från markören till virknålen.
+2. Hitta den nedersta oanvända tråden direkt ovanför öglan. Följ den till grannmaskorna om trådarna korsar varandra. Den ska ligga bakom öglan.
+3. Fånga tråden och dra den framåt genom öglan. Den gamla öglan lämnar kroken och den nya stannar kvar: ett varv återställt.
+4. Fortsätt nerifrån och upp, en tråd i taget. Använd varje tråd en gång, utan att hoppa över någon eller ta två samtidigt.
+5. Vänd tillbaka till läget för fortsatt stickning. Sätt maskan på sin plats: på vänster sticka om den ännu inte är stickad på detta varv, på höger om den redan är stickad. Sticka inte samma varv två gånger.
 
-Om maskan har löpt flera varv finns flera trådar staplade bakom den. Arbeta med en tråd i taget nerifrån och upp, och dra varje tråd genom maskan på virknålen. När alla trådar är upparbetade är maskan tillbaka på aktuellt varv. För över den från virknålen till vänster sticka och se till att den inte är vriden (höger maskben framför stickan).
+Här används västerländsk maskplacering: på vänster sticka ligger den ostickade maskans högra ben framför, så att du kan sticka i främre maskbågen utan att korsa benen. Kontrollera efter att du vänt arbetet. Andra placeringar är inte fel i sig, men insticket måste passa placeringen.
+
+Räkna maskorna, kontrollera kolumnen från båda sidor och fördela försiktigt lös tråd till grannmaskorna. I ett avsnitt med 20 maskor utan ökningar eller minskningar ger en tappad kolumn 19 maskor på stickorna och en lös ögla. Fyra stegtrådar återställer fyra varv men bara en maska på stickan: totalt 20, inte 23.
 
 ## Fixa en tappad avig maska
 
-Samma lagning, fast åt andra hållet. Den tappade maskan är på avigsidan (avigsidan av slätstickning, eller en avig kolumn i resår).
+Håll sidan med aviga bulor mot dig: slätstickningens avigsida, avig slätsticknings rätsida eller en avig kolumn i vanlig resår. [Nimble Needles instruktion](https://nimble-needles.com/tutorials/how-to-fix-a-dropped-stitch-in-knitting/) (på engelska) visar riktningen.
 
-För in virknålen genom maskan bakifrån och framåt. Den här gången ligger tråden framför maskan. Fånga den och dra igenom.
+1. Håll öglan säkert och placera den nedersta oanvända tråden framför den, mot dig. Flytta öglan i förhållande till tråden utan att vrida den.
+2. För virknålen genom öglan bakifrån och framåt. Fånga tråden framför och dra den bakåt genom öglan, bort från dig. Behåll den nya öglan; en avig maska är återställd.
+3. Håll den nya öglan medan du tar ut virknålen och för in den bakifrån igen. Lägg nästa tråd framför och upprepa, en tråd per varv uppåt.
 
-Lagningar på avigsidan kan kännas pilliga. Ett knep: vänd arbetet så att avigsidan blir den sida du arbetar från som om den vore rätsidan, fixa maskan som en rät maska (det enklare hållet) och vänd tillbaka. Resultatet blir detsamma.
+Du kan också vända arbetet så att baksidan av just den aviga kolumnen vetter mot dig och visar räta V:n. Laga med den räta metoden och vänd tillbaka. Plaggets rät- och avigsida byter inte namn. Avsluta med samma kontroll av maskplacering, antal, mönster och spänning som ovan.
 
 ## Fixa en tappad maska i rätstickning
 
-Rätstickning växlar räta och aviga varv, vilket betyder att stegens trådar omväxlande ligger bakom och framför maskan. Du kan inte dra varje tråd från samma håll.
+Rätstickning fram och tillbaka stickas med räta maskor varje varv och vändning mellan varven. Sett från samma sida växlar däremot räta och aviga varv. En ås motsvarar två varv; räkna enskilda stegtrådar, inte åsar.
 
-Arbeta en tråd som en rät maska (virknål framifrån, tråden bakom). Nästa tråd som en avig maska (virknål bakifrån, tråden framför). Växla så för varje varv.
+Håll samma sida mot dig. Jämför med de hela maskorna bredvid det nedersta saknade varvet: ska du först göra ett rätt V eller en avig bula? Börja inte automatiskt med en rät maska.
 
-Om du tappar bort dig: titta på maskan du just gjorde. En avig bula högst upp betyder att nästa tråd ska gå igenom som rät. Ett slätt V betyder att nästa ska gå igenom som avig.
+1. Rätt varv: lägg tråden bakom öglan, för virknålen framifrån bakåt och dra tråden framåt genom öglan.
+2. Avigt varv: håll öglan medan du flyttar virknålen. Lägg tråden framför, för in virknålen bakifrån framåt och dra tråden bakåt genom öglan.
+3. Växla uppåt och använd varje nästa tråd exakt en gång. Håll öglan vid varje byte av krokläge och kontrollera att åsarna följer grannmaskorna.
 
-Långsammare och mer felkänsligt än slätstickning. Ta en tråd i taget.
+[DROPS visar bytet av riktning](https://www.garnstudio.com/video.php?id=505&lang=se). Fyra saknade varv kräver fyra trådar och två par räta/aviga maskor, med den första masktypen bestämd av arbetet bredvid. Kontrollera till sist maskplacering, antal och spänning.
 
 ## Fixa en tappad maska i resår
 
-Resår består av kolumner med räta och aviga maskor. Ta reda på om den tappade maskan hör till en rät kolumn eller en avig kolumn genom att titta på maskorna bredvid.
+Vanlig resår med 1 rät, 1 avig eller 2 räta, 2 aviga har fasta maskkolumner. Håll samma sida mot dig och följ den skadade kolumnen från de hela maskorna nedanför och mönstret. Maskan precis bredvid kan tillhöra en annan sorts kolumn.
 
-Rät kolumn: fixa som en serie räta maskor (tråden bakom, virknålen framifrån). Avig kolumn: fixa som en serie aviga maskor (tråden framför, virknålen bakifrån). Växla inte som i rätstickning. Varje kolumn är konsekvent.
+Laga en rät kolumn med räta maskor på varje nivå och en avig kolumn med aviga. Du kan vända till den aviga kolumnens räta sida under hela lagningen och sedan vända tillbaka. Växla inte inom kolumnen som i rätstickning. Kontrollera resårföljden och antalet. Detta gäller inte patentstickning, vriden resår eller övergångar mellan olika mönster.
 
 ## Fånga den innan den löper
 
-En tappad maska som inte har löpt ännu (en levande ögla precis under stickan, ingen stege) är enklast att fixa. För bara tillbaka den på vänster sticka. Klart. Ingen stege att arbeta upp.
+Har maskan bara glidit av utan att repas upp finns en öppen ögla men ingen stege. Säkra den och sätt tillbaka den på ursprunglig plats: vänster sticka om ostickad, höger om redan stickad på varvet. Kontrollera placering och antal; gör ingen extra maska med arbetsgarnet.
 
-För att hitta tappade maskor tidigt: kasta en blick på stickan då och då. En saknad maska syns som ett mellanrum och en lös tråd där maskan borde vara. Fångar du den inom ett varv eller två går det snabbt. Tjugo varv senare betyder en lång stege.
+Ett hål bevisar inte att en maska tappats. Ett oavsiktligt omslag ökar antalet, en felstickad rät eller avig maska finns kvar och en avsiktligt lyft maska sitter kvar på en sticka. Mönster med avsiktligt tappade maskor har egna instruktioner. Leta efter den öppna öglan och jämför maskantalet med mönstret.
 
-Markörer hjälper. Sätt en markör var 20:e maska, så behöver du bara räkna inom en liten sektion för att hitta problemet.
+Sätt exempelvis en markör var 20:e maska och räkna inom avsnitten. Ta hänsyn till mönstrets ökningar och minskningar.
 
 ## Livlina som förebyggande hjälp
 
-En livlina är en slät tråd i avvikande färg, till exempel tandtråd, tunn bomullstråd eller en slät restgarnstråd, som dras genom ett helt varv levande maskor på en trygg punkt i arbetet. Om en maska tappas och löper längre än du enkelt kan fånga den, stoppar livlinan loppet där du satte den. I värsta fall repar du tillbaka till livlinan. Alla maskor finns fortfarande kvar, hållna på tråden.
+En livlina är en slät tråd i avvikande färg genom alla öppna maskor på ett kontrollerat varv. Den håller dessa öglor om du repar tillbaka, men skyddar bara maskorna den går igenom och rättar inte tidigare fel. [Knit Picks beskriver metoden](https://blog.knitpicks.com/how-to-use-a-lifeline-for-lace-knitting/) (på engelska).
 
-Dra livlinan med en stoppnål genom varje levande maska på stickan, inte genom själva stickan. Lämna ändarna långa nog att tråden inte dras ut medan du stickar vidare.
+Trä med en stoppnål genom öglorna medan de sitter kvar på stickan, även varvets omslag. Dela inte garnet och gå förbi löstagbara markörer. Lämna långa, säkrade ändar och anteckna varvet eller diagrampositionen. Sticka inte med livlinan på nästa varv.
 
-Använd livlina före svåra partier: spetsdiagram, flätvarv eller en lång formningssekvens. I vanlig slätstickning behövs den sällan. I komplicerade mönster, där en tappad maska kan förstöra en hel diagramdel, sparar den tid och nerver.
+Välj ett varv där du kan identifiera alla maskor före ett svårt parti. Om du repar tillbaka, sätt alla öglor på en sticka och kontrollera antal och placering innan du tar bort livlinan. Fortsätt med varvet efter det antecknade. Använd en mönsterspecifik instruktion eller be om hjälp om strukturen är oklar.
 
 ## När en maska löper ända ner till uppläggningskanten
 
-Om maskan har löpt hela vägen ner och det fortfarande finns en tråd att arbeta från kan du ibland bygga upp kolumnen igen. Dra den nedersta tråden genom sig själv med virknålen för att skapa en ny basögla, och arbeta sedan upp varje tråd ovanför. Basöglan har inte samma konstruktion som en upplagd maska, så kontrollera kanten efter [blockning](/sv/artiklar/blocka-stickning-vat-anga-spray/). Om uppläggningskanten har öppnat sig eller blivit tydligt skev är det oftast renare att repa upp.
+Leta först efter en hel ögla längst ner i kolumnen. Om uppläggningen är intakt, säkra öglan och bygg upp varven ovanför i ordning.
 
-Om maskan har löpt långt och trådarna trasslar sig, fäst området med en låsmarkör så att skadan inte fortsätter medan du lagar.
+Om själva uppläggningsmaskan har gått upp saknar steglagningen en hel bas. Dra inte en godtycklig nedersta tråd genom sig själv och anta att kanten är återställd. Lagningen beror på uppläggningen: [VeryPinks instruktion](https://verypink.com/2019/02/06/recovering-a-dropped-cast-on-stitch/) (på engelska) gäller korsuppläggning med lång garnände. Säkra grannöglorna och följ en instruktion för din uppläggning, eller börja om ifall kanten inte går att återställa. Kontrollera kanten före fortsatt stickning; blockning ersätter ingen saknad maska.
 
 ## Fixa en vriden maska tio varv senare
 
-Du stickar klart en bit, tittar ner och ser att en maska i en kolumn sitter lite hårdare och lutar åt fel håll. Ofta är det en vriden maska från en snabb lagning. Tyget är inte förstört, men kolumnen ser annorlunda ut än maskorna runtom.
+En redan stickad vriden maska har korsade ben i själva tyget. Att bara vända den öppna maskan på stickan tar inte bort en vridning flera varv nedanför.
 
-För en enstaka vriden maska kan du släppa ner just den kolumnen till felet och sedan arbeta upp den igen med rätt riktning. Låt den levande öglan glida av stickan, låt kolumnen löpa ner till den vridna maskan och använd virknålen för att klättra upp igen, en tråd i taget. Du lagar en kolumn, inte ett helt varv. Betydligt mindre arbete än att repa upp en hel sektion.
+I en vanlig kolumn utan formning: säkra den hela maskan direkt under felet med en låsbar markör. Arbeta fram till kolumnen, säkra grannmaskorna och repa bara denna kolumn till markören, även den felaktiga maskan. Bygg upp varje tråd i den räta/aviga följd som tyget kräver. Kontrollera att korsningen är borta samt placering, antal och spänning. En felstickad rät eller avig maska kan lagas på samma sätt, men är ingen saknad maska.
 
-Alla vridna maskor behöver inte lagas. En ensam vriden maska mitt i en rätstickad halsduk märks förmodligen bara för dig. Välj vad som är värt tiden.
+Vid en flätkorsning, ökning eller minskning räcker inte denna enkla följd. Följ strukturens instruktion eller repa till ett kontrollerat varv. Du väljer om du vill rätta ett rent utseendefel; en lös öppen ögla behöver fortfarande säkras.
 
 ## Mohair och andra garn som hakar i
 
-Borstad ull, mohair, borstad alpacka och luddiga entrådiga garner gör varje lagning svårare. Fibrerna griper tag i varandra och vill inte dras igenom rent. Virknålen fastnar lätt i varje tråd, och att repa upp är också långsamt eftersom varven inte separerar utan motstånd.
+Om fibrerna hakar i varandra, som de kan göra i borstad mohair eller alpacka, lossa trådarna försiktigt i stället för att dra stegen stram. Välj en virknål som går genom öglan och fångar hela garnet utan att dela det. En något mindre virknål kan hjälpa i en trång ögla.
 
-Använd en virknål som är lite mindre än du annars skulle välja, så att den går genom den tajta fibern utan att fånga extra trådar. Arbeta långsamt och dra inte hårt. Om garnet inte rör sig utan kraft kan det vara säkrare att backa några maskor än att tvinga fram en lång steglagning.
+Tvinga inte isär trådar som fastnat. Vid ett närliggande fel kan du backa en maska i taget: fånga den frigjorda öglan från varvet under på stickan innan du löser nästa maska. Ett avlägset eller trassligt fel kräver en återgångspunkt som du kan identifiera.
 
 ## När du bör repa upp i stället
 
-Alla tappade maskor är inte värda att laga på plats. Om maskan tappades i en komplex fläta eller ett spetsmönster måste lagningen återskapa exakt samma maskföljd (omslag, minskningar, flätkorsningar) för varje varv den löpt igenom. Det kan vara svårare än att repa upp.
+Samma enkolumnsmetod fungerar inte oförändrad överallt. Flätor, spets, ökningar, minskningar och flerfärgsstickning kräver rätt mask- och garnföljd på varje nivå. Kantmaskor och flera tappade maskor bredvid varandra kräver också en anpassad lagning; säkra varje ögla först.
 
-För enkla maskor (slätstickning, rätstickning, resår) i slätt garn fungerar virknålsmetoden oftast rent. För strukturmönster beror det på hur många varv du måste återskapa och hur komplicerat varje varv är. Två varv i en fläta: möjligt. Tio varv i ett komplext spetsdiagram: troligen snabbare att repa upp.
+Kan du inte identifiera alla trådar och maskor, repa till en kontrollerad livlina eller ett varv vars maskor du kan fånga. Antalet varv avgör inte ensamt om det går att laga. Kontrollera antal, mönster, spänning och det lagade områdets mått. En osynlig lagning eller oförändrad passform är ingen garanti.
 
-Luddigt garn (mohair, borstad alpacka) gör lagningar svårare eftersom fibrerna hakar i och inte vill dras igenom rent. Arbeta långsamt med en virknål som är något mindre än du normalt skulle använda.
+Har du stickat fler varv medan maskan saknades kan de översta mellanrummen innehålla för lite garn för att bygga upp kolumnen. Tvinga inte korta trådar till nya maskor. Repa tillbaka till där det finns tillräckligt med garn i stegen eller ta hjälp med en lämplig lagning.
 
 ## FAQ
 
@@ -110,20 +121,20 @@ Nära stickstorleken eller lite mindre. För stor virknål går inte in i maskan
 
 **Kommer den lagade maskan att se annorlunda ut?**
 
-Ibland lite. Spänningen i de lagade maskorna kan bli ojämn eftersom du drar garnet för hand. Blockning jämnar oftast ut det. Om en maska ser för hård eller lös ut, dra försiktigt i maskorna runtom för att fördela garnet.
+Ibland. Fördela lös tråd försiktigt genom grannmaskorna utan att rycka. [Blockning](/sv/artiklar/blocka-stickning-vat-anga-spray/) enligt garnets skötselråd kan hjälpa tyget att lägga sig, men rättar inte korsade maskben, överhoppade trådar eller fel maskantal och garanterar ingen osynlig lagning.
 
 **Kan jag använda en sticka i stället?**
 
-För ett varv, ja. Plocka upp maskan och tråden med stickspetsen och dra den ena genom den andra. För flera varv är en virknål mycket enklare eftersom kroken fångar och drar i en rörelse.
+Ja, för en rät maska som har repats upp ett varv. Håll rätsidan mot dig, sätt öglan på vänster sticka med höger ben framför och stegtråden bakom. Stick in höger sticka som för en rät maska, dra igenom den befintliga tråden i stället för arbetsgarnet och låt den gamla öglan lämna stickan. Sätt den nya öglan på rätt plats och kontrollera placeringen. Nimble Needles instruktion ovan visar även stickmetoden; virknål är enklare för flera varv.
 
 **Vad händer om jag vrider maskan när jag sätter tillbaka den?**
 
-En vriden maska har korsade maskben, med vänster ben framför. Den blir tätare och lite sned. Om du märker det direkt, lyft av maskan, vrid den rätt och sätt tillbaka den. Om du inte ser det förrän senare är det ofta snabbare att släppa ner och laga just den kolumnen än att repa upp en hel sektion.
+Vänster maskben framför stickan betyder inte automatiskt en vriden maska. [Patty Lyons förklarar maskplacering och instick](https://pattylyons.com/2016/03/tuesday-tip-how-avoid-twisted-stitches/) (på engelska). För den västerländska metoden här: håll öglan med en sticka eller virknål och sätt tillbaka den med höger ben framför innan du stickar i främre maskbågen. Släpp den inte fritt. En korsning som redan stickats in i tyget behöver lagningen ovan.
 
 **Kan jag lämna en tappad maska och fixa den efter avmaskning?**
 
-Inte om det fortfarande finns en levande ögla. Den fortsätter att löpa när du hanterar arbetet. Laga den eller lås den med en maskmarkör. Om du upptäcker en gammal löpning i ett färdigt plagg kan du ibland täcka glipan med maskstygn i samma garn. Det är en kosmetisk lagning, inte en strukturell. Den kan fungera i slätstickning men blir sällan ren i spets eller flätor.
+Lämna inte den öppna öglan lös, inte heller i ett färdigt arbete. Säkra den direkt. Att bara täcka hålet fäster inte öglan. Bygg upp kolumnen där strukturen tillåter och fäst slutöglan med en lagning som passar kanten, eller repa upp tillräckligt av avmaskningen för att ta med maskan och maska av igen. Be om hjälp före borttagning av markören om strukturen är oklar.
 
 **Hur förebygger jag tappade maskor?**
 
-Sakta ner vid stickbyten, håll koll på arbetsmaskan när du lägger ifrån dig projektet mitt i ett varv och använd stickor med bättre grepp, som bambu eller trä, till hala garner. Stoppar på raka stickor hindrar maskor från att glida av bakänden när arbetet ligger i väskan.
+Sakta ner vid stickbyten och kontrollera arbetsmaskan innan du lägger ifrån dig arbetet. Trä eller bambu kan ge bättre grepp åt halt garn. Sätt skydd på de öppna stickspetsarna under pauser; knoppen i bakänden på en rak sticka hindrar inte maskorna från att glida av arbetsspetsen.

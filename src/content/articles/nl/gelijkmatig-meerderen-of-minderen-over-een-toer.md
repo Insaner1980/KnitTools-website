@@ -18,11 +18,11 @@ translationKey: "increase-decrease-evenly"
 
 "Meerder 8 steken gelijkmatig verdeeld over de volgende toer." Het patroon gaat verder. Jij blijft naar je naald kijken en hoofdrekenen.
 
-Of de toer nu steken moet toevoegen of verwijderen, de basisrekensom is dezelfde. Deel het huidige aantal steken door het aantal veranderingen dat je moet maken. De uitkomst is het interval tussen de vormpunten. Dat is de formule. Het interessante zit eromheen: welke meerdering of mindering je gebruikt, wat je doet met resten die bijna altijd opduiken, hoe je de randen schoon houdt en hoe de verdeling er in de stof uitziet in plaats van alleen op papier.
+Deel het aantal steken dat beschikbaar is voor de vormgeving door het aantal meerderingen of minderingen dat je gaat uitvoeren. Dat geeft een uitgangspunt voor de verdeling; de techniek bepaalt de uitgeschreven herhaling. Randen, resten en steekpatronen moet je ook meenemen.
 
 ## De formule in één regel
 
-Huidig aantal steken / aantal veranderingen = interval tussen elke verandering.
+Beschikbare oorspronkelijke steken / aantal meerder- of minderhandelingen = gemiddeld aantal oorspronkelijke steken per handeling. Dit is de grootte van de hele herhaling, niet noodzakelijk het aantal gewone steken tussen de handelingen.
 
 Het interval vertelt hoeveel bestaande steken bij elke verandering horen, maar hoe je de herhaling opschrijft hangt af van de methode. In de M1-voorbeelden hieronder wordt de meerdering tussen bestaande steken gemaakt, zodat een interval van 10 kan worden geschreven als `10 r, M1`. Werk je de meerdering in een bestaande steek, zoals bij KFB, tel die steek dan mee binnen het interval: schrijf `9 r, KFB`, niet `10 r, KFB`, want die laatste instructie gebruikt 11 oorspronkelijke steken. Bij minderingen is het interval de volledige herhaling, inclusief de steken die door de mindering worden samengebreid.
 
@@ -30,31 +30,33 @@ Dezelfde wiskunde, twee net andere manieren om de toer op te schrijven.
 
 Moeten kant- of naadsteken buiten de vorming blijven, trek dan hun totale aantal af voordat je het interval berekent: `(huidig aantal steken - gereserveerde kant- of naadsteken) / aantal veranderingen`. Verdeel de veranderingen alleen over de overblijvende werksteken en brei de gereserveerde steken zoals aangegeven. Doen de kantsteken wel mee aan de vorming, gebruik dan het volledige huidige aantal steken. Dit is iets anders dan het eerste en laatste interval voor een evenwichtige plaatsing te splitsen; bij zo'n verdeling doen de buitenste steken nog steeds mee.
 
+Onderscheid het aantal handelingen van de verandering in steekaantal: M1 en KFB voegen 1 steek toe; 2rsm en ssk minderen 1; 3rsm mindert 2. Het aantal handelingen moet een positief geheel getal zijn. Bij U beschikbare steken en E handelingen vereist 2rsm U ≥ 2 × E, en 3rsm U ≥ 3 × E. KFB heeft één oorspronkelijke steek per meerdering nodig. Hier betekent M1 één gedraaide meerdering in de tussendraad per beschikbare opening: U steken in een heen-en-weergaande toer hebben U − 1 interne openingen; een al gesloten ronde toer heeft er U. Gereserveerde randen kunnen de plaatsing verder beperken. De voorbeelden worden recht gebreid, zonder gereserveerde kantsteken tenzij anders vermeld.
+
 ## Voorbeeld: een nette meerdering
 
 Je hebt 80 steken op de naald. Het patroon vraagt om 8 meerderingen.
 
 80 / 8 = 10.
 
-De toer kan worden geschreven als `10 r, M1`, 8 keer herhalen. Dat gebruikt alle 80 steken op de naald, voegt 8 nieuwe steken toe en eindigt met 88 steken. De rekensom klopt, de meerderingen staan op een regelmatig interval en de stof wordt gelijkmatig breder.
+Heen en weer brei je "5 r, M1, (10 r, M1) 7 keer, 5 r". Dat gebruikt 5 + 7 × 10 + 5 = 80 oorspronkelijke steken en maakt 1 + 7 = 8 meerderingen: 88 steken. Ze liggen na oorspronkelijke steek 5, 15, 25, 35, 45, 55, 65 en 75. De afstand is 10 steken met 5 aan elk einde, dus de plaatsing is symmetrisch.
 
-Er is wel één randprobleem in deze versie: de laatste M1 valt helemaal aan het einde van de toer, zonder gewone steken erna. Sommige patronen vinden dat prima. In andere gevallen wil je aan beide kanten wat afstand. Dan deel je één interval over begin en einde van de toer: `5 r, M1, (10 r, M1) 7 keer, 5 r.` Je gebruikt nog steeds 80 steken, maakt nog steeds 8 meerderingen en eindigt nog steeds met 88 steken. De M1's blijven van de randen weg, wat later netter is voor naden en steken opnemen.
+"10 r, M1" 8 keer gebruikt ook 80 steken, maar past bij een al gesloten ronde toer: de laatste M1 gebruikt de tussendraad bij de toergrens. Bij heen-en-weerbreien is er na de laatste steek geen draad tussen twee steken. Die laatste M1 is dus niet alleen een kwestie van uiterlijk.
 
 ## Voorbeeld: een rest die je moet verdelen
-
-Echte patronen delen zelden netjes.
 
 Neem 75 steken met 8 meerderingen.
 
 75 / 8 = 9 rest 3.
 
-Dat betekent 5 vakken van 9 steken en 3 vakken van 10 steken. Elk vak krijgt één M1 aan het einde. Vijf keer `9 r, M1` plus drie keer `10 r, M1` gebruikt 75 steken, maakt 8 meerderingen en eindigt op 83 steken.
+In een al gesloten ronde toer gebruik je vijf vakken van 9 steken en drie van 10, telkens gevolgd door één M1. Een volgorde is 9, 9, 10, 9, 9, 10, 9, 10: brei dat aantal steken recht en maak M1. Dit gebruikt 5 × 9 + 3 × 10 = 75 steken en voegt 8 toe: 83 steken. Alle afstanden, ook over de toerbeginmarkeerder, zijn 9 of 10 oorspronkelijke steken.
 
-Waar zet je de langere vakken? Verspreid ze. Zet niet alle drie de 10-steken-vakken aan het begin met daarna vijf 9-steken-vakken. Het oog leest dat als ongelijk, ook als de som technisch klopt.
+Heen en weer kun je zo symmetrisch verdelen:
 
-Een bruikbare verdeling: 9, 9, 10, 9, 9, 10, 9, 10. De langere vakken vallen ongeveer elke derde keer, waardoor de verdeling bedoeld oogt in plaats van scheef.
+1. Brei 5 r, M1.
+2. Brei 9 r, M1; 9 r, M1; 10 r, M1; 9 r, M1; 10 r, M1; 9 r, M1; 9 r, M1.
+3. Brei de laatste 5 steken recht.
 
-Je hoeft niet chirurgisch precies te zijn. Eén steek verschil in de plaatsing zie je bij de meeste projecten niet terug. Het doel is een verdeling die gelijkmatig oogt, niet wiskundige perfectie.
+De uiteinden gebruiken 5 + 5 steken; de zeven interne afstanden gebruiken 5 × 9 + 2 × 10. Totaal: 75 steken gebruikt, 8 M1 gemaakt en 83 steken over. De meerderingen liggen na steek 5, 14, 23, 33, 42, 52, 61 en 70. Elk spiegelpaar telt op tot 75. Dit zijn twee mogelijke verdelingen, niet de enige.
 
 ## De minderkant van dezelfde formule
 
@@ -66,17 +68,15 @@ Neem 90 steken met 10 minderingen.
 
 Elke herhaling beslaat 9 steken: de eerste 7 zijn gewone steken, de laatste 2 worden samen gebreid. De toer wordt dus `7 r, 2rsm`, 10 keer herhalen. Dat gebruikt alle 90 steken en verwijdert 10 steken, zodat je eindigt op 80 steken.
 
-Resten werken hetzelfde als bij meerderingen. Een toer met 95 steken en 10 minderingen geeft 9 rest 5: vijf herhalingen zijn 9 steken en vijf herhalingen zijn 10 steken. Verspreid de langere herhalingen over de toer in plaats van ze bij elkaar te zetten.
+Bij 95 steken en 10 enkele minderingen is 95 / 10 = 9 rest 5. Brei "7 r, 2rsm, 8 r, 2rsm" in totaal 5 keer. Elk paar gebruikt 9 + 10 = 19 oorspronkelijke steken en levert 8 + 9 = 17 op: alle 95 worden gebruikt, je maakt 10 minderingen en houdt 85 steken over. Korte en lange herhalingen wisselen elkaar af. Hier zijn geen kantsteken gereserveerd.
 
 ## Waarom patronen om gelijkmatige verdeling vragen
 
-Meerderingen op één hoop laten één stuk uitwaaieren terwijl de rest van de stof dezelfde breedte houdt. Het kledingstuk krijgt dan een zichtbare wig in plaats van een rustige overgang. Minderingen op één hoop trekken de stof op de verkeerde plek naar binnen, soms zo zichtbaar dat het afgewerkte stuk scheef lijkt.
+Een gelijkmatige plaatsing verspreidt de verandering in steekaantal over het gekozen gebied. De vormgeving op bepaalde plekken concentreren geeft een andere vorm.
 
-De meest voorkomende plek voor "gelijkmatig meerderen" is direct na boordsteek. Boordsteek trekt in, het lijf moet vlakker vallen en één overgangstoer verbreedt de stof zonder opnieuw opzetten. Gelijkmatige verdeling laat die overgang verdwijnen in de stof. Moet je eerst het beginaantal steken bepalen, dan behandelt de [gids voor opzetsteken berekenen](/nl/artikelen/hoeveel-steken-opzetten/) die stap.
+Bij de overgang van boordsteek naar het lijf volg je het doel-aantal steken en de stekenverhouding voor elk steekpatroon; meerderingen zijn niet automatisch nodig. Gelijkmatige verdeling garandeert geen onzichtbare overgang. De [gids voor opzetsteken berekenen](/nl/artikelen/hoeveel-steken-opzetten/) behandelt het beginaantal.
 
-[Topminderingen bij mutsen](/nl/artikelen/een-muts-breien-verschillende-methodes/) zijn het andere bekende voorbeeld. Minderingen die gelijkmatig over meerdere toeren terugkomen, maken die nette lijnen naar de bovenkant. Rommelige verdeling geeft een rommeligere top.
-
-Je ziet "gelijkmatig meerderen" ook bij raglanpassen, mouwkoppen en overal waar een ontwerper het aantal steken wil veranderen zonder dat die verandering alle aandacht trekt.
+De [gids voor een muts breien](/nl/artikelen/een-muts-breien-verschillende-methodes/) bespreekt de top. Ook plaatsing, richting en tussentoeren bepalen die vorm. Raglanlijnen en mouwkoppen hebben eigen aanwijzingen nodig die je niet door een algemene gelijkmatige verdeling moet vervangen.
 
 ## Welke meerdering gebruik je?
 
@@ -84,51 +84,39 @@ Als je patroon een methode noemt, gebruik die. Ontwerpers kiezen meerderingen om
 
 Als het patroon alleen "meerder" zegt, kies je op basis van de stof. Elke methode gedraagt zich net anders.
 
-**M1L en M1R** zijn veelgebruikte discrete meerderingen in tricotsteek. Je tilt de draad tussen twee steken op en draait hem zodat er geen gaatje ontstaat. M1L leunt naar links, M1R naar rechts. Als meerderingen verspreid over een toer zitten, telt de leunrichting minder. Bij gepaarde vormlijnen, zoals raglan of een V-hals, volg je de links- en rechtsleunende aanwijzingen van het patroon zodat de vorming spiegelt.
+**M1L en M1R** gebruiken de tussendraad zonder een bestaande steek te verbruiken. Houd het werkgaren achter het werk. M1L: neem de draad met de linkernaald van voor naar achter op en brei recht door de achterste lus. M1R: neem hem van achter naar voor op en brei recht door de voorste lus. Zo draait de draad. Zie de [M1-instructies van Purl Soho](https://www.purlsoho.com/create/make-one-right-m1r-make-one-left-m1l/). De richting geldt vanaf de goede kant, bij werken van de linker- naar de rechternaald. Volg het patroon bij gepaarde vormgeving.
 
-**KFB** breit voor en achter in dezelfde steek en maakt de meerdering dus in een bestaande steek. Het laat een klein horizontaal streepje achter, een beetje als een averecht bobbeltje. Prima in ribbelsteek of structuurpatronen waar dat streepje verdwijnt. In gladde tricotsteek kan een rij KFB-meerderingen zichtbaar zijn.
+**KFB** gebruikt één bestaande steek en maakt er twee. Brei recht in de voorste lus, houd de steek op de linkernaald en brei recht in de achterste lus voordat je hem laat afglijden. Dat laat een klein dwarsstreepje achter. Anders dan bij M1 telt de KFB-steek mee in de oorspronkelijke steken van de herhaling.
 
 **Omslag** maakt bewust een gaatje. Dat hoort bij ajour, oogjes en rijen waar de omslag met een mindering wordt gecombineerd om het aantal steken gelijk te houden. Meestal is dit niet wat een patroon bedoelt met "gelijkmatig meerderen", tenzij het expliciet zo staat.
 
-**Opgetilde meerderingen** halen een nieuwe steek uit de toer eronder. Ze kunnen heel onopvallend zijn in tricotsteek, maar dicht op elkaar gestapelde opgetilde meerderingen vragen zorg omdat ze aan de stof kunnen trekken.
-
 ## Welke mindering gebruik je?
 
-**2rsm** leunt naar rechts. Dat is de standaard voor veel instructies met "minder 1 steek" wanneer de leunrichting niet belangrijk is.
+**2rsm** breit twee steken tot één en helt naar rechts, gezien vanaf de goede kant. Gebruik de mindering die het patroon aangeeft.
 
-**ssk** leunt naar links. Het is de natuurlijke partner van 2rsm voor spiegelende minderingen, bijvoorbeeld aan begin en einde van een toer bij symmetrische raglanvorming. Sommige breiers gebruiken in plaats daarvan skp: afhalen, recht breien, afgehaalde steek overhalen. Het resultaat lijkt visueel sterk op elkaar.
+**Ssk** is een enkele mindering die naar links helt: haal twee steken één voor één recht af en brei ze daarna recht samen door de achterste lussen. **Skp** haalt één steek recht af, breit de volgende recht en haalt de afgehaalde steek eroverheen. Beide gebruiken 2 steken en maken er 1, maar de handelingen verschillen. Volg de variant van het patroon.
 
 **3rsm** verwijdert twee steken in één handeling en leunt duidelijk naar rechts. Dit gebruik je wanneer het patroon sterker wil minderen of wanneer minderingen in een ajourdiagram worden gestapeld.
 
-**Centrale dubbele mindering**, vaak CDD, S2KP2 of sl2-k1-p2sso in Engelse patronen, verwijdert twee steken en laat de middelste steek recht omhoog lopen. Je ziet hem in ajour, chevronpatronen en mutsentoppen waar het ontwerp een duidelijke verticale lijn wil.
-
-Voor een gewone instructie "minder gelijkmatig over de toer" op een rechte toer is `2rsm` vaak een redelijke standaard als het patroon niets anders zegt. De minderingen zitten verspreid, dus de gelijkmatige plaatsing telt meestal meer dan de leunrichting.
+**Centrale dubbele mindering (CDD)** mindert 2 steken met een gecentreerde plaatsing. Een variant is **S2KP2**: haal 2 steken samen af alsof je ze recht samenbreit, brei 1 recht en haal beide afgehaalde steken eroverheen. Drie steken worden één. Controleer de CDD-definitie van het patroon; afkortingen betekenen niet overal dezelfde techniek.
 
 ## Kantsteken en naadtoeslag
 
-De formule bepaalt de randbehandeling niet voor je.
+Houd voorgeschreven kant- of naadsteken buiten de verdeling. Brei eerst de beginrand, vorm over de beschikbare steken en brei de eindrand. In het symmetrische voorbeeld met 80 steken horen de 5 steken aan elk einde bij de 80; er is geen aparte rand gereserveerd.
 
-Voor delen die later aan elkaar worden genaaid, houd je het eerste en laatste vormpunt minstens een paar steken van de rand. Een mindering in de kantsteek maakt de naad lastiger en valt sneller op. Een meerdering helemaal aan de rand verstoort de zelfkant en kan later steken opnemen voor een knopenbies of halsrand moeilijker maken.
-
-Het trucje waarbij je het eerste interval halveert lost dit vaak op. In plaats van meteen te beginnen met `10 r, M1`, start de toer met `5 r, M1, 10 r, M1...` Zo blijft er een kleine buffer tussen de rand en de eerste meerdering.
-
-Geeft het patroon exacte plaatsing, zoals `2 r, *M1, 9 r; herh vanaf * tot laatste 2 st, 2 r`, dan heeft de ontwerper dit al opgelost.
+Bij 76 steken met 2 gereserveerde steken aan elk einde blijven 76 − 4 = 72 over. Voor 8 M1 is 72 / 8 = 9. Brei `2 r, *M1, 9 r; werk vanaf * in totaal 8 keer, 2 r`. De herhaling gebruikt 9 steken en maakt er 10. Totaal: 2 + 8 × 9 + 2 = 76 gebruikt en 2 + 8 × 10 + 2 = 84 gevormd. Na de laatste M1 blijven 11 oorspronkelijke steken over. De kantsteken blijven vrij, maar de afstanden tot de uiteinden zijn niet symmetrisch.
 
 ## Wanneer het vormpunt op een averechte steek valt
 
-Dit gebeurt in overgangen na boordsteek en in allover structuurpatronen.
+Ook een averechtse meerdering of mindering verandert het steekaantal. Pfb gebruikt bijvoorbeeld 1 steek en maakt er 2; 2avsm gebruikt 2 en maakt er 1. Kies techniek en richting voor de kant van het breiwerk die het patroon bedoelt.
 
-Valt het vormpunt op een rechte steek in het patroon, dan kun je de meerdering of mindering vaak gewoon werken. Valt het op een averechte steek, dan is de averechtse versie meestal het netst: M1 averecht, pfb in plaats van KFB, of `2avsm` in plaats van `2rsm`. De steek leest dan als onderdeel van het patroon in plaats van als onderbreking.
-
-Sommige patronen schuiven de plaatsing bewust een steek of twee op zodat alle vormpunten op rechte steken vallen. Dat is geen fout. De stof geeft meer om hoe het steekpatroon oogt dan om de exacte plek waar de rekensom de meerdering zou zetten.
+Van recht naar averecht wisselen bewaart niet automatisch boordsteek, kabels of ajour. Controleer welke steken de handeling gebruikt, waar de nieuwe steken horen en hoe de volgende toer verdergaat. Verschuift het patroon een vormpunt voor het motief, behoud dan die plaatsing en tel de hele toer na.
 
 ## Werken in het rond
 
-Dezelfde formule, maar zonder randen. De omtrek in steken gedeeld door het aantal veranderingen geeft het interval, en de vorming wordt helemaal rond herhaald.
+Een al gesloten ronde toer heeft geen zijranden, maar de afstand van het laatste vormpunt naar het eerste telt ook. Bij 80 steken geeft "10 r, M1" 8 keer 88 steken. De laatste M1 ligt bij de toergrens; de volgende afstand is 10 oorspronkelijke steken. Verplaats de markeerder zo nodig om bij de tussendraad te komen en zet hem terug bij het bedoelde toerbegin. Verschuif niet één vormpunt zonder beide aangrenzende afstanden te controleren.
 
-Let wel op de toerbeginmarkeerder. Als een mindering precies over de markeerder valt, is hij lastiger te breien en lastiger terug te lezen in de volgende toer. Schuif het vormpunt een steek of twee op als het patroon dat toelaat, of gebruik een tijdelijke markeerder voor dat ene vormpunt.
-
-Voor mutsentoppen zijn de mindertoeren vaak uitgeschreven, bijvoorbeeld `8 r, 2rsm helemaal rond, dan één toer recht, dan 7 r, 2rsm helemaal rond`. De formule hierboven helpt vooral bij de eerste mindertoer als het patroon alleen zegt "minder 8 steken gelijkmatig".
+Een mutsvoorbeeld begint met 80 steken: "8 r, 2rsm" 8 keer gebruikt 80 en maakt 8 minderingen, zodat 72 overblijven. Brei één toer recht over deze 72 steken. Daarna gebruikt "7 r, 2rsm" 8 keer alle 72 en blijven 64 over. De tussentoer verandert het steekaantal niet. Dit controleert de rekensom voor die toeren; de hele topvorm en de frequentie van de minderingen volgen het patroon.
 
 ## Symmetrisch en gepaard vormen
 
@@ -140,7 +128,7 @@ Als een patroon zegt "meerder 1 steek aan elk einde van elke 6e toer", gaat het 
 
 ## Een paar veelvoorkomende intervallen
 
-Sommige delingen komen vaak genoeg terug dat je ze op den duur herkent.
+De eerste drie voorbeelden zijn voor al gesloten ronde toeren: de laatste M1 gebruikt de tussendraad bij de toergrens. De mindervoorbeelden werken heen en weer of in het rond zonder gereserveerde kantsteken. Gewone steken worden recht gebreid.
 
 - 80 steken, meerder 8 -> `10 r, M1` 8 keer -> 88 steken
 - 60 steken, meerder 6 -> `10 r, M1` 6 keer -> 66 steken
@@ -153,38 +141,36 @@ De getallen werken niet altijd zo netjes mee. Als ze dat niet doen, verdeel je d
 
 ## Wanneer de rekensom vervelend wordt
 
-80 steken, 8 steken meerderen. Klaar.
+Schrijf vóór een ingewikkelde vormtoer de volledige werkvolgorde op. Een correct eindtotaal bewijst niet dat een ajour- of kabelrapport kan doorgaan: controleer ook het telpatroon en de volgende toer.
 
-127 steken, 11 steken meerderen, terwijl de toer ook rond een rapport van 6 steken in balans moet blijven. Dat is het soort toer waarbij hoofdrekenen boven levende steken langer duurt dan de meerderingen zelf, en juist daar ontstaan fouten. Schrijf het ritme eerst volledig uit of gebruik een betrouwbare meerder- en minderhulp voordat je begint te breien.
-
-Voor simpele toeren is handmatig rekenen snel en betrouwbaar. Weten wanneer je een hulpmiddel pakt en wanneer niet, hoort bij efficiënt werken.
+Dit is een handleiding voor handmatig rekenen. De website biedt geen interactieve meerder- en minderrekenhulp.
 
 ## Dingen die vaak opkomen
 
 Als een patroon "gelijkmatig meerderen" zegt zonder te noemen hoeveel, kijk dan naar het volgende doel-aantal steken. Trek je huidige aantal daarvan af. Dat is het aantal meerderingen. Ongebruikelijk, maar het gebeurt in oudere patronen en eigen ontwerpen.
 
-Een verdeling die op een paar plekken één steek afwijkt? Bij de meeste projecten ziet niemand dat. Het doel is een verdeling die gelijkmatig oogt, niet wiskundige perfectie.
+Verschuift een vormpunt, controleer dan steekaantal, aangrenzende afstanden en steekpatroon voordat je besluit iets uit te halen. De zichtbaarheid hangt af van het breiwerk; een correct totaal bewijst geen correcte plaatsing.
 
 Meerderen of minderen op een averechte toer werkt hetzelfde. Gebruik de averechtse variant van de methode die je gebruikt. De verdelingsberekening verandert niet.
 
-Voor het opzet-aantal zelf behandelt de [gids voor hoeveel steken je moet opzetten](/nl/artikelen/hoeveel-steken-opzetten/) die rekensom. Als de stekenverhouding achter het hele verhaal opgefrist moet worden, lees dan de [gids voor stekenverhouding meten](/nl/artikelen/stekenverhouding-meten/).
+Voor het opzetaantal zelf behandelt de [gids voor hoeveel steken je moet opzetten](/nl/artikelen/hoeveel-steken-opzetten/) die rekensom. Als de stekenverhouding achter het hele verhaal opgefrist moet worden, lees dan de [gids voor stekenverhouding meten](/nl/artikelen/stekenverhouding-meten/).
 
 ## FAQ
 
 **Kan ik de verdeling op het oog doen in plaats van rekenen?**
-Voor kleine aanpassingen op brede stukken, zoals een deken of sjaal, kan dat prima. Voor kleding of alles waarbij de maten belangrijk zijn, doe je de berekening. Vijf minuten rekenen is minder werk dan een mouwkop uithalen.
+Plan en tel de handelingen ook bij kleine aanpassingen. Controleer hun plaatsing ten opzichte van het steekpatroon en de gewenste vorm.
 
 **Wat als het patroon niet zegt welke meerdering ik moet gebruiken?**
-M1L of M1R is een veilige standaard in tricotsteek. KFB werkt goed in ribbelsteek of structuur waar het kleine streepje verdwijnt. Het type meerdering telt meer wanneer de vorming zichtbaar is, zoals bij een raglanlijn, dan wanneer de meerderingen verspreid over de toer zitten.
+Voor de rechte voorbeelden hier kun je de hierboven beschreven tussendraadmeerdering gebruiken als het patroon de keuze openlaat. KFB ziet er anders uit en gebruikt een bestaande steek. Schrijf de herhaling daarom opnieuw als je van techniek wisselt.
 
 **Waarom geeft mijn rekensom soms één meerdering te weinig of te veel?**
-Meestal is er een rest niet verdeeld, of is er een off-by-one ontstaan bij de vraag of het eerste vak een volledig interval of een half interval krijgt. Loop de toer mentaal door voordat je breit en tel de geplande vormpunten.
+Meestal is er een rest niet verdeeld, of is er een telfout van één steek ontstaan bij de vraag of het eerste vak een volledig interval of een half interval krijgt. Loop de toer mentaal door voordat je breit en tel de geplande vormpunten.
 
 **Verandert de formule als ik twee steken tegelijk minder met 3rsm?**
-Het aantal minderingspunten blijft hetzelfde, maar elk punt verwijdert twee steken in plaats van één. Dus 90 steken met 5 keer `3rsm` eindigt op 80 steken, niet op 85. Reken met het aantal steken dat verdwijnt, niet alleen met het aantal minderingshandelingen.
+Ja: deel het aantal steken dat moet verdwijnen door 2 om het aantal 3rsm-handelingen te vinden. Van 90 naar 80 verdwijnen 10 steken met 5 dubbele minderingen. 90 / 5 = 18 oorspronkelijke steken per herhaling: "15 r, 3rsm" 5 keer gebruikt 90 en maakt 5 × 16 = 80 steken. Een oneven aantal steken kun je niet uitsluitend met dubbele minderingen verwijderen.
 
 **Kan ik meerderen of minderen in dezelfde toer als een patroonrapport?**
-Soms. Als de toer een gladde overgangstoer is, bijvoorbeeld tussen boordsteek en tricotsteek, is vorming eenvoudig. Zit je midden in een rapport, dan moet de vorming het rapport respecteren en wordt de plaatsing gevoeliger. Veel patronen zetten vorming daarom bewust op overgangstoeren.
+Alleen als de vormgeving rekening houdt met het motief en het vervolg. Een correct totaal of deelbaarheid door de rapportgrootte bewaart op zichzelf geen boordsteek, kabels of ajour.
 
 **Het patroon zegt "gelijkmatig meerderen" en het aantal steken deelt niet netjes. Doe ik iets fout?**
 Nee, dat is normaal. De rest wordt verdeeld door sommige vakken één steek langer te maken dan andere. Verspreid die langere vakken over de toer in plaats van ze te clusteren, dan oogt de stof gelijkmatig.

@@ -1,10 +1,11 @@
 ---
 title: "How to organize multiple WIP knitting projects"
 browserTitle: "How to Organize Multiple WIP Knitting Projects"
-description: "Managing several knitting projects at once without losing track of needles, yarn, or your place in the pattern. Practical systems that work."
+description: "Organize knitting projects with clear pattern notes, completed row counts, yarn records and practical storage ideas for picking up a paused WIP."
 category: "app-tools"
 categoryOrder: 3
 publishDate: "2026-05-01"
+updatedDate: 2026-10-18
 tags:
   - "organize knitting projects"
   - "WIP management"
@@ -14,81 +15,75 @@ tags:
   - "knitting time tracker"
 ---
 
-Many knitters have more than one project going at once. A complex sweater for focused evening sessions. A sock for travel. A mindless garter stitch blanket for TV knitting. Different projects for different moods and energy levels. This is normal.
+Many knitters have more than one project going at once. A complex sweater for focused evening sessions. A sock for travel. A simple garter stitch blanket for TV knitting. Different projects can suit different moods and energy levels.
 
-The trouble starts when "a few projects" quietly becomes seven, and you can't remember which needle size is in the half-finished hat, what row you stopped on in the cardigan, or whether you already bought the second skein for the cowl. WIP management isn't about limiting how many projects you have. It's about being able to pick up any one of them without spending ten minutes figuring out where you left off.
+The trouble starts when you can't remember which needle size is in the half-finished hat, where you stopped in the cardigan, or whether you already bought the second skein for the cowl. WIP means work in progress. Organizing your WIPs is about keeping the information you need to resume each one, rather than following a fixed limit on projects.
 
 ## What you need to recover when you pick something up
 
-**Where you stopped.** Row number, position within a pattern repeat, which section of the pattern you're working. This is the information that's most expensive to reconstruct. For a stockinette body, you can count rows in the fabric. For a cable panel or lace chart, losing your place can mean frogging back to a known point. The [row tracking guide](/articles/track-rows-knitting/) covers methods in detail.
+**Which pattern and size.** Record the pattern title, designer, source and version or date, plus your chosen size. Mark the relevant size throughout your working copy. If you use different sizes for different sections, note each choice. Keep corrections with that copy; when a new version appears, check what changed before transferring your annotations.
 
-**What's in the bag.** Needle size, yarn name and colorway, skeins remaining. Pull a project out of storage after a month and the yarn label has come off the skein. Now you're trying to identify mystery DK-weight beige, which gets old fast. Keep labels with the project, or note the details somewhere accessible. The simplest version: tape one ball band to the inside of the project bag with the dye lot number visible.
+**Where you stopped.** Name the piece and section, the last fully completed row or round and its counting start point, your position in the repeat, and the next action. If you stop partway through a row, record that separately. For example: “Left sleeve, 47 rounds completed after the cuff; next: round 48, repeat round 8.” That repeat position assumes an eight-round repeat starting at round 1 with no setup rounds. Keep separate records for each sleeve or sock and each simultaneous shaping sequence. A counter value alone cannot supply this context. The [row tracking guide](/articles/track-rows-knitting/) covers methods in detail.
 
-**What you've decided.** Modifications, size adjustments, notes you made while working. "Adding 2 inches to the body length" is obvious when you decided it yesterday. It's invisible when you pick the project up in three weeks. The same goes for needle size changes mid-project, the row where you started a new skein for tail-weaving reference, and any spots where you deviated from the chart.
+**What's in the bag.** Note needle diameter in mm, needle type and length; for circulars, say whether the length includes the tips. Record your stitch and row gauge, the stitch pattern and whether it was measured before or after washing/blocking and drying. Keep those results distinct. Save yarn labels and the yarn details listed below.
 
-**Where the working yarn is.** Specifically: is the yarn coming from the center pull or the outside, and which skein in the sequence is active. This matters when alternating between two dye lots, when joining a contrast color at a specific row, or when you've split a skein for matching sleeves and need to know which half belongs to which side.
+**What you've decided.** Record modifications and where they start, including needle changes. “Add 2 inches to the body before the armhole shaping” is more useful than an unexplained length. Mark what you have actually done separately from what you plan to do. Photos can supplement notes, but do not replace written measurements or changes.
+
+**Where the working yarn is.** Note whether it comes from the center or outside of the ball and which ball is active. This is useful when alternating dye lots, adding a contrast color or dividing yarn between matching sleeves.
 
 ## Physical organization
 
-One bag per project. That's the whole system. The project, its needles, the pattern, remaining yarn, and any notes all live together. Switch projects, grab a different bag. Nothing gets mixed.
+One bag per project is a simple option: keep the work, needles, working copy of the pattern and notes together. For larger projects, store extra balls separately with the project name and yarn details attached. Mark them as reserved so they are not also allocated to another project.
 
-The container doesn't matter much. A zippered pouch, a drawstring bag, a ziplock for small projects. What matters is that each project is self-contained.
+Choose a container that fits the work and check its seams, fastenings and loose notions for snagging points. Material alone does not tell you how well a bag will protect a project. Follow the yarn's care guidance for storage rather than assuming one bag suits every fiber.
 
-For larger projects that use multiple skeins, keep the working skein with the project and store the extras separately but labeled. A strip of masking tape with the project name prevents the problem of having six balls of cream DK from three different brands in your stash and no idea which belongs where.
-
-For project bag material, light fabric pouches are pleasant to handle but offer limited protection against snags, lint, or spilled notions. Zippered plastic pouches with mesh windows handle those problems and let you see what's inside without opening. Larger projects fit comfortably in a tote with a drawstring closure; sleeves and partially-completed yokes don't appreciate being crammed into something the size of a sock pouch.
+Secure live stitches before putting the work away. If you remove interchangeable tips, leave the stitches on a compatible cable with its end caps fitted, or transfer them to a suitable holder. Record the removed tips' diameter and where you put them.
 
 ## Tracking where you left off
 
-Paper notes work if you're disciplined about updating them. Write the current row number on a sticky note, attach it to the pattern, update when you stop. The problem: after a satisfying knitting session, writing a note before putting the needles down requires a habit that most people don't form naturally.
+Paper and digital notes both need updating. When you stop, record the last completed row or round and the next action. If your counter tracks completed rows, increase it only after finishing the whole row; a partially worked row needs a separate note.
 
-A knitting project tracker on your phone handles this more reliably. Digital trackers save the row count automatically, record when you last worked on a project, and show all active projects in one list. Instead of rifling through bags, you see everything at a glance: Cabled Cardigan, row 47, last worked Tuesday. Simple Socks, heel turn, last worked a week ago.
+A phone app can be convenient, but check what your chosen app actually records. A session date is not an exact pattern position, and saved data is only as useful as the information you entered. Local saving, exporting a copy, backing up and restoring data, syncing devices, and sharing a project are different operations; check the specific feature you need.
 
-The [KnitTools app](/) is being built to organize projects with row counts, session history, project notes, and yarn details in one place. The goal is simple: open a project and get back to the working state without reconstructing it from memory.
+KnitTools is being developed for Android with project counters, session history and project notes. You enter the counts and notes yourself. Creating new project notes requires Pro access; existing notes remain usable afterward. Yarn details can be written manually in notes; this does not mean each detail has a dedicated field or that yarn is deducted automatically. [See KnitTools and its launch information](/).
 
 ## Deciding what to work on
 
-Multiple WIPs become stressful when you feel guilty about the ones you're not touching. A few approaches that help:
+Choose an approach that fits your routine; these are options, not productivity rules.
 
-**One main, one portable, one mindless.** Three active categories keeps the count manageable while still giving you options. The main project gets focused time. The portable project travels. The mindless project fills time when you want to knit but not think. Everything else is in a queue, not on the active list.
+**One main, one portable, one simple.** You could keep a focused project, a travel project and an easy project active. Three categories are a suggestion, not a limit.
 
-**Rotation scheduling.** Dedicate specific sessions to specific projects. Weekday evenings are for the sweater, weekends for the shawl. Prevents the pattern of always reaching for the easiest project while the complex one sits untouched.
+**Rotation scheduling.** Try setting aside particular sessions for particular projects, such as weekday evenings for the sweater and weekends for the shawl. Change the schedule when it stops being useful.
 
-**Progress milestones.** "Finish the yoke before starting anything new" is more motivating than "I should work on the sweater." Concrete targets give you something to aim at. Tracking time per project can also reveal patterns, and a project that keeps getting skipped may need a decision: continue, pause it deliberately, or reclaim the yarn.
+**Progress milestones.** “Finish the yoke before starting something new” is one possible target. A project that keeps getting skipped may need a decision: continue, pause it deliberately or unravel it.
 
-**Pair the project to the moment.** Cable charts and lace need attention, so they go with a quiet evening at home. Plain sock rounds work on a train, in a waiting room, during a phone call. Matching the project to the time available means you actually make progress instead of pulling out the wrong bag and putting it back five minutes later because the room is too loud to focus on a chart.
+**Pair the project to the moment.** You might save cable charts for a quiet evening and plain sock rounds for travel. Choose according to the attention you have available.
 
-## When a WIP becomes a UFO
+## Pausing or letting go of a project
 
-A WIP is a project you intend to return to. A UFO is a project you've abandoned but haven't admitted it to yourself yet.
+A long pause does not mean you have abandoned a project. Before setting it aside, update the notes, secure the stitches and label the reserved yarn. When you return, check the pattern, size, materials and stopping point against the actual work.
 
-Signs: you don't remember what size you were making. The pattern is lost or you can't find the right page. The yarn has been partially cannibalized for something else. The season it was intended for has passed twice.
-
-It's fine to abandon projects. Frog them, reclaim the yarn and needles, remove them from the active list. Five projects with clear intention is more manageable than five projects plus three guilt-inducing abandoned starts in the back of the closet.
+It is also fine to decide not to finish. If you unravel it, check the recovered yarn's condition and quantity before assigning it elsewhere, and update the project list and yarn record. If you finish it, record the final modifications and remaining yarn before archiving the notes.
 
 ## Tracking yarn across projects
 
-When you're running multiple projects, yarn logistics get tangled. Which projects share the same weight? Is there enough left on that skein to finish the second sock? Did you already buy the contrast color for the yoke?
+Record brand and product name, fiber composition, color name or number, dye lot, length per ball and ball weight. These are different fields: the same color number does not identify the same dye lot, and the same yarn weight category does not identify the same yarn.
 
-Keeping track of yarn by project (how much you started with, how much remains) prevents the two worst outcomes: running out mid-project with a discontinued dye lot, and buying duplicates because you forgot what you already had.
+Keep quantities purchased, reserved for a project and actually remaining separate. Reserved yarn is part of your stock, not extra yarn to add to the total. Update reservations when you move yarn between projects. This can help you plan purchases, but cannot guarantee that you will avoid shortages or duplicate purchases.
 
-A useful trick for active projects: weigh remaining yarn every few sessions and write the gram count somewhere with the date. A sweater sleeve that used 47 g gives you a useful estimate for a matching second sleeve, but allow a buffer for normal variation. This turns "I think I have enough" into a more concrete planning check.
-
-Saving yarn label details means the weight, fiber content, care instructions, and dye lot stay accessible even after the physical label detaches from the skein. KnitTools is being built to keep those notes with the project they belong to.
+For a partial ball, you can weigh the yarn without the label or container and record grams and date. Hypothetically, if the first sleeve used 47 g, that is a starting estimate for an otherwise matching second sleeve in the same yarn and at the same gauge. Allow for changes, finishing and measurement uncertainty; 47 g remaining is not a guarantee of enough yarn.
 
 ## The minimal version
 
-At minimum: one bag per project. A note in each bag (or a digital tracker) with the current row number and any modifications. A list somewhere (phone, notebook, whiteboard) of all active projects so you can see the full picture.
-
-That's enough to pick up any project without confusion and catch yourself before the WIP count gets out of hand.
+Keep each project's materials identifiable, a note with its pattern and size, last completed row or round, repeat position, changes and next action, and a list of active or paused work. Add the needle, gauge and yarn details you would otherwise have to reconstruct.
 
 ## FAQ
 
 **How many projects is too many?**
-No universal number. If you're feeling overwhelmed rather than energized by the options, you have too many. A useful active list is small enough that each project still gets real attention.
+There is no universal number. If your current list feels difficult to manage, try pausing some projects or simplifying your notes. You do not need to give every project equal time.
 
 **Should I finish one project before starting another?**
-Strict monogamy works for some knitters. Most find that multiple projects serve a real purpose: different contexts and energy levels want different knitting. The key is having a system to manage them, not eliminating them.
+Either approach can suit you. One project keeps the active list short; several let you choose different kinds of knitting. Use whichever arrangement you find practical.
 
 **How do I pick up a project I haven't touched in months?**
-Identify where you are: count rows, read the fabric, check notes. If you have a digital tracker, the row count and session history tell you when you stopped and where. Knit a few rows slowly to re-establish tension and relearn the stitch pattern before picking up speed. If the pattern is complex, review the relevant section rather than starting from page one.
+Check the pattern version, chosen size, modifications, needles and yarn. Compare your notes and count with the fabric, identify the last completed row and any partial row, then confirm the next instruction and shaping steps. A session history alone cannot establish that position. If you are unsure, identify a known point before continuing and check your gauge against the recorded measurements.

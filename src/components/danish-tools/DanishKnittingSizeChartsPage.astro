@@ -3,8 +3,8 @@ import LocalizedToolPage from "../LocalizedToolPage.astro";
 import { danishToolAlternates, danishToolRoutes } from "../../i18n/danishTools";
 
 interface Cell {
-  cm: string;
-  inch: string;
+  cm: string | null;
+  inch: string | null;
 }
 
 interface Row {
@@ -26,7 +26,8 @@ interface Panel {
   tables: Table[];
 }
 
-const c = (cm: string, inch: string): Cell => ({ cm, inch });
+const c = (cm: string | null, inch: string | null): Cell => ({ cm, inch });
+const unavailableValue = "Ingen bekræftet kildeværdi";
 const formatNumberText = (value: string) => value.replaceAll(".", ",");
 
 const panels: Panel[] = [
@@ -68,7 +69,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ærmelængde til ærmegab",
+            label: "Armlængde: armhule til håndled",
             cells: [
               c("15.5 cm", '6"'),
               c("16.5 cm", '6.5"'),
@@ -169,7 +170,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ærmelængde til ærmegab",
+            label: "Armlængde: armhule til håndled",
             cells: [
               c("21.5 cm", '8.5"'),
               c("26.5 cm", '10.5"'),
@@ -264,7 +265,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ærmelængde til ærmegab",
+            label: "Armlængde: armhule til håndled",
             cells: [
               c("38 cm", '15"'),
               c("40.5 cm", '16"'),
@@ -350,7 +351,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ærmelængde til ærmegab",
+            label: "Armlængde: armhule til håndled",
             cells: [
               c("42 cm", '16.5"'),
               c("43 cm", '17"'),
@@ -402,7 +403,7 @@ const panels: Panel[] = [
           {
             label: "Midt bag i nakken til håndled",
             cells: [
-              c("66-68.5 cm", '26-26.5"'),
+              c(null, null),
               c("68.5-70 cm", '27-27.5"'),
               c("71-72.5 cm", '28-28.5"'),
               c("73.5-75 cm", '29-29.5"'),
@@ -443,7 +444,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ærmelængde til ærmegab",
+            label: "Armlængde: armhule til håndled",
             cells: [
               c("45.5 cm", '18"'),
               c("45.5 cm", '18"'),
@@ -457,7 +458,7 @@ const panels: Panel[] = [
               c("39.5 cm", '15.5"'),
               c("43 cm", '17"'),
               c("47 cm", '18.5"'),
-              c("49.5 cm", '18.5"'),
+              c("49.5 cm", '19,5"'),
             ],
           },
           {
@@ -518,7 +519,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ryglængde til talje",
+            label: "Ryglængde til hofte",
             cells: [
               c("58.5-61 cm", '23-24"'),
               c("63.5-66 cm", '25-26"'),
@@ -536,7 +537,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ærmelængde til ærmegab",
+            label: "Armlængde: armhule til håndled",
             cells: [
               c("45.5 cm", '18"'),
               c("47 cm", '18.5"'),
@@ -605,7 +606,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ryglængde til talje",
+            label: "Ryglængde til hofte",
             cells: [
               c("73.5 cm", '29"'),
               c("76 cm", '30"'),
@@ -617,18 +618,18 @@ const panels: Panel[] = [
             label: "Rygbredde",
             cells: [
               c("48-51 cm", '19-20"'),
-              c("48-51 cm", '20-21"'),
-              c("51-54.5 cm", '21-21.5"'),
+              c(null, null),
+              c(null, null),
               c("56-57 cm", '22-22.5"'),
             ],
           },
           {
-            label: "Ærmelængde til ærmegab",
+            label: "Armlængde: armhule til håndled",
             cells: [
               c("52 cm", '20.5"'),
               c("52 cm", '20.5"'),
-              c("49.5 cm", '21"'),
-              c("53.5-54.5 cm", '21.5"'),
+              c(null, null),
+              c(null, null),
             ],
           },
           {
@@ -637,7 +638,7 @@ const panels: Panel[] = [
               c("42 cm", '16.5"'),
               c("44.5 cm", '17.5"'),
               c("47 cm", '18.5"'),
-              c("48 cm", '20"'),
+              c(null, null),
             ],
           },
           {
@@ -694,37 +695,61 @@ const panels: Panel[] = [
           { label: "Baby", cells: [c("35.5-40.5 cm", '14-16"')] },
           { label: "Tumling", cells: [c("40.5-46 cm", '16-18"')] },
           { label: "Barn", cells: [c("45.5-51 cm", '18-20"')] },
-          { label: "Teenager", cells: [c("51-56 cm", '20-22"')] },
+          {
+            label: "Barn før teenagealderen",
+            cells: [c("51-56 cm", '20-22"')],
+          },
           { label: "Kvinde", cells: [c("53-58.5 cm", '21-23"')] },
           { label: "Mand", cells: [c("56-61 cm", '22-24"')] },
         ],
       },
       {
         caption: "Fodlængde",
-        sizeHeader: "Størrelse",
+        sizeHeader: "US-skostørrelse / vejledende alder",
         sizes: ["Længde"],
         rows: [
-          { label: "Baby (0-6 mdr.)", cells: [c("9 cm", '3.5"')] },
-          { label: "Baby (6-12 mdr.)", cells: [c("10-11 cm", '4-4.5"')] },
-          { label: "Tumling (1-2)", cells: [c("12-13 cm", '4.75-5"')] },
-          { label: "Barn (3-6)", cells: [c("14-18 cm", '5.5-7"')] },
-          { label: "Barn (7-10)", cells: [c("19-21 cm", '7.5-8.25"')] },
-          { label: "Teenager", cells: [c("22-24 cm", '8.5-9.5"')] },
-          { label: "Kvinde", cells: [c("23-26 cm", '9-10.25"')] },
-          { label: "Mand", cells: [c("25-29 cm", '10-11.5"')] },
+          {
+            label: "Baby, US 0–4 (6–18 mdr.)",
+            cells: [c("7,75–11,5 cm", '3–4,5"')],
+          },
+          {
+            label: "Tumling, US 5–9 (2–3 år)",
+            cells: [c("12–15,25 cm", '4,75–6"')],
+          },
+          {
+            label: "Barn, US 10–13 (4–5 år)",
+            cells: [c("16,5–19 cm", '6,5–7,5"')],
+          },
+          {
+            label: "Ung, US 1–3 (6–9 år)",
+            cells: [c("19,75–21,5 cm", '7,75–8,5"')],
+          },
+          {
+            label: "Ung, US 4–6 (10–13 år)",
+            cells: [c("22,25–24 cm", '8,75–9,5"')],
+          },
+          { label: "Kvinde, US 4–6,5", cells: [c("20,25–23 cm", '8–9"')] },
+          { label: "Kvinde, US 7–9,5", cells: [c("23,5–25,5 cm", '9,25–10"')] },
+          { label: "Kvinde, US 10–12,5", cells: [c("26–28 cm", '10,25–11"')] },
+          { label: "Mand, US 6–8,5", cells: [c("23,5–25,5 cm", '9,25–10"')] },
+          { label: "Mand, US 9–11,5", cells: [c("26–28 cm", '10,25–11"')] },
+          { label: "Mand, US 12–14", cells: [c("28,5–30,5 cm", '11,25–12"')] },
         ],
       },
       {
         caption: "Håndomkreds",
-        sizeHeader: "Størrelse",
+        sizeHeader: "CYC-gruppe / størrelse",
         sizes: ["Omkreds"],
         rows: [
-          { label: "Baby", cells: [c("10-13 cm", '4-5"')] },
-          { label: "Tumling", cells: [c("13-15 cm", '5-6"')] },
-          { label: "Barn", cells: [c("15-18 cm", '6-7"')] },
-          { label: "Teenager", cells: [c("18-20 cm", '7-8"')] },
-          { label: "Kvinde", cells: [c("18-20 cm", '7-8"')] },
-          { label: "Mand", cells: [c("20-23 cm", '8-9"')] },
+          { label: "Barn 2–4 år", cells: [c("13 cm", '5"')] },
+          { label: "Barn 4–6 år", cells: [c("15 cm", '6"')] },
+          { label: "Barn 6–8 år", cells: [c("16,5 cm", '6,5"')] },
+          { label: "Kvinde S", cells: [c("18 cm", '7"')] },
+          { label: "Kvinde M", cells: [c("19 cm", '7,5"')] },
+          { label: "Kvinde L", cells: [c("20,5 cm", '8"')] },
+          { label: "Mand S", cells: [c("20,5 cm", '8"')] },
+          { label: "Mand M", cells: [c("21,5 cm", '8,5"')] },
+          { label: "Mand L", cells: [c("23,5 cm", '9"')] },
         ],
       },
     ],
@@ -736,15 +761,15 @@ const defaultPanel = "kvinde";
 const faqs = [
   {
     q: "Er målene ens i alle strikkeopskrifter?",
-    a: "De fleste store udgivere og uafhængige designere følger Craft Yarn Councils standarder, men der findes ingen fælles kontrol. Nogle designere bruger deres egne størrelsesskemaer, især når opskriften har mange størrelser. Tjek altid opskriftens egen størrelsestabel, hvis den findes.",
+    a: "CYC udgiver referencetabeller, men alle strikkeopskrifter bruger ikke samme størrelsessystem. Designere kan have egne mål og størrelsesbetegnelser. Tjek altid opskriftens egen størrelsestabel og målskitse.",
   },
   {
     q: "Hvordan vælger jeg størrelse, hvis opskriften bruger numre i stedet for XS/S/M/L?",
-    a: "Sammenlign brystmålet for hver nummereret størrelse med tabellerne ovenfor. Det er brystmålet, der betyder noget. Ignorér selve etiketten.",
+    a: "Brug opskriftens mål, ikke kun tallet eller bogstavet. Tjek, om målene gælder kroppen eller det færdige arbejde; tag højde for det tilsigtede bevægelsesrum ved færdige mål. Til en sweater sammenligner du brystmål og andre mål, der er vigtige for pasformen.",
   },
   {
     q: "Skal jeg måle over tøj eller direkte på kroppen?",
-    a: "Mål over let tøj: en tætsiddende T-shirt eller et tyndt lag. En tyk sweater lægger centimeter til, som ikke hører til kroppen. Måler du direkte på huden, kan tallet blive lidt mindre end det, det færdige stykke faktisk skal kunne rumme.",
+    a: "Mål direkte på huden eller over et tyndt, tætsiddende lag, og undgå tykt tøj. Hold kropsmål og færdige tøjmål adskilt; opskriftens bevægelsesrum tager højde for den ønskede pasform.",
   },
   {
     q: "Hvad hvis mine mål ikke passer pænt i én størrelse?",
@@ -755,11 +780,11 @@ const faqs = [
 
 <LocalizedToolPage
   title="Størrelsestabeller til strik"
-  description="Standard kropsmål til strik fra baby til voksen. Se bryst, talje, hofter, ærmelængde og andre mål i cm og inch, når du vælger størrelse."
+  description="Standard kropsmål til strik fra baby til voksen. Se bryst, talje, hofter, ærmelængde og andre mål i cm og tommer, når du vælger størrelse."
   canonicalPath={danishToolRoutes.knittingSizeCharts}
   lang="da"
   alternates={danishToolAlternates.tool.knittingSizeCharts}
-  intro="Standard kropsmål i cm til strikkeprojekter. Skift til inch, når du sammenligner med en US- eller UK-opskrift."
+  intro="Standard kropsmål i cm til strikkeprojekter. Skift til tommer, når du sammenligner med en US- eller UK-opskrift."
   schemaName="Størrelsestabeller til strik"
   schemaDescription="Referencetabeller med standard kropsmål til strik, fra baby til voksen."
   faqs={faqs}
@@ -770,6 +795,20 @@ const faqs = [
     <p class="panel-intro">
       Det er kropsmål, ikke mål på det færdige arbejde. Læg bevægelsesrum til
       for den pasform, du vil have.
+    </p>
+    <p class="panel-intro">
+      Dette er CYC’s vejledende kropsmål, ikke færdige tøjmål eller universelle
+      størrelser. Børne- og ungdomsnumrene er amerikanske referencestørrelser,
+      ikke alder eller europæiske højdestørrelser. Babyaldre er omtrentlige.
+      XS–5XL følger CYC; 2XL–5XL svarer til deres 2X–5X. Mål personen, og brug
+      opskriftens egen størrelsestabel.
+    </p>
+    <p class="panel-intro" id="size-source-note">
+      CM og tommer viser CYC’s publicerede, afrundede par, ikke præcise
+      omregninger. Seks mål mangler bekræftede kildeværdier, fordi de
+      publicerede værdier er modstridende. Begge værdier er udeladt. Mål kroppen
+      efter vejledningen nedenfor, og se opskriftens størrelsesguide og
+      tilsigtede bevægelsesrum.
     </p>
     <div class="chart-controls">
       <div class="tab-scroller">
@@ -808,7 +847,7 @@ const faqs = [
           class="unit-btn"
           data-unit="inch"
           tabindex="-1"
-          aria-checked="false">inch</button
+          aria-checked="false">Tommer</button
         >
       </div>
     </div>
@@ -820,6 +859,7 @@ const faqs = [
             class={`panel${panel.id === defaultPanel ? " is-active" : ""}`}
             data-panel={panel.id}
             role="tabpanel"
+            tabindex="0"
             id={`panel-${panel.id}`}
             aria-labelledby={`tab-${panel.id}`}
             hidden={panel.id !== defaultPanel}
@@ -834,11 +874,11 @@ const faqs = [
                   <table class="size-table">
                     <thead>
                       <tr>
-                        <th class="sticky-col">
+                        <th scope="col" class="sticky-col">
                           {table.sizeHeader ?? "Størrelse"}
                         </th>
                         {table.sizes.map((size) => (
-                          <th>{size}</th>
+                          <th scope="col">{size}</th>
                         ))}
                       </tr>
                     </thead>
@@ -849,12 +889,21 @@ const faqs = [
                             {row.label}
                           </th>
                           {row.cells.map((cell) => (
-                            <td>
+                            <td
+                              data-unavailable={cell.cm === null || undefined}
+                              aria-describedby={
+                                cell.cm === null
+                                  ? "size-source-note"
+                                  : undefined
+                              }
+                            >
                               <span class="unit-cm">
-                                {formatNumberText(cell.cm)}
+                                {formatNumberText(cell.cm ?? unavailableValue)}
                               </span>
                               <span class="unit-inch">
-                                {formatNumberText(cell.inch)}
+                                {formatNumberText(
+                                  cell.inch ?? unavailableValue,
+                                )}
                               </span>
                             </td>
                           ))}
@@ -888,8 +937,8 @@ const faqs = [
       viser, hvor taljen sidder.
     </p>
     <p>
-      <strong>Hofter:</strong> Mål rundt om det bredeste sted på hofterne, ofte 18-23
-      cm under taljen. Hold målebåndet vandret.
+      <strong>Hofter:</strong> Mål rundt om det bredeste sted på hofterne med målebåndet
+      vandret. Brug kroppens bredeste punkt, ikke en fast afstand under taljen.
     </p>
     <p>
       <strong>Rygbredde:</strong> Mål lige hen over ryggen, fra skulderpunkt til skulderpunkt.
@@ -900,29 +949,40 @@ const faqs = [
       naturlige talje. Det viser, hvor lang kroppen i modellen skal være.
     </p>
     <p>
-      <strong>Ærmelængde til ærmegab:</strong> Mål fra håndledsknoglen til armhulen.
-      Det er udgangspunktet for ærmelængden.
+      <strong>Ryglængde til hofte (mand):</strong> Herretabellen følger CYC’s PDF
+      og måles fra nakken til hoften, ikke taljen. Kontrollér målepunktet i opskriftens
+      målskitse.
+    </p>
+    <p>
+      <strong>Armlængde: armhule til håndled:</strong> Mål fra armhulen til håndleddet
+      med armen let bøjet. Kropsmålet er et udgangspunkt for ærmelængden, ikke et
+      færdigt ærmemål.
     </p>
     <p>
       <strong>Overarm:</strong> Mål rundt om det bredeste sted på overarmen, mens
       armen hænger afslappet ned langs kroppen.
     </p>
     <p>
-      <strong>Ærmegabsdybde:</strong> Mål fra toppen af skulderen ned til armhulen.
-      Det bestemmer dybden på ærmegabet.
+      <strong>Ærmegabsdybde:</strong> Mål lodret fra skulderens yderste overkant ned
+      til armhulen.
     </p>
     <p>
-      <strong>Midt bag i nakken til håndled:</strong> Mål fra midt bag i nakken, over
-      skulderen og langs armen til håndledsknoglen. Det samlede mål er nyttigt ved
-      raglan og bærestykker, hvor krop og ærmer hænger sammen.
+      <strong>Midt bag i nakken til håndled:</strong> Hold armen strakt, og mål fra
+      nakkens basis midt bag, over skulderen og langs armen til håndleddet.
+    </p>
+    <p>
+      <strong>Mål til tilbehør:</strong> Mål hovedomkredsen over panden og rundt om
+      hele hovedet, fodlængden på gulvet fra hælens bagside til den længste tå og
+      håndomkredsen rundt om håndfladen på den dominante hånd lige under knoerne,
+      uden tommelfingeren. Det er kropsmål, ikke færdige mål på huer, strømper eller
+      vanter. Fodlængden er ikke en omregning af skostørrelse og er ikke nok alene
+      til at vælge strømpestørrelse. Aldrene er vejledende.
     </p>
 
     <h2>Kropsmål eller færdige mål</h2>
     <p>
-      Det er den mest almindelige forvirring ved størrelser i strik. Tabellerne
-      viser kropsmål, altså kroppens faktiske mål. Et færdigt stykke strik kan
-      være mindre, samme størrelse eller større, afhængigt af det bevægelsesrum
-      designeren har bygget ind i opskriften.
+      Tabellerne viser kropsmål. Det færdige arbejde kan være mindre, lige så
+      stort eller større afhængigt af opskriftens tilsigtede bevægelsesrum.
     </p>
     <p>
       <strong>Negativt bevægelsesrum:</strong> Arbejdet er mindre end kroppen. Til
@@ -931,24 +991,23 @@ const faqs = [
       pasform.
     </p>
     <p>
-      <strong>Intet bevægelsesrum:</strong> Arbejdet svarer nøjagtigt til kropsmålet.
-      I strikket stof ser det normalt meget kropsnært ud, medmindre maskemønstret
-      er særligt løst.
+      <strong>Intet bevægelsesrum:</strong> Det færdige mål er lig med det tilsvarende
+      kropsmål.
     </p>
     <p>
-      <strong>Positivt bevægelsesrum (5-10 cm):</strong> Arbejdet er lidt større end
-      kroppen. Det er standardpasformen for de fleste sweatre, cardigans og toppe.
+      <strong>Positivt bevægelsesrum:</strong> Arbejdet er større end kroppen. CYC
+      foreslår cirka 5–10 cm ekstra rundt om brystet til en klassisk sweaterpasform,
+      ikke som en regel for alle modeller.
     </p>
     <p>
-      <strong>Løst eller oversize bevægelsesrum (10-15+ cm):</strong> Arbejdet er
-      tydeligt større end kroppen. Rummelige sweatre, cocoon-cardigans og afslappede
-      pasformer ligger her.
+      <strong>Løs og oversize pasform:</strong> CYC foreslår cirka 10–15 cm ekstra
+      rundt om brystet til en løs sweater og 15 cm eller mere til en oversize sweater.
     </p>
     <p>
-      Hvis en opskrift skriver "passer til brystmål 91,5 cm" og derefter angiver
-      en færdig overvidde på 101,5 cm, er forskellen på 10 cm bevægelsesrummet.
-      Din opgave er at vælge den størrelse, hvor "passer til"-målet matcher
-      kroppen, ikke de færdige mål.
+      Hvis opskriften passer til et brystmål på 91,5 cm, og den færdige
+      overvidde er 101,5 cm, er det positive bevægelsesrum 10 cm. Sammenlign
+      både opskriftens kropsmål og målskitsens færdige mål med den ønskede
+      pasform.
     </p>
     <p>
       Når du har valgt mål, kan <a href={danishToolRoutes.yarnEstimator}
@@ -961,9 +1020,12 @@ const faqs = [
 
     <h2>At vælge mellem to størrelser</h2>
     <p>
-      Ligger dit brystmål mellem to størrelser, afhænger valget af den pasform,
-      opskriften er tænkt til. Til en tæt model vælger du den mindre. Til en
-      afslappet eller oversize pasform vælger du den større.
+      Mellem to størrelser: sammenlign de færdige mål med kroppen og opskriftens
+      tilsigtede bevægelsesrum. Vælg ikke automatisk en mindre størrelse til en
+      tæt model eller en større til oversize. Maskemønster, fiber og en vasket,
+      tørret strikkeprøve påvirker elasticitet og fald. Huer og strømper kræver
+      deres eget bevægelsesrum efter opskriften; et fast tillæg garanterer ikke
+      pasformen.
     </p>
     <p>
       Sammenlign også de andre mål, især hofter på længere modeller og overarm
@@ -978,6 +1040,36 @@ const faqs = [
         href="/da/artikler/maal-strikkefasthed/"
         >sådan måler du strikkefasthed</a
       > forklarer metoden.
+    </p>
+
+    <h2>Kilder og målemetoder</h2>
+    <p>
+      <a href="https://www.craftyarncouncil.com/standards/body-sizing"
+        >Craft Yarn Council: Kilder og målemetoder</a
+      >. <a href="https://www.craftyarncouncil.com/standards/baby-size-chart"
+        >Baby</a
+      >, <a href="https://www.craftyarncouncil.com/standards/child-youth-sizes"
+        >Barn og ung</a
+      >, <a href="https://www.craftyarncouncil.com/standards/woman-size"
+        >Kvinde</a
+      >, <a href="https://www.craftyarncouncil.com/standards/man-size">Mand</a>, <a
+        href="https://www.craftyarncouncil.com/standards/head-circumference-chart"
+        >Hoved</a
+      >, <a href="https://www.craftyarncouncil.com/standards/foot-size-charts"
+        >Fod</a
+      >, <a href="https://www.craftyarncouncil.com/standards/hand-size-charts"
+        >Hånd</a
+      >. <a
+        href="https://media.craftyarncouncil.com/sites/default/files/images/standards/CYC_YarnStandards-2018-11-06.pdf"
+        >CYC PDF</a
+      >.
+    </p>
+    <p>
+      Kilde: Craft Yarn Council. Den linkede PDF (side 17–18) afklarer to fejl i
+      webtabellerne: overarmsmålet for kvinde 5XL er 19,5 tommer, og mændenes
+      ryglængde går til hoften, ikke taljen. De seks øvrige modstridende mål i
+      kilden er stadig uafklarede. Hjemmesiden udelader begge enhedsværdier for
+      disse mål og erstatter dem ikke med rettede eller beregnede værdier.
     </p>
   </div>
 </LocalizedToolPage>

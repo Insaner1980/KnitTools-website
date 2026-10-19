@@ -2,6 +2,7 @@
 title: "Strickanleitung lesen lernen"
 description: "So liest du eine Strickanleitung von Anfang bis Ende: Aufbau, Abkürzungen, Größen, Maschenprobe und typische Schreibweisen."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 2
 tags:
@@ -22,11 +23,11 @@ Strickanleitungen haben ihre eigene Sprache und eigene Formatregeln. Eine Anleit
 
 Die meisten Anleitungen beginnen mit Angaben dazu, was du vor dem Anschlagen bereitlegen solltest.
 
-Die Garnangabe nennt ein bestimmtes Garn oder eine allgemeine Garnstärke und sagt, wie viel du kaufen sollst, in Metern, Knäueln oder beidem. In englischen Anleitungen kann die Menge auch in Yards stehen. Wenn du Garn ersetzt, gleiche Garnstärke und Gesamtmeter ab, nicht die Marke. Der [Leitfaden zum Garnersatz](/de/artikel/garn-in-einer-strickanleitung-ersetzen/) erklärt das genauer.
+Die Garnangabe nennt ein bestimmtes Garn oder eine allgemeine Garnstärke und den Bedarf in Metern, Knäueln oder beidem; englische Anleitungen verwenden auch Yards. Nutze beim Garnersatz die Garnstärke als Ausgangspunkt und prüfe dann Maschenprobe, Faserverhalten und Gesamtmeter. Der [Leitfaden zum Garnersatz](/de/artikel/garn-in-einer-strickanleitung-ersetzen/) erklärt das genauer.
 
 Nadeln: empfohlene Stärke und manchmal Typ, etwa gerade Nadeln, Rundstricknadeln oder Nadelspiel. Pullover mit Rippenkanten listen hier oft zwei Stärken. Kleiner für das Bündchen, größer für den Körper.
 
-Die Maschenprobe ist die wichtigste Zahl im Kopfbereich. Sie nennt Maschen und Reihen pro 10 cm in einem bestimmten Muster. In englischen Anleitungen kann dieselbe Angabe über 4 Zoll stehen. Wenn deine Maschenprobe nicht passt, wird das fertige Stück nicht die richtige Größe haben. [Strick eine Maschenprobe, bevor du anfängst](/de/artikel/maschenprobe-messen/).
+Die Maschenprobe gibt Maschen und Reihen oder Runden über eine bestimmte Strecke an, häufig 10 cm oder 4 Zoll, in einem bestimmten Muster. Beachte die angegebene Einheit und ob vor oder nach der Fertigbehandlung gemessen wird. Die Nadelstärke ist ein Vorschlag; wähle die Stärke, mit der du die geforderte Maschenprobe erreichst. [Strick eine Maschenprobe, bevor du anfängst](/de/artikel/maschenprobe-messen/).
 
 Zubehör sind zusätzliche Dinge: Maschenmarkierer, Zopfnadeln, Wollnadeln, Knöpfe, Reißverschlüsse. Nicht jede Anleitung braucht sie. Wenn sie aufgeführt sind, solltest du sie vor dem Anschlagen haben.
 
@@ -34,27 +35,25 @@ Fertigmaße geben die Maße des fertigen Projekts nach Größe an. Schwierigkeit
 
 ## Was der Schwierigkeitsgrad wirklich bedeutet
 
-Die Begriffe sind nicht vollständig standardisiert, aber die meisten Anleitungen folgen groben Konventionen.
+Schwierigkeitsgrade hängen vom Verlag oder Design ab. Die [Projektstufen des Craft Yarn Council](https://www.craftyarncouncil.com/standards/project-levels) sind ein veröffentlichtes System, keine Vorschrift für alle Anleitungen. Lies die jeweilige Definition und die tatsächlich benötigten Techniken. Ein Zopf oder eine verkürzte Reihe allein bestimmt nicht die Schwierigkeit des ganzen Projekts.
 
-Beginner bedeutet meist rechte und linke Maschen, einfache Zu- und Abnahmen und eine schlichte Form wie Schal, Spültuch oder einfache Mütze. Advanced Beginner bringt oft Rippenmuster, einfache Nähte und Maschenaufnahme dazu.
-
-Intermediate umfasst Zöpfe, einfache Lochmuster, manchmal mehrfarbiges Stricken, Charts und Kleidungsformung. Viele veröffentlichte Pulloveranleitungen liegen in diesem Bereich, auch wenn sie auf den ersten Blick kompliziert wirken.
-
-Advanced bedeutet verkürzte Reihen, komplexe Zöpfe, anspruchsvolle Lochmuster, mehrfarbiges Stricken mit mehreren Farben oder ungewöhnliche Konstruktionen wie estnische Spitze, verschränkte Maschen oder modulare Strickstücke. Schwierigkeitsgrade helfen vor allem, Anleitungen auszusortieren, die klar weit über deinem aktuellen Niveau liegen. Sie unterscheiden aber nicht zuverlässig zwischen "herausfordernd, aber machbar" und "dafür wächst du besser noch hinein".
+Prüfe, was du schon kannst und was du üben möchtest: rechte und linke Maschen, Formgebung, Stricken in Runden, Charts, Zöpfe, Lochmuster oder Fertigstellung. Lies die betreffenden Anweisungen, bevor du ein Projekt auswählst.
 
 ## Der Notes-Abschnitt
 
 Der Notes-, Pattern Notes- oder Before you begin-Abschnitt wird leicht übersprungen und ist oft genau der wichtige Teil. Dort stehen Informationen, die sonst nirgends sauber hineinpassen: ob die Maschenprobe gewaschen und gespannt gemessen wird, ob die erste Masche jeder Reihe für saubere Kanten abgehoben wird, ob der Pullover von oben nach unten oder von unten nach oben gearbeitet wird, wie die Maße in der Schnittzeichnung genommen wurden und ob die Anleitung besondere Eigenheiten hat.
 
-Lies die Notes vor dem Anschlagen. Wenn dort "all measurements after blocking" steht und du ungespannt misst, verschiebt sich die Passform schon vor dem ersten Zusammennähen.
+Lies die Notes vor dem Anschlagen. Wenn dort "all measurements after blocking" steht, miss nach der angegebenen Behandlung, damit du dein Strickstück mit den Maßen der Anleitung vergleichen kannst.
+
+Lies auch die Fertigstellung: Nähte, Blenden, Fädenvernähen und die angegebene Behandlung gehören zum Projekt. Prüfe, ob die Behandlung für dein Garn geeignet ist.
 
 ## Größen und deine Größe wählen
 
-Mehrgrößen-Anleitungen zeigen Zahlen oft so: 72 (80, 88, 96, 104) Maschen anschlagen. Die erste Zahl ist die kleinste Größe. Jede folgende Zahl in Klammern ist die nächste Größe.
+Halte dich an die Größenreihenfolge der Anleitung. In diesem Übungsbeispiel lautet sie XS (S, M, L, XL): 72 (80, 88, 96, 104) Maschen anschlagen. XS verwendet 72, S 80, M 88, L 96 und XL 104. Wähle eine Zahl, nicht deren Summe.
 
 Bevor du beginnst, entscheide, welche Größe du strickst, und markiere diese Zahlen in der ganzen Anleitung. Manche nutzen Textmarker. Andere kopieren die Anleitung und kreisen die richtigen Zahlen ein. Einige schreiben nur die Zahlen ihrer Größe auf ein separates Blatt.
 
-Wähle nach Fertigmaßen, nicht nach Größenlabel. „Medium“ bedeutet bei verschiedenen Designerinnen und Designern Unterschiedliches. Schau auf den tatsächlichen Brustumfang deiner Größe und vergleiche ihn mit deinem Körpermaß plus gewünschter Mehrweite. Der [Leitfaden zu Größen und Passform](/de/artikel/groessen-in-strickanleitungen-mehrweite-und-masse/) geht tiefer auf Mehrweite und Schnittzeichnungen ein.
+Prüfe, ob die Größentabelle Körpermaße oder Fertigmaße angibt. Vergleiche den fertigen Brustumfang des Kleidungsstücks mit deinem Körpermaß und der vorgesehenen Mehrweite. Addiere die Mehrweite nicht nochmals zu einem Körpermaßbereich, der bereits zur Auswahl der vorgesehenen Passform dient. Eine Schnittzeichnung kann die flach gemessene Breite statt des ganzen Umfangs zeigen: Lies die Maßangaben. S/M/L haben keine universellen Maße. Der [Leitfaden zu Größen und Passform](/de/artikel/groessen-in-strickanleitungen-mehrweite-und-masse/) erklärt mehr.
 
 ## Abkürzungen und Spezialtechniken
 
@@ -74,81 +73,73 @@ Reihen- und Rundennummern sagen dir, wo du bist. „Row 1 (RS):“ bedeutet erst
 
 Maschenanweisungen liest du von links nach rechts: „K5, p3, k2tog, yo, k to end“ bedeutet 5 Maschen rechts, 3 Maschen links, 2 Maschen rechts zusammenstricken, Umschlag, dann alle übrigen Maschen rechts. Kommas trennen Aktionen innerhalb einer Reihe. „K to end“ und „p to end“ heißen: weiter rechts oder links stricken, bis keine Maschen mehr übrig sind.
 
+Beginne die letzte Anweisung mit 20 Maschen: 5 rechts (15 übrig), 3 links (12 übrig), 2 rechts zusammen (10 übrig, eine neue Masche), Umschlag (weiterhin 10 übrig, eine neue Masche), dann die letzten 10 rechts. Endzahl: 5 + 3 + 1 + 1 + 10 = 20. Der Umschlag gleicht die Abnahme aus und verbraucht nicht die nächste Masche.
+
 ## Rapporte
 
-Hier stolpern viele. Anleitungen nutzen verschiedene Notationssysteme.
+Die Beispiele verwenden die Wiederholungskonventionen aus der [Anleitung des Craft Yarn Council](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern) auf Englisch. Die Maschenzahlen sind Übungsbeispiele ohne zusätzliche Randmaschen.
 
-**Stern-Rapporte:** `*K2, p2; rep from * to end.` Der Stern markiert den Anfang des Rapports. Alles zwischen Stern und Wiederholungsanweisung ist eine Einheit. `Rep from *` heißt: zurück zum Stern und erneut arbeiten. `To end` heißt: bis zum Reihenende wiederholen.
+**Stern-Rapporte:** `*K2, p2; rep from * to end.` Beginne mit 20 Maschen. Jede Gruppe aus 2 rechten und 2 linken Maschen verbraucht und ergibt vier Maschen. Arbeite insgesamt fünf Gruppen: Keine Maschen bleiben unbearbeitet, die Endzahl ist 20. Diese Anweisung verlangt eine durch vier teilbare Maschenzahl.
 
-**Klammer-Rapporte:** `[K2, p2] 5 times.` Die Klammern definieren den Abschnitt, die Zahl sagt, wie oft. Ausdrücklicher als Sterne, aber funktional dasselbe.
+**Klammer-Rapporte:** `[K2, p2] 5 times.` Arbeite die Gruppe insgesamt fünfmal: 5 × 4 = 20 Maschen. Eine bereits gearbeitete Gruppe plus fünf weitere Wiederholungen, "5 more times", ergibt dagegen sechs Gruppen und 24 Maschen. Lies den genauen Wortlaut.
 
-**Runde Klammern:** `(K1, p1) across.` Runde Klammern funktionieren ähnlich. `Across` bedeutet: über die ganze Reihe wiederholen.
+**Runde Klammern:** `(K1, p1) across.` Mit 20 Maschen arbeitest du zehn Gruppen aus 1 rechts und 1 links; die Endzahl ist 20. Hier umfassen die Klammern eine Wiederholung. Anderswo können sie Größen oder mehrere Arbeitsschritte in dieselbe Masche angeben: Beachte den Zusammenhang.
 
 Manche Anleitungen mischen diese Systeme. Wichtig ist, den Anfang des Rapports, sein Ende und die Anzahl zu erkennen. Der Artikel über [Rapporte in Strickanleitungen](/de/artikel/rapporte-in-strickanleitungen-sterne-und-klammern/) erklärt auch komplexe und verschachtelte Wiederholungen.
 
 ## „Gleichzeitig“
 
-Zwei Dinge passieren parallel über dieselben Reihen. Zum Beispiel: „Continue in pattern, and AT THE SAME TIME, decrease 1 stitch at each end of every 4th row.“
+„Gleichzeitig“ bedeutet, zwei Anweisungen im selben Abschnitt zu befolgen. Beispielsweise strickst du im Muster weiter und nimmst dabei in jeder vierten Reihe an beiden Rändern je eine Masche ab.
 
-Du arbeitest weiter im Muster und setzt zugleich Abnahmen in bestimmten Abständen. Beides passiert auf denselben Reihen, nicht nacheinander. Häufig bei Kleidungsformung, wenn der Stoff schmaler wird, während das Muster weiterläuft.
+Ein vollständiges Übungsbeispiel: Beginne den Abschnitt mit 80 Maschen, zähle die nächste Reihe als Reihe 1 und nimm nur in Reihe 4, 8 und 12 ab. Jede Abnahmereihe entfernt zwei Maschen: 80 → 78 → 76 → 74. Dazwischen strickst du im Muster ohne Formgebung. Der Abschnitt umfasst 12 Reihen, nicht nur die drei Abnahmereihen. In einer echten Anleitung musst du Zählbeginn, erste Abnahmereihe und Anzahl der Abnahmen prüfen; „jede vierte Reihe“ allein liefert diese Angaben nicht.
 
 Das ist eine der verwirrenderen Anweisungen in Strickanleitungen und hat [einen eigenen Artikel](/de/artikel/gleichzeitig-in-strickanleitungen/).
 
 ## Gegengleiche Formgebung
 
-Bei Strickjacken und anderen vorn geteilten Kleidungsstücken schreiben Anleitungen oft eine Seite aus und sagen danach: "Work as for Right Front, reversing all shaping." Das bedeutet, dass alles auf der gegenüberliegenden Kante passiert: Abnahmen am Reihenanfang wandern ans Reihenende, Halsausschnittzunahmen wechseln die Seite, und Knopflöcher erscheinen an der anderen Blende.
+"Work as for Right Front, reversing all shaping" fordert eine gegengleiche Formgebung. Rechts und links beziehen sich auf die Person, die das Kleidungsstück trägt. Hals- und Armausschnitt wechseln die Kante; Knopflöcher folgen den gesonderten Blendenanweisungen und werden nicht automatisch auf beiden Seiten gearbeitet.
 
-Manche Designer schreiben beide Seiten vollständig aus. Viele tun das nicht, teils um Seiten zu sparen und teils, weil die Spiegel-Logik erwartet wird. Wenn das neu für dich ist, schreibe die gegengleiche Seite vor dem Stricken Reihe für Reihe aus. Einmal langsam ist später schneller. Der häufigste Fehler ist, die Kante zu spiegeln, aber nicht zu prüfen, ob sich die erste Formgebungsreihe von rechter Seite zu linker Seite oder umgekehrt verschiebt.
+Schreibe die zweite Seite vor dem Stricken aus. Eine Abnahme am Anfang einer Hinreihe kann ans Ende einer Hinreihe wechseln; sie wird nicht automatisch in einer Rückreihe gearbeitet. Prüfe auch die Neigung der Abnahme. Übliches Abketten am Reihenanfang erfordert für die gegenüberliegende Kante eine eigene Planung: Beachte die Reihen- und Seitenangaben der Anleitung.
 
 ## Textanweisungen und Charts
 
-Manche Anleitungen, besonders Lochmuster und Jacquard, enthalten Charts. Ein Chart ist ein Raster, in dem jedes Feld eine Masche und jede Zeile eine Strickreihe darstellt.
+Ein Chart ist ein Raster mit Maschenanweisungen. Ein Symbol kann mehrere Maschen verbrauchen oder neue erzeugen; die Zahl der Kästchen ist deshalb nicht immer die Maschenzahl.
 
-Charts werden von unten nach oben gelesen, also in der Richtung, in der das Gestrick wächst. Reihen auf der rechten Seite liest du von rechts nach links. Reihen auf der linken Seite von links nach rechts. In Runden werden Charts meist in jeder Runde von rechts nach links gelesen, weil die rechte Seite immer zu dir zeigt. Eine Legende erklärt die Symbole.
+Eine übliche Konvention liest von unten nach oben: Hinreihen von rechts nach links, Rückreihen von links nach rechts. In Runden liest du von rechts nach links, wenn die rechte Seite durchgehend zu dir zeigt. Die [DROPS-Diagrammerklärung](https://www.garnstudio.com/lesson.php?id=68&cid=9) beschreibt diese Konvention. Prüfe Reihennummern und Hinweise. Ausgelassene Reihen arbeitest du nach der Textanweisung; überspringe sie beim Stricken nicht und setze nicht voraus, dass alle links gestrickt werden.
 
 Manche Strickende finden Charts schneller, weil das Muster sichtbar wird. Andere bevorzugen Textanweisungen. Viele Anleitungen bieten beides. Wenn beide sich widersprechen, prüfe die Notes und mögliche Errata, bevor du annimmst, dass eine Version ohne Prüfung richtig ist.
 
 ### Häufige Chart-Symbole
 
-Die meisten Charts nutzen eine ähnliche Grundsprache:
+Symbole werden nach der jeweiligen Legende gelesen. In der [Legende des Craft Yarn Council](https://www.craftyarncouncil.com/standards/knit-chart-symbols) wechselt beispielsweise die Rechts-/Links-Anweisung mit der Arbeitsseite. Ein ausgefülltes Feld kann in einem anderen Chart eine Farbe bezeichnen und bedeutet nicht automatisch "keine Masche".
 
-- Leeres Feld oder V: rechte Masche auf der rechten Seite, linke Masche auf der linken Seite, also glatt rechts
-- Punkt oder Strich: linke Masche auf der rechten Seite, rechte Masche auf der linken Seite, also glatt links
-- O: Umschlag
-- /: 2 M rechts zusammenstricken, rechts geneigte Abnahme
-- `\`: ssk, links geneigte Abnahme
-- Dreieck oder Spitze: zentrierte doppelte Abnahme, zum Beispiel 1 M abheben, 2 M rechts zusammenstricken, abgehobene Masche überziehen
-- Ausgefülltes Feld: keine Masche, dieses Feld überspringen
+- Rechts-/Links-Symbole: Bedeutung auf beiden Arbeitsseiten prüfen.
+- Ein Umschlag erzeugt eine Masche, ohne eine vorhandene Masche zu verbrauchen.
+- `k2tog`, 2 M rechts zusammenstricken: zwei Maschen werden zu einer; das entsprechende CYC-Symbol bedeutet auf der linken Seite `p2tog`, 2 M links zusammenstricken.
+- `ssk`: zwei Maschen werden zu einer; das entsprechende CYC-Symbol bedeutet auf der linken Seite `ssp`.
+- Eine zentrierte doppelte Abnahme braucht eine eigene Definition. Bei [Purl Sohos s2kp](https://www.purlsoho.com/create/slip-slip-knit-pass-s2kp/) zwei Maschen gemeinsam wie zum Rechtszusammenstricken abheben, eine rechts stricken und beide abgehobenen Maschen darüberziehen: Aus drei wird eine. Eine Masche abheben, zwei zusammenstricken und die abgehobene darüberziehen ist eine andere Abnahme.
+- Zopfsymbole können mehrere Maschen breit sein.
+- Ein ausdrücklich als "keine Masche" bezeichnetes Feld verbraucht und erzeugt keine Maschen. Gehe zum nächsten Chart-Feld, ohne eine Masche auf der Nadel abzuheben oder zu stricken.
 
-Das Feld "keine Masche" verwirrt am meisten. Es steht nicht für eine Masche, die du strickst. Es ist ein Platzhalter, wenn das Chart-Raster gleich breit bleibt, obwohl sich die Maschenzahl von Reihe zu Reihe verändert, etwa bei Lochmustern. Wenn du zu so einem Feld kommst, machst du nichts und gehst zum nächsten Feld weiter. Das Symbol existiert, damit das Chart optisch ausgerichtet bleibt.
-
-Jedes Chart sollte eine Legende haben. Die Legende ist wichtiger als das Auswendiglernen irgendeines Symbols, weil verschiedene Designer dieselbe Form unterschiedlich verwenden können.
-
-### Japanische Symbolcharts
-
-Japanische und japanisch geprägte Strickbücher arbeiten oft stärker mit Symbolcharts als mit ausgeschriebenen Reihen. Das Chart und seine Legende sind dann die Hauptsprache der Anleitung, nicht nur eine zusätzliche Darstellung.
-
-Wenn du eine übersetzte japanische Anleitung nutzt, rechne damit, stark mit dem Chart zu arbeiten und die Symbollegende daneben offen zu haben. Das System ist visueller und oft weniger wortreich als viele westliche Anleitungen.
+Das sind Beispiele benannter Systeme, kein Ersatz für die Legende deiner Anleitung. Ein Rapportkasten begrenzt nur die Wiederholung; Maschen außerhalb des Kastens arbeitest du wie angegeben.
 
 ## Maschenzahlen und Kontrolle
 
-Gute Anleitungen enthalten Kontrollpunkte für Maschenzahlen: „60 (68, 76, 84, 92) M“. Sie stehen nach Formgebungsabschnitten, in denen sich die Maschenzahl verändert hat.
+Ein Kontrollpunkt kann „60 (68, 76, 84, 92) M“ angeben. In der obigen Reihenfolge XS (S, M, L, XL) bedeutet das XS 60, S 68, M 76, L 84 und XL 92. Jede Zahl liegt 12 Maschen unter dem zugehörigen Anschlag. Dies ist ein eigenes Kontrollpunktbeispiel, nicht das Ergebnis der drei Abnahmereihen oben.
 
-Zähl deine Maschen an jedem Kontrollpunkt. Wenn die Zahl nicht stimmt, ist im vorherigen Abschnitt etwas schiefgelaufen. Besser hier merken als drei Zentimeter später, wenn die Zahlen immer noch nicht passen und mehr zurückgestrickt werden muss.
+Zähle an den Kontrollpunkten. Bei einer Abweichung prüfst du gewählte Größe, Wiederholungen, Formgebung und Errata, bevor du entscheidest, wo der Fehler liegt. Eine früh entdeckte Abweichung begrenzt, wie viel du eventuell auftrennen musst.
 
 Wenn die Anleitung keine Maschenzahlen nennt, berechne eigene. 80 Maschen angeschlagen, 8 abgenommen, also sollten 72 übrig sein. Schreib die Zahlen an den Rand.
 
 ## Errata
 
-Veröffentlichte Anleitungen enthalten Fehler. Das gehört zum Strickleben, ohne dass es gleich etwas über die Designerin oder den Designer aussagt.
+Prüfe vor Beginn auf der Seite des Designers oder Verlags die Korrekturen (Errata) und deine Anleitungsversion. Projektnotizen anderer Strickender können helfen, eine Frage einzugrenzen, sind aber von offiziellen Korrekturen zu unterscheiden.
 
-Prüfe vor einer komplexen Anleitung auf Errata. Suche nach Anleitungsname plus „errata“ oder „corrections“. Auf Ravelry gibt es auf der Musterseite oft Notizen, in denen andere Probleme und Korrekturen nennen.
-
-Wenn eine Anweisung nach mehrmaligem Lesen keinen Sinn ergibt, kann sie wirklich falsch sein. Prüfe Errata, bevor du annimmst, dass du sie nur falsch liest.
+Bleibt eine Anweisung nach Legende, Hinweisen und Errata unklar, frage beim Designer oder Verlag nach. Gehe nicht automatisch davon aus, dass der Fehler in deinem Strickstück oder in der Anleitung liegt.
 
 ## PDF oder Papier
 
-Die meisten modernen Anleitungen kommen als PDF. Wie du mit der Datei arbeitest, beeinflusst, wie gut du der Anleitung folgen kannst.
+Wähle für eine PDF-Anleitung eine Darstellung, in der du die Anweisungen bequem lesen und deinen Fortschritt markieren kannst.
 
 Drucken ist die einfachste Option. Eine Papierkopie lässt sich markieren, falten und neben das Projekt legen, ohne dass der Akku leer wird. Der Nachteil sind Papierverbrauch und mehrere Seiten, besonders bei Pulloveranleitungen.
 
@@ -164,19 +155,19 @@ Eine kleine Zusammenfassung hilft in beiden Fällen. Fotografiere die wichtigste
 Mindestens überfliegen. Du musst noch nicht jede Anweisung verstehen, aber ein Durchlesen zeigt dir Techniken, die du lernen musst, Zubehör, das fehlt, und strukturelle Entscheidungen, die du vorher kennen solltest.
 
 **Was bedeutet „work even“?**
-Im bestehenden Muster weiterarbeiten, ohne Zu- oder Abnahmen. Die Maschenzahl bleibt gleich. Du fügst Länge hinzu.
+Im bestehenden Muster ohne Formgebung weiterarbeiten; die Maschenzahl bleibt konstant. Gemeint sind nicht nur Reihen mit geraden Nummern. Bei Lochmustern bleiben die Zu- und Abnahmen erhalten, die sich innerhalb des Musters ausgleichen.
 
 **Was bedeutet „as established“ oder „as set“?**
-Mach mit dem Muster weiter, das du bereits eingerichtet hast. Wenn du 2 re, 2 li gestrickt hast, heißt „continue as established“: dieses Rippenmuster fortsetzen.
+Setze das Muster mit seiner Reihenfolge fort und halte die Motive ausgerichtet. Bei 2 × 2-Rippen strickst du die Maschen, wie sie erscheinen. Befolge gleichzeitig angegebene Formgebung und erhalte das verbleibende Muster; beginne den Rapport an einer veränderten Kante nicht blind neu.
 
 **Was bedeutet „ending with a WS row“?**
-Die letzte fertig gestrickte Reihe vor dem nächsten Abschnitt soll eine Reihe auf der linken Seite sein. Dadurch zeigt die rechte Seite zu dir, wenn du den nächsten Abschnitt beginnst.
+Stricke eine Reihe auf der linken Seite fertig und wende dann, sodass die rechte Seite für die nächste Reihe zu dir zeigt. WS bezeichnet die Arbeitsseite, nicht die Anweisung, alle Maschen links zu stricken.
 
 **Gibt es ein Standardformat für alle Anleitungen?**
-Kein universelles. Veröffentlichte Anleitungen folgen aber ähnlichen Konventionen. Unabhängige Designer auf Ravelry oder Etsy können anders formatieren. Die Kernelemente, Material, Maschenprobe und Anweisungen, sind immer da.
+Nicht alle Verlage nutzen dasselbe Format. Suche Material, Maschenprobe, Größen, Anweisungen, Legende und Hinweise selbst heraus; setze nicht voraus, dass jede Anleitung alle Angaben enthält.
 
 **Was, wenn die Abkürzungsliste fehlt oder unvollständig ist?**
-Die häufigsten englischen Abkürzungen sind ziemlich stabil: k, p, k2tog, ssk, yo und sl. Wenn eine Anleitung eine unbekannte Abkürzung ohne Erklärung nutzt, suche die Abkürzung zusammen mit "knitting". Die Craft-Yarn-Council-Liste deckt die meisten Standardfälle ab.
+Sieh zuerst im Glossar des Verlags nach. Eine allgemeine Liste wie die des Craft Yarn Council hilft bei verbreiteten englischen Begriffen, klärt aber keine undefinierte Spezialmasche. Frage beim Designer nach, wenn etwa Abheberichtung oder Fadenposition unklar bleiben.
 
 **Kann ich kostenlosen Anleitungen genauso vertrauen wie bezahlten?**
-Kostenlose Anleitungen schwanken stärker in der Qualität. Kostenlose Muster etablierter Designerinnen, Designer und Verlage können sehr sorgfältig editiert sein. Zufällige Gratisanleitungen unbekannter Herkunft können Fehler enthalten, die eine technisch editierte Anleitung abgefangen hätte. Lies Projektnotizen auf Ravelry, bevor du eine Anleitung mit vielen Formgebungen oder Rapporten beginnst.
+Der Preis allein belegt keine Fehlerfreiheit. Prüfe bei kostenlosen und kostenpflichtigen Anleitungen verständliche Arbeitsschritte, Größen- und Maschenprobenangaben, Unterstützung und veröffentlichte Korrekturen. Projektnotizen sind ergänzende Hinweise, keine offiziellen Korrekturen.

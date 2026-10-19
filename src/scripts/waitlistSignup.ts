@@ -105,7 +105,11 @@ function initWaitlistSignup(form: HTMLFormElement) {
       if (response.ok && data.success) {
         showSuccess();
       } else {
-        showError(data.error || genericError);
+        showError(
+          form.dataset.localizedErrors === "true"
+            ? genericError
+            : data.error || genericError,
+        );
       }
     } catch {
       showError(networkError);

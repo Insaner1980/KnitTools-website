@@ -3,8 +3,8 @@ import LocalizedToolPage from "../../../components/LocalizedToolPage.astro";
 import { routes } from "../../../i18n/routes";
 
 interface Cell {
-  cm: string;
-  inch: string;
+  cm: string | null;
+  inch: string | null;
 }
 
 interface Row {
@@ -26,8 +26,9 @@ interface Panel {
   tables: Table[];
 }
 
-const c = (cm: string, inch: string): Cell => ({ cm, inch });
-const formatCm = (value: string) => value.replaceAll(".", ",");
+const c = (cm: string | null, inch: string | null): Cell => ({ cm, inch });
+const unavailableValue = "Saknar verifierat källvärde";
+const formatNumberText = (value: string) => value.replaceAll(".", ",");
 
 const panels: Panel[] = [
   {
@@ -68,7 +69,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ärmlängd till underarm",
+            label: "Armlängd: armhåla till handled",
             cells: [
               c("15.5 cm", '6"'),
               c("16.5 cm", '6.5"'),
@@ -175,7 +176,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ärmlängd till underarm",
+            label: "Armlängd: armhåla till handled",
             cells: [
               c("21.5 cm", '8.5"'),
               c("26.5 cm", '10.5"'),
@@ -270,7 +271,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ärmlängd till underarm",
+            label: "Armlängd: armhåla till handled",
             cells: [
               c("38 cm", '15"'),
               c("40.5 cm", '16"'),
@@ -356,7 +357,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ärmlängd till underarm",
+            label: "Armlängd: armhåla till handled",
             cells: [
               c("42 cm", '16.5"'),
               c("43 cm", '17"'),
@@ -408,7 +409,7 @@ const panels: Panel[] = [
           {
             label: "Nacke till handled mitt bak",
             cells: [
-              c("66-68.5 cm", '26-26.5"'),
+              c(null, null),
               c("68.5-70 cm", '27-27.5"'),
               c("71-72.5 cm", '28-28.5"'),
               c("73.5-75 cm", '29-29.5"'),
@@ -449,7 +450,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ärmlängd till underarm",
+            label: "Armlängd: armhåla till handled",
             cells: [
               c("45.5 cm", '18"'),
               c("45.5 cm", '18"'),
@@ -463,7 +464,7 @@ const panels: Panel[] = [
               c("39.5 cm", '15.5"'),
               c("43 cm", '17"'),
               c("47 cm", '18.5"'),
-              c("49.5 cm", '18.5"'),
+              c("49.5 cm", '19,5"'),
             ],
           },
           {
@@ -524,7 +525,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Rygglängd till midja",
+            label: "Rygglängd till höft",
             cells: [
               c("58.5-61 cm", '23-24"'),
               c("63.5-66 cm", '25-26"'),
@@ -542,7 +543,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Ärmlängd till underarm",
+            label: "Armlängd: armhåla till handled",
             cells: [
               c("45.5 cm", '18"'),
               c("47 cm", '18.5"'),
@@ -611,7 +612,7 @@ const panels: Panel[] = [
             ],
           },
           {
-            label: "Rygglängd till midja",
+            label: "Rygglängd till höft",
             cells: [
               c("73.5 cm", '29"'),
               c("76 cm", '30"'),
@@ -623,18 +624,18 @@ const panels: Panel[] = [
             label: "Ryggbredd",
             cells: [
               c("48-51 cm", '19-20"'),
-              c("48-51 cm", '20-21"'),
-              c("51-54.5 cm", '21-21.5"'),
+              c(null, null),
+              c(null, null),
               c("56-57 cm", '22-22.5"'),
             ],
           },
           {
-            label: "Ärmlängd till underarm",
+            label: "Armlängd: armhåla till handled",
             cells: [
               c("52 cm", '20.5"'),
               c("52 cm", '20.5"'),
-              c("49.5 cm", '21"'),
-              c("53.5-54.5 cm", '21.5"'),
+              c(null, null),
+              c(null, null),
             ],
           },
           {
@@ -643,7 +644,7 @@ const panels: Panel[] = [
               c("42 cm", '16.5"'),
               c("44.5 cm", '17.5"'),
               c("47 cm", '18.5"'),
-              c("48 cm", '20"'),
+              c(null, null),
             ],
           },
           {
@@ -700,37 +701,58 @@ const panels: Panel[] = [
           { label: "Baby", cells: [c("35.5-40.5 cm", '14-16"')] },
           { label: "Småbarn", cells: [c("40.5-46 cm", '16-18"')] },
           { label: "Barn", cells: [c("45.5-51 cm", '18-20"')] },
-          { label: "Tween", cells: [c("51-56 cm", '20-22"')] },
+          { label: "Förtonåring", cells: [c("51-56 cm", '20-22"')] },
           { label: "Kvinna", cells: [c("53-58.5 cm", '21-23"')] },
           { label: "Man", cells: [c("56-61 cm", '22-24"')] },
         ],
       },
       {
-        caption: "Fotstorlek",
-        sizeHeader: "Storlek",
+        caption: "Fotlängd",
+        sizeHeader: "US-skostorlek / ungefärlig ålder",
         sizes: ["Längd"],
         rows: [
-          { label: "Baby (0-6 mån)", cells: [c("9 cm", '3.5"')] },
-          { label: "Baby (6-12 mån)", cells: [c("10-11 cm", '4-4.5"')] },
-          { label: "Småbarn (1-2)", cells: [c("12-13 cm", '4.75-5"')] },
-          { label: "Barn (3-6)", cells: [c("14-18 cm", '5.5-7"')] },
-          { label: "Barn (7-10)", cells: [c("19-21 cm", '7.5-8.25"')] },
-          { label: "Ungdom", cells: [c("22-24 cm", '8.5-9.5"')] },
-          { label: "Dam", cells: [c("23-26 cm", '9-10.25"')] },
-          { label: "Herr", cells: [c("25-29 cm", '10-11.5"')] },
+          {
+            label: "Baby, US 0–4 (6–18 mån)",
+            cells: [c("7,75–11,5 cm", '3–4,5"')],
+          },
+          {
+            label: "Småbarn, US 5–9 (2–3 år)",
+            cells: [c("12–15,25 cm", '4,75–6"')],
+          },
+          {
+            label: "Barn, US 10–13 (4–5 år)",
+            cells: [c("16,5–19 cm", '6,5–7,5"')],
+          },
+          {
+            label: "Ungdom, US 1–3 (6–9 år)",
+            cells: [c("19,75–21,5 cm", '7,75–8,5"')],
+          },
+          {
+            label: "Ungdom, US 4–6 (10–13 år)",
+            cells: [c("22,25–24 cm", '8,75–9,5"')],
+          },
+          { label: "Dam, US 4–6,5", cells: [c("20,25–23 cm", '8–9"')] },
+          { label: "Dam, US 7–9,5", cells: [c("23,5–25,5 cm", '9,25–10"')] },
+          { label: "Dam, US 10–12,5", cells: [c("26–28 cm", '10,25–11"')] },
+          { label: "Herr, US 6–8,5", cells: [c("23,5–25,5 cm", '9,25–10"')] },
+          { label: "Herr, US 9–11,5", cells: [c("26–28 cm", '10,25–11"')] },
+          { label: "Herr, US 12–14", cells: [c("28,5–30,5 cm", '11,25–12"')] },
         ],
       },
       {
-        caption: "Handstorlek",
-        sizeHeader: "Storlek",
+        caption: "Handomkrets",
+        sizeHeader: "CYC-grupp / storlek",
         sizes: ["Omkrets"],
         rows: [
-          { label: "Baby", cells: [c("10-13 cm", '4-5"')] },
-          { label: "Småbarn", cells: [c("13-15 cm", '5-6"')] },
-          { label: "Barn", cells: [c("15-18 cm", '6-7"')] },
-          { label: "Ungdom", cells: [c("18-20 cm", '7-8"')] },
-          { label: "Dam", cells: [c("18-20 cm", '7-8"')] },
-          { label: "Herr", cells: [c("20-23 cm", '8-9"')] },
+          { label: "Barn 2–4 år", cells: [c("13 cm", '5"')] },
+          { label: "Barn 4–6 år", cells: [c("15 cm", '6"')] },
+          { label: "Barn 6–8 år", cells: [c("16,5 cm", '6,5"')] },
+          { label: "Dam S", cells: [c("18 cm", '7"')] },
+          { label: "Dam M", cells: [c("19 cm", '7,5"')] },
+          { label: "Dam L", cells: [c("20,5 cm", '8"')] },
+          { label: "Herr S", cells: [c("20,5 cm", '8"')] },
+          { label: "Herr M", cells: [c("21,5 cm", '8,5"')] },
+          { label: "Herr L", cells: [c("23,5 cm", '9"')] },
         ],
       },
     ],
@@ -742,11 +764,11 @@ const defaultPanel = "dam";
 const faqs = [
   {
     q: "Är de här måtten samma i alla stickmönster?",
-    a: "Många förlag och designers använder kroppsmått i Craft Yarn Council-stil, men det finns ingen universell kontroll. Vissa designers använder egna storlekar, särskilt i storleksinkluderande design med mer finfördelade alternativ. Kontrollera alltid mönstrets egen storlekstabell om det finns en.",
+    a: "CYC publicerar referenstabeller, men alla stickmönster använder inte samma storlekssystem. Designers kan ha egna mått och storleksbeteckningar. Kontrollera alltid mönstrets egen storlekstabell och måttskiss.",
   },
   {
     q: "Hur väljer jag storlek om mönstret använder nummer i stället för XS/S/M/L?",
-    a: "Jämför bröstvidden som anges för varje numrerad storlek med tabellerna ovan. Det är bröstvidden som spelar roll. Strunta i etiketten.",
+    a: "Utgå från mönstrets mått, inte bara siffran eller bokstaven. Kontrollera om de avser kroppen eller det färdiga plagget; ta hänsyn till avsedd rörelsevidd vid färdiga mått. För en tröja jämför du bröstomkretsen och andra mått som påverkar passformen.",
   },
   {
     q: "Ska jag mäta över kläder eller direkt på huden?",
@@ -776,6 +798,20 @@ const faqs = [
     <p class="panel-intro">
       Det här är kroppsmått, inte färdiga plaggmått. Lägg till rörelsevidd för
       den passform du vill ha.
+    </p>
+    <p class="panel-intro">
+      Det här är CYC:s referensmått på kroppen, inte färdiga plaggmått eller
+      universella storlekar. Barn- och ungdomsnumren är amerikanska
+      referensstorlekar, inte åldrar eller europeiska längdstorlekar. Babyåldrar
+      är ungefärliga. XS–5XL följer CYC; 2XL–5XL motsvarar dess 2X–5X. Mät
+      personen och kontrollera mönstrets egen storlekstabell.
+    </p>
+    <p class="panel-intro" id="size-source-note">
+      CM och tum visar CYC:s publicerade, avrundade par, inte exakta
+      omräkningar. Sex mått saknar verifierade källvärden eftersom de
+      publicerade värdena motsäger varandra. Båda värdena har utelämnats. Mät
+      kroppen enligt anvisningarna nedan och kontrollera mönstrets storleksguide
+      och avsedda rörelsevidd.
     </p>
     <div class="chart-controls">
       <div class="tab-scroller">
@@ -826,6 +862,7 @@ const faqs = [
             class={`panel${panel.id === defaultPanel ? " is-active" : ""}`}
             data-panel={panel.id}
             role="tabpanel"
+            tabindex="0"
             id={`panel-${panel.id}`}
             aria-labelledby={`tab-${panel.id}`}
             hidden={panel.id !== defaultPanel}
@@ -840,9 +877,11 @@ const faqs = [
                   <table class="size-table">
                     <thead>
                       <tr>
-                        <th class="sticky-col">{table.sizeHeader ?? "Mått"}</th>
+                        <th scope="col" class="sticky-col">
+                          {table.sizeHeader ?? "Mått"}
+                        </th>
                         {table.sizes.map((size) => (
-                          <th>{size}</th>
+                          <th scope="col">{size}</th>
                         ))}
                       </tr>
                     </thead>
@@ -853,9 +892,22 @@ const faqs = [
                             {row.label}
                           </th>
                           {row.cells.map((cell) => (
-                            <td>
-                              <span class="unit-cm">{formatCm(cell.cm)}</span>
-                              <span class="unit-inch">{cell.inch}</span>
+                            <td
+                              data-unavailable={cell.cm === null || undefined}
+                              aria-describedby={
+                                cell.cm === null
+                                  ? "size-source-note"
+                                  : undefined
+                              }
+                            >
+                              <span class="unit-cm">
+                                {formatNumberText(cell.cm ?? unavailableValue)}
+                              </span>
+                              <span class="unit-inch">
+                                {formatNumberText(
+                                  cell.inch ?? unavailableValue,
+                                )}
+                              </span>
                             </td>
                           ))}
                         </tr>
@@ -888,8 +940,8 @@ const faqs = [
       visar var midjan sitter.
     </p>
     <p>
-      <strong>Höft:</strong> Mät runt höftens fylligaste del, oftast 18-23 cm under
-      midjan. Håll måttbandet vågrätt.
+      <strong>Höft:</strong> Mät runt höftens bredaste del och håll måttbandet vågrätt.
+      Utgå från kroppen, inte ett bestämt avstånd under midjan.
     </p>
     <p>
       <strong>Ryggbredd (axel till axel):</strong> Mät rakt över ryggen från spetsen
@@ -901,56 +953,67 @@ const faqs = [
       vara.
     </p>
     <p>
-      <strong>Ärmlängd till underarm:</strong> Mät från armhålan till handledsknölen.
-      Det är din guide för ärmlängd.
+      <strong>Rygglängd till höft (herr):</strong> Herrtabellen följer CYC:s PDF och
+      mäts från nacken till höften, inte till midjan. Kontrollera mätpunkten mot mönstrets
+      måttskiss.
+    </p>
+    <p>
+      <strong>Armlängd: armhåla till handled:</strong> Mät från armhålan till handleden
+      med armen lätt böjd. Kroppsmåttet är en utgångspunkt för ärmlängden, inte ett
+      färdigt ärmmått.
     </p>
     <p>
       <strong>Överarmsvidd:</strong> Mät omkretsen vid överarmens fylligaste del,
       med armen avslappnad vid sidan.
     </p>
     <p>
-      <strong>Ärmhålsdjup:</strong> Mät från axelns ovansida rakt ner till underarmen.
-      Det avgör hur djup ärmhålsformningen behöver vara.
+      <strong>Ärmhålsdjup:</strong> Mät lodrätt från axelns yttre överkant ner till
+      armhålan.
     </p>
     <p>
-      <strong>Nacke till handled mitt bak:</strong> Mät från mitten bak i nacken,
-      över axeln och ner längs armen till handledsknölen. Det här samlade måttet används
-      för raglan- och okkonstruktioner där kropp och ärm stickas ihop.
+      <strong>Nacke till handled mitt bak:</strong> Håll armen rak och mät från nackens
+      bas mitt bak, över axeln och längs armen till handleden.
+    </p>
+    <p>
+      <strong>Accessoarmått:</strong> Mät huvudomkretsen över pannan och runt hela
+      huvudet, fotlängden på golvet från hälens baksida till längsta tån och handomkretsen
+      runt den dominanta handens handflata strax nedanför knogarna, utan tummen. Det
+      är kroppsmått, inte färdiga mått på mössor, sockor eller vantar. Fotlängden
+      är inte en skostorleksomvandling och räcker inte ensam för sockstorleken. Åldrarna
+      är vägledande.
     </p>
 
     <h2>Kroppsmått kontra färdiga plaggmått</h2>
     <p>
-      Det här är den vanligaste källan till storleksförvirring i stickning.
-      Tabellerna visar kroppsmått, alltså personens faktiska mått. Ett färdigt
-      plagg kan vara mindre, lika stort eller större beroende på vilken
-      rörelsevidd mönstret använder.
+      Tabellerna visar kroppsmått. Det färdiga plagget kan vara mindre, lika
+      stort eller större beroende på mönstrets avsedda rörelsevidd.
     </p>
     <p>
-      <strong>Negativ rörelsevidd (-2,5 till -5 cm):</strong> Plagget är mindre än
-      kroppen. Används för mössor, sockor och mycket kroppsnära resårplagg som ska
-      sitta åt.
+      <strong>Negativ rörelsevidd:</strong> Plagget är mindre än kroppen. För en mycket
+      kroppsnära tröja anger CYC ungefär 5–10 cm mindre än bröstomkretsen. Mössor
+      och sockor behöver den rörelsevidd som deras egna mönster anger.
     </p>
     <p>
-      <strong>Noll rörelsevidd:</strong> Plagget matchar kroppsmåtten exakt. Det ger
-      en kroppsnära passform och är mindre vanligt än positiv rörelsevidd i tröjor.
+      <strong>Noll rörelsevidd:</strong> Det färdiga plaggmåttet är lika med motsvarande
+      kroppsmått.
     </p>
     <p>
-      <strong>Positiv rörelsevidd (5-10 cm):</strong> Plagget är lite större än kroppen.
-      Det är standardpassform för de flesta tröjor, koftor och toppar.
+      <strong>Positiv rörelsevidd:</strong> Plagget är större än kroppen. CYC föreslår
+      ungefär 5–10 cm extra runt bröstet för en klassisk tröjpassform, inte som en
+      regel för alla modeller.
     </p>
     <p>
-      <strong>Generös rörelsevidd (10-15 cm):</strong> Plagget är tydligt större än
-      kroppen. Slappa tröjor, cocoon-koftor och plagg med avslappnad passform.
+      <strong>Generös rörelsevidd:</strong> CYC föreslår ungefär 10–15 cm extra runt
+      bröstet för en löst sittande tröja.
     </p>
     <p>
-      <strong>Oversized rörelsevidd (15+ cm):</strong> Plagget är mycket löst och
-      betydligt större än kroppen.
+      <strong>Oversized rörelsevidd:</strong> CYC föreslår 15 cm eller mer extra runt
+      bröstet för en oversized tröja.
     </p>
     <p>
-      När ett mönster säger att en storlek passar bröstvidd 91,5 cm och anger
-      färdig bystvidd 101,5 cm är skillnaden på 10 cm rörelsevidden. Din uppgift
-      är att välja storleken där passformsmåttet matchar kroppen, inte bara det
-      färdiga måttet.
+      Om mönstret passar en bröstomkrets på 91,5 cm och det färdiga plagget
+      mäter 101,5 cm blir den positiva rörelsevidden 10 cm. Jämför både
+      mönstrets kroppsmått och måttskissens färdiga mått med önskad passform.
     </p>
     <p>
       När du vet målstorleken kan <a href={routes.tool.yarnEstimator.sv}
@@ -963,9 +1026,12 @@ const faqs = [
 
     <h2>Att välja mellan storlekar</h2>
     <p>
-      Om bröstvidden hamnar mellan två storlekar beror rätt val på plaggets
-      tänkta passform. För ett kroppsnära plagg, välj den mindre storleken. För
-      en ledig eller oversized passform, välj den större.
+      Mellan två storlekar: jämför de färdiga måtten med kroppen och mönstrets
+      avsedda rörelsevidd. Välj inte automatiskt en mindre storlek för
+      kroppsnära eller en större för oversized. Stickmönster, fiber och ett
+      tvättat, torkat stickprov påverkar elasticitet och fall. Mössor och sockor
+      behöver egen mönsteranpassad rörelsevidd; ett fast tillägg garanterar inte
+      passformen.
     </p>
     <p>
       Jämför också andra mått, särskilt höft för längre plagg och överarm för
@@ -980,6 +1046,35 @@ const faqs = [
         href="/sv/artiklar/sa-mater-du-stickfasthet/"
         >så mäter du stickfasthet</a
       > går igenom stickprovet i detalj.
+    </p>
+
+    <h2>Källor och mätmetoder</h2>
+    <p>
+      <a href="https://www.craftyarncouncil.com/standards/body-sizing"
+        >Craft Yarn Council: Källor och mätmetoder</a
+      >. <a href="https://www.craftyarncouncil.com/standards/baby-size-chart"
+        >Baby</a
+      >, <a href="https://www.craftyarncouncil.com/standards/child-youth-sizes"
+        >Barn och ungdom</a
+      >, <a href="https://www.craftyarncouncil.com/standards/woman-size">Dam</a
+      >, <a href="https://www.craftyarncouncil.com/standards/man-size">Herr</a>, <a
+        href="https://www.craftyarncouncil.com/standards/head-circumference-chart"
+        >Huvud</a
+      >, <a href="https://www.craftyarncouncil.com/standards/foot-size-charts"
+        >Fot</a
+      >, <a href="https://www.craftyarncouncil.com/standards/hand-size-charts"
+        >Hand</a
+      >. <a
+        href="https://media.craftyarncouncil.com/sites/default/files/images/standards/CYC_YarnStandards-2018-11-06.pdf"
+        >CYC PDF</a
+      >.
+    </p>
+    <p>
+      Källa: Craft Yarn Council. Länkad PDF (sidorna 17–18) klargör två fel i
+      webbtabellerna: överarmsvidden för dam 5XL är 19,5 tum och herrarnas
+      rygglängd mäts till höften, inte midjan. De sex övriga motsägelserna i
+      källan är fortfarande olösta. Webbplatsen utelämnar båda enhetsvärdena för
+      dessa mått och ersätter dem inte med korrigerade eller beräknade värden.
     </p>
   </div>
 </LocalizedToolPage>

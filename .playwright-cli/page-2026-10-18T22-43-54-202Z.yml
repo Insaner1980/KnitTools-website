@@ -1,0 +1,179 @@
+- generic [ref=f3e1]:
+  - link "Skip to content" [ref=f3e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f3e3]:
+    - banner [ref=f3e4]:
+      - link "KnitTools home" [ref=f3e5] [cursor=pointer]:
+        - /url: /
+        - text: KnitTools
+      - button "Open navigation menu" [ref=f3e6] [cursor=pointer]
+    - main [ref=f3e10]:
+      - generic [ref=f3e12]:
+        - paragraph [ref=f3e13]:
+          - link "← All tools" [ref=f3e14] [cursor=pointer]:
+            - /url: /tools/
+        - heading "Yarn Estimator" [level=1] [ref=f3e15]
+        - paragraph [ref=f3e16]: Choose a project, a named pattern size and a unit. The result is that pattern’s reference quantity, not a prediction for your own project.
+        - generic [ref=f3e18]:
+          - paragraph [ref=f3e19]: Reference quantities from named patterns; not a personalized consumption estimate.
+          - group "Yarn Estimator" [ref=f3e20]:
+            - generic [ref=f3e22]:
+              - generic [ref=f3e23]: Project type
+              - combobox "Project type" [ref=f3e24] [cursor=pointer]:
+                - option "Sweater / Pullover" [selected]
+                - option "Cardigan"
+                - option "Vest"
+                - option "Poncho"
+                - option "Child Sweater"
+                - option "Child Cardigan"
+                - option "Baby Sweater"
+                - option "Baby Cardigan"
+                - option "Baby Booties"
+                - option "Adult Hat / Beanie"
+                - option "Child Hat"
+                - option "Baby Hat"
+                - option "Headband / Ear Warmer"
+                - option "Adult Mittens"
+                - option "Child Mittens"
+                - option "Adult Gloves"
+                - option "Fingerless Mitts"
+                - option "Adult Socks"
+                - option "Child Socks"
+                - option "Slippers"
+                - option "Scarf"
+                - option "Cowl / Snood"
+                - option "Shawl"
+                - option "Wrap / Stole"
+                - option "Baby Blanket"
+                - option "Throw Blanket"
+                - option "Lap Blanket"
+                - option "Afghan / Bed Blanket"
+                - option "Dishcloth / Washcloth"
+                - option "Pillow Cover"
+            - generic [ref=f3e25]:
+              - generic [ref=f3e26]: Reference pattern and size
+              - combobox "Reference pattern and size" [ref=f3e27] [cursor=pointer]:
+                - option "PetiteKnit — Novice Sweater / XS / 91 × 54 cm" [selected]
+                - option "PetiteKnit — Novice Sweater / S / 98 × 55 cm"
+                - option "PetiteKnit — Novice Sweater / M / 103 × 57 cm"
+                - option "PetiteKnit — Novice Sweater / L / 109 × 60 cm"
+                - option "PetiteKnit — Novice Sweater / XL / 116 × 62 cm"
+                - option "PetiteKnit — Novice Sweater / 2XL / 128 × 64 cm"
+                - option "PetiteKnit — Novice Sweater / 3XL / 138 × 65 cm"
+                - option "PetiteKnit — Novice Sweater / 4XL / 149 × 66 cm"
+                - option "PetiteKnit — Novice Sweater / 5XL / 161 × 68 cm"
+              - paragraph [aria-hidden] [ref=f3e28]: PetiteKnit — Novice Sweater / XS / 91 × 54 cm
+            - generic [ref=f3e29]:
+              - generic [ref=f3e30]: Length unit
+              - combobox "Length unit" [ref=f3e31] [cursor=pointer]:
+                - option "meters" [selected]
+                - option "yards"
+            - button "Show reference" [active] [ref=f3e32] [cursor=pointer]
+            - generic [ref=f3e111]:
+              - paragraph [ref=f3e112]: PetiteKnit — Novice Sweater / XS / 91 × 54 cm
+              - generic [ref=f3e113]: "750"
+              - generic [ref=f3e114]: meters
+              - paragraph [ref=f3e115]: Recommended yarn supply (nominal length)
+              - paragraph [ref=f3e116]: "Finished dimensions: Bust circumference × back length without neckband 91 × 54 cm"
+              - paragraph [ref=f3e117]: "Gauge: 16 stitches × 21 rows / 10 × 10 cm"
+              - paragraph [ref=f3e118]: "Construction: Seamless, top down, stockinette with ribbed edges; 6 mm gauge needles."
+              - paragraph [ref=f3e119]: "Specified yarn: Sandnes Garn Kos — 150 m / 50 g"
+              - paragraph [ref=f3e120]: "Source quantity: 250 g"
+              - paragraph [ref=f3e121]: Reference quantities from named patterns; not a personalized consumption estimate.
+              - link "Original pattern and materials" [ref=f3e122] [cursor=pointer]:
+                - /url: https://www.petiteknit.com/en/products/novice-sweater
+      - generic [ref=f3e34]:
+        - heading "What does the quantity mean?" [level=2] [ref=f3e35]
+        - paragraph [ref=f3e36]: "Novice Sweater uses the recommended supply of Kos: grams × 150 m ÷ 50 g. The other patterns give approximate required lengths, separate from whole-ball purchases. Neither is verified actual consumption. Conversion uses 1 yard = 0.9144 m; display rounds to whole units only at the end."
+        - paragraph [ref=f3e37]: "Coverage: 15 sizes from four patterns for sweaters, cowls, scarves, shawls and baby or throw blankets. Other selections have no supported estimate. No scaling by yarn weight, dimensions or gauge; no automatic reserve or yarn substitution calculation."
+      - generic [ref=f3e39]:
+        - heading "Frequently asked questions" [level=2] [ref=f3e40]
+        - generic [ref=f3e41]:
+          - group [ref=f3e42]:
+            - generic "What does the quantity mean?" [ref=f3e43] [cursor=pointer]:
+              - text: What does the quantity mean?
+              - generic [aria-hidden] [ref=f3e44]: +
+          - group [ref=f3e45]:
+            - generic "Can I use this for another yarn or size?" [ref=f3e46] [cursor=pointer]:
+              - text: Can I use this for another yarn or size?
+              - generic [aria-hidden] [ref=f3e47]: +
+      - generic [ref=f3e50]:
+        - generic [aria-hidden] [ref=f3e51]: Leave this field empty
+        - textbox [aria-hidden] [ref=f3e52]
+        - generic [ref=f3e53]: Email address
+        - generic [ref=f3e54]:
+          - heading [level=2] [ref=f3e55]:
+            - text: Where every stitch
+            - emphasis [ref=f3e56]: counts.
+          - generic [ref=f3e57]:
+            - textbox "Email address" [ref=f3e58]:
+              - /placeholder: your@email.com
+            - button "Notify me at launch" [ref=f3e59] [cursor=pointer]
+          - paragraph [ref=f3e60]:
+            - text: Coming Fall 2026 to Google Play. Launch price
+            - strong [ref=f3e61]: $9.99
+            - text: . Regular price
+            - strong [ref=f3e62]: $14.99
+            - text: later.
+    - contentinfo [ref=f3e63]:
+      - generic [ref=f3e64]:
+        - generic [ref=f3e65]:
+          - generic [ref=f3e66]:
+            - generic [ref=f3e67]:
+              - heading "Tools" [level=2] [ref=f3e68]
+              - list [ref=f3e69]:
+                - listitem [ref=f3e70]:
+                  - link "Cast On Calculator" [ref=f3e71] [cursor=pointer]:
+                    - /url: /tools/cast-on-calculator/
+                - listitem [ref=f3e72]:
+                  - link "Yarn Estimator" [ref=f3e73] [cursor=pointer]:
+                    - /url: /tools/yarn-estimator/
+                - listitem [ref=f3e74]:
+                  - link "Needle Size Chart" [ref=f3e75] [cursor=pointer]:
+                    - /url: /tools/needle-size-chart/
+                - listitem [ref=f3e76]:
+                  - link "Yarn Weight Chart" [ref=f3e77] [cursor=pointer]:
+                    - /url: /tools/yarn-weight-chart/
+                - listitem [ref=f3e78]:
+                  - link "Knitting Abbreviations" [ref=f3e79] [cursor=pointer]:
+                    - /url: /tools/knitting-abbreviations/
+                - listitem [ref=f3e80]:
+                  - link "Knitting Size Charts" [ref=f3e81] [cursor=pointer]:
+                    - /url: /tools/knitting-size-charts/
+            - generic [ref=f3e82]:
+              - heading "Articles" [level=2] [ref=f3e83]
+              - list [ref=f3e84]:
+                - listitem [ref=f3e85]:
+                  - link "Gauge & Calculations" [ref=f3e86] [cursor=pointer]:
+                    - /url: /articles/category/gauge-calculations/
+                - listitem [ref=f3e87]:
+                  - link "Yarn" [ref=f3e88] [cursor=pointer]:
+                    - /url: /articles/category/yarn/
+                - listitem [ref=f3e89]:
+                  - link "Needles" [ref=f3e90] [cursor=pointer]:
+                    - /url: /articles/category/needles/
+                - listitem [ref=f3e91]:
+                  - link "Techniques" [ref=f3e92] [cursor=pointer]:
+                    - /url: /articles/category/techniques/
+                - listitem [ref=f3e93]:
+                  - link "App & Tools" [ref=f3e94] [cursor=pointer]:
+                    - /url: /articles/category/app-tools/
+            - generic [ref=f3e95]:
+              - heading "App" [level=2] [ref=f3e96]
+              - list [ref=f3e97]:
+                - listitem [ref=f3e98]: Launching soon
+                - listitem [ref=f3e99]:
+                  - link "About" [ref=f3e100] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=f3e101]:
+                  - link "Privacy Policy" [ref=f3e102] [cursor=pointer]:
+                    - /url: https://finnvek.com/privacy#knittools
+          - img "KnitTools" [ref=f3e103]
+        - paragraph [ref=f3e105]:
+          - text: © MMXXVI KnitTools.
+          - link "Finnvek" [ref=f3e106] [cursor=pointer]:
+            - /url: https://finnvek.com
+          - text: .
+          - link "Contact" [ref=f3e107] [cursor=pointer]:
+            - /url: mailto:contact@finnvek.com
+          - text: .

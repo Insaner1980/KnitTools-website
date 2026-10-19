@@ -253,6 +253,19 @@ const createCalculatorHarness = (lang = "en") => {
 };
 
 describe("cast-on calculator input boundaries", () => {
+  test("rejects non-decimal literals and embedded whitespace", () => {
+    for (const value of ["0x14", "0b10100", "0o24", "2 0", "20,5.0", "20cm"]) {
+      assert.deepEqual(calculateCastOn(value, "50", "cm"), {
+        ok: false,
+        invalidFields: ["gauge"],
+      });
+      assert.deepEqual(calculateCastOn("20", value, "cm"), {
+        ok: false,
+        invalidFields: ["width"],
+      });
+    }
+  });
+
   test("accepts each inclusive minimum and maximum", () => {
     for (const [gauge, width, stitches] of [
       ["1", "50", 6],

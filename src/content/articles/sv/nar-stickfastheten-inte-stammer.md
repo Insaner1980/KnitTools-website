@@ -1,6 +1,6 @@
 ---
 title: "När stickfastheten inte stämmer med mönstret"
-description: "Din provlapp stämmer inte med mönstret. Så felsöker du och rättar till det: stickstorlek, tygkänsla och när du kan strunta i det."
+description: "Stickfastheten stämmer inte med mönstret? Kontrollera måtten, prova andra stickor och bedöm tyget innan du ändrar maskantal eller varv."
 publishDate: 2026-05-01
 category: gauge-calculations
 categoryOrder: 3
@@ -19,117 +19,111 @@ lang: sv
 translationKey: "gauge-doesnt-match"
 ---
 
-Din provlapp visar 19 maskor över 10 cm. Mönstret vill ha 20. En maska på 10 cm låter inte som mycket förrän du multiplicerar det över en tröja på 100 cm och inser att det färdiga plagget blir ungefär 5 cm för brett. Det är skillnaden mellan ett plagg som sitter bra och ett som hänger från axlarna.
+Din provlapp visar 19 maskor på 10 cm. Mönstret anger 20 och använder 200 maskor för en omkrets på 100 cm. Med din stickfasthet ger samma maskor 200 ÷ 19 × 10 ≈ 105,3 cm. Det ändrar den planerade rörelsevidden, men omkretsen ensam avgör inte hela plaggets passform.
 
 En stickfasthet som inte stämmer går att fixa. Vad du gör beror på hur långt från målet du är, vilken typ av projekt du stickar och om den stickade ytan känns rätt på stickorna.
 
 ## Först: kontrollera hur du mätte provlappen
 
-Innan du ändrar något, uteslut mätfel. Lägg provlappen plant på en hård yta utan att sträcka den. Lägg linjalen över mitten, inte nära uppläggnings- eller avmaskningskanten där maskorna beter sig annorlunda.
+Jämför samma mätsträcka, strukturmönster, arbetssätt (plant eller runt) och behandling. Följ också mönstrets anvisning om avslappnat eller utsträckt skick. De vanliga mätsträckorna 10 cm och 4 tum är inte exakt lika: 4 tum är 10,16 cm. Använd mönstrets måttenhet i jämförelsen.
+
+När stickfastheten ska mätas i avslappnat skick, kontrollera mätningen så här innan du byter stickor. Lägg provlappen plant på en hård yta utan att sträcka den. Lägg linjalen över mitten, inte nära uppläggnings- eller avmaskningskanten där maskorna beter sig annorlunda.
 
 Räkna maskor över 10 cm. Ta med halva maskor. De spelar roll. En provlapp som blir "20 maskor" när du rundar av men "19,5 maskor" när du räknar ärligt ger en verklig skillnad över ett helt plagg. [Guiden till att mäta stickfasthet](/sv/artiklar/sa-mater-du-stickfasthet/) går igenom hela processen, men kort sagt: mät i mitten, räkna noggrant, sträck inte.
 
 En provlapp på cirka 15 x 15 cm är ett praktiskt val eftersom den ger plats för ett centralt mätområde på 10 cm, bort från uppläggnings-, avmasknings- och sidokanterna. Det är ingen universell minsta storlek: en mindre provlapp kan fungera om mätområdet är tillräckligt stort, representativt och oförvrängt. Följ mönstrets särskilda anvisningar om storlek och mätning.
 
-Mät på två ställen i provlappen och använd genomsnittet. Handstickat tyg är inte helt jämnt, och en enda mätning kan råka hamna på ett lite lösare eller hårdare parti.
+Mät på flera oförvrängda ställen i mitten och i samma skick. Små skillnader kan jämnas ut med ett medelvärde; utred stora skillnader i stället för att räkna bort dem för att nå målet.
 
 ## För många maskor på 10 cm: du stickar hårt
 
-Fler maskor än mönstrets stickfasthet betyder mindre maskor. Det färdiga arbetet blir smalare än tänkt.
+Fler maskor på samma sträcka betyder smalare maskor. Med samma maskantal blir arbetet smalare tvärs över maskorna; det säger inte hur långt det blir.
 
-**Gå upp en stickstorlek.** Det är standardjusteringen. Om mönstret anger 4,0 mm och du stickar för hårt, prova 4,5 mm. Den större stickan skapar en större ögla, och färre maskor ryms på 10 cm. Sticka en ny provlapp. Mät igen.
+**Gå upp en stickstorlek.** Det är standardjusteringen. Om mönstret anger 4,0 mm och du stickar för hårt, prova 4,5 mm. Den större stickan skapar en större ögla, och färre maskor ryms på 10 cm. Sticka en ny provlapp. Mät igen. Storlekarna är exempel att prova, ingen formel: 0,5 mm ändrar inte alltid maskantalet lika mycket. Kontrollera både maskor och varv samt det färdigbehandlade tyget efter varje byte.
 
 Ibland behöver du gå upp två storlekar. Det är normalt. Stickstorleken i mönstret är en startpunkt, inte ett krav. Kravet är att dina maskor per 10 cm matchar mönstrets stickfasthet. Vissa stickare behöver nästan alltid en annan stickstorlek än den som står i mönstret, och det är inget problem när du vet det om din egen hand.
 
 ## För få maskor på 10 cm: du stickar löst
 
-Färre maskor betyder större maskor. Det färdiga arbetet blir större.
+Färre maskor på samma sträcka betyder bredare maskor. Med samma maskantal blir arbetet bredare tvärs över maskorna.
 
 **Gå ner en stickstorlek.** Från 4,0 till 3,75 mm, sticka en ny provlapp. Om en hel storlek blir för mycket och din bästa stickfasthet ligger mellan två stickstorlekar, kontrollera den faktiska millimeterstorleken och inte bara US-numret. Vissa stickset har mindre steg än de namngivna US-storlekarna antyder. [Stickstorlekstabellen](/sv/verktyg/stickstorlekar/) är den snabba referensen.
 
 ## Varvtäthet: den som många hoppar över
 
-Mönster anger också varvtäthet, alltså antalet varv på höjden, och de flesta stickare ignorerar den. Ofta är det helt okej. Många mönster säger "sticka tills arbetet mäter X cm" i stället för "sticka X varv", så varvtätheten påverkar inte den färdiga längden.
+Varvtätheten är antalet varv på den angivna höjden, både vid rundstickning och när du stickar fram och tillbaka. På ett rakt parti kan du sticka till ett mått om mönstret tillåter det och du tar hänsyn till behandlingen efteråt. Det korrigerar inte automatiskt formning, rapporter, ärmhål eller ok. Vid stickning på tvären kan varven i stället styra plaggets bredd.
 
-Där den spelar roll: mönster där formningen anges i varv. "Minska vart 6:e varv, 8 gånger." Om din varvtäthet är fel hamnar minskningarna med annat avstånd än designern tänkte, och proportionerna ändras. En ärm som ska smalna av gradvis kan smalna av för brant eller för långsamt.
+'Minska vart 6:e varv, 8 gånger' anger både avstånd och antal minskningar. En annan varvtäthet ändrar avståndet. Omräkning till centimeter beskriver bara det avsedda avståndet: du behöver fortfarande planera hela varv, rät- och avigsida, rapporter, formningens totala längd och slutligt maskantal. Be om hjälp med just mönstret om kraven inte går ihop.
 
-Varvtäthet är svårare att fixa än maskantalet per 10 cm. En annan stickstorlek påverkar båda, men inte alltid lika mycket. Om maskorna per 10 cm stämmer men varvtätheten inte gör det är den praktiska lösningen att omvandla mönstrets varvbaserade instruktioner till mått. Räkna ut hur många centimeter designern tänkte mellan minskningarna med mönstrets varvtäthet, och arbeta sedan till det måttet med din egen. [Guiden till att mäta stickfasthet](/sv/artiklar/sa-mater-du-stickfasthet/) täcker siffrorna du behöver innan du gör den omvandlingen.
+Ett byte av stickstorlek påverkar båda tätheterna utan ett fast förhållande. Om maskantalet stämmer men varvtätheten avviker kan du prova stickor med samma diameter i ett annat material i en ny provlapp; räkna inte med att bara varven ändras. Om varvtätheten stämmer men maskantalet avviker återstår breddproblemet. Kontrollera båda efter varje byte. [Guiden till att mäta stickfasthet](/sv/artiklar/sa-mater-du-stickfasthet/) hjälper dig att få jämförbara värden.
 
 ## När rätt stickfasthet ger fel tyg
 
 Ibland träffar du mönstrets stickfasthet men den stickade ytan känns fel. För stel, för slapp, eller med hål mellan maskorna där du inte vill ha dem. Siffrorna stämmer. Tyget gör det inte.
 
-Det betyder oftast att garnet inte passar mönstret, även om garntjockleken är densamma. Ett tätt, hårt spunnet worsted och ett luftigt, löst spunnet worsted kan båda hamna på 20 maskor per 10 cm med olika stickor och ändå ge helt olika tyg. Bomull ger ofta tätare, plattare tyg. Ull kan blomma ut och fylla mellanrum. Akryl faller annorlunda än båda.
+Samma garntjocklekskategori garanterar inte det tyg mönstret kräver. Jämför även fiberinnehåll och garnets konstruktion. Bedöm den tvättade och torra provlappens täthet, fall och lämplighet för projektet.
 
 Om tyget känns fel vid rätt stickfasthet är alternativen att prova ett annat garn som ligger närmare originalets fiberinnehåll, eller acceptera att just den här kombinationen av garn och mönster inte fungerar. Alla garner passar inte alla mönster, även när matematiken samarbetar. [Guiden till att byta garn](/sv/artiklar/byta-garn-i-stickmonster/) går igenom fiberdelen av problemet.
 
 ## Blockad och oblockad stickfasthet
 
-Stickfastheten direkt från stickorna är inte alltid samma stickfasthet som efter tvätt och blockning. Olika garner rör sig olika mycket.
+Stickfastheten kan förändras vid tvätt och blockning. Mät förändringen i din egen provlapp i stället för att förutsäga den utifrån fiberns namn.
 
-Ull kan blomma ut och fylla ut. Antalet maskor per 10 cm kan sjunka lite när fibrerna slappnar av. Bomull kan slappna av nedåt. Superwash-ull kan växa, särskilt på längden. Alpacka kan töja sig och få mer fall. Linne mjuknar och stickfastheten kan öppna sig.
+Följ det skick som mönstret anger, även oblockat om det efterfrågas. Om inget anges, behandla provlappen som det färdiga arbetet enligt garnets skötselråd. Låt den torka helt, ta bort eventuella nålar och låt den slappna av före mätning, om mönstret inte anger något annat. Anteckna värdena före och efter separat.
 
-Följ i första hand det skick som mönstret anger, även oblockat om det uttryckligen är det som efterfrågas. Om inget skick anges, behandla provlappen som det färdiga arbetet och mät därefter. Anteckna både värdet före och efter behandlingen; värdet före behandlingen är användbart när du jämför med ett pågående arbete som ännu inte har tvättats eller blockats.
+Att blocka för den avsedda finishen är inte samma sak som att dra ett olämpligt tyg till målet. Ett mått som hålls av nålar bevisar varken den avslappnade storleken eller att förändringen består vid användning och senare tvätt.
 
 ## När stickfastheten inte spelar så stor roll
 
-En halsduk som blir ett par centimeter bredare än mönstret tänkte är fortfarande en fullt fungerande halsduk. En disktrasa med lite lösare maskor fungerar lika bra. Exakt stickfasthet spelar roll när passformen spelar roll: tröjor, sockor, mössor och kroppsnära vantar.
+Om en halsduk eller filt saknar ett bestämt storlekskrav kan du acceptera andra mått, förutsatt att tyget också passar användningen. För kroppsnära plagg behöver du granska mått och rörelsevidd noggrannare. Ingen generell maskavvikelse passar alla plagg eller accessoarer.
 
-För accessoarer utan tydliga passformskrav, som sjalar, halskragar och filtar, är nära ofta tillräckligt nära. Sticka provlapp för att se att tyget känns rätt, inte som kartong och inte som nät, men det är inte alltid värt tre provlappar för att träffa exakt maskantal.
-
-Ett undantag: stickfastheten påverkar garnåtgången. En lösare stickfasthet på en filt betyder mer garn per varv och en verklig risk att garnet tar slut. Om din stickfasthet skiljer sig från mönstrets, räkna om garnåtgången med [garnåtgångskalkylatorn](/sv/verktyg/garnatgangskalkylator/) innan du köper.
+En annan stickfasthet kan också ändra mått och garnåtgång. [Garnåtgångskalkylator](/sv/verktyg/garnatgangskalkylator/) — Referensmängder från namngivna mönster, ingen personlig förbrukningsprognos. Välj projekt, en storlek i ett namngivet mönster och enhet. Resultatet är mönstrets referensmängd, ingen prognos för ditt eget projekt.
 
 ## Problemet med två maskor på 10 cm
 
-Din stickfasthet är 18 maskor på 10 cm. Mönstret vill ha 20. Nära nog?
+Din stickfasthet är 18 maskor på 10 cm. Mönstret anger 20. Nära nog?
 
-Om mönstret lägger upp 200 maskor för en tröja på 100 cm, blir samma 200 maskor ungefär 111 cm med din stickfasthet. Det är inte en diskret skillnad.
+Behåll 200 maskor runt bålen: 200 ÷ 20 × 10 = 100 cm, medan 200 ÷ 18 × 10 ≈ 111,1 cm. Ökningen är cirka 11,1 % av den avsedda omkretsen på 100 cm, inte 10 %. Beräkningen gäller samma strukturmönster och behandling och räknar inte med sömsmån.
 
-Två maskor på 10 cm är tillräckligt mycket för att de flesta kroppsnära projekt ska få en ny provlapp. Mindre än så, till exempel en maska på 10 cm, spelar kanske ingen roll om projektet inte är mycket brett eller mycket kroppsnära.
+Inte heller en maskas avvikelse är automatiskt obetydlig: vid 19 maskor på 10 cm blir samma 200 maskor cirka 105,3 cm. Jämför skillnaden med projektets avsedda mått och rörelsevidd.
 
 ## Stickfasthet runt kontra plant
 
-Samma garn på samma stickor kan ge olika stickfasthet när du stickar plant och när du stickar runt. Många stickares aviga maskor ligger lite annorlunda än de räta, så en plan provlapp, där du växlar räta och aviga varv, kan ge ett annat resultat än en rundstickad provlapp där alla varv stickas räta.
+Samma garn och stickor kan ge olika stickfasthet plant och runt. I slätstickning plant växlar du räta och aviga varv, medan slätstickning runt består av räta varv. Olika spänning i räta och aviga maskor kan därför ändra resultatet.
 
-Om projektet stickas runt bör provlappen också göra det. Den traditionella varianten är en liten tub på strumpstickor eller magic loop. Genvägen: lägg upp, sticka ett varv, skjut tillbaka maskorna till höger ände av stickan utan att vända arbetet, låt garnet löpa löst över baksidan och sticka nästa varv från rätsidan igen. Klipp upp trådarna på baksidan innan du mäter. Framsidan ser ut som slätstickning runt.
+Sticka provlappen med projektets arbetssätt och det strukturmönster som anges för stickfastheten. En liten tub är ett alternativ för rundstickning. En snabb provlapp med lösa trådar över baksidan kan också efterlikna att arbeta från rätsidan. Att sticka alla varv räta från rätsidan gäller slätstickning, inte alla strukturmönster.
 
 ## När stickfastheten glider
 
-Samma stickare, samma garn, samma stickor, två provlappar med en veckas mellanrum. Siffrorna stämmer inte. Det händer, och det är därför vissa stickare använder genomsnittet av flera provlappar.
+Om arbetet inte längre stämmer med provlappen, mät flera centrala områden bort från kanter och maskorna på stickan. Jämför otvättat arbete med otvättad provlapp i samma strukturmönster och över samma sträcka. Kontrollera om stickor, garn eller arbetssätt har ändrats. Slå inte ihop olika behandlingstillstånd eller en tydlig förändring i handlaget till ett genomsnitt.
 
-Handlaget kan följa humör, hållning och tid på dagen. Stress, trötthet, kalla händer och en annan stol kan ändra tyget. Provlappen du stickar under de första tio minuterna av ett pass, innan händerna har värmts upp, är inte alltid en bra bild av hur du stickar genom ett helt projekt.
-
-Den ärliga lösningen är att sticka provlappen under ett normalt stickpass, inte under udda omständigheter, och gärna över ett par sittningar så att den fångar ditt genomsnittliga handlag.
+Beräkna måtten utifrån den uppmätta stickfastheten. Om skillnaden inte är acceptabel, stanna och prova korrigeringen i en ny provlapp innan du bestämmer hur långt du ska repa upp. Andra stickor påverkar det du stickar härnäst, inte det redan stickade tyget, och övergången kan synas. Räkna inte med att blockning räddar en oprövad storleksskillnad.
 
 ## Så arbetar du igenom det
 
-Den vanliga ordningen vid stickfasthetsproblem:
+Mät noggrant, även delar av maskor. Bedöm avvikelsen mot de nödvändiga måtten, inte en fast gräns på två maskor. Prova grövre stickor vid för många maskor på samma sträcka och tunnare vid för få. Sticka en ny provlapp och kontrollera både maskor, varv och tyg.
 
-Mät provlappen noggrant, även halva maskor. Om du ligger mer än två maskor per 10 cm fel, byt stickstorlek. Upp om du stickar för hårt, ner om du stickar för löst. Sticka ny provlapp. Mät igen.
+Om ett stickbyte inte ger ett lämpligt resultat, jämför garnet med det rekommenderade. Garntjocklekskategori och löplängd per 100 g är ledtrådar, inte bevis på samma tjocklek eller stickfasthet; fibrer och konstruktion spelar också roll. Prova ersättningsgarnet i en provlapp.
 
-Om du har bytt stickstorlek två gånger och fortfarande inte kan matcha mönstret, kontrollera om garnet verkligen ligger i samma garntjocklek som mönstret anger. "DK" från en tillverkare matchar inte alltid "DK" från en annan. Jämför löplängden per 100 g på din banderoll med mönstrets rekommenderade garn. Om de ligger långt från varandra följer stickfasthetsproblem ofta med.
-
-[Uppläggningskalkylatorn](/sv/verktyg/upplaggningskalkylator/) justerar maskantal utifrån din faktiska stickfasthet, så även om du ligger lite från mönstret kan du räkna ut rätt uppläggningsantal för dina mått. Användbart när du vill få en bra passform utan oändliga provlappar.
+[Uppläggningskalkylatorn](/sv/verktyg/upplaggningskalkylator/) multiplicerar masktätheten med önskad bredd och avrundar till närmaste jämna maskantal. Använd samma måttenheter. Den tar inte hänsyn till rapporter, kantmaskor, rörelsevidd eller formning och ändrar inte ett plaggs mönsterstorlek och garanterar inte passform.
 
 ## När du ska ge upp mönstret
 
-Efter flera provlappar och fortfarande ingen fungerande stickfasthet är rätt val ibland ett annat garn eller ett annat mönster. Att tvinga ett garn som vill ligga på 22 maskor per 10 cm till ett mönster som vill ha 18 ger ofta fel tyg på något annat sätt: hårt och stumt på den tätare stickfastheten, eller håligt och slappt på den lösare. Matematiken kan gå ihop efter tillräckligt mycket provstickning, men det färdiga plagget kommer inte kännas rätt.
-
-Att spara garnet till ett annat projekt och hitta ett mönster skrivet för den stickfasthet garnet naturligt vill ha är ofta det mindre smärtsamma valet.
+Om rätt stickfasthet ger ett tyg som är för stelt, för glest eller på annat sätt olämpligt, prova ett annat garn eller ett mönster för det tyg du tycker om. Garnet har inte en enda obligatorisk stickfasthet, och rätt siffra räcker inte för att kombinationen ska fungera.
 
 ## FAQ
 
 **Hur nära måste min stickfasthet vara?**
-För kroppsnära plagg: sikta på exakt maskantal per 10 cm. För accessoarer är en maska på 10 cm ofta helt okej. Varvtäthet har större tolerans eftersom de flesta mönster arbetar till mått snarare än antal varv.
+Sikta på mönstrets stickfasthet när måtten spelar roll. Bedöm avvikelsen utifrån färdiga mått, rörelsevidd, tyg och konstruktion. Det finns ingen generell marginal på en maska, och varvtätheten kan vara avgörande för formningen.
 
 **Ska jag tvätta provlappen innan jag mäter?**
-Använd det skick som mönstret anger. Om mönstret uttryckligen anger oblockad stickfasthet, mät före tvätt eller blockning. Om inget skick anges, behandla provlappen som det färdiga arbetet och mät därefter. Anteckna både värdet före och efter behandlingen. En fullständig arbetsgång finns i [Steg-för-steg-guiden till provlapp](/sv/artiklar/sticka-provlapp-steg-for-steg/).
+Mät den otvättade provlappen först. Behandla den sedan som det färdiga arbetet enligt garnets skötselråd och låt den torka helt. Jämför i det skick som mönstret anger; saknas uppgift, använd den färdigbehandlade provlappen. [Steg-för-steg-guiden till provlapp](/sv/artiklar/sticka-provlapp-steg-for-steg/) visar arbetsgången.
 
 **Påverkar blockning stickfastheten?**
-Våtblockning kan öppna maskorna, särskilt i spetsstickning och lösare tyger. Ull kan ofta formas när den är fuktig. Bomull kan slappna av utan att fjädra tillbaka på samma sätt som ull. Använd det skick som mönstret anger. Om inget skick anges, mät efter samma behandling som det färdiga arbetet och anteckna värdet både före och efter behandlingen.
+Ja, den kan förändras. Jämför före och efter behandling och mät torrt, avslappnat tyg om mönstret inte anger annat. Dra inte provlappen till ett mått och anta inte att ett mått som hålls av nålar består.
 
 **Maskorna per 10 cm stämmer men varvtätheten är fel. Vad gör jag?**
-Arbeta till mått i stället för varvantal när mönstret tillåter det. Om mönstret anger formning efter varvnummer, omvandla de varven till centimeter med mönstrets varvtäthet och arbeta sedan till de måtten med din egen.
+Sticka till mått bara där konstruktionen tillåter det. Varvbaserad formning behöver ett schema med hela varv som bevarar rapporter, antal minskningar, slutligt maskantal och totala mått. Enbart omräkning till centimeter räcker inte.
 
 **Kan jag bara lägga upp fler eller färre maskor för att fixa stickfastheten?**
-För enkla former, som rektanglar och enkla sjalar, ja. Justera uppläggningsantalet proportionellt så går matematiken ofta ihop. För formade plagg är svaret oftast nej, om du inte också skriver om formningen. Mönstrets ökningar, minskningar och passform är räknade ut runt det ursprungliga maskantalet. Ändrar du det följer ändringen med in i varje senare instruktion. Det är oftast enklare att matcha stickfastheten.
+För en oformad rektangel är utgångspunkten önskad bredd × maskor per längdenhet. Anpassa antalet till rapporten och eventuella kantmaskor och kontrollera sedan bredden. En formad sjal kräver mer än ett nytt uppläggningsantal. För plagg garanterar varken ändrat maskantal eller en annan mönsterstorlek att ärmhål, ärmar, ok och övriga mått passar; använd mönsterspecifik hjälp.

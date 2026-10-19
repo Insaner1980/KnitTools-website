@@ -37,7 +37,7 @@ const yarnWeightCopy = [
   },
   {
     name: "Super Bulky / Super Chunky",
-    regional: "Super Chunky / Bulky / Roving",
+    regional: "Super Chunky / Super Bulky / Roving",
     uses: "Tunge tæpper, halsrør, hurtigt tilbehør",
   },
   {
@@ -47,24 +47,27 @@ const yarnWeightCopy = [
   },
 ] as const;
 
-const rows = getLocalizedYarnWeightRows(yarnWeightCopy, "masker pr. 10 cm");
+const rows = getLocalizedYarnWeightRows(
+  yarnWeightCopy,
+  "masker pr. 4 tommer (ca. 10 cm)",
+);
 
 const faqs = [
   {
-    q: "Hvad er den mest almindelige garntykkelse?",
-    a: "Worsted er stadig standard i mange nordamerikanske opskrifter. DK dukker hele tiden op i britisk og europæisk strik. Med de to kategorier kan du dække langt de fleste beklædningsdele, tilbehør og boligprojekter. Bygger du et alsidigt garnlager, er de et logisk sted at begynde.",
+    q: "Hvilke garntykkelser er alsidige?",
+    a: "DK og worsted er nyttige udgangspunkter til trøjer, huer, tørklæder og tæpper. Vælg garn efter opskriftens strikkefasthed og den strikkede flade, du ønsker.",
   },
   {
     q: "Kan man erstatte én garntykkelse med en anden?",
-    a: "Ja, men der ændrer sig mere end størrelsen. Fald, garnforbrug og pindestørrelse flytter sig alle sammen. Nogle skift er tilgivende, for eksempel DK i stedet for en let worsted. Andre gør i praksis projektet til noget andet. Strik altid en prøve, før du beslutter dig, og beregn garnforbruget igen med opskriftens samlede maskeantal som reference.",
+    a: "Ja, men fald, garnforbrug og pindestørrelse kan ændre sig. Strik en prøve i opskriftens mønster, vask og tør den som det færdige arbejde, og tjek både strikkefasthed og resultat. Sammenlign garnlængder frem for antal nøgler; det oprindelige maskeantal er ikke nok til at beregne det nye garnforbrug.",
   },
   {
     q: 'Hvad betyder "held double" i en opskrift?',
-    a: '"Held double" betyder, at du strikker med to tråde sammen, som om de var én tykkere tråd. To tråde fingering sammen ligger omtrent tæt på DK, men fiberindhold, twist og luftighed kan gøre resultatet lettere eller tungere. Det er nyttigt, når du ikke kan finde den rigtige tykkelse i den farve eller fiber, du vil bruge. Strik en prøve, for resultatet er ikke helt forudsigeligt.',
+    a: '"Held double" betyder, at du strikker med to tråde sammen, som om de var én tykkere tråd. To tråde fingering sammen ligger omtrent tæt på DK, men fiberindhold, snoning og luftighed kan gøre resultatet lettere eller tungere. Det er nyttigt, når du ikke kan finde den rigtige tykkelse i den farve eller fiber, du vil bruge. Strik en prøve, for resultatet er ikke helt forudsigeligt.',
   },
   {
     q: "Hvorfor ser mit garn tyndere eller tykkere ud end banderolen siger?",
-    a: "Fordi garntykkelseskategorier er intervaller, ikke faste punkter. Det ene DK-garn ligger i den tynde ende, det andet i den tykke. Fiberindhold ændrer også udtrykket. Bomuld ser ofte fladere og tyndere ud end uld ved samme WPI, mens alpaka kan blomstre op efter vask og se tykkere ud. Kategorien på banderolen er et pejlemærke; strikkeprøven bekræfter, hvor dit garn faktisk ligger.",
+    a: "Garntykkelser er intervaller. Fiber, snoning og konstruktion påvirker udseendet, og vask kan ændre den strikkede flade. Tjek en vasket og tørret strikkeprøve i stedet for kun at bestemme kategorien ud fra udseendet.",
   },
 ];
 ---
@@ -82,6 +85,14 @@ const faqs = [
   variant="sand"
 >
   <div slot="tool">
+    <p>
+      <a href="https://www.craftyarncouncil.com/standards/yarn-weight-system"
+        >CYC’s vejledende værdier</a
+      > gælder maskeantal i glatstrik over 4 tommer (ca. 10 cm) og pindestørrelser
+      som udgangspunkt. Hulstrik strikkes ofte på tykkere pinde for et åbent resultat;
+      følg opskriftens strikkefasthed. Regionale navne er omtrentlige sammenligninger,
+      ikke præcise omregninger.
+    </p>
     <div class="cat-list">
       {
         rows.map((row) => (
@@ -129,10 +140,7 @@ const faqs = [
 
   <div slot="content">
     <h2>Problemet med navnene</h2>
-    <p>
-      Det er her, garntykkelse bliver reelt rodet, og her de fleste fejl ved
-      garnskift begynder.
-    </p>
+    <p>Regionale garnnavne kan gøre det svært at vælge erstatningsgarn.</p>
 
     <h3>Ply betyder ikke det, du tror</h3>
     <p>
@@ -143,12 +151,9 @@ const faqs = [
       tvundet 6-ply kan lande i sport.
     </p>
     <p>
-      Udtrykket blev hængende, fordi ældre spindekonventioner gjorde, at 4-ply
-      ret pålideligt ramte en bestemt tykkelse. Den kobling forsvandt, da
-      spindemetoderne blev mere varierede, men navnene fulgte ikke med. Så når
-      en vintage britisk opskrift beder om "3-ply", betyder det et bestemt
-      tykkelsesinterval tæt på lace eller light fingering, ikke bogstaveligt et
-      garn af tre tråde.
+      I en ældre opskrift bør du tjekke det angivne garn og strikkefastheden i
+      stedet for at udlede tykkelsen af ply-tallet. Regionale ply-navne er
+      tykkelsesbetegnelser, ikke altid antallet af tråde i garnet.
     </p>
     <p>Det snubler flere over, end man skulle tro.</p>
 
@@ -210,8 +215,7 @@ const faqs = [
         <strong>3 - Light.</strong> DK og lignende mellemkraftige beklædningsgarner.
       </li>
       <li>
-        <strong>4 - Medium.</strong> Worsted og aran. Det interval mange strikkere
-        bruger mest tid i.
+        <strong>4 - Medium.</strong> Worsted og aran.
       </li>
       <li>
         <strong>5 - Bulky.</strong> Tykkere garner, der bygger stof hurtigt.
@@ -224,11 +228,10 @@ const faqs = [
       </li>
     </ul>
     <p>
-      Denne tabel bruger de publicerede 0-7-intervaller i den nuværende
-      CYC-tabel. CYC nævner nu også et Size 8-symbol i det opdaterede
-      garntykkelsessystem, men de offentlige intervaller for strikkefasthed,
-      pindestørrelse og WPI, der bruges her, er stadig de publicerede
-      0-7-intervaller.
+      Siden dækker kategorierne 0–7 i de linkede CYC-tabeller, fra det tynde
+      Lace til det meget tykke Jumbo. Sock og Baby beskriver almindelige
+      anvendelser, ikke én bestemt garntykkelse. Gram angiver nøglers vægt og
+      meter garnets længde; ingen af delene bestemmer alene garntykkelsen.
     </p>
 
     <h2>At kende garntykkelsen uden banderole</h2>
@@ -238,16 +241,22 @@ const faqs = [
       cone uden butiksetiket.
     </p>
     <p>
-      Den hurtigste første test er WPI: hvor mange omviklinger der ligger på ca.
-      2,5 cm (1 inch).
+      Den hurtigste første test er WPI: hvor mange omviklinger der ligger på
+      2,54 cm (1 tomme).
     </p>
 
     <h3>At måle WPI</h3>
     <p>
       Vikl garnet om en blyant, lineal eller WPI-måler. Hold omviklingerne pænt
       ved siden af hinanden, tæt men ikke strukket og ikke oven på hinanden. Tæl
-      hvor mange der passer på 2,5 cm. CYC-guiden bruger disse brede
+      hvor mange der passer på 2,54 cm. CYC-guiden bruger disse brede
       intervaller:
+    </p>
+    <p>
+      <a
+        href="https://www.craftyarncouncil.com/standards/how-measure-wraps-inch-wpi"
+        >CYC’s WPI-guide</a
+      >
     </p>
     <ul>
       <li>30-40+ WPI -&gt; Lace (0)</li>
@@ -285,12 +294,11 @@ const faqs = [
       fald, tæthed, varme og ofte hele størrelsen på det færdige arbejde.
     </p>
     <p>
-      Tyndere garntykkelser, 0-2, giver mere fald og skarpere maskedefinition.
-      Godt til strømper, sjaler og mønsterstrik, der kræver tydelige detaljer.
-      Mellemtykkelser, 3-4, især DK og worsted, dækker enormt meget: sweatere,
-      huer, tæpper, babystrik og tilbehør med struktur. Tykkere garner, 5-7,
-      prioriterer fart og varme, men giver også tykkere sømme og et tungere
-      færdigt stykke. Det er værd at se, før du erstatter.
+      Tynde garner (0–2) bruges ofte til strømper, sjaler og detaljeret
+      flerfarvestrik. DK og worsted (3–4) passer til mange beklædningsdele, huer
+      og tæpper; tykke garner (5–7) kan give større masker og hurtigere
+      projekter. Fald, varme, tydelige masker og færdig vægt afhænger også af
+      fiber, konstruktion, mønster og strikkefasthed, ikke kun tykkelse.
     </p>
     <p>
       Erstatter du uden for den oprindelige garntykkelseskategori, skal du regne

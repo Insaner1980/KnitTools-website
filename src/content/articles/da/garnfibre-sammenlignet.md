@@ -1,7 +1,8 @@
 ---
 title: "Garnfibre sammenlignet: uld, bomuld og akryl"
-description: "Sådan opfører uld, bomuld, akryl og blandingsgarner sig i strik. Dækker varme, fald, slidstyrke, vask, blokning og bedste brug."
+description: "Sådan opfører uld, bomuld, akryl og blandingsgarner sig i strik. Dækker varme, fald, slidstyrke, vask, blokning og anvendelsesmuligheder."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 8
 tags:
@@ -16,94 +17,88 @@ lang: da
 translationKey: "yarn-fibers-compared"
 ---
 
-Strik den samme prøve med snoninger i uld og bomuld, læg dem ved siden af hinanden, og de ligner noget fra to forskellige opskrifter. Uldversionen springer. Snoningerne står frem. Bomuldsversionen hænger lidt, falder fladere og viser hver maske med næsten ubarmhjertig ærlighed. Samme pind, samme hænder, samme maskeantal. Helt forskelligt stof.
+Strik samme prøve med snoninger i uld og bomuld, og sammenlign efter vask og tørring efter banderolerne. Et spændstigt uldgarn kan give runde snoninger, et glat bomuldsgarn en fladere flade med tydelige masker. Samme pinde og maskeantal garanterer hverken samme strikkefasthed eller samme strikkede stof. Det er egenskaber at undersøge, ikke sikre resultater af fibernavnet.
 
-Den forskel er ikke kosmetisk. Fiberindholdet bestemmer, hvordan et projekt føles i hænderne mens du strikker, hvordan det blokker, hvordan det slides over måneder og år, og om det holder formen eller langsomt overgiver sig til tyngdekraften. Uld giver elasticitet og gode blokningsmuligheder, bomuld giver fald og vaskbarhed, akryl giver lav pris og maskinvaskbar slidstyrke. Banderolen rundt om et nøgle er ikke småt med småt. Det er den mest nyttige oplysning om, hvad garnet faktisk kommer til at gøre.
+Fiberindholdet påvirker følelsen, blokningen og slitagen. Men også fibrenes tykkelse og længde, garnets konstruktion, snoning, blanding, behandling, strikkefasthed og maskemønster spiller ind. Læs banderolen, og brug en strikkeprøve til at vurdere fald, evnen til at trække sig tilbage efter stræk og pleje. Strækbarhed er ikke det samme som at vende tilbage til de oprindelige mål.
 
 ## Uld
 
-Uld er den fiber, alt andet bliver sammenlignet med, og det har den fortjent. Den er varm, elastisk, tilgivende over for ujævn spænding, og den reagerer stærkt på blokning.
+Uld er et godt udgangspunkt for varme, spændstige projekter. Fibrenes naturlige krusning og elastiske egenskaber bidrager til spændstigheden i mange uldgarner.
 
-Elasticiteten betyder mest. Uld strækker sig mens det strikkes og springer tilbage. Rib holder sig tæt. Snoninger beholder deres dybde. Glatstrik får en levende hånd, der kommer tilbage efter at være blevet krøllet sammen. Den fjeder i fiberen er også det, der gør uld så samarbejdsvillig ved vådblokning. Læg et uldstykke i blød, spænd det op, lad det tørre, og stoffet kan ligne et andet (bedre) projekt. [Blokningsguiden](/da/artikler/blokke-strik-vaadt-damp-spray/) gennemgår metoder efter fiber. Hulmønster åbner sig markant. Maskerne jævner sig. Forvandlingen kan være ret overraskende de første gange.
+Den spændstighed gør uld værd at prøve til rib og tydelige snoninger. Vådblokning, når garnets vaskeanvisning tillader det, kan udjævne masker og åbne hulmønster. Læg arbejdet i de planlagte mål, og lad det tørre helt. Regn ikke med, at blokning retter forkert strikkefasthed eller giver en ny form, der består gennem senere vask. [Blokningsguiden](/da/artikler/blokke-strik-vaadt-damp-spray/) beskriver metoderne; følg garnproducentens råd, hvis de er anderledes.
 
-Uld er nyttigt i kølige, fugtige forhold, fordi det isolerer, håndterer fugt og stadig kan føles behageligt, når det er let fugtigt. Der er en grund til, at det fylder så meget i udetøj og vintertilbehør, og den grund er ikke nostalgi.
+Uldfibre optager vanddamp, og luften i luftig strik hjælper med at isolere. Det gør uld nyttigt i køligt vejr, men varme og komfort afhænger også af tykkelse, konstruktion, hvor vådt tøjet er, og brugsforholdene. Fugtoptagelse garanterer ikke tør hud.
 
-Men kompromiserne betyder noget. Ikke-superwash uld kan filte, når varme, fugt og bevægelse mødes. Det er en egenskab i nogle projekter og en katastrofe i andre. Og "uld" dækker et enormt spænd i blødhed. Nogle racer giver garn, der ligger fint mod bar hud. Andre føles bedre som overtøj. Merino ligger som regel i den bløde ende, og mange strikkere der ikke tåler generisk uld, kan fint have merino på. Men følsomhed er personlig. Den bedste test er at have det på.
+Ubehandlet uld kan filte, når bevægelse i vand får fibrenes overfladeskæl til at gribe ind i hinanden; varme kan fremme processen. Filtning gør stoffet tættere og kan give varig krympning. Blødhed er et andet spørgsmål. Fiberfinhed og grove fiberender i overfladen påvirker, om garnet kradser. Fin merino er en mulighed for blød strik, men fibernavnet garanterer ikke komfort mod huden. Vurder den vaskede strikkeprøve.
 
-Superwash-uld mindsker risikoen for filtning og krympning gennem krympebehandling, og for garner hvis banderole tillader maskinvask, er det reelt praktisk. Kompromiset er, at Superwash ofte føles glattere på pindene og kan slappe af eller vokse efter vask på måder, ubehandlet uld ikke gør. Strikkeprøven betyder mere med Superwash, ikke mindre.
+Superwash-behandling mindsker krympning fra filtning ved at ændre eller dække fibrenes overfladeskæl. Den tillader ikke automatisk alle maskinprogrammer eller tørretumbling. Følg det konkrete garns vaske- og tørreanvisning. Både behandlet og ubehandlet strik kan ændre mål, når maskerne slapper af i vask, så mål den tørre strikkeprøve.
 
-Til strukturmønstre, mønsterstrik og alt der skal have form, er uld det stærkeste valg. Ikke det eneste valg. Det stærkeste.
+Til strukturmønstre, mønsterstrik og arbejde, der kræver spændstighed, er uld et praktisk førstevalg. Kontrollér maskernes tydelighed og evnen til at trække sig tilbage med det garn og den strikkefasthed, du vil bruge.
 
 ## Bomuld
 
-Bomuld er ulds modsætning på næsten alle de punkter, der betyder noget, og det kræver at man forstår, hvad det mangler, for at se hvor det er stærkt.
+Bomuld giver et andet udgangspunkt: en absorberende plantefiber, som er relevant til vaskeklude og sommertoppe.
 
-Det har meget lidt naturlig elasticitet sammenlignet med uld. Garnet strækker sig ikke ret meget og springer ikke tydeligt tilbage mens det strikkes, så ujævnheder i spændingen bliver synlige i det færdige stof. Dygtige, jævne strikkere elsker bomuld, fordi maskedefinitionen er knivskarp. Mindre erfarne strikkere oplever det nogle gange som nådesløst.
+Bomuldsfibre trækker sig mindre tilbage efter stræk end uld. Bomuldsstrik kan stadig strækkes, når maskerne bevæger sig, uden nødvendigvis at vende tilbage til samme mål. Et glat bomuldsgarn kan vise masker og ujævn trådspænding tydeligt. Snoning, overflade og strikkefasthed påvirker også maskebilledet.
 
-Vægt og fald er der, hvor bomuld enten lykkes eller falder igennem, afhængigt af projektet. En bomuldstop falder flot med flydende vægt. En bomuldssweater kan langsomt strække sig længere og længere, indtil proportionerne ser forkerte ud. Tyngdekraften har mindre elastisk hukommelse at kæmpe imod.
+Fald er en egenskab ved det færdige strikkede stof. En smidig bomuldstop kan falde flot, mens en tung, løst strikket sweater kan blive længere af sin egen vægt. Det er ikke uundgåeligt: konstruktion, strikkefasthed, tøjets vægt og pleje påvirker resultatet.
 
-Blokning af bomuld er ikke rigtig blokning i uldforstand. Stoffet kan glattes, dampes og lægges efter mål. Men det springer ikke ind i en dramatisk ny form på samme måde som uld ofte kan.
+Bomuld kan også blokkes: vask og tør prøven efter anvisningen, læg den i form uden at tvinge den, og mål igen, når den er tør. Bomuldsstrik kan krympe eller ændre form i vask. Brug kun damp eller strygejern, hvis banderolen tillader det.
 
-Praktisk set tåler mange bomuldsgarner hyppig vask godt, når banderolen tillader det. Bomuld er slidstærkt i daglig brug. Til karklude, indkøbsnet, babyting der skal vaskes ofte, og sommertoppe er det et oplagt valg. Merceriseret bomuld har en glat, let blank overflade. Umerceriseret bomuld starter mere mat og ru, men bliver dejligt blødt med brug og gentagne vaske.
+Bomuld er værd at overveje til karklude, indkøbsnet, babytøj, der vaskes ofte, og sommertoppe, når vaskeanvisningen passer til brugen. Mercerisering øger glansen, men afgør ikke blødheden alene. Umerceriseret bomuld er normalt mere mat, ikke nødvendigvis mere ru. Vask garanterer ikke en bestemt ændring i følelsen.
 
-Lange strikkesessioner i bomuld kan være hårdere for hænderne. Uden nogen give i garnet går den gentagne bevægelse mere direkte i fingre og håndled. Værd at nævne, fordi det overrasker nogle.
-
-Til fald, vaskbarhed og varmt vejr slår bomuld uld klart. Til struktur, elasticitet og blokningsmuligheder er det ikke i nærheden.
+Vælg bomuld for sugeevne og et stof, der passer til sommerbrug; et spændstigt uldgarn, når evnen til at trække sig tilbage er vigtig. Ingen af fibrene vinder alle sammenligninger af fald, slidstyrke eller vaskbarhed.
 
 ## Akryl
 
-Akryl får meget kritik, og den er ikke altid fortjent. Det bliver også overhypet i nogle hjørner. Sandheden ligger midt imellem, ret praktisk.
+Akryl får meget kritik, som ikke altid er fortjent. Nogle gange overdrives fordelene også. Det er mere nyttigt at vurdere garnet ud fra projektets behov.
 
-Det er billigt, let at få fat i, som regel nemt at vaske og holder uld ude af projektet. Til babytæpper der skal vaskes konstant, velgørenhedsstrik hvor budgettet betyder noget, og alle der har brug for uldfrit garn, kan akryl være et godt svar i stedet for kun et næstbedste valg.
+Akryl er en syntetisk fiber, som bruges i mange prisvenlige garner. Et egnet akrylgarn er et praktisk alternativ til babytæpper, der vaskes ofte, velgørenhedsstrik med begrænset budget eller uldfrie projekter. Kontrollér garnets faktiske pris, følelse og vaskeanvisning.
 
-Det blokker ikke som uld. Det kan fnuldre. Det kan føles mindre åndbart mod huden. For meget varme kan ødelægge det permanent, og et strygejern eller aggressiv dampblokning kan smelte fiberen. Som en syntetisk, petroleumsbaseret fiber kan det også afgive plastmikrofibre ved vask.
+Akrylfiberen optager kun lidt fugt, men det afgør ikke alene stoffets luftgennemtrængelighed eller følelsen af tørhed mod huden. Akryl kan danne fnugknuder. Varme kan fiksere eller forvrænge formen og skade garnet; dampblokning er ikke det samme som vådblokning, så tjek anvisningen før varmebehandling. Vask af akryltekstiler kan frigive plastmikrofibre. Mængden afhænger af tekstilet og vaskeforholdene; dette alene er ikke en fuldstændig miljøsammenligning af fibre.
 
-At erstatte uld med akryl i en opskrift er ofte muligt, hvis du kan ramme strikkefastheden, men stoffet opfører sig anderledes. Til tæpper og meget tilbehør betyder forskellen ikke så meget. Til tætsiddende tøj, hulmønster eller strukturmønstre skal du lave en prøve først og være ærlig om, hvorvidt stoffet gør det opskriften kræver.
+At erstatte uld med akryl kræver både passende strikkefasthed og passende stof. Til et tæppe skal du tjekke fald, vægt og pleje. Til tætsiddende tøj, hulmønster og strukturmønstre skal du også kontrollere, om stoffet trækker sig tilbage efter stræk, og om mønsteret er tydeligt efter vask og tørring.
 
 ## Andre fibre der er værd at kende
 
-**Alpaka** er blødt, varmt og har mere fald end uld. Varmen er reel, så det er stærkt til vintertilbehør. Men rene alpaka-projekter kan vokse over tid, fordi fiberen har mindre elastisk hukommelse end mange uldtyper. En ren alpaka-sweater der passer fint lige fra blokkemåtten, kan strække sig mærkbart efter brug. Blanding med uld kan give fjeder og hjælpe stoffet med at holde formen. Ren alpaka fungerer bedst i tørklæder, halsrør og sjaler, hvor lidt ekstra længde ikke gør noget.
+**Alpaka** er værd at prøve til varme tørklæder, halsrør og sjaler med et blødt fald. Finhed, krusning og garnkonstruktion varierer, så alpaka er ikke altid blødere, varmere eller mindre spændstig end enhver uldtype. Til en sweater er fald og målændring i den vaskede prøve særligt vigtige. Uld/alpaka er et andet alternativ at prøve, ikke en garanti mod stræk.
 
-**Silke** giver glans, styrke og fald. Det bruges sjældent rent i strikkegarn, fordi det er dyrt og kan føles glat på pindene. Som blandingsfiber kan silke til gengæld forandre garn tydeligt. En moderat silkedel giver uld synlig glans og en glattere hånd uden at gøre garnet til rent fald. Silke giver også trækstyrke, og derfor dukker det op i Lace-garner, der skal holde sammen ved meget fin strikkefasthed. Ulempen: silke kan få vandpletter, og det springer ikke tilbage efter stræk på samme måde som uld.
+**Silke** er kendt for glans, trækstyrke og fald. Det er grunde til at overveje silke i sjal- og lacegarner, også blandet med uld. Resultatet afhænger af silketype og garnkonstruktion, ikke kun andelen. Nogle silkestoffer får vandmærker; følg garnets vaskeanvisning. Styrke betyder ikke, at strikken trækker sig tilbage efter stræk som uld.
 
-**Hør** er stærkt, køligt at have på og bliver ofte blødere med brug og vask. Det første nøgle føles stift, nogle gange næsten knasende. Det er normalt. Efter gentagne vaske bliver stoffet blødere og mere afslappet. Hør er oplagt til sommertoppe og strik til varmt klima, fordi det føles køligt og håndterer fugt i stedet for at holde på varmen. Det blokker ikke som uld, og den manglende elasticitet kan gøre det trættende at strikke længe. Men et velbrugt hørstykke har et fald og en hånd, som intet andet helt rammer.
+**Hør** er en stærk, absorberende plantefiber, som kun i ringe grad trækker sig tilbage efter stræk. Det passer til sommertoppe, når prøven giver den kølige følelse og det fald, du ønsker. Nogle hørgarner er først stive og bliver blødere med vask og brug, men et bestemt antal vaske garanterer ikke blødhed. Vask og form prøven efter banderolen: begrænset fiberelasticitet forhindrer ikke målændringer i strikken.
 
-**Mohair og kid mohair** giver halo, den fnuggede sky omkring maskerne. Det holdes som regel sammen med et andet garn (silke er den klassiske makker) i stedet for at blive strikket alene i tykkere strikkefasthed. Halo-effekten er noget, ingen anden fiber rigtig efterligner. Kid mohair er blødere og finere. Almindelig mohair kan føles mere kradsende mod huden. Begge fælder fibre på alt i nærheden.
+**Mohair og kid mohair** bruges i børstede garner til den lodne sky omkring maskerne. Mohair kommer fra angorageder; kid mohair kommer fra unge geder og er normalt finere. Blødhed og fældning afhænger stadig af fiberkvalitet og konstruktion. En mohair/silkeblanding er allerede ét garn; at strikke det sammen med et separat garn er et andet valg. Det kan også strikkes alene, hvis opskriften og prøven passer til det. Den lodne overflade er ikke unik for mohair.
 
-**Nylon** spiller sjældent hovedrollen. Det dukker op i blandinger for slidstyrke, og derfor findes det i mange kommercielle strømpegarner. En lille andel, ofte omkring 10-25 %, kan forlænge levetiden på ting der slides hårdt, uden at ændre ret meget på hvordan garnet føles i hænderne.
+**Nylon**, også kaldet polyamid på banderoler, bruges for slidstyrke i mange strømpegarner. Andelen alene forudsiger ikke strømpernes levetid: også snoning, strikkefasthed, pasform og brug betyder noget.
 
 ## Blandinger: løsninger på konkrete problemer
 
-Blandingsgarner findes, fordi rene fibre har forudsigelige huller, og blandinger fylder dem ud.
+Blandinger kombinerer fibre for at opnå bestemte egenskaber, men får ikke automatisk alle fordelene ved hver bestanddel.
 
-Uld/nylon er den klassiske strømpeblanding. Uld giver varme og elasticitet. Nylon giver slidstyrke til hæle og tæer. Du kan strikke strømper uden nylon, men blandingen løser et almindeligt problem på steder med meget slid.
+Uld/nylon er en velkendt strømpeblanding. Uld bidrager med spændstighed og isolering, nylon bruges for slidstyrke. Det er et nyttigt alternativ til hæle og tæer, der udsættes for friktion, ikke en garanti mod huller. Strømper kan også strikkes uden nylon.
 
-Merino/silke giver fald og glans til en uldbase uden at ofre meget struktur. Bomuld/akryl gør stoffet lettere og plejen enklere end ren bomuld. Uld/alpaka holder mere struktur end ren alpaka, samtidig med at det bliver blødere.
+Prøv merino/silke for glans og fald, uld/alpaka for balancen mellem blødhed og spændstighed. Ved bomuld/akryl skal du sammenligne det faktiske stofs vægt og pleje. Blandingsnavnet beviser ikke, at garnet er lettere, blødere, nemmere at vaske eller mere formstabilt end et garn med én fiber.
 
-Når du ser på en blanding, betyder forholdet noget. Et garn mærket 90/10 merino/silke er merino med en diskret glans. En 50/50-blanding opfører sig som et reelt kompromis mellem de to fibre. Små procentdele justerer. Store procentdele forvandler.
+En tænkt banderole med 90 % merino / 10 % silke beskriver vægtandelene. 50 % / 50 % betyder lige stor fibervægt, ikke et midtpunkt for hver egenskab. Ingen af forholdene forudsiger graden af glans, spændstighed eller fald. Vurder garnet uden at sætte en kvalitetsgrænse ved en bestemt andel luksusfiber.
 
-En ting at holde øje med: nogle blandinger vælges af marketinggrunde mere end funktionelle grunde. En blanding med 3 % kashmir kan være mere signal på banderolen end en reel ændring i håndfølelsen. Med meget små andele luksusfiber er det sikrest at behandle garnet som den dominerende fiber og se resten som en bonus, hvis du overhovedet mærker den.
-
-Også værd at vide: blandinger kan opføre sig uforudsigeligt ved blokning. En uld/bomuld-blanding reagerer måske ikke på vådblokning som ren uld, fordi bomuldsdelen ikke former sig om. Lav en prøve og blok prøven. Garnet fortæller, hvad det er villigt til.
+En uld/bomuldsblanding kræver sin egen prøve og kontrol af vaskeanvisningen. Vask og tør den, som du vil behandle det færdige arbejde. Vurder derefter mål, overflade, fald og evnen til at trække sig tilbage efter stræk. Ingen af fibrene bestemmer resultatet alene.
 
 ## Vælg fiber til projektet
 
 Tre spørgsmål skærer igennem det meste.
 
-Hvordan skal det vaskes? Hvis projektet skal kunne maskinvaskes regelmæssigt, så start med garner hvis banderole tillader det. Det er ofte Superwash-uld, akryl, bomuld og bestemte blandinger. Håndvask åbner flere muligheder. Hvis modtageren ikke vil håndvaske (og de fleste ikke-strikkere vil ikke), så planlæg efter det.
+Hvordan skal det vaskes? Hvis regelmæssig maskinvask er nødvendig, så begynd med garner, hvis banderole tillader det aktuelle program og tørremetoden. Find ud af, hvordan modtageren faktisk vil pleje arbejdet. Hverken fibernavnet eller superwash-mærkningen erstatter vaskeanvisningen.
 
-Hvad skal projektet kunne strukturelt? Snoninger og strukturmønstre vil have elasticitet. Det betyder uld eller en uldtung blanding. Fald og flydende bevægelse vil have bomuld, silke eller hør. Halo vil have mohair. Slidstyrke på udsatte steder vil have nylon i blandingen.
+Hvad har projektet brug for strukturelt? Prøv først uld eller en uldrig blanding til spændstig rib og tydelige snoninger. Til smidigt fald kan du prøve et egnet bomulds-, silke- eller hørgarn ved opskriftens strikkefasthed. Overvej børstet mohair til en lodden overflade og nylonblanding til strømper med meget friktion. Det er udgangspunkter, ikke obligatoriske ingredienser.
 
-Hvilket klima er det til? Uld og alpaka isolerer. Bomuld og hør ånder og holder sig kølige. Akryl kan give varme, men mange akrylstoffer føles mindre åndbare mod huden end uld, bomuld eller hør.
+Hvilket klima er det til? Luftig uld- eller alpakastrik er et nyttigt udgangspunkt for varme, lettere bomulds- eller hørstrik til sommerbrug. Akryl kan også give varme. Tykkelse og maskemønstrets åbenhed påvirker isolering og luftstrøm, så sammenlign færdige prøver i stedet for at rangordne åndbarhed efter fibernavn.
 
 Svarene peger ikke altid på én fiber. Men de udelukker som regel flere.
 
 ## Et par ting der er værd at tage med
 
-Hvis du er ny i strik og vælger dit første garn, indsnævrer [begynderguiden til garn](/da/artikler/bedste-garn-til-begyndere/) mulighederne. Fiberindhold påvirker indirekte, hvor meget garn et projekt kræver. Forskellige fibre pakker forskellig løbelængde i samme nøglevægt, og derfor kan et estimat i gram alene efterlade et projekt uden nok garn. KnitTools' [garnberegner](/da/strikkevaerktoejer/garnberegner/) giver et omtrentligt planlægningsinterval ud fra projekttype, størrelse og garntykkelse, men tager ikke højde for fiberindhold.
-
-På holdbarhedsspørgsmålet, som kommer igen og igen: nylon er den vigtigste forstærker i strikkegarn. Det er derfor, det findes i næsten alle strømpeblandinger. Hør er også bemærkelsesværdigt stærkt blandt plantefibre, selv om det får mindre opmærksomhed for det.
+Hvis du vælger dit første garn, hjælper [begynderguiden til garn](/da/artikler/bedste-garn-til-begyndere/) dig med at indsnævre valget. Fiber og garnkonstruktion påvirker løbelængden ved en given nøglevægt, så gram alene erstatter ikke banderolens meterangivelse. [Garnberegner](/da/strikkevaerktoejer/garnberegner/) — Referencemængder fra navngivne opskrifter, ikke en personlig forbrugsprognose. Vælg projekt, en størrelse i en navngiven opskrift og enhed. Resultatet er opskriftens referencemængde, ikke en prognose for dit eget projekt.
 
 Bomuld og uld kan sagtens bo i samme garnlager (og samme strikkeliv). Ideen om, at en strikker skal vælge lejr, er mærkelig. De gør helt forskellige ting. At eje en vinterfrakke og en sommerskjorte er ikke en modsætning. Det er det heller ikke at strikke med begge fibre og række ud efter den, der passer til projektet.
 
-Og hvis intet af det ovenstående indsnævrer nok: lav en strikkeprøve. Ikke fordi det er sjovt (det er det ofte ikke), men fordi 10 g garn og en times strik fortæller mere om en fiber end nogen artikel kan.
+Hvis valget stadig er svært, så lav en strikkeprøve i arbejdets maskemønster, og behandl den med den planlagte plejemetode. Lad den tørre helt, og vurder både strikkefasthed og følelse. Garnmængde og tid afhænger af prøven; en lille prøve beviser ikke, hvordan et helt stykke tøj slides gennem flere år.

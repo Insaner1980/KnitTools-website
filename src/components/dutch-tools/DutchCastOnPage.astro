@@ -7,23 +7,23 @@ import { routes } from "../../i18n/routes";
 const faqs = [
   {
     q: "Moet ik echt eerst een proeflapje breien?",
-    a: "Ja. Een proeflapje overslaan is een van de meest voorkomende redenen dat breiwerk niet de juiste maat krijgt. Het kost vooraf extra tijd en kan uren uithalen besparen.",
+    a: "Ja, als de maat belangrijk is. Een proeflapje laat je stekenverhouding zien met het garen, de naalden en het steekpatroon dat je wilt gebruiken.",
   },
   {
     q: "Tel ik kantsteken mee in mijn stekenverhouding?",
-    a: "Nee. Meet in het midden van je proeflapje en vermijd de eerste en laatste twee steken. Kantsteken zijn vaak strakker of losser dan de rest.",
+    a: "Meet in het midden van een proeflapje dat groter is dan het meetvlak, uit de buurt van de opzetrand en onregelmatige kantsteken.",
   },
   {
     q: "Waarom rondt de calculator af naar een even aantal?",
-    a: "Veel eenvoudige steekpatronen, waaronder gewone boordherhalingen, werken netjes met een even aantal steken. Afronden naar het dichtstbijzijnde even aantal geeft een praktische standaard voordat je aanpast voor een patroonspecifiek veelvoud.",
+    a: "Dit is een afrondingsregel, geen garantie dat het aantal bij je patroon past. Boordsteek, kabels en andere steekpatronen kunnen een bepaald veelvoud plus extra steken vragen.",
   },
   {
     q: "Wat als mijn patroon een bepaald veelvoud vraagt?",
-    a: "Tel er een paar steken bij of haal er een paar af tot je bij het dichtstbijzijnde veelvoud komt dat je patroon nodig heeft. Als het motief bijvoorbeeld over 4 steken herhaalt en de calculator 46 geeft, pas je aan naar 44 of 48.",
+    a: "Bij een herhaling van 4 steken zonder extra steken kun je 46 aanpassen naar 44 of 48. Houd rekening met kantsteken en andere extra steken uit het patroon en controleer wat de aanpassing met de breedte doet.",
   },
   {
     q: "Kan ik dit gebruiken voor rondbreien?",
-    a: "Ja. Vul de volledige omtrek in als gewenste breedte. De berekening werkt hetzelfde voor plat breien en rondbreien.",
+    a: "Ja. Gebruik de stekenverhouding van een proeflapje dat je in het rond hebt gebreid en vul de gewenste afgewerkte omtrek in als breedte. Houd in die maat al rekening met de gewenste bewegingsruimte; de calculator telt die er niet bij op en trekt die er niet van af.",
   },
 ];
 ---
@@ -48,9 +48,9 @@ const faqs = [
     <p>
       Steken opzetten is de eerste stap van bijna elk breiproject: zo zet je de
       eerste steken op je naald. Het aantal steken dat je opzet bepaalt de
-      breedte van het afgewerkte werk. Te weinig, en het wordt te smal. Te veel,
-      en je verspilt garen en tijd. Vanaf het begin op het juiste aantal zitten
-      voorkomt later uithalen.
+      breedte aan het begin van je werk, samen met je stekenverhouding. Te
+      weinig, en het wordt te smal. Te veel, en je verspilt garen en tijd. Vanaf
+      het begin op het juiste aantal zitten kan later uithalen voorkomen.
     </p>
 
     <h2>Waarom stekenverhouding telt</h2>
@@ -58,8 +58,9 @@ const faqs = [
       Iedereen breit anders. Zelfs met hetzelfde garen en dezelfde naalden maakt
       jouw manier van breien een iets andere stof dan die van iemand anders.
       Daarom geven patronen een aanbevolen stekenverhouding, en daarom moet je
-      een proeflapje breien om die van jou te vinden. Meet hoeveel steken in 10
-      cm passen, en je hebt het getal dat deze calculator nodig heeft.
+      een proeflapje in het steekpatroon van je project breien om die van jou te
+      vinden. Was en block het zoals je het uiteindelijke werk behandelt. Meet
+      na het drogen hoeveel steken in 10 cm passen, midden op het lapje.
     </p>
 
     <h2>Zo gebruik je deze calculator</h2>
@@ -68,9 +69,21 @@ const faqs = [
         >stekenverhouding</strong
       >, dus hoeveel steken je krijgt op 10 cm breiwerk, en de <strong
         >gewenste breedte</strong
-      > van je werk. Brei eerst een proeflapje, meet het, en vul die waarden in. De
-      calculator rondt af naar het dichtstbijzijnde even aantal, een praktische standaard
-      voor veel eenvoudige steekpatronen.
+      > van je werk. Brei eerst een proeflapje, meet het, en vul die waarden in. Controleer
+      daarna de patroonherhaling en eventuele extra steken in het patroon.
+    </p>
+    <p>
+      Gebruik steken per 10 cm en de breedte in centimeters. De formule is
+      stekenverhouding × breedte ÷ 10. Deze versie rekent alleen in cm. Heb je
+      gemeten over 4 inch, reken dan eerst om naar steken per 10 cm: 4 inch is
+      precies 10,16 cm, geen 10 cm.
+    </p>
+
+    <p>
+      Het resultaat wordt afgerond naar het dichtstbijzijnde even getal; precies
+      ertussen wordt naar boven afgerond. Zo wordt 99 bijvoorbeeld 100. Een heel
+      kleine breedte kan na afronding 0 geven; dat is geen bruikbaar aantal
+      opzetsteken. Controleer je maten en het patroon voordat je opzet.
     </p>
   </div>
 </LocalizedToolPage>

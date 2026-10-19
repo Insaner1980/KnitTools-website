@@ -2,6 +2,7 @@
 title: '"Gleichzeitig" in Strickanleitungen'
 description: "Was bedeutet gleichzeitig in Strickanleitungen? So verfolgst du zwei parallele Anweisungen bei Ärmeln, Halsausschnitt und Formgebung."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 8
 tags:
@@ -16,39 +17,37 @@ lang: de
 translationKey: "at-the-same-time-knitting"
 ---
 
-Es bedeutet genau das, was dort steht, und gerade deshalb ist es verwirrend. Zwei verschiedene Dinge passieren auf denselben Reihen. Die Anleitung beschreibt sie getrennt, obwohl du sie zusammen ausführst.
+„Gleichzeitig“ bedeutet, dass zwei Anweisungsblöcke während eines Teils der Arbeit parallel laufen. Die einzelnen Schritte können in unterschiedlichen Reihen liegen; nur manche Reihen enthalten beide. Folge jeder Anweisung von ihrem eigenen Startpunkt bis zum angegebenen Ende.
 
-„Gleichzeitig“ in einer Strickanleitung bedeutet, dass zwei Anweisungsblöcke über dieselben Reihen parallel laufen. Meist liegt eine Formgebung über einem laufenden Muster. Das taucht besonders oft bei Kleidungsstücken auf. Die Anleitung kann beides nicht leicht in eine einzige klare Zeile packen, also beschreibt sie erst eine Aktion, sagt dann „gleichzeitig“ und beschreibt die andere.
+Lies vor dem Stricken den ganzen Abschnitt für deine gewählte Größe. Die Hinweise und die Zeichenerklärung der Anleitung haben Vorrang vor allgemeinen Konventionen. Der [Leitfaden des Craft Yarn Council](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern) erklärt gleichzeitige und gegengleiche Formgebung (auf Englisch).
 
 ## Ein konkretes Beispiel
 
-Eine typische Stelle aus einer Pulloveranleitung:
+Hier ist eine gedachte Übung in glatt rechts mit 40 Maschen, die in Reihen gestrickt wird. Reihe 1 ist die nächste Reihe dieses Abschnitts, eine Rückreihe auf der linken Seite. Frühere Reihen und der Anschlag zählen nicht mit. Die erste Abnahme liegt ausdrücklich in Reihe 6, einer Hinreihe auf der rechten Seite:
 
-„Continue in stockinette stitch. AT THE SAME TIME, decrease 1 st at each end of every 6th row, 5 times.“
+„Glatt rechts weiterstricken. In Reihe 6 an beiden Enden je 1 Masche abnehmen. Diese Abnahmen in jeder 6. Reihe noch 4-mal wiederholen, insgesamt 5 Abnahmereihen.“
 
-Du strickst weiter glatt rechts, also auf der rechten Seite rechts und auf der linken Seite links. Aber in jeder 6. Reihe arbeitest du am Anfang und am Ende der Reihe je eine Abnahme. Die Abnahmen passieren innerhalb der glatt-rechts-Reihen. Du beendest nicht erst das eine und machst dann das andere.
+- Reihe 1 (Rückreihe): links stricken.
+- Reihe 2 (Hinreihe): rechts stricken.
+- Reihe 3 (Rückreihe): links stricken.
+- Reihe 4 (Hinreihe): rechts stricken.
+- Reihe 5 (Rückreihe): links stricken.
+- Reihe 6 (Hinreihe): ssk, rechts bis zu den letzten 2 M, 2 M rechts zusammenstricken. Es bleiben 38 Maschen.
+- Reihe 7 (Rückreihe): links stricken.
 
-Reihe 1: rechts stricken  
-Reihe 2: links stricken  
-Reihe 3: rechts stricken  
-Reihe 4: links stricken  
-Reihe 5: rechts stricken  
-Reihe 6: ssk, rechts bis zu den letzten 2 M, 2 M rechts zusammenstricken (Abnahmereihe, immer noch glatt rechts)  
-Reihe 7: links stricken
+In diesem Beispiel werden die ungeraden Reihen links und die geraden rechts gestrickt. Nimm auch in den Reihen 12, 18, 24 und 30 ab. Danach bleiben jeweils 36, 34, 32 und 30 Maschen. Jede Abnahme macht aus 2 Maschen 1; jede Abnahmereihe entfernt also 2 Maschen: 40 − 5 × 2 = 30. Nach Reihe 30 sind die Abnahmen beendet; stricke nach Anleitung weiter.
 
-Und so weiter. In jeder 6. Reihe abnehmen, insgesamt 5 Abnahmereihen.
-
-Glatt rechts hört nicht auf. Die Abnahmen liegen darüber.
+Zwischen den Abnahmereihen liegen fünf andere Reihen. Fünfmal **insgesamt** schließt Reihe 6 ein. Fünf **weitere** Wiederholungen nach Reihe 6 wären sechs Abnahmereihen, die letzte in Reihe 36, mit 28 verbleibenden Maschen. „In jeder 6. Reihe“ legt allein noch keine erste Abnahmereihe fest: Suche den Startpunkt in den umgebenden Anweisungen.
 
 ## Wo das auftaucht
 
-Am häufigsten bei Armloch- und Halsausschnittformung gleichzeitig. Die Anleitung beschreibt erst die Armlochabnahmen und sagt dann: „gleichzeitig, wenn das Teil X cm misst, mit der Halsausschnittformung beginnen“. Sobald der Halsausschnitt beginnt, laufen beide Abnahmen auf denselben Reihen. Du nimmst also an beiden Kanten ab, aber in unterschiedlichen Rhythmen. Armloch vielleicht jede 2. Reihe, Halsausschnitt jede 4. Reihe.
+Armloch und Halsausschnitt können im selben Arbeitsabschnitt geformt werden. Eine Formgebung kann bei einer bestimmten Reihe beginnen, die andere bei einem Längenmaß. Miss vom angegebenen Punkt aus und beachte Vorgaben, mit welcher Reihe der Abschnitt enden soll. Ein Längenmaß allein ergibt keine Reihennummer: Eine Schätzung braucht die Reihenzahl pro Längeneinheit und eine Rundung auf eine passende ganze Reihe; sie ersetzt das Nachmessen nicht. Während der Überschneidung kann eine Reihe eine Abnahme, beide oder keine enthalten.
 
 Dasselbe passiert, wenn ein Muster während der Formgebung wechselt. Ein Pulloverkörper kann vom Rippenmuster zu Zöpfen wechseln, während gleichzeitig Taillenzunahmen beginnen. Auch bei Blenden: „Im Perlmuster weiterstricken. GLEICHZEITIG Knopflöcher in den Reihen 4, 14, 24 und 34 arbeiten.“ Das Perlmuster läuft weiter. Die Knopflöcher werden an den passenden Stellen eingefügt.
 
 ## Ein Beispiel mit zwei überlappenden Rhythmen
 
-Damit du siehst, wie das praktisch aussieht: Stell dir Armlochabnahmen jede 2. Reihe und Halsausschnittabnahmen jede 4. Reihe vor. Beide starten in derselben Reihe.
+Dieses separate Beispiel wird in Reihen über nur einen Vorderteilabschnitt mit 30 Maschen gestrickt. In der Hinreihe liegt die Armlochkante am Anfang und die Halskante am Ende. Reihe 1 beginnt diesen Abschnitt auf der rechten Seite (RS); gerade Reihen liegen auf der linken Seite (WS, englisch „wrong side“). Nimm in Reihe 1 an jeder Kante 1 Masche ab. Wiederhole die Armlochabnahme in jeder zweiten Reihe noch 4-mal (5 insgesamt) und die Halsabnahme in jeder vierten Reihe noch 2-mal (3 insgesamt). Verwende hier ssk am Anfang und 2 M rechts zusammenstricken am Ende; stricke die Rückreihen links.
 
 | Reihe | RS/WS | Armloch | Hals | Beides?     |
 | ----- | ----- | ------- | ---- | ----------- |
@@ -62,25 +61,23 @@ Damit du siehst, wie das praktisch aussieht: Stell dir Armlochabnahmen jede 2. R
 | 8     | WS    | -       | -    | -           |
 | 9     | RS    | ja      | ja   | ja          |
 
-Alle 2 Reihen bekommt das Armloch eine Abnahme. Alle 4 Reihen bekommt der Halsausschnitt eine Abnahme. Alle 4 Reihen passiert beides in derselben Reihe. Die Tabelle ist der ganze Trick. Sobald du die Überlappung siehst, wird das Stricken zu einer Reihe normaler Abnahmen.
+Die Armlochabnahmen liegen in den Reihen 1, 3, 5, 7 und 9; die Halsabnahmen in den Reihen 1, 5 und 9. Beide liegen also in Reihe 1, 5 und 9, nicht bei durch 4 teilbaren Reihennummern. Die Maschenzahlen nach den Reihen 1–9 lauten **28, 28, 27, 27, 25, 25, 24, 24, 22**. Nach Reihe 9 sind beide Serien fertig: 30 − 5 − 3 = 22 Maschen. In diesem Beispiel werden keine Maschen stillgelegt oder abgekettet.
 
-Die Tabelle vorher aufzuschreiben dauert fünf Minuten. Sie spart dir später Stunden Verwirrung mitten in der Reihe.
+Die Zahlen gelten für einen Abschnitt, nicht für das ganze Kleidungsstück oder beide Vorderteile zusammen. Wenn der Halsausschnitt die Arbeit teilt, verfolge Maschenzahl und Anweisungen für jede Seite getrennt. Unterscheide stillgelegte von abgeketteten Maschen; stillgelegte Maschen bleiben erhalten. Folge der Anleitung für getrennte Arbeitsfäden und die gegengleiche Formgebung auf der anderen Seite.
 
 ## Warum Anleitungen so geschrieben sind
 
-Die Alternative wäre schlechter. Jede Reihe mit allen Aktionen fertig zusammenzuschreiben macht die Anleitung lang, wiederholend und für alle jenseits des ersten Einstiegs schwerer zu verfolgen. Die Aktionen zu trennen und dir zu sagen, dass du sie kombinieren sollst, ist übersichtlicher, sobald du die Konvention kennst.
+Strickmuster und Formgebung getrennt zu beschreiben hält die Anleitung kurz, besonders bei mehreren Größen. Ein zusammengeführter Reihenplan kann beim Stricken trotzdem leichter zu verfolgen sein.
 
 Stell es dir wie zwei gleichzeitig laufende Stimmen vor. Melodie und Basslinie. Jede ergibt für sich Sinn, aber du spielst beide.
 
 ## So behältst du den Überblick
 
-Das Stricken selbst ist meist nicht schwer. Schwer ist, sich zu merken, welche Reihe welche Aktion braucht, oder beide.
+Notiere für jede Anweisung Startreihe, Abstand, Gesamtzahl der Ausführungen, Kante und Endbedingung. „Nächste Reihe“ ist die Reihe, die du als Nächstes strickst; zähle die zuletzt beendete Reihe nicht erneut. Kennzeichne Vorbereitungsreihen separat und unterscheide die Reihenzählung des ganzen Teils von einer Zählung ab Abschnitts- oder Formungsbeginn.
 
-Der einfachste Weg: Schreib es aus, bevor du beginnst. Füge die zwei Anweisungsblöcke zu einer Reihe-für-Reihe-Liste zusammen. „Reihe 1: rechts, am Armloch abnehmen. Reihe 2: links. Reihe 3: rechts, am Halsausschnitt abnehmen.“ Das dauert ein paar Minuten, nimmt aber beim Stricken die Denkarbeit heraus.
+Die Liste zur Tabelle beginnt: „Reihe 1: rechts mit beiden Abnahmen. Reihe 2: links. Reihe 3: rechts mit nur der Armlochabnahme.“ Hake sowohl die Reihe als auch die ausgeführten Schritte ab. Bei zwei manuell bedienten Intervallzählern zählst du nach jeder fertigen Reihe beide weiter, solange ihre Serien laufen, auch ohne Abnahme. Notiere die Zahl der ausgeführten Abnahmen separat, damit du das Ende jeder Serie erkennst.
 
-Zwei Zähler funktionieren ebenfalls. Einer verfolgt den Armloch-Rhythmus, der andere den Halsausschnitt. Wenn beide in derselben Reihe auslösen, machst du beide Aktionen. Manche markieren direkt in der Anleitung, welche Reihen Armlochabnahmen, Halsausschnittabnahmen oder beides enthalten. Verschiedene Textmarkerfarben helfen.
-
-Der KnitTools-[Reihenzähler](/de/werkzeuge/#join) unterstützt mehrere parallele Zähler genau für solche Situationen.
+Mehrere Zähler im KnitTools-[Reihenzähler](/de/werkzeuge/#join) gehören zu Pro. Für diese Methode kannst du separate, nicht verknüpfte Zähler selbst weiterschalten. Du deutest die Anleitung, gibst die Startwerte ein und verfolgst die fälligen Schritte selbst; damit wird nicht versprochen, dass die App Anweisungen liest oder den zusammengeführten Plan automatisch erstellt.
 
 ## Abnahmeart und Symmetrie
 
@@ -90,48 +87,52 @@ Wenn zwei Formgebungen in derselben Reihe passieren, verwende die Abnahmearten, 
 
 Wenn Abnahmen in derselben Reihe liegen, arbeitest du sie in der Reihenfolge, in der du ihnen begegnest. Erst die Formgebung an der ersten Kante, dann über die Reihe stricken, dann die Formgebung an der anderen Kante. Wenn beide Formgebungen nahe an derselben Kante liegen, folge der Anleitung genau und prüfe die Maschenzahl, bevor du weiterstrickst.
 
+Abketten ist etwas anderes als Abnehmen. Beim gewöhnlichen Stricken in Reihen werden Maschen an einer Außenkante meist am Reihenanfang abgekettet. Gegenüberliegende Kanten können deshalb in aufeinanderfolgenden Hin- und Rückreihen abgekettet werden. Ersetze das nicht durch Abnahmen an beiden Enden derselben Reihe. Nach dem Wenden liegt der Anfang an der gegenüberliegenden Kante. Folge bei Hals- und Schulterformung der angegebenen Kante, Arbeitsrichtung und Technik. Linke und rechte Kleidungsstückteile werden aus Sicht der tragenden Person benannt.
+
 ## Wenn Rhythmen kollidieren
 
-Wenn zwei Aktionen in unterschiedlichen Abständen laufen, haben manche Reihen beides. Armlochabnahmen jede 2. Reihe, Halsausschnitt jede 4. Reihe. Das heißt: jede 4. Reihe bekommt zwei Abnahmeaktionen.
+Die Abstände allein bestimmen nicht, wo sich Schritte treffen: Auch die Startreihen zählen. In der Tabelle beginnen beide in Reihe 1, daher treffen sich der 2-Reihen- und der 4-Reihen-Rhythmus in Reihe 1, 5 und 9. Andere Startpunkte können die Überschneidung verschieben oder verhindern.
 
-Arbeite sie getrennt über die Nadel. Beginne mit der Abnahme, die an den Reihenanfang gehört, stricke über die Reihe und mach die andere am gegenüberliegenden Ende. Wenn beide an derselben Kante passieren, selten, aber bei asymmetrischen Konstruktionen möglich, arbeitest du sie nacheinander.
+Arbeite die Schritte in der Reihenfolge, in der du sie entlang der Reihe erreichst. Liegen sie nahe derselben Kante, prüfe, welche Maschen jeder Schritt verbraucht; verwende dieselben Maschen nicht gedanklich zweimal. Erhalte die Ausrichtung des Musters einschließlich Randmaschen und unvollständiger Rapporte nach Anleitung.
 
-## Wenn der Rhythmus auf eine linke Reihe fällt
+## Wenn der Rhythmus auf eine Rückreihe fällt
 
-Die meisten sichtbaren Formgebungen sind für rechte Reihen geschrieben, weil Abnahmen auf der rechten Seite leichter zu lesen sind. Trotzdem kann dich die Reihenangabe täuschen. Wenn ein Rhythmus wie „in jeder 4. Reihe abnehmen“ auf einer rechten Reihe startet, bleiben die nächsten Abnahmereihen rechte Reihen. Wenn der Zählstart auf einer linken Reihe liegt, bleiben auch die Auslösereihen linke Reihen.
+Beim gewöhnlichen Stricken in Reihen ohne verkürzte Reihen wechseln rechte und linke Seite. Eine Abnahme vier Reihen nach der vorherigen liegt wieder auf derselben Seite, mit drei Reihen dazwischen. Entscheidend ist die erste **Abnahmereihe**, nicht allein der Zählbeginn. Ungerade Reihen sind nicht immer Hinreihen: Reihe 1 ist in der ersten Übung eine Rückreihe, in der Tabelle eine Hinreihe.
 
-Verschiebe eine Abnahme nicht stillschweigend, nur weil sich die Reihe unpraktisch anfühlt. Prüfe zuerst die Hinweise der Anleitung, Maschenzahlen und mögliche Errata. Wenn die Anleitung eine Abnahme auf der linken Seite verlangt, verwende die angegebene linke Abnahme, etwa `2 M links zusammenstricken` oder `ssp`. Wenn die Anleitung sagt, dass nur auf rechten Reihen geformt wird, halte die Abnahme auf der nächsten rechten Reihe fest und markiere die Zählung klar.
-
-Wichtig ist, nicht zu raten. Die Gesamtzahl der Abnahmen muss zur Anleitung passen, und die Formgebungslinie soll konsistent bleiben.
+Widerspricht der Rhythmus einer Vorgabe, nur in Hinreihen zu formen, prüfe Startpunkt, Hinweise und Errata oder frage beim Designteam nach. Verschiebe die Abnahme nicht eigenmächtig auf die nächste Hinreihe. Verwende auf der linken Seite die angegebene Abnahme, etwa 2 M links zusammenstricken oder ssp. Beim gewöhnlichen Rundstricken bleibt die rechte Seite zu dir gewandt; der Wechsel zwischen rechten und linken Reihen aus diesen Beispielen gilt dort nicht.
 
 ## Wenn die Aktionen nicht zusammen starten
 
-Manchmal ist der Start versetzt. Erst „Armlochformung beginnen“ und drei Reihen später „gleichzeitig Halsausschnittformung beginnen“. Die beiden laufen nur für einen Teil der Arbeit parallel. Eine Aktion beginnt zuerst, beide laufen eine Weile zusammen, dann endet eine vor der anderen.
+Manchmal beginnt die Armlochformung zuerst und die Halsformung später. Sie laufen nur während eines Teils der Arbeit parallel, und eine kann früher enden. Notiere jeweils die tatsächliche Startreihe und Endbedingung; starte den ersten Rhythmus nicht neu, wenn der zweite beginnt.
 
 Hier zahlt sich ein zusammengeführter Reihenplan besonders aus. Markiere die Armlochreihen. Lege die Halsausschnittreihen darüber. Kennzeichne, welche Reihen nur Armloch, nur Hals oder beides enthalten. Stricke nach dem zusammengeführten Plan. Wenn du gleichzeitig die übrige [Struktur der Anleitung](/de/artikel/strickanleitung-lesen/) entwirrst, erklärt dieser Leitfaden Größen, Rapporte und Abkürzungen.
 
 ## Knopflöcher an Blenden
 
-Eine häufige Variante: „Im Perlmuster (oder Rippenmuster) weiterstricken. GLEICHZEITIG Knopflöcher in den Reihen 6, 16, 26, 36 und 46 arbeiten.“
+Eine häufige Variante: „Im Perlmuster oder Rippenmuster weiterstricken. GLEICHZEITIG Knopflöcher in den Reihen 6, 16, 26, 36 und 46 arbeiten.“
 
-Das unterscheidet sich in zwei Punkten von Formgebung. Knopflöcher sammeln sich nicht an; jedes ist ein einzelnes Ereignis. Und der Abstand wird oft durch genaue Reihenzahlen festgelegt. Am saubersten markierst du diese Reihen vorher mit Haftnotizen in der Anleitung oder als Erinnerungen in einer Reihenzähler-App.
+Das sind fünf Knopflochreihen im Abstand von 10 Reihen, mit neun Reihen dazwischen. Das frühere Beispiel, Reihen 4, 14, 24 und 34, enthält vier Knopflochreihen mit demselben Abstand. In diesen gedachten Plänen beginnt die Zählung am Anfang der Blende; eine frühere Vorbereitungsreihe zählt nicht mit. Hier ist Reihe 1 eine Rückreihe, sodass die genannten geraden Reihen Hinreihen sind. Das ist eine ausdrückliche Annahme dieser Beispiele, keine allgemeine Regel.
 
-Wenn du die Abstände selbst planst, entscheide vor dem Stricken der Blende, ob die Knopflöcher auf rechte Reihen gehören, und markiere sie. Wenn eine veröffentlichte Anleitung genaue Reihen nennt, folge diesen Reihen, außer die Hinweise der Anleitung sagen etwas anderes.
+Dies sind Zeitpläne, keine vollständigen Blendenanleitungen: Anfangsmaschenzahl und Knopflochposition innerhalb der Reihe sind nicht angegeben. Bei einem einfachen Umschlagknopfloch fügt ein Umschlag 1 Masche hinzu und 2 M rechts zusammenstricken entfernt 1. Die Anfangsmaschenzahl ist somit noch in derselben Reihe wieder erreicht. Stricke die übrigen Maschen im bisherigen Muster. Ein Knopfloch mit Abketten und erneutem Anschlagen kann die Maschenzahl vorübergehend ändern; verfolge beide Schritte in den angegebenen Reihen. Verwende Methode und Position aus der Anleitung.
+
+Markiere Reihen und fertige Knopflöcher auf Papier oder in selbst gepflegten Notizen. Gibt eine veröffentlichte Anleitung andere Reihen oder einen anderen Zählbeginn an, folge diesen Vorgaben.
 
 ## Notizen anderer Strickender prüfen
 
-Wenn ein Abschnitt einer Anleitung verwirrend bleibt, suche die Anleitung auf Ravelry und schau dir die Projektseiten an. Andere Strickende markieren oft, wo sie Timing-Probleme hatten, besonders bei „gleichzeitig“-Abschnitten. Notizen wie „Armloch und Hals überlappen, ich habe die Reihen vorher ausgeschrieben“ sind häufig, genauso wie Korrekturen zu missverständlicher Formulierung.
-
-Eine komplexe Anleitung ohne Ravelry-Projekte gibt dir weniger Hinweise von außen. Das macht sie nicht automatisch schlecht, aber dein Reihenplan und deine Maschenzahlen werden wichtiger.
+Projektnotizen anderer Strickender auf Ravelry können helfen, eine offene Frage zu erkennen. Vergleiche dieselbe Größe, Anleitungsversion und vorgenommene Änderungen. Prüfe vorgeschlagene Korrekturen anhand der Hinweise oder Errata des Designteams; eine Projektnotiz ist für sich keine offizielle Korrektur.
 
 ## FAQ
 
-**Kann man eine Aktion ein paar Reihen vergessen und später korrigieren?** Wenn du es innerhalb von ein oder zwei Reihen merkst, stricke zurück. Wenn du schon mehrere Zentimeter weiter bist, kannst du vielleicht in der nächsten passenden Reihe eine zusätzliche Abnahme einbauen. Eine vergessene Abnahme lässt sich oft ausgleichen. Mehrere bedeuten meist: zurück.
+**Kann man eine Aktion ein paar Reihen vergessen und später korrigieren?**
+Prüfe, welcher Schritt in welcher Reihe fehlt und wie er Form und Muster beeinflusst. Eine spätere zusätzliche Abnahme stellt die Maschenzahl wieder her, aber nicht die ursprüngliche Position oder Formungslinie. Durch Zurückarbeiten bis zum Fehler lässt sich die geschriebene Folge wiederherstellen; eine andere Lösung muss für die konkrete Anleitung geprüft werden.
 
 **Kann man die Aktionen nacheinander statt gleichzeitig machen?** Nein. Das Timing ist Absicht. Armloch- und Halsausschnittformung überlappen, weil die Abnahmen für die richtige Form in bestimmten Abständen liegen müssen. Erst das eine fertigzustellen und dann das andere zu beginnen verändert die Proportionen.
 
-**Kommt das nur bei Kleidung vor?** Meistens. Gelegentlich auch bei Accessoires, etwa wenn bei einer Mütze das Jacquardmuster wechselt, während die Abnahmen an der Spitze beginnen, oder in komplexen Mustern. Kleidungsformung ist aber der häufigste Fall.
+**Kommt das nur bei Kleidung vor?**
+Nein. Auch Accessoires können ein Struktur- oder Farbmuster mit Formgebung verbinden, etwa ein Mützenmuster, das während der Abnahmen weiterläuft. Folge den Rundennummern, wenn du in Runden strickst.
 
-**Warum schreibt die Anleitung nicht einfach jede Reihe aus?** Manche tun das, besonders einsteigerfreundliche Anleitungen. Bei komplexen Kleidungsstücken mit mehreren Größen würden Reihe-für-Reihe-Anweisungen für jede Größe aber viele zusätzliche Seiten erzeugen. Die Konvention spart Platz, und erfahrene Strickende erwarten sie.
+**Warum schreibt die Anleitung nicht einfach jede Reihe aus?**
+Manche tun das, besonders Anleitungen für den Einstieg. Wiederkehrende Anweisungen getrennt zu beschreiben spart Platz bei mehreren Größen. Du kannst deine gewählte Größe Reihe für Reihe ausschreiben, ohne die Abfolge zu verändern.
 
-**Wie erstelle ich am schnellsten einen zusammengeführten Reihenplan?** Eine kleine Tabelle oder eine Spalte mit Reihennummern auf Papier reicht. Nummeriere die Reihen 1 bis 60 oder so weit wie nötig. Setze in der Armloch-Spalte bei jeder 2. Reihe ein Häkchen, in der Hals-Spalte bei jeder 4. Reihe ein Häkchen, und kreise die Reihen ein, in denen beides passiert. Fünf Minuten Vorbereitung nehmen beim Stricken viel Denkarbeit heraus.
+**Wie erstelle ich am schnellsten einen zusammengeführten Reihenplan?**
+Nutze eine Spalte für Reihennummern und je eine für jede Aktion. Trage zuerst die tatsächliche Startreihe ein, dann Abstand und Gesamtzahl. In der Tabelle markierst du Armloch bei 1, 3, 5, 7, 9 und Hals bei 1, 5, 9. Nimm Zwischenreihen auf und beende jede Serie nach ihrer Gesamtzahl, auch wenn die andere weiterläuft.

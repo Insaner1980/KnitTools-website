@@ -2,6 +2,7 @@
 title: "Pyöröpuikot, suorat puikot vai sukkapuikot?"
 description: "Vertaa pyöröpuikkoja, suoria puikkoja ja sukkapuikkoja. Opi, mikä puikkotyyppi sopii eri projekteihin ja miksi."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: needles
 categoryOrder: 1
 tags:
@@ -15,138 +16,134 @@ lang: fi
 translationKey: "circular-vs-straight-vs-dpn"
 ---
 
-Puikkotyyppejä on kolme, koska eri projektit pyytävät eri asioita. Suorat puikot hoitavat tasoneuleen. Pyöröpuikot hoitavat tasoneuleen ja putket. Sukkapuikot hoitavat pienet ympärysmitat. Kun tämä peruslogiikka loksahtaa, puikkojen ostaminen muuttuu paljon vähemmän hämmentäväksi.
-
-Asiaa mutkistaa se, että kategoriat menevät päällekkäin. Pitkä pyöröpuikko voi tehdä kaiken, minkä suora puikko tekee. Magic loop -pyöröpuikko voi tehdä suurimman osan siitä, mihin sukkapuikkoja käytetään. Todellinen kysymys ei siis ole vain "mikä puikko kuuluu mihin projektiin", vaan "minkä puikkoyhdistelmän kanssa haluat oikeasti neuloa".
+Suorat puikot sopivat tasoneuleeseen, pyöröpuikoilla voi neuloa tasona tai suljettuna, ja sukkapuikot sopivat pieniin ympärysmittoihin. Käyttötavat menevät päällekkäin. Valitse välineet ohjeen, silmukoiden tarvitseman tilan ja oman otteesi mukaan.
 
 ## Pikavertailu
 
-| Tyyppi                            | Paras käyttöön                                              | Heikkous                                                       | Ostohuomio                          | Oppimiskäyrä |
-| --------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------- | ----------------------------------- | ------------ |
-| Suorat puikot                     | Kapeat tasokappaleet, aloittelija joka pitää tuntumasta     | Leveissä töissä tila loppuu, raskas neule väsyttää käsiä       | Edulliset kokeilla                  | Ei juuri     |
-| Pyöröpuikko, kiinteä              | Pipot, villapaidan vartalot, peitot, taso ja suljettu työ   | Sidottu yhteen kokoon ja kaapelin pituuteen                    | Osta yksi koko ja pituus            | Pieni        |
-| Vaihdettava pyöröpuikkosetti      | Monen neulojan arkipuikko eri kokoihin ja kaapelipituuksiin | Korkea alkuhinta, liitokset voivat löystyä                     | Paras kun tiedät neulovasi jatkossa | Pieni        |
-| Sukkapuikot                       | Sukat, lapaset, pipon kavennukset, pienet putket            | Alku tuntuu näpertelyltä, puikkojen väliin voi tulla tikapuita | Yksi pieni setti per koko           | Kohtalainen  |
-| Magic loop pitkässä pyöröpuikossa | Sama käyttö kuin sukkapuikoilla ilman erillistä settiä      | Kaapelilenkit voivat kiertyä, jos kiirehdit                    | Käyttää yhtä pitkää pyöröpuikkoa    | Kohtalainen  |
+| Tyyppi                            | Käyttökohde                               | Rajoitus                                       | Ostohuomio                         | Harjoiteltava asia                         |
+| --------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------- | ------------------------------------------ |
+| Suorat puikot                     | Kapeat tasokappaleet                      | Silmukoiden on mahduttava varsille             | Valitse paksuus ja pituus erikseen | Työn kääntäminen kerroksen lopussa         |
+| Kiinteä pyöröpuikko               | Taso- tai suljettu neule                  | Kiinteä paksuus ja kokonaispituus              | Yksi valmis puikko                 | Kääntäminen tai suljetuksi yhdistäminen    |
+| Vaihdettava pyöröpuikkosetti      | Eri paksuuksia ja pituuksia vaativat työt | Kärkien ja kaapelien on sovittava yhteen       | Tarkista setin sisältö             | Liitosten kiinnittäminen                   |
+| Sukkapuikot                       | Sukat, lapaset, pipon laki                | Useita puikkoja ja vaihtokohtia                | Setti tarvittavassa paksuudessa    | Neulominen vapaalla puikolla               |
+| Magic loop pitkällä pyöröpuikolla | Pienet ympärysmitat                       | Kaapelin on oltava joustava ja riittävän pitkä | Yksi pitkä pyöröpuikko             | Silmukoiden ja kaapelilenkkien siirtäminen |
 
-Taulukko on lähtökohta, ei tuomio. Moni neuloja rikkoo jokaista sääntöä siinä ja saa silti hyvää jälkeä.
+Taulukko kuvaa välineitä ja työvaiheita. Mukavuus ja oppimisen helppous riippuvat neulojasta.
 
 ## Suorat puikot
 
-Kaksi erillistä puikkoa, kärki toisessa päässä ja stoppari toisessa. Se kuvakirjojen neulomisen muoto, ja edelleen hyvä valinta kohtuullisen leveisiin tasoneuleisiin.
+Kaksi erillistä puikkoa, kärki toisessa päässä ja stoppari toisessa. Suorat puikot sopivat kohtuullisen leveisiin tasoneuleisiin.
 
-Rajoitus on tila. Kaikkien silmukoiden pitää mahtua puikon varrelle, joten leveissä projekteissa tila loppuu nopeasti. Kahdesta jäykästä puikosta roikkuva raskas neule myös väsyttää pitkillä neulontasessioilla. Suorat puikot ovat aloittelijalle intuitiiviset, koska asetelma on ilmeinen ja työn suunta on helppo lukea. Silti moni siirtyy pyöröpuikkoihin, kun huomaa niiden tekevän kaiken saman ja enemmän.
+Kaikkien silmukoiden pitää mahtua varrelle putoamatta. Esimerkiksi 25 cm puikot voivat sopia tiskiliinaan tai kapeaan huiviin, ja 35 cm puikoille mahtuu enemmän silmukoita. Valitse paksuus langan, neulepinnan ja tavoitellun neuletiheyden mukaan. Nämä ovat kauppakokojen esimerkkejä, eivät lupauksia tietyn työn mahtumisesta.
 
-Pituudella on enemmän väliä kuin moni odottaa. 25 cm suora puikko koossa 5 mm toimii tiskirättiin tai kapeaan huiviin. 35 cm puikkoon mahtuu leveämpi työ, mutta se voi tuntua pienissä käsissä kömpelöltä. Klassiset puiset yksipäiset puikot olivat usein pitkiä, koska niillä neulottiin kokonaisia villapaidan etukappaleita tasona. Moni nykyohje olettaa, että käytössä on pyöröpuikot.
-
-Suorilla puikoilla on silti paikkansa. Ne ovat edullisia, kestäviä ja osa neulojista pitää aidosti siitä, miten työn paino tasapainottuu kummallekin puolelle. Jos muoto toimii sinulle, siitä ei tarvitse luopua.
+Jos pidät suorien puikkojen otteesta ja tasapainosta, niistä ei tarvitse luopua. Kokeile pituutta omassa työssäsi.
 
 ## Pyöröpuikot
 
-Kaksi lyhyttä kärkeä yhdistettynä joustavaan kaapeliin. Silmukat lepäävät kaapelilla ja neulot kärjestä toiseen.
+Kaksi lyhyttä kärkeä yhdistettynä joustavaan kaapeliin. Silmukat ovat kaapelilla ja kärjillä neuloessasi kärjeltä toiselle. Kiinteän pyöröpuikon kaapeli on pysyvästi kiinni; vaihdettavat kärjet irtoavat.
 
-Suljetussa neuleessa silmukat yhdistetään ja jatketaan kääntämättä. Pipot, kaulurit, villapaidan vartalot ja kaarrokkeet kuuluvat tähän. Tasona pyöröpuikko toimii aivan yhtä hyvin: neulo loppuun, käännä, neulo takaisin. Kaapeli vain pitää silmukat kärkien välissä.
+Kun aloitat tavallisen suljetun neuleen, tarkista, ettei luomisreuna kierry puikon ympäri. Merkitse kerroksen alku ja neulo ensimmäinen luotu silmukka viimeisestä silmukasta tulevalla työlangalla. Jatka ympäri. Tasoneuleessa älä yhdistä päitä: neulo kerroksen loppuun, käännä työ ja neulo takaisin ohjeen mukaan.
 
-Useimmat neulojat päätyvät käyttämään pyöröpuikkoja lähes kaikkeen. Kaapeli kantaa painon mukavammin, lyhyet kärjet vievät vähemmän tilaa, eikä puikon varren pituus rajoita leveyttä. Se on todennäköisesti monipuolisin puikkotyyppi.
+Kaapeli pitää leveän työn kärkien välissä, jolloin neule voi levätä sylissä. Omaan otteeseen sopivuus selviää kokeilemalla.
 
 ### Kaapelin pituus
 
-Kaapelin pituuden pitää sopia siihen, miten käytät puikkoa.
+Pyöröpuikon pituus tarkoittaa tässä kokonaispituutta kärjestä kärkeen: molemmat kärjet ja kaapeli. Millimetreinä ilmoitettu puikkokoko kuvaa paksuutta, ei tätä pituutta.
 
-Suljetussa neuleessa projektin ympärysmitta määrää ylärajan. Koko puikon pituuden pitää olla hieman neuleen ympärysmittaa lyhyempi, jotta silmukat liikkuvat venymättä. 40 cm pyöröpuikko on tavallinen pipoihin. 60 tai 80 cm pyöröpuikko toimii moniin villapaidan vartaloihin koosta riippuen. Liian pitkällä puikolla silmukat eivät yllä kärjeltä toiselle venyttämättä. Liian lyhyellä et saa silmukoita kiertämään ollenkaan.
+Tavallisessa suljetussa neuleessa kokonaispituuden tulee olla työn ympärysmittaa lyhyempi, jotta kärkiä voi liikutella venyttämättä silmukoita. 40 cm on tavallinen lähtökohta aikuisen pipoon; 60 tai 80 cm sopii moniin villapaidan vartaloihin koosta riippuen. Pieni pipo voi tarvita toisen menetelmän. Silmukoita voi pakata lyhyemmälle puikolle, mutta liiallinen ahtaus vaikeuttaa niiden liikuttamista. Myös kärkien on oltava riittävän lyhyet, jotta ne kohtaavat luontevasti. Vaihda kavennusten edetessä sukkapuikkoihin, magic loopiin tai kahteen pyöröpuikkoon ennen kuin silmukat venyvät.
 
-Tasoneuleessa kaapelin pitää vain kantaa kaikki silmukat mukavasti. 80 cm toimii monessa tasotyössä. Peitot ja huivit tarvitsevat usein 100 cm tai enemmän. Kaapeli saa olla pidempi kuin tarvitaan, mutta ei lyhyempi.
+Tasoneuleessa ei ole suljettua ympärysmittaa, johon puikon pitäisi sopia. 80 cm on käyttökelpoinen monissa töissä; 100 cm tai pidempi antaa enemmän tilaa suurelle peitolle tai huiville. Valitse riittävä tila ja hallittava kaapeli. Magic loop käyttää tarkoituksella ylimääräistä kaapelia, joten siihen ei sovelleta tavallisen suljetun neuleen pituussääntöä.
 
 ### Kaapelin laatu
 
-Kaikki kaapelit eivät ole samanlaisia. Jäykkä kaapeli, joka muistaa pakkauksen mutkat, taistelee vastaan jokaisen projektin alussa. Pehmeä ja joustava kaapeli asettuu tasaisesti ja käyttäytyy. Liitoskohta, jossa kaapeli kohtaa kärjen, on myös halpojen puikkojen tavallinen heikko kohta. Langan tarttuminen liitokseen on pieni ärsytys, joka kertyy projektin aikana.
+Tarkista kaapelin joustavuus ja se, että silmukat liukuvat kärkien ja kaapelin liitosten yli takertumatta. Pelkkä hinta ei kerro näitä ominaisuuksia.
 
-Jos ostat settiä, kaapelijärjestelmä merkitsee yhtä paljon kuin kärjet. Kierreliitokset voivat olla sileitä, mutta ne voivat löystyä, ellei niitä kiristä kunnolla. Osa merkeistä käyttää kiristysavaimia, osa pyöriviä kaapeleita ja osa click- tai twist-lock-tyyppisiä lukkoja. Mikään niistä ei ole kaikille paras. Kokeile yhtä kärkeä ja kaapelia tai lainaa toisen neulojan settiä ennen isoa ostosta.
+Kiinnitä vaihdettavat kärjet valmistajan ohjeella. Esimerkiksi ChiaoGoo neuvoo käyttämään kiristysavainta kierreliitoksissaan. Kaapelin pyörivyys ja liitoksen lukitus ovat eri ominaisuuksia; tarkista juuri kyseinen järjestelmä.
 
 ## Magic loop
 
-Magic loop on tapa neuloa pieniä ympärysmittoja pitkällä pyöröpuikolla sukkapuikkojen sijaan. Kun olet tehnyt sen muutaman kerran, siitä tulee luonteva.
+Magic loopissa pieni ympärysmitta neulotaan yhdellä pitkällä pyöröpuikolla. Kaapeli muodostaa työn ulkopuolelle lenkit.
 
-Perusliike on tämä: luo tai järjestä silmukat niin, että puolet ovat kaapelin toisella puolella ja puolet toisella. Vedä kaapelista lenkki puolikkaiden väliin niin, että etummainen puikko, jolla aiot neuloa, osoittaa suoraan ulos. Neulo se puolikas. Kun pääset loppuun, liu'uta kaikki takaisin kaapelia pitkin, järjestä neulomaton puolikas etupuikolle ja toista.
+Jaa silmukat kahteen, yleensä suunnilleen yhtä suureen ryhmään. Liu'uta ryhmät kärjille ja pidä kärjet rinnakkain oikealle osoittaen. Työlanka tulee takimmaisesta ryhmästä. Tarkista luomisreunan kiertymättömyys ennen yhdistämistä. Vedä **takimmainen kärki** pois silmukoista, jolloin ne jäävät kaapelille. Neulo tällä vapautetulla kärjellä oikeassa kädessä **etummaisen kärjen** silmukat; etummainen kärki on vasemmassa kädessä. Asettele työ uudelleen, liu'uta seuraava ryhmä etukärjelle ja vapauta takakärki taas neulomista varten. Kaksi puolikasta muodostaa kerroksen. Merkitse kerroksen alku esimerkiksi neuleeseen kiinnitetyllä avattavalla silmukkamerkillä.
 
-Monelle 100 cm pyöröpuikko on mukava oletus. Joustava 80 cm pyöröpuikko voi toimia sukissa, mutta lisävara tekee lenkeistä helpommat hallita. Kaksi sukkaa yhtä aikaa vaatii usein 100 tai 120 cm, jotta molemmille sukille on tilaa vierekkäin.
+Joustava 80 tai 100 cm pyöröpuikko on kokeilun lähtökohta. Työn koko, kärkien pituus ja kaapelin joustavuus ratkaisevat, jääkö molemmille lenkeille riittävästi tilaa ilman silmukoiden venytystä. Kahden sukan yhtäaikainen neulominen vaatii tilaa molemmille töille: kokeile 100 tai 120 cm kokonaispituutta tämän mukaan.
 
-Tekniikassa on vaihtokauppa. Magic loop hidastaa puikkopuolikkaiden välissä, koska silmukoita liu'utetaan ja kaapelilenkkejä vedetään joka puolen kerroksen jälkeen. Sukkapuikot ovat nopeammat, kun lakkaat taistelemasta niiden kanssa. Toisaalta mukana kulkee vähemmän välineitä, ja magic loopissa tikapuiden paikkoja on vähemmän, koska puikonvaihtoja on kaksi kerroksella eikä kolme tai neljä.
+Magic loopissa on kaksi ryhmän vaihtokohtaa kerroksella, tavallisessa sukkapuikkotyössä kolme tai neljä. Määrä ei takaa tikapuutonta jälkeä tai nopeampaa neulomista.
 
 ## Kaksi pyöröpuikkoa
 
-Kahden pyöröpuikon menetelmä on välimuoto, josta puhutaan vähemmän. Käytä kahta erillistä pyöröpuikkoa, yleensä keskipitkiä noin 60 tai 80 cm puikkoja. Laita puolet silmukoista toiselle ja puolet toiselle, ja neulo kummankin puikon silmukat sen omalla pyöröpuikolla. Ne silmukat, joita et juuri nyt neulo, lepäävät toisen puikon kaapelilla.
+Käytä kahta samanpaksuista pyöröpuikkoa, joille silmukkaryhmät mahtuvat ja joiden kärkiä pystyt liikuttamaan vapaasti. 60 ja 80 cm ovat esimerkkejä, eivät pakollisia pituuksia. Jaa silmukat suunnilleen puoliksi. Neulo kummankin puikon silmukat sen omalla toisella kärjellä, ja anna toisen puikon silmukoiden levätä kaapelilla. Älä neulo puikolta toisen pyöröpuikon kärjelle.
 
-Menetelmää käytetään eniten kahden sukan yhtäaikaiseen neulomiseen ja silloin, kun magic loop ei tunnu hyvältä mutta sukkapuikotkaan eivät houkuta. Haittapuoli on se, että tarvitset kaksi saman kokoista pyöröpuikkoa. Se on harvinaista, ellei sinulla ole vaihdettavaa settiä ja useita kaapeleita.
+Menetelmä sopii myös yhden pienen putken neulomiseen. Kahden työn yhtäaikainen neulominen vaatii sille sopivan järjestelyn. Tarvitset kaksi kokonaista pyöröpuikkoa: setin lisäkaapelit eivät yksin riitä, jos siinä on vain yksi kärkipari haluttua paksuutta.
 
 ## Sukkapuikot
 
-Lyhyet, 13-20 cm puikot, joissa on kärki molemmissa päissä. Niitä käytetään neljän tai viiden puikon settinä. Jaa silmukat kolmelle tai neljälle puikolle ja neulo jäljelle jäävällä puikolla.
+Sukkapuikoissa on kärki molemmissa päissä. Tavallisessa neljän puikon järjestelyssä silmukat ovat kolmella puikolla ja neljäs on aluksi vapaa; viiden puikon järjestelyssä silmukat ovat neljällä ja viides on vapaa. Neulo yhden puikon silmukat vapaalle puikolle. Tyhjentynyt puikko toimii seuraavan ryhmän neulovana puikkona.
 
-Sukkapuikot ovat perinteinen väline pieniin putkiin: [sukan](/fi/artikkelit/sukkien-neulominen/) kärjet, lapasen peukalot, [pipon](/fi/artikkelit/pipon-neulominen/) kavennukset ja kapeat hihat. Ne tuntuvat aluksi hankalilta. Irralliset päät ovat tiellä, ja puikkojen väliin syntyy helposti tikapuita, kunnes opit kiristämään ensimmäisen silmukan hieman napakammin.
+Sukkapuikot sopivat [sukan](/fi/artikkelit/sukkien-neulominen/) kärkiin, lapasen peukaloihin, [pipon](/fi/artikkelit/pipon-neulominen/) kavennuksiin ja kapeisiin hihoihin. Tarkista ennen yhdistämistä, ettei luomisreuna kierry. Kiinnitä kerroksen alun merkki neuleeseen, jos rengasmerkki putoaisi puikon päästä. Noudata ohjeen silmukkajakoa; ryhmien ei tarvitse olla yhtä suuria.
 
 ### Tikapuiden korjaaminen
 
-Tikapuu on löysä silmukkasarakkeiden väli, joka syntyy siihen, missä yksi sukkapuikko vaihtuu seuraavaan. Korjaus on enimmäkseen mekaaninen. Kiristä jokaisen puikon ensimmäinen silmukka napakasti edellisen puikon viimeisen silmukan viereen ennen kuin neulot sen. Osa neulojista antaa pienen lisäkiristyksen myös toiselle silmukalle.
+Tikapuilla tarkoitetaan puikkojen vaihtokohtaan syntyviä löysiä vaakalankoja silmukkapylväiden välissä. Pidä vierekkäiset puikot lähellä toisiaan, kun neulot uuden ryhmän ensimmäiset silmukat, ja tasaa ylimääräinen löysyys kevyesti. Älä kiristä niin paljon, etteivät uudet silmukat liiku puikon täysipaksuisella varrella.
 
-Toinen keino on siirtää silmukoita niin, että vaihtokohta liikkuu muutaman kerroksen välein. Jos vaihdat puikkoa aina samassa pystylinjassa, löysyys kertyy siihen. Yhden tai kahden silmukan siirto jakaa ylimääräisen löysyyden eri kohtiin ja tekee pienestä epätasaisuudesta näkymättömämpää.
-
-Pingotus voi tasoittaa pieniä tikapuita, jotka jäävät jäljelle näistä keinoista huolimatta, erityisesti villapitoisessa sukkalangassa joka pörhistyy hieman pesussa.
+Voit myös siirtää vaihtokohtaa neulomalla nykyiselle puikolle yhden tai kaksi lisäsilmukkaa. Säilytä kerroksen alun ja ohjeen ryhmien merkit oikeissa kohdissa. Vaihtokohtien siirtäminen ei takaa näkymätöntä lopputulosta. Seuraa käsialaa useamman kerroksen ajan; yksi napakka nykäisy tai pingotus ei ole varma korjaus.
 
 ### Sukkapuikon pituus ja määrä
 
-Lyhyet 13-15 cm sukkapuikot ovat helpompia hallita pienissä töissä, kuten sukan kärjissä ja hansikkaiden sormissa. Pidemmät 18-20 cm puikot pitävät enemmän silmukoita, mutta tuntuvat ahtaimmilla kerroksilla kömpelöiltä.
+Noin 13–15 cm sukkapuikot voivat sopia pieniin osiin; 18–20 cm puikoille mahtuu enemmän silmukoita. Valitse pituus, jolla odottavat silmukat pysyvät puikoilla ja ote tuntuu luontevalta.
 
-Settejä on neljän ja viiden puikon versioina. Viiden puikon setissä silmukat jaetaan neljälle työpuikolle, mikä antaa tasaisemman jaon mutta enemmän vaihtokohtia. Neljän puikon setissä silmukat ovat kolmella työpuikolla, jolloin vaihtokohtia on vähemmän mutta puikkojen kulmat ovat jyrkemmät. Tämä on pitkälti mieltymyskysymys.
+Esimerkiksi 60 silmukkaa voi jakaa 20 + 20 + 20 kolmelle puikolle ja neuloa neljännellä, tai 15 + 15 + 15 + 15 neljälle ja neuloa viidennellä. Tasajako ei ole vaatimus. Ryhmien välisiä vaihtokohtia on vastaavasti kolme tai neljä kerroksella.
 
 ## Vaihdettavat puikkosetit
 
-Ne kannattaa mainita erikseen, koska niistä on tullut monelle säännöllisesti neulovalle käytännöllinen oletus. Yksi setti antaa monta kärjen kokoa ja kaapelin pituutta ilman, että ostat laatikollista kiinteitä pyöröpuikkoja.
+Vaihdettava setti tarjoaa eri paksuisia kärkiä ja eripituisia kaapeleita. Tarkista, että mukana ovat tarvitsemiesi yhdistelmien osat; lisäkaapeli ei yksin muodosta uutta pyöröpuikkoa.
 
-ChiaoGoo, KnitPro eli Knitter's Pride, Addi, HiyaHiya ja Lykke ovat yleisiä nimiä. Tarkka kokovalikoima riippuu setistä, ja osa merkeistä jakaa pienemmät ja isommat kärjet eri järjestelmiin.
+Kaapelien merkinnät ovat järjestelmäkohtaisia. [ChiaoGoo](https://www.chiaogoo.com/faqs/) ilmoittaa kaapelin oman pituuden: 20 cm kaapeli ja kaksi 10 cm kärkeä muodostavat nimellisesti 40 cm pyöröpuikon. Sen 13 cm kärjet eivät sovi tähän lyhyeen yhdistelmään. [KnitPro](https://www.knitpro.eu/en/blog/knitting-needle-cables-guide-length-types-tips) ilmoittaa kaapelit valmiin pyöröpuikon kokonaispituuden mukaan, kun mukana ovat tarkoitetut kärjet. Tarkista tuotteelle ilmoitettu kärkipituus. Valmistajien cm- ja tuumakoot ovat nimellisiä kauppakokoja, eivät aina tarkkoja muunnoksia.
 
-Hyvän ja turhauttavan setin ero ei yleensä ole vain kärjissä. Ero on siinä, miten sileät kaapeliliitokset ovat, miten luotettava lukitus on, onnistuuko vaihto yhdellä kädellä, jääkö kaapeli pakkauksen muotoon ja hankaako kokomerkintä pois muutaman projektin jälkeen. Alkuhinta on korkeampi kuin yhdellä kiinteällä pyöröpuikolla, joten setti käy järkeen, kun neulot tarpeeksi usein tarvitaksesi useampaa kuin kahta tai kolmea kokoa.
+Älä oleta eri merkkien tai saman merkin kaikkien sarjojen sopivan yhteen. ChiaoGoon TWIST- ja SPIN-osat sopivat yhteen samalla liitinkoolla. MINI-, S- ja L-liittimet eroavat, ja osa yhdistelmistä vaatii valmistajan määrittämän sovittimen.
 
 ## 23 cm pyöröpuikot
 
-Erikoistyökalu, joka kannattaa tuntea. 23 cm pyöröpuikko on niin lyhyt, että kärjet ovat hyvin pienet ja kaapeli näkyy hädin tuskin. Koko puikko mahtuu sukan ympärysmitan sisään, joten voit neuloa sukan kerrosta ilman magic loopia, sukkapuikkoja tai vaihtokohtia.
+23 cm pyöröpuikko on lyhyt erikoispuikko. Myös 9 tuuman nimellä myydään tätä kokoluokkaa; tarkka muunnos on 22,86 cm. Kokonaispituus sisältää lyhyet kärjet. Työn ympäryksen pitää riittää silmukoiden liikuttamiseen venyttämättä, ja kärjille pitää jäädä työskentelytilaa. Puikko ei sovi jokaiseen sukkaan, kärkeen, sormeen tai resoriin.
 
-Joillekin neulojille 23 cm pyöröpuikko on juuri se ratkaisu, jota he eivät tienneet tarvitsevansa. Vauhti on nopea, tikapuita ei synny ja työ pysyy kompaktina. Toisille kärjet ovat liian lyhyet pidellä mukavasti ja nivelet väsyvät muutamassa kerroksessa. Sitä ei tiedä ennen kuin kokeilee.
+Sukkapuikkojen vaihtokohtia ei ole, mutta tasainen jälki tai nopeus ei ole taattu. Kokeile, saatko lyhyistä kärjistä luontevan otteen. Valitse paksuus oman neuletiheytesi perusteella.
 
-Jos olet utelias, osta yksi 23 cm pyöröpuikko tavallisimmassa sukkapuikkokoossasi, esimerkiksi 2,25 tai 2,5 mm, ennen kuin sitoudut sarjaan. Useimmat kokeilijat joko rakastuvat niihin tai siirtävät ne hiljaa sivuun yhden sukan jälkeen.
+Vaihda menetelmää, kun ympärys pienenee liikaa. Myös tasona neulottava kantapää voi tarvita toisen järjestelyn. Tarkista neuletiheys vaihdon jälkeen: sama nimellinen puikkokoko ei takaa samaa silmukka- tai kerrostiheyttä.
 
 ## Ergonomiset muodot
 
-Tavallisen pyöreän puikon lisäksi on muutamia muita muotoja. Neliskanttiset puikot, kuten Kollagen ja muutamien pienempien merkkien mallit, asettuvat käteen eri tavalla ja voivat vähentää rasitusta neulojilla, joilla on käsikipua. Cubics eli KnitPro/Knitter's Pride -malli käyttää saman tapaista ideaa. Prym Ergonomics -puikot on valmistettu joustavasta, suorituskykyisestä synteettisestä materiaalista. Niissä on pisaranmuotoiset kärjet, ja varsi muuttuu pyöreästä kolmiomaiseksi.
-
-Auttaako jokin näistä, riippuu ihmisestä ja kivun syystä. Markkina on pieni, hinnat ovat korkeammat, eivätkä ne korvaa lääkärin kanssa työskentelyä vakavissa käsiongelmissa. Lievässä epämukavuudessa osa neulojista löytää yllättävän ratkaisun vaihtamalla muotoa materiaalin tai koon sijaan.
+Puikon muoto vaikuttaa myös otteeseen. Esimerkiksi Prymin prym.ergonomics-suorissa puikoissa on pisaranmuotoiset kärjet ja pyöreästä kolmiomaiseksi muuttuva varsi. Tämä kuvaa rakennetta, ei osoitettua hoitoa käsikipuun. Arvioi otetta ja mukavuutta omassa neulomisessasi.
 
 ## Mikä puikko mihinkin projektiin
 
-Tasohuivi toimii suorilla puikoilla tai pyöröpuikoilla tasona. Pipo aloitetaan yleensä pyöröpuikolla vartaloa varten ja siirrytään sukkapuikkoihin tai magic loopiin päälaen kavennuksissa. Sukat voi tehdä sukkapuikoilla, magic loopilla, kahdella pyöröpuikolla tai 23 cm pyöröpuikoilla oman mieltymyksen mukaan.
+Tasohuivi sopii suorille puikoille tai pyöröpuikolle tasona. Reunasta laelle neulottavan pipon vartalo voi sopia lyhyelle pyöröpuikolle; päälaen kavennuksissa vaihdetaan tarvittaessa sukkapuikkoihin tai magic loopiin. Sukissa, lapasissa ja sormikkaissa valinta riippuu neulottavan osan ympäryksestä: sukkapuikot, magic loop, kaksi pyöröpuikkoa tai sopivan lyhyt pyöröpuikko.
 
-Kappaleina neulottu villapaita toimii suorilla puikoilla tai pyöröpuikoilla tasona. Saumaton villapaita tarvitsee pyöröpuikot ja vaihtaa hihoissa sukkapuikkoihin tai magic loopiin, kun ympärysmitta käy pieneksi. Peitot kuuluvat pitkille pyöröpuikoille tasona. Lapaset ja sormikkaat tehdään sukkapuikoilla tai magic loopilla.
-
-Käytännön päätelmä: pyöröpuikot plus joko sukkapuikot tai magic loop -taito kattavat lähes kaiken. Suorat puikot ovat valinta, eivät välttämättömyys, ellei niitä jo omista ja pidä niistä.
+Villapaidan erilliset kappaleet voi neuloa suorilla puikoilla tai pyöröpuikolla tasona. Pyöröpuikko on käytännöllinen saumattomaan vartaloon, ja kapeat hihat tarvitsevat pienelle ympärykselle sopivan menetelmän. Leveä peitto sopii pitkälle pyöröpuikolle tasona, mutta kapeat peittopalat mahtuvat suorillekin puikoille. Noudata ohjeen rakennetta ja tarkista neuletiheys välineitä vaihtaessasi.
 
 Jos mietit myös [puikkokokoa](/fi/tyokalut/puikkokoot/) tai [materiaalia](/fi/artikkelit/puikkomateriaalit-metalli-puu-bambu/), ne ovat erillisiä päätöksiä puikkotyypistä.
 
 ## FAQ
 
 **Voivatko pyöröpuikot korvata suorat tasoneuleessa?**
-Kyllä. Suorat puikot ovat nykyään enemmän mieltymys kuin vaatimus.
+
+Kyllä. Älä yhdistä päitä: käännä työ jokaisen kerroksen lopussa ja noudata tasoneuleen ohjetta.
 
 **Montako kaapelin pituutta oikeasti tarvitsen?**
-40 cm pipoihin, 60 tai 80 cm villapaitoihin ja useimpiin tasotöihin sekä 100 cm tai pidempi magic loopiin, peittoihin ja isoihin huiveihin kattaa melkein kaiken. Lisää toinen 80 cm kaapeli, jos neulot usein kaksi kappaletta yhtä aikaa.
+
+Aloita nykyiseen työhön sopivasta pituudesta. Yllä mainitut 40, 60/80 ja 100 cm ovat eri käyttöihin tarkoitettuja kokonaispituuksia, eivät pakollinen ostoslista. Kahden pyöröpuikon menetelmä tarvitsee kaksi kokonaista puikkoa, ei vain lisäkaapelia.
 
 **Miksi pyöröpuikon kaapeli kiertyy koko ajan?**
-Kaapelin muotomuisti ja hoito vaihtelevat tuotteittain. Noudata valmistajan ohjeita: joitakin ruostumattomasta teräksestä valmistetulla ytimellä varustettuja kaapeleita voi suoristaa höyryllä tai haalealla vedellä, kun taas kaapeleita, joilla ei ole muotomuistia, ei välttämättä tarvitse suoristaa.
+
+Joihinkin kaapeleihin jää pakkauksen muoto. Noudata juuri kyseisen tuotteen hoito-ohjetta; kaikkien kaapelien tai liitosten ei voi olettaa kestävän kuumentamista.
 
 **Ovatko puiset pyöröpuikot lisähinnan arvoisia?**
-Joillekin kyllä. Puu pitää lankaa enemmän kuin metalli, mutta vähemmän kuin bambu. Pitkät sessiot liukkaan langan kanssa tuntuvat erilaisilta. Useimpaan perusneulontaan tavallinen metallinen kiinteä pyöröpuikko riittää, kunnes tiedät haluavasi puun tuntuman.
+
+Arvioi tietyn puikon tuntumaa ja hintaa omalla langallasi. Pintakäsittely ja rakenne vaikuttavat, joten puuta, metallia ja bambua ei voi asettaa yleispätevään kitkajärjestykseen.
 
 **Tarvitsenko sekä sukkapuikot että magic loopin?**
-Yksi riittää. Se, kumman opit ensin, jää usein oletukseksi. Sukkapuikoilla aloittaneet pysyvät usein niissä. Magic loopin ensin oppineet ostavat harvemmin sukkapuikkoja. Molemmat taidot toimivat lähes kaikissa pienissä ympärysmitoissa.
+
+Yksi pienelle ympärykselle sopiva menetelmä riittää alkuun. Sovita ohjeen puikkokohtaiset silmukkajaot käyttämääsi menetelmään, merkitse kerroksen alku ja tarkista neuletiheys vaihdon yhteydessä.
 
 **Ovatko 23 cm pyöröpuikot maineensa arvoisia?**
-Joillekin ovat. Toisille kärjet ovat liian ahtaat. Niitä ei kannata ostaa kaikissa koissa ennen kuin tiedät, toimivatko ne omissa käsissä. Kokeile yhtä ensin.
+
+Kokeile yhtä, jos sen kokonaispituus sopii työhösi ja saat lyhyistä kärjistä luontevan otteen. Varaa toinen menetelmä liian pieniksi käyviin osiin.

@@ -98,8 +98,8 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "alt",
-    def: "abwechselnd / alternativ (alternate)",
-    search: "alternate abwechselnd alternativ",
+    def: "abwechselnd; alt rows bedeutet jede zweite Reihe",
+    search: "alternate abwechselnd jede zweite Reihe",
     categories: ["general"],
   },
   {
@@ -128,13 +128,13 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "sl",
-    def: "Masche abheben (slip)",
+    def: "abheben, ohne zu stricken; laut Anleitung wie zum Rechts- oder Linksstricken",
     search: "slip masche abheben",
     categories: ["general"],
   },
   {
     abbr: "sl st",
-    def: "abgehobene Masche (slip stitch)",
+    def: "eine Masche abheben, ohne zu stricken; Abheberichtung laut Anleitung",
     search: "slip stitch abgehobene masche",
     categories: ["general"],
   },
@@ -201,13 +201,13 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "kfb",
-    def: "aus einer Masche vorn und hinten rechts stricken",
+    def: "dieselbe Masche erst ins vordere, dann ins hintere Maschenglied rechts stricken (1 Masche zugenommen)",
     search: "knit front and back vorn hinten zunehmen",
     categories: ["increases"],
   },
   {
     abbr: "pfb",
-    def: "aus einer Masche vorn und hinten links stricken",
+    def: "dieselbe Masche erst ins vordere, dann ins hintere Maschenglied links stricken (1 Masche zugenommen)",
     search: "purl front and back vorn hinten zunehmen",
     categories: ["increases"],
   },
@@ -238,33 +238,33 @@ const abbreviations: Abbreviation[] = [
   },
   {
     abbr: "ssk",
-    def: "ssk, links geneigte Abnahme",
+    def: "2 Maschen einzeln wie zum Rechtsstricken abheben, durch die hinteren Maschenglieder rechts zusammenstricken (links geneigt; 1 Masche abgenommen)",
     search: "slip slip knit abheben abheben stricken links geneigte abnahme",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "skp",
-    def: "Masche abheben, rechts stricken, abgehobene Masche überziehen",
+    def: "1 Masche wie zum Rechtsstricken abheben, 1 rechts stricken, abgehobene Masche darüberziehen (links geneigt; 1 Masche abgenommen)",
     search: "slip knit pass slipped stitch over abgehobene masche überziehen",
     categories: ["decreases"],
   },
   {
     abbr: "sk2p",
-    def: "1 M abheben, 2 M rechts zusammenstricken, abgehobene Masche überziehen",
+    def: "1 Masche wie zum Rechtsstricken abheben, 2 rechts zusammenstricken, abgehobene Masche darüberziehen (links geneigt; 2 Maschen abgenommen)",
     search:
       "slip one knit two together pass slipped stitch over doppelte abnahme",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "s2kp",
-    def: "2 M abheben, 1 M stricken, abgehobene Maschen überziehen",
+    def: "2 Maschen gemeinsam wie zum Rechtszusammenstricken abheben, 1 rechts stricken, beide abgehobenen Maschen darüberziehen (zentriert; 2 Maschen abgenommen)",
     search:
       "slip two knit one pass two slipped stitches over zentrierte doppelte abnahme",
     categories: ["decreases"],
   },
   {
     abbr: "CDD",
-    def: "zentrierte doppelte Abnahme",
+    def: "zentrierte doppelte Abnahme (2 Maschen abgenommen); Methode laut Anleitung",
     search: "centered double decrease zentrierte doppelte abnahme",
     categories: ["decreases"],
   },
@@ -283,37 +283,37 @@ const abbreviations: Abbreviation[] = [
 
   {
     abbr: "C4F",
-    def: "Zopf über 4 Maschen nach vorn",
+    def: "Zopf über 4 Maschen: 2 auf der Zopfnadel vor die Arbeit legen, 2 rechts, dann die 2 der Zopfnadel rechts stricken",
     search: "cable four front zopf vorn vorne",
     categories: ["cables"],
   },
   {
     abbr: "C4B",
-    def: "Zopf über 4 Maschen nach hinten",
+    def: "Zopf über 4 Maschen: 2 auf der Zopfnadel hinter die Arbeit legen, 2 rechts, dann die 2 der Zopfnadel rechts stricken",
     search: "cable four back zopf hinten",
     categories: ["cables"],
   },
   {
     abbr: "C6F",
-    def: "Zopf über 6 Maschen nach vorn",
+    def: "Zopf über 6 Maschen: 3 auf der Zopfnadel vor die Arbeit legen, 3 rechts, dann die 3 der Zopfnadel rechts stricken",
     search: "cable six front zopf vorn vorne",
     categories: ["cables"],
   },
   {
     abbr: "C6B",
-    def: "Zopf über 6 Maschen nach hinten",
+    def: "Zopf über 6 Maschen: 3 auf der Zopfnadel hinter die Arbeit legen, 3 rechts, dann die 3 der Zopfnadel rechts stricken",
     search: "cable six back zopf hinten",
     categories: ["cables"],
   },
   {
     abbr: "T2F",
-    def: "2 Maschen nach vorn verkreuzen",
+    def: "2 Maschen kreuzen, dabei 1 vor die Arbeit legen; rechte/linke Maschen laut Anleitung",
     search: "twist two front verkreuzen zopf vorn",
     categories: ["cables"],
   },
   {
     abbr: "T2B",
-    def: "2 Maschen nach hinten verkreuzen",
+    def: "2 Maschen kreuzen, dabei 1 hinter die Arbeit legen; rechte/linke Maschen laut Anleitung",
     search: "twist two back verkreuzen zopf hinten",
     categories: ["cables"],
   },
@@ -380,33 +380,41 @@ const faqs = [
   },
   {
     q: "Was bedeutet ein Stern in einer Strickanleitung?",
-    a: 'Er markiert eine Wiederholung. Alles zwischen dem Stern und der passenden Wiederholungsanweisung, zum Beispiel "rep from *", wird erneut gearbeitet. Klammern und eckige Klammern machen dasselbe: Sie gruppieren Schritte, die eine bestimmte Anzahl wiederholt werden. Ein übersehener Rapportmarker ist einer der schnellsten Wege zur falschen Maschenzahl.',
+    a: "Ein Stern markiert den Anfang einer Wiederholung. Wiederhole die markierte Folge so oft oder bis zu dem Punkt, den die Anleitung nennt. Runde und eckige Klammern können auch Größenangaben oder mehrere Schritte in dieselbe Masche kennzeichnen. Lies die zugehörige Anweisung.",
   },
   {
     q: "Was mache ich bei einer unbekannten Abkürzung?",
-    a: "Sehr wahrscheinlich ist es eine anleitungsspezifische Kurzform. Suche zuerst am Anfang der Anleitung nach Abkürzungen oder Technikdefinitionen. Zopf- und Lochmuster verwenden besonders oft eigene Kürzel, weil kompakte Notation für dieses eine Design nötig ist. Wenn du dort nichts findest, prüfe Notizen und Strickschriftlegende.",
+    a: "Es kann eine Kurzform sein, die nur in dieser Anleitung definiert ist. Prüfe Abkürzungsliste, Technikbeschreibungen, Hinweise und Strickschriftlegende. Frage bei Unklarheiten die Designerin oder den Designer, bevor du eine Technik ersetzt.",
   },
   {
     q: "Was ist der Unterschied zwischen ssk und skp?",
-    a: "Beides sind links geneigte Abnahmen, und sie sehen im fertigen Gestrick fast gleich aus. ssk ist der moderne Standard und erscheint in vielen aktuellen englischen Anleitungen. skp taucht häufiger in älteren Anleitungen auf. Die Ausführung unterscheidet sich leicht, deshalb solltest du die Abnahme arbeiten, die die Anleitung nennt.",
+    a: "Beide nehmen eine Masche ab und neigen sich von der glatt rechten Seite aus gesehen nach links. Übliche ssk: zwei Maschen einzeln wie zum Rechtsstricken abheben und durch die hinteren Maschenglieder rechts zusammenstricken. Skp: eine Masche wie zum Rechtsstricken abheben, eine rechts stricken und die abgehobene darüberziehen. Das Maschenbild kann sich unterscheiden; folge der Anleitung.",
   },
 ];
 ---
 
 <LocalizedToolPage
-  title="Strickabkürzungen: suchbares Glossar"
-  description="Suche englische und internationale Strickabkürzungen und lies die deutsche Bedeutung. Mit Kategorien für Zunahmen, Abnahmen, Zöpfe und Muster."
+  title="Englische Strickabkürzungen auf Deutsch"
+  description="Schlage gängige englische Strickabkürzungen mit deutschen Erklärungen nach. Suche nach Kürzel oder Technik und filtere nach Kategorie."
   canonicalPath={routes.tool.knittingAbbreviations.de}
   lang="de"
   alternates={routes.tool.knittingAbbreviations}
-  intro="Suche eine Abkürzung oder Technik. Das Glossar hilft dir, englische Strickanleitungen auf Deutsch zu lesen."
+  intro="Suche gängige englische Strickabkürzungen und Techniken mit deutschen Erklärungen. Diese Auswahl hilft dir, englische Anleitungen zu lesen."
   schemaName="Strickabkürzungen"
-  schemaDescription="Durchsuchbares Glossar für Strickabkürzungen und Stricktechniken."
+  schemaDescription="Schlage gängige englische Strickabkürzungen mit deutschen Erklärungen nach. Suche nach Kürzel oder Technik und filtere nach Kategorie."
   faqs={faqs}
   variant="brown"
 >
   <div slot="tool">
     <div class="abbr-wrapper">
+      <p>
+        Die Legende der Anleitung hat Vorrang. Hier werden Maschen von der
+        linken auf die rechte Nadel gestrickt; die Neigung rechts gestrickter
+        Zu- und Abnahmen wird von der glatt rechten Seite aus betrachtet. Faden
+        vorn/hinten bedeutet zu dir hin/von dir weg, unabhängig von Vorder- oder
+        Rückseite. Abheberichtung und Zopftechnik richten sich nach der
+        Anleitung; auch ssk hat mehrere Varianten.
+      </p>
       <input
         type="text"
         id="abbr-search"
@@ -501,12 +509,11 @@ const faqs = [
       >. Das sind Gerüstwörter, keine neuen Maschen.
     </p>
     <p>
-      Satzzeichen zählen ebenfalls. Sterne und Semikolons sind keine Deko. <code
-        >*k2, p2; rep from *</code
-      > bedeutet, dass alles zwischen Stern und Semikolon wiederholt wird. Klammern
-      und eckige Klammern gruppieren ähnlich einen Satz von Schritten, der eine bestimmte
-      Anzahl gearbeitet wird. Ein fehlender Rapportmarker bringt die Maschenzahl sehr
-      schnell durcheinander.
+      <code>*k2, p2; rep from *</code> wiederholt zwei rechte und zwei linke Maschen:
+      vier Maschen pro Rapport. Ein Stern markiert den Anfang einer Wiederholung.
+      Wiederhole die markierte Folge so oft oder bis zu dem Punkt, den die Anleitung
+      nennt. Runde und eckige Klammern können auch Größenangaben oder mehrere Schritte
+      in dieselbe Masche kennzeichnen. Lies die zugehörige Anweisung.
     </p>
 
     <h2>US- und UK-Unterschiede</h2>
@@ -572,16 +579,19 @@ const faqs = [
       innerhalb dieser Anleitung.
     </p>
     <p>
-      Die Grundregel: Wenn du eine Abkürzung nicht in einer Standardreferenz
-      findest, steht sie sehr wahrscheinlich im Kopfteil der Anleitung. Scrolle
-      zuerst nach oben.
+      Es kann eine Kurzform sein, die nur in dieser Anleitung definiert ist.
+      Prüfe Abkürzungsliste, Technikbeschreibungen, Hinweise und
+      Strickschriftlegende. Frage bei Unklarheiten die Designerin oder den
+      Designer, bevor du eine Technik ersetzt.
     </p>
 
     <h2>Was Symbole in Strickschriften bedeuten</h2>
     <p>
-      Strickschriften verwenden Symbole statt ausgeschriebener Reihen. Jedes
-      Kästchen ist eine Masche, und das Symbol im Kästchen sagt, was du
-      arbeitest.
+      Strickschriftsymbole zeigen Arbeitsschritte. Ein Kästchen steht oft für
+      eine fertige Masche, aber Abnahmen verbrauchen mehrere Maschen, und
+      Zopfsymbole können mehrere Kästchen umfassen. Ein Kästchen für „keine
+      Masche“ wird übersprungen, ohne eine Masche zu stricken oder abzuheben.
+      Zähle anhand der Legende.
     </p>
     <p>
       Es gibt keine vollständig universelle Symbolsprache, aber viele
@@ -592,10 +602,12 @@ const faqs = [
       <code>k2tog</code>, ein nach links geneigter <code>ssk</code>.
     </p>
     <p>
-      Strickschriften liest du von unten nach oben. Bei flach gestrickten
-      Stücken laufen Reihen auf der rechten Seite von rechts nach links und
-      Rückreihen von links nach rechts. Beim Rundstricken liest du jede Runde
-      von rechts nach links, weil du immer auf der rechten Seite arbeitest.
+      Strickschriften liest du meist von unten nach oben. Beim Stricken von der
+      linken auf die rechte Nadel liest du Hinreihen normalerweise von rechts
+      nach links und Rückreihen von links nach rechts. Runden mit der
+      Vorderseite zu dir liest du normalerweise von rechts nach links. Prüfe
+      Reihennummern und Hinweise: Rückreihen können fehlen; andere
+      Arbeitsrichtungen brauchen eigene Anweisungen.
     </p>
     <p>
       Wenn eine Anleitung sowohl geschriebene als auch gezeichnete Anweisungen
@@ -612,11 +624,12 @@ const faqs = [
       Anleitungen, die du strickst.
     </p>
     <p>
-      Ein Paar sorgt oft für Verwirrung: <code>ssk</code> und <code>skp</code>
-      sind beide links geneigte Abnahmen. <code>ssk</code> ist der moderne Standard,
-      <code>skp</code> taucht häufiger in älteren Anleitungen auf. Das Ergebnis ist
-      ähnlich, die Ausführung leicht anders. Arbeite die Version, die die Anleitung
-      nennt.
+      Beide nehmen eine Masche ab und neigen sich von der glatt rechten Seite
+      aus gesehen nach links. Übliche ssk: zwei Maschen einzeln wie zum
+      Rechtsstricken abheben und durch die hinteren Maschenglieder rechts
+      zusammenstricken. Skp: eine Masche wie zum Rechtsstricken abheben, eine
+      rechts stricken und die abgehobene darüberziehen. Das Maschenbild kann
+      sich unterscheiden; folge der Anleitung.
     </p>
     <p>
       Ebenfalls wichtig: <code>psso</code> (pass slipped stitch over) erscheint allein
@@ -625,10 +638,9 @@ const faqs = [
       abgehobene Masche.
     </p>
     <p>
-      Das Craft Yarn Council veröffentlicht eine weit verbreitete Standardliste,
-      und viele Anleitungen folgen ihr für häufige Begriffe. Danach übernehmen
-      regionale Gewohnheiten und anleitungsspezifische Kurzformen. "Prüfe die
-      Legende" ist besserer Rat als "lerne eine Masterliste auswendig".
+      Der Craft Yarn Council veröffentlicht eine Referenzliste gängiger
+      Strickabkürzungen. Regionale und anleitungsspezifische Bezeichnungen
+      können abweichen; prüfe deshalb die Legende der Anleitung.
     </p>
     <p>
       Lass beim Stricken eine Referenz offen. Diese Seite ist durchsuchbar, was

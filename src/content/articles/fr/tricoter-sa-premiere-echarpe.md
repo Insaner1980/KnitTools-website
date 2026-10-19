@@ -1,7 +1,8 @@
 ---
 title: "Tricoter sa première écharpe : guide débutant"
-description: "Tout ce qu'il faut pour tricoter une première écharpe : fil, aiguilles, montage, maille endroit, rabattage. Un rectangle simple qui rend bien."
+description: "Tricote ta première écharpe au point mousse : échantillon, largeur, montage, tricot, rabattage et finitions. Avec des liens vers les gestes en images."
 publishDate: 2026-05-01
+updatedDate: "2026-10-18"
 category: techniques
 categoryOrder: 1
 tags:
@@ -18,47 +19,45 @@ translationKey: "knit-first-scarf"
 
 Une écharpe est un bon premier projet de tricot parce que c'est un rectangle. Pas de façonnage, pas d'ajustement, pas de modèle rang par rang une fois le point compris. Monte les mailles, tricote jusqu'à ce que ce soit assez long, rabats. Les gestes que tu pratiques, monter les mailles, tricoter à l'endroit, rabattre, sont la base de tout ce que tu tricoteras ensuite.
 
-À la fin d'une écharpe, tu auras tricoté la maille endroit quelques milliers de fois. Le geste cesse souvent de paraître étrange quelque part vers le milieu du projet.
-
 ## Ce qu'il te faut
 
-Une pelote de fil worsted, de couleur claire et unie. Le [guide du fil pour débuter](/fr/articles/meilleur-fil-pour-debuter-le-tricot/) explique tout le raisonnement, mais la version courte : les couleurs claires montrent bien les mailles, et les fils unis laissent mieux voir la structure qu'un fil multicolore. L'acrylique ou un mélange laine/acrylique pardonne bien et passe souvent en machine. Une pelote suffit pour s'entraîner ou pour une écharpe courte. Une longue écharpe adulte demande généralement plus de métrage.
+Choisis un fil worsted clair et uni. Le [guide du fil pour débuter](/fr/articles/meilleur-fil-pour-debuter-le-tricot/) explique l'intérêt de mailles bien visibles. L'acrylique ou un mélange laine/acrylique convient aussi ; vérifie les consignes d'entretien du fil choisi. Achète selon le métrage nécessaire aux dimensions voulues, pas selon une promesse qu'une pelote suffit. Consulte l'exemple de quantité plus bas et prévois du fil pour les essais, les finitions et les éventuelles franges.
 
 Cherche un fil worsted lisse et bien retordu plutôt qu'un fil duveteux, qui se dédouble ou très texturé. Évite le noir, le bleu marine, le brun foncé et les fils très duveteux pour ce premier projet. Les mailles doivent être visibles.
 
-Des aiguilles droites 5 mm, de 25 ou 35 cm de long. Bambou ou bois pour débuter. Le [guide des tailles d'aiguilles pour débuter](/fr/articles/taille-aiguilles-pour-debuter/) explique pourquoi. L'accroche empêche les mailles de glisser. Le métal devient agréable quand le rythme est installé, mais il peut être trop glissant au départ.
+Des aiguilles droites de 5 mm, longues de 25 ou 35 cm, sont un point de départ pour un fil worsted dont l'étiquette recommande ce diamètre. Choisis une longueur qui accueille confortablement les mailles. Essaie le bois lisse ou le bambou si les mailles glissent ; le métal convient aussi dès le début. La surface, le fil et ta prise comptent. Le [guide des tailles d'aiguilles pour débuter](/fr/articles/taille-aiguilles-pour-debuter/) explique les choix.
 
-Des ciseaux et une aiguille à laine à bout rond pour rentrer les fils. Un mètre ruban aide, sans être indispensable. C'est toute la liste.
+Des ciseaux, une aiguille à laine à bout rond et un mètre ruban ou une règle. Un crochet est utile pour les franges facultatives et pour rattraper une maille tombée.
 
 ## Choisir le point
 
-Deux options pratiques pour une première écharpe.
+Les étapes ci-dessous donnent une écharpe au point mousse, tricotée à plat en allers-retours. Le point de riz est une alternative si tu sais tricoter à l'envers ; remplace alors les rangs tout à l'endroit par sa répétition.
 
 **Point mousse** (tricoter tous les rangs à l'endroit) : le tissu le plus simple possible. Chaque maille, chaque rang, le même geste. Le tissu a des côtes horizontales, il est moelleux, réversible et reste à plat. Si tu connais seulement la maille endroit, c'est ton point.
 
-**Point de riz** (1 maille endroit, 1 maille envers, en alternant à chaque rang) : il demande aussi d'apprendre la maille envers, mais donne un tissu plus plat, plus texturé et plus soigné. Si tu veux apprendre les deux mailles avant de commencer, le point de riz donne une écharpe nette, mais il demande plus d'attention.
+**Point de riz** : alterne endroit et envers, en tricotant à l'envers les mailles qui se présentent à l'endroit et inversement. Sur 30 mailles à plat : rang 1, répète 1 maille endroit, 1 maille envers jusqu'au bout ; rang 2, répète 1 maille envers, 1 maille endroit. Répète ces deux rangs. Sur un nombre impair, alterne 1 maille endroit, 1 maille envers et termine par 1 maille endroit à chaque rang. Passe le fil entre les pointes : derrière pour l'endroit, devant pour l'envers. Les bords font partie de la répétition ; n'y ajoute pas la lisière glissée proposée plus bas pour le point mousse.
 
-Ne commence pas par le jersey pour une écharpe. Le jersey roule sur les bords, et une écharpe qui roule devient un tube, pas une écharpe. Le point mousse et le point de riz restent tous les deux à plat sans bordure ajoutée.
+Le jersey, un rang endroit puis un rang envers à plat, roule naturellement sur les bords. Le point mousse et le point de riz évitent cet enroulement caractéristique sans bordure supplémentaire. Le blocage ne supprime pas durablement l'enroulement du jersey.
 
 ## Combien de mailles monter
 
-Pour un fil worsted avec des aiguilles 5 mm, compte environ 20 mailles pour 10 cm :
+Le diamètre des aiguilles ne garantit pas l'échantillon. Tricote au point mousse avec ton fil et tes aiguilles une pièce plus grande que la zone à mesurer. Lave et sèche selon les consignes du fil, puis mesure au centre sans étirer. Utilise cet échantillon, pas une indication en jersey sur l'étiquette. Avec 20 mailles pour 10 cm au point mousse, voici des exemples de calcul :
 
-- Écharpe étroite (10 à 13 cm) : 20 à 25 mailles.
-- Écharpe moyenne (15 à 18 cm) : 30 à 35 mailles.
-- Écharpe large ou largeur de col : 40 à 45 mailles.
+- 20–25 mailles : 10–12,5 cm de largeur.
+- 30–35 mailles : 15–17,5 cm de largeur.
+- 40–45 mailles : 20–22,5 cm de largeur.
 
-Commence avec 30. Largeur confortable, pas si étroite que l'écharpe ressemble à une bande, pas si large qu'elle prend une éternité.
+Par exemple : 30 ÷ 20 × 10 = 15 cm. Les deux bords sont compris dans les 30 mailles ; n'ajoute pas de mailles lisières. Pour un autre échantillon, divise le nombre de mailles par tes mailles pour 10 cm et multiplie par dix. Pour le point de riz, mesure un échantillon au point de riz.
 
-Le nombre exact ne compte pas beaucoup pour une écharpe. Si tu finis avec 28 ou 32 au lieu de 30, l'écharpe sera un peu plus étroite ou plus large. Pour un rectangle, c'est très bien.
+Tu peux t'exercer sur 30 mailles et vérifier la largeur après quelques rangs. Si elle ne convient pas, recommence avec un autre nombre. Choisir 28 ou 32 au départ est possible ; conserve ensuite ce nombre pour garder un rectangle.
 
 ## Tenir le fil
 
 Deux styles sont courants, et tu finiras probablement par adapter l'un ou l'autre à tes mains.
 
-**Style anglais, fil dans la main droite :** la main droite enroule le fil autour de l'aiguille pour chaque maille. C'est souvent facile à apprendre au début, même si le geste peut rester un peu plus lent.
+**Style anglais, fil dans la main droite :** la main droite enroule le fil autour de l'aiguille pour chaque maille. En anglais, on appelle souvent ce geste « throwing ».
 
-**Style continental, fil dans la main gauche :** l'aiguille droite vient chercher le fil dans la main gauche. Cela peut devenir rapide, surtout pour les mailles endroit, mais la tension paraît souvent bizarre au début.
+**Style continental, fil dans la main gauche :** l'aiguille droite vient chercher le fil dans la main gauche. Choisis selon ton confort, sans promesse de vitesse.
 
 Regarde une courte vidéo de chaque style avant de commencer, puis choisis celui qui semble le plus gérable. Les deux fonctionnent. Le tissu fini aura la même apparence.
 
@@ -66,9 +65,9 @@ Fais passer le fil dans tes doigts pour qu'il ne pende pas complètement libre. 
 
 ## Monter les mailles
 
-Le montage long-tail est la méthode la plus courante. Fais un nœud coulant en laissant une longueur de fil environ 3 à 4 fois la largeur du montage, plus une petite marge. Pour 30 mailles en worsted, environ 75 à 90 cm donne une marge confortable. Le fil de départ forme une jambe de chaque maille, le fil de la pelote l'autre.
+Le montage à longue queue, ou long-tail, est une possibilité. Si tu ne le connais pas, suis le [tutoriel illustré de Purl Soho](https://www.purlsoho.com/create/long-tail-cast-on/) (en anglais) pour le nœud coulant, la position des mains et les gestes ; ce paragraphe n'est qu'un aperçu. Prévois d'abord 3–4 fois la largeur voulue, plus environ 15 cm à rentrer. Pour 15 cm de large, cela donne 60–75 cm. Vérifie après le montage qu'il reste assez de fil à rentrer. Le nœud coulant compte comme première maille.
 
-Si cela semble compliqué, le montage tricoté est plus simple. Nœud coulant, tricote une maille dedans, replace la nouvelle maille sur l'aiguille gauche. Répète jusqu'à avoir 30 mailles. Plus lent, mais plus facile à apprendre.
+Autre possibilité : le montage tricoté. Place un nœud coulant sur l'aiguille gauche avec environ 15 cm de fil libre. Avec le fil de la pelote, tire une nouvelle boucle comme pour une maille endroit, mais garde l'ancienne maille sur l'aiguille gauche. Place la nouvelle boucle sur l'aiguille gauche sans la tordre. Recommence dans la dernière maille créée jusqu'à en avoir 30, nœud coulant compris. Le [tutoriel en images du Craft Yarn Council](https://media.craftyarncouncil.com/node/29) (en anglais) montre ce transfert et la maille endroit.
 
 Les deux méthodes fonctionnent. L'écharpe ne se soucie pas de celle que tu as utilisée.
 
@@ -76,37 +75,39 @@ Après le montage, compte. Déplace les mailles une par une le long de l'aiguill
 
 ## Tricoter l'écharpe
 
-Tricote chaque maille de chaque rang à l'endroit. C'est le point mousse.
+Tricote à plat toutes les mailles à l'endroit, y compris la première et la dernière. Tourne l'ouvrage après chaque rang. Avec une aiguille circulaire, tourne aussi ; ne joins pas les mailles en rond.
 
-Tiens l'aiguille avec les mailles dans la main gauche. Insère l'aiguille droite dans la première maille de gauche à droite, enroule le fil autour de l'aiguille droite, tire la boucle à travers, fais glisser l'ancienne maille. Une maille endroit. Répète tout le rang. À la fin, change les aiguilles de main et recommence.
+Tiens l'aiguille portant les mailles à gauche et le fil de la pelote derrière l'ouvrage. Pique l'aiguille droite de gauche à droite dans le brin avant. Passe le fil sous puis par-dessus la pointe droite, ramène la nouvelle boucle vers l'avant à travers l'ancienne, puis laisse seulement l'ancienne maille quitter l'aiguille gauche. Répète jusqu'au bout. Tourne l'ouvrage pour présenter l'autre face et prends l'aiguille pleine à gauche. Passe le fil vers l'arrière entre les pointes, pas par-dessus l'aiguille, puis commence le rang suivant.
 
 Les premiers rangs seront lents et maladroits. Normal. Après assez de répétitions, les mains commencent à trouver un rythme. Garde le tricot devant les yeux au début ; la télévision attendra.
 
 ### Lire ce que tu as tricoté
 
-Une maille endroit ressemble à un petit V vue de face. En point mousse, l'alternance entre petits V et bosses horizontales crée les côtes visibles du tissu. Deux rangs forment une côte. Compter les côtes est plus simple que compter les rangs : 20 côtes, c'est 40 rangs.
+Une maille endroit ressemble à un petit V de face. Au point mousse, une barre mousse correspond à deux rangs tricotés. Compte les barres sur une seule face, sans additionner les deux faces. Vingt barres complètes correspondent à quarante rangs ; la longueur dépend aussi de l'échantillon en hauteur.
 
-Les mailles sur l'aiguille doivent se ressembler : une boucle avec le brin avant devant. Si une maille a les brins croisés, elle est probablement torse. Glisse-la, remets-la dans le bon sens, puis continue. Pas un drame.
+Avec la méthode ci-dessus, le brin droit de la maille non tricotée se trouve devant l'aiguille. Si la boucle est montée dans l'autre sens, soutiens-la avec l'autre aiguille et remets-la correctement avant de la tricoter. Cela ne répare pas une maille déjà tricotée torse plus bas ; défais jusqu'à elle si tu veux la corriger. Ne laisse pas une maille ouverte sans support.
 
 ### Problèmes fréquents au début
 
 **Les mailles augmentent toutes seules.** Tu crées accidentellement de nouvelles mailles, souvent en passant le fil par-dessus l'aiguille au début du rang. Avant de tricoter la première maille, vérifie que le fil pend sous l'aiguille et derrière, pas par-dessus.
 
-**Les bords sont irréguliers.** Cela s'améliore avec la pratique. Pour des bords plus nets, essaie de glisser la première maille de chaque rang comme pour la tricoter à l'envers, sans la tricoter, fil derrière l'ouvrage. Cela crée un bord chaînette, plus propre et plus facile à coudre plus tard si tu en as besoin.
+**Les bords sont irréguliers.** Commence par tricoter toutes les mailles lisières à l'endroit avec une tension régulière. Pour une lisière glissée au point mousse, passe le fil derrière entre les pointes, glisse la première maille comme pour la tricoter à l'envers sans la tricoter, puis tricote toutes les autres à l'endroit, dernière comprise. Répète à chaque rang. Glisser remplace le tricotage de la première maille ; le total reste 30. Garde la même lisière tout au long du projet.
 
-**La tension est irrégulière.** Complètement normal pour un premier projet. Certaines mailles sont serrées, d'autres lâches. Le tissu semble bosselé. Il s'égalise un peu au blocage et beaucoup avec la pratique. Ta dixième écharpe aura une autre allure que la première.
+**La tension est irrégulière.** Forme les mailles sur le diamètre entier de l'aiguille sans serrer et exerce-toi sur l'échantillon. Un lavage conforme aux consignes peut détendre le tissu, mais ne répare pas les mailles ajoutées, tombées ou torses.
 
-**Le fil se dédouble.** L'aiguille passe entre les brins au lieu d'entrer dans la boucle de la maille. Ralentis au moment de piquer. Si cela continue, le fil se dédouble trop pour cette combinaison : une pointe plus fine ou un fil plus lisse aidera.
+**Le fil se dédouble.** L'aiguille n'a pris qu'une partie des brins. Défais cette maille et retricote à travers la boucle entière. Ralentis et vérifie le trajet de la pointe. Si une pointe très aiguë sépare encore les brins, essaie une pointe plus arrondie ou un fil plus lisse, puis vérifie de nouveau l'échantillon.
 
-**Le nombre de mailles dérive.** Tous les dix rangs environ, compte les mailles. Si tu as commencé avec 30 et que tu en as 31, tu as ajouté une maille. Si tu en as 29, une maille est tombée. Une erreur vue tôt se corrige beaucoup mieux.
+**Le nombre de mailles change.** Compte après chaque rang au début, puis régulièrement, par exemple tous les dix rangs. Passer de 30 à 31 donne une maille de plus au total ; 29 peut venir d'une maille tombée ou d'une diminution involontaire. Cherche la cause avant de continuer. Sécurise aussitôt une boucle tombée ; ne masque pas le problème en ajoutant une maille.
 
 ## Quelle longueur
 
-Écharpe adulte standard : 125 à 150 cm. Version courte à enrouler une fois : environ 100 cm. Longue écharpe à double tour : 180 à 200 cm.
+Tu peux viser 125–150 cm pour une écharpe adulte, environ 100 cm pour une version courte ou 180–200 cm pour une longue. Ce sont des choix, pas des normes ni la garantie d'un certain nombre de tours de cou. Compare avec une écharpe que tu apprécies et tiens compte du changement de dimensions de l'échantillon lavé.
 
 Ne mesure pas sans arrêt. Tricote jusqu'à ce que l'écharpe ait la longueur que tu veux. Tiens-la devant toi, essaie de l'enrouler autour du cou. Quand ça te semble juste, arrête.
 
-Beaucoup de pelotes de 100 g en worsted contiennent autour de 180 à 200 m. Cela peut donner une écharpe courte d'environ 100 cm si la largeur reste autour de 12 à 15 cm. Pour une écharpe plus longue, achète assez de fil avant de commencer et vérifie le bain si le fil en indique un. Garde quelques mètres pour le rabattage, sinon le fil se termine toujours au pire moment.
+Comme exemple documenté, le modèle [Basic Scarf in Garter Stitch](https://purlsandpixels.com/wp-content/uploads/2019/02/beginner-knit-scarf-revised-2019.pdf) de Liz Chandler (en anglais) estime à 304,5 yards, environ 278 m de Caron Simply Soft, le fil utilisé pour l'écharpe standard d'environ 18 × 152 cm. La liste de fournitures indique deux pelotes de 315 yards : 630 yards, environ 576 m, achetés et non consommés. Utilise cette quantité avec le modèle original ; elle ne garantit pas le métrage pour les 30 mailles de ce guide ou un autre fil. Pour tes propres dimensions, pars d'un modèle comparable ou estime à partir d'un échantillon dans le même point, en ajoutant le fil des essais, des finitions et des franges. Vérifie le bain lorsqu'il est indiqué. Garde du fil pour un rang complet de rabattage et environ 15 cm à rentrer ; défais un rang si nécessaire.
+
+Le [guide du métrage](/fr/articles/combien-de-fil-faut-il/) explique le calcul à partir d'un échantillon et l'arrondi au nombre entier de pelotes supérieur.
 
 ### Commencer une nouvelle pelote
 
@@ -124,9 +125,9 @@ Le test débutant : étire doucement le bord rabattu avec les mains. S'il s'éti
 
 ## Finitions
 
-Deux fils à rentrer : un au montage, un au rabattage. Enfile chaque fil sur l'aiguille à laine, passe-le au dos des mailles sur environ 5 cm, puis repars dans l'autre sens sur 2 à 3 cm. Coupe. Les fils sont invisibles sur l'endroit et ne se déferont pas.
+Rentre tous les fils : montage, rabattage et deux extrémités à chaque changement de pelote. Passe l'aiguille à laine sous les petits arcs des barres mousse sur une face pendant environ 5 cm, puis change de direction par des arcs voisins sur environ 2,5 cm, sans froncer le tissu. Vérifie les deux faces et étire légèrement avant de couper. Un fil glissant peut demander un trajet plus long ; teste sur l'échantillon. Une longueur donnée ne garantit pas des fils invisibles et bien retenus dans toutes les matières.
 
-Pour une finition plus soignée, bloque l'écharpe : trempe dans de l'eau tiède pendant environ 15 minutes, presse doucement dans une serviette sans tordre, pose à plat, redresse les bords et laisse sécher. Pour un premier projet en acrylique, c'est facultatif. Pour la laine, la différence se voit.
+Suis les consignes d'entretien du fil choisi. Si le lavage à la main et le séchage à plat sont autorisés, respecte la température indiquée, presse doucement sans tordre et pose l'écharpe à plat en forme, sans étirer. Laisse sécher complètement. Teste d'abord sur l'échantillon. La seule mention laine ou acrylique ne justifie ni trempage, ni vapeur, ni durée de séchage d'une nuit.
 
 ### Franges, si tu veux
 
@@ -136,35 +137,35 @@ Mets une frange toutes les une ou deux mailles de bord, des deux côtés. Coupe-
 
 ## Entre deux séances
 
-Si tu t'arrêtes au milieu d'un rang, pousse les mailles vers le centre de l'aiguille pour qu'elles ne glissent pas. Si tu t'arrêtes entre deux rangs, l'ouvrage est plus stable. Garde le projet dans un sac fermé, à l'abri du soleil direct qui peut décolorer certains fils.
+Pendant les pauses, éloigne les mailles ouvertes des pointes et utilise des protège-pointes si tu en as. Les mailles peuvent glisser même en fin de rang. Range l'ouvrage dans un sac fermé, à l'abri du soleil direct.
 
-Pour certaines personnes qui débutent, 45 minutes peuvent être une durée de séance raisonnable. Garde une prise détendue, fais de courtes pauses et arrête-toi ou change d'activité si une douleur, des picotements ou un engourdissement apparaissent. Des symptômes persistants, qui s'aggravent ou sont d'ordre neurologique, comme un engourdissement, peuvent nécessiter l'avis d'un professionnel de santé.
+Garde une prise détendue, fais de courtes pauses et arrête-toi ou change d'activité si une douleur, des picotements ou un engourdissement apparaissent. Des symptômes persistants, qui s'aggravent ou sont d'ordre neurologique, comme un engourdissement, peuvent nécessiter l'avis d'un professionnel de santé.
 
 ## FAQ
 
 **Combien de temps prend une première écharpe ?**
 
-Cela varie énormément. Une personne qui débute peut y passer 15 à 20 heures. Un rythme moyen tourne autour de 8 à 12 heures. La vitesse vient avec la pratique, pas avec l'effort.
+Il n'y a pas de durée moyenne fiable : largeur, longueur, fil et pratique interviennent. Avance par séances confortables plutôt que de viser un nombre d'heures précis.
 
 **Puis-je utiliser une autre épaisseur de fil ?**
 
-Oui. Un bulky avec des aiguilles 8 mm et 20 mailles donne une écharpe plus rapide et plus chunky. Un fingering avec des aiguilles 3,25 mm et 50 mailles donne un projet plus fin et plus long. Worsted avec aiguilles 5 mm est le départ recommandé parce qu'il équilibre vitesse et apprentissage.
+Oui. Choisis des aiguilles recommandées pour le fil, fais un échantillon au point mousse et calcule le nombre de mailles pour la largeur voulue. Vérifie aussi le métrage ; le même nombre de mailles ne donne pas la même écharpe avec une autre épaisseur de fil.
 
 **Et si je fais une erreur ?**
 
-Trois options : l'ignorer, pour une petite erreur sur une écharpe c'est honnêtement acceptable ; défaire jusqu'à l'erreur et retricoter ; ou accepter l'imperfection. Les premiers projets servent à apprendre. Si une maille tombe et que tu la vois tout de suite, remets-la sur l'aiguille gauche. Si elle s'est défaite sur plusieurs rangs, le [guide des mailles tombées](/fr/articles/rattraper-maille-tombee/) explique comment la remonter avec un crochet.
+Une irrégularité purement visuelle peut rester ; sécurise une maille ouverte tombée avant de continuer. Si une maille tombe et que tu la vois tout de suite, remets-la sur l'aiguille gauche. Si elle s'est défaite sur plusieurs rangs, le [guide des mailles tombées](/fr/articles/rattraper-maille-tombee/) explique comment la remonter avec un crochet.
 
 **Mon fil a cassé au milieu de l'écharpe. Que faire ?**
 
-Traite cela comme un changement de fil. Si la queue est assez longue, défais jusqu'au début du rang et commence le nouveau fil là. Sinon, raccorde à l'endroit de la casse, laisse environ 15 cm de queue de chaque côté et rentre les fils à la fin. Ne compte pas sur un nœud pour tenir toute l'écharpe.
+Traite cela comme un changement de fil. Si la queue est assez longue, défais jusqu'au début du rang et commence le nouveau fil là. Sinon, raccorde à l'endroit de la casse, laisse environ 15 cm de queue de chaque côté et rentre les fils à la fin. Ne compte pas sur un nœud pour tenir toute l'écharpe. Défais assez de mailles au niveau de la casse pour obtenir un bout de fil que tu peux rentrer.
 
 **Quelle est la différence entre une maille endroit et une maille envers ?**
 
-Une maille endroit est tirée par l'avant de la boucle et forme un V sur l'endroit. Une maille envers est travaillée de l'autre côté et forme une petite barre horizontale sur l'endroit. Ce sont deux faces de la même maille : une maille endroit d'un côté ressemble à une maille envers de l'autre.
+Une maille endroit présente un V sur la face où elle a été tricotée et une bosse envers au dos. Pour une maille envers classique, le fil est devant et l'aiguille droite entre de droite à gauche dans le brin avant. Le [tutoriel de la maille envers](https://www.purlsoho.com/create/purl-stitch/) (en anglais) montre le geste complet si tu choisis le point de riz.
 
 **Puis-je tricoter devant la télévision ?**
 
-Plus tard, oui, et beaucoup de personnes le font. Pas pendant les premières heures de ta première écharpe. Regarde tes mains jusqu'à ce que les gestes deviennent automatiques, puis partage ton attention.
+Partage ton attention seulement quand tu sais former les mailles avec assurance et contrôler ton ouvrage.
 
 **Que tricoter après une écharpe ?**
 

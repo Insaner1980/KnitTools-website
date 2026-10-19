@@ -38,7 +38,7 @@ const yarnWeightCopy = [
   },
   {
     name: "Super Bulky / Super Chunky",
-    regional: "Super Chunky / Bulky / Roving",
+    regional: "Super Chunky / Super Bulky / Roving",
     uses: "Zware dekens, cols, snelle accessoires",
   },
   {
@@ -48,24 +48,27 @@ const yarnWeightCopy = [
   },
 ] as const;
 
-const rows = getLocalizedYarnWeightRows(yarnWeightCopy, "st. / 10 cm");
+const rows = getLocalizedYarnWeightRows(
+  yarnWeightCopy,
+  "st. / 4 inch (ca. 10 cm)",
+);
 
 const faqs = [
   {
-    q: "Wat is de meest gebruikte garendikte?",
-    a: "Worsted is nog steeds de standaard in veel Noord-Amerikaanse patronen. DK komt voortdurend terug in Britse en Europese patronen. Met die twee categorieën kun je het grootste deel van kleding, accessoires en woonprojecten breien. Bouw je een veelzijdige voorraad op, dan zijn ze een logisch beginpunt.",
+    q: "Welke garendiktes zijn veelzijdig?",
+    a: "DK en worsted zijn bruikbare uitgangspunten voor truien, mutsen, sjaals en dekens. Kies garen dat past bij de stekenverhouding van het patroon en het gewenste breisel.",
   },
   {
     q: "Kun je de ene garendikte vervangen door een andere?",
-    a: "Ja, maar er verandert meer dan alleen de maat. Valling, benodigde meters en naalddikte verschuiven allemaal. Sommige wissels zijn vergevingsgezind, bijvoorbeeld DK voor een lichte worsted. Andere maken er eigenlijk een ander project van. Brei altijd een proeflapje voordat je beslist, en reken het garenverbruik opnieuw uit met het totale aantal steken van het oorspronkelijke patroon als referentie.",
+    a: "Ja, maar valling, garenverbruik en naalddikte kunnen veranderen. Brei een proeflapje in de patroonsteek, was en droog het zoals het uiteindelijke werk en controleer de stekenverhouding en het breisel. Vergelijk draadlengtes in plaats van aantallen bollen; het oorspronkelijke aantal steken bepaalt niet hoeveel meter van het nieuwe garen nodig is.",
   },
   {
     q: 'Wat betekent "held double"?',
-    a: "Dat betekent dat je twee draden samen breit alsof ze een dikkere draad zijn. Twee draden fingering samen komen ongeveer in de buurt van DK, maar vezelsamenstelling, twist en luchtigheid kunnen het resultaat lichter of zwaarder maken. Het is handig als je de juiste dikte niet vindt in de kleur of vezel die je wilt. Brei een proeflapje, want de uitkomst is niet helemaal voorspelbaar.",
+    a: "Dat betekent dat je twee draden samen breit alsof ze een dikkere draad zijn. Twee draden fingering samen komen ongeveer in de buurt van DK, maar vezelsamenstelling, twijning en luchtigheid kunnen het resultaat lichter of zwaarder maken. Het is handig als je de juiste dikte niet vindt in de kleur of vezel die je wilt. Brei een proeflapje, want de uitkomst is niet helemaal voorspelbaar.",
   },
   {
     q: "Waarom lijkt mijn garen dunner of dikker dan het label zegt?",
-    a: "Omdat garendiktecategorieën bereiken zijn, geen vaste punten. Het ene DK-garen zit aan de dunne kant, het andere aan de dikke kant. Vezelsamenstelling verandert ook hoe het oogt. Katoen lijkt vaak platter en dunner dan wol bij dezelfde WPI, terwijl alpaca na het wassen kan opbloeien en dikker lijkt. De categorie op het label is een richtgebied; je proeflapje bevestigt waar jouw garen echt valt.",
+    a: "Garendiktes zijn bereiken. Vezel, twijning en constructie beïnvloeden het uiterlijk, en wassen kan het breisel veranderen. Controleer een gewassen en gedroogd proeflapje in plaats van de categorie alleen op het uiterlijk te baseren.",
   },
 ];
 ---
@@ -83,6 +86,14 @@ const faqs = [
   variant="sand"
 >
   <div slot="tool">
+    <p>
+      De <a href="https://www.craftyarncouncil.com/standards/yarn-weight-system"
+        >CYC-richtlijnen</a
+      > geven het aantal steken in tricotsteek over 4 inch (ongeveer 10 cm) en naalddiktes
+      als uitgangspunt. Kant wordt vaak op dikkere naalden gebreid voor een open resultaat;
+      volg de stekenverhouding van het patroon. Regionale namen zijn benaderingen,
+      geen exacte omrekeningen.
+    </p>
     <div class="cat-list">
       {
         rows.map((row) => (
@@ -131,8 +142,8 @@ const faqs = [
   <div slot="content">
     <h2>Het probleem met namen</h2>
     <p>
-      Hier wordt garendikte echt rommelig, en hier beginnen de meeste fouten bij
-      garen vervangen.
+      Regionale garennamen kunnen het lastig maken om vervangend garen te
+      kiezen.
     </p>
 
     <h3>Ply betekent niet wat je denkt</h3>
@@ -144,12 +155,9 @@ const faqs = [
       strak getwijnd 6-ply kan in sport vallen.
     </p>
     <p>
-      De term bleef hangen omdat oude spinconventies ervoor zorgden dat 4-ply
-      vrij betrouwbaar op een bepaalde dikte uitkwam. Die koppeling verdween
-      toen spinmethodes gevarieerder werden, maar de naamgeving veranderde niet
-      mee. Dus als een vintage Brits patroon om "3-ply" vraagt, bedoelt het een
-      specifiek diktebereik, dicht bij lace of light fingering, niet letterlijk
-      een draad uit drie plies.
+      Controleer bij een oud patroon het genoemde garen en de stekenverhouding
+      in plaats van de dikte uit het ply-getal af te leiden. Regionale ply-namen
+      zijn dikteaanduidingen, niet altijd het aantal draadjes in het garen.
     </p>
     <p>Daar struikelen meer mensen over dan je zou verwachten.</p>
 
@@ -213,8 +221,7 @@ const faqs = [
         <strong>3 - Light.</strong> DK en vergelijkbare tussenliggende kledinggarens.
       </li>
       <li>
-        <strong>4 - Medium.</strong> Worsted en aran. Het bereik waar veel breiers
-        het vaakst in werken.
+        <strong>4 - Medium.</strong> Worsted en aran.
       </li>
       <li>
         <strong>5 - Bulky.</strong> Dikkere garens waarmee je snel stof opbouwt.
@@ -227,11 +234,11 @@ const faqs = [
       </li>
     </ul>
     <p>
-      Deze tabel gebruikt de gepubliceerde 0-7 bereiken uit de huidige
-      CYC-tabel. CYC noemt inmiddels ook een Size 8-symbool in het vernieuwde
-      garendiktesysteem, maar de openbare bereiken voor stekenverhouding,
-      naalddikte en WPI die hier worden gebruikt blijven de gepubliceerde 0-7
-      bereiken.
+      Deze pagina behandelt categorieën 0–7 uit de gelinkte CYC-tabellen, van
+      het dunne Lace tot het zeer dikke Jumbo. Sock en Baby beschrijven
+      veelvoorkomende toepassingen, niet één garendikte. Gram geeft het
+      bolgewicht aan en meter de draadlengte; geen van beide bepaalt op zichzelf
+      de garendikte.
     </p>
 
     <h2>Garendikte herkennen zonder label</h2>
@@ -249,7 +256,14 @@ const faqs = [
     <p>
       Wikkel het garen om een potlood, liniaal of WPI-tool. Houd de wikkelingen
       netjes naast elkaar, vrij aangesloten, niet uitgerekt en niet over elkaar.
-      Tel hoeveel er op 2,5 cm passen. De CYC-gids gebruikt deze brede bereiken:
+      Tel hoeveel er op 2,54 cm passen. De CYC-gids gebruikt deze brede
+      bereiken:
+    </p>
+    <p>
+      <a
+        href="https://www.craftyarncouncil.com/standards/how-measure-wraps-inch-wpi"
+        >CYC-gids voor WPI</a
+      >
     </p>
     <ul>
       <li>30-40+ WPI -&gt; Lace (0)</li>
@@ -288,12 +302,12 @@ const faqs = [
       dichtheid, warmte en vaak de hele schaal van het afgewerkte werk.
     </p>
     <p>
-      Dunnere diktes, 0-2, geven meer valling en scherpere steekdefinitie. Goed
-      voor sokken, omslagdoeken en kleurwerk dat heldere details nodig heeft.
-      Middeldiktes, 3-4, vooral DK en worsted, dekken enorm veel af: truien,
-      mutsen, dekens, babybreiwerk, accessoires met structuur. Dikkere garens,
-      5-7, geven snelheid en warmte, maar ook dikkere naden en een zwaarder
-      afgewerkt stuk. Dat wil je zien voordat je vervangt.
+      Dunne garens (0–2) worden vaak gebruikt voor sokken, omslagdoeken en
+      gedetailleerd kleurwerk. DK en worsted (3–4) passen bij veel kleding,
+      mutsen en dekens; dikke garens (5–7) kunnen grotere steken en snellere
+      projecten geven. Valling, warmte, steekdefinitie en eindgewicht hangen ook
+      af van vezel, constructie, patroonsteek en stekenverhouding, niet alleen
+      van de dikte.
     </p>
     <p>
       Vervang je buiten de oorspronkelijke garendiktecategorie, reken dan op

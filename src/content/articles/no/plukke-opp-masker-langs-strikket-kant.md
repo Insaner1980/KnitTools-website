@@ -2,6 +2,7 @@
 title: "Plukke opp masker langs en strikket kant"
 description: "Lær å plukke opp masker langs horisontale, vertikale og buede kanter. Om forholdstall, halskanter, knappestolper og vanlige feil."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 11
 tags:
@@ -16,146 +17,119 @@ lang: no
 translationKey: "pick-up-stitches"
 ---
 
-Å plukke opp masker lager en ny rekke levende masker langs en eksisterende kant, slik at du kan strikke kant, halskant, knappestolpe eller krage direkte på delen uten å sy noe fast. En rå kant blir en ferdig kant.
+Ved å plukke opp masker kan du strikke en halskant, knappestolpe, bord eller krage direkte på arbeidet. Metoden her lager nye masker ved å trekke arbeidsgarn gjennom kanten. Innstikkssted og maskeantall må passe kanten du skal strikke.
 
-Det vanlige startforholdet langs en vertikal glattstrikket kant er 3 masker for hver 4 pinner. Det kompenserer for at maskebredde og pinnehøyde ikke er det samme. Selve bevegelsen er sjelden problemet. Det vanskelige er avstanden: hvor mange masker du skal plukke opp over en gitt lengde, og hvordan du fordeler dem jevnt.
+Tre masker på fire pinner er et mulig utgangspunkt langs en glattstrikket side, ikke en regel for alle strikkefastheter. Følg oppskriftens konstruksjon og oppgitte antall først.
 
-## Plukke opp vs plukke opp og strikke
+## Plukke opp eller plukke opp og strikke
 
-Oppskrifter bruker begge uttrykk. De kan bety litt ulike ting, selv om mange strikkere og designere bruker dem som om de var det samme.
+Å løfte eksisterende kantløkker opp på pinnen er noe annet enn å trekke nytt garn gjennom kanten. Oppskrifter kan kalle begge deler «plukke opp». Sjekk hva oppskriften mener. Å sette hvilende masker tilbake på pinnen eller redde en mistet maske er andre arbeidsoperasjoner.
 
-**Plukke opp:** løft en eksisterende kantløkke eller tråd opp på pinnen.
+Her plukker du opp og strikker rett, med vanlig høyrehendt strikkeretning:
 
-**Plukke opp og strikke:** stikk pinnen gjennom kanten, legg garnet rundt og trekk gjennom i én rettmaske-bevegelse. Masken lages og strikkes samtidig.
+1. Hold rettsiden mot deg og kanten øverst. Begynn der oppskriften sier; på en prøve begynner du til høyre og går mot venstre. Drei arbeidet etter hvert som du følger halsutringningen.
+2. Hold arbeidsgarnet bak arbeidet og la det være en ende å feste. Stikk høyre pinne gjennom det valgte stedet forfra og bakover uten å splitte garnet.
+3. Legg garnet rundt som til en rett maske og trekk en ny løkke fram gjennom arbeidet. Behold løkken på pinnen og hold i garnenden mens du lager neste maske.
+4. Gå videre til neste planlagte sted og la stedene som skal hoppes over, være urørt. La maskene få plass rundt selve pinnen; ikke stram dem rundt spissen.
 
-I praksis sier mange oppskrifter "plukk opp" når de mener "plukk opp og strikk". Hvis oppskriften oppgir et antall, er det så mange masker som skal sitte på pinnen når du er ferdig.
+Hver ny løkke teller som én maske. Ved vanlig vestlig maskeplassering er høyre maskebein foran pinnen. Andre strikkemåter kan gi en annen plassering. Strikk gjennom det ledende maskebeinet slik at beina ikke krysses, med mindre oppskriften ber om en vridd maske.
 
 ## Langs en horisontal kant, opplegg eller avfelling
 
-Dette er den enkleste retningen. Hver maske i kanten har en synlig V. Stikk pinnen gjennom midten av V-en, under begge bein, legg garnet rundt og trekk gjennom. Én maske per maske i kanten.
+Ved en glattstrikket avfellingskant stikker du gjennom midten av en hel V rett under avfellingskjeden, helt gjennom arbeidet. Den nye masken følger da maskekolonnen. V-en er ikke det sidelengs kjedeleddet i avfellingen, og du skal ikke bare løfte to tråder opp på pinnen.
 
-Forholdet er vanligvis 1:1. Åtti avfelte masker betyr at du plukker opp 80, eller det antallet oppskriften angir. Noen ganger ber oppskriften om færre, som betyr at du hopper over masker med jevne mellomrom.
+Vend oppleggskanten opp og finn hele V-er slik de ser ut i denne retningen, rett innenfor opplegget. De er forskjøvet en halv maske fra de opprinnelige kolonnene. På et flatt stykke kan det være én hel V mindre; behandle endepunktene slik oppskriften angir for å få riktig total. Ikke tell samme endeløkke to ganger. Ulike opplegg gir ulik struktur, så prøv plasseringen på en lapp.
+
+Med tilsvarende maskefasthet kan 1:1 passe: 80 avfelte masker gir 80 nye. Et annet kantmønster eller oppskriftens antall kan kreve at du hopper over steder. Oppplukking under bestemte kanttråder er også en metode, men gir ikke nødvendigvis samme sammenføyning.
 
 ## Langs en vertikal kant, siden av arbeidet
 
-Her betyr avstand mye. Pinner og masker er ikke like høye. En vanlig glattstrikket strikkefasthet kan være 20 masker per 10 cm i bredden, men 28 pinner per 10 cm i høyden. Hvis du plukker opp én maske i hver pinne, får den vertikale kanten flere masker per centimeter enn den horisontale, og kanten bølger eller bretter seg ut.
+Stikk gjennom arbeidet mellom ytterste maskekolonne og den neste, ved de pinnene du har valgt. Én kolonne blir sømmonn på vrangsiden. Dette er ikke å løfte en tverrtråd for madrassting.
 
-Standardforholdet for glattstrikk er 3 masker for hver 4 pinner. Plukk opp i de første tre pinnene, hopp over den fjerde og gjenta. Det fungerer for mange strikkefastheter, men dine egne tall kan trenge justering.
+Beregn **den nye kantens masker per lengdeenhet delt på det opprinnelige stykkets pinner per samme lengdeenhet**. Mål i tilstanden det ferdige arbeidet skal ha. Med 20 masker per 10 cm i kanten og 28 pinner per 10 cm i stykket blir forholdet 20/28 = 5/7 ≈ 0,714. [Mål strikkefastheten](/no/artikler/male-strikkefasthet/) først.
 
-For å regne ut forholdet deler du maskefastheten på pinnefastheten. Hvis strikkefastheten er 20 masker og 28 pinner per 10 cm, blir forholdet 20/28 = 0,71. Det er omtrent 7 masker på 10 pinner, eller nær 3 på 4. Hvis du må [sjekke strikkefastheten](/no/artikler/male-strikkefasthet/) først, start der.
-
-Hvis oppskriften oppgir et nøyaktig antall oppplukkede masker, deler du antallet på kantens lengde i centimeter. Da får du rytmen. Plukk opp i den rytmen og spre pinnene du hopper over så jevnt du kan.
+I hver gruppe med sju kantpinner plukker du opp ved posisjon 1, 2, 4, 5 og 7 og hopper over 3 og 6. Fire grupper bruker 28 posisjoner: 20 masker og 8 steder som hoppes over. Tre på fire ville gitt 21 masker over de samme 28 pinnene. Sju på ti er også en annen tilnærming, ikke automatisk nær nok.
 
 ### Langs en kant med løftede kantmasker
 
-Hvis du løftet første maske på hver pinne mens du strikket delen, har sidekanten en kjede av parvise tråder i stedet for én tydelig tråd per pinne. Plukk opp én maske under hvert kjedeledd, altså under de to trådene som danner en V i kjeden. Hvert kjedeledd tilsvarer vanligvis to pinner, så én oppplukket maske per kjedeledd kan gi betydelig færre masker enn en knappestolpe eller kant trenger.
-
-At vrangbord trekker seg sammen, gjør ikke automatisk én maske per kjedeledd riktig. Følg oppskriftens oppgitte maskeantall. Ellers beregner og justerer du oppplukkingsforholdet ut fra kantens pinnefasthet eller lengde og ønsket maskefasthet eller maskeantall for kanten som skal strikkes. Bruk én maske per kjedeledd bare når det gir riktig maskeantall og en flat kant med god passform.
+Et kjedeledd svarer ofte til to pinner. Én ny maske under begge trådene i leddet gir da bare én maske per to pinner. Bruk dette bare når antall og passform stemmer; at vrangbord trekker seg sammen, gjør ikke for få masker riktig. Trenger du flere steder, kan du plukke opp ved pinnene én kolonne innenfor kjeden, eller følge oppskriftens kantmetode. Ikke press flere masker gjennom én løs løkke uten å prøve resultatet.
 
 ### Langs en rillestrikket kant
 
-Rillestrikkede kanter har to synlige nupper per rille, og én rille tilsvarer to pinner. Plukk opp under trådparet ved kanten av hver rille, og hold deg til samme punkt hele veien.
+Én rille svarer til to pinner. Du kan stikke gjennom arbeidet mellom rillene, én maskekolonne innenfor kanten, og trekke nytt garn fram. En annen metode er å føre pinnen nedenfra og opp under den ytterste nedoverbuede vrangløkken på hver rille, uten å splitte garnet, og trekke arbeidsgarnet gjennom løkken. Bruk samme plassering innenfor avsnittet.
 
-Forholdet er ofte 1 maske per rille, altså 1 maske per 2 pinner. En oppplukket kant i rillestrikk ser lett fastere ut enn en i glattstrikk. Den kan trenge en ekstra oppplukket maske med noen rillers mellomrom for at kanten ikke skal trekke inn.
+Én maske per rille betyr én per to pinner og kan passe i rillestrikk. Sjekk kantlengden og den nye kantens strikkefasthet; ikke legg automatisk til en ekstra maske etter noen riller.
 
 ## Ulike kanter trenger ulike forhold
 
-3-på-4-forholdet tar utgangspunkt i en glattstrikket sidekant og en kant der strikkefastheten ligger nær hovedstoffet. Andre kombinasjoner trenger en annen rytme.
+Bruk strikkefastheten i vrangborden, rillestrikken eller perlestrikken du faktisk skal strikke. Vrangbord har ulik bredde i hvile og strukket. Verken rillestrikk eller perlestrikk har en universell 3-på-4-regel. En i-cordkant følger oppskriftens egen festerytme.
 
-Vrangbord, som 1 r, 1 vr eller 2 r, 2 vr, trekker seg sammen i bredden. Den kan derfor tåle litt flere oppplukkede masker enn glattstrikk. Følg oppskriften hvis den gir et antall, fordi dybden på halskanten og pinnestørrelsen endrer resultatet.
-
-Rillestrikket kant oppfører seg ganske likt glattstrikk. 3 på 4 er et godt utgangspunkt.
-
-Perlestrikk ligger også nær glattstrikk i bredden, så 3 på 4 fungerer ofte der også.
-
-I-cord-kanter festes i mange oppskrifter i annenhver pinne eller med en helt oppskriftsspesifikk rytme. Følg oppskriften der i stedet for å tvinge inn 3-på-4-regelen.
-
-Hvis du er usikker og oppskriften ikke sier noe, prøv på en liten kantbit. Plukk opp over en kort strekning, strikk noen pinner kant og se om den trekker eller bølger. Det er bedre å teste der enn rundt hele halsen.
+Hvis antall mangler, prøv kanten på en liten lapp med prosjektgarnet. Strikk nok til å vurdere lengde, dybde og elastisitet. Behandle bare slik garnets vaskeanvisning tillater, og vurder arbeidet tørt og avslappet. Blokking garanterer ikke at feil antall eller en stram oppplukking blir riktig.
 
 ## Langs en buet kant, som halsutringning
 
-Halsutringninger blander horisontale kanter, vertikale kanter og buede eller diagonale formingskanter. Hver del trenger sin egen rytme.
+Marker horisontale, vertikale og formede avsnitt. Bruk metoden for den aktuelle kanten. Langs diagonaler følger du en jevn linje innenfor avfellingstrinnene, ikke de store hullene i trinnene. Bruk oppskriftens delantall eller diagonalens faktiske lengde og kantens strikkefasthet. Det finnes ingen fast rytme midt mellom horisontalt og vertikalt.
 
-**Avfelte masker:** 1 per maske, samme som langs en horisontal kant.
-
-**Vertikale sider:** 3 masker på 4 pinner, eller det forholdet strikkefastheten din krever.
-
-**Diagonale formingskanter:** et sted mellom vertikalt og horisontalt. Start nær oppskriftens antall, eller bruk den diagonale kanten som guide og juster etter første kantpinne.
-
-**Hjørner der horisontal møter diagonal:** plukk opp i selve hjørnemasken hvis kanten vil åpne seg der. Det forebygger hullet som ofte synes ved halsutringninger.
-
-Oppskriften oppgir som regel et totalt maskeantall for oppplukkingen. Fordel det proporsjonalt: tell de avfelte maskene foran, pinnene langs hver side og fordel maskene deretter.
-
-Hvis halskanten ser bølgete ut etter første pinne, har du for mange masker. Hvis den trekker innover, har du for få. En justering på noen få masker i den ene eller andre retningen er ofte nok.
+La hvert hjørne eller felles grensepunkt høre til bare ett avsnitt. Trengs en ekstra maske for å lukke et hull, ta den fra fast strikk rett ved siden av og regn den med i totalen. Fell den senere bare etter oppskriftens plan. Fellinger i en V-hals og økninger rundt et utvendig hjørne på senere pinner er egen forming; ekstra oppplukkede masker erstatter ikke dette.
 
 ## Hvor pinnen skal inn
 
-**Én maske inn fra kanten.** Stikk pinnen mellom kantmasken og neste maske. Det gir renest resultat. Kantmasken danner en brettelinje, og kanten havner litt innenfor i stedet for oppå arbeidet.
-
-**Gjennom selve kantmasken.** Litt grovere, men enklere og mer intuitivt. Noen oppskrifter angir dette.
-
-Ved sydde kanter plukker du opp mellom sømmasken og neste maske. Sømmonnet skjules bak kanten.
-
-Vær konsekvent langs hele kanten. Hvis du bytter metode midt i kanten, synes det.
+Én kolonne som sømmonn passer den glattstrikkede sidemetoden ovenfor. Å plukke opp gjennom selve kantmasken kan redusere tykkelsen, men endrer sammenføyningen. Løftede masker, rillestrikk, sømmer og formede kanter kan trenge andre innstikkssteder. Bruk fast strikk på innsiden av eksisterende sømmonn, ikke en løs sytråd. Det er rimelig å bytte metode når kantstrukturen endres.
 
 ## Fordele maskene jevnt
 
-Den vanligste årsaken til ujevn oppplukking er å gjøre alt på følelsen og få for mange masker i starten og for få på slutten, eller motsatt. Litt forarbeid sparer en hel omstart.
+Sett markørene mellom oppplukkingsstedene, slik at endepunkter ikke telles dobbelt. Like lange avsnitt med samme struktur kan få like mange masker.
 
-Del kanten i like store seksjoner med låsbare maskemarkører eller sikkerhetsnåler. På en lang kant kan du først merke halvdeler, deretter fjerdedeler og så mindre seksjoner ved behov. Tell innenfor hver seksjon i stedet for å prøve å holde hele kanten i hodet.
+For 100 masker over 140 kantpinner deler du i fire avsnitt med 35 pinner. Plukk opp 25 i hvert ved å gjenta 5-av-7-følgen fem ganger. Hvert avsnitt har 10 steder som hoppes over: totalt 100 oppplukkede + 40 overhoppede = 140 posisjoner.
 
-På halsutringninger er hjørner og seksjonsgrenser verdt å merke før du begynner. Det er der små feil ellers vokser.
+Trenger du 102 masker, fordel symmetrisk 26 + 25 + 25 + 26. Bruk også posisjon 17 i hvert av de to ytterste avsnittene, som ellers ble hoppet over. Der gjenstår 9 overhoppede steder i hvert: totalt 102 + 38 = 140. Første og siste posisjon er allerede med og legges ikke til igjen ved markørene.
+
+Vrangbord med 1 r, 1 vr rundt trenger et partall; 2 r, 2 vr rundt trenger et tall delelig med 4. Frem og tilbake med 2 rette i begge ender trenger 2 r, 2 vr derimot 4n + 2 masker før egne kantmasker. Da passer 102 = 4 × 25 + 2. Med enda én kantmaske i hver ende blir totalen 104. Regn dem inn i oppplukkingen eller legg dem til slik oppskriften sier. Sjekk lengde og passform også.
+
+Skal 104 masker plukkes opp fra de samme 140 posisjonene, ta 26 i hvert avsnitt ved å bruke posisjon 17 i alle fire: 104 oppplukkede + 36 overhoppede = 140.
 
 ## Bruke heklenål
 
-På harde eller tett strikkede kanter kan en heklenål trekke løkkene lettere gjennom enn en strikkepinne. Stikk heklenålen gjennom kanten, fang garnet og trekk opp en løkke. Flytt løkken til strikkepinnen.
-
-Noen strikkere gjør hele oppplukkingspinnen på denne måten, særlig i fast bomull eller tette kantmasker. Det går litt langsommere enn med pinne, men hendene jobber mindre og resultatet blir ofte jevnere på vanskelige kanter.
+Stikk heklenålen gjennom samme valgte sted, fang arbeidsgarnet bak arbeidet og trekk en ny løkke fram. Flytt den til strikkepinnen uten å vri den. Verktøyet endrer ikke antall eller rytme.
 
 ## Teste oppplukking med restegarn
 
-Hvis oppplukkingen føles usikker, kan du teste oppplukkingen med glatt restegarn først. Tell maskene, sjekk avstanden, ta restegarnet ut og gjenta med prosjektgarnet når rytmen stemmer. Da kan du kontrollere antall og fordeling uten å slite på prosjektgarnet med gjentatt opprekking.
-
-Det er nyttig på gensere der oppplukkingen går rundt en tilpasset halsutringning og du vil være sikker på at antallet stemmer før du fortsetter. Det hjelper også når kanten er fast, lodden eller mørk nok til at det blir irriterende å gjøre den egentlige oppplukkingen om igjen.
+Glatt restegarn kan brukes til å øve på plassering og kontrollere antall. Annen tykkelse eller elastisitet viser ikke den ferdige kantens passform. Prøv denne med prosjektgarnet og riktig maskemønster.
 
 ## Vanlige feil
 
-**For mange masker.** Kanten bretter seg ut og ser bølgete ut. Gjør oppplukkingspinnen på nytt med færre masker. Det er bedre å oppdage med én gang enn etter flere pinner kant.
+**Bølger eller rynker.** For mange masker kan få kanten til å bølge; for få kan trekke sammen stykket. Sjekk også garnspenning, innstikksdybde, strikkefasthet, forming og avfellingens elastisitet. Gjør om når antall eller fordeling er feil. Andre pinner eller senere fellinger fjerner ikke overskuddet som allerede sitter i sammenføyningen.
 
-**For få masker.** Kanten trekker seg sammen og lager rynker. Samme løsning: gjør om.
+**Ujevn fordeling.** Sjekk hvert avsnitt og spre stedene som hoppes over. Lik fordeling passer bare når lengde og struktur tilsier det.
 
-**Ujevn avstand.** Noen partier strekkes og andre presses sammen. Del kanten i like store seksjoner før du begynner, merk med nåler eller markører og plukk opp samme antall i hver seksjon.
+**Hull i hjørner.** Unngå løse kantløkker og dobbeltelling. Et lite gjenværende hull kan sys sammen med garnenden uten å stramme kanten; se [guiden om å sy sammen strikkede deler](/no/artikler/sy-sammen-strikkede-deler-madrassting/). Ikke legg automatisk til tre hjørnemasker.
 
-**Hull i hjørner.** Plukk opp i selve hjørnemasken og én maske fra hver tilstøtende del. Hvis et lite hull likevel blir igjen, kan du lukke det med noen sting under monteringen. [Guiden om å sy sammen strikkede deler](/no/artikler/sy-sammen-strikkede-deler-madrassting/) går gjennom slike løsninger mer detaljert.
-
-**Vridde masker.** Hvis den oppplukkede masken sitter med beina krysset, ser den annerledes ut når den strikkes. Fremre maskebein skal ligge foran pinnen, på samme måte som i din vanlige strikking.
-
-**Oppplukkingen synes fra rettsiden.** Ofte betyr det at du plukker opp for nær kanten eller gjennom kantmasken når oppskriften forutsetter én maske inn. Flytt inn en maske, så havner overgangen på vrangsiden.
+**Vridde masker eller synlig overgang.** Sjekk maskenes plassering, hvilken side du arbeider fra, og innstikksstedet. Dypere oppplukking kan gi mer tykkelse og løser ikke alt. Fest trådene uten å hindre elastisiteten og følg garnets vaskeanvisning.
 
 ## Plukke opp for steeker
 
-En steek må forsterkes før klipping når garnet, fiberen eller metoden krever det. Garn som ikke tover, som bomull og superwash-ull, bør forsterkes med hekling eller maskinsøm på begge sider før du klipper. Ubehandlet ull kan gripe eller tove seg nok til å oppføre seg sikrere.
+En steek er en planlagt oppklipping i strikket stoff. Velg en utprøvd metode for garnet; heklet forsterkning er ikke nok for alle glatte garn eller garn som ikke tover. Gjør nødvendig forsterkning før klipping. En oppplukket kant erstatter den ikke.
 
-Etter klippingen må den klippede fliken eller kanten sikres og ferdigstilles slik den valgte metoden krever. Plukk deretter opp masker i maskekolonnen rett innenfor klippet, ikke i de rå trådendene.
-
-Den oppplukkede kanten kan dekke trådendene fra rettsiden og bidra til å stabilisere den ferdigbehandlede klippekanten, men den erstatter ikke nødvendig forsterkning eller annen kantbehandling.
+Plukk opp langs metodens angitte linje på plaggsiden av steekens sømmonn, ikke rett ved klippet eller i avklipte trådender. Sømmonnet må fortsatt festes eller lukkes inne. Avhengig av konstruksjonen kan du plukke opp før eller etter klipping; følg den valgte rekkefølgen.
 
 ## Vanlige spørsmål
 
 **Hvilken pinnestørrelse skal jeg bruke for å plukke opp?**
-Bruk pinnestørrelsen oppskriften angir for kanten, ofte én eller to størrelser mindre enn til kroppen. Mindre pinner i vrangbordkanter gir en fastere og penere kant.
+Følg oppskriftens kantpinne og sjekk strikkefastheten. En tynnere pinne eller heklenål kan hjelpe i en tett kant, men flytt maskene til arbeidspinnen uten å stramme oppplukkingen. Mindre er ikke alltid penere.
 
 **Skal rettsiden vende mot meg når jeg plukker opp?**
-Som regel, ja. Plukk opp med rettsiden mot deg, slik at første kantpinne blir en vrangsidepinne, for eksempel vrangt i glattstrikkede kanter. Da havner overgangen på vrangsiden.
+Ja, med metoden her. Frem og tilbake snur du etterpå og følger instruksjonen for vrangsidepinnen. Rundt fortsetter du uten å snu hvis ikke annet er angitt. En vrangsidepinne betyr ikke at alle maskene skal strikkes vrangt.
 
 **Hvor mange masker trengs til en knappestolpe?**
-Oppskriften bør oppgi det. Hvis den ikke gjør det, bruk kantens maskefasthet multiplisert med kantens lengde som startpunkt. Juster hvis knappestolpen trekker seg sammen eller bretter seg ut.
+Følg oppskriften. Mangler antallet, multipliser ønsket stolpelengde med stolpens masker per lengdeenhet, og sjekk rapport, endepunkter og ønsket strekk. Bruk stykkets pinneantall til å fordele totalen.
 
 **Hvorfor ser oppplukkingen ujevn ut fra rettsiden?**
-Som regel varierer innstikksdybden. Noen masker er plukket opp én maske inn, andre gjennom kantmasken. Plukk om etter at du har bestemt nøyaktig hvilken metode du skal bruke.
+Sjekk innstikksdybde, fordeling og løkkenes spenning før du gjør om. Et hjørne eller en annen kantstruktur kan kreve et annet innstikkssted.
 
-**Kan jeg legge til lengde ved å plukke opp langs en avfelt kant og strikke nedover?**
-Ja. Plukk opp langs avfellingen som langs en hvilken som helst horisontal kant, ofte 1 maske per avfelt maske, og strikk nedover. Den nye delen får en annen retning i maskebildet fordi maskene ligger opp ned mot originalen, men i mange strukturer synes det knapt. Praktisk når bolen på en genser ble et par centimeter for kort.
+**Kan jeg legge til lengde langs en avfelt kant?**
+Ja, men avfellingen gir en overgang og kan begrense elastisiteten. Fra avfellingskanten fortsetter du vanligvis i opprinnelig strikkeretning. Fra oppleggskanten snus retningen, og kolonnene kan forskyves en halv maske. Prøv først; sammenføyningen blir ikke alltid usynlig.
 
 **Maskeantallet stemmer med oppskriften, men kanten bølger. Hvorfor?**
-Oppskriften kan bygge på en annen sammenheng mellom pinnefasthet, maskefasthet og kantlengde enn stoffet ditt har. Plukk om ut fra den faktiske kanten din, og juster neste kantpinne med økninger eller fellinger hvis du må tilbake til oppskriftens totale antall.
+Faktisk lengde, kantens strikkefasthet eller spenningen i oppplukkingen kan avvike. Sjekk dette før du endrer antallet. Planlagte økninger eller fellinger kan tilpasse antallet til neste rapport, men garanterer ikke en flat sammenføyning når oppplukkingsforholdet er feil.
+
+Teknikkilder på engelsk: [Purl Soho: plukke opp masker](https://www.purlsoho.com/create/picking-up-stitches/) og [La Visch Designs: halsutringningens avsnitt](https://www.lavisch.com/site/tutorial-picking-up-stitches-to-work-a-neckline/).

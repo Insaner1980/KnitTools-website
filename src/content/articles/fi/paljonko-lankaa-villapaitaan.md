@@ -1,7 +1,8 @@
 ---
 title: "Paljonko lankaa villapaitaan?"
-description: "Arviot neulotun villapaidan langanmenekkiin koon ja lankavahvuuden mukaan. Hihat, palmikot, neuletakit ja lisäkerät huomioon."
+description: "Arvioi villapaidan langanmenekki ohjeen mitoista ja lähteistetystä kokoesimerkistä. Muunna metrit keriksi ja huomioi hihat, mallineule sekä muutokset."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 4
 tags:
@@ -15,109 +16,83 @@ lang: fi
 translationKey: "yarn-for-sweater"
 ---
 
-Villapaita on suurin vaate, jonka moni neuloja tekee, ja langanmenekki näkyy sen mukaisena. Aliarvioi, ja etsit lopussa kadonnutta värjäyserää puolikas hiha jäljellä. Yliarvioi liikaa, ja kallis lanka jää lankavarastoon määräämättömäksi ajaksi.
+Suunnittele villapaidan lankamäärä ennen ostamista. Aliarvioi, ja etsit lopussa kadonnutta värjäyserää puolikas hiha jäljellä. Yliarvioi liikaa, ja kallis lanka jää lankavarastoon määräämättömäksi ajaksi.
 
-Oikea määrä riippuu kolmesta asiasta: paidan koosta, langan vahvuudesta ja rakenteesta. Lyhyt bulky-vahvuinen pusero voi tarvita noin 600 metriä. Pitkä fingering-vahvuinen neuletakki voi mennä yli 2 500 metrin. Alla olevat haarukat kattavat tavallisen keskialueen.
+Aloita valitsemasi ohjekoon lankamäärästä. Valmiin paidan rinnanympärys, vartalon ja hihojen pituus, pääntie, mallineule, neuletiheys ja langan rakenne vaikuttavat menekkiin. Pelkkä kokokirjain tai lankavahvuus ei määritä tarvittavaa määrää.
 
 ## Menekkiarviot koon mukaan
 
-Nämä olettavat tavallisen sileäneuleisen puseron: pyöreä pääntie, pitkät hihat, lantiopituus. Neuletakit, lyhyet mallit ja pintaneuleet muuttavat lukuja, niistä alempana.
+Vertaa omia vartalonmittojasi ohjeen valmiin vaatteen mittoihin ja suunniteltuun väljyyteen. S/M/L eivät tarkoita kaikissa ohjeissa samoja mittoja. [Craft Yarn Council selittää vartalonmitan ja väljyyden eron](https://www.craftyarncouncil.com/standards/body-sizing).
 
-**XS-S (rinnanympärys 80-90 cm)**
-Fingering: 1 200-1 500 metriä
-DK: 900-1 200 metriä
-Worsted: 700-1 000 metriä
-Bulky: 550-750 metriä
+Konkreettinen esimerkki on [PetiteKnitin Novice Sweater](https://www.petiteknit.com/en/products/novice-sweater): ylhäältä alas saumattomasti neulottava sileä paita, jossa on pyöreä kaarroke ja joustinreunat. Alla on kolme kokoa ohjeen Kos-lankavaihtoehdolla, yksinkertaisella langalla. Tiheys on 16 silmukkaa × 21 kerrosta / 10 × 10 cm 6 mm:n puikoilla. Pituus mitataan keskeltä takaa ilman pääntien joustinta.
 
-**M-L (rinnanympärys 95-110 cm)**
-Fingering: 1 500-2 000 metriä
-DK: 1 200-1 600 metriä
-Worsted: 1 000-1 400 metriä
-Bulky: 750-1 000 metriä
+| Ohjekoko | Valmis ympärys / pituus (cm) | Kos (g / m) |
+| -------- | ---------------------------- | ----------- |
+| S        | 98 / 55                      | 300 / 900   |
+| M        | 103 / 57                     | 350 / 1 050 |
+| XL       | 116 / 62                     | 400 / 1 200 |
 
-**XL-2XL (rinnanympärys 115-130 cm)**
-Fingering: 2 000-2 500 metriä
-DK: 1 600-2 100 metriä
-Worsted: 1 400-1 800 metriä
-Bulky: 1 000-1 300 metriä
+[Sandnes Garnin Kos-langassa on noin 150 m / 50 g](https://www.sandnesgarn.no/kos). Se on nailonputkeen puhallettu alpakka-villasekoite. Taulukon määrät vastaavat siis 6:ta, 7:ää ja 8:aa kerää. Metrit ovat ostokerien sisältämä pituus, eivät mitattu kulutus. Esimerkki koskee vain tätä ohjetta ja lankaa. Julkinen esittely ei ilmoita hihojen pituuksia eikä erillistä varamäärää; tarkista koko ohje ennen muutoksia.
 
-**3XL+ (rinnanympärys 135+ cm)**
-Fingering: 2 500-3 000 metriä
-DK: 2 100-2 600 metriä
-Worsted: 1 800-2 300 metriä
-Bulky: 1 300-1 700 metriä
-
-Omaan kokoon, lankavahvuuteen ja paitatyyliin perustuvan arvion saat [lankamuuntimella](/fi/tyokalut/lankamuunnin/).
+[Langanmenekkilaskuri](/fi/tyokalut/lankamuunnin/) — Nimettyjen ohjeiden vertailumäärät, ei henkilökohtainen menekkiennuste. Valitse työ, nimetyn ohjeen koko ja yksikkö. Tulos on kyseisen ohjeen vertailumäärä, ei oman työsi menekkiennuste.
 
 ## Tyylin vaikutus
 
-**Neuletakki:** varaa hieman enemmän kuin samankokoiseen puseroon. Napituslistat, ylimääräiset reunasilmukat ja poimittu kaulus kuluttavat lankaa. Syvästi päällekkäinen etuosa tai huivikaulus lisää enemmän kuin kapea lista viidellä napilla.
+**Neuletakki:** aloita neuletakkiohjeen määrästä. Huomioi etukappaleet, päällekkäisyys, napituslistat ja kaulus. Puseron määrä ja kiinteä lisä eivät korvaa niitä.
 
-**Lyhyt pituus:** siirry haarukan alapäähän. Määrä riippuu siitä, mihin lyhennys päättyy. Heti rinnan alle päättyvä malli säästää enemmän kuin juuri lantion yläpuolelle päättyvä.
+**Lyhyt paita tai tunika:** arvioi poistettava tai lisättävä vartalo-osa sen leveyden, muotoilun ja mallineuleen mukaan. Rinnanympäryksen kasvattaminen ei suurenna hihoja ja pääntietä samassa suhteessa.
 
-**Tunika / pitkä malli:** siirry haarukan yläpäähän ja lisää varaa. Jokaista vartalon lisäsenttiä varten neulotaan kerrostiheyden mukainen määrä kerroksia koko vaatteen leveydeltä. Se kertyy nopeasti.
+**Lyhyet hihat tai liivi:** laske muuttuvien hihojen ja kädentien reunusten menekki uudelleen. Puseroarvio ei ole erilaisen liivin automaattinen yläraja.
 
-**Lyhyet hihat tai pienet hihat:** tarvitset vähemmän kuin pitkähihaiseen puseroon. Hihat vievät yllättävän suuren osan kokonaismenekistä, joten suurimman osan hihapituudesta poistaminen on iso säästö.
-
-**Hihaton / liivi:** käytä puseroarviota ylärajana ja vähennä puuttuvien hihojen osuus.
-
-**Napakka istuvuus (negative ease):** vartalon päällä venyväksi suunniteltu paita käyttää hieman vähemmän lankaa kuin sama malli täyden vartalonmitan mukaan. Ero ei ole valtava, mutta se vie arviota koon haarukan alapäähän.
+**Negatiivinen väljyys:** valmis vaate on vastaavaa vartalonmittaa pienempi. Valitse ensin sopiva istuvuus ja neulepinta; älä kavenna paitaa vain langan säästämiseksi.
 
 ## Mallineuleen vaikutus
 
-**Palmikot:** lisää reilu varamäärä. Palmikot vetävät neulepintaa sisään, joten samaan rinnanympärykseen tarvitaan enemmän silmukoita. Kauttaaltaan palmikkoneuleinen villapaita on yksi lankasyöpöimmistä rakenteista. Yksittäinen palmikkopaneeli edessä ja takana on paljon lähempänä sileää neuletta.
+**Palmikot, patenttineule, helmineule ja pitsi:** käytä ohjeen määrää tai mittaa kulutus kyseisellä mallineuleella tehdystä mallitilkusta. Sileän neuleen arvio ei kerro näiden menekkiä. Palmikoille ei ole yleistä lisävaraa eikä pitsille automaattista säästöä.
 
-**Kirjoneule:** lisää varaa kaikki värit yhteensä. Nurjan puolen langanjuoksut kuluttavat lankaa, joka ei näy oikealla puolella. Kaarrokekirjoneule syö selvästi enemmän lankaa kuin samankokoinen sileä paita. Pääväri vie yleensä suurimman osan, kontrastivärit jakavat loput.
+**Kirjoneule:** käytä värikohtaisia määriä. Lankaa kuluu myös nurjan puolen langanjuoksuihin, joten näkyvien värialueiden pinta-ala ei yksin riitä. Mittaa kunkin värin kulutus edustavasta mallikerrasta ja pyöristä ostokerät erikseen.
 
-**Pintaneuleet, kuten brioche ja helmineule:** lisää varaa. Brioche tekee paksumman ja lankasyöppöisemmän pinnan kuin sileä neule, ja helmineule voi kiristää neuletiheyttä niin paljon, että arvio muuttuu.
-
-**Pitsi:** suunnilleen sama kuin sileä neule tai hieman vähemmän. Avoin rakenne venyy viimeistelyssä, joten pitsipaneeli peittää enemmän pinta-alaa samalla metrimäärällä.
+**Useampi lanka yhdessä:** tarkista, ilmoittaako ohje määrän jokaiselle langalle vai yhteensä. Jokainen mukana neulottava lanka tarvitsee oman osuutensa koko neulottavan osan pituudesta. Älä jaa yksinkertaisen langan menekkiä kahdelle langalle äläkä kaksinkertaista jo molemmat sisältävää määrää.
 
 ## Hiha-ansa
 
-Hihat ovat paikka, jossa menekkiarviot menevät pieleen. M-L-kokoisen worsted-vahvuisen villapaidan pitkät hihat voivat käyttää yhdessä useita satoja metrejä. Se on iso osa koko projektin langasta. Neulojat, jotka arvioivat määrää vartalon valmistumisen perusteella, huomaavat usein hihoissa olevansa kaksi kerää vajaita.
+Varaa lankaa molempiin hihoihin ja niiden joustimiin ennen vartalon pidentämistä. Vartalon valmistuminen ei vielä osoita, että loppulanka riittää.
 
-Jos lanka on tiukilla, neulo hihat ensin. Se tuntuu epäintuitiiviselta, mutta on käytännöllistä: vartalo on se osa, jossa pituutta voi helpoimmin säätää, jos lanka alkaa loppua. Hihat taas tarvitsevat parin, etkä voi tehdä toisesta lyhyempää. Kun tiedät tarkasti, paljonko hihat veivät, loppulangalle on selkeä budjetti.
-
-Ylhäältä alas neulottu saumaton rakenne helpottaa vartalon mittaa, mutta hihaongelma ei katoa. Neulot kaarrokkeen, jaat työn vartaloon ja hihoihin, ja moni neuloo vartalon ensin. Jos arvio pettää, hihat kärsivät. Suunnittele se etukäteen.
+Jos rakenne sallii, neulo hihat ennen vartalon lopullisen pituuden päättämistä. Ylhäältä alas neulottavassa kaarrokepaidassa etene ensin vartalon ja hihojen jakoon. Sen jälkeen voit tehdä hihat ennen kuin käytät loppulangan vartalon alaosaan. Jätä lankaa myös helmaan, pääntien viimeistelyyn ja päättelyyn.
 
 ## Rakenne ja mihin lanka menee
 
-Useimmissa puseroissa vartalo ja hihat vievät suurimman osan langasta. Joustimet, pääntiet, napituslistat ja viimeistelyt kuluttavat vähemmän, mutta nekin pitää laskea mukaan. Raglan tai pyöreä kaarroke siirtää enemmän lankaa ylävartaloon. Pudotettu olka vie enemmän vartaloon, koska hihat ovat kapeammat ja lyhyemmät.
+Kirjaa vartalo, molemmat hihat, kaarroke tai olkaosat, joustimet, pääntie, mahdolliset napituslistat, saumat ja langanpäät. Laske jokainen osa vain kerran: kaarroke sisältää sekä ylävartalon että hihojen yläosien neulepintaa. Raglan tai pudotettu olka ei yksin kerro langan jakautumista.
 
-Tämä merkitsee eniten silloin kun suunnittelet rajallisesta lankamäärästä. Lankavarastosta neulottu pudotetun olan pusero antaa enemmän pelivaraa vartaloon ja vähemmän hihoihin. Kaarrokekirjoneule taas sitoo ison osan langasta näkyvään osaan, jossa myös värikaavion muutokset vaikuttavat kokonaismenekkiin eniten.
+Muutoksen arviointiin sopii [Rita Buchananin pinta-alamenetelmä](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf): tilkun kulutus × muuttuvan neuleosan pinta-ala / tilkun pinta-ala. Käytä samaa lankaa, puikkoja, mallineuletta ja taso- tai suljettua neulontatapaa kuin työssä. Pese ja kuivaa tilkku kokonaan vaatteen suunnitellun hoidon mukaan langan hoito-ohjeen rajoissa. Punnitun tai mitatun langan pitää vastata mitattua pinta-alaa; käsittele reunukset ja langanpäät erikseen ja käytä riittävän tarkkaa vaakaa. Arvioi muotoillut osat ja erilaiset neulepinnat erikseen. Menetelmä ei takaa koko vaatteen menekkiä.
 
 ## Metrien muuttaminen keriksi
 
-Katso vyötteestä metrit per kerä. Jaa kokonaisarvio sillä luvulla. Pyöristä ylöspäin.
+Katso vyötteestä metrit per kerä. Jaa tarvittava pituus kerän pituudella samoissa yksiköissä ja pyöristä kokonaisiin keriin ylöspäin.
 
-Villapaita tarvitsee noin 1 280 metriä. Langassa on 160 metriä per 50 gramman kerä. Se on 8 kerää. Osta 9. Yksi varalle.
+Kuvitteellinen lasku: jos työn perusteltu tarve on 1 280 m ja langassa on 160 m / 50 g, 1 280 / 160 = 8 kerää eli 400 g. Lasku ei osoita, että 1 280 m riittää johonkin tiettyyn paitaan. Yhdeksäs kerä lisäisi 160 m, mutta se ei ole automaattisesti tarpeellinen tai riittävä vara.
 
-Villapaidassa ylimääräinen kerä kannattaa, vaikka lasku näyttäisi tarkalta. Neuletiheys vaihtelee projektin aikana, moni kiristää tai löysää huomaamattaan kun rytmi löytyy. Mallitilkku, päättelylangat ja mahdollinen purkaminen vievät myös lankaa. Hyvä mallitilkku ja muutama purettu joustinkerros voivat kuluttaa yllättävän paljon lankaa ennen kuin varsinainen vaate edes alkaa.
-
-Moni lankakauppa hyväksyy käyttämättömien ja vyyhdillä tai vyötteen kanssa ehjien kerien palautuksen. Kannattaa kysyä ennen ostoa. Vaikka palautus ei onnistuisi, yksi ylimääräinen kerä hyvää lankaa harvoin menee hukkaan: siitä saa pipon, lapaset, korjauslankaa tai tulevan kirjoneuleen kontrastivärin.
+Tarkista, mitä ohje sisältää mallitilkkua, viimeistelyä ja epävarmuutta varten. Lisää vain työn tarvitsema vara, jotta samaa osuutta ei lasketa kahdesti. Purkaminen ei kuluta lankaa uudelleen, jos sen voi käyttää; katkenneet tai vaurioituneet osuudet pitää korvata. Tarkista kaupan palautusehdot ennen kuin luotat palautukseen.
 
 ## Lankavarastosta taaksepäin laskeminen
 
-Tavallinen tilanne: sinulla on tietty määrä lankaa ja haluat tietää, mitä siitä voi tehdä.
+Kokonaisista keristä saat nimellispituuden kertomalla kerien määrän vyötteen metrimäärällä. Punnitse vajaat kerät kuivina ilman vyötettä tai kerän ydintä. Arvio on jäljellä olevat grammat / vyötteen grammat × vyötteen metrit. Vyötteen pyöristykset ja vaa'an tarkkuus rajoittavat tulosta.
 
-Punnitse täysi kerä kokonaispainon tarkistamiseksi, kerro se kerien määrällä ja käytä vyötteen metrimäärää kokonaismetrien laskemiseen. Tarkista sitten, osuuko määrä haluamasi koon ja tyylin haarukkaan.
-
-Jos olet rajalla, eli lanka riittää juuri ja juuri arvioon, mieti muutoksia jotka vähentävät menekkiä: lyhyemmät hihat, lyhyempi vartalo, kapeampi istuvuus tai liiviversio. Nämä kannattaa suunnitella etukäteen, ei improvisoida siinä vaiheessa kun toinen hiha syö viimeistä kerää. Pienemmän koon valitseminen ja hieman löysempi neuletiheys voivat myös auttaa, mutta se vaatii huolellisen mallitilkun.
+Vertaa käytettävissä olevaa lankaa sopivan ohjeen määrään väri ja yhdessä neulottava lanka kerrallaan. Suunnittele lyhyempi vartalo tai hihat etukäteen ja laske muuttuvat osat uudelleen. Pienempi ohjekoko ja löysempi käsiala eivät ole luotettava säästökeino: ne muuttavat tiheyttä, mittoja ja neulepintaa.
 
 ## FAQ
 
 **Paljonko enemmän lankaa tarvitaan miesten villapaitaan kuin naisten villapaitaan?**
-Ero on valmiissa mitoissa, ei kokolapussa. Miesten paita ja naisten paita, joilla on sama rinnanympärys, vartalon pituus, hihan pituus, neuletiheys ja rakenne, käyttävät suunnilleen saman määrän lankaa. Miesten paidat ovat usein suurempia tai pidempiä, joten käytännössä lankaa voi tarvita enemmän, mutta siksi että paita on isompi, ei siksi että se on "miesten".
+Vertaa valmiita mittoja, vartalon ja hihojen pituutta, lankaa, tiheyttä, mallineuletta ja rakennetta. Sama rinnanympärys tai kokokirjain ei yksin riitä riippumatta siitä, onko ohje nimetty miesten vai naisten paidaksi.
 
 **Voinko käyttää eri vahvuista lankaa kuin ohjeessa?**
-Kyllä, mutta langanmenekki muuttuu paljon. Worstedista DK:hon siirtyminen lisää kokonaismetrejä, vaikka lanka on ohuempaa, koska silmukoita tulee enemmän joka suuntaan. [Langan korvaamisen opas](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/) käy koko prosessin läpi, mukaan lukien neuletiheyden ja neulepinnan vaikutukset.
+Mahdollisesti, mutta sama metrimäärä ei yksin varmista korvattavuutta. Tarkista silmukka- ja kerrostiheys sekä pesty neulepinta, materiaalit ja langan rakenne. Worstedista DK:hon vaihtaminen ei anna kiinteää menekkimuutosta. [Langan korvaamisen opas](/fi/artikkelit/langan-korvaaminen-neuleohjeessa/) käsittelee näitä asioita.
 
 **Paljonko lankaa kaarroke vie ylhäältä alas neulotussa paidassa?**
-Kaarroke voi viedä suuren osan koko paidan langasta, syvyydestä ja muotoilusta riippuen. Syvät kirjoneulekaarrokkeet, myös pitkät islantilaistyyliset kaarrokkeet, ovat haarukan yläpäässä, koska osio on leveä, näkyvä ja usein kirjoneuletta.
+Osuus ei ole vakio. Käytä todellista kaarrokkeen syvyyttä, muotoilua, mallineuletta ja värikohtaisia määriä. Älä laske hihojen yläosia uudelleen mukaan jaon alapuolisten hihojen arvioon.
 
 **Kannattaako ostaa ylimääräistä lankaa vai ottaa riski?**
-Osta ylimääräistä, jos lankaa on saatavilla ja budjetti sallii. Käyttämättömän kerän voi ehkä palauttaa, käyttää asusteisiin tai säästää korjauksia varten. Puolivalmis villapaita, jota ei saa valmiiksi kadonneen värjäyserän takia, on paljon huonompi lopputulos.
+Suunnittele työkohtainen vara ja tarkista, mitä ohje jo sisältää. Samaa värjäyserää voi olla vaikea saada myöhemmin. Vertaa varalangan hintaa tähän riskiin ja tarkista palautusehdot. Yksi lisäkerä ei ole yleispätevä sääntö.
 
 **Vaikuttaako kuidun materiaali siihen, paljonko lankaa tarvitaan?**
-Vähän. Villa ja villasekoitteet käyttäytyvät usein lähellä tavallisia arvioita. Puuvilla ja pellava ovat painavampia ja vähemmän joustavia, joten mallitilkku merkitsee erityisen paljon, jos määrä on tiukka. Alpakka ja silkki voivat laskeutua ja venyä pituussuunnassa viimeistelyn jälkeen sekoitteesta ja rakenteesta riippuen. Se voi muuttaa kokoa enemmän kuin pieni silmukkamäärän säätö.
+Kuitu ja langan rakenne vaikuttavat neulepintaan ja sen käyttäytymiseen pesussa. Tarkista kyseisen langan juoksevuus ja käsitelty mallitilkku. Villapaidan menekille ei ole yleistä kuituun perustuvaa kerrointa.

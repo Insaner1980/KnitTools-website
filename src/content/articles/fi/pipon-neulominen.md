@@ -1,6 +1,6 @@
 ---
 title: "Pipon neulominen: menetelmät eri taitotasoille"
-description: "Opi pipon rakenne ja neulontatavat. Opas pyörönä alhaalta ylös, tasona saumattuna, kokoon, päälaen kavennuksiin ja lankavalintaan."
+description: "Opi pipon rakenne ja neulontatavat. Opas suljettuun ja tasona neulottuun pipoon, mitoitukseen, päälaen kavennuksiin ja lankavalintaan."
 publishDate: 2026-05-01
 category: techniques
 categoryOrder: 12
@@ -14,115 +14,109 @@ tags:
   ]
 lang: fi
 translationKey: "how-to-knit-hat"
+updatedDate: 2026-10-18
 ---
 
-Pipo on hyvä toinen tai kolmas projekti huivin jälkeen. Se tuo mukaan suljettuna neulomisen, kavennukset ja perusmuotoilun, mutta työ on tarpeeksi pieni valmistuakseen ennen kuin toisto alkaa puuduttaa. Useimmat worsted-vahvuiset pipot ovat lyhyitä projekteja villapaitaan verrattuna, mutta ensimmäinen pipo pyytää silti opettelemaan uusia taitoja.
+Pipo sopii huivin jälkeen projektiksi, jossa harjoitellaan muotoilua ja haluttaessa suljettua neuletta. Tässä oppaassa vertaillaan rakennustapoja ja käydään läpi mitoitus- ja kavennuslaskut. Kyseessä ei ole kaikille langoille ja päänkoille sarjottu pipo-ohje: valitse varsinaiseen työhön sopiva ohje ja käytä laskuja sen mitoituksen ymmärtämiseen.
 
-Peruspipo neulotaan näin: luo silmukat päänympärykselle niin, että valmiissa pipossa on noin 2,5-5 cm negatiivista väljyyttä, neulo reunaan joustinta, jatka vartalo sileänä neuleena ja [kavenna tasaisesti](/fi/artikkelit/lisaysten-ja-kavennusten-jakaminen/) päälaella. Rakennustapoja on useita. Sopiva riippuu siitä, mitä tekniikoita osaat ja mitä välineitä sinulla on.
+Alhaalta aloitettuun peruspipoon luodaan silmukat **valmiin pipon tavoiteympäryksen** mukaan, neulotaan reuna ja keskiosa sekä [kavennetaan tasaisesti](/fi/artikkelit/lisaysten-ja-kavennusten-jakaminen/) päälaella. Negatiivisen väljyyden määrä riippuu neulepinnan joustosta ja halutusta istuvuudesta; sama vähennys ei sovi jokaiseen päänympärykseen.
 
-## Menetelmä 1: alhaalta ylös pyörönä
+## Menetelmä 1: alhaalta ylös suljettuna neuleena
 
-Tavallinen tapa. Luo silmukat koko päänympärykselle, yhdistä suljetuksi neuleeksi, neulo ylöspäin ja kavenna päälaella niin, että yläosa sulkeutuu.
+Luo silmukat tavoiteympärykselle. Tarkista, ettei luomisreuna kierry puikon ympäri, aseta kerroksen vaihtumiskohtaan merkki ja yhdistä työ neulomalla ensimmäinen silmukka. Jatka suljettuna kääntämättä työtä. Sileässä neuleessa neulotaan kaikki kerrokset oikein; ainaoikeassa vuorotellaan oikeaa ja nurjaa kerrosta.
 
-Tarvitset vartaloa varten 40 cm pyöröpuikon ja päälaelle sukkapuikot, tai pitkän pyöröpuikon magic loop -tekniikkaan, koska ympärys käy lopussa liian pieneksi 40 cm kaapelille. Vaihda silloin, kun silmukat eivät enää liiku mukavasti kaapelin ympäri. Liian pitkä odottaminen tekee päälaesta turhan hankalan.
+Monen aikuisen pipon keskiosaan sopii 40 cm:n pyöröpuikko. Mitta tarkoittaa **kokonaispituutta kärjestä kärkeen**, ei pelkkää kaapelia. Puikon paksuus ilmoitetaan erikseen millimetreinä. Silmukoiden pitää yltää puikolle venyttämättä. Pieniin pipoihin ja kaventuvaan päälakeen sopivat sukkapuikot tai pitkä, taipuisa pyöröpuikko magic loop -tekniikalla. Vaihda menetelmää ennen kuin silmukat kiristyvät lyhyen pyöröpuikon ympärille. Kavennusosioiden merkit eivät riipu silmukoiden jaosta eri puikoille.
 
-Luo silmukat, neulo reunaan joustinta 2,5-5 cm (1 o, 1 n tai 2 o, 2 n), vaihda sileään neuleeseen tai valitsemaasi mallineuleeseen, neulo haluttuun korkeuteen ja kavenna sitten tasaisesti usean kierroksen ajan, kunnes jäljellä on muutama silmukka. Pujota lanka niiden läpi ja kiristä.
+Neulo reunaan joustinta ja keskiosaan sileää tai ohjeen mallineuletta. Taittamaton joustin voi olla esimerkiksi 2,5–5 cm korkea, mutta seuraa oman ohjeen mittaa. Varaa päälaen kavennuksille korkeutta ennen kuin päätät keskiosan pituuden. Sulje yläosa lopuksi pujottamalla lanka eläviin silmukoihin alla kuvatulla tavalla.
 
-Ei saumaa. Näyttää siistiltä ja tuntuu mukavalta. Näin suurin osa pipo-ohjeista on kirjoitettu. Kompromissi: sinun pitää olla sinut pyöröpuikkojen kanssa ja käyttää päälaella joko sukkapuikkoja tai magic loopia.
+Sivusaumaa ei tarvita. Kerroksen vaihtumiskohdan voi sijoittaa taakse, jotta raidan porrastus näkyy vähemmän. Säilytä siinä merkki koko työn ajan.
 
-Kun yhdistät suljetuksi neuleeksi, kierroksen vaihtumiskohta on kohta, jossa mahdollinen raidan porrastus näkyy. Laita se pipon taakse, missä se erottuu vähemmän. Aseta silmukkamerkki. Luomislangan häntää voi käyttää visuaalisena apuna, mutta merkki löytyy nopeammin viiden kierroksen jälkeen, kun häntä on jo painunut työn sisään.
+## Menetelmä 2: tasona neulottuna ja yhteen ommeltuna
 
-## Menetelmä 2: tasona ja saumattuna
+Neulo tasainen kappale, jonka yläreuna muotoillaan kavennuksin. Voit käyttää suoria puikkoja tai neuloa pyöröpuikolla edestakaisin. Käännä työ jokaisen kerroksen jälkeen. Sileässä neuleessa neulotaan oikealla puolella oikein ja nurjalla nurin; ainaoikeassa kaikki kerrokset neulotaan oikein. Tasoneule ei siis aina edellytä nurjia kerroksia.
 
-Neulo pipo tasaisena kappaleena suorilla puikoilla ja ompele sivusauma.
+Noudata tasopipon ohjetta joustimessa, reunasilmukoissa ja päälaella. Jos saumaan jää yksi silmukka kummastakin reunasta, lisää näkyvän neuleen määrään kaksi reunasilmukkaa: 96 + 2 = **98 luotavaa silmukkaa**. Reunat jäävät kavennusosioiden ulkopuolelle. Suunnittele myös joustinpylväiden jatkuminen sauman yli; suljetun neuleen ohjetta ei voi soveltaa sellaisenaan kaikkiin 98 silmukkaan.
 
-Luo silmukat, neulo joustin, neulo vartalo, tee kavennukset oikean puolen kerroksilla, päättele kun muutama silmukka on jäljellä ja ompele sauma [patjapistolla](/fi/artikkelit/neulekappaleiden-yhdistaminen/).
-
-Tämä käyttää vain tasona neulomisen taitoja. Hyvä, jos et ole valmis pyöröpuikoille. Kompromissi on sauma. Patjapisto tekee siitä lähes näkymättömän, mutta se lisää yhden vaiheen ja pienen harjanteen sisäpuolelle. Sauma sijoitetaan yleensä pipon taakse, missä hiukset peittävät sitä.
-
-Tasona neulominen pakottaa myös neulomaan joka toisen kerroksen nurin. Jos nurja silmukka on sinulle hitaampi kuin oikea, kuten monelle on, tasona neulottu pipo vie selvästi kauemmin kuin sama pipo pyörönä, jo ennen sauman ompelua.
+Tee kavennukset ohjeen määräämillä kerroksilla. Kiristettävässä päälaessa pujota lanka jäljellä olevien elävien silmukoiden läpi tavallisen silmukoiden päättelyn sijaan. Ompele sivusauma [patjapistolla](/fi/artikkelit/neulekappaleiden-yhdistaminen/) ja päättele langanpäät. Sauma jättää sisäpuolelle harjanteen; taitereunassa tarkista, kummalle puolelle sauma jää taittamisen jälkeen.
 
 ## Menetelmä 3: ylhäältä alas
 
-Ylhäältä alas neulottu pipo alkaa päälaelta ja kasvaa kohti reunaa. Alussa luodaan pieni määrä silmukoita, lisätään tasaisesti kunnes ympärys on oikea, neulotaan vartalo, viimeistellään joustin ja päätellään joustavalla päättelyllä.
+Luo päälaelle pieni määrä silmukoita, lisää osioittain, neulo keskiosa ja joustin sekä päättele reuna joustavasti. Aloituksen pieneen ympärykseen tarvitaan sukkapuikot tai magic loop.
 
-Hyödyt: voit sovittaa työn matkalla, yläosaa ei tarvitse kiristää umpeen lopuksi ja reunan pituuden voi päättää jäljellä olevan langan perusteella. Haitat: aloitus on näpertelyä, usein pyöreä aloitus tai Emily Ockerin aloitus, jotka vaativat harjoittelua. Lisäysten pitää myös sopia suunniteltuun päälaen muotoon, ei vain kasvattaa ympyrää summittaisesti.
+Työtä voi sovittaa, kun aukko on riittävän suuri, ja reunan pituutta voi sovittaa jäljellä olevaan lankaan. Pyöreässä aloituksessa, kuten Emily Ockerin aloituksessa, aloitusaukko pitää silti sulkea ja langanpää päätellä. Noudata suunniteltua lisäysrytmiä: summittaiset lisäykset muuttavat sekä ympärysmittaa että päälaen korkeutta.
 
 ## Koko
 
-Päänympärys määrittää luomissilmukat. Mittaa leveimmän kohdan ympäri, hieman korvien yläpuolelta ja otsan yli.
+Mittaa **päänympärys** leveimmästä kohdasta otsan, korvien yläpuolen ja takaraivon kautta. Mittanauha saa olla napakka mutta ei puristaa. **Valmiin pipon ympärys** mitataan levossa olevasta piposta. Jos pipon ympärys on 51 cm, sen tasoleveys on noin 25,5 cm, ei 51 cm.
 
-Neulotut pipot käyttävät negatiivista väljyyttä: valmis ympärys on päätä pienempi, jotta joustava neule tarttuu päähän. Napakassa joustinreunaisessa pipossa noin 2,5 cm negatiivista väljyyttä on tavallinen lähtökohta. Jos päänympärys on 56 cm, valmis ympärys voi olla noin 51-53 cm neulepinnan joustosta ja istuvuustoiveesta riippuen. Rennommat, lörpöttävät pipot käyttävät vähemmän negatiivista väljyyttä, koska löysyys tulee lisäpituudesta eikä tiukasta istuvuudesta.
+Negatiivinen väljyys tarkoittaa, että pipo on päätä pienempi. Esimerkiksi 56 cm:n päälle suunniteltu 51–53 cm:n pipo on 3–5 cm pienempi eli noin 5,4–8,9 % **päänympäryksestä**. Sopiva määrä selviää pestyn ja kuivuneen mallitilkun joustosta, palautuvuudesta ja toivotusta istuvuudesta. Lörpöttävä päälliosa syntyy lisäpituudesta; se ei yksin määrää reunan väljyyttä.
 
-Silmukkamäärä: kerro silmukkatiheys sentillä tavoiteympäryksellä. Jos neuletiheys on 20 silmukkaa 10 cm:llä eli 2 silmukkaa per cm ja tavoiteympärys on 51 cm, tulos on 102 silmukkaa. Pyöristä lukuun, joka sopii joustimeen ja päälaen kavennuksiin. 2 o, 2 n -joustimeen ja 8-osioiseen päälaen kavennukseen 96 on siisti, koska se jakautuu neljällä joustimeen ja kahdeksalla päälaelle.
+Käytä pestystä ja kuivuneesta sileän neuleen mallitilkusta levossa mitattua tiheyttä. Neulo tilkku pipon tapaan tasona tai suljettuna. Tarkista joustin erikseen, sillä se supistuu eri tavalla. Jos neuletiheys on 20 silmukkaa / 10 cm eli 2 silmukkaa/cm ja tavoiteympärys 51 cm, tulos on **102 silmukkaa**. Suljetun 1 o, 1 n -joustimen silmukkamäärän pitää olla jaollinen kahdella, 2 o, 2 n -joustimen neljällä ja kahdeksan yhtä suuren kavennusosion kahdeksalla. Tarkista myös keskiosan mallikerta. **104 silmukkaa** sopii kahteen jälkimmäiseen ehtoon ja antaa 52 cm:n ympäryksen, noin 7,1 % negatiivista väljyyttä 56 cm:n päähän. Myös 96 on jaollinen, mutta se antaa vain **48 cm** eli noin 14,3 % negatiivista väljyyttä. Se ei säilytä 51 cm:n tavoitetta: valitse määrä istuvuuden, älä vain jaollisuuden perusteella.
 
-KnitToolsin [silmukkalaskuri](/fi/tyokalut/silmukkalaskuri/) tekee tämän laskun neuletiheydestä ja ympäryksestä.
+KnitToolsin [silmukkalaskuriin](/fi/tyokalut/silmukkalaskuri/) syötetään valmiin pipon ympärys leveyskenttään. Syötä 20 silmukkaa / 10 cm ja 51 cm: tulos on 102. Laskuri pyöristää lähimpään parilliseen lukuun. Väljyys, mallikerrat, saumavarat ja päälaen jako tarkistetaan itse; laskuri ei tuota kokonaista pipo-ohjetta tai kavennusaikataulua.
 
-**Aikuisen pipon mitoitus:** CYC:n päänympäryslistassa naisten aikuiskoko on noin 53-58,5 cm ja miesten noin 56-61 cm. Valmis pipo on yleensä tätä pienempi negatiivisen väljyyden takia. Monessa istuvassa pipossa päälaen kavennukset alkavat noin 18-20 cm korkeudessa reunasta mitattuna, mutta seuraa ohjeen syvyyttä, jos sellainen annetaan. Lörpöttävään pipoon lisätään pituutta ennen päälaen kavennuksia.
+**Aikuisten ja lasten koot:** [Craft Yarn Councilin taulukko](https://www.craftyarncouncil.com/standards/head-circumference-chart) antaa naisten päänympärykseksi 53–58,5 cm, miesten 56–61 cm, taaperoiden 40,5–46 cm ja lasten 45,5–51 cm. Nämä ovat viitteellisiä päänmittoja, eivät valmiin pipon mittoja tai varmoja ikäkokoja. Mittaa käyttäjän pää mahdollisuuksien mukaan myös vauvalle ja vertaa ohjeen ilmoittamaan päänkokoon.
 
-**Lasten pipot:** CYC listaa taaperon päänympärykseksi noin 40,5-46 cm ja lapsen päänympärykseksi noin 45,5-51 cm. Vauva- ja keskoskoot vaihtelevat paljon enemmän, joten käytä ikä- ja kokokohtaista ohjetta sen sijaan, että muokkaisit aikuisen kaavaa arvaamalla.
+**Korkeus:** mittaa halutusta alareunasta päälaelle tai mittaa sopiva pipo. Valmis kokonaiskorkeus sisältää päälaen. Jos tavoite on 22 cm ja kavennusten arvioitu korkeus 7,5 cm, aloita kavennukset **14,5 cm:n kohdalla**, taittamaton reuna mukaan lukien. Jos reunaa taitetaan ylös 5 cm, sama kohta on **19,5 cm luomisreunasta taittamatta mitattuna**: 19,5 − 5 + 7,5 = 22 cm. Kaksikerroksiseen 5 cm:n reunaan neulotaan noin 10 cm joustinta. Mitat ovat suunnitteluesimerkkejä, eivät kaikkien aikuisten pipomittoja.
 
 ## Päälaen kavennukset
 
-Tässä pipo muuttuu putkesta kupoliksi. Kavennukset sijoitetaan tasaisin välein, jolloin silmukoita poistuu ympäri työtä.
+Tässä on kokonainen **96 silmukan sileän suljetun neuleen kavennusesimerkki**. Jaa silmukat kahdeksaan 12 silmukan osioon ja aseta merkit osioiden väliin. Erota kerroksen alun merkki muista. Neulo jokaisella kavennuskerroksella oikein, kunnes merkkiä edeltää kaksi silmukkaa, neulo ne oikein yhteen (2 o yhteen) ja siirrä merkki. Jokaisesta osiosta vähenee yksi silmukka, koko kerrokselta kahdeksan.
 
-Yleinen tapa: jaa silmukat 6 tai 8 yhtä suureen osioon, silmukkamerkki osioiden väliin. Kavenna yksi silmukka jokaisen osion lopussa joka toinen kierros. Tästä syntyy näkyvät kavennuslinjat, jotka kiertyvät kohti päälaen keskustaa.
+- Kerros 1: [10 o, 2 o yhteen] kahdeksan kertaa; 96 → 88 silmukkaa.
+- Kerros 3: [9 o, 2 o yhteen] kahdeksan kertaa; 88 → 80.
+- Kerros 5: [8 o, 2 o yhteen] kahdeksan kertaa; 80 → 72.
+- Kerros 7: [7 o, 2 o yhteen] kahdeksan kertaa; 72 → 64.
+- Kerros 9: [6 o, 2 o yhteen] kahdeksan kertaa; 64 → 56.
+- Kerros 11: [5 o, 2 o yhteen] kahdeksan kertaa; 56 → 48.
+- Kerros 13: [4 o, 2 o yhteen] kahdeksan kertaa; 48 → 40.
+- Kerros 15: [3 o, 2 o yhteen] kahdeksan kertaa; 40 → 32.
+- Kerros 17: [2 o, 2 o yhteen] kahdeksan kertaa; 32 → 24.
+- Kerros 19: [1 o, 2 o yhteen] kahdeksan kertaa; 24 → 16.
+- Kerros 21: [2 o yhteen] kahdeksan kertaa; 16 → 8.
 
-96 silmukkaa 8 osiossa, 12 silmukkaa per osio:
+Neulo **kaikki parilliset kerrokset 2–20 oikein ilman kavennuksia** ja siirrä merkit. Kerroksella 21 kavennusten välissä ei enää ole erikseen neulottavia silmukoita. Lopeta kahdeksaan silmukkaan; älä toista kavennusta enää. Katkaise lanka niin, että häntä riittää sulkemiseen ja päättelyyn. Pujota se päättelyneulalla jokaisen elävän silmukan läpi, poista puikot, kiristä aukko kiinni ja päättele langanpää sisäpuolelle. Silmukoita ei päätellä tavalliseksi päättelyketjuksi.
 
-Kierros 1: _10 o, k2tog; toista _ kierroksen loppuun. (88 s)  
-Kierros 2: neulo oikein.  
-Kierros 3: _9 o, k2tog; toista _ kierroksen loppuun. (80 s)  
-Kierros 4: neulo oikein.
+Jonossa on **11 kavennuskerrosta ja 10 välikerrosta, yhteensä 21 kerrosta**. Jos kerrostiheys on esimerkiksi 28 kerrosta / 10 cm, päälaen laskennallinen korkeus on **7,5 cm**. Silmukkatiheys ei kerro kerrostiheyttä. Mittaa samalla tavalla neulottu ja käsitelty tilkku ja tarkista päälaen korkeus työn edetessä.
 
-Jatka, kunnes jäljellä on 8-16 silmukkaa. Katkaise lanka, pujota jäljellä olevien silmukoiden läpi päättelyneulalla, kiristä ja päättele sisäpuolelle.
+Jos aloitat **104 silmukasta**, jaa ne kahdeksaan 13 silmukan osioon. Neulo ensin [11 o, 2 o yhteen] kahdeksan kertaa: 104 → 96. Neulo yksi välikerros oikein ja sitten koko yllä oleva jono; sen kerrosnumeroihin lisätään kaksi. Yhteensä kertyy 23 kerrosta, noin **8,2 cm** tiheydellä 28 kerrosta / 10 cm. Varaa tämä lisäkorkeus lyhentämällä keskiosaa vastaavasti.
 
-Osioiden määrä vaikuttaa päälaen muotoon, mutta niin vaikuttaa myös kavennustahti. Kuusi tai kahdeksan osiota on yleinen valinta, koska ne jakavat monet luomissilmukkamäärät siististi. Jos päälaesta tulee liian terävä tai liian litteä, korjaus on usein siinä, kuinka usein kavennat, ei vain osioiden määrässä.
-
-Osa ohjeista käyttää parillisia kavennuksia, esimerkiksi k2tog ennen merkkiä ja ssk merkin jälkeen, yhden kavennuksen sijaan. Linjoista tulee symmetrisemmät, mikä näkyy erityisesti yksivärisissä pipoissa. Kirjavassa tai teksturoidussa pinnassa kavennukset peittyvät helpommin.
+Muissa ohjeissa voi olla kuusi osiota, lopussa kavennus joka kerroksella tai merkin molemmin puolin kavennuspari, esimerkiksi 2 o yhteen ja vasemmalle kallistuva ssk. Pari vähentää kaksi silmukkaa, joten kahdeksan paria vähentää 16 silmukkaa kerrokselta. Rytmi, jäljellä oleva määrä ja päälaen korkeus on laskettava uudelleen, jos muutat rakennetta.
 
 ## Joustinvalinnat
 
-Reunan joustin ei ole vain koriste. Se pitää pipon päässä.
+**1 o, 1 n** muodostaa kapeat joustinpylväät ja **2 o, 2 n** leveämmät. Molemmat voivat tehdä joustavan reunan, mutta pito riippuu langasta, tiheydestä, luomisreunan joustosta ja väljyydestä.
 
-**1 o, 1 n** antaa usein napakan ja joustavan reunan. Se vetää hyvin sisään ja pitää pipon paikoillaan. Hyvä istuviin beanie-pipoihin.
+**Kierretyssä joustimessa** ohjeen määräämät silmukat neulotaan kiertäen. Tavallisessa länsimaisessa silmukka-asennossa oikean silmukan neulominen takareunasta kiertää sen. Tarkista, kierretäänkö vain oikeat vai myös nurjat silmukat. Kierretty joustin ei ole automaattisesti tavallista joustavampaa.
 
-**2 o, 2 n** on helppo lukea ja monelle nopeampi neuloa. Se joustaa hyvin, mutta näyttää leveämmältä ja sporttisemmalta.
+**Taitettava reuna** neulotaan kahta kerrosta varten ja taitetaan ylös: 5 cm:n näkyvään reunaan tarvitaan noin 10 cm joustinta. Huomioi taite koko pipon korkeudessa. Ohuempi puikko voi tehdä napakamman reunan, mutta kokeile vaikutus tilkulla; yksi puikkokoon muutos ei takaa istuvuutta.
 
-**Kierretty joustin** eli oikeat silmukat takareunasta neulottuina kiristää pylväitä lisää ja tekee joustimesta määritellymmän näköisen. Se on hitaampi, koska kiertyneisiin silmukoihin on hankalampi mennä.
-
-**Taitettava reuna** on kaksinkertainen reuna, joka neulotaan tavallista korkeammaksi ja taitetaan ylös. Se tehdään usein yhtä kokoa pienemmällä puikolla kuin vartalo, jotta se pitää paremmin. Kylmän sään pipoissa kaksinkertainen kerros korvien päällä on käytännöllinen.
-
-Viimeistellyn näköiseen joustimeen tubular cast on tekee pehmeän reunan, joka näyttää kasvavan suoraan joustimesta. Se kannattaa opetella myöhemmin, jos teet lahjapipoja.
+Putkimainen eli italialainen luomistapa voi tehdä siistin, joustimeen jatkuvan reunan. Valitse omaan joustimeen sopiva toteutus: 1 o, 1 n ja 2 o, 2 n voivat vaatia eri aloitusvaiheet.
 
 ## Lanka ja puikot
 
-**Worsted 4,5-5,0 mm puikoilla:** yleinen peruspipon yhdistelmä. Lämmin, kohtalaisen paksu ja nopeampi kuin ohuemmat langat.
+Mallitilkun lähtökohdaksi voi kokeilla **Worsted-lankaa 4,5–5 mm:n**, **Bulky-lankaa 6–8 mm:n** tai **DK-lankaa 3,75–4 mm:n puikoilla**. Nämä ovat kokeiluyhdistelmiä, eivät lankaluokkien kiinteitä sääntöjä. Valitse ohjeen tiheyden ja sopivan neulepinnan tuottava koko. Paksu lanka ei itsessään tarkoita epäselvää silmukkakuvaa.
 
-**Bulky 6,0-8,0 mm puikoilla:** nopea, mutta paksussa pinnassa silmukkakuva erottuu huonommin. Hyvä rentoihin ja paksuihin pipoihin.
+Villa ja villasekoitteet voivat tarjota hyödyllistä joustoa ja palautuvuutta. Tarkista oman tilkun pehmeys otsaa vasten, lämpimyys ja käyttäytyminen. Myös puuvilla, akryyli ja sekoitteet sopivat tarkoitukseen valitun rakenteen mukaan; kuitunimi ei takaa istuvuutta tai mukavuutta. Noudata langan hoito-ohjetta myös superwash-villalle ja akryylille.
 
-**DK 3,75-4,0 mm puikoilla:** kevyempi pipo ja tarkempi jälki. Vie pidempään mutta näyttää hienostuneemmalta. Hyvä kirjoneuleeseen, koska ohuempi kangas ei paksuunnu yhtä paljon useista väreistä.
-
-Villa tai villasekoite on yleensä helpoin kuitu lämpimiin pipoihin: joustava, muotonsa pitävä ja viimeistelyyn reagoiva. Superwash helpottaa pesua. Akryyli toimii ja on konepestävä, mutta se voi tuntua leudolla säällä vähemmän hengittävältä. Puuvilla ei ole hyvä talvipipon kuitu, koska siitä puuttuu villan jousto ja lämpö, mutta puuvillasekoitteet voivat toimia kevään ja syksyn pipoissa.
-
-Paljonko lankaa? Moni tavallinen aikuisen worsted-pipo osuu noin 137-229 m alueelle, mutta reunan korkeus, lörpötys, palmikot ja kirjoneule muuttavat menekkiä nopeasti. Tarkista ohjeen menekki ennen ostamista. Yksi 100 g worsted-kerä riittää usein yksinkertaiseen beanie-pipoon.
+Osta lankaa ohjeen kokokohtaisen metrimäärän ja kerän juoksevuuden perusteella. **100 g** on paino, ei vakiopituus eikä lupaus yhden kerän riittävyydestä. Taitereuna, lisäpituus, palmikot, kirjoneule, tilkku ja tupsu vaikuttavat menekkiin.
 
 ## Tupsut ja viimeistely
 
-Tupsu peittää kiristetyn kohdan, johon päälaen silmukat suljetaan. Tee tupsu samasta tai kontrastilangasta tupsuntekijällä tai kahdella pahviympyrällä, tai osta tekoturkistupsu ja kiinnitä se niin, että se irtoaa pesuun. Irrotettava tupsu on helpompi hoitaa kuin pysyvästi ommeltu.
+Tupsu peittää päälaen kiristyskohdan. Tee se samasta tai kontrastilangasta tupsuntekijällä tai kahdella pahviympyrällä, tai kiinnitä tekoturkistupsu irrotettavasti pesua varten.
 
-Jos haluat siistin viimeistelyn ilman tupsua, varmista että päälaen sulku on tiukka ja langanpää päätelty kunnolla sisäpuolelle. Pujota lanka jäljellä olevien silmukoiden läpi kahdesti yhden kerran sijaan, jos haluat lisää varmuutta.
+Kiinnitä päälaen langanpää huolellisesti myös tupsun alla. Langan voi pujottaa silmukoiden läpi toisen kerran ennen kiristämistä, jos lanka ja aukko sen sallivat. Päättele häntä silti sisäpuolen neuleeseen; toinen pujotus ei yksin kiinnitä päätä.
 
-Pingota pipo ilmapallon, kulhon tai päänympärystä vastaavan pipoalustan päällä. Se tasoittaa silmukat ja antaa pipolle lopullisen muodon. Älä venytä joustinreunaa litteäksi pingottaessa. Sen tehtävä on supistua ja pitää kiinni.
+Viimeistele langan hoito-ohjeen mukaan ja kokeile käsittely tilkulla. Kuivata tasossa tai käytä sopivaa muottia vain, jos materiaali ja ohje sallivat sen. Muotoile **pipon tavoitemittaan**, älä automaattisesti suurempaan päänympärykseen, äläkä venytä joustinta auki. Viimeistely voi tasoittaa silmukoita mutta ei takaa väärän koon korjausta.
 
 ## FAQ
 
-**Voiko pipon neuloa suorilla puikoilla?** Kyllä, tasona ja saumattuna. Ainoa kompromissi on sauma. Monet aloittelijan pipo-ohjeet on kirjoitettu juuri tasona neulottaviksi.
+**Voiko pipon neuloa suorilla puikoilla?** Kyllä. Valitse tasoneuleohje, jossa on päälaen muotoilu ja sivusauma, ja noudata sen oikean ja nurjan puolen kerroksia sekä saumavaroja.
 
-**Miten raidassa vältetään porrastus?** Värinvaihto kierroksen alussa tekee näkyvän askeleen. Jogless jog -tekniikka, jossa uuden värin ensimmäinen silmukka nostetaan toisella kierroksella, pehmentää sitä. Yksivärisessä pipossa ongelmaa ei ole.
+**Miten raidassa vältetään porrastus?** Vähintään kahden kerroksen levyisessä sileän suljetun neuleen raidassa yksi tapa on neuloa ensimmäinen kerros uudella värillä. Nosta toisen kerroksen ensimmäinen silmukka nurin neulomatta lanka takana ja neulo loput oikein. Tämä voi vähentää porrasta mutta lyhentää kyseistä silmukkapylvästä. Yhden kerroksen raidat ja muut neulepinnat tarvitsevat niihin sopivan menetelmän.
 
-**Mitä jos pipo on liian iso?** Helpoin korjaus valmiiseen pipoon on pujottaa joustoon kuminauhaa sisäpuolelle. Seuraavalla kerralla [mittaa neuletiheys tarkemmin](/fi/artikkelit/neuletiheyden-mittaaminen/) tai valitse yhtä kokoa pienempi. Hieman pieni pipo venyy päähän. Liian iso valuu pois.
+**Mitä jos pipo on liian iso?** Jos vain reuna on löysä, kuminauha voi auttaa, kunhan se ei purista. Se ei pienennä keskiosaa tai päälakea. [Tarkista neuletiheys](/fi/artikkelit/neuletiheyden-mittaaminen/), lepoympärys ja korkeus ennen purkamispäätöstä. Pienempi koko auttaa vain, jos sen mitat sopivat; liian pieni pipo ei välttämättä veny mukavaksi.
 
-**Voiko lisätä korvaläpät?** Voi, mutta ne ovat helpompia, jos ohje sisältää ne valmiiksi. Korvaläpät ovat kolmionmuotoisia jatkeita, jotka poimitaan reunasta tai luodaan osana reunaa. Jos lisäät ne itse, merkitse ensin korvien paikat, poimi pieni osuus kummallekin sivulle ja kavenna kohti kärkeä. Lisää kärkeen nyöri tai i-cord, jos haluat sitoa läpät leuan alle.
+**Voiko lisätä korvaläpät?** Voi. Ne poimitaan reunasta tai neulotaan osana rakennetta. Korvaläpällinen ohje määrittää sijoittelun, leveyden, muotoilun ja viimeistelyn. Merkitse korvien paikat käyttäjän mukaan; mikä tahansa pieni kolmio ei takaa sopivuutta. Valitse lasten pipoihin lapselle sopiva rakenne äläkä lisää leukanyörejä harkitsematta.
 
-**Entä vuoritetut pipot?** Kaksinkertainen reuna tai koko pipon vuori lisää lämpöä ja tekee piposta pehmeämmän otsaa vasten. Tavallinen tapa on neuloa lisäpituutta, taittaa vuori sisäpuolelle ja kiinnittää se siististi. Hidas, mutta lämmin.
+**Entä vuoritetut pipot?** Kaksinkertainen reuna tai vuori voi lisätä lämpöä ja muuttaa tuntumaa otsalla. Kokovuori tarvitsee oman korkeutensa ja päälaen muotoilunsa sekä tilaa pipon sisällä. Tarkista jousto ja istuvuus molemmat kerrokset yhdessä; pelkkä lisäpituus ei ole kokonainen vuoritusohje.

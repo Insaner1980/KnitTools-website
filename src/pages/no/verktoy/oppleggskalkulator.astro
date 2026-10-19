@@ -6,23 +6,23 @@ import { routes } from "../../../i18n/routes";
 const faqs = [
   {
     q: "Må jeg virkelig strikke en prøvelapp?",
-    a: "Ja. Å hoppe over prøvelappen er en av de vanligste grunnene til at plagg får feil størrelse. Det tar litt tid, men kan spare mange timer med opprekking.",
+    a: "Ja, når størrelsen er viktig. En prøvelapp viser strikkefastheten din med garnet, pinnene og maskemønsteret du skal bruke.",
   },
   {
     q: "Skal jeg telle kantmasker i strikkefastheten?",
-    a: "Nei. Mål midt på prøvelappen og unngå de første og siste to maskene. Kantmasker er ofte strammere eller løsere enn resten.",
+    a: "Mål midt på en prøvelapp som er større enn måleområdet, unna oppleggskanten og ujevne kantmasker.",
   },
   {
     q: "Hvorfor runder kalkulatoren av til et partall?",
-    a: "Mange enkle maskemønstre, blant annet vanlig vrangbord, fungerer ryddig over et jevnt maskeantall. Avrunding til nærmeste partall gir et praktisk utgangspunkt før du justerer for et bestemt maskemultiplum.",
+    a: "Dette er en avrundingsregel, ingen garanti for at maskeantallet passer til mønsteret. Vrangbord, fletter og andre maskemønstre kan kreve en bestemt rapport pluss ekstra masker.",
   },
   {
     q: "Hva gjør jeg hvis oppskriften krever et bestemt maskemultiplum?",
-    a: "Legg til eller trekk fra noen masker til du treffer nærmeste multiplum oppskriften trenger. Hvis rapporten går over 4 masker og kalkulatoren sier 46, justerer du til 44 eller 48.",
+    a: "Hvis rapporten er på 4 masker uten ekstra masker, kan du justere 46 til 44 eller 48. Ta med eventuelle kantmasker og andre ekstra masker som oppskriften krever, og sjekk hvordan bredden endres.",
   },
   {
     q: "Kan jeg bruke den til rundstrikk?",
-    a: "Ja. Skriv inn hele omkretsen som ønsket bredde. Kalkulatoren fungerer likt for strikking fram og tilbake og rundt.",
+    a: "Ja. Bruk strikkefastheten fra en prøvelapp strikket rundt, og skriv inn ønsket ferdig omkrets som bredde. Ta hensyn til ønsket bevegelsesvidde i målet; kalkulatoren legger ikke til eller trekker fra bevegelsesvidde.",
   },
 ];
 ---
@@ -47,18 +47,19 @@ const faqs = [
     <p>
       Å legge opp masker er første steg i nesten alle strikkeprosjekter: det er
       slik du lager den første maskerekken på pinnen. Antallet masker du legger
-      opp avgjør bredden på det ferdige arbeidet. For få masker, og det blir for
-      smalt. For mange, og du har brukt unødvendig garn og tid. Riktig tall fra
-      start sparer opprekking senere.
+      opp avgjør sammen med strikkefastheten bredden ved starten av arbeidet.
+      For få masker, og det blir for smalt. For mange, og du har brukt
+      unødvendig garn og tid. Riktig tall fra start kan spare opprekking senere.
     </p>
 
     <h2>Hvorfor strikkefastheten betyr noe</h2>
     <p>
-      Alle strikker forskjellig. Selv med samme garn og samme pinner gir
-      håndspenningen din et litt annet uttrykk enn andres. Derfor oppgir
+      Alle strikker forskjellig. Selv med samme garn og samme pinner kan
+      strikkefastheten variere fra person til person. Derfor oppgir
       strikkeoppskrifter anbefalt strikkefasthet, og derfor trenger du en
-      prøvelapp for å finne din egen. Mål hvor mange masker du får på 10 cm, så
-      har du tallet kalkulatoren trenger.
+      prøvelapp i prosjektets maskemønster for å finne din egen. Vask og blokk
+      den som det ferdige arbeidet, la den tørke og mål midt på lappen over 10
+      cm, så har du tallet kalkulatoren trenger.
     </p>
 
     <h2>Slik bruker du kalkulatoren</h2>
@@ -67,9 +68,22 @@ const faqs = [
         >strikkefastheten</strong
       > din, altså hvor mange masker du får på 10 cm strikk, og den <strong
         >ønskede bredden</strong
-      > på arbeidet. Strikk en prøvelapp først, mål den og skriv inn verdiene. Kalkulatoren
-      runder av til nærmeste partall, som er et praktisk utgangspunkt for mange enkle
-      maskemønstre.
+      > på arbeidet. Strikk en prøvelapp først, mål den og skriv inn verdiene. Sjekk
+      deretter rapporten og eventuelle ekstra masker i oppskriften.
+    </p>
+    <p>
+      Velg cm for bredde i centimeter og strikkefasthet målt over 10 cm. Velg
+      tommer for bredde i tommer og strikkefasthet målt over 4 tommer. Dette er
+      vanlige målelengder, ikke nøyaktig samme lengde: 4 tommer er 10,16 cm. Når
+      du bytter enhet, blir ikke tallene du har skrevet inn, omregnet. Formelen
+      er strikkefasthet × bredde ÷ 10 i cm, eller ÷ 4 i tommer.
+    </p>
+
+    <p>
+      Resultatet rundes av til nærmeste partall; midt mellom to partall rundes
+      det opp. For eksempel blir 99 til 100. En svært liten bredde kan gi 0
+      etter avrunding, som ikke er et brukbart antall oppleggsmasker. Sjekk
+      målene og oppskriften før du legger opp.
     </p>
   </div>
 </LocalizedToolPage>

@@ -2,6 +2,7 @@
 title: "Garnfibrer: ull, bomull, akryl och blandningar"
 description: "Hur ull, bomull, akryl och fiberblandningar skiljer sig i stickning. Om värme, fall, slitstyrka, skötsel, blockning och bästa användning."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 8
 tags:
@@ -16,94 +17,88 @@ lang: sv
 translationKey: "yarn-fibers-compared"
 ---
 
-Sticka samma flätprov i ull och bomull, håll dem bredvid varandra, och de ser ut som om de kom från olika mönster. Ullversionen fjädrar. Flätorna poppar. Bomullsversionen hänger lite, faller plattare och visar varje maska med nästan obekväm ärlighet. Samma sticka, samma händer, samma maskantal. Helt olika tyg.
+Sticka samma flätprov i ull och bomull och jämför dem efter tvätt och torkning enligt banderollerna. Ett spänstigt ullgarn kan ge rundade flätor, ett slätt bomullsgarn en plattare yta med tydliga maskor. Samma stickor och maskantal garanterar varken samma stickfasthet eller samma stickade yta. Det här är egenskaper att undersöka, inte givna resultat av fibernamnet.
 
-Skillnaden är inte kosmetisk. Fiberinnehållet styr hur ett projekt känns i händerna medan du stickar, hur det blockas, hur det slits över månader och år, och om det håller formen eller långsamt ger efter för gravitationen. Ull ger elasticitet och blockningsmöjlighet. Bomull ger fall och tvättbarhet. Akryl ger lågt pris och lättskött slitstyrka. Banderollen på ett nystan är inte finstilt text. Den är den enskilt mest användbara informationen om vad garnet faktiskt kommer att göra.
+Fiberinnehållet påverkar känsla, blockning och slitage. Men även fibrernas grovlek och längd, garnets konstruktion, snodd, blandning, behandling, stickfasthet och maskmönster spelar roll. Läs banderollen och undersök fall, återfjädring och skötsel med en provlapp. Töjbarhet och återfjädring är olika saker: stickningen kan töjas utan att återgå helt till sina ursprungliga mått.
 
 ## Ull
 
-Ull är jämförelsepunkten många stickare mäter andra fibrer mot, och det är välförtjänt. Den är varm, elastisk, förlåtande mot ojämn stickfasthet och svarar tydligt på blockning.
+Ull är en bra utgångspunkt för varma, spänstiga plagg. Fiberns krusighet och förmåga att återgå efter töjning bidrar till spänsten i många ullgarner.
 
-Elasticiteten spelar störst roll. Ull töjer sig medan den stickas och fjädrar sedan tillbaka. Resår håller sig tajt. Flätor behåller sitt skulpturala djup. Slätstickning får ett levande handlag som fjädrar tillbaka när den kramas ihop. Den fjädern i fibern är också det som gör ull så samarbetsvillig vid våtblockning. Blötlägg ett ullplagg, nåla ut det, låt det torka, och tyget ser ofta ut som ett annat, bättre projekt. [Blockningsguiden](/sv/artiklar/blocka-stickning-vat-anga-spray/) går igenom metod efter fiber. Spets öppnar sig dramatiskt. Maskor jämnar ut sig. Förvandlingen kan vara genuint överraskande de första gångerna.
+Den spänsten gör ull värd att prova för resår och tydliga flätor. Våtblockning, när garnets skötselråd tillåter det, kan jämna ut maskor och öppna spetsmönster. Lägg arbetet till avsedda mått och låt det torka helt. Räkna inte med att blockning rättar till fel stickfasthet eller ger en ny form som består genom senare tvättar. [Blockningsguiden](/sv/artiklar/blocka-stickning-vat-anga-spray/) beskriver metoderna; följ garntillverkarens råd om de skiljer sig åt.
 
-Ull fungerar väl i svala, fuktiga förhållanden eftersom den isolerar, hanterar fukt och kan kännas behaglig även när den är lätt fuktig. Det finns en anledning till att den dominerar friluftsplagg och vinteraccessoarer, och den anledningen är inte nostalgi.
+Ullfibrer tar upp vattenånga, och luften i en luftig stickning hjälper till att isolera. Det gör ull användbar i svalt väder, men värme och komfort beror också på tjocklek, konstruktion, hur vått plagget är och förhållandena där det används. Fuktupptagning garanterar inte torr hud.
 
-Men kompromisserna spelar roll. Icke-superwashbehandlad ull kan filta när värme, fukt och rörelse kombineras. Det är en fördel i vissa projekt och en katastrof i andra. Och "ull" täcker ett enormt spann av mjukhet. Vissa raser ger garn som ligger behagligt direkt mot huden. Andra känns bättre som ytterplagg. Merino drar åt det mjuka hållet, och många stickare som inte tål generisk ull tycker att merino fungerar. Men känslighet är personlig. Det bästa testet är att bära det.
+Obehandlad ull kan tova sig när rörelse i vatten får fibrernas ytfjäll att haka i varandra; värme kan bidra till processen. Tovningen gör stickningen tätare och kan ge bestående krympning. Mjukhet är en annan fråga. Fiberns finlek och grova fiberändar i ytan påverkar hur stickig den känns. Fin merino är ett alternativ för mjuk stickning, men ett fibernamn garanterar inte komfort mot huden. Känn på den tvättade provlappen.
 
-Superwashull minskar risken för filtning och krympning genom en krympresistent behandling, och för plagg där banderollen tillåter maskintvätt är det genuint praktiskt. Kompromissen är att Superwash ofta känns halare på stickorna och kan slappna av eller växa efter tvätt på sätt som obehandlad ull inte gör. Provlapp är viktigare med Superwash, inte mindre.
+Superwashbehandling minskar filtkrympning genom att förändra eller täcka fiberns ytfjäll. Den tillåter inte automatiskt alla maskinprogram eller torktumling. Följ just garnets tvätt- och torkråd. Både behandlade och obehandlade stickningar kan ändra mått när maskorna slappnar av i tvätten, så mät den torra provlappen.
 
-Till struktur, flerfärgsstickning och allt som behöver form är ull det starkaste valet. Inte det enda valet. Det starkaste.
+För strukturmönster, flerfärgsstickning och arbeten som behöver spänst är ull ett praktiskt förstaval. Kontrollera maskornas tydlighet och återfjädringen i det garn och den stickfasthet du tänker använda.
 
 ## Bomull
 
-Bomull är ullens motsats på nästan alla sätt som spelar roll, och att förstå var den briljerar betyder att förstå vad den saknar.
+Bomull ger en annan utgångspunkt: en absorberande växtfiber att överväga för tvättlappar och sommartoppar.
 
-Den har väldigt lite naturlig elasticitet jämfört med ull. Garnet töjer sig inte och fjädrar tillbaka särskilt mycket medan det stickas, vilket betyder att ojämnheter i stickfastheten syns i det färdiga tyget. Skickliga, jämna stickare älskar bomull eftersom maskdefinitionen är knivskarp. Mindre erfarna stickare kan tycka att den är sträng.
+Bomullsfibrer återgår sämre efter töjning än ull. Bomullsstickning kan ändå töjas när maskorna rör sig, utan att för den skull fjädra tillbaka. Ett slätt bomullsgarn kan visa maskorna och ojämnheter i trådspänningen tydligt. Även snodd, ytstruktur och stickfasthet påverkar hur maskorna framträder.
 
-Vikt och fall är där bomull antingen skiner eller faller, beroende på projekt. Ett linne i bomull faller vackert med flytande tyngd. En bomullströja kan långsamt töjas längre och längre tills proportionerna ser fel ut. Den har mindre elastiskt minne som håller emot gravitationen.
+Fall är en egenskap hos det färdiga stickade materialet. En följsam bomullstopp kan falla fint, medan en tung, löst stickad tröja kan bli längre av sin egen vikt. Det är inte oundvikligt: konstruktion, stickfasthet, plaggets vikt och skötsel påverkar resultatet.
 
-Att blocka bomull är inte riktigt blockning i ullens mening. Tyget kan slätas ut, ångas och arrangeras till mått. Men det fjädrar inte in i en dramatiskt omformad struktur på samma sätt som ull ofta kan.
+Bomull kan också blockas: tvätta och torka provlappen enligt råden, forma den utan att tvinga ut den och mät igen när den är torr. Bomullsstickning kan krympa eller ändra form i tvätten. Ånga eller stryk bara om banderollen tillåter det.
 
-Praktiskt sett tål många bomullsgarner täta tvättar väl när banderollen tillåter det. Bomull är slitstark i vardagsbruk. Till disktrasor, nätkassar, bebissaker som behöver tvättas ofta och sommartoppar är den det självklara valet. Merceriserad bomull har en slät, lätt glansig yta. Omerceriserad bomull börjar mattare och grövre men mjuknar vackert med tid och upprepade tvättar.
+Bomull är värd att överväga till disktrasor, nätkassar, ofta tvättade babyplagg och sommartoppar när skötselråden passar användningen. Mercerisering ökar glansen, men avgör inte ensam mjukheten. Omerceriserad bomull är vanligen mattare, inte nödvändigtvis grövre i känslan. Tvätt garanterar inte en viss förändring i mjukhet.
 
-Långa stickpass i bomull kan vara tuffare för händerna. Utan någon eftergift i garnet går den repetitiva rörelsen mer direkt in i fingrar och handleder. Värt att nämna eftersom det överraskar vissa stickare.
-
-För fall, tvättbarhet och varmare väder slår bomull ull rakt av. För struktur, återfjädring och blockningsmöjlighet kommer den inte nära.
+Välj bomull för uppsugningsförmåga och en stickad yta som passar sommarbruk; ett spänstigt ullgarn när återfjädring är viktig. Ingen av fibrerna vinner varje jämförelse av fall, slitstyrka eller tvättbarhet.
 
 ## Akryl
 
-Akryl får mycket avfärdande som den inte helt förtjänar. Den översäljs också i vissa hörn. Sanningen ligger i mitten, åt det praktiska hållet.
+Akryl avfärdas ofta utan att förtjäna det. Ibland överdrivs också fördelarna. Det är mer användbart att bedöma garnet efter vad projektet behöver.
 
-Den är prisvärd, lätt att hitta, oftast lättskött och håller ull borta från projektet. Till babyfiltar som behöver tvättas ofta, till välgörenhetsstickning där budgeten spelar roll och till alla som behöver ullfritt garn kan akryl vara ett bra svar snarare än ett sämre andrahandsval.
+Akryl är en syntetfiber som används i många budgetgarner. Ett lämpligt akrylgarn är ett praktiskt alternativ för ofta tvättade babyfiltar, välgörenhetsstickning med begränsad budget eller ett ullfritt projekt. Kontrollera garnets faktiska pris, känsla och skötselråd.
 
-Den blockas inte som ull. Den kan noppa. Den kan kännas mindre andningsaktiv mot huden. För mycket värme kan skada den permanent, till exempel kan strykjärn eller aggressiv ångblockning smälta fibern. Som syntetisk, petroleumbaserad fiber kan den också släppa plastmikrofibrer i tvätt.
+Akrylfibern tar upp lite fukt, men det avgör inte ensamt stickningens luftgenomsläpplighet eller hur torr den känns mot huden. Akryl kan noppa. Värme kan fixera eller förvränga formen och skada garnet; ångblockning är inte samma sak som våtblockning, så kontrollera skötselråden före värmebehandling. Tvätt av akryltextilier kan frigöra plastmikrofibrer. Mängden beror på textilen och tvättförhållandena; det är inte i sig en fullständig miljöjämförelse mellan fibrer.
 
-Att byta akryl mot ull i ett mönster är tekniskt möjligt i de flesta fall, men det färdiga tyget beter sig annorlunda. Till filtar och många accessoarer spelar skillnaden ofta ingen roll. Till figurnära plagg, spets eller strukturintensiva mönster: sticka provlapp först och var ärlig med om tyget gör det mönstret behöver.
+Att ersätta ull med akryl kräver både lämplig stickfasthet och lämplig stickad yta. För en filt, kontrollera fall, vikt och skötsel. För figurnära plagg, spets och strukturmönster, kontrollera också återfjädring och hur mönstret framträder efter tvätt och torkning.
 
 ## Andra fibrer värda att känna till
 
-**Alpacka** är mjuk, varm och har mer fall än ull. Värmen är påtaglig, vilket gör den till ett starkt val för accessoarer i kallt väder. Men plagg i ren alpacka kan växa över tid eftersom fibern har mindre elastiskt minne än många ullsorter. En tröja i ren alpacka som passar perfekt från blockningsmattan kan töja sig märkbart i användning. Blandning med ull kan ge spänst och hjälpa tyget att hålla formen. Ren alpacka fungerar bäst i halsdukar, halskragar och sjalar där lite förlängning inte gör något.
+**Alpacka** är värd att prova för varma halsdukar, halskragar och sjalar med mjukt fall. Finlek, krusighet och garnkonstruktion varierar, så alpacka är inte alltid mjukare, varmare eller mindre spänstig än varje ullsort. För en tröja är fall och måttförändring i den tvättade provlappen särskilt viktiga. Ull/alpacka är ett annat alternativ att prova, inte en garanti mot töjning.
 
-**Siden** ger glans, styrka och fall. Det används sällan rent i stickgarn eftersom det är dyrt och kan kännas halt på stickorna. Som blandningsfiber förändrar siden däremot garnet. En måttlig andel siden ger ull synlig lyster och ett slätare handlag utan att göra tyget helt draperat. Siden ger också dragstyrka, vilket är varför det dyker upp i tunna spetsgarner som måste hålla ihop vid mycket fin stickfasthet. Nackdelen: siden kan få vattenfläckar och fjädrar inte tillbaka efter töjning som ull gör.
+**Silke** är känt för glans, draghållfasthet och fall. Det är skäl att överväga det i sjal- och spetsgarner, även i ullblandningar. Resultatet beror på silkets typ och garnkonstruktionen, inte bara andelen. Vissa sidenytor kan få vattenfläckar; följ garnets skötselråd. Styrka betyder inte att stickningen återfjädrar som ull.
 
-**Linne** är starkt, svalt att bära och mjuknar ofta med användning och tvätt. Det första nystanet känns stelt, ibland nästan knastrigt. Det är normalt. Efter upprepade tvättar blir tyget mjukare och mer avslappnat. Linne är ett starkt val till sommartoppar och stickning för varmt klimat eftersom det känns svalt och hanterar fukt i stället för att hålla kvar värme. Det blockas inte som ull, och bristen på elasticitet kan göra det tröttande att sticka länge. Men ett välanvänt linneplagg har ett fall och handlag som inget annat riktigt matchar.
+**Lin** är en stark, absorberande växtfiber med liten återfjädring. Det passar sommartoppar när provlappen ger den svala känsla och det fall du vill ha. Vissa lingarner känns först styva och mjuknar med tvätt och användning, men ett visst antal tvättar garanterar inte mjukhet. Tvätta och forma provlappen enligt banderollen: liten elasticitet i fibern hindrar inte måttförändringar i stickningen.
 
-**Mohair och kid mohair** ger halo, den där ludna slöjan runt maskorna. Det hålls oftast tillsammans med ett andra garn (siden är den klassiska kombinationen) snarare än stickas ensamt i grövre stickfasthet. Halo-effekten är något ingen annan fiber efterliknar övertygande. Kid mohair är mjukare och finare. Vanlig mohair kan kännas rivigare mot huden. Båda fäller fibrer på allt i närheten.
+**Mohair och kid mohair** används i borstade garner för en luddig slöja, en halo, runt maskorna. Mohair kommer från angorageten; kid mohair kommer från unga getter och är vanligen finare. Mjukhet och hur mycket garnet fäller beror ändå på fiberkvalitet och konstruktion. En mohair/silkeblandning är redan ett garn; att sticka den tillsammans med ett separat garn är ett annat val. Den kan också stickas ensam om mönstret och provlappen passar för det. Halo är inte unikt för mohair.
 
-**Nylon** spelar sällan huvudrollen ensam. Det dyker upp i blandningar för slitstyrka, vilket är varför det finns i många kommersiella sockgarner. En liten andel, ofta runt 10-25 %, kan förlänga livslängden på sådant som slits hårt utan att ta över hur garnet känns i händerna.
+**Nylon**, även kallat polyamid på banderoller, används för nötningsbeständighet i många sockgarner. Andelen ensam förutsäger inte sockornas livslängd: även snodd, stickfasthet, passform och användning spelar roll.
 
 ## Blandningar: lösa verkliga problem
 
-Blandningar finns för att rena fibrer har förutsägbara luckor, och blandning fyller dem.
+Blandningar kombinerar fibrer för att uppnå vissa egenskaper, men får inte automatiskt alla fördelar hos varje beståndsdel.
 
-Ull/nylon är den klassiska sockblandningen. Ull ger värme och elasticitet. Nylon ger slitstyrka till hälar och tår. Du kan sticka sockor utan nylon, men den här blandningen löser ett vanligt slitageproblem.
+Ull/nylon är en välbekant sockblandning. Ull bidrar med spänst och isolering, nylon tillsätts för nötningsbeständighet. Det är ett användbart alternativ för hälar och tår som utsätts för friktion, ingen garanti mot slitage. Sockor kan också stickas utan nylon.
 
-Merino/siden ger fall och glans till en ullbas utan att offra särskilt mycket struktur. Bomull/akryl gör tyget lättare och skötseln enklare jämfört med ren bomull. Ull/alpacka behåller mer struktur än ren alpacka men får mer mjukhet.
+Prova merino/silke för glans och fall, ull/alpacka för balansen mellan mjukhet och spänst. Jämför den faktiska stickningens vikt och skötsel när du väljer bomull/akryl. Blandningens namn bevisar inte att den är lättare, mjukare, mer lättskött eller mer formstabil än ett garn av en enda fiber.
 
-När du tittar på en blandning spelar förhållandet roll. Ett garn märkt 90/10 Merino/siden är Merino med diskret glans. En 50/50-blandning beter sig som en verklig kompromiss mellan båda fibrerna. Små procent justerar. Stora procent förändrar.
+En tänkt banderoll med 90 % merino / 10 % silke anger fibrernas viktandelar. 50 % / 50 % betyder lika fibervikt, inte en mittpunkt för varje egenskap. Inget av förhållandena förutsäger graden av glans, återfjädring eller fall. Bedöm garnet utan att sätta en kvalitetsgräns vid en viss andel lyxfiber.
 
-En sak att se upp med: vissa blandningar väljs av marknadsföringsskäl snarare än funktionella. En blandning med 3 % kashmir kan vara mer etikettvärde än faktisk känselförändring. Vid mycket små andelar lyxfiber, behandla garnet som den dominerande fibern och se resten som en bonus om du märker den alls.
-
-Också värt att veta: blandningar kan bete sig oförutsägbart vid blockning. En ull/bomullsblandning svarar kanske inte på våtblockning som ren ull gör, eftersom bomullsdelen inte omformas. Sticka och blocka provlappen. Garnet visar vad det är villigt att göra.
+En ull/bomullsblandning behöver sin egen provlapp och kontroll av skötselråden. Tvätta och torka den som du tänker behandla det färdiga arbetet. Bedöm sedan mått, yta, fall och återfjädring. Ingen av fibrerna avgör resultatet ensam.
 
 ## Välja fiber till ditt projekt
 
 Tre frågor skär igenom det mesta.
 
-Hur ska det tvättas? Om projektet behöver regelbunden maskintvätt, börja med garn vars banderoll tillåter det. Det är ofta superwashull, akryl, bomull och vissa blandningar. Handtvätt öppnar fler alternativ. Om mottagaren inte kommer handtvätta (och de flesta icke-stickare gör inte det), planera därefter.
+Hur ska det tvättas? Om regelbunden maskintvätt är nödvändig, börja med garner vars banderoll tillåter rätt program och torkmetod. Ta reda på hur mottagaren faktiskt tänker sköta arbetet. Varken fibernamnet eller superwashmärkningen ersätter skötselråden.
 
-Vad behöver projektet strukturellt? Flätor och strukturerade maskor vill ha elasticitet. Det betyder ull eller en ulltung blandning. Fall och flytande rörelse vill ha bomull, siden eller linne. Halo vill ha mohair. Slitstyrka i utsatta delar vill ha nylon i blandningen.
+Vad behöver projektet strukturellt? Börja med att prova ull eller en ullrik blandning för spänstig resår och tydliga flätor. För följsamt fall, prova ett lämpligt bomulls-, silkes- eller lingarn vid mönstrets stickfasthet. Överväg borstad mohair för luddig yta och nylonblandning för sockor med mycket friktion. Det är utgångspunkter, inte obligatoriska ingredienser.
 
-Vilket klimat är det för? Ull och alpacka isolerar. Bomull och linne andas och håller sig svala. Akryl kan ge värme, men många akryltyger känns mindre andningsaktiva mot huden än ull, bomull eller linne.
+Vilket klimat är det för? Luftig ull- eller alpackastickning är en användbar utgångspunkt för värme, lättare bomulls- eller linstickning för sommarbruk. Akryl kan också ge värme. Tjocklek och maskmönstrets öppenhet påverkar isolering och luftflöde, så jämför färdiga provlappar i stället för att rangordna andningsförmåga efter fibernamn.
 
 Svaren pekar inte alltid på en enda fiber. Men de brukar eliminera flera.
 
 ## Några saker värda att ta upp
 
-Om du är ny på stickning och väljer ditt första garn smalnar [nybörjarguiden till garn](/sv/artiklar/basta-garnet-for-nyborjare-praktisk-guide/) av alternativen. Fiberinnehåll påverkar hur mycket garn ett projekt behöver, om än indirekt. Olika fibrer packar olika löplängd i samma nystanvikt, vilket är varför uppskattning bara i gram kan göra att garnet inte räcker. KnitTools [garnåtgångskalkylator](/sv/verktyg/garnatgangskalkylator/) ger ett ungefärligt planeringsintervall utifrån projekttyp, storlek och garntjocklek, men tar inte hänsyn till fiberinnehållet.
-
-I hållbarhetsfrågan som dyker upp hela tiden: nylon är den vanligaste förstärkaren i stickgarn. Därför finns det i många sockblandningar. Linne är också anmärkningsvärt starkt bland växtfibrer, även om det får mindre uppmärksamhet för det.
+Om du väljer ditt första garn hjälper [nybörjarguiden till garn](/sv/artiklar/basta-garnet-for-nyborjare-praktisk-guide/) dig att begränsa alternativen. Fiber och garnkonstruktion påverkar löplängden vid en viss nystanvikt, så gram ensamt ersätter inte banderollens meterangivelse. [Garnåtgångskalkylator](/sv/verktyg/garnatgangskalkylator/) — Referensmängder från namngivna mönster, ingen personlig förbrukningsprognos. Välj projekt, en storlek i ett namngivet mönster och enhet. Resultatet är mönstrets referensmängd, ingen prognos för ditt eget projekt.
 
 Bomull och ull kan absolut samsas i ett garnlager (och i ett stickliv). Idén att en stickare måste välja läger är märklig. De gör helt olika saker. Att äga en vinterkappa och en sommarskjorta är inte motsägelsefullt. Inte heller att sticka med båda fibrerna och välja den som passar projektet.
 
-Och om inget av ovanstående smalnar av valet nog: sticka provlapp. Inte för att det är roligt (det är det ofta inte), utan för att tio gram garn och en timmes stickning berättar mer om en fiber än någon artikel kan.
+Om valet fortfarande är svårt, sticka en provlapp med arbetets maskmönster och behandla den med den tänkta skötselmetoden. Låt den torka helt och bedöm både stickfasthet och känsla. Garnmängd och tid beror på provlappen; en liten lapp bevisar inte hur ett helt plagg slits under flera år.

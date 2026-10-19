@@ -2,6 +2,7 @@
 title: "Gratis breirekentools voor steken en garen"
 description: "Bereken je opzetsteken en schat je garenverbruik met twee gratis rekentools. Lees ook hoe je meerderingen en minderingen met de hand gelijkmatig verdeelt."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: app-tools
 categoryOrder: 5
 tags:
@@ -18,22 +19,22 @@ lang: nl
 translationKey: "free-knitting-calculators"
 ---
 
-Deze twee gratis rekentools kun je direct in je browser gebruiken:
+Deze twee gratis rekentools werken in je browser, zonder registratie of installatie van een app:
 
 - [Bereken hoeveel steken je moet opzetten](/nl/breitools/opzetcalculator/) op basis van je stekenverhouding en de gewenste breedte.
-- [Schat hoeveel garen je nodig hebt](/nl/breitools/garenberekenaar/) op basis van het soort project, de maat en de garendikte.
+- [Vergelijk garenhoeveelheden uit patronen](/nl/breitools/garenberekenaar/).
 
 Verder lees je hoe je de stekenverhouding omrekent en meerderingen en minderingen met de hand verdeelt. Je vindt ook links naar tabellen en breiafkortingen. Die onderdelen geven uitleg en naslaginformatie; het zijn geen interactieve calculators.
 
-Bij breien komt meer rekenwerk kijken dan de meeste mensen verwachten. Hoeveel steken moet je opzetten voor een sjaal van 23 cm breed bij jouw stekenverhouding? Hoeveel garen slokt een deken op? Hoe verdeel je 8 meerderingen gelijkmatig over 64 steken? Het is geen moeilijke wiskunde, maar het komt steeds terug, en een fout kan betekenen dat je na drie avonden werk terug moet uithalen tot de opzetrand.
+Hoeveel steken heb je nodig voor een sjaal van 23 cm breed? Hoeveel garen plan je voor een deken? Hoe verdeel je 8 meerderingen over 64 steken? Rekentools helpen met de som, maar je moet het antwoord nog vergelijken met je proeflapje en breipatroon.
 
 ## Opzetcalculator
 
-Je kent je stekenverhouding uit je proeflapje en je weet hoe breed het stuk moet worden. De [opzetcalculator](/nl/breitools/opzetcalculator/) vermenigvuldigt die getallen en rondt af naar het dichtstbijzijnde even aantal steken. Dat is een nuttige standaard voor veel boorden en steekpatronen.
+Meet een proeflapje met het garen, de naalden, het steekpatroon en de afwerking van je project. De Nederlandse [opzetcalculator](/nl/breitools/opzetcalculator/) gebruikt alleen steken per 10 cm en breedte in cm. Hij rekent steken per 10 cm ÷ 10 × breedte en rondt af naar het dichtstbijzijnde even aantal; een oneven geheel getal wordt naar boven afgerond. Vul de afgewerkte breedte of omtrek in, met de gewenste positieve of negatieve bewegingsruimte al verwerkt. De calculator voegt geen bewegingsruimte, rapporten of kantsteken toe.
 
 De formule is simpel genoeg om in je hoofd te doen voor gewone tricotsteek. Hij wordt minder simpel wanneer je steekpatroon herhaalt over 6 steken plus 2 balanssteken en je een getal nodig hebt dat zowel bij het rapport als bij de breedte past. De calculator geeft een uitgangspunt; je past het aantal zelf aan voor patroonherhalingen en kantsteken.
 
-Een uitgewerkt voorbeeld: je stekenverhouding is 22 steken per 10 cm, de gewenste breedte is 23 cm en het steekpatroon is een kabelrapport van 6 steken plus 4 kantsteken in tricotsteek. De ruwe berekening geeft 50,6 steken, dus een even calculatorresultaat wordt 50. Trek je 4 kantsteken af, dan blijven er 46 patroonsteken over, en 46 is niet deelbaar door 6. Aanpassen naar 52 steken geeft 48 patroonsteken plus 4 kantsteken, zodat de kabels netjes uitkomen.
+Een voorbeeld: 22 steken per 10 cm en een gewenste breedte van 23 cm. Vul **22** en **23** in: 22 ÷ 10 × 23 = 50,6, afgerond **50**. Voor een kabelrapport van 6 steken plus 4 kantsteken is 50 − 4 = 46 niet deelbaar door 6. Het dichtstbijzijnde passende totaal is **52**: 8 × 6 + 4. Dat pas je zelf aan. Bij een gelijkmatige stekenverhouding zou de breedte ongeveer **23,64 cm** zijn, geen 23 cm. Kabels en randen in tricotsteek kunnen verschillende stekenverhoudingen hebben; meet daarom de hele combinatie in je proeflapje.
 
 Gebruik de calculator wanneer je een patroon aanpast aan je maten, zonder patroon ontwerpt, of [garen vervangt](/nl/artikelen/garen-vervangen-in-een-breipatroon/) en je stekenverhouding afwijkt van die van het patroon. Als het steekpatroon een vast veelvoud nodig heeft, gebruik je het calculatorresultaat als startpunt en schuif je daarna naar het dichtstbijzijnde geldige aantal steken. De [opzetgids](/nl/artikelen/hoeveel-steken-opzetten/) legt die aanpassing uitgebreider uit.
 
@@ -41,11 +42,11 @@ Gebruik de calculator wanneer je een patroon aanpast aan je maten, zonder patroo
 
 Zijn drie bollen genoeg? Die vraag achtervolgt elke garenaankoop, en verkeerd gokken betekent ofwel halverwege een mouw tekortkomen met een verdwenen verfbad, ofwel dure restjes overhouden.
 
-Een garenberekenaar werkt met projecttype, maat, garendikte en een aangenomen basisbreisel. Een trui met veel kabels gebruikt meestal meer garen dan een trui in tricotsteek met dezelfde afgewerkte maten, omdat kabels het breisel horizontaal samentrekken. Ajour kan juist minder garen gebruiken dan tricotsteek bij dezelfde stekenverhouding, omdat omslagen het breisel openzetten. Ribbelsteek kan de schatting ook veranderen, omdat de toerenverhouding zich anders gedraagt dan bij tricotsteek.
+Het resultaat onderscheidt de nominale inkooplengte, de garenbehoefte volgens het patroon en de ongeveer benodigde lengte. Inkoophoeveelheid: gram × banderollengte ÷ gewicht; dit is geen gemeten verbruik. Samengebreide garens staan apart vermeld; het hoofdgetal is hun gezamenlijke inkooplengte, niet de lengte van één draad. Bereiken uit de bron blijven behouden. Omrekening: 1 yard = 0,9144 m; alleen de uiteindelijke weergave wordt afgerond.
 
-De [garenberekenaar](/nl/breitools/garenberekenaar/) op deze site dekt kleding, mutsen, handschoenen, sokken, dekens en woonaccessoires met aanpassingen voor maat en garendikte. Hij geeft een benadering in meters, waarna je zelf een veiligheidsmarge toevoegt voordat je koopt. Dat telt ook bij garen vervangen. Als het originele patroon garen vraagt met ongeveer 200 m per 100 g en jouw vervanger heeft 150 m per 100 g, heb je meer bollen nodig, ook als de garendiktecategorie overeenkomt. De looplengte per gram verschilt namelijk door vezeldichtheid en garenconstructie.
+[Garenberekenaar](/nl/breitools/garenberekenaar/) — Referentiehoeveelheden uit benoemde patronen, geen persoonlijke verbruiksvoorspelling. 133 referenties uit 19 patronen in 28 projectcategorieën. Stola’s en kussenhoezen hebben hier geen gecontroleerde referentie. Geen schaling op garendikte, stekenverhouding of afmetingen; geen automatische reserve.
 
-Voor truien en grotere projecten is een praktische buffer een volledige bol boven de schatting, vooral wanneer het garen een verfbad heeft. Voor sokken en kleine projecten is precies op de schatting kopen alleen verstandig als je het patroon, het garen en je eigen hand van breien al goed kent. Verfbadrisico is echt, zeker bij handgeverfd garen en commerciële lijnen die uitlopen, en een extra bol vooraf is meestal goedkoper dan een trui afmaken met niet-passend garen.
+Bereken bollen met de hand: deel de benodigde totale lengte door de lengte per bol in dezelfde eenheid en rond naar boven af. Als je 600 m nodig hebt en beide garens in bollen van 100 g worden verkocht, geven 200 m per bol 3 bollen en 150 m per bol **4 bollen**. Dat veronderstelt dezelfde benodigde lengte; dezelfde garendikte garandeert geen geschikte vervanging. Plan garen voor proeflapje, afwerking en wijzigingen vóór het afronden. Eén extra bol is geen universele reserve. Controleer ook het verfbad.
 
 ## Stekenverhouding met de hand omrekenen
 
@@ -59,33 +60,33 @@ Hier lees je hoe je de verdeling zelf berekent. Dit is geen interactieve calcula
 
 Het patroon zegt: "meerder 12 steken gelijkmatig over de volgende toer." Er staan 80 steken op de naald. Waar komen de meerderingen?
 
-Deel 80 door 12 en je krijgt 6,67. Dat betekent dat sommige tussenruimtes 6 steken zijn en andere 7. Schrijf op waar de kortere en langere tussenruimtes komen, zodat de meerderingen gelijkmatig verdeeld zijn. Vier meerderingen zijn nog goed te overzien. Bij 18 meerderingen over 142 steken is het extra handig om de verdeling op te schrijven voordat je begint te breien.
+80 ÷ 12 ≈ 6,67 is een gemiddelde, geen volledige instructie. In een heengaande toer kun je één gedraaide meerdering uit het dwarsdraadje maken na oorspronkelijke steek **3, 10, 17, 23, 30, 37, 43, 50, 57, 63, 70 en 77** en daarna de laatste 3 steken breien. Tel alleen oorspronkelijke steken om de plaatsen te vinden. De meerdering verbruikt geen bestaande steek: 80 + 12 = **92**, met 3 gewone steken aan beide uiteinden.
 
-Elke vormtoer heeft er baat bij: mouwmeerderingen, minderingen in de pas, [overgangen van boordsteek](/nl/artikelen/gelijkmatig-meerderen-of-minderen-over-een-toer/) waarbij het aantal steken tussen delen verandert, en raglanvormgeving waarbij vier sets minderingen om de toer terugkomen.
+Voor 18 meerderingen over 142 steken in een bestaande ronde toer kun je zestien groepen van 8 steken en twee van 7 gebruiken, met de kortere groepen verspreid over de toer. Brei de laatste steek van elke groep in de voorste en achterste lus voordat je hem laat afglijden; hij telt mee in de groep. Dit verbruikt 16 × 8 + 2 × 7 = 142 steken en levert **160** op. De [gids voor meerderen en minderen](/nl/artikelen/gelijkmatig-meerderen-of-minderen-over-een-toer/) legt de methodes en restverdeling uit. Gelijkmatige verdeling kan na een boord passen, maar vervangt geen voorgeschreven raglanlijnen, mouwvorming of plaatsen in de pas.
 
-Een specifieke valkuil: patronen zeggen vaak "minder 18 steken gelijkmatig over de volgende toer" zonder te zeggen of de mindering helemaal aan de rand mag komen of dat je een buffer moet laten. Als de rand later wordt genaaid of er steken uit worden opgenomen, laat dan een of twee gewone steken aan elke rand staan, tenzij het patroon iets anders zegt.
+Een mindering verbruikt bestaande steken. Herhaal “4 recht, 2 recht samen; 5 recht, 2 recht samen; 5 recht, 2 recht samen” vier keer: 4 × (6 + 7 + 7) = 80 steken verbruikt, 12 geminderd en **68** over. Dit voorbeeld reserveert geen kantsteken. Vereist het patroon randen zonder minderingen, trek die steken dan af vóór de verdeling, bereken de tussenruimtes opnieuw en brei de randen apart.
 
 ## Een patroon aanpassen aan jouw maat
 
-Calculators kunnen helpen wanneer een patroon niet in jouw maat bestaat, maar ze kunnen niet veilig een heel kledingstuk voor je graderen. Stel: het patroon is geschreven voor een borstomtrek van 96 cm en jij hebt 112 cm nodig. De stekenverhouding van het patroon is 20 steken per 10 cm, en die van jou klopt. De opzetcalculator kan dan een nieuw aantal steken voor het lijf schatten, maar het echte werk zit in de vormgeving: hoeveel extra meerdertoeren in de pas, hoe de mouwkop verandert, en waar de armsgatafkanting uitkomt.
+De calculator geeft een beginaantal, maar gradeert geen heel kledingstuk. Maak onderscheid tussen lichaamsmaten en afgewerkte maten. Stel dat **96 cm en 112 cm afgewerkte omtrekken van het lijf** zijn, inclusief de gewenste bewegingsruimte, bij 20 steken per 10 cm. Vul voor een recht lijf in het rond 20 en 112 in: het resultaat is **224 steken**, tegenover 192 bij 96 cm. Een plat voor- of achterpand heeft zijn eigen breedte nodig, niet de hele omtrek, plus eventuele naad- en randaanpassingen. Armsgaten, hals, mouwkop en pas vragen nog steeds om de constructie van het patroon en je toerenverhouding.
 
 Hier ketenen de berekeningen aan elkaar. Opzetten voor lichaamsbreedte, meerderingen verdelen in de pas, stekenverhouding omrekenen als je tussen metrische en imperiale instructies werkt. Elk onderdeel is op zichzelf niet moeilijk. Alles tegelijk in je hoofd houden terwijl je het patroon volgt, vooral op de derde avond van een knitalong, is waar fouten binnensluipen.
 
 ## Wat een nuttige calculator onderscheidt van een slechte
 
-Een calculator die stekenverhouding met breedte vermenigvuldigt en afrondt naar het dichtstbijzijnde hele getal doet 90% van het werk, maar mist de 10% die problemen veroorzaakt. Echt breien heeft voorwaarden: patroonrapporten, kantsteken, eisen voor even aantallen en vaste veelvouden waar een kale formule geen rekening mee houdt.
+Een bruikbare rekenaar toont invoereenheden en afrondingsregel. Rapporten, kantsteken en pasvorm moet je nog controleren; een even aantal past niet automatisch bij elk steekpatroon.
 
-Hij moet ook op een telefoon werken. De meeste breiers rekenen aan de hobbytafel of in de wolwinkel, niet achter een bureau. De beste tools maken de afrondingskeuze zichtbaar in plaats van die te verbergen, zodat je kunt beoordelen of het antwoord past bij het steekpatroon dat voor je ligt.
+Hij hoort ook leesbaar en bruikbaar te zijn op een telefoon. Controleer eenheden, invoer en resultaat samen: een kloppende som is nog geen volledig aangepast breipatroon.
 
 ## Naast calculators: referentietools
 
-Sommige breiwiskunde is geen berekening, maar opzoeken. Welke US-naald komt overeen met 3,75 mm? Welke garendikte past bij 20 steken per 10 cm? Wat betekent "psso"? Welke lichaamsmaat gebruik je voordat je een patroonmaat kiest?
+Sommige vragen zijn opzoekvragen: 3,75 mm staat als US 5 in de naaldentabel, en de woordenlijst legt “psso” uit. De stekenverhoudingen bij garendiktes zijn richtlijnen; 20 steken per 10 cm identificeren een garen niet precies. Vergelijk lichaamsmaattabellen met je eigen maten en de afgewerkte maten van het patroon.
 
-De pagina's [naalddiktes](/nl/breitools/naalddiktes/), [garendiktes](/nl/breitools/garendiktes/), [maattabellen](/nl/breitools/maattabellen-breien/) en [breiafkortingen](/nl/breitools/breiafkortingen/) op deze site zijn doorzoekbare referenties voor die vragen. Het zijn geen calculators, maar je grijpt er net zo vaak naar.
+De pagina’s [naalddiktes](/nl/breitools/naalddiktes/), [garendiktes](/nl/breitools/garendiktes/), [maattabellen](/nl/breitools/maattabellen-breien/) en [breiafkortingen](/nl/breitools/breiafkortingen/) zijn naslagwerken. Naalddiktes en afkortingen hebben zoekvelden, garendiktes een WPI-hulp en maattabellen categorie- en eenheidskeuzes. Dat zijn andere functies dan die van de twee rekenaars.
 
 ## Alles op een plek
 
-De gratis calculators en referentiepagina's op deze site dekken de meest voorkomende breiberekeningen in de browser. Voor breiers die dezelfde kerntools in een projectgerichte Android-app willen, wordt [KnitTools](/nl/breitools/#join) gebouwd rond toeren tellen, projectbeheer, calculators en referenties.
+De browsertools zijn gratis zonder account of installatie. De aparte Android-app KnitTools wordt gebouwd rond projecten en handmatig toeren tellen, met gratis en Pro-functies. Gratis browsertoegang betekent niet dat alle appfuncties gratis of identiek zijn. [Bekijk de lanceringsinformatie en de inschrijflijst van KnitTools](/nl/breitools/#join).
 
 ## FAQ
 
@@ -93,10 +94,10 @@ De gratis calculators en referentiepagina's op deze site dekken de meest voorkom
 De berekening kan exact zijn, maar het bruikbare antwoord hangt af van de invoer en de afrondingsregel. De ene calculator rondt af naar het dichtstbijzijnde hele getal, de andere naar het dichtstbijzijnde even getal, een derde kan afronden naar het dichtstbijzijnde veelvoud van 4 voor 2 x 2-boordsteek. Controleer wat je patroon vraagt en gebruik een calculator die bij die voorwaarden past.
 
 **Kan ik breicalculators gebruiken zonder mijn stekenverhouding te kennen?**
-Voor de opzetcalculator en het met de hand omrekenen van je stekenverhouding heb je een meting uit je proeflapje nodig. Daar is geen omweg voor. Een garenberekenaar kan zonder stekenverhouding een grove schatting geven omdat hij werkt met projecttype en garendikte, maar de schatting is ruwer.
+De opzetcalculator en het handmatig omrekenen van stekenverhouding hebben een meting uit je proeflapje nodig. Kies een project, een maat uit een benoemd patroon en een eenheid. Het resultaat is de referentiehoeveelheid van dat patroon, geen voorspelling voor je eigen project.
 
 **Waarom niet gewoon met de hand rekenen?**
 Dat kan. De calculator berekent het aantal steken uit stekenverhouding en breedte en rondt af naar het dichtstbijzijnde even getal. Bij een patroonrapport van 7 steken pas je het resultaat zelf aan zodat de patroonsteken uit volledige herhalingen bestaan; eventuele kantsteken tel je apart mee.
 
 **Hoe nauwkeurig is een garenschatting als ik nog geen proeflapje heb gebreid?**
-Een garenschatting voor het proeflapje is een planningsbereik, geen belofte. Het is goed genoeg om te weten of je waarschijnlijk een paar bollen koopt of een truihoeveelheid, maar niet goed genoeg om de buffer over te slaan. Vergelijk na je proeflapje je stekenverhouding en het gedrag van het breisel met het patroon of de schatting, en voeg extra garen toe als het project groot, gestructureerd of verfbadgevoelig is.
+Referentiehoeveelheden uit benoemde patronen, geen persoonlijke verbruiksvoorspelling. Controleer maat, garen, constructie en stekenverhouding in het gelinkte oorspronkelijke patroon. De hoeveelheid voorspelt geen verbruik voor ander breiwerk of aangepaste maten. Controleer elke kleur en de aanwijzingen voor proeflapje en reserve voordat je hele bollen koopt. Beschikbaarheid van de genoemde garens en kleuren is niet gegarandeerd.

@@ -28,15 +28,17 @@ Om stickfastheten är 20 maskor per 10 cm och du vill ha ett stycke som är 25 c
 
 Om stickfastheten mättes över 10 cm, dela först. 20 maskor över 10 cm ger 2 maskor per cm.
 
-KnitTools [uppläggningskalkylator](/sv/verktyg/upplaggningskalkylator/) hanterar grundmatten och avrundning till jämna tal, men det hjälper ändå att veta hur ett rimligt svar ser ut. Om en 50 cm bred filtpanel i worsted-garn påstås behöva bara några dussin maskor är något fel.
+KnitTools [uppläggningskalkylator](/sv/verktyg/upplaggningskalkylator/) räknar ut grundantalet och avrundar till närmaste jämna tal; ett udda heltal avrundas uppåt. Ange maskor per 10 cm och bredd i cm, eller välj tum och ange maskor per 4 tum och bredd i tum. Enhetsbytet räknar inte om inmatade värden. Den vanliga beteckningen 10 cm / 4 tum är ungefärlig: 4 tum är exakt 10,16 cm. Rörelsevidd, rapporter, balansmaskor, kanter och sömmar måste du själv ta hänsyn till; kalkylatorn ändrar inte hela mönstrets storlek.
 
 ## Mät stickfastheten rätt
 
 Uppläggningsantalet är bara så bra som provlappen bakom det. Två misstag orsakar problem om och om igen.
 
+Använd projektets garn, stickor och maskmönster. Sticka provlappen fram och tillbaka eller runt, precis som arbetet. Stickfasthet i slätstickning förutsäger inte bredden i resår, spets eller flätor.
+
 **Att mäta vid provlappens kant.** Kantmaskor är inte pålitliga. Mät i mitten, bort från uppläggning, avmaskning och sidokanter.
 
-**Att mäta före tvätt och blockning.** Provlappen på stickorna är inte det färdiga tyget. Om mönstrets stickfasthet bygger på tvättat eller blockat tyg, använd den tvättade eller blockade provlappen till uppläggningsmatten.
+**Att använda fel mättillstånd.** Följ mönstrets anvisning, även om stickfastheten anges före blockning. Annars behandlar du provlappen som det färdiga arbetet, enligt garnets skötselråd, och mäter när den är helt torr och avslappnad.
 
 Ingen provlapp än? [Att mäta stickfasthet](/sv/artiklar/sa-mater-du-stickfasthet/) går igenom hela processen.
 
@@ -44,15 +46,11 @@ Ingen provlapp än? [Att mäta stickfasthet](/sv/artiklar/sa-mater-du-stickfasth
 
 Du vill sticka en enkel slätstickad halsduk, 20 cm bred, och din stickfasthet är 18 maskor per 10 cm.
 
-18 ÷ 10 = 1,8 maskor per cm.
+18 ÷ 10 = 1,8 maskor per cm. 20 × 1,8 = 36 maskor. Ange 18 och 20 i kalkylatorns cm-läge: resultatet är 36.
 
-20 × 1,8 = 36 maskor.
+Byter du maskmönster behöver du en ny provlapp. Om även det mönstret ger 1,8 maskor per cm och kräver en ren multipel av 4 eller 6, fungerar 36. För en ren multipel av 8 är alternativen 32 och 40, ungefär 17,8 och 22,2 cm. Kontrollera hela upplägget innan du väljer.
 
-Det är grundantalet. Om kanten ska stickas i 2x2-resår, alltså en multipel av 4, fungerar 36 redan. Om kanten i stället har en spetsrapport på 6 maskor fungerar 36 också. Om spetsrapporten är 8 maskor blir närmaste val 32, lite smalare, eller 40, lite bredare.
-
-Om målet på 20 cm beskriver den centrala mönsterytan, ger en kantmaska i varje sida utanför den ytan totalt 38 maskor. Om de 20 centimetrarna avser hela den färdiga bredden ska kantmaskorna ingå i de beräknade 36 maskorna i stället för att läggas till efteråt.
-
-Matten tar ungefär en halv minut. Att göra den före uppläggningen är snabbare än att märka efter sex varv att halsduken blev 15 cm bred.
+Om 20 cm avser bara mittpartiet ger 36 maskor där plus en separat kantmaska i varje sida 38 totalt. Med samma stickfasthet över hela stycket blir det cirka 21,1 cm före sömnad. Om 20 cm inkluderar de två kanterna och mittpartiet kräver en multipel av 8, använd hela formeln 8n + 2 (n = antal rapporter): (36 − 2) ÷ 8 = 4,25 rapporter. Fyra eller fem rapporter ger 34 eller 42 maskor totalt, cirka 18,9 eller 23,3 cm. Avrunda inte totalen till en rapportmultipel och lägg sedan till kanterna. Annan stickfasthet i kanten och bredd som försvinner i sömmen måste räknas separat.
 
 ## Justera för rapporter
 
@@ -60,7 +58,7 @@ Grundmultiplikationen är ett första utkast, inte det slutliga antalet.
 
 De flesta strukturmönster upprepas över ett fast antal maskor, och uppläggningsantalet måste passa den rapporten. Du kan inte landa på vilket antal som helst och hoppas att mönstret går ihop.
 
-Säg att grundmatten ger 97 maskor, men mönstret upprepas över 6. Närmaste fungerande antal är 96 och 102. Då behöver du välja om lite smalare eller lite bredare passar projektet bäst. Oftast blir svaret tydligt när du tänker på plaggets användning.
+Exempel: 20 maskor per 10 cm × 48,5 cm ger 97 maskor. Med en ren rapport på 6 maskor är alternativen 96 och 102, alltså 48 och 51 cm. Kräver hela upplägget 6n + 2, dra först bort de två extra maskorna: (97 − 2) ÷ 6 ≈ 15,83. Välj 15 eller 16 rapporter och lägg till de två maskorna en gång: 92 eller 98 totalt, alltså 46 eller 49 cm vid den stickfastheten.
 
 Här är delen många missar: vissa mönster behöver också kant- eller balansmaskor utanför rapporten. Om instruktionen säger något som `2 rm, *2 am, 2 rm; upprepa från *`, är de extra maskorna en del av upplägget. Inte valfri dekoration. Hoppar du över dem balanserar inte mönstret över varvet.
 
@@ -71,128 +69,99 @@ När du arbetar med en rapport på 8 maskor plus 2 balansmaskor är målet inte 
 - "Multipel av 8 + 2" -> 34, 42, 50, 58, 66
 - "Multipel av 12 + 3" -> 27, 39, 51, 63, 75
 
-Ju bredare arbetet är, desto mindre spelar en liten justering roll. Att lägga till eller ta bort 4 maskor på en filtpanel ändrar knappt något. På en socka är det skillnaden mellan passar och passar inte.
+Kontrollera bredden efter justeringen. Vid 20 maskor per 10 cm ändrar fyra maskor bredden med 2 cm, oavsett styckets totala bredd. Om det är acceptabelt beror på passformen.
 
 ## Kantmaskor och stadkant
 
-Stickar du plana delar som ska sys ihop spelar kantbehandlingen roll.
+Följ mönstrets kantbehandling och sömsmån för delar som ska sys ihop. Kontrollera om maskorna redan ingår i det angivna antalet; lägg inte automatiskt till två till.
 
-Många mönster lägger till en kantmaska i varje sida. Vissa använder två. Om mönstret inte anger något och du ska sy ihop delarna är en maska i varje sida en vanlig startpunkt.
+För synliga kanter väljer du kantmaskor eller en bård och räknar in dess bredd. En bård i ett annat maskmönster kan behöva en egen provlapp. Sömmen tar en del av den stickade bredden, så skilj på bredden före sömnad och den färdiga synliga bredden.
 
-För halsdukar, filtar och andra delar med synliga kanter är extra kantmaskor valfria om du inte vill ha en särskild kant. En kedjekant, där första maskan på varje varv lyfts, ger en prydlig linje som många gillar på halsdukar.
-
-Rundstickning behöver inga kantmaskor. Det finns inga sidokanter att sy.
+Vanlig sömlös rundstickning har inga sidokantmaskor. Extra maskor för sammanfogning eller uppklippning är separata, mönsterspecifika instruktioner.
 
 ## Bredd vid uppläggningen jämfört med bredd i arbetet
 
 Uppläggningskanten och själva arbetet beter sig inte alltid likadant. Vissa uppläggningar blir tajtare. Vissa töjer sig mer. Vissa breder ut sig.
 
-Om uppläggningskanten behöver matcha arbetet snyggt, använd en uppläggningsmetod med tillräcklig elasticitet för projektet, eller prova det vanliga knepet: lägg upp med en sticka en eller två storlekar större än arbetsstickan. Då blir kanten lösare och närmare arbetets naturliga bredd.
+Välj en uppläggning som passar kanten och prova den i en provlapp. En grövre sticka ger större masköglor, men gör inte ensam en long-tail-uppläggning mer elastisk: garnet mellan maskorna måste också ha utrymme. Testa kanten mot arbetets tyg och öppning.
 
-När uppläggningen är en del av passformen, som sockmudddar eller mösskanter, spelar spänningen i kanten lika stor roll som maskantalet.
+När uppläggningen är en del av passformen, som sockmuddar eller mösskanter, spelar spänningen i kanten lika stor roll som maskantalet.
 
 ## Uppläggning för resår
 
-Resår drar ihop sig mer än slätstickning med samma maskantal. Om mönstret säger att du ska [öka jämnt](/sv/artiklar/oka-eller-minska-jamnt-over-ett-varv/) efter resåren hanterar övergångsvarvet den skillnaden. Det är hela poängen.
+Mät resåren i det tillstånd mönstret anger; använd inte slätstickningens stickfasthet i stället. Följ övergångsvarvet, inklusive eventuella [jämnt fördelade ökningar](/sv/artiklar/oka-eller-minska-jamnt-over-ett-varv/).
 
-Vissa mönster behåller samma maskantal genom resår och kropp. Andra lägger upp färre maskor till resåren och ökar efteråt. Om du designar själv, gör det valet medvetet. De två lösningarna ser olika ut: samma maskantal ger en ren övergång, medan färre resårmaskor följt av ökningar ger en tydligare kant mellan resår och kropp.
-
-För synliga resårkanter på tröjfållar kan tubular cast-on eller German twisted cast-on ge en mer elastisk kant än vanlig long-tail. Long-tail är inte dålig, men den kan kännas fastare än de två.
+Vissa mönster behåller maskantalet mellan resår och kropp, andra ändrar det. I en egen modell behöver du prova båda ytorna och övergången. En ändring av maskantalet garanterar inte en viss form eller en jämn övergång.
 
 ## Uppläggning för rundstickning
 
-Beräkningen är samma som för plant arbete: stickfasthet × önskad omkrets. För mössor och sockor är målomkretsen oftast mindre än kroppsmåttet eftersom tyget behöver negativ rörelsevidd. Själva uppläggningen får en extra kontroll: slut till en ring utan att vrida arbetet.
+Multiplicera maskor per cm från en rundstickad provlapp med önskad färdig omkrets. En tubs omkrets är inte dess bredd när den ligger platt. Bestäm rörelsevidden först: lägg till önskad positiv rörelsevidd till kroppsmåttet, eller dra av vald negativ rörelsevidd. Mängden beror på mönster, tyg och passform; det finns ingen generell minskning för alla mössor eller sockor.
 
-Innan du stickar första varvet, lägg stickan plant och kontrollera att alla maskor ligger åt samma håll. Uppläggningskanten ska löpa längs insidan av stickan utan spiral. Om du upptäcker vridningen när du kommer till slutet av första varvet kan du fortfarande rätta den vid skarven. Har du stickat flera varv är det i regel renast att repa upp.
+Kontrollera före sammanfogningen att uppläggningskanten löper runt utan spiral. Om det sammanfogade arbetet är vridet, repa upp tillräckligt för att rätta till det innan du fortsätter.
 
-För att stänga det lilla glappet vid varvbytet lägger många upp en extra maska och minskar bort den när de sluter ringen. Det arbetande maskantalet blir rätt, och skarven ser prydligare ut än om första varvet startar med ett hål.
+Om din sammanfogningsmetod använder en extra maska, ta bort den enligt instruktionen vid sammanfogningen så att arbetsantalet blir det planerade. Den ska inte läggas till automatiskt i alla rundstickade projekt.
 
-För tå-upp-sockor skapar Judy's magic cast-on två parallella rader levande maskor utan söm i tån. För uppifrån-och-ner-sockor läggs mudden upp plant, ofta med long-tail eller German twisted, och sluts sedan till en ring.
-
-Ungefärliga uppläggningsantal för släta vuxensockor med negativ rörelsevidd:
-
-- Worsted, cirka 16 maskor per 10 cm: 32-40 maskor
-- DK, cirka 24 maskor per 10 cm: 48-56 maskor
-- Sport, cirka 26 maskor per 10 cm: 52-60 maskor
-- Fingering, cirka 30-32 maskor per 10 cm: 60-72 maskor
-
-Använd dem som startpunkter, inte färdiga storleksregler. Mät fotens omkrets där den är bredast, dra bort den negativa rörelsevidd socktyget behöver och multiplicera med din egen stickfasthet. Mindre fötter behöver färre maskor, större fötter fler, och resårmudden förlåter mer än slätstickning.
+För sockor från tån skapar Judy's magic cast-on två grupper levande maskor utan tåsöm; tåns formning bestämmer startantalet. För sockor från skaftet kontrollerar du mudden separat, även att uppläggningen kan töjas över hälen.
 
 ## Uppläggningsmetoder kort jämförda
 
 Rätt metod beror på vad kanten ska göra.
 
-**Long-tail.** Standardmetoden. Lagom elastisk, prydlig och användbar till det mesta. Kräver att du uppskattar garnsvansen innan du börjar, en fungerande tumregel är tre gånger uppläggningsbredden plus extra. Mindre elastisk än tubular eller German twisted.
+**Long-tail.** En allmän uppläggningsmetod med garnet från nystanet och en avmätt garnände. Elasticiteten beror på utförandet. Uppskatta garnändens längd före start; se FAQ nedan.
 
-**Stickad uppläggning.** Lätt att lära sig och lätt att minnas när händerna kan rörelsen. Kanten blir mindre polerad än long-tail. Bra för nybörjare och för att lägga upp maskor mitt i ett varv.
+**Stickad uppläggning.** Nya maskor stickas i en befintlig maska. Användbar när du lär dig lägga upp och när maskor ska läggas till under arbetets gång.
 
-**Cable cast-on.** Fastare och mer dekorativ än stickad uppläggning. Mindre elastisk. Användbar till knapphål och kanter som inte behöver töjas.
+**Cable cast-on.** Nya maskor bildas mellan de två föregående maskorna. Ger en relativt fast kant med begränsad töjbarhet, exempelvis till knapphål.
 
-**German twisted, eller old Norwegian.** En long-tail-variant med extra elasticitet. Mycket bra till sockmudddar och resårkanter som ska över en fot eller ett huvud.
+**German twisted, eller old Norwegian.** En long-tail-variant med extra elasticitet. Mycket bra till sockmuddar och resårkanter som ska över en fot eller ett huvud.
 
-**Tubular cast-on.** Skapar en vikt, ihålig kant som går snyggt in i 1x1- eller 2x2-resår. En polerad kant för resårfållar. Mer komplicerad att sätta upp.
+**Tubulär uppläggning (tubular cast-on).** Ger en rundad resårkant med rätt förberedande varv. Följ en instruktion avsedd för 1x1- eller 2x2-resår; en 1x1-uppställning kräver omflyttning av maskor för att bli 2x2.
 
 **Provisorisk uppläggning.** Håller levande maskor som kan plockas upp och stickas åt andra hållet senare. Används i uppifrån-och-ner-sjalar, fållar som viks in och lägen där uppläggningskanten ska bearbetas igen.
 
 **Judy's magic cast-on.** Tå-upp-uppläggning för sockor som ger två parallella maskrader utan söm i tån.
 
-Du behöver inte kunna alla. Många stickare använder long-tail till nästan allt ett tag och plockar sedan upp en eller två specialmetoder när projekten kräver det.
-
 ## Uppläggningsspänning
 
-För tajta uppläggningar låser nederkanten på en tröja eller socka. Kroppen vill slappna av utåt och uppläggningskanten håller emot som ett snöre. För lösa uppläggningar fladdrar och ser slarviga ut. Målet är att kanten ska matcha arbetets naturliga bredd.
+En för stram uppläggning kan begränsa ett annars rätt dimensionerat arbete; en för lös kant kan bölja. Prova uppläggningen tillsammans med några varv i det avsedda maskmönstret.
 
-Två praktiska lösningar när uppläggningen ofta blir för tajt:
+Vid long-tail-uppläggning lämnar du utrymme mellan maskorna i stället för att dra varje ny maska tätt intill den föregående. En grövre sticka eller två stickor tillsammans förstorar öglorna men garanterar inte tillräckligt med garn mellan dem. Prova vid behov en elastisk metod, som German twisted, och kontrollera igen.
 
-1. Lägg upp med en sticka en eller två storlekar större och byt till arbetsstickan på första varvet.
-2. Använd en mer elastisk metod, till exempel German twisted eller tubular, i stället för long-tail.
-
-Att lägga upp för löst är mindre vanligt men händer med vissa handgrepp och garn. Lösningen är oftast att gå ner en stickstorlek bara för uppläggningsvarvet eller använda en fastare metod som cable cast-on.
+Om kanten böljar, justera spänningen eller stickstorleken för just den metoden och gör ett nytt prov. En eller två stickstorlekars ändring är ingen generell lösning.
 
 ## Vanliga uppläggningsantal för standardprojekt
 
-Snabba rimlighetskontroller, inte ersättning för mönstrets siffror. För worsted-garn ligger CYC:s Medium-intervall ungefär på 16-20 maskor per 10 cm, så samma uppläggningsantal kan ge olika färdig bredd beroende på din provlapp.
+Garnets tjocklek ensam ger inget standardantal för disktrasor, halsdukar, halskragar, mössor eller sockor. Välj färdig bredd eller omkrets, ta hänsyn till rörelsevidden och använd rätt stickfasthet samt mönstrets fullständiga formel.
 
-- **Disktrasa:** 36-48 maskor
-- **Halsduk:** 30-50 maskor beroende på bredd
-- **Halskrage:** 100-140 maskor runt, beroende på omkrets och rörelsevidd
-- **Vuxenmössa:** ofta 80-108 maskor runt, beroende på stickfasthet och negativ rörelsevidd
-- **Småbarnsmössa:** ofta 60-84 maskor runt
-- **Babymössa:** ofta 48-76 maskor runt
-- **Vuxensockor, worsted:** 32-40 maskor
-- **Vuxensockor, fingering:** 60-72 maskor
-
-Tröjdelar varierar för mycket för att ett enda intervall ska vara användbart. Det är därför mönster anger separata maskantal per storlek, och därför stickfasthetsbaserad beräkning spelar roll när du ändrar något.
-
-För alla de här är [uppläggningskalkylatorn](/sv/verktyg/upplaggningskalkylator/) den snabbare vägen när stickfastheten är känd.
+[Uppläggningskalkylatorn](/sv/verktyg/upplaggningskalkylator/) ger ett grundantal utifrån dessa mått. Avrundningen till jämnt antal kontrollerar inte resår, mössans minskningar, hälkonstruktion eller plaggets formning.
 
 ## Uppifrån och ner eller nerifrån och upp
 
-För plagg som stickas nerifrån och upp är uppläggningsantalet kroppens omkrets vid fållen. För plagg som stickas uppifrån och ner börjar uppläggningen vid halsen och är mycket mindre.
+För en tröja nerifrån och upp använder du fållens eller det enskilda styckets mått, inte automatiskt bröstomkretsen. För en tröja uppifrån och ner följer du halsringningens konstruktion.
 
-En nerifrån-och-upp-tröja i worsted med 100 cm färdig bröstvidd behöver 200 maskor vid fållen om stickfastheten är 20 maskor per 10 cm. En uppifrån-och-ner-version av samma tröja kanske lägger upp 80 maskor vid halsen och ökar därifrån.
+En rak rundstickad kropp med 100 cm färdig omkrets vid fållen och 20 maskor per 10 cm i fållen ger 20 ÷ 10 × 100 = 200 maskor före mönsteranpassningar. 200 ÷ 2 = 100 cm. Det förutsätter samma stickfasthet och antal i fållen; det bestämmer inte halsringningens antal eller antalet för ett separat fram- eller bakstycke.
 
-Olika startpunkter, samma färdiga plagg. Mönstret avgör vilken beräkning som gäller. Om du designar själv påverkar valet vilken siffra du räknar ut först.
+Enbart ett ändrat uppläggningsantal ändrar inte hela tröjans storlek. Kontrollera också formning, varvfasthet, längder, ärmar och halsringning.
 
 ## FAQ
 
 **Ska jag lägga upp ett udda eller jämnt antal maskor?**
-Det beror på maskbilden. Slätstickning bryr sig inte. Resår och strukturmönster gör det oftast. 1x1-resår vill ha ett jämnt antal, 2x2-resår vill ha en multipel av 4, eller en multipel av 4 plus 2 om båda kanter ska se likadana ut.
+Vanlig rundstickad 1x1-resår behöver ett jämnt antal; 2x2-resår behöver en multipel av 4. Vid stickning fram och tillbaka styr kanterna: 1x1 som börjar och slutar med en rät maska behöver 2n + 1; 2x2 som börjar och slutar med två räta behöver 4n + 2. Lägg till separata kantmaskor bara om mönstret kräver dem och de inte redan räknats in.
 
 **Vad händer om mönstret ger ett uppläggningsantal men min stickfasthet inte stämmer?**
-Det publicerade maskantalet ger en annan bredd än tänkt. Antingen matchar du mönstrets stickfasthet eller räknar om med din egen.
+Mönstrets antal ger då en annan bredd. Uppnå den angivna stickfastheten eller bedöm hela anpassningen, inklusive varvfasthet och formning. Ett nytt uppläggningsantal räcker inte för att ändra hela plaggets storlek.
 
 **Räknas löpknuten som en maska?**
-För long-tail, ja. För de flesta stickade uppläggningar också. För cable cast-on är löpknuten den första maskan. Några metoder hoppar över den. Följ mekaniken i just den uppläggning du använder.
+I vanliga long-tail-, stickade och cable-uppläggningar som börjar med en löpknut räknas knuten på stickan som första maskan. Andra varianter utelämnar knuten eller tar bort en tillfällig knut. Följ den specifika metoden.
 
 **Hur lång ska svansen vara för long-tail-uppläggning?**
-Ungefär tre gånger den planerade uppläggningsbredden, plus lite extra att fästa. För 200 maskor över 100 cm blir det ungefär 300 cm svans. Hellre för lång än för kort. Tar svansen slut mitt i uppläggningen får du börja om.
+En breddmultipel är bara en uppskattning. [Purl Soho](https://www.purlsoho.com/create/long-tail-cast-on/)s long-tail-instruktion föreslår cirka 3,5 gånger bredden: 100 × 3,5 = 350 cm. Lägg till garn för att fästa eller sy. Garn, handlag och teknik påverkar åtgången; exemplet med 200 maskor garanterar ingen bestämd garnlängd.
 
 **Kan jag använda cable cast-on till en elastisk kant som en sockmudd?**
-Inte helst. Cable cast-on är fastare än long-tail och märkbart mindre elastisk. Till sockmudddar och alla kanter som ska över en fot, hand eller huvud är long-tail med större sticka, German twisted eller tubular bättre val.
+Vanlig cable cast-on har begränsad töjbarhet. Testa att socköppningen kan töjas över hälen. En long-tail-uppläggning med tillräckligt maskavstånd, German twisted eller en lämplig tubulär uppläggning är alternativ. En grövre sticka ensam garanterar inte elasticitet.
 
 **Hur lägger jag upp för rundstickning?**
-Lägg upp målomkretsen i maskor, lägg stickan plant för att kontrollera att inget är vridet och slut sedan till en ring. Inga kantmaskor behövs. Vill du stänga det lilla glappet vid skarven, lägg upp en extra maska och minska bort den när du sluter ringen så att slutligt maskantal fortfarande stämmer.
+Använd färdig omkrets och rundstickad stickfasthet, anpassa antalet till mönstret och kontrollera vridning före sammanfogningen. Vanlig sömlös stickning behöver inga sidokantmaskor. Lägg till och ta bort en extra sammanfogningsmaska bara om metoden kräver det.
 
 **Mönstret säger "lägg upp X maskor löst". Hur löst är löst?**
-Så löst att uppläggningskanten töjs lika mycket som arbetets tyg. Den praktiska lösningen är att lägga upp med en sticka en eller två storlekar större än arbetsstickan, eller använda en mer elastisk metod som German twisted.
+Tillräckligt löst för öppningen och tyget som mönstret kräver, utan oönskad böljning. Prova metoden och avståndet mellan maskorna; en ändrad stickstorlek är ett försök, ingen garanti.

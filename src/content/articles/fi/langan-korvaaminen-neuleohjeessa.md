@@ -1,7 +1,8 @@
 ---
 title: "Langan korvaaminen neuleohjeessa"
-description: "Näin vaihdat neuleohjeen langan pilaamatta projektia. Tarkista lankavahvuus, neuletiheys, kuitu, metrit ja riskit."
+description: "Näin arvioit korvaavaa neulelankaa: neuletiheys, neulepinta, kuitu, rakenne ja hoito. Laske lähtömäärä langan pituudesta ja tarkista mallitilkku."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: yarn
 categoryOrder: 6
 tags:
@@ -17,88 +18,94 @@ translationKey: "how-to-substitute-yarn"
 
 Ohjeen lanka on lopetettu. Tai se maksaa 30 euroa kerältä ja budjetti sanoo ei. Tai se on 100 % villaa ja lahjan saaja heittää valmiin työn pesukoneeseen ensimmäisenä päivänä.
 
-Langan korvaaminen on normaalia. Useimmat neulojat tekevät sitä usein. Onnistunut korvaus tarkoittaa, että alkuperäisen ja korvaavan langan neljä asiaa vastaavat toisiaan: lankavahvuus, neuletiheys, kuidun käyttäytyminen ja kokonaismetrit. Jos yksi puuttuu, projekti alkaa liikkua. Jos kaksi puuttuu, kyseessä on jo eri projekti.
+Aloita ohjeen vaatimuksista: valmiista mitoista, mallineuleesta, neulepinnasta ja hoidosta. Lankavahvuus, neuletiheys, kuidun käyttäytyminen ja kokonaismetrit auttavat valitsemaan ehdokkaan. Samat vyötetiedot eivät takaa samanlaista neulepintaa tai istuvuutta.
 
 ## Täsmää ensin lankavahvuus
 
 Tämä on nopein suodatin. DK-ohje ja bulky-korvaaja eivät ole pieni säätö. Se on uudelleensuunnittelu.
 
-Tarkista alkuperäisen ja korvaavan langan Craft Yarn Council -kategoria. Sama kategoria antaa saman lähtöpisteen. Jos toinen lanka on kategorian paksussa päässä ja toinen ohuessa, vaihto voi silti onnistua, mutta varaudu tavallista useampaan mallitilkkuun. [Lankavahvuustaulukko](/fi/tyokalut/lankavahvuudet/) on nopein tapa vertailla, jos vyöte on epäselvä tai puuttuu.
+[Lankavahvuustaulukko](/fi/tyokalut/lankavahvuudet/) auttaa tulkitsemaan luokkien nimiä. [Craft Yarn Councilin](https://www.craftyarncouncil.com/standards/yarn-weight-system) arvot ovat suuntaa antavia: saman luokan langat eivät välttämättä korvaa toisiaan. Kaikissa vyötteissä ei käytetä tätä luokitusta.
 
-Worsted ja aran menevät usein niin paljon päällekkäin, että vaihto on hallittavissa. Light fingering ja heavy fingering samoin. Mutta kokonaisen kategorian hyppääminen tarkoittaa lähes aina puikkokoon vaihtamista, neuletiheyden uudelleen miettimistä ja mahdollisesti silmukkamäärien säätämistä. Se kannattaa vain, jos ohje on niin yksinkertainen, että sitä on helppo muokata.
+Worsted ja aran kuuluvat CYC:n Medium-luokkaan, mutta se ei takaa niiden vastaavuutta. Vertaa ohjeen neulepinnan vaatimuksia ennen vahvuuden muuttamista. Silmukkamäärien muuttaminen on erillistä ohjeen muokkaamista.
 
 ## Täsmää sitten neuletiheys, älä vyötettä
 
-Kaksi samaan vahvuusluokkaan kuuluvaa lankaa voi silti neuloontua eri tavalla. Tiivis, vahvasti kerrattu worsted ja ilmava löyhempi worsted voivat molemmat sanoa "worsted" ja tuottaa samalla puikkokoolla hyvin erilaisen pinnan.
+Kaksi samaan vahvuusluokkaan kuuluvaa lankaa voi neuloutua eri tavalla. Tiivis, napakkakierteinen worsted ja ilmava, löyhemmin kehrätty worsted voivat tuottaa samalla puikkokoolla hyvin erilaisen pinnan.
 
 Vyöte on ehdotus. Mallitilkku on testi.
 
 Neulo korvaavalla langalla ja katso, saatko ohjeen neuletiheyden niin, että neulepinta on sellainen, jota oikeasti haluat käyttää. Oikeat numerot jäykässä ja elottomassa neulepinnassa eivät ole onnistunut korvaus.
 
+Käytä ohjeen mallineuletta ja neulo tilkku työn tapaan tasona tai suljettuna. Vertaa mittoja ohjeen ilmoittamassa käsittelytilassa. Pese ja viimeistele tilkku myös langan hoito-ohjeen sallimalla, valmiille työlle tarkoitetulla tavalla ja mittaa täysin kuivana. Tarkista silmukat ja kerrokset ohjeen mittausmatkalta. Kerrostiheys vaikuttaa mittoihin, kun pituus tai muotoilu määräytyy kerroslukujen mukaan.
+
+Arvioi myös laskeutuvuus, paino, kuvioiden erottuminen ja palautuminen kevyestä venytyksestä. Jos puikkokoon vaihto parantaa yhtä mittaa mutta pilaa pinnan tai toisen mitan, kokeile toista lankaa. [Brooklyn Tweedin tilkkuohje](https://brooklyntweed.com/pages/swatching-101) käsittelee työtä vastaavaa koetilkkua.
+
 ## Huomioi kuidun käyttäytyminen
 
-Lankavahvuus ja neuletiheys kertovat koosta. Kuitu kertoo melkein kaikesta muusta: tunnusta, laskeutuvuudesta, kulumisesta ja pesunkestosta.
+Kuitusisältö on vain osa vertailua. Sekoitussuhteet, kehruu, kertaus, kierre, pintarakenne ja käsittely vaikuttavat myös neuleeseen. [Kuituvertailu](/fi/artikkelit/lankakuidut-vertailussa/) esittelee materiaaleja; arvioi varsinainen korvaava lanka mallitilkusta.
 
-[Kuituvertailu](/fi/artikkelit/lankakuidut-vertailussa/) käsittelee kuidut tarkemmin, mutta langan korvaamisessa tärkeintä on tämä. **Villa** tekee monta asiaa hyvin. Se joustaa ja palautuu. Se pitää palmikot ja pintaneuleet kauniina ja reagoi yleensä hyvin viimeistelyyn. Villa on myös neulottaessa anteeksiantava, koska kuidun pito pitää silmukat hallinnassa ja purkaminen onnistuu ilman että lanka näyttää heti kuluneelta. Jos ohje on suunniteltu villalle ja nojaa sen joustavaan rakenteeseen, vaihtaminen kasvikuituun muuttaa valmista työtä enemmän kuin mallitilkku vihjaa.
+**Villa:** jos malli tarvitsee palautuvaa joustinneuletta tai selkeitä palmikoita, tarkista nämä tilkusta. Pelkkä villan nimi ei takaa kumpaakaan ominaisuutta eikä kerro pesutapaa.
 
-**Puuvilla** on yleinen korvaaja, joka yllättää. Se on samaa paksuutta raskaampaa kuin villa, siinä on lähes olematon jousto ja se kasvaa painovoiman ja pesun myötä. Puuvillapaita roikkuu eri tavalla kuin villapaita, vaikka neuletiheys olisi täydellinen. Puuvilla toimii silti hyvin tiskiräteissä, kesätopeissa ja kaikessa, missä laskeutuvuus on tavoite eikä rakenne.
+**Puuvilla:** älä oleta puuvillakorvaajan käyttäytyvän alkuperäisen villalangan tavoin. Tarkista pestystä tilkusta muodon säilyminen, paino ja laskeutuvuus. Sekoitteet ja ilmavat lankarakenteet arvioidaan erikseen.
 
-**Akryyli** toimii projekteissa, joiden pitää kestää konepesua ja kovaa käyttöä: vauvanpeitot, hyväntekeväisyysneuleet ja lahjat ihmisille, jotka eivät pese käsin. Se ei viimeisty samalla tavalla kuin villa, joten voimakkaaseen pingotukseen nojaavat pitsit voivat jäädä vaisuiksi.
+**Akryyli:** tarkista kyseisen langan pesu-, kuivaus- ja lämpökäsittelyohjeet. Kuitunimi ei yksin takaa kulutuskestävyyttä tai pitsin haluttua muotoa viimeistelyn jälkeen.
 
-**Sekoitteet** helpottavat usein korvaamista, koska ne jakavat eroja. Villa/nylon-sukkalanka käyttäytyy eri tavalla kuin puhdas villa, mutta säilyttää tarpeeksi joustoa samoihin projekteihin. Nylon lisää kestävyyttä kulutuskohtiin muuttamatta luonnetta liikaa.
+**Sekoitteet:** vertaa kuitujen osuuksia ja langan rakennetta. Villa-polyamidilanka ei automaattisesti vastaa puhdasta villaa, eikä polyamidin lisääminen yksin todista projektissa tarvittavaa kestävyyttä.
 
-**Superwash ja tavallinen villa** yllättävät useammin kuin luulisi. Superwash on liukkaampi, venyy ajan myötä enemmän ja voi kasvaa pesussa. Jos alkuperäinen ohje vaatii tarttuvaa, kimmoisaa villaa, joka pitää rakenteen, superwash-korvaaja voi toimia aluksi ja roikkua myöhemmin.
+**Superwash ja käsittelemätön villa:** tarkista valmistajan hoito-ohje ja pesty tilkku. Kaikki superwash-langat eivät veny samalla tavoin, eikä käsitelty villa automaattisesti korvaa käsittelemätöntä. [DROPSin hoito-ohjeet](https://www.garnstudio.com/yarn-care.php?cid=11) havainnollistavat lankakohtaisen hoidon merkitystä.
 
 ## Laske metrit, älä kerien määrää
 
-Ohje sanoo 5 kerää. Se luku merkitsee vain, jos korvaava lanka on täsmälleen samankokoisissa kerissä.
+Ohje sanoo 5 kerää. Tarkista alkuperäisen ja korvaavan kerän pituus ennen saman kerämäärän käyttämistä. Sama keräpaino ei tarkoita samaa pituutta.
 
-Kerro ohjeen kerämäärä alkuperäisen kerän metrimäärällä. Se on tarvitsemasi kokonaismäärä.
+Kerro ohjeen kerämäärä alkuperäisen kerän metrimäärällä. Tulos on suositellun ostomäärän sisältämä pituus, ei mitattu kulutus. Jos ohje antaa tarvittavan pituuden suoraan, käytä sitä. Pituusmuunnos on lähtöarvio, jonka oletuksina ovat vastaava tiheys, neulepinta ja muuttumattomat mitat. Se ei todista korvaavan langan kuluvan täsmälleen samoin. [DROPSin laskentaohje](https://www.garnstudio.com/lesson.php?id=14&cid=11) näyttää muunnoksen.
 
-**Esimerkki:** 5 kerää, 220 jaardia per kerä = 1100 jaardia yhteensä, eli noin 1006 m. Jos korvaavassa langassa on 164 jaardia eli noin 150 m per kerä, jaa 1100 luvulla 164 ja pyöristä ylöspäin. Seitsemän kerää.
+**Esimerkki:** alkuperäisessä jaardimerkinnässä 5 kerää × 220 yd = 1 100 yd eli 1 005,84 m. Korvaavan kerän 164 yd on 149,9616 m, noin 150 m. Laske pyöristämättömillä arvoilla: 1 100 ÷ 164 ≈ 6,71 → 7 kerää. Niissä on 1 148 yd eli 1 049,7312 m, noin 1 050 m. Pyöristyksestä jää 48 yd eli 43,8912 m yli lähtömäärän. Keräpainoja ei ole annettu, joten kokonaisgrammoja ei voi laskea.
 
-Kun kuitusisältö muuttuu, metrit merkitsevät vielä enemmän. Sama paino per kerä voi peittää hyvin erilaisen määrän lankaa.
+Vertaa juoksevuutta samalla painopohjalla: esimerkiksi 100 m / 50 g = 200 m / 100 g. Sama metrimäärä 100 grammaa kohti ei kuitenkaan takaa samaa paksuutta tai neulepintaa. Ostomäärää varten jaa tarvittava pituus korvaavan kerän todellisella pituudella.
 
-[Lankamuunnin](/fi/tyokalut/lankamuunnin/) voi antaa projektityyppiin, kokoon ja lankavahvuuteen perustuvan langanmenekin tarkistusluvun, mutta se ei korvaa ohjeen ilmoittamaa kokonaismetrimäärää, korvaavan langan metrimäärää per kerä eikä uutta mallitilkkua, jos neuletiheys muuttuu.
+Tarkista ennen lisävaraa, mitä ohje jo varaa tilkkuun ja viimeistelyyn. Pyöristysylijäämä ei takaa riittävää varaa, eikä yksi lisäkerä tai vakio prosentti sovi joka vaihtoon. Laske ja pyöristä jokainen väri erikseen.
+
+[Langanmenekkilaskuri](/fi/tyokalut/lankamuunnin/) — Nimettyjen ohjeiden vertailumäärät, ei henkilökohtainen menekkiennuste. Valitse työ, nimetyn ohjeen koko ja yksikkö. Tulos on kyseisen ohjeen vertailumäärä, ei oman työsi menekkiennuste.
 
 ## Milloin korvaaminen on riskialtista
 
-Kaikki projektit eivät siedä langanvaihtoa yhtä hyvin. Tämä kannattaa sanoa ääneen ennen kuin ostat kahdeksan kerää korvaajaa.
+Käytännön riski riippuu siitä, minkä pitää säilyä ennallaan, ei vain työn nimestä.
 
-**Matala riski:** huivit, hartiahuivit, peitot ja tiskirätit. Noin 2 silmukan heitto 10 cm matkalla muuttaa valmista kokoa vähän. Harva huomaa. Näissä korvaaminen onnistuu useimmiten.
+**Vähemmän istuvuusherkät työt:** huivit, hartiahuivit, peitot ja tiskirätit sallivat joskus joustoa mittoihin. Tarkista silti neulepinta ja määrä: tiheysero ei automaattisesti ole pieni tai huomaamaton.
 
-**Keskiriski:** pipot, kaulurit ja laukut. Istuvuus ja rakenne merkitsevät enemmän, mutta pieniä eroja voi vielä sietää. Hieman liian iso pipo ei pienene luotettavasti pingottamalla. Tarkista neuletiheys uudelleen tai anna pipo isopäisemmälle.
+**Istuvuutta tai rakennetta tarvitsevat työt:** pipot, kaulurit ja laukut tarvitsevat sopivat mitat, jouston tai napakkuuden. Hieman liian iso pipo ei pienene luotettavasti pingottamalla. Tarkista neuletiheys uudelleen tai anna pipo isopäisemmälle.
 
-**Korkea riski:** istuvat vaatteet, sukat ja sormikkaat. Pienet neuletiheyserot moninkertaistuvat kymmenissä senteissä, ja kuitu vaikuttaa yhtä paljon kuin silmukkamäärä. Väärä lanka voi tehdä paidasta käyttökelvottoman, vaikka lasku näytti oikealta. Tee mallitilkku kunnolla ja katso sitä rehellisesti.
+**Istuvat vaatteet:** sukat, sormikkaat ja vartalonmyötäiset vaatteet tarvitsevat tarkan tiheyden ja palautuvuuden arvioinnin. Silmukkatiheys ei yksin riitä, jos kerrosluvut määräävät pituuden tai muotoilun.
 
-**Erittäin korkea riski, melkein älä tee:** projektit, jotka on suunniteltu tietyn kuituefektin ympärille. Mohairin halo. Silkin kiilto. Tarttuva villa kirjoneuleeseen, jossa silmukoiden pitää lukittua. Tietty laskeutuvuus, joka toimii vain siinä langassa. Nämä voivat muuttua luonteeltaan täysin, vaikka neuletiheys osuu. Jos suunnittelija on valinnut langan muusta syystä kuin vahvuuden ja värin takia, korvaava lanka taistelee jo itse suunnittelua vastaan.
+**Tietty lankavaikutelma:** mohairin pörröisyys, silkin kiilto tai erityinen pintarakenne ja laskeutuvuus vaativat myös näkö- ja tuntumavertailun. Sama tiheys ei tuota näitä vaikutelmia. Käytä suunnittelijan mahdollisia lankakuvauksia apuna.
 
 ## Korvaamisen tarkistuslista
 
 Ennen ostamista:
 
-1. Sama lankavahvuus kuin ohjeen langassa. Tästä ei tingitä.
-2. Vyötteen neuletiheysalue osuu lähelle ohjeen neuletiheyttä. Tarpeeksi lähelle mallitilkkua varten.
-3. Kuitu käyttäytyy samankaltaisesti. Jousto, laskeutuvuus, viimeistely.
-4. Kokonaismetrit laskettu metreistä tai jaardeista, ei kerämäärästä.
-5. Yksi ylimääräinen kerä, jos saat sen. Värjäyserät loppuvat.
+1. Käytä samankaltaista lankavahvuutta esivalintana, älä sopivuuden takeena.
+2. Vertaa vyötteen tiheyttä ja puikkosuositusta ohjeen mallineuleeseen ja pintavaatimuksiin.
+3. Tarkista koostumus, rakenne, pinta ja hoito sekä mallin tarvitsemat ominaisuudet.
+4. Muunna alkuperäinen määrä pituudeksi ja jaa korvaavan kerän pituudella.
+5. Suunnittele lisävara erikseen. Tarkista jo sisältyvät varat ja värjäyserän saatavuus.
 
-Ostamisen jälkeen:
+Näytelangan ostamisen jälkeen:
 
-6. Neulo mallitilkku ohjeen mallineuleessa suositelluilla puikoilla.
-7. Pese ja viimeistele mallitilkku samalla tavalla kuin valmis työ. Tätä kohtaa ohitetaan jatkuvasti. Älä ohita.
-8. Mittaa neuletiheys ja katso neulepintaa. Jos sekä numerot että tuntu ovat oikeat, jatka. Jos numerot osuvat mutta neulepinta on väärä, kokeile toista puikkokokoa tai toista lankaa.
+6. Neulo mallitilkku ohjeen mallineuleessa, työn tapaan tasona tai suljettuna. Aloita suositelluilla puikoilla.
+7. Pese ja viimeistele langalle sallitulla, valmiille työlle tarkoitetulla tavalla. Anna kuivua täysin.
+8. Vertaa silmukka- ja kerrostiheyttä ohjeen käsittelytilassa sekä arvioi pinta. Vaihda puikkoja vain, jos sekä tiheys että pinta pysyvät sopivina; muuten valitse toinen lanka.
 
 ## FAQ
 
 **Voinko korvata eri vahvuisella langalla, jos vaihdan puikkokokoa?**
-Teknisesti joskus, mutta se muuttaa neulepinnan luonteen. Paksumpi lanka pienillä puikoilla muuttuu tiiviiksi ja jäykäksi. Ohuempi lanka isoilla puikoilla muuttuu löysäksi ja avoimeksi. Joissakin projekteissa se sopii, toisissa se tuhoaa suunnittelun idean, varsinkin vaatteissa, joissa laskeutuvuus ja tuntu ratkaisevat.
+Joskus, mutta puikkokoko yksin ei tee eri langoista vastaavia. Tarkista sekä tiheys että käyttökelpoinen neulepinta. Numeroiden pakottaminen voi tehdä pinnasta liian tiiviin tai avoimen. Jos silmukka- tai kerrosmääriä pitää muuttaa, kyse on ohjeen muokkaamisesta tämän tarkistuslistan ulkopuolella.
 
 **Ohjeen lanka on lopetettu. Miten löydän hyvän korvaajan?**
-Ravelryn lankatietokanta on paras lähtökohta, koska sillä voi vertailla vahvuutta, kuitua ja neuletiheysalueita rinnakkain. Hyvä lankakauppa auttaa myös, jos tuot tarkat tiedot: ohjeen neuletiheys, kokonaismetrit ja kuitusisältö. Jos kysyt vain "mikä olisi samanlainen lanka", ilman näitä numeroita myös hyvä myyjä joutuu arvaamaan.
+Ravelryn lankatietokannasta voi etsiä vahvuus-, koostumus- ja neuletiheystietoja. Varmista tarkka lankaversio ja ajantasaiset tiedot valmistajalta: tietokantamerkintä ei ole yhteensopivuustesti. Lankakauppa voi auttaa, kun tuot ohjeen tiheyden, mallineuleen, tarvittavan pituuden ja alkuperäisen langan tiedot.
 
 **Pitääkö säiemäärän täsmätä?**
-Ei. Ply kertoo rakenteesta, ei paksuudesta. 2-ply voi olla paksumpi kuin 4-ply riippuen siitä, miten säikeet on kehrätty. Täsmää neuletiheys, vahvuusalue ja kuidun käyttäytyminen.
+Ei välttämättä, mutta rakenne merkitsee. Kaksisäikeisessä kerratussa langassa kaksi kehrättyä säiettä on kierretty yhteen; määrä ei yksin kerro paksuutta. Alueellinen nimitys kuten 4-ply voi tarkoittaa vahvuusluokkaa, kuten [Ravelryn taulukossa](https://www.ravelry.com/help/yarn/weights). Vertaa myös kierrettä, pintaa, kuvioiden erottumista ja palautuvuutta. Tämä on eri asia kuin neulominen usealla erillisellä langalla yhtä aikaa.
 
 **Entä käsinvärjätty ja teollisesti värjätty lanka?**
-Käsinvärjätyssä langassa on usein enemmän näkyvää vaihtelua kerien välillä ja joskus yhden kerän sisällä. Isoissa projekteissa kerien vuorottelu kahden kerroksen välein sekoittaa vaihtelun kankaaseen sen sijaan, että keränvaihtoon syntyisi kova väriraja. Se on lisätyötä, mutta kaiken pipoa isomman kohdalla yleensä vaivan arvoista.
+Vertaa keriä keskenään ja noudata värjääjän ohjetta. Vuorottelu voi jakaa värivaihtelua, mutta vaihtoväli riippuu langasta ja siitä, neulotko tasona vai suljettuna. Kokeile tilkussa: erojen häviämistä ei voi luvata. Myös saman käsinvärjätyn erän kerät voivat erota toisistaan.

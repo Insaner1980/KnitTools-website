@@ -2,6 +2,7 @@
 title: "Sticka sockor: sockmönstrets delar"
 description: "Förstå delarna i en stickad socka och hur sockmönster fungerar. Uppifrån eller tå upp, hältyper, garnval och vad som gör sockstickning annorlunda."
 publishDate: 2026-05-01
+updatedDate: 2026-10-18
 category: techniques
 categoryOrder: 13
 tags:
@@ -20,13 +21,15 @@ Sockor ser avskräckande ut eftersom de innehåller tekniker du inte möter i ha
 
 En klassisk socka uppifrån och ner har mudd, skaft, hällapp, hälvändning, kil, fot och tå. Tå-upp-sockor använder samma fotanatomi i annan ordning. När du förstår de delarna känns vilket sockmönster som helst mindre mystiskt.
 
+Guiden hjälper dig att läsa de olika delarna. Följ ett fullständigt sockmönster för storlekens hälvändning, formningsvarv och avslut.
+
 ## Sockans delar
 
-De flesta sittande sockor byggs av samma zoner, även när konstruktionen ändras:
+De flesta formade sockor byggs av samma zoner, även när konstruktionen ändras:
 
-**Mudd.** Överkanten, oftast resår (1 rm, 1 am eller 2 rm, 2 am) för att greppa benet och hålla sockan uppe. Ofta 2,5-5 cm för ankelsockor, längre för crew-sockor och knästrumpor. Resåren är inte bara dekoration. Slätstickning vid överkanten skulle rulla ned.
+**Mudd.** Överkanten, oftast resår (1 rm, 1 am eller 2 rm, 2 am) för att greppa benet och hålla sockan uppe. En mudd på 2,5–5 cm är ett alternativ; välj höjd efter modellen. Resåren är inte bara dekoration. Slätstickning vid överkanten skulle rulla ned.
 
-**Skaft.** Från mudd till häl. Det kan vara slätstickat, resårstickat eller mönstrat. Längden går från nästan inget på ankelsockor till många centimeter på crew-sockor, och ännu mer på knästrumpor. Mönstrade skaft, med flätor, spets eller vandrande maskor, visar upp garnet och bryter den långa sträckan av enkel stickning.
+**Skaft.** Från mudd till häl. Det kan vara slätstickat, resårstickat eller mönstrat. Längden går från nästan inget på ankelsockor till många centimeter på halvhöga sockor, och ännu mer på knästrumpor. Mönstrade skaft, med flätor, spets eller vandrande maskor, visar upp garnet och bryter den långa sträckan av enkel stickning.
 
 **Häl.** Den formade delen som omsluter hälen. Det är här konstruktionen blir intressant och där de flesta skillnader mellan sockmönster finns.
 
@@ -34,19 +37,19 @@ De flesta sittande sockor byggs av samma zoner, även när konstruktionen ändra
 
 **Fot.** Tuben som täcker sula och ovansida. Oftast slätstickning på sulan, med mönstret fortsatt på ovansidan. Längden bestäms av fotmåttet, inte av ett fast varvantal. Prova sockan eller mät under arbetets gång.
 
-**Tå.** Formas med minskningar för att stänga tuben. Avslutas oftast med maskstygn, Kitchener stitch, som ger en osynlig skarv, eller en hopdragen tå där de sista maskorna dras ihop med arbetsgarnet.
+**Tå.** Uppifrån formas tån med minskningar; från tån börjar den vanligen med ökningar. En tå som stickas uppifrån kan avslutas med maskstygn, Kitchener stitch, som ger en osynlig skarv, eller en hopdragen tå där de sista maskorna dras ihop med arbetsgarnet.
 
 ## Uppifrån och ner jämfört med tå upp
 
 Två riktningar. Mönstret avgör vilken som används.
 
-**Uppifrån och ner** börjar vid mudden och arbetar mot tån. Den traditionella metoden. Lägg upp vid mudden, sticka skaftet, vänd hälen, plocka upp kilmaskor, sticka foten, forma tån och sy ihop med maskstygn.
+**Uppifrån och ner** börjar vid mudden. I en socka med hällapp stickas mudd och skaft runt, hällapp och hälvändning fram och tillbaka. Plocka sedan upp kilmaskor och återgå till rundstickning. Minska kilen enligt mönstret, sticka foten, minska för tån och avsluta med den angivna metoden.
 
-Fördelar: väldokumenterad hälkonstruktion, intuitiv riktning och en resåruppläggning vid mudden som är förlåtande. Long-tail-uppläggning med en sticka en storlek större fungerar ofta bra. Nackdelar: det är svårare att använda varenda meter eftersom tån kommer sist. Provningar hjälper ändå, särskilt när hälen och kilen är klara, men om garnet tar slut nära tån finns ingen ren väg att lägga till längd utan att repa upp.
+Du lär dig delarna i den ordningen. Kontrollera att uppläggningskanten kan töjas över hälen och sitter bekvämt runt benet. En grövre uppläggningssticka garanterar inte tillräcklig elasticitet. Spara garn till båda sockornas fötter och tår, eftersom de stickas sist.
 
-**Tå upp** börjar vid tån och arbetar mot mudden. Lägg upp med en särskild metod, där Judy's Magic Cast On är vanligast och Turkish cast on är en nära släkting. Sticka foten, gör hälen, sticka skaftet och maska av elastiskt, till exempel med Jeny's Surprisingly Stretchy Bind-Off eller en sydd tubular-avmaskning.
+**Tå upp** börjar med en sluten tåuppläggning, till exempel Judy’s Magic Cast On eller turkisk uppläggning. Öka till fotens angivna maskantal, sticka foten och följ mönstrets hälkonstruktion. En tå-upp-häl med hällapp kan ha kilökningar före hälvändningen och hällappen. Sticka sedan skaft och mudd och maska av elastiskt.
 
-Fördelar: prova medan du stickar, använd nästan hela garnmängden men spara tillräckligt för den valda avmaskningen och för att fästa garnänden, och tån är stängd från början så du slipper sy ihop den i slutet. Sydda och tubular-avmaskningar kan kräva en betydligt längre garnände än en enkel avmaskning. Nackdelar: tå-upp-hälar är andra tekniker än uppifrån-ner-hälar, den magiska uppläggningen kräver några försök för att bli snygg och en elastisk avmaskning vid mudden kan lätt bli för tajt eller knölig innan tekniken sitter.
+Båda konstruktionerna går att prova under arbetet. Med tå upp kan skaftlängden anpassas till garnet som är kvar, men fördela garnet mellan paret och spara till avmaskning och trådfästning på båda sockorna. Sydd eller tubulär avmaskning kan kräva en lång garnände. Vissa hälar fungerar åt båda håll; ett mönster för hällapp uppifrån kan däremot inte bara läsas baklänges.
 
 Ingen riktning är bättre. De flesta sockstickare provar båda och väljer favorit. Mönster anger vilken metod de använder, och att byta riktning betyder att hälen och uppläggningen behöver göras om. I praktiken betyder det oftast att välja ett annat mönster.
 
@@ -54,27 +57,34 @@ Ingen riktning är bättre. De flesta sockstickare provar båda och väljer favo
 
 Den del som skapar mest variation och flest åsikter bland sockstickare.
 
-**Hällapp och kil.** Klassiker. En rektangulär lapp stickas fram och tillbaka över hälften av maskorna, ofta ungefär lika många varv som det finns maskor på lappen. Sedan vänds hälen med kortvarv under hälen, vilket skapar en kupad form. Maskor plockas upp längs hällappens sidor för att skapa kilen, som minskas tillbaka till fotens omkrets över flera varv. Slitstark, sitter bra och är praktisk att förstärka. Många första-sockor använder den här hälen.
+**Hällapp och kil.** Lappen stickas fram och tillbaka över hälmaskorna, ofta hälften av sockans maskor. Maskorna på fotens ovansida vilar på en sticka, kabel eller tråd. Lappens bredd och varvantal följer mönstret och önskat häldjup; lika många maskor som varv är ingen allmän regel. Hälvändningen formar undersidan med kortvarv och minskningar. Följ just den hälens vändpunkter och återstående maskantal.
 
-Själva hällappen stickas ofta i lyfta maskor. Lyft 1 avigt med garnet bakom arbetet, sticka 1 rät, upprepa. De lyfta maskorna skapar ett tätare tyg precis där sockor brukar nötas först. Eye of partridge är en variant där de lyfta maskorna förskjuts vartannat rätsidevarv och ger en annan struktur.
+En vanlig förstärkt hällapp stickas över ett **jämnt maskantal**, med rätsidan mot dig från början:
 
-**Kortvarvshäl.** Ingen lapp, ingen kil. Formas helt med kortvarv som skapar en kupa. Den är snabbare, fungerar åt båda riktningar och använder färre maskor totalt. Passformen är lite annorlunda: mindre hälomslutning och grundare kupa. Fötter med hög vrist kan uppleva kortvarvshäl som för tajt.
+1. Rätsidevarv: upprepa [lyft 1 maska avigt med garnet bakom arbetet, sticka 1 rät] varvet ut. Vänd.
+2. Avigsidevarv: lyft första maskan avigt med garnet framför arbetet, sticka resten avigt. Vänd.
 
-Kortvarv finns i flera varianter. Wrap and turn är traditionell men lämnar omslag som behöver plockas upp. German short rows drar upp föregående maska till en dubbelmaska, vilket många tycker blir renare. Shadow wraps och japanska kortvarv är andra alternativ. Valet ändrar sällan passformen; det ändrar mest utseendet på avigsidan och hur pillig tekniken känns.
+Maskorna på fotens ovansida vilar under båda varven. Maskantalet ändras inte. Upprepa till mönstrets längd eller varvantal och sluta på den sida som anges före hälvändningen. Den lyfta första maskan bildar en lång kantmaska, normalt en per två varv. Detta är hällappens struktur, inte instruktionerna för hälvändningen. Eye of partridge har en annan rapport med förskjutna lyfta maskor.
 
-**Afterthought heel och andra.** Det finns många varianter. Afterthought heel stickas sist: en bit restgarn placeras där hälen ska vara, foten stickas rakt igenom, sedan tas restgarnet bort och hälen stickas i de levande maskorna. Det är användbart med självstripande garn där du inte vill att en hällapp bryter randningen. Alla hältyper sitter lite olika. För första paret är hällapp och kil mest förlåtande och bäst dokumenterat.
+Efter hälvändningen plockas maskor upp längs båda kanterna, och de vilande maskorna på ovansidan stickas när arbetet återgår till rundstickning. Räkna kvarvarande hälmaskor, båda sidornas upplockade maskor, ovansidans maskor och eventuella extra hörnmaskor. Hörnmaskorna måste tas bort eller räknas in i kilminskningarna. En enkel minskning på vardera sidan om ovansidan minskar totalen med två: fyra maskor blir två. Behåll ovansidans mönster och följ angivet minskningsintervall och slutantal för foten, som inte alltid är samma som uppläggningsantalet.
+
+**Kortvarvshäl.** En grundvariant stickas fram och tillbaka över en del av maskorna medan ovansidans maskor vilar. Hälens maskor tas sedan med igen så att kupan blir färdig. Ingen separat hällapp eller kil ingår, men vissa varianter lägger till en kil. Djup och passform beror på mönstret; en hög vrist kan behöva extra utrymme.
+
+Wrap and turn, tyska kortvarv, shadow wraps och japanska kortvarv hanterar vändpunkterna på olika sätt. En lindning stickas tillsammans med sin maska när metoden anger det. En tysk dubbelmaska räknas fortfarande som **en maska**; dess två maskben stickas tillsammans som en när du kommer till den. De extra öglorna är inte vanliga ökningar. Följ metodens ordning; vid byte av teknik kan vändpunkten behöva flyttas.
+
+**Häl som stickas i efterhand.** I varianten med restgarn stickas de avsedda hälmaskorna med restgarn, flyttas tillbaka till vänster sticka och stickas igen med arbetsgarnet innan tuben fortsätter. Senare sätts de levande maskorna ovanför och nedanför restgarnet på stickor innan restgarnet tas bort. Sticka hälen och avsluta enligt mönstret. Den planerade varianten kallas också peasant heel eller forethought heel. En egentlig afterthought heel kan kräva att man klipper upp en omarkerad tub och behöver egna instruktioner. Tuben kan bevara det självrandande garnets randföljd.
 
 ## Garn till sockor
 
-Sockgarn är en egen kategori. Ofta är det fingering, CYC kategori 1, i en blandning av ull och nylon. Vanliga blandningar är 75/25 och 80/20. Ull ger värme och återhämtning. Nylon ger slitstyrka vid häl och tå, där nötningen är störst. Rena ullsockor kan vara fina, men de kräver ofta försiktigare användning och tvätt.
+Sockgarn beskriver användningen, inte en enda garntjocklek. Fingering är ett alternativ, men alla fingeringgarner passar inte till slitstarka sockor. Ull kan ge värme och spänst, medan polyamid kan förbättra slitstyrkan. [DROPS Fabel](https://www.garnstudio.com/yarn.php?show=drops-fabel&cid=12) innehåller exempelvis 75 % ull och 25 % polyamid. Fiber, tvinning, stickfasthet och passform påverkar slitaget; fibersammansättningen garanterar ingen viss livslängd.
 
-Fingering är standard eftersom det ger ett tunt, bekvämt tyg som får plats i skor. DK eller worsted ger tjockare sockor som kräver rymligare skor. Vissa gillar grova hemmaraggor i bulky-garn, men det är mer soffsockor än vardagssockor i skor.
+Fingering kan ge ett tunt tyg som ryms i skor. DK, worsted och bulky kan ge tjockare sockor eller innesockor. Kontrollera tygets tjocklek och utrymmet i skorna.
 
-**Superwash är vanligt** eftersom sockor tvättas ofta och många stickare vill kunna maskintvätta dem. Obehandlad ull går också, men kräver skonsammare tvätt och mer kontroll över vattentemperatur och bearbetning.
+**Följ banderollens skötselråd.** Superwash innebär inte samma tillåtna maskintvätt eller torktumling för alla garner. Tvätta och torka både provlapp och sockor enligt tillverkaren.
 
 **Handfärgade och självstripande garner** är en egen sockvärld. Handfärgade härvor kan skilja sig något mellan färgbad och ibland även inom samma färgbad, vilket spelar roll om två sockor ska matcha. Vissa stickare växlar mellan två nystan vartannat varv för att blanda variationen. Självstripande garn är färgat i långa färgsektioner som bildar ränder av sig själva, men ränderna möts bara om båda sockorna börjar på samma punkt i färgrapporten.
 
-**Garnåtgång:** många vuxensockor i fingering använder ungefär 320-365 m, och många sockgarnsnystan innehåller cirka 365-400 m. Större fötter, längre skaft, flätor och tät flerfärgsstickning äter snabbt upp marginalen. Kontrollera mönstrets garnåtgång innan du antar att ett nystan räcker.
+**Garnåtgång:** kontrollera mängden för din storlek, skaftlängd och ditt garn i det valda mönstret, och om den gäller en socka eller ett par. Nystanstorleken varierar: Fabel har cirka 205 m per 50 g, så två nystan ger cirka 410 m i 100 g. Det är inköpt mängd, ingen garanti att den räcker till alla par. Räkna också med provlapp och garn som går åt för att passa in ränder.
 
 ## Stickor till sockor
 
@@ -82,11 +92,11 @@ Sockor är små tuber, så du behöver strumpstickor, ett set med 4 eller 5 stic
 
 Strumpstickor är den traditionella metoden. Maskorna delas över 3 eller 4 stickor och stickas med en fjärde eller femte. Stickorna kan peta i soffor och fastna i väskor. En del älskar rytmen, andra tycker att de är bökiga.
 
-Magic loop använder en lång rundsticka, ofta 80 cm eller längre, där kabeln dras ut så maskorna delas i två halvor. En sticka att hålla reda på, och inga stegar vid stickövergångarna om du är noggrann. De flesta mönster kan stickas på magic loop eller strumpstickor så länge du förstår hur maskorna delas.
+Magic loop använder en lång rundsticka, ofta cirka 80 cm eller längre, **mätt från spets till spets**. Det är längden, inte stickans diameter. Den följsamma kabeln dras ut mellan maskgrupperna. Undvik att sträcka maskorna vid övergångarna; metoden förhindrar inte automatiskt lösa maskstegar.
 
-Två rundstickor är en mellanväg. En sticka håller maskorna på ovansidan, den andra håller maskorna på undersidan. Mindre stickjonglering än strumpstickor, mindre kabelhantering än magic loop.
+Med två rundstickor av samma tjocklek håller varje sticka en del av sockans maskor. Sticka dessa med **samma rundstickas båda spetsar**, medan den andra vilar. Håll reda på hälens och ovansidans gränser även om de inte sammanfaller med stickbytena.
 
-Vanlig stickstorlek för fingering-sockgarn är 2,25-3,25 mm, beroende på handlag. [Sticka provlapp](/sv/artiklar/sticka-provlapp-steg-for-steg/) för att hitta din. Socktyg ska vara tätare än vanlig slätstickning eftersom sockor utsätts för friktion och kroppsvikt. Många fingering-sockmönster ligger runt 28-36 maskor per 10 cm.
+Välj stickstorlek efter mönstrets mask- och varvfasthet och ett lämpligt socktyg. [Sticka en provlapp](/sv/artiklar/sticka-provlapp-steg-for-steg/) runt, tvätta och torka enligt banderollen och mät utan att sträcka den. En viss stickstorlek eller banderollens stickfasthet bestämmer inte alla sockors passform.
 
 ## Kunskaper du behöver innan du börjar
 
@@ -97,7 +107,7 @@ Sockor samlar flera tekniker:
 - **Hälkonstruktion** (kortvarv eller hällapp)
 - **Plocka upp maskor** (till kilen, se [guiden till att plocka upp maskor](/sv/artiklar/plocka-upp-maskor-langs-stickad-kant/))
 - **Minskningar** (tåformning: 2 rm tillsammans och ssk)
-- **Maskstygn/Kitchener stitch** (för att sy ihop tån, eller hopdragen tå som enklare alternativ)
+- **Maskstygn/Kitchener stitch** (för att sy ihop tån, eller det avslut som tåformen kräver)
 
 Om du har [stickat en mössa](/sv/artiklar/sticka-mossa-metoder-for-alla-nivaer/) runt och kan göra enkla minskningar har du det mesta du behöver. Hälen är den nya delen, och första gången är det värt att lära sig från en video. Skrivna instruktioner för hälvändning kan kännas ogenomskinliga tills du har sett den fysiska rörelsen. Kortvarven eller hälvändningsvarven är där många fastnar första gången.
 
@@ -105,9 +115,13 @@ Om du har [stickat en mössa](/sv/artiklar/sticka-mossa-metoder-for-alla-nivaer/
 
 Använd det mått som mönstret efterfrågar. Fotomkretsen mäts normalt runt fotens bredaste del, ofta runt trampdynan strax bakom tårna. Mät fotlängden från hälens baksida till längsta tåns spets. Vissa sockkonstruktioner behöver dessutom ett diagonalmått runt hälen och fotens ovansida eller något annat konstruktionsspecifikt mått. De flesta mönster anger färdig sockomkrets och låter dig välja storlek efter fotomkrets.
 
-Färdig sockomkrets är vanligen mindre än foten, negativ rörelsevidd, ofta runt 10 procent för en enkel elastisk socka. Socktyget behöver krama foten för att sitta kvar. En socka med samma omkrets som foten kan sacka. En för liten socka blir obekväm och kan nötas fortare.
+Mät också benet där mudd och skaft ska sitta, särskilt på höga sockor. Mudden måste kunna töjas över hälen när sockan tas på.
 
-Fotlängden beror på tåformen eftersom olika tåminskningar lägger till olika mycket längd. För många kilformade tår börjar tåminskningen ungefär 5 cm före önskad färdig fotlängd. Prova sockan, eller mät mot en socka som sitter bra, innan du börjar tån.
+Färdig sockomkrets är tygets omkrets i vila, inte fotmåttet eller sockans bredd när den ligger platt. En elastisk socka stickas ofta med negativ rörelsevidd, men mängden beror på garn, struktur och användare. Om mönstret anger 10 % negativ rörelsevidd multiplicerar du fotomkretsen med 0,90. Kontrollera maskantalet mot den tvättade provlappen och räkna om färdig omkrets efter avrundning. Resår med 1 rm, 1 am runt kräver ett maskantal delbart med 2; 2 rm, 2 am kräver delbarhet med 4. Skaftmönstret och hälen kan ställa fler krav. Ändra inte uppläggningsantalet utan att kontrollera resten av mönstret.
+
+På en socka uppifrån mäter du foten från **hälens baksida**, inte från kilens eller hällappens slut. Börja tån vid önskad färdig fotlängd minus den längd mönstrets tå lägger till. Cirka 5 cm är bara ett möjligt tåutrymme; formningsvarven och varvfastheten avgör längden. På tå-upp-sockor ingår tån redan i måttet. Börja kil och häl där den konstruktionens mönster anger. Längd och omkrets är olika storleksval.
+
+Följ tåns indelning, minskningsvarv och mellanvarv. Fyra enkla minskningar tar bort fyra maskor på ett varv. Stanna vid angivet antal och fördelning: en tå med maskstygn har vanligen två lika stora grupper levande maskor, medan en hopdragen tå behöver det lilla slutantal som formen kräver. Maskstygn förenar levande maskor och är inte vanlig avmaskning. Byt inte avslutningsmetod vid ett godtyckligt antal maskor.
 
 ## Andra sockan-syndromet
 
@@ -118,19 +132,19 @@ Vissa motarbetar det genom att sticka två samtidigt, två sockor parallellt på
 ## FAQ
 
 **Är sockor svåra att sticka?**
-De enskilda teknikerna är inte svåra. Hälen kräver noggrann mönsterläsning första gången. Efter ett par blir det rutin. Många sockstickare tycker att det blir meditativt när mönstret sitter i kroppen, vilket är en anledning till att vissa får många par.
+Sockor kombinerar flera tekniker. Hälen kräver noggrann mönsterläsning, och vanan kommer med övning. Den behöver inte sitta efter ett enda par.
 
 **Kan jag sticka sockor på raka stickor?**
-Inte egentligen. Sockor är tuber. Du kan sticka plana delar och sy ihop dem, men sömmarna ger obekväma åsar på insidan av skon. Rundstickad konstruktion rekommenderas starkt. Om raka stickor är ditt enda alternativ är ett annat första projekt bättre.
+Ja, med ett mönster för sockor som stickas fram och tillbaka och sys ihop. Sömmens placering och tjocklek påverkar komforten i skor. Ett rundstickat mönster behöver anpassas innan det kan stickas plant.
 
 **Hur vet jag vilken storlek jag ska sticka?**
-Mät fotens omkrets vid bredaste punkten, trampdynan. Sockans färdiga omkrets bör vara ungefär 10 procent mindre, negativ rörelsevidd, eftersom tyget töjer sig runt foten. De flesta mönster anger storlekar utifrån det måttet. Om foten hamnar mellan två storlekar, välj mindre för tajtare passform eller större om fötterna svullnar under dagen.
+Mät runt trampdynan och från hälens baksida till längsta tån. Jämför med mönstrets kroppsmått, färdiga mått och rörelsevidd. Skostorlek eller ålder anger inte fotbredd eller benomkrets. Mellan storlekar behöver du kontrollera elasticitet samt utrymme för häl och vrist, inte automatiskt välja den mindre.
 
 **Mina sockor nöts hål vid hälen.**
-Förstärk hällappen med lyfta maskor: lyft varannan maska på rätsidans varv och sticka avigsidan tillbaka som vanligt. Det lägger dubbelt garn vid ytan. Vissa stickare håller också en förstärkningstråd tillsammans med garnet genom hälpartiet. Det finns särskilda nylontrådar för just det, ofta i färger som matchar vanliga sockgarner.
+Lyfta maskor ger korta flotteringar bakom maskorna, inte dubbelt garn jämnt över hela ytan. Använd den fullständiga rapporten ovan eller mönstrets egen. Förstärkningstråd är ett annat alternativ; kontrollera dess skötselråd och hur den påverkar tjocklek och stickfasthet.
 
 **Vad gör jag om garnet tar slut före tån?**
-I uppifrån-ner-sockor är tån sämsta stället att få slut på garn. Alternativen är att repa tillbaka och korta skaftet, byta till kontrastfärg i tån eller acceptera att sockorna blir lite korta. Tå upp minskar risken eftersom skaftet kommer sist och du kan använda nästan allt garn, men spara tillräckligt för den valda avmaskningen och för att fästa garnänden. En sydd eller tubular-avmaskning kan kräva en betydligt längre garnände än en enkel avmaskning.
+Behåll avsedd fot- och tålängd. Byt till ett passande kontrastgarn eller repa upp och sticka om med kortare skaft; en kortare fot kan förstöra passformen. Med tå upp kan skaftet avslutas tidigare, om garn har sparats till den andra sockan och båda avslutningarna.
 
 **Måste båda sockorna matcha exakt?**
 Nej. Syskonsockor, samma mönster men olika färgordning från ett melerat garn, är helt normalt och många föredrar det framför att kämpa med exakt randstart i handfärgat garn. Om ränderna måste matcha är en smakfråga, inte en regel.

@@ -1,0 +1,222 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link "KnitTools home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - text: KnitTools
+      - navigation [ref=e6]:
+        - link "Tools" [ref=e7] [cursor=pointer]:
+          - /url: /tools/
+        - link "Articles" [ref=e8] [cursor=pointer]:
+          - /url: /articles/
+        - group [ref=e9]:
+          - 'generic "Language: English" [ref=e10] [cursor=pointer]': English
+        - link "Notify me at launch" [ref=e13] [cursor=pointer]:
+          - /url: /#join
+    - main [ref=e14]:
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: Articles
+        - heading "Knitting guides & tips." [level=1] [ref=e18]
+        - paragraph [ref=e19]: Practical writing for working knitters. Gauge math, yarn choices, needle picks, technique walk-throughs, and how to get the most out of the app.
+        - navigation "Article categories" [ref=e20]:
+          - link "Gauge & Calculations" [ref=e21] [cursor=pointer]:
+            - /url: "#gauge-calculations"
+          - link "Yarn" [ref=e22] [cursor=pointer]:
+            - /url: "#yarn"
+          - link "Needles" [ref=e23] [cursor=pointer]:
+            - /url: "#needles"
+          - link "Techniques" [ref=e24] [cursor=pointer]:
+            - /url: "#techniques"
+          - link "App & Tools" [ref=e25] [cursor=pointer]:
+            - /url: "#app-tools"
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - heading "Gauge & Calculations" [level=2] [ref=e30]
+            - paragraph [ref=e31]: Gauge math, swatches, and stitch counts. The calculations that decide whether your finished piece comes out the size you wanted.
+          - link "View 3 more →" [ref=e32] [cursor=pointer]:
+            - /url: /articles/category/gauge-calculations/
+        - generic [ref=e33]:
+          - link [ref=e34] [cursor=pointer]:
+            - /url: /articles/what-is-gauge-in-knitting/
+            - heading "What is gauge in knitting and why does it change?" [level=3] [ref=e35]
+            - paragraph [ref=e36]: Understand what gauge means in knitting, why it varies between knitters, and what causes it to change mid-project. Practical guide with common causes and fixes.
+            - time [ref=e38]: May 1, 2026
+          - link [ref=e39] [cursor=pointer]:
+            - /url: /articles/how-to-measure-knitting-gauge/
+            - heading "How to measure knitting gauge" [level=3] [ref=e40]
+            - paragraph [ref=e41]: Learn how to knit and measure a gauge swatch correctly. Covers washing, blocking, measuring technique, and what to do when your gauge is off.
+            - time [ref=e43]: April 27, 2026
+          - link [ref=e44] [cursor=pointer]:
+            - /url: /articles/gauge-doesnt-match/
+            - heading "What to do when your gauge doesn't match the pattern" [level=3] [ref=e45]
+            - paragraph [ref=e46]: Your gauge swatch doesn't match the pattern? Check measurements, adjust needles, assess the fabric, and understand the limits of changing stitch or row counts.
+            - time [ref=e48]: May 1, 2026
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - heading "Yarn" [level=2] [ref=e53]
+            - paragraph [ref=e54]: Choosing yarn, substituting it, reading labels, and figuring out how much a project will actually need.
+          - link "View 6 more →" [ref=e55] [cursor=pointer]:
+            - /url: /articles/category/yarn/
+        - generic [ref=e56]:
+          - link [ref=e57] [cursor=pointer]:
+            - /url: /articles/best-yarn-for-beginners/
+            - 'heading "Best yarn for beginners: a practical guide" [level=3] [ref=e58]'
+            - paragraph [ref=e59]: Choose the right yarn for learning to knit. Covers which weight, fiber, and color to start with, what to avoid, and how much to buy for a first project.
+            - time [ref=e61]: May 1, 2026
+          - link [ref=e62] [cursor=pointer]:
+            - /url: /articles/how-much-yarn-do-i-need/
+            - heading "How much yarn do I need?" [level=3] [ref=e63]
+            - paragraph [ref=e64]: Calculate how much yarn you need for scarves, sweaters, blankets, and more. Covers estimation methods, yarn weight factors, and what to do with leftovers.
+            - time [ref=e66]: May 1, 2026
+          - link [ref=e67] [cursor=pointer]:
+            - /url: /articles/how-to-read-yarn-label/
+            - heading "How to read a yarn label" [level=3] [ref=e68]
+            - paragraph [ref=e69]: "Decode yarn labels: fiber content, weight symbols, gauge, care instructions, dye lot numbers, and common care symbols before you choose yarn."
+            - time [ref=e71]: May 1, 2026
+      - generic [ref=e73]:
+        - generic [ref=e75]:
+          - heading "Needles" [level=2] [ref=e76]
+          - paragraph [ref=e77]: Materials, sizes, and types of knitting needles. What to buy and when each one is the right tool.
+        - generic [ref=e78]:
+          - link [ref=e79] [cursor=pointer]:
+            - /url: /articles/circular-vs-straight-vs-dpn/
+            - 'heading "Circular vs straight vs DPN needles: when to use which" [level=3] [ref=e80]'
+            - paragraph [ref=e81]: Compare circular, straight, and double-pointed knitting needles. Learn which type works best for different projects, plus pros and cons of each.
+            - time [ref=e83]: May 1, 2026
+          - link [ref=e84] [cursor=pointer]:
+            - /url: /articles/knitting-needle-materials/
+            - heading "How to choose the right knitting needle material" [level=3] [ref=e85]
+            - paragraph [ref=e86]: "Compare metal, wood, bamboo, plastic and carbon-fiber knitting needles: surface finish, grip, tip shape, care and checking gauge when you switch."
+            - time [ref=e88]: May 1, 2026
+          - link [ref=e89] [cursor=pointer]:
+            - /url: /articles/needle-size-for-beginners/
+            - heading "What size knitting needles for beginners?" [level=3] [ref=e90]
+            - paragraph [ref=e91]: Start knitting with 5 mm needles and suitable worsted yarn. Learn how diameter, length, material and a gauge swatch guide your first needle choice.
+            - time [ref=e93]: May 1, 2026
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - heading "Techniques" [level=2] [ref=e98]
+            - paragraph [ref=e99]: Step-by-step technique guides. Fixing mistakes, finishing details, and project walk-throughs from cast on to bind off.
+          - link "View 10 more →" [ref=e100] [cursor=pointer]:
+            - /url: /articles/category/techniques/
+        - generic [ref=e101]:
+          - link [ref=e102] [cursor=pointer]:
+            - /url: /articles/knit-first-scarf/
+            - heading "How to knit your first scarf" [level=3] [ref=e103]
+            - paragraph [ref=e104]: "Knit a first garter-stitch scarf: measure gauge, choose a width, cast on, knit, bind off and weave in ends. Includes illustrated technique links."
+            - time [ref=e106]: May 1, 2026
+          - link [ref=e107] [cursor=pointer]:
+            - /url: /articles/how-to-read-knitting-pattern/
+            - heading "How to read a knitting pattern" [level=3] [ref=e108]
+            - paragraph [ref=e109]: Learn how to read a knitting pattern from start to finish. Covers pattern sections, abbreviations, sizing, gauge, and how instructions are structured.
+            - time [ref=e111]: May 1, 2026
+          - link [ref=e112] [cursor=pointer]:
+            - /url: /articles/fix-dropped-stitches/
+            - heading "How to fix dropped stitches with a crochet hook" [level=3] [ref=e113]
+            - paragraph [ref=e114]: Rescue dropped stitches in knitting using a crochet hook. Covers stockinette, purl side, garter stitch, and how to spot a drop before it runs.
+            - time [ref=e116]: May 1, 2026
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - heading "App & Tools" [level=2] [ref=e121]
+            - paragraph [ref=e122]: Apps, calculators, and physical tools that make tracking, planning, and organizing knitting projects easier.
+          - link "View 4 more →" [ref=e123] [cursor=pointer]:
+            - /url: /articles/category/app-tools/
+        - generic [ref=e124]:
+          - link [ref=e125] [cursor=pointer]:
+            - /url: /articles/best-knitting-apps/
+            - 'heading "Choosing a knitting app: features to look for" [level=3] [ref=e126]'
+            - paragraph [ref=e127]: "Choose a knitting app for your workflow: compare counters, calculators, PDF tools, offline access, pricing, backups, and device support."
+            - time [ref=e129]: May 1, 2026
+          - link [ref=e130] [cursor=pointer]:
+            - /url: /articles/track-rows-knitting/
+            - heading "How to keep track of rows when knitting" [level=3] [ref=e131]
+            - paragraph [ref=e132]: Seven ways to track knitting rows and rounds, with clear counter settings, repeat tracking, reminders, and checks when you lose your place.
+            - time [ref=e134]: May 1, 2026
+          - link [ref=e135] [cursor=pointer]:
+            - /url: /articles/organize-knitting-projects/
+            - heading "How to organize multiple WIP knitting projects" [level=3] [ref=e136]
+            - paragraph [ref=e137]: Organize knitting projects with clear pattern notes, completed row counts, yarn records and practical storage ideas for picking up a paused WIP.
+            - time [ref=e139]: May 1, 2026
+      - region [ref=e140]:
+        - generic [ref=e141]:
+          - paragraph [ref=e142]: Be there at launch
+          - heading [level=2] [ref=e143]:
+            - text: Where every stitch
+            - emphasis [ref=e144]: counts.
+          - generic [ref=e145]:
+            - generic [ref=e146]: Email address
+            - generic [aria-hidden] [ref=e147]: Leave this field empty
+            - textbox [aria-hidden] [ref=e148]
+            - generic [ref=e149]:
+              - textbox "Email address" [ref=e150]:
+                - /placeholder: your@email.com
+              - button "Notify me at launch" [ref=e151] [cursor=pointer]
+          - paragraph [ref=e152]: Free tier from day one. No card required.
+    - contentinfo [ref=e153]:
+      - generic [ref=e154]:
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - heading "Tools" [level=2] [ref=e158]
+              - list [ref=e159]:
+                - listitem [ref=e160]:
+                  - link "Cast On Calculator" [ref=e161] [cursor=pointer]:
+                    - /url: /tools/cast-on-calculator/
+                - listitem [ref=e162]:
+                  - link "Yarn Estimator" [ref=e163] [cursor=pointer]:
+                    - /url: /tools/yarn-estimator/
+                - listitem [ref=e164]:
+                  - link "Needle Size Chart" [ref=e165] [cursor=pointer]:
+                    - /url: /tools/needle-size-chart/
+                - listitem [ref=e166]:
+                  - link "Yarn Weight Chart" [ref=e167] [cursor=pointer]:
+                    - /url: /tools/yarn-weight-chart/
+                - listitem [ref=e168]:
+                  - link "Knitting Abbreviations" [ref=e169] [cursor=pointer]:
+                    - /url: /tools/knitting-abbreviations/
+                - listitem [ref=e170]:
+                  - link "Knitting Size Charts" [ref=e171] [cursor=pointer]:
+                    - /url: /tools/knitting-size-charts/
+            - generic [ref=e172]:
+              - heading "Articles" [level=2] [ref=e173]
+              - list [ref=e174]:
+                - listitem [ref=e175]:
+                  - link "Gauge & Calculations" [ref=e176] [cursor=pointer]:
+                    - /url: /articles/category/gauge-calculations/
+                - listitem [ref=e177]:
+                  - link "Yarn" [ref=e178] [cursor=pointer]:
+                    - /url: /articles/category/yarn/
+                - listitem [ref=e179]:
+                  - link "Needles" [ref=e180] [cursor=pointer]:
+                    - /url: /articles/category/needles/
+                - listitem [ref=e181]:
+                  - link "Techniques" [ref=e182] [cursor=pointer]:
+                    - /url: /articles/category/techniques/
+                - listitem [ref=e183]:
+                  - link "App & Tools" [ref=e184] [cursor=pointer]:
+                    - /url: /articles/category/app-tools/
+            - generic [ref=e185]:
+              - heading "App" [level=2] [ref=e186]
+              - list [ref=e187]:
+                - listitem [ref=e188]: Launching soon
+                - listitem [ref=e189]:
+                  - link "About" [ref=e190] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=e191]:
+                  - link "Privacy Policy" [ref=e192] [cursor=pointer]:
+                    - /url: https://finnvek.com/privacy#knittools
+          - img "KnitTools" [ref=e193]
+        - paragraph [ref=e195]:
+          - text: © MMXXVI KnitTools.
+          - link "Finnvek" [ref=e196] [cursor=pointer]:
+            - /url: https://finnvek.com
+          - text: .
+          - link "Contact" [ref=e197] [cursor=pointer]:
+            - /url: mailto:contact@finnvek.com
+          - text: .

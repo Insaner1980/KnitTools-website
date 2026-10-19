@@ -1,6 +1,6 @@
 ---
 title: "Pourquoi mon tricot roule ? Causes et solutions"
-description: "Pourquoi le jersey roule, quels points évitent les bords qui s'enroulent, et comment corriger ou limiter ce problème au blocage."
+description: "Pourquoi les bords du jersey roulent : exemple de bordure, points utiles, limites du blocage et options pour reprendre une pièce déjà terminée."
 category: "techniques"
 categoryOrder: 4
 publishDate: 2026-05-01
@@ -9,114 +9,103 @@ tags:
 draft: false
 lang: fr
 translationKey: "why-knitting-curls"
+updatedDate: 2026-10-18
 ---
 
-Le jersey roule. Ce n'est généralement pas un problème de tension, pas un problème de fil, pas quelque chose que tu fais mal. C'est inscrit dans la structure du tissu.
+Le jersey roule naturellement sur ses bords libres. Ce n'est pas, à lui seul, un signe que tu tricotes mal.
 
-En jersey, toutes les mailles endroit regardent d'un côté et toutes les bosses envers de l'autre. Les deux faces ne s'équilibrent pas, donc les forces aux bords font rouler le tissu. En pratique, le jersey roule souvent vers la face endroit lisse au montage et au rabattage, et vers la face envers bosselée sur les côtés.
+Le fil se courbe en boucles entrelacées. Leur forme en trois dimensions et leurs contacts donnent au jersey sa tendance à rouler ; ce n'est pas simplement une question de tension trop serrée. Des [essais textiles et une modélisation](https://arxiv.org/html/2410.13307v1) montrent que la géométrie des mailles et les dimensions de la pièce influencent le roulotté.
+
+Avec la face lisse aux mailles en V vers toi, les bords de montage et de rabattage tendent à rouler vers toi, et les bords latéraux à s'enrouler à l'opposé, vers les bosses envers. Un sens peut être plus visible que l'autre. Ici, le roulotté désigne un bord libre qui s'enroule, pas une pièce qui part en biais, un bord trop serré qui resserre le tissu ou un montage vrillé lors de la fermeture en rond.
 
 ## Ce qui ne corrige pas le roulotté
 
-Une tension plus serrée rend le tissu plus ferme, donc le roulotté peut sembler un peu réduit, mais il reste là. Changer de taille d'aiguilles modifie la densité et le tombé du tissu, mais ne permet pas d'éviter le roulotté de manière fiable. Les fils plus raides, comme le coton ou le lin, roulent moins violemment que les fils élastiques comme la laine, mais ils roulent quand même. La vapeur peut aplatir temporairement, sauf avec l'acrylique que l'on peut modifier durablement à la vapeur, mais le roulotté revient quand le tissu se détend ou repasse au lavage.
+Changer de taille d'aiguilles modifie la tension et le caractère du tissu, mais ne corrige pas de façon fiable le roulotté structurel. Si tu changes d'aiguilles, refais un échantillon et recalcule les dimensions. Un tricot plus serré ou un nom de fibre ne garantit pas un bord plus plat.
 
-Rien de tout cela ne corrige la physique de base. Cela la gère seulement.
+## La laine superwash peut être plus difficile à stabiliser?
 
-## La laine superwash peut être plus difficile à stabiliser
-
-Le traitement superwash réduit la façon dont les écailles de la laine s'accrochent entre elles, ce qui limite le feutrage et le rétrécissement. La contrepartie, c'est que certains fils superwash se détendent, s'étirent ou grandissent au lavage plus qu'une laine non traitée.
-
-Cela peut rendre le roulotté du jersey plus difficile à gérer, surtout sur une pièce peu structurée. Cela ne rend pas la superwash mauvaise : la facilité de lavage est justement l'intérêt de beaucoup de projets. Mais l'échantillon doit être lavé et séché de la même manière que le projet terminé avant de juger le comportement des bords.
+La mention superwash ne permet pas de prévoir combien ce jersey précis va rouler. Évalue le fil et la construction sur un échantillon avec ses bords, lavé et séché selon les consignes du fabricant. Fais de même pour la laine non traitée et les autres fibres ; ne suppose pas que des fils différents se comportent de la même façon.
 
 ## Ce qui fonctionne vraiment
 
 ### Bordures
 
-Ajouter un point qui ne roule pas autour des bords du jersey est la solution la plus fiable. La bordure doit être assez large pour contrer la tendance du jersey à s'enrouler.
+Une bordure au point mousse ou au point de riz est une façon pratique de contrer le roulotté du jersey. Le centre peut toutefois entraîner la bordure dans un rouleau ou un pli. Teste l'ensemble, pas seulement le point de bordure isolé.
 
-La bordure au point mousse est le choix le plus courant. Le point mousse reste plat parce que chaque rang alterne endroit et envers vu depuis une même face. Trois à cinq mailles de chaque côté et quelques rangs en haut et en bas suffisent souvent pour une écharpe. Les pièces étroites demandent proportionnellement plus de bordure.
+Pour une bordure au point mousse tricotée à plat, tricote ses mailles à l'endroit à chaque rang, y compris sur l'envers. Pour encadrer un rectangle, travaille au point mousse sur toute la largeur au début et à la fin, et sur les deux côtés entre les deux. Vu d'une même face, le point mousse alterne rangs endroit et envers ; une barre de point mousse correspond à deux rangs.
 
-Le point de riz alterne les mailles endroit et envers horizontalement et verticalement. Avec un nombre impair de mailles, répète 1 maille endroit, 1 maille envers à chaque rang. Avec un nombre pair, alterne un rang 1 maille endroit, 1 maille envers et un rang 1 maille envers, 1 maille endroit. Dans les deux cas, tricote à l'endroit les mailles qui se présentent à l'envers et à l'envers celles qui se présentent à l'endroit. Cette bordure réversible sert souvent à limiter le roulotté du jersey. Elle utilise plus de fil que le point mousse et demande plus d'attention. Les côtes 1/1 ou 2/2 en haut et en bas sont classiques pour les bas de pulls et les poignets : plates, élastiques, avec de la tenue.
+Le point de riz alterne endroit et envers horizontalement et verticalement. Pour un échantillon séparé à plat sur un nombre impair de mailles : répète (1 maille endroit, 1 maille envers) jusqu'à la dernière maille, puis tricote celle-ci à l'endroit, à chaque rang. Sur un nombre pair, répète (1 maille endroit, 1 maille envers) au rang 1 et (1 maille envers, 1 maille endroit) au rang 2 ; répète ces deux rangs. Après avoir tourné, tricote à l'endroit les mailles qui se présentent à l'envers et inversement. Passe le fil entre les pointes. Pour des bordures, compte et suis le point de riz dans chacune séparément, sans poursuivre la répétition à travers le centre en jersey.
 
-La bordure n'est pas un détail à ajouter après coup. Prévois-la dans le modèle dès le départ. En ajouter une sur une pièce terminée demande de [relever des mailles](/fr/articles/relever-des-mailles/), ce qui fonctionne, mais demande plus de travail que de l'inclure au départ.
+Les côtes 1/1 ou 2/2 conviennent aux bas de pulls et aux poignets. Elles se resserrent en largeur et s'étirent à l'usage : tiens compte de leur propre échantillon et des dimensions finies. Une bordure change l'aspect et les dimensions du projet.
+
+Prévois les bordures avant le montage si possible. Sur une pièce terminée, tu peux [relever des mailles](/fr/articles/relever-des-mailles/) puis tricoter une bordure. Adapte l'espacement au sens du bord et à l'échantillon du point de bordure ; un seul ratio ne convient pas partout. Trop de mailles peuvent former des volants, trop peu peuvent resserrer le bord. Vérifie sans étirer et ajuste. Une bordure tricotée ou crochetée est une option à essayer, pas une réparation garantie pour une écharpe très enroulée.
 
 ### Largeur de bordure selon l'épaisseur de fil
 
-À elle seule, l'épaisseur du fil ne détermine ni l'intensité du roulotté d'un bord en jersey ni la largeur de bordure nécessaire. La structure du point, l'échantillon, les propriétés de la fibre et de la matière, les dimensions de la pièce et la construction de la bordure comptent aussi. Un tissu plus épais ou plus dense peut parfois sembler moins roulé, mais ce n'est pas une règle fiable.
+L'épaisseur du fil ne détermine pas seule la largeur nécessaire. La tension, le point, le comportement du fil, les dimensions et la jonction avec le centre comptent aussi.
 
-**Repères expérimentaux approximatifs, pas des exigences universelles :**
+Dans sa [démonstration de bordure au point mousse](https://www.theknittingcircle.com/video/easy-borders-prevent-stockinette-stitch-curling-029719/), Jen Lucas ajoute trois mailles de chaque côté, soit six au total. C'est un exemple propre à cette démonstration, pas un minimum valable pour chaque écharpe ni une consigne de nombre de rangs en haut et en bas.
 
-| Épaisseur de fil | Bord latéral (chaque côté) | Haut / bas |
-| ---------------- | -------------------------- | ---------- |
-| Lace             | 10+ mailles                | 10+ rangs  |
-| Fingering / Sock | 8-10 mailles               | 8-10 rangs |
-| Sport / DK       | 6-8 mailles                | 6-8 rangs  |
-| Worsted          | 4-6 mailles                | 4-6 rangs  |
-| Aran / Bulky     | 3-4 mailles                | 3-4 rangs  |
-
-Teste la bordure prévue sur un échantillon suffisamment grand, tricoté avec le fil du projet et conforme à l'échantillon prévu. Évalue-le sans le tendre, puis de nouveau après la finition ou le blocage prévus pour le projet. Ces chiffres ne garantissent pas un résultat plat.
+Teste la bordure sur un échantillon généreux avec le fil et la tension du projet. Examine-le sans le maintenir à plat, puis entièrement sec après la finition autorisée par le fabricant. Un petit échantillon épinglé ne garantit pas le comportement de la pièce entière. Modifie la largeur ou la construction si la bordure roule avec le centre.
 
 ### Lisière à maille glissée
 
-Une petite habitude qui aide sans ajouter une vraie bordure. Au début de chaque rang, glisse la première maille à l'envers avec le fil devant. À la fin du rang, tricote la dernière maille normalement à l'endroit. La première maille glissée forme une lisière en chaînette qui resserre légèrement le côté du tissu et réduit le pire du roulotté latéral.
+Une maille glissée donne une finition de lisière, pas une solution fiable contre le roulotté. À plat, glisse la première maille comme pour la tricoter à l'envers, fil devant. Passe le fil entre les pointes vers la position nécessaire pour la maille suivante, travaille le centre dans le point prévu et tricote la dernière maille à l'endroit à chaque rang. Cela forme une lisière en chaînette aux mailles allongées.
 
-Cela n'élimine pas le roulotté sur une pièce entièrement en jersey. Cela rend les bords plus propres et plus pratiques à assembler. Utile quand tu veux des bords nets sans t'engager dans une large bordure.
+Ne remplace pas ainsi les mailles d'un point de bordure sans adapter la construction. Cette lisière change aussi les boucles disponibles pour coudre ou relever des mailles. Suis donc la méthode de montage prévue.
 
 ### Blocage
 
-Le [blocage humide](/fr/articles/bloquer-un-tricot/) peut réduire le roulotté, surtout avec la laine. Tremper la pièce, l'épingler à plat, laisser sécher. Le tissu garde la forme quelque temps. Mais avec l'usage et les lavages, le roulotté a tendance à revenir.
+Le [blocage](/fr/articles/bloquer-un-tricot/) aide à mettre en forme, mais ne garantit pas la disparition définitive du roulotté du jersey. Humidifie, forme et sèche uniquement selon les consignes du fabricant du fil ; le trempage ne convient pas à tous les fils. N'étire pas la pièce au-delà des dimensions prévues pour la forcer à rester plate.
 
-Le blocage fonctionne mieux comme complément à une bordure, pas comme remplacement. Une écharpe en jersey bloquée à plat roulera de nouveau après quelques ports. Une écharpe en jersey avec bordure au point mousse, bloquée à plat, restera beaucoup plus stable.
+Évalue le tissu entièrement sec et libéré des épingles ou de tout autre support. Le roulotté peut revenir avec les manipulations ou le lavage. Vérifie aussi une écharpe bordée de point mousse : bordure et blocage ne garantissent pas ensemble un résultat durablement plat.
 
 ### Modifier l'acrylique à la vapeur
 
-L'acrylique est une fibre synthétique sensible à la chaleur, donc l'étiquette du fil compte. Une vapeur prudente, sans contact, peut détendre durablement un tissu acrylique. La version plus marquée est souvent appelée "killing" en anglais : elle peut aplatir le roulotté du jersey, mais le tissu perd du rebond et le changement est irréversible.
+L'acrylique est sensible à la chaleur. La vapeur peut modifier définitivement sa texture et son élasticité ; ce n'est pas la même chose qu'une mise en forme temporaire d'une pièce mouillée. N'utilise pas le « killing » de l'acrylique comme solution habituelle contre le roulotté.
 
-Si tu utilises la vapeur, teste d'abord sur un échantillon. Épingle l'échantillon à plat, tiens le défroisseur ou le fer au-dessus du tissu sans le toucher, puis laisse refroidir complètement avant de retirer les épingles. Arrête avant que la surface devienne brillante ou molle, sauf si c'est l'effet recherché. Les mélanges contenant de l'acrylique peuvent réagir de façon imprévisible, et le contact direct avec un fer peut abîmer ou faire fondre la fibre.
+Respecte les consignes de chaleur et d'entretien du fil précis, y compris toute interdiction de vapeur ou de repassage. Les [conseils de blocage de Lion Brand](https://support.lionbrand.com/support/solutions/articles/17000035400-what-is-blocking-and-how-do-i-do-it-) déconseillent la vapeur pour l'acrylique. Un essai sur échantillon n'annule pas une interdiction du fabricant. Aucune méthode générale à la vapeur pour l'acrylique ou les mélanges n'est donnée ici.
 
 ### Points qui ne roulent pas
 
-Si tu veux un tissu plat sans bordure, choisis un point qui équilibre endroit et envers sur les deux faces.
+Le point mousse, le point de riz et les côtes ordinaires sont des alternatives utiles à une surface entièrement en jersey : leur disposition de mailles contrecarre son roulotté caractéristique. Le point mousse présente des barres horizontales, le point de riz des bosses alternées, et les côtes se resserrent en largeur.
 
-Point mousse : plat, avec des crêtes horizontales, réversible. Point de riz : plat, plus texturé. Côtes : plates, avec contraction horizontale. Vannerie ou damier : alternance de blocs de jersey endroit et de jersey envers, où les blocs s'opposent et annulent une partie du roulotté.
-
-Tout point qui mélange endroit et envers de façon assez équilibrée résiste au roulotté. Le jersey endroit et le jersey envers sont les points courants qui roulent franchement.
+Le damier combine des blocs de jersey endroit et de jersey envers. Un nombre égal de mailles endroit et envers, ou des blocs opposés, ne garantit pas un résultat plat. Leur disposition et leurs dimensions comptent aussi. Teste le point choisi avec ses éventuelles bordures.
 
 ## Le jersey envers roule aussi
 
-Le jersey envers, quand la face envers devient l'endroit de l'ouvrage, roule dans le sens opposé au jersey endroit. Il roule vers la face lisse en haut et en bas, et vers la face bosselée sur les côtés. Même physique, miroir inversé.
+Le jersey envers utilise la face bosselée comme endroit visible du projet. C'est le même tissu vu de l'autre côté : le retourner ne supprime pas le roulotté. Les bords de montage et de rabattage roulent toujours vers la face aux mailles en V, et les côtés vers les bosses envers. Avec la face bosselée vers toi, le haut et le bas roulent donc à l'opposé de toi, et les côtés vers toi.
 
-C'est important dans les projets réversibles ou les panneaux décoratifs. Mélanger jersey endroit et jersey envers peut être visuellement intéressant, mais les deux zones tirent dans des directions opposées et peuvent déformer la pièce si elles ne sont pas équilibrées.
+Des panneaux en jersey endroit et envers répartissent ces tendances différemment. Teste toute la disposition plutôt que de supposer que les panneaux se compensent.
 
 ## Steeks et jersey en rond
 
-Tricoter en rond évite le problème des bords latéraux parce qu'il n'y a pas de côté ouvert. Le tissu est un tube continu. Bonnets, cols et corps de pulls en jersey ont donc souvent l'air correct sans bordure sur les côtés.
+Le jersey en rond forme un tube sans bords latéraux libres. Les bords de montage et de rabattage peuvent toujours rouler. Prévois des côtes ou une autre finition si tu ne souhaites pas un bord roulotté. Le point mousse en rond demande d'alterner un tour endroit et un tour envers ; tous les tours à l'endroit donnent du jersey.
 
-Puis il y a les steeks. Un steek est une colonne de mailles supplémentaires que l'on coupe après le tricot pour transformer un tube en panneaux plats, souvent pour un gilet. La sécurité du steek dépend de la construction prévue et du comportement du fil, pas de la rapidité avec laquelle on ajoute une bande. Lorsque la fibre ou la méthode exige un renfort, renforce avant de couper. Après la coupe, sécurise et finis les rabats ou les bords selon la méthode choisie. Une bande en mailles relevées peut ensuite couvrir le bord coupé fini et aider à le stabiliser.
+Un steek est une zone prévue de mailles supplémentaires que l'on coupe pour ouvrir un tricot en rond, par exemple un gilet. La coupe exige une construction et une méthode de renfort adaptées ; une bordure ne sécurise pas une coupe non préparée. Suis un modèle complet de steek adapté au fil. Renforce avant de couper lorsque la méthode l'exige, puis sécurise et finis les bords coupés. [Tin Can Knits](https://blog.tincanknits.com/2014/09/18/steek/) montre que les bandes peuvent être tricotées avant ou après la coupe, selon la méthode. Ce n'est pas un raccourci pour réparer une écharpe terminée tricotée à plat.
 
 ## Quand le roulotté ne pose pas problème
 
-Tous les projets n'ont pas besoin de bords plats. Les écharpes en jersey roulent en tube, et certaines tricoteuses aiment cet effet. Les bords roulottés sur les bonnets et les encolures peuvent être une finition volontaire. Les bas de pulls peuvent être conçus pour rouler dans un style décontracté.
+Tous les projets n'ont pas besoin de bords plats. Les écharpes en jersey roulent en tube, et certaines personnes aiment cet effet. Les bords roulottés sur les bonnets et les encolures peuvent être une finition volontaire. Les bas de pulls peuvent être conçus pour rouler dans un style décontracté.
 
-Si tu tricotes des pièces qui seront cousues, comme un devant et un dos, les bords qui roulent disparaissent dans les coutures. Peu importe pendant le tricot, puisque le vêtement terminé les enferme.
-
-Le tricot en rond, bonnets, cols, corps de pulls, supprime entièrement les bords latéraux. Le haut et le bas peuvent encore rouler, mais ils sont généralement terminés par des côtes.
+Si les pièces sont assemblées, les bords latéraux joints sont maintenus dans la couture. Cela ne corrige pas un bord de montage ou de rabattage qui reste libre. Prévois leur finition séparément, comme pour le haut et le bas d'un tube tricoté en rond.
 
 ## FAQ
 
 **Le blocage corrige-t-il définitivement le roulotté du jersey ?**
-Pour la laine, le blocage tient un moment, puis le roulotté revient peu à peu avec l'usage et les lavages. Pour l'acrylique, la vapeur peut détendre durablement le tissu, mais elle change son toucher. Pour le coton, l'effet durable du blocage est souvent limité.
+Aucune méthode générale ne le garantit. Évalue le fil après la finition autorisée, entièrement sec et sans support. N'utilise pas de chaleur contrairement aux consignes du fabricant.
 
 **Quelle largeur pour une bordure au point mousse ?**
-Pour une écharpe en Worsted, 4 à 6 mailles de chaque côté et 4 à 6 rangs en haut et en bas peuvent servir de repère expérimental approximatif, pas de garantie. La largeur nécessaire dépend du fil, de l'échantillon, du point, des dimensions de la pièce et de la construction de la bordure. Teste-la sur un échantillon suffisamment grand.
+Il n'existe pas de nombre universel de mailles ou de rangs. Teste la bordure avec le centre en jersey, le fil et la tension du projet. Les trois mailles de chaque côté dans la démonstration liée sont un exemple précis, pas une garantie pour ton ouvrage.
 
 **Puis-je ajouter une bordure après avoir terminé la pièce ?**
-Oui. Relève des mailles le long des bords et tricote une bordure dessus. C'est du travail en plus, mais cela fonctionne. Une bordure au crochet est une autre option que certaines tricoteuses trouvent plus rapide.
+Oui, en relevant des mailles pour tricoter une bordure, ou en en crochetant une. Adapte l'espacement au bord et à la tension, vérifie que la bordure ne forme pas de volants et ne resserre pas le tissu, et prévois les dimensions supplémentaires. Le centre peut encore entraîner la bordure dans le roulotté.
 
 **L'épaisseur de fil influence-t-elle le roulotté du jersey ?**
-L'épaisseur du fil peut modifier l'épaisseur et la densité du tissu, mais elle ne détermine pas seule le roulotté. La structure du point, l'échantillon, les propriétés de la fibre, les dimensions de la pièce et la construction de la bordure comptent aussi.
+L'épaisseur du fil peut modifier l'épaisseur et la densité du tissu, mais elle ne détermine pas seule le roulotté. La structure du point, la tension, les propriétés du fil, les dimensions et la construction de la bordure comptent aussi.
 
 **Pourquoi mon échantillon reste-t-il plat alors que la pièce terminée roule ?**
-Un petit échantillon peut ne pas représenter le comportement d'une pièce grandeur nature, surtout s'il a été épinglé, étiré ou maintenu à plat pour la mesure. Utilise un échantillon suffisamment grand, examine-le sans le tendre, puis de nouveau après la finition ou le blocage prévus pour le projet.
+Un petit échantillon ne représente pas toujours la pièce entière, surtout s'il a été épinglé, étiré ou maintenu à plat. Fais un échantillon généreux, examine-le sans le tendre, puis après la finition autorisée pour le fil du projet.
 
 **Existe-t-il un fil qui ne roule pas en jersey ?**
-Pas vraiment. Le lin s'en approche parce qu'il a très peu d'élasticité, donc le déséquilibre entre endroit et envers a moins de ressort pour agir. Le coton ressemble à cela, mais roule quand même. Tout fil contenant beaucoup de laine ou de mélange laineux roulera de façon visible.
+Un nom de fibre ne garantit pas que le jersey restera plat. Teste le fil, la tension et la construction sur un échantillon plutôt que de choisir du lin, du coton ou de la laine sur cette seule hypothèse.

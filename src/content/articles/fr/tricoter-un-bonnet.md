@@ -14,120 +14,109 @@ tags:
 draft: false
 lang: fr
 translationKey: "how-to-knit-hat"
+updatedDate: 2026-10-18
 ---
 
-Un bonnet est un bon deuxième ou troisième projet après une écharpe. Il introduit le tricot en rond, les diminutions et le façonnage de base, dans un projet assez petit pour être terminé avant que la répétition devienne pénible. La plupart des bonnets en worsted sont courts par rapport à un pull, mais le premier demande quand même d'apprendre de nouvelles techniques.
+Un bonnet est un projet utile après une écharpe pour pratiquer le façonnage et, si tu le souhaites, le tricot en rond. Ce guide compare les constructions et détaille les calculs de taille et de sommet. Ce n'est pas un modèle décliné pour tous les fils et tous les tours de tête. Choisis un modèle pour ton bonnet, puis utilise ces calculs pour comprendre son ajustement.
 
-Pour tricoter un bonnet simple, monte les mailles correspondant au tour de tête moins 2,5 à 5 cm d'aisance négative, tricote des côtes pour le bord, continue le corps en jersey, puis [diminue régulièrement](/fr/articles/repartir-augmentations-diminutions-regulierement/) au sommet. Plusieurs méthodes existent. La bonne dépend des techniques que tu connais et du matériel que tu as.
+Un bonnet simple commencé par le bas se monte pour le **tour fini du bonnet**, puis viennent le bord, le corps et les [diminutions réparties régulièrement](/fr/articles/repartir-augmentations-diminutions-regulierement/) au sommet. L'écart avec le tour de tête dépend de l'élasticité du tissu et de l'ajustement souhaité : ne retranche pas une valeur fixe pour tous les bonnets.
 
 ## Méthode 1 : de bas en haut, en rond
 
-C'est l'approche standard. Tu montes les mailles pour le tour complet de tête, tu joins en rond, tu tricotes vers le haut, puis tu diminues au sommet pour fermer.
+Monte les mailles pour le tour cible. Vérifie que le bord de montage ne tourne pas autour de l'aiguille, place un marqueur de début de tour et joins en tricotant la première maille. Continue en rond sans retourner l'ouvrage. Le jersey se tricote tout à l'endroit à chaque tour ; le point mousse alterne un tour endroit et un tour envers.
 
-Il te faut une aiguille circulaire de 40 cm pour le corps et des aiguilles doubles pointes (ou une longue circulaire en magic loop) pour le sommet, quand le tour devient trop petit pour le câble de 40 cm. Change de méthode quand les mailles ne circulent plus confortablement autour du câble. Attendre trop longtemps rend le sommet plus difficile qu'il ne devrait l'être.
+Une aiguille circulaire de 40 cm convient souvent au corps d'un bonnet adulte. Il s'agit de la **longueur totale d'une pointe à l'autre**, pas seulement du câble. Le diamètre des aiguilles s'indique séparément en millimètres. Les mailles doivent faire le tour sans être étirées. Pour un petit bonnet et le sommet qui rétrécit, utilise des aiguilles doubles pointes ou le magic loop sur une longue circulaire à câble souple. Change avant que les mailles soient tendues autour de la petite circulaire. Les marqueurs des sections restent indépendants de la répartition entre les aiguilles.
 
-Monte les mailles, tricote les côtes du bord (2,5 à 5 cm de côtes 1/1 ou 2/2), passe au jersey ou au point choisi, tricote jusqu'à la longueur voulue, puis diminue régulièrement sur plusieurs tours jusqu'à ce qu'il reste quelques mailles. Passe le fil dans ces mailles et serre.
+Tricote le bord en côtes puis le corps en jersey ou au point choisi. Un bord sans revers peut mesurer par exemple 2,5 à 5 cm, mais suis les dimensions de ton modèle. Prévois la hauteur du sommet avant de décider où arrêter le corps. Ferme ensuite les mailles encore ouvertes comme expliqué plus bas.
 
-Pas de couture. Le rendu est propre et confortable. C'est ainsi que la plupart des modèles de bonnets sont écrits. Le compromis : il faut être à l'aise avec les aiguilles circulaires et avec les aiguilles doubles pointes ou le magic loop pour le sommet.
-
-Quand tu joins en rond, le début du tour est l'endroit où un éventuel décalage de rayures se verra. Place-le à l'arrière du bonnet, où il sera moins visible. Pose un marqueur. Le fil de montage peut servir de repère visuel, mais un marqueur se retrouve plus vite cinq tours plus tard, quand ce fil s'est caché dans l'ouvrage.
+Il n'y a pas de couture latérale. Place éventuellement le début du tour à l'arrière pour rendre le décalage des rayures moins visible, et conserve le marqueur pendant tout l'ouvrage.
 
 ## Méthode 2 : à plat avec couture
 
-Tu tricotes le bonnet comme un rectangle façonné à plat sur aiguilles droites, puis tu couds le côté.
+Tricote une pièce plate dont le haut est façonné, sur aiguilles droites ou en allers-retours sur circulaire. Retourne après chaque rang. En jersey, tricote à l'endroit sur l'endroit de l'ouvrage et à l'envers sur l'envers ; au point mousse, tricote tous les rangs à l'endroit. Le tricot à plat n'impose donc pas toujours des rangs envers.
 
-Monte les mailles, tricote les côtes, tricote le corps, diminue sur les rangs endroit, rabats quand il reste quelques mailles, puis couds avec le [point de matelas](/fr/articles/assembler-des-pieces-tricotees/).
+Suis un modèle à plat pour les côtes, les lisières et le sommet. Si la couture absorbe une maille de chaque côté, ajoute deux mailles lisières à la largeur visible : 96 + 2 = **98 mailles à monter**. Garde les lisières hors des sections du sommet et prévois le raccord des côtes à la couture. Les instructions en rond ne s'appliquent pas telles quelles aux 98 mailles.
 
-Cette méthode utilise seulement les compétences du tricot à plat. Elle est utile si tu n'es pas encore à l'aise avec les circulaires. Le compromis : une couture. Le point de matelas la rend presque invisible, mais il ajoute une étape et une légère surépaisseur à l'intérieur. La couture se place en général à l'arrière du bonnet.
-
-Un point pratique : le tricot à plat t'oblige à tricoter un rang sur deux à l'envers. Si les mailles envers vont plus lentement que les mailles endroit pour toi, ce qui est courant, un bonnet à plat prend nettement plus de temps que le même bonnet en rond, même avant de compter la couture.
+Diminue sur les rangs indiqués par le modèle. Pour un sommet froncé, passe le fil dans les mailles encore ouvertes au lieu de les rabattre normalement. Assemble les côtés au [point de matelas](/fr/articles/assembler-des-pieces-tricotees/) et rentre les fils. La couture laisse une petite épaisseur à l'intérieur ; sur un revers, vérifie le côté visible après pliage.
 
 ## Méthode 3 : de haut en bas
 
-Moins courante, mais utile à connaître. Tu montes un petit nombre de mailles au sommet, tu augmentes vers l'extérieur en sections, tu tricotes le corps, puis tu finis par les côtes et un rabattage extensible.
+Monte quelques mailles au sommet, augmente par sections, tricote le corps puis les côtes et termine par un rabattage extensible. Utilise des doubles pointes ou le magic loop pour le petit début.
 
-Avantages : tu peux essayer en cours de route, il n'y a pas de fronçage final au sommet, et tu peux décider de la longueur du bord selon le fil restant. Inconvénients : le montage est minutieux, souvent un montage circulaire ou le montage d'Emily Ocker, et le rythme d'augmentations doit correspondre à une forme de sommet prévue plutôt que créer un cercle au hasard.
+Tu peux essayer le bonnet une fois l'ouverture assez grande et adapter le bord au fil restant. Un montage circulaire, comme celui d'Emily Ocker, demande tout de même de fermer l'ouverture initiale et de rentrer le fil. Suis un rythme d'augmentations prévu : des augmentations arbitraires changent à la fois le tour et la hauteur du sommet.
 
 ## Taille
 
-Le tour de tête détermine ton nombre de mailles. Mesure autour de la partie la plus large, juste au-dessus des oreilles et sur le front.
+Mesure le **tour de tête** à l'endroit le plus large, sur le front, au-dessus des oreilles et autour de l'arrière du crâne. Le ruban doit rester au contact sans comprimer. Le **tour fini du bonnet** se mesure sur le bonnet au repos. Un tour de 50 cm correspond à environ 25 cm de largeur à plat.
 
-Les bonnets tricotés utilisent de l'aisance négative : le tour fini est plus petit que la tête, pour que le tissu extensible tienne. Pour un bonnet ajusté à bord en côtes, environ 2,5 cm d'aisance négative est un bon point de départ. Une tête de 56 cm peut recevoir un bonnet d'environ 51 à 53 cm de tour fini, selon l'élasticité du tissu et l'ajustement voulu. Les bonnets slouchy utilisent souvent moins d'aisance négative, car le tombé vient de la longueur supplémentaire plutôt que d'un ajustement plus serré.
+L'aisance négative signifie que le bonnet est plus petit que la tête. Par exemple, une tête de 56 cm et un bonnet de 51 à 53 cm donnent 3 à 5 cm d'aisance négative, soit environ 5,4 à 8,9 % **du tour de tête**. L'étirement et la reprise de forme de l'échantillon lavé et séché permettent d'évaluer ce qui convient. Ajouter de la longueur donne du tombé au sommet, sans imposer à lui seul un bord plus large.
 
-Nombre de mailles : multiplie l'échantillon en mailles par le tour cible. À 20 mailles pour 10 cm pour un bonnet de 50 cm : 100 mailles. Arrondis à un nombre qui fonctionne avec les côtes et les diminutions du sommet. Pour des côtes 2/2 avec un sommet en 8 sections, 96 est propre : divisible par 4 pour les côtes et par 8 pour le sommet.
+Utilise la mesure au repos d’un échantillon de jersey lavé et séché, tricoté à plat ou en rond comme le bonnet. Vérifie le bord séparément, car les côtes se resserrent différemment. Avec 20 mailles pour 10 cm, soit 2 mailles/cm, un tour cible de 50 cm donne **100 mailles**. En rond, les côtes 1/1 demandent un multiple de 2, les côtes 2/2 un multiple de 4, et huit sections égales au sommet un multiple de 8. Vérifie aussi le motif du corps. 96 et 104 conviennent aux deux dernières contraintes, mais **96 mailles donnent 48 cm** et **104 donnent 52 cm**. Sur une tête de 56 cm, cela représente environ 14,3 % et 7,1 % d'aisance négative, contre 10,7 % pour le tour cible de 50 cm. Choisis selon l'ajustement, pas uniquement la divisibilité.
 
-Le [calculateur de mailles à monter](/fr/outils/calculateur-mailles-a-monter/) de KnitTools fait ce calcul à partir de ton échantillon et de ton tour.
+Dans le [calculateur de mailles à monter](/fr/outils/calculateur-mailles-a-monter/) de KnitTools, saisis le tour fini dans le champ de largeur : 20 mailles pour 10 cm et 50 cm donnent 100. L'outil arrondit au nombre pair le plus proche. Tu dois choisir l'aisance et vérifier les motifs, les lisières de couture et les sections du sommet ; le calculateur ne fournit pas un modèle de bonnet ni un programme de diminutions.
 
-**Dimensions standards d'un bonnet adulte :** le Craft Yarn Council liste un tour de tête adulte d'environ 53 à 58,5 cm pour les femmes et 56 à 61 cm pour les hommes. Le bonnet fini est en général plus petit à cause de l'aisance négative. Beaucoup de bonnets ajustés commencent les diminutions du sommet après environ 18 à 20 cm depuis le bord, mais suis la profondeur du modèle si elle est donnée. Pour un bonnet slouchy, ajoute de la longueur avant le sommet.
+**Adultes et enfants :** le [tableau du Craft Yarn Council](https://www.craftyarncouncil.com/standards/head-circumference-chart) indique des tours de tête de 53 à 58,5 cm pour les femmes, 56 à 61 cm pour les hommes, 40,5 à 46 cm pour les tout-petits et 45,5 à 51 cm pour les enfants. Ce sont des repères de mensurations, pas des tours de bonnets finis ni des tailles fiables par âge. Mesure la personne si possible, y compris un bébé, et compare avec le tour de tête prévu par le modèle.
 
-**Bonnets enfant :** le Craft Yarn Council donne environ 40,5 à 46 cm pour les tout-petits et 45,5 à 51 cm pour les enfants. Les tailles bébé et prématuré varient beaucoup plus, donc utilise un modèle avec tailles par âge plutôt que de deviner à partir d'une formule adulte.
+**Hauteur :** mesure du bord inférieur souhaité au sommet de la tête, ou mesure un bonnet qui convient. La hauteur finie comprend le sommet. Pour un total de 22 cm et un sommet estimé à 7,5 cm, commence les diminutions à **14,5 cm, bord non replié compris**. Avec un revers de 5 cm, commence à **19,5 cm depuis le montage, mesuré sans replier** : 19,5 − 5 + 7,5 = 22 cm. Un bord double visible sur 5 cm demande environ 10 cm de côtes tricotées. Ces chiffres sont des exemples de calcul, pas des hauteurs universelles pour adultes.
 
 ## Façonnage du sommet
 
-C'est le passage du tube au dôme. Les diminutions sont placées à intervalles réguliers et retirent des mailles tout autour.
+Voici l'exemple complet du **sommet de 96 mailles en jersey en rond**. Place huit marqueurs entre huit sections de 12 mailles, avec un marqueur distinct au début du tour. À chaque tour de diminutions, tricote jusqu'à deux mailles avant chaque marqueur, tricote ces deux mailles ensemble à l'endroit, puis glisse le marqueur. Chaque section perd une maille, soit huit par tour.
 
-Approche courante : diviser les mailles en 6 ou 8 sections égales, avec des marqueurs entre les sections. Diminuer une maille à la fin de chaque section tous les deux tours. Cela crée des lignes de diminutions visibles qui montent en spirale vers le haut.
+- Tour 1 : [10 m. end., 2 m. ens. à l'endroit] huit fois ; 96 → 88 mailles.
+- Tour 3 : [9 m. end., 2 m. ens. à l'endroit] huit fois ; 88 → 80.
+- Tour 5 : [8 m. end., 2 m. ens. à l'endroit] huit fois ; 80 → 72.
+- Tour 7 : [7 m. end., 2 m. ens. à l'endroit] huit fois ; 72 → 64.
+- Tour 9 : [6 m. end., 2 m. ens. à l'endroit] huit fois ; 64 → 56.
+- Tour 11 : [5 m. end., 2 m. ens. à l'endroit] huit fois ; 56 → 48.
+- Tour 13 : [4 m. end., 2 m. ens. à l'endroit] huit fois ; 48 → 40.
+- Tour 15 : [3 m. end., 2 m. ens. à l'endroit] huit fois ; 40 → 32.
+- Tour 17 : [2 m. end., 2 m. ens. à l'endroit] huit fois ; 32 → 24.
+- Tour 19 : [1 m. end., 2 m. ens. à l'endroit] huit fois ; 24 → 16.
+- Tour 21 : [2 m. ens. à l'endroit] huit fois ; 16 → 8.
 
-Pour 96 mailles en 8 sections de 12 :
+Tricote **tous les tours pairs de 2 à 20 à l'endroit sans diminutions**, en glissant les marqueurs. Au tour 21, il ne reste aucune maille simple entre les diminutions. Arrête à huit mailles. Coupe une longueur de fil suffisante pour fermer et rentrer l'extrémité, passe-la dans chaque maille ouverte avec une aiguille à laine, retire les aiguilles, serre l'ouverture et rentre le fil à l'intérieur. Ce n'est pas un rabattage ordinaire.
 
-Tour 1 : _10 m. end., 2 m. ens. à l'end.; rép. depuis _ tout le tour. (88 m.)
-Tour 2 : tricoter à l'endroit.
-Tour 3 : _9 m. end., 2 m. ens. à l'end.; rép. depuis _ tout le tour. (80 m.)
-Tour 4 : tricoter à l'endroit.
+Cela donne **11 tours de diminutions et 10 tours intermédiaires, soit 21 tours**. Avec par exemple 28 tours pour 10 cm, la hauteur calculée du sommet est **7,5 cm**. Le nombre de mailles pour 10 cm ne donne pas le nombre de tours ; mesure un échantillon tricoté et traité comme le bonnet, puis contrôle le sommet en cours de travail.
 
-Continue jusqu'à ce qu'il reste 8 à 16 mailles. Coupe le fil, passe-le dans les mailles restantes avec une aiguille à laine, serre et fixe à l'intérieur.
+Pour **104 mailles**, commence par huit sections de 13 : [11 m. end., 2 m. ens. à l'endroit] huit fois donne 104 → 96. Tricote un tour endroit sans diminutions, puis toute la suite ci-dessus en décalant les numéros de deux tours. Les 23 tours donnent environ **8,2 cm** à 28 tours pour 10 cm. Raccourcis le corps d'autant si tu veux conserver la même hauteur totale.
 
-Le nombre de sections change la forme du sommet, mais le rythme des diminutions compte aussi. Six ou huit sections sont courantes parce qu'elles divisent proprement beaucoup de nombres de mailles. Si le sommet paraît trop pointu ou trop plat, la correction consiste souvent à changer la fréquence des diminutions, pas seulement le nombre de sections.
-
-Certains modèles utilisent des diminutions appariées, par exemple 2 m. ens. à l'endroit avant le marqueur et ssk après, au lieu d'une seule diminution. Les lignes sont plus symétriques, ce qui compte davantage sur un bonnet uni que sur un bonnet à motif où les diminutions se cachent.
+D'autres modèles utilisent six sections, diminuent à chaque tour vers la fin ou associent deux diminutions autour d'un marqueur, par exemple deux mailles ensemble à l'endroit et un ssk incliné à gauche. Une paire retire deux mailles ; huit paires en retirent 16 par tour de diminutions. Si tu changes la méthode, recalcule les mailles restantes, le rythme et la hauteur.
 
 ## Choisir les côtes du bord
 
-Le bord en côtes ne sert pas seulement à décorer. C'est lui qui tient le bonnet sur la tête.
+Les **côtes 1/1** donnent des colonnes étroites, les **côtes 2/2** des colonnes plus larges. Les deux peuvent donner un bord extensible ; fil, échantillon, souplesse du montage et aisance influencent l'ajustement.
 
-**Côtes 1/1** : souvent serrées et élastiques. Elles se resserrent bien et accrochent bien. Bon choix pour les bonnets ajustés.
+Les **côtes torses** tordent les mailles indiquées par le modèle. Une maille endroit montée dans le sens occidental habituel se tord en la tricotant par le brin arrière. Vérifie si seules les mailles endroit ou également les mailles envers sont torses. Les côtes torses ne sont pas automatiquement plus extensibles.
 
-**Côtes 2/2** : faciles à lire et agréables à tricoter pour beaucoup de personnes. Elles s'étirent bien aussi, avec un aspect côtelé plus large.
+**Bord replié :** tricote pour deux épaisseurs, puis replie. Un revers visible de 5 cm demande environ 10 cm de côtes. Tiens compte du pli dans la hauteur totale. Des aiguilles plus fines peuvent raffermir le bord, mais teste le résultat au lieu de supposer qu'une taille en moins garantit la tenue.
 
-**Côtes torses** : les mailles endroit sont tricotées par le brin arrière. Les colonnes se resserrent davantage et le relief est plus net. C'est plus lent, car les mailles torses sont moins faciles à piquer.
-
-**Bord replié** : deux fois la hauteur d'un bord normal, tricoté puis replié. Il est souvent travaillé avec des aiguilles une taille plus petite que le corps pour mieux tenir. Sur les bonnets de grand froid, la double épaisseur sur les oreilles est utile.
-
-Pour une finition plus soignée, un montage tubulaire crée un bord doux qui semble sortir directement des côtes. À apprendre plus tard si tu tricotes des bonnets à offrir.
+Un montage tubulaire peut donner un bord souple qui se prolonge dans les côtes. Choisis une variante adaptée : les côtes 1/1 et 2/2 peuvent demander des préparations différentes.
 
 ## Fil et aiguilles
 
-**Worsted avec aiguilles 4,5 à 5 mm :** combinaison courante pour un bonnet simple. Chaud, moyennement épais et plus rapide qu'un fil plus fin.
+Pour commencer l'échantillon, tu peux essayer **Worsted avec 4,5 à 5 mm**, **Bulky avec 6 à 8 mm** ou **DK avec 3,75 à 4 mm**. Ce sont des associations à tester, pas des règles fixes de catégorie. Choisis le diamètre qui donne l'échantillon du modèle et un tissu qui te plaît. Un fil épais ne rend pas forcément les mailles moins nettes.
 
-**Bulky avec aiguilles 6 à 8 mm :** rapide, mais le tissu épais a moins de définition de maille. Bien pour les styles chunky et décontractés.
+La laine et ses mélanges peuvent apporter élasticité et reprise de forme. Teste l'échantillon contre le front et observe sa chaleur et sa tenue après lavage. Coton, acrylique et mélanges peuvent aussi convenir avec une construction adaptée ; le nom de la fibre ne garantit ni confort ni ajustement. Suis l'entretien indiqué sur l'étiquette, y compris pour la laine superwash et l'acrylique.
 
-**DK avec aiguilles 3,75 à 4 mm :** bonnet plus léger, définition plus fine. Plus long à tricoter, mais rendu plus raffiné. Bien pour le jacquard, parce que le tissu plus fin évite trop d'épaisseur avec plusieurs couleurs.
-
-La laine ou un mélange avec laine est souvent le choix le plus simple pour les bonnets chauds : élastique, stable, réactif au blocage. La laine superwash se lave plus facilement. L'acrylique fonctionne et passe en machine, mais peut être moins respirant par temps doux. Le coton n'est pas un très bon fil de bonnet d'hiver parce qu'il manque du ressort et de la chaleur de la laine, même si les mélanges avec coton peuvent convenir au printemps et à l'automne.
-
-Quelle quantité de fil ? Beaucoup de bonnets adultes simples en worsted se situent autour de 137 à 229 m, mais la hauteur du bord, le slouch, les torsades et le jacquard changent vite le métrage. Vérifie le métrage du modèle avant d'acheter. Une pelote de 100 g de worsted suffit souvent pour un bonnet simple.
+Achète selon le métrage du modèle pour la taille choisie et la longueur par pelote. **100 g** est une masse, pas une longueur fixe ni une garantie qu'une pelote suffira. Revers, longueur supplémentaire, torsades, jacquard, échantillon et pompon modifient le besoin.
 
 ## Pompon et finitions
 
-Un pompon cache le point froncé où le sommet se ferme. Fais-en un avec le même fil ou un fil contrastant avec un appareil à pompons (ou deux cercles de carton), ou achète un pompon en fausse fourrure et fixe-le de façon amovible pour pouvoir l'enlever au lavage.
+Un pompon cache le point où le sommet se ferme. Fais-en un avec un fil assorti ou contrastant, un appareil à pompons ou deux cercles de carton, ou fixe un pompon en fausse fourrure de façon amovible pour le lavage.
 
-Pour une finition propre sans pompon, assure-toi que la fermeture du sommet est bien serrée et que le fil est rentré solidement à l'intérieur. Pour plus de sécurité, passe le fil deux fois dans les mailles restantes plutôt qu'une seule.
+Rentre solidement le fil du sommet, même sous un pompon. Tu peux le repasser une deuxième fois dans les mailles avant de serrer si le fil et l'ouverture le permettent, mais rentre quand même l'extrémité dans le tissu intérieur. Un deuxième passage seul ne la fixe pas.
 
-Bloque sur un ballon, un bol ou une forme à bonnet proche de la taille prévue. Cela égalise les mailles et donne au bonnet sa forme finale. Pour les bords en côtes, n'étire pas les côtes à plat pendant le blocage. Elles sont faites pour se resserrer et tenir.
+Termine selon les consignes d'entretien du fil, après essai sur l'échantillon. Sèche à plat ou sur une forme adaptée seulement si le matériau et le modèle le permettent. Mets aux **dimensions du bonnet**, pas automatiquement au tour de tête plus grand, et n'étire pas les côtes ouvertes. Le blocage peut régulariser les mailles, sans garantir de corriger une mauvaise taille.
 
 ## Questions fréquentes
 
-**Peut-on tricoter un bonnet sur aiguilles droites ?**
-Oui, avec la méthode à plat et couture. Le seul compromis est la couture. Beaucoup de modèles débutants sont écrits spécifiquement pour le tricot à plat.
+**Peut-on tricoter un bonnet sur aiguilles droites ?** Oui, avec un modèle à plat qui prévoit un sommet façonné et une couture latérale. Suis ses rangs sur l'endroit et l'envers ainsi que ses lisières de couture.
 
-**Comment éviter le décalage dans les rayures ?**
-Le changement de couleur au début du tour crée une marche visible. La technique du jogless jog (glisser la première maille de la nouvelle couleur au deuxième tour) l'atténue. Les bonnets unis n'ont pas ce problème.
+**Comment éviter le décalage dans les rayures ?** Pour des rayures de jersey en rond d'au moins deux tours de haut, une méthode consiste à tricoter le premier tour dans la nouvelle couleur, puis à glisser la première maille comme pour la tricoter à l'envers, fil derrière, au deuxième tour et à tricoter le reste à l'endroit. Cela peut atténuer la marche, mais raccourcir cette colonne. Les rayures d'un seul tour et les autres points demandent une méthode adaptée.
 
-**Et si le bonnet est trop grand ?**
-La solution la plus simple sur un bonnet fini : passer un élastique à l'intérieur du bord. Pour la prochaine fois, [fais un échantillon plus soigneux](/fr/articles/mesurer-un-echantillon-tricot/) ou choisis une taille en dessous. Un bonnet un peu petit s'étire. Trop grand, il glisse.
+**Et si le bonnet est trop grand ?** Si seul le bord est lâche, un élastique peut aider tant qu'il ne serre pas inconfortablement. Il ne réduit ni le corps ni le sommet. [Vérifie l'échantillon](/fr/articles/mesurer-un-echantillon-tricot/), le tour au repos et la hauteur avant de défaire. Une taille inférieure n'aide que si ses mesures conviennent ; un bonnet trop petit ne s'étire pas forcément confortablement.
 
-**Peut-on ajouter des oreillettes ?**
-Oui, mais c'est plus facile quand le modèle les prévoit. Les oreillettes sont des extensions triangulaires relevées depuis le bord ou montées avec lui. Si tu les ajoutes toi-même, repère d'abord les positions des oreilles, relève une petite section de mailles de chaque côté, puis diminue jusqu'à une pointe. Ajoute une i-cord ou une cordelière torsadée à la pointe si tu veux les nouer sous le menton.
+**Peut-on ajouter des oreillettes ?** Oui, en relevant des mailles au bord ou dans la construction initiale. Un modèle avec oreillettes précise emplacement, largeur, façonnage et finitions. Repère les oreilles sur la personne qui portera le bonnet. Pour les enfants, choisis une construction adaptée plutôt que d'ajouter sans réflexion des liens sous le menton.
 
-**Et les bonnets doublés ?**
-Un bord double ou une doublure complète ajoute de la chaleur et une sensation plus douce contre le front. Une méthode courante consiste à tricoter une longueur supplémentaire, replier la doublure vers l'intérieur, puis la fixer proprement. C'est plus long, mais plus chaud.
+**Et les bonnets doublés ?** Un bord double ou une doublure peut ajouter de l'isolation et modifier le contact avec le front. Une doublure complète demande sa propre hauteur, son sommet et de la place à l'intérieur. Vérifie l'élasticité et l'ajustement des deux épaisseurs ensemble ; ajouter simplement de la longueur ne constitue pas une explication complète de doublure.

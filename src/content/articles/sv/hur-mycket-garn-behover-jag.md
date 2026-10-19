@@ -18,49 +18,43 @@ translationKey: "how-much-yarn-do-i-need"
 
 Att få slut på garn när tre fjärdedelar av projektet är klart är en särskild sorts nederlag. Färgbadet är slut. Butiken har sålt slut. Eller ersättningsnystanet såg tillräckligt likt ut i butiken och helt fel när det stickades bredvid originalet. Två centimeter från avmaskning och hela projektet stannar. Det händer oftare än det borde, och bättre planering förebygger mycket av det.
 
-Hur mycket garn ett stickprojekt behöver beror på fyra saker: projektets mått, garntjocklek, maskbild och stickfasthet. Bra uppskattning är inte gissning. Det handlar om att få de fyra uppgifterna rätt. Gör du det hamnar uppskattningen förvånansvärt nära. Ignorerar du en av dem chansar du.
+Garnåtgången påverkas av projektets mått, garntjocklek, stickmönster, stickfasthet och konstruktion. Börja med mönstrets mängd för den storlek du vill sticka och bedöm vad ditt garn och dina ändringar innebär.
 
 ## Snabba intervall efter projekttyp
 
 Ibland behöver du bara en ungefärlig siffra innan du börjar handla. Inte en exakt beräkning. Bara en känsla för skalan.
 
-En enkel vuxenmössa i worsted ryms ofta inom ett eller två nystan på 100 g. Någonstans runt 140-230 m beroende på storlek och om mudden viks upp. Halsdukar hamnar ofta på några hundra meter, men bredd och längd flyttar siffran snabbt. En smal halsduk i fingering och en bred chunky-halskrage lever i helt olika garnåtgångsvärldar, fast båda är "halsdukar".
+En publicerad tabell ger ett första riktmärke. [Lion Brands guide](https://www.lionbrand.com/pages/how-much-yarn-do-i-need) anger exempelvis 200–225 yards, cirka 183–206 m, för en mössa i kategorin Medium. Tabellen anger inte färdiga mått, stickfasthet eller stickmönster för den posten, så mängden gäller inte alla vuxenmössor. För halsduk, tröja eller filt: leta efter ett mönster med de mått och den konstruktion du tänker använda.
 
-Vuxentröjor är projekt på över tusen meter. En kroppsnära pullover i DK kan behöva cirka 1 350 m eller mer. En oversized kofta med flätor i worsted kan gå över 1 800 m. Filtar klättrar snabbt upp i tusentals meter, och en stor sängfilt kan äta 2 700 m eller mer.
-
-Det är skala, inte precision. En mössa med flätor kräver mer garn än en slätstickad. En kort tröja och en tunikalång tröja är inte ens i samma kvarter. En filt med tung struktur äter mer garn än en enkel slätstickad rektangel.
-
-För något projektspecifikt arbetar KnitTools [garnåtgångskalkylator](/sv/verktyg/garnatgangskalkylator/) från projekttyp, storlek och garntjocklek i stället för ett enda genomsnitt.
+[Garnåtgångskalkylator](/sv/verktyg/garnatgangskalkylator/) — Referensmängder från namngivna mönster, ingen personlig förbrukningsprognos. Välj projekt, en storlek i ett namngivet mönster och enhet. Resultatet är mönstrets referensmängd, ingen prognos för ditt eget projekt.
 
 ## Hur garntjocklek ändrar totalen
 
-Tunnare garn betyder fler maskor per cm. Fler maskor per cm betyder fler maskor totalt. Fler maskor totalt betyder oftast mer meter garn. Så långt är det rakt.
+Garntjocklek är inte samma sak som vikt i gram. Ett tunnare garn vid tätare stickfasthet ändrar både maskantalet och längden per maska. Tjockleken ensam ger därför ingen totalåtgång. Läs garnets faktiska längd och vikt på banderollen. Två nystan på 100 g behöver inte ha samma löplängd, och lika många meter ger inte automatiskt samma stickade material.
 
-Men här är haken. Nystan innehåller inte samma antal meter. Fingering-garn rymmer mycket mer längd på 100 g än worsted, så en tröja i fingering kan kräva fler meter men ungefär samma totalvikt garn. Ett 100 g-nystan fingering kan ha 365 m. Ett 100 g-nystan bulky kanske har 100 m. Samma vikt på vågen, helt olika längd.
-
-Det är därför löplängd är siffran som spelar roll, inte "hur många nystan". Två nystan på 100 g kan innehålla väldigt olika längd garn beroende på fiber och märke. Silke packas annorlunda än ull. Ett entrådigt garn beter sig annorlunda än ett flertrådigt. Ett företags 100 g-nystan kan innehålla mycket mer garn än ett annat. Om du är osäker på vilken garntjocklek ditt garn hör till går [garntjocklekstabellen](/sv/verktyg/garntjocklekar/) igenom det.
+Skilj på projektets totala garnåtgång i meter, garnets vikt och antalet nystan att köpa. [Garntjocklekstabellen](/sv/verktyg/garntjocklekar/) förklarar kategorierna, men en kategori motsvarar inte en bestämd löplängd per nystan.
 
 ## Räkna från stickfastheten
 
-Den mest precisa uppskattningen börjar med en riktig provlapp.
+En representativ provlapp hjälper dig att kontrollera stickfasthet och mäta garnåtgång. Stickfastheten ensam ger maskor och varv, inte meter per maska.
 
-Stickfastheten säger hur många maskor och varv som ryms inom ett mått. Projektets mått säger hur mycket tyg du gör. Tillsammans kommer de mycket närmare det verkliga maskantalet än någon allmän regel. Det är kärnan.
+I ett tänkt rektangulärt stycke med 18 maskor och 24 varv per 10 cm ger 50 cm bredd 50 × 18 / 10 = 90 maskor. För 63 cm längd blir det 63 × 24 / 10 = 151,2 varv. Väljer du 151 hela varv får du 90 × 151 = 13 590 maskor och cirka 62,9 cm längd. Det omfattar varken formning, kanter eller montering och är ingen beräkning för en hel tröja.
 
-Så här fungerar det i praktiken. Säg att provlappen ger 18 maskor och 24 varv över 10 cm. Framstycket på en tröja är 50 cm brett och 63 cm långt. Det blir 90 maskor på bredden och ungefär 151 varv på höjden. Multiplicera dem: omkring 13 600 maskor bara för framstycket. Därifrån blir total garnåtgång ett matteproblem i stället för en gissning, om du vet hur mycket garn varje maska använder (något du kan mäta eller uppskatta från provlappen).
+För en ytbaserad uppskattning: sticka med projektets garn, stickor, stickmönster och arbetssätt, plant eller runt. Tvätta och torka som det färdiga plagget; mät först när provlappen är helt torr. Ytan måste motsvara den garnmängd du väger eller mäter. Dela inte hela provlappens vikt med enbart mittpartiets yta. Hantera avvikande kanter och lösa trådändar separat och använd en våg som är tillräckligt noggrann för provets storlek.
 
-Du behöver inte göra varje uppskattning för hand. En garnkalkylator som [garnåtgångskalkylatorn](/sv/verktyg/garnatgangskalkylator/) är användbar för ett snabbt intervall efter projekttyp, storlek och garntjocklek innan du jämför intervallet med mönstret, provlappen och banderollen.
+Beräkna: provets garnåtgång × projektets stickade yta / provets yta. [Rita Buchanans metod](https://www.datocms-assets.com/75073/1664408268-taking-the-measure.pdf) beskriver principen. Räkna formade delar och olika stickmönster var för sig och ta med sömmar, kanter och garn till provlappar. Ytskalning garanterar inte plaggets totalåtgång.
 
-Det hjälper ändå att förstå skalan. Om en kalkylator säger 365 m för en sängfilt är något fel. Tusentals meter? Åtminstone rimligt. Den magkänslan fångar inmatningsfel innan du köper garn efter dem. Även en grov provlapp tar dig närmare än att hoppa över steget helt. Sticka provlappen på kvällen, blocka över natten, mät på morgonen. Inte mycket tid för den trygghet det ger.
+[Garnåtgångskalkylator](/sv/verktyg/garnatgangskalkylator/) — Referensmängder från namngivna mönster, ingen personlig förbrukningsprognos. Välj projekt, en storlek i ett namngivet mönster och enhet. Resultatet är mönstrets referensmängd, ingen prognos för ditt eget projekt.
 
 ## Vägmetoden för restnystan
 
 Har du restnystan i förrådet? En köksvåg är din bästa vän.
 
-Ta två siffror från banderollen: total vikt och total löplängd. Om ett helt 100 g-nystan har 200 m och resten väger 63 g finns det ungefär 126 m kvar. Snabb matte: dela återstående vikt med full vikt och multiplicera med total löplängd. Tillräckligt exakt för planering.
+Använd banderollen för just det garnet och väg bara torrt garn, utan banderoll eller pappkärna. Ett tänkt exempel: 100 g innehåller 200 m och resten väger 63 g. Då blir det 63 / 100 × 200 = 126 m. Det är en uppskattning utifrån banderollens förhållande, inte en uppmätt återstående längd.
 
-En köksvåg som visar gram fungerar fint. En badrumsvåg gör det inte. Inte ens nära. Du vill ha precision ner till grammet, inte avrundning till närmaste halvkilo.
+Kontrollera vågens upplösning och noggrannhet. Hela gram kan räcka för ett större restnystan men vara för grovt för en liten garnrest eller provlapp. Avrundade banderolluppgifter och vågavläsningar är inte exakta mått.
 
-Knepet fungerar också mitt i projektet. Sticka en del, väg det som finns kvar, kontrollera om det fortfarande räcker till resten. Om du är på sista nystanet och ärmen inte är klar berättar vägningen om du ligger bra till eller är på väg mot problem. Vissa stickare väger efter varje större del i projekt med snäv garnmängd. Andra väger först när nystanet börjar kännas oroväckande lätt.
+Vägning under arbetet visar hur mycket garn som återstår. Jämför med en separat uppskattning för de delar som är kvar; vikten ensam förutsäger inte nästa ärms eller kants åtgång.
 
 Saknas banderollen? Om du vet garnnamnet finns löplängden per nystan oftast på tillverkarens webbplats eller på Ravelry. Utan någon banderollinformation alls hjälper vikten inte särskilt mycket, eftersom du behöver båda siffrorna för att matten ska fungera.
 
@@ -68,54 +62,46 @@ Det fungerar utmärkt för att bedöma restgarn från tidigare projekt också. M
 
 ## Vad som äter extra garn
 
-Vissa konstruktionsval använder tyst mer garn än vanlig slätstickning. Det är här uppskattningar går snett.
+**Flätor och struktur.** Mät det aktuella stickmönstret i stället för att lägga samma procent på alla flätor. En slätstickad provlapp representerar inte ett flät- eller resårparti med samma färdiga mått.
 
-**Flätor** är den stora. Varje flätkorsning drar extra garn genom tyget eftersom maskorna rör sig i sidled i stället för att staplas rakt upp. Ju bredare fläta, desto mer garn kräver varje korsning. En enkel 4-maskors repfläta lägger till lite. En 12-maskors fläta lägger till betydligt mer. En tungt flätad arantröja behöver större marginal än en slätstickad tröja med samma mått. Om hela kroppen är flätstickad ska du inte uppskatta efter slätstickad garnåtgång. Då tar garnet slut.
+**Flerfärgsstickning.** Använd mönstrets mängd per färg eller mät varje färgs åtgång i en representativ rapport. Flotteringar på avigsidan gör att synlig färgyta inte räcker som fördelningsgrund. Intarsia har separat garn för varje färgfält; räkna med skarvar och trådändar. Avrunda inköpet till hela nystan för varje färg för sig.
 
-Flerfärgsstickning med flotteringar bär garnet över baksidan av tyget, och de flotteringarna blir snabbt mer garn än diagrammet antyder. Huvudfärgen behöver ofta mer än du tror. Kontrastfärger försvinner snabbare i flerfärgspartier än det känns när du tittar på rätsidan. Flotteringarnas längd spelar också roll. Att fånga flotteringar var 3-4:e maska använder lite mer garn än att låta dem löpa längre, men tyget beter sig bättre. Intarsia är annorlunda eftersom varje färgfält har sitt eget garn utan långa flotteringar. För alla flerfärgsprojekt: uppskatta total garnåtgång först, dela sedan efter hur stor yta varje färg faktiskt täcker.
+Med två trådar tillsammans: kontrollera om mönstret anger mängden per tråd eller för båda sammanlagt. Båda trådarna löper genom partiet. Dela inte en tråds längd mellan två trådar och dubblera inte en mängd som redan omfattar båda.
 
-Resår drar ihop tyget. Täta strukturmönster ökar också garnåtgången per cm bredd. Om hela projektet är resår eller kraftigt strukturerat räknar en slätstickad uppskattning för lågt.
-
-**Long-tail-uppläggning.** Lämna mer svans än du tror. Särskilt vid stora uppläggningar med 200+ maskor kan svansen äta förvånansvärt mycket garn. Att få slut på svans mitt i uppläggningen betyder att börja om.
-
-Sömmar använder också garn. Inte enorma mängder, men lätt att glömma.
+**Korsuppläggning, sömmar och trådändar.** Ta med dem, liksom provlappar och montering. Kontrollera vad mönstrets mängd redan omfattar innan du lägger till marginal.
 
 ## Regeln "köp ett extra"
 
-Köp ett extra nystan om garnet finns och budgeten tillåter. Det är regeln.
-
-Garnuppskattningar kommer nära. De ser inte framtiden. Det extra nystanet är billig försäkring jämfört med att sakna några meter i slutet av projektet. Många butiker tar emot oöppnade nystan i retur inom rimlig tid, så nackdelen är liten. Och om de inte gör det är ett reservnystan fortfarande mer användbart än ett projekt som står stilla för att en halv ärm saknar garn.
+Ett extra nystan är ingen allmän regel. Behovet beror på nystanets löplängd, projektet och dina ändringar. Planera för provlappar, montering och osäkerhet och avrunda sedan totalen uppåt till hela nystan. Räkna inte samma marginal två gånger om mönstret redan har en reserv. Köp samma färgbad när det går; [Lion Brand förklarar skillnader mellan partier](https://support.lionbrand.com/support/solutions/articles/17000035215-what-are-dye-lots-can-i-order-more-of-the-same-lot-). Kontrollera butikens returvillkor.
 
 Det här spelar ännu större roll med handfärgat, småbatch eller utgånget garn där ett matchande nystan senare kan vara omöjligt att hitta.
 
 ## Uppskatta från mönster eller designa själv
 
-Publicerade mönster anger garnåtgång. Börja där. Den siffran är oftast den bästa basen du får, särskilt om designern anger färdiga mått och stickfasthet tydligt.
+Utgå från mönstrets garnåtgång för din valda storlek och kontrollera färdiga mått och stickfasthet. Mängden kan anges i meter, yards, gram eller nystan. Gram och nystan kräver uppgifter om det angivna garnets löplängd och vikt.
 
-Men mönstrets garnåtgång har gränser. Den utgår från att du stickar exakt den angivna storleken, i ett garn med liknande egenskaper och med designerns stickfasthet. Ändra något av det och siffran flyttar sig.
+När du [byter garn](/sv/artiklar/byta-garn-i-stickmonster/), räkna först om originalmängden till längd. I [DROPS räkneexempel](https://www.garnstudio.com/lesson.php?id=14&cid=12) blir 300 g med 170 m per 50 g: 300 / 50 × 170 = 1 020 m. Med ersättningsgarnets 150 m per 50 g blir det 1 020 / 150 = 6,8 nystan, avrundat uppåt till 7 nystan: 350 g och 1 050 m. De 300 grammen är exemplets utgångspunkt, inte en generell tröjåtgång. De 30 m som blir över efter avrundningen är inte automatiskt en tillräcklig reserv.
 
-Designar du själv eller gör stora ändringar? Då slutar mönstrets garnåtgång vara pålitlig. Extra kroppslängd, större storlek, annan maskbild eller byte till annan garntjocklek flyttar totalen. Att lägga till 7-8 cm kroppslängd på en worsted-tröja kan lätt lägga till 90-180 m.
+Använd samma längdenhet i hela beräkningen. [En yard är exakt 0,9144 m enligt NIST](https://www.nist.gov/pml/owm/si-units-length). Multiplicera yards med 0,9144 för meter; dividera meter med 0,9144 för yards. Behåll oavrundad längd tills du räknar nystan och avrunda sedan nystanantalet uppåt.
 
-När du [byter garn](/sv/artiklar/byta-garn-i-stickmonster/) ska du matcha total löplängd snarare än antal nystan. Ett mönster som kräver "8 nystan" är bara användbart om du använder samma garn. Har du bytt till något med annan löplängd per nystan blir nystansiffran meningslös. Matcha meter. Kontrollera sedan att garntjockleken är tillräckligt nära och [sticka provlapp för att bekräfta stickfastheten](/sv/artiklar/sa-mater-du-stickfasthet/).
-
-Det är där [garnåtgångskalkylatorn](/sv/verktyg/garnatgangskalkylator/) gör nytta: när du kontrollerar projektets skala efter typ, storlek och garntjocklek innan du köper.
+Lika många meter är en utgångspunkt, inte ett bevis på att garnen fungerar likadant. [Kontrollera stickfastheten med en provlapp](/sv/artiklar/sa-mater-du-stickfasthet/) och bedöm materialet efter tvätt. Beräkna extra längd, formning och ändrade stickmönster från relevanta prov. Några extra centimeter på en tröja har ingen fast garnåtgång.
 
 ## FAQ
 
-**Kan jag uppskatta garn utan provlapp?**  
-Grova intervall efter projekttyp fungerar för shoppingrundan. För allt kroppsnära: sticka provlapp först.
+**Kan jag uppskatta garn utan provlapp?**
+Mönstrets åtgång för din storlek ger en utgångspunkt. Kontrollera stickfasthet och material innan du förlitar dig på mängden, särskilt för plagg med bestämd passform. Ett generellt intervall bekräftar inte inköpsmängden.
 
-**Vad gör jag om jag inte hittar samma färgbad?**  
-Växla mellan nystan vartannat varv. Färgskillnaden fördelas jämnare och blir mindre tydlig.
+**Vad gör jag om jag inte hittar samma färgbad?**
+Jämför i dagsljus och i en tvättad provlapp. Att växla nystan kan mildra övergången men garanterar ingen färgmatchning. Bedöm om skillnaden är acceptabel innan du fortsätter.
 
-**Hur uppskattar jag för ränder?**  
-Räkna total garnåtgång och dela sedan proportionellt efter hur många varv varje färg täcker. Lägg till lite marginal för varje färgbyte.
+**Hur uppskattar jag för ränder?**
+Varvens andelar fungerar bara när bredd, garn, stickfasthet och stickmönster är jämförbara. Beräkna formade partier och olika garner separat. Ta med medförda trådar eller trådändar och avrunda varje färgs inköp uppåt för sig.
 
-**Påverkar fiberinnehåll hur mycket garn jag behöver?**  
-Inte direkt. Men fibrer som superwash merino kan växa efter blockning, vilket kan ändra stickfastheten och flytta garnuppskattningen.
+**Påverkar fiberinnehåll hur mycket garn jag behöver?**
+Fiber och garnets konstruktion påverkar materialet och hur det förändras vid tvätt. Kontrollera banderollens längd och en behandlad provlapp. Det finns ingen allmän åtgångsfaktor för en viss fiber.
 
-**Vilket är det värsta projektet att få slut på garn i?**  
-Allt med ett unikt färgbad du inte kan ersätta. Särskilt handfärgat garn. Köp det extra nystanet.
+**Vilket är det värsta projektet att få slut på garn i?**
+Ett projekt med ett färgbad som inte går att komplettera är svårt att rädda. Planera hela åtgången och en projektspecifik reserv; ett extra nystan räcker inte alltid.
 
-**Kan jag använda restgarn från olika projekt tillsammans?**  
-Ja, så länge garntjocklek och skötselråd fungerar ihop. Väg varje rest så du vet vad du har.
+**Kan jag använda restgarn från olika projekt tillsammans?**
+Kontrollera skötselråden och sticka och tvätta garnerna tillsammans för att bedöma stickfasthet, material och färgfällning. Väg varje identifierat garn separat och använd dess egna banderolluppgifter för längden.

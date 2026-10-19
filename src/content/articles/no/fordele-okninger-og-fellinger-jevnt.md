@@ -18,11 +18,11 @@ translationKey: "increase-decrease-evenly"
 
 "Øk 8 masker jevnt over neste pinne." Oppskriften går videre. Du sitter igjen og ser på pinnen mens hoderegningen starter.
 
-Enten pinnen skal få flere masker eller færre, er grunnregningen den samme. Del nåværende maskeantall på antallet endringer du skal gjøre. Svaret er intervallet mellom formingspunktene. Det er formelen. Resten handler om økningstype, fellingstype, rester som ikke går opp, kanter og hvordan plasseringen faktisk ser ut i strikketøyet.
+Del antallet masker som inngår i formingen, på antallet økninger eller fellinger du skal utføre. Det gir et utgangspunkt for fordelingen, men teknikken avgjør hvordan rapporten skrives. Kanter, rester og mønster må også tas med.
 
 ## Formelen i én linje
 
-Nåværende maskeantall / antall endringer = intervallet mellom hver endring.
+Opprinnelige masker som inngår i formingen / antall økninger eller fellinger = gjennomsnittlig antall opprinnelige masker per handling. Dette er hele rapportens størrelse, ikke nødvendigvis antallet vanlige masker mellom handlingene.
 
 Intervallet forteller hvor mange eksisterende masker som hører til hver endring, men hvordan rapporten skrives, avhenger av metoden. I M1-eksemplene nedenfor lages økningen mellom eksisterende masker, så et intervall på 10 kan skrives `strikk 10, M1`. Når økningen lages i en eksisterende maske, som med KFB, skal den masken regnes med i intervallet: skriv `strikk 9, KFB`, ikke `strikk 10, KFB`, fordi det siste bruker 11 opprinnelige masker. Ved fellinger omfatter intervallet også maskene som fellingen bruker.
 
@@ -30,31 +30,33 @@ Samme matematikk. To litt ulike måter å skrive pinnen på.
 
 Hvis kant- eller sømmasker skal holdes utenfor formingen, trekker du det samlede antallet fra før du regner ut intervallet: `(nåværende maskeantall - reserverte kantmasker) / antall endringer`. Fordel endringene bare over de gjenværende maskene, og strikk de reserverte maskene slik strikkeoppskriften sier. Hvis kantmaskene skal være med i fordelingen, bruker du hele maskeantallet. Dette er noe annet enn å dele det første og siste intervallet for å balansere plasseringen, fordi de ytterste maskene da fortsatt er med i fordelingen.
 
+Skill antallet handlinger fra endringen i maskeantall: M1 og KFB øker med 1; 2 r sammen og ssk feller 1; 3 r sammen feller 2. Antallet handlinger må være et positivt heltall. Med U tilgjengelige masker og E handlinger krever 2 r sammen U ≥ 2 × E, og 3 r sammen U ≥ 3 × E. KFB trenger én opprinnelig maske per økning. Her betyr M1 én vridd økning i tråden per tilgjengelig mellomrom: U masker frem og tilbake har U − 1 indre mellomrom; en allerede sammenføyd omgang har U. Reserverte kanter kan begrense plasseringen ytterligere. Eksemplene strikkes rett uten reserverte kantmasker hvis ikke annet er angitt.
+
 ## Eksempel: en ren økning
 
 Du har 80 masker på pinnen. Oppskriften ber om 8 økninger.
 
 80 / 8 = 10.
 
-Pinnen kan skrives "strikk 10, M1" gjentatt 8 ganger. Det bruker alle 80 maskene, legger til 8 nye masker og ender med 88 masker. Regnestykket stemmer, økningene kommer med jevnt mellomrom, og stoffet blir jevnt bredere.
+Frem og tilbake strikker du "5 r, M1, (10 r, M1) 7 ganger, 5 r". Det bruker 5 + 7 × 10 + 5 = 80 opprinnelige masker og gir 1 + 7 = 8 økninger: 88 masker. Økningene ligger etter opprinnelig maske 5, 15, 25, 35, 45, 55, 65 og 75. Avstanden er 10 masker med 5 i hver ende, altså symmetrisk plassering.
 
-Det finnes ett lite kantproblem: siste M1 havner helt på slutten av pinnen, uten vanlige masker etterpå. Noen oppskrifter er laget slik. I andre tilfeller vil du ha litt avstand til begge kanter. Da kan du dele ett intervall mellom starten og slutten av pinnen: "strikk 5, M1, (strikk 10, M1) 7 ganger, strikk 5." Samme 80 masker brukes, samme 8 økninger gjøres, og du får 88 masker ut. Økningene ligger unna kanten, noe som gjør sømmer og senere oppplukking ryddigere.
+"10 r, M1" 8 ganger bruker også 80 masker, men passer på en allerede sammenføyd omgang, der siste M1 lages i tråden ved omgangsgrensen. Frem og tilbake finnes ingen tråd mellom to masker etter siste maske. Siste M1 er derfor ikke bare et spørsmål om utseende.
 
 ## Eksempel: en rest du må håndtere
-
-Virkelige oppskrifter deler seg sjelden pent.
 
 Ta 75 masker og 8 økninger.
 
 75 / 8 = 9 med rest 3.
 
-Det betyr fem seksjoner med 9 masker og tre seksjoner med 10 masker. Hver seksjon får én M1 i slutten. Fem "strikk 9, M1" og tre "strikk 10, M1" bruker 75 masker og gir 8 økninger, så pinnen ender på 83 masker.
+På en allerede sammenføyd omgang bruker du fem seksjoner med 9 masker og tre med 10, med én M1 etter hver seksjon. Én rekkefølge er 9, 9, 10, 9, 9, 10, 9, 10: strikk antallet masker rett, og lag M1. Det bruker 5 × 9 + 3 × 10 = 75 masker og gir 8 økninger: 83 masker. Alle avstandene, også over omgangsmarkøren, er 9 eller 10 opprinnelige masker.
 
-Hvor legger du de lengre seksjonene? Spre dem. Ikke legg alle tre 10-maskersseksjonene først og resten etterpå. Øyet leser det som ujevnt selv om summen teknisk stemmer.
+Frem og tilbake kan du fordele symmetrisk slik:
 
-En brukbar fordeling er 9, 9, 10, 9, 9, 10, 9, 10. De lengre seksjonene faller omtrent hver tredje gang, og fordelingen ser planlagt ut i stedet for skjev.
+1. Strikk 5 r, M1.
+2. Strikk 9 r, M1; 9 r, M1; 10 r, M1; 9 r, M1; 10 r, M1; 9 r, M1; 9 r, M1.
+3. Strikk de siste 5 maskene rett.
 
-Du trenger ikke være millimeterpresis. En maske feil i plasseringen synes sjelden i ferdig stoff. Målet er en fordeling som ser jevn ut, ikke matematisk perfeksjon.
+Endene bruker 5 + 5 masker, og de sju indre mellomrommene bruker 5 × 9 + 2 × 10. Totalt brukes 75 masker og lages 8 M1, slik at du får 83 masker. Økningene ligger etter maske 5, 14, 23, 33, 42, 52, 61 og 70. Hvert speilpar summerer til 75. Dette er to mulige fordelinger, ikke de eneste.
 
 ## Fellingssiden av samme formel
 
@@ -64,19 +66,17 @@ Ta 90 masker og 10 fellinger.
 
 90 / 10 = 9.
 
-Hver rapport dekker 9 masker: de første 7 strikkes vanlig, de siste 2 strikkes sammen. Pinnen blir altså "strikk 7, 2 r sammen" gjentatt 10 ganger. Det bruker alle 90 maskene og fjerner 10, så du ender med 80 masker. Ingen rester, og ingen kantbuffer med mindre du vil ha en.
+Hver rapport dekker 9 masker: de første 7 strikkes vanlig, de siste 2 strikkes sammen. Pinnen blir altså "strikk 7, 2 r sammen" gjentatt 10 ganger. Det bruker alle 90 maskene og fjerner 10, så du ender med 80 masker. Ingen masker blir til overs. Her er det ikke reservert egne kantmasker.
 
-Rester fungerer på samme måte som ved økninger. 95 masker og 10 fellinger gir 9 med rest 5. Fem rapporter blir 9 masker, og fem blir 10 masker. Spre de lengre rapportene utover pinnen i stedet for å samle dem.
+Med 95 masker og 10 enkle fellinger blir 95 / 10 = 9 med rest 5. Strikk "7 r, 2 r sammen, 8 r, 2 r sammen" totalt 5 ganger. Hvert par bruker 9 + 10 = 19 opprinnelige masker og gir 8 + 9 = 17: alle 95 brukes, 10 fellinger utføres og 85 masker gjenstår. Korte og lange rapporter veksler. Ingen kantmasker er reservert her.
 
 ## Hvorfor oppskrifter ber om jevn fordeling
 
-Økninger samlet på ett sted får ett område til å blusse ut mens resten av stoffet holder samme bredde. Da får plagget en synlig kile i stedet for en myk overgang. Fellinger samlet på ett sted trekker stoffet inn på feil plass, noen ganger så tydelig at hele delen ser skjev ut.
+Jevn plassering sprer endringen i maskeantall over det valgte området. Samler du formingen på bestemte steder, får du en annen form.
 
-Det vanligste stedet du ser "øk jevnt", er rett etter vrangbord. Vrangborden trekker inn ved samme maskeantall som bolen trenger for å ligge flatt. Én overgangspinne kan utvide stoffet uten at du må legge opp på nytt. Jevn fordeling får overgangen til å forsvinne inn i stoffet i stedet for å se ut som et hakk. Hvis du først må finne startmaskene, dekker [oppleggsguiden](/no/artikler/hvor-mange-masker-skal-du-legge-opp/) det steget.
+Ved overgangen fra vrangbord til bol følger du oppskriftens maskeantall og strikkefasthet for hver struktur; økninger er ikke automatisk nødvendige. Jevn fordeling garanterer ikke en usynlig overgang. [Oppleggsguiden](/no/artikler/hvor-mange-masker-skal-du-legge-opp/) forklarer startantallet.
 
-[Toppfelling på luer](/no/artikler/strikke-lue-metoder-for-alle-nivaer/) er det andre kjente eksemplet. Fellinger som gjentas jevnt over flere omganger, lager en ryddig spiral eller stjerne mot toppen. Rotete plassering gir en skjev luekrone som er vanskelig å fikse uten å rekke opp.
-
-Du ser også "øk jevnt" i raglanbærestykker, ermekupler og overganger der designeren må endre maskeantallet uten at selve endringen tar all oppmerksomheten.
+[Guiden til å strikke lue](/no/artikler/strikke-lue-metoder-for-alle-nivaer/) tar opp toppfelling. Plassering, helling og omganger mellom fellingene påvirker også formen. Raglanlinjer og ermetopper trenger egne instrukser som ikke skal erstattes av en generell jevn fordeling.
 
 ## Hvilken økning du skal bruke
 
@@ -84,51 +84,39 @@ Hvis oppskriften angir en metode, bruk den. Designere velger økninger av grunne
 
 Hvis oppskriften bare sier "øk", velger du etter stoffet.
 
-**M1L og M1R** er vanlige diskrete økninger i glattstrikk. De løfter tråden mellom to masker og vrir den slik at det ikke blir hull. M1L heller mot venstre, M1R mot høyre. Når økningene er spredt jevnt over en pinne, betyr hellingen mindre. Ved synlige formingslinjer, som raglan eller v-hals, bør hellingen følge oppskriften slik at sidene speiler hverandre.
+**M1L og M1R** lages i tråden mellom masker uten å bruke en maske fra pinnen. Hold garnet bak arbeidet. M1L: løft tråden forfra og bakover med venstre pinne og strikk rett i bakre maskeledd. M1R: løft bakfra og fremover og strikk rett i fremre maskeledd. Da vris tråden. Se [Purl Sohos M1-instruksjoner](https://www.purlsoho.com/create/make-one-right-m1r-make-one-left-m1l/). Hellingen beskrives fra rettsiden når du strikker fra venstre pinne til høyre. Følg oppskriften ved parvis forming.
 
-**KFB** øker i en eksisterende maske. Den etterlater en liten horisontal strek som kan ligne en vrangkul. Den fungerer fint i rillestrikk eller strukturmønstre der streken forsvinner. I glattstrikk synes den mer, og en hel rekke KFB-økninger kan legge igjen en svak linje.
+**KFB** bruker én eksisterende maske og gir to. Strikk rett i fremre maskeledd, behold masken på venstre pinne og strikk rett i bakre maskeledd før du slipper den av. Økningen etterlater en liten tverrstrek. I motsetning til M1 teller KFB-masken med i rapportens opprinnelige masker.
 
 **Kast** lager et bevisst hull. Det hører hjemme i hullmønster, dekorative hull og pinner der økningen pares med en felling et annet sted for å holde maskeantallet likt. Det er sjelden det en oppskrift mener med "øk jevnt", med mindre den sier det tydelig.
 
-**Løftede økninger** henter en ny maske fra pinnen under. De kan være svært diskrete i glattstrikk, men flere løftede økninger tett på hverandre kan trekke i stoffet.
-
 ## Hvilken felling du skal bruke
 
-**2 r sammen** heller mot høyre. Det er standardvalget for mange "fell 1"-instruksjoner når hellingen ikke betyr noe.
+**2 r sammen** strikker to masker til én og heller mot høyre sett fra rettsiden. Bruk fellingen oppskriften angir.
 
-**Ssk** heller mot venstre. Det er den naturlige partneren til `2 r sammen` når fellingene skal speile hverandre, for eksempel i raglan eller i starten og slutten av en pinne. Noen bruker skp, altså ta en maske løs av, strikk én, og trekk den løse masken over. Resultatet er visuelt ganske likt.
+**Ssk** er en venstrehellende enkel felling: ta to masker rett løs av, én om gangen, og strikk dem deretter rett sammen gjennom bakre maskeledd. **Skp** tar i stedet én maske rett løs av, strikker neste rett og trekker den løse masken over. Begge bruker 2 masker og gir 1, men teknikkene er ulike. Følg oppskriftens variant.
 
 **3 r sammen** fjerner to masker i én handling og heller tydelig mot høyre. Den brukes når oppskriften vil felle brattere eller i enkelte hullmønsterdiagrammer.
 
-**Sentral dobbelfelling**, ofte skrevet CDD, S2KP2 eller sl2-k1-p2sso i engelske oppskrifter, fjerner to masker og lar midtmasken ligge rett opp. Den er vanlig i hullmønster, chevronmønstre og luekroner der designen vil ha en tydelig loddrett linje.
-
-For en vanlig "fell jevnt over pinnen" på en rettsidepinne er `2 r sammen` ofte et rimelig valg hvis oppskriften ikke sier noe annet. Når fellingene er spredt, betyr jevn plassering vanligvis mer enn hellingen.
+**Sentral dobbelfelling (CDD)** feller 2 masker med sentrert plassering. Én variant er **S2KP2**: ta 2 masker løs av sammen som om de skulle strikkes rett sammen, strikk 1 rett og trekk begge løse masker over den. Tre masker blir én. Sjekk oppskriftens definisjon av CDD; forkortelsene angir ikke alltid samme teknikk.
 
 ## Kantmasker og sømrom
 
-Formelen bestemmer ikke kantbehandlingen for deg.
+Hold angitte kant- eller sømmasker utenfor fordelingen. Strikk først startkanten, form over de tilgjengelige maskene og strikk sluttkanten. I det symmetriske eksemplet med 80 masker inngår de 5 maskene i hver ende i de 80; ingen egen kant er reservert.
 
-For deler som skal sys sammen, hold første og siste formingspunkt minst et par masker inn fra kanten. En felling i selve kantmasken gjør sømmen vanskeligere og synes lettere. En økning helt i kanten forstyrrer også jarekanten og kan gjøre det vanskeligere å plukke opp masker senere.
-
-Trikset med å dele første intervall på midten løser ofte dette. I stedet for å starte direkte med "strikk 10, M1" kan pinnen begynne "strikk 5, M1, strikk 10, M1..." Da får kanten en liten buffer.
-
-Hvis oppskriften gir eksakt plassering, som `2 r, *M1, 9 r; gjenta fra * til de siste 2 m, 2 r`, har designeren allerede løst kanten. Følg den som skrevet.
+Med 76 masker og 2 reserverte i hver ende gjenstår 76 − 4 = 72. For 8 M1 blir 72 / 8 = 9. Strikk `2 r, *M1, 9 r; strikk fra * totalt 8 ganger, 2 r`. Rapporten bruker 9 masker og gir 10. Totalt brukes 2 + 8 × 9 + 2 = 76, og resultatet er 2 + 8 × 10 + 2 = 84 masker. Etter siste M1 gjenstår 11 opprinnelige masker. Kantmaskene holdes utenfor, men avstandene i endene er ikke symmetriske.
 
 ## Når formingspunktet havner på en vrang maske
 
-Dette skjer i overganger fra vrangbord og i heldekkende strukturmønstre.
+En vrang økning eller felling endrer også maskeantallet. Pfb bruker for eksempel 1 maske og gir 2; 2 vr sammen bruker 2 og gir 1. Velg teknikk og helling ut fra den siden av arbeidet oppskriften viser til.
 
-Hvis formingspunktet havner på en rett maske i mønsteret, kan du ofte gjøre økningen eller fellingen som vanlig. Hvis det havner på en vrang maske, blir resultatet som regel renest med vrangsidevarianten: M1 vridd vrang, pfb i stedet for KFB eller `2 vr sammen` i stedet for `2 r sammen`.
-
-Noen oppskrifter flytter plasseringen en maske eller to slik at alle formingspunktene havner på rette masker. Det er ikke en feil. Stoffet bryr seg mer om hvordan mønsteret leses enn om nøyaktig hvor regnestykket ville satt økningen.
+Å bytte fra rett til vrang teknikk bevarer ikke automatisk vrangbord, fletter eller hullmønster. Sjekk hvilke masker handlingen bruker, hvor de nye maskene hører hjemme og hvordan neste pinne fortsetter. Hvis oppskriften flytter et formingspunkt av hensyn til motivet, behold plasseringen og tell gjennom hele pinnen.
 
 ## Når du strikker rundt
 
-Samme formel, men uten kanter. Omkretsen i masker deles på antall endringer, og formingen gjentas hele veien rundt.
+En allerede sammenføyd omgang har ingen sidekanter, men avstanden fra siste formingspunkt tilbake til det første teller også. Med 80 masker gir "10 r, M1" 8 ganger 88 masker. Siste M1 ligger ved omgangsgrensen; neste avstand er 10 opprinnelige masker. Flytt markøren ved behov for å komme til tråden, og sett den tilbake ved riktig omgangsstart. Ikke flytt ett enkelt formingspunkt uten å sjekke begge naboavstandene.
 
-Det du må passe på, er omgangsmarkøren. Hvis en felling havner akkurat over markøren, blir den vanskeligere å strikke og lese på neste omgang. Flytt formingspunktet en maske eller to hvis oppskriften tillater det, eller bruk en ekstra markør for akkurat den fellingen.
-
-For luekroner er fellingsomgangene ofte skrevet ut i oppskriften, for eksempel "strikk 8, 2 r sammen omgangen rundt, strikk én omgang vanlig, strikk 7, 2 r sammen". Formelen trengs først og fremst når oppskriften bare sier "fell 8 masker jevnt".
+Et lueeksempel starter med 80 masker: "8 r, 2 r sammen" 8 ganger bruker 80 og feller 8, slik at 72 gjenstår. Strikk én omgang rett over disse 72 maskene. Deretter bruker "7 r, 2 r sammen" 8 ganger alle 72 og etterlater 64. Mellomomgangen endrer ikke maskeantallet. Dette kontrollerer regningen for disse omgangene; hele toppens form og fellingstakt følger oppskriften.
 
 ## Symmetrisk og parvis forming
 
@@ -140,7 +128,7 @@ Når en oppskrift sier "øk 1 maske i hver side hver 6. pinne", handler det om e
 
 ## Noen vanlige intervaller det er verdt å kjenne igjen
 
-Noen tall dukker opp ofte nok til at du begynner å kjenne dem igjen.
+De tre første eksemplene gjelder allerede sammenføyd rundstrikk: siste M1 lages i tråden ved omgangsgrensen. Fellingseksemplene kan brukes frem og tilbake eller rundt uten reserverte kantmasker. Vanlige masker strikkes rett.
 
 - 80 masker, øk 8 -> "strikk 10, M1" 8 ganger -> 88 masker
 - 60 masker, øk 6 -> "strikk 10, M1" 6 ganger -> 66 masker
@@ -153,17 +141,15 @@ Når tallene ikke samarbeider så pent, fordeles resten som lengre seksjoner sli
 
 ## Når matematikken blir irriterende
 
-80 masker, øk 8. Ferdig.
+Skriv ned hele arbeidsrekkefølgen før en komplisert formingspinne. Riktig sluttantall beviser ikke at en hullmønster- eller fletterapport kan fortsette: sjekk også diagrammet og neste pinne.
 
-127 masker, øk 11, samtidig som pinnen må balanseres rundt en 6-maskers rapport. Det er en type pinne der hoderegning over levende masker tar lenger tid enn selve økningene, og det er også der feilene kommer. Da er det bedre å skrive hele rytmen ned først eller bruke en egen øke- og fellingskalkulator før du begynner å strikke.
-
-For enklere pinner er håndregningen rask og pålitelig. Å vite når du skal ta fram et verktøy, og når det ikke trengs, er en del av effektiv strikking.
+Dette er en veiledning i å regne for hånd. Nettstedet har ingen interaktiv øke- og fellingskalkulator.
 
 ## Ting som dukker opp
 
 Hvis en oppskrift sier "øk jevnt" uten å si hvor mange, se etter neste målmaskeantall. Trekk det du har fra målet. Det er uvanlig, men det skjer i eldre oppskrifter og egne konstruksjoner.
 
-Hvis plasseringen blir én maske feil et par steder, ikke rekk opp. I de fleste prosjekter vil det ikke synes. Målet er en fordeling som ser jevn ut.
+Hvis et formingspunkt forskyves, sjekk maskeantallet, naboavstandene og mønsteret før du bestemmer om du skal rekke opp. Synligheten avhenger av strikketøyet; riktig total beviser ikke riktig plassering.
 
 Å øke eller felle på en vrangpinne fungerer på samme måte. Bruk vrangsidevarianten av metoden du bruker. Plasseringsregningen endres ikke.
 
@@ -172,19 +158,19 @@ For selve oppleggstallet dekker [guiden om hvor mange masker du skal legge opp](
 ## FAQ
 
 **Kan jeg bare øyemåle plasseringen i stedet for å regne?**
-For små justeringer på brede stykker, som et teppe eller skjerf, fungerer det ofte. For plagg og alt der målene betyr noe, bør du regne. Fem minutter med matematikk er mindre arbeid enn å rekke opp en ermekuppel.
+Planlegg og tell handlingene også ved små justeringer. Kontroller plasseringen mot mønsteret og den ønskede formen.
 
 **Hva gjør jeg hvis oppskriften ikke sier hvilken økning jeg skal bruke?**
-M1L eller M1R er en trygg standard i glattstrikk. KFB fungerer i rillestrikk eller struktur der den lille buen forsvinner. Økningstypen betyr mer når formingen er synlig enn når den er spredt jevnt over en pinne.
+I de rettstrikkede eksemplene her kan du bruke økningen i mellomtråden ovenfor hvis oppskriften lar deg velge. KFB ser annerledes ut og bruker en eksisterende maske, så skriv om rapporten hvis du bytter teknikk.
 
 **Hvorfor får jeg noen ganger én økning for lite eller for mye?**
 Som regel er en rest glemt, eller så er det blitt en feil i om første seksjon skal ha fullt eller halvt intervall. Gå gjennom pinnen i hodet før du strikker og tell antallet formingspunkter.
 
 **Endres formelen hvis jeg feller to masker om gangen med 3 r sammen?**
-Antallet fellingspunkter er det samme, men hvert punkt fjerner to masker. 90 masker med fem `3 r sammen` ender altså på 80 masker, ikke 85. Regn etter antallet masker som forsvinner, ikke bare antallet fellingsbevegelser.
+Ja: del antallet masker som skal bort, på 2 for å finne antallet dobbelfellinger. Fra 90 til 80 skal 10 masker bort med 5 dobbelfellinger. 90 / 5 = 18 opprinnelige masker per rapport: "15 r, 3 r sammen" 5 ganger bruker 90 og gir 5 × 16 = 80 masker. Et oddetall kan ikke felles med bare dobbelfellinger.
 
 **Kan jeg øke eller felle på samme pinne som en rapport?**
-Noen ganger. Hvis pinnen er en glatt overgangspinne, er det enkelt. Hvis pinnen er midt i en rapport, må formingen respektere rapporten, og plasseringen blir mer følsom. Mange oppskrifter legger derfor forming på overgangspinner.
+Bare hvis formingen tar hensyn til motivet og fortsettelsen. Riktig maskeantall eller delelighet med rapportstørrelsen bevarer ikke i seg selv vrangbord, fletter eller hullmønster.
 
 **Oppskriften sier "øk jevnt" og maskeantallet går ikke opp. Gjør jeg feil?**
 Nei. Det er normalt. Resten fordeles ved at noen seksjoner blir én maske lengre enn de andre. Spre de lengre seksjonene utover pinnen i stedet for å samle dem.

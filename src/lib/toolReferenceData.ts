@@ -17,16 +17,19 @@ export interface YarnWeightLocalizedCopy {
   uses: string;
 }
 
+// CYC stockinette gauge per 4 inches (approximately 10 cm), not lace-pattern gauge.
+// Sources and regional-name limitations: CONTENT_AUDIT.md B04 (2026-10-17).
+// WPI uses CYC's separate, overlapping guide; this identifier covers only 1–40.
 export const YARN_WEIGHT_BASE_ROWS: readonly YarnWeightBaseRow[] = [
   {
     symbol: "0",
-    gaugeStitches: "33-40+",
+    gaugeStitches: "33-40",
     needleRangeMm: "1.5-2.25",
     needleRangeUs: "000-1",
     wpi: "30-40+",
     wpiMin: 30,
     wpiMax: 40,
-    regionalFull: "Lace, Cobweb, Light fingering, 2-ply (UK)",
+    regionalFull: "Lace, Cobweb, Light fingering, 2-ply (AUS)",
   },
   {
     symbol: "1",
@@ -46,7 +49,7 @@ export const YARN_WEIGHT_BASE_ROWS: readonly YarnWeightBaseRow[] = [
     wpi: "12-18",
     wpiMin: 12,
     wpiMax: 18,
-    regionalFull: "Sport, Baby, 5-ply (UK/AUS)",
+    regionalFull: "Sport, Baby, 5-ply (AUS)",
   },
   {
     symbol: "3",
@@ -86,11 +89,11 @@ export const YARN_WEIGHT_BASE_ROWS: readonly YarnWeightBaseRow[] = [
     wpi: "5-6",
     wpiMin: 5,
     wpiMax: 6,
-    regionalFull: "Super Chunky, Bulky, Roving",
+    regionalFull: "Super Chunky, Super Bulky, Roving",
   },
   {
     symbol: "7",
-    gaugeStitches: "0-6",
+    gaugeStitches: "≤6",
     needleRangeMm: "12.75+",
     needleRangeUs: "17+",
     wpi: "1-4",
@@ -100,10 +103,16 @@ export const YARN_WEIGHT_BASE_ROWS: readonly YarnWeightBaseRow[] = [
   },
 ] as const;
 
+// Audited 2026-10-17; see CONTENT_AUDIT.md B03 for row-level evidence.
+// US: KnitPro + ChiaoGoo; traditional UK/Canada: Vogue Knitting + Mary Maxim.
+// JP numbered knitting needles: Clover https://www.clover.co.jp/recipe/takumikikakus.pdf
+// US 17 (12 / 12.75 mm) and 19 (15 / 16 mm) vary by chart/manufacturer.
+// "-" means no numbered equivalent is listed here, not that no needle exists.
 export const NEEDLE_SIZE_BASE_ROWS = [
   ["1.5", "000", "-", "-", "Lace"],
-  ["1.75", "00", "-", "-", "Lace"],
-  ["2.0", "0", "14", "0", "Lace"],
+  ["1.75", "00", "15", "-", "Lace"],
+  ["2.0", "0", "14", "-", "Lace"],
+  ["2.1", "-", "-", "0", "Lace"],
   ["2.25", "1", "13", "-", "Lace / Super Fine"],
   ["2.4", "-", "-", "1", "Super Fine"],
   ["2.5", "1.5", "-", "-", "Super Fine"],
@@ -134,7 +143,7 @@ export const NEEDLE_SIZE_BASE_ROWS = [
   ["9.0", "13", "00", "-", "Super Bulky"],
   ["10.0", "15", "000", "-", "Super Bulky"],
   ["12.0", "17", "-", "-", "Super Bulky"],
-  ["12.75", "-", "-", "-", "Super Bulky / Jumbo"],
+  ["12.75", "17", "-", "-", "Super Bulky / Jumbo"],
   ["15.0", "19", "-", "-", "Jumbo"],
   ["16.0", "19", "-", "-", "Jumbo"],
   ["19.0", "35", "-", "-", "Jumbo"],
@@ -184,7 +193,7 @@ export function getEnglishYarnWeightCategories(
       name: copy.name,
       regional: copy.regional,
       regionalFull: row.regionalFull,
-      gauge: `${formatEnglishRange(row.gaugeStitches)} sts per 4 in / 10 cm`,
+      gauge: `${formatEnglishRange(row.gaugeStitches)} sts per 4 in (approx. 10 cm)`,
       needles: `US ${formatEnglishRange(row.needleRangeUs)} (${formatEnglishRange(row.needleRangeMm)} mm)`,
       wpi: formatEnglishRange(row.wpi),
       uses: copy.uses,

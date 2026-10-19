@@ -50,13 +50,25 @@ const abbreviations: Abbreviation[] = [
   { abbr: "beg", def: "Beginning", categories: ["general"] },
   { abbr: "rem", def: "Remaining", categories: ["general"] },
   { abbr: "cont", def: "Continue", categories: ["general"] },
-  { abbr: "alt", def: "Alternate", categories: ["general"] },
+  {
+    abbr: "alt",
+    def: "Alternate; e.g. alt rows means every other row",
+    categories: ["general"],
+  },
   { abbr: "approx", def: "Approximately", categories: ["general"] },
   { abbr: "tbl", def: "Through back loop", categories: ["general"] },
   { abbr: "wyif", def: "With yarn in front", categories: ["general"] },
   { abbr: "wyib", def: "With yarn in back", categories: ["general"] },
-  { abbr: "sl", def: "Slip", categories: ["general"] },
-  { abbr: "sl st", def: "Slip stitch", categories: ["general"] },
+  {
+    abbr: "sl",
+    def: "Slip without working; follow the pattern for knitwise or purlwise",
+    categories: ["general"],
+  },
+  {
+    abbr: "sl st",
+    def: "Slip stitch without working; follow the pattern for knitwise or purlwise",
+    categories: ["general"],
+  },
   { abbr: "pm", def: "Place marker", categories: ["general"] },
   { abbr: "sm", def: "Slip marker", categories: ["general"] },
   { abbr: "MC", def: "Main color", categories: ["general"] },
@@ -69,8 +81,16 @@ const abbreviations: Abbreviation[] = [
   { abbr: "M1", def: "Make one (generic)", categories: ["increases"] },
   { abbr: "M1L", def: "Make one left", categories: ["increases"] },
   { abbr: "M1R", def: "Make one right", categories: ["increases"] },
-  { abbr: "kfb", def: "Knit front and back", categories: ["increases"] },
-  { abbr: "pfb", def: "Purl front and back", categories: ["increases"] },
+  {
+    abbr: "kfb",
+    def: "Knit into the front then back of the same stitch (1 stitch increased)",
+    categories: ["increases"],
+  },
+  {
+    abbr: "pfb",
+    def: "Purl into the front then back of the same stitch (1 stitch increased)",
+    categories: ["increases"],
+  },
   { abbr: "yo", def: "Yarn over", categories: ["increases", "lace"] },
   { abbr: "inc", def: "Increase", categories: ["increases"] },
 
@@ -83,35 +103,63 @@ const abbreviations: Abbreviation[] = [
   { abbr: "p2tog", def: "Purl two together", categories: ["decreases"] },
   {
     abbr: "ssk",
-    def: "Slip, slip, knit (left-leaning decrease)",
+    def: "Slip 2 stitches knitwise one at a time, then knit them together through back loops (left-leaning; 1 stitch decreased)",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "skp",
-    def: "Slip, knit, pass slipped stitch over",
+    def: "Slip 1 knitwise, knit 1, pass the slipped stitch over (left-leaning; 1 stitch decreased)",
     categories: ["decreases"],
   },
   {
     abbr: "sk2p",
-    def: "Slip 1, knit 2 together, pass slipped stitch over",
+    def: "Slip 1 knitwise, knit 2 together, pass the slipped stitch over (left-leaning; 2 stitches decreased)",
     categories: ["decreases", "lace"],
   },
   {
     abbr: "s2kp",
-    def: "Slip 2, knit 1, pass 2 slipped stitches over (centered double decrease)",
+    def: "Slip 2 together as if to knit 2 together, knit 1, pass both slipped stitches over (centered; 2 stitches decreased)",
     categories: ["decreases"],
   },
-  { abbr: "CDD", def: "Centered double decrease", categories: ["decreases"] },
+  {
+    abbr: "CDD",
+    def: "Centered double decrease (2 stitches decreased); use the method in the pattern key",
+    categories: ["decreases"],
+  },
   { abbr: "psso", def: "Pass slipped stitch over", categories: ["decreases"] },
   { abbr: "dec", def: "Decrease", categories: ["decreases"] },
 
   // Cables
-  { abbr: "C4F", def: "Cable 4 front", categories: ["cables"] },
-  { abbr: "C4B", def: "Cable 4 back", categories: ["cables"] },
-  { abbr: "C6F", def: "Cable 6 front", categories: ["cables"] },
-  { abbr: "C6B", def: "Cable 6 back", categories: ["cables"] },
-  { abbr: "T2F", def: "Twist 2 front", categories: ["cables"] },
-  { abbr: "T2B", def: "Twist 2 back", categories: ["cables"] },
+  {
+    abbr: "C4F",
+    def: "Cable 4 front: hold 2 stitches on cable needle in front, knit 2, then knit the 2 held stitches",
+    categories: ["cables"],
+  },
+  {
+    abbr: "C4B",
+    def: "Cable 4 back: hold 2 stitches on cable needle behind, knit 2, then knit the 2 held stitches",
+    categories: ["cables"],
+  },
+  {
+    abbr: "C6F",
+    def: "Cable 6 front: hold 3 stitches on cable needle in front, knit 3, then knit the 3 held stitches",
+    categories: ["cables"],
+  },
+  {
+    abbr: "C6B",
+    def: "Cable 6 back: hold 3 stitches on cable needle behind, knit 3, then knit the 3 held stitches",
+    categories: ["cables"],
+  },
+  {
+    abbr: "T2F",
+    def: "Twist 2 front: cross 2 stitches, holding 1 in front; knit/purl sequence is pattern-specific",
+    categories: ["cables"],
+  },
+  {
+    abbr: "T2B",
+    def: "Twist 2 back: cross 2 stitches, holding 1 behind; knit/purl sequence is pattern-specific",
+    categories: ["cables"],
+  },
 
   // Stitch Patterns
   {
@@ -153,29 +201,30 @@ const faqs = [
   },
   {
     q: "What does the asterisk mean in a knitting pattern?",
-    a: 'It marks a repeat. Everything between the asterisk and the next matching instruction (usually "rep from *") gets worked over and over across the row. Brackets and parentheses do the same job, grouping a set of actions that repeat a specified number of times. Missing a repeat marker is one of the fastest ways to end up with the wrong stitch count.',
+    a: "An asterisk marks the start of a repeat. Repeat the marked sequence the number of times or to the stopping point specified. Brackets and parentheses can group repeats, but may also show size alternatives or actions worked into one stitch. Read the accompanying instruction.",
   },
   {
     q: "What if I can't find an abbreviation in a standard list?",
-    a: "It's almost certainly pattern-specific shorthand defined by the designer. Scroll to the top of the pattern and look for an abbreviations or stitch definitions section. Cable and lace patterns are the biggest source of custom shortcuts, since designers often invent compact notation for techniques that only apply to that particular design. If it isn't listed there, the pattern notes or a chart key are the next place to check.",
+    a: "It may be shorthand defined for that pattern. Check the abbreviation list, stitch definitions, notes and chart key. If it is still unclear, ask the designer before substituting a technique.",
   },
   {
     q: "What's the difference between ssk and skp?",
-    a: "Both are left-leaning decreases, and they produce nearly identical results in finished fabric. ssk is the modern standard and shows up in most current patterns. skp appears more often in older patterns. The execution differs slightly, so follow whichever the pattern specifies rather than substituting on the fly.",
+    a: "Both decrease one stitch and lean left on the knit side. For ssk, slip two stitches individually and knit them together through the back loops; the usual version slips both knitwise. For skp, slip one knitwise, knit one and pass the slipped stitch over. Their appearance can differ; follow the pattern’s method.",
   },
 ];
 ---
 
 <PageLayout
-  title="Knitting Abbreviations: Searchable Glossary"
-  description="Look up any knitting abbreviation or search by technique name. Full glossary of pattern terms from k2tog to psso, organized by category."
+  contentPage
+  title="English Knitting Abbreviations: Searchable Glossary"
+  description="Look up common English knitting abbreviations and technique names, from k2tog to psso. Search the glossary or filter by category."
   canonicalPath="/tools/knitting-abbreviations/"
   alternates={routes.tool.knittingAbbreviations}
   enableRevealAnimations
 >
   <ToolStructuredData
     name="Knitting Abbreviations Glossary"
-    description="Search any knitting abbreviation or find terms by technique name."
+    description="Look up common English knitting abbreviations and technique names, from k2tog to psso. Search the glossary or filter by category."
     canonicalPath="/tools/knitting-abbreviations/"
     faqs={faqs}
   />
@@ -190,12 +239,20 @@ const faqs = [
         Knitting Abbreviations
       </h1>
       <p class="hero-intro" data-reveal>
-        Search an abbreviation to see what it means, or search a technique to
-        find its abbreviations.
+        Search common English knitting abbreviations or technique names. This
+        selection explains notation used in US and UK patterns.
       </p>
 
       <div class="form-card variant-brown is-wide" data-reveal="scale">
         <div class="abbr-wrapper">
+          <p>
+            Follow the pattern’s own key when it differs. Directions here assume
+            stitches worked from the left needle to the right, viewed from the
+            knit side for these knitted increases and decreases. Yarn in
+            front/back means toward/away from you, regardless of RS/WS. Slipping
+            direction and cable methods depend on the pattern; ssk also has
+            documented variants.
+          </p>
           <input
             type="text"
             id="abbr-search"
@@ -293,12 +350,11 @@ const faqs = [
         >. Scaffolding, not stitches.
       </p>
       <p data-reveal>
-        Punctuation matters too. Asterisks and semicolons aren't decoration. <code
-          >*k2, p2; rep from *</code
-        > means everything between the asterisk and the semicolon repeats. Brackets
-        and parentheses work similarly, grouping a set of actions that get repeated
-        a specified number of times. Missing a repeat marker is one of the fastest
-        ways to end up with the wrong stitch count.
+        <code>*k2, p2; rep from *</code> repeats knit 2, purl 2: four stitches per
+        repeat. An asterisk marks the start of a repeat. Repeat the marked sequence
+        the number of times or to the stopping point specified. Brackets and parentheses
+        can group repeats, but may also show size alternatives or actions worked into
+        one stitch. Read the accompanying instruction.
       </p>
 
       <h2 data-reveal="clip">US vs UK differences</h2>
@@ -326,7 +382,7 @@ const faqs = [
         should be defined near the beginning of the instructions.
       </p>
       <p data-reveal>
-        Cable patterns are the biggest source of these. A chart key might define <code
+        Cable patterns can use custom abbreviations. A chart key might define <code
           >C4F</code
         >, <code>C6B</code>, or something more specific to the design. The
         number typically tells you how many stitches cross. The letter at the
@@ -364,15 +420,17 @@ const faqs = [
         appears in the pattern. They only make sense inside that pattern.
       </p>
       <p data-reveal>
-        The general rule: if you can't find an abbreviation in a standard
-        reference, it's almost certainly defined in the pattern header. Scroll
-        up before searching elsewhere.
+        It may be shorthand defined for that pattern. Check the abbreviation
+        list, stitch definitions, notes and chart key. If it is still unclear,
+        ask the designer before substituting a technique.
       </p>
 
       <h2 data-reveal="clip">What the symbols on knitting charts mean</h2>
       <p data-reveal>
-        Charts use symbols instead of written-out rows. Each square is one
-        stitch, and the symbol inside it tells you what to do.
+        Chart symbols describe stitch operations. A square often represents one
+        resulting stitch, but decreases use more than one stitch, cable symbols
+        can span several squares, and a “no stitch” square is skipped without
+        working or slipping a stitch. Use the chart key when counting.
       </p>
       <p data-reveal>
         There's no universal chart symbol standard, but many designers stay
@@ -383,10 +441,11 @@ const faqs = [
         marks <code>ssk</code>.
       </p>
       <p data-reveal>
-        Charts read bottom to top (knitting grows upward). On flat charts, RS
-        rows go right to left, WS rows left to right, matching the direction
-        your needles move. Circular knitting charts read right to left on every
-        row, since you're always working the RS.
+        Charts are usually read from bottom to top. With stitches worked from
+        the left needle to the right, RS rows normally read right to left and WS
+        rows left to right. Charts worked in the round with RS facing normally
+        read right to left. Check row numbers and notes: WS rows may be omitted,
+        and other working directions need their own instructions.
       </p>
       <p data-reveal>
         If a pattern has both written and charted instructions, they should
@@ -404,12 +463,11 @@ const faqs = [
         you knit.
       </p>
       <p data-reveal>
-        One pair that trips people up: <code>ssk</code> and <code>skp</code> are both
-        left-leaning decreases. <code>ssk</code> is the modern standard. <code
-          >skp</code
-        > shows up more in older patterns. They're close in result but differ slightly
-        in execution, so follow the pattern as written unless it gives permission
-        to substitute.
+        Both decrease one stitch and lean left on the knit side. For ssk, slip
+        two stitches individually and knit them together through the back loops;
+        the usual version slips both knitwise. For skp, slip one knitwise, knit
+        one and pass the slipped stitch over. Their appearance can differ;
+        follow the pattern’s method.
       </p>
       <p data-reveal>
         Another one worth flagging: <code>psso</code> (pass slipped stitch over) shows
@@ -419,10 +477,9 @@ const faqs = [
         from the previous step.
       </p>
       <p data-reveal>
-        The Craft Yarn Council publishes a widely used standard abbreviation
-        list, and most designers follow it for common terms. Beyond those
-        basics, regional habits and pattern-specific shorthand take over. "Check
-        the pattern key" is better advice than "memorize a master list."
+        The Craft Yarn Council publishes a reference for common knitting
+        abbreviations. Regional and pattern-specific notation can differ, so
+        check the pattern key.
       </p>
       <p data-reveal>
         Keep a reference open while you knit. This page is searchable, which is
@@ -469,6 +526,7 @@ const faqs = [
         method="post"
         id="waitlist-form"
         data-waitlist-signup
+        data-localized-errors="true"
         data-source="knittools"
         data-sending-text="Sending..."
         data-generic-error="Something went wrong. Please try again."
@@ -775,6 +833,7 @@ const faqs = [
   }
 
   .abbr-def {
+    overflow-wrap: anywhere;
     font-family: var(--body-ed);
     font-weight: 400;
     font-size: 15px;

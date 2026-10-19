@@ -1,7 +1,8 @@
 ---
 title: "Stricknadeln aus Metall, Holz oder Bambus"
-description: "Vergleich von Stricknadel-Materialien: Metall, Holz, Bambus, Kunststoff und Karbon. Grip, Tempo, Gewicht und passende Garne."
+description: "Vergleiche Stricknadeln aus Metall, Holz, Bambus, Kunststoff und Karbon: Oberfläche, Halt, Spitzenform, Pflege und Maschenprobe beim Nadelwechsel."
 publishDate: 2026-05-01
+updatedDate: 2026-10-17
 category: needles
 categoryOrder: 2
 tags:
@@ -16,110 +17,113 @@ lang: de
 translationKey: "knitting-needle-materials"
 ---
 
-Das Nadelmaterial verändert, wie sich Garn bewegt, wie die Nadel in der Hand liegt und wie müde deine Hände nach einer Stunde sind. Darum kann dieselbe Person bei einem Projekt zu Metall greifen und beim nächsten zu Bambus.
+Das Nadelmaterial beeinflusst, wie das Garn gleitet und wie sich die Nadel in der Hand anfühlt. Darum kann dieselbe Person bei einem Projekt zu Metall greifen und beim nächsten zu Bambus.
 
-Metallnadeln sind meist die glatteste und haltbarste Alltagsoption, Holz fühlt sich warm an und gibt mittleren Halt, und Bambus hat am meisten Reibung. Dadurch ist Bambus oft besonders verzeihend für Anfänger. Es gibt kein allgemein bestes Material. Es gibt nur die bessere Kombination aus Garn, Projekt und deiner Art zu stricken.
+Probiere glattes Metall, wenn die Maschen nur schwer gleiten, oder Holz und Bambus, wenn du mehr Halt möchtest. Das sind Ausgangspunkte, keine Rangliste. Politur, Beschichtung, Durchmesser, Spitzenform, Konstruktion, Garn und Strickweise wirken zusammen.
 
 ## Kurzüberblick
 
-| Material             | Garnbewegung   | Grip           | Gewicht  | Geräusch | Haltbarkeit | Passt besonders gut zu             |
-| -------------------- | -------------- | -------------- | -------- | -------- | ----------- | ---------------------------------- |
-| Aluminium            | Schnell        | Niedrig        | Leicht   | Klickt   | Hoch        | Günstige Metallnadeln              |
-| Edelstahl            | Schnell        | Niedrig        | Mittel   | Klickt   | Hoch        | Glattes Stricken und kleine Größen |
-| Messing / vernickelt | Sehr schnell   | Sehr niedrig   | Variabel | Klickt   | Hoch        | Tempoorientiertes Stricken         |
-| Holz, etwa Birke     | Mittel         | Mittel         | Mittel   | Leise    | Mittel      | Warmes Gefühl und gute Kontrolle   |
-| Bambus               | Langsamer      | Hoch           | Leicht   | Leise    | Niedriger   | Anfänger und rutschiges Garn       |
-| Kunststoff / Acryl   | Variabel       | Variabel       | Leicht   | Leise    | Mittel      | Große Größen und leichte Werkzeuge |
-| Karbon               | Mittel-schnell | Mittel-niedrig | Leicht   | Leise    | Hoch        | Leichte, steife Nadeln mit Grip    |
+| Material                       | Garnbewegung                         | Halt                              | Gewicht               | Geräusch                 | Pflege / Grenzen                 | Einen Versuch wert für           |
+| ------------------------------ | ------------------------------------ | --------------------------------- | --------------------- | ------------------------ | -------------------------------- | -------------------------------- |
+| Aluminium                      | Oberfläche entscheidet               | Eloxierung kann Halt geben        | Oft leicht            | Kann klappern            | Oberfläche schützen              | Schwer gleitende Maschen         |
+| Edelstahl                      | Glatte Fläche lässt gleiten          | Oberfläche entscheidet            | Massiv oder hohl      | Kann klappern            | Dünne Schäfte können sich biegen | Feine Nadeln mit glatter Spitze  |
+| Messing / beschichtetes Metall | Beschichtung entscheidet             | Nicht immer am geringsten         | Konstruktionsabhängig | Kann klappern            | Beschichtung prüfen              | Glatte Oberfläche                |
+| Holz, etwa Birke               | Verarbeitung entscheidet             | Oft mehr als glattes Metall       | Modellabhängig        | Oft leise                | Dünne Schäfte können brechen     | Warmes Gefühl und Kontrolle      |
+| Bambus                         | Polierte Fläche lässt gleiten        | Hilfreich bei rutschenden Maschen | Oft leicht            | Oft leise                | Auf Splitter prüfen              | Kontrolle ohne Hängenbleiben     |
+| Kunststoff / Acryl             | Verarbeitung entscheidet             | Mit deinem Garn testen            | Oft leicht            | Modell testen            | Biegsamkeit und Fläche prüfen    | Große Nadelstärken               |
+| Karbon                         | Schaft und Spitze unterscheiden sich | Beide Flächen testen              | Leichter Schaft       | Metallspitzen zählen mit | Materialübergänge schützen       | Leichter Schaft mit Metallspitze |
 
-Auf Papier klingen die Unterschiede klein. Nach einer Stunde in der Hand sind sie es nicht.
+Die Tabelle nennt Auswahlkriterien, keine gemessenen Tempo- oder Lebensdauerwerte. Vergleiche Nadeln mit gleichem Durchmesser und ähnlicher Länge: Eine hohle Metallnadel muss nicht schwerer sein als eine massive Nadel aus einem anderen Material.
 
 ## Metall
 
-Die meisten Metallnadeln bestehen aus Aluminium, Edelstahl oder Messing. Metallnadeln sind die glatteste verbreitete Option, und für viele Strickende ist diese Geschwindigkeit der ganze Punkt. Maschen gleiten schnell mit wenig Reibung, und gute Metallnadeln halten lange.
+Metallnadeln bestehen unter anderem aus Aluminium, Edelstahl oder Messing mit unterschiedlichen Oberflächen. Glattes Metall ist einen Versuch wert, wenn du fest strickst oder Maschen mühsam weiterschieben musst. Eloxierte oder strukturierte Oberflächen müssen nicht so glatt sein wie polierte.
 
-Der Kompromiss: Metall ist rutschig. Bei Seide oder Bambusmischungen können Maschen abrutschen, wenn du nicht aufpasst. Metall fühlt sich am Anfang auch kalt an, und manche mögen das Klicken nicht. Andere finden, es gehört dazu.
+Rutschen Maschen zu leicht ab, probiere eine griffigere Oberfläche. Metall kann sich anfangs kühl anfühlen und beim Zusammentreffen der Nadeln klappern. Ob dich das stört, ist Geschmackssache.
 
-Die Oberflächenverarbeitung zählt mehr als nur das Wort "Metall" auf der Packung. ChiaoGoo RED Lace mit Spitzen aus chirurgischem Edelstahl, glattem, seidig schimmerndem Finish und einem formgedächtnisfreien, nylonummantelten mehrsträngigen Stahlkabel fühlt sich anders an als Addi Turbo aus poliertem Messing, die klassische schnelle Nadel. HiyaHiya Sharp aus Edelstahl mit sehr spitzer Spitze fühlt sich wieder anders an. Innerhalb von Metall gibt es eine große Spanne, und die Marke oder Linie zählt oft mehr als das Metall allein.
+Die Oberfläche zählt neben dem Grundmaterial. [ChiaoGoo RED Lace](https://www.chiaogoo.com/circular/) hat Edelstahlspitzen mit seidenmatter Oberfläche und ein nylonummanteltes Seil aus mehreren Stahldrähten. [addi Turbo](https://www.skacelknitting.com/circulars) hat beschichtete Messingspitzen, nicht nur blank poliertes Messing. HiyaHiya bietet Steel und Sharp aus Edelstahl mit verschiedenen Spitzenprofilen an. Das sind Konstruktionsbeispiele, keine Markenrangliste.
 
-Eine Eigenheit lohnt sich zu kennen: Manche Kombinationen aus Metall und Garn quietschen. Wenn der Stoff stimmt, aber das Gefühl nervt, verändert ein Wechsel zu Holz oder Bambus die Reibung, ohne das Projekt selbst zu ändern.
+Wenn eine Nadel-Garn-Kombination quietscht oder bremst, probiere eine andere Oberfläche. Prüfe die Maschenprobe, bevor du mit anderen Nadeln am Projekt weiterstrickst.
 
 ## Holz
 
-Holz liegt im Gefühl zwischen Metall und Bambus. Es ist warm in der Hand, gibt mäßigen Halt und viele finden es bei langen Stricksitzungen am bequemsten.
+Holz ist einen Versuch wert, wenn du ein wärmeres Gefühl und etwas Widerstand beim Gleiten der Maschen magst. Es liegt nicht immer zwischen Metall und Bambus: Holzart, Laminierung und Oberfläche spielen eine Rolle.
 
-Typische Hölzer sind Birke, laminierte Birke, Rosenholz und Ebenholz. Birke und laminierte Birke sind in Alltagssätzen häufig. Rosenholz und Ebenholz sieht man eher bei hochwertigeren Nadeln, besonders in größeren Stärken, in denen die Nadel dick genug ist, um stabil zu wirken.
+Für Nadeln werden etwa Birke, laminierte Birke, Palisander und Ebenholz verwendet. Eine laminierte Konstruktion samt Oberfläche kann sich anders verhalten als Massivholz. Der Holzname allein sagt nichts Verlässliches über Halt oder Lebensdauer.
 
-Weil Holz ein Naturmaterial ist, können sich Nadeln leicht unterschiedlich anfühlen, sogar Spitzen im selben Paar. Dünne Holznadeln können brechen, wenn sie belastet werden. Frag alle, die schon ein 2,25-mm-Nadelspiel aus Rosenholz abgebrochen haben. Je kleiner die Stärke, desto größer das Bruchrisiko. Viele Strickende nutzen Holz ab mittleren Größen und wechseln bei Sockenstärke zu Metall, wenn Holz zu empfindlich wirkt.
+Dünne Holznadeln können unter Biegebelastung brechen. Wähle nach der konkreten Nadel statt nach einer allgemeinen Mindeststärke für Holz. Biegsamkeit ist nicht dasselbe wie Bruchfestigkeit.
 
-Holz braucht etwas Pflege. Lass Holznadeln nicht in direkter Sonne oder im feuchten Badezimmer liegen. Verziehen und Quellen sind langweilige Probleme, aber sie kommen vor.
+Lagere Holznadeln trocken und geschützt vor Druck, direkter Sonne und starker Hitze. Beachte die Pflegehinweise des Herstellers für die jeweilige Oberfläche.
 
 ## Bambus
 
-Bambus ist technisch ein Gras, kein Holz, und verhält sich anders, obwohl die Nadeln ähnlich aussehen. Bambus hat normalerweise mehr Reibung als Metall und oft mehr als poliertes Holz. Dieser zusätzliche Halt hält Maschen auf der Nadel, weshalb Bambus in so vielen Anfängerempfehlungen auftaucht.
+Bambus ist ein Gras. Eine fertige Bambusnadel kann nützlichen Halt geben, wenn Maschen von glattem Metall zu leicht abrutschen. Sie ist nicht unbedingt griffiger als jede Holznadel. Halt ist nicht mit Fasern zu verwechseln, die an einer rauen Stelle hängen bleiben.
 
-Bambus ist außerdem leicht, leise und in längeren Nadeln spürbar flexibel. Wenn du mit geräuschempfindlichen Menschen zusammenlebst oder deine Hände schnell schmerzen, summieren sich diese Eigenschaften.
+Bambusnadeln fühlen sich oft leicht an und sind im Gebrauch meist leiser als Metallnadeln. Ihre Biegsamkeit hängt von Durchmesser, Länge und Konstruktion ab. Probiere die Nadelstärke, die du verwenden möchtest.
 
-Die Nachteile: Bambus nutzt schneller ab als Metall. Die Spitzen werden stumpfer, und die Oberfläche kann bei starker Nutzung etwas rau werden. Derselbe Grip, der bei langsamem Stricken hilft, kann sich bremsend anfühlen, wenn du schneller arbeiten willst. Und die Qualität schwankt stark. Gut verarbeiteter Bambus fühlt sich glatt an. Billiger, unmarkierter Bambus kann rau oder splitterig sein, und die Spitzen sind oft zu stumpf für Lochmuster.
+Prüfe Oberfläche und Spitze statt nur Preis oder Marke. Clover Takumi wird beispielsweise bei der Herstellung mehrfach poliert; Bambusnadeln gibt es mit unterschiedlichen Spitzenprofilen. Eine raue Stelle oder ein Splitter ist Anlass, nach Schäden zu sehen, kein erwünschter Halt.
 
-Bambus mag auch keine Feuchtigkeit. Lagere ihn nicht im Badezimmer oder in einem feuchten Keller. Er kann sich dauerhaft verziehen, und dann bleibt Garn auf eine Weise hängen, die kein Wachs sauber behebt.
+Lagere Bambusnadeln trocken und geschützt. Folge den Herstellerhinweisen, statt Wachsen, Schleifen oder Polieren für jede Oberfläche zu empfehlen.
 
 ## Kunststoff und Acryl
 
-Das Gewicht einer fertigen Nadel hängt sowohl vom Material als auch von der Konstruktion ab. Kunststoff ist oft leicht, während Metallnadeln massiv, hohl oder röhrenförmig konstruiert sein können; viele große Metallnadeln werden hohl gefertigt, um unnötiges Gewicht zu vermeiden.
+Das Gewicht der fertigen Nadel hängt von Material und Konstruktion ab. Kunststoffnadeln sind oft leicht und bei großen Nadelstärken einen Versuch wert. Auch Metallnadeln können zur Gewichtsreduzierung hohl sein.
 
-Das Gefühl variiert stark je nach Hersteller. Manche sind glatt, manche klebrig, manche okay, manche wirken wie Wegwerfware.
-
-Bester Einsatzbereich: sehr dickes Stricken, bei dem eine schwere Metallnadel die Hände ermüden würde. Darüber hinaus sind sie oft eine Zwischenlösung, bis du weißt, was du wirklich magst.
+Kunststoff- und Acrylnadeln unterscheiden sich in Oberfläche und Biegsamkeit. Prüfe, ob die Maschen angenehm gleiten und der Schaft in der benötigten Stärke stabil wirkt. Kunststoff muss keine Übergangslösung vor einem anderen Material sein.
 
 ## Karbon
 
-Leichter, als viele erwarten, und steifer als Bambus oder Holz. KnitPro Karbonz kombinieren zum Beispiel Karbonschäfte mit messingbeschichteten Spitzen. Der Reiz liegt in dieser Mischung: eine glattere Spitze dort, wo die Maschen gebildet werden, und weniger Gewicht im Schaft.
+Karbonnadeln verbinden einen leichten Schaft mit modellspezifischen Spitzen und Übergängen. [KnitPro Karbonz Special](https://www.knitpro.eu/en/sets/type/knitting-needle-sets/karbonz-special-interchangeable-needle-sets) hat austauschbare Nadeln mit Karbonschaft und Messingspitzen, nicht bloß einer Messingbeschichtung. Prüfe die Oberfläche des konkreten Modells; nicht alle Karbonnadeln haben dieselben Metallteile.
 
-Trotzdem bleibt Karbon eine Nische. Einen Versuch wert, wenn du neugierig bist oder wenn kaltes Metall deine Hände stört. Nichts, wonach die meisten Strickenden gezielt suchen müssen.
+Probiere sie, wenn du die Kombination aus leichtem Schaft und Metallspitze magst. Prüfe, ob Maschen den Materialübergang ohne Hängenbleiben passieren. Karbon ist nicht immer steifer als Holz oder Bambus. Vermeide Biegen am Übergang.
 
 ## Spitzenform: die andere wichtige Entscheidung
 
-Material bekommt viel Aufmerksamkeit, aber die Spitzenform beeinflusst dein tägliches Stricken wahrscheinlich genauso stark.
+Die Spitzenform ist eine eigene Entscheidung neben dem Material.
 
-Sehr spitze Lace-Spitzen machen k2tog, ssk und Abnahmen neben Umschlägen deutlich leichter. Sie gehen auch in enge Maschen, ohne Gewalt. Der Nachteil: Sie splitten empfindliches Garn schneller, wenn du kräftig einstichst.
+Eine lange, feine Lace-Spitze kann beim Einstechen in enge Maschen und bei Abnahmen wie 2 M rechts zusammenstricken und ssk helfen. Bei Garn, das sich leicht teilt, kann sie allerdings zwischen die Fäden geraten statt durch die ganze Masche.
 
-Rundere Spitzen sind freundlicher zu splittigem Garn und zu deinen Fingerspitzen. Dafür kämpfst du mehr bei Lochmusterabnahmen.
+Probiere eine rundere Spitze, wenn du oft ins Garn stichst oder eine scharfe Spitze am Finger unangenehm findest. Prüfe trotzdem, ob die Abnahmen der Anleitung gut gelingen.
 
-Viele Marken bieten mehr als eine Spitzenform. ChiaoGoo RED Lace ist die Linie mit spitzer Spitzenform. Die aktuellen Rundstricknadeln aus Bambus von ChiaoGoo gehören zu einer eigenen Linie; die Spitzenform sollte für das jeweilige Modell geprüft werden. KnitPro Karbonz sind auffällig spitz. HiyaHiya hat eine Sharp-Linie und eine Standardlinie. Wähle nach dem, was du strickst. Lochmuster, Abnahmen und enge Maschen profitieren von spitzeren Nadeln. Splittige Garne und schlicht glatt rechts laufen oft besser auf etwas Rundem.
+ChiaoGoo RED Lace und HiyaHiya Sharp sind Beispiele für spitze Modelle. Prüfe das konkrete Modell, statt alle Bambusspitzen für stumpf und alle Metallspitzen für scharf zu halten. Glatt rechts erfordert keine bestimmte Spitzenform.
 
 ## Verbindungsqualität bei austauschbaren Nadeln
 
-Das ist eine eigene Achse neben dem Material, aber wichtig, wenn du ein Set kaufst. Die Verbindung zwischen Spitze und Kabel ist die Stelle, an der günstigere Sets oft scheitern.
+Die Verbindung zwischen Spitze und Seil zählt unabhängig vom Nadelmaterial. Prüfe, ob die Maschen ohne Hängenbleiben darübergleiten.
 
-Schraubsysteme drehen Spitze und Kabel zusammen. Sie können sehr glatt wirken, wenn sie fest angezogen sind, können sich aber beim Stricken lösen. Manche Marken legen Schlüssel zum Festziehen oder drehbare Kabel bei. Klick- oder Twist-Lock-Systeme vermeiden das Schrauben, aber die Verbindung kann spürbarer sein.
+Beachte bei Schraubsystemen die Anleitung zum Festziehen und verwende den mitgelieferten Schlüssel, wenn vorgeschrieben. Ein drehbares Seil kann rotieren, ersetzt aber nicht das Festziehen der Schraubverbindung. Klick- und Drehverschlüsse haben eigene Verriegelungsanweisungen und sind nicht grundsätzlich glatter oder rauer.
 
-Es gibt kein allgemein bestes System. Die meisten Strickenden entscheiden am Ende nach Verarbeitung, Kabelgefühl und danach, welches Set sie vor dem Kauf ausprobieren konnten.
+Entscheide nach der tatsächlichen Verbindung, dem Seilgefühl und dem Set, das du ausprobieren kannst. Der Preis allein belegt keine Verbindungsqualität.
 
 ## Material passend zum Garn wählen
 
-Rutschiges Garn wie Seide, Bambusmischungen oder mercerisierte Baumwolle lässt sich auf Holz oder Bambus leichter kontrollieren, weil die Reibung die Maschen hält. Griffiges Garn wie rustikale, nicht-superwash-behandelte Wolle läuft auf Metall freier. Bei splittigem Garn, etwa locker gezwirnter Baumwolle oder manchen Superwash-Mischungen, hilft eine rundere Spitze oft mehr als das Material selbst.
+Wenn seidiges Garn oder mercerisierte Baumwolle zu leicht abrutscht, probiere Holz oder Bambus mit glatter, aber griffigerer Oberfläche. Läuft ein Wollgarn auf deinen Nadeln zu schwer, probiere glattes Metall. Beurteile Garn und Nadel zusammen: Der Fasername garantiert nicht bei jedem Garn dasselbe Verhalten.
 
-Flauschige Garne wie Mohair oder gebürstetes Alpaka zusammen mit einem zweiten Faden brauchen eine glattere Oberfläche, damit die Fasern nicht an jeder Masche hängen bleiben. Metall oder poliertes Holz ist hier meist angenehmer als Bambus.
+Bei Garn, das sich teilt, probiere eine rundere Spitze. Bei Mohair oder gebürstetem Alpaka, allein oder mit einem zweiten Faden, sollten Oberfläche und Übergänge keine Fasern festhalten. Gut verarbeiteter Bambus ist auch dafür eine Möglichkeit.
 
-Die [Nadelstärken-Tabelle](/de/werkzeuge/nadelstaerken-tabelle/) behandelt Größen. Der [Leitfaden zu Nadeltypen](/de/artikel/rundstricknadel-gerade-nadeln-oder-nadelspiel/) behandelt gerade Nadeln, Rundstricknadeln und Nadelspiel. Material ist die Gefühlsebene, und diese drei Entscheidungen sind weitgehend unabhängig voneinander.
+Die [Nadelstärken-Tabelle](/de/werkzeuge/nadelstaerken-tabelle/) behandelt Größen. Der [Leitfaden zu Nadeltypen](/de/artikel/rundstricknadel-gerade-nadeln-oder-nadelspiel/) behandelt gerade Nadeln, Rundstricknadeln und Nadelspiel.
 
 ## FAQ
 
 **Beeinflusst das Nadelmaterial die Maschenprobe?**
-Das kann es. Unterschiedliche Materialien erzeugen unterschiedlich viel Reibung am Garn, und das kann reichen, um die Maschenprobe zu verschieben. Wenn du auf einem Material eine Probe strickst und das Projekt auf einem anderen, prüfe erneut. Der Effekt ist bei rutschigen Garnen größer und bei rustikaler Wolle oft kaum spürbar.
+
+Andere Nadeln können die Anzahl der Maschen und Reihen pro Messstrecke verändern, auch bei gleicher angegebener Nadelstärke. Stricke die Maschenprobe mit den Projektnadeln und prüfe nach einem Wechsel von Material, Oberfläche oder Modell erneut. Es gibt keinen festen Änderungswert und keine Garngruppe, bei der die Maschenprobe garantiert gleich bleibt.
 
 **Welches Material ist bei Arthrose oder Handschmerzen am besten?**
-Es gibt keine einzelne Antwort. Leichtere Materialien wie Bambus, Karbon und Holz reduzieren die Last in den Händen. Wärmer wirkende Materialien wie Holz, Bambus und Karbon können angenehmer sein als kaltes Metall. Ergonomische Formen, etwa eckige oder gebogene Nadeln, können genauso viel helfen wie das Material. Bei ernsthaften Handproblemen ist medizinischer oder ergotherapeutischer Rat sinnvoller als die Suche nach der einen Nadel, die alles löst.
+
+Kein Material garantiert Schmerzlinderung. Fühlt sich kühles Metall unangenehm an, kannst du Holz oder Bambus für ein anderes Handgefühl ausprobieren. Vergleiche Gewicht, Halt und Form der fertigen Nadel. Mache Pausen, höre bei Schmerzen auf und suche bei anhaltenden Beschwerden ärztlichen oder ergotherapeutischen Rat.
 
 **Soll ich ein Set aus einem Material kaufen oder mischen?**
 Mischen ist völlig normal. Viele finden ein Hauptset und behalten ein paar andere Nadeln für bestimmte Garne oder Stimmungen. Es gibt keinen Grund, sich für immer auf ein Material festzulegen.
 
 **Werden Nadelspitzen mit der Zeit stumpf?**
-Ja. Bambus und manche Holznadeln verlieren ihre Spitze schneller, und sehr dünne Rosenholz-Nadelspiele können brechen. Metall behält die Spitzenform am längsten. Eine feine Feile oder sehr feines Schleifpapier kann eine stumpfe Holzspitze im Notfall glätten, verändert aber die Oberfläche.
+
+Spitzen und Oberflächen können verschleißen oder beschädigt werden; wie schnell, hängt von Produkt und Gebrauch ab. Prüfe Rillen, Splitter und beschädigte Beschichtungen. Forme eine Spitze nicht mit Nagelfeile oder Schleifpapier um, sofern der Hersteller das nicht für genau dieses Produkt empfiehlt. Frage nach Reparatur oder Ersatz, wenn Garn hängen bleibt.
 
 **Warum sind manche Bambusnadeln rau?**
-Qualitätskontrolle. Billiger, unmarkierter Bambus überspringt oft Verarbeitungsschritte. Die Fasern sind nicht sauber versiegelt und poliert, also bleiben sie am Garn hängen und fühlen sich kratzig an. Gute Bambusnadeln, etwa von Clover oder ChiaoGoo, sind geschliffen und behandelt. Der Preisunterschied zwischen sehr billigem und gutem Bambus ist klein genug, dass du dich nicht mit rauen Nadeln quälen musst.
+
+Eine raue Oberfläche kann an Verarbeitung, Verschleiß oder Schäden liegen. Sie beweist nicht, dass der Hersteller einen Arbeitsschritt ausgelassen hat. Prüfe die Nadel und kontaktiere Händler oder Hersteller, wenn Fasern hängen bleiben. Nützlicher Halt ist etwas anderes als hängen bleibendes Garn.
 
 **Kann ich alle Nadeln zusammen lagern?**
-Meist ja. Die Ausnahme sind Bambus und Holz in feuchter Umgebung, weil sie sich verziehen können. Eine Rolltasche oder ein Nadelordner lohnt sich, sobald du mehr als ein Dutzend Nadeln regelmäßig benutzt.
+
+Ja, in einer trockenen Hülle, die Spitzen schützt und Quetschen oder Biegen verhindert. Halte Holz und Bambus von feuchten Lagerorten und starker Hitze fern und beachte die Produkthinweise. Eine Rolltasche oder ein Nadelordner ist sinnvoll, wenn sie die Nadeln schützen und ordnen.
