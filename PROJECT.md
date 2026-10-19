@@ -122,7 +122,7 @@ Keskeiset nykyiset versiot:
 | prettier         |  3.8.3 |
 | typescript       |  6.0.3 |
 
-TypeScript käyttää Astron strict-konfiguraatiota. Repository ei määritä Node engines -rajaa eikä .nvmrc-tiedostoa, joten yksittäistä paikallista Node-versiota ei pidä kirjata projektivaatimukseksi ilman erillistä päätöstä.
+TypeScript käyttää Astron strict-konfiguraatiota. `package.json` määrittää Node-vaatimukseksi `^22.22.3 || ^24.16.0 || >=26.3.0`. Raja vastaa `eslint-plugin-astro`- ja `astro-eslint-parser`-riippuvuuksien vaatimusta ja on hyväksytty riippuvuuksien tietoturvapäivityksen yhteydessä. Repository ei määritä `.nvmrc`-tiedostoa.
 
 Sharp ei ole nykyinen suora riippuvuus. Kolmannen osapuolen riippuvuuksia ei tule päätellä vanhoista suunnitelmista tai keskusteluista, vaan package.json- ja package-lock.json-tiedostoista.
 

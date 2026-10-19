@@ -3,6 +3,9 @@
   "type": "module",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "^22.22.3 || ^24.16.0 || >=26.3.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "check": "astro check",
@@ -16,7 +19,7 @@
     "test:design": "node --test scripts/design-token-hygiene.test.mjs scripts/page-heading-style.test.mjs scripts/needle-size-data-parity.test.mjs scripts/yarn-weight-chart.test.mjs scripts/size-chart.test.mjs",
     "test:language-switcher": "npm run build && node --test scripts/language-switcher.test.mjs",
     "test:seo": "node --test scripts/seo-audit.test.mjs scripts/live-seo-audit.test.mjs scripts/url-parity-audit.test.mjs scripts/seo-release-gate.test.mjs",
-    "test:security": "node --test scripts/security-headers.test.mjs",
+    "test:security": "node --test scripts/security-headers.test.mjs scripts/http-cache-semantics.test.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
     "seo:live": "node scripts/live-seo-audit.mjs",
     "seo:urls": "node scripts/url-parity-audit.mjs",
@@ -30,16 +33,18 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
     "astro": "^7.3.5",
-    "gsap": "^3.15.0"
+    "gsap": "^3.15.0",
+    "http-cache-semantics": "file:vendor/http-cache-semantics"
   },
   "overrides": {
+    "http-cache-semantics": "$http-cache-semantics",
     "yaml": "2.9.0"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
     "@eslint/js": "10.0.1",
     "eslint": "10.11.0",
-    "eslint-plugin-astro": "1.7.0",
+    "eslint-plugin-astro": "3.2.1",
     "globals": "17.12.0",
     "prettier": "3.9.9",
     "prettier-plugin-astro": "0.14.1",
