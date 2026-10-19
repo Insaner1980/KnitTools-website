@@ -132,7 +132,9 @@ function parseCacheControl(header) {
     const parts = header.trim().split(/,/);
     for (const part of parts) {
         const [k, v] = part.split(/=/, 2);
-        cc[k.trim()] = v === undefined ? true : v.trim().replace(/^"|"$/g, '');
+        const name = k.trim().toLowerCase();
+        if (!name) continue;
+        cc[name] = v === undefined ? true : v.trim().replace(/^"|"$/g, '');
     }
 
     return cc;
@@ -545,9 +547,9 @@ module.exports = class CachePolicy {
         }
         // 9.1.  Connection
         if (inHeaders.connection) {
-            const tokens = inHeaders.connection.trim().split(/\s*,\s*/);
+            const tokens = inHeaders.connection.split(',');
             for (const name of tokens) {
-                delete headers[name];
+                delete headers[name.trim().toLowerCase()];
             }
         }
         if (headers.warning) {
@@ -761,13 +763,17 @@ module.exports = class CachePolicy {
         this._ignoreCargoCult = !!obj.icc;
         this._status = obj.st;
         this._resHeaders = obj.resh;
-        this._rescc = obj.rescc;
+        this._rescc = Object.fromEntries(
+            Object.entries(obj.rescc).map(([name, value]) => [name.toLowerCase(), value])
+        );
         this._method = obj.m;
         this._url = obj.u;
         this._host = obj.h;
         this._noAuthorization = obj.a;
         this._reqHeaders = obj.reqh;
-        this._reqcc = obj.reqcc;
+        this._reqcc = Object.fromEntries(
+            Object.entries(obj.reqcc).map(([name, value]) => [name.toLowerCase(), value])
+        );
     }
 
     /**

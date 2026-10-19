@@ -13,6 +13,11 @@ the existing policy fields, including policies restored from serialization.
 Ordinary public stale responses, private caches and explicit public/immutable
 cookie opt-ins retain their previous behavior.
 
+Cache-Control directive names are normalized without changing their values,
+including when restoring older serialized policies. Connection tokens are split
+on literal commas and trimmed individually to avoid polynomial regex backtracking;
+the named hop-by-hop fields are removed regardless of token case.
+
 The root npm override selects this package for Astro. Regression coverage is in
 `scripts/http-cache-semantics.test.mjs`, included in `npm run test:security`.
 Replace this override only after an upstream version passes those regressions.
