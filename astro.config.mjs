@@ -8,8 +8,8 @@ export default defineConfig({
     csp: {
       directives: [
         "default-src 'self'",
-        "connect-src 'self' https://api.finnvek.com https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://cloudflareinsights.com",
-        "img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com",
+        "connect-src 'self' https://api.finnvek.com https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://www.googletagmanager.com https://cloudflareinsights.com",
+        "img-src 'self' data: https://*.google-analytics.com https://www.googletagmanager.com",
         "frame-src 'none'",
         "object-src 'none'",
       ],
