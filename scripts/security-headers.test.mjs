@@ -76,7 +76,12 @@ test("static asset headers improve browser caching without caching HTML", () => 
   const pageHeaders = rules.get("/*");
 
   assert.ok(pageHeaders, "root Cloudflare Pages header rule is missing");
-  assert.equal(pageHeaders.get("cache-control"), undefined);
+  assert.equal(pageHeaders.get("cache-control"), "no-transform");
+  for (const pattern of ["/", "/*/", "/*.html", "/404"])
+    assert.equal(
+      rules.get(pattern)?.get("cache-control"),
+      "public, max-age=0, must-revalidate",
+    );
 
   assert.equal(
     rules.get("/_assets/*")?.get("cache-control"),
@@ -99,6 +104,48 @@ test("static asset headers improve browser caching without caching HTML", () => 
       rules.get(pattern)?.get("cache-control"),
       "public, max-age=2592000",
     );
+  }
+});
+
+test("overlapping Pages rules preserve asset freshness and HTML revalidation", () => {
+  const rules = parseHeadersFile(fs.readFileSync(HEADER_PATH, "utf8"));
+  const combinedCacheControl = (path) =>
+    [...rules]
+      .filter(([pattern]) => {
+        const expression = pattern
+          .split("*")
+          .map((part) => part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+          .join(".*");
+        return new RegExp(`^${expression}$`).test(path);
+      })
+      .map(([, headers]) => headers.get("cache-control"))
+      .filter(Boolean)
+      .join(", ");
+
+  for (const path of [
+    "/",
+    "/about/",
+    "/fi/tyokalut/",
+    "/missing/",
+    "/404.html",
+  ]) {
+    const value = combinedCacheControl(path);
+    assert.match(value, /no-transform/);
+    assert.match(value, /max-age=0/);
+    assert.match(value, /must-revalidate/);
+  }
+  for (const path of [
+    "/_assets/app.js",
+    "/_assets/app.css",
+    "/fonts/font.woff2",
+    "/images/photo.webp",
+    "/brand/logo.svg",
+    "/favicon.ico",
+  ]) {
+    const value = combinedCacheControl(path);
+    assert.match(value, /no-transform/);
+    assert.match(value, /max-age=(31536000|2592000)/);
+    assert.doesNotMatch(value, /max-age=0|must-revalidate/);
   }
 });
 

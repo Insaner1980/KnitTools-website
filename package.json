@@ -19,7 +19,7 @@
     "test:design": "node --test scripts/design-token-hygiene.test.mjs scripts/page-heading-style.test.mjs scripts/needle-size-data-parity.test.mjs scripts/yarn-weight-chart.test.mjs scripts/size-chart.test.mjs",
     "test:language-switcher": "npm run build && node --test scripts/language-switcher.test.mjs",
     "test:seo": "node --test scripts/seo-audit.test.mjs scripts/live-seo-audit.test.mjs scripts/url-parity-audit.test.mjs scripts/seo-release-gate.test.mjs",
-    "test:security": "node --test scripts/security-headers.test.mjs scripts/security-csp.test.mjs scripts/http-cache-semantics.test.mjs",
+    "test:security": "node --test scripts/security-headers.test.mjs scripts/security-csp.test.mjs scripts/http-cache-semantics.test.mjs scripts/pages-worker.test.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
     "seo:live": "node scripts/live-seo-audit.mjs",
     "seo:urls": "node scripts/url-parity-audit.mjs",
