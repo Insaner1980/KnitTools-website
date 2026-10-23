@@ -79,7 +79,7 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_MEASUREMENT_ID}`}
           />
-          <script is:inline set:html={googleAnalyticsSnippet} />
+          <script is:inline data-csp-hash set:html={googleAnalyticsSnippet} />
         </>
       )
     }
@@ -206,7 +206,7 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
     <!-- Global styles imported via frontmatter -->
     {
       enableRevealAnimations && (
-        <script is:inline>
+        <script is:inline data-csp-hash>
           document.documentElement.classList.add("reveal-animations");
         </script>
       )
@@ -232,6 +232,7 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
     }
     <script
       is:inline
+      data-csp-hash
       define:vars={{
         countryToTier: COUNTRY_TO_TIER,
         fallbackPricingTier: FALLBACK_PRICING_TIER,

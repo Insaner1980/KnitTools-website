@@ -1,8 +1,28 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
+import inlineScriptCsp from "./scripts/inline-script-csp.mjs";
 
 export default defineConfig({
   site: "https://knittoolsapp.com",
+  security: {
+    csp: {
+      directives: [
+        "default-src 'self'",
+        "connect-src 'self' https://api.finnvek.com https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://cloudflareinsights.com",
+        "img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com",
+        "frame-src 'none'",
+        "object-src 'none'",
+      ],
+      scriptDirective: {
+        resources: [
+          "'self'",
+          "https://www.googletagmanager.com",
+          "https://static.cloudflareinsights.com",
+        ],
+      },
+      styleDirective: { resources: ["'self'", "'unsafe-inline'"] },
+    },
+  },
   output: "static",
   trailingSlash: "always",
   build: {
@@ -14,5 +34,5 @@ export default defineConfig({
       theme: "github-light",
     },
   },
-  integrations: [sitemap()],
+  integrations: [sitemap(), inlineScriptCsp()],
 });

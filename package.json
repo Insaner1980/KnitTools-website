@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "^22.22.3 || ^24.16.0 || >=26.3.0"
+    "node": "^22.23.4 || ^24.22.1 || >=26.12.1"
   },
   "scripts": {
     "dev": "astro dev",
@@ -19,20 +19,20 @@
     "test:design": "node --test scripts/design-token-hygiene.test.mjs scripts/page-heading-style.test.mjs scripts/needle-size-data-parity.test.mjs scripts/yarn-weight-chart.test.mjs scripts/size-chart.test.mjs",
     "test:language-switcher": "npm run build && node --test scripts/language-switcher.test.mjs",
     "test:seo": "node --test scripts/seo-audit.test.mjs scripts/live-seo-audit.test.mjs scripts/url-parity-audit.test.mjs scripts/seo-release-gate.test.mjs",
-    "test:security": "node --test scripts/security-headers.test.mjs scripts/http-cache-semantics.test.mjs",
+    "test:security": "node --test scripts/security-headers.test.mjs scripts/security-csp.test.mjs scripts/http-cache-semantics.test.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
     "seo:live": "node scripts/live-seo-audit.mjs",
     "seo:urls": "node scripts/url-parity-audit.mjs",
     "seo:gate": "node scripts/seo-release-gate.mjs --strict",
     "verify:seo": "npm run build && npm run seo:audit && npm run seo:urls && npm run seo:live && npm run seo:gate",
-    "verify:release": "npm run check && npm run lint && npm run format:check && npm run test:articles && npm run test:cast-on && npm run test:yarn-labels && npm run test:design && npm run test:seo && npm run test:security && npm run verify:seo",
+    "verify:release": "npm run check && npm run lint && npm run format:check && npm run test:articles && npm run test:cast-on && npm run test:yarn-labels && npm run test:design && npm run test:seo && npm run verify:seo && npm run test:security",
     "preview": "astro preview",
     "astro": "npm run verify",
-    "verify": "npm run check && npm run lint && npm run format:check && npm run test:articles && npm run test:cast-on && npm run test:yarn-labels && npm run test:design && npm run test:security && npm run test:language-switcher"
+    "verify": "npm run check && npm run lint && npm run format:check && npm run test:articles && npm run test:cast-on && npm run test:yarn-labels && npm run test:design && npm run test:language-switcher && npm run test:security"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
-    "astro": "^7.3.5",
+    "astro": "^7.4.2",
     "gsap": "^3.15.0",
     "http-cache-semantics": "file:vendor/http-cache-semantics"
   },
@@ -46,6 +46,7 @@
     "eslint": "10.11.0",
     "eslint-plugin-astro": "3.2.1",
     "globals": "17.12.0",
+    "parse5": "8.0.1",
     "prettier": "3.9.9",
     "prettier-plugin-astro": "0.14.1",
     "typescript": "6.0.3",
