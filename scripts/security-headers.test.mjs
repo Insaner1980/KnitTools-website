@@ -107,7 +107,7 @@ test("static asset headers improve browser caching without caching HTML", () => 
   }
 });
 
-test("overlapping Pages rules preserve asset freshness and HTML revalidation", () => {
+test("overlapping Pages rules preserve asset freshness and revalidate HTML and crawler metadata", () => {
   const rules = parseHeadersFile(fs.readFileSync(HEADER_PATH, "utf8"));
   const combinedCacheControl = (path) =>
     [...rules]
@@ -128,6 +128,9 @@ test("overlapping Pages rules preserve asset freshness and HTML revalidation", (
     "/fi/tyokalut/",
     "/missing/",
     "/404.html",
+    "/robots.txt",
+    "/sitemap-index.xml",
+    "/sitemap-0.xml",
   ]) {
     const value = combinedCacheControl(path);
     assert.match(value, /no-transform/);

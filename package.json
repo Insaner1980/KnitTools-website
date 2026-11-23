@@ -18,6 +18,7 @@
     "test:cast-on": "node --test scripts/cast-on-calculator.test.mjs",
     "test:design": "node --test scripts/design-token-hygiene.test.mjs scripts/page-heading-style.test.mjs scripts/needle-size-data-parity.test.mjs scripts/yarn-weight-chart.test.mjs scripts/size-chart.test.mjs",
     "test:language-switcher": "npm run build && node --test scripts/language-switcher.test.mjs",
+    "test:pricing": "node --test scripts/pricing.test.mjs",
     "test:seo": "node --test scripts/seo-audit.test.mjs scripts/live-seo-audit.test.mjs scripts/url-parity-audit.test.mjs scripts/seo-release-gate.test.mjs",
     "test:security": "node --test scripts/security-headers.test.mjs scripts/security-csp.test.mjs scripts/http-cache-semantics.test.mjs scripts/pages-worker.test.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
@@ -25,10 +26,10 @@
     "seo:urls": "node scripts/url-parity-audit.mjs",
     "seo:gate": "node scripts/seo-release-gate.mjs --strict",
     "verify:seo": "npm run build && npm run seo:audit && npm run seo:urls && npm run seo:live && npm run seo:gate",
-    "verify:release": "npm run check && npm run lint && npm run format:check && npm run test:articles && npm run test:cast-on && npm run test:yarn-labels && npm run test:design && npm run test:seo && npm run verify:seo && npm run test:security",
+    "verify:release": "npm run check && npm run lint && npm run format:check && npm run test:articles && npm run test:cast-on && npm run test:yarn-labels && npm run test:design && npm run test:seo && npm run verify:seo && npm run test:pricing && npm run test:security",
     "preview": "astro preview",
     "astro": "npm run verify",
-    "verify": "npm run check && npm run lint && npm run format:check && npm run test:articles && npm run test:cast-on && npm run test:yarn-labels && npm run test:design && npm run test:language-switcher && npm run test:security"
+    "verify": "npm run check && npm run lint && npm run format:check && npm run test:articles && npm run test:cast-on && npm run test:yarn-labels && npm run test:design && npm run test:language-switcher && npm run test:pricing && npm run test:security"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
