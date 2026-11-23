@@ -47,7 +47,7 @@ De [tellerhandleiding van My Row Counter](https://rowcounterapp.com/counter.html
 
 Lokaal opslaan is iets anders dan een back-up, herstel of synchronisatie tussen apparaten. Controleer account- en verbindingsvereisten per functie, hoe je een herstelbare kopie maakt en wat een telefoonwissel vraagt. Door een lege batterij is de app onbereikbaar totdat de telefoon weer stroom heeft; dat bewijst niet dat de laatste wijziging is opgeslagen of dat gegevens verloren zijn gegaan.
 
-KnitTools is onze Android-app in ontwikkeling bij Finnvek, de uitgever van deze website. De huidige implementatie bevat handmatig tellen door te tikken, het ongedaan maken van ondersteunde recente wijzigingen van de hoofdteller, projecttellers, toerherinneringen en sessiegeschiedenis. Extra projecttellers en herinneringen aanmaken vereist Pro-toegang, ook via een actieve proefperiode. Deze informatie berust op broncodeonderzoek, niet op een gebruikstest of herstelgarantie. [Aanmelden voor de lancering van KnitTools](/nl/breitools/#join) is geen download.
+KnitTools is onze Android-app in ontwikkeling bij Finnvek, de uitgever van deze website. De huidige implementatie bevat handmatig tellen door te tikken, het ongedaan maken van ondersteunde recente wijzigingen van de hoofdteller, projecttellers, toerherinneringen en sessiegeschiedenis. Extra projecttellers en herinneringen aanmaken vereist Pro-toegang, ook via een actieve proefperiode. Deze informatie berust op broncodeonderzoek, niet op een gebruikstest of herstelgarantie.
 
 ## Bepaal wat de stand betekent
 

@@ -58,7 +58,7 @@ Kerroslaskuri säilyttää luvun, jonka itse kirjaat. Myös paperimerkinnät toi
 
 **Mekaaninen laskuri** ei tarvitse paristoa. Kiinnitys, nollaus, luvun pienentäminen ja lukitus riippuvat mallista; kaikki mallit eivät toimi samalla tavalla eivätkä ole sopimattomia pyöröpuikoille. Kokeile lukeman näkyvyyttä ja säätimien sopivuutta omille käsillesi.
 
-**Sovelluslaskureissa** voi olla projektitietoja, lisälaskureita tai muistutuksia, mutta ominaisuudet ja maksulliset tasot vaihtelevat. Sivuston julkaisija Finnvek kehittää KnitToolsia, jossa on projektikohtainen, käsin käytettävä kerroslaskenta. Katso [KnitToolsin julkaisutiedot](/fi/tyokalut/#join) ja [neulesovellusten vertailu](/fi/artikkelit/parhaat-neulesovellukset/). Digitaalinen kirjaus ei mittaa tai käsittele neuletta.
+**Sovelluslaskureissa** voi olla projektitietoja, lisälaskureita tai muistutuksia, mutta ominaisuudet ja maksulliset tasot vaihtelevat. Sivuston julkaisija Finnvek kehittää KnitToolsia, jossa on projektikohtainen, käsin käytettävä kerroslaskenta. Katso [neulesovellusten vertailu](/fi/artikkelit/parhaat-neulesovellukset/). Digitaalinen kirjaus ei mittaa tai käsittele neuletta.
 
 Pidä 24 kerroksen mallikerrassa kokonaismäärä ja mallikerran kohta erillään. Kun mallikerran kerros 24 on valmis, seuraava on mallikerran kerros 1; kokonaislaskuria ei tarvitse nollata. Tämän voi merkitä myös paperille.
 

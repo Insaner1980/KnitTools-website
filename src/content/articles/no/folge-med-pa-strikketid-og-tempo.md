@@ -56,7 +56,7 @@ Manuell registrering krever en notis etter økten. «Ca. 45 minutter, kanskje 20
 
 En prosjektapp kan samle tidtaking og telling. Sjekk hva den lagrer og hva du må registrere selv; pause- og rettingsmuligheter varierer.
 
-[KnitTools](/no/verktoy/#join) utvikles med arbeidsøkter ved [pinne- og omgangstelleren](/no/artikler/holde-styr-pa-pinner-og-omganger/). I den nåværende implementasjonen starter du økten selv, registrerer tellerendringer mens du arbeider, og stopper før du velger å lagre eller forkaste oppsummeringen. Historikken beholder dato, varighet og tellerens start- og sluttverdi sammen med prosjektet. Tellertrykk starter ikke tidtaking eller oppdager aktiv strikking. Nettlenken gjelder beskjed om lanseringen, ikke nedlasting av appen.
+KnitTools utvikles med arbeidsøkter ved [pinne- og omgangstelleren](/no/artikler/holde-styr-pa-pinner-og-omganger/). I den nåværende implementasjonen starter du økten selv, registrerer tellerendringer mens du arbeider, og stopper før du velger å lagre eller forkaste oppsummeringen. Historikken beholder dato, varighet og tellerens start- og sluttverdi sammen med prosjektet. Tellertrykk starter ikke tidtaking eller oppdager aktiv strikking.
 
 For å utelate en pause avslutter og lagrer du økten og starter en ny når du fortsetter. En lagret økt kan slettes fra historikken, men historikken er ikke en generell redigerer for tidsoppføringer. Behold en rettet tidsnotis separat hvis start eller stopp ble glemt. Insights bruker lagrede økter til samlet tid og minutter per pinne eller omgang. Tallene bygger på registreringene, ikke uavhengig observert strikking. Ikke anta at alle diagrammer inngår i gratisnivået.
 

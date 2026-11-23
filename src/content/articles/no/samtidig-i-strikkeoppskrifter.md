@@ -77,7 +77,7 @@ Skriv opp startpinne, intervall, totalt antall ganger, kant og sluttbetingelse f
 
 Listen til tabellen begynner slik: "Pinne 1: rett med begge fellingene. Pinne 2: vrang. Pinne 3: rett med bare ermehullsfellingen." Kryss av både pinnen og handlingene. Bruker du to manuelle intervalltellere, øker du begge etter hver ferdige pinne så lenge deres serier pågår, også pinner uten felling. Noter antallet utførte fellinger separat, slik at du vet når du skal stoppe.
 
-Flere tellere i KnitTools' [omgangsteller](/no/verktoy/#join) er en Pro-funksjon. Til denne metoden kan du bruke separate tellere uten kobling og øke dem selv. Du tolker oppskriften, legger inn startverdier og følger med på hvilke handlinger som skal gjøres; dette lover ikke at appen leser instruksjonene eller lager den samlede planen automatisk.
+Flere tellere i KnitTools' omgangsteller er en Pro-funksjon. Til denne metoden kan du bruke separate tellere uten kobling og øke dem selv. Du tolker oppskriften, legger inn startverdier og følger med på hvilke handlinger som skal gjøres; dette lover ikke at appen leser instruksjonene eller lager den samlede planen automatisk.
 
 ## Fellingstype og symmetri
 

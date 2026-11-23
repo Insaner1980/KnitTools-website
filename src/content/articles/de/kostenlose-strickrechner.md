@@ -85,7 +85,7 @@ Die [Nadelstärken-Tabelle](/de/werkzeuge/nadelstaerken-tabelle/), [Garnstärken
 
 ## Alles an einem Ort
 
-Die Browserwerkzeuge sind ohne Konto oder Installation kostenlos nutzbar. Die separate Android-App KnitTools wird rund um Projekte und manuelles Reihen- und Rundenzählen entwickelt, mit kostenlosen und Pro-Funktionen. Kostenloser Browserzugang bedeutet nicht, dass alle App-Funktionen kostenlos oder identisch sind. [Informationen zum Start und Anmeldung für KnitTools](/de/werkzeuge/#join) findest du auf der Werkzeugseite.
+Die Browserwerkzeuge sind ohne Konto oder Installation kostenlos nutzbar. Die separate Android-App KnitTools wird rund um Projekte und manuelles Reihen- und Rundenzählen entwickelt, mit kostenlosen und Pro-Funktionen. Kostenloser Browserzugang bedeutet nicht, dass alle App-Funktionen kostenlos oder identisch sind.
 
 ## FAQ
 

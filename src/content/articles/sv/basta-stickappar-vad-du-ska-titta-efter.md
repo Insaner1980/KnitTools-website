@@ -92,8 +92,6 @@ Guiden publiceras av Finnvek, som utvecklar KnitTools.
 
 KnitTools byggs som en Android-verktygslåda för projekt, varvräkning, beräkningar och referensmaterial. Implementationen omfattar flera projekträknare, projektanteckningar, sparade mönster, kalkylatorer och referenser. Detta är appfunktioner; webbkalkylatorerna nedan är separata verktyg.
 
-[Anmäl dig för besked om Android-appens lansering](/sv/verktyg/#join). Länken går till anmälan, inte till en appnedladdning.
-
 ## Vanliga frågor
 
 **Behöver jag en stickapp över huvud taget?**

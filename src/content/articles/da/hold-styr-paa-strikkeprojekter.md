@@ -49,7 +49,7 @@ Både papirnoter og digitale noter skal opdateres. Skriv sidste færdige pind el
 
 En app kan være praktisk, men tjek, hvad den faktisk registrerer. Datoen for en session er ikke en præcis plads i opskriften, og appen kender ikke ændringer, du ikke har skrevet ind. Lokal lagring, eksport af en kopi, sikkerhedskopiering og gendannelse, synkronisering mellem enheder og deling af et projekt er forskellige funktioner.
 
-KnitTools udvikles til Android med projekttællere, sessionshistorik og projektnoter. Du indtaster selv tal og noter. Oprettelse af nye projektnoter kræver Pro-adgang; eksisterende noter kan stadig bruges bagefter. Garnoplysninger kan skrives manuelt i noter. Det betyder ikke et særskilt felt til hver oplysning eller automatisk fradrag af garnforbrug. [Få besked, når KnitTools lanceres](/da/strikkevaerktoejer/#join).
+KnitTools udvikles til Android med projekttællere, sessionshistorik og projektnoter. Du indtaster selv tal og noter. Oprettelse af nye projektnoter kræver Pro-adgang; eksisterende noter kan stadig bruges bagefter. Garnoplysninger kan skrives manuelt i noter. Det betyder ikke et særskilt felt til hver oplysning eller automatisk fradrag af garnforbrug.
 
 ## Vælg hvad du vil strikke på
 

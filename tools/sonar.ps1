@@ -88,7 +88,7 @@ Set-Content -LiteralPath $scanReport -Encoding utf8 -Value @(
     "sonar"
     "Root: $repoRoot"
     "Project: $projectKey"
-    "Command: reports/sonar.txt :: npx --yes @sonar/scan@4.3.5"
+    "Command: reports/sonar.txt :: npx --yes @sonar/scan@5.0.2"
     "Started: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
     ""
 )
@@ -113,7 +113,7 @@ try {
         throw "npx.cmd ei löytynyt PATHista."
     }
 
-    $scannerOutput = & $npx.Source "--yes" "@sonar/scan@4.3.5" *>&1
+    $scannerOutput = & $npx.Source "--yes" "@sonar/scan@5.0.2" *>&1
     $scanExitCode = if ($null -ne $global:LASTEXITCODE) { [int]$global:LASTEXITCODE } else { 0 }
     $scannerOutput |
         Tee-Object -FilePath $scanReport -Append |

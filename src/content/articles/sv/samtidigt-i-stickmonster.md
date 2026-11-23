@@ -77,7 +77,7 @@ Skriv upp startvarv, intervall, totalt antal gånger, kant och slutvillkor för 
 
 Listan till tabellen börjar: "Varv 1: räta maskor med båda minskningarna. Varv 2: aviga maskor. Varv 3: räta maskor med bara ärmhålsminskningen." Bocka av både varvet och åtgärderna. Med två manuella intervallräknare stegar du fram båda efter varje färdigt varv så länge deras scheman pågår, även varv utan minskning. Anteckna antalet utförda minskningar separat så att du vet när varje serie är klar.
 
-Flera räknare i KnitTools [varvräknare](/sv/verktyg/#join) är en Pro-funktion. För den här metoden kan du använda separata, olänkade räknare som du stegar fram själv. Du tolkar fortfarande mönstret, anger startvärdena och håller reda på vilka åtgärder som ska göras; appen utlovas inte läsa instruktionerna eller skapa den sammanslagna planen automatiskt.
+Flera räknare i KnitTools varvräknare är en Pro-funktion. För den här metoden kan du använda separata, olänkade räknare som du stegar fram själv. Du tolkar fortfarande mönstret, anger startvärdena och håller reda på vilka åtgärder som ska göras; appen utlovas inte läsa instruktionerna eller skapa den sammanslagna planen automatiskt.
 
 ## Minskningstyp och symmetri
 

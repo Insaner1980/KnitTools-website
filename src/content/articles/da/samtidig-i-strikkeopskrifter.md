@@ -77,7 +77,7 @@ Skriv startpind, interval, samlet antal gange, kant og slutbetingelse for hver i
 
 Listen til tabellen begynder: "Pind 1: ret med begge indtagninger. Pind 2: vrang. Pind 3: ret med kun ærmegabsindtagningen." Kryds både pinden og handlingerne af. Bruger du to manuelle intervaltællere, øger du begge efter hver færdig pind, mens deres serier er i gang, også pinde uden indtagninger. Noter antallet af udførte indtagninger særskilt, så du ved, hvornår du skal stoppe.
 
-Flere tællere i KnitTools' [omgangstæller](/da/strikkevaerktoejer/#join) er en Pro-funktion. Til denne metode kan du bruge separate tællere uden sammenkobling og øge dem selv. Du fortolker opskriften, angiver startværdierne og holder styr på de handlinger, der skal udføres; dette lover ikke, at appen læser instruktionerne eller laver den samlede plan automatisk.
+Flere tællere i KnitTools' omgangstæller er en Pro-funktion. Til denne metode kan du bruge separate tællere uden sammenkobling og øge dem selv. Du fortolker opskriften, angiver startværdierne og holder styr på de handlinger, der skal udføres; dette lover ikke, at appen læser instruktionerne eller laver den samlede plan automatisk.
 
 ## Indtagningstype og symmetri
 

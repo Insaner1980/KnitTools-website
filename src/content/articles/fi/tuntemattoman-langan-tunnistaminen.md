@@ -77,7 +77,7 @@ Tarkista koepesun yhteydessä, tarttuuko näytteestä väriä valkoiseen kankaas
 
 Erota muistiinpanoissa havainnot ja arvaukset. Esimerkiksi "WPI viittaa DK-vahvuuteen; kuitu tuntematon; tilkun mitat ja pesuolot kirjattu" on käyttökelpoinen merkintä. Säilytä tilkku langan mukana. Kerän koko, langan paksuus tai massa ei yksin kerro jäljellä olevaa metrimäärää.
 
-KnitTools-sovelluksessa voit tallentaa arviosi ja havaintosi projektimuistiinpanoon. [Tilaa ilmoitus KnitToolsin julkaisusta](/fi/tyokalut/#join).
+KnitTools-sovelluksessa voit tallentaa arviosi ja havaintosi projektimuistiinpanoon.
 
 ## FAQ
 

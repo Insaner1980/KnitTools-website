@@ -1,4 +1,5 @@
 export type PricePhase = "launch" | "permanent";
+export type LaunchPhase = "prelaunch" | "launch" | "regular";
 
 export const PRICING_TIERS = {
   US: { launch: "$9.99", permanent: "$14.99" },
@@ -88,11 +89,14 @@ const STRUCTURED_PRICE_CURRENCY: Record<PricingTier, string> = {
 export const DEFAULT_PRICING_TIER: PricingTier = "US";
 export const FALLBACK_PRICING_TIER: PricingTier = "default";
 export const LOCAL_CURRENCY_NOTE =
-  "Pricing on Google Play in your local currency.";
+  "Regional prices are indicative. Google Play confirms your price and currency for your billing country.";
 
 export const PRICING = {
   trialDays: 14,
-  launchMonthLabel: "Fall 2026",
+  // Set only after public release is confirmed. End = start plus one calendar month in Europe/Helsinki.
+  // Rebuild and deploy at activation AND expiry for static HTML and crawlers; browser updates are not a release gate.
+  launchStartMs: null as number | null,
+  launchEndMs: null as number | null,
 } as const;
 
 export function getPricingTier(countryCode?: string): PricingTier {
@@ -124,4 +128,42 @@ export function getStructuredOffers(phase: PricePhase = "launch") {
         ...(regions.length > 0 ? { eligibleRegion: regions } : {}),
       };
     });
+}
+
+export function getLaunchPhase(
+  nowMs: number,
+  startMs: number | null,
+  endMs: number | null,
+): LaunchPhase {
+  if (
+    startMs === null ||
+    endMs === null ||
+    !Number.isFinite(startMs) ||
+    !Number.isFinite(endMs) ||
+    !Number.isFinite(nowMs) ||
+    startMs >= endMs ||
+    nowMs < startMs
+  )
+    return "prelaunch";
+  return nowMs < endMs ? "launch" : "regular";
+}
+
+export function getPricePhase(phase: LaunchPhase): PricePhase {
+  return phase === "regular" ? "permanent" : "launch";
+}
+
+export function getLaunchDeadline(): string {
+  if (
+    PRICING.launchStartMs === null ||
+    PRICING.launchEndMs === null ||
+    !Number.isFinite(PRICING.launchStartMs) ||
+    !Number.isFinite(PRICING.launchEndMs) ||
+    PRICING.launchStartMs >= PRICING.launchEndMs
+  )
+    return "";
+  return new Intl.DateTimeFormat("en-GB", {
+    dateStyle: "long",
+    timeStyle: "long",
+    timeZone: "Europe/Helsinki",
+  }).format(new Date(PRICING.launchEndMs));
 }

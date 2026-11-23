@@ -73,7 +73,7 @@ Oletetaan, että kavennat kerroksilla 15, 25, 35 ja 45: ensimmäinen kavennusker
 
 Työskentelykertojen historia täydentää kerroslukua, mutta kuvaa sovelluksen käyttöä ja kirjattua etenemistä. Se ei todista, että jokainen kerros on neulottu tai napautus tehty oikein.
 
-[KnitTools-sovellusta](/fi/tyokalut/#join) rakennetaan Androidille. Siinä on manuaalinen napautuslaskenta, tuettujen viimeaikaisten päälaskurimuutosten peruutus, projektin lisälaskurit ja työskentelykertojen seuranta. Peruutus muuttaa kirjattua lukua, ei neuletta. Nämä ominaisuudet eivät tarkoita, että erilliset laskurit etenisivät yhdessä tai että mukana olisi muistutuksia. Linkki johtaa julkaisuilmoittautumiseen, ei sovelluksen lataukseen.
+KnitTools-sovellusta rakennetaan Androidille. Siinä on manuaalinen napautuslaskenta, tuettujen viimeaikaisten päälaskurimuutosten peruutus, projektin lisälaskurit ja työskentelykertojen seuranta. Peruutus muuttaa kirjattua lukua, ei neuletta. Nämä ominaisuudet eivät tarkoita, että erilliset laskurit etenisivät yhdessä tai että mukana olisi muistutuksia.
 
 ## 7. Yhdistelmämenetelmät
 

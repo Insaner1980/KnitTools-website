@@ -92,8 +92,6 @@ Deze gids wordt gepubliceerd door Finnvek, de maker van KnitTools.
 
 KnitTools wordt gebouwd als Android-toolkit voor projecten, toeren tellen, rekenen en naslaan. De implementatie bevat meerdere projecttellers, projectnotities, opgeslagen patronen, rekentools en naslagmateriaal. Dat zijn appfuncties; de browsertools hieronder zijn aparte hulpmiddelen.
 
-[Meld je aan voor bericht over de lancering van de Android-app](/nl/breitools/#join). De link gaat naar de aanmelding, niet naar een appdownload.
-
 ## Veelgestelde vragen
 
 **Heb ik überhaupt een breiapp nodig?**

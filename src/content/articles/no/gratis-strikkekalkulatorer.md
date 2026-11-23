@@ -86,7 +86,7 @@ Noen spørsmål er oppslag: 3,75 mm tilsvarer US 5 i pinnetabellen, og ordlisten
 
 ## Alt samlet på ett sted
 
-Nettleserverktøyene er gratis uten konto eller installasjon. Den separate Android-appen KnitTools bygges rundt prosjekter og manuell telling av pinner og omganger, med gratis- og Pro-funksjoner. Gratis nettlesertilgang betyr ikke at alle appfunksjoner er gratis eller identiske. [Les om lanseringen og meld interesse for KnitTools](/no/verktoy/#join).
+Nettleserverktøyene er gratis uten konto eller installasjon. Den separate Android-appen KnitTools bygges rundt prosjekter og manuell telling av pinner og omganger, med gratis- og Pro-funksjoner. Gratis nettlesertilgang betyr ikke at alle appfunksjoner er gratis eller identiske.
 
 ## FAQ
 

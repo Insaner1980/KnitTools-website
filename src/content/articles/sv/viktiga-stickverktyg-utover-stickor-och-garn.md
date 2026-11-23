@@ -59,7 +59,7 @@ En räknare sparar ett tal som du själv matar in. Streck på papper fungerar oc
 
 **Mekaniska räknare** behöver inga batterier. Fäste, nollställning, justering bakåt och låsning varierar mellan modeller. Kontrollera funktionerna och hur räknaren passar ditt arbetssätt, även med rundstickor. Prova läsbarheten och reglagen med dina egna händer.
 
-**Appräknare** kan ha projektuppgifter, extra räknare och påminnelser; funktioner och betalnivåer varierar. Finnvek, som ger ut den här webbplatsen, utvecklar KnitTools med projektkopplad, manuell varvräkning. Läs [KnitTools lanseringsinformation](/sv/verktyg/#join) och [jämförelsen av stickappar](/sv/artiklar/basta-stickappar-vad-du-ska-titta-efter/). Digitala anteckningar mäter eller bearbetar inte stickningen.
+**Appräknare** kan ha projektuppgifter, extra räknare och påminnelser; funktioner och betalnivåer varierar. Finnvek, som ger ut den här webbplatsen, utvecklar KnitTools med projektkopplad, manuell varvräkning. Läs [jämförelsen av stickappar](/sv/artiklar/basta-stickappar-vad-du-ska-titta-efter/). Digitala anteckningar mäter eller bearbetar inte stickningen.
 
 I en rapport på 24 varv behöver du skilja totalantalet från platsen i rapporten. Efter färdigt rapportvarv 24 följer rapportvarv 1; totalantalet behöver inte nollställas. Det går även att följa på papper.
 

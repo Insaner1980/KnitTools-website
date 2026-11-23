@@ -1,6 +1,5 @@
 ---
 import "../styles/global.css";
-import { COUNTRY_TO_TIER, FALLBACK_PRICING_TIER } from "../config/pricing";
 import { SITE_URL, SOCIAL_PROFILE_URLS } from "../config/brand";
 import { getHtmlLang, getLocale, type Lang } from "../i18n/config";
 import { useTranslations } from "../i18n/ui";
@@ -217,11 +216,7 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
     <div class="page-wrapper">
       <slot />
     </div>
-    <script>
-      import { initWaitlistSignups } from "../scripts/waitlistSignup";
-
-      initWaitlistSignups();
-    </script>
+    <script></script>
     {
       enableRevealAnimations && (
         <script>
@@ -230,81 +225,130 @@ const articleModifiedIso = toIsoDateTime(articleModifiedTime);
         </script>
       )
     }
-    <script
-      is:inline
-      data-csp-hash
-      define:vars={{
-        countryToTier: COUNTRY_TO_TIER,
-        fallbackPricingTier: FALLBACK_PRICING_TIER,
-      }}
-    >
-      (() => {
-        const countryStorageKey = "knittools-pricing-country";
+    <script>
+      import {
+        COUNTRY_TO_TIER,
+        FALLBACK_PRICING_TIER,
+        PRICING,
+        getLaunchPhase,
+        getPricePhase,
+      } from "../config/pricing";
 
-        const getTier = (country) => {
-          if (!country) return "";
-          return (
-            countryToTier[String(country).toUpperCase()] || fallbackPricingTier
-          );
-        };
+      const countryStorageKey = "knittools-pricing-country";
+      let currentTier = "US";
+      let boundaryTimer: number | undefined;
 
-        const readCachedCountry = () => {
-          try {
-            return sessionStorage.getItem(countryStorageKey) || "";
-          } catch {
-            return "";
-          }
-        };
-
-        const writeCachedCountry = (country) => {
-          if (!country) return;
-          try {
-            sessionStorage.setItem(countryStorageKey, country);
-          } catch {
-            // sessionStorage can be unavailable in strict privacy modes.
-          }
-        };
-
-        const getCloudflareCountry = async () => {
-          const cachedCountry = readCachedCountry();
-          if (cachedCountry) return cachedCountry;
-
-          try {
-            const controller = new AbortController();
-            const timeout = window.setTimeout(() => controller.abort(), 1200);
-            const response = await fetch("/cdn-cgi/trace", {
-              cache: "no-store",
-              signal: controller.signal,
-            });
-            window.clearTimeout(timeout);
-            if (!response.ok) return "";
-            const trace = await response.text();
-            const country = trace.match(/^loc=([A-Z]{2})$/m)?.[1] || "";
-            writeCachedCountry(country);
-            return country;
-          } catch {
-            return "";
-          }
-        };
-
-        const applyPricingTier = (tier) => {
-          if (!tier) return;
-          document.querySelectorAll("[data-regional-price]").forEach((el) => {
-            const value = el.getAttribute(`data-${tier.toLowerCase()}`);
+      const refreshPricing = () => {
+        const now = Date.now();
+        const phase = getLaunchPhase(
+          now,
+          PRICING.launchStartMs,
+          PRICING.launchEndMs,
+        );
+        const pricePhase = getPricePhase(phase);
+        document
+          .querySelectorAll<HTMLElement>("[data-regional-price]")
+          .forEach((el) => {
+            const selectedPhase = el.hasAttribute("data-current-price")
+              ? pricePhase
+              : el.dataset.regionalPrice;
+            const value = el.getAttribute(
+              `data-${currentTier.toLowerCase()}-${selectedPhase}`,
+            );
             if (value) el.textContent = value;
           });
-          document
-            .querySelectorAll("[data-regional-pricing-note]")
-            .forEach((el) => {
-              el.hidden = tier !== fallbackPricingTier;
-            });
-        };
+        document
+          .querySelectorAll<HTMLElement>("[data-campaign-phase]")
+          .forEach((el) => {
+            el.hidden = el.dataset.campaignPhase !== phase;
+          });
+        document
+          .querySelectorAll<HTMLElement>("[data-release-availability]")
+          .forEach((el) => {
+            el.textContent =
+              phase === "prelaunch"
+                ? "The release date has not been announced yet."
+                : "KnitTools is available on Google Play.";
+          });
+        const schema = document.querySelector<HTMLScriptElement>(
+          "script[data-pricing-schema]",
+        );
+        if (schema?.textContent) {
+          const data = JSON.parse(schema.textContent);
+          const app = data["@graph"].find(
+            (item: { "@type": string }) =>
+              item["@type"] === "SoftwareApplication",
+          );
+          if (app)
+            app.offers = JSON.parse(
+              schema.getAttribute(`data-${pricePhase}-offers`) || "[]",
+            );
+          schema.textContent = JSON.stringify(data);
+        }
+        window.clearTimeout(boundaryTimer);
+        const validWindow =
+          PRICING.launchStartMs !== null &&
+          PRICING.launchEndMs !== null &&
+          Number.isFinite(PRICING.launchStartMs) &&
+          Number.isFinite(PRICING.launchEndMs) &&
+          PRICING.launchStartMs < PRICING.launchEndMs;
+        if (validWindow) {
+          const boundary =
+            phase === "prelaunch"
+              ? PRICING.launchStartMs
+              : phase === "launch"
+                ? PRICING.launchEndMs
+                : null;
+          if (boundary !== null && boundary > now) {
+            boundaryTimer = window.setTimeout(
+              refreshPricing,
+              Math.min(boundary - now, 2_147_483_647),
+            );
+          }
+        }
+      };
 
-        getCloudflareCountry().then((country) => {
-          const tier = getTier(country);
-          applyPricingTier(tier);
-        });
-      })();
+      const getCountry = async () => {
+        try {
+          const cached = sessionStorage.getItem(countryStorageKey);
+          if (cached) return cached;
+        } catch {
+          /* Storage can be unavailable in privacy modes. */
+        }
+        const controller = new AbortController();
+        const timeout = window.setTimeout(() => controller.abort(), 1200);
+        try {
+          const response = await fetch("/cdn-cgi/trace", {
+            cache: "no-store",
+            signal: controller.signal,
+          });
+          if (!response.ok) return "";
+          const trace = await response.text();
+          const country = trace.match(/^loc=([A-Z]{2})$/m)?.[1] || "";
+          if (country) {
+            try {
+              sessionStorage.setItem(countryStorageKey, country);
+            } catch {
+              /* Optional cache. */
+            }
+          }
+          return country;
+        } catch {
+          return "";
+        } finally {
+          window.clearTimeout(timeout);
+        }
+      };
+      refreshPricing();
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible") refreshPricing();
+      });
+      getCountry().then((country) => {
+        currentTier = country
+          ? COUNTRY_TO_TIER[country.toUpperCase()] || FALLBACK_PRICING_TIER
+          : "US";
+        refreshPricing();
+      });
     </script>
     <!-- Cloudflare Web Analytics -->
     <script

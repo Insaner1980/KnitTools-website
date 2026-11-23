@@ -86,7 +86,7 @@ Les [tailles d’aiguilles](/fr/outils/tailles-aiguilles/), [épaisseurs de fil]
 
 ## Tout au même endroit
 
-Les outils du navigateur sont gratuits, sans compte ni installation. L’application Android KnitTools est un produit distinct, conçu autour des projets et du comptage manuel des rangs et des tours, avec des fonctions gratuites et Pro. La gratuité des outils web ne signifie pas que toutes les fonctions de l’application sont gratuites ou identiques. [Consulte les informations de lancement et la liste d’inscription KnitTools](/fr/outils/#join).
+Les outils du navigateur sont gratuits, sans compte ni installation. L’application Android KnitTools est un produit distinct, conçu autour des projets et du comptage manuel des rangs et des tours, avec des fonctions gratuites et Pro. La gratuité des outils web ne signifie pas que toutes les fonctions de l’application sont gratuites ou identiques.
 
 ## FAQ
 

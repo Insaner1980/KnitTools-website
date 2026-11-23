@@ -59,7 +59,7 @@ Ein Zähler speichert eine Zahl, die du selbst eingibst. Striche auf Papier funk
 
 **Mechanische Zähler** brauchen keine Batterien. Befestigung, Nullstellung, Zurückstellen und Sperren unterscheiden sich je nach Modell. Prüfe diese Funktionen und die Eignung für deine Nadeln, auch für Rundstricknadeln. Probiere aus, ob du Anzeige und Bedienelemente gut nutzen kannst.
 
-**App-Zähler** können Projektangaben, zusätzliche Zähler oder Erinnerungen bieten; Funktionen und Bezahlstufen variieren. Finnvek, der Herausgeber dieser Website, entwickelt KnitTools mit projektbezogener manueller Zählung. Weitere Informationen bieten die [KnitTools-Startinformationen](/de/werkzeuge/#join) und der [Vergleich von Strick-Apps](/de/artikel/die-besten-strick-apps-worauf-es-ankommt/). Eine digitale Aufzeichnung misst oder bearbeitet dein Gestrick nicht.
+**App-Zähler** können Projektangaben, zusätzliche Zähler oder Erinnerungen bieten; Funktionen und Bezahlstufen variieren. Finnvek, der Herausgeber dieser Website, entwickelt KnitTools mit projektbezogener manueller Zählung. Weitere Informationen bieten die [Vergleich von Strick-Apps](/de/artikel/die-besten-strick-apps-worauf-es-ankommt/). Eine digitale Aufzeichnung misst oder bearbeitet dein Gestrick nicht.
 
 Bei einem Rapport über 24 Reihen unterscheidest du Gesamtzahl und Rapportposition. Nach der fertigen Rapportreihe 24 folgt Rapportreihe 1; die Gesamtzahl muss nicht zurückgesetzt werden. Das lässt sich auch auf Papier verfolgen.
 

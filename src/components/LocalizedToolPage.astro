@@ -1,6 +1,5 @@
 ---
 import PageLayout from "../layouts/PageLayout.astro";
-import ClosingCTA from "./ClosingCTA.astro";
 import ResponsiveTableControls from "./ResponsiveTableControls.astro";
 import SizeChartControls from "./SizeChartControls.astro";
 import ToolStructuredData from "./ToolStructuredData.astro";
@@ -107,7 +106,6 @@ const toolsIndexPath = getToolsIndexPath(lang);
     </div>
   </section>
 
-  <ClosingCTA variant="page" lang={lang} contentPage />
   {enableSizeChartControls && <SizeChartControls />}
   {enableResponsiveTableControls && <ResponsiveTableControls />}
 </PageLayout>

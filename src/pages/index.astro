@@ -7,10 +7,14 @@ import NineTools from "../components/NineTools.astro";
 import FreeToolsCallout from "../components/FreeToolsCallout.astro";
 import TrustSection from "../components/TrustSection.astro";
 import PricingCards from "../components/PricingCards.astro";
-import ClosingCTA from "../components/ClosingCTA.astro";
 import HomeFaq from "../components/HomeFaq.astro";
 import YarnPath from "../components/YarnPath.astro";
-import { getStructuredOffers } from "../config/pricing";
+import {
+  PRICING,
+  getLaunchPhase,
+  getPricePhase,
+  getStructuredOffers,
+} from "../config/pricing";
 import {
   CONTACT_MAILTO,
   FINNVEK_URL,
@@ -20,7 +24,12 @@ import {
   SITE_URL,
 } from "../config/brand";
 
-const structuredOffers = getStructuredOffers();
+const phase = getLaunchPhase(
+  Date.now(),
+  PRICING.launchStartMs,
+  PRICING.launchEndMs,
+);
+const structuredOffers = getStructuredOffers(getPricePhase(phase));
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -57,6 +66,7 @@ const jsonLd = {
         "fr",
         "it",
         "pt",
+        "pt-BR",
         "es",
       ],
     },
@@ -75,22 +85,22 @@ const jsonLd = {
   <script
     is:inline
     type="application/ld+json"
+    data-pricing-schema
+    data-launch-offers={JSON.stringify(getStructuredOffers("launch"))}
+    data-permanent-offers={JSON.stringify(getStructuredOffers("permanent"))}
     set:html={JSON.stringify(jsonLd)}
   />
 
-  <Hero />
+  <Hero phase={phase} />
   <Marquee />
   <YarnPath />
-  <NineTools />
+  <NineTools phase={phase} />
   <FreeToolsCallout />
-  <TrustSection />
+  <TrustSection phase={phase} />
   <YarnPath flip />
   <PullQuote
     quote="Everything your project needs, together in one app. One price, no subscription."
   />
-  <PricingCards />
-  <HomeFaq />
-  <div data-reveal>
-    <ClosingCTA />
-  </div>
+  <PricingCards phase={phase} />
+  <HomeFaq phase={phase} />
 </PageLayout>

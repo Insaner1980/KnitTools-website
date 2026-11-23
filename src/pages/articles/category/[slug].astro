@@ -2,14 +2,12 @@
 import { getCollection } from "astro:content";
 import PageLayout from "../../../layouts/PageLayout.astro";
 import ArticleCard from "../../../components/ArticleCard.astro";
-import ClosingCTA from "../../../components/ClosingCTA.astro";
 import {
   CATEGORY_ORDER,
   getCategoryDescription,
   getCategoryLabel,
   type CategorySlug,
 } from "../../../lib/categories";
-import { PRICING } from "../../../config/pricing";
 import {
   byCategoryOrder,
   isArticleVisibleForLang,
@@ -55,7 +53,7 @@ const sortedArticles = [...englishArticles].sort(byCategoryOrder);
     {
       englishArticles.length === 0 ? (
         <div class="empty-state">
-          <p class="empty-eyebrow">Coming {PRICING.launchMonthLabel}</p>
+          <p class="empty-eyebrow">Articles in progress</p>
           <p class="empty-text">No articles in this category yet.</p>
           <a href="/articles/" class="empty-link">
             Back to all articles &rarr;
@@ -74,7 +72,6 @@ const sortedArticles = [...englishArticles].sort(byCategoryOrder);
       )
     }
   </section>
-  <ClosingCTA variant="page" />
 </PageLayout>
 
 <style>

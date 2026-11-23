@@ -74,7 +74,7 @@ Antag, at du skal tage ind på pind 15, 25, 35 og 45: først på 15 og derefter 
 
 En historik over arbejdsperioder kan supplere tælleren, men viser appbrug og registreret fremgang. Den beviser ikke, at hver pind er strikket, eller at hvert tryk er korrekt.
 
-[KnitTools](/da/strikkevaerktoejer/#join) udvikles til Android med manuel tælling ved tryk, fortrydelse af understøttede nylige ændringer i hovedtælleren, ekstra projekttællere og registrering af arbejdsperioder. Fortryd ændrer tallet, ikke strikketøjet. Det betyder ikke, at uafhængige tællere følges ad, eller at påmindelser er inkluderet. Linket går til tilmelding om lanceringen, ikke til download.
+KnitTools udvikles til Android med manuel tælling ved tryk, fortrydelse af understøttede nylige ændringer i hovedtælleren, ekstra projekttællere og registrering af arbejdsperioder. Fortryd ændrer tallet, ikke strikketøjet. Det betyder ikke, at uafhængige tællere følges ad, eller at påmindelser er inkluderet.
 
 ## 7. Kombinerede metoder
 

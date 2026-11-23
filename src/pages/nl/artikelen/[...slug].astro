@@ -3,7 +3,6 @@ import { getCollection, render } from "astro:content";
 import PageLayout from "../../../layouts/PageLayout.astro";
 import ArticleLayout from "../../../layouts/ArticleLayout.astro";
 import ArticleCard from "../../../components/ArticleCard.astro";
-import ClosingCTA from "../../../components/ClosingCTA.astro";
 import {
   getCategoryDescription,
   getCategoryLabel,
@@ -103,17 +102,6 @@ const categoryDescription = category
           ))}
         </div>
       </section>
-      <ClosingCTA
-        variant="page"
-        lang="nl"
-        contentPage={
-          category === "gauge-calculations" ||
-          category === "yarn" ||
-          category === "needles" ||
-          category === "techniques" ||
-          category === "app-tools"
-        }
-      />
     </PageLayout>
   ) : (
     <PageLayout
@@ -189,7 +177,6 @@ const categoryDescription = category
           </section>
         ))
       )}
-      <ClosingCTA variant="page" lang="nl" contentPage />
     </PageLayout>
   )
 }

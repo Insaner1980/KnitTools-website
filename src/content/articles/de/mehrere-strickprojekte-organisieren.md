@@ -48,7 +48,7 @@ Papiernotizen und digitale Notizen müssen beide aktualisiert werden. Schreibe b
 
 Eine App kann praktisch sein. Prüfe aber, was sie tatsächlich erfasst. Das Datum einer Sitzung ist keine genaue Anleitungsposition, und die App kennt keine Änderungen, die du nicht eingetragen hast. Lokales Speichern, Exportieren einer Kopie, Sichern und Wiederherstellen, Synchronisieren zwischen Geräten und Teilen eines Projekts sind unterschiedliche Funktionen.
 
-KnitTools wird für Android mit Projektzählern, Sitzungsverlauf und Projektnotizen entwickelt. Zahlen und Notizen gibst du selbst ein. Neue Projektnotizen erfordern Pro-Zugriff; bestehende Notizen bleiben danach nutzbar. Garnangaben lassen sich von Hand in Notizen festhalten. Das bedeutet weder eigene Felder für jede Angabe noch einen automatischen Abzug des Garnverbrauchs. [Für die KnitTools-Veröffentlichungsnachricht anmelden](/de/werkzeuge/#join).
+KnitTools wird für Android mit Projektzählern, Sitzungsverlauf und Projektnotizen entwickelt. Zahlen und Notizen gibst du selbst ein. Neue Projektnotizen erfordern Pro-Zugriff; bestehende Notizen bleiben danach nutzbar. Garnangaben lassen sich von Hand in Notizen festhalten. Das bedeutet weder eigene Felder für jede Angabe noch einen automatischen Abzug des Garnverbrauchs.
 
 ## Entscheiden, woran du arbeitest
 

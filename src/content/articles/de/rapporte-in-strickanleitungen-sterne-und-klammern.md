@@ -86,7 +86,7 @@ Jede Reihe 1–4 enthält vier Gruppen `2 re, 2 li`. Reihe 5 umfasst 16 rechte, 
 
 Reihen 1–6 umfassen sechs Reihen. Drei vollständige Durchgänge ergeben 18 Reihen und enden mit Zyklusreihe 6. Nach den ersten sechs Reihen ergeben drei **weitere** Durchgänge insgesamt 24 Reihen. „Die letzten 2 Reihen wiederholen“ verweist nach Reihe 6 auf 5–6; „Reihen 3–4 wiederholen“ meint ein anderes Paar. Beide Paare umfassen zwei Reihen. Eine Ziellänge wie 25 cm bestimmt ohne Reihenmaschenprobe und festgelegte Schlussreihe keine Reihenzahl.
 
-Der KnitTools-[Reihenzähler](/de/werkzeuge/#join) kann deine Position in einem selbst eingerichteten Wiederholungsabschnitt anzeigen. Du gibst Reihenbereich und Wiederholungszahl ein und schaltest den Zähler selbst weiter; er liest oder korrigiert den Anleitungstext nicht automatisch. Striche auf Papier funktionieren ebenfalls.
+Der KnitTools-Reihenzähler kann deine Position in einem selbst eingerichteten Wiederholungsabschnitt anzeigen. Du gibst Reihenbereich und Wiederholungszahl ein und schaltest den Zähler selbst weiter; er liest oder korrigiert den Anleitungstext nicht automatisch. Striche auf Papier funktionieren ebenfalls.
 
 ## Maschenmarkierer zwischen die Rapporte setzen
 

@@ -3,7 +3,6 @@ import { SITE_URL } from "../config/brand";
 import type { Lang } from "../i18n/config";
 import type { LocalizedPath } from "../i18n/routes";
 import PageLayout from "../layouts/PageLayout.astro";
-import ClosingCTA from "./ClosingCTA.astro";
 
 interface ToolIndexCard {
   tag: string;
@@ -100,9 +99,6 @@ const {
       }
     </div>
   </section>
-  <div data-reveal>
-    <ClosingCTA variant="page" lang={lang} contentPage />
-  </div>
 </PageLayout>
 
 <style>

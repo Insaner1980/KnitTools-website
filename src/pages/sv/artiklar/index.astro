@@ -2,7 +2,6 @@
 import PageLayout from "../../../layouts/PageLayout.astro";
 import { getCollection } from "astro:content";
 import ArticleCard from "../../../components/ArticleCard.astro";
-import ClosingCTA from "../../../components/ClosingCTA.astro";
 import {
   buildArticleCategorySections,
   isArticleVisibleInCurrentBuild,
@@ -84,7 +83,6 @@ const sections = buildArticleCategorySections(swedishArticles, "sv");
       ))
     )
   }
-  <ClosingCTA variant="page" lang="sv" contentPage />
 </PageLayout>
 
 <style>

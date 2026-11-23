@@ -1,7 +1,6 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
-import { PRICING } from "../../config/pricing";
-import RegionalPrice from "../../components/RegionalPrice.astro";
+import LaunchPriceCopy from "../../components/LaunchPriceCopy.astro";
 import RegionalPricingNote from "../../components/RegionalPricingNote.astro";
 import ToolStructuredData from "../../components/ToolStructuredData.astro";
 import { routes } from "../../i18n/routes";
@@ -517,85 +516,11 @@ const faqs = [
     </div>
   </section>
 
-  <!-- 4. Waitlist CTA -->
-  <section class="waitlist-cta" id="join">
-    <div class="waitlist-inner">
-      <form
-        class="waitlist-form"
-        action="#"
-        method="post"
-        id="waitlist-form"
-        data-waitlist-signup
-        data-localized-errors="true"
-        data-source="knittools"
-        data-sending-text="Sending..."
-        data-generic-error="Something went wrong. Please try again."
-        data-network-error="Network error. Please check your connection."
-      >
-        <label class="visually-hidden" for="waitlist-website" aria-hidden="true"
-          >Leave this field empty</label
-        >
-        <input
-          class="visually-hidden"
-          id="waitlist-website"
-          name="website"
-          type="text"
-          tabindex="-1"
-          autocomplete="off"
-          aria-hidden="true"
-        />
-        <label class="visually-hidden" for="waitlist-email">Email address</label
-        >
-        <div class="waitlist-content-layer" id="waitlist-content-layer">
-          <h2 class="waitlist-head">
-            Where every stitch<br /><em>counts.</em>
-          </h2>
-          <div class="waitlist-row" id="waitlist-row" data-content>
-            <input
-              id="waitlist-email"
-              type="email"
-              name="email"
-              placeholder="your@email.com"
-              aria-describedby="waitlist-success waitlist-error"
-              required
-              class="waitlist-input"
-            />
-            <button type="submit" class="waitlist-btn" id="waitlist-btn"
-              >Notify me at launch</button
-            >
-          </div>
-          <p
-            class="waitlist-success"
-            id="waitlist-success"
-            data-success
-            role="status"
-            aria-live="polite"
-            aria-atomic="true"
-            aria-hidden="true"
-            hidden
-          >
-            You're in! We'll notify you at launch.
-          </p>
-          <p class="waitlist-meta">
-            Coming {PRICING.launchMonthLabel} to Google Play. Launch price <strong
-              ><RegionalPrice phase="launch" /></strong
-            >. Regular price <strong><RegionalPrice phase="permanent" /></strong
-            > later. <RegionalPricingNote />
-          </p>
-          <p
-            class="waitlist-error"
-            id="waitlist-error"
-            data-error
-            role="alert"
-            aria-live="polite"
-            aria-hidden="true"
-            hidden
-          >
-          </p>
-        </div>
-      </form>
-    </div>
-  </section>
+  <p class="tool-release-note">
+    <strong>KnitTools for Android.</strong>
+    <LaunchPriceCopy />
+    <RegionalPricingNote />
+  </p>
 </PageLayout>
 
 <script>
@@ -654,8 +579,7 @@ const faqs = [
   /* ---- Shared section rhythm (v11 editorial) ---- */
   .tool-hero,
   .seo-content,
-  .tool-faq,
-  .waitlist-cta {
+  .tool-faq {
     background: var(--paper);
     color: var(--ink);
     padding: 80px 40px;
@@ -670,14 +594,9 @@ const faqs = [
     border-bottom: 1px solid var(--ink);
   }
 
-  .waitlist-cta {
-    padding-bottom: 100px;
-  }
-
   .hero-inner,
   .content-inner,
-  .faq-inner,
-  .waitlist-inner {
+  .faq-inner {
     max-width: 760px;
     margin: 0 auto;
   }
@@ -685,10 +604,6 @@ const faqs = [
   .content-inner,
   .faq-inner {
     max-width: 720px;
-  }
-
-  .waitlist-inner {
-    max-width: 640px;
   }
 
   /* ---- 1. Tool hero ---- */
@@ -733,7 +648,7 @@ const faqs = [
     margin: 0 0 40px;
   }
 
-  /* ---- Search input (editorial style matching waitlist-input) ---- */
+  /* ---- Search input ---- */
   .abbr-wrapper {
     width: 100%;
   }
@@ -978,136 +893,15 @@ const faqs = [
     color: var(--ink-soft);
     line-height: 1.65;
   }
-
-  /* ---- 4. Waitlist CTA ---- */
-  .waitlist-cta h2 {
-    font-family: var(--serif);
-    font-weight: 400;
-    color: var(--ink);
-    font-size: var(--closing-cta-heading-size);
-    line-height: var(--closing-cta-heading-line-height);
-    letter-spacing: var(--closing-cta-heading-letter-spacing);
-    margin: var(--closing-cta-heading-margin);
-    text-align: center;
-    text-transform: none;
-  }
-  .waitlist-cta h2 em {
-    color: var(--terracotta);
-    font-style: italic;
-    font-size: var(--closing-cta-heading-em-size);
-    line-height: 1;
-    display: inline-block;
-    margin-top: var(--closing-cta-heading-em-margin-top);
-  }
-
-  .waitlist-meta {
-    font-family: var(--body-ed);
-    font-size: 14px;
-    color: var(--ink-soft);
-    line-height: 1.55;
-    margin: 16px 0 0;
-  }
-  .waitlist-error {
-    margin: 16px 0 0;
-    font-family: var(--font-body, var(--body-ed));
-    font-style: italic;
-    font-size: 14px;
-    color: var(--ink-soft, var(--ink));
-    text-align: center;
-  }
-  .waitlist-meta strong {
-    color: var(--terracotta);
-    font-weight: 600;
-  }
-
-  .waitlist-form {
-    position: relative;
-    max-width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-  }
-
-  .waitlist-content-layer {
-    width: 100%;
-  }
-
-  .waitlist-row {
-    display: flex;
-    gap: 0;
-    width: 100%;
-  }
-
-  .waitlist-input {
-    flex: 1;
-    padding: 14px 20px;
-    font-size: 16px;
-    font-family: var(--body-ed);
-    background: var(--paper-2);
-    border: 1.5px solid var(--ink);
-    border-right: 0;
-    color: var(--ink);
-    outline: none;
-    border-radius: 0;
-    min-width: 0;
-  }
-  .waitlist-input::placeholder {
-    color: var(--ink-soft);
-  }
-  .waitlist-input:focus {
-    outline: 2px solid var(--terracotta);
-    outline-offset: 2px;
-  }
-
-  .waitlist-btn {
-    padding: 14px 22px;
-    font-family: var(--mono);
-    font-size: 12px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    background: var(--ink);
-    color: var(--paper);
-    border: 1.5px solid var(--ink);
-    border-radius: 0;
-    cursor: pointer;
-    transition:
-      background 0.15s ease,
-      border-color 0.15s ease,
-      color 0.15s ease;
-    white-space: nowrap;
-  }
-  .waitlist-btn:hover {
-    background: var(--terracotta);
-    border-color: var(--terracotta);
-  }
-  .waitlist-btn:focus-visible {
-    outline: 2px solid var(--terracotta);
-    outline-offset: 3px;
-  }
-  .waitlist-success {
-    display: none;
-    font-family: var(--body-ed);
-    font-style: italic;
-    font-size: 20px;
-    color: var(--terracotta);
-    margin: 0;
-    padding: 8px 0;
-    text-align: center;
-  }
   /* ---- Mobile ---- */
   @media (max-width: 768px) {
     .tool-hero,
     .seo-content,
-    .tool-faq,
-    .waitlist-cta {
+    .tool-faq {
       padding: 60px 20px;
     }
     .tool-hero {
       padding-top: 48px;
-    }
-    .waitlist-cta {
-      padding-bottom: 72px;
     }
 
     .abbr-list {
@@ -1127,19 +921,10 @@ const faqs = [
       padding: 8px 2px;
       letter-spacing: 0.18em;
     }
-
-    .waitlist-row {
-      flex-direction: column;
-    }
-    .waitlist-input {
-      border-right: 1.5px solid var(--ink);
-      border-bottom: 0;
-    }
   }
 
   @media (prefers-reduced-motion: reduce) {
     .eyebrow-back,
-    .waitlist-btn,
     .faq summary,
     .faq summary .faq-icon,
     .cat-btn,

@@ -75,7 +75,7 @@ Anta at du skal felle på pinne 15, 25, 35 og 45: først på 15, deretter tre ga
 
 Økthistorikk kan utfylle telleren, men viser appbruk og registrert fremgang. Den beviser ikke at hver pinne er strikket eller hvert trykk er riktig.
 
-[KnitTools](/no/verktoy/#join) utvikles for Android med manuell telling ved trykk, mulighet til å angre nylige endringer i hovedtelleren som funksjonen støtter, ekstra prosjekttellere og øktregistrering. Angrefunksjonen endrer tallet, ikke strikketøyet. Dette innebærer ikke at uavhengige tellere følger hverandre eller at påminnelser er inkludert. Lenken går til påmelding om lanseringen, ikke til nedlasting.
+KnitTools utvikles for Android med manuell telling ved trykk, mulighet til å angre nylige endringer i hovedtelleren som funksjonen støtter, ekstra prosjekttellere og øktregistrering. Angrefunksjonen endrer tallet, ikke strikketøyet. Dette innebærer ikke at uavhengige tellere følger hverandre eller at påminnelser er inkludert.
 
 ## 7. Kombinasjoner
 

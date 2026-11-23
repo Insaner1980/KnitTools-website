@@ -32,14 +32,16 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
-    "astro": "^7.4.2",
+    "astro": "^7.4.12",
     "gsap": "^3.15.0",
     "http-cache-semantics": "file:vendor/http-cache-semantics",
     "parse5": "8.0.1"
   },
   "overrides": {
     "http-cache-semantics": "$http-cache-semantics",
-    "yaml": "2.9.0"
+    "yaml": "2.9.0",
+    "fast-uri@3": "3.1.9",
+    "minimatch@>=10 <11": "11.0.4"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",

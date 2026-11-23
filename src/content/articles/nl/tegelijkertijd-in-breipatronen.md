@@ -77,7 +77,7 @@ Noteer voor elke instructie de begintoer, het interval, het totale aantal keren,
 
 De lijst bij de tabel begint: "Toer 1: recht met beide minderingen. Toer 2: averecht. Toer 3: recht met alleen de armsgatmindering." Vink zowel de voltooide toer als de handelingen af. Bij twee handmatige intervaltellers verhoog je beide na elke voltooide toer zolang hun reeksen lopen, ook zonder mindering. Noteer het aantal uitgevoerde minderingen apart, zodat je weet wanneer je moet stoppen.
 
-Meerdere tellers in de [toerenteller van KnitTools](/nl/breitools/#join) horen bij Pro. Voor deze methode kun je losse, niet-gekoppelde tellers gebruiken die je zelf verhoogt. Je interpreteert het patroon, voert de beginstanden in en houdt bij welke handelingen nodig zijn; dit belooft niet dat de app de instructies leest of het gecombineerde plan automatisch maakt.
+Meerdere tellers in de toerenteller van KnitTools horen bij Pro. Voor deze methode kun je losse, niet-gekoppelde tellers gebruiken die je zelf verhoogt. Je interpreteert het patroon, voert de beginstanden in en houdt bij welke handelingen nodig zijn; dit belooft niet dat de app de instructies leest of het gecombineerde plan automatisch maakt.
 
 ## Soort mindering en symmetrie
 

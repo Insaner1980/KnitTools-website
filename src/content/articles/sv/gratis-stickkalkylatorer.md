@@ -86,7 +86,7 @@ Vissa frågor kräver uppslag: 3,75 mm motsvarar US 5 i sticktabellen, och ordli
 
 ## Allt på ett ställe
 
-Webbverktygen är gratis utan konto eller installation. Den separata Android-appen KnitTools byggs kring projekt och manuell varvräkning, med gratis- och Pro-funktioner. Gratis webbåtkomst innebär inte att alla appfunktioner är gratis eller identiska. [Läs om lanseringen och anmäl intresse för KnitTools](/sv/verktyg/#join).
+Webbverktygen är gratis utan konto eller installation. Den separata Android-appen KnitTools byggs kring projekt och manuell varvräkning, med gratis- och Pro-funktioner. Gratis webbåtkomst innebär inte att alla appfunktioner är gratis eller identiska.
 
 ## FAQ
 

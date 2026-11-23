@@ -74,7 +74,7 @@ Angenommen, du nimmst in Reihe 15, 25, 35 und 45 ab: zuerst in 15, dann noch dre
 
 Ein Protokoll der Arbeitszeiten kann die Zählung ergänzen. Es zeigt App-Nutzung und eingegebenen Fortschritt, beweist aber nicht, dass jede Reihe gestrickt und jeder Tastendruck richtig war.
 
-Die [KnitTools-App](/de/werkzeuge/#join) wird für Android entwickelt: mit manuellem Tippen zum Zählen, Rückgängig für unterstützte letzte Änderungen des Hauptzählers, zusätzlichen Projektzählern und Erfassung der Arbeitszeiten. Rückgängig ändert den Zahlenstand, nicht das Gestrick. Daraus folgt weder, dass unabhängige Zähler gemeinsam weiterlaufen, noch, dass Erinnerungen enthalten sind. Der Link führt zur Anmeldung für die Veröffentlichung, nicht zum App-Download.
+Die KnitTools-App wird für Android entwickelt: mit manuellem Tippen zum Zählen, Rückgängig für unterstützte letzte Änderungen des Hauptzählers, zusätzlichen Projektzählern und Erfassung der Arbeitszeiten. Rückgängig ändert den Zahlenstand, nicht das Gestrick. Daraus folgt weder, dass unabhängige Zähler gemeinsam weiterlaufen, noch, dass Erinnerungen enthalten sind.
 
 ## 7. Kombinationen
 

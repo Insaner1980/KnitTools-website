@@ -73,7 +73,7 @@ Supposons des diminutions aux rangs 15, 25, 35 et 45 : la première au rang 15, 
 
 L’historique des séances peut compléter le compteur, mais il décrit l’utilisation de l’application et la progression saisie. Il ne prouve pas que chaque rang a été tricoté ni que chaque appui était correct.
 
-[KnitTools](/fr/outils/#join) est en développement pour Android avec comptage manuel par appui, annulation des dernières modifications prises en charge du compteur principal, compteurs supplémentaires par projet et suivi des séances. L’annulation modifie le nombre enregistré, pas le tricot. Ces fonctions n’impliquent ni que des compteurs indépendants avancent ensemble ni que des rappels soient inclus. Le lien mène à l’inscription pour être informée du lancement, pas au téléchargement.
+KnitTools est en développement pour Android avec comptage manuel par appui, annulation des dernières modifications prises en charge du compteur principal, compteurs supplémentaires par projet et suivi des séances. L’annulation modifie le nombre enregistré, pas le tricot. Ces fonctions n’impliquent ni que des compteurs indépendants avancent ensemble ni que des rappels soient inclus.
 
 ## 7. Les approches combinées
 

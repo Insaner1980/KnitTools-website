@@ -92,8 +92,6 @@ Dieser Leitfaden wird von Finnvek veröffentlicht, dem Entwickler von KnitTools.
 
 KnitTools wird als Android-Werkzeugkasten für Projekte, Reihen- und Rundenzählen, Berechnungen und Nachschlagen entwickelt. Die Implementierung umfasst mehrere Projektzähler, Projektnotizen, gespeicherte Anleitungen, Rechner und Referenzmaterial. Das sind App-Funktionen; die unten verlinkten Browser-Rechner sind eigenständige Werkzeuge.
 
-[Melde dich für die Benachrichtigung zum Start der Android-App an](/de/werkzeuge/#join). Der Link führt zur Anmeldung, nicht zum App-Download.
-
 ## Häufige Fragen
 
 **Brauche ich überhaupt eine Strick-App?**

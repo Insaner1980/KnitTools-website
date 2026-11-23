@@ -49,7 +49,7 @@ Både papper och digitala anteckningar behöver uppdateras. Skriv upp det senast
 
 En app kan vara praktisk, men kontrollera vad just den registrerar. Datumet för ett stickpass är inte en exakt plats i mönstret, och en app känner inte till ändringar du inte har skrivit in. Lokal lagring, export av en kopia, säkerhetskopiering och återställning, synkronisering mellan enheter och delning av ett projekt är olika funktioner.
 
-KnitTools utvecklas för Android med projekträknare, passhistorik och projektanteckningar. Du matar själv in antal och anteckningar. Att skapa nya projektanteckningar kräver Pro; befintliga anteckningar går fortfarande att använda efteråt. Garnuppgifter kan skrivas in manuellt i anteckningar. Det innebär inte separata fält för varje uppgift eller automatisk avräkning av garn. [Anmäl dig för besked om KnitTools lansering](/sv/verktyg/#join).
+KnitTools utvecklas för Android med projekträknare, passhistorik och projektanteckningar. Du matar själv in antal och anteckningar. Att skapa nya projektanteckningar kräver Pro; befintliga anteckningar går fortfarande att använda efteråt. Garnuppgifter kan skrivas in manuellt i anteckningar. Det innebär inte separata fält för varje uppgift eller automatisk avräkning av garn.
 
 ## Bestämma vad du ska sticka på
 

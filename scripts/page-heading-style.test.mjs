@@ -92,7 +92,7 @@ test("homepage hero uses one descriptive visible h1", () => {
   assert.match(h1, /<span class="wordmark-line">Tools<\/span>/);
 });
 
-test("homepage features copy and FAQ stay specific before the signup CTA", () => {
+test("homepage features copy and FAQ stay specific", () => {
   const index = read("src/pages/index.astro");
   const features = read("src/components/NineTools.astro");
   const faq = read("src/components/HomeFaq.astro");
@@ -107,10 +107,7 @@ test("homepage features copy and FAQ stay specific before the signup CTA", () =>
     features,
     /Keep your counter, pattern, notes, photos, and tools together in one\s+project home/,
   );
-  assert.ok(
-    index.indexOf("<HomeFaq />") < index.indexOf("<ClosingCTA />"),
-    "Homepage FAQ should appear before the email signup CTA",
-  );
+  assert.match(index, /<HomeFaq\b/);
   assert.match(
     faq,
     /<section class="home-faq" aria-labelledby="home-faq-heading">/,

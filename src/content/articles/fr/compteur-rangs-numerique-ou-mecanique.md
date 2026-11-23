@@ -47,7 +47,7 @@ Le [guide des compteurs de My Row Counter](https://rowcounterapp.com/counter.htm
 
 L'enregistrement local se distingue de la copie de sauvegarde, de la restauration et de la synchronisation entre appareils. Vérifie les besoins de compte et de connexion pour chaque fonction, la création d'une copie récupérable et le changement de téléphone. Une batterie vide rend l'application inaccessible jusqu'à la recharge ; elle ne prouve ni que la dernière modification a été enregistrée ni que des données ont été perdues.
 
-KnitTools est notre application Android en développement chez Finnvek, l'éditeur de ce site. L'implémentation actuelle comprend le comptage manuel par appui, l'annulation de certaines modifications récentes du compteur principal, des compteurs de projet, des rappels et un historique des séances. Créer des compteurs supplémentaires et des rappels nécessite un accès Pro, y compris pendant un essai actif. Ces informations proviennent de l'examen du code source, pas d'un essai pratique ni d'une garantie de récupération. [L'inscription au lancement de KnitTools](/fr/outils/#join) n'est pas un téléchargement.
+KnitTools est notre application Android en développement chez Finnvek, l'éditeur de ce site. L'implémentation actuelle comprend le comptage manuel par appui, l'annulation de certaines modifications récentes du compteur principal, des compteurs de projet, des rappels et un historique des séances. Créer des compteurs supplémentaires et des rappels nécessite un accès Pro, y compris pendant un essai actif. Ces informations proviennent de l'examen du code source, pas d'un essai pratique ni d'une garantie de récupération.
 
 ## Définis ce que signifie le nombre
 

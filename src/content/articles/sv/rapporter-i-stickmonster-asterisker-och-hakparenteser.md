@@ -86,7 +86,7 @@ Varje varv 1–4 innehåller fyra grupper av `2 rm, 2 am`. Varv 5 är 16 räta o
 
 Varv 1–6 omfattar sex varv. Tre hela genomgångar ger 18 varv och slutar på cykelns varv 6. Efter de första sex varven ger tre genomgångar **till** totalt 24 varv. ”Upprepa de sista 2 varven” efter varv 6 syftar på 5–6; ”upprepa varv 3–4” syftar på ett annat par. Båda innehåller två varv. En mållängd som 25 cm bestämmer inte varvantalet utan varvfasthet och angivet avslutningsvarv.
 
-KnitTools [varvräknare](/sv/verktyg/#join) kan visa läget i ett upprepningsavsnitt som du själv ställer in. Du anger varvintervall och antal upprepningar och stegar räknaren själv; den tolkar eller rättar inte mönstertexten automatiskt. Streck på papper fungerar också.
+KnitTools varvräknare kan visa läget i ett upprepningsavsnitt som du själv ställer in. Du anger varvintervall och antal upprepningar och stegar räknaren själv; den tolkar eller rättar inte mönstertexten automatiskt. Streck på papper fungerar också.
 
 ## Markörer mellan rapporter
 
