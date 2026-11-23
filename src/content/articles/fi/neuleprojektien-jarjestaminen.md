@@ -48,7 +48,7 @@ Sekä paperiset että digitaaliset muistiinpanot on päivitettävä. Kirjaa lope
 
 Puhelinsovellus voi olla kätevä, mutta tarkista, mitä käyttämäsi sovellus tallentaa. Session päiväys ei kerro tarkkaa ohjeen kohtaa, eikä sovellus tiedä kirjaamatta jäänyttä muutosta. Paikallinen tallennus, kopion vienti, varmuuskopiointi ja palautus, laitteiden synkronointi sekä projektin jakaminen ovat eri toimintoja.
 
-KnitToolsia kehitetään Androidille. Siinä on projektikohtaisia laskureita, sessiohistoria ja projektimuistiinpanot. Syötät luvut ja muistiinpanot itse. Uusien projektimuistiinpanojen luonti vaatii Pro-käyttöoikeuden; aiemmat muistiinpanot pysyvät käytettävissä sen jälkeenkin. Lankatietoja voi kirjoittaa muistiinpanoihin käsin. Se ei tarkoita omaa tietokenttää jokaiselle tiedolle tai automaattista lankamäärän vähennystä. [Tilaa KnitToolsin julkaisuilmoitus](/fi/tyokalut/#join).
+KnitToolsia kehitetään Androidille. Siinä on projektikohtaisia laskureita, sessiohistoria ja projektimuistiinpanot. Syötät luvut ja muistiinpanot itse. Uusien projektimuistiinpanojen luonti vaatii Pro-käyttöoikeuden; aiemmat muistiinpanot pysyvät käytettävissä sen jälkeenkin. Lankatietoja voi kirjoittaa muistiinpanoihin käsin. Se ei tarkoita omaa tietokenttää jokaiselle tiedolle tai automaattista lankamäärän vähennystä.
 
 ## Mitä projektia tehdään
 

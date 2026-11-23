@@ -1,5 +1,9 @@
 ---
-import { PRICING } from "../config/pricing";
+import type { LaunchPhase } from "../config/pricing";
+interface Props {
+  phase: LaunchPhase;
+}
+const { phase } = Astro.props;
 
 const faqItems = [
   {
@@ -16,7 +20,10 @@ const faqItems = [
   },
   {
     q: "Is KnitTools available yet?",
-    a: `Not yet. KnitTools is currently in pre-launch and planned for Google Play in ${PRICING.launchMonthLabel}.`,
+    a:
+      phase === "prelaunch"
+        ? "The release date has not been announced yet."
+        : "KnitTools is available on Google Play.",
   },
   {
     q: "Does KnitTools have ads or accounts?",
@@ -38,7 +45,14 @@ const faqItems = [
                 +
               </span>
             </summary>
-            <p data-animate-body>{faq.a}</p>
+            <p
+              data-animate-body
+              data-release-availability={
+                faq.q === "Is KnitTools available yet?" || undefined
+              }
+            >
+              {faq.a}
+            </p>
           </details>
         ))
       }

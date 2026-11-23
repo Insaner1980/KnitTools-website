@@ -23,7 +23,7 @@ sonar             # SonarCloud-skannaus, raportit reports/sonar*.*
 
 ## Quality Tools
 
-- `sonar` ajaa projektin SonarCloud-skannauksen NPM-pohjaisella `@sonar/scan@4.3.5`-scannerilla ja kirjoittaa lokin `reports/sonar.txt`; `sonar auth login/status/...` ohjautuu edelleen SonarQube CLI:lle.
+- `sonar` ajaa projektin SonarCloud-skannauksen NPM-pohjaisella `@sonar/scan@5.0.2`-scannerilla ja kirjoittaa lokin `reports/sonar.txt`; `sonar auth login/status/...` ohjautuu edelleen SonarQube CLI:lle.
 - SonarCloud-skannaus tarvitsee `SONAR_TOKEN`-ympäristömuuttujan. SonarQube CLI:n keychain-kirjautumista käytetään issueiden lukemiseen `reports/sonar-issues.json`-raporttiin.
 - Manuaalinen `sonar`-skannaus toimii vain, kun SonarCloud-projektin Automatic Analysis on poistettu käytöstä: Project > Administration > Analysis Method > poista Enabled for this project.
 - Sonar-asetusten lähde on `sonar-project.properties`: project key `Insaner1980_KnitTools-website`, organization `insaner1980`, lähdekoodina `src`, `scripts` ja projektin JS-konfiguraatiot.

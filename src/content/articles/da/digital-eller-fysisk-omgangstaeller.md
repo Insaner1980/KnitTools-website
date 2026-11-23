@@ -48,7 +48,7 @@ En app kan samle tal og noter for [flere projekter](/da/artikler/hold-styr-paa-s
 
 Lokal lagring er noget andet end sikkerhedskopiering, gendannelse eller synkronisering mellem enheder. Tjek krav til konto og netforbindelse for hver funktion, hvordan du laver en kopi, der kan gendannes, og hvad et telefonskift kræver. Et tomt batteri gør appen utilgængelig, indtil telefonen får strøm; det beviser hverken, at sidste ændring blev gemt, eller at data gik tabt.
 
-KnitTools er vores Android-app under udvikling hos Finnvek, som udgiver dette websted. Den nuværende implementering indeholder manuel tryktælling, fortrydelse af understøttede seneste ændringer i hovedtælleren, projekttællere, påmindelser og historik over strikkesessioner. Oprettelse af ekstra projekttællere og påmindelser kræver Pro-adgang, også gennem en aktiv prøveperiode. Oplysningerne bygger på gennemgang af kildekoden, ikke en brugstest eller garanti for gendannelse. [Tilmelding til KnitTools-lanceringen](/da/strikkevaerktoejer/#join) er ikke en download.
+KnitTools er vores Android-app under udvikling hos Finnvek, som udgiver dette websted. Den nuværende implementering indeholder manuel tryktælling, fortrydelse af understøttede seneste ændringer i hovedtælleren, projekttællere, påmindelser og historik over strikkesessioner. Oprettelse af ekstra projekttællere og påmindelser kræver Pro-adgang, også gennem en aktiv prøveperiode. Oplysningerne bygger på gennemgang af kildekoden, ikke en brugstest eller garanti for gendannelse.
 
 ## Aftal med dig selv, hvad tallet betyder
 

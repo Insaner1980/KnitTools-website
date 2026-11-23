@@ -59,7 +59,7 @@ Un compteur conserve le nombre que tu saisis toi-même. Des traits sur papier co
 
 **Les compteurs mécaniques** n'ont pas besoin de piles. Fixation, remise à zéro, réglage vers le bas et verrouillage varient selon le modèle. Vérifie ces fonctions et l'installation, y compris sur aiguilles circulaires. Essaie la lisibilité et la manipulation avec tes propres mains.
 
-**Les compteurs d'application** peuvent proposer des fiches de projet, des compteurs supplémentaires ou des rappels ; fonctions et niveaux payants varient. Finnvek, l'éditeur de ce site, développe KnitTools avec un comptage manuel associé aux projets. Consulte les [informations de lancement de KnitTools](/fr/outils/#join) et la [comparaison des applications tricot](/fr/articles/meilleures-applications-tricot/). Un enregistrement numérique ne mesure ni ne manipule le tricot.
+**Les compteurs d'application** peuvent proposer des fiches de projet, des compteurs supplémentaires ou des rappels ; fonctions et niveaux payants varient. Finnvek, l'éditeur de ce site, développe KnitTools avec un comptage manuel associé aux projets. Consulte les [comparaison des applications tricot](/fr/articles/meilleures-applications-tricot/). Un enregistrement numérique ne mesure ni ne manipule le tricot.
 
 Pour un motif sur 24 rangs, distingue le total de la position dans la répétition. Après le rang 24 du motif terminé, le suivant est le rang 1 du motif ; le total n'a pas à revenir à zéro. Le papier permet aussi ce suivi.
 

@@ -46,7 +46,7 @@ Die [Zähleranleitung von My Row Counter](https://rowcounterapp.com/counter.html
 
 Lokales Speichern ist etwas anderes als eine Sicherungskopie, Wiederherstellung oder Synchronisierung zwischen Geräten. Prüfe Konto- und Verbindungsanforderungen je Funktion, eine wiederherstellbare Kopie und den Ablauf beim Handywechsel. Ein leerer Akku macht die App bis zum Laden unzugänglich; er beweist weder, dass die letzte Änderung gespeichert wurde, noch dass Daten verloren sind.
 
-KnitTools ist unsere Android-App in Entwicklung bei Finnvek, dem Herausgeber dieser Website. Die aktuelle Implementierung enthält manuelles Zählen per Tippen, Rückgängig für unterstützte letzte Änderungen des Hauptzählers, Projektzähler, Reihenerinnerungen und Sitzungsverlauf. Das Anlegen zusätzlicher Projektzähler und Erinnerungen erfordert Pro-Zugriff, auch während einer aktiven Testphase. Diese Angaben beruhen auf Quellcodeprüfung, nicht auf einem Praxistest oder einer Wiederherstellungsgarantie. Die [Anmeldung zur KnitTools-Veröffentlichung](/de/werkzeuge/#join) ist kein Download.
+KnitTools ist unsere Android-App in Entwicklung bei Finnvek, dem Herausgeber dieser Website. Die aktuelle Implementierung enthält manuelles Zählen per Tippen, Rückgängig für unterstützte letzte Änderungen des Hauptzählers, Projektzähler, Reihenerinnerungen und Sitzungsverlauf. Das Anlegen zusätzlicher Projektzähler und Erinnerungen erfordert Pro-Zugriff, auch während einer aktiven Testphase. Diese Angaben beruhen auf Quellcodeprüfung, nicht auf einem Praxistest oder einer Wiederherstellungsgarantie.
 
 ## Lege fest, was der Zählstand bedeutet
 

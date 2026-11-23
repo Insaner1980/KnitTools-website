@@ -91,8 +91,6 @@ Oppaan julkaisija Finnvek kehittää KnitTools-sovellusta.
 
 KnitToolsia rakennetaan Android-työkalupakiksi projektien seurantaan, kerroslaskentaan, laskemiseen ja viitetiedon hakemiseen. Toteutuksessa on projektikohtaisia lisälaskureita, projektimuistiinpanoja, tallennettuja ohjeita, laskimia ja viitemateriaalia. Nämä ovat sovelluksen toimintoja; alla linkitetyt selainlaskurit ovat erillisiä työkaluja.
 
-[Tilaa ilmoitus Android-sovelluksen julkaisusta](/fi/tyokalut/#join). Linkki vie ilmoittautumiseen, ei sovelluksen lataukseen.
-
 ## Usein kysytyt kysymykset
 
 **Tarvitsenko neulesovellusta lainkaan?**

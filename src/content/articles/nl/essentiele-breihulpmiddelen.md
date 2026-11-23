@@ -59,7 +59,7 @@ Een teller bewaart een getal dat je zelf invoert. Streepjes op papier werken ook
 
 **Mechanische tellers** hebben geen batterijen nodig. Bevestiging, nulstelling, terugstellen en vergrendeling verschillen per model. Controleer deze functies en de plaatsing, ook bij rondbreinaalden. Probeer of je de cijfers goed kunt lezen en de bediening prettig vindt.
 
-**App-tellers** kunnen projectgegevens, extra tellers en herinneringen bieden; functies en betaalde niveaus verschillen. Finnvek, de uitgever van deze website, ontwikkelt KnitTools met handmatige telling per project. Bekijk de [lanceringsinformatie van KnitTools](/nl/breitools/#join) en de [vergelijking van breiapps](/nl/artikelen/beste-breiapps-waar-let-je-op/). Digitale registratie meet of bewerkt je breisel niet.
+**App-tellers** kunnen projectgegevens, extra tellers en herinneringen bieden; functies en betaalde niveaus verschillen. Finnvek, de uitgever van deze website, ontwikkelt KnitTools met handmatige telling per project. Bekijk de [vergelijking van breiapps](/nl/artikelen/beste-breiapps-waar-let-je-op/). Digitale registratie meet of bewerkt je breisel niet.
 
 Houd bij een rapport van 24 toeren het totaal en de plek binnen het rapport uit elkaar. Na voltooide rapporttoer 24 volgt rapporttoer 1; het totaal hoeft niet naar nul. Dat kun je ook op papier bijhouden.
 

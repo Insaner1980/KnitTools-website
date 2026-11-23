@@ -77,7 +77,7 @@ Note pour chaque instruction le rang de départ, l'intervalle, le nombre total d
 
 La liste du tableau commence ainsi : « Rang 1 : endroit avec les deux diminutions. Rang 2 : envers. Rang 3 : endroit avec seulement la diminution d'emmanchure. » Coche le rang terminé et les gestes effectués. Avec deux compteurs manuels d'intervalles, avance les deux après chaque rang terminé tant que leurs séries sont actives, même sans diminution. Note séparément le nombre de diminutions déjà faites pour savoir quand arrêter.
 
-Les compteurs multiples du [compteur de rangs KnitTools](/fr/outils/#join) font partie des fonctions Pro. Pour cette méthode, tu peux utiliser des compteurs séparés, non liés, que tu avances toi-même. Tu interprètes le modèle, saisis les valeurs de départ et suis les gestes à effectuer ; cela ne promet pas que l'application lit les instructions ou crée automatiquement ce plan combiné.
+Les compteurs multiples du compteur de rangs KnitTools font partie des fonctions Pro. Pour cette méthode, tu peux utiliser des compteurs séparés, non liés, que tu avances toi-même. Tu interprètes le modèle, saisis les valeurs de départ et suis les gestes à effectuer ; cela ne promet pas que l'application lit les instructions ou crée automatiquement ce plan combiné.
 
 ## Type de diminution et symétrie
 

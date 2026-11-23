@@ -88,7 +88,7 @@ This guide is published by Finnvek, the maker of KnitTools.
 
 [KnitTools](/) is being built as an Android toolkit for project tracking, row counting, calculation, and reference lookup. Its implementation includes multiple project counters, project notes, saved patterns, calculators, and reference material. These are app features; the browser calculators linked below are separate tools.
 
-The [launch-notification signup](/#join) is for news about the Android app, not an app download.
+See the [KnitTools website](/) for app availability.
 
 ## FAQ
 

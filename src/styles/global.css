@@ -2,8 +2,7 @@
 
 @import "./typography.css";
 
-/* Globaali visually-hidden — käytössä signup-formien honeypotissa
-   ja aria-labeleissa kaikilla sivuilla, myös tool-sivuilla. */
+/* Visually hidden content remains available to assistive technology. */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -256,86 +255,6 @@ p {
   }
 }
 
-/* --- Shared waitlist UI --- */
-
-.waitlist-form {
-  max-width: var(--container-form-max);
-}
-
-.waitlist-row {
-  display: flex;
-  gap: 0;
-}
-
-.waitlist-input {
-  flex: 1;
-  padding: 14px 16px;
-  border: 2px solid var(--cream-muted);
-  border-right: none;
-  background: rgba(232, 228, 208, 0.6);
-  font-family: var(--font-body);
-  font-size: 0.95rem;
-  color: var(--text-on-light);
-  outline: none;
-}
-
-.waitlist-input::placeholder {
-  color: var(--text-on-light-muted);
-}
-
-.waitlist-input:focus {
-  border-color: var(--accent);
-}
-
-.waitlist-btn {
-  padding: 14px 24px;
-  background: var(--accent);
-  color: var(--cream);
-  border: 2px solid var(--accent);
-  font-family: var(--font-body);
-  font-size: var(--bebas-ui-size);
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background 200ms;
-  white-space: nowrap;
-}
-
-.waitlist-btn:hover {
-  background: var(--accent-hover);
-  border-color: var(--accent-hover);
-}
-
-.waitlist-meta {
-  font-family: var(--font-body);
-  font-size: var(--type-meta-md);
-  color: var(--text-on-light-muted);
-  line-height: 1.5;
-}
-
-.waitlist-success {
-  font-family: var(--font-body);
-  font-size: var(--type-body-md);
-  max-width: var(--container-form-max);
-}
-
-@media (max-width: 768px) {
-  .waitlist-row {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .waitlist-input {
-    border-right: 2px solid var(--cream-muted);
-  }
-
-  .waitlist-btn {
-    width: 100%;
-    padding: 15px 20px;
-  }
-}
-
 /* --- Buttons --- */
 
 .btn-primary {
@@ -502,40 +421,6 @@ p {
   @view-transition {
     navigation: none;
   }
-}
-
-/* --- Waitlist success feedback (shared by all signup forms) --- */
-
-.signup-success {
-  animation: success-pop 0.35s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.signup-success .success-check {
-  display: inline-block;
-  width: 1.1em;
-  height: 1.1em;
-  vertical-align: -0.18em;
-  margin-right: 0.35em;
-}
-
-.signup-success .success-check circle {
-  stroke: currentColor;
-  stroke-width: 1.6;
-  fill: none;
-  stroke-dasharray: 57;
-  stroke-dashoffset: 57;
-  animation: success-check-circle 0.45s ease-out forwards;
-}
-
-.signup-success .success-check path {
-  stroke: currentColor;
-  stroke-width: 2;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-dasharray: 14;
-  stroke-dashoffset: 14;
-  animation: success-check-mark 0.3s ease-out 0.3s forwards;
 }
 
 @keyframes success-pop {
@@ -851,4 +736,13 @@ html.reveal-animations [data-reveal="clip"].is-revealed {
     clip-path: none;
     will-change: auto;
   }
+}
+
+.tool-release-note {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem clamp(1rem, 4vw, 2rem) 3rem;
+  font-size: var(--landing-small-size);
+  line-height: 1.6;
+  color: var(--ink-soft);
 }

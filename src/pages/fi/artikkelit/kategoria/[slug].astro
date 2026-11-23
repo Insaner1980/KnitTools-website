@@ -2,7 +2,6 @@
 import { getCollection } from "astro:content";
 import PageLayout from "../../../../layouts/PageLayout.astro";
 import ArticleCard from "../../../../components/ArticleCard.astro";
-import ClosingCTA from "../../../../components/ClosingCTA.astro";
 import {
   CATEGORY_ORDER,
   getCategoryDescription,
@@ -82,15 +81,6 @@ const sortedArticles = [...articles].sort(byCategoryOrder);
       }
     </div>
   </section>
-  <ClosingCTA
-    variant="page"
-    lang="fi"
-    contentPage={category === "gauge-calculations" ||
-      category === "yarn" ||
-      category === "needles" ||
-      category === "techniques" ||
-      category === "app-tools"}
-  />
 </PageLayout>
 
 <style>

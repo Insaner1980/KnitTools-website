@@ -85,7 +85,7 @@ Osa kysymyksistä ratkeaa hakutiedolla: 3,75 mm puikolle taulukko antaa US-koon 
 
 ## Kaikki samassa paikassa
 
-Selaintyökalut ovat ilmaisia eivätkä vaadi tiliä tai asennusta. Erillistä KnitTools-Android-sovellusta rakennetaan projektien ja käsin käytettävän kerroslaskennan ympärille. Sovelluksessa on ilmaisia ja Pro-ominaisuuksia; selaintyökalujen maksuttomuus ei tarkoita kaikkien sovellustoimintojen olevan ilmaisia tai samanlaisia. [KnitToolsin julkaisutiedot ja ilmoittautuminen](/fi/tyokalut/#join) löytyvät työkalusivulta.
+Selaintyökalut ovat ilmaisia eivätkä vaadi tiliä tai asennusta. Erillistä KnitTools-Android-sovellusta rakennetaan projektien ja käsin käytettävän kerroslaskennan ympärille. Sovelluksessa on ilmaisia ja Pro-ominaisuuksia; selaintyökalujen maksuttomuus ei tarkoita kaikkien sovellustoimintojen olevan ilmaisia tai samanlaisia.
 
 ## FAQ
 

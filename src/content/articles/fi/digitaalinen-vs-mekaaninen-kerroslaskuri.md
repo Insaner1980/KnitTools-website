@@ -44,7 +44,7 @@ Esimerkiksi [My Row Counterin laskuriohje](https://rowcounterapp.com/counter.htm
 
 Paikallinen tallennus, varmuuskopiointi, palautus ja laitteiden välinen synkronointi ovat eri asioita. Tarkista kunkin toiminnon tili- ja yhteysvaatimukset, palautettavan kopion tekeminen sekä puhelimen vaihto. Tyhjä akku estää sovelluksen käytön lataamiseen asti, mutta ei yksin todista viimeisimmän muutoksen tallentuneen tai tietojen kadonneen.
 
-KnitTools on tämän sivuston julkaisijan Finnvekin kehittämä Android-sovellus. Nykyinen toteutus sisältää käsin tehtävän napautuslaskennan, tuettujen viimeaikaisten päälaskurimuutosten kumoamisen, projektin lisälaskurit, kerrosmuistutukset ja työskentelykertojen historian. Uusien lisälaskurien ja muistutusten luominen vaatii Pro-käyttöoikeuden, johon kuuluu myös aktiivinen kokeilujakso. Tiedot perustuvat lähdekoodin tarkastukseen, eivät käyttökokeeseen tai palautumistakuuseen. [KnitToolsin julkaisuilmoittautuminen](/fi/tyokalut/#join) ei ole latauslinkki.
+KnitTools on tämän sivuston julkaisijan Finnvekin kehittämä Android-sovellus. Nykyinen toteutus sisältää käsin tehtävän napautuslaskennan, tuettujen viimeaikaisten päälaskurimuutosten kumoamisen, projektin lisälaskurit, kerrosmuistutukset ja työskentelykertojen historian. Uusien lisälaskurien ja muistutusten luominen vaatii Pro-käyttöoikeuden, johon kuuluu myös aktiivinen kokeilujakso. Tiedot perustuvat lähdekoodin tarkastukseen, eivät käyttökokeeseen tai palautumistakuuseen.
 
 ## Päätä, mitä lukema tarkoittaa
 

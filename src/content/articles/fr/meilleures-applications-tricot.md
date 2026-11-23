@@ -92,8 +92,6 @@ Ce guide est publié par Finnvek, qui développe KnitTools.
 
 KnitTools est en cours de développement comme boîte à outils Android pour les projets, les compteurs de rangs et de tours, les calculs et les références. L'implémentation comprend plusieurs compteurs par projet, des notes, des modèles enregistrés, des calculateurs et des références. Ce sont des fonctions de l'application ; les calculateurs web ci-dessous sont des outils séparés.
 
-[Inscris-toi pour être informé du lancement de l'application Android](/fr/outils/#join). Le lien mène à l'inscription, pas au téléchargement de l'application.
-
 ## Questions fréquentes
 
 **Ai-je vraiment besoin d'une application tricot ?**

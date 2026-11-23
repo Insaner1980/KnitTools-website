@@ -56,7 +56,7 @@ Manuell inmatning kräver en anteckning efter passet. ”Ungefär 45 minuter, ka
 
 En projektapp kan samla tidtagning och varvräkning. Kontrollera vad appen sparar och vad du måste registrera själv; paus- och rättningsfunktionerna varierar.
 
-[KnitTools-appen](/sv/verktyg/#join) utvecklas med arbetspass vid [varvräknaren](/sv/artiklar/halla-koll-pa-varv-nar-du-stickar/). I den nuvarande implementationen startar du själv ett pass, registrerar räknarändringar medan du arbetar och stoppar sedan passet för att spara eller kasta sammanfattningen. Historiken behåller datum, tid samt räknarens start- och slutvärde i projektet. Tryck på räknaren startar inte tidtagningen och känner inte av aktiv stickning. Webbplatslänken gäller besked om lanseringen, inte nedladdning av appen.
+KnitTools-appen utvecklas med arbetspass vid [varvräknaren](/sv/artiklar/halla-koll-pa-varv-nar-du-stickar/). I den nuvarande implementationen startar du själv ett pass, registrerar räknarändringar medan du arbetar och stoppar sedan passet för att spara eller kasta sammanfattningen. Historiken behåller datum, tid samt räknarens start- och slutvärde i projektet. Tryck på räknaren startar inte tidtagningen och känner inte av aktiv stickning.
 
 För att lämna en paus utanför tiden avslutar och sparar du passet och startar ett nytt när du återvänder. Ett sparat pass kan raderas ur historiken, men historiken är ingen allmän redigerare för tidsuppgifter. Spara en rättad anteckning separat om du glömt start eller stopp. Insights använder sparade pass för total tid och minuter per varv. Siffrorna bygger på registreringarna, inte på oberoende upptäckt av stickning. Utgå inte från att alla diagram ingår i gratisnivån.
 

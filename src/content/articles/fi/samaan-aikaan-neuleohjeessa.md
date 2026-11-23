@@ -76,7 +76,7 @@ Kirjaa kummankin ohjeen aloituskerros, toistoväli, kertojen kokonaismäärä, r
 
 Yllä olevan taulukon lista alkaa näin: "Kerros 1: oikein, molemmat kavennukset. Kerros 2: nurin. Kerros 3: oikein, vain kädentiekavennus." Kuittaa sekä valmis kerros että sen muotoilut. Jos seuraat välejä kahdella käsin käytettävällä laskurilla, kasvata kumpaakin jokaisen valmistuneen kerroksen jälkeen sen sarjan ollessa käynnissä, myös ilman kavennusta neulotuilla kerroksilla. Kirjaa tehdyt kavennuskerrat erikseen, jotta tiedät milloin lopettaa.
 
-KnitTools-sovelluksen [kerroslaskurin](/fi/tyokalut/#join) useat laskurit kuuluvat Pro-ominaisuuksiin. Tähän seurantatapaan voit käyttää erillisiä laskureita ilman linkitystä ja kasvattaa niitä itse. Tulkitset ohjeen, asetat lähtölukemat ja seuraat tehtäviä kavennuksia itse; tämä ei tarkoita, että sovellus lukisi ohjeen tai muodostaisi yhdistetyn kerrossuunnitelman automaattisesti.
+KnitTools-sovelluksen kerroslaskurin useat laskurit kuuluvat Pro-ominaisuuksiin. Tähän seurantatapaan voit käyttää erillisiä laskureita ilman linkitystä ja kasvattaa niitä itse. Tulkitset ohjeen, asetat lähtölukemat ja seuraat tehtäviä kavennuksia itse; tämä ei tarkoita, että sovellus lukisi ohjeen tai muodostaisi yhdistetyn kerrossuunnitelman automaattisesti.
 
 ## Kavennustapa ja symmetria
 

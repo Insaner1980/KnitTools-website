@@ -77,7 +77,7 @@ Notiere für jede Anweisung Startreihe, Abstand, Gesamtzahl der Ausführungen, K
 
 Die Liste zur Tabelle beginnt: „Reihe 1: rechts mit beiden Abnahmen. Reihe 2: links. Reihe 3: rechts mit nur der Armlochabnahme.“ Hake sowohl die Reihe als auch die ausgeführten Schritte ab. Bei zwei manuell bedienten Intervallzählern zählst du nach jeder fertigen Reihe beide weiter, solange ihre Serien laufen, auch ohne Abnahme. Notiere die Zahl der ausgeführten Abnahmen separat, damit du das Ende jeder Serie erkennst.
 
-Mehrere Zähler im KnitTools-[Reihenzähler](/de/werkzeuge/#join) gehören zu Pro. Für diese Methode kannst du separate, nicht verknüpfte Zähler selbst weiterschalten. Du deutest die Anleitung, gibst die Startwerte ein und verfolgst die fälligen Schritte selbst; damit wird nicht versprochen, dass die App Anweisungen liest oder den zusammengeführten Plan automatisch erstellt.
+Mehrere Zähler im KnitTools-Reihenzähler gehören zu Pro. Für diese Methode kannst du separate, nicht verknüpfte Zähler selbst weiterschalten. Du deutest die Anleitung, gibst die Startwerte ein und verfolgst die fälligen Schritte selbst; damit wird nicht versprochen, dass die App Anweisungen liest oder den zusammengeführten Plan automatisch erstellt.
 
 ## Abnahmeart und Symmetrie
 

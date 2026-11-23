@@ -1,0 +1,33 @@
+---
+import {
+  PRICING,
+  getLaunchPhase,
+  getLaunchDeadline,
+  type LaunchPhase,
+} from "../config/pricing";
+import RegionalPrice from "./RegionalPrice.astro";
+
+interface Props {
+  phase?: LaunchPhase;
+}
+const {
+  phase = getLaunchPhase(
+    Date.now(),
+    PRICING.launchStartMs,
+    PRICING.launchEndMs,
+  ),
+} = Astro.props;
+const deadline = getLaunchDeadline();
+---
+
+<span data-campaign-phase="prelaunch" hidden={phase !== "prelaunch"}>
+  Planned launch price <RegionalPrice phase="launch" /> for one month from the public
+  release. Afterward: <RegionalPrice phase="permanent" />.
+</span>
+<span data-campaign-phase="launch" hidden={phase !== "launch"}>
+  Launch price <RegionalPrice phase="launch" />. Launch price ends: {deadline}.
+  Afterward: <RegionalPrice phase="permanent" />.
+</span>
+<span data-campaign-phase="regular" hidden={phase !== "regular"}>
+  Pro: <RegionalPrice phase="permanent" /> as a one-time purchase.
+</span>

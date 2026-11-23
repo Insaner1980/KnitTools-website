@@ -75,7 +75,7 @@ Anta att du ska minska på varv 15, 25, 35 och 45: först på 15 och sedan ytter
 
 En historik över arbetspass kan komplettera räknaren. Den visar appanvändning och registrerade framsteg, men bevisar inte att varje varv har stickats eller varje tryck blivit rätt.
 
-[KnitTools-appen](/sv/verktyg/#join) utvecklas för Android med manuell varvräkning, möjlighet att ångra de senaste ändringar av huvudräknaren som funktionen stöder, extra projekträknare och registrering av arbetspass. Ångra ändrar siffran, inte stickningen. Det innebär inte att fristående räknare följs åt eller att påminnelser ingår. Länken går till anmälan om lanseringen, inte till nedladdning.
+KnitTools-appen utvecklas för Android med manuell varvräkning, möjlighet att ångra de senaste ändringar av huvudräknaren som funktionen stöder, extra projekträknare och registrering av arbetspass. Ångra ändrar siffran, inte stickningen. Det innebär inte att fristående räknare följs åt eller att påminnelser ingår.
 
 ## 7. Kombinerade metoder
 

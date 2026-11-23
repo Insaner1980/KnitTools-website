@@ -2,9 +2,7 @@
 import PageLayout from "../../layouts/PageLayout.astro";
 import { getCollection } from "astro:content";
 import ArticleCard from "../../components/ArticleCard.astro";
-import ClosingCTA from "../../components/ClosingCTA.astro";
 import { CATEGORY_ORDER, getCategoryLabel } from "../../lib/categories";
-import { PRICING } from "../../config/pricing";
 import {
   buildArticleCategorySections,
   isArticleVisibleInCurrentBuild,
@@ -54,7 +52,7 @@ const totalCount = englishArticles.length;
     totalCount === 0 ? (
       <section class="empty-section">
         <div class="empty-state">
-          <p class="empty-eyebrow">Coming {PRICING.launchMonthLabel}</p>
+          <p class="empty-eyebrow">Articles in progress</p>
           <p class="empty-text">
             Articles are being written. In the meantime, try the calculators.
           </p>
@@ -91,7 +89,6 @@ const totalCount = englishArticles.length;
       ))
     )
   }
-  <ClosingCTA variant="page" />
 </PageLayout>
 
 <style>

@@ -86,7 +86,7 @@ De pagina’s [naalddiktes](/nl/breitools/naalddiktes/), [garendiktes](/nl/breit
 
 ## Alles op een plek
 
-De browsertools zijn gratis zonder account of installatie. De aparte Android-app KnitTools wordt gebouwd rond projecten en handmatig toeren tellen, met gratis en Pro-functies. Gratis browsertoegang betekent niet dat alle appfuncties gratis of identiek zijn. [Bekijk de lanceringsinformatie en de inschrijflijst van KnitTools](/nl/breitools/#join).
+De browsertools zijn gratis zonder account of installatie. De aparte Android-app KnitTools wordt gebouwd rond projecten en handmatig toeren tellen, met gratis en Pro-functies. Gratis browsertoegang betekent niet dat alle appfuncties gratis of identiek zijn.
 
 ## FAQ
 

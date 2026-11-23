@@ -1,7 +1,34 @@
 ---
-import { PRICING } from "../config/pricing";
+import {
+  PRICING,
+  getLaunchDeadline,
+  getPricePhase,
+  type LaunchPhase,
+} from "../config/pricing";
 import RegionalPrice from "./RegionalPrice.astro";
-import RegionalPricingNote from "./RegionalPricingNote.astro";
+
+interface Props {
+  phase: LaunchPhase;
+}
+const { phase } = Astro.props;
+const offerCopy = {
+  prelaunch: {
+    availability: "Coming to Google Play",
+    label: "Planned launch price",
+    detail: "First month after release",
+  },
+  launch: {
+    availability: "Available on Google Play",
+    label: "Launch price",
+    detail: "Ends " + getLaunchDeadline(),
+  },
+  regular: {
+    availability: "Available on Google Play",
+    label: "KnitTools Pro",
+    detail: "One-time purchase",
+  },
+};
+const offers = Object.entries(offerCopy);
 ---
 
 <section class="hero-editorial" aria-labelledby="hero-heading">
@@ -21,84 +48,51 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
       </p>
     </div>
 
-    <aside class="signup-card" aria-label="Launch signup">
-      <h2 class="card-head">Coming {PRICING.launchMonthLabel}</h2>
-      <p class="card-copy">
-        Be first to know when KnitTools launches on Google Play.
-      </p>
-
-      <form
-        class="signup"
-        id="hero-signup"
-        action="#"
-        method="post"
-        data-waitlist-signup
-        data-source="knittools"
-        data-sending-text="Sending…"
-        data-generic-error="Something went wrong. Please try again."
-        data-network-error="Network error. Please check your connection."
-      >
-        <label for="hero-email" class="visually-hidden">Email address</label>
-        <label for="hero-website" class="visually-hidden" aria-hidden="true"
-          >Leave this field empty</label
-        >
-        <input
-          id="hero-website"
-          name="website"
-          type="text"
-          class="visually-hidden"
-          tabindex="-1"
-          autocomplete="off"
-          aria-hidden="true"
-        />
-        <div class="signup-rows" data-content>
-          <input
-            id="hero-email"
-            type="email"
-            placeholder="your@email.com"
-            aria-describedby="hero-signup-success hero-signup-error"
-            required
-            autocomplete="email"
-          />
-          <button type="submit" class="btn-notify">Notify me at launch</button>
-        </div>
-        <p
-          id="hero-signup-success"
-          class="signup-success"
-          data-success
-          role="status"
-          aria-live="polite"
-          aria-atomic="true"
-          aria-hidden="true"
-          hidden
-        >
-          <svg
-            class="success-check"
-            viewBox="0 0 20 20"
-            aria-hidden="true"
-            focusable="false"
-          >
-            <circle cx="10" cy="10" r="9"></circle>
-            <path d="M6 10.2 9 13 14.4 7.4"></path>
-          </svg>
-          You're in. We'll email you at launch.
-        </p>
-        <p
-          id="hero-signup-error"
-          class="signup-error"
-          data-error
-          role="alert"
-          aria-hidden="true"
-          hidden
-        >
-          Something went wrong. Please try again.
+    <aside class="release-card" aria-labelledby="release-heading">
+      <h2 id="release-heading" class="card-head">
+        {
+          offers.map(([offerPhase, offer]) => (
+            <span
+              data-campaign-phase={offerPhase}
+              hidden={phase !== offerPhase}
+            >
+              {offer.availability}
+            </span>
+          ))
+        }
+      </h2>
+      <div class="card-price-line">
+        <p class="card-price">
+          <RegionalPrice phase={getPricePhase(phase)} current />
         </p>
         <p class="card-caption">
-          Launch price <RegionalPrice phase="launch" />. Regular price <RegionalPrice
-            phase="permanent"
-          /> later. {PRICING.trialDays}-day free trial. <RegionalPricingNote />
+          {
+            offers.map(([offerPhase, offer]) => (
+              <span
+                data-campaign-phase={offerPhase}
+                hidden={phase !== offerPhase}
+              >
+                <strong>{offer.label}</strong>
+                {offer.detail}
+              </span>
+            ))
+          }
         </p>
-      </form>
+      </div>
+      <div class="card-footer">
+        {
+          ["prelaunch", "launch"].map((offerPhase) => (
+            <p
+              class="card-after"
+              data-campaign-phase={offerPhase}
+              hidden={phase !== offerPhase}
+            >
+              Then <RegionalPrice phase="permanent" />
+            </p>
+          ))
+        }
+        <p>{PRICING.trialDays}-day free trial</p>
+      </div>
     </aside>
   </div>
 </section>
@@ -180,12 +174,14 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
     font-weight: 700;
   }
 
-  .signup-card {
+  .release-card {
     background: var(--paper-2);
     border: 1.5px solid var(--ink);
-    padding: 2.25rem 2rem;
+    padding: min(1.5rem, 5vw);
     max-width: 460px;
+    container-type: inline-size;
     width: 100%;
+    min-width: 0;
     justify-self: end;
     align-self: center;
   }
@@ -194,106 +190,74 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
     font-family: var(--font-body);
     font-size: var(--landing-label-size);
     font-weight: 600;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--terracotta);
-    margin: 0 0 12px;
+    margin: 0 0 1.25rem;
   }
 
-  .card-copy {
-    font-family: var(--font-body);
-    font-size: var(--landing-body-size);
-    line-height: 1.5;
-    color: var(--ink);
-    margin: 0 0 20px;
-  }
-
-  .signup {
-    margin: 0;
-    width: 100%;
-  }
-  .signup-rows {
+  .card-price-line {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .signup input {
-    width: 100%;
-    box-sizing: border-box;
-    font-family: var(--font-body);
-    font-size: 16px;
-    padding: 14px 16px;
-    border: 1.5px solid var(--ink);
-    background: var(--paper);
-    color: var(--ink);
-    border-radius: 0;
-    min-width: 0;
-  }
-  .signup input:focus {
-    outline: 2px solid var(--terracotta);
-    outline-offset: 2px;
-  }
-  .btn-notify {
-    width: 100%;
-    font-family: var(--font-body);
-    font-size: var(--landing-label-size);
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    background: var(--ink);
-    color: var(--paper);
-    border: 1.5px solid var(--ink);
-    padding: 14px 22px;
-    border-radius: 0;
-    cursor: pointer;
-    transition:
-      background 0.15s ease,
-      border-color 0.15s ease,
-      color 0.15s ease;
-  }
-  .btn-notify:hover {
-    background: var(--terracotta);
-    border-color: var(--terracotta);
-  }
-  .btn-notify:focus-visible {
-    outline: 2px solid var(--terracotta);
-    outline-offset: 3px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1rem;
   }
 
-  .signup-success {
-    display: none;
-    font-family: var(--font-body);
-    font-size: 18px;
-    color: var(--terracotta);
+  .card-price {
     margin: 0;
-    padding: 8px 0;
-  }
-  .signup-error {
-    display: none;
+    min-width: 0;
+    max-width: 100%;
+    color: var(--ink);
     font-family: var(--font-body);
-    font-size: 16px;
-    color: var(--ink-soft, var(--ink));
-    margin: 0;
-    padding: 8px 0;
+    font-size: 4rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    overflow-wrap: anywhere;
   }
+
   .card-caption {
-    margin: 14px 0 0;
-    font-family: var(--font-body);
+    flex: 1 1 9rem;
+    min-width: 0;
+    margin: 0;
     font-size: var(--landing-small-size);
-    line-height: 1.6;
+    line-height: 1.45;
     color: var(--ink-soft);
   }
 
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+  .card-caption strong {
+    display: block;
+    font-size: var(--landing-body-size);
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .card-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.35rem 1rem;
+    margin-top: 1.25rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--ink);
+    font-size: var(--landing-small-size);
+    line-height: 1.45;
+    color: var(--ink);
+  }
+
+  .card-footer p {
+    margin: 0;
+  }
+
+  .card-after {
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  @container (max-width: 200px) {
+    .card-price {
+      font-size: 2rem;
+    }
   }
 
   /* --- Entrance choreography ---
@@ -302,7 +266,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
   :global(html.reveal-animations) .eyebrow,
   :global(html.reveal-animations) .wordmark-line,
   :global(html.reveal-animations) .tagline,
-  :global(html.reveal-animations) .signup-card {
+  :global(html.reveal-animations) .release-card {
     animation: hero-rise 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
   }
   :global(html.reveal-animations) .eyebrow {
@@ -318,7 +282,7 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
   :global(html.reveal-animations) .tagline {
     animation-delay: 0.38s;
   }
-  :global(html.reveal-animations) .signup-card {
+  :global(html.reveal-animations) .release-card {
     animation-name: hero-rise-card;
     animation-delay: 0.5s;
   }
@@ -353,9 +317,8 @@ import RegionalPricingNote from "./RegionalPricingNote.astro";
       grid-template-columns: 1fr;
       gap: 3rem;
     }
-    .signup-card {
-      justify-self: stretch;
-      max-width: 100%;
+    .release-card {
+      justify-self: start;
     }
     .wordmark {
       font-size: clamp(4rem, 18vw, 8rem);

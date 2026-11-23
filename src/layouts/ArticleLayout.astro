@@ -1,6 +1,5 @@
 ---
 import PageLayout from "./PageLayout.astro";
-import ClosingCTA from "../components/ClosingCTA.astro";
 import {
   SITE_URL,
   FINNVEK_URL,
@@ -146,8 +145,6 @@ const articlesPath = getArticlesIndexPath(lang);
       </div>
     </div>
   </article>
-
-  <ClosingCTA variant="page" lang={lang} contentPage />
 </PageLayout>
 
 <script>

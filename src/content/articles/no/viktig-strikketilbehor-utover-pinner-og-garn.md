@@ -59,7 +59,7 @@ En teller lagrer tallet du selv legger inn. Streker på papir fungerer også. Hv
 
 **Mekaniske tellere** trenger ikke batteri. Feste, nullstilling, justering bakover og låsing varierer mellom modeller. Sjekk funksjonene og hvordan telleren passer arbeidet ditt, også med rundpinner. Prøv lesbarhet og betjening med dine egne hender.
 
-**App-tellere** kan ha prosjektopplysninger, ekstra tellere og påminnelser; funksjoner og betalingsnivåer varierer. Finnvek, som står bak dette nettstedet, utvikler KnitTools med prosjektkoblet, manuell telling. Les [lanseringsinformasjonen for KnitTools](/no/verktoy/#join) og [sammenligningen av strikkeapper](/no/artikler/beste-strikkeapper-hva-du-bor-se-etter/). Digitale registreringer måler eller bearbeider ikke strikketøyet.
+**App-tellere** kan ha prosjektopplysninger, ekstra tellere og påminnelser; funksjoner og betalingsnivåer varierer. Finnvek, som står bak dette nettstedet, utvikler KnitTools med prosjektkoblet, manuell telling. Les [sammenligningen av strikkeapper](/no/artikler/beste-strikkeapper-hva-du-bor-se-etter/). Digitale registreringer måler eller bearbeider ikke strikketøyet.
 
 I en rapport på 24 pinner må du skille totaltallet fra plassen i rapporten. Etter ferdig rapportpinne 24 er neste rapportpinne 1; totaltelleren trenger ikke nullstilles. Dette kan du også følge på papir.
 

@@ -92,8 +92,6 @@ Guiden publiseres av Finnvek, som utvikler KnitTools.
 
 KnitTools bygges som en Android-verktøykasse for prosjekter, pinne- og omgangstelling, beregninger og oppslag. Implementasjonen omfatter flere prosjekttellere, prosjektnotater, lagrede oppskrifter, kalkulatorer og referansemateriale. Dette er appfunksjoner; nettleserkalkulatorene nedenfor er separate verktøy.
 
-[Meld deg på for beskjed om lanseringen av Android-appen](/no/verktoy/#join). Lenken går til påmelding, ikke til nedlasting av appen.
-
 ## Vanlige spørsmål
 
 **Trenger jeg egentlig en strikkeapp?**

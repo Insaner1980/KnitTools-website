@@ -59,7 +59,7 @@ En tæller gemmer det tal, du selv indtaster. Streger på papir fungerer også. 
 
 **Mekaniske tællere** kræver ikke batterier. Fastgørelse, nulstilling, justering baglæns og lås varierer fra model til model. Tjek funktionerne og placeringen, også ved rundpinde. Prøv, om du kan læse tallet og bruge betjeningen behageligt.
 
-**App-tællere** kan have projektoplysninger, ekstra tællere og påmindelser; funktioner og betalingsniveauer varierer. Finnvek, som står bag dette websted, udvikler KnitTools med manuel, projekttilknyttet tælling. Se [KnitTools' lanceringsoplysninger](/da/strikkevaerktoejer/#join) og [sammenligningen af strikkeapps](/da/artikler/bedste-strikkeapps/). Digital registrering måler eller bearbejder ikke strikketøjet.
+**App-tællere** kan have projektoplysninger, ekstra tællere og påmindelser; funktioner og betalingsniveauer varierer. Finnvek, som står bag dette websted, udvikler KnitTools med manuel, projekttilknyttet tælling. Se [sammenligningen af strikkeapps](/da/artikler/bedste-strikkeapps/). Digital registrering måler eller bearbejder ikke strikketøjet.
 
 I en rapport på 24 pinde skal det samlede antal holdes adskilt fra placeringen i rapporten. Efter færdig rapportpind 24 følger rapportpind 1; det samlede antal behøver ikke nulstilles. Det kan også følges på papir.
 

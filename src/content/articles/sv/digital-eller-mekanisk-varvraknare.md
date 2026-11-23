@@ -47,7 +47,7 @@ En app kan samla tal och anteckningar för [flera projekt](/sv/artiklar/organise
 
 Lokal lagring är inte samma sak som säkerhetskopiering, återställning eller synkronisering mellan enheter. Kontrollera konto- och anslutningskrav för varje funktion, hur du gör en återställningsbar kopia och hur ett telefonbyte fungerar. En urladdad telefon gör appen otillgänglig tills den får ström; det bevisar varken att den senaste ändringen sparats eller att data gått förlorade.
 
-KnitTools är vår Android-app under utveckling hos Finnvek, som publicerar den här webbplatsen. Den nuvarande implementationen innehåller manuell tryckräkning, ångra för vissa senaste ändringar av huvudräknaren, projekträknare, varvpåminnelser och passhistorik. För att skapa extra projekträknare och påminnelser krävs Pro-åtkomst, även via en aktiv provperiod. Uppgifterna bygger på granskning av källkod, inte användartest eller garanti om återställning. [Anmälan inför KnitTools lansering](/sv/verktyg/#join) är inte en nedladdning.
+KnitTools är vår Android-app under utveckling hos Finnvek, som publicerar den här webbplatsen. Den nuvarande implementationen innehåller manuell tryckräkning, ångra för vissa senaste ändringar av huvudräknaren, projekträknare, varvpåminnelser och passhistorik. För att skapa extra projekträknare och påminnelser krävs Pro-åtkomst, även via en aktiv provperiod. Uppgifterna bygger på granskning av källkod, inte användartest eller garanti om återställning.
 
 ## Bestäm vad talet betyder
 

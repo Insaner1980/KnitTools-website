@@ -56,7 +56,7 @@ Manuel indtastning kræver en note efter sessionen. ”Omkring 45 minutter, mås
 
 En projektapp kan samle tidtagning og optælling. Kontrollér, hvad den gemmer, og hvad du selv skal registrere; muligheder for pauser og rettelser varierer.
 
-[KnitTools](/da/strikkevaerktoejer/#join) udvikles med arbejdssessioner ved [pinde- og omgangstælleren](/da/artikler/hold-styr-paa-pinde-og-omgange/). I den nuværende implementering starter du selv sessionen, registrerer ændringer på tælleren under arbejdet og stopper, før du vælger at gemme eller kassere oversigten. Historikken beholder dato, varighed og tællerens start- og slutværdi sammen med projektet. Tryk på tælleren starter ikke tidtagningen og registrerer ikke aktiv strikning automatisk. Weblinket gælder besked om lanceringen, ikke download af appen.
+KnitTools udvikles med arbejdssessioner ved [pinde- og omgangstælleren](/da/artikler/hold-styr-paa-pinde-og-omgange/). I den nuværende implementering starter du selv sessionen, registrerer ændringer på tælleren under arbejdet og stopper, før du vælger at gemme eller kassere oversigten. Historikken beholder dato, varighed og tællerens start- og slutværdi sammen med projektet. Tryk på tælleren starter ikke tidtagningen og registrerer ikke aktiv strikning automatisk.
 
 For at udelade en pause afslutter og gemmer du sessionen og starter en ny, når du fortsætter. En gemt session kan slettes fra historikken, men historikken er ikke en generel editor til tidsregistreringer. Gem en rettet tidsnote separat, hvis du glemte start eller stop. Insights bruger gemte sessioner til samlet tid og minutter pr. pind eller omgang. Tallene bygger på registreringerne, ikke uafhængigt observeret strikning. Antag ikke, at alle diagrammer er med i gratisniveauet.
 

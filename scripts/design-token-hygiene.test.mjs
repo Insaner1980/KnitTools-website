@@ -21,49 +21,6 @@ const collectSourceFiles = (dir, files = []) => {
 
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-const getLineNumber = (source, index) =>
-  source.slice(0, index).split(/\r?\n/).length;
-
-const getAttribute = (tag, name) => {
-  const escapedName = escapeRegExp(name);
-  const match = tag.match(
-    new RegExp(
-      `\\b${escapedName}(?:=(?:"([^"]*)"|'([^']*)'|\\{([^}]*)\\}|([^\\s>]+)))?`,
-    ),
-  );
-  return match?.[1] ?? match?.[2] ?? match?.[3] ?? match?.[4] ?? null;
-};
-
-const findTag = (source, tagName, predicate) => {
-  for (const match of source.matchAll(
-    new RegExp(`<${tagName}\\b[\\s\\S]*?>`, "g"),
-  )) {
-    const tag = match[0];
-    if (predicate(tag, match.index)) return { tag, index: match.index };
-  }
-  return null;
-};
-
-const getWaitlistForms = () => {
-  const forms = [];
-
-  for (const path of collectSourceFiles("src")) {
-    if (!/\.astro$/.test(path)) continue;
-    const source = read(path);
-
-    for (const match of source.matchAll(/<form\b[\s\S]*?<\/form>/g)) {
-      if (!match[0].includes("data-waitlist-signup")) continue;
-      forms.push({
-        path,
-        source: match[0],
-        startLine: getLineNumber(source, match.index),
-      });
-    }
-  }
-
-  return forms;
-};
-
 const cssBlock = (source, selector) => {
   const match = source.match(
     new RegExp(`${escapeRegExp(selector)}\\s*\\{([\\s\\S]*?)\\n\\s*\\}`),
@@ -268,37 +225,6 @@ describe("design token hygiene", () => {
       );
     }
   });
-
-  it("keeps the homepage closing CTA on the shared page CTA heading scale", () => {
-    const closingCta = read("src/components/ClosingCTA.astro");
-
-    assert.doesNotMatch(closingCta, /\.closing-cta--hero\s*\{/);
-    assert.match(closingCta, /font-size:\s*var\(--closing-cta-heading-size\);/);
-    assert.match(
-      closingCta,
-      /font-size:\s*var\(--closing-cta-heading-em-size\);/,
-    );
-  });
-
-  it("keeps English tool waitlist CTA headings centered", () => {
-    const toolPages = collectSourceFiles("src/pages/tools").filter(
-      (path) =>
-        path.endsWith(".astro") && read(path).includes("Where every stitch"),
-    );
-
-    assert.equal(toolPages.length, 6);
-
-    for (const path of toolPages) {
-      const source = read(path);
-      const headingBlock = cssBlock(source, ".waitlist-cta h2");
-
-      assert.match(
-        headingBlock,
-        /text-align:\s*center;/,
-        `${normalizePath(path)} should center the waitlist heading text`,
-      );
-    }
-  });
 });
 
 describe("accessibility hygiene", () => {
@@ -356,145 +282,6 @@ describe("accessibility hygiene", () => {
     }
 
     assert.deepEqual(missingNames, []);
-  });
-
-  it("announces waitlist success and error states to assistive tech", () => {
-    for (const path of [
-      "src/components/Hero.astro",
-      "src/components/ClosingCTA.astro",
-    ]) {
-      const source = read(path);
-      assert.match(source, /aria-describedby=/, path);
-      assert.match(
-        source,
-        /data-success[\s\S]*role="status"[\s\S]*aria-live="polite"[\s\S]*aria-atomic="true"/,
-        path,
-      );
-      assert.match(source, /data-error[\s\S]*role="alert"/, path);
-    }
-
-    const signupScript = read("src/scripts/waitlistSignup.ts");
-    assert.match(signupScript, /aria-invalid/);
-    assert.match(signupScript, /setAttribute\("aria-describedby"/);
-  });
-
-  it("uses a bounded network timeout for waitlist submissions", () => {
-    const signupScript = read("src/scripts/waitlistSignup.ts");
-
-    assert.match(signupScript, /WAITLIST_TIMEOUT_MS/);
-    assert.match(signupScript, /AbortController/);
-    assert.match(signupScript, /controller\.abort\(\)/);
-    assert.match(signupScript, /signal:\s*controller\.signal/);
-    assert.match(signupScript, /clearTimeout/);
-  });
-
-  it("keeps every waitlist form programmatically labeled and announced", () => {
-    const issues = [];
-
-    for (const form of getWaitlistForms()) {
-      const labels = new Set(
-        [
-          ...form.source.matchAll(
-            /<label\b[\s\S]*?\bfor=["']([^"']+)["'][\s\S]*?>/g,
-          ),
-        ].map((match) => match[1]),
-      );
-      const email = findTag(
-        form.source,
-        "input",
-        (tag) => getAttribute(tag, "type") === "email",
-      );
-      const success = findTag(form.source, "p", (tag) =>
-        /\bdata-success\b/.test(tag),
-      );
-      const error = findTag(form.source, "p", (tag) =>
-        /\bdata-error\b/.test(tag),
-      );
-      const formRef = `${normalizePath(form.path)}:${form.startLine}`;
-
-      if (!email) {
-        issues.push(`${formRef} missing email input`);
-        continue;
-      }
-
-      const emailId = getAttribute(email.tag, "id");
-      const describedBy = new Set(
-        (getAttribute(email.tag, "aria-describedby") || "")
-          .split(/\s+/)
-          .filter(Boolean),
-      );
-      const successId = success ? getAttribute(success.tag, "id") : "";
-      const errorId = error ? getAttribute(error.tag, "id") : "";
-
-      if (!emailId || !labels.has(emailId)) {
-        issues.push(`${formRef} email input is not label-linked`);
-      }
-      if (!success) {
-        issues.push(`${formRef} missing data-success message`);
-      } else {
-        if (getAttribute(success.tag, "role") !== "status") {
-          issues.push(`${formRef} success message is not role=status`);
-        }
-        if (getAttribute(success.tag, "aria-live") !== "polite") {
-          issues.push(`${formRef} success message is not aria-live=polite`);
-        }
-        if (getAttribute(success.tag, "aria-atomic") !== "true") {
-          issues.push(`${formRef} success message is not aria-atomic=true`);
-        }
-      }
-      if (!error) {
-        issues.push(`${formRef} missing data-error message`);
-      } else if (getAttribute(error.tag, "role") !== "alert") {
-        issues.push(`${formRef} error message is not role=alert`);
-      }
-      if (successId && !describedBy.has(successId)) {
-        issues.push(`${formRef} email input does not describe success state`);
-      }
-      if (errorId && !describedBy.has(errorId)) {
-        issues.push(`${formRef} email input does not describe error state`);
-      }
-    }
-
-    assert.deepEqual(issues, []);
-  });
-
-  it("keeps waitlist honeypots out of the accessibility tree", () => {
-    const issues = [];
-
-    for (const form of getWaitlistForms()) {
-      const honeypot = findTag(
-        form.source,
-        "input",
-        (tag) => getAttribute(tag, "name") === "website",
-      );
-      const formRef = `${normalizePath(form.path)}:${form.startLine}`;
-
-      if (!honeypot) {
-        issues.push(`${formRef} missing honeypot input`);
-        continue;
-      }
-
-      const honeypotId = getAttribute(honeypot.tag, "id");
-      const honeypotLabel = honeypotId
-        ? findTag(
-            form.source,
-            "label",
-            (tag) => getAttribute(tag, "for") === honeypotId,
-          )
-        : null;
-
-      if (getAttribute(honeypot.tag, "aria-hidden") !== "true") {
-        issues.push(`${formRef} honeypot input is not aria-hidden`);
-      }
-      if (
-        honeypotLabel &&
-        getAttribute(honeypotLabel.tag, "aria-hidden") !== "true"
-      ) {
-        issues.push(`${formRef} honeypot label is not aria-hidden`);
-      }
-    }
-
-    assert.deepEqual(issues, []);
   });
 
   it("uses one keyboard-complete size-chart controller", () => {
@@ -609,7 +396,10 @@ describe("performance hygiene", () => {
 
     assert.match(pricing, /export function getStructuredOffers/);
     assert.match(pricing, /eligibleRegion/);
-    assert.match(indexPage, /import \{ getStructuredOffers \}/);
+    assert.match(
+      indexPage,
+      /const structuredOffers = getStructuredOffers\(getPricePhase\(phase\)\)/,
+    );
     assert.match(indexPage, /offers: structuredOffers/);
     assert.doesNotMatch(indexPage, /getStructuredPrice/);
   });
